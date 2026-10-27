@@ -1,0 +1,189 @@
+{
+  "citation_key": "javadi_prebiotic_adipokines_2017",
+  "doi": "10.15171/mejdd.2017.66",
+  "metadata": {
+    "id": "28894517",
+    "source": "MED",
+    "pmid": "28894517",
+    "pmcid": "PMC5585907",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC5585907"
+      ]
+    },
+    "doi": "10.15171/mejdd.2017.66",
+    "title": "Effects of Probiotic and Prebiotic Supplementation on Leptin, Adiponectin, and Glycemic Parameters in Non-alcoholic Fatty Liver Disease: A Randomized Clinical Trial.",
+    "authorString": "Behrouz V, Jazayeri S, Aryaeian N, Zahedi MJ, Hosseini F.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Behrouz V",
+          "lastName": "Behrouz",
+          "firstName": "Vahideh",
+          "initials": "V",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nutrition, School of Public Health, Iran University of Medical Sciences, Tehran, Iran."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Jazayeri S",
+          "lastName": "Jazayeri",
+          "firstName": "Shima",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Research Center for Prevention of Cardiovascular Disease, Iran University of Medical Sciences, Tehran, Iran."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Aryaeian N",
+          "lastName": "Aryaeian",
+          "firstName": "Naheed",
+          "initials": "N",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nutrition, School of Public Health, Iran University of Medical Sciences, Tehran, Iran."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Zahedi MJ",
+          "lastName": "Zahedi",
+          "firstName": "Mohamad Javad",
+          "initials": "MJ",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Digestive Research Center, Kerman University of Medical Sciences, Kerman, Iran."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Hosseini F",
+          "lastName": "Hosseini",
+          "firstName": "Fatemeh",
+          "initials": "F",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Epidemiology and Biostatistics, School of Public Health, Iran University of Medical Sciences, Tehran, Iran."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "3",
+      "volume": "9",
+      "journalIssueId": 2596208,
+      "dateOfPublication": "2017 Jul",
+      "monthOfPublication": 7,
+      "yearOfPublication": 2017,
+      "journal": {
+        "medlineAbbreviation": "Middle East J Dig Dis",
+        "title": "Middle East journal of digestive diseases",
+        "essn": "2008-5249",
+        "issn": "2008-5230",
+        "isoabbreviation": "Middle East J Dig Dis",
+        "nlmid": "101535395"
+      },
+      "printPublicationDate": "2017-07-01"
+    },
+    "pubYear": "2017",
+    "pageInfo": "150-157",
+    "abstractText": "BACKGROUND According to previous studies, probiotic and prebiotic supplementation have desirable effects on glycemic parameters. Thus far, the effect of supplementation on the glycemic parameters and adipokines in non-alcoholic fatty liver disease (NAFLD) has not been assessed. Therefore, the aim of this study was to determine the effects of supplementation with probiotic and prebiotic on adiokines and glycemic parameters in the patients with NAFLD. METHODS In the present randomized, double-blind, placebo-controlled trial, 89 patients with NAFLD were randomly divided into three groups to receive one probiotic capsule + 16 g/d maltodextrin (probiotic group) or 16 g/d oligofructose powder + one placebo capsule (prebiotic group), and one placebo capsule + 16 g/d maltodextrin (control group) for 12 weeks. All the subjects in the study were advised to follow the weight loss diet and physical activity recommendations during the intervention. Fasting blood samples were taken at baseline and after the intervention to measure leptin, adiponectin, insulin, and fasting blood sugar. RESULTS At the end of the study, serum concentrations of leptin, insulin, and HOMA-IR decreased significantly in the probiotic and prebiotic groups compared with the control group. Despite the changes within the groups, serum concentrations of adiponectin did not change significantly between the three groups. Also, fasting blood sugar did not change between the groups, but decreased in the prebiotic group. Quantitative insulin-sensitivity check index (QUICKI) increased significantly in probiotic and prebiotic groups compared with the control group. CONCLUSION Probiotic and prebiotic supplementation along with lifestyle intervention has a favorable impact on glycemic parameters and leptin levels compared with lifestyle intervention alone.",
+    "affiliation": "Department of Nutrition, School of Public Health, Iran University of Medical Sciences, Tehran, Iran.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Fatty liver",
+        "Probiotic",
+        "Insulin sensitivity",
+        "Adipokine",
+        "Prebiotic"
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "http://mejdd.org/index.php/mejdd/article/download/1651/2026"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.15171/mejdd.2017.66"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC5585907"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC5585907?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 54,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "license": "cc by-nc-sa",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2017-09-13",
+    "dateOfRevision": "2020-10-01",
+    "firstPublicationDate": "2017-07-01",
+    "firstIndexDate": "2017-09-13",
+    "fullTextReceivedDate": "2025-02-03",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Effects+of+Probiotic+and+Prebiotic+Supplementation+on+Leptin%22&format=json&resultType=core",
+  "retrieved_on": "2026-10-26",
+  "access": "Metadata and abstract, not full methods"
+}

@@ -1,3 +1,5 @@
+import {canonicalContainsRelationships} from "@site/src/data/foodSubstanceRelationships.mjs";
+import {substanceLabelsOverlap} from "@site/src/data/nutritionTableMapping";
 import React from "react"
 import { usePluginData } from "@docusaurus/useGlobalData"
 import Link from "@docusaurus/Link"
@@ -88,19 +90,16 @@ export default function SubstanceRecipes({ tag }: SubstanceRecipesProps): React.
   }
   
   const substanceName = getSubstanceName(tag)
-  const substanceFoods = uniqueFoods.filter((food: Document) => {
-    const foodTagLabels = food.tags.map((t: Tag) => t.label)
-    // Check if food has the exact tag or normalized tag
-    return foodTagLabels.some((foodTag: string) => {
-      const normalizedFoodTag = getSubstanceName(foodTag)
-      return foodTag === tag || foodTag === substanceName || normalizedFoodTag === substanceName
-    })
-  })
+  const substanceFoods = uniqueFoods.filter((food: Document) =>
+    canonicalContainsRelationships(food.frontMatter).some((edge:any) =>
+      substanceLabelsOverlap(edge.substance, tag),
+    ),
+  )
 
   if (substanceFoods.length === 0) {
     return (
       <div className="bok-tag-list">
-        <em>no recipes found (no foods contain this substance)</em>
+        <em>No recipes are linked through verified direct-content food relationships. Upstream dietary pathways are shown separately.</em>
       </div>
     )
   }

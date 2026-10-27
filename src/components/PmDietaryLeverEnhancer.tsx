@@ -1,3 +1,4 @@
+import {renderDietaryConfidence} from "@site/src/lib/dietaryConfidence.mjs";
 import React, { useEffect } from "react";
 import { usePluginData } from "@docusaurus/useGlobalData";
 import { attachInputFoodDisclosure, type MappingData } from "@site/src/lib/pmInputFoodDisclosure";
@@ -53,6 +54,7 @@ function buildDetailHtml(d: DietaryLeverDisclosure): string {
   return `
     <div class="brs-dietary-lever-detail-inner">
       ${buildDescriptionHtml(d)}
+      ${renderDietaryConfidence(d.dietaryConfidence)}
       <p><span class="brs-dietary-lever-detail-k">Input</span> = ${renderInputValue(d)}</p>
       <p><span class="brs-dietary-lever-detail-k">Input type</span> = ${escapeHtml(d.inputType)}</p>
       <p><span class="brs-dietary-lever-detail-k">Biological role</span> = ${renderInlineMarkdownLinks(d.biologicalRole)}</p>
@@ -354,6 +356,7 @@ function enhanceEvidenceTitle(
 
 export default function PmDietaryLeverEnhancer({ frontMatter }: Props): React.ReactNode {
   const inputFoodData = usePluginData("input-substance-food") as MappingData;
+  const pathwayData = usePluginData("ontology-projection") as any;
   const { metadata } = useDoc();
   const { siteConfig } = useDocusaurusContext();
   const canonicalPmUrl = new URL(metadata.permalink, siteConfig.url).href;
@@ -371,7 +374,7 @@ export default function PmDietaryLeverEnhancer({ frontMatter }: Props): React.Re
       }
       if (disclosure.supportingFinding) {
         // Same-page Finding anchors must remain local on review and canonical pages.
-        if (!disclosure.supportingFinding.href.startsWith("#")) {
+        if (!disclosure.supportingFinding.href.startsWith("#") && !disclosure.supportingFinding.href.startsWith("?")) {
           disclosure.supportingFinding.href = new URL(disclosure.supportingFinding.href, canonicalPmUrl).href;
         }
       }
@@ -437,12 +440,12 @@ export default function PmDietaryLeverEnhancer({ frontMatter }: Props): React.Re
         li.dataset.pmInputFoods = parsed.foods || "";
         li.dataset.pmInputSection = section;
         enhanceListItem(li, disclosure, root);
-        attachInputFoodDisclosure(li, inputFoodData, String(frontMatter.pm_id || ""), parsed.label, section);
+        attachInputFoodDisclosure(li, inputFoodData, String(frontMatter.pm_id || ""), parsed.label, section, pathwayData?.dietaryPathways?.paths || []);
       }
     });
 
     return () => document.removeEventListener("click", onDocClick);
-  }, [frontMatter, canonicalPmUrl, inputFoodData]);
+  }, [frontMatter, canonicalPmUrl, inputFoodData, pathwayData]);
 
   return null;
 }

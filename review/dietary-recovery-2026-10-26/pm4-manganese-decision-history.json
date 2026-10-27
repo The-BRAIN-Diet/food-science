@@ -1,0 +1,103 @@
+{
+  "pm_id": "BRS3-FM2-PM4",
+  "date": "2026-10-26",
+  "old": {
+    "atom": {
+      "atom_id": "PM4-DIT-4",
+      "dietary_input": false,
+      "dietary_input_note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+      "input": "Manganese",
+      "input_type": "cofactor",
+      "biological_role": "Catalytic metal in mitochondrial manganese superoxide dismutase",
+      "evidence_source": {
+        "finding_ids": [
+          "PM4-F1"
+        ],
+        "citation_keys": [
+          "weydert_measurement_2010"
+        ]
+      },
+      "evidence_limitation": "Mitochondrial superoxide dismutase contains manganese. No human dietary-deficiency study retrieved here shows that manganese intake sets that enzyme or this balance."
+    },
+    "overlay": {
+      "atom_id": "PM4-DIT-4",
+      "relationship_layer": "biochemical-requirement",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Manganese is part of mitochondrial superoxide dismutase. It is not a dietary manganese route for this balance.",
+      "evidence_limitation": "Mitochondrial superoxide dismutase contains manganese. No human dietary-deficiency study retrieved here shows that manganese intake sets that enzyme or this balance."
+    },
+    "presentation": {
+      "atom_id": "PM4-DIT-4",
+      "label": "Manganese",
+      "presentation_section": "3.1.2"
+    }
+  },
+  "current": {
+    "atom": {
+      "atom_id": "PM4-DIT-4",
+      "dietary_input": true,
+      "dietary_input_note": "2026-10-26: Type A capacity supply admitted after dietary manganese depletion evidence was assessed separately from absence of a human supplementation response. Original No decision and text retained in recovery history.",
+      "input": "Manganese",
+      "input_type": "cofactor",
+      "biological_role": "Catalytic metal in mitochondrial manganese superoxide dismutase",
+      "evidence_source": {
+        "finding_ids": [
+          "PM4-F1",
+          "PM4-F5"
+        ],
+        "citation_keys": [
+          "weydert_measurement_2010",
+          "paynter_manganese_sod_1980"
+        ]
+      },
+      "evidence_limitation": "Human SOD2 requires manganese; dietary depletion experiments measured lower heart and kidney MnSOD activity in rats. This establishes a bounded enzyme-capacity dependency, not a human dose recommendation, universal tissue response, measured net ROS balance or benefit above adequate intake."
+    },
+    "overlay": {
+      "atom_id": "PM4-DIT-4",
+      "relationship_layer": "dietary-requirement",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Manganese supplies the catalytic metal required by mitochondrial superoxide dismutase.",
+      "evidence_limitation": "Human SOD2 requires manganese; dietary depletion experiments measured lower heart and kidney MnSOD activity in rats. This establishes a bounded enzyme-capacity dependency, not a human dose recommendation, universal tissue response, measured net ROS balance or benefit above adequate intake.",
+      "requirement_classification": "direct",
+      "relationship_mode": "capacity-requirement"
+    },
+    "assessment": {
+      "atom_id": "PM4-DIT-4",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Balance reactive oxygen species production and clearance so net oxidative pressure stays within tolerable limits.",
+      "canonical_substance_id": "manganese",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Manganese is the catalytic metal of human mitochondrial SOD2. Dietary manganese depletion lowered measured heart and kidney MnSOD activity in rats; this supports capacity supply, not extra-intake optimisation.",
+        "sources": [
+          "https://www.uniprot.org/uniprotkb/P04179/entry",
+          "https://doi.org/10.1093/jn/110.3.437"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Existing structured manganese composition records supply the same element; enzyme loading and tissue transport remain biological dependencies, with no food-efficacy extrapolation.",
+        "sources": [
+          "docs/foods/almonds.md",
+          "docs/substances/nutrients/micronutrients/minerals/trace/manganese.md"
+        ]
+      },
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Human SOD2 requires manganese; dietary depletion experiments measured lower heart and kidney MnSOD activity in rats. This establishes a bounded enzyme-capacity dependency, not a human dose recommendation, universal tissue response, measured net ROS balance or benefit above adequate intake.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/almonds.md",
+          "docs/foods/oats.md",
+          "docs/substances/nutrients/micronutrients/minerals/trace/manganese.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "The existing manganese ontology already provides verified foods. This review reuses them without creating new edges or treating a food amount as a measured enzyme response."
+      }
+    }
+  },
+  "reason": "User-authorised recovery under existing Type A functional-dependency and dietary-supply gate; human extra-intake trials are not mandatory."
+}

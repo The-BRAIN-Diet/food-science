@@ -1,3 +1,4 @@
+import {resolveAggregateFoodSources} from '../../src/lib/aggregateFoodComposition.mjs';
 import {projectFoodTargets} from '../../src/lib/foodTargetTraceability.mjs';
 import {historicalAdmission} from './dietary-input-governance.mjs';
 /** Generated joins only. PM/KC admissions, substance registry and food composition remain authoritative. */
@@ -15,9 +16,9 @@ export const normalize = v => String(v || '').toLowerCase().normalize('NFKD').re
 const section = v => String(v || '').replace(/^1\.1\./, '3.1.');
 const walk = dir => fs.existsSync(dir) ? fs.readdirSync(dir, { withFileTypes: true }).flatMap(e => e.isDirectory() ? walk(path.join(dir, e.name)) : [path.join(dir, e.name)]).filter(p => /\.mdx?$/.test(p)) : [];
 const unique = a => [...new Set(a)];
-export function amountDisplay(o) { return o?.value != null ? `${o.value} ${o.unit}` : o?.range ? `${o.range[0]}–${o.range[1]} ${o.unit}` : 'Quantity not established'; }
+export function amountDisplay(o) { return o?.value != null ? `${o.value} ${o.unit}` : o?.range ? `${o.range[0]}–${o.range[1]} ${o.unit}` : 'value not known'; }
 export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
-    if (!/^BRS[1-6]$/.test(brs)) throw new Error('Mapping scope must be BRS1–6');
+    if (!/^(BRS[1-6]|BRS-X)$/.test(brs)) throw new Error('Mapping scope must be BRS1–6 or BRS-X');
     const scope = brs.toLowerCase();
     const reads = new Set(), gaps = [], conflicts = [];
     function load(file) { const full = path.join(root, file); reads.add(file); return { file, ...matter(fs.readFileSync(full, 'utf8')) }; }
@@ -31,7 +32,7 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
         const form = forms.get(id);
         if (form) {
             reads.add(form.file);
-            substances[id] = { id, title: form.title, page: form.href, record: registryFile + '#' + id, exists: Boolean(form.documented), identity_registered: true, parent_substance_id: form.parent_substance_id };
+            substances[id] = { id, title: form.title, aliases: form.aliases, page: form.href, record: registryFile + '#' + id, exists: Boolean(form.documented), identity_registered: true, parent_substance_id: form.parent_substance_id };
             for (const name of [id, form.title, ...form.aliases]) alias(name, id);
             if (!form.documented) gaps.push({ kind: 'substance-documentation', substance_id: id, record: form.file, reason: 'Registered identity retained; shared documentation page or anchor does not verify.' });
             continue;
@@ -40,7 +41,7 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
             continue;
         const file = 'docs/substances/' + r.path;
         const exists = fs.existsSync(path.join(root, file)), d = exists ? load(file).data : {};
-        substances[id] = { id, title: d.title || r.title || id, aliases: [...(r.aliases || []), ...(d.aliases || [])], page: exists ? '/docs/substances/' + r.path.replace(/\.mdx?$/, '') : null, record: registryFile + '#' + id, exists };
+        substances[id] = { id, title: d.title || r.title || id, aliases: unique([...(r.aliases || []), ...(d.aliases || []), ...(d.synonyms || [])]), page: exists ? '/docs/substances/' + r.path.replace(/\.mdx?$/, '') : null, record: registryFile + '#' + id, exists, identity_type:d.identity_type, constituent_ids:d.constituent_ids, food_delivery_assessment:d.food_delivery_assessment };
         for (const name of [id, r.title, d.title, d.sidebar_label, ...(d.aliases || []), ...(d.synonyms || [])]) {
             alias(name, id);
             const par = String(name || '').match(/^(.+?)\s*\((.+)\)$/);
@@ -176,10 +177,11 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
         const material = src?.food_name || d.food_identity?.material || d.title, prep = d.preparation_state || d.food_identity?.preparation || (/\b(raw|uncooked|cooked|dried|roasted|boiled|oil)\b/i.exec(src?.food_name || '')?.[1] || null);
         for (const edge of canonicalContainsRelationships(d)) {
             const ident = identity(edge.substance, edge.substance_id);
-            if (!ident.id || !needed.has(ident.id) || heldSubstances.has(ident.id))
+            if (!ident.id || !needed.has(ident.id) || heldSubstances.has(ident.id) || substances[ident.id]?.identity_type === 'defined-substrate-class')
                 continue;
             const e = entry(ident.id, edge.evidence_material || material, Object.hasOwn(edge, 'preparation_state') ? edge.preparation_state : prep);
             e.presence_records.push({ record: doc.file + '#substance_relationships/' + encodeURIComponent(edge.substance), evidence: edge.evidence_source || edge.evidence_basis || null, source_url: edge.source_url || null, source_reference: edge.source_reference || null, citation_keys: edge.citation_keys || [], relationship_type: edge.relationship, presence_status: edge.presence_status || 'supported-qualitative', limitations: edge.material_limitations || edge.description || null });
+            e.food_delivery_notes = edge.food_delivery_notes || e.food_delivery_notes;
             e.chemical_form = edge.chemical_form || e.chemical_form;
             e.food_matrix = edge.food_matrix || e.food_matrix;
             e.preparation_effects = edge.preparation_effects || e.preparation_effects;
@@ -234,6 +236,7 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
             gaps.push({ kind: 'specialist-specification-not-joined', food_id: foodId, record: doc.file, reason: 'Authorised specification schema needs a material-specific adapter; no generic amount inferred.' });
         }
         foodSources.push(...entries.values());
+        for (const aggregate of Object.values(substances).filter(s => needed.has(s.id) && s.identity_type === 'defined-substrate-class')) foodSources.push(...resolveAggregateFoodSources(d, aggregate, doc.file));
         if (validPanel && src && Number.isFinite(d.nutrition_per_100g?.carbs_g) && Number.isFinite(d.nutrition_per_100g?.protein_g))
             patternCandidates.push({ food_id: foodId, food_page: page, title: d.title, composition_record: doc.file + '#nutrition_per_100g', composition_values: { carbs_g: d.nutrition_per_100g.carbs_g, protein_g: d.nutrition_per_100g.protein_g }, fields: ['carbs_g', 'protein_g'], qualification: 'Candidate ingredient composition only; a single food does not establish a meal pattern, ratio or target.' });
     }

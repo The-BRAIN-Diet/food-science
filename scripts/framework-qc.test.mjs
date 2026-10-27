@@ -320,18 +320,26 @@ test("PM open issues stay page-specific and off the framework register", () => {
     resolution_needs: "Needs",
   }
   assert.match(validatePmOpenIssues([resolved]).join("\n"), /resolution_correction_id/)
-  assert.deepEqual(
-    validatePmOpenIssues([
-      {
-        ...resolved,
-        resolution_correction_id: "FW004",
-      },
-    ], {corrections: issuesDoc.issues.filter((issue) => issue.id === "FW004").map((issue) => ({...issue, scope: {page_ids: ["BRS2-FM2-PM6"]}}))}),
-    [],
-  )
+  // This synthetic resolution must not depend on an ignored local QC register.
+  const resolvedFixture = {...resolved, resolution_correction_id: "FIXTURE-PM6-CORRECTION"}
+  const correctionFixture = {
+    id: "FIXTURE-PM6-CORRECTION",
+    register_surface: "pm-tab",
+    scope: {page_ids: ["BRS2-FM2-PM6"]},
+  }
+  assert.deepEqual(validatePmOpenIssues([resolvedFixture], {corrections: [correctionFixture]}), [])
+  assert.match(validatePmOpenIssues([resolvedFixture], {corrections: []}).join("\n"), /not in Review & Corrections/)
+  assert.match(validatePmOpenIssues([resolvedFixture], {corrections: [{...correctionFixture, register_surface: "framework-register"}]}).join("\n"), /not a framework-register issue/)
+  assert.match(validatePmOpenIssues([resolvedFixture], {corrections: [{...correctionFixture, scope: {page_ids: ["BRS1-FM1-PM1"]}}]}).join("\n"), /not scoped to BRS2-FM2-PM6/)
   const panel = fs.readFileSync(path.join(root, "src/components/ReviewCorrections/OpenIssuesPanel.tsx"), "utf8")
   const bar = fs.readFileSync(path.join(root, "src/components/ReviewCorrections/DocUtilityBar.tsx"), "utf8")
   assert.match(bar, /Open Issues/)
   assert.equal(/framework-review-and-corrections|register_path|related_framework_issue_ids/.test(panel), false)
-  assert.equal(doc.issues.some((issue) => issue.pm_id !== "BRS2-FM2-PM6"), false)
+  // The shared register now serves multiple PMs; each selector must still
+  // return only its own active issues and never leak another PM's questions.
+  for (const pmId of new Set(doc.issues.map((issue) => issue.pm_id))) {
+    const selected = currentPmOpenIssues(doc.issues, pmId)
+    assert.ok(selected.every((issue) => issue.pm_id === pmId && issue.status !== "resolved"))
+    assert.deepEqual(selected.map((issue) => issue.id), doc.issues.filter((issue) => issue.pm_id === pmId && ["open", "under-investigation", "deferred"].includes(issue.status) && (!issue.scope_disposition || issue.scope_disposition === "retain")).map((issue) => issue.id))
+  }
 })

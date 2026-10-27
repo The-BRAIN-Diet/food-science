@@ -1,0 +1,97 @@
+[
+  {
+    "relationship_id": "BRS-X(ECS-PM1)::PM1-DIT-1",
+    "source_record": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx#dietary_input_traceability/PM1-DIT-1",
+    "input": "N-acyl phosphatidylethanolamines (NAPEs)",
+    "dietary_input": null,
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS-X(ECS-PM1)::PM1-DIT-2",
+    "source_record": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx#dietary_input_traceability/PM1-DIT-2",
+    "input": "Phosphatidylethanolamine",
+    "dietary_input": null,
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS-X(ECS-PM1)::PM1-DIT-3",
+    "source_record": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx#dietary_input_traceability/PM1-DIT-3",
+    "input": "Zinc",
+    "dietary_input": true,
+    "note": "2026-10-26 recovery: admitted Type A capacity under the functional-dependency and dietary-supply gate. The original biochemical-only record and its rationale are preserved in the recovery history. No additional-intake efficacy is asserted.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS-X(ECS-PM2)::PM2-DIT-1",
+    "source_record": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx#dietary_input_traceability/PM2-DIT-1",
+    "input": "DHA (Docosahexaenoic Acid)",
+    "dietary_input": true,
+    "note": "2026-10-26: existing Direct capacity overlay and canonical source record retained; missing dietary-applicability field resolved under an explicit Type A assessment. Direct is relative to ethanolamide production, not direct metabolite content of food.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS-X(ECS-PM2)::PM2-DIT-2",
+    "source_record": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx#dietary_input_traceability/PM2-DIT-2",
+    "input": "EPA (Eicosapentaenoic Acid)",
+    "dietary_input": true,
+    "note": "2026-10-26: existing Direct capacity overlay and canonical source record retained; missing dietary-applicability field resolved under an explicit Type A assessment. Direct is relative to ethanolamide production, not direct metabolite content of food.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS-X(ECS-PM3)::PM3-DIT-1",
+    "source_record": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation.mdx#dietary_input_traceability/PM3-DIT-1",
+    "input": "Anandamide (AEA)",
+    "dietary_input": null,
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS-X(ECS-PM4)::PM4-DIT-1",
+    "source_record": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation.mdx#dietary_input_traceability/PM4-DIT-1",
+    "input": "2-Arachidonoylglycerol (2-AG)",
+    "dietary_input": null,
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS-X(Hormones-PM2)::PM2-DIT-1",
+    "source_record": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation.mdx#dietary_input_traceability/PM2-DIT-1",
+    "input": "Estrogen glucuronides",
+    "dietary_input": null,
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS-X(Hormones-PM3)::PM3-DIT-1",
+    "source_record": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism.mdx#dietary_input_traceability/PM3-DIT-1",
+    "input": "3α,5α-Tetrahydrodeoxycorticosterone (THDOC)",
+    "dietary_input": null,
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS-X(Hormones-PM3)::PM3-DIT-2",
+    "source_record": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism.mdx#dietary_input_traceability/PM3-DIT-2",
+    "input": "Molecular hydrogen (H₂)",
+    "dietary_input": null,
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS-X(Hormones-PM5)::PM5-DIT-1",
+    "source_record": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability.mdx#dietary_input_traceability/PM5-DIT-1",
+    "input": "Zinc",
+    "dietary_input": null,
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS-X(Hormones-PM5)::PM5-DIT-RECOVERY-ZINC-RECEPTOR",
+    "source_record": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability.mdx#dietary_input_traceability/PM5-DIT-RECOVERY-ZINC-RECEPTOR",
+    "input": "Zinc",
+    "dietary_input": true,
+    "note": "2026-10-26 Type A/Direct adjudication for a distinct receptor-structural proposition. PM5-DIT-1 and SF1 retain the separate historical ligand-supply evidence; no automatic acceptance of its receptor or behavioural extrapolation.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS-X(Hormones-PM6)::PM6-DIT-1",
+    "source_record": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation.mdx#dietary_input_traceability/PM6-DIT-1",
+    "input": "Androgen glucuronides",
+    "dietary_input": null,
+    "flags": []
+  }
+]

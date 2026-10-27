@@ -1,3 +1,4 @@
+import {isScientificPrinciple} from '../lib/scientificPrinciples.mjs'
 import React, { useEffect, useRef } from "react"
 import { initBrsFmHubDropdowns } from "../client/brsFmHubDropdown"
 import {SecAssessmentSummary} from "./SecAssessment"
@@ -240,7 +241,7 @@ export default function ScientificFinding({
 }: {
   finding: ScientificFindingData
   pmId?: string
-}): React.JSX.Element {
+}): React.JSX.Element | null {
   const rootRef = useRef<HTMLElement>(null)
   const {frontMatter} = useDoc()
   const interventionLinks = findingInterventionLinks(frontMatter, finding.id)
@@ -257,6 +258,8 @@ export default function ScientificFinding({
       initBrsFmHubDropdowns(rootRef.current)
     }
   }, [finding.id])
+
+  if (isScientificPrinciple(frontMatter, finding.id)) return null
 
   return (
     <section

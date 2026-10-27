@@ -1,0 +1,77 @@
+{
+  "n-acetylcysteine": {
+    "status": "no-ordinary-food-source",
+    "classification": "E",
+    "reason": "No verified ordinary-food source of N-acetylcysteine was identified. The admitted exposure is supplemental NAC; protein cysteine or cystine is not NAC.",
+    "sources": [
+      "https://www.rivm.nl/bibliotheek/rapporten/2024-0086.pdf"
+    ]
+  },
+  "oligofructose": {
+    "status": "no-ordinary-food-source",
+    "classification": "E",
+    "reason": "The admitted oligofructose exposure is a defined inulin-hydrolysate preparation. Native food FOS fractions do not establish an equivalent chain-length mixture or supplement exposure.",
+    "sources": [
+      "https://doi.org/10.1080/10942912.2012.680221",
+      "https://doi.org/10.1093/jn/137.11.2493S"
+    ]
+  },
+  "uridine": {
+    "status": "verified-qualitative",
+    "classification": "B",
+    "sources": [
+      "https://doi.org/10.3168/jds.S0022-0302(84)81361-2"
+    ]
+  },
+  "pyridoxal-5-phosphate": {
+    "status": "verified-qualitative",
+    "classification": "B",
+    "sources": [
+      "https://doi.org/10.1016/j.chroma.2017.04.009"
+    ]
+  },
+  "flavin-mononucleotide": {
+    "status": "verified-qualitative",
+    "classification": "B",
+    "sources": [
+      "https://doi.org/10.1016/j.chroma.2017.04.009"
+    ]
+  },
+  "arabinan": {
+    "status": "verified-qualitative",
+    "classification": "B",
+    "sources": [
+      "https://doi.org/10.1046/j.1365-313x.2000.00719.x"
+    ]
+  },
+  "glutamine": {
+    "status": "verified-qualitative",
+    "classification": "B",
+    "sources": [
+      "https://doi.org/10.1038/ejcn.2009.110"
+    ]
+  },
+  "glutamate": {
+    "status": "verified-qualitative",
+    "classification": "B",
+    "sources": [
+      "https://doi.org/10.1038/ejcn.2009.110"
+    ]
+  },
+  "cysteine": {
+    "status": "verified-qualitative",
+    "classification": "A",
+    "sources": [
+      "https://doi.org/10.1002/fsn3.473"
+    ]
+  },
+  "glucose": {
+    "status": "verified-quantitative",
+    "classification": "B",
+    "sources": [
+      "https://fdc.nal.usda.gov/food-details/173944/nutrients",
+      "https://fdc.nal.usda.gov/food-details/174683/nutrients",
+      "https://fdc.nal.usda.gov/food-details/169640/nutrients"
+    ]
+  }
+}

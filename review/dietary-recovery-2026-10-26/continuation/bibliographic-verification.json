@@ -1,0 +1,443 @@
+[
+  {
+    "key": "dix_brain_mao_riboflavin_1981",
+    "doi": "10.1093/jn/111.8.1397",
+    "title": "Brain Monoamine Oxidase and Replacement of its Coenzyme Flavin in Rats",
+    "authors": [
+      {
+        "given": "Barbara A.",
+        "family": "Dix",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "John P.",
+        "family": "Lambooy",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "year": 1981,
+    "journal": "The Journal of Nutrition"
+  },
+  {
+    "key": "wolthers_msr_flavins_2007",
+    "doi": "10.1021/bi701209p",
+    "title": "Mechanism of Coenzyme Binding to Human Methionine Synthase Reductase Revealed through the Crystal Structure of the FNR-like Module and Isothermal Titration Calorimetry<sup>,</sup>",
+    "authors": [
+      {
+        "given": "Kirsten R.",
+        "family": "Wolthers",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Faculty of Life Sciences, University of Manchester, Manchester Interdisciplinary Biocentre, 131 Princess Street, Manchester M1 7DN, United Kingdom"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaodong",
+        "family": "Lou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Life Sciences, University of Manchester, Manchester Interdisciplinary Biocentre, 131 Princess Street, Manchester M1 7DN, United Kingdom"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Helen S.",
+        "family": "Toogood",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Life Sciences, University of Manchester, Manchester Interdisciplinary Biocentre, 131 Princess Street, Manchester M1 7DN, United Kingdom"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David",
+        "family": "Leys",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Life Sciences, University of Manchester, Manchester Interdisciplinary Biocentre, 131 Princess Street, Manchester M1 7DN, United Kingdom"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nigel S.",
+        "family": "Scrutton",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Life Sciences, University of Manchester, Manchester Interdisciplinary Biocentre, 131 Princess Street, Manchester M1 7DN, United Kingdom"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2007,
+    "journal": "Biochemistry"
+  },
+  {
+    "key": "weitzel_selenium_phgpx_1990",
+    "doi": "10.1016/0304-4165(90)90018-R",
+    "title": "Phospholipid hydroperoxide glutathione peroxidase in various mouse organs during selenium deficiency and repletion",
+    "authors": [
+      {
+        "given": "Frank",
+        "family": "Weitzel",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fulvio",
+        "family": "Ursini",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Albrecht",
+        "family": "Wendel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 1990,
+    "journal": "Biochimica et Biophysica Acta (BBA) - General Subjects"
+  },
+  {
+    "key": "marcocci_selenium_thioredoxin_1997",
+    "doi": "10.1002/biof.5520060305",
+    "title": "Evidence for a functional relevance of the selenocysteine residue in mammalian thioredoxin reductase",
+    "authors": [
+      {
+        "given": "Lucia",
+        "family": "Marcocci",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Leopold",
+        "family": "Floh\u00e9",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Lester",
+        "family": "Packer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "year": 1997,
+    "journal": "BioFactors"
+  },
+  {
+    "key": "liu_epicatechin_conversion_2020",
+    "doi": "10.1021/acs.jafc.0c05890",
+    "title": "Interindividual Differences in Human Intestinal Microbial\nConversion of (\u2212)-Epicatechin to Bioactive Phenolic Compounds",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7332-9304",
+        "authenticated-orcid": true,
+        "given": "Chen",
+        "family": "Liu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Wageningen University and Research , , ,",
+            "place": [
+              "Wageningen, The Netherlands, 6708 WE"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0091-5687",
+        "authenticated-orcid": true,
+        "given": "Jacques",
+        "family": "Vervoort",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Wageningen University and Research , , ,",
+            "place": [
+              "Wageningen, The Netherlands, 6708 WE"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Karsten",
+        "family": "Beekmann",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Wageningen University and Research , , ,",
+            "place": [
+              "Wageningen, The Netherlands, 6708 WE"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6107-1473",
+        "authenticated-orcid": true,
+        "given": "Marta",
+        "family": "Baccaro",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Wageningen University and Research , , ,",
+            "place": [
+              "Wageningen, The Netherlands, 6708 WE"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lenny",
+        "family": "Kamelia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Wageningen University and Research , , ,",
+            "place": [
+              "Wageningen, The Netherlands, 6708 WE"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sebas",
+        "family": "Wesseling",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Wageningen University and Research , , ,",
+            "place": [
+              "Wageningen, The Netherlands, 6708 WE"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ivonne M. C. M.",
+        "family": "Rietjens",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Wageningen University and Research , , ,",
+            "place": [
+              "Wageningen, The Netherlands, 6708 WE"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2020,
+    "journal": "Journal of Agricultural and Food Chemistry"
+  },
+  {
+    "key": "duncan_acetate_butyrate_2004",
+    "doi": "10.1079/BJN20041150",
+    "title": "Contribution of acetate to butyrate formation by human faecal bacteria",
+    "authors": [
+      {
+        "given": "Sylvia H.",
+        "family": "Duncan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Grietje",
+        "family": "Holtrop",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gerald E.",
+        "family": "Lobley",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A. Graham",
+        "family": "Calder",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Colin S.",
+        "family": "Stewart",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Harry J.",
+        "family": "Flint",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": 2004,
+    "journal": "British Journal of Nutrition"
+  }
+]

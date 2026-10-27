@@ -1,0 +1,648 @@
+{
+  "citation_key": "baril_gravel_dha_canola_2015",
+  "doi": "10.1016/j.numecd.2014.08.003",
+  "metadata": {
+    "id": "25240692",
+    "source": "MED",
+    "pmid": "25240692",
+    "doi": "10.1016/j.numecd.2014.08.003",
+    "title": "Docosahexaenoic acid-enriched canola oil increases adiponectin concentrations: a randomized crossover controlled intervention trial.",
+    "authorString": "Baril-Gravel L, Labont\u00e9 ME, Couture P, Vohl MC, Charest A, Guay V, Jenkins DA, Connelly PW, West S, Kris-Etherton PM, Jones PJ, Fleming JA, Lamarche B.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Baril-Gravel L",
+          "lastName": "Baril-Gravel",
+          "firstName": "L",
+          "initials": "L",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Institute of Nutrition and Functional Foods, Laval University, Qu\u00e9bec, QC G1V 0A6, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Labont\u00e9 ME",
+          "lastName": "Labont\u00e9",
+          "firstName": "M-E",
+          "initials": "ME",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-9745-0443"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Institute of Nutrition and Functional Foods, Laval University, Qu\u00e9bec, QC G1V 0A6, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Couture P",
+          "lastName": "Couture",
+          "firstName": "P",
+          "initials": "P",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-8414-3847"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Institute of Nutrition and Functional Foods, Laval University, Qu\u00e9bec, QC G1V 0A6, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Vohl MC",
+          "lastName": "Vohl",
+          "firstName": "M-C",
+          "initials": "MC",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-7017-5848"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Institute of Nutrition and Functional Foods, Laval University, Qu\u00e9bec, QC G1V 0A6, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Charest A",
+          "lastName": "Charest",
+          "firstName": "A",
+          "initials": "A",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Institute of Nutrition and Functional Foods, Laval University, Qu\u00e9bec, QC G1V 0A6, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Guay V",
+          "lastName": "Guay",
+          "firstName": "V",
+          "initials": "V",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Institute of Nutrition and Functional Foods, Laval University, Qu\u00e9bec, QC G1V 0A6, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Jenkins DA",
+          "lastName": "Jenkins",
+          "firstName": "D A",
+          "initials": "DA",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Keenan Research Centre for Biomedical Science of St-Michael's Hospital, University of Toronto, Toronto, ON M5B 1W8, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Connelly PW",
+          "lastName": "Connelly",
+          "firstName": "P W",
+          "initials": "PW",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-7244-6843"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Keenan Research Centre for Biomedical Science of St-Michael's Hospital, University of Toronto, Toronto, ON M5B 1W8, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "West S",
+          "lastName": "West",
+          "firstName": "S",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Pennsylvania State University, University Park, PA 16802, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Kris-Etherton PM",
+          "lastName": "Kris-Etherton",
+          "firstName": "P M",
+          "initials": "PM",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-6012-4900"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Pennsylvania State University, University Park, PA 16802, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Jones PJ",
+          "lastName": "Jones",
+          "firstName": "P J",
+          "initials": "PJ",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Richardson Centre for Functional Foods and Nutraceuticals, University of Manitoba, Winnipeg, MB R3T 6C5, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Fleming JA",
+          "lastName": "Fleming",
+          "firstName": "J A",
+          "initials": "JA",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Pennsylvania State University, University Park, PA 16802, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Lamarche B",
+          "lastName": "Lamarche",
+          "firstName": "B",
+          "initials": "B",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-4443-5378"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Institute of Nutrition and Functional Foods, Laval University, Qu\u00e9bec, QC G1V 0A6, Canada. Electronic address: benoit.lamarche@fsaa.ulaval.ca."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-6012-4900"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-7244-6843"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-9745-0443"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-4443-5378"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-7017-5848"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-8414-3847"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "1",
+      "volume": "25",
+      "journalIssueId": 2244731,
+      "dateOfPublication": "2015 Jan",
+      "monthOfPublication": 1,
+      "yearOfPublication": 2015,
+      "journal": {
+        "medlineAbbreviation": "Nutr Metab Cardiovasc Dis",
+        "title": "Nutrition, metabolism, and cardiovascular diseases : NMCD",
+        "essn": "1590-3729",
+        "issn": "0939-4753",
+        "isoabbreviation": "Nutr Metab Cardiovasc Dis",
+        "nlmid": "9111474"
+      },
+      "printPublicationDate": "2015-01-01"
+    },
+    "pubYear": "2015",
+    "pageInfo": "52-59",
+    "abstractText": "<h4>Background and aims</h4>Little is known about the effect of various dietary fatty acids on pro- and anti-inflammatory processes. We investigated the effect of 5 oils containing various amounts of alpha-linolenic acid (ALA), linoleic acid (LA), oleic acid (OA) and docosahexaenoic acid (DHA) on plasma inflammatory biomarkers and expression levels of key inflammatory genes and transcription factors in whole blood cells.<h4>Methods and results</h4>In a randomized, crossover controlled nutrition intervention, 114 adult men and women with abdominal obesity and at least one other criterion for the metabolic syndrome consumed 5 experimental isoenergetic diets for 4 weeks each, separated by 4-week washout periods. Each diet provided 60 g/3000 kcal of different oils: 1) control corn/safflower oil blend (CornSaff; LA-rich), 2) flax/safflower oil blend (FlaxSaff; ALA-rich), 3) conventional canola oil (Canola; OA-rich), 4) high oleic canola oil (CanolaOleic; highest OA content), 5) DHA-enriched high oleic canola oil (CanolaDHA; OA- and DHA-rich). Gene expression in whole blood cells was assessed in a subset of 62 subjects. CanolaDHA increased plasma adiponectin concentrations compared with the control CornSaff oil treatment (+4.5%, P = 0.04) and FlaxSaff (+6.9%, P = 0.0008). CanolaDHA also reduced relative expression levels of interleukin (IL)1B compared with CornSaff and Canola (-11% and -13%, respectively, both P = 0.03). High-sensitivity C-reactive protein concentrations were lower after Canola than after FlaxSaff (-17.8%, P = 0.047).<h4>Conclusion</h4>DHA-enriched canola oil exerts anti-inflammatory effects compared with polyunsaturated fatty acids from plant sources.",
+    "affiliation": "Institute of Nutrition and Functional Foods, Laval University, Qu\u00e9bec, QC G1V 0A6, Canada.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Comparative Study",
+        "Research Support, Non-U.S. Gov't",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "Canadian Institutes of Health Research",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Blood Cells",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Docosahexaenoic Acids",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AN",
+                "qualifierName": "analysis"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "TU",
+                "qualifierName": "therapeutic use"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Fatty Acids, Monounsaturated",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "TU",
+                "qualifierName": "therapeutic use"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "CH",
+                "qualifierName": "chemistry"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Anti-Inflammatory Agents, Non-Steroidal",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AN",
+                "qualifierName": "analysis"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "TU",
+                "qualifierName": "therapeutic use"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "CH",
+                "qualifierName": "chemistry"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Inflammation Mediators",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "AI",
+                "qualifierName": "antagonists & inhibitors"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Body Mass Index"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Risk"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Cross-Over Studies"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Double-Blind Method"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Gene Expression Regulation"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Food, Fortified"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Middle Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Canada",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "EP",
+                "qualifierName": "epidemiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Pennsylvania",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "EP",
+                "qualifierName": "epidemiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adiponectin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "AG",
+                "qualifierName": "agonists"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Young Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Obesity, Abdominal",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "DH",
+                "qualifierName": "diet therapy"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PP",
+                "qualifierName": "physiopathology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Biomarkers",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Metabolic Syndrome",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ET",
+                "qualifierName": "etiology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "EP",
+                "qualifierName": "epidemiology"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PC",
+                "qualifierName": "prevention & control"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Rapeseed Oil"
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Interleukin-6",
+        "Inflammation",
+        "Docosahexaenoic acid",
+        "Cardiovascular disease",
+        "C-reactive Protein",
+        "adiponectin",
+        "Alpha-linolenic Acid",
+        "Dietary Oils"
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "adiponectin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Anti-Inflammatory Agents, Non-Steroidal",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Fatty Acids, Monounsaturated",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Docosahexaenoic Acids",
+          "registryNumber": "25167-62-8"
+        },
+        {
+          "name": "Inflammation Mediators",
+          "registryNumber": "0"
+        },
+        {
+          "name": "ADIPOQ protein, human",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Biomarkers",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Rapeseed Oil",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1016/j.numecd.2014.08.003"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 28,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2015-09-16",
+    "dateOfCreation": "2014-09-22",
+    "dateOfRevision": "2026-01-28",
+    "electronicPublicationDate": "2014-08-20",
+    "firstPublicationDate": "2014-08-20",
+    "firstIndexDate": "2014-09-22",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.numecd.2014.08.003%22&format=json&resultType=core",
+  "retrieved_on": "2026-10-26"
+}

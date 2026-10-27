@@ -1,0 +1,501 @@
+---
+title: Lipid Peroxidation Control
+pm_id: BRS3-FM2-PM5
+mission: Protect membrane fats from oxidative damage so vulnerable polyunsaturated fatty acids remain intact.
+parent_fm: BRS3(FM2)
+parent_brs: BRS3
+summary: 'Peroxyl radicals can keep oxidising polyunsaturated fats in membranes. Vitamin E is the main lipophilic antioxidant that breaks that chain. That role is the vitamin function of protecting those fats. Extra vitamin E was not shown to lower peroxidation, and a long trial found more prostate cancers with 400 IU a day.'
+key_constraints: []
+cofactors: []
+intervention_dominance: Not established
+intervention_breakdown: Food-State Dominant
+timing_specific: 'No'
+dose_sensitivity: 'No intake was shown to lower membrane peroxidation. In a large prevention trial, 400 IU of vitamin E a day was associated with more prostate cancers than placebo.'
+dietary_addressability: not-established
+claim_ceiling: biological-dependency
+mechanistic_authoring_required: false
+evidence_status: stage-2b-dietary-addressability
+dietary_input_traceability:
+  - atom_id: PM5-DIT-1
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
+    input: Vitamin E
+    input_type: nutrient/substance
+    biological_role: Chain-breaking antioxidant that limits lipid-peroxyl radical propagation in membranes
+    evidence_source:
+      finding_ids:
+        - PM5-F1
+      citation_keys:
+        - niki_vitamin_2014
+        - traber_vitamin_2007
+    evidence_limitation: Vitamin E breaks peroxyl-radical chains in membranes. That chemistry does not show that extra vitamin E lowers peroxidation in people. A prevention trial found more prostate cancers with 400 IU a day.
+dietary_lever_atoms:
+  - atom_id: PM5-DIT-1
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: 'Vitamin E is a Direct nutrient requirement for breaking peroxyl-radical chains in membranes. This is not an intake that was shown to lower peroxidation, and it is not a high-dose rule.'
+    evidence_limitation: Vitamin E breaks peroxyl-radical chains in membranes. That chemistry does not show that extra vitamin E lowers peroxidation in people. A prevention trial found more prostate cancers with 400 IU a day.
+dietary_lever_presentations:
+  - atom_id: PM5-DIT-1
+    label: Vitamin E
+    presentation_section: 3.1.1
+references:
+  - '[Bulut et al. (2007) — Malondialdehyde Levels in Adult Attention-deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007)'
+  - '[Fielding et al. (2005) — Increases in Plasma Lycopene Concentration After Consumption of Tomatoes Cooked with Olive](/docs/papers/BRAIN-Diet-References#fielding_increases_2005)'
+  - '[Johnson (2014) — Role of Lutein and Zeaxanthin in Visual and Cognitive Function Throughout the](/docs/papers/BRAIN-Diet-References#johnson_role_2014)'
+  - '[Solleiro-Villavicencio & Rivas-Arancibia (2018) — Oxidative Stress and Mitochondrial Dysfunction](/docs/papers/BRAIN-Diet-References#solleiro-villavicencio_effect_2018)'
+  - '[Niki (2014) — Vitamin E as a lipid-soluble peroxyl radical scavenger](/docs/papers/BRAIN-Diet-References#niki_vitamin_2014)'
+  - '[Traber and Atkinson (2007) — Vitamin E, antioxidant and nothing more](/docs/papers/BRAIN-Diet-References#traber_vitamin_2007)'
+  - '[Klein et al. (2011) — Vitamin E and the Risk of Prostate Cancer](/docs/papers/BRAIN-Diet-References#klein_vitamin_2011)'
+hide_title: true
+phenome_relationships:
+  - target_phenome: Cognitive Clarity
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: mechanistic
+    rationale: One adult cohort had higher malondialdehyde. That marker is not a vitamin E result. Lutein is not the chain-breaking antioxidant in this membrane reaction.
+    references:
+      - index: 1
+        label: Bulut et al. (2007)
+        citation_key: bulut_malondialdehyde_2007
+        href: /docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007
+        data_level: Human Mechanistic
+      - index: 2
+        label: Johnson (2014)
+        citation_key: johnson_role_2014
+        href: /docs/papers/BRAIN-Diet-References#johnson_role_2014
+        data_level: Mechanistic
+    evidence_confidence: low-medium
+  - target_phenome: Focus / Attention Stability
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: mechanistic
+    rationale: Lipid-peroxidation burden tracks oxidative load in ADHD cohorts; food-state antioxidant coverage may modulate membrane protection relevant to sustained attention contexts.
+    references:
+      - index: 1
+        label: Bulut et al. (2007)
+        citation_key: bulut_malondialdehyde_2007
+        href: /docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007
+        data_level: Human Mechanistic
+    evidence_confidence: low-medium
+  - target_phenome: Emotional Regulation
+    relationship_type: modulates
+    confidence: low
+    evidence_level: mechanistic
+    rationale: Oxidative membrane damage and mitochondrial overlap may intersect affective regulation in neurodevelopmental framing; scope remains lipid-peroxidation control only.
+    references:
+      - index: 1
+        label: Solleiro-Villavicencio & Rivas-Arancibia (2018)
+        citation_key: solleiro-villavicencio_effect_2018
+        href: /docs/papers/BRAIN-Diet-References#solleiro-villavicencio_effect_2018
+        data_level: Mechanistic
+    evidence_confidence: low
+scientific_findings_intro: Vitamin E breaks peroxyl-radical chains in membranes and is placed there to protect polyunsaturated fats. Extra vitamin E was not shown to lower peroxidation. A long trial found more prostate cancers with 400 IU a day.
+scientific_findings:
+  - id: PM5-F1
+    finding_label: Vitamin E breaks peroxyl-radical chains in membranes
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: 'Vitamin E is the main lipophilic antioxidant that stops peroxyl radicals from continuing to oxidise polyunsaturated fats. It does that job efficiently for peroxyl radicals, not for every oxidant. The vitamin function is protection of those fats in membranes.'
+    finding_interpretation: 'This is why vitamin E belongs to membrane peroxidation. It is not a trial of extra vitamin E, and lutein is not this antioxidant.'
+    finding_statement: Vitamin E interrupts lipid peroxidation by scavenging peroxyl radicals in the lipid phase. Its vitamin function is protection of polyunsaturated fats in membranes.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Niki reviews the kinetic and in vivo evidence that vitamin E is the principal lipophilic peroxyl-radical scavenger and that it inhibits lipid peroxidation by breaking chain propagation. The same review states that vitamin E is not an efficient scavenger of hydroxyl, alkoxyl, nitrogen dioxide, or thiyl radicals in vivo. Traber and Atkinson argue that the vitamin function of alpha-tocopherol is that peroxyl-radical scavenging, which maintains polyunsaturated fats in membranes.'
+    synthesis_limitations: These are mechanistic reviews. They do not test a vitamin E dose against membrane peroxidation in people.
+    evidence_considered:
+      - label: Niki (2014)
+        citation_key: niki_vitamin_2014
+        href: /docs/papers/BRAIN-Diet-References#niki_vitamin_2014
+        data_level: Mechanistic
+        exposure_context: in vitro lipid peroxidation and in vivo kinetic evidence
+        evidence_source: bounded-external-search
+        directional_finding: 'Vitamin E breaks peroxyl-radical chain propagation in vitro and in vivo, and is not an efficient scavenger of several other radicals in vivo.'
+        assessment:
+          study: Review of kinetic and physiological evidence for vitamin E as a peroxyl-radical scavenger.
+          population: Chemical systems and the in vivo molar ratio of vitamin E to its substrates. No new human cohort.
+          result: Vitamin E inhibits lipid peroxidation by breaking peroxyl-radical chains. Other radicals are not scavenged efficiently at physiological ratios.
+          effect_magnitude: No dietary dose-response. The claim is which radical vitamin E can stop.
+          evidence_summary: Vitamin E is the chain-breaking antioxidant in the lipid phase.
+          limitations: A review of chemistry is not an intake trial and not a brain-outcome trial.
+      - label: Traber and Atkinson (2007)
+        citation_key: traber_vitamin_2007
+        href: /docs/papers/BRAIN-Diet-References#traber_vitamin_2007
+        data_level: Mechanistic
+        exposure_context: review of the in vivo vitamin function
+        evidence_source: bounded-external-search
+        directional_finding: The vitamin function of alpha-tocopherol is peroxyl-radical scavenging that protects polyunsaturated fats in membranes.
+        assessment:
+          study: Review arguing that the in vivo actions of alpha-tocopherol follow from peroxyl-radical scavenging.
+          population: Mammalian vitamin E biology. No new trial.
+          result: Protecting polyunsaturated fats in membranes is the vitamin function.
+          effect_magnitude: No intake threshold for peroxidation is set.
+          evidence_summary: The membrane job of vitamin E is protection of polyunsaturated fats.
+          limitations: The review does not measure peroxidation after a change in intake.
+  - id: PM5-F2
+    finding_label: Extra vitamin E is not a peroxidation benefit
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: Men in a large prevention trial who took 400 IU of vitamin E a day had more prostate cancers than men who took placebo. The trial did not measure membrane peroxidation.
+    finding_interpretation: This blocks a high-dose reading of the vitamin E requirement. It is not evidence about the chain-breaking chemistry.
+    finding_statement: 'A long prevention trial found more prostate cancers with 400 IU of vitamin E a day than with placebo. That result is not a peroxidation measurement, and it is a reason not to treat extra vitamin E as a benefit.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Klein and colleagues reported the SELECT prevention trial. Men assigned vitamin E, 400 IU a day, had a higher prostate-cancer risk than men assigned placebo. The endpoint is cancer incidence, not membrane peroxidation.'
+    synthesis_limitations: Prostate cancer is not lipid peroxidation. The result limits high-dose claims. It does not remove the biochemical role of vitamin E.
+    evidence_considered:
+      - label: Klein et al. (2011)
+        citation_key: klein_vitamin_2011
+        href: /docs/papers/BRAIN-Diet-References#klein_vitamin_2011
+        data_level: Human Outcome
+        exposure_context: 400 IU vitamin E a day in a prevention trial
+        evidence_source: repository-inherited
+        directional_finding: Vitamin E assignment was associated with more prostate cancers than placebo.
+        assessment:
+          study: 'SELECT prevention trial of selenium and vitamin E, with extended follow-up for prostate cancer.'
+          population: 'Men without prostate cancer at entry, assigned vitamin E, selenium, both, or placebo.'
+          result: 'Vitamin E, 400 IU a day, was associated with a higher prostate-cancer risk than placebo.'
+          effect_magnitude: The paper reports a higher risk. It does not report a peroxidation marker.
+          evidence_summary: Extra vitamin E at this dose is not a benefit.
+          limitations: 'Cancer incidence is not membrane peroxidation, so the trial does not test the chain-breaking reaction.'
+intervention_dominance_assessment:
+  evidence_qualification:
+    label: Not established
+    rationale: Vitamin E is required for the chain-breaking reaction. No cited study shows that raising vitamin E intake lowers membrane peroxidation.
+    scope_note: The SELECT trial found more prostate cancers with 400 IU of vitamin E a day. That is a reason not to treat extra vitamin E as a benefit.
+    routes: []
+  principal_route_selection:
+    disposition: not-established
+    selected_groups: []
+    rationale: Biochemical necessity of vitamin E is not an intervention that was shown to lower peroxidation.
+    comparative_limitations: 'No route is ranked above another, because none is established.'
+    assessments: []
+kc_applicability_adjudications:
+  - kc_id: BRS3(KC1)
+    ikc_id: BRS3(KC1)
+    arm_id: glutathione-precursor-sufficiency
+    applicability_proposition: Cysteine and glycine availability for glutathione synthesis constrains membrane lipid peroxidation.
+    disposition: unresolved
+    established_links: []
+    inferred_links:
+      - A shared glutathione-precursor pool would have to limit vitamin E chain-breaking before that iKC could constrain this step.
+    evidence_source:
+      citation_keys:
+        - niki_vitamin_2014
+    rationale: 'Vitamin E chain-breaking does not show that cysteine and glycine availability constrains membrane peroxidation. The mapping stays unresolved, so it is not published.'
+sidebar_label: "BRS3-2-5 — Lipid Peroxidation Control"
+---
+<p class="brs-pm-thumbnail-wrap">
+  <img
+    src="/img/biological-targets/brs3-portrait-thumbnail.png"
+    alt="BRS3 — Inflammation & Oxidative Stress"
+    class="brs-pm-thumbnail"
+  />
+</p>
+
+## BRS3-2-5 - Lipid Peroxidation Control
+
+(Protecting Membrane Fats from Oxidative Damage)
+
+## 1. Mission & Overview
+
+### Mission
+
+Protect membrane fats from oxidative damage so vulnerable polyunsaturated fatty acids remain intact.
+
+
+**Intervention Dominance:** Not established — No principal intervention route established
+
+Vitamin E is required for the chain-breaking reaction. No cited study shows that raising vitamin E intake lowers membrane peroxidation.
+
+### Overview
+
+Peroxyl radicals can keep oxidising polyunsaturated fats in membranes. Niki (2014) shows that vitamin E is the main lipophilic antioxidant that breaks that chain, and that it does so for peroxyl radicals rather than for every oxidant. [[5]](#pm-ref-5) Traber and Atkinson (2007) place that job in protecting those fats in membranes. [[6]](#pm-ref-6) Extra vitamin E was not shown to lower peroxidation.
+
+- **Benefits:** Breaking this chain helps keep polyunsaturated fats intact in membranes. [[5]](#pm-ref-5) [[6]](#pm-ref-6)
+- **Implementation Notes:** Vitamin E is the nutrient in that reaction. [[5]](#pm-ref-5) No intake was shown to lower peroxidation. A prevention trial found more prostate cancers with 400 IU a day. [[7]](#pm-ref-7)
+- **Biological Relevance:** Generation versus clearance of reactive oxygen is the upstream pressure — see PM4.
+
+## 2. Primary Biological Effects
+↓ lipid peroxidation; ↑ membrane stability
+
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Vitamin E
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+Vitamin E is already the dietary requirement above. It is not repeated here.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No mapping established.
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No evidence-qualified System Optimisation Practice is established.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No lifestyle lever is established. Sleep, activity, and meal timing were not shown to change membrane peroxidation.
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+Polyunsaturated fatty acids in membranes are especially vulnerable to oxidative attack. When peroxidation outpaces lipid-phase antioxidant protection, structural and signalling lipid pools destabilise within [BRS3(FM2) - Antioxidant Defense Capacity](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity).
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Membrane protection and lipid peroxidation control</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (Lipid peroxidation burden)
+
+Niki (2014) shows that peroxyl radicals propagate through polyunsaturated fats and that vitamin E breaks that chain. [[5]](#pm-ref-5) Malondialdehyde comparisons in clinical cohorts are not this reaction.
+
+#### (Lipid-phase antioxidant protection)
+
+Traber and Atkinson (2007) place the vitamin function of vitamin E in protecting polyunsaturated fats in membranes. [[6]](#pm-ref-6) Lutein and lycopene absorption are not this chain-breaking job. Vitamin E's later regeneration by vitamin C is a different job — see PM6.
+
+#### (Boundaries of the mechanism)
+
+Net ROS generation versus clearance is handled by [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance). Transcriptional Nrf2 induction belongs to [BRS3-FM2-PM3 - Nrf2-Mediated Cellular Defence Regulation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation). Eicosanoid and SPM substrate quality downstream is represented by [BRS3-FM3-PM8 - Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance).
+
+#### (Integration within BRS3)
+
+This PM protects membrane lipid integrity within [BRS3(FM2)](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity). No shared-pool mapping is established. Mitochondrial reactive-oxygen generation is a neighbouring pressure — see BRS4.
+
+</div>
+</div>
+</div>
+
+### 4.1 Scientific Findings
+
+#### Summary
+
+Vitamin E breaks peroxyl-radical chains in membranes and is placed there to protect polyunsaturated fats. Extra vitamin E was not shown to lower peroxidation. A long trial found more prostate cancers with 400 IU a day.
+
+<ScientificFinding finding={{"id":"PM5-F1","finding_label":"Vitamin E breaks peroxyl-radical chains in membranes","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Vitamin E is the main lipophilic antioxidant that stops peroxyl radicals from continuing to oxidise polyunsaturated fats. It does that job efficiently for peroxyl radicals, not for every oxidant. The vitamin function is protection of those fats in membranes.","finding_interpretation":"This is why vitamin E belongs to membrane peroxidation. It is not a trial of extra vitamin E, and lutein is not this antioxidant.","finding_statement":"Vitamin E interrupts lipid peroxidation by scavenging peroxyl radicals in the lipid phase. Its vitamin function is protection of polyunsaturated fats in membranes.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Niki reviews the kinetic and in vivo evidence that vitamin E is the principal lipophilic peroxyl-radical scavenger and that it inhibits lipid peroxidation by breaking chain propagation. The same review states that vitamin E is not an efficient scavenger of hydroxyl, alkoxyl, nitrogen dioxide, or thiyl radicals in vivo. Traber and Atkinson argue that the vitamin function of alpha-tocopherol is that peroxyl-radical scavenging, which maintains polyunsaturated fats in membranes.","synthesis_limitations":"These are mechanistic reviews. They do not test a vitamin E dose against membrane peroxidation in people.","evidence_considered":[{"label":"Niki (2014)","citation_key":"niki_vitamin_2014","href":"/docs/papers/BRAIN-Diet-References#niki_vitamin_2014","data_level":"Mechanistic","exposure_context":"in vitro lipid peroxidation and in vivo kinetic evidence","evidence_source":"bounded-external-search","directional_finding":"Vitamin E breaks peroxyl-radical chain propagation in vitro and in vivo, and is not an efficient scavenger of several other radicals in vivo.","assessment":{"study":"Review of kinetic and physiological evidence for vitamin E as a peroxyl-radical scavenger.","population":"Chemical systems and the in vivo molar ratio of vitamin E to its substrates. No new human cohort.","result":"Vitamin E inhibits lipid peroxidation by breaking peroxyl-radical chains. Other radicals are not scavenged efficiently at physiological ratios.","effect_magnitude":"No dietary dose-response. The claim is which radical vitamin E can stop.","evidence_summary":"Vitamin E is the chain-breaking antioxidant in the lipid phase.","limitations":"A review of chemistry is not an intake trial and not a brain-outcome trial."},"canonical_reference":{"author_year":"Niki (2014)","number":5,"anchor":"#pm-ref-5"}},{"label":"Traber and Atkinson (2007)","citation_key":"traber_vitamin_2007","href":"/docs/papers/BRAIN-Diet-References#traber_vitamin_2007","data_level":"Mechanistic","exposure_context":"review of the in vivo vitamin function","evidence_source":"bounded-external-search","directional_finding":"The vitamin function of alpha-tocopherol is peroxyl-radical scavenging that protects polyunsaturated fats in membranes.","assessment":{"study":"Review arguing that the in vivo actions of alpha-tocopherol follow from peroxyl-radical scavenging.","population":"Mammalian vitamin E biology. No new trial.","result":"Protecting polyunsaturated fats in membranes is the vitamin function.","effect_magnitude":"No intake threshold for peroxidation is set.","evidence_summary":"The membrane job of vitamin E is protection of polyunsaturated fats.","limitations":"The review does not measure peroxidation after a change in intake."},"canonical_reference":{"author_year":"Traber and Atkinson (2007)","number":6,"anchor":"#pm-ref-6"}}],"connected_supportive_evidence":[]}} />
+
+<ScientificFinding finding={{"id":"PM5-F2","finding_label":"Extra vitamin E is not a peroxidation benefit","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Men in a large prevention trial who took 400 IU of vitamin E a day had more prostate cancers than men who took placebo. The trial did not measure membrane peroxidation.","finding_interpretation":"This blocks a high-dose reading of the vitamin E requirement. It is not evidence about the chain-breaking chemistry.","finding_statement":"A long prevention trial found more prostate cancers with 400 IU of vitamin E a day than with placebo. That result is not a peroxidation measurement, and it is a reason not to treat extra vitamin E as a benefit.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Klein and colleagues reported the SELECT prevention trial. Men assigned vitamin E, 400 IU a day, had a higher prostate-cancer risk than men assigned placebo. The endpoint is cancer incidence, not membrane peroxidation.","synthesis_limitations":"Prostate cancer is not lipid peroxidation. The result limits high-dose claims. It does not remove the biochemical role of vitamin E.","evidence_considered":[{"label":"Klein et al. (2011)","citation_key":"klein_vitamin_2011","href":"/docs/papers/BRAIN-Diet-References#klein_vitamin_2011","data_level":"Human Outcome","exposure_context":"400 IU vitamin E a day in a prevention trial","evidence_source":"repository-inherited","directional_finding":"Vitamin E assignment was associated with more prostate cancers than placebo.","assessment":{"study":"SELECT prevention trial of selenium and vitamin E, with extended follow-up for prostate cancer.","population":"Men without prostate cancer at entry, assigned vitamin E, selenium, both, or placebo.","result":"Vitamin E, 400 IU a day, was associated with a higher prostate-cancer risk than placebo.","effect_magnitude":"The paper reports a higher risk. It does not report a peroxidation marker.","evidence_summary":"Extra vitamin E at this dose is not a benefit.","limitations":"Cancer incidence is not membrane peroxidation, so the trial does not test the chain-breaking reaction."},"canonical_reference":{"author_year":"Klein et al. (2011)","number":7,"anchor":"#pm-ref-7"}}],"connected_supportive_evidence":[]}} />
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+- None listed
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — Electron transport can supply the oxidative load that propagates into membrane polyunsaturated fats. It is not the lipid-phase interruption step.
+- [BRS4-FM2-PM4 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control) — Mitochondrial reactive-oxygen control is upstream pressure. This page is the membrane-fat chain reaction that follows when that pressure is high.
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS3-FM2-PM3 - Nrf2-Mediated Cellular Defence Regulation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation) — Nrf2 regulates defence-gene expression. It does not interrupt peroxidation of membrane polyunsaturated fats.
+- [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) — Generation versus clearance is the oxidative pressure upstream of this membrane-fat damage.
+- [BRS3-FM2-PM6 - Antioxidant Network Recycling](/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling) — Vitamin C and vitamin E recycling keeps the lipid-phase antioxidant working. That regeneration is not the peroxidation reaction itself.
+
+## 7. Phenome Connections
+
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+
+<div class="brs-fm-hub-item phenome-scoring-key-hub" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>How these ratings work</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<div class="phenome-scoring-key">
+<p class="phenome-scoring-key-intro">
+Each Phenome relationship has <strong>two independent ratings</strong>. They are not combined or averaged.
+</p>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Biology → Phenome Relationship Strength</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How direct and important is this biological mechanism expected to be to the Phenome within the BRAIN model?</em>
+</p>
+</div>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Evidence Confidence</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How strongly does the adjudicated evidence support this particular biology → Phenome relationship?</em>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Cognitive Clarity — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Cognitive Clarity — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph011-cognitive-clarity" aria-label="Open page: Cognitive Clarity — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** Low–Medium
+- **Evidence Confidence:** Low–Medium
+- **Rationale:** One adult cohort had higher malondialdehyde. That marker is not a vitamin E result. Lutein is not the chain-breaking antioxidant in this membrane reaction.
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Focus / Attention Stability — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Focus / Attention Stability — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph001-focus-attention-stability" aria-label="Open page: Focus / Attention Stability — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** Low–Medium
+- **Evidence Confidence:** Low–Medium
+- **Rationale:** Lipid-peroxidation burden tracks oxidative load in ADHD cohorts; food-state antioxidant coverage may modulate membrane protection relevant to sustained attention contexts.
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Emotional Regulation — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Emotional Regulation — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph003-emotional-regulation" aria-label="Open page: Emotional Regulation — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** Low
+- **Evidence Confidence:** Low
+- **Rationale:** Oxidative membrane damage and mitochondrial overlap may intersect affective regulation in neurodevelopmental framing; scope remains lipid-peroxidation control only.
+</div>
+</div>
+</div>
+
+<Stage2Review>
+<details>
+<summary>Stage 2A/2B evidence and traceability review — 23 October 2026</summary>
+
+**Preserved baseline:** 2 existing Findings, 1 input/participant records, 0 optimisation records and 0 lifestyle records are retained, together with their existing missions, overviews, KCs, citations, Phenome relationships, source assessments and SEC/CC decisions. The manuscript selection does not replace this complete PM.
+
+**Stage 2A — Evidence enrichment:** Chemical chain-breaking and deficient-cell oxidative challenge support a bounded vitamin E role. The existing high-dose prevention-trial harm remains an important clinical limit, not a peroxidation-rate measurement.
+
+**Stage 2B — Dietary interpretation and traceability:** Keep vitamin E Capacity provision and its current classification. Ordinary-food occurrence is separate from formulation-specific supplementation, repletion and cancer outcomes; no high-dose recommendation is added.
+
+The standard food dropdown continues to use the existing structured relationships and composition-research ledger. Verified food links, provisional material-specific sources and unresolved pathways remain distinct. No new dietary admission, food edge or score is introduced by this review disclosure.
+
+| Review source | Exact supported proposition | Limits retained | Source |
+|---|---|---|---|
+| vitamin-e-capacity — secondary-review | Alpha-tocopherol supports lipid-phase peroxyl-radical chain termination. | Vitamin E forms differ in retention; high-dose benefits and brain efficacy are not inferred. | [vitamin-e-capacity](https://pubmed.ncbi.nlm.nih.gov/17561088/) |
+| vitamin-e-primary — primary-experiment | Deficiency/repletion and ex-vivo erythrocyte observations corroborate lipid-protection capacity. | Erythrocyte oxidative challenge is not brain efficacy or a general high-dose prescription. | [vitamin-e-primary](https://pubmed.ncbi.nlm.nih.gov/804799/) |
+
+**Outstanding review questions**
+
+No change to a canonical admission is proposed. The exposure, conversion and model limitations above remain part of the bounded evidence account.
+
+</details>
+</Stage2Review>
+
+## 8. References
+
+- <span id="pm-ref-1">[1]</span> [Bulut et al. (2007) — Malondialdehyde Levels in Adult Attention-deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007)
+- <span id="pm-ref-2">[2]</span> [Fielding et al. (2005) — Increases in Plasma Lycopene Concentration After Consumption of Tomatoes Cooked with Olive](/docs/papers/BRAIN-Diet-References#fielding_increases_2005)
+- <span id="pm-ref-3">[3]</span> [Johnson (2014) — Role of Lutein and Zeaxanthin in Visual and Cognitive Function Throughout the](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
+- <span id="pm-ref-4">[4]</span> [Solleiro-Villavicencio & Rivas-Arancibia (2018) — Oxidative Stress and Mitochondrial Dysfunction](/docs/papers/BRAIN-Diet-References#solleiro-villavicencio_effect_2018)
+- <span id="pm-ref-5">[5]</span> [Niki (2014) — Vitamin E as a lipid-soluble peroxyl radical scavenger](/docs/papers/BRAIN-Diet-References#niki_vitamin_2014)
+- <span id="pm-ref-6">[6]</span> [Traber and Atkinson (2007) — Vitamin E, antioxidant and nothing more](/docs/papers/BRAIN-Diet-References#traber_vitamin_2007)
+- <span id="pm-ref-7">[7]</span> [Klein et al. (2011) — Vitamin E and the Risk of Prostate Cancer](/docs/papers/BRAIN-Diet-References#klein_vitamin_2011)
+

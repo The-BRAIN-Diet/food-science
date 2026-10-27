@@ -1,0 +1,227 @@
+{
+  "gaps": [
+    {
+      "kind": "no-structured-admissions",
+      "pm_id": "BRS-X(Circadian-FM1-PM1)",
+      "reason": "No structured accepted dietary inputs; narrative mentions are not admissions."
+    },
+    {
+      "kind": "no-structured-admissions",
+      "pm_id": "BRS-X(Circadian-FM1-PM2)",
+      "reason": "No structured accepted dietary inputs; narrative mentions are not admissions."
+    },
+    {
+      "kind": "dietary-input-unset",
+      "relationship_id": "BRS-X(ECS-PM1)::PM1-DIT-1",
+      "reason": "Dietary supply decision unset",
+      "flags": []
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS-X(ECS-PM1)",
+      "id": "PM1-DIT-1",
+      "input": "N-acyl phosphatidylethanolamines (NAPEs)",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "dietary-input-unset",
+      "relationship_id": "BRS-X(ECS-PM1)::PM1-DIT-2",
+      "reason": "Dietary supply decision unset",
+      "flags": []
+    },
+    {
+      "kind": "dietary-input-unset",
+      "relationship_id": "BRS-X(ECS-PM3)::PM3-DIT-1",
+      "reason": "Dietary supply decision unset",
+      "flags": []
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS-X(ECS-PM3)",
+      "id": "PM3-DIT-1",
+      "input": "Anandamide (AEA)",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "dietary-input-unset",
+      "relationship_id": "BRS-X(ECS-PM4)::PM4-DIT-1",
+      "reason": "Dietary supply decision unset",
+      "flags": []
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS-X(ECS-PM4)",
+      "id": "PM4-DIT-1",
+      "input": "2-Arachidonoylglycerol (2-AG)",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "no-structured-admissions",
+      "pm_id": "BRS-X(ECS-PM5)",
+      "reason": "No structured accepted dietary inputs; narrative mentions are not admissions."
+    },
+    {
+      "kind": "no-structured-admissions",
+      "pm_id": "BRS-X(Hormones-PM1)",
+      "reason": "No structured accepted dietary inputs; narrative mentions are not admissions."
+    },
+    {
+      "kind": "dietary-input-unset",
+      "relationship_id": "BRS-X(Hormones-PM2)::PM2-DIT-1",
+      "reason": "Dietary supply decision unset",
+      "flags": []
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS-X(Hormones-PM2)",
+      "id": "PM2-DIT-1",
+      "input": "Estrogen glucuronides",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "dietary-input-unset",
+      "relationship_id": "BRS-X(Hormones-PM3)::PM3-DIT-1",
+      "reason": "Dietary supply decision unset",
+      "flags": []
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS-X(Hormones-PM3)",
+      "id": "PM3-DIT-1",
+      "input": "3α,5α-Tetrahydrodeoxycorticosterone (THDOC)",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "dietary-input-unset",
+      "relationship_id": "BRS-X(Hormones-PM3)::PM3-DIT-2",
+      "reason": "Dietary supply decision unset",
+      "flags": []
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS-X(Hormones-PM3)",
+      "id": "PM3-DIT-2",
+      "input": "Molecular hydrogen (H₂)",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "no-structured-admissions",
+      "pm_id": "BRS-X(Hormones-PM4)",
+      "reason": "No structured accepted dietary inputs; narrative mentions are not admissions."
+    },
+    {
+      "kind": "dietary-input-unset",
+      "relationship_id": "BRS-X(Hormones-PM5)::PM5-DIT-1",
+      "reason": "Dietary supply decision unset",
+      "flags": []
+    },
+    {
+      "kind": "dietary-input-unset",
+      "relationship_id": "BRS-X(Hormones-PM6)::PM6-DIT-1",
+      "reason": "Dietary supply decision unset",
+      "flags": []
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS-X(Hormones-PM6)",
+      "id": "PM6-DIT-1",
+      "input": "Androgen glucuronides",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "specialist-specification-not-joined",
+      "food_id": "algal-oil",
+      "record": "docs/foods/algal-oil.md",
+      "reason": "Authorised specification schema needs a material-specific adapter; no generic amount inferred."
+    },
+    {
+      "kind": "composition-observation-held",
+      "food_id": "quinoa",
+      "substance_id": "dha-docosahexaenoic-acid",
+      "record": "docs/foods/quinoa.md#nutrition_value_reviews",
+      "reason": "DHA observation: independent confirmation unresolved"
+    }
+  ],
+  "conflicts": [],
+  "pm_coverage": [
+    {
+      "pm_id": "BRS-X(Circadian-FM1-PM1)",
+      "record": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx",
+      "accepted_relationships": 0,
+      "structured_atoms": 0
+    },
+    {
+      "pm_id": "BRS-X(Circadian-FM1-PM2)",
+      "record": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation.mdx",
+      "accepted_relationships": 0,
+      "structured_atoms": 0
+    },
+    {
+      "pm_id": "BRS-X(ECS-PM1)",
+      "record": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx",
+      "accepted_relationships": 3,
+      "structured_atoms": 3
+    },
+    {
+      "pm_id": "BRS-X(ECS-PM2)",
+      "record": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx",
+      "accepted_relationships": 2,
+      "structured_atoms": 2
+    },
+    {
+      "pm_id": "BRS-X(ECS-PM3)",
+      "record": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation.mdx",
+      "accepted_relationships": 1,
+      "structured_atoms": 1
+    },
+    {
+      "pm_id": "BRS-X(ECS-PM4)",
+      "record": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation.mdx",
+      "accepted_relationships": 1,
+      "structured_atoms": 1
+    },
+    {
+      "pm_id": "BRS-X(ECS-PM5)",
+      "record": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity.mdx",
+      "accepted_relationships": 0,
+      "structured_atoms": 0
+    },
+    {
+      "pm_id": "BRS-X(Hormones-PM1)",
+      "record": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability.mdx",
+      "accepted_relationships": 0,
+      "structured_atoms": 0
+    },
+    {
+      "pm_id": "BRS-X(Hormones-PM2)",
+      "record": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation.mdx",
+      "accepted_relationships": 1,
+      "structured_atoms": 1
+    },
+    {
+      "pm_id": "BRS-X(Hormones-PM3)",
+      "record": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism.mdx",
+      "accepted_relationships": 2,
+      "structured_atoms": 2
+    },
+    {
+      "pm_id": "BRS-X(Hormones-PM4)",
+      "record": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration.mdx",
+      "accepted_relationships": 0,
+      "structured_atoms": 0
+    },
+    {
+      "pm_id": "BRS-X(Hormones-PM5)",
+      "record": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability.mdx",
+      "accepted_relationships": 2,
+      "structured_atoms": 2
+    },
+    {
+      "pm_id": "BRS-X(Hormones-PM6)",
+      "record": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation.mdx",
+      "accepted_relationships": 1,
+      "structured_atoms": 1
+    }
+  ],
+  "pools": []
+}

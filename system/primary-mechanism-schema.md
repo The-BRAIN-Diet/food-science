@@ -1,5 +1,12 @@
 # Primary Mechanism (PM) Schema
 
+**Approved canonical evidence-tab template — 26 October 2026:** Follow [Canonical PM evidence tabs](pm-evidence-tabs-contract.md). The accepted PM8 template governs Stage 2A/2B and subsequent controlled PM migrations: Evidence Gaps → Open Issues → Evidence & Audit, with canonical disclosures and stable IDs. This instruction update does not itself migrate other PMs or change scientific decisions.
+
+## Approved evidence-tab presentation
+
+The [canonical evidence-tab contract](pm-evidence-tabs-contract.md), corrected by the owner on 27 October 2026, preserves Scientific Findings in §4.1 on pages using `scientific_findings_placement: section-4`. Map every active Finding from the Section 4 Summary to its corresponding mechanistic explanation and retain reciprocal links. Evidence & Audit contains Scientific Principles, SEC appraisal, provenance, corrections and history, with no duplicated SF disclosures. Existing audit-only pages retain their behaviour until controlled migration. Use Evidence Gaps and Open Issues for their distinct approved roles. Retain all three tabs with empty states, canonical dropdown styling, stable IDs and exact-record links. Preserve scientific data, existing admissions and immutable assessments. Unmigrated PMs retain their existing rendering until a controlled migration; do not bulk-edit them as a side effect of changing this schema.
+
+
 **Approved governance revision — 23 October 2026:** [Dietary input admission and food target traceability](dietary-input-governance-v2.md) governs new/changed dietary assessments, section eligibility, independent Type A/B admission, food-target research, provisional display and repair reporting. Historical decisions remain traceable; this revision does not reapprove or migrate them. The six atoms and CC/SEC scoring remain unchanged.
 
 **Governing assessment instructions:** [Stage 2A — scientific assessment](scientific-finding-schema.md) and [Stage 2B — applicability and lever implementation](dietary-input-traceability-contract.md). This schema governs the whole PM page; it is not a substitute for either assessment stage.
@@ -168,7 +175,7 @@ Phenome Connections (§7) → References (§8). §6 is unused (Scoreable Inputs 
    - **Canonical structure (Profile A):** see **PM Mechanistic Basis — Canonical four-part narrative** below. **Reference page:** [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation).
    - **`### Summary` (required):** why this mechanism matters — the integrative implication in plain language, not a restated Definition or repeated mechanism name.
    - **Body (required):** three or more `#### (…)` blocks after Summary, in order: **primary mechanism** (one or more thematic blocks) → **boundaries** → **integration** (KCs, parent FM, cross-links). Explain how the mechanism works; do not re-define the entity.
-   - **`<details>` (recommended on Profile A reference pages):** keep **`### Summary` visible**; wrap all post-Summary mechanism content (every `####` block: primary mechanism, boundaries, integration) in one `<details><summary>…</summary>…</details>` inside Mechanistic Basis. Do **not** put Summary or Scientific Findings inside this dropdown.
+   - **Canonical mechanism dropdown:** follow the [PM1 reference layout](pm-evidence-tabs-contract.md#pm1-section-4-reference-layout--one-dropdown-per-finding), using the existing `brs-fm-hub-item` / shell / summary / panel markup. Keep **`### Summary` visible**; place primary mechanism, boundaries and integration blocks inside this single mechanism-detail dropdown and close it before §4.1. Do **not** put Summary or Scientific Findings inside it. Each Scientific Finding has its own independent dropdown in §4.1.
    - **Citations (required where evidence-backed):** keep inline citations in Mechanistic Basis when rewriting or shortening prose — see **PM Mechanistic Basis — Citations** below. Do not drop references to make the narrative “cleaner.”
    - **Excluded from the mechanism dropdown:** dietary levers, substance ← food bullets, lifestyle levers (§3). Scientific Findings use `### 4.1` on canonical pages (`### 5.1` legacy) at the end of Mechanistic Basis.
 4.1. Scientific Findings — `### 4.1 Scientific Findings` (optional, recommended on authored PMs) — generated from `scientific_findings`; relationship-specific Findings render under their primary §7 relationship.
@@ -1118,24 +1125,26 @@ mechanism evidence maps (`scripts/lib/pm-evidence-highlights.mjs`).
 
 **Summary content:** Follow Stage 2A’s “Scientific Findings — Summary authoring rule”: synthesise the strongest adjudicated evidence, its convergence or differences, and principal context/limitations; do not repeat §4’s mechanism walkthrough. Reuse target-page numbered citations.
 
-**UX:** `#### Summary` (visible) → one or more Scientific Finding
-components. Phenome-relationship Findings render fully inside their primary §7
+**UX:** Follow the [PM1 reference layout](pm-evidence-tabs-contract.md#pm1-section-4-reference-layout--one-dropdown-per-finding): `#### Summary` (visible) → one separate sibling `ScientificFinding` dropdown per active mechanism Finding, outside the mechanism-detail dropdown. Phenome-relationship Findings render fully inside their primary §7
 relationship; cross-relationships reuse the id without duplicating the evidence
 body.
 
-**Evidence entry shape (each `<details>` dropdown):**
+**Evidence entry shape (shared `ScientificFinding` component; no handwritten replacement):**
 
 | Field | Required | Notes |
 |-------|----------|-------|
-| Summary title | Yes | `<summary><strong>…</strong></summary>` — finding label, not a phenome name |
-| **Confidence** | Yes | `low`, `low-medium`, `medium`, `high` |
-| **Evidence Level** | Yes | `mechanistic`, `observational`, `intervention`, `clinical` |
-| **Rationale** | Yes | One or two sentences — why the finding matters for interpreting this PM |
-| **Key References** | Recommended | `PhenomeBibLinks` with optional `dataLevel` per study |
+| Closed row | Yes | `SF[number] — finding_label`, independent chevron/button and existing compact SEC/audit indicators; preserve the lower-case canonical Finding anchor |
+| Reader explanation | Existing fields | `finding_summary` and `finding_interpretation` (What this means); preserve their scientific qualifications |
+| Evidence confidence | Existing assessment | Render the authoritative SEC reference/status through the shared component; do not introduce a separate confidence field or score |
+| Explore the evidence | Yes | Nested disclosure with original Finding ID, statement, synthesis, synthesis limitations and considered evidence |
+| Individual study assessments | Where recorded | Nested canonical study disclosures with the existing population, result, magnitude, limitations, data level and source references |
+| Mechanistic explanation link | Yes | Reciprocal link to the corresponding §4 mechanism block beneath the SF |
+
+This supersedes the older generic Confidence / Evidence Level / Rationale / Key References card instructions for mechanism Findings; it does not alter stored scientific records or SEC governance.
 
 Do **not** use legacy `#### (heading)` prose blocks or a separate **Reference data levels** subsection — per-study data levels belong on each **Key References** line (same as §3).
 
-**Populate:** `npm run mechanisms:populate-evidence -- --brs BRS3 --force`
+**Generate canonical Findings:** `node scripts/sync-pm-scientific-findings.mjs --pm <CANONICAL_PM_ID>` after source-record adjudication; inspect the target-scoped change. Use `--dry-run` to verify stability. Do not use the legacy Evidence Highlights population command to replace the PM1-style Scientific Finding disclosures.
 
 **Profile B:** §1 = *significance paragraph + 3 cross-system bullets*; §2 = *directional outcome*; §3 = *translational phenome context*; §4 = *implementation*; §5 = *detailed how*; §5.1 = *how we know*. Do not restate the same meal-composition or pathway claim across all six (see `system/mechanism-page-section-prose.md` — **PM section roles**).
 

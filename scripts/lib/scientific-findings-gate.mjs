@@ -9,6 +9,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
+import {transparencyErrors} from "../../src/lib/scientificTransparency.mjs";
 import { listMechanismMdxFiles } from "./mechanism-page-validation.mjs";
 import {
   hasScientificFindings,
@@ -33,6 +34,7 @@ export function findingsIntroFor(data) {
 /** Render the section a page's front matter implies, or null if it has none. */
 export function expectedFindingsSection(data, content) {
   if (!hasScientificFindings(data)) return null;
+  if (data.evidence_tabs_version === 1 && data.scientific_findings_placement !== "section-4") return {auditOnly: true, block: "", sectionNum: 4};
   const match = content.match(FINDINGS_SUBSECTION_HEADING);
   if (!match) return { missingHeading: true };
   const lessons=authoredFindingLessons(content);
@@ -67,6 +69,7 @@ export function authoredFindingLessons(content) {
 export function checkScientificFindings(rootDir) {
   const issues = [];
   let checked = 0;
+  const issueRecords = JSON.parse(fs.readFileSync(path.join(rootDir, "system/framework-qc/pm-open-issues.json"), "utf8")).issues;
 
   for (const filePath of listMechanismMdxFiles(rootDir, "pm")) {
     const { data, content } = matter(fs.readFileSync(filePath, "utf8"));
@@ -75,6 +78,9 @@ export function checkScientificFindings(rootDir) {
     const label = String(data.pm_id || path.relative(rootDir, filePath));
 
     issues.push(...validateScientificFindings(data, [], { entityLabel: label }));
+    if (data.open_issues_policy === "evidence-gaps-only") {
+      issues.push(...transparencyErrors(data, issueRecords).map(message => ({code:"evidence_disposition_policy", message:`${label}: ${message}`})));
+    }
 
     const expected = expectedFindingsSection(data, content);
     if (expected?.missingHeading) {
@@ -84,7 +90,10 @@ export function checkScientificFindings(rootDir) {
       });
       continue;
     }
-    if (expected && !content.includes(expected.block)) {
+    if (expected?.auditOnly && (/<ScientificFinding\b/.test(content) || !content.includes("?review=1#scientific-findings"))) {
+      issues.push({code: "invalid_audit_only_findings", message: `${label}: opted-in evidence tabs require an audit link and no duplicated inline Finding records`});
+    }
+    if (expected && !expected.auditOnly && !content.includes(expected.block)) {
       issues.push({
         code: "stale_findings_section",
         message: `${label}: §${expected.sectionNum}.1 ${SCIENTIFIC_FINDINGS_SECTION_TITLE} is stale — run npm run findings:sync`,

@@ -1,0 +1,400 @@
+{
+  "citation_key": "wholegrain_adiponectin_2019",
+  "doi": "10.1080/09637486.2019.1680959",
+  "metadata": {
+    "id": "31638838",
+    "source": "MED",
+    "pmid": "31638838",
+    "doi": "10.1080/09637486.2019.1680959",
+    "title": "Nutritional factors influencing plasma adiponectin levels: results from a randomised controlled study with whole-grain cereals.",
+    "authorString": "Polito R, Costabile G, Nigro E, Giacco R, Vetrani C, Anniballi G, Luongo D, Riccardi G, Daniele A, Annuzzi G.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Polito R",
+          "lastName": "Polito",
+          "firstName": "Rita",
+          "initials": "R",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "CEINGE-Biotecnologie avanzate, Napoli, Italy."
+              },
+              {
+                "affiliation": "Dipartimento di Scienze e Tecnologie Ambientali, Biologiche, Farmaceutiche, Universit\u00e0 della Campania \"Luigi Vanvitelli\", Caserta, Italy."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Costabile G",
+          "lastName": "Costabile",
+          "firstName": "Giuseppina",
+          "initials": "G",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-5761-8002"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Clinical Medicine and Surgery, Federico II University, Napoli, Italy."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Nigro E",
+          "lastName": "Nigro",
+          "firstName": "Ersilia",
+          "initials": "E",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-5637-1685"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "CEINGE-Biotecnologie avanzate, Napoli, Italy."
+              },
+              {
+                "affiliation": "Dipartimento di Scienze e Tecnologie Ambientali, Biologiche, Farmaceutiche, Universit\u00e0 della Campania \"Luigi Vanvitelli\", Caserta, Italy."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Giacco R",
+          "lastName": "Giacco",
+          "firstName": "Rosalba",
+          "initials": "R",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Institute of Food Science, National Research Council, Avellino, Italy."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Vetrani C",
+          "lastName": "Vetrani",
+          "firstName": "Claudia",
+          "initials": "C",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-8335-5939"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Clinical Medicine and Surgery, Federico II University, Napoli, Italy."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Anniballi G",
+          "lastName": "Anniballi",
+          "firstName": "Gaia",
+          "initials": "G",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Clinical Medicine and Surgery, Federico II University, Napoli, Italy."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Luongo D",
+          "lastName": "Luongo",
+          "firstName": "Delia",
+          "initials": "D",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "CNR-Institute of Biostructures and Bioimaging, Napoli, Italy."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Riccardi G",
+          "lastName": "Riccardi",
+          "firstName": "Gabriele",
+          "initials": "G",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Clinical Medicine and Surgery, Federico II University, Napoli, Italy."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Daniele A",
+          "lastName": "Daniele",
+          "firstName": "Aurora",
+          "initials": "A",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "CEINGE-Biotecnologie avanzate, Napoli, Italy."
+              },
+              {
+                "affiliation": "Dipartimento di Scienze e Tecnologie Ambientali, Biologiche, Farmaceutiche, Universit\u00e0 della Campania \"Luigi Vanvitelli\", Caserta, Italy."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Annuzzi G",
+          "lastName": "Annuzzi",
+          "firstName": "Giovanni",
+          "initials": "G",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Clinical Medicine and Surgery, Federico II University, Napoli, Italy."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-5637-1685"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-5761-8002"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-8335-5939"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "4",
+      "volume": "71",
+      "journalIssueId": 2955158,
+      "dateOfPublication": "2020 Jun",
+      "monthOfPublication": 6,
+      "yearOfPublication": 2020,
+      "journal": {
+        "medlineAbbreviation": "Int J Food Sci Nutr",
+        "title": "International journal of food sciences and nutrition",
+        "essn": "1465-3478",
+        "issn": "0963-7486",
+        "nlmid": "9432922",
+        "isoabbreviation": "Int J Food Sci Nutr"
+      },
+      "printPublicationDate": "2020-06-01"
+    },
+    "pubYear": "2020",
+    "pageInfo": "509-515",
+    "abstractText": "Data from intervention studies about the effects of a high intake of whole-grain cereals on adiponectin expression are still inconclusive. We evaluated the effects of whole-grain or refined cereals on fasting and postprandial serum adiponectin in people at high cardiovascular risk. According to a randomised controlled parallel group design, participants with metabolic syndrome were assigned to an isoenergetic diet based on either whole-grain cereal (WGC) or refined cereal (RC) products for 12-weeks. Anthropometric and biochemical measures were taken. Compared to baseline, fasting and postprandial serum adiponectin levels increased after both RC and WGC. In the WGC and RC groups combined, adiponectin concentrations significantly increased after 12-week intervention, and are directly associated with plasma SCFAs and acetate. Only increasing whole-grain cereals may not influence adiponectin levels, which could be modified by a fibre rich, low-fat, low-glycemic index diet, possibly through changes in gut microbiota, as suggested by the relation with SCFAs.Clinical Trials number: NCT00945854.",
+    "affiliation": "CEINGE-Biotecnologie avanzate, Napoli, Italy.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Plasma"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Fatty Acids, Volatile"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Diet, Fat-Restricted"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Fasting"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Energy Intake"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Glycemic Index"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Postprandial Period"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Dietary Fiber"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Middle Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adiponectin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Edible Grain"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Gastrointestinal Microbiome"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Whole Grains"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Metabolic Syndrome",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "metabolic syndrome",
+        "Dietary fibre",
+        "adiponectin",
+        "Short-chain Fatty Acids",
+        "Whole-grain Cereals",
+        "Postprandial Metabolism"
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "adiponectin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Fatty Acids, Volatile",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Dietary Fiber",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://figshare.com/articles/journal_contribution/Nutritional_factors_influencing_plasma_adiponectin_levels_results_from_a_randomised_controlled_study_with_whole-grain_cereals/10023035/1/files/18068219.pdf"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1080/09637486.2019.1680959"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 10,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "nct"
+      ]
+    },
+    "dateOfCompletion": "2021-02-22",
+    "dateOfCreation": "2019-10-23",
+    "dateOfRevision": "2021-02-22",
+    "electronicPublicationDate": "2019-10-22",
+    "firstPublicationDate": "2019-10-22",
+    "firstIndexDate": "2019-10-23",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1080%2F09637486.2019.1680959%22&format=json&resultType=core",
+  "retrieved_on": "2026-10-26",
+  "access": "Metadata and abstract; not full methods"
+}

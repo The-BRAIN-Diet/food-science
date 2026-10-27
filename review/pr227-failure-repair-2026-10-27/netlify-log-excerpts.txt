@@ -1,0 +1,24 @@
+Source: authenticated Netlify Deploy details → expanded Building log (read-only).
+Deploy 6ae07c0524736bfcf0b5bb0e, commit c582b85c:
+11:25:37 AM: SEC registry, immutable history and canonical references valid (98 snapshots).
+11:25:46 AM: [info] [webpackbar] Compiling Client
+11:25:46 AM: [info] [webpackbar] Compiling Server
+11:26:12 AM: [success] [webpackbar] Server: Compiled successfully in 25.79s
+11:26:28 AM: Killed
+11:26:28 AM: Command failed with exit code 137: git fetch --no-tags origin "$SEC_BASE_REF" && npm run build
+11:26:29 AM: Failed during stage 'building site': Build script returned non-zero exit code: 2
+
+Deploy 6ae07db55d88e89b71f0033a, commit 9cf4da2:
+11:32:48 AM:   "checked": 64,
+11:32:48 AM:   "issues": []
+11:32:49 AM: SEC registry, immutable history and canonical references valid (98 snapshots).
+11:32:57 AM: [info] [webpackbar] Compiling Client
+11:32:57 AM: [info] [webpackbar] Compiling Server
+11:33:23 AM: [success] [webpackbar] Server: Compiled successfully in 25.89s
+11:33:40 AM: Killed
+11:33:40 AM: Command failed with exit code 137: git fetch --no-tags origin "$SEC_BASE_REF" && npm run build
+11:33:41 AM: Finished processing build request in 1m17.972s
+
+Resolved environment names in both logs: REVIEW_ID, NODE_OPTIONS, SEC_BASE_REF, TERSER_PARALLEL.
+DOCUSAURUS_NO_PERSISTENT_CACHE was absent from the resolved environment list.
+The exit-code-2 wrapper is subsequent to exit 137, not the first causal error.

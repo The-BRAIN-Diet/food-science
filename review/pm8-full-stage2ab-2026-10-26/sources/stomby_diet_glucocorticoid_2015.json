@@ -1,0 +1,422 @@
+{
+  "citation_key": "stomby_diet_glucocorticoid_2015",
+  "doi": "10.1038/ijo.2014.188",
+  "metadata": {
+    "id": "25349058",
+    "source": "MED",
+    "pmid": "25349058",
+    "doi": "10.1038/ijo.2014.188",
+    "title": "Diet-induced weight loss has chronic tissue-specific effects on glucocorticoid metabolism in overweight postmenopausal women.",
+    "authorString": "Stomby A, Simonyte K, Mellberg C, Ryberg M, Stimson RH, Larsson C, Lindahl B, Andrew R, Walker BR, Olsson T.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Stomby A",
+          "lastName": "Stomby",
+          "firstName": "A",
+          "initials": "A",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-9169-1059"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department for Public Health and Clinical Medicine, Medicine, Ume\u00e5 University, Ume\u00e5, Sweden."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Simonyte K",
+          "lastName": "Simonyte",
+          "firstName": "K",
+          "initials": "K",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department for Public Health and Clinical Medicine, Medicine, Ume\u00e5 University, Ume\u00e5, Sweden."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Mellberg C",
+          "lastName": "Mellberg",
+          "firstName": "C",
+          "initials": "C",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department for Public Health and Clinical Medicine, Medicine, Ume\u00e5 University, Ume\u00e5, Sweden."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Ryberg M",
+          "lastName": "Ryberg",
+          "firstName": "M",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department for Public Health and Clinical Medicine, Medicine, Ume\u00e5 University, Ume\u00e5, Sweden."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Stimson RH",
+          "lastName": "Stimson",
+          "firstName": "R H",
+          "initials": "RH",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "BHF Centre for Cardiovascular Science, University of Edinburgh, Edinburgh, Scotland."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Larsson C",
+          "lastName": "Larsson",
+          "firstName": "C",
+          "initials": "C",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "1] Department of Food and Nutrition and Sport Science, University of Gothenburg, Gothenburg, Sweden [2] Department of Food and Nutrition, Ume\u00e5 University, Ume\u00e5, Sweden."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Lindahl B",
+          "lastName": "Lindahl",
+          "firstName": "B",
+          "initials": "B",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department for Public Health and Clinical Medicine, Medicine, Ume\u00e5 University, Ume\u00e5, Sweden."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Andrew R",
+          "lastName": "Andrew",
+          "firstName": "R",
+          "initials": "R",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-6916-2994"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "BHF Centre for Cardiovascular Science, University of Edinburgh, Edinburgh, Scotland."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Walker BR",
+          "lastName": "Walker",
+          "firstName": "B R",
+          "initials": "BR",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "BHF Centre for Cardiovascular Science, University of Edinburgh, Edinburgh, Scotland."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Olsson T",
+          "lastName": "Olsson",
+          "firstName": "T",
+          "initials": "T",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-7768-1076"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "1] Department for Public Health and Clinical Medicine, Medicine, Ume\u00e5 University, Ume\u00e5, Sweden [2] Stellenbosch Institute for Advanced Study (STIAS), Wallenberg Research Centre at Stellenbosch University, Stellenbosch, South Africa."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-7768-1076"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-6916-2994"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-9169-1059"
+        }
+      ]
+    },
+    "journalInfo": {
+      "issue": "5",
+      "volume": "39",
+      "journalIssueId": 2281851,
+      "dateOfPublication": "2015 May",
+      "monthOfPublication": 5,
+      "yearOfPublication": 2015,
+      "journal": {
+        "medlineAbbreviation": "Int J Obes (Lond)",
+        "title": "International journal of obesity (2005)",
+        "essn": "1476-5497",
+        "issn": "0307-0565",
+        "isoabbreviation": "Int J Obes (Lond)",
+        "nlmid": "101256108"
+      },
+      "printPublicationDate": "2015-05-01"
+    },
+    "pubYear": "2015",
+    "pageInfo": "814-819",
+    "abstractText": "<h4>Background/objectives</h4>Tissue-specific glucocorticoid metabolism is altered in obesity, and may increase cardiovascular risk. This dysregulation is normalized by short-term calorie restriction and weight loss, an effect that varies with dietary macronutrient composition. However, tissue-specific glucocorticoid metabolism has not been studied during long-term (>6 months) dietary interventions. Therefore our aim was to test whether long-term dietary interventions, either a paleolithic-type diet (PD) or a diet according to Nordic nutrition recommendations (NNR) could normalize tissue-specific glucocorticoid metabolism in overweight and obese women.<h4>Subjects/methods</h4>Forty-nine overweight/obese postmenopausal women were randomized to a paleolithic diet or a diet according to NNR for 24 months. At baseline, 6 and 24 months anthropometric measurements, insulin sensitivity, excretion of urinary glucocorticoid metabolites in 24-hour collections, conversion of orally administered cortisone to plasma cortisol and transcript levels of 11\u03b2 hydroxysteroid dehydrogenase type 1 (11\u03b2HSD1) in subcutaneous adipose tissue were studied.<h4>Results</h4>Both diet groups achieved significant and sustained weight loss. Weight loss with the PD was greater than on NNR diet after 6 months (P<0.001) but similar at 24 months. Urinary measurement of 5\u03b1-reductase activity was increased after 24 months in both groups compared with baseline (P<0.001). Subcutaneous adipose tissue 11\u03b2HSD1 gene expression decreased at 6 and 24 months in both diet groups (P=0.036). Consistent with increased liver 11\u03b2HSD1, conversion of oral cortisone to cortisol increased at 6 months (P=0.023) but was unchanged compared with baseline by 24 months.<h4>Conclusions</h4>Long-term weight loss in postmenopausal women has tissue-specific and time-dependent effects on glucocorticoid metabolism. This may alter local-tissue cortisol exposure contributing to improved metabolic function during weight loss.",
+    "affiliation": "Department for Public Health and Clinical Medicine, Medicine, Ume\u00e5 University, Ume\u00e5, Sweden.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "British Heart Foundation",
+          "acronym": "BHF_",
+          "grantId": "RG/11/4/28734",
+          "orderIn": 0
+        },
+        {
+          "agency": "Wellcome Trust",
+          "acronym": "WT_",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adipose Tissue",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Cardiovascular Diseases",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PC",
+                "qualifierName": "prevention & control"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Insulin Resistance"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Weight Loss"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hydrocortisone",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "11-beta-Hydroxysteroid Dehydrogenase Type 1",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Body Mass Index"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Treatment Outcome"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Caloric Restriction"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Risk Factors"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Energy Metabolism"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Energy Intake"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Postmenopause",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Middle Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Overweight",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "DH",
+                "qualifierName": "diet therapy"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PC",
+                "qualifierName": "prevention & control"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Weight Reduction Programs"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "11-beta-Hydroxysteroid Dehydrogenase Type 1",
+          "registryNumber": "EC 1.1.1.146"
+        },
+        {
+          "name": "Hydrocortisone",
+          "registryNumber": "WI4X0X7BPJ"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1038/ijo.2014.188"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 29,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2016-03-22",
+    "dateOfCreation": "2014-10-29",
+    "dateOfRevision": "2025-05-29",
+    "electronicPublicationDate": "2014-10-28",
+    "firstPublicationDate": "2014-10-28",
+    "firstIndexDate": "2014-10-29",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fijo.2014.188%22&format=json&resultType=core",
+  "retrieved_on": "2026-10-26",
+  "access": "Metadata and abstract; not full methods"
+}

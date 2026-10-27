@@ -12,6 +12,16 @@ mechanisms:
   Methylation & One-Carbon Metabolism: 'N-acetylcysteine was the cysteine precursor given with glycine to older adults, in whom red-cell glutathione synthesis increased. The trial does not isolate N-acetylcysteine.'
 list_image: /img/icons/bioactive.svg
 inchikey: PWKSKIMOESPYIA-BYPYZUCNSA-N
+food_delivery_assessment:
+  review_date: '2026-10-26'
+  status: no-ordinary-food-source
+  classification: E
+  reason: >-
+    No verified ordinary-food source of N-acetylcysteine was identified. The admitted exposure is
+    supplemental NAC; protein cysteine or cystine is not NAC.
+  sources:
+    - https://www.rivm.nl/bibliotheek/rapporten/2024-0086.pdf
+  admission_changed: false
 ---
 
 ## Overview

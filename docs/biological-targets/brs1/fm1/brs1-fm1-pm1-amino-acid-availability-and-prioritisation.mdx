@@ -1,16 +1,92 @@
 ---
 title: Amino-Acid Availability & Prioritisation
 pm_id: BRS1-FM1-PM1
+scientific_principle_ids:
+  - PM1-F4
+scientific_finding_classification_notes:
+  PM1-F3: >-
+    Physiological tyrosine-supply contribution remains subject to SEC appraisal. The established PAH reaction
+    is documented separately as Scientific Principle PM1-SP1; the earlier biochemical-provenance-only
+    assessment is retained as history.
+scientific_principles:
+  - id: PM1-SP1
+    original_finding_id: PM1-F3
+    title: Phenylalanine hydroxylase reaction
+    proposition: Phenylalanine-4-hydroxylase catalyses conversion of L-phenylalanine to L-tyrosine.
+    mechanism: Endogenous phenylalanine-to-tyrosine conversion.
+    scope_limitations: >-
+      Reaction identity does not quantify physiological conversion flux, dietary contribution to tyrosine
+      supply or brain catecholamine synthesis. Those propositions remain subject to scientific appraisal in
+      SF3.
+    classification_rationale: >-
+      Only the established reaction identity is a Principle; the original mixed physiological proposition
+      remains an active Finding.
+    reviewed_on: '2026-10-26'
+    sources:
+      - label: UniProtKB P00439 — human phenylalanine-4-hydroxylase
+        href: https://www.uniprot.org/uniprotkb/P00439/entry
+        accession: P00439
+        version: Entry version 269, 2 September 2026
+        accessed: '2026-10-18'
+      - label: Rhea 20273 — phenylalanine hydroxylation
+        href: https://www.rhea-db.org/rhea/20273
+        accession: RHEA:20273
+        accessed: '2026-10-18'
+  - id: PM1-SP2
+    original_finding_id: PM1-F4
+    historical_proposition: >-
+      Tyrosine and tryptophan supply the precursor pathways for catecholamines and serotonin, respectively.
+      Their biochemical identity does not demonstrate that additional meal protein improves brain transmitter
+      synthesis, attention, mood or reward.
+    title: Tyrosine and tryptophan precursor identities
+    proposition: >-
+      Tyrosine is a precursor in catecholamine biosynthesis; tryptophan is a precursor in serotonin
+      biosynthesis.
+    mechanism: Precursor identity for downstream pathways, distinct from circulating supply and brain transport.
+    scope_limitations: >-
+      These identities do not establish that additional dietary protein raises brain neurotransmitter
+      synthesis or improves functional or clinical outcomes. Intervention, transport and flux propositions
+      remain Findings requiring separate appraisal.
+    classification_rationale: >-
+      Foundational precursor identities are presented as a Principle; historical dietary-effect boundaries
+      remain limitations, not a newly adjudicated negative intervention Finding.
+    reviewed_on: '2026-10-26'
+    sources:
+      - label: UniProtKB P07101 — Tyrosine 3-monooxygenase
+        href: https://www.uniprot.org/uniprotkb/P07101/entry
+        accession: P07101
+        version: Entry version 250, annotation 2026-09-02
+        accessed: '2026-10-26'
+      - label: UniProtKB P17752 — Tryptophan 5-hydroxylase 1
+        href: https://www.uniprot.org/uniprotkb/P17752/entry
+        accession: P17752
+        version: Entry version 224, annotation 2026-09-02
+        accessed: '2026-10-26'
+      - label: UniProtKB P20711 — Aromatic-L-amino-acid decarboxylase
+        href: https://www.uniprot.org/uniprotkb/P20711/entry
+        accession: P20711
+        version: Entry version 227, annotation 2026-09-02
+        accessed: '2026-10-26'
+      - label: Aquili (2020) — precursor identities and separate depletion/supplementation evidence
+        href: /docs/papers/BRAIN-Diet-References#aquili_role_2020
+        citation_key: aquili_role_2020
 mission: Ensure meal-level protein supply delivers the amino-acid foundation neurotransmitter pathways depend on.
 parent_fm: BRS1(FM1)
 parent_brs: BRS1
-summary: 'Food protein supplies indispensable amino acids—the amino acids the body cannot make in sufficient amounts—including phenylalanine and tryptophan. Phenylalanine can also be converted to tyrosine. After a protein meal, dietary phenylalanine appears in the circulation. Tyrosine and tryptophan are precursors later signalling can use for dopamine, noradrenaline and serotonin. Protein that covers those amino acids is the supported dietary route.'
+summary: >-
+  Food protein supplies indispensable amino acids—the amino acids the body cannot make in sufficient
+  amounts—including phenylalanine and tryptophan. Phenylalanine can also be converted to tyrosine. After a
+  protein meal, dietary phenylalanine appears in the circulation. Tyrosine and tryptophan are precursors later
+  signalling can use for dopamine, noradrenaline and serotonin. Protein that covers those amino acids is the
+  supported dietary route.
 cofactors:
   - Tyrosine
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
 timing_specific: 'No'
-dose_sensitivity: 'Not established as a neurotransmitter dose. Protein type, dose and age change how much dietary phenylalanine reaches the circulation. Extra protein is not shown to raise brain monoamines.'
+dose_sensitivity: >-
+  Not established as a neurotransmitter dose. Protein type, dose and age change how much dietary phenylalanine
+  reaches the circulation. Extra protein is not shown to raise brain monoamines.
 dietary_addressability: direct
 claim_ceiling: dietary-provision
 mechanistic_authoring_required: false
@@ -21,30 +97,55 @@ dietary_input_traceability:
     dietary_input_note: Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.
     input: Indispensable amino-acid supply
     input_type: nutrient/compound class
-    biological_role: 'Coverage of the indispensable amino-acid set, including phenylalanine, that sets the circulating pool neurotransmitter pathways can draw on. Meals contribute measurable amino-acid composition; this is not a requirement that each meal provide complete coverage'
+    biological_role: >-
+      Coverage of the indispensable amino-acid set, including phenylalanine, that sets the circulating pool
+      neurotransmitter pathways can draw on. Meals contribute measurable amino-acid composition; this is not a
+      requirement that each meal provide complete coverage
     evidence_source:
       finding_ids:
         - PM1-F2
       citation_keys:
         - mariotti_dietary_2019
         - moughan_diaas_2024
-    evidence_limitation: Protein-quality scoring and vegetarian-diet amino-acid coverage do not establish that increasing protein raises brain monoamine synthesis or improves attention or mood. The indispensable set includes phenylalanine; tyrosine is not an indispensable amino acid.
+    evidence_limitation: >-
+      Protein-quality scoring and vegetarian-diet amino-acid coverage do not establish that increasing protein
+      raises brain monoamine synthesis or improves attention or mood. The indispensable set includes
+      phenylalanine; tyrosine is not an indispensable amino acid.
+    substance_id: indispensable-amino-acids
+    canonical_identity:
+      status: resolved
+      substance_id: indispensable-amino-acids
+      substance_href: /docs/substances/nutrients/macronutrients/amino-acids/indispensable-amino-acids
+      verified_against:
+        - registry/substances.json
+        - docs/substances/nutrients/macronutrients/amino-acids/indispensable-amino-acids.md
   - atom_id: PM1-DIT-4
-    dietary_input: null
-    dietary_input_note: 'Accepted precursor/transport role, but this entry does not explicitly establish its dietary supply route. Clarification required; not defaulted to No.'
-    dietary_input_flags:
-      - dietary-supply-unresolved
+    dietary_input: true
+    dietary_input_note: >-
+      2026-10-26 recovery: admitted Type A capacity under the functional-dependency and dietary-supply gate.
+      The original biochemical-only record and its rationale are preserved in the recovery history. No
+      additional-intake efficacy is asserted.
     input: Tyrosine
     input_type: substrate
-    biological_role: Catecholamine precursor in the circulating pool this PM prioritises. Tyrosine is normally formed from indispensable phenylalanine and can become conditionally indispensable when phenylalanine availability is limited
+    biological_role: >-
+      Catecholamine precursor in the circulating pool this PM prioritises. Tyrosine is normally formed from
+      indispensable phenylalanine and can become conditionally indispensable when phenylalanine availability
+      is limited
     evidence_source:
       finding_ids:
         - PM1-F3
         - PM1-F4
+        - PM1-F7
       citation_keys:
         - matthews_phenylalanine_2007
         - aquili_role_2020
-    evidence_limitation: 'Tyrosine is not an indispensable amino acid. Pool presence or dietary tyrosine is not evidence for increased brain dopamine or noradrenaline, LAT1 advantage, or clinical benefit. Absence of a phenylalanine atom is an evidence-scope decision, not a claim that phenylalanine is absent from the indispensable pool.'
+        - melamed_tyrosine_meals_1980
+    evidence_limitation: >-
+      Dietary supply to a circulating pool is distinct from brain transport, catecholamine synthesis or
+      clinical benefit. A small human study found higher plasma tyrosine during protein-containing meals and
+      after a large tyrosine supplement; it does not define ordinary-food efficacy or a need for extra
+      tyrosine when supply is adequate. Tyrosine is not an indispensable amino acid.
+    substance_id: tyrosine
   - atom_id: PM1-DIT-5
     dietary_input: true
     dietary_input_note: Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.
@@ -58,7 +159,9 @@ dietary_input_traceability:
       citation_keys:
         - mariotti_dietary_2019
         - aquili_role_2020
-    evidence_limitation: 'Pool presence of tryptophan is not evidence for increased brain serotonin, brain entry, or an attention or mood benefit.'
+    evidence_limitation: >-
+      Pool presence of tryptophan is not evidence for increased brain serotonin, brain entry, or an attention
+      or mood benefit.
 dietary_lever_atoms:
   - atom_id: PM1-DIT-1
     requirement_classification: direct
@@ -66,21 +169,40 @@ dietary_lever_atoms:
     relationship_mode: capacity-requirement
     dietary_addressability: direct
     claim_ceiling: dietary-provision
-    permitted_wording: 'Indispensable amino-acid supply is a Direct Dietary Requirement of this PM. Coverage of the indispensable set can be assessed in meals and across the diet; this is not a rule that each meal must be complete, and it is not a monoamine-dosing rule.'
-    evidence_limitation: Protein-quality scoring and vegetarian-diet amino-acid coverage do not establish that increasing protein raises brain monoamine synthesis or improves attention or mood. The indispensable set includes phenylalanine; tyrosine is not an indispensable amino acid.
+    permitted_wording: >-
+      Indispensable amino-acid supply is a Direct Dietary Requirement of this PM. Coverage of the
+      indispensable set can be assessed in meals and across the diet; this is not a rule that each meal must
+      be complete, and it is not a monoamine-dosing rule.
+    evidence_limitation: >-
+      Protein-quality scoring and vegetarian-diet amino-acid coverage do not establish that increasing protein
+      raises brain monoamine synthesis or improves attention or mood. The indispensable set includes
+      phenylalanine; tyrosine is not an indispensable amino acid.
   - atom_id: PM1-DIT-4
-    relationship_layer: biochemical-requirement
+    relationship_layer: dietary-requirement
     claim_ceiling: biological-dependency
-    permitted_wording: Tyrosine is a catecholamine-precursor substrate in the pool this PM prioritises. It is normally formed from phenylalanine and is not classified as an indispensable amino acid.
-    evidence_limitation: 'Tyrosine is not an indispensable amino acid. Pool presence or dietary tyrosine is not evidence for increased brain dopamine or noradrenaline, LAT1 advantage, or clinical benefit. Absence of a phenylalanine atom is an evidence-scope decision, not a claim that phenylalanine is absent from the indispensable pool.'
+    permitted_wording: >-
+      Dietary tyrosine supplies the circulating tyrosine precursor pool, alongside endogenous phenylalanine
+      hydroxylation, sustaining substrate availability for downstream pathways.
+    evidence_limitation: >-
+      Dietary supply to a circulating pool is distinct from brain transport, catecholamine synthesis or
+      clinical benefit. A small human study found higher plasma tyrosine during protein-containing meals and
+      after a large tyrosine supplement; it does not define ordinary-food efficacy or a need for extra
+      tyrosine when supply is adequate. Tyrosine is not an indispensable amino acid.
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    dietary_addressability: direct
   - atom_id: PM1-DIT-5
     requirement_classification: direct
     relationship_layer: dietary-requirement
     relationship_mode: capacity-requirement
     dietary_addressability: direct
     claim_ceiling: dietary-provision
-    permitted_wording: Tryptophan is an indispensable Direct substrate in the pool this PM governs. Presence in meals is not a serotonin-dosing rule.
-    evidence_limitation: 'Pool presence of tryptophan is not evidence for increased brain serotonin, brain entry, or an attention or mood benefit.'
+    permitted_wording: >-
+      Tryptophan is an indispensable Direct substrate in the pool this PM governs. Presence in meals is not a
+      serotonin-dosing rule.
+    evidence_limitation: >-
+      Pool presence of tryptophan is not evidence for increased brain serotonin, brain entry, or an attention
+      or mood benefit.
 dietary_lever_presentations:
   - atom_id: PM1-DIT-1
     label: Indispensable amino-acid supply
@@ -92,7 +214,7 @@ dietary_lever_presentations:
     short_descriptor: Essential amino acid
   - atom_id: PM1-DIT-4
     label: Tyrosine
-    presentation_section: 3.1.2
+    presentation_section: 3.1.1
     short_descriptor: Non-essential amino acid
 key_constraints: []
 pm_kc_relationships: []
@@ -100,22 +222,31 @@ kc_applicability_adjudications:
   - kc_id: BRS1(KC1)
     ikc_id: BRS1(KC1)
     arm_id: competitive-lat1
-    applicability_proposition: Imbalance of LAT1 competitive large-neutral-amino-acid balance can constrain this mechanism’s governed circulating amino-acid pool.
+    applicability_proposition: >-
+      Imbalance of LAT1 competitive large-neutral-amino-acid balance can constrain this mechanism’s governed
+      circulating amino-acid pool.
     disposition: evidence-supported-non-application
     established_links:
-      - This mechanism’s overview treats circulating pool sufficiency as independent of blood–brain-barrier transport.
-      - 'Fernstrom 2013 locates LNAA competition at LAT1, which is the transport mechanism.'
+      - >-
+        This mechanism’s overview treats circulating pool sufficiency as independent of blood–brain-barrier
+        transport.
+      - Fernstrom 2013 locates LNAA competition at LAT1, which is the transport mechanism.
     inferred_links:
       - LAT1 imbalance would therefore reduce the circulating pool this PM governs.
     evidence_source:
       citation_keys:
         - fernstrom_lnna_2013
-    rationale: 'The named competitive state is brain-entry competition, not circulating-pool availability. That is a different process. Neither assessed arm is admitted as a mapping to the current KC1 definition.'
+    rationale: >-
+      The named competitive state is brain-entry competition, not circulating-pool availability. That is a
+      different process. Neither assessed arm is admitted as a mapping to the current KC1 definition.
 kc_change_control_flags:
   - flag_id: KC-CC-BRS1-FM1-PM1-01
     flag_type: ikc-scope-conflict
     kc_id: BRS1(KC1)
-    proposition: Candidate PM↔KC1 mapping on the amino-acid quality arm. Shared IAA/protein-quality pool may constrain this PM; competitive LAT1 balance is not this PM's relationship. Input overlap with §4.1.1 is not a rejection criterion. Public §4.1.3 has no mapping. Dual-arm iKC remains KC-owned.
+    proposition: >-
+      Candidate PM↔KC1 mapping on the amino-acid quality arm. Shared IAA/protein-quality pool may constrain
+      this PM; competitive LAT1 balance is not this PM's relationship. Input overlap with §4.1.1 is not a
+      rejection criterion. Public §4.1.3 has no mapping. Dual-arm iKC remains KC-owned.
     evidence_source:
       citation_keys:
         - mariotti_dietary_2019
@@ -127,7 +258,10 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: 'Meal protein supplies circulating phenylalanine, and phenylalanine can be converted to tyrosine. Tyrosine and tryptophan are precursors later catecholamine and serotonin pathways can use. These studies do not measure attention.'
+    rationale: >-
+      Meal protein supplies circulating phenylalanine, and phenylalanine can be converted to tyrosine.
+      Tyrosine and tryptophan are precursors later catecholamine and serotonin pathways can use. These studies
+      do not measure attention.
     references:
       - index: 1
         label: Gorissen et al. (2020)
@@ -149,7 +283,9 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: 'Phenylalanine from dietary protein can be converted to tyrosine, the dopamine precursor. That supply is not a measurement of motivation or drive, and it is not dopaminergic signalling.'
+    rationale: >-
+      Phenylalanine from dietary protein can be converted to tyrosine, the dopamine precursor. That supply is
+      not a measurement of motivation or drive, and it is not dopaminergic signalling.
     references:
       - index: 1
         label: Matthews (2007)
@@ -166,7 +302,9 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low
     evidence_level: mechanistic
-    rationale: 'Tryptophan is an indispensable amino acid and the serotonin precursor. Coverage of that amino acid is not a measurement of emotional regulation, and serotonin signalling is a later step.'
+    rationale: >-
+      Tryptophan is an indispensable amino acid and the serotonin precursor. Coverage of that amino acid is
+      not a measurement of emotional regulation, and serotonin signalling is a later step.
     references:
       - index: 1
         label: Mariotti and Gardner (2019)
@@ -179,13 +317,100 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#aquili_role_2020
         data_level: Mechanistic
     evidence_confidence: low
+dietary_input_assessments:
+  - atom_id: PM1-DIT-4
+    status: admitted
+    type: A
+    classification: direct
+    operation: Ensure meal-level protein supply delivers the amino-acid foundation neurotransmitter pathways depend on.
+    canonical_substance_id: tyrosine
+    functional_dependency:
+      status: established
+      statement: >-
+        Dietary tyrosine supplies the circulating tyrosine precursor pool, alongside endogenous phenylalanine
+        hydroxylation, sustaining substrate availability for downstream pathways.
+      sources:
+        - https://pubmed.ncbi.nlm.nih.gov/7190187/
+    dietary_supply:
+      status: established
+      statement: >-
+        The same mineral has established dietary supply through the canonical composition records. Cellular
+        uptake and homeostasis mediate enzyme loading; this is maintenance of capacity, not a claim that extra
+        intake accelerates the reaction.
+      sources:
+        - docs/substances/nutrients/macronutrients/amino-acids/conditionals/tyrosine.md
+        - docs/foods/eggs.md
+    assessment_date: '2026-10-26'
+    assessment_limitations: >-
+      Dietary supply to a circulating pool is distinct from brain transport, catecholamine synthesis or
+      clinical benefit. A small human study found higher plasma tyrosine during protein-containing meals and
+      after a large tyrosine supplement; it does not define ordinary-food efficacy or a need for extra
+      tyrosine when supply is adequate. Tyrosine is not an indispensable amino acid.
+    food_target_research:
+      completed: true
+      sources_examined:
+        - registry/substances.json
+        - docs/substances/nutrients/macronutrients/amino-acids/conditionals/tyrosine.md
+        - docs/foods/eggs.md
+        - system/food-target-research.json
+      sufficient_coverage_rationale: >-
+        Inspected existing structured composition records and provisional research coverage for the same
+        mineral. Verified plant/animal sources are reused with preparation qualifiers; no new food edge,
+        effective food dose or enzyme-response inference is created.
+  - atom_id: PM1-DIT-1
+    status: admitted
+    type: A
+    classification: direct
+    operation: Ensure meal-level protein supply delivers the amino-acid foundation neurotransmitter pathways depend on.
+    canonical_substance_id: indispensable-amino-acids
+    functional_dependency:
+      status: established
+      statement: >-
+        The defined indispensable set must be supplied by diet and supports circulating amino-acid
+        availability. The accepted PM relationship concerns coverage, not increased brain synthesis.
+      sources:
+        - https://www.fao.org/4/i3124e/i3124e.pdf
+    dietary_supply:
+      status: established
+      statement: >-
+        The canonical milk record explicitly documents a complete essential-amino-acid profile with FAO
+        provenance. A qualitative complete-set edge does not infer quantities from total protein.
+      sources:
+        - docs/foods/milk.md
+        - https://www.fao.org/4/i3124e/i3124e.pdf
+    assessment_date: '2026-10-26'
+    assessment_limitations: >-
+      Identity reconciliation of the already accepted class; no new requirement that each meal provide all
+      nine, no uniform digestibility or neurotransmitter benefit.
+    food_target_research:
+      completed: true
+      sources_examined:
+        - docs/foods/milk.md
+        - registry/substances.json
+        - https://www.fao.org/4/i3124e/i3124e.pdf
+      sufficient_coverage_rationale: >-
+        Existing canonical Milk text explicitly supports the complete set. Record that supported qualitative
+        relationship; no food is inferred from total protein and no nine-fold multiplication of admissions or
+        amounts is performed. Other full-profile food edges require separate verified composition.
 references:
-  - '[Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)'
-  - '[Aquili (2020) — Tryptophan and Tyrosine as Serotonin and Dopamine Precursors](/docs/papers/BRAIN-Diet-References#aquili_role_2020)'
-  - '[Moughan and Lim (2024) — Digestible Indispensable Amino Acid Score (DIAAS)](/docs/papers/BRAIN-Diet-References#moughan_diaas_2024)'
-  - '[Matthews (2007) — Phenylalanine and Tyrosine Kinetics in Humans](/docs/papers/BRAIN-Diet-References#matthews_phenylalanine_2007)'
-  - '[Marsh et al. (2013) — Protein and Vegetarian Diets](/docs/papers/BRAIN-Diet-References#marsh_protein_2013)'
-  - '[Gorissen et al. (2020) — Dietary Protein and Circulating Phenylalanine](/docs/papers/BRAIN-Diet-References#gorissen_phenylalanine_2020)'
+  - >-
+    [Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian
+    Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+  - >-
+    [Aquili (2020) — Tryptophan and Tyrosine as Serotonin and Dopamine
+    Precursors](/docs/papers/BRAIN-Diet-References#aquili_role_2020)
+  - >-
+    [Moughan and Lim (2024) — Digestible Indispensable Amino Acid Score
+    (DIAAS)](/docs/papers/BRAIN-Diet-References#moughan_diaas_2024)
+  - >-
+    [Matthews (2007) — Phenylalanine and Tyrosine Kinetics in
+    Humans](/docs/papers/BRAIN-Diet-References#matthews_phenylalanine_2007)
+  - >-
+    [Marsh et al. (2013) — Protein and Vegetarian
+    Diets](/docs/papers/BRAIN-Diet-References#marsh_protein_2013)
+  - >-
+    [Gorissen et al. (2020) — Dietary Protein and Circulating
+    Phenylalanine](/docs/papers/BRAIN-Diet-References#gorissen_phenylalanine_2020)
   - '[Food-processing systematic review and meta-analysis (2026)](?review=0#stage2-ref-pm1-processing2026)'
   - '[Matthews et al. (2025): protein quality beyond DIAAS](?review=0#stage2-ref-pm1-quality2025)'
   - '[Pennings et al. (2013): minced beef versus steak](?review=0#stage2-ref-pm1-pennings2013)'
@@ -201,64 +426,127 @@ references:
   - '[True ileal amino-acid digestibility of faba bean (2024)](?review=0#stage2-ref-pm1-faba2024)'
   - '[Burstad et al.: systematic requirement review (2025)](?review=0#stage2-ref-pm1-requirements2025)'
   - '[Xin et al. (2026): exercise-induced dehydration and whey](?review=0#stage2-ref-pm1-hydration2026)'
-  - '[Pennings et al. (2013) — Minced beef is more rapidly digested and absorbed than beef steak, resulting in greater postprandial protein retention in older men.](/docs/papers/BRAIN-Diet-References#pennings_minced_beef_2013)'
-scientific_findings_intro: 'Dietary protein supplies the circulating precursor pool; food structure and source can alter delivery kinetics without proving superior neurotransmitter function. Curated reaction identity, whole-diet adequacy and experimental intervention findings are distinguished below.'
+  - >-
+    [Pennings et al. (2013) — Minced beef is more rapidly digested and absorbed than beef steak, resulting in
+    greater postprandial protein retention in older
+    men.](/docs/papers/BRAIN-Diet-References#pennings_minced_beef_2013)
+  - >-
+    [Melamed et al. (1980) — Plasma tyrosine in normal humans: effects of oral tyrosine and protein-containing
+    meals](/docs/papers/BRAIN-Diet-References#melamed_tyrosine_meals_1980)
+scientific_findings_intro: >-
+  Dietary protein supplies the circulating precursor pool; food structure and source can alter delivery
+  kinetics without proving superior neurotransmitter function. Curated reaction identity, whole-diet adequacy
+  and experimental intervention findings are distinguished below.
 scientific_findings:
   - id: PM1-F1
     finding_label: Dietary protein and amino-acid availability
     presentation: mechanistic-basis
     fm_rollup: true
-    finding_summary: Human tracer studies establish dietary delivery. Cross-study source/dose comparisons and variable age results require qualified interpretation.
-    finding_interpretation: 'Scope is circulating provision and the exact measured endpoint, not brain entry, neurotransmitter efficacy or a clinical recommendation.'
-    finding_statement: 'Dietary protein supplies phenylalanine to the human circulation, with delivery kinetics varying by the tested protein source, dose and meal context. The pooled age association is context-dependent, not proof that ageing uniformly impairs absorption or that greater availability increases brain neurotransmitters.'
+    finding_summary: >-
+      Human tracer studies establish dietary delivery. Cross-study source/dose comparisons and variable age
+      results require qualified interpretation.
+    finding_interpretation: >-
+      Scope is circulating provision and the exact measured endpoint, not brain entry, neurotransmitter
+      efficacy or a clinical recommendation.
+    finding_statement: >-
+      Dietary protein supplies phenylalanine to the human circulation, with delivery kinetics varying by the
+      tested protein source, dose and meal context. The pooled age association is context-dependent, not proof
+      that ageing uniformly impairs absorption or that greater availability increases brain neurotransmitters.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: The pooled dairy corpus establishes dietary tracer appearance but is not 18 independent research-group replications. Independent human source comparisons support context-dependent plasma responses. An individual exercise study and the newer six-source crossover did not show a uniform age-related decrement; plasma profiles and dietary tracer appearance are not identical measurements.
-    synthesis_limitations: 'Mostly male dairy-tracer cohorts; between-study source/dose contrasts, nonrandomised age comparisons and different matrices limit generalisation. No brain transport, neurotransmitter or ADHD endpoint.'
+    synthesis: >-
+      The pooled dairy corpus establishes dietary tracer appearance but is not 18 independent research-group
+      replications. Independent human source comparisons support context-dependent plasma responses. An
+      individual exercise study and the newer six-source crossover did not show a uniform age-related
+      decrement; plasma profiles and dietary tracer appearance are not identical measurements.
+    synthesis_limitations: >-
+      Mostly male dairy-tracer cohorts; between-study source/dose contrasts, nonrandomised age comparisons and
+      different matrices limit generalisation. No brain transport, neurotransmitter or ADHD endpoint.
     evidence_considered:
       - label: Gorissen et al. (2020)
         citation_key: gorissen_phenylalanine_2020
         href: /docs/papers/BRAIN-Diet-References#gorissen_phenylalanine_2020
         data_level: Human Mechanistic
-        exposure_context: 'dietary whey, casein or milk protein'
+        exposure_context: dietary whey, casein or milk protein
         evidence_source: bounded-external-search
-        directional_finding: 'About half of dietary protein-derived phenylalanine appeared in the circulation over five hours. The fraction was lower for casein, higher with a larger dose, and slightly lower in older adults.'
+        directional_finding: >-
+          About half of dietary protein-derived phenylalanine appeared in the circulation over five hours. The
+          fraction was lower for casein, higher with a larger dose, and slightly lower in older adults.
         assessment:
-          study: 'Pooled analysis of 18 randomised trials using intrinsically labelled whey, casein or milk protein.'
-          population: '602 participants, mean age 53 years. The age comparison used 82 young adults and 83 older adults.'
-          result: 'Dietary phenylalanine entered the circulation. Protein type, dose and age changed the fraction that appeared.'
-          effect_magnitude: 'Mean appearance 50% ± 14% over five hours. Casein 45% ± 11%, whey 57% ± 10%, milk 65% ± 13%. Older adults 45% ± 10% versus young adults 51% ± 14%.'
-          evidence_summary: 'A protein meal delivers phenylalanine into the circulation, and the amount depends on the protein, the dose and age.'
-          limitations: 'Phenylalanine appearance is not the full indispensable set, not tryptophan, and not a brain or clinical endpoint.'
+          study: Pooled analysis of 18 randomised trials using intrinsically labelled whey, casein or milk protein.
+          population: 602 participants, mean age 53 years. The age comparison used 82 young adults and 83 older adults.
+          result: >-
+            Dietary phenylalanine entered the circulation. Protein type, dose and age changed the fraction
+            that appeared.
+          effect_magnitude: >-
+            Mean appearance 50% ± 14% over five hours. Casein 45% ± 11%, whey 57% ± 10%, milk 65% ± 13%. Older
+            adults 45% ± 10% versus young adults 51% ± 14%.
+          evidence_summary: >-
+            A protein meal delivers phenylalanine into the circulation, and the amount depends on the protein,
+            the dose and age.
+          limitations: >-
+            Phenylalanine appearance is not the full indispensable set, not tryptophan, and not a brain or
+            clinical endpoint.
       - label: Non-animal protein-source crossover (2024)
         citation_key: stage2-ref-pm1-nonanimal2024
         href: '?review=0#stage2-ref-pm1-nonanimal2024'
         data_level: Human Mechanistic
         evidence_source: bounded-external-search
-        exposure_context: '30 g protein as milk, mycoprotein, pea, lupin, spirulina or chlorella; five-hour sampling; at least seven-day washout.'
-        directional_finding: Source-specific plasma profiles; some non-animal sources produced higher essential-amino-acid responses than the tested milk beverage. Integrated responses did not show a uniform age decrement.
+        exposure_context: >-
+          30 g protein as milk, mycoprotein, pea, lupin, spirulina or chlorella; five-hour sampling; at least
+          seven-day washout.
+        directional_finding: >-
+          Source-specific plasma profiles; some non-animal sources produced higher essential-amino-acid
+          responses than the tested milk beverage. Integrated responses did not show a uniform age decrement.
         assessment:
-          study: 'Independent Exeter programme; randomised double-blind six-period crossover, 12 young and 10 older adults, both sexes.'
-          population: 'Independent Exeter programme; randomised double-blind six-period crossover, 12 young and 10 older adults, both sexes.'
-          result: Source-specific plasma profiles; some non-animal sources produced higher essential-amino-acid responses than the tested milk beverage. Integrated responses did not show a uniform age decrement.
-          effect_magnitude: 'Source-specific endpoint and uncertainty: Small cohorts; composition and food matrix differ, so no isolated digestibility estimate or universal ranking follows.'
-          evidence_summary: Source-specific plasma profiles; some non-animal sources produced higher essential-amino-acid responses than the tested milk beverage. Integrated responses did not show a uniform age decrement.
-          limitations: 'Small cohorts; composition and food matrix differ, so no isolated digestibility estimate or universal ranking follows. Independent of Maastricht pooled dairy corpus; age analyses and six visits within a person are not six independent replications.'
+          study: >-
+            Independent Exeter programme; randomised double-blind six-period crossover, 12 young and 10 older
+            adults, both sexes.
+          population: >-
+            Independent Exeter programme; randomised double-blind six-period crossover, 12 young and 10 older
+            adults, both sexes.
+          result: >-
+            Source-specific plasma profiles; some non-animal sources produced higher essential-amino-acid
+            responses than the tested milk beverage. Integrated responses did not show a uniform age
+            decrement.
+          effect_magnitude: >-
+            Source-specific endpoint and uncertainty: Small cohorts; composition and food matrix differ, so no
+            isolated digestibility estimate or universal ranking follows.
+          evidence_summary: >-
+            Source-specific plasma profiles; some non-animal sources produced higher essential-amino-acid
+            responses than the tested milk beverage. Integrated responses did not show a uniform age
+            decrement.
+          limitations: >-
+            Small cohorts; composition and food matrix differ, so no isolated digestibility estimate or
+            universal ranking follows. Independent of Maastricht pooled dairy corpus; age analyses and six
+            visits within a person are not six independent replications.
       - label: 'Pennings et al. (2011): exercise before protein'
         citation_key: stage2-ref-pm1-exercise2011
         href: '?review=0#stage2-ref-pm1-exercise2011'
         data_level: Human Mechanistic
         evidence_source: bounded-external-search
         exposure_context: Resistance-type exercise before labelled protein versus rest; six-hour tracer follow-up.
-        directional_finding: Dietary phenylalanine availability did not differ detectably with exercise although muscle incorporation increased.
+        directional_finding: >-
+          Dietary phenylalanine availability did not differ detectably with exercise although muscle
+          incorporation increased.
         assessment:
-          study: 'Young/older men, rest/exercise comparisons; 48 participants total.'
-          population: 'Young/older men, rest/exercise comparisons; 48 participants total.'
-          result: Dietary phenylalanine availability did not differ detectably with exercise although muscle incorporation increased.
-          effect_magnitude: 'Source-specific endpoint and uncertainty: Muscle utilisation is not circulating-pool enhancement; a nonsignificant contrast is not equivalence.'
-          evidence_summary: Dietary phenylalanine availability did not differ detectably with exercise although muscle incorporation increased.
-          limitations: Muscle utilisation is not circulating-pool enhancement; a nonsignificant contrast is not equivalence. NCT00557388 is part of Gorissen2020; no double-counting.
+          study: Young/older men, rest/exercise comparisons; 48 participants total.
+          population: Young/older men, rest/exercise comparisons; 48 participants total.
+          result: >-
+            Dietary phenylalanine availability did not differ detectably with exercise although muscle
+            incorporation increased.
+          effect_magnitude: >-
+            Source-specific endpoint and uncertainty: Muscle utilisation is not circulating-pool enhancement;
+            a nonsignificant contrast is not equivalence.
+          evidence_summary: >-
+            Dietary phenylalanine availability did not differ detectably with exercise although muscle
+            incorporation increased.
+          limitations: >-
+            Muscle utilisation is not circulating-pool enhancement; a nonsignificant contrast is not
+            equivalence. NCT00557388 is part of Gorissen2020; no double-counting.
     evidence_dependency:
-      - 'Shared sources with PM1-F1 and PM1-F2 are reused for distinct propositions, not independent replication. Pooled studies, thesis chapters and journal reports may overlap.'
+      - >-
+        Shared sources with PM1-F1 and PM1-F2 are reused for distinct propositions, not independent
+        replication. Pooled studies, thesis chapters and journal reports may overlap.
     sec_assessment_ref:
       id: pm1-pm1-f1-assessment
       version: 2
@@ -267,12 +555,24 @@ scientific_findings:
     finding_label: Diet-wide amino-acid adequacy does not require identical complete meals
     presentation: mechanistic-basis
     fm_rollup: false
-    finding_summary: 'Retain nutritional adequacy, but separate whole-diet coverage from acute food-specific kinetics.'
-    finding_interpretation: 'Scope is circulating provision and the exact measured endpoint, not brain entry, neurotransmitter efficacy or a clinical recommendation.'
-    finding_statement: Varied adult diets can provide digestible indispensable amino acids without requiring every meal to supply the full set. This nutritional-adequacy proposition does not establish an optimal neurotransmitter dose or demonstrate that all plant and animal foods have identical postprandial responses.
+    finding_summary: Retain nutritional adequacy, but separate whole-diet coverage from acute food-specific kinetics.
+    finding_interpretation: >-
+      Scope is circulating provision and the exact measured endpoint, not brain entry, neurotransmitter
+      efficacy or a clinical recommendation.
+    finding_statement: >-
+      Varied adult diets can provide digestible indispensable amino acids without requiring every meal to
+      supply the full set. This nutritional-adequacy proposition does not establish an optimal
+      neurotransmitter dose or demonstrate that all plant and animal foods have identical postprandial
+      responses.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'Existing vegetarian-diet and DIAAS reviews support adequacy across a varied diet. New human source and faba-bean studies qualify single-food composition/digestibility; they do not contradict adequate mixed diets. The recent systematic requirement review concerns quantitative requirements, not neurotransmitter enhancement.'
-    synthesis_limitations: 'Requirement reviews are not direct tests of neurotransmitter response or every possible plant diet. Energy sufficiency, variety, age and clinical context remain relevant.'
+    synthesis: >-
+      Existing vegetarian-diet and DIAAS reviews support adequacy across a varied diet. New human source and
+      faba-bean studies qualify single-food composition/digestibility; they do not contradict adequate mixed
+      diets. The recent systematic requirement review concerns quantitative requirements, not neurotransmitter
+      enhancement.
+    synthesis_limitations: >-
+      Requirement reviews are not direct tests of neurotransmitter response or every possible plant diet.
+      Energy sufficiency, variety, age and clinical context remain relevant.
     evidence_considered:
       - label: Mariotti and Gardner (2019)
         citation_key: mariotti_dietary_2019
@@ -280,12 +580,18 @@ scientific_findings:
         data_level: Mechanistic
         exposure_context: vegetarian and vegan dietary patterns
         evidence_source: repository-inherited
-        directional_finding: Adult vegetarian diets that include protein-rich plant foods can meet protein and amino-acid requirements. Amino-acid deficiency is described as overstated.
+        directional_finding: >-
+          Adult vegetarian diets that include protein-rich plant foods can meet protein and amino-acid
+          requirements. Amino-acid deficiency is described as overstated.
         assessment:
           study: Review of protein and amino-acid intakes from vegetarian and vegan diets in Western adults.
-          population: 'Adults, including older adults, eating vegetarian or vegan diets. Children are discussed separately.'
+          population: >-
+            Adults, including older adults, eating vegetarian or vegan diets. Children are discussed
+            separately.
           result: Protein-rich plant foods can achieve protein and amino-acid adequacy in adults.
-          effect_magnitude: 'No single intake-response estimate. The result is adequacy against requirements, not a change in brain transmitters.'
+          effect_magnitude: >-
+            No single intake-response estimate. The result is adequacy against requirements, not a change in
+            brain transmitters.
           evidence_summary: Dietary patterns can cover the indispensable amino acids this pool requires.
           limitations: Requirement coverage is not a plasma time course and not a neurotransmitter outcome.
       - label: Moughan and Lim (2024)
@@ -294,7 +600,9 @@ scientific_findings:
         data_level: Mechanistic
         exposure_context: protein-quality scoring
         evidence_source: repository-inherited
-        directional_finding: Protein quality is scored by digestible indispensable amino acids rather than by protein grams alone.
+        directional_finding: >-
+          Protein quality is scored by digestible indispensable amino acids rather than by protein grams
+          alone.
         assessment:
           study: Review of the digestible indispensable amino acid score a decade after its introduction.
           population: Not a new human trial. The score is applied to foods and diets.
@@ -308,7 +616,9 @@ scientific_findings:
         data_level: Mechanistic
         exposure_context: vegetarian dietary pattern
         evidence_source: repository-inherited
-        directional_finding: Varied plant-protein sources across the diet can cover indispensable amino acids without combining complementary proteins in each meal.
+        directional_finding: >-
+          Varied plant-protein sources across the diet can cover indispensable amino acids without combining
+          complementary proteins in each meal.
         assessment:
           study: Review of protein in vegetarian diets.
           population: People eating vegetarian diets.
@@ -324,56 +634,107 @@ scientific_findings:
         exposure_context: Average daily protein and indispensable-amino-acid requirements across life stages.
         directional_finding: Evidence gaps in exact requirement estimates do not negate indispensable-amino-acid biology.
         assessment:
-          study: Systematic review of studies January 2000-May 2024; duplicate screening and risk-of-bias appraisal.
-          population: Systematic review of studies January 2000-May 2024; duplicate screening and risk-of-bias appraisal.
+          study: >-
+            Systematic review of studies January 2000-May 2024; duplicate screening and risk-of-bias
+            appraisal.
+          population: >-
+            Systematic review of studies January 2000-May 2024; duplicate screening and risk-of-bias
+            appraisal.
           result: Evidence gaps in exact requirement estimates do not negate indispensable-amino-acid biology.
-          effect_magnitude: 'Source-specific endpoint and uncertainty: Not a PM-specific intake prescription, postprandial tracer experiment or neurotransmitter trial.'
+          effect_magnitude: >-
+            Source-specific endpoint and uncertainty: Not a PM-specific intake prescription, postprandial
+            tracer experiment or neurotransmitter trial.
           evidence_summary: Evidence gaps in exact requirement estimates do not negate indispensable-amino-acid biology.
-          limitations: 'Not a PM-specific intake prescription, postprandial tracer experiment or neurotransmitter trial. Review plus included studies are not independent replications.'
+          limitations: >-
+            Not a PM-specific intake prescription, postprandial tracer experiment or neurotransmitter trial.
+            Review plus included studies are not independent replications.
       - label: True ileal amino-acid digestibility of faba bean (2024)
         citation_key: stage2-ref-pm1-faba2024
         href: '?review=0#stage2-ref-pm1-faba2024'
         data_level: Human Mechanistic
         evidence_source: bounded-external-search
         exposure_context: Cooked dehulled faba mash providing 20 g protein; eight-hour collection.
-        directional_finding: Individual amino-acid digestibility and limiting-amino-acid content differ; a single food score is not a whole-diet inadequacy diagnosis.
+        directional_finding: >-
+          Individual amino-acid digestibility and limiting-amino-acid content differ; a single food score is
+          not a whole-diet inadequacy diagnosis.
         assessment:
-          study: 'Healthy-human single-food tracer/intubation study, NCT05047757.'
-          population: 'Healthy-human single-food tracer/intubation study, NCT05047757.'
-          result: Individual amino-acid digestibility and limiting-amino-acid content differ; a single food score is not a whole-diet inadequacy diagnosis.
-          effect_magnitude: 'Source-specific endpoint and uncertainty: Ileal digestibility, systemic appearance and brain transport are distinct endpoints.'
-          evidence_summary: Individual amino-acid digestibility and limiting-amino-acid content differ; a single food score is not a whole-diet inadequacy diagnosis.
-          limitations: 'Ileal digestibility, systemic appearance and brain transport are distinct endpoints. Different endpoint and protocol; no replication credit for a dairy-source comparison and no independence score assigned.'
+          study: Healthy-human single-food tracer/intubation study, NCT05047757.
+          population: Healthy-human single-food tracer/intubation study, NCT05047757.
+          result: >-
+            Individual amino-acid digestibility and limiting-amino-acid content differ; a single food score is
+            not a whole-diet inadequacy diagnosis.
+          effect_magnitude: >-
+            Source-specific endpoint and uncertainty: Ileal digestibility, systemic appearance and brain
+            transport are distinct endpoints.
+          evidence_summary: >-
+            Individual amino-acid digestibility and limiting-amino-acid content differ; a single food score is
+            not a whole-diet inadequacy diagnosis.
+          limitations: >-
+            Ileal digestibility, systemic appearance and brain transport are distinct endpoints. Different
+            endpoint and protocol; no replication credit for a dairy-source comparison and no independence
+            score assigned.
       - label: Non-animal protein-source crossover (2024)
         citation_key: stage2-ref-pm1-nonanimal2024
         href: '?review=0#stage2-ref-pm1-nonanimal2024'
         data_level: Human Mechanistic
         evidence_source: bounded-external-search
-        exposure_context: '30 g protein as milk, mycoprotein, pea, lupin, spirulina or chlorella; five-hour sampling; at least seven-day washout.'
-        directional_finding: Source-specific plasma profiles; some non-animal sources produced higher essential-amino-acid responses than the tested milk beverage. Integrated responses did not show a uniform age decrement.
+        exposure_context: >-
+          30 g protein as milk, mycoprotein, pea, lupin, spirulina or chlorella; five-hour sampling; at least
+          seven-day washout.
+        directional_finding: >-
+          Source-specific plasma profiles; some non-animal sources produced higher essential-amino-acid
+          responses than the tested milk beverage. Integrated responses did not show a uniform age decrement.
         assessment:
-          study: 'Independent Exeter programme; randomised double-blind six-period crossover, 12 young and 10 older adults, both sexes.'
-          population: 'Independent Exeter programme; randomised double-blind six-period crossover, 12 young and 10 older adults, both sexes.'
-          result: Source-specific plasma profiles; some non-animal sources produced higher essential-amino-acid responses than the tested milk beverage. Integrated responses did not show a uniform age decrement.
-          effect_magnitude: 'Source-specific endpoint and uncertainty: Small cohorts; composition and food matrix differ, so no isolated digestibility estimate or universal ranking follows.'
-          evidence_summary: Source-specific plasma profiles; some non-animal sources produced higher essential-amino-acid responses than the tested milk beverage. Integrated responses did not show a uniform age decrement.
-          limitations: 'Small cohorts; composition and food matrix differ, so no isolated digestibility estimate or universal ranking follows. Independent of Maastricht pooled dairy corpus; age analyses and six visits within a person are not six independent replications.'
+          study: >-
+            Independent Exeter programme; randomised double-blind six-period crossover, 12 young and 10 older
+            adults, both sexes.
+          population: >-
+            Independent Exeter programme; randomised double-blind six-period crossover, 12 young and 10 older
+            adults, both sexes.
+          result: >-
+            Source-specific plasma profiles; some non-animal sources produced higher essential-amino-acid
+            responses than the tested milk beverage. Integrated responses did not show a uniform age
+            decrement.
+          effect_magnitude: >-
+            Source-specific endpoint and uncertainty: Small cohorts; composition and food matrix differ, so no
+            isolated digestibility estimate or universal ranking follows.
+          evidence_summary: >-
+            Source-specific plasma profiles; some non-animal sources produced higher essential-amino-acid
+            responses than the tested milk beverage. Integrated responses did not show a uniform age
+            decrement.
+          limitations: >-
+            Small cohorts; composition and food matrix differ, so no isolated digestibility estimate or
+            universal ranking follows. Independent of Maastricht pooled dairy corpus; age analyses and six
+            visits within a person are not six independent replications.
     evidence_dependency:
-      - 'Shared sources with PM1-F1 and PM1-F2 are reused for distinct propositions, not independent replication. Pooled studies, thesis chapters and journal reports may overlap.'
+      - >-
+        Shared sources with PM1-F1 and PM1-F2 are reused for distinct propositions, not independent
+        replication. Pooled studies, thesis chapters and journal reports may overlap.
     sec_assessment_ref:
       id: pm1-pm1-f2-assessment
       version: 2
       sha256: 325c4bfa34570d37f82ad44955d2e4b9f84e51cd813a0dd74bbc960da65ed2fe
   - id: PM1-F3
-    finding_label: 'Phenylalanine-to-tyrosine conversion: biochemical provenance'
+    finding_label: Phenylalanine conversion and endogenous tyrosine supply
     presentation: mechanistic-basis
     fm_rollup: true
-    finding_summary: Established conversion chemistry; dietary admission and downstream catecholamine effects remain separate decisions.
-    finding_interpretation: 'Scope is circulating provision and the exact measured endpoint, not brain entry, neurotransmitter efficacy or a clinical recommendation.'
-    finding_statement: Phenylalanine-4-hydroxylase (PAH) converts L-phenylalanine to L-tyrosine. This endogenous route contributes to tyrosine supply but does not make tyrosine absent from foods or establish an independent requirement for extra dietary tyrosine.
+    finding_summary: >-
+      Established conversion chemistry; dietary admission and downstream catecholamine effects remain separate
+      decisions.
+    finding_interpretation: >-
+      Scope is circulating provision and the exact measured endpoint, not brain entry, neurotransmitter
+      efficacy or a clinical recommendation.
+    finding_statement: >-
+      Phenylalanine-4-hydroxylase (PAH) converts L-phenylalanine to L-tyrosine. This endogenous route
+      contributes to tyrosine supply but does not make tyrosine absent from foods or establish an independent
+      requirement for extra dietary tyrosine.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: UniProt P00439 and Rhea 20273 establish reaction identity; the Matthews human kinetic review remains linked for physiological context. No new intake-response or clinical conclusion is inferred.
-    synthesis_limitations: Curated enzyme annotation does not quantify whole-body dietary contribution or human brain catecholamine flux. Do not automatically add every PAH cofactor as a PM1-specific dietary requirement.
+    synthesis: >-
+      UniProt P00439 and Rhea 20273 establish reaction identity; the Matthews human kinetic review remains
+      linked for physiological context. No new intake-response or clinical conclusion is inferred.
+    synthesis_limitations: >-
+      Curated enzyme annotation does not quantify whole-body dietary contribution or human brain catecholamine
+      flux. Do not automatically add every PAH cofactor as a PM1-specific dietary requirement.
     evidence_considered:
       - label: Matthews (2007)
         citation_key: matthews_phenylalanine_2007
@@ -381,7 +742,9 @@ scientific_findings:
         data_level: Mechanistic
         exposure_context: human tracer infusions
         evidence_source: repository-inherited
-        directional_finding: Phenylalanine is hydroxylated to tyrosine in humans. Tyrosine is normally dispensable and can become conditionally indispensable when phenylalanine availability is limited.
+        directional_finding: >-
+          Phenylalanine is hydroxylated to tyrosine in humans. Tyrosine is normally dispensable and can become
+          conditionally indispensable when phenylalanine availability is limited.
         assessment:
           study: Overview of human phenylalanine and tyrosine tracer kinetics.
           population: Human tracer studies in people with ordinary hydroxylation and in disorders that block it.
@@ -390,7 +753,9 @@ scientific_findings:
           evidence_summary: Dietary phenylalanine can supply tyrosine through a conversion that has been measured in humans.
           limitations: Conversion kinetics are not brain dopamine or noradrenaline synthesis.
     evidence_dependency:
-      - 'Shared sources with PM1-F1 and PM1-F2 are reused for distinct propositions, not independent replication. Pooled studies, thesis chapters and journal reports may overlap.'
+      - >-
+        Shared sources with PM1-F1 and PM1-F2 are reused for distinct propositions, not independent
+        replication. Pooled studies, thesis chapters and journal reports may overlap.
     sec_assessment_ref:
       id: pm1-pm1-f3-assessment
       version: 2
@@ -400,11 +765,20 @@ scientific_findings:
     presentation: mechanistic-basis
     fm_rollup: false
     finding_summary: Preserve precursor identity and the downstream PM2-PM5 boundary.
-    finding_interpretation: 'Scope is circulating provision and the exact measured endpoint, not brain entry, neurotransmitter efficacy or a clinical recommendation.'
-    finding_statement: 'Tyrosine and tryptophan supply the precursor pathways for catecholamines and serotonin, respectively. Their biochemical identity does not demonstrate that additional meal protein improves brain transmitter synthesis, attention, mood or reward.'
+    finding_interpretation: >-
+      Scope is circulating provision and the exact measured endpoint, not brain entry, neurotransmitter
+      efficacy or a clinical recommendation.
+    finding_statement: >-
+      Tyrosine and tryptophan supply the precursor pathways for catecholamines and serotonin, respectively.
+      Their biochemical identity does not demonstrate that additional meal protein improves brain transmitter
+      synthesis, attention, mood or reward.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'Retain Aquili and existing precursor evidence as biochemical/contextual support, not evidence that ordinary dietary coverage reproduces depletion or pharmacological supplementation experiments.'
-    synthesis_limitations: 'Transport competition, regional synthesis, release and clinical outcomes require their own evidence. No score is inherited from this elementary relationship.'
+    synthesis: >-
+      Retain Aquili and existing precursor evidence as biochemical/contextual support, not evidence that
+      ordinary dietary coverage reproduces depletion or pharmacological supplementation experiments.
+    synthesis_limitations: >-
+      Transport competition, regional synthesis, release and clinical outcomes require their own evidence. No
+      score is inherited from this elementary relationship.
     evidence_considered:
       - label: Aquili (2020)
         citation_key: aquili_role_2020
@@ -412,16 +786,22 @@ scientific_findings:
         data_level: Mechanistic
         exposure_context: narrative review of depletion and supplementation studies
         evidence_source: repository-inherited
-        directional_finding: 'Tryptophan is named as the serotonin precursor and tyrosine as the dopamine precursor. The reviewed behavioural effects come from depletion and supplementation, not from meal-protein coverage.'
+        directional_finding: >-
+          Tryptophan is named as the serotonin precursor and tyrosine as the dopamine precursor. The reviewed
+          behavioural effects come from depletion and supplementation, not from meal-protein coverage.
         assessment:
           study: Narrative review of tryptophan and tyrosine in executive function and reward.
           population: The behavioural studies are mostly acute depletion or supplementation experiments.
-          result: The precursor relationship is stated. Cognitive effects in the review are not effects of this dietary pool.
+          result: >-
+            The precursor relationship is stated. Cognitive effects in the review are not effects of this
+            dietary pool.
           effect_magnitude: No effect size for meal protein on brain transmitters.
           evidence_summary: The precursor names are supported. The cognitive conclusions are not a result for this mechanism.
           limitations: Depletion and isolated supplements are not indispensable-amino-acid coverage.
     evidence_dependency:
-      - 'Shared sources with PM1-F1 and PM1-F2 are reused for distinct propositions, not independent replication. Pooled studies, thesis chapters and journal reports may overlap.'
+      - >-
+        Shared sources with PM1-F1 and PM1-F2 are reused for distinct propositions, not independent
+        replication. Pooled studies, thesis chapters and journal reports may overlap.
     sec_assessment_ref:
       id: pm1-pm1-f4-assessment
       version: 2
@@ -430,11 +810,22 @@ scientific_findings:
     presentation: mechanistic-basis
     fm_rollup: false
     finding_label: Food texture and amino-acid appearance
-    finding_statement: 'In a randomised crossover study of ten older men, 135 g minced beef produced greater six-hour dietary phenylalanine appearance than the same quantity of steak. Total plasma essential-amino-acid concentrations and muscle protein synthesis did not differ detectably between preparations.'
-    finding_summary: 'Texture affected source-specific tracer delivery, not every circulating or functional outcome.'
-    finding_interpretation: 'Scope is circulating provision and the exact measured endpoint, not brain entry, neurotransmitter efficacy or a clinical recommendation.'
-    synthesis: The matched-food crossover supports a preparation effect on dietary tracer appearance. Null total-concentration and muscle outcomes prevent a generic better-protein or neurotransmitter interpretation. The thesis and publication describe one dataset.
-    synthesis_limitations: One small older-male trial; no independent replication of the exact matched-beef protocol was established in this assessment. No claim that all foods should be minced or that this improves attention.
+    finding_statement: >-
+      In a randomised crossover study of ten older men, 135 g minced beef produced greater six-hour dietary
+      phenylalanine appearance than the same quantity of steak. Total plasma essential-amino-acid
+      concentrations and muscle protein synthesis did not differ detectably between preparations.
+    finding_summary: Texture affected source-specific tracer delivery, not every circulating or functional outcome.
+    finding_interpretation: >-
+      Scope is circulating provision and the exact measured endpoint, not brain entry, neurotransmitter
+      efficacy or a clinical recommendation.
+    synthesis: >-
+      The matched-food crossover supports a preparation effect on dietary tracer appearance. Null
+      total-concentration and muscle outcomes prevent a generic better-protein or neurotransmitter
+      interpretation. The thesis and publication describe one dataset.
+    synthesis_limitations: >-
+      One small older-male trial; no independent replication of the exact matched-beef protocol was
+      established in this assessment. No claim that all foods should be minced or that this improves
+      attention.
     synthesised_evidence_confidence: not-yet-scored
     evidence_considered:
       - label: 'Pennings et al. (2013): minced beef versus steak'
@@ -442,17 +833,32 @@ scientific_findings:
         href: '?review=0#stage2-ref-pm1-pennings2013'
         data_level: Human Mechanistic
         evidence_source: bounded-external-search
-        exposure_context: '135 g intrinsically labelled lean beef, same cut, minced patty versus steak; six-hour tracer follow-up.'
-        directional_finding: More dietary phenylalanine appeared after mincing. Total plasma essential-amino-acid concentrations and muscle synthesis did not differ detectably.
+        exposure_context: >-
+          135 g intrinsically labelled lean beef, same cut, minced patty versus steak; six-hour tracer
+          follow-up.
+        directional_finding: >-
+          More dietary phenylalanine appeared after mincing. Total plasma essential-amino-acid concentrations
+          and muscle synthesis did not differ detectably.
         assessment:
-          study: 'Randomised crossover; ten older men, mean age 74 years; two visits at least 14 days apart.'
-          population: 'Randomised crossover; ten older men, mean age 74 years; two visits at least 14 days apart.'
-          result: More dietary phenylalanine appeared after mincing. Total plasma essential-amino-acid concentrations and muscle synthesis did not differ detectably.
-          effect_magnitude: 'Six-hour dietary phenylalanine appearance: minced 61% ± 3% versus steak 49% ± 3% (means ± SEM), P < 0.01; 12 percentage-point difference. No paired confidence interval calculated or inferred.'
-          evidence_summary: More dietary phenylalanine appeared after mincing. Total plasma essential-amino-acid concentrations and muscle synthesis did not differ detectably.
-          limitations: 'Small single trial; mean estimates and standard errors available, paired effect interval not extracted; no equivalence claim for null outcomes. Single empirical dataset; thesis and journal article are the same experiment, not replications.'
+          study: Randomised crossover; ten older men, mean age 74 years; two visits at least 14 days apart.
+          population: Randomised crossover; ten older men, mean age 74 years; two visits at least 14 days apart.
+          result: >-
+            More dietary phenylalanine appeared after mincing. Total plasma essential-amino-acid
+            concentrations and muscle synthesis did not differ detectably.
+          effect_magnitude: >-
+            Six-hour dietary phenylalanine appearance: minced 61% ± 3% versus steak 49% ± 3% (means ± SEM), P
+            < 0.01; 12 percentage-point difference. No paired confidence interval calculated or inferred.
+          evidence_summary: >-
+            More dietary phenylalanine appeared after mincing. Total plasma essential-amino-acid
+            concentrations and muscle synthesis did not differ detectably.
+          limitations: >-
+            Small single trial; mean estimates and standard errors available, paired effect interval not
+            extracted; no equivalence claim for null outcomes. Single empirical dataset; thesis and journal
+            article are the same experiment, not replications.
     evidence_dependency:
-      - 'Shared sources with PM1-F1 and PM1-F2 are reused for distinct propositions, not independent replication. Pooled studies, thesis chapters and journal reports may overlap.'
+      - >-
+        Shared sources with PM1-F1 and PM1-F2 are reused for distinct propositions, not independent
+        replication. Pooled studies, thesis chapters and journal reports may overlap.
     sec_assessment_ref:
       id: pm1-pm1-f5-assessment
       version: 2
@@ -460,12 +866,23 @@ scientific_findings:
   - id: PM1-F6
     presentation: mechanistic-basis
     fm_rollup: false
-    finding_label: 'Extrusion altered early amino-acid kinetics, not demonstrated total loss'
-    finding_statement: 'In a randomised crossover of nine healthy young adults, the tested high-moisture-extruded mycoprotein/pea blend delayed selected early plasma amino-acid responses relative to the dry blend. Total five-hour grouped amino-acid availability was not significantly different; the study does not establish poorer overall nutrition for all meat alternatives.'
+    finding_label: Extrusion altered early amino-acid kinetics, not demonstrated total loss
+    finding_statement: >-
+      In a randomised crossover of nine healthy young adults, the tested high-moisture-extruded
+      mycoprotein/pea blend delayed selected early plasma amino-acid responses relative to the dry blend.
+      Total five-hour grouped amino-acid availability was not significantly different; the study does not
+      establish poorer overall nutrition for all meat alternatives.
     finding_summary: Preserve both temporal differences and the null integrated endpoint.
-    finding_interpretation: 'Scope is circulating provision and the exact measured endpoint, not brain entry, neurotransmitter efficacy or a clinical recommendation.'
-    synthesis: 'The human beverage experiment and in-vitro analyses address different endpoints. Selected phenylalanine/tyrosine peaks changed, while grouped integrated responses were statistically inconclusive. Composition, matrix and sampling constrain interpretation.'
-    synthesis_limitations: 'Single small trial, no dietary tracer, numerous secondary endpoints and laboratory reconstituted products. Not proof of equal total absorption or a reason to avoid all processed plant foods.'
+    finding_interpretation: >-
+      Scope is circulating provision and the exact measured endpoint, not brain entry, neurotransmitter
+      efficacy or a clinical recommendation.
+    synthesis: >-
+      The human beverage experiment and in-vitro analyses address different endpoints. Selected
+      phenylalanine/tyrosine peaks changed, while grouped integrated responses were statistically
+      inconclusive. Composition, matrix and sampling constrain interpretation.
+    synthesis_limitations: >-
+      Single small trial, no dietary tracer, numerous secondary endpoints and laboratory reconstituted
+      products. Not proof of equal total absorption or a reason to avoid all processed plant foods.
     synthesised_evidence_confidence: not-yet-scored
     evidence_considered:
       - label: High-moisture extrusion crossover (2024)
@@ -473,21 +890,78 @@ scientific_findings:
         href: '?review=0#stage2-ref-pm1-extrusion2024'
         data_level: Human Mechanistic
         evidence_source: bounded-external-search
-        exposure_context: '25 g protein, 39% mycoprotein/61% pea; extruded versus dry-milled blend in drinks; five-hour samples.'
-        directional_finding: 'Extrusion delayed early responses and reduced selected peaks, including phenylalanine and tyrosine. Total five-hour grouped amino-acid availability was not significantly different.'
+        exposure_context: >-
+          25 g protein, 39% mycoprotein/61% pea; extruded versus dry-milled blend in drinks; five-hour
+          samples.
+        directional_finding: >-
+          Extrusion delayed early responses and reduced selected peaks, including phenylalanine and tyrosine.
+          Total five-hour grouped amino-acid availability was not significantly different.
         assessment:
-          study: 'Randomised double-blind counterbalanced crossover; nine young adults, five men/four women; minimum five-day separation.'
-          population: 'Randomised double-blind counterbalanced crossover; nine young adults, five men/four women; minimum five-day separation.'
-          result: 'Extrusion delayed early responses and reduced selected peaks, including phenylalanine and tyrosine. Total five-hour grouped amino-acid availability was not significantly different.'
-          effect_magnitude: 'Phenylalanine peak: dry blend 72 ± 3 versus extruded 58 ± 3 micromol/L, P=0.020; time to peak 32 ± 4 versus 83 ± 20 minutes, P=0.037 (means ± SEM). Total five-hour grouped amino-acid iAUC: no statistically significant difference; no equivalence bounds inferred.'
-          evidence_summary: 'Extrusion delayed early responses and reduced selected peaks, including phenylalanine and tyrosine. Total five-hour grouped amino-acid availability was not significantly different.'
-          limitations: 'Small single dataset; no tracer, many endpoints, uncertainty on paired differences; laboratory reconstituted products not every commercial meat alternative. Distinct study but same Exeter programme as nonanimal2024; not an independent replication of its six-source comparison.'
+          study: >-
+            Randomised double-blind counterbalanced crossover; nine young adults, five men/four women; minimum
+            five-day separation.
+          population: >-
+            Randomised double-blind counterbalanced crossover; nine young adults, five men/four women; minimum
+            five-day separation.
+          result: >-
+            Extrusion delayed early responses and reduced selected peaks, including phenylalanine and
+            tyrosine. Total five-hour grouped amino-acid availability was not significantly different.
+          effect_magnitude: >-
+            Phenylalanine peak: dry blend 72 ± 3 versus extruded 58 ± 3 micromol/L, P=0.020; time to peak 32 ±
+            4 versus 83 ± 20 minutes, P=0.037 (means ± SEM). Total five-hour grouped amino-acid iAUC: no
+            statistically significant difference; no equivalence bounds inferred.
+          evidence_summary: >-
+            Extrusion delayed early responses and reduced selected peaks, including phenylalanine and
+            tyrosine. Total five-hour grouped amino-acid availability was not significantly different.
+          limitations: >-
+            Small single dataset; no tracer, many endpoints, uncertainty on paired differences; laboratory
+            reconstituted products not every commercial meat alternative. Distinct study but same Exeter
+            programme as nonanimal2024; not an independent replication of its six-source comparison.
     evidence_dependency:
-      - 'Shared sources with PM1-F1 and PM1-F2 are reused for distinct propositions, not independent replication. Pooled studies, thesis chapters and journal reports may overlap.'
+      - >-
+        Shared sources with PM1-F1 and PM1-F2 are reused for distinct propositions, not independent
+        replication. Pooled studies, thesis chapters and journal reports may overlap.
     sec_assessment_ref:
       id: pm1-pm1-f6-assessment
       version: 2
       sha256: 3b1b63c7d270288e66195b3caf74345020ce1d17dfe0723d6efbef6f11df7e13
+  - id: PM1-F7
+    finding_label: Oral tyrosine and protein-containing meals contribute to plasma tyrosine
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: >-
+      In the reported human experiment, plasma tyrosine increased over a protein-containing dietary day and
+      rose further during oral tyrosine administration.
+    finding_summary: Supports oral supply to the circulating precursor pool.
+    finding_interpretation: A Type A supply proposition for this PM, distinct from LAT1 transport, brain synthesis or treatment.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: >-
+      Plasma tyrosine was measured in eleven subjects during protein-containing meals, with and without
+      divided supplemental L-tyrosine.
+    synthesis_limitations: >-
+      Small human meal/supplement study. Plasma concentration is not dietary appearance flux, brain entry or
+      catecholamine synthesis. Endogenous phenylalanine conversion remains an alternative; no general
+      food-effective dose or extra-intake benefit. Primary abstract retrieved; full methods and risk-of-bias
+      appraisal remain incomplete, so no numerical SEC is assigned.
+    evidence_considered:
+      - label: Melamed et al. (1980)
+        citation_key: melamed_tyrosine_meals_1980
+        href: /docs/papers/BRAIN-Diet-References#melamed_tyrosine_meals_1980
+        data_level: Human Study
+        evidence_source: bounded-external-search
+        exposure_context: 113 g protein/day and a separate 100 mg/kg/day divided L-tyrosine exposure.
+        directional_finding: Plasma tyrosine rose during the dietary day and further after supplemental tyrosine.
+        assessment:
+          study: Human dietary-day and oral tyrosine comparison.
+          population: Eleven subjects.
+          result: Higher plasma tyrosine during meals and a further supplement-associated rise.
+          effect_magnitude: No food-dose or brain-effect magnitude inferred.
+          evidence_summary: Oral supply contributes to the circulating pool.
+          limitations: >-
+            Small human meal/supplement study. Plasma concentration is not dietary appearance flux, brain
+            entry or catecholamine synthesis. Endogenous phenylalanine conversion remains an alternative; no
+            general food-effective dose or extra-intake benefit.
+          retrieval_scope: Primary PubMed abstract PMID 7190187 and bibliographic identity checked 26 October 2026.
 hide_title: true
 kc_adjudication_history:
   - date: '2026-10-07'
@@ -498,7 +972,9 @@ kc_adjudication_history:
       applicability_proposition: This mechanism governs the shared indispensable-amino-acid quality and availability pool.
       disposition: evidence-supported-non-application
       established_links:
-        - 'Meal-level protein quantity, quality and distribution set the circulating indispensable-amino-acid pool this PM governs (PM1 mission and overview).'
+        - >-
+          Meal-level protein quantity, quality and distribution set the circulating indispensable-amino-acid
+          pool this PM governs (PM1 mission and overview).
         - Mariotti 2019 and Moughan/DIAAS-type scoring describe IAA adequacy of that pool.
       inferred_links:
         - Incomplete pool quality would also raise brain monoamines or treat ADHD.
@@ -506,8 +982,16 @@ kc_adjudication_history:
         citation_keys:
           - mariotti_dietary_2019
           - moughan_diaas_2024
-      rationale: 'Reassessed after user review: indispensable-amino-acid provision is already recorded in PM1-DIT-1 and does not establish an additional constraint. The canonical KC1 defines monoamine-precursor LNAA competitive transport, which is outside this PM''s circulating-pool provision boundary. The prior quality-arm admission used the historical KC scope and is superseded; its evidence remains on the dietary atoms and this assessment.'
-    rationale: 'Superseded scope: this proposition concerns the former broad indispensable-amino-acid quality arm. Current BRS1 KC1 is the monoamine-precursor LNAA competitive pool. Archiving does not reject general protein-quality biology or alter the separately assessed competitive/supply decisions.'
+      rationale: >-
+        Reassessed after user review: indispensable-amino-acid provision is already recorded in PM1-DIT-1 and
+        does not establish an additional constraint. The canonical KC1 defines monoamine-precursor LNAA
+        competitive transport, which is outside this PM's circulating-pool provision boundary. The prior
+        quality-arm admission used the historical KC scope and is superseded; its evidence remains on the
+        dietary atoms and this assessment.
+    rationale: >-
+      Superseded scope: this proposition concerns the former broad indispensable-amino-acid quality arm.
+      Current BRS1 KC1 is the monoamine-precursor LNAA competitive pool. Archiving does not reject general
+      protein-quality biology or alter the separately assessed competitive/supply decisions.
     review_record: system/kc-unresolved-decisions-reconciliation.md
 system_optimisation_practices:
   - atom_id: PM1-SOP-DEFERRED-1
@@ -519,7 +1003,10 @@ system_optimisation_practices:
         - PM1-F5
       citation_keys:
         - pennings_minced_beef_2013
-    evidence_limitation: 'Single crossover with 135 g intrinsically labelled beef. Total plasma EAA concentrations and muscle protein synthesis did not differ detectably. Not a universal meat, protein or neurotransmitter prescription; earlier no-selected-SOP wording records the prior assessment.'
+    evidence_limitation: >-
+      Single crossover with 135 g intrinsically labelled beef. Total plasma EAA concentrations and muscle
+      protein synthesis did not differ detectably. Not a universal meat, protein or neurotransmitter
+      prescription; earlier no-selected-SOP wording records the prior assessment.
     dietary_input: true
     reader_description: The tested texture change increased six-hour appearance of dietary phenylalanine in ten older men.
     description_finding_id: PM1-F5
@@ -528,21 +1015,31 @@ system_optimisation_practices:
     food_strategy_id: food-strategy-6d9c0fa97324
 lifestyle_priorities: []
 pending_actions:
-  - action: 'PM1 review: adjudicate dietary tyrosine contribution separately from indispensability; preserve existing Unset admission pending approval.'
+  - action: >-
+      PM1 review: adjudicate dietary tyrosine contribution separately from indispensability; preserve existing
+      Unset admission pending approval.
     status: scientific-approval-required
-  - action: Register an immutable SOP identity and reconcile strategy roll-up only if the proposed preparation relationship is approved. No food-strategy ID or food mapping invented.
+  - action: >-
+      Register an immutable SOP identity and reconcile strategy roll-up only if the proposed preparation
+      relationship is approved. No food-strategy ID or food mapping invented.
     status: scientific-approval-required
 intervention_dominance_assessment:
   evidence_qualification:
     label: Diet-Dominant
-    rationale: 'Retain the Diet-Dominant qualification for experimentally demonstrated dietary precursor provision, without a superiority claim.'
-    scope_note: Human dietary tracer appearance and source-specific plasma profiles are not brain neurotransmitter or ADHD outcomes.
+    rationale: >-
+      Retain the Diet-Dominant qualification for experimentally demonstrated dietary precursor provision,
+      without a superiority claim.
+    scope_note: >-
+      Human dietary tracer appearance and source-specific plasma profiles are not brain neurotransmitter or
+      ADHD outcomes.
     routes:
       - group_id: '3.1'
         evidence_basis: intervention-effect
-        intervention_effect: 'Dietary protein ingestion delivers labelled phenylalanine, with source and dose contrasts in human studies.'
+        intervention_effect: >-
+          Dietary protein ingestion delivers labelled phenylalanine, with source and dose contrasts in human
+          studies.
         context: Human controlled feeding/tracer experiments; mainly healthy adults.
-        limitations: 'Meal source, dose, age and matrix constrain generalisation; adequacy is not enhancement.'
+        limitations: Meal source, dose, age and matrix constrain generalisation; adequacy is not enhancement.
         evidence_source:
           finding_ids:
             - PM1-F1
@@ -552,7 +1049,10 @@ intervention_dominance_assessment:
         evidence_basis: intervention-effect
         intervention_effect: Matched mincing-versus-steak changed six-hour dietary phenylalanine appearance.
         context: Ten older men; same-cut beef crossover.
-        limitations: One small older-male trial; no independent replication of the exact matched-beef protocol was established in this assessment. No claim that all foods should be minced or that this improves attention.
+        limitations: >-
+          One small older-male trial; no independent replication of the exact matched-beef protocol was
+          established in this assessment. No claim that all foods should be minced or that this improves
+          attention.
         evidence_source:
           finding_ids:
             - PM1-F5
@@ -562,13 +1062,23 @@ intervention_dominance_assessment:
     disposition: established
     selected_groups:
       - '3.1'
-    rationale: 'Dietary Requirements remains the principal supply route: feeding interventions directly deliver the indispensable precursor pool across relevant protein sources. The preparation experiment remains evidence, not a selected or registered SOP pending exact-scope adjudication.'
-    comparative_limitations: No head-to-head superiority over all lifestyle or optimisation routes is established. Prominence concerns the mission-specific supply process; it is not a nutrient-benefit ranking.
+    rationale: >-
+      Dietary Requirements remains the principal supply route: feeding interventions directly deliver the
+      indispensable precursor pool across relevant protein sources. The preparation experiment remains
+      evidence, not a selected or registered SOP pending exact-scope adjudication.
+    comparative_limitations: >-
+      No head-to-head superiority over all lifestyle or optimisation routes is established. Prominence
+      concerns the mission-specific supply process; it is not a nutrient-benefit ranking.
     assessments:
       - group_id: '3.1'
         relevance: The PM mission is dietary delivery to the circulating amino-acid pool.
-        directness: Human labelled dietary-protein experiments measure this supply rather than infer it from food content.
-        extent: 'Repeated feeding experiments show substantial dietary tracer appearance, qualified by five/six-hour windows, source, dose and population. No universal optimum or brain effect.'
+        directness: >-
+          Human labelled dietary-protein experiments measure this supply rather than infer it from food
+          content.
+        extent: >-
+          Repeated feeding experiments show substantial dietary tracer appearance, qualified by five/six-hour
+          windows, source, dose and population. No universal optimum or brain effect.
+sidebar_label: BRS1-1-1 — Amino-Acid Availability & Prioritisation
 ---
 import ScientificFinding from '@site/src/components/ScientificFinding';
 
@@ -580,7 +1090,7 @@ import ScientificFinding from '@site/src/components/ScientificFinding';
   />
 </p>
 
-## BRS1-FM1-PM1 - Amino-Acid Availability & Prioritisation
+## BRS1-1-1 - Amino-Acid Availability & Prioritisation
 
 (Neurotransmitter Protein Requirements)
 
@@ -611,6 +1121,8 @@ Ensure meal-level protein supply delivers the amino-acid foundation neurotransmi
 - Indispensable amino-acid supply
 - Tryptophan
 
+- Tyrosine
+
 </div>
 </div>
 </div>
@@ -619,11 +1131,12 @@ Ensure meal-level protein supply delivers the amino-acid foundation neurotransmi
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+
+
 <strong>3.1.2 Cofactors and Substrates</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Tyrosine
 
 </div>
 </div>
@@ -694,12 +1207,12 @@ No PM1-specific lifestyle intervention is selected after this assessment. Exerci
 
 ## 4. Mechanistic Basis + Scientific Findings
 
-Phenylalanine-4-hydroxylase (PAH) contributes to endogenous tyrosine supply. [UniProt C1](#pm-curated-pah) and [Rhea C2](#pm-curated-rhea) establish reaction identity, not an independent dietary cofactor admission.
+Phenylalanine-4-hydroxylase (PAH) contributes to endogenous tyrosine supply. The established reaction is documented in [Scientific Principles](?review=1#pm1-sp1). [UniProt C1](#pm-curated-pah) and [Rhea C2](#pm-curated-rhea) establish reaction identity, not an independent dietary cofactor admission.
 
 
 ### Summary
 
-Later signalling can use tyrosine and tryptophan only after those amino acids are available in the circulation. A protein meal is what puts dietary phenylalanine there, and phenylalanine can be converted to tyrosine. Brain entry and neurotransmitter synthesis come after that.
+Later signalling can use tyrosine and tryptophan only after those amino acids are available in the circulation. A protein meal is what puts dietary phenylalanine there, and phenylalanine can be converted to tyrosine. Brain entry and neurotransmitter synthesis come after that. [Oral tyrosine supply](#pm1-mechanism-f7) has also been measured as a circulating concentration response, not as brain delivery.
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -737,7 +1250,7 @@ Supporting evidence: [PM1-F2](#pm1-f2).
 
 Matthews (2007) [[4]](#pm-ref-4) shows that humans convert phenylalanine to tyrosine, mainly in the liver. Tyrosine is normally dispensable because of that conversion, and it can become conditionally indispensable when phenylalanine is limited. The curated PAH reaction records identify this conversion without establishing a separate dietary tyrosine requirement. [UniProt C1](#pm-curated-pah); [Rhea C2](#pm-curated-rhea).
 
-Supporting evidence: [PM1-F3](#pm1-f3).
+Supporting evidence: [PM1-F3](#pm1-f3). Established reaction identity: [Scientific Principle — Phenylalanine hydroxylase reaction](?review=1#pm1-sp1).
 
 <span id="pm1-mechanism-f4" />
 
@@ -745,7 +1258,7 @@ Supporting evidence: [PM1-F3](#pm1-f3).
 
 Aquili (2020) [[2]](#pm-ref-2) names tryptophan as the serotonin precursor and tyrosine as the dopamine precursor. Those names identify the amino acids in this pool. They do not show that a higher circulating supply raises brain serotonin or dopamine. Brain transport and downstream synthesis remain distinct from circulating provision.
 
-Supporting evidence: [PM1-F4](#pm1-f4).
+Foundational provenance: [Scientific Principle — Tyrosine and tryptophan precursor identities](?review=1#pm1-sp2). Historical record: [PM1-F4](?review=1#pm1-f4).
 
 <span id="pm1-mechanism-f5" />
 
@@ -762,6 +1275,14 @@ Supporting evidence: [PM1-F5](#pm1-f5). The preparation SOP remains proposed, no
 Processing can alter the temporal response without demonstrating a change in total measured exposure. The tested extruded mycoprotein/pea blend changed selected early plasma amino-acid responses, while the integrated five-hour grouped responses were not significantly different. Unlike the beef experiment, this study did not use a dietary tracer; the endpoints must not be treated as interchangeable or as proof of equal absorption. [Extrusion crossover](#stage2-ref-pm1-extrusion2024).
 
 Supporting evidence: [PM1-F6](#pm1-f6). No extrusion-related SOP is admitted.
+
+<span id="pm1-mechanism-f7" />
+
+#### PM1-F7
+
+In eleven subjects, plasma tyrosine increased during a protein-containing dietary day and rose further with divided oral L-tyrosine. This supports provision to the circulating precursor pool. Plasma concentration does not measure dietary appearance flux, brain entry or catecholamine synthesis, and the small meal/supplement experiment does not establish a general food-effective dose or benefit from additional intake. [[23]](#pm-ref-23)
+
+Supporting evidence: [PM1-F7](#pm1-f7).
 
 #### (Boundaries of the mechanism)
 
@@ -793,16 +1314,16 @@ Dietary protein supplies the circulating precursor pool; food structure and sour
 <p><a href="#pm1-mechanism-f2">Mechanistic explanation: Diet-wide amino-acid adequacy does not require identical complete meals</a></p>
 {/* scientific-lesson:PM1-F2:end */}
 
-<ScientificFinding finding={{"id":"PM1-F3","finding_label":"Phenylalanine-to-tyrosine conversion: biochemical provenance","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Established conversion chemistry; dietary admission and downstream catecholamine effects remain separate decisions.","finding_interpretation":"Scope is circulating provision and the exact measured endpoint, not brain entry, neurotransmitter efficacy or a clinical recommendation.","finding_statement":"Phenylalanine-4-hydroxylase (PAH) converts L-phenylalanine to L-tyrosine. This endogenous route contributes to tyrosine supply but does not make tyrosine absent from foods or establish an independent requirement for extra dietary tyrosine.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"UniProt P00439 and Rhea 20273 establish reaction identity; the Matthews human kinetic review remains linked for physiological context. No new intake-response or clinical conclusion is inferred.","synthesis_limitations":"Curated enzyme annotation does not quantify whole-body dietary contribution or human brain catecholamine flux. Do not automatically add every PAH cofactor as a PM1-specific dietary requirement.","evidence_considered":[{"label":"Matthews (2007)","citation_key":"matthews_phenylalanine_2007","href":"/docs/papers/BRAIN-Diet-References#matthews_phenylalanine_2007","data_level":"Mechanistic","exposure_context":"human tracer infusions","evidence_source":"repository-inherited","directional_finding":"Phenylalanine is hydroxylated to tyrosine in humans. Tyrosine is normally dispensable and can become conditionally indispensable when phenylalanine availability is limited.","assessment":{"study":"Overview of human phenylalanine and tyrosine tracer kinetics.","population":"Human tracer studies in people with ordinary hydroxylation and in disorders that block it.","result":"Phenylalanine is converted to tyrosine. The conversion depends on phenylalanine availability.","effect_magnitude":"Kinetic rates are reviewed. No dietary dose for a brain catecholamine change is given.","evidence_summary":"Dietary phenylalanine can supply tyrosine through a conversion that has been measured in humans.","limitations":"Conversion kinetics are not brain dopamine or noradrenaline synthesis."},"canonical_reference":{"author_year":"Matthews (2007)","number":4,"anchor":"#pm-ref-4"}}],"evidence_dependency":["Shared sources with PM1-F1 and PM1-F2 are reused for distinct propositions, not independent replication. Pooled studies, thesis chapters and journal reports may overlap."],"sec_assessment_ref":{"id":"pm1-pm1-f3-assessment","version":2,"sha256":"515e50a9d7a21e8d8d1d92d7e44a5f859f9f4dc1b703381b788b7173727c0527"},"connected_supportive_evidence":[]}} pmId={"BRS1-FM1-PM1"} />
+<ScientificFinding finding={{"id":"PM1-F3","finding_label":"Phenylalanine conversion and endogenous tyrosine supply","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Established conversion chemistry; dietary admission and downstream catecholamine effects remain separate decisions.","finding_interpretation":"Scope is circulating provision and the exact measured endpoint, not brain entry, neurotransmitter efficacy or a clinical recommendation.","finding_statement":"Phenylalanine-4-hydroxylase (PAH) converts L-phenylalanine to L-tyrosine. This endogenous route contributes to tyrosine supply but does not make tyrosine absent from foods or establish an independent requirement for extra dietary tyrosine.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"UniProt P00439 and Rhea 20273 establish reaction identity; the Matthews human kinetic review remains linked for physiological context. No new intake-response or clinical conclusion is inferred.","synthesis_limitations":"Curated enzyme annotation does not quantify whole-body dietary contribution or human brain catecholamine flux. Do not automatically add every PAH cofactor as a PM1-specific dietary requirement.","evidence_considered":[{"label":"Matthews (2007)","citation_key":"matthews_phenylalanine_2007","href":"/docs/papers/BRAIN-Diet-References#matthews_phenylalanine_2007","data_level":"Mechanistic","exposure_context":"human tracer infusions","evidence_source":"repository-inherited","directional_finding":"Phenylalanine is hydroxylated to tyrosine in humans. Tyrosine is normally dispensable and can become conditionally indispensable when phenylalanine availability is limited.","assessment":{"study":"Overview of human phenylalanine and tyrosine tracer kinetics.","population":"Human tracer studies in people with ordinary hydroxylation and in disorders that block it.","result":"Phenylalanine is converted to tyrosine. The conversion depends on phenylalanine availability.","effect_magnitude":"Kinetic rates are reviewed. No dietary dose for a brain catecholamine change is given.","evidence_summary":"Dietary phenylalanine can supply tyrosine through a conversion that has been measured in humans.","limitations":"Conversion kinetics are not brain dopamine or noradrenaline synthesis."},"canonical_reference":{"author_year":"Matthews (2007)","number":4,"anchor":"#pm-ref-4"}}],"evidence_dependency":["Shared sources with PM1-F1 and PM1-F2 are reused for distinct propositions, not independent replication. Pooled studies, thesis chapters and journal reports may overlap."],"sec_assessment_ref":{"id":"pm1-pm1-f3-assessment","version":2,"sha256":"515e50a9d7a21e8d8d1d92d7e44a5f859f9f4dc1b703381b788b7173727c0527"},"connected_supportive_evidence":[]}} pmId={"BRS1-FM1-PM1"} />
 
 {/* scientific-lesson:PM1-F3:start */}
-<p><a href="#pm1-mechanism-f3">Mechanistic explanation: Phenylalanine-to-tyrosine conversion: biochemical provenance</a></p>
+<p><a href="#pm1-mechanism-f3">Mechanistic explanation: Phenylalanine conversion and endogenous tyrosine supply</a></p>
 {/* scientific-lesson:PM1-F3:end */}
 
 <ScientificFinding finding={{"id":"PM1-F4","finding_label":"Downstream precursor identity is not a dietary efficacy result","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Preserve precursor identity and the downstream PM2-PM5 boundary.","finding_interpretation":"Scope is circulating provision and the exact measured endpoint, not brain entry, neurotransmitter efficacy or a clinical recommendation.","finding_statement":"Tyrosine and tryptophan supply the precursor pathways for catecholamines and serotonin, respectively. Their biochemical identity does not demonstrate that additional meal protein improves brain transmitter synthesis, attention, mood or reward.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Retain Aquili and existing precursor evidence as biochemical/contextual support, not evidence that ordinary dietary coverage reproduces depletion or pharmacological supplementation experiments.","synthesis_limitations":"Transport competition, regional synthesis, release and clinical outcomes require their own evidence. No score is inherited from this elementary relationship.","evidence_considered":[{"label":"Aquili (2020)","citation_key":"aquili_role_2020","href":"/docs/papers/BRAIN-Diet-References#aquili_role_2020","data_level":"Mechanistic","exposure_context":"narrative review of depletion and supplementation studies","evidence_source":"repository-inherited","directional_finding":"Tryptophan is named as the serotonin precursor and tyrosine as the dopamine precursor. The reviewed behavioural effects come from depletion and supplementation, not from meal-protein coverage.","assessment":{"study":"Narrative review of tryptophan and tyrosine in executive function and reward.","population":"The behavioural studies are mostly acute depletion or supplementation experiments.","result":"The precursor relationship is stated. Cognitive effects in the review are not effects of this dietary pool.","effect_magnitude":"No effect size for meal protein on brain transmitters.","evidence_summary":"The precursor names are supported. The cognitive conclusions are not a result for this mechanism.","limitations":"Depletion and isolated supplements are not indispensable-amino-acid coverage."},"canonical_reference":{"author_year":"Aquili (2020)","number":2,"anchor":"#pm-ref-2"}}],"evidence_dependency":["Shared sources with PM1-F1 and PM1-F2 are reused for distinct propositions, not independent replication. Pooled studies, thesis chapters and journal reports may overlap."],"sec_assessment_ref":{"id":"pm1-pm1-f4-assessment","version":2,"sha256":"b61a1c4f133dbb71e10be50279167891d3bf410fc77515927e0b293f493fa369"},"connected_supportive_evidence":[]}} pmId={"BRS1-FM1-PM1"} />
 
 {/* scientific-lesson:PM1-F4:start */}
-<p><a href="#pm1-mechanism-f4">Mechanistic explanation: Downstream precursor identity is not a dietary efficacy result</a></p>
+<p><a href="?review=1#pm1-sp2">Scientific Principle: Tyrosine and tryptophan precursor identities</a></p>
 {/* scientific-lesson:PM1-F4:end */}
 
 <ScientificFinding finding={{"id":"PM1-F5","presentation":"mechanistic-basis","fm_rollup":false,"finding_label":"Food texture and amino-acid appearance","finding_statement":"In a randomised crossover study of ten older men, 135 g minced beef produced greater six-hour dietary phenylalanine appearance than the same quantity of steak. Total plasma essential-amino-acid concentrations and muscle protein synthesis did not differ detectably between preparations.","finding_summary":"Texture affected source-specific tracer delivery, not every circulating or functional outcome.","finding_interpretation":"Scope is circulating provision and the exact measured endpoint, not brain entry, neurotransmitter efficacy or a clinical recommendation.","synthesis":"The matched-food crossover supports a preparation effect on dietary tracer appearance. Null total-concentration and muscle outcomes prevent a generic better-protein or neurotransmitter interpretation. The thesis and publication describe one dataset.","synthesis_limitations":"One small older-male trial; no independent replication of the exact matched-beef protocol was established in this assessment. No claim that all foods should be minced or that this improves attention.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Pennings et al. (2013): minced beef versus steak","citation_key":"stage2-ref-pm1-pennings2013","href":"?review=0#stage2-ref-pm1-pennings2013","data_level":"Human Mechanistic","evidence_source":"bounded-external-search","exposure_context":"135 g intrinsically labelled lean beef, same cut, minced patty versus steak; six-hour tracer follow-up.","directional_finding":"More dietary phenylalanine appeared after mincing. Total plasma essential-amino-acid concentrations and muscle synthesis did not differ detectably.","assessment":{"study":"Randomised crossover; ten older men, mean age 74 years; two visits at least 14 days apart.","population":"Randomised crossover; ten older men, mean age 74 years; two visits at least 14 days apart.","result":"More dietary phenylalanine appeared after mincing. Total plasma essential-amino-acid concentrations and muscle synthesis did not differ detectably.","effect_magnitude":"Six-hour dietary phenylalanine appearance: minced 61% ± 3% versus steak 49% ± 3% (means ± SEM), P \u003c 0.01; 12 percentage-point difference. No paired confidence interval calculated or inferred.","evidence_summary":"More dietary phenylalanine appeared after mincing. Total plasma essential-amino-acid concentrations and muscle synthesis did not differ detectably.","limitations":"Small single trial; mean estimates and standard errors available, paired effect interval not extracted; no equivalence claim for null outcomes. Single empirical dataset; thesis and journal article are the same experiment, not replications."},"canonical_reference":{"author_year":"Pennings et al. (2013): minced beef versus steak","number":9,"anchor":"#pm-ref-9"}}],"evidence_dependency":["Shared sources with PM1-F1 and PM1-F2 are reused for distinct propositions, not independent replication. Pooled studies, thesis chapters and journal reports may overlap."],"sec_assessment_ref":{"id":"pm1-pm1-f5-assessment","version":2,"sha256":"d98b851c695c6b6e3b97481dd7e92176bd8921e4e0d08be7353f122d4e2d4c4e"},"connected_supportive_evidence":[]}} pmId={"BRS1-FM1-PM1"} />
@@ -816,6 +1337,12 @@ Dietary protein supplies the circulating precursor pool; food structure and sour
 {/* scientific-lesson:PM1-F6:start */}
 <p><a href="#pm1-mechanism-f6">Mechanistic explanation: Extrusion altered early amino-acid kinetics, not demonstrated total loss</a></p>
 {/* scientific-lesson:PM1-F6:end */}
+
+<ScientificFinding finding={{"id":"PM1-F7","finding_label":"Oral tyrosine and protein-containing meals contribute to plasma tyrosine","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"In the reported human experiment, plasma tyrosine increased over a protein-containing dietary day and rose further during oral tyrosine administration.","finding_summary":"Supports oral supply to the circulating precursor pool.","finding_interpretation":"A Type A supply proposition for this PM, distinct from LAT1 transport, brain synthesis or treatment.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Plasma tyrosine was measured in eleven subjects during protein-containing meals, with and without divided supplemental L-tyrosine.","synthesis_limitations":"Small human meal/supplement study. Plasma concentration is not dietary appearance flux, brain entry or catecholamine synthesis. Endogenous phenylalanine conversion remains an alternative; no general food-effective dose or extra-intake benefit. Primary abstract retrieved; full methods and risk-of-bias appraisal remain incomplete, so no numerical SEC is assigned.","evidence_considered":[{"label":"Melamed et al. (1980)","citation_key":"melamed_tyrosine_meals_1980","href":"/docs/papers/BRAIN-Diet-References#melamed_tyrosine_meals_1980","data_level":"Human Study","evidence_source":"bounded-external-search","exposure_context":"113 g protein/day and a separate 100 mg/kg/day divided L-tyrosine exposure.","directional_finding":"Plasma tyrosine rose during the dietary day and further after supplemental tyrosine.","assessment":{"study":"Human dietary-day and oral tyrosine comparison.","population":"Eleven subjects.","result":"Higher plasma tyrosine during meals and a further supplement-associated rise.","effect_magnitude":"No food-dose or brain-effect magnitude inferred.","evidence_summary":"Oral supply contributes to the circulating pool.","limitations":"Small human meal/supplement study. Plasma concentration is not dietary appearance flux, brain entry or catecholamine synthesis. Endogenous phenylalanine conversion remains an alternative; no general food-effective dose or extra-intake benefit.","retrieval_scope":"Primary PubMed abstract PMID 7190187 and bibliographic identity checked 26 October 2026."},"canonical_reference":{"author_year":"Melamed et al. (1980)","number":23,"anchor":"#pm-ref-23"}}],"connected_supportive_evidence":[]}} />
+
+{/* scientific-lesson:PM1-F7:start */}
+<p><a href="#pm1-mechanism-f7">Mechanistic explanation: Oral tyrosine and protein-containing meals contribute to plasma tyrosine</a></p>
+{/* scientific-lesson:PM1-F7:end */}
 
 ## 5. BRS Pathways and Connections
 
@@ -989,6 +1516,7 @@ Rechecked the 135 g minced-beef/steak crossover. Admit only the preparation-spec
 - <span id="pm-ref-20">[20]</span> [Burstad et al.: systematic requirement review (2025)](?review=0#stage2-ref-pm1-requirements2025)
 - <span id="pm-ref-21">[21]</span> [Xin et al. (2026): exercise-induced dehydration and whey](?review=0#stage2-ref-pm1-hydration2026)
 - <span id="pm-ref-22">[22]</span> [Pennings et al. (2013) — Minced beef is more rapidly digested and absorbed than beef steak, resulting in greater postprandial protein retention in older men.](/docs/papers/BRAIN-Diet-References#pennings_minced_beef_2013)
+- <span id="pm-ref-23">[23]</span> [Melamed et al. (1980) — Plasma tyrosine in normal humans: effects of oral tyrosine and protein-containing meals](/docs/papers/BRAIN-Diet-References#melamed_tyrosine_meals_1980)
 
 ### PM-local source records
 
@@ -1010,8 +1538,8 @@ Rechecked the 135 g minced-beef/steak crossover. Admit only the preparation-spec
 
 ### Curated biochemical references
 
-- <span id="pm-curated-pah" />[C1] UniProtKB, Phenylalanine-4-hydroxylase (PAH), human, accession P00439, entry version 269 (2 September 2026); accessed 2026-10-18. [Authoritative record](https://www.uniprot.org/uniprotkb/P00439/entry). [Return to PM1-F3](#pm1-f3).
-- <span id="pm-curated-rhea" />[C2] Rhea 20273, phenylalanine hydroxylation reaction; accessed 2026-10-18. [Authoritative reaction](https://www.rhea-db.org/rhea/20273). [Return to PM1-F3](#pm1-f3).
+- <span id="pm-curated-pah" />[C1] UniProtKB, Phenylalanine-4-hydroxylase (PAH), human, accession P00439, entry version 269 (2 September 2026); accessed 2026-10-18. [Authoritative record](https://www.uniprot.org/uniprotkb/P00439/entry). [Return to Scientific Principle](?review=1#pm1-sp1).
+- <span id="pm-curated-rhea" />[C2] Rhea 20273, phenylalanine hydroxylation reaction; accessed 2026-10-18. [Authoritative reaction](https://www.rhea-db.org/rhea/20273). [Return to Scientific Principle](?review=1#pm1-sp1).
 
 
 ## Scientific Lesson

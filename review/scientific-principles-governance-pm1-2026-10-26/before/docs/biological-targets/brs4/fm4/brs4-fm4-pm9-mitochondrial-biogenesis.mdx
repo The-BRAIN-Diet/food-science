@@ -1,0 +1,647 @@
+---
+title: Mitochondrial Biogenesis
+pm_id: BRS4-FM4-PM9
+mission: Enable formation of new mitochondria so long-term energetic capacity can expand and adapt.
+parent_fm: BRS4(FM4)
+parent_brs: BRS4
+summary: 'Drives formation of new mitochondria through pathways such as PGC-1α, AMPK, and related transcriptional regulators (the master signalling network that senses energy demand and triggers organelle expansion) in response to repeated exercise and metabolic stimuli. This adaptive expansion increases mitochondrial density over weeks of consistent stimulus rather than through any single acute intervention. Macronutrient and cofactor sufficiency provide permissive substrate support, but the biogenesis signal itself originates primarily from physical activity.'
+key_constraints:
+  - BRS4(KC1) - Macronutrient Substrate Availability
+  - BRS4(KC2) - Mitochondrial Cofactor Sufficiency
+cofactors:
+  - Vitamin B2 (riboflavin)
+  - Vitamin B3 (niacin)
+  - magnesium
+intervention_dominance: Lifestyle-Dominant
+intervention_breakdown: Behavioural/Lifestyle Dominant
+timing_specific: 'Yes'
+dose_sensitivity: Exercise frequency and repeated signalling exposure are more important than meal-level dose alone
+phenome_relationships:
+  - target_phenome: Recovery Capacity
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: mechanistic
+    evidence_confidence: low-medium
+    rationale: ADHD mitophagy and mitochondrial quality-control reviews link biogenesis/adaptation biology to long-term energetic restoration after repeated metabolic demand — diet and training provide permissive substrate context; direct ADHD biogenesis-outcome trials remain sparse.
+    references:
+      - index: 1
+        label: Almutairi et al. (2024)
+        citation_key: almutairi_mitophagy_adhd_2024
+        href: /docs/papers/BRAIN-Diet-References#almutairi_mitophagy_adhd_2024
+        data_level: Mechanistic
+      - index: 2
+        label: Öğütlü et al. (2022)
+        citation_key: ogutlu_mitochondrial_2023
+        href: /docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023
+        data_level: Human Study
+references:
+  - '[Goodpaster & Sparks (2017) — Metabolic Flexibility in Health and Disease](/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017)'
+  - '[de Guia et al. (2019) — Aerobic and Resistance Exercise Training Reverses Age-dependent Decline in NAD+ Salvage Capacity](/docs/papers/BRAIN-Diet-References#de_guia_nad_2019)'
+  - '[Kyriazis et al. (2022) — Impact of Diet Upon Mitochondrial Physiology (Review)](/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022)'
+  - '[Tardy et al. (2020) — B Vitamins and Micronutrients in Energy Metabolism](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)'
+  - '[Davis et al. (2009) — Quercetin and Mitochondrial Biogenesis](/docs/papers/BRAIN-Diet-References#davis_quercetin_2009)'
+  - '[Toney et al. (2019) — Urolithin A and Mitochondrial Biogenesis](/docs/papers/BRAIN-Diet-References#toney_urolithin_2019)'
+  - '[Singh et al. (2022) — Direct Supplementation with Urolithin A Overcomes Limitations of Dietary Exposure](/docs/papers/BRAIN-Diet-References#singh_direct_2022)'
+  - '[Andreux et al. (2019) — The Mitophagy Activator Urolithin A Is Safe and Induces a Molecular Signature of Improved Mitochondrial Health](/docs/papers/BRAIN-Diet-References#andreux_mitophagy_2019)'
+  - '[Hou et al. (2024) — Urolithin A Improves Cognitive Endurance](/docs/papers/BRAIN-Diet-References#hou_urolithin_2024)'
+  - '[Almutairi et al. (2024) — Mitochondrial Dysfunction and Mitophagy in ADHD](/docs/papers/BRAIN-Diet-References#almutairi_mitophagy_adhd_2024)'
+  - '[Öğütlü et al. (2022) — Mitochondrial Dysfunction in Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023)'
+  - '[Little et al. (2010) — A practical model of low-volume high-intensity interval training induces mitochondrial biogenesis in human skeletal muscle: potential mechanisms.](/docs/papers/BRAIN-Diet-References#little_interval_mitochondria_2010)'
+hide_title: true
+scientific_findings:
+  - id: PM9-F1
+    finding_label: Interval training increases muscle mitochondrial-content markers
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: Six interval-training sessions increased skeletal-muscle mitochondrial enzyme/protein markers and TFAM in young men.
+    finding_summary: Six interval-training sessions increased skeletal-muscle mitochondrial enzyme/protein markers and TFAM in young men.
+    finding_interpretation: 'No inactive control, small male sample. These are mitochondrial-content and regulatory markers, not direct counting of newly formed brain mitochondria. Total PGC-1alpha was unchanged.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: Six interval-training sessions increased skeletal-muscle mitochondrial enzyme/protein markers and TFAM in young men.
+    synthesis_limitations: 'No inactive control, small male sample. These are mitochondrial-content and regulatory markers, not direct counting of newly formed brain mitochondria. Total PGC-1alpha was unchanged.'
+    evidence_considered:
+      - label: Little et al. (2010)
+        citation_key: little_interval_mitochondria_2010
+        href: /docs/papers/BRAIN-Diet-References#little_interval_mitochondria_2010
+        data_level: Human Study
+        exposure_context: Six sessions of 8–12 one-minute cycling intervals separated by recovery.
+        evidence_source: bounded-external-search
+        directional_finding: Six interval-training sessions increased skeletal-muscle mitochondrial enzyme/protein markers and TFAM in young men.
+        assessment:
+          study: Six sessions of 8–12 one-minute cycling intervals separated by recovery.
+          population: 'Seven young men, two-week before/after cycling study.'
+          result: Six interval-training sessions increased skeletal-muscle mitochondrial enzyme/protein markers and TFAM in young men.
+          effect_magnitude: Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.
+          evidence_summary: 'Muscle citrate synthase/COX activity and protein, TFAM, nuclear PGC-1alpha.'
+          limitations: 'No inactive control, small male sample. These are mitochondrial-content and regulatory markers, not direct counting of newly formed brain mitochondria. Total PGC-1alpha was unchanged.'
+          retrieval_scope: Primary abstract retrieved via Europe PMC/PubMed; no unextracted full-method claims.
+          source_url: 'https://pubmed.ncbi.nlm.nih.gov/20100740/'
+    evidence_dependency:
+      - 'The source-specific observations support different links; food composition, biochemical identity, intervention exposure and clinical outcomes are not interchangeable. Reuse across PMs is not independent replication.'
+lifestyle_priorities:
+  - atom_id: PM9-LP-DEFERRED-1
+    input: Low-volume interval cycling in the tested two-week protocol
+    input_type: exercise protocol
+    biological_role: The studied training increased muscle mitochondrial enzyme/protein and TFAM markers.
+    evidence_source:
+      finding_ids:
+        - PM9-F1
+      citation_keys:
+        - little_interval_mitochondria_2010
+    evidence_limitation: 'No inactive control, small male sample. These are mitochondrial-content and regulatory markers, not direct counting of newly formed brain mitochondria. Total PGC-1alpha was unchanged.'
+    dietary_input: false
+    reader_description: The studied training increased muscle mitochondrial enzyme/protein and TFAM markers.
+    description_finding_id: PM9-F1
+scientific_hypotheses:
+  - id: PM9-H1
+    title: Glucose Appearance and Mitochondrial Biogenesis
+    proposition: Postprandial glucose-appearance kinetics may influence mitochondrial biogenesis signalling.
+    source_pm: BRS6-FM1-PM1
+    target_pm: BRS4-FM4-PM9
+    proposed_direction: BRS6-FM1-PM1 → BRS4-FM4-PM9
+    status: Unestablished
+    rationale: Nutrient availability and metabolic signalling can influence mitochondrial adaptation pathways. Whether the rate of post-meal glucose appearance itself influences this signalling remains a testable question.
+    finding_links:
+      supporting: []
+      contradictory_or_null: []
+      contextual:
+        - pm_id: BRS4-FM4-PM9
+          finding_id: PM9-F1
+          href: '#pm9-f1'
+          explanation: 'The training study records muscle mitochondrial-content and regulatory markers, with unchanged total PGC-1alpha. It provides exercise/endpoint context, not a test of glucose-appearance mediation.'
+          label: SF1 — Interval training increases muscle mitochondrial-content markers
+        - pm_id: BRS6-FM1-PM1
+          finding_id: PM1-F4
+          href: /docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics#pm1-f4
+          explanation: 'Defined fibre studies measured changes in glucose appearance, including a null primary endpoint in one preparation. They did not measure mitochondrial biogenesis; this is measurement context, not direct support or contradiction of the hypothesis.'
+          label: SF4 — Defined fibre preparations affect appearance differently
+    evidence_sources:
+      - study_id: hill-carbohydrate-whey-2013
+        label: Hill et al. (2013) — Carbohydrate and whey protein co-ingestion
+        url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3577454/'
+        role: contextual
+        proposition: The carbohydrate–whey exercise study reported altered post-exercise PGC-1alpha mRNA expression.
+        limitations: The study did not establish measured glucose-appearance kinetics as the mediator or directly demonstrate mitochondrial formation.
+    limitations:
+      - Measured postprandial glucose appearance was not established as the mediator.
+      - Acute PGC-1alpha transcription is not direct evidence of mitochondrial formation.
+      - No causal dietary-to-brain or ADHD outcome is established.
+      - The linked Findings address different studies and endpoints; their combination does not establish the proposed causal chain.
+    alternative_explanations:
+      - Exercise stimulus and training history.
+      - 'Insulin responses, glycogen availability and total energy availability.'
+      - Protein/amino-acid exposure and nutrient composition independent of glucose-appearance rate.
+    required_evidence:
+      - Measure postprandial glucose-appearance kinetics using an appropriate tracer approach and prespecified rate/time-course endpoints.
+      - 'Link those measured kinetics to mitochondrial-biogenesis signalling and longitudinal mitochondrial-content/formation endpoints, with tissue and assay limitations explicit.'
+      - 'Control or separately assess exercise, insulin, glycogen, protein exposure and energy availability; test mediation rather than equating carbohydrate exposure with glucose appearance.'
+      - Replicate in the relevant population; brain or ADHD claims would require their own direct evidence.
+    historical_relationship:
+      page_pm: BRS4-FM4-PM9
+      linked_pm: BRS6-FM1-PM1
+      section: '5.2'
+      href: /docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics
+      original_statement: '- [BRS6-FM1-PM1 - Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — glucose Appearance Kinetics'
+      review_statement: '- [BRS6-FM1-PM1 - Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — Review boundary: glucose appearance describes substrate delivery, whereas this PM addresses mitochondrial biogenesis. The existing cross-system link is retained; a causal dietary-to-biogenesis relationship requires separate evidence and is not established by the link.'
+      original_context_statement: 'Because glucose appearance and feeding-state context affect adaptation signalling, this PM links outward to [BRS6-FM1-PM1 - Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics).'
+      reference_direction: BRS4-FM4-PM9 → BRS6-FM1-PM1
+      disposition: unestablished-contextual-hypothesis
+      original_explanation: glucose Appearance Kinetics
+      review_explanation: 'Review boundary: glucose appearance describes substrate delivery, whereas this PM addresses mitochondrial biogenesis. The existing cross-system link is retained; a causal dietary-to-biogenesis relationship requires separate evidence and is not established by the link.'
+      source_file: docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx
+      source_commit: d3570391e7a6e3de40c57af784683cd13bd2370a
+    provenance:
+      - Original PM9 cross-system reference and its title-only explanation are retained in the historical source record.
+      - The bounded BRS4 repair added a review boundary without establishing causation.
+      - 'User-approved pilot disposition on 23 October 2026: contextual hypothesis; no approved direct mechanistic dependency.'
+      - Historical page reference direction is PM9 → glucose appearance; the proposed biological direction is glucose appearance → PM9.
+      - 'No new Scientific Finding, dietary admission, Key Constraint, Phenome link or score is created.'
+    review_date: '2026-10-23'
+---
+<p class="brs-pm-thumbnail-wrap">
+  <img
+    src="/img/biological-targets/brs4-portrait-thumbnail.png"
+    alt="BRS4 — Mitochondrial Function & Bioenergetics"
+    class="brs-pm-thumbnail"
+  />
+</p>
+
+## BRS4-4-9 - Mitochondrial Biogenesis
+
+(Growing New Mitochondria When Demand Rises)
+
+## 1. Mission & Overview + Dietary Levers
+
+### Mission
+
+Enable formation of new mitochondria so long-term energetic capacity can expand and adapt.
+
+
+**Intervention Dominance:** Lifestyle-Dominant
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+
+The original §3.1.1 statements are preserved verbatim in the [historical dietary review panel](#legacy-dietary-review-pm9). Their existing records and provenance are unchanged. This presentation repair makes no new admission, rejection or transfer to another intervention section; substance identity, evidence and placement require review.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Vitamin B2 (riboflavin) ← dairy, eggs, lean meat
+- Vitamin B3 (niacin)
+- Magnesium ← leafy greens, nuts, seeds
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS4(KC1)">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability">(Key Constraint) (KC1) — Macronutrient Substrate Sufficiency</a></strong>
+</div>
+<div class="brs-fm-hub-panel">
+- Amino acids ← fish, eggs, dairy, legumes
+- Fatty acids ← fish, eggs, olive oil, nuts, seeds
+- Glucose ← oats, barley, legumes, fruit
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS4(KC2)">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency">(Key Constraint) (KC2) — Mitochondrial Cofactor Sufficiency</a></strong>
+</div>
+<div class="brs-fm-hub-panel">
+- B vitamins (B1, B2, B3, B5, B6, B7, B9, B12) ← whole grains, legumes, eggs
+- Iron ← meat, shellfish, legumes
+- Magnesium ← leafy greens, nuts, seeds
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+### Overview
+
+Drives formation of new mitochondria through pathways such as PGC-1α, AMPK, and related transcriptional regulators (the master signalling network that senses energy demand and triggers organelle expansion) in response to repeated exercise and metabolic stimuli. This adaptive expansion increases mitochondrial density over weeks of consistent stimulus rather than through any single acute intervention. Macronutrient and cofactor sufficiency provide permissive substrate support, but the biogenesis signal itself originates primarily from physical activity.
+
+* Drives new mitochondria formation via PGC-1α and AMPK signalling.
+* Increases mitochondrial density over weeks of consistent exercise stimulus.
+* Depends on diet for permissive substrate, but the signal originates from activity.
+
+## 2. Primary Biological Effects
+↑ mitochondrial density; ↑ long-term energy capacity; ↑ adaptive energetic reserve
+
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
+
+- Gentle cooking of marine-fat sources helps limit oxidative degradation of PUFA-rich meal matrices — see [Salmon — Preparation](/docs/foods/salmon#preparation), [Mackerel — Preparation](/docs/foods/mackerel#preparation).
+- Pair iron-containing foods with vitamin C and meal-context enhancers to support absorption — see [Lentils — Synergies](/docs/foods/lentils#synergies), [Spinach — Synergies](/docs/foods/spinach#synergies).
+- Prefer minimally refined whole-kernel or whole-flour products where tolerated. — see [Whole Grains — Preparation](/docs/foods/whole-grains#preparation).
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Low-volume interval cycling in the tested two-week protocol
+
+
+- Prioritise adequate sleep and recovery between training sessions to support adaptive mitochondrial remodelling rather than chronic under-recovery (Evidence:Human Mechanistic) [Goodpaster & Sparks, 2017]
+- Ensure adequate B-vitamin and magnesium intake through diverse whole foods to support mitochondrial enzyme and cofactor context for adaptive expansion (Evidence:Human Mechanistic) [Tardy et al., 2020; Kyriazis et al., 2022]
+- Polyphenol-rich foods may provide secondary experimental support for mitochondrial biogenesis pathways alongside primary training signals (Evidence:Animal Mechanistic) [Davis et al., 2009; Toney et al., 2019]
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+Mitochondrial biogenesis is a built adaptation driven primarily by repeated exercise and physiological stress signals, with nutrition providing permissive substrate and cofactor support rather than replacing the training stimulus [Goodpaster & Sparks, 2017; de Guia et al., 2019].
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Mitochondrial biogenesis and adaptive capacity</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (Adaptation rather than acute fuel effect)
+
+Mitochondrial biogenesis depends on repeated signalling, training stimulus, and recovery rather than a single meal-level intervention. Exercise-linked pathways including AMPK and PGC-1α coordinate transcriptional programmes that increase mitochondrial density over time [Goodpaster & Sparks, 2017; de Guia et al., 2019].
+
+#### (Diet as permissive context)
+
+Adequate energy intake, B-vitamin support, and magnesium help create the biochemical environment in which adaptive mitochondrial expansion can proceed. Dietary patterns also influence broader mitochondrial physiology, including biogenesis-related signalling contexts [Tardy et al., 2020; Kyriazis et al., 2022].
+
+#### (Secondary dietary signals)
+
+Polyphenol-related experimental work suggests quercetin and urolithin A may augment mitochondrial biogenesis markers in preclinical models, though these remain complementary to primary lifestyle drivers [Davis et al., 2009; Toney et al., 2019].
+
+#### (Boundaries of the mechanism)
+
+This PM addresses mitochondrial density expansion — not acute electron transport throughput ([BRS4-FM1-PM1 - Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function)), substrate switching ([BRS4-FM3-PM8 - Metabolic Fuel Switching](/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching)), or rapid phosphagen buffering ([BRS4-FM1-PM3 - Creatine–Phosphocreatine Energy Buffering](/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer)).
+
+#### (Cross-BRS context)
+
+A proposed influence of glucose-appearance kinetics on mitochondrial adaptation remains unestablished; see [SH1 — Glucose Appearance and Mitochondrial Biogenesis](#pm9-h1).
+
+</div>
+</div>
+</div>
+
+{/* scientific-hypotheses:start */}
+### Scientific Hypotheses
+
+<ScientificHypothesis hypothesis={{"id":"PM9-H1","title":"Glucose Appearance and Mitochondrial Biogenesis","proposition":"Postprandial glucose-appearance kinetics may influence mitochondrial biogenesis signalling.","source_pm":"BRS6-FM1-PM1","target_pm":"BRS4-FM4-PM9","proposed_direction":"BRS6-FM1-PM1 → BRS4-FM4-PM9","status":"Unestablished","rationale":"Nutrient availability and metabolic signalling can influence mitochondrial adaptation pathways. Whether the rate of post-meal glucose appearance itself influences this signalling remains a testable question.","finding_links":{"supporting":[],"contradictory_or_null":[],"contextual":[{"pm_id":"BRS4-FM4-PM9","finding_id":"PM9-F1","href":"#pm9-f1","explanation":"The training study records muscle mitochondrial-content and regulatory markers, with unchanged total PGC-1alpha. It provides exercise/endpoint context, not a test of glucose-appearance mediation.","label":"SF1 — Interval training increases muscle mitochondrial-content markers"},{"pm_id":"BRS6-FM1-PM1","finding_id":"PM1-F4","href":"/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics#pm1-f4","explanation":"Defined fibre studies measured changes in glucose appearance, including a null primary endpoint in one preparation. They did not measure mitochondrial biogenesis; this is measurement context, not direct support or contradiction of the hypothesis.","label":"SF4 — Defined fibre preparations affect appearance differently"}]},"evidence_sources":[{"study_id":"hill-carbohydrate-whey-2013","label":"Hill et al. (2013) — Carbohydrate and whey protein co-ingestion","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC3577454/","role":"contextual","proposition":"The carbohydrate–whey exercise study reported altered post-exercise PGC-1alpha mRNA expression.","limitations":"The study did not establish measured glucose-appearance kinetics as the mediator or directly demonstrate mitochondrial formation."}],"limitations":["Measured postprandial glucose appearance was not established as the mediator.","Acute PGC-1alpha transcription is not direct evidence of mitochondrial formation.","No causal dietary-to-brain or ADHD outcome is established.","The linked Findings address different studies and endpoints; their combination does not establish the proposed causal chain."],"alternative_explanations":["Exercise stimulus and training history.","Insulin responses, glycogen availability and total energy availability.","Protein/amino-acid exposure and nutrient composition independent of glucose-appearance rate."],"required_evidence":["Measure postprandial glucose-appearance kinetics using an appropriate tracer approach and prespecified rate/time-course endpoints.","Link those measured kinetics to mitochondrial-biogenesis signalling and longitudinal mitochondrial-content/formation endpoints, with tissue and assay limitations explicit.","Control or separately assess exercise, insulin, glycogen, protein exposure and energy availability; test mediation rather than equating carbohydrate exposure with glucose appearance.","Replicate in the relevant population; brain or ADHD claims would require their own direct evidence."],"historical_relationship":{"page_pm":"BRS4-FM4-PM9","linked_pm":"BRS6-FM1-PM1","section":"5.2","href":"/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics","original_statement":"- [BRS6-FM1-PM1 - Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — glucose Appearance Kinetics","review_statement":"- [BRS6-FM1-PM1 - Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — Review boundary: glucose appearance describes substrate delivery, whereas this PM addresses mitochondrial biogenesis. The existing cross-system link is retained; a causal dietary-to-biogenesis relationship requires separate evidence and is not established by the link.","original_context_statement":"Because glucose appearance and feeding-state context affect adaptation signalling, this PM links outward to [BRS6-FM1-PM1 - Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics).","reference_direction":"BRS4-FM4-PM9 → BRS6-FM1-PM1","disposition":"unestablished-contextual-hypothesis","original_explanation":"glucose Appearance Kinetics","review_explanation":"Review boundary: glucose appearance describes substrate delivery, whereas this PM addresses mitochondrial biogenesis. The existing cross-system link is retained; a causal dietary-to-biogenesis relationship requires separate evidence and is not established by the link.","source_file":"docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx","source_commit":"d3570391e7a6e3de40c57af784683cd13bd2370a"},"provenance":["Original PM9 cross-system reference and its title-only explanation are retained in the historical source record.","The bounded BRS4 repair added a review boundary without establishing causation.","User-approved pilot disposition on 23 October 2026: contextual hypothesis; no approved direct mechanistic dependency.","Historical page reference direction is PM9 → glucose appearance; the proposed biological direction is glucose appearance → PM9.","No new Scientific Finding, dietary admission, Key Constraint, Phenome link or score is created."],"review_date":"2026-10-23"}} />
+
+{/* scientific-hypotheses:end */}
+
+### 4.1 Scientific Findings
+
+#### Summary
+
+
+
+<ScientificFinding finding={{"id":"PM9-F1","finding_label":"Interval training increases muscle mitochondrial-content markers","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"Six interval-training sessions increased skeletal-muscle mitochondrial enzyme/protein markers and TFAM in young men.","finding_summary":"Six interval-training sessions increased skeletal-muscle mitochondrial enzyme/protein markers and TFAM in young men.","finding_interpretation":"No inactive control, small male sample. These are mitochondrial-content and regulatory markers, not direct counting of newly formed brain mitochondria. Total PGC-1alpha was unchanged.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Six interval-training sessions increased skeletal-muscle mitochondrial enzyme/protein markers and TFAM in young men.","synthesis_limitations":"No inactive control, small male sample. These are mitochondrial-content and regulatory markers, not direct counting of newly formed brain mitochondria. Total PGC-1alpha was unchanged.","evidence_considered":[{"label":"Little et al. (2010)","citation_key":"little_interval_mitochondria_2010","href":"/docs/papers/BRAIN-Diet-References#little_interval_mitochondria_2010","data_level":"Human Study","exposure_context":"Six sessions of 8–12 one-minute cycling intervals separated by recovery.","evidence_source":"bounded-external-search","directional_finding":"Six interval-training sessions increased skeletal-muscle mitochondrial enzyme/protein markers and TFAM in young men.","assessment":{"study":"Six sessions of 8–12 one-minute cycling intervals separated by recovery.","population":"Seven young men, two-week before/after cycling study.","result":"Six interval-training sessions increased skeletal-muscle mitochondrial enzyme/protein markers and TFAM in young men.","effect_magnitude":"Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.","evidence_summary":"Muscle citrate synthase/COX activity and protein, TFAM, nuclear PGC-1alpha.","limitations":"No inactive control, small male sample. These are mitochondrial-content and regulatory markers, not direct counting of newly formed brain mitochondria. Total PGC-1alpha was unchanged.","retrieval_scope":"Primary abstract retrieved via Europe PMC/PubMed; no unextracted full-method claims.","source_url":"https://pubmed.ncbi.nlm.nih.gov/20100740/"},"canonical_reference":{"author_year":"Little et al. (2010)","number":12,"anchor":"#pm-ref-12"}}],"evidence_dependency":["The source-specific observations support different links; food composition, biochemical identity, intervention exposure and clinical outcomes are not interchangeable. Reuse across PMs is not independent replication."],"connected_supportive_evidence":[]}} />
+
+
+#### Introduction/Summary
+
+Mitochondrial biogenesis is primarily training-driven. The evidence below highlights polyphenol-linked mitophagy support and why adaptive capacity matters as a longer-horizon energetic reserve.
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Polyphenols, urolithin A, and mitophagy</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Higher polyphenol intake and microbial diversity increase urolithin A and related metabolites supporting mitochondrial resilience and mitophagy [Singh et al., 2022]. Urolithin A intervention has been associated with improved mitophagy markers and cognitive endurance [Andreux et al., 2019; Hou et al., 2024]. For this PM, these represent secondary dietary signals complementing primary exercise-driven biogenesis.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#singh_direct_2022","label":"Singh et al. (2022)","dataLevel":"Mixed"},{"href":"/docs/papers/BRAIN-Diet-References#andreux_mitophagy_2019","label":"Andreux et al. (2019)","dataLevel":"Human Outcome"}]} />
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Exercise as the primary biogenesis driver</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Mitochondrial biogenesis depends on repeated exercise and recovery signalling rather than single-meal interventions [Goodpaster & Sparks, 2017; de Guia et al., 2019]. Diet provides permissive cofactor and substrate context; lifestyle remains the dominant lever.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017","label":"Goodpaster & Sparks (2017)","dataLevel":"Mechanistic"}]} />
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Mitophagy and mitochondrial dysfunction in ADHD (review)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Review literature links impaired mitophagy and mitochondrial homeostasis to ADHD pathophysiology, framing biogenesis and quality-control pathways as longer-horizon energetic reserve biology relevant to neurodevelopmental contexts [Almutairi et al., 2024; Öğütlü et al., 2022].
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#almutairi_mitophagy_adhd_2024","label":"Almutairi et al. (2024)","dataLevel":"Mechanistic"}]} />
+
+</div>
+</div>
+</div>
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+- None listed
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- None listed
+
+The historical glucose-appearance reference is retained as [SH1](#pm9-h1), an unestablished contextual hypothesis. Its proposed biological direction is BRS6-FM1-PM1 → BRS4-FM4-PM9; it is not an approved direct dependency.
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS4-FM1-PM1 - Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — Scope distinction: PM1 addresses electron transport, whereas this PM addresses formation of mitochondria. Mitochondrial abundance and respiratory-chain function are different endpoints; neither automatically establishes the other.
+- [BRS4-FM1-PM2 - NAD⁺ Metabolism](/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism) — Scope distinction: PM2 addresses redox-cofactor turnover, whereas this PM addresses mitochondrial biogenesis. This retained connection is not evidence that dietary NAD precursors increase mitochondrial formation.
+
+## 7. Phenome Connections
+
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+
+<div class="brs-fm-hub-item phenome-scoring-key-hub" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>How these ratings work</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<div class="phenome-scoring-key">
+<p class="phenome-scoring-key-intro">
+Each Phenome relationship has <strong>two independent ratings</strong>. They are not combined or averaged.
+</p>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Biology → Phenome Relationship Strength</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How direct and important is this biological mechanism expected to be to the Phenome within the BRAIN model?</em>
+</p>
+</div>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Evidence Confidence</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How strongly does the adjudicated evidence support this particular biology → Phenome relationship?</em>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Recovery Capacity — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Recovery Capacity — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph005-recovery-capacity" aria-label="Open page: Recovery Capacity — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** Low–Medium
+- **Evidence Confidence:** Low–Medium
+- **Rationale:** ADHD mitophagy and mitochondrial quality-control reviews link biogenesis/adaptation biology to long-term energetic restoration after repeated metabolic demand — diet and training provide permissive substrate context; direct ADHD biogenesis-outcome trials remain sparse.
+</div>
+</div>
+</div>
+
+{/* preserved-phenome-prose:start */}
+<details>
+<summary>Historical Phenome narrative, retained without new validation</summary>
+
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+
+<div class="brs-fm-hub-item phenome-scoring-key-hub" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>How these ratings work</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<div class="phenome-scoring-key">
+<p class="phenome-scoring-key-intro">
+Each Phenome relationship has <strong>two independent ratings</strong>. They are not combined or averaged.
+</p>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Biology → Phenome Relationship Strength</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How direct and important is this biological mechanism expected to be to the Phenome within the BRAIN model?</em>
+</p>
+</div>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Evidence Confidence</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How strongly does the adjudicated evidence support this particular biology → Phenome relationship?</em>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Recovery Capacity — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Recovery Capacity — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph005-recovery-capacity" aria-label="Open page: Recovery Capacity — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** Low–Medium
+- **Evidence Confidence:** Low–Medium
+- **Rationale:** ADHD mitophagy and mitochondrial quality-control reviews link biogenesis/adaptation biology to long-term energetic restoration after repeated metabolic demand — diet and training provide permissive substrate context; direct ADHD biogenesis-outcome trials remain sparse.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#almutairi_mitophagy_adhd_2024","label":"Almutairi et al. (2024)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023","label":"Öğütlü et al. (2022)","dataLevel":"Human Study"}]} />
+</div>
+</div>
+</div>
+
+
+</details>
+{/* preserved-phenome-prose:end */}
+
+
+
+{/* deferred-stage2ab-2026-10-23 */}
+<details>
+<summary>Stage 2A/2B dietary-target assessment — 23 October 2026</summary>
+
+**ENRICHED.** Formation/adaptation of mitochondrial capacity, distinct from ATP concentration alone.
+
+Add a human training Lifestyle Lever and marker-bounded Finding. No new dietary input: muscle mitochondrial enzyme/protein changes do not establish ordinary-food biogenesis or new brain mitochondria. Existing broad micronutrient lists remain preserved pending specificity review.
+
+**Historical-content boundary:** The inherited food/cofactor lists and Phenome interpretations remain preserved research records; this bounded update does not newly validate their generic dietary or brain-effect claims.
+
+**New implementation:** 0 dietary-input admissions (0 completed Unset candidates), 1 practices, 0 biochemical participants, 1 unscored Findings. Existing accepted inputs, source assessments, mission, KCs, Phenome relationships and scores are retained.
+
+**Source-to-claim boundary:** [Assessment source](https://pubmed.ncbi.nlm.nih.gov/20100740/). Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval.
+
+</details>
+{/* /deferred-stage2ab-2026-10-23 */}
+
+
+
+
+## 8. References
+
+- <span id="pm-ref-1">[1]</span> [Goodpaster & Sparks (2017) — Metabolic Flexibility in Health and Disease](/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017)
+- <span id="pm-ref-2">[2]</span> [de Guia et al. (2019) — Aerobic and Resistance Exercise Training Reverses Age-dependent Decline in NAD+ Salvage Capacity](/docs/papers/BRAIN-Diet-References#de_guia_nad_2019)
+- <span id="pm-ref-3">[3]</span> [Kyriazis et al. (2022) — Impact of Diet Upon Mitochondrial Physiology (Review)](/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022)
+- <span id="pm-ref-4">[4]</span> [Tardy et al. (2020) — B Vitamins and Micronutrients in Energy Metabolism](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)
+- <span id="pm-ref-5">[5]</span> [Davis et al. (2009) — Quercetin and Mitochondrial Biogenesis](/docs/papers/BRAIN-Diet-References#davis_quercetin_2009)
+- <span id="pm-ref-6">[6]</span> [Toney et al. (2019) — Urolithin A and Mitochondrial Biogenesis](/docs/papers/BRAIN-Diet-References#toney_urolithin_2019)
+- <span id="pm-ref-7">[7]</span> [Singh et al. (2022) — Direct Supplementation with Urolithin A Overcomes Limitations of Dietary Exposure](/docs/papers/BRAIN-Diet-References#singh_direct_2022)
+- <span id="pm-ref-8">[8]</span> [Andreux et al. (2019) — The Mitophagy Activator Urolithin A Is Safe and Induces a Molecular Signature of Improved Mitochondrial Health](/docs/papers/BRAIN-Diet-References#andreux_mitophagy_2019)
+- <span id="pm-ref-9">[9]</span> [Hou et al. (2024) — Urolithin A Improves Cognitive Endurance](/docs/papers/BRAIN-Diet-References#hou_urolithin_2024)
+- <span id="pm-ref-10">[10]</span> [Almutairi et al. (2024) — Mitochondrial Dysfunction and Mitophagy in ADHD](/docs/papers/BRAIN-Diet-References#almutairi_mitophagy_adhd_2024)
+- <span id="pm-ref-11">[11]</span> [Öğütlü et al. (2022) — Mitochondrial Dysfunction in Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023)
+- <span id="pm-ref-12">[12]</span> [Little et al. (2010) — A practical model of low-volume high-intensity interval training induces mitochondrial biogenesis in human skeletal muscle: potential mechanisms.](/docs/papers/BRAIN-Diet-References#little_interval_mitochondria_2010)
+
+### PM-local source records
+
+<details>
+<summary>Historical reference narrative, retained</summary>
+
+- [Goodpaster & Sparks (2017) — Metabolic Flexibility in Health and Disease](/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017)
+- [de Guia et al. (2019) — Aerobic and Resistance Exercise Training Reverses Age-dependent Decline in NAD+ Salvage Capacity](/docs/papers/BRAIN-Diet-References#de_guia_nad_2019)
+- [Kyriazis et al. (2022) — Impact of Diet Upon Mitochondrial Physiology (Review)](/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022)
+- [Tardy et al. (2020) — B Vitamins and Micronutrients in Energy Metabolism](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)
+- [Davis et al. (2009) — Quercetin and Mitochondrial Biogenesis](/docs/papers/BRAIN-Diet-References#davis_quercetin_2009)
+- [Toney et al. (2019) — Urolithin A and Mitochondrial Biogenesis](/docs/papers/BRAIN-Diet-References#toney_urolithin_2019)
+- [Singh et al. (2022) — Direct Supplementation with Urolithin A Overcomes Limitations of Dietary Exposure](/docs/papers/BRAIN-Diet-References#singh_direct_2022)
+- [Andreux et al. (2019) — The Mitophagy Activator Urolithin A Is Safe and Induces a Molecular Signature of Improved Mitochondrial Health](/docs/papers/BRAIN-Diet-References#andreux_mitophagy_2019)
+- [Hou et al. (2024) — Urolithin A Improves Cognitive Endurance](/docs/papers/BRAIN-Diet-References#hou_urolithin_2024)
+- [Almutairi et al. (2024) — Mitochondrial Dysfunction and Mitophagy in ADHD](/docs/papers/BRAIN-Diet-References#almutairi_mitophagy_adhd_2024)
+- [Öğütlü et al. (2022) — Mitochondrial Dysfunction in Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023)
+
+</details>
+
+
+<details>
+<summary id="legacy-dietary-review-pm9">Historical §3.1.1 dietary statements — scientific reconciliation required</summary>
+
+**Original placement:** §3.1.1 Direct and/or Derived Dietary Requirements. The statements below are retained without textual alteration. No structured scientific admission decision was recorded for these bullets; none is assigned by this repair. They have not been deleted, rejected, newly validated or automatically promoted to SOPs.
+
+- NAD⁺-supportive nutrition ← niacin-rich foods and protein-rich whole foods
+- Micronutrient support ← whole grains, legumes, leafy greens, animal foods
+- Polyphenol-rich foods ← berries, tea, extra virgin olive oil
+
+**Review needed:** distinguish identifiable biochemical inputs from food delivery, dietary patterns and generic support claims; verify PM-specific evidence before proposing any structured admission or section reassignment. Existing structured scientific records remain unchanged.
+
+</details>
+
+
+<details>
+<summary>Original cross-system connection wording — retained for review</summary>
+
+- [BRS6-FM1-PM1 - Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — glucose Appearance Kinetics
+
+The clarified connection above preserves this link without treating the original title echo as a causal explanation. Its causal scientific basis remains a review item.
+
+</details>

@@ -1,0 +1,17 @@
+{
+  "unique": 51,
+  "verified": 34,
+  "provisional": 7,
+  "foodless": [
+    "uridine",
+    "pyridoxal-5-phosphate",
+    "cysteine",
+    "glutamate",
+    "n-acetylcysteine",
+    "oligofructose",
+    "flavin-mononucleotide",
+    "glutamine",
+    "arabinan",
+    "glucose"
+  ]
+}

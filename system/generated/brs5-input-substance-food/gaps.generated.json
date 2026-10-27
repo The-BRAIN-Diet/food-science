@@ -86,12 +86,6 @@
     },
     {
       "kind": "mapping-gap",
-      "relationship_id": "BRS5-FM1-PM1::PM1-DIT-6",
-      "input": "Glutamine",
-      "reason": "No supported canonical food-source record found."
-    },
-    {
-      "kind": "mapping-gap",
       "relationship_id": "BRS5-FM1-PM1::PM1-KC1-UPSTREAM-1",
       "input": "FOS/GOS",
       "reason": "No supported canonical food-source record found."
@@ -134,12 +128,6 @@
     },
     {
       "kind": "mapping-gap",
-      "relationship_id": "BRS5-FM2-PM4::PM4-DIT-1",
-      "input": "Pea-fibre arabinan",
-      "reason": "No supported canonical food-source record found."
-    },
-    {
-      "kind": "mapping-gap",
       "relationship_id": "BRS5-FM2-PM5::PM5-DIT-2",
       "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
       "reason": "No supported canonical food-source record found."
@@ -149,12 +137,6 @@
       "relationship_id": "BRS5-FM3-PM7::PM7-DIT-1",
       "input": "Lactobacillus rhamnosus JB-1",
       "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred."
-    },
-    {
-      "kind": "mapping-gap",
-      "relationship_id": "BRS5-FM3-PM7::PM7-DIT-2",
-      "input": "Glucose",
-      "reason": "No supported canonical food-source record found."
     },
     {
       "kind": "mapping-gap",
@@ -198,6 +180,13 @@
       "atom_id": "PM4-DIT-3",
       "input": "Resistant starch (RS2/RS3)",
       "resolved_id": "resistant-starch"
+    },
+    {
+      "kind": "stale-missing-substance-status",
+      "pm_id": "BRS5-FM2-PM5",
+      "atom_id": "PM5-DIT-2",
+      "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
+      "resolved_id": "fructo-galacto-oligosaccharides"
     },
     {
       "kind": "stale-missing-substance-status",
@@ -263,14 +252,14 @@
     {
       "pm_id": "BRS5-FM2-PM5",
       "record": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
-      "accepted_relationships": 7,
-      "structured_atoms": 6
+      "accepted_relationships": 8,
+      "structured_atoms": 7
     },
     {
       "pm_id": "BRS5-FM2-PM6",
       "record": "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx",
-      "accepted_relationships": 2,
-      "structured_atoms": 2
+      "accepted_relationships": 3,
+      "structured_atoms": 3
     },
     {
       "pm_id": "BRS5-FM3-PM7",

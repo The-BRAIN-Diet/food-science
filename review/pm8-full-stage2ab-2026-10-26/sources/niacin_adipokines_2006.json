@@ -1,0 +1,291 @@
+{
+  "citation_key": "niacin_adipokines_2006",
+  "doi": "10.1016/j.atherosclerosis.2006.06.028",
+  "metadata": {
+    "id": "16887123",
+    "source": "MED",
+    "pmid": "16887123",
+    "doi": "10.1016/j.atherosclerosis.2006.06.028",
+    "title": "Extended-release niacin raises adiponectin and leptin.",
+    "authorString": "Westphal S, Borucki K, Taneva E, Makarova R, Luley C.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Westphal S",
+          "lastName": "Westphal",
+          "firstName": "Sabine",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Institute of Clinical Chemistry, Magdeburg University Hospital, Leipziger Str. 44, D-39120 Magdeburg, Germany. Sabine.Westphal@Medizin.Uni-Magdeburg.de"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Borucki K",
+          "lastName": "Borucki",
+          "firstName": "Katrin",
+          "initials": "K"
+        },
+        {
+          "fullName": "Taneva E",
+          "lastName": "Taneva",
+          "firstName": "Elena",
+          "initials": "E"
+        },
+        {
+          "fullName": "Makarova R",
+          "lastName": "Makarova",
+          "firstName": "Ruma",
+          "initials": "R"
+        },
+        {
+          "fullName": "Luley C",
+          "lastName": "Luley",
+          "firstName": "Claus",
+          "initials": "C"
+        }
+      ]
+    },
+    "journalInfo": {
+      "issue": "2",
+      "volume": "193",
+      "journalIssueId": 1450047,
+      "dateOfPublication": "2007 Aug",
+      "monthOfPublication": 8,
+      "yearOfPublication": 2007,
+      "journal": {
+        "medlineAbbreviation": "Atherosclerosis",
+        "title": "Atherosclerosis",
+        "essn": "1879-1484",
+        "issn": "0021-9150",
+        "isoabbreviation": "Atherosclerosis",
+        "nlmid": "0242543"
+      },
+      "printPublicationDate": "2007-08-01"
+    },
+    "pubYear": "2007",
+    "pageInfo": "361-365",
+    "abstractText": "<h4>Background</h4>The lipid-lowering drug niacin has attracted renewed interest because it raises HDL-cholesterol and because it has recently been found to slow down the progression of intima media thickness in patients with coronary heart disease. Since niacin acts on adipocytes, we investigated its impact on adipokines and on some functions attributed to adipokines.<h4>Methods and results</h4>In a randomized, placebo-controlled, double-blind study 30 men with the metabolic syndrome were treated for 6 weeks with 1500 mg extended-release niacin (n=20) or a placebo (n=10). Adiponectin increased by 56% (p<0.001) and leptin by 26.8% (p<0.012). Resistin, TNF-alpha, IL-6, and high sensitive CRP remained unchanged. In spite of the increase in adiponectin there was no improvement in endothelial function. The HOMA index actually deteriorated by 42% (p<0.014).<h4>Conclusion</h4>Short-term treatment with extended-release niacin causes a pronounced increase in adiponectin but fails to improve atheroprotective functions attributed to adiponectin, such as insulin sensitivity, anti-inflammation and endothelial function.",
+    "affiliation": "Institute of Clinical Chemistry, Magdeburg University Hospital, Leipziger Str. 44, D-39120 Magdeburg, Germany. Sabine.Westphal@Medizin.Uni-Magdeburg.de",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adipocytes",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "DE",
+                "qualifierName": "drug effects"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Endothelial Cells",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "DE",
+                "qualifierName": "drug effects"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Niacin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PD",
+                "qualifierName": "pharmacology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "TU",
+                "qualifierName": "therapeutic use"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Leptin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Delayed-Action Preparations"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Pilot Projects"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Double-Blind Method"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Middle Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adiponectin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hypolipidemic Agents",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PD",
+                "qualifierName": "pharmacology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "TU",
+                "qualifierName": "therapeutic use"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Metabolic Syndrome",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "DT",
+                "qualifierName": "drug therapy"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PP",
+                "qualifierName": "physiopathology"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "adiponectin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Delayed-Action Preparations",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Leptin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Hypolipidemic Agents",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Niacin",
+          "registryNumber": "2679MF687A"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1016/j.atherosclerosis.2006.06.028"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 68,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2007-10-16",
+    "dateOfCreation": "2006-08-05",
+    "dateOfRevision": "2017-11-16",
+    "electronicPublicationDate": "2006-08-02",
+    "firstPublicationDate": "2006-08-02",
+    "firstIndexDate": "2008-01-29",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016%2Fj.atherosclerosis.2006.06.028&format=json&resultType=core",
+  "retrieved_on": "2026-10-26",
+  "access": "Primary metadata/abstract; no full-method appraisal"
+}

@@ -73,6 +73,7 @@
         "BRS1-FM1-PM3",
         "BRS1-FM1-PM4",
         "BRS1-FM1-PM5",
+        "BRS3-FM2-PM4",
         "BRS4-FM1-PM1"
       ],
       "missing_edge": "Nori → Iron [Purple laver (Porphyra spp.), dried, toasted; dried]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
@@ -80,32 +81,627 @@
       "verification_status": "requires-material-equivalence-review"
     },
     {
-      "source_entity": "BRS1-FM1-PM1::PM1-DIT-1",
-      "target_entity": "Indispensable amino-acid supply",
-      "relationship_type": "identity-resolution",
+      "source_entity": "nori",
+      "target_entity": "magnesium",
+      "relationship_type": "material-equivalence-review",
       "canonical_ids": {
-        "substance": null
+        "food": "nori",
+        "substance": "magnesium"
       },
-      "candidate_food": null,
-      "material": null,
-      "preparation": null,
+      "candidate_food": "Nori",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "preparation": "dried",
       "evidence": [
-        {
-          "finding_ids": [
-            "PM1-F2"
-          ],
-          "citation_keys": [
-            "mariotti_dietary_2019",
-            "moughan_diaas_2024"
-          ]
-        }
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 300,
+            "unit": "mg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/magnesium_mg",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/magnesium_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 300,
+            "high": 300,
+            "display": "300 mg"
+          }
+        ]
       ],
       "affected_pms": [
-        "BRS1-FM1-PM1"
+        "BRS1-FM1-PM3",
+        "BRS1-FM1-PM4",
+        "BRS1-FM4-PM11",
+        "BRS2-FM1-PM3",
+        "BRS2-FM2-PM6",
+        "BRS6-FM1-PM3"
       ],
-      "missing_edge": "BRS1-FM1-PM1::PM1-DIT-1 → canonical substance/substrate identity",
-      "required_action": "Resolve against existing identities and aliases. Do not create duplicates or reapprove the PM admission.",
-      "verification_status": "requires-identity-reconciliation"
+      "missing_edge": "Nori → Magnesium [Purple laver (Porphyra spp.), dried, toasted; dried]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
+      "required_action": "Compare the existing edge with this source material, brand/fortification, cultivar, preparation and analytical context. Do not create a new food edge unless independently established as necessary.",
+      "verification_status": "requires-material-equivalence-review"
+    },
+    {
+      "source_entity": "chicory-root",
+      "target_entity": "sodium",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chicory-root",
+        "substance": "sodium"
+      },
+      "candidate_food": "Chicory Root",
+      "material": "Chicory roots, raw (Cichorium intybus)",
+      "preparation": "raw",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "USDA SR Legacy, FDC 169993",
+              "food_name": "Chicory roots, raw (Cichorium intybus)",
+              "fdc_id": 169993,
+              "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+              "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 50,
+            "unit": "mg",
+            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+            "source_reference": "#food-source-3",
+            "material": "Chicory roots, raw (Cichorium intybus)",
+            "preparation": "raw",
+            "record": "docs/foods/chicory-root.md#nutrition_per_100g/sodium_mg",
+            "source_record": "docs/foods/chicory-root.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/chicory-root.md#nutrition_per_100g/sodium_mg",
+            "rank_eligible": true,
+            "comparison_group": "edible::raw",
+            "low": 50,
+            "high": 50,
+            "display": "50 mg"
+          }
+        ],
+        [
+          {
+            "nutrition_source": {
+              "database": "USDA SR Legacy, FDC 169993",
+              "food_name": "Chicory roots, raw (Cichorium intybus)",
+              "fdc_id": 169993,
+              "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+              "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 50,
+            "unit": "mg",
+            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+            "source_reference": "#food-source-3",
+            "material": "Chicory roots, raw (Cichorium intybus)",
+            "preparation": "raw",
+            "record": "docs/foods/chicory-root.md#nutrition_per_100g/sodium_mg",
+            "source_record": "docs/foods/chicory-root.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/chicory-root.md#nutrition_per_100g/sodium_mg",
+            "rank_eligible": true,
+            "comparison_group": "edible::raw",
+            "low": 50,
+            "high": 50,
+            "display": "50 mg"
+          }
+        ],
+        [
+          {
+            "nutrition_source": {
+              "database": "USDA SR Legacy, FDC 169993",
+              "food_name": "Chicory roots, raw (Cichorium intybus)",
+              "fdc_id": 169993,
+              "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+              "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 50,
+            "unit": "mg",
+            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+            "source_reference": "#food-source-3",
+            "material": "Chicory roots, raw (Cichorium intybus)",
+            "preparation": "raw",
+            "record": "docs/foods/chicory-root.md#nutrition_per_100g/sodium_mg",
+            "source_record": "docs/foods/chicory-root.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/chicory-root.md#nutrition_per_100g/sodium_mg",
+            "rank_eligible": true,
+            "comparison_group": "edible::raw",
+            "low": 50,
+            "high": 50,
+            "display": "50 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM2-PM6",
+        "BRS1-FM3-PM7",
+        "BRS1-FM4-PM10"
+      ],
+      "missing_edge": "docs/foods/chicory-root.md#substance_relationships: contains sodium (raw)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "nori",
+      "target_entity": "sodium",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "nori",
+        "substance": "sodium"
+      },
+      "candidate_food": "Nori",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 530,
+            "unit": "mg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/sodium_mg",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/sodium_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 530,
+            "high": 530,
+            "display": "530 mg"
+          }
+        ],
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 530,
+            "unit": "mg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/sodium_mg",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/sodium_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 530,
+            "high": 530,
+            "display": "530 mg"
+          }
+        ],
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 530,
+            "unit": "mg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/sodium_mg",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/sodium_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 530,
+            "high": 530,
+            "display": "530 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM2-PM6",
+        "BRS1-FM3-PM7",
+        "BRS1-FM4-PM10"
+      ],
+      "missing_edge": "docs/foods/nori.md#substance_relationships: contains sodium (dried)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "nutritional-yeast",
+      "target_entity": "sodium",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "nutritional-yeast",
+        "substance": "sodium"
+      },
+      "candidate_food": "Nutritional Yeast",
+      "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "Marigold Health Foods label",
+              "food_name": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+              "basis": "per 100 g dry product; the label serving is 5 g",
+              "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 100,
+            "unit": "mg",
+            "basis": "per 100 g dry product; the label serving is 5 g",
+            "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
+            "source_reference": "#food-source-3",
+            "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+            "preparation": "dried",
+            "record": "docs/foods/nutritional-yeast.md#nutrition_per_100g/sodium_mg",
+            "source_record": "docs/foods/nutritional-yeast.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nutritional-yeast.md#nutrition_per_100g/sodium_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 100,
+            "high": 100,
+            "display": "100 mg"
+          }
+        ],
+        [
+          {
+            "nutrition_source": {
+              "database": "Marigold Health Foods label",
+              "food_name": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+              "basis": "per 100 g dry product; the label serving is 5 g",
+              "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 100,
+            "unit": "mg",
+            "basis": "per 100 g dry product; the label serving is 5 g",
+            "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
+            "source_reference": "#food-source-3",
+            "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+            "preparation": "dried",
+            "record": "docs/foods/nutritional-yeast.md#nutrition_per_100g/sodium_mg",
+            "source_record": "docs/foods/nutritional-yeast.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nutritional-yeast.md#nutrition_per_100g/sodium_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 100,
+            "high": 100,
+            "display": "100 mg"
+          }
+        ],
+        [
+          {
+            "nutrition_source": {
+              "database": "Marigold Health Foods label",
+              "food_name": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+              "basis": "per 100 g dry product; the label serving is 5 g",
+              "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 100,
+            "unit": "mg",
+            "basis": "per 100 g dry product; the label serving is 5 g",
+            "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
+            "source_reference": "#food-source-3",
+            "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+            "preparation": "dried",
+            "record": "docs/foods/nutritional-yeast.md#nutrition_per_100g/sodium_mg",
+            "source_record": "docs/foods/nutritional-yeast.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nutritional-yeast.md#nutrition_per_100g/sodium_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 100,
+            "high": 100,
+            "display": "100 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM2-PM6",
+        "BRS1-FM3-PM7",
+        "BRS1-FM4-PM10"
+      ],
+      "missing_edge": "docs/foods/nutritional-yeast.md#substance_relationships: contains sodium (dried)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "salmon-roe",
+      "target_entity": "sodium",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "salmon-roe",
+        "substance": "sodium"
+      },
+      "candidate_food": "Salmon Roe",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "preparation": null,
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 910,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 910,
+            "high": 910,
+            "display": "910 mg"
+          }
+        ],
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 910,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 910,
+            "high": 910,
+            "display": "910 mg"
+          }
+        ],
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 910,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 910,
+            "high": 910,
+            "display": "910 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM2-PM6",
+        "BRS1-FM3-PM7",
+        "BRS1-FM4-PM10"
+      ],
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains sodium (null)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "chicory-root",
+      "target_entity": "potassium",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chicory-root",
+        "substance": "potassium"
+      },
+      "candidate_food": "Chicory Root",
+      "material": "Chicory roots, raw (Cichorium intybus)",
+      "preparation": "raw",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "USDA SR Legacy, FDC 169993",
+              "food_name": "Chicory roots, raw (Cichorium intybus)",
+              "fdc_id": 169993,
+              "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+              "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 290,
+            "unit": "mg",
+            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+            "source_reference": "#food-source-3",
+            "material": "Chicory roots, raw (Cichorium intybus)",
+            "preparation": "raw",
+            "record": "docs/foods/chicory-root.md#nutrition_per_100g/potassium_mg",
+            "source_record": "docs/foods/chicory-root.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/chicory-root.md#nutrition_per_100g/potassium_mg",
+            "rank_eligible": true,
+            "comparison_group": "edible::raw",
+            "low": 290,
+            "high": 290,
+            "display": "290 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM4-PM10",
+        "BRS2-FM1-PM3"
+      ],
+      "missing_edge": "docs/foods/chicory-root.md#substance_relationships: contains potassium (raw)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "nori",
+      "target_entity": "potassium",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "nori",
+        "substance": "potassium"
+      },
+      "candidate_food": "Nori",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 2400,
+            "unit": "mg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/potassium_mg",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/potassium_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 2400,
+            "high": 2400,
+            "display": "2400 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM4-PM10",
+        "BRS2-FM1-PM3"
+      ],
+      "missing_edge": "docs/foods/nori.md#substance_relationships: contains potassium (dried)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "salmon-roe",
+      "target_entity": "potassium",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "salmon-roe",
+        "substance": "potassium"
+      },
+      "candidate_food": "Salmon Roe",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "preparation": null,
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 210,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/potassium_mg",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/potassium_mg",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 210,
+            "high": 210,
+            "display": "210 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM4-PM10",
+        "BRS2-FM1-PM3"
+      ],
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains potassium (null)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
     },
     {
       "source_entity": "vitamin-b6",
@@ -204,38 +800,6 @@
         "BRS2-FM3-PM7"
       ],
       "missing_edge": "Phosphatidylcholine → Choline: structured conversion pathway",
-      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
-      "verification_status": "requires-pathway-reconciliation"
-    },
-    {
-      "source_entity": "vitamin-b6",
-      "target_entity": "PLP",
-      "relationship_type": "precursor-conversion",
-      "canonical_ids": {
-        "precursor": "vitamin-b6",
-        "active_target": null
-      },
-      "candidate_food": null,
-      "material": null,
-      "preparation": null,
-      "evidence": [
-        {
-          "finding_ids": [
-            "PM9-F1",
-            "PM9-F2"
-          ],
-          "citation_keys": [
-            "martin_regulation_1993",
-            "lee_human_2000",
-            "tang_crystal_2005",
-            "navarro_catalytic_2013"
-          ]
-        }
-      ],
-      "affected_pms": [
-        "BRS1-FM4-PM9"
-      ],
-      "missing_edge": "Vitamin B6 → PLP: structured conversion pathway",
       "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
       "verification_status": "requires-pathway-reconciliation"
     },
@@ -778,6 +1342,153 @@
       "verification_status": "requires-pathway-reconciliation"
     },
     {
+      "source_entity": "chicory-root",
+      "target_entity": "manganese",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chicory-root",
+        "substance": "manganese"
+      },
+      "candidate_food": "Chicory Root",
+      "material": "Chicory roots, raw (Cichorium intybus)",
+      "preparation": "raw",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "USDA SR Legacy, FDC 169993",
+              "food_name": "Chicory roots, raw (Cichorium intybus)",
+              "fdc_id": 169993,
+              "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+              "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 0.233,
+            "unit": "mg",
+            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+            "source_reference": "#food-source-3",
+            "material": "Chicory roots, raw (Cichorium intybus)",
+            "preparation": "raw",
+            "record": "docs/foods/chicory-root.md#nutrition_per_100g/manganese_mg",
+            "source_record": "docs/foods/chicory-root.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/chicory-root.md#nutrition_per_100g/manganese_mg",
+            "rank_eligible": true,
+            "comparison_group": "edible::raw",
+            "low": 0.233,
+            "high": 0.233,
+            "display": "0.233 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS3-FM2-PM4",
+        "BRS4-FM2-PM5"
+      ],
+      "missing_edge": "docs/foods/chicory-root.md#substance_relationships: contains manganese (raw)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "nori",
+      "target_entity": "manganese",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "nori",
+        "substance": "manganese"
+      },
+      "candidate_food": "Nori",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 3.72,
+            "unit": "mg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/manganese_mg",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/manganese_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 3.72,
+            "high": 3.72,
+            "display": "3.72 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS3-FM2-PM4",
+        "BRS4-FM2-PM5"
+      ],
+      "missing_edge": "docs/foods/nori.md#substance_relationships: contains manganese (dried)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "salmon-roe",
+      "target_entity": "manganese",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "salmon-roe",
+        "substance": "manganese"
+      },
+      "candidate_food": "Salmon Roe",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "preparation": null,
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 0.06,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/manganese_mg",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/manganese_mg",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 0.06,
+            "high": 0.06,
+            "display": "0.06 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS3-FM2-PM4",
+        "BRS4-FM2-PM5"
+      ],
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains manganese (null)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
       "source_entity": "chicken",
       "target_entity": "nicotinamide",
       "relationship_type": "contains",
@@ -931,150 +1642,6 @@
       "missing_edge": "Beef → Creatine [Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program); raw]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
       "required_action": "Compare the existing edge with this source material, brand/fortification, cultivar, preparation and analytical context. Do not create a new food edge unless independently established as necessary.",
       "verification_status": "requires-material-equivalence-review"
-    },
-    {
-      "source_entity": "chicory-root",
-      "target_entity": "manganese",
-      "relationship_type": "contains",
-      "canonical_ids": {
-        "food": "chicory-root",
-        "substance": "manganese"
-      },
-      "candidate_food": "Chicory Root",
-      "material": "Chicory roots, raw (Cichorium intybus)",
-      "preparation": "raw",
-      "evidence": [
-        [
-          {
-            "nutrition_source": {
-              "database": "USDA SR Legacy, FDC 169993",
-              "food_name": "Chicory roots, raw (Cichorium intybus)",
-              "fdc_id": 169993,
-              "basis": "per 100 g edible portion; dietary fibre does not include inulin",
-              "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
-              "source_reference": "#food-source-3",
-              "last_checked": "2026-10-12"
-            },
-            "value": 0.233,
-            "unit": "mg",
-            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
-            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
-            "source_reference": "#food-source-3",
-            "material": "Chicory roots, raw (Cichorium intybus)",
-            "preparation": "raw",
-            "record": "docs/foods/chicory-root.md#nutrition_per_100g/manganese_mg",
-            "source_record": "docs/foods/chicory-root.md#nutrition_source",
-            "verified": true,
-            "id": "docs/foods/chicory-root.md#nutrition_per_100g/manganese_mg",
-            "rank_eligible": true,
-            "comparison_group": "edible::raw",
-            "low": 0.233,
-            "high": 0.233,
-            "display": "0.233 mg"
-          }
-        ]
-      ],
-      "affected_pms": [
-        "BRS4-FM2-PM5"
-      ],
-      "missing_edge": "docs/foods/chicory-root.md#substance_relationships: contains manganese (raw)",
-      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
-      "verification_status": "pending-independent-verification"
-    },
-    {
-      "source_entity": "nori",
-      "target_entity": "manganese",
-      "relationship_type": "contains",
-      "canonical_ids": {
-        "food": "nori",
-        "substance": "manganese"
-      },
-      "candidate_food": "Nori",
-      "material": "Purple laver (Porphyra spp.), dried, toasted",
-      "preparation": "dried",
-      "evidence": [
-        [
-          {
-            "nutrition_source": {
-              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
-              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
-              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
-              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
-              "source_reference": "#food-source-3"
-            },
-            "value": 3.72,
-            "unit": "mg",
-            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
-            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
-            "source_reference": "#food-source-3",
-            "material": "Purple laver (Porphyra spp.), dried, toasted",
-            "preparation": "dried",
-            "record": "docs/foods/nori.md#nutrition_per_100g/manganese_mg",
-            "source_record": "docs/foods/nori.md#nutrition_source",
-            "verified": true,
-            "id": "docs/foods/nori.md#nutrition_per_100g/manganese_mg",
-            "rank_eligible": true,
-            "comparison_group": "dry::dried",
-            "low": 3.72,
-            "high": 3.72,
-            "display": "3.72 mg"
-          }
-        ]
-      ],
-      "affected_pms": [
-        "BRS4-FM2-PM5"
-      ],
-      "missing_edge": "docs/foods/nori.md#substance_relationships: contains manganese (dried)",
-      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
-      "verification_status": "pending-independent-verification"
-    },
-    {
-      "source_entity": "salmon-roe",
-      "target_entity": "manganese",
-      "relationship_type": "contains",
-      "canonical_ids": {
-        "food": "salmon-roe",
-        "substance": "manganese"
-      },
-      "candidate_food": "Salmon Roe",
-      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-      "preparation": null,
-      "evidence": [
-        [
-          {
-            "nutrition_source": {
-              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
-              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-              "basis": "per 100 g edible portion",
-              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
-              "source_reference": "#food-source-8",
-              "last_checked": "2026-10-12"
-            },
-            "value": 0.06,
-            "unit": "mg",
-            "basis": "per 100 g edible portion",
-            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
-            "source_reference": "#food-source-8",
-            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-            "preparation": null,
-            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/manganese_mg",
-            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
-            "verified": true,
-            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/manganese_mg",
-            "rank_eligible": false,
-            "comparison_group": null,
-            "low": 0.06,
-            "high": 0.06,
-            "display": "0.06 mg"
-          }
-        ]
-      ],
-      "affected_pms": [
-        "BRS4-FM2-PM5"
-      ],
-      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains manganese (null)",
-      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
-      "verification_status": "pending-independent-verification"
     },
     {
       "source_entity": "beef",
@@ -1273,60 +1840,136 @@
       "verification_status": "pending-independent-verification"
     },
     {
-      "source_entity": "pomegranates",
-      "target_entity": "ellagic-acid",
-      "relationship_type": "contains",
+      "source_entity": "cacao-powder",
+      "target_entity": "epicatechin",
+      "relationship_type": "material-equivalence-review",
       "canonical_ids": {
-        "food": "pomegranates",
-        "substance": "ellagic-acid"
+        "food": "cacao-powder",
+        "substance": "epicatechin"
       },
-      "candidate_food": "Pomegranate (studied commercial juice)",
-      "material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
-      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "candidate_food": "Cacao Powder",
+      "material": "Cocoa, dry powder, unsweetened",
+      "preparation": null,
       "evidence": [
-        {
-          "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
-          "sources": [
-            "https://doi.org/10.1038/s41430-021-00950-1"
-          ],
-          "retrieved": "2026-10-23",
-          "kind": "primary-food-composition"
-        }
+        [
+          {
+            "key": "epicatechin_mg",
+            "label": "Epicatechin",
+            "notes": "Dominant monomeric flavanol in minimally processed cacao powder; much lower in Dutch-processed cocoa.",
+            "source_note": "Phenol-Explorer natural cocoa powder range for (-)-epicatechin: ~52–340 mg/100 g (mean ~196 mg/100 g); values fall sharply with roasting and alkalisation.",
+            "public_note": "Phenol-Explorer natural cocoa powder range for (-)-epicatechin: ~52–340 mg/100 g (mean ~196 mg/100 g); values fall sharply with roasting and alkalisation.",
+            "source_group": "estimate-epicatechin_mg",
+            "status": "Present — quantity not established",
+            "public_display": "table",
+            "omit_substance_card": false,
+            "evidence_status": "supported",
+            "presence_status": "presence_supported_amount_unavailable",
+            "amount_display": "196 mg (estimate)",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+            "value": 196,
+            "unit": "mg",
+            "quantity_citation_pending": true,
+            "source_reference": "#food-source-7",
+            "record": "docs/foods/cacao-powder.md#nutrition_supplementary_sources/epicatechin_mg",
+            "evidence": "Phenol-Explorer natural cocoa powder range for (-)-epicatechin: ~52–340 mg/100 g (mean ~196 mg/100 g); values fall sharply with roasting and alkalisation.",
+            "limitations": "Dominant monomeric flavanol in minimally processed cacao powder; much lower in Dutch-processed cocoa."
+          }
+        ]
       ],
       "affected_pms": [
         "BRS5-FM2-PM6"
       ],
-      "missing_edge": "docs/foods/pomegranates.md#substance_relationships: contains ellagic-acid (Chilled commercial juice; not whole-fruit or other-product equivalence)",
-      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
-      "verification_status": "pending-independent-verification"
+      "missing_edge": "Cacao Powder → Epicatechin [Cocoa, dry powder, unsweetened; preparation unresolved]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
+      "required_action": "Compare the existing edge with this source material, brand/fortification, cultivar, preparation and analytical context. Do not create a new food edge unless independently established as necessary.",
+      "verification_status": "requires-material-equivalence-review"
     },
     {
-      "source_entity": "pomegranates",
-      "target_entity": "ellagitannins",
-      "relationship_type": "contains",
+      "source_entity": "cocoa",
+      "target_entity": "epicatechin",
+      "relationship_type": "material-equivalence-review",
       "canonical_ids": {
-        "food": "pomegranates",
-        "substance": "ellagitannins"
+        "food": "cocoa",
+        "substance": "epicatechin"
       },
-      "candidate_food": "Pomegranate (studied commercial juice)",
-      "material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
-      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "candidate_food": "Cocoa",
+      "material": "Cocoa, dry powder, unsweetened",
+      "preparation": null,
       "evidence": [
-        {
-          "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
-          "sources": [
-            "https://doi.org/10.1038/s41430-021-00950-1"
-          ],
-          "retrieved": "2026-10-23",
-          "kind": "primary-food-composition"
-        }
+        [
+          {
+            "key": "epicatechin_mg",
+            "label": "Epicatechin",
+            "notes": "Lower than minimally processed cacao powder; roasting and alkalisation reduce monomeric flavanols.",
+            "source_note": "Representative Dutch-processed cocoa powder values are substantially below natural cacao powder; flavan-3-ol losses increase with roasting and alkalisation (Paynter et al., 2011).",
+            "status": "Present — quantity not established",
+            "public_display": "table",
+            "omit_substance_card": false,
+            "evidence_status": "supported",
+            "presence_status": "presence_supported_amount_unavailable",
+            "amount_display": "34 mg (estimate)",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+            "source_group": "estimate-epicatechin_mg",
+            "public_note": "Representative Dutch-processed cocoa powder values are substantially below natural cacao powder; flavan-3-ol losses increase with roasting and alkalisation (Paynter et al., 2011).",
+            "value": 34,
+            "unit": "mg",
+            "quantity_citation_pending": true,
+            "source_reference": "#food-source-7",
+            "record": "docs/foods/cocoa.md#nutrition_supplementary_sources/epicatechin_mg",
+            "evidence": "Representative Dutch-processed cocoa powder values are substantially below natural cacao powder; flavan-3-ol losses increase with roasting and alkalisation (Paynter et al., 2011).",
+            "limitations": "Lower than minimally processed cacao powder; roasting and alkalisation reduce monomeric flavanols."
+          }
+        ]
       ],
       "affected_pms": [
         "BRS5-FM2-PM6"
       ],
-      "missing_edge": "docs/foods/pomegranates.md#substance_relationships: contains ellagitannins (Chilled commercial juice; not whole-fruit or other-product equivalence)",
-      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
-      "verification_status": "pending-independent-verification"
+      "missing_edge": "Cocoa → Epicatechin [Cocoa, dry powder, unsweetened; preparation unresolved]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
+      "required_action": "Compare the existing edge with this source material, brand/fortification, cultivar, preparation and analytical context. Do not create a new food edge unless independently established as necessary.",
+      "verification_status": "requires-material-equivalence-review"
+    },
+    {
+      "source_entity": "dark-chocolate",
+      "target_entity": "epicatechin",
+      "relationship_type": "material-equivalence-review",
+      "canonical_ids": {
+        "food": "dark-chocolate",
+        "substance": "epicatechin"
+      },
+      "candidate_food": "Dark Chocolate",
+      "material": "Chocolate, dark, 70-85% cacao solids",
+      "preparation": null,
+      "evidence": [
+        [
+          {
+            "key": "epicatechin_mg",
+            "label": "Epicatechin",
+            "notes": "Often the dominant monomeric cocoa flavanol in dark chocolate.",
+            "source_note": "Phenol-Explorer dark-chocolate range for (-)-epicatechin: 32.7–125.0 mg/100 g (mean ~70.4 mg/100 g).",
+            "public_note": "Phenol-Explorer dark-chocolate range for (-)-epicatechin: 32.7–125.0 mg/100 g (mean ~70.4 mg/100 g).",
+            "source_group": "estimate-epicatechin_mg",
+            "status": "Present — quantity not established",
+            "public_display": "table",
+            "omit_substance_card": false,
+            "evidence_status": "supported",
+            "presence_status": "presence_supported_amount_unavailable",
+            "amount_display": "70.4 mg (estimate)",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+            "value": 70.4,
+            "unit": "mg",
+            "quantity_citation_pending": true,
+            "source_reference": "#food-source-5",
+            "record": "docs/foods/dark-chocolate.md#nutrition_supplementary_sources/epicatechin_mg",
+            "evidence": "Phenol-Explorer dark-chocolate range for (-)-epicatechin: 32.7–125.0 mg/100 g (mean ~70.4 mg/100 g).",
+            "limitations": "Often the dominant monomeric cocoa flavanol in dark chocolate."
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM6"
+      ],
+      "missing_edge": "Dark Chocolate → Epicatechin [Chocolate, dark, 70-85% cacao solids; preparation unresolved]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
+      "required_action": "Compare the existing edge with this source material, brand/fortification, cultivar, preparation and analytical context. Do not create a new food edge unless independently established as necessary.",
+      "verification_status": "requires-material-equivalence-review"
     },
     {
       "source_entity": "salmon-roe",
@@ -1514,53 +2157,6 @@
       "missing_edge": "Ellagitannins → Ellagic acid: structured conversion pathway",
       "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
       "verification_status": "requires-pathway-reconciliation"
-    },
-    {
-      "source_entity": "nori",
-      "target_entity": "magnesium",
-      "relationship_type": "material-equivalence-review",
-      "canonical_ids": {
-        "food": "nori",
-        "substance": "magnesium"
-      },
-      "candidate_food": "Nori",
-      "material": "Purple laver (Porphyra spp.), dried, toasted",
-      "preparation": "dried",
-      "evidence": [
-        [
-          {
-            "nutrition_source": {
-              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
-              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
-              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
-              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
-              "source_reference": "#food-source-3"
-            },
-            "value": 300,
-            "unit": "mg",
-            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
-            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
-            "source_reference": "#food-source-3",
-            "material": "Purple laver (Porphyra spp.), dried, toasted",
-            "preparation": "dried",
-            "record": "docs/foods/nori.md#nutrition_per_100g/magnesium_mg",
-            "source_record": "docs/foods/nori.md#nutrition_source",
-            "verified": true,
-            "id": "docs/foods/nori.md#nutrition_per_100g/magnesium_mg",
-            "rank_eligible": true,
-            "comparison_group": "dry::dried",
-            "low": 300,
-            "high": 300,
-            "display": "300 mg"
-          }
-        ]
-      ],
-      "affected_pms": [
-        "BRS6-FM1-PM3"
-      ],
-      "missing_edge": "Nori → Magnesium [Purple laver (Porphyra spp.), dried, toasted; dried]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
-      "required_action": "Compare the existing edge with this source material, brand/fortification, cultivar, preparation and analytical context. Do not create a new food edge unless independently established as necessary.",
-      "verification_status": "requires-material-equivalence-review"
     },
     {
       "source_entity": "beef",

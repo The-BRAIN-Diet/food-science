@@ -213,6 +213,85 @@ substance_relationships:
     source_url: "https://doi.org/10.1016/j.nfs.2016.02.002"
     material_limitations: "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
 substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-173757
+    material: Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt
+    preparation: cooked
+    food_group: plant
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 173757
+      source_url: https://fdc.nal.usda.gov/food-details/173757/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 8.86
+    protein_source_row_id: "1804186"
+    amino_acids:
+      histidine:
+        value: 0.244
+        source_row_id: "1804164"
+        nutrient_id: "1221"
+        data_points: 0
+        derivation_id: null
+      isoleucine:
+        value: 0.38
+        source_row_id: "1804158"
+        nutrient_id: "1212"
+        data_points: 0
+        derivation_id: null
+      leucine:
+        value: 0.631
+        source_row_id: "1804159"
+        nutrient_id: "1213"
+        data_points: 0
+        derivation_id: null
+      lysine:
+        value: 0.593
+        source_row_id: "1804160"
+        nutrient_id: "1214"
+        data_points: 0
+        derivation_id: null
+      methionine:
+        value: 0.116
+        source_row_id: "1804195"
+        nutrient_id: "1215"
+        data_points: 0
+        derivation_id: null
+      phenylalanine:
+        value: 0.475
+        source_row_id: "1804196"
+        nutrient_id: "1217"
+        data_points: 0
+        derivation_id: null
+      threonine:
+        value: 0.329
+        source_row_id: "1804194"
+        nutrient_id: "1211"
+        data_points: 0
+        derivation_id: null
+      tryptophan:
+        value: 0.085
+        source_row_id: "1804193"
+        nutrient_id: "1210"
+        data_points: 0
+        derivation_id: null
+      valine:
+        value: 0.372
+        source_row_id: "1804162"
+        nutrient_id: "1219"
+        data_points: 0
+        derivation_id: null
+    portion:
+      label: 0.5 cup
+      source_row_id: "93226"
+      source_grams: 164
+      multiplier: 0.5
+    limitations: >-
+      USDA database composition, including source-specific analytical or calculated values. No
+      amino-acid-specific digestibility correction; illustrative USDA household portion, not an
+      intake recommendation. Missing values are not treated as zero.
 ---
 ## Overview
 

@@ -123,6 +123,85 @@ substance_relationships:
     source_url: 'https://fdc.nal.usda.gov/food-details/171480/nutrients'
     presence_status: presence_and_amount_supported
 substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-171496
+    material: Turkey, whole, breast, meat only, cooked, roasted
+    preparation: cooked
+    food_group: animal
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 171496
+      source_url: https://fdc.nal.usda.gov/food-details/171496/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 30.13
+    protein_source_row_id: "1615211"
+    amino_acids:
+      histidine:
+        value: 0.731
+        source_row_id: "1615230"
+        nutrient_id: "1221"
+        data_points: 0
+        derivation_id: "1"
+      isoleucine:
+        value: 0.773
+        source_row_id: "1615224"
+        nutrient_id: "1212"
+        data_points: 0
+        derivation_id: "1"
+      leucine:
+        value: 1.869
+        source_row_id: "1615225"
+        nutrient_id: "1213"
+        data_points: 0
+        derivation_id: "1"
+      lysine:
+        value: 2.225
+        source_row_id: "1615226"
+        nutrient_id: "1214"
+        data_points: 0
+        derivation_id: "1"
+      methionine:
+        value: 0.705
+        source_row_id: "1615196"
+        nutrient_id: "1215"
+        data_points: 0
+        derivation_id: "1"
+      phenylalanine:
+        value: 0.869
+        source_row_id: "1615197"
+        nutrient_id: "1217"
+        data_points: 0
+        derivation_id: "1"
+      threonine:
+        value: 0.979
+        source_row_id: "1615195"
+        nutrient_id: "1211"
+        data_points: 0
+        derivation_id: "1"
+      tryptophan:
+        value: 0.287
+        source_row_id: "1615194"
+        nutrient_id: "1210"
+        data_points: 0
+        derivation_id: "1"
+      valine:
+        value: 0.862
+        source_row_id: "1615228"
+        nutrient_id: "1219"
+        data_points: 0
+        derivation_id: "1"
+    portion:
+      label: 3 oz
+      source_row_id: "88856"
+      source_grams: 85
+      multiplier: 1
+    limitations: >-
+      USDA database composition, including source-specific analytical or calculated values. No
+      amino-acid-specific digestibility correction; illustrative USDA household portion, not an
+      intake recommendation. Missing values are not treated as zero.
 ---
 ## Overview
 

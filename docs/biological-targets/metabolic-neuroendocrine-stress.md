@@ -61,8 +61,8 @@ hide_title: true
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
-  <span class="brs-fm-hub-group-title-text">BRS6(FM4) — Stress-Inflammation / Metabolic Load Allocation</span>
-<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation" aria-label="Open FM: BRS6(FM4) — Stress-Inflammation / Metabolic Load Allocation">
+  <span class="brs-fm-hub-group-title-text">BRS6(FM4) — Metabolic–Endocrine Signalling & Adaptive Regulation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation" aria-label="Open FM: BRS6(FM4) — Metabolic–Endocrine Signalling & Adaptive Regulation">
 <span class="brs-fm-hub-open-label">Open FM →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
@@ -200,22 +200,22 @@ Maintains autonomic balance and vagal recovery capacity by coordinating sympathe
 <button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS6(FM4) summary">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
-<strong class="brs-fm-hub-title">BRS6(FM4) — Stress-Inflammation / Metabolic Load Allocation</strong>
-<a class="brs-fm-hub-open" href="/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation" aria-label="Open FM: BRS6(FM4) — Stress-Inflammation / Metabolic Load Allocation">
+<strong class="brs-fm-hub-title">BRS6(FM4) — Metabolic–Endocrine Signalling & Adaptive Regulation</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation" aria-label="Open FM: BRS6(FM4) — Metabolic–Endocrine Signalling & Adaptive Regulation">
 <span class="brs-fm-hub-open-label">Open FM →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
 </div>
 
 <ul class="brs-fm-hub-pm-list">
-  <li><a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling">BRS6-FM4-PM8 — Metabolic Inflammation & Adipose Stress Signalling</a></li>
-  <li><a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation">BRS6-FM4-PM9 — Stress-Induced Appetite / Reward Drive Modulation</a></li>
+  <li><a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling">BRS6-FM4-PM8 — Adipose Endocrine Regulation</a></li>
+  <li><a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation">BRS6-FM4-PM9 — Stress-Modulated Appetite & Reward Regulation</a></li>
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Maintains stress-inflammation and metabolic load allocation by coordinating metabolic-inflammatory signalling with stress-linked appetite-reward biology.
+Coordinates peripheral metabolic–endocrine signalling and stress-responsive central regulation to communicate energy availability, metabolic state and physiological demand.
 
-**FM page:** [BRS6(FM4) — Stress-Inflammation / Metabolic Load Allocation](/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation)
+**FM page:** [BRS6(FM4) — Metabolic–Endocrine Signalling & Adaptive Regulation](/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation)
 
 **Primary biological effects:** ↓ metabolic stress load; ↓ stress-driven appetite volatility; ↑ stable energy allocation; ↓ chronic inflammatory pressure on neuroendocrine allocation
 
@@ -362,7 +362,7 @@ Collectively, these findings do not imply that metabolic or neuroendocrine dysre
 </li>
 <li class="brs-hub-dietary-guidance-item">
 <p class="brs-hub-dietary-guidance-main"><strong>Include polyphenol-rich plant foods regularly</strong> → dietary polyphenols → supports metabolic resilience, insulin-sensitivity context and healthier neuroendocrine recovery under physiological stress when plant polyphenol density is low.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/blueberries">Blueberries</a> • <a href="/docs/foods/extra-virgin-olive-oil">Extra Virgin Olive Oil</a> • <a href="/docs/foods/walnuts">Walnuts</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/kale">Kale</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling" class="brs-hub-lever-pm">BRS6-FM4-PM8</a></span></p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/blueberries">Blueberries</a> • <a href="/docs/foods/extra-virgin-olive-oil">Extra Virgin Olive Oil</a> • <a href="/docs/foods/walnuts">Walnuts</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/kale">Kale</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> </span></p>
 </li>
 <li class="brs-hub-dietary-guidance-item">
 <p class="brs-hub-dietary-guidance-main"><strong>Favour minimally processed whole foods over refined and ultra-processed patterns</strong> → intact food matrix and fibre → whole-food structure slows nutrient absorption and supports steadier metabolic and neuroendocrine regulation; hyperpalatable refined patterns amplify glycaemic and appetite-reward volatility.</p>
@@ -406,9 +406,9 @@ Collectively, these findings do not imply that metabolic or neuroendocrine dysre
 <div class="brs-fm-hub-panel" hidden>
 <p class="brs-hub-sop-category-desc">Optimising food structure, cooking, bioavailability and nutrient delivery.</p>
 <ul class="brs-hub-lever-list brs-hub-optimisation-list">
-<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Soak or sprout phytate-rich seeds, legumes and grains when mineral density matters</strong> to improve plant magnesium, zinc and related mineral bioavailability that supports stress-recovery and metabolic cofactor chemistry.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery" class="brs-hub-lever-pm">BRS6-FM3-PM6</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling" class="brs-hub-lever-pm">BRS6-FM4-PM8</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Soak or sprout phytate-rich seeds, legumes and grains when mineral density matters</strong> to improve plant magnesium, zinc and related mineral bioavailability that supports stress-recovery and metabolic cofactor chemistry.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery" class="brs-hub-lever-pm">BRS6-FM3-PM6</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a> </span></p></li>
 <li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Pair iron-containing foods with vitamin C and meal-context enhancers</strong> to improve iron absorption that supports metabolic and neuroendocrine cofactor networks under physiological load.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics" class="brs-hub-lever-pm">BRS6-FM1-PM1</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation" class="brs-hub-lever-pm">BRS6-FM1-PM2</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a></span></p></li>
-<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Prepare omega-3-rich foods gently</strong> to protect PUFA-rich meal matrices that support membrane and inflammatory-resolution context for metabolic–stress regulation.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling" class="brs-hub-lever-pm">BRS6-FM4-PM8</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Prepare omega-3-rich foods gently</strong> to protect PUFA-rich meal matrices that support membrane and inflammatory-resolution context for metabolic–stress regulation.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a> </span></p></li>
 <li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Prepare fermentable staples carefully when building fibre load</strong> to improve digestibility of fermentable substrates that can support vagal and metabolic recovery signalling without abrupt gut strain.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery" class="brs-hub-lever-pm">BRS6-FM3-PM6</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a></span></p></li>
 </ul>
 </div>
@@ -469,9 +469,8 @@ Collectively, these findings do not imply that metabolic or neuroendocrine dysre
 
 <ul class="brs-hub-lever-list brs-hub-lifestyle-list">
 <li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Take regular physical activity and, where practical, a short walk after meals</strong> to help reduce blood sugar spikes after eating and support steadier metabolic regulation throughout the day.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics" class="brs-hub-lever-pm">BRS6-FM1-PM1</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation" class="brs-hub-lever-pm">BRS6-FM1-PM2</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation" class="brs-hub-lever-pm">BRS6-FM4-PM9</a></span></p></li>
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Maintain consistent sleep and wake times</strong> to support healthy cortisol rhythm, lower stress-driven eating pressure, and more stable metabolic recovery.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation" class="brs-hub-lever-pm">BRS6-FM1-PM2</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery" class="brs-hub-lever-pm">BRS6-FM3-PM6</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling" class="brs-hub-lever-pm">BRS6-FM4-PM8</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation" class="brs-hub-lever-pm">BRS6-FM4-PM9</a></span></p></li>
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Maintain consistent sleep and wake times</strong> to support healthy cortisol rhythm, lower stress-driven eating pressure, and more stable metabolic recovery.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation" class="brs-hub-lever-pm">BRS6-FM1-PM2</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery" class="brs-hub-lever-pm">BRS6-FM3-PM6</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a>  <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation" class="brs-hub-lever-pm">BRS6-FM4-PM9</a></span></p></li>
 <li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Practise stress-management and recovery techniques</strong> to help maintain balanced autonomic activity, healthier appetite regulation, and adaptive stress responses.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation" class="brs-hub-lever-pm">BRS6-FM1-PM2</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation" class="brs-hub-lever-pm">BRS6-FM4-PM9</a></span></p></li>
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Support healthy body composition through sustainable movement, sleep, and recovery</strong> to improve insulin sensitivity and reduce adipose-related inflammatory signalling over time.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling" class="brs-hub-lever-pm">BRS6-FM4-PM8</a></span></p></li>
 </ul>
 
 </div>
@@ -522,8 +521,8 @@ Glycaemic–insulin stability, HPA rhythm, autonomic balance, and stress–infla
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
-  <span class="brs-fm-hub-group-title-text">BRS6(FM4) — Stress-Inflammation / Metabolic Load Allocation</span>
-<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation" aria-label="Open FM: BRS6(FM4) — Stress-Inflammation / Metabolic Load Allocation">
+  <span class="brs-fm-hub-group-title-text">BRS6(FM4) — Metabolic–Endocrine Signalling & Adaptive Regulation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation" aria-label="Open FM: BRS6(FM4) — Metabolic–Endocrine Signalling & Adaptive Regulation">
 <span class="brs-fm-hub-open-label">Open FM →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
@@ -660,22 +659,22 @@ Maintains autonomic balance and vagal recovery capacity by coordinating sympathe
 <button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS6(FM4) summary">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
-<strong class="brs-fm-hub-title">BRS6(FM4) — Stress-Inflammation / Metabolic Load Allocation</strong>
-<a class="brs-fm-hub-open" href="/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation" aria-label="Open FM: BRS6(FM4) — Stress-Inflammation / Metabolic Load Allocation">
+<strong class="brs-fm-hub-title">BRS6(FM4) — Metabolic–Endocrine Signalling & Adaptive Regulation</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation" aria-label="Open FM: BRS6(FM4) — Metabolic–Endocrine Signalling & Adaptive Regulation">
 <span class="brs-fm-hub-open-label">Open FM →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
 </div>
 
 <ul class="brs-fm-hub-pm-list">
-  <li><a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling">BRS6-FM4-PM8 — Metabolic Inflammation & Adipose Stress Signalling</a></li>
-  <li><a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation">BRS6-FM4-PM9 — Stress-Induced Appetite / Reward Drive Modulation</a></li>
+  <li><a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling">BRS6-FM4-PM8 — Adipose Endocrine Regulation</a></li>
+  <li><a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation">BRS6-FM4-PM9 — Stress-Modulated Appetite & Reward Regulation</a></li>
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Maintains stress-inflammation and metabolic load allocation by coordinating metabolic-inflammatory signalling with stress-linked appetite-reward biology.
+Coordinates peripheral metabolic–endocrine signalling and stress-responsive central regulation to communicate energy availability, metabolic state and physiological demand.
 
-**FM page:** [BRS6(FM4) — Stress-Inflammation / Metabolic Load Allocation](/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation)
+**FM page:** [BRS6(FM4) — Metabolic–Endocrine Signalling & Adaptive Regulation](/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation)
 
 **Primary biological effects:** ↓ metabolic stress load; ↓ stress-driven appetite volatility; ↑ stable energy allocation; ↓ chronic inflammatory pressure on neuroendocrine allocation
 
@@ -893,9 +892,9 @@ Maintains stress-inflammation and metabolic load allocation by coordinating meta
 
 Specific Mechanisms (SMs) are interpretation layers — context-specific readings of stable BRS6 biology grounded in connected PMs, FMs, and KCs. They provide additional biological context for applying the BRAIN Framework. Current SM categories include **SM-SNP** (genetic variation), **SM-CROSS** (multi-BRS interpretive concepts), **SM-Male** and **SM-Female** (sex-specific biology), **SM-Lifestage** (e.g. childhood, pregnancy, older adulthood), and **SM-Pattern** (e.g. vegan, vegetarian, ketogenic). Functional phenotype interpretation is handled via the [Phenome Registry](/docs/phenomes/) rather than SM-PHEN pages. Individual SMs may be combined to create richer biological profiles and support future precision-nutrition applications.
 
-:::note[Future Architecture Review — Adipose Regulatory Functions]
+:::note[Adipose Endocrine Regulation — Evidence and Scope]
 
-[PM8](/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling#scientific-scope--outstanding-architectural-review) remains under scientific development pending an integrated assessment of adipose lipid buffering, endocrine signalling and immune regulation. These interacting functions require clearer mechanistic boundaries, evidence attribution and brain-health relevance before canonical PM ownership can be established. They are research candidates, not approved mechanisms or additions to the active PM inventory.
+[PM8](/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling) now addresses adipose endocrine output and local glucocorticoid responsiveness. Its Evidence Gaps & Open Questions distinguish current endocrine questions from preserved historical VAT and inflammatory research. No dietary or lifestyle programme is inferred from fat loss alone.
 
 :::
 

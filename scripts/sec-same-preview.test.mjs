@@ -1,3 +1,5 @@
+import * as principles from '../src/lib/scientificPrinciples.mjs';
+import * as presentation from '../src/lib/scientificFindingPresentation.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -5,7 +7,7 @@ import vm from 'node:vm';
 import {execFileSync} from 'node:child_process';
 import {createRequire} from 'node:module';
 import matter from 'gray-matter';
-import {readPilotBaseline} from './lib/sec-pilot-baseline.mjs';
+import {readPilotBaseline, pilotArchivePath} from './lib/sec-pilot-baseline.mjs';
 import {compile} from '@mdx-js/mdx';
 import {sameAudits} from '../src/components/SecCalibrationPreview/sameAudit.mjs';
 import {sameCuratedReferences, sameSourcesFor} from '../src/components/SecCalibrationPreview/sameSources.mjs';
@@ -23,14 +25,14 @@ const preview = matter(read('docs/system/sec-calibration/same-synthesis.mdx'));
 const display = JSON.parse(preview.content.match(/export const previewDisplayData = (.*);/)[1]);
 
 test('complete isolated copy preserves canonical records, all numbered sections and dietary relationships', () => {
-  assert.equal(read(path), execFileSync('git', ['show', 'HEAD:' + path], {encoding:'utf8'}));
+  assert.equal(read(path), execFileSync('git', ['show', 'HEAD:' + pilotArchivePath(path)], {encoding:'utf8',maxBuffer:20e6}));
   for (const key of Object.keys(display)) assert.deepEqual(display[key], canonical.data[key]);
   assert.deepEqual([...preview.content.matchAll(/^#{2,3} (\d+\.[^\n]*)/gm)].map(m=>m[1]), [...canonical.content.matchAll(/^#{2,3} (\d+\.[^\n]*)/gm)].map(m=>m[1]));
   for (const f of canonical.data.scientific_findings) assert.deepEqual(sameAudits.find(r=>r.findingId===f.id).canonicalRecord,f);
   assert.ok(display.dietary_lever_atoms.some(a=>a.atom_id==='PM3-DIT-5'));
   assert.ok(!display.dietary_lever_presentations.some(a=>a.atom_id==='PM3-DIT-5'));
   assert.deepEqual(display.dietary_input_traceability.slice(0,4).map(a=>a.dietary_input),[true,false,false,false]);
-  for (const p of ['docs/system/sec-calibration/gaba.mdx','docs/system/sec-calibration/glycaemic-variability.mdx','static/bibtex/BRAIN-diet.bib','system/primary-mechanism-schema.md','system/scientific-finding-schema.md','system/dietary-input-traceability-contract.md']) assert.equal(read(p),execFileSync('git',['show','HEAD:'+p],{encoding:'utf8'}));
+  for (const p of ['docs/system/sec-calibration/gaba.mdx','docs/system/sec-calibration/glycaemic-variability.mdx','static/bibtex/BRAIN-diet.bib','system/primary-mechanism-schema.md','system/scientific-finding-schema.md','system/dietary-input-traceability-contract.md']) assert.equal(read(p),execFileSync('git',['show','HEAD:'+pilotArchivePath(p)],{encoding:'utf8',maxBuffer:20e6}));
 });
 
 test('MDX compilation and production isolation without a full build', async () => {
@@ -101,7 +103,7 @@ test('actual React preview renders provenance, proposed score, limitations and u
   const js=ts.transpileModule(read('src/components/SecCalibrationPreview/SamePreview.tsx'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020,jsx:ts.JsxEmit.ReactJSX,esModuleInterop:true}}).outputText;
   const sfJs=ts.transpileModule(read('src/components/ScientificFinding.tsx'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020,jsx:ts.JsxEmit.ReactJSX,esModuleInterop:true}}).outputText;
   const sf={exports:{}};
-  new Function('exports','require','module',sfJs)(sf.exports,id=>id==='./SecAssessment'?{SecAssessmentSummary(){throw new Error('Legacy finding must not render a referenced assessment');}}:id==='../client/brsFmHubDropdown'?{initBrsFmHubDropdowns(){}}:require(id),sf);
+  new Function('exports','require','module',sfJs)(sf.exports,id=>id.includes('scientificPrinciples')?principles:id.includes('scientificFindingPresentation')?presentation:id==='@docusaurus/plugin-content-docs/client'?{useDoc:()=>({frontMatter:{}})}:id==='./SecAssessment'?{SecAssessmentSummary(){throw new Error('Legacy finding must not render a referenced assessment');}}:id==='../client/brsFmHubDropdown'?{initBrsFmHubDropdowns(){}}:require(id),sf);
   const mod={exports:{}};
   const localRequire=id=>id==='./sameSources.mjs'?sourceData:id==='./sameAudit.mjs'?auditData:id==='./auditPresentation.mjs'?presentationData:id.endsWith('.module.css')?{}:id==='../ScientificFinding'?sf.exports:id==='../EvidenceConfidenceIndicator'?({score})=>React.createElement('span',null,score===null?'Not scored':score+'/8'):id==='../PmDietaryLeverEnhancer'?()=>null:require(id);
   new Function('exports','require','module',js)(mod.exports,localRequire,mod);

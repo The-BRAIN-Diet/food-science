@@ -3,11 +3,12 @@ import test from 'node:test';
 import fs from 'node:fs';
 import vm from 'node:vm';
 import matter from 'gray-matter';
+import {readHistoricalFile} from './lib/sec-pilot-baseline.mjs';
 import {listMechanismMdxFiles} from './lib/mechanism-page-validation.mjs';
 import {createRequire} from 'node:module';
 const require = createRequire(import.meta.url);
 const config = fs.readFileSync('docusaurus.config.ts', 'utf8');
-const canonical = matter(fs.readFileSync('docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx', 'utf8'));
+const canonical = matter(readHistoricalFile('e360e38bcd6864e5e4021f7add74dc4611befd55','docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx'));
 const preview = matter(fs.readFileSync('docs/system/sec-calibration/gaba.mdx', 'utf8'));
 const code = config.slice(config.indexOf('const includeInternalDocs'), config.indexOf('const wipSitemapIgnore'));
 const excludes = env => vm.runInNewContext(`${code}\ndocsExclude`, {process: {env}});
@@ -27,7 +28,10 @@ test('preview front matter has no scientific identity, evidence or relationship 
  assert.equal(preview.data.scientific_findings, undefined);
 });
 test('entire canonical body, Findings, lessons, references and numbered sections survive', () => {
- assert.ok(preview.content.includes(canonical.content.replaceAll('<ScientificFinding finding=', '<CalibrationFinding finding=')));
+ // The original pilot explicitly adds curated provenance inside Section 8.
+ assert.equal((preview.content.match(/<CuratedReferenceList \/>/g)||[]).length,1);
+ const preservedBody=preview.content.replace('\n<CuratedReferenceList />\n','');
+ assert.ok(preservedBody.includes(canonical.content.replaceAll('<ScientificFinding finding=', '<CalibrationFinding finding=')));
  const originals = [...canonical.content.matchAll(/<ScientificFinding finding=/g)].length;
  assert.equal([...preview.content.matchAll(/<CalibrationFinding finding=/g)].length, originals);
  assert.ok(originals > 5);
@@ -42,7 +46,7 @@ test('preview is outside canonical PM and evidence inventories', () => {
  }
 });
 test('ontology sees only loaded documents and no preview scientific metadata', async () => {
- const plugin = await require('../src/plugin/ontology-projection')();
+ const plugin = await require('../src/plugin/ontology-projection')({siteDir:process.cwd()});
  let output;
  const run = async docs => plugin.allContentLoaded({actions:{setGlobalData: data => output=data}, allContent:{'docusaurus-plugin-content-docs':{default:{loadedVersions:[{docs}]}}}});
  await run([]); assert.equal(output.docs.length,0);

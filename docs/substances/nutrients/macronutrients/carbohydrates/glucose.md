@@ -13,6 +13,15 @@ mechanisms:
   Gut-Brain Axis & Enteric Nervous System: 'Luminal glucose acted as a sensory stimulus in the tested mouse neuropod–vagal circuit. The neural response is not an intake target or a benefit from more sugar.'
 list_image: /img/icons/nutrient.svg
 inchikey: WQZGKKKJIJFFOK-GASJEMHNSA-N
+food_delivery_assessment:
+  review_date: '2026-10-26'
+  status: verified-quantitative
+  classification: B
+  sources:
+    - https://fdc.nal.usda.gov/food-details/173944/nutrients
+    - https://fdc.nal.usda.gov/food-details/174683/nutrients
+    - https://fdc.nal.usda.gov/food-details/169640/nutrients
+  admission_changed: false
 ---
 
 ## Overview
@@ -23,7 +32,7 @@ In mice, enteroendocrine neuropod cells sensed luminal glucose and used a glutam
 
 ## Dietary Origin
 
-Dietary glucose arrives as the sugar itself, or from digestible carbohydrate that yields glucose. The nerve result used glucose applied in a mouse experiment as a luminal stimulus [1]. A food that contains starch or sugar is not that experiment. No food page is linked from this result, because composition would not carry the neural finding.
+Dietary glucose arrives as the sugar itself, or from digestible carbohydrate that yields glucose. The nerve result used glucose applied in a mouse experiment as a luminal stimulus [1]. A food that contains starch or sugar is not that experiment. Direct glucose composition is linked separately from the neural finding; no efficacy relationship is inferred.
 
 ## Research Spotlights & Evidence Checks
 
@@ -44,6 +53,8 @@ Neuropod cells transduced a nutrient stimulus into a rapid vagal signal, and the
 
 ## Foods
 
+Source-specific USDA glucose entries are distinct from total sugars and carbohydrate [2].
+
 <SubstanceFoods tag="Glucose" />
 
 ## Biological Regulatory Systems
@@ -55,3 +66,5 @@ Neuropod cells transduced a nutrient stimulus into a rapid vagal signal, and the
 ## References
 
 [1] Kaelberer et al. (2018). [A gut-brain neural circuit for nutrient sensory transduction](/docs/papers/BRAIN-Diet-References#kaelberer_nutrient_neural_circuit_2018). Mouse neuropod cells sensed luminal glucose and signalled rapidly to vagal neurons. Experimental neural response, not an optimal intake or a benefit from more sugar.
+
+[2] [USDA FoodData Central, SR Legacy (2018)](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). Food-composition provenance; PM evidence and admission remain separate.

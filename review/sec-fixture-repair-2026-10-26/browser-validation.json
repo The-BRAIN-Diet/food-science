@@ -1,0 +1,35 @@
+[
+  {
+    "pm": "BRS1-FM4-PM9",
+    "url": "http://127.0.0.1:3128/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity/?review=1",
+    "verified": [
+      "Clicked SF1 disclosure; conditional 4/8, version 7; D established, B/P/R conditional; formal totals not calculated.",
+      "Prior versions 5 and 6 visible; Stage 2A/2B review remains at the audit bottom."
+    ]
+  },
+  {
+    "pm": "BRS2-FM1-PM3",
+    "url": "http://127.0.0.1:3128/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis/?review=1",
+    "verified": [
+      "Clicked SF5; provisional 5/8, version 2; factors D2/B1/P1/R1, exact bounded proposition; prior version 1 accessible.",
+      "Existing legacy MAT provenance entries retained; no reclassification performed."
+    ]
+  },
+  {
+    "pm": "BRS1-FM1-PM1",
+    "url": "http://127.0.0.1:3128/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation/?review=1",
+    "verified": [
+      "SP1/SP2 source links and scope limitations visible, without active SEC/factor/status fields inside the Principle records.",
+      "Clicked historical F4 disclosure; explicit historical classification boundary retained."
+    ],
+    "existing_observation": "PM1 main-page navigation shows six SFs. The wider presentation suite also flags PM1 count/link expectations. This pre-existing discrepancy is outside the six-fixture repair and was not changed."
+  },
+  {
+    "pm": "BRS6-FM1-PM2",
+    "url": "http://127.0.0.1:3128/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation/?review=1#sec-glycaemic-f5-assessment-v1-v2",
+    "verified": [
+      "Exact hash opens Evidence & Audit with SF5 expanded, provisional 5/8, version 2, and prior version 1.",
+      "Mouse collapse and Return-key expansion both work."
+    ]
+  }
+]

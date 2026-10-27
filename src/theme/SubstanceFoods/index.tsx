@@ -1,3 +1,6 @@
+import {useDoc} from '@docusaurus/plugin-content-docs/client'
+import {resolveAggregateFoodSources} from '../../lib/aggregateFoodComposition.mjs'
+import {AggregateSourceTable} from '../../components/AminoAcidComposition'
 import React from "react"
 import {canonicalFoodRelationships} from "@site/src/data/foodSubstanceRelationships.mjs"
 import {relatedSubstancesForFood, relatedViaLabel} from "@site/src/data/relatedSubstanceRelationships.mjs"
@@ -36,6 +39,7 @@ type TagToDocMap = Record<string, Document[]>
  */
 interface SubstanceFoodsProps {
   tag: string
+  directOnly?: boolean
 }
 
 type SubstanceRelationship = {
@@ -46,11 +50,16 @@ type SubstanceRelationship = {
   description?: string
   citation_keys?: string[]
   source_url?: string
+  substance_id?: string
+  food_delivery_notes?: string
+  evidence_material?: string
+  chemical_form?: string
 }
 
 type FoodRelationship = {
   doc: Document
   edge: SubstanceRelationship
+  edges?: SubstanceRelationship[]
 }
 
 function DocItemImage({ relationship }: { relationship: FoodRelationship }) {
@@ -66,6 +75,7 @@ function DocItemImage({ relationship }: { relationship: FoodRelationship }) {
             <h3>{doc.title}</h3>
           </Link>
           {doc.description && <p>{doc.description}</p>}
+          {(relationship.edges || [relationship.edge]).filter(edge=>edge.food_delivery_notes).map((edge,index)=><details key={index}><summary>Composition &amp; delivery qualification</summary><p>{edge.evidence_material}. {edge.chemical_form}.</p><p>{edge.food_delivery_notes}</p>{edge.source_url && <Link to={edge.source_url}>Primary composition source</Link>}</details>)}
 
         </div>
       </div>
@@ -79,8 +89,10 @@ function DocItemImage({ relationship }: { relationship: FoodRelationship }) {
  * Lists foods with an explicit `substance_relationships` record for this substance.
  * A food tag alone is not a relationship and is not shown.
  */
-export default function SubstanceFoods({ tag }: SubstanceFoodsProps): React.ReactElement {
+export default function SubstanceFoods({ tag, directOnly = false }: SubstanceFoodsProps): React.ReactElement {
   const allTags = usePluginData("category-listing") as TagToDocMap
+  const {frontMatter} = useDoc()
+  const substance = frontMatter as any
 
   if (!tag) {
     return <div>Error: Substance tag is required</div>
@@ -95,6 +107,13 @@ export default function SubstanceFoods({ tag }: SubstanceFoodsProps): React.Reac
     new Map(allFoods.map((doc: Document) => [doc.permalink, doc])).values()
   )
 
+  if (substance.identity_type === 'defined-substrate-class') {
+    const sources = uniqueFoods.flatMap(food => resolveAggregateFoodSources(food.frontMatter, substance, food.permalink));
+    return <div className="bok-tag-list">{['plant','animal'].map(group => {
+      const rows = sources.filter(s=>s.food_group===group).sort((a,b)=>b.aggregate_composition.eaa_g-a.aggregate_composition.eaa_g).slice(0,10);
+      return <details key={group}><summary>{group==='plant'?'Plant-based':'Animal-based'} — {rows.length} composition-derived sources</summary>{rows.length?<AggregateSourceTable sources={rows}/>:<p>No complete, same-record constituent profile is available. Missing measurements do not mean nutrient absence.</p>}</details>;
+    })}</div>;
+  }
   const substanceFoods: FoodRelationship[] = []
   for (const food of uniqueFoods) {
     const explicit = Array.isArray(food.frontMatter.substance_relationships)
@@ -105,14 +124,13 @@ export default function SubstanceFoods({ tag }: SubstanceFoodsProps): React.Reac
             return (
               typeof candidate.substance === "string" &&
               typeof candidate.relationship === "string" &&
-              substanceLabelsOverlap(candidate.substance, tag)
+              (!directOnly || ["contains", "direct-food-occurrence"].includes(candidate.relationship)) &&
+              (candidate.substance_id === substance.id || substanceLabelsOverlap(candidate.substance, tag))
             )
           })
       : []
 
-    for (const edge of explicit) {
-      substanceFoods.push({doc: food, edge})
-    }
+    if (explicit.length) substanceFoods.push({doc: food, edge:explicit[0], edges:explicit})
   }
 
   // Sort by order, then by title
@@ -152,7 +170,7 @@ export default function SubstanceFoods({ tag }: SubstanceFoodsProps): React.Reac
   if (substanceFoods.length === 0) {
     return (
       <div className="bok-tag-list">
-        <em>no foods found</em>
+        <em>{substance.food_delivery_assessment?.reason || (directOnly ? "No verified direct food-content relationships are recorded. See upstream dietary pathways separately." : "No verified food-composition relationship is currently recorded; this does not determine scientific admission.")}</em>
         {relatedSection}
       </div>
     )

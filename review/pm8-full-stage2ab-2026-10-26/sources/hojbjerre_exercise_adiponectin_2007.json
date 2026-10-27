@@ -1,0 +1,284 @@
+{
+  "citation_key": "hojbjerre_exercise_adiponectin_2007",
+  "doi": "10.1530/EJE-07-0213",
+  "metadata": {
+    "id": "17984241",
+    "source": "MED",
+    "pmid": "17984241",
+    "doi": "10.1530/eje-07-0213",
+    "title": "Acute exercise increases adipose tissue interstitial adiponectin concentration in healthy overweight and lean subjects.",
+    "authorString": "H\u00f8jbjerre L, Rosenzweig M, Dela F, Bruun JM, Stallknecht B.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "H\u00f8jbjerre L",
+          "lastName": "H\u00f8jbjerre",
+          "firstName": "Lise",
+          "initials": "L",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Biomedical Sciences, The Panum Institute, The Copenhagen Muscle Research Centre, University of Copenhagen, Blegdamsvej 3, DK-2200 Copenhagen N, Denmark."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Rosenzweig M",
+          "lastName": "Rosenzweig",
+          "firstName": "Mary",
+          "initials": "M"
+        },
+        {
+          "fullName": "Dela F",
+          "lastName": "Dela",
+          "firstName": "Flemming",
+          "initials": "F",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-9970-9535"
+          }
+        },
+        {
+          "fullName": "Bruun JM",
+          "lastName": "Bruun",
+          "firstName": "Jens M",
+          "initials": "JM",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-9937-5467"
+          }
+        },
+        {
+          "fullName": "Stallknecht B",
+          "lastName": "Stallknecht",
+          "firstName": "Bente",
+          "initials": "B",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-3117-0451"
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-9937-5467"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-9970-9535"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-3117-0451"
+        }
+      ]
+    },
+    "journalInfo": {
+      "issue": "5",
+      "volume": "157",
+      "journalIssueId": 1478844,
+      "dateOfPublication": "2007 Nov",
+      "monthOfPublication": 11,
+      "yearOfPublication": 2007,
+      "journal": {
+        "medlineAbbreviation": "Eur J Endocrinol",
+        "title": "European journal of endocrinology",
+        "essn": "1479-683X",
+        "issn": "0804-4643",
+        "isoabbreviation": "Eur J Endocrinol",
+        "nlmid": "9423848"
+      },
+      "printPublicationDate": "2007-11-01"
+    },
+    "pubYear": "2007",
+    "pageInfo": "613-623",
+    "abstractText": "<h4>Objective</h4>We studied how an acute bout of exercise influences expression and concentration of adiponectin and regulators of adiponectin in adipose tissue and plasma.<h4>Design and methods</h4>Eight overweight and eight lean males were examined by large-pore microdialysis in s.c. abdominal adipose tissue (SCAAT) and had arterialized blood sampled. On one day subjects rested for 3 h, exercised for 1 h at 55% of maximal oxygen uptake and rested again for 2.5 h, and on another day subjects rested for 6.5 h. On the day including exercise SCAAT was biopsied before and after exercise.<h4>Results</h4>Exercise increased the SCAAT interstitial adiponectin concentration in both overweight and lean subjects and concentrations did not differ between groups. Plasma adiponectin did not increase during exercise and was similar in overweight and lean subjects. Adiponectin mRNA in SCAAT decreased during exercise and was similar in overweight and lean subjects. Surprisingly, the interstitial adiponectin concentration in SCAAT was only 20% of the plasma concentration. SCAAT interleukin-6 (IL-6) microdialyzate and plasma concentrations and SCAAT IL-6 mRNA increased during exercise in both groups. Tumor necrosis factor- (TNF-) plasma concentration did not change during exercise in any of the groups, but SCAAT TNF- mRNA increased after exercise in both groups. Furthermore, exercise decreased SCAAT leptin mRNA with no change in resistin mRNA.<h4>Conclusions</h4>Acute exercise increases adipose tissue interstitial adiponectin concentration in both overweight and lean subjects with no major changes in plasma adiponectin concentration. The interstitial concentration of adiponectin in SCAAT is only 20% of that in plasma.",
+    "affiliation": "Department of Biomedical Sciences, The Panum Institute, The Copenhagen Muscle Research Centre, University of Copenhagen, Blegdamsvej 3, DK-2200 Copenhagen N, Denmark.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Comparative Study",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adipose Tissue",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Extracellular Fluid",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Thinness",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Exercise",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Random Allocation"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Time Factors"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Abdominal Fat",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Overweight",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adiponectin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BI",
+                "qualifierName": "biosynthesis"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "adiponectin",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1530/EJE-07-0213"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 38,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2007-12-06",
+    "dateOfCreation": "2007-11-07",
+    "dateOfRevision": "2016-10-18",
+    "firstPublicationDate": "2007-11-01",
+    "firstIndexDate": "2008-01-29",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1530%2FEJE-07-0213%22&format=json&resultType=core",
+  "retrieved_on": "2026-10-26",
+  "access": "Metadata and abstract; not full methods"
+}

@@ -1,0 +1,205 @@
+{
+  "citation_key": "zeinabi_soluble_fibre_adipokines_2023",
+  "doi": "10.7762/cnr.2023.12.4.320",
+  "metadata": {
+    "id": "37969941",
+    "source": "MED",
+    "pmid": "37969941",
+    "pmcid": "PMC10641331",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC10641331"
+      ]
+    },
+    "doi": "10.7762/cnr.2023.12.4.320",
+    "title": "Soluble Fiber Effect on Human Serum Leptin and Adiponectin: A Systematic Review and Dose-Response Meta-Analysis.",
+    "authorString": "Zeinabi A, Ghaedi H, Hosseini SA.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Zeinabi A",
+          "lastName": "Zeinabi",
+          "firstName": "Ali",
+          "initials": "A",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-8801-7717"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Sport Physiology, Lamerd Branch, Islamic Azad University, Lamerd 14696-69191, Iran."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Ghaedi H",
+          "lastName": "Ghaedi",
+          "firstName": "Hadi",
+          "initials": "H",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-1497-7528"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Sport Physiology, Lamerd Branch, Islamic Azad University, Lamerd 14696-69191, Iran."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Hosseini SA",
+          "lastName": "Hosseini",
+          "firstName": "Seyed Ali",
+          "initials": "SA",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-1767-4581"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Sport Physiology, Marvdasht Branch, Islamic Azad University, Marvdasht 73711-13119, Iran."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0002-8801-7717"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-1497-7528"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-1767-4581"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "4",
+      "volume": "12",
+      "journalIssueId": 3664780,
+      "dateOfPublication": "2023 Oct",
+      "monthOfPublication": 10,
+      "yearOfPublication": 2023,
+      "journal": {
+        "medlineAbbreviation": "Clin Nutr Res",
+        "title": "Clinical nutrition research",
+        "essn": "2287-3740",
+        "issn": "2287-3732",
+        "isoabbreviation": "Clin Nutr Res",
+        "nlmid": "101592483"
+      },
+      "printPublicationDate": "2023-10-01"
+    },
+    "pubYear": "2023",
+    "pageInfo": "320-335",
+    "abstractText": "Literature showed that soluble fiber has beneficial effects on cardiometabolic risk factors and leptin and adiponectin serum levels. Our aim in this meta-analysis was to determine the effect of soluble fiber supplementation on leptin and adiponectin serum levels. A systematic search was conducted using PubMed, Scopus, and ISI Web of Science for eligible trials up to December 2021. A random-effects model was used to pool calculated effect sizes. Our analysis showed that soluble fiber supplementation did not significantly affect adiponectin (standardized mean difference [SMD], -0.49 Hedges's, 95% confidence interval [CI], -1.20, 0.21, p value = 0.167; I<sup>2</sup> = 95.4, p value < 0.001) and leptin (SMD, -0.8 Hedges's, 95% CI, -1.70, 0.08, p value = 0.076; I<sup>2</sup> = 94.6, p value < 0.001) concentrations in comparison with placebo. However, in the subgroup, soluble fiber supplementation had a significant improvement in leptin concentration in overweight and obese patients (SMD, -0.22 Hedges's, 95% CI, -0.43, -0.01, p value = 0.048) and a non-significant beneficial effect in adiponectin level in female (SMD, 0.29 Hedges's, 95% CI, -0.13, 0.71, p value = 0.183) and diabetic patients (SMD, 0.32 Hedges's, 95% CI, -0.67, 1.32, p value = 0.526). A non-linear association between soluble fiber dosage and adiponectin (p<sub>non-linearity</sub> < 0.001) was observed. Soluble fiber supplementation could not change the circulatory leptin and adiponectin levels. However, beneficial effects were seen in overweight and obese leptin, and increases in adiponectin may also be observed in female and diabetic patients. Further studies are needed to confirm this results.",
+    "affiliation": "Department of Sport Physiology, Lamerd Branch, Islamic Azad University, Lamerd 14696-69191, Iran.",
+    "publicationStatus": "epublish",
+    "language": "eng",
+    "pubModel": "Electronic-eCollection",
+    "pubTypeList": {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "Department of Sports Physiology Lamerd Branch, Islamic Azad University",
+          "grantId": "162434145",
+          "orderIn": 0
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Leptin",
+        "Meta-analysis",
+        "adiponectin",
+        "Cardiometabolic Risk"
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "doi",
+          "site": "Unpaywall",
+          "url": "https://doi.org/10.7762/cnr.2023.12.4.320"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.7762/cnr.2023.12.4.320"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC10641331"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC10641331?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 2,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "license": "cc by-nc",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "doi"
+      ]
+    },
+    "dateOfCreation": "2023-11-16",
+    "dateOfRevision": "2023-11-17",
+    "electronicPublicationDate": "2023-10-30",
+    "firstPublicationDate": "2023-10-30",
+    "firstIndexDate": "2023-11-16",
+    "fullTextReceivedDate": "2023-11-17",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.7762%2Fcnr.2023.12.4.320%22&format=json&resultType=core",
+  "retrieved_on": "2026-10-26"
+}

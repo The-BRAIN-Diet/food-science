@@ -15,6 +15,13 @@ mechanisms:
   Methylation & One-Carbon Metabolism: 'Uridine can be converted to CTP and then toward CDP-choline for phosphatidylcholine. Endogenous synthesis and salvage also supply CTP.'
 list_image: /img/icons/bioactive.svg
 inchikey: DRTQHJPVMGBUCF-XVFCMESISA-N
+food_delivery_assessment:
+  review_date: '2026-10-26'
+  status: verified-qualitative
+  classification: B
+  sources:
+    - https://doi.org/10.3168/jds.S0022-0302(84)81361-2
+  admission_changed: false
 ---
 
 ## Overview
@@ -25,7 +32,7 @@ Uridine can be converted into CTP, which helps form the CDP-choline used to buil
 
 ## Dietary Origin
 
-The precursor role is biochemical: uridine can enter nucleotide metabolism that supplies CTP for CDP-choline [1]. The structural and phospholipid results used oral UMP, or uridine given with DHA, in gerbils [2,3]. Those are not servings of food, and UMP is not the same exposure as free uridine. No food page here has a measured uridine amount, so none is linked as a contains relationship.
+The precursor role is biochemical: uridine can enter nucleotide metabolism that supplies CTP for CDP-choline [1]. The structural and phospholipid results used oral UMP, or uridine given with DHA, in gerbils [2,3]. Those are not servings of food, and UMP is not the same exposure as free uridine. Milk now has source-specific qualitative provenance for free uridine; no general food amount or effective dose is inferred.
 
 ## Research Spotlights & Evidence Checks
 
@@ -46,6 +53,8 @@ Cytidine or uridine can raise striatal CDP-choline without lowering acetylcholin
 
 ## Foods
 
+Bovine milk contains free uridine [4]. This is distinct from UMP and from total potentially available nucleosides.
+
 <SubstanceFoods tag="Uridine" />
 
 ## Biological Regulatory Systems
@@ -62,3 +71,5 @@ Cytidine or uridine can raise striatal CDP-choline without lowering acetylcholin
 [2] Cansev et al. (2005). [Oral uridine-5-monophosphate (UMP) increases brain CDP-choline levels in gerbils](/docs/papers/BRAIN-Diet-References#cansev_ump_cdp_choline_2005). Oral UMP, the phosphorylated form, raised brain CDP-choline in gerbils. UMP alone did not significantly increase spine density.
 
 [3] Wurtman et al. (2006). [Synaptic proteins and phospholipids are increased in gerbil brain by administering uridine plus docosahexaenoic acid orally](/docs/papers/BRAIN-Diet-References#wurtman_uridine_dha_phospholipids_2006). The phospholipid and synaptic-protein increase is a uridine-plus-DHA combination in gerbils, not uridine alone and not a human cognitive result.
+
+[4] [Tiemeyer et al. (1984), Metabolites of nucleic acids in bovine milk](/docs/papers/BRAIN-Diet-References#tiemeyer_milk_nucleic_metabolites_1984). Food-composition provenance; PM evidence and admission remain separate.

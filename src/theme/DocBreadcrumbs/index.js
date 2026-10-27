@@ -78,8 +78,10 @@ export function pmFinalBreadcrumbLabel(pmId, label, pathname) {
   if (!PUBLISHED_BRS_PM_PATH.test(`${path}/`)) {
     return label;
   }
-  const prefix = `PM${pmNumber} — `;
-  const text = label ?? '';
+  const numeric = String(pmId).match(/^BRS(\d+)-FM(\d+)-PM(\d+)$/);
+  const readerId = numeric ? `BRS${numeric[1]}-${numeric[2]}-${numeric[3]}` : String(pmId);
+  const prefix = `${readerId} — `;
+  const text = String(label ?? '').replace(new RegExp(`^(?:${String(pmId).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}|PM${pmNumber}|${readerId.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})\\s*[—–-]\\s*`), '');
   if (text.startsWith(prefix)) {
     return text;
   }

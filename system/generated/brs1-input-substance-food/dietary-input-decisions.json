@@ -11,11 +11,9 @@
     "relationship_id": "BRS1-FM1-PM1::PM1-DIT-4",
     "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx#dietary_input_traceability/PM1-DIT-4",
     "input": "Tyrosine",
-    "dietary_input": null,
-    "note": "Accepted precursor/transport role, but this entry does not explicitly establish its dietary supply route. Clarification required; not defaulted to No.",
-    "flags": [
-      "dietary-supply-unresolved"
-    ]
+    "dietary_input": true,
+    "note": "2026-10-26 recovery: admitted Type A capacity under the functional-dependency and dietary-supply gate. The original biochemical-only record and its rationale are preserved in the recovery history. No additional-intake efficacy is asserted.",
+    "flags": []
   },
   {
     "relationship_id": "BRS1-FM1-PM1::PM1-DIT-5",
@@ -140,6 +138,30 @@
     "flags": []
   },
   {
+    "relationship_id": "BRS1-FM1-PM3::PM3-DIT-RECOVERY-FAD",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-FAD",
+    "input": "Flavin adenine dinucleotide",
+    "dietary_input": false,
+    "note": "Target of the separately admitted riboflavin activation route; not duplicated as a primary dietary presentation.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM3::PM3-DIT-RECOVERY-VITAMIN-B2",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-VITAMIN-B2",
+    "input": "Vitamin B2",
+    "dietary_input": true,
+    "note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition does not establish an effective intervention dose.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM3::PM3-DIT-RECOVERY-MAGNESIUM",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-MAGNESIUM",
+    "input": "Magnesium",
+    "dietary_input": true,
+    "note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition does not establish an effective intervention dose.",
+    "flags": []
+  },
+  {
     "relationship_id": "BRS1-FM1-PM4::BRS1-PM4-BRS1-KC1-PRECURSOR",
     "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#pm_kc_relationships/BRS1-PM4-BRS1-KC1-PRECURSOR",
     "input": "Monoamine precursor supply",
@@ -238,6 +260,30 @@
     "flags": []
   },
   {
+    "relationship_id": "BRS1-FM1-PM4::PM4-DIT-RECOVERY-FAD",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-DIT-RECOVERY-FAD",
+    "input": "Flavin adenine dinucleotide",
+    "dietary_input": false,
+    "note": "Target of the separately admitted riboflavin activation route; not duplicated as a primary dietary presentation.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM4::PM4-DIT-RECOVERY-VITAMIN-B2",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-DIT-RECOVERY-VITAMIN-B2",
+    "input": "Vitamin B2",
+    "dietary_input": true,
+    "note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition does not establish an effective intervention dose.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM4::PM4-DIT-RECOVERY-MAGNESIUM",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-DIT-RECOVERY-MAGNESIUM",
+    "input": "Magnesium",
+    "dietary_input": true,
+    "note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition does not establish an effective intervention dose.",
+    "flags": []
+  },
+  {
     "relationship_id": "BRS1-FM1-PM5::PM5-DIT-1",
     "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-1",
     "input": "Tryptophan",
@@ -277,6 +323,22 @@
     "input": "Tetrahydrobiopterin (BH4)",
     "dietary_input": false,
     "note": "Accepted intracellular/endogenous participant; no dietary supply relationship is admitted for this entry in this PM.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM5::PM5-DIT-RECOVERY-FAD",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-RECOVERY-FAD",
+    "input": "Flavin adenine dinucleotide",
+    "dietary_input": false,
+    "note": "Target of the separately admitted riboflavin activation route; not duplicated as a primary dietary presentation.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM5::PM5-DIT-RECOVERY-VITAMIN-B2",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-RECOVERY-VITAMIN-B2",
+    "input": "Vitamin B2",
+    "dietary_input": true,
+    "note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition does not establish an effective intervention dose.",
     "flags": []
   },
   {
@@ -320,6 +382,14 @@
     "flags": []
   },
   {
+    "relationship_id": "BRS1-FM2-PM6::PM6-DIT-RECOVERY-SODIUM",
+    "source_record": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx#dietary_input_traceability/PM6-DIT-RECOVERY-SODIUM",
+    "input": "Sodium",
+    "dietary_input": true,
+    "note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition does not establish an effective intervention dose.",
+    "flags": []
+  },
+  {
     "relationship_id": "BRS1-FM3-PM7::BRS1-PM7-BRS2-KC1-SUPPLY",
     "source_record": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx#pm_kc_relationships/BRS1-PM7-BRS2-KC1-SUPPLY",
     "input": "Methyl-derived DHA-carrier supply",
@@ -357,6 +427,38 @@
     "input": "Betaine",
     "dietary_input": true,
     "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM3-PM7::PM7-DIT-RECOVERY-SODIUM",
+    "source_record": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx#dietary_input_traceability/PM7-DIT-RECOVERY-SODIUM",
+    "input": "Sodium",
+    "dietary_input": true,
+    "note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition does not establish an effective intervention dose.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM4-PM10::PM10-DIT-RECOVERY-SODIUM",
+    "source_record": "docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling.mdx#dietary_input_traceability/PM10-DIT-RECOVERY-SODIUM",
+    "input": "Sodium",
+    "dietary_input": true,
+    "note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition does not establish an effective intervention dose.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM4-PM10::PM10-DIT-RECOVERY-POTASSIUM",
+    "source_record": "docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling.mdx#dietary_input_traceability/PM10-DIT-RECOVERY-POTASSIUM",
+    "input": "Potassium",
+    "dietary_input": true,
+    "note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition does not establish an effective intervention dose.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM4-PM11::PM11-DIT-RECOVERY-MAGNESIUM",
+    "source_record": "docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx#dietary_input_traceability/PM11-DIT-RECOVERY-MAGNESIUM",
+    "input": "Magnesium",
+    "dietary_input": true,
+    "note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition does not establish an effective intervention dose.",
     "flags": []
   },
   {

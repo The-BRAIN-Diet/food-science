@@ -1,0 +1,19 @@
+# Accepted BRS-X input inventory
+
+Generated from structured PM/KC records; excludes SOPs, lifestyle, tags and narrative admission.
+
+| Relationship ID | PM | Input | Accounting | Substance | Upstream / pool | Qualification |
+| --- | --- | --- | --- | --- | --- | --- |
+| BRS-X(ECS-PM1)::PM1-DIT-1 | BRS-X(ECS-PM1) | N-acyl phosphatidylethanolamines (NAPEs) | E Endogenous/biochemical dependency | unresolved-identity |  | unresolved-identity Biochemical context/accounting retained independently of dietary-input applicability.  |
+| BRS-X(ECS-PM1)::PM1-DIT-2 | BRS-X(ECS-PM1) | Phosphatidylethanolamine | E Endogenous/biochemical dependency | phosphatidylethanolamine |  | Biochemical context/accounting retained independently of dietary-input applicability.  |
+| BRS-X(ECS-PM1)::PM1-DIT-3 | BRS-X(ECS-PM1) | Zinc | A PM-owned dietary relationship | zinc |  | 2026-10-26 recovery: admitted Type A capacity under the functional-dependency and dietary-supply gate. The original biochemical-only record and its rationale are preserved in the recovery history. No additional-intake efficacy is asserted. |
+| BRS-X(ECS-PM2)::PM2-DIT-1 | BRS-X(ECS-PM2) | DHA (Docosahexaenoic Acid) | A PM-owned dietary relationship | dha-docosahexaenoic-acid |  | 2026-10-26: existing Direct capacity overlay and canonical source record retained; missing dietary-applicability field resolved under an explicit Type A assessment. Direct is relative to ethanolamide production, not direct metabolite content of food. |
+| BRS-X(ECS-PM2)::PM2-DIT-2 | BRS-X(ECS-PM2) | EPA (Eicosapentaenoic Acid) | A PM-owned dietary relationship | epa-eicosapentaenoic-acid |  | 2026-10-26: existing Direct capacity overlay and canonical source record retained; missing dietary-applicability field resolved under an explicit Type A assessment. Direct is relative to ethanolamide production, not direct metabolite content of food. |
+| BRS-X(ECS-PM3)::PM3-DIT-1 | BRS-X(ECS-PM3) | Anandamide (AEA) | E Endogenous/biochemical dependency | unresolved-identity |  | unresolved-identity Biochemical context/accounting retained independently of dietary-input applicability.  |
+| BRS-X(ECS-PM4)::PM4-DIT-1 | BRS-X(ECS-PM4) | 2-Arachidonoylglycerol (2-AG) | E Endogenous/biochemical dependency | unresolved-identity |  | unresolved-identity Biochemical context/accounting retained independently of dietary-input applicability.  |
+| BRS-X(Hormones-PM2)::PM2-DIT-1 | BRS-X(Hormones-PM2) | Estrogen glucuronides | E Endogenous/biochemical dependency | unresolved-identity |  | unresolved-identity Biochemical context/accounting retained independently of dietary-input applicability.  |
+| BRS-X(Hormones-PM3)::PM3-DIT-1 | BRS-X(Hormones-PM3) | 3α,5α-Tetrahydrodeoxycorticosterone (THDOC) | E Endogenous/biochemical dependency | unresolved-identity |  | unresolved-identity Biochemical context/accounting retained independently of dietary-input applicability.  |
+| BRS-X(Hormones-PM3)::PM3-DIT-2 | BRS-X(Hormones-PM3) | Molecular hydrogen (H₂) | E Endogenous/biochemical dependency | unresolved-identity |  | unresolved-identity Biochemical context/accounting retained independently of dietary-input applicability.  |
+| BRS-X(Hormones-PM5)::PM5-DIT-1 | BRS-X(Hormones-PM5) | Zinc | A PM-owned dietary relationship | zinc |  |  |
+| BRS-X(Hormones-PM5)::PM5-DIT-RECOVERY-ZINC-RECEPTOR | BRS-X(Hormones-PM5) | Zinc | A PM-owned dietary relationship | zinc |  | 2026-10-26 Type A/Direct adjudication for a distinct receptor-structural proposition. PM5-DIT-1 and SF1 retain the separate historical ligand-supply evidence; no automatic acceptance of its receptor or behavioural extrapolation. |
+| BRS-X(Hormones-PM6)::PM6-DIT-1 | BRS-X(Hormones-PM6) | Androgen glucuronides | E Endogenous/biochemical dependency | unresolved-identity |  | unresolved-identity Biochemical context/accounting retained independently of dietary-input applicability.  |

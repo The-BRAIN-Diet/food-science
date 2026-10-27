@@ -1,0 +1,532 @@
+{
+  "citation_key": "allaire_compared_2016",
+  "doi": "10.3945/ajcn.116.131896",
+  "metadata": {
+    "id": "27281302",
+    "source": "MED",
+    "pmid": "27281302",
+    "doi": "10.3945/ajcn.116.131896",
+    "title": "A randomized, crossover, head-to-head comparison of eicosapentaenoic acid and docosahexaenoic acid supplementation to reduce inflammation markers in men and women: the Comparing EPA to DHA (ComparED) Study.",
+    "authorString": "Allaire J, Couture P, Leclerc M, Charest A, Marin J, L\u00e9pine MC, Talbot D, Tchernof A, Lamarche B.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Allaire J",
+          "lastName": "Allaire",
+          "firstName": "Janie",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Institute of Nutrition and Functional Foods, Pavillon des Services."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Couture P",
+          "lastName": "Couture",
+          "firstName": "Patrick",
+          "initials": "P",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-8414-3847"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Institute of Nutrition and Functional Foods, Pavillon des Services, University Hospital Center (CHU) of Qu\u00e9bec Research Center, and."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Leclerc M",
+          "lastName": "Leclerc",
+          "firstName": "Myriam",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Institute of Nutrition and Functional Foods, Pavillon des Services."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Charest A",
+          "lastName": "Charest",
+          "firstName": "Am\u00e9lie",
+          "initials": "A",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Institute of Nutrition and Functional Foods, Pavillon des Services."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Marin J",
+          "lastName": "Marin",
+          "firstName": "Johanne",
+          "initials": "J",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Institute of Nutrition and Functional Foods, Pavillon des Services."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "L\u00e9pine MC",
+          "lastName": "L\u00e9pine",
+          "firstName": "Marie-Claude",
+          "initials": "MC",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Institute of Nutrition and Functional Foods, Pavillon des Services."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Talbot D",
+          "lastName": "Talbot",
+          "firstName": "Denis",
+          "initials": "D",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-0431-3314"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "University Hospital Center (CHU) of Qu\u00e9bec Research Center, and Department of Social and Preventive Medicine, Laval University, Quebec, Canada; and."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Tchernof A",
+          "lastName": "Tchernof",
+          "firstName": "Andr\u00e9",
+          "initials": "A",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-2587-1000"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Institute of Nutrition and Functional Foods, Pavillon des Services, University Hospital Center (CHU) of Qu\u00e9bec Research Center, and Quebec Heart and Lung Institute, Quebec, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Lamarche B",
+          "lastName": "Lamarche",
+          "firstName": "Beno\u00eet",
+          "initials": "B",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-4443-5378"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Institute of Nutrition and Functional Foods, Pavillon des Services, benoit.lamarche@fsaa.ulaval.ca."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0002-2587-1000"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-4443-5378"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-8414-3847"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-0431-3314"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "2",
+      "volume": "104",
+      "journalIssueId": 2435732,
+      "dateOfPublication": "2016 Aug",
+      "monthOfPublication": 8,
+      "yearOfPublication": 2016,
+      "journal": {
+        "medlineAbbreviation": "Am J Clin Nutr",
+        "title": "The American journal of clinical nutrition",
+        "essn": "1938-3207",
+        "issn": "0002-9165",
+        "nlmid": "0376027",
+        "isoabbreviation": "Am J Clin Nutr"
+      },
+      "printPublicationDate": "2016-08-01"
+    },
+    "pubYear": "2016",
+    "pageInfo": "280-287",
+    "abstractText": "<h4>Background</h4>To date, most studies on the anti-inflammatory effects of eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA) in humans have used a mixture of the 2 fatty acids in various forms and proportions.<h4>Objectives</h4>We compared the effects of EPA supplementation with those of DHA supplementation (re-esterified triacylglycerol; 90% pure) on inflammation markers (primary outcome) and blood lipids (secondary outcome) in men and women at risk of cardiovascular disease.<h4>Design</h4>In a double-blind, randomized, crossover, controlled study, healthy men (n = 48) and women (n = 106) with abdominal obesity and low-grade systemic inflammation consumed 3 g/d of the following supplements for periods of 10 wk: 1) EPA (2.7 g/d), 2) DHA (2.7 g/d), and 3) corn oil as a control with each supplementation separated by a 9-wk washout period. Primary analyses assessed the difference in cardiometabolic outcomes between EPA and DHA.<h4>Results</h4>Supplementation with DHA compared with supplementation with EPA led to a greater reduction in interleukin-18 (IL-18) (-7.0% \u00b1 2.8% compared with -0.5% \u00b1 3.0%, respectively; P = 0.01) and a greater increase in adiponectin (3.1% \u00b1 1.6% compared with -1.2% \u00b1 1.7%, respectively; P < 0.001). Between DHA and EPA, changes in CRP (-7.9% \u00b1 5.0% compared with -1.8% \u00b1 6.5%, respectively; P = 0.25), IL-6 (-12.0% \u00b1 7.0% compared with -13.4% \u00b1 7.0%, respectively; P = 0.86), and tumor necrosis factor-\u03b1 (-14.8% \u00b1 5.1% compared with -7.6% \u00b1 10.2%, respectively; P = 0.63) were NS. DHA compared with EPA led to more pronounced reductions in triglycerides (-13.3% \u00b1 2.3% compared with -11.9% \u00b1 2.2%, respectively; P = 0.005) and the cholesterol:HDL-cholesterol ratio (-2.5% \u00b1 1.3% compared with 0.3% \u00b1 1.1%, respectively; P = 0.006) and greater increases in HDL cholesterol (7.6% \u00b1 1.4% compared with -0.7% \u00b1 1.1%, respectively; P < 0.0001) and LDL cholesterol (6.9% \u00b1 1.8% compared with 2.2% \u00b1 1.6%, respectively; P = 0.04). The increase in LDL-cholesterol concentrations for DHA compared with EPA was significant in men but not in women (P-treatment \u00d7 sex interaction = 0.046).<h4>Conclusions</h4>DHA is more effective than EPA in modulating specific markers of inflammation as well as blood lipids. Additional studies are needed to determine the effect of a long-term DHA supplementation per se on cardiovascular disease risk. This trial was registered at clinicaltrials.gov as NCT01810003.",
+    "affiliation": "Institute of Nutrition and Functional Foods, Pavillon des Services.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Inflammation",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "DT",
+                "qualifierName": "drug therapy"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Cholesterol",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Docosahexaenoic Acids",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PD",
+                "qualifierName": "pharmacology"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "TU",
+                "qualifierName": "therapeutic use"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Eicosapentaenoic Acid",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PD",
+                "qualifierName": "pharmacology"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "TU",
+                "qualifierName": "therapeutic use"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Triglycerides",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Tumor Necrosis Factor-alpha",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "C-Reactive Protein",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Interleukin-18",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Cytokines",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Cross-Over Studies"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Double-Blind Method"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Dietary Supplements"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Middle Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adiponectin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Biomarkers",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Inflammation",
+        "DHA",
+        "EPA",
+        "Randomized controlled trial",
+        "risk factors",
+        "Men And Women"
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "adiponectin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "C-Reactive Protein",
+          "registryNumber": "9007-41-4"
+        },
+        {
+          "name": "Triglycerides",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Docosahexaenoic Acids",
+          "registryNumber": "25167-62-8"
+        },
+        {
+          "name": "Cytokines",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Tumor Necrosis Factor-alpha",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Interleukin-18",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Cholesterol",
+          "registryNumber": "97C5T2UQ7J"
+        },
+        {
+          "name": "Eicosapentaenoic Acid",
+          "registryNumber": "AAN7QOV9EA"
+        },
+        {
+          "name": "Biomarkers",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://academic.oup.com/ajcn/article-pdf/104/2/280/23773387/ajcn131896.pdf"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.3945/ajcn.116.131896"
+        }
+      ]
+    },
+    "commentCorrectionList": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "27629056",
+          "reference": "Am J Clin Nutr. 2016 Oct;104(4):951-952. doi: 10.3945/ajcn.116.143339",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 193,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "nct"
+      ]
+    },
+    "dateOfCompletion": "2017-05-31",
+    "dateOfCreation": "2016-06-10",
+    "dateOfRevision": "2023-03-18",
+    "electronicPublicationDate": "2016-06-08",
+    "firstPublicationDate": "2016-06-08",
+    "firstIndexDate": "2016-06-10",
+    "hasEvaluations": "N"
+  }
+}

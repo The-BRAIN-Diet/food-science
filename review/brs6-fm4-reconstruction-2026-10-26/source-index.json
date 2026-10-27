@@ -1,0 +1,5166 @@
+[
+  {
+    "citation_key": "de_kloet_adipocyte_gr_2015",
+    "doi": "10.1016/j.psyneuen.2015.03.008",
+    "label": "de Kloet et al. (2015)",
+    "publication_class": "primary",
+    "metadata": {
+      "id": "25808702",
+      "source": "MED",
+      "pmid": "25808702",
+      "pmcid": "PMC4511277",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4511277"
+        ]
+      },
+      "doi": "10.1016/j.psyneuen.2015.03.008",
+      "title": "Adipocyte glucocorticoid receptors mediate fat-to-brain signaling.",
+      "authorString": "de Kloet AD, Krause EG, Solomon MB, Flak JN, Scott KA, Kim DH, Myers B, Ulrich-Lai YM, Woods SC, Seeley RJ, Herman JP.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "de Kloet AD",
+            "lastName": "de Kloet",
+            "firstName": "Annette D",
+            "initials": "AD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7213-6957"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry and Behavioral Neuroscience, University of Cincinnati College of Medicine, Cincinnati, OH 45237, USA; Graduate Program in Neuroscience, University of Cincinnati, Cincinnati, 45237, USA; Department of Physiology and Functional Genomics, University of Florida College of Medicine, Gainesville, FL 32611, USA. Electronic address: adekloet@ufl.edu."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Krause EG",
+            "lastName": "Krause",
+            "firstName": "Eric G",
+            "initials": "EG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2718-3113"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacodynamics, University of Florida College of Pharmacy, Gainesville, FL 32610, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Solomon MB",
+            "lastName": "Solomon",
+            "firstName": "Matia B",
+            "initials": "MB",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6669-4525"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry and Behavioral Neuroscience, University of Cincinnati College of Medicine, Cincinnati, OH 45237, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Flak JN",
+            "lastName": "Flak",
+            "firstName": "Jonathan N",
+            "initials": "JN",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3433-4602"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry and Behavioral Neuroscience, University of Cincinnati College of Medicine, Cincinnati, OH 45237, USA; Graduate Program in Neuroscience, University of Cincinnati, Cincinnati, 45237, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Scott KA",
+            "lastName": "Scott",
+            "firstName": "Karen A",
+            "initials": "KA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4133-423X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry and Behavioral Neuroscience, University of Cincinnati College of Medicine, Cincinnati, OH 45237, USA; Graduate Program in Neuroscience, University of Cincinnati, Cincinnati, 45237, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kim DH",
+            "lastName": "Kim",
+            "firstName": "Dong-Hoon",
+            "initials": "DH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, Korea University College of Medicine, Seoul, Republic of Korea."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Myers B",
+            "lastName": "Myers",
+            "firstName": "Brent",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry and Behavioral Neuroscience, University of Cincinnati College of Medicine, Cincinnati, OH 45237, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ulrich-Lai YM",
+            "lastName": "Ulrich-Lai",
+            "firstName": "Yvonne M",
+            "initials": "YM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry and Behavioral Neuroscience, University of Cincinnati College of Medicine, Cincinnati, OH 45237, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Woods SC",
+            "lastName": "Woods",
+            "firstName": "Stephen C",
+            "initials": "SC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry and Behavioral Neuroscience, University of Cincinnati College of Medicine, Cincinnati, OH 45237, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Seeley RJ",
+            "lastName": "Seeley",
+            "firstName": "Randy J",
+            "initials": "RJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3721-5625"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Surgery, University of Michigan School of Medicine, Ann Arbor, MI 48109, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Herman JP",
+            "lastName": "Herman",
+            "firstName": "James P",
+            "initials": "JP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry and Behavioral Neuroscience, University of Cincinnati College of Medicine, Cincinnati, OH 45237, USA. Electronic address: james.herman@uc.edu."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6669-4525"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2718-3113"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3433-4602"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3721-5625"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4133-423X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7213-6957"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data",
+          "recommended_reviews"
+        ]
+      },
+      "journalInfo": {
+        "volume": "56",
+        "journalIssueId": 2276083,
+        "dateOfPublication": "2015 Jun",
+        "monthOfPublication": 6,
+        "yearOfPublication": 2015,
+        "journal": {
+          "medlineAbbreviation": "Psychoneuroendocrinology",
+          "title": "Psychoneuroendocrinology",
+          "essn": "1873-3360",
+          "issn": "0306-4530",
+          "isoabbreviation": "Psychoneuroendocrinology",
+          "nlmid": "7612148"
+        },
+        "printPublicationDate": "2015-06-01"
+      },
+      "pubYear": "2015",
+      "pageInfo": "110-119",
+      "affiliation": "Department of Psychiatry and Behavioral Neuroscience, University of Cincinnati College of Medicine, Cincinnati, OH 45237, USA; Graduate Program in Neuroscience, University of Cincinnati, Cincinnati, 45237, USA; Department of Physiology and Functional Genomics, University of Florida College of Medicine, Gainesville, FL 32611, USA. Electronic address: adekloet@ufl.edu.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NIMH NIH HHS",
+            "acronym": "MH",
+            "grantId": "R01 MH069860",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIMH NIH HHS",
+            "acronym": "MH",
+            "grantId": "R01 MH049698",
+            "orderIn": 0
+          },
+          {
+            "agency": "NINDS NIH HHS",
+            "acronym": "NS",
+            "grantId": "NS068122",
+            "orderIn": 0
+          },
+          {
+            "agency": "NINDS NIH HHS",
+            "acronym": "NS",
+            "grantId": "F31 NS068122",
+            "orderIn": 0
+          },
+          {
+            "agency": "NHLBI NIH HHS",
+            "acronym": "HL",
+            "grantId": "HL096830",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIMH NIH HHS",
+            "acronym": "MH",
+            "grantId": "MH049698",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIDDK NIH HHS",
+            "acronym": "DK",
+            "grantId": "P30 DK020572",
+            "orderIn": 0
+          },
+          {
+            "agency": "NHLBI NIH HHS",
+            "acronym": "HL",
+            "grantId": "R01 HL122494",
+            "orderIn": 0
+          },
+          {
+            "agency": "NHLBI NIH HHS",
+            "acronym": "HL",
+            "grantId": "K99 HL096830",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIMH NIH HHS",
+            "acronym": "MH",
+            "grantId": "MH069860",
+            "orderIn": 0
+          },
+          {
+            "agency": "NHLBI NIH HHS",
+            "acronym": "HL",
+            "grantId": "R00 HL096830",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Pituitary-Adrenal System",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hypothalamo-Hypophyseal System",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Brain",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adipose Tissue",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adipocytes",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Animals"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Mice, Inbred C57BL"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Mice"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Obesity",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Body Weight"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hydrocortisone",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Neuropeptides",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Receptors, Glucocorticoid",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Diet"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Stress, Psychological",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Signal Transduction",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Body Composition"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Energy Metabolism",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Eating"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adrenocorticotropic Hormone",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Diet, High-Fat"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Stress",
+          "Obesity",
+          "Corticosterone",
+          "Adipose",
+          "Hypothalamic\u2013pituitary\u2013adrenal Axis"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Receptors, Glucocorticoid",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Neuropeptides",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Adrenocorticotropic Hormone",
+            "registryNumber": "9002-60-2"
+          },
+          {
+            "name": "Hydrocortisone",
+            "registryNumber": "WI4X0X7BPJ"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1016/j.psyneuen.2015.03.008"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4511277"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4511277?pdf=render"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1016/j.psyneuen.2015.03.008"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 36,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "Y",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "Y",
+      "manuscriptId": "NIHMS671473",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2016-01-05",
+      "dateOfCreation": "2015-03-27",
+      "dateOfRevision": "2020-05-07",
+      "electronicPublicationDate": "2015-03-12",
+      "firstPublicationDate": "2015-03-12",
+      "firstIndexDate": "2015-03-27",
+      "fullTextReceivedDate": "2025-02-05",
+      "hasEvaluations": "N"
+    },
+    "retrieved_on": "2026-10-26",
+    "retrieval_scope": "Scite complete body, Methods, Results, Discussion and figure captions",
+    "editorial_notice_check": "Scite indexed notices inspected; no notices reported for checked core records. Not proof of literature-wide absence."
+  },
+  {
+    "citation_key": "de_kloet_fat_brain_2018",
+    "doi": "10.1016/j.yfrne.2017.10.005",
+    "label": "de Kloet & Herman (2018; online 2017)",
+    "publication_class": "secondary",
+    "metadata": {
+      "id": "29042142",
+      "source": "MED",
+      "pmid": "29042142",
+      "doi": "10.1016/j.yfrne.2017.10.005",
+      "title": "Fat-brain connections: Adipocyte glucocorticoid control of stress and metabolism.",
+      "authorString": "de Kloet AD, Herman JP.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "de Kloet AD",
+            "lastName": "de Kloet",
+            "firstName": "Annette D",
+            "initials": "AD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7213-6957"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology and Functional Genomics, University of Florida, Gainesville, FL 32611, United States."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Herman JP",
+            "lastName": "Herman",
+            "firstName": "James P",
+            "initials": "JP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Psychiatry and Behavioral Neuroscience, University of Cincinnati, Cincinnati, OH 45237, United States. Electronic address: james.herman@uc.edu."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7213-6957"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "volume": "48",
+        "journalIssueId": 2649168,
+        "dateOfPublication": "2018 Jan",
+        "monthOfPublication": 1,
+        "yearOfPublication": 2018,
+        "journal": {
+          "medlineAbbreviation": "Front Neuroendocrinol",
+          "title": "Frontiers in neuroendocrinology",
+          "essn": "1095-6808",
+          "issn": "0091-3022",
+          "isoabbreviation": "Front Neuroendocrinol",
+          "nlmid": "7513292"
+        },
+        "printPublicationDate": "2018-01-01"
+      },
+      "pubYear": "2018",
+      "pageInfo": "50-57",
+      "affiliation": "Department of Physiology and Functional Genomics, University of Florida, Gainesville, FL 32611, United States.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "University of Cincinnati Neurobiology Research Center",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Pituitary-Adrenal System",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hypothalamo-Hypophyseal System",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adipocytes",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Animals"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Receptors, Glucocorticoid",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Stress, Psychological",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Stress, Physiological",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Adipocytes",
+          "Negative feedback",
+          "Glucocorticoid receptors",
+          "Adipokines",
+          "vagus nerve",
+          "Hpa Axis",
+          "Lipolysis"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Receptors, Glucocorticoid",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1016/j.yfrne.2017.10.005"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 34,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2019-01-03",
+      "dateOfCreation": "2017-10-19",
+      "dateOfRevision": "2019-01-03",
+      "electronicPublicationDate": "2017-10-16",
+      "firstPublicationDate": "2017-10-16",
+      "firstIndexDate": "2017-10-18",
+      "hasEvaluations": "N"
+    },
+    "retrieved_on": "2026-10-26",
+    "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+    "editorial_notice_check": "Scite indexed notices inspected; no notices reported for checked core records. Not proof of literature-wide absence."
+  },
+  {
+    "citation_key": "scheja_adipose_endocrine_2019",
+    "doi": "10.1038/s41574-019-0230-6",
+    "label": "Scheja & Heeren (2019)",
+    "publication_class": "secondary",
+    "metadata": {
+      "id": "31296970",
+      "source": "MED",
+      "pmid": "31296970",
+      "doi": "10.1038/s41574-019-0230-6",
+      "title": "The endocrine function of adipose tissues in health and cardiometabolic disease.",
+      "authorString": "Scheja L, Heeren J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Scheja L",
+            "lastName": "Scheja",
+            "firstName": "Ludger",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Cell Biology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Heeren J",
+            "lastName": "Heeren",
+            "firstName": "Joerg",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5647-1034"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Cell Biology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany. heeren@uke.de."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5647-1034"
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "9",
+        "volume": "15",
+        "journalIssueId": 2847622,
+        "dateOfPublication": "2019 Sep",
+        "monthOfPublication": 9,
+        "yearOfPublication": 2019,
+        "journal": {
+          "medlineAbbreviation": "Nat Rev Endocrinol",
+          "title": "Nature reviews. Endocrinology",
+          "essn": "1759-5037",
+          "issn": "1759-5029",
+          "isoabbreviation": "Nat Rev Endocrinol",
+          "nlmid": "101500078"
+        },
+        "printPublicationDate": "2019-09-01"
+      },
+      "pubYear": "2019",
+      "pageInfo": "507-524",
+      "affiliation": "Department of Biochemistry and Molecular Cell Biology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adipose Tissue",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Animals"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Heart Diseases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PP",
+                  "qualifierName": "physiopathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Metabolic Diseases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PP",
+                  "qualifierName": "physiopathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Endocrine System Diseases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PP",
+                  "qualifierName": "physiopathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hormones",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Health Status"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adipokines",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Hormones",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Adipokines",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1038/s41574-019-0230-6"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 523,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2020-02-26",
+      "dateOfCreation": "2019-07-13",
+      "dateOfRevision": "2026-10-10",
+      "electronicPublicationDate": "2019-07-11",
+      "firstPublicationDate": "2019-07-11",
+      "firstIndexDate": "2019-07-13",
+      "hasEvaluations": "N"
+    },
+    "retrieved_on": "2026-10-26",
+    "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+    "editorial_notice_check": "Scite indexed notices inspected; no notices reported for checked core records. Not proof of literature-wide absence."
+  },
+  {
+    "citation_key": "tsuji_adipose_hub_2026",
+    "doi": "10.1038/s41574-026-01265-6",
+    "label": "Tsuji & Tseng (2026)",
+    "publication_class": "secondary",
+    "metadata": {
+      "id": "42286355",
+      "source": "MED",
+      "pmid": "42286355",
+      "doi": "10.1038/s41574-026-01265-6",
+      "title": "Adipose tissue as a humoral-neuronal hub in metabolic regulation.",
+      "authorString": "Tsuji T, Tseng YH.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tsuji T",
+            "lastName": "Tsuji",
+            "firstName": "Tadataka",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2837-8246"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Section on Integrative Physiology and Metabolism, Research Division, Joslin Diabetes Center, Harvard Medical School, Boston, MA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tseng YH",
+            "lastName": "Tseng",
+            "firstName": "Yu-Hua",
+            "initials": "YH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2053-9559"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Section on Integrative Physiology and Metabolism, Research Division, Joslin Diabetes Center, Harvard Medical School, Boston, MA, USA. yu-hua.tseng@joslin.harvard.edu."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2837-8246"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2053-9559"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "10",
+        "volume": "22",
+        "journalIssueId": 4260344,
+        "dateOfPublication": "2026 Oct",
+        "monthOfPublication": 10,
+        "yearOfPublication": 2026,
+        "journal": {
+          "medlineAbbreviation": "Nat Rev Endocrinol",
+          "title": "Nature reviews. Endocrinology",
+          "essn": "1759-5037",
+          "issn": "1759-5029",
+          "nlmid": "101500078",
+          "isoabbreviation": "Nat Rev Endocrinol"
+        },
+        "printPublicationDate": "2026-10-01"
+      },
+      "pubYear": "2026",
+      "pageInfo": "574-586",
+      "affiliation": "Section on Integrative Physiology and Metabolism, Research Division, Joslin Diabetes Center, Harvard Medical School, Boston, MA, USA.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NIDDK NIH HHS",
+            "acronym": "DK",
+            "grantId": "P30 DK040561",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Neurons",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Adipose Tissue",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Animals"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Energy Metabolism",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Thermogenesis",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adipose Tissue, White",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1038/s41574-026-01265-6"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2026-09-10",
+      "dateOfCreation": "2026-06-12",
+      "dateOfRevision": "2026-10-14",
+      "electronicPublicationDate": "2026-06-12",
+      "firstPublicationDate": "2026-06-12",
+      "firstIndexDate": "2026-06-13",
+      "hasEvaluations": "N"
+    },
+    "retrieved_on": "2026-10-26",
+    "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+    "editorial_notice_check": "Scite indexed notices inspected; no notices reported for checked core records. Not proof of literature-wide absence."
+  },
+  {
+    "citation_key": "sandeep_adipose_cortisol_2005",
+    "doi": "10.2337/diabetes.54.3.872",
+    "label": "Sandeep et al. (2005)",
+    "publication_class": "primary",
+    "metadata": {
+      "id": "15734867",
+      "source": "MED",
+      "pmid": "15734867",
+      "doi": "10.2337/diabetes.54.3.872",
+      "title": "Increased in vivo regeneration of cortisol in adipose tissue in human obesity and effects of the 11beta-hydroxysteroid dehydrogenase type 1 inhibitor carbenoxolone.",
+      "authorString": "Sandeep TC, Andrew R, Homer NZ, Andrews RC, Smith K, Walker BR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sandeep TC",
+            "lastName": "Sandeep",
+            "firstName": "Thekkepat C",
+            "initials": "TC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Endocrinology Unit, School of MolecularClinical Medicine, University of Edinburgh, Western General Hospital, Edinburgh, EH4 2XU, U.K."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Andrew R",
+            "lastName": "Andrew",
+            "firstName": "Ruth",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6916-2994"
+            }
+          },
+          {
+            "fullName": "Homer NZ",
+            "lastName": "Homer",
+            "firstName": "Natalie Z M",
+            "initials": "NZ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9262-2098"
+            }
+          },
+          {
+            "fullName": "Andrews RC",
+            "lastName": "Andrews",
+            "firstName": "Robert C",
+            "initials": "RC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4939-1738"
+            }
+          },
+          {
+            "fullName": "Smith K",
+            "lastName": "Smith",
+            "firstName": "Ken",
+            "initials": "K"
+          },
+          {
+            "fullName": "Walker BR",
+            "lastName": "Walker",
+            "firstName": "Brian R",
+            "initials": "BR"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6916-2994"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9262-2098"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4939-1738"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "related_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "3",
+        "volume": "54",
+        "journalIssueId": 1220816,
+        "dateOfPublication": "2005 Mar",
+        "monthOfPublication": 3,
+        "yearOfPublication": 2005,
+        "journal": {
+          "medlineAbbreviation": "Diabetes",
+          "title": "Diabetes",
+          "essn": "1939-327X",
+          "issn": "1939-327X",
+          "nlmid": "0372763",
+          "isoabbreviation": "Diabetes"
+        },
+        "printPublicationDate": "2005-03-01"
+      },
+      "pubYear": "2005",
+      "pageInfo": "872-879",
+      "affiliation": "Endocrinology Unit, School of MolecularClinical Medicine, University of Edinburgh, Western General Hospital, Edinburgh, EH4 2XU, U.K.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Clinical Trial",
+          "Research Support, Non-U.S. Gov't",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adipose Tissue",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Obesity",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PP",
+                  "qualifierName": "physiopathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Carbenoxolone",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PD",
+                  "qualifierName": "pharmacology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cortisone",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hydrocortisone",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "BI",
+                  "qualifierName": "biosynthesis"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Insulin",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "11-beta-Hydroxysteroid Dehydrogenase Type 1",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "AI",
+                  "qualifierName": "antagonists & inhibitors"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cross-Over Studies"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Double-Blind Method"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adult"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Middle Aged"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "11-beta-Hydroxysteroid Dehydrogenase Type 1",
+            "registryNumber": "EC 1.1.1.146"
+          },
+          {
+            "name": "Insulin",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Hydrocortisone",
+            "registryNumber": "WI4X0X7BPJ"
+          },
+          {
+            "name": "Carbenoxolone",
+            "registryNumber": "MM6384NG73"
+          },
+          {
+            "name": "Cortisone",
+            "registryNumber": "V27W9254FZ"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://diabetesjournals.org/diabetes/article-pdf/54/3/872/381756/zdb00305000872.pdf"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.2337/diabetes.54.3.872"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 152,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "CHEBI"
+        ]
+      },
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2005-04-22",
+      "dateOfCreation": "2005-03-01",
+      "dateOfRevision": "2019-05-16",
+      "firstPublicationDate": "2005-03-01",
+      "firstIndexDate": "2008-01-29",
+      "hasEvaluations": "N"
+    },
+    "retrieved_on": "2026-10-26",
+    "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+    "editorial_notice_check": "Scite indexed notices inspected; no notices reported for checked core records. Not proof of literature-wide absence."
+  },
+  {
+    "citation_key": "lee_leptin_adipose_2007",
+    "doi": "10.1152/ajpendo.00439.2006",
+    "label": "Lee et al. (2007)",
+    "publication_class": "primary",
+    "metadata": {
+      "id": "17122089",
+      "source": "MED",
+      "pmid": "17122089",
+      "doi": "10.1152/ajpendo.00439.2006",
+      "title": "Acute and chronic regulation of leptin synthesis, storage, and secretion by insulin and dexamethasone in human adipose tissue.",
+      "authorString": "Lee MJ, Wang Y, Ricci MR, Sullivan S, Russell CD, Fried SK.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Lee MJ",
+            "lastName": "Lee",
+            "firstName": "Mi-Jeong",
+            "initials": "MJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8171-7913"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Endocrinology, School of Medicine, University of Maryland, 660 West Redwood St., Baltimore, MD 21201, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang Y",
+            "lastName": "Wang",
+            "firstName": "Yanxin",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Ricci MR",
+            "lastName": "Ricci",
+            "firstName": "Matthew R",
+            "initials": "MR"
+          },
+          {
+            "fullName": "Sullivan S",
+            "lastName": "Sullivan",
+            "firstName": "Sean",
+            "initials": "S"
+          },
+          {
+            "fullName": "Russell CD",
+            "lastName": "Russell",
+            "firstName": "Colleen D",
+            "initials": "CD"
+          },
+          {
+            "fullName": "Fried SK",
+            "lastName": "Fried",
+            "firstName": "Susan K",
+            "initials": "SK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1101-9332"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8171-7913"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1101-9332"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "3",
+        "volume": "292",
+        "journalIssueId": 1381754,
+        "dateOfPublication": "2007 Mar",
+        "monthOfPublication": 3,
+        "yearOfPublication": 2007,
+        "journal": {
+          "medlineAbbreviation": "Am J Physiol Endocrinol Metab",
+          "title": "American journal of physiology. Endocrinology and metabolism",
+          "essn": "1522-1555",
+          "issn": "0193-1849",
+          "nlmid": "100901226",
+          "isoabbreviation": "Am J Physiol Endocrinol Metab"
+        },
+        "printPublicationDate": "2007-03-01"
+      },
+      "pubYear": "2007",
+      "pageInfo": "E858-64",
+      "affiliation": "Division of Endocrinology, School of Medicine, University of Maryland, 660 West Redwood St., Baltimore, MD 21201, USA.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Comparative Study",
+          "Research Support, Non-U.S. Gov't",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NIDDK NIH HHS",
+            "acronym": "DK",
+            "grantId": "DK-59823",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adipose Tissue",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "DE",
+                  "qualifierName": "drug effects"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Obesity",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PA",
+                  "qualifierName": "pathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Dexamethasone",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PD",
+                  "qualifierName": "pharmacology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Insulin",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PD",
+                  "qualifierName": "pharmacology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Leptin",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "AN",
+                  "qualifierName": "analysis"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BI",
+                  "qualifierName": "biosynthesis"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "RNA, Messenger",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "AN",
+                  "qualifierName": "analysis"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Body Mass Index"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Organ Culture Techniques"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cell Size"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Time Factors"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adipocytes, White",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "DE",
+                  "qualifierName": "drug effects"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "RNA, Messenger",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Leptin",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Insulin",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Dexamethasone",
+            "registryNumber": "7S5I7G3JQL"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1152/ajpendo.00439.2006"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 58,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2007-04-13",
+      "dateOfCreation": "2006-11-24",
+      "dateOfRevision": "2018-12-01",
+      "electronicPublicationDate": "2006-11-22",
+      "firstPublicationDate": "2006-11-22",
+      "firstIndexDate": "2008-01-29",
+      "hasEvaluations": "N"
+    },
+    "retrieved_on": "2026-10-26",
+    "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+    "editorial_notice_check": "Scite indexed notices inspected; no notices reported for checked core records. Not proof of literature-wide absence."
+  },
+  {
+    "citation_key": "degawa_adiponectin_2005",
+    "doi": "10.1038/oby.2005.74",
+    "label": "Degawa-Yamauchi et al. (2005)",
+    "publication_class": "primary",
+    "metadata": {
+      "id": "15897474",
+      "source": "MED",
+      "pmid": "15897474",
+      "doi": "10.1038/oby.2005.74",
+      "title": "Regulation of adiponectin expression in human adipocytes: effects of adiposity, glucocorticoids, and tumor necrosis factor alpha.",
+      "authorString": "Degawa-Yamauchi M, Moss KA, Bovenkerk JE, Shankar SS, Morrison CL, Lelliott CJ, Vidal-Puig A, Jones R, Considine RV.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Degawa-Yamauchi M",
+            "lastName": "Degawa-Yamauchi",
+            "firstName": "Mikako",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Endocrinology and Metabolism, Department of Medicine, Indiana University School of Medicine, 541 North Clinical Drive, Clinical Building 455, Indianapolis, IN 46202-5111, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Moss KA",
+            "lastName": "Moss",
+            "firstName": "Katherine A",
+            "initials": "KA"
+          },
+          {
+            "fullName": "Bovenkerk JE",
+            "lastName": "Bovenkerk",
+            "firstName": "Jason E",
+            "initials": "JE"
+          },
+          {
+            "fullName": "Shankar SS",
+            "lastName": "Shankar",
+            "firstName": "Sudha S",
+            "initials": "SS"
+          },
+          {
+            "fullName": "Morrison CL",
+            "lastName": "Morrison",
+            "firstName": "Charles L",
+            "initials": "CL"
+          },
+          {
+            "fullName": "Lelliott CJ",
+            "lastName": "Lelliott",
+            "firstName": "Christopher J",
+            "initials": "CJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8087-4530"
+            }
+          },
+          {
+            "fullName": "Vidal-Puig A",
+            "lastName": "Vidal-Puig",
+            "firstName": "Antonio",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4220-9577"
+            }
+          },
+          {
+            "fullName": "Jones R",
+            "lastName": "Jones",
+            "firstName": "RoseMarie",
+            "initials": "R"
+          },
+          {
+            "fullName": "Considine RV",
+            "lastName": "Considine",
+            "firstName": "Robert V",
+            "initials": "RV"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8087-4530"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4220-9577"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "4",
+        "volume": "13",
+        "journalIssueId": 1231302,
+        "dateOfPublication": "2005 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2005,
+        "journal": {
+          "medlineAbbreviation": "Obes Res",
+          "title": "Obesity research",
+          "essn": "1550-8528",
+          "issn": "1071-7323",
+          "isoabbreviation": "Obes Res",
+          "nlmid": "9305691"
+        },
+        "printPublicationDate": "2005-04-01"
+      },
+      "pubYear": "2005",
+      "pageInfo": "662-669",
+      "affiliation": "Division of Endocrinology and Metabolism, Department of Medicine, Indiana University School of Medicine, 541 North Clinical Drive, Clinical Building 455, Indianapolis, IN 46202-5111, USA.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Medical Research Council",
+            "acronym": "MRC_",
+            "grantId": "G0400192",
+            "orderIn": 0
+          },
+          {
+            "agency": "NCRR NIH HHS",
+            "acronym": "RR",
+            "grantId": "M01RR000750",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cells, Cultured"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adipocytes",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "DE",
+                  "qualifierName": "drug effects"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Obesity",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Dexamethasone",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PD",
+                  "qualifierName": "pharmacology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Leptin",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Tumor Necrosis Factor-alpha",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PD",
+                  "qualifierName": "pharmacology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "RNA, Messenger",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "AN",
+                  "qualifierName": "analysis"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Glucocorticoids",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PD",
+                  "qualifierName": "pharmacology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Body Mass Index"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Reverse Transcriptase Polymerase Chain Reaction"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Gene Expression Regulation",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "DE",
+                  "qualifierName": "drug effects"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Body Composition"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "RNA, Messenger",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Glucocorticoids",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Tumor Necrosis Factor-alpha",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Leptin",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Dexamethasone",
+            "registryNumber": "7S5I7G3JQL"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1038/oby.2005.74"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 145,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2005-11-21",
+      "dateOfCreation": "2005-05-18",
+      "dateOfRevision": "2025-05-29",
+      "firstPublicationDate": "2005-04-01",
+      "firstIndexDate": "2008-01-29",
+      "hasEvaluations": "N"
+    },
+    "retrieved_on": "2026-10-26",
+    "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+    "editorial_notice_check": "Scite indexed notices inspected; no notices reported for checked core records. Not proof of literature-wide absence."
+  },
+  {
+    "citation_key": "stimson_diet_cortisol_2007",
+    "doi": "10.1210/jc.2007-0692",
+    "label": "Stimson et al. (2007)",
+    "publication_class": "primary",
+    "metadata": {
+      "id": "17785367",
+      "source": "MED",
+      "pmid": "17785367",
+      "doi": "10.1210/jc.2007-0692",
+      "title": "Dietary macronutrient content alters cortisol metabolism independently of body weight changes in obese men.",
+      "authorString": "Stimson RH, Johnstone AM, Homer NZ, Wake DJ, Morton NM, Andrew R, Lobley GE, Walker BR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Stimson RH",
+            "lastName": "Stimson",
+            "firstName": "Roland H",
+            "initials": "RH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Endocrinology Unit, Centre for Cardiovascular Science, Queen's Medical Research Institute, University of Edinburgh, Edinburgh EH16 4TJ, United Kingdom. roland.stimson@ed.ac.uk"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Johnstone AM",
+            "lastName": "Johnstone",
+            "firstName": "Alexandra M",
+            "initials": "AM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5484-292X"
+            }
+          },
+          {
+            "fullName": "Homer NZ",
+            "lastName": "Homer",
+            "firstName": "Natalie Z M",
+            "initials": "NZ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9262-2098"
+            }
+          },
+          {
+            "fullName": "Wake DJ",
+            "lastName": "Wake",
+            "firstName": "Deborah J",
+            "initials": "DJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4376-6973"
+            }
+          },
+          {
+            "fullName": "Morton NM",
+            "lastName": "Morton",
+            "firstName": "Nicholas M",
+            "initials": "NM"
+          },
+          {
+            "fullName": "Andrew R",
+            "lastName": "Andrew",
+            "firstName": "Ruth",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6916-2994"
+            }
+          },
+          {
+            "fullName": "Lobley GE",
+            "lastName": "Lobley",
+            "firstName": "Gerald E",
+            "initials": "GE"
+          },
+          {
+            "fullName": "Walker BR",
+            "lastName": "Walker",
+            "firstName": "Brian R",
+            "initials": "BR"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5484-292X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6916-2994"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9262-2098"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4376-6973"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "11",
+        "volume": "92",
+        "journalIssueId": 1479583,
+        "dateOfPublication": "2007 Nov",
+        "monthOfPublication": 11,
+        "yearOfPublication": 2007,
+        "journal": {
+          "medlineAbbreviation": "J Clin Endocrinol Metab",
+          "title": "The Journal of clinical endocrinology and metabolism",
+          "essn": "1945-7197",
+          "issn": "0021-972X",
+          "isoabbreviation": "J Clin Endocrinol Metab",
+          "nlmid": "0375362"
+        },
+        "printPublicationDate": "2007-11-01"
+      },
+      "pubYear": "2007",
+      "pageInfo": "4480-4484",
+      "affiliation": "Endocrinology Unit, Centre for Cardiovascular Science, Queen's Medical Research Institute, University of Edinburgh, Edinburgh EH16 4TJ, United Kingdom. roland.stimson@ed.ac.uk",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Liver",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adipose Tissue",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Obesity",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Body Weight",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hydrocortisone",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "UR",
+                  "qualifierName": "urine"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Insulin",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Blood Glucose",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Glucocorticoids",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Anthropometry"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Body Mass Index"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Diet"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cross-Over Studies"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Body Composition",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Energy Intake"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Homeostasis",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Eating"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adult"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Aged"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Middle Aged"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Blood Glucose",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Glucocorticoids",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Insulin",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Hydrocortisone",
+            "registryNumber": "WI4X0X7BPJ"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://academic.oup.com/jcem/article-pdf/92/11/4480/9055460/jcem4480.pdf"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1210/jc.2007-0692"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 64,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2008-01-02",
+      "dateOfCreation": "2007-09-06",
+      "dateOfRevision": "2013-11-21",
+      "electronicPublicationDate": "2007-09-04",
+      "firstPublicationDate": "2007-09-04",
+      "firstIndexDate": "2008-01-29",
+      "hasEvaluations": "N"
+    },
+    "retrieved_on": "2026-10-26",
+    "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+    "editorial_notice_check": "Scite indexed notices inspected; no notices reported for checked core records. Not proof of literature-wide absence."
+  },
+  {
+    "citation_key": "tomlinson_weight_loss_hsd1_2004",
+    "doi": "10.1210/jc.2003-031376",
+    "label": "Tomlinson et al. (2004)",
+    "publication_class": "primary",
+    "metadata": {
+      "id": "15181046",
+      "source": "MED",
+      "pmid": "15181046",
+      "pmcid": "PMC7611657",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC7611657"
+        ]
+      },
+      "doi": "10.1210/jc.2003-031376",
+      "title": "Weight loss increases 11beta-hydroxysteroid dehydrogenase type 1 expression in human adipose tissue.",
+      "authorString": "Tomlinson JW, Moore JS, Clark PM, Holder G, Shakespeare L, Stewart PM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tomlinson JW",
+            "lastName": "Tomlinson",
+            "firstName": "Jeremy W",
+            "initials": "JW",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3170-8533"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Medical Sciences, Queen Elizabeth Hospital, University of Birmingham, Birmingham, United Kingdom B15 2TH."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Moore JS",
+            "lastName": "Moore",
+            "firstName": "Jasbir S",
+            "initials": "JS"
+          },
+          {
+            "fullName": "Clark PM",
+            "lastName": "Clark",
+            "firstName": "Penny M S",
+            "initials": "PM"
+          },
+          {
+            "fullName": "Holder G",
+            "lastName": "Holder",
+            "firstName": "Geoff",
+            "initials": "G"
+          },
+          {
+            "fullName": "Shakespeare L",
+            "lastName": "Shakespeare",
+            "firstName": "Lynette",
+            "initials": "L"
+          },
+          {
+            "fullName": "Stewart PM",
+            "lastName": "Stewart",
+            "firstName": "Paul M",
+            "initials": "PM"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3170-8533"
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "6",
+        "volume": "89",
+        "journalIssueId": 1155840,
+        "dateOfPublication": "2004 Jun",
+        "monthOfPublication": 6,
+        "yearOfPublication": 2004,
+        "journal": {
+          "medlineAbbreviation": "J Clin Endocrinol Metab",
+          "title": "The Journal of clinical endocrinology and metabolism",
+          "essn": "1945-7197",
+          "issn": "0021-972X",
+          "nlmid": "0375362",
+          "isoabbreviation": "J Clin Endocrinol Metab"
+        },
+        "printPublicationDate": "2004-06-01"
+      },
+      "pubYear": "2004",
+      "pageInfo": "2711-2716",
+      "affiliation": "Division of Medical Sciences, Queen Elizabeth Hospital, University of Birmingham, Birmingham, United Kingdom B15 2TH.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "acronym": "WT_",
+            "grantId": "075322",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adipose Tissue",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CY",
+                  "qualifierName": "cytology"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adipocytes",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CY",
+                  "qualifierName": "cytology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "EN",
+                  "qualifierName": "enzymology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Stem Cells",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CY",
+                  "qualifierName": "cytology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "EN",
+                  "qualifierName": "enzymology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Insulin Resistance",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Obesity",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PP",
+                  "qualifierName": "physiopathology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Weight Loss",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adrenal Cortex Hormones",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "11-beta-Hydroxysteroid Dehydrogenase Type 1",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cell Division",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Gene Expression Regulation, Enzymologic",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Body Composition"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Blood Pressure"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adult"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Middle Aged"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Adrenal Cortex Hormones",
+            "registryNumber": "0"
+          },
+          {
+            "name": "11-beta-Hydroxysteroid Dehydrogenase Type 1",
+            "registryNumber": "EC 1.1.1.146"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://academic.oup.com/jcem/article-pdf/89/6/2711/10743402/jcem2711.pdf"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1210/jc.2003-031376"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC7611657"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC7611657?pdf=render"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1210/jc.2003-031376"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 67,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "Y",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS134134",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2004-07-19",
+      "dateOfCreation": "2004-06-08",
+      "dateOfRevision": "2022-03-31",
+      "firstPublicationDate": "2004-06-01",
+      "firstIndexDate": "2008-01-29",
+      "fullTextReceivedDate": "2025-12-01",
+      "hasEvaluations": "N"
+    },
+    "retrieved_on": "2026-10-26",
+    "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+    "editorial_notice_check": "Scite indexed notices inspected; no notices reported for checked core records. Not proof of literature-wide absence."
+  },
+  {
+    "citation_key": "trepanowski_adipokines_2018",
+    "doi": "10.1016/j.clnu.2017.11.018",
+    "label": "Trepanowski et al. (2018; online 2017)",
+    "publication_class": "primary",
+    "metadata": {
+      "id": "29258678",
+      "source": "MED",
+      "pmid": "29258678",
+      "pmcid": "PMC5988907",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC5988907"
+        ]
+      },
+      "doi": "10.1016/j.clnu.2017.11.018",
+      "title": "Effects of alternate-day fasting or daily calorie restriction on body composition, fat distribution, and circulating adipokines: Secondary analysis of a randomized controlled trial.",
+      "authorString": "Trepanowski JF, Kroeger CM, Barnosky A, Klempel M, Bhutani S, Hoddy KK, Rood J, Ravussin E, Varady KA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Trepanowski JF",
+            "lastName": "Trepanowski",
+            "firstName": "John F",
+            "initials": "JF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Kinesiology and Nutrition, University of Illinois at Chicago, Chicago, IL, USA; Stanford Prevention Research Center, Stanford University, Stanford, CA, USA. Electronic address: jtrepa2@stanford.edu."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kroeger CM",
+            "lastName": "Kroeger",
+            "firstName": "Cynthia M",
+            "initials": "CM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5828-4283"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Kinesiology and Nutrition, University of Illinois at Chicago, Chicago, IL, USA; Department of Epidemiology and Biostatistics, Indiana University School of Public Health-Bloomington, Bloomington, IN, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barnosky A",
+            "lastName": "Barnosky",
+            "firstName": "Adrienne",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Kinesiology and Nutrition, University of Illinois at Chicago, Chicago, IL, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Klempel M",
+            "lastName": "Klempel",
+            "firstName": "Monica",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Kinesiology and Nutrition, University of Illinois at Chicago, Chicago, IL, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bhutani S",
+            "lastName": "Bhutani",
+            "firstName": "Surabhi",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Kinesiology and Nutrition, University of Illinois at Chicago, Chicago, IL, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hoddy KK",
+            "lastName": "Hoddy",
+            "firstName": "Kristin K",
+            "initials": "KK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Kinesiology and Nutrition, University of Illinois at Chicago, Chicago, IL, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rood J",
+            "lastName": "Rood",
+            "firstName": "Jennifer",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Nutrition and Obesity Division, Pennington Biomedical Research Center, Baton Rouge, LA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ravussin E",
+            "lastName": "Ravussin",
+            "firstName": "Eric",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2129-547X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Nutrition and Obesity Division, Pennington Biomedical Research Center, Baton Rouge, LA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Varady KA",
+            "lastName": "Varady",
+            "firstName": "Krista A",
+            "initials": "KA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Kinesiology and Nutrition, University of Illinois at Chicago, Chicago, IL, USA."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5828-4283"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2129-547X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "6 Pt A",
+        "volume": "37",
+        "journalIssueId": 2751242,
+        "dateOfPublication": "2018 Dec",
+        "monthOfPublication": 12,
+        "yearOfPublication": 2018,
+        "journal": {
+          "medlineAbbreviation": "Clin Nutr",
+          "title": "Clinical nutrition (Edinburgh, Scotland)",
+          "essn": "1532-1983",
+          "issn": "0261-5614",
+          "isoabbreviation": "Clin Nutr",
+          "nlmid": "8309603"
+        },
+        "printPublicationDate": "2018-12-01"
+      },
+      "pubYear": "2018",
+      "pageInfo": "1871-1878",
+      "affiliation": "Department of Kinesiology and Nutrition, University of Illinois at Chicago, Chicago, IL, USA; Stanford Prevention Research Center, Stanford University, Stanford, CA, USA. Electronic address: jtrepa2@stanford.edu.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Randomized Controlled Trial",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NHLBI NIH HHS",
+            "acronym": "HL",
+            "grantId": "R01 HL106228",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIDDK NIH HHS",
+            "acronym": "DK",
+            "grantId": "F32 DK107157",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIDDK NIH HHS",
+            "acronym": "DK",
+            "grantId": "P30 DK072476",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "F32DK107157",
+            "orderIn": 0
+          },
+          {
+            "agency": "NHLBI NIH HHS",
+            "acronym": "HL",
+            "grantId": "T32 HL007034",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "R01HL106228",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "T32HL007034",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Obesity",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "DH",
+                  "qualifierName": "diet therapy"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Body Weight"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Weight Loss"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Leptin",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Treatment Outcome"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Exercise"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Caloric Restriction"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Diet, Reducing",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "MT",
+                  "qualifierName": "methods"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Fasting"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Body Composition",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adult"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Middle Aged"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Overweight",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "DH",
+                  "qualifierName": "diet therapy"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adipokines",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Body composition",
+          "Adipokine",
+          "visceral adipose tissue",
+          "Calorie Restriction",
+          "Alternate Day Fasting",
+          "Obese Adult"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Leptin",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Adipokines",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1016/j.clnu.2017.11.018"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC5988907"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC5988907?pdf=render"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1016/j.clnu.2017.11.018"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 113,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "Y",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "Y",
+      "manuscriptId": "NIHMS928508",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "nct",
+          "doi"
+        ]
+      },
+      "dateOfCompletion": "2019-12-02",
+      "dateOfCreation": "2017-12-21",
+      "dateOfRevision": "2020-01-11",
+      "electronicPublicationDate": "2017-12-05",
+      "firstPublicationDate": "2017-12-05",
+      "firstIndexDate": "2017-12-21",
+      "fullTextReceivedDate": "2025-02-05",
+      "embargoDate": "2019-12-01",
+      "hasEvaluations": "N"
+    },
+    "retrieved_on": "2026-10-26",
+    "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+    "editorial_notice_check": "Scite indexed notices inspected; no notices reported for checked core records. Not proof of literature-wide absence."
+  },
+  {
+    "citation_key": "ma_adiponectin_pounds_2016",
+    "doi": "10.1210/jc.2016-1207",
+    "label": "Ma et al. (2016)",
+    "publication_class": "primary",
+    "metadata": {
+      "id": "27055193",
+      "source": "MED",
+      "pmid": "27055193",
+      "pmcid": "PMC4891796",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4891796"
+        ]
+      },
+      "doi": "10.1210/jc.2016-1207",
+      "title": "Weight-Loss Diets, Adiponectin, and Changes in Cardiometabolic Risk in the 2-Year POUNDS Lost Trial.",
+      "authorString": "Ma W, Huang T, Zheng Y, Wang M, Bray GA, Sacks FM, Qi L.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ma W",
+            "lastName": "Ma",
+            "firstName": "Wenjie",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Epidemiology (W.M., M.W., L.Q.) and Nutrition (Y.Z., F.M.S., L.Q.), Harvard T.H. Chan School of Public Health, and Channing Division of Network Medicine (L.Q.), Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts 02115; Department of Epidemiology (T.H., L.Q.), School of Public Health and Tropical Medicine, Tulane University, New Orleans, Louisiana 70112; and Pennington Biomedical Research Center of the Louisiana State University System (G.A.B.), Baton Rouge, Louisiana 70808."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Huang T",
+            "lastName": "Huang",
+            "firstName": "Tao",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Epidemiology (W.M., M.W., L.Q.) and Nutrition (Y.Z., F.M.S., L.Q.), Harvard T.H. Chan School of Public Health, and Channing Division of Network Medicine (L.Q.), Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts 02115; Department of Epidemiology (T.H., L.Q.), School of Public Health and Tropical Medicine, Tulane University, New Orleans, Louisiana 70112; and Pennington Biomedical Research Center of the Louisiana State University System (G.A.B.), Baton Rouge, Louisiana 70808."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zheng Y",
+            "lastName": "Zheng",
+            "firstName": "Yan",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Epidemiology (W.M., M.W., L.Q.) and Nutrition (Y.Z., F.M.S., L.Q.), Harvard T.H. Chan School of Public Health, and Channing Division of Network Medicine (L.Q.), Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts 02115; Department of Epidemiology (T.H., L.Q.), School of Public Health and Tropical Medicine, Tulane University, New Orleans, Louisiana 70112; and Pennington Biomedical Research Center of the Louisiana State University System (G.A.B.), Baton Rouge, Louisiana 70808."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang M",
+            "lastName": "Wang",
+            "firstName": "Molin",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Epidemiology (W.M., M.W., L.Q.) and Nutrition (Y.Z., F.M.S., L.Q.), Harvard T.H. Chan School of Public Health, and Channing Division of Network Medicine (L.Q.), Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts 02115; Department of Epidemiology (T.H., L.Q.), School of Public Health and Tropical Medicine, Tulane University, New Orleans, Louisiana 70112; and Pennington Biomedical Research Center of the Louisiana State University System (G.A.B.), Baton Rouge, Louisiana 70808."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bray GA",
+            "lastName": "Bray",
+            "firstName": "George A",
+            "initials": "GA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Epidemiology (W.M., M.W., L.Q.) and Nutrition (Y.Z., F.M.S., L.Q.), Harvard T.H. Chan School of Public Health, and Channing Division of Network Medicine (L.Q.), Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts 02115; Department of Epidemiology (T.H., L.Q.), School of Public Health and Tropical Medicine, Tulane University, New Orleans, Louisiana 70112; and Pennington Biomedical Research Center of the Louisiana State University System (G.A.B.), Baton Rouge, Louisiana 70808."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sacks FM",
+            "lastName": "Sacks",
+            "firstName": "Frank M",
+            "initials": "FM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Epidemiology (W.M., M.W., L.Q.) and Nutrition (Y.Z., F.M.S., L.Q.), Harvard T.H. Chan School of Public Health, and Channing Division of Network Medicine (L.Q.), Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts 02115; Department of Epidemiology (T.H., L.Q.), School of Public Health and Tropical Medicine, Tulane University, New Orleans, Louisiana 70112; and Pennington Biomedical Research Center of the Louisiana State University System (G.A.B.), Baton Rouge, Louisiana 70808."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Qi L",
+            "lastName": "Qi",
+            "firstName": "Lu",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Epidemiology (W.M., M.W., L.Q.) and Nutrition (Y.Z., F.M.S., L.Q.), Harvard T.H. Chan School of Public Health, and Channing Division of Network Medicine (L.Q.), Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts 02115; Department of Epidemiology (T.H., L.Q.), School of Public Health and Tropical Medicine, Tulane University, New Orleans, Louisiana 70112; and Pennington Biomedical Research Center of the Louisiana State University System (G.A.B.), Baton Rouge, Louisiana 70808."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "6",
+        "volume": "101",
+        "journalIssueId": 2415460,
+        "dateOfPublication": "2016 Jun",
+        "monthOfPublication": 6,
+        "yearOfPublication": 2016,
+        "journal": {
+          "medlineAbbreviation": "J Clin Endocrinol Metab",
+          "title": "The Journal of clinical endocrinology and metabolism",
+          "essn": "1945-7197",
+          "issn": "0021-972X",
+          "nlmid": "0375362",
+          "isoabbreviation": "J Clin Endocrinol Metab"
+        },
+        "printPublicationDate": "2016-06-01"
+      },
+      "pubYear": "2016",
+      "pageInfo": "2415-2422",
+      "affiliation": "Departments of Epidemiology (W.M., M.W., L.Q.) and Nutrition (Y.Z., F.M.S., L.Q.), Harvard T.H. Chan School of Public Health, and Channing Division of Network Medicine (L.Q.), Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts 02115; Department of Epidemiology (T.H., L.Q.), School of Public Health and Tropical Medicine, Tulane University, New Orleans, Louisiana 70112; and Pennington Biomedical Research Center of the Louisiana State University System (G.A.B.), Baton Rouge, Louisiana 70808.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NIDDK NIH HHS",
+            "acronym": "DK",
+            "grantId": "P30 DK046200",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIDDK NIH HHS",
+            "acronym": "DK",
+            "grantId": "R01 DK078616",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIDDK NIH HHS",
+            "acronym": "DK",
+            "grantId": "R01 DK100383",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIDDK NIH HHS",
+            "acronym": "DK",
+            "grantId": "R01 DK091718",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIDDK NIH HHS",
+            "acronym": "DK",
+            "grantId": "U01 DK078616",
+            "orderIn": 0
+          },
+          {
+            "agency": "NHLBI NIH HHS",
+            "acronym": "HL",
+            "grantId": "R01 HL071981",
+            "orderIn": 0
+          },
+          {
+            "agency": "NHLBI NIH HHS",
+            "acronym": "HL",
+            "grantId": "R01 HL034594",
+            "orderIn": 0
+          },
+          {
+            "agency": "NHLBI NIH HHS",
+            "acronym": "HL",
+            "grantId": "R21 HL126024",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cardiovascular Diseases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ET",
+                  "qualifierName": "etiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Metabolic Diseases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CO",
+                  "qualifierName": "complications"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ET",
+                  "qualifierName": "etiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Obesity",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CO",
+                  "qualifierName": "complications"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "DH",
+                  "qualifierName": "diet therapy"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Weight Loss",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Body Mass Index"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Treatment Outcome"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Diet, Reducing"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Risk Factors"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adult"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Middle Aged"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Overweight",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CO",
+                  "qualifierName": "complications"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "DH",
+                  "qualifierName": "diet therapy"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adiponectin",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Waist Circumference"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "adiponectin",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1210/jc.2016-1207"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4891796"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1210/jc.2016-1207"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 43,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2017-06-07",
+      "dateOfCreation": "2016-04-08",
+      "dateOfRevision": "2018-11-13",
+      "electronicPublicationDate": "2016-04-07",
+      "firstPublicationDate": "2016-04-07",
+      "firstIndexDate": "2016-04-08",
+      "fullTextReceivedDate": "2020-07-12",
+      "hasEvaluations": "N"
+    },
+    "retrieved_on": "2026-10-26",
+    "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+    "editorial_notice_check": "Scite indexed notices inspected; no notices reported for checked core records. Not proof of literature-wide absence."
+  },
+  {
+    "citation_key": "fallo_glucocorticoid_adiponectin_2004",
+    "doi": "10.1530/eje.0.1500339",
+    "label": "Fallo et al. (2004)",
+    "publication_class": "primary",
+    "metadata": {
+      "id": "15012619",
+      "source": "MED",
+      "pmid": "15012619",
+      "doi": "10.1530/eje.0.1500339",
+      "title": "Effect of glucocorticoids on adiponectin: a study in healthy subjects and in Cushing's syndrome.",
+      "authorString": "Fallo F, Scarda A, Sonino N, Paoletta A, Boscaro M, Pagano C, Federspil G, Vettor R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Fallo F",
+            "lastName": "Fallo",
+            "firstName": "Francesco",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7511-0226"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medical and Surgical Sciences, University of Padova, Italy. francesco.fallo@unipd.it"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Scarda A",
+            "lastName": "Scarda",
+            "firstName": "Alessando",
+            "initials": "A"
+          },
+          {
+            "fullName": "Sonino N",
+            "lastName": "Sonino",
+            "firstName": "Nicoletta",
+            "initials": "N"
+          },
+          {
+            "fullName": "Paoletta A",
+            "lastName": "Paoletta",
+            "firstName": "Agostino",
+            "initials": "A"
+          },
+          {
+            "fullName": "Boscaro M",
+            "lastName": "Boscaro",
+            "firstName": "Marco",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2596-1652"
+            }
+          },
+          {
+            "fullName": "Pagano C",
+            "lastName": "Pagano",
+            "firstName": "Claudio",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4335-8411"
+            }
+          },
+          {
+            "fullName": "Federspil G",
+            "lastName": "Federspil",
+            "firstName": "Giovanni",
+            "initials": "G"
+          },
+          {
+            "fullName": "Vettor R",
+            "lastName": "Vettor",
+            "firstName": "Roberto",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0625-6667"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4335-8411"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7511-0226"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0625-6667"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2596-1652"
+          }
+        ]
+      },
+      "journalInfo": {
+        "issue": "3",
+        "volume": "150",
+        "journalIssueId": 1128824,
+        "dateOfPublication": "2004 Mar",
+        "monthOfPublication": 3,
+        "yearOfPublication": 2004,
+        "journal": {
+          "medlineAbbreviation": "Eur J Endocrinol",
+          "title": "European journal of endocrinology",
+          "essn": "1479-683X",
+          "issn": "0804-4643",
+          "nlmid": "9423848",
+          "isoabbreviation": "Eur J Endocrinol"
+        },
+        "printPublicationDate": "2004-03-01"
+      },
+      "pubYear": "2004",
+      "pageInfo": "339-344",
+      "affiliation": "Department of Medical and Surgical Sciences, University of Padova, Italy. francesco.fallo@unipd.it",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Obesity",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cushing Syndrome",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hydrocortisone",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PD",
+                  "qualifierName": "pharmacology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "UR",
+                  "qualifierName": "urine"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Insulin",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Intercellular Signaling Peptides and Proteins"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "AI",
+                  "qualifierName": "antagonists & inhibitors"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Linear Models"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Case-Control Studies"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adolescent"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adult"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Middle Aged"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adiponectin"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adrenocorticotropic Hormone",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "adiponectin",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Intercellular Signaling Peptides and Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Adrenocorticotropic Hormone",
+            "registryNumber": "9002-60-2"
+          },
+          {
+            "name": "Insulin",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Hydrocortisone",
+            "registryNumber": "WI4X0X7BPJ"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://eje.bioscientifica.com/downloadpdf/journals/eje/150/3/339.pdf"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1530/eje.0.1500339"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 83,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2004-05-04",
+      "dateOfCreation": "2004-03-12",
+      "dateOfRevision": "2019-09-06",
+      "firstPublicationDate": "2004-03-01",
+      "firstIndexDate": "2008-01-29",
+      "hasEvaluations": "N"
+    },
+    "retrieved_on": "2026-10-26",
+    "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+    "editorial_notice_check": "Scite indexed notices inspected; no notices reported for checked core records. Not proof of literature-wide absence."
+  },
+  {
+    "citation_key": "moghadasi_activity_adiponectin_2013",
+    "doi": "10.1080/17461391.2011.635701",
+    "label": "Moghadasi et al. (2013; online 2011)",
+    "publication_class": "primary",
+    "metadata": {
+      "id": "23834543",
+      "source": "MED",
+      "pmid": "23834543",
+      "doi": "10.1080/17461391.2011.635701",
+      "title": "Effects of short-term lifestyle activity modification on adiponectin mRNA expression and plasma concentrations.",
+      "authorString": "Moghadasi M, Mohebbi H, Rahmani-Nia F, Hassan-Nia S, Noroozi H.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Moghadasi M",
+            "lastName": "Moghadasi",
+            "firstName": "Mehrzad",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8226-2570"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Exercise Physiology, Islamic Azad University, Shiraz branch, Iran. mehrzad.moghadasi@gmail.com"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mohebbi H",
+            "lastName": "Mohebbi",
+            "firstName": "Hamid",
+            "initials": "H"
+          },
+          {
+            "fullName": "Rahmani-Nia F",
+            "lastName": "Rahmani-Nia",
+            "firstName": "Farhad",
+            "initials": "F"
+          },
+          {
+            "fullName": "Hassan-Nia S",
+            "lastName": "Hassan-Nia",
+            "firstName": "Sadegh",
+            "initials": "S"
+          },
+          {
+            "fullName": "Noroozi H",
+            "lastName": "Noroozi",
+            "firstName": "Hamid",
+            "initials": "H"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8226-2570"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "journalInfo": {
+        "issue": "4",
+        "volume": "13",
+        "journalIssueId": 2071088,
+        "dateOfPublication": "2013 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2013,
+        "journal": {
+          "medlineAbbreviation": "Eur J Sport Sci",
+          "title": "European journal of sport science",
+          "essn": "1536-7290",
+          "issn": "1746-1391",
+          "isoabbreviation": "Eur J Sport Sci",
+          "nlmid": "101146739"
+        },
+        "printPublicationDate": "2013-01-01"
+      },
+      "pubYear": "2013",
+      "pageInfo": "378-385",
+      "affiliation": "Department of Exercise Physiology, Islamic Azad University, Shiraz branch, Iran. mehrzad.moghadasi@gmail.com",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adipose Tissue",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Diabetes Mellitus, Type 2",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CO",
+                  "qualifierName": "complications"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "TH",
+                  "qualifierName": "therapy"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Insulin Resistance"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Obesity",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CO",
+                  "qualifierName": "complications"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "TH",
+                  "qualifierName": "therapy"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Weight Loss"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "C-Reactive Protein",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "RNA, Messenger",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Body Mass Index"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Walking",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Life Style"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Body Composition"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Middle Aged"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Subcutaneous Fat",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Intra-Abdominal Fat",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Overweight"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adiponectin",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "adiponectin",
+            "registryNumber": "0"
+          },
+          {
+            "name": "RNA, Messenger",
+            "registryNumber": "0"
+          },
+          {
+            "name": "C-Reactive Protein",
+            "registryNumber": "9007-41-4"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1080/17461391.2011.635701"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 17,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2014-08-07",
+      "dateOfCreation": "2013-07-10",
+      "dateOfRevision": "2022-04-08",
+      "electronicPublicationDate": "2011-12-05",
+      "firstPublicationDate": "2011-12-05",
+      "firstIndexDate": "2013-07-10",
+      "hasEvaluations": "N"
+    },
+    "retrieved_on": "2026-10-26",
+    "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+    "editorial_notice_check": "Scite indexed notices inspected; no notices reported for checked core records. Not proof of literature-wide absence."
+  },
+  {
+    "citation_key": "patel_short_term_glucocorticoid_2006",
+    "doi": "10.1186/1477-5751-5-14",
+    "label": "Patel et al. (2006)",
+    "publication_class": "primary",
+    "metadata": {
+      "id": "16965635",
+      "source": "MED",
+      "pmid": "16965635",
+      "pmcid": "PMC1578582",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC1578582"
+        ]
+      },
+      "doi": "10.1186/1477-5751-5-14",
+      "title": "Role of metabolically active hormones in the insulin resistance associated with short-term glucocorticoid treatment.",
+      "authorString": "Patel JV, Cummings DE, Girod JP, Mascarenhas AV, Hughes EA, Gupta M, Lip GY, Reddy S, Brotman DJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Patel JV",
+            "lastName": "Patel",
+            "firstName": "Jeetesh V",
+            "initials": "JV",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0002-8016-5464"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Haemostasis Thrombosis and Vascular Biology Unit, University Department of Medicine and Sandwell Medical Research Unit, Sandwell and West Birmingham Hospitals NHS Trust, West Midlands, UK. Jeetesh.patel@swbh.nhs.uk"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cummings DE",
+            "lastName": "Cummings",
+            "firstName": "David E",
+            "initials": "DE"
+          },
+          {
+            "fullName": "Girod JP",
+            "lastName": "Girod",
+            "firstName": "John P",
+            "initials": "JP"
+          },
+          {
+            "fullName": "Mascarenhas AV",
+            "lastName": "Mascarenhas",
+            "firstName": "Alwin V",
+            "initials": "AV"
+          },
+          {
+            "fullName": "Hughes EA",
+            "lastName": "Hughes",
+            "firstName": "Elizabeth A",
+            "initials": "EA"
+          },
+          {
+            "fullName": "Gupta M",
+            "lastName": "Gupta",
+            "firstName": "Manjula",
+            "initials": "M"
+          },
+          {
+            "fullName": "Lip GY",
+            "lastName": "Lip",
+            "firstName": "Gregory Y H",
+            "initials": "GY"
+          },
+          {
+            "fullName": "Reddy S",
+            "lastName": "Reddy",
+            "firstName": "Sethu",
+            "initials": "S"
+          },
+          {
+            "fullName": "Brotman DJ",
+            "lastName": "Brotman",
+            "firstName": "Daniel J",
+            "initials": "DJ"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0009-0002-8016-5464"
+          }
+        ]
+      },
+      "journalInfo": {
+        "volume": "5",
+        "journalIssueId": 2465071,
+        "dateOfPublication": "2006 Sep",
+        "monthOfPublication": 9,
+        "yearOfPublication": 2006,
+        "journal": {
+          "medlineAbbreviation": "J Negat Results Biomed",
+          "title": "Journal of negative results in biomedicine",
+          "essn": "1477-5751",
+          "isoabbreviation": "J Negat Results Biomed",
+          "nlmid": "101152210"
+        },
+        "printPublicationDate": "2006-09-01"
+      },
+      "pubYear": "2006",
+      "pageInfo": "14",
+      "affiliation": "Haemostasis Thrombosis and Vascular Biology Unit, University Department of Medicine and Sandwell Medical Research Unit, Sandwell and West Birmingham Hospitals NHS Trust, West Midlands, UK. Jeetesh.patel@swbh.nhs.uk",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Randomized Controlled Trial",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NIDDK NIH HHS",
+            "acronym": "DK",
+            "grantId": "R01 DK61516",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIDDK NIH HHS",
+            "acronym": "DK",
+            "grantId": "R01 DK061516",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Insulin Resistance",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hormones",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Peptide Hormones",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Leptin",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Tumor Necrosis Factor-alpha",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Glucocorticoids",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "AD",
+                  "qualifierName": "administration & dosage"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PD",
+                  "qualifierName": "pharmacology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Time Factors"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adult"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Health"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Male"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adiponectin",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "BL",
+                  "qualifierName": "blood"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Ghrelin"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "adiponectin",
+            "registryNumber": "0"
+          },
+          {
+            "name": "ghrelin",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Hormones",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Glucocorticoids",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Tumor Necrosis Factor-alpha",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Peptide Hormones",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Leptin",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1186/1477-5751-5-14"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC1578582"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC1578582?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 18,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2006-10-24",
+      "dateOfCreation": "2006-09-13",
+      "dateOfRevision": "2022-03-09",
+      "electronicPublicationDate": "2006-09-11",
+      "firstPublicationDate": "2006-09-11",
+      "firstIndexDate": "2009-12-23",
+      "fullTextReceivedDate": "2025-02-05",
+      "hasEvaluations": "N"
+    },
+    "retrieved_on": "2026-10-26",
+    "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+    "editorial_notice_check": "Scite indexed notices inspected; no notices reported for checked core records. Not proof of literature-wide absence."
+  }
+]

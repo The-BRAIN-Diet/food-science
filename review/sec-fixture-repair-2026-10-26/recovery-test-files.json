@@ -1,0 +1,9 @@
+[
+  "scripts/cross-brs-dietary-recovery.test.mjs",
+  "scripts/dietary-input-governance-v2.test.mjs",
+  "scripts/dietary-lever-traceability.test.mjs",
+  "scripts/dietary-pathway-activation.test.mjs",
+  "scripts/dietary-recovery.test.mjs",
+  "scripts/food-target-reconciliation.test.mjs",
+  "scripts/input-substance-food.test.mjs"
+]

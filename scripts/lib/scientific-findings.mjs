@@ -470,6 +470,9 @@ export function renderRelationshipPrimaryFindings(rel, data, { informs = null } 
   const byId = findingsById(data);
   const { primary } = splitRelationshipFindings(rel, byId);
   if (!primary.length) return "";
+  if (data.evidence_tabs_version === 1) {
+    return primary.map(finding => `[${finding.id} — ${finding.finding_label}](?review=1#${finding.id.toLowerCase()})`).join("\n\n");
+  }
   const index = informs ?? findingInformsIndex(data);
   return renderFindingBlocks(
     primary,

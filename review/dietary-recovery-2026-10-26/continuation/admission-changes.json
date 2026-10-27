@@ -1,0 +1,1930 @@
+[
+  {
+    "pm_id": "BRS-X(ECS-PM1)",
+    "atom_id": "PM1-DIT-3",
+    "input": "Zinc",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM1-DIT-3",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Enable NAPE-to-NAE biosynthesis so endocannabinoidome signalling lipids remain available for stress and motivation regulation.",
+      "canonical_substance_id": "zinc",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Dietary zinc supplies the binuclear catalytic metal centre of human NAPE-PLD, supporting N-acylethanolamine production capacity.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/25684574/",
+          "https://www.uniprot.org/uniprotkb/Q6IQ20/entry"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The same mineral has established dietary supply through the canonical composition records. Cellular uptake and homeostasis mediate enzyme loading; this is maintenance of capacity, not a claim that extra intake accelerates the reaction.",
+        "sources": [
+          "docs/foods/pumpkin-seeds.md",
+          "docs/foods/cashews.md"
+        ]
+      },
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Human enzyme structure and catalysis establish the metal dependency, not dietary zinc-driven brain NAE flux or benefit above adequacy. Cellular zinc homeostasis and membrane substrate access constrain loading; no extra-zinc recommendation is established.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/pumpkin-seeds.md",
+          "docs/foods/cashews.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Inspected existing structured composition records and provisional research coverage for the same mineral. Verified plant/animal sources are reused with preparation qualifiers; no new food edge, effective food dose or enzyme-response inference is created."
+      }
+    }
+  },
+  {
+    "pm_id": "BRS-X(ECS-PM2)",
+    "atom_id": "PM2-DIT-1",
+    "input": "DHA (Docosahexaenoic Acid)",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM2-DIT-1",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Sustain omega-3-derived ethanolamide production so endocannabinoidome neuromodulation stays supplied from dietary fat status.",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Dietary DHA supplies the fatty-acyl substrate for the PM’s omega-3 ethanolamide-production operation, including incorporation into N-docosahexaenoyl-PE and synaptamide formation.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/33233525/",
+          "https://pubmed.ncbi.nlm.nih.gov/26806592/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The same mineral has established dietary supply through the canonical composition records. Cellular uptake and homeostasis mediate enzyme loading; this is maintenance of capacity, not a claim that extra intake accelerates the reaction.",
+        "sources": [
+          "docs/foods/salmon.md",
+          "docs/foods/sardines.md"
+        ]
+      },
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Labelled neural-cell precursor experiments support formation; controlled oral-oil studies support corresponding plasma ethanolamide availability. Plasma concentration is not neuronal synthesis flux or receptor engagement, and no ordinary-food effective dose or clinical benefit is established. Direct is relative to this biosynthetic operation, not direct food content of synaptamide.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/salmon.md",
+          "docs/foods/sardines.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Inspected existing structured composition records and provisional research coverage for the same mineral. Verified plant/animal sources are reused with preparation qualifiers; no new food edge, effective food dose or enzyme-response inference is created."
+      }
+    }
+  },
+  {
+    "pm_id": "BRS-X(ECS-PM2)",
+    "atom_id": "PM2-DIT-2",
+    "input": "EPA (Eicosapentaenoic Acid)",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM2-DIT-2",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Sustain omega-3-derived ethanolamide production so endocannabinoidome neuromodulation stays supplied from dietary fat status.",
+      "canonical_substance_id": "epa-eicosapentaenoic-acid",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Dietary EPA supplies the fatty-acyl precursor for the corresponding EPEA-production arm of the PM’s omega-3 ethanolamide operation.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/31269506/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The same mineral has established dietary supply through the canonical composition records. Cellular uptake and homeostasis mediate enzyme loading; this is maintenance of capacity, not a claim that extra intake accelerates the reaction.",
+        "sources": [
+          "docs/foods/salmon.md",
+          "docs/foods/sardines.md"
+        ]
+      },
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "The oral EPA/DHA intervention evidence measures circulating corresponding ethanolamides, not neuronal synthesis rates or independent clinical mediation. Preserve active-arm, formulation and mixture limits. Direct refers to substrate provision to production; food EPA content is not food EPEA content or a quantified conversion yield.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/salmon.md",
+          "docs/foods/sardines.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Inspected existing structured composition records and provisional research coverage for the same mineral. Verified plant/animal sources are reused with preparation qualifiers; no new food edge, effective food dose or enzyme-response inference is created."
+      }
+    }
+  },
+  {
+    "pm_id": "BRS-X(Hormones-PM5)",
+    "atom_id": "PM5-DIT-RECOVERY-ZINC-RECEPTOR",
+    "input": "Zinc",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM5-DIT-RECOVERY-ZINC-RECEPTOR",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Maintain androgen receptor signalling so motivation, stamina, and goal-directed effort remain well supported.",
+      "canonical_substance_id": "zinc",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Dietary zinc maintains the metal pool supporting the androgen receptor’s zinc-finger DNA-binding capacity.",
+        "sources": [
+          "https://www.uniprot.org/uniprotkb/P10275/entry",
+          "https://www.rcsb.org/structure/1R4I"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The same mineral is supplied by verified canonical composition records; homeostatic uptake and distribution mediate receptor loading. No excess-intake or testosterone efficacy requirement is inferred.",
+        "sources": [
+          "docs/foods/pumpkin-seeds.md",
+          "docs/foods/cashews.md"
+        ]
+      },
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "This Type A relationship concerns the receptor DNA-binding domain, not stimulation of testosterone production, tissue receptor occupancy, motivation or benefit from extra zinc. Cellular zinc homeostasis and receptor expression constrain metal availability. The primary crystal used an engineered rat receptor domain; human domain identity is curated. A zinc-finger mutation study tested an arginine substitution, not dietary zinc depletion.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/pumpkin-seeds.md",
+          "docs/foods/cashews.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Existing verified zinc composition records provide varied sources; no additional food edge or effective receptor-response dose is inferred."
+      }
+    }
+  },
+  {
+    "pm_id": "BRS1-FM1-PM1",
+    "atom_id": "PM1-DIT-4",
+    "input": "Tyrosine",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM1-DIT-4",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Ensure meal-level protein supply delivers the amino-acid foundation neurotransmitter pathways depend on.",
+      "canonical_substance_id": "tyrosine",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Dietary tyrosine supplies the circulating tyrosine precursor pool, alongside endogenous phenylalanine hydroxylation, sustaining substrate availability for downstream pathways.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/7190187/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The same mineral has established dietary supply through the canonical composition records. Cellular uptake and homeostasis mediate enzyme loading; this is maintenance of capacity, not a claim that extra intake accelerates the reaction.",
+        "sources": [
+          "docs/substances/nutrients/macronutrients/amino-acids/conditionals/tyrosine.md",
+          "docs/foods/eggs.md"
+        ]
+      },
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Dietary supply to a circulating pool is distinct from brain transport, catecholamine synthesis or clinical benefit. A small human study found higher plasma tyrosine during protein-containing meals and after a large tyrosine supplement; it does not define ordinary-food efficacy or a need for extra tyrosine when supply is adequate. Tyrosine is not an indispensable amino acid.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/substances/nutrients/macronutrients/amino-acids/conditionals/tyrosine.md",
+          "docs/foods/eggs.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Inspected existing structured composition records and provisional research coverage for the same mineral. Verified plant/animal sources are reused with preparation qualifiers; no new food edge, effective food dose or enzyme-response inference is created."
+      }
+    }
+  },
+  {
+    "pm_id": "BRS1-FM1-PM3",
+    "atom_id": "PM3-DIT-RECOVERY-VITAMIN-B2",
+    "input": "Vitamin B2",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM3-DIT-RECOVERY-VITAMIN-B2",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Maintain appropriately regulated dopamine synthesis, storage, release, receptor signalling, reuptake and metabolism across changing functional demand.",
+      "canonical_substance_id": "vitamin-b2",
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Rat enzyme capacity, not measured human neurotransmitter clearance, synaptic output or benefit above adequacy. No conclusion about which flavin analogue is effective is taken from the internally inconsistent abstract. The same experiment is shared across the three monoamine PMs, not independent replication.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/almonds.md",
+          "docs/foods/anchovies.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships."
+      },
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Riboflavin supplies FMN and FAD formation; FAD sustains monoamine oxidase in dopamine metabolism capacity.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/7264772/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Food riboflavin supplies the precursor activated by human RFK and FLAD1 to FMN/FAD. Cofactor loading is not increased neurotransmitter output.",
+        "sources": [
+          "docs/foods/almonds.md",
+          "docs/foods/anchovies.md"
+        ]
+      },
+      "active_target_id": "flavin-adenine-dinucleotide",
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b2",
+          "to": "flavin-mononucleotide",
+          "process": "Riboflavin kinase (RFK) phosphorylates riboflavin to FMN using ATP.",
+          "dependencies": [
+            "Functional RFK",
+            "ATP and divalent metal availability"
+          ],
+          "limitations": "Enzyme identity does not quantify tissue cofactor supply or flux after a meal.",
+          "evidence": {
+            "statement": "Human RFK catalyses riboflavin phosphorylation; UniProt Q969G6 entry 195 retrieved 2026-10-26, Rhea 14357.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q969G6/entry",
+              "https://www.rhea-db.org/rhea/14357"
+            ]
+          }
+        },
+        {
+          "from": "flavin-mononucleotide",
+          "to": "flavin-adenine-dinucleotide",
+          "process": "FLAD1 FAD synthase adenylates FMN with ATP to form FAD.",
+          "dependencies": [
+            "Functional FLAD1 FAD synthase",
+            "ATP and divalent metal availability"
+          ],
+          "limitations": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred.",
+          "evidence": {
+            "statement": "Human FLAD1 catalyses FMN adenylation; UniProt Q8NFF5 entry 182 retrieved 2026-10-26, Rhea 17237.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q8NFF5/entry",
+              "https://www.rhea-db.org/rhea/17237"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pm_id": "BRS1-FM1-PM3",
+    "atom_id": "PM3-DIT-RECOVERY-MAGNESIUM",
+    "input": "Magnesium",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM3-DIT-RECOVERY-MAGNESIUM",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Maintain appropriately regulated dopamine synthesis, storage, release, receptor signalling, reuptake and metabolism across changing functional demand.",
+      "canonical_substance_id": "magnesium",
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Catalytic capacity does not show that extra dietary magnesium increases regional catecholamine clearance or improves function. COMT isoforms, genotype, SAM availability and tissue homeostasis constrain interpretation; increased clearance is not universally desirable.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/almonds.md",
+          "docs/foods/pumpkin-seeds.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships."
+      },
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Magnesium supplies the catalytic metal required by COMT for SAM-dependent catechol O-methylation within this PM’s metabolism arm.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/7703232/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The same canonical nutrient is supplied by the inspected food records. Tissue uptake and homeostasis remain distinct from an effect of extra intake.",
+        "sources": [
+          "docs/foods/almonds.md",
+          "docs/foods/pumpkin-seeds.md"
+        ]
+      }
+    }
+  },
+  {
+    "pm_id": "BRS1-FM1-PM4",
+    "atom_id": "PM4-DIT-RECOVERY-VITAMIN-B2",
+    "input": "Vitamin B2",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM4-DIT-RECOVERY-VITAMIN-B2",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Support noradrenergic alertness and executive control so attention and arousal stay appropriately engaged.",
+      "canonical_substance_id": "vitamin-b2",
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Rat enzyme capacity, not measured human neurotransmitter clearance, synaptic output or benefit above adequacy. No conclusion about which flavin analogue is effective is taken from the internally inconsistent abstract. The same experiment is shared across the three monoamine PMs, not independent replication.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/almonds.md",
+          "docs/foods/anchovies.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships."
+      },
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Riboflavin supplies FMN and FAD formation; FAD sustains monoamine oxidase in noradrenaline metabolism capacity.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/7264772/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Food riboflavin supplies the precursor activated by human RFK and FLAD1 to FMN/FAD. Cofactor loading is not increased neurotransmitter output.",
+        "sources": [
+          "docs/foods/almonds.md",
+          "docs/foods/anchovies.md"
+        ]
+      },
+      "active_target_id": "flavin-adenine-dinucleotide",
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b2",
+          "to": "flavin-mononucleotide",
+          "process": "Riboflavin kinase (RFK) phosphorylates riboflavin to FMN using ATP.",
+          "dependencies": [
+            "Functional RFK",
+            "ATP and divalent metal availability"
+          ],
+          "limitations": "Enzyme identity does not quantify tissue cofactor supply or flux after a meal.",
+          "evidence": {
+            "statement": "Human RFK catalyses riboflavin phosphorylation; UniProt Q969G6 entry 195 retrieved 2026-10-26, Rhea 14357.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q969G6/entry",
+              "https://www.rhea-db.org/rhea/14357"
+            ]
+          }
+        },
+        {
+          "from": "flavin-mononucleotide",
+          "to": "flavin-adenine-dinucleotide",
+          "process": "FLAD1 FAD synthase adenylates FMN with ATP to form FAD.",
+          "dependencies": [
+            "Functional FLAD1 FAD synthase",
+            "ATP and divalent metal availability"
+          ],
+          "limitations": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred.",
+          "evidence": {
+            "statement": "Human FLAD1 catalyses FMN adenylation; UniProt Q8NFF5 entry 182 retrieved 2026-10-26, Rhea 17237.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q8NFF5/entry",
+              "https://www.rhea-db.org/rhea/17237"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pm_id": "BRS1-FM1-PM4",
+    "atom_id": "PM4-DIT-RECOVERY-MAGNESIUM",
+    "input": "Magnesium",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM4-DIT-RECOVERY-MAGNESIUM",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Support noradrenergic alertness and executive control so attention and arousal stay appropriately engaged.",
+      "canonical_substance_id": "magnesium",
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Catalytic capacity does not show that extra dietary magnesium increases regional catecholamine clearance or improves function. COMT isoforms, genotype, SAM availability and tissue homeostasis constrain interpretation; increased clearance is not universally desirable.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/almonds.md",
+          "docs/foods/pumpkin-seeds.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships."
+      },
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Magnesium supplies the catalytic metal required by COMT for SAM-dependent catechol O-methylation within this PM’s metabolism arm.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/7703232/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The same canonical nutrient is supplied by the inspected food records. Tissue uptake and homeostasis remain distinct from an effect of extra intake.",
+        "sources": [
+          "docs/foods/almonds.md",
+          "docs/foods/pumpkin-seeds.md"
+        ]
+      }
+    }
+  },
+  {
+    "pm_id": "BRS1-FM1-PM5",
+    "atom_id": "PM5-DIT-RECOVERY-VITAMIN-B2",
+    "input": "Vitamin B2",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM5-DIT-RECOVERY-VITAMIN-B2",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Support serotonergic signalling so mood stability, inhibition, and behavioural regulation remain well grounded.",
+      "canonical_substance_id": "vitamin-b2",
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Rat enzyme capacity, not measured human neurotransmitter clearance, synaptic output or benefit above adequacy. No conclusion about which flavin analogue is effective is taken from the internally inconsistent abstract. The same experiment is shared across the three monoamine PMs, not independent replication.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/almonds.md",
+          "docs/foods/anchovies.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships."
+      },
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Riboflavin supplies FMN and FAD formation; FAD sustains monoamine oxidase in serotonin metabolism capacity.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/7264772/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Food riboflavin supplies the precursor activated by human RFK and FLAD1 to FMN/FAD. Cofactor loading is not increased neurotransmitter output.",
+        "sources": [
+          "docs/foods/almonds.md",
+          "docs/foods/anchovies.md"
+        ]
+      },
+      "active_target_id": "flavin-adenine-dinucleotide",
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b2",
+          "to": "flavin-mononucleotide",
+          "process": "Riboflavin kinase (RFK) phosphorylates riboflavin to FMN using ATP.",
+          "dependencies": [
+            "Functional RFK",
+            "ATP and divalent metal availability"
+          ],
+          "limitations": "Enzyme identity does not quantify tissue cofactor supply or flux after a meal.",
+          "evidence": {
+            "statement": "Human RFK catalyses riboflavin phosphorylation; UniProt Q969G6 entry 195 retrieved 2026-10-26, Rhea 14357.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q969G6/entry",
+              "https://www.rhea-db.org/rhea/14357"
+            ]
+          }
+        },
+        {
+          "from": "flavin-mononucleotide",
+          "to": "flavin-adenine-dinucleotide",
+          "process": "FLAD1 FAD synthase adenylates FMN with ATP to form FAD.",
+          "dependencies": [
+            "Functional FLAD1 FAD synthase",
+            "ATP and divalent metal availability"
+          ],
+          "limitations": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred.",
+          "evidence": {
+            "statement": "Human FLAD1 catalyses FMN adenylation; UniProt Q8NFF5 entry 182 retrieved 2026-10-26, Rhea 17237.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q8NFF5/entry",
+              "https://www.rhea-db.org/rhea/17237"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pm_id": "BRS1-FM2-PM6",
+    "atom_id": "PM6-DIT-RECOVERY-SODIUM",
+    "input": "Sodium",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM6-DIT-RECOVERY-SODIUM",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Maintain the capacity to form acetylcholine so cholinergic signalling for attention, working memory, and learning stays supplied.",
+      "canonical_substance_id": "sodium",
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Transport-ion capacity does not establish that added dietary salt increases brain choline uptake or acetylcholine output. CNS homeostasis and membrane gradients intervene. Chloride is not assumed to have identical transport stoichiometry and is not independently admitted here.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/anchovies.md",
+          "docs/foods/miso.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships."
+      },
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Sodium supports the electrochemical coupling required for high-affinity CHT1 choline uptake, sustaining substrate-entry capacity for acetylcholine synthesis.",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11589582/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The same canonical nutrient is supplied by the inspected food records. Tissue uptake and homeostasis remain distinct from an effect of extra intake.",
+        "sources": [
+          "docs/foods/anchovies.md",
+          "docs/foods/miso.md"
+        ]
+      }
+    }
+  },
+  {
+    "pm_id": "BRS1-FM3-PM7",
+    "atom_id": "PM7-DIT-RECOVERY-SODIUM",
+    "input": "Sodium",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM7-DIT-RECOVERY-SODIUM",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Deliver and integrate DHA into neuronal membranes so the brain maintains a flexible, signal-ready lipid foundation.",
+      "canonical_substance_id": "sodium",
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "This supports the specific LPC-DHA carrier route, not all DHA delivery or direct neural incorporation from a meal. Sodium homeostasis, carrier formation and membrane gradients intervene; no added-salt recommendation, food-effective dose or clinical benefit.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/anchovies.md",
+          "docs/foods/miso.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships."
+      },
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Sodium supports MFSD2A-coupled LPC-DHA transport at the blood–brain barrier, one defined capacity arm of neuronal DHA provision.",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC4850279/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The same canonical nutrient is supplied by the inspected food records. Tissue uptake and homeostasis remain distinct from an effect of extra intake.",
+        "sources": [
+          "docs/foods/anchovies.md",
+          "docs/foods/miso.md"
+        ]
+      }
+    }
+  },
+  {
+    "pm_id": "BRS1-FM4-PM10",
+    "atom_id": "PM10-DIT-RECOVERY-SODIUM",
+    "input": "Sodium",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM10-DIT-RECOVERY-SODIUM",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Clear and recycle glutamate efficiently so excitatory load does not overwhelm neural circuits.",
+      "canonical_substance_id": "sodium",
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Established transport-ion capacity does not show that increasing dietary sodium increases brain clearance. CNS ion regulation and Na/K-pump energy supply intervene; transporter gradients are not inferred from a food quantity. No added-salt recommendation or clinical benefit.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/anchovies.md",
+          "docs/foods/miso.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships."
+      },
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Sodium supports the inward ion gradient coupled to EAAT-mediated glutamate uptake.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/9435265/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The same canonical nutrient is supplied by the inspected food records. Tissue uptake and homeostasis remain distinct from an effect of extra intake.",
+        "sources": [
+          "docs/foods/anchovies.md",
+          "docs/foods/miso.md"
+        ]
+      }
+    }
+  },
+  {
+    "pm_id": "BRS1-FM4-PM10",
+    "atom_id": "PM10-DIT-RECOVERY-POTASSIUM",
+    "input": "Potassium",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM10-DIT-RECOVERY-POTASSIUM",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Clear and recycle glutamate efficiently so excitatory load does not overwhelm neural circuits.",
+      "canonical_substance_id": "potassium",
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Established transport-ion capacity does not show that increasing dietary potassium increases brain clearance. CNS ion regulation and Na/K-pump energy supply intervene; transporter gradients are not inferred from a food quantity. No added-salt recommendation or clinical benefit.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/bananas.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships."
+      },
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Potassium supports EAAT countertransport and carrier cycling during glutamate clearance.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/9435265/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The same canonical nutrient is supplied by the inspected food records. Tissue uptake and homeostasis remain distinct from an effect of extra intake.",
+        "sources": [
+          "docs/foods/bananas.md"
+        ]
+      }
+    }
+  },
+  {
+    "pm_id": "BRS1-FM4-PM11",
+    "atom_id": "PM11-DIT-RECOVERY-MAGNESIUM",
+    "input": "Magnesium",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM11-DIT-RECOVERY-MAGNESIUM",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Limit excitotoxic pressure when glutamatergic drive is excessive so neural stability is protected over time.",
+      "canonical_substance_id": "magnesium",
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Neuronal ion-manipulation experiments establish physiological capacity, not oral magnesium delivery at a pharmacological concentration, treatment of excitotoxic injury or benefit above adequacy. Brain homeostasis and membrane voltage remain determinants; more NMDA inhibition is not automatically beneficial.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/almonds.md",
+          "docs/foods/pumpkin-seeds.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships."
+      },
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Dietary magnesium sustains the physiological ion pool required for voltage-dependent NMDA-channel block, a component of excitatory restraint.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/6320006/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The same canonical nutrient is supplied by the inspected food records. Tissue uptake and homeostasis remain distinct from an effect of extra intake.",
+        "sources": [
+          "docs/foods/almonds.md",
+          "docs/foods/pumpkin-seeds.md"
+        ]
+      }
+    }
+  },
+  {
+    "pm_id": "BRS2-FM1-PM1",
+    "atom_id": "PM1-DIT-RECOVERY-VITAMIN-B2",
+    "input": "Vitamin B2",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM1-DIT-RECOVERY-VITAMIN-B2",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Recycle homocysteine to methionine through folate and B12 so methyl-donor supply and homocysteine control stay supported.",
+      "canonical_substance_id": "vitamin-b2",
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Foundational human-enzyme cofactor provenance supports capacity; it is not a measurement of dietary riboflavin-induced remethylation flux, brain methylation or benefit above adequacy. FMN is also required; FAD is the endpoint of the displayed activation chain, not its sole functional cofactor.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/almonds.md",
+          "docs/foods/anchovies.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships."
+      },
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Riboflavin supplies FMN and FAD used by methionine-synthase reductase to regenerate active B12-dependent methionine synthase.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/17892308/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The same canonical nutrient is supplied by the inspected food records. Tissue uptake and homeostasis remain distinct from an effect of extra intake.",
+        "sources": [
+          "docs/foods/almonds.md",
+          "docs/foods/anchovies.md"
+        ]
+      },
+      "active_target_id": "flavin-adenine-dinucleotide",
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b2",
+          "to": "flavin-mononucleotide",
+          "process": "Riboflavin kinase (RFK) phosphorylates riboflavin to FMN using ATP.",
+          "dependencies": [
+            "Functional RFK",
+            "ATP and divalent metal availability"
+          ],
+          "limitations": "Enzyme identity does not quantify tissue cofactor supply or flux after a meal.",
+          "evidence": {
+            "statement": "Human RFK catalyses riboflavin phosphorylation; UniProt Q969G6 entry 195 retrieved 2026-10-26, Rhea 14357.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q969G6/entry",
+              "https://www.rhea-db.org/rhea/14357"
+            ]
+          }
+        },
+        {
+          "from": "flavin-mononucleotide",
+          "to": "flavin-adenine-dinucleotide",
+          "process": "FLAD1 FAD synthase adenylates FMN with ATP to form FAD.",
+          "dependencies": [
+            "Functional FLAD1 FAD synthase",
+            "ATP and divalent metal availability"
+          ],
+          "limitations": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred.",
+          "evidence": {
+            "statement": "Human FLAD1 catalyses FMN adenylation; UniProt Q8NFF5 entry 182 retrieved 2026-10-26, Rhea 17237.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q8NFF5/entry",
+              "https://www.rhea-db.org/rhea/17237"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pm_id": "BRS2-FM1-PM2",
+    "atom_id": "PM2-DIT-4",
+    "input": "Zinc",
+    "from": false,
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM2-DIT-4",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Provide a parallel homocysteine clearance route so methionine and SAMe supply remain resilient when folate demand is high.",
+      "canonical_substance_id": "zinc",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Zinc supplies the catalytic metal that activates the homocysteine thiol in human BHMT; removing enzyme-bound zinc abolishes activity and reconstitution restores it.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/10529246/",
+          "https://doi.org/10.1006/abbi.1998.0757"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The same mineral has established dietary supply through the canonical composition records. Cellular uptake and homeostasis mediate enzyme loading; this is maintenance of capacity, not a claim that extra intake accelerates the reaction.",
+        "sources": [
+          "docs/foods/pumpkin-seeds.md",
+          "docs/foods/cashews.md"
+        ]
+      },
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Human purified-enzyme metal removal/reconstitution and ligand mutants establish zinc-dependent capacity. Dietary zinc supplies the same element, but no human extra-intake BHMT flux response, intake threshold or cognitive benefit is established.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/pumpkin-seeds.md",
+          "docs/foods/cashews.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Inspected existing structured composition records and provisional research coverage for the same mineral. Verified plant/animal sources are reused with preparation qualifiers; no new food edge, effective food dose or enzyme-response inference is created."
+      }
+    }
+  },
+  {
+    "pm_id": "BRS2-FM1-PM3",
+    "atom_id": "PM3-DIT-3",
+    "input": "Magnesium",
+    "from": false,
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM3-DIT-3",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Maintain methionine adenosyltransferase capacity to convert methionine and ATP into SAMe, sustaining the methyl-donor pool used by downstream methyltransferases.",
+      "canonical_substance_id": "magnesium",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Magnesium supplies the catalytic ion coordinating ATP-derived phosphate groups in human MAT-dependent SAM formation.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/26858410/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC8315116/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The same mineral has established dietary supply through the canonical composition records. Cellular uptake and homeostasis mediate enzyme loading; this is maintenance of capacity, not a claim that extra intake accelerates the reaction.",
+        "sources": [
+          "docs/foods/almonds.md",
+          "docs/foods/pumpkin-seeds.md"
+        ]
+      },
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Human MAT structural and enzymological evidence establishes catalytic capacity. Ordinary food supply is distinct from measured MAT flux; no benefit from additional magnesium in replete people or universal methylation increase is asserted.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/almonds.md",
+          "docs/foods/pumpkin-seeds.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Inspected existing structured composition records and provisional research coverage for the same mineral. Verified plant/animal sources are reused with preparation qualifiers; no new food edge, effective food dose or enzyme-response inference is created."
+      }
+    }
+  },
+  {
+    "pm_id": "BRS2-FM1-PM3",
+    "atom_id": "PM3-DIT-4",
+    "input": "Potassium",
+    "from": false,
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM3-DIT-4",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Maintain methionine adenosyltransferase capacity to convert methionine and ATP into SAMe, sustaining the methyl-donor pool used by downstream methyltransferases.",
+      "canonical_substance_id": "potassium",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Potassium supplies the active-site catalytic ion supporting phosphoryl-group positioning in human MAT-dependent SAM formation.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/26858410/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC8315116/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The same mineral has established dietary supply through the canonical composition records. Cellular uptake and homeostasis mediate enzyme loading; this is maintenance of capacity, not a claim that extra intake accelerates the reaction.",
+        "sources": [
+          "docs/foods/bananas.md"
+        ]
+      },
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Human MAT structures establish the specific ion relationship. Physiological potassium homeostasis and tissue uptake intervene; no claim that extra dietary potassium raises SAM flux or improves methylation is established.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/bananas.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Inspected existing structured composition records and provisional research coverage for the same mineral. Verified plant/animal sources are reused with preparation qualifiers; no new food edge, effective food dose or enzyme-response inference is created."
+      }
+    }
+  },
+  {
+    "pm_id": "BRS2-FM2-PM6",
+    "atom_id": "PM6-DIT-5",
+    "input": "Magnesium",
+    "from": false,
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM6-DIT-5",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Build glutathione from sulfur amino acids so cellular antioxidant defence stays connected to one-carbon metabolism.",
+      "canonical_substance_id": "magnesium",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Magnesium supplies the catalytic metal used in ATP-dependent human glutathione-synthetase capacity.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/10369661/",
+          "https://www.uniprot.org/uniprotkb/P48637/entry"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The same mineral has established dietary supply through the canonical composition records. Cellular uptake and homeostasis mediate enzyme loading; this is maintenance of capacity, not a claim that extra intake accelerates the reaction.",
+        "sources": [
+          "docs/foods/almonds.md",
+          "docs/foods/pumpkin-seeds.md"
+        ]
+      },
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Human GSS crystallography and cofactor annotation support capacity. The structure contains two magnesium ions; this does not establish a dietary dose, increased blood or neuronal glutathione synthesis, or benefit above adequacy. Original one-per-subunit wording is retained in history rather than used as dietary stoichiometry.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/almonds.md",
+          "docs/foods/pumpkin-seeds.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Inspected existing structured composition records and provisional research coverage for the same mineral. Verified plant/animal sources are reused with preparation qualifiers; no new food edge, effective food dose or enzyme-response inference is created."
+      }
+    }
+  },
+  {
+    "pm_id": "BRS2-FM3-PM7",
+    "atom_id": "PM7-DIT-RECOVERY-METHIONINE",
+    "input": "Methionine",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM7-DIT-RECOVERY-METHIONINE",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Maintain phosphatidylcholine formation through PEMT methylation and the choline-based Kennedy pathway.",
+      "canonical_substance_id": "methionine",
+      "active_target_id": "s-adenosylmethionine",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Dietary methionine supplies SAM through MAT-dependent activation, sustaining methyl-donor capacity for PEMT methylation of phosphatidylethanolamine.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/26858410/",
+          "https://pubmed.ncbi.nlm.nih.gov/40998128/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Canonical methionine food composition provides the same amino acid used by MAT; no food-dose equivalence to experimental diets is inferred.",
+        "sources": [
+          "docs/substances/nutrients/macronutrients/amino-acids/essential/methionine.md"
+        ]
+      },
+      "conversion_pathway": [
+        {
+          "from": "methionine",
+          "to": "s-adenosylmethionine",
+          "process": "MAT1A/MAT2A catalyse ATP-dependent methionine adenosylation to form SAM.",
+          "dependencies": [
+            "Functional MAT",
+            "ATP, magnesium and potassium",
+            "Tissue access and methyl-donor homeostasis"
+          ],
+          "limitations": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake.",
+          "evidence": {
+            "statement": "Human MAT crystallography and curated Rhea 21080; P31153 v237 and Q00266 v233.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/26858410/",
+              "https://www.uniprot.org/uniprotkb/P31153/entry",
+              "https://www.rhea-db.org/rhea/21080"
+            ]
+          }
+        }
+      ],
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Endogenous remethylation also supplies methionine. Neonatal-piglet isotope incorporation does not establish an adult intake target, cerebral delivery or benefit above adequacy. Methyl allocation, SAH inhibition, transport and other substrate availability constrain the route; no shared KC admission follows.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Reused existing methionine composition and preparation records; no SAM content or food efficacy edge inferred."
+      }
+    }
+  },
+  {
+    "pm_id": "BRS3-FM1-PM2",
+    "atom_id": "PM2-DIT-RECOVERY-OLIGOFRUCTOSE",
+    "input": "Oligofructose",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "B",
+    "assessment": {
+      "atom_id": "PM2-DIT-RECOVERY-OLIGOFRUCTOSE",
+      "status": "admitted",
+      "type": "B",
+      "classification": "direct",
+      "operation": "Limit gut-derived endotoxin spillover so barrier dysfunction does not drive systemic inflammatory load.",
+      "canonical_substance_id": "oligofructose",
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Defined 10% w/w mouse feeding is not a human dose or an ordinary-food effect. This is state regulation, not indispensability. Oligofructose is not chemically converted into GLP-2; no isolated butyrate mediation, generic fibre effect or brain benefit is established.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/oligofructose.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Inspected the canonical oligofructose identity, existing food-research ledger and preparation boundaries. There is no verified whole-food edge for the standardized experimental oligofructose preparation; retain the explicit mapping gap rather than equate all inulin/fructan foods."
+      },
+      "mechanism_engagement": {
+        "status": "established",
+        "statement": "The tested oral oligofructose exposure modulated gut-barrier/endotoxin-related inflammatory state in obese mice through a GLP-2-sensitive route.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/19240062/"
+        ]
+      },
+      "dietary_exposure": {
+        "status": "established",
+        "statement": "The defined dietary oligofructose preparation was administered orally in the primary experiment. It is a dietary fermentation substrate, not an assumption that any fructan-rich food reproduces the studied exposure.",
+        "sources": [
+          "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/oligofructose.md"
+        ]
+      }
+    }
+  },
+  {
+    "pm_id": "BRS3-FM2-PM4",
+    "atom_id": "PM4-DIT-2",
+    "input": "Zinc",
+    "from": false,
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM4-DIT-2",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Balance reactive oxygen species production and clearance so net oxidative pressure stays within tolerable limits.",
+      "canonical_substance_id": "zinc",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Zinc supplies the structural metal stabilising human SOD1, supporting native Cu/Zn-SOD capacity; copper is the redox-active catalytic metal.",
+        "sources": [
+          "https://www.uniprot.org/uniprotkb/P00441/entry",
+          "https://doi.org/10.1016/j.fob.2014.12.003",
+          "https://pubmed.ncbi.nlm.nih.gov/10702173/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The same mineral has established dietary supply through the canonical composition records. Cellular uptake and homeostasis mediate enzyme loading; this is maintenance of capacity, not a claim that extra intake accelerates the reaction.",
+        "sources": [
+          "docs/foods/pumpkin-seeds.md",
+          "docs/foods/cashews.md"
+        ]
+      },
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Curated human SOD1 and experimental structural evidence support a structural capacity relationship, not zinc-dependent catalysis identical to copper. Human dietary SOD responses vary by isoform and status; extra zinc can disturb copper availability. No general oxidative-stress improvement or benefit above adequacy is established.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/pumpkin-seeds.md",
+          "docs/foods/cashews.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Inspected existing structured composition records and provisional research coverage for the same mineral. Verified plant/animal sources are reused with preparation qualifiers; no new food edge, effective food dose or enzyme-response inference is created."
+      }
+    }
+  },
+  {
+    "pm_id": "BRS3-FM2-PM4",
+    "atom_id": "PM4-DIT-RECOVERY-IRON",
+    "input": "Iron",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM4-DIT-RECOVERY-IRON",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Balance reactive oxygen species production and clearance so net oxidative pressure stays within tolerable limits.",
+      "canonical_substance_id": "iron",
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Rat diet and tissue context; the kidney result is not a uniform response across organs or a human intake threshold. Human catalase haem identity supports capacity, not benefit from extra iron. Iron can also promote non-enzymatic oxidation; higher catalase activity is not a clinical benefit.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/beef.md",
+          "docs/foods/spinach.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships."
+      },
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Iron supplies haem-bound catalytic capacity for catalase-mediated hydrogen-peroxide clearance; this does not imply that extra iron improves net redox balance.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/9800317/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Existing food-composition records supply iron; host haem synthesis and catalase loading are necessary. Ordinary food presence does not establish increased peroxide clearance or an effective dose.",
+        "sources": [
+          "docs/foods/beef.md",
+          "docs/foods/spinach.md"
+        ]
+      }
+    }
+  },
+  {
+    "pm_id": "BRS3-FM2-PM5",
+    "atom_id": "PM5-DIT-RECOVERY-SELENIUM",
+    "input": "Selenium",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM5-DIT-RECOVERY-SELENIUM",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Protect membrane fats from oxidative damage so vulnerable polyunsaturated fatty acids remain intact.",
+      "canonical_substance_id": "selenium",
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Mouse whole-organ enzyme assays do not identify mitochondrial isoforms, a human food dose or benefit above selenium adequacy. Repletion response depended on dose; antioxidant capacity does not establish clinical prevention.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/eggs.md",
+          "docs/foods/salmon.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships."
+      },
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Dietary selenium supplies the selenocysteine-dependent phospholipid-hydroperoxide glutathione-peroxidase capacity that removes membrane lipid hydroperoxides.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/2223835/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The same canonical nutrient is supplied by the inspected food records. Tissue uptake and homeostasis remain distinct from an effect of extra intake.",
+        "sources": [
+          "docs/foods/eggs.md",
+          "docs/foods/salmon.md"
+        ]
+      }
+    }
+  },
+  {
+    "pm_id": "BRS3-FM2-PM6",
+    "atom_id": "PM6-DIT-RECOVERY-SELENIUM",
+    "input": "Selenium",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM6-DIT-RECOVERY-SELENIUM",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Regenerate vitamin and thiol antioxidants across networked systems so endogenous defence capacity is sustained.",
+      "canonical_substance_id": "selenium",
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Culture selenium exposure is not an oral food dose. This supports the thioredoxin arm, not selenium dependence of glutathione reductase, universal tissue recycling flux or benefit above adequacy.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/eggs.md",
+          "docs/foods/salmon.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships."
+      },
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Dietary selenium supplies selenocysteine-dependent thioredoxin-reductase capacity for regeneration of reduced thioredoxin.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/9288405/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The same canonical nutrient is supplied by the inspected food records. Tissue uptake and homeostasis remain distinct from an effect of extra intake.",
+        "sources": [
+          "docs/foods/eggs.md",
+          "docs/foods/salmon.md"
+        ]
+      }
+    }
+  },
+  {
+    "pm_id": "BRS3-FM3-PM7",
+    "atom_id": "PM7-DIT-RECOVERY-DHA-DOCOSAHEXAENOIC-ACID",
+    "input": "DHA (Docosahexaenoic Acid)",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "B",
+    "assessment": {
+      "atom_id": "PM7-DIT-RECOVERY-DHA-DOCOSAHEXAENOIC-ACID",
+      "status": "admitted",
+      "type": "B",
+      "classification": "direct",
+      "operation": "Tune downstream cytokine signalling intensity so inflammatory tone does not remain chronically elevated.",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Fifteen male soccer players, eight weeks, 1.16 g DHA/day in a matched beverage comparison. Ex-vivo stimulated production is not resting circulating signalling, receptor response or universal anti-inflammatory benefit. No effect from ordinary fish portions or brain/ADHD outcome is established; temperature and exercise responses differ.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/salmon.md",
+          "docs/foods/sardines.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships."
+      },
+      "mechanism_engagement": {
+        "status": "established",
+        "statement": "Defined oral DHA exposure attenuated selected post-exercise LPS-stimulated mononuclear-cell cytokine-production responses in the tested human context.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/27139422/"
+        ]
+      },
+      "dietary_exposure": {
+        "status": "established",
+        "statement": "The human experiment administered an oral DHA-enriched food matrix and confirmed erythrocyte DHA incorporation. Existing fish-composition records provide the same fatty acid but do not reproduce that beverage dose or prove cytokine effects of ordinary foods.",
+        "sources": [
+          "docs/foods/salmon.md",
+          "docs/foods/sardines.md"
+        ]
+      }
+    }
+  },
+  {
+    "pm_id": "BRS4-FM1-PM1",
+    "atom_id": "PM1-DIT-5",
+    "input": "Copper",
+    "from": false,
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM1-DIT-5",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "canonical_substance_id": "copper",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Copper supplies the CuA/CuB centres required for complex-IV electron transfer and oxygen reduction. Dietary copper deficiency impairs cardiac cytochrome-c-oxidase capacity in rats.",
+        "sources": [
+          "https://www.uniprot.org/uniprotkb/P00395/entry",
+          "https://www.uniprot.org/uniprotkb/P00403/entry",
+          "https://pubmed.ncbi.nlm.nih.gov/9850563/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The same mineral has established dietary supply through the canonical composition records. Cellular uptake and homeostasis mediate enzyme loading; this is maintenance of capacity, not a claim that extra intake accelerates the reaction.",
+        "sources": [
+          "docs/foods/almonds.md",
+          "docs/foods/cashews.md"
+        ]
+      },
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Specific complex-IV metal dependence and dietary-deficiency evidence support capacity supply. Rat cardiac protein/activity effects are not a human optimisation dose, a universal tissue response or proof that extra copper improves electron transport when status is adequate.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/almonds.md",
+          "docs/foods/cashews.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Inspected existing structured composition records and provisional research coverage for the same mineral. Verified plant/animal sources are reused with preparation qualifiers; no new food edge, effective food dose or enzyme-response inference is created."
+      }
+    }
+  },
+  {
+    "pm_id": "BRS4-FM1-PM2",
+    "atom_id": "PM2-DIT-RECOVERY-NICOTINAMIDE-RIBOSIDE",
+    "input": "Nicotinamide riboside",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM2-DIT-RECOVERY-NICOTINAMIDE-RIBOSIDE",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Maintain NAD⁺ availability so redox reactions and mitochondrial signalling stay adequately powered.",
+      "canonical_substance_id": "nicotinamide-riboside",
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Supplemental NR chloride at 100–1000 mg is not an effective milk dose. Blood responses do not establish neuronal or mitochondrial NAD delivery, redox flux, superiority to adequate niacin or clinical benefit. Intestinal metabolism and tissue salvage can differ from the displayed intracellular NRK route; other NAD precursors remain alternatives.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/milk.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Primary milk analysis and the canonical Milk record were inspected. A qualitative cow-milk NR relationship is recorded with source/material limits; no concentration is transplanted into the USDA whole-milk nutrition table. No NR edge is inferred for plant milks, cheese or other dairy without evidence."
+      },
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Dietary nicotinamide riboside can supply the NAD precursor pool through supported salvage reactions, sustaining NAD-availability capacity.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/27721479/",
+          "https://pubmed.ncbi.nlm.nih.gov/27052539/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Primary chemical analysis identifies NR in raw and commercial cow milk. This establishes dietary occurrence, separately from oral supplement-induced blood NAD responses.",
+        "sources": [
+          "docs/foods/milk.md"
+        ]
+      },
+      "active_target_id": "nad-plus",
+      "conversion_pathway": [
+        {
+          "from": "nicotinamide-riboside",
+          "to": "nicotinamide-mononucleotide",
+          "process": "Human NRK1 phosphorylates beta-NR to beta-NMN using ATP.",
+          "dependencies": [
+            "Functional NRK activity",
+            "ATP and divalent-metal availability",
+            "Tissue access to intact NR"
+          ],
+          "limitations": "An established intracellular route is not proof that all oral NR reaches each tissue intact; parallel degradation/salvage can contribute.",
+          "evidence": {
+            "statement": "NRK1 curated reaction, entry version 170, Rhea 14017, retrieved 26 October 2026.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q9NWW6/entry",
+              "https://www.rhea-db.org/rhea/14017",
+              "https://pubmed.ncbi.nlm.nih.gov/15137942/"
+            ]
+          }
+        },
+        {
+          "from": "nicotinamide-mononucleotide",
+          "to": "nad-plus",
+          "process": "NMN adenylyltransferase adenylates oxidised beta-NMN with ATP to form oxidised NAD.",
+          "dependencies": [
+            "Functional NMNAT activity",
+            "ATP availability",
+            "Compartment-specific precursor access"
+          ],
+          "limitations": "NMNAT1 establishes reaction identity; other isoforms/transport determine compartmental provision. No fixed dietary conversion yield or mitochondrial/brain endpoint is inferred.",
+          "evidence": {
+            "statement": "Human NMNAT1, entry version 202, Rhea 21360, retrieved 26 October 2026.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q9HAN9/entry",
+              "https://www.rhea-db.org/rhea/21360"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pm_id": "BRS4-FM1-PM3",
+    "atom_id": "PM3-DIT-2",
+    "input": "Arginine",
+    "from": false,
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM3-DIT-2",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
+      "canonical_substance_id": "arginine",
+      "active_target_id": "creatine",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Arginine supplies a co-substrate for AGAT-dependent guanidinoacetate formation, followed by GAMT-dependent creatine production.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/17928413/",
+          "https://www.uniprot.org/uniprotkb/P50440/entry",
+          "https://www.uniprot.org/uniprotkb/Q14353/entry"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Canonical Arginine composition records establish dietary amino-acid provision. Endogenous synthesis and homeostasis also contribute; dietary supply is not a claim of current deficiency or benefit above adequacy.",
+        "sources": [
+          "docs/substances/nutrients/macronutrients/amino-acids/conditionals/arginine.md"
+        ]
+      },
+      "conversion_pathway": [
+        {
+          "from": "arginine",
+          "to": "guanidinoacetate",
+          "process": "Human AGAT transfers the amidino group of arginine to glycine, yielding guanidinoacetate and ornithine.",
+          "dependencies": [
+            "Functional AGAT",
+            "glycine co-substrate availability",
+            "Tissue access and feedback regulation"
+          ],
+          "limitations": "Both co-substrates are required; this is not a fixed dietary yield or an assertion that extra intake is rate-limiting.",
+          "evidence": {
+            "statement": "UniProt P50440 entry version 227, Rhea 13201; human renal GAA production independently measured.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17928413/",
+              "https://www.uniprot.org/uniprotkb/P50440/entry",
+              "https://www.rhea-db.org/rhea/13201"
+            ]
+          }
+        },
+        {
+          "from": "guanidinoacetate",
+          "to": "creatine",
+          "process": "GAMT methylates guanidinoacetate using S-adenosylmethionine to form creatine.",
+          "dependencies": [
+            "Functional GAMT",
+            "S-adenosylmethionine methyl supply",
+            "Interorgan exchange and receiving-tissue creatine transport"
+          ],
+          "limitations": "Reaction identity does not prove dietary precursor limitation or cerebral delivery; SAM participation creates no independent methionine admission.",
+          "evidence": {
+            "statement": "UniProt Q14353 entry version 215, Rhea 10656.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q14353/entry",
+              "https://www.rhea-db.org/rhea/10656"
+            ]
+          }
+        }
+      ],
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Capacity of the endogenous synthesis route is distinct from a claim that extra amino-acid intake raises cerebral creatine, phosphocreatine buffering or cognition. AGAT feedback, GAMT methyl supply, organ exchange and SLC6A8-mediated tissue transport constrain delivery. Human renal GAA production is not a measurement of brain synthesis flux; rat arginine infusion and glycine null responses are not oral human efficacy experiments.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/substances/nutrients/macronutrients/amino-acids/conditionals/arginine.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Existing canonical amino-acid food composition is reused; no food is relabelled as containing GAA or extra creatine, and no dose equivalence is inferred."
+      }
+    }
+  },
+  {
+    "pm_id": "BRS4-FM1-PM3",
+    "atom_id": "PM3-DIT-3",
+    "input": "Glycine",
+    "from": false,
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM3-DIT-3",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
+      "canonical_substance_id": "glycine",
+      "active_target_id": "creatine",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Glycine supplies a co-substrate for AGAT-dependent guanidinoacetate formation, followed by GAMT-dependent creatine production.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/17928413/",
+          "https://www.uniprot.org/uniprotkb/P50440/entry",
+          "https://www.uniprot.org/uniprotkb/Q14353/entry"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Canonical Glycine composition records establish dietary amino-acid provision. Endogenous synthesis and homeostasis also contribute; dietary supply is not a claim of current deficiency or benefit above adequacy.",
+        "sources": [
+          "docs/substances/nutrients/macronutrients/amino-acids/conditionals/glycine.md"
+        ]
+      },
+      "conversion_pathway": [
+        {
+          "from": "glycine",
+          "to": "guanidinoacetate",
+          "process": "Human AGAT transfers the amidino group of arginine to glycine, yielding guanidinoacetate and ornithine.",
+          "dependencies": [
+            "Functional AGAT",
+            "arginine co-substrate availability",
+            "Tissue access and feedback regulation"
+          ],
+          "limitations": "Both co-substrates are required; this is not a fixed dietary yield or an assertion that extra intake is rate-limiting.",
+          "evidence": {
+            "statement": "UniProt P50440 entry version 227, Rhea 13201; human renal GAA production independently measured.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17928413/",
+              "https://www.uniprot.org/uniprotkb/P50440/entry",
+              "https://www.rhea-db.org/rhea/13201"
+            ]
+          }
+        },
+        {
+          "from": "guanidinoacetate",
+          "to": "creatine",
+          "process": "GAMT methylates guanidinoacetate using S-adenosylmethionine to form creatine.",
+          "dependencies": [
+            "Functional GAMT",
+            "S-adenosylmethionine methyl supply",
+            "Interorgan exchange and receiving-tissue creatine transport"
+          ],
+          "limitations": "Reaction identity does not prove dietary precursor limitation or cerebral delivery; SAM participation creates no independent methionine admission.",
+          "evidence": {
+            "statement": "UniProt Q14353 entry version 215, Rhea 10656.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q14353/entry",
+              "https://www.rhea-db.org/rhea/10656"
+            ]
+          }
+        }
+      ],
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Capacity of the endogenous synthesis route is distinct from a claim that extra amino-acid intake raises cerebral creatine, phosphocreatine buffering or cognition. AGAT feedback, GAMT methyl supply, organ exchange and SLC6A8-mediated tissue transport constrain delivery. Human renal GAA production is not a measurement of brain synthesis flux; rat arginine infusion and glycine null responses are not oral human efficacy experiments.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/substances/nutrients/macronutrients/amino-acids/conditionals/glycine.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Existing canonical amino-acid food composition is reused; no food is relabelled as containing GAA or extra creatine, and no dose equivalence is inferred."
+      }
+    }
+  },
+  {
+    "pm_id": "BRS4-FM1-PM3",
+    "atom_id": "PM3-DIT-RECOVERY-METHIONINE",
+    "input": "Methionine",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM3-DIT-RECOVERY-METHIONINE",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
+      "canonical_substance_id": "methionine",
+      "active_target_id": "s-adenosylmethionine",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Dietary methionine supplies SAM through MAT-dependent activation, sustaining methyl-donor capacity for GAMT methylation of guanidinoacetate.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/26858410/",
+          "https://pubmed.ncbi.nlm.nih.gov/40998128/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Canonical methionine food composition provides the same amino acid used by MAT; no food-dose equivalence to experimental diets is inferred.",
+        "sources": [
+          "docs/substances/nutrients/macronutrients/amino-acids/essential/methionine.md"
+        ]
+      },
+      "conversion_pathway": [
+        {
+          "from": "methionine",
+          "to": "s-adenosylmethionine",
+          "process": "MAT1A/MAT2A catalyse ATP-dependent methionine adenosylation to form SAM.",
+          "dependencies": [
+            "Functional MAT",
+            "ATP, magnesium and potassium",
+            "Tissue access and methyl-donor homeostasis"
+          ],
+          "limitations": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake.",
+          "evidence": {
+            "statement": "Human MAT crystallography and curated Rhea 21080; P31153 v237 and Q00266 v233.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/26858410/",
+              "https://www.uniprot.org/uniprotkb/P31153/entry",
+              "https://www.rhea-db.org/rhea/21080"
+            ]
+          }
+        }
+      ],
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Endogenous remethylation also supplies methionine. Neonatal-piglet isotope incorporation does not establish an adult intake target, cerebral delivery or benefit above adequacy. Methyl allocation, SAH inhibition, transport and other substrate availability constrain the route; no shared KC admission follows.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Reused existing methionine composition and preparation records; no SAM content or food efficacy edge inferred."
+      }
+    }
+  },
+  {
+    "pm_id": "BRS4-FM3-PM7",
+    "atom_id": "PM7-DIT-RECOVERY-CAPRYLIC-TRIGLYCERIDE",
+    "input": "Caprylic Triglyceride",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM7-DIT-RECOVERY-CAPRYLIC-TRIGLYCERIDE",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Enable mitochondrial ketone utilisation so alternative fuel is available when glucose conditions shift.",
+      "canonical_substance_id": "caprylic-triglyceride",
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Uncontrolled sequential exposure: C8/C10 mixture (n=11) then 95% tricaprylin (n=6), 30 g/day for one month each. No claim of isolated C8 superiority, cognitive efficacy, healthy-person requirement or ordinary coconut-oil equivalence. PET uptake/metabolism is not a direct cellular ATP assay; no food-effective dose or fixed conversion yield is inferred.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/mct-oil.md",
+          "docs/foods/coconut-oil.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Inspected MCT Oil’s analytical product-specific triglyceride relationship and Coconut Oil’s explicit distinction between fatty-acid composition and individual triglycerides. Reuse only supported structured or independently researched material edges, retain formulation qualifiers and missing quantities; do not create a coconut-oil trioctanoin edge from C8 fatty-acid content."
+      },
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Defined dietary caprylic triglyceride can supply hepatic ketone production and cerebral ketone-fuel availability for this ketone-utilisation operation.",
+        "sources": [
+          "https://doi.org/10.3233/JAD-180202"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The primary experiment used an orally administered tricaprylin-rich preparation. The MCT Oil record has a product/preparation-dependent caprylic-triglyceride relationship; fatty-acid content alone is not proof of trioctanoin content.",
+        "sources": [
+          "docs/foods/mct-oil.md",
+          "docs/foods/coconut-oil.md"
+        ]
+      },
+      "active_target_id": "acetoacetate",
+      "conversion_pathway": [
+        {
+          "from": "caprylic-triglyceride",
+          "to": "octanoate",
+          "process": "Digestive lipolysis releases C8 fatty acid from trioctanoin; the absorbed fatty acid is represented as octanoate at physiological pH.",
+          "dependencies": [
+            "Functional triglyceride digestion and absorption"
+          ],
+          "limitations": "The C8 acyl form is not free octanoate content in food. Mixed-chain MCT products have formulation-dependent composition.",
+          "evidence": {
+            "statement": "Human triglyceride-lipase reaction provenance and the defined oral tricaprylin exposure; retrieved 26 October 2026.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/P16233/entry",
+              "https://doi.org/10.3233/JAD-180202"
+            ]
+          }
+        },
+        {
+          "from": "octanoate",
+          "to": "acetyl-coa",
+          "process": "Hepatic fatty-acid activation and successive mitochondrial beta-oxidation reactions generate acetyl-CoA from the C8 chain.",
+          "ordered_intermediates": [
+            "Octanoyl-CoA following acyl-CoA synthetase activation",
+            "Successively shortened acyl-CoAs during beta-oxidation",
+            "Acetyl-CoA"
+          ],
+          "dependencies": [
+            "Fatty-acid activation",
+            "Mitochondrial beta-oxidation machinery",
+            "CoA, ATP and redox-cofactor availability"
+          ],
+          "limitations": "This is a multireaction biological process, not a single chemical reaction. Tissue partitioning and energy state prevent a fixed food-to-acetyl-CoA yield. Cofactor participation creates no separate dietary admissions.",
+          "evidence": {
+            "statement": "Human medium-chain acyl-CoA dehydrogenase establishes the initial beta-oxidation reaction; the clinical exposure additionally measures downstream ketone provision.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/P11310/entry",
+              "https://doi.org/10.3233/JAD-180202"
+            ]
+          }
+        },
+        {
+          "from": "acetyl-coa",
+          "to": "acetoacetate",
+          "process": "Hepatic mitochondrial ketogenesis proceeds through acetoacetyl-CoA formation, HMG-CoA synthase and HMG-CoA lyase to produce acetoacetate.",
+          "ordered_intermediates": [
+            "Acetoacetyl-CoA (ACAT1 thiolase)",
+            "HMG-CoA (HMGCS2)",
+            "Acetoacetate (HMGCL)"
+          ],
+          "dependencies": [
+            "Functional hepatic ketogenesis",
+            "Mitochondrial enzyme and substrate availability",
+            "Ketone release, circulation and brain monocarboxylate transport"
+          ],
+          "limitations": "The endogenous product can interconvert with beta-hydroxybutyrate, but the target identity here is acetoacetate. Ketogenesis, cerebral uptake and ATP production are distinct; no fixed yield or universal benefit is inferred.",
+          "evidence": {
+            "statement": "Curated human ACAT1, HMGCS2 and HMGCL reactions, retrieved 26 October 2026.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/P24752/entry",
+              "https://www.uniprot.org/uniprotkb/P54868/entry",
+              "https://www.uniprot.org/uniprotkb/P35914/entry",
+              "https://doi.org/10.3233/JAD-180202"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pm_id": "BRS5-FM2-PM5",
+    "atom_id": "PM5-DIT-RECOVERY-INULIN",
+    "input": "Inulin",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM5-DIT-RECOVERY-INULIN",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "canonical_substance_id": "inulin",
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Culture conditions and community composition constrain production. Human inulin tracer estimates depend on assumed systemic availability; the human chicory-inulin trial did not significantly increase faecal butyrate. No fixed food yield, intake target or brain benefit is established.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/inulin.md",
+          "docs/foods/onions.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Inspected canonical inulin and onion records and the existing food-research ledger. No structured long-chain-specific food edge currently exists; mixed-fructan presence is insufficient to invent one. Dietary ingredient supply is established by oral human studies; exact food chain-length coverage remains an explicit ontology gap."
+      },
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Inulin supplies fermentable carbohydrate for SCFA-producing microbial capacity; product distribution depends on community and culture or host conditions.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/15182395/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Defined oral inulin exposures are documented in human studies, including 15 g with breakfast in PMID 26516911. A formulated inulin ingredient is not interchangeable with every fructan food or oligofructose-enriched blend.",
+        "sources": [
+          "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/inulin.md",
+          "docs/foods/onions.md"
+        ]
+      }
+    }
+  },
+  {
+    "pm_id": "BRS5-FM2-PM6",
+    "atom_id": "PM6-DIT-RECOVERY-EPICATECHIN",
+    "input": "Epicatechin",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "A",
+    "assessment": {
+      "atom_id": "PM6-DIT-RECOVERY-EPICATECHIN",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "canonical_substance_id": "epicatechin",
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Donor cultures do not establish a predictable whole-food conversion yield, mitochondrial effect or clinical benefit. Human apple-extract evidence involves mixed monomeric catechins, not isolated epicatechin efficacy. Do not generalise to EGCG or all procyanidins.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/cocoa.md",
+          "docs/foods/dark-chocolate.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships."
+      },
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Epicatechin supplies a defined microbial substrate for phenolic ring-fission and valerolactone-generation capacity.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/33216536/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Existing cocoa and dark-chocolate composition relationships document epicatechin presence without a verified concentration. Processing and matrix differences remain; these foods are substrate sources, not proven mitochondrial interventions.",
+        "sources": [
+          "docs/foods/cocoa.md",
+          "docs/foods/dark-chocolate.md"
+        ]
+      }
+    }
+  },
+  {
+    "pm_id": "BRS6-FM1-PM3",
+    "atom_id": "PM3-DIT-RECOVERY-RESISTANT-STARCH",
+    "input": "Resistant starch",
+    "from": "Unset/missing",
+    "to": true,
+    "type": "B",
+    "assessment": {
+      "atom_id": "PM3-DIT-RECOVERY-RESISTANT-STARCH",
+      "status": "admitted",
+      "type": "B",
+      "classification": "direct",
+      "operation": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "canonical_substance_id": "resistant-starch",
+      "assessment_date": "2026-10-26",
+      "assessment_limitations": "Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference.",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/foods/bananas.md",
+          "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch.md",
+          "system/food-target-research.json"
+        ],
+        "sufficient_coverage_rationale": "Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships."
+      },
+      "mechanism_engagement": {
+        "status": "established",
+        "statement": "Defined oral resistant-starch supplementation modulated clamp-measured insulin sensitivity and post-meal forearm glucose clearance in a small human study.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/16155268/",
+          "https://pubmed.ncbi.nlm.nih.gov/24671124/"
+        ]
+      },
+      "dietary_exposure": {
+        "status": "established",
+        "statement": "The dietary ingredient was administered orally and the same substrate class has form-dependent food-source records. Neither green-banana content nor cooling a food establishes equivalence to the tested resistant-starch supplement.",
+        "sources": [
+          "docs/foods/bananas.md",
+          "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch.md"
+        ]
+      }
+    }
+  }
+]

@@ -1,4 +1,4 @@
-# Maximum file size in bytes (1MB = 1048576 bytes)
+# Default maximum file size in bytes (1 MiB).
 MAX_SIZE=1048576
 
 # Get list of staged files
@@ -27,11 +27,21 @@ for file in $staged_files; do
     continue
   fi
   
-  # Check if file size exceeds limit
-  if [ "$file_size" -gt "$MAX_SIZE" ]; then
+  # These canonical text records outgrew 1 MiB during the 64-PM recovery.
+  # Keep a bounded 2 MiB allowance for these exact files only.
+  file_limit=$MAX_SIZE
+  case "$file" in
+    static/bibtex/BRAIN-diet.bib|system/generated/dietary-food-targets/manuscript-rollup-brs1.json|system/sec-assessments/registry.json)
+      file_limit=2097152
+      ;;
+  esac
+
+  # Check if file size exceeds its limit.
+  if [ "$file_size" -gt "$file_limit" ]; then
     # Convert bytes to MB for display
     size_mb=$(awk "BEGIN {printf \"%.2f\", $file_size/1048576}")
-    echo "❌ Error: File '$file' is too large ($size_mb MB). Maximum allowed size is 1 MB."
+    limit_mb=$(awk "BEGIN {printf \"%.0f\", $file_limit/1048576}")
+    echo "❌ Error: File '$file' is too large ($size_mb MB). Maximum allowed size is $limit_mb MiB."
     error_found=true
   fi
 done

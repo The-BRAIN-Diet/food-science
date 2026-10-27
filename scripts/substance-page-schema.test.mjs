@@ -1,3 +1,4 @@
+import {createDietaryPathwayIndex} from './lib/dietary-pathway-index.mjs';
 import test from "node:test"
 import assert from "node:assert/strict"
 import fs from "node:fs"
@@ -138,105 +139,22 @@ test("fermentable-food support is not represented as direct Butyrate content", (
   }
 })
 
-test("Butyrate Dietary Origin separates direct content from substrate pathways", () => {
-  const foodDocsDir = path.join(ROOT, "docs/foods")
-  const foodDocs = fs
-    .readdirSync(foodDocsDir)
-    .filter((name) => /\.mdx?$/.test(name))
-    .map((name) =>
-      loadDoc(
-        `docs/foods/${name}`,
-        `/docs/foods/${name.replace(/\.mdx?$/, "")}`,
-      ),
-    )
-  const docs = [
-    loadDoc(
-      "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
-      "/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling",
-    ),
-    ...foodDocs,
-  ]
-
-  const projection = buildDietaryOriginProjection(docs, {
-    target: "Butyrate",
-    pmId: "BRS5-FM2-PM5",
-  })
-  assert.ok(projection)
-  assert.deepEqual(projection.directFoodContent, [])
-  assert.equal(projection.product.dietaryInput, false)
-  assert.equal(projection.product.admittedDietaryRequirement, false)
-  assert.equal(projection.pathways.length, 3)
-
-  const byInput = Object.fromEntries(projection.pathways.map((pathway) => [pathway.atom.input, pathway]))
-  const starch = byInput["Resistant starch"]
-  const pectin = byInput.Pectin
-  const oligosaccharides = byInput[
-    "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)"
-  ]
-  assert.ok(starch && pectin && oligosaccharides)
-
-  assert.deepEqual(
-    starch.foods.map((food) => food.title),
-    ["Bananas", "Black Beans", "Chickpeas", "Potatoes"],
-  )
-  assert.equal(
-    starch.foods.find((food) => food.title === "Bananas").edge.substrateAmount,
-    "2.7–25.3 g per 100 g fresh weight",
-  )
-  assert.equal(
-    starch.foods.find((food) => food.title === "Potatoes").edge.substrateAmount,
-    "2.2–5.4 g per 100 g, moisture-corrected",
-  )
-  assert.equal(starch.foods.find((food) => food.title === "Black Beans").edge.substrateAmount, "3–5 g per 100 g dry weight")
-  assert.equal(starch.foods.find((food) => food.title === "Chickpeas").edge.substrateAmount, "3–5 g per 100 g dry weight")
-  for (const food of starch.foods) assert.equal(food.edge.butyrateQuantity, null)
-  assert.equal(starch.substrateHref, "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch")
-  assert.equal(starch.conversion.butyrateSpecificity, "preparation-specific-butyrate")
-  assert.equal(starch.relationshipMetadata.productRelationship, "derived")
-  assert.equal(starch.relationshipMetadata.requirementClassification, "direct")
-  assert.equal(starch.relationshipMetadata.typeLabel, "Type A — Capacity")
-  for (const food of starch.foods) {
-    assert.equal(food.verification, "canonical")
-    assert.equal(food.edge.relationship, "contains")
-    assert.equal(food.edge.classification, "direct-composition")
-    assert.equal(food.edge.butyrateQuantity, null)
-    assert.match(food.edge.preparation, /\S/)
-    assert.match(food.edge.sourceNote, /\S/)
-  }
-
-  assert.deepEqual(pectin.foods, [])
-  assert.equal(pectin.substrateHref, "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin")
-  assert.equal(pectin.conversion.butyrateSpecificity, "scfa-not-butyrate-specific")
-  assert.deepEqual(
-    pectin.provisionalNotes.map((note) => note.title),
-    ["Apples"],
-  )
-
-  assert.deepEqual(oligosaccharides.foods, [])
-  assert.deepEqual(oligosaccharides.provisionalNotes, [])
-  assert.equal(
-    oligosaccharides.substrateHref,
-    "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructo-galacto-oligosaccharides",
-  )
-  assert.equal(oligosaccharides.identityStatus, "resolved")
-  assert.equal(oligosaccharides.conversion.butyrateSpecificity, "butyrate-yield-not-established")
-
-  const renderedFoods = projection.pathways.flatMap((pathway) => [
-    ...pathway.foods.map((food) => food.title),
-    ...pathway.provisionalNotes.map((note) => note.title),
-  ])
-  for (const title of ["Lentils", "Mankai (Duckweed)", "Grass-Fed Butter", "Ghee", "Parmesan Cheese", "Asparagus"]) {
-    assert.equal(renderedFoods.includes(title), false, title)
-  }
-})
+test("Butyrate Dietary Origin requires PM admission and conversion evidence, not KC labels alone", () => {
+  const index=createDietaryPathwayIndex(ROOT);
+  const pm1=loadDoc("docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx","/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity");
+  assert.equal(buildDietaryOriginProjection([pm1],{target:"Butyrate",pmId:"BRS5-FM1-PM1",pathwayIndex:index}).pathways.length,0);
+  const pm5=loadDoc("docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx","/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling");
+  const projection=buildDietaryOriginProjection([pm5],{target:"Butyrate",pmId:"BRS5-FM2-PM5",pathwayIndex:index});
+  assert.equal(projection.pathways.length,1);
+  assert.equal(projection.pathways[0].atom.substance_id,'resistant-starch');
+  assert.ok(projection.pathways[0].foods.some(f=>f.title==='Bananas'&&f.preparation));
+  assert.ok(!projection.pathways.some(p=>/pectin|galacto/i.test(p.atom.input)));
+  assert.equal(buildDietaryOriginProjection([pm5],{target:"Butyrate",pmId:"BRS5-FM2-PM5"}).pathways.length,0);
+});
 
 test("Butyrate page uses the ontology projection without defensive implementation prose", () => {
   const page = read("docs/substances/microbial-metabolites/scfas/butyrate.md")
-  const component = read("src/theme/DietaryOriginProjection/index.tsx")
-  assert.match(page, /<DietaryOriginProjection[\s\S]*target="Butyrate"[\s\S]*pmId="BRS5-FM2-PM5"[\s\S]*\/>/)
-  assert.match(component, /No verified direct food-content records currently available\./)
-  assert.match(page, /SCFA production and signalling/)
-  assert.match(page, /Production, absorption and signalling are not one claim/)
+  assert.match(page, /<DietaryPathways targetId="butyrate" \/>/)
   assert.doesNotMatch(page, /No fermentable-fibre food is emitted/)
   assert.doesNotMatch(page, /The Foods component does not convert/)
   assert.doesNotMatch(page, /Food\s*→\s*contains\s*→\s*Butyrate/)

@@ -42,6 +42,22 @@
     "flags": []
   },
   {
+    "relationship_id": "BRS2-FM1-PM1::PM1-DIT-RECOVERY-FAD",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx#dietary_input_traceability/PM1-DIT-RECOVERY-FAD",
+    "input": "Flavin adenine dinucleotide",
+    "dietary_input": false,
+    "note": "Target of the separately admitted riboflavin activation route; not duplicated as a primary dietary presentation.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM1::PM1-DIT-RECOVERY-VITAMIN-B2",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx#dietary_input_traceability/PM1-DIT-RECOVERY-VITAMIN-B2",
+    "input": "Vitamin B2",
+    "dietary_input": true,
+    "note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition does not establish an effective intervention dose.",
+    "flags": []
+  },
+  {
     "relationship_id": "BRS2-FM1-PM2::PM2-DIT-1",
     "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx#dietary_input_traceability/PM2-DIT-1",
     "input": "Betaine",
@@ -68,9 +84,9 @@
   {
     "relationship_id": "BRS2-FM1-PM2::PM2-DIT-4",
     "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx#dietary_input_traceability/PM2-DIT-4",
-    "input": "Zinc ion (Zn²⁺)",
-    "dietary_input": false,
-    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "input": "Zinc",
+    "dietary_input": true,
+    "note": "2026-10-26 recovery: admitted Type A capacity under the functional-dependency and dietary-supply gate. The original biochemical-only record and its rationale are preserved in the recovery history. No additional-intake efficacy is asserted.",
     "flags": []
   },
   {
@@ -100,17 +116,17 @@
   {
     "relationship_id": "BRS2-FM1-PM3::PM3-DIT-3",
     "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx#dietary_input_traceability/PM3-DIT-3",
-    "input": "Magnesium ions (Mg²⁺)",
-    "dietary_input": false,
-    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "input": "Magnesium",
+    "dietary_input": true,
+    "note": "2026-10-26 recovery: admitted Type A capacity under the functional-dependency and dietary-supply gate. The original biochemical-only record and its rationale are preserved in the recovery history. No additional-intake efficacy is asserted.",
     "flags": []
   },
   {
     "relationship_id": "BRS2-FM1-PM3::PM3-DIT-4",
     "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx#dietary_input_traceability/PM3-DIT-4",
-    "input": "Potassium ions (K⁺)",
-    "dietary_input": false,
-    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "input": "Potassium",
+    "dietary_input": true,
+    "note": "2026-10-26 recovery: admitted Type A capacity under the functional-dependency and dietary-supply gate. The original biochemical-only record and its rationale are preserved in the recovery history. No additional-intake efficacy is asserted.",
     "flags": []
   },
   {
@@ -324,9 +340,9 @@
   {
     "relationship_id": "BRS2-FM2-PM6::PM6-DIT-5",
     "source_record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx#dietary_input_traceability/PM6-DIT-5",
-    "input": "Magnesium ions (Mg²⁺)",
-    "dietary_input": false,
-    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "input": "Magnesium",
+    "dietary_input": true,
+    "note": "2026-10-26 recovery: admitted Type A capacity under the functional-dependency and dietary-supply gate. The original biochemical-only record and its rationale are preserved in the recovery history. No additional-intake efficacy is asserted.",
     "flags": []
   },
   {
@@ -431,6 +447,14 @@
     "input": "Choline",
     "dietary_input": false,
     "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM3-PM7::PM7-DIT-RECOVERY-METHIONINE",
+    "source_record": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-RECOVERY-METHIONINE",
+    "input": "Methionine",
+    "dietary_input": true,
+    "note": "2026-10-26: Type A capacity admission after ordered MAT/SAM reconciliation; original SAM participant remains non-dietary.",
     "flags": []
   }
 ]

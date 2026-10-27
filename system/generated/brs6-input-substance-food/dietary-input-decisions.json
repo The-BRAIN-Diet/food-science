@@ -8,11 +8,19 @@
     "flags": []
   },
   {
-    "relationship_id": "BRS6-FM4-PM8::PM8-DIT-1",
-    "source_record": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx#dietary_input_traceability/PM8-DIT-1",
-    "input": "Green Mediterranean dietary pattern",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-RECOVERY-RESISTANT-STARCH",
+    "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-RESISTANT-STARCH",
+    "input": "Resistant starch",
     "dietary_input": true,
-    "note": "Dietary state-regulation relationship at pattern level; not nutritional indispensability or an independently effective dose for any component.",
+    "note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type B gate; food composition does not establish an effective intervention dose.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS6-FM4-PM8::PM8-DIT-12",
+    "source_record": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx#dietary_input_traceability/PM8-DIT-12",
+    "input": "DHA (Docosahexaenoic Acid)",
+    "dietary_input": true,
+    "note": "Type B regulatory relationship; no dietary necessity, brain efficacy or ordinary-food intervention equivalence.",
     "flags": []
   }
 ]

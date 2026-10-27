@@ -1995,43 +1995,1020 @@
     },
     {
       "brs": "BRS6",
-      "fm": "BRS6(FM4)",
-      "pm": "BRS6-FM4-PM8",
-      "biological_mechanism": "Limit metabolic-inflammatory signalling from adipose stress so whole-body resource allocation is not overloaded.",
-      "dietary_input": "Green Mediterranean dietary pattern",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Resistant starch",
       "type": "B",
       "classification": "direct",
-      "canonical_substance_id": null,
+      "canonical_substance_id": "resistant-starch",
       "ontology_connections": {
-        "identity": "unresolved",
+        "identity": "resolved",
         "conversion": "not-applicable",
-        "food": "unresolved"
+        "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": null,
-      "food_title": null,
-      "food_material": null,
+      "admission_basis": "versioned-assessment",
+      "food_target": "bananas",
+      "food_title": "Bananas",
+      "food_material": "Cavendish and plantain bananas",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Cavendish and plantain bananas",
+          "preparation": "Green/unripe; cultivar and ripening state matter",
+          "evidence": {
+            "statement": "Direct starch analyses examined resistant-starch decline during ripening in two cultivars.",
+            "sources": [
+              "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Qualitative source; no amount inferred from total carbohydrate or fibre and no fixed fermentation yield.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/bananas.md#substance_relationships/Resistant%20starch",
+          "evidence": "Gao et al., Postharvest Biology and Technology 2016",
+          "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre."
+        },
+        {
+          "statement": "Direct starch analyses examined resistant-starch decline during ripening in two cultivars.",
+          "sources": [
+            "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F5"
+        ],
+        "citation_keys": [
+          "robertson_resistant_starch_clamp_2005",
+          "bodinham_resistant_starch_diabetes_2014"
+        ]
+      },
+      "preparation": "Green/unripe; cultivar and ripening state matter",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Resistant starch",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "resistant-starch",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "black-beans",
+      "food_title": "Black Beans",
+      "food_material": "Cooked black beans",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Cooked black beans",
+          "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+          "evidence": {
+            "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+            "sources": [
+              "https://doi.org/10.1016/j.nfs.2016.02.002"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Qualitative source only; assay included dry-weight quantities. Do not convert these to cooked-food fresh weight. Experimental room-temperature holding is not a food-handling recommendation.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/black-beans.md#substance_relationships/Resistant%20starch",
+          "evidence": "Fabbri et al., NFS Journal 2016",
+          "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+        },
+        {
+          "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+          "sources": [
+            "https://doi.org/10.1016/j.nfs.2016.02.002"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F5"
+        ],
+        "citation_keys": [
+          "robertson_resistant_starch_clamp_2005",
+          "bodinham_resistant_starch_diabetes_2014"
+        ]
+      },
+      "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Resistant starch",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "resistant-starch",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "chickpeas",
+      "food_title": "Chickpeas",
+      "food_material": "Cooked chickpeas",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Cooked chickpeas",
+          "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+          "evidence": {
+            "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+            "sources": [
+              "https://doi.org/10.1016/j.nfs.2016.02.002"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Qualitative source only; assay included dry-weight quantities. Do not convert these to cooked-food fresh weight. Experimental room-temperature holding is not a food-handling recommendation.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chickpeas.md#substance_relationships/Resistant%20starch",
+          "evidence": "Fabbri et al., NFS Journal 2016",
+          "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+        },
+        {
+          "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+          "sources": [
+            "https://doi.org/10.1016/j.nfs.2016.02.002"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F5"
+        ],
+        "citation_keys": [
+          "robertson_resistant_starch_clamp_2005",
+          "bodinham_resistant_starch_diabetes_2014"
+        ]
+      },
+      "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Resistant starch",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "resistant-starch",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "potatoes",
+      "food_title": "Potatoes",
+      "food_material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+          "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+          "evidence": {
+            "statement": "Resistant starch was measured by cooking method and service temperature.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Preparation-specific assay; no generic amount or fixed SCFA yield. Quantities have not been extracted into this ledger.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/potatoes.md#substance_relationships/Resistant%20starch",
+          "evidence": "Raatz et al., Food Chemistry 2016",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/27132853/",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Preparation and service temperature change the assay. A generic potato portion is not this result."
+        },
+        {
+          "statement": "Resistant starch was measured by cooking method and service temperature.",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F5"
+        ],
+        "citation_keys": [
+          "robertson_resistant_starch_clamp_2005",
+          "bodinham_resistant_starch_diabetes_2014"
+        ]
+      },
+      "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "algal-oil",
+      "food_title": "Algal Oil",
+      "food_material": "Authorised algal oils; formulation-specific",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
       "ontology_relationship_status": null,
       "reconciled_sources": [],
-      "mapping_status": "unresolved",
-      "food_evidence": null,
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/algal-oil.md#substance_relationships/DHA",
+          "evidence": "EU authorised algal oil specifications",
+          "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017R2470",
+          "source_reference": "#food-source-4",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "DHA presence is supported by the authorised algal-oil specifications on this page. The amount is formulation-specific and is not established as one value for algal oil in general."
+        }
+      ],
       "pm_evidence": {
         "finding_ids": [
-          "PM8-F3"
+          "PM8-F19"
         ],
         "citation_keys": [
-          "zelicha_effect_2022",
-          "zelicha_proteome_2024"
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
         ]
       },
       "preparation": null,
-      "delivery": null,
+      "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
-        "The randomized evidence applies to the combined pattern with physical activity; individual food effects and adipose inflammatory mediation remain uncertain."
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "anchovies",
+      "food_title": "Anchovies",
+      "food_material": "Fish, anchovy, european, canned in oil, drained solids",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/anchovies.md#substance_relationships/DHA",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174183/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports DHA in Fish, anchovy, european, canned in oil, drained solids."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": "oil",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "cockles",
+      "food_title": "Cockles",
+      "food_material": "edible Cerastoderma edule tissue",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/cockles.md#substance_relationships/DHA",
+          "evidence": "Fatty Acid Composition in Edible Tissue of Cerastoderma edule (2015)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4471671/",
+          "source_reference": "#food-source-7",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Reported in edible Cerastoderma edule tissue."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "herring",
+      "food_title": "Herring",
+      "food_material": "Fish, herring, Atlantic, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/herring.md#substance_relationships/DHA",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/175116/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports DHA in Fish, herring, Atlantic, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "lumpfish-roe",
+      "food_title": "Lumpfish Roe",
+      "food_material": "commercial salmon, trout or lumpfish roe",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/lumpfish-roe.md#substance_relationships/DHA",
+          "evidence": "Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
+          "source_reference": "#food-source-2",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Contains omega-3 fatty acids; content varies with the roe product."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "mackerel",
+      "food_title": "Mackerel",
+      "food_material": "Fish, mackerel, Atlantic, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/mackerel.md#substance_relationships/DHA",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/175119/nutrients",
+          "source_reference": "#food-source-5",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports DHA in Fish, mackerel, Atlantic, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "mussels",
+      "food_title": "Mussels",
+      "food_material": "Mollusks, mussel, blue, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/mussels.md#substance_relationships/DHA",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174216/nutrients",
+          "source_reference": "#food-source-3",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports DHA in Mollusks, mussel, blue, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "oysters",
+      "food_title": "Oysters",
+      "food_material": "Mollusks, oyster, eastern, wild, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/oysters.md#substance_relationships/DHA",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171978/nutrients",
+          "source_reference": "#food-source-5",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports DHA in Mollusks, oyster, eastern, wild, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "salmon-roe",
+      "food_title": "Salmon Roe",
+      "food_material": "chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/salmon-roe.md#substance_relationships/DHA",
+          "evidence": "MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food 10140",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7&MODE=4",
+          "source_reference": "#food-source-8",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "Salted chum-salmon ikura contains 2,000 mg DHA per 100 g."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "salmon",
+      "food_title": "Salmon",
+      "food_material": "Fish, salmon, Atlantic, farmed, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/salmon.md#substance_relationships/DHA",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
+          "source_reference": "#food-source-4",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports DHA in Fish, salmon, Atlantic, farmed, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "sardines",
+      "food_title": "Sardines",
+      "food_material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/sardines.md#substance_relationships/DHA",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/175139/nutrients",
+          "source_reference": "#food-source-5",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports DHA in Fish, sardine, Atlantic, canned in oil, drained solids with bone."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": "oil",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "trout-roe",
+      "food_title": "Trout Roe",
+      "food_material": "commercial salmon, trout or lumpfish roe",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/trout-roe.md#substance_relationships/DHA",
+          "evidence": "Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
+          "source_reference": "#food-source-4",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Contains omega-3 fatty acids; content varies with the roe product."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "tuna",
+      "food_title": "Tuna",
+      "food_material": "Fish, tuna, fresh, bluefin, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/tuna.md#substance_relationships/DHA",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/173706/nutrients",
+          "source_reference": "#food-source-3",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports DHA in Fish, tuna, fresh, bluefin, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
       ],
       "missing_ontology_edge": null
     }

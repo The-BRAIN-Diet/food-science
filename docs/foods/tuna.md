@@ -181,6 +181,87 @@ nutrition_supplementary_sources:
     notes: the named meat or fish tissue
     source_reference: '#food-source-2'
 substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-173709
+    material: >-
+      Fish, tuna, light, canned in water, drained solids (Includes foods for USDA's Food
+      Distribution Program)
+    preparation: canned, drained
+    food_group: animal
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 173709
+      source_url: https://fdc.nal.usda.gov/food-details/173709/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 19.44
+    protein_source_row_id: "1800306"
+    amino_acids:
+      histidine:
+        value: 0.548
+        source_row_id: "1800235"
+        nutrient_id: "1221"
+        data_points: 0
+        derivation_id: "1"
+      isoleucine:
+        value: 0.858
+        source_row_id: "1800229"
+        nutrient_id: "1212"
+        data_points: 0
+        derivation_id: "1"
+      leucine:
+        value: 1.514
+        source_row_id: "1800230"
+        nutrient_id: "1213"
+        data_points: 0
+        derivation_id: "1"
+      lysine:
+        value: 1.711
+        source_row_id: "1800231"
+        nutrient_id: "1214"
+        data_points: 0
+        derivation_id: "1"
+      methionine:
+        value: 0.551
+        source_row_id: "1800299"
+        nutrient_id: "1215"
+        data_points: 0
+        derivation_id: "1"
+      phenylalanine:
+        value: 0.727
+        source_row_id: "1800300"
+        nutrient_id: "1217"
+        data_points: 0
+        derivation_id: "1"
+      threonine:
+        value: 0.817
+        source_row_id: "1800298"
+        nutrient_id: "1211"
+        data_points: 0
+        derivation_id: "1"
+      tryptophan:
+        value: 0.209
+        source_row_id: "1800297"
+        nutrient_id: "1210"
+        data_points: 0
+        derivation_id: "1"
+      valine:
+        value: 0.959
+        source_row_id: "1800233"
+        nutrient_id: "1219"
+        data_points: 0
+        derivation_id: "1"
+    portion:
+      label: 3 oz
+      source_row_id: "93155"
+      source_grams: 85
+      multiplier: 1
+    limitations: >-
+      USDA database composition, including source-specific analytical or calculated values. No
+      amino-acid-specific digestibility correction; illustrative USDA household portion, not an
+      intake recommendation. Missing values are not treated as zero.
 ---
 ## Overview
 

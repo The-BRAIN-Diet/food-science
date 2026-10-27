@@ -182,6 +182,85 @@ substance_relationships:
     source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8708635/
     source_reference: '#food-source-2'
 substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-174217
+    material: Mollusks, mussel, blue, cooked, moist heat
+    preparation: cooked
+    food_group: animal
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 174217
+      source_url: https://fdc.nal.usda.gov/food-details/174217/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 23.8
+    protein_source_row_id: "1841076"
+    amino_acids:
+      tryptophan:
+        value: 0.267
+        source_row_id: "1841092"
+        nutrient_id: "1210"
+        data_points: 0
+        derivation_id: null
+      threonine:
+        value: 1.025
+        source_row_id: "1841093"
+        nutrient_id: "1211"
+        data_points: 0
+        derivation_id: null
+      methionine:
+        value: 0.537
+        source_row_id: "1841094"
+        nutrient_id: "1215"
+        data_points: 0
+        derivation_id: null
+      phenylalanine:
+        value: 0.853
+        source_row_id: "1841095"
+        nutrient_id: "1217"
+        data_points: 0
+        derivation_id: null
+      isoleucine:
+        value: 1.036
+        source_row_id: "1841108"
+        nutrient_id: "1212"
+        data_points: 0
+        derivation_id: null
+      leucine:
+        value: 1.676
+        source_row_id: "1841109"
+        nutrient_id: "1213"
+        data_points: 0
+        derivation_id: null
+      lysine:
+        value: 1.779
+        source_row_id: "1841110"
+        nutrient_id: "1214"
+        data_points: 0
+        derivation_id: null
+      valine:
+        value: 1.04
+        source_row_id: "1841112"
+        nutrient_id: "1219"
+        data_points: 0
+        derivation_id: null
+      histidine:
+        value: 0.457
+        source_row_id: "1841114"
+        nutrient_id: "1221"
+        data_points: 0
+        derivation_id: null
+    portion:
+      label: 3 oz
+      source_row_id: "93960"
+      source_grams: 85
+      multiplier: 1
+    limitations: >-
+      USDA database composition, including source-specific analytical or calculated values. No
+      amino-acid-specific digestibility correction; illustrative USDA household portion, not an
+      intake recommendation. Missing values are not treated as zero.
 ---
 ## Overview
 

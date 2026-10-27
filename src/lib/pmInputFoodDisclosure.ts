@@ -1,6 +1,6 @@
-import {informationIcon, renderCoverageWarning, renderUpstreamCandidates, unresolvedButyratePrecursorCandidates} from "./foodTargetTraceability.mjs";
-import {relatedFoodsForInput, renderRelatedFoodSources} from "../data/relatedSubstanceRelationships.mjs";
+import {informationIcon, renderCoverageWarning, foodTargetCoverageWarning, inputCoverageWarnings} from "./foodTargetTraceability.mjs";
 import generatedScopes from "../data/inputMappingScopes.mjs";
+import {formatAggregateSumForDropdown} from './aggregateFoodComposition.mjs';
 import { selectBrsReviewData, canonicalInputSection } from "../data/inputSubstanceFoodSelection.mjs";
 /** Read-only display of generated PM input joins; no hand-maintained food lists. */
 export type MappingData = {
@@ -12,6 +12,7 @@ export type MappingData = {
 const norm = (v: string) => String(v || '').toLowerCase().replace(/\s+/g, ' ').trim();
 function esc(v: unknown) { return String(v ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
 function isProbablyAnimalSource(source: any): boolean {
+    if (source.food_group) return source.food_group === 'animal';
     const value = norm([
         source.food_id,
         source.food_title,
@@ -20,7 +21,7 @@ function isProbablyAnimalSource(source: any): boolean {
         source.product,
         source.species,
     ].filter(Boolean).join(' '));
-    return /\b(anchov|beef|chicken|clam|cod|crab|duck|egg|fish|liver|mackerel|meat|milk|mussel|oyster|pork|poultry|salmon|sardine|scallop|seafood|shellfish|shrimp|tuna|turkey|whey|yolk)\b/.test(value);
+    return /\b(anchov|beef|butter|cheese|chicken|clam|cockles?|cod|crab|duck|egg|fish|liver|mackerel|meat|milk|mussel|oyster|pork|poultry|salmon|sardine|scallop|seafood|shellfish|shrimp|tuna|turkey|whey|yolk)\b/.test(value);
 }
 function analyticalQualification(obs: any): string {
     const publicNotes = [obs.public_note, obs.material_limitations, obs.notes,
@@ -41,6 +42,7 @@ function strongestAmount(source: any): number {
 }
 /** Keep measured observations distinct; qualitative provenance does not multiply food rows. */
 export function selectFoodDisclosureSources(sources: any[]): any[] {
+    if (sources.length && sources.every(source=>source.projection_kind === 'constituent-composition')) return [...sources].sort((a,b)=>strongestAmount(b)-strongestAmount(a)).slice(0,10);
     const seen = new Set<string>();
     const items = sources.flatMap(source => {
         const visible = (record: any) => !['internal-only', 'excluded-error', 'substance-only'].includes(record.public_display);
@@ -98,14 +100,12 @@ export function selectFoodDisclosureSources(sources: any[]): any[] {
 function formatFoodAmount(source: any): string {
     const obs = (source.observations || [])[0];
     if (obs?.verified !== true || !obs?.display) return 'value not known';
+    if (source.projection_kind === 'constituent-composition' && source.aggregate_composition) {
+        return `${formatAggregateSumForDropdown(source.aggregate_composition.eaa_g)} g per 100 g`;
+    }
     const basis = String(obs.basis || '').trim();
     if (analyticalQualification(obs)) return `${esc(obs.display)} (${esc(basis || 'measurement basis not established')})`;
     return `${esc(obs.display)}${/per\s*100\s*g/i.test(basis) ? ' per 100 g' : basis ? ` (${esc(basis)})` : ' (measurement basis not established)'}`;
-}
-function sourceFlag(obs: any): string {
-    if (obs?.citation_mark !== 'asterisk') return '';
-    const href = typeof obs.source_url === 'string' && /^https?:\/\//.test(obs.source_url) ? obs.source_url : '';
-    return href ? `<a href="${esc(href)}">*</a>` : '';
 }
 function formatFoodPrep(source: any): string {
     const preparation = String(source.preparation || '').trim().toLowerCase();
@@ -119,14 +119,14 @@ function sourceReference(source: any, obs: any): string {
     if (!href || !/^(?:https?:\/\/|\/docs\/)/.test(href)) return '';
     return ` · <a href="${esc(href)}">${esc(reference || 'Source')}</a>`;
 }
-export function renderCompactFoodSourceItem(source: any): string {
+function renderCompactFoodSourceItem(source: any): string {
+    // Align comparable quantities without rewriting non-standard measurement bases.
     const amount = formatFoodAmount(source);
     const standard = amount.match(/^(.+?) (µg|μg|mg|g|kg|IU|kcal) per 100 g$/);
     const quantity = standard
         ? `<span class="pm-input-food-number">${standard[1]}</span> <span class="pm-input-food-unit">${standard[2]}</span> <span class="pm-input-food-basis">per 100 g</span>`
         : amount;
-    const obs = (source.observations || [])[0];
-    return `<span class="pm-input-food-row"><span class="pm-input-food-name"><a href="${esc(source.food_page)}">${esc(source.food_title)}</a></span><span class="pm-input-food-source-meta pm-input-food-amount${standard ? ' pm-input-food-amount--standard' : ''}"> ${quantity}${sourceFlag(obs)}</span><span class="pm-input-food-source-meta pm-input-food-preparation"> - ${formatFoodPrep(source)}</span></span>`;
+    return `<span class="pm-input-food-row"><span class="pm-input-food-name"><a href="${esc(source.food_page)}">${esc(source.food_title)}</a></span><span class="pm-input-food-source-meta pm-input-food-amount${standard ? ' pm-input-food-amount--standard' : ''}"> ${quantity}</span><span class="pm-input-food-source-meta pm-input-food-preparation"> - ${formatFoodPrep(source)}</span></span>`;
 }
 export function renderFoodSourceItem(source: any): string {
     const missingPreparation = !String(source.preparation || '').trim();
@@ -169,17 +169,28 @@ function attachFoodDisclosureBehaviour(details: HTMLDetailsElement) {
         details.open = false;
         updateFoodArrow(details);
     });
-    summary?.addEventListener('click', () => {
-        window.setTimeout(() => {
-            details.dataset.pmInputFoodPinned = details.open ? 'true' : 'false';
-            updateFoodArrow(details);
-        }, 0);
+    summary?.addEventListener('click', (event) => {
+        // Hover may already have opened the disclosure. The first click pins it
+        // open instead of letting the native toggle immediately close it.
+        event.preventDefault();
+        details.open = details.dataset.pmInputFoodPinned !== 'true';
+        details.dataset.pmInputFoodPinned = details.open ? 'true' : 'false';
+        updateFoodArrow(details);
     });
 }
 export function renderFoodSourceSummary(kind: string, top?: any): string {
     return top
-        ? `<span class="pm-input-food-source-arrow" aria-hidden="true">▶</span><span class="pm-input-food-source-kind">${esc(kind)} -</span> ${hasCompactFoodMeasurement(top.observations?.[0]) ? renderFoodSourceItem(top) : `<a href="${esc(top.food_page)}">${esc(top.food_title)}</a>`}`
+        ? `<span class="pm-input-food-source-arrow" aria-hidden="true">▶</span><span class="pm-input-food-source-kind">${esc(kind)} -</span> ${renderCompactFoodSourceItem(top)}`
         : `<span class="pm-input-food-source-arrow" aria-hidden="true">▶</span><span class="pm-input-food-source-kind">${esc(kind)} -</span> <span class="pm-input-food-source-empty">No verified sources yet</span>`;
+}
+export function renderFoodMappingNotes(sources: any[]): string {
+    const warnings = [...new Set(sources.filter(source => source.mapping_status === 'research-supported-provisional')
+        .map(source => foodTargetCoverageWarning(source)))];
+    return warnings.length ? `<details class="pm-input-food-analytical-detail pm-input-food-mapping-notes"><summary>Food-source mapping notes</summary>${warnings.map(warning => renderCoverageWarning([warning])).join('')}</details>` : '';
+}
+function attachFoodMappingIcon(row: HTMLElement, source: any) {
+    if (source?.mapping_status !== 'research-supported-provisional') return;
+    row.querySelector('.pm-input-food-name a')?.insertAdjacentHTML('afterend', informationIcon(foodTargetCoverageWarning(source)));
 }
 function createFoodSourceDetails(kind: string, sources: any[]): HTMLDetailsElement {
     const selected = selectFoodDisclosureSources(sources);
@@ -189,41 +200,65 @@ function createFoodSourceDetails(kind: string, sources: any[]): HTMLDetailsEleme
     const summary = document.createElement('summary');
     const top = selected[0];
     summary.innerHTML = renderFoodSourceSummary(kind, top);
+    attachFoodMappingIcon(summary, top);
     summary.querySelectorAll('a').forEach((a) => a.addEventListener('click', (event) => event.stopPropagation()));
     box.append(summary);
-    if (top) {
-        const provenance = document.createElement('div');
-        provenance.innerHTML = renderFoodSourceItem(top) + renderProvenance(top);
-        box.append(provenance);
-    }
     if (selected.length > 1) {
         const list = document.createElement('ul');
         selected.slice(1).forEach(source => {
             const item = document.createElement('li');
-            item.innerHTML = renderFoodSourceItem(source) + renderProvenance(source);
+            item.innerHTML = renderCompactFoodSourceItem(source);
+            attachFoodMappingIcon(item, source);
             item.title = source.material || '';
             list.append(item);
         });
         box.append(list);
     }
+    const explained = selected.filter(source=>source.aggregate_composition || source.food_delivery_notes);
+    if (explained.length) {
+        const detail=document.createElement('details'); detail.className='pm-input-food-analytical-detail';
+        const label=document.createElement('summary'); label.textContent=explained.some(s=>s.aggregate_composition)?'Amino-acid sum, protein & portions':'Composition & delivery qualification'; detail.append(label);
+        if (explained.some(s=>s.aggregate_composition)) { const p=document.createElement('p'); p.textContent='Amounts sum nine separately reported amino acids per 100 g of the stated edible form. Water content and portions differ; this is not a protein-quality ranking, intervention dose or complete-meal requirement.'; detail.append(p); }
+        for (const source of explained) {
+            const p=document.createElement('p'), a=source.aggregate_composition;
+            p.textContent=a?`${source.food_title}: ${a.eaa_g} g summed amino acids and ${a.protein_g} g protein per 100 g. ${a.profile.portion.label} (${a.portion_grams} g): ${a.portion_eaa_g} g amino acids and ${a.portion_protein_g} g protein.`:`${source.food_title}: ${source.chemical_form || ''}. ${source.food_delivery_notes}`;
+            const link=document.createElement('a'); link.href=source.food_page+(a?'#amino-acid-composition':''); link.textContent=' Source and qualifications'; p.append(link); detail.append(p);
+        }
+        box.append(detail);
+    }
+    // Keep exact food-record qualifications accessible by click, tap and keyboard,
+    // including records outside the compact first-five preview.
+    box.insertAdjacentHTML('beforeend', renderFoodMappingNotes(sources));
     attachFoodDisclosureBehaviour(box);
     return box;
 }
-export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, pm: string, label: string, section: string) {
+export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, pm: string, label: string, section: string, pathways: any[] = []) {
     section = canonicalInputSection(section);
-    if (!data || !/^BRS[1-6]-/.test(pm) || !/^3\.1\.[123]$/.test(section))
+    if (!data || !/^(BRS[1-6]-|BRS-X\()/.test(pm) || !/^3\.1\.[123]$/.test(section))
         return;
     li.querySelectorAll('.pm-input-food-sources').forEach(el => el.remove());
     li.querySelectorAll('.food-target-info, .food-target-coverage-warning').forEach(el => el.remove());
-    const scoped = selectBrsReviewData(data, generatedScopes, pm.split('-')[0]).data;
+    const scoped = selectBrsReviewData(data, generatedScopes, pm.startsWith('BRS-X(') ? 'BRS-X' : pm.split('-')[0]).data;
     const relationships = scoped.relationships.filter(r => r.pm === pm && (r.presentations || []).some((p: any) => norm(p.label) === norm(label) && p.section === section));
     if (!relationships.length)
         return;
-    const precursorBundle = unresolvedButyratePrecursorCandidates(scoped.relationships, scoped.food_sources)
-        .find((bundle: any) => relationships.some((r: any) => r.id === bundle.product_id || bundle.derived_ids.includes(r.id)));
-    const precursorIsProduct = !!precursorBundle && relationships.some((r: any) => r.id === precursorBundle.product_id);
+    li.querySelectorAll('.pm-input-pathway-evidence').forEach(el => el.remove());
+    const routes = pathways.filter(p => p.pm === pm && relationships.some(r => r.id === `${pm}::${p.atom_id}`));
+    const audit = li.querySelector('.brs-dietary-lever-detail-inner');
+    if (audit && routes.length) {
+        const disclosure = document.createElement('details');
+        disclosure.className = 'pm-input-pathway-evidence';
+        const summary = document.createElement('summary'); summary.textContent = 'Dietary pathway evidence'; disclosure.append(summary);
+        for (const route of routes) {
+            const row = document.createElement('p');
+            row.innerHTML = `<a href="${esc(route.substance_page)}">${esc(route.input)}</a> → ${esc(route.conversion_pathway.map((e:any) => e.process).join(' → '))} → <a href="${esc(route.target_page)}">${esc(route.target_title)}</a>. ${esc(route.pm_specific_status === 'admitted-derived-pathway' ? 'Admitted Derived pathway for this receiving PM.' : 'Production context of the admitted substrate; not a new downstream PM admission.')} ${esc(route.conversion_pathway.map((e:any) => e.limitations).join(' '))}`;
+            disclosure.append(row);
+        }
+        audit.append(disclosure);
+    }
+
     if (section === '3.1.1' && relationships.some((r:any) => 'food_targets' in r)) {
-        const warnings = [...new Set(relationships.flatMap((r:any) => r.coverage_warnings || []))];
+        const warnings = inputCoverageWarnings(relationships);
         const detail = li.querySelector('.brs-dietary-lever-detail-inner');
         const inputRow = detail && [...detail.querySelectorAll('p')].find(p => p.querySelector('.brs-dietary-lever-detail-k')?.textContent === 'Input');
         const identity = relationships.find((r:any) => r.substance_page);
@@ -239,32 +274,19 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
             ['Plant-based', targets.filter(t => !isProbablyAnimalSource(t))],
             ['Animal-based', targets.filter(t => isProbablyAnimalSource(t))],
         ] as [string, any[]][]) {
-            const box = document.createElement('details'); box.className = 'pm-input-food-sources';
-            box.dataset.foodSourceKind = kind.toLowerCase();
-            const summary = document.createElement('summary'); summary.innerHTML = `<span class="pm-input-food-source-arrow" aria-hidden="true">▶</span>${esc(kind)}`; box.append(summary);
-            if (group.length) {
-                const list = document.createElement('ul');
-                group.forEach(target => {
-                    const item = document.createElement('li');
-                    const source = {
-                        ...target,
-                        observations: target.observations?.length ? target.observations : target.amount ? [{
-                            verified: true,
-                            display: `${target.amount.value} ${target.amount.unit}`,
-                            basis: target.amount.basis,
-                        }] : [],
-                    };
-                    item.innerHTML = renderCompactFoodSourceItem(source);
-                    list.append(item);
-                });
-                box.append(list);
-            } else {
-                const empty = document.createElement('p'); empty.textContent = targets.length ? 'No supported food targets in this group.' : precursorIsProduct ? 'No approved butyrate-delivery targets.' : 'Food ontology coverage unresolved.'; box.append(empty);
-            }
-            attachFoodDisclosureBehaviour(box); li.append(box);
+            // Use the same first-food preview and aligned rows as cofactors/KCs.
+            const compact = group.map(target => ({
+                ...target,
+                id: JSON.stringify([target.food_id, target.substance_id, target.material, target.preparation]),
+                observations: target.observations?.length ? target.observations : target.amount ? [{verified: true,
+                    display: `${target.amount.value} ${target.amount.unit}`,
+                    basis: target.amount.basis}] : [],
+            }));
+            const box = createFoodSourceDetails(kind, compact);
+            const noFood = relationships.find((r:any)=>r.food_delivery_assessment?.status==='no-ordinary-food-source');
+            if (!compact.length && noFood) { const empty=box.querySelector('.pm-input-food-source-empty'); if(empty)empty.textContent='No verified ordinary-food source'; }
+            li.append(box);
         }
-        if (precursorBundle && !precursorIsProduct) li.insertAdjacentHTML('beforeend', renderUpstreamCandidates(precursorBundle));
-        li.insertAdjacentHTML('beforeend', renderRelatedFoodSources(relatedFoodsForInput(relationships, scoped.food_sources)));
         return;
     }
 
@@ -275,6 +297,4 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
     li.append(plantBox);
     animalBox.dataset.relationshipIds = relationships.map(r => r.id).join(' ');
     li.append(animalBox);
-    if (precursorBundle && !precursorIsProduct) li.insertAdjacentHTML('beforeend', renderUpstreamCandidates(precursorBundle));
-    li.insertAdjacentHTML('beforeend', renderRelatedFoodSources(relatedFoodsForInput(relationships, scoped.food_sources)));
 }

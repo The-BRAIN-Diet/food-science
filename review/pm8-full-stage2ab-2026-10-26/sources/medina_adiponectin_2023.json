@@ -1,0 +1,370 @@
+{
+  "citation_key": "medina_adiponectin_2023",
+  "doi": "10.1016/j.nutres.2023.09.005",
+  "metadata": {
+    "id": "37801761",
+    "source": "MED",
+    "pmid": "37801761",
+    "doi": "10.1016/j.nutres.2023.09.005",
+    "title": "Adherence to a Mediterranean diet may improve serum adiponectin in adults with nonalcoholic fatty liver disease: The MEDINA randomized controlled trial.",
+    "authorString": "Reddy A, Gatta PD, Mason S, Nicoll AJ, Ryan M, Itsiopoulos C, Abbott G, Johnson NA, Sood S, Roberts SK, George ES, Tierney AC.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Reddy A",
+          "lastName": "Reddy",
+          "firstName": "Anjana",
+          "initials": "A",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0009-0007-3332-8597"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "School of Allied Health, Human Services and Sport, La Trobe University, Australia; Monash Centre for Health Research and Implementation, School of Public Health and Preventative Medicine, Monash University, Melbourne, VIC, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Gatta PD",
+          "lastName": "Gatta",
+          "firstName": "Paul Della",
+          "initials": "PD",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Institute for Physical Activity and Nutrition, School of Exercise and Nutrition Sciences, Deakin University, Geelong, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Mason S",
+          "lastName": "Mason",
+          "firstName": "Shaun",
+          "initials": "S",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-6138-2239"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Institute for Physical Activity and Nutrition, School of Exercise and Nutrition Sciences, Deakin University, Geelong, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Nicoll AJ",
+          "lastName": "Nicoll",
+          "firstName": "Amanda J",
+          "initials": "AJ",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Gastroenterology, Eastern Health, Box Hill, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Ryan M",
+          "lastName": "Ryan",
+          "firstName": "Marno",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Gastroenterology and Hepatology, St Vincent's Hospital, Fitzroy, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Itsiopoulos C",
+          "lastName": "Itsiopoulos",
+          "firstName": "Catherine",
+          "initials": "C",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "School of Allied Health, Human Services and Sport, La Trobe University, Australia; School of Health and Biomedical Sciences, RMIT University, Melbourne, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Abbott G",
+          "lastName": "Abbott",
+          "firstName": "Gavin",
+          "initials": "G",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Monash Centre for Health Research and Implementation, School of Public Health and Preventative Medicine, Monash University, Melbourne, VIC, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Johnson NA",
+          "lastName": "Johnson",
+          "firstName": "Nathan A",
+          "initials": "NA",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-3874-7092"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "The Boden Collaboration for Obesity, Nutrition, Exercise and Eating Disorders, The University of Sydney, Sydney, New South Wales, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Sood S",
+          "lastName": "Sood",
+          "firstName": "Siddharth",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Gastroenterology, Melbourne Health, Melbourne, Australia; Department of Medicine, University of Melbourne, Parkville, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Roberts SK",
+          "lastName": "Roberts",
+          "firstName": "Stuart K",
+          "initials": "SK",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-9015-7997"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Gastroenterology, Alfred Health, Prahran, Australia; Central Clinical School, Monash University, Clayton, Australia."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "George ES",
+          "lastName": "George",
+          "firstName": "Elena S",
+          "initials": "ES",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-1385-2371"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "School of Allied Health, Human Services and Sport, La Trobe University, Australia; Institute for Physical Activity and Nutrition, School of Exercise and Nutrition Sciences, Deakin University, Geelong, Australia. Electronic address: elena.george@deakin.edu.au."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Tierney AC",
+          "lastName": "Tierney",
+          "firstName": "Audrey C",
+          "initials": "AC",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "School of Allied Health, Human Services and Sport, La Trobe University, Australia; School of Allied Health, Health Implementation Science and Technology Research Cluster, Health Research Institute, University of Limerick, Ireland."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0002-1385-2371"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-3874-7092"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-6138-2239"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-9015-7997"
+        },
+        {
+          "type": "ORCID",
+          "value": "0009-0007-3332-8597"
+        }
+      ]
+    },
+    "journalInfo": {
+      "volume": "119",
+      "journalIssueId": 3662898,
+      "dateOfPublication": "2023 Nov",
+      "monthOfPublication": 11,
+      "yearOfPublication": 2023,
+      "journal": {
+        "medlineAbbreviation": "Nutr Res",
+        "title": "Nutrition research (New York, N.Y.)",
+        "essn": "1879-0739",
+        "issn": "0271-5317",
+        "isoabbreviation": "Nutr Res",
+        "nlmid": "8303331"
+      },
+      "printPublicationDate": "2023-11-01"
+    },
+    "pubYear": "2023",
+    "pageInfo": "98-108",
+    "abstractText": "Nonalcoholic fatty liver disease (NAFLD) affects approximately 30% of adults worldwide, with chronic low-grade inflammation being a key pathophysiological feature of progression. The Mediterranean diet (MedDiet) is recognized for improving metabolic and hepatic outcomes in people with diabetes and NAFLD, in part, via anti-inflammatory properties. The aim of this study was to determine the effect of an ad libitum MedDiet versus low-fat diet (LFD) on inflammatory markers in adults with NAFLD. It was hypothesized that the MedDiet, and its individual components, would improve inflammation. This multicenter, randomized controlled trial, randomized participants to a MedDiet or LFD intervention for 12 weeks. Primary outcomes included change from baseline to 12 weeks for serum high-sensitivity C-reactive protein, interleukin-6, tumor necrosis factor-\u03b1, adiponectin, leptin, and resistin. Forty-two participants (60% female; age 52.3 \u00b1 12.6 years; body mass index, 32.2 \u00b1 6.2 kg/m\u00b2) were randomized to the MedDiet (n\u00a0=\u00a019) or low-fat diet (n\u00a0=\u00a023). At 12 weeks, the LFD showed a greater decrease in leptin compared with the MedDiet (-1.20 \u00b1 3.9 ng/mL vs 0.64 \u00b1 3.5 ng/mL, P\u00a0=\u00a0.010). Adiponectin significantly improved within the MedDiet (13.7 \u00b1 9.2 \u00b5g/mL to 17.0 \u00b1 12.5 \u00b5g/mL, P\u00a0=\u00a0.016), but not within the LFD group. No statistically significant changes were observed for other inflammatory markers following the MedDiet or LFD. Adherence to the MedDiet significantly improved in both study arms, although greater improvements were seen in the MedDiet group. Adiponectin significantly improved following a Mediterranean diet intervention, in the absence of weight loss. The low-fat diet did not elicit improvements in inflammatory markers. High-quality clinical trials appropriately powered to inflammatory markers are required in this population.",
+    "affiliation": "School of Allied Health, Human Services and Sport, La Trobe University, Australia; Monash Centre for Health Research and Implementation, School of Public Health and Preventative Medicine, Monash University, Melbourne, VIC, Australia.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "La Trobe University",
+          "orderIn": 0
+        },
+        {
+          "agency": "Australian Society for Parenteral and Enteral Nutrition",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Inflammation"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Leptin"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Diet, Mediterranean"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Middle Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adiponectin"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Non-alcoholic Fatty Liver Disease"
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Inflammation",
+        "Nonalcoholic fatty liver disease",
+        "adiponectin",
+        "Mediterranean Diet",
+        "Diet Intervention"
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "adiponectin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Leptin",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1016/j.nutres.2023.09.005"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 17,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2023-11-13",
+    "dateOfCreation": "2023-10-06",
+    "dateOfRevision": "2025-04-22",
+    "electronicPublicationDate": "2023-09-12",
+    "firstPublicationDate": "2023-09-12",
+    "firstIndexDate": "2023-10-07",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A37801761&format=json&resultType=core",
+  "retrieved_on": "2026-10-26",
+  "access": "Metadata and abstract"
+}

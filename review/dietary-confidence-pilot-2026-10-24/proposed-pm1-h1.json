@@ -1,0 +1,91 @@
+{
+  "id": "PM1-H1",
+  "title": "Resistant starch, microbial butyrate and tight-junction regulation",
+  "proposition": "Dietary resistant starch may regulate epithelial paracellular tight-junction function through microbial butyrate production and local exposure.",
+  "source_pm": "BRS5-FM2-PM5",
+  "target_pm": "BRS5-FM1-PM1",
+  "proposed_direction": "BRS5-FM2-PM5 → BRS5-FM1-PM1",
+  "status": "Unestablished",
+  "rationale": "Selected resistant-starch preparations support microbial butyrate production, and direct butyrate exposure can influence epithelial junction assembly. These separate observations motivate testing the joined dietary pathway; they do not establish it.",
+  "finding_links": {
+    "supporting": [],
+    "contradictory_or_null": [],
+    "contextual": [
+      {
+        "pm_id": "BRS5-FM2-PM5",
+        "finding_id": "PM5-F1",
+        "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling#pm5-f1",
+        "explanation": "Supports community- and formulation-dependent upstream fermentation, not a downstream tight-junction mechanism."
+      },
+      {
+        "pm_id": "BRS5-FM1-PM1",
+        "finding_id": "PM1-F2",
+        "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity#pm1-f2",
+        "explanation": "Butyrate-exposed epithelial models inform plausibility, not dietary resistant-starch mediation."
+      }
+    ]
+  },
+  "evidence_sources": [
+    {
+      "study_id": "peng-2009-caco2",
+      "label": "Peng et al. (2009)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19625695/",
+      "role": "contextual",
+      "proposition": "Direct butyrate exposure supports AMPK-related junction assembly in Caco-2 monolayers.",
+      "limitations": "Purified exposure and cell model; not resistant-starch-derived epithelial exposure."
+    },
+    {
+      "study_id": "moreau-2004-dss",
+      "label": "Moreau et al. (2004)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14988436/",
+      "role": "contextual",
+      "proposition": "In RS3-fed colitic rats, increased mucosal butyrate utilisation followed healing.",
+      "limitations": "Infused labelled butyrate uptake was not tracing starch carbon. Histological healing and substrate use do not establish paracellular tight-junction mediation."
+    },
+    {
+      "study_id": "human-colonic-biopsy-2020",
+      "label": "Acute human colonic biopsy experiment (2020)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32422994/",
+      "role": "contradictory_or_null",
+      "proposition": "Acute 5 or 25 mM butyrate pretreatment did not prevent induced hyperpermeability ex vivo.",
+      "limitations": "Chemical injury and acute exposure; not a universal refutation of dietary or chronic effects."
+    },
+    {
+      "study_id": "dga-potato-2022",
+      "label": "Controlled potato/bagel dietary trial (2022)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9026745/",
+      "role": "contradictory_or_null",
+      "proposition": "The tested potato diet lowered small-intestinal permeability indices but not the colonic probe; it did not establish butyrate-mediated tight-junction regulation.",
+      "limitations": "Metabolic syndrome, short dietary periods and surrogate permeability measures; formulation effects and alternative pathways remain."
+    },
+    {
+      "study_id": "scharf-2025-colonoscopy",
+      "label": "Scharf et al. (2025)",
+      "url": "https://doi.org/10.1080/19490976.2025.2545414",
+      "role": "contextual",
+      "proposition": "Direct 100 mmol/L colonic butyrate perfusion for 90 minutes reduced induced transcellular hyperpermeability in IBS biopsies compared with pre-exposure.",
+      "limitations": "Transcellular outcome is not demonstrated paracellular tight-junction regulation. Direct perfusion is not dietary delivery and does not establish the resistant-starch pathway."
+    }
+  ],
+  "limitations": [
+    "No joined dietary resistant-starch → butyrate → paracellular tight-junction mechanism has been established by the evidence reviewed here. This is a bounded assessment, not a claim that no such study exists anywhere.",
+    "Starch preparation, microbial degraders/cross-feeding, regional exposure and host state affect the pathway.",
+    "Faecal butyrate is not production flux or epithelial exposure; transcripts, electrical resistance, histology and paracellular marker flux are distinct endpoints.",
+    "Do not collapse human transcellular protection or small-intestinal permeability improvement into a colonic paracellular tight-junction result."
+  ],
+  "alternative_explanations": [
+    "Other fermentation products, microbial shifts, altered bile acids, immune effects or nonfermentation food components may mediate a barrier result.",
+    "Mucosal healing may increase butyrate uptake rather than be caused by it."
+  ],
+  "required_evidence": [
+    "A defined dietary preparation linked to local butyrate exposure and appropriate paracellular/junction endpoints, with credible causal mediation and microbial/host context addressed.",
+    "Starch-carbon tracing is one useful approach, not a mandatory exclusive admission criterion; perturbation, rescue and convergent mediation evidence may also be informative.",
+    "Separate paracellular from transcellular effects and measured exposure from inferred metabolite availability."
+  ],
+  "provenance": [
+    "Prepared for approval after independent review on 2026-10-24; not implemented on the canonical PM page.",
+    "Cursor report named PM1-H1 but explicitly said the page record was not written. The fetched main branch and inspected local PM1 copies have no such record.",
+    "No admission, causal graph edge, Dietary Confidence assessment, food relationship or manuscript row is created by this proposal."
+  ],
+  "review_date": "2026-10-24"
+}

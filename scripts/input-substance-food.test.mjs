@@ -36,7 +36,7 @@ test('shared pools and constituent resources deduplicate without losing independ
     assert.equal(new Set(p.constituent_relationships.map(c => c.id)).size, p.constituent_relationships.length);
     assert.ok(p.dependent_pms.length > 1);
 } const choline = d.relationships.filter(r => r.substance_id === 'choline'); assert.ok(choline.some(r => r.accounting === 'A')); assert.ok(choline.some(r => r.accounting === 'C')); const r = choline.find(r => r.accounting === 'C'); assert.equal(r.members[0].relationship_type, 'supported-upstream-supply'); assert.ok(r.qualification.includes('not reclassified')); assert.ok(r.presentations.some(p => p.section === '3.1.3')); });
-test('B6 and PLP are separate relationships, not two dietary supplies', () => { const b6 = d.relationships.filter(r => r.substance_id === 'vitamin-b6'); assert.ok(b6.length > 1); for (const r of b6) {
+test('B6 conversion and independently measured milk PLP remain separate relationships', () => { const b6 = d.relationships.filter(r => r.substance_id === 'vitamin-b6'); assert.ok(b6.length > 1); for (const r of b6) {
     assert.equal(r.relationship_type.classification, 'derived');
     const target = byId.get(r.derived_target_atom_id);
     assert.ok(target.input.includes('PLP'));
@@ -44,7 +44,9 @@ test('B6 and PLP are separate relationships, not two dietary supplies', () => { 
     assert.equal(target.substance_id, 'pyridoxal-5-phosphate');
     const registry=JSON.parse(fs.readFileSync(path.join(root,'registry/substances.json')));
     assert.ok(registry[target.substance_id].aliases.includes('PLP'));
-    assert.ok(!d.food_sources.some(f=>f.substance_id===target.substance_id), 'B6 content does not establish direct food PLP');
+    const sources=d.food_sources.filter(f=>f.substance_id===target.substance_id);
+    assert.ok(sources.length);
+    assert.ok(sources.every(f=>f.food_id==='milk' && f.observations.length===0 && f.presence_records.some(e=>e.source_url==='https://doi.org/10.1016/j.chroma.2017.04.009')), 'Only independent native-vitamer evidence establishes PLP occurrence; B6 totals never become PLP amounts');
 } });
 test('qualitative phosphatidylcholine and betaine survive without numbers', () => { for (const id of ['phosphatidylcholine', 'betaine']) {
     const s = d.substances.find(s => s.id === id);
@@ -76,11 +78,11 @@ test('meal pattern remains a pattern with candidate ingredient source pointers, 
 test('identity conflicts are explicit when present; missing supply never turns into zero', () => { const current = matter(fs.readFileSync('docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx', 'utf8')).data.dietary_input_traceability.find(a => a.input === 'Uridine'); if (current.canonical_identity?.status === 'missing-substance')
     assert.ok(d.conflicts.some(c => c.input === 'Uridine'));
 else
-    assert.equal(d.relationships.find(r => r.input === 'Uridine').identity_status, 'resolved'); const r = d.views.find(r => r.input === 'Uridine'); assert.ok(r.gap); assert.equal(r.foods.length, 0); assert.ok(d.gaps.some(g => g.kind === 'no-structured-admissions')); });
+    assert.equal(d.relationships.find(r => r.input === 'Uridine').identity_status, 'resolved'); const r = d.views.find(r => r.input === 'Uridine'); assert.equal(r.gap,null); assert.equal(r.foods.length,1); assert.equal(r.foods[0].food_id,'milk'); assert.equal(r.foods[0].observations.length,0,'Missing uridine amount stays absent, not zero'); assert.ok(r.foods[0].presence_records.some(e=>e.source_url==='https://doi.org/10.3168/jds.S0022-0302(84)81361-2')); assert.equal(d.relationships.find(r => r.input === 'Indispensable amino-acid supply').substance_id,'indispensable-amino-acids'); });
 test('selection does not impose a precise rank on overlapping source-specific ranges', () => { const source = d.food_sources.find(f => f.observations.some(o => o.rank_eligible)); const o = source.observations.find(o => o.rank_eligible); const result = selectQuantified([{ ...source, id: 'test-left', observations: [{ ...o, range: [o.value, o.value], low: o.low, high: o.high }] }, { ...source, id: 'test-right', observations: [{ ...o, range: [o.value, o.value], low: o.low, high: o.high }] }]); assert.equal(result.ranked, false); });
 
 test('sixth field gates PM lists independently of accounting and preserves unresolved decisions', () => {
- assert.deepEqual(d.summary.dietary_input, {yes:36,no:9,unset:5});
+ assert.deepEqual(d.summary.dietary_input, {yes:47,no:12,unset:4});
  for (const r of d.views) {
   assert.ok([true,false,null].includes(r.dietary_input));
   if(r.dietary_input !== true && r.foods.length) assert.ok(r.substance_id, r.id);
@@ -195,7 +197,7 @@ test('BRS2 generation inventories every structured atom and consumes recorded di
  for(const pm of b.coverage){const data=matter(fs.readFileSync(pm.record,'utf8')).data;for(const a of data.dietary_lever_atoms||[])assert.ok(b.relationships.some(r=>r.id===pm.pm_id+'::'+a.atom_id));}
  assert.ok(b.relationships.every(r=>r.brs==='BRS2'));
  assert.equal(new Set(b.relationships.map(r=>r.id)).size,b.relationships.length);
- assert.deepEqual(b.summary.dietary_input,{yes:33,no:20,unset:1}); // Includes the independently gated GNMT glycine admission.
+ assert.deepEqual(b.summary.dietary_input,{yes:39,no:17,unset:1}); // Includes GNMT glycine and the independently adjudicated PEMT methionine/SAM supply route.
  assert.equal(b.relationships.find(r=>r.id==='BRS2-FM1-PM4::PM4-DIT-DEFERRED-1').scientific_admission,'admitted');
  assert.ok(b.food_sources.length>0);
  assert.equal(b.pools.length,2);
@@ -215,11 +217,12 @@ test('SAMe methionine gets ontology-backed high-methionine food sources', () => 
  assert.match(r.selected.qualification,/Verified per-100 g observations/);
 });
 
-test('SAMe catalytic ions resolve to mineral food composition context without becoming dietary requirements', () => {
+test('SAMe catalytic ions retain mineral identity and now pass their independently appraised capacity gates', () => {
  const b=buildInputSubstanceFood(root,{brs:'BRS2'});
  for (const [atom, substance] of [['PM3-DIT-3','magnesium'],['PM3-DIT-4','potassium']]) {
   const r=b.views.find(r=>r.id===`BRS2-FM1-PM3::${atom}`);
-  assert.equal(r.dietary_input,false);
+  assert.equal(r.dietary_input,true);
+  assert.equal(r.scientific_admission,'admitted');
   assert.equal(r.substance_id,substance);
   assert.ok(r.foods.some(f=>f.observations.length));
  }
@@ -294,13 +297,17 @@ test('rollout records every accepted atom decision and retains evidence and prec
  for(const id of ['PM1-DIT-1','PM1-DIT-3'])assert.equal(b5.relationships.find(r=>r.id==='BRS5-FM1-PM1::'+id).dietary_input,null);
  const glutamine=b5.relationships.find(r=>r.id==='BRS5-FM1-PM1::PM1-DIT-6');
  assert.equal(glutamine.dietary_input,true);assert.equal(glutamine.scientific_admission,'admitted');
- assert.equal(glutamine.food_target_mapping,'unresolved'); // Admission is not a fabricated food mapping.
+ assert.equal(glutamine.food_target_mapping,'verified');
+ assert.deepEqual(glutamine.food_targets.map(f=>f.food_id).sort(),['beef','eggs','tofu']);
+ assert.ok(glutamine.food_targets.every(f=>!f.observations.length && f.presence_records.some(e=>e.source_url==='https://doi.org/10.1038/ejcn.2009.110')), 'Sequence evidence supports qualitative occurrence; no Glx or estimated quantity is invented');
 });
 
 test('food strategy rollup preserves independently admitted SOP science and separate intervention scopes', () => {
  const s=JSON.parse(fs.readFileSync('src/data/foodStrategyRollup.generated.json','utf8'));
- // PM2's two protocols plus the two independently assessed PM8 protocols.
- assert.equal(s.strategies.length,35);assert.equal(s.relationships.length,38);
+ // The approved endocrine reconstruction removes three old PM8 strategy
+ // relationships; their full scientific/admission history remains on PM8.
+ assert.equal(s.strategies.length,33);assert.equal(s.relationships.length,35);
+ assert.ok(!s.relationships.some(r=>r.pm==='BRS6-FM4-PM8'));
  assert.equal(new Set(s.relationships.map(r=>r.id)).size,s.relationships.length);
  for(const r of s.relationships) {
   const file=r.source_record.split('#')[0],source=matter(fs.readFileSync(file,'utf8')).data;
@@ -418,6 +425,8 @@ test('B3 forms resolve independently with shared documentation and no invented f
   ['BRS4-FM1-PM2::PM2-DIT-1','nicotinamide','resolved',true,'direct'],
   ['BRS4-FM1-PM2::PM2-DIT-2','nicotinic-acid','resolved',true,'direct'],
   ['BRS4-FM1-PM2::PM2-DIT-3','tryptophan','resolved',true,'derived'],
+  ['BRS4-FM1-PM2::PM2-DIT-RECOVERY-NAD-PLUS','nad-plus','resolved',false,null],
+  ['BRS4-FM1-PM2::PM2-DIT-RECOVERY-NICOTINAMIDE-RIBOSIDE','nicotinamide-riboside','resolved',true,'derived'],
  ]);
  assert.equal(nad[2].derived_target_atom_id,nad[0].id);
  assert.equal(nad[2].derived_target,nad[0].input);
@@ -576,7 +585,7 @@ test('C1 end-to-end: disposable canonical fixtures → BRS4 JSON → qualified P
  const rendererFile=path.join(root,'src/lib/pmInputFoodDisclosure.ts');
  const mod=new Module(rendererFile),require=createRequire(rendererFile);
  mod.filename=rendererFile;
- mod.require=id=>id.endsWith('inputMappingScopes.mjs')?{__esModule:true,default:{BRS4:snapshot}}:id.endsWith('inputSubstanceFoodSelection.mjs')?foodSelection:id.endsWith('foodTargetTraceability.mjs')?foodTargetTraceability:id.endsWith('relatedSubstanceRelationships.mjs')?relatedSubstanceRelationships:require(id);
+ mod.require=id=>id.endsWith('inputMappingScopes.mjs')?{__esModule:true,default:{BRS4:snapshot}}:id.endsWith('inputSubstanceFoodSelection.mjs')?foodSelection:id.endsWith('foodTargetTraceability.mjs')?foodTargetTraceability:id.endsWith('aggregateFoodComposition.mjs')?aggregateFoodComposition:id.endsWith('relatedSubstanceRelationships.mjs')?relatedSubstanceRelationships:require(id);
  mod._compile(ts.transpileModule(fs.readFileSync(rendererFile,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText,rendererFile);
  const {selectFoodDisclosureSources,renderFoodSourceSummary,renderProvenance}=mod.exports;
  const forms=snapshot.food_sources.filter(f=>['nicotinamide','nicotinic-acid'].includes(f.substance_id));
@@ -604,6 +613,7 @@ test('C1 end-to-end: disposable canonical fixtures → BRS4 JSON → qualified P
  assert.equal(alternate.preparation,null);
  assert.match(mod.exports.renderFoodSourceItem(alternate),/123 µg \(per g dry synthetic material\)/);
  assert.deepEqual(snapshot.relationships.filter(r=>r.pm==='BRS4-FM1-PM2').map(r=>[r.substance_id,r.dietary_input,r.relationship_type.classification]),[
-  ['nicotinamide',true,'direct'],['nicotinic-acid',true,'direct'],['tryptophan',true,'derived'],
+  ['nicotinamide',true,'direct'],['nicotinic-acid',true,'direct'],['tryptophan',true,'derived'],['nad-plus',false,null],['nicotinamide-riboside',true,'derived'],
  ]);
 });
+import * as aggregateFoodComposition from '../src/lib/aggregateFoodComposition.mjs';

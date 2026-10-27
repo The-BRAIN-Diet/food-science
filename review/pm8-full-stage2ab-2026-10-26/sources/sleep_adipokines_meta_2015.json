@@ -1,0 +1,436 @@
+{
+  "citation_key": "sleep_adipokines_meta_2015",
+  "doi": "10.1111/obr.12296",
+  "metadata": {
+    "id": "26098388",
+    "source": "MED",
+    "pmid": "26098388",
+    "pmcid": "PMC4532553",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC4532553"
+      ]
+    },
+    "doi": "10.1111/obr.12296",
+    "title": "A systematic review and meta-analysis of randomized controlled trials of the impact of sleep duration on adiposity and components of energy balance.",
+    "authorString": "Capers PL, Fobian AD, Kaiser KA, Borah R, Allison DB.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Capers PL",
+          "lastName": "Capers",
+          "firstName": "P L",
+          "initials": "PL",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-0441-7028"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Office of Energetics, School of Public Health, University of Alabama at Birmingham, Birmingham, AL, USA."
+              },
+              {
+                "affiliation": "Nutrition Obesity Research Center, University of Alabama at Birmingham, Birmingham, AL, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Fobian AD",
+          "lastName": "Fobian",
+          "firstName": "A D",
+          "initials": "AD",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-9974-8534"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Nutrition Obesity Research Center, University of Alabama at Birmingham, Birmingham, AL, USA."
+              },
+              {
+                "affiliation": "Department of Psychiatry and Behavioral Neurobiology, University of Alabama at Birmingham, Birmingham, AL, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Kaiser KA",
+          "lastName": "Kaiser",
+          "firstName": "K A",
+          "initials": "KA",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-6258-4369"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Office of Energetics, School of Public Health, University of Alabama at Birmingham, Birmingham, AL, USA."
+              },
+              {
+                "affiliation": "Nutrition Obesity Research Center, University of Alabama at Birmingham, Birmingham, AL, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Borah R",
+          "lastName": "Borah",
+          "firstName": "R",
+          "initials": "R",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-1295-3664"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Office of Energetics, School of Public Health, University of Alabama at Birmingham, Birmingham, AL, USA."
+              },
+              {
+                "affiliation": "Graduate Program, School of Public Health, University of Alabama at Birmingham, Birmingham, AL, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Allison DB",
+          "lastName": "Allison",
+          "firstName": "D B",
+          "initials": "DB",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-3566-9399"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Office of Energetics, School of Public Health, University of Alabama at Birmingham, Birmingham, AL, USA."
+              },
+              {
+                "affiliation": "Nutrition Obesity Research Center, University of Alabama at Birmingham, Birmingham, AL, USA."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-9974-8534"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-0441-7028"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-1295-3664"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-6258-4369"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-3566-9399"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "9",
+      "volume": "16",
+      "journalIssueId": 2312810,
+      "dateOfPublication": "2015 Sep",
+      "monthOfPublication": 9,
+      "yearOfPublication": 2015,
+      "journal": {
+        "medlineAbbreviation": "Obes Rev",
+        "title": "Obesity reviews : an official journal of the International Association for the Study of Obesity",
+        "essn": "1467-789X",
+        "issn": "1467-7881",
+        "nlmid": "100897395",
+        "isoabbreviation": "Obes Rev"
+      },
+      "printPublicationDate": "2015-09-01"
+    },
+    "pubYear": "2015",
+    "pageInfo": "771-782",
+    "abstractText": "Recent epidemiological and ecological trends in humans indicate a possible causal relationship between sleep duration and energy balance. We aimed to find experimental evidence that has tested this relationship between sleep duration and measures of body composition, food intake or biomarkers related to food intake. We conducted a systematic literature review using six databases throughout 7 August 2014. We sought reports of randomized controlled trials where sleep duration was manipulated and measured outcomes were body weight or other body composition metrics, food intake, and/or biomarkers related to eating. We found 18 unique studies meeting all criteria: eight studies with an outcome of body weight (4 - increased sleep, 4 - reduced sleep); four studies on food intake; four studies of sleep restriction on total energy expenditure and three of respiratory quotient; and four studies on leptin and/or ghrelin. Few controlled experimental studies have addressed the question of the effect of sleep on body weight/composition and eating. The available experimental literature suggests that sleep restriction increases food intake and total energy expenditure with inconsistent effects on integrated energy balance as operationalized by weight change. Future controlled trials that examine the impact of increased sleep on body weight/energy balance factors are warranted.",
+    "affiliation": "Office of Energetics, School of Public Health, University of Alabama at Birmingham, Birmingham, AL, USA.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Meta-Analysis",
+        "research-article",
+        "Systematic Review",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "NIDDK NIH HHS",
+          "acronym": "DK",
+          "grantId": "P30DK056336",
+          "orderIn": 0
+        },
+        {
+          "agency": "National Institutes of Health",
+          "grantId": "T32HL072757",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIGMS NIH HHS",
+          "acronym": "GM",
+          "grantId": "K12GM088010",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIDDK NIH HHS",
+          "acronym": "DK",
+          "grantId": "P30 DK056336",
+          "orderIn": 0
+        },
+        {
+          "agency": "National Institutes of Health",
+          "grantId": "K12GM088010",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIGMS NIH HHS",
+          "acronym": "GM",
+          "grantId": "K12 GM088010",
+          "orderIn": 0
+        },
+        {
+          "agency": "NHLBI NIH HHS",
+          "acronym": "HL",
+          "grantId": "T32 HL072757",
+          "orderIn": 0
+        },
+        {
+          "agency": "NHLBI NIH HHS",
+          "acronym": "HL",
+          "grantId": "T32HL072757",
+          "orderIn": 0
+        },
+        {
+          "agency": "National Institutes of Health",
+          "grantId": "P30DK056336",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Sleep Deprivation",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "CO",
+                "qualifierName": "complications"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PP",
+                "qualifierName": "physiopathology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Obesity",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "CO",
+                "qualifierName": "complications"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PP",
+                "qualifierName": "physiopathology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Body Weight"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Weight Gain"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Leptin"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Sleep",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Body Composition"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Energy Metabolism"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Energy Intake"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adiposity"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Randomized Controlled Trials as Topic"
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Obesity",
+        "Sleep",
+        "Weight",
+        "Total Energy Expenditure"
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Leptin",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1111/obr.12296"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC4532553"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC4532553?pdf=render"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1111/obr.12296"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 135,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "authMan": "Y",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "Y",
+    "manuscriptId": "NIHMS683081",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "doi"
+      ]
+    },
+    "dateOfCompletion": "2016-07-19",
+    "dateOfCreation": "2015-06-23",
+    "dateOfRevision": "2025-07-11",
+    "electronicPublicationDate": "2015-06-22",
+    "firstPublicationDate": "2015-06-22",
+    "firstIndexDate": "2015-06-23",
+    "fullTextReceivedDate": "2025-02-05",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A26098388&format=json&resultType=core",
+  "retrieved_on": "2026-10-26",
+  "access": "Primary metadata/abstract; no full-method appraisal"
+}

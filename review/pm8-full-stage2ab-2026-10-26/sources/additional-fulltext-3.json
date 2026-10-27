@@ -1,0 +1,10 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"doi\": \"10.1038/ijo.2014.188\",\n  \"title\": \"Diet-induced weight loss has chronic tissue-specific effects on glucocorticoid metabolism in overweight postmenopausal women\",\n  \"source\": \"abstract\",\n  \"text\": \"Long-term weight loss in postmenopausal women has tissue-specific and time-dependent effects on glucocorticoid metabolism. This may alter local-tissue cortisol exposure contributing to improved metabolic function during weight loss.\",\n  \"offset\": 0,\n  \"returnedChars\": 232,\n  \"totalChars\": 232,\n  \"hasMore\": false,\n  \"contentDenied\": true,\n  \"link\": \"https://doi.org/10.1038/ijo.2014.188\",\n  \"message\": \"Full text is not indexed for this paper; showing the abstract instead. `link` goes to the paper.\"\n}"
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

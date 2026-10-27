@@ -1,0 +1,272 @@
+{
+  "citation_key": "klein_leptin_fasting_2000",
+  "doi": "10.1152/ajpendo.2000.278.2.E280",
+  "metadata": {
+    "id": "10662712",
+    "source": "MED",
+    "pmid": "10662712",
+    "doi": "10.1152/ajpendo.2000.278.2.e280",
+    "title": "Leptin production during early starvation in lean and obese women.",
+    "authorString": "Klein S, Horowitz JF, Landt M, Goodrick SJ, Mohamed-Ali V, Coppack SW.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Klein S",
+          "lastName": "Klein",
+          "firstName": "S",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Internal Medicine, Washington University School of Medicine, St. Louis, Missouri 63110, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Horowitz JF",
+          "lastName": "Horowitz",
+          "firstName": "J F",
+          "initials": "JF"
+        },
+        {
+          "fullName": "Landt M",
+          "lastName": "Landt",
+          "firstName": "M",
+          "initials": "M"
+        },
+        {
+          "fullName": "Goodrick SJ",
+          "lastName": "Goodrick",
+          "firstName": "S J",
+          "initials": "SJ"
+        },
+        {
+          "fullName": "Mohamed-Ali V",
+          "lastName": "Mohamed-Ali",
+          "firstName": "V",
+          "initials": "V"
+        },
+        {
+          "fullName": "Coppack SW",
+          "lastName": "Coppack",
+          "firstName": "S W",
+          "initials": "SW"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "2",
+      "volume": "278",
+      "journalIssueId": 997405,
+      "dateOfPublication": "2000 Feb",
+      "monthOfPublication": 2,
+      "yearOfPublication": 2000,
+      "journal": {
+        "medlineAbbreviation": "Am J Physiol Endocrinol Metab",
+        "title": "American journal of physiology. Endocrinology and metabolism",
+        "essn": "1522-1555",
+        "issn": "0193-1849",
+        "nlmid": "100901226",
+        "isoabbreviation": "Am J Physiol Endocrinol Metab"
+      },
+      "printPublicationDate": "2000-02-01"
+    },
+    "pubYear": "2000",
+    "pageInfo": "E280-4",
+    "abstractText": "We evaluated abdominal adipose tissue leptin production during short-term fasting in nine lean [body mass index (BMI) 21 +/- 1 kg/m(2)] and nine upper body obese (BMI 36 +/- 1 kg/m(2)) women. Leptin kinetics were determined by arteriovenous balance across abdominal subcutaneous adipose tissue at 14 and 22 h of fasting. At 14 h of fasting, net leptin release from abdominal adipose tissue in obese subjects (10.9 +/- 1.9 ng x 100 g tissue x (-1) x min(-1)) was not significantly greater than the values observed in the lean group (7.6 +/- 2.1 ng x 100 g(-1) x min(-1)). Estimated whole body leptin production was approximately fivefold greater in obese (6.97 +/- 1.18 microg/min) than lean subjects (1.25 +/- 0.28 microg/min) (P < 0.005). At 22 h of fasting, leptin production rates decreased in both lean and obese groups (to 3.10 +/- 1.31 and 10.5 +/- 2.3 ng x 100 g adipose tissue(-1) x min(-1), respectively). However, the relative declines in both arterial leptin concentration and local leptin production in obese women (arterial concentration 13.8 +/- 4.4%, local production 10.0 +/- 12.3%) were less (P < 0.05 for both) than the relative decline in lean women (arterial concentration 39.0 +/- 5.5%, local production 56.9 +/- 13.0%). This study demonstrates that decreased leptin production accounts for the decline in plasma leptin concentration observed after fasting. However, compared with lean women, the fasting-induced decline in leptin production is blunted in women with upper body obesity. Differences in leptin production during fasting may be responsible for differences in the neuroendocrine response to fasting previously observed in lean and obese women.",
+    "affiliation": "Department of Internal Medicine, Washington University School of Medicine, St. Louis, Missouri 63110, USA.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "NCRR NIH HHS",
+          "acronym": "RR",
+          "grantId": "RR-00036",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIA NIH HHS",
+          "acronym": "AG",
+          "grantId": "AG-13629",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIDDK NIH HHS",
+          "acronym": "DK",
+          "grantId": "DK-37948",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Abdomen"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Arteries"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Veins"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adipose Tissue",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BS",
+                "qualifierName": "blood supply"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Obesity",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Leptin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BI",
+                "qualifierName": "biosynthesis"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Fasting",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Kinetics"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Leptin",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "abs",
+          "site": "intl-ajpendo.physiology.org",
+          "url": "http://intl-ajpendo.physiology.org/cgi/content/abstract/278/2/E280"
+        },
+        {
+          "availability": "Free after 12 months",
+          "availabilityCode": "F12",
+          "documentStyle": "html",
+          "site": "intl-ajpendo.physiology.org",
+          "url": "http://intl-ajpendo.physiology.org/cgi/content/full/278/2/E280"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1152/ajpendo.2000.278.2.E280"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 28,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2000-03-02",
+    "dateOfCreation": "2000-02-09",
+    "dateOfRevision": "2017-12-13",
+    "firstPublicationDate": "2000-02-01",
+    "firstIndexDate": "2008-01-29",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1152%2Fajpendo.2000.278.2.E280%22&format=json&resultType=core",
+  "retrieved_on": "2026-10-26",
+  "access": "Metadata and abstract; not full methods"
+}

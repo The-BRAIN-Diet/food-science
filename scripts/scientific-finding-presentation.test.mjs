@@ -1,3 +1,4 @@
+import * as scientificPrinciples from '../src/lib/scientificPrinciples.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -13,10 +14,11 @@ const layout=require('../src/plugin/pm-lever-layout/index.cjs');
 const read=p=>fs.readFileSync(p,'utf8');
 const pm=matter(read('docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx'));
 const f=pm.data.scientific_findings[0];
+const beforePilot=matter(read('review/scientific-principles-governance-pm1-2026-10-26/before/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx')).data;
 function component(frontMatter={}) {
   const mod={exports:{}};
   const code=ts.transpileModule(read('src/components/ScientificFinding.tsx'),{compilerOptions:{module:ts.ModuleKind.CommonJS,jsx:ts.JsxEmit.ReactJSX,esModuleInterop:true}}).outputText;
-  const imports={'@docusaurus/plugin-content-docs/client':{useDoc:()=>({frontMatter})},'../client/brsFmHubDropdown':{initBrsFmHubDropdowns(){}},'./SecAssessment':{SecAssessmentSummary:()=>null},'../lib/scientificFindingPresentation.mjs':{findingReaderLabel,findingInterventionLinks}};
+  const imports={'../lib/scientificPrinciples.mjs':scientificPrinciples,'@docusaurus/plugin-content-docs/client':{useDoc:()=>({frontMatter})},'../client/brsFmHubDropdown':{initBrsFmHubDropdowns(){}},'./SecAssessment':{SecAssessmentSummary:()=>null},'../lib/scientificFindingPresentation.mjs':{findingReaderLabel,findingInterventionLinks}};
   new Function('exports','require','module',code)(mod.exports,id=>imports[id]||require(id),mod);
   return mod.exports.default;
 }
@@ -49,7 +51,7 @@ test('exact intervention relationships are rendered, retired/proposed and shared
   data.system_optimisation_practices[0].status='retired';assert.deepEqual(findingInterventionLinks(data,f.id),[]);
   assert.doesNotMatch(renderToStaticMarkup(React.createElement(component(data),{finding:f})),/Supports SOP:/);
   data.system_optimisation_practices[0].status='proposed';assert.deepEqual(findingInterventionLinks(data,f.id),[]);
-  assert.deepEqual(findingInterventionLinks(pm.data,'PM1-F5'),[],'Unapproved PM1 SOP remains absent');
+  assert.deepEqual(findingInterventionLinks(pm.data,'PM1-F5'),findingInterventionLinks(beforePilot,'PM1-F5'),'Existing canonical intervention relationships must not change during reclassification');
   assert.deepEqual(findingInterventionLinks({system_optimisation_practices:[{atom_id:'other',input:f.finding_label}]},f.id),[]);
 });
 test('reference PM reverse links resolve exact admitted protocols without changing records',()=>{
@@ -75,17 +77,21 @@ test('reader-facing return links use short labels without changing destinations 
   assert.match(html,/<code>PM1-F1<\/code>/);
 });
 
-test('actual compiled PM1 renders matching mechanism titles and reciprocal evidence links for all six Findings',async()=>{
+test('actual compiled PM1 renders matching mechanism titles and reciprocal evidence links for active Findings and preserves Principle provenance',async()=>{
   const body=pm.content.replace(/^import ScientificFinding[^\n]*\n/m,'');
   const evaluated=await evaluate({value:body,data:{frontMatter:pm.data}},{...runtime,remarkPlugins:[layout]});
   const html=renderToStaticMarkup(React.createElement(evaluated.default,{components:{ScientificFinding:component(pm.data)}}));
   for(const finding of pm.data.scientific_findings) {
     const number=finding.id.split('-F')[1];
     assert.ok(html.includes(`id="pm1-mechanism-f${number}"`));
+    if(scientificPrinciples.isScientificPrinciple(pm.data,finding.id)){assert.match(html,/<h4[^>]*>Scientific Principle — /);assert.ok(html.includes('?review=1#pm1-sp2'));assert.ok(!html.includes('aria-label="SF4 —'));continue;}
     assert.match(html,new RegExp(`<h4[^>]*>SF${number} — `));
     assert.ok(html.includes(`href="#pm1-f${number}">SF${number} — ${finding.finding_label}`));
     assert.ok(html.includes(`href="#pm1-mechanism-f${number}">Mechanistic explanation: ${finding.finding_label}`));
   }
   assert.match(html,/Scientific Findings \(6\)/);
-  assert.doesNotMatch(html,/Supports SOP:/);
+  const baselineInterventions=beforePilot.scientific_findings.flatMap(f=>findingInterventionLinks(beforePilot,f.id));
+  const currentInterventions=pm.data.scientific_findings.flatMap(f=>findingInterventionLinks(pm.data,f.id));
+  assert.deepEqual(currentInterventions,baselineInterventions,'No intervention admission or relationship changed');
+  for(const link of baselineInterventions)assert.ok(html.includes(link.id));
 });

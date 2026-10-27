@@ -91,6 +91,32 @@ dietary_input_traceability:
         - fanet_tetrahydrobioterin_2021
         - fitzpatrick_aromatic_1999
     evidence_limitation: BH4 is synthesised and recycled in vivo; this is not evidence for dietary BH4 provision or increased serotonin synthesis.
+  - atom_id: PM5-DIT-RECOVERY-VITAMIN-B2
+    input: Vitamin B2
+    input_type: cofactor precursor
+    substance_id: vitamin-b2
+    biological_role: Riboflavin supplies FMN and FAD formation; FAD sustains monoamine oxidase in serotonin metabolism capacity.
+    evidence_source:
+      finding_ids:
+        - PM5-F5
+      citation_keys:
+        - dix_brain_mao_riboflavin_1981
+    evidence_limitation: 'Rat enzyme capacity, not measured human neurotransmitter clearance, synaptic output or benefit above adequacy. No conclusion about which flavin analogue is effective is taken from the internally inconsistent abstract. The same experiment is shared across the three monoamine PMs, not independent replication.'
+    dietary_input: true
+    dietary_input_note: '2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition does not establish an effective intervention dose.'
+  - atom_id: PM5-DIT-RECOVERY-FAD
+    input: Flavin adenine dinucleotide
+    input_type: cofactor
+    substance_id: flavin-adenine-dinucleotide
+    biological_role: FAD is the bound flavin cofactor of monoamine oxidase.
+    evidence_source:
+      finding_ids:
+        - PM5-F5
+      citation_keys:
+        - dix_brain_mao_riboflavin_1981
+    evidence_limitation: 'This is a biochemical cofactor target, not an independent oral FAD admission or food-content claim.'
+    dietary_input: false
+    dietary_input_note: Target of the separately admitted riboflavin activation route; not duplicated as a primary dietary presentation.
 dietary_lever_atoms:
   - atom_id: PM5-DIT-1
     requirement_classification: direct
@@ -131,6 +157,20 @@ dietary_lever_atoms:
     claim_ceiling: biological-dependency
     permitted_wording: BH4 is the endogenous cofactor required for tryptophan hydroxylation. It is not a dietary BH4 recommendation.
     evidence_limitation: BH4 is synthesised and recycled in vivo; this is not evidence for dietary BH4 provision or increased serotonin synthesis.
+  - atom_id: PM5-DIT-RECOVERY-FAD
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: FAD is the bound flavin cofactor of monoamine oxidase.
+  - atom_id: PM5-DIT-RECOVERY-VITAMIN-B2
+    requirement_classification: derived
+    relationship_mode: capacity-requirement
+    relationship_layer: dietary-requirement
+    dietary_addressability: precursor-mediated
+    claim_ceiling: biological-dependency
+    permitted_wording: Riboflavin supplies FMN and FAD formation; FAD sustains monoamine oxidase in serotonin metabolism capacity.
+    evidence_limitation: 'Rat enzyme capacity, not measured human neurotransmitter clearance, synaptic output or benefit above adequacy. No conclusion about which flavin analogue is effective is taken from the internally inconsistent abstract. The same experiment is shared across the three monoamine PMs, not independent replication.'
+    derived_target: Flavin adenine dinucleotide
+    derived_target_atom_id: PM5-DIT-RECOVERY-FAD
 dietary_lever_presentations:
   - atom_id: PM5-DIT-1
     label: Tryptophan
@@ -151,6 +191,9 @@ dietary_lever_presentations:
   - atom_id: PM5-DIT-6
     label: Tetrahydrobiopterin (BH4)
     presentation_section: 3.1.2
+  - atom_id: PM5-DIT-RECOVERY-VITAMIN-B2
+    label: Vitamin B2
+    presentation_section: 3.1.1
 key_constraints:
   - BRS1(KC1) - Amino Acid Quality & Competitive Balance
 pm_kc_relationships:
@@ -324,6 +367,7 @@ references:
   - '[Berger, Gray and Roth (2009) — The Expanded Biology of Serotonin](/docs/papers/BRAIN-Diet-References#berger_serotonin_2009)'
   - '[FAO (2013) — Dietary Protein Quality Evaluation in Human Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)'
   - '[Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)'
+  - '[Dix and Lambooy (1981) — Brain monoamine oxidase and replacement of its coenzyme flavin in rats](/docs/papers/BRAIN-Diet-References#dix_brain_mao_riboflavin_1981)'
 kc_applicability_adjudications:
   - kc_id: BRS1(KC1)
     ikc_id: BRS1(KC1)
@@ -597,6 +641,32 @@ scientific_findings:
           evidence_summary: Constrains transport evidence as upstream presentation.
           limitations: 'Does not measure serotonin receptors, mood or ADHD.'
     presentation: interpretive-constraint
+  - id: PM5-F5
+    finding_label: Riboflavin supply supports the MAO metabolic arm
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: Riboflavin-deficient rats had lower brain mitochondrial MAO activity measured with tyramine.
+    finding_summary: Riboflavin-deficient rats had lower brain mitochondrial MAO activity measured with tyramine.
+    finding_interpretation: Riboflavin supplies FMN and FAD formation; FAD sustains monoamine oxidase in serotonin metabolism capacity.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: Riboflavin-deficient rats had lower brain mitochondrial MAO activity measured with tyramine.
+    synthesis_limitations: 'Rat enzyme capacity, not measured human neurotransmitter clearance, synaptic output or benefit above adequacy. No conclusion about which flavin analogue is effective is taken from the internally inconsistent abstract. The same experiment is shared across the three monoamine PMs, not independent replication. Numerical SEC remains pending full-method appraisal; no factor is forced.'
+    evidence_considered:
+      - label: Dix and Lambooy (1981)
+        citation_key: dix_brain_mao_riboflavin_1981
+        href: /docs/papers/BRAIN-Diet-References#dix_brain_mao_riboflavin_1981
+        data_level: Animal Data
+        evidence_source: bounded-external-search
+        exposure_context: 'Dietary riboflavin deficiency, distinct from ordinary-food optimisation.'
+        directional_finding: Riboflavin-deficient rats had lower brain mitochondrial MAO activity measured with tyramine.
+        assessment:
+          study: Rat dietary riboflavin deficiency and flavin-analogue replacement; mitochondrial enzyme assay.
+          population: Rats; sample sizes and full methods not extracted.
+          result: Riboflavin-deficient rats had lower brain mitochondrial MAO activity measured with tyramine.
+          effect_magnitude: No additional magnitude inferred.
+          evidence_summary: Riboflavin-deficient rats had lower brain mitochondrial MAO activity measured with tyramine.
+          limitations: 'Rat enzyme capacity, not measured human neurotransmitter clearance, synaptic output or benefit above adequacy. No conclusion about which flavin analogue is effective is taken from the internally inconsistent abstract. The same experiment is shared across the three monoamine PMs, not independent replication.'
+          retrieval_scope: Primary abstract retrieved 26 October 2026; full methods and supplements not extracted.
 kc_adjudication_history:
   - date: '2026-10-07'
     decision:
@@ -643,6 +713,61 @@ kc_adjudication_history:
       rationale: 'Type D (2) is met for formation capacity: named LAT1 imbalance is connected to a constraint on serotonin synthesis, a defining capacity this mechanism governs. Transport is still not signalling (PM5-IC1). Mood, sleep and ADHD remain inference.'
     rationale: 'Metadata migration only: preserve the established governs/constrained-by interpretation as a typed Conditional constraint for FM summary derivation. No stronger scientific admission.'
     review_record: system/kc-unresolved-decisions-reconciliation.md
+sidebar_label: BRS1-1-5 — Serotonergic Signalling Regulation
+dietary_input_assessments:
+  - atom_id: PM5-DIT-RECOVERY-VITAMIN-B2
+    status: admitted
+    type: A
+    classification: derived
+    operation: 'Support serotonergic signalling so mood stability, inhibition, and behavioural regulation remain well grounded.'
+    canonical_substance_id: vitamin-b2
+    assessment_date: '2026-10-26'
+    assessment_limitations: 'Rat enzyme capacity, not measured human neurotransmitter clearance, synaptic output or benefit above adequacy. No conclusion about which flavin analogue is effective is taken from the internally inconsistent abstract. The same experiment is shared across the three monoamine PMs, not independent replication.'
+    food_target_research:
+      completed: true
+      sources_examined:
+        - registry/substances.json
+        - docs/foods/almonds.md
+        - docs/foods/anchovies.md
+        - system/food-target-research.json
+      sufficient_coverage_rationale: Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships.
+    functional_dependency:
+      status: established
+      statement: Riboflavin supplies FMN and FAD formation; FAD sustains monoamine oxidase in serotonin metabolism capacity.
+      sources:
+        - 'https://pubmed.ncbi.nlm.nih.gov/7264772/'
+    dietary_supply:
+      status: established
+      statement: Food riboflavin supplies the precursor activated by human RFK and FLAD1 to FMN/FAD. Cofactor loading is not increased neurotransmitter output.
+      sources:
+        - docs/foods/almonds.md
+        - docs/foods/anchovies.md
+    active_target_id: flavin-adenine-dinucleotide
+    conversion_pathway:
+      - from: vitamin-b2
+        to: flavin-mononucleotide
+        process: Riboflavin kinase (RFK) phosphorylates riboflavin to FMN using ATP.
+        dependencies:
+          - Functional RFK
+          - ATP and divalent metal availability
+        limitations: Enzyme identity does not quantify tissue cofactor supply or flux after a meal.
+        evidence:
+          statement: 'Human RFK catalyses riboflavin phosphorylation; UniProt Q969G6 entry 195 retrieved 2026-10-26, Rhea 14357.'
+          sources:
+            - 'https://www.uniprot.org/uniprotkb/Q969G6/entry'
+            - 'https://www.rhea-db.org/rhea/14357'
+      - from: flavin-mononucleotide
+        to: flavin-adenine-dinucleotide
+        process: FLAD1 FAD synthase adenylates FMN with ATP to form FAD.
+        dependencies:
+          - Functional FLAD1 FAD synthase
+          - ATP and divalent metal availability
+        limitations: FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred.
+        evidence:
+          statement: 'Human FLAD1 catalyses FMN adenylation; UniProt Q8NFF5 entry 182 retrieved 2026-10-26, Rhea 17237.'
+          sources:
+            - 'https://www.uniprot.org/uniprotkb/Q8NFF5/entry'
+            - 'https://www.rhea-db.org/rhea/17237'
 ---
 
 <p class="brs-pm-thumbnail-wrap">
@@ -681,6 +806,9 @@ Support serotonergic signalling so mood stability, inhibition, and behavioural r
 <strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
+
+- Vitamin B2
+
 
 - Tryptophan
 - Iron
@@ -814,6 +942,8 @@ Enzyme studies and biochemical reviews establish the neuronal tryptophan-to-sero
 <ScientificFinding finding={{"id":"PM5-F2","finding_label":"Serotonin formation depends on tryptophan hydroxylation and PLP-dependent decarboxylation","finding_summary":"Brain serotonin is formed from tryptophan. Tryptophan hydroxylase (the first and rate-limiting enzyme) needs iron and tetrahydrobiopterin (BH4). Pyridoxal-5′-phosphate (PLP; the active form of vitamin B6) then supports decarboxylation of 5-hydroxytryptophan to serotonin. These are biological requirements, not proof that extra tryptophan, iron or B6 raises brain serotonin.","finding_interpretation":"Tryptophan remains the pathway starting material. Circulating amino-acid supply and competitive brain entry are earlier steps. Iron, BH4 and PLP are candidates for dietary assessment. This finding does not admit an intake-responsive serotonin lever.","fm_rollup":true,"finding_statement":"Serotonin formation depends on tryptophan-hydroxylase conversion of tryptophan to 5-hydroxytryptophan, requiring iron and BH4, followed by PLP-dependent decarboxylation; cofactor or substrate necessity is not evidence of intake-responsive human brain serotonin.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Aromatic-amino-acid hydroxylase biochemistry identifies tryptophan hydroxylase as an iron- and tetrahydrobiopterin-dependent monooxygenase that forms 5-hydroxytryptophan. A second tryptophan hydroxylase isoform (TPH2) accounts for neuronal serotonin synthesis. BH4-pathway review evidence places the same cofactor on serotonin as well as dopamine synthesis. B-vitamin review evidence places PLP in neurochemical decarboxylation, and a transport study shows that B6 vitamers can enter the central nervous system. Together they establish the defining synthesis sequence and its participants. They do not show ordinary-diet control of human brain serotonin.","synthesis_limitations":"The synthesis is mechanistic and review-level. It does not show that ordinary dietary tryptophan, iron or vitamin B6 changes human brain serotonin, mood, sleep or ADHD when status is already adequate.","evidence_considered":[{"label":"Fitzpatrick (1999)","citation_key":"fitzpatrick_aromatic_1999","href":"/docs/papers/BRAIN-Diet-References#fitzpatrick_aromatic_1999","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Tryptophan hydroxylase is a tetrahydropterin-dependent aromatic amino-acid hydroxylase that uses non-haem iron and molecular oxygen to form 5-hydroxytryptophan.","assessment":{"study":"Biochemical review of tetrahydropterin-dependent amino-acid hydroxylases.","population":"Enzyme and experimental literature; not a human dietary sample.","result":"Identified iron, tetrahydrobiopterin and oxygen as required participants in tryptophan hydroxylation.","effect_magnitude":"No dietary or functional effect estimate.","evidence_summary":"Establishes the rate-limiting hydroxylation chemistry.","limitations":"Enzyme-mechanism review; not an intake-to-serotonin trial."},"canonical_reference":{"author_year":"Fitzpatrick (1999)","number":13,"anchor":"#pm-ref-13"}},{"label":"Walther et al. (2003)","citation_key":"walther_tph2_2003","href":"/docs/papers/BRAIN-Diet-References#walther_tph2_2003","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"A second tryptophan hydroxylase isoform (TPH2) synthesises serotonin in the brain, distinct from the peripheral TPH1 enzyme.","assessment":{"study":"Identification of neuronal tryptophan hydroxylase 2.","population":"Experimental biochemistry and mouse genetics; not a dietary trial.","result":"Showed that brain serotonin synthesis uses TPH2 rather than treating TPH as a single peripheral enzyme.","effect_magnitude":"Not a dose-response estimate.","evidence_summary":"Places the hydroxylase step in neuronal serotonin formation.","limitations":"Isoform discovery; does not measure diet or mood."},"canonical_reference":{"author_year":"Walther et al. (2003)","number":14,"anchor":"#pm-ref-14"}},{"label":"Fanet et al. (2021)","citation_key":"fanet_tetrahydrobioterin_2021","href":"/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Tetrahydrobiopterin is required for serotonin as well as dopamine synthesis and is made and recycled in the body.","assessment":{"study":"Review of BH4 metabolism and neuropsychiatric relevance.","population":"Mixed preclinical and clinical literature; not an ordinary-diet serotonin trial.","result":"Identified BH4 as an essential cofactor for serotonin synthesis.","effect_magnitude":"No ordinary-diet serotonin effect estimate.","evidence_summary":"Supports BH4 as an endogenous hydroxylase cofactor on this path.","limitations":"Pathway and disease-context review; not a food-to-serotonin study."},"canonical_reference":{"author_year":"Fanet et al. (2021)","number":12,"anchor":"#pm-ref-12"}}],"connected_supportive_evidence":[{"label":"Kennedy (2016)","citation_key":"kennedy_b_2016","href":"/docs/papers/BRAIN-Diet-References#kennedy_b_2016","data_level":"Mechanistic","why_relevant":"Reviews B-vitamin roles in neurochemical synthesis, including vitamin B6 as cofactor context for decarboxylation.","why_excluded":"General B-vitamin review; it does not isolate aromatic L-amino-acid decarboxylase or show an intake-to-serotonin response.","canonical_reference":{"author_year":"Kennedy (2016)","number":10,"anchor":"#pm-ref-10"}},{"label":"Spector (1978)","citation_key":"spector_vitamin_1978","href":"/docs/papers/BRAIN-Diet-References#spector_vitamin_1978","data_level":"Animal Data","why_relevant":"Shows that B6 vitamers enter the central nervous system and contribute to the brain vitamin B6 pool.","why_excluded":"Rabbit transport study; it does not measure serotonin synthesis, release or function.","canonical_reference":{"author_year":"Spector (1978)","number":11,"anchor":"#pm-ref-11"}},{"label":"Tang et al. (2025)","citation_key":"tang_nutritional_2025","href":"/docs/papers/BRAIN-Diet-References#tang_nutritional_2025","data_level":"Human Mechanistic","why_relevant":"Summarises nutritional influences discussed around the serotonergic system, including precursor and micronutrient context.","why_excluded":"Nutrition review; it does not establish intake-responsive human brain serotonin on this mechanism.","canonical_reference":{"author_year":"Tang et al. 2025","number":2,"anchor":"#pm-ref-2"}}],"presentation":"mechanistic-basis"}} />
 
 <ScientificFinding finding={{"id":"PM5-F4","finding_label":"Serotonin signalling uses receptor families, reuptake and enzymatic metabolism","finding_summary":"After synthesis, serotonin is released, acts on several receptor families, is taken back up by the serotonin transporter (SERT) and can be metabolised enzymatically. That sequence is signalling biology, not a dietary rule.","finding_interpretation":"This finding covers the release-and-receptor part of the Overview. It identifies later-stage dietary candidates as still unassessed. It does not admit a SERT or MAO dietary lever.","fm_rollup":true,"finding_statement":"Serotonergic signalling includes vesicular handling, receptor-mediated actions, transporter-mediated reuptake and enzymatic metabolism; those stages are not interchangeable with precursor supply and are not evidence of dietary control.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"The expanded-biology review describes serotonin’s receptor diversity, transporter-mediated clearance and metabolic handling as the operational signalling sequence. ADHD-focused serotonin reviews use receptor and transporter language as pharmacological and neurobiological context, not as food targets. Together they establish that signalling is more than synthesis. They do not measure diet-responsive receptor or transporter change.","synthesis_limitations":"Review-level coverage. Specific dietary dependencies of monoamine oxidase or of SERT function remain unassessed.","evidence_considered":[{"label":"Berger, Gray and Roth (2009)","citation_key":"berger_serotonin_2009","href":"/docs/papers/BRAIN-Diet-References#berger_serotonin_2009","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Serotonin signalling involves multiple receptor families, transporter-mediated reuptake and further metabolic fates, including a pineal route toward melatonin.","assessment":{"study":"Same serotonin-biology review used for PM5-F1, reused here for the signalling-sequence proposition.","population":"Mixed mechanistic literature; not a dietary sample.","result":"Described post-synthesis signalling stages without testing food intake.","effect_magnitude":"No dietary effect estimate.","evidence_summary":"Establishes release, receptor, reuptake and metabolism as part of the mechanism.","limitations":"Review; no dietary or ADHD endpoint."},"canonical_reference":{"author_year":"Berger, Gray and Roth (2009)","number":15,"anchor":"#pm-ref-15"}}],"connected_supportive_evidence":[{"label":"Faraone et al. (2025)","citation_key":"faraone_serotonin_2025","href":"/docs/papers/BRAIN-Diet-References#faraone_serotonin_2025","data_level":"Human Mechanistic","why_relevant":"Systematic review of serotonin in ADHD neurobiology, including receptor and transporter context.","why_excluded":"ADHD literature review; not a dietary signalling measurement.","canonical_reference":{"author_year":"Faraone et al. 2025","number":3,"anchor":"#pm-ref-3"}}],"evidence_dependency":["Berger, Gray and Roth (2009) is also primary evidence in PM5-F1. Reuse here answers the signalling-sequence proposition, not an independent replication of the mood-role review."],"presentation":"mechanistic-basis","informs":[{"phenome":"Sleep / Calming Tone","href":"/docs/phenomes/details/ph008-sleep-calming-tone"}]}} />
+
+<ScientificFinding finding={{"id":"PM5-F5","finding_label":"Riboflavin supply supports the MAO metabolic arm","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"Riboflavin-deficient rats had lower brain mitochondrial MAO activity measured with tyramine.","finding_summary":"Riboflavin-deficient rats had lower brain mitochondrial MAO activity measured with tyramine.","finding_interpretation":"Riboflavin supplies FMN and FAD formation; FAD sustains monoamine oxidase in serotonin metabolism capacity.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Riboflavin-deficient rats had lower brain mitochondrial MAO activity measured with tyramine.","synthesis_limitations":"Rat enzyme capacity, not measured human neurotransmitter clearance, synaptic output or benefit above adequacy. No conclusion about which flavin analogue is effective is taken from the internally inconsistent abstract. The same experiment is shared across the three monoamine PMs, not independent replication. Numerical SEC remains pending full-method appraisal; no factor is forced.","evidence_considered":[{"label":"Dix and Lambooy (1981)","citation_key":"dix_brain_mao_riboflavin_1981","href":"/docs/papers/BRAIN-Diet-References#dix_brain_mao_riboflavin_1981","data_level":"Animal Data","evidence_source":"bounded-external-search","exposure_context":"Dietary riboflavin deficiency, distinct from ordinary-food optimisation.","directional_finding":"Riboflavin-deficient rats had lower brain mitochondrial MAO activity measured with tyramine.","assessment":{"study":"Rat dietary riboflavin deficiency and flavin-analogue replacement; mitochondrial enzyme assay.","population":"Rats; sample sizes and full methods not extracted.","result":"Riboflavin-deficient rats had lower brain mitochondrial MAO activity measured with tyramine.","effect_magnitude":"No additional magnitude inferred.","evidence_summary":"Riboflavin-deficient rats had lower brain mitochondrial MAO activity measured with tyramine.","limitations":"Rat enzyme capacity, not measured human neurotransmitter clearance, synaptic output or benefit above adequacy. No conclusion about which flavin analogue is effective is taken from the internally inconsistent abstract. The same experiment is shared across the three monoamine PMs, not independent replication.","retrieval_scope":"Primary abstract retrieved 26 October 2026; full methods and supplements not extracted."},"canonical_reference":{"author_year":"Dix and Lambooy (1981)","number":18,"anchor":"#pm-ref-18"}}],"connected_supportive_evidence":[]}} />
 
 ## 5. BRS Pathways and Connections
 
@@ -1064,3 +1194,5 @@ Tryptophan, B6 and iron already cover accepted precursor/cofactor roles. The ret
 - <span id="pm-ref-15">[15]</span> [Berger, Gray and Roth (2009) — The Expanded Biology of Serotonin](/docs/papers/BRAIN-Diet-References#berger_serotonin_2009)
 - <span id="pm-ref-16">[16]</span> [FAO (2013) — Dietary Protein Quality Evaluation in Human Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
 - <span id="pm-ref-17">[17]</span> [Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+- <span id="pm-ref-18">[18]</span> [Dix and Lambooy (1981) — Brain monoamine oxidase and replacement of its coenzyme flavin in rats](/docs/papers/BRAIN-Diet-References#dix_brain_mao_riboflavin_1981)
+

@@ -1,0 +1,1178 @@
+---
+title: ROS Production and Control
+pm_id: BRS4-FM2-PM4
+mission: >-
+  Regulate mitochondrial superoxide and hydrogen peroxide generation in response to metabolic conditions,
+  preserving physiological redox signalling while limiting excessive oxidant production.
+parent_fm: BRS4(FM2)
+parent_brs: BRS4
+summary: >-
+  Mitochondria produce oxidants as part of their response to changing energy demands. Keeping this production
+  appropriately regulated allows cells to signal and adapt while limiting excessive oxidant exposure. This
+  matters for understanding the metabolic environment in which brain cells function. The evidence here
+  establishes source regulation and adaptive signalling in experimental models, alongside changes in oxidant
+  emission in human muscle; these are different levels of biological observation.
+key_constraints:
+  - BRS4(KC2) - Mitochondrial Cofactor Sufficiency
+cofactors:
+  - selenium
+  - manganese
+  - zinc
+  - copper
+intervention_dominance: Not established
+intervention_breakdown: Food-State Dominant
+timing_specific: 'Yes'
+dose_sensitivity: >-
+  No general optimisation dose established. Experimental exposures are retained in source assessments, not
+  translated into food prescriptions.
+phenome_relationships:
+  - target_phenome: Recovery Capacity
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: observational
+    evidence_confidence: low-medium
+    rationale: >-
+      Elevated glutathione and oxidative-stress markers in paediatric ADHD case–control work link
+      mitochondrial ROS handling to redox recovery context; GSH is required for mitochondrial lactate
+      metabolism and ROS neutralisation — this PM governs ROS production/control balance, not GSH synthesis
+      (BRS2/BRS3).
+    references:
+      - index: 1
+        label: Verlaet et al. (2019)
+        citation_key: verlaet_oxidative_2019
+        href: /docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019
+        data_level: Human Mechanistic
+  - target_phenome: Stress Reactivity
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: observational
+    evidence_confidence: low-medium
+    rationale: >-
+      Oxidative-stress elevation in ADHD cohorts intersects stress-relevant redox tone — impaired ROS control
+      may modulate allostatic load under repeated challenge without claiming oxidative stress causes ADHD.
+    references:
+      - index: 1
+        label: Verlaet et al. (2019)
+        citation_key: verlaet_oxidative_2019
+        href: /docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019
+        data_level: Human Mechanistic
+      - index: 2
+        label: Öğütlü et al. (2022)
+        citation_key: ogutlu_mitochondrial_2023
+        href: /docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023
+        data_level: Human Study
+references:
+  - >-
+    [Packer et al. (1997) — Vitamin E and the Metabolic Antioxidant
+    Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
+  - >-
+    [Kyriazis et al. (2022) — Impact of Diet Upon Mitochondrial Physiology
+    (Review)](/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022)
+  - >-
+    [Verlaet et al. (2019) — A Case–control
+    Comparison](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)
+  - >-
+    [Öğütlü et al. (2022) — Mitochondrial Dysfunction in Attention Deficit Hyperactivity
+    Disorder](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023)
+  - >-
+    [Brand et al. (2016) — Suppressors of Superoxide-H2O2 Production at Site IQ of Mitochondrial Complex I
+    Protect against Stem Cell Hyperplasia and Ischemia-Reperfusion
+    Injury.](/docs/papers/BRAIN-Diet-References#brs4_brand2016_20261023)
+  - >-
+    [Chouchani et al. (2014) — Ischaemic accumulation of succinate controls reperfusion injury through
+    mitochondrial ROS.](/docs/papers/BRAIN-Diet-References#brs4_chouchani2014_20261023)
+  - >-
+    [Guzy et al. (2005) — Mitochondrial complex III is required for hypoxia-induced ROS production and
+    cellular oxygen sensing.](/docs/papers/BRAIN-Diet-References#brs4_guzy2005_20261023)
+  - >-
+    [Anderson et al. (2009) — Mitochondrial H2O2 emission and cellular redox state link excess fat intake to
+    insulin resistance in both rodents and
+    humans.](/docs/papers/BRAIN-Diet-References#brs4_anderson2009_20261023)
+  - >-
+    [Gram et al. (2015) — Skeletal muscle mitochondrial H2 O2 emission increases with immobilization and
+    decreases after aerobic training in young and older
+    men.](/docs/papers/BRAIN-Diet-References#brs4_gram2015_20261023)
+  - >-
+    [Herbst et al. (2014) — Omega-3 supplementation alters mitochondrial membrane composition and respiration
+    kinetics in human skeletal muscle.](/docs/papers/BRAIN-Diet-References#brs4_herbst2014_20261023)
+  - >-
+    [Maalouf et al. (2007) — Ketones inhibit mitochondrial production of reactive oxygen species production
+    following glutamate excitotoxicity by increasing NADH
+    oxidation.](/docs/papers/BRAIN-Diet-References#brs4_maalouf2007_20261023)
+  - >-
+    [Trewin et al. (2017) — Acute exercise alters skeletal muscle mitochondrial respiration and H2O2 emission
+    in response to hyperinsulinemic-euglycemic clamp in middle-aged obese
+    men.](/docs/papers/BRAIN-Diet-References#brs4_acuteexercise2017_20261023)
+  - >-
+    [Jarrett et al. (2008) — The ketogenic diet increases mitochondrial glutathione
+    levels.](/docs/papers/BRAIN-Diet-References#brs4_jarrett2008_20261023)
+  - >-
+    [UniProt — P04179, enzyme annotation version
+    268](/docs/papers/BRAIN-Diet-References#brs4_uniprot_p04179_20261023)
+  - >-
+    [UniProt — P36969, enzyme annotation version
+    235](/docs/papers/BRAIN-Diet-References#brs4_uniprot_p36969_20261023)
+  - >-
+    [UniProt — P00441, enzyme annotation version
+    279](/docs/papers/BRAIN-Diet-References#brs4_uniprot_p00441_20261023)
+hide_title: true
+evidence_status: stage-2b-dietary-addressability
+dietary_addressability: not-established
+claim_ceiling: biological-dependency
+mechanistic_authoring_required: false
+scientific_findings:
+  - id: PM4-F1
+    finding_label: Mitochondrial oxidant production is source- and state-dependent
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: >-
+      Specific mitochondrial electron-transfer sites generate superoxide and hydrogen peroxide;
+      source-specific suppression can reduce oxidant production without inhibiting oxidative phosphorylation.
+      Succinate oxidation during reperfusion can drive excessive production through reverse electron
+      transport.
+    finding_summary: >-
+      Specific mitochondrial electron-transfer sites generate superoxide and hydrogen peroxide;
+      source-specific suppression can reduce oxidant production without inhibiting oxidative phosphorylation.
+      Succinate oxidation during reperfusion can drive excessive production through reverse electron
+      transport.
+    finding_interpretation: >-
+      Experimental suppressors and ischaemia models establish source regulation, not dietary effectiveness.
+      These results do not imply that all mitochondrial ROS are harmful or that mitochondrial emission assays
+      isolate gross production.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: >-
+      Specific mitochondrial electron-transfer sites generate superoxide and hydrogen peroxide;
+      source-specific suppression can reduce oxidant production without inhibiting oxidative phosphorylation.
+      Succinate oxidation during reperfusion can drive excessive production through reverse electron
+      transport.
+    synthesis_limitations: >-
+      Experimental suppressors and ischaemia models establish source regulation, not dietary effectiveness.
+      These results do not imply that all mitochondrial ROS are harmful or that mitochondrial emission assays
+      isolate gross production.
+    evidence_considered:
+      - label: Brand et al. (2016)
+        citation_key: brs4_brand2016_20261023
+        href: /docs/papers/BRAIN-Diet-References#brs4_brand2016_20261023
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        exposure_context: >-
+          Primary high-throughput chemical screening followed by mitochondrial/cellular assays, Drosophila
+          experiments and perfused mouse-heart experiments.
+        directional_finding: >-
+          S1QEL compounds suppressed site-IQ superoxide/H2O2 without inhibiting oxidative phosphorylation;
+          protection was context-specific.
+        assessment:
+          study: >-
+            Primary high-throughput chemical screening followed by mitochondrial/cellular assays, Drosophila
+            experiments and perfused mouse-heart experiments.
+          population: 'Isolated mitochondria, primary astrocytes, Drosophila intestine and perfused mouse heart.'
+          result: >-
+            S1QEL compounds suppressed site-IQ superoxide/H2O2 without inhibiting oxidative phosphorylation;
+            protection was context-specific.
+          effect_magnitude: Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.
+          evidence_summary: >-
+            S1QEL compounds suppressed site-IQ superoxide/H2O2 without inhibiting oxidative phosphorylation;
+            protection was context-specific.
+          limitations: >-
+            Tool compounds are not dietary inputs; effects across models are not independent human
+            replications.
+          retrieval_scope: Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.
+          source_url: 'https://pubmed.ncbi.nlm.nih.gov/27667666/'
+          publication_classification: primary-experimental
+      - label: Chouchani et al. (2014)
+        citation_key: brs4_chouchani2014_20261023
+        href: /docs/papers/BRAIN-Diet-References#brs4_chouchani2014_20261023
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        exposure_context: 'Primary metabolomics, isotope tracing and pharmacological perturbation of ischaemia/reperfusion.'
+        directional_finding: >-
+          Accumulated succinate oxidation on reperfusion drove complex-I reverse-electron-transport ROS and
+          injury.
+        assessment:
+          study: 'Primary metabolomics, isotope tracing and pharmacological perturbation of ischaemia/reperfusion.'
+          population: Cellular and animal ischaemia/reperfusion models.
+          result: >-
+            Accumulated succinate oxidation on reperfusion drove complex-I reverse-electron-transport ROS and
+            injury.
+          effect_magnitude: Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.
+          evidence_summary: >-
+            Accumulated succinate oxidation on reperfusion drove complex-I reverse-electron-transport ROS and
+            injury.
+          limitations: >-
+            Pathological reperfusion is not a meal experiment; the origin of ischaemic succinate has been
+            debated in subsequent primary work. No dietary succinate advice follows.
+          retrieval_scope: Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.
+          source_url: 'https://pubmed.ncbi.nlm.nih.gov/25383517/'
+          publication_classification: primary-experimental
+    evidence_dependency:
+      - >-
+        Sources support the specified links only. Reuse in another Finding or PM is not independent
+        replication; composition, local mechanism, exposure and clinical outcomes are distinct.
+    connected_supportive_evidence:
+      - label: Verlaet et al. (2019)
+        why_relevant: >-
+          Primary ADHD case-control study of erythrocyte GSH and peripheral biomarkers; historical
+          brain-health context.
+        why_excluded: >-
+          No mitochondrial ROS-source or mitochondrial membrane/protein protection assay; no GSH-dependent
+          mitochondrial lactate experiment.
+      - label: Packer et al. (1997) and Kyriazis et al. (2022)
+        why_relevant: Secondary antioxidant-network and diet/mitochondrial synthesis retained from the legacy corpus.
+        why_excluded: Not additional primary experiments or direct proof of the legacy food-pattern claims.
+      - label: Öğütlü et al. (2023; legacy label 2022)
+        why_relevant: Secondary ADHD mitochondrial review retained from legacy Phenome references.
+        why_excluded: >-
+          Not a primary Human Study or direct source-regulation trial; original citation labels and rating
+          history retained for review.
+      - label: 'Versioned UniProtKB SOD1 (P00441), SOD2 (P04179) and GPX4 (P36969) annotations'
+        why_relevant: >-
+          Cu/Zn-SOD1, manganese-dependent mitochondrial SOD2 and selenium-containing GPX4 identify distinct
+          biochemical participants. Retrieved entry versions are retained in the audit.
+        why_excluded: >-
+          Database identity and catalytic participation are not dietary efficacy or automatic PM ownership.
+          Clearance enzymes do not establish source-generation control; mitochondrial isoform, supply and
+          protection are separately assessed.
+    sec_assessment_ref:
+      id: brs4-pm4-pm4-f1-sec
+      version: 1
+      sha256: d07ccb292a479016ed8f9d7735fc79c3d3e6d00154c39a2fec0010914362a46b
+  - id: PM4-F2
+    finding_label: Mitochondrial ROS can carry adaptive signals
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: >-
+      Complex-III-dependent oxidant signals contribute to hypoxic HIF stabilisation in tested cell systems.
+      Mitochondrial ROS therefore have physiological signalling roles as well as injury-associated roles.
+    finding_summary: >-
+      Complex-III-dependent oxidant signals contribute to hypoxic HIF stabilisation in tested cell systems.
+      Mitochondrial ROS therefore have physiological signalling roles as well as injury-associated roles.
+    finding_interpretation: >-
+      Hypoxia differs from anoxia; pharmacological respiratory inhibition can perturb multiple sites. This is
+      not evidence for indiscriminate ROS reduction or a dietary-to-brain benefit.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: >-
+      Complex-III-dependent oxidant signals contribute to hypoxic HIF stabilisation in tested cell systems.
+      Mitochondrial ROS therefore have physiological signalling roles as well as injury-associated roles.
+    synthesis_limitations: >-
+      Hypoxia differs from anoxia; pharmacological respiratory inhibition can perturb multiple sites. This is
+      not evidence for indiscriminate ROS reduction or a dietary-to-brain benefit.
+    evidence_considered:
+      - label: Guzy et al. (2005)
+        citation_key: brs4_guzy2005_20261023
+        href: /docs/papers/BRAIN-Diet-References#brs4_guzy2005_20261023
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        exposure_context: >-
+          Primary genetic and pharmacological complex-III perturbations with redox-sensitive sensors and HIF
+          assays under low oxygen.
+        directional_finding: Complex-III function and oxidant signalling were required for the tested hypoxic HIF response.
+        assessment:
+          study: >-
+            Primary genetic and pharmacological complex-III perturbations with redox-sensitive sensors and HIF
+            assays under low oxygen.
+          population: Cultured mammalian cells exposed to hypoxia.
+          result: Complex-III function and oxidant signalling were required for the tested hypoxic HIF response.
+          effect_magnitude: Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.
+          evidence_summary: Complex-III function and oxidant signalling were required for the tested hypoxic HIF response.
+          limitations: >-
+            Context-dependent cell signalling; not all oxygen-sensing pathways or physiological states require
+            this mechanism.
+          retrieval_scope: Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.
+          source_url: 'https://pubmed.ncbi.nlm.nih.gov/16054089/'
+          publication_classification: primary-experimental
+    evidence_dependency:
+      - >-
+        Sources support the specified links only. Reuse in another Finding or PM is not independent
+        replication; composition, local mechanism, exposure and clinical outcomes are distinct.
+    sec_assessment_ref:
+      id: brs4-pm4-pm4-f2-sec
+      version: 2
+      sha256: 4a465dec6efc624d90b1e232498955c7f0d7eb6e02d5bd77768e3ebe2775e39a
+  - id: PM4-F3
+    finding_label: High-fat exposure altered mitochondrial H2O2-emitting potential
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: >-
+      A specified high-fat meal and short high-fat feeding period increased skeletal-muscle mitochondrial
+      H2O2-emitting potential in a small human experiment; separate rodent perturbations supported a role for
+      mitochondrial oxidants in insulin resistance.
+    finding_summary: >-
+      A specified high-fat meal and short high-fat feeding period increased skeletal-muscle mitochondrial
+      H2O2-emitting potential in a small human experiment; separate rodent perturbations supported a role for
+      mitochondrial oxidants in insulin resistance.
+    finding_interpretation: >-
+      Net H2O2 emission reflects production and scavenging under assay conditions. Human meal findings do not
+      establish a specific ROS-generating site, benefit from a proposed replacement meal, effects of all
+      dietary fats, brain outcomes or human causal mediation.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: >-
+      A specified high-fat meal and short high-fat feeding period increased skeletal-muscle mitochondrial
+      H2O2-emitting potential in a small human experiment; separate rodent perturbations supported a role for
+      mitochondrial oxidants in insulin resistance.
+    synthesis_limitations: >-
+      Net H2O2 emission reflects production and scavenging under assay conditions. Human meal findings do not
+      establish a specific ROS-generating site, benefit from a proposed replacement meal, effects of all
+      dietary fats, brain outcomes or human causal mediation.
+    evidence_considered:
+      - label: Anderson et al. (2009)
+        citation_key: brs4_anderson2009_20261023
+        href: /docs/papers/BRAIN-Diet-References#brs4_anderson2009_20261023
+        data_level: Human Study
+        evidence_source: bounded-external-search
+        exposure_context: >-
+          Primary human muscle-biopsy meal/feeding experiment plus separate rodent high-fat feeding,
+          mitochondrial-antioxidant and mitochondrial-catalase experiments.
+        directional_finding: >-
+          After a meal providing >60% energy from fat and five days of high-fat feeding, muscle mitochondrial
+          H2O2-emitting potential increased; rodent antioxidant manipulations preserved insulin sensitivity.
+        assessment:
+          study: >-
+            Primary human muscle-biopsy meal/feeding experiment plus separate rodent high-fat feeding,
+            mitochondrial-antioxidant and mitochondrial-catalase experiments.
+          population: >-
+            Nine healthy lean men in the acute/short-feeding experiment; separate lean/obese comparisons and
+            rodent models.
+          result: >-
+            After a meal providing >60% energy from fat and five days of high-fat feeding, muscle
+            mitochondrial H2O2-emitting potential increased; rodent antioxidant manipulations preserved
+            insulin sensitivity.
+          effect_magnitude: Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.
+          evidence_summary: >-
+            After a meal providing >60% energy from fat and five days of high-fat feeding, muscle
+            mitochondrial H2O2-emitting potential increased; rodent antioxidant manipulations preserved
+            insulin sensitivity.
+          limitations: >-
+            The meal provided 35% of daily energy; post-meal biopsy was at four hours. Small non-randomised
+            feeding sequence and assay-specific emission; rodent causality must not be assigned to the human
+            cohort.
+          retrieval_scope: >-
+            Primary full-text methods and abstract examined (PMC2648700), including distinct human and rodent
+            arms.
+          source_url: 'https://pubmed.ncbi.nlm.nih.gov/19188683/'
+          publication_classification: primary-experimental
+    evidence_dependency:
+      - >-
+        Sources support the specified links only. Reuse in another Finding or PM is not independent
+        replication; composition, local mechanism, exposure and clinical outcomes are distinct.
+    sec_assessment_ref:
+      id: brs4-pm4-pm4-f3-sec
+      version: 1
+      sha256: fae7ad6251bc104c01d079160f62e65e214a72c6b019bed30fd5d089b3752720
+  - id: PM4-F4
+    finding_label: Inactivity and training changed mitochondrial H2O2 emission
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: >-
+      Two weeks of leg immobilisation increased muscle mitochondrial H2O2 emission at a controlled membrane
+      potential; six weeks of aerobic retraining restored emission and ATP-generating respiration toward
+      baseline. Acute exercise responses were respiratory-state dependent in a separate study.
+    finding_summary: >-
+      Two weeks of leg immobilisation increased muscle mitochondrial H2O2 emission at a controlled membrane
+      potential; six weeks of aerobic retraining restored emission and ATP-generating respiration toward
+      baseline. Acute exercise responses were respiratory-state dependent in a separate study.
+    finding_interpretation: >-
+      Measured emission is not pure source production. Immobilisation/retraining does not establish a
+      universal exercise dose or a brain/ADHD effect. Acute and chronic exercise effects must not be collapsed
+      into “exercise lowers ROS”.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: >-
+      Two weeks of leg immobilisation increased muscle mitochondrial H2O2 emission at a controlled membrane
+      potential; six weeks of aerobic retraining restored emission and ATP-generating respiration toward
+      baseline. Acute exercise responses were respiratory-state dependent in a separate study.
+    synthesis_limitations: >-
+      Measured emission is not pure source production. Immobilisation/retraining does not establish a
+      universal exercise dose or a brain/ADHD effect. Acute and chronic exercise effects must not be collapsed
+      into “exercise lowers ROS”.
+    evidence_considered:
+      - label: Gram et al. (2015)
+        citation_key: brs4_gram2015_20261023
+        href: /docs/papers/BRAIN-Diet-References#brs4_gram2015_20261023
+        data_level: Human Study
+        evidence_source: bounded-external-search
+        exposure_context: >-
+          Primary within-person leg immobilisation followed by supervised aerobic cycle retraining; isolated
+          mitochondrial respirometry and H2O2 assays.
+        directional_finding: >-
+          Immobilisation increased H2O2 emission and reduced ATP-generating respiration; subsequent training
+          reversed these changes.
+        assessment:
+          study: >-
+            Primary within-person leg immobilisation followed by supervised aerobic cycle retraining; isolated
+            mitochondrial respirometry and H2O2 assays.
+          population: Seventeen young and fifteen older healthy men.
+          result: >-
+            Immobilisation increased H2O2 emission and reduced ATP-generating respiration; subsequent training
+            reversed these changes.
+          effect_magnitude: Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.
+          evidence_summary: >-
+            Immobilisation increased H2O2 emission and reduced ATP-generating respiration; subsequent training
+            reversed these changes.
+          limitations: Sequential design; skeletal muscle only; antioxidant-enzyme changes may influence emission.
+          retrieval_scope: Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.
+          source_url: 'https://pubmed.ncbi.nlm.nih.gov/26096818/'
+          publication_classification: primary-experimental
+      - label: Trewin et al. (2017)
+        citation_key: brs4_acuteexercise2017_20261023
+        href: /docs/papers/BRAIN-Diet-References#brs4_acuteexercise2017_20261023
+        data_level: Human Study
+        evidence_source: bounded-external-search
+        exposure_context: >-
+          Primary within-person rest/exercise trials with insulin clamps, muscle respirometry and H2O2
+          emission assays.
+        directional_finding: >-
+          Acute exercise altered H2O2 emission in a respiratory-state-specific manner, including increases
+          under one complex-I leak condition.
+        assessment:
+          study: >-
+            Primary within-person rest/exercise trials with insulin clamps, muscle respirometry and H2O2
+            emission assays.
+          population: Nine obese sedentary middle-aged men.
+          result: >-
+            Acute exercise altered H2O2 emission in a respiratory-state-specific manner, including increases
+            under one complex-I leak condition.
+          effect_magnitude: Study-specific direction retained; no pooled effect or effective food dose inferred.
+          evidence_summary: >-
+            Acute exercise altered H2O2 emission in a respiratory-state-specific manner, including increases
+            under one complex-I leak condition.
+          limitations: Not a uniform decrease; exercise/insulin timing and substrates matter; no neurological outcome.
+          retrieval_scope: >-
+            Primary abstract and available full-text source sections examined; endpoint and formulation
+            distinguished.
+          source_url: 'https://pubmed.ncbi.nlm.nih.gov/29161316/'
+          publication_classification: primary-experimental
+    evidence_dependency:
+      - >-
+        Sources support the specified links only. Reuse in another Finding or PM is not independent
+        replication; composition, local mechanism, exposure and clinical outcomes are distinct.
+    sec_assessment_ref:
+      id: brs4-pm4-pm4-f4-sec
+      version: 1
+      sha256: 66a5ef06417d34535f220b9e8345fa12b0f4ec2bf2c95e3ea7098ed2dfeb8437
+  - id: PM4-F5
+    finding_label: Omega-3 exposure need not reduce mitochondrial ROS emission
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: >-
+      Twelve weeks of the tested EPA/DHA fish-oil formulation increased muscle mitochondrial membrane EPA/DHA
+      and maximal succinate-supported ROS-emission capacity without increasing the measured oxidative-damage
+      products.
+    finding_summary: >-
+      Twelve weeks of the tested EPA/DHA fish-oil formulation increased muscle mitochondrial membrane EPA/DHA
+      and maximal succinate-supported ROS-emission capacity without increasing the measured oxidative-damage
+      products.
+    finding_interpretation: >-
+      This pre/post study did not isolate EPA from DHA, establish a specific source-control mechanism, show a
+      whole-fish effect or demonstrate that increased ROS emission was harmful.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: >-
+      Twelve weeks of the tested EPA/DHA fish-oil formulation increased muscle mitochondrial membrane EPA/DHA
+      and maximal succinate-supported ROS-emission capacity without increasing the measured oxidative-damage
+      products.
+    synthesis_limitations: >-
+      This pre/post study did not isolate EPA from DHA, establish a specific source-control mechanism, show a
+      whole-fish effect or demonstrate that increased ROS emission was harmful.
+    evidence_considered:
+      - label: Herbst et al. (2014)
+        citation_key: brs4_herbst2014_20261023
+        href: /docs/papers/BRAIN-Diet-References#brs4_herbst2014_20261023
+        data_level: Human Study
+        evidence_source: bounded-external-search
+        exposure_context: >-
+          Primary pre/post supplementation with 2 g EPA plus 1 g DHA daily for 12 weeks; muscle biopsies and
+          ex vivo assays.
+        directional_finding: >-
+          Mitochondrial membrane composition and ADP sensitivity changed; maximal ROS emission increased while
+          measured 4HNE and protein oxidation did not.
+        assessment:
+          study: >-
+            Primary pre/post supplementation with 2 g EPA plus 1 g DHA daily for 12 weeks; muscle biopsies and
+            ex vivo assays.
+          population: Eighteen healthy men; some lipid analyses used nine participants.
+          result: >-
+            Mitochondrial membrane composition and ADP sensitivity changed; maximal ROS emission increased
+            while measured 4HNE and protein oxidation did not.
+          effect_magnitude: Study-specific direction retained; no pooled effect or effective food dose inferred.
+          evidence_summary: >-
+            Mitochondrial membrane composition and ADP sensitivity changed; maximal ROS emission increased
+            while measured 4HNE and protein oxidation did not.
+          limitations: >-
+            No placebo comparison; tested mixture, not independent effects of either constituent or ordinary
+            fish.
+          retrieval_scope: >-
+            Primary abstract and available full-text source sections examined; endpoint and formulation
+            distinguished.
+          source_url: 'https://pubmed.ncbi.nlm.nih.gov/24396061/'
+          publication_classification: primary-experimental
+    evidence_dependency:
+      - >-
+        The formulation and measured endpoints are specific; linked publications or contextual diet studies
+        are not independent replications.
+    sec_assessment_ref:
+      id: brs4-pm4-pm4-f5-sec
+      version: 2
+      sha256: e06e0b6bdba42c589b656a61bdafcd093c456a709cc5ce81932cdec133258665
+  - id: PM4-F6
+    finding_label: Ketones changed oxidant responses in neuronal preparations
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: >-
+      A mixture of beta-hydroxybutyrate and acetoacetate reduced oxidant responses during excitotoxic stress
+      in rat neuronal and isolated-mitochondrial preparations, with increased NADH oxidation.
+    finding_summary: >-
+      A mixture of beta-hydroxybutyrate and acetoacetate reduced oxidant responses during excitotoxic stress
+      in rat neuronal and isolated-mitochondrial preparations, with increased NADH oxidation.
+    finding_interpretation: >-
+      The experiment tested a mixture, not either constituent alone or a ketogenic food intervention;
+      fluorescence and preparation context constrain source attribution.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: >-
+      A mixture of beta-hydroxybutyrate and acetoacetate reduced oxidant responses during excitotoxic stress
+      in rat neuronal and isolated-mitochondrial preparations, with increased NADH oxidation.
+    synthesis_limitations: >-
+      The experiment tested a mixture, not either constituent alone or a ketogenic food intervention;
+      fluorescence and preparation context constrain source attribution.
+    evidence_considered:
+      - label: Maalouf et al. (2007)
+        citation_key: brs4_maalouf2007_20261023
+        href: /docs/papers/BRAIN-Diet-References#brs4_maalouf2007_20261023
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        exposure_context: >-
+          Primary neuronal/isolated-mitochondrial experiments using beta-hydroxybutyrate and acetoacetate at 1
+          mM each during glutamate/calcium stress.
+        directional_finding: >-
+          Ketones reduced mitochondrial ROS-related responses and neuronal injury, associated with increased
+          NADH oxidation rather than altered GSH.
+        assessment:
+          study: >-
+            Primary neuronal/isolated-mitochondrial experiments using beta-hydroxybutyrate and acetoacetate at
+            1 mM each during glutamate/calcium stress.
+          population: Acutely dissociated rat neocortical neurons and isolated mitochondria.
+          result: >-
+            Ketones reduced mitochondrial ROS-related responses and neuronal injury, associated with increased
+            NADH oxidation rather than altered GSH.
+          effect_magnitude: Study-specific direction retained; no pooled effect or effective food dose inferred.
+          evidence_summary: >-
+            Ketones reduced mitochondrial ROS-related responses and neuronal injury, associated with increased
+            NADH oxidation rather than altered GSH.
+          limitations: >-
+            Mechanism engagement in a stress model; no ordinary-food effect, universal ketone response or
+            human brain outcome.
+          retrieval_scope: >-
+            Primary abstract and available full-text source sections examined; endpoint and formulation
+            distinguished.
+          source_url: 'https://pubmed.ncbi.nlm.nih.gov/17240074/'
+          publication_classification: primary-experimental
+    evidence_dependency:
+      - >-
+        The formulation and measured endpoints are specific; linked publications or contextual diet studies
+        are not independent replications.
+    connected_supportive_evidence:
+      - label: Jarrett et al. (2008)
+        why_relevant: >-
+          Three-week ketogenic feeding increased hippocampal mitochondrial GSH and reduced H2O2 emission and
+          oxidant-induced mtDNA damage in rats.
+        why_excluded: >-
+          Does not isolate a ketone constituent, source-specific generation, or PM5 membrane/protein
+          protection; mtDNA protection is not substituted for these endpoints.
+    sec_assessment_ref:
+      id: brs4-pm4-pm4-f6-sec
+      version: 1
+      sha256: 6c1f10f2f01ad387199788c4af4c8aefc2712aa127003e9a183e7acd239d999b
+scientific_findings_intro: >-
+  Mitochondrial ROS generation is source- and state-dependent and can support adaptive signalling. Human
+  feeding and activity experiments measured net H2O2 emission, with important assay and tissue limitations. No
+  identifiable dietary input is newly admitted for source regulation. Fish-oil supplementation increased
+  ROS-emission capacity without measured oxidative-damage increases; ketone mixtures altered stress responses
+  in neuronal preparations. Neither establishes an ordinary-food prescription.
+dietary_input_traceability:
+  - atom_id: PM4-LEGACY-MN
+    input: Manganese
+    input_type: cofactor
+    biological_role: >-
+      SOD2 cofactor for post-generation superoxide dismutation; adjacent protective biology, not evidence of
+      source-specific electron-leak regulation.
+    evidence_source:
+      finding_ids:
+        - PM4-F1
+      citation_keys:
+        - brs4_brand2016_20261023
+        - brs4_uniprot_p04179_20261023
+    evidence_limitation: >-
+      Legacy cofactor label retained; the cited source establishes PM4 source regulation, not manganese
+      dietary effectiveness.
+    dietary_input: null
+    dietary_input_note: The specified scientific relationship is retained for review; no new dietary supply admission is made.
+    substance_id: manganese
+    canonical_identity:
+      status: resolved
+      substance_id: manganese
+      substance_href: /docs/substances/nutrients/micronutrients/minerals/trace/manganese
+    dietary_input_flags:
+      - pm-specific-supply-review
+  - atom_id: PM4-LEGACY-SE
+    input: Selenium
+    input_type: cofactor
+    biological_role: >-
+      Selenoprotein-dependent peroxide handling is an adjacent biochemical role; this is a preserved legacy
+      candidate, not an established PM4 source-regulation input.
+    evidence_source:
+      finding_ids:
+        - PM4-F1
+      citation_keys:
+        - brs4_brand2016_20261023
+        - brs4_uniprot_p36969_20261023
+    evidence_limitation: >-
+      Legacy record preserved. This assessment did not establish PM4-specific dietary engagement; general
+      clearance roles are not imported.
+    dietary_input: null
+    dietary_input_note: The specified scientific relationship is retained for review; no new dietary supply admission is made.
+    substance_id: selenium
+    canonical_identity:
+      status: resolved
+      substance_id: selenium
+      substance_href: /docs/substances/nutrients/micronutrients/minerals/trace/selenium
+    dietary_input_flags:
+      - pm-specific-supply-review
+  - atom_id: PM4-LEGACY-CU
+    input: Copper
+    input_type: cofactor
+    biological_role: >-
+      Cu/Zn-SOD and electron-transfer protein biology is an adjacent biochemical role; this is a preserved
+      legacy candidate, not an established PM4 source-regulation input.
+    evidence_source:
+      finding_ids:
+        - PM4-F1
+      citation_keys:
+        - brs4_brand2016_20261023
+        - brs4_uniprot_p00441_20261023
+    evidence_limitation: >-
+      Legacy record preserved. This assessment did not establish PM4-specific dietary engagement; general
+      clearance roles are not imported.
+    dietary_input: null
+    dietary_input_note: The specified scientific relationship is retained for review; no new dietary supply admission is made.
+    substance_id: copper
+    canonical_identity:
+      status: resolved
+      substance_id: copper
+      substance_href: /docs/substances/nutrients/micronutrients/minerals/trace/copper
+    dietary_input_flags:
+      - pm-specific-supply-review
+  - atom_id: PM4-LEGACY-ZN
+    input: Zinc
+    input_type: cofactor
+    biological_role: >-
+      Cu/Zn-SOD structural participation is an adjacent biochemical role; this is a preserved legacy
+      candidate, not an established PM4 source-regulation input.
+    evidence_source:
+      finding_ids:
+        - PM4-F1
+      citation_keys:
+        - brs4_brand2016_20261023
+        - brs4_uniprot_p00441_20261023
+    evidence_limitation: >-
+      Legacy record preserved. This assessment did not establish PM4-specific dietary engagement; general
+      clearance roles are not imported.
+    dietary_input: null
+    dietary_input_note: The specified scientific relationship is retained for review; no new dietary supply admission is made.
+    substance_id: zinc
+    canonical_identity:
+      status: resolved
+      substance_id: zinc
+      substance_href: /docs/substances/nutrients/micronutrients/minerals/trace/zinc
+    dietary_input_flags:
+      - pm-specific-supply-review
+system_optimisation_practices:
+  - atom_id: PM4-SOP-FAT
+    input: Experimental high-fat meal and five-day feeding exposure
+    input_type: defined dietary exposure
+    biological_role: >-
+      The specified exposure changed muscle mitochondrial H2O2-emitting potential; this records an adverse
+      experimental response, not a recommended diet.
+    evidence_source:
+      finding_ids:
+        - PM4-F3
+      citation_keys:
+        - brs4_anderson2009_20261023
+    evidence_limitation: >-
+      More than 60% energy from fat; no comparator-fat or food-specific protective recommendation. Net
+      emission is not gross production.
+    dietary_input: false
+    optimisation_category: dietary_protocols
+    reader_description: >-
+      The specified exposure changed muscle mitochondrial H2O2-emitting potential; this records an adverse
+      experimental response, not a recommended diet.
+    description_finding_id: PM4-F3
+lifestyle_priorities:
+  - atom_id: PM4-LIFE-EX
+    input: Regular aerobic activity and recovery from inactivity
+    input_type: physical activity
+    biological_role: >-
+      Aerobic retraining after immobilisation restored skeletal-muscle mitochondrial H2O2 emission toward
+      baseline.
+    evidence_source:
+      finding_ids:
+        - PM4-F4
+      citation_keys:
+        - brs4_gram2015_20261023
+    evidence_limitation: >-
+      The supporting experiment used six weeks of supervised retraining after two weeks of immobilisation in
+      men; this is not a universal exercise dose or a brain outcome.
+    dietary_input: false
+    reader_description: >-
+      Aerobic retraining after immobilisation restored skeletal-muscle mitochondrial H2O2 emission toward
+      baseline.
+    description_finding_id: PM4-F4
+dietary_lever_atoms:
+  - atom_id: PM4-LEGACY-MN
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+  - atom_id: PM4-LEGACY-SE
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+  - atom_id: PM4-LEGACY-CU
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+  - atom_id: PM4-LEGACY-ZN
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+dietary_lever_presentations:
+  - atom_id: PM4-LEGACY-MN
+    label: Manganese
+    presentation_section: 3.1.2
+    reader_description: >-
+      Historical cofactor candidate retained for review; no source-regulation dietary relationship is
+      established.
+    description_finding_id: PM4-F1
+  - atom_id: PM4-LEGACY-SE
+    label: Selenium
+    presentation_section: 3.1.2
+    reader_description: >-
+      Historical cofactor candidate retained for review; no source-regulation dietary relationship is
+      established.
+    description_finding_id: PM4-F1
+  - atom_id: PM4-LEGACY-CU
+    label: Copper
+    presentation_section: 3.1.2
+    reader_description: >-
+      Historical cofactor candidate retained for review; no source-regulation dietary relationship is
+      established.
+    description_finding_id: PM4-F1
+  - atom_id: PM4-LEGACY-ZN
+    label: Zinc
+    presentation_section: 3.1.2
+    reader_description: >-
+      Historical cofactor candidate retained for review; no source-regulation dietary relationship is
+      established.
+    description_finding_id: PM4-F1
+dietary_input_assessments: []
+intervention_dominance_assessment:
+  evidence_qualification:
+    label: Not established
+    rationale: >-
+      The historical Diet-Dominant designation is preserved in the immutable baseline. Source-specific
+      intervention responses do not establish overall dietary dominance for the approved mission.
+    scope_note: No comparative ranking or brain/ADHD dietary benefit is established.
+    routes:
+      - group_id: '3.2'
+        evidence_basis: intervention-effect
+        intervention_effect: Specified high-fat exposure altered mitochondrial H2O2-emitting potential.
+        context: Small human muscle study; adverse experimental exposure.
+        limitations: Net emission and source generation differ; not a recommended intervention.
+        evidence_source:
+          finding_ids:
+            - PM4-F3
+          citation_keys:
+            - brs4_anderson2009_20261023
+      - group_id: '3.3'
+        evidence_basis: intervention-effect
+        intervention_effect: Aerobic retraining reversed immobilisation-associated emission changes.
+        context: Healthy young and older men.
+        limitations: Sequential muscle study; no brain endpoint.
+        evidence_source:
+          finding_ids:
+            - PM4-F4
+          citation_keys:
+            - brs4_gram2015_20261023
+  principal_route_selection:
+    disposition: not-established
+    selected_groups: []
+    rationale: >-
+      Supported bounded relationships do not establish a principal practical route across the approved
+      mission.
+    comparative_limitations: >-
+      No head-to-head route ranking established; preservation of physiological ROS and tissue-specific
+      protection precludes a generic antioxidant strategy.
+    assessments: []
+kc_change_control_flags:
+  - flag_id: PM4-KC2-RETEST-20261023
+    flag_type: applicability-retest
+    kc_id: BRS4(KC2)
+    proposition: >-
+      The historical cofactor-pool mapping remains preserved but requires PM-specific applicability
+      reconciliation against the approved mission; no constituent is inherited.
+    evidence_source:
+      finding_ids:
+        - PM4-F1
+      citation_keys:
+        - brs4_brand2016_20261023
+        - brs4_chouchani2014_20261023
+    status: pending-kc-review
+pm_kc_relationships:
+  - relationship_id: PM4-KC2-HISTORICAL-REVIEW
+    kc_id: BRS4(KC2)
+    relationship_type: historical-context
+    review_status: unresolved
+    scientific_admission: unresolved
+    pm_biological_role: >-
+      Historical cofactor-pool reference preserved. Current applicability to the approved operation is
+      unresolved; no pool constraint or constituent supply is newly admitted.
+    evidence_source:
+      finding_ids:
+        - PM4-F1
+      citation_keys:
+        - brs4_brand2016_20261023
+        - brs4_chouchani2014_20261023
+    evidence_limitation: >-
+      The source-specific mitochondrial evidence does not independently establish the entire
+      B-vitamin/iron/magnesium pool as a current constraint. Existing KC index remains traceable pending
+      review.
+    constituent_relationships: []
+    dietary_input: false
+    dietary_input_note: Historical pool mapping retained as unresolved context; no dietary pool supply or constituent admission.
+---
+<p class="brs-pm-thumbnail-wrap">
+  <img
+    src="/img/biological-targets/brs4-portrait-thumbnail.png"
+    alt="BRS4 — Mitochondrial Function & Bioenergetics"
+    class="brs-pm-thumbnail"
+  />
+</p>
+
+## BRS4-2-4 - ROS Production and Control
+
+(Regulating Mitochondrial Oxidants and Redox Signals)
+
+## 1. Mission & Overview
+
+### Mission
+
+Regulate mitochondrial superoxide and hydrogen peroxide generation in response to metabolic conditions, preserving physiological redox signalling while limiting excessive oxidant production.
+
+**Intervention Dominance:** Not established — No principal intervention route established.
+
+### Overview
+
+Mitochondria produce oxidants as part of their response to changing energy demands. Keeping this production appropriately regulated allows cells to signal and adapt while limiting excessive oxidant exposure. This matters for understanding the metabolic environment in which brain cells function. The evidence here establishes source regulation and adaptive signalling in experimental models, alongside changes in oxidant emission in human muscle; these are different levels of biological observation. Brand et al. (2016) [[5]](#pm-ref-5); Chouchani et al. (2014) [[6]](#pm-ref-6) Guzy et al. (2005) [[7]](#pm-ref-7)
+
+- **Benefits:** Preserves the capacity to use oxidants as adaptive signals rather than treating all oxidant production as damage. Guzy et al. (2005) [[7]](#pm-ref-7)
+- **Activity context:** Human muscle oxidant emission changes with inactivity and retraining; the response depends on metabolic conditions rather than a universal reduction with exercise. Gram et al. (2015) [[9]](#pm-ref-9); Trewin et al. (2017) [[12]](#pm-ref-12)
+- **Biological Relevance:** Antioxidant clearance and protection against injury are different jobs from regulating oxidant generation; see [PM5](/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity).
+
+## 2. Primary Biological Effects
+
+Source- and metabolic-state-dependent oxidant production; physiological redox signalling; context-dependent excessive production.
+
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.1 Dietary Requirements</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.1.1 Dietary Inputs & Regulatory Modulators</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+No new dietary input is admitted for mitochondrial ROS-source regulation. Legacy dietary candidates remain preserved for review.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.1.2 Cofactors and Substrates</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+Entries distinguish biochemical participants from retained legacy candidates. Unset means that no current dietary admission is established; a cofactor label alone does not establish ownership or dietary supply.
+
+- Manganese
+- Selenium
+- Copper
+- Zinc
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.1.3 Key Constraints</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+The historical [BRS4(KC2) — Mitochondrial Cofactor Sufficiency](/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency) mapping is retained. Its applicability to the refocused operation remains under review; no B-vitamin, iron or magnesium constituent is automatically admitted.
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.2 System Optimisation Practices</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Experimental high-fat meal and five-day feeding exposure
+
+This is an adverse experimental exposure, not a recommended practice.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.3 Lifestyle Levers</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Regular aerobic activity and recovery from inactivity
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis + Scientific Findings
+
+### Summary
+
+Mitochondrial oxidants can carry useful signals or contribute to injury. The important distinction is how production changes with metabolic conditions, and whether those changes preserve physiological signalling. A measured rise in emitted hydrogen peroxide does not, by itself, establish greater damage.
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>Mitochondrial ROS generation — mechanistic detail</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+<span id="pm4-mechanism-f1" />
+
+#### SF1 — Mitochondrial oxidant production is source- and state-dependent
+
+Electron-transfer reactions can pass electrons to oxygen rather than completing the respiratory chain. The site and metabolic conditions determine the resulting oxidant output. Source-selective experiments distinguish that production from ATP generation; reperfusion experiments identify a pathological reverse-electron-transport context. Brand et al. (2016) [[5]](#pm-ref-5); Chouchani et al. (2014) [[6]](#pm-ref-6)
+
+Supporting evidence: [SF1 — Mitochondrial oxidant production is source- and state-dependent](#pm4-f1).
+
+<span id="pm4-mechanism-f2" />
+
+#### SF2 — Mitochondrial ROS can carry adaptive signals
+
+Hydrogen peroxide can transmit a metabolic signal rather than simply mark damage. In the tested hypoxic cells, complex-III-dependent oxidant signalling contributed to HIF stabilisation. This adaptive role is why indiscriminate ROS suppression is not the biological objective. Guzy et al. (2005) [[7]](#pm-ref-7)
+
+Supporting evidence: [SF2 — Mitochondrial ROS can carry adaptive signals](#pm4-f2).
+
+<span id="pm4-mechanism-f3" />
+
+#### SF3 — High-fat exposure altered mitochondrial H2O2-emitting potential
+
+Nutrient exposure can change the oxidant output measured from muscle mitochondria. The tested high-fat feeding sequence increased H2O2-emitting potential. That assay records the balance between generation and removal, so it cannot by itself identify the responsible source or establish an effect of every dietary fat. Anderson et al. (2009) [[8]](#pm-ref-8)
+
+Supporting evidence: [SF3 — High-fat exposure altered mitochondrial H2O2-emitting potential](#pm4-f3).
+
+<span id="pm4-mechanism-f4" />
+
+#### SF4 — Inactivity and training changed mitochondrial H2O2 emission
+
+Activity and inactivity change the metabolic conditions in which mitochondrial oxidants are generated and removed. Immobilisation followed by retraining changed muscle H2O2 emission; acute exercise responses also depended on respiratory state. These observations do not support a universal “exercise lowers ROS” rule. Gram et al. (2015) [[9]](#pm-ref-9); Trewin et al. (2017) [[12]](#pm-ref-12)
+
+Supporting evidence: [SF4 — Inactivity and training changed mitochondrial H2O2 emission](#pm4-f4).
+
+<span id="pm4-mechanism-f5" />
+
+#### SF5 — Omega-3 exposure need not reduce mitochondrial ROS emission
+
+Membrane composition and respiratory state can change alongside oxidant emission without demonstrable oxidative injury. The tested EPA/DHA formulation increased ROS-emission capacity but not the measured damage products. Generation, emission and damage therefore require separate interpretation. Herbst et al. (2014) [[10]](#pm-ref-10)
+
+Supporting evidence: [SF5 — Omega-3 exposure need not reduce mitochondrial ROS emission](#pm4-f5).
+
+<span id="pm4-mechanism-f6" />
+
+#### SF6 — Ketones changed oxidant responses in neuronal preparations
+
+Changing the substrates available for oxidation can alter the mitochondrial redox state. In stressed rat neuronal preparations, a BHB/acetoacetate mixture increased NADH oxidation and reduced oxidant responses. Neither constituent was isolated, and the preparation was not a dietary intervention. Maalouf et al. (2007) [[11]](#pm-ref-11)
+
+Supporting evidence: [SF6 — Ketones changed oxidant responses in neuronal preparations](#pm4-f6).
+
+#### (Boundaries of the mechanism)
+
+Electron transfer and ATP production remain with [ETC Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function). Local protection against injury belongs to [PM5](/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity). General clearance and antioxidant recycling remain separate BRS3 operations.
+
+#### (Integration within BRS4)
+
+Source regulation and downstream protection interact within mitochondrial resilience, but neither a ROS-emission assay nor a shared nutrient establishes a new PM-to-PM causal dependency. The historical [mitochondrial cofactor KC](/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency) link remains under review; its constituent list is not inherited.
+
+</div>
+</div>
+</div>
+
+### 4.1 Scientific Findings
+
+#### Summary
+
+Mitochondrial ROS generation is source- and state-dependent and can support adaptive signalling. Human feeding and activity experiments measured net H2O2 emission, with important assay and tissue limitations. No identifiable dietary input is newly admitted for source regulation. Fish-oil supplementation increased ROS-emission capacity without measured oxidative-damage increases; ketone mixtures altered stress responses in neuronal preparations. Neither establishes an ordinary-food prescription.
+
+<ScientificFinding finding={{"id":"PM4-F1","finding_label":"Mitochondrial oxidant production is source- and state-dependent","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"Specific mitochondrial electron-transfer sites generate superoxide and hydrogen peroxide; source-specific suppression can reduce oxidant production without inhibiting oxidative phosphorylation. Succinate oxidation during reperfusion can drive excessive production through reverse electron transport.","finding_summary":"Specific mitochondrial electron-transfer sites generate superoxide and hydrogen peroxide; source-specific suppression can reduce oxidant production without inhibiting oxidative phosphorylation. Succinate oxidation during reperfusion can drive excessive production through reverse electron transport.","finding_interpretation":"Experimental suppressors and ischaemia models establish source regulation, not dietary effectiveness. These results do not imply that all mitochondrial ROS are harmful or that mitochondrial emission assays isolate gross production.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Specific mitochondrial electron-transfer sites generate superoxide and hydrogen peroxide; source-specific suppression can reduce oxidant production without inhibiting oxidative phosphorylation. Succinate oxidation during reperfusion can drive excessive production through reverse electron transport.","synthesis_limitations":"Experimental suppressors and ischaemia models establish source regulation, not dietary effectiveness. These results do not imply that all mitochondrial ROS are harmful or that mitochondrial emission assays isolate gross production.","evidence_considered":[{"label":"Brand et al. (2016)","citation_key":"brs4_brand2016_20261023","href":"/docs/papers/BRAIN-Diet-References#brs4_brand2016_20261023","data_level":"Mechanistic","evidence_source":"bounded-external-search","exposure_context":"Primary high-throughput chemical screening followed by mitochondrial/cellular assays, Drosophila experiments and perfused mouse-heart experiments.","directional_finding":"S1QEL compounds suppressed site-IQ superoxide/H2O2 without inhibiting oxidative phosphorylation; protection was context-specific.","assessment":{"study":"Primary high-throughput chemical screening followed by mitochondrial/cellular assays, Drosophila experiments and perfused mouse-heart experiments.","population":"Isolated mitochondria, primary astrocytes, Drosophila intestine and perfused mouse heart.","result":"S1QEL compounds suppressed site-IQ superoxide/H2O2 without inhibiting oxidative phosphorylation; protection was context-specific.","effect_magnitude":"Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.","evidence_summary":"S1QEL compounds suppressed site-IQ superoxide/H2O2 without inhibiting oxidative phosphorylation; protection was context-specific.","limitations":"Tool compounds are not dietary inputs; effects across models are not independent human replications.","retrieval_scope":"Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.","source_url":"https://pubmed.ncbi.nlm.nih.gov/27667666/","publication_classification":"primary-experimental"},"canonical_reference":{"author_year":"Brand et al. (2016)","number":5,"anchor":"#pm-ref-5"}},{"label":"Chouchani et al. (2014)","citation_key":"brs4_chouchani2014_20261023","href":"/docs/papers/BRAIN-Diet-References#brs4_chouchani2014_20261023","data_level":"Mechanistic","evidence_source":"bounded-external-search","exposure_context":"Primary metabolomics, isotope tracing and pharmacological perturbation of ischaemia/reperfusion.","directional_finding":"Accumulated succinate oxidation on reperfusion drove complex-I reverse-electron-transport ROS and injury.","assessment":{"study":"Primary metabolomics, isotope tracing and pharmacological perturbation of ischaemia/reperfusion.","population":"Cellular and animal ischaemia/reperfusion models.","result":"Accumulated succinate oxidation on reperfusion drove complex-I reverse-electron-transport ROS and injury.","effect_magnitude":"Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.","evidence_summary":"Accumulated succinate oxidation on reperfusion drove complex-I reverse-electron-transport ROS and injury.","limitations":"Pathological reperfusion is not a meal experiment; the origin of ischaemic succinate has been debated in subsequent primary work. No dietary succinate advice follows.","retrieval_scope":"Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.","source_url":"https://pubmed.ncbi.nlm.nih.gov/25383517/","publication_classification":"primary-experimental"},"canonical_reference":{"author_year":"Chouchani et al. (2014)","number":6,"anchor":"#pm-ref-6"}}],"evidence_dependency":["Sources support the specified links only. Reuse in another Finding or PM is not independent replication; composition, local mechanism, exposure and clinical outcomes are distinct."],"connected_supportive_evidence":[{"label":"Verlaet et al. (2019)","why_relevant":"Primary ADHD case-control study of erythrocyte GSH and peripheral biomarkers; historical brain-health context.","why_excluded":"No mitochondrial ROS-source or mitochondrial membrane/protein protection assay; no GSH-dependent mitochondrial lactate experiment."},{"label":"Packer et al. (1997) and Kyriazis et al. (2022)","why_relevant":"Secondary antioxidant-network and diet/mitochondrial synthesis retained from the legacy corpus.","why_excluded":"Not additional primary experiments or direct proof of the legacy food-pattern claims."},{"label":"Öğütlü et al. (2023; legacy label 2022)","why_relevant":"Secondary ADHD mitochondrial review retained from legacy Phenome references.","why_excluded":"Not a primary Human Study or direct source-regulation trial; original citation labels and rating history retained for review."},{"label":"Versioned UniProtKB SOD1 (P00441), SOD2 (P04179) and GPX4 (P36969) annotations","why_relevant":"Cu/Zn-SOD1, manganese-dependent mitochondrial SOD2 and selenium-containing GPX4 identify distinct biochemical participants. Retrieved entry versions are retained in the audit.","why_excluded":"Database identity and catalytic participation are not dietary efficacy or automatic PM ownership. Clearance enzymes do not establish source-generation control; mitochondrial isoform, supply and protection are separately assessed."}],"sec_assessment_ref":{"id":"brs4-pm4-pm4-f1-sec","version":1,"sha256":"d07ccb292a479016ed8f9d7735fc79c3d3e6d00154c39a2fec0010914362a46b"}}} pmId={"BRS4-FM2-PM4"} />
+
+{/* scientific-lesson:PM4-F1:start */}
+<p class="brs-sf-mechanism-link"><a href="#pm4-mechanism-f1">Mechanistic explanation: SF1 — Mitochondrial oxidant production is source- and state-dependent</a></p>
+{/* scientific-lesson:PM4-F1:end */}
+
+<ScientificFinding finding={{"id":"PM4-F2","finding_label":"Mitochondrial ROS can carry adaptive signals","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"Complex-III-dependent oxidant signals contribute to hypoxic HIF stabilisation in tested cell systems. Mitochondrial ROS therefore have physiological signalling roles as well as injury-associated roles.","finding_summary":"Complex-III-dependent oxidant signals contribute to hypoxic HIF stabilisation in tested cell systems. Mitochondrial ROS therefore have physiological signalling roles as well as injury-associated roles.","finding_interpretation":"Hypoxia differs from anoxia; pharmacological respiratory inhibition can perturb multiple sites. This is not evidence for indiscriminate ROS reduction or a dietary-to-brain benefit.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Complex-III-dependent oxidant signals contribute to hypoxic HIF stabilisation in tested cell systems. Mitochondrial ROS therefore have physiological signalling roles as well as injury-associated roles.","synthesis_limitations":"Hypoxia differs from anoxia; pharmacological respiratory inhibition can perturb multiple sites. This is not evidence for indiscriminate ROS reduction or a dietary-to-brain benefit.","evidence_considered":[{"label":"Guzy et al. (2005)","citation_key":"brs4_guzy2005_20261023","href":"/docs/papers/BRAIN-Diet-References#brs4_guzy2005_20261023","data_level":"Mechanistic","evidence_source":"bounded-external-search","exposure_context":"Primary genetic and pharmacological complex-III perturbations with redox-sensitive sensors and HIF assays under low oxygen.","directional_finding":"Complex-III function and oxidant signalling were required for the tested hypoxic HIF response.","assessment":{"study":"Primary genetic and pharmacological complex-III perturbations with redox-sensitive sensors and HIF assays under low oxygen.","population":"Cultured mammalian cells exposed to hypoxia.","result":"Complex-III function and oxidant signalling were required for the tested hypoxic HIF response.","effect_magnitude":"Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.","evidence_summary":"Complex-III function and oxidant signalling were required for the tested hypoxic HIF response.","limitations":"Context-dependent cell signalling; not all oxygen-sensing pathways or physiological states require this mechanism.","retrieval_scope":"Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.","source_url":"https://pubmed.ncbi.nlm.nih.gov/16054089/","publication_classification":"primary-experimental"},"canonical_reference":{"author_year":"Guzy et al. (2005)","number":7,"anchor":"#pm-ref-7"}}],"evidence_dependency":["Sources support the specified links only. Reuse in another Finding or PM is not independent replication; composition, local mechanism, exposure and clinical outcomes are distinct."],"sec_assessment_ref":{"id":"brs4-pm4-pm4-f2-sec","version":2,"sha256":"4a465dec6efc624d90b1e232498955c7f0d7eb6e02d5bd77768e3ebe2775e39a"},"connected_supportive_evidence":[]}} pmId={"BRS4-FM2-PM4"} />
+
+{/* scientific-lesson:PM4-F2:start */}
+<p class="brs-sf-mechanism-link"><a href="#pm4-mechanism-f2">Mechanistic explanation: SF2 — Mitochondrial ROS can carry adaptive signals</a></p>
+{/* scientific-lesson:PM4-F2:end */}
+
+<ScientificFinding finding={{"id":"PM4-F3","finding_label":"High-fat exposure altered mitochondrial H2O2-emitting potential","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"A specified high-fat meal and short high-fat feeding period increased skeletal-muscle mitochondrial H2O2-emitting potential in a small human experiment; separate rodent perturbations supported a role for mitochondrial oxidants in insulin resistance.","finding_summary":"A specified high-fat meal and short high-fat feeding period increased skeletal-muscle mitochondrial H2O2-emitting potential in a small human experiment; separate rodent perturbations supported a role for mitochondrial oxidants in insulin resistance.","finding_interpretation":"Net H2O2 emission reflects production and scavenging under assay conditions. Human meal findings do not establish a specific ROS-generating site, benefit from a proposed replacement meal, effects of all dietary fats, brain outcomes or human causal mediation.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A specified high-fat meal and short high-fat feeding period increased skeletal-muscle mitochondrial H2O2-emitting potential in a small human experiment; separate rodent perturbations supported a role for mitochondrial oxidants in insulin resistance.","synthesis_limitations":"Net H2O2 emission reflects production and scavenging under assay conditions. Human meal findings do not establish a specific ROS-generating site, benefit from a proposed replacement meal, effects of all dietary fats, brain outcomes or human causal mediation.","evidence_considered":[{"label":"Anderson et al. (2009)","citation_key":"brs4_anderson2009_20261023","href":"/docs/papers/BRAIN-Diet-References#brs4_anderson2009_20261023","data_level":"Human Study","evidence_source":"bounded-external-search","exposure_context":"Primary human muscle-biopsy meal/feeding experiment plus separate rodent high-fat feeding, mitochondrial-antioxidant and mitochondrial-catalase experiments.","directional_finding":"After a meal providing >60% energy from fat and five days of high-fat feeding, muscle mitochondrial H2O2-emitting potential increased; rodent antioxidant manipulations preserved insulin sensitivity.","assessment":{"study":"Primary human muscle-biopsy meal/feeding experiment plus separate rodent high-fat feeding, mitochondrial-antioxidant and mitochondrial-catalase experiments.","population":"Nine healthy lean men in the acute/short-feeding experiment; separate lean/obese comparisons and rodent models.","result":"After a meal providing >60% energy from fat and five days of high-fat feeding, muscle mitochondrial H2O2-emitting potential increased; rodent antioxidant manipulations preserved insulin sensitivity.","effect_magnitude":"Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.","evidence_summary":"After a meal providing >60% energy from fat and five days of high-fat feeding, muscle mitochondrial H2O2-emitting potential increased; rodent antioxidant manipulations preserved insulin sensitivity.","limitations":"The meal provided 35% of daily energy; post-meal biopsy was at four hours. Small non-randomised feeding sequence and assay-specific emission; rodent causality must not be assigned to the human cohort.","retrieval_scope":"Primary full-text methods and abstract examined (PMC2648700), including distinct human and rodent arms.","source_url":"https://pubmed.ncbi.nlm.nih.gov/19188683/","publication_classification":"primary-experimental"},"canonical_reference":{"author_year":"Anderson et al. (2009)","number":8,"anchor":"#pm-ref-8"}}],"evidence_dependency":["Sources support the specified links only. Reuse in another Finding or PM is not independent replication; composition, local mechanism, exposure and clinical outcomes are distinct."],"sec_assessment_ref":{"id":"brs4-pm4-pm4-f3-sec","version":1,"sha256":"fae7ad6251bc104c01d079160f62e65e214a72c6b019bed30fd5d089b3752720"},"connected_supportive_evidence":[]}} pmId={"BRS4-FM2-PM4"} />
+
+{/* scientific-lesson:PM4-F3:start */}
+<p class="brs-sf-mechanism-link"><a href="#pm4-mechanism-f3">Mechanistic explanation: SF3 — High-fat exposure altered mitochondrial H2O2-emitting potential</a></p>
+{/* scientific-lesson:PM4-F3:end */}
+
+<ScientificFinding finding={{"id":"PM4-F4","finding_label":"Inactivity and training changed mitochondrial H2O2 emission","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"Two weeks of leg immobilisation increased muscle mitochondrial H2O2 emission at a controlled membrane potential; six weeks of aerobic retraining restored emission and ATP-generating respiration toward baseline. Acute exercise responses were respiratory-state dependent in a separate study.","finding_summary":"Two weeks of leg immobilisation increased muscle mitochondrial H2O2 emission at a controlled membrane potential; six weeks of aerobic retraining restored emission and ATP-generating respiration toward baseline. Acute exercise responses were respiratory-state dependent in a separate study.","finding_interpretation":"Measured emission is not pure source production. Immobilisation/retraining does not establish a universal exercise dose or a brain/ADHD effect. Acute and chronic exercise effects must not be collapsed into “exercise lowers ROS”.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Two weeks of leg immobilisation increased muscle mitochondrial H2O2 emission at a controlled membrane potential; six weeks of aerobic retraining restored emission and ATP-generating respiration toward baseline. Acute exercise responses were respiratory-state dependent in a separate study.","synthesis_limitations":"Measured emission is not pure source production. Immobilisation/retraining does not establish a universal exercise dose or a brain/ADHD effect. Acute and chronic exercise effects must not be collapsed into “exercise lowers ROS”.","evidence_considered":[{"label":"Gram et al. (2015)","citation_key":"brs4_gram2015_20261023","href":"/docs/papers/BRAIN-Diet-References#brs4_gram2015_20261023","data_level":"Human Study","evidence_source":"bounded-external-search","exposure_context":"Primary within-person leg immobilisation followed by supervised aerobic cycle retraining; isolated mitochondrial respirometry and H2O2 assays.","directional_finding":"Immobilisation increased H2O2 emission and reduced ATP-generating respiration; subsequent training reversed these changes.","assessment":{"study":"Primary within-person leg immobilisation followed by supervised aerobic cycle retraining; isolated mitochondrial respirometry and H2O2 assays.","population":"Seventeen young and fifteen older healthy men.","result":"Immobilisation increased H2O2 emission and reduced ATP-generating respiration; subsequent training reversed these changes.","effect_magnitude":"Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.","evidence_summary":"Immobilisation increased H2O2 emission and reduced ATP-generating respiration; subsequent training reversed these changes.","limitations":"Sequential design; skeletal muscle only; antioxidant-enzyme changes may influence emission.","retrieval_scope":"Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.","source_url":"https://pubmed.ncbi.nlm.nih.gov/26096818/","publication_classification":"primary-experimental"},"canonical_reference":{"author_year":"Gram et al. (2015)","number":9,"anchor":"#pm-ref-9"}},{"label":"Trewin et al. (2017)","citation_key":"brs4_acuteexercise2017_20261023","href":"/docs/papers/BRAIN-Diet-References#brs4_acuteexercise2017_20261023","data_level":"Human Study","evidence_source":"bounded-external-search","exposure_context":"Primary within-person rest/exercise trials with insulin clamps, muscle respirometry and H2O2 emission assays.","directional_finding":"Acute exercise altered H2O2 emission in a respiratory-state-specific manner, including increases under one complex-I leak condition.","assessment":{"study":"Primary within-person rest/exercise trials with insulin clamps, muscle respirometry and H2O2 emission assays.","population":"Nine obese sedentary middle-aged men.","result":"Acute exercise altered H2O2 emission in a respiratory-state-specific manner, including increases under one complex-I leak condition.","effect_magnitude":"Study-specific direction retained; no pooled effect or effective food dose inferred.","evidence_summary":"Acute exercise altered H2O2 emission in a respiratory-state-specific manner, including increases under one complex-I leak condition.","limitations":"Not a uniform decrease; exercise/insulin timing and substrates matter; no neurological outcome.","retrieval_scope":"Primary abstract and available full-text source sections examined; endpoint and formulation distinguished.","source_url":"https://pubmed.ncbi.nlm.nih.gov/29161316/","publication_classification":"primary-experimental"},"canonical_reference":{"author_year":"Trewin et al. (2017)","number":12,"anchor":"#pm-ref-12"}}],"evidence_dependency":["Sources support the specified links only. Reuse in another Finding or PM is not independent replication; composition, local mechanism, exposure and clinical outcomes are distinct."],"sec_assessment_ref":{"id":"brs4-pm4-pm4-f4-sec","version":1,"sha256":"66a5ef06417d34535f220b9e8345fa12b0f4ec2bf2c95e3ea7098ed2dfeb8437"},"connected_supportive_evidence":[]}} pmId={"BRS4-FM2-PM4"} />
+
+{/* scientific-lesson:PM4-F4:start */}
+<p class="brs-sf-mechanism-link"><a href="#pm4-mechanism-f4">Mechanistic explanation: SF4 — Inactivity and training changed mitochondrial H2O2 emission</a></p>
+{/* scientific-lesson:PM4-F4:end */}
+
+<ScientificFinding finding={{"id":"PM4-F5","finding_label":"Omega-3 exposure need not reduce mitochondrial ROS emission","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"Twelve weeks of the tested EPA/DHA fish-oil formulation increased muscle mitochondrial membrane EPA/DHA and maximal succinate-supported ROS-emission capacity without increasing the measured oxidative-damage products.","finding_summary":"Twelve weeks of the tested EPA/DHA fish-oil formulation increased muscle mitochondrial membrane EPA/DHA and maximal succinate-supported ROS-emission capacity without increasing the measured oxidative-damage products.","finding_interpretation":"This pre/post study did not isolate EPA from DHA, establish a specific source-control mechanism, show a whole-fish effect or demonstrate that increased ROS emission was harmful.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Twelve weeks of the tested EPA/DHA fish-oil formulation increased muscle mitochondrial membrane EPA/DHA and maximal succinate-supported ROS-emission capacity without increasing the measured oxidative-damage products.","synthesis_limitations":"This pre/post study did not isolate EPA from DHA, establish a specific source-control mechanism, show a whole-fish effect or demonstrate that increased ROS emission was harmful.","evidence_considered":[{"label":"Herbst et al. (2014)","citation_key":"brs4_herbst2014_20261023","href":"/docs/papers/BRAIN-Diet-References#brs4_herbst2014_20261023","data_level":"Human Study","evidence_source":"bounded-external-search","exposure_context":"Primary pre/post supplementation with 2 g EPA plus 1 g DHA daily for 12 weeks; muscle biopsies and ex vivo assays.","directional_finding":"Mitochondrial membrane composition and ADP sensitivity changed; maximal ROS emission increased while measured 4HNE and protein oxidation did not.","assessment":{"study":"Primary pre/post supplementation with 2 g EPA plus 1 g DHA daily for 12 weeks; muscle biopsies and ex vivo assays.","population":"Eighteen healthy men; some lipid analyses used nine participants.","result":"Mitochondrial membrane composition and ADP sensitivity changed; maximal ROS emission increased while measured 4HNE and protein oxidation did not.","effect_magnitude":"Study-specific direction retained; no pooled effect or effective food dose inferred.","evidence_summary":"Mitochondrial membrane composition and ADP sensitivity changed; maximal ROS emission increased while measured 4HNE and protein oxidation did not.","limitations":"No placebo comparison; tested mixture, not independent effects of either constituent or ordinary fish.","retrieval_scope":"Primary abstract and available full-text source sections examined; endpoint and formulation distinguished.","source_url":"https://pubmed.ncbi.nlm.nih.gov/24396061/","publication_classification":"primary-experimental"},"canonical_reference":{"author_year":"Herbst et al. (2014)","number":10,"anchor":"#pm-ref-10"}}],"evidence_dependency":["The formulation and measured endpoints are specific; linked publications or contextual diet studies are not independent replications."],"sec_assessment_ref":{"id":"brs4-pm4-pm4-f5-sec","version":2,"sha256":"e06e0b6bdba42c589b656a61bdafcd093c456a709cc5ce81932cdec133258665"},"connected_supportive_evidence":[]}} pmId={"BRS4-FM2-PM4"} />
+
+{/* scientific-lesson:PM4-F5:start */}
+<p class="brs-sf-mechanism-link"><a href="#pm4-mechanism-f5">Mechanistic explanation: SF5 — Omega-3 exposure need not reduce mitochondrial ROS emission</a></p>
+{/* scientific-lesson:PM4-F5:end */}
+
+<ScientificFinding finding={{"id":"PM4-F6","finding_label":"Ketones changed oxidant responses in neuronal preparations","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"A mixture of beta-hydroxybutyrate and acetoacetate reduced oxidant responses during excitotoxic stress in rat neuronal and isolated-mitochondrial preparations, with increased NADH oxidation.","finding_summary":"A mixture of beta-hydroxybutyrate and acetoacetate reduced oxidant responses during excitotoxic stress in rat neuronal and isolated-mitochondrial preparations, with increased NADH oxidation.","finding_interpretation":"The experiment tested a mixture, not either constituent alone or a ketogenic food intervention; fluorescence and preparation context constrain source attribution.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A mixture of beta-hydroxybutyrate and acetoacetate reduced oxidant responses during excitotoxic stress in rat neuronal and isolated-mitochondrial preparations, with increased NADH oxidation.","synthesis_limitations":"The experiment tested a mixture, not either constituent alone or a ketogenic food intervention; fluorescence and preparation context constrain source attribution.","evidence_considered":[{"label":"Maalouf et al. (2007)","citation_key":"brs4_maalouf2007_20261023","href":"/docs/papers/BRAIN-Diet-References#brs4_maalouf2007_20261023","data_level":"Mechanistic","evidence_source":"bounded-external-search","exposure_context":"Primary neuronal/isolated-mitochondrial experiments using beta-hydroxybutyrate and acetoacetate at 1 mM each during glutamate/calcium stress.","directional_finding":"Ketones reduced mitochondrial ROS-related responses and neuronal injury, associated with increased NADH oxidation rather than altered GSH.","assessment":{"study":"Primary neuronal/isolated-mitochondrial experiments using beta-hydroxybutyrate and acetoacetate at 1 mM each during glutamate/calcium stress.","population":"Acutely dissociated rat neocortical neurons and isolated mitochondria.","result":"Ketones reduced mitochondrial ROS-related responses and neuronal injury, associated with increased NADH oxidation rather than altered GSH.","effect_magnitude":"Study-specific direction retained; no pooled effect or effective food dose inferred.","evidence_summary":"Ketones reduced mitochondrial ROS-related responses and neuronal injury, associated with increased NADH oxidation rather than altered GSH.","limitations":"Mechanism engagement in a stress model; no ordinary-food effect, universal ketone response or human brain outcome.","retrieval_scope":"Primary abstract and available full-text source sections examined; endpoint and formulation distinguished.","source_url":"https://pubmed.ncbi.nlm.nih.gov/17240074/","publication_classification":"primary-experimental"},"canonical_reference":{"author_year":"Maalouf et al. (2007)","number":11,"anchor":"#pm-ref-11"}}],"evidence_dependency":["The formulation and measured endpoints are specific; linked publications or contextual diet studies are not independent replications."],"connected_supportive_evidence":[{"label":"Jarrett et al. (2008)","why_relevant":"Three-week ketogenic feeding increased hippocampal mitochondrial GSH and reduced H2O2 emission and oxidant-induced mtDNA damage in rats.","why_excluded":"Does not isolate a ketone constituent, source-specific generation, or PM5 membrane/protein protection; mtDNA protection is not substituted for these endpoints."}],"sec_assessment_ref":{"id":"brs4-pm4-pm4-f6-sec","version":1,"sha256":"6c1f10f2f01ad387199788c4af4c8aefc2712aa127003e9a183e7acd239d999b"}}} pmId={"BRS4-FM2-PM4"} />
+
+{/* scientific-lesson:PM4-F6:start */}
+<p class="brs-sf-mechanism-link"><a href="#pm4-mechanism-f6">Mechanistic explanation: SF6 — Ketones changed oxidant responses in neuronal preparations</a></p>
+{/* scientific-lesson:PM4-F6:end */}
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+- None listed
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) — Broader cellular generation/clearance balance provides context; mitochondrial source regulation and local protection are assessed separately.
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS4-FM2-PM5 - Mitochondrial Protection (Redox Integrity)](/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity) — Source-side ROS generation and downstream local protection interact; this adjacency does not establish a new causal dependency.
+
+
+> Historical relationship references are retained; adjacency does not establish a new direct dependency or dietary effect.
+
+> Historical Phenome mappings and ratings below are preserved for review. Peripheral redox markers and mitochondrial experimental endpoints do not independently validate these brain-health relationships.
+
+## 7. Phenome Connections
+
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+
+<div class="brs-fm-hub-item phenome-scoring-key-hub" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>How these ratings work</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<div class="phenome-scoring-key">
+<p class="phenome-scoring-key-intro">
+Each Phenome relationship has <strong>two independent ratings</strong>. They are not combined or averaged.
+</p>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Biology → Phenome Relationship Strength</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How direct and important is this biological mechanism expected to be to the Phenome within the BRAIN model?</em>
+</p>
+</div>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Evidence Confidence</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How strongly does the adjudicated evidence support this particular biology → Phenome relationship?</em>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Recovery Capacity — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Recovery Capacity — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph005-recovery-capacity" aria-label="Open page: Recovery Capacity — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** Low–Medium
+- **Evidence Confidence:** Low–Medium
+- **Rationale:** Elevated glutathione and oxidative-stress markers in paediatric ADHD case–control work link mitochondrial ROS handling to redox recovery context; GSH is required for mitochondrial lactate metabolism and ROS neutralisation — this PM governs ROS production/control balance, not GSH synthesis (BRS2/BRS3).
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Stress Reactivity — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Stress Reactivity — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph015-stress-reactivity" aria-label="Open page: Stress Reactivity — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** Low–Medium
+- **Evidence Confidence:** Low–Medium
+- **Rationale:** Oxidative-stress elevation in ADHD cohorts intersects stress-relevant redox tone — impaired ROS control may modulate allostatic load under repeated challenge without claiming oxidative stress causes ADHD.
+</div>
+</div>
+</div>
+
+## 8. References
+
+- <span id="pm-ref-1">[1]</span> [Packer et al. (1997) — Vitamin E and the Metabolic Antioxidant Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
+- <span id="pm-ref-2">[2]</span> [Kyriazis et al. (2022) — Impact of Diet Upon Mitochondrial Physiology (Review)](/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022)
+- <span id="pm-ref-3">[3]</span> [Verlaet et al. (2019) — A Case–control Comparison](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)
+- <span id="pm-ref-4">[4]</span> [Öğütlü et al. (2022) — Mitochondrial Dysfunction in Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023)
+- <span id="pm-ref-5">[5]</span> [Brand et al. (2016) — Suppressors of Superoxide-H2O2 Production at Site IQ of Mitochondrial Complex I Protect against Stem Cell Hyperplasia and Ischemia-Reperfusion Injury.](/docs/papers/BRAIN-Diet-References#brs4_brand2016_20261023)
+- <span id="pm-ref-6">[6]</span> [Chouchani et al. (2014) — Ischaemic accumulation of succinate controls reperfusion injury through mitochondrial ROS.](/docs/papers/BRAIN-Diet-References#brs4_chouchani2014_20261023)
+- <span id="pm-ref-7">[7]</span> [Guzy et al. (2005) — Mitochondrial complex III is required for hypoxia-induced ROS production and cellular oxygen sensing.](/docs/papers/BRAIN-Diet-References#brs4_guzy2005_20261023)
+- <span id="pm-ref-8">[8]</span> [Anderson et al. (2009) — Mitochondrial H2O2 emission and cellular redox state link excess fat intake to insulin resistance in both rodents and humans.](/docs/papers/BRAIN-Diet-References#brs4_anderson2009_20261023)
+- <span id="pm-ref-9">[9]</span> [Gram et al. (2015) — Skeletal muscle mitochondrial H2 O2 emission increases with immobilization and decreases after aerobic training in young and older men.](/docs/papers/BRAIN-Diet-References#brs4_gram2015_20261023)
+- <span id="pm-ref-10">[10]</span> [Herbst et al. (2014) — Omega-3 supplementation alters mitochondrial membrane composition and respiration kinetics in human skeletal muscle.](/docs/papers/BRAIN-Diet-References#brs4_herbst2014_20261023)
+- <span id="pm-ref-11">[11]</span> [Maalouf et al. (2007) — Ketones inhibit mitochondrial production of reactive oxygen species production following glutamate excitotoxicity by increasing NADH oxidation.](/docs/papers/BRAIN-Diet-References#brs4_maalouf2007_20261023)
+- <span id="pm-ref-12">[12]</span> [Trewin et al. (2017) — Acute exercise alters skeletal muscle mitochondrial respiration and H2O2 emission in response to hyperinsulinemic-euglycemic clamp in middle-aged obese men.](/docs/papers/BRAIN-Diet-References#brs4_acuteexercise2017_20261023)
+- <span id="pm-ref-13">[13]</span> [Jarrett et al. (2008) — The ketogenic diet increases mitochondrial glutathione levels.](/docs/papers/BRAIN-Diet-References#brs4_jarrett2008_20261023)
+- <span id="pm-ref-14">[14]</span> [UniProt — P04179, enzyme annotation version 268](/docs/papers/BRAIN-Diet-References#brs4_uniprot_p04179_20261023)
+- <span id="pm-ref-15">[15]</span> [UniProt — P36969, enzyme annotation version 235](/docs/papers/BRAIN-Diet-References#brs4_uniprot_p36969_20261023)
+- <span id="pm-ref-16">[16]</span> [UniProt — P00441, enzyme annotation version 279](/docs/papers/BRAIN-Diet-References#brs4_uniprot_p00441_20261023)

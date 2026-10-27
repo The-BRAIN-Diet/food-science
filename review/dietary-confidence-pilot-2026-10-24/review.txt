@@ -1,0 +1,65 @@
+DIETARY CONFIDENCE — INDEPENDENT PILOT REVIEW
+24 October 2026
+Branch: codex/dietary-confidence-pilot
+Baseline: 7c01ae09a541c1ef8b1958fee1deb43b742a0287
+Status: Implemented locally for review; not committed, merged or deployed.
+
+ARCHITECTURE
+Dietary Confidence is an optional assessment of an already admitted, precisely scoped relationship. Only High, Moderate and Low are stored. No record means Unassessed. Nonadmission remains in existing admission/hypothesis statuses; it is not a confidence value. No confidence assessment is created for a hypothesis, including one marked Supported. Six atoms, Type A/B, Direct/Derived, SEC/CC, food mappings and roll-up eligibility are preserved.
+
+PILOT A: BRS1-FM4-PM9 / PM9-DIT-3 — HIGH
+Type A Capacity; Derived. Dietary B6 supplies precursors of GAD's PLP cofactor under functioning absorption and activation. The proposition is sustaining biochemical capacity, not a measurable increase in brain GABA after extra B6. GAD's PLP dependence, human PDXK/PNPO enzymology, human oral B6 utilisation and dietary-deficiency animal evidence form a coherent supply/dependency chain. Requiring neuronal PLP occupancy or benefit from supplementation would change the proposition being assessed. High applies to this capacity relationship, not every food's bioavailability, a therapeutic dose or a human neurological effect. Martin and Rimvall is secondary synthesis, not another primary experiment. Field 2022 is not used as proof of GABA synthesis.
+Primary checks:
+- GAD structure/kinetics: https://www.nature.com/articles/nsmb1228
+- Human PDXK: https://pubmed.ncbi.nlm.nih.gov/17766369/
+- Human PNPO: https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/
+- Human stable-isotope B6 utilisation: https://pubmed.ncbi.nlm.nih.gov/1995788/
+- Dietary B6 deficiency and rat-brain GAD: https://doi.org/10.1111/j.1471-4159.1972.tb01374.x
+The existing B6 atom's abbreviated conversion wording and its pre-existing PNPO review concern are preserved. The new assessment accurately distinguishes PL phosphorylation from PN/PM phosphorylation followed by PNPO oxidation. Direct PLP's unresolved admission is unchanged.
+
+PILOT B: BRS5-FM2-PM5 / PM5-DIT-1 — MODERATE
+Type A Capacity; Direct relative to microbial SCFA-production substrate utilisation. Class-level capacity is supported independently of Baxter's extracted potato RS2 intervention. Material structure, processing, degraders, cross-feeding and host community create meaningful uncertainty about utilisation and product distribution. Faecal SCFA concentration is not production flux. No uniform butyrate yield or whole-food equivalence is inferred.
+Primary checks retained:
+- Degradation/cross-feeding: https://doi.org/10.1038/ismej.2012.4
+- RS2/RS3 fermentation: https://doi.org/10.1002/mnfr.200600106
+- Preparation-specific potato composition: https://pubmed.ncbi.nlm.nih.gov/27132853/
+- Banana ripening/composition: https://doi.org/10.1016/j.postharvbio.2016.03.022
+No FOS/GOS readmission, inulin admission, apple/pectin status change or food edge is introduced.
+
+PILOT C: BRS5-FM3-PM7 / PM7-DIT-DEFERRED-1 — LOW, BOUNDED
+Type B Regulation; Direct. The existing admission is unchanged. Li's mouse imaging, vagotomy and receptor perturbations support defined intestinal linoleic-acid engagement of vagal/cNST sensing. Food presence alone would be inadequate delivery evidence. Primary lipase-inhibition experiments demonstrate triglyceride hydrolysis and luminal free-fatty-acid release, independently supporting credible digestive delivery. They measure mixed-fat digestion and CCK/hormonal responses, not linoleic-specific human vagal activity. Thus there is a supported delivery bridge, not a missing essential link concealed by Low.
+Low reflects narrow model/formulation evidence and limited generalisability. It does NOT establish ordinary-meal equivalence to the 10% free-LA stimulus, a food serving's effective dose, human circuit engagement or a beneficial direction. No substantive conflict with the existing bounded mouse-stimulus admission was identified. Extending this admission to a human ordinary-food circuit effect would exceed the evidence and must be reviewed rather than enabled by Low. If credible delivery itself becomes unsupported, remove/withhold the confidence assessment and flag the admission conflict; preserve historical admission pending adjudication.
+Primary checks:
+- Mouse mechanism: https://www.nature.com/articles/s41586-022-05266-z
+- Human fat hydrolysis/free-fatty-acid release: https://pubmed.ncbi.nlm.nih.gov/9428226/
+- Human lipase-inhibition trial: https://pubmed.ncbi.nlm.nih.gov/12684211/
+
+PILOT D: BRS5-FM1-PM1 / PROPOSED PM1-H1 — NO CONFIDENCE ASSESSMENT
+The fetched main branch and inspected local PM1 copies contain no scientific_hypotheses entry or PM1-H1 implementation. Cursor's report also explicitly says the page record was not written. The current hypothesis schema is unchanged. proposed-pm1-h1.json is a schema-valid proposal awaiting approval, NOT canonical implementation. Its proposed direction is BRS5-FM2-PM5 -> BRS5-FM1-PM1; status Unestablished. Historical fibre and unresolved direct-butyrate records receive no confidence label.
+PM5-F1 and PM1-F2 are contextual links: their conjunction does not demonstrate mediation. No new Finding is manufactured. No causal relationship, food target or roll-up row is created.
+Scientific refinements to Cursor's reasoning:
+1. The 2020 human biopsy null is bounded to acute induced injury; it is not universal evidence against butyrate effects. https://pubmed.ncbi.nlm.nih.gov/32422994/
+2. A 2025 primary study reports a transcellular protective result after direct colonic butyrate perfusion in IBS. It is important context, but is not demonstrated paracellular tight-junction regulation or dietary RS delivery. https://doi.org/10.1080/19490976.2025.2545414
+3. The potato trial's small-intestinal permeability improvement must be retained alongside its colonic-probe null; neither establishes the proposed butyrate-mediated route. https://pmc.ncbi.nlm.nih.gov/articles/PMC9026745/
+4. Moreau's labelled butyrate was infused, not traced from starch carbon, and increased uptake followed healing. https://pubmed.ncbi.nlm.nih.gov/14988436/
+5. Carbon tracing is one useful research approach, not a new mandatory exclusive admission gate. Convergent mediation, perturbation and rescue evidence may also test the proposition. The missing joined relationship is not repaired by inventing a stricter universal evidence rule.
+
+IMPLEMENTATION AND VALIDATION
+- Separate optional metadata added only to the three admitted pilot relationships.
+- Shared confidence renderer/validator and client/server disclosure integration.
+- Stage 2B guidance and schema documentation; current hypothesis schema unchanged.
+- Three live-component presentation examples plus one proposed-hypothesis example.
+- Existing synthetic structural test now removes real B6 confidence before changing the relationship; an unassessed synthetic variant must not inherit a scientific adjudication. No test expectation or scientific gate was weakened.
+- 100/100 focused confidence, admission and dietary-disclosure regression tests pass.
+- 64-PM dietary-input governance check: zero issues.
+- 64-PM Scientific Finding projection check: zero issues.
+- 64-PM existing hypothesis validation: zero issues.
+- SEC registry, immutable history and canonical references: all 84 snapshots valid.
+- Targeted TypeScript transpilation, actual component rendering and three full PM MDX-body compilation checks pass.
+- Browser inspected all four examples and expanded the hypothesis disclosure.
+- In-memory before/after comparison: all six BRS manuscript mapping rows, relationships and Cursor queue outputs identical. No dietary datasets regenerated.
+- All pre-existing structured fields and body bytes on the three edited PMs are identical to baseline. PM1 page, hypothesis schema/implementation and SEC registry bytes are unchanged.
+- No full production build or deployment was performed for this local pilot.
+
+OUTSTANDING DECISIONS / LIMITATIONS
+Approve the proposed PM1-H1 canonical insertion separately. Human meal-level linoleic target engagement and quantitative exposure equivalence remain unestablished; do not promote them through this confidence label. The historical B6 shorthand issue remains in its existing review history. No repository-wide confidence assignment is authorised or performed.

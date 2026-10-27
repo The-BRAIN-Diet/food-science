@@ -17,7 +17,7 @@ evidence_status: stage-2b-dietary-addressability
 dietary_input_traceability:
   - atom_id: PM6-DIT-1
     dietary_input: true
-    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
+    dietary_input_note: Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.
     input: Choline
     input_type: substrate
     biological_role: Direct substrate combined with acetyl-CoA by choline acetyltransferase to form acetylcholine
@@ -30,7 +30,7 @@ dietary_input_traceability:
     evidence_limitation: 'Choline is required and diet supplies it, but additional intake has not been shown here to raise acetylcholine synthesis in the human brain or improve attention.'
   - atom_id: PM6-DIT-2
     dietary_input: true
-    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
+    dietary_input_note: Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.
     input: Phosphatidylcholine
     input_type: substrate provision
     biological_role: 'Dietary choline-containing phospholipid that is digested and remodelled, producing circulating choline as one route to the direct choline substrate'
@@ -42,7 +42,7 @@ dietary_input_traceability:
     evidence_limitation: Human tracer evidence establishes phosphatidylcholine as a choline-provision route; it does not show delivery to cholinergic terminals or increased brain acetylcholine synthesis.
   - atom_id: PM6-DIT-3
     dietary_input: false
-    dietary_input_note: "Accepted intracellular/endogenous participant; no dietary supply relationship is admitted for this entry in this PM."
+    dietary_input_note: Accepted intracellular/endogenous participant; no dietary supply relationship is admitted for this entry in this PM.
     input: Acetyl-CoA
     input_type: substrate
     biological_role: Acetyl-group donor combined with choline by choline acetyltransferase to form acetylcholine
@@ -58,7 +58,7 @@ dietary_input_traceability:
     evidence_limitation: 'Acetyl-CoA is a cellular reaction substrate, not a dietary acetyl-CoA recommendation; ordinary dietary control of its availability in human cholinergic neurons is not established.'
   - atom_id: PM6-DIT-4
     dietary_input: true
-    dietary_input_note: "Existing biological role explicitly admits the nutritional precursor route to coenzyme A; intracellular reaction participation does not negate that dietary route."
+    dietary_input_note: Existing biological role explicitly admits the nutritional precursor route to coenzyme A; intracellular reaction participation does not negate that dietary route.
     input: Vitamin B5 (pantothenate)
     input_type: cofactor precursor
     biological_role: 'Nutritional precursor of coenzyme A, from which cells form the acetyl-CoA required for acetylcholine synthesis'
@@ -70,17 +70,30 @@ dietary_input_traceability:
     evidence_limitation: Chronic ethanol-associated pantothenate depletion and rescue affected acetylcholine synthesis in rats; this does not establish that extra B5 raises brain acetylcholine in adequately nourished humans.
   - atom_id: PM6-DIT-5
     dietary_input: true
-    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
+    dietary_input_note: Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.
     input: Vitamin B9 (folate)
     input_type: resource dependency
-    biological_role: Folate-dependent methyl metabolism helps maintain the brain choline resource available for acetylcholine formation; folate deprivation lowered choline and acetylcholine in studied mouse models, with SAM rescue supporting this upstream resource relationship.
+    biological_role: 'Folate-dependent methyl metabolism helps maintain the brain choline resource available for acetylcholine formation; folate deprivation lowered choline and acetylcholine in studied mouse models, with SAM rescue supporting this upstream resource relationship.'
     evidence_source:
       finding_ids:
         - PM6-F6
       citation_keys:
         - chan_folate_acetylcholine_2008
         - crivello_folate_choline_2010
-    evidence_limitation: Animal evidence is conditional on age, brain region and experimental context. Choline and acetylcholine concentrations were measured; methyl-dependent choline retention and the consequence for synthesis capacity are mechanistic inferences, not measured human synthesis flux. Folate is not a ChAT cofactor; extra folate above adequacy and cognitive benefit are not established.
+    evidence_limitation: 'Animal evidence is conditional on age, brain region and experimental context. Choline and acetylcholine concentrations were measured; methyl-dependent choline retention and the consequence for synthesis capacity are mechanistic inferences, not measured human synthesis flux. Folate is not a ChAT cofactor; extra folate above adequacy and cognitive benefit are not established.'
+  - atom_id: PM6-DIT-RECOVERY-SODIUM
+    input: Sodium
+    input_type: nutrient/substance
+    substance_id: sodium
+    biological_role: 'Sodium supports the electrochemical coupling required for high-affinity CHT1 choline uptake, sustaining substrate-entry capacity for acetylcholine synthesis.'
+    evidence_source:
+      finding_ids:
+        - PM6-F1
+      citation_keys:
+        - xue_human_cht1_structure_2024
+    evidence_limitation: Transport-ion capacity does not establish that added dietary salt increases brain choline uptake or acetylcholine output. CNS homeostasis and membrane gradients intervene. Chloride is not assumed to have identical transport stoichiometry and is not independently admitted here.
+    dietary_input: true
+    dietary_input_note: '2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition does not establish an effective intervention dose.'
 dietary_lever_atoms:
   - atom_id: PM6-DIT-1
     requirement_classification: direct
@@ -114,6 +127,14 @@ dietary_lever_atoms:
   - atom_id: PM6-DIT-5
     relationship_layer: kc-relevance
     claim_ceiling: dietary-provision
+  - atom_id: PM6-DIT-RECOVERY-SODIUM
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    relationship_layer: dietary-requirement
+    dietary_addressability: direct
+    claim_ceiling: biological-dependency
+    permitted_wording: 'Sodium supports the electrochemical coupling required for high-affinity CHT1 choline uptake, sustaining substrate-entry capacity for acetylcholine synthesis.'
+    evidence_limitation: Transport-ion capacity does not establish that added dietary salt increases brain choline uptake or acetylcholine output. CNS homeostasis and membrane gradients intervene. Chloride is not assumed to have identical transport stoichiometry and is not independently admitted here.
 dietary_lever_presentations:
   - atom_id: PM6-DIT-1
     label: Choline
@@ -135,6 +156,9 @@ dietary_lever_presentations:
     presentation_section: 3.1.2
     reader_description: Acetyl-CoA is generated through compartmented neuronal metabolism and donates the acetyl group used by choline acetyltransferase.
     description_finding_id: PM6-F2
+  - atom_id: PM6-DIT-RECOVERY-SODIUM
+    label: Sodium
+    presentation_section: 3.1.1
 phenome_relationships:
   - target_phenome: Focus / Attention Stability
     relationship_type: modulates
@@ -191,12 +215,13 @@ references:
   - '[Jope (1979) — Choline Transport and Acetyl-CoA Production in Acetylcholine Synthesis](/docs/papers/BRAIN-Diet-References#jope_choline_acetylcoa_1979)'
   - '[Inazu (2019) — Choline Transporters at the Blood–Brain Barrier](/docs/papers/BRAIN-Diet-References#inazu_choline_transporters_2019)'
   - '[Szutowicz et al. (2010) — Thiamine Deficiency, Nerve-Terminal Acetyl-CoA and Acetylcholine Release](/docs/papers/BRAIN-Diet-References#szutowicz_thiamine_acetylcoa_2010)'
+  - '[Xue et al. (2024) — Structural mechanisms of human sodium-coupled high-affinity choline transporter CHT1](/docs/papers/BRAIN-Diet-References#xue_human_cht1_structure_2024)'
 key_constraints:
   - BRS2(KC1) - Methyl Donor Pool
 pm_kc_relationships:
   - relationship_id: BRS1-FM2-PM6-KCR-1
     dietary_input: false
-    dietary_input_note: "Pool/constraint reference; constituent dietary supply is recorded separately."
+    dietary_input_note: Pool/constraint reference; constituent dietary supply is recorded separately.
     kc_id: BRS2(KC1)
     ikc_id: BRS2(KC1)
     pm_biological_role: 'Inadequate one-carbon donor availability can increase pressure on choline-dependent methyl donation and disturb brain choline and acetylcholine availability, thereby constraining the substrate capacity used for acetylcholine synthesis.'
@@ -210,7 +235,7 @@ pm_kc_relationships:
         - jadavji_mtrr_choline_2014
         - oda_choline_1999
     evidence_limitation: 'The mapping is supported by dietary and genetic animal models plus the established choline substrate reaction. It does not show that folate, B12, or betaine supplementation increases acetylcholine synthesis in nutrient-replete humans, and it does not inherit the KC food list.'
-    kc_href: https://thebraindiet.org/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool
+    kc_href: 'https://thebraindiet.org/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool'
     origin_label: 'KC1: Methyl Donor Pool'
     constituent_relationships:
       - relationship_id: BRS1-FM2-PM6-KCI-1
@@ -244,7 +269,7 @@ kc_applicability_adjudications:
         - oda_choline_1999
     rationale: 'Type D is met through a supported mechanistic chain rather than a single end-to-end human capacity assay: one-carbon compromise changes the choline resource state, animal models show lower choline and acetylcholine under folate or methionine-cycle impairment, and choline is the required synthesis substrate. BRS1(KC1) was screened out because choline is not a LAT1 large-neutral-amino-acid cargo.'
 hide_title: true
-scientific_findings_intro: "Transporter evidence identifies terminal choline uptake as a control step for acetylcholine synthesis, while human tracing demonstrates systemic assimilation of choline from dietary phosphatidylcholine. [[6]](#pm-ref-6) [[7]](#pm-ref-7) Animal depletion and rescue studies support bounded pantothenate and one-carbon dependencies, with acetylcholine responses varying by experimental condition, region and age. [[8]](#pm-ref-8) [[9]](#pm-ref-9) [[10]](#pm-ref-10) The evidence therefore supports provision and local synthesis capacity without equating plasma choline delivery with neuronal release, attention benefit or a human dose response."
+scientific_findings_intro: 'Transporter evidence identifies terminal choline uptake as a control step for acetylcholine synthesis, while human tracing demonstrates systemic assimilation of choline from dietary phosphatidylcholine. [[6]](#pm-ref-6) [[7]](#pm-ref-7) Animal depletion and rescue studies support bounded pantothenate and one-carbon dependencies, with acetylcholine responses varying by experimental condition, region and age. [[8]](#pm-ref-8) [[9]](#pm-ref-9) [[10]](#pm-ref-10) The evidence therefore supports provision and local synthesis capacity without equating plasma choline delivery with neuronal release, attention benefit or a human dose response.'
 scientific_findings:
   - id: PM6-F1
     finding_label: High-affinity choline uptake controls substrate entry into cholinergic terminals
@@ -269,6 +294,21 @@ scientific_findings:
           effect_magnitude: No pooled dietary effect estimate.
           evidence_summary: Establishes the regulated choline-entry step required before acetylcholine synthesis.
           limitations: Does not test ordinary food intake or human brain synthesis after a meal.
+      - label: Xue et al. (2024)
+        citation_key: xue_human_cht1_structure_2024
+        href: /docs/papers/BRAIN-Diet-References#xue_human_cht1_structure_2024
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        exposure_context: Controlled transport substrates and ions; not a dietary salt experiment.
+        directional_finding: Human CHT1 structures and transport-site mutations identify sodium-dependent choline uptake; chloride binding has a distinct functional role.
+        assessment:
+          study: Human CHT1 cryo-EM structures and uptake/site-mutant experiments.
+          population: Human transporter expressed in experimental systems.
+          result: Human CHT1 structures and transport-site mutations identify sodium-dependent choline uptake; chloride binding has a distinct functional role.
+          effect_magnitude: No additional magnitude inferred.
+          evidence_summary: Human CHT1 structures and transport-site mutations identify sodium-dependent choline uptake; chloride binding has a distinct functional role.
+          limitations: Transport-ion capacity does not establish that added dietary salt increases brain choline uptake or acetylcholine output. CNS homeostasis and membrane gradients intervene. Chloride is not assumed to have identical transport stoichiometry and is not independently admitted here.
+          retrieval_scope: Primary structural and transport results retrieved 26 October 2026.
     connected_supportive_evidence:
       - label: Inazu (2019)
         citation_key: inazu_choline_transporters_2019
@@ -489,6 +529,35 @@ scientific_findings:
           limitations: Review synthesis; not a choline-for-ADHD trial.
     presentation: phenome-relationship
     primary_phenome: Focus / Attention Stability
+sidebar_label: BRS1-2-6 — Acetylcholine Synthesis Support
+dietary_input_assessments:
+  - atom_id: PM6-DIT-RECOVERY-SODIUM
+    status: admitted
+    type: A
+    classification: direct
+    operation: 'Maintain the capacity to form acetylcholine so cholinergic signalling for attention, working memory, and learning stays supplied.'
+    canonical_substance_id: sodium
+    assessment_date: '2026-10-26'
+    assessment_limitations: Transport-ion capacity does not establish that added dietary salt increases brain choline uptake or acetylcholine output. CNS homeostasis and membrane gradients intervene. Chloride is not assumed to have identical transport stoichiometry and is not independently admitted here.
+    food_target_research:
+      completed: true
+      sources_examined:
+        - registry/substances.json
+        - docs/foods/anchovies.md
+        - docs/foods/miso.md
+        - system/food-target-research.json
+      sufficient_coverage_rationale: Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships.
+    functional_dependency:
+      status: established
+      statement: 'Sodium supports the electrochemical coupling required for high-affinity CHT1 choline uptake, sustaining substrate-entry capacity for acetylcholine synthesis.'
+      sources:
+        - 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11589582/'
+    dietary_supply:
+      status: established
+      statement: The same canonical nutrient is supplied by the inspected food records. Tissue uptake and homeostasis remain distinct from an effect of extra intake.
+      sources:
+        - docs/foods/anchovies.md
+        - docs/foods/miso.md
 ---
 
 <p class="brs-pm-thumbnail-wrap">
@@ -527,6 +596,9 @@ Maintain the capacity to form acetylcholine so cholinergic signalling for attent
 <strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
+
+- Sodium
+
 
 - Choline
 - Phosphatidylcholine
@@ -661,7 +733,7 @@ This synthesis capacity supports [BRS1(FM2) — Cholinergic Function](/docs/biol
 
 Transporter evidence identifies terminal choline uptake as a control step for acetylcholine synthesis, while human tracing demonstrates systemic assimilation of choline from dietary phosphatidylcholine. [[6]](#pm-ref-6) [[7]](#pm-ref-7) Animal depletion and rescue studies support bounded pantothenate and one-carbon dependencies, with acetylcholine responses varying by experimental condition, region and age. [[8]](#pm-ref-8) [[9]](#pm-ref-9) [[10]](#pm-ref-10) The evidence therefore supports provision and local synthesis capacity without equating plasma choline delivery with neuronal release, attention benefit or a human dose response.
 
-<ScientificFinding finding={{"id":"PM6-F1","finding_label":"High-affinity choline uptake controls substrate entry into cholinergic terminals","finding_summary":"The high-affinity choline transporter recovers choline into cholinergic nerve endings and is a major control point for acetylcholine production.","finding_interpretation":"Substrate supply is not only a food-intake question: choline must reach the nerve terminal through a regulated transporter before choline acetyltransferase can use it.","fm_rollup":true,"finding_statement":"Sodium-coupled high-affinity choline uptake through CHT/SLC5A7 is required to recover choline into cholinergic nerve terminals and commonly limits acetylcholine production under physiological demand.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A focused transporter review shows that CHT recovers synaptic choline into cholinergic terminals, that inhibiting or genetically impairing this transport reduces cholinergic capacity, and that activity-dependent trafficking changes uptake capacity. This establishes terminal uptake as a control step upstream of the ChAT reaction.","synthesis_limitations":"Transporter biology is largely mechanistic and preclinical. It does not show that ordinary choline intake changes CHT capacity in humans or that more dietary choline overcomes a transporter defect.","evidence_considered":[{"label":"Ojiakor and Rylett (2020)","citation_key":"ojiakor_choline_transporter_2020","href":"/docs/papers/BRAIN-Diet-References#ojiakor_choline_transporter_2020","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"CHT-mediated high-affinity choline uptake recovers choline into cholinergic terminals and is the principal regulated supply step for sustaining acetylcholine production.","assessment":{"study":"Review of CHT function, trafficking, genetic disruption, and pharmacological manipulation.","population":"Cellular, animal, human genetic, and neuropathology evidence; not a dietary trial.","result":"Reduced CHT function or availability limits choline uptake and cholinergic transmission, while neuronal activity recruits transport capacity.","effect_magnitude":"No pooled dietary effect estimate.","evidence_summary":"Establishes the regulated choline-entry step required before acetylcholine synthesis.","limitations":"Does not test ordinary food intake or human brain synthesis after a meal."},"canonical_reference":{"author_year":"Ojiakor and Rylett (2020)","number":6,"anchor":"#pm-ref-6"}}],"connected_supportive_evidence":[{"label":"Inazu (2019)","citation_key":"inazu_choline_transporters_2019","href":"/docs/papers/BRAIN-Diet-References#inazu_choline_transporters_2019","data_level":"Mechanistic","why_relevant":"Separates CTL1/CTL2-mediated choline handling at brain microvascular endothelium from CHT/SLC5A7 uptake at cholinergic terminals.","why_excluded":"Does not test whether an oral choline exposure increases delivery to terminals or acetylcholine synthesis in humans.","canonical_reference":{"author_year":"Inazu (2019)","number":13,"anchor":"#pm-ref-13"}}],"presentation":"mechanistic-basis","informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"},{"phenome":"Cognitive Clarity","href":"/docs/phenomes/details/ph011-cognitive-clarity"}]}} />
+<ScientificFinding finding={{"id":"PM6-F1","finding_label":"High-affinity choline uptake controls substrate entry into cholinergic terminals","finding_summary":"The high-affinity choline transporter recovers choline into cholinergic nerve endings and is a major control point for acetylcholine production.","finding_interpretation":"Substrate supply is not only a food-intake question: choline must reach the nerve terminal through a regulated transporter before choline acetyltransferase can use it.","fm_rollup":true,"finding_statement":"Sodium-coupled high-affinity choline uptake through CHT/SLC5A7 is required to recover choline into cholinergic nerve terminals and commonly limits acetylcholine production under physiological demand.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A focused transporter review shows that CHT recovers synaptic choline into cholinergic terminals, that inhibiting or genetically impairing this transport reduces cholinergic capacity, and that activity-dependent trafficking changes uptake capacity. This establishes terminal uptake as a control step upstream of the ChAT reaction.","synthesis_limitations":"Transporter biology is largely mechanistic and preclinical. It does not show that ordinary choline intake changes CHT capacity in humans or that more dietary choline overcomes a transporter defect.","evidence_considered":[{"label":"Ojiakor and Rylett (2020)","citation_key":"ojiakor_choline_transporter_2020","href":"/docs/papers/BRAIN-Diet-References#ojiakor_choline_transporter_2020","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"CHT-mediated high-affinity choline uptake recovers choline into cholinergic terminals and is the principal regulated supply step for sustaining acetylcholine production.","assessment":{"study":"Review of CHT function, trafficking, genetic disruption, and pharmacological manipulation.","population":"Cellular, animal, human genetic, and neuropathology evidence; not a dietary trial.","result":"Reduced CHT function or availability limits choline uptake and cholinergic transmission, while neuronal activity recruits transport capacity.","effect_magnitude":"No pooled dietary effect estimate.","evidence_summary":"Establishes the regulated choline-entry step required before acetylcholine synthesis.","limitations":"Does not test ordinary food intake or human brain synthesis after a meal."},"canonical_reference":{"author_year":"Ojiakor and Rylett (2020)","number":6,"anchor":"#pm-ref-6"}},{"label":"Xue et al. (2024)","citation_key":"xue_human_cht1_structure_2024","href":"/docs/papers/BRAIN-Diet-References#xue_human_cht1_structure_2024","data_level":"Mechanistic","evidence_source":"bounded-external-search","exposure_context":"Controlled transport substrates and ions; not a dietary salt experiment.","directional_finding":"Human CHT1 structures and transport-site mutations identify sodium-dependent choline uptake; chloride binding has a distinct functional role.","assessment":{"study":"Human CHT1 cryo-EM structures and uptake/site-mutant experiments.","population":"Human transporter expressed in experimental systems.","result":"Human CHT1 structures and transport-site mutations identify sodium-dependent choline uptake; chloride binding has a distinct functional role.","effect_magnitude":"No additional magnitude inferred.","evidence_summary":"Human CHT1 structures and transport-site mutations identify sodium-dependent choline uptake; chloride binding has a distinct functional role.","limitations":"Transport-ion capacity does not establish that added dietary salt increases brain choline uptake or acetylcholine output. CNS homeostasis and membrane gradients intervene. Chloride is not assumed to have identical transport stoichiometry and is not independently admitted here.","retrieval_scope":"Primary structural and transport results retrieved 26 October 2026."},"canonical_reference":{"author_year":"Xue et al. (2024)","number":15,"anchor":"#pm-ref-15"}}],"connected_supportive_evidence":[{"label":"Inazu (2019)","citation_key":"inazu_choline_transporters_2019","href":"/docs/papers/BRAIN-Diet-References#inazu_choline_transporters_2019","data_level":"Mechanistic","why_relevant":"Separates CTL1/CTL2-mediated choline handling at brain microvascular endothelium from CHT/SLC5A7 uptake at cholinergic terminals.","why_excluded":"Does not test whether an oral choline exposure increases delivery to terminals or acetylcholine synthesis in humans.","canonical_reference":{"author_year":"Inazu (2019)","number":13,"anchor":"#pm-ref-13"}}],"presentation":"mechanistic-basis","informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"},{"phenome":"Cognitive Clarity","href":"/docs/phenomes/details/ph011-cognitive-clarity"}]}} />
 
 <ScientificFinding finding={{"id":"PM6-F2","finding_label":"Choline and acetyl-CoA form acetylcholine via choline acetyltransferase","finding_summary":"Choline combines with acetyl-CoA through choline acetyltransferase to form acetylcholine. Necessity of those reactants is not proof that extra choline raises human brain acetylcholine.","finding_interpretation":"Choline and acetyl-CoA are the two substrates. Phosphatidylcholine and pantothenate matter through provision routes assessed separately; vitamin B12 and folate do not act as ChAT cofactors.","fm_rollup":true,"finding_statement":"Acetylcholine is formed from choline and acetyl-CoA by choline acetyltransferase; biochemical necessity is not intake-responsive human brain acetylcholine.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A choline-acetyltransferase review and a modern choline-transporter review agree that ChAT transfers the acetyl group from acetyl-CoA to choline in cholinergic neurons. Together they establish the defining reaction and both substrates.","synthesis_limitations":"Reaction and review evidence does not establish which substrate limits synthesis in every physiological state, an ordinary dietary dose response, or a human functional benefit.","evidence_considered":[{"label":"Oda (1999)","citation_key":"oda_choline_1999","href":"/docs/papers/BRAIN-Diet-References#oda_choline_1999","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Choline acetyltransferase condenses choline and acetyl-CoA to form acetylcholine and is the defining synthetic enzyme in cholinergic neurons.","assessment":{"study":"Review of choline-acetyltransferase structure, distribution and pathology.","population":"Experimental and neuropathology literature; not a dietary sample.","result":"Identified choline and acetyl-CoA as the enzyme’s substrates.","effect_magnitude":"No dietary or clinical effect estimate.","evidence_summary":"Establishes the acetylcholine-forming reaction.","limitations":"Enzyme and pathology review; not an intake-to-acetylcholine trial."},"canonical_reference":{"author_year":"Oda (1999)","number":4,"anchor":"#pm-ref-4"}},{"label":"Ojiakor and Rylett (2020)","citation_key":"ojiakor_choline_transporter_2020","href":"/docs/papers/BRAIN-Diet-References#ojiakor_choline_transporter_2020","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"ChAT transfers an acetyl group from acetyl-CoA to choline in the neuronal cytoplasm after CHT-mediated choline entry.","assessment":{"study":"Review of CHT function and cholinergic terminal biology.","population":"Mechanistic, animal, and human genetic literature.","result":"Describes substrate entry followed by ChAT-dependent synthesis from choline and acetyl-CoA.","effect_magnitude":"No dietary effect estimate.","evidence_summary":"Independently confirms the reaction participants within the presynaptic synthesis pathway.","limitations":"Does not measure human synthesis after dietary exposure."},"canonical_reference":{"author_year":"Ojiakor and Rylett (2020)","number":6,"anchor":"#pm-ref-6"}}],"evidence_dependency":["Ojiakor and Rylett (2020) is also primary evidence in PM6-F1; reuse here establishes reaction placement after choline transport, not independent replication."],"connected_supportive_evidence":[{"label":"Kennedy (2016)","citation_key":"kennedy_b_2016","href":"/docs/papers/BRAIN-Diet-References#kennedy_b_2016","data_level":"Mechanistic","why_relevant":"Reviews B-vitamin roles in brain energy and one-carbon chemistry.","why_excluded":"Does not establish vitamin B12 or folate as acetylcholine-synthesis cofactors.","canonical_reference":{"author_year":"Kennedy (2016)","number":5,"anchor":"#pm-ref-5"}}],"presentation":"mechanistic-basis","informs":[{"phenome":"Cognitive Clarity","href":"/docs/phenomes/details/ph011-cognitive-clarity"}]}} />
 
@@ -773,7 +845,7 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 </div>
 </div>
 
-{/* stage2ab-preservation-2026-10-23 */}
+<Stage2Review>
 <details>
 <summary>Stage 2A/2B evidence and traceability review — 23 October 2026</summary>
 
@@ -795,7 +867,7 @@ The standard food dropdown continues to use the existing structured relationship
 - **PRES-20261023-ACH-B5 — Review required:** The phrase Directly links severe pantothenate depletion to reduced acetylcholine synthesis through acetyl-CoA provision may overstate isolated causal mediation in an ethanol-exposure model. Proposed follow-up: Review whether the study isolates acetyl-CoA mediation; if approved, describe the ethanol-specific association/intervention separately from the established biochemical precursor pathway. Retain B5 admission. The original record remains in place.
 
 </details>
-{/* /stage2ab-preservation-2026-10-23 */}
+</Stage2Review>
 
 ## 8. References
 
@@ -813,3 +885,5 @@ The standard food dropdown continues to use the existing structured relationship
 - <span id="pm-ref-12">[12]</span> [Jope (1979) — Choline Transport and Acetyl-CoA Production in Acetylcholine Synthesis](/docs/papers/BRAIN-Diet-References#jope_choline_acetylcoa_1979)
 - <span id="pm-ref-13">[13]</span> [Inazu (2019) — Choline Transporters at the Blood–Brain Barrier](/docs/papers/BRAIN-Diet-References#inazu_choline_transporters_2019)
 - <span id="pm-ref-14">[14]</span> [Szutowicz et al. (2010) — Thiamine Deficiency, Nerve-Terminal Acetyl-CoA and Acetylcholine Release](/docs/papers/BRAIN-Diet-References#szutowicz_thiamine_acetylcoa_2010)
+- <span id="pm-ref-15">[15]</span> [Xue et al. (2024) — Structural mechanisms of human sodium-coupled high-affinity choline transporter CHT1](/docs/papers/BRAIN-Diet-References#xue_human_cht1_structure_2024)
+

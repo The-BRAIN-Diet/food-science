@@ -1,0 +1,14 @@
+[
+  {
+    "source_entity": "BRS6-FM4-PM8",
+    "target_entity": "NADPH",
+    "canonical_id": null,
+    "relationship": "biochemical-participant identity review",
+    "status": "unresolved",
+    "required_action": "Verify whether a canonical NADPH identity should be registered separately. Do not infer dietary niacin/glucose/magnesium or food edges.",
+    "evidence": [
+      "https://www.uniprot.org/uniprotkb/P28845/entry"
+    ],
+    "active_section_entry": false
+  }
+]

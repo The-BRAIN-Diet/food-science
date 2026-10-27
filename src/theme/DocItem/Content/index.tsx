@@ -1,3 +1,6 @@
+import FoodDietaryRelationships from '@site/src/components/FoodDietaryRelationships';
+import AminoAcidComposition from '@site/src/components/AminoAcidComposition';
+import DietaryPathways from '@site/src/components/DietaryPathways';
 import React, {useLayoutEffect, useRef, type ReactNode} from "react"
 import clsx from "clsx"
 import {ThemeClassNames} from "@docusaurus/theme-common"
@@ -248,8 +251,11 @@ export default function DocItemContent({children}: Props): ReactNode {
       )}
 
         <MDXContent>{children}</MDXContent>
+        <AminoAcidComposition frontMatter={frontMatter} />
+        {metadata.permalink.includes("/foods/") && <FoodDietaryRelationships foodId={String(frontMatter.id || "")} />}
         {isSubstanceDoc && <SubstanceMatrix tag={String(frontMatter.id)} substanceId={String(frontMatter.id)} canonicalOnly />}
         {pmId && <TherapeuticAreaPmLinks pmId={pmId} />}
+        <DietaryPathways />
       </DocUtilityBar>
         <PmDietaryLeverEnhancer frontMatter={frontMatter as Record<string, unknown>} />
         <PmSystemOptimisationEnhancer frontMatter={frontMatter as Record<string, unknown>} />

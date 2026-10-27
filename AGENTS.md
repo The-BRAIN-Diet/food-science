@@ -1,5 +1,12 @@
 # Project Structure
 
+## Agreed PM schema and template changes
+
+- When proposing or implementing a PM schema, template or shared presentation change, explicitly remind the user which authoritative instructions need to change with it.
+- Once the change is agreed, update the applicable Stage 2A, Stage 2B, PM schema/template and shared presentation contract in the same work item. Preserve the scientific and historical boundaries of the approval.
+- In the completion message, confirm the instruction updates or name any that remain unresolved. Do not leave an agreed schema change documented only in the chat.
+- Keep the running localhost preview available during verification builds: build to a separate output directory, then update the preview only after the build passes. Do not regenerate the directory currently being served.
+
 The `docs` directory is split into several key subsections:
 
 ## Tagging

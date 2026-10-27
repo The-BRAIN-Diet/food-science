@@ -1,0 +1,329 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        26
+      ]
+    ],
+    "date-time": "2026-10-26T19:27:02Z",
+    "timestamp": 1793042822550,
+    "version": "4.5.0"
+  },
+  "reference-count": 28,
+  "publisher": "American Physiological Society",
+  "issue": "6",
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "American Journal of Physiology-Renal Physiology"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2007,
+        12
+      ]
+    ]
+  },
+  "abstract": "<jats:p>A fraction of the body's creatine and creatine phosphate spontaneously degrades to creatinine, which is excreted by the kidneys. In humans, this amounts to \u223c1\u20132 g/day and demands a comparable rate of de novo creatine synthesis. This is a two-step process in which l-arginine:glycine amidinotransferase (AGAT) catalyzes the conversion of glycine and arginine to ornithine and guanidinoacetate (GAA); guanidinoacetate methyltransferase (GAMT) then catalyzes the S-adenosylmethionine-dependent methylation of GAA to creatine. AGAT is found in the kidney and GAMT in the liver, which implies an interorgan movement of GAA from the kidney to the liver. We studied the renal production of this metabolite in both rats and humans. In control rats, [GAA] was 5.9 \u03bcM in arterial plasma and 10.9 \u03bcM in renal venous plasma for a renal arteriovenous (A-V) difference of \u22125.0 \u03bcM. In the rat, infusion of arginine or citrulline markedly increased renal GAA production but infusion of glycine did not. Rats fed 0.4% creatine in their diet had decreased renal AGAT activity and mRNA, an arterial plasma [GAA] of 1.5 \u03bcM, and a decreased renal A-V difference for GAA of \u22120.9 \u03bcM. In humans, [GAA] was 2.4 \u03bcM in arterial plasma, with a renal A-V difference of \u22121.1 \u03bcM. These studies show, for the first time, that GAA is produced by both rat and human kidneys in vivo.</jats:p>",
+  "DOI": "10.1152/ajprenal.00356.2007",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2007,
+        10,
+        10
+      ]
+    ],
+    "date-time": "2007-10-10T20:54:07Z",
+    "timestamp": 1192049647000
+  },
+  "page": "F1799-F1804",
+  "source": "Crossref",
+  "is-referenced-by-count": 105,
+  "title": [
+    "Creatine synthesis: production of guanidinoacetate by the rat and human kidney in vivo"
+  ],
+  "prefix": "10.1152",
+  "volume": "293",
+  "author": [
+    {
+      "given": "Erica E.",
+      "family": "Edison",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Margaret E.",
+      "family": "Brosnan",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Christian",
+      "family": "Meyer",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "John T.",
+      "family": "Brosnan",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "24",
+  "reference": [
+    {
+      "key": "R1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.ymgme.2004.04.009"
+    },
+    {
+      "key": "R2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0378-4347(00)85133-6"
+    },
+    {
+      "key": "R3",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bloch K\n                      , Schoenheimer R.\n                      Studies in protein metabolism. XI. The metabolic relation of creatine and creatinine studied with isotopic nitrogen.\n                      J Biol Chem\n                      131\n                      : 111\u2013119, 1939.",
+      "DOI": "10.1016/S0021-9258(18)73484-4"
+    },
+    {
+      "key": "R4",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Borsook H\n                      , Dubnoff JW.\n                      The formation of glycocyamine in animal tissues.\n                      J Biol Chem\n                      138\n                      : 389\u2013403, 1941.",
+      "DOI": "10.1016/S0021-9258(18)51446-0"
+    },
+    {
+      "key": "R5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1152/ajpendo.1983.244.2.E151"
+    },
+    {
+      "key": "R6",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0378-4347(01)00052-4"
+    },
+    {
+      "key": "R7",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Chomczynski P\n                      , Sacchi N.\n                      Single-step method of RNA isolation by acid guanidinium thiocyanate-phenol-chloroform extraction.\n                      Anal Biochem\n                      162\n                      : 156\u2013159, 1987.",
+      "DOI": "10.1016/0003-2697(87)90021-2"
+    },
+    {
+      "key": "R8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1152/japplphysiol.00206.2004"
+    },
+    {
+      "key": "R9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1152/ajpendo.1990.259.3.E437"
+    },
+    {
+      "key": "R10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1042/bj2820369"
+    },
+    {
+      "key": "R11",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Horner WH\n                      .\n                      Transamidination in the nephrectomized rat.\n                      J Biol Chem\n                      234\n                      : 2386\u20132387, 1959.",
+      "DOI": "10.1016/S0021-9258(18)69820-5"
+    },
+    {
+      "key": "R12",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Lowry O\n                      , Passonneau J.\n                      A Flexible System of Enzymatic Analysis.\n                      New York: Academic, 1972, p. 158\u2013159.",
+      "DOI": "10.1016/B978-0-12-457950-7.50011-5"
+    },
+    {
+      "key": "R13",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/34.4.3512696"
+    },
+    {
+      "key": "R14",
+      "unstructured": "McGuire DM\n                      , Gross MD, Van Pilsum JF, Towle HC.\n                      Repression of rat kidney\n                      l\n                      -arginine:glycine amidinotransferase synthesis by creatine at a pretranslational level.\n                      J Biol Chem\n                      259\n                      : 12034\u201312038, 1984."
+    },
+    {
+      "key": "R15",
+      "unstructured": "McGuire DM\n                      , Tormanen CD, Segal IS, Van Pilsum JF.\n                      The effect of growth hormone and thyroxine on the amount of\n                      l\n                      -arginine:glycine amidinotransferase in kidneys of hypophysectomized rats. Purification and some properties of rat kidney transamidinase.\n                      J Biol Chem\n                      255\n                      : 1152\u20131159, 1980."
+    },
+    {
+      "key": "R16",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1152/ajpendo.00116.2001"
+    },
+    {
+      "key": "R17",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/jn/123.11.1939"
+    },
+    {
+      "key": "R18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0005-2728(96)00011-4"
+    },
+    {
+      "key": "R19",
+      "unstructured": "Sandberg AA\n                      , Hecht HH, Tyler FH.\n                      Studies in disorders of muscle X. The site of creatine synthesis in the human.\n                      Metabolism\n                      2\n                      : 22\u201329, 1953."
+    },
+    {
+      "key": "R20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1152/ajpendo.2001.281.5.E1095"
+    },
+    {
+      "key": "R21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/ajcn/83.1.5"
+    },
+    {
+      "key": "R22",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Takeda M\n                      , Kiyatake I, Koide H, Jung KY, Endou H.\n                      Biosynthesis of guanidinoacetic acid in isolated renal tubules.\n                      Eur J Clin Chem Clin Biochem\n                      30\n                      : 325\u2013331, 1992.",
+      "DOI": "10.1515/cclm.1992.30.6.325"
+    },
+    {
+      "key": "R23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1093/jn/101.8.1085"
+    },
+    {
+      "key": "R24",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1042/bj1260325"
+    },
+    {
+      "key": "R25",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/0003-2697(70)90035-7"
+    },
+    {
+      "key": "R26",
+      "unstructured": "Walker JB\n                      .\n                      Creatine: biosynthesis, regulation, function.\n                      Adv Enzymol Relat Areas Mol Biol\n                      50\n                      : 177\u2013242, 1979."
+    },
+    {
+      "key": "R27",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1042/bj2810021"
+    },
+    {
+      "key": "R28",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1152/physrev.2000.80.3.1107"
+    }
+  ],
+  "container-title": [
+    "American Journal of Physiology-Renal Physiology"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.physiology.org/doi/pdf/10.1152/ajprenal.00356.2007",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2021,
+        8,
+        25
+      ]
+    ],
+    "date-time": "2021-08-25T13:00:32Z",
+    "timestamp": 1629896432000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.physiology.org/doi/10.1152/ajprenal.00356.2007"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2007,
+        12
+      ]
+    ]
+  },
+  "references-count": 28,
+  "journal-issue": {
+    "issue": "6",
+    "published-print": {
+      "date-parts": [
+        [
+          2007,
+          12
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1152/ajprenal.00356.2007"
+  ],
+  "URL": "https://doi.org/10.1152/ajprenal.00356.2007",
+  "relation": {},
+  "ISSN": [
+    "1931-857X",
+    "1522-1466"
+  ],
+  "issn-type": [
+    {
+      "value": "1931-857X",
+      "type": "print"
+    },
+    {
+      "value": "1522-1466",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2007,
+        12
+      ]
+    ]
+  }
+}

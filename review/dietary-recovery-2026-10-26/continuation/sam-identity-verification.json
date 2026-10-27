@@ -1,0 +1,21 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 34755,
+        "InChIKey": "MEFKEPWMEQBLKI-AIRLBKTGSA-N",
+        "IUPACName": "(2S)-2-amino-4-[[(2S,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl-methylsulfonio]butanoate"
+      },
+      {
+        "CID": 34756,
+        "InChIKey": "MEFKEPWMEQBLKI-AIRLBKTGSA-O",
+        "IUPACName": "[(3S)-3-amino-3-carboxypropyl]-[[(2S,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl]-methylsulfanium"
+      },
+      {
+        "CID": 24762165,
+        "InChIKey": "MEFKEPWMEQBLKI-AIRLBKTGSA-O",
+        "IUPACName": "(2S)-4-[[(2S,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl-methylsulfonio]-2-azaniumylbutanoate"
+      }
+    ]
+  }
+}

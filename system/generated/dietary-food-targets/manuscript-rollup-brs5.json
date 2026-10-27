@@ -2353,19 +2353,32 @@
       "ontology_connections": {
         "identity": "resolved",
         "conversion": "not-applicable",
-        "food": "unresolved"
+        "food": "supported"
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
-      "food_target": null,
-      "food_title": null,
-      "food_material": null,
+      "food_target": "beef",
+      "food_title": "Beef",
+      "food_material": "Beef protein fractions",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
       "ontology_relationship_status": null,
       "reconciled_sources": [],
-      "mapping_status": "unresolved",
-      "food_evidence": null,
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/beef.md#substance_relationships/Glutamine",
+          "evidence": "Lenders et al. (2009), Table 1: protein-sequence-based occurrence.",
+          "source_url": "https://doi.org/10.1038/ejcn.2009.110",
+          "source_reference": null,
+          "citation_keys": [
+            "lenders_amino_acid_sequencing_2009"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "supported-qualitative",
+          "limitations": "Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred."
+        }
+      ],
       "pm_evidence": {
         "finding_ids": [
           "PM1-F6",
@@ -2378,8 +2391,124 @@
           "li_glutamine_junction_pi3k_2009"
         ]
       },
-      "preparation": null,
-      "delivery": null,
+      "preparation": "form not known",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Glutamine is supplied substantially from endogenous and systemic pools and becomes conditionally indispensable under stress; adult supplementation trials show no overall permeability benefit, so dietary protein or glutamine provision is not established as a general PM1 lever. A separate postinfectious IBS trial supports a selected supplementation response; this does not establish general need. The new Capacity assessment admits supply to junction-supporting cellular capacity, without asserting universal dietary limitation, benefit from extra intake, or equivalence to the supplemental exposure."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Glutamine",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "glutamine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "eggs",
+      "food_title": "Eggs",
+      "food_material": "Whole egg protein fractions",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/eggs.md#substance_relationships/Glutamine",
+          "evidence": "Lenders et al. (2009), Table 1: protein-sequence-based occurrence.",
+          "source_url": "https://doi.org/10.1038/ejcn.2009.110",
+          "source_reference": null,
+          "citation_keys": [
+            "lenders_amino_acid_sequencing_2009"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "supported-qualitative",
+          "limitations": "Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F6",
+          "PM1-F11"
+        ],
+        "citation_keys": [
+          "rao_role_2012",
+          "abbasi_systematic_2024",
+          "zhou_glutamine_piibs_2019",
+          "li_glutamine_junction_pi3k_2009"
+        ]
+      },
+      "preparation": "form not known",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Glutamine is supplied substantially from endogenous and systemic pools and becomes conditionally indispensable under stress; adult supplementation trials show no overall permeability benefit, so dietary protein or glutamine provision is not established as a general PM1 lever. A separate postinfectious IBS trial supports a selected supplementation response; this does not establish general need. The new Capacity assessment admits supply to junction-supporting cellular capacity, without asserting universal dietary limitation, benefit from extra intake, or equivalence to the supplemental exposure."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Glutamine",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "glutamine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "tofu",
+      "food_title": "Tofu",
+      "food_material": "Soy protein in tofu",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/tofu.md#substance_relationships/Glutamine",
+          "evidence": "Lenders et al. (2009), Table 1: protein-sequence-based occurrence.",
+          "source_url": "https://doi.org/10.1038/ejcn.2009.110",
+          "source_reference": null,
+          "citation_keys": [
+            "lenders_amino_acid_sequencing_2009"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "supported-qualitative",
+          "limitations": "Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F6",
+          "PM1-F11"
+        ],
+        "citation_keys": [
+          "rao_role_2012",
+          "abbasi_systematic_2024",
+          "zhou_glutamine_piibs_2019",
+          "li_glutamine_junction_pi3k_2009"
+        ]
+      },
+      "preparation": "form not known",
+      "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
         "Glutamine is supplied substantially from endogenous and systemic pools and becomes conditionally indispensable under stress; adult supplementation trials show no overall permeability benefit, so dietary protein or glutamine provision is not established as a general PM1 lever. A separate postinfectious IBS trial supports a selected supplementation response; this does not establish general need. The new Capacity assessment admits supply to junction-supporting cellular capacity, without asserting universal dietary limitation, benefit from extra intake, or equivalence to the supplemental exposure."
@@ -2645,19 +2774,32 @@
       "ontology_connections": {
         "identity": "resolved",
         "conversion": "not-applicable",
-        "food": "unresolved"
+        "food": "supported"
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": null,
-      "food_title": null,
-      "food_material": null,
+      "food_target": "peas",
+      "food_title": "Peas",
+      "food_material": "Developing Pisum sativum cotyledon cell walls",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
       "ontology_relationship_status": null,
       "reconciled_sources": [],
-      "mapping_status": "unresolved",
-      "food_evidence": null,
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/peas.md#substance_relationships/Arabinan",
+          "evidence": "Immunolocalization detected pectic (1→5)-alpha-L-arabinan in pea cotyledon cell walls throughout development (McCartney et al., 2000).",
+          "source_url": "https://doi.org/10.1046/j.1365-313x.2000.00719.x",
+          "source_reference": null,
+          "citation_keys": [
+            "mccartney_pea_pectic_arabinan_2000"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "supported-qualitative",
+          "limitations": "Qualitative occurrence in native pea pectin. No as-eaten amount or cooking retention was established; this is not a dose-equivalent substitute for the experimental isolated pea-fibre preparation."
+        }
+      ],
       "pm_evidence": {
         "finding_ids": [
           "PM4-F1"
@@ -2666,8 +2808,8 @@
           "patnode_interspecies_2019"
         ]
       },
-      "preparation": null,
-      "delivery": null,
+      "preparation": "raw cotyledons",
+      "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
         "Defined human-derived communities in mice; the food matrix and competitors affect access. No universal human response, optimal dose or host benefit is established."
@@ -3012,6 +3154,59 @@
       "conversion_pathway": [],
       "limitations": [
         "Cultures and one donor’s faecal rescue do not establish oral R. bromii efficacy, uniform human processing, equivalence to RS4 or clinical benefit."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM4",
+      "biological_mechanism": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "dietary_input": "Inulin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "inulin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "asparagus",
+      "food_title": "Asparagus",
+      "food_material": "Green asparagus edible spear, var. Herkolim",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/asparagus.md#substance_relationships/Inulin",
+          "evidence": "Redondo-Cuenca et al., Food Research International 2023",
+          "source_url": "https://doi.org/10.1016/j.foodres.2022.112284",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Dry matter only. Not a fresh-weight serving, not oligofructose, not fructo-oligosaccharides, and not galacto-oligosaccharides. Root inulin is a different material."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F4"
+        ],
+        "citation_keys": [
+          "sonnenburg_fructan_specificity_2010",
+          "long_chain_inulin_elderly_2020"
+        ]
+      },
+      "preparation": "Lyophilized edible spear; hot-water extract. Root excluded.",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Utilisation genes, chain length, alternative substrates and resident organisms constrain the response. A supplied inulin substrate is not an indispensable intake, a guaranteed abundance shift, butyrate yield, mucus effect or clinical benefit."
       ],
       "missing_ontology_edge": null
     },
@@ -3476,6 +3671,58 @@
     {
       "brs": "BRS5",
       "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Inulin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "inulin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "asparagus",
+      "food_title": "Asparagus",
+      "food_material": "Green asparagus edible spear, var. Herkolim",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/asparagus.md#substance_relationships/Inulin",
+          "evidence": "Redondo-Cuenca et al., Food Research International 2023",
+          "source_url": "https://doi.org/10.1016/j.foodres.2022.112284",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Dry matter only. Not a fresh-weight serving, not oligofructose, not fructo-oligosaccharides, and not galacto-oligosaccharides. Root inulin is a different material."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F3"
+        ],
+        "citation_keys": [
+          "duncan_acetate_butyrate_2004"
+        ]
+      },
+      "preparation": "Lyophilized edible spear; hot-water extract. Root excluded.",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Culture conditions and community composition constrain production. Human inulin tracer estimates depend on assumed systemic availability; the human chicory-inulin trial did not significantly increase faecal butyrate. No fixed food yield, intake target or brain benefit is established."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
       "pm": "BRS5-FM2-PM6",
       "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
       "dietary_input": "Ellagic acid",
@@ -3490,21 +3737,25 @@
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "pomegranates",
-      "food_title": "Pomegranate (studied commercial juice)",
-      "food_material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
-      "material_equivalence_status": "not-applicable",
+      "food_title": "Pomegranates",
+      "food_material": "Commercial single-strength pomegranate juice",
+      "material_equivalence_status": null,
       "material_equivalence_reason": null,
-      "ontology_relationship_status": "missing-context-edge",
+      "ontology_relationship_status": null,
       "reconciled_sources": [],
-      "mapping_status": "research-supported-provisional",
-      "food_evidence": {
-        "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
-        "sources": [
-          "https://doi.org/10.1038/s41430-021-00950-1"
-        ],
-        "retrieved": "2026-10-23",
-        "kind": "primary-food-composition"
-      },
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/pomegranates.md#substance_relationships/Ellagic%20acid",
+          "evidence": "Gil et al., Journal of Agricultural and Food Chemistry 2000",
+          "source_url": "https://doi.org/10.1021/jf000404a",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "One commercial juice sample. Not aril-pressed juice, not whole-fruit flesh, and not an ellagitannin or urolithin amount."
+        }
+      ],
       "pm_evidence": {
         "finding_ids": [
           "PM6-F1"
@@ -3514,14 +3765,65 @@
           "singh_direct_2022"
         ]
       },
-      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "preparation": "Commercial single-strength juice; not aril-only juice",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
-        "Conversion depends on microbial community and may stop at intermediates. This does not imply universal conversion, increased mitochondrial function or benefit.",
-        "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred."
+        "Conversion depends on microbial community and may stop at intermediates. This does not imply universal conversion, increased mitochondrial function or benefit."
       ],
-      "missing_ontology_edge": "pomegranates → ellagic-acid [Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.; Chilled commercial juice; not whole-fruit or other-product equivalence]"
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM6",
+      "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "dietary_input": "Ellagitannins",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "ellagitannins",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "pomegranates",
+      "food_title": "Pomegranates",
+      "food_material": "Commercial single-strength pomegranate juice",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/pomegranates.md#substance_relationships/Ellagitannins",
+          "evidence": "Gil et al., Journal of Agricultural and Food Chemistry 2000",
+          "source_url": "https://doi.org/10.1021/jf000404a",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "Gallagyl-type tannins, not the sum of every ellagitannin and not free ellagic acid. Not an aril or whole-fruit flesh value."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F1"
+        ],
+        "citation_keys": [
+          "singh_direct_2022"
+        ]
+      },
+      "preparation": "Commercial single-strength juice; gallagyl-type tannins, not every ellagitannin",
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies."
+      ],
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS5",
@@ -3571,7 +3873,7 @@
           "citation_keys": [],
           "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
-          "limitations": "Assay-specific extraction. This is not an amount and not a urolithin A exposure."
+          "limitations": "Assay-specific extraction of kernels. Peeled kernel without the pellicle is a different material. This is not an amount, not free ellagic acid, and not a urolithin A exposure."
         },
         {
           "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
@@ -3603,49 +3905,400 @@
       "fm": "BRS5(FM2)",
       "pm": "BRS5-FM2-PM6",
       "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
-      "dietary_input": "Ellagitannins",
+      "dietary_input": "Epicatechin",
       "type": "A",
-      "classification": "derived",
-      "canonical_substance_id": "ellagitannins",
+      "classification": "direct",
+      "canonical_substance_id": "epicatechin",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "not-applicable",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "pomegranates",
-      "food_title": "Pomegranate (studied commercial juice)",
-      "food_material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
-      "material_equivalence_status": "not-applicable",
+      "admission_basis": "versioned-assessment",
+      "food_target": "cacao-nibs-raw",
+      "food_title": "Cacao Nibs (Raw)",
+      "food_material": "cocoa beans and cocoa products",
+      "material_equivalence_status": null,
       "material_equivalence_reason": null,
-      "ontology_relationship_status": "missing-context-edge",
+      "ontology_relationship_status": null,
       "reconciled_sources": [],
-      "mapping_status": "research-supported-provisional",
-      "food_evidence": {
-        "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
-        "sources": [
-          "https://doi.org/10.1038/s41430-021-00950-1"
-        ],
-        "retrieved": "2026-10-23",
-        "kind": "primary-food-composition"
-      },
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/cacao-nibs-raw.md#substance_relationships/Epicatechin",
+          "evidence": "Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+          "source_reference": "#food-source-4",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Occurs in cocoa; content varies with processing and the cocoa proportion."
+        }
+      ],
       "pm_evidence": {
         "finding_ids": [
-          "PM6-F1"
+          "PM6-F3"
         ],
         "citation_keys": [
-          "singh_direct_2022"
+          "liu_epicatechin_conversion_2020"
         ]
       },
-      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
-      "delivery": "precursor-source",
+      "preparation": null,
+      "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
-        "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies.",
-        "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred."
+        "Donor cultures do not establish a predictable whole-food conversion yield, mitochondrial effect or clinical benefit. Human apple-extract evidence involves mixed monomeric catechins, not isolated epicatechin efficacy. Do not generalise to EGCG or all procyanidins."
       ],
-      "missing_ontology_edge": "pomegranates → ellagitannins [Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.; Chilled commercial juice; not whole-fruit or other-product equivalence]"
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM6",
+      "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "dietary_input": "Epicatechin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "epicatechin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "cacao-powder",
+      "food_title": "Cacao Powder",
+      "food_material": "cocoa beans and cocoa products",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/cacao-powder.md#substance_relationships/Epicatechin",
+          "evidence": "Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+          "source_reference": "#food-source-7",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Occurs in cocoa; content varies with processing and the cocoa proportion."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F3"
+        ],
+        "citation_keys": [
+          "liu_epicatechin_conversion_2020"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Donor cultures do not establish a predictable whole-food conversion yield, mitochondrial effect or clinical benefit. Human apple-extract evidence involves mixed monomeric catechins, not isolated epicatechin efficacy. Do not generalise to EGCG or all procyanidins."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM6",
+      "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "dietary_input": "Epicatechin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "epicatechin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "cocoa",
+      "food_title": "Cocoa",
+      "food_material": "cocoa beans and cocoa products",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/cocoa.md#substance_relationships/Epicatechin",
+          "evidence": "Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+          "source_reference": "#food-source-7",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Occurs in cocoa; content varies with processing and the cocoa proportion."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F3"
+        ],
+        "citation_keys": [
+          "liu_epicatechin_conversion_2020"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Donor cultures do not establish a predictable whole-food conversion yield, mitochondrial effect or clinical benefit. Human apple-extract evidence involves mixed monomeric catechins, not isolated epicatechin efficacy. Do not generalise to EGCG or all procyanidins."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM6",
+      "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "dietary_input": "Epicatechin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "epicatechin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "dark-chocolate",
+      "food_title": "Dark Chocolate",
+      "food_material": "cocoa beans and cocoa products",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/dark-chocolate.md#substance_relationships/Epicatechin",
+          "evidence": "Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+          "source_reference": "#food-source-5",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Occurs in cocoa; content varies with processing and the cocoa proportion."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F3"
+        ],
+        "citation_keys": [
+          "liu_epicatechin_conversion_2020"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Donor cultures do not establish a predictable whole-food conversion yield, mitochondrial effect or clinical benefit. Human apple-extract evidence involves mixed monomeric catechins, not isolated epicatechin efficacy. Do not generalise to EGCG or all procyanidins."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM6",
+      "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "dietary_input": "Epicatechin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "epicatechin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "cacao-powder",
+      "food_title": "Cacao Powder",
+      "food_material": "Cocoa, dry powder, unsweetened",
+      "material_equivalence_status": "review-required",
+      "material_equivalence_reason": "Material, brand/fortification, cultivar or analytical-sample equivalence is not established by the recorded provenance.",
+      "ontology_relationship_status": "material-equivalence-review",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "key": "epicatechin_mg",
+          "label": "Epicatechin",
+          "notes": "Dominant monomeric flavanol in minimally processed cacao powder; much lower in Dutch-processed cocoa.",
+          "source_note": "Phenol-Explorer natural cocoa powder range for (-)-epicatechin: ~52–340 mg/100 g (mean ~196 mg/100 g); values fall sharply with roasting and alkalisation.",
+          "public_note": "Phenol-Explorer natural cocoa powder range for (-)-epicatechin: ~52–340 mg/100 g (mean ~196 mg/100 g); values fall sharply with roasting and alkalisation.",
+          "source_group": "estimate-epicatechin_mg",
+          "status": "Present — quantity not established",
+          "public_display": "table",
+          "omit_substance_card": false,
+          "evidence_status": "supported",
+          "presence_status": "presence_supported_amount_unavailable",
+          "amount_display": "196 mg (estimate)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+          "value": 196,
+          "unit": "mg",
+          "quantity_citation_pending": true,
+          "source_reference": "#food-source-7",
+          "record": "docs/foods/cacao-powder.md#nutrition_supplementary_sources/epicatechin_mg",
+          "evidence": "Phenol-Explorer natural cocoa powder range for (-)-epicatechin: ~52–340 mg/100 g (mean ~196 mg/100 g); values fall sharply with roasting and alkalisation.",
+          "limitations": "Dominant monomeric flavanol in minimally processed cacao powder; much lower in Dutch-processed cocoa."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F3"
+        ],
+        "citation_keys": [
+          "liu_epicatechin_conversion_2020"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Donor cultures do not establish a predictable whole-food conversion yield, mitochondrial effect or clinical benefit. Human apple-extract evidence involves mixed monomeric catechins, not isolated epicatechin efficacy. Do not generalise to EGCG or all procyanidins."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM6",
+      "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "dietary_input": "Epicatechin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "epicatechin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "cocoa",
+      "food_title": "Cocoa",
+      "food_material": "Cocoa, dry powder, unsweetened",
+      "material_equivalence_status": "review-required",
+      "material_equivalence_reason": "Material, brand/fortification, cultivar or analytical-sample equivalence is not established by the recorded provenance.",
+      "ontology_relationship_status": "material-equivalence-review",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "key": "epicatechin_mg",
+          "label": "Epicatechin",
+          "notes": "Lower than minimally processed cacao powder; roasting and alkalisation reduce monomeric flavanols.",
+          "source_note": "Representative Dutch-processed cocoa powder values are substantially below natural cacao powder; flavan-3-ol losses increase with roasting and alkalisation (Paynter et al., 2011).",
+          "status": "Present — quantity not established",
+          "public_display": "table",
+          "omit_substance_card": false,
+          "evidence_status": "supported",
+          "presence_status": "presence_supported_amount_unavailable",
+          "amount_display": "34 mg (estimate)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+          "source_group": "estimate-epicatechin_mg",
+          "public_note": "Representative Dutch-processed cocoa powder values are substantially below natural cacao powder; flavan-3-ol losses increase with roasting and alkalisation (Paynter et al., 2011).",
+          "value": 34,
+          "unit": "mg",
+          "quantity_citation_pending": true,
+          "source_reference": "#food-source-7",
+          "record": "docs/foods/cocoa.md#nutrition_supplementary_sources/epicatechin_mg",
+          "evidence": "Representative Dutch-processed cocoa powder values are substantially below natural cacao powder; flavan-3-ol losses increase with roasting and alkalisation (Paynter et al., 2011).",
+          "limitations": "Lower than minimally processed cacao powder; roasting and alkalisation reduce monomeric flavanols."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F3"
+        ],
+        "citation_keys": [
+          "liu_epicatechin_conversion_2020"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Donor cultures do not establish a predictable whole-food conversion yield, mitochondrial effect or clinical benefit. Human apple-extract evidence involves mixed monomeric catechins, not isolated epicatechin efficacy. Do not generalise to EGCG or all procyanidins."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM6",
+      "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "dietary_input": "Epicatechin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "epicatechin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "dark-chocolate",
+      "food_title": "Dark Chocolate",
+      "food_material": "Chocolate, dark, 70-85% cacao solids",
+      "material_equivalence_status": "review-required",
+      "material_equivalence_reason": "Material, brand/fortification, cultivar or analytical-sample equivalence is not established by the recorded provenance.",
+      "ontology_relationship_status": "material-equivalence-review",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "key": "epicatechin_mg",
+          "label": "Epicatechin",
+          "notes": "Often the dominant monomeric cocoa flavanol in dark chocolate.",
+          "source_note": "Phenol-Explorer dark-chocolate range for (-)-epicatechin: 32.7–125.0 mg/100 g (mean ~70.4 mg/100 g).",
+          "public_note": "Phenol-Explorer dark-chocolate range for (-)-epicatechin: 32.7–125.0 mg/100 g (mean ~70.4 mg/100 g).",
+          "source_group": "estimate-epicatechin_mg",
+          "status": "Present — quantity not established",
+          "public_display": "table",
+          "omit_substance_card": false,
+          "evidence_status": "supported",
+          "presence_status": "presence_supported_amount_unavailable",
+          "amount_display": "70.4 mg (estimate)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+          "value": 70.4,
+          "unit": "mg",
+          "quantity_citation_pending": true,
+          "source_reference": "#food-source-5",
+          "record": "docs/foods/dark-chocolate.md#nutrition_supplementary_sources/epicatechin_mg",
+          "evidence": "Phenol-Explorer dark-chocolate range for (-)-epicatechin: 32.7–125.0 mg/100 g (mean ~70.4 mg/100 g).",
+          "limitations": "Often the dominant monomeric cocoa flavanol in dark chocolate."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F3"
+        ],
+        "citation_keys": [
+          "liu_epicatechin_conversion_2020"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Donor cultures do not establish a predictable whole-food conversion yield, mitochondrial effect or clinical benefit. Human apple-extract evidence involves mixed monomeric catechins, not isolated epicatechin efficacy. Do not generalise to EGCG or all procyanidins."
+      ],
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS5",
@@ -3701,19 +4354,32 @@
       "ontology_connections": {
         "identity": "resolved",
         "conversion": "not-applicable",
-        "food": "unresolved"
+        "food": "supported"
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": null,
-      "food_title": null,
-      "food_material": null,
+      "food_target": "bananas",
+      "food_title": "Bananas",
+      "food_material": "Bananas, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
       "ontology_relationship_status": null,
       "reconciled_sources": [],
-      "mapping_status": "unresolved",
-      "food_evidence": null,
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/bananas.md#substance_relationships/Glucose",
+          "evidence": "USDA SR Legacy nutrient 1011 reports glucose separately from fructose, sucrose, total sugars and carbohydrate.",
+          "source_url": "https://fdc.nal.usda.gov/food-details/173944/nutrients",
+          "source_reference": null,
+          "citation_keys": [
+            "usda_sr_foodless_targets_2018"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "supported-qualitative",
+          "limitations": "Composition only; ripeness, cultivar and product vary. Not evidence that ordinary portions reproduce an experimental intestinal glucose stimulus."
+        }
+      ],
       "pm_evidence": {
         "finding_ids": [
           "PM7-F2"
@@ -3722,8 +4388,62 @@
           "kaelberer_nutrient_neural_circuit_2018"
         ]
       },
-      "preparation": null,
-      "delivery": null,
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Experimental neural response is not an optimal intake, an inadequacy threshold or benefit from more sugar."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Glucose",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "glucose",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "grapes",
+      "food_title": "Grapes",
+      "food_material": "Grapes, red or green (European type, such as Thompson seedless), raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/grapes.md#substance_relationships/Glucose",
+          "evidence": "USDA SR Legacy nutrient 1011 reports glucose separately from fructose, sucrose, total sugars and carbohydrate.",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174683/nutrients",
+          "source_reference": null,
+          "citation_keys": [
+            "usda_sr_foodless_targets_2018"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "supported-qualitative",
+          "limitations": "Composition only; ripeness, cultivar and product vary. Not evidence that ordinary portions reproduce an experimental intestinal glucose stimulus."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F2"
+        ],
+        "citation_keys": [
+          "kaelberer_nutrient_neural_circuit_2018"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
         "Experimental neural response is not an optimal intake, an inadequacy threshold or benefit from more sugar."

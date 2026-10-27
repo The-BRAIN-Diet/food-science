@@ -1,3 +1,5 @@
+import {isScientificPrinciple,scientificPrincipleLabel,findingEvidenceHref} from '../../src/lib/scientificPrinciples.mjs';
+import {dietaryConfidenceFor} from '../../src/lib/dietaryConfidence.mjs';
 /**
  * Reader-facing dietary lever disclosure payloads (no governance fields).
  * @see system/dietary-input-traceability-contract.md §7
@@ -66,7 +68,7 @@ function supportingFindingLink(data, findingId) {
   if (!finding) return null;
   const label = String(finding.finding_label || "").trim();
   if (!label) return null;
-  return { id, label: findingReaderLabel(finding), href: `#${id.toLowerCase()}` };
+  return { id, label: isScientificPrinciple(data, id) ? scientificPrincipleLabel(finding, data) : findingReaderLabel(finding), href: findingEvidenceHref(data, id) };
 }
 
 function evidenceSourceReferences(data, evidenceSource, { directHref = false } = {}) {
@@ -108,6 +110,7 @@ export function buildDietaryLeverDisclosureMap(data) {
     );
     const disclosure = {
       atomId: String(pres.atom_id || ""),
+      dietaryConfidence: dietaryConfidenceFor(data, pres.atom_id),
       title: resolved.input,
       identityStatus: (data.dietary_input_traceability || []).find(row => String(row.atom_id) === String(pres.atom_id))?.canonical_identity?.status,
       inputHref: (() => {

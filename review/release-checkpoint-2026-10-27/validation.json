@@ -1,0 +1,84 @@
+{
+  "branch": "codex/dietary-recovery-canonical-release-2026-10-27",
+  "base": "b43d219181e33e7fa9ec6d381e5fe10a33e1f1c8",
+  "scope": "Accumulated reviewed dietary recovery, Cross-BRS integration, food composition, evidence presentation and Stage 2A/2B governance changes; no merge or production deployment.",
+  "focused_tests": {
+    "passed": 208,
+    "failed": 0,
+    "skipped": 0,
+    "files": [
+      "cross-brs-dietary-recovery",
+      "dietary-input-governance-v2",
+      "dietary-lever-traceability",
+      "dietary-pathway-activation",
+      "dietary-recovery",
+      "food-target-reconciliation",
+      "input-substance-food",
+      "sec-assessment-integration",
+      "sec-canonical-integration",
+      "pm8-section4-restoration"
+    ]
+  },
+  "additional_tests": {
+    "passed": 64,
+    "failed": 2,
+    "files": [
+      "foodless-target-resolution",
+      "substance-page-schema",
+      "pm-lever-layout",
+      "pm8-full-stage2ab",
+      "pm8-dietary-recovery",
+      "framework-qc"
+    ],
+    "failures": [
+      {
+        "test": "all protected PM, KC and SEC files remain byte-for-byte unchanged",
+        "file": "scripts/foodless-target-resolution.test.mjs",
+        "detail": "Earlier foodless-recovery fixture pins PM8 before the subsequently approved Section 4 presentation restoration. The historical hash was not rewritten."
+      },
+      {
+        "test": "PM open issues stay page-specific and off the framework register",
+        "file": "scripts/framework-qc.test.mjs",
+        "detail": "PM6-OI-9 references FW004, which is not in Review & Corrections. Existing governance-reference mismatch; not changed in release packaging."
+      }
+    ]
+  },
+  "findings_check": {
+    "pms": 64,
+    "problems": 0
+  },
+  "admission_check": {
+    "pms": 64,
+    "issues": []
+  },
+  "sec": {
+    "snapshots": 98,
+    "validation": "pass",
+    "registry_sha256": "d0b297bbef6f3c0041663fa0cc481d9ada17a8d9b3691a8bcabedb4329220afe",
+    "unchanged_from_main": true
+  },
+  "production_build": {
+    "result": "pass",
+    "command": "DOCUSAURUS_NO_PERSISTENT_CACHE=1 SEC_BASE_REF=ebbc10ed11484192c972952d8c47645bd3c5bf4e NODE_OPTIONS=--max-old-space-size=4096 TERSER_PARALLEL=1 npm run build -- --out-dir /tmp/brain-food-value-preview.vob5e6",
+    "log_local": "/tmp/food-value-wording-build.log",
+    "qualification": "Latest full production build includes food wording and PM presentation changes. Subsequent release packaging changes affect only Git guard, fixture loading/compression and this audit record. Existing tag/anchor warnings remain."
+  },
+  "historical_broader_sec_suite": "review/sec-fixture-repair-2026-10-26/broader-suite-comparison.json records the prior broader-suite failures; the six targeted integration-fixture failures are repaired. Do not interpret the focused pass as a clean repository-wide test run.",
+  "packaging": {
+    "file_size_guard": "Default 1 MiB; exact bibliography and BRS1 roll-up paths allowed up to 2 MiB. Four guard boundary tests pass.",
+    "preservation_fixture": "Losslessly gzip-compressed SEC baseline; test uses existing readReviewJson helper.",
+    "local_only": "Build/test logs and downloaded PDF/XML paper copies remain on disk and are excluded from Git."
+  },
+  "instruction_updates": [
+    "system/scientific-finding-schema.md",
+    "system/dietary-input-traceability-contract.md",
+    "system/dietary-input-governance-v2.md",
+    "system/primary-mechanism-schema.md",
+    "system/templates/primary-mechanism-template.mdx",
+    "system/pm-evidence-tabs-contract.md",
+    "system/input-substance-food-mapping.md",
+    "system/food-nutrition-schema.md",
+    "system/substance-page-schema.md",
+    "AGENTS.md"
+  ]
+}

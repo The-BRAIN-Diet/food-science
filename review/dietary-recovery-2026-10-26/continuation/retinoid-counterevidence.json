@@ -1,0 +1,405 @@
+{
+  "id": "11562477",
+  "source": "MED",
+  "pmid": "11562477",
+  "pmcid": "PMC58794",
+  "fullTextIdList": {
+    "fullTextId": [
+      "PMC58794"
+    ]
+  },
+  "doi": "10.1073/pnas.201301498",
+  "title": "Preservation of light signaling to the suprachiasmatic nucleus in vitamin A-deficient mice.",
+  "authorString": "Thompson CL, Blaner WS, Van Gelder RN, Lai K, Quadro L, Colantuoni V, Gottesman ME, Sancar A.",
+  "authorList": {
+    "author": [
+      {
+        "fullName": "Thompson CL",
+        "lastName": "Thompson",
+        "firstName": "C L",
+        "initials": "CL",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-1528-3237"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Biochemistry and Biophysics, University of North Carolina School of Medicine, Chapel Hill, NC 27599, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Blaner WS",
+        "lastName": "Blaner",
+        "firstName": "W S",
+        "initials": "WS"
+      },
+      {
+        "fullName": "Van Gelder RN",
+        "lastName": "Van Gelder",
+        "firstName": "R N",
+        "initials": "RN",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-5368-3659"
+        }
+      },
+      {
+        "fullName": "Lai K",
+        "lastName": "Lai",
+        "firstName": "K",
+        "initials": "K"
+      },
+      {
+        "fullName": "Quadro L",
+        "lastName": "Quadro",
+        "firstName": "L",
+        "initials": "L"
+      },
+      {
+        "fullName": "Colantuoni V",
+        "lastName": "Colantuoni",
+        "firstName": "V",
+        "initials": "V"
+      },
+      {
+        "fullName": "Gottesman ME",
+        "lastName": "Gottesman",
+        "firstName": "M E",
+        "initials": "ME"
+      },
+      {
+        "fullName": "Sancar A",
+        "lastName": "Sancar",
+        "firstName": "A",
+        "initials": "A"
+      }
+    ]
+  },
+  "authorIdList": {
+    "authorId": [
+      {
+        "type": "ORCID",
+        "value": "0000-0001-5368-3659"
+      },
+      {
+        "type": "ORCID",
+        "value": "0000-0003-1528-3237"
+      }
+    ]
+  },
+  "dataLinksTagsList": {
+    "dataLinkstag": [
+      "related_data"
+    ]
+  },
+  "journalInfo": {
+    "issue": "20",
+    "volume": "98",
+    "journalIssueId": 1011819,
+    "dateOfPublication": "2001 Sep",
+    "monthOfPublication": 9,
+    "yearOfPublication": 2001,
+    "journal": {
+      "medlineAbbreviation": "Proc Natl Acad Sci U S A",
+      "title": "Proceedings of the National Academy of Sciences of the United States of America",
+      "essn": "1091-6490",
+      "issn": "0027-8424",
+      "nlmid": "7505876",
+      "isoabbreviation": "Proc Natl Acad Sci U S A"
+    },
+    "printPublicationDate": "2001-09-01"
+  },
+  "pubYear": "2001",
+  "pageInfo": "11708-11713",
+  "abstractText": "To investigate the role of retinal-based pigments (opsins) in circadian photoreception in mice, animals mutated in plasma retinol binding protein were placed on a vitamin A-free diet and tested for photic induction of gene expression in the suprachiasmatic nucleus. After 10 months on the vitamin A-free diet, the majority of mice contained no detectable retinal in their eyes. These mice demonstrated fully intact photic signaling to the suprachiasmatic nucleus as measured by acute mPer mRNA induction in the suprachiasmatic nucleus in response to bright or dim light. The data suggest that a non-opsin pigment is the primary circadian photoreceptor in the mouse.",
+  "affiliation": "Department of Biochemistry and Biophysics, University of North Carolina School of Medicine, Chapel Hill, NC 27599, USA.",
+  "publicationStatus": "ppublish",
+  "language": "eng",
+  "pubModel": "Print-Electronic",
+  "pubTypeList": {
+    "pubType": [
+      "Comparative Study",
+      "Research Support, U.S. Gov't, P.H.S.",
+      "research-article",
+      "Research Support, U.S. Gov't, Non-P.H.S.",
+      "Journal Article"
+    ]
+  },
+  "grantsList": {
+    "grant": [
+      {
+        "agency": "NIDDK NIH HHS",
+        "acronym": "DK",
+        "grantId": "DK52444",
+        "orderIn": 0
+      },
+      {
+        "agency": "NIGMS NIH HHS",
+        "acronym": "GM",
+        "grantId": "R01 GM031082",
+        "orderIn": 0
+      },
+      {
+        "agency": "NEI NIH HHS",
+        "acronym": "EY",
+        "grantId": "EYK0800403",
+        "orderIn": 0
+      },
+      {
+        "agency": "NIGMS NIH HHS",
+        "acronym": "GM",
+        "grantId": "R37 GM031082",
+        "orderIn": 0
+      },
+      {
+        "agency": "NEI NIH HHS",
+        "acronym": "EY",
+        "grantId": "EY12858",
+        "orderIn": 0
+      },
+      {
+        "agency": "NIGMS NIH HHS",
+        "acronym": "GM",
+        "grantId": "GM31082",
+        "orderIn": 0
+      }
+    ]
+  },
+  "meshHeadingList": {
+    "meshHeading": [
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Suprachiasmatic Nucleus",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "PH",
+              "qualifierName": "physiology"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "abbreviation": "PP",
+              "qualifierName": "physiopathology"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Animals"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Mice, Inbred C57BL"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Mice"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Vitamin A Deficiency",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "Y",
+              "abbreviation": "PP",
+              "qualifierName": "physiopathology"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Retinaldehyde",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "PH",
+              "qualifierName": "physiology"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Retinol-Binding Proteins",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "DF",
+              "qualifierName": "deficiency"
+            },
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "GE",
+              "qualifierName": "genetics"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "abbreviation": "ME",
+              "qualifierName": "metabolism"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "In Situ Hybridization"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Crosses, Genetic"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Signal Transduction",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "Y",
+              "abbreviation": "PH",
+              "qualifierName": "physiology"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Circadian Rhythm",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "N",
+              "abbreviation": "PH",
+              "qualifierName": "physiology"
+            }
+          ]
+        }
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Homozygote"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Time Factors"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Reference Values"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Female"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Male"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Retinol-Binding Proteins, Plasma"
+      },
+      {
+        "majorTopic_YN": "N",
+        "descriptorName": "Photoreceptor Cells, Vertebrate",
+        "meshQualifierList": {
+          "meshQualifier": [
+            {
+              "majorTopic_YN": "Y",
+              "abbreviation": "PH",
+              "qualifierName": "physiology"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "chemicalList": {
+    "chemical": [
+      {
+        "name": "Retinol-Binding Proteins",
+        "registryNumber": "0"
+      },
+      {
+        "name": "Retinol-Binding Proteins, Plasma",
+        "registryNumber": "0"
+      },
+      {
+        "name": "Retinaldehyde",
+        "registryNumber": "RR725D715M"
+      }
+    ]
+  },
+  "subsetList": {
+    "subset": [
+      {
+        "code": "IM",
+        "name": "Index Medicus"
+      }
+    ]
+  },
+  "fullTextUrlList": {
+    "fullTextUrl": [
+      {
+        "availability": "Subscription required",
+        "availabilityCode": "S",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1073/pnas.201301498"
+      },
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "html",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC58794"
+      },
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "pdf",
+        "site": "Europe_PMC",
+        "url": "https://europepmc.org/articles/PMC58794?pdf=render"
+      },
+      {
+        "availability": "Free",
+        "availabilityCode": "F",
+        "documentStyle": "doi",
+        "site": "DOI",
+        "url": "https://doi.org/10.1073/pnas.201301498"
+      }
+    ]
+  },
+  "isOpenAccess": "N",
+  "inEPMC": "Y",
+  "inPMC": "Y",
+  "citedByCount": 52,
+  "hasReferences": "Y",
+  "hasTextMinedTerms": "Y",
+  "hasDbCrossReferences": "N",
+  "hasPDF": "Y",
+  "hasBook": "N",
+  "hasSuppl": "N",
+  "hasLabsLinks": "Y",
+  "hasData": "Y",
+  "authMan": "N",
+  "epmcAuthMan": "N",
+  "nihAuthMan": "N",
+  "hasTMAccessionNumbers": "N",
+  "dateOfCompletion": "2001-12-04",
+  "dateOfCreation": "2001-09-20",
+  "dateOfRevision": "2023-11-05",
+  "electronicPublicationDate": "2001-09-18",
+  "firstPublicationDate": "2001-09-18",
+  "firstIndexDate": "2009-12-23",
+  "fullTextReceivedDate": "2025-02-02",
+  "hasEvaluations": "N"
+}
