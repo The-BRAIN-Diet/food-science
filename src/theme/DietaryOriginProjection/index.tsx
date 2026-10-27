@@ -114,9 +114,10 @@ export default function DietaryOriginProjection({
       {projection?.directFoodContent.length ? (
         <ul className="dietary-origin-direct-foods">
           {projection.directFoodContent.map((food) => (
-            <li key={food.permalink}>
+            <li key={`${food.permalink}:${food.edge.preparation || ""}:${food.edge.quantity || ""}`}>
               <Link to={food.permalink}>{food.title}</Link>
               {food.edge.quantity ? ` — ${food.edge.quantity}${food.edge.unit ? ` ${food.edge.unit}` : ""}` : ""}
+              {food.edge.preparation ? ` (${food.edge.preparation})` : ""}
             </li>
           ))}
         </ul>
@@ -223,7 +224,7 @@ export default function DietaryOriginProjection({
                     {atom.input}
                   </span>
                 )}
-                {pathway.identityStatus !== "resolved" ? (
+                {pathway.identityStatus !== "resolved" && !pathway.foods.length ? (
                   <p className="dietary-origin-pathway__gap">
                     This substrate is not linked because its identity on this record is unresolved. No food relationship
                     is added in its place.

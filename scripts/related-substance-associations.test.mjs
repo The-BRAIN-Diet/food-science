@@ -184,3 +184,21 @@ test("one new resistant-starch food generates butyrate everywhere and FOS/GOS st
   assert.equal(dry.ranked.length, 0)
   assert.equal(dry.unranked[0].food_id, "dry")
 })
+
+test("ellagitannin foods supply related ellagic acid without an ellagic acid quantity", () => {
+  const index = buildRelatedSubstanceIndex([readFood("walnuts"), readFood("pomegranates")])
+  const related = index.filter((row) => row.related_id === "ellagic-acid")
+  assert.ok(related.some((row) => row.food_id === "walnuts" && row.intermediate_id === "ellagitannins"))
+  assert.deepEqual(
+    related.filter((row) => row.food_id === "pomegranates").map((row) => row.contained_amount?.display),
+    ["156.17 mg per 100 mL"],
+  )
+  for (const row of related) {
+    assert.equal(row.quantity, null)
+    assert.equal(row.direct_containment, false)
+    assert.equal(row.relationship, "constituent-release")
+  }
+  const direct = relatedSubstancesForFood(readFood("pomegranates").frontMatter)
+    .filter((row) => row.related_id === "urolithin-a")
+  assert.deepEqual(direct, [])
+})

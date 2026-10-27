@@ -13,8 +13,8 @@ Generated from the same authoritative records as the PM disclosures. The preview
 | [BRS5-FM1-PM2](http://localhost:3000/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Oligofructose](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/oligofructose) — oligofructose | No comparable quantified food sources | None recorded |
 | [BRS5-FM2-PM4](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Arabinan](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/arabinan) — arabinan | No comparable quantified food sources | None recorded |
 | [BRS5-FM2-PM4](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Inulin](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/inulin) — inulin | [Asparagus](http://localhost:3000/docs/foods/asparagus) — 1.3 g (per 100 g dry matter) · Lyophilized edible spear; hot-water extract. Root excluded. | None recorded |
-| [BRS5-FM2-PM6](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Ellagic acid](http://localhost:3000/docs/substances/bioactive-compounds/polyphenols/phenolic-acids/ellagic-acid) — ellagic-acid | No comparable quantified food sources | None recorded |
-| [BRS5-FM2-PM6](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Ellagitannins](http://localhost:3000/docs/substances/bioactive-compounds/polyphenols/ellagitannins) — ellagitannins | No comparable quantified food sources | [Walnuts](http://localhost:3000/docs/foods/walnuts) — Quantity not established · Walnut kernels; assay-specific extraction |
+| [BRS5-FM2-PM6](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Ellagic acid](http://localhost:3000/docs/substances/bioactive-compounds/polyphenols/phenolic-acids/ellagic-acid) — ellagic-acid | No comparable quantified food sources | [Pomegranates](http://localhost:3000/docs/foods/pomegranates) — 3.79 mg (per 100 mL) · Commercial single-strength juice; not aril-only juice |
+| [BRS5-FM2-PM6](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Ellagitannins](http://localhost:3000/docs/substances/bioactive-compounds/polyphenols/ellagitannins) — ellagitannins | No comparable quantified food sources | [Pomegranates](http://localhost:3000/docs/foods/pomegranates) — 156.17 mg (per 100 mL) · Commercial single-strength juice; gallagyl-type tannins, not every ellagitannin<br/>[Walnuts](http://localhost:3000/docs/foods/walnuts) — Quantity not established · Walnut kernels; assay-specific extraction |
 | [BRS5-FM3-PM7](http://localhost:3000/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Glucose](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/glucose) — glucose | No comparable quantified food sources | None recorded |
 | [BRS5-FM3-PM7](http://localhost:3000/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Linoleic Acid (LA, n-6)](http://localhost:3000/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-6/linoleic-acid) — linoleic-acid | [Almonds](http://localhost:3000/docs/foods/almonds) — 12.32 g (per 100 g edible portion) · preparation unknown<br/>[Amaranth](http://localhost:3000/docs/foods/amaranth) — 2.736 g (per 100 g edible portion) · uncooked<br/>[Anchovies](http://localhost:3000/docs/foods/anchovies) — 0.362 g (per 100 g edible portion) · oil<br/>[Apples](http://localhost:3000/docs/foods/apples) — 0.043 g (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 0.04 g (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 0.063 g (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 1.674 g (per 100 g edible portion) · raw<br/>[Avocado Oil](http://localhost:3000/docs/foods/avocado-oil) — 12.53 g (per 100 g edible portion) · Oil<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 0.046 g (per 100 g edible portion) · raw<br/>[Barley](http://localhost:3000/docs/foods/barley) — 0.999 g (per 100 g edible portion) · preparation unknown | None recorded |
 | [BRS5-FM3-PM8](http://localhost:3000/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Tryptophan](http://localhost:3000/docs/substances/nutrients/macronutrients/amino-acids/essential/tryptophan) — tryptophan | [Pumpkin Seeds](http://localhost:3000/docs/foods/pumpkin-seeds) — 0.576 g (per 100 g edible portion) · dried<br/>[Soy](http://localhost:3000/docs/foods/soy) — 0.591 g (per 100 g edible portion) · raw<br/>[Turkey](http://localhost:3000/docs/foods/turkey) — 0.241 g (per 100 g edible portion) · raw | None recorded |
@@ -367,24 +367,27 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 
 ## Ellagic acid — ellagic-acid
 
-No food-source mappings for this preparation.
-
-<details>
-<summary>All mapped food sources (0)</summary>
-
-No eligible dietary food list is generated. Check the PM dietary-input decision separately from sourcing coverage.
-
-</details>
-
-## Ellagitannins — ellagitannins
-
-Food sources identified; quantities not established.
+Food sources identified; no verified comparable quantities available.
 
 <details>
 <summary>All mapped food sources (1)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
+| [Pomegranates](http://localhost:3000/docs/foods/pomegranates) | Commercial single-strength pomegranate juice — Commercial single-strength juice; not aril-only juice | 3.79 mg (per 100 mL) | docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagic_acid_commercial_juice; docs/foods/pomegranates.md#substance_relationships/Ellagic%20acid; docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagic_acid_commercial_juice |
+
+</details>
+
+## Ellagitannins — ellagitannins
+
+Food sources identified; no verified comparable quantities available.
+
+<details>
+<summary>All mapped food sources (2)</summary>
+
+| Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
+| --- | --- | --- | --- |
+| [Pomegranates](http://localhost:3000/docs/foods/pomegranates) | Commercial single-strength pomegranate juice — Commercial single-strength juice; gallagyl-type tannins, not every ellagitannin | 156.17 mg (per 100 mL) | docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagitannins_commercial_juice; docs/foods/pomegranates.md#substance_relationships/Ellagitannins; docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagitannins_commercial_juice |
 | [Walnuts](http://localhost:3000/docs/foods/walnuts) | Walnut kernels — Walnut kernels; assay-specific extraction | Quantity not established | docs/foods/walnuts.md#substance_relationships/Ellagitannins |
 
 </details>

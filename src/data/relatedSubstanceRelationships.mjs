@@ -80,6 +80,23 @@ export const RELATED_SUBSTANCE_RELATIONSHIPS = [
     limitation:
       "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration.",
   },
+  {
+    id: "ellagitannins-ellagic-acid",
+    intermediate_id: "ellagitannins",
+    intermediate_label: "Ellagitannins",
+    related_id: "ellagic-acid",
+    related_label: "Ellagic acid",
+    related_href: "/docs/substances/bioactive-compounds/polyphenols/phenolic-acids/ellagic-acid",
+    relationship: "constituent-release",
+    relationship_label: "Constituent release",
+    evidence: {
+      citation_keys: ["singh_direct_2022"],
+      statement:
+        "Ellagitannin hydrolysis can release ellagic acid. That acid is the substrate some gut communities convert toward urolithins.",
+    },
+    limitation:
+      "The food's ellagitannin figure is not an ellagic acid concentration, and neither figure is a urolithin A amount. Release and later microbial conversion both vary.",
+  },
 ]
 
 export function relatedViaLabel(label) {
@@ -111,14 +128,18 @@ function containedAmount(frontMatter, edge) {
       edge?.preparation_state &&
       norm(row.preparation_state) !== norm(edge.preparation_state)
     ) continue
-    const range = row.range
-    if (!Array.isArray(range) || range.length !== 2 || range.some((value) => typeof value !== "number" || Number.isNaN(value))) continue
     const unit = String(row.unit || "").trim()
     const basis = String(row.basis || "").trim()
+    const range = row.range
+    const hasRange = Array.isArray(range) && range.length === 2 && range.every((value) => typeof value === "number" && !Number.isNaN(value))
+    const point = typeof row.value === "number" && !Number.isNaN(row.value)
+    if (!hasRange && !point) continue
+    const low = hasRange ? range[0] : row.value
+    const high = hasRange ? range[1] : row.value
     return {
-      display: [range[0] + "–" + range[1], unit, basis].filter(Boolean).join(" "),
-      low: range[0],
-      high: range[1],
+      display: [hasRange ? low + "–" + high : String(low), unit, basis].filter(Boolean).join(" "),
+      low,
+      high,
       unit: unit || null,
       basis: basis || null,
       source_url: row.source_url || edge.source_url || null,

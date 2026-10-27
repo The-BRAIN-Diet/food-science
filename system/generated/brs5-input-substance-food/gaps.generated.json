@@ -146,12 +146,6 @@
     },
     {
       "kind": "mapping-gap",
-      "relationship_id": "BRS5-FM2-PM6::PM6-DIT-1",
-      "input": "Ellagic acid",
-      "reason": "No supported canonical food-source record found."
-    },
-    {
-      "kind": "mapping-gap",
       "relationship_id": "BRS5-FM3-PM7::PM7-DIT-1",
       "input": "Lactobacillus rhamnosus JB-1",
       "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred."

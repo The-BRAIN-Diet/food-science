@@ -87,6 +87,12 @@ function conversionClaim(atom) {
         "derived microbial fermentation to short-chain fatty acids; butyrate-specific effect not established",
     }
   }
+  if (/hydrolysis/i.test(blob)) {
+    return {
+      butyrateSpecificity: "not-applicable",
+      label: "hydrolysis can release the constituent; no microbial yield is assigned",
+    }
+  }
   return {
     butyrateSpecificity: "microbial-conversion-unspecified",
     label: "derived microbial fermentation",
@@ -223,15 +229,16 @@ export function buildDietaryOriginProjection(docs, {target, pmId}) {
   const directFoodContent = []
   for (const food of foods) {
     for (const edge of canonicalContainsRelationships(food.frontMatter)) {
-      if (!labelsOverlap(edge.substance, target) || !quantifiedDirectContent(edge)) continue
+      if (!labelsOverlap(edge.substance, target)) continue
+      const quantified = quantifiedDirectContent(edge)
       directFoodContent.push({
         title: food.title,
         permalink: food.permalink,
         edge: {
           relationship: edge.relationship,
           classification: "direct-food-content",
-          quantity: edge.amount_display || edge.value || null,
-          unit: edge.unit || null,
+          quantity: quantified ? edge.amount_display || edge.value || null : null,
+          unit: quantified ? edge.unit || null : null,
           sourceNote: edge.evidence_source || edge.description || "",
           preparation: edge.preparation_state || null,
         },

@@ -105,7 +105,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Peas | 3 | vitamin-a; magnesium; linoleic-acid; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Peppermint | 3 | magnesium; linoleic-acid; zinc; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Pistachios | 3 | linoleic-acid; vitamin-a; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
-| Pomegranates | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Pomegranates | 4 | ellagic-acid; ellagitannins; magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM2-PM6; BRS5-FM3-PM7 |  |
 | Pork | 3 | zinc; vitamin-a; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Potatoes | 3 | resistant-starch; linoleic-acid; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5; BRS5-FM3-PM7 | BRS5(KC1) |
 | Pumpkin Seeds | 4 | tryptophan; magnesium; zinc; vitamin-a; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7; BRS5-FM3-PM8 |  |

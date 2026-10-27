@@ -411,6 +411,35 @@
     },
     {
       "class": "related-substance",
+      "food_id": "pomegranates",
+      "food_title": "Pomegranates",
+      "food_page": "/docs/foods/pomegranates",
+      "intermediate_id": "ellagitannins",
+      "intermediate_label": "Ellagitannins",
+      "related_id": "ellagic-acid",
+      "related_label": "Ellagic acid",
+      "relationship": "constituent-release",
+      "preparation": "Commercial single-strength juice; gallagyl-type tannins, not every ellagitannin",
+      "contained_amount": {
+        "display": "156.17 mg per 100 mL",
+        "low": 156.17,
+        "high": 156.17,
+        "unit": "mg",
+        "basis": "per 100 mL",
+        "source_url": "https://doi.org/10.1021/jf000404a"
+      },
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "singh_direct_2022"
+        ],
+        "statement": "Ellagitannin hydrolysis can release ellagic acid. That acid is the substrate some gut communities convert toward urolithins."
+      },
+      "limitation": "The food's ellagitannin figure is not an ellagic acid concentration, and neither figure is a urolithin A amount. Release and later microbial conversion both vary. Gallagyl-type tannins, not the sum of every ellagitannin and not free ellagic acid. Not an aril or whole-fruit flesh value.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
       "food_id": "potatoes",
       "food_title": "Potatoes",
       "food_page": "/docs/foods/potatoes",
@@ -590,6 +619,28 @@
       },
       "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration.",
       "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "walnuts",
+      "food_title": "Walnuts",
+      "food_page": "/docs/foods/walnuts",
+      "intermediate_id": "ellagitannins",
+      "intermediate_label": "Ellagitannins",
+      "related_id": "ellagic-acid",
+      "related_label": "Ellagic acid",
+      "relationship": "constituent-release",
+      "preparation": "Walnut kernels; assay-specific extraction",
+      "contained_amount": null,
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "singh_direct_2022"
+        ],
+        "statement": "Ellagitannin hydrolysis can release ellagic acid. That acid is the substrate some gut communities convert toward urolithins."
+      },
+      "limitation": "The food's ellagitannin figure is not an ellagic acid concentration, and neither figure is a urolithin A amount. Release and later microbial conversion both vary. Assay-specific extraction of kernels. Peeled kernel without the pellicle is a different material. This is not an amount, not free ellagic acid, and not a urolithin A exposure.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
     }
   ],
   "relative_source_power": [
@@ -719,6 +770,52 @@
           "relative_power": null,
           "rank_status": "unranked",
           "rank_reason": "These records are measurement spans. Spans are not ordered, and no basis is converted into another."
+        }
+      ]
+    },
+    {
+      "comparison_group": "ellagitannins|mg|per 100 mL",
+      "intermediate_id": "ellagitannins",
+      "basis": "per 100 mL",
+      "unit": "mg",
+      "related_id": null,
+      "threshold": 10,
+      "basis_isolated": true,
+      "ranked": [],
+      "unranked": [
+        {
+          "food_id": "pomegranates",
+          "food_title": "Pomegranates",
+          "food_page": "/docs/foods/pomegranates",
+          "intermediate_id": "ellagitannins",
+          "intermediate_label": "Ellagitannins",
+          "related_id": "ellagic-acid",
+          "related_label": "Ellagic acid",
+          "related_href": "/docs/substances/bioactive-compounds/polyphenols/phenolic-acids/ellagic-acid",
+          "relationship": "constituent-release",
+          "relationship_label": "Constituent release",
+          "preparation": "Commercial single-strength juice; gallagyl-type tannins, not every ellagitannin",
+          "evidence": {
+            "citation_keys": [
+              "singh_direct_2022"
+            ],
+            "statement": "Ellagitannin hydrolysis can release ellagic acid. That acid is the substrate some gut communities convert toward urolithins."
+          },
+          "limitation": "The food's ellagitannin figure is not an ellagic acid concentration, and neither figure is a urolithin A amount. Release and later microbial conversion both vary. Gallagyl-type tannins, not the sum of every ellagitannin and not free ellagic acid. Not an aril or whole-fruit flesh value.",
+          "quantity": null,
+          "contained_amount": {
+            "display": "156.17 mg per 100 mL",
+            "low": 156.17,
+            "high": 156.17,
+            "unit": "mg",
+            "basis": "per 100 mL",
+            "source_url": "https://doi.org/10.1021/jf000404a"
+          },
+          "rank_eligible": false,
+          "direct_containment": false,
+          "relative_power": null,
+          "rank_status": "unranked",
+          "rank_reason": "One food is measured on this basis. It is not ranked against foods measured on another basis."
         }
       ]
     },
