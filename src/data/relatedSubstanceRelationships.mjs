@@ -244,7 +244,7 @@ export function renderRelatedFoodSources(rows) {
   return `<details class="pm-input-food-sources" data-food-source-kind="related"><summary><span class="pm-input-food-source-arrow" aria-hidden="true">▶</span>Related sources</summary><p>Indirect sources. These foods are not recorded as containing the input, and they are not ranked by amount.</p><ul>${items}</ul></details>`
 }
 
-/** Rank only comparable measurements of one contained upstream substance. */
+/** Rank only comparable point measurements of one contained upstream substance and basis. */
 export function relativeSourcePower(records, threshold = 10) {
   const groups = new Map()
   for (const record of records || []) {
@@ -262,20 +262,36 @@ export function relativeSourcePower(records, threshold = 10) {
       seen.add(id)
       return true
     })
-    const max = Math.max(...foods.map((record) => record.contained_amount.low))
-    const ranked = foods
-      .map((record) => ({
+    const spans = foods.some((record) => record.contained_amount.low !== record.contained_amount.high)
+    const reason = foods.length < 2
+      ? "One food is measured on this basis. It is not ranked against foods measured on another basis."
+      : spans
+        ? "These records are measurement spans. Spans are not ordered, and no basis is converted into another."
+        : null
+    const comparable = foods.length >= 2 && !reason
+    const max = comparable ? Math.max(...foods.map((record) => record.contained_amount.low)) : null
+    const scored = foods.map((record) => {
+      const relativePower = comparable && max > 0 ? (record.contained_amount.low / max) * 100 : null
+      const included = relativePower != null && relativePower >= threshold
+      return {
         ...record,
-        relative_power: max > 0 ? (record.contained_amount.low / max) * 100 : 0,
-      }))
-      .filter((record) => record.relative_power >= threshold)
-      .sort((a, b) => b.relative_power - a.relative_power)
+        relative_power: included ? relativePower : null,
+        rank_status: included ? "ranked" : "unranked",
+        rank_reason: included
+          ? null
+          : reason || "Below the provisional one-tenth threshold inside this basis.",
+      }
+    })
     return {
       comparison_group: key,
       intermediate_id: foods[0].intermediate_id,
+      basis: foods[0].contained_amount.basis,
+      unit: foods[0].contained_amount.unit,
       related_id: null,
       threshold,
-      ranked,
+      basis_isolated: true,
+      ranked: scored.filter((record) => record.rank_status === "ranked").sort((a, b) => b.relative_power - a.relative_power),
+      unranked: scored.filter((record) => record.rank_status === "unranked"),
     }
   })
 }

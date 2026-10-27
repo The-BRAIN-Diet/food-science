@@ -140,12 +140,6 @@
     },
     {
       "kind": "mapping-gap",
-      "relationship_id": "BRS5-FM2-PM4::PM4-DIT-DEFERRED-1",
-      "input": "Inulin",
-      "reason": "No supported canonical food-source record found."
-    },
-    {
-      "kind": "mapping-gap",
       "relationship_id": "BRS5-FM2-PM5::PM5-DIT-2",
       "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
       "reason": "No supported canonical food-source record found."

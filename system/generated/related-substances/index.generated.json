@@ -596,9 +596,13 @@
     {
       "comparison_group": "resistant-starch|g|per 100 g fresh weight",
       "intermediate_id": "resistant-starch",
+      "basis": "per 100 g fresh weight",
+      "unit": "g",
       "related_id": null,
       "threshold": 10,
-      "ranked": [
+      "basis_isolated": true,
+      "ranked": [],
+      "unranked": [
         {
           "food_id": "bananas",
           "food_title": "Bananas",
@@ -630,16 +634,22 @@
           },
           "rank_eligible": false,
           "direct_containment": false,
-          "relative_power": 100
+          "relative_power": null,
+          "rank_status": "unranked",
+          "rank_reason": "One food is measured on this basis. It is not ranked against foods measured on another basis."
         }
       ]
     },
     {
       "comparison_group": "resistant-starch|g|per 100 g dry weight",
       "intermediate_id": "resistant-starch",
+      "basis": "per 100 g dry weight",
+      "unit": "g",
       "related_id": null,
       "threshold": 10,
-      "ranked": [
+      "basis_isolated": true,
+      "ranked": [],
+      "unranked": [
         {
           "food_id": "black-beans",
           "food_title": "Black Beans",
@@ -671,7 +681,9 @@
           },
           "rank_eligible": false,
           "direct_containment": false,
-          "relative_power": 100
+          "relative_power": null,
+          "rank_status": "unranked",
+          "rank_reason": "These records are measurement spans. Spans are not ordered, and no basis is converted into another."
         },
         {
           "food_id": "chickpeas",
@@ -704,16 +716,22 @@
           },
           "rank_eligible": false,
           "direct_containment": false,
-          "relative_power": 100
+          "relative_power": null,
+          "rank_status": "unranked",
+          "rank_reason": "These records are measurement spans. Spans are not ordered, and no basis is converted into another."
         }
       ]
     },
     {
       "comparison_group": "resistant-starch|g|per 100 g, moisture-corrected",
       "intermediate_id": "resistant-starch",
+      "basis": "per 100 g, moisture-corrected",
+      "unit": "g",
       "related_id": null,
       "threshold": 10,
-      "ranked": [
+      "basis_isolated": true,
+      "ranked": [],
+      "unranked": [
         {
           "food_id": "potatoes",
           "food_title": "Potatoes",
@@ -745,7 +763,9 @@
           },
           "rank_eligible": false,
           "direct_containment": false,
-          "relative_power": 100
+          "relative_power": null,
+          "rank_status": "unranked",
+          "rank_reason": "One food is measured on this basis. It is not ranked against foods measured on another basis."
         }
       ]
     }

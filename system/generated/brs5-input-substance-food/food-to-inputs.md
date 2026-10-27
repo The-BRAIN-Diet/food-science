@@ -8,7 +8,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Amaranth | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Anchovies | 3 | linoleic-acid; zinc; magnesium; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Apples | 4 | linoleic-acid; zinc; vitamin-a; magnesium; pectin | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5; BRS5-FM3-PM7 | BRS5(KC1) |
-| Asparagus | 3 | linoleic-acid; vitamin-a; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Asparagus | 4 | inulin; linoleic-acid; vitamin-a; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM3-PM7 |  |
 | Aubergine | 3 | vitamin-a; linoleic-acid; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Avocado Oil | 1 | linoleic-acid | BRS5-FM3-PM7 |  |
 | Avocado | 3 | vitamin-a; magnesium; linoleic-acid; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |

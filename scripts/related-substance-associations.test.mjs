@@ -170,6 +170,17 @@ test("one new resistant-starch food generates butyrate everywhere and FOS/GOS st
   assert.equal(rollup.filter((row) => row.food_id === "bananas").length, 1)
   assert.equal(rollup.every((row) => row.related_quantity === null && row.class === "related-substance"), true)
   const power = relativeSourcePower(index.filter((row) => row.related_id === "butyrate"))
-  assert.ok(power.every((group) => new Set(group.ranked.map((row) => row.intermediate_id)).size === 1))
-  assert.equal(power.some((group) => group.ranked.some((row) => row.related_id !== group.ranked[0].related_id && row.intermediate_id !== group.intermediate_id)), false)
+  assert.equal(new Set(power.map((group) => group.basis)).size, power.length)
+  assert.ok(power.every((group) => group.basis_isolated && group.ranked.length === 0 && group.unranked.length > 0))
+  assert.ok(power.every((group) => group.unranked.every((row) => row.rank_status === "unranked" && row.relative_power === null)))
+  const comparable = relativeSourcePower([
+    {food_id: "high", intermediate_id: "resistant-starch", preparation: "", contained_amount: {low: 10, high: 10, unit: "g", basis: "per 100 g fresh weight"}},
+    {food_id: "low", intermediate_id: "resistant-starch", preparation: "", contained_amount: {low: 2, high: 2, unit: "g", basis: "per 100 g fresh weight"}},
+    {food_id: "dry", intermediate_id: "resistant-starch", preparation: "", contained_amount: {low: 50, high: 50, unit: "g", basis: "per 100 g dry weight"}},
+  ])
+  const fresh = comparable.find((group) => group.basis === "per 100 g fresh weight")
+  const dry = comparable.find((group) => group.basis === "per 100 g dry weight")
+  assert.deepEqual(fresh.ranked.map((row) => row.food_id), ["high", "low"])
+  assert.equal(dry.ranked.length, 0)
+  assert.equal(dry.unranked[0].food_id, "dry")
 })
