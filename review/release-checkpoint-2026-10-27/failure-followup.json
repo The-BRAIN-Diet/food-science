@@ -1,0 +1,144 @@
+{
+  "scope": "Repair the two named PR227 validation failures without modifying scientific records or immutable history.",
+  "baseline_commit": "c582b85cab6ab6ded8d4bde2943165aae25753ba",
+  "fixes": [
+    {
+      "test": "foodless-target preservation",
+      "cause": "Historical full-file PM8 hash predates approved thumbnail and Section 4 presentation changes.",
+      "repair": "Archive the exact original PM8 bytes and retain the original hash; compare all scientific frontmatter and all content outside the explicitly approved presentation areas. Add mutations proving changed Findings, admissions, SEC references and unrelated content still fail."
+    },
+    {
+      "test": "PM Open Issues scope and resolution",
+      "cause": "Synthetic PM6-OI-9 resolution depended on FW004 in an ignored local register. A second obsolete assertion limited the shared register to PM6 only.",
+      "repair": "Use an explicit synthetic correction; assert missing, wrong-surface and wrong-PM corrections fail. Verify page-specific selection across all PMs represented in the real shared register.",
+      "correction_to_initial_report": "PM6-OI-9 and FW004 were synthetic test references, not an unresolved canonical audit linkage."
+    }
+  ],
+  "validation": {
+    "presentation_foodless_substance_pm8_framework_suites": {
+      "pass": 73,
+      "fail": 0
+    },
+    "findings": {
+      "checked": 64,
+      "problems": 0
+    },
+    "admissions": {
+      "checked": 64,
+      "issues": []
+    },
+    "sec": {
+      "snapshots": 98,
+      "result": "pass"
+    },
+    "canonical_docs_registry_sec_and_open_issues": "unchanged from c582b85c",
+    "production_build": "Not rerun: test-only changes and an archived review fixture; no runtime, generation or canonical-page changes."
+  },
+  "broader_sec_suite": {
+    "pass": 81,
+    "fail": 23,
+    "failures": [
+      {
+        "test": "SEC changes no propositions, source assessments, admissions, missions, six atoms, food records, or other frontmatter",
+        "location": "brs4-pm4-pm5-sec.test.mjs:8:1"
+      },
+      {
+        "test": "only SEC pointers change in canonical data; missions, source assessments and dietary content remain identical",
+        "location": "brs4-sec-followup.test.mjs:8:1"
+      },
+      {
+        "test": "Netlify pins a reviewed history baseline and retains the validated heap limit",
+        "location": "netlify-sec-baseline.test.mjs:15:1"
+      },
+      {
+        "test": "the unchanged production guard still rejects an absent baseline and accepts the configured one",
+        "location": "netlify-sec-baseline.test.mjs:31:1"
+      },
+      {
+        "test": "actual compiled PM1 renders matching mechanism titles and reciprocal evidence links for active Findings and preserves Principle provenance",
+        "location": "scientific-finding-presentation.test.mjs:80:1"
+      },
+      {
+        "test": "all scientific objects, admissions and pinned history remain unchanged except approved SF3 descriptive title",
+        "location": "scientific-principles-pm1.test.mjs:5:1"
+      },
+      {
+        "test": "real audit renderer shows narrow principles, source links and retained history, without active confidence fields",
+        "location": "scientific-principles-pm1.test.mjs:7:1"
+      },
+      {
+        "test": "real PM1 MDX compiles with five active Findings, excluding Principle and historical records",
+        "location": "scientific-principles-pm1.test.mjs:10:1"
+      },
+      {
+        "test": "entire canonical body, Findings, lessons, references and numbered sections survive",
+        "location": "sec-calibration-preview.test.mjs:29:1"
+      },
+      {
+        "test": "ontology sees only loaded documents and no preview scientific metadata",
+        "location": "sec-calibration-preview.test.mjs:44:1"
+      },
+      {
+        "test": "versioned audit preserves exact proposition, unresolved factors and source identities",
+        "location": "sec-evidence-audit.test.mjs:30:1"
+      },
+      {
+        "test": "SF1 conditional reassessment preserves withdrawal history and formal unknowns",
+        "location": "sec-evidence-audit.test.mjs:54:1"
+      },
+      {
+        "test": "three status surfaces and original correction panel remain separate",
+        "location": "sec-evidence-audit.test.mjs:77:1"
+      },
+      {
+        "test": "SF2 recovery retains species, access and independence limitations",
+        "location": "sec-evidence-audit.test.mjs:113:1"
+      },
+      {
+        "test": "reader-facing fixtures distinguish all four states without registering Findings",
+        "location": "sec-evidence-audit.test.mjs:187:1"
+      },
+      {
+        "test": "SF and audit use the same short assessment labels without changing stored status",
+        "location": "sec-evidence-audit.test.mjs:260:1"
+      },
+      {
+        "test": "GABA calibration, archived pilot sources and bibliography remain byte-identical to baseline",
+        "location": "sec-glycaemic-preview.test.mjs:116:1"
+      },
+      {
+        "test": "actual existing disclosure helper resolves six atoms and PM-local references for every proposed lever",
+        "location": "sec-glycaemic-stage2.test.mjs:47:1"
+      },
+      {
+        "test": "archived pilot PMs, GABA, audit, methodology and governing contracts remain byte-identical",
+        "location": "sec-glycaemic-stage2.test.mjs:151:1"
+      },
+      {
+        "test": "complete isolated copy preserves canonical records, all numbered sections and dietary relationships",
+        "location": "sec-same-preview.test.mjs:25:1"
+      },
+      {
+        "test": "actual React preview renders provenance, proposed score, limitations and unique canonical source links",
+        "location": "sec-same-preview.test.mjs:98:1"
+      },
+      {
+        "test": "three complete drafts preserve missions, dietary decisions, KC identities and all source sections",
+        "location": "sec-v1-integration.test.mjs:19:1"
+      },
+      {
+        "test": "canonical science, earlier pilots, contracts, rubric, bibliography and dietary validators are untouched",
+        "location": "sec-v1-integration.test.mjs:125:1"
+      }
+    ],
+    "disposition": "Not waived. Most failures compare historical fixtures with later approved content or use obsolete module loaders. The PM1 presentation test also reveals a real missing mechanism anchor for the new PM1-F7. The known five-Finding expectation predates that admitted recovery. Review this alignment before treating the PR as merge-ready."
+  },
+  "netlify": {
+    "deploy_id": "6ae07c0524736bfcf0b5bb0e",
+    "commit": "c582b85cab6ab6ded8d4bde2943165aae25753ba",
+    "state": "error",
+    "context": "deploy-preview",
+    "error_message": null,
+    "interpretation": "Separate build failure; public deployment record does not expose the causal log. No cause inferred from the downstream GitHub checks."
+  }
+}
