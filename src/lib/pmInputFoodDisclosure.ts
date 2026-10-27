@@ -1,4 +1,5 @@
 import {informationIcon, renderCoverageWarning, renderTarget, renderUpstreamCandidates, unresolvedButyratePrecursorCandidates} from "./foodTargetTraceability.mjs";
+import {relatedFoodsForInput, renderRelatedFoodSources} from "../data/relatedSubstanceRelationships.mjs";
 import generatedScopes from "../data/inputMappingScopes.mjs";
 import { selectBrsReviewData, canonicalInputSection } from "../data/inputSubstanceFoodSelection.mjs";
 /** Read-only display of generated PM input joins; no hand-maintained food lists. */
@@ -237,6 +238,7 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
             attachFoodDisclosureBehaviour(box); li.append(box);
         }
         if (precursorBundle && !precursorIsProduct) li.insertAdjacentHTML('beforeend', renderUpstreamCandidates(precursorBundle));
+        li.insertAdjacentHTML('beforeend', renderRelatedFoodSources(relatedFoodsForInput(relationships, scoped.food_sources)));
         return;
     }
 
@@ -248,4 +250,5 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
     animalBox.dataset.relationshipIds = relationships.map(r => r.id).join(' ');
     li.append(animalBox);
     if (precursorBundle && !precursorIsProduct) li.insertAdjacentHTML('beforeend', renderUpstreamCandidates(precursorBundle));
+    li.insertAdjacentHTML('beforeend', renderRelatedFoodSources(relatedFoodsForInput(relationships, scoped.food_sources)));
 }

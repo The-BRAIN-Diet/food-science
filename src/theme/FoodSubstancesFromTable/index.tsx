@@ -1,5 +1,6 @@
 import React from "react"
 import {canonicalContainsRelationships, pendingFoodRelationship} from "@site/src/data/foodSubstanceRelationships.mjs"
+import {relatedSubstancesForFood, relatedViaLabel} from "@site/src/data/relatedSubstanceRelationships.mjs"
 import {usePluginData} from "@docusaurus/useGlobalData"
 import Link from "@docusaurus/Link"
 import styles from "../TagList/styles.module.css"
@@ -379,12 +380,36 @@ export default function FoodSubstancesFromTable({
     merged.push({label: edge.substance, doc})
   }
 
+  const related = relatedSubstancesForFood(details)
+  const relatedSection = related.length ? (
+    <section className="related-substances" aria-label="Related substances">
+      <h3>Related Substances</h3>
+      <ul>
+        {related.map((item) => (
+          <li
+            key={`${item.related_id}:${item.intermediate_id}:${item.preparation || ""}`}
+            title={[item.preparation, item.limitation, ...(item.evidence?.citation_keys || [])]
+              .filter(Boolean)
+              .join(" ")}
+          >
+            <Link to={item.related_href}>{item.related_label}</Link>
+            {" — via "}
+            {relatedViaLabel(item.intermediate_label)}
+            {" · "}
+            {item.relationship_label}
+          </li>
+        ))}
+      </ul>
+    </section>
+  ) : null
+
   if (merged.length === 0) {
     return (
       <div className="bok-tag-list">
         <p style={{fontStyle: "italic"}}>
           No evidenced substance relationships are currently available.
         </p>
+        {relatedSection}
       </div>
     )
   }
@@ -419,6 +444,7 @@ export default function FoodSubstancesFromTable({
           })}
         </div>
       </details>
+      {relatedSection}
     </div>
   )
 }

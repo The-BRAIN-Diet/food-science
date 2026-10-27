@@ -1,5 +1,6 @@
 import React from "react"
 import {canonicalFoodRelationships} from "@site/src/data/foodSubstanceRelationships.mjs"
+import {relatedSubstancesForFood, relatedViaLabel} from "@site/src/data/relatedSubstanceRelationships.mjs"
 import {substanceLabelsOverlap} from "@site/src/data/nutritionTableMapping"
 import { usePluginData } from "@docusaurus/useGlobalData"
 import Link from "@docusaurus/Link"
@@ -121,10 +122,38 @@ export default function SubstanceFoods({ tag }: SubstanceFoodsProps): React.Reac
     return a.doc.title.localeCompare(b.doc.title)
   })
 
+  const relatedFoods = uniqueFoods.flatMap((food) =>
+    relatedSubstancesForFood(food.frontMatter)
+      .filter((association) => substanceLabelsOverlap(association.related_label, tag))
+      .map((association) => ({food, association})),
+  )
+  relatedFoods.sort((a, b) => a.food.title.localeCompare(b.food.title))
+
+  const relatedSection = relatedFoods.length ? (
+    <section className="related-substances" aria-label="Related food sources">
+      <h3>Related food sources</h3>
+      <ul>
+        {relatedFoods.map(({food, association}) => (
+          <li
+            key={`${food.permalink}:${association.intermediate_id}:${association.preparation || ""}`}
+            title={[association.preparation, association.limitation].filter(Boolean).join(" ")}
+          >
+            <Link to={food.permalink}>{food.title}</Link>
+            {" — via "}
+            {relatedViaLabel(association.intermediate_label)}
+            {" · "}
+            {association.relationship_label}
+          </li>
+        ))}
+      </ul>
+    </section>
+  ) : null
+
   if (substanceFoods.length === 0) {
     return (
       <div className="bok-tag-list">
         <em>no foods found</em>
+        {relatedSection}
       </div>
     )
   }
@@ -163,6 +192,7 @@ export default function SubstanceFoods({ tag }: SubstanceFoodsProps): React.Reac
           ))}
         </div>
       </details>
+      {relatedSection}
     </div>
   )
 }

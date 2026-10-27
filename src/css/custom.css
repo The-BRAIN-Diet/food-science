@@ -1928,6 +1928,20 @@ img[src*="/img/foods/"]:not(.food-page-hero) {
   font-size: 0.86rem;
 }
 
+.related-substances {
+  margin-top: 1.25rem;
+}
+
+.related-substances h3 {
+  margin-bottom: 0.4rem;
+  font-size: 1.05rem;
+}
+
+.related-substances ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
 .dietary-origin-provisional {
   padding: 0.45rem 0.55rem;
   border: 1px dashed var(--ifm-color-warning-dark);
