@@ -13,6 +13,13 @@ tags:
 mechanisms:
   Gut-Brain Axis & Enteric Nervous System: 'Arabinan in the studied pea-fibre preparation is a glycan whose use depends on microbial machinery and competition. No universal human response is established.'
 list_image: /img/icons/nutrient.svg
+food_delivery_assessment:
+  review_date: '2026-10-26'
+  status: verified-qualitative
+  classification: B
+  sources:
+    - https://doi.org/10.1046/j.1365-313x.2000.00719.x
+  admission_changed: false
 ---
 
 ## Overview
@@ -23,7 +30,7 @@ In mice colonised with defined human-derived communities, arabinan in one pea-fi
 
 ## Dietary Context
 
-Direct occurrence is arabinan in plant cell walls, as a side chain of pectin. The studied exposure is narrower: arabinan in one pea-fibre preparation, given in a defined-community mouse model [1]. A linear, enzymatically debranched arabinan is a different preparation. A food that contains peas, sugar beet, or pectin is not identified as the studied fraction. No food page has a measured arabinan amount, so none is linked.
+Direct occurrence is arabinan in plant cell walls, as a side chain of pectin. The studied exposure is narrower: arabinan in one pea-fibre preparation, given in a defined-community mouse model [1]. A linear, enzymatically debranched arabinan is a different preparation. A food that contains peas, sugar beet, or pectin is not identified as the studied fraction. Qualitative pea-cotyledon evidence supports occurrence of pectic arabinan without providing a food dose.
 
 ## Research Spotlights & Evidence Checks
 
@@ -40,6 +47,8 @@ Access to the glycan changed with the community and with competitors [1]. That i
 
 ## Foods
 
+Pectic arabinan was detected in developing pea cotyledon cell walls [2]. Cooking retention and equivalence to isolated fibre remain unestablished.
+
 <SubstanceFoods tag="Arabinan" />
 
 ## Recipes
@@ -55,3 +64,5 @@ Access to the glycan changed with the community and with competitors [1]. That i
 ## References
 
 [1] Patnode et al. (2019). [Interspecies Competition Impacts Targeted Manipulation of Human Gut Bacteria by Fiber-Derived Glycans](/docs/papers/BRAIN-Diet-References#patnode_interspecies_2019). Arabinan in the studied pea fibre was a glycan resource whose utilisation depended on microbial machinery and competition in defined human-derived communities in mice. No universal human response, optimal dose, or host benefit is established.
+
+[2] [McCartney et al. (2000), Pea cell-wall pectic polysaccharides](/docs/papers/BRAIN-Diet-References#mccartney_pea_pectic_arabinan_2000). Food-composition provenance; PM evidence and admission remain separate.

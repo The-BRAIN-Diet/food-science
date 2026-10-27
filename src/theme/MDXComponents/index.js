@@ -1,3 +1,4 @@
+import DietaryPathways from '@site/src/components/DietaryPathways';
 import Stage2Review from '@site/src/components/Stage2Review';
 import EvidenceGaps from '@site/src/components/EvidenceGaps';
 import React from 'react';
@@ -67,6 +68,7 @@ export default {
   SubstanceRecipes,
   SubstanceFoods,
   DietaryOriginProjection,
+  DietaryPathways,
   FoodRecipes,
   FoodShoppingList,
   PhenomeBibLinks,

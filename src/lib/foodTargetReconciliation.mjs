@@ -1,9 +1,10 @@
+import {verifiedAggregateEvidence} from './aggregateFoodComposition.mjs';
 /** Technical exposure reconciliation; never creates canonical food edges or scientific admissions. */
 const norm = value => String(value || '').normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 const unique = xs => [...new Map(xs.map(x => [JSON.stringify(x), x])).values()];
 const visible = e => !['internal-only', 'excluded-error', 'substance-only'].includes(e.public_display) && e.evidence_status !== 'rejected';
 export function structuredEvidence(food) {
-  return (food.presence_records || []).filter(visible).filter(e => String(e.record || '').includes('#substance_relationships/') && (e.evidence || e.citation_keys?.length));
+  return (food.presence_records || []).filter(visible).filter(e => (String(e.record || '').includes('#substance_relationships/') && (e.evidence || e.citation_keys?.length)) || verifiedAggregateEvidence(e));
 }
 export function verifiedFoodTarget(food) {
   const evidence = structuredEvidence(food);

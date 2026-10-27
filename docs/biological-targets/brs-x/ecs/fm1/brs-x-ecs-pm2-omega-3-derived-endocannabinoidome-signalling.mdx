@@ -2,17 +2,17 @@
 title: Omega-3-Derived Endocannabinoidome Signalling
 pm_id: BRS-X(ECS-PM2)
 mission: >-
-  Sustain omega-3-derived ethanolamide production so endocannabinoidome neuromodulation stays supplied
-  from dietary fat status.
+  Sustain omega-3-derived ethanolamide production so endocannabinoidome neuromodulation stays supplied from
+  dietary fat status.
 parent_fm: BRS-X(ECS-FM1)
 parent_brs: BRS-X(ECS)
 summary: >-
-  EPA and DHA can supply the fatty-acid portions of omega-3-derived signalling lipids. DHA conversion
-  into synaptamide has been traced in neuronal cells, while controlled exposures change related
-  ethanolamides in human plasma. This gives a specific precursor-supply role to long-chain omega-3
-  inputs. It does not make all omega-3 molecules interchangeable: ALA conversion, delivery form, tissue
-  metabolism and degradation affect the route. Neural production and clinical responses must be
-  distinguished from circulating lipid measurements.
+  EPA and DHA can supply the fatty-acid portions of omega-3-derived signalling lipids. DHA conversion into
+  synaptamide has been traced in neuronal cells, while controlled exposures change related ethanolamides in
+  human plasma. This gives a specific precursor-supply role to long-chain omega-3 inputs. It does not make all
+  omega-3 molecules interchangeable: ALA conversion, delivery form, tissue metabolism and degradation affect
+  the route. Neural production and clinical responses must be distinguished from circulating lipid
+  measurements.
 key_constraints: []
 cofactors: []
 intervention_dominance: Diet-Dominant
@@ -25,8 +25,8 @@ phenome_relationships:
     confidence: low
     evidence_level: mechanistic
     rationale: >-
-      Omega-3-derived ethanolamides may support neuroprotective and neurogenesis-related signalling
-      context relevant to cognitive clarity without CB1-centric framing.
+      Omega-3-derived ethanolamides may support neuroprotective and neurogenesis-related signalling context
+      relevant to cognitive clarity without CB1-centric framing.
     references:
       - index: 1
         label: Watson et al. (2019)
@@ -67,8 +67,8 @@ phenome_relationships:
     confidence: low
     evidence_level: mechanistic
     rationale: >-
-      Omega-3 endocannabinoidome signalling may indirectly modulate affective context through
-      inflammatory and neuromodulatory interfaces; direct ADHD evidence remains limited.
+      Omega-3 endocannabinoidome signalling may indirectly modulate affective context through inflammatory and
+      neuromodulatory interfaces; direct ADHD evidence remains limited.
     references:
       - index: 1
         label: Watson et al. (2019)
@@ -78,6 +78,90 @@ phenome_relationships:
     evidence_confidence: low
     scientific_findings: []
     assessment_status: legacy-rating-pending-outcome-reassessment
+dietary_input_assessments:
+  - atom_id: PM2-DIT-1
+    status: admitted
+    type: A
+    classification: direct
+    operation: >-
+      Sustain omega-3-derived ethanolamide production so endocannabinoidome neuromodulation stays supplied
+      from dietary fat status.
+    canonical_substance_id: dha-docosahexaenoic-acid
+    functional_dependency:
+      status: established
+      statement: >-
+        Dietary DHA supplies the fatty-acyl substrate for the PM’s omega-3 ethanolamide-production operation,
+        including incorporation into N-docosahexaenoyl-PE and synaptamide formation.
+      sources:
+        - https://pubmed.ncbi.nlm.nih.gov/33233525/
+        - https://pubmed.ncbi.nlm.nih.gov/26806592/
+    dietary_supply:
+      status: established
+      statement: >-
+        The same mineral has established dietary supply through the canonical composition records. Cellular
+        uptake and homeostasis mediate enzyme loading; this is maintenance of capacity, not a claim that extra
+        intake accelerates the reaction.
+      sources:
+        - docs/foods/salmon.md
+        - docs/foods/sardines.md
+    assessment_date: '2026-10-26'
+    assessment_limitations: >-
+      Labelled neural-cell precursor experiments support formation; controlled oral-oil studies support
+      corresponding plasma ethanolamide availability. Plasma concentration is not neuronal synthesis flux or
+      receptor engagement, and no ordinary-food effective dose or clinical benefit is established. Direct is
+      relative to this biosynthetic operation, not direct food content of synaptamide.
+    food_target_research:
+      completed: true
+      sources_examined:
+        - registry/substances.json
+        - docs/foods/salmon.md
+        - docs/foods/sardines.md
+        - system/food-target-research.json
+      sufficient_coverage_rationale: >-
+        Inspected existing structured composition records and provisional research coverage for the same
+        mineral. Verified plant/animal sources are reused with preparation qualifiers; no new food edge,
+        effective food dose or enzyme-response inference is created.
+  - atom_id: PM2-DIT-2
+    status: admitted
+    type: A
+    classification: direct
+    operation: >-
+      Sustain omega-3-derived ethanolamide production so endocannabinoidome neuromodulation stays supplied
+      from dietary fat status.
+    canonical_substance_id: epa-eicosapentaenoic-acid
+    functional_dependency:
+      status: established
+      statement: >-
+        Dietary EPA supplies the fatty-acyl precursor for the corresponding EPEA-production arm of the PM’s
+        omega-3 ethanolamide operation.
+      sources:
+        - https://pubmed.ncbi.nlm.nih.gov/31269506/
+    dietary_supply:
+      status: established
+      statement: >-
+        The same mineral has established dietary supply through the canonical composition records. Cellular
+        uptake and homeostasis mediate enzyme loading; this is maintenance of capacity, not a claim that extra
+        intake accelerates the reaction.
+      sources:
+        - docs/foods/salmon.md
+        - docs/foods/sardines.md
+    assessment_date: '2026-10-26'
+    assessment_limitations: >-
+      The oral EPA/DHA intervention evidence measures circulating corresponding ethanolamides, not neuronal
+      synthesis rates or independent clinical mediation. Preserve active-arm, formulation and mixture limits.
+      Direct refers to substrate provision to production; food EPA content is not food EPEA content or a
+      quantified conversion yield.
+    food_target_research:
+      completed: true
+      sources_examined:
+        - registry/substances.json
+        - docs/foods/salmon.md
+        - docs/foods/sardines.md
+        - system/food-target-research.json
+      sufficient_coverage_rationale: >-
+        Inspected existing structured composition records and provisional research coverage for the same
+        mineral. Verified plant/animal sources are reused with preparation qualifiers; no new food edge,
+        effective food dose or enzyme-response inference is created.
 references:
   - >-
     [Watson et al. (2019) — Emerging Class of Omega-3 Fatty Acid Endocannabinoids \&amp; Their
@@ -89,12 +173,12 @@ references:
     [Meijerink et al. (2011) — Evidence for a New Link Between Fish Oil and
     Inflammation](/docs/papers/BRAIN-Diet-References#meijerink_docosahexaenoylethanolamine_2011)
   - >-
-    [Kevala et al. (2020) — Biosynthesis of N-Docosahexanoylethanolamine from Unesterified
-    Docosahexaenoic Acid and Docosahexaenoyl-Lysophosphatidylcholine in Neuronal
+    [Kevala et al. (2020) — Biosynthesis of N-Docosahexanoylethanolamine from Unesterified Docosahexaenoic
+    Acid and Docosahexaenoyl-Lysophosphatidylcholine in Neuronal
     Cells](/docs/papers/BRAIN-Diet-References#kevala_synaptamide_precursors_2020)
   - >-
-    [Pu et al. (2016) — Interactions between dietary oil treatments and genetic variants modulate fatty
-    acid ethanolamides in plasma and body weight
+    [Pu et al. (2016) — Interactions between dietary oil treatments and genetic variants modulate fatty acid
+    ethanolamides in plasma and body weight
     composition](/docs/papers/BRAIN-Diet-References#pu_fatty_acid_ethanolamides_2016)
   - >-
     [Yang et al. (2019) — Clinical Efficacy and Biological Regulations of omega-3 PUFA-Derived
@@ -135,12 +219,12 @@ scientific_findings:
             Labelled DHA and DHA-lysophosphatidylcholine in Neuro2A cells; precursor and synaptamide
             measurements.
           result: >-
-            Both exposures supplied N-docosahexaenoyl-PE and synaptamide; equimolar free DHA generated
-            more synaptamide.
+            Both exposures supplied N-docosahexaenoyl-PE and synaptamide; equimolar free DHA generated more
+            synaptamide.
           effect_magnitude: Only the extracted directional comparison is used; no pooled estimate is asserted.
           evidence_summary: >-
-            Both exposures supplied N-docosahexaenoyl-PE and synaptamide; equimolar free DHA generated
-            more synaptamide.
+            Both exposures supplied N-docosahexaenoyl-PE and synaptamide; equimolar free DHA generated more
+            synaptamide.
           limitations: Cell conversion is not a human brain incorporation rate or an optimal oral dose.
           retrieval_scope: Primary abstract and Figures 1–8 captions retrieved.
           source_url: https://pubmed.ncbi.nlm.nih.gov/33233525/
@@ -150,15 +234,15 @@ scientific_findings:
         href: /docs/papers/BRAIN-Diet-References#watson_emerging_2019
         why_relevant: Preserved attached corpus and original relationship provenance.
         why_excluded: >-
-          Contextual synthesis of this pathway. It is not used as an independent exposure-specific
-          admission or a new outcome-confidence assessment.
+          Contextual synthesis of this pathway. It is not used as an independent exposure-specific admission
+          or a new outcome-confidence assessment.
       - label: Saleh-Ghadimi et al. (2020)
         citation_key: saleh-ghadimi_endocannabinoid_2020
         href: /docs/papers/BRAIN-Diet-References#saleh-ghadimi_endocannabinoid_2020
         why_relevant: Preserved attached corpus and original relationship provenance.
         why_excluded: >-
-          Contextual synthesis of this pathway. It is not used as an independent exposure-specific
-          admission or a new outcome-confidence assessment.
+          Contextual synthesis of this pathway. It is not used as an independent exposure-specific admission
+          or a new outcome-confidence assessment.
       - label: Meijerink et al. (2011)
         citation_key: meijerink_docosahexaenoylethanolamine_2011
         href: /docs/papers/BRAIN-Diet-References#meijerink_docosahexaenoylethanolamine_2011
@@ -169,22 +253,22 @@ scientific_findings:
     presentation: mechanistic-basis
     fm_rollup: false
     finding_summary: >-
-      DHA-enriched oil increased its corresponding plasma ethanolamide. EPA-containing arms had higher
-      plasma EPEA than DHA alone; combined exposure also changed DHEA.
+      DHA-enriched oil increased its corresponding plasma ethanolamide. EPA-containing arms had higher plasma
+      EPEA than DHA alone; combined exposure also changed DHEA.
     finding_statement: >-
-      DHA-enriched oil increased its corresponding plasma ethanolamide. EPA-containing arms had higher
-      plasma EPEA than DHA alone; combined exposure also changed DHEA.
+      DHA-enriched oil increased its corresponding plasma ethanolamide. EPA-containing arms had higher plasma
+      EPEA than DHA alone; combined exposure also changed DHEA.
     finding_interpretation: >-
-      Plasma concentration is not neural synthesis flux; mixtures do not isolate every component.
-      Active-arm comparison and clinical associations do not establish precursor-mediated clinical
-      benefit or ordinary-food equivalence.
+      Plasma concentration is not neural synthesis flux; mixtures do not isolate every component. Active-arm
+      comparison and clinical associations do not establish precursor-mediated clinical benefit or
+      ordinary-food equivalence.
     synthesis: >-
-      DHA-enriched oil increased its corresponding plasma ethanolamide. EPA-containing arms had higher
-      plasma EPEA than DHA alone; combined exposure also changed DHEA.
+      DHA-enriched oil increased its corresponding plasma ethanolamide. EPA-containing arms had higher plasma
+      EPEA than DHA alone; combined exposure also changed DHEA.
     synthesis_limitations: >-
-      Plasma concentration is not neural synthesis flux; mixtures do not isolate every component.
-      Active-arm comparison and clinical associations do not establish precursor-mediated clinical
-      benefit or ordinary-food equivalence.
+      Plasma concentration is not neural synthesis flux; mixtures do not isolate every component. Active-arm
+      comparison and clinical associations do not establish precursor-mediated clinical benefit or
+      ordinary-food equivalence.
     synthesised_evidence_confidence: not-yet-scored
     evidence_considered:
       - label: Pu et al. (2016)
@@ -194,12 +278,8 @@ scientific_findings:
         evidence_source: bounded-external-search
         directional_finding: DHA-enriched oil increased its corresponding plasma ethanolamide.
         assessment:
-          study: >-
-            Five-period randomised double-blind crossover oil interventions in adults with abdominal
-            obesity.
-          population: >-
-            Five-period randomised double-blind crossover oil interventions in adults with abdominal
-            obesity.
+          study: Five-period randomised double-blind crossover oil interventions in adults with abdominal obesity.
+          population: Five-period randomised double-blind crossover oil interventions in adults with abdominal obesity.
           result: DHA-enriched oil increased its corresponding plasma ethanolamide.
           effect_magnitude: Only the extracted directional comparison is used; no pooled estimate is asserted.
           evidence_summary: DHA-enriched oil increased its corresponding plasma ethanolamide.
@@ -214,18 +294,14 @@ scientific_findings:
         directional_finding: EPA-containing arms had higher plasma EPEA than DHA alone; combined exposure also changed DHEA.
         assessment:
           study: >-
-            Eighty-eight participants with major depressive disorder, randomised EPA, DHA or combined
-            exposure for twelve weeks; no placebo.
+            Eighty-eight participants with major depressive disorder, randomised EPA, DHA or combined exposure
+            for twelve weeks; no placebo.
           population: >-
-            Eighty-eight participants with major depressive disorder, randomised EPA, DHA or combined
-            exposure for twelve weeks; no placebo.
-          result: >-
-            EPA-containing arms had higher plasma EPEA than DHA alone; combined exposure also changed
-            DHEA.
+            Eighty-eight participants with major depressive disorder, randomised EPA, DHA or combined exposure
+            for twelve weeks; no placebo.
+          result: EPA-containing arms had higher plasma EPEA than DHA alone; combined exposure also changed DHEA.
           effect_magnitude: Only the extracted directional comparison is used; no pooled estimate is asserted.
-          evidence_summary: >-
-            EPA-containing arms had higher plasma EPEA than DHA alone; combined exposure also changed
-            DHEA.
+          evidence_summary: EPA-containing arms had higher plasma EPEA than DHA alone; combined exposure also changed DHEA.
           limitations: >-
             Active-arm comparison and clinical associations do not establish precursor-mediated clinical
             benefit or ordinary-food equivalence.
@@ -234,12 +310,12 @@ scientific_findings:
     connected_supportive_evidence: []
 scientific_findings_intro: >-
   Cell tracing establishes DHA conversion, and human exposures support circulating EPA/DHA-derived
-  ethanolamide responses. These endpoints support precursor supply; they do not establish brain flux or
-  causal mood benefit.
+  ethanolamide responses. These endpoints support precursor supply; they do not establish brain flux or causal
+  mood benefit.
 pm_kc_relationships: []
 dietary_input_traceability:
   - atom_id: PM2-DIT-1
-    input: Docosahexaenoic acid (DHA)
+    input: DHA (Docosahexaenoic Acid)
     input_type: precursor
     biological_role: DHA supplies the acyl chain used to form N-docosahexaenoyl-PE and synaptamide.
     evidence_source:
@@ -247,14 +323,24 @@ dietary_input_traceability:
         - PM2-F1
       citation_keys:
         - kevala_synaptamide_precursors_2020
-    evidence_limitation: Cell conversion is not a human brain incorporation rate or an optimal oral dose.
+    evidence_limitation: >-
+      Labelled neural-cell precursor experiments support formation; controlled oral-oil studies support
+      corresponding plasma ethanolamide availability. Plasma concentration is not neuronal synthesis flux or
+      receptor engagement, and no ordinary-food effective dose or clinical benefit is established. Direct is
+      relative to this biosynthetic operation, not direct food content of synaptamide.
     canonical_identity:
       status: resolved
       substance_id: dha-docosahexaenoic-acid
       substance_href: /docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/dha-docosahexaenoic-acid
       verification: Registry ID and canonical page identity agree.
+    dietary_input: true
+    substance_id: dha-docosahexaenoic-acid
+    dietary_input_note: >-
+      2026-10-26: existing Direct capacity overlay and canonical source record retained; missing
+      dietary-applicability field resolved under an explicit Type A assessment. Direct is relative to
+      ethanolamide production, not direct metabolite content of food.
   - atom_id: PM2-DIT-2
-    input: Eicosapentaenoic acid (EPA)
+    input: EPA (Eicosapentaenoic Acid)
     input_type: precursor
     biological_role: EPA supply supports formation of its corresponding ethanolamide, EPEA.
     evidence_source:
@@ -264,42 +350,58 @@ dietary_input_traceability:
         - pu_fatty_acid_ethanolamides_2016
         - yang_omega3_endocannabinoids_2019
     evidence_limitation: >-
-      Plasma concentration is not neural synthesis flux; mixtures do not isolate every component.
-      Active-arm comparison and clinical associations do not establish precursor-mediated clinical
-      benefit or ordinary-food equivalence.
+      The oral EPA/DHA intervention evidence measures circulating corresponding ethanolamides, not neuronal
+      synthesis rates or independent clinical mediation. Preserve active-arm, formulation and mixture limits.
+      Direct refers to substrate provision to production; food EPA content is not food EPEA content or a
+      quantified conversion yield.
     canonical_identity:
       status: resolved
       substance_id: epa-eicosapentaenoic-acid
       substance_href: /docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/epa-eicosapentaenoic-acid
       verification: Registry ID and canonical page identity agree.
+    dietary_input: true
+    substance_id: epa-eicosapentaenoic-acid
+    dietary_input_note: >-
+      2026-10-26: existing Direct capacity overlay and canonical source record retained; missing
+      dietary-applicability field resolved under an explicit Type A assessment. Direct is relative to
+      ethanolamide production, not direct metabolite content of food.
 dietary_lever_atoms:
   - atom_id: PM2-DIT-1
     relationship_layer: dietary-requirement
     relationship_mode: capacity-requirement
     dietary_addressability: direct
     requirement_classification: direct
-    claim_ceiling: dietary-provision
-    permitted_wording: DHA supplies the acyl chain used to form N-docosahexaenoyl-PE and synaptamide.
-    evidence_limitation: Cell conversion is not a human brain incorporation rate or an optimal oral dose.
+    claim_ceiling: biological-dependency
+    permitted_wording: >-
+      Dietary DHA supplies the fatty-acyl substrate for the PM’s omega-3 ethanolamide-production operation,
+      including incorporation into N-docosahexaenoyl-PE and synaptamide formation.
+    evidence_limitation: >-
+      Labelled neural-cell precursor experiments support formation; controlled oral-oil studies support
+      corresponding plasma ethanolamide availability. Plasma concentration is not neuronal synthesis flux or
+      receptor engagement, and no ordinary-food effective dose or clinical benefit is established. Direct is
+      relative to this biosynthetic operation, not direct food content of synaptamide.
   - atom_id: PM2-DIT-2
     relationship_layer: dietary-requirement
     relationship_mode: capacity-requirement
     dietary_addressability: direct
     requirement_classification: direct
-    claim_ceiling: dietary-provision
-    permitted_wording: EPA supply supports formation of its corresponding ethanolamide, EPEA.
+    claim_ceiling: biological-dependency
+    permitted_wording: >-
+      Dietary EPA supplies the fatty-acyl precursor for the corresponding EPEA-production arm of the PM’s
+      omega-3 ethanolamide operation.
     evidence_limitation: >-
-      Plasma concentration is not neural synthesis flux; mixtures do not isolate every component.
-      Active-arm comparison and clinical associations do not establish precursor-mediated clinical
-      benefit or ordinary-food equivalence.
+      The oral EPA/DHA intervention evidence measures circulating corresponding ethanolamides, not neuronal
+      synthesis rates or independent clinical mediation. Preserve active-arm, formulation and mixture limits.
+      Direct refers to substrate provision to production; food EPA content is not food EPEA content or a
+      quantified conversion yield.
 dietary_lever_presentations:
   - atom_id: PM2-DIT-1
-    label: Docosahexaenoic acid (DHA)
+    label: DHA (Docosahexaenoic Acid)
     presentation_section: 3.1.1
     reader_description: DHA supplies the acyl chain used to form N-docosahexaenoyl-PE and synaptamide.
     description_finding_id: PM2-F1
   - atom_id: PM2-DIT-2
-    label: Eicosapentaenoic acid (EPA)
+    label: EPA (Eicosapentaenoic Acid)
     presentation_section: 3.1.1
     reader_description: EPA supply supports formation of its corresponding ethanolamide, EPEA.
     description_finding_id: PM2-F2
@@ -311,16 +413,16 @@ kc_applicability_adjudications:
     arm_id: ecs-pm2-resource-supply
     disposition: unresolved
     rationale: >-
-      The legacy ECS pool lacks an admitted canonical constituent definition. Specific precursor biology
-      is preserved; it cannot silently validate the entire legacy phospholipid/choline pool.
+      The legacy ECS pool lacks an admitted canonical constituent definition. Specific precursor biology is
+      preserved; it cannot silently validate the entire legacy phospholipid/choline pool.
     evidence_source:
       finding_ids:
         - PM2-F1
       citation_keys:
         - kevala_synaptamide_precursors_2020
     remaining_gap: >-
-      Reconcile the canonical pool and individually adjudicate its constituents against this PM; no
-      downstream inheritance.
+      Reconcile the canonical pool and individually adjudicate its constituents against this PM; no downstream
+      inheritance.
 intervention_dominance_assessment:
   evidence_qualification:
     label: Diet-Dominant
@@ -345,8 +447,8 @@ intervention_dominance_assessment:
     selected_groups:
       - '3.1'
     rationale: >-
-      The selected group contains the most direct evidence-qualified exposure identified for this PM in
-      the bounded review.
+      The selected group contains the most direct evidence-qualified exposure identified for this PM in the
+      bounded review.
     assessments:
       - group_id: '3.1'
         relevance: Omega-3 exposure changes corresponding circulating ethanolamides.
@@ -357,21 +459,20 @@ stage2ab_assessment_history:
     reason: Independent ECS/Hormones evidence and input-specificity reassessment; original ratings preserved.
     previous_records:
       mission: >-
-        Sustain omega-3-derived ethanolamide production so endocannabinoidome neuromodulation stays
-        supplied from dietary fat status.
+        Sustain omega-3-derived ethanolamide production so endocannabinoidome neuromodulation stays supplied
+        from dietary fat status.
       key_constraints:
         - BRS-X(ECS-KC1) - Phospholipid & NAPE Precursor Availability
       cofactors:
         - EPA
         - DHA
       summary: >-
-        Supports production of omega-3-derived ethanolamides and related signalling molecules, including
-        DHEA and EPEA (endocannabinoidome lipids built from EPA and DHA rather than from arachidonic
-        acid, the precursor for classical endocannabinoids like anandamide). This pathway links dietary
-        long-chain omega-3 status directly to endocannabinoidome neuromodulation, providing an
-        omega-3-specific signalling branch distinct from NAPE/NAE biosynthesis from other phospholipid
-        precursors. Habitual EPA and DHA intake, not isolated dosing, determines how much of this
-        signalling capacity exists.
+        Supports production of omega-3-derived ethanolamides and related signalling molecules, including DHEA
+        and EPEA (endocannabinoidome lipids built from EPA and DHA rather than from arachidonic acid, the
+        precursor for classical endocannabinoids like anandamide). This pathway links dietary long-chain
+        omega-3 status directly to endocannabinoidome neuromodulation, providing an omega-3-specific
+        signalling branch distinct from NAPE/NAE biosynthesis from other phospholipid precursors. Habitual EPA
+        and DHA intake, not isolated dosing, determines how much of this signalling capacity exists.
       intervention_dominance: Diet-Dominant
       phenome_relationships:
         - target_phenome: Cognitive Clarity
@@ -393,8 +494,8 @@ stage2ab_assessment_history:
           confidence: low-medium
           evidence_level: mechanistic
           rationale: >-
-            DHEA and related omega-3 ethanolamides may intersect with anti-inflammatory and
-            stress-buffering endocannabinoidome pathways.
+            DHEA and related omega-3 ethanolamides may intersect with anti-inflammatory and stress-buffering
+            endocannabinoidome pathways.
           references:
             - index: 1
               label: Watson et al. (2019)
@@ -431,13 +532,34 @@ list_image: /img/biological-targets/brs-x-ecs-portrait-thumbnail.jpg
 stage2a_scope_review:
   pm_id: BRS-X(ECS-PM2)
   issue: >-
-    ALA-to-EPA/DHA-to-neural ethanolamide supply was not established as a PM-specific dietary
-    relationship; no automatic ALA admission.
+    ALA-to-EPA/DHA-to-neural ethanolamide supply was not established as a PM-specific dietary relationship; no
+    automatic ALA admission.
   disposition: pending-scope-review
   instruction: >-
-    Preserve identity and mission pending review; current evidence statements remain bounded. No
-    automatic rating or parent-FM uplift.
-sidebar_label: "BRS-X(ECS-PM2) — Omega-3-Derived Endocannabinoidome Signalling"
+    Preserve identity and mission pending review; current evidence statements remain bounded. No automatic
+    rating or parent-FM uplift.
+sidebar_label: BRS-X(ECS-PM2) — Omega-3-Derived Endocannabinoidome Signalling
+evidence_tabs_version: 1
+evidence_gaps_tab: true
+evidence_gaps:
+  - id: PM2-EG-RECOVERY-1
+    title: ALA conversion to omega-3 ethanolamide substrates
+    establishes: DHA/EPA precursor provision to the production operation is separately admitted.
+    cannot_establish: >-
+      ALA cannot automatically inherit their admissions: conversion, acyl-pool incorporation and corresponding
+      ethanolamide formation must be distinguished.
+    missing_link: >-
+      ALA cannot automatically inherit their admissions: conversion, acyl-pool incorporation and corresponding
+      ethanolamide formation must be distinguished.
+    required_evidence: >-
+      Complete the ALA-to-specific acyl precursor-to-ethanolamide route with formulation, tissue and
+      conversion limitations; do not infer brain effects from plasma alone.
+    affected_relationship: ALA conversion to omega-3 ethanolamide substrates
+    finding_ids:
+      - PM2-F1
+    citation_keys:
+      - kevala_synaptamide_precursors_2020
+    review_date: '2026-10-26'
 ---
 
 <p class="brs-pm-thumbnail-wrap"><img src="/img/biological-targets/brs-x-ecs-portrait-thumbnail.jpg" alt="BRS-X(ECS)" class="brs-pm-thumbnail" /></p>
@@ -478,8 +600,18 @@ EPA and DHA can supply the fatty-acid portions of omega-3-derived signalling lip
 <strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-- Docosahexaenoic acid (DHA)
-- Eicosapentaenoic acid (EPA)
+
+
+
+
+
+
+
+
+- DHA (Docosahexaenoic Acid)
+
+- EPA (Eicosapentaenoic Acid)
+
 </div>
 </div>
 </div>
@@ -488,6 +620,8 @@ EPA and DHA can supply the fatty-acid portions of omega-3-derived signalling lip
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+
+
 <strong>3.1.2 Cofactors and Substrates</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
@@ -545,13 +679,8 @@ Both exposures supplied N-docosahexaenoyl-PE and synaptamide; equimolar free DHA
 
 ### 4.1 Scientific Findings
 
-#### Summary
 
-Cell tracing establishes DHA conversion, and human exposures support circulating EPA/DHA-derived ethanolamide responses. These endpoints support precursor supply; they do not establish brain flux or causal mood benefit.
-
-<ScientificFinding finding={{"id":"PM2-F1","finding_label":"DHA supplies neuronal synaptamide precursors","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Both exposures supplied N-docosahexaenoyl-PE and synaptamide; equimolar free DHA generated more synaptamide.","finding_statement":"Both exposures supplied N-docosahexaenoyl-PE and synaptamide; equimolar free DHA generated more synaptamide.","finding_interpretation":"Cell conversion is not a human brain incorporation rate or an optimal oral dose.","synthesis":"Both exposures supplied N-docosahexaenoyl-PE and synaptamide; equimolar free DHA generated more synaptamide.","synthesis_limitations":"Cell conversion is not a human brain incorporation rate or an optimal oral dose.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Kevala et al. (2020)","citation_key":"kevala_synaptamide_precursors_2020","href":"/docs/papers/BRAIN-Diet-References#kevala_synaptamide_precursors_2020","data_level":"Cellular / Molecular","evidence_source":"bounded-external-search","directional_finding":"Both exposures supplied N-docosahexaenoyl-PE and synaptamide; equimolar free DHA generated more synaptamide.","assessment":{"study":"Labelled DHA and DHA-lysophosphatidylcholine in Neuro2A cells; precursor and synaptamide measurements.","population":"Labelled DHA and DHA-lysophosphatidylcholine in Neuro2A cells; precursor and synaptamide measurements.","result":"Both exposures supplied N-docosahexaenoyl-PE and synaptamide; equimolar free DHA generated more synaptamide.","effect_magnitude":"Only the extracted directional comparison is used; no pooled estimate is asserted.","evidence_summary":"Both exposures supplied N-docosahexaenoyl-PE and synaptamide; equimolar free DHA generated more synaptamide.","limitations":"Cell conversion is not a human brain incorporation rate or an optimal oral dose.","retrieval_scope":"Primary abstract and Figures 1–8 captions retrieved.","source_url":"https://pubmed.ncbi.nlm.nih.gov/33233525/"},"canonical_reference":{"author_year":"Kevala et al. (2020)","number":4,"anchor":"#pm-ref-4"}}],"connected_supportive_evidence":[{"label":"Watson et al. (2019)","citation_key":"watson_emerging_2019","href":"/docs/papers/BRAIN-Diet-References#watson_emerging_2019","why_relevant":"Preserved attached corpus and original relationship provenance.","why_excluded":"Contextual synthesis of this pathway. It is not used as an independent exposure-specific admission or a new outcome-confidence assessment.","canonical_reference":{"author_year":"Watson et al. (2019)","number":1,"anchor":"#pm-ref-1"}},{"label":"Saleh-Ghadimi et al. (2020)","citation_key":"saleh-ghadimi_endocannabinoid_2020","href":"/docs/papers/BRAIN-Diet-References#saleh-ghadimi_endocannabinoid_2020","why_relevant":"Preserved attached corpus and original relationship provenance.","why_excluded":"Contextual synthesis of this pathway. It is not used as an independent exposure-specific admission or a new outcome-confidence assessment.","canonical_reference":{"author_year":"Saleh-Ghadimi et al. (2020)","number":2,"anchor":"#pm-ref-2"}},{"label":"Meijerink et al. (2011)","citation_key":"meijerink_docosahexaenoylethanolamine_2011","href":"/docs/papers/BRAIN-Diet-References#meijerink_docosahexaenoylethanolamine_2011","why_relevant":"Preserved attached corpus and original relationship provenance.","why_excluded":"Macrophage inflammation endpoint; not proof of human neural production or stress benefit.","canonical_reference":{"author_year":"Meijerink et al. (2011)","number":3,"anchor":"#pm-ref-3"}}]}} />
-
-<ScientificFinding finding={{"id":"PM2-F2","finding_label":"Dietary omega-3 exposures change corresponding circulating ethanolamides","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"DHA-enriched oil increased its corresponding plasma ethanolamide. EPA-containing arms had higher plasma EPEA than DHA alone; combined exposure also changed DHEA.","finding_statement":"DHA-enriched oil increased its corresponding plasma ethanolamide. EPA-containing arms had higher plasma EPEA than DHA alone; combined exposure also changed DHEA.","finding_interpretation":"Plasma concentration is not neural synthesis flux; mixtures do not isolate every component. Active-arm comparison and clinical associations do not establish precursor-mediated clinical benefit or ordinary-food equivalence.","synthesis":"DHA-enriched oil increased its corresponding plasma ethanolamide. EPA-containing arms had higher plasma EPEA than DHA alone; combined exposure also changed DHEA.","synthesis_limitations":"Plasma concentration is not neural synthesis flux; mixtures do not isolate every component. Active-arm comparison and clinical associations do not establish precursor-mediated clinical benefit or ordinary-food equivalence.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Pu et al. (2016)","citation_key":"pu_fatty_acid_ethanolamides_2016","href":"/docs/papers/BRAIN-Diet-References#pu_fatty_acid_ethanolamides_2016","data_level":"Human Study","evidence_source":"bounded-external-search","directional_finding":"DHA-enriched oil increased its corresponding plasma ethanolamide.","assessment":{"study":"Five-period randomised double-blind crossover oil interventions in adults with abdominal obesity.","population":"Five-period randomised double-blind crossover oil interventions in adults with abdominal obesity.","result":"DHA-enriched oil increased its corresponding plasma ethanolamide.","effect_magnitude":"Only the extracted directional comparison is used; no pooled estimate is asserted.","evidence_summary":"DHA-enriched oil increased its corresponding plasma ethanolamide.","limitations":"Plasma concentration is not neural synthesis flux; mixtures do not isolate every component.","retrieval_scope":"Primary abstract retrieved; unextracted full-method details are not asserted.","source_url":"https://pubmed.ncbi.nlm.nih.gov/26806592/"},"canonical_reference":{"author_year":"Pu et al. (2016)","number":5,"anchor":"#pm-ref-5"}},{"label":"Yang et al. (2019)","citation_key":"yang_omega3_endocannabinoids_2019","href":"/docs/papers/BRAIN-Diet-References#yang_omega3_endocannabinoids_2019","data_level":"Human Study","evidence_source":"bounded-external-search","directional_finding":"EPA-containing arms had higher plasma EPEA than DHA alone; combined exposure also changed DHEA.","assessment":{"study":"Eighty-eight participants with major depressive disorder, randomised EPA, DHA or combined exposure for twelve weeks; no placebo.","population":"Eighty-eight participants with major depressive disorder, randomised EPA, DHA or combined exposure for twelve weeks; no placebo.","result":"EPA-containing arms had higher plasma EPEA than DHA alone; combined exposure also changed DHEA.","effect_magnitude":"Only the extracted directional comparison is used; no pooled estimate is asserted.","evidence_summary":"EPA-containing arms had higher plasma EPEA than DHA alone; combined exposure also changed DHEA.","limitations":"Active-arm comparison and clinical associations do not establish precursor-mediated clinical benefit or ordinary-food equivalence.","retrieval_scope":"Primary abstract retrieved; unextracted full-method details are not asserted.","source_url":"https://pubmed.ncbi.nlm.nih.gov/31269506/"},"canonical_reference":{"author_year":"Yang et al. (2019)","number":6,"anchor":"#pm-ref-6"}}],"connected_supportive_evidence":[]}} />
+[Scientific Findings and their source assessments are available in Evidence & Audit](?review=1#scientific-findings).
 
 ## 5. BRS Pathways and Connections
 

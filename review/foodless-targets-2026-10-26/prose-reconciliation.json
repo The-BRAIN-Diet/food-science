@@ -1,0 +1,37 @@
+[
+  {
+    "file": "docs/substances/bioactive-compounds/uridine.md",
+    "old": "No food page here has a measured uridine amount, so none is linked as a contains relationship.",
+    "new": "Milk now has source-specific qualitative provenance for free uridine; no general food amount or effective dose is inferred."
+  },
+  {
+    "file": "docs/substances/nutrients/micronutrients/vitamins/pyridoxal-5-phosphate.md",
+    "old": "The dietary route is conversion, not a separate food constituent.",
+    "new": "Dietary vitamin conversion and occurrence of phosphorylated vitamers in foods are separate relationships. Food presence does not establish intact cofactor delivery to tissues."
+  },
+  {
+    "file": "docs/substances/nutrients/micronutrients/vitamins/flavin-mononucleotide.md",
+    "old": "The dietary route is conversion, not a separate food constituent.",
+    "new": "Dietary vitamin conversion and occurrence of phosphorylated vitamers in foods are separate relationships. Food presence does not establish intact cofactor delivery to tissues."
+  },
+  {
+    "file": "docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine.md",
+    "old": "No food page here has a verified glutamine amount, so none is linked.",
+    "new": "Qualitative protein-residue composition can be linked independently of a precise free-glutamine amount or supplemental dose."
+  },
+  {
+    "file": "docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamate.md",
+    "old": "No food page here is linked, because a contains relationship would not carry those biological results.",
+    "new": "Food-composition links establish occurrence only; they do not carry those biological results."
+  },
+  {
+    "file": "docs/substances/nutrients/macronutrients/carbohydrates/glucose.md",
+    "old": "No food page is linked from this result, because composition would not carry the neural finding.",
+    "new": "Direct glucose composition is linked separately from the neural finding; no efficacy relationship is inferred."
+  },
+  {
+    "file": "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/arabinan.md",
+    "old": "No food page has a measured arabinan amount, so none is linked.",
+    "new": "Qualitative pea-cotyledon evidence supports occurrence of pectic arabinan without providing a food dose."
+  }
+]

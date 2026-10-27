@@ -52,7 +52,7 @@ export function formatInputSectionId(relationship, section) {
 
 export function selectBrsReviewData(primary, generatedScopes, brs) {
     if (brs === 'all') {
-        const scopes = [1,2,3,4,5,6].map(n=>selectBrsReviewData(primary,generatedScopes,`BRS${n}`)).filter(s=>s.available).map(s=>s.data);
+        const scopes = ['BRS1','BRS2','BRS3','BRS4','BRS5','BRS6','BRS-X'].map(brs=>selectBrsReviewData(primary,generatedScopes,brs)).filter(s=>s.available).map(s=>s.data);
         const unique = key => [...new Map(scopes.flatMap(s=>s[key] || []).map(row=>[row.id || row.pm_id || row.kc_id,row])).values()];
         return {available:scopes.length>0,data:{scope:'all',relationships:unique('relationships'),food_sources:unique('food_sources'),substances:unique('substances'),pools:unique('pools'),coverage:unique('coverage'),gaps:scopes.flatMap(s=>s.gaps || [])}};
     }

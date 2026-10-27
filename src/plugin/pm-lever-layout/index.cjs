@@ -111,6 +111,10 @@ function applyFindingPresentation(tree, data) {
     const match = heading.type === 'heading' && text(heading).match(/^(\d+)\.1 Scientific Findings(?: \(\d+\))?$/);
     if (!match) continue;
     const ids = new Set();
+    // Audit-only pages have no inline Finding nodes; count the same active canonical records.
+    if (data.evidence_tabs_version === 1) for (const finding of findings.values()) {
+      if (/^PM\d+-F\d+$/.test(finding.id) && !['interpretive-constraint','scientific-principle','biochemical-provenance','contextual','historical','retired'].includes(finding.presentation) && finding.status !== 'retired' && !finding.historical && !finding.retired && !selectedPrinciples.includes(finding.id)) ids.add(finding.id);
+    }
     for (const node of tree.children.slice(index + 1)) {
       if (node.type === 'heading' && node.depth <= heading.depth) break;
       walk(node, child => {
@@ -138,6 +142,17 @@ function applyFindingPresentation(tree, data) {
 }
 function applyLeverLayout(tree, data) {
   if (!data.pm_id) return;
+  // Moving the last participant to dietary inputs can leave an empty source panel.
+  // Describe that display state without implying that the biology has no cofactors.
+  walk(tree, node => {
+    if (node.name !== 'div' || !String(attr(node, 'class') || attr(node, 'className') || '').split(/\s+/).includes('brs-fm-hub-item')) return;
+    if (!/^(?:[134]\.\d+)\.2 Cofactors (?:and|&) Substrates$/.test(text(summary(node) || {}).trim())) return;
+    let panel;
+    walk(node, child => {
+      if (!panel && child.name === 'div' && String(attr(child, 'class') || attr(child, 'className') || '').split(/\s+/).includes('brs-fm-hub-panel')) panel = child;
+    });
+    if (panel && !panel.children?.length) panel.children = [{type: 'paragraph', children: [{type: 'text', value: 'No separate cofactors or substrates are listed here.'}]}];
+  });
   applyFindingPresentation(tree, data);
   // Reader heading only: source decisions, canonical section IDs and old anchors stay intact.
   walk(tree, n => {

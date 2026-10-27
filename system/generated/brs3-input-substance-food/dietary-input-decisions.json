@@ -56,6 +56,14 @@
     "flags": []
   },
   {
+    "relationship_id": "BRS3-FM1-PM2::PM2-DIT-RECOVERY-OLIGOFRUCTOSE",
+    "source_record": "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx#dietary_input_traceability/PM2-DIT-RECOVERY-OLIGOFRUCTOSE",
+    "input": "Oligofructose",
+    "dietary_input": true,
+    "note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type B gate; food composition does not establish an effective intervention dose.",
+    "flags": []
+  },
+  {
     "relationship_id": "BRS3-FM2-PM3::PM3-DIT-1",
     "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx#dietary_input_traceability/PM3-DIT-1",
     "input": "Sulforaphane",
@@ -75,8 +83,8 @@
     "relationship_id": "BRS3-FM2-PM4::PM4-DIT-2",
     "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx#dietary_input_traceability/PM4-DIT-2",
     "input": "Zinc",
-    "dietary_input": false,
-    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "dietary_input": true,
+    "note": "2026-10-26 recovery: admitted Type A capacity under the functional-dependency and dietary-supply gate. The original biochemical-only record and its rationale are preserved in the recovery history. No additional-intake efficacy is asserted.",
     "flags": []
   },
   {
@@ -91,8 +99,8 @@
     "relationship_id": "BRS3-FM2-PM4::PM4-DIT-4",
     "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx#dietary_input_traceability/PM4-DIT-4",
     "input": "Manganese",
-    "dietary_input": false,
-    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "dietary_input": true,
+    "note": "2026-10-26: Type A capacity supply admitted after dietary manganese depletion evidence was assessed separately from absence of a human supplementation response. Original No decision and text retained in recovery history.",
     "flags": []
   },
   {
@@ -104,11 +112,27 @@
     "flags": []
   },
   {
+    "relationship_id": "BRS3-FM2-PM4::PM4-DIT-RECOVERY-IRON",
+    "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx#dietary_input_traceability/PM4-DIT-RECOVERY-IRON",
+    "input": "Iron",
+    "dietary_input": true,
+    "note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition does not establish an effective intervention dose.",
+    "flags": []
+  },
+  {
     "relationship_id": "BRS3-FM2-PM5::PM5-DIT-1",
     "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx#dietary_input_traceability/PM5-DIT-1",
     "input": "Vitamin E",
     "dietary_input": true,
     "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM2-PM5::PM5-DIT-RECOVERY-SELENIUM",
+    "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx#dietary_input_traceability/PM5-DIT-RECOVERY-SELENIUM",
+    "input": "Selenium",
+    "dietary_input": true,
+    "note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition does not establish an effective intervention dose.",
     "flags": []
   },
   {
@@ -125,6 +149,38 @@
     "input": "Vitamin E",
     "dietary_input": true,
     "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM2-PM6::PM6-DIT-3",
+    "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx#dietary_input_traceability/PM6-DIT-3",
+    "input": "Vitamin B2",
+    "dietary_input": true,
+    "note": "2026-10-26: Type A Derived capacity admitted after primary human red-cell enzyme evidence and RFK/FLAD1 conversion review. No extra-intake or clinical-benefit claim.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM2-PM6::PM6-DIT-4",
+    "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx#dietary_input_traceability/PM6-DIT-4",
+    "input": "Flavin adenine dinucleotide",
+    "dietary_input": false,
+    "note": "Intracellular cofactor target for the separately admitted dietary riboflavin route; not an independent dietary FAD requirement or direct food-content claim.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM2-PM6::PM6-DIT-RECOVERY-SELENIUM",
+    "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx#dietary_input_traceability/PM6-DIT-RECOVERY-SELENIUM",
+    "input": "Selenium",
+    "dietary_input": true,
+    "note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition does not establish an effective intervention dose.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM3-PM7::PM7-DIT-RECOVERY-DHA-DOCOSAHEXAENOIC-ACID",
+    "source_record": "docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx#dietary_input_traceability/PM7-DIT-RECOVERY-DHA-DOCOSAHEXAENOIC-ACID",
+    "input": "DHA (Docosahexaenoic Acid)",
+    "dietary_input": true,
+    "note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type B gate; food composition does not establish an effective intervention dose.",
     "flags": []
   },
   {

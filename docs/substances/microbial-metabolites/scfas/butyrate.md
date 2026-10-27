@@ -1,4 +1,49 @@
 ---
+formation_pathways:
+  - id: RS-MICROBIAL-BUTYRATE
+    from: resistant-starch
+    to: butyrate
+    relationship: microbial-formation
+    status: supported
+    process: Microbial resistant-starch utilisation and community cross-feeding can contribute to butyrate formation
+    dependencies:
+      - Accessible resistant-starch preparation reaching the colon
+      - Capable primary degraders and butyrate-producing community members
+      - Suitable anaerobic fermentation environment
+    evidence:
+      statement: >-
+        RS2/RS3 utilisation and fermentation studies support community-dependent production; food composition
+        is separately established.
+      sources:
+        - https://doi.org/10.1038/ismej.2012.4
+        - https://doi.org/10.1002/mnfr.200600106
+    limitations: >-
+      Defined starch preparations and microbial contexts; no conversion yield, guaranteed butyrate response
+      from bananas, potatoes or legumes, or established PM1 tight-junction mediation. Ruminococcus bromii
+      degradation is not itself proof of butyrate production.
+    pm_evidence_refs:
+      - BRS5-FM2-PM5::PM5-F1
+    downstream_review: BRS5-FM1-PM1::PM1-H1
+  - id: FOS-GOS-BUTYRATE-REVIEW
+    from: fructo-galacto-oligosaccharides
+    to: butyrate
+    relationship: microbial-formation
+    status: unresolved
+    process: Proposed microbial fermentation of the studied FOS/GOS mixture
+    dependencies:
+      - Defined mixture
+      - Appropriate microbial community and colonic exposure
+    evidence:
+      statement: >-
+        Current source adjudication does not establish the mixture-specific butyrate-production claim;
+        anatomical and indirect/modelled endpoints remain distinct.
+      sources:
+        - https://doi.org/10.1016/j.isci.2024.109208
+    limitations: >-
+      Unresolved conversion/admission; neither an ileal null nor indirect metabolite estimates establish or
+      disprove colonic substrate-to-butyrate conversion. Not an active pathway.
+    pm_evidence_refs:
+      - BRS5-FM2-PM5::PM5-DIT-2
 id: butyrate
 title: Butyrate
 sidebar_label: Butyrate
@@ -33,11 +78,7 @@ Evidence spans cell systems, animal models, human observational work and direct 
 
 Most Butyrate reaching the colon is produced by gut microbes fermenting suitable dietary substrates [2].
 
-<DietaryOriginProjection
-  target="Butyrate"
-  pmId="BRS5-FM1-PM1"
-  transformationLabel="microbial fermentation"
-/>
+<DietaryPathways targetId="butyrate" />
 
 ## Research Spotlights & Evidence Checks
 
@@ -48,13 +89,15 @@ Most Butyrate reaching the colon is produced by gut microbes fermenting suitable
   summary="Direct Butyrate exposure promoted tight-junction assembly in an epithelial model, supporting the PM1 substrate relationship while not establishing an oral intake threshold or an effect of every fermentable food [1]."
 >
 
-BRS5-FM1-PM1 stores Butyrate as a direct substrate relationship and fermentable dietary fibre as a derived upstream provision relationship. The two atoms preserve the distinction between Butyrate acting at the epithelium and diet supporting microbial production [1,2].
+BRS5-FM1-PM1 preserves Butyrate as a biological substrate record with unresolved dietary applicability, and its historical fermentable-fibre record remains traceable. The complete resistant-starch-derived butyrate → paracellular tight-junction claim remains Hypothesis-1 (Unestablished); separate conversion and cellular observations do not admit this joined dietary route [1,2].
 
 </EvidencePresentation>
 
 ## Foods
 
-<SubstanceFoods tag="Butyrate" />
+Upstream substrate foods are displayed separately under Dietary pathways; they do not establish direct Butyrate content.
+
+<SubstanceFoods tag="Butyrate" directOnly />
 
 ## Recipes
 
@@ -64,7 +107,7 @@ BRS5-FM1-PM1 stores Butyrate as a direct substrate relationship and fermentable 
 
 | Biological Regulatory System | Evidence-qualified relationship | Evidence |
 | --- | --- | --- |
-| [Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system) (BRS5) | BRS5-FM1-PM1 records Butyrate as a direct epithelial substrate and fermentable fibre as a derived upstream provision relationship | [1,2] |
+| [Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system) (BRS5) | PM1 retains the biological substrate and historical fibre records; its joined dietary resistant-starch–butyrate–tight-junction hypothesis remains unestablished | [1,2] |
 | [Inflammation & Oxidative Stress](/docs/biological-targets/inflammation-oxidative-stress) (BRS3) | Anti-inflammatory and redox findings are model- and route-dependent; altered SCFA profiles do not establish causality | [3–5] |
 | [Mitochondrial Function & Bioenergetics](/docs/biological-targets/mitochondrial-function-bioenergetics) (BRS4) | Mitochondrial effects are supported principally by mechanistic and model evidence rather than ordinary food interventions | [4,5] |
 

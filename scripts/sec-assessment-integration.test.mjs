@@ -6,6 +6,7 @@ import {createRequire} from 'node:module';
 import matter from 'gray-matter';
 import {secAssessmentHash,validateSecRegistry,resolveSecAssessment,secTotals,secAssessmentView,secAuditAnchor} from './lib/sec-assessments.mjs';
 import {validateScientificFindings,renderScientificFindingsSection} from './lib/scientific-findings.mjs';
+import * as principles from '../src/lib/scientificPrinciples.mjs';
 import * as auditPresentation from '../src/components/SecCalibrationPreview/auditPresentation.mjs';
 import {findingReaderLabel,findingInterventionLinks} from '../src/lib/scientificFindingPresentation.mjs';
 
@@ -118,11 +119,31 @@ function component(source,imports={}) {
   const mod={exports:{}};new Function('exports','require','module',js)(mod.exports,id=>Object.hasOwn(imports,id)?imports[id]:require(id),mod);return mod.exports;
 }
 const render=(C,p)=>renderToStaticMarkup(React.createElement(C,p));
+// Explicitly load real shared dependencies. Relative imports in transpiled test
+// strings otherwise resolve against scripts/, not the component's own directory.
+const principleImports={'../lib/scientificPrinciples.mjs':principles};
+const disclosure=component(read('src/components/EvidenceGaps/Disclosure.tsx'),{
+  '@docusaurus/router':{useLocation:()=>({hash:''})},
+  '../../client/brsFmHubDropdown':{initBrsFmHubDropdowns(){}},
+}).default;
+const transparencyAudit=component(read('src/components/EvidenceGaps/Audit.tsx'),{
+  '../../../system/framework-qc/pm-open-issues.json':JSON.parse(read('system/framework-qc/pm-open-issues.json')),
+  './Disclosure':disclosure,
+}).default;
+const stage2Review=component(read('src/components/Stage2Review/index.tsx'));
+const legacyFindingImports={...principleImports,
+  '@docusaurus/plugin-content-docs/client':{useDoc:()=>({frontMatter:{}})},
+  '../lib/scientificFindingPresentation.mjs':{findingReaderLabel,findingInterventionLinks},
+  '../client/brsFmHubDropdown':{initBrsFmHubDropdowns(){}},
+  './SecAssessment':{SecAssessmentSummary(){throw Error('Unexpected legacy SEC call');}},
+};
+const currentFinding=component(read('src/components/ScientificFinding.tsx'),legacyFindingImports).default;
 
 test('legacy Finding evidence HTML is unchanged except the approved derived SF title prefix',()=>{
-  const imports={'@docusaurus/plugin-content-docs/client':{useDoc:()=>({frontMatter:{}})},'../lib/scientificFindingPresentation.mjs':{findingReaderLabel,findingInterventionLinks},'../client/brsFmHubDropdown':{initBrsFmHubDropdowns(){}},'./SecAssessment':{SecAssessmentSummary(){throw Error('Unexpected legacy SEC call');}}};
-  const old=component(execFileSync('git',['show','HEAD:src/components/ScientificFinding.tsx'],{encoding:'utf8'}),imports).default;
-  const current=component(read('src/components/ScientificFinding.tsx'),imports).default;
+  // Fixed pre-integration source, not mutable HEAD (which now has SF labels).
+  const baseline=JSON.parse(read('system/sec-assessments/integration-history.json')).baseline;
+  const old=component(execFileSync('git',['show',baseline+':src/components/ScientificFinding.tsx'],{encoding:'utf8'}),legacyFindingImports).default;
+  const current=currentFinding;
   const data=matter(read('system/sec-assessments/history/same-synthesis-before-v1.mdx')).data;
   for(const f of data.scientific_findings) {
     const html=render(current,{finding:f});
@@ -138,6 +159,10 @@ test('reference renderer reuses indicator and audit, exposes pinned history and 
   const module=component(read('src/components/SecAssessment/index.tsx'),{
     '../../../system/sec-assessments/registry.json':registry,
     '../../lib/secAssessments.mjs':{resolveSecAssessment,secAssessmentView,secAuditAnchor},
+    '../../lib/scientificPrinciples.mjs':principles,
+    '../ScientificFinding':currentFinding,
+    '../EvidenceGaps/Disclosure':disclosure,
+    '../EvidenceGaps/Audit':transparencyAudit,
     '../EvidenceConfidenceIndicator':({score})=>React.createElement('span',null,score+'/8'),
     '../SecCalibrationPreview/EvidenceAudit':props=>{auditProps.push(props);return React.createElement('div',null,'Existing audit');},
     '../PmCuratedProvenance':{pmCuratedSources:()=>[]},
@@ -149,16 +174,40 @@ test('reference renderer reuses indicator and audit, exposes pinned history and 
   assert.equal(auditProps[0].assessmentPage,page);
   assert.equal(auditProps[0].assessmentView(r).title,f.finding_label);
   assert.equal(auditProps[0].assessmentView(r).shortId,'SF5');
-  assert.ok(auditProps[0].assessmentRecords.every(x=>x.recordVersion<=r.recordVersion));
+  assert.deepEqual(auditProps[0].assessmentRecords,[r]);
+  // Older versions live in record history; a newer registry entry must never
+  // replace the version pinned by the Finding or become a duplicate disclosure.
+  assert.ok(auditProps[0].assessmentRecords.every(x=>x.recordVersion!==later.recordVersion));
+  const bad={...f,sec_assessment_ref:{...f.sec_assessment_ref,sha256:'0'.repeat(64)}};
+  const unavailable=render(module.SecAssessmentSummary,{finding:bad,pmId:r.pmId});
+  assert.match(unavailable,/Assessment unavailable/);assert.doesNotMatch(unavailable,/5\/8/);
   assert.deepEqual(page,{review_status:'unreviewed',correction_status:'pending'});
   assert.equal(auditProps[0].recordAnchor(r),secAuditAnchor(r));
 });
 
+function assertPublicationGate(scripts) {
+  // Approved dietary governance runs first. SEC must still fail closed before
+  // generation; no semicolon, OR-chain or ignored failure may bypass either gate.
+  assert.deepEqual(scripts.prebuild.split(/\s*&&\s*/),[
+    'node scripts/check-dietary-input-governance.mjs',
+    'node scripts/check-sec-assessments.mjs',
+    'node scripts/generate-all-input-mappings.mjs',
+  ]);
+  assert.equal(scripts.predeploy,'node scripts/check-sec-assessments.mjs');
+}
+
 test('publication gate is installed and approved production registry validates',()=>{
   assert.deepEqual(validateSecRegistry(JSON.parse(read('system/sec-assessments/registry.json'))),[]);
   const pkg=JSON.parse(read('package.json'));
-  assert.ok(pkg.scripts.prebuild.startsWith('node scripts/check-sec-assessments.mjs &&'));
-  assert.equal(pkg.scripts.predeploy,'node scripts/check-sec-assessments.mjs');
+  assertPublicationGate(pkg.scripts);
+  for(const prebuild of [
+    pkg.scripts.prebuild.replace(' && node scripts/check-sec-assessments.mjs',''),
+    pkg.scripts.prebuild.replaceAll(' && ',' ; '),
+    pkg.scripts.prebuild.replace(' && ',' || '),
+    pkg.scripts.prebuild.replace('check-sec-assessments.mjs','check-sec-assessments.mjs || true'),
+    pkg.scripts.prebuild.split(' && ').reverse().join(' && '),
+  ]) assert.throws(()=>assertPublicationGate({...pkg.scripts,prebuild}));
+  assert.throws(()=>assertPublicationGate({...pkg.scripts,predeploy:'echo skipped'}));
   assert.match(read('scripts/check-sec-assessments.mjs'),/SEC_BASE_REF/);
 });
 
@@ -169,6 +218,7 @@ test('actual shared audit renders canonical factor states and closed version anc
   const Audit=component(read('src/components/SecCalibrationPreview/EvidenceAudit.tsx'),{
     '@docusaurus/router':{useLocation:()=>({pathname:'/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity'})},
     '../ReviewCorrections/PageReviewPanel':()=>null,
+    '../Stage2Review':stage2Review,
     '../../data/frameworkQcPublic':{findPublicPageRecord:()=>null,frameworkQcPublic:{register_path:'/register'}},
     '../EvidenceConfidenceIndicator':{default:({score})=>React.createElement('span',null,score+'/8'),SEC_DISPLAY_LEVELS:[],__esModule:true},
     '../../client/brsFmHubDropdown':{initBrsFmHubDropdowns(){}},
@@ -184,4 +234,8 @@ test('actual shared audit renders canonical factor states and closed version anc
   assert.match(html,/4\/8/);assert.match(html,/Conditional estimate/);
   assert.match(html,/Directness.*1\/2/);assert.match(html,/Bias Protection.*1\/2/);
   assert.match(html,/Review status not recorded/);assert.match(html,/Status unavailable/);
+  const canonical=render(Audit,{panelId:'audit',assessmentRecords:[r],assessmentPmId:r.pmId,assessmentPage:null,assessmentView:secAssessmentView,recordAnchor:secAuditAnchor,showEvidenceReviewStatus:false});
+  assert.doesNotMatch(canonical,/Evidence review status|Review status not recorded/);
+  assert.match(canonical,/4\/8/);assert.match(canonical,/Conditional estimate/);
+  assert.ok(canonical.includes('id="'+secAuditAnchor(r)+'"'));
 });

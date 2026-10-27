@@ -1,0 +1,49 @@
+{
+  "mode": "actual localhost interaction through CUA",
+  "date": "2026-10-26",
+  "checks": [
+    {
+      "pm": "BRS-X(ECS-PM2)",
+      "path": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling",
+      "passed": [
+        "1.1 and 1.1.1 expand",
+        "DHA/EPA display Algal Oil and quantified Salmon Roe",
+        "DHA disclosure expands",
+        "Evidence Gap 1 opens",
+        "PM2-F1 deep link selects Evidence & Audit and expands SF1"
+      ]
+    },
+    {
+      "pm": "BRS-X(ECS-PM1)",
+      "path": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity",
+      "passed": [
+        "3.1 and 3.1.1 expand",
+        "Zinc displays Nutritional Yeast and Oysters with quantity and form",
+        "Zinc disclosure expands",
+        "Open Issues tab shows empty state",
+        "Evidence & Audit retains three Findings"
+      ]
+    },
+    {
+      "pm": "Milk and NAD+ pages",
+      "path": "/docs/foods/milk",
+      "passed": [
+        "Milk exposes the source-backed NR and indispensable-amino-acid links",
+        "Pathway disclosure expands through NRK1 and NMNAT to NAD+",
+        "Food occurrence and supplement efficacy remain distinct",
+        "NAD+ page explicitly shows no verified direct food-content edge and offers upstream pathways separately"
+      ]
+    },
+    {
+      "pm": "BRS-X(Hormones-PM5)",
+      "path": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability",
+      "passed": [
+        "The new receptor-structural Zinc row resolves plant and animal sources",
+        "The historical ligand-supply atom remains unchanged",
+        "Scientific Principle SP1 deep link selects Evidence & Audit and expands its versioned human AR provenance",
+        "No SEC status or factor fields appear in the Principle"
+      ]
+    }
+  ],
+  "qualification": "These are representative interactive checks; all64 MDX/schema checks do not imply all64 interactive browser tests."
+}

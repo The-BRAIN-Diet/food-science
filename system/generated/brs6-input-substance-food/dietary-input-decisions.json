@@ -6,5 +6,21 @@
     "dietary_input": true,
     "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
     "flags": []
+  },
+  {
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-RECOVERY-RESISTANT-STARCH",
+    "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-RESISTANT-STARCH",
+    "input": "Resistant starch",
+    "dietary_input": true,
+    "note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type B gate; food composition does not establish an effective intervention dose.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS6-FM4-PM8::PM8-DIT-12",
+    "source_record": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx#dietary_input_traceability/PM8-DIT-12",
+    "input": "DHA (Docosahexaenoic Acid)",
+    "dietary_input": true,
+    "note": "Type B regulatory relationship; no dietary necessity, brain efficacy or ordinary-food intervention equivalence.",
+    "flags": []
   }
 ]

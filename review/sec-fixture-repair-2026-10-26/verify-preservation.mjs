@@ -1,0 +1,25 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import assert from 'node:assert/strict';
+import matter from 'gray-matter';
+import {listMechanismMdxFiles} from '../../scripts/lib/mechanism-page-validation.mjs';
+const dir='review/sec-fixture-repair-2026-10-26';
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+const before=read(dir+'/scientific-baseline.json'),rollup=read(dir+'/rollup-baseline.json');
+const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+const changed=entries=>Object.entries(entries).filter(([p,h])=>!fs.existsSync(p)||hash(p)!==h).map(([p])=>p);
+const pms=listMechanismMdxFiles(process.cwd(),'pm').map(p=>path.relative(process.cwd(),p)).filter(p=>matter(fs.readFileSync(p,'utf8')).data.pm_id);
+for(const p of pms)assert.ok(before.files[p],`Missing pre-repair baseline: ${p}`);
+const registry=read('system/sec-assessments/registry.json');
+const recovery=read('review/dietary-recovery-2026-10-26/continuation/completion-summary.json').metrics.continuation;
+const report={scientificFilesChecked:Object.keys(before.files).length,scientificFilesChanged:changed(before.files),rollupAndRecoveryArtifactsChecked:Object.keys(rollup).length,rollupAndRecoveryArtifactsChanged:changed(rollup),secSnapshotCount:registry.assessments.length,secRegistryByteUnchanged:hash('system/sec-assessments/registry.json')===before.files['system/sec-assessments/registry.json'],canonicalPmCount:pms.length,pmChanges:pms.filter(p=>hash(p)!==before.files[p]),recoveredRelationshipsPreserved:recovery.new_type_A+recovery.new_type_B,recoveredTypes:{A:recovery.new_type_A,B:recovery.new_type_B},buildRerun:'Not required: only tests changed; generation, rendering and production code unchanged.'};
+assert.deepEqual(report.scientificFilesChanged,[]);
+assert.deepEqual(report.rollupAndRecoveryArtifactsChanged,[]);
+assert.deepEqual(report.pmChanges,[]);
+assert.equal(report.secSnapshotCount,98);
+assert.equal(report.canonicalPmCount,64);
+assert.equal(report.recoveredRelationshipsPreserved,34);
+report.findingCountChanges=0; // Every canonical PM byte, including classification and pins, is identical.
+fs.writeFileSync(dir+'/preservation-results.json',JSON.stringify(report,null,2)+'\n');
+console.log(JSON.stringify(report,null,2));

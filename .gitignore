@@ -90,3 +90,11 @@ static/img/recipes/originals/
 /review/deferred-stage2ab-2026-10-23/complete-baseline.json
 /review/deferred-stage2ab-2026-10-23/baseline-bibliography.bib
 /review/deferred-stage2ab-2026-10-23/client/scopes.json
+
+# Reproducible Cross-BRS mapping exports; canonical decisions remain in PM records.
+/system/generated/brs-x-input-substance-food/input-to-substance-to-food.csv
+/system/generated/brs-x-input-substance-food/input-to-substance-to-food.md
+/system/generated/brs-x-input-substance-food/mapping.generated.json
+
+# Lossless repository copy of the dietary-pathway SEC preservation fixture.
+/review/dietary-pathway-activation-2026-10-26/before/sec-registry.json

@@ -1,0 +1,17 @@
+{
+  "scientificFilesChecked": 540,
+  "scientificFilesChanged": [],
+  "rollupAndRecoveryArtifactsChecked": 66,
+  "rollupAndRecoveryArtifactsChanged": [],
+  "secSnapshotCount": 98,
+  "secRegistryByteUnchanged": true,
+  "canonicalPmCount": 64,
+  "pmChanges": [],
+  "recoveredRelationshipsPreserved": 34,
+  "recoveredTypes": {
+    "A": 31,
+    "B": 3
+  },
+  "buildRerun": "Not required: only tests changed; generation, rendering and production code unchanged.",
+  "findingCountChanges": 0
+}

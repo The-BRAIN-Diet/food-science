@@ -497,3 +497,15 @@ establish equivalent bioavailability, brain delivery or nutritional effectivenes
 Preserve existing ordinary composition rankings, including Methionine and magnesium;
 this correction does not initiate a general ranking reassessment or add ontology
 fields, evidence classifications or production Çatak observations.
+
+### Composition-derived indispensable-amino-acid class sources
+
+`nutrition_amino_acid_profiles` on a canonical food stores a source-specific profile, not food–substance edges or a dietary admission. Each profile requires all nine individual `amino_acids` values (histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, valine), gram units, `per 100 g edible portion`, exact material/preparation, same-record `protein_g`, FDC ID/URL and nutrient-row provenance. Preserve database derivation IDs and missing data-point counts. Do not describe every USDA value as an independently measured assay.
+
+`portion` stores a cited household *weight*, source-row ID and explicit scaling multiplier; all nutrient amounts remain per 100 g. The renderer calculates illustrative portion quantities. Do not substitute raw for cooked data, infer nine amounts from protein, or convert missing values to zero. Source-specific protein-quality evidence is separate; concentration sums are not DIAAS or digestibility scores.
+
+The shared `src/lib/aggregateFoodComposition.mjs` resolver validates all nine constituents and emits `relationship: constituent-composition`. It does not write synthetic aggregate contains edges or nine constituent food edges. The PM admission and Type A/B / Direct/Derived fields remain authoritative. Legacy qualitative aggregate edges are preserved as provenance but are not used by this resolver. Show up to ten plant and ten animal sources, ordered by the explicitly labelled nine-amino-acid sum for the stated edible form, with protein, portion and provenance available through the canonical disclosure. Foods with incomplete composition remain unranked, not nutrient-free.
+
+The compact PM dropdown rounds the displayed aggregate sum to at most two decimal places to fit the canonical value column. Keep every individual amino-acid value and source-row ID, same-record protein, and the full calculated sum in the underlying composition/projection records and detailed disclosure. Display rounding must not overwrite the data needed for future amino-acid balance or limiting-amino-acid assessment; neither digestibility nor DIAAS is inferred from composition.
+
+`food_delivery_assessment` on a substance distinguishes a completed ordinary-food sourcing limitation (`no-ordinary-food-source`, explicit `reason` and `sources`) from unresolved composition mapping. It does not amend scientific admission. Native fructan fractions do not automatically equal a defined oligofructose formulation; cystine is not relabelled as measured cysteine; B6/B2 totals are not assigned to PLP/FMN. Qualitative occurrence may be verified independently of quantitative content and intervention equivalence.

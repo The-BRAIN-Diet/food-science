@@ -1,0 +1,88 @@
+{
+  "baseline_commit": "767e15db1c770898e9fd8f9ae4f5a5e547f0d84f",
+  "numbered_included": 51,
+  "cross_brs_included": 13,
+  "total_included": 64,
+  "baseline": {
+    "pms_with_admitted_inputs": 35,
+    "pms_with_resolved_admitted_inputs": 33,
+    "unique_substances": 44,
+    "cross_brs_in_mapper": 0
+  },
+  "current": {
+    "pms_with_admitted_inputs": 44,
+    "pms_with_resolved_admitted_inputs": 42,
+    "pms_with_no_admitted_inputs": 20,
+    "pms_with_no_resolved_admitted_inputs": 22,
+    "unique_substances": 51,
+    "verified_food_linked_substances": 34,
+    "provisional_only_food_linked_substances": 7,
+    "no_projected_food": [
+      "uridine",
+      "pyridoxal-5-phosphate",
+      "cysteine",
+      "glutamate",
+      "n-acetylcysteine",
+      "oligofructose",
+      "flavin-mononucleotide",
+      "glutamine",
+      "arabinan",
+      "glucose"
+    ],
+    "resolved_admitted_relationships": 114,
+    "newly_represented_pms_in_rollup": [
+      "BRS1-FM4-PM10",
+      "BRS1-FM4-PM11",
+      "BRS3-FM1-PM2",
+      "BRS3-FM3-PM7",
+      "BRS4-FM3-PM7",
+      "BRS6-FM4-PM8",
+      "BRS-X(ECS-PM1)",
+      "BRS-X(ECS-PM2)",
+      "BRS-X(Hormones-PM5)"
+    ],
+    "raw_dietary_yes": 158,
+    "unresolved_ontology_relationships": 46,
+    "cross_brs_rollup_rows": 94,
+    "manuscript_food_context_rows": 1544
+  },
+  "continuation": {
+    "new_type_A": 31,
+    "new_type_B": 3,
+    "recovered_existing_direct_overlays": 2,
+    "recovered_existing_class_identity": 1,
+    "explicit_dietary_yes_updates": 36,
+    "new_unique_substances": [
+      "indispensable-amino-acids",
+      "sodium",
+      "potassium",
+      "nicotinamide-riboside",
+      "arginine",
+      "caprylic-triglyceride",
+      "epicatechin"
+    ],
+    "food_edges_added": 2,
+    "pms_gaining_first_explicit_dietary_yes": [
+      "BRS-X(ECS-PM1)",
+      "BRS-X(ECS-PM2)",
+      "BRS-X(Hormones-PM5)",
+      "BRS1-FM4-PM10",
+      "BRS1-FM4-PM11",
+      "BRS3-FM3-PM7",
+      "BRS4-FM3-PM7"
+    ]
+  },
+  "preserved_previous_batch": [
+    {
+      "pm_id": "BRS3-FM2-PM6",
+      "substance": "vitamin-b2",
+      "type": "A"
+    },
+    {
+      "pm_id": "BRS3-FM2-PM4",
+      "substance": "manganese",
+      "type": "A"
+    }
+  ],
+  "qualification": "Committed checkpoint is reproducible. Earlier 36-PM/28-empty count used mixed identity/admission definitions and included the original two recovery additions. Dietary-Yes, gated admission, and resolved identity are reported separately. Unresolved ontology count includes historical entries and is not a count of rejected science."
+}

@@ -1,0 +1,1018 @@
+{
+  "date": "2026-10-26",
+  "validated_at": "2026-10-26T23:11:07.169Z",
+  "before": {
+    "unique": 51,
+    "verified": 34,
+    "provisional": 7,
+    "foodless": [
+      "uridine",
+      "pyridoxal-5-phosphate",
+      "cysteine",
+      "glutamate",
+      "n-acetylcysteine",
+      "oligofructose",
+      "flavin-mononucleotide",
+      "glutamine",
+      "arabinan",
+      "glucose"
+    ]
+  },
+  "after": {
+    "unique": 51,
+    "verified": 42,
+    "provisional": 7,
+    "foodless": [
+      "n-acetylcysteine",
+      "oligofructose"
+    ]
+  },
+  "matrix": [
+    {
+      "id": "n-acetylcysteine",
+      "pm": "BRS2-FM2-PM6",
+      "url": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis",
+      "input": "N-acetylcysteine",
+      "substance": "/docs/substances/bioactive-compounds/n-acetylcysteine",
+      "food_count": 0,
+      "classification": "E",
+      "root_cause": "Supplemental acetylated cysteine identity; food cysteine/cystine is chemically different.",
+      "repair": "Explicit completed no-ordinary-food disposition; retain admission.",
+      "food_status": "No verified ordinary-food source; no reverse precursor inference",
+      "sources": [
+        "https://www.rivm.nl/bibliotheek/rapporten/2024-0086.pdf"
+      ]
+    },
+    {
+      "id": "oligofructose",
+      "pm": "BRS3-FM1-PM2",
+      "url": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling",
+      "input": "Oligofructose",
+      "substance": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/oligofructose",
+      "food_count": 0,
+      "classification": "E / identity boundary",
+      "root_cause": "Canonical identity distinguishes a defined inulin hydrolysate from native short-chain food FOS.",
+      "repair": "Review native GF2–GF4 food evidence; preserve as a lead. No equivalent-mixture contains edge.",
+      "food_status": "No verified ordinary-food source for the defined material; not a claim that plants lack short-chain fructans",
+      "sources": [
+        "https://doi.org/10.1080/10942912.2012.680221",
+        "https://doi.org/10.1093/jn/137.11.2493S"
+      ]
+    },
+    {
+      "id": "uridine",
+      "pm": "BRS1-FM5-PM12",
+      "url": "/docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity",
+      "input": "Uridine",
+      "substance": "/docs/substances/bioactive-compounds/uridine",
+      "food_count": 1,
+      "classification": "B",
+      "root_cause": "No uridine-specific structured food evidence. Total nucleotides/UMP cannot supply a free-uridine amount.",
+      "repair": "Milk → free uridine, qualitative HPLC provenance.",
+      "food_status": "Verified qualitative; milk",
+      "sources": [
+        "https://doi.org/10.3168/jds.S0022-0302(84)81361-2"
+      ]
+    },
+    {
+      "id": "pyridoxal-5-phosphate",
+      "pm": "BRS2-FM2-PM5",
+      "url": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway",
+      "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+      "substance": "/docs/substances/nutrients/micronutrients/vitamins/pyridoxal-5-phosphate",
+      "food_count": 1,
+      "classification": "B",
+      "root_cause": "Vitamin B6 totals and dietary conversion had obscured separate native-vitamer occurrence.",
+      "repair": "Milk → PLP with native-vitamer UHPLC provenance.",
+      "food_status": "Verified qualitative; milk; intact tissue delivery not established",
+      "sources": [
+        "https://doi.org/10.1016/j.chroma.2017.04.009"
+      ]
+    },
+    {
+      "id": "flavin-mononucleotide",
+      "pm": "BRS4-FM1-PM1",
+      "url": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function",
+      "input": "Flavin mononucleotide (FMN)",
+      "substance": "/docs/substances/nutrients/micronutrients/vitamins/flavin-mononucleotide",
+      "food_count": 1,
+      "classification": "B",
+      "root_cause": "Riboflavin totals were not native FMN composition.",
+      "repair": "Milk → FMN with the distinct native-vitamer source.",
+      "food_status": "Verified qualitative; milk; no B2-total conversion",
+      "sources": [
+        "https://doi.org/10.1016/j.chroma.2017.04.009"
+      ]
+    },
+    {
+      "id": "arabinan",
+      "pm": "BRS5-FM2-PM4",
+      "url": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection",
+      "input": "Pea-fibre arabinan",
+      "substance": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/arabinan",
+      "food_count": 1,
+      "classification": "B",
+      "root_cause": "No composition link separated native plant pectin from the experimental isolated fibre.",
+      "repair": "Pea-cotyledon arabinan occurrence; preserve material and preparation limits.",
+      "food_status": "Verified qualitative; peas; no amount or isolated-fibre equivalence",
+      "sources": [
+        "https://doi.org/10.1046/j.1365-313x.2000.00719.x"
+      ]
+    },
+    {
+      "id": "glutamine",
+      "pm": "BRS5-FM1-PM1",
+      "url": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity",
+      "input": "Glutamine",
+      "substance": "/docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine",
+      "food_count": 3,
+      "classification": "B",
+      "root_cause": "A precise quantity was demanded before occurrence could be linked; ordinary hydrolysis does not separate Gln/Glx.",
+      "repair": "Protein-form occurrence in beef, egg and tofu, with calculated values withheld.",
+      "food_status": "Verified qualitative; three food materials; no inferred free dose",
+      "sources": [
+        "https://doi.org/10.1038/ejcn.2009.110"
+      ]
+    },
+    {
+      "id": "glutamate",
+      "pm": "BRS2-FM2-PM6",
+      "url": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis",
+      "input": "Glutamate",
+      "substance": "/docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamate",
+      "food_count": 3,
+      "classification": "B",
+      "root_cause": "Food occurrence was incorrectly held back because it does not prove the PM response.",
+      "repair": "Separate protein-form composition from the PM intervention proposition.",
+      "food_status": "Verified qualitative; beef, egg, tofu",
+      "sources": [
+        "https://doi.org/10.1038/ejcn.2009.110"
+      ]
+    },
+    {
+      "id": "cysteine",
+      "pm": "BRS2-FM2-PM6",
+      "url": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis",
+      "input": "Cysteine",
+      "substance": "/docs/substances/nutrients/macronutrients/amino-acids/conditionals/cysteine",
+      "food_count": 1,
+      "classification": "A",
+      "root_cause": "Existing cooked-lentil cysteine assay was not connected to the food projection. USDA cystine was a different analyte.",
+      "repair": "Source-qualified cooked-lentil cysteine edge; retain dry-matter versus as-eaten distinction.",
+      "food_status": "Verified qualitative; lentils; no cystine amount relabelled",
+      "sources": [
+        "https://doi.org/10.1002/fsn3.473"
+      ]
+    },
+    {
+      "id": "glucose",
+      "pm": "BRS5-FM3-PM7",
+      "url": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation",
+      "input": "Glucose",
+      "substance": "/docs/substances/nutrients/macronutrients/carbohydrates/glucose",
+      "food_count": 2,
+      "classification": "B",
+      "root_cause": "Existing prose conflated food composition with neural target engagement.",
+      "repair": "USDA glucose-specific rows and edges for bananas (4.98 g/100 g) and grapes (7.2 g/100 g), raw.",
+      "food_status": "Verified quantitative; no total-sugar substitution",
+      "sources": [
+        "https://fdc.nal.usda.gov/food-details/173944/nutrients",
+        "https://fdc.nal.usda.gov/food-details/174683/nutrients",
+        "https://fdc.nal.usda.gov/food-details/169640/nutrients"
+      ]
+    },
+    {
+      "id": "indispensable-amino-acids",
+      "pm": "BRS1-FM1-PM1",
+      "url": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation",
+      "input": "Indispensable amino-acid supply",
+      "substance": "/docs/substances/nutrients/macronutrients/amino-acids/indispensable-amino-acids",
+      "food_count": 20,
+      "classification": "D",
+      "root_cause": "One legacy qualitative milk edge existed in the mapper, but no complete quantitative class resolver.",
+      "repair": "Twenty canonical source-specific USDA profiles; dynamically sum all nine; no synthetic edges.",
+      "food_status": "10 plant + 10 animal composition-derived sources",
+      "sources": [
+        "https://fdc.nal.usda.gov/download-datasets/"
+      ]
+    }
+  ],
+  "rankings": {
+    "plant": [
+      {
+        "rank": 1,
+        "food": "Pumpkin Seeds",
+        "food_id": "pumpkin-seeds",
+        "preparation": "dried",
+        "material": "Seeds, pumpkin and squash seed kernels, dried",
+        "eaa_g_per_100g": 11.205,
+        "protein_g_per_100g": 30.23,
+        "portion": "1 oz",
+        "portion_grams": 28.35,
+        "eaa_g_per_portion": 3.177,
+        "protein_g_per_portion": 8.57,
+        "source": "https://fdc.nal.usda.gov/food-details/170556/nutrients"
+      },
+      {
+        "rank": 2,
+        "food": "Sunflower Seeds",
+        "food_id": "sunflower-seeds",
+        "preparation": "dried",
+        "material": "Seeds, sunflower seed kernels, dried",
+        "eaa_g_per_100g": 8.621,
+        "protein_g_per_100g": 20.78,
+        "portion": "0.2 cup",
+        "portion_grams": 28,
+        "eaa_g_per_portion": 2.414,
+        "protein_g_per_portion": 5.818,
+        "source": "https://fdc.nal.usda.gov/food-details/170562/nutrients"
+      },
+      {
+        "rank": 3,
+        "food": "Peanuts",
+        "food_id": "peanuts",
+        "preparation": "dry-roasted",
+        "material": "Peanuts, all types, dry-roasted, without salt",
+        "eaa_g_per_100g": 7.369,
+        "protein_g_per_100g": 24.35,
+        "portion": "1 oz",
+        "portion_grams": 28.35,
+        "eaa_g_per_portion": 2.089,
+        "protein_g_per_portion": 6.903,
+        "source": "https://fdc.nal.usda.gov/food-details/173806/nutrients"
+      },
+      {
+        "rank": 4,
+        "food": "Tofu",
+        "food_id": "tofu",
+        "preparation": "firm, calcium-set",
+        "material": "Tofu, raw, firm, prepared with calcium sulfate",
+        "eaa_g_per_100g": 6.491,
+        "protein_g_per_100g": 17.27,
+        "portion": "0.5 cup",
+        "portion_grams": 126,
+        "eaa_g_per_portion": 8.179,
+        "protein_g_per_portion": 21.76,
+        "source": "https://fdc.nal.usda.gov/food-details/172475/nutrients"
+      },
+      {
+        "rank": 5,
+        "food": "Almonds",
+        "food_id": "almonds",
+        "preparation": "raw",
+        "material": "Nuts, almonds",
+        "eaa_g_per_100g": 6.287,
+        "protein_g_per_100g": 21.15,
+        "portion": "1 oz (23 whole kernels)",
+        "portion_grams": 28.35,
+        "eaa_g_per_portion": 1.782,
+        "protein_g_per_portion": 5.996,
+        "source": "https://fdc.nal.usda.gov/food-details/170567/nutrients"
+      },
+      {
+        "rank": 6,
+        "food": "Kidney Beans",
+        "food_id": "kidney-beans",
+        "preparation": "cooked",
+        "material": "Beans, kidney, red, mature seeds, cooked, boiled, without salt",
+        "eaa_g_per_100g": 3.434,
+        "protein_g_per_100g": 8.67,
+        "portion": "0.5 cup",
+        "portion_grams": 88.5,
+        "eaa_g_per_portion": 3.039,
+        "protein_g_per_portion": 7.673,
+        "source": "https://fdc.nal.usda.gov/food-details/175194/nutrients"
+      },
+      {
+        "rank": 7,
+        "food": "Lentils",
+        "food_id": "lentils",
+        "preparation": "cooked",
+        "material": "Lentils, mature seeds, cooked, boiled, without salt",
+        "eaa_g_per_100g": 3.302,
+        "protein_g_per_100g": 9.02,
+        "portion": "0.5 cup",
+        "portion_grams": 99,
+        "eaa_g_per_portion": 3.269,
+        "protein_g_per_portion": 8.93,
+        "source": "https://fdc.nal.usda.gov/food-details/172421/nutrients"
+      },
+      {
+        "rank": 8,
+        "food": "Chickpeas",
+        "food_id": "chickpeas",
+        "preparation": "cooked",
+        "material": "Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",
+        "eaa_g_per_100g": 3.225,
+        "protein_g_per_100g": 8.86,
+        "portion": "0.5 cup",
+        "portion_grams": 82,
+        "eaa_g_per_portion": 2.645,
+        "protein_g_per_portion": 7.265,
+        "source": "https://fdc.nal.usda.gov/food-details/173757/nutrients"
+      },
+      {
+        "rank": 9,
+        "food": "Quinoa",
+        "food_id": "quinoa",
+        "preparation": "cooked",
+        "material": "Quinoa, cooked",
+        "eaa_g_per_100g": 1.433,
+        "protein_g_per_100g": 4.4,
+        "portion": "1 cup",
+        "portion_grams": 185,
+        "eaa_g_per_portion": 2.651,
+        "protein_g_per_portion": 8.14,
+        "source": "https://fdc.nal.usda.gov/food-details/168917/nutrients"
+      },
+      {
+        "rank": 10,
+        "food": "Oats",
+        "food_id": "oats",
+        "preparation": "cooked",
+        "material": "Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving), without salt",
+        "eaa_g_per_100g": 1.005,
+        "protein_g_per_100g": 2.54,
+        "portion": "1 cup",
+        "portion_grams": 234,
+        "eaa_g_per_portion": 2.352,
+        "protein_g_per_portion": 5.944,
+        "source": "https://fdc.nal.usda.gov/food-details/173905/nutrients"
+      }
+    ],
+    "animal": [
+      {
+        "rank": 1,
+        "food": "Chicken",
+        "food_id": "chicken",
+        "preparation": "cooked",
+        "material": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+        "eaa_g_per_100g": 12.865,
+        "protein_g_per_100g": 31.02,
+        "portion": "0.5 breast, bone and skin removed",
+        "portion_grams": 86,
+        "eaa_g_per_portion": 11.064,
+        "protein_g_per_portion": 26.677,
+        "source": "https://fdc.nal.usda.gov/food-details/171477/nutrients"
+      },
+      {
+        "rank": 2,
+        "food": "Sardines",
+        "food_id": "sardines",
+        "preparation": "canned, drained",
+        "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+        "eaa_g_per_100g": 10.433,
+        "protein_g_per_100g": 24.62,
+        "portion": "1 can (3.75 oz)",
+        "portion_grams": 92,
+        "eaa_g_per_portion": 9.598,
+        "protein_g_per_portion": 22.65,
+        "source": "https://fdc.nal.usda.gov/food-details/175139/nutrients"
+      },
+      {
+        "rank": 3,
+        "food": "Salmon",
+        "food_id": "salmon",
+        "preparation": "cooked",
+        "material": "Fish, salmon, Atlantic, farmed, cooked, dry heat",
+        "eaa_g_per_100g": 9.368,
+        "protein_g_per_100g": 22.1,
+        "portion": "3 oz",
+        "portion_grams": 85,
+        "eaa_g_per_portion": 7.963,
+        "protein_g_per_portion": 18.785,
+        "source": "https://fdc.nal.usda.gov/food-details/175168/nutrients"
+      },
+      {
+        "rank": 4,
+        "food": "Cheddar Cheese",
+        "food_id": "cheddar-cheese",
+        "preparation": "cheddar",
+        "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
+        "eaa_g_per_100g": 9.333,
+        "protein_g_per_100g": 22.87,
+        "portion": "1 oz",
+        "portion_grams": 28.35,
+        "eaa_g_per_portion": 2.646,
+        "protein_g_per_portion": 6.484,
+        "source": "https://fdc.nal.usda.gov/food-details/173414/nutrients"
+      },
+      {
+        "rank": 5,
+        "food": "Turkey",
+        "food_id": "turkey",
+        "preparation": "cooked",
+        "material": "Turkey, whole, breast, meat only, cooked, roasted",
+        "eaa_g_per_100g": 9.3,
+        "protein_g_per_100g": 30.13,
+        "portion": "3 oz",
+        "portion_grams": 85,
+        "eaa_g_per_portion": 7.905,
+        "protein_g_per_portion": 25.611,
+        "source": "https://fdc.nal.usda.gov/food-details/171496/nutrients"
+      },
+      {
+        "rank": 6,
+        "food": "Mussels",
+        "food_id": "mussels",
+        "preparation": "cooked",
+        "material": "Mollusks, mussel, blue, cooked, moist heat",
+        "eaa_g_per_100g": 8.67,
+        "protein_g_per_100g": 23.8,
+        "portion": "3 oz",
+        "portion_grams": 85,
+        "eaa_g_per_portion": 7.37,
+        "protein_g_per_portion": 20.23,
+        "source": "https://fdc.nal.usda.gov/food-details/174217/nutrients"
+      },
+      {
+        "rank": 7,
+        "food": "Tuna",
+        "food_id": "tuna",
+        "preparation": "canned, drained",
+        "material": "Fish, tuna, light, canned in water, drained solids (Includes foods for USDA's Food Distribution Program)",
+        "eaa_g_per_100g": 7.894,
+        "protein_g_per_100g": 19.44,
+        "portion": "3 oz",
+        "portion_grams": 85,
+        "eaa_g_per_portion": 6.71,
+        "protein_g_per_portion": 16.524,
+        "source": "https://fdc.nal.usda.gov/food-details/173709/nutrients"
+      },
+      {
+        "rank": 8,
+        "food": "Beef",
+        "food_id": "beef",
+        "preparation": "cooked",
+        "material": "Beef, ground, 85% lean meat / 15% fat, patty, cooked, broiled",
+        "eaa_g_per_100g": 7.347,
+        "protein_g_per_100g": 25.93,
+        "portion": "3 oz",
+        "portion_grams": 85,
+        "eaa_g_per_portion": 6.245,
+        "protein_g_per_portion": 22.041,
+        "source": "https://fdc.nal.usda.gov/food-details/174032/nutrients"
+      },
+      {
+        "rank": 9,
+        "food": "Eggs",
+        "food_id": "eggs",
+        "preparation": "cooked",
+        "material": "Egg, whole, cooked, hard-boiled",
+        "eaa_g_per_100g": 5.547,
+        "protein_g_per_100g": 12.58,
+        "portion": "1 large",
+        "portion_grams": 50,
+        "eaa_g_per_portion": 2.774,
+        "protein_g_per_portion": 6.29,
+        "source": "https://fdc.nal.usda.gov/food-details/173424/nutrients"
+      },
+      {
+        "rank": 10,
+        "food": "Milk",
+        "food_id": "milk",
+        "preparation": "whole milk",
+        "material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+        "eaa_g_per_100g": 1.447,
+        "protein_g_per_100g": 3.15,
+        "portion": "1 cup",
+        "portion_grams": 244,
+        "eaa_g_per_portion": 3.531,
+        "protein_g_per_portion": 7.686,
+        "source": "https://fdc.nal.usda.gov/food-details/171265/nutrients"
+      }
+    ]
+  },
+  "new_food_edges": 13,
+  "new_derived_pathways": 0,
+  "new_substance_identities": 0,
+  "changed_admissions": 0,
+  "protected_files": 179,
+  "sec_snapshots": 98,
+  "files": [
+    "docs/foods/pumpkin-seeds.md",
+    "docs/foods/sunflower-seeds.md",
+    "docs/foods/almonds.md",
+    "docs/foods/peanuts.md",
+    "docs/foods/tofu.md",
+    "docs/foods/lentils.md",
+    "docs/foods/chickpeas.md",
+    "docs/foods/kidney-beans.md",
+    "docs/foods/quinoa.md",
+    "docs/foods/oats.md",
+    "docs/foods/milk.md",
+    "docs/foods/eggs.md",
+    "docs/foods/chicken.md",
+    "docs/foods/turkey.md",
+    "docs/foods/beef.md",
+    "docs/foods/salmon.md",
+    "docs/foods/tuna.md",
+    "docs/foods/sardines.md",
+    "docs/foods/cheddar-cheese.md",
+    "docs/foods/mussels.md",
+    "docs/foods/peas.md",
+    "docs/foods/bananas.md",
+    "docs/foods/grapes.md",
+    "docs/substances/bioactive-compounds/n-acetylcysteine.md",
+    "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/oligofructose.md",
+    "docs/substances/bioactive-compounds/uridine.md",
+    "docs/substances/nutrients/micronutrients/vitamins/pyridoxal-5-phosphate.md",
+    "docs/substances/nutrients/micronutrients/vitamins/flavin-mononucleotide.md",
+    "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/arabinan.md",
+    "docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine.md",
+    "docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamate.md",
+    "docs/substances/nutrients/macronutrients/amino-acids/conditionals/cysteine.md",
+    "docs/substances/nutrients/macronutrients/carbohydrates/glucose.md",
+    "scripts/lib/input-substance-food.mjs",
+    "src/lib/aggregateFoodComposition.mjs",
+    "src/lib/foodDietaryProjection.mjs",
+    "src/lib/foodTargetReconciliation.mjs",
+    "src/lib/foodTargetTraceability.mjs",
+    "src/lib/pmInputFoodDisclosure.ts",
+    "src/components/AminoAcidComposition/index.tsx",
+    "src/components/FoodDietaryRelationships/index.tsx",
+    "src/theme/SubstanceFoods/index.tsx",
+    "src/theme/DocItem/Content/index.tsx",
+    "scripts/foodless-target-resolution.test.mjs",
+    "scripts/input-substance-food.test.mjs",
+    "system/food-nutrition-schema.md",
+    "static/bibtex/BRAIN-diet.bib"
+  ],
+  "generated_outputs": "All seven input-mapping scopes and dietary-food-target exports regenerated from canonical sources; no PM atoms or manuscripts approvals changed.",
+  "validation": {
+    "targeted_tests": 14,
+    "recovery_tests": 178,
+    "extended_sec_food_tests": 42,
+    "finding_pages": 64,
+    "sec_snapshots": 98,
+    "substance_validator": "pass",
+    "bibliography_validator": "pass: 962 cited keys found",
+    "production_build": "pass",
+    "build_environment": "Node 20.11.0; NODE_OPTIONS=--max-old-space-size=4096; TERSER_PARALLEL=1; SEC_BASE_REF=ebbc10ed11484192c972952d8c47645bd3c5bf4e",
+    "existing_food_validation_failure": "Broccoli sulforaphane qualitative row lacks status/amount_display. Unchanged; no affected food has a new validation failure.",
+    "browser": {
+      "status": "pass-with-existing-runtime-warning",
+      "verified_at": "2026-10-26T23:11:01.926Z",
+      "targets": 11,
+      "checks": [
+        {
+          "target": "indispensable-amino-acids",
+          "surface": "PM1",
+          "result": "pass",
+          "checks": [
+            "Dietary Requirements and 1.1.1 expand",
+            "10 plant + 10 animal quantitative food rows",
+            "Separate portion/protein disclosure keyboard Enter opens",
+            "Blue aligned food/value/form rows visible in dark theme",
+            "Final full build: all 20 numeric cells stay on one line; decimal-half rounding verified (oats 1.005 → 1.01), underlying values unchanged",
+            "Light and dark themes verified"
+          ]
+        },
+        {
+          "target": "pumpkin-seeds",
+          "surface": "food",
+          "result": "pass",
+          "checks": [
+            "Nine separately rendered amino-acid values",
+            "USDA FDC 170556 provenance and same-record protein/portion",
+            "Explicit no DIAAS inference",
+            "Admitted PM1 reciprocal link visible"
+          ]
+        },
+        {
+          "target": "n-acetylcysteine",
+          "surface": "substance",
+          "result": "pass",
+          "checks": [
+            "Explicit no verified ordinary-food source; supplemental NAC distinguished from food cysteine/cystine"
+          ]
+        },
+        {
+          "target": "oligofructose",
+          "surface": "substance",
+          "url": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/oligofructose",
+          "observation": {
+            "foods": "Native GF2–GF4 fractions have been measured in plants [5]. These results do not establish equivalence to the admitted inulin-hydrolysate preparation. They remain research leads, not substitute food sources.\nThe admitted oligofructose exposure is a defined inulin-hydrolysate preparation. Native food FOS fractions do not establish an equivalent chain-length mixture or supplement exposure.",
+            "heading": "Oligofructose"
+          },
+          "result": "pass"
+        },
+        {
+          "target": "uridine",
+          "surface": "substance",
+          "url": "/docs/substances/bioactive-compounds/uridine",
+          "observation": {
+            "foods": "Bovine milk contains free uridine [4]. This is distinct from UMP and from total potentially available nucleosides.\n1 food",
+            "heading": "Uridine"
+          },
+          "result": "pass"
+        },
+        {
+          "target": "pyridoxal-5-phosphate",
+          "surface": "substance",
+          "url": "/docs/substances/nutrients/micronutrients/vitamins/pyridoxal-5-phosphate",
+          "observation": {
+            "foods": "Native phosphorylated vitamers were measured in commercial cow milk [3]. The food link is qualitative; total vitamin amounts are not assigned to the individual cofactor.\n1 food",
+            "heading": "Pyridoxal 5′-phosphate (PLP)"
+          },
+          "result": "pass",
+          "interactive_source_qualification": "1 food\nMilk\n\nDairy drink providing complete protein and calcium\n\nComposition & delivery qualification\n\nCommercial liquid cow milk (31 samples: pasteurized, extended shelf-life and UHT). pyridoxal 5-phosphate.\n\nVerified qualitative vitamer occurrence. No individual amount is inferred from total vitamin B6 or B2. Preparation-specific concentrations are not transcribed. Food occurrence does not demonstrate intact cofactor delivery to the receiving tissue.\n\nPrimary composition source"
+        },
+        {
+          "target": "flavin-mononucleotide",
+          "surface": "substance",
+          "url": "/docs/substances/nutrients/micronutrients/vitamins/flavin-mononucleotide",
+          "observation": {
+            "foods": "Native phosphorylated vitamers were measured in commercial cow milk [2]. The food link is qualitative; total vitamin amounts are not assigned to the individual cofactor.\n1 food",
+            "heading": "Flavin mononucleotide (FMN)"
+          },
+          "result": "pass",
+          "interactive_source_qualification": "1 food\nMilk\n\nDairy drink providing complete protein and calcium\n\nComposition & delivery qualification\n\nCommercial liquid cow milk (31 samples: pasteurized, extended shelf-life and UHT). riboflavin 5-phosphate (FMN).\n\nVerified qualitative vitamer occurrence. No individual amount is inferred from total vitamin B6 or B2. Preparation-specific concentrations are not transcribed. Food occurrence does not demonstrate intact cofactor delivery to the receiving tissue.\n\nPrimary composition source"
+        },
+        {
+          "target": "arabinan",
+          "surface": "substance",
+          "url": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/arabinan",
+          "observation": {
+            "foods": "Pectic arabinan was detected in developing pea cotyledon cell walls [2]. Cooking retention and equivalence to isolated fibre remain unestablished.\n1 food",
+            "heading": "Arabinan"
+          },
+          "result": "pass"
+        },
+        {
+          "target": "glutamine",
+          "surface": "substance",
+          "result": "pass",
+          "interactive_source_qualification": "3 foods\nBeef\n\nHigh creatine, CoQ10, and bioavailable heme iron\n\nComposition & delivery qualification\n\nBeef protein fractions. protein-bound glutamine residues.\n\nProtein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.\n\nPrimary composition source\nEggs\n\nComplete protein with choline, B vitamins, and phospholipids\n\nComposition & delivery qualification\nTofu\n\nSoy-based protein source with isoflavones and choline\n\nComposition & delivery qualification"
+        },
+        {
+          "target": "glutamate",
+          "surface": "substance",
+          "result": "pass",
+          "interactive_source_qualification": "3 foods\nBeef\n\nHigh creatine, CoQ10, and bioavailable heme iron\n\nComposition & delivery qualification\n\nBeef protein fractions. protein-bound glutamate residues.\n\nProtein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.\n\nPrimary composition source\nEggs\n\nComplete protein with choline, B vitamins, and phospholipids\n\nComposition & delivery qualification\nTofu\n\nSoy-based protein source with isoflavones and choline\n\nComposition & delivery qualification"
+        },
+        {
+          "target": "cysteine",
+          "surface": "substance",
+          "result": "pass",
+          "checks": [
+            "Lentil-specific cooked/dry-matter qualification opens",
+            "Existing 7 legacy food cards retained; only lentil currently qualifies for verified PM projection"
+          ]
+        },
+        {
+          "target": "glucose",
+          "surface": "substance",
+          "result": "pass",
+          "checks": [
+            "Bananas and grapes cards expand",
+            "Glucose distinct from total sugars; raw source specification visible"
+          ]
+        },
+        {
+          "target": "indispensable-amino-acids",
+          "surface": "substance",
+          "result": "pass",
+          "checks": [
+            "10 plant and 10 animal rows expand",
+            "Common per-100g AA/protein plus portion columns",
+            "Not protein-quality/digestibility ranking qualification"
+          ]
+        },
+        {
+          "target": "n-acetylcysteine",
+          "surface": "PM",
+          "result": "pass",
+          "url": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis",
+          "observation": "N-acetylcysteineⓘ\n\nN-acetylcysteine is a supplemental precursor of cysteine that was given with glycine.\n\n▼\nPlant-based -\nNo verified ordinary-food source\n▶\nAnimal-based -\nNo verified ordinary-food source"
+        },
+        {
+          "target": "glutamate",
+          "surface": "PM",
+          "result": "pass",
+          "url": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis",
+          "observation": "Glutamate\n\nGlutamate is joined to cysteine in the first step of glutathione assembly.\n\n▼\nPlant-based -\nTofu\nquantity not established\n- form not known\nComposition & delivery qualification\n\nTofu: protein-bound glutamate residues. Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred. Source and qualifications\n\n▶\nAnimal-based -\nBeef\nquantity not established\n- form not known"
+        },
+        {
+          "target": "cysteine",
+          "surface": "PM",
+          "result": "pass",
+          "url": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis",
+          "observation": "Cysteine — [Supply: PM5]\n\nCysteine is joined to glutamate in the first step of glutathione assembly.\n\n▼\nPlant-based -\nLentils\nquantity not established\n- cooked\nComposition & delivery qualification\n\nLentils: protein cysteine measured after oxidation. Cysteine assay on separate dry-matter samples; no as-eaten amount or conversion from cystine is inferred. Source and qualifications\n\n▶\nAnimal-based -\nNo verified sources yet"
+        },
+        {
+          "target": "oligofructose",
+          "surface": "PM",
+          "result": "pass",
+          "url": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling",
+          "observation": "Oligofructoseⓘ\n▼\nPlant-based -\nNo verified ordinary-food source\n▶\nAnimal-based -\nNo verified ordinary-food source"
+        },
+        {
+          "target": "uridine",
+          "surface": "PM",
+          "result": "pass",
+          "url": "/docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity",
+          "observation": "Uridine — [Membrane synthesis: BRS2 PM7]\n\nUridine can supply CTP used in CDP-choline and phosphatidylcholine formation, contributing membrane precursors for structural assembly.\n\n▼\nPlant-based -\nNo verified sources yet\n▼\nAnimal-based -\nMilk\nquantity not established\n- raw\nComposition & delivery qualification\n\nMilk: free uridine. Free uridine occurrence only. No amount is imported from total nucleotides, UMP or total potentially available nucleosides; processing and adult systemic delivery are not established by this source. Source and qualifications"
+        },
+        {
+          "target": "pyridoxal-5-phosphate",
+          "surface": "PM",
+          "result": "pass",
+          "url": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway",
+          "observation": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)\n\nThe active vitamin B6 cofactor enables both enzyme steps that convert homocysteine towards cysteine.\n\n▼\nPlant-based -\nNo verified sources yet\n▼\nAnimal-based -\nMilk\nquantity not established\n- heat-treated; method-specific\nComposition & delivery qualification\n\nMilk: pyridoxal 5-phosphate. Verified qualitative vitamer occurrence. No individual amount is inferred from total vitamin B6 or B2. Preparation-specific concentrations are not transcribed. Food occurrence does not demonstrate intact cofactor delivery to the receiving tissue. Source and qualifications"
+        },
+        {
+          "target": "flavin-mononucleotide",
+          "surface": "PM",
+          "result": "pass",
+          "url": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function",
+          "observation": "Flavin mononucleotide (FMN)\n\nFlavin mononucleotide (FMN) is the flavin in complex I that takes electrons from NADH.\n\n▼\nPlant-based -\nNo verified sources yet\n▼\nAnimal-based -\nMilk\nquantity not established\n- heat-treated; method-specific\nComposition & delivery qualification\n\nMilk: riboflavin 5-phosphate (FMN). Verified qualitative vitamer occurrence. No individual amount is inferred from total vitamin B6 or B2. Preparation-specific concentrations are not transcribed. Food occurrence does not demonstrate intact cofactor delivery to the receiving tissue. Source and qualifications"
+        },
+        {
+          "target": "arabinan",
+          "surface": "PM",
+          "result": "pass",
+          "url": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection",
+          "observation": "Pea-fibre arabinan\n\nPea-fibre arabinan provides the studied microbial processing substrate.\n\n▼\nPlant-based -\nPeas\nquantity not established\n- raw cotyledons\nComposition & delivery qualification\n\nPeas: pectic (1→5)-alpha-L-arabinan. Qualitative occurrence in native pea pectin. No as-eaten amount or cooking retention was established; this is not a dose-equivalent substitute for the experimental isolated pea-fibre preparation. Source and qualifications\n\n▼\nAnimal-based -\nNo verified sources yet"
+        },
+        {
+          "target": "glutamine",
+          "surface": "PM",
+          "result": "pass",
+          "url": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity",
+          "observation": "Glutamine\n\nEnterocyte metabolic substrate supporting epithelial proliferation, repair, and tight-junction protein maintenance.\n\n▼\nPlant-based -\nTofu\nquantity not established\n- form not known\nComposition & delivery qualification\n\nTofu: protein-bound glutamine residues. Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred. Source and qualifications\n\n▼\nAnimal-based -\nBeef\nquantity not established\n- form not known\nEggs\nquantity not established\n- form not known\nComposition & delivery qualification"
+        },
+        {
+          "target": "glucose",
+          "surface": "PM",
+          "result": "pass",
+          "url": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation",
+          "observation": "Glucose\n\nGlucose in the gut can trigger the experimental nutrient-sensing nerve pathway.\n\n▼\nPlant-based -\nBananas\n4.98 g (per 100 g edible portion)\n- raw\nGrapes\n7.2 g (per 100 g edible portion)\n- raw\nComposition & delivery qualification\n\nBananas: glucose. Composition only; ripeness, cultivar and product vary. Not evidence that ordinary portions reproduce an experimental intestinal glucose stimulus. Source and qualifications\n\nGrapes: glucose. Composition only; ripeness, cultivar and product vary. Not evidence that ordinary portions reproduce an experimental intestinal glucose stimulus. Source and qualifications\n\n▼\nAnimal-based -\nNo verified sources yet"
+        }
+      ],
+      "limitations": [
+        "React hydration recovery #418 recurs; documented previously in review/release-2026-10-24/release-report.md. Same cause not isolated. Tested controls work after recovery.",
+        "Legacy cysteine substance-page cards remain preserved; only source-qualified lentils are counted as verified PM food targets.",
+        "Pre-existing pumpkin-seed protein-quality and limiting-amino-acid prose was not re-adjudicated or inferred from the new composition profile."
+      ],
+      "runtime_notes": [
+        {
+          "level": "error",
+          "message": "Docusaurus React Root onRecoverableError: Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at cn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35028435)\n    at Zr (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35077060)\n    at Zd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111763)\n    at Qd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111735)\n    at http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35107916\n    at Ed (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35108014)\n    at Fc (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35122692)\n    at MessagePort.R (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:2603) Object",
+          "timestamp": "2026-10-26T23:01:05.427Z",
+          "url": "http://127.0.0.1:3128/assets/js/main.4cef2d6e.js"
+        },
+        {
+          "level": "error",
+          "message": "Docusaurus React Root onRecoverableError: Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at cn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35028435)\n    at mn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35029735)\n    at ol (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35081160)\n    at ec (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35114015)\n    at Zd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111824)\n    at Qd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111735)\n    at http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35107916\n    at Ed (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35108014)\n    at Fc (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35122692)\n    at MessagePort.R (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:2603) Object",
+          "timestamp": "2026-10-26T23:01:40.077Z",
+          "url": "http://127.0.0.1:3128/assets/js/main.4cef2d6e.js"
+        },
+        {
+          "level": "error",
+          "message": "Docusaurus React Root onRecoverableError: Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at cn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35028435)\n    at mn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35029735)\n    at ol (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35081160)\n    at ec (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35114015)\n    at Zd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111824)\n    at Qd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111735)\n    at http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35107916\n    at Ed (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35108014)\n    at Fc (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35122692)\n    at MessagePort.R (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:2603) Object",
+          "timestamp": "2026-10-26T23:01:45.347Z",
+          "url": "http://127.0.0.1:3128/assets/js/main.4cef2d6e.js"
+        },
+        {
+          "level": "error",
+          "message": "Docusaurus React Root onRecoverableError: Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at cn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35028435)\n    at mn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35029735)\n    at ol (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35081160)\n    at ec (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35114015)\n    at Zd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111824)\n    at Qd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111735)\n    at http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35107916\n    at Ed (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35108014)\n    at Fc (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35122692)\n    at MessagePort.R (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:2603) Object",
+          "timestamp": "2026-10-26T23:01:46.155Z",
+          "url": "http://127.0.0.1:3128/assets/js/main.4cef2d6e.js"
+        },
+        {
+          "level": "error",
+          "message": "Docusaurus React Root onRecoverableError: Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at cn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35028435)\n    at mn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35029735)\n    at ol (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35081160)\n    at ec (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35114015)\n    at Zd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111824)\n    at Qd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111735)\n    at http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35107916\n    at Ed (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35108014)\n    at Fc (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35122692)\n    at MessagePort.R (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:2603) Object",
+          "timestamp": "2026-10-26T23:01:46.609Z",
+          "url": "http://127.0.0.1:3128/assets/js/main.4cef2d6e.js"
+        },
+        {
+          "level": "error",
+          "message": "Docusaurus React Root onRecoverableError: Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at cn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35028435)\n    at mn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35029735)\n    at ol (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35081160)\n    at ec (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35114015)\n    at Zd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111824)\n    at Qd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111735)\n    at http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35107916\n    at Ed (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35108014)\n    at Fc (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35122692)\n    at MessagePort.R (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:2603) Object",
+          "timestamp": "2026-10-26T23:01:58.301Z",
+          "url": "http://127.0.0.1:3128/assets/js/main.4cef2d6e.js"
+        },
+        {
+          "level": "error",
+          "message": "Docusaurus React Root onRecoverableError: Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at cn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35028435)\n    at mn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35029735)\n    at ol (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35081160)\n    at ec (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35114015)\n    at Zd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111824)\n    at Qd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111735)\n    at http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35107916\n    at Ed (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35108014)\n    at Fc (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35122692)\n    at MessagePort.R (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:2603) Object",
+          "timestamp": "2026-10-26T23:02:05.273Z",
+          "url": "http://127.0.0.1:3128/assets/js/main.4cef2d6e.js"
+        },
+        {
+          "level": "error",
+          "message": "Docusaurus React Root onRecoverableError: Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at cn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35028435)\n    at mn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35029735)\n    at ol (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35081160)\n    at ec (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35114015)\n    at Zd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111824)\n    at Qd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111735)\n    at http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35107916\n    at Ed (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35108014)\n    at Fc (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35122692)\n    at MessagePort.R (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:2603) Object",
+          "timestamp": "2026-10-26T23:02:07.704Z",
+          "url": "http://127.0.0.1:3128/assets/js/main.4cef2d6e.js"
+        },
+        {
+          "level": "error",
+          "message": "Docusaurus React Root onRecoverableError: Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at cn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35028435)\n    at mn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35029735)\n    at ol (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35081160)\n    at ec (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35114015)\n    at Zd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111824)\n    at Qd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111735)\n    at http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35107916\n    at Ed (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35108014)\n    at Fc (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35122692)\n    at MessagePort.R (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:2603) Object",
+          "timestamp": "2026-10-26T23:02:13.906Z",
+          "url": "http://127.0.0.1:3128/assets/js/main.4cef2d6e.js"
+        },
+        {
+          "level": "error",
+          "message": "Docusaurus React Root onRecoverableError: Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at cn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35028435)\n    at mn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35029735)\n    at ol (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35081160)\n    at ec (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35114015)\n    at Zd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111824)\n    at Qd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111735)\n    at http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35107916\n    at Ed (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35108014)\n    at Fc (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35122692)\n    at MessagePort.R (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:2603) Object",
+          "timestamp": "2026-10-26T23:02:15.862Z",
+          "url": "http://127.0.0.1:3128/assets/js/main.4cef2d6e.js"
+        },
+        {
+          "level": "error",
+          "message": "Docusaurus React Root onRecoverableError: Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at cn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35028435)\n    at mn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35029735)\n    at ol (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35081160)\n    at ec (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35114015)\n    at Zd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111824)\n    at Qd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111735)\n    at http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35107916\n    at Ed (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35108014)\n    at Fc (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35122692)\n    at MessagePort.R (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:2603) Object",
+          "timestamp": "2026-10-26T23:02:17.343Z",
+          "url": "http://127.0.0.1:3128/assets/js/main.4cef2d6e.js"
+        },
+        {
+          "level": "error",
+          "message": "Docusaurus React Root onRecoverableError: Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at cn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35028435)\n    at mn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35029735)\n    at ol (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35081160)\n    at ec (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35114015)\n    at Zd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111824)\n    at Qd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111735)\n    at http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35107916\n    at Ed (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35108014)\n    at Fc (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35122692)\n    at MessagePort.R (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:2603) Object",
+          "timestamp": "2026-10-26T23:02:37.810Z",
+          "url": "http://127.0.0.1:3128/assets/js/main.4cef2d6e.js"
+        },
+        {
+          "level": "warn",
+          "message": "InChI image fetch error for WQZGKKKJIJFFOK-GASJEMHNSA-N: Compound not found in PubChem",
+          "timestamp": "2026-10-26T23:02:37.964Z",
+          "url": "http://127.0.0.1:3128/assets/js/17896441.326941bb.js"
+        },
+        {
+          "level": "error",
+          "message": "Docusaurus React Root onRecoverableError: Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at cn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35028435)\n    at mn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35029735)\n    at ol (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35081160)\n    at ec (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35114015)\n    at Zd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111824)\n    at Qd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111735)\n    at http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35107916\n    at Ed (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35108014)\n    at Fc (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35122692)\n    at MessagePort.R (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:2603) Object",
+          "timestamp": "2026-10-26T23:02:41.571Z",
+          "url": "http://127.0.0.1:3128/assets/js/main.4cef2d6e.js"
+        },
+        {
+          "level": "error",
+          "message": "Docusaurus React Root onRecoverableError: Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at cn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35028435)\n    at Zr (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35077060)\n    at Zd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111763)\n    at Qd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111735)\n    at http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35107916\n    at Ed (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35108014)\n    at Fc (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35122692)\n    at MessagePort.R (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:2603) Object",
+          "timestamp": "2026-10-26T23:02:49.923Z",
+          "url": "http://127.0.0.1:3128/assets/js/main.4cef2d6e.js"
+        },
+        {
+          "level": "error",
+          "message": "Docusaurus React Root onRecoverableError: Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at cn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35028435)\n    at Zr (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35077060)\n    at Zd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111763)\n    at Qd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111735)\n    at http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35107916\n    at Ed (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35108014)\n    at Fc (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35122692)\n    at MessagePort.R (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:2603) Object",
+          "timestamp": "2026-10-26T23:03:04.598Z",
+          "url": "http://127.0.0.1:3128/assets/js/main.4cef2d6e.js"
+        },
+        {
+          "level": "error",
+          "message": "Docusaurus React Root onRecoverableError: Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at cn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35028435)\n    at Zr (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35077060)\n    at Zd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111763)\n    at Qd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111735)\n    at http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35107916\n    at Ed (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35108014)\n    at Fc (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35122692)\n    at MessagePort.R (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:2603) Object",
+          "timestamp": "2026-10-26T23:03:06.196Z",
+          "url": "http://127.0.0.1:3128/assets/js/main.4cef2d6e.js"
+        },
+        {
+          "level": "error",
+          "message": "Docusaurus React Root onRecoverableError: Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at cn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35028435)\n    at Zr (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35077060)\n    at Zd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111763)\n    at Qd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111735)\n    at http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35107916\n    at Ed (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35108014)\n    at Fc (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35122692)\n    at MessagePort.R (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:2603) Object",
+          "timestamp": "2026-10-26T23:03:19.196Z",
+          "url": "http://127.0.0.1:3128/assets/js/main.4cef2d6e.js"
+        },
+        {
+          "level": "error",
+          "message": "Docusaurus React Root onRecoverableError: Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at cn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35028435)\n    at Zr (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35077060)\n    at Zd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111763)\n    at Qd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111735)\n    at http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35107916\n    at Ed (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35108014)\n    at Fc (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35122692)\n    at MessagePort.R (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:2603) Object",
+          "timestamp": "2026-10-26T23:03:21.296Z",
+          "url": "http://127.0.0.1:3128/assets/js/main.4cef2d6e.js"
+        },
+        {
+          "level": "error",
+          "message": "Docusaurus React Root onRecoverableError: Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at cn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35028435)\n    at Zr (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35077060)\n    at Zd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111763)\n    at Qd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111735)\n    at http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35107916\n    at Ed (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35108014)\n    at Fc (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35122692)\n    at MessagePort.R (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:2603) Object",
+          "timestamp": "2026-10-26T23:03:23.680Z",
+          "url": "http://127.0.0.1:3128/assets/js/main.4cef2d6e.js"
+        },
+        {
+          "level": "error",
+          "message": "Docusaurus React Root onRecoverableError: Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at cn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35028435)\n    at Zr (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35077060)\n    at Zd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111763)\n    at Qd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111735)\n    at http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35107916\n    at Ed (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35108014)\n    at Fc (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35122692)\n    at MessagePort.R (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:2603) Object",
+          "timestamp": "2026-10-26T23:03:25.692Z",
+          "url": "http://127.0.0.1:3128/assets/js/main.4cef2d6e.js"
+        },
+        {
+          "level": "error",
+          "message": "Docusaurus React Root onRecoverableError: Error: Minified React error #418; visit https://react.dev/errors/418?args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.\n    at cn (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35028435)\n    at Zr (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35077060)\n    at Zd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111763)\n    at Qd (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35111735)\n    at http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35107916\n    at Ed (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35108014)\n    at Fc (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:35122692)\n    at MessagePort.R (http://127.0.0.1:3128/assets/js/main.4cef2d6e.js:2:2603) Object",
+          "timestamp": "2026-10-26T23:03:28.384Z",
+          "url": "http://127.0.0.1:3128/assets/js/main.4cef2d6e.js"
+        }
+      ],
+      "compact_rounding_after_final_build": [
+        {
+          "numberRows": [
+            {
+              "height": 26.3984375,
+              "lineHeight": "26.4px",
+              "value": "11.21"
+            },
+            {
+              "height": 26.3984375,
+              "lineHeight": "26.4px",
+              "value": "8.62"
+            },
+            {
+              "height": 26.3984375,
+              "lineHeight": "26.4px",
+              "value": "7.37"
+            },
+            {
+              "height": 26.3984375,
+              "lineHeight": "26.4px",
+              "value": "6.49"
+            },
+            {
+              "height": 26.3984375,
+              "lineHeight": "26.4px",
+              "value": "6.29"
+            },
+            {
+              "height": 26.3984375,
+              "lineHeight": "26.4px",
+              "value": "3.43"
+            },
+            {
+              "height": 26.3984375,
+              "lineHeight": "26.4px",
+              "value": "3.3"
+            },
+            {
+              "height": 26.3984375,
+              "lineHeight": "26.4px",
+              "value": "3.23"
+            },
+            {
+              "height": 26.3984375,
+              "lineHeight": "26.4px",
+              "value": "1.43"
+            },
+            {
+              "height": 26.3984375,
+              "lineHeight": "26.4px",
+              "value": "1.01"
+            }
+          ],
+          "summary": "▼Plant-based - Pumpkin Seeds 11.21 g per 100 g - dried"
+        },
+        {
+          "numberRows": [
+            {
+              "height": 26.3984375,
+              "lineHeight": "26.4px",
+              "value": "12.87"
+            },
+            {
+              "height": 26.3984375,
+              "lineHeight": "26.4px",
+              "value": "10.43"
+            },
+            {
+              "height": 26.3984375,
+              "lineHeight": "26.4px",
+              "value": "9.37"
+            },
+            {
+              "height": 26.3984375,
+              "lineHeight": "26.4px",
+              "value": "9.33"
+            },
+            {
+              "height": 26.3984375,
+              "lineHeight": "26.4px",
+              "value": "9.3"
+            },
+            {
+              "height": 26.3984375,
+              "lineHeight": "26.4px",
+              "value": "8.67"
+            },
+            {
+              "height": 26.3984375,
+              "lineHeight": "26.4px",
+              "value": "7.89"
+            },
+            {
+              "height": 26.3984375,
+              "lineHeight": "26.4px",
+              "value": "7.35"
+            },
+            {
+              "height": 26.3984375,
+              "lineHeight": "26.4px",
+              "value": "5.55"
+            },
+            {
+              "height": 26.3984375,
+              "lineHeight": "26.4px",
+              "value": "1.45"
+            }
+          ],
+          "summary": "▼Animal-based - Chicken 12.87 g per 100 g - cooked"
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Verified occurrence does not mean a measured quantity, ordinary-food intervention equivalence or delivery to the receiving tissue.",
+    "Glutamine and glutamate are protein-bound forms; gene-sequence estimates are not displayed as measured food amounts.",
+    "NAC remains supplemental. Native FOS leads do not resolve the specific oligofructose material identity; a separate identity/material adjudication would be needed.",
+    "No new derived pathway was necessary or manufactured. Existing B6 and riboflavin conversion records remain unchanged.",
+    "EAA ranking is within 20 reviewed foods, by a common as-eaten 100 g basis. Different water contents and portions prevent interpreting it as a protein-quality or universal best-food ranking.",
+    "USDA profiles retain all nine individual amino-acid quantities, nutrient-row IDs and derivation IDs, with same-record protein and source-specific portion data. Not every value is a new laboratory measurement. No missing constituent was filled with zero.",
+    "Compact PM totals are rounded to at most two decimals to fit the canonical value column. Full calculated totals and individual source values remain unchanged in the dataset and detailed disclosure.",
+    "Existing food-page limiting-amino-acid and protein-quality narratives are preserved; they have not been newly established from these composition totals.",
+    "Egg and lentil digestibility evidence remains source-specific; no matched ileal correction or fabricated DIAAS was assigned.",
+    "The first build exposed one TSX syntax error, corrected before the final build. Three obsolete foodless fixtures were replaced with source-specific positive and no-borrowed-quantity assertions."
+  ]
+}

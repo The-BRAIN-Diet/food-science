@@ -5,15 +5,21 @@ Generated from the same authoritative records as the PM disclosures. The preview
 | Section ID | Substance | Quantified food preview | Other supported food sources |
 | --- | --- | --- | --- |
 | [BRS4-FM1-PM1](http://localhost:3000/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Iron](http://localhost:3000/docs/substances/nutrients/micronutrients/minerals/trace/iron) — iron | [Almonds](http://localhost:3000/docs/foods/almonds) — 3.71 mg (per 100 g edible portion) · preparation unknown<br/>[Amaranth](http://localhost:3000/docs/foods/amaranth) — 7.61 mg (per 100 g edible portion) · uncooked<br/>[Anchovies](http://localhost:3000/docs/foods/anchovies) — 4.63 mg (per 100 g edible portion) · oil<br/>[Apples](http://localhost:3000/docs/foods/apples) — 0.12 mg (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 2.14 mg (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 0.23 mg (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 0.55 mg (per 100 g edible portion) · raw<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 0.26 mg (per 100 g edible portion) · raw<br/>[Barley](http://localhost:3000/docs/foods/barley) — 3.6 mg (per 100 g edible portion) · preparation unknown<br/>[Beef](http://localhost:3000/docs/foods/beef) — 2.09 mg (per 100 g edible portion) · raw | [Broccoli Sprouts](http://localhost:3000/docs/foods/broccoli-sprouts) — Quantity not established · raw<br/>[Chlorella](http://localhost:3000/docs/foods/chlorella) — Quantity not established · preparation unknown<br/>[Dark-Meat Poultry](http://localhost:3000/docs/foods/dark-meat-poultry) — Quantity not established · preparation unknown<br/>[Mankai (Duckweed)](http://localhost:3000/docs/foods/mankai) — Quantity not established · preparation unknown<br/>[Nori](http://localhost:3000/docs/foods/nori) — Quantity not established · dried<br/>[Sourdough Bread](http://localhost:3000/docs/foods/sourdough-bread) — Quantity not established · preparation unknown<br/>[Whole Grains](http://localhost:3000/docs/foods/whole-grains) — Quantity not established · preparation unknown |
-| [BRS4-FM1-PM1](http://localhost:3000/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Flavin mononucleotide (FMN)](http://localhost:3000/docs/substances/nutrients/micronutrients/vitamins/flavin-mononucleotide) — flavin-mononucleotide | No comparable quantified food sources | None recorded |
+| [BRS4-FM1-PM1](http://localhost:3000/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Flavin mononucleotide (FMN)](http://localhost:3000/docs/substances/nutrients/micronutrients/vitamins/flavin-mononucleotide) — flavin-mononucleotide | No comparable quantified food sources | [Milk](http://localhost:3000/docs/foods/milk) — Quantity not established · heat-treated; method-specific |
 | [BRS4-FM1-PM1](http://localhost:3000/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Vitamin B2 (Riboflavin)](http://localhost:3000/docs/substances/nutrients/micronutrients/vitamins/vitamin-b2) — vitamin-b2 | [Almonds](http://localhost:3000/docs/foods/almonds) — 1.138 mg (per 100 g edible portion) · preparation unknown<br/>[Amaranth](http://localhost:3000/docs/foods/amaranth) — 0.2 mg (per 100 g edible portion) · uncooked<br/>[Anchovies](http://localhost:3000/docs/foods/anchovies) — 0.363 mg (per 100 g edible portion) · oil<br/>[Apples](http://localhost:3000/docs/foods/apples) — 0.026 mg (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 0.141 mg (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 0.037 mg (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 0.13 mg (per 100 g edible portion) · raw<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 0.073 mg (per 100 g edible portion) · raw<br/>[Barley](http://localhost:3000/docs/foods/barley) — 0.285 mg (per 100 g edible portion) · preparation unknown<br/>[Beef](http://localhost:3000/docs/foods/beef) — 0.151 mg (per 100 g edible portion) · raw | None recorded |
+| [BRS4-FM1-PM1](http://localhost:3000/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Copper](http://localhost:3000/docs/substances/nutrients/micronutrients/minerals/trace/copper) — copper | [Almonds](http://localhost:3000/docs/foods/almonds) — 1.031 mg (per 100 g edible portion) · preparation unknown<br/>[Amaranth](http://localhost:3000/docs/foods/amaranth) — 0.525 mg (per 100 g edible portion) · uncooked<br/>[Anchovies](http://localhost:3000/docs/foods/anchovies) — 0.339 mg (per 100 g edible portion) · oil<br/>[Apples](http://localhost:3000/docs/foods/apples) — 0.027 mg (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 0.189 mg (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 0.081 mg (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 0.19 mg (per 100 g edible portion) · raw<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 0.078 mg (per 100 g edible portion) · raw<br/>[Barley](http://localhost:3000/docs/foods/barley) — 0.498 mg (per 100 g edible portion) · preparation unknown<br/>[Beef](http://localhost:3000/docs/foods/beef) — 0.067 mg (per 100 g edible portion) · raw | [Sourdough Bread](http://localhost:3000/docs/foods/sourdough-bread) — Quantity not established · preparation unknown |
 | [BRS4-FM1-PM2](http://localhost:3000/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Nicotinamide](http://localhost:3000/docs/substances/nutrients/micronutrients/vitamins/vitamin-b3#nicotinamide) — nicotinamide | No comparable quantified food sources | None recorded |
 | [BRS4-FM1-PM2](http://localhost:3000/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Nicotinic acid](http://localhost:3000/docs/substances/nutrients/micronutrients/vitamins/vitamin-b3#nicotinic-acid) — nicotinic-acid | No comparable quantified food sources | None recorded |
 | [BRS4-FM1-PM2](http://localhost:3000/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Tryptophan](http://localhost:3000/docs/substances/nutrients/macronutrients/amino-acids/essential/tryptophan) — tryptophan | [Pumpkin Seeds](http://localhost:3000/docs/foods/pumpkin-seeds) — 0.576 g (per 100 g edible portion) · dried<br/>[Soy](http://localhost:3000/docs/foods/soy) — 0.591 g (per 100 g edible portion) · raw<br/>[Turkey](http://localhost:3000/docs/foods/turkey) — 0.241 g (per 100 g edible portion) · raw | None recorded |
+| [BRS4-FM1-PM2](http://localhost:3000/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Nicotinamide riboside](http://localhost:3000/docs/substances/nutrients/micronutrients/vitamins/nicotinamide-riboside) — nicotinamide-riboside | No comparable quantified food sources | [Milk](http://localhost:3000/docs/foods/milk) — Quantity not established · preparation unknown |
 | [BRS4-FM1-PM3](http://localhost:3000/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship<br/>[BRS4-FM1-PM3](http://localhost:3000/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer) — 3.1.2 Cofactors and Substrates — PM-owned dietary relationship | [Creatine](http://localhost:3000/docs/substances/bioactive-compounds/lipid-based/creatine) — creatine | No comparable quantified food sources | [Beef](http://localhost:3000/docs/foods/beef) — Quantity not established · raw<br/>[Beef](http://localhost:3000/docs/foods/beef) — 400 mg (basis unknown; unverified amount) · raw<br/>[Lamb](http://localhost:3000/docs/foods/lamb) — Quantity not established · raw<br/>[Liver](http://localhost:3000/docs/foods/liver) — Quantity not established · raw<br/>[Pork](http://localhost:3000/docs/foods/pork) — Quantity not established · raw<br/>[Tuna](http://localhost:3000/docs/foods/tuna) — Quantity not established · raw |
+| [BRS4-FM1-PM3](http://localhost:3000/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Arginine](http://localhost:3000/docs/substances/nutrients/macronutrients/amino-acids/conditionals/arginine) — arginine | [Lupin Beans](http://localhost:3000/docs/foods/lupin-beans) — 3.877 g (per 100 g edible portion) · raw<br/>[Watermelon](http://localhost:3000/docs/foods/watermelon) — 0.059 g (per 100 g edible portion) · raw | None recorded |
+| [BRS4-FM1-PM3](http://localhost:3000/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Glycine](http://localhost:3000/docs/substances/nutrients/macronutrients/amino-acids/conditionals/glycine) — glycine | No comparable quantified food sources | None recorded |
+| [BRS4-FM1-PM3](http://localhost:3000/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Methionine](http://localhost:3000/docs/substances/nutrients/macronutrients/amino-acids/essential/methionine) — methionine | [Chicken](http://localhost:3000/docs/foods/chicken) — 0.493 g (per 100 g edible portion) · raw<br/>[Eggs](http://localhost:3000/docs/foods/eggs) — 0.38 g (per 100 g edible portion) · raw<br/>[Salmon](http://localhost:3000/docs/foods/salmon) — 0.626 g (per 100 g edible portion) · raw<br/>[Sardines](http://localhost:3000/docs/foods/sardines) — 1.086 g (per 100 g edible portion) · oil<br/>[Tuna](http://localhost:3000/docs/foods/tuna) — 0.69 g (per 100 g edible portion) · raw | None recorded |
 | [BRS4-FM2-PM5](http://localhost:3000/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Manganese](http://localhost:3000/docs/substances/nutrients/micronutrients/minerals/trace/manganese) — manganese | [Almonds](http://localhost:3000/docs/foods/almonds) — 2.179 mg (per 100 g edible portion) · preparation unknown<br/>[Amaranth](http://localhost:3000/docs/foods/amaranth) — 3.333 mg (per 100 g edible portion) · uncooked<br/>[Anchovies](http://localhost:3000/docs/foods/anchovies) — 0.1 mg (per 100 g edible portion) · oil<br/>[Apples](http://localhost:3000/docs/foods/apples) — 0.035 mg (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 0.158 mg (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 0.232 mg (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 0.142 mg (per 100 g edible portion) · raw<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 0.27 mg (per 100 g edible portion) · raw<br/>[Barley](http://localhost:3000/docs/foods/barley) — 1.943 mg (per 100 g edible portion) · preparation unknown<br/>[Beef](http://localhost:3000/docs/foods/beef) — 0.01 mg (per 100 g edible portion) · raw | [Sourdough Bread](http://localhost:3000/docs/foods/sourdough-bread) — Quantity not established · preparation unknown |
 | [BRS4-FM2-PM5](http://localhost:3000/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Vitamin E (Tocopherols/Tocotrienols)](http://localhost:3000/docs/substances/nutrients/micronutrients/vitamins/vitamin-e) — vitamin-e | [Almonds](http://localhost:3000/docs/foods/almonds) — 25.63 mg (per 100 g edible portion) · preparation unknown<br/>[Amaranth](http://localhost:3000/docs/foods/amaranth) — 1.19 mg (per 100 g edible portion) · uncooked<br/>[Anchovies](http://localhost:3000/docs/foods/anchovies) — 3.33 mg (per 100 g edible portion) · oil<br/>[Apples](http://localhost:3000/docs/foods/apples) — 0.18 mg (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 1.13 mg (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 0.3 mg (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 2.07 mg (per 100 g edible portion) · raw<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 0.1 mg (per 100 g edible portion) · raw<br/>[Barley](http://localhost:3000/docs/foods/barley) — 0.57 mg (per 100 g edible portion) · preparation unknown<br/>[Beef](http://localhost:3000/docs/foods/beef) — 0.17 mg (per 100 g edible portion) · raw | [Avocado Oil](http://localhost:3000/docs/foods/avocado-oil) — Quantity not established · Oil<br/>[Wheat Germ](http://localhost:3000/docs/foods/wheat-germ) — Quantity not established · preparation unknown |
 | [BRS4-FM3-PM6](http://localhost:3000/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [L-Carnitine](http://localhost:3000/docs/substances/bioactive-compounds/lipid-based/l-carnitine) — l-carnitine | No comparable quantified food sources | None recorded |
+| [BRS4-FM3-PM7](http://localhost:3000/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Caprylic Triglyceride (Trioctanoin)](http://localhost:3000/docs/substances/nutrients/macronutrients/fatty-acids/saturated/caprylic-triglyceride) — caprylic-triglyceride | No comparable quantified food sources | [MCT Oil](http://localhost:3000/docs/foods/mct-oil) — Quantity not established · Oil |
 
 ## Iron — iron
 
@@ -179,12 +185,14 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 
 ## Flavin mononucleotide (FMN) — flavin-mononucleotide
 
-No food-source mappings for this preparation.
+Food sources identified; quantities not established.
 
 <details>
-<summary>All mapped food sources (0)</summary>
+<summary>All mapped food sources (1)</summary>
 
-No eligible dietary food list is generated. Check the PM dietary-input decision separately from sourcing coverage.
+| Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
+| --- | --- | --- | --- |
+| [Milk](http://localhost:3000/docs/foods/milk) | Commercial liquid cow milk (31 samples: pasteurized, extended shelf-life and UHT) — heat-treated; method-specific | Quantity not established | docs/foods/milk.md#substance_relationships/Flavin%20mononucleotide |
 
 </details>
 
@@ -328,6 +336,150 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 
 </details>
 
+## Copper — copper
+
+Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
+
+<details>
+<summary>All mapped food sources (132)</summary>
+
+| Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
+| --- | --- | --- | --- |
+| [Almonds](http://localhost:3000/docs/foods/almonds) | Nuts, almonds | 1.031 mg (per 100 g edible portion) | docs/foods/almonds.md#nutrition_per_100g/copper_mg; docs/foods/almonds.md#substance_relationships/Copper |
+| [Amaranth](http://localhost:3000/docs/foods/amaranth) | Amaranth grain, uncooked — uncooked | 0.525 mg (per 100 g edible portion) | docs/foods/amaranth.md#nutrition_per_100g/copper_mg |
+| [Anchovies](http://localhost:3000/docs/foods/anchovies) | Fish, anchovy, european, canned in oil, drained solids — oil | 0.339 mg (per 100 g edible portion) | docs/foods/anchovies.md#nutrition_per_100g/copper_mg |
+| [Apples](http://localhost:3000/docs/foods/apples) | Apples, raw, with skin (Includes foods for USDA's Food Distribution Program) — raw | 0.027 mg (per 100 g edible portion) | docs/foods/apples.md#nutrition_per_100g/copper_mg |
+| [Asparagus](http://localhost:3000/docs/foods/asparagus) | Asparagus, raw — raw | 0.189 mg (per 100 g edible portion) | docs/foods/asparagus.md#nutrition_per_100g/copper_mg |
+| [Aubergine](http://localhost:3000/docs/foods/aubergine) | Eggplant, raw — raw | 0.081 mg (per 100 g edible portion) | docs/foods/aubergine.md#nutrition_per_100g/copper_mg |
+| [Avocado](http://localhost:3000/docs/foods/avocado) | Avocados, raw, all commercial varieties — raw | 0.19 mg (per 100 g edible portion) | docs/foods/avocado.md#nutrition_per_100g/copper_mg |
+| [Bananas](http://localhost:3000/docs/foods/bananas) | Bananas, raw — raw | 0.078 mg (per 100 g edible portion) | docs/foods/bananas.md#nutrition_per_100g/copper_mg |
+| [Barley](http://localhost:3000/docs/foods/barley) | Barley, hulled | 0.498 mg (per 100 g edible portion) | docs/foods/barley.md#nutrition_per_100g/copper_mg |
+| [Beef](http://localhost:3000/docs/foods/beef) | Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program) — raw | 0.067 mg (per 100 g edible portion) | docs/foods/beef.md#nutrition_per_100g/copper_mg |
+| [Beetroot](http://localhost:3000/docs/foods/beetroot) | Beets, raw — raw | 0.075 mg (per 100 g edible portion) | docs/foods/beetroot.md#nutrition_per_100g/copper_mg |
+| [Bell Peppers](http://localhost:3000/docs/foods/bell-peppers) | Peppers, sweet, red, raw — raw | 0.017 mg (per 100 g edible portion) | docs/foods/bell-peppers.md#nutrition_per_100g/copper_mg |
+| [Black Beans](http://localhost:3000/docs/foods/black-beans) | Beans, black, mature seeds, raw — raw | 0.841 mg (per 100 g edible portion) | docs/foods/black-beans.md#nutrition_per_100g/copper_mg; docs/foods/black-beans.md#substance_relationships/Copper |
+| [Black Pepper](http://localhost:3000/docs/foods/black-pepper) | Spices, pepper, black | 1.33 mg (per 100 g edible portion) | docs/foods/black-pepper.md#nutrition_per_100g/copper_mg |
+| [Black Tea](http://localhost:3000/docs/foods/black-tea) | Beverages, tea, black, brewed, prepared with tap water | 0.01 mg (per 100 g edible portion) | docs/foods/black-tea.md#nutrition_per_100g/copper_mg |
+| [Blueberries](http://localhost:3000/docs/foods/blueberries) | Blueberries, raw — raw | 0.057 mg (per 100 g edible portion) | docs/foods/blueberries.md#nutrition_per_100g/copper_mg |
+| [Broccoli](http://localhost:3000/docs/foods/broccoli) | Broccoli, raw — raw | 0.049 mg (per 100 g edible portion) | docs/foods/broccoli.md#nutrition_per_100g/copper_mg |
+| [Brussels Sprouts](http://localhost:3000/docs/foods/brussels-sprouts) | Brussels sprouts, raw — raw | 0.07 mg (per 100 g edible portion) | docs/foods/brussels-sprouts.md#nutrition_per_100g/copper_mg |
+| [Buckwheat](http://localhost:3000/docs/foods/buckwheat) | Buckwheat | 1.1 mg (per 100 g edible portion) | docs/foods/buckwheat.md#nutrition_per_100g/copper_mg |
+| [Butter](http://localhost:3000/docs/foods/butter) | Butter, without salt | 0.016 mg (per 100 g edible portion) | docs/foods/butter.md#nutrition_per_100g/copper_mg |
+| [Cabbage](http://localhost:3000/docs/foods/cabbage) | Cabbage, raw — raw | 0.019 mg (per 100 g edible portion) | docs/foods/cabbage.md#nutrition_per_100g/copper_mg |
+| [Cacao Powder](http://localhost:3000/docs/foods/cacao-powder) | Cocoa, dry powder, unsweetened | 3.788 mg (per 100 g edible portion) | docs/foods/cacao-powder.md#nutrition_per_100g/copper_mg |
+| [Capers](http://localhost:3000/docs/foods/capers) | Capers, canned | 0.374 mg (per 100 g edible portion) | docs/foods/capers.md#nutrition_per_100g/copper_mg |
+| [Carrots](http://localhost:3000/docs/foods/carrots) | Carrots, raw — raw | 0.045 mg (per 100 g edible portion) | docs/foods/carrots.md#nutrition_per_100g/copper_mg |
+| [Cashews](http://localhost:3000/docs/foods/cashews) | Nuts, cashew nuts, raw — raw | 2.195 mg (per 100 g edible portion) | docs/foods/cashews.md#nutrition_per_100g/copper_mg; docs/foods/cashews.md#substance_relationships/Copper |
+| [Cauliflower](http://localhost:3000/docs/foods/cauliflower) | Cauliflower, raw — raw | 0.039 mg (per 100 g edible portion) | docs/foods/cauliflower.md#nutrition_per_100g/copper_mg |
+| [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 0.03 mg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/copper_mg |
+| [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 0.06 mg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/copper_mg |
+| [Chia Seeds](http://localhost:3000/docs/foods/chia-seeds) | Seeds, chia seeds, dried — dried | 0.924 mg (per 100 g edible portion) | docs/foods/chia-seeds.md#nutrition_per_100g/copper_mg |
+| [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 0.048 mg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/copper_mg |
+| [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 0.656 mg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/copper_mg; docs/foods/chickpeas.md#substance_relationships/Copper |
+| [Chicory Root](http://localhost:3000/docs/foods/chicory-root) | Chicory roots, raw (Cichorium intybus) — raw | 0.077 mg (per 100 g edible portion; dietary fibre does not include inulin) | docs/foods/chicory-root.md#nutrition_per_100g/copper_mg; docs/foods/chicory-root.md#substance_relationships/Copper |
+| [Cilantro](http://localhost:3000/docs/foods/cilantro) | Coriander (cilantro) leaves, raw — raw | 0.225 mg (per 100 g edible portion) | docs/foods/cilantro.md#nutrition_per_100g/copper_mg |
+| [Cinnamon](http://localhost:3000/docs/foods/cinnamon) | Spices, cinnamon, ground | 0.339 mg (per 100 g edible portion) | docs/foods/cinnamon.md#nutrition_per_100g/copper_mg |
+| [Clams](http://localhost:3000/docs/foods/clams) | Mollusks, clam, mixed species, raw — raw | 0.053 mg (per 100 g edible portion) | docs/foods/clams.md#nutrition_per_100g/copper_mg |
+| [Cocoa](http://localhost:3000/docs/foods/cocoa) | Cocoa, dry powder, unsweetened | 3.788 mg (per 100 g edible portion) | docs/foods/cocoa.md#nutrition_per_100g/copper_mg |
+| [Cod](http://localhost:3000/docs/foods/cod) | Fish, cod, Atlantic, raw — raw | 0.028 mg (per 100 g edible portion) | docs/foods/cod.md#nutrition_per_100g/copper_mg |
+| [Coffee](http://localhost:3000/docs/foods/coffee) | Beverages, coffee, brewed, breakfast blend | 0.005 mg (per 100 g edible portion) | docs/foods/coffee.md#nutrition_per_100g/copper_mg |
+| [Corn](http://localhost:3000/docs/foods/corn) | Corn, sweet, yellow, raw — raw | 0.054 mg (per 100 g edible portion) | docs/foods/corn.md#nutrition_per_100g/copper_mg |
+| [Cranberries](http://localhost:3000/docs/foods/cranberries) | Cranberries, raw — raw | 0.056 mg (per 100 g edible portion) | docs/foods/cranberries.md#nutrition_per_100g/copper_mg |
+| [Cucumber](http://localhost:3000/docs/foods/cucumber) | Cucumber, with peel, raw — raw | 0.041 mg (per 100 g edible portion) | docs/foods/cucumber.md#nutrition_per_100g/copper_mg |
+| [Dandelion Greens](http://localhost:3000/docs/foods/dandelion-greens) | Dandelion greens, raw — raw | 0.171 mg (per 100 g edible portion) | docs/foods/dandelion-greens.md#nutrition_per_100g/copper_mg |
+| [Dark Chocolate](http://localhost:3000/docs/foods/dark-chocolate) | Chocolate, dark, 70-85% cacao solids | 1.766 mg (per 100 g edible portion) | docs/foods/dark-chocolate.md#nutrition_per_100g/copper_mg |
+| [Edamame](http://localhost:3000/docs/foods/edamame) | Edamame, frozen, unprepared | 0.324 mg (per 100 g edible portion) | docs/foods/edamame.md#nutrition_per_100g/copper_mg |
+| [Egg Yolks](http://localhost:3000/docs/foods/egg-yolks) | Egg, yolk, raw, fresh — raw | 0.077 mg (per 100 g edible portion) | docs/foods/egg-yolks.md#nutrition_per_100g/copper_mg |
+| [Eggs](http://localhost:3000/docs/foods/eggs) | Egg, whole, raw, fresh — raw | 0.072 mg (per 100 g edible portion) | docs/foods/eggs.md#nutrition_per_100g/copper_mg |
+| [Fermented Hot Sauce](http://localhost:3000/docs/foods/fermented-hot-sauce) | Sauce, ready-to-serve, pepper, TABASCO | 0.075 mg (per 100 g edible portion) | docs/foods/fermented-hot-sauce.md#nutrition_per_100g/copper_mg |
+| [Flax Seeds](http://localhost:3000/docs/foods/flax-seeds) | Seeds, flaxseed | 1.22 mg (per 100 g edible portion) | docs/foods/flax-seeds.md#nutrition_per_100g/copper_mg |
+| [Garlic](http://localhost:3000/docs/foods/garlic) | Garlic, raw — raw | 0.299 mg (per 100 g edible portion) | docs/foods/garlic.md#nutrition_per_100g/copper_mg |
+| [Ghee](http://localhost:3000/docs/foods/ghee) | Butter oil, anhydrous — oil | 0.001 mg (per 100 g edible portion) | docs/foods/ghee.md#nutrition_per_100g/copper_mg |
+| [Ginger](http://localhost:3000/docs/foods/ginger) | Ginger root, raw — raw | 0.226 mg (per 100 g edible portion) | docs/foods/ginger.md#nutrition_per_100g/copper_mg |
+| [Grapes](http://localhost:3000/docs/foods/grapes) | Grapes, red or green (European type, such as Thompson seedless), raw — raw | 0.127 mg (per 100 g edible portion) | docs/foods/grapes.md#nutrition_per_100g/copper_mg |
+| [Greek Yogurt](http://localhost:3000/docs/foods/greek-yogurt) | Yogurt, Greek, plain, whole milk | 0.017 mg (per 100 g edible portion) | docs/foods/greek-yogurt.md#nutrition_per_100g/copper_mg |
+| [Green Tea](http://localhost:3000/docs/foods/green-tea) | Beverages, tea, green, brewed, regular | 0.004 mg (per 100 g edible portion) | docs/foods/green-tea.md#nutrition_per_100g/copper_mg |
+| [Heart](http://localhost:3000/docs/foods/heart) | Beef, variety meats and by-products, heart, raw — raw | 0.396 mg (per 100 g edible portion) | docs/foods/heart.md#nutrition_per_100g/copper_mg |
+| [Herring](http://localhost:3000/docs/foods/herring) | Fish, herring, Atlantic, raw — raw | 0.092 mg (per 100 g edible portion) | docs/foods/herring.md#nutrition_per_100g/copper_mg |
+| [Kale](http://localhost:3000/docs/foods/kale) | Kale, raw — raw | 0.053 mg (per 100 g edible portion) | docs/foods/kale.md#nutrition_per_100g/copper_mg |
+| [Kefir](http://localhost:3000/docs/foods/kefir) | Kefir, lowfat, plain, LIFEWAY | 0.009 mg (per 100 g edible portion) | docs/foods/kefir.md#nutrition_per_100g/copper_mg |
+| [Kidney Beans](http://localhost:3000/docs/foods/kidney-beans) | Beans, kidney, all types, mature seeds, raw — raw | 0.958 mg (per 100 g edible portion) | docs/foods/kidney-beans.md#nutrition_per_100g/copper_mg |
+| [Kidney](http://localhost:3000/docs/foods/kidney) | Beef, variety meats and by-products, kidneys, raw — raw | 0.426 mg (per 100 g edible portion) | docs/foods/kidney.md#nutrition_per_100g/copper_mg |
+| [Kimchi](http://localhost:3000/docs/foods/kimchi) | Cabbage, kimchi | 0.024 mg (per 100 g edible portion) | docs/foods/kimchi.md#nutrition_per_100g/copper_mg |
+| [Lamb](http://localhost:3000/docs/foods/lamb) | Lamb, ground, raw — raw | 0.101 mg (per 100 g edible portion) | docs/foods/lamb.md#nutrition_per_100g/copper_mg |
+| [Leeks](http://localhost:3000/docs/foods/leeks) | Leeks, (bulb and lower leaf-portion), raw — raw | 0.12 mg (per 100 g edible portion) | docs/foods/leeks.md#nutrition_per_100g/copper_mg |
+| [Lemon](http://localhost:3000/docs/foods/lemon) | Lemons, raw, without peel — raw | 0.037 mg (per 100 g edible portion) | docs/foods/lemon.md#nutrition_per_100g/copper_mg |
+| [Lentils](http://localhost:3000/docs/foods/lentils) | Lentils, raw — raw | 0.754 mg (per 100 g edible portion) | docs/foods/lentils.md#nutrition_per_100g/copper_mg |
+| [Liver](http://localhost:3000/docs/foods/liver) | Beef, variety meats and by-products, liver, raw — raw | 9.755 mg (per 100 g edible portion) | docs/foods/liver.md#nutrition_per_100g/copper_mg |
+| [Lupin Beans](http://localhost:3000/docs/foods/lupin-beans) | Lupins, mature seeds, raw — raw | 1.022 mg (per 100 g edible portion) | docs/foods/lupin-beans.md#nutrition_per_100g/copper_mg |
+| [Mackerel](http://localhost:3000/docs/foods/mackerel) | Fish, mackerel, Atlantic, raw — raw | 0.073 mg (per 100 g edible portion) | docs/foods/mackerel.md#nutrition_per_100g/copper_mg |
+| [Maitake Mushroom](http://localhost:3000/docs/foods/maitake-mushroom) | Mushrooms, maitake, raw — raw | 0.252 mg (per 100 g edible portion) | docs/foods/maitake-mushroom.md#nutrition_per_100g/copper_mg |
+| [Milk](http://localhost:3000/docs/foods/milk) | Milk, whole, 3.25% milkfat, with added vitamin D | 0.025 mg (per 100 g edible portion) | docs/foods/milk.md#nutrition_per_100g/copper_mg |
+| [Miso](http://localhost:3000/docs/foods/miso) | Miso | 0.42 mg (per 100 g edible portion) | docs/foods/miso.md#nutrition_per_100g/copper_mg |
+| [White/Button Mushroom](http://localhost:3000/docs/foods/mushrooms) | Mushrooms, white, raw — raw | 0.318 mg (per 100 g edible portion) | docs/foods/mushrooms.md#nutrition_per_100g/copper_mg |
+| [Mussels](http://localhost:3000/docs/foods/mussels) | Mollusks, mussel, blue, raw — raw | 0.094 mg (per 100 g edible portion) | docs/foods/mussels.md#nutrition_per_100g/copper_mg |
+| [Natto](http://localhost:3000/docs/foods/natto) | Natto | 0.667 mg (per 100 g edible portion) | docs/foods/natto.md#nutrition_per_100g/copper_mg |
+| [Nori](http://localhost:3000/docs/foods/nori) | Purple laver (Porphyra spp.), dried, toasted — dried | 0.55 mg (per 100 g edible dried, toasted nori; not a typical serving) | docs/foods/nori.md#nutrition_per_100g/copper_mg; docs/foods/nori.md#substance_relationships/Copper |
+| [Oats](http://localhost:3000/docs/foods/oats) | Oats (Includes foods for USDA's Food Distribution Program) | 0.626 mg (per 100 g edible portion) | docs/foods/oats.md#nutrition_per_100g/copper_mg; docs/foods/oats.md#substance_relationships/Copper |
+| [Olives](http://localhost:3000/docs/foods/olives) | Olives, ripe, canned (small-extra large) | 0.251 mg (per 100 g edible portion) | docs/foods/olives.md#nutrition_per_100g/copper_mg |
+| [Onions](http://localhost:3000/docs/foods/onions) | Onions, raw — raw | 0.039 mg (per 100 g edible portion) | docs/foods/onions.md#nutrition_per_100g/copper_mg |
+| [Oranges](http://localhost:3000/docs/foods/oranges) | Oranges, raw, all commercial varieties — raw | 0.045 mg (per 100 g edible portion) | docs/foods/oranges.md#nutrition_per_100g/copper_mg |
+| [Oyster Mushroom](http://localhost:3000/docs/foods/oyster-mushroom) | Mushrooms, oyster, raw — raw | 0.244 mg (per 100 g edible portion) | docs/foods/oyster-mushroom.md#nutrition_per_100g/copper_mg |
+| [Oysters](http://localhost:3000/docs/foods/oysters) | Mollusks, oyster, eastern, wild, raw — raw | 2.858 mg (per 100 g edible portion) | docs/foods/oysters.md#nutrition_per_100g/copper_mg |
+| [Parmesan Cheese](http://localhost:3000/docs/foods/parmesan-cheese) | Cheese, parmesan, hard | 0.032 mg (per 100 g edible portion) | docs/foods/parmesan-cheese.md#nutrition_per_100g/copper_mg |
+| [Parsley](http://localhost:3000/docs/foods/parsley) | Parsley, fresh | 0.149 mg (per 100 g edible portion) | docs/foods/parsley.md#nutrition_per_100g/copper_mg |
+| [Peanuts](http://localhost:3000/docs/foods/peanuts) | Peanuts, all types, raw — raw | 1.144 mg (per 100 g edible portion) | docs/foods/peanuts.md#nutrition_per_100g/copper_mg; docs/foods/peanuts.md#substance_relationships/Copper |
+| [Peas](http://localhost:3000/docs/foods/peas) | Peas, green, raw — raw | 0.176 mg (per 100 g edible portion) | docs/foods/peas.md#nutrition_per_100g/copper_mg |
+| [Peppermint](http://localhost:3000/docs/foods/peppermint) | Peppermint, fresh | 0.329 mg (per 100 g edible portion) | docs/foods/peppermint.md#nutrition_per_100g/copper_mg |
+| [Pistachios](http://localhost:3000/docs/foods/pistachios) | Nuts, pistachio nuts, raw — raw | 1.3 mg (per 100 g edible portion) | docs/foods/pistachios.md#nutrition_per_100g/copper_mg |
+| [Pomegranates](http://localhost:3000/docs/foods/pomegranates) | Pomegranates, raw — raw | 0.158 mg (per 100 g edible portion) | docs/foods/pomegranates.md#nutrition_per_100g/copper_mg |
+| [Pork](http://localhost:3000/docs/foods/pork) | Pork, fresh, loin, whole, separable lean and fat, raw — raw | 0.056 mg (per 100 g edible portion) | docs/foods/pork.md#nutrition_per_100g/copper_mg |
+| [Potatoes](http://localhost:3000/docs/foods/potatoes) | Potatoes, flesh and skin, raw — raw | 0.11 mg (per 100 g edible portion) | docs/foods/potatoes.md#nutrition_per_100g/copper_mg |
+| [Pumpkin Seeds](http://localhost:3000/docs/foods/pumpkin-seeds) | Seeds, pumpkin and squash seed kernels, dried — dried | 1.343 mg (per 100 g edible portion) | docs/foods/pumpkin-seeds.md#nutrition_per_100g/copper_mg |
+| [Quinoa](http://localhost:3000/docs/foods/quinoa) | Quinoa, uncooked — uncooked | 0.59 mg (per 100 g edible portion) | docs/foods/quinoa.md#nutrition_per_100g/copper_mg |
+| [Radicchio](http://localhost:3000/docs/foods/radicchio) | Radicchio, raw — raw | 0.341 mg (per 100 g edible portion) | docs/foods/radicchio.md#nutrition_per_100g/copper_mg |
+| [Raspberries](http://localhost:3000/docs/foods/raspberries) | Raspberries, raw — raw | 0.09 mg (per 100 g edible portion) | docs/foods/raspberries.md#nutrition_per_100g/copper_mg |
+| [Rice](http://localhost:3000/docs/foods/rice) | Rice, white, long-grain, regular, raw, unenriched — raw | 0.22 mg (per 100 g edible portion) | docs/foods/rice.md#nutrition_per_100g/copper_mg |
+| [Romaine Lettuce](http://localhost:3000/docs/foods/romaine-lettuce) | Lettuce, cos or romaine, raw — raw | 0.048 mg (per 100 g edible portion) | docs/foods/romaine-lettuce.md#nutrition_per_100g/copper_mg |
+| [Rosemary](http://localhost:3000/docs/foods/rosemary) | Rosemary, fresh | 0.301 mg (per 100 g edible portion) | docs/foods/rosemary.md#nutrition_per_100g/copper_mg |
+| [Salmon Roe](http://localhost:3000/docs/foods/salmon-roe) | Chum salmon (Oncorhynchus keta), salted roe (ikura) | 0.76 mg (per 100 g edible portion) | docs/foods/salmon-roe.md#nutrition_per_100g/copper_mg; docs/foods/salmon-roe.md#substance_relationships/Copper |
+| [Salmon](http://localhost:3000/docs/foods/salmon) | Fish, salmon, Atlantic, farmed, raw — raw | 0.045 mg (per 100 g edible portion) | docs/foods/salmon.md#nutrition_per_100g/copper_mg |
+| [Sardines](http://localhost:3000/docs/foods/sardines) | Fish, sardine, Atlantic, canned in oil, drained solids with bone — oil | 0.186 mg (per 100 g edible portion) | docs/foods/sardines.md#nutrition_per_100g/copper_mg |
+| [Sauerkraut](http://localhost:3000/docs/foods/sauerkraut) | Sauerkraut, canned, solids and liquids | 0.096 mg (per 100 g edible portion) | docs/foods/sauerkraut.md#nutrition_per_100g/copper_mg |
+| [Scallops](http://localhost:3000/docs/foods/scallops) | Mollusks, scallop, mixed species, raw — raw | 0.023 mg (per 100 g edible portion) | docs/foods/scallops.md#nutrition_per_100g/copper_mg |
+| [Sesame Seeds](http://localhost:3000/docs/foods/sesame-seeds) | Seeds, sesame seeds, whole, dried — dried | 4.082 mg (per 100 g edible portion) | docs/foods/sesame-seeds.md#nutrition_per_100g/copper_mg; docs/foods/sesame-seeds.md#substance_relationships/Copper |
+| [Shiitake Mushroom](http://localhost:3000/docs/foods/shiitake-mushroom) | Mushrooms, shiitake, raw — raw | 0.142 mg (per 100 g edible portion) | docs/foods/shiitake-mushroom.md#nutrition_per_100g/copper_mg |
+| [Shrimp](http://localhost:3000/docs/foods/shrimp) | Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture) — raw | 0.182 mg (per 100 g edible portion) | docs/foods/shrimp.md#nutrition_per_100g/copper_mg |
+| [Sourdough Bread](http://localhost:3000/docs/foods/sourdough-bread) | wheat sourdough breads | Quantity not established | docs/foods/sourdough-bread.md#substance_relationships/Copper |
+| [Soy](http://localhost:3000/docs/foods/soy) | Soybeans, mature seeds, raw — raw | 1.658 mg (per 100 g edible portion) | docs/foods/soy.md#nutrition_per_100g/copper_mg |
+| [Spelt](http://localhost:3000/docs/foods/spelt) | Spelt, uncooked — uncooked | 0.511 mg (per 100 g edible portion) | docs/foods/spelt.md#nutrition_per_100g/copper_mg |
+| [Spinach](http://localhost:3000/docs/foods/spinach) | Spinach, raw — raw | 0.13 mg (per 100 g edible portion) | docs/foods/spinach.md#nutrition_per_100g/copper_mg; docs/foods/spinach.md#substance_relationships/Copper |
+| [Spirulina](http://localhost:3000/docs/foods/spirulina) | Seaweed, spirulina, dried — dried | 6.1 mg (per 100 g edible portion) | docs/foods/spirulina.md#nutrition_per_100g/copper_mg |
+| [Strawberries](http://localhost:3000/docs/foods/strawberries) | Strawberries, raw — raw | 0.048 mg (per 100 g edible portion) | docs/foods/strawberries.md#nutrition_per_100g/copper_mg |
+| [Sunflower Seeds](http://localhost:3000/docs/foods/sunflower-seeds) | Seeds, sunflower seed kernels, dried — dried | 1.8 mg (per 100 g edible portion) | docs/foods/sunflower-seeds.md#nutrition_per_100g/copper_mg; docs/foods/sunflower-seeds.md#substance_relationships/Copper |
+| [Sweet Potatoes](http://localhost:3000/docs/foods/sweet-potatoes) | Sweet potato, raw, unprepared (Includes foods for USDA's Food Distribution Program) — raw | 0.151 mg (per 100 g edible portion) | docs/foods/sweet-potatoes.md#nutrition_per_100g/copper_mg |
+| [Swiss Chard](http://localhost:3000/docs/foods/swiss-chard) | Chard, swiss, raw — raw | 0.179 mg (per 100 g edible portion) | docs/foods/swiss-chard.md#nutrition_per_100g/copper_mg |
+| [Tahini](http://localhost:3000/docs/foods/tahini) | Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type) — roasted | 1.61 mg (per 100 g edible portion) | docs/foods/tahini.md#nutrition_per_100g/copper_mg |
+| [Tart Cherry](http://localhost:3000/docs/foods/tart-cherry) | Cherries, sour, red, raw — raw | 0.104 mg (per 100 g edible portion) | docs/foods/tart-cherry.md#nutrition_per_100g/copper_mg |
+| [Tempeh](http://localhost:3000/docs/foods/tempeh) | Tempeh | 0.56 mg (per 100 g edible portion) | docs/foods/tempeh.md#nutrition_per_100g/copper_mg; docs/foods/tempeh.md#substance_relationships/Copper |
+| [Thyme](http://localhost:3000/docs/foods/thyme) | Spices, thyme, dried — dried | 0.86 mg (per 100 g edible portion) | docs/foods/thyme.md#nutrition_per_100g/copper_mg |
+| [Tofu](http://localhost:3000/docs/foods/tofu) | Tofu, raw, firm, prepared with calcium sulfate — raw | 0.378 mg (per 100 g edible portion) | docs/foods/tofu.md#nutrition_per_100g/copper_mg; docs/foods/tofu.md#substance_relationships/Copper |
+| [Tomatoes](http://localhost:3000/docs/foods/tomatoes) | Tomatoes, red, ripe, raw, year round average — raw | 0.059 mg (per 100 g edible portion) | docs/foods/tomatoes.md#nutrition_per_100g/copper_mg |
+| [Tuna](http://localhost:3000/docs/foods/tuna) | Fish, tuna, fresh, bluefin, raw — raw | 0.086 mg (per 100 g edible portion) | docs/foods/tuna.md#nutrition_per_100g/copper_mg |
+| [Turkey](http://localhost:3000/docs/foods/turkey) | Turkey, whole, meat only, raw — raw | 0.079 mg (per 100 g edible portion) | docs/foods/turkey.md#nutrition_per_100g/copper_mg |
+| [Turmeric](http://localhost:3000/docs/foods/turmeric) | Spices, turmeric, ground | 1.3 mg (per 100 g edible portion) | docs/foods/turmeric.md#nutrition_per_100g/copper_mg |
+| [Vinegar Pickles](http://localhost:3000/docs/foods/vinegar-pickles) | Pickles, cucumber, dill or kosher dill | 0.028 mg (per 100 g edible portion) | docs/foods/vinegar-pickles.md#nutrition_per_100g/copper_mg |
+| [Vinegar](http://localhost:3000/docs/foods/vinegar) | Vinegar, cider | 0.008 mg (per 100 g edible portion) | docs/foods/vinegar.md#nutrition_per_100g/copper_mg |
+| [Walnuts](http://localhost:3000/docs/foods/walnuts) | Nuts, walnuts, english | 1.586 mg (per 100 g edible portion) | docs/foods/walnuts.md#nutrition_per_100g/copper_mg; docs/foods/walnuts.md#substance_relationships/Copper |
+| [Wasabi](http://localhost:3000/docs/foods/wasabi) | Wasabi, root, raw — raw | 0.155 mg (per 100 g edible portion) | docs/foods/wasabi.md#nutrition_per_100g/copper_mg |
+| [Watercress](http://localhost:3000/docs/foods/watercress) | Watercress, raw — raw | 0.077 mg (per 100 g edible portion) | docs/foods/watercress.md#nutrition_per_100g/copper_mg |
+| [Watermelon](http://localhost:3000/docs/foods/watermelon) | Watermelon, raw — raw | 0.042 mg (per 100 g edible portion) | docs/foods/watermelon.md#nutrition_per_100g/copper_mg |
+| [Wheat Germ](http://localhost:3000/docs/foods/wheat-germ) | Wheat germ, crude | 0.796 mg (per 100 g edible portion) | docs/foods/wheat-germ.md#nutrition_per_100g/copper_mg |
+| [Wheat](http://localhost:3000/docs/foods/wheat) | Wheat, hard red winter | 0.434 mg (per 100 g edible portion) | docs/foods/wheat.md#nutrition_per_100g/copper_mg |
+| [Whey Protein](http://localhost:3000/docs/foods/whey-protein) | Beverages, Protein powder whey based | 0.049 mg (per 100 g edible portion) | docs/foods/whey-protein.md#nutrition_per_100g/copper_mg |
+
+</details>
+
 ## Nicotinamide — nicotinamide
 
 No food-source mappings for this preparation.
@@ -365,6 +517,19 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 
 </details>
 
+## Nicotinamide riboside — nicotinamide-riboside
+
+Food sources identified; quantities not established.
+
+<details>
+<summary>All mapped food sources (1)</summary>
+
+| Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
+| --- | --- | --- | --- |
+| [Milk](http://localhost:3000/docs/foods/milk) | Raw cow milk from individual cows and commercial cow-milk samples, including skim milk | Quantity not established | docs/foods/milk.md#substance_relationships/Nicotinamide%20riboside |
+
+</details>
+
 ## Creatine — creatine
 
 Food sources identified; no verified comparable quantities available.
@@ -380,6 +545,48 @@ Food sources identified; no verified comparable quantities available.
 | [Liver](http://localhost:3000/docs/foods/liver) | the named meat or fish tissue — raw | Quantity not established | docs/foods/liver.md#substance_relationships/Creatine; docs/foods/liver.md#nutrition_supplementary_sources/creatine_qual |
 | [Pork](http://localhost:3000/docs/foods/pork) | the named meat or fish tissue — raw | Quantity not established | docs/foods/pork.md#substance_relationships/Creatine; docs/foods/pork.md#nutrition_supplementary_sources/creatine_qual |
 | [Tuna](http://localhost:3000/docs/foods/tuna) | the named meat or fish tissue — raw | Quantity not established | docs/foods/tuna.md#substance_relationships/Creatine; docs/foods/tuna.md#nutrition_supplementary_sources/creatine_qual |
+
+</details>
+
+## Arginine — arginine
+
+Comparable per-100 g observations, descending amount.
+
+<details>
+<summary>All mapped food sources (2)</summary>
+
+| Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
+| --- | --- | --- | --- |
+| [Lupin Beans](http://localhost:3000/docs/foods/lupin-beans) | Lupins, mature seeds, raw — raw | 3.877 g (per 100 g edible portion) | docs/foods/lupin-beans.md#nutrition_per_100g/arginine_g; docs/foods/lupin-beans.md#substance_relationships/Arginine |
+| [Watermelon](http://localhost:3000/docs/foods/watermelon) | Watermelon, raw — raw | 0.059 g (per 100 g edible portion) | docs/foods/watermelon.md#nutrition_per_100g/arginine_g; docs/foods/watermelon.md#substance_relationships/Arginine |
+
+</details>
+
+## Glycine — glycine
+
+No food-source mappings for this preparation.
+
+<details>
+<summary>All mapped food sources (0)</summary>
+
+No eligible dietary food list is generated. Check the PM dietary-input decision separately from sourcing coverage.
+
+</details>
+
+## Methionine — methionine
+
+Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
+
+<details>
+<summary>All mapped food sources (5)</summary>
+
+| Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
+| --- | --- | --- | --- |
+| [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 0.493 g (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/methionine_g; docs/foods/chicken.md#substance_relationships/Methionine |
+| [Eggs](http://localhost:3000/docs/foods/eggs) | Egg, whole, raw, fresh — raw | 0.38 g (per 100 g edible portion) | docs/foods/eggs.md#nutrition_per_100g/methionine_g; docs/foods/eggs.md#substance_relationships/Methionine |
+| [Salmon](http://localhost:3000/docs/foods/salmon) | Fish, salmon, Atlantic, farmed, raw — raw | 0.626 g (per 100 g edible portion) | docs/foods/salmon.md#nutrition_per_100g/methionine_g; docs/foods/salmon.md#substance_relationships/Methionine |
+| [Sardines](http://localhost:3000/docs/foods/sardines) | Fish, sardine, Atlantic, canned in oil, drained solids with bone — oil | 1.086 g (per 100 g edible portion) | docs/foods/sardines.md#nutrition_per_100g/methionine_g; docs/foods/sardines.md#substance_relationships/Methionine |
+| [Tuna](http://localhost:3000/docs/foods/tuna) | Fish, tuna, fresh, bluefin, raw — raw | 0.69 g (per 100 g edible portion) | docs/foods/tuna.md#nutrition_per_100g/methionine_g; docs/foods/tuna.md#substance_relationships/Methionine |
 
 </details>
 
@@ -665,14 +872,25 @@ No eligible dietary food list is generated. Check the PM dietary-input decision 
 
 </details>
 
+## Caprylic Triglyceride (Trioctanoin) — caprylic-triglyceride
+
+Food sources identified; quantities not established.
+
+<details>
+<summary>All mapped food sources (1)</summary>
+
+| Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
+| --- | --- | --- | --- |
+| [MCT Oil](http://localhost:3000/docs/foods/mct-oil) | unheated commercial St. Francis Herb Farm C8/C10 MCT oil from a health-food store; formulation-dependent — Oil | Quantity not established | docs/foods/mct-oil.md#substance_relationships/Caprylic%20Triglyceride |
+
+</details>
+
 ## Biological context and unresolved accounting
 
 Separate from dietary relationship filters.
 
 - BRS4-FM1-PM1 — Ubiquinone: Endogenous/biochemical dependency
-- BRS4-FM1-PM1 — Copper: Endogenous/biochemical dependency
-- BRS4-FM1-PM3 — Arginine: Endogenous/biochemical dependency
-- BRS4-FM1-PM3 — Glycine: Endogenous/biochemical dependency
+- BRS4-FM1-PM2 — NAD+ (oxidised nicotinamide adenine dinucleotide): Endogenous/biochemical dependency
 - BRS4-FM1-PM3 — Methionine-derived S-adenosylmethionine (SAM): Endogenous/biochemical dependency
 - BRS4-FM2-PM4 — Manganese: Endogenous/biochemical dependency
 - BRS4-FM2-PM4 — Selenium: Endogenous/biochemical dependency

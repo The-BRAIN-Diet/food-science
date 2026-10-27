@@ -15,6 +15,31 @@ const layout=require(path.join(root,'src/plugin/pm-lever-layout/index.cjs'));
 const fixture=fs.readFileSync(path.join(root,'scripts/fixtures/pm-lever-layout.fixture.mdx'),'utf8');
 const source=fs.readFileSync(path.join(root,'docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx'),'utf8');
 const canonical=matter(source);
+test('PM1 cofactor disclosure explains its empty state without changing dietary records', () => {
+ const pm=matter(fs.readFileSync(path.join(root,'docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx'),'utf8'));
+ const before=JSON.stringify(pm.data);
+ const tree=createProcessor().parse(pm.content);
+ layout.applyLeverLayout(tree,pm.data);
+ layout.applyLeverLayout(tree,pm.data);
+ const result=JSON.stringify(tree);
+ assert.equal((result.match(/No separate cofactors or substrates are listed here\./g)||[]).length,1);
+ assert.match(result,/1.1.2 Cofactors and Substrates/);
+ assert.equal(JSON.stringify(pm.data),before);
+ assert.ok(pm.data.dietary_input_traceability.some(row=>row.input==='Tyrosine'&&row.dietary_input===true));
+});
+test('empty-state rendering preserves populated cofactor panels and authored explanations', async () => {
+ const panel=body=>`<div class="brs-fm-hub-item">\n<div class="brs-fm-hub-shell">\n<button class="brs-fm-hub-summary">\n<strong>3.1.2 Cofactors and Substrates</strong>\n</button>\n<div class="brs-fm-hub-panel" hidden>\n\n${body}\n\n</div>\n</div>\n</div>`;
+ const empty=await render({pm_id:'fixture'},panel(''));
+ assert.match(empty,/<p>No separate cofactors or substrates are listed here\.<\/p>/);
+ for(const body of ['- Existing substrate','An existing explanation.','<Participant />']) {
+  const tree=createProcessor().parse(panel(body));
+  const before=JSON.stringify(tree);
+  layout.applyLeverLayout(tree,{pm_id:'fixture'});
+  assert.equal(JSON.stringify(tree),before);
+ }
+ const nonPm=await render({},panel(''));
+ assert.doesNotMatch(nonPm,/No separate cofactors/);
+});
 function synthetic(groups,supported=groups){return {pm_id:'PM-LAYOUT-FIXTURE',fixture_only:true,intervention_dominance:'Mixed',references:[{citation_key:'fixture_source'}],scientific_findings:[{id:'FIX-F1',evidence_considered:[{citation_key:'fixture_source'}]}],intervention_dominance_assessment:{evidence_qualification:{label:'Mixed',rationale:'Synthetic qualification only.',scope_note:'Synthetic test fixture only.',routes:supported.map(group_id=>({group_id,evidence_basis:'intervention-effect',intervention_effect:'Simulated intervention changes a simulated endpoint.',context:'Synthetic test dataset only.',limitations:'Not a scientific study or a live admission.',evidence_source:{finding_ids:['FIX-F1'],citation_keys:['fixture_source']}}))},principal_route_selection:{disposition:groups.length?'established':'not-established',selected_groups:groups,rationale:'Synthetic independent principal selection.',comparative_limitations:'Synthetic demonstration only; no real intervention ranking.',joint_prominence_rationale:groups.length>1?'Synthetic complementary substantial effects justify joint prominence.':undefined,assessments:groups.map(group_id=>({group_id,relevance:'Simulated PM-specific endpoint.',directness:'Simulated directly measured intervention effect.',extent:'Simulated substantial influence.'}))}}};}
 async function render(data,body=fixture){const evaluated=await evaluate({value:body,data:{frontMatter:data}},{...runtime,remarkPlugins:[layout]});return renderToStaticMarkup(React.createElement(evaluated.default));}
 function assertOrder(html,parts){for(let i=1;i<parts.length;i++)assert.ok(html.indexOf(parts[i])>html.indexOf(parts[i-1]),parts.join(' → '));}

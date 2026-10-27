@@ -17,17 +17,24 @@ list_image: /img/icons/nutrient.svg
 mechanisms:
   Neurotransmitter Regulation: 'Pyridoxal 5′-phosphate is the active cofactor made from vitamin B6. A vitamin B6 food value is not a measured amount of this cofactor, and it is not an ADHD treatment result.'
 inchikey: NGVDGCNFYWLIFO-UHFFFAOYSA-N
+food_delivery_assessment:
+  review_date: '2026-10-26'
+  status: verified-qualitative
+  classification: B
+  sources:
+    - https://doi.org/10.1016/j.chroma.2017.04.009
+  admission_changed: false
 ---
 
 ## Overview
 
-Pyridoxal 5′-phosphate (PLP) is the phosphorylated cofactor made from [vitamin B6](/docs/substances/nutrients/micronutrients/vitamins/vitamin-b6). The vitamers pyridoxine, pyridoxal and pyridoxamine are the dietary forms. They are converted to this phosphate; the food table reports the vitamin, not a measured amount of the cofactor [1].
+Pyridoxal 5′-phosphate (PLP) is the phosphorylated cofactor made from [vitamin B6](/docs/substances/nutrients/micronutrients/vitamins/vitamin-b6). Dietary pyridoxine, pyridoxal and pyridoxamine contribute through vitamer conversion [1]. Total-vitamin food tables must not be read as cofactor-specific measurements; native phosphorylated forms require their own composition evidence.
 
 PLP is the cofactor form used in amino-acid metabolism, including steps toward dopamine, serotonin and GABA. That enzyme role does not show that extra vitamin B6 raises those outputs, or that a food portion corrects a symptom [1,2].
 
 ## Dietary Context
 
-The dietary route is conversion, not a separate food constituent.
+Dietary vitamin conversion and occurrence of phosphorylated vitamers in foods are separate relationships. Food presence does not establish intact cofactor delivery to tissues.
 
 ### Food sources
 
@@ -52,6 +59,8 @@ Non-phosphorylated B6 vitamers are converted to pyridoxal 5′-phosphate [1]. Th
 
 ## Foods
 
+Native phosphorylated vitamers were measured in commercial cow milk [3]. The food link is qualitative; total vitamin amounts are not assigned to the individual cofactor.
+
 <SubstanceFoods tag="Pyridoxal 5′-phosphate (PLP)" />
 
 ## Recipes
@@ -69,3 +78,5 @@ Non-phosphorylated B6 vitamers are converted to pyridoxal 5′-phosphate [1]. Th
 [1] Spector (1978). [Vitamin B6 transport in the central nervous system: in vivo studies](/docs/papers/BRAIN-Diet-References#spector_vitamin_1978). Non-phosphorylated vitamin B6 forms are converted to pyridoxal 5′-phosphate. A food vitamin B6 value is not a measured amount of the cofactor.
 
 [2] Kennedy (2016). [B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016). Places vitamin B6 among the cofactors used in brain metabolism. It does not show that extra intake raises neurotransmitter output.
+
+[3] [Schmidt et al. (2017), Native B6 and B2 forms in cow milk](/docs/papers/BRAIN-Diet-References#schmidt_native_milk_b6_b2_2017). Food-composition provenance; PM evidence and admission remain separate.

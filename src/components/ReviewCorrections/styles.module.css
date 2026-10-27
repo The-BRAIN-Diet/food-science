@@ -21,6 +21,33 @@
   overflow-x: auto;
 }
 
+.tabList {
+  display: flex;
+  flex: 1 1 auto;
+  min-width: 0;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+}
+
+.tab.backToPm {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: 0.4rem;
+  color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.backToPm:hover {
+  background: var(--ifm-color-emphasis-100);
+}
+
+:global(#pm-main-content) {
+  scroll-margin-top: calc(var(--ifm-navbar-height, 60px) + 4rem);
+}
+
 .tab {
   appearance: none;
   font: inherit;
@@ -234,5 +261,17 @@ a.tab:hover {
 
   .panel dl {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .pmBar .tabList {
+    flex-basis: 100%;
+  }
+
+  .pmBar .qcWrap {
+    margin-left: 0;
+    justify-content: flex-start;
+    flex-wrap: wrap;
   }
 }

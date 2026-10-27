@@ -1,0 +1,9 @@
+{
+  "pm_id": "BRS-X(Hormones-PM5)",
+  "prior_ligand_atom_preserved": "PM5-DIT-1",
+  "new_atom": "PM5-DIT-RECOVERY-ZINC-RECEPTOR",
+  "principle": "PM5-SP1",
+  "role": "Dietary zinc maintains the metal pool supporting the androgen receptor’s zinc-finger DNA-binding capacity.",
+  "limitations": "This Type A relationship concerns the receptor DNA-binding domain, not stimulation of testosterone production, tissue receptor occupancy, motivation or benefit from extra zinc. Cellular zinc homeostasis and receptor expression constrain metal availability. The primary crystal used an engineered rat receptor domain; human domain identity is curated. A zinc-finger mutation study tested an arginine substitution, not dietary zinc depletion.",
+  "approved_scope": "User-authorized missing-relationship discovery and canonical Type A adjudication; no mission or SEC change"
+}

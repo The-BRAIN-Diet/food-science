@@ -1,0 +1,25 @@
+{
+  "exit_code": 0,
+  "files": [
+    {
+      "file": "src/data/brs-xInputMapping.generated.json",
+      "before": "39cc8512c992cbe3f283168d1e088f0e6c86c15e6ef4907d7c3b1bdc11cfeace",
+      "after": "39cc8512c992cbe3f283168d1e088f0e6c86c15e6ef4907d7c3b1bdc11cfeace",
+      "unchanged": true
+    },
+    {
+      "file": "system/generated/dietary-food-targets/manuscript-rollup-brs-x.json",
+      "before": "e7bd9fc0f88fea138f01c02cff1f461c6bcef3ad3ac6dc5634671df601c5f05d",
+      "after": "e7bd9fc0f88fea138f01c02cff1f461c6bcef3ad3ac6dc5634671df601c5f05d",
+      "unchanged": true
+    },
+    {
+      "file": "system/generated/dietary-pathways/pathways.generated.json",
+      "before": "8c5669114dd1f8a14ec310a6902c3a35b3958f30299320def34d3a47be302ed9",
+      "after": "8c5669114dd1f8a14ec310a6902c3a35b3958f30299320def34d3a47be302ed9",
+      "unchanged": true
+    }
+  ],
+  "canonical_files_checked": 179,
+  "canonical_changes": []
+}

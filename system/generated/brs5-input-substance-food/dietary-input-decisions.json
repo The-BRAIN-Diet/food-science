@@ -246,6 +246,14 @@
     "flags": []
   },
   {
+    "relationship_id": "BRS5-FM2-PM5::PM5-DIT-RECOVERY-INULIN",
+    "source_record": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx#dietary_input_traceability/PM5-DIT-RECOVERY-INULIN",
+    "input": "Inulin",
+    "dietary_input": true,
+    "note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition does not establish an effective intervention dose.",
+    "flags": []
+  },
+  {
     "relationship_id": "BRS5-FM2-PM6::PM6-DIT-1",
     "source_record": "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx#dietary_input_traceability/PM6-DIT-1",
     "input": "Ellagic acid",
@@ -259,6 +267,14 @@
     "input": "Ellagitannins",
     "dietary_input": true,
     "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS5-FM2-PM6::PM6-DIT-RECOVERY-EPICATECHIN",
+    "source_record": "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx#dietary_input_traceability/PM6-DIT-RECOVERY-EPICATECHIN",
+    "input": "Epicatechin",
+    "dietary_input": true,
+    "note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition does not establish an effective intervention dose.",
     "flags": []
   },
   {

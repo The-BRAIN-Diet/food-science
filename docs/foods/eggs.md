@@ -82,9 +82,8 @@ substance_relationships:
   - substance: Methionine
     relationship: contains
     description: >-
-      USDA FoodData Central reports methionine 0.38 g per 100 g in Egg, whole,
-      raw, fresh (FDC 171287). Composition only; this does not establish a
-      PM-specific dietary efficacy claim.
+      USDA FoodData Central reports methionine 0.38 g per 100 g in Egg, whole, raw, fresh (FDC
+      171287). Composition only; this does not establish a PM-specific dietary efficacy claim.
     evidence_status: supported
     evidence_source: USDA SR Legacy April 2018
     evidence_material: Egg, whole, raw, fresh
@@ -93,77 +92,187 @@ substance_relationships:
   - substance: Cysteine
     relationship: contains
     description: >-
-      Cystine 272 mg per 100 g of Egg, whole, raw, fresh (FDC 171287). One large
-      egg (50 g) contains 136 mg. Composition only; not a glutathione-synthesis
-      result.
+      Cystine 272 mg per 100 g of Egg, whole, raw, fresh (FDC 171287). One large egg (50 g) contains
+      136 mg. Composition only; not a glutathione-synthesis result.
   - substance: Choline
     relationship: contains
-    description: 'USDA FoodData Central reports choline in Egg, whole, raw, fresh.'
+    description: USDA FoodData Central reports choline in Egg, whole, raw, fresh.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: eggs|Choline
     evidence_source: USDA SR Legacy April 2018
-    evidence_material: 'Egg, whole, raw, fresh'
-    source_url: 'https://fdc.nal.usda.gov/food-details/171287/nutrients'
+    evidence_material: Egg, whole, raw, fresh
+    source_url: https://fdc.nal.usda.gov/food-details/171287/nutrients
     presence_status: presence_and_amount_supported
   - substance: Iron
     relationship: contains
-    description: 'USDA FoodData Central reports iron in Egg, whole, raw, fresh.'
+    description: USDA FoodData Central reports iron in Egg, whole, raw, fresh.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: eggs|Iron
     evidence_source: USDA SR Legacy April 2018
-    evidence_material: 'Egg, whole, raw, fresh'
-    source_url: 'https://fdc.nal.usda.gov/food-details/171287/nutrients'
+    evidence_material: Egg, whole, raw, fresh
+    source_url: https://fdc.nal.usda.gov/food-details/171287/nutrients
     presence_status: presence_and_amount_supported
   - substance: Selenium
     relationship: contains
-    description: 'USDA FoodData Central reports selenium in Egg, whole, raw, fresh.'
+    description: USDA FoodData Central reports selenium in Egg, whole, raw, fresh.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: eggs|Selenium
     evidence_source: USDA SR Legacy April 2018
-    evidence_material: 'Egg, whole, raw, fresh'
-    source_url: 'https://fdc.nal.usda.gov/food-details/171287/nutrients'
+    evidence_material: Egg, whole, raw, fresh
+    source_url: https://fdc.nal.usda.gov/food-details/171287/nutrients
     presence_status: presence_and_amount_supported
   - substance: Zinc
     relationship: contains
-    description: 'USDA FoodData Central reports zinc in Egg, whole, raw, fresh.'
+    description: USDA FoodData Central reports zinc in Egg, whole, raw, fresh.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: eggs|Zinc
     evidence_source: USDA SR Legacy April 2018
-    evidence_material: 'Egg, whole, raw, fresh'
-    source_url: 'https://fdc.nal.usda.gov/food-details/171287/nutrients'
+    evidence_material: Egg, whole, raw, fresh
+    source_url: https://fdc.nal.usda.gov/food-details/171287/nutrients
     presence_status: presence_and_amount_supported
   - substance: Zeaxanthin
     relationship: contains
     description: >-
-      Perry et al. (2009) identified zeaxanthin in studied raw and cooked whole
-      egg. A separate amount for this page’s preparation is not established.
+      Perry et al. (2009) identified zeaxanthin in studied raw and cooked whole egg. A separate
+      amount for this page’s preparation is not established.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: eggs|Zeaxanthin
-    evidence_source: 'Perry et al. (2009), values reproduced in Eisenhauer et al. (2017) Table 4'
+    evidence_source: Perry et al. (2009), values reproduced in Eisenhauer et al. (2017) Table 4
     evidence_material: Studied raw and cooked whole egg
-    source_url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5331551/'
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5331551/
     presence_status: presence_supported_amount_unavailable
   - substance: Lutein
     relationship: contains
     description: >-
-      Perry et al. (2009) identified lutein in studied raw and cooked whole egg.
-      A separate amount for this page’s preparation is not established.
+      Perry et al. (2009) identified lutein in studied raw and cooked whole egg. A separate amount
+      for this page’s preparation is not established.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: eggs|Lutein
-    evidence_source: 'Perry et al. (2009), values reproduced in Eisenhauer et al. (2017) Table 4'
+    evidence_source: Perry et al. (2009), values reproduced in Eisenhauer et al. (2017) Table 4
     evidence_material: Studied raw and cooked whole egg
-    source_url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5331551/'
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5331551/
     presence_status: presence_supported_amount_unavailable
+  - substance: Glutamine
+    substance_id: glutamine
+    relationship: contains
+    evidence_status: supported
+    evidence_material: Whole egg protein fractions
+    preparation_state: form not known
+    source_url: https://doi.org/10.1038/ejcn.2009.110
+    citation_keys:
+      - lenders_amino_acid_sequencing_2009
+    evidence_source: 'Lenders et al. (2009), Table 1: protein-sequence-based occurrence.'
+    material_limitations: Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.
+    food_delivery_notes: Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.
+    chemical_form: protein-bound glutamine residues
+  - substance: Glutamate
+    substance_id: glutamate
+    relationship: contains
+    evidence_status: supported
+    evidence_material: Whole egg protein fractions
+    preparation_state: form not known
+    source_url: https://doi.org/10.1038/ejcn.2009.110
+    citation_keys:
+      - lenders_amino_acid_sequencing_2009
+    evidence_source: 'Lenders et al. (2009), Table 1: protein-sequence-based occurrence.'
+    material_limitations: Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.
+    food_delivery_notes: Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.
+    chemical_form: protein-bound glutamate residues
 main_image: /img/foods/eggs/eggs_medium.webp
 legacy_list_image: /img/foods/eggs/eggs_thumb.webp
 legacy_main_image: /img/foods/eggs/eggs_medium.webp
 substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-173424
+    material: Egg, whole, cooked, hard-boiled
+    preparation: cooked
+    food_group: animal
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 173424
+      source_url: https://fdc.nal.usda.gov/food-details/173424/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 12.58
+    protein_source_row_id: "1777860"
+    amino_acids:
+      histidine:
+        value: 0.298
+        source_row_id: "1777914"
+        nutrient_id: "1221"
+        data_points: 0
+        derivation_id: null
+      isoleucine:
+        value: 0.686
+        source_row_id: "1777908"
+        nutrient_id: "1212"
+        data_points: 0
+        derivation_id: null
+      leucine:
+        value: 1.075
+        source_row_id: "1777909"
+        nutrient_id: "1213"
+        data_points: 0
+        derivation_id: null
+      lysine:
+        value: 0.904
+        source_row_id: "1777910"
+        nutrient_id: "1214"
+        data_points: 0
+        derivation_id: null
+      methionine:
+        value: 0.392
+        source_row_id: "1777870"
+        nutrient_id: "1215"
+        data_points: 0
+        derivation_id: null
+      phenylalanine:
+        value: 0.668
+        source_row_id: "1777871"
+        nutrient_id: "1217"
+        data_points: 0
+        derivation_id: null
+      threonine:
+        value: 0.604
+        source_row_id: "1777869"
+        nutrient_id: "1211"
+        data_points: 0
+        derivation_id: null
+      tryptophan:
+        value: 0.153
+        source_row_id: "1777868"
+        nutrient_id: "1210"
+        data_points: 0
+        derivation_id: null
+      valine:
+        value: 0.767
+        source_row_id: "1777912"
+        nutrient_id: "1219"
+        data_points: 0
+        derivation_id: null
+    portion:
+      label: 1 large
+      source_row_id: "92500"
+      source_grams: 50
+      multiplier: 1
+    limitations: >-
+      USDA database composition, including source-specific analytical or calculated values. No
+      amino-acid-specific digestibility correction; illustrative USDA household portion, not an
+      intake recommendation. Missing values are not treated as zero.
+    protein_quality:
+      citation_keys:
+        - evenepoel_digestibility_1998
+      summary: >-
+        Human tracer evidence distinguishes cooked from raw egg protein digestibility. It does not
+        supply a matching nine-amino-acid digestibility correction for this database record.
 ---
 import NutritionTable from "@site/src/components/NutritionTable";
 

@@ -10,6 +10,12 @@ export function findingReaderLabel(finding) {
   return label ? (/^PM\d+-F\d+$/.test(finding?.id || '') ? `${id} — ${label}` : label) : id;
 }
 
+/** A controlled placement correction; existing audit-only pages keep their routing. */
+export function findingOnMainPage(data, id) {
+  return data?.scientific_findings_placement === 'section-4' &&
+    (data.scientific_findings || []).some(f => String(f.id).toLowerCase() === id && f.presentation === 'mechanistic-basis');
+}
+
 /** Only selected canonical interventions with explicit evidence links qualify. */
 export function findingInterventionLinks(data,findingId) {
   return [['system_optimisation_practices','SOP','#pm-lever-optimisation'],['lifestyle_priorities','Lifestyle Lever','#pm-lever-lifestyle']].flatMap(([field,kind,href])=>

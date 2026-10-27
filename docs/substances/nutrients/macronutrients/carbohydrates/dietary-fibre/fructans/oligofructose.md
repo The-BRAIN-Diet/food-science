@@ -13,6 +13,17 @@ tags:
 list_image: /img/inchi/MKTLQAHFLNFLEU-WTORHHNNSA-N.png
 inchikey: MKTLQAHFLNFLEU-WTORHHNNSA-N
 inchi_image: /img/inchi/MKTLQAHFLNFLEU-WTORHHNNSA-N.png
+food_delivery_assessment:
+  review_date: '2026-10-26'
+  status: no-ordinary-food-source
+  classification: E
+  reason: >-
+    The admitted oligofructose exposure is a defined inulin-hydrolysate preparation. Native food FOS
+    fractions do not establish an equivalent chain-length mixture or supplement exposure.
+  sources:
+    - https://doi.org/10.1080/10942912.2012.680221
+    - https://doi.org/10.1093/jn/137.11.2493S
+  admission_changed: false
 ---
 
 ## Overview
@@ -57,6 +68,8 @@ Twenty participants received oligofructose and 17 received placebo, from samples
 
 ## Foods
 
+Native GF2–GF4 fractions have been measured in plants [5]. These results do not establish equivalence to the admitted inulin-hydrolysate preparation. They remain research leads, not substitute food sources.
+
 <SubstanceFoods tag="Oligofructose" />
 
 ## References
@@ -68,3 +81,5 @@ Twenty participants received oligofructose and 17 received placebo, from samples
 [3] Kelly (2008). [Inulin-type prebiotics — a review: part 1](/docs/papers/BRAIN-Diet-References#kelly_inulin_type_prebiotics_2008). Records that fructooligosaccharides, oligofructose and inulin are used inconsistently, and that chicory extraction and sucrose synthesis do not yield the same chain mixture.
 
 [4] Parnell et al. (2017). [Oligofructose decreases serum lipopolysaccharide and plasminogen activator inhibitor-1 in adults with overweight/obesity](/docs/papers/BRAIN-Diet-References#parnell_oligofructose_lps_2017). Supplemental 21 g/day result in a small overweight sample. It is not a food trial and not a finding about every fructan.
+
+[5] [Jovanovic-Malinovska et al. (2014), Food oligosaccharide profiles](/docs/papers/BRAIN-Diet-References#jovanovic_malinovska_food_oligosaccharides_2014). Food-composition provenance; PM evidence and admission remain separate.

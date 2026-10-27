@@ -16,6 +16,13 @@ mechanisms:
   Mitochondrial Function & Bioenergetics: 'Accepts electrons from NADH at the flavin site of respiratory complex I. Dietary riboflavin is the precursor. Identifying that site does not show that raising intake increases electron transport.'
 inchikey: FVTCRASFADXXNN-SCRDCRAPSA-N
 inchi_image: /img/inchi/FVTCRASFADXXNN-SCRDCRAPSA-N.png
+food_delivery_assessment:
+  review_date: '2026-10-26'
+  status: verified-qualitative
+  classification: B
+  sources:
+    - https://doi.org/10.1016/j.chroma.2017.04.009
+  admission_changed: false
 ---
 
 ## Overview
@@ -26,7 +33,7 @@ That role is an enzyme fact. The review that places flavin mononucleotide (FMN) 
 
 ## Dietary Context
 
-The dietary route is conversion, not a separate food constituent.
+Dietary vitamin conversion and occurrence of phosphorylated vitamers in foods are separate relationships. Food presence does not establish intact cofactor delivery to tissues.
 
 **Endogenous formation.** Riboflavin from food is phosphorylated to flavin mononucleotide (FMN). That cofactor can be adenylated further to flavin adenine dinucleotide. The vitamin B2 record is the dietary precursor. This page does not copy those riboflavin amounts as flavin mononucleotide (FMN).
 
@@ -53,6 +60,8 @@ Complex I uses flavin mononucleotide (FMN) at the NADH entry site [1]. Food comp
 
 ## Foods
 
+Native phosphorylated vitamers were measured in commercial cow milk [2]. The food link is qualitative; total vitamin amounts are not assigned to the individual cofactor.
+
 <SubstanceFoods tag="Flavin mononucleotide" />
 
 ## Recipes
@@ -68,3 +77,5 @@ Complex I uses flavin mononucleotide (FMN) at the NADH entry site [1]. Food comp
 ## References
 
 [1] Curtabbi and Enríquez (2022). [The ins and outs of the flavin mononucleotide cofactor of respiratory complex I](/docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022). Places flavin mononucleotide (FMN) at the NADH entry site of complex I. Does not show that cofactor abundance limits the complex in ordinary conditions, or that riboflavin intake raises electron transport.
+
+[2] [Schmidt et al. (2017), Native B6 and B2 forms in cow milk](/docs/papers/BRAIN-Diet-References#schmidt_native_milk_b6_b2_2017). Food-composition provenance; PM evidence and admission remain separate.

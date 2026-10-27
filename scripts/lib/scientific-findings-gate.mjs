@@ -34,7 +34,7 @@ export function findingsIntroFor(data) {
 /** Render the section a page's front matter implies, or null if it has none. */
 export function expectedFindingsSection(data, content) {
   if (!hasScientificFindings(data)) return null;
-  if (data.evidence_tabs_version === 1) return {auditOnly: true, block: "", sectionNum: 4};
+  if (data.evidence_tabs_version === 1 && data.scientific_findings_placement !== "section-4") return {auditOnly: true, block: "", sectionNum: 4};
   const match = content.match(FINDINGS_SUBSECTION_HEADING);
   if (!match) return { missingHeading: true };
   const lessons=authoredFindingLessons(content);

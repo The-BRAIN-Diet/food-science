@@ -1,6 +1,9 @@
 ---
 title: "<INSERT_PM_TITLE>"
 pm_id: "<INSERT_PM_ID>"
+evidence_tabs_version: 1
+evidence_gaps_tab: true
+scientific_findings_placement: section-4
 parent_fm: "<INSERT_PARENT_FM_ID>"
 parent_brs: "<INSERT_PARENT_BRS_ID>"
 summary: "<INSERT_PM_SUMMARY_UP_TO_120_WORDS>"
@@ -99,14 +102,23 @@ hide_title: true
 
 </details>
 
-## 4. Mechanistic Basis
+## 4. Mechanistic Basis + Scientific Findings
 
 ### Summary
 
 <INSERT_WHY_THIS_MECHANISM_MATTERS — implication first; not a restated Definition>
+<!-- Link each active Finding from this Summary to its mechanism block and §4.1 disclosure.
+     Preserve reciprocal Finding → mechanism links as scientific-lesson authored islands. -->
 
-<details>
-<summary><strong><INSERT_MECHANISM_NAME> — mechanistic detail</strong></summary>
+<!-- Exact reference: BRS1-FM1-PM1; see pm-evidence-tabs-contract.md.
+     This dropdown contains only the mechanism narrative, not the SF components. -->
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong><INSERT_MECHANISM_NAME> — mechanistic detail</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 #### (<INSERT_PRIMARY_MECHANISM_THEME>)
 
@@ -121,20 +133,26 @@ hide_title: true
 
 <INSERT_KC_AND_FM_PLACEMENT — short paragraph with KC links>
 
-</details>
+</div>
+</div>
+</div>
 
-### 4.1 Evidence Highlights
+### 4.1 Scientific Findings
 
-#### Introduction/Summary
+#### Summary
 
 <INSERT_WHY_EVIDENCE_MATTERS — core biology is established; studies below refine practical interpretation; not a second Mechanistic Basis>
 
-<details>
-<summary><strong>Evidence highlights — <INSERT_THEME></strong></summary>
-
-- <INSERT_FINDING_NOT_MECHANISM — [Author et al., Year]>
-
-</details>
+<!-- Generate this subsection from scientific_findings and scientific_findings_intro via
+     scripts/sync-pm-scientific-findings.mjs. Emit ONE ScientificFinding component per active
+     mechanism Finding as SIBLINGS here, outside the mechanism-detail dropdown above.
+     Each component provides its own SF-title dropdown, compact SEC/audit line, summary,
+     What this means, Explore the evidence and individual-study disclosures. Preserve the
+     reciprocal Mechanistic explanation link under each SF using scientific-lesson islands.
+     Derive the active count dynamically; top-level SF dropdown count must equal that count.
+     Do not wrap the collection in another dropdown or replace it with audit links.
+     No duplicated Finding records in Evidence & Audit.
+     Scientific Principles, SEC assessment details, corrections and history remain in the audit. -->
 
 ## 5. BRS Pathways and Connections
 

@@ -8,8 +8,8 @@ import {inputEligibility,assessAdmission} from '../src/lib/dietaryInputGovernanc
 const root=process.cwd(),dir='system/generated/dietary-food-targets';fs.mkdirSync(dir,{recursive:true});
 const reports=[],queue=new Map(),rollup=[],materialReviews=[],registry=JSON.parse(fs.readFileSync('registry/substances.json'));
 function mergeQueue(q){const key=JSON.stringify([q.source_entity,q.target_entity,q.relationship_type,q.material,q.preparation]);const old=queue.get(key);if(old){old.affected_pms=[...new Set([...old.affected_pms,...q.affected_pms])];old.evidence=[...new Map([...old.evidence,...q.evidence].map(e=>[JSON.stringify(e),e])).values()];}else queue.set(key,q);}
-for(let n=1;n<=6;n++) {
- const data=buildInputSubstanceFood(root,{brs:`BRS${n}`});
+for(const brs of ['BRS1','BRS2','BRS3','BRS4','BRS5','BRS6','BRS-X']) {
+ const data=buildInputSubstanceFood(root,{brs});
  data.cursor_queue.forEach(mergeQueue);rollup.push(...data.manuscript_rows);
  materialReviews.push(...data.manuscript_rows.filter(r=>r.material_equivalence_status==='review-required'));
  for(const r of data.relationships.filter(r=>r.presentations?.some(p=>p.section==='3.1.1'))) {
@@ -46,6 +46,7 @@ fs.writeFileSync(path.join(dir,'cursor-repair-queue.json'),JSON.stringify({schem
 fs.writeFileSync(path.join(dir,'manuscript-rollup.json'),JSON.stringify({schema_version:1,qualification:'Historical admissions retained as recorded; new gates have not scientifically reapproved them. Food delivery is not PM efficacy.',records:rollup},null,2)+'\n');
 // Preserve the combined export locally; commit per-BRS shards under the repository's 1 MiB file limit.
 for(let n=1;n<=6;n++) fs.writeFileSync(path.join(dir,`manuscript-rollup-brs${n}.json`),JSON.stringify({schema_version:1,qualification:'Historical admissions preserved; food delivery is not PM efficacy.',records:rollup.filter(r=>r.brs===`BRS${n}`)},null,2)+'\n');
+fs.writeFileSync(path.join(dir,'manuscript-rollup-brs-x.json'),JSON.stringify({qualification:'Supplementary Cross-BRS relationships; no seventh BRS or inherited downstream admission. Food delivery is not PM efficacy.',records:rollup.filter(r=>r.brs==='BRS-X')},null,2)+'\n');
 fs.writeFileSync(path.join(dir,'reconciliation.json'),JSON.stringify(reports,null,2)+'\n');
 const cell=v=>String(v??'').replaceAll('|','/').replaceAll('\n',' ');
 fs.writeFileSync(path.join(dir,'cursor-repair-summary.md'),'# Food ontology repair queue\n\nOutstanding food-edge, material-equivalence, identity and conversion tasks. Material reviews do not establish a missing edge. Cursor must independently verify every proposed repair; none is written automatically. Empty affected-PM lists mean prospective coverage rather than a new PM admission.\n\n| Food | Substance | Preparation | Affected PMs | Verification |\n|---|---|---|---|---|\n'+[...queue.values()].map(q=>'| '+[q.candidate_food||q.source_entity,q.target_entity,q.preparation,q.affected_pms.join(', ')||'No current admitted input',q.verification_status].map(cell).join(' | ')+' |').join('\n')+'\n');

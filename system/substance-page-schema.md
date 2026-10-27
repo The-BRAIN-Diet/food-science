@@ -326,3 +326,8 @@ No means **no dietary supply relationship is admitted for this entry in this PM*
 ```
 
 Generate PM-input substance–food lists only for `dietary_input === true`. Keep No and unset entries visible as biological context; suppress their food lists without removing canonical food composition records. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship. SOPs/lifestyle are outside this PM dietary-input migration.
+
+
+### Structured formation pathways
+
+Optional `formation_pathways` reuses the ordered conversion-step contract for source-of-metabolite projection. Each record needs `id`, `from`, `to` (existing registry IDs), `relationship` (`microbial-formation` or `endogenous-formation`), `status` (`supported` or `unresolved`), `process`, `dependencies`, structured `evidence` (`statement`, `sources`) and `limitations`. This field describes conversion, not direct food presence or scientific admission. A source-PM production context is distinct from an admitted derived relationship at another receiving PM. Neither canonical identities nor individual reaction evidence admit a joined PM pathway. Provisional composition keeps its own status. No conversion yield is inferred.

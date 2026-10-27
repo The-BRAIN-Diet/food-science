@@ -1,0 +1,1375 @@
+[
+  {
+    "id": "uridine",
+    "page": "docs/substances/bioactive-compounds/uridine.md",
+    "frontMatter": {
+      "id": "uridine",
+      "title": "Uridine",
+      "sidebar_label": "Uridine",
+      "description": "Nucleoside that can supply CTP for CDP-choline. UMP and uridine-plus-DHA combinations are separate exposures.",
+      "tags": [
+        "Substance",
+        "Bioactive",
+        "Nucleoside",
+        "Uridine",
+        "Neurotransmitter Regulation",
+        "Methylation & One-Carbon Metabolism"
+      ],
+      "mechanisms": {
+        "Neurotransmitter Regulation": "Uridine can supply CTP used in CDP-choline and phosphatidylcholine formation, a membrane-precursor route for structural assembly. UMP alone did not significantly increase gerbil spine density.",
+        "Methylation & One-Carbon Metabolism": "Uridine can be converted to CTP and then toward CDP-choline for phosphatidylcholine. Endogenous synthesis and salvage also supply CTP."
+      },
+      "list_image": "/img/icons/bioactive.svg",
+      "inchikey": "DRTQHJPVMGBUCF-XVFCMESISA-N"
+    },
+    "body": "\n## Overview\n\nUridine is a pyrimidine nucleoside. This page is for uridine itself. Uridine monophosphate (UMP) is the phosphorylated form used in the oral gerbil studies, and mixtures that also contain DHA or choline are combination exposures. Endogenous nucleotide synthesis and salvage also contribute CTP, so uridine is a precursor source rather than an indispensable dietary requirement.\n\nUridine can be converted into CTP, which helps form the CDP-choline used to build phosphatidylcholine [1]. Oral UMP raised brain CDP-choline in gerbils [2]. Giving uridine together with DHA increased synaptic proteins and phospholipids in gerbil brain [3]. UMP alone did not significantly increase hippocampal spine density. No ordinary-food dose, increased human phosphatidylcholine flux, or cognitive benefit is established [1,2].\n\n## Dietary Origin\n\nThe precursor role is biochemical: uridine can enter nucleotide metabolism that supplies CTP for CDP-choline [1]. The structural and phospholipid results used oral UMP, or uridine given with DHA, in gerbils [2,3]. Those are not servings of food, and UMP is not the same exposure as free uridine. No food page here has a measured uridine amount, so none is linked as a contains relationship.\n\n## Research Spotlights & Evidence Checks\n\n<EvidencePresentation\n  kind=\"check\"\n  title=\"Does a uridine-plus-DHA result belong to uridine alone?\"\n  exposureContext=\"combination-formulation\"\n  summary=\"No. The phospholipid and synaptic-protein increase was uridine given with DHA. UMP alone did not significantly increase gerbil spine density [2,3].\"\n>\n\nCytidine or uridine can raise striatal CDP-choline without lowering acetylcholine synthesis or release in the tested preparations [1]. Oral UMP increased brain CDP-choline in gerbils [2]. The increase in synaptic proteins and phospholipids required uridine plus DHA [3]. A combination result stays with that combination. It does not set a food dose of uridine.\n\n</EvidencePresentation>\n\n## Recipes\n\n<SubstanceRecipes tag=\"Uridine\" />\n\n## Foods\n\n<SubstanceFoods tag=\"Uridine\" />\n\n## Biological Regulatory Systems\n\n| Biological Regulatory System | Evidence-qualified relationship | Evidence |\n| --- | --- | --- |\n| [Neurotransmitter Regulation](/docs/biological-targets/neurotransmitter-regulation) (BRS1) | Uridine can supply CTP for CDP-choline and phosphatidylcholine, a membrane-precursor route in [synaptic structural plasticity](/docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity). UMP alone did not significantly increase gerbil spine density. | [1,2,3] |\n| [Methylation & One-Carbon Metabolism](/docs/biological-targets/methylation-one-carbon-metabolism) (BRS2) | Uridine can feed CTP and then CDP-choline in [phosphatidylcholine formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation). Endogenous synthesis and salvage also supply CTP. | [1,2] |\n\n## References\n\n[1] Ulus et al. (2006). [Cytidine and Uridine Increase Striatal CDP-Choline Levels Without Decreasing Acetylcholine Synthesis or Release](/docs/papers/BRAIN-Diet-References#ulus_uridine_cdp_choline_2006). Shows that cytidine or uridine can raise CDP-choline in the tested preparations without lowering acetylcholine synthesis or release. Precursor biochemistry, not an ordinary-food dose.\n\n[2] Cansev et al. (2005). [Oral uridine-5-monophosphate (UMP) increases brain CDP-choline levels in gerbils](/docs/papers/BRAIN-Diet-References#cansev_ump_cdp_choline_2005). Oral UMP, the phosphorylated form, raised brain CDP-choline in gerbils. UMP alone did not significantly increase spine density.\n\n[3] Wurtman et al. (2006). [Synaptic proteins and phospholipids are increased in gerbil brain by administering uridine plus docosahexaenoic acid orally](/docs/papers/BRAIN-Diet-References#wurtman_uridine_dha_phospholipids_2006). The phospholipid and synaptic-protein increase is a uridine-plus-DHA combination in gerbils, not uridine alone and not a human cognitive result.\n",
+    "relationships": [
+      {
+        "operation": "Maintain and adapt physical connections between neurons through synapse formation, selective stabilisation, structural remodelling and elimination.",
+        "historical_admission": true,
+        "id": "BRS1-FM5-PM12::PM12-DIT-2",
+        "brs": "BRS1",
+        "fm": "BRS1(FM5)",
+        "pm": "BRS1-FM5-PM12",
+        "pm_page": "/docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity",
+        "input": "Uridine",
+        "input_type": "precursor",
+        "relationship_type": {
+          "layer": "dietary-requirement",
+          "classification": "direct",
+          "mode": "capacity-requirement",
+          "addressability": "direct",
+          "claim_ceiling": "dietary-provision"
+        },
+        "biological_role": "Uridine can supply CTP used in CDP-choline and phosphatidylcholine formation, contributing membrane precursors for structural assembly.",
+        "dietary_input": true,
+        "dietary_input_note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+        "dietary_input_flags": [],
+        "accounting": "A",
+        "accounting_label": "PM-owned dietary relationship",
+        "upstream": [
+          {
+            "relationship_label": "Membrane synthesis",
+            "pm_short_id": "BRS2 PM7",
+            "pm_id": "BRS2-FM3-PM7",
+            "href": "/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation",
+            "resolved": true,
+            "relationship_ids": [
+              "BRS2-FM3-PM7::PM7-DIT-7"
+            ]
+          }
+        ],
+        "pool_references": [],
+        "members": [],
+        "substance_id": "uridine",
+        "substance_page": "/docs/substances/bioactive-compounds/uridine",
+        "identity_status": "resolved",
+        "source_record": "docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx#dietary_input_traceability/PM12-DIT-2",
+        "evidence": {
+          "finding_ids": [
+            "PM12-F6"
+          ],
+          "citation_keys": [
+            "ulus_uridine_cdp_choline_2006",
+            "cansev_ump_cdp_choline_2005",
+            "wurtman_uridine_dha_phospholipids_2006"
+          ]
+        },
+        "limitation": "Endogenous nucleotide synthesis and salvage also contribute. UMP alone did not significantly increase gerbil spine density; that null structural result does not erase the precursor role. No ordinary-food dose or human structural benefit is established.",
+        "derived_target_atom_id": null,
+        "derived_target": null,
+        "qualification": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+        "presentations": [
+          {
+            "label": "Uridine",
+            "section": "3.1.1"
+          }
+        ],
+        "relationship_owner": "BRS1-FM5-PM12",
+        "canonical_supply_owner": [],
+        "scientific_admission": "admitted",
+        "admission_basis": "historical-decision-pending-reconciliation",
+        "admission_errors": [
+          "scientific-assessment-missing"
+        ],
+        "ontology_connections": {
+          "identity": "resolved",
+          "conversion": "not-applicable",
+          "food": "unresolved"
+        },
+        "food_target_mapping": "unresolved",
+        "food_targets": [],
+        "food_target_reconciliations": [],
+        "coverage_warnings": [
+          "Uridine: Food ontology coverage unresolved."
+        ]
+      },
+      {
+        "operation": "Maintain phosphatidylcholine formation through PEMT methylation and the choline-based Kennedy pathway.",
+        "historical_admission": true,
+        "id": "BRS2-FM3-PM7::PM7-DIT-7",
+        "brs": "BRS2",
+        "fm": "BRS2(FM3)",
+        "pm": "BRS2-FM3-PM7",
+        "pm_page": "/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation",
+        "input": "Uridine",
+        "input_type": "precursor",
+        "relationship_type": {
+          "layer": "dietary-requirement",
+          "classification": "direct",
+          "mode": "capacity-requirement",
+          "addressability": "direct",
+          "claim_ceiling": "dietary-provision"
+        },
+        "biological_role": "Uridine can be converted through nucleotide metabolism into CTP, which helps form the CDP-choline used to build phosphatidylcholine.",
+        "dietary_input": true,
+        "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "dietary_input_flags": [],
+        "accounting": "A",
+        "accounting_label": "PM-owned dietary relationship",
+        "upstream": [],
+        "pool_references": [],
+        "members": [],
+        "substance_id": "uridine",
+        "substance_page": "/docs/substances/bioactive-compounds/uridine",
+        "identity_status": "resolved",
+        "source_record": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-7",
+        "evidence": {
+          "finding_ids": [
+            "PM7-F8"
+          ],
+          "citation_keys": [
+            "ulus_uridine_cdp_choline_2006",
+            "cansev_ump_cdp_choline_2005",
+            "wurtman_uridine_dha_phospholipids_2006"
+          ]
+        },
+        "limitation": "Uridine is a supported precursor source, not an indispensable dietary requirement: endogenous nucleotide synthesis and salvage also supply CTP. Rat-slice and oral-UMP gerbil results do not establish an ordinary-food dose, increased human PC flux or cognitive benefit; human MRS measures precursor pools.",
+        "derived_target_atom_id": null,
+        "derived_target": null,
+        "qualification": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "presentations": [
+          {
+            "label": "Uridine",
+            "section": "3.1.1"
+          }
+        ],
+        "relationship_owner": "BRS2-FM3-PM7",
+        "canonical_supply_owner": [],
+        "scientific_admission": "admitted",
+        "admission_basis": "historical-decision-pending-reconciliation",
+        "admission_errors": [
+          "scientific-assessment-missing"
+        ],
+        "ontology_connections": {
+          "identity": "resolved",
+          "conversion": "not-applicable",
+          "food": "unresolved"
+        },
+        "food_target_mapping": "unresolved",
+        "food_targets": [],
+        "food_target_reconciliations": [],
+        "coverage_warnings": [
+          "Uridine: Food ontology coverage unresolved."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pyridoxal-5-phosphate",
+    "page": "docs/substances/nutrients/micronutrients/vitamins/pyridoxal-5-phosphate.md",
+    "frontMatter": {
+      "id": "pyridoxal-5-phosphate",
+      "title": "Pyridoxal 5′-phosphate (PLP)",
+      "sidebar_label": "Pyridoxal 5′-phosphate (PLP)",
+      "description": "Active vitamin B6 cofactor. Food vitamin B6 values are not a measured amount of this phosphate.",
+      "tags": [
+        "Substance",
+        "Nutrient",
+        "Vitamin",
+        "Pyridoxal 5′-phosphate",
+        "Neurotransmitter Regulation"
+      ],
+      "aliases": [
+        "PLP",
+        "Pyridoxal 5′-phosphate",
+        "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)"
+      ],
+      "list_image": "/img/icons/nutrient.svg",
+      "mechanisms": {
+        "Neurotransmitter Regulation": "Pyridoxal 5′-phosphate is the active cofactor made from vitamin B6. A vitamin B6 food value is not a measured amount of this cofactor, and it is not an ADHD treatment result."
+      },
+      "inchikey": "NGVDGCNFYWLIFO-UHFFFAOYSA-N"
+    },
+    "body": "\n## Overview\n\nPyridoxal 5′-phosphate (PLP) is the phosphorylated cofactor made from [vitamin B6](/docs/substances/nutrients/micronutrients/vitamins/vitamin-b6). The vitamers pyridoxine, pyridoxal and pyridoxamine are the dietary forms. They are converted to this phosphate; the food table reports the vitamin, not a measured amount of the cofactor [1].\n\nPLP is the cofactor form used in amino-acid metabolism, including steps toward dopamine, serotonin and GABA. That enzyme role does not show that extra vitamin B6 raises those outputs, or that a food portion corrects a symptom [1,2].\n\n## Dietary Context\n\nThe dietary route is conversion, not a separate food constituent.\n\n### Food sources\n\nFoods that supply vitamin B6 are listed on the [vitamin B6](/docs/substances/nutrients/micronutrients/vitamins/vitamin-b6) page. No food here is linked as containing a measured amount of pyridoxal 5′-phosphate.\n\n### Supplement versus food\n\nA vitamin B6 supplement and a vitamin B6-containing meal both supply the vitamin precursor. Neither is a measured dose of pyridoxal 5′-phosphate [1].\n\n## Research Spotlights & Evidence Checks\n\n<EvidencePresentation\n  kind=\"check\"\n  title=\"Does a vitamin B6 value give the amount of pyridoxal 5′-phosphate?\"\n  exposureContext=\"dietary\"\n  summary=\"No. Food and supplement figures report the vitamin. Pyridoxal 5′-phosphate is the cofactor made from it [1].\"\n>\n\nNon-phosphorylated B6 vitamers are converted to pyridoxal 5′-phosphate [1]. The vitamin B6 record stays on the vitamin page. This page does not copy those amounts.\n\n</EvidencePresentation>\n\n## Foods\n\n<SubstanceFoods tag=\"Pyridoxal 5′-phosphate (PLP)\" />\n\n## Recipes\n\n<SubstanceRecipes tag=\"Pyridoxal 5′-phosphate (PLP)\" />\n\n## Biological Regulatory Systems\n\n| Biological Regulatory System | Evidence-qualified relationship | Evidence |\n| --- | --- | --- |\n| [Neurotransmitter Regulation](/docs/biological-targets/neurotransmitter-regulation) (BRS1) | Pyridoxal 5′-phosphate is the active cofactor formed from vitamin B6. The vitamin value does not establish a higher neurotransmitter output or a benefit from extra intake. | [1,2] |\n\n## References\n\n[1] Spector (1978). [Vitamin B6 transport in the central nervous system: in vivo studies](/docs/papers/BRAIN-Diet-References#spector_vitamin_1978). Non-phosphorylated vitamin B6 forms are converted to pyridoxal 5′-phosphate. A food vitamin B6 value is not a measured amount of the cofactor.\n\n[2] Kennedy (2016). [B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016). Places vitamin B6 among the cofactors used in brain metabolism. It does not show that extra intake raises neurotransmitter output.\n",
+    "relationships": [
+      {
+        "operation": "Divert homocysteine toward cysteine so methylation demand is balanced against sulfur amino-acid and redox needs.",
+        "historical_admission": true,
+        "id": "BRS2-FM2-PM5::PM5-DIT-1",
+        "brs": "BRS2",
+        "fm": "BRS2(FM2)",
+        "pm": "BRS2-FM2-PM5",
+        "pm_page": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway",
+        "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+        "input_type": "cofactor",
+        "relationship_type": {
+          "layer": "dietary-requirement",
+          "classification": "direct",
+          "mode": "capacity-requirement",
+          "addressability": "precursor-mediated",
+          "claim_ceiling": "biological-dependency"
+        },
+        "biological_role": "Active cofactor required by cystathionine beta-synthase and cystathionine gamma-lyase for the homocysteine-to-cysteine conversion.",
+        "dietary_input": true,
+        "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "dietary_input_flags": [],
+        "accounting": "A",
+        "accounting_label": "PM-owned dietary relationship",
+        "upstream": [],
+        "pool_references": [],
+        "members": [],
+        "substance_id": "pyridoxal-5-phosphate",
+        "substance_page": "/docs/substances/nutrients/micronutrients/vitamins/pyridoxal-5-phosphate",
+        "identity_status": "resolved",
+        "source_record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx#dietary_input_traceability/PM5-DIT-1",
+        "evidence": {
+          "finding_ids": [
+            "PM5-F1",
+            "PM5-F2",
+            "PM5-F5"
+          ],
+          "citation_keys": [
+            "belew_cbs_kinetics_2009",
+            "meier_cbs_structure_2001",
+            "zhu_cgl_kinetics_2008",
+            "lamers_vitamin_b6_methionine_cycle_2011"
+          ]
+        },
+        "limitation": "Purified-enzyme dependence on pyridoxal 5'-phosphate does not show that raising vitamin B6 intake increases cysteine formation in people. Moderate B6 restriction changed cystathionine handling but did not significantly reduce total transsulfuration in the assessed human tracer study.",
+        "derived_target_atom_id": null,
+        "derived_target": null,
+        "qualification": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "presentations": [
+          {
+            "label": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+            "section": "3.1.1"
+          }
+        ],
+        "relationship_owner": "BRS2-FM2-PM5",
+        "canonical_supply_owner": [],
+        "scientific_admission": "admitted",
+        "admission_basis": "historical-decision-pending-reconciliation",
+        "admission_errors": [
+          "scientific-assessment-missing"
+        ],
+        "ontology_connections": {
+          "identity": "resolved",
+          "conversion": "not-applicable",
+          "food": "unresolved"
+        },
+        "food_target_mapping": "unresolved",
+        "food_targets": [],
+        "food_target_reconciliations": [],
+        "coverage_warnings": [
+          "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor): Food ontology coverage unresolved."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cysteine",
+    "page": "docs/substances/nutrients/macronutrients/amino-acids/conditionals/cysteine.md",
+    "frontMatter": {
+      "id": "cysteine",
+      "title": "Cysteine",
+      "sidebar_label": "Cysteine",
+      "description": "Sulfur amino acid made from methionine. Food tables report cystine. Mapped to glutathione assembly with the formula-diet limits.",
+      "tags": [
+        "Substance",
+        "Nutrient",
+        "Amino Acid",
+        "Cysteine",
+        "Methylation & One-Carbon Metabolism"
+      ],
+      "mechanisms": {
+        "Methylation & One-Carbon Metabolism": "Cysteine is a substrate of glutamate–cysteine ligase. A diet lacking both methionine and cysteine slowed whole-blood glutathione synthesis in young men; omitting cysteine alone did not when methionine remained adequate. Food cystine is composition, not a synthesis result."
+      },
+      "list_image": "/img/inchi/XUJNEKJLAYXESH-REOHCLBHSA-N.png",
+      "inchikey": "XUJNEKJLAYXESH-REOHCLBHSA-N",
+      "inchi_image": "/img/inchi/XUJNEKJLAYXESH-REOHCLBHSA-N.png"
+    },
+    "body": "\n## Overview\n\nCysteine is a sulfur-containing amino acid that the body can make from methionine. Methionine is the indispensable sulfur amino acid; cysteine can spare part of the methionine requirement, and the size of that sparing is still disputed [1]. Food composition reports cystine, the disulfide formed by two cysteine residues. This page keeps cystine as the measured nutrient and cysteine as the amino acid in metabolism. The measured cystine stays separate from methionine.\n\nCysteine is a substrate of human glutamate–cysteine ligase, the first step in glutathione assembly [6]. In healthy young men, an experimental diet that removed both methionine and cysteine slowed whole-blood glutathione synthesis [5]. When methionine intake remained adequate, a cysteine-free diet left erythrocyte glutathione synthesis unchanged [4]. Cystine in food is the dietary supply of that amino acid. The formula studies, rather than the milligrams in a serving, are what speak to glutathione synthesis.\n\n## Dietary Origin\n\nFoods contain cystine in protein. The foods in the list on this page are those with a verified cystine amount on their own page. Per 100 g of each raw animal food, beef liver contains 376 mg, whole egg 272 mg, bluefin tuna 250 mg, chicken meat and skin 249 mg, and pork loin 248 mg. Dry oats contain 408 mg per 100 g and dry lentils 322 mg per 100 g. Cooked oatmeal and cooked lentils are wetter foods, at 97 mg and 118 mg per 100 g. A protein-quality score compares methionine plus cysteine with a reference pattern. That score is a different measurement from these milligrams, and it is set out on the [oats](/docs/foods/oats) and [lentils](/docs/foods/lentils) pages.\n\n## Research Spotlights & Evidence Checks\n\n<EvidencePresentation\n  kind=\"check\"\n  title=\"Does a low methionine-plus-cysteine score mean the food contains little cystine?\"\n  exposureContext=\"whole-food\"\n  summary=\"No. Limiting means the lowest ratio to a named reference pattern. Lentils and oats show that distinction in different ways [2,3].\"\n>\n\nCooked whole green and split red lentils were limited by methionine plus cysteine on the 1991 FAO pattern. The amino-acid scores were 0.714 and 0.594. Those values come from cysteine measured by performic-acid oxidation, on a dry-matter basis, in a rat digestibility assay. They are not the as-eaten cystine amounts: dry lentils contain 322 mg cystine per 100 g, and boiled lentils 118 mg per 100 g [2].\n\nDry oats are a separate case. Against the 2013 FAO pattern for older children, adolescents and adults, lysine is the lowest ratio in that dry-oat composition (uncorrected score about 0.86). Methionine plus cystine is above the pattern (about 1.85). The dry oats still contain 408 mg cystine per 100 g. That calculation is not a digestibility score [3].\n\n</EvidencePresentation>\n\n<EvidencePresentation\n  kind=\"check\"\n  title=\"Does cystine in a food show that glutathione synthesis increases?\"\n  exposureContext=\"dietary\"\n  summary=\"Cysteine is a substrate of the first assembly step. The human synthesis changes come from experimental diets that changed the sulfur-amino-acid supply, not from ordinary portions of these foods [4,5,6].\"\n>\n\nHuman glutamate–cysteine ligase uses cysteine to form γ-glutamylcysteine [6]. Removing both methionine and cysteine slowed whole-blood glutathione synthesis in healthy young men, while the glutathione concentration was maintained [5]. With methionine held at an adequate intake, cysteine intakes from zero upward left erythrocyte glutathione synthesis unchanged in young men [4]. A cystine-containing food supplies the amino acid. It does not establish that eating the food increases glutathione synthesis.\n\n</EvidencePresentation>\n\n## Recipes\n\n<SubstanceRecipes tag=\"Cysteine\" />\n\n## Foods\n\n<SubstanceFoods tag=\"Cysteine\" />\n\n## Biological Regulatory Systems\n\n| Biological Regulatory System | Evidence-qualified relationship | Evidence |\n| --- | --- | --- |\n| [Methylation & One-Carbon Metabolism](/docs/biological-targets/methylation-one-carbon-metabolism) (BRS2) | Cysteine is a substrate of glutamate–cysteine ligase in [glutathione assembly](/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis). Inadequacy of the shared methionine and cysteine pool can constrain synthesis. Omitting cysteine alone did not, when methionine remained adequate. Food cystine is not that result. | [4,5,6] |\n\n## References\n\n[1] Ball et al. (2006). [The in vivo sparing of methionine by cysteine in sulfur amino acid requirements in animal models and adult humans](/docs/papers/BRAIN-Diet-References#ball_methionine_cysteine_2006). Reviews the dietary indispensability of methionine and evidence that cysteine can substitute for part of the methionine requirement, with methodological disagreement about the size of that sparing.\n\n[2] Nosworthy et al. (2017). [Determination of the protein quality of cooked Canadian pulses](/docs/papers/BRAIN-Diet-References#nosworthy_cooked_pulses_2017). Cooked whole green and split red lentils, without prior soaking. Table 3 is dry matter; cysteine and methionine were measured by performic-acid oxidation. On the 1991 pattern, methionine plus cysteine was limiting (amino-acid scores 0.714 and 0.594). DIAAS used fecal protein digestibility, giving 0.58 and 0.50, and no cooked pulse reached 0.75. Rat assay, not an adult-human adequacy measurement, and not the as-eaten cystine amount.\n\n[3] Food and Agriculture Organization of the United Nations (2013). [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013). Scoring pattern for older children, adolescents and adults: lysine 48 mg/g protein and sulfur amino acids 23 mg/g protein. Applied here only to the dry-oat composition (16.89 g protein, 0.701 g lysine, 0.312 g methionine and 0.408 g cystine per 100 g): lysine about 41.5 mg/g protein, uncorrected score 0.86; methionine plus cystine about 42.6 mg/g protein, uncorrected score 1.85. Lysine is the lowest of the indispensable ratios on that pattern. Not an oat digestibility trial and not DIAAS.\n\n[4] Courtney-Martin et al. (2008). [Methionine-adequate cysteine-free diet does not limit erythrocyte glutathione synthesis in young healthy adult men](/docs/papers/BRAIN-Diet-References#courtney_martin_cysteine_2008). With methionine intake kept adequate, a cysteine-free diet did not lower erythrocyte glutathione synthesis in young men.\n\n[5] Lyons et al. (2000). [Blood glutathione synthesis rates in healthy adults receiving a sulfur amino acid-free diet](/docs/papers/BRAIN-Diet-References#lyons_glutathione_2000). A diet containing neither methionine nor cysteine slowed whole-blood glutathione synthesis in healthy young men. Whole-blood glutathione concentration was maintained.\n\n[6] Misra and Griffith (1998). [Expression and purification of human gamma-glutamylcysteine synthetase](/docs/papers/BRAIN-Diet-References#misra_human_gcl_1998). Human glutamate–cysteine ligase (gamma-glutamylcysteine synthetase) uses cysteine in the first step of glutathione assembly. Enzyme chemistry, not a food trial.\n",
+    "relationships": [
+      {
+        "operation": "Build glutathione from sulfur amino acids so cellular antioxidant defence stays connected to one-carbon metabolism.",
+        "historical_admission": true,
+        "id": "BRS2-FM2-PM6::PM6-DIT-1",
+        "brs": "BRS2",
+        "fm": "BRS2(FM2)",
+        "pm": "BRS2-FM2-PM6",
+        "pm_page": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis",
+        "input": "Cysteine",
+        "input_type": "substrate",
+        "relationship_type": {
+          "layer": "dietary-requirement",
+          "classification": "direct",
+          "mode": "capacity-requirement",
+          "addressability": "direct",
+          "claim_ceiling": "biological-dependency"
+        },
+        "biological_role": "Sulfur-amino-acid substrate joined to glutamate in the first ATP-dependent step of glutathione assembly.",
+        "dietary_input": true,
+        "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "dietary_input_flags": [],
+        "accounting": "B",
+        "accounting_label": "Upstream PM reference",
+        "upstream": [
+          {
+            "relationship_label": "Supply",
+            "pm_short_id": "PM5",
+            "pm_id": "BRS2-FM2-PM5",
+            "href": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway",
+            "resolved": true,
+            "relationship_ids": []
+          }
+        ],
+        "pool_references": [],
+        "members": [],
+        "substance_id": "cysteine",
+        "substance_page": "/docs/substances/nutrients/macronutrients/amino-acids/conditionals/cysteine",
+        "identity_status": "resolved",
+        "source_record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx#dietary_input_traceability/PM6-DIT-1",
+        "evidence": {
+          "finding_ids": [
+            "PM6-F1",
+            "PM6-F2"
+          ],
+          "citation_keys": [
+            "misra_human_gcl_1998",
+            "lyons_glutathione_2000",
+            "courtney_martin_cysteine_2008"
+          ]
+        },
+        "limitation": "Cysteine is the substrate of the first assembly step. A formula that removed methionine and cysteine together slowed whole-blood synthesis, and that formula also removed methionine. When methionine intake stayed adequate, removing cysteine did not lower red-cell synthesis in young men. This does not show that eating more cysteine, once intake is adequate, raises glutathione synthesis.",
+        "derived_target_atom_id": null,
+        "derived_target": null,
+        "qualification": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "presentations": [
+          {
+            "label": "Cysteine",
+            "section": "3.1.1"
+          }
+        ],
+        "relationship_owner": "BRS2-FM2-PM6",
+        "canonical_supply_owner": [
+          "BRS2-FM2-PM5"
+        ],
+        "scientific_admission": "admitted",
+        "admission_basis": "historical-decision-pending-reconciliation",
+        "admission_errors": [
+          "scientific-assessment-missing"
+        ],
+        "ontology_connections": {
+          "identity": "resolved",
+          "conversion": "not-applicable",
+          "food": "unresolved"
+        },
+        "food_target_mapping": "unresolved",
+        "food_targets": [],
+        "food_target_reconciliations": [],
+        "coverage_warnings": [
+          "Cysteine: Food ontology coverage unresolved."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "glutamate",
+    "page": "docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamate.md",
+    "frontMatter": {
+      "id": "glutamate",
+      "title": "Glutamate",
+      "sidebar_label": "Glutamate",
+      "description": "Amino acid and the substrate of GAD and of the first step of glutathione assembly. Intracellular roles are not a requirement to eat glutamate.",
+      "tags": [
+        "Substance",
+        "Nutrient",
+        "Amino Acid",
+        "Nonessential Amino Acid",
+        "Glutamate",
+        "Neurotransmitter Regulation",
+        "Methylation & One-Carbon Metabolism",
+        "Gut-Brain Axis & Enteric Nervous System"
+      ],
+      "mechanisms": {
+        "Neurotransmitter Regulation": "Glutamate is the substrate glutamate decarboxylase uses to make GABA. That enzyme role does not show that dietary glutamate controls neuronal glutamate or human brain GABA synthesis.",
+        "Methylation & One-Carbon Metabolism": "Glutamate is joined to cysteine in the first step of glutathione assembly. No human study in this assessment showed that changing dietary glutamate changes that synthesis.",
+        "Gut-Brain Axis & Enteric Nervous System": "Neuropod cells use endogenous glutamate for rapid synaptic signalling to vagal neurons. That role does not establish a requirement to eat glutamate."
+      },
+      "list_image": "/img/icons/nutrient.svg",
+      "inchikey": "WHUUTDBJXJRKMK-VKHMYHEASA-N"
+    },
+    "body": "\n## Overview\n\nGlutamate, as glutamic acid in food protein and as free glutamate in some foods, is the same amino acid the nervous system uses as a transmitter. This page keeps that chemical identity. An intracellular job for glutamate is not evidence that eating more of it reaches the relevant cell, or that a meal changes the process.\n\nGlutamate is the substrate glutamate decarboxylase uses to make GABA [1]. Human glutamate–cysteine ligase joins glutamate to cysteine in the first step of glutathione assembly [2]. Neuropod cells in the mouse gut use endogenous glutamate for rapid signalling to vagal neurons [3]. None of those studies shows that dietary glutamate or protein controls neuronal glutamate, human brain GABA synthesis, glutathione synthesis, or a health benefit from eating more glutamate [1,2,3].\n\n## Dietary Origin\n\nProtein foods contain glutamic acid, and some foods contain free glutamate. Those are composition facts. They are a different relationship from the enzyme substrate, the glutathione step, and the neuropod transmitter, all of which were studied as endogenous glutamate [1,2,3]. No food page here is linked, because a contains relationship would not carry those biological results.\n\n## Research Spotlights & Evidence Checks\n\n<EvidencePresentation\n  kind=\"check\"\n  title=\"Does eating glutamate supply the glutamate used to make GABA?\"\n  exposureContext=\"isolated-substance\"\n  summary=\"The evidence establishes glutamate as the enzyme substrate. It does not show that dietary glutamate controls neuronal glutamate or human brain GABA synthesis [1].\"\n>\n\nBrain GABA synthesis is regulated at glutamate decarboxylase, which uses glutamate as its substrate [1]. That biochemistry identifies the substrate. It does not measure glutamate from a meal inside the neuron, and it does not show that changing dietary glutamate changes human brain GABA synthesis [1].\n\n</EvidencePresentation>\n\n## Recipes\n\n<SubstanceRecipes tag=\"Glutamate\" />\n\n## Foods\n\n<SubstanceFoods tag=\"Glutamate\" />\n\n## Biological Regulatory Systems\n\n| Biological Regulatory System | Evidence-qualified relationship | Evidence |\n| --- | --- | --- |\n| [Neurotransmitter Regulation](/docs/biological-targets/neurotransmitter-regulation) (BRS1) | Glutamate is the GAD substrate in [GABA synthesis capacity](/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity). Dietary glutamate is not shown to control neuronal glutamate or human brain GABA synthesis. | [1] |\n| [Methylation & One-Carbon Metabolism](/docs/biological-targets/methylation-one-carbon-metabolism) (BRS2) | Glutamate is joined to cysteine in the first step of [glutathione synthesis](/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis). Changing dietary glutamate is not shown to change that synthesis. | [2] |\n| [Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system) (BRS5) | Endogenous glutamate is the transmitter neuropod cells use for rapid signalling to vagal neurons in [vagal–ENS signalling](/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation). That role is not a requirement to eat glutamate. | [3] |\n\n## References\n\n[1] Martin and Rimvall (1993). [Regulation of gamma-aminobutyric acid synthesis in the brain](/docs/papers/BRAIN-Diet-References#martin_regulation_1993). Establishes glutamate as the substrate of glutamate decarboxylase in brain GABA synthesis. Enzyme regulation, not a dietary trial.\n\n[2] Misra and Griffith (1998). [Expression and purification of human gamma-glutamylcysteine synthetase](/docs/papers/BRAIN-Diet-References#misra_human_gcl_1998). Human glutamate–cysteine ligase uses glutamate and cysteine in the first step of glutathione assembly. Enzyme chemistry, not a food trial.\n\n[3] Kaelberer et al. (2018). [A gut-brain neural circuit for nutrient sensory transduction](/docs/papers/BRAIN-Diet-References#kaelberer_nutrient_neural_circuit_2018). Mouse neuropod cells use glutamate for rapid synaptic communication with vagal neurons. This intracellular role is not a requirement to eat glutamate.\n",
+    "relationships": [
+      {
+        "operation": "Build glutathione from sulfur amino acids so cellular antioxidant defence stays connected to one-carbon metabolism.",
+        "historical_admission": true,
+        "id": "BRS2-FM2-PM6::PM6-DIT-2",
+        "brs": "BRS2",
+        "fm": "BRS2(FM2)",
+        "pm": "BRS2-FM2-PM6",
+        "pm_page": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis",
+        "input": "Glutamate",
+        "input_type": "substrate",
+        "relationship_type": {
+          "layer": "dietary-requirement",
+          "classification": "direct",
+          "mode": "capacity-requirement",
+          "addressability": "direct",
+          "claim_ceiling": "biological-dependency"
+        },
+        "biological_role": "Amino-acid substrate joined to cysteine in the first ATP-dependent step of glutathione assembly.",
+        "dietary_input": true,
+        "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "dietary_input_flags": [],
+        "accounting": "A",
+        "accounting_label": "PM-owned dietary relationship",
+        "upstream": [],
+        "pool_references": [],
+        "members": [],
+        "substance_id": "glutamate",
+        "substance_page": "/docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamate",
+        "identity_status": "resolved",
+        "source_record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx#dietary_input_traceability/PM6-DIT-2",
+        "evidence": {
+          "finding_ids": [
+            "PM6-F1"
+          ],
+          "citation_keys": [
+            "misra_human_gcl_1998"
+          ]
+        },
+        "limitation": "No human study in this assessment showed that changing dietary glutamate changes glutathione synthesis.",
+        "derived_target_atom_id": null,
+        "derived_target": null,
+        "qualification": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "presentations": [
+          {
+            "label": "Glutamate",
+            "section": "3.1.1"
+          }
+        ],
+        "relationship_owner": "BRS2-FM2-PM6",
+        "canonical_supply_owner": [],
+        "scientific_admission": "admitted",
+        "admission_basis": "historical-decision-pending-reconciliation",
+        "admission_errors": [
+          "scientific-assessment-missing"
+        ],
+        "ontology_connections": {
+          "identity": "resolved",
+          "conversion": "not-applicable",
+          "food": "unresolved"
+        },
+        "food_target_mapping": "unresolved",
+        "food_targets": [],
+        "food_target_reconciliations": [],
+        "coverage_warnings": [
+          "Glutamate: Food ontology coverage unresolved."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "n-acetylcysteine",
+    "page": "docs/substances/bioactive-compounds/n-acetylcysteine.md",
+    "frontMatter": {
+      "id": "n-acetylcysteine",
+      "title": "N-acetylcysteine",
+      "sidebar_label": "N-acetylcysteine",
+      "description": "Supplemental cysteine precursor. The glutathione result used it together with glycine in older adults. It is not food cysteine.",
+      "tags": [
+        "Substance",
+        "Bioactive",
+        "N-acetylcysteine",
+        "Methylation & One-Carbon Metabolism"
+      ],
+      "mechanisms": {
+        "Methylation & One-Carbon Metabolism": "N-acetylcysteine was the cysteine precursor given with glycine to older adults, in whom red-cell glutathione synthesis increased. The trial does not isolate N-acetylcysteine."
+      },
+      "list_image": "/img/icons/bioactive.svg",
+      "inchikey": "PWKSKIMOESPYIA-BYPYZUCNSA-N"
+    },
+    "body": "\n## Overview\n\nN-acetylcysteine is a supplemental form used as a cysteine precursor. It is not cysteine, and it is not the cystine measured in food tables. The [cysteine](/docs/substances/nutrients/macronutrients/amino-acids/conditionals/cysteine) page holds the amino acid and the food-composition relationship.\n\nIn older adults, two weeks of N-acetylcysteine together with glycine raised red-cell glutathione synthesis that had been lower than in younger adults [1]. The precursor was given with glycine, so the rise does not isolate N-acetylcysteine. The trial does not show an effect of N-acetylcysteine alone, of ordinary foods, or of supplementation outside that older-adult group, and it did not measure a neuronal or clinical outcome [1].\n\n## Dietary Origin\n\nExposure here is a direct supplement: N-acetylcysteine plus glycine, for two weeks, in older adults [1]. Ordinary foods are not that exposure. Cystine in protein is recorded on the cysteine page and is a different chemical measurement from this precursor.\n\n## Research Spotlights & Evidence Checks\n\n<EvidencePresentation\n  kind=\"check\"\n  title=\"Does the glutathione rise belong to N-acetylcysteine alone?\"\n  exposureContext=\"combination-formulation\"\n  summary=\"No. Older adults received N-acetylcysteine together with glycine. The increase in red-cell glutathione synthesis is that combination [1].\"\n>\n\nOlder adults had lower red-cell glutathione synthesis than younger adults. Two weeks of the cysteine precursor plus glycine raised synthesis [1]. Because both were given, the result cannot be assigned to N-acetylcysteine alone, to glycine alone, or to a food that contains cystine [1].\n\n</EvidencePresentation>\n\n## Recipes\n\n<SubstanceRecipes tag=\"N-acetylcysteine\" />\n\n## Foods\n\n<SubstanceFoods tag=\"N-acetylcysteine\" />\n\n## Biological Regulatory Systems\n\n| Biological Regulatory System | Evidence-qualified relationship | Evidence |\n| --- | --- | --- |\n| [Methylation & One-Carbon Metabolism](/docs/biological-targets/methylation-one-carbon-metabolism) (BRS2) | N-acetylcysteine is the supplemental cysteine precursor used with glycine in the older-adult glutathione-synthesis trial mapped to [glutathione synthesis](/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis). The rise does not isolate N-acetylcysteine and is not an ordinary-food result. | [1] |\n\n## References\n\n[1] Sekhar et al. (2011). [Deficient synthesis of glutathione underlies oxidative stress in aging and can be corrected by dietary cysteine and glycine supplementation](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011). Older adults had lower red-cell glutathione synthesis than younger adults. Two weeks of N-acetylcysteine together with glycine raised that synthesis. The trial does not isolate N-acetylcysteine, does not measure the brain, and is not an ordinary-food result.\n",
+    "relationships": [
+      {
+        "operation": "Build glutathione from sulfur amino acids so cellular antioxidant defence stays connected to one-carbon metabolism.",
+        "historical_admission": true,
+        "id": "BRS2-FM2-PM6::PM6-DIT-7",
+        "brs": "BRS2",
+        "fm": "BRS2(FM2)",
+        "pm": "BRS2-FM2-PM6",
+        "pm_page": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis",
+        "input": "N-acetylcysteine",
+        "input_type": "precursor",
+        "relationship_type": {
+          "layer": "dietary-requirement",
+          "classification": "derived",
+          "mode": "capacity-requirement",
+          "addressability": "precursor-mediated",
+          "claim_ceiling": "modulation-demonstrated"
+        },
+        "biological_role": "Supplemental cysteine precursor given with glycine to older adults, in whom erythrocyte glutathione synthesis increased.",
+        "dietary_input": true,
+        "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "dietary_input_flags": [],
+        "accounting": "A",
+        "accounting_label": "PM-owned dietary relationship",
+        "upstream": [],
+        "pool_references": [],
+        "members": [],
+        "substance_id": "n-acetylcysteine",
+        "substance_page": "/docs/substances/bioactive-compounds/n-acetylcysteine",
+        "identity_status": "resolved",
+        "source_record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx#dietary_input_traceability/PM6-DIT-7",
+        "evidence": {
+          "finding_ids": [
+            "PM6-F2"
+          ],
+          "citation_keys": [
+            "sekhar_glutathione_2011"
+          ]
+        },
+        "limitation": "The synthesis increase was measured in older adults given this precursor together with glycine. It does not show an effect of N-acetylcysteine alone, of ordinary foods, or of supplementation outside that group, and it is not a neuronal or clinical result.",
+        "derived_target_atom_id": "BRS2-FM2-PM6::PM6-DIT-1",
+        "derived_target": "Cysteine",
+        "qualification": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "presentations": [
+          {
+            "label": "N-acetylcysteine",
+            "section": "3.1.1"
+          }
+        ],
+        "relationship_owner": "BRS2-FM2-PM6",
+        "canonical_supply_owner": [],
+        "scientific_admission": "admitted",
+        "admission_basis": "historical-decision-pending-reconciliation",
+        "admission_errors": [
+          "scientific-assessment-missing"
+        ],
+        "ontology_connections": {
+          "identity": "resolved",
+          "conversion": "unresolved",
+          "food": "unresolved"
+        },
+        "food_target_mapping": "unresolved",
+        "food_targets": [],
+        "food_target_reconciliations": [],
+        "coverage_warnings": [
+          "N-acetylcysteine → Cysteine: conversion pathway reconciliation pending.",
+          "N-acetylcysteine: Food ontology coverage unresolved."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "oligofructose",
+    "page": "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/oligofructose.md",
+    "frontMatter": {
+      "id": "oligofructose",
+      "title": "Oligofructose",
+      "sidebar_label": "Oligofructose",
+      "description": "Short-chain inulin-type fructan mixture. FOS and fructooligosaccharides overlap with this name but are not exact synonyms.",
+      "tags": [
+        "Substance",
+        "Nutrient",
+        "Carbohydrate",
+        "Dietary Fibre",
+        "Fructan",
+        "Oligofructose"
+      ],
+      "list_image": "/img/inchi/MKTLQAHFLNFLEU-WTORHHNNSA-N.png",
+      "inchikey": "MKTLQAHFLNFLEU-WTORHHNNSA-N",
+      "inchi_image": "/img/inchi/MKTLQAHFLNFLEU-WTORHHNNSA-N.png"
+    },
+    "body": "\n## Overview\n\nOligofructose is a mixture of short-chain inulin-type fructans. The structure shown is one fructose trimer from that mixture, not every chain the name covers. Roberfroid places the mixture at a degree of polymerisation of about 2–8, average about 4, beside longer-chain inulin (about 10–60) and beside blends such as oligofructose-enriched inulin [1]. Niness describes the same short-chain subgroup with an upper bound of 10, so the bound is a convention rather than a second substance [2]. This page uses oligofructose for that short-chain inulin-type mixture.\n\nFOS and fructooligosaccharides overlap with this name, and they also name sucrose-derived kestose, nystose and fructosyl-nystose [3]. Chicory, onion, garlic, leek and Jerusalem artichoke store mixed fructan lengths. That plant mix is not a standardised oligofructose ingredient, and no food page here has a measured amount. In adults with overweight, 21 g/day of oligofructose for 12 weeks lowered plasma lipopolysaccharide versus placebo. That is a small supplement result, not a vegetable effect [4].\n\n## Dietary Origin\n\nCommercial oligofructose is usually the partial enzymatic hydrolysate of chicory inulin: a mixture of glucose-terminated and fructose-only chains in the short degree-of-polymerisation range [1,2]. That is a direct ingredient exposure. Sucrose-derived fructooligosaccharides are a different preparation, even when a label uses the same words [3].\n\nNative plants contain inulin-type fructans across a range of chain lengths. A food that contains fructans does not, by that fact, contain this standardised mixture, and eating the food is not the 21 g/day supplement [1,4]. No food in this ontology yet has a chain-length measurement that would support a contains relationship, so none is linked.\n\n## Research Spotlights & Evidence Checks\n\n<EvidencePresentation\n  kind=\"check\"\n  title=\"Are FOS and oligofructose the same substance?\"\n  exposureContext=\"isolated-substance\"\n  summary=\"No. The names overlap, but the chain range and the manufacturing route have to be stated before the materials can be treated as the same exposure [1,3].\"\n>\n\nRoberfroid’s oligofructose is the inulin hydrolysate with a degree of polymerisation of about 2–8 [1]. Kelly notes that fructooligosaccharides, oligofructose and inulin have been used inconsistently, and that commercial material may be extracted from chicory or built from sucrose, with different chain compositions [3]. A study that says only “FOS” does not identify which of those preparations was used.\n\n</EvidencePresentation>\n\n<EvidencePresentation\n  kind=\"check\"\n  title=\"Does a 21 g/day oligofructose supplement show what fructan-containing vegetables do?\"\n  exposureContext=\"supplemental-formulation\"\n  summary=\"No. In adults with overweight, 21 g/day for 12 weeks lowered plasma lipopolysaccharide compared with a maltodextrin placebo. That result belongs to the supplement, not to onion, leek or chicory portions [4].\"\n>\n\nTwenty participants received oligofructose and 17 received placebo, from samples available for this analysis. Plasma lipopolysaccharide fell about 40% with oligofructose and rose about 48% with placebo. Plasminogen activator inhibitor-1 also fell more with oligofructose. Interleukin-6, TNF-α, MCP-1, adiponectin and resistin did not change [4]. The dose is an added ingredient, not a food pattern, and the trial does not show that longer-chain inulin or sucrose-derived fructooligosaccharides have the same effect.\n\n</EvidencePresentation>\n\n## Recipes\n\n<SubstanceRecipes tag=\"Oligofructose\" />\n\n## Foods\n\n<SubstanceFoods tag=\"Oligofructose\" />\n\n## References\n\n[1] Roberfroid (2007). [Inulin-type fructans: functional food ingredients](/docs/papers/BRAIN-Diet-References#roberfroid_inulin_type_fructans_2007). Defines oligofructose as the short-chain inulin-type fraction (degree of polymerisation about 2–8), separate from longer-chain inulin and from oligofructose-enriched inulin.\n\n[2] Niness (1999). [Inulin and oligofructose: what are they?](/docs/papers/BRAIN-Diet-References#niness_inulin_oligofructose_1999). Describes oligofructose as the short-chain subgroup of inulin, with an upper bound of 10 rather than 8, so the cutoff is a convention.\n\n[3] Kelly (2008). [Inulin-type prebiotics — a review: part 1](/docs/papers/BRAIN-Diet-References#kelly_inulin_type_prebiotics_2008). Records that fructooligosaccharides, oligofructose and inulin are used inconsistently, and that chicory extraction and sucrose synthesis do not yield the same chain mixture.\n\n[4] Parnell et al. (2017). [Oligofructose decreases serum lipopolysaccharide and plasminogen activator inhibitor-1 in adults with overweight/obesity](/docs/papers/BRAIN-Diet-References#parnell_oligofructose_lps_2017). Supplemental 21 g/day result in a small overweight sample. It is not a food trial and not a finding about every fructan.\n",
+    "relationships": [
+      {
+        "operation": "Limit gut-derived endotoxin spillover so barrier dysfunction does not drive systemic inflammatory load.",
+        "scientific_assessment": {
+          "atom_id": "PM2-DIT-RECOVERY-OLIGOFRUCTOSE",
+          "status": "admitted",
+          "type": "B",
+          "classification": "direct",
+          "operation": "Limit gut-derived endotoxin spillover so barrier dysfunction does not drive systemic inflammatory load.",
+          "canonical_substance_id": "oligofructose",
+          "assessment_date": "2026-10-26",
+          "assessment_limitations": "Defined 10% w/w mouse feeding is not a human dose or an ordinary-food effect. This is state regulation, not indispensability. Oligofructose is not chemically converted into GLP-2; no isolated butyrate mediation, generic fibre effect or brain benefit is established.",
+          "food_target_research": {
+            "completed": true,
+            "sources_examined": [
+              "registry/substances.json",
+              "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/oligofructose.md",
+              "system/food-target-research.json"
+            ],
+            "sufficient_coverage_rationale": "Inspected the canonical oligofructose identity, existing food-research ledger and preparation boundaries. There is no verified whole-food edge for the standardized experimental oligofructose preparation; retain the explicit mapping gap rather than equate all inulin/fructan foods."
+          },
+          "mechanism_engagement": {
+            "status": "established",
+            "statement": "The tested oral oligofructose exposure modulated gut-barrier/endotoxin-related inflammatory state in obese mice through a GLP-2-sensitive route.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/19240062/"
+            ]
+          },
+          "dietary_exposure": {
+            "status": "established",
+            "statement": "The defined dietary oligofructose preparation was administered orally in the primary experiment. It is a dietary fermentation substrate, not an assumption that any fructan-rich food reproduces the studied exposure.",
+            "sources": [
+              "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/oligofructose.md"
+            ]
+          }
+        },
+        "historical_admission": false,
+        "id": "BRS3-FM1-PM2::PM2-DIT-RECOVERY-OLIGOFRUCTOSE",
+        "brs": "BRS3",
+        "fm": "BRS3(FM1)",
+        "pm": "BRS3-FM1-PM2",
+        "pm_page": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling",
+        "input": "Oligofructose",
+        "input_type": "microbial fermentation substrate",
+        "relationship_type": {
+          "layer": "dietary-requirement",
+          "classification": "direct",
+          "mode": "state-regulation",
+          "addressability": "direct",
+          "claim_ceiling": "modulation-demonstrated"
+        },
+        "biological_role": "The tested oral oligofructose exposure modulated gut-barrier/endotoxin-related inflammatory state in obese mice through a GLP-2-sensitive route.",
+        "dietary_input": true,
+        "dietary_input_note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type B gate; food composition does not establish an effective intervention dose.",
+        "dietary_input_flags": [],
+        "accounting": "A",
+        "accounting_label": "PM-owned dietary relationship",
+        "upstream": [],
+        "pool_references": [],
+        "members": [],
+        "substance_id": "oligofructose",
+        "substance_page": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/oligofructose",
+        "identity_status": "resolved",
+        "source_record": "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx#dietary_input_traceability/PM2-DIT-RECOVERY-OLIGOFRUCTOSE",
+        "evidence": {
+          "finding_ids": [
+            "PM2-F4"
+          ],
+          "citation_keys": [
+            "cani_glp2_endotoxemia_2009"
+          ]
+        },
+        "limitation": "Defined 10% w/w mouse feeding is not a human dose or an ordinary-food effect. This is state regulation, not indispensability. Oligofructose is not chemically converted into GLP-2; no isolated butyrate mediation, generic fibre effect or brain benefit is established.",
+        "derived_target_atom_id": null,
+        "derived_target": null,
+        "qualification": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type B gate; food composition does not establish an effective intervention dose.",
+        "presentations": [
+          {
+            "label": "Oligofructose",
+            "section": "3.1.1"
+          }
+        ],
+        "relationship_owner": "BRS3-FM1-PM2",
+        "canonical_supply_owner": [],
+        "scientific_admission": "admitted",
+        "admission_basis": "versioned-assessment",
+        "admission_errors": [],
+        "ontology_connections": {
+          "identity": "resolved",
+          "conversion": "not-applicable",
+          "food": "unresolved"
+        },
+        "food_target_mapping": "unresolved",
+        "food_targets": [],
+        "food_target_reconciliations": [],
+        "coverage_warnings": [
+          "Oligofructose: Food ontology coverage unresolved."
+        ]
+      },
+      {
+        "operation": "Limit host exposure to bacterial endotoxin and related inflammatory microbial products.",
+        "historical_admission": true,
+        "id": "BRS5-FM1-PM2::PM2-DIT-1",
+        "brs": "BRS5",
+        "fm": "BRS5(FM1)",
+        "pm": "BRS5-FM1-PM2",
+        "pm_page": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment",
+        "input": "Oligofructose",
+        "input_type": "defined dietary exposure",
+        "relationship_type": {
+          "layer": "dietary-requirement",
+          "classification": "direct",
+          "mode": "state-regulation",
+          "addressability": "direct",
+          "claim_ceiling": "modulation-demonstrated"
+        },
+        "biological_role": "Oligofructose lowered plasma LPS in adults with overweight/obesity; separate obese-mouse experiments support a GLP-2-sensitive barrier route.",
+        "dietary_input": true,
+        "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "dietary_input_flags": [],
+        "accounting": "A",
+        "accounting_label": "PM-owned dietary relationship",
+        "upstream": [],
+        "pool_references": [],
+        "members": [],
+        "substance_id": "oligofructose",
+        "substance_page": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/oligofructose",
+        "identity_status": "resolved",
+        "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx#dietary_input_traceability/PM2-DIT-1",
+        "evidence": {
+          "finding_ids": [
+            "PM2-F4"
+          ],
+          "citation_keys": [
+            "cani_glp2_endotoxemia_2009",
+            "parnell_oligofructose_lps_2017"
+          ]
+        },
+        "limitation": "The human result used 21 g/day for 12 weeks in 37 adults; it does not establish nutritional necessity, clinical benefit or equivalent effects from every food or fibre.",
+        "derived_target_atom_id": null,
+        "derived_target": null,
+        "qualification": "PM identity says missing; canonical registry now resolves. Scientific admission unchanged. Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "presentations": [
+          {
+            "label": "Oligofructose",
+            "section": "3.1.1"
+          }
+        ],
+        "relationship_owner": "BRS5-FM1-PM2",
+        "canonical_supply_owner": [],
+        "scientific_admission": "admitted",
+        "admission_basis": "historical-decision-pending-reconciliation",
+        "admission_errors": [
+          "section-input-type-ineligible",
+          "scientific-assessment-missing"
+        ],
+        "ontology_connections": {
+          "identity": "resolved",
+          "conversion": "not-applicable",
+          "food": "unresolved"
+        },
+        "food_target_mapping": "unresolved",
+        "food_targets": [],
+        "food_target_reconciliations": [],
+        "coverage_warnings": [
+          "Oligofructose: Food ontology coverage unresolved."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "flavin-mononucleotide",
+    "page": "docs/substances/nutrients/micronutrients/vitamins/flavin-mononucleotide.md",
+    "frontMatter": {
+      "id": "flavin-mononucleotide",
+      "title": "Flavin mononucleotide (FMN)",
+      "sidebar_label": "Flavin mononucleotide (FMN)",
+      "description": "The riboflavin-derived cofactor that accepts NADH electrons at the start of mitochondrial complex I.",
+      "tags": [
+        "Substance",
+        "Nutrient",
+        "Flavin mononucleotide",
+        "Mitochondrial Function & Bioenergetics"
+      ],
+      "aliases": [
+        "FMN",
+        "riboflavin 5'-phosphate"
+      ],
+      "list_image": "/img/inchi/FVTCRASFADXXNN-SCRDCRAPSA-N.png",
+      "mechanisms": {
+        "Mitochondrial Function & Bioenergetics": "Accepts electrons from NADH at the flavin site of respiratory complex I. Dietary riboflavin is the precursor. Identifying that site does not show that raising intake increases electron transport."
+      },
+      "inchikey": "FVTCRASFADXXNN-SCRDCRAPSA-N",
+      "inchi_image": "/img/inchi/FVTCRASFADXXNN-SCRDCRAPSA-N.png"
+    },
+    "body": "\n## Overview\n\nFlavin mononucleotide (FMN), also called riboflavin 5′-phosphate, is the phosphorylated coenzyme made from [vitamin B2 (riboflavin)](/docs/substances/nutrients/micronutrients/vitamins/vitamin-b2). The structure shown is that phosphate. In respiratory complex I it is the flavin that accepts the electrons NADH donates at the start of the mitochondrial electron transport chain [1].\n\nThat role is an enzyme fact. The review that places flavin mononucleotide (FMN) at the NADH entry site does not show that the amount of this cofactor limits complex I in ordinary conditions, or that eating more riboflavin, once the cofactor is adequate, raises electron transport or ATP synthesis [1]. A riboflavin figure on a food page is the vitamin, not a measured amount of flavin mononucleotide (FMN).\n\n## Dietary Context\n\nThe dietary route is conversion, not a separate food constituent.\n\n**Endogenous formation.** Riboflavin from food is phosphorylated to flavin mononucleotide (FMN). That cofactor can be adenylated further to flavin adenine dinucleotide. The vitamin B2 record is the dietary precursor. This page does not copy those riboflavin amounts as flavin mononucleotide (FMN).\n\n### Food sources\n\nFoods that supply riboflavin are listed on the [vitamin B2](/docs/substances/nutrients/micronutrients/vitamins/vitamin-b2) page. No food here is linked as containing a measured amount of flavin mononucleotide (FMN).\n\n### Supplement versus food\n\nA riboflavin supplement and a riboflavin-containing meal both supply the vitamin precursor. Neither is a measured dose of the complex I cofactor, and the complex I review does not test intake [1].\n\n## Research Spotlights & Evidence Checks\n\n<EvidencePresentation\n  kind=\"check\"\n  title=\"Does a riboflavin value give the amount of flavin mononucleotide (FMN)?\"\n  exposureContext=\"dietary\"\n  summary=\"No. Riboflavin is the vitamin precursor. Flavin mononucleotide (FMN) is the phosphorylated cofactor made from it, and a vitamin B2 figure is not its amount [1].\"\n>\n\nComplex I uses flavin mononucleotide (FMN) at the NADH entry site [1]. Food composition panels that report vitamin B2 report the vitamin. Those figures stay on the vitamin B2 record.\n\n</EvidencePresentation>\n\n## Foods\n\n<SubstanceFoods tag=\"Flavin mononucleotide\" />\n\n## Recipes\n\n<SubstanceRecipes tag=\"Flavin mononucleotide\" />\n\n## Biological Regulatory Systems\n\n| Biological Regulatory System | Evidence-qualified relationship | Evidence |\n| --- | --- | --- |\n| [Mitochondrial Function & Bioenergetics](/docs/biological-targets/mitochondrial-function-bioenergetics) (BRS4) | Flavin mononucleotide (FMN) accepts electrons from NADH in complex I on the [electron transport chain](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function). Riboflavin is the dietary precursor. Necessity of the cofactor does not show that raising intake increases electron transport. | [1] |\n\n## References\n\n[1] Curtabbi and Enríquez (2022). [The ins and outs of the flavin mononucleotide cofactor of respiratory complex I](/docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022). Places flavin mononucleotide (FMN) at the NADH entry site of complex I. Does not show that cofactor abundance limits the complex in ordinary conditions, or that riboflavin intake raises electron transport.\n",
+    "relationships": [
+      {
+        "operation": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+        "historical_admission": true,
+        "id": "BRS4-FM1-PM1::PM1-DIT-2",
+        "brs": "BRS4",
+        "fm": "BRS4(FM1)",
+        "pm": "BRS4-FM1-PM1",
+        "pm_page": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function",
+        "input": "Flavin mononucleotide (FMN)",
+        "input_type": "cofactor",
+        "relationship_type": {
+          "layer": "dietary-requirement",
+          "classification": "direct",
+          "mode": "capacity-requirement",
+          "addressability": "direct",
+          "claim_ceiling": "biological-dependency"
+        },
+        "biological_role": "Flavin mononucleotide (FMN) accepts electrons from NADH at the start of complex I.",
+        "dietary_input": true,
+        "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "dietary_input_flags": [],
+        "accounting": "A",
+        "accounting_label": "PM-owned dietary relationship",
+        "upstream": [],
+        "pool_references": [],
+        "members": [],
+        "substance_id": "flavin-mononucleotide",
+        "substance_page": "/docs/substances/nutrients/micronutrients/vitamins/flavin-mononucleotide",
+        "identity_status": "resolved",
+        "source_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx#dietary_input_traceability/PM1-DIT-2",
+        "evidence": {
+          "finding_ids": [
+            "PM1-F1"
+          ],
+          "citation_keys": [
+            "curtabbi_complex_i_fmn_2022"
+          ]
+        },
+        "limitation": "The review identifies the cofactor. It does not show that flavin mononucleotide (FMN) supply limits complex I in ordinary life, or that raising intake increases electron transport.",
+        "derived_target_atom_id": null,
+        "derived_target": null,
+        "qualification": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "presentations": [
+          {
+            "label": "Flavin mononucleotide (FMN)",
+            "section": "3.1.1"
+          }
+        ],
+        "relationship_owner": "BRS4-FM1-PM1",
+        "canonical_supply_owner": [],
+        "scientific_admission": "admitted",
+        "admission_basis": "historical-decision-pending-reconciliation",
+        "admission_errors": [
+          "scientific-assessment-missing"
+        ],
+        "ontology_connections": {
+          "identity": "resolved",
+          "conversion": "not-applicable",
+          "food": "unresolved"
+        },
+        "food_target_mapping": "unresolved",
+        "food_targets": [],
+        "food_target_reconciliations": [],
+        "coverage_warnings": [
+          "Flavin mononucleotide (FMN): Food ontology coverage unresolved."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "glutamine",
+    "page": "docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine.md",
+    "frontMatter": {
+      "id": "glutamine",
+      "title": "Glutamine",
+      "sidebar_label": "Glutamine",
+      "description": "Amino acid used by enterocytes. Adult trials do not show a general permeability benefit. A postinfectious IBS supplement result stays in that group.",
+      "tags": [
+        "Substance",
+        "Nutrient",
+        "Amino Acid",
+        "Nonessential Amino Acid",
+        "Glutamine",
+        "Gut-Brain Axis & Enteric Nervous System"
+      ],
+      "mechanisms": {
+        "Gut-Brain Axis & Enteric Nervous System": "Glutamine is an enterocyte substrate for epithelial proliferation, repair, and tight-junction protein maintenance. Adult supplementation trials show no overall permeability benefit."
+      },
+      "list_image": "/img/icons/nutrient.svg",
+      "inchikey": "ZDXPYRJPNDTMRX-VKHMYHEASA-N"
+    },
+    "body": "\n## Overview\n\nGlutamine is an amino acid in food protein. The body also makes it, and systemic pools supply the gut. Under physiological stress it can become conditionally indispensable. This page keeps that amino acid separate from glutamine powder used as a supplement.\n\nGlutamine is an enterocyte fuel and a substrate for epithelial proliferation, repair, and tight-junction proteins [1]. Across adult trials, glutamine supplementation did not improve gut permeability overall [2]. A separate trial in postinfectious irritable bowel syndrome reported a selected supplementation response [3]. That result stays in that condition. It does not make dietary protein, or extra glutamine, a general requirement for barrier integrity [2,3].\n\n## Dietary Origin\n\nFoods supply glutamine inside protein. Endogenous synthesis and circulating glutamine also supply the intestine, so a food that contains protein is not evidence that the meal raised barrier proteins [1]. The permeability trials and the postinfectious IBS trial gave glutamine as a supplement [2,3]. No food page here has a verified glutamine amount, so none is linked.\n\n## Research Spotlights & Evidence Checks\n\n<EvidencePresentation\n  kind=\"check\"\n  title=\"Does glutamine supplementation tighten the gut barrier in adults?\"\n  exposureContext=\"supplemental-formulation\"\n  summary=\"Adult trials as a group do not show a permeability benefit. A postinfectious IBS trial is a separate, selected response [2,3].\"\n>\n\nA systematic review of adult clinical trials found no overall improvement in gut permeability with glutamine supplementation [2]. The epithelial case for glutamine is substrate use in proliferation, repair, and tight-junction protein maintenance, much of it from experimental models [1]. The postinfectious IBS trial supports a response in that selected group only [3]. Neither result is a protein-serving effect.\n\n</EvidencePresentation>\n\n## Recipes\n\n<SubstanceRecipes tag=\"Glutamine\" />\n\n## Foods\n\n<SubstanceFoods tag=\"Glutamine\" />\n\n## Biological Regulatory Systems\n\n| Biological Regulatory System | Evidence-qualified relationship | Evidence |\n| --- | --- | --- |\n| [Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system) (BRS5) | Glutamine is an enterocyte substrate in [gut-barrier tight-junction integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity). Adult supplementation shows no overall permeability benefit. A postinfectious IBS response does not establish general need. | [1,2,3] |\n\n## References\n\n[1] Rao and Samak (2012). [Role of glutamine in protection of intestinal epithelial tight junctions](/docs/papers/BRAIN-Diet-References#rao_role_2012). Reviews glutamine as an enterocyte substrate for proliferation, repair, and tight-junction protein maintenance. Experimental and mechanistic literature, not a food trial.\n\n[2] Abbasi et al. (2024). [A systematic review and meta-analysis of clinical trials on the effects of glutamine supplementation on gut permeability in adults](/docs/papers/BRAIN-Diet-References#abbasi_systematic_2024). Adult supplementation trials do not show an overall permeability benefit. This is supplement evidence, not ordinary protein intake.\n\n[3] Zhou et al. (2019). [Randomised placebo-controlled trial of dietary glutamine supplements for postinfectious irritable bowel syndrome](/docs/papers/BRAIN-Diet-References#zhou_glutamine_piibs_2019). A selected postinfectious IBS supplementation response. It does not establish glutamine as a general barrier requirement.\n",
+    "relationships": [
+      {
+        "operation": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+        "scientific_assessment": {
+          "atom_id": "PM1-DIT-6",
+          "status": "admitted",
+          "type": "A",
+          "classification": "direct",
+          "operation": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+          "canonical_substance_id": "glutamine",
+          "functional_dependency": {
+            "status": "established",
+            "statement": "Glutamine availability sustains epithelial junction-related cellular capacity; cell perturbations distinguish this from systemic inflammation.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/19211824/",
+              "https://pubmed.ncbi.nlm.nih.gov/30108163/"
+            ]
+          },
+          "dietary_supply": {
+            "status": "established",
+            "statement": "The existing randomised oral-glutamine trial establishes delivery of the same identified amino acid. Food composition and ordinary-food intervention equivalence remain unresolved.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/19211824/",
+              "https://pubmed.ncbi.nlm.nih.gov/30108163/"
+            ]
+          },
+          "food_target_research": {
+            "completed": true,
+            "sources_examined": [
+              "registry/substances.json",
+              "docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine.md",
+              "docs/foods",
+              "system/food-target-research.json",
+              "review/deferred-stage2ab-2026-10-23/food-research.json"
+            ],
+            "targeted_searches": [
+              {
+                "date": "2026-10-23",
+                "query": "Glutamine food composition, chemical form and preparation; distinguish tested formulation",
+                "outcome": "Combined Glx and total-protein tables cannot establish glutamine-specific food composition. No unsupported food source is added."
+              }
+            ]
+          },
+          "assessment_date": "2026-10-23",
+          "assessment_limitations": "Cell deprivation including endogenous-synthesis blockade is not ordinary human nutritional deficiency; culture exposure is not a food dose. Selected clinical population and supplemental free glutamine. Neither ordinary-food equivalence nor benefit in healthy people, brain function or ADHD is established.",
+          "review_source": "system/reviews/deferred-stage2ab-2026-10-23/assessment-plan.json#BRS5-FM1-PM1"
+        },
+        "historical_admission": false,
+        "id": "BRS5-FM1-PM1::PM1-DIT-6",
+        "brs": "BRS5",
+        "fm": "BRS5(FM1)",
+        "pm": "BRS5-FM1-PM1",
+        "pm_page": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity",
+        "input": "Glutamine",
+        "input_type": "substrate",
+        "relationship_type": {
+          "layer": "dietary-requirement",
+          "classification": "direct",
+          "mode": "capacity-requirement",
+          "addressability": "direct",
+          "claim_ceiling": "biological-dependency"
+        },
+        "biological_role": "Enterocyte metabolic substrate supporting epithelial proliferation, repair, and tight-junction protein maintenance.",
+        "dietary_input": true,
+        "dietary_input_note": "2026-10-23: previously Unset supply decision completed under the documented Capacity gate. Original atom and note are preserved in the immutable assessment baseline. Supplemental exposure is not ordinary-food efficacy.",
+        "dietary_input_flags": [
+          "section-supply-contradiction"
+        ],
+        "accounting": "A",
+        "accounting_label": "PM-owned dietary relationship",
+        "upstream": [],
+        "pool_references": [],
+        "members": [],
+        "substance_id": "glutamine",
+        "substance_page": "/docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine",
+        "identity_status": "resolved",
+        "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx#dietary_input_traceability/PM1-DIT-6",
+        "evidence": {
+          "finding_ids": [
+            "PM1-F6",
+            "PM1-F11"
+          ],
+          "citation_keys": [
+            "rao_role_2012",
+            "abbasi_systematic_2024",
+            "zhou_glutamine_piibs_2019",
+            "li_glutamine_junction_pi3k_2009"
+          ]
+        },
+        "limitation": "Glutamine is supplied substantially from endogenous and systemic pools and becomes conditionally indispensable under stress; adult supplementation trials show no overall permeability benefit, so dietary protein or glutamine provision is not established as a general PM1 lever. A separate postinfectious IBS trial supports a selected supplementation response; this does not establish general need. The new Capacity assessment admits supply to junction-supporting cellular capacity, without asserting universal dietary limitation, benefit from extra intake, or equivalence to the supplemental exposure.",
+        "derived_target_atom_id": null,
+        "derived_target": null,
+        "qualification": "PM identity says missing; canonical registry now resolves. Scientific admission unchanged. 2026-10-23: previously Unset supply decision completed under the documented Capacity gate. Original atom and note are preserved in the immutable assessment baseline. Supplemental exposure is not ordinary-food efficacy.",
+        "presentations": [
+          {
+            "label": "Glutamine",
+            "section": "3.1.1"
+          }
+        ],
+        "relationship_owner": "BRS5-FM1-PM1",
+        "canonical_supply_owner": [],
+        "scientific_admission": "admitted",
+        "admission_basis": "versioned-assessment",
+        "admission_errors": [],
+        "ontology_connections": {
+          "identity": "resolved",
+          "conversion": "not-applicable",
+          "food": "unresolved"
+        },
+        "food_target_mapping": "unresolved",
+        "food_targets": [],
+        "food_target_reconciliations": [],
+        "coverage_warnings": [
+          "Glutamine: Food ontology coverage unresolved."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arabinan",
+    "page": "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/arabinan.md",
+    "frontMatter": {
+      "id": "arabinan",
+      "title": "Arabinan",
+      "sidebar_label": "Arabinan",
+      "description": "A branched α-L-arabinofuranose polysaccharide and a neutral side chain of pectin. Local evidence is one pea-fibre arabinan, not every arabinan source.",
+      "tags": [
+        "Substance",
+        "Nutrient",
+        "Carbohydrate",
+        "Dietary Fibre",
+        "Arabinan",
+        "Gut-Brain Axis & Enteric Nervous System"
+      ],
+      "mechanisms": {
+        "Gut-Brain Axis & Enteric Nervous System": "Arabinan in the studied pea-fibre preparation is a glycan whose use depends on microbial machinery and competition. No universal human response is established."
+      },
+      "list_image": "/img/icons/nutrient.svg"
+    },
+    "body": "\n## Overview\n\nArabinan is a branched plant polysaccharide. Its backbone is (1→5)-linked α-L-arabinofuranose, with arabinofuranose side chains at O-2, O-3, or both. In the cell wall it is a neutral side chain of [pectin](/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin), attached through rhamnose. It is not arabinogalactan, not free arabinose, and not pectin itself. This page uses arabinan for that glycan class. Sugar beet, seeds, and roots are common plant sources, but a food that contains them is not the exposure studied here.\n\nIn mice colonised with defined human-derived communities, arabinan in one pea-fibre preparation supplied a glycan whose use depended on microbial utilisation machinery and on competition with other species [1]. The food matrix and the competitors affected access. That result does not set a human intake, an optimal dose, or a host benefit, and it does not transfer to sugar-beet arabinan or to pectin in general [1].\n\n## Dietary Context\n\nDirect occurrence is arabinan in plant cell walls, as a side chain of pectin. The studied exposure is narrower: arabinan in one pea-fibre preparation, given in a defined-community mouse model [1]. A linear, enzymatically debranched arabinan is a different preparation. A food that contains peas, sugar beet, or pectin is not identified as the studied fraction. No food page has a measured arabinan amount, so none is linked.\n\n## Research Spotlights & Evidence Checks\n\n<EvidencePresentation\n  kind=\"check\"\n  title=\"Does pea-fibre arabinan stand for every arabinan?\"\n  exposureContext=\"isolated-substance\"\n  summary=\"No. Utilisation was shown for arabinan in one pea-fibre preparation, in defined human-derived communities in mice, and it depended on microbial machinery and competition [1].\"\n>\n\nAccess to the glycan changed with the community and with competitors [1]. That is evidence about this preparation. It does not set a human intake of peas, sugar beet, pectin, or arabinan in general, and it does not show a clinical benefit [1]. A debranched linear arabinan is a separate preparation from this branched pea-fibre fraction.\n\n</EvidencePresentation>\n\n## Foods\n\n<SubstanceFoods tag=\"Arabinan\" />\n\n## Recipes\n\n<SubstanceRecipes tag=\"Arabinan\" />\n\n## Biological Regulatory Systems\n\n| Biological Regulatory System | Evidence-qualified relationship | Evidence |\n| --- | --- | --- |\n| [Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system) (BRS5) | Pea-fibre arabinan is a glycan substrate in [microbial competitive selection](/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection). Use depends on microbial machinery and competition. | [1] |\n\n## References\n\n[1] Patnode et al. (2019). [Interspecies Competition Impacts Targeted Manipulation of Human Gut Bacteria by Fiber-Derived Glycans](/docs/papers/BRAIN-Diet-References#patnode_interspecies_2019). Arabinan in the studied pea fibre was a glycan resource whose utilisation depended on microbial machinery and competition in defined human-derived communities in mice. No universal human response, optimal dose, or host benefit is established.\n",
+    "relationships": [
+      {
+        "operation": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+        "historical_admission": true,
+        "id": "BRS5-FM2-PM4::PM4-DIT-1",
+        "brs": "BRS5",
+        "fm": "BRS5(FM2)",
+        "pm": "BRS5-FM2-PM4",
+        "pm_page": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection",
+        "input": "Pea-fibre arabinan",
+        "input_type": "substrate",
+        "relationship_type": {
+          "layer": "dietary-requirement",
+          "classification": "direct",
+          "mode": "capacity-requirement",
+          "addressability": "direct",
+          "claim_ceiling": "biological-dependency"
+        },
+        "biological_role": "Arabinan in the studied pea-fibre preparation supplies a glycan resource whose utilisation depends on microbial utilisation machinery and competition.",
+        "dietary_input": true,
+        "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "dietary_input_flags": [],
+        "accounting": "A",
+        "accounting_label": "PM-owned dietary relationship",
+        "upstream": [],
+        "pool_references": [],
+        "members": [],
+        "substance_id": "arabinan",
+        "substance_page": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/arabinan",
+        "identity_status": "resolved",
+        "source_record": "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx#dietary_input_traceability/PM4-DIT-1",
+        "evidence": {
+          "finding_ids": [
+            "PM4-F1"
+          ],
+          "citation_keys": [
+            "patnode_interspecies_2019"
+          ]
+        },
+        "limitation": "Defined human-derived communities in mice; the food matrix and competitors affect access. No universal human response, optimal dose or host benefit is established.",
+        "derived_target_atom_id": null,
+        "derived_target": null,
+        "qualification": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "presentations": [
+          {
+            "label": "Pea-fibre arabinan",
+            "section": "3.1.1"
+          }
+        ],
+        "relationship_owner": "BRS5-FM2-PM4",
+        "canonical_supply_owner": [],
+        "scientific_admission": "admitted",
+        "admission_basis": "historical-decision-pending-reconciliation",
+        "admission_errors": [
+          "scientific-assessment-missing"
+        ],
+        "ontology_connections": {
+          "identity": "resolved",
+          "conversion": "not-applicable",
+          "food": "unresolved"
+        },
+        "food_target_mapping": "unresolved",
+        "food_targets": [],
+        "food_target_reconciliations": [],
+        "coverage_warnings": [
+          "Pea-fibre arabinan: Food ontology coverage unresolved."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "glucose",
+    "page": "docs/substances/nutrients/macronutrients/carbohydrates/glucose.md",
+    "frontMatter": {
+      "id": "glucose",
+      "title": "Glucose",
+      "sidebar_label": "Glucose",
+      "description": "The sugar used as a luminal sensory stimulus in a mouse neuropod–vagal circuit. That experiment is not a reason to eat more glucose.",
+      "tags": [
+        "Substance",
+        "Nutrient",
+        "Carbohydrate",
+        "Glucose",
+        "Gut-Brain Axis & Enteric Nervous System"
+      ],
+      "mechanisms": {
+        "Gut-Brain Axis & Enteric Nervous System": "Luminal glucose acted as a sensory stimulus in the tested mouse neuropod–vagal circuit. The neural response is not an intake target or a benefit from more sugar."
+      },
+      "list_image": "/img/icons/nutrient.svg",
+      "inchikey": "WQZGKKKJIJFFOK-GASJEMHNSA-N"
+    },
+    "body": "\n## Overview\n\nGlucose is the monosaccharide in free sugar, in starch after digestion, and in blood. This page records one experimental use of it: luminal glucose as a signal in a gut-to-brain nerve circuit. It is not a recommendation to increase glucose or sugar intake.\n\nIn mice, enteroendocrine neuropod cells sensed luminal glucose and used a glutamate synapse to signal rapidly to vagal neurons [1]. That shows glucose can be a sensory stimulus in the circuit that was tested. It does not set an optimal intake, an inadequacy threshold, or a benefit from eating more sugar [1].\n\n## Dietary Origin\n\nDietary glucose arrives as the sugar itself, or from digestible carbohydrate that yields glucose. The nerve result used glucose applied in a mouse experiment as a luminal stimulus [1]. A food that contains starch or sugar is not that experiment. No food page is linked from this result, because composition would not carry the neural finding.\n\n## Research Spotlights & Evidence Checks\n\n<EvidencePresentation\n  kind=\"check\"\n  title=\"Does the mouse glucose-sensing result mean people should eat more glucose?\"\n  exposureContext=\"isolated-substance\"\n  summary=\"No. Luminal glucose triggered a neuropod–vagal response in mice. That is a sensory experiment, not an intake target [1].\"\n>\n\nNeuropod cells transduced a nutrient stimulus into a rapid vagal signal, and the transmitter of that synapse was glutamate [1]. Glucose was the luminal stimulus in the test. The paper does not estimate a human dose, and it does not show that adding sugar improves the circuit or any clinical outcome [1].\n\n</EvidencePresentation>\n\n## Recipes\n\n<SubstanceRecipes tag=\"Glucose\" />\n\n## Foods\n\n<SubstanceFoods tag=\"Glucose\" />\n\n## Biological Regulatory Systems\n\n| Biological Regulatory System | Evidence-qualified relationship | Evidence |\n| --- | --- | --- |\n| [Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system) (BRS5) | Luminal glucose was the sensory stimulus in the mouse neuropod–vagal circuit mapped to [vagal–ENS signalling](/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation). The response is not a recommendation to increase glucose. | [1] |\n\n## References\n\n[1] Kaelberer et al. (2018). [A gut-brain neural circuit for nutrient sensory transduction](/docs/papers/BRAIN-Diet-References#kaelberer_nutrient_neural_circuit_2018). Mouse neuropod cells sensed luminal glucose and signalled rapidly to vagal neurons. Experimental neural response, not an optimal intake or a benefit from more sugar.\n",
+    "relationships": [
+      {
+        "operation": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+        "historical_admission": true,
+        "id": "BRS5-FM3-PM7::PM7-DIT-2",
+        "brs": "BRS5",
+        "fm": "BRS5(FM3)",
+        "pm": "BRS5-FM3-PM7",
+        "pm_page": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation",
+        "input": "Glucose",
+        "input_type": "defined dietary exposure",
+        "relationship_type": {
+          "layer": "dietary-requirement",
+          "classification": "direct",
+          "mode": "state-regulation",
+          "addressability": "direct",
+          "claim_ceiling": "modulation-demonstrated"
+        },
+        "biological_role": "Luminal glucose acted as a sensory stimulus in the tested mouse neuropod–vagal circuit.",
+        "dietary_input": true,
+        "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "dietary_input_flags": [],
+        "accounting": "A",
+        "accounting_label": "PM-owned dietary relationship",
+        "upstream": [],
+        "pool_references": [],
+        "members": [],
+        "substance_id": "glucose",
+        "substance_page": "/docs/substances/nutrients/macronutrients/carbohydrates/glucose",
+        "identity_status": "resolved",
+        "source_record": "docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx#dietary_input_traceability/PM7-DIT-2",
+        "evidence": {
+          "finding_ids": [
+            "PM7-F2"
+          ],
+          "citation_keys": [
+            "kaelberer_nutrient_neural_circuit_2018"
+          ]
+        },
+        "limitation": "Experimental neural response is not an optimal intake, an inadequacy threshold or benefit from more sugar.",
+        "derived_target_atom_id": null,
+        "derived_target": null,
+        "qualification": "PM identity says missing; canonical registry now resolves. Scientific admission unchanged. Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "presentations": [
+          {
+            "label": "Glucose",
+            "section": "3.1.1"
+          }
+        ],
+        "relationship_owner": "BRS5-FM3-PM7",
+        "canonical_supply_owner": [],
+        "scientific_admission": "admitted",
+        "admission_basis": "historical-decision-pending-reconciliation",
+        "admission_errors": [
+          "section-input-type-ineligible",
+          "scientific-assessment-missing"
+        ],
+        "ontology_connections": {
+          "identity": "resolved",
+          "conversion": "not-applicable",
+          "food": "unresolved"
+        },
+        "food_target_mapping": "unresolved",
+        "food_targets": [],
+        "food_target_reconciliations": [],
+        "coverage_warnings": [
+          "Glucose: Food ontology coverage unresolved."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "indispensable-amino-acids",
+    "page": "docs/substances/nutrients/macronutrients/amino-acids/indispensable-amino-acids.md",
+    "frontMatter": {
+      "id": "indispensable-amino-acids",
+      "title": "Indispensable amino acids",
+      "sidebar_label": "Indispensable amino acids",
+      "description": "The defined nine-amino-acid dietary class, not a requirement for complete coverage at every meal.",
+      "aliases": [
+        "Indispensable amino-acid supply",
+        "Essential amino acids",
+        "Indispensable amino-acid pool"
+      ],
+      "tags": [
+        "Substance",
+        "Nutrient",
+        "Indispensable amino acids"
+      ],
+      "list_image": "/img/icons/nutrient.svg",
+      "identity_type": "defined-substrate-class",
+      "constituent_ids": [
+        "histidine",
+        "isoleucine",
+        "leucine",
+        "lysine",
+        "methionine",
+        "phenylalanine",
+        "threonine",
+        "tryptophan",
+        "valine"
+      ]
+    },
+    "body": "\n## Overview\n\nThis class comprises histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan and valine [1]. Tyrosine is not a member. The class resolves the already accepted indispensable-amino-acid supply record; it does not create nine independent PM admissions.\n\n## Dietary Context\n\nDigestible dietary proteins contribute the constituent amino acids. Presence of all nine is distinct from their amounts, digestibility or adequacy relative to a person’s needs. The class is not assigned an amount from total protein, and every meal need not contain the complete set [1].\n\n## Foods\n\n<SubstanceFoods tag=\"Indispensable amino acids\" />\n\n## Recipes\n\n<SubstanceRecipes tag=\"Indispensable amino acids\" />\n\n## Biological Regulatory Systems\n\nThe accepted [amino-acid availability](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) relationship concerns circulating supply; it does not establish increased brain neurotransmitter synthesis.\n\n## References\n\n[1] FAO (2013). [Dietary Protein Quality Evaluation in Human Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013). Authoritative indispensable-amino-acid and digestible-protein framework; not a brain-efficacy trial.\n",
+    "relationships": [
+      {
+        "operation": "Ensure meal-level protein supply delivers the amino-acid foundation neurotransmitter pathways depend on.",
+        "scientific_assessment": {
+          "atom_id": "PM1-DIT-1",
+          "status": "admitted",
+          "type": "A",
+          "classification": "direct",
+          "operation": "Ensure meal-level protein supply delivers the amino-acid foundation neurotransmitter pathways depend on.",
+          "canonical_substance_id": "indispensable-amino-acids",
+          "functional_dependency": {
+            "status": "established",
+            "statement": "The defined indispensable set must be supplied by diet and supports circulating amino-acid availability. The accepted PM relationship concerns coverage, not increased brain synthesis.",
+            "sources": [
+              "https://www.fao.org/4/i3124e/i3124e.pdf"
+            ]
+          },
+          "dietary_supply": {
+            "status": "established",
+            "statement": "The canonical milk record explicitly documents a complete essential-amino-acid profile with FAO provenance. A qualitative complete-set edge does not infer quantities from total protein.",
+            "sources": [
+              "docs/foods/milk.md",
+              "https://www.fao.org/4/i3124e/i3124e.pdf"
+            ]
+          },
+          "assessment_date": "2026-10-26",
+          "assessment_limitations": "Identity reconciliation of the already accepted class; no new requirement that each meal provide all nine, no uniform digestibility or neurotransmitter benefit.",
+          "food_target_research": {
+            "completed": true,
+            "sources_examined": [
+              "docs/foods/milk.md",
+              "registry/substances.json",
+              "https://www.fao.org/4/i3124e/i3124e.pdf"
+            ],
+            "sufficient_coverage_rationale": "Existing canonical Milk text explicitly supports the complete set. Record that supported qualitative relationship; no food is inferred from total protein and no nine-fold multiplication of admissions or amounts is performed. Other full-profile food edges require separate verified composition."
+          }
+        },
+        "historical_admission": false,
+        "id": "BRS1-FM1-PM1::PM1-DIT-1",
+        "brs": "BRS1",
+        "fm": "BRS1(FM1)",
+        "pm": "BRS1-FM1-PM1",
+        "pm_page": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation",
+        "input": "Indispensable amino-acid supply",
+        "input_type": "nutrient/compound class",
+        "relationship_type": {
+          "layer": "dietary-requirement",
+          "classification": "direct",
+          "mode": "capacity-requirement",
+          "addressability": "direct",
+          "claim_ceiling": "dietary-provision"
+        },
+        "biological_role": "Coverage of the indispensable amino-acid set, including phenylalanine, that sets the circulating pool neurotransmitter pathways can draw on. Meals contribute measurable amino-acid composition; this is not a requirement that each meal provide complete coverage",
+        "dietary_input": true,
+        "dietary_input_note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+        "dietary_input_flags": [],
+        "accounting": "A",
+        "accounting_label": "PM-owned dietary relationship",
+        "upstream": [],
+        "pool_references": [],
+        "members": [],
+        "substance_id": "indispensable-amino-acids",
+        "substance_page": "/docs/substances/nutrients/macronutrients/amino-acids/indispensable-amino-acids",
+        "identity_status": "resolved",
+        "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx#dietary_input_traceability/PM1-DIT-1",
+        "evidence": {
+          "finding_ids": [
+            "PM1-F2"
+          ],
+          "citation_keys": [
+            "mariotti_dietary_2019",
+            "moughan_diaas_2024"
+          ]
+        },
+        "limitation": "Protein-quality scoring and vegetarian-diet amino-acid coverage do not establish that increasing protein raises brain monoamine synthesis or improves attention or mood. The indispensable set includes phenylalanine; tyrosine is not an indispensable amino acid.",
+        "derived_target_atom_id": null,
+        "derived_target": null,
+        "qualification": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+        "presentations": [
+          {
+            "label": "Indispensable amino-acid supply",
+            "section": "3.1.1"
+          }
+        ],
+        "relationship_owner": "BRS1-FM1-PM1",
+        "canonical_supply_owner": [],
+        "scientific_admission": "admitted",
+        "admission_basis": "versioned-assessment",
+        "admission_errors": [],
+        "ontology_connections": {
+          "identity": "resolved",
+          "conversion": "not-applicable",
+          "food": "supported"
+        },
+        "food_target_mapping": "verified",
+        "food_targets": [
+          {
+            "id": "milk::indispensable-amino-acids::cow milk protein::unspecified",
+            "substance_id": "indispensable-amino-acids",
+            "food_id": "milk",
+            "food_title": "Milk",
+            "food_page": "/docs/foods/milk",
+            "food_record": "docs/foods/milk.md",
+            "material": "Cow-milk protein",
+            "preparation": null,
+            "species": null,
+            "product": null,
+            "edible_part": null,
+            "chemical_form": null,
+            "food_matrix": null,
+            "preparation_effects": null,
+            "absorption_evidence": null,
+            "observations": [],
+            "presence_records": [
+              {
+                "record": "docs/foods/milk.md#substance_relationships/Indispensable%20amino%20acids",
+                "evidence": "FAO (2013), canonical Milk essential-amino-acid profile",
+                "source_url": "https://www.fao.org/4/i3124e/i3124e.pdf",
+                "source_reference": "#food-source-1",
+                "citation_keys": [
+                  "fao_diaas_2013"
+                ],
+                "relationship_type": "contains",
+                "presence_status": "presence_supported_amount_unavailable",
+                "limitations": "Milk protein supplies the defined nine indispensable amino acids; no class quantity is inferred from total protein, and complete presence does not prove adequate intake or equal digestibility."
+              }
+            ],
+            "qualification": [],
+            "mapping_status": "verified",
+            "relationship": "contains",
+            "evidence": [
+              {
+                "record": "docs/foods/milk.md#substance_relationships/Indispensable%20amino%20acids",
+                "evidence": "FAO (2013), canonical Milk essential-amino-acid profile",
+                "source_url": "https://www.fao.org/4/i3124e/i3124e.pdf",
+                "source_reference": "#food-source-1",
+                "citation_keys": [
+                  "fao_diaas_2013"
+                ],
+                "relationship_type": "contains",
+                "presence_status": "presence_supported_amount_unavailable",
+                "limitations": "Milk protein supplies the defined nine indispensable amino acids; no class quantity is inferred from total protein, and complete presence does not prove adequate intake or equal digestibility."
+              }
+            ],
+            "delivery": "direct-input-source",
+            "substance_title": "Indispensable amino acids"
+          }
+        ],
+        "food_target_reconciliations": [],
+        "coverage_warnings": []
+      }
+    ]
+  }
+]

@@ -21,6 +21,8 @@ references:
   - '[Suárez et al. (1995) — Impaired tyrosine-kinase activity of muscle insulin receptors from hypomagnesaemic rats](/docs/papers/BRAIN-Diet-References#suarez_magnesium_insulin_1995)'
   - '[Magkos et al. (2016) — Effects of moderate and subsequent progressive weight loss on metabolic function and adipose tissue biology in humans with obesity](/docs/papers/BRAIN-Diet-References#magkos_weight_loss_adipose_2016)'
   - '[Piatti et al. (2001) — Long-term oral L-arginine administration improves peripheral and hepatic insulin sensitivity in type 2 diabetic patients.](/docs/papers/BRAIN-Diet-References#piatti_oral_arginine_clamp_2001)'
+  - '[Robertson et al. (2005) — Insulin-sensitizing effects of dietary resistant starch and effects on skeletal muscle and adipose tissue metabolism](/docs/papers/BRAIN-Diet-References#robertson_resistant_starch_clamp_2005)'
+  - '[Bodinham et al. (2014) — Efficacy of increased resistant starch consumption in human type 2 diabetes](/docs/papers/BRAIN-Diet-References#bodinham_resistant_starch_diabetes_2014)'
 hide_title: true
 phenome_relationships: []
 list_image: /img/biological-targets/brs6-portrait-thumbnail.png
@@ -166,6 +168,47 @@ scientific_findings:
           source_url: 'https://pubmed.ncbi.nlm.nih.gov/11347747/'
     evidence_dependency:
       - 'The source-specific observations support different links; food composition, biochemical identity, intervention exposure and clinical outcomes are not interchangeable. Reuse across PMs is not independent replication.'
+  - id: PM3-F5
+    finding_label: Resistant-starch effects on insulin-sensitive glucose disposal are context-dependent
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: A small placebo-controlled human supplementation study found higher clamp insulin sensitivity and forearm glucose clearance; a later type-2-diabetes trial did not establish a clamp improvement.
+    finding_summary: A small placebo-controlled human supplementation study found higher clamp insulin sensitivity and forearm glucose clearance; a later type-2-diabetes trial did not establish a clamp improvement.
+    finding_interpretation: Defined oral resistant-starch supplementation modulated clamp-measured insulin sensitivity and post-meal forearm glucose clearance in a small human study.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: A small placebo-controlled human supplementation study found higher clamp insulin sensitivity and forearm glucose clearance; a later type-2-diabetes trial did not establish a clamp improvement.
+    synthesis_limitations: 'Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference. Numerical SEC remains pending full-method appraisal; no factor is forced.'
+    evidence_considered:
+      - label: Robertson et al. (2005)
+        citation_key: robertson_resistant_starch_clamp_2005
+        href: /docs/papers/BRAIN-Diet-References#robertson_resistant_starch_clamp_2005
+        data_level: Human Study
+        evidence_source: bounded-external-search
+        exposure_context: 'Defined resistant-starch ingredient supplementation, not interchangeable whole-food meals.'
+        directional_finding: Clamp insulin sensitivity and post-meal forearm clearance were higher following the tested resistant-starch supplementation.
+        assessment:
+          study: 'Human resistant-starch supplementation with clamp and tissue metabolic endpoints, contrasted with a later type-2-diabetes trial.'
+          population: Ten healthy participants in the positive study; 17 adults with type 2 diabetes in the later crossover.
+          result: Clamp insulin sensitivity and post-meal forearm clearance were higher following the tested resistant-starch supplementation.
+          effect_magnitude: No additional magnitude inferred.
+          evidence_summary: Clamp insulin sensitivity and post-meal forearm clearance were higher following the tested resistant-starch supplementation.
+          limitations: 'Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference.'
+          retrieval_scope: Primary abstract retrieved 26 October 2026; full methods and supplements not extracted.
+      - label: Bodinham et al. (2014)
+        citation_key: bodinham_resistant_starch_diabetes_2014
+        href: /docs/papers/BRAIN-Diet-References#bodinham_resistant_starch_diabetes_2014
+        data_level: Human Study
+        evidence_source: bounded-external-search
+        exposure_context: 'Defined resistant-starch ingredient supplementation, not interchangeable whole-food meals.'
+        directional_finding: The tested 40 g/day resistant-starch intervention did not establish improved clamp insulin sensitivity in type 2 diabetes.
+        assessment:
+          study: 'Human resistant-starch supplementation with clamp and tissue metabolic endpoints, contrasted with a later type-2-diabetes trial.'
+          population: Ten healthy participants in the positive study; 17 adults with type 2 diabetes in the later crossover.
+          result: The tested 40 g/day resistant-starch intervention did not establish improved clamp insulin sensitivity in type 2 diabetes.
+          effect_magnitude: No additional magnitude inferred.
+          evidence_summary: The tested 40 g/day resistant-starch intervention did not establish improved clamp insulin sensitivity in type 2 diabetes.
+          limitations: 'Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference.'
+          retrieval_scope: Primary abstract retrieved 26 October 2026; full methods and supplements not extracted.
 dietary_input_traceability:
   - atom_id: PM3-DIT-1
     dietary_input: true
@@ -188,6 +231,20 @@ dietary_input_traceability:
         - registry/substances.json
         - docs/substances/nutrients/micronutrients/minerals/macro/magnesium.md
       projection_status: draft-only
+  - atom_id: PM3-DIT-RECOVERY-RESISTANT-STARCH
+    input: Resistant starch
+    input_type: microbial fermentation substrate
+    substance_id: resistant-starch
+    biological_role: Defined oral resistant-starch supplementation modulated clamp-measured insulin sensitivity and post-meal forearm glucose clearance in a small human study.
+    evidence_source:
+      finding_ids:
+        - PM3-F5
+      citation_keys:
+        - robertson_resistant_starch_clamp_2005
+        - bodinham_resistant_starch_diabetes_2014
+    evidence_limitation: 'Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference.'
+    dietary_input: true
+    dietary_input_note: '2026-10-26 mission-specific dietary recovery: admitted under the existing Type B gate; food composition does not establish an effective intervention dose.'
 dietary_lever_atoms:
   - atom_id: PM3-DIT-1
     relationship_layer: dietary-requirement
@@ -195,12 +252,23 @@ dietary_lever_atoms:
     claim_ceiling: biological-dependency
     dietary_addressability: direct
     requirement_classification: direct
+  - atom_id: PM3-DIT-RECOVERY-RESISTANT-STARCH
+    requirement_classification: direct
+    relationship_mode: state-regulation
+    relationship_layer: dietary-requirement
+    dietary_addressability: direct
+    claim_ceiling: modulation-demonstrated
+    permitted_wording: Defined oral resistant-starch supplementation modulated clamp-measured insulin sensitivity and post-meal forearm glucose clearance in a small human study.
+    evidence_limitation: 'Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference.'
 dietary_lever_presentations:
   - atom_id: PM3-DIT-1
     label: Magnesium
     presentation_section: 3.1.1
     reader_description: Magnesium availability supports insulin-receptor kinase signalling and insulin-responsive uptake.
     description_finding_id: PM3-F2
+  - atom_id: PM3-DIT-RECOVERY-RESISTANT-STARCH
+    label: Resistant starch
+    presentation_section: 3.1.1
 pending_actions: []
 system_optimisation_practices:
   - atom_id: PM3-SOP-1
@@ -355,7 +423,36 @@ intervention_dominance_assessment:
         directness: Each measured link and inferred link is bounded in its Finding and five-atom record.
         extent: 'Specific preparations, populations and protocols; no universal dose, outcome or superiority inference.'
 scientific_findings_intro: 'Clamp/tracer exercise evidence supports disposal. Magnesium-deficiency experiments support capacity, not universal benefit from supplements. Weight-loss evidence separates improved insulin action from changes in adipose inflammation. Kirwan et al. (2009) [[6]](#pm-ref-6); Suárez et al. (1995) [[7]](#pm-ref-7); Magkos et al. (2016) [[8]](#pm-ref-8)'
-sidebar_label: "BRS6-1-3 — Insulin Sensitivity & Glucose Disposal"
+sidebar_label: BRS6-1-3 — Insulin Sensitivity & Glucose Disposal
+dietary_input_assessments:
+  - atom_id: PM3-DIT-RECOVERY-RESISTANT-STARCH
+    status: admitted
+    type: B
+    classification: direct
+    operation: Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.
+    canonical_substance_id: resistant-starch
+    assessment_date: '2026-10-26'
+    assessment_limitations: 'Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference.'
+    food_target_research:
+      completed: true
+      sources_examined:
+        - registry/substances.json
+        - docs/foods/bananas.md
+        - docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch.md
+        - system/food-target-research.json
+      sufficient_coverage_rationale: Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships.
+    mechanism_engagement:
+      status: established
+      statement: Defined oral resistant-starch supplementation modulated clamp-measured insulin sensitivity and post-meal forearm glucose clearance in a small human study.
+      sources:
+        - 'https://pubmed.ncbi.nlm.nih.gov/16155268/'
+        - 'https://pubmed.ncbi.nlm.nih.gov/24671124/'
+    dietary_exposure:
+      status: established
+      statement: The dietary ingredient was administered orally and the same substrate class has form-dependent food-source records. Neither green-banana content nor cooling a food establishes equivalence to the tested resistant-starch supplement.
+      sources:
+        - docs/foods/bananas.md
+        - docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch.md
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -401,6 +498,9 @@ Insulin helps tissues take up and store circulating glucose after a meal. The ef
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.1.1 Direct and/or Derived Dietary Requirements</strong></button>
 <div class="brs-fm-hub-panel" hidden>
+
+- Resistant starch
+
 
 - Magnesium
 
@@ -491,6 +591,8 @@ Clamp/tracer exercise evidence supports disposal. Magnesium-deficiency experimen
 
 <ScientificFinding finding={{"id":"PM3-F4","finding_label":"A defined oral arginine exposure changes clamp-measured disposal","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"Oral arginine improved clamp-measured glucose disposal in the small type-2-diabetes comparison.","finding_summary":"Oral arginine improved clamp-measured glucose disposal in the small type-2-diabetes comparison.","finding_interpretation":"Incomplete normalisation; small selected clinical population. cGMP change does not isolate causal NO mediation. The 9 g/day supplement protocol is not equivalent to arginine-containing food.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Oral arginine improved clamp-measured glucose disposal in the small type-2-diabetes comparison.","synthesis_limitations":"Incomplete normalisation; small selected clinical population. cGMP change does not isolate causal NO mediation. The 9 g/day supplement protocol is not equivalent to arginine-containing food.","evidence_considered":[{"label":"Piatti et al. (2001)","citation_key":"piatti_oral_arginine_clamp_2001","href":"/docs/papers/BRAIN-Diet-References#piatti_oral_arginine_clamp_2001","data_level":"Human Study","exposure_context":"Usual diet then placebo; intervention group received 3 g arginine three times daily for one month.","evidence_source":"bounded-external-search","directional_finding":"Oral arginine improved clamp-measured glucose disposal in the small type-2-diabetes comparison.","assessment":{"study":"Usual diet then placebo; intervention group received 3 g arginine three times daily for one month.","population":"Twelve lean adults with type 2 diabetes; double-blind study with random allocation into two groups.","result":"Oral arginine improved clamp-measured glucose disposal in the small type-2-diabetes comparison.","effect_magnitude":"Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.","evidence_summary":"Euglycaemic-hyperinsulinaemic clamp with glucose tracer; endogenous glucose production and cGMP.","limitations":"Incomplete normalisation; small selected clinical population. cGMP change does not isolate causal NO mediation. The 9 g/day supplement protocol is not equivalent to arginine-containing food.","retrieval_scope":"Primary abstract retrieved via Europe PMC/PubMed; no unextracted full-method claims.","source_url":"https://pubmed.ncbi.nlm.nih.gov/11347747/"},"canonical_reference":{"author_year":"Piatti et al. (2001)","number":9,"anchor":"#pm-ref-9"}}],"evidence_dependency":["The source-specific observations support different links; food composition, biochemical identity, intervention exposure and clinical outcomes are not interchangeable. Reuse across PMs is not independent replication."],"connected_supportive_evidence":[]}} />
 
+<ScientificFinding finding={{"id":"PM3-F5","finding_label":"Resistant-starch effects on insulin-sensitive glucose disposal are context-dependent","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"A small placebo-controlled human supplementation study found higher clamp insulin sensitivity and forearm glucose clearance; a later type-2-diabetes trial did not establish a clamp improvement.","finding_summary":"A small placebo-controlled human supplementation study found higher clamp insulin sensitivity and forearm glucose clearance; a later type-2-diabetes trial did not establish a clamp improvement.","finding_interpretation":"Defined oral resistant-starch supplementation modulated clamp-measured insulin sensitivity and post-meal forearm glucose clearance in a small human study.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A small placebo-controlled human supplementation study found higher clamp insulin sensitivity and forearm glucose clearance; a later type-2-diabetes trial did not establish a clamp improvement.","synthesis_limitations":"Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference. Numerical SEC remains pending full-method appraisal; no factor is forced.","evidence_considered":[{"label":"Robertson et al. (2005)","citation_key":"robertson_resistant_starch_clamp_2005","href":"/docs/papers/BRAIN-Diet-References#robertson_resistant_starch_clamp_2005","data_level":"Human Study","evidence_source":"bounded-external-search","exposure_context":"Defined resistant-starch ingredient supplementation, not interchangeable whole-food meals.","directional_finding":"Clamp insulin sensitivity and post-meal forearm clearance were higher following the tested resistant-starch supplementation.","assessment":{"study":"Human resistant-starch supplementation with clamp and tissue metabolic endpoints, contrasted with a later type-2-diabetes trial.","population":"Ten healthy participants in the positive study; 17 adults with type 2 diabetes in the later crossover.","result":"Clamp insulin sensitivity and post-meal forearm clearance were higher following the tested resistant-starch supplementation.","effect_magnitude":"No additional magnitude inferred.","evidence_summary":"Clamp insulin sensitivity and post-meal forearm clearance were higher following the tested resistant-starch supplementation.","limitations":"Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference.","retrieval_scope":"Primary abstract retrieved 26 October 2026; full methods and supplements not extracted."},"canonical_reference":{"author_year":"Robertson et al. (2005)","number":10,"anchor":"#pm-ref-10"}},{"label":"Bodinham et al. (2014)","citation_key":"bodinham_resistant_starch_diabetes_2014","href":"/docs/papers/BRAIN-Diet-References#bodinham_resistant_starch_diabetes_2014","data_level":"Human Study","evidence_source":"bounded-external-search","exposure_context":"Defined resistant-starch ingredient supplementation, not interchangeable whole-food meals.","directional_finding":"The tested 40 g/day resistant-starch intervention did not establish improved clamp insulin sensitivity in type 2 diabetes.","assessment":{"study":"Human resistant-starch supplementation with clamp and tissue metabolic endpoints, contrasted with a later type-2-diabetes trial.","population":"Ten healthy participants in the positive study; 17 adults with type 2 diabetes in the later crossover.","result":"The tested 40 g/day resistant-starch intervention did not establish improved clamp insulin sensitivity in type 2 diabetes.","effect_magnitude":"No additional magnitude inferred.","evidence_summary":"The tested 40 g/day resistant-starch intervention did not establish improved clamp insulin sensitivity in type 2 diabetes.","limitations":"Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference.","retrieval_scope":"Primary abstract retrieved 26 October 2026; full methods and supplements not extracted."},"canonical_reference":{"author_year":"Bodinham et al. (2014)","number":11,"anchor":"#pm-ref-11"}}],"connected_supportive_evidence":[]}} />
+
 ## 5. BRS Pathways and Connections
 
 ### 5.1 BRS Pathways
@@ -573,3 +675,6 @@ Admit the tested supplement protocol under SOPs; the clamp directly assessed dis
 - <span id="pm-ref-7">[7]</span> [Suárez et al. (1995) — Impaired tyrosine-kinase activity of muscle insulin receptors from hypomagnesaemic rats](/docs/papers/BRAIN-Diet-References#suarez_magnesium_insulin_1995)
 - <span id="pm-ref-8">[8]</span> [Magkos et al. (2016) — Effects of moderate and subsequent progressive weight loss on metabolic function and adipose tissue biology in humans with obesity](/docs/papers/BRAIN-Diet-References#magkos_weight_loss_adipose_2016)
 - <span id="pm-ref-9">[9]</span> [Piatti et al. (2001) — Long-term oral L-arginine administration improves peripheral and hepatic insulin sensitivity in type 2 diabetic patients.](/docs/papers/BRAIN-Diet-References#piatti_oral_arginine_clamp_2001)
+- <span id="pm-ref-10">[10]</span> [Robertson et al. (2005) — Insulin-sensitizing effects of dietary resistant starch and effects on skeletal muscle and adipose tissue metabolism](/docs/papers/BRAIN-Diet-References#robertson_resistant_starch_clamp_2005)
+- <span id="pm-ref-11">[11]</span> [Bodinham et al. (2014) — Efficacy of increased resistant starch consumption in human type 2 diabetes](/docs/papers/BRAIN-Diet-References#bodinham_resistant_starch_diabetes_2014)
+

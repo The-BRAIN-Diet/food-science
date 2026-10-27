@@ -102,10 +102,14 @@ For §1.1.1–1.1.3 and their §3.1.1–3.1.3 aliases, use the original shared p
 
 Keep composition-source links, analytical narratives and nested provenance controls off these compact food lines; retain authoritative evidence on the linked food pages and in existing audit records. Do not erase source data or suppress provisional information icons and precise coverage warnings. Do not infer quantities, preparation states or intervention efficacy to simplify presentation.
 
+Food-specific mapping warnings belong inside the corresponding Plant-based or Animal-based food disclosure, under **Food-source mapping notes**, with the information icon beside the exact provisional food row. They must not be inserted into the substance's reader description, Biological role or other six-atom fields. Preserve input-level identity/conversion warnings separately. Use the existing generated food-target records; relocation does not resolve a mapping, change an admission or discard its provenance.
+
 
 ### Approved food-column implementation — 26 October 2026
 
 Canonical order: **category → food → quantity/unit/basis → form**. Use the shared `renderCompactFoodSourceItem`, `renderFoodSourceSummary` and `createFoodSourceDetails` in `src/lib/pmInputFoodDisclosure.ts` for both dietary targets and cofactor/KC disclosures. The first food stays visible in the summary; subsequent observations use the identical column widths. Preserve provisional icons and coverage warnings. Missing form displays exactly **form not known**; this is a presentation fallback, not a recorded preparation or scientific conclusion.
+
+**Unknown food values — owner wording correction, 27 October 2026:** In food-mapping amount columns and dropdown rows, render exactly **value not known** when a verified quantity is unavailable, replacing the former **quantity not established** display. Apply the same fallback in generated mapping displays and mapping review tables. Do not invent zero, attach a per-100 g basis to an unmeasured value, or change the underlying qualitative presence status, measurement, verification decision or source evidence. Numeric values, units, measured bases and the agreed column alignment remain unchanged.
 
 The canonical stylesheet (`src/css/custom.css`) uses:
 

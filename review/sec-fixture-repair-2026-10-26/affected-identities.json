@@ -1,0 +1,278 @@
+{
+  "fixtures": [
+    {
+      "id": "gaba-sf1-assessment-v1",
+      "pmId": "BRS1-FM4-PM9",
+      "findingId": "PM9-F1",
+      "version": 6,
+      "sha256": "e2ad1e2368105cb4cb473a8e013211c4be6473ee635c438f55c55056ae193dc6"
+    },
+    {
+      "id": "same-pm3-f5-assessment-v1",
+      "pmId": "BRS2-FM1-PM3",
+      "findingId": "PM3-F5",
+      "version": 1,
+      "sha256": "3e88241d43e05f55bc61fc3ca071b710050222809dbfc7631474917d4b7b0b46",
+      "factorStates": {
+        "D": "established",
+        "B": "established",
+        "P": "established",
+        "R": "established"
+      }
+    }
+  ],
+  "canonical": [
+    {
+      "pm": "BRS1-FM4-PM9",
+      "findings": [
+        {
+          "id": "PM9-F1",
+          "pin": {
+            "id": "gaba-sf1-assessment-v1",
+            "version": 7,
+            "sha256": "b3cd625d9d73c60792a6f45c1f4972fc258709512e4afdec97e2eb3eafaf0191"
+          }
+        },
+        {
+          "id": "PM9-F2",
+          "pin": {
+            "id": "gaba-sf2-assessment-v1",
+            "version": 4,
+            "sha256": "47590e9dd53a15fc7597cd971f66a53ead791beb30143bf51a1b76e4da49f1a7"
+          }
+        },
+        {
+          "id": "PM9-IC1",
+          "pin": {
+            "id": "brs1-fm4-pm9-pm9-ic1-v1-assessment",
+            "version": 2,
+            "sha256": "b725fa564956c550375d5dc95f33d64dc3fb69889c349e4a28080773b0a89470"
+          }
+        },
+        {
+          "id": "PM9-F3",
+          "pin": {
+            "id": "brs1-fm4-pm9-pm9-f3-v1-assessment",
+            "version": 2,
+            "sha256": "82c88cebf50c11afb140271af2ee778b3faba193d15ac27035c9174663f92e58"
+          }
+        },
+        {
+          "id": "PM9-F4",
+          "pin": {
+            "id": "brs1-fm4-pm9-pm9-f4-v1-assessment",
+            "version": 2,
+            "sha256": "61a24d8e3196a0ef7446537a591972eac862310e2be8993addf53bfbc6b6d5b6"
+          }
+        },
+        {
+          "id": "PM9-F5",
+          "pin": {
+            "id": "brs1-fm4-pm9-pm9-f5-v1-assessment",
+            "version": 2,
+            "sha256": "c59fb5ec070b3baf2c2a3225ca09a479f88be83a08f24474588532b08e4e4ea8"
+          }
+        },
+        {
+          "id": "PM9-F6",
+          "pin": {
+            "id": "brs1-fm4-pm9-pm9-f6-v1-assessment",
+            "version": 2,
+            "sha256": "10b2f1574cc5215f8c58ee3b8ccf7ba9f4f15aa4e0a2aea965709111a1b50915"
+          }
+        },
+        {
+          "id": "PM9-F7",
+          "pin": {
+            "id": "brs1-fm4-pm9-pm9-f7-v1-assessment",
+            "version": 2,
+            "sha256": "5346633426e11860f6c2bad8179f1cfb8e74e683b10efc1c7783b40691e38d99"
+          }
+        }
+      ]
+    },
+    {
+      "pm": "BRS6-FM1-PM2",
+      "findings": [
+        {
+          "id": "PM2-F1",
+          "pin": {
+            "id": "glycaemic-sf1-assessment-v1",
+            "version": 4,
+            "sha256": "1e45ba38034ed8de2ae74ee6375bd1a8b8b2622eb57d5009c4335e66973c7eaf"
+          }
+        },
+        {
+          "id": "PM2-F2",
+          "pin": {
+            "id": "glycaemic-sf2-assessment-v1",
+            "version": 2,
+            "sha256": "e4baf9a61bd4845de01a1d87cf6096fb0d38ebe29fa519deed3dfe47c0e290a7"
+          }
+        },
+        {
+          "id": "PM2-F3",
+          "pin": {
+            "id": "glycaemic-sf3-assessment-v1",
+            "version": 3,
+            "sha256": "3f72183515d6bffd7f89fbe3a66235efa0e3aa4dae8240edaea46753da0c6529"
+          }
+        },
+        {
+          "id": "PM2-F4",
+          "pin": {
+            "id": "glycaemic-sf4-assessment-v1",
+            "version": 2,
+            "sha256": "7d28c05ba81b67ba4afb0a730880716979504adb2b08d90174740d1e6f1e2826"
+          }
+        },
+        {
+          "id": "PM2-F5",
+          "pin": {
+            "id": "glycaemic-f5-assessment-v1",
+            "version": 2,
+            "sha256": "85c5ad88e1ad23cade683e5a6b84344dd53ad252166c3732d11653eb8be8b55e"
+          }
+        },
+        {
+          "id": "PM2-F6",
+          "pin": {
+            "id": "glycaemic-f6-assessment-v1",
+            "version": 2,
+            "sha256": "f95f7ee108ff46f2de800f360496ecabd4b90403fae2c006be8a1f88249ba65a"
+          }
+        },
+        {
+          "id": "PM2-F7",
+          "pin": {
+            "id": "glycaemic-f7-assessment-v1",
+            "version": 2,
+            "sha256": "5a9e2332642abccb1d7cc7fb4f8ba330d17f0593dcafed4ac3a28c063f58d0a3"
+          }
+        },
+        {
+          "id": "PM2-F8",
+          "pin": {
+            "id": "glycaemic-f8-assessment-v1",
+            "version": 2,
+            "sha256": "d6ff93c65397da5a2622e9f88bdb6c632f0b895674cc0162fd4a606cd391ae33"
+          }
+        }
+      ]
+    },
+    {
+      "pm": "BRS2-FM1-PM3",
+      "findings": [
+        {
+          "id": "PM3-F1",
+          "pin": {
+            "id": "same-pm3-f1-assessment-v1",
+            "version": 2,
+            "sha256": "2ab92745040cb0d76a604a306ddaf2e56c2d6352500bd3bee6224956b784df8f"
+          }
+        },
+        {
+          "id": "PM3-IC1",
+          "pin": {
+            "id": "same-pm3-ic1-assessment-v1",
+            "version": 2,
+            "sha256": "c31727fa9ce68efab916f087959d81f1fe7f5bcf338978ccda64877c9e139e17"
+          }
+        },
+        {
+          "id": "PM3-F2",
+          "pin": {
+            "id": "same-pm3-f2-assessment-v1",
+            "version": 2,
+            "sha256": "91e33d74eb79dc96461e0fed3fadab44accba07e33dfa4d1e8cc327f277ed81f"
+          }
+        },
+        {
+          "id": "PM3-F3",
+          "pin": {
+            "id": "same-pm3-f3-assessment-v1",
+            "version": 2,
+            "sha256": "58f64545956a42d98b70da86c00386446f3d4e54926d15713a24cee73c3a3b27"
+          }
+        },
+        {
+          "id": "PM3-F4",
+          "pin": {
+            "id": "same-pm3-f4-assessment-v1",
+            "version": 2,
+            "sha256": "8a51c38cc9237b29c033c9ac50af12a385255ca2c1d961f4bb20e1647a3411e5"
+          }
+        },
+        {
+          "id": "PM3-F5",
+          "pin": {
+            "id": "same-pm3-f5-assessment-v1",
+            "version": 2,
+            "sha256": "af5d32dc3f04f6efe0f34407cd49fab45f1134647a5521149335a15ea829bb55"
+          }
+        }
+      ]
+    }
+  ],
+  "history": {
+    "version": 1,
+    "date": "2026-10-18",
+    "approval": "User: Scientific Approval: Three-PM V1 Integration",
+    "baseline": "98f7294088f1475c101cb0ff01ae11dc74d4af51",
+    "archives": [
+      {
+        "pmId": "BRS1-FM4-PM9",
+        "path": "system/sec-assessments/history/gaba-before-v1.mdx",
+        "sha256": "e11e2ddbfb1c45702232b869e31cbb847f759e95504bcb734fcdc21fea141dd4"
+      },
+      {
+        "pmId": "BRS6-FM1-PM2",
+        "path": "system/sec-assessments/history/glycaemic-variability-before-v1.mdx",
+        "sha256": "b04167e2a66985b0ebe05472a0d06879847cdc98749054c6e21b96dd7cb71bd4"
+      },
+      {
+        "pmId": "BRS2-FM1-PM3",
+        "path": "system/sec-assessments/history/same-synthesis-before-v1.mdx",
+        "sha256": "f0705b91335f890b46f1c9794e39360a35c2bcaee4fc3b6a96a58ddcbb33bc28"
+      }
+    ],
+    "registrations": [
+      {
+        "pmId": "BRS6-FM1-PM2",
+        "atomId": "PM2-SOP-2",
+        "foodStrategyId": "food-strategy-485ec8fa28a2",
+        "sourceFinding": "PM2-F5",
+        "input": "Less-processed whole-grain food package (two-week trial)"
+      },
+      {
+        "pmId": "BRS6-FM1-PM2",
+        "atomId": "PM2-SOP-3",
+        "foodStrategyId": "food-strategy-e67a5bf54b65",
+        "sourceFinding": "PM2-F6",
+        "input": "Early eating with front-loaded calories (six-day trial)"
+      },
+      {
+        "pmId": "BRS6-FM1-PM2",
+        "atomId": "PM2-LIFE-2",
+        "foodStrategyId": null,
+        "sourceFinding": "PM2-F7",
+        "input": "Supervised interval walking (two-week trial)"
+      },
+      {
+        "pmId": "BRS6-FM1-PM2",
+        "atomId": "PM2-LIFE-3",
+        "foodStrategyId": null,
+        "sourceFinding": "PM2-F8",
+        "input": "Four brief vigorous activity bouts daily (48-hour trial)"
+      }
+    ],
+    "retiredRelationships": [
+      {
+        "id": "BRS6-FM1-PM2::PM2-SOP-1",
+        "food_strategy_id": "food-strategy-053016fdaaca",
+        "preserved": "BRS6-FM1-PM1::PM1-SOP-2",
+        "reason": "Retained acute scientific evidence, not selected leading PM2 SOP"
+      }
+    ]
+  }
+}

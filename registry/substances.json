@@ -1372,5 +1372,145 @@
       ],
       "qualification": "L/(R) stereoisomer; not D-carnitine, acetyl-L-carnitine or L-carnitine-L-tartrate formulation identity."
     }
+  },
+  "flavin-adenine-dinucleotide": {
+    "path": "nutrients/micronutrients/vitamins/flavin-adenine-dinucleotide.md",
+    "title": "Flavin adenine dinucleotide (FAD)",
+    "aliases": [
+      "FAD",
+      "Flavin adenine dinucleotide"
+    ],
+    "tags": [
+      "cofactor"
+    ],
+    "inchikey": "",
+    "list_image": ""
+  },
+  "nicotinamide-riboside": {
+    "path": "nutrients/micronutrients/vitamins/nicotinamide-riboside.md",
+    "title": "Nicotinamide riboside",
+    "aliases": [
+      "NR",
+      "beta-nicotinamide riboside"
+    ],
+    "tags": [
+      "cofactor"
+    ],
+    "inchikey": "JLEBZPBDRKPWTD-TURQNECASA-O",
+    "list_image": "/img/inchi/JLEBZPBDRKPWTD-TURQNECASA-O.png"
+  },
+  "nicotinamide-mononucleotide": {
+    "path": "nutrients/micronutrients/vitamins/nicotinamide-mononucleotide.md",
+    "title": "Nicotinamide mononucleotide",
+    "aliases": [
+      "NMN",
+      "beta-nicotinamide mononucleotide"
+    ],
+    "tags": [
+      "cofactor"
+    ],
+    "inchikey": "DAYLJWODMCOQEW-TURQNECASA-M",
+    "list_image": "/img/inchi/DAYLJWODMCOQEW-TURQNECASA-M.png"
+  },
+  "nad-plus": {
+    "path": "nutrients/micronutrients/vitamins/nad-plus.md",
+    "title": "NAD+ (oxidised nicotinamide adenine dinucleotide)",
+    "aliases": [
+      "NAD+",
+      "NAD plus",
+      "Oxidised nicotinamide adenine dinucleotide"
+    ],
+    "tags": [
+      "cofactor"
+    ],
+    "inchikey": "BAWFJGJZGIEFAR-NNYOXOHSSA-M",
+    "list_image": "/img/inchi/BAWFJGJZGIEFAR-NNYOXOHSSA-M.png"
+  },
+  "indispensable-amino-acids": {
+    "path": "nutrients/macronutrients/amino-acids/indispensable-amino-acids.md",
+    "title": "Indispensable amino acids",
+    "aliases": [
+      "Indispensable amino-acid supply",
+      "Essential amino acids",
+      "Indispensable amino-acid pool"
+    ],
+    "tags": [
+      "nutrient",
+      "amino-acid-class"
+    ],
+    "inchikey": "",
+    "list_image": "/img/icons/nutrient.svg",
+    "constituent_ids": [
+      "histidine",
+      "isoleucine",
+      "leucine",
+      "lysine",
+      "methionine",
+      "phenylalanine",
+      "threonine",
+      "tryptophan",
+      "valine"
+    ]
+  },
+  "octanoate": {
+    "path": "endogenous-metabolites/octanoate.md",
+    "title": "Octanoate",
+    "aliases": [],
+    "tags": [
+      "biochemical-intermediate"
+    ],
+    "inchikey": "WWZKQHOCKIZLMA-UHFFFAOYSA-M",
+    "list_image": "/img/inchi/WWZKQHOCKIZLMA-UHFFFAOYSA-M.png"
+  },
+  "acetyl-coa": {
+    "path": "endogenous-metabolites/acetyl-coa.md",
+    "title": "Acetyl-CoA",
+    "aliases": [
+      "Acetyl coenzyme A"
+    ],
+    "tags": [
+      "biochemical-intermediate"
+    ],
+    "inchikey": "ZSLZBFCDCINBPY-ZSJPKINUSA-N",
+    "list_image": "/img/inchi/ZSLZBFCDCINBPY-ZSJPKINUSA-N.png"
+  },
+  "acetoacetate": {
+    "path": "endogenous-metabolites/acetoacetate.md",
+    "title": "Acetoacetate",
+    "aliases": [],
+    "tags": [
+      "biochemical-intermediate"
+    ],
+    "inchikey": "WDJHALXBUFZDSR-UHFFFAOYSA-M",
+    "list_image": "/img/inchi/WDJHALXBUFZDSR-UHFFFAOYSA-M.png"
+  },
+  "guanidinoacetate": {
+    "path": "endogenous-metabolites/guanidinoacetate.md",
+    "title": "Guanidinoacetate",
+    "aliases": [
+      "Guanidinoacetic acid",
+      "GAA"
+    ],
+    "inchikey": "BPMFZUMJYQTVII-UHFFFAOYSA-N",
+    "list_image": "/img/inchi/BPMFZUMJYQTVII-UHFFFAOYSA-N.png",
+    "tags": [
+      "biochemical-intermediate"
+    ]
+  },
+  "s-adenosylmethionine": {
+    "path": "endogenous-metabolites/s-adenosylmethionine.md",
+    "title": "S-adenosylmethionine (SAM)",
+    "aliases": [
+      "SAM",
+      "SAMe",
+      "S-adenosylmethionine (SAMe)",
+      "Methionine-derived S-adenosylmethionine (SAM)"
+    ],
+    "tags": [
+      "Substance",
+      "S-adenosylmethionine"
+    ],
+    "inchikey": "MEFKEPWMEQBLKI-AIRLBKTGSA-N",
+    "list_image": "/img/inchi/MEFKEPWMEQBLKI-AIRLBKTGSA-N.png"
   }
 }

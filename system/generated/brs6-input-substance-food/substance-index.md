@@ -5,6 +5,8 @@ Generated from the same authoritative records as the PM disclosures. The preview
 | Section ID | Substance | Quantified food preview | Other supported food sources |
 | --- | --- | --- | --- |
 | [BRS6-FM1-PM3](http://localhost:3000/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Magnesium](http://localhost:3000/docs/substances/nutrients/micronutrients/minerals/macro/magnesium) — magnesium | [Almonds](http://localhost:3000/docs/foods/almonds) — 270 mg (per 100 g edible portion) · preparation unknown<br/>[Amaranth](http://localhost:3000/docs/foods/amaranth) — 248 mg (per 100 g edible portion) · uncooked<br/>[Anchovies](http://localhost:3000/docs/foods/anchovies) — 69 mg (per 100 g edible portion) · oil<br/>[Apples](http://localhost:3000/docs/foods/apples) — 5 mg (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 14 mg (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 14 mg (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 29 mg (per 100 g edible portion) · raw<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 27 mg (per 100 g edible portion) · raw<br/>[Barley](http://localhost:3000/docs/foods/barley) — 133 mg (per 100 g edible portion) · preparation unknown<br/>[Beef](http://localhost:3000/docs/foods/beef) — 18 mg (per 100 g edible portion) · raw | [Broccoli Sprouts](http://localhost:3000/docs/foods/broccoli-sprouts) — Quantity not established · raw<br/>[Nori](http://localhost:3000/docs/foods/nori) — Quantity not established · dried<br/>[Seaweed](http://localhost:3000/docs/foods/seaweed) — Quantity not established · preparation unknown<br/>[Sourdough Bread](http://localhost:3000/docs/foods/sourdough-bread) — Quantity not established · preparation unknown<br/>[Whole Grains](http://localhost:3000/docs/foods/whole-grains) — Quantity not established · preparation unknown |
+| [BRS6-FM1-PM3](http://localhost:3000/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Resistant starch](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch) — resistant-starch | No comparable quantified food sources | [Bananas](http://localhost:3000/docs/foods/bananas) — Quantity not established · Green/unripe; cultivar and ripening state matter<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — Quantity not established · raw<br/>[Black Beans](http://localhost:3000/docs/foods/black-beans) — Quantity not established · Cooked; cooking duration and cooling protocol remain study-specific<br/>[Chickpeas](http://localhost:3000/docs/foods/chickpeas) — Quantity not established · Cooked; cooking duration and cooling protocol remain study-specific<br/>[Potatoes](http://localhost:3000/docs/foods/potatoes) — Quantity not established · Baked or boiled, then chilled to 4°C; distinguish reheated material |
+| [BRS6-FM4-PM8](http://localhost:3000/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [DHA (Docosahexaenoic Acid)](http://localhost:3000/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/dha-docosahexaenoic-acid) — dha-docosahexaenoic-acid | [Anchovies](http://localhost:3000/docs/foods/anchovies) — 1292 mg (per 100 g edible portion) · oil<br/>[Beef](http://localhost:3000/docs/foods/beef) — 1 mg (per 100 g edible portion) · raw<br/>[Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) — 1 mg (per 100 g edible portion) · preparation unknown<br/>[Chicken](http://localhost:3000/docs/foods/chicken) — 30 mg (per 100 g edible portion) · raw<br/>[Clams](http://localhost:3000/docs/foods/clams) — 64 mg (per 100 g edible portion) · raw<br/>[Cod](http://localhost:3000/docs/foods/cod) — 120 mg (per 100 g edible portion) · raw<br/>[Egg Yolks](http://localhost:3000/docs/foods/egg-yolks) — 114 mg (per 100 g edible portion) · raw<br/>[Eggs](http://localhost:3000/docs/foods/eggs) — 58 mg (per 100 g edible portion) · raw<br/>[Greek Yogurt](http://localhost:3000/docs/foods/greek-yogurt) — 4 mg (per 100 g edible portion) · preparation unknown<br/>[Herring](http://localhost:3000/docs/foods/herring) — 862 mg (per 100 g edible portion) · raw | [Algal Oil](http://localhost:3000/docs/foods/algal-oil) — Quantity not established · preparation unknown<br/>[Cockles](http://localhost:3000/docs/foods/cockles) — Quantity not established · raw<br/>[Lumpfish Roe](http://localhost:3000/docs/foods/lumpfish-roe) — Quantity not established · preparation unknown<br/>[Trout Roe](http://localhost:3000/docs/foods/trout-roe) — Quantity not established · preparation unknown |
 
 ## Magnesium — magnesium
 
@@ -159,6 +161,59 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Wheat](http://localhost:3000/docs/foods/wheat) | Wheat, hard red winter | 126 mg (per 100 g edible portion) | docs/foods/wheat.md#nutrition_per_100g/magnesium_mg; docs/foods/wheat.md#substance_relationships/Magnesium |
 | [Whey Protein](http://localhost:3000/docs/foods/whey-protein) | Beverages, Protein powder whey based | 195 mg (per 100 g edible portion) | docs/foods/whey-protein.md#nutrition_per_100g/magnesium_mg |
 | [Whole Grains](http://localhost:3000/docs/foods/whole-grains) | whole wheat grain | Quantity not established | docs/foods/whole-grains.md#substance_relationships/Magnesium |
+
+</details>
+
+## Resistant starch — resistant-starch
+
+Food sources identified; quantities not established.
+
+<details>
+<summary>All mapped food sources (5)</summary>
+
+| Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
+| --- | --- | --- | --- |
+| [Bananas](http://localhost:3000/docs/foods/bananas) | Cavendish and plantain bananas — Green/unripe; cultivar and ripening state matter | Quantity not established | docs/foods/bananas.md#substance_relationships/Resistant%20starch |
+| [Bananas](http://localhost:3000/docs/foods/bananas) | Bananas, raw — raw | Quantity not established | docs/foods/bananas.md#nutrition_supplementary_sources/resistant_starch_qual |
+| [Black Beans](http://localhost:3000/docs/foods/black-beans) | Cooked black beans — Cooked; cooking duration and cooling protocol remain study-specific | Quantity not established | docs/foods/black-beans.md#substance_relationships/Resistant%20starch |
+| [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Cooked chickpeas — Cooked; cooking duration and cooling protocol remain study-specific | Quantity not established | docs/foods/chickpeas.md#substance_relationships/Resistant%20starch |
+| [Potatoes](http://localhost:3000/docs/foods/potatoes) | Yukon Gold, Dark Red Norland and Russet Burbank potatoes — Baked or boiled, then chilled to 4°C; distinguish reheated material | Quantity not established | docs/foods/potatoes.md#substance_relationships/Resistant%20starch |
+
+</details>
+
+## DHA (Docosahexaenoic Acid) — dha-docosahexaenoic-acid
+
+Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
+
+<details>
+<summary>All mapped food sources (24)</summary>
+
+| Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
+| --- | --- | --- | --- |
+| [Algal Oil](http://localhost:3000/docs/foods/algal-oil) | Authorised algal oils; formulation-specific | Quantity not established | docs/foods/algal-oil.md#substance_relationships/DHA |
+| [Anchovies](http://localhost:3000/docs/foods/anchovies) | Fish, anchovy, european, canned in oil, drained solids — oil | 1292 mg (per 100 g edible portion) | docs/foods/anchovies.md#nutrition_per_100g/dha_mg; docs/foods/anchovies.md#substance_relationships/DHA |
+| [Beef](http://localhost:3000/docs/foods/beef) | Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program) — raw | 1 mg (per 100 g edible portion) | docs/foods/beef.md#nutrition_per_100g/dha_mg |
+| [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 1 mg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/dha_mg |
+| [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 30 mg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/dha_mg |
+| [Clams](http://localhost:3000/docs/foods/clams) | Mollusks, clam, mixed species, raw — raw | 64 mg (per 100 g edible portion) | docs/foods/clams.md#nutrition_per_100g/dha_mg |
+| [Cockles](http://localhost:3000/docs/foods/cockles) | edible Cerastoderma edule tissue — raw | Quantity not established | docs/foods/cockles.md#substance_relationships/DHA; docs/foods/cockles.md#nutrition_supplementary_sources/dha_qual |
+| [Cod](http://localhost:3000/docs/foods/cod) | Fish, cod, Atlantic, raw — raw | 120 mg (per 100 g edible portion) | docs/foods/cod.md#nutrition_per_100g/dha_mg |
+| [Egg Yolks](http://localhost:3000/docs/foods/egg-yolks) | Egg, yolk, raw, fresh — raw | 114 mg (per 100 g edible portion) | docs/foods/egg-yolks.md#nutrition_per_100g/dha_mg |
+| [Eggs](http://localhost:3000/docs/foods/eggs) | Egg, whole, raw, fresh — raw | 58 mg (per 100 g edible portion) | docs/foods/eggs.md#nutrition_per_100g/dha_mg |
+| [Greek Yogurt](http://localhost:3000/docs/foods/greek-yogurt) | Yogurt, Greek, plain, whole milk | 4 mg (per 100 g edible portion) | docs/foods/greek-yogurt.md#nutrition_per_100g/dha_mg |
+| [Herring](http://localhost:3000/docs/foods/herring) | Fish, herring, Atlantic, raw — raw | 862 mg (per 100 g edible portion) | docs/foods/herring.md#nutrition_per_100g/dha_mg; docs/foods/herring.md#substance_relationships/DHA |
+| [Lumpfish Roe](http://localhost:3000/docs/foods/lumpfish-roe) | commercial salmon, trout or lumpfish roe | Quantity not established | docs/foods/lumpfish-roe.md#substance_relationships/DHA; docs/foods/lumpfish-roe.md#nutrition_supplementary_sources/dha_qual |
+| [Mackerel](http://localhost:3000/docs/foods/mackerel) | Fish, mackerel, Atlantic, raw — raw | 1401 mg (per 100 g edible portion) | docs/foods/mackerel.md#nutrition_per_100g/dha_mg; docs/foods/mackerel.md#substance_relationships/DHA |
+| [Mussels](http://localhost:3000/docs/foods/mussels) | Mollusks, mussel, blue, raw — raw | 253 mg (per 100 g edible portion) | docs/foods/mussels.md#nutrition_per_100g/dha_mg; docs/foods/mussels.md#substance_relationships/DHA |
+| [Oysters](http://localhost:3000/docs/foods/oysters) | Mollusks, oyster, eastern, wild, raw — raw | 136 mg (per 100 g edible portion); 500 mg (basis unknown) | docs/foods/oysters.md#nutrition_per_100g/dha_mg; docs/foods/oysters.md#nutrition_supplementary_sources/dha_mg; docs/foods/oysters.md#substance_relationships/DHA; docs/foods/oysters.md#nutrition_supplementary_sources/dha_mg |
+| [Salmon Roe](http://localhost:3000/docs/foods/salmon-roe) | chum salmon (Oncorhynchus keta), salted roe (ikura) | 2000 mg (per 100 g edible portion) | docs/foods/salmon-roe.md#nutrition_per_100g/dha_mg; docs/foods/salmon-roe.md#substance_relationships/DHA |
+| [Salmon](http://localhost:3000/docs/foods/salmon) | Fish, salmon, Atlantic, farmed, raw — raw | 1104 mg (per 100 g edible portion) | docs/foods/salmon.md#nutrition_per_100g/dha_mg; docs/foods/salmon.md#substance_relationships/DHA |
+| [Sardines](http://localhost:3000/docs/foods/sardines) | Fish, sardine, Atlantic, canned in oil, drained solids with bone — oil | 509 mg (per 100 g edible portion) | docs/foods/sardines.md#nutrition_per_100g/dha_mg; docs/foods/sardines.md#substance_relationships/DHA |
+| [Scallops](http://localhost:3000/docs/foods/scallops) | Mollusks, scallop, mixed species, raw — raw | 61 mg (per 100 g edible portion) | docs/foods/scallops.md#nutrition_per_100g/dha_mg |
+| [Shrimp](http://localhost:3000/docs/foods/shrimp) | Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture) — raw | 70 mg (per 100 g edible portion) | docs/foods/shrimp.md#nutrition_per_100g/dha_mg |
+| [Trout Roe](http://localhost:3000/docs/foods/trout-roe) | commercial salmon, trout or lumpfish roe | Quantity not established | docs/foods/trout-roe.md#substance_relationships/DHA |
+| [Tuna](http://localhost:3000/docs/foods/tuna) | Fish, tuna, fresh, bluefin, raw — raw | 890 mg (per 100 g edible portion) | docs/foods/tuna.md#nutrition_per_100g/dha_mg; docs/foods/tuna.md#substance_relationships/DHA |
+| [Turkey](http://localhost:3000/docs/foods/turkey) | Turkey, whole, meat only, raw — raw | 2 mg (per 100 g edible portion) | docs/foods/turkey.md#nutrition_per_100g/dha_mg |
 
 </details>
 
