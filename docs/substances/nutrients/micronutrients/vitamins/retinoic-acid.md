@@ -21,9 +21,11 @@ Beta-carotene can be cleaved to retinal before that oxidation [2]. The acid then
 
 ## Dietary Origin
 
-Foods are linked here as precursors, not as foods that contain retinoic acid. The records come from verified vitamin A composition and the registered conversion to retinoic acid. A figure, when the food page has one, is the vitamin A record.
+The foods below are linked as precursors, not as foods that contain retinoic acid. Animal foods in this set are dominated by preformed vitamin A. Leafy greens, carrots and sweet potatoes are dominated by beta-carotene. Figures are the per-100 g panels already on those food pages. A figure is vitamin A, not a retinoic acid concentration.
 
-<DietaryOriginProjection target="Retinoic acid" />
+Preformed vitamin A: beef liver 4,968 µg RAE; ghee (anhydrous butter oil) 840 µg RAE; unsalted butter 684 µg RAE; egg yolk 381 µg RAE. Grass-fed butter uses that same unsalted-butter panel, so it is not a separate vitamin A assay. Beta-carotene: sweet potato 8,509 µg and 709 µg RAE; carrots 8,285 µg and 835 µg RAE; spinach 5,626 µg; romaine lettuce 5,226 µg; Swiss chard 3,647 µg; kale 2,873 µg.
+
+Verified vitamin A records are also listed under Foods through the registered precursor relationship. A trace of vitamin A is not a retinoic acid amount.
 
 ## Research Spotlights & Evidence Checks
 

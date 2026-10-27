@@ -6,5 +6,7 @@ export default function DietaryOriginProjection({target,pmId}:{target:string;pmI
  const data=usePluginData('ontology-projection') as any;
  const normalized=String(target||'').toLowerCase();
  const pathway=data?.dietaryPathways?.paths?.find((p:any)=>p.target_id.toLowerCase()===normalized||p.target_title.toLowerCase()===normalized);
- return <DietaryPathways targetId={pathway?.target_id||target} pmId={pmId}/>;
+ // A missing pathway is not a substitute for a related-substance account. Leave that page's own dietary-origin text in place.
+ if(!pathway) return null;
+ return <DietaryPathways targetId={pathway.target_id} pmId={pmId}/>;
 }
