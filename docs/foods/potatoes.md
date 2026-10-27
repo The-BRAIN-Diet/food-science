@@ -156,4 +156,4 @@ In practical terms, potatoes can serve both glycaemic stability and polyphenol d
 
 [2] Resistant starch fermentation produces short-chain fatty acids relevant to gut–brain signalling. Fan et al. 2019. [SCFA producing bacteria shape the subtype of ADHD in children](/docs/papers/BRAIN-Diet-References#fan_scfa_2019)
 
-[3] <span id="food-source-3" />Raatz et al. (2016). [Resistant starch analysis of commonly consumed potatoes: Content varies by cooking method and service temperature but not by variety](/docs/papers/BRAIN-Diet-References#raatz_potato_resistant_starch_2016). Moisture-corrected resistant starch was 2.2–5.4 g per 100 g across the baked and boiled, hot, chilled, and reheated potatoes tested.
+[3] <span id="food-source-3" />Raatz et al. (2016). [Resistant starch analysis of commonly consumed potatoes: Content varies by cooking method and service temperature but not by variety](https://doi.org/10.1016/j.foodchem.2016.03.120). Moisture-corrected resistant starch was 2.2–5.4 g per 100 g across the baked and boiled, hot, chilled, and reheated potatoes tested.

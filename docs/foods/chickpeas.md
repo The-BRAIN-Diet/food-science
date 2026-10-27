@@ -268,4 +268,4 @@ Chickpeas are rich in lysine but relatively low in sulfur-containing amino acids
 
 ## References
 
-[1] <span id="food-source-1" />Fabbri, Schacht and Crosby (2016). [Evaluation of resistant starch content of cooked black beans, pinto beans, and chickpeas](/docs/papers/BRAIN-Diet-References#fabbri_legume_resistant_starch_2016). Cooked chickpeas stayed within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas were 4.32 g per 100 g of the dried sample.
+[1] <span id="food-source-1" />Fabbri, Schacht and Crosby (2016). [Evaluation of resistant starch content of cooked black beans, pinto beans, and chickpeas](https://doi.org/10.1016/j.nfs.2016.02.002). Cooked chickpeas stayed within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas were 4.32 g per 100 g of the dried sample.

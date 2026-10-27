@@ -257,4 +257,4 @@ Black Beans are rich in lysine but relatively low in sulfur-containing amino aci
 
 [3] Hallberg et al. (1989). [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989). Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food.
 
-[4] <span id="food-source-4" />Fabbri, Schacht and Crosby (2016). [Evaluation of resistant starch content of cooked black beans, pinto beans, and chickpeas](/docs/papers/BRAIN-Diet-References#fabbri_legume_resistant_starch_2016). Cooked black beans contained about 3–5 g resistant starch per 100 g dry weight. Raw beans in the same assay were about 31 g per 100 g dry weight.
+[4] <span id="food-source-4" />Fabbri, Schacht and Crosby (2016). [Evaluation of resistant starch content of cooked black beans, pinto beans, and chickpeas](https://doi.org/10.1016/j.nfs.2016.02.002). Cooked black beans contained about 3–5 g resistant starch per 100 g dry weight. Raw beans in the same assay were about 31 g per 100 g dry weight.
