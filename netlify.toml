@@ -8,3 +8,5 @@
   SEC_BASE_REF = "ebbc10ed11484192c972952d8c47645bd3c5bf4e"
   # Cap JavaScript minifier workers without disabling minification.
   TERSER_PARALLEL = "1"
+  # Match the validated local production build; avoid filesystem cache retention/serialization.
+  DOCUSAURUS_NO_PERSISTENT_CACHE = "1"

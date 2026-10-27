@@ -436,6 +436,7 @@ const config: Config = {
   ],
   "plugins": [
     localInternalDocsPlugin,
+    './src/plugin/build-memory/index.cjs',
     './src/plugin/category-listing',
     './src/plugin/input-substance-food',
     './src/plugin/ontology-projection',
