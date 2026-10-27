@@ -1,3 +1,35 @@
+import vm from 'node:vm';
+import ts from 'typescript';
+import React from 'react';
+import {renderToStaticMarkup} from 'react-dom/server';
+import * as auditModule from '../src/components/SecCalibrationPreview/assessmentAudit.mjs';
+import * as presentationModule from '../src/components/SecCalibrationPreview/auditPresentation.mjs';
+import * as displayModule from '../src/components/EvidenceConfidenceIndicator/secDisplay.mjs';
+import clsx from 'clsx';
+function loadComponent(file, dependencies) {
+  const module={exports:{}};
+  const code=ts.transpileModule(fs.readFileSync(file,'utf8'),{compilerOptions:{jsx:ts.JsxEmit.React,module:ts.ModuleKind.CommonJS,esModuleInterop:true}}).outputText;
+  vm.runInNewContext(code,{module,exports:module.exports,require:id=>{
+    if(id==='react')return React;
+    if(id.endsWith('.module.css'))return {};
+    if(Object.hasOwn(dependencies,id))return dependencies[id];
+    throw new Error('Unmapped test dependency: '+id);
+  }});
+  return module.exports;
+}
+function renderAudit(records) {
+  const indicator=loadComponent('src/components/EvidenceConfidenceIndicator/index.tsx',{'clsx':clsx,'./secDisplay.mjs':displayModule});
+  const empty=()=>null;
+  const C=loadComponent('src/components/SecCalibrationPreview/EvidenceAudit.tsx',{
+    '../Stage2Review':{Stage2ReviewOutlet:empty},'@docusaurus/router':{useLocation:()=>({pathname:'/docs/system/sec-calibration/gaba'})},
+    '../ReviewCorrections/PageReviewPanel':{__esModule:true,default:empty},'../../data/frameworkQcPublic':{findPublicPageRecord:()=>null,frameworkQcPublic:{}},
+    '../EvidenceConfidenceIndicator':indicator,'../../client/brsFmHubDropdown':{initBrsFmHubDropdowns(){}},
+    './assessmentAudit.mjs':auditModule,'./sameAudit.mjs':{sameAudits:[]},'../../../review/sec-integration/assessments.json':[],
+    './V1Preview':{V1DecisionAudit:empty},'./glycaemicStage2.mjs':{expandedGlycaemicAudits:[]},'./GlycaemicInterventionPreview':{GlycaemicStage2Audit:empty},
+    './auditPresentation.mjs':presentationModule,
+  }).default;
+  return renderToStaticMarkup(React.createElement(C,{panelId:'review-corrections-panel',assessmentRecords:records,assessmentPage:null}));
+}
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -34,7 +66,7 @@ test('versioned audit preserves exact proposition, unresolved factors and source
   assert.match(audit.proposition,/suggests potentially recruitable/);
   assert.equal(audit.recordVersion, 5);
   assert.equal(audit.proposition, sf1Conclusion);
-  assert.match(read('src/components/SecCalibrationPreview/index.tsx'), /finding_summary: sf1Conclusion/);
+  assert.ok(renderAudit([audit]).includes(sf1Conclusion.replaceAll('&','&amp;')), 'exact assessed proposition stays visible in audit');
   assert.deepEqual(audit.factors, {D:1, B:null, P:null, R:null});
   assert.equal(audit.rawScore, null); assert.equal(audit.adjustedScore, null);
   assert.equal(audit.lastEvidenceAssessmentDate, '2026-10-18');
@@ -69,8 +101,10 @@ test('SF1 conditional reassessment preserves withdrawal history and formal unkno
   assert.match(recovered.access,/full text read in full/);
   assert.match(recovered.assessment,/not observed human physiological reserve or dietary response/);
   const component=read('src/components/SecCalibrationPreview/index.tsx');
-  assert.match(component,/score=\{audit.conditional.adjustedScore\}/);
-  assert.match(component,/synthesised_evidence_confidence: `\$\{assessment\?\.readout\} · \$\{assessment\?\.statusLabel\}`/);
+  assert.match(renderAudit([audit]), /4\/8/);
+  assert.match(renderAudit([audit]), /Conditional estimate/);
+  assert.match(component,/Historical GABA template snapshot/);
+  assert.doesNotMatch(component,/score=\{audit\./);
   assert.match(read('src/components/SecCalibrationPreview/EvidenceAudit.tsx'),/assessmentView=assessmentPresentation/);
   assert.match(read('src/components/SecCalibrationPreview/EvidenceAudit.tsx'),/assessmentView\(audit\)/);
 });
@@ -82,12 +116,13 @@ test('three status surfaces and original correction panel remain separate', () =
   assert.match(panel, /evidenceReviewPresentation\(page\)/);
   assert.match(panel, /correctionPresentation\(page\)/);
   const finding = read('src/components/SecCalibrationPreview/index.tsx');
-  assert.match(finding, /\?review=1#gaba-sf1-assessment-v1/);
+  assert.ok(renderAudit([audit]).includes(`id="${audit.id}"`));
   assert.match(panel, /recordAnchor=\(r:any\)=>r.id/);
   assert.match(panel, /id=\{recordAnchor\(audit\)\}/);
   assert.match(panel, /audit.findingId.toLowerCase\(\)/);
   assert.match(finding, /<EvidenceConfidenceIndicator \/>/);
-  assert.doesNotMatch(finding, /score=\{illustrative/);
+  assert.doesNotMatch(panel, /score=\{illustrative/);
+  assert.match(finding, /Illustrative confidence, not a scientific assessment/);
   assert.doesNotMatch(finding, /workingEstimate|Provisional working estimate/);
   assert.match(panel,/className="brs-fm-hub-item brain-sf-disclosure" data-brs-fm-hub/);
   assert.match(panel,/className="brs-fm-hub-summary" aria-expanded="false"/);
@@ -125,16 +160,16 @@ test('SF2 recovery retains species, access and independence limitations', () => 
   assert.equal(f2.synthesised_evidence_confidence,'not-yet-scored');
   assert.equal(f2.evidence_considered.length,3);
   const component=read('src/components/SecCalibrationPreview/index.tsx');
-  assert.match(component,/\?review=1#gaba-sf2-assessment-v1/);
-  assert.match(component,/score=\{sf2Audit.conditional.adjustedScore\}/);
-  assert.match(component,/finding_summary: sf2Audit.proposition/);
-  assert.match(component,/not accepted confidence assessments/);
+  assert.ok(renderAudit([sf2Audit]).includes(`id="${sf2Audit.id}"`));
+  assert.match(renderAudit([sf2Audit]), /5\/8/);
+  assert.ok(renderAudit([sf2Audit]).includes(sf2Audit.proposition.replaceAll('&','&amp;')));
+  assert.match(component,/Illustrative values are not provisional scientific assessments/);
   assert.doesNotMatch(component,/no scientific SEC assessment has been assigned/);
   assert.equal(sf2Audit.recordVersion,2);
   assert.equal(sf2Audit.history.length,2);
   assert.match(sf2Audit.history[1].decision,/No new retrieval or confidence promotion/);
   assert.match(read('src/components/SecCalibrationPreview/EvidenceAudit.tsx'),/Formal raw and adjusted SEC totals remain uncalculated/);
-  const compact=component.slice(component.indexOf('function Compact'),component.indexOf('type PreviewAtom'));
+  const compact=component.slice(component.indexOf('function Compact'),component.indexOf('export function PreviewEnhancements'));
   assert.doesNotMatch(compact,/sf2Audit|score=/);
   assert.match(read('src/components/SecCalibrationPreview/EvidenceAudit.tsx'),/\? glycaemicAudits : \[audit, sf2Audit\]/);
   assert.match(read('src/components/SecCalibrationPreview/EvidenceAudit.tsx'),/records\.map/);
@@ -186,7 +221,7 @@ test('scientifically reviewed SEC requires explicit qualified human review of th
 
 test('reader-facing fixtures distinguish all four states without registering Findings', () => {
   assert.deepEqual(readerAssessmentLabels,{'not-scored':'Not scored',conditional:'Conditional estimate','codex-provisional':'Provisionally assessed','scientifically-reviewed':'Scientifically reviewed'});
-  const unscored={findingId:'SF3',title:'Example finding',assessmentStatus:'not-scored'};
+  const unscored={...audit,id:'synthetic-unscored',findingId:'SF3',title:'Example finding',assessmentStatus:'not-scored',conditional:undefined,assessmentComplete:false};
   const provisional={...completedFixture(),findingId:'SF4',title:'Example finding',factors:{D:2,B:2,P:1,R:1},rawScore:6,adjustedScore:6};
   const reviewed={...completedFixture(),findingId:'SF5',title:'Example finding',assessmentStatus:'scientifically-reviewed',factors:{D:2,B:2,P:2,R:1},rawScore:7,adjustedScore:7};
   reviewed.humanReview={reviewerType:'human',reviewerIdentity:'Synthetic fixture reviewer',qualifications:'Synthetic relevant qualification',reviewDate:'2026-10-18',outcome:'accepted',assessedRecordVersion:reviewed.recordVersion,changes:'None; presentation fixture only'};
@@ -206,7 +241,10 @@ test('reader-facing fixtures distinguish all four states without registering Fin
   const assessments=panel.slice(panel.indexOf('{records.map'));
   const summary=assessments.slice(assessments.indexOf('<button type="button"'),assessments.indexOf('<div className="brs-fm-hub-panel" hidden>'));
   assert.doesNotMatch(summary,/formal SEC|audit.status|retrieval|Not recorded/);
-  assert.match(summary,/display.incomplete \? \('unscoredReason' in audit \? audit.unscoredReason : 'Assessment incomplete'\)/);
+  assert.match(summary,/display.incompleteReason/);
+  const html=renderAudit([unscored, audit, provisional, reviewed]);
+  for(const label of Object.values(readerAssessmentLabels))assert.ok(html.includes(label),label);
+  assert.match(html,/Assessment incomplete/);
   assert.match(summary,/display.score !== null \? <EvidenceConfidenceIndicator/);
   assert.match(summary,/display.statusLabel/);
   assert.doesNotMatch(panel,/SF3|SF4|SF5|Example finding|Pending expert review/);
@@ -260,10 +298,10 @@ test('review and correction fallbacks require explicit authoritative data', () =
 test('SF and audit use the same short assessment labels without changing stored status', () => {
   const component=read('src/components/SecCalibrationPreview/index.tsx');
   const panel=read('src/components/SecCalibrationPreview/EvidenceAudit.tsx');
-  assert.match(component,/assessmentPresentation\(audit\)/);
-  assert.match(component,/assessmentPresentation\(sf2Audit\)/);
-  assert.match(component,/assessment\?\.statusLabel \|\| 'Not scored'/);
-  assert.equal((component.match(/srPrefix=\{assessment\?\.statusLabel\}/g)||[]).length,2);
+  const html=renderAudit([audit,sf2Audit]);
+  assert.equal((html.match(/data-sec-assessment-status="conditional"/g)||[]).length,2);
+  assert.match(html,/4\/8/);assert.match(html,/5\/8/);
+  assert.match(component,/not the later SF1\/SF2 conditional assessments/);
   assert.doesNotMatch(component,/Conditional SEC estimate — under calibration|estimates under calibration|Assessment pending/);
   assert.match(panel,/conditional.qualification.replace\('Conditional SEC estimate — under calibration', display.statusLabel\)/);
   for (const record of [audit,sf2Audit]) {

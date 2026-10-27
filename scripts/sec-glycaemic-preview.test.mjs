@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 import {execFileSync} from 'node:child_process';
 import matter from 'gray-matter';
-import {readPilotBaseline} from './lib/sec-pilot-baseline.mjs';
+import {readPilotBaseline, pilotArchivePath} from './lib/sec-pilot-baseline.mjs';
 import {compile} from '@mdx-js/mdx';
 import {listMechanismMdxFiles} from './lib/mechanism-page-validation.mjs';
 import {glycaemicAudits} from '../src/components/SecCalibrationPreview/glycaemicAudit.mjs';
@@ -115,10 +115,10 @@ test('audit uses existing collapsed component, full factors and matching SF link
 
 test('GABA calibration, archived pilot sources and bibliography remain byte-identical to baseline', () => {
   for (const file of [canonicalPath,'docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx','docs/system/sec-calibration/gaba.mdx','src/components/SecCalibrationPreview/curatedSources.mjs']) {
-    assert.equal(read(file), execFileSync('git',['show',`HEAD:${file}`],{encoding:'utf8',maxBuffer:5e6}));
+    assert.equal(read(file), execFileSync('git',['show',`HEAD:${pilotArchivePath(file)}`],{encoding:'utf8',maxBuffer:5e6}));
   }
   const bib = execFileSync('git',['ls-files','*BRAIN*diet.bib','*BRAIN*Diet*.bib'],{encoding:'utf8'}).trim().split('\n').filter(Boolean);
-  for (const file of bib) assert.equal(read(file),execFileSync('git',['show',`HEAD:${file}`],{encoding:'utf8',maxBuffer:20e6}));
+  for (const file of bib) assert.equal(read(file),execFileSync('git',['show',`HEAD:${pilotArchivePath(file)}`],{encoding:'utf8',maxBuffer:20e6}));
   assert.equal(audit.conditional.adjustedScore,4); assert.equal(sf2Audit.conditional.adjustedScore,5);
   assert.equal(audit.history.length,5); assert.equal(sf2Audit.history.length,2);
 });

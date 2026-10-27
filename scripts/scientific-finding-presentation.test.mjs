@@ -89,7 +89,7 @@ test('actual compiled PM1 renders matching mechanism titles and reciprocal evide
     assert.ok(html.includes(`href="#pm1-f${number}">SF${number} — ${finding.finding_label}`));
     assert.ok(html.includes(`href="#pm1-mechanism-f${number}">Mechanistic explanation: ${finding.finding_label}`));
   }
-  assert.match(html,/Scientific Findings \(5\)/);
+  assert.match(html,/Scientific Findings \(6\)/);
   const baselineInterventions=beforePilot.scientific_findings.flatMap(f=>findingInterventionLinks(beforePilot,f.id));
   const currentInterventions=pm.data.scientific_findings.flatMap(f=>findingInterventionLinks(pm.data,f.id));
   assert.deepEqual(currentInterventions,baselineInterventions,'No intervention admission or relationship changed');

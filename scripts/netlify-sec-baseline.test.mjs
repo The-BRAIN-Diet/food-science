@@ -17,10 +17,11 @@ test('Netlify pins a reviewed history baseline and retains the validated heap li
   assert.match(config, /NODE_OPTIONS = "--max-old-space-size=4096"/);
   const previous = JSON.parse(execFileSync('git', ['show', `${baseline}:system/sec-assessments/registry.json`], {encoding: 'utf8'}));
   assert.equal(previous.assessments.length, 84);
-  assert.deepEqual(registry, previous);
+  assert.ok(registry.assessments.length >= previous.assessments.length, 'approved assessments may be appended');
+  for (const snapshot of previous.assessments) assert.deepEqual(registry.assessments.find(row => row.record.id === snapshot.record.id && row.record.recordVersion === snapshot.record.recordVersion), snapshot);
   assert.deepEqual(validateSecRegistry(registry, {previous}), []);
   const removed = structuredClone(registry);
-  removed.assessments.pop();
+  removed.assessments = removed.assessments.filter(row => row.sha256 !== previous.assessments[0].sha256);
   assert.ok(validateSecRegistry(removed, {previous}).some(e => e.code === 'sec_immutable'));
   const overwritten = structuredClone(registry);
   overwritten.assessments[0].record.proposition += ' changed';
@@ -36,7 +37,7 @@ test('the unchanged production guard still rejects an absent baseline and accept
   assert.match(absent.stderr, /SEC_BASE_REF or an explicit published base ref is required/);
   const configured = spawnSync(process.execPath, ['scripts/check-sec-assessments.mjs'], {env: {...env, SEC_BASE_REF: baseline}, encoding: 'utf8'});
   assert.equal(configured.status, 0, configured.stderr);
-  assert.match(configured.stdout, /valid \(84 snapshots\)/);
+  assert.ok(configured.stdout.includes(`valid (${registry.assessments.length} snapshots)`));
 });
 
 function shallowFixture(run) {

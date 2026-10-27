@@ -1,3 +1,4 @@
+import {readHistoricalFile} from './lib/sec-pilot-baseline.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -16,6 +17,23 @@ const pm8File='docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammat
 const pm8Before=fs.readFileSync('review/foodless-targets-2026-10-26/pm8-before-presentation.mdx','utf8');
 const sha256=text=>crypto.createHash('sha256').update(text).digest('hex');
 function assertProtectedRecord(file,expectedHash,current){
+ if(file.endsWith('/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx')){
+  const before=readHistoricalFile('9cf4da21927b851be6bd0865affb00b99fc99256',file);
+  assert.equal(sha256(before),expectedHash,'historical PM1 fixture');
+  const a=matter(current),b=matter(before);
+  assert.deepEqual(a.data,b.data,'PM1 scientific records');
+  // Permit only the three reviewed SF7 presentation insertions, not arbitrary
+  // changes elsewhere in Section 4 or in any generated evidence record.
+  const fragments=[
+   ' [Oral tyrosine supply](#pm1-mechanism-f7) has also been measured as a circulating concentration response, not as brain delivery.',
+   '<span id="pm1-mechanism-f7" />\n\n#### PM1-F7\n\nIn eleven subjects, plasma tyrosine increased during a protein-containing dietary day and rose further with divided oral L-tyrosine. This supports provision to the circulating precursor pool. Plasma concentration does not measure dietary appearance flux, brain entry or catecholamine synthesis, and the small meal/supplement experiment does not establish a general food-effective dose or benefit from additional intake. [[23]](#pm-ref-23)\n\nSupporting evidence: [PM1-F7](#pm1-f7).\n\n',
+   '\n{/* scientific-lesson:PM1-F7:start */}\n<p><a href="#pm1-mechanism-f7">Mechanistic explanation: Oral tyrosine and protein-containing meals contribute to plasma tyrosine</a></p>\n{/* scientific-lesson:PM1-F7:end */}\n',
+  ];
+  let restored=a.content;
+  for(const fragment of fragments){assert.equal(restored.split(fragment).length,2,'PM1 approved SF7 insertion');restored=restored.replace(fragment,'');}
+  assert.equal(restored,b.content,'PM1 content outside exact approved SF7 insertions');
+  return;
+ }
  if(file!==pm8File){assert.equal(sha256(current),expectedHash,file);return;}
  // Preserve the original hash/record. The owner subsequently approved only
  // the thumbnail and Section 4 presentation; the scientific frontmatter is fixed.
@@ -81,3 +99,21 @@ test('shared TSX projections parse without syntax regressions',async()=>{
   assert.equal(JSON.stringify(pumpkin.aggregate_composition),before);
   assert.equal(Object.keys(pumpkin.aggregate_composition.profile.amino_acids).length,9);
  });
+
+
+test('PM1 SF7 presentation allowance rejects altered science, evidence nodes and unrelated sections',()=>{
+ const file='docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx';
+ const baseline=JSON.parse(fs.readFileSync('review/foodless-targets-2026-10-26/protected-baseline.json'));
+ const current=fs.readFileSync(file,'utf8');
+ for(const mutate of [
+  d=>d.scientific_findings.find(f=>f.id==='PM1-F7').finding_statement='Changed proposition',
+  d=>d.dietary_input_traceability[0].dietary_input=!d.dietary_input_traceability[0].dietary_input,
+  d=>d.scientific_findings.find(f=>f.sec_assessment_ref).sec_assessment_ref.version=999,
+ ]){
+  const parsed=matter(current),data=structuredClone(parsed.data);mutate(data);
+  assert.throws(()=>assertProtectedRecord(file,baseline[file],matter.stringify(parsed.content,data)),/PM1 scientific records/);
+ }
+ assert.throws(()=>assertProtectedRecord(file,baseline[file],current.replace('<ScientificFinding finding={{"id":"PM1-F7"','<ScientificFinding finding={{"id":"PM1-F700"')),/PM1 content outside exact approved SF7 insertions/);
+ assert.throws(()=>assertProtectedRecord(file,baseline[file],current.replace('plasma tyrosine increased during','brain dopamine increased during')),/PM1 approved SF7 insertion/);
+ assert.throws(()=>assertProtectedRecord(file,baseline[file],current+'\nUnapproved content outside Section 4.\n'),/PM1 content outside exact approved SF7 insertions/);
+});

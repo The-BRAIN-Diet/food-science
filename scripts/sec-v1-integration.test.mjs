@@ -5,7 +5,7 @@ import vm from 'node:vm';
 import {execFileSync} from 'node:child_process';
 import {createRequire} from 'node:module';
 import matter from 'gray-matter';
-import {readPilotBaseline} from './lib/sec-pilot-baseline.mjs';
+import {readPilotBaseline, pilotArchivePath} from './lib/sec-pilot-baseline.mjs';
 import {compile} from '@mdx-js/mdx';
 import {buildDietaryLeverDisclosureMap,dietaryLeverBulletKey} from './lib/dietary-lever-disclosure.mjs';
 import {assessmentPresentation} from '../src/components/SecCalibrationPreview/auditPresentation.mjs';
@@ -18,7 +18,7 @@ const drafts=reconciliation.records.map(row=>({row,...matter(read('review/sec-in
 
 test('three complete drafts preserve missions, dietary decisions, KC identities and all source sections',()=>{
   for(const draft of drafts) {
-    const original=matter(read(draft.row.canonical));
+    const original=matter(readPilotBaseline(draft.row.canonical));
     for(const key of ['pm_id','mission','dietary_input_traceability','dietary_lever_atoms','dietary_lever_presentations','pm_kc_relationships','kc_applicability_adjudications','kc_distinctness_review','key_constraints']) assert.deepEqual(draft.data[key],original.data[key],draft.row.slug+':'+key);
     const headings=[...draft.content.matchAll(/^## \d+\.[^\n]*/gm)].map(m=>m[0]);
     assert.deepEqual(headings,draft.row.originalSections);
@@ -128,7 +128,7 @@ test('canonical science, earlier pilots, contracts, rubric, bibliography and die
     'system/primary-mechanism-schema.md','system/scientific-finding-schema.md','system/dietary-input-traceability-contract.md','static/bibtex/BRAIN-diet.bib',
     'system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html','scripts/lib/dietary-lever-atoms.mjs',
     'src/theme/MDXComponents/index.js'];
-  for(const p of preserved) assert.equal(readPilotBaseline(p),execFileSync('git',['show','HEAD:'+p],{encoding:'utf8',maxBuffer:10e6}),p);
+  for(const p of preserved) assert.equal(readPilotBaseline(p),execFileSync('git',['show','HEAD:'+pilotArchivePath(p)],{encoding:'utf8',maxBuffer:10e6}),p);
 });
 
 test('actual V1 intervention and audit components reuse collapsed disclosures and canonical evidence links',()=>{
