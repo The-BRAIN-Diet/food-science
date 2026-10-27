@@ -55,17 +55,21 @@ nutrition_source:
 nutrition_supplementary_sources:
   - key: resistant_starch_qual
     label: Resistant starch
-    status: Present — quantity depends on ripeness and cultivar
-    amount_display: Present — quantity depends on ripeness and cultivar
+    range: [2.7, 25.3]
+    unit: g
+    basis: per 100 g fresh weight
+    citation_mark: asterisk
+    source_reference: '#food-source-2'
+    source_url: https://doi.org/10.1016/j.postharvbio.2016.03.022
+    evidence_material: Cavendish and plantain bananas
+    preparation_state: Green/unripe; cultivar and ripening state matter
+    public_display: table
     source_note: >-
-      Direct analyses of Cavendish and plantain bananas found resistant starch declined during
-      ripening (Gao et al. 2016).
-    public_note: >-
-      Gao et al. 2016 supports this qualitative constituent record. See technical provenance for
-      food form and measurement details.
-    source_group: >-
-      Gao et al. 2016 supports this qualitative constituent record. See technical provenance for
-      food form and measurement details.
+      Gao et al. (2016) measured resistant starch in fresh Cavendish bananas
+      from 18.1 to 2.7 g per 100 g and in plantain from 25.3 to 5.3 g per 100 g
+      across five days of ripening. This row is that span.
+    source_group: Gao et al. 2016
+    notes: Fresh weight. Cavendish and plantain, mature green through day 5.
   - key: polyphenol_oxidase_qual
     label: Polyphenol oxidase (PPO)
     status: Present — activity depends on fruit and handling
@@ -120,10 +124,7 @@ substance_relationships:
     presence_status: presence_and_amount_supported
   - substance: Resistant starch
     relationship: contains
-    description: >-
-      Gao et al. (2016) measured resistant starch in Cavendish and plantain bananas and its decline
-      during ripening. Presence depends on cultivar and ripeness. No amount is copied onto this
-      page.
+    description: "Gao et al. (2016) measured 2.7–25.3 g resistant starch per 100 g fresh weight in Cavendish and plantain bananas from mature green fruit through day 5 of ripening."
     evidence_status: supported
     presence_status: presence_supported_amount_unavailable
     evidence_source: Gao et al., Postharvest Biology and Technology 2016
@@ -199,4 +200,4 @@ Bananas are relatively **high in polyphenol oxidase (PPO)**. In a controlled cro
 
 [1] Ottaviani et al. (2023). [Impact of polyphenol oxidase on the bioavailability of flavan-3-ols in fruit smoothies: a controlled, single blinded, cross-over study](/docs/papers/BRAIN-Diet-References#ottaviani_polyphenol_oxidase_flavan_2023). In a controlled crossover study, a banana-based high-PPO smoothie substantially reduced flavan-3-ol bioavailability relative to capsule control; the result is specific to the tested smoothie and flavan-3-ols.
 
-[2] Gao et al. (2016). [Analysis of resistant starch degradation in postharvest ripening of two banana cultivars: Focus on starch structure and amylases](/docs/papers/BRAIN-Diet-References#gao_banana_resistant_starch_2016). Resistant starch, non-resistant starch and total starch declined during ripening in the Cavendish and plantain cultivars tested.
+[2] <span id="food-source-2" />Gao et al. (2016). [Analysis of resistant starch degradation in postharvest ripening of two banana cultivars: Focus on starch structure and amylases](/docs/papers/BRAIN-Diet-References#gao_banana_resistant_starch_2016). Resistant starch fell from 18.1 to 2.7 g per 100 g fresh weight in Cavendish and from 25.3 to 5.3 g per 100 g in plantain over five days.

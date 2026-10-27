@@ -88,33 +88,35 @@ nutrition_supplementary_sources:
     source_group: Beetroot is characterised by betalain pigments.
   - key: betaine_mg
     label: Betaine
-    value: 130
+    value: 129
     unit: mg
     basis: per 100 g edible portion
+    citation_mark: asterisk
     evidence_material: Beets, raw
     preparation_state: raw
     evidence_status: supported
     verified: true
     rank_eligible: false
-    source_url: https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf
+    source_url: https://doi.org/10.1093/jn/133.5.1302
     source_reference: '#food-source-4'
     source_note: >-
-      Patterson et al. (2008), USDA Database for the Choline Content of Common
-      Foods, Release 2: beets, raw (NDB 11080), 130 mg betaine per 100 g. This
-      is not the FDC 169145 panel used for the other nutrients on this page.
-      Verified against the original table on printed page 21 (PDF page 21),
-      NDB 11080. The table lists N=1; its confidence code B concerns total
-      choline, not betaine. Cultivar and growing conditions can change plant
-      betaine content. No cooked-beetroot value or cross-food ranking is inferred.
-    source_group: USDA Choline Release 2 (2008), NDB 11080
+      Zeisel et al. (2003) Table 1, corrected by the erratum: beet, raw
+      (NDB 11080), 128.63 mg betaine per 100 g, shown here as 129 mg. Canned
+      beets in the same table are 333.69 mg per 100 g and are not this raw
+      page. USDA Release 2 reports 130 mg per 100 g for the same raw NDB.
+      This is not the FDC 169145 panel used for the other nutrients. No
+      cross-food ranking is inferred.
+    source_group: Zeisel et al. (2003) Table 1, erratum-corrected, NDB 11080
 substance_relationships:
   - substance: Betaine
     relationship: contains
     description: >-
-      Raw beets contained 130 mg betaine per 100 g in the corrected USDA choline
-      database. That assay is separate from this page’s other nutrients.
+      Zeisel et al. (2003) Table 1, corrected by the erratum, reports 129 mg
+      betaine per 100 g in raw beets. Canned beets in that table are 334 mg
+      per 100 g. USDA Release 2 reports 130 mg per 100 g for the same raw NDB.
     citation_keys:
-      - patterson_choline_2008
+      - zeisel_choline_betaine_2003
+      - zeisel_choline_betaine_2003_erratum
   - substance: Magnesium
     relationship: contains
     description: USDA FoodData Central reports magnesium in Beets, raw.
@@ -228,4 +230,4 @@ Use beetroot as a whole vegetable rather than treating it as equivalent to a con
 
 <span id="food-source-4" />
 
-[4] Patterson et al. (2008). [USDA Database for the Choline Content of Common Foods, Release Two](/docs/papers/BRAIN-Diet-References#patterson_choline_2008). The original table reports **130 mg betaine per 100 g of raw beets**, NDB 11080, printed page 21. This is a separate analytical source from the main nutrient panel, not an amount for cooked beets or beetroot extract. The table lists N=1; its confidence code concerns total choline, not betaine. Plant variety and growing conditions limit generalisation.
+[4] Zeisel et al. (2003). [Concentrations of Choline-Containing Compounds and Betaine in Common Foods](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003). Table 1, corrected by the [erratum](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003_erratum), reports **128.63 mg betaine per 100 g of raw beets**, NDB 11080, shown as 129 mg. Canned beets in that table are 333.69 mg per 100 g. USDA Release 2 reports 130 mg per 100 g for the same raw NDB. This is separate from the main nutrient panel.

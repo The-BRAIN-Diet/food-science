@@ -126,7 +126,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Seaweed | 1 | magnesium | BRS2-FM1-PM3; BRS2-FM2-PM6 |  |
 | Sesame Seeds | 7 | magnesium; vitamin-b2; vitamin-b9; potassium; zinc; vitamin-b6; choline | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Shiitake Mushroom | 6 | vitamin-b9; vitamin-b6; potassium; zinc; vitamin-b2; magnesium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
-| Shrimp | 8 | zinc; choline; vitamin-b6; potassium; vitamin-b2; vitamin-b9; vitamin-b12; magnesium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
+| Shrimp | 9 | zinc; choline; vitamin-b6; potassium; vitamin-b2; vitamin-b9; vitamin-b12; magnesium; betaine | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Sourdough Bread | 3 | magnesium; potassium; zinc | BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM2-PM6 |  |
 | Soy Lecithin | 2 | choline; phosphatidylcholine | BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM3-PM7 | BRS2(KC1) |
 | Soy | 7 | choline; vitamin-b6; vitamin-b9; vitamin-b2; magnesium; potassium; zinc | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |

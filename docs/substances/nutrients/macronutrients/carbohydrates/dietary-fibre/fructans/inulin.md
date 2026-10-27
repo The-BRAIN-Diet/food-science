@@ -24,7 +24,9 @@ In mice fed a Western diet, oligofructose-enriched inulin prevented the increase
 
 ## Dietary Origin
 
-Chicory and some other plants store inulin-type fructans across a range of chain lengths. A food that contains mixed fructans does not, by that fact, contain a standardised long-chain inulin ingredient or the enriched blend used in the mouse diet [1]. Commercial oligofructose is usually a partial hydrolysate of chicory inulin and is a different preparation [1,2]. No food page here has a chain-length measurement that would support a contains relationship for inulin.
+Chicory and some other plants store inulin-type fructans across a range of chain lengths. A food that contains mixed fructans does not, by that fact, contain a standardised long-chain inulin ingredient or the enriched blend used in the mouse diet [1]. Commercial oligofructose is usually a partial hydrolysate of chicory inulin and is a different preparation [1,2].
+
+The edible spear of green asparagus has one verified inulin record: 1.30 g per 100 g dry matter, from a hot-water extract of lyophilized spear, with DP3 and DP4 oligosaccharides absent from that spear. Root inulin is not that record, and the dry-matter figure is not a fresh-weight serving. Chicory root, Jerusalem artichoke, onion, garlic and leek do not yet have a measurement that separates longer-chain inulin from short-chain oligofructose, so they are not linked here.
 
 ## Research Spotlights & Evidence Checks
 

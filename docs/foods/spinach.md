@@ -131,22 +131,24 @@ nutrition_supplementary_sources:
       technical provenance for food form and measurement details.
   - key: betaine_qual
     label: Betaine
-    status: 'Measured in frozen spinach, not in this raw panel'
-    amount_display: 110–130 mg/100 g in frozen spinach
+    basis: per 100 g
+    amount_display: 675 mg
+    citation_mark: asterisk
+    source_reference: '#food-source-5'
+    source_url: https://doi.org/10.1093/jn/133.5.1302
     source_note: >-
-      Patterson et al. (2008) report 110–130 mg betaine per 100 g in frozen
-      spinach (NDB 11464, 11463 and 98013). Release 2 corrected earlier spinach
-      estimates that were too high. This page’s raw spinach panel does not
-      report betaine.
+      Zeisel et al. (2003) Table 1, corrected by the erratum, reports 674.52 mg
+      betaine per 100 g in raw spinach and 725.41 mg per 100 g in cooked
+      spinach. This row is the raw value, rounded. USDA Release 2 later reports
+      110–130 mg per 100 g for frozen spinach, a different preparation.
     public_note: >-
-      Patterson et al. (2008) report betaine in frozen spinach. This does not
-      supply a quantity for this page’s raw preparation.
-    source_group: >-
-      Patterson et al. (2008) supports this qualitative constituent record. See
-      technical provenance for food form and measurement details.
+      Zeisel et al. (2003) Table 1, as corrected, supports this raw-spinach
+      betaine value. The asterisk marks that paper, not the USDA panel.
+    source_group: Zeisel et al. (2003) Table 1, erratum-corrected
     notes: >-
-      Presence evidence is for frozen spinach; no raw-spinach amount is
-      established.
+      Raw spinach. Cooked spinach in the same table is 725 mg per 100 g and is
+      not this panel. USDA Release 2 reports 110–130 mg per 100 g for frozen
+      spinach.
 substance_relationships:
   - substance: 5-Methyltetrahydrofolate
     substance_id: 5-methyltetrahydrofolate
@@ -171,11 +173,13 @@ substance_relationships:
   - substance: Betaine
     relationship: contains
     description: >-
-      Frozen spinach preparations contained 110–130 mg betaine per 100 g in the
-      corrected USDA database. This page records raw spinach, so that figure is
-      not its composition panel.
+      Zeisel et al. (2003) Table 1, corrected by the erratum, reports 675 mg
+      betaine per 100 g in raw spinach. Cooked spinach in that table is 725 mg
+      per 100 g. USDA Release 2 later reports 110–130 mg per 100 g for frozen
+      spinach.
     citation_keys:
-      - patterson_choline_2008
+      - zeisel_choline_betaine_2003
+      - zeisel_choline_betaine_2003_erratum
   - substance: Retinoic acid
     relationship: dietary-precursor
     input: Beta-carotene
@@ -423,3 +427,7 @@ Spinach is also one of the richest dietary sources of oxalate. While most indivi
 [3] Hallberg et al. (1989). [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989). Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food.
 
 [4] Sommerburg et al. (1998). [Fruits and vegetables that are sources for lutein and zeaxanthin: the macular pigment in human eyes](/docs/papers/BRAIN-Diet-References#sommerburg_lutein_zeaxanthin_1998). Spinach lutein was 47 mol% of carotenoids, and zeaxanthin in the green vegetables they grouped with spinach was only a trace.
+
+<span id="food-source-5" />
+
+[5] Zeisel et al. (2003). [Concentrations of Choline-Containing Compounds and Betaine in Common Foods](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003). Table 1, corrected by the [erratum](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003_erratum), reports 674.52 mg betaine per 100 g of raw spinach and 725.41 mg per 100 g of cooked spinach. The nutrition row uses the raw value. USDA Release 2 later reports 110–130 mg per 100 g for frozen spinach.

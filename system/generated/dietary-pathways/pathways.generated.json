@@ -12836,7 +12836,41 @@
           "food_matrix": null,
           "preparation_effects": null,
           "absorption_evidence": null,
-          "observations": [],
+          "observations": [
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                2.7,
+                25.3
+              ],
+              "unit": "g",
+              "basis": "per 100 g fresh weight",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-2",
+              "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022",
+              "evidence_material": "Cavendish and plantain bananas",
+              "preparation_state": "Green/unripe; cultivar and ripening state matter",
+              "public_display": "table",
+              "source_note": "Gao et al. (2016) measured resistant starch in fresh Cavendish bananas from 18.1 to 2.7 g per 100 g and in plantain from 25.3 to 5.3 g per 100 g across five days of ripening. This row is that span.",
+              "source_group": "Gao et al. 2016",
+              "notes": "Fresh weight. Cavendish and plantain, mature green through day 5.",
+              "value": null,
+              "material": "Cavendish and plantain bananas",
+              "preparation": "Green/unripe; cultivar and ripening state matter",
+              "record": "docs/foods/bananas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "source_record": "docs/foods/bananas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "verified": true,
+              "nutrition_value_reviews": [],
+              "limitations": "Gao et al. (2016) measured resistant starch in fresh Cavendish bananas from 18.1 to 2.7 g per 100 g and in plantain from 25.3 to 5.3 g per 100 g across five days of ripening. This row is that span.",
+              "id": "docs/foods/bananas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "rank_eligible": false,
+              "comparison_group": null,
+              "low": 2700,
+              "high": 25300,
+              "display": "2.7–25.3 g"
+            }
+          ],
           "presence_records": [
             {
               "record": "docs/foods/bananas.md#substance_relationships/Resistant%20starch",
@@ -12847,6 +12881,29 @@
               "relationship_type": "contains",
               "presence_status": "presence_supported_amount_unavailable",
               "limitations": "Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre."
+            },
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                2.7,
+                25.3
+              ],
+              "unit": "g",
+              "basis": "per 100 g fresh weight",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-2",
+              "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022",
+              "evidence_material": "Cavendish and plantain bananas",
+              "preparation_state": "Green/unripe; cultivar and ripening state matter",
+              "public_display": "table",
+              "source_note": "Gao et al. (2016) measured resistant starch in fresh Cavendish bananas from 18.1 to 2.7 g per 100 g and in plantain from 25.3 to 5.3 g per 100 g across five days of ripening. This row is that span.",
+              "source_group": "Gao et al. 2016",
+              "notes": "Fresh weight. Cavendish and plantain, mature green through day 5.",
+              "record": "docs/foods/bananas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "evidence": "Gao et al. (2016) measured resistant starch in fresh Cavendish bananas from 18.1 to 2.7 g per 100 g and in plantain from 25.3 to 5.3 g per 100 g across five days of ripening. This row is that span.",
+              "presence_status": "qualitative",
+              "limitations": "Fresh weight. Cavendish and plantain, mature green through day 5."
             }
           ],
           "qualification": [],
@@ -12907,7 +12964,41 @@
           "food_matrix": null,
           "preparation_effects": null,
           "absorption_evidence": null,
-          "observations": [],
+          "observations": [
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                3,
+                5
+              ],
+              "unit": "g",
+              "basis": "per 100 g dry weight",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-4",
+              "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+              "evidence_material": "Cooked black beans",
+              "preparation_state": "Cooked; cooking duration and cooling protocol remain study-specific",
+              "public_display": "table",
+              "source_note": "Fabbri, Schacht and Crosby (2016) report cooked black beans at about 3–5 g resistant starch per 100 g dry weight after the first 30 minutes of boiling. Raw beans in the same assay were about 31 g per 100 g dry weight.",
+              "source_group": "Fabbri et al. 2016",
+              "notes": "Dry weight of cooked beans. Not a fresh cooked weight.",
+              "value": null,
+              "material": "Cooked black beans",
+              "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+              "record": "docs/foods/black-beans.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "source_record": "docs/foods/black-beans.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "verified": true,
+              "nutrition_value_reviews": [],
+              "limitations": "Fabbri, Schacht and Crosby (2016) report cooked black beans at about 3–5 g resistant starch per 100 g dry weight after the first 30 minutes of boiling. Raw beans in the same assay were about 31 g per 100 g dry weight.",
+              "id": "docs/foods/black-beans.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "rank_eligible": false,
+              "comparison_group": null,
+              "low": 3000,
+              "high": 5000,
+              "display": "3–5 g"
+            }
+          ],
           "presence_records": [
             {
               "record": "docs/foods/black-beans.md#substance_relationships/Resistant%20starch",
@@ -12918,6 +13009,29 @@
               "relationship_type": "contains",
               "presence_status": "presence_supported_amount_unavailable",
               "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+            },
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                3,
+                5
+              ],
+              "unit": "g",
+              "basis": "per 100 g dry weight",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-4",
+              "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+              "evidence_material": "Cooked black beans",
+              "preparation_state": "Cooked; cooking duration and cooling protocol remain study-specific",
+              "public_display": "table",
+              "source_note": "Fabbri, Schacht and Crosby (2016) report cooked black beans at about 3–5 g resistant starch per 100 g dry weight after the first 30 minutes of boiling. Raw beans in the same assay were about 31 g per 100 g dry weight.",
+              "source_group": "Fabbri et al. 2016",
+              "notes": "Dry weight of cooked beans. Not a fresh cooked weight.",
+              "record": "docs/foods/black-beans.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "evidence": "Fabbri, Schacht and Crosby (2016) report cooked black beans at about 3–5 g resistant starch per 100 g dry weight after the first 30 minutes of boiling. Raw beans in the same assay were about 31 g per 100 g dry weight.",
+              "presence_status": "qualitative",
+              "limitations": "Dry weight of cooked beans. Not a fresh cooked weight."
             }
           ],
           "qualification": [],
@@ -12978,7 +13092,41 @@
           "food_matrix": null,
           "preparation_effects": null,
           "absorption_evidence": null,
-          "observations": [],
+          "observations": [
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                3,
+                5
+              ],
+              "unit": "g",
+              "basis": "per 100 g dry weight",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-1",
+              "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+              "evidence_material": "Cooked chickpeas",
+              "preparation_state": "Cooked; cooking duration and cooling protocol remain study-specific",
+              "public_display": "table",
+              "source_note": "Fabbri, Schacht and Crosby (2016) report cooked chickpeas within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas in the same assay were 4.32 g per 100 g of the dried sample.",
+              "source_group": "Fabbri et al. 2016",
+              "notes": "Dry weight of cooked chickpeas. Not a fresh cooked weight.",
+              "value": null,
+              "material": "Cooked chickpeas",
+              "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+              "record": "docs/foods/chickpeas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "source_record": "docs/foods/chickpeas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "verified": true,
+              "nutrition_value_reviews": [],
+              "limitations": "Fabbri, Schacht and Crosby (2016) report cooked chickpeas within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas in the same assay were 4.32 g per 100 g of the dried sample.",
+              "id": "docs/foods/chickpeas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "rank_eligible": false,
+              "comparison_group": null,
+              "low": 3000,
+              "high": 5000,
+              "display": "3–5 g"
+            }
+          ],
           "presence_records": [
             {
               "record": "docs/foods/chickpeas.md#substance_relationships/Resistant%20starch",
@@ -12989,6 +13137,29 @@
               "relationship_type": "contains",
               "presence_status": "presence_supported_amount_unavailable",
               "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+            },
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                3,
+                5
+              ],
+              "unit": "g",
+              "basis": "per 100 g dry weight",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-1",
+              "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+              "evidence_material": "Cooked chickpeas",
+              "preparation_state": "Cooked; cooking duration and cooling protocol remain study-specific",
+              "public_display": "table",
+              "source_note": "Fabbri, Schacht and Crosby (2016) report cooked chickpeas within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas in the same assay were 4.32 g per 100 g of the dried sample.",
+              "source_group": "Fabbri et al. 2016",
+              "notes": "Dry weight of cooked chickpeas. Not a fresh cooked weight.",
+              "record": "docs/foods/chickpeas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "evidence": "Fabbri, Schacht and Crosby (2016) report cooked chickpeas within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas in the same assay were 4.32 g per 100 g of the dried sample.",
+              "presence_status": "qualitative",
+              "limitations": "Dry weight of cooked chickpeas. Not a fresh cooked weight."
             }
           ],
           "qualification": [],
@@ -13049,7 +13220,41 @@
           "food_matrix": null,
           "preparation_effects": null,
           "absorption_evidence": null,
-          "observations": [],
+          "observations": [
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                2.2,
+                5.4
+              ],
+              "unit": "g",
+              "basis": "per 100 g, moisture-corrected",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-3",
+              "source_url": "https://doi.org/10.1016/j.foodchem.2016.03.120",
+              "evidence_material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+              "preparation_state": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+              "public_display": "table",
+              "source_note": "Raatz et al. (2016) Table 1 reports moisture-corrected resistant starch from 2.2 to 5.4 g per 100 g across Yukon Gold, Dark Red Norland and Russet Burbank potatoes, baked or boiled, served hot, chilled, or reheated.",
+              "source_group": "Raatz et al. 2016",
+              "notes": "Moisture-corrected. Baked or boiled; hot, chilled six days, or reheated.",
+              "value": null,
+              "material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+              "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+              "record": "docs/foods/potatoes.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "source_record": "docs/foods/potatoes.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "verified": true,
+              "nutrition_value_reviews": [],
+              "limitations": "Raatz et al. (2016) Table 1 reports moisture-corrected resistant starch from 2.2 to 5.4 g per 100 g across Yukon Gold, Dark Red Norland and Russet Burbank potatoes, baked or boiled, served hot, chilled, or reheated.",
+              "id": "docs/foods/potatoes.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "rank_eligible": false,
+              "comparison_group": null,
+              "low": 2200,
+              "high": 5400,
+              "display": "2.2–5.4 g"
+            }
+          ],
           "presence_records": [
             {
               "record": "docs/foods/potatoes.md#substance_relationships/Resistant%20starch",
@@ -13060,6 +13265,29 @@
               "relationship_type": "contains",
               "presence_status": "presence_supported_amount_unavailable",
               "limitations": "Preparation and service temperature change the assay. A generic potato portion is not this result."
+            },
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                2.2,
+                5.4
+              ],
+              "unit": "g",
+              "basis": "per 100 g, moisture-corrected",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-3",
+              "source_url": "https://doi.org/10.1016/j.foodchem.2016.03.120",
+              "evidence_material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+              "preparation_state": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+              "public_display": "table",
+              "source_note": "Raatz et al. (2016) Table 1 reports moisture-corrected resistant starch from 2.2 to 5.4 g per 100 g across Yukon Gold, Dark Red Norland and Russet Burbank potatoes, baked or boiled, served hot, chilled, or reheated.",
+              "source_group": "Raatz et al. 2016",
+              "notes": "Moisture-corrected. Baked or boiled; hot, chilled six days, or reheated.",
+              "record": "docs/foods/potatoes.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "evidence": "Raatz et al. (2016) Table 1 reports moisture-corrected resistant starch from 2.2 to 5.4 g per 100 g across Yukon Gold, Dark Red Norland and Russet Burbank potatoes, baked or boiled, served hot, chilled, or reheated.",
+              "presence_status": "qualitative",
+              "limitations": "Moisture-corrected. Baked or boiled; hot, chilled six days, or reheated."
             }
           ],
           "qualification": [],
@@ -13179,7 +13407,41 @@
           "food_matrix": null,
           "preparation_effects": null,
           "absorption_evidence": null,
-          "observations": [],
+          "observations": [
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                2.7,
+                25.3
+              ],
+              "unit": "g",
+              "basis": "per 100 g fresh weight",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-2",
+              "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022",
+              "evidence_material": "Cavendish and plantain bananas",
+              "preparation_state": "Green/unripe; cultivar and ripening state matter",
+              "public_display": "table",
+              "source_note": "Gao et al. (2016) measured resistant starch in fresh Cavendish bananas from 18.1 to 2.7 g per 100 g and in plantain from 25.3 to 5.3 g per 100 g across five days of ripening. This row is that span.",
+              "source_group": "Gao et al. 2016",
+              "notes": "Fresh weight. Cavendish and plantain, mature green through day 5.",
+              "value": null,
+              "material": "Cavendish and plantain bananas",
+              "preparation": "Green/unripe; cultivar and ripening state matter",
+              "record": "docs/foods/bananas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "source_record": "docs/foods/bananas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "verified": true,
+              "nutrition_value_reviews": [],
+              "limitations": "Gao et al. (2016) measured resistant starch in fresh Cavendish bananas from 18.1 to 2.7 g per 100 g and in plantain from 25.3 to 5.3 g per 100 g across five days of ripening. This row is that span.",
+              "id": "docs/foods/bananas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "rank_eligible": false,
+              "comparison_group": null,
+              "low": 2700,
+              "high": 25300,
+              "display": "2.7–25.3 g"
+            }
+          ],
           "presence_records": [
             {
               "record": "docs/foods/bananas.md#substance_relationships/Resistant%20starch",
@@ -13190,6 +13452,29 @@
               "relationship_type": "contains",
               "presence_status": "presence_supported_amount_unavailable",
               "limitations": "Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre."
+            },
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                2.7,
+                25.3
+              ],
+              "unit": "g",
+              "basis": "per 100 g fresh weight",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-2",
+              "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022",
+              "evidence_material": "Cavendish and plantain bananas",
+              "preparation_state": "Green/unripe; cultivar and ripening state matter",
+              "public_display": "table",
+              "source_note": "Gao et al. (2016) measured resistant starch in fresh Cavendish bananas from 18.1 to 2.7 g per 100 g and in plantain from 25.3 to 5.3 g per 100 g across five days of ripening. This row is that span.",
+              "source_group": "Gao et al. 2016",
+              "notes": "Fresh weight. Cavendish and plantain, mature green through day 5.",
+              "record": "docs/foods/bananas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "evidence": "Gao et al. (2016) measured resistant starch in fresh Cavendish bananas from 18.1 to 2.7 g per 100 g and in plantain from 25.3 to 5.3 g per 100 g across five days of ripening. This row is that span.",
+              "presence_status": "qualitative",
+              "limitations": "Fresh weight. Cavendish and plantain, mature green through day 5."
             }
           ],
           "qualification": [],
@@ -13250,7 +13535,41 @@
           "food_matrix": null,
           "preparation_effects": null,
           "absorption_evidence": null,
-          "observations": [],
+          "observations": [
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                3,
+                5
+              ],
+              "unit": "g",
+              "basis": "per 100 g dry weight",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-4",
+              "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+              "evidence_material": "Cooked black beans",
+              "preparation_state": "Cooked; cooking duration and cooling protocol remain study-specific",
+              "public_display": "table",
+              "source_note": "Fabbri, Schacht and Crosby (2016) report cooked black beans at about 3–5 g resistant starch per 100 g dry weight after the first 30 minutes of boiling. Raw beans in the same assay were about 31 g per 100 g dry weight.",
+              "source_group": "Fabbri et al. 2016",
+              "notes": "Dry weight of cooked beans. Not a fresh cooked weight.",
+              "value": null,
+              "material": "Cooked black beans",
+              "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+              "record": "docs/foods/black-beans.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "source_record": "docs/foods/black-beans.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "verified": true,
+              "nutrition_value_reviews": [],
+              "limitations": "Fabbri, Schacht and Crosby (2016) report cooked black beans at about 3–5 g resistant starch per 100 g dry weight after the first 30 minutes of boiling. Raw beans in the same assay were about 31 g per 100 g dry weight.",
+              "id": "docs/foods/black-beans.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "rank_eligible": false,
+              "comparison_group": null,
+              "low": 3000,
+              "high": 5000,
+              "display": "3–5 g"
+            }
+          ],
           "presence_records": [
             {
               "record": "docs/foods/black-beans.md#substance_relationships/Resistant%20starch",
@@ -13261,6 +13580,29 @@
               "relationship_type": "contains",
               "presence_status": "presence_supported_amount_unavailable",
               "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+            },
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                3,
+                5
+              ],
+              "unit": "g",
+              "basis": "per 100 g dry weight",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-4",
+              "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+              "evidence_material": "Cooked black beans",
+              "preparation_state": "Cooked; cooking duration and cooling protocol remain study-specific",
+              "public_display": "table",
+              "source_note": "Fabbri, Schacht and Crosby (2016) report cooked black beans at about 3–5 g resistant starch per 100 g dry weight after the first 30 minutes of boiling. Raw beans in the same assay were about 31 g per 100 g dry weight.",
+              "source_group": "Fabbri et al. 2016",
+              "notes": "Dry weight of cooked beans. Not a fresh cooked weight.",
+              "record": "docs/foods/black-beans.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "evidence": "Fabbri, Schacht and Crosby (2016) report cooked black beans at about 3–5 g resistant starch per 100 g dry weight after the first 30 minutes of boiling. Raw beans in the same assay were about 31 g per 100 g dry weight.",
+              "presence_status": "qualitative",
+              "limitations": "Dry weight of cooked beans. Not a fresh cooked weight."
             }
           ],
           "qualification": [],
@@ -13321,7 +13663,41 @@
           "food_matrix": null,
           "preparation_effects": null,
           "absorption_evidence": null,
-          "observations": [],
+          "observations": [
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                3,
+                5
+              ],
+              "unit": "g",
+              "basis": "per 100 g dry weight",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-1",
+              "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+              "evidence_material": "Cooked chickpeas",
+              "preparation_state": "Cooked; cooking duration and cooling protocol remain study-specific",
+              "public_display": "table",
+              "source_note": "Fabbri, Schacht and Crosby (2016) report cooked chickpeas within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas in the same assay were 4.32 g per 100 g of the dried sample.",
+              "source_group": "Fabbri et al. 2016",
+              "notes": "Dry weight of cooked chickpeas. Not a fresh cooked weight.",
+              "value": null,
+              "material": "Cooked chickpeas",
+              "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+              "record": "docs/foods/chickpeas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "source_record": "docs/foods/chickpeas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "verified": true,
+              "nutrition_value_reviews": [],
+              "limitations": "Fabbri, Schacht and Crosby (2016) report cooked chickpeas within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas in the same assay were 4.32 g per 100 g of the dried sample.",
+              "id": "docs/foods/chickpeas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "rank_eligible": false,
+              "comparison_group": null,
+              "low": 3000,
+              "high": 5000,
+              "display": "3–5 g"
+            }
+          ],
           "presence_records": [
             {
               "record": "docs/foods/chickpeas.md#substance_relationships/Resistant%20starch",
@@ -13332,6 +13708,29 @@
               "relationship_type": "contains",
               "presence_status": "presence_supported_amount_unavailable",
               "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+            },
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                3,
+                5
+              ],
+              "unit": "g",
+              "basis": "per 100 g dry weight",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-1",
+              "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+              "evidence_material": "Cooked chickpeas",
+              "preparation_state": "Cooked; cooking duration and cooling protocol remain study-specific",
+              "public_display": "table",
+              "source_note": "Fabbri, Schacht and Crosby (2016) report cooked chickpeas within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas in the same assay were 4.32 g per 100 g of the dried sample.",
+              "source_group": "Fabbri et al. 2016",
+              "notes": "Dry weight of cooked chickpeas. Not a fresh cooked weight.",
+              "record": "docs/foods/chickpeas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "evidence": "Fabbri, Schacht and Crosby (2016) report cooked chickpeas within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas in the same assay were 4.32 g per 100 g of the dried sample.",
+              "presence_status": "qualitative",
+              "limitations": "Dry weight of cooked chickpeas. Not a fresh cooked weight."
             }
           ],
           "qualification": [],
@@ -13392,7 +13791,41 @@
           "food_matrix": null,
           "preparation_effects": null,
           "absorption_evidence": null,
-          "observations": [],
+          "observations": [
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                2.2,
+                5.4
+              ],
+              "unit": "g",
+              "basis": "per 100 g, moisture-corrected",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-3",
+              "source_url": "https://doi.org/10.1016/j.foodchem.2016.03.120",
+              "evidence_material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+              "preparation_state": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+              "public_display": "table",
+              "source_note": "Raatz et al. (2016) Table 1 reports moisture-corrected resistant starch from 2.2 to 5.4 g per 100 g across Yukon Gold, Dark Red Norland and Russet Burbank potatoes, baked or boiled, served hot, chilled, or reheated.",
+              "source_group": "Raatz et al. 2016",
+              "notes": "Moisture-corrected. Baked or boiled; hot, chilled six days, or reheated.",
+              "value": null,
+              "material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+              "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+              "record": "docs/foods/potatoes.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "source_record": "docs/foods/potatoes.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "verified": true,
+              "nutrition_value_reviews": [],
+              "limitations": "Raatz et al. (2016) Table 1 reports moisture-corrected resistant starch from 2.2 to 5.4 g per 100 g across Yukon Gold, Dark Red Norland and Russet Burbank potatoes, baked or boiled, served hot, chilled, or reheated.",
+              "id": "docs/foods/potatoes.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "rank_eligible": false,
+              "comparison_group": null,
+              "low": 2200,
+              "high": 5400,
+              "display": "2.2–5.4 g"
+            }
+          ],
           "presence_records": [
             {
               "record": "docs/foods/potatoes.md#substance_relationships/Resistant%20starch",
@@ -13403,6 +13836,29 @@
               "relationship_type": "contains",
               "presence_status": "presence_supported_amount_unavailable",
               "limitations": "Preparation and service temperature change the assay. A generic potato portion is not this result."
+            },
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                2.2,
+                5.4
+              ],
+              "unit": "g",
+              "basis": "per 100 g, moisture-corrected",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-3",
+              "source_url": "https://doi.org/10.1016/j.foodchem.2016.03.120",
+              "evidence_material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+              "preparation_state": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+              "public_display": "table",
+              "source_note": "Raatz et al. (2016) Table 1 reports moisture-corrected resistant starch from 2.2 to 5.4 g per 100 g across Yukon Gold, Dark Red Norland and Russet Burbank potatoes, baked or boiled, served hot, chilled, or reheated.",
+              "source_group": "Raatz et al. 2016",
+              "notes": "Moisture-corrected. Baked or boiled; hot, chilled six days, or reheated.",
+              "record": "docs/foods/potatoes.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "evidence": "Raatz et al. (2016) Table 1 reports moisture-corrected resistant starch from 2.2 to 5.4 g per 100 g across Yukon Gold, Dark Red Norland and Russet Burbank potatoes, baked or boiled, served hot, chilled, or reheated.",
+              "presence_status": "qualitative",
+              "limitations": "Moisture-corrected. Baked or boiled; hot, chilled six days, or reheated."
             }
           ],
           "qualification": [],
@@ -13608,7 +14064,41 @@
           "food_matrix": null,
           "preparation_effects": null,
           "absorption_evidence": null,
-          "observations": [],
+          "observations": [
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                2.7,
+                25.3
+              ],
+              "unit": "g",
+              "basis": "per 100 g fresh weight",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-2",
+              "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022",
+              "evidence_material": "Cavendish and plantain bananas",
+              "preparation_state": "Green/unripe; cultivar and ripening state matter",
+              "public_display": "table",
+              "source_note": "Gao et al. (2016) measured resistant starch in fresh Cavendish bananas from 18.1 to 2.7 g per 100 g and in plantain from 25.3 to 5.3 g per 100 g across five days of ripening. This row is that span.",
+              "source_group": "Gao et al. 2016",
+              "notes": "Fresh weight. Cavendish and plantain, mature green through day 5.",
+              "value": null,
+              "material": "Cavendish and plantain bananas",
+              "preparation": "Green/unripe; cultivar and ripening state matter",
+              "record": "docs/foods/bananas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "source_record": "docs/foods/bananas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "verified": true,
+              "nutrition_value_reviews": [],
+              "limitations": "Gao et al. (2016) measured resistant starch in fresh Cavendish bananas from 18.1 to 2.7 g per 100 g and in plantain from 25.3 to 5.3 g per 100 g across five days of ripening. This row is that span.",
+              "id": "docs/foods/bananas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "rank_eligible": false,
+              "comparison_group": null,
+              "low": 2700,
+              "high": 25300,
+              "display": "2.7–25.3 g"
+            }
+          ],
           "presence_records": [
             {
               "record": "docs/foods/bananas.md#substance_relationships/Resistant%20starch",
@@ -13619,6 +14109,29 @@
               "relationship_type": "contains",
               "presence_status": "presence_supported_amount_unavailable",
               "limitations": "Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre."
+            },
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                2.7,
+                25.3
+              ],
+              "unit": "g",
+              "basis": "per 100 g fresh weight",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-2",
+              "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022",
+              "evidence_material": "Cavendish and plantain bananas",
+              "preparation_state": "Green/unripe; cultivar and ripening state matter",
+              "public_display": "table",
+              "source_note": "Gao et al. (2016) measured resistant starch in fresh Cavendish bananas from 18.1 to 2.7 g per 100 g and in plantain from 25.3 to 5.3 g per 100 g across five days of ripening. This row is that span.",
+              "source_group": "Gao et al. 2016",
+              "notes": "Fresh weight. Cavendish and plantain, mature green through day 5.",
+              "record": "docs/foods/bananas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "evidence": "Gao et al. (2016) measured resistant starch in fresh Cavendish bananas from 18.1 to 2.7 g per 100 g and in plantain from 25.3 to 5.3 g per 100 g across five days of ripening. This row is that span.",
+              "presence_status": "qualitative",
+              "limitations": "Fresh weight. Cavendish and plantain, mature green through day 5."
             }
           ],
           "qualification": [],
@@ -13679,7 +14192,41 @@
           "food_matrix": null,
           "preparation_effects": null,
           "absorption_evidence": null,
-          "observations": [],
+          "observations": [
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                3,
+                5
+              ],
+              "unit": "g",
+              "basis": "per 100 g dry weight",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-4",
+              "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+              "evidence_material": "Cooked black beans",
+              "preparation_state": "Cooked; cooking duration and cooling protocol remain study-specific",
+              "public_display": "table",
+              "source_note": "Fabbri, Schacht and Crosby (2016) report cooked black beans at about 3–5 g resistant starch per 100 g dry weight after the first 30 minutes of boiling. Raw beans in the same assay were about 31 g per 100 g dry weight.",
+              "source_group": "Fabbri et al. 2016",
+              "notes": "Dry weight of cooked beans. Not a fresh cooked weight.",
+              "value": null,
+              "material": "Cooked black beans",
+              "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+              "record": "docs/foods/black-beans.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "source_record": "docs/foods/black-beans.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "verified": true,
+              "nutrition_value_reviews": [],
+              "limitations": "Fabbri, Schacht and Crosby (2016) report cooked black beans at about 3–5 g resistant starch per 100 g dry weight after the first 30 minutes of boiling. Raw beans in the same assay were about 31 g per 100 g dry weight.",
+              "id": "docs/foods/black-beans.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "rank_eligible": false,
+              "comparison_group": null,
+              "low": 3000,
+              "high": 5000,
+              "display": "3–5 g"
+            }
+          ],
           "presence_records": [
             {
               "record": "docs/foods/black-beans.md#substance_relationships/Resistant%20starch",
@@ -13690,6 +14237,29 @@
               "relationship_type": "contains",
               "presence_status": "presence_supported_amount_unavailable",
               "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+            },
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                3,
+                5
+              ],
+              "unit": "g",
+              "basis": "per 100 g dry weight",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-4",
+              "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+              "evidence_material": "Cooked black beans",
+              "preparation_state": "Cooked; cooking duration and cooling protocol remain study-specific",
+              "public_display": "table",
+              "source_note": "Fabbri, Schacht and Crosby (2016) report cooked black beans at about 3–5 g resistant starch per 100 g dry weight after the first 30 minutes of boiling. Raw beans in the same assay were about 31 g per 100 g dry weight.",
+              "source_group": "Fabbri et al. 2016",
+              "notes": "Dry weight of cooked beans. Not a fresh cooked weight.",
+              "record": "docs/foods/black-beans.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "evidence": "Fabbri, Schacht and Crosby (2016) report cooked black beans at about 3–5 g resistant starch per 100 g dry weight after the first 30 minutes of boiling. Raw beans in the same assay were about 31 g per 100 g dry weight.",
+              "presence_status": "qualitative",
+              "limitations": "Dry weight of cooked beans. Not a fresh cooked weight."
             }
           ],
           "qualification": [],
@@ -13750,7 +14320,41 @@
           "food_matrix": null,
           "preparation_effects": null,
           "absorption_evidence": null,
-          "observations": [],
+          "observations": [
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                3,
+                5
+              ],
+              "unit": "g",
+              "basis": "per 100 g dry weight",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-1",
+              "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+              "evidence_material": "Cooked chickpeas",
+              "preparation_state": "Cooked; cooking duration and cooling protocol remain study-specific",
+              "public_display": "table",
+              "source_note": "Fabbri, Schacht and Crosby (2016) report cooked chickpeas within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas in the same assay were 4.32 g per 100 g of the dried sample.",
+              "source_group": "Fabbri et al. 2016",
+              "notes": "Dry weight of cooked chickpeas. Not a fresh cooked weight.",
+              "value": null,
+              "material": "Cooked chickpeas",
+              "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+              "record": "docs/foods/chickpeas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "source_record": "docs/foods/chickpeas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "verified": true,
+              "nutrition_value_reviews": [],
+              "limitations": "Fabbri, Schacht and Crosby (2016) report cooked chickpeas within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas in the same assay were 4.32 g per 100 g of the dried sample.",
+              "id": "docs/foods/chickpeas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "rank_eligible": false,
+              "comparison_group": null,
+              "low": 3000,
+              "high": 5000,
+              "display": "3–5 g"
+            }
+          ],
           "presence_records": [
             {
               "record": "docs/foods/chickpeas.md#substance_relationships/Resistant%20starch",
@@ -13761,6 +14365,29 @@
               "relationship_type": "contains",
               "presence_status": "presence_supported_amount_unavailable",
               "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+            },
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                3,
+                5
+              ],
+              "unit": "g",
+              "basis": "per 100 g dry weight",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-1",
+              "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+              "evidence_material": "Cooked chickpeas",
+              "preparation_state": "Cooked; cooking duration and cooling protocol remain study-specific",
+              "public_display": "table",
+              "source_note": "Fabbri, Schacht and Crosby (2016) report cooked chickpeas within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas in the same assay were 4.32 g per 100 g of the dried sample.",
+              "source_group": "Fabbri et al. 2016",
+              "notes": "Dry weight of cooked chickpeas. Not a fresh cooked weight.",
+              "record": "docs/foods/chickpeas.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "evidence": "Fabbri, Schacht and Crosby (2016) report cooked chickpeas within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas in the same assay were 4.32 g per 100 g of the dried sample.",
+              "presence_status": "qualitative",
+              "limitations": "Dry weight of cooked chickpeas. Not a fresh cooked weight."
             }
           ],
           "qualification": [],
@@ -13821,7 +14448,41 @@
           "food_matrix": null,
           "preparation_effects": null,
           "absorption_evidence": null,
-          "observations": [],
+          "observations": [
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                2.2,
+                5.4
+              ],
+              "unit": "g",
+              "basis": "per 100 g, moisture-corrected",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-3",
+              "source_url": "https://doi.org/10.1016/j.foodchem.2016.03.120",
+              "evidence_material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+              "preparation_state": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+              "public_display": "table",
+              "source_note": "Raatz et al. (2016) Table 1 reports moisture-corrected resistant starch from 2.2 to 5.4 g per 100 g across Yukon Gold, Dark Red Norland and Russet Burbank potatoes, baked or boiled, served hot, chilled, or reheated.",
+              "source_group": "Raatz et al. 2016",
+              "notes": "Moisture-corrected. Baked or boiled; hot, chilled six days, or reheated.",
+              "value": null,
+              "material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+              "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+              "record": "docs/foods/potatoes.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "source_record": "docs/foods/potatoes.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "verified": true,
+              "nutrition_value_reviews": [],
+              "limitations": "Raatz et al. (2016) Table 1 reports moisture-corrected resistant starch from 2.2 to 5.4 g per 100 g across Yukon Gold, Dark Red Norland and Russet Burbank potatoes, baked or boiled, served hot, chilled, or reheated.",
+              "id": "docs/foods/potatoes.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "rank_eligible": false,
+              "comparison_group": null,
+              "low": 2200,
+              "high": 5400,
+              "display": "2.2–5.4 g"
+            }
+          ],
           "presence_records": [
             {
               "record": "docs/foods/potatoes.md#substance_relationships/Resistant%20starch",
@@ -13832,6 +14493,29 @@
               "relationship_type": "contains",
               "presence_status": "presence_supported_amount_unavailable",
               "limitations": "Preparation and service temperature change the assay. A generic potato portion is not this result."
+            },
+            {
+              "key": "resistant_starch_qual",
+              "label": "Resistant starch",
+              "range": [
+                2.2,
+                5.4
+              ],
+              "unit": "g",
+              "basis": "per 100 g, moisture-corrected",
+              "citation_mark": "asterisk",
+              "source_reference": "#food-source-3",
+              "source_url": "https://doi.org/10.1016/j.foodchem.2016.03.120",
+              "evidence_material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+              "preparation_state": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+              "public_display": "table",
+              "source_note": "Raatz et al. (2016) Table 1 reports moisture-corrected resistant starch from 2.2 to 5.4 g per 100 g across Yukon Gold, Dark Red Norland and Russet Burbank potatoes, baked or boiled, served hot, chilled, or reheated.",
+              "source_group": "Raatz et al. 2016",
+              "notes": "Moisture-corrected. Baked or boiled; hot, chilled six days, or reheated.",
+              "record": "docs/foods/potatoes.md#nutrition_supplementary_sources/resistant_starch_qual",
+              "evidence": "Raatz et al. (2016) Table 1 reports moisture-corrected resistant starch from 2.2 to 5.4 g per 100 g across Yukon Gold, Dark Red Norland and Russet Burbank potatoes, baked or boiled, served hot, chilled, or reheated.",
+              "presence_status": "qualitative",
+              "limitations": "Moisture-corrected. Baked or boiled; hot, chilled six days, or reheated."
             }
           ],
           "qualification": [],
@@ -16288,7 +16972,7 @@
           "input": "Betaine",
           "substance_id": "betaine",
           "assessment": "historical-decision-pending-reconciliation",
-          "food_count": 4
+          "food_count": 5
         },
         {
           "atom_id": "BRS2-FM1-PM2::PM2-DIT-2",
@@ -19822,7 +20506,7 @@
           "input": "Inulin",
           "substance_id": "inulin",
           "assessment": "versioned-assessment",
-          "food_count": 2
+          "food_count": 3
         }
       ],
       "existing_dietary_yes": [
@@ -19952,7 +20636,7 @@
           "input": "Inulin",
           "substance_id": "inulin",
           "assessment": "versioned-assessment",
-          "food_count": 0
+          "food_count": 1
         }
       ],
       "existing_dietary_yes": [
@@ -20093,7 +20777,6 @@
           },
           "admission": "unresolved",
           "admission_errors": [
-            "canonical-input-identity-mismatch",
             "functional_dependency-unresolved"
           ],
           "evidence": {
@@ -20105,26 +20788,6 @@
             ]
           },
           "limitation": "Requiring review: distinguish the studied mixture from individual FOS/GOS constituents, substrate utilisation from measured SCFA production, and SCFAs generally from butyrate. Ileal observations do not establish colonic absence; separate SCFA infusion and modelled estimates do not directly trace substrate conversion."
-        },
-        {
-          "atom_id": "BRS5-FM2-PM5::PM5-DIT-RECOVERY-INULIN",
-          "input": "Inulin",
-          "ontology": {
-            "identity": "resolved",
-            "conversion": "not-applicable",
-            "food": "unresolved"
-          },
-          "admission": "admitted",
-          "admission_errors": [],
-          "evidence": {
-            "finding_ids": [
-              "PM5-F3"
-            ],
-            "citation_keys": [
-              "duncan_acetate_butyrate_2004"
-            ]
-          },
-          "limitation": "Culture conditions and community composition constrain production. Human inulin tracer estimates depend on assumed systemic availability; the human chicory-inulin trial did not significantly increase faecal butyrate. No fixed food yield, intake target or brain benefit is established."
         }
       ],
       "unresolved": [
@@ -20132,12 +20795,11 @@
           "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
           "atom_id": "BRS5-FM2-PM5::PM5-DIT-2",
           "reason": [
-            "canonical-input-identity-mismatch",
             "functional_dependency-unresolved"
           ]
         }
       ],
-      "disposition": "admitted-food-coverage-gap"
+      "disposition": "admitted-food-targets-resolved"
     },
     {
       "pm": "BRS5-FM2-PM6",

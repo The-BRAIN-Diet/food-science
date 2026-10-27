@@ -198,48 +198,6 @@
       "limitations": "No numerical amount, free-vitamer pool, cooking yield, bioavailability or food-to-NAD effect inferred. Total niacin is not relabelled as either form."
     },
     {
-      "food_id": "pomegranates",
-      "food_title": "Pomegranate (studied commercial juice)",
-      "food_page": "/docs/foods/pomegranates",
-      "substance_id": "ellagic-acid",
-      "material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
-      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
-      "status": "research-supported-provisional",
-      "pm_ids": [
-        "BRS5-FM2-PM6"
-      ],
-      "evidence": {
-        "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
-        "sources": [
-          "https://doi.org/10.1038/s41430-021-00950-1"
-        ],
-        "retrieved": "2026-10-23",
-        "kind": "primary-food-composition"
-      },
-      "limitations": "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred."
-    },
-    {
-      "food_id": "pomegranates",
-      "food_title": "Pomegranate (studied commercial juice)",
-      "food_page": "/docs/foods/pomegranates",
-      "substance_id": "ellagitannins",
-      "material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
-      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
-      "status": "research-supported-provisional",
-      "pm_ids": [
-        "BRS5-FM2-PM6"
-      ],
-      "evidence": {
-        "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
-        "sources": [
-          "https://doi.org/10.1038/s41430-021-00950-1"
-        ],
-        "retrieved": "2026-10-23",
-        "kind": "primary-food-composition"
-      },
-      "limitations": "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred."
-    },
-    {
       "food_id": "beef",
       "food_title": "Beef",
       "food_page": "/docs/foods/beef",

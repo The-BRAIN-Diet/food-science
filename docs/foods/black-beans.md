@@ -59,6 +59,24 @@ nutrition_source:
 amino_acid_strengths: Lysine-rich relative to grains.
 limiting_amino_acids: Lower in methionine and cysteine (DIAAS ~65–70).
 complementary_pairings: 'Rice, oats, barley, or other grains to complete essential amino acid profile.'
+nutrition_supplementary_sources:
+  - key: resistant_starch_qual
+    label: Resistant starch
+    range: [3, 5]
+    unit: g
+    basis: per 100 g dry weight
+    citation_mark: asterisk
+    source_reference: '#food-source-4'
+    source_url: https://doi.org/10.1016/j.nfs.2016.02.002
+    evidence_material: Cooked black beans
+    preparation_state: Cooked; cooking duration and cooling protocol remain study-specific
+    public_display: table
+    source_note: >-
+      Fabbri, Schacht and Crosby (2016) report cooked black beans at about 3–5 g
+      resistant starch per 100 g dry weight after the first 30 minutes of
+      boiling. Raw beans in the same assay were about 31 g per 100 g dry weight.
+    source_group: Fabbri et al. 2016
+    notes: Dry weight of cooked beans. Not a fresh cooked weight.
 main_image: /img/foods/black-beans/black-beans_medium.webp
 legacy_list_image: /img/foods/black-beans/black-beans_thumb.webp
 legacy_main_image: /img/foods/black-beans/black-beans_medium.webp
@@ -179,7 +197,7 @@ substance_relationships:
     presence_status: presence_and_amount_supported
   - substance: Resistant starch
     relationship: contains
-    description: "Fabbri, Schacht and Crosby (2016) assayed resistant starch in cooked black beans. The reported figures are dry weight and depend on cooking time. They are not converted to a fresh cooked-bean amount here."
+    description: "Fabbri, Schacht and Crosby (2016) measured about 3–5 g resistant starch per 100 g dry weight in cooked black beans. The figure is dry weight and is not a fresh cooked-bean amount."
     evidence_status: supported
     presence_status: presence_supported_amount_unavailable
     evidence_source: "Fabbri et al., NFS Journal 2016"
@@ -238,3 +256,5 @@ Black Beans are rich in lysine but relatively low in sulfur-containing amino aci
 [2] Mariotti & Gardner (2019). [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Dietary-pattern evidence for complementary plant-protein sources; not evidence for black-bean polyphenol content or a black-bean feeding trial.
 
 [3] Hallberg et al. (1989). [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989). Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food.
+
+[4] <span id="food-source-4" />Fabbri, Schacht and Crosby (2016). [Evaluation of resistant starch content of cooked black beans, pinto beans, and chickpeas](https://doi.org/10.1016/j.nfs.2016.02.002). Cooked black beans contained about 3–5 g resistant starch per 100 g dry weight. Raw beans in the same assay were about 31 g per 100 g dry weight.

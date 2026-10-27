@@ -9,12 +9,12 @@ Generated from the same authoritative records as the PM disclosures. The preview
 | [BRS5-FM1-PM1](http://localhost:3000/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Glutamine](http://localhost:3000/docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine) — glutamine | No comparable quantified food sources | [Beef](http://localhost:3000/docs/foods/beef) — Quantity not established · form not known<br/>[Eggs](http://localhost:3000/docs/foods/eggs) — Quantity not established · form not known<br/>[Tofu](http://localhost:3000/docs/foods/tofu) — Quantity not established · form not known |
 | [BRS5-FM1-PM1](http://localhost:3000/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — 3.1.3 Key Constraints / Upstream Resources — Upstream/shared relationship<br/>[BRS5-FM2-PM5](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Fructo-oligosaccharides / galacto-oligosaccharides](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructo-galacto-oligosaccharides) — fructo-galacto-oligosaccharides | No comparable quantified food sources | None recorded |
 | [BRS5-FM1-PM1](http://localhost:3000/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — 3.1.3 Key Constraints / Upstream Resources — Upstream/shared relationship<br/>[BRS5-FM2-PM4](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship<br/>[BRS5-FM2-PM5](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Pectin](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin) — pectin | No comparable quantified food sources | [Apples](http://localhost:3000/docs/foods/apples) — Quantity not established · raw |
-| [BRS5-FM1-PM1](http://localhost:3000/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — 3.1.3 Key Constraints / Upstream Resources — Upstream/shared relationship<br/>[BRS5-FM2-PM4](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship<br/>[BRS5-FM2-PM5](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Resistant starch](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch) — resistant-starch | No comparable quantified food sources | [Bananas](http://localhost:3000/docs/foods/bananas) — Quantity not established · Green/unripe; cultivar and ripening state matter<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — Quantity not established · raw<br/>[Black Beans](http://localhost:3000/docs/foods/black-beans) — Quantity not established · Cooked; cooking duration and cooling protocol remain study-specific<br/>[Chickpeas](http://localhost:3000/docs/foods/chickpeas) — Quantity not established · Cooked; cooking duration and cooling protocol remain study-specific<br/>[Potatoes](http://localhost:3000/docs/foods/potatoes) — Quantity not established · Baked or boiled, then chilled to 4°C; distinguish reheated material |
+| [BRS5-FM1-PM1](http://localhost:3000/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — 3.1.3 Key Constraints / Upstream Resources — Upstream/shared relationship<br/>[BRS5-FM2-PM4](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship<br/>[BRS5-FM2-PM5](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Resistant starch](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch) — resistant-starch | [Bananas](http://localhost:3000/docs/foods/bananas) — 2.7–25.3 g (per 100 g fresh weight) · Green/unripe; cultivar and ripening state matter<br/>[Black Beans](http://localhost:3000/docs/foods/black-beans) — 3–5 g (per 100 g dry weight) · Cooked; cooking duration and cooling protocol remain study-specific<br/>[Chickpeas](http://localhost:3000/docs/foods/chickpeas) — 3–5 g (per 100 g dry weight) · Cooked; cooking duration and cooling protocol remain study-specific<br/>[Potatoes](http://localhost:3000/docs/foods/potatoes) — 2.2–5.4 g (per 100 g, moisture-corrected) · Baked or boiled, then chilled to 4°C; distinguish reheated material | None recorded |
 | [BRS5-FM1-PM2](http://localhost:3000/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Oligofructose](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/oligofructose) — oligofructose | No comparable quantified food sources | None recorded |
 | [BRS5-FM2-PM4](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Arabinan](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/arabinan) — arabinan | No comparable quantified food sources | [Peas](http://localhost:3000/docs/foods/peas) — Quantity not established · raw cotyledons |
-| [BRS5-FM2-PM4](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship<br/>[BRS5-FM2-PM5](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Inulin](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/inulin) — inulin | No comparable quantified food sources | None recorded |
-| [BRS5-FM2-PM6](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Ellagic acid](http://localhost:3000/docs/substances/bioactive-compounds/polyphenols/phenolic-acids/ellagic-acid) — ellagic-acid | No comparable quantified food sources | None recorded |
-| [BRS5-FM2-PM6](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Ellagitannins](http://localhost:3000/docs/substances/bioactive-compounds/polyphenols/ellagitannins) — ellagitannins | No comparable quantified food sources | [Walnuts](http://localhost:3000/docs/foods/walnuts) — Quantity not established · Walnut kernels; assay-specific extraction |
+| [BRS5-FM2-PM4](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship<br/>[BRS5-FM2-PM5](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Inulin](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/inulin) — inulin | [Asparagus](http://localhost:3000/docs/foods/asparagus) — 1.3 g (per 100 g dry matter) · Lyophilized edible spear; hot-water extract. Root excluded. | None recorded |
+| [BRS5-FM2-PM6](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Ellagic acid](http://localhost:3000/docs/substances/bioactive-compounds/polyphenols/phenolic-acids/ellagic-acid) — ellagic-acid | No comparable quantified food sources | [Pomegranates](http://localhost:3000/docs/foods/pomegranates) — 3.79 mg (per 100 mL) · Commercial single-strength juice; not aril-only juice |
+| [BRS5-FM2-PM6](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Ellagitannins](http://localhost:3000/docs/substances/bioactive-compounds/polyphenols/ellagitannins) — ellagitannins | No comparable quantified food sources | [Pomegranates](http://localhost:3000/docs/foods/pomegranates) — 156.17 mg (per 100 mL) · Commercial single-strength juice; gallagyl-type tannins, not every ellagitannin<br/>[Walnuts](http://localhost:3000/docs/foods/walnuts) — Quantity not established · Walnut kernels; assay-specific extraction |
 | [BRS5-FM2-PM6](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Epicatechin](http://localhost:3000/docs/substances/bioactive-compounds/polyphenols/flavan-3-ols/epicatechin) — epicatechin | No comparable quantified food sources | [Cacao Nibs (Raw)](http://localhost:3000/docs/foods/cacao-nibs-raw) — Quantity not established · preparation unknown<br/>[Cacao Powder](http://localhost:3000/docs/foods/cacao-powder) — Quantity not established · preparation unknown<br/>[Cacao Powder](http://localhost:3000/docs/foods/cacao-powder) — 196 mg (basis unknown; unverified amount) · preparation unknown<br/>[Cocoa](http://localhost:3000/docs/foods/cocoa) — Quantity not established · preparation unknown<br/>[Cocoa](http://localhost:3000/docs/foods/cocoa) — 34 mg (basis unknown; unverified amount) · preparation unknown<br/>[Dark Chocolate](http://localhost:3000/docs/foods/dark-chocolate) — Quantity not established · preparation unknown<br/>[Dark Chocolate](http://localhost:3000/docs/foods/dark-chocolate) — 70.4 mg (basis unknown; unverified amount) · preparation unknown |
 | [BRS5-FM3-PM7](http://localhost:3000/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Glucose](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/glucose) — glucose | [Bananas](http://localhost:3000/docs/foods/bananas) — 4.98 g (per 100 g edible portion) · raw<br/>[Grapes](http://localhost:3000/docs/foods/grapes) — 7.2 g (per 100 g edible portion) · raw | None recorded |
 | [BRS5-FM3-PM7](http://localhost:3000/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Linoleic Acid (LA, n-6)](http://localhost:3000/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-6/linoleic-acid) — linoleic-acid | [Almonds](http://localhost:3000/docs/foods/almonds) — 12.32 g (per 100 g edible portion) · preparation unknown<br/>[Amaranth](http://localhost:3000/docs/foods/amaranth) — 2.736 g (per 100 g edible portion) · uncooked<br/>[Anchovies](http://localhost:3000/docs/foods/anchovies) — 0.362 g (per 100 g edible portion) · oil<br/>[Apples](http://localhost:3000/docs/foods/apples) — 0.043 g (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 0.04 g (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 0.063 g (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 1.674 g (per 100 g edible portion) · raw<br/>[Avocado Oil](http://localhost:3000/docs/foods/avocado-oil) — 12.53 g (per 100 g edible portion) · Oil<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 0.046 g (per 100 g edible portion) · raw<br/>[Barley](http://localhost:3000/docs/foods/barley) — 0.999 g (per 100 g edible portion) · preparation unknown | None recorded |
@@ -321,18 +321,17 @@ Food sources identified; quantities not established.
 
 ## Resistant starch — resistant-starch
 
-Food sources identified; quantities not established.
+Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (5)</summary>
+<summary>All mapped food sources (4)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
-| [Bananas](http://localhost:3000/docs/foods/bananas) | Cavendish and plantain bananas — Green/unripe; cultivar and ripening state matter | Quantity not established | docs/foods/bananas.md#substance_relationships/Resistant%20starch |
-| [Bananas](http://localhost:3000/docs/foods/bananas) | Bananas, raw — raw | Quantity not established | docs/foods/bananas.md#nutrition_supplementary_sources/resistant_starch_qual |
-| [Black Beans](http://localhost:3000/docs/foods/black-beans) | Cooked black beans — Cooked; cooking duration and cooling protocol remain study-specific | Quantity not established | docs/foods/black-beans.md#substance_relationships/Resistant%20starch |
-| [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Cooked chickpeas — Cooked; cooking duration and cooling protocol remain study-specific | Quantity not established | docs/foods/chickpeas.md#substance_relationships/Resistant%20starch |
-| [Potatoes](http://localhost:3000/docs/foods/potatoes) | Yukon Gold, Dark Red Norland and Russet Burbank potatoes — Baked or boiled, then chilled to 4°C; distinguish reheated material | Quantity not established | docs/foods/potatoes.md#substance_relationships/Resistant%20starch |
+| [Bananas](http://localhost:3000/docs/foods/bananas) | Cavendish and plantain bananas — Green/unripe; cultivar and ripening state matter | 2.7–25.3 g (per 100 g fresh weight) | docs/foods/bananas.md#nutrition_supplementary_sources/resistant_starch_qual; docs/foods/bananas.md#substance_relationships/Resistant%20starch; docs/foods/bananas.md#nutrition_supplementary_sources/resistant_starch_qual |
+| [Black Beans](http://localhost:3000/docs/foods/black-beans) | Cooked black beans — Cooked; cooking duration and cooling protocol remain study-specific | 3–5 g (per 100 g dry weight) | docs/foods/black-beans.md#nutrition_supplementary_sources/resistant_starch_qual; docs/foods/black-beans.md#substance_relationships/Resistant%20starch; docs/foods/black-beans.md#nutrition_supplementary_sources/resistant_starch_qual |
+| [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Cooked chickpeas — Cooked; cooking duration and cooling protocol remain study-specific | 3–5 g (per 100 g dry weight) | docs/foods/chickpeas.md#nutrition_supplementary_sources/resistant_starch_qual; docs/foods/chickpeas.md#substance_relationships/Resistant%20starch; docs/foods/chickpeas.md#nutrition_supplementary_sources/resistant_starch_qual |
+| [Potatoes](http://localhost:3000/docs/foods/potatoes) | Yukon Gold, Dark Red Norland and Russet Burbank potatoes — Baked or boiled, then chilled to 4°C; distinguish reheated material | 2.2–5.4 g (per 100 g, moisture-corrected) | docs/foods/potatoes.md#nutrition_supplementary_sources/resistant_starch_qual; docs/foods/potatoes.md#substance_relationships/Resistant%20starch; docs/foods/potatoes.md#nutrition_supplementary_sources/resistant_starch_qual |
 
 </details>
 
@@ -362,35 +361,40 @@ Food sources identified; quantities not established.
 
 ## Inulin — inulin
 
-No food-source mappings for this preparation.
-
-<details>
-<summary>All mapped food sources (0)</summary>
-
-No eligible dietary food list is generated. Check the PM dietary-input decision separately from sourcing coverage.
-
-</details>
-
-## Ellagic acid — ellagic-acid
-
-No food-source mappings for this preparation.
-
-<details>
-<summary>All mapped food sources (0)</summary>
-
-No eligible dietary food list is generated. Check the PM dietary-input decision separately from sourcing coverage.
-
-</details>
-
-## Ellagitannins — ellagitannins
-
-Food sources identified; quantities not established.
+Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
 <summary>All mapped food sources (1)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
+| [Asparagus](http://localhost:3000/docs/foods/asparagus) | Green asparagus edible spear, var. Herkolim — Lyophilized edible spear; hot-water extract. Root excluded. | 1.3 g (per 100 g dry matter) | docs/foods/asparagus.md#nutrition_supplementary_sources/inulin_spear_dry; docs/foods/asparagus.md#substance_relationships/Inulin; docs/foods/asparagus.md#nutrition_supplementary_sources/inulin_spear_dry |
+
+</details>
+
+## Ellagic acid — ellagic-acid
+
+Food sources identified; no verified comparable quantities available.
+
+<details>
+<summary>All mapped food sources (1)</summary>
+
+| Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
+| --- | --- | --- | --- |
+| [Pomegranates](http://localhost:3000/docs/foods/pomegranates) | Commercial single-strength pomegranate juice — Commercial single-strength juice; not aril-only juice | 3.79 mg (per 100 mL) | docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagic_acid_commercial_juice; docs/foods/pomegranates.md#substance_relationships/Ellagic%20acid; docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagic_acid_commercial_juice |
+
+</details>
+
+## Ellagitannins — ellagitannins
+
+Food sources identified; no verified comparable quantities available.
+
+<details>
+<summary>All mapped food sources (2)</summary>
+
+| Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
+| --- | --- | --- | --- |
+| [Pomegranates](http://localhost:3000/docs/foods/pomegranates) | Commercial single-strength pomegranate juice — Commercial single-strength juice; gallagyl-type tannins, not every ellagitannin | 156.17 mg (per 100 mL) | docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagitannins_commercial_juice; docs/foods/pomegranates.md#substance_relationships/Ellagitannins; docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagitannins_commercial_juice |
 | [Walnuts](http://localhost:3000/docs/foods/walnuts) | Walnut kernels — Walnut kernels; assay-specific extraction | Quantity not established | docs/foods/walnuts.md#substance_relationships/Ellagitannins |
 
 </details>
