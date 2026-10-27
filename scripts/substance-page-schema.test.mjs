@@ -179,6 +179,17 @@ test("Butyrate Dietary Origin separates direct content from substrate pathways",
     starch.foods.map((food) => food.title),
     ["Bananas", "Black Beans", "Chickpeas", "Potatoes"],
   )
+  assert.equal(
+    starch.foods.find((food) => food.title === "Bananas").edge.substrateAmount,
+    "2.7–25.3 g per 100 g fresh weight",
+  )
+  assert.equal(
+    starch.foods.find((food) => food.title === "Potatoes").edge.substrateAmount,
+    "2.2–5.4 g per 100 g, moisture-corrected",
+  )
+  assert.equal(starch.foods.find((food) => food.title === "Black Beans").edge.substrateAmount, "3–5 g per 100 g dry weight")
+  assert.equal(starch.foods.find((food) => food.title === "Chickpeas").edge.substrateAmount, "3–5 g per 100 g dry weight")
+  for (const food of starch.foods) assert.equal(food.edge.butyrateQuantity, null)
   assert.equal(starch.substrateHref, "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch")
   assert.equal(starch.conversion.butyrateSpecificity, "preparation-specific-butyrate")
   assert.equal(starch.relationshipMetadata.productRelationship, "derived")
@@ -203,8 +214,11 @@ test("Butyrate Dietary Origin separates direct content from substrate pathways",
 
   assert.deepEqual(oligosaccharides.foods, [])
   assert.deepEqual(oligosaccharides.provisionalNotes, [])
-  assert.equal(oligosaccharides.substrateHref, null)
-  assert.equal(oligosaccharides.identityStatus, "missing-substance")
+  assert.equal(
+    oligosaccharides.substrateHref,
+    "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructo-galacto-oligosaccharides",
+  )
+  assert.equal(oligosaccharides.identityStatus, "resolved")
   assert.equal(oligosaccharides.conversion.butyrateSpecificity, "butyrate-yield-not-established")
 
   const renderedFoods = projection.pathways.flatMap((pathway) => [

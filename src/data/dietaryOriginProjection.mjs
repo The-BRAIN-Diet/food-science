@@ -93,6 +93,32 @@ function conversionClaim(atom) {
   }
 }
 
+function rangeDisplay(row) {
+  const range = row?.range
+  if (!Array.isArray(range) || range.length !== 2) return null
+  const [low, high] = range
+  if (typeof low !== "number" || typeof high !== "number" || Number.isNaN(low) || Number.isNaN(high)) return null
+  return [low + "–" + high, String(row.unit || "").trim(), String(row.basis || "").trim()].filter(Boolean).join(" ")
+}
+
+function substrateAmountFor(frontMatter, edge) {
+  const rows = Array.isArray(frontMatter?.nutrition_supplementary_sources)
+    ? frontMatter.nutrition_supplementary_sources
+    : []
+  for (const row of rows) {
+    if (!row || row.public_display === "internal-only") continue
+    if (!labelsOverlap(row.label, edge.substance)) continue
+    if (
+      row.preparation_state &&
+      edge.preparation_state &&
+      normalize(row.preparation_state) !== normalize(edge.preparation_state)
+    ) continue
+    const display = rangeDisplay(row)
+    if (display) return display
+  }
+  return null
+}
+
 function quantifiedDirectContent(edge) {
   if (edge?.presence_status !== "presence_and_amount_supported") return false
   if (typeof edge.value === "number" && !Number.isNaN(edge.value)) return true
@@ -146,6 +172,7 @@ function foodJoins(atom, foods) {
             preparation: edge.preparation_state || null,
             presence: edge.presence_status || null,
             limitation: edge.material_limitations || null,
+            substrateAmount: substrateAmountFor(food.frontMatter, edge),
             butyrateQuantity: null,
             key: `${edge.substance}:${edge.preparation_state || ""}`,
           },

@@ -28,6 +28,8 @@ interface SupplementarySource {
   /** Per 100 g numeric amount (primary database style) */
   value?: number
   unit?: string
+  /** Inclusive literature span. Rendered when amount_display is absent. */
+  range?: [number, number]
   /** When set (e.g. “Present — quantity not established”), overrides value + unit in the Amount column */
   amount_display?: string
   /** Explicit qualitative status; rendered when amount_display is absent */
@@ -37,6 +39,8 @@ interface SupplementarySource {
   source_group?: string
   source_url?: string
   source_reference?: string
+  /** Asterisk links to source_reference. Bracket citations stay the default. */
+  citation_mark?: "asterisk"
   nutrition_panel_eligible?: boolean
   basis?: string
   /** Override public visibility; default qualitative rows are substance-only. */
@@ -137,13 +141,15 @@ function isValidSupplementary(s: unknown): s is SupplementarySource {
   const o = s as SupplementarySource
   const hasNumeric =
     typeof o.value === "number" && typeof o.unit === "string" && !Number.isNaN(o.value)
+  const hasRange =
+    Array.isArray(o.range) && o.range.length === 2 && o.range.every((n) => typeof n === "number" && Number.isFinite(n))
   const hasDisplay = typeof o.amount_display === "string" && o.amount_display.trim().length > 0
   const hasStatus = typeof o.status === "string" && o.status.trim().length > 0
   return (
     typeof o.key === "string" &&
     typeof o.label === "string" &&
     typeof o.source_note === "string" &&
-    (hasNumeric || hasDisplay || hasStatus)
+    (hasNumeric || hasRange || hasDisplay || hasStatus)
   )
 }
 
@@ -211,6 +217,21 @@ export default function NutritionTable({details, view = "highlights"}: Nutrition
   const citationSuffix = (sup: SupplementarySource) => {
     const number = sup.source_reference?.match(/food-source-(\d+)$/)?.[1]
     return number ? ` [${number}]` : ""
+  }
+  const supplementaryAmount = (sup: SupplementarySource): string => {
+    if (typeof sup.amount_display === "string" && sup.amount_display.trim().length > 0) return sup.amount_display.trim()
+    if (Array.isArray(sup.range) && sup.range.length === 2 && sup.range.every((n) => typeof n === "number")) {
+      return `${sup.range[0]}–${sup.range[1]}${sup.unit ? ` ${sup.unit}` : ""}`
+    }
+    if (typeof sup.status === "string" && sup.status.trim().length > 0) return sup.status.trim()
+    if (typeof sup.value === "number" && sup.unit) return `${roundTo(sup.value, 1)} ${sup.unit}`
+    return ""
+  }
+  const markedAmount = (sup: SupplementarySource, text: string): React.ReactNode => {
+    if (sup.citation_mark === "asterisk" && sup.source_reference) {
+      return <>{text}<a href={sup.source_reference}>*</a></>
+    }
+    return `${text}${citationSuffix(sup)}`
   }
   let hasReferencePercent = false
 
@@ -307,14 +328,8 @@ export default function NutritionTable({details, view = "highlights"}: Nutrition
   )
 
   function renderRangeRow(sup: SupplementarySource): React.ReactElement {
-    const amountCell =
-      typeof sup.amount_display === "string" && sup.amount_display.trim().length > 0
-        ? `${sup.amount_display.trim()}${citationSuffix(sup)}`
-        : typeof sup.status === "string" && sup.status.trim().length > 0
-          ? `${sup.status.trim()}${citationSuffix(sup)}`
-          : typeof sup.value === "number" && sup.unit
-            ? `${roundTo(sup.value, 1)} ${sup.unit}${citationSuffix(sup)}`
-            : "—"
+    const amountText = supplementaryAmount(sup)
+    const amountCell = amountText ? markedAmount(sup, amountText) : "—"
     return (
       <tr key={sup.key} id={`nutrition-row-${sup.key}`} className="nutrition-row-target">
         <td style={tdStyle}>{sup.label}</td>
@@ -325,14 +340,8 @@ export default function NutritionTable({details, view = "highlights"}: Nutrition
   }
 
   const supplementaryRows = bioactiveSupplementary.map((sup) => {
-    const amountCell =
-      typeof sup.amount_display === "string" && sup.amount_display.trim().length > 0
-        ? `${sup.amount_display.trim()}${citationSuffix(sup)}`
-        : typeof sup.status === "string" && sup.status.trim().length > 0
-          ? `${sup.status.trim()}${citationSuffix(sup)}`
-          : typeof sup.value === "number" && sup.unit
-            ? `${roundTo(sup.value, 1)} ${sup.unit}${citationSuffix(sup)}`
-            : "—"
+    const amountText = supplementaryAmount(sup)
+    const amountCell = amountText ? markedAmount(sup, amountText) : "—"
     const notesCell =
       typeof sup.notes === "string" && sup.notes.trim().length > 0 ? sup.notes.trim() : "—"
     return (

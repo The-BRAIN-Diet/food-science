@@ -9,6 +9,8 @@ import {
   relatedFoodsForInput,
   renderRelatedFoodSources,
   relatedViaLabel,
+  relatedSubstanceRollup,
+  relativeSourcePower,
 } from "../src/data/relatedSubstanceRelationships.mjs"
 import {selectQuantified} from "../src/data/inputSubstanceFoodSelection.mjs"
 
@@ -43,6 +45,11 @@ test("a verified resistant-starch food becomes a related butyrate source", () =>
   }
   assert.match(butyrate.find((row) => row.food_id === "potatoes").preparation, /chilled to 4/)
   assert.equal(index.some((row) => row.food_id === "apples" && row.related_id === "butyrate"), false)
+  for (const product of ["acetate", "propionate"]) {
+    const rows = index.filter((row) => row.related_id === product)
+    assert.deepEqual(rows.map((row) => row.food_id).sort(), ["bananas", "black-beans", "chickpeas", "potatoes"])
+    assert.equal(rows.every((row) => row.intermediate_id === "resistant-starch" && row.quantity === null && row.rank_eligible === false), true)
+  }
 })
 
 test("removing the intermediate relationship removes the derived association", () => {
@@ -84,9 +91,11 @@ test("related sources stay out of quantitative ranking and manuscript butyrate r
   assert.deepEqual(ranked.sources, [])
   const html = renderRelatedFoodSources(related)
   assert.match(html, /data-food-source-kind="related"/)
+  assert.match(html, /data-related-quantity="none"/)
   assert.match(html, /Potatoes<\/a> — via resistant starch/)
   assert.match(html, /Baked or boiled, then chilled/)
-  assert.doesNotMatch(html, /per 100 g|contains dietary input|Relative Source Power/)
+  assert.match(html, /Resistant starch 2\.2–5\.4 g per 100 g, moisture-corrected/)
+  assert.doesNotMatch(html, /contains dietary input|Relative Source Power/)
   assert.equal(pm1("Butyrate").every((row) => !(row.food_targets || []).length), true)
   assert.equal(
     mapping.manuscript_rows.some((row) => row.canonical_substance_id === "butyrate" || row.substance_id === "butyrate"),
@@ -118,4 +127,49 @@ test("PM1 dietary admissions and six-atom records remain unchanged", () => {
       assert.notEqual(atom[key], undefined, `${atom.atom_id} ${key}`)
     }
   }
+})
+
+test("one new resistant-starch food generates butyrate everywhere and FOS/GOS stays unconnected", () => {
+  const extra = {
+    id: "new-starch-food",
+    title: "New Starch Food",
+    permalink: "/docs/foods/new-starch-food",
+    frontMatter: {
+      substance_relationships: [{
+        substance: "Resistant starch",
+        relationship: "contains",
+        evidence_status: "supported",
+        preparation_state: "Cooked and cooled",
+        source_url: "https://example.test/resistant-starch",
+      }],
+      nutrition_supplementary_sources: [{
+        label: "Resistant starch",
+        range: [4, 6],
+        unit: "g",
+        basis: "per 100 g fresh weight",
+        preparation_state: "Cooked and cooled",
+        source_url: "https://example.test/resistant-starch",
+        public_display: "table",
+      }],
+    },
+  }
+  const index = buildRelatedSubstanceIndex([...foods, extra])
+  const butyrate = index.filter((row) => row.related_id === "butyrate" && row.food_id === "new-starch-food")
+  assert.equal(butyrate.length, 1)
+  assert.equal(butyrate[0].quantity, null)
+  assert.equal(butyrate[0].contained_amount.display, "4–6 g per 100 g fresh weight")
+  const pm5 = mapping.relationships.filter((row) => row.id === "BRS5-FM2-PM5::PM5-DIT-6" || row.input === "Butyrate")
+  assert.ok(pm5.length)
+  assert.equal(pm5.every((row) => JSON.stringify(row).includes("new-starch-food")), false)
+  const fos = relatedFoodsForInput(
+    mapping.relationships.filter((row) => row.substance_id === "fructo-galacto-oligosaccharides"),
+    mapping.food_sources,
+  )
+  assert.deepEqual(fos, [])
+  const rollup = relatedSubstanceRollup(index.filter((row) => row.related_id === "butyrate"))
+  assert.equal(rollup.filter((row) => row.food_id === "bananas").length, 1)
+  assert.equal(rollup.every((row) => row.related_quantity === null && row.class === "related-substance"), true)
+  const power = relativeSourcePower(index.filter((row) => row.related_id === "butyrate"))
+  assert.ok(power.every((group) => new Set(group.ranked.map((row) => row.intermediate_id)).size === 1))
+  assert.equal(power.some((group) => group.ranked.some((row) => row.related_id !== group.ranked[0].related_id && row.intermediate_id !== group.intermediate_id)), false)
 })

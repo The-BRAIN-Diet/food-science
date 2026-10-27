@@ -1860,6 +1860,12 @@ by the Food architecture. This hierarchy is illustrative, not a rule that every
 food-facing input is Derived; classification still depends on the demonstrated
 relationship. Delivery is not itself an additional requirement: bypass delivery-only levels when the identified substance or defined pool is the biological target. Apply the input-specificity gate before using this hierarchy.
 
+#### Contained Substances and Related Substances
+
+Contained Substances are verified food `contains` records. Related Substances are a separate food-provision class. A relationship is stored once in `src/data/relatedSubstanceRelationships.mjs`, and food rows are generated only where a verified contains record matches that upstream substance. Eligible types are microbial production, endogenous conversion, and a defined constituent or pool relationship. One registered step is the limit. Keyword similarity, pathway co-occurrence, and provisional food research do not create a row.
+
+The amount shown is the contained upstream substance. It is not a quantity of the related substance, and amounts from different upstream substances are not added together or ranked as one downstream power. Comparable ranking stays inside one upstream substance, unit, and basis. PM food lists and the dietary roll-up keep this class separate from direct composition. This does not change a PM dietary admission, six-atom record, Type A/B classification, or Direct/Derived label. Pectin and the combined fructo-oligosaccharide/galacto-oligosaccharide preparation are not butyrate relationships. No verified food contains record currently connects a contained substance to fructo-galacto-oligosaccharides.
+
 #### Relationship-first workflow
 
 Before step 1, complete the input-specificity adjudication and record a specificity decision and supporting evidence for every candidate. A concise table row suffices for straightforward cases; explicitly address all three questions where the label is broad, the target changes, or the relationship is disputed or unresolved.

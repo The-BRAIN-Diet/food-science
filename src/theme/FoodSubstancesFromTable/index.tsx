@@ -42,6 +42,7 @@ interface SupplementarySource {
   label: string
   value?: number
   unit?: string
+  range?: [number, number]
   amount_display?: string
   status?: string
   source_note: string
@@ -203,10 +204,12 @@ export default function FoodSubstancesFromTable({
         }
         const hasNumeric =
           typeof s.value === "number" && typeof s.unit === "string" && !Number.isNaN(s.value)
+        const hasRange =
+          Array.isArray(s.range) && s.range.length === 2 && s.range.every((n) => typeof n === "number" && Number.isFinite(n))
         const hasDisplay =
           typeof s.amount_display === "string" && s.amount_display.trim().length > 0
         const hasStatus = typeof s.status === "string" && s.status.trim().length > 0
-        return hasNumeric || hasDisplay || hasStatus
+        return hasNumeric || hasRange || hasDisplay || hasStatus
       })
     : []
 
@@ -397,6 +400,9 @@ export default function FoodSubstancesFromTable({
             {relatedViaLabel(item.intermediate_label)}
             {" · "}
             {item.relationship_label}
+            {item.contained_amount?.display
+              ? `. ${item.intermediate_label} ${item.contained_amount.display}.`
+              : "."}
           </li>
         ))}
       </ul>

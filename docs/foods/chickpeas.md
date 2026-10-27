@@ -60,6 +60,24 @@ nutrition_source:
 amino_acid_strengths: Lysine-rich relative to grains.
 limiting_amino_acids: Lower in methionine and cysteine (DIAAS ~65–70).
 complementary_pairings: 'Rice, oats, barley, or other grains to complete essential amino acid profile.'
+nutrition_supplementary_sources:
+  - key: resistant_starch_qual
+    label: Resistant starch
+    range: [3, 5]
+    unit: g
+    basis: per 100 g dry weight
+    citation_mark: asterisk
+    source_reference: '#food-source-1'
+    source_url: https://doi.org/10.1016/j.nfs.2016.02.002
+    evidence_material: Cooked chickpeas
+    preparation_state: Cooked; cooking duration and cooling protocol remain study-specific
+    public_display: table
+    source_note: >-
+      Fabbri, Schacht and Crosby (2016) report cooked chickpeas within about
+      3–5 g resistant starch per 100 g dry weight. Canned chickpeas in the same
+      assay were 4.32 g per 100 g of the dried sample.
+    source_group: Fabbri et al. 2016
+    notes: Dry weight of cooked chickpeas. Not a fresh cooked weight.
 main_image: /img/foods/chickpeas/chickpeas_medium.webp
 legacy_list_image: /img/foods/chickpeas/chickpeas_thumb.webp
 legacy_main_image: /img/foods/chickpeas/chickpeas_medium.webp
@@ -186,7 +204,7 @@ substance_relationships:
     presence_status: presence_and_amount_supported
   - substance: Resistant starch
     relationship: contains
-    description: "Fabbri, Schacht and Crosby (2016) assayed resistant starch in cooked chickpeas in the same cooking series as black beans and pinto beans. Figures are dry weight and study-specific. No fresh-weight amount is entered here."
+    description: "Fabbri, Schacht and Crosby (2016) measured about 3–5 g resistant starch per 100 g dry weight in cooked chickpeas. The figure is dry weight and is not a fresh cooked-chickpea amount."
     evidence_status: supported
     presence_status: presence_supported_amount_unavailable
     evidence_source: "Fabbri et al., NFS Journal 2016"
@@ -249,3 +267,5 @@ Chickpeas are rich in lysine but relatively low in sulfur-containing amino acids
 <FoodSubstancesFromTable details={frontMatter} />
 
 ## References
+
+[1] <span id="food-source-1" />Fabbri, Schacht and Crosby (2016). [Evaluation of resistant starch content of cooked black beans, pinto beans, and chickpeas](/docs/papers/BRAIN-Diet-References#fabbri_legume_resistant_starch_2016). Cooked chickpeas stayed within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas were 4.32 g per 100 g of the dried sample.

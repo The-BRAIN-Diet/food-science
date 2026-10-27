@@ -2,6 +2,7 @@ import React from "react"
 import Link from "@docusaurus/Link"
 import {usePluginData} from "@docusaurus/useGlobalData"
 import {buildDietaryOriginProjection} from "@site/src/data/dietaryOriginProjection.mjs"
+import {buildRelatedSubstanceIndex} from "@site/src/data/relatedSubstanceRelationships.mjs"
 
 type OntologyData = {
   docs?: Array<Record<string, unknown>>
@@ -25,6 +26,7 @@ type FoodEdge = {
   preparation?: string | null
   presence?: string | null
   limitation?: string | null
+  substrateAmount?: string | null
 }
 
 type FoodNode = {
@@ -59,6 +61,25 @@ function EvidenceLinks({evidence, pmHref}: {evidence: Evidence; pmHref: string})
   )
 }
 
+function normalizeName(value: string) {
+  return String(value || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim()
+}
+
+function relatedFoodSources(docs: Array<Record<string, unknown>>, target: string) {
+  const foods = (docs || [])
+    .filter((doc) => String(doc?.permalink || "").includes("/foods/"))
+    .map((doc) => ({
+      id: (doc.frontMatter as {id?: string} | undefined)?.id,
+      title: doc.title,
+      permalink: doc.permalink,
+      frontMatter: doc.frontMatter,
+    }))
+  const needle = normalizeName(target)
+  return buildRelatedSubstanceIndex(foods).filter(
+    (row) => normalizeName(row.related_label) === needle || row.related_id === target,
+  )
+}
+
 function foodEdgeTitle(food: FoodNode) {
   return [
     "Direct food composition of the substrate. This is not a butyrate quantity.",
@@ -76,9 +97,10 @@ export default function DietaryOriginProjection({
   pmId,
 }: DietaryOriginProjectionProps): React.ReactElement {
   const data = usePluginData("ontology-projection") as OntologyData
-  const projection = buildDietaryOriginProjection(data?.docs || [], {target, pmId})
+  const projection = pmId ? buildDietaryOriginProjection(data?.docs || [], {target, pmId}) : null
+  const relatedFoods = relatedFoodSources(data?.docs || [], target)
 
-  if (!projection) {
+  if (!projection && pmId) {
     return (
       <p className="dietary-origin-projection__empty">
         No canonical upstream dietary relationships are currently available.
@@ -89,7 +111,7 @@ export default function DietaryOriginProjection({
   return (
     <section className="dietary-origin-projection" aria-label={`Dietary origin of ${target}`}>
       <h3>Direct food content</h3>
-      {projection.directFoodContent.length ? (
+      {projection?.directFoodContent.length ? (
         <ul className="dietary-origin-direct-foods">
           {projection.directFoodContent.map((food) => (
             <li key={food.permalink}>
@@ -109,8 +131,26 @@ export default function DietaryOriginProjection({
         </>
       )}
 
-      <h3>Upstream microbial production</h3>
-      {projection.product && projection.product.admittedDietaryRequirement === false ? (
+      <h3>Related food sources</h3>
+      {relatedFoods.length ? (
+        <ul className="dietary-origin-direct-foods">
+          {relatedFoods.map((food) => (
+            <li key={`${food.food_id}:${food.intermediate_id}:${food.preparation || ""}`}>
+              <Link to={food.food_page}>{food.food_title}</Link>
+              {" — via "}
+              {food.intermediate_label}
+              {" · "}
+              {food.relationship_label}
+              {food.contained_amount?.display ? `. ${food.intermediate_label} ${food.contained_amount.display}.` : "."}
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p>No registered upstream food relationship is available for {target}.</p>
+      )}
+
+      {projection ? <h3>Upstream microbial production</h3> : null}
+      {projection?.product && projection.product.admittedDietaryRequirement === false ? (
         <p>
           On{" "}
           <Link to={projection.pm.permalink}>{projection.pm.title}</Link>, {target} is recorded as{" "}
@@ -119,7 +159,7 @@ export default function DietaryOriginProjection({
         </p>
       ) : null}
 
-      {projection.pathways.length ? (
+      {projection?.pathways.length ? (
         <div className="dietary-origin-projection__grid">
           {projection.pathways.map((pathway) => {
             const atom = pathway.atom
@@ -146,6 +186,7 @@ export default function DietaryOriginProjection({
                           title={foodEdgeTitle(food)}
                         >
                           ↓ direct composition: contains {food.edge.inputLabel}
+                          {food.edge.substrateAmount ? ` ${food.edge.substrateAmount}` : ""}
                           {food.edge.preparation ? ` (${food.edge.preparation})` : ""}
                         </span>
                       </div>
@@ -258,11 +299,11 @@ export default function DietaryOriginProjection({
             )
           })}
         </div>
-      ) : (
+      ) : projection ? (
         <p className="dietary-origin-projection__empty">
           No canonical upstream dietary relationships are currently available.
         </p>
-      )}
+      ) : null}
     </section>
   )
 }

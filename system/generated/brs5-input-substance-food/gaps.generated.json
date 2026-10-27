@@ -213,13 +213,6 @@
     },
     {
       "kind": "stale-missing-substance-status",
-      "pm_id": "BRS5-FM2-PM5",
-      "atom_id": "PM5-DIT-2",
-      "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
-      "resolved_id": "fructo-galacto-oligosaccharides"
-    },
-    {
-      "kind": "stale-missing-substance-status",
       "pm_id": "BRS5-FM2-PM6",
       "atom_id": "PM6-DIT-1",
       "input": "Ellagic acid",

@@ -40,7 +40,7 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
             continue;
         const file = 'docs/substances/' + r.path;
         const exists = fs.existsSync(path.join(root, file)), d = exists ? load(file).data : {};
-        substances[id] = { id, title: d.title || r.title || id, page: exists ? '/docs/substances/' + r.path.replace(/\.mdx?$/, '') : null, record: registryFile + '#' + id, exists };
+        substances[id] = { id, title: d.title || r.title || id, aliases: [...(r.aliases || []), ...(d.aliases || [])], page: exists ? '/docs/substances/' + r.path.replace(/\.mdx?$/, '') : null, record: registryFile + '#' + id, exists };
         for (const name of [id, r.title, d.title, d.sidebar_label, ...(d.aliases || []), ...(d.synonyms || [])]) {
             alias(name, id);
             const par = String(name || '').match(/^(.+?)\s*\((.+)\)$/);

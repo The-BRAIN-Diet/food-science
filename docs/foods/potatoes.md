@@ -52,6 +52,24 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
+nutrition_supplementary_sources:
+  - key: resistant_starch_qual
+    label: Resistant starch
+    range: [2.2, 5.4]
+    unit: g
+    basis: per 100 g, moisture-corrected
+    citation_mark: asterisk
+    source_reference: '#food-source-3'
+    source_url: https://doi.org/10.1016/j.foodchem.2016.03.120
+    evidence_material: Yukon Gold, Dark Red Norland and Russet Burbank potatoes
+    preparation_state: Baked or boiled, then chilled to 4°C; distinguish reheated material
+    public_display: table
+    source_note: >-
+      Raatz et al. (2016) Table 1 reports moisture-corrected resistant starch
+      from 2.2 to 5.4 g per 100 g across Yukon Gold, Dark Red Norland and
+      Russet Burbank potatoes, baked or boiled, served hot, chilled, or reheated.
+    source_group: Raatz et al. 2016
+    notes: Moisture-corrected. Baked or boiled; hot, chilled six days, or reheated.
 main_image: /img/foods/potatoes/potatoes_medium.webp
 legacy_list_image: /img/foods/potatoes/potatoes_thumb.webp
 legacy_main_image: /img/foods/potatoes/potatoes_medium.webp
@@ -88,7 +106,7 @@ substance_relationships:
     presence_status: presence_and_amount_supported
   - substance: Resistant starch
     relationship: contains
-    description: "Raatz et al. (2016) measured resistant starch in Yukon Gold, Dark Red Norland and Russet Burbank potatoes after baking or boiling, served hot, chilled at 4°C, or reheated. The amount depends on that preparation. No single figure is entered here."
+    description: "Raatz et al. (2016) measured 2.2–5.4 g resistant starch per 100 g, moisture-corrected, in Yukon Gold, Dark Red Norland and Russet Burbank potatoes after baking or boiling, served hot, chilled, or reheated."
     evidence_status: supported
     presence_status: presence_supported_amount_unavailable
     evidence_source: "Raatz et al., Food Chemistry 2016"
@@ -137,3 +155,5 @@ In practical terms, potatoes can serve both glycaemic stability and polyphenol d
 [1] Cooled potatoes provide resistant starch that supports beneficial gut microbiota fermentation. Zhou et al. 2015. [The importance of GLP‐1 and PYY in resistant starch's effect on body fat in mice](/docs/papers/BRAIN-Diet-References#zhou_importance_2015)
 
 [2] Resistant starch fermentation produces short-chain fatty acids relevant to gut–brain signalling. Fan et al. 2019. [SCFA producing bacteria shape the subtype of ADHD in children](/docs/papers/BRAIN-Diet-References#fan_scfa_2019)
+
+[3] <span id="food-source-3" />Raatz et al. (2016). [Resistant starch analysis of commonly consumed potatoes: Content varies by cooking method and service temperature but not by variety](/docs/papers/BRAIN-Diet-References#raatz_potato_resistant_starch_2016). Moisture-corrected resistant starch was 2.2–5.4 g per 100 g across the baked and boiled, hot, chilled, and reheated potatoes tested.

@@ -146,6 +146,8 @@ Explain how dietary exposure relates to the substance. This is relationship-awar
 
 Direct occurrence and precursor/support relationships are different edges. A food that supplies ellagitannins for microbial Urolithin A production does not contain Urolithin A. A fermentable-fibre food does not contain Butyrate merely because fermentation may produce it.
 
+Dietary Context separates **Direct food sources** from **Related food sources**. Direct sources are verified contains records for the substance itself. Related sources are generated from `src/data/relatedSubstanceRelationships.mjs` and those contains records. The amount shown is the contained upstream substance. Do not calculate a downstream amount from it, do not rank different upstream substances as one power, and do not keep a second hand-written food list. Comparable ranking applies only inside one upstream substance, unit and basis, and only to foods at or above one tenth of that group's highest measured low value. Pectin and the combined FOS/GOS preparation are not Butyrate relationships: the registered evidence does not establish a butyrate-specific yield. No verified food contains record currently connects a contained substance to fructo-galacto-oligosaccharides.
+
 Where canonical PM/KC dietary-requirement atoms and validated Food-to-input
 relationships exist, Dietary Context may render them with
 `<DietaryOriginProjection target="…" pmId="…" />`. The component is a

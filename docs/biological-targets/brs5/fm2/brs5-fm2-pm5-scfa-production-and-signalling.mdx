@@ -447,15 +447,17 @@ dietary_input_traceability:
       Ileal observations do not establish colonic absence; separate SCFA infusion and modelled
       estimates do not directly trace substrate conversion.
     canonical_identity:
-      status: missing-substance
-      severity: MAJOR
-      intended_identity: Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)
+      status: resolved
+      substance_id: fructo-galacto-oligosaccharides
+      substance_href: /docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructo-galacto-oligosaccharides
       aliases_checked:
         - Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)
+        - FOS/GOS
       checked_sources:
         - registry/substances.json
-        - docs/substances/ (label/form/alias search)
-      projection_status: blocked
+        - docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructo-galacto-oligosaccharides.md
+      projection_status: resolved
+    substance_id: fructo-galacto-oligosaccharides
   - atom_id: PM5-DIT-3
     dietary_input: true
     dietary_input_note: >-
@@ -655,17 +657,18 @@ pending_actions:
     previous_input: Resistant potato starch
   - action_id: PM5-IDENTITY-2
     severity: MAJOR
-    status: pending
+    status: resolved
     input: Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)
     pm_id: BRS5-FM2-PM5
     section: 3.1.1
     relationship_type: pm-specific-input
     aliases_checked:
       - Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)
+      - FOS/GOS
     action: >-
-      Historical studied FOS/GOS mixture retained. Combined registry identity exists, but
-      mixture specification and PM-specific Capacity admission require review; do not silently
-      split, broaden or readmit it.
+      Studied-preparation label now resolves to the existing combined fructo-galacto-oligosaccharides
+      record. No ordinary-food source is attached. Capacity admission stays unresolved; do not
+      split the mixture, broaden it to oligofructose or inulin, or readmit the food-effect claim.
   - action_id: PM5-IDENTITY-3
     severity: MAJOR
     status: resolved
@@ -692,9 +695,11 @@ pending_actions:
       - BRS5-KC1-KIT-2
       - BRS5-KC1-KIT-3
     action: >-
-      Reconcile legacy group/iKC meanings with registered constituent-plus-substance identity,
-      individually adjudicate candidates, and then project only verified admitted edges. Pool
-      supply is not automatic individual admission.
+      Pectin and resistant starch were compared with their Direct Dietary
+      Requirements. Both repeat the same fermentable-substrate supply, so they
+      stay in 1.1.1 and are not repeated as individual KC inputs. The studied
+      FOS/GOS constituent stays unresolved with PM5-DIT-2. The KC row that remains
+      is the shared-pool summary.
 pm_kc_relationships:
   - relationship_id: PM5-KC1-SUPPLY
     dietary_input: false
@@ -723,7 +728,56 @@ pm_kc_relationships:
     applicability_label: Supported upstream supply
     origin_label: 'KC1: Fermentable Fibre Pool'
     kc_href: /docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability
-    constituent_relationships: []
+    constituent_relationships:
+      - relationship_id: PM5-KC1-UPSTREAM-2-REL
+        pm_atom_id: PM5-KC1-UPSTREAM-2
+        kc_atom_id: BRS5-KC1-KIT-2
+        ikc_id: BRS5-KC1-KIT-2
+        kc_membership_status: canonical-reviewed
+        label: Pectin
+        presentation_section: 3.1.3
+        reader_description: >-
+          Pectin is the individual KC input for the fermentable-fibre pool. Its
+          Direct Dietary Requirement already records the capacity relationship.
+        description_finding_id: PM5-F1
+        relationship_type: supported-upstream-supply
+        substance_id: pectin
+        canonical_identity:
+          status: resolved
+          substance_id: pectin
+          substance_href: /docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin
+          checked_sources:
+            - registry/substances.json
+          projection_status: resolved
+        disposition: consolidated as duplicate
+        rationale: >-
+          Same fermentable-substrate supply as PM5-DIT-3. Kept in 1.1.1 only.
+      - relationship_id: PM5-KC1-UPSTREAM-3-REL
+        pm_atom_id: PM5-KC1-UPSTREAM-3
+        kc_atom_id: BRS5-KC1-KIT-3
+        ikc_id: BRS5-KC1-KIT-3
+        kc_membership_status: canonical-reviewed
+        label: Resistant starch
+        presentation_section: 3.1.3
+        reader_description: >-
+          Resistant starch is the individual KC input for the fermentable-fibre
+          pool. Its measured food ranges stay on that constituent, not on acetate,
+          propionate or butyrate.
+        description_finding_id: PM5-F1
+        relationship_type: supported-upstream-supply
+        substance_id: resistant-starch
+        canonical_identity:
+          status: resolved
+          substance_id: resistant-starch
+          substance_href: /docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch
+          checked_sources:
+            - registry/substances.json
+          projection_status: resolved
+        disposition: consolidated as duplicate
+        rationale: >-
+          Same fermentable-substrate supply as PM5-DIT-1. Kept in 1.1.1 only.
+          Acetate, propionate and butyrate still reach these foods through
+          microbial production, without copying the resistant-starch amount.
 kc_applicability_adjudications:
   - kc_id: BRS5(KC1)
     ikc_id: BRS5(KC1)
@@ -742,7 +796,9 @@ kc_applicability_adjudications:
     evidence_limitation: >-
       The pool summary does not add another copy of each substrate job or establish a uniform
       limiting threshold; preparation and community affect product formation.
-    remaining_gap: Legacy constituent registration and substance identities require separate reconciliation.
+    remaining_gap: >-
+      Pectin and resistant starch repeat the 1.1.1 supply role and are not
+      repeated here. Studied FOS/GOS stays unresolved with PM5-DIT-2.
   - kc_id: BRS5(KC2)
     ikc_id: BRS5(KC2)
     arm_id: PM5-BRS5KC2-review
@@ -805,7 +861,9 @@ kc_distinctness_review:
         - baxter_fermentable_fibers_2019
         - van_trijp_intraintestinal_2024
         - pascale_potential_2022
-    gap: Legacy constituent registration and substance identities require separate reconciliation.
+    gap: >-
+      Studied FOS/GOS stays unresolved with PM5-DIT-2 and is not published as an
+      individual KC input.
     rationale: >-
       Concise supported-upstream resource context; full provision atoms are not reprinted and no
       additional conditional limitation is inferred. The shared pool summary follows the
@@ -859,6 +917,54 @@ kc_distinctness_review:
     rationale: >-
       Additional public relationship withheld pending the exact gap recorded in the
       applicability assessment.
+  - relationship_id: PM5-KC1-UPSTREAM-2-REL
+    kc_id: BRS5(KC1)
+    disposition: consolidated as duplicate
+    biological_job: >-
+      Pectin supplies fermentable carbohydrate for microbial SCFA production.
+      That is the same job as PM5-DIT-3.
+    compared_records:
+      3.1.1:
+        - PM5-DIT-3
+      3.1.2:
+        - PM5-DIT-4
+        - PM5-DIT-5
+        - PM5-DIT-6
+      '3.2': []
+    evidence_source:
+      finding_ids:
+        - PM5-F1
+      citation_keys:
+        - pascale_potential_2022
+        - bang_pectin_2018
+    rationale: >-
+      Consolidated into the 1.1.1 pectin requirement. KC membership does not
+      create a second supply job.
+  - relationship_id: PM5-KC1-UPSTREAM-3-REL
+    kc_id: BRS5(KC1)
+    disposition: consolidated as duplicate
+    biological_job: >-
+      Resistant starch supplies fermentable carbohydrate for microbial SCFA
+      production. That is the same job as PM5-DIT-1.
+    compared_records:
+      3.1.1:
+        - PM5-DIT-1
+      3.1.2:
+        - PM5-DIT-4
+        - PM5-DIT-5
+        - PM5-DIT-6
+      '3.2': []
+    evidence_source:
+      finding_ids:
+        - PM5-F1
+      citation_keys:
+        - baxter_fermentable_fibers_2019
+        - ze_resistant_starch_2012
+        - fassler_resistant_starch_2006
+    rationale: >-
+      Consolidated into the 1.1.1 resistant-starch requirement. Acetate,
+      propionate and butyrate still use those foods through microbial production,
+      without receiving the resistant-starch amount.
 pm_lever_layout: principal-after-mission
 intervention_dominance_assessment:
   evidence_qualification:
@@ -1333,7 +1439,7 @@ No direct functional outcome relationship currently mapped.
 
 **Stage 2A — Evidence enrichment:** Substrate utilisation, product concentrations, inferred production and downstream barrier/mitochondrial effects answer different propositions. Retain both Findings, including null/compartment qualifications and secondary-review classification.
 
-**Stage 2B — Dietary interpretation and traceability:** Resistant starch and pectin retain their existing Capacity/Direct relationships to production. Preserve the historical FOS/GOS review disposition and product-only acetate/propionate/butyrate records; no ordinary-food butyrate yield is inferred.
+**Stage 2B — Dietary interpretation and traceability:** Resistant starch and pectin retain their Capacity/Direct supply relationships in 1.1.1. The same supply is not repeated as an individual KC input. The KC row is the shared fermentable-fibre pool summary. Acetate, propionate and butyrate stay product records and reach the resistant-starch foods through microbial production, without copying the resistant-starch amount. Preserve the historical FOS/GOS review disposition.
 
 The standard food dropdown continues to use the existing structured relationships and composition-research ledger. Verified food links, provisional material-specific sources and unresolved pathways remain distinct. No new dietary admission, food edge or score is introduced by this review disclosure.
 
