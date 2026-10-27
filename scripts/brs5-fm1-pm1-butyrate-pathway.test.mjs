@@ -1,0 +1,82 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {buildInputSubstanceFood} from './lib/input-substance-food.mjs';
+import {renderUpstreamCandidates} from '../src/lib/foodTargetTraceability.mjs';
+import {validateInputGovernance} from './lib/dietary-input-governance.mjs';
+import fs from 'node:fs';
+import matter from 'gray-matter';
+
+const built = buildInputSubstanceFood(process.cwd(), {brs: 'BRS5'});
+const butyrate = built.relationships.find(r => r.id === 'BRS5-FM1-PM1::PM1-DIT-1');
+const fibre = built.relationships.find(r => r.id === 'BRS5-FM1-PM1::PM1-DIT-2');
+const bundle = fibre.upstream_candidates;
+const pm = matter(fs.readFileSync('docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx', 'utf8'));
+
+test('butyrate admission and class identity stay unresolved', () => {
+  assert.equal(butyrate.dietary_input, null);
+  assert.equal(butyrate.substance_id, 'butyrate');
+  assert.equal(butyrate.scientific_admission, 'unresolved');
+  assert.deepEqual(butyrate.food_targets, []);
+  assert.equal(fibre.dietary_input, true);
+  assert.equal(fibre.substance_id, null);
+  assert.equal(fibre.identity_status, 'unresolved-identity');
+  assert.equal(fibre.derived_target_atom_id, butyrate.id);
+  assert.deepEqual(fibre.food_targets, []);
+  assert.equal(built.manuscript_rows.some(r => r.canonical_substance_id === 'butyrate'), false);
+  assert.equal(built.manuscript_rows.filter(r => r.pm === 'BRS5-FM1-PM1' && r.dietary_input === 'Fermentable dietary fibre').length, 1);
+  assert.equal(built.cursor_queue.some(q => q.target_entity === 'butyrate'), false);
+});
+
+test('existing substrate foods are candidates, not butyrate content', () => {
+  assert.equal(bundle.product_id, butyrate.id);
+  assert.deepEqual(bundle.derived_ids, [fibre.id]);
+  const starch = bundle.candidates.find(c => c.substance_id === 'resistant-starch');
+  const pectin = bundle.candidates.find(c => c.substance_id === 'pectin');
+  const fos = bundle.candidates.find(c => c.substance_id === 'fructo-galacto-oligosaccharides');
+  assert.equal(starch.review_status, 'verified-substrate-food');
+  assert.equal(starch.chain.food_delivery, 'established');
+  assert.equal(starch.chain.microbial_butyrate, 'conditional');
+  assert.equal(starch.chain.ordinary_food_butyrate_yield, 'unresolved');
+  assert.equal(starch.chain.epithelial_exposure, 'unresolved');
+  assert.equal(starch.chain.tight_junction_engagement, 'unresolved');
+  assert.equal(starch.chain.butyrate_cellular_action, 'established-experimental');
+  assert.equal(starch.chain.pm1_capacity_admission, 'withheld');
+  assert.equal(pectin.chain.microbial_butyrate, 'conditional');
+  assert.equal(fos.chain.microbial_butyrate, 'unresolved');
+  assert.deepEqual((pm.data.dietary_input_assessments || []).map(a => a.atom_id), ['PM1-DIT-6']);
+  assert.ok(starch.foods.some(f => f.food_id === 'bananas' && /green|unripe/i.test(f.preparation)));
+  assert.ok(starch.foods.some(f => f.food_id === 'potatoes' && /chill|cool|4/i.test(f.preparation)));
+  assert.ok(['chickpeas', 'black-beans'].every(id => starch.foods.some(f => f.food_id === id)));
+  assert.ok(starch.foods.every(f => f.delivery === 'precursor-source' && f.mapping_status === 'verified'));
+  assert.equal(pectin.review_status, 'provisional-substrate-food');
+  assert.deepEqual(pectin.foods.map(f => f.food_id), ['apples']);
+  assert.equal(pectin.foods[0].mapping_status, 'research-supported-provisional');
+  assert.equal(fos.review_status, 'no-canonical-food-source');
+  assert.deepEqual(fos.foods, []);
+  assert.equal(bundle.inulin.admitted, false);
+  assert.equal(bundle.candidates.some(c => c.substance_id === 'inulin' || c.substance_id === 'butyrate'), false);
+});
+
+test('candidate dropdown labels precursors and keeps the red provisional icon', () => {
+  const html = renderUpstreamCandidates(bundle);
+  assert.match(html, /data-food-source-kind="upstream-candidates"/);
+  assert.match(html, /Not approved butyrate-delivery targets/);
+  assert.match(html, /supplies precursor/);
+  assert.doesNotMatch(html, /contains dietary input/);
+  assert.match(html, /Bananas/);
+  assert.match(html, /Potatoes/);
+  assert.match(html, /Chickpeas/);
+  assert.match(html, /Black Beans/);
+  assert.match(html, /Apples/);
+  assert.match(html, /food-target-info/);
+  assert.match(html, /food ontology link pending/);
+  assert.match(html, /No canonical food source recorded/);
+  assert.match(html, /Inulin is not an admitted substrate/);
+  assert.match(butyrate.coverage_warnings.join(' '), /dietary admission unresolved/);
+  assert.match(butyrate.coverage_warnings.join(' '), /not butyrate content/);
+  assert.doesNotMatch(pm.content, /not butyrate content/);
+  assert.match(html, /does not transfer the resistant-potato-starch faecal response/);
+  const issues = [];
+  validateInputGovernance(pm.data, issues, {content: pm.content, entityLabel: pm.data.pm_id});
+  assert.deepEqual(issues, []);
+});

@@ -1,0 +1,870 @@
+{
+  "generated_from": "verified contains records and src/data/relatedSubstanceRelationships.mjs",
+  "records": [
+    {
+      "class": "related-substance",
+      "food_id": "bananas",
+      "food_title": "Bananas",
+      "food_page": "/docs/foods/bananas",
+      "intermediate_id": "resistant-starch",
+      "intermediate_label": "Resistant starch",
+      "related_id": "acetate",
+      "related_label": "Acetate",
+      "relationship": "microbial-production",
+      "preparation": "Green/unripe; cultivar and ripening state matter",
+      "contained_amount": {
+        "display": "2.7–25.3 g per 100 g fresh weight",
+        "low": 2.7,
+        "high": 25.3,
+        "unit": "g",
+        "basis": "per 100 g fresh weight",
+        "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+      },
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "fassler_resistant_starch_2006",
+          "sobh_tolerability_2022"
+        ],
+        "statement": "Resistant-starch fermentation can yield acetate among the short-chain fatty acids produced in suitable communities."
+      },
+      "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "bananas",
+      "food_title": "Bananas",
+      "food_page": "/docs/foods/bananas",
+      "intermediate_id": "resistant-starch",
+      "intermediate_label": "Resistant starch",
+      "related_id": "butyrate",
+      "related_label": "Butyrate",
+      "relationship": "microbial-production",
+      "preparation": "Green/unripe; cultivar and ripening state matter",
+      "contained_amount": {
+        "display": "2.7–25.3 g per 100 g fresh weight",
+        "low": 2.7,
+        "high": 25.3,
+        "unit": "g",
+        "basis": "per 100 g fresh weight",
+        "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+      },
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "baxter_fermentable_fibers_2019",
+          "fassler_resistant_starch_2006"
+        ],
+        "statement": "Defined resistant-starch preparations can support microbial butyrate production in suitable communities."
+      },
+      "limitation": "A resistant-potato-starch response and RS2/RS3 culture results do not transfer to every ordinary food. No butyrate quantity or yield is assigned from the food's resistant-starch content. Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "bananas",
+      "food_title": "Bananas",
+      "food_page": "/docs/foods/bananas",
+      "intermediate_id": "resistant-starch",
+      "intermediate_label": "Resistant starch",
+      "related_id": "propionate",
+      "related_label": "Propionate",
+      "relationship": "microbial-production",
+      "preparation": "Green/unripe; cultivar and ripening state matter",
+      "contained_amount": {
+        "display": "2.7–25.3 g per 100 g fresh weight",
+        "low": 2.7,
+        "high": 25.3,
+        "unit": "g",
+        "basis": "per 100 g fresh weight",
+        "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+      },
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "fassler_resistant_starch_2006",
+          "sobh_tolerability_2022"
+        ],
+        "statement": "Resistant-starch fermentation can yield propionate among the short-chain fatty acids produced in suitable communities."
+      },
+      "limitation": "The food's resistant-starch range is not a propionate concentration or yield. Community and preparation change the product mixture. Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "black-beans",
+      "food_title": "Black Beans",
+      "food_page": "/docs/foods/black-beans",
+      "intermediate_id": "resistant-starch",
+      "intermediate_label": "Resistant starch",
+      "related_id": "acetate",
+      "related_label": "Acetate",
+      "relationship": "microbial-production",
+      "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "contained_amount": {
+        "display": "3–5 g per 100 g dry weight",
+        "low": 3,
+        "high": 5,
+        "unit": "g",
+        "basis": "per 100 g dry weight",
+        "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002"
+      },
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "fassler_resistant_starch_2006",
+          "sobh_tolerability_2022"
+        ],
+        "statement": "Resistant-starch fermentation can yield acetate among the short-chain fatty acids produced in suitable communities."
+      },
+      "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "black-beans",
+      "food_title": "Black Beans",
+      "food_page": "/docs/foods/black-beans",
+      "intermediate_id": "resistant-starch",
+      "intermediate_label": "Resistant starch",
+      "related_id": "butyrate",
+      "related_label": "Butyrate",
+      "relationship": "microbial-production",
+      "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "contained_amount": {
+        "display": "3–5 g per 100 g dry weight",
+        "low": 3,
+        "high": 5,
+        "unit": "g",
+        "basis": "per 100 g dry weight",
+        "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002"
+      },
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "baxter_fermentable_fibers_2019",
+          "fassler_resistant_starch_2006"
+        ],
+        "statement": "Defined resistant-starch preparations can support microbial butyrate production in suitable communities."
+      },
+      "limitation": "A resistant-potato-starch response and RS2/RS3 culture results do not transfer to every ordinary food. No butyrate quantity or yield is assigned from the food's resistant-starch content. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "black-beans",
+      "food_title": "Black Beans",
+      "food_page": "/docs/foods/black-beans",
+      "intermediate_id": "resistant-starch",
+      "intermediate_label": "Resistant starch",
+      "related_id": "propionate",
+      "related_label": "Propionate",
+      "relationship": "microbial-production",
+      "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "contained_amount": {
+        "display": "3–5 g per 100 g dry weight",
+        "low": 3,
+        "high": 5,
+        "unit": "g",
+        "basis": "per 100 g dry weight",
+        "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002"
+      },
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "fassler_resistant_starch_2006",
+          "sobh_tolerability_2022"
+        ],
+        "statement": "Resistant-starch fermentation can yield propionate among the short-chain fatty acids produced in suitable communities."
+      },
+      "limitation": "The food's resistant-starch range is not a propionate concentration or yield. Community and preparation change the product mixture. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "butter",
+      "food_title": "Butter",
+      "food_page": "/docs/foods/butter",
+      "intermediate_id": "vitamin-a",
+      "intermediate_label": "Vitamin A",
+      "related_id": "retinoic-acid",
+      "related_label": "Retinoic acid",
+      "relationship": "precursor-formation",
+      "preparation": null,
+      "contained_amount": null,
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ],
+        "statement": "Dietary vitamin A supplies retinoids and provitamin A precursors that can support retinoic acid formation."
+      },
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "chickpeas",
+      "food_title": "Chickpeas",
+      "food_page": "/docs/foods/chickpeas",
+      "intermediate_id": "resistant-starch",
+      "intermediate_label": "Resistant starch",
+      "related_id": "acetate",
+      "related_label": "Acetate",
+      "relationship": "microbial-production",
+      "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "contained_amount": {
+        "display": "3–5 g per 100 g dry weight",
+        "low": 3,
+        "high": 5,
+        "unit": "g",
+        "basis": "per 100 g dry weight",
+        "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002"
+      },
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "fassler_resistant_starch_2006",
+          "sobh_tolerability_2022"
+        ],
+        "statement": "Resistant-starch fermentation can yield acetate among the short-chain fatty acids produced in suitable communities."
+      },
+      "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "chickpeas",
+      "food_title": "Chickpeas",
+      "food_page": "/docs/foods/chickpeas",
+      "intermediate_id": "resistant-starch",
+      "intermediate_label": "Resistant starch",
+      "related_id": "butyrate",
+      "related_label": "Butyrate",
+      "relationship": "microbial-production",
+      "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "contained_amount": {
+        "display": "3–5 g per 100 g dry weight",
+        "low": 3,
+        "high": 5,
+        "unit": "g",
+        "basis": "per 100 g dry weight",
+        "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002"
+      },
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "baxter_fermentable_fibers_2019",
+          "fassler_resistant_starch_2006"
+        ],
+        "statement": "Defined resistant-starch preparations can support microbial butyrate production in suitable communities."
+      },
+      "limitation": "A resistant-potato-starch response and RS2/RS3 culture results do not transfer to every ordinary food. No butyrate quantity or yield is assigned from the food's resistant-starch content. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "chickpeas",
+      "food_title": "Chickpeas",
+      "food_page": "/docs/foods/chickpeas",
+      "intermediate_id": "resistant-starch",
+      "intermediate_label": "Resistant starch",
+      "related_id": "propionate",
+      "related_label": "Propionate",
+      "relationship": "microbial-production",
+      "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "contained_amount": {
+        "display": "3–5 g per 100 g dry weight",
+        "low": 3,
+        "high": 5,
+        "unit": "g",
+        "basis": "per 100 g dry weight",
+        "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002"
+      },
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "fassler_resistant_starch_2006",
+          "sobh_tolerability_2022"
+        ],
+        "statement": "Resistant-starch fermentation can yield propionate among the short-chain fatty acids produced in suitable communities."
+      },
+      "limitation": "The food's resistant-starch range is not a propionate concentration or yield. Community and preparation change the product mixture. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "egg-yolks",
+      "food_title": "Egg Yolks",
+      "food_page": "/docs/foods/egg-yolks",
+      "intermediate_id": "vitamin-a",
+      "intermediate_label": "Vitamin A",
+      "related_id": "retinoic-acid",
+      "related_label": "Retinoic acid",
+      "relationship": "precursor-formation",
+      "preparation": null,
+      "contained_amount": null,
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ],
+        "statement": "Dietary vitamin A supplies retinoids and provitamin A precursors that can support retinoic acid formation."
+      },
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "ghee",
+      "food_title": "Ghee",
+      "food_page": "/docs/foods/ghee",
+      "intermediate_id": "vitamin-a",
+      "intermediate_label": "Vitamin A",
+      "related_id": "retinoic-acid",
+      "related_label": "Retinoic acid",
+      "relationship": "precursor-formation",
+      "preparation": null,
+      "contained_amount": null,
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ],
+        "statement": "Dietary vitamin A supplies retinoids and provitamin A precursors that can support retinoic acid formation."
+      },
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "grass-fed-butter",
+      "food_title": "Grass-Fed Butter",
+      "food_page": "/docs/foods/grass-fed-butter",
+      "intermediate_id": "vitamin-a",
+      "intermediate_label": "Vitamin A",
+      "related_id": "retinoic-acid",
+      "related_label": "Retinoic acid",
+      "relationship": "precursor-formation",
+      "preparation": null,
+      "contained_amount": null,
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ],
+        "statement": "Dietary vitamin A supplies retinoids and provitamin A precursors that can support retinoic acid formation."
+      },
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "kale",
+      "food_title": "Kale",
+      "food_page": "/docs/foods/kale",
+      "intermediate_id": "vitamin-a",
+      "intermediate_label": "Vitamin A",
+      "related_id": "retinoic-acid",
+      "related_label": "Retinoic acid",
+      "relationship": "precursor-formation",
+      "preparation": null,
+      "contained_amount": null,
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ],
+        "statement": "Dietary vitamin A supplies retinoids and provitamin A precursors that can support retinoic acid formation."
+      },
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "liver",
+      "food_title": "Liver",
+      "food_page": "/docs/foods/liver",
+      "intermediate_id": "vitamin-a",
+      "intermediate_label": "Vitamin A",
+      "related_id": "retinoic-acid",
+      "related_label": "Retinoic acid",
+      "relationship": "precursor-formation",
+      "preparation": null,
+      "contained_amount": null,
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ],
+        "statement": "Dietary vitamin A supplies retinoids and provitamin A precursors that can support retinoic acid formation."
+      },
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "pomegranates",
+      "food_title": "Pomegranates",
+      "food_page": "/docs/foods/pomegranates",
+      "intermediate_id": "ellagitannins",
+      "intermediate_label": "Ellagitannins",
+      "related_id": "ellagic-acid",
+      "related_label": "Ellagic acid",
+      "relationship": "constituent-release",
+      "preparation": "Commercial single-strength juice; gallagyl-type tannins, not every ellagitannin",
+      "contained_amount": {
+        "display": "156.17 mg per 100 mL",
+        "low": 156.17,
+        "high": 156.17,
+        "unit": "mg",
+        "basis": "per 100 mL",
+        "source_url": "https://doi.org/10.1021/jf000404a"
+      },
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "singh_direct_2022"
+        ],
+        "statement": "Ellagitannin hydrolysis can release ellagic acid. That acid is the substrate some gut communities convert toward urolithins."
+      },
+      "limitation": "The food's ellagitannin figure is not an ellagic acid concentration, and neither figure is a urolithin A amount. Release and later microbial conversion both vary. Gallagyl-type tannins, not the sum of every ellagitannin and not free ellagic acid. Not an aril or whole-fruit flesh value.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "potatoes",
+      "food_title": "Potatoes",
+      "food_page": "/docs/foods/potatoes",
+      "intermediate_id": "resistant-starch",
+      "intermediate_label": "Resistant starch",
+      "related_id": "acetate",
+      "related_label": "Acetate",
+      "relationship": "microbial-production",
+      "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+      "contained_amount": {
+        "display": "2.2–5.4 g per 100 g, moisture-corrected",
+        "low": 2.2,
+        "high": 5.4,
+        "unit": "g",
+        "basis": "per 100 g, moisture-corrected",
+        "source_url": "https://doi.org/10.1016/j.foodchem.2016.03.120"
+      },
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "fassler_resistant_starch_2006",
+          "sobh_tolerability_2022"
+        ],
+        "statement": "Resistant-starch fermentation can yield acetate among the short-chain fatty acids produced in suitable communities."
+      },
+      "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Preparation and service temperature change the assay. A generic potato portion is not this result.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "potatoes",
+      "food_title": "Potatoes",
+      "food_page": "/docs/foods/potatoes",
+      "intermediate_id": "resistant-starch",
+      "intermediate_label": "Resistant starch",
+      "related_id": "butyrate",
+      "related_label": "Butyrate",
+      "relationship": "microbial-production",
+      "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+      "contained_amount": {
+        "display": "2.2–5.4 g per 100 g, moisture-corrected",
+        "low": 2.2,
+        "high": 5.4,
+        "unit": "g",
+        "basis": "per 100 g, moisture-corrected",
+        "source_url": "https://doi.org/10.1016/j.foodchem.2016.03.120"
+      },
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "baxter_fermentable_fibers_2019",
+          "fassler_resistant_starch_2006"
+        ],
+        "statement": "Defined resistant-starch preparations can support microbial butyrate production in suitable communities."
+      },
+      "limitation": "A resistant-potato-starch response and RS2/RS3 culture results do not transfer to every ordinary food. No butyrate quantity or yield is assigned from the food's resistant-starch content. Preparation and service temperature change the assay. A generic potato portion is not this result.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "potatoes",
+      "food_title": "Potatoes",
+      "food_page": "/docs/foods/potatoes",
+      "intermediate_id": "resistant-starch",
+      "intermediate_label": "Resistant starch",
+      "related_id": "propionate",
+      "related_label": "Propionate",
+      "relationship": "microbial-production",
+      "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+      "contained_amount": {
+        "display": "2.2–5.4 g per 100 g, moisture-corrected",
+        "low": 2.2,
+        "high": 5.4,
+        "unit": "g",
+        "basis": "per 100 g, moisture-corrected",
+        "source_url": "https://doi.org/10.1016/j.foodchem.2016.03.120"
+      },
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "fassler_resistant_starch_2006",
+          "sobh_tolerability_2022"
+        ],
+        "statement": "Resistant-starch fermentation can yield propionate among the short-chain fatty acids produced in suitable communities."
+      },
+      "limitation": "The food's resistant-starch range is not a propionate concentration or yield. Community and preparation change the product mixture. Preparation and service temperature change the assay. A generic potato portion is not this result.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "romaine-lettuce",
+      "food_title": "Romaine Lettuce",
+      "food_page": "/docs/foods/romaine-lettuce",
+      "intermediate_id": "vitamin-a",
+      "intermediate_label": "Vitamin A",
+      "related_id": "retinoic-acid",
+      "related_label": "Retinoic acid",
+      "relationship": "precursor-formation",
+      "preparation": null,
+      "contained_amount": null,
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ],
+        "statement": "Dietary vitamin A supplies retinoids and provitamin A precursors that can support retinoic acid formation."
+      },
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "salmon-roe",
+      "food_title": "Salmon Roe",
+      "food_page": "/docs/foods/salmon-roe",
+      "intermediate_id": "vitamin-a",
+      "intermediate_label": "Vitamin A",
+      "related_id": "retinoic-acid",
+      "related_label": "Retinoic acid",
+      "relationship": "precursor-formation",
+      "preparation": null,
+      "contained_amount": null,
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ],
+        "statement": "Dietary vitamin A supplies retinoids and provitamin A precursors that can support retinoic acid formation."
+      },
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "spinach",
+      "food_title": "Spinach",
+      "food_page": "/docs/foods/spinach",
+      "intermediate_id": "vitamin-a",
+      "intermediate_label": "Vitamin A",
+      "related_id": "retinoic-acid",
+      "related_label": "Retinoic acid",
+      "relationship": "precursor-formation",
+      "preparation": null,
+      "contained_amount": null,
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ],
+        "statement": "Dietary vitamin A supplies retinoids and provitamin A precursors that can support retinoic acid formation."
+      },
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "swiss-chard",
+      "food_title": "Swiss Chard",
+      "food_page": "/docs/foods/swiss-chard",
+      "intermediate_id": "vitamin-a",
+      "intermediate_label": "Vitamin A",
+      "related_id": "retinoic-acid",
+      "related_label": "Retinoic acid",
+      "relationship": "precursor-formation",
+      "preparation": null,
+      "contained_amount": null,
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ],
+        "statement": "Dietary vitamin A supplies retinoids and provitamin A precursors that can support retinoic acid formation."
+      },
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
+      "food_id": "walnuts",
+      "food_title": "Walnuts",
+      "food_page": "/docs/foods/walnuts",
+      "intermediate_id": "ellagitannins",
+      "intermediate_label": "Ellagitannins",
+      "related_id": "ellagic-acid",
+      "related_label": "Ellagic acid",
+      "relationship": "constituent-release",
+      "preparation": "Walnut kernels; assay-specific extraction",
+      "contained_amount": null,
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "singh_direct_2022"
+        ],
+        "statement": "Ellagitannin hydrolysis can release ellagic acid. That acid is the substrate some gut communities convert toward urolithins."
+      },
+      "limitation": "The food's ellagitannin figure is not an ellagic acid concentration, and neither figure is a urolithin A amount. Release and later microbial conversion both vary. Assay-specific extraction of kernels. Peeled kernel without the pellicle is a different material. This is not an amount, not free ellagic acid, and not a urolithin A exposure.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    }
+  ],
+  "relative_source_power": [
+    {
+      "comparison_group": "resistant-starch|g|per 100 g fresh weight",
+      "intermediate_id": "resistant-starch",
+      "basis": "per 100 g fresh weight",
+      "unit": "g",
+      "related_id": null,
+      "threshold": 10,
+      "basis_isolated": true,
+      "ranked": [],
+      "unranked": [
+        {
+          "food_id": "bananas",
+          "food_title": "Bananas",
+          "food_page": "/docs/foods/bananas",
+          "intermediate_id": "resistant-starch",
+          "intermediate_label": "Resistant starch",
+          "related_id": "acetate",
+          "related_label": "Acetate",
+          "related_href": "/docs/substances/microbial-metabolites/scfas/acetate",
+          "relationship": "microbial-production",
+          "relationship_label": "Microbial production",
+          "preparation": "Green/unripe; cultivar and ripening state matter",
+          "evidence": {
+            "citation_keys": [
+              "fassler_resistant_starch_2006",
+              "sobh_tolerability_2022"
+            ],
+            "statement": "Resistant-starch fermentation can yield acetate among the short-chain fatty acids produced in suitable communities."
+          },
+          "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre.",
+          "quantity": null,
+          "contained_amount": {
+            "display": "2.7–25.3 g per 100 g fresh weight",
+            "low": 2.7,
+            "high": 25.3,
+            "unit": "g",
+            "basis": "per 100 g fresh weight",
+            "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+          },
+          "rank_eligible": false,
+          "direct_containment": false,
+          "relative_power": null,
+          "rank_status": "unranked",
+          "rank_reason": "One food is measured on this basis. It is not ranked against foods measured on another basis."
+        }
+      ]
+    },
+    {
+      "comparison_group": "resistant-starch|g|per 100 g dry weight",
+      "intermediate_id": "resistant-starch",
+      "basis": "per 100 g dry weight",
+      "unit": "g",
+      "related_id": null,
+      "threshold": 10,
+      "basis_isolated": true,
+      "ranked": [],
+      "unranked": [
+        {
+          "food_id": "black-beans",
+          "food_title": "Black Beans",
+          "food_page": "/docs/foods/black-beans",
+          "intermediate_id": "resistant-starch",
+          "intermediate_label": "Resistant starch",
+          "related_id": "acetate",
+          "related_label": "Acetate",
+          "related_href": "/docs/substances/microbial-metabolites/scfas/acetate",
+          "relationship": "microbial-production",
+          "relationship_label": "Microbial production",
+          "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+          "evidence": {
+            "citation_keys": [
+              "fassler_resistant_starch_2006",
+              "sobh_tolerability_2022"
+            ],
+            "statement": "Resistant-starch fermentation can yield acetate among the short-chain fatty acids produced in suitable communities."
+          },
+          "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction.",
+          "quantity": null,
+          "contained_amount": {
+            "display": "3–5 g per 100 g dry weight",
+            "low": 3,
+            "high": 5,
+            "unit": "g",
+            "basis": "per 100 g dry weight",
+            "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002"
+          },
+          "rank_eligible": false,
+          "direct_containment": false,
+          "relative_power": null,
+          "rank_status": "unranked",
+          "rank_reason": "These records are measurement spans. Spans are not ordered, and no basis is converted into another."
+        },
+        {
+          "food_id": "chickpeas",
+          "food_title": "Chickpeas",
+          "food_page": "/docs/foods/chickpeas",
+          "intermediate_id": "resistant-starch",
+          "intermediate_label": "Resistant starch",
+          "related_id": "acetate",
+          "related_label": "Acetate",
+          "related_href": "/docs/substances/microbial-metabolites/scfas/acetate",
+          "relationship": "microbial-production",
+          "relationship_label": "Microbial production",
+          "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+          "evidence": {
+            "citation_keys": [
+              "fassler_resistant_starch_2006",
+              "sobh_tolerability_2022"
+            ],
+            "statement": "Resistant-starch fermentation can yield acetate among the short-chain fatty acids produced in suitable communities."
+          },
+          "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction.",
+          "quantity": null,
+          "contained_amount": {
+            "display": "3–5 g per 100 g dry weight",
+            "low": 3,
+            "high": 5,
+            "unit": "g",
+            "basis": "per 100 g dry weight",
+            "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002"
+          },
+          "rank_eligible": false,
+          "direct_containment": false,
+          "relative_power": null,
+          "rank_status": "unranked",
+          "rank_reason": "These records are measurement spans. Spans are not ordered, and no basis is converted into another."
+        }
+      ]
+    },
+    {
+      "comparison_group": "ellagitannins|mg|per 100 mL",
+      "intermediate_id": "ellagitannins",
+      "basis": "per 100 mL",
+      "unit": "mg",
+      "related_id": null,
+      "threshold": 10,
+      "basis_isolated": true,
+      "ranked": [],
+      "unranked": [
+        {
+          "food_id": "pomegranates",
+          "food_title": "Pomegranates",
+          "food_page": "/docs/foods/pomegranates",
+          "intermediate_id": "ellagitannins",
+          "intermediate_label": "Ellagitannins",
+          "related_id": "ellagic-acid",
+          "related_label": "Ellagic acid",
+          "related_href": "/docs/substances/bioactive-compounds/polyphenols/phenolic-acids/ellagic-acid",
+          "relationship": "constituent-release",
+          "relationship_label": "Constituent release",
+          "preparation": "Commercial single-strength juice; gallagyl-type tannins, not every ellagitannin",
+          "evidence": {
+            "citation_keys": [
+              "singh_direct_2022"
+            ],
+            "statement": "Ellagitannin hydrolysis can release ellagic acid. That acid is the substrate some gut communities convert toward urolithins."
+          },
+          "limitation": "The food's ellagitannin figure is not an ellagic acid concentration, and neither figure is a urolithin A amount. Release and later microbial conversion both vary. Gallagyl-type tannins, not the sum of every ellagitannin and not free ellagic acid. Not an aril or whole-fruit flesh value.",
+          "quantity": null,
+          "contained_amount": {
+            "display": "156.17 mg per 100 mL",
+            "low": 156.17,
+            "high": 156.17,
+            "unit": "mg",
+            "basis": "per 100 mL",
+            "source_url": "https://doi.org/10.1021/jf000404a"
+          },
+          "rank_eligible": false,
+          "direct_containment": false,
+          "relative_power": null,
+          "rank_status": "unranked",
+          "rank_reason": "One food is measured on this basis. It is not ranked against foods measured on another basis."
+        }
+      ]
+    },
+    {
+      "comparison_group": "resistant-starch|g|per 100 g, moisture-corrected",
+      "intermediate_id": "resistant-starch",
+      "basis": "per 100 g, moisture-corrected",
+      "unit": "g",
+      "related_id": null,
+      "threshold": 10,
+      "basis_isolated": true,
+      "ranked": [],
+      "unranked": [
+        {
+          "food_id": "potatoes",
+          "food_title": "Potatoes",
+          "food_page": "/docs/foods/potatoes",
+          "intermediate_id": "resistant-starch",
+          "intermediate_label": "Resistant starch",
+          "related_id": "acetate",
+          "related_label": "Acetate",
+          "related_href": "/docs/substances/microbial-metabolites/scfas/acetate",
+          "relationship": "microbial-production",
+          "relationship_label": "Microbial production",
+          "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+          "evidence": {
+            "citation_keys": [
+              "fassler_resistant_starch_2006",
+              "sobh_tolerability_2022"
+            ],
+            "statement": "Resistant-starch fermentation can yield acetate among the short-chain fatty acids produced in suitable communities."
+          },
+          "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Preparation and service temperature change the assay. A generic potato portion is not this result.",
+          "quantity": null,
+          "contained_amount": {
+            "display": "2.2–5.4 g per 100 g, moisture-corrected",
+            "low": 2.2,
+            "high": 5.4,
+            "unit": "g",
+            "basis": "per 100 g, moisture-corrected",
+            "source_url": "https://doi.org/10.1016/j.foodchem.2016.03.120"
+          },
+          "rank_eligible": false,
+          "direct_containment": false,
+          "relative_power": null,
+          "rank_status": "unranked",
+          "rank_reason": "One food is measured on this basis. It is not ranked against foods measured on another basis."
+        }
+      ]
+    }
+  ]
+}

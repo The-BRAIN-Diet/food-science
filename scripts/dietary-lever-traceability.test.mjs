@@ -1480,22 +1480,22 @@ rendererModule._compile(ts.transpileModule(fs.readFileSync(PM_INPUT_FOOD_DISCLOS
 }).outputText,PM_INPUT_FOOD_DISCLOSURE);
 const {renderFoodSourceItem,selectFoodDisclosureSources,renderFoodSourceSummary,renderProvenance} = rendererModule.exports;
 
-test('Beetroot betaine resolves the verified USDA quantity while provenance stays on its food page',()=>{
+test('Beetroot betaine resolves the erratum-corrected Zeisel quantity while provenance stays on its food page',()=>{
  const mapping=buildInputSubstanceFood(process.cwd(),{brs:'BRS2'});
  const source=mapping.food_sources.find(s=>s.food_id==='beetroot'&&s.substance_id==='betaine');
  assert.ok(source);const obs=source.observations[0];
- assert.equal(obs.value,130);assert.equal(obs.unit,'mg');assert.equal(obs.verified,true);
+ assert.equal(obs.value,129);assert.equal(obs.unit,'mg');assert.equal(obs.verified,true);
  assert.equal(obs.basis,'per 100 g edible portion');assert.equal(obs.preparation,'raw');
- assert.equal(obs.source_reference,'#food-source-4');assert.match(obs.source_url,/ars\.usda\.gov.*Choln02\.pdf/);
+ assert.equal(obs.source_reference,'#food-source-4');assert.match(obs.source_url,/doi\.org\/10\.1093\/jn\/133\.5\.1302/);
  assert.equal(obs.rank_eligible,false);assert.equal(obs.comparison_group,null);
  const item=selectFoodDisclosureSources([source])[0],$=parseHtml(renderFoodSourceItem(item));
- assert.equal($.text(),'Beetroot — 130 mg per 100 g · raw');
+ assert.equal($.text(),'Beetroot — 129 mg per 100 g · raw');
  assert.equal($('a').length,1);assert.equal($('a').attr('href'),'/docs/foods/beetroot');
  assert.doesNotMatch($.text(),/Patterson|Analytical qualification|Studied material|ranking|Source/);
  assert.equal(renderProvenance(item),'');
  const food=fs.readFileSync('docs/foods/beetroot.md','utf8');
- assert.match(food,/id="food-source-4"/);assert.match(food,/BRAIN-Diet-References#patterson_choline_2008/);
- assert.match(food,/130 mg betaine per 100 g of raw beets/);
+ assert.match(food,/id="food-source-4"/);assert.match(food,/BRAIN-Diet-References#zeisel_choline_betaine_2003/);
+ assert.match(food,/128\.63 mg betaine per 100 g of raw beets/);
 });
 
 test('Spinach and wheat germ presence provenance produces one row each without deleting evidence',()=>{

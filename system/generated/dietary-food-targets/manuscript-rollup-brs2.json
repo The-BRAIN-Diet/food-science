@@ -3909,11 +3909,12 @@
           "source_url": null,
           "source_reference": null,
           "citation_keys": [
-            "patterson_choline_2008"
+            "zeisel_choline_betaine_2003",
+            "zeisel_choline_betaine_2003_erratum"
           ],
           "relationship_type": "contains",
           "presence_status": "supported-qualitative",
-          "limitations": "Raw beets contained 130 mg betaine per 100 g in the corrected USDA choline database. That assay is separate from this page’s other nutrients."
+          "limitations": "Zeisel et al. (2003) Table 1, corrected by the erratum, reports 129 mg betaine per 100 g in raw beets. Canned beets in that table are 334 mg per 100 g. USDA Release 2 reports 130 mg per 100 g for the same raw NDB."
         }
       ],
       "pm_evidence": {
@@ -4023,11 +4024,12 @@
           "source_url": null,
           "source_reference": null,
           "citation_keys": [
-            "patterson_choline_2008"
+            "zeisel_choline_betaine_2003",
+            "zeisel_choline_betaine_2003_erratum"
           ],
           "relationship_type": "contains",
           "presence_status": "supported-qualitative",
-          "limitations": "Frozen spinach preparations contained 110–130 mg betaine per 100 g in the corrected USDA database. This page records raw spinach, so that figure is not its composition panel."
+          "limitations": "Zeisel et al. (2003) Table 1, corrected by the erratum, reports 675 mg betaine per 100 g in raw spinach. Cooked spinach in that table is 725 mg per 100 g. USDA Release 2 later reports 110–130 mg per 100 g for frozen spinach."
         }
       ],
       "pm_evidence": {
@@ -4080,11 +4082,12 @@
           "source_url": null,
           "source_reference": null,
           "citation_keys": [
-            "patterson_choline_2008"
+            "zeisel_choline_betaine_2003",
+            "zeisel_choline_betaine_2003_erratum"
           ],
           "relationship_type": "contains",
           "presence_status": "supported-qualitative",
-          "limitations": "Toasted wheat germ contained 410 mg betaine per 100 g in the corrected USDA database. This page records crude wheat germ, so that figure is a related preparation, not this panel."
+          "limitations": "Zeisel et al. (2003) Table 1, corrected by the erratum, reports 1,395 mg betaine per 100 g in toasted wheat germ. USDA Release 2 later reports 410 mg per 100 g for that toasted form. This page’s other nutrients are crude wheat germ, so the toasted figure is a related preparation."
         }
       ],
       "pm_evidence": {
@@ -4105,6 +4108,70 @@
         "Supplemental betaine lowers plasma homocysteine in healthy adults, but that change does not measure tissue BHMT activity or show a clinical benefit. Human evidence is an eight-man depletion pilot, with the challenge response in four clinically depleted participants; tissue BHMT flux was not measured. Rat donor rescue and specific inhibition support the chain. This does not establish ordinary-diet limitation, response in every tissue or benefit above adequacy. Folate’s indirect constraint on BHMT remains unresolved."
       ],
       "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS2",
+      "fm": "BRS2(FM1)",
+      "pm": "BRS2-FM1-PM2",
+      "biological_mechanism": "Provide a parallel homocysteine clearance route so methionine and SAMe supply remain resilient when folate demand is high.",
+      "dietary_input": "Betaine",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "betaine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "shrimp",
+      "food_title": "Shrimp",
+      "food_material": "Shrimp, canned",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "key": "betaine_mg",
+          "label": "Betaine",
+          "basis": "per 100 g",
+          "amount_display": "246 mg",
+          "citation_mark": "asterisk",
+          "source_reference": "#food-source-3",
+          "source_url": "https://doi.org/10.1093/jn/133.5.1302",
+          "preparation_state": "canned",
+          "evidence_material": "Shrimp, canned",
+          "source_note": "Zeisel et al. (2003) Table 1, corrected by the erratum: shrimp, canned (NDB 15152), 245.99 mg betaine per 100 g, shown as 246 mg. This page’s USDA panel is raw mixed-species shrimp, not that canned sample. USDA Release 2 does not report betaine for canned shrimp.",
+          "public_note": "Zeisel et al. (2003) Table 1, as corrected, supports this canned-shrimp value. The asterisk marks that paper. It is not the raw USDA panel.",
+          "source_group": "Zeisel et al. (2003) Table 1, erratum-corrected, NDB 15152",
+          "notes": "Canned shrimp. Not the raw mixed-species panel used for the other nutrients.",
+          "record": "docs/foods/shrimp.md#nutrition_supplementary_sources/betaine_mg",
+          "evidence": "Zeisel et al. (2003) Table 1, corrected by the erratum: shrimp, canned (NDB 15152), 245.99 mg betaine per 100 g, shown as 246 mg. This page’s USDA panel is raw mixed-species shrimp, not that canned sample. USDA Release 2 does not report betaine for canned shrimp.",
+          "presence_status": "qualitative",
+          "limitations": "Canned shrimp. Not the raw mixed-species panel used for the other nutrients."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM2-F1",
+          "PM2-IC1"
+        ],
+        "citation_keys": [
+          "evans_betaine_2002",
+          "breksa_zinc_1999",
+          "olthof_low_2003"
+        ]
+      },
+      "preparation": "canned",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Supplemental betaine lowers plasma homocysteine in healthy adults, but that change does not measure tissue BHMT activity or show a clinical benefit. Human evidence is an eight-man depletion pilot, with the challenge response in four clinically depleted participants; tissue BHMT flux was not measured. Rat donor rescue and specific inhibition support the chain. This does not establish ordinary-diet limitation, response in every tissue or benefit above adequacy. Folate’s indirect constraint on BHMT remains unresolved."
+      ],
+      "missing_ontology_edge": "shrimp → betaine [Shrimp, canned; canned]"
     },
     {
       "brs": "BRS2",

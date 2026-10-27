@@ -2,7 +2,7 @@
 id: fructo-galacto-oligosaccharides
 title: Fructo-oligosaccharides / galacto-oligosaccharides
 sidebar_label: FOS/GOS
-description: The studied combined oligosaccharide preparation. Its fermentation result is not evidence for either class alone, and it is not oligofructose.
+description: Combined fructo-oligosaccharide and galacto-oligosaccharide identity for records that name both classes together.
 tags:
   - Substance
   - Nutrient
@@ -11,47 +11,59 @@ tags:
   - Fructo-oligosaccharides / galacto-oligosaccharides
   - Gut-Brain Axis & Enteric Nervous System
 mechanisms:
-  Gut-Brain Axis & Enteric Nervous System: 'A combined fructo- and galacto-oligosaccharide preparation supplied carbohydrate for microbial short-chain fatty acid formation in people. The result is not assigned to either oligosaccharide alone.'
+  Gut-Brain Axis & Enteric Nervous System: 'The combined fructo- and galacto-oligosaccharide identity can supply carbohydrate for microbial short-chain fatty acid formation. A result measured on the combination stays with the combination.'
 list_image: /img/icons/nutrient.svg
 ---
 
 ## Overview
 
-This page is the combined fructo-oligosaccharide and galacto-oligosaccharide preparation used in one human fermentation study. It is not a licence to treat every FOS, every GOS, and [oligofructose](/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/oligofructose) as the same substance. Oligofructose is a defined short-chain inulin-type mixture. Sucrose-derived fructooligosaccharides are another preparation. Galacto-oligosaccharides are built from galactose, not fructose.
+Fructo-oligosaccharides are short chains of fructose. Within the inulin-type fructans, [oligofructose](/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/oligofructose) is the short-chain mixture, about 2–8 fructose units, and [inulin](/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/inulin) is the longer-chain polymer, about 10–60 [1,2]. Galacto-oligosaccharides are short chains of galactose. The combined name is used when a preparation contains both classes, including as a microbial carbohydrate substrate in [SCFA production and signalling](/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling) [1,2].
 
-In people, that combined oligosaccharide preparation was fermented in the intestine and supplied carbohydrate for microbial short-chain fatty acid formation [1]. The fate of those acids was measured for the administered mixture. The result is not attributed to fructo-oligosaccharides alone or to galacto-oligosaccharides alone, and it is not ordinary-food equivalence [1].
+## Dietary Context
 
-## Dietary Origin
+### Food sources
 
-The exposure is the administered combination [1]. A food that contains some fructan, or a supplement labelled only FOS or only GOS, is not identified as this mixture. Oligofructose from chicory inulin hydrolysate is a different material and has its own page. No food page is linked.
+Chicory, onion, garlic, leek and Jerusalem artichoke store inulin-type fructans of mixed chain length [1,2]. Those foods are recorded on the fructan pages. A fructan measurement there is a measurement of the plant fructan, so the Foods list on this page stays limited to a preparation that contains both fructo-oligosaccharides and galacto-oligosaccharides.
+
+### Supplement versus food
+
+Commercial fructo-oligosaccharides may be the partial hydrolysate of chicory inulin or chains built from sucrose, and those two materials differ [2]. A product that also contains galacto-oligosaccharides is a combination exposure. Eating a fructan-containing vegetable, taking oligofructose alone, and taking galacto-oligosaccharides alone are each a different exposure from that combination [1,3].
+
+Direct and related food records below come from the food ontology. A food appears only when a verified contains record meets a registered relationship.
+
+<DietaryOriginProjection target="Fructo-oligosaccharides / galacto-oligosaccharides" />
 
 ## Research Spotlights & Evidence Checks
 
 <EvidencePresentation
   kind="check"
-  title="Can the combined FOS/GOS result be assigned to GOS alone, or to oligofructose?"
+  title="Does a combined FOS/GOS fermentation result apply to either oligosaccharide alone?"
   exposureContext="combination-formulation"
-  summary="No. Intestinal fermentation and short-chain fatty acid fate were measured for the administered fructo- plus galacto-oligosaccharide preparation [1]."
+  summary="The intestinal fermentation and short-chain fatty acid measurements belong to the combined preparation [3]."
 >
 
-The human study followed intraintestinal fermentation of fructo- and galacto-oligosaccharides together [1]. Splitting that result into a pure GOS effect, a pure FOS effect, or an oligofructose effect would go beyond the preparation that was given. Oligofructose remains the short-chain inulin-type mixture on its own page.
+The human study followed fructo-oligosaccharides and galacto-oligosaccharides given together [3]. Oligofructose remains the short-chain inulin-type mixture on its own page, and inulin remains the longer-chain fructan [1,2].
 
 </EvidencePresentation>
-
-## Recipes
-
-<SubstanceRecipes tag="Fructo-oligosaccharides / galacto-oligosaccharides" />
 
 ## Foods
 
 <SubstanceFoods tag="Fructo-oligosaccharides / galacto-oligosaccharides" />
 
+## Recipes
+
+<SubstanceRecipes tag="Fructo-oligosaccharides / galacto-oligosaccharides" />
+
 ## Biological Regulatory Systems
 
 | Biological Regulatory System | Evidence-qualified relationship | Evidence |
 | --- | --- | --- |
-| [Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system) (BRS5) | The combined preparation supplies carbohydrate for microbial short-chain fatty acid formation in [SCFA production and signalling](/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling). The result stays with the mixture. | [1] |
+| [Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system) (BRS5) | The combined identity supplies carbohydrate for microbial short-chain fatty acid formation in [SCFA production and signalling](/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling). The relationship stays with the combination. | [3] |
 
 ## References
 
-[1] van Trijp et al. (2024). [Intraintestinal fermentation of fructo- and galacto-oligosaccharides and the fate of short-chain fatty acids in humans](/docs/papers/BRAIN-Diet-References#van_trijp_intraintestinal_2024). The administered combination supplied carbohydrate for microbial short-chain fatty acid formation, and the study followed the fate of those acids. Not evidence for either oligosaccharide alone, and not ordinary-food equivalence.
+[1] Roberfroid (2007). [Inulin-type fructans: functional food ingredients](/docs/papers/BRAIN-Diet-References#roberfroid_inulin_type_fructans_2007). Separates short-chain oligofructose from longer-chain inulin, which is the fructan side of this combined identity.
+
+[2] Kelly (2008). [Inulin-type prebiotics — a review: part 1](/docs/papers/BRAIN-Diet-References#kelly_inulin_type_prebiotics_2008). Records that fructooligosaccharides, oligofructose and inulin are used inconsistently, and that chicory extraction and sucrose synthesis yield different chain mixtures.
+
+[3] van Trijp et al. (2024). [Intraintestinal fermentation of fructo- and galacto-oligosaccharides and the fate of short-chain fatty acids in humans](/docs/papers/BRAIN-Diet-References#van_trijp_intraintestinal_2024). Human evidence for a combined fructo- and galacto-oligosaccharide preparation. The fermentation and short-chain fatty acid measurements stay with that preparation.

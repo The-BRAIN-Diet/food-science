@@ -76,7 +76,7 @@ Evidence spans cell systems, animal models, human observational work and direct 
 
 ## Dietary Context
 
-Most Butyrate reaching the colon is produced by gut microbes fermenting suitable dietary substrates [2].
+Most butyrate that reaches the colon is produced when gut microbes ferment suitable dietary substrates. Direct food content and that upstream route are different relationships [2].
 
 <DietaryPathways targetId="butyrate" />
 

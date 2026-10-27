@@ -23,7 +23,9 @@ Two human intestinal Gordonibacter species converted ellagic acid into intermedi
 
 ## Dietary Origin
 
-Ellagic acid can occur in foods after ellagitannins hydrolyse, and it is the substrate given to the Gordonibacter cultures [1]. Pomegranate juice in the human comparison is a food matrix that can yield variable urolithin A, not a measured dose of isolated ellagic acid [2]. Direct urolithin A supplementation skips the conversion and is evidence about the metabolite, not about ellagic acid [2]. No food page is given a contains link that would treat juice, ellagic acid, and urolithin A as the same substance.
+Ellagic acid can occur in foods after ellagitannins hydrolyse, and it is the substrate given to the Gordonibacter cultures [1]. Direct food records below are free ellagic acid. Foods that contain ellagitannins are related sources: the figure shown there is the tannin, not ellagic acid, and neither is urolithin A [2].
+
+<DietaryOriginProjection target="Ellagic acid" pmId="BRS5-FM2-PM6" />
 
 ## Research Spotlights & Evidence Checks
 

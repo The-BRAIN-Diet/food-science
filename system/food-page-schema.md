@@ -102,6 +102,10 @@ Order matches `dark-chocolate.md` — context before data, recipes before the nu
 | 4 | Recipes | `## Recipes` + `<FoodRecipes />` | Yes (canonical) |
 | 5 | Nutrition | `<NutritionTable details={frontMatter} />` | When nutrition layer present |
 | 6 | Substances | `## Substances` + `<FoodSubstancesFromTable />` | When nutrition layer present |
+
+**Contained Substances** are canonical `contains` records: the food contains the substance, with quantity, basis, preparation and source when measured.
+
+**Related Substances** are generated beneath that list. A verified contained substance must match one registered relationship in `src/data/relatedSubstanceRelationships.mjs`. The food does not then contain the related substance. Show the related name, the intermediate, the relationship type, and the intermediate amount when a verified composition record has one. Do not put the related substance in the nutrient table, do not copy the relationship onto each food page, and do not infer it from prose, tags, or a shared study.
 | 7 | References | `## References` | Yes (canonical) |
 
 The canonical Highlights heading is **Other Nutritional Highlights**. The superseded headings `Key Nutritional Highlights` and `Nutritional Highlights` must not be used as the canonical heading. Existing food pages may still carry a superseded heading until that letter is rewritten; that is a migration state, not a second section.

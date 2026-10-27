@@ -16,7 +16,7 @@
           "citation_keys": [],
           "source_url": "https://doi.org/10.1016/j.foodchem.2013.11.158",
           "source_reference": null,
-          "limitations": "Assay-specific extraction. This is not an amount and not a urolithin A exposure."
+          "limitations": "Assay-specific extraction of kernels. Peeled kernel without the pellicle is a different material. This is not an amount, not free ellagic acid, and not a urolithin A exposure."
         },
         {
           "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
@@ -303,56 +303,6 @@
         "kind": "primary-food-composition"
       },
       "limitations": "No numerical amount, free-vitamer pool, cooking yield, bioavailability or food-to-NAD effect inferred. Total niacin is not relabelled as either form.",
-      "relationship": "contains",
-      "mapping_status": "research-supported-provisional",
-      "material_equivalence_status": "not-applicable",
-      "ontology_relationship_status": "missing-context-edge"
-    },
-    {
-      "food_id": "pomegranates",
-      "food_title": "Pomegranate (studied commercial juice)",
-      "food_page": "/docs/foods/pomegranates",
-      "substance_id": "ellagic-acid",
-      "material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
-      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
-      "status": "research-supported-provisional",
-      "pm_ids": [
-        "BRS5-FM2-PM6"
-      ],
-      "evidence": {
-        "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
-        "sources": [
-          "https://doi.org/10.1038/s41430-021-00950-1"
-        ],
-        "retrieved": "2026-10-23",
-        "kind": "primary-food-composition"
-      },
-      "limitations": "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred.",
-      "relationship": "contains",
-      "mapping_status": "research-supported-provisional",
-      "material_equivalence_status": "not-applicable",
-      "ontology_relationship_status": "missing-context-edge"
-    },
-    {
-      "food_id": "pomegranates",
-      "food_title": "Pomegranate (studied commercial juice)",
-      "food_page": "/docs/foods/pomegranates",
-      "substance_id": "ellagitannins",
-      "material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
-      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
-      "status": "research-supported-provisional",
-      "pm_ids": [
-        "BRS5-FM2-PM6"
-      ],
-      "evidence": {
-        "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
-        "sources": [
-          "https://doi.org/10.1038/s41430-021-00950-1"
-        ],
-        "retrieved": "2026-10-23",
-        "kind": "primary-food-composition"
-      },
-      "limitations": "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred.",
       "relationship": "contains",
       "mapping_status": "research-supported-provisional",
       "material_equivalence_status": "not-applicable",

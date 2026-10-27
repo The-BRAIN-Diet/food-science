@@ -36,7 +36,7 @@ FOS and fructooligosaccharides overlap with this name, and they also name sucros
 
 Commercial oligofructose is usually the partial enzymatic hydrolysate of chicory inulin: a mixture of glucose-terminated and fructose-only chains in the short degree-of-polymerisation range [1,2]. That is a direct ingredient exposure. Sucrose-derived fructooligosaccharides are a different preparation, even when a label uses the same words [3].
 
-Native plants contain inulin-type fructans across a range of chain lengths. A food that contains fructans does not, by that fact, contain this standardised mixture, and eating the food is not the 21 g/day supplement [1,4]. No food in this ontology yet has a chain-length measurement that would support a contains relationship, so none is linked.
+Native plants contain inulin-type fructans across a range of chain lengths. A food that contains fructans does not, by that fact, contain this standardised mixture, and eating the food is not the 21 g/day supplement [1,4]. The edible asparagus spear assay that measured inulin also found DP3 and DP4 absent from the spear, so that result is not an oligofructose record. No food page yet has a short-chain quantity that would support a contains relationship for oligofructose.
 
 ## Research Spotlights & Evidence Checks
 

@@ -1501,27 +1501,8 @@
     },
     "admission_basis": "versioned-assessment",
     "issues": [
-      "canonical-input-identity-mismatch",
       "functional_dependency-unresolved"
     ],
-    "ontology_connections": {
-      "identity": "resolved",
-      "conversion": "not-applicable",
-      "food": "unresolved"
-    },
-    "food_target_mapping": "unresolved",
-    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
-  },
-  {
-    "pm": "BRS5-FM2-PM5",
-    "id": "BRS5-FM2-PM5::PM5-DIT-RECOVERY-INULIN",
-    "input": "Inulin",
-    "eligibility": {
-      "eligible": true,
-      "state": "eligible-candidate"
-    },
-    "admission_basis": "versioned-assessment",
-    "issues": [],
     "ontology_connections": {
       "identity": "resolved",
       "conversion": "not-applicable",
@@ -1547,7 +1528,7 @@
       "conversion": "not-applicable",
       "food": "supported"
     },
-    "food_target_mapping": "research-supported-provisional",
+    "food_target_mapping": "verified",
     "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
   },
   {

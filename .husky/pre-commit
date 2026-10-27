@@ -31,7 +31,7 @@ for file in $staged_files; do
   # Keep a bounded 2 MiB allowance for these exact files only.
   file_limit=$MAX_SIZE
   case "$file" in
-    static/bibtex/BRAIN-diet.bib|system/generated/dietary-food-targets/manuscript-rollup-brs1.json)
+    static/bibtex/BRAIN-diet.bib|system/generated/dietary-food-targets/manuscript-rollup-brs1.json|system/sec-assessments/registry.json)
       file_limit=2097152
       ;;
   esac

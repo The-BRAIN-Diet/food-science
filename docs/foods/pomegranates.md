@@ -27,6 +27,30 @@ substance_relationships:
     citation_keys:
       - zelicha_effect_2022
       - singh_direct_2022
+  - substance: Ellagic acid
+    relationship: contains
+    description: "Gil et al. 2000 measured 3.79 mg free ellagic acid per 100 mL in one commercial single-strength pomegranate juice."
+    value: 3.79
+    unit: mg per 100 mL
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "Gil et al., Journal of Agricultural and Food Chemistry 2000"
+    evidence_material: "Commercial single-strength pomegranate juice"
+    preparation_state: "Commercial single-strength juice; not aril-only juice"
+    source_url: "https://doi.org/10.1021/jf000404a"
+    material_limitations: "One commercial juice sample. Not aril-pressed juice, not whole-fruit flesh, and not an ellagitannin or urolithin amount."
+  - substance: Ellagitannins
+    relationship: contains
+    description: "Gil et al. 2000 measured 156.17 mg gallagyl-type tannins per 100 mL in one commercial single-strength juice. Whole-fruit pressing extracts rind tannins that aril-only juice does not."
+    value: 156.17
+    unit: mg per 100 mL
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "Gil et al., Journal of Agricultural and Food Chemistry 2000"
+    evidence_material: "Commercial single-strength pomegranate juice"
+    preparation_state: "Commercial single-strength juice; gallagyl-type tannins, not every ellagitannin"
+    source_url: "https://doi.org/10.1021/jf000404a"
+    material_limitations: "Gallagyl-type tannins, not the sum of every ellagitannin and not free ellagic acid. Not an aril or whole-fruit flesh value."
   - substance: Potassium
     relationship: contains
     description: USDA FoodData Central reports potassium in Pomegranates, raw.
@@ -128,6 +152,38 @@ main_image: /img/foods/pomegranates/pomegranates_medium.webp
 legacy_list_image: /img/foods/pomegranates/pomegranates_thumb.webp
 legacy_main_image: /img/foods/pomegranates/pomegranates_medium.webp
 nutrition_supplementary_sources:
+  - key: ellagic_acid_commercial_juice
+    label: Ellagic acid
+    value: 3.79
+    unit: mg
+    basis: per 100 mL
+    source_url: https://doi.org/10.1021/jf000404a
+    evidence_material: Commercial single-strength pomegranate juice
+    preparation_state: Commercial single-strength juice; not aril-only juice
+    public_display: table
+    source_note: >-
+      Gil et al. 2000 Table 3, juice 3: free ellagic acid 37.9 mg/L in one
+      commercial single-strength juice. Rind extraction raises the tannin
+      content relative to aril-only juice. Not a urolithin amount.
+    source_group: Gil et al. 2000
+    notes: Free ellagic acid. One commercial juice sample.
+  - key: ellagitannins_commercial_juice
+    label: Ellagitannins
+    value: 156.17
+    unit: mg
+    basis: per 100 mL
+    source_url: https://doi.org/10.1021/jf000404a
+    evidence_material: Commercial single-strength pomegranate juice
+    preparation_state: Commercial single-strength juice; gallagyl-type tannins, not every ellagitannin
+    public_display: table
+    public_note: Gallagyl-type tannins in commercial juice, including punicalagin. Not free ellagic acid and not an aril value.
+    source_note: >-
+      Gil et al. 2000 Table 3, juice 3: gallagyl-type tannins 1561.7 mg/L,
+      including punicalagin. Commercial whole-fruit pressing extracts rind
+      tannins. This is not free ellagic acid and not a fresh-aril value.
+    source_group: Gil et al. 2000
+    notes: Gallagyl-type tannins. Not free ellagic acid.
+
   - key: cyanidin_qual
     label: Cyanidin
     status: Present — quantity not established
