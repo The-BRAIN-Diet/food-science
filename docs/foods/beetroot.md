@@ -188,7 +188,7 @@ substance_relationships:
     source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8229785/
     source_reference: '#food-source-2'
 substance_card_captions:
-  Betaine: Occurs directly in raw beets; 130 mg per 100 g in the corrected USDA assay.
+  Betaine: Occurs directly in raw beets; 129 mg per 100 g in the erratum-corrected Zeisel assay.
 substance_review_candidates: []
 ---
 ## Overview

@@ -34,7 +34,6 @@ test('existing substrate foods are candidates, not butyrate content', () => {
   const pectin = bundle.candidates.find(c => c.substance_id === 'pectin');
   const fos = bundle.candidates.find(c => c.substance_id === 'fructo-galacto-oligosaccharides');
   assert.equal(starch.review_status, 'verified-substrate-food');
-  assert.equal(starch.foods.find(f => f.food_id === 'bananas' && f.preparation === 'raw').mapping_status, 'research-supported-provisional');
   assert.equal(starch.chain.food_delivery, 'established');
   assert.equal(starch.chain.microbial_butyrate, 'conditional');
   assert.equal(starch.chain.ordinary_food_butyrate_yield, 'unresolved');
@@ -48,8 +47,7 @@ test('existing substrate foods are candidates, not butyrate content', () => {
   assert.ok(starch.foods.some(f => f.food_id === 'bananas' && /green|unripe/i.test(f.preparation)));
   assert.ok(starch.foods.some(f => f.food_id === 'potatoes' && /chill|cool|4/i.test(f.preparation)));
   assert.ok(['chickpeas', 'black-beans'].every(id => starch.foods.some(f => f.food_id === id)));
-  assert.ok(starch.foods.every(f => f.delivery === 'precursor-source'));
-  assert.ok(starch.foods.filter(f => f.food_id !== 'bananas' || f.preparation !== 'raw').every(f => f.mapping_status === 'verified'));
+  assert.ok(starch.foods.every(f => f.delivery === 'precursor-source' && f.mapping_status === 'verified'));
   assert.equal(pectin.review_status, 'provisional-substrate-food');
   assert.deepEqual(pectin.foods.map(f => f.food_id), ['apples']);
   assert.equal(pectin.foods[0].mapping_status, 'research-supported-provisional');
@@ -75,8 +73,8 @@ test('candidate dropdown labels precursors and keeps the red provisional icon', 
   assert.match(html, /No canonical food source recorded/);
   assert.match(html, /Inulin is not an admitted substrate/);
   assert.match(butyrate.coverage_warnings.join(' '), /dietary admission unresolved/);
-  assert.match(pm.content, /not butyrate content/);
-  assert.match(pm.content, /suitable communities/);
+  assert.match(butyrate.coverage_warnings.join(' '), /not butyrate content/);
+  assert.doesNotMatch(pm.content, /not butyrate content/);
   assert.match(html, /does not transfer the resistant-potato-starch faecal response/);
   const issues = [];
   validateInputGovernance(pm.data, issues, {content: pm.content, entityLabel: pm.data.pm_id});
