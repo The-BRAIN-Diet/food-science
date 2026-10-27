@@ -19,6 +19,7 @@ Outstanding food-edge, material-equivalence, identity and conversion tasks. Mate
 | Kale | 5-methyltetrahydrofolate | raw | BRS2-FM1-PM1 | pending-independent-verification |
 | Spinach | 5-methyltetrahydrofolate | unspecified | BRS2-FM1-PM1 | pending-independent-verification |
 | Nori | vitamin-b9 | dried | BRS2-FM1-PM1, BRS2-FM1-PM4 | requires-material-equivalence-review |
+| Shrimp | betaine | canned | BRS2-FM1-PM2 | pending-independent-verification |
 | Beef | glycine | Cut and cooking state not specified in the composition table; qualitative presence only | BRS2-FM1-PM4, BRS2-FM2-PM6 | pending-independent-verification |
 | Pork | glycine | Cut and cooking state not specified in the composition table; qualitative presence only | BRS2-FM1-PM4, BRS2-FM2-PM6 | pending-independent-verification |
 | Lamb | glycine | Cut and cooking state not specified in the composition table; qualitative presence only | BRS2-FM1-PM4, BRS2-FM2-PM6 | pending-independent-verification |
@@ -44,8 +45,6 @@ Outstanding food-edge, material-equivalence, identity and conversion tasks. Mate
 | Chicory root | inulin | Taproots dehydrated at 40°C, followed by laboratory extraction; qualitative source, not a household preparation protocol | BRS5-FM2-PM4 | pending-independent-verification |
 | Jerusalem artichokes | inulin | Harvest maturity and storage-specific laboratory analysis; cooked products not tested | BRS5-FM2-PM4 | pending-independent-verification |
 | Apples (studied cultivars) | pectin | Cultivar-specific extracted analytical fractions; not a standardised pectin dose | BRS5-FM2-PM5 | pending-independent-verification |
-| Pomegranate (studied commercial juice) | ellagic-acid | Chilled commercial juice; not whole-fruit or other-product equivalence | BRS5-FM2-PM6 | pending-independent-verification |
-| Pomegranate (studied commercial juice) | ellagitannins | Chilled commercial juice; not whole-fruit or other-product equivalence | BRS5-FM2-PM6 | pending-independent-verification |
 | Cacao Powder | epicatechin |  | BRS5-FM2-PM6 | requires-material-equivalence-review |
 | Cocoa | epicatechin |  | BRS5-FM2-PM6 | requires-material-equivalence-review |
 | Dark Chocolate | epicatechin |  | BRS5-FM2-PM6 | requires-material-equivalence-review |

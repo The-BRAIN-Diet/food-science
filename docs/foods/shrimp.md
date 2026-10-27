@@ -8,6 +8,7 @@ tags:
   - Shrimp
   - Selenium
   - Zinc
+  - Betaine
 list_image: /img/foods/shrimp/shrimp_thumb.webp
 nutrition_per_100g:
   choline_mg: 80.9
@@ -68,6 +69,26 @@ protein_profile_note: Complete essential amino acid profile.
 main_image: /img/foods/shrimp/shrimp_medium.webp
 legacy_list_image: /img/foods/shrimp/shrimp_thumb.webp
 legacy_main_image: /img/foods/shrimp/shrimp_medium.webp
+nutrition_supplementary_sources:
+  - key: betaine_mg
+    label: Betaine
+    basis: per 100 g
+    amount_display: 246 mg
+    citation_mark: asterisk
+    source_reference: '#food-source-3'
+    source_url: https://doi.org/10.1093/jn/133.5.1302
+    preparation_state: canned
+    evidence_material: Shrimp, canned
+    source_note: >-
+      Zeisel et al. (2003) Table 1, corrected by the erratum: shrimp, canned
+      (NDB 15152), 245.99 mg betaine per 100 g, shown as 246 mg. This page’s
+      USDA panel is raw mixed-species shrimp, not that canned sample. USDA
+      Release 2 does not report betaine for canned shrimp.
+    public_note: >-
+      Zeisel et al. (2003) Table 1, as corrected, supports this canned-shrimp
+      value. The asterisk marks that paper. It is not the raw USDA panel.
+    source_group: Zeisel et al. (2003) Table 1, erratum-corrected, NDB 15152
+    notes: Canned shrimp. Not the raw mixed-species panel used for the other nutrients.
 substance_relationships:
   - substance: Selenium
     relationship: contains
@@ -147,3 +168,7 @@ This food provides a complete essential amino acid profile typical of animal pro
 [1] Seafood including shellfish contributes EPA and DHA relevant to neuronal membrane composition. McNamara & Carlson 2006. [Role of omega-3 fatty acids in brain development and function: Potential implications for the pathogenesis and prevention of psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
 
 [2] Shellfish provides complete highly digestible protein with key micronutrients. Gao et al. 2022. [Protein intake from different sources and cognitive decline over 9 years in community-dwelling older adults](/docs/papers/BRAIN-Diet-References#gao_protein_2022)
+
+<span id="food-source-3" />
+
+[3] Zeisel et al. (2003). [Concentrations of Choline-Containing Compounds and Betaine in Common Foods](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003). Table 1, corrected by the [erratum](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003_erratum), reports 245.99 mg betaine per 100 g of canned shrimp, NDB 15152. The other nutrients on this page are raw mixed-species shrimp.

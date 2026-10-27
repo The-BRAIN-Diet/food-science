@@ -182,7 +182,7 @@ substance_relationships:
     evidence_material: "Walnut kernels"
     preparation_state: "Walnut kernels; assay-specific extraction"
     source_url: "https://doi.org/10.1016/j.foodchem.2013.11.158"
-    material_limitations: "Assay-specific extraction. This is not an amount and not a urolithin A exposure."
+    material_limitations: "Assay-specific extraction of kernels. Peeled kernel without the pellicle is a different material. This is not an amount, not free ellagic acid, and not a urolithin A exposure."
 substance_review_candidates: []
 ---
 ## Overview

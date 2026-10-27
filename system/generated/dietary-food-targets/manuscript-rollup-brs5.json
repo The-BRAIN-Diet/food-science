@@ -3173,6 +3173,59 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
+      "food_target": "asparagus",
+      "food_title": "Asparagus",
+      "food_material": "Green asparagus edible spear, var. Herkolim",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/asparagus.md#substance_relationships/Inulin",
+          "evidence": "Redondo-Cuenca et al., Food Research International 2023",
+          "source_url": "https://doi.org/10.1016/j.foodres.2022.112284",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Dry matter only. Not a fresh-weight serving, not oligofructose, not fructo-oligosaccharides, and not galacto-oligosaccharides. Root inulin is a different material."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F4"
+        ],
+        "citation_keys": [
+          "sonnenburg_fructan_specificity_2010",
+          "long_chain_inulin_elderly_2020"
+        ]
+      },
+      "preparation": "Lyophilized edible spear; hot-water extract. Root excluded.",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Utilisation genes, chain length, alternative substrates and resident organisms constrain the response. A supplied inulin substrate is not an indispensable intake, a guaranteed abundance shift, butyrate yield, mucus effect or clinical benefit."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM4",
+      "biological_mechanism": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "dietary_input": "Inulin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "inulin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
       "food_target": "chicory-root",
       "food_title": "Chicory root",
       "food_material": "Authenticated Cichorium intybus market taproots; isolated inulin characterised",
@@ -3627,19 +3680,30 @@
       "ontology_connections": {
         "identity": "resolved",
         "conversion": "not-applicable",
-        "food": "unresolved"
+        "food": "supported"
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
-      "food_target": null,
-      "food_title": null,
-      "food_material": null,
+      "food_target": "asparagus",
+      "food_title": "Asparagus",
+      "food_material": "Green asparagus edible spear, var. Herkolim",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
       "ontology_relationship_status": null,
       "reconciled_sources": [],
-      "mapping_status": "unresolved",
-      "food_evidence": null,
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/asparagus.md#substance_relationships/Inulin",
+          "evidence": "Redondo-Cuenca et al., Food Research International 2023",
+          "source_url": "https://doi.org/10.1016/j.foodres.2022.112284",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Dry matter only. Not a fresh-weight serving, not oligofructose, not fructo-oligosaccharides, and not galacto-oligosaccharides. Root inulin is a different material."
+        }
+      ],
       "pm_evidence": {
         "finding_ids": [
           "PM5-F3"
@@ -3648,8 +3712,8 @@
           "duncan_acetate_butyrate_2004"
         ]
       },
-      "preparation": null,
-      "delivery": null,
+      "preparation": "Lyophilized edible spear; hot-water extract. Root excluded.",
+      "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
         "Culture conditions and community composition constrain production. Human inulin tracer estimates depend on assumed systemic availability; the human chicory-inulin trial did not significantly increase faecal butyrate. No fixed food yield, intake target or brain benefit is established."
@@ -3673,21 +3737,25 @@
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "pomegranates",
-      "food_title": "Pomegranate (studied commercial juice)",
-      "food_material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
-      "material_equivalence_status": "not-applicable",
+      "food_title": "Pomegranates",
+      "food_material": "Commercial single-strength pomegranate juice",
+      "material_equivalence_status": null,
       "material_equivalence_reason": null,
-      "ontology_relationship_status": "missing-context-edge",
+      "ontology_relationship_status": null,
       "reconciled_sources": [],
-      "mapping_status": "research-supported-provisional",
-      "food_evidence": {
-        "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
-        "sources": [
-          "https://doi.org/10.1038/s41430-021-00950-1"
-        ],
-        "retrieved": "2026-10-23",
-        "kind": "primary-food-composition"
-      },
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/pomegranates.md#substance_relationships/Ellagic%20acid",
+          "evidence": "Gil et al., Journal of Agricultural and Food Chemistry 2000",
+          "source_url": "https://doi.org/10.1021/jf000404a",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "One commercial juice sample. Not aril-pressed juice, not whole-fruit flesh, and not an ellagitannin or urolithin amount."
+        }
+      ],
       "pm_evidence": {
         "finding_ids": [
           "PM6-F1"
@@ -3697,14 +3765,65 @@
           "singh_direct_2022"
         ]
       },
-      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "preparation": "Commercial single-strength juice; not aril-only juice",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
-        "Conversion depends on microbial community and may stop at intermediates. This does not imply universal conversion, increased mitochondrial function or benefit.",
-        "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred."
+        "Conversion depends on microbial community and may stop at intermediates. This does not imply universal conversion, increased mitochondrial function or benefit."
       ],
-      "missing_ontology_edge": "pomegranates → ellagic-acid [Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.; Chilled commercial juice; not whole-fruit or other-product equivalence]"
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM6",
+      "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "dietary_input": "Ellagitannins",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "ellagitannins",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "pomegranates",
+      "food_title": "Pomegranates",
+      "food_material": "Commercial single-strength pomegranate juice",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/pomegranates.md#substance_relationships/Ellagitannins",
+          "evidence": "Gil et al., Journal of Agricultural and Food Chemistry 2000",
+          "source_url": "https://doi.org/10.1021/jf000404a",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "Gallagyl-type tannins, not the sum of every ellagitannin and not free ellagic acid. Not an aril or whole-fruit flesh value."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F1"
+        ],
+        "citation_keys": [
+          "singh_direct_2022"
+        ]
+      },
+      "preparation": "Commercial single-strength juice; gallagyl-type tannins, not every ellagitannin",
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies."
+      ],
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS5",
@@ -3754,7 +3873,7 @@
           "citation_keys": [],
           "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
-          "limitations": "Assay-specific extraction. This is not an amount and not a urolithin A exposure."
+          "limitations": "Assay-specific extraction of kernels. Peeled kernel without the pellicle is a different material. This is not an amount, not free ellagic acid, and not a urolithin A exposure."
         },
         {
           "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
@@ -3780,55 +3899,6 @@
         "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies."
       ],
       "missing_ontology_edge": null
-    },
-    {
-      "brs": "BRS5",
-      "fm": "BRS5(FM2)",
-      "pm": "BRS5-FM2-PM6",
-      "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
-      "dietary_input": "Ellagitannins",
-      "type": "A",
-      "classification": "derived",
-      "canonical_substance_id": "ellagitannins",
-      "ontology_connections": {
-        "identity": "resolved",
-        "conversion": "unresolved",
-        "food": "supported"
-      },
-      "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "pomegranates",
-      "food_title": "Pomegranate (studied commercial juice)",
-      "food_material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
-      "material_equivalence_status": "not-applicable",
-      "material_equivalence_reason": null,
-      "ontology_relationship_status": "missing-context-edge",
-      "reconciled_sources": [],
-      "mapping_status": "research-supported-provisional",
-      "food_evidence": {
-        "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
-        "sources": [
-          "https://doi.org/10.1038/s41430-021-00950-1"
-        ],
-        "retrieved": "2026-10-23",
-        "kind": "primary-food-composition"
-      },
-      "pm_evidence": {
-        "finding_ids": [
-          "PM6-F1"
-        ],
-        "citation_keys": [
-          "singh_direct_2022"
-        ]
-      },
-      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
-      "delivery": "precursor-source",
-      "conversion_pathway": [],
-      "limitations": [
-        "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies.",
-        "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred."
-      ],
-      "missing_ontology_edge": "pomegranates → ellagitannins [Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.; Chilled commercial juice; not whole-fruit or other-product equivalence]"
     },
     {
       "brs": "BRS5",

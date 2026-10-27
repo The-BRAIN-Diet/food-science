@@ -1,6 +1,8 @@
 import { formatInputSectionId, projectMappingReview, relationshipFilterCategory } from '../src/data/inputSubstanceFoodSelection.mjs';
+import { buildRelatedSubstanceIndex, relatedSubstanceRollup, relativeSourcePower } from '../src/data/relatedSubstanceRelationships.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
+import matter from 'gray-matter';
 import { buildInputSubstanceFood, amountDisplay } from './lib/input-substance-food.mjs';
 const arg = process.argv.indexOf('--brs');
 const brs = arg === -1 ? 'BRS1' : String(process.argv[arg + 1] || '').toUpperCase();
@@ -47,4 +49,19 @@ fs.writeFileSync(path.join(dir, "dietary-input-decisions.json"), JSON.stringify(
 {
  const {views, rows, source_records, ...snapshot} = data;
  fs.writeFileSync(path.join(root, `src/data/${scope}InputMapping.generated.json`), JSON.stringify({...snapshot,substances:data.substances.map(({food_sources,selection,...s})=>s)},null,2)+'\n');
+}
+if (brs === 'BRS5') {
+  const foodDocs = fs.readdirSync(path.join(root, 'docs/foods')).filter((name) => /\.mdx?$/.test(name)).map((name) => {
+    const parsed = matter(fs.readFileSync(path.join(root, 'docs/foods', name), 'utf8'));
+    const id = parsed.data.id || name.replace(/\.mdx?$/, '');
+    return {id, title: parsed.data.title, permalink: '/docs/foods/' + id, frontMatter: parsed.data};
+  });
+  const index = buildRelatedSubstanceIndex(foodDocs);
+  const outDir = path.join(root, 'system/generated/related-substances');
+  fs.mkdirSync(outDir, {recursive: true});
+  fs.writeFileSync(path.join(outDir, 'index.generated.json'), JSON.stringify({
+    generated_from: 'verified contains records and src/data/relatedSubstanceRelationships.mjs',
+    records: relatedSubstanceRollup(index),
+    relative_source_power: relativeSourcePower(index),
+  }, null, 2) + '\n');
 }
