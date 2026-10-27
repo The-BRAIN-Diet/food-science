@@ -1,10 +1,13 @@
+import * as principles from '../src/lib/scientificPrinciples.mjs';
+import * as confidence from '../src/lib/dietaryConfidence.mjs';
+import * as presentation from '../src/lib/scientificFindingPresentation.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {execFileSync} from 'node:child_process';
 import {createRequire} from 'node:module';
 import matter from 'gray-matter';
-import {readPilotBaseline} from './lib/sec-pilot-baseline.mjs';
+import {readPilotBaseline, pilotArchivePath} from './lib/sec-pilot-baseline.mjs';
 import {stage2Assessment, stage2Studies, stage2Candidates, proposedSops, proposedLifestyle, stage2Audits, stage2Findings, expandedGlycaemicAudits, stage2DisplayData, hubScreen} from '../src/components/SecCalibrationPreview/glycaemicStage2.mjs';
 import {glycaemicAudits} from '../src/components/SecCalibrationPreview/glycaemicAudit.mjs';
 import {secAssessmentStatusErrors} from '../src/components/SecCalibrationPreview/assessmentAudit.mjs';
@@ -51,7 +54,7 @@ test('actual existing disclosure helper resolves six atoms and PM-local referenc
   const js = ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020,esModuleInterop:true}}).outputText;
   const mod = {exports:{}};
   const helperRequire = createRequire(new URL('../src/lib/dietaryLeverDisclosure.ts',import.meta.url));
-  new Function('exports','require','module',js)(mod.exports,helperRequire,mod);
+  new Function('exports','require','module',js)(mod.exports,id=>id.includes('scientificPrinciples')?principles:id.includes('dietaryConfidence')?confidence:id.includes('scientificFindingPresentation')?presentation:helperRequire(id),mod);
   const {buildDietaryLeverDisclosureMap,dietaryLeverBulletKey} = mod.exports;
   const map = buildDietaryLeverDisclosureMap(stage2DisplayData(original));
   for (const [section,rows] of [['3.2',proposedSops],['3.3',proposedLifestyle]]) for (const row of rows) {
@@ -152,6 +155,6 @@ test('archived pilot PMs, GABA, audit, methodology and governing contracts remai
   for (const path of [canonicalPath,`${root}glycaemicAudit.mjs`,'docs/system/sec-calibration/gaba.mdx',
     'system/primary-mechanism-schema.md','system/scientific-finding-schema.md','system/dietary-input-traceability-contract.md',
     'system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html']) {
-    assert.equal(read(path),execFileSync('git',['show',`HEAD:${path}`],{encoding:'utf8',maxBuffer:10e6}));
+    assert.equal(read(path),execFileSync('git',['show',`HEAD:${pilotArchivePath(path)}`],{encoding:'utf8',maxBuffer:10e6}));
   }
 });

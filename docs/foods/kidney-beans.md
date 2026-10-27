@@ -93,6 +93,85 @@ substance_relationships:
     source_url: 'https://fdc.nal.usda.gov/food-details/175193/nutrients'
     presence_status: presence_and_amount_supported
 substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-175194
+    material: Beans, kidney, red, mature seeds, cooked, boiled, without salt
+    preparation: cooked
+    food_group: plant
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 175194
+      source_url: https://fdc.nal.usda.gov/food-details/175194/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 8.67
+    protein_source_row_id: "1920438"
+    amino_acids:
+      histidine:
+        value: 0.242
+        source_row_id: "1920428"
+        nutrient_id: "1221"
+        data_points: 0
+        derivation_id: null
+      isoleucine:
+        value: 0.383
+        source_row_id: "1920422"
+        nutrient_id: "1212"
+        data_points: 0
+        derivation_id: null
+      leucine:
+        value: 0.693
+        source_row_id: "1920423"
+        nutrient_id: "1213"
+        data_points: 0
+        derivation_id: null
+      lysine:
+        value: 0.595
+        source_row_id: "1920424"
+        nutrient_id: "1214"
+        data_points: 0
+        derivation_id: null
+      methionine:
+        value: 0.13
+        source_row_id: "1920456"
+        nutrient_id: "1215"
+        data_points: 0
+        derivation_id: null
+      phenylalanine:
+        value: 0.469
+        source_row_id: "1920457"
+        nutrient_id: "1217"
+        data_points: 0
+        derivation_id: null
+      threonine:
+        value: 0.365
+        source_row_id: "1920455"
+        nutrient_id: "1211"
+        data_points: 0
+        derivation_id: null
+      tryptophan:
+        value: 0.103
+        source_row_id: "1920454"
+        nutrient_id: "1210"
+        data_points: 0
+        derivation_id: null
+      valine:
+        value: 0.454
+        source_row_id: "1920426"
+        nutrient_id: "1219"
+        data_points: 0
+        derivation_id: null
+    portion:
+      label: 0.5 cup
+      source_row_id: "95822"
+      source_grams: 177
+      multiplier: 0.5
+    limitations: >-
+      USDA database composition, including source-specific analytical or calculated values. No
+      amino-acid-specific digestibility correction; illustrative USDA household portion, not an
+      intake recommendation. Missing values are not treated as zero.
 ---
 ## Overview
 

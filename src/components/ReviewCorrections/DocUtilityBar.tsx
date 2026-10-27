@@ -1,5 +1,5 @@
 import {Stage2ReviewProvider} from '../Stage2Review'
-import React, {type KeyboardEvent, type ReactNode, useEffect, useLayoutEffect, useMemo} from "react"
+import React, {type KeyboardEvent, type ReactNode, useEffect, useLayoutEffect, useMemo, useRef} from "react"
 import clsx from "clsx"
 import {useHistory, useLocation} from "@docusaurus/router"
 import {useDoc} from "@docusaurus/plugin-content-docs/client"
@@ -25,6 +25,7 @@ import {initBrsFmHubDropdowns} from "../../client/brsFmHubDropdown"
 import {evidenceGapItems} from "@site/src/lib/scientificTransparency.mjs"
 import {currentPmOpenIssues, OPEN_ISSUES_QUERY_PARAM} from "@site/src/data/pmOpenIssues.mjs"
 import {historicalFindingIds} from "@site/src/lib/scientificTransparency.mjs"
+import {findingOnMainPage} from "@site/src/lib/scientificFindingPresentation.mjs"
 import pmOpenIssueRecords from "../../../system/framework-qc/pm-open-issues.json"
 import styles from "./styles.module.css"
 
@@ -122,6 +123,8 @@ function DocUtilityBarContent({
     !therapeuticOpen &&
     params.get(ADVANCED_QUERY_PARAM) === "1"
   const highlightsOpen = !reviewOpen && !issuesOpen && !advancedOpen && !therapeuticOpen && !gapsOpen
+  const mainContentRef = useRef<HTMLDivElement>(null)
+  const returnToPmRequested = useRef(false)
   const qcLabel =
     auditPreview || isPmPage ? "Evidence & Audit" : openCount > 0 ? `Review & Corrections (${openCount})` : "Review & Corrections"
   const issuesLabel = openIssueCount > 0 ? `Open Issues (${openIssueCount})` : "Open Issues"
@@ -130,6 +133,18 @@ function DocUtilityBarContent({
     setUseTabPanel?.(showContentTabs)
     return () => setUseTabPanel?.(false)
   }, [showContentTabs, setUseTabPanel])
+
+  useEffect(() => {
+    if (!highlightsOpen || !returnToPmRequested.current) return
+    returnToPmRequested.current = false
+    const main = mainContentRef.current
+    const heading = main?.querySelector<HTMLElement>("h1, h2") || main
+    if (heading) {
+      heading.tabIndex = -1
+      heading.focus({preventScroll: true})
+      main?.scrollIntoView({block: "start"})
+    }
+  }, [highlightsOpen])
 
   function setContentTab(tab: ContentTab) {
     const nextParams = new URLSearchParams(location.search)
@@ -153,9 +168,20 @@ function DocUtilityBarContent({
   }
 
   useEffect(() => {
-    if (reviewOpen) return
     const id = location.hash.replace(/^#/, "")
     if (!id) return
+    const mainFindingsIndex = fm.scientific_findings_placement === 'section-4' && id === 'scientific-findings'
+    if (findingOnMainPage(fm, id) || mainFindingsIndex) {
+      if (reviewOpen || issuesOpen || gapsOpen || mainFindingsIndex) {
+        const nextParams = new URLSearchParams(location.search)
+        nextParams.delete("evidence-gaps")
+        nextParams.delete(OPEN_ISSUES_QUERY_PARAM)
+        nextParams.delete(REVIEW_QUERY_PARAM)
+        history.replace({pathname: location.pathname, search: nextParams.toString() ? "?" + nextParams : "", hash: mainFindingsIndex ? '#41-scientific-findings' : location.hash})
+      }
+      return
+    }
+    if (reviewOpen) return
     if (fm.evidence_tabs_version === 1 && secFindings.some(f => String(f.id).toLowerCase() === id)) {
       const nextParams = new URLSearchParams(location.search)
       nextParams.delete("evidence-gaps")
@@ -235,6 +261,13 @@ function DocUtilityBarContent({
       window.addEventListener("keydown", onKey)
       return () => window.removeEventListener("keydown", onKey)
     }
+    if (findingOnMainPage(fm, location.hash.replace(/^#/, ""))) {
+      const target = document.getElementById(location.hash.slice(1))
+      if (target) {
+        initBrsFmHubDropdowns(target, {forceHash: true})
+        target.scrollIntoView({block: "start"})
+      }
+    }
     const panelId = therapeuticOpen
       ? "therapeutic-area-research-panel"
       : advancedOpen
@@ -289,8 +322,25 @@ function DocUtilityBarContent({
 
   return (
     <>
+      <div className={clsx(styles.bar, isPmPage && styles.pmBar)}>
+        {isPmPage && !highlightsOpen ? (
+          <button
+            type="button"
+            className={clsx(styles.tab, styles.backToPm)}
+            aria-controls="pm-main-content"
+            onClick={() => {
+              returnToPmRequested.current = true
+              setContentTab("highlights")
+            }}
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false">
+              <path d="m12 19-7-7 7-7M5 12h14" />
+            </svg>
+            Back to PM
+          </button>
+        ) : null}
       <div
-        className={styles.bar}
+        className={styles.tabList}
         role="tablist"
         aria-label="Page utilities"
         onKeyDown={onTabListKeyDown}
@@ -410,7 +460,8 @@ function DocUtilityBarContent({
           </div>
         ) : null}
       </div>
-      <div className={clsx((reviewOpen || issuesOpen || gapsOpen || advancedOpen || therapeuticOpen) && styles.hiddenMain)}>
+      </div>
+      <div ref={mainContentRef} id={isPmPage ? "pm-main-content" : undefined} className={clsx((reviewOpen || issuesOpen || gapsOpen || advancedOpen || therapeuticOpen) && styles.hiddenMain)}>
         {children}
       </div>
       {gapsOpen ? <EvidenceGaps panelId="evidence-gaps-panel" /> : null}

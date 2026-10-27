@@ -226,6 +226,85 @@ substance_relationships:
 substance_card_captions:
   Betaine: Occurs directly in quinoa; 630 mg per 100 g in one corrected USDA sample.
 substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-168917
+    material: Quinoa, cooked
+    preparation: cooked
+    food_group: plant
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 168917
+      source_url: https://fdc.nal.usda.gov/food-details/168917/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 4.4
+    protein_source_row_id: "1398900"
+    amino_acids:
+      histidine:
+        value: 0.127
+        source_row_id: "1398955"
+        nutrient_id: "1221"
+        data_points: 0
+        derivation_id: "1"
+      isoleucine:
+        value: 0.157
+        source_row_id: "1398949"
+        nutrient_id: "1212"
+        data_points: 0
+        derivation_id: "1"
+      leucine:
+        value: 0.261
+        source_row_id: "1398950"
+        nutrient_id: "1213"
+        data_points: 0
+        derivation_id: "1"
+      lysine:
+        value: 0.239
+        source_row_id: "1398951"
+        nutrient_id: "1214"
+        data_points: 0
+        derivation_id: "1"
+      methionine:
+        value: 0.096
+        source_row_id: "1398940"
+        nutrient_id: "1215"
+        data_points: 0
+        derivation_id: "1"
+      phenylalanine:
+        value: 0.185
+        source_row_id: "1398941"
+        nutrient_id: "1217"
+        data_points: 0
+        derivation_id: "1"
+      threonine:
+        value: 0.131
+        source_row_id: "1398939"
+        nutrient_id: "1211"
+        data_points: 0
+        derivation_id: "1"
+      tryptophan:
+        value: 0.052
+        source_row_id: "1398938"
+        nutrient_id: "1210"
+        data_points: 0
+        derivation_id: "1"
+      valine:
+        value: 0.185
+        source_row_id: "1398953"
+        nutrient_id: "1219"
+        data_points: 0
+        derivation_id: "1"
+    portion:
+      label: 1 cup
+      source_row_id: "83990"
+      source_grams: 185
+      multiplier: 1
+    limitations: >-
+      USDA database composition, including source-specific analytical or calculated values. No
+      amino-acid-specific digestibility correction; illustrative USDA household portion, not an
+      intake recommendation. Missing values are not treated as zero.
 ---
 ## Overview
 

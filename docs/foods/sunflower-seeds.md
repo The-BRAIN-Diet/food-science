@@ -192,6 +192,85 @@ substance_relationships:
 substance_card_captions:
   Spermidine: Occurs directly in this food; a product-specific amount is not established.
 substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-170562
+    material: Seeds, sunflower seed kernels, dried
+    preparation: dried
+    food_group: plant
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 170562
+      source_url: https://fdc.nal.usda.gov/food-details/170562/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 20.78
+    protein_source_row_id: "1533405"
+    amino_acids:
+      histidine:
+        value: 0.632
+        source_row_id: "1533442"
+        nutrient_id: "1221"
+        data_points: 35
+        derivation_id: null
+      isoleucine:
+        value: 1.139
+        source_row_id: "1533436"
+        nutrient_id: "1212"
+        data_points: 41
+        derivation_id: null
+      leucine:
+        value: 1.659
+        source_row_id: "1533437"
+        nutrient_id: "1213"
+        data_points: 41
+        derivation_id: null
+      lysine:
+        value: 0.937
+        source_row_id: "1533438"
+        nutrient_id: "1214"
+        data_points: 44
+        derivation_id: null
+      methionine:
+        value: 0.494
+        source_row_id: "1533385"
+        nutrient_id: "1215"
+        data_points: 40
+        derivation_id: null
+      phenylalanine:
+        value: 1.169
+        source_row_id: "1533386"
+        nutrient_id: "1217"
+        data_points: 40
+        derivation_id: null
+      threonine:
+        value: 0.928
+        source_row_id: "1533384"
+        nutrient_id: "1211"
+        data_points: 41
+        derivation_id: null
+      tryptophan:
+        value: 0.348
+        source_row_id: "1533383"
+        nutrient_id: "1210"
+        data_points: 25
+        derivation_id: null
+      valine:
+        value: 1.315
+        source_row_id: "1533440"
+        nutrient_id: "1219"
+        data_points: 41
+        derivation_id: null
+    portion:
+      label: 0.2 cup
+      source_row_id: "86856"
+      source_grams: 140
+      multiplier: 0.2
+    limitations: >-
+      USDA database composition, including source-specific analytical or calculated values. No
+      amino-acid-specific digestibility correction; illustrative USDA household portion, not an
+      intake recommendation. Missing values are not treated as zero.
 ---
 ## Overview
 

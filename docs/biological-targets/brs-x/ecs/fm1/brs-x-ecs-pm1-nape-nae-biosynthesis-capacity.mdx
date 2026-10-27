@@ -7,12 +7,12 @@ mission: >-
 parent_fm: BRS-X(ECS-FM1)
 parent_brs: BRS-X(ECS)
 summary: >-
-  N-acylethanolamines are signalling lipids made from membrane phospholipid precursors. This mechanism
-  covers the formation step that supplies these molecules, rather than the later receptor responses or
-  their degradation. Brain and enzyme experiments identify the precursor and catalytic machinery. That
-  makes the synthesis pathway biologically meaningful, while leaving open whether particular foods
-  increase neural production. A tested phosphatidylethanolamine meal did not improve satiety; that
-  outcome does not negate its intracellular precursor role.
+  N-acylethanolamines are signalling lipids made from membrane phospholipid precursors. This mechanism covers
+  the formation step that supplies these molecules, rather than the later receptor responses or their
+  degradation. Brain and enzyme experiments identify the precursor and catalytic machinery. That makes the
+  synthesis pathway biologically meaningful, while leaving open whether particular foods increase neural
+  production. A tested phosphatidylethanolamine meal did not improve satiety; that outcome does not negate its
+  intracellular precursor role.
 key_constraints: []
 cofactors:
   - N-acyl phosphatidylethanolamines (NAPEs)
@@ -49,8 +49,8 @@ phenome_relationships:
     confidence: low
     evidence_level: mechanistic
     rationale: >-
-      Dietary NAPE and NAE precursor biology may modulate endocannabinoidome context relevant to
-      affective regulation; direct ADHD outcome claims remain cautious.
+      Dietary NAPE and NAE precursor biology may modulate endocannabinoidome context relevant to affective
+      regulation; direct ADHD outcome claims remain cautious.
     references:
       - index: 1
         label: Garani et al. (2021)
@@ -81,6 +81,48 @@ phenome_relationships:
     evidence_confidence: low-medium
     scientific_findings: []
     assessment_status: legacy-rating-pending-outcome-reassessment
+dietary_input_assessments:
+  - atom_id: PM1-DIT-3
+    status: admitted
+    type: A
+    classification: direct
+    operation: >-
+      Enable NAPE-to-NAE biosynthesis so endocannabinoidome signalling lipids remain available for stress and
+      motivation regulation.
+    canonical_substance_id: zinc
+    functional_dependency:
+      status: established
+      statement: >-
+        Dietary zinc supplies the binuclear catalytic metal centre of human NAPE-PLD, supporting
+        N-acylethanolamine production capacity.
+      sources:
+        - https://pubmed.ncbi.nlm.nih.gov/25684574/
+        - https://www.uniprot.org/uniprotkb/Q6IQ20/entry
+    dietary_supply:
+      status: established
+      statement: >-
+        The same mineral has established dietary supply through the canonical composition records. Cellular
+        uptake and homeostasis mediate enzyme loading; this is maintenance of capacity, not a claim that extra
+        intake accelerates the reaction.
+      sources:
+        - docs/foods/pumpkin-seeds.md
+        - docs/foods/cashews.md
+    assessment_date: '2026-10-26'
+    assessment_limitations: >-
+      Human enzyme structure and catalysis establish the metal dependency, not dietary zinc-driven brain NAE
+      flux or benefit above adequacy. Cellular zinc homeostasis and membrane substrate access constrain
+      loading; no extra-zinc recommendation is established.
+    food_target_research:
+      completed: true
+      sources_examined:
+        - registry/substances.json
+        - docs/foods/pumpkin-seeds.md
+        - docs/foods/cashews.md
+        - system/food-target-research.json
+      sufficient_coverage_rationale: >-
+        Inspected existing structured composition records and provisional research coverage for the same
+        mineral. Verified plant/animal sources are reused with preparation qualifiers; no new food edge,
+        effective food dose or enzyme-response inference is created.
 references:
   - >-
     [Garani et al. (2021) — Endocannabinoid System in Psychotic and Mood Disorders, a Review of Human
@@ -89,15 +131,14 @@ references:
     [Davies et al. (2018) — Oatmeal Effect on
     N-acyl-phosphatidylethanolamines](/docs/papers/BRAIN-Diet-References#sean_davies_oatmeal_2018)
   - >-
-    [Cadas et al. (1997) — Occurrence and biosynthesis of endogenous cannabinoid precursor,
-    N-arachidonoyl phosphatidylethanolamine, in rat
-    brain](/docs/papers/BRAIN-Diet-References#cadas_nape_1997)
+    [Cadas et al. (1997) — Occurrence and biosynthesis of endogenous cannabinoid precursor, N-arachidonoyl
+    phosphatidylethanolamine, in rat brain](/docs/papers/BRAIN-Diet-References#cadas_nape_1997)
   - >-
-    [Magotti et al. (2015) — Structure of human NAPE-PLD: regulation of fatty-acid ethanolamide
-    biosynthesis by bile acids](/docs/papers/BRAIN-Diet-References#magotti_nape_pld_2015)
+    [Magotti et al. (2015) — Structure of human NAPE-PLD: regulation of fatty-acid ethanolamide biosynthesis
+    by bile acids](/docs/papers/BRAIN-Diet-References#magotti_nape_pld_2015)
   - >-
-    [Lithander et al. (2008) — No effect of an oleoylethanolamide-related phospholipid on satiety and
-    energy intake: a randomised controlled trial of
+    [Lithander et al. (2008) — No effect of an oleoylethanolamide-related phospholipid on satiety and energy
+    intake: a randomised controlled trial of
     phosphatidylethanolamine](/docs/papers/BRAIN-Diet-References#lithander_pe_trial_2008)
 hide_title: true
 scientific_findings:
@@ -151,8 +192,8 @@ scientific_findings:
         href: /docs/papers/BRAIN-Diet-References#garani_endocannabinoid_2021
         why_relevant: Preserved attached corpus and original relationship provenance.
         why_excluded: >-
-          Contextual synthesis of this pathway. It is not used as an independent exposure-specific
-          admission or a new outcome-confidence assessment.
+          Contextual synthesis of this pathway. It is not used as an independent exposure-specific admission
+          or a new outcome-confidence assessment.
       - label: Davies et al. (2018)
         citation_key: sean_davies_oatmeal_2018
         href: /docs/papers/BRAIN-Diet-References#sean_davies_oatmeal_2018
@@ -163,15 +204,15 @@ scientific_findings:
     presentation: mechanistic-basis
     fm_rollup: false
     finding_summary: >-
-      The membrane substrate enters a binuclear zinc active centre; bile acids influence enzyme
-      organisation and activity.
+      The membrane substrate enters a binuclear zinc active centre; bile acids influence enzyme organisation
+      and activity.
     finding_statement: >-
-      The membrane substrate enters a binuclear zinc active centre; bile acids influence enzyme
-      organisation and activity.
+      The membrane substrate enters a binuclear zinc active centre; bile acids influence enzyme organisation
+      and activity.
     finding_interpretation: Purified enzyme biology; dietary zinc responsiveness and brain NAE production were not tested.
     synthesis: >-
-      The membrane substrate enters a binuclear zinc active centre; bile acids influence enzyme
-      organisation and activity.
+      The membrane substrate enters a binuclear zinc active centre; bile acids influence enzyme organisation
+      and activity.
     synthesis_limitations: Purified enzyme biology; dietary zinc responsiveness and brain NAE production were not tested.
     synthesised_evidence_confidence: not-yet-scored
     evidence_considered:
@@ -193,9 +234,7 @@ scientific_findings:
           evidence_summary: >-
             The membrane substrate enters a binuclear zinc active centre; bile acids influence enzyme
             organisation and activity.
-          limitations: >-
-            Purified enzyme biology; dietary zinc responsiveness and brain NAE production were not
-            tested.
+          limitations: Purified enzyme biology; dietary zinc responsiveness and brain NAE production were not tested.
           retrieval_scope: Primary Results and Discussion excerpts retrieved, including active-site structure.
           source_url: https://pubmed.ncbi.nlm.nih.gov/25684574/
     connected_supportive_evidence: []
@@ -206,12 +245,12 @@ scientific_findings:
     finding_summary: PE-containing meals did not improve the tested satiety or energy-intake endpoints.
     finding_statement: PE-containing meals did not improve the tested satiety or energy-intake endpoints.
     finding_interpretation: >-
-      A null satiety result is not a measurement of NAPE-to-NAE biosynthesis or proof against the
-      precursor role.
+      A null satiety result is not a measurement of NAPE-to-NAE biosynthesis or proof against the precursor
+      role.
     synthesis: PE-containing meals did not improve the tested satiety or energy-intake endpoints.
     synthesis_limitations: >-
-      A null satiety result is not a measurement of NAPE-to-NAE biosynthesis or proof against the
-      precursor role.
+      A null satiety result is not a measurement of NAPE-to-NAE biosynthesis or proof against the precursor
+      role.
     synthesised_evidence_confidence: not-yet-scored
     evidence_considered:
       - label: Lithander et al. (2008)
@@ -233,9 +272,8 @@ scientific_findings:
           source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2600636/
     connected_supportive_evidence: []
 scientific_findings_intro: >-
-  Precursor identification and human enzyme structure support the biosynthetic machinery. The meal
-  experiment addresses satiety, not synthesis flux; a food-responsive neural supply requirement remains
-  unestablished.
+  Precursor identification and human enzyme structure support the biosynthetic machinery. The meal experiment
+  addresses satiety, not synthesis flux; a food-responsive neural supply requirement remains unestablished.
 pm_kc_relationships: []
 dietary_input_traceability:
   - atom_id: PM1-DIT-1
@@ -277,7 +315,7 @@ dietary_input_traceability:
       substance_href: /docs/substances/nutrients/macronutrients/fatty-acids/phospholipids/phosphatidylethanolamine
       verification: Registry ID and canonical page identity agree.
   - atom_id: PM1-DIT-3
-    input: Zinc ions (Zn²⁺)
+    input: Zinc
     input_type: catalytic ion
     biological_role: Two active-site zinc ions support human NAPE-PLD hydrolysis.
     evidence_source:
@@ -285,12 +323,21 @@ dietary_input_traceability:
         - PM1-F2
       citation_keys:
         - magotti_nape_pld_2015
-    evidence_limitation: Purified enzyme biology; dietary zinc responsiveness and brain NAE production were not tested.
+    evidence_limitation: >-
+      Human enzyme structure and catalysis establish the metal dependency, not dietary zinc-driven brain NAE
+      flux or benefit above adequacy. Cellular zinc homeostasis and membrane substrate access constrain
+      loading; no extra-zinc recommendation is established.
     canonical_identity:
       status: resolved
       substance_id: zinc
       substance_href: /docs/substances/nutrients/micronutrients/minerals/trace/zinc
       verification: Registry ID and canonical page identity agree.
+    dietary_input: true
+    substance_id: zinc
+    dietary_input_note: >-
+      2026-10-26 recovery: admitted Type A capacity under the functional-dependency and dietary-supply gate.
+      The original biochemical-only record and its rationale are preserved in the recovery history. No
+      additional-intake efficacy is asserted.
 dietary_lever_atoms:
   - atom_id: PM1-DIT-1
     relationship_layer: biochemical-requirement
@@ -309,10 +356,18 @@ dietary_lever_atoms:
       Intracellular phospholipid provision does not establish a requirement to consume NAPE or
       phosphatidylethanolamine.
   - atom_id: PM1-DIT-3
-    relationship_layer: biochemical-requirement
+    relationship_layer: dietary-requirement
     claim_ceiling: biological-dependency
-    permitted_wording: Two active-site zinc ions support human NAPE-PLD hydrolysis.
-    evidence_limitation: Purified enzyme biology; dietary zinc responsiveness and brain NAE production were not tested.
+    permitted_wording: >-
+      Dietary zinc supplies the binuclear catalytic metal centre of human NAPE-PLD, supporting
+      N-acylethanolamine production capacity.
+    evidence_limitation: >-
+      Human enzyme structure and catalysis establish the metal dependency, not dietary zinc-driven brain NAE
+      flux or benefit above adequacy. Cellular zinc homeostasis and membrane substrate access constrain
+      loading; no extra-zinc recommendation is established.
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    dietary_addressability: direct
 dietary_lever_presentations:
   - atom_id: PM1-DIT-1
     label: N-acyl phosphatidylethanolamines (NAPEs)
@@ -327,8 +382,8 @@ dietary_lever_presentations:
       phosphatidylethanolamine.
     description_finding_id: PM1-F1
   - atom_id: PM1-DIT-3
-    label: Zinc ions (Zn²⁺)
-    presentation_section: 3.1.2
+    label: Zinc
+    presentation_section: 3.1.1
     reader_description: Two active-site zinc ions support human NAPE-PLD hydrolysis.
     description_finding_id: PM1-F2
 pending_actions:
@@ -354,16 +409,16 @@ kc_applicability_adjudications:
     arm_id: ecs-pm1-resource-supply
     disposition: unresolved
     rationale: >-
-      The legacy ECS pool lacks an admitted canonical constituent definition. Specific precursor biology
-      is preserved; it cannot silently validate the entire legacy phospholipid/choline pool.
+      The legacy ECS pool lacks an admitted canonical constituent definition. Specific precursor biology is
+      preserved; it cannot silently validate the entire legacy phospholipid/choline pool.
     evidence_source:
       finding_ids:
         - PM1-F1
       citation_keys:
         - cadas_nape_1997
     remaining_gap: >-
-      Reconcile the canonical pool and individually adjudicate its constituents against this PM; no
-      downstream inheritance.
+      Reconcile the canonical pool and individually adjudicate its constituents against this PM; no downstream
+      inheritance.
 intervention_dominance_assessment:
   evidence_qualification:
     label: Diet-Dominant
@@ -371,8 +426,8 @@ intervention_dominance_assessment:
       Inherited qualification retained for traceability. The current review qualifies only the routes and
       contexts recorded below; the inherited label is not proof of comparative dominance.
     scope_note: >-
-      The inherited intervention qualification is not confirmed by a mission-specific dietary/practice
-      effect in this assessment.
+      The inherited intervention qualification is not confirmed by a mission-specific dietary/practice effect
+      in this assessment.
     routes: []
   principal_route_selection:
     disposition: not-established
@@ -384,21 +439,21 @@ stage2ab_assessment_history:
     reason: Independent ECS/Hormones evidence and input-specificity reassessment; original ratings preserved.
     previous_records:
       mission: >-
-        Enable NAPE-to-NAE biosynthesis so endocannabinoidome signalling lipids remain available for
-        stress and motivation regulation.
+        Enable NAPE-to-NAE biosynthesis so endocannabinoidome signalling lipids remain available for stress
+        and motivation regulation.
       key_constraints:
         - BRS-X(ECS-KC1) - Phospholipid & NAPE Precursor Availability
       cofactors:
         - phospholipid precursors
         - choline context
       summary: >-
-        Governs generation of N-acyl phosphatidylethanolamines (NAPEs, membrane phospholipid precursors)
-        and their downstream N-acyl ethanolamines (NAEs), including anandamide, palmitoylethanolamide,
-        and oleoylethanolamide — signalling lipids that act as neuromodulators throughout the nervous
-        system. These molecules help the body adapt to stress, regulate motivation, and maintain
-        physiological balance, operating upstream of the degradation and receptor-interaction mechanisms
-        covered by sibling pathways. Phospholipid precursor availability from dietary fat intake directly
-        constrains how much biosynthetic capacity exists.
+        Governs generation of N-acyl phosphatidylethanolamines (NAPEs, membrane phospholipid precursors) and
+        their downstream N-acyl ethanolamines (NAEs), including anandamide, palmitoylethanolamide, and
+        oleoylethanolamide — signalling lipids that act as neuromodulators throughout the nervous system.
+        These molecules help the body adapt to stress, regulate motivation, and maintain physiological
+        balance, operating upstream of the degradation and receptor-interaction mechanisms covered by sibling
+        pathways. Phospholipid precursor availability from dietary fat intake directly constrains how much
+        biosynthetic capacity exists.
       intervention_dominance: Diet-Dominant
       phenome_relationships:
         - target_phenome: Motivation / Drive
@@ -406,9 +461,9 @@ stage2ab_assessment_history:
           confidence: low-medium
           evidence_level: mechanistic
           rationale: >-
-            NAPE → NAE biosynthesis may support AEA, PEA, and OEA signalling context relevant to
-            motivation and drive through diet-actionable endocannabinoidome pathways rather than CB1
-            receptor pharmacology.
+            NAPE → NAE biosynthesis may support AEA, PEA, and OEA signalling context relevant to motivation
+            and drive through diet-actionable endocannabinoidome pathways rather than CB1 receptor
+            pharmacology.
           references:
             - index: 1
               label: Garani et al. (2021)
@@ -440,8 +495,8 @@ stage2ab_assessment_history:
           confidence: low-medium
           evidence_level: mechanistic
           rationale: >-
-            PEA and related NAEs may intersect with stress-buffering endocannabinoidome signalling;
-            dietary phospholipid support remains the primary intervention frame.
+            PEA and related NAEs may intersect with stress-buffering endocannabinoidome signalling; dietary
+            phospholipid support remains the primary intervention frame.
           references:
             - index: 1
               label: Garani et al. (2021)
@@ -459,13 +514,36 @@ list_image: /img/biological-targets/brs-x-ecs-portrait-thumbnail.jpg
 stage2a_scope_review:
   pm_id: BRS-X(ECS-PM1)
   issue: >-
-    Whether orally supplied PE/NAPE reaches the relevant neural precursor pool and changes its
-    production; choline participation in other phospholipids does not resolve this link.
+    Whether orally supplied PE/NAPE reaches the relevant neural precursor pool and changes its production;
+    choline participation in other phospholipids does not resolve this link.
   disposition: pending-scope-review
   instruction: >-
-    Preserve identity and mission pending review; current evidence statements remain bounded. No
-    automatic rating or parent-FM uplift.
-sidebar_label: "BRS-X(ECS-PM1) — NAPE → NAE Biosynthesis Capacity"
+    Preserve identity and mission pending review; current evidence statements remain bounded. No automatic
+    rating or parent-FM uplift.
+sidebar_label: BRS-X(ECS-PM1) — NAPE → NAE Biosynthesis Capacity
+evidence_tabs_version: 1
+evidence_gaps_tab: true
+evidence_gaps:
+  - id: PM1-EG-RECOVERY-1
+    title: Dietary phospholipid supply to local NAPE precursor pools
+    establishes: >-
+      Intracellular phosphatidylethanolamine and NAPE support NAE biosynthesis; zinc capacity is separately
+      admitted.
+    cannot_establish: >-
+      Eating PE or NAPE has not been shown here to supply the relevant local membrane precursor pool at the
+      required evidential level.
+    missing_link: >-
+      Eating PE or NAPE has not been shown here to supply the relevant local membrane precursor pool at the
+      required evidential level.
+    required_evidence: >-
+      Trace the dietary molecular form into the relevant membrane pool and demonstrate its contribution to NAE
+      formation, preserving tissue and endogenous-synthesis context.
+    affected_relationship: Dietary phospholipid supply to local NAPE precursor pools
+    finding_ids:
+      - PM1-F1
+    citation_keys:
+      - cadas_nape_1997
+    review_date: '2026-10-26'
 ---
 
 <p class="brs-pm-thumbnail-wrap"><img src="/img/biological-targets/brs-x-ecs-portrait-thumbnail.jpg" alt="BRS-X(ECS)" class="brs-pm-thumbnail" /></p>
@@ -506,7 +584,9 @@ N-acylethanolamines are signalling lipids made from membrane phospholipid precur
 <strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-No Direct or Derived Dietary Requirement is currently established.
+
+- Zinc
+
 </div>
 </div>
 </div>
@@ -515,12 +595,12 @@ No Direct or Derived Dietary Requirement is currently established.
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+
 <strong>3.1.2 Cofactors and Substrates</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 - N-acyl phosphatidylethanolamines (NAPEs)
 - Phosphatidylethanolamine
-- Zinc ions (Zn²⁺)
 </div>
 </div>
 </div>
@@ -574,15 +654,8 @@ N-arachidonoyl phosphatidylethanolamine and its biosynthetic pathway were identi
 
 ### 4.1 Scientific Findings
 
-#### Summary
 
-Precursor identification and human enzyme structure support the biosynthetic machinery. The meal experiment addresses satiety, not synthesis flux; a food-responsive neural supply requirement remains unestablished.
-
-<ScientificFinding finding={{"id":"PM1-F1","finding_label":"NAPE phospholipids feed NAE formation","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"N-arachidonoyl phosphatidylethanolamine and its biosynthetic pathway were identified in brain preparations.","finding_statement":"N-arachidonoyl phosphatidylethanolamine and its biosynthetic pathway were identified in brain preparations.","finding_interpretation":"Intracellular phospholipid provision does not establish a requirement to consume NAPE or phosphatidylethanolamine.","synthesis":"N-arachidonoyl phosphatidylethanolamine and its biosynthetic pathway were identified in brain preparations.","synthesis_limitations":"Intracellular phospholipid provision does not establish a requirement to consume NAPE or phosphatidylethanolamine.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Cadas et al. (1997)","citation_key":"cadas_nape_1997","href":"/docs/papers/BRAIN-Diet-References#cadas_nape_1997","data_level":"Animal Data","evidence_source":"bounded-external-search","directional_finding":"N-arachidonoyl phosphatidylethanolamine and its biosynthetic pathway were identified in brain preparations.","assessment":{"study":"Rat brain lipid identification and precursor-biosynthesis experiments.","population":"Rat brain lipid identification and precursor-biosynthesis experiments.","result":"N-arachidonoyl phosphatidylethanolamine and its biosynthetic pathway were identified in brain preparations.","effect_magnitude":"Only the extracted directional comparison is used; no pooled estimate is asserted.","evidence_summary":"N-arachidonoyl phosphatidylethanolamine and its biosynthetic pathway were identified in brain preparations.","limitations":"Intracellular phospholipid provision does not establish a requirement to consume NAPE or phosphatidylethanolamine.","retrieval_scope":"Primary abstract retrieved; unextracted full-method details are not asserted.","source_url":"https://pubmed.ncbi.nlm.nih.gov/9006968/"},"canonical_reference":{"author_year":"Cadas et al. (1997)","number":3,"anchor":"#pm-ref-3"}}],"connected_supportive_evidence":[{"label":"Garani et al. (2021)","citation_key":"garani_endocannabinoid_2021","href":"/docs/papers/BRAIN-Diet-References#garani_endocannabinoid_2021","why_relevant":"Preserved attached corpus and original relationship provenance.","why_excluded":"Contextual synthesis of this pathway. It is not used as an independent exposure-specific admission or a new outcome-confidence assessment.","canonical_reference":{"author_year":"Garani et al. (2021)","number":1,"anchor":"#pm-ref-1"}},{"label":"Davies et al. (2018)","citation_key":"sean_davies_oatmeal_2018","href":"/docs/papers/BRAIN-Diet-References#sean_davies_oatmeal_2018","why_relevant":"Preserved attached corpus and original relationship provenance.","why_excluded":"Trial registration is not a published result; no oatmeal-to-neural biosynthesis admission.","canonical_reference":{"author_year":"Davies et al. (2018)","number":2,"anchor":"#pm-ref-2"}}]}} />
-
-<ScientificFinding finding={{"id":"PM1-F2","finding_label":"Human NAPE-PLD contains a zinc-dependent catalytic centre","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"The membrane substrate enters a binuclear zinc active centre; bile acids influence enzyme organisation and activity.","finding_statement":"The membrane substrate enters a binuclear zinc active centre; bile acids influence enzyme organisation and activity.","finding_interpretation":"Purified enzyme biology; dietary zinc responsiveness and brain NAE production were not tested.","synthesis":"The membrane substrate enters a binuclear zinc active centre; bile acids influence enzyme organisation and activity.","synthesis_limitations":"Purified enzyme biology; dietary zinc responsiveness and brain NAE production were not tested.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Magotti et al. (2015)","citation_key":"magotti_nape_pld_2015","href":"/docs/papers/BRAIN-Diet-References#magotti_nape_pld_2015","data_level":"Human Mechanistic","evidence_source":"bounded-external-search","directional_finding":"The membrane substrate enters a binuclear zinc active centre; bile acids influence enzyme organisation and activity.","assessment":{"study":"Recombinant human NAPE-PLD structure and enzyme experiments.","population":"Recombinant human NAPE-PLD structure and enzyme experiments.","result":"The membrane substrate enters a binuclear zinc active centre; bile acids influence enzyme organisation and activity.","effect_magnitude":"Only the extracted directional comparison is used; no pooled estimate is asserted.","evidence_summary":"The membrane substrate enters a binuclear zinc active centre; bile acids influence enzyme organisation and activity.","limitations":"Purified enzyme biology; dietary zinc responsiveness and brain NAE production were not tested.","retrieval_scope":"Primary Results and Discussion excerpts retrieved, including active-site structure.","source_url":"https://pubmed.ncbi.nlm.nih.gov/25684574/"},"canonical_reference":{"author_year":"Magotti et al. (2015)","number":4,"anchor":"#pm-ref-4"}}],"connected_supportive_evidence":[]}} />
-
-<ScientificFinding finding={{"id":"PM1-F3","finding_label":"A PE-containing meal did not improve the tested satiety outcomes","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"PE-containing meals did not improve the tested satiety or energy-intake endpoints.","finding_statement":"PE-containing meals did not improve the tested satiety or energy-intake endpoints.","finding_interpretation":"A null satiety result is not a measurement of NAPE-to-NAE biosynthesis or proof against the precursor role.","synthesis":"PE-containing meals did not improve the tested satiety or energy-intake endpoints.","synthesis_limitations":"A null satiety result is not a measurement of NAPE-to-NAE biosynthesis or proof against the precursor role.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Lithander et al. (2008)","citation_key":"lithander_pe_trial_2008","href":"/docs/papers/BRAIN-Diet-References#lithander_pe_trial_2008","data_level":"Human Study","evidence_source":"bounded-external-search","directional_finding":"PE-containing meals did not improve the tested satiety or energy-intake endpoints.","assessment":{"study":"Eighteen men, randomised crossover test breakfasts with differing phospholipid/PE content.","population":"Eighteen men, randomised crossover test breakfasts with differing phospholipid/PE content.","result":"PE-containing meals did not improve the tested satiety or energy-intake endpoints.","effect_magnitude":"Only the extracted directional comparison is used; no pooled estimate is asserted.","evidence_summary":"PE-containing meals did not improve the tested satiety or energy-intake endpoints.","limitations":"A null satiety result is not a measurement of NAPE-to-NAE biosynthesis or proof against the precursor role.","retrieval_scope":"Primary abstract and Methods excerpts retrieved.","source_url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC2600636/"},"canonical_reference":{"author_year":"Lithander et al. (2008)","number":5,"anchor":"#pm-ref-5"}}],"connected_supportive_evidence":[]}} />
+[Scientific Findings and their source assessments are available in Evidence & Audit](?review=1#scientific-findings).
 
 ## 5. BRS Pathways and Connections
 

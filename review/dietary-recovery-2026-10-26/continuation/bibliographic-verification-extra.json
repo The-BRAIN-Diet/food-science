@@ -1,0 +1,840 @@
+[
+  {
+    "key": "zhang_glt1_ion_coupling_1998",
+    "doi": "10.1073/pnas.95.2.751",
+    "title": "Molecular determinant of ion selectivity of a (Na\n                    <sup>+</sup>\n                    + K\n                    <sup>+</sup>\n                    )-coupled rat brain\u2009glutamate\u2009transporter",
+    "authors": [
+      {
+        "given": "Yumin",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry, Hadassah Medical School, The Hebrew University, Jerusalem 91120, Israel; and Vollum Institute, Oregon Health Sciences University, Portland, OR 97201"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Annie",
+        "family": "Bendahan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry, Hadassah Medical School, The Hebrew University, Jerusalem 91120, Israel; and Vollum Institute, Oregon Health Sciences University, Portland, OR 97201"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ruth",
+        "family": "Zarbiv",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry, Hadassah Medical School, The Hebrew University, Jerusalem 91120, Israel; and Vollum Institute, Oregon Health Sciences University, Portland, OR 97201"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael P.",
+        "family": "Kavanaugh",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry, Hadassah Medical School, The Hebrew University, Jerusalem 91120, Israel; and Vollum Institute, Oregon Health Sciences University, Portland, OR 97201"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Baruch I.",
+        "family": "Kanner",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry, Hadassah Medical School, The Hebrew University, Jerusalem 91120, Israel; and Vollum Institute, Oregon Health Sciences University, Portland, OR 97201"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "Proceedings of the National Academy of Sciences",
+    "year": 1998
+  },
+  {
+    "key": "nowak_magnesium_nmda_1984",
+    "doi": "10.1038/307462a0",
+    "title": "Magnesium gates glutamate-activated channels in mouse central neurones",
+    "authors": [
+      {
+        "given": "L.",
+        "family": "Nowak",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Bregestovski",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Ascher",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Herbet",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Prochiantz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "Nature",
+    "year": 1984
+  },
+  {
+    "key": "xue_human_cht1_structure_2024",
+    "doi": "10.1038/s41421-024-00731-7",
+    "title": "Structural mechanisms of human sodium-coupled high-affinity choline transporter CHT1",
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7331-1382",
+        "authenticated-orcid": false,
+        "given": "Jing",
+        "family": "Xue",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hongwen",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9156-0377",
+        "authenticated-orcid": false,
+        "given": "Yong",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1874-0504",
+        "authenticated-orcid": false,
+        "given": "Youxing",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "Cell Discovery",
+    "year": 2024
+  },
+  {
+    "key": "quek_mfsd2a_transport_2016",
+    "doi": "10.1074/jbc.M116.721035",
+    "title": "Structural Insights into the Transport Mechanism of the Human Sodium-dependent Lysophosphatidylcholine Transporter MFSD2A",
+    "authors": [
+      {
+        "given": "Debra Q.Y.",
+        "family": "Quek",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Long N.",
+        "family": "Nguyen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hao",
+        "family": "Fan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David L.",
+        "family": "Silver",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "Journal of Biological Chemistry",
+    "year": 2016
+  },
+  {
+    "key": "robertson_resistant_starch_clamp_2005",
+    "doi": "10.1093/ajcn.82.3.559",
+    "title": "Insulin-sensitizing effects of dietary resistant starch and effects on skeletal muscle and adipose tissue metabolism",
+    "authors": [
+      {
+        "given": "M Denise",
+        "family": "Robertson",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "From the Oxford Centre for Diabetes, Endocrinology and Metabolism, University of Oxford, Oxford, United Kingdom (MDR, ASB, ALD, and KNF) and INSERM U-449/INRA-1235, Lyon, France (HV)"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alex S",
+        "family": "Bickerton",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Oxford Centre for Diabetes, Endocrinology and Metabolism, University of Oxford, Oxford, United Kingdom (MDR, ASB, ALD, and KNF) and INSERM U-449/INRA-1235, Lyon, France (HV)"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A Louise",
+        "family": "Dennis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Oxford Centre for Diabetes, Endocrinology and Metabolism, University of Oxford, Oxford, United Kingdom (MDR, ASB, ALD, and KNF) and INSERM U-449/INRA-1235, Lyon, France (HV)"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hubert",
+        "family": "Vidal",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Oxford Centre for Diabetes, Endocrinology and Metabolism, University of Oxford, Oxford, United Kingdom (MDR, ASB, ALD, and KNF) and INSERM U-449/INRA-1235, Lyon, France (HV)"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Keith N",
+        "family": "Frayn",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "From the Oxford Centre for Diabetes, Endocrinology and Metabolism, University of Oxford, Oxford, United Kingdom (MDR, ASB, ALD, and KNF) and INSERM U-449/INRA-1235, Lyon, France (HV)"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "The American Journal of Clinical Nutrition",
+    "year": 2005
+  },
+  {
+    "key": "bodinham_resistant_starch_diabetes_2014",
+    "doi": "10.1530/EC-14-0036",
+    "title": "Efficacy of increased resistant starch consumption in human type 2 diabetes",
+    "authors": [
+      {
+        "given": "C L",
+        "family": "Bodinham",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "L",
+        "family": "Smith",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "E L",
+        "family": "Thomas",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NutritionMetabolism and Diabetes Research Group, Faculty of Health and Medical Sciences, University of Surrey, Leggett Building, Guildford, Surrey GU2 7WG, UK1Metabolic and Molecular Imaging GroupMRC Clinical Sciences Centre, Imperial College, London W12 0HS, UK2Department of Food and Nutritional SciencesUniversity of Reading, Whiteknights Campus, Reading RG6 6AP, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J D",
+        "family": "Bell",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NutritionMetabolism and Diabetes Research Group, Faculty of Health and Medical Sciences, University of Surrey, Leggett Building, Guildford, Surrey GU2 7WG, UK1Metabolic and Molecular Imaging GroupMRC Clinical Sciences Centre, Imperial College, London W12 0HS, UK2Department of Food and Nutritional SciencesUniversity of Reading, Whiteknights Campus, Reading RG6 6AP, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J R",
+        "family": "Swann",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NutritionMetabolism and Diabetes Research Group, Faculty of Health and Medical Sciences, University of Surrey, Leggett Building, Guildford, Surrey GU2 7WG, UK1Metabolic and Molecular Imaging GroupMRC Clinical Sciences Centre, Imperial College, London W12 0HS, UK2Department of Food and Nutritional SciencesUniversity of Reading, Whiteknights Campus, Reading RG6 6AP, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A",
+        "family": "Costabile",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NutritionMetabolism and Diabetes Research Group, Faculty of Health and Medical Sciences, University of Surrey, Leggett Building, Guildford, Surrey GU2 7WG, UK1Metabolic and Molecular Imaging GroupMRC Clinical Sciences Centre, Imperial College, London W12 0HS, UK2Department of Food and Nutritional SciencesUniversity of Reading, Whiteknights Campus, Reading RG6 6AP, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D",
+        "family": "Russell-Jones",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A M",
+        "family": "Umpleby",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M D",
+        "family": "Robertson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "Endocrine Connections",
+    "year": 2014
+  },
+  {
+    "key": "capo_dha_cytokine_production_2016",
+    "doi": "10.1007/s13105-016-0490-8",
+    "title": "Docosahexaenoic diet supplementation, exercise and temperature affect cytokine production by lipopolysaccharide-stimulated mononuclear cells",
+    "authors": [
+      {
+        "given": "Xavier",
+        "family": "Cap\u00f3",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Miquel",
+        "family": "Martorell",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Antoni",
+        "family": "Sureda",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Juan Miguel",
+        "family": "Batle",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Josep Antoni",
+        "family": "Tur",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Antoni",
+        "family": "Pons",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "Journal of Physiology and Biochemistry",
+    "year": 2016
+  },
+  {
+    "key": "trammell_nr_milk_2016",
+    "doi": "10.3945/jn.116.230078",
+    "title": "Nicotinamide Riboside Is a Major NAD+ Precursor Vitamin in Cow Milk",
+    "authors": [
+      {
+        "given": "Samuel AJ",
+        "family": "Trammell",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Liping",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Philip",
+        "family": "Redpath",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Marie E",
+        "family": "Migaud",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Charles",
+        "family": "Brenner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "The Journal of Nutrition",
+    "year": 2016
+  },
+  {
+    "key": "trammell_nr_oral_2016",
+    "doi": "10.1038/ncomms12948",
+    "title": "Nicotinamide riboside is uniquely and orally bioavailable in mice and humans",
+    "authors": [
+      {
+        "given": "Samuel A. J.",
+        "family": "Trammell",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mark S.",
+        "family": "Schmidt",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Benjamin J.",
+        "family": "Weidemann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Philip",
+        "family": "Redpath",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Frank",
+        "family": "Jaksch",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ryan W.",
+        "family": "Dellinger",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhonggang",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "E. Dale",
+        "family": "Abel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Marie E.",
+        "family": "Migaud",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4955-3226",
+        "authenticated-orcid": false,
+        "given": "Charles",
+        "family": "Brenner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "Nature Communications",
+    "year": 2016
+  },
+  {
+    "key": "melamed_tyrosine_meals_1980",
+    "doi": "10.1007/BF01247323",
+    "title": "Plasma tyrosine in normal humans: Effects of oral tyrosine and protein-containing meals",
+    "authors": [
+      {
+        "given": "E.",
+        "family": "Melamed",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "B.",
+        "family": "Glaeser",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. H.",
+        "family": "Growdon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R. J.",
+        "family": "Wurtman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": "Journal of Neural Transmission",
+    "year": 1980
+  }
+]

@@ -1,4 +1,13 @@
 import fs from 'node:fs';
+import {execFileSync} from 'node:child_process';
+export function readHistoricalFile(ref, file) {
+  return execFileSync('git', ['show', `${ref}:${file}`], {encoding:'utf8', maxBuffer:20e6});
+}
+export function pilotArchivePath(file) {
+  const slug=archives.get(file);
+  return slug ? 'system/sec-assessments/history/'+slug+'-before-v1.mdx' : file;
+}
+
 // Historical pilot tests compare against their immutable pre-integration source,
 // not against the subsequently approved canonical scientific revisions.
 const archives=new Map([

@@ -14,6 +14,13 @@ mechanisms:
 list_image: /img/inchi/XUJNEKJLAYXESH-REOHCLBHSA-N.png
 inchikey: XUJNEKJLAYXESH-REOHCLBHSA-N
 inchi_image: /img/inchi/XUJNEKJLAYXESH-REOHCLBHSA-N.png
+food_delivery_assessment:
+  review_date: '2026-10-26'
+  status: verified-qualitative
+  classification: A
+  sources:
+    - https://doi.org/10.1002/fsn3.473
+  admission_changed: false
 ---
 
 ## Overview

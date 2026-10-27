@@ -165,6 +165,85 @@ substance_relationships:
     source_url: 'https://fdc.nal.usda.gov/food-details/172430/nutrients'
     presence_status: presence_and_amount_supported
 substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-173806
+    material: Peanuts, all types, dry-roasted, without salt
+    preparation: dry-roasted
+    food_group: plant
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 173806
+      source_url: https://fdc.nal.usda.gov/food-details/173806/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 24.35
+    protein_source_row_id: "1806515"
+    amino_acids:
+      histidine:
+        value: 0.599
+        source_row_id: "1806623"
+        nutrient_id: "1221"
+        data_points: 0
+        derivation_id: null
+      isoleucine:
+        value: 0.833
+        source_row_id: "1806617"
+        nutrient_id: "1212"
+        data_points: 0
+        derivation_id: null
+      leucine:
+        value: 1.535
+        source_row_id: "1806618"
+        nutrient_id: "1213"
+        data_points: 0
+        derivation_id: null
+      lysine:
+        value: 0.85
+        source_row_id: "1806619"
+        nutrient_id: "1214"
+        data_points: 0
+        derivation_id: null
+      methionine:
+        value: 0.291
+        source_row_id: "1806609"
+        nutrient_id: "1215"
+        data_points: 0
+        derivation_id: null
+      phenylalanine:
+        value: 1.227
+        source_row_id: "1806610"
+        nutrient_id: "1217"
+        data_points: 0
+        derivation_id: null
+      threonine:
+        value: 0.811
+        source_row_id: "1806608"
+        nutrient_id: "1211"
+        data_points: 0
+        derivation_id: null
+      tryptophan:
+        value: 0.23
+        source_row_id: "1806607"
+        nutrient_id: "1210"
+        data_points: 0
+        derivation_id: null
+      valine:
+        value: 0.993
+        source_row_id: "1806621"
+        nutrient_id: "1219"
+        data_points: 0
+        derivation_id: null
+    portion:
+      label: 1 oz
+      source_row_id: "93281"
+      source_grams: 28.35
+      multiplier: 1
+    limitations: >-
+      USDA database composition, including source-specific analytical or calculated values. No
+      amino-acid-specific digestibility correction; illustrative USDA household portion, not an
+      intake recommendation. Missing values are not treated as zero.
 ---
 ## Overview
 

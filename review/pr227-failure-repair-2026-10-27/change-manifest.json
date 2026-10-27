@@ -1,0 +1,24 @@
+{
+  "baseline": "9cf4da21927b851be6bd0865affb00b99fc99256",
+  "files": [
+    "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+    "netlify.toml",
+    "scripts/brs4-pm4-pm5-sec.test.mjs",
+    "scripts/brs4-sec-followup.test.mjs",
+    "scripts/foodless-target-resolution.test.mjs",
+    "scripts/lib/sec-pilot-baseline.mjs",
+    "scripts/netlify-sec-baseline.test.mjs",
+    "scripts/production-build-memory.test.mjs",
+    "scripts/scientific-finding-presentation.test.mjs",
+    "scripts/scientific-principles-pm1.test.mjs",
+    "scripts/sec-calibration-preview.test.mjs",
+    "scripts/sec-evidence-audit.test.mjs",
+    "scripts/sec-glycaemic-preview.test.mjs",
+    "scripts/sec-glycaemic-stage2.test.mjs",
+    "scripts/sec-same-preview.test.mjs",
+    "scripts/sec-v1-integration.test.mjs",
+    "review/pr227-failure-repair-2026-10-27/resolution-report.json",
+    "review/pr227-failure-repair-2026-10-27/netlify-log-excerpts.txt",
+    "review/pr227-failure-repair-2026-10-27/change-manifest.json"
+  ]
+}

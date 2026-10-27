@@ -129,6 +129,85 @@ substance_relationships:
     source_url: 'https://fdc.nal.usda.gov/food-details/170556/nutrients'
     presence_status: presence_and_amount_supported
 substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-170556
+    material: Seeds, pumpkin and squash seed kernels, dried
+    preparation: dried
+    food_group: plant
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 170556
+      source_url: https://fdc.nal.usda.gov/food-details/170556/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 30.23
+    protein_source_row_id: "1532894"
+    amino_acids:
+      histidine:
+        value: 0.78
+        source_row_id: "1532867"
+        nutrient_id: "1221"
+        data_points: 0
+        derivation_id: "1"
+      isoleucine:
+        value: 1.281
+        source_row_id: "1532861"
+        nutrient_id: "1212"
+        data_points: 0
+        derivation_id: "1"
+      leucine:
+        value: 2.419
+        source_row_id: "1532862"
+        nutrient_id: "1213"
+        data_points: 0
+        derivation_id: "1"
+      lysine:
+        value: 1.236
+        source_row_id: "1532863"
+        nutrient_id: "1214"
+        data_points: 0
+        derivation_id: "1"
+      methionine:
+        value: 0.603
+        source_row_id: "1532877"
+        nutrient_id: "1215"
+        data_points: 0
+        derivation_id: "1"
+      phenylalanine:
+        value: 1.733
+        source_row_id: "1532878"
+        nutrient_id: "1217"
+        data_points: 0
+        derivation_id: "1"
+      threonine:
+        value: 0.998
+        source_row_id: "1532876"
+        nutrient_id: "1211"
+        data_points: 0
+        derivation_id: "1"
+      tryptophan:
+        value: 0.576
+        source_row_id: "1532875"
+        nutrient_id: "1210"
+        data_points: 0
+        derivation_id: "1"
+      valine:
+        value: 1.579
+        source_row_id: "1532865"
+        nutrient_id: "1219"
+        data_points: 0
+        derivation_id: "1"
+    portion:
+      label: 1 oz
+      source_row_id: "86848"
+      source_grams: 28.35
+      multiplier: 1
+    limitations: >-
+      USDA database composition, including source-specific analytical or calculated values. No
+      amino-acid-specific digestibility correction; illustrative USDA household portion, not an
+      intake recommendation. Missing values are not treated as zero.
 ---
 ## Overview
 

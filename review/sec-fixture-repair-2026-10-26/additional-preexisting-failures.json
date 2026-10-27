@@ -1,0 +1,163 @@
+[
+  {
+    "test": "SEC changes no propositions, source assessments, admissions, missions, six atoms, food records, or other frontmatter",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/brs4-pm4-pm5-sec.test.mjs:8:1",
+    "diagnostic_excerpt": "|-\n    Expected values to be strictly deep-equal:\n    + actual - expected ... Lines skipped\n    \n      {\n        claim_ceiling: 'biological-dependency',\n    ...\n        ],\n        scientific_findings_intro: 'Mitochondrial ROS generation is source- and state-dependent and can support adaptive signalling. Human feeding and activity experiments measured net H2O2 emission, with important assay and tissue limitations. No identifiable dietary input is newly admitted for source regulation. Fish-oil supplementation increased ROS-emission capacity without measured oxidative-damage increases; ketone mixtures altered stress responses in neuronal preparations. Neither establishes an ordinary-food prescr",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "only SEC pointers change in canonical data; missions, source assessments and dietary content remain identical",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/brs4-sec-followup.test.mjs:8:1",
+    "diagnostic_excerpt": "|-\n    Expected values to be strictly deep-equal:\n    + actual - expected ... Lines skipped\n    \n      {\n        claim_ceiling: 'biological-dependency',\n    ...\n        ],\n        scientific_findings_intro: 'Mitochondrial ROS generation is source- and state-dependent and can support adaptive signalling. Human feeding and activity experiments measured net H2O2 emission, with important assay and tissue limitations. No identifiable dietary input is newly admitted for source regulation. Fish-oil supplementation increased ROS-emission capacity without measured oxidative-damage increases; ketone mixtures altered stress responses in neuronal preparations. Neither establishes an ordinary-food prescr",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "Netlify pins a reviewed history baseline and retains the validated heap limit",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/netlify-sec-baseline.test.mjs:15:1",
+    "diagnostic_excerpt": "|-\n    Expected values to be strictly deep-equal:\n    + actual - expected ... Lines skipped\n    \n      {\n        assessments: [\n    ...\n            },\n            sha256: '95d81ea0d19bb488b9e3c63ecaf097106883c31619473726597c1defef6f6453'\n    +     },\n    +     {\n    +       record: {\n    +         adjustedScore: null,\n    +         assessmentStatus: 'not-scored',\n    +         canonicalProposition: 'Insulin and glucocorticoid exposures regulate leptin synthesis or release and adiponectin expression or release in human adipose preparations, with context-dependent responses.',\n    +         conditional: null,\n    +         factorStates: {\n    +           B: 'unresolved',\n    +           D: 'es",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "the unchanged production guard still rejects an absent baseline and accepts the configured one",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/netlify-sec-baseline.test.mjs:31:1",
+    "diagnostic_excerpt": "|-\n    The input did not match the regular expression /valid \\(84 snapshots\\)/. Input:\n    \n    'SEC registry, immutable history and canonical references valid (98 snapshots).\\n'\n    ",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "actual compiled PM1 renders matching mechanism titles and reciprocal evidence links for active Findings and preserves Principle provenance",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/scientific-finding-presentation.test.mjs:80:1",
+    "diagnostic_excerpt": "|-\n    The expression evaluated to a falsy value:\n    \n      assert.ok(html.includes(`id=\"pm1-mechanism-f${number}\"`))\n    ",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "all scientific objects, admissions and pinned history remain unchanged except approved SF3 descriptive title",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/scientific-principles-pm1.test.mjs:5:1",
+    "diagnostic_excerpt": "'docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx'",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "real audit renderer shows narrow principles, source links and retained history, without active confidence fields",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/scientific-principles-pm1.test.mjs:7:1",
+    "diagnostic_excerpt": "'../ScientificFinding'",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "real PM1 MDX compiles with five active Findings, excluding Principle and historical records",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/scientific-principles-pm1.test.mjs:10:1",
+    "diagnostic_excerpt": "|-\n    The input did not match the regular expression /Scientific Findings \\(5\\)/. Input:\n    \n    '/*scientific-lesson:PM1-F1:start*/\\n' +\n      '/*scientific-lesson:PM1-F1:end*/\\n' +\n      '/*scientific-lesson:PM1-F2:start*/\\n' +\n      '/*scientific-lesson:PM1-F2:end*/\\n' +\n      '/*scientific-lesson:PM1-F3:start*/\\n' +\n      '/*scientific-lesson:PM1-F3:end*/\\n' +\n      '/*scientific-lesson:PM1-F4:start*/\\n' +\n      '/*scientific-lesson:PM1-F4:end*/\\n' +\n      '/*scientific-lesson:PM1-F5:start*/\\n' +\n      '/*scientific-lesson:PM1-F5:end*/\\n' +\n      '/*scientific-lesson:PM1-F6:start*/\\n' +\n      '/*scientific-lesson:PM1-F6:end*/\\n' +\n      '/*deferred-stage2ab-2026-10-23*/\\n' +\n      '/*/",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "entire canonical body, Findings, lessons, references and numbered sections survive",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-calibration-preview.test.mjs:29:1",
+    "diagnostic_excerpt": "|-\n    The expression evaluated to a falsy value:\n    \n      assert.ok(preview.content.includes(canonical.content.replaceAll('<ScientificFinding finding=', '<CalibrationFinding finding=')))\n    ",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "ontology sees only loaded documents and no preview scientific metadata",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-calibration-preview.test.mjs:44:1",
+    "diagnostic_excerpt": "\"Cannot read properties of undefined (reading 'siteDir')\"",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "versioned audit preserves exact proposition, unresolved factors and source identities",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-evidence-audit.test.mjs:30:1",
+    "diagnostic_excerpt": "|-\n    The input did not match the regular expression /finding_summary: sf1Conclusion/. Input:\n    \n    \"import React, {useEffect, useState} from 'react';\\n\" +\n      \"import {createPortal} from 'react-dom';\\n\" +\n      \"import EvidenceConfidenceIndicator from '../EvidenceConfidenceIndicator';\\n\" +\n      \"import ScientificFinding, {type ScientificFindingData} from '../ScientificFinding';\\n\" +\n      \"import PmDietaryLeverEnhancer from '../PmDietaryLeverEnhancer';\\n\" +\n      \"import styles from './styles.module.css';\\n\" +\n      '\\n' +\n      '// One reusable synthetic fixture. It is not a scientific scoring record.\\n' +\n      \"const layoutExample = Object.freeze({score: 6, label: 'Moderate\u2013High',",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "SF1 conditional reassessment preserves withdrawal history and formal unknowns",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-evidence-audit.test.mjs:54:1",
+    "diagnostic_excerpt": "|-\n    The input did not match the regular expression /score=\\{audit.conditional.adjustedScore\\}/. Input:\n    \n    \"import React, {useEffect, useState} from 'react';\\n\" +\n      \"import {createPortal} from 'react-dom';\\n\" +\n      \"import EvidenceConfidenceIndicator from '../EvidenceConfidenceIndicator';\\n\" +\n      \"import ScientificFinding, {type ScientificFindingData} from '../ScientificFinding';\\n\" +\n      \"import PmDietaryLeverEnhancer from '../PmDietaryLeverEnhancer';\\n\" +\n      \"import styles from './styles.module.css';\\n\" +\n      '\\n' +\n      '// One reusable synthetic fixture. It is not a scientific scoring record.\\n' +\n      \"const layoutExample = Object.freeze({score: 6, label: 'Mode",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "three status surfaces and original correction panel remain separate",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-evidence-audit.test.mjs:77:1",
+    "diagnostic_excerpt": "|-\n    The input did not match the regular expression /\\?review=1#gaba-sf1-assessment-v1/. Input:\n    \n    \"import React, {useEffect, useState} from 'react';\\n\" +\n      \"import {createPortal} from 'react-dom';\\n\" +\n      \"import EvidenceConfidenceIndicator from '../EvidenceConfidenceIndicator';\\n\" +\n      \"import ScientificFinding, {type ScientificFindingData} from '../ScientificFinding';\\n\" +\n      \"import PmDietaryLeverEnhancer from '../PmDietaryLeverEnhancer';\\n\" +\n      \"import styles from './styles.module.css';\\n\" +\n      '\\n' +\n      '// One reusable synthetic fixture. It is not a scientific scoring record.\\n' +\n      \"const layoutExample = Object.freeze({score: 6, label: 'Moderate\u2013Hig",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "SF2 recovery retains species, access and independence limitations",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-evidence-audit.test.mjs:113:1",
+    "diagnostic_excerpt": "|-\n    The input did not match the regular expression /\\?review=1#gaba-sf2-assessment-v1/. Input:\n    \n    \"import React, {useEffect, useState} from 'react';\\n\" +\n      \"import {createPortal} from 'react-dom';\\n\" +\n      \"import EvidenceConfidenceIndicator from '../EvidenceConfidenceIndicator';\\n\" +\n      \"import ScientificFinding, {type ScientificFindingData} from '../ScientificFinding';\\n\" +\n      \"import PmDietaryLeverEnhancer from '../PmDietaryLeverEnhancer';\\n\" +\n      \"import styles from './styles.module.css';\\n\" +\n      '\\n' +\n      '// One reusable synthetic fixture. It is not a scientific scoring record.\\n' +\n      \"const layoutExample = Object.freeze({score: 6, label: 'Moderate\u2013Hig",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "reader-facing fixtures distinguish all four states without registering Findings",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-evidence-audit.test.mjs:187:1",
+    "diagnostic_excerpt": "|-\n    The input did not match the regular expression /display.incomplete \\? \\('unscoredReason' in audit \\? audit.unscoredReason : 'Assessment incomplete'\\)/. Input:\n    \n    '<button type=\"button\" className=\"brs-fm-hub-summary\" aria-expanded=\"false\">\\n' +\n      '          <span className=\"brs-fm-hub-chevron\" aria-hidden=\"true\" />\\n' +\n      '          <span className={styles.auditSummary} data-sec-assessment-status={display.status}>\\n' +\n      '            <strong>{display.shortId} \u2014 {display.title}</strong>\\n' +\n      '            <span>{display.score !== null ? <EvidenceConfidenceIndicator score={display.score} srPrefix={display.statusLabel} /> : display.readout}</span>\\n' +\n      \"      ",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "SF and audit use the same short assessment labels without changing stored status",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-evidence-audit.test.mjs:260:1",
+    "diagnostic_excerpt": "|-\n    The input did not match the regular expression /assessmentPresentation\\(audit\\)/. Input:\n    \n    \"import React, {useEffect, useState} from 'react';\\n\" +\n      \"import {createPortal} from 'react-dom';\\n\" +\n      \"import EvidenceConfidenceIndicator from '../EvidenceConfidenceIndicator';\\n\" +\n      \"import ScientificFinding, {type ScientificFindingData} from '../ScientificFinding';\\n\" +\n      \"import PmDietaryLeverEnhancer from '../PmDietaryLeverEnhancer';\\n\" +\n      \"import styles from './styles.module.css';\\n\" +\n      '\\n' +\n      '// One reusable synthetic fixture. It is not a scientific scoring record.\\n' +\n      \"const layoutExample = Object.freeze({score: 6, label: 'Moderate\u2013High'",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "GABA calibration, archived pilot sources and bibliography remain byte-identical to baseline",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-glycaemic-preview.test.mjs:116:1",
+    "diagnostic_excerpt": "|-\n    Expected values to be strictly equal:\n    + actual - expected ... Lines skipped\n    \n      '---\\n' +\n        'title: Glycaemic Variability Regulation\\n' +\n        'pm_id: BRS6-FM1-PM2\\n' +\n    +   'mission: >-\\n' +\n    +   '  Limit glycaemic volatility so post-prandial glucose swings do not create unnecessary metabolic and\\n' +\n    +   '  neuroendocrine stress.\\n' +\n    +   'parent_fm: BRS6(FM1)\\n' +\n    +   'parent_brs: BRS6\\n' +\n    +   'summary: >-\\n' +\n    +   '  Blood glucose varies as meals arrive and tissues take up their fuel. Regulation concerns the size,\\n' +\n    +   '  duration and frequency of these changes, rather than keeping glucose perfectly flat. In people\\n' +\n    + ",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "actual existing disclosure helper resolves six atoms and PM-local references for every proposed lever",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-glycaemic-stage2.test.mjs:47:1",
+    "diagnostic_excerpt": "|-\n    require() of ES Module /Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/src/lib/scientificPrinciples.mjs not supported.\n    Instead change the require of /Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/src/lib/scientificPrinciples.mjs to a dynamic import() which is available in all CommonJS modules.",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "archived pilot PMs, GABA, audit, methodology and governing contracts remain byte-identical",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-glycaemic-stage2.test.mjs:151:1",
+    "diagnostic_excerpt": "|-\n    Expected values to be strictly equal:\n    + actual - expected ... Lines skipped\n    \n      '---\\n' +\n        'title: Glycaemic Variability Regulation\\n' +\n        'pm_id: BRS6-FM1-PM2\\n' +\n    +   'mission: >-\\n' +\n    +   '  Limit glycaemic volatility so post-prandial glucose swings do not create unnecessary metabolic and\\n' +\n    +   '  neuroendocrine stress.\\n' +\n    +   'parent_fm: BRS6(FM1)\\n' +\n    +   'parent_brs: BRS6\\n' +\n    +   'summary: >-\\n' +\n    +   '  Blood glucose varies as meals arrive and tissues take up their fuel. Regulation concerns the size,\\n' +\n    +   '  duration and frequency of these changes, rather than keeping glucose perfectly flat. In people\\n' +\n    + ",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "complete isolated copy preserves canonical records, all numbered sections and dietary relationships",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-same-preview.test.mjs:25:1",
+    "diagnostic_excerpt": "|-\n    Expected values to be strictly equal:\n    + actual - expected ... Lines skipped\n    \n      '---\\n' +\n        'title: SAMe Synthesis\\n' +\n        'pm_id: BRS2-FM1-PM3\\n' +\n    +   'mission: >-\\n' +\n    +   '  Maintain methionine adenosyltransferase capacity to convert methionine and ATP\\n' +\n    +   '  into SAMe, sustaining the methyl-donor pool used by downstream\\n' +\n    +   '  methyltransferases.\\n' +\n    +   'parent_fm: BRS2(FM1)\\n' +\n    +   'parent_brs: BRS2\\n' +\n    +   'evidence_status: stage-2b-dietary-addressability\\n' +\n    +   'summary: >-\\n' +\n    +   '  Methionine adenosyltransferase forms S-adenosylmethionine from methionine and\\n' +\n    +   '  ATP. Magnesium and potassi",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "actual React preview renders provenance, proposed score, limitations and unique canonical source links",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-same-preview.test.mjs:98:1",
+    "diagnostic_excerpt": "|-\n    Cannot find module '../lib/scientificPrinciples.mjs'\n    Require stack:\n    - /Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-same-preview.test.mjs",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "three complete drafts preserve missions, dietary decisions, KC identities and all source sections",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-v1-integration.test.mjs:19:1",
+    "diagnostic_excerpt": "'same-synthesis:dietary_input_traceability'",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  },
+  {
+    "test": "canonical science, earlier pilots, contracts, rubric, bibliography and dietary validators are untouched",
+    "location": "file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-v1-integration.test.mjs:125:1",
+    "diagnostic_excerpt": "'docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx'",
+    "present_before_repair": true,
+    "disposition": "Outside the requested six; independently confirmed pre-existing. No scientific reclassification or fixture repair performed here."
+  }
+]

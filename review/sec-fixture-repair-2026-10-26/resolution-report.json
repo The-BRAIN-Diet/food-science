@@ -1,0 +1,255 @@
+{
+  "scope": "Six legacy SEC integration-fixture failures",
+  "classification_counts": {
+    "A": 6,
+    "B": 0,
+    "C": 0
+  },
+  "resolution_matrix": [
+    {
+      "number": 1,
+      "test_file": "scripts/sec-assessment-integration.test.mjs",
+      "test_name": "legacy Finding evidence HTML is unchanged except the approved derived SF title prefix",
+      "expected": "Legacy evidence HTML equals the pre-integration renderer, allowing only the approved SF title prefix.",
+      "actual": "MODULE_NOT_FOUND: ../lib/scientificPrinciples.mjs. The fallback require resolves relative to scripts/. In addition, mutable HEAD now already includes the approved SF prefix, so it is not a valid before-state.",
+      "pm_finding_ids": [
+        "BRS2-FM1-PM3: PM3-F1, PM3-IC1, PM3-F2, PM3-F3, PM3-F4, PM3-F5"
+      ],
+      "snapshot": "No SEC pointer in the legacy fixture. Uses system/sec-assessments/history/same-synthesis-before-v1.mdx, retained with its original SHA-256.",
+      "change": "6c6f648c2b84412213a082d238de34a814591c9b (2026-10-26): Scientific Principles import and presentation integration; short labels were already in 3c29f60b.",
+      "repair": "Load the real Scientific Principles selectors and pin the comparison renderer to integration-history.baseline (98f7294088f1475c101cb0ff01ae11dc74d4af51). Preserve byte-equivalent legacy markup except the independently asserted title prefix.",
+      "rule": "Scientific Finding schema: classify Principles before SEC; canonical short labels preserve full identities. SEC README: legacy pages and historical source archives remain supported.",
+      "classification": "A \u2014 obsolete fixture or expectation",
+      "independent_before": "Fail",
+      "independent_after": "Pass",
+      "final_result": "Pass",
+      "before_log": "failure-1-before.tap",
+      "after_log": "failure-1-after.tap"
+    },
+    {
+      "number": 2,
+      "test_file": "scripts/sec-assessment-integration.test.mjs",
+      "test_name": "reference renderer reuses indicator and audit, exposes pinned history and preserves review record",
+      "expected": "Pinned PM3-F5 renders provisional 5/8 and the exact audit anchor; newer registry versions do not replace its pinned version.",
+      "actual": "MODULE_NOT_FOUND: ../../lib/scientificPrinciples.mjs. The test import map predates Principles, the shared disclosure and transparency audit dependencies.",
+      "pm_finding_ids": [
+        "BRS2-FM1-PM3: PM3-F5"
+      ],
+      "snapshot": "Synthetic registry based on same-pm3-f5-assessment-v1, recordVersion 1; SHA-256 3e88241d43e05f55bc61fc3ca071b710050222809dbfc7631474917d4b7b0b46. A synthetic future version tests pinning. Canonical PM3-F5 remains version 2.",
+      "change": "6c6f648c2b84412213a082d238de34a814591c9b: reusable Principles, disclosure and transparency audit support.",
+      "repair": "Load the real new dependencies. Require exactly the pinned current record, exclude the future version, and add a corrupt-hash check that renders Assessment unavailable without a score.",
+      "rule": "system/sec-assessments/README.md: exact PM/Finding/proposition/version/hash resolution; one current disclosure per Finding; immutable historical versions.",
+      "classification": "A \u2014 obsolete fixture or expectation",
+      "independent_before": "Fail",
+      "independent_after": "Pass",
+      "final_result": "Pass",
+      "before_log": "failure-2-before.tap",
+      "after_log": "failure-2-after.tap"
+    },
+    {
+      "number": 3,
+      "test_file": "scripts/sec-assessment-integration.test.mjs",
+      "test_name": "publication gate is installed and approved production registry validates",
+      "expected": "Old fixture requires prebuild to begin with node scripts/check-sec-assessments.mjs &&.",
+      "actual": "Approved prebuild begins with dietary governance, then SEC, then mapping generation; all commands are joined by &&.",
+      "pm_finding_ids": [
+        "All canonical SEC references; 98 registry snapshots"
+      ],
+      "snapshot": "system/sec-assessments/registry.json; every snapshot validated. Production SEC_BASE_REF remains ebbc10ed11484192c972952d8c47645bd3c5bf4e.",
+      "change": "718f2781b5aff3ab6829b5892b327304943c3773 (2026-10-23): dietary-input governance gate added ahead of SEC.",
+      "repair": "Assert the exact current fail-closed chain and unchanged predeploy SEC gate. Mutation checks reject a missing gate, semicolon/OR bypass, ignored failure, reversed order and a missing deploy gate.",
+      "rule": "SEC README: SEC validation before publication with an explicit history baseline. Approved 23 October dietary governance adds its admission gate without removing SEC.",
+      "classification": "A \u2014 obsolete fixture or expectation",
+      "independent_before": "Fail",
+      "independent_after": "Pass",
+      "final_result": "Pass",
+      "before_log": "failure-3-before.tap",
+      "after_log": "failure-3-after.tap"
+    },
+    {
+      "number": 4,
+      "test_file": "scripts/sec-assessment-integration.test.mjs",
+      "test_name": "actual shared audit renders canonical factor states and closed version anchors without invented review",
+      "expected": "Actual EvidenceAudit renders conditional GABA 4/8, separate formal factors, exact closed anchors and honest review status.",
+      "actual": "MODULE_NOT_FOUND: ../Stage2Review. The test dependency map predates relocation of Stage 2A/2B review into Evidence & Audit.",
+      "pm_finding_ids": [
+        "BRS1-FM4-PM9: PM9-F1"
+      ],
+      "snapshot": "gaba-sf1-assessment-v1, recordVersion 6 in the fixture; SHA-256 e2ad1e2368105cb4cb473a8e013211c4be6473ee635c438f55c55056ae193dc6 before the existing synthetic factor-state setup. Canonical current version 7 is unchanged.",
+      "change": "6c6f648c2b84412213a082d238de34a814591c9b: Stage2ReviewOutlet added to EvidenceAudit.",
+      "repair": "Load the actual Stage2Review component. Retain all conditional factor/status/anchor assertions, and cover the explicit canonical switch hiding the empty review-status block without hiding the SEC record.",
+      "rule": "Approved evidence-tab separation and Stage 2 review placement; SEC README separates assessment confidence/status from evidence-review and correction status.",
+      "classification": "A \u2014 obsolete fixture or expectation",
+      "independent_before": "Fail",
+      "independent_after": "Pass",
+      "final_result": "Pass",
+      "before_log": "failure-4-before.tap",
+      "after_log": "failure-4-after.tap"
+    },
+    {
+      "number": 5,
+      "test_file": "scripts/sec-canonical-integration.test.mjs",
+      "test_name": "exactly three canonical PMs changed; source archives match baseline bytes and hashes",
+      "expected": "git diff of the entire working tree contains exactly the original three SEC pilot PMs.",
+      "actual": "The worktree contains approved 64-PM recovery edits. The original integration is already committed, so an exact uncommitted-file list cannot describe its scope.",
+      "pm_finding_ids": [
+        "BRS1-FM4-PM9: 8 preserved records",
+        "BRS6-FM1-PM2: 8 preserved records",
+        "BRS2-FM1-PM3: 6 preserved records"
+      ],
+      "snapshot": "All three original MDX archives and their recorded SHA-256 values in system/sec-assessments/integration-history.json; all 22 pinned records remain covered by the adjacent preservation test.",
+      "change": "3c29f60b3ca2b9c0d33845dbae48ccc96c522df8 committed the original integration on 22 October; subsequent approved work made a worktree-only scope check obsolete.",
+      "repair": "Assert exactly the three unique PM identities and matching three archive identities in the authoritative manifest. Retain byte equality to the recorded baseline and SHA-256 checks for every archive.",
+      "rule": "integration-history.json records the historical approval/scope; SEC README requires preserved archives and append-only assessment history, not a permanent three-file worktree restriction.",
+      "classification": "A \u2014 obsolete fixture or expectation",
+      "independent_before": "Fail",
+      "independent_after": "Pass",
+      "final_result": "Pass",
+      "before_log": "failure-5-before.tap",
+      "after_log": "failure-5-after.tap"
+    },
+    {
+      "number": 6,
+      "test_file": "scripts/sec-canonical-integration.test.mjs",
+      "test_name": "canonical science, dietary atoms, KC decisions, food composition and old references are preserved as approved",
+      "expected": "Today\u2019s dietary records equal pre-integration archives; the entire ontology, bibliography and Open Issues file equal mutable HEAD.",
+      "actual": "First mismatch: BRS2-FM1-PM3 dietary_input_traceability. Approved recovery now includes separately adjudicated magnesium/potassium capacity records. Unrelated ontology and source additions likewise cannot be prohibited by an SEC migration fixture.",
+      "pm_finding_ids": [
+        "BRS2-FM1-PM3: PM3-DIT-3 magnesium and PM3-DIT-4 potassium; all three original pilot PMs and 22 Finding/constraint records"
+      ],
+      "snapshot": "No altered SEC snapshot. Compare historical science/dietary fields at integration commit 3c29f60b3ca2b9c0d33845dbae48ccc96c522df8 with the original archived MDX. Current pins remain governed by the registry validators.",
+      "change": "Approved 26 October dietary recovery, recorded in continuation/admission-changes.json; the unchanged original migration-preservation fixture was introduced in 3c29f60b.",
+      "repair": "Keep deep equality for every original scientific/dietary/KC field at the fixed integration commit. Keep current mission/KC/reference preservation checks and current atom/Finding validation. Remove blanket ownership of unrelated evolving files; current recovery and whole-file before/after hash checks protect them independently.",
+      "rule": "The user-authorised recovery permits evidence-qualified new dietary relationships while preserving SEC history. SEC governance does not freeze all future dietary/ontology work to the first migration.",
+      "classification": "A \u2014 obsolete fixture or expectation",
+      "independent_before": "Fail",
+      "independent_after": "Pass",
+      "final_result": "Pass",
+      "before_log": "failure-6-before.tap",
+      "after_log": "failure-6-after.tap"
+    }
+  ],
+  "validation": {
+    "requested_sec_suite": {
+      "tests": 22,
+      "pass": 22,
+      "fail": 0
+    },
+    "recovery_suite": {
+      "tests": 178,
+      "pass": 178,
+      "fail": 0
+    },
+    "broader_check": {
+      "tests": 104,
+      "pass": 81,
+      "fail": 23,
+      "before_fail": 29,
+      "new_fail": 0
+    },
+    "all_pm_findings": {
+      "checked": 64,
+      "issues": 0
+    },
+    "all_pm_admissions": {
+      "checked": 64,
+      "issues": 0
+    }
+  },
+  "preservation": {
+    "scientificFilesChecked": 540,
+    "scientificFilesChanged": [],
+    "rollupAndRecoveryArtifactsChecked": 66,
+    "rollupAndRecoveryArtifactsChanged": [],
+    "secSnapshotCount": 98,
+    "secRegistryByteUnchanged": true,
+    "canonicalPmCount": 64,
+    "pmChanges": [],
+    "recoveredRelationshipsPreserved": 34,
+    "recoveredTypes": {
+      "A": 31,
+      "B": 3
+    },
+    "buildRerun": "Not required: only tests changed; generation, rendering and production code unchanged.",
+    "findingCountChanges": 0
+  },
+  "changed_code_files": [
+    "scripts/sec-assessment-integration.test.mjs",
+    "scripts/sec-canonical-integration.test.mjs"
+  ],
+  "browser": [
+    {
+      "pm": "BRS1-FM4-PM9",
+      "url": "http://127.0.0.1:3128/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity/?review=1",
+      "verified": [
+        "Clicked SF1 disclosure; conditional 4/8, version 7; D established, B/P/R conditional; formal totals not calculated.",
+        "Prior versions 5 and 6 visible; Stage 2A/2B review remains at the audit bottom."
+      ]
+    },
+    {
+      "pm": "BRS2-FM1-PM3",
+      "url": "http://127.0.0.1:3128/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis/?review=1",
+      "verified": [
+        "Clicked SF5; provisional 5/8, version 2; factors D2/B1/P1/R1, exact bounded proposition; prior version 1 accessible.",
+        "Existing legacy MAT provenance entries retained; no reclassification performed."
+      ]
+    },
+    {
+      "pm": "BRS1-FM1-PM1",
+      "url": "http://127.0.0.1:3128/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation/?review=1",
+      "verified": [
+        "SP1/SP2 source links and scope limitations visible, without active SEC/factor/status fields inside the Principle records.",
+        "Clicked historical F4 disclosure; explicit historical classification boundary retained."
+      ],
+      "existing_observation": "PM1 main-page navigation shows six SFs. The wider presentation suite also flags PM1 count/link expectations. This pre-existing discrepancy is outside the six-fixture repair and was not changed."
+    },
+    {
+      "pm": "BRS6-FM1-PM2",
+      "url": "http://127.0.0.1:3128/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation/?review=1#sec-glycaemic-f5-assessment-v1-v2",
+      "verified": [
+        "Exact hash opens Evidence & Audit with SF5 expanded, provisional 5/8, version 2, and prior version 1.",
+        "Mouse collapse and Return-key expansion both work."
+      ]
+    }
+  ],
+  "unresolved_governance_decisions_for_six": [],
+  "broader_suite_comparison": {
+    "beforeFailures": 29,
+    "afterFailures": 23,
+    "resolved": [
+      "legacy Finding evidence HTML is unchanged except the approved derived SF title prefix",
+      "reference renderer reuses indicator and audit, exposes pinned history and preserves review record",
+      "publication gate is installed and approved production registry validates",
+      "actual shared audit renders canonical factor states and closed version anchors without invented review",
+      "exactly three canonical PMs changed; source archives match baseline bytes and hashes",
+      "canonical science, dietary atoms, KC decisions, food composition and old references are preserved as approved"
+    ],
+    "newFailures": [],
+    "preexistingRemaining": [
+      "SEC changes no propositions, source assessments, admissions, missions, six atoms, food records, or other frontmatter",
+      "only SEC pointers change in canonical data; missions, source assessments and dietary content remain identical",
+      "Netlify pins a reviewed history baseline and retains the validated heap limit",
+      "the unchanged production guard still rejects an absent baseline and accepts the configured one",
+      "actual compiled PM1 renders matching mechanism titles and reciprocal evidence links for active Findings and preserves Principle provenance",
+      "all scientific objects, admissions and pinned history remain unchanged except approved SF3 descriptive title",
+      "real audit renderer shows narrow principles, source links and retained history, without active confidence fields",
+      "real PM1 MDX compiles with five active Findings, excluding Principle and historical records",
+      "entire canonical body, Findings, lessons, references and numbered sections survive",
+      "ontology sees only loaded documents and no preview scientific metadata",
+      "versioned audit preserves exact proposition, unresolved factors and source identities",
+      "SF1 conditional reassessment preserves withdrawal history and formal unknowns",
+      "three status surfaces and original correction panel remain separate",
+      "SF2 recovery retains species, access and independence limitations",
+      "reader-facing fixtures distinguish all four states without registering Findings",
+      "SF and audit use the same short assessment labels without changing stored status",
+      "GABA calibration, archived pilot sources and bibliography remain byte-identical to baseline",
+      "actual existing disclosure helper resolves six atoms and PM-local references for every proposed lever",
+      "archived pilot PMs, GABA, audit, methodology and governing contracts remain byte-identical",
+      "complete isolated copy preserves canonical records, all numbered sections and dietary relationships",
+      "actual React preview renders provenance, proposed score, limitations and unique canonical source links",
+      "three complete drafts preserve missions, dietary decisions, KC identities and all source sections",
+      "canonical science, earlier pilots, contracts, rubric, bibliography and dietary validators are untouched"
+    ]
+  },
+  "boundaries": "No scientific, generation, rendering or build-configuration changes. No repository commit, push, merge or deployment."
+}

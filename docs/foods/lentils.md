@@ -88,45 +88,146 @@ substance_relationships:
   - substance: Cysteine
     relationship: contains
     description: >-
-      Cystine 322 mg per 100 g of Lentils, raw (FDC 172420). Cooked boiled
-      lentils are a separate food (FDC 172421, 118 mg per 100 g). Composition
-      only; not a glutathione-synthesis result.
+      Cystine 322 mg per 100 g of Lentils, raw (FDC 172420). Cooked boiled lentils are a separate
+      food (FDC 172421, 118 mg per 100 g). Composition only; not a glutathione-synthesis result.
   - substance: Iron
     relationship: contains
-    description: 'USDA FoodData Central reports iron in Lentils, raw.'
+    description: USDA FoodData Central reports iron in Lentils, raw.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: lentils|Iron
     evidence_source: USDA SR Legacy April 2018
-    evidence_material: 'Lentils, raw'
-    source_url: 'https://fdc.nal.usda.gov/food-details/172420/nutrients'
+    evidence_material: Lentils, raw
+    source_url: https://fdc.nal.usda.gov/food-details/172420/nutrients
     presence_status: presence_and_amount_supported
   - substance: Zinc
     relationship: contains
-    description: 'USDA FoodData Central reports zinc in Lentils, raw.'
+    description: USDA FoodData Central reports zinc in Lentils, raw.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: lentils|Zinc
     evidence_source: USDA SR Legacy April 2018
-    evidence_material: 'Lentils, raw'
-    source_url: 'https://fdc.nal.usda.gov/food-details/172420/nutrients'
+    evidence_material: Lentils, raw
+    source_url: https://fdc.nal.usda.gov/food-details/172420/nutrients
     presence_status: presence_and_amount_supported
   - substance: Vitamin B9
     relationship: contains
-    description: >-
-      USDA FoodData Central reports folate in Lentils, raw.  The recorded
-      analyte is folate.
+    description: USDA FoodData Central reports folate in Lentils, raw.  The recorded analyte is folate.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: lentils|Vitamin B9
     evidence_source: USDA SR Legacy April 2018
-    evidence_material: 'Lentils, raw'
-    source_url: 'https://fdc.nal.usda.gov/food-details/172420/nutrients'
+    evidence_material: Lentils, raw
+    source_url: https://fdc.nal.usda.gov/food-details/172420/nutrients
     presence_status: presence_and_amount_supported
+  - substance: Cysteine
+    substance_id: cysteine
+    relationship: contains
+    evidence_status: supported
+    evidence_material: Cooked Canadian whole green and split red lentils; separate dry-matter assay
+    preparation_state: cooked
+    source_url: https://doi.org/10.1002/fsn3.473
+    citation_keys:
+      - nosworthy_cooked_pulses_2017
+    evidence_source: >-
+      Performic-acid oxidation quantified cysteine separately in cooked lentils; the existing
+      canonical food reference documents the assay and dry-matter basis.
+    material_limitations: >-
+      Qualitative occurrence only in this projection. The dry-matter result is not an as-eaten
+      cysteine amount and is not substituted for USDA cystine.
+    food_delivery_notes: >-
+      Cysteine assay on separate dry-matter samples; no as-eaten amount or conversion from cystine
+      is inferred.
+    chemical_form: protein cysteine measured after oxidation
 main_image: /img/foods/lentils/lentils_medium.webp
 legacy_list_image: /img/foods/lentils/lentils_thumb.webp
 legacy_main_image: /img/foods/lentils/lentils_medium.webp
 substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-172421
+    material: Lentils, mature seeds, cooked, boiled, without salt
+    preparation: cooked
+    food_group: plant
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 172421
+      source_url: https://fdc.nal.usda.gov/food-details/172421/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 9.02
+    protein_source_row_id: "1693807"
+    amino_acids:
+      histidine:
+        value: 0.254
+        source_row_id: "1693848"
+        nutrient_id: "1221"
+        data_points: 0
+        derivation_id: null
+      isoleucine:
+        value: 0.39
+        source_row_id: "1693842"
+        nutrient_id: "1212"
+        data_points: 0
+        derivation_id: null
+      leucine:
+        value: 0.654
+        source_row_id: "1693843"
+        nutrient_id: "1213"
+        data_points: 0
+        derivation_id: null
+      lysine:
+        value: 0.63
+        source_row_id: "1693844"
+        nutrient_id: "1214"
+        data_points: 0
+        derivation_id: null
+      methionine:
+        value: 0.077
+        source_row_id: "1693823"
+        nutrient_id: "1215"
+        data_points: 0
+        derivation_id: null
+      phenylalanine:
+        value: 0.445
+        source_row_id: "1693824"
+        nutrient_id: "1217"
+        data_points: 0
+        derivation_id: null
+      threonine:
+        value: 0.323
+        source_row_id: "1693822"
+        nutrient_id: "1211"
+        data_points: 0
+        derivation_id: null
+      tryptophan:
+        value: 0.081
+        source_row_id: "1693821"
+        nutrient_id: "1210"
+        data_points: 0
+        derivation_id: null
+      valine:
+        value: 0.448
+        source_row_id: "1693846"
+        nutrient_id: "1219"
+        data_points: 0
+        derivation_id: null
+    portion:
+      label: 0.5 cup
+      source_row_id: "90596"
+      source_grams: 198
+      multiplier: 0.5
+    limitations: >-
+      USDA database composition, including source-specific analytical or calculated values. No
+      amino-acid-specific digestibility correction; illustrative USDA household portion, not an
+      intake recommendation. Missing values are not treated as zero.
+    protein_quality:
+      citation_keys:
+        - nosworthy_cooked_pulses_2017
+      summary: >-
+        Cooked-pulse protein-quality evidence uses rat digestibility and separate dry-matter
+        samples; it is not a human ileal correction of this as-eaten database profile.
 ---
 ## Overview
 

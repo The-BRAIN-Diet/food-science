@@ -33,6 +33,7 @@ references:
   - '[van Oudheusden and Scholte (2002) — Efficacy of Carnitine in the Treatment of Children with Attention-deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002)'
   - '[Öğütlü et al. (2022) — Mitochondrial Dysfunction in Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023)'
   - '[Courchesne-Loyer et al. (2017) — Inverse relationship between brain glucose and ketone metabolism in adults during short-term moderate dietary ketosis: A dual tracer quantitative positron emission tomography study.](/docs/papers/BRAIN-Diet-References#courchesne_loyer_diet_ketone_pet_2017)'
+  - '[Croteau et al. (2018) — Ketogenic Medium Chain Triglycerides Increase Brain Energy Metabolism in Alzheimer’s Disease](/docs/papers/BRAIN-Diet-References#croteau_mct_brain_energy_2018)'
 hide_title: true
 scientific_findings:
   - id: PM7-F1
@@ -64,6 +65,32 @@ scientific_findings:
           source_url: 'https://pubmed.ncbi.nlm.nih.gov/27629100/'
     evidence_dependency:
       - 'The source-specific observations support different links; food composition, biochemical identity, intervention exposure and clinical outcomes are not interchangeable. Reuse across PMs is not independent replication.'
+  - id: PM7-F2
+    finding_label: Defined MCT exposure increases measured cerebral ketone uptake
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: Sequential one-month MCT interventions in a small Alzheimer cohort increased PET-derived brain ketone consumption; the tricaprylin phase was distinct from the preceding C8/C10 mixture.
+    finding_summary: Sequential one-month MCT interventions in a small Alzheimer cohort increased PET-derived brain ketone consumption; the tricaprylin phase was distinct from the preceding C8/C10 mixture.
+    finding_interpretation: Defined dietary caprylic triglyceride can supply hepatic ketone production and cerebral ketone-fuel availability for this ketone-utilisation operation.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: Sequential one-month MCT interventions in a small Alzheimer cohort increased PET-derived brain ketone consumption; the tricaprylin phase was distinct from the preceding C8/C10 mixture.
+    synthesis_limitations: 'Uncontrolled sequential exposure: C8/C10 mixture (n=11) then 95% tricaprylin (n=6), 30 g/day for one month each. No claim of isolated C8 superiority, cognitive efficacy, healthy-person requirement or ordinary coconut-oil equivalence. PET uptake/metabolism is not a direct cellular ATP assay; no food-effective dose or fixed conversion yield is inferred. Numerical SEC remains pending full-method appraisal; no factor is forced.'
+    evidence_considered:
+      - label: Croteau et al. (2018)
+        citation_key: croteau_mct_brain_energy_2018
+        href: /docs/papers/BRAIN-Diet-References#croteau_mct_brain_energy_2018
+        data_level: Human Study
+        evidence_source: bounded-external-search
+        exposure_context: Defined C8/C10 and 95% tricaprylin supplement phases; preserve formulation/order.
+        directional_finding: Sequential one-month MCT interventions in a small Alzheimer cohort increased PET-derived brain ketone consumption; the tricaprylin phase was distinct from the preceding C8/C10 mixture.
+        assessment:
+          study: Sequential before/after oral MCT interventions with acetoacetate and glucose PET.
+          population: Adults with mild-to-moderate Alzheimer disease; small completion groups.
+          result: Sequential one-month MCT interventions in a small Alzheimer cohort increased PET-derived brain ketone consumption; the tricaprylin phase was distinct from the preceding C8/C10 mixture.
+          effect_magnitude: No additional magnitude inferred.
+          evidence_summary: Sequential one-month MCT interventions in a small Alzheimer cohort increased PET-derived brain ketone consumption; the tricaprylin phase was distinct from the preceding C8/C10 mixture.
+          limitations: 'Uncontrolled sequential exposure: C8/C10 mixture (n=11) then 95% tricaprylin (n=6), 30 g/day for one month each. No claim of isolated C8 superiority, cognitive efficacy, healthy-person requirement or ordinary coconut-oil equivalence. PET uptake/metabolism is not a direct cellular ATP assay; no food-effective dose or fixed conversion yield is inferred.'
+          retrieval_scope: Primary abstract and author-uploaded paper abstract/figure descriptions retrieved 26 October 2026; full methods not completely extracted.
 system_optimisation_practices:
   - atom_id: PM7-SOP-DEFERRED-1
     input: Four-day ketogenic liquid formula in the studied healthy-adult experiment
@@ -114,6 +141,19 @@ dietary_input_traceability:
       status: missing-substance
       severity: MAJOR
       intended_identity: Beta-hydroxybutyrate
+  - atom_id: PM7-DIT-RECOVERY-CAPRYLIC-TRIGLYCERIDE
+    input: Caprylic Triglyceride
+    input_type: precursor
+    substance_id: caprylic-triglyceride
+    biological_role: Defined dietary caprylic triglyceride can supply hepatic ketone production and cerebral ketone-fuel availability for this ketone-utilisation operation.
+    evidence_source:
+      finding_ids:
+        - PM7-F2
+      citation_keys:
+        - croteau_mct_brain_energy_2018
+    evidence_limitation: 'Uncontrolled sequential exposure: C8/C10 mixture (n=11) then 95% tricaprylin (n=6), 30 g/day for one month each. No claim of isolated C8 superiority, cognitive efficacy, healthy-person requirement or ordinary coconut-oil equivalence. PET uptake/metabolism is not a direct cellular ATP assay; no food-effective dose or fixed conversion yield is inferred.'
+    dietary_input: true
+    dietary_input_note: '2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition does not establish an effective intervention dose.'
 dietary_lever_atoms:
   - atom_id: PM7-DEFERRED-BIO-1
     relationship_layer: biochemical-requirement
@@ -121,6 +161,16 @@ dietary_lever_atoms:
   - atom_id: PM7-DEFERRED-BIO-2
     relationship_layer: biochemical-requirement
     claim_ceiling: biological-dependency
+  - atom_id: PM7-DIT-RECOVERY-CAPRYLIC-TRIGLYCERIDE
+    requirement_classification: derived
+    relationship_mode: capacity-requirement
+    relationship_layer: dietary-requirement
+    dietary_addressability: precursor-mediated
+    claim_ceiling: biological-dependency
+    permitted_wording: Defined dietary caprylic triglyceride can supply hepatic ketone production and cerebral ketone-fuel availability for this ketone-utilisation operation.
+    evidence_limitation: 'Uncontrolled sequential exposure: C8/C10 mixture (n=11) then 95% tricaprylin (n=6), 30 g/day for one month each. No claim of isolated C8 superiority, cognitive efficacy, healthy-person requirement or ordinary coconut-oil equivalence. PET uptake/metabolism is not a direct cellular ATP assay; no food-effective dose or fixed conversion yield is inferred.'
+    derived_target: Acetoacetate
+    derived_target_atom_id: PM7-DEFERRED-BIO-1
 dietary_lever_presentations:
   - atom_id: PM7-DEFERRED-BIO-1
     label: Acetoacetate
@@ -132,7 +182,87 @@ dietary_lever_presentations:
     presentation_section: 3.1.2
     reader_description: Endogenous ketone fuel relevant to utilisation. The PET experiment estimated acetoacetate metabolism; the combined total-ketone contribution was separately inferred.
     description_finding_id: PM7-F1
-sidebar_label: "BRS4-3-7 — Ketone Utilisation Capacity"
+  - atom_id: PM7-DIT-RECOVERY-CAPRYLIC-TRIGLYCERIDE
+    label: Caprylic Triglyceride
+    presentation_section: 3.1.1
+sidebar_label: BRS4-3-7 — Ketone Utilisation Capacity
+dietary_input_assessments:
+  - atom_id: PM7-DIT-RECOVERY-CAPRYLIC-TRIGLYCERIDE
+    status: admitted
+    type: A
+    classification: derived
+    operation: Enable mitochondrial ketone utilisation so alternative fuel is available when glucose conditions shift.
+    canonical_substance_id: caprylic-triglyceride
+    assessment_date: '2026-10-26'
+    assessment_limitations: 'Uncontrolled sequential exposure: C8/C10 mixture (n=11) then 95% tricaprylin (n=6), 30 g/day for one month each. No claim of isolated C8 superiority, cognitive efficacy, healthy-person requirement or ordinary coconut-oil equivalence. PET uptake/metabolism is not a direct cellular ATP assay; no food-effective dose or fixed conversion yield is inferred.'
+    food_target_research:
+      completed: true
+      sources_examined:
+        - registry/substances.json
+        - docs/foods/mct-oil.md
+        - docs/foods/coconut-oil.md
+        - system/food-target-research.json
+      sufficient_coverage_rationale: 'Inspected MCT Oil’s analytical product-specific triglyceride relationship and Coconut Oil’s explicit distinction between fatty-acid composition and individual triglycerides. Reuse only supported structured or independently researched material edges, retain formulation qualifiers and missing quantities; do not create a coconut-oil trioctanoin edge from C8 fatty-acid content.'
+    functional_dependency:
+      status: established
+      statement: Defined dietary caprylic triglyceride can supply hepatic ketone production and cerebral ketone-fuel availability for this ketone-utilisation operation.
+      sources:
+        - 'https://doi.org/10.3233/JAD-180202'
+    dietary_supply:
+      status: established
+      statement: The primary experiment used an orally administered tricaprylin-rich preparation. The MCT Oil record has a product/preparation-dependent caprylic-triglyceride relationship; fatty-acid content alone is not proof of trioctanoin content.
+      sources:
+        - docs/foods/mct-oil.md
+        - docs/foods/coconut-oil.md
+    active_target_id: acetoacetate
+    conversion_pathway:
+      - from: caprylic-triglyceride
+        to: octanoate
+        process: Digestive lipolysis releases C8 fatty acid from trioctanoin; the absorbed fatty acid is represented as octanoate at physiological pH.
+        dependencies:
+          - Functional triglyceride digestion and absorption
+        limitations: The C8 acyl form is not free octanoate content in food. Mixed-chain MCT products have formulation-dependent composition.
+        evidence:
+          statement: Human triglyceride-lipase reaction provenance and the defined oral tricaprylin exposure; retrieved 26 October 2026.
+          sources:
+            - 'https://www.uniprot.org/uniprotkb/P16233/entry'
+            - 'https://doi.org/10.3233/JAD-180202'
+      - from: octanoate
+        to: acetyl-coa
+        process: Hepatic fatty-acid activation and successive mitochondrial beta-oxidation reactions generate acetyl-CoA from the C8 chain.
+        ordered_intermediates:
+          - Octanoyl-CoA following acyl-CoA synthetase activation
+          - Successively shortened acyl-CoAs during beta-oxidation
+          - Acetyl-CoA
+        dependencies:
+          - Fatty-acid activation
+          - Mitochondrial beta-oxidation machinery
+          - 'CoA, ATP and redox-cofactor availability'
+        limitations: 'This is a multireaction biological process, not a single chemical reaction. Tissue partitioning and energy state prevent a fixed food-to-acetyl-CoA yield. Cofactor participation creates no separate dietary admissions.'
+        evidence:
+          statement: Human medium-chain acyl-CoA dehydrogenase establishes the initial beta-oxidation reaction; the clinical exposure additionally measures downstream ketone provision.
+          sources:
+            - 'https://www.uniprot.org/uniprotkb/P11310/entry'
+            - 'https://doi.org/10.3233/JAD-180202'
+      - from: acetyl-coa
+        to: acetoacetate
+        process: 'Hepatic mitochondrial ketogenesis proceeds through acetoacetyl-CoA formation, HMG-CoA synthase and HMG-CoA lyase to produce acetoacetate.'
+        ordered_intermediates:
+          - Acetoacetyl-CoA (ACAT1 thiolase)
+          - HMG-CoA (HMGCS2)
+          - Acetoacetate (HMGCL)
+        dependencies:
+          - Functional hepatic ketogenesis
+          - Mitochondrial enzyme and substrate availability
+          - 'Ketone release, circulation and brain monocarboxylate transport'
+        limitations: 'The endogenous product can interconvert with beta-hydroxybutyrate, but the target identity here is acetoacetate. Ketogenesis, cerebral uptake and ATP production are distinct; no fixed yield or universal benefit is inferred.'
+        evidence:
+          statement: 'Curated human ACAT1, HMGCS2 and HMGCL reactions, retrieved 26 October 2026.'
+          sources:
+            - 'https://www.uniprot.org/uniprotkb/P24752/entry'
+            - 'https://www.uniprot.org/uniprotkb/P54868/entry'
+            - 'https://www.uniprot.org/uniprotkb/P35914/entry'
+            - 'https://doi.org/10.3233/JAD-180202'
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -170,6 +300,9 @@ Enable mitochondrial ketone utilisation so alternative fuel is available when gl
 <strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
+
+- Caprylic Triglyceride
+
 
 
 The original §3.1.1 statements are preserved verbatim in the [historical dietary review panel](#legacy-dietary-review-pm7). Their existing records and provenance are unchanged. This presentation repair makes no new admission, rejection or transfer to another intervention section; substance identity, evidence and placement require review.
@@ -310,29 +443,7 @@ This PM addresses ketone transport and mitochondrial utilisation — not long-ch
 
 <ScientificFinding finding={{"id":"PM7-F1","finding_label":"A defined diet increases PET-estimated brain acetoacetate metabolism","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"Four days of the tested ketogenic formula increased PET-estimated cerebral acetoacetate metabolic rate in healthy adults.","finding_summary":"Four days of the tested ketogenic formula increased PET-estimated cerebral acetoacetate metabolic rate in healthy adults.","finding_interpretation":"Small short-term nonrandomised study; PET metabolic rates are tracer/model estimates, not direct neuronal oxidation measurements. Combined total ketone energy contribution was estimated separately. No ADHD efficacy or endorsement of routine ketogenic dieting.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Four days of the tested ketogenic formula increased PET-estimated cerebral acetoacetate metabolic rate in healthy adults.","synthesis_limitations":"Small short-term nonrandomised study; PET metabolic rates are tracer/model estimates, not direct neuronal oxidation measurements. Combined total ketone energy contribution was estimated separately. No ADHD efficacy or endorsement of routine ketogenic dieting.","evidence_considered":[{"label":"Courchesne-Loyer et al. (2017)","citation_key":"courchesne_loyer_diet_ketone_pet_2017","href":"/docs/papers/BRAIN-Diet-References#courchesne_loyer_diet_ketone_pet_2017","data_level":"Human Study","exposure_context":"Four-day liquid diet with lipid:protein-plus-carbohydrate ratio 4.5:1, containing cream, milk, MCT oil and egg white.","evidence_source":"bounded-external-search","directional_finding":"Four days of the tested ketogenic formula increased PET-estimated cerebral acetoacetate metabolic rate in healthy adults.","assessment":{"study":"Four-day liquid diet with lipid:protein-plus-carbohydrate ratio 4.5:1, containing cream, milk, MCT oil and egg white.","population":"Ten healthy adults; before/after study.","result":"Four days of the tested ketogenic formula increased PET-estimated cerebral acetoacetate metabolic rate in healthy adults.","effect_magnitude":"Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.","evidence_summary":"Dual-tracer PET with kinetic estimates of acetoacetate/glucose metabolic rates.","limitations":"Small short-term nonrandomised study; PET metabolic rates are tracer/model estimates, not direct neuronal oxidation measurements. Combined total ketone energy contribution was estimated separately. No ADHD efficacy or endorsement of routine ketogenic dieting.","retrieval_scope":"Primary full text Abstract, diet Methods and PET modelling retrieved.","source_url":"https://pubmed.ncbi.nlm.nih.gov/27629100/"},"canonical_reference":{"author_year":"Courchesne-Loyer et al. (2017)","number":8,"anchor":"#pm-ref-8"}}],"evidence_dependency":["The source-specific observations support different links; food composition, biochemical identity, intervention exposure and clinical outcomes are not interchangeable. Reuse across PMs is not independent replication."],"connected_supportive_evidence":[]}} />
 
-
-#### Introduction/Summary
-
-Ketone utilisation as an alternative brain fuel is mechanistically established. The findings below emphasise brain energetic substrate biology.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Ketones and brain energy metabolism</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Ketone bodies can be transported to the brain and oxidised within mitochondria to support ATP production during reduced glucose availability [Ramezani et al., 2023; López-Ojeda et al., 2023]. This establishes ketone utilisation as a legitimate alternative fuel pathway within substrate flexibility — not a universal dietary prescription.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#ramezani_ketone_2023","label":"Ramezani et al. (2023)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
+<ScientificFinding finding={{"id":"PM7-F2","finding_label":"Defined MCT exposure increases measured cerebral ketone uptake","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"Sequential one-month MCT interventions in a small Alzheimer cohort increased PET-derived brain ketone consumption; the tricaprylin phase was distinct from the preceding C8/C10 mixture.","finding_summary":"Sequential one-month MCT interventions in a small Alzheimer cohort increased PET-derived brain ketone consumption; the tricaprylin phase was distinct from the preceding C8/C10 mixture.","finding_interpretation":"Defined dietary caprylic triglyceride can supply hepatic ketone production and cerebral ketone-fuel availability for this ketone-utilisation operation.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Sequential one-month MCT interventions in a small Alzheimer cohort increased PET-derived brain ketone consumption; the tricaprylin phase was distinct from the preceding C8/C10 mixture.","synthesis_limitations":"Uncontrolled sequential exposure: C8/C10 mixture (n=11) then 95% tricaprylin (n=6), 30 g/day for one month each. No claim of isolated C8 superiority, cognitive efficacy, healthy-person requirement or ordinary coconut-oil equivalence. PET uptake/metabolism is not a direct cellular ATP assay; no food-effective dose or fixed conversion yield is inferred. Numerical SEC remains pending full-method appraisal; no factor is forced.","evidence_considered":[{"label":"Croteau et al. (2018)","citation_key":"croteau_mct_brain_energy_2018","href":"/docs/papers/BRAIN-Diet-References#croteau_mct_brain_energy_2018","data_level":"Human Study","evidence_source":"bounded-external-search","exposure_context":"Defined C8/C10 and 95% tricaprylin supplement phases; preserve formulation/order.","directional_finding":"Sequential one-month MCT interventions in a small Alzheimer cohort increased PET-derived brain ketone consumption; the tricaprylin phase was distinct from the preceding C8/C10 mixture.","assessment":{"study":"Sequential before/after oral MCT interventions with acetoacetate and glucose PET.","population":"Adults with mild-to-moderate Alzheimer disease; small completion groups.","result":"Sequential one-month MCT interventions in a small Alzheimer cohort increased PET-derived brain ketone consumption; the tricaprylin phase was distinct from the preceding C8/C10 mixture.","effect_magnitude":"No additional magnitude inferred.","evidence_summary":"Sequential one-month MCT interventions in a small Alzheimer cohort increased PET-derived brain ketone consumption; the tricaprylin phase was distinct from the preceding C8/C10 mixture.","limitations":"Uncontrolled sequential exposure: C8/C10 mixture (n=11) then 95% tricaprylin (n=6), 30 g/day for one month each. No claim of isolated C8 superiority, cognitive efficacy, healthy-person requirement or ordinary coconut-oil equivalence. PET uptake/metabolism is not a direct cellular ATP assay; no food-effective dose or fixed conversion yield is inferred.","retrieval_scope":"Primary abstract and author-uploaded paper abstract/figure descriptions retrieved 26 October 2026; full methods not completely extracted."},"canonical_reference":{"author_year":"Croteau et al. (2018)","number":9,"anchor":"#pm-ref-9"}}],"connected_supportive_evidence":[]}} />
 
 ## 5. BRS Pathways and Connections
 
@@ -506,6 +617,8 @@ Add the exact four-day experimental dietary protocol under SOPs and a human dual
 - <span id="pm-ref-6">[6]</span> [van Oudheusden and Scholte (2002) — Efficacy of Carnitine in the Treatment of Children with Attention-deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002)
 - <span id="pm-ref-7">[7]</span> [Öğütlü et al. (2022) — Mitochondrial Dysfunction in Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023)
 - <span id="pm-ref-8">[8]</span> [Courchesne-Loyer et al. (2017) — Inverse relationship between brain glucose and ketone metabolism in adults during short-term moderate dietary ketosis: A dual tracer quantitative positron emission tomography study.](/docs/papers/BRAIN-Diet-References#courchesne_loyer_diet_ketone_pet_2017)
+- <span id="pm-ref-9">[9]</span> [Croteau et al. (2018) — Ketogenic Medium Chain Triglycerides Increase Brain Energy Metabolism in Alzheimer’s Disease](/docs/papers/BRAIN-Diet-References#croteau_mct_brain_energy_2018)
+
 
 ### PM-local source records
 
@@ -535,3 +648,4 @@ Add the exact four-day experimental dietary protocol under SOPs and a human dual
 **Review needed:** distinguish identifiable biochemical inputs from food delivery, dietary patterns and generic support claims; verify PM-specific evidence before proposing any structured admission or section reassignment. Existing structured scientific records remain unchanged.
 
 </details>
+

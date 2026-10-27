@@ -14,6 +14,13 @@ mechanisms:
   Gut-Brain Axis & Enteric Nervous System: 'Glutamine is an enterocyte substrate for epithelial proliferation, repair, and tight-junction protein maintenance. Adult supplementation trials show no overall permeability benefit.'
 list_image: /img/icons/nutrient.svg
 inchikey: ZDXPYRJPNDTMRX-VKHMYHEASA-N
+food_delivery_assessment:
+  review_date: '2026-10-26'
+  status: verified-qualitative
+  classification: B
+  sources:
+    - https://doi.org/10.1038/ejcn.2009.110
+  admission_changed: false
 ---
 
 ## Overview
@@ -24,7 +31,7 @@ Glutamine is an enterocyte fuel and a substrate for epithelial proliferation, re
 
 ## Dietary Origin
 
-Foods supply glutamine inside protein. Endogenous synthesis and circulating glutamine also supply the intestine, so a food that contains protein is not evidence that the meal raised barrier proteins [1]. The permeability trials and the postinfectious IBS trial gave glutamine as a supplement [2,3]. No food page here has a verified glutamine amount, so none is linked.
+Foods supply glutamine inside protein. Endogenous synthesis and circulating glutamine also supply the intestine, so a food that contains protein is not evidence that the meal raised barrier proteins [1]. The permeability trials and the postinfectious IBS trial gave glutamine as a supplement [2,3]. Qualitative protein-residue composition can be linked independently of a precise free-glutamine amount or supplemental dose.
 
 ## Research Spotlights & Evidence Checks
 
@@ -45,6 +52,8 @@ A systematic review of adult clinical trials found no overall improvement in gut
 
 ## Foods
 
+Food links use identified protein fractions. Their calculated quantities are not presented as direct assays [4].
+
 <SubstanceFoods tag="Glutamine" />
 
 ## Biological Regulatory Systems
@@ -60,3 +69,5 @@ A systematic review of adult clinical trials found no overall improvement in gut
 [2] Abbasi et al. (2024). [A systematic review and meta-analysis of clinical trials on the effects of glutamine supplementation on gut permeability in adults](/docs/papers/BRAIN-Diet-References#abbasi_systematic_2024). Adult supplementation trials do not show an overall permeability benefit. This is supplement evidence, not ordinary protein intake.
 
 [3] Zhou et al. (2019). [Randomised placebo-controlled trial of dietary glutamine supplements for postinfectious irritable bowel syndrome](/docs/papers/BRAIN-Diet-References#zhou_glutamine_piibs_2019). A selected postinfectious IBS supplementation response. It does not establish glutamine as a general barrier requirement.
+
+[4] [Lenders et al. (2009), Sequence-derived food amino-acid composition](/docs/papers/BRAIN-Diet-References#lenders_amino_acid_sequencing_2009). Food-composition provenance; PM evidence and admission remain separate.

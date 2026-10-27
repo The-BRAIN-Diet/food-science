@@ -80,32 +80,51 @@ substance_relationships:
   - substance: Spermidine
     relationship: contains
     description: >-
-      Analytical food evidence identifies spermidine in peas; concentration
-      varies with the sample and preparation.
+      Analytical food evidence identifies spermidine in peas; concentration varies with the sample
+      and preparation.
     citation_keys:
       - munoz_esparza_food_polyamines_2021
   - substance: Vitamin B1
     relationship: contains
-    description: 'USDA FoodData Central reports vitamin B1 in Peas, green, raw.'
+    description: USDA FoodData Central reports vitamin B1 in Peas, green, raw.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: peas|Vitamin B1
     evidence_source: USDA SR Legacy April 2018
-    evidence_material: 'Peas, green, raw'
-    source_url: 'https://fdc.nal.usda.gov/food-details/170419/nutrients'
+    evidence_material: Peas, green, raw
+    source_url: https://fdc.nal.usda.gov/food-details/170419/nutrients
     presence_status: presence_and_amount_supported
   - substance: Vitamin B9
     relationship: contains
-    description: >-
-      USDA FoodData Central reports folate in Peas, green, raw.  The recorded
-      analyte is folate.
+    description: USDA FoodData Central reports folate in Peas, green, raw.  The recorded analyte is folate.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: peas|Vitamin B9
     evidence_source: USDA SR Legacy April 2018
-    evidence_material: 'Peas, green, raw'
-    source_url: 'https://fdc.nal.usda.gov/food-details/170419/nutrients'
+    evidence_material: Peas, green, raw
+    source_url: https://fdc.nal.usda.gov/food-details/170419/nutrients
     presence_status: presence_and_amount_supported
+  - substance: Arabinan
+    substance_id: arabinan
+    relationship: contains
+    evidence_status: supported
+    evidence_material: Developing Pisum sativum cotyledon cell walls
+    preparation_state: raw cotyledons
+    source_url: https://doi.org/10.1046/j.1365-313x.2000.00719.x
+    citation_keys:
+      - mccartney_pea_pectic_arabinan_2000
+    evidence_source: >-
+      Immunolocalization detected pectic (1→5)-alpha-L-arabinan in pea cotyledon cell walls
+      throughout development (McCartney et al., 2000).
+    material_limitations: >-
+      Qualitative occurrence in native pea pectin. No as-eaten amount or cooking retention was
+      established; this is not a dose-equivalent substitute for the experimental isolated pea-fibre
+      preparation.
+    food_delivery_notes: >-
+      Qualitative occurrence in native pea pectin. No as-eaten amount or cooking retention was
+      established; this is not a dose-equivalent substitute for the experimental isolated pea-fibre
+      preparation.
+    chemical_form: pectic (1→5)-alpha-L-arabinan
 substance_card_captions:
   Spermidine: Occurs directly in this food; a product-specific amount is not established.
 substance_review_candidates: []

@@ -28,3 +28,25 @@ test('production cap is supported by installed webpack, bounds real module build
     assert.match(netlify,/SEC_BASE_REF = "ebbc10ed11484192c972952d8c47645bd3c5bf4e"/);
   } finally {fs.rmSync(dir,{recursive:true,force:true});}
 });
+
+test('Netlify disables the installed Docusaurus persistent cache without disabling client minification',async()=>{
+  const netlify=fs.readFileSync('netlify.toml','utf8');
+  assert.match(netlify,/DOCUSAURUS_NO_PERSISTENT_CACHE = "1"/);
+  const {createBaseConfig}=require('@docusaurus/core/lib/webpack/base.js');
+  const saved=Object.fromEntries(['NODE_ENV','TERSER_PARALLEL','DOCUSAURUS_NO_PERSISTENT_CACHE'].map(k=>[k,process.env[k]]));
+  const props={siteDir:process.cwd(),outDir:path.join(os.tmpdir(),'brain-cache-fixture'),generatedFilesDir:path.resolve('.docusaurus-build'),siteConfigPath:path.resolve('docusaurus.config.ts'),baseUrl:'/',routesPaths:['/'],plugins:[],siteMetadata:{docusaurusVersion:require('@docusaurus/core/package.json').version},i18n:{currentLocale:'en'},currentBundler:{name:'webpack',instance:webpack},siteConfig:{staticDirectories:['static'],future:{experimental_router:'browser',experimental_faster:{swcJsLoader:false}},webpack:{jsLoader:'babel'}}};
+  try {
+    process.env.NODE_ENV='production';process.env.TERSER_PARALLEL='1';
+    const create=()=>createBaseConfig({props,isServer:false,minify:true,faster:{},configureWebpackUtils:{getStyleLoaders:()=>[]}});
+    delete process.env.DOCUSAURUS_NO_PERSISTENT_CACHE;
+    assert.equal((await create()).cache.type,'filesystem');
+    process.env.DOCUSAURUS_NO_PERSISTENT_CACHE='1';
+    const config=await create();
+    assert.equal(config.cache,undefined);
+    assert.equal(config.optimization.minimize,true);
+    assert.equal(config.optimization.minimizer.find(p=>p.constructor.name==='TerserPlugin').options.parallel,1);
+    const compiler=webpack(config);
+    assert.equal(compiler.options.cache,false,'Webpack production default must disable cache');
+    await new Promise((resolve,reject)=>compiler.close(e=>e?reject(e):resolve()));
+  } finally {for(const [k,v] of Object.entries(saved))v===undefined?delete process.env[k]:process.env[k]=v;}
+});

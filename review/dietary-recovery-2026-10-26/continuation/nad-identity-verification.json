@@ -1,0 +1,47 @@
+{
+  "nicotinamide riboside": {
+    "query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/nicotinamide%20riboside/property/InChIKey,IUPACName/JSON",
+    "records": [
+      {
+        "CID": 439924,
+        "InChIKey": "JLEBZPBDRKPWTD-TURQNECASA-O",
+        "IUPACName": "1-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]pyridin-1-ium-3-carboxamide"
+      }
+    ]
+  },
+  "nicotinamide mononucleotide": {
+    "query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/nicotinamide%20mononucleotide/property/InChIKey,IUPACName/JSON",
+    "records": [
+      {
+        "CID": 14180,
+        "InChIKey": "DAYLJWODMCOQEW-TURQNECASA-N",
+        "IUPACName": "[(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate"
+      }
+    ]
+  },
+  "NAD+": {
+    "query_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/NAD%2B/property/InChIKey,IUPACName/JSON",
+    "records": [
+      {
+        "CID": 5892,
+        "InChIKey": "BAWFJGJZGIEFAR-NNYOXOHSSA-N",
+        "IUPACName": "[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl phosphate"
+      },
+      {
+        "CID": 5893,
+        "InChIKey": "BAWFJGJZGIEFAR-NNYOXOHSSA-O",
+        "IUPACName": "[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl hydrogen phosphate"
+      },
+      {
+        "CID": 15938971,
+        "InChIKey": "BAWFJGJZGIEFAR-NNYOXOHSSA-M",
+        "IUPACName": "[[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-oxidophosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl phosphate"
+      },
+      {
+        "CID": 10897651,
+        "InChIKey": "BAWFJGJZGIEFAR-NNYOXOHSSA-N",
+        "IUPACName": "[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methyl [[(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] phosphate"
+      }
+    ]
+  }
+}

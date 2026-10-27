@@ -166,6 +166,87 @@ main_image: /img/foods/oats/oats_medium.webp
 legacy_list_image: /img/foods/oats/oats_thumb.webp
 legacy_main_image: /img/foods/oats/oats_medium.webp
 substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-173905
+    material: >-
+      Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and
+      microwaving), without salt
+    preparation: cooked
+    food_group: plant
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 173905
+      source_url: https://fdc.nal.usda.gov/food-details/173905/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 2.54
+    protein_source_row_id: "1815072"
+    amino_acids:
+      histidine:
+        value: 0.054
+        source_row_id: "1815125"
+        nutrient_id: "1221"
+        data_points: 0
+        derivation_id: "1"
+      isoleucine:
+        value: 0.116
+        source_row_id: "1815119"
+        nutrient_id: "1212"
+        data_points: 0
+        derivation_id: "1"
+      leucine:
+        value: 0.216
+        source_row_id: "1815120"
+        nutrient_id: "1213"
+        data_points: 0
+        derivation_id: "1"
+      lysine:
+        value: 0.135
+        source_row_id: "1815121"
+        nutrient_id: "1214"
+        data_points: 0
+        derivation_id: "1"
+      methionine:
+        value: 0.046
+        source_row_id: "1815091"
+        nutrient_id: "1215"
+        data_points: 0
+        derivation_id: "1"
+      phenylalanine:
+        value: 0.142
+        source_row_id: "1815092"
+        nutrient_id: "1217"
+        data_points: 0
+        derivation_id: "1"
+      threonine:
+        value: 0.096
+        source_row_id: "1815090"
+        nutrient_id: "1211"
+        data_points: 0
+        derivation_id: "1"
+      tryptophan:
+        value: 0.04
+        source_row_id: "1815089"
+        nutrient_id: "1210"
+        data_points: 0
+        derivation_id: "1"
+      valine:
+        value: 0.16
+        source_row_id: "1815123"
+        nutrient_id: "1219"
+        data_points: 0
+        derivation_id: "1"
+    portion:
+      label: 1 cup
+      source_row_id: "93456"
+      source_grams: 234
+      multiplier: 1
+    limitations: >-
+      USDA database composition, including source-specific analytical or calculated values. No
+      amino-acid-specific digestibility correction; illustrative USDA household portion, not an
+      intake recommendation. Missing values are not treated as zero.
 ---
 import NutritionTable from "@site/src/components/NutritionTable";
 

@@ -177,6 +177,85 @@ main_image: /img/foods/chicken/chicken_medium.webp
 legacy_list_image: /img/foods/chicken/chicken_thumb.webp
 legacy_main_image: /img/foods/chicken/chicken_medium.webp
 substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-171477
+    material: Chicken, broilers or fryers, breast, meat only, cooked, roasted
+    preparation: cooked
+    food_group: animal
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 171477
+      source_url: https://fdc.nal.usda.gov/food-details/171477/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 31.02
+    protein_source_row_id: "1613048"
+    amino_acids:
+      histidine:
+        value: 0.963
+        source_row_id: "1613034"
+        nutrient_id: "1221"
+        data_points: 0
+        derivation_id: null
+      isoleucine:
+        value: 1.638
+        source_row_id: "1613028"
+        nutrient_id: "1212"
+        data_points: 0
+        derivation_id: null
+      leucine:
+        value: 2.328
+        source_row_id: "1613029"
+        nutrient_id: "1213"
+        data_points: 0
+        derivation_id: null
+      lysine:
+        value: 2.635
+        source_row_id: "1613030"
+        nutrient_id: "1214"
+        data_points: 0
+        derivation_id: null
+      methionine:
+        value: 0.859
+        source_row_id: "1613059"
+        nutrient_id: "1215"
+        data_points: 0
+        derivation_id: null
+      phenylalanine:
+        value: 1.231
+        source_row_id: "1613060"
+        nutrient_id: "1217"
+        data_points: 0
+        derivation_id: null
+      threonine:
+        value: 1.31
+        source_row_id: "1613058"
+        nutrient_id: "1211"
+        data_points: 0
+        derivation_id: null
+      tryptophan:
+        value: 0.362
+        source_row_id: "1613057"
+        nutrient_id: "1210"
+        data_points: 0
+        derivation_id: null
+      valine:
+        value: 1.539
+        source_row_id: "1613032"
+        nutrient_id: "1219"
+        data_points: 0
+        derivation_id: null
+    portion:
+      label: 0.5 breast, bone and skin removed
+      source_row_id: "88819"
+      source_grams: 86
+      multiplier: 1
+    limitations: >-
+      USDA database composition, including source-specific analytical or calculated values. No
+      amino-acid-specific digestibility correction; illustrative USDA household portion, not an
+      intake recommendation. Missing values are not treated as zero.
 ---
 ## Overview
 

@@ -1,0 +1,341 @@
+{
+  "baseline_commit": "9cf4da21927b851be6bd0865affb00b99fc99256",
+  "scope": "23 SEC test failures, existing PM1 SF7 presentation mapping and Netlify build configuration. No scientific reassessment.",
+  "resolutions": [
+    {
+      "failure": 1,
+      "test": "SEC changes no propositions, source assessments, admissions, missions, six atoms, food records, or other frontmatter",
+      "file": "scripts/brs4-pm4-pm5-sec.test.mjs",
+      "original_line": 8,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "Historical SEC-only preservation compared the initial PM4/PM5 pilot with later approved dietary recovery.",
+      "repair": "Pin preservation to the completed BRS4 pilot a850e101; retain current exact-proposition registry resolution checks.",
+      "result": "Pass"
+    },
+    {
+      "failure": 2,
+      "test": "only SEC pointers change in canonical data; missions, source assessments and dietary content remain identical",
+      "file": "scripts/brs4-sec-followup.test.mjs",
+      "original_line": 8,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "Historical follow-up preservation froze all current dietary content at the old pilot.",
+      "repair": "Pin follow-up preservation to a850e101; keep current 11-Finding and version-2 checks.",
+      "result": "Pass"
+    },
+    {
+      "failure": 3,
+      "test": "Netlify pins a reviewed history baseline and retains the validated heap limit",
+      "file": "scripts/netlify-sec-baseline.test.mjs",
+      "original_line": 15,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "Expected the whole registry to remain at 84 rather than allowing immutable appended assessments.",
+      "repair": "Assert all 84 baseline records are preserved exactly inside the current 98, and test removal/overwrite of an original record.",
+      "result": "Pass"
+    },
+    {
+      "failure": 4,
+      "test": "the unchanged production guard still rejects an absent baseline and accepts the configured one",
+      "file": "scripts/netlify-sec-baseline.test.mjs",
+      "original_line": 31,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "Guard success text still required 84 snapshots.",
+      "repair": "Check the actual validated registry count, currently 98; preserve missing-baseline rejection.",
+      "result": "Pass"
+    },
+    {
+      "failure": 5,
+      "test": "actual compiled PM1 renders matching mechanism titles and reciprocal evidence links for active Findings and preserves Principle provenance",
+      "file": "scripts/scientific-finding-presentation.test.mjs",
+      "original_line": 80,
+      "classification": "B \u2014 genuine presentation regression",
+      "root_cause": "PM1 F7 was added by approved recovery without its Section 4 mechanism anchor or reciprocal explanation link.",
+      "repair": "Add the existing bounded oral-tyrosine proposition, reference 23 and reciprocal F7 links. Preserve all frontmatter and generated Finding nodes; expect six active Findings.",
+      "result": "Pass"
+    },
+    {
+      "failure": 6,
+      "test": "all scientific objects, admissions and pinned history remain unchanged except approved SF3 descriptive title",
+      "file": "scripts/scientific-principles-pm1.test.mjs",
+      "original_line": 5,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "A historical all-PM title/principle pilot preservation test compared later approved admissions against the pre-pilot state.",
+      "repair": "Compare the completed pilot checkpoint 6c6f648c to its archived before records; continue validating current PM1 classification and SEC pointers.",
+      "result": "Pass"
+    },
+    {
+      "failure": 7,
+      "test": "real audit renderer shows narrow principles, source links and retained history, without active confidence fields",
+      "file": "scripts/scientific-principles-pm1.test.mjs",
+      "original_line": 7,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "The audit-component test loader lacked newly shared Finding and disclosure imports.",
+      "repair": "Provide explicit UI-only test dependencies; retain checks for provenance, active-versus-retired assessment selection and historical F4 links.",
+      "result": "Pass"
+    },
+    {
+      "failure": 8,
+      "test": "real PM1 MDX compiles with five active Findings, excluding Principle and historical records",
+      "file": "scripts/scientific-principles-pm1.test.mjs",
+      "original_line": 10,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "PM1 test expected five active Findings before approved F7 recovery.",
+      "repair": "Expect six active Findings; keep contextual, historical, retired and Principle exclusions tested.",
+      "result": "Pass"
+    },
+    {
+      "failure": 9,
+      "test": "entire canonical body, Findings, lessons, references and numbered sections survive",
+      "file": "scripts/sec-calibration-preview.test.mjs",
+      "original_line": 29,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "Historical GABA preview was compared to the current canonical PM and did not account for its explicit curated-reference insert.",
+      "repair": "Compare to the documented e360e38b original pilot, remove only the single preview-only reference component for body equality, and preserve Finding counts, lessons and references.",
+      "result": "Pass"
+    },
+    {
+      "failure": 10,
+      "test": "ontology sees only loaded documents and no preview scientific metadata",
+      "file": "scripts/sec-calibration-preview.test.mjs",
+      "original_line": 44,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "Ontology plugin test omitted required Docusaurus siteDir context.",
+      "repair": "Supply real repository context; keep preview exclusion and no-scientific-metadata assertions.",
+      "result": "Pass"
+    },
+    {
+      "failure": 11,
+      "test": "versioned audit preserves exact proposition, unresolved factors and source identities",
+      "file": "scripts/sec-evidence-audit.test.mjs",
+      "original_line": 30,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "Expected later assessed GABA proposition to be hardcoded into the deliberately historical illustrative preview.",
+      "repair": "Assert the exact proposition through the actual EvidenceAudit renderer; retain formal unknown factors and source identities.",
+      "result": "Pass"
+    },
+    {
+      "failure": 12,
+      "test": "SF1 conditional reassessment preserves withdrawal history and formal unknowns",
+      "file": "scripts/sec-evidence-audit.test.mjs",
+      "original_line": 54,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "Expected conditional score implementation inside the earlier illustrative preview.",
+      "repair": "Render the actual audit and assert 4/8 and Conditional estimate; verify the historical preview does not assign the audit score.",
+      "result": "Pass"
+    },
+    {
+      "failure": 13,
+      "test": "three status surfaces and original correction panel remain separate",
+      "file": "scripts/sec-evidence-audit.test.mjs",
+      "original_line": 77,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "Expected actual assessment links inside the older illustrative preview.",
+      "repair": "Verify real audit record anchors and keep synthetic score use confined to the labelled illustrative preview.",
+      "result": "Pass"
+    },
+    {
+      "failure": 14,
+      "test": "SF2 recovery retains species, access and independence limitations",
+      "file": "scripts/sec-evidence-audit.test.mjs",
+      "original_line": 113,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "Expected SF2 appraisal code in the earlier layout preview and sliced a removed type marker.",
+      "repair": "Render real SF2 audit with 5/8, exact proposition and stable ID; bound the Compact function correctly and preserve its no-score rule.",
+      "result": "Pass"
+    },
+    {
+      "failure": 15,
+      "test": "reader-facing fixtures distinguish all four states without registering Findings",
+      "file": "scripts/sec-evidence-audit.test.mjs",
+      "original_line": 187,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "Brittle summary expression omitted the approved PM-specific incompleteReason override.",
+      "repair": "Verify all four actual rendered status states and incomplete fallback while preserving unknown-versus-zero checks.",
+      "result": "Pass"
+    },
+    {
+      "failure": 16,
+      "test": "SF and audit use the same short assessment labels without changing stored status",
+      "file": "scripts/sec-evidence-audit.test.mjs",
+      "original_line": 260,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "Short-label assertions targeted the historical layout component rather than current audit.",
+      "repair": "Render both actual conditional audits and assert their statuses and values; preserve long stored status strings.",
+      "result": "Pass"
+    },
+    {
+      "failure": 17,
+      "test": "GABA calibration, archived pilot sources and bibliography remain byte-identical to baseline",
+      "file": "scripts/sec-glycaemic-preview.test.mjs",
+      "original_line": 116,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "Compared archived pilot PM source to current HEAD canonical PM.",
+      "repair": "Compare the immutable archived file to its committed archive identity; keep bibliography and other preservation checks.",
+      "result": "Pass"
+    },
+    {
+      "failure": 18,
+      "test": "actual existing disclosure helper resolves six atoms and PM-local references for every proposed lever",
+      "file": "scripts/sec-glycaemic-stage2.test.mjs",
+      "original_line": 47,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "Transpiled TypeScript helper test tried CommonJS require on new ESM dependencies.",
+      "repair": "Inject actual ESM principle, confidence and Finding-presentation modules into the existing browser-helper test.",
+      "result": "Pass"
+    },
+    {
+      "failure": 19,
+      "test": "archived pilot PMs, GABA, audit, methodology and governing contracts remain byte-identical",
+      "file": "scripts/sec-glycaemic-stage2.test.mjs",
+      "original_line": 151,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "Stage 2 historical pilot preservation compared archived sources to current canonical content.",
+      "repair": "Resolve the correct immutable archive paths for source preservation.",
+      "result": "Pass"
+    },
+    {
+      "failure": 20,
+      "test": "complete isolated copy preserves canonical records, all numbered sections and dietary relationships",
+      "file": "scripts/sec-same-preview.test.mjs",
+      "original_line": 25,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "SAMe historical source preservation compared against its later canonical revision; bibliography exceeded default child-process output buffer.",
+      "repair": "Use the immutable archive identity and a bounded 20 MB buffer for the known bibliography.",
+      "result": "Pass"
+    },
+    {
+      "failure": 21,
+      "test": "actual React preview renders provenance, proposed score, limitations and unique canonical source links",
+      "file": "scripts/sec-same-preview.test.mjs",
+      "original_line": 98,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "Real SAMe preview test lacked new shared ESM and useDoc dependencies.",
+      "repair": "Load actual principle/title helpers and explicit doc context; preserve score, provenance and source-link rendering assertions.",
+      "result": "Pass"
+    },
+    {
+      "failure": 22,
+      "test": "three complete drafts preserve missions, dietary decisions, KC identities and all source sections",
+      "file": "scripts/sec-v1-integration.test.mjs",
+      "original_line": 19,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "Frozen V1 review drafts were compared to later approved canonical dietary records.",
+      "repair": "Compare drafts to archived pre-integration records, preserving all six-atom and KC checks.",
+      "result": "Pass"
+    },
+    {
+      "failure": 23,
+      "test": "canonical science, earlier pilots, contracts, rubric, bibliography and dietary validators are untouched",
+      "file": "scripts/sec-v1-integration.test.mjs",
+      "original_line": 125,
+      "classification": "A \u2014 obsolete fixture or test harness",
+      "root_cause": "Original V1 preservation compared archived PMs with later canonical revisions.",
+      "repair": "Compare archived pilot files against committed archive paths; retain other unchanged-source assertions.",
+      "result": "Pass"
+    }
+  ],
+  "validation": {
+    "sec_suite": {
+      "before": {
+        "total": 104,
+        "pass": 81,
+        "fail": 23
+      },
+      "after": {
+        "total": 104,
+        "pass": 104,
+        "fail": 0
+      }
+    },
+    "focused_recovery_governance": {
+      "pass": 208,
+      "fail": 0
+    },
+    "additional_presentation_foodless_pm8_framework": {
+      "pass": 68,
+      "fail": 0
+    },
+    "build_configuration": {
+      "pass": 3,
+      "fail": 0
+    },
+    "foodless_preservation_and_netlify": {
+      "pass": 20,
+      "fail": 0
+    },
+    "findings": {
+      "pms": 64,
+      "issues": 0
+    },
+    "admissions": {
+      "pms": 64,
+      "issues": 0
+    },
+    "sec_snapshots": 98,
+    "strict_pm1_and_pm8_preservation": {
+      "pass": 16,
+      "fail": 0
+    }
+  },
+  "scientific_preservation": {
+    "unchanged_tracked_protected_files": 677,
+    "only_changed_protected_file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+    "pm1_frontmatter": "Deep equal to baseline; all scientific records, admissions, SEC pointers and Principles unchanged.",
+    "active_finding_count": "Six before and after; two obsolete tests expected five.",
+    "recovered_dietary_relationships": "All 34 unchanged.",
+    "sec_registry_sha256": "d0b297bbef6f3c0041663fa0cc481d9ada17a8d9b3691a8bcabedb4329220afe",
+    "pm1_body": "Only three exact approved SF7 insertions are allowed; the restoration guard reconstructs the original body byte-for-byte and rejects altered narrative, evidence nodes, admissions, SEC pointers and other sections."
+  },
+  "instructions": "No new schema, scientific classification or presentation policy introduced. Restores compliance with the existing Stage 2A/2B reciprocal mechanism/Finding mapping contract; instruction contract tests pass.",
+  "netlify": {
+    "original_failed_deploy": "6ae07c0524736bfcf0b5bb0e",
+    "latest_failed_deploy": "6ae07db55d88e89b71f0033a",
+    "retrieval": "Authenticated Netlify build-log UI, 27 October 2026.",
+    "first_causal_error": "Killed; build command exit code 137 while client compilation was still running.",
+    "classification": "External SIGKILL, consistent with memory/resource exhaustion. Kernel OOM telemetry was not available, so OOM is not independently proven.",
+    "excluded_causes": "Admission and SEC validation passed; generated-data checks reported zero errors; server compiled successfully; no compiler error or timeout appeared before the kill.",
+    "existing_limits_preserved": {
+      "NODE_OPTIONS": "--max-old-space-size=4096",
+      "TERSER_PARALLEL": "1",
+      "webpack_parallelism": 1,
+      "SEC_BASE_REF": "ebbc10ed11484192c972952d8c47645bd3c5bf4e"
+    },
+    "change": "Set DOCUSAURUS_NO_PERSISTENT_CACHE=1 in netlify.toml to match the previously successful local production configuration. Installed Docusaurus + Webpack integration test verifies cache is disabled, client minification remains enabled and Terser parallelism stays 1.",
+    "production_build": {
+      "exit_code": 0,
+      "heap_mib": 4096,
+      "terser_parallel": 1,
+      "persistent_cache": false,
+      "result": "Pass",
+      "warnings": "Existing tag and anchor warnings retained; no validation or minification disabled."
+    },
+    "new_preview": "Awaiting pushed repair commit."
+  },
+  "cursor_comparison": {
+    "branch": "butyrate-dietary-origin",
+    "commit": "befc4d6c62b3b146bd07ba1b61b7cbf5132e94c8",
+    "includes_previous_commit": "7c5df7f3097f5eb25b57528eb80de753f7cee255",
+    "relationship_to_pr227": "Separate work, not incorporated. Three added files absent from PR227; ten shared files differ. No cherry-pick or overwrite performed.",
+    "isolated_validation": {
+      "tests": 8,
+      "pass": 8,
+      "fail": 0,
+      "method": "git archive of exact commit; regenerate its BRS5 mapping with its own generator; run both new targeted suites."
+    },
+    "integration_note": "Reconcile this branch separately before a combined release; shared renderers and older PM1 base overlap newer approved work."
+  },
+  "browser_validation": {
+    "url": "http://127.0.0.1:3128/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation",
+    "method": "Actual in-app browser interaction after successful production build and refresh.",
+    "passed": [
+      "Six active Scientific Findings",
+      "SF7 disclosure opens",
+      "Summary-to-SF7 mechanism keyboard link opens the mechanism disclosure",
+      "Reciprocal mechanism-to-SF7 keyboard link opens the Finding",
+      "Evidence & Audit tab opens",
+      "Scientific Principles remain visible",
+      "Historical PM1-F4 disclosure opens and retains its identity/history",
+      "Back to PM returns to main content"
+    ],
+    "notes": "Initial pointer navigation in the in-app browser did not change the hash; keyboard activation verified the actual links and disclosure targets. No shared navigation change made."
+  }
+}

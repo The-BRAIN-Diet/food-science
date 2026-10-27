@@ -1897,3 +1897,55 @@ L-Carnitine:
   label: L-Carnitine
   permalink: /l-carnitine
   description: Carnitine stereoisomer participating in mitochondrial fatty-acyl transport
+
+Flavin adenine dinucleotide:
+  label: Flavin adenine dinucleotide (FAD)
+  permalink: /flavin-adenine-dinucleotide
+  description: Riboflavin-derived flavin cofactor; food precursor supply is distinct from direct FAD content.
+
+Nicotinamide riboside:
+  label: Nicotinamide riboside
+  permalink: /nicotinamide-riboside
+  description: A defined dietary NAD precursor; natural occurrence is distinct from supplemental efficacy.
+
+Nicotinamide mononucleotide:
+  label: Nicotinamide mononucleotide
+  permalink: /nicotinamide-mononucleotide
+  description: Oxidised beta-NMN intermediate in NAD salvage; not an independently admitted dietary input.
+
+NAD plus:
+  label: NAD+ (oxidised nicotinamide adenine dinucleotide)
+  permalink: /nad-plus
+  description: Oxidised NAD cofactor target; compartment-specific delivery is distinct from blood precursor responses.
+
+Indispensable amino acids:
+  label: Indispensable amino acids
+  permalink: /indispensable-amino-acids
+  description: The defined nine-amino-acid dietary class, not a requirement for complete coverage at every meal.
+
+Octanoate:
+  label: Octanoate
+  permalink: /octanoate
+  description: Biochemical conversion identity; not an independent dietary admission.
+
+Acetyl-CoA:
+  label: Acetyl-CoA
+  permalink: /acetyl-coa
+  description: Biochemical conversion identity; not an independent dietary admission.
+
+Acetoacetate:
+  label: Acetoacetate
+  permalink: /acetoacetate
+  description: Biochemical conversion identity; not an independent dietary admission.
+
+Guanidinoacetate:
+  label: Guanidinoacetate
+  permalink: /guanidinoacetate
+  description: >-
+    Endogenous intermediate of creatine synthesis, not an independent dietary
+    admission.
+
+S-adenosylmethionine:
+  label: S-adenosylmethionine
+  permalink: /s-adenosylmethionine
+  description: Intracellular methyl donor; no independent dietary admission.

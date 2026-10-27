@@ -8,11 +8,9 @@
       "status": "unresolved-identity"
     },
     {
-      "kind": "substance-identity",
-      "pm_id": "BRS4-FM1-PM3",
-      "id": "PM3-DIT-4",
-      "input": "Methionine-derived S-adenosylmethionine (SAM)",
-      "status": "unresolved-identity"
+      "kind": "unpresented-admitted-atom",
+      "pm_id": "BRS4-FM1-PM2",
+      "id": "PM2-DIT-RECOVERY-NAD-PLUS"
     },
     {
       "kind": "dietary-input-unset",
@@ -90,13 +88,6 @@
     {
       "kind": "substance-identity",
       "pm_id": "BRS4-FM3-PM7",
-      "id": "PM7-DEFERRED-BIO-1",
-      "input": "Acetoacetate",
-      "status": "unresolved-identity"
-    },
-    {
-      "kind": "substance-identity",
-      "pm_id": "BRS4-FM3-PM7",
       "id": "PM7-DEFERRED-BIO-2",
       "input": "Beta-hydroxybutyrate",
       "status": "unresolved-identity"
@@ -126,12 +117,6 @@
     },
     {
       "kind": "mapping-gap",
-      "relationship_id": "BRS4-FM1-PM1::PM1-DIT-2",
-      "input": "Flavin mononucleotide (FMN)",
-      "reason": "No supported canonical food-source record found."
-    },
-    {
-      "kind": "mapping-gap",
       "relationship_id": "BRS4-FM1-PM2::PM2-DIT-1",
       "input": "Nicotinamide (a form of vitamin B3)",
       "reason": "No supported canonical food-source record found."
@@ -144,12 +129,26 @@
     },
     {
       "kind": "mapping-gap",
+      "relationship_id": "BRS4-FM1-PM3::PM3-DIT-3",
+      "input": "Glycine",
+      "reason": "No supported canonical food-source record found."
+    },
+    {
+      "kind": "mapping-gap",
       "relationship_id": "BRS4-FM3-PM6::PM6-DIT-CARNITINE-1",
       "input": "L-Carnitine",
       "reason": "No supported canonical food-source record found."
     }
   ],
-  "conflicts": [],
+  "conflicts": [
+    {
+      "kind": "stale-missing-substance-status",
+      "pm_id": "BRS4-FM3-PM7",
+      "atom_id": "PM7-DEFERRED-BIO-1",
+      "input": "Acetoacetate",
+      "resolved_id": "acetoacetate"
+    }
+  ],
   "pm_coverage": [
     {
       "pm_id": "BRS4-FM1-PM1",
@@ -160,14 +159,14 @@
     {
       "pm_id": "BRS4-FM1-PM2",
       "record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx",
-      "accepted_relationships": 3,
-      "structured_atoms": 3
+      "accepted_relationships": 5,
+      "structured_atoms": 5
     },
     {
       "pm_id": "BRS4-FM1-PM3",
       "record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx",
-      "accepted_relationships": 4,
-      "structured_atoms": 4
+      "accepted_relationships": 5,
+      "structured_atoms": 5
     },
     {
       "pm_id": "BRS4-FM2-PM4",
@@ -190,8 +189,8 @@
     {
       "pm_id": "BRS4-FM3-PM7",
       "record": "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx",
-      "accepted_relationships": 2,
-      "structured_atoms": 2
+      "accepted_relationships": 3,
+      "structured_atoms": 3
     },
     {
       "pm_id": "BRS4-FM3-PM8",

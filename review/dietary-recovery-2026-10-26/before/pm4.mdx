@@ -1,0 +1,636 @@
+---
+title: ROS Generation vs Clearance Balance
+pm_id: BRS3-FM2-PM4
+mission: Balance reactive oxygen species production and clearance so net oxidative pressure stays within tolerable limits.
+parent_fm: BRS3(FM2)
+parent_brs: BRS3
+summary: 'Cells generate reactive oxygen species (ROS) during ordinary immune and metabolic activity, and enzymatic clearance uses selenium, zinc, copper, and manganese. Net oxidative pressure is the balance of generation and clearance, not the level of one marker. When generation outruns clearance, oxidative damage accumulates across membranes, proteins, and mitochondria. High-heat cooking can add advanced glycation end products that raise this pressure.'
+cofactors:
+  - Zinc
+  - Manganese
+  - Glutathione
+intervention_dominance: Diet-Dominant
+intervention_breakdown: Food-State Dominant
+timing_specific: 'No'
+dose_sensitivity: Not established. Selenium and copper restore clearance-enzyme activity when status is low. Extra intake when status is adequate is not shown.
+dietary_addressability: not-established
+claim_ceiling: biological-dependency
+mechanistic_authoring_required: false
+evidence_status: stage-2b-dietary-addressability
+dietary_input_traceability:
+  - atom_id: PM4-DIT-1
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
+    input: Selenium
+    input_type: cofactor
+    biological_role: 'Selenocysteine source for glutathione peroxidase, which clears hydroperoxides'
+    evidence_source:
+      finding_ids:
+        - PM4-F3
+      citation_keys:
+        - xia_selenoprotein_2010
+        - weydert_measurement_2010
+    evidence_limitation: 'In selenium-deficient adults, plasma glutathione peroxidase activity levelled off once intake reached about 35 micrograms a day. Intake above that plateau did not raise the enzyme further, and the study did not measure net oxidative pressure.'
+  - atom_id: PM4-DIT-2
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
+    input: Zinc
+    input_type: cofactor
+    biological_role: Structural metal in cytosolic copper-zinc superoxide dismutase
+    evidence_source:
+      finding_ids:
+        - PM4-F1
+      citation_keys:
+        - weydert_measurement_2010
+    evidence_limitation: The enzyme contains zinc. No human study retrieved here shows that zinc intake sets superoxide dismutase activity or this balance.
+  - atom_id: PM4-DIT-3
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
+    input: Copper
+    input_type: cofactor
+    biological_role: 'Catalytic metal in copper-zinc superoxide dismutase, which converts superoxide to hydrogen peroxide'
+    evidence_source:
+      finding_ids:
+        - PM4-F4
+      citation_keys:
+        - uauy_superoxide_1985
+        - weydert_measurement_2010
+    evidence_limitation: Erythrocyte superoxide dismutase rose after copper repletion in infants with marginal copper status. That does not show that extra copper raises the enzyme when status is already adequate.
+  - atom_id: PM4-DIT-4
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
+    input: Manganese
+    input_type: cofactor
+    biological_role: Catalytic metal in mitochondrial manganese superoxide dismutase
+    evidence_source:
+      finding_ids:
+        - PM4-F1
+      citation_keys:
+        - weydert_measurement_2010
+    evidence_limitation: Mitochondrial superoxide dismutase contains manganese. No human dietary-deficiency study retrieved here shows that manganese intake sets that enzyme or this balance.
+  - atom_id: PM4-DIT-5
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
+    input: Glutathione
+    input_type: biochemical requirement
+    biological_role: Thiol reductant used by glutathione peroxidase when it clears hydroperoxides
+    evidence_source:
+      finding_ids:
+        - PM4-F2
+      citation_keys:
+        - weydert_measurement_2010
+    evidence_limitation: Glutathione is made in the body and used by the peroxidase. That is not evidence for eating glutathione.
+dietary_lever_atoms:
+  - atom_id: PM4-DIT-1
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: Selenium is a Direct requirement for glutathione peroxidase. Extra selenium does not raise that enzyme once activity has levelled off.
+    evidence_limitation: 'In selenium-deficient adults, plasma glutathione peroxidase activity levelled off once intake reached about 35 micrograms a day. Intake above that plateau did not raise the enzyme further, and the study did not measure net oxidative pressure.'
+  - atom_id: PM4-DIT-2
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: Zinc is part of copper-zinc superoxide dismutase. It is not a dietary zinc route for this balance.
+    evidence_limitation: The enzyme contains zinc. No human study retrieved here shows that zinc intake sets superoxide dismutase activity or this balance.
+  - atom_id: PM4-DIT-3
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: Copper is a Direct requirement for copper-zinc superoxide dismutase when copper status is low. Extra copper when status is adequate is not shown.
+    evidence_limitation: Erythrocyte superoxide dismutase rose after copper repletion in infants with marginal copper status. That does not show that extra copper raises the enzyme when status is already adequate.
+  - atom_id: PM4-DIT-4
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: Manganese is part of mitochondrial superoxide dismutase. It is not a dietary manganese route for this balance.
+    evidence_limitation: Mitochondrial superoxide dismutase contains manganese. No human dietary-deficiency study retrieved here shows that manganese intake sets that enzyme or this balance.
+  - atom_id: PM4-DIT-5
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: Glutathione is the thiol used in peroxidase clearance. It is not a dietary-glutathione recommendation.
+    evidence_limitation: Glutathione is made in the body and used by the peroxidase. That is not evidence for eating glutathione.
+dietary_lever_presentations:
+  - atom_id: PM4-DIT-1
+    label: Selenium
+    presentation_section: 3.1.1
+  - atom_id: PM4-DIT-3
+    label: Copper
+    presentation_section: 3.1.1
+  - atom_id: PM4-DIT-2
+    label: Zinc
+    presentation_section: 3.1.2
+  - atom_id: PM4-DIT-4
+    label: Manganese
+    presentation_section: 3.1.2
+  - atom_id: PM4-DIT-5
+    label: Glutathione
+    presentation_section: 3.1.2
+kc_applicability_adjudications:
+  - kc_id: BRS3(KC1)
+    ikc_id: BRS3(KC1)
+    arm_id: glutathione-precursor-sufficiency
+    applicability_proposition: Cysteine and glycine availability for glutathione synthesis constrains reactive-oxygen generation versus clearance on this page.
+    disposition: unresolved
+    established_links: []
+    inferred_links:
+      - 'Glutathione peroxidase uses glutathione, and glutathione is made from cysteine and glycine, but that chain does not show that the precursor pool limits this balance.'
+    evidence_source:
+      citation_keys:
+        - weydert_measurement_2010
+        - sekhar_glutathione_2011
+    rationale: 'The KC page has one iKC, BRS3(KC1), glutathione precursor sufficiency. The historical title Antioxidant Substrate Sufficiency is not that iKC. Peroxidase use of glutathione, plus the need for cysteine and glycine to make glutathione, does not show that inadequacy of that precursor pool constrains generation versus clearance. The mapping stays unresolved, so it is not published.'
+kc_change_control_flags:
+  - flag_id: KC-CC-BRS3-FM2-PM4-01
+    flag_type: ikc-scope-conflict
+    kc_id: BRS3(KC1)
+    ikc_id: BRS3(KC1)
+    proposition: 'The public entry named the historical KC title Antioxidant Substrate Sufficiency and listed glutathione under it. The only iKC on that page is glutathione precursor sufficiency. That iKC is not established for generation versus clearance, and glutathione on this page is a biochemical peroxidase thiol, not that precursor pool.'
+    evidence_source:
+      citation_keys:
+        - weydert_measurement_2010
+        - sekhar_glutathione_2011
+    status: pending-kc-review
+references:
+  - '[Bulut et al. (2007) — Malondialdehyde Levels in Adult Attention-deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007)'
+  - '[Kurhan and Alp (2021) — Dynamic Thiol/Disulfide Homeostasis in ADHD](/docs/papers/BRAIN-Diet-References#kurhan_dynamic_2021)'
+  - '[Miniksar et al. (2023) — Oxidative Stress in Children and Adolescents with ADHD](/docs/papers/BRAIN-Diet-References#miniksar_effect_2023)'
+  - '[Verlaet et al. (2019) — Oxidative Stress in ADHD](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)'
+  - '[Uribarri et al. (2010) — Advanced Glycation End Products and High-Heat Cooking](/docs/papers/BRAIN-Diet-References#uribarri_advanced_2010)'
+  - '[Jiang et al. (2021) — Western Diet and Oxidative Stress](/docs/papers/BRAIN-Diet-References#jiang_dietary_2021)'
+  - '[Dufault et al. (2024) — Metals, UPFs, and ADHD Context](/docs/papers/BRAIN-Diet-References#dufault_nutritional_2024)'
+  - '[Zhang et al. (2025) — Micro/nanoplastics and ADHD](/docs/papers/BRAIN-Diet-References#zhang_exploring_2025)'
+  - '[Zhai et al. (2015) — Metallothioneins and Dietary Metals](/docs/papers/BRAIN-Diet-References#zhai_dietary_2015)'
+  - '[Berglund et al. (1994) — Fibre-Mediated Cadmium Absorption Reduction](/docs/papers/BRAIN-Diet-References#berglund_intestinal_1994)'
+  - '[Packer et al. (1997) — Vitamin E and the Metabolic Antioxidant Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)'
+  - '[Vertuani et al. (2004) — Antioxidant Synergy](/docs/papers/BRAIN-Diet-References#vertuani_antioxidants_2004)'
+  - '[Mocchegiani and Malavolta (2019) — Antioxidant Mineral Cofactors](/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019)'
+  - '[Boots et al. (2008) — Quercetin Antioxidant Activity](/docs/papers/BRAIN-Diet-References#boots_health_2008)'
+  - '[Johnson (2014) — Carotenoids and Neural Antioxidant Support](/docs/papers/BRAIN-Diet-References#johnson_role_2014)'
+  - '[Houghton et al. (2016) — Sulforaphane and Nrf2](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)'
+  - '[Klein et al. (2011) — Vitamin E and Prostate Cancer](/docs/papers/BRAIN-Diet-References#klein_vitamin_2011)'
+  - '[Dvořáková et al. (2006) — Glutathione and TAS in Pediatric ADHD with Pycnogenol](/docs/papers/BRAIN-Diet-References#dvorakova_glutathione_pycnogenol_adhd_2006)'
+  - '[Chovanová et al. (2006) — 8-Oxoguanine and TAS in Pediatric ADHD with Pycnogenol](/docs/papers/BRAIN-Diet-References#chovanova_8oxoguanine_pycnogenol_adhd_2006)'
+  - '[Trebatická et al. (2006) — Pycnogenol for Pediatric ADHD Symptoms](/docs/papers/BRAIN-Diet-References#trebaticka_pycnogenol_adhd_2006)'
+  - '[Weydert and Cullen (2010) — Superoxide dismutase, catalase and glutathione peroxidase](/docs/papers/BRAIN-Diet-References#weydert_measurement_2010)'
+  - '[Xia et al. (2010) — Selenium requirement and glutathione peroxidase](/docs/papers/BRAIN-Diet-References#xia_selenoprotein_2010)'
+  - '[Uauy et al. (1985) — Copper nutrition and red-cell superoxide dismutase](/docs/papers/BRAIN-Diet-References#uauy_superoxide_1985)'
+hide_title: true
+phenome_relationships:
+  - target_phenome: Focus / Attention Stability
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: mechanistic
+    rationale: Elevated oxidative stress indices and lipid-peroxidation markers in adult and paediatric ADHD cohorts may modulate attention-relevant redox burden when generation exceeds clearance.
+    references:
+      - index: 1
+        label: Bulut et al. (2007)
+        citation_key: bulut_malondialdehyde_2007
+        href: /docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007
+        data_level: Human Mechanistic
+      - index: 2
+        label: Miniksar et al. (2023)
+        citation_key: miniksar_effect_2023
+        href: /docs/papers/BRAIN-Diet-References#miniksar_effect_2023
+        data_level: Human Mechanistic
+    evidence_confidence: low-medium
+  - target_phenome: Cognitive Clarity
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: mechanistic
+    rationale: Thiol/disulfide shifts and DNA oxidation markers in ADHD adults support state-sensitive redox interpretation relevant to cognitive clarity without diagnostic claims.
+    references:
+      - index: 1
+        label: Kurhan & Alp (2021)
+        citation_key: kurhan_dynamic_2021
+        href: /docs/papers/BRAIN-Diet-References#kurhan_dynamic_2021
+        data_level: Human Mechanistic
+      - index: 2
+        label: Verlaet et al. (2019)
+        citation_key: verlaet_oxidative_2019
+        href: /docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019
+        data_level: Human Mechanistic
+    evidence_confidence: low-medium
+  - target_phenome: Emotional Regulation
+    relationship_type: modulates
+    confidence: low
+    evidence_level: mechanistic
+    rationale: Oxidative stress intersects neuroinflammatory cascades relevant to affective dysregulation framing; net redox balance is the mechanism boundary for this PM.
+    references:
+      - index: 1
+        label: Verlaet et al. (2019)
+        citation_key: verlaet_oxidative_2019
+        href: /docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019
+        data_level: Human Mechanistic
+    evidence_confidence: low-medium
+scientific_findings_intro: 'Net oxidative pressure is the balance of reactive-oxygen generation and enzymatic clearance. Superoxide dismutase, catalase and glutathione peroxidase do that clearance. Selenium and copper are the dietary provision routes. Zinc, manganese and glutathione stay with the enzymes and are not separate dietary targets. Extra intake when status is adequate is not established.'
+scientific_findings:
+  - id: PM4-F1
+    finding_label: Three enzymes clear superoxide and hydrogen peroxide
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: Superoxide dismutase converts superoxide to hydrogen peroxide. Catalase and glutathione peroxidase convert hydrogen peroxide to water. Copper-zinc superoxide dismutase holds copper and zinc. Mitochondrial superoxide dismutase holds manganese. Glutathione peroxidase is a selenoprotein and uses glutathione.
+    finding_interpretation: 'Enzyme metals and the peroxidase thiol are biochemical participants. They are not, by themselves, proof that eating more of them changes the balance.'
+    finding_statement: 'Mammalian cells clear superoxide and hydrogen peroxide with superoxide dismutase, catalase and glutathione peroxidase. Copper, zinc, manganese, selenium and glutathione belong to those enzymes. That membership is not an intake result.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Weydert and Cullen describe the three primary antioxidant enzymes, the copper-zinc and manganese superoxide dismutases, catalase, and glutathione peroxidase as a selenoprotein that requires glutathione. That places the metals and glutathione in the clearance reactions. It does not test dietary intake.'
+    synthesis_limitations: A methods review states the enzyme chemistry. It does not show that raising intake of these participants changes net oxidative pressure.
+    evidence_considered:
+      - label: Weydert and Cullen (2010)
+        citation_key: weydert_measurement_2010
+        href: /docs/papers/BRAIN-Diet-References#weydert_measurement_2010
+        data_level: Mechanistic
+        exposure_context: isolated-substance
+        evidence_source: bounded-external-search
+        directional_finding: 'Superoxide dismutase, catalase and glutathione peroxidase are the three primary clearance enzymes. Copper-zinc and manganese forms of superoxide dismutase are named, and glutathione peroxidase requires glutathione and is a selenoprotein.'
+  - id: PM4-F2
+    finding_label: Glutathione is the thiol used in peroxidase clearance
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: Glutathione is the thiol used when glutathione peroxidase clears peroxides. It is made in the body. It is not a dietary glutathione target.
+    finding_interpretation: The enzyme uses glutathione that the cell has already made. That does not show that oral glutathione sets clearance rate.
+    finding_statement: Glutathione participates in peroxidase clearance of peroxides. That role is biochemical. It is not evidence for eating glutathione.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: Weydert and Cullen state that glutathione peroxidase requires reduced glutathione to remove hydrogen peroxide. Glutathione on this page stays a biochemical participant.
+    synthesis_limitations: The source describes the enzyme requirement. It does not test dietary glutathione.
+    evidence_dependency:
+      - Weydert and Cullen (2010) is reused from PM4-F1 to describe the glutathione requirement of peroxidase; it is not independent replication or dietary-response evidence.
+    evidence_considered:
+      - label: Weydert and Cullen (2010)
+        citation_key: weydert_measurement_2010
+        href: /docs/papers/BRAIN-Diet-References#weydert_measurement_2010
+        data_level: Mechanistic
+        exposure_context: isolated-substance
+        evidence_source: bounded-external-search
+        directional_finding: Glutathione peroxidase requires reduced glutathione. The paper does not test eating glutathione.
+  - id: PM4-F3
+    finding_label: Selenium intake restores glutathione peroxidase up to a plateau
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: 'In adults eating very little selenium, plasma glutathione peroxidase activity rose with selenomethionine and levelled off at a total intake of about 35 micrograms a day. More selenium did not raise that enzyme further.'
+    finding_interpretation: Selenium is required for glutathione peroxidase when status is low. Extra selenium after the enzyme has levelled off is not shown to improve this balance.
+    finding_statement: Dietary selenium restores plasma glutathione peroxidase activity in selenium-deficient adults up to a plateau near 35 micrograms a day. Intake above that plateau did not raise the enzyme further.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Xia and colleagues studied healthy Chinese adults whose usual diet supplied about 14 micrograms of selenium a day. Plasma glutathione peroxidase activity was optimised by a total intake of about 35 micrograms a day. Selenoprotein P needed more, about 49 micrograms a day. The trial measured those biomarkers, not net oxidative pressure and not a clinical outcome.'
+    synthesis_limitations: The result is repletion of a low-selenium diet. It is not evidence that extra selenium helps when glutathione peroxidase is already fully expressed.
+    evidence_considered:
+      - label: Xia et al. (2010)
+        citation_key: xia_selenoprotein_2010
+        href: /docs/papers/BRAIN-Diet-References#xia_selenoprotein_2010
+        data_level: Human Study
+        exposure_context: isolated-substance
+        evidence_source: bounded-external-search
+        directional_finding: Plasma glutathione peroxidase activity in selenium-deficient adults levelled off at about 35 micrograms of selenium a day. Higher doses did not raise it further.
+  - id: PM4-F4
+    finding_label: Copper repletion raises red-cell superoxide dismutase when copper is low
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: 'In infants recovering from malnutrition with marginal copper intake, copper supplementation raised red-cell superoxide dismutase together with plasma copper.'
+    finding_interpretation: 'Copper is required for that enzyme when copper status is low. The study does not show a benefit from extra copper when status is already adequate, and it is not an adult balance trial.'
+    finding_statement: 'Copper repletion raised erythrocyte superoxide dismutase in infants with marginal copper status. Adding copper to the assay tube did not raise the enzyme, so the change tracked copper nutrition rather than copper in the test.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Uauy and colleagues studied 17 infants recovering from malnutrition. After copper supplementation, plasma copper, ceruloplasmin and red-cell superoxide dismutase rose, and the enzyme correlated with plasma copper. Copper added in the assay did not change the activity. The setting is infant malnutrition, not ordinary adult intake.'
+    synthesis_limitations: Marginal copper in infants is not evidence that more copper improves reactive-oxygen balance in people who are already replete.
+    evidence_considered:
+      - label: Uauy et al. (1985)
+        citation_key: uauy_superoxide_1985
+        href: /docs/papers/BRAIN-Diet-References#uauy_superoxide_1985
+        data_level: Human Study
+        exposure_context: isolated-substance
+        evidence_source: bounded-external-search
+        directional_finding: Red-cell superoxide dismutase rose after copper supplementation in infants with marginal copper status and correlated with plasma copper.
+sidebar_label: "BRS3-2-4 — ROS Generation vs Clearance Balance"
+---
+<p class="brs-pm-thumbnail-wrap">
+  <img
+    src="/img/biological-targets/brs3-portrait-thumbnail.png"
+    alt="BRS3 — Inflammation & Oxidative Stress"
+    class="brs-pm-thumbnail"
+  />
+</p>
+
+## BRS3-2-4 - ROS Generation vs Clearance Balance
+
+(Balancing Oxidative Stress Production and Removal)
+
+## 1. Mission & Overview + Dietary Levers
+
+### Mission
+
+Balance reactive oxygen species production and clearance so net oxidative pressure stays within tolerable limits.
+
+
+**Intervention Dominance:** Diet-Dominant
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Selenium
+- Copper
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Zinc
+- Manganese
+- Glutathione
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No mapping established.
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+### Overview
+
+Cells generate reactive oxygen species (ROS) during ordinary immune and metabolic activity, and enzymatic clearance uses selenium, zinc, copper, and manganese. [[21]](#pm-ref-21) Net oxidative pressure is the balance of generation and clearance, not the level of one marker. [[21]](#pm-ref-21) When generation outruns clearance, oxidative damage accumulates across membranes, proteins, and mitochondria. [[21]](#pm-ref-21) High-heat cooking can add advanced glycation end products that raise this pressure. [[5]](#pm-ref-5)
+
+- **Benefits:** Balancing production against clearance helps keep net oxidative pressure within what cells can tolerate. [[21]](#pm-ref-21) When production outruns clearance, the excess reaches membranes, proteins, and mitochondria. [[21]](#pm-ref-21)
+- **Implementation Notes:** Selenium and copper are the provision routes. [[22]](#pm-ref-22) [[23]](#pm-ref-23) Glutathione is the thiol used in peroxidase clearance, not a dietary target. [[21]](#pm-ref-21) Extra intake when status is already adequate is not established. [[22]](#pm-ref-22)
+- **Biological Relevance:** [Membrane lipid damage](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) is a later result of that pressure, not this balance. [[11]](#pm-ref-11)
+
+## 2. Primary Biological Effects
+↓ net oxidative burden; ↑ redox stability
+
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<p class="brs-hub-sop-category-desc">Only categories with a substantive evidence-qualified intervention are shown. Food-page preparation lines are not projected; they are not Stage 2A Finding objects on this PM.</p>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No evidence-qualified lifestyle relationship is projected. Timing, stress and activity lines are not Stage 2A Finding objects on this PM.
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+Net oxidative pressure is whether superoxide dismutase, catalase and glutathione peroxidase keep up with reactive oxygen made in ordinary metabolism. [[21]](#pm-ref-21) Selenium and copper are the intake routes that restore glutathione peroxidase and copper-zinc superoxide dismutase when status is low. [[22]](#pm-ref-22) [[23]](#pm-ref-23) Zinc, manganese and glutathione belong to those enzymes and are not separate dietary targets. [[21]](#pm-ref-21)
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>ROS generation, clearance capacity, and net redox pressure</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (Generation and clearance)
+
+Cells make superoxide and hydrogen peroxide during ordinary aerobic metabolism. Superoxide dismutase converts superoxide to hydrogen peroxide. Catalase and glutathione peroxidase convert hydrogen peroxide to water. [[21]](#pm-ref-21) Copper-zinc superoxide dismutase is cytosolic. Manganese superoxide dismutase is mitochondrial. Glutathione peroxidase is a selenoprotein and uses glutathione. [[21]](#pm-ref-21)
+
+#### (What intake has been shown to change)
+
+In adults whose diet supplied about 14 micrograms of selenium a day, plasma glutathione peroxidase activity levelled off at a total intake of about 35 micrograms a day. More selenium did not raise that enzyme further. [[22]](#pm-ref-22) In infants recovering from malnutrition with marginal copper, copper supplementation raised red-cell superoxide dismutase. [[23]](#pm-ref-23) Neither result is a reason to add more when status is already adequate.
+
+#### (Boundaries of the mechanism)
+
+Catalase uses haem iron. No human study retrieved for this page shows that iron intake sets catalase activity, so iron is not a dietary requirement here. Mitochondrial production of reactive oxygen is [BRS4-FM2-PM4 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control). Transcriptional induction of the enzymes is [BRS3-FM2-PM3 — Nrf2-Mediated Cellular Defence Regulation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation). Membrane lipid damage is [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control). Recycling among network antioxidants is [BRS3-FM2-PM6 — Antioxidant Network Recycling](/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling).
+
+#### (Integration within BRS3)
+
+This page is the generation-versus-clearance balance inside [BRS3(FM2)](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity). A shared precursor-pool constraint is not established for this balance.
+
+</div>
+</div>
+</div>
+
+### 4.1 Scientific Findings
+
+#### Summary
+
+Net oxidative pressure is the balance of reactive-oxygen generation and enzymatic clearance. Superoxide dismutase, catalase and glutathione peroxidase do that clearance. Selenium and copper are the dietary provision routes. Zinc, manganese and glutathione stay with the enzymes and are not separate dietary targets. Extra intake when status is adequate is not established.
+
+<ScientificFinding finding={{"id":"PM4-F1","finding_label":"Three enzymes clear superoxide and hydrogen peroxide","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Superoxide dismutase converts superoxide to hydrogen peroxide. Catalase and glutathione peroxidase convert hydrogen peroxide to water. Copper-zinc superoxide dismutase holds copper and zinc. Mitochondrial superoxide dismutase holds manganese. Glutathione peroxidase is a selenoprotein and uses glutathione.","finding_interpretation":"Enzyme metals and the peroxidase thiol are biochemical participants. They are not, by themselves, proof that eating more of them changes the balance.","finding_statement":"Mammalian cells clear superoxide and hydrogen peroxide with superoxide dismutase, catalase and glutathione peroxidase. Copper, zinc, manganese, selenium and glutathione belong to those enzymes. That membership is not an intake result.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Weydert and Cullen describe the three primary antioxidant enzymes, the copper-zinc and manganese superoxide dismutases, catalase, and glutathione peroxidase as a selenoprotein that requires glutathione. That places the metals and glutathione in the clearance reactions. It does not test dietary intake.","synthesis_limitations":"A methods review states the enzyme chemistry. It does not show that raising intake of these participants changes net oxidative pressure.","evidence_considered":[{"label":"Weydert and Cullen (2010)","citation_key":"weydert_measurement_2010","href":"/docs/papers/BRAIN-Diet-References#weydert_measurement_2010","data_level":"Mechanistic","exposure_context":"isolated-substance","evidence_source":"bounded-external-search","directional_finding":"Superoxide dismutase, catalase and glutathione peroxidase are the three primary clearance enzymes. Copper-zinc and manganese forms of superoxide dismutase are named, and glutathione peroxidase requires glutathione and is a selenoprotein.","canonical_reference":{"author_year":"Weydert and Cullen (2010)","number":21,"anchor":"#pm-ref-21"}}],"connected_supportive_evidence":[]}} />
+
+<ScientificFinding finding={{"id":"PM4-F2","finding_label":"Glutathione is the thiol used in peroxidase clearance","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Glutathione is the thiol used when glutathione peroxidase clears peroxides. It is made in the body. It is not a dietary glutathione target.","finding_interpretation":"The enzyme uses glutathione that the cell has already made. That does not show that oral glutathione sets clearance rate.","finding_statement":"Glutathione participates in peroxidase clearance of peroxides. That role is biochemical. It is not evidence for eating glutathione.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Weydert and Cullen state that glutathione peroxidase requires reduced glutathione to remove hydrogen peroxide. Glutathione on this page stays a biochemical participant.","synthesis_limitations":"The source describes the enzyme requirement. It does not test dietary glutathione.","evidence_dependency":["Weydert and Cullen (2010) is reused from PM4-F1 to describe the glutathione requirement of peroxidase; it is not independent replication or dietary-response evidence."],"evidence_considered":[{"label":"Weydert and Cullen (2010)","citation_key":"weydert_measurement_2010","href":"/docs/papers/BRAIN-Diet-References#weydert_measurement_2010","data_level":"Mechanistic","exposure_context":"isolated-substance","evidence_source":"bounded-external-search","directional_finding":"Glutathione peroxidase requires reduced glutathione. The paper does not test eating glutathione.","canonical_reference":{"author_year":"Weydert and Cullen (2010)","number":21,"anchor":"#pm-ref-21"}}],"connected_supportive_evidence":[]}} />
+
+<ScientificFinding finding={{"id":"PM4-F3","finding_label":"Selenium intake restores glutathione peroxidase up to a plateau","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"In adults eating very little selenium, plasma glutathione peroxidase activity rose with selenomethionine and levelled off at a total intake of about 35 micrograms a day. More selenium did not raise that enzyme further.","finding_interpretation":"Selenium is required for glutathione peroxidase when status is low. Extra selenium after the enzyme has levelled off is not shown to improve this balance.","finding_statement":"Dietary selenium restores plasma glutathione peroxidase activity in selenium-deficient adults up to a plateau near 35 micrograms a day. Intake above that plateau did not raise the enzyme further.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Xia and colleagues studied healthy Chinese adults whose usual diet supplied about 14 micrograms of selenium a day. Plasma glutathione peroxidase activity was optimised by a total intake of about 35 micrograms a day. Selenoprotein P needed more, about 49 micrograms a day. The trial measured those biomarkers, not net oxidative pressure and not a clinical outcome.","synthesis_limitations":"The result is repletion of a low-selenium diet. It is not evidence that extra selenium helps when glutathione peroxidase is already fully expressed.","evidence_considered":[{"label":"Xia et al. (2010)","citation_key":"xia_selenoprotein_2010","href":"/docs/papers/BRAIN-Diet-References#xia_selenoprotein_2010","data_level":"Human Study","exposure_context":"isolated-substance","evidence_source":"bounded-external-search","directional_finding":"Plasma glutathione peroxidase activity in selenium-deficient adults levelled off at about 35 micrograms of selenium a day. Higher doses did not raise it further.","canonical_reference":{"author_year":"Xia et al. (2010)","number":22,"anchor":"#pm-ref-22"}}],"connected_supportive_evidence":[]}} />
+
+<ScientificFinding finding={{"id":"PM4-F4","finding_label":"Copper repletion raises red-cell superoxide dismutase when copper is low","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"In infants recovering from malnutrition with marginal copper intake, copper supplementation raised red-cell superoxide dismutase together with plasma copper.","finding_interpretation":"Copper is required for that enzyme when copper status is low. The study does not show a benefit from extra copper when status is already adequate, and it is not an adult balance trial.","finding_statement":"Copper repletion raised erythrocyte superoxide dismutase in infants with marginal copper status. Adding copper to the assay tube did not raise the enzyme, so the change tracked copper nutrition rather than copper in the test.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Uauy and colleagues studied 17 infants recovering from malnutrition. After copper supplementation, plasma copper, ceruloplasmin and red-cell superoxide dismutase rose, and the enzyme correlated with plasma copper. Copper added in the assay did not change the activity. The setting is infant malnutrition, not ordinary adult intake.","synthesis_limitations":"Marginal copper in infants is not evidence that more copper improves reactive-oxygen balance in people who are already replete.","evidence_considered":[{"label":"Uauy et al. (1985)","citation_key":"uauy_superoxide_1985","href":"/docs/papers/BRAIN-Diet-References#uauy_superoxide_1985","data_level":"Human Study","exposure_context":"isolated-substance","evidence_source":"bounded-external-search","directional_finding":"Red-cell superoxide dismutase rose after copper supplementation in infants with marginal copper status and correlated with plasma copper.","canonical_reference":{"author_year":"Uauy et al. (1985)","number":23,"anchor":"#pm-ref-23"}}],"connected_supportive_evidence":[]}} />
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+- None listed
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — Electron transport is a source of reactive oxygen that this balance has to clear. It is not the clearance-enzyme cofactor step.
+- [BRS4-FM2-PM4 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control) — Mitochondrial reactive-oxygen control is the production side that this page balances against enzymatic clearance.
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS3-FM2-PM3 — Nrf2-Mediated Cellular Defence Regulation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation) — Nrf2 regulates defence-gene expression. It does not clear superoxide or hydrogen peroxide itself.
+- [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — membrane-specific lipid damage downstream of net redox imbalance
+- [BRS3-FM2-PM6 — Antioxidant Network Recycling](/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling) — regeneration among network antioxidants that sustain clearance
+
+## 7. Phenome Connections
+
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+
+<div class="brs-fm-hub-item phenome-scoring-key-hub" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>How these ratings work</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<div class="phenome-scoring-key">
+<p class="phenome-scoring-key-intro">
+Each Phenome relationship has <strong>two independent ratings</strong>. They are not combined or averaged.
+</p>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Biology → Phenome Relationship Strength</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How direct and important is this biological mechanism expected to be to the Phenome within the BRAIN model?</em>
+</p>
+</div>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Evidence Confidence</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How strongly does the adjudicated evidence support this particular biology → Phenome relationship?</em>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Focus / Attention Stability — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Focus / Attention Stability — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph001-focus-attention-stability" aria-label="Open page: Focus / Attention Stability — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** Low–Medium
+- **Evidence Confidence:** Low–Medium
+- **Rationale:** Elevated oxidative stress indices and lipid-peroxidation markers in adult and paediatric ADHD cohorts may modulate attention-relevant redox burden when generation exceeds clearance.
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Cognitive Clarity — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Cognitive Clarity — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph011-cognitive-clarity" aria-label="Open page: Cognitive Clarity — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** Low–Medium
+- **Evidence Confidence:** Low–Medium
+- **Rationale:** Thiol/disulfide shifts and DNA oxidation markers in ADHD adults support state-sensitive redox interpretation relevant to cognitive clarity without diagnostic claims.
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Emotional Regulation — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Emotional Regulation — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph003-emotional-regulation" aria-label="Open page: Emotional Regulation — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** Low
+- **Evidence Confidence:** Low–Medium
+- **Rationale:** Oxidative stress intersects neuroinflammatory cascades relevant to affective dysregulation framing; net redox balance is the mechanism boundary for this PM.
+</div>
+</div>
+</div>
+
+<Stage2Review>
+<details>
+<summary>Stage 2A/2B evidence and traceability review — 23 October 2026</summary>
+
+**Preserved baseline:** 4 existing Findings, 5 input/participant records, 0 optimisation records and 0 lifestyle records are retained, together with their existing missions, overviews, KCs, citations, Phenome relationships, source assessments and SEC/CC decisions. The manuscript selection does not replace this complete PM.
+
+**Stage 2A — Evidence enrichment:** Superoxide/peroxide clearance, selenium repletion and infant copper/SOD responses are distinct from whole-organism net oxidative pressure. Selenium intake plateaus differ by measured selenoprotein.
+
+**Stage 2B — Dietary interpretation and traceability:** All five participant/input records are preserved, including zinc, manganese and glutathione. Selenium and copper Capacity records retain status, population and endpoint limits; no generic intake-to-redox or brain effect is inferred.
+
+The standard food dropdown continues to use the existing structured relationships and composition-research ledger. Verified food links, provisional material-specific sources and unresolved pathways remain distinct. No new dietary admission, food edge or score is introduced by this review disclosure.
+
+| Review source | Exact supported proposition | Limits retained | Source |
+|---|---|---|---|
+| selenium-primary — primary-human-intervention | Selenomethionine repletion restored plasma GPX3 to a plateau in selenium-deficient adults. | GPX3 and SEPP1 plateaux differ; neither net oxidative pressure nor neuronal function was measured. | [selenium-primary](https://pmc.ncbi.nlm.nih.gov/articles/PMC2921536/) |
+| copper-primary — primary-human-intervention | Copper repletion increased erythrocyte SOD in infants with marginal status. | Selected infant/deficiency context; not general benefits of extra copper or brain SOD measurement. | [copper-primary](https://pubmed.ncbi.nlm.nih.gov/3934352/) |
+
+**Outstanding review questions**
+
+No change to a canonical admission is proposed. The exposure, conversion and model limitations above remain part of the bounded evidence account.
+
+</details>
+</Stage2Review>
+
+## 8. References
+
+- <span id="pm-ref-1">[1]</span> [Bulut et al. (2007) — Malondialdehyde Levels in Adult Attention-deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007)
+- <span id="pm-ref-2">[2]</span> [Kurhan and Alp (2021) — Dynamic Thiol/Disulfide Homeostasis in ADHD](/docs/papers/BRAIN-Diet-References#kurhan_dynamic_2021)
+- <span id="pm-ref-3">[3]</span> [Miniksar et al. (2023) — Oxidative Stress in Children and Adolescents with ADHD](/docs/papers/BRAIN-Diet-References#miniksar_effect_2023)
+- <span id="pm-ref-4">[4]</span> [Verlaet et al. (2019) — Oxidative Stress in ADHD](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)
+- <span id="pm-ref-5">[5]</span> [Uribarri et al. (2010) — Advanced Glycation End Products and High-Heat Cooking](/docs/papers/BRAIN-Diet-References#uribarri_advanced_2010)
+- <span id="pm-ref-6">[6]</span> [Jiang et al. (2021) — Western Diet and Oxidative Stress](/docs/papers/BRAIN-Diet-References#jiang_dietary_2021)
+- <span id="pm-ref-7">[7]</span> [Dufault et al. (2024) — Metals, UPFs, and ADHD Context](/docs/papers/BRAIN-Diet-References#dufault_nutritional_2024)
+- <span id="pm-ref-8">[8]</span> [Zhang et al. (2025) — Micro/nanoplastics and ADHD](/docs/papers/BRAIN-Diet-References#zhang_exploring_2025)
+- <span id="pm-ref-9">[9]</span> [Zhai et al. (2015) — Metallothioneins and Dietary Metals](/docs/papers/BRAIN-Diet-References#zhai_dietary_2015)
+- <span id="pm-ref-10">[10]</span> [Berglund et al. (1994) — Fibre-Mediated Cadmium Absorption Reduction](/docs/papers/BRAIN-Diet-References#berglund_intestinal_1994)
+- <span id="pm-ref-11">[11]</span> [Packer et al. (1997) — Vitamin E and the Metabolic Antioxidant Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
+- <span id="pm-ref-12">[12]</span> [Vertuani et al. (2004) — Antioxidant Synergy](/docs/papers/BRAIN-Diet-References#vertuani_antioxidants_2004)
+- <span id="pm-ref-13">[13]</span> [Mocchegiani and Malavolta (2019) — Antioxidant Mineral Cofactors](/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019)
+- <span id="pm-ref-14">[14]</span> [Boots et al. (2008) — Quercetin Antioxidant Activity](/docs/papers/BRAIN-Diet-References#boots_health_2008)
+- <span id="pm-ref-15">[15]</span> [Johnson (2014) — Carotenoids and Neural Antioxidant Support](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
+- <span id="pm-ref-16">[16]</span> [Houghton et al. (2016) — Sulforaphane and Nrf2](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)
+- <span id="pm-ref-17">[17]</span> [Klein et al. (2011) — Vitamin E and Prostate Cancer](/docs/papers/BRAIN-Diet-References#klein_vitamin_2011)
+- <span id="pm-ref-18">[18]</span> [Dvořáková et al. (2006) — Glutathione and TAS in Pediatric ADHD with Pycnogenol](/docs/papers/BRAIN-Diet-References#dvorakova_glutathione_pycnogenol_adhd_2006)
+- <span id="pm-ref-19">[19]</span> [Chovanová et al. (2006) — 8-Oxoguanine and TAS in Pediatric ADHD with Pycnogenol](/docs/papers/BRAIN-Diet-References#chovanova_8oxoguanine_pycnogenol_adhd_2006)
+- <span id="pm-ref-20">[20]</span> [Trebatická et al. (2006) — Pycnogenol for Pediatric ADHD Symptoms](/docs/papers/BRAIN-Diet-References#trebaticka_pycnogenol_adhd_2006)
+- <span id="pm-ref-21">[21]</span> [Weydert and Cullen (2010) — Superoxide dismutase, catalase and glutathione peroxidase](/docs/papers/BRAIN-Diet-References#weydert_measurement_2010)
+- <span id="pm-ref-22">[22]</span> [Xia et al. (2010) — Selenium requirement and glutathione peroxidase](/docs/papers/BRAIN-Diet-References#xia_selenoprotein_2010)
+- <span id="pm-ref-23">[23]</span> [Uauy et al. (1985) — Copper nutrition and red-cell superoxide dismutase](/docs/papers/BRAIN-Diet-References#uauy_superoxide_1985)

@@ -18,6 +18,13 @@ mechanisms:
   Gut-Brain Axis & Enteric Nervous System: 'Neuropod cells use endogenous glutamate for rapid synaptic signalling to vagal neurons. That role does not establish a requirement to eat glutamate.'
 list_image: /img/icons/nutrient.svg
 inchikey: WHUUTDBJXJRKMK-VKHMYHEASA-N
+food_delivery_assessment:
+  review_date: '2026-10-26'
+  status: verified-qualitative
+  classification: B
+  sources:
+    - https://doi.org/10.1038/ejcn.2009.110
+  admission_changed: false
 ---
 
 ## Overview
@@ -28,7 +35,7 @@ Glutamate is the substrate glutamate decarboxylase uses to make GABA [1]. Human 
 
 ## Dietary Origin
 
-Protein foods contain glutamic acid, and some foods contain free glutamate. Those are composition facts. They are a different relationship from the enzyme substrate, the glutathione step, and the neuropod transmitter, all of which were studied as endogenous glutamate [1,2,3]. No food page here is linked, because a contains relationship would not carry those biological results.
+Protein foods contain glutamic acid, and some foods contain free glutamate. Those are composition facts. They are a different relationship from the enzyme substrate, the glutathione step, and the neuropod transmitter, all of which were studied as endogenous glutamate [1,2,3]. Food-composition links establish occurrence only; they do not carry those biological results.
 
 ## Research Spotlights & Evidence Checks
 
@@ -49,6 +56,8 @@ Brain GABA synthesis is regulated at glutamate decarboxylase, which uses glutama
 
 ## Foods
 
+The linked protein forms do not represent a measured free-glutamate dose [4].
+
 <SubstanceFoods tag="Glutamate" />
 
 ## Biological Regulatory Systems
@@ -66,3 +75,5 @@ Brain GABA synthesis is regulated at glutamate decarboxylase, which uses glutama
 [2] Misra and Griffith (1998). [Expression and purification of human gamma-glutamylcysteine synthetase](/docs/papers/BRAIN-Diet-References#misra_human_gcl_1998). Human glutamate–cysteine ligase uses glutamate and cysteine in the first step of glutathione assembly. Enzyme chemistry, not a food trial.
 
 [3] Kaelberer et al. (2018). [A gut-brain neural circuit for nutrient sensory transduction](/docs/papers/BRAIN-Diet-References#kaelberer_nutrient_neural_circuit_2018). Mouse neuropod cells use glutamate for rapid synaptic communication with vagal neurons. This intracellular role is not a requirement to eat glutamate.
+
+[4] [Lenders et al. (2009), Sequence-derived food amino-acid composition](/docs/papers/BRAIN-Diet-References#lenders_amino_acid_sequencing_2009). Food-composition provenance; PM evidence and admission remain separate.

@@ -27,11 +27,6 @@
     },
     {
       "kind": "no-structured-admissions",
-      "pm_id": "BRS6-FM4-PM8",
-      "reason": "No structured accepted dietary inputs; narrative mentions are not admissions."
-    },
-    {
-      "kind": "no-structured-admissions",
       "pm_id": "BRS6-FM4-PM9",
       "reason": "No structured accepted dietary inputs; narrative mentions are not admissions."
     },
@@ -66,8 +61,8 @@
     {
       "pm_id": "BRS6-FM1-PM3",
       "record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
-      "accepted_relationships": 1,
-      "structured_atoms": 1
+      "accepted_relationships": 2,
+      "structured_atoms": 2
     },
     {
       "pm_id": "BRS6-FM2-PM4",
@@ -90,8 +85,8 @@
     {
       "pm_id": "BRS6-FM4-PM8",
       "record": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
-      "accepted_relationships": 0,
-      "structured_atoms": 0
+      "accepted_relationships": 1,
+      "structured_atoms": 1
     },
     {
       "pm_id": "BRS6-FM4-PM9",

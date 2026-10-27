@@ -4,4 +4,5 @@ import brs3 from './brs3InputMapping.generated.json';
 import brs4 from './brs4InputMapping.generated.json';
 import brs5 from './brs5InputMapping.generated.json';
 import brs6 from './brs6InputMapping.generated.json';
-export default {BRS1:brs1,BRS2:brs2,BRS3:brs3,BRS4:brs4,BRS5:brs5,BRS6:brs6};
+import brsx from './brs-xInputMapping.generated.json';
+export default {BRS1:brs1,BRS2:brs2,BRS3:brs3,BRS4:brs4,BRS5:brs5,BRS6:brs6,'BRS-X':brsx};

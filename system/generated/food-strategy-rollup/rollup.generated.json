@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "BRS1–6",
+  "scope": "All canonical PMs: BRS1–6 and Cross-BRS",
   "strategies": [
     {
       "id": "food-strategy-6d9c0fa97324",

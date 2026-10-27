@@ -1,0 +1,3143 @@
+[
+  {
+    "pm_id": "BRS-X(Circadian-FM1-PM1)",
+    "operation_review": "Retinal light detection and central light-driven phase entrainment, distinct from peripheral feeding cues or general sleep promotion.",
+    "searches": [
+      "melanopsin vitamin A deficiency dietary retinal circadian photoentrainment",
+      "caffeine light responsiveness circadian pacemaker"
+    ],
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16014418/",
+        "scope": "Canonical primary source assessment: Rpe65-deficient mouse photosensitivity and retinal-analogue rescue"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25196050/",
+        "scope": "New primary abstract: caffeine and mouse pacemaker light responsiveness"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4657156/",
+        "scope": "New primary human/cell paper abstract and mechanistic discussion, including unresolved interaction with photic inputs"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11562477/",
+        "scope": "Primary dietary-depletion experiment: acute SCN gene induction; old non-opsin interpretation not adopted."
+      }
+    ],
+    "candidates": [
+      {
+        "input": "Vitamin A",
+        "type_A": "eligible-capacity",
+        "type_B": "not established as extra-intake regulator",
+        "classification": "derived",
+        "decision": "Deferred: retinoid supply and photocycle reconciliation, with qualifying dietary-depletion evidence",
+        "rationale": "Vitamin-A-derived chromophore supports photopigment capacity; absence of an adult human supplementation benefit is not a Type A exclusion. Rpe65 genetic rescue is not itself dietary supply evidence; ordinary retinoid supply and activation must be independently sourced.",
+        "missing_link": "The vitamin-A class combines different precursors; retinal recycling and compensation complicate dietary limitation. No validated form-specific route is represented. A 9-cis rescue analogue is not physiological 11-cis retinal.",
+        "final_disposition": "Deferred: retinoid supply and photocycle reconciliation, with qualifying dietary-depletion evidence"
+      },
+      {
+        "input": "Caffeine",
+        "type_A": "not a functional requirement",
+        "type_B": "unresolved for retinal light operation",
+        "classification": "direct candidate",
+        "decision": "Evidence Gap",
+        "rationale": "Human melatonin phase delay is demonstrated but is not itself retinal photic entrainment. Mouse light-response modulation motivates a pathway but dose/species and precise receiving operation remain material.",
+        "final_disposition": "Evidence Gap"
+      },
+      {
+        "input": "Melatonin/tryptophan",
+        "type_A": "no demonstrated capacity dependency for retinal phototransduction",
+        "type_B": "not admitted to this operation",
+        "classification": "derived candidate",
+        "decision": "No new admission; timing cues and melatonin output are distinct from retinal light input.",
+        "final_disposition": "No new admission; timing cues and melatonin output are distinct from retinal light input."
+      }
+    ],
+    "canonical_actions": [
+      "Add evidence-qualified retinoid candidate or admission only after activation reconciliation; retain existing light SOPs."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS-X(Circadian-FM1-PM2)",
+    "operation_review": "Feeding-driven peripheral clock resetting, distinct from SCN light entrainment.",
+    "searches": [
+      "meal timing insulin PERIOD protein peripheral clock glucose feeding entrainment"
+    ],
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31030999/",
+        "scope": "Canonical primary assessment: insulin/IGF1 induce PERIOD proteins in cells/mice"
+      },
+      {
+        "record": "wehrens_meal_timing_2017",
+        "scope": "Canonical full-method/Results assessment: ten men, delayed meals shifted adipose PER2 and glucose rhythm; no optimum window established"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4657156/",
+        "scope": "Primary discussion explicitly leaves caffeine effects on peripheral tissues in vivo unresolved"
+      }
+    ],
+    "candidates": [
+      {
+        "input": "Meal timing",
+        "type_A": "not a biochemical input",
+        "type_B": "mechanism-relevant protocol",
+        "classification": "not applicable to a timing protocol",
+        "decision": "Retain existing SOP; no duplicate substance admission",
+        "rationale": "Exact tested meal schedule belongs in Section 3.2, not an added glucose requirement.",
+        "final_disposition": "Retain existing SOP; no duplicate substance admission"
+      },
+      {
+        "input": "Glucose/carbohydrate via insulin",
+        "type_A": "not established as a specific clock-capacity requirement",
+        "type_B": "unresolved as an isolated dietary substance",
+        "classification": "derived candidate",
+        "decision": "Evidence Gap",
+        "rationale": "Insulin-induced PERIOD is mechanism evidence, but direct insulin exposure and delayed mixed meals do not isolate a dietary glucose-to-clock relationship or establish a universally desirable phase shift.",
+        "final_disposition": "Evidence Gap"
+      },
+      {
+        "input": "Caffeine",
+        "type_A": "not a requirement",
+        "type_B": "unresolved for in-vivo peripheral feeding entrainment",
+        "classification": "direct candidate",
+        "decision": "No new admission; preserve tissue-specific evidence gap.",
+        "final_disposition": "No new admission; preserve tissue-specific evidence gap."
+      }
+    ],
+    "canonical_actions": [
+      "Retain feeding-timing SOP; add precise glucose/insulin translation gap without changing existing decisions."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS-X(ECS-PM1)",
+    "operation_review": "NAPE-to-NAE biosynthetic capacity, especially human zinc-dependent NAPE-PLD hydrolysis; not downstream receptor efficacy.",
+    "searches": [
+      "NAPE PLD zinc active site bile acid enzymatic activity dietary"
+    ],
+    "sources": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4351732/",
+        "scope": "Primary full-text excerpts: binuclear Zn centre and NAPE hydrolysis, structure at 2.65 angstrom"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2600636/",
+        "scope": "Canonical primary crossover assessment: PE meals and satiety, not NAPE synthesis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5074845/",
+        "scope": "Primary enzyme kinetic excerpts: bile-acid modulation, not oral food efficacy"
+      }
+    ],
+    "candidates": [
+      {
+        "input": "Zinc",
+        "type_A": "admit-capacity",
+        "type_B": "not admitted as extra-intake regulator",
+        "classification": "direct",
+        "decision": "Implement on existing PM1-DIT-3 with preserved original record",
+        "rationale": "Defined catalytic metal dependency of the receiving NAPE-PLD operation plus established dietary zinc supply. Purified enzyme evidence is sufficient for reaction capacity when paired with credible supply; human NAE benefit is not required.",
+        "limitations": "Cellular metal loading, competing pathways and homeostasis remain relevant; extra zinc can inhibit enzyme assays or impair copper status, so no dose or increased-NAE claim.",
+        "final_disposition": "Admitted Type A / Direct on PM1-DIT-3"
+      },
+      {
+        "input": "Dietary phosphatidylethanolamine/NAPE",
+        "type_A": "unresolved dietary supply-to-local precursor pool",
+        "type_B": "not established",
+        "classification": "derived candidate",
+        "decision": "Evidence Gap",
+        "rationale": "Intracellular substrate identity is established; digestion, delivery and local NAPE incorporation cannot be inferred from food PE or a satiety trial.",
+        "final_disposition": "Evidence Gap"
+      },
+      {
+        "input": "Bile acids via dietary fats/fibre",
+        "type_A": "not established as an independent dietary requirement",
+        "type_B": "unresolved dietary modulation route",
+        "classification": "derived candidate",
+        "decision": "Evidence Gap",
+        "rationale": "Enzyme regulation by specific bile acids does not identify a food-specific local bile-acid exposure or an independently justified PM dietary relationship.",
+        "final_disposition": "Evidence Gap"
+      }
+    ],
+    "canonical_actions": [
+      "Admit zinc Type A Direct; preserve NAPE/PE records and their historical status; no generic phospholipid requirement."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM1-DIT-3",
+        "input": "Zinc",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS-X(ECS-PM2)",
+    "operation_review": "Production of omega-3-derived ethanolamides; brain receptor action and clinical effects are not inferred from plasma pools.",
+    "searches": [
+      "dietary omega 3 ethanolamide DHEA EPEA Pu 2016 26806592"
+    ],
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33233525/",
+        "scope": "Canonical labelled-cell conversion assessment: DHA/LPC-DHA to N-docosahexaenoyl-PE and synaptamide"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26806592/",
+        "scope": "Retrieved primary abstract: five-period oral oil crossover, plasma FAEs and corresponding fatty acids; concentration not production flux"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31269506/",
+        "scope": "Canonical primary assessment: EPA/DHA active-arm trial, plasma EPEA/DHEA; no placebo, no neural synthesis flux"
+      }
+    ],
+    "candidates": [
+      {
+        "input": "DHA",
+        "type_A": "admit for precursor capacity to corresponding ethanolamide formation",
+        "type_B": "not separately admitted for neural regulation",
+        "classification": "direct",
+        "decision": "Existing Direct capacity overlay preserved; sixth dietary field resolved and Type A assessment implemented",
+        "rationale": "Labelled precursor conversion and human oral delivery support the production-capacity proposition. No human brain response or extra-intake efficacy is required. Direct is relative to biosynthetic production; not direct ethanolamide food content or downstream receptor action.",
+        "missing_link": "Canonical synaptamide and acyl-PE intermediate traceability; preserve formulation and compartment limits.",
+        "final_disposition": "Existing Direct capacity overlay preserved; sixth dietary field resolved and Type A assessment implemented"
+      },
+      {
+        "input": "EPA",
+        "type_A": "eligible precursor capacity; verify corresponding synthesis step before implementation",
+        "type_B": "not separately established for neural regulation",
+        "classification": "direct",
+        "decision": "Existing Direct capacity overlay preserved; sixth dietary field resolved and Type A assessment implemented",
+        "rationale": "Human EPA-containing arms support corresponding exposure, but mixtures and circulating pools do not themselves quantify local neural synthesis. Direct is relative to biosynthetic production; not direct ethanolamide food content or downstream receptor action.",
+        "final_disposition": "Existing Direct capacity overlay preserved; sixth dietary field resolved and Type A assessment implemented"
+      },
+      {
+        "input": "ALA",
+        "type_A": "not admitted as duplicate long upstream precursor",
+        "type_B": "unresolved",
+        "classification": "derived candidate",
+        "decision": "Evidence Gap",
+        "rationale": "Variable elongation/desaturation to EPA/DHA is insufficient to propagate every ALA food into this specific NAE operation without complete supply evidence.",
+        "final_disposition": "Evidence Gap"
+      }
+    ],
+    "canonical_actions": [
+      "Reconcile DHA/EPA precursor records without transferring plasma findings to brain outcomes or making duplicate active-product admissions."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM2-DIT-1",
+        "input": "DHA (Docosahexaenoic Acid)",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": true
+      },
+      {
+        "atom_id": "PM2-DIT-2",
+        "input": "EPA (Eicosapentaenoic Acid)",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": true
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS-X(ECS-PM3)",
+    "operation_review": "FAAH-mediated degradation and signal duration, not generic endocannabinoid synthesis.",
+    "searches": [
+      "genistein fatty acid amide hydrolase 2007 dietary"
+    ],
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17676056/",
+        "scope": "Primary abstract: genistein/daidzein FAAH and uptake effects across cell lines"
+      },
+      {
+        "url": "https://doi.org/10.1111/j.1471-4159.2006.03880.x",
+        "scope": "Canonical primary rat microdialysis assessment: experimental AEA/FAAH manipulation"
+      }
+    ],
+    "candidates": [
+      {
+        "input": "Genistein/daidzein",
+        "type_A": "not required enzyme substrates or cofactors",
+        "type_B": "unresolved dietary exposure-to-FAAH engagement",
+        "classification": "direct parent-compound candidates; dietary metabolites distinct",
+        "decision": "Evidence Gap",
+        "rationale": "Laboratory inhibition is real; physiological free-compound exposure after soy and neural FAAH engagement have not been established by these sources. Do not exclude because compounds are nonessential.",
+        "final_disposition": "Evidence Gap"
+      },
+      {
+        "input": "Arachidonic acid/linoleic acid",
+        "type_A": "not a capacity dependency of limiting FAAH degradation",
+        "type_B": "not established for this preservation operation",
+        "classification": "upstream synthesis route",
+        "decision": "No new admission; substrate production is not clearance inhibition.",
+        "final_disposition": "No new admission; substrate production is not clearance inhibition."
+      },
+      {
+        "input": "Oral anandamide",
+        "type_A": "endogenous substrate, not an established dietary requirement",
+        "type_B": "unresolved oral delivery",
+        "classification": "direct candidate",
+        "decision": "Preserve endogenous record; no admission.",
+        "final_disposition": "Preserve endogenous record; no admission."
+      }
+    ],
+    "canonical_actions": [
+      "Retain all original Findings; record soy-compound exposure gap."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS-X(ECS-PM4)",
+    "operation_review": "Local endocannabinoid modulation of dopamine reward-cue circuits; distinct from circulating precursor pools.",
+    "searches": [
+      "dietary omega 3 endocannabinoid reward dopamine circuit"
+    ],
+    "sources": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3269037/",
+        "scope": "Canonical primary rat study assessment: VTA CB1 and 2-AG manipulation with accumbal dopamine responses"
+      },
+      {
+        "url": "https://doi.org/10.1111/j.1471-4159.2006.03880.x",
+        "scope": "Canonical primary AEA microdialysis assessment"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26806592/",
+        "scope": "Primary dietary FAE trial: circulating fatty-acid derivatives, not local dopamine circuit engagement"
+      }
+    ],
+    "candidates": [
+      {
+        "input": "Linoleic/arachidonic acid via 2-AG",
+        "type_A": "no newly established PM-specific supply constraint",
+        "type_B": "unresolved dietary-to-local-circuit engagement",
+        "classification": "derived candidate",
+        "decision": "Evidence Gap",
+        "rationale": "Endogenous 2-AG participation and precursor chemistry do not establish that dietary precursor provision sustains or regulates the exact VTA cue operation.",
+        "final_disposition": "Evidence Gap"
+      },
+      {
+        "input": "EPA/DHA",
+        "type_A": "no operation-specific dependency established here",
+        "type_B": "unresolved",
+        "classification": "derived candidate",
+        "decision": "No new admission; ethanolamide production in neighbouring PM is not this reward-circuit mechanism.",
+        "final_disposition": "No new admission; ethanolamide production in neighbouring PM is not this reward-circuit mechanism."
+      },
+      {
+        "input": "Genistein via FAAH",
+        "type_A": "not a capacity requirement",
+        "type_B": "unresolved delivery and circuit route",
+        "classification": "derived candidate",
+        "decision": "No new admission; do not join separate cell inhibition and rat dopamine experiments into a food effect.",
+        "final_disposition": "No new admission; do not join separate cell inhibition and rat dopamine experiments into a food effect."
+      }
+    ],
+    "canonical_actions": [
+      "Preserve active 2-AG/AEA records and regional limitations; add dietary-to-circuit gap."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS-X(ECS-PM5)",
+    "operation_review": "Regional endocannabinoid stress buffering/HPA modulation, not all inflammation or every circulating AEA response.",
+    "searches": [
+      "fish oil endocannabinoid stress brain diet"
+    ],
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19710634/",
+        "scope": "Canonical primary regional rat restraint/FAAH/CB1 assessment"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8487992/",
+        "scope": "Canonical primary exercise/extinction assessment in women with PTSD; peripheral AEA subset"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32996187/",
+        "scope": "New primary abstract: fish oil plus phytocannabinoids in mouse colitis, not HPA stress buffering"
+      }
+    ],
+    "candidates": [
+      {
+        "input": "EPA/DHA",
+        "type_A": "no complete supply-to-regional-stress operation dependency established",
+        "type_B": "unresolved specific dietary/HPA engagement",
+        "classification": "derived candidate",
+        "decision": "Evidence Gap",
+        "rationale": "Production and general anti-inflammatory outcomes do not substitute for regional stress-buffering engagement. Mouse colitis mixture cannot establish this PM relationship.",
+        "final_disposition": "Evidence Gap"
+      },
+      {
+        "input": "Genistein/soy via FAAH",
+        "type_A": "not a capacity requirement",
+        "type_B": "unresolved food-to-neural-exposure bridge",
+        "classification": "derived candidate",
+        "decision": "No new admission; laboratory inhibition and stress-circuit studies are separate links.",
+        "final_disposition": "No new admission; laboratory inhibition and stress-circuit studies are separate links."
+      },
+      {
+        "input": "Exercise",
+        "type_A": "not a dietary input",
+        "type_B": "not a dietary substance",
+        "classification": "lifestyle",
+        "decision": "Retain existing independently qualified exercise record; no new dietary admission or brain AEA inference.",
+        "final_disposition": "Retain existing independently qualified exercise record; no new dietary admission or brain AEA inference."
+      }
+    ],
+    "canonical_actions": [
+      "Preserve exercise and HPA evidence; record incomplete dietary pathway rather than claiming no plausible route."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS-X(Hormones-PM1)",
+    "operation_review": "Oestrogen-linked neural signalling across hormonal fluctuation; systemic oestrogen lowering alone is not stable neural signalling.",
+    "searches": [
+      "genistein estrogen receptor beta binding dietary plasma conjugates human soy"
+    ],
+    "sources": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3089976/",
+        "scope": "Canonical endogenous estradiol/COMT/fMRI study assessment, not dietary or directly assayed dopamine"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16614407/",
+        "scope": "Primary soy-isoflavone metabolism abstract: human conjugates differ substantially from rat/monkey profiles"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1652197/",
+        "scope": "Canonical wheat/oat/corn bran intervention assessment: formulation-specific circulating estrogen changes, no neural receptor endpoint"
+      }
+    ],
+    "candidates": [
+      {
+        "input": "Genistein/daidzein/equol",
+        "type_A": "not established as a required resource",
+        "type_B": "unresolved for exact neural oestrogen operation",
+        "classification": "direct or microbial-derived depending on compound",
+        "decision": "Evidence Gap",
+        "rationale": "ER activity is biologically plausible but parent compounds, conjugates and microbial equol differ. Human soy exposure is not equivalent to the aglycone exposures or direct neural oestrogen signalling measurements.",
+        "final_disposition": "Evidence Gap"
+      },
+      {
+        "input": "Wheat bran/lignans",
+        "type_A": "not an established capacity dependency",
+        "type_B": "not admitted as a biochemical input",
+        "classification": "food intervention/derived candidate",
+        "decision": "Evidence Gap; no automatic SOP admission",
+        "rationale": "Lower circulating estrogens is not demonstrated stability of the neural operation; bran identity and lignan attribution cannot be interchanged.",
+        "final_disposition": "Evidence Gap; no automatic SOP admission"
+      },
+      {
+        "input": "Cholesterol/energy supply",
+        "type_A": "generic upstream steroidogenesis not independently tied to this neural operation",
+        "type_B": "not established",
+        "classification": "upstream candidate",
+        "decision": "No new admission; do not propagate generic steroid precursors.",
+        "final_disposition": "No new admission; do not propagate generic steroid precursors."
+      }
+    ],
+    "canonical_actions": [
+      "Preserve mission and endogenous-hormone Findings; expose phytoestrogen exposure/receiving-operation gap."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS-X(Hormones-PM2)",
+    "operation_review": "Microbial estrogen deconjugation with proposed systemic exposure; existing luminal evidence must not be treated as proven enterohepatic mediation.",
+    "searches": [
+      "dietary fat fiber estrogen fecal beta glucuronidase Goldin 1982"
+    ],
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31636122/",
+        "scope": "Canonical purified GUS/ex-vivo human fecal enzyme assessment"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1652197/",
+        "scope": "Canonical primary bran intervention: serum estrogen changes, no GUS mediation"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6766508/",
+        "scope": "New primary human fecal enzyme abstract: adding bran/wheat germ or removing meat for 30 days did not change measured beta-glucuronidase"
+      }
+    ],
+    "candidates": [
+      {
+        "input": "Fibre/bran",
+        "type_A": "not a substrate dependency of estrogen deconjugation established here",
+        "type_B": "unresolved dietary-to-GUS-to-systemic route",
+        "classification": "derived candidate/food practice",
+        "decision": "Evidence Gap",
+        "rationale": "Composition and estrogen changes do not establish microbial mediation; a relevant enzyme study is null for tested dietary changes. Null does not refute every fibre or formulation.",
+        "final_disposition": "Evidence Gap"
+      },
+      {
+        "input": "Lactobacillus acidophilus and probiotics",
+        "type_A": "not an established requirement",
+        "type_B": "strain/protocol and substrate specificity unresolved",
+        "classification": "microbial intervention",
+        "decision": "No generic fermented-food or species-level admission; enzyme-specific evidence required.",
+        "final_disposition": "No generic fermented-food or species-level admission; enzyme-specific evidence required."
+      },
+      {
+        "input": "Estrogen glucuronides",
+        "type_A": "host substrate, no independent dietary supply requirement",
+        "type_B": "not a dietary regulator",
+        "classification": "endogenous substrate",
+        "decision": "Preserve biochemical record, no admission.",
+        "final_disposition": "Preserve biochemical record, no admission."
+      }
+    ],
+    "canonical_actions": [
+      "Keep systemic-mediation ownership concern explicit; preserve current mission pending separate approval."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS-X(Hormones-PM3)",
+    "operation_review": "Hydrogen-dependent microbial corticoid-to-progestin conversion is measured; hormonal stability and systemic delivery remain unestablished.",
+    "searches": [
+      "microbial progestins hydrogen dietary fiber McCurry 2024"
+    ],
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38795705/",
+        "scope": "Retrieved primary abstract plus canonical detailed Results/Methods assessment; bacteria, genes, hydrogen and fecal pregnancy context"
+      }
+    ],
+    "candidates": [
+      {
+        "input": "Fermentable substrates via hydrogen",
+        "type_A": "unresolved complete dietary dependency",
+        "type_B": "unresolved dietary delivery-to-specific conversion",
+        "classification": "derived microbial pathway",
+        "decision": "Evidence Gap",
+        "rationale": "Hydrogen promotes demonstrated conversion, but no identified fibre preparation establishes delivery to this conversion and no systemic progesterone-stability outcome is shown. Do not infer a dietary pathway solely from general fermentation.",
+        "final_disposition": "Evidence Gap"
+      },
+      {
+        "input": "Molecular hydrogen",
+        "type_A": "local microbial electron-donor dependency, not established oral food requirement",
+        "type_B": "oral delivery not established",
+        "classification": "derived candidate",
+        "decision": "Retain biochemical participant; no hydrogen-water or food admission.",
+        "final_disposition": "Retain biochemical participant; no hydrogen-water or food admission."
+      },
+      {
+        "input": "THDOC/cholesterol",
+        "type_A": "host steroid substrate, no justified independent dietary requirement",
+        "type_B": "not established",
+        "classification": "upstream endogenous",
+        "decision": "No admission; food cholesterol cannot be propagated through the chain.",
+        "final_disposition": "No admission; food cholesterol cannot be propagated through the chain."
+      }
+    ],
+    "canonical_actions": [
+      "Record mission-to-endpoint concern as unresolved, without changing mission or deleting conversion evidence."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS-X(Hormones-PM4)",
+    "operation_review": "Integration of insulin action and reproductive endocrine responses, with PCOS-specific evidence and no universal hormonal-balance claim.",
+    "searches": [
+      "inositol polycystic ovary randomized insulin testosterone ovulation 1999"
+    ],
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9626131/",
+        "scope": "Canonical cultured human PCOS thecal-cell insulin/inositol-glycan pathway assessment"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10219066/",
+        "scope": "New primary D-chiro-inositol RCT abstract: 44 obese women with PCOS, 1200 mg/day, 6–8 weeks; insulin AUC between-group comparison P=.07, testosterone and ovulation responses"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15206484/",
+        "scope": "Primary inositol trial abstract and indexed Expression of Concern; not used as secure admission evidence"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20484445/",
+        "scope": "Canonical low-GI PCOS dietary intervention assessment with attrition and treatment-interaction limits"
+      }
+    ],
+    "candidates": [
+      {
+        "input": "D-chiro-inositol",
+        "type_A": "no established dietary indispensability or defined endogenous capacity deficiency from these data",
+        "type_B": "unresolved mechanism-specific integration versus endocrine outcome",
+        "classification": "direct candidate",
+        "decision": "Evidence Gap; preserve PCOS trial as a serious lead",
+        "rationale": "Hormonal/ovulatory response is not dismissed for lack of ADHD benefit. However, the claimed insulin-mediator mechanism was hypothesised rather than measured, and the between-arm insulin AUC change was not statistically established. Additional precise target-engagement evidence is needed; do not confuse D-chiro and myo forms or a supplement dose with food equivalence.",
+        "final_disposition": "Evidence Gap; preserve PCOS trial as a serious lead"
+      },
+      {
+        "input": "Myo-inositol",
+        "type_A": "not established",
+        "type_B": "not established from secure form-specific source set",
+        "classification": "direct candidate",
+        "decision": "Do not admit from an inositol-label trial with an Expression of Concern; do not transfer D-chiro efficacy.",
+        "final_disposition": "Do not admit from an inositol-label trial with an Expression of Concern; do not transfer D-chiro efficacy."
+      },
+      {
+        "input": "Low-GI pattern/energy restriction",
+        "type_A": "not a substance input",
+        "type_B": "practice assessed separately",
+        "classification": "SOP",
+        "decision": "Retain accepted low-GI SOP; do not create a duplicate carbohydrate requirement.",
+        "final_disposition": "Retain accepted low-GI SOP; do not create a duplicate carbohydrate requirement."
+      }
+    ],
+    "canonical_actions": [
+      "Retain current SOP and cellular evidence; add D-chiro exposure/mediator gap with source qualification."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS-X(Hormones-PM5)",
+    "operation_review": "Androgen-receptor signalling; ligand concentration and receptor stability are not interchangeable.",
+    "searches": [
+      "dietary zinc testosterone receptor signalling deficiency repletion Prasad"
+    ],
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8875519/",
+        "scope": "Canonical human restriction/repletion assessment: serum testosterone, small groups, no receptor measurement"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21632481/",
+        "scope": "Canonical sleep-restriction primary assessment: daytime testosterone and vigour, no mediation proof"
+      },
+      {
+        "url": "https://www.uniprot.org/uniprotkb/P10275/entry",
+        "scope": "Retrieved human AR record version310; two C4-type zinc-finger annotations. Curated identity, not dietary efficacy."
+      },
+      {
+        "url": "https://www.rcsb.org/structure/1R4I",
+        "scope": "Primary engineered rat AR DNA-binding domain crystal, 3.10 angstrom resolution, four zinc ions in two protomers; primary citation PMID15037741. Full paper web retrieval inaccessible; structure record inspected."
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8413310/",
+        "scope": "Primary abstract via EuropePMC: human arginine-to-histidine substitution in the second zinc finger impaired DNA binding/transactivation; not a zinc-depletion intervention."
+      }
+    ],
+    "candidates": [
+      {
+        "input": "Zinc",
+        "type_A": "eligible upstream ligand-supply proposition but exact receptor-operation bridge requires review",
+        "type_B": "not established as receptor regulator",
+        "classification": "derived candidate",
+        "decision": "Preserve existing Zinc record and historical classification; do not newly validate receptor/motivation claims",
+        "rationale": "A conditional testosterone-supply result cannot silently become a demonstrated receptor-stability mechanism. The narrower supply relationship may be defensible but cannot redefine the mission during this recovery.",
+        "final_disposition": "Preserve existing Zinc record and historical classification; do not newly validate receptor/motivation claims"
+      },
+      {
+        "input": "Vitamin D/magnesium",
+        "type_A": "no independently established PM-specific receptor-capacity dependency in source set",
+        "type_B": "not admitted from serum-testosterone associations",
+        "classification": "candidate",
+        "decision": "No new admission; exact receptor engagement required.",
+        "final_disposition": "No new admission; exact receptor engagement required."
+      },
+      {
+        "input": "Dietary cholesterol/fat",
+        "type_A": "generic steroid precursor route does not independently establish this PM-specific dietary dependency",
+        "type_B": "not established",
+        "classification": "derived candidate",
+        "decision": "Evidence Gap; no automatic substrate propagation.",
+        "final_disposition": "Evidence Gap; no automatic substrate propagation."
+      },
+      {
+        "input": "Zinc — receptor DNA-binding capacity",
+        "type_A": "established structural capacity",
+        "type_B": "not claimed",
+        "classification": "direct",
+        "decision": "Admitted Type A/Direct with Scientific Principle PM5-SP1",
+        "rationale": "Dietary zinc maintains the metal pool supporting the androgen receptor’s zinc-finger DNA-binding capacity. This Type A relationship concerns the receptor DNA-binding domain, not stimulation of testosterone production, tissue receptor occupancy, motivation or benefit from extra zinc. Cellular zinc homeostasis and receptor expression constrain metal availability. The primary crystal used an engineered rat receptor domain; human domain identity is curated. A zinc-finger mutation study tested an arginine substitution, not dietary zinc depletion.",
+        "final_disposition": "Admitted Type A/Direct with Scientific Principle PM5-SP1"
+      }
+    ],
+    "canonical_actions": [
+      "Preserve zinc and sleep records; retain mission/ligand-versus-receptor issue for scientific ownership review.",
+      "Added separately admitted receptor-structural zinc record; historical ligand-supply atom and both existing Findings unchanged."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM5-DIT-RECOVERY-ZINC-RECEPTOR",
+        "input": "Zinc",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS-X(Hormones-PM6)",
+    "operation_review": "Microbial androgen deconjugation is demonstrated locally; systemic re-entry is the uncertain mission link.",
+    "searches": [
+      "diet gut microbiome androgen deconjugation systemic testosterone Collden"
+    ],
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31689143/",
+        "scope": "Canonical primary conventional/germ-free mouse and human stool steroid assessment"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12671099/",
+        "scope": "Canonical colonic bioreactor assessment: hormone-to-community direction, not dietary androgen recycling"
+      }
+    ],
+    "candidates": [
+      {
+        "input": "Fibre/prebiotics",
+        "type_A": "no specific substrate dependency for androgen deconjugation established",
+        "type_B": "unresolved complete dietary-to-microbe-to-systemic route",
+        "classification": "derived candidate",
+        "decision": "Evidence Gap",
+        "rationale": "General microbiome modification does not establish enzyme-specific androgen release, absorption or systemic exposure.",
+        "final_disposition": "Evidence Gap"
+      },
+      {
+        "input": "Probiotics/fermented foods",
+        "type_A": "not an established functional requirement",
+        "type_B": "strain and operation-specific engagement not established",
+        "classification": "microbial candidate",
+        "decision": "No admission from generic community or testosterone outcomes.",
+        "final_disposition": "No admission from generic community or testosterone outcomes."
+      },
+      {
+        "input": "Androgen glucuronides/cholesterol",
+        "type_A": "host substrate context, not independently established dietary supply",
+        "type_B": "not a dietary regulator",
+        "classification": "endogenous/upstream candidate",
+        "decision": "Preserve biochemical record; no new admission.",
+        "final_disposition": "Preserve biochemical record; no new admission."
+      }
+    ],
+    "canonical_actions": [
+      "Keep local-versus-systemic evidence gap and architectural concern explicit; do not change approved mission."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS1-FM1-PM1",
+    "operation_review": "Circulating indispensable amino-acid and aromatic precursor supply; appearance is distinct from brain transport.",
+    "searches": [
+      "Targeted primary-source recovery: Canonical Gorissen 2020, Matthews 2007, Moller 2000 and Wurtman 2003 source assessments",
+      "Targeted primary-source recovery: https://doi.org/10.3945/ajcn.112.051201",
+      "Targeted primary-source recovery: https://www.fao.org/4/i3124e/i3124e.pdf"
+    ],
+    "sources_assessed": [
+      "Canonical Gorissen 2020, Matthews 2007, Moller 2000 and Wurtman 2003 source assessments",
+      "https://doi.org/10.3945/ajcn.112.051201",
+      "https://www.fao.org/4/i3124e/i3124e.pdf"
+    ],
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Indispensable amino-acid pool",
+        "disposition": "identity reconciliation",
+        "rationale": "Existing admission explicitly covers the nine EAAs; resolve its class identity rather than generating nine duplicate admissions. FAO composition is needed for complete-profile food edges.",
+        "final_disposition": "identity reconciliation"
+      },
+      {
+        "input": "Tyrosine",
+        "disposition": "eligible Type A / Direct",
+        "rationale": "Food supplies circulating tyrosine as well as endogenous PAH production. Narrow capacity proposition does not require increased brain dopamine.",
+        "discovery_disposition": "eligible Type A / Direct",
+        "final_disposition": "Admitted Type A / Direct"
+      },
+      {
+        "input": "Minced beef / extruded blends",
+        "disposition": "preserve existing decisions",
+        "rationale": "Preparation-specific appearance differences do not establish superior brain precursor delivery; retain SOP discrepancy for separate adjudication.",
+        "final_disposition": "preserve existing decisions"
+      }
+    ],
+    "implementation_actions": [
+      "Resolve EAA identity and evaluate verified full-profile foods; retain all accepted records."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM1-DIT-4",
+        "input": "Tyrosine",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS1-FM1-PM2",
+    "operation_review": "LAT1-mediated competitive blood–brain LNAA exchange.",
+    "searches": [
+      "Targeted primary-source recovery: Canonical LAT1 structural and Wurtman meal source assessments",
+      "Targeted primary-source recovery: https://www.uniprot.org/uniprotkb/Q01650/entry"
+    ],
+    "sources_assessed": [
+      "Canonical LAT1 structural and Wurtman meal source assessments",
+      "https://www.uniprot.org/uniprotkb/Q01650/entry"
+    ],
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "BCAAs / competing LNAAs",
+        "disposition": "not independently admitted",
+        "rationale": "Transport substrates and competition are established, but no individual dietary competitor is an indispensable transporter cofactor; meal plasma ratios do not directly measure brain influx.",
+        "final_disposition": "not independently admitted"
+      },
+      {
+        "input": "Carbohydrate:protein meal composition",
+        "disposition": "preserve existing admission; review boundary",
+        "rationale": "Existing mixture relationship must not become isolated carbohydrate necessity.",
+        "final_disposition": "preserve existing admission; review boundary"
+      },
+      {
+        "input": "Albumin / free tryptophan",
+        "disposition": "not admitted",
+        "rationale": "Binding context does not establish dietary albumin supply to the transporter.",
+        "final_disposition": "not admitted"
+      }
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS1-FM1-PM3",
+    "operation_review": "Synthesis, handling and metabolism of dopamine; MAO is inside the accepted operation.",
+    "searches": [
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/7264772/",
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/16129825/",
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/7703232/"
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/7264772/",
+      "https://pubmed.ncbi.nlm.nih.gov/16129825/",
+      "https://pubmed.ncbi.nlm.nih.gov/7703232/"
+    ],
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Vitamin B2 → FAD",
+        "disposition": "eligible Type A / Derived",
+        "rationale": "MAO contains flavin; controlled riboflavin-deficient rat feeding lowered brain mitochondrial MAO activity. Capacity supply, not faster clearance or benefit from extra intake.",
+        "discovery_disposition": "eligible Type A / Derived",
+        "final_disposition": "Admitted Type A / Derived"
+      },
+      {
+        "input": "Magnesium / COMT",
+        "disposition": "eligible Type A / Direct after reaction verification",
+        "rationale": "Catalytic Mg in COMT supports catechol methylation; no implication that additional magnesium improves neurotransmission.",
+        "discovery_disposition": "eligible Type A / Direct after reaction verification",
+        "final_disposition": "Admitted Type A / Direct"
+      },
+      {
+        "input": "Generic antioxidants / zinc regulation",
+        "disposition": "defer",
+        "rationale": "Cellular redox or DAT modulation does not by itself establish dietary exposure at the relevant neuronal target.",
+        "final_disposition": "defer"
+      }
+    ],
+    "implementation_actions": [
+      "Implement bounded riboflavin-to-FAD capacity with ordered activation; preserve neurotransmitter-direction neutrality."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM3-DIT-RECOVERY-VITAMIN-B2",
+        "input": "Vitamin B2",
+        "type": "A",
+        "classification": "derived",
+        "recovered_overlay": false
+      },
+      {
+        "atom_id": "PM3-DIT-RECOVERY-MAGNESIUM",
+        "input": "Magnesium",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS1-FM1-PM4",
+    "operation_review": "Synthesis, handling and metabolism of noradrenaline; MAO is inside the accepted operation.",
+    "searches": [
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/7264772/",
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/16129825/",
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/7703232/"
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/7264772/",
+      "https://pubmed.ncbi.nlm.nih.gov/16129825/",
+      "https://pubmed.ncbi.nlm.nih.gov/7703232/"
+    ],
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Vitamin B2 → FAD",
+        "disposition": "eligible Type A / Derived",
+        "rationale": "MAO contains flavin; controlled riboflavin-deficient rat feeding lowered brain mitochondrial MAO activity. Capacity supply, not faster clearance or benefit from extra intake.",
+        "discovery_disposition": "eligible Type A / Derived",
+        "final_disposition": "Admitted Type A / Derived"
+      },
+      {
+        "input": "Magnesium / COMT",
+        "disposition": "eligible Type A / Direct after reaction verification",
+        "rationale": "Catalytic Mg in COMT supports catechol methylation; no implication that additional magnesium improves neurotransmission.",
+        "discovery_disposition": "eligible Type A / Direct after reaction verification",
+        "final_disposition": "Admitted Type A / Direct"
+      },
+      {
+        "input": "Generic antioxidants / zinc regulation",
+        "disposition": "defer",
+        "rationale": "Cellular redox or DAT modulation does not by itself establish dietary exposure at the relevant neuronal target.",
+        "final_disposition": "defer"
+      }
+    ],
+    "implementation_actions": [
+      "Implement bounded riboflavin-to-FAD capacity with ordered activation; preserve neurotransmitter-direction neutrality."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM4-DIT-RECOVERY-VITAMIN-B2",
+        "input": "Vitamin B2",
+        "type": "A",
+        "classification": "derived",
+        "recovered_overlay": false
+      },
+      {
+        "atom_id": "PM4-DIT-RECOVERY-MAGNESIUM",
+        "input": "Magnesium",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS1-FM1-PM5",
+    "operation_review": "Synthesis, handling and metabolism of serotonin; MAO is inside the accepted operation.",
+    "searches": [
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/7264772/",
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/16129825/"
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/7264772/",
+      "https://pubmed.ncbi.nlm.nih.gov/16129825/"
+    ],
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Vitamin B2 → FAD",
+        "disposition": "eligible Type A / Derived",
+        "rationale": "MAO contains flavin; controlled riboflavin-deficient rat feeding lowered brain mitochondrial MAO activity. Capacity supply, not faster clearance or benefit from extra intake.",
+        "discovery_disposition": "eligible Type A / Derived",
+        "final_disposition": "Admitted Type A / Derived"
+      },
+      {
+        "input": "Generic antioxidants / zinc regulation",
+        "disposition": "defer",
+        "rationale": "Cellular redox or DAT modulation does not by itself establish dietary exposure at the relevant neuronal target.",
+        "final_disposition": "defer"
+      }
+    ],
+    "implementation_actions": [
+      "Implement bounded riboflavin-to-FAD capacity with ordered activation; preserve neurotransmitter-direction neutrality."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM5-DIT-RECOVERY-VITAMIN-B2",
+        "input": "Vitamin B2",
+        "type": "A",
+        "classification": "derived",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS1-FM2-PM6",
+    "operation_review": "Choline uptake and acetylcholine synthesis/handling.",
+    "searches": [
+      "Targeted primary-source recovery: https://pmc.ncbi.nlm.nih.gov/articles/PMC11589582/",
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/11068039/",
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/11027560/"
+    ],
+    "sources_assessed": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11589582/",
+      "https://pubmed.ncbi.nlm.nih.gov/11068039/",
+      "https://pubmed.ncbi.nlm.nih.gov/11027560/"
+    ],
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Sodium / chloride in CHT1",
+        "disposition": "Sodium admitted Type A/Direct; chloride not separately admitted without its own dependency assessment.",
+        "rationale": "Human CHT1 structure and uptake mutants establish ion-dependent choline transport, distinct from recommending more salt. Chloride binding need not mean identical cotransport stoichiometry.",
+        "final_disposition": "Sodium admitted Type A/Direct; chloride not separately admitted without its own dependency assessment."
+      },
+      {
+        "input": "Vitamin B12 upstream methyl supply",
+        "disposition": "no additional admission",
+        "rationale": "Existing choline/folate provision does not justify adding every upstream cofactor to acetylcholine synthesis.",
+        "final_disposition": "no additional admission"
+      }
+    ],
+    "implementation_actions": [
+      "Reconcile specific transport-ion capacity rather than generic electrolyte propagation."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM6-DIT-RECOVERY-SODIUM",
+        "input": "Sodium",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS1-FM3-PM7",
+    "operation_review": "DHA delivery and incorporation into neuronal membranes.",
+    "searches": [
+      "Targeted primary-source recovery: Canonical MFSD2A and Arellanes 2020 primary source assessments",
+      "Targeted primary-source recovery: https://www.uniprot.org/uniprotkb/Q8NA29/entry"
+    ],
+    "sources_assessed": [
+      "Canonical MFSD2A and Arellanes 2020 primary source assessments",
+      "https://www.uniprot.org/uniprotkb/Q8NA29/entry",
+      "https://pubmed.ncbi.nlm.nih.gov/26945070/"
+    ],
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "ALA → DHA",
+        "disposition": "defer",
+        "rationale": "Variable multistep conversion does not establish a food-specific neuronal DHA-incorporation route or equivalent dose.",
+        "final_disposition": "defer"
+      },
+      {
+        "input": "EPA → DHA",
+        "disposition": "not admitted on present evidence",
+        "rationale": "EPA is not interchangeable with DHA; circulating lipid changes do not measure neuronal incorporation.",
+        "final_disposition": "not admitted on present evidence"
+      },
+      {
+        "input": "Sodium / MFSD2A",
+        "disposition": "Admitted Type A/Direct for sodium-dependent MFSD2A transport capacity",
+        "rationale": "Specific sodium-dependent LPC-DHA transport is distinct from direct free DHA uptake and from increased dietary salt.",
+        "final_disposition": "Admitted Type A/Direct for sodium-dependent MFSD2A transport capacity"
+      }
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM7-DIT-RECOVERY-SODIUM",
+        "input": "Sodium",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS1-FM4-PM10",
+    "operation_review": "Glial glutamate clearance through EAAT transport and glutamine synthesis.",
+    "searches": [
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/8857541/",
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/9435265/",
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/18005987/",
+      "Targeted primary-source recovery: https://www.uniprot.org/uniprotkb/P15104/entry"
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/8857541/",
+      "https://pubmed.ncbi.nlm.nih.gov/9435265/",
+      "https://pubmed.ncbi.nlm.nih.gov/18005987/",
+      "https://www.uniprot.org/uniprotkb/P15104/entry"
+    ],
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Sodium",
+        "disposition": "eligible Type A / Direct",
+        "rationale": "EAAT3 couples glutamate transport to sodium; dietary sodium maintains the physiological ion pool, not additional-salt benefit.",
+        "discovery_disposition": "eligible Type A / Direct",
+        "final_disposition": "Admitted Type A / Direct"
+      },
+      {
+        "input": "Potassium",
+        "disposition": "eligible Type A / Direct",
+        "rationale": "Countertransport is required for carrier cycling; established dietary provision supports capacity.",
+        "discovery_disposition": "eligible Type A / Direct",
+        "final_disposition": "Admitted Type A / Direct"
+      },
+      {
+        "input": "Magnesium / glutamine synthetase",
+        "disposition": "defer metal-specific adjudication",
+        "rationale": "Human GS structure used manganese; curated physiological magnesium annotation is partly by homology. Do not turn experimental metal substitution into a dietary manganese requirement.",
+        "final_disposition": "defer metal-specific adjudication"
+      },
+      {
+        "input": "Dietary glutamate or glutamine",
+        "disposition": "not admitted for clearance",
+        "rationale": "Oral substrate presence does not establish enhanced brain extracellular glutamate removal.",
+        "final_disposition": "not admitted for clearance"
+      }
+    ],
+    "implementation_actions": [
+      "Implement the independently supported transport-ion capacity; retain GS metal limitation."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM10-DIT-RECOVERY-SODIUM",
+        "input": "Sodium",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": false
+      },
+      {
+        "atom_id": "PM10-DIT-RECOVERY-POTASSIUM",
+        "input": "Potassium",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS1-FM4-PM11",
+    "operation_review": "Limit excitotoxic pressure from excessive glutamate-receptor activity.",
+    "searches": [
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/6320006/",
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/6325946/",
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/24236167/"
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/6320006/",
+      "https://pubmed.ncbi.nlm.nih.gov/6325946/",
+      "https://pubmed.ncbi.nlm.nih.gov/24236167/"
+    ],
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Magnesium",
+        "disposition": "eligible Type A / Direct capacity",
+        "rationale": "Physiological voltage-dependent NMDA-channel block is an established ion-dependent protective operation; maintaining magnesium is distinct from pharmacological magnesium neuroprotection.",
+        "discovery_disposition": "eligible Type A / Direct capacity",
+        "final_disposition": "Admitted Type A / Direct capacity"
+      },
+      {
+        "input": "BHB + acetoacetate",
+        "disposition": "defer",
+        "rationale": "Combined experimental ketone exposure does not isolate a compound or establish ordinary dietary delivery to the tested neural stress model.",
+        "final_disposition": "defer"
+      },
+      {
+        "input": "Generic antioxidants",
+        "disposition": "not admitted",
+        "rationale": "Systemic antioxidant markers do not establish the receiving excitotoxic mechanism.",
+        "final_disposition": "not admitted"
+      }
+    ],
+    "implementation_actions": [
+      "Implement scoped physiological-magnesium capacity if governance accepts the explicit operation; no supplemental efficacy claim."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM11-DIT-RECOVERY-MAGNESIUM",
+        "input": "Magnesium",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS1-FM4-PM9",
+    "operation_review": "PLP-dependent GAD capacity for GABA synthesis.",
+    "searches": [
+      "Targeted primary-source recovery: Canonical B6 conversion audit, GAD and PDXK primary records",
+      "Targeted primary-source recovery: https://www.uniprot.org/uniprotkb/P50336/entry"
+    ],
+    "sources_assessed": [
+      "Canonical B6 conversion audit, GAD and PDXK primary records",
+      "https://www.uniprot.org/uniprotkb/P50336/entry"
+    ],
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Vitamin B2 / FMN → PNPO",
+        "disposition": "defer additional PM admission",
+        "rationale": "B6 activation uses FMN, but a second cofactor-of-cofactor route needs PM-specific supply adjudication rather than automatic nutrient propagation.",
+        "final_disposition": "defer additional PM admission"
+      },
+      {
+        "input": "Zinc / PDXK",
+        "disposition": "not admitted",
+        "rationale": "In-vitro ion preferences depend on ATP speciation and do not establish a dietary zinc dependency of GAD.",
+        "final_disposition": "not admitted"
+      },
+      {
+        "input": "Glutamate / oral GABA",
+        "disposition": "not admitted",
+        "rationale": "Endogenous substrate availability and oral GABA do not establish dietary support of GAD synthesis through the claimed route.",
+        "final_disposition": "not admitted"
+      }
+    ],
+    "implementation_actions": [
+      "Preserve B6 High confidence and completed PLP pathway."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS1-FM5-PM12",
+    "operation_review": "Synaptic membrane synthesis and structural plasticity.",
+    "searches": [
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/17683870/",
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/17950710/",
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/16631143/"
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/17683870/",
+      "https://pubmed.ncbi.nlm.nih.gov/17950710/",
+      "https://pubmed.ncbi.nlm.nih.gov/16631143/"
+    ],
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "EPA",
+        "disposition": "defer Type B",
+        "rationale": "Gerbil phosphatide/synaptic-protein changes do not establish the dendritic-spine endpoint measured for DHA/UMP; no universal structural claim.",
+        "final_disposition": "defer Type B"
+      },
+      {
+        "input": "EAAs / zinc",
+        "disposition": "not admitted as new relationships",
+        "rationale": "Generic protein synthesis and cellular actin roles are not a demonstrated PM-specific dietary dependency or structural engagement.",
+        "final_disposition": "not admitted as new relationships"
+      },
+      {
+        "input": "Choline / uridine / DHA",
+        "disposition": "retain",
+        "rationale": "Existing bounded admissions remain; food-to-UMP equivalence remains qualified.",
+        "final_disposition": "retain"
+      }
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS2-FM1-PM1",
+    "operation_review": "B12-dependent homocysteine remethylation with folate methyl supply and reductive reactivation.",
+    "searches": [
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/17892308/",
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/16380544/"
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/17892308/",
+      "https://pubmed.ncbi.nlm.nih.gov/16380544/"
+    ],
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Vitamin B2 → FMN/FAD",
+        "disposition": "eligible Type A / Derived",
+        "rationale": "Human methionine-synthase reductase uses both flavins for reductive reactivation. Riboflavin-genotype homocysteine trial is supportive dietary context, not measured remethylation flux.",
+        "discovery_disposition": "eligible Type A / Derived",
+        "final_disposition": "Admitted Type A / Derived"
+      },
+      {
+        "input": "Niacin → NADPH",
+        "disposition": "defer",
+        "rationale": "Broad upstream redox supply does not establish a new operation-specific dietary limitation or complete compartmental pathway.",
+        "final_disposition": "defer"
+      }
+    ],
+    "implementation_actions": [
+      "Implement flavin precursor capacity with ordered activation and dual-flavin limitation."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM1-DIT-RECOVERY-VITAMIN-B2",
+        "input": "Vitamin B2",
+        "type": "A",
+        "classification": "derived",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS2-FM1-PM2",
+    "operation_review": "BHMT zinc-dependent betaine remethylation.",
+    "searches": [
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/10529246/",
+      "Targeted primary-source recovery: https://doi.org/10.1006/abbi.1998.0757"
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/10529246/",
+      "https://doi.org/10.1006/abbi.1998.0757"
+    ],
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Zinc",
+        "disposition": "eligible Type A / Direct",
+        "rationale": "Human enzyme zinc removal/reconstitution and ligand mutants establish catalytic dependency; lack of extra-intake BHMT flux trials does not defeat capacity supply.",
+        "discovery_disposition": "eligible Type A / Direct",
+        "final_disposition": "Admitted Type A / Direct"
+      },
+      {
+        "input": "Folate / vitamin B6",
+        "disposition": "not direct BHMT cofactors",
+        "rationale": "Alternative remethylation and downstream transsulfuration must not be relabelled BHMT catalysis.",
+        "final_disposition": "not direct BHMT cofactors"
+      },
+      {
+        "input": "Riboflavin via choline oxidation",
+        "disposition": "defer",
+        "rationale": "Upstream CHDH characterisation and supply contribution require a separate complete-pathway assessment.",
+        "final_disposition": "defer"
+      }
+    ],
+    "implementation_actions": [
+      "Promote existing zinc participant through explicit capacity assessment, preserving original No decision."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM2-DIT-4",
+        "input": "Zinc",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS2-FM1-PM3",
+    "operation_review": "MAT synthesis of SAM from methionine and ATP.",
+    "searches": [
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/26858410/",
+      "Targeted primary-source recovery: https://pmc.ncbi.nlm.nih.gov/articles/PMC8315116/"
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/26858410/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8315116/"
+    ],
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Magnesium",
+        "disposition": "eligible Type A / Direct",
+        "rationale": "Human MAT active-site coordination establishes catalytic capacity; ordinary-food provision need not demonstrate higher flux above adequacy.",
+        "discovery_disposition": "eligible Type A / Direct",
+        "final_disposition": "Admitted Type A / Direct"
+      },
+      {
+        "input": "Potassium",
+        "disposition": "eligible Type A / Direct",
+        "rationale": "Human MAT structures and enzymology establish the specific catalytic ion.",
+        "discovery_disposition": "eligible Type A / Direct",
+        "final_disposition": "Admitted Type A / Direct"
+      },
+      {
+        "input": "ATP / supplemental SAM",
+        "disposition": "not admitted",
+        "rationale": "Food ATP delivery is not established; supplying product bypasses MAT rather than sustaining its substrate capacity.",
+        "final_disposition": "not admitted"
+      }
+    ],
+    "implementation_actions": [
+      "Promote existing Mg/K participants with independent food-supply evidence and historical preservation."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM3-DIT-3",
+        "input": "Magnesium",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": false
+      },
+      {
+        "atom_id": "PM3-DIT-4",
+        "input": "Potassium",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS2-FM1-PM4",
+    "operation_review": "Integrated methionine-cycle balance, not a universal goal of increasing all branch rates.",
+    "searches": [
+      "Targeted primary-source recovery: Canonical Lamers 2011 tracer, Stam 2005 tracer and GNMT source appraisals",
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/26858410/"
+    ],
+    "sources_assessed": [
+      "Canonical Lamers 2011 tracer, Stam 2005 tracer and GNMT source appraisals",
+      "https://pubmed.ncbi.nlm.nih.gov/26858410/"
+    ],
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Magnesium / potassium at MAT; zinc at BHMT",
+        "disposition": "defer separate integrated-cycle admission",
+        "rationale": "Recover the directly receiving enzyme PMs first; their cofactor supply is not evidence that extra ions optimise integrated branch balance.",
+        "final_disposition": "defer separate integrated-cycle admission"
+      },
+      {
+        "input": "Glycine / B12 / B2 / B6 / donors",
+        "disposition": "retain existing coverage",
+        "rationale": "These routes already have distinct accepted substrate/cofactor propositions; no duplicate admissions.",
+        "final_disposition": "retain existing coverage"
+      },
+      {
+        "input": "Methionine restriction",
+        "disposition": "not new capacity input",
+        "rationale": "Ageing outcomes do not establish desirable coordinated cycle flux or brain effects.",
+        "final_disposition": "not new capacity input"
+      }
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS2-FM2-PM5",
+    "operation_review": "PLP-dependent transsulfuration from homocysteine and serine toward cysteine.",
+    "searches": [
+      "Targeted primary-source recovery: Canonical CBS/CGL, SAM regulation and combined donor-deprivation primary source assessments"
+    ],
+    "sources_assessed": [
+      "Canonical CBS/CGL, SAM regulation and combined donor-deprivation primary source assessments"
+    ],
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Iron / CBS haem",
+        "disposition": "defer",
+        "rationale": "Haem binding and regulation must be separated from catalytic PLP dependence; no automatic generic iron requirement from a haem-containing structure.",
+        "final_disposition": "defer"
+      },
+      {
+        "input": "Folate or choline",
+        "disposition": "not individually admitted from deprivation mixture",
+        "rationale": "Combined donor-deprivation effects do not isolate independent dietary inputs.",
+        "final_disposition": "not individually admitted from deprivation mixture"
+      },
+      {
+        "input": "Glycine",
+        "disposition": "not direct substrate",
+        "rationale": "GSH assembly is downstream and distinct; CBS uses serine.",
+        "final_disposition": "not direct substrate"
+      }
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS2-FM2-PM6",
+    "operation_review": "ATP-dependent glutathione assembly by GCL and GSS.",
+    "searches": [
+      "Targeted primary-source recovery: https://pubmed.ncbi.nlm.nih.gov/10369661/",
+      "Targeted primary-source recovery: Canonical Valencia 2002 and precursor tracer assessments"
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/10369661/",
+      "Canonical Valencia 2002 and precursor tracer assessments"
+    ],
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Magnesium",
+        "disposition": "eligible Type A / Direct",
+        "rationale": "Human GSS structure contains catalytic magnesium; capacity provision is distinct from dietary magnesium increasing blood or brain glutathione flux.",
+        "discovery_disposition": "eligible Type A / Direct",
+        "final_disposition": "Admitted Type A / Direct"
+      },
+      {
+        "input": "Selenium / vitamin B2",
+        "disposition": "not assembly cofactors",
+        "rationale": "These belong to peroxidase or recycling reactions, not glutathione assembly.",
+        "final_disposition": "not assembly cofactors"
+      },
+      {
+        "input": "Glutamine / oral glutathione",
+        "disposition": "defer or not assembly input",
+        "rationale": "Plasma glutamine changes did not establish GSH synthesis; product delivery does not itself supply assembly substrates.",
+        "final_disposition": "defer or not assembly input"
+      }
+    ],
+    "implementation_actions": [
+      "Promote existing magnesium capacity record; preserve old biochemical-only decision."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM6-DIT-5",
+        "input": "Magnesium",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS2-FM3-PM7",
+    "operation_review": "PEMT and Kennedy phosphatidylcholine formation, with distinct donor and headgroup routes.",
+    "searches": [
+      "Targeted primary-source recovery: Canonical PEMT methyl tracing, Kennedy pathway and methionine feeding primary source assessments"
+    ],
+    "sources_assessed": [
+      "Canonical PEMT methyl tracing, Kennedy pathway and methionine feeding primary source assessments"
+    ],
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Choline / Kennedy route",
+        "disposition": "existing admission needs route reconciliation",
+        "rationale": "Choline is already admitted through SAM supply; the separate direct-precursor No record conflicts with the mission’s Kennedy branch. Preserve both historical records and reconcile without duplicate choline admission.",
+        "final_disposition": "existing admission needs route reconciliation"
+      },
+      {
+        "input": "Methionine → SAM",
+        "disposition": "Admitted Type A/Derived through MAT-dependent SAM supply",
+        "rationale": "Ordered methionine-to-SAM identity and reaction reconciled; existing primary methyl-incorporation evidence supports the receiving operation, without a clinical or extra-intake requirement.",
+        "final_disposition": "Admitted Type A/Derived through MAT-dependent SAM supply"
+      },
+      {
+        "input": "Dietary PE / magnesium",
+        "disposition": "defer",
+        "rationale": "Dietary PE delivery and enzyme-specific magnesium claims are not established by generic membrane or ATP chemistry.",
+        "final_disposition": "defer"
+      }
+    ],
+    "implementation_actions": [
+      "Record route conflict explicitly; do not silently replace Direct/Derived classification."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40998128/",
+        "scope": "Primary abstract and figures: neonatal piglet methyl incorporation, not adult or cerebral efficacy."
+      },
+      {
+        "url": "https://www.uniprot.org/uniprotkb/P31153/entry",
+        "scope": "Human MAT reaction Rhea21080, entry237, verified flatfile."
+      }
+    ],
+    "implementation_results": [
+      {
+        "atom_id": "PM7-DIT-RECOVERY-METHIONINE",
+        "input": "Methionine",
+        "type": "A",
+        "classification": "derived",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS3-FM1-PM1",
+    "operation_review": "NF-kB activation and inflammatory transcription.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Quercetin",
+        "disposition": "defer Type B",
+        "rationale": "CAD oral trial measured cytokines and IκBα transcription with concurrent drugs; cellular NF-kB experiments do not establish the same free-compound exposure. Do not infer direct factor activity from serum cytokines.",
+        "final_disposition": "defer Type B"
+      },
+      {
+        "input": "Catechins / ellagitannins",
+        "disposition": "defer",
+        "rationale": "Dietary metabolites differ from aglycones; PM-specific exposure and engagement remain necessary.",
+        "final_disposition": "defer"
+      },
+      {
+        "input": "Magnesium",
+        "disposition": "not admitted as IKK cofactor on present record",
+        "rationale": "Generic ATP-dependent kinase chemistry is not an independently established IKK-specific dietary dependency.",
+        "final_disposition": "not admitted as IKK cofactor on present record"
+      }
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/30392493/",
+      "https://pubmed.ncbi.nlm.nih.gov/16522772/",
+      "https://pubmed.ncbi.nlm.nih.gov/27421015/",
+      "Canonical IKK and cysteine/glycine upstream assessments"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/30392493/",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/16522772/",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/27421015/",
+      "Mission-specific source/endpoint check: Canonical IKK and cysteine/glycine upstream assessments"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS3-FM1-PM2",
+    "operation_review": "Gut-derived LPS inflammatory signalling.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Oligofructose",
+        "disposition": "eligible Type B / Direct",
+        "rationale": "Defined oral oligofructose changed barrier/endotoxin outcomes in obese mice with GLP-2 antagonism supporting a route. This is not biochemical conversion into GLP-2 or isolated butyrate mediation.",
+        "discovery_disposition": "eligible Type B / Direct",
+        "final_disposition": "Admitted Type B / Direct"
+      },
+      {
+        "input": "Resistant starch / polyphenol mixtures",
+        "disposition": "defer separate constituent claims",
+        "rationale": "Preserve measured exposure/context; endotoxin association alone cannot establish every fibre or constituent engaging the inflammatory operation.",
+        "final_disposition": "defer separate constituent claims"
+      },
+      {
+        "input": "Zinc / magnesium",
+        "disposition": "capacity candidate at intestinal phosphatase; separate ownership",
+        "rationale": "Local catalytic dependency belongs primarily to containment PM; do not duplicate broad immunoregulation from mineral presence.",
+        "final_disposition": "capacity candidate at intestinal phosphatase; separate ownership"
+      }
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/19240062/",
+      "Canonical LPS sensing and inflammatory source assessments"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/19240062/",
+      "Mission-specific source/endpoint check: Canonical LPS sensing and inflammatory source assessments"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM2-DIT-RECOVERY-OLIGOFRUCTOSE",
+        "input": "Oligofructose",
+        "type": "B",
+        "classification": "direct",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS3-FM2-PM3",
+    "operation_review": "Nrf2–ARE adaptive transcription.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Catechins / green tea",
+        "disposition": "defer",
+        "rationale": "Human randomized six-day green-tea trial found no basal/exercise Nrf2 activity effect; this neither proves all catechins ineffective nor supports a new class admission.",
+        "final_disposition": "defer"
+      },
+      {
+        "input": "Quercetin",
+        "disposition": "defer",
+        "rationale": "HepG2 target engagement and human conjugate exposure are separate; oral monocyte transcript trial did not establish Nrf2 activation.",
+        "final_disposition": "defer"
+      },
+      {
+        "input": "Ellagitannins / metabolites",
+        "disposition": "defer",
+        "rationale": "Do not substitute generic antioxidant endpoints for Nrf2–ARE engagement.",
+        "final_disposition": "defer"
+      },
+      {
+        "input": "Sulforaphane",
+        "disposition": "retain existing admission",
+        "rationale": "Already distinct supported regulatory input; no duplicate.",
+        "final_disposition": "retain existing admission"
+      }
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/37439906/",
+      "https://pubmed.ncbi.nlm.nih.gov/17462537/",
+      "https://pubmed.ncbi.nlm.nih.gov/16869998/",
+      "https://pubmed.ncbi.nlm.nih.gov/20416132/"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/37439906/",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/17462537/",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/16869998/",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/20416132/"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS3-FM2-PM4",
+    "operation_review": "Superoxide/hydrogen-peroxide generation–clearance balance.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Manganese",
+        "disposition": "preserve implemented Type A",
+        "rationale": "Dietary-depletion rat MnSOD evidence supports bounded capacity.",
+        "final_disposition": "preserve implemented Type A"
+      },
+      {
+        "input": "Zinc / SOD1",
+        "disposition": "Zinc admitted Type A/Direct for structural SOD1 capacity; copper remains the catalytic redox metal.",
+        "rationale": "SOD1 structural-metal dependency is distinct from a human extra-intake response; preserve isoform distinctions in nutritional trials.",
+        "final_disposition": "Zinc admitted Type A/Direct for structural SOD1 capacity; copper remains the catalytic redox metal."
+      },
+      {
+        "input": "Iron / catalase",
+        "disposition": "Admitted Type A/Direct for catalase capacity",
+        "rationale": "Curated haem-catalase dependency plus primary iron-depletion rat enzyme measurements; kidney-specific reduction at the lowest intake and other null tissue responses preserved. No benefit from increasing iron is inferred.",
+        "final_disposition": "Admitted Type A/Direct for catalase capacity"
+      },
+      {
+        "input": "Glutathione precursors",
+        "disposition": "defer additional relationship",
+        "rationale": "Synthesis and local clearance are separate operations; avoid copying all precursor admissions downstream.",
+        "final_disposition": "defer additional relationship"
+      }
+    ],
+    "sources_assessed": [
+      "https://doi.org/10.1093/jn/110.3.437",
+      "https://pubmed.ncbi.nlm.nih.gov/10702173/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2709309/",
+      "Canonical SOD1/catalase source appraisals",
+      "https://pubmed.ncbi.nlm.nih.gov/9800317/"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: https://doi.org/10.1093/jn/110.3.437",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/10702173/",
+      "Mission-specific source/endpoint check: https://pmc.ncbi.nlm.nih.gov/articles/PMC2709309/",
+      "Mission-specific source/endpoint check: Canonical SOD1/catalase source appraisals"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM4-DIT-2",
+        "input": "Zinc",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": false
+      },
+      {
+        "atom_id": "PM4-DIT-RECOVERY-IRON",
+        "input": "Iron",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS3-FM2-PM5",
+    "operation_review": "Control membrane lipid-peroxidation propagation and phospholipid hydroperoxides.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Selenium",
+        "disposition": "eligible Type A / Direct",
+        "rationale": "PH-GPx activity fell with dietary selenium deprivation in mice, with organ-specific retention/repletion. This supports enzyme capacity, not clinical prevention or universal extra-intake benefit.",
+        "discovery_disposition": "eligible Type A / Direct",
+        "final_disposition": "Admitted Type A / Direct"
+      },
+      {
+        "input": "Cysteine / glycine via glutathione",
+        "disposition": "defer exact downstream supply route",
+        "rationale": "GSH precursor supply must be distinguished from measured phospholipid-peroxide removal and compartmentation.",
+        "final_disposition": "defer exact downstream supply route"
+      },
+      {
+        "input": "Vitamin E",
+        "disposition": "retain",
+        "rationale": "Existing capacity and adverse high-dose evidence remain.",
+        "final_disposition": "retain"
+      }
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/2223835/",
+      "Canonical Vitamin E and SELECT assessments"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/2223835/",
+      "Mission-specific source/endpoint check: Canonical Vitamin E and SELECT assessments"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM5-DIT-RECOVERY-SELENIUM",
+        "input": "Selenium",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS3-FM2-PM6",
+    "operation_review": "Regenerate vitamin and thiol antioxidant pools.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Vitamin B2",
+        "disposition": "preserve implemented Type A / Derived",
+        "rationale": "Riboflavin activation to FAD and red-cell GR responses are retained.",
+        "final_disposition": "preserve implemented Type A / Derived"
+      },
+      {
+        "input": "Selenium",
+        "disposition": "eligible Type A / Direct",
+        "rationale": "Human-cell selenium restriction/repletion changes thioredoxin-reductase activity; glutathione reductase did not respond to selenium in that experiment.",
+        "discovery_disposition": "eligible Type A / Direct",
+        "final_disposition": "Admitted Type A / Direct"
+      },
+      {
+        "input": "Niacin / NADPH and glutathione precursors",
+        "disposition": "defer",
+        "rationale": "Reductant generation, synthesis and local recycling must not be collapsed into one supply claim.",
+        "final_disposition": "defer"
+      }
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/9288405/",
+      "https://pubmed.ncbi.nlm.nih.gov/5794396/",
+      "https://pubmed.ncbi.nlm.nih.gov/10462449/"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/9288405/",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/5794396/",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/10462449/"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM6-DIT-RECOVERY-SELENIUM",
+        "input": "Selenium",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS3-FM3-PM7",
+    "operation_review": "Cytokine expression and inflammatory response modulation.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "EPA",
+        "disposition": "Deferred for this PM: measured cytokine transcripts do not directly establish cytokine-protein production or downstream signalling intensity",
+        "rationale": "Oral EPA phase reduced stimulated-monocyte TNFA expression versus baseline in a small active-comparator crossover; not every cytokine, secretion or clinical benefit.",
+        "final_disposition": "Deferred for this PM: measured cytokine transcripts do not directly establish cytokine-protein production or downstream signalling intensity"
+      },
+      {
+        "input": "DHA",
+        "disposition": "Admitted Type B/Direct using the independent oral-DHA food-matrix trial with stimulated cytokine-protein outcomes",
+        "rationale": "Capó 2016 provides the stronger operation-matched endpoint. Preserve the separate transcript-study limits and do not count its measurements as cytokine secretion.",
+        "final_disposition": "Admitted Type B/Direct using the independent oral-DHA food-matrix trial with stimulated cytokine-protein outcomes"
+      },
+      {
+        "input": "Generic polyphenols",
+        "disposition": "defer",
+        "rationale": "Circulating cytokine associations and high-dose cell effects require actual dietary engagement and attribution.",
+        "final_disposition": "defer"
+      }
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/33303222/",
+      "Canonical Ferguson endotoxin trial and inflammatory transcription assessments",
+      "https://pubmed.ncbi.nlm.nih.gov/27139422/"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/33303222/",
+      "Mission-specific source/endpoint check: Canonical Ferguson endotoxin trial and inflammatory transcription assessments"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM7-DIT-RECOVERY-DHA-DOCOSAHEXAENOIC-ACID",
+        "input": "DHA (Docosahexaenoic Acid)",
+        "type": "B",
+        "classification": "direct",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS3-FM3-PM8",
+    "operation_review": "Eicosanoid and specialized pro-resolving mediator production/balance.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Arachidonic acid / lipoxins",
+        "disposition": "capacity candidate requiring exact route appraisal",
+        "rationale": "AA can supply both inflammatory and resolving products. Substrate identity is not evidence that dietary AA shifts their balance.",
+        "final_disposition": "capacity candidate requiring exact route appraisal"
+      },
+      {
+        "input": "Iron in LOX / COX",
+        "disposition": "further enzyme-specific appraisal",
+        "rationale": "Non-haem and haem sites differ; capacity cannot be marketed as preferential resolution.",
+        "final_disposition": "further enzyme-specific appraisal"
+      },
+      {
+        "input": "EPA / DHA",
+        "disposition": "retain",
+        "rationale": "Already admitted, with metabolism, tissue and mediator-detection limits.",
+        "final_disposition": "retain"
+      },
+      {
+        "input": "Aspirin",
+        "disposition": "not dietary input",
+        "rationale": "Medication-triggered lipoxin chemistry is not a food admission.",
+        "final_disposition": "not dietary input"
+      }
+    ],
+    "sources_assessed": [
+      "Canonical Serhan mediator biosynthesis source appraisals",
+      "https://pubmed.ncbi.nlm.nih.gov/33303222/"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: Canonical Serhan mediator biosynthesis source appraisals",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/33303222/"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS4-FM1-PM1",
+    "operation_review": "Electron transport and oxidative phosphorylation.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Copper",
+        "disposition": "eligible Type A / Direct",
+        "rationale": "Complex IV copper-centre dependency plus dietary copper supply supports capacity; depletion affects cardiac complex-IV protein in rats. No extra-intake performance claim.",
+        "discovery_disposition": "eligible Type A / Direct",
+        "final_disposition": "Admitted Type A / Direct"
+      },
+      {
+        "input": "CoQ10",
+        "disposition": "defer dietary mitochondrial delivery",
+        "rationale": "Electron-carrier identity and endogenous synthesis do not by themselves show food CoQ reaching the relevant inner-membrane pool.",
+        "final_disposition": "defer dietary mitochondrial delivery"
+      },
+      {
+        "input": "Nitrate",
+        "disposition": "defer exact PM attribution",
+        "rationale": "Human coupling-efficiency results address leak/ATP coupling, not direct proof of increased electron transport. Clinical myopathy null evidence limits generalisation.",
+        "final_disposition": "defer exact PM attribution"
+      },
+      {
+        "input": "Vitamin B2 / FMN",
+        "disposition": "retain",
+        "rationale": "Existing route and legacy active/precursor classification remain; no duplicate.",
+        "final_disposition": "retain"
+      }
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/12050000/",
+      "https://pubmed.ncbi.nlm.nih.gov/21284982/",
+      "https://pubmed.ncbi.nlm.nih.gov/28179228/",
+      "Canonical respiratory-chain source appraisals"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/12050000/",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/21284982/",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/28179228/",
+      "Mission-specific source/endpoint check: Canonical respiratory-chain source appraisals"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM1-DIT-5",
+        "input": "Copper",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS4-FM1-PM2",
+    "operation_review": "NAD pool supply and redox cycling.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Nicotinamide riboside",
+        "disposition": "Admitted Type A/Derived through NRK1 and NMNAT1; milk composition is qualitative and no food-dose equivalence is inferred.",
+        "rationale": "Measured in raw/commercial cow milk; oral NR can supply NAD metabolism. Distinguish milk content from pharmacological-dose efficacy and blood NAD from brain or mitochondrial pool. Ordered identity/pathway reconciliation needed.",
+        "final_disposition": "Admitted Type A/Derived through NRK1 and NMNAT1; milk composition is qualitative and no food-dose equivalence is inferred."
+      },
+      {
+        "input": "NMN",
+        "disposition": "defer",
+        "rationale": "Dietary occurrence, formulation and exact active-pool delivery require independent reconciliation; do not infer from NR.",
+        "final_disposition": "defer"
+      },
+      {
+        "input": "Nicotinamide / nicotinic acid / tryptophan",
+        "disposition": "retain",
+        "rationale": "Existing distinct precursor routes remain.",
+        "final_disposition": "retain"
+      }
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/27052539/",
+      "https://doi.org/10.1038/ncomms12948",
+      "Canonical NAD salvage and precursor source assessments"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/27052539/",
+      "Mission-specific source/endpoint check: https://doi.org/10.1038/ncomms12948",
+      "Mission-specific source/endpoint check: Canonical NAD salvage and precursor source assessments"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM2-DIT-RECOVERY-NICOTINAMIDE-RIBOSIDE",
+        "input": "Nicotinamide riboside",
+        "type": "A",
+        "classification": "derived",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS4-FM1-PM3",
+    "operation_review": "Creatine/phosphocreatine ATP buffering.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Arginine",
+        "type_A": "established capacity",
+        "type_B": "not claimed",
+        "classification": "derived",
+        "disposition": "Admitted Type A/Derived",
+        "rationale": "AGAT requires both arginine and glycine to form guanidinoacetate; GAMT then forms creatine. Dietary supply contributes to this endogenous synthesis capacity without requiring evidence that additional intake increases cerebral creatine. Human renal GAA production is directly measured; rat infusion responses and tissue transport limitations remain distinct.",
+        "final_disposition": "Admitted Type A/Derived"
+      },
+      {
+        "input": "Glycine",
+        "type_A": "established capacity",
+        "type_B": "not claimed",
+        "classification": "derived",
+        "disposition": "Admitted Type A/Derived",
+        "rationale": "AGAT requires both arginine and glycine to form guanidinoacetate; GAMT then forms creatine. Dietary supply contributes to this endogenous synthesis capacity without requiring evidence that additional intake increases cerebral creatine. Human renal GAA production is directly measured; rat infusion responses and tissue transport limitations remain distinct.",
+        "final_disposition": "Admitted Type A/Derived"
+      },
+      {
+        "input": "Methionine → SAM",
+        "type_A": "candidate capacity",
+        "type_B": "not claimed",
+        "classification": "derived candidate",
+        "disposition": "Admitted Type A/Derived through MAT-dependent SAM supply",
+        "rationale": "Ordered methionine-to-SAM identity and reaction reconciled; existing primary methyl-incorporation evidence supports the receiving operation, without a clinical or extra-intake requirement.",
+        "final_disposition": "Admitted Type A/Derived through MAT-dependent SAM supply"
+      },
+      {
+        "input": "Creatine",
+        "disposition": "retain",
+        "rationale": "Existing direct supply remains; no food-dose equivalence to supplement loading.",
+        "final_disposition": "retain"
+      }
+    ],
+    "sources_assessed": [
+      "Canonical AGAT/GAMT and creatine feeding source assessments"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: Canonical AGAT/GAMT and creatine feeding source assessments"
+    ],
+    "implementation_actions": [
+      "PM3-DIT-2 and PM3-DIT-3 Type A/Derived with ordered co-substrate conversions; existing PM3-DIT-1 active target reused.",
+      "Guanidinoacetate canonical intermediate created without food edges or an independent dietary admission."
+    ],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17928413/",
+        "scope": "Primary human and rat renal arteriovenous production measurements; rat arginine/citrulline response and glycine null, not human oral or cerebral efficacy."
+      },
+      {
+        "url": "https://www.uniprot.org/uniprotkb/P50440/entry",
+        "scope": "Curated human AGAT reaction, version 227, Rhea 13201."
+      },
+      {
+        "url": "https://www.uniprot.org/uniprotkb/Q14353/entry",
+        "scope": "Curated human GAMT reaction, version 215, Rhea 10656."
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40998128/",
+        "scope": "Primary abstract and figures: neonatal piglet methyl incorporation, not adult or cerebral efficacy."
+      },
+      {
+        "url": "https://www.uniprot.org/uniprotkb/P31153/entry",
+        "scope": "Human MAT reaction Rhea21080, entry237, verified flatfile."
+      }
+    ],
+    "implementation_results": [
+      {
+        "atom_id": "PM3-DIT-2",
+        "input": "Arginine",
+        "type": "A",
+        "classification": "derived",
+        "recovered_overlay": false
+      },
+      {
+        "atom_id": "PM3-DIT-3",
+        "input": "Glycine",
+        "type": "A",
+        "classification": "derived",
+        "recovered_overlay": false
+      },
+      {
+        "atom_id": "PM3-DIT-RECOVERY-METHIONINE",
+        "input": "Methionine",
+        "type": "A",
+        "classification": "derived",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS4-FM2-PM4",
+    "operation_review": "Mitochondrial source-specific ROS generation and physiological signalling.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "EPA/DHA mixture",
+        "disposition": "defer",
+        "rationale": "Succinate ROS emission changed after mixed supplementation; emission reflects generation/clearance and does not isolate a constituent or uniform beneficial source regulation.",
+        "final_disposition": "defer"
+      },
+      {
+        "input": "Nitrate",
+        "disposition": "not admitted for ROS generation",
+        "rationale": "Coupling/P:O and oxygen-cost endpoints do not measure the PM’s source-specific ROS operation.",
+        "final_disposition": "not admitted for ROS generation"
+      },
+      {
+        "input": "Ketone mixture",
+        "disposition": "defer",
+        "rationale": "Cellular BHB/acetoacetate stress exposures are not individually attributable or demonstrated ordinary-food delivery.",
+        "final_disposition": "defer"
+      }
+    ],
+    "sources_assessed": [
+      "Canonical Herbst 2014 and Maalouf 2007 source assessments",
+      "https://pubmed.ncbi.nlm.nih.gov/21284982/"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: Canonical Herbst 2014 and Maalouf 2007 source assessments",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/21284982/"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS4-FM2-PM5",
+    "operation_review": "Mitochondrial membrane/protein protective integrity.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Selenium / mitochondrial GPX4",
+        "disposition": "defer isoform-specific supply",
+        "rationale": "Whole-organ PH-GPx activity is not mitochondrial-isoform target engagement or local loading.",
+        "final_disposition": "defer isoform-specific supply"
+      },
+      {
+        "input": "CoQ10 / ubiquinol",
+        "disposition": "defer",
+        "rationale": "Electron-carrier function and reconstituted membrane antioxidant activity do not establish dietary mitochondrial antioxidant delivery.",
+        "final_disposition": "defer"
+      },
+      {
+        "input": "GSH / NAC / precursor amino acids",
+        "disposition": "defer",
+        "rationale": "Synthesis, SLC25A39 import and local protective function remain distinct; NAC can fail mitochondrial GSH restoration in specific models.",
+        "final_disposition": "defer"
+      },
+      {
+        "input": "Sulforaphane",
+        "disposition": "defer",
+        "rationale": "Micromolar free compound in neural cell stress models is not established dietary brain-mitochondrial exposure.",
+        "final_disposition": "defer"
+      },
+      {
+        "input": "Vitamin E / manganese",
+        "disposition": "retain",
+        "rationale": "Existing accepted context-qualified admissions are preserved.",
+        "final_disposition": "retain"
+      }
+    ],
+    "sources_assessed": [
+      "Canonical CoQ, GPX4 isoform, SLC25A39 and NAC/SAM source assessments",
+      "https://pubmed.ncbi.nlm.nih.gov/2223835/"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: Canonical CoQ, GPX4 isoform, SLC25A39 and NAC/SAM source assessments",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/2223835/"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS4-FM3-PM6",
+    "operation_review": "Carnitine-dependent long-chain fatty-acid mitochondrial entry.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Lysine / methionine / vitamin C / iron / B6",
+        "disposition": "defer separate precursor admissions",
+        "rationale": "Carnitine biosynthesis requires specific multi-organ steps; generic nutrient propagation is not complete PM-specific supply evidence.",
+        "final_disposition": "defer separate precursor admissions"
+      },
+      {
+        "input": "L-carnitine",
+        "disposition": "retain",
+        "rationale": "Existing canonical direct supply remains; legacy Carnitine record is not duplicated.",
+        "final_disposition": "retain"
+      },
+      {
+        "input": "Carbohydrate co-ingestion",
+        "disposition": "protocol only",
+        "rationale": "High-carbohydrate supplement-loading protocol does not establish a distinct biochemical dietary requirement.",
+        "final_disposition": "protocol only"
+      }
+    ],
+    "sources_assessed": [
+      "Canonical carnitine synthesis, transport and muscle-loading primary assessments"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: Canonical carnitine synthesis, transport and muscle-loading primary assessments"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS4-FM3-PM7",
+    "operation_review": "Use circulating ketones for neural energy.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Caprylic triglyceride / C8-containing MCT",
+        "disposition": "Admitted Type A/Derived through digestion, beta-oxidation and hepatic ketogenesis; trial formulation and brain tracer limitations retained.",
+        "rationale": "Human oral defined MCT studies measured brain acetoacetate uptake. Resolve C8-only versus C8/C10 formulations and ordered hepatic ketogenesis; coconut/lauric fat is not equivalent.",
+        "final_disposition": "Admitted Type A/Derived through digestion, beta-oxidation and hepatic ketogenesis; trial formulation and brain tracer limitations retained."
+      },
+      {
+        "input": "Direct BHB / acetoacetate",
+        "disposition": "preserve biochemical-only records",
+        "rationale": "Endogenous fuel identity is not an ordinary-food content assertion.",
+        "final_disposition": "preserve biochemical-only records"
+      },
+      {
+        "input": "Ketogenic dietary pattern",
+        "disposition": "retain SOP",
+        "rationale": "A pattern is not a biochemical input.",
+        "final_disposition": "retain SOP"
+      }
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/29914035/",
+      "Canonical Courchesne-Loyer PET assessment"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/29914035/",
+      "Mission-specific source/endpoint check: Canonical Courchesne-Loyer PET assessment"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM7-DIT-RECOVERY-CAPRYLIC-TRIGLYCERIDE",
+        "input": "Caprylic Triglyceride",
+        "type": "A",
+        "classification": "derived",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS4-FM3-PM8",
+    "operation_review": "Switch mitochondrial fuel use across changing demand.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Dietary fat / carbohydrate restriction",
+        "disposition": "defer",
+        "rationale": "Lower respiratory quotient during adaptation is not improved insulin-stimulated metabolic flexibility. Whole-body exchange is not a direct isolated mitochondrial switch.",
+        "final_disposition": "defer"
+      },
+      {
+        "input": "Nitrate / resveratrol",
+        "disposition": "defer exact switch endpoint",
+        "rationale": "Coupling, respiratory capacity or AMPK expression do not automatically measure fuel-switch performance.",
+        "final_disposition": "defer exact switch endpoint"
+      },
+      {
+        "input": "Exercise",
+        "disposition": "retain",
+        "rationale": "Existing clamp/RER-context lifestyle evidence remains.",
+        "final_disposition": "retain"
+      }
+    ],
+    "sources_assessed": [
+      "Canonical Meex 2010 source appraisal",
+      "https://pubmed.ncbi.nlm.nih.gov/22055504/",
+      "https://pubmed.ncbi.nlm.nih.gov/21284982/"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: Canonical Meex 2010 source appraisal",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/22055504/",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/21284982/"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS4-FM4-PM9",
+    "operation_review": "Mitochondrial biogenesis signalling and organelle formation.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Resveratrol",
+        "disposition": "defer",
+        "rationale": "Timmers increased PGC-1α/protein and respiratory measures without mitochondrial-content change. Exercise-combination pilot density results require between-group interaction, not comparison of separate within-group significance.",
+        "final_disposition": "defer"
+      },
+      {
+        "input": "Carbohydrate–whey",
+        "disposition": "preserve Unestablished hypothesis",
+        "rationale": "Acute PGC-1α transcription does not demonstrate measured glucose-appearance mediation or formation.",
+        "final_disposition": "preserve Unestablished hypothesis"
+      },
+      {
+        "input": "Generic B vitamins / nitrate",
+        "disposition": "not new biogenesis input",
+        "rationale": "Respiratory cofactors and coupling effects are not operation-specific evidence for new organelle formation.",
+        "final_disposition": "not new biogenesis input"
+      }
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/22055504/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5861947/",
+      "Canonical exercise-biogenesis and hypothesis records"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/22055504/",
+      "Mission-specific source/endpoint check: https://pmc.ncbi.nlm.nih.gov/articles/PMC5861947/",
+      "Mission-specific source/endpoint check: Canonical exercise-biogenesis and hypothesis records"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS5-FM1-PM1",
+    "operation_review": "Selective epithelial tight-junction integrity.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Resistant starch / pectin / FOS-GOS → butyrate",
+        "disposition": "preserve admissions and Unestablished hypothesis",
+        "rationale": "Fermentation and cellular junction effects are separate links; no new causal dietary barrier admission from joined nodes. Historical accepted upstream entries remain pending explicit review.",
+        "final_disposition": "preserve admissions and Unestablished hypothesis"
+      },
+      {
+        "input": "Vitamin D / VDR",
+        "disposition": "defer ordered dietary-activation reconciliation",
+        "rationale": "Kong 2008: VDR-null DSS mice and calcitriol-treated Caco-2 monolayers establish junction/TER relevance, not an oral vitamin-D exposure experiment. Type A adequacy remains eligible; canonical vitamin-D forms and activation to the local VDR ligand need a complete supply assessment. Do not require clinical efficacy or treat receptor knockout as dietary deficiency.",
+        "final_disposition": "defer ordered dietary-activation reconciliation"
+      },
+      {
+        "input": "Glutamine / zinc / vitamin A",
+        "disposition": "retain",
+        "rationale": "Existing capacity and selected clinical evidence already assessed, with nulls preserved.",
+        "final_disposition": "retain"
+      }
+    ],
+    "sources_assessed": [
+      "Canonical Peng, Moreau, human paracellular counterevidence and PM1-H1 five-link audit",
+      "https://pubmed.ncbi.nlm.nih.gov/26516911/",
+      "https://pubmed.ncbi.nlm.nih.gov/17962355/"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: Canonical Peng, Moreau, human paracellular counterevidence and PM1-H1 five-link audit",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/26516911/"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS5-FM1-PM2",
+    "operation_review": "Contain host endotoxin exposure, including enzyme detoxification and transport.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Zinc / magnesium in IAP",
+        "disposition": "capacity candidates requiring LPS-substrate specificity",
+        "rationale": "Defined model-phosphomonoester chemistry alone cannot establish human LPS dephosphorylation across chemotypes; preserve exact IAP limitations.",
+        "final_disposition": "capacity candidates requiring LPS-substrate specificity"
+      },
+      {
+        "input": "Resveratrol–grape-polyphenol mixture",
+        "disposition": "defer isolated constituent claims",
+        "rationale": "Whole-mixture acute LPS result cannot identify resveratrol or ordinary-food efficacy.",
+        "final_disposition": "defer isolated constituent claims"
+      },
+      {
+        "input": "Oligofructose / RS2 / meal comparisons",
+        "disposition": "retain",
+        "rationale": "Already accepted exact exposures; do not newly approve constituent or general fibre claims.",
+        "final_disposition": "retain"
+      }
+    ],
+    "sources_assessed": [
+      "Canonical Goldberg, Chen, Komazin, Igunnu, Ghanim mixture and Parnell trial source appraisals"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: Canonical Goldberg, Chen, Komazin, Igunnu, Ghanim mixture and Parnell trial source appraisals"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS5-FM1-PM3",
+    "operation_review": "Microbial activities supporting mucus and mucosal immune maintenance.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Butyrate / ellagitannin-derived urolithins",
+        "disposition": "defer",
+        "rationale": "Barrier-cell or general anti-inflammatory findings do not establish mucus growth and immune effects through the complete dietary route. Retired KC2 is not reinstated.",
+        "final_disposition": "defer"
+      },
+      {
+        "input": "Defined inulin / NCC2705",
+        "disposition": "retain",
+        "rationale": "Separate penetrability and mucus-growth endpoints, strain-specificity and combination null remain.",
+        "final_disposition": "retain"
+      },
+      {
+        "input": "Other probiotic genera",
+        "disposition": "not generic admission",
+        "rationale": "Species or food category is not the experimentally tested strain/effector.",
+        "final_disposition": "not generic admission"
+      }
+    ],
+    "sources_assessed": [
+      "Canonical Schroeder 2018 and Mazmanian 2008 source appraisals",
+      "Existing KC2 focused shared-dependency review"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: Canonical Schroeder 2018 and Mazmanian 2008 source appraisals",
+      "Mission-specific source/endpoint check: Existing KC2 focused shared-dependency review"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS5-FM2-PM4",
+    "operation_review": "Community substrate-processing competition and adaptation.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Plant variety / 30 plants",
+        "disposition": "not new biochemical input; SOP evidence gap",
+        "rationale": "Observational diversity thresholds do not demonstrate a causal processing-capacity threshold. Existing high-fibre trial measured CAZyme potential, not flux or diversity-mediated benefit.",
+        "final_disposition": "not new biochemical input; SOP evidence gap"
+      },
+      {
+        "input": "Other glycans",
+        "disposition": "candidate requiring preparation-specific appraisal",
+        "rationale": "Resource identity and utilization machinery cannot be inferred from total fibre labels.",
+        "final_disposition": "candidate requiring preparation-specific appraisal"
+      },
+      {
+        "input": "Inulin / pectin / arabinan / resistant starch",
+        "disposition": "retain",
+        "rationale": "Existing distinct machinery/substrate admissions already cover established capacity.",
+        "final_disposition": "retain"
+      }
+    ],
+    "sources_assessed": [
+      "Canonical Wastyk 2021, Patnode 2019, Sonnenburg 2010 and Ze 2012 source appraisals",
+      "Prior plant-variety focused assessment"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: Canonical Wastyk 2021, Patnode 2019, Sonnenburg 2010 and Ze 2012 source appraisals",
+      "Mission-specific source/endpoint check: Prior plant-variety focused assessment"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS5-FM2-PM5",
+    "operation_review": "Microbial SCFA production and downstream signalling.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Inulin",
+        "disposition": "eligible Type A / Direct",
+        "rationale": "Primary human-faecal cultures demonstrate inulin-supported fermentation; human tracer dilution estimates SCFAs with systemic-availability assumptions. Human faecal butyrate null with chicory inulin prevents a guaranteed butyrate claim.",
+        "discovery_disposition": "eligible Type A / Direct",
+        "final_disposition": "Admitted Type A / Direct"
+      },
+      {
+        "input": "FOS/GOS",
+        "disposition": "preserve admission; unresolved evidence conflict",
+        "rationale": "Current corrected human sampling does not establish the entire original substrate-production claim; no silent downgrade or new reapproval.",
+        "final_disposition": "preserve admission; unresolved evidence conflict"
+      },
+      {
+        "input": "Pectin / resistant starch",
+        "disposition": "retain",
+        "rationale": "Food form, donor community and endpoint limits remain.",
+        "final_disposition": "retain"
+      }
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/15182395/",
+      "https://pubmed.ncbi.nlm.nih.gov/26516911/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6355990/",
+      "Canonical FOS/GOS correction assessment"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/15182395/",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/26516911/",
+      "Mission-specific source/endpoint check: https://pmc.ncbi.nlm.nih.gov/articles/PMC6355990/",
+      "Mission-specific source/endpoint check: Canonical FOS/GOS correction assessment"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM5-DIT-RECOVERY-INULIN",
+        "input": "Inulin",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS5-FM2-PM6",
+    "operation_review": "Microbial activation of dietary polyphenols into metabolites.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Epicatechin",
+        "disposition": "eligible Type A / Direct",
+        "rationale": "Human-donor fermentation and isolated catechin-converting bacteria establish substrate-specific conversion; human apple-extract trial supports valerolactone formation but not isolated-compound efficacy or mitochondrial benefit.",
+        "discovery_disposition": "eligible Type A / Direct",
+        "final_disposition": "Admitted Type A / Direct"
+      },
+      {
+        "input": "Oligomeric procyanidins",
+        "disposition": "defer equivalent conversion claim",
+        "rationale": "Matched trial yielded much less valerolactone than monomeric flavanols; do not treat all polyphenols as interchangeable.",
+        "final_disposition": "defer equivalent conversion claim"
+      },
+      {
+        "input": "Ellagic acid / ellagitannins",
+        "disposition": "retain",
+        "rationale": "Existing urolithin supply remains metabotype-dependent.",
+        "final_disposition": "retain"
+      }
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/33216536/",
+      "https://pubmed.ncbi.nlm.nih.gov/37683128/",
+      "https://pubmed.ncbi.nlm.nih.gov/32223044/"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/33216536/",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/37683128/",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/32223044/"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM6-DIT-RECOVERY-EPICATECHIN",
+        "input": "Epicatechin",
+        "type": "A",
+        "classification": "direct",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS5-FM3-PM7",
+    "operation_review": "Nutrient-sensitive vagal and enteric neural signalling.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Linoleic acid",
+        "disposition": "preserve existing Low/admission conflict",
+        "rationale": "Defined 10% free-fatty-acid stimulus does not show equivalent esterified-food exposure; do not use confidence to bridge a failed delivery link.",
+        "final_disposition": "preserve existing Low/admission conflict"
+      },
+      {
+        "input": "Other fatty acids / SCFA receptors",
+        "disposition": "defer individual route",
+        "rationale": "Receptor expression and systemic markers do not establish the same intestinal neural circuit.",
+        "final_disposition": "defer individual route"
+      },
+      {
+        "input": "Sodium / glucose transporter sensing",
+        "disposition": "candidate requiring exact circuit dependency",
+        "rationale": "Glucose-sensing mechanisms differ; do not propagate generic sodium to all gut-brain nerve signalling.",
+        "final_disposition": "candidate requiring exact circuit dependency"
+      },
+      {
+        "input": "JB-1",
+        "disposition": "retain",
+        "rationale": "Mouse vagus dependence and human null remain distinct.",
+        "final_disposition": "retain"
+      }
+    ],
+    "sources_assessed": [
+      "Canonical Li 2022, Kaelberer 2018, Bravo 2011 and Kelly 2017 appraisals"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: Canonical Li 2022, Kaelberer 2018, Bravo 2011 and Kelly 2017 appraisals"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS5-FM3-PM8",
+    "operation_review": "Gut-side microbial processing shaping precursor availability.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "β-glucan / arabinoxylan / other fibres",
+        "disposition": "defer exact identity",
+        "rationale": "Donor-culture indole changes are credible but preparation/linkage and normalized responses need resolution before class-wide food claims.",
+        "final_disposition": "defer exact identity"
+      },
+      {
+        "input": "Dietary vitamin B6 → microbial PLP",
+        "disposition": "not admitted from enzyme identity",
+        "rationale": "Microbial synthesis and host cofactor delivery differ; bound PLP does not establish host dietary B6 limitation.",
+        "final_disposition": "not admitted from enzyme identity"
+      },
+      {
+        "input": "Tryptophan / apple pectin",
+        "disposition": "retain",
+        "rationale": "Existing substrate and specific regulatory preparation remain; no brain neurotransmitter claim.",
+        "final_disposition": "retain"
+      }
+    ],
+    "sources_assessed": [
+      "Canonical Sinha 2024, Kogan 2015 and Zuend 2025 source appraisals"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: Canonical Sinha 2024, Kogan 2015 and Zuend 2025 source appraisals"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS6-FM1-PM1",
+    "operation_review": "Measured postprandial glucose-appearance kinetics.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Psyllium / pectin",
+        "disposition": "defer direct appearance claim",
+        "rationale": "Gastric-emptying and blood-glucose responses vary by preparation; do not infer tracer appearance from glycaemia alone.",
+        "final_disposition": "defer direct appearance claim"
+      },
+      {
+        "input": "Beta-glucan / guar mixture / whey",
+        "disposition": "retain protocol placement",
+        "rationale": "Already tested meal additions belong in SOPs with matrix/sequence limits, not new generic biochemical requirements.",
+        "final_disposition": "retain protocol placement"
+      },
+      {
+        "input": "Sodium / SGLT1",
+        "disposition": "capacity candidate requiring whole-operation scope",
+        "rationale": "Transporter dependency is specific but does not establish that more sodium improves appearance control; no automatic clinical or optimal-rate direction.",
+        "final_disposition": "capacity candidate requiring whole-operation scope"
+      }
+    ],
+    "sources_assessed": [
+      "https://www.nature.com/articles/1600518",
+      "https://pubmed.ncbi.nlm.nih.gov/31067731/",
+      "Canonical glucose tracer and SGLT1 source appraisals"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: https://www.nature.com/articles/1600518",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/31067731/",
+      "Mission-specific source/endpoint check: Canonical glucose tracer and SGLT1 source appraisals"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS6-FM1-PM2",
+    "operation_review": "Limit glucose excursion variability.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Resistant starch / isolated fibre",
+        "disposition": "defer variability admission",
+        "rationale": "Clamp insulin sensitivity and glycaemic AUC are not CGM variability; existing food packages isolate neither constituent.",
+        "final_disposition": "defer variability admission"
+      },
+      {
+        "input": "Chromium",
+        "disposition": "not admitted on recovered evidence",
+        "rationale": "Trials do not establish improved insulin sensitivity or glucose regulation; no indispensable biochemical cofactor established here.",
+        "final_disposition": "not admitted on recovered evidence"
+      },
+      {
+        "input": "Grain processing / early eating / movement",
+        "disposition": "retain",
+        "rationale": "Existing endpoint-specific SOP/lifestyle records remain.",
+        "final_disposition": "retain"
+      }
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/20634174/",
+      "https://pubmed.ncbi.nlm.nih.gov/16155268/",
+      "Canonical Aberg, Bruno, Karstoft and Babir trial appraisals"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/20634174/",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/16155268/",
+      "Mission-specific source/endpoint check: Canonical Aberg, Bruno, Karstoft and Babir trial appraisals"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS6-FM1-PM3",
+    "operation_review": "Insulin-sensitive glucose disposal.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Resistant starch",
+        "disposition": "eligible Type B / Direct with context limits",
+        "rationale": "Primary human clamp crossover found increased insulin sensitivity and forearm clearance; later type-2-diabetes trial found no clamp improvement. No universal dose/benefit or measured SCFA mediation.",
+        "discovery_disposition": "eligible Type B / Direct with context limits",
+        "final_disposition": "Admitted Type B / Direct with context limits"
+      },
+      {
+        "input": "Chromium",
+        "disposition": "not admitted",
+        "rationale": "Randomized primary trials do not establish this proposed regulator or an essential enzyme-capacity dependency.",
+        "final_disposition": "not admitted"
+      },
+      {
+        "input": "Nitrate",
+        "disposition": "not admitted from acute glucose studies",
+        "rationale": "Increased plasma nitrate/nitrite without improved glucose/insulin responses does not establish disposal engagement.",
+        "final_disposition": "not admitted from acute glucose studies"
+      },
+      {
+        "input": "Sleep",
+        "disposition": "eligible lifestyle candidate",
+        "rationale": "Controlled restriction impaired adipocyte Akt response and whole-body insulin sensitivity; not a food input or general proof that extension treats diabetes.",
+        "final_disposition": "Lifestyle lead retained for separate protocol adjudication; no new lifestyle admission in this dietary recovery"
+      }
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/16155268/",
+      "https://pubmed.ncbi.nlm.nih.gov/24671124/",
+      "https://pubmed.ncbi.nlm.nih.gov/20634174/",
+      "https://pubmed.ncbi.nlm.nih.gov/26092495/",
+      "https://pubmed.ncbi.nlm.nih.gov/23070488/"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/16155268/",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/24671124/",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/20634174/",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/26092495/",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/23070488/"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": [
+      {
+        "atom_id": "PM3-DIT-RECOVERY-RESISTANT-STARCH",
+        "input": "Resistant starch",
+        "type": "B",
+        "classification": "direct",
+        "recovered_overlay": false
+      }
+    ]
+  },
+  {
+    "pm_id": "BRS6-FM2-PM4",
+    "operation_review": "Diurnal cortisol amplitude and phase.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Caffeine",
+        "disposition": "defer rhythm-modulation admission",
+        "rationale": "Timed oral doses alter cortisol secretion with tolerance; acute secretion changes do not establish the phase/amplitude operation. A beneficial or normalising response is not an additional admission requirement.",
+        "final_disposition": "defer rhythm-modulation admission"
+      },
+      {
+        "input": "B-GOS",
+        "disposition": "defer full-rhythm claim",
+        "rationale": "Awakening response is a bounded endpoint, not full-day phase/amplitude.",
+        "final_disposition": "defer full-rhythm claim"
+      },
+      {
+        "input": "Meal delay",
+        "disposition": "retain null boundary",
+        "rationale": "Peripheral clock/glucose changes did not shift cortisol in the controlled experiment.",
+        "final_disposition": "retain null boundary"
+      }
+    ],
+    "sources_assessed": [
+      "https://doi.org/10.1097/01.psy.0000181270.20036.06",
+      "https://pubmed.ncbi.nlm.nih.gov/8951977/",
+      "Canonical Schmidt 2015 and Wehrens 2017 appraisals"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: https://doi.org/10.1097/01.psy.0000181270.20036.06",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/8951977/",
+      "Mission-specific source/endpoint check: Canonical Schmidt 2015 and Wehrens 2017 appraisals"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS6-FM3-PM6",
+    "operation_review": "Transition from sympathetic activation to parasympathetic recovery.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "EPA+DHA fish oil",
+        "disposition": "defer isolated-compound / vagal mechanism claim",
+        "rationale": "Faster intrinsic heart-rate recovery occurred without improved resting parasympathetic indices; do not equate cardiac slowing with autonomic recovery.",
+        "final_disposition": "defer isolated-compound / vagal mechanism claim"
+      },
+      {
+        "input": "Magnesium / caffeine",
+        "disposition": "defer",
+        "rationale": "Generic stress biomarkers or resting HRV do not establish post-stressor state transition.",
+        "final_disposition": "defer"
+      },
+      {
+        "input": "Meditation",
+        "disposition": "retain",
+        "rationale": "Acute recovery study already placed in SOP; HRV recovery was not uniquely meditation.",
+        "final_disposition": "retain"
+      }
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/25355484/",
+      "Canonical Borchardt 2018 and Wadsworth 2019 appraisals"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/25355484/",
+      "Mission-specific source/endpoint check: Canonical Borchardt 2018 and Wadsworth 2019 appraisals"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS6-FM3-PM7",
+    "operation_review": "Cardiac HRV-linked vagal regulation.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "EPA / DHA individually",
+        "disposition": "defer constituent attribution",
+        "rationale": "Existing combined-formulation trial cannot identify either constituent; intrinsic HR slowing is a competing explanation in another fish-oil trial.",
+        "final_disposition": "defer constituent attribution"
+      },
+      {
+        "input": "Mixed omega-3 protocol",
+        "disposition": "retain SOP",
+        "rationale": "Already admitted combined formulation and selected population, not universal food-dose efficacy.",
+        "final_disposition": "retain SOP"
+      },
+      {
+        "input": "Breathing / exercise",
+        "disposition": "retain",
+        "rationale": "Respiration and sex-specific effects remain qualified; no generic dietary cofactor.",
+        "final_disposition": "retain"
+      }
+    ],
+    "sources_assessed": [
+      "https://pubmed.ncbi.nlm.nih.gov/25355484/",
+      "Canonical Sauder 2013, Sloan 2009 and breathing trial appraisals"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/25355484/",
+      "Mission-specific source/endpoint check: Canonical Sauder 2013, Sloan 2009 and breathing trial appraisals"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS6-FM4-PM8",
+    "operation_review": "Adipokine secretion, endocrine responsiveness and local adipose glucocorticoid regulation.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "EPA",
+        "disposition": "defer individual adiponectin admission",
+        "rationale": "Cell secretion and mixed fish-oil blood effects do not establish the same local dietary mechanism; existing separate DHA attribution does not transfer to EPA.",
+        "final_disposition": "defer individual adiponectin admission"
+      },
+      {
+        "input": "Fibre / ALA / flax lignans",
+        "disposition": "defer isolated constituent claims",
+        "rationale": "Milled flaxseed response cannot identify an isolated component; pooled soluble-fibre adipokines are heterogeneous/null.",
+        "final_disposition": "defer isolated constituent claims"
+      },
+      {
+        "input": "Sleep / adipocyte Akt",
+        "disposition": "scope-qualified candidate",
+        "rationale": "Insulin responsiveness in adipocytes is direct tissue evidence, but overlaps insulin-disposal PM; no automatic new endocrine secretion claim.",
+        "final_disposition": "scope-qualified candidate"
+      },
+      {
+        "input": "DHA / flaxseed / energy restriction / aerobic exercise",
+        "disposition": "retain",
+        "rationale": "Existing complete seven-study recovery and selected tissue evidence already cover these routes.",
+        "final_disposition": "retain"
+      }
+    ],
+    "sources_assessed": [
+      "Canonical PM8 SF12–SF21 and seven-study primary source audit",
+      "https://pubmed.ncbi.nlm.nih.gov/23070488/"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: Canonical PM8 SF12–SF21 and seven-study primary source audit",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/23070488/"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  },
+  {
+    "pm_id": "BRS6-FM4-PM9",
+    "operation_review": "Stress-responsive central appetite and reward signalling.",
+    "canonical_corpus_reviewed": true,
+    "candidates": [
+      {
+        "input": "Caffeine / tryptophan / omega-3",
+        "disposition": "defer",
+        "rationale": "Cortisol, circulating substrates or generic stress reduction do not measure the specific hypothalamic/reward appetite operation.",
+        "final_disposition": "defer"
+      },
+      {
+        "input": "Protein / fibre satiety",
+        "disposition": "not admitted from satiety alone",
+        "rationale": "General appetite suppression does not establish stress-modulated central signalling.",
+        "final_disposition": "not admitted from satiety alone"
+      },
+      {
+        "input": "Mindfulness",
+        "disposition": "retain",
+        "rationale": "Existing behavioural protocol remains self-report/pseudo-randomized; no inferred neural mediation.",
+        "final_disposition": "retain"
+      }
+    ],
+    "sources_assessed": [
+      "Canonical Epel 2001 and Torske 2024 source appraisals",
+      "https://pubmed.ncbi.nlm.nih.gov/8951977/"
+    ],
+    "searches": [
+      "Mission-specific source/endpoint check: Canonical Epel 2001 and Torske 2024 source appraisals",
+      "Mission-specific source/endpoint check: https://pubmed.ncbi.nlm.nih.gov/8951977/"
+    ],
+    "implementation_actions": [],
+    "review_date": "2026-10-26",
+    "review_scope": "Mission-specific candidate discovery and evidence adjudication; no claim of exhaustive systematic review.",
+    "validation_status": "passed",
+    "implementation_results": []
+  }
+]

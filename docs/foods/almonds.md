@@ -159,6 +159,85 @@ substance_relationships:
     source_url: 'https://fdc.nal.usda.gov/food-details/170567/nutrients'
     presence_status: presence_and_amount_supported
 substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-170567
+    material: Nuts, almonds
+    preparation: raw
+    food_group: plant
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 170567
+      source_url: https://fdc.nal.usda.gov/food-details/170567/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 21.15
+    protein_source_row_id: "1533832"
+    amino_acids:
+      histidine:
+        value: 0.539
+        source_row_id: "1533899"
+        nutrient_id: "1221"
+        data_points: 0
+        derivation_id: "1"
+      isoleucine:
+        value: 0.751
+        source_row_id: "1533893"
+        nutrient_id: "1212"
+        data_points: 0
+        derivation_id: "1"
+      leucine:
+        value: 1.473
+        source_row_id: "1533894"
+        nutrient_id: "1213"
+        data_points: 0
+        derivation_id: "1"
+      lysine:
+        value: 0.568
+        source_row_id: "1533895"
+        nutrient_id: "1214"
+        data_points: 0
+        derivation_id: "1"
+      methionine:
+        value: 0.157
+        source_row_id: "1533848"
+        nutrient_id: "1215"
+        data_points: 0
+        derivation_id: "1"
+      phenylalanine:
+        value: 1.132
+        source_row_id: "1533849"
+        nutrient_id: "1217"
+        data_points: 0
+        derivation_id: "1"
+      threonine:
+        value: 0.601
+        source_row_id: "1533847"
+        nutrient_id: "1211"
+        data_points: 0
+        derivation_id: "1"
+      tryptophan:
+        value: 0.211
+        source_row_id: "1533846"
+        nutrient_id: "1210"
+        data_points: 0
+        derivation_id: "1"
+      valine:
+        value: 0.855
+        source_row_id: "1533897"
+        nutrient_id: "1219"
+        data_points: 0
+        derivation_id: "1"
+    portion:
+      label: 1 oz (23 whole kernels)
+      source_row_id: "86867"
+      source_grams: 28.35
+      multiplier: 1
+    limitations: >-
+      USDA database composition, including source-specific analytical or calculated values. No
+      amino-acid-specific digestibility correction; illustrative USDA household portion, not an
+      intake recommendation. Missing values are not treated as zero.
 ---
 ## Overview
 

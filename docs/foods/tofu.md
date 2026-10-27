@@ -121,9 +121,7 @@ nutrition_supplementary_sources:
 substance_relationships:
   - substance: Tyrosine
     relationship: contains
-    description: >-
-      USDA FoodData Central reports tyrosine in Tofu, raw, firm, prepared with
-      calcium sulfate.
+    description: USDA FoodData Central reports tyrosine in Tofu, raw, firm, prepared with calcium sulfate.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: tofu|Tyrosine
@@ -134,9 +132,7 @@ substance_relationships:
     source_reference: '#food-source-5'
   - substance: Linoleic Acid
     relationship: contains
-    description: >-
-      USDA FoodData Central reports linoleic acid in Tofu, raw, firm, prepared
-      with calcium sulfate.
+    description: USDA FoodData Central reports linoleic acid in Tofu, raw, firm, prepared with calcium sulfate.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: tofu|Linoleic Acid
@@ -147,9 +143,7 @@ substance_relationships:
     source_reference: '#food-source-5'
   - substance: Calcium
     relationship: contains
-    description: >-
-      USDA FoodData Central reports calcium in Tofu, raw, firm, prepared with
-      calcium sulfate.
+    description: USDA FoodData Central reports calcium in Tofu, raw, firm, prepared with calcium sulfate.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: tofu|Calcium
@@ -160,9 +154,7 @@ substance_relationships:
     source_reference: '#food-source-5'
   - substance: Magnesium
     relationship: contains
-    description: >-
-      USDA FoodData Central reports magnesium in Tofu, raw, firm, prepared with
-      calcium sulfate.
+    description: USDA FoodData Central reports magnesium in Tofu, raw, firm, prepared with calcium sulfate.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: tofu|Magnesium
@@ -173,9 +165,7 @@ substance_relationships:
     source_reference: '#food-source-5'
   - substance: Phosphorus
     relationship: contains
-    description: >-
-      USDA FoodData Central reports phosphorus in Tofu, raw, firm, prepared with
-      calcium sulfate.
+    description: USDA FoodData Central reports phosphorus in Tofu, raw, firm, prepared with calcium sulfate.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: tofu|Phosphorus
@@ -186,9 +176,7 @@ substance_relationships:
     source_reference: '#food-source-5'
   - substance: Copper
     relationship: contains
-    description: >-
-      USDA FoodData Central reports copper in Tofu, raw, firm, prepared with
-      calcium sulfate.
+    description: USDA FoodData Central reports copper in Tofu, raw, firm, prepared with calcium sulfate.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: tofu|Copper
@@ -199,9 +187,7 @@ substance_relationships:
     source_reference: '#food-source-5'
   - substance: Iron
     relationship: contains
-    description: >-
-      USDA FoodData Central reports iron in Tofu, raw, firm, prepared with
-      calcium sulfate.
+    description: USDA FoodData Central reports iron in Tofu, raw, firm, prepared with calcium sulfate.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: tofu|Iron
@@ -212,9 +198,7 @@ substance_relationships:
     source_reference: '#food-source-5'
   - substance: Manganese
     relationship: contains
-    description: >-
-      USDA FoodData Central reports manganese in Tofu, raw, firm, prepared with
-      calcium sulfate.
+    description: USDA FoodData Central reports manganese in Tofu, raw, firm, prepared with calcium sulfate.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: tofu|Manganese
@@ -225,9 +209,7 @@ substance_relationships:
     source_reference: '#food-source-5'
   - substance: Selenium
     relationship: contains
-    description: >-
-      USDA FoodData Central reports selenium in Tofu, raw, firm, prepared with
-      calcium sulfate.
+    description: USDA FoodData Central reports selenium in Tofu, raw, firm, prepared with calcium sulfate.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: tofu|Selenium
@@ -239,8 +221,8 @@ substance_relationships:
   - substance: Genistein
     relationship: contains
     description: >-
-      Contains genistein-related isoflavones, including glycosides; proportions
-      vary with processing.
+      Contains genistein-related isoflavones, including glycosides; proportions vary with
+      processing.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: tofu|Genistein
@@ -251,9 +233,7 @@ substance_relationships:
     source_reference: '#food-source-3'
   - substance: Choline
     relationship: contains
-    description: >-
-      Choline is documented in tofu; a preparation-matched amount is
-      unavailable.
+    description: Choline is documented in tofu; a preparation-matched amount is unavailable.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: tofu|Choline
@@ -262,7 +242,112 @@ substance_relationships:
     evidence_material: firm tofu
     source_url: https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Choline/Choln02.pdf
     source_reference: '#food-source-4'
+  - substance: Glutamine
+    substance_id: glutamine
+    relationship: contains
+    evidence_status: supported
+    evidence_material: Soy protein in tofu
+    preparation_state: form not known
+    source_url: https://doi.org/10.1038/ejcn.2009.110
+    citation_keys:
+      - lenders_amino_acid_sequencing_2009
+    evidence_source: 'Lenders et al. (2009), Table 1: protein-sequence-based occurrence.'
+    material_limitations: Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.
+    food_delivery_notes: Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.
+    chemical_form: protein-bound glutamine residues
+  - substance: Glutamate
+    substance_id: glutamate
+    relationship: contains
+    evidence_status: supported
+    evidence_material: Soy protein in tofu
+    preparation_state: form not known
+    source_url: https://doi.org/10.1038/ejcn.2009.110
+    citation_keys:
+      - lenders_amino_acid_sequencing_2009
+    evidence_source: 'Lenders et al. (2009), Table 1: protein-sequence-based occurrence.'
+    material_limitations: Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.
+    food_delivery_notes: Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.
+    chemical_form: protein-bound glutamate residues
 substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-172475
+    material: Tofu, raw, firm, prepared with calcium sulfate
+    preparation: firm, calcium-set
+    food_group: plant
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 172475
+      source_url: https://fdc.nal.usda.gov/food-details/172475/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 17.27
+    protein_source_row_id: "1698062"
+    amino_acids:
+      histidine:
+        value: 0.431
+        source_row_id: "1698058"
+        nutrient_id: "1221"
+        data_points: 0
+        derivation_id: "51"
+      isoleucine:
+        value: 0.849
+        source_row_id: "1698052"
+        nutrient_id: "1212"
+        data_points: 0
+        derivation_id: "51"
+      leucine:
+        value: 1.392
+        source_row_id: "1698053"
+        nutrient_id: "1213"
+        data_points: 0
+        derivation_id: "51"
+      lysine:
+        value: 0.883
+        source_row_id: "1698054"
+        nutrient_id: "1214"
+        data_points: 0
+        derivation_id: "51"
+      methionine:
+        value: 0.211
+        source_row_id: "1698065"
+        nutrient_id: "1215"
+        data_points: 0
+        derivation_id: "51"
+      phenylalanine:
+        value: 0.835
+        source_row_id: "1698066"
+        nutrient_id: "1217"
+        data_points: 0
+        derivation_id: "51"
+      threonine:
+        value: 0.785
+        source_row_id: "1698064"
+        nutrient_id: "1211"
+        data_points: 0
+        derivation_id: "51"
+      tryptophan:
+        value: 0.235
+        source_row_id: "1698063"
+        nutrient_id: "1210"
+        data_points: 0
+        derivation_id: "51"
+      valine:
+        value: 0.87
+        source_row_id: "1698056"
+        nutrient_id: "1219"
+        data_points: 0
+        derivation_id: "51"
+    portion:
+      label: 0.5 cup
+      source_row_id: "90683"
+      source_grams: 126
+      multiplier: 1
+    limitations: >-
+      USDA database composition, including source-specific analytical or calculated values. No
+      amino-acid-specific digestibility correction; illustrative USDA household portion, not an
+      intake recommendation. Missing values are not treated as zero.
 ---
 ## Overview
 

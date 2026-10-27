@@ -58,61 +58,100 @@ nutrition_supplementary_sources:
     status: Present — quantity depends on ripeness and cultivar
     amount_display: Present — quantity depends on ripeness and cultivar
     source_note: >-
-      Direct analyses of Cavendish and plantain bananas found resistant starch
-      declined during ripening (Gao et al. 2016).
+      Direct analyses of Cavendish and plantain bananas found resistant starch declined during
+      ripening (Gao et al. 2016).
     public_note: >-
-      Gao et al. 2016 supports this qualitative constituent record. See
-      technical provenance for food form and measurement details.
+      Gao et al. 2016 supports this qualitative constituent record. See technical provenance for
+      food form and measurement details.
     source_group: >-
-      Gao et al. 2016 supports this qualitative constituent record. See
-      technical provenance for food form and measurement details.
+      Gao et al. 2016 supports this qualitative constituent record. See technical provenance for
+      food form and measurement details.
   - key: polyphenol_oxidase_qual
     label: Polyphenol oxidase (PPO)
     status: Present — activity depends on fruit and handling
     amount_display: Present — activity depends on fruit and handling
     source_note: >-
-      A controlled banana-smoothie study identified banana PPO activity as the
-      relevant preparation property (Ottaviani et al. 2023).
+      A controlled banana-smoothie study identified banana PPO activity as the relevant preparation
+      property (Ottaviani et al. 2023).
     public_note: >-
-      Ottaviani et al. 2023 supports this qualitative constituent record. See
-      technical provenance for food form and measurement details.
+      Ottaviani et al. 2023 supports this qualitative constituent record. See technical provenance
+      for food form and measurement details.
     source_group: >-
-      Ottaviani et al. 2023 supports this qualitative constituent record. See
-      technical provenance for food form and measurement details.
+      Ottaviani et al. 2023 supports this qualitative constituent record. See technical provenance
+      for food form and measurement details.
+  - key: glucose_sr_173944
+    label: Glucose
+    substance_id: glucose
+    value: 4.98
+    unit: g
+    basis: per 100 g edible portion
+    source_url: https://fdc.nal.usda.gov/food-details/173944/nutrients
+    source_note: >-
+      USDA SR Legacy glucose (nutrient 1011), distinct from total sugars. Exact source food and form
+      retained.
+    evidence_material: Bananas, raw
+    preparation_state: raw
+    fdc_id: 173944
+    evidence_status: supported
+    public_display: public
 main_image: /img/foods/bananas/bananas_medium.webp
 legacy_list_image: /img/foods/bananas/bananas_thumb.webp
 legacy_main_image: /img/foods/bananas/bananas_medium.webp
 substance_relationships:
   - substance: Potassium
     relationship: contains
-    description: 'USDA FoodData Central reports potassium in Bananas, raw.'
+    description: USDA FoodData Central reports potassium in Bananas, raw.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: bananas|Potassium
     evidence_source: USDA SR Legacy April 2018
-    evidence_material: 'Bananas, raw'
-    source_url: 'https://fdc.nal.usda.gov/food-details/173944/nutrients'
+    evidence_material: Bananas, raw
+    source_url: https://fdc.nal.usda.gov/food-details/173944/nutrients
     presence_status: presence_and_amount_supported
   - substance: Vitamin B6
     relationship: contains
-    description: 'USDA FoodData Central reports vitamin B6 in Bananas, raw.'
+    description: USDA FoodData Central reports vitamin B6 in Bananas, raw.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: bananas|Vitamin B6
     evidence_source: USDA SR Legacy April 2018
-    evidence_material: 'Bananas, raw'
-    source_url: 'https://fdc.nal.usda.gov/food-details/173944/nutrients'
+    evidence_material: Bananas, raw
+    source_url: https://fdc.nal.usda.gov/food-details/173944/nutrients
     presence_status: presence_and_amount_supported
   - substance: Resistant starch
     relationship: contains
-    description: "Gao et al. (2016) measured resistant starch in Cavendish and plantain bananas and its decline during ripening. Presence depends on cultivar and ripeness. No amount is copied onto this page."
+    description: >-
+      Gao et al. (2016) measured resistant starch in Cavendish and plantain bananas and its decline
+      during ripening. Presence depends on cultivar and ripeness. No amount is copied onto this
+      page.
     evidence_status: supported
     presence_status: presence_supported_amount_unavailable
-    evidence_source: "Gao et al., Postharvest Biology and Technology 2016"
-    evidence_material: "Cavendish and plantain bananas"
-    preparation_state: "Green/unripe; cultivar and ripening state matter"
-    source_url: "https://doi.org/10.1016/j.postharvbio.2016.03.022"
-    material_limitations: "Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre."
+    evidence_source: Gao et al., Postharvest Biology and Technology 2016
+    evidence_material: Cavendish and plantain bananas
+    preparation_state: Green/unripe; cultivar and ripening state matter
+    source_url: https://doi.org/10.1016/j.postharvbio.2016.03.022
+    material_limitations: >-
+      Cultivar and ripening state change the result. No amount is inferred from total carbohydrate
+      or fibre.
+  - substance: Glucose
+    substance_id: glucose
+    relationship: contains
+    evidence_status: supported
+    evidence_material: Bananas, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/173944/nutrients
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_source: >-
+      USDA SR Legacy nutrient 1011 reports glucose separately from fructose, sucrose, total sugars
+      and carbohydrate.
+    material_limitations: >-
+      Composition only; ripeness, cultivar and product vary. Not evidence that ordinary portions
+      reproduce an experimental intestinal glucose stimulus.
+    food_delivery_notes: >-
+      Composition only; ripeness, cultivar and product vary. Not evidence that ordinary portions
+      reproduce an experimental intestinal glucose stimulus.
+    chemical_form: glucose
 substance_review_candidates: []
 ---
 ## Overview

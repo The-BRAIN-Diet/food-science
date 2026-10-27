@@ -1,4 +1,5 @@
 import * as foodTargetTraceability from '../src/lib/foodTargetTraceability.mjs';
+import * as aggregateFoodComposition from '../src/lib/aggregateFoodComposition.mjs';
 
 // These deliberately incomplete legacy structural fixtures are not scientific admissions.
 function assertOnlyProspectiveReviewGaps(issues) {
@@ -673,7 +674,7 @@ test("PM3 uses the PM9 atom and disclosure contract for dietary requirements", (
   assert.equal(atp.input_type, "substrate");
   assert.equal(isDietaryRequirementAtom(atp), false);
   assert.equal(magnesium.input_type, "catalytic ion");
-  assert.equal(magnesium.relationship_layer, "biochemical-requirement");
+  assert.equal(magnesium.relationship_layer, "dietary-requirement");
   assert.equal(potassium.input_type, "catalytic ion");
   assert.equal(protein.requirement_classification, "derived");
   assert.equal(protein.input_type, "substrate provision");
@@ -692,8 +693,8 @@ test("PM3 uses the PM9 atom and disclosure contract for dietary requirements", (
     [
       "Methionine",
       "ATP",
-      "Magnesium ions (Mg²⁺)",
-      "Potassium ions (K⁺)",
+      "Magnesium",
+      "Potassium",
     ],
   );
   assert.ok(disclosures.every((item) => item.evidenceReferences.length > 0));
@@ -714,7 +715,7 @@ test("PM3 uses the PM9 atom and disclosure contract for dietary requirements", (
   assert.equal(methionineFoodless.atomId, "PM3-DIT-1");
   assert.equal(methionineFoodless.title, "Methionine");
   assert.equal(
-    disclosureMap.get(dietaryLeverBulletKey("Magnesium ions (Mg²⁺)", "", "3.1.2")).atomId,
+    disclosureMap.get(dietaryLeverBulletKey("Magnesium", "", "3.1.1")).atomId,
     "PM3-DIT-3",
   );
 
@@ -739,11 +740,11 @@ test("PM3 uses the PM9 atom and disclosure contract for dietary requirements", (
     "Cellular energy co-substrate",
   );
   assert.equal(
-    disclosureMap.get(dietaryLeverBulletKey("Magnesium ions (Mg²⁺)", "", "3.1.2")).shortDescriptor,
+    disclosureMap.get(dietaryLeverBulletKey("Magnesium", "", "3.1.1")).shortDescriptor,
     "Essential mineral · Catalytic cofactor",
   );
   assert.equal(
-    disclosureMap.get(dietaryLeverBulletKey("Potassium ions (K⁺)", "", "3.1.2")).shortDescriptor,
+    disclosureMap.get(dietaryLeverBulletKey("Potassium", "", "3.1.1")).shortDescriptor,
     "Essential mineral · Catalytic ion",
   );
 
@@ -763,8 +764,8 @@ test("PM3 uses the PM9 atom and disclosure contract for dietary requirements", (
 test("four reference PMs carry short input descriptors without changing atoms or disclosures", () => {
   assertDisclosureDescriptor(readPm3().data, "Methionine", "3.1.1", "Essential amino acid", "PM3-DIT-1");
   assertDisclosureDescriptor(readPm3().data, "ATP", "3.1.2", "Cellular energy co-substrate", "PM3-DIT-2");
-  assertDisclosureDescriptor(readPm3().data, "Magnesium ions (Mg²⁺)", "3.1.2", "Essential mineral · Catalytic cofactor", "PM3-DIT-3");
-  assertDisclosureDescriptor(readPm3().data, "Potassium ions (K⁺)", "3.1.2", "Essential mineral · Catalytic ion", "PM3-DIT-4");
+  assertDisclosureDescriptor(readPm3().data, "Magnesium", "3.1.1", "Essential mineral · Catalytic cofactor", "PM3-DIT-3");
+  assertDisclosureDescriptor(readPm3().data, "Potassium", "3.1.1", "Essential mineral · Catalytic ion", "PM3-DIT-4");
 
   const dopamine = readDopaminePm3().data;
   assertDisclosureDescriptor(dopamine, "Tyrosine", "3.1.1", "Non-essential amino acid", "PM3-DIT-5");
@@ -935,8 +936,10 @@ test("PM3 §3.1 keeps ATP biochemical and keeps individual KC supply in §3.1.3"
   assert.ok(!section311.includes("ATP"));
   assert.ok(!section312.includes("- Methionine"));
   assert.ok(section312.includes("- ATP"));
-  assert.ok(section312.includes("- Magnesium ions (Mg²⁺)"));
-  assert.ok(section312.includes("- Potassium ions (K⁺)"));
+  assert.ok(section311.includes("- Magnesium"));
+  assert.ok(!section312.includes("- Magnesium"));
+  assert.ok(section311.includes("- Potassium"));
+  assert.ok(!section312.includes("- Potassium"));
   assert.ok(!section3.includes("←"));
   assert.ok(!section311.includes("folate"));
   assert.ok(!section312.includes("Betaine"));
@@ -970,7 +973,7 @@ test("BRS1-FM1-PM3 presents dopamine dietary supply once", () => {
     presentations
       .filter((row) => row.presentation_section === "3.1.1")
       .map((row) => row.label),
-    ["Tyrosine", "Iron", "Vitamin B6"],
+    ["Tyrosine", "Iron", "Vitamin B6", "Vitamin B2", "Magnesium"],
   );
   assert.deepEqual(
     presentations
@@ -1026,7 +1029,7 @@ test("BRS4-FM1-PM2 keeps NAD lifestyle disclosure out of dietary requirements", 
     data.dietary_lever_presentations
       .filter((row) => row.presentation_section === "3.1.1")
       .map((row) => row.label),
-    ["Nicotinamide (a form of vitamin B3)", "Nicotinic acid (a form of vitamin B3)", "Tryptophan"],
+    ["Nicotinamide (a form of vitamin B3)", "Nicotinic acid (a form of vitamin B3)", "Tryptophan", "Nicotinamide riboside"],
   );
 
   const map = buildDietaryLeverDisclosureMap(data);
@@ -1426,8 +1429,8 @@ test("Input links to its substance page and the compact heading stays unlinked",
   const map = buildDietaryLeverDisclosureMap(pm4);
   const expected = [
     ["Glutathione", "3.1.2", "/docs/substances/bioactive-compounds/glutathione"],
-    ["Zinc", "3.1.2", "/docs/substances/nutrients/micronutrients/minerals/trace/zinc"],
-    ["Manganese", "3.1.2", "/docs/substances/nutrients/micronutrients/minerals/trace/manganese"],
+    ["Zinc", "3.1.1", "/docs/substances/nutrients/micronutrients/minerals/trace/zinc"],
+    ["Manganese", "3.1.1", "/docs/substances/nutrients/micronutrients/minerals/trace/manganese"],
     ["Selenium", "3.1.1", "/docs/substances/nutrients/micronutrients/minerals/trace/selenium"],
     ["Copper", "3.1.1", "/docs/substances/nutrients/micronutrients/minerals/trace/copper"],
   ];
@@ -1471,7 +1474,7 @@ const rendererModule = new Module(PM_INPUT_FOOD_DISCLOSURE);
 rendererModule.filename = PM_INPUT_FOOD_DISCLOSURE;
 const rendererRequire = createRequire(PM_INPUT_FOOD_DISCLOSURE);
 rendererModule.require = id => id.endsWith('inputMappingScopes.mjs') ? {__esModule:true,default:{}}
- : id.endsWith('inputSubstanceFoodSelection.mjs') ? foodSelection : id.endsWith('foodTargetTraceability.mjs') ? foodTargetTraceability : rendererRequire(id);
+ : id.endsWith('inputSubstanceFoodSelection.mjs') ? foodSelection : id.endsWith('foodTargetTraceability.mjs') ? foodTargetTraceability : id.endsWith('aggregateFoodComposition.mjs') ? aggregateFoodComposition : rendererRequire(id);
 rendererModule._compile(ts.transpileModule(fs.readFileSync(PM_INPUT_FOOD_DISCLOSURE,'utf8'),{
  compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022},
 }).outputText,PM_INPUT_FOOD_DISCLOSURE);
@@ -1505,7 +1508,7 @@ test('Spinach and wheat germ presence provenance produces one row each without d
  for(const id of ['spinach','wheat-germ']) {
   const rows=selected.filter(s=>s.food_id===id);assert.equal(rows.length,1);
   assert.equal(rows[0].presence_records.length,2);
-  assert.match(parseHtml(renderFoodSourceItem(rows[0])).text(),/quantity not established/);
+  assert.match(parseHtml(renderFoodSourceItem(rows[0])).text(),/value not known/);
  }
  assert.deepEqual(sources,before);
  // A separately recorded preparation remains distinct, even without a quantity.
@@ -1551,12 +1554,12 @@ test('C1 renderer preserves multiple observations, removes exact canonical dupli
  assert.ok($.text().includes('123 µg (per g dry material)'));
  assert.ok($.text().includes('Chicken breast, alternative assay'));
  assert.ok($.text().includes('form not known'));
- assert.ok($.text().includes('quantity not established'));
+ assert.ok($.text().includes('value not known'));
  assert.doesNotMatch($.text(),/999/);
  assert.deepEqual(selectFoodDisclosureSources([c1Source('chicken','nicotinamide',888,{public_display:'internal-only'})]),[]);
  assert.equal($('a[href="/docs/foods/chicken#food-source-5"]').length,1);
  // No verified quantities are manufactured for presence-only sources.
- assert.match(renderFoodSourceItem({...first,observations:[]}),/quantity not established/);
+ assert.match(renderFoodSourceItem({...first,observations:[]}),/value not known/);
 });
 test('C1 concentration ranking needs explicit compatible analytical groups and does not reject preparation differences',()=>{
  const comparable=(food,value,preparation,extra={})=>c1Source(food,'nicotinamide',value,{basis:'per 100 g edible material',comparison_group:'reviewed-protocol-A',rank_eligible:true,preparation,...extra});
@@ -1589,7 +1592,7 @@ test('C1 ordinary Methionine and magnesium projection retains actual renderer or
  }
  const nad=buildInputSubstanceFood(process.cwd(),{brs:'BRS4'});
  assert.deepEqual(nad.relationships.filter(r=>r.pm==='BRS4-FM1-PM2').map(r=>[r.substance_id,r.dietary_input,r.relationship_type.classification]),[
-  ['nicotinamide',true,'direct'],['nicotinic-acid',true,'direct'],['tryptophan',true,'derived'],
+  ['nicotinamide',true,'direct'],['nicotinic-acid',true,'direct'],['tryptophan',true,'derived'],['nad-plus',false,null],['nicotinamide-riboside',true,'derived'],
  ]);
  assert.equal(nad.food_sources.filter(s=>s.substance_id==='tryptophan').length,3);
 });
@@ -1621,7 +1624,7 @@ test('C1 supported qualitative presence retains source limitations and cannot ex
  source.presence_records=[{record:'presence-only',source_reference:'#food-source-4',source_url:'https://example.org/assay',public_note:'Method-defined extractable analyte; amount not established.',value:999,verified:false}];
  const items=selectFoodDisclosureSources([source]);
  const $=parseHtml(renderFoodSourceItem(items[0]));
- assert.match($.text(),/quantity not established/);assert.match($.text(),/amount not established/);
+ assert.match($.text(),/value not known/);assert.match($.text(),/amount not established/);
  assert.doesNotMatch($.text(),/999/);
  assert.equal($('a').last().attr('href'),'/docs/foods/chicken#food-source-4');
 });
@@ -1630,5 +1633,33 @@ test('admitted food targets retain plant and animal disclosures and provisional 
  const source=fs.readFileSync(PM_INPUT_FOOD_DISCLOSURE,'utf8');
  const branch=source.slice(source.indexOf("if (section === '3.1.1'"));
  assert.match(branch,/Plant-based/);assert.match(branch,/Animal-based/);
- assert.match(branch,/renderTarget\(target\)/);assert.match(branch,/renderCoverageWarning\(warnings\)/);
+ assert.match(branch,/inputCoverageWarnings\(relationships\)/);assert.match(branch,/renderCoverageWarning\(warnings\)/);
+ assert.match(source,/box\.insertAdjacentHTML\('beforeend', renderFoodMappingNotes\(sources\)\)/);
+});
+
+test('PM4 ETC iron keeps Nori mapping provenance with foods, outside the substance disclosure',()=>{
+ const mapping=buildInputSubstanceFood(process.cwd(),{brs:'BRS4'});
+ const iron=mapping.relationships.find(r=>r.pm==='BRS4-FM1-PM1'&&r.substance_id==='iron');
+ const before=JSON.stringify(iron);
+ const warning=iron.coverage_warnings.find(w=>w.startsWith('Nori → Iron'));
+ assert.ok(warning);
+ assert.ok(!foodTargetTraceability.inputCoverageWarnings([iron]).includes(warning));
+ const $=parseHtml(rendererModule.exports.renderFoodMappingNotes(iron.food_targets.filter(f=>f.food_id==='nori')));
+ assert.equal($('details > summary').text(),'Food-source mapping notes');
+ assert.equal($('details .food-target-coverage-warning').text().trim(),'ⓘ '+warning);
+ assert.equal($('.brs-dietary-lever-detail-inner, .brs-dietary-lever-detail-k').length,0);
+ assert.equal(JSON.stringify(iron),before);
+});
+
+test('food warning relocation preserves input identity and conversion warnings and honest mapping states',()=>{
+ const food={food_id:'sample',food_title:'Sample',substance_id:'iron',substance_title:'Iron',mapping_status:'research-supported-provisional'};
+ const foodWarning=foodTargetTraceability.foodTargetCoverageWarning(food);
+ const inputWarnings=['Vitamin B6 → PLP: conversion pathway reconciliation pending.','Input: canonical substance identity unresolved.'];
+ const relationship={input:'Iron',food_targets:[food],coverage_warnings:[foodWarning,...inputWarnings]};
+ assert.deepEqual(foodTargetTraceability.inputCoverageWarnings([relationship]),inputWarnings);
+ const notes=rendererModule.exports.renderFoodMappingNotes([food,food]);
+ assert.equal(parseHtml(notes)('.food-target-coverage-warning').length,1);
+ assert.doesNotMatch(notes,/Vitamin B6|canonical substance identity unresolved/);
+ assert.equal(rendererModule.exports.renderFoodMappingNotes([{...food,mapping_status:'verified'}]),'');
+ assert.equal(rendererModule.exports.renderFoodMappingNotes([]),'');
 });

@@ -2421,19 +2421,32 @@
       "ontology_connections": {
         "identity": "resolved",
         "conversion": "not-applicable",
-        "food": "unresolved"
+        "food": "supported"
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": null,
-      "food_title": null,
-      "food_material": null,
+      "food_target": "milk",
+      "food_title": "Milk",
+      "food_material": "Commercial liquid cow milk (31 samples: pasteurized, extended shelf-life and UHT)",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
       "ontology_relationship_status": null,
       "reconciled_sources": [],
-      "mapping_status": "unresolved",
-      "food_evidence": null,
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/milk.md#substance_relationships/Flavin%20mononucleotide",
+          "evidence": "Validated UHPLC measured native phosphorylated vitamers separately from unphosphorylated vitamers in commercial cow milk (Schmidt et al., 2017).",
+          "source_url": "https://doi.org/10.1016/j.chroma.2017.04.009",
+          "source_reference": null,
+          "citation_keys": [
+            "schmidt_native_milk_b6_b2_2017"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "supported-qualitative",
+          "limitations": "Verified qualitative vitamer occurrence. No individual amount is inferred from total vitamin B6 or B2. Preparation-specific concentrations are not transcribed. Food occurrence does not demonstrate intact cofactor delivery to the receiving tissue."
+        }
+      ],
       "pm_evidence": {
         "finding_ids": [
           "PM1-F1"
@@ -2442,8 +2455,8 @@
           "curtabbi_complex_i_fmn_2022"
         ]
       },
-      "preparation": null,
-      "delivery": null,
+      "preparation": "heat-treated; method-specific",
+      "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
         "The review identifies the cofactor. It does not show that flavin mononucleotide (FMN) supply limits complex I in ordinary life, or that raising intake increases electron transport."
@@ -2973,6 +2986,838 @@
     {
       "brs": "BRS4",
       "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Copper",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "copper",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "almonds",
+      "food_title": "Almonds",
+      "food_material": "Nuts, almonds",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/almonds.md#substance_relationships/Copper",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports copper in Nuts, almonds."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Specific complex-IV metal dependence and dietary-deficiency evidence support capacity supply. Rat cardiac protein/activity effects are not a human optimisation dose, a universal tissue response or proof that extra copper improves electron transport when status is adequate."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Copper",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "copper",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "black-beans",
+      "food_title": "Black Beans",
+      "food_material": "Beans, black, mature seeds, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/black-beans.md#substance_relationships/Copper",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/173734/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports copper in Beans, black, mature seeds, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Specific complex-IV metal dependence and dietary-deficiency evidence support capacity supply. Rat cardiac protein/activity effects are not a human optimisation dose, a universal tissue response or proof that extra copper improves electron transport when status is adequate."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Copper",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "copper",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "cashews",
+      "food_title": "Cashews",
+      "food_material": "Nuts, cashew nuts, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/cashews.md#substance_relationships/Copper",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170162/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports copper in Nuts, cashew nuts, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Specific complex-IV metal dependence and dietary-deficiency evidence support capacity supply. Rat cardiac protein/activity effects are not a human optimisation dose, a universal tissue response or proof that extra copper improves electron transport when status is adequate."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Copper",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "copper",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "chickpeas",
+      "food_title": "Chickpeas",
+      "food_material": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chickpeas.md#substance_relationships/Copper",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/173756/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports copper in Chickpeas (garbanzo beans, bengal gram), mature seeds, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Specific complex-IV metal dependence and dietary-deficiency evidence support capacity supply. Rat cardiac protein/activity effects are not a human optimisation dose, a universal tissue response or proof that extra copper improves electron transport when status is adequate."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Copper",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "copper",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "chicory-root",
+      "food_title": "Chicory Root",
+      "food_material": "Chicory roots, raw (Cichorium intybus)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chicory-root.md#substance_relationships/Copper",
+          "evidence": "USDA SR Legacy, FDC 169993",
+          "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy, FDC 169993 reports 0.077 mg copper per 100 g edible portion in Chicory roots, raw (Cichorium intybus)."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Specific complex-IV metal dependence and dietary-deficiency evidence support capacity supply. Rat cardiac protein/activity effects are not a human optimisation dose, a universal tissue response or proof that extra copper improves electron transport when status is adequate."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Copper",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "copper",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "nori",
+      "food_title": "Nori",
+      "food_material": "Purple laver (Porphyra spp.), dried, toasted",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/nori.md#substance_relationships/Copper",
+          "evidence": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004 reports 0.55 mg copper per 100 g edible portion in Purple laver (Porphyra spp.), dried, toasted."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Specific complex-IV metal dependence and dietary-deficiency evidence support capacity supply. Rat cardiac protein/activity effects are not a human optimisation dose, a universal tissue response or proof that extra copper improves electron transport when status is adequate."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Copper",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "copper",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "oats",
+      "food_title": "Oats",
+      "food_material": "Oats (Includes foods for USDA's Food Distribution Program)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/oats.md#substance_relationships/Copper",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/169705/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports copper in Oats (Includes foods for USDA's Food Distribution Program)."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Specific complex-IV metal dependence and dietary-deficiency evidence support capacity supply. Rat cardiac protein/activity effects are not a human optimisation dose, a universal tissue response or proof that extra copper improves electron transport when status is adequate."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Copper",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "copper",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "peanuts",
+      "food_title": "Peanuts",
+      "food_material": "Peanuts, all types, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/peanuts.md#substance_relationships/Copper",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/172430/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports copper in Peanuts, all types, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Specific complex-IV metal dependence and dietary-deficiency evidence support capacity supply. Rat cardiac protein/activity effects are not a human optimisation dose, a universal tissue response or proof that extra copper improves electron transport when status is adequate."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Copper",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "copper",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "salmon-roe",
+      "food_title": "Salmon Roe",
+      "food_material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/salmon-roe.md#substance_relationships/Copper",
+          "evidence": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140 reports 0.76 mg copper per 100 g edible portion in Chum salmon (Oncorhynchus keta), salted roe (ikura)."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Specific complex-IV metal dependence and dietary-deficiency evidence support capacity supply. Rat cardiac protein/activity effects are not a human optimisation dose, a universal tissue response or proof that extra copper improves electron transport when status is adequate."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Copper",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "copper",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "sesame-seeds",
+      "food_title": "Sesame Seeds",
+      "food_material": "Seeds, sesame seeds, whole, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/sesame-seeds.md#substance_relationships/Copper",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170150/nutrients",
+          "source_reference": "#food-source-12",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports copper in Seeds, sesame seeds, whole, dried."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Specific complex-IV metal dependence and dietary-deficiency evidence support capacity supply. Rat cardiac protein/activity effects are not a human optimisation dose, a universal tissue response or proof that extra copper improves electron transport when status is adequate."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Copper",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "copper",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "sourdough-bread",
+      "food_title": "Sourdough Bread",
+      "food_material": "wheat sourdough breads",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/sourdough-bread.md#substance_relationships/Copper",
+          "evidence": "Nutritional composition of bread as affected by ancient wheat flour and sourdough fermentation (2024)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10997827/",
+          "source_reference": "#food-source-7",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Present in wheat sourdough bread; content depends on flour and recipe."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Specific complex-IV metal dependence and dietary-deficiency evidence support capacity supply. Rat cardiac protein/activity effects are not a human optimisation dose, a universal tissue response or proof that extra copper improves electron transport when status is adequate."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Copper",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "copper",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "spinach",
+      "food_title": "Spinach",
+      "food_material": "Spinach, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/spinach.md#substance_relationships/Copper",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/168462/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports copper in Spinach, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Specific complex-IV metal dependence and dietary-deficiency evidence support capacity supply. Rat cardiac protein/activity effects are not a human optimisation dose, a universal tissue response or proof that extra copper improves electron transport when status is adequate."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Copper",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "copper",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "sunflower-seeds",
+      "food_title": "Sunflower Seeds",
+      "food_material": "Seeds, sunflower seed kernels, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/sunflower-seeds.md#substance_relationships/Copper",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170562/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports copper in Seeds, sunflower seed kernels, dried."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Specific complex-IV metal dependence and dietary-deficiency evidence support capacity supply. Rat cardiac protein/activity effects are not a human optimisation dose, a universal tissue response or proof that extra copper improves electron transport when status is adequate."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Copper",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "copper",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "tempeh",
+      "food_title": "Tempeh",
+      "food_material": "Tempeh",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/tempeh.md#substance_relationships/Copper",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174272/nutrients",
+          "source_reference": "#food-source-6",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports copper in Tempeh."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Specific complex-IV metal dependence and dietary-deficiency evidence support capacity supply. Rat cardiac protein/activity effects are not a human optimisation dose, a universal tissue response or proof that extra copper improves electron transport when status is adequate."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Copper",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "copper",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "tofu",
+      "food_title": "Tofu",
+      "food_material": "Tofu, raw, firm, prepared with calcium sulfate",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/tofu.md#substance_relationships/Copper",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/172475/nutrients",
+          "source_reference": "#food-source-5",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports copper in Tofu, raw, firm, prepared with calcium sulfate."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Specific complex-IV metal dependence and dietary-deficiency evidence support capacity supply. Rat cardiac protein/activity effects are not a human optimisation dose, a universal tissue response or proof that extra copper improves electron transport when status is adequate."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Copper",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "copper",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "walnuts",
+      "food_title": "Walnuts",
+      "food_material": "Nuts, walnuts, english",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/walnuts.md#substance_relationships/Copper",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170187/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports copper in Nuts, walnuts, english."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Specific complex-IV metal dependence and dietary-deficiency evidence support capacity supply. Rat cardiac protein/activity effects are not a human optimisation dose, a universal tissue response or proof that extra copper improves electron transport when status is adequate."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
       "pm": "BRS4-FM1-PM2",
       "biological_mechanism": "Maintain NAD⁺ availability so redox reactions and mitochondrial signalling stay adequately powered.",
       "dietary_input": "Nicotinamide (a form of vitamin B3)",
@@ -3329,6 +4174,99 @@
     {
       "brs": "BRS4",
       "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM2",
+      "biological_mechanism": "Maintain NAD⁺ availability so redox reactions and mitochondrial signalling stay adequately powered.",
+      "dietary_input": "Nicotinamide riboside",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "nicotinamide-riboside",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "milk",
+      "food_title": "Milk",
+      "food_material": "Raw cow milk from individual cows and commercial cow-milk samples, including skim milk",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/milk.md#substance_relationships/Nicotinamide%20riboside",
+          "evidence": "Trammell et al. (2016), primary milk composition analysis",
+          "source_url": "https://doi.org/10.3945/jn.116.230078",
+          "source_reference": "#food-source-2",
+          "citation_keys": [
+            "trammell_nr_milk_2016"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Sample and processing variability; this relationship establishes presence, not an effective NAD-supporting food portion or equivalence to an NR-chloride supplement."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM2-F8"
+        ],
+        "citation_keys": [
+          "trammell_nr_oral_2016",
+          "trammell_nr_milk_2016"
+        ]
+      },
+      "preparation": null,
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "from": "nicotinamide-riboside",
+          "to": "nicotinamide-mononucleotide",
+          "process": "Human NRK1 phosphorylates beta-NR to beta-NMN using ATP.",
+          "dependencies": [
+            "Functional NRK activity",
+            "ATP and divalent-metal availability",
+            "Tissue access to intact NR"
+          ],
+          "limitations": "An established intracellular route is not proof that all oral NR reaches each tissue intact; parallel degradation/salvage can contribute.",
+          "evidence": {
+            "statement": "NRK1 curated reaction, entry version 170, Rhea 14017, retrieved 26 October 2026.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q9NWW6/entry",
+              "https://www.rhea-db.org/rhea/14017",
+              "https://pubmed.ncbi.nlm.nih.gov/15137942/"
+            ]
+          }
+        },
+        {
+          "from": "nicotinamide-mononucleotide",
+          "to": "nad-plus",
+          "process": "NMN adenylyltransferase adenylates oxidised beta-NMN with ATP to form oxidised NAD.",
+          "dependencies": [
+            "Functional NMNAT activity",
+            "ATP availability",
+            "Compartment-specific precursor access"
+          ],
+          "limitations": "NMNAT1 establishes reaction identity; other isoforms/transport determine compartmental provision. No fixed dietary conversion yield or mitochondrial/brain endpoint is inferred.",
+          "evidence": {
+            "statement": "Human NMNAT1, entry version 202, Rhea 21360, retrieved 26 October 2026.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q9HAN9/entry",
+              "https://www.rhea-db.org/rhea/21360"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Supplemental NR chloride at 100–1000 mg is not an effective milk dose. Blood responses do not establish neuronal or mitochondrial NAD delivery, redox flux, superiority to adequate niacin or clinical benefit. Intestinal metabolism and tissue salvage can differ from the displayed intracellular NRK route; other NAD precursors remain alternatives."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
       "pm": "BRS4-FM1-PM3",
       "biological_mechanism": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
       "dietary_input": "Creatine",
@@ -3658,6 +4596,633 @@
       "conversion_pathway": [],
       "limitations": [
         "The brain also synthesises creatine, and exogenous exposure produces smaller and less consistent cerebral responses than skeletal-muscle responses."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM3",
+      "biological_mechanism": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
+      "dietary_input": "Arginine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "arginine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "lupin-beans",
+      "food_title": "Lupin Beans",
+      "food_material": "Lupins, mature seeds, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/lupin-beans.md#substance_relationships/Arginine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "USDA FoodData Central reports arginine in Lupins, mature seeds, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F1"
+        ],
+        "citation_keys": [
+          "beard_creatine_cns_2010",
+          "edison_renal_guanidinoacetate_2007"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "from": "arginine",
+          "to": "guanidinoacetate",
+          "process": "Human AGAT transfers the amidino group of arginine to glycine, yielding guanidinoacetate and ornithine.",
+          "dependencies": [
+            "Functional AGAT",
+            "glycine co-substrate availability",
+            "Tissue access and feedback regulation"
+          ],
+          "limitations": "Both co-substrates are required; this is not a fixed dietary yield or an assertion that extra intake is rate-limiting.",
+          "evidence": {
+            "statement": "UniProt P50440 entry version 227, Rhea 13201; human renal GAA production independently measured.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17928413/",
+              "https://www.uniprot.org/uniprotkb/P50440/entry",
+              "https://www.rhea-db.org/rhea/13201"
+            ]
+          }
+        },
+        {
+          "from": "guanidinoacetate",
+          "to": "creatine",
+          "process": "GAMT methylates guanidinoacetate using S-adenosylmethionine to form creatine.",
+          "dependencies": [
+            "Functional GAMT",
+            "S-adenosylmethionine methyl supply",
+            "Interorgan exchange and receiving-tissue creatine transport"
+          ],
+          "limitations": "Reaction identity does not prove dietary precursor limitation or cerebral delivery; SAM participation creates no independent methionine admission.",
+          "evidence": {
+            "statement": "UniProt Q14353 entry version 215, Rhea 10656.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q14353/entry",
+              "https://www.rhea-db.org/rhea/10656"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Capacity of the endogenous synthesis route is distinct from a claim that extra amino-acid intake raises cerebral creatine, phosphocreatine buffering or cognition. AGAT feedback, GAMT methyl supply, organ exchange and SLC6A8-mediated tissue transport constrain delivery. Human renal GAA production is not a measurement of brain synthesis flux; rat arginine infusion and glycine null responses are not oral human efficacy experiments."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM3",
+      "biological_mechanism": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
+      "dietary_input": "Arginine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "arginine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "watermelon",
+      "food_title": "Watermelon",
+      "food_material": "Watermelon, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/watermelon.md#substance_relationships/Arginine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/167765/nutrients",
+          "source_reference": "#food-source-4",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "USDA FoodData Central reports arginine in Watermelon, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F1"
+        ],
+        "citation_keys": [
+          "beard_creatine_cns_2010",
+          "edison_renal_guanidinoacetate_2007"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "from": "arginine",
+          "to": "guanidinoacetate",
+          "process": "Human AGAT transfers the amidino group of arginine to glycine, yielding guanidinoacetate and ornithine.",
+          "dependencies": [
+            "Functional AGAT",
+            "glycine co-substrate availability",
+            "Tissue access and feedback regulation"
+          ],
+          "limitations": "Both co-substrates are required; this is not a fixed dietary yield or an assertion that extra intake is rate-limiting.",
+          "evidence": {
+            "statement": "UniProt P50440 entry version 227, Rhea 13201; human renal GAA production independently measured.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17928413/",
+              "https://www.uniprot.org/uniprotkb/P50440/entry",
+              "https://www.rhea-db.org/rhea/13201"
+            ]
+          }
+        },
+        {
+          "from": "guanidinoacetate",
+          "to": "creatine",
+          "process": "GAMT methylates guanidinoacetate using S-adenosylmethionine to form creatine.",
+          "dependencies": [
+            "Functional GAMT",
+            "S-adenosylmethionine methyl supply",
+            "Interorgan exchange and receiving-tissue creatine transport"
+          ],
+          "limitations": "Reaction identity does not prove dietary precursor limitation or cerebral delivery; SAM participation creates no independent methionine admission.",
+          "evidence": {
+            "statement": "UniProt Q14353 entry version 215, Rhea 10656.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q14353/entry",
+              "https://www.rhea-db.org/rhea/10656"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Capacity of the endogenous synthesis route is distinct from a claim that extra amino-acid intake raises cerebral creatine, phosphocreatine buffering or cognition. AGAT feedback, GAMT methyl supply, organ exchange and SLC6A8-mediated tissue transport constrain delivery. Human renal GAA production is not a measurement of brain synthesis flux; rat arginine infusion and glycine null responses are not oral human efficacy experiments."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM3",
+      "biological_mechanism": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
+      "dietary_input": "Glycine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "glycine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": null,
+      "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "unresolved",
+      "food_evidence": null,
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F1"
+        ],
+        "citation_keys": [
+          "beard_creatine_cns_2010",
+          "edison_renal_guanidinoacetate_2007"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [
+        {
+          "from": "glycine",
+          "to": "guanidinoacetate",
+          "process": "Human AGAT transfers the amidino group of arginine to glycine, yielding guanidinoacetate and ornithine.",
+          "dependencies": [
+            "Functional AGAT",
+            "arginine co-substrate availability",
+            "Tissue access and feedback regulation"
+          ],
+          "limitations": "Both co-substrates are required; this is not a fixed dietary yield or an assertion that extra intake is rate-limiting.",
+          "evidence": {
+            "statement": "UniProt P50440 entry version 227, Rhea 13201; human renal GAA production independently measured.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17928413/",
+              "https://www.uniprot.org/uniprotkb/P50440/entry",
+              "https://www.rhea-db.org/rhea/13201"
+            ]
+          }
+        },
+        {
+          "from": "guanidinoacetate",
+          "to": "creatine",
+          "process": "GAMT methylates guanidinoacetate using S-adenosylmethionine to form creatine.",
+          "dependencies": [
+            "Functional GAMT",
+            "S-adenosylmethionine methyl supply",
+            "Interorgan exchange and receiving-tissue creatine transport"
+          ],
+          "limitations": "Reaction identity does not prove dietary precursor limitation or cerebral delivery; SAM participation creates no independent methionine admission.",
+          "evidence": {
+            "statement": "UniProt Q14353 entry version 215, Rhea 10656.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q14353/entry",
+              "https://www.rhea-db.org/rhea/10656"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Capacity of the endogenous synthesis route is distinct from a claim that extra amino-acid intake raises cerebral creatine, phosphocreatine buffering or cognition. AGAT feedback, GAMT methyl supply, organ exchange and SLC6A8-mediated tissue transport constrain delivery. Human renal GAA production is not a measurement of brain synthesis flux; rat arginine infusion and glycine null responses are not oral human efficacy experiments."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM3",
+      "biological_mechanism": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
+      "dietary_input": "Methionine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "methionine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "chicken",
+      "food_title": "Chicken",
+      "food_material": "Chicken, broilers or fryers, meat and skin, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chicken.md#substance_relationships/Methionine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171447/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports methionine 0.493 g per 100 g in Chicken, broilers or fryers, meat and skin, raw (FDC 171447). Composition only; this does not establish a PM-specific dietary efficacy claim."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F7"
+        ],
+        "citation_keys": [
+          "murray_crystallography_2016",
+          "asiriwardhana_methionine_transmethylation_2025"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "from": "methionine",
+          "to": "s-adenosylmethionine",
+          "process": "MAT1A/MAT2A catalyse ATP-dependent methionine adenosylation to form SAM.",
+          "dependencies": [
+            "Functional MAT",
+            "ATP, magnesium and potassium",
+            "Tissue access and methyl-donor homeostasis"
+          ],
+          "limitations": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake.",
+          "evidence": {
+            "statement": "Human MAT crystallography and curated Rhea 21080; P31153 v237 and Q00266 v233.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/26858410/",
+              "https://www.uniprot.org/uniprotkb/P31153/entry",
+              "https://www.rhea-db.org/rhea/21080"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Endogenous remethylation also supplies methionine. Neonatal-piglet isotope incorporation does not establish an adult intake target, cerebral delivery or benefit above adequacy. Methyl allocation, SAH inhibition, transport and other substrate availability constrain the route; no shared KC admission follows."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM3",
+      "biological_mechanism": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
+      "dietary_input": "Methionine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "methionine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "eggs",
+      "food_title": "Eggs",
+      "food_material": "Egg, whole, raw, fresh",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/eggs.md#substance_relationships/Methionine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports methionine 0.38 g per 100 g in Egg, whole, raw, fresh (FDC 171287). Composition only; this does not establish a PM-specific dietary efficacy claim."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F7"
+        ],
+        "citation_keys": [
+          "murray_crystallography_2016",
+          "asiriwardhana_methionine_transmethylation_2025"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "from": "methionine",
+          "to": "s-adenosylmethionine",
+          "process": "MAT1A/MAT2A catalyse ATP-dependent methionine adenosylation to form SAM.",
+          "dependencies": [
+            "Functional MAT",
+            "ATP, magnesium and potassium",
+            "Tissue access and methyl-donor homeostasis"
+          ],
+          "limitations": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake.",
+          "evidence": {
+            "statement": "Human MAT crystallography and curated Rhea 21080; P31153 v237 and Q00266 v233.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/26858410/",
+              "https://www.uniprot.org/uniprotkb/P31153/entry",
+              "https://www.rhea-db.org/rhea/21080"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Endogenous remethylation also supplies methionine. Neonatal-piglet isotope incorporation does not establish an adult intake target, cerebral delivery or benefit above adequacy. Methyl allocation, SAH inhibition, transport and other substrate availability constrain the route; no shared KC admission follows."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM3",
+      "biological_mechanism": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
+      "dietary_input": "Methionine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "methionine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "salmon",
+      "food_title": "Salmon",
+      "food_material": "Fish, salmon, Atlantic, farmed, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/salmon.md#substance_relationships/Methionine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports methionine 0.626 g per 100 g in Fish, salmon, Atlantic, farmed, raw (FDC 175167). Composition only; this does not establish a PM-specific dietary efficacy claim."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F7"
+        ],
+        "citation_keys": [
+          "murray_crystallography_2016",
+          "asiriwardhana_methionine_transmethylation_2025"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "from": "methionine",
+          "to": "s-adenosylmethionine",
+          "process": "MAT1A/MAT2A catalyse ATP-dependent methionine adenosylation to form SAM.",
+          "dependencies": [
+            "Functional MAT",
+            "ATP, magnesium and potassium",
+            "Tissue access and methyl-donor homeostasis"
+          ],
+          "limitations": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake.",
+          "evidence": {
+            "statement": "Human MAT crystallography and curated Rhea 21080; P31153 v237 and Q00266 v233.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/26858410/",
+              "https://www.uniprot.org/uniprotkb/P31153/entry",
+              "https://www.rhea-db.org/rhea/21080"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Endogenous remethylation also supplies methionine. Neonatal-piglet isotope incorporation does not establish an adult intake target, cerebral delivery or benefit above adequacy. Methyl allocation, SAH inhibition, transport and other substrate availability constrain the route; no shared KC admission follows."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM3",
+      "biological_mechanism": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
+      "dietary_input": "Methionine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "methionine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "sardines",
+      "food_title": "Sardines",
+      "food_material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/sardines.md#substance_relationships/Methionine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/175139/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports methionine 1.086 g per 100 g in Fish, sardine, Atlantic, canned in oil, drained solids with bone (FDC 175139). Composition only; this does not establish a PM-specific dietary efficacy claim."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F7"
+        ],
+        "citation_keys": [
+          "murray_crystallography_2016",
+          "asiriwardhana_methionine_transmethylation_2025"
+        ]
+      },
+      "preparation": "oil",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "from": "methionine",
+          "to": "s-adenosylmethionine",
+          "process": "MAT1A/MAT2A catalyse ATP-dependent methionine adenosylation to form SAM.",
+          "dependencies": [
+            "Functional MAT",
+            "ATP, magnesium and potassium",
+            "Tissue access and methyl-donor homeostasis"
+          ],
+          "limitations": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake.",
+          "evidence": {
+            "statement": "Human MAT crystallography and curated Rhea 21080; P31153 v237 and Q00266 v233.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/26858410/",
+              "https://www.uniprot.org/uniprotkb/P31153/entry",
+              "https://www.rhea-db.org/rhea/21080"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Endogenous remethylation also supplies methionine. Neonatal-piglet isotope incorporation does not establish an adult intake target, cerebral delivery or benefit above adequacy. Methyl allocation, SAH inhibition, transport and other substrate availability constrain the route; no shared KC admission follows."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM3",
+      "biological_mechanism": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
+      "dietary_input": "Methionine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "methionine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "tuna",
+      "food_title": "Tuna",
+      "food_material": "Fish, tuna, fresh, bluefin, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/tuna.md#substance_relationships/Methionine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/173706/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports methionine 0.69 g per 100 g in Fish, tuna, fresh, bluefin, raw (FDC 173706). Composition only; this does not establish a PM-specific dietary efficacy claim."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F7"
+        ],
+        "citation_keys": [
+          "murray_crystallography_2016",
+          "asiriwardhana_methionine_transmethylation_2025"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "from": "methionine",
+          "to": "s-adenosylmethionine",
+          "process": "MAT1A/MAT2A catalyse ATP-dependent methionine adenosylation to form SAM.",
+          "dependencies": [
+            "Functional MAT",
+            "ATP, magnesium and potassium",
+            "Tissue access and methyl-donor homeostasis"
+          ],
+          "limitations": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake.",
+          "evidence": {
+            "statement": "Human MAT crystallography and curated Rhea 21080; P31153 v237 and Q00266 v233.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/26858410/",
+              "https://www.uniprot.org/uniprotkb/P31153/entry",
+              "https://www.rhea-db.org/rhea/21080"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Endogenous remethylation also supplies methionine. Neonatal-piglet isotope incorporation does not establish an adult intake target, cerebral delivery or benefit above adequacy. Methyl allocation, SAH inhibition, transport and other substrate availability constrain the route; no shared KC admission follows."
       ],
       "missing_ontology_edge": null
     },
@@ -5716,6 +7281,123 @@
         "Qualitative food supply only. No carnitine amount, tissue uptake or ordinary-food intervention effect inferred. Independent verification of material/preparation is required before a canonical food edge."
       ],
       "missing_ontology_edge": "lamb → l-carnitine [Lamb meat samples in the primary radioisotopic composition study; Cut and preparation unresolved in retrieved publisher text; no quantity or equivalence to cooked meals inferred]"
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM3)",
+      "pm": "BRS4-FM3-PM7",
+      "biological_mechanism": "Enable mitochondrial ketone utilisation so alternative fuel is available when glucose conditions shift.",
+      "dietary_input": "Caprylic Triglyceride",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "caprylic-triglyceride",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "mct-oil",
+      "food_title": "MCT Oil",
+      "food_material": "unheated commercial St. Francis Herb Farm C8/C10 MCT oil from a health-food store; formulation-dependent",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/mct-oil.md#substance_relationships/Caprylic%20Triglyceride",
+          "evidence": "Kosarac et al. (2021), Frontiers in Chemistry 9:756745, unheated MCT oil, Table 1; ABITEC CAPTEX product identity",
+          "source_url": "https://science-ouverte.canada.ca/server/api/core/bitstreams/e8cf968d-6a5c-4bb0-8f3b-a00c2a666b6f/content",
+          "source_reference": "#food-source-4",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "product_or_preparation_dependent",
+          "limitations": "Identified in a studied commercial C8/C10 MCT oil; content depends on the formulation and a separate amount is unavailable."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F2"
+        ],
+        "citation_keys": [
+          "croteau_mct_brain_energy_2018"
+        ]
+      },
+      "preparation": "Oil",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "from": "caprylic-triglyceride",
+          "to": "octanoate",
+          "process": "Digestive lipolysis releases C8 fatty acid from trioctanoin; the absorbed fatty acid is represented as octanoate at physiological pH.",
+          "dependencies": [
+            "Functional triglyceride digestion and absorption"
+          ],
+          "limitations": "The C8 acyl form is not free octanoate content in food. Mixed-chain MCT products have formulation-dependent composition.",
+          "evidence": {
+            "statement": "Human triglyceride-lipase reaction provenance and the defined oral tricaprylin exposure; retrieved 26 October 2026.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/P16233/entry",
+              "https://doi.org/10.3233/JAD-180202"
+            ]
+          }
+        },
+        {
+          "from": "octanoate",
+          "to": "acetyl-coa",
+          "process": "Hepatic fatty-acid activation and successive mitochondrial beta-oxidation reactions generate acetyl-CoA from the C8 chain.",
+          "ordered_intermediates": [
+            "Octanoyl-CoA following acyl-CoA synthetase activation",
+            "Successively shortened acyl-CoAs during beta-oxidation",
+            "Acetyl-CoA"
+          ],
+          "dependencies": [
+            "Fatty-acid activation",
+            "Mitochondrial beta-oxidation machinery",
+            "CoA, ATP and redox-cofactor availability"
+          ],
+          "limitations": "This is a multireaction biological process, not a single chemical reaction. Tissue partitioning and energy state prevent a fixed food-to-acetyl-CoA yield. Cofactor participation creates no separate dietary admissions.",
+          "evidence": {
+            "statement": "Human medium-chain acyl-CoA dehydrogenase establishes the initial beta-oxidation reaction; the clinical exposure additionally measures downstream ketone provision.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/P11310/entry",
+              "https://doi.org/10.3233/JAD-180202"
+            ]
+          }
+        },
+        {
+          "from": "acetyl-coa",
+          "to": "acetoacetate",
+          "process": "Hepatic mitochondrial ketogenesis proceeds through acetoacetyl-CoA formation, HMG-CoA synthase and HMG-CoA lyase to produce acetoacetate.",
+          "ordered_intermediates": [
+            "Acetoacetyl-CoA (ACAT1 thiolase)",
+            "HMG-CoA (HMGCS2)",
+            "Acetoacetate (HMGCL)"
+          ],
+          "dependencies": [
+            "Functional hepatic ketogenesis",
+            "Mitochondrial enzyme and substrate availability",
+            "Ketone release, circulation and brain monocarboxylate transport"
+          ],
+          "limitations": "The endogenous product can interconvert with beta-hydroxybutyrate, but the target identity here is acetoacetate. Ketogenesis, cerebral uptake and ATP production are distinct; no fixed yield or universal benefit is inferred.",
+          "evidence": {
+            "statement": "Curated human ACAT1, HMGCS2 and HMGCL reactions, retrieved 26 October 2026.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/P24752/entry",
+              "https://www.uniprot.org/uniprotkb/P54868/entry",
+              "https://www.uniprot.org/uniprotkb/P35914/entry",
+              "https://doi.org/10.3233/JAD-180202"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Uncontrolled sequential exposure: C8/C10 mixture (n=11) then 95% tricaprylin (n=6), 30 g/day for one month each. No claim of isolated C8 superiority, cognitive efficacy, healthy-person requirement or ordinary coconut-oil equivalence. PET uptake/metabolism is not a direct cellular ATP assay; no food-effective dose or fixed conversion yield is inferred."
+      ],
+      "missing_ontology_edge": null
     }
   ]
 }

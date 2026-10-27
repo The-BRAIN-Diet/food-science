@@ -20,7 +20,7 @@ evidence_status: stage-2b-dietary-addressability
 dietary_input_traceability:
   - atom_id: PM4-DIT-1
     dietary_input: true
-    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
+    dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
     input: Selenium
     input_type: cofactor
     biological_role: 'Selenocysteine source for glutathione peroxidase, which clears hydroperoxides'
@@ -32,8 +32,8 @@ dietary_input_traceability:
         - weydert_measurement_2010
     evidence_limitation: 'In selenium-deficient adults, plasma glutathione peroxidase activity levelled off once intake reached about 35 micrograms a day. Intake above that plateau did not raise the enzyme further, and the study did not measure net oxidative pressure.'
   - atom_id: PM4-DIT-2
-    dietary_input: false
-    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
+    dietary_input: true
+    dietary_input_note: '2026-10-26 recovery: admitted Type A capacity under the functional-dependency and dietary-supply gate. The original biochemical-only record and its rationale are preserved in the recovery history. No additional-intake efficacy is asserted.'
     input: Zinc
     input_type: cofactor
     biological_role: Structural metal in cytosolic copper-zinc superoxide dismutase
@@ -42,10 +42,11 @@ dietary_input_traceability:
         - PM4-F1
       citation_keys:
         - weydert_measurement_2010
-    evidence_limitation: The enzyme contains zinc. No human study retrieved here shows that zinc intake sets superoxide dismutase activity or this balance.
+    evidence_limitation: 'Curated human SOD1 and experimental structural evidence support a structural capacity relationship, not zinc-dependent catalysis identical to copper. Human dietary SOD responses vary by isoform and status; extra zinc can disturb copper availability. No general oxidative-stress improvement or benefit above adequacy is established.'
+    substance_id: zinc
   - atom_id: PM4-DIT-3
     dietary_input: true
-    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
+    dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
     input: Copper
     input_type: cofactor
     biological_role: 'Catalytic metal in copper-zinc superoxide dismutase, which converts superoxide to hydrogen peroxide'
@@ -57,20 +58,22 @@ dietary_input_traceability:
         - weydert_measurement_2010
     evidence_limitation: Erythrocyte superoxide dismutase rose after copper repletion in infants with marginal copper status. That does not show that extra copper raises the enzyme when status is already adequate.
   - atom_id: PM4-DIT-4
-    dietary_input: false
-    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
+    dietary_input: true
+    dietary_input_note: '2026-10-26: Type A capacity supply admitted after dietary manganese depletion evidence was assessed separately from absence of a human supplementation response. Original No decision and text retained in recovery history.'
     input: Manganese
     input_type: cofactor
     biological_role: Catalytic metal in mitochondrial manganese superoxide dismutase
     evidence_source:
       finding_ids:
         - PM4-F1
+        - PM4-F5
       citation_keys:
         - weydert_measurement_2010
-    evidence_limitation: Mitochondrial superoxide dismutase contains manganese. No human dietary-deficiency study retrieved here shows that manganese intake sets that enzyme or this balance.
+        - paynter_manganese_sod_1980
+    evidence_limitation: 'Human SOD2 requires manganese; dietary depletion experiments measured lower heart and kidney MnSOD activity in rats. This establishes a bounded enzyme-capacity dependency, not a human dose recommendation, universal tissue response, measured net ROS balance or benefit above adequate intake.'
   - atom_id: PM4-DIT-5
     dietary_input: false
-    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
+    dietary_input_note: 'This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.'
     input: Glutathione
     input_type: biochemical requirement
     biological_role: Thiol reductant used by glutathione peroxidase when it clears hydroperoxides
@@ -80,6 +83,19 @@ dietary_input_traceability:
       citation_keys:
         - weydert_measurement_2010
     evidence_limitation: Glutathione is made in the body and used by the peroxidase. That is not evidence for eating glutathione.
+  - atom_id: PM4-DIT-RECOVERY-IRON
+    input: Iron
+    input_type: cofactor
+    substance_id: iron
+    biological_role: Iron supplies haem-bound catalytic capacity for catalase-mediated hydrogen-peroxide clearance; this does not imply that extra iron improves net redox balance.
+    evidence_source:
+      finding_ids:
+        - PM4-F6
+      citation_keys:
+        - stangl_iron_enzyme_capacity_1998
+    evidence_limitation: 'Rat diet and tissue context; the kidney result is not a uniform response across organs or a human intake threshold. Human catalase haem identity supports capacity, not benefit from extra iron. Iron can also promote non-enzymatic oxidation; higher catalase activity is not a clinical benefit.'
+    dietary_input: true
+    dietary_input_note: '2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition does not establish an effective intervention dose.'
 dietary_lever_atoms:
   - atom_id: PM4-DIT-1
     requirement_classification: direct
@@ -89,10 +105,13 @@ dietary_lever_atoms:
     permitted_wording: Selenium is a Direct requirement for glutathione peroxidase. Extra selenium does not raise that enzyme once activity has levelled off.
     evidence_limitation: 'In selenium-deficient adults, plasma glutathione peroxidase activity levelled off once intake reached about 35 micrograms a day. Intake above that plateau did not raise the enzyme further, and the study did not measure net oxidative pressure.'
   - atom_id: PM4-DIT-2
-    relationship_layer: biochemical-requirement
+    relationship_layer: dietary-requirement
     claim_ceiling: biological-dependency
-    permitted_wording: Zinc is part of copper-zinc superoxide dismutase. It is not a dietary zinc route for this balance.
-    evidence_limitation: The enzyme contains zinc. No human study retrieved here shows that zinc intake sets superoxide dismutase activity or this balance.
+    permitted_wording: 'Zinc supplies the structural metal stabilising human SOD1, supporting native Cu/Zn-SOD capacity; copper is the redox-active catalytic metal.'
+    evidence_limitation: 'Curated human SOD1 and experimental structural evidence support a structural capacity relationship, not zinc-dependent catalysis identical to copper. Human dietary SOD responses vary by isoform and status; extra zinc can disturb copper availability. No general oxidative-stress improvement or benefit above adequacy is established.'
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    dietary_addressability: direct
   - atom_id: PM4-DIT-3
     requirement_classification: direct
     relationship_layer: dietary-requirement
@@ -101,15 +120,26 @@ dietary_lever_atoms:
     permitted_wording: Copper is a Direct requirement for copper-zinc superoxide dismutase when copper status is low. Extra copper when status is adequate is not shown.
     evidence_limitation: Erythrocyte superoxide dismutase rose after copper repletion in infants with marginal copper status. That does not show that extra copper raises the enzyme when status is already adequate.
   - atom_id: PM4-DIT-4
-    relationship_layer: biochemical-requirement
+    relationship_layer: dietary-requirement
     claim_ceiling: biological-dependency
-    permitted_wording: Manganese is part of mitochondrial superoxide dismutase. It is not a dietary manganese route for this balance.
-    evidence_limitation: Mitochondrial superoxide dismutase contains manganese. No human dietary-deficiency study retrieved here shows that manganese intake sets that enzyme or this balance.
+    permitted_wording: Manganese supplies the catalytic metal required by mitochondrial superoxide dismutase.
+    evidence_limitation: 'Human SOD2 requires manganese; dietary depletion experiments measured lower heart and kidney MnSOD activity in rats. This establishes a bounded enzyme-capacity dependency, not a human dose recommendation, universal tissue response, measured net ROS balance or benefit above adequate intake.'
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    dietary_addressability: direct
   - atom_id: PM4-DIT-5
     relationship_layer: biochemical-requirement
     claim_ceiling: biological-dependency
     permitted_wording: Glutathione is the thiol used in peroxidase clearance. It is not a dietary-glutathione recommendation.
     evidence_limitation: Glutathione is made in the body and used by the peroxidase. That is not evidence for eating glutathione.
+  - atom_id: PM4-DIT-RECOVERY-IRON
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    relationship_layer: dietary-requirement
+    dietary_addressability: direct
+    claim_ceiling: biological-dependency
+    permitted_wording: Iron supplies haem-bound catalytic capacity for catalase-mediated hydrogen-peroxide clearance; this does not imply that extra iron improves net redox balance.
+    evidence_limitation: 'Rat diet and tissue context; the kidney result is not a uniform response across organs or a human intake threshold. Human catalase haem identity supports capacity, not benefit from extra iron. Iron can also promote non-enzymatic oxidation; higher catalase activity is not a clinical benefit.'
 dietary_lever_presentations:
   - atom_id: PM4-DIT-1
     label: Selenium
@@ -119,13 +149,16 @@ dietary_lever_presentations:
     presentation_section: 3.1.1
   - atom_id: PM4-DIT-2
     label: Zinc
-    presentation_section: 3.1.2
+    presentation_section: 3.1.1
   - atom_id: PM4-DIT-4
     label: Manganese
-    presentation_section: 3.1.2
+    presentation_section: 3.1.1
   - atom_id: PM4-DIT-5
     label: Glutathione
     presentation_section: 3.1.2
+  - atom_id: PM4-DIT-RECOVERY-IRON
+    label: Iron
+    presentation_section: 3.1.1
 kc_applicability_adjudications:
   - kc_id: BRS3(KC1)
     ikc_id: BRS3(KC1)
@@ -151,6 +184,92 @@ kc_change_control_flags:
         - weydert_measurement_2010
         - sekhar_glutathione_2011
     status: pending-kc-review
+dietary_input_assessments:
+  - atom_id: PM4-DIT-4
+    status: admitted
+    type: A
+    classification: direct
+    operation: Balance reactive oxygen species production and clearance so net oxidative pressure stays within tolerable limits.
+    canonical_substance_id: manganese
+    functional_dependency:
+      status: established
+      statement: 'Manganese is the catalytic metal of human mitochondrial SOD2. Dietary manganese depletion lowered measured heart and kidney MnSOD activity in rats; this supports capacity supply, not extra-intake optimisation.'
+      sources:
+        - 'https://www.uniprot.org/uniprotkb/P04179/entry'
+        - 'https://doi.org/10.1093/jn/110.3.437'
+    dietary_supply:
+      status: established
+      statement: 'Existing structured manganese composition records supply the same element; enzyme loading and tissue transport remain biological dependencies, with no food-efficacy extrapolation.'
+      sources:
+        - docs/foods/almonds.md
+        - docs/substances/nutrients/micronutrients/minerals/trace/manganese.md
+    assessment_date: '2026-10-26'
+    assessment_limitations: 'Human SOD2 requires manganese; dietary depletion experiments measured lower heart and kidney MnSOD activity in rats. This establishes a bounded enzyme-capacity dependency, not a human dose recommendation, universal tissue response, measured net ROS balance or benefit above adequate intake.'
+    food_target_research:
+      completed: true
+      sources_examined:
+        - registry/substances.json
+        - docs/foods/almonds.md
+        - docs/foods/oats.md
+        - docs/substances/nutrients/micronutrients/minerals/trace/manganese.md
+        - system/food-target-research.json
+      sufficient_coverage_rationale: The existing manganese ontology already provides verified foods. This review reuses them without creating new edges or treating a food amount as a measured enzyme response.
+  - atom_id: PM4-DIT-2
+    status: admitted
+    type: A
+    classification: direct
+    operation: Balance reactive oxygen species production and clearance so net oxidative pressure stays within tolerable limits.
+    canonical_substance_id: zinc
+    functional_dependency:
+      status: established
+      statement: 'Zinc supplies the structural metal stabilising human SOD1, supporting native Cu/Zn-SOD capacity; copper is the redox-active catalytic metal.'
+      sources:
+        - 'https://www.uniprot.org/uniprotkb/P00441/entry'
+        - 'https://doi.org/10.1016/j.fob.2014.12.003'
+        - 'https://pubmed.ncbi.nlm.nih.gov/10702173/'
+    dietary_supply:
+      status: established
+      statement: 'The same mineral has established dietary supply through the canonical composition records. Cellular uptake and homeostasis mediate enzyme loading; this is maintenance of capacity, not a claim that extra intake accelerates the reaction.'
+      sources:
+        - docs/foods/pumpkin-seeds.md
+        - docs/foods/cashews.md
+    assessment_date: '2026-10-26'
+    assessment_limitations: 'Curated human SOD1 and experimental structural evidence support a structural capacity relationship, not zinc-dependent catalysis identical to copper. Human dietary SOD responses vary by isoform and status; extra zinc can disturb copper availability. No general oxidative-stress improvement or benefit above adequacy is established.'
+    food_target_research:
+      completed: true
+      sources_examined:
+        - registry/substances.json
+        - docs/foods/pumpkin-seeds.md
+        - docs/foods/cashews.md
+        - system/food-target-research.json
+      sufficient_coverage_rationale: 'Inspected existing structured composition records and provisional research coverage for the same mineral. Verified plant/animal sources are reused with preparation qualifiers; no new food edge, effective food dose or enzyme-response inference is created.'
+  - atom_id: PM4-DIT-RECOVERY-IRON
+    status: admitted
+    type: A
+    classification: direct
+    operation: Balance reactive oxygen species production and clearance so net oxidative pressure stays within tolerable limits.
+    canonical_substance_id: iron
+    assessment_date: '2026-10-26'
+    assessment_limitations: 'Rat diet and tissue context; the kidney result is not a uniform response across organs or a human intake threshold. Human catalase haem identity supports capacity, not benefit from extra iron. Iron can also promote non-enzymatic oxidation; higher catalase activity is not a clinical benefit.'
+    food_target_research:
+      completed: true
+      sources_examined:
+        - registry/substances.json
+        - docs/foods/beef.md
+        - docs/foods/spinach.md
+        - system/food-target-research.json
+      sufficient_coverage_rationale: Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships.
+    functional_dependency:
+      status: established
+      statement: Iron supplies haem-bound catalytic capacity for catalase-mediated hydrogen-peroxide clearance; this does not imply that extra iron improves net redox balance.
+      sources:
+        - 'https://pubmed.ncbi.nlm.nih.gov/9800317/'
+    dietary_supply:
+      status: established
+      statement: Existing food-composition records supply iron; host haem synthesis and catalase loading are necessary. Ordinary food presence does not establish increased peroxide clearance or an effective dose.
+      sources:
+        - docs/foods/beef.md
+        - docs/foods/spinach.md
 references:
   - '[Bulut et al. (2007) — Malondialdehyde Levels in Adult Attention-deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007)'
   - '[Kurhan and Alp (2021) — Dynamic Thiol/Disulfide Homeostasis in ADHD](/docs/papers/BRAIN-Diet-References#kurhan_dynamic_2021)'
@@ -175,6 +294,8 @@ references:
   - '[Weydert and Cullen (2010) — Superoxide dismutase, catalase and glutathione peroxidase](/docs/papers/BRAIN-Diet-References#weydert_measurement_2010)'
   - '[Xia et al. (2010) — Selenium requirement and glutathione peroxidase](/docs/papers/BRAIN-Diet-References#xia_selenoprotein_2010)'
   - '[Uauy et al. (1985) — Copper nutrition and red-cell superoxide dismutase](/docs/papers/BRAIN-Diet-References#uauy_superoxide_1985)'
+  - '[Paynter (1980) — Dietary manganese and tissue MnSOD activity](/docs/papers/BRAIN-Diet-References#paynter_manganese_sod_1980)'
+  - '[Stangl & Kirchgessner (1998) — Effect of different degrees of moderate iron deficiency on the activities of tricarboxylic acid cycle enzymes, and the cytochrome oxidase, and the iron, copper, and zinc concentrations in rat tissues](/docs/papers/BRAIN-Diet-References#stangl_iron_enzyme_capacity_1998)'
 hide_title: true
 phenome_relationships:
   - target_phenome: Focus / Attention Stability
@@ -223,7 +344,7 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019
         data_level: Human Mechanistic
     evidence_confidence: low-medium
-scientific_findings_intro: 'Net oxidative pressure is the balance of reactive-oxygen generation and enzymatic clearance. Superoxide dismutase, catalase and glutathione peroxidase do that clearance. Selenium and copper are the dietary provision routes. Zinc, manganese and glutathione stay with the enzymes and are not separate dietary targets. Extra intake when status is adequate is not established.'
+scientific_findings_intro: 'Net oxidative pressure is the balance of reactive-oxygen generation and enzymatic clearance. Superoxide dismutase, catalase and glutathione peroxidase do that clearance. Selenium and copper are the dietary provision routes. Manganese supplies MnSOD catalytic capacity; zinc and glutathione participate in these reactions, but this manganese evidence does not establish their dietary supply relationships. Extra intake when status is adequate is not established.'
 scientific_findings:
   - id: PM4-F1
     finding_label: Three enzymes clear superoxide and hydrogen peroxide
@@ -299,7 +420,59 @@ scientific_findings:
         exposure_context: isolated-substance
         evidence_source: bounded-external-search
         directional_finding: Red-cell superoxide dismutase rose after copper supplementation in infants with marginal copper status and correlated with plasma copper.
-sidebar_label: "BRS3-2-4 — ROS Generation vs Clearance Balance"
+  - id: PM4-F5
+    finding_label: Dietary manganese depletion lowers MnSOD activity in selected rat tissues
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: Reducing dietary manganese lowered mitochondrial manganese-superoxide-dismutase activity in heart and kidney in a controlled rat feeding experiment.
+    finding_summary: Dietary supply affected the activity of a defined ROS-clearance enzyme in a tissue-dependent animal experiment.
+    finding_interpretation: 'Supports a Type A manganese capacity relationship alongside curated human SOD2 cofactor dependence, without defining a human optimisation dose.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: Paynter tested six dietary manganese concentrations for ten weeks in weanling male rats. Heart and kidney MnSOD activity fell at lower manganese supply. Effects differed by tissue and time; Cu-containing SOD and glutathione peroxidase did not significantly change in the examined tissues.
+    synthesis_limitations: 'Human SOD2 requires manganese; dietary depletion experiments measured lower heart and kidney MnSOD activity in rats. This establishes a bounded enzyme-capacity dependency, not a human dose recommendation, universal tissue response, measured net ROS balance or benefit above adequate intake. Publisher abstract and bibliographic identity retrieved; full-text assay methods and group sample sizes remain unextracted, so numerical SEC is not assigned.'
+    evidence_considered:
+      - label: Paynter (1980)
+        citation_key: paynter_manganese_sod_1980
+        href: /docs/papers/BRAIN-Diet-References#paynter_manganese_sod_1980
+        data_level: Mechanistic
+        exposure_context: Defined manganese diets for ten weeks in weanling male rats
+        evidence_source: bounded-external-search
+        directional_finding: Lower dietary manganese reduced measured heart and kidney MnSOD activity.
+        assessment:
+          study: Controlled dietary manganese concentration experiment.
+          population: Weanling male rats; group sizes not extracted from the publisher abstract.
+          result: Heart and kidney MnSOD activity depended on dietary manganese; other antioxidant enzyme activities were not uniformly altered.
+          effect_magnitude: No numerical activity effect size extracted.
+          evidence_summary: 'Direct dietary supply-to-enzyme activity evidence in rats, not a generic oxidative biomarker.'
+          limitations: 'Human SOD2 requires manganese; dietary depletion experiments measured lower heart and kidney MnSOD activity in rats. This establishes a bounded enzyme-capacity dependency, not a human dose recommendation, universal tissue response, measured net ROS balance or benefit above adequate intake.'
+          retrieval_scope: Publisher primary abstract at DOI 10.1093/jn/110.3.437; identity checked against PMID 7359215; retrieved 2026-10-26.
+  - id: PM4-F6
+    finding_label: Dietary iron restriction has tissue-specific catalase effects
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: 'In a rat dietary-iron restriction experiment, kidney catalase activity was lower at the lowest intake, while many hepatic enzyme activities remained largely unaffected.'
+    finding_summary: 'In a rat dietary-iron restriction experiment, kidney catalase activity was lower at the lowest intake, while many hepatic enzyme activities remained largely unaffected.'
+    finding_interpretation: Iron supplies haem-bound catalytic capacity for catalase-mediated hydrogen-peroxide clearance; this does not imply that extra iron improves net redox balance.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'In a rat dietary-iron restriction experiment, kidney catalase activity was lower at the lowest intake, while many hepatic enzyme activities remained largely unaffected.'
+    synthesis_limitations: 'Rat diet and tissue context; the kidney result is not a uniform response across organs or a human intake threshold. Human catalase haem identity supports capacity, not benefit from extra iron. Iron can also promote non-enzymatic oxidation; higher catalase activity is not a clinical benefit. Numerical SEC remains pending full-method appraisal; no factor is forced.'
+    evidence_considered:
+      - label: Stangl & Kirchgessner (1998)
+        citation_key: stangl_iron_enzyme_capacity_1998
+        href: /docs/papers/BRAIN-Diet-References#stangl_iron_enzyme_capacity_1998
+        data_level: Animal Data
+        evidence_source: bounded-external-search
+        exposure_context: 'Dietary iron 9, 13 or 18 mg/kg compared with 50 mg/kg controls.'
+        directional_finding: 'In a rat dietary-iron restriction experiment, kidney catalase activity was lower at the lowest intake, while many hepatic enzyme activities remained largely unaffected.'
+        assessment:
+          study: Five-week graded moderate dietary iron restriction with pair-fed comparisons and tissue enzyme assays.
+          population: Young male rats; group sample sizes not extracted from the primary abstract.
+          result: 'In a rat dietary-iron restriction experiment, kidney catalase activity was lower at the lowest intake, while many hepatic enzyme activities remained largely unaffected.'
+          effect_magnitude: No additional magnitude inferred.
+          evidence_summary: 'In a rat dietary-iron restriction experiment, kidney catalase activity was lower at the lowest intake, while many hepatic enzyme activities remained largely unaffected.'
+          limitations: 'Rat diet and tissue context; the kidney result is not a uniform response across organs or a human intake threshold. Human catalase haem identity supports capacity, not benefit from extra iron. Iron can also promote non-enzymatic oxidation; higher catalase activity is not a clinical benefit.'
+          retrieval_scope: Primary abstract retrieved 26 October 2026; full methods and supplements not extracted.
+sidebar_label: BRS3-2-4 — ROS Generation vs Clearance Balance
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -338,8 +511,14 @@ Balance reactive oxygen species production and clearance so net oxidative pressu
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
+- Iron
+
+
 - Selenium
 - Copper
+- Manganese
+
+- Zinc
 
 </div>
 </div>
@@ -349,12 +528,12 @@ Balance reactive oxygen species production and clearance so net oxidative pressu
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+
+
 <strong>3.1.2 Cofactors and Substrates</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Zinc
-- Manganese
 - Glutathione
 
 </div>
@@ -424,7 +603,7 @@ No evidence-qualified lifestyle relationship is projected. Timing, stress and ac
 
 ### Summary
 
-Net oxidative pressure is whether superoxide dismutase, catalase and glutathione peroxidase keep up with reactive oxygen made in ordinary metabolism. [[21]](#pm-ref-21) Selenium and copper are the intake routes that restore glutathione peroxidase and copper-zinc superoxide dismutase when status is low. [[22]](#pm-ref-22) [[23]](#pm-ref-23) Zinc, manganese and glutathione belong to those enzymes and are not separate dietary targets. [[21]](#pm-ref-21)
+Net oxidative pressure is whether superoxide dismutase, catalase and glutathione peroxidase keep up with reactive oxygen made in ordinary metabolism. [[21]](#pm-ref-21) Selenium and copper are the intake routes that restore glutathione peroxidase and copper-zinc superoxide dismutase when status is low. [[22]](#pm-ref-22) [[23]](#pm-ref-23) Manganese additionally supplies MnSOD capacity; this does not establish an extra-intake benefit. Zinc and glutathione participate in distinct enzyme reactions; additional dietary supply relationships need separate evidence. [[21]](#pm-ref-21)
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -458,7 +637,7 @@ This page is the generation-versus-clearance balance inside [BRS3(FM2)](/docs/bi
 
 #### Summary
 
-Net oxidative pressure is the balance of reactive-oxygen generation and enzymatic clearance. Superoxide dismutase, catalase and glutathione peroxidase do that clearance. Selenium and copper are the dietary provision routes. Zinc, manganese and glutathione stay with the enzymes and are not separate dietary targets. Extra intake when status is adequate is not established.
+Net oxidative pressure is the balance of reactive-oxygen generation and enzymatic clearance. Superoxide dismutase, catalase and glutathione peroxidase do that clearance. Selenium and copper are the dietary provision routes. Manganese supplies MnSOD catalytic capacity; zinc and glutathione participate in these reactions, but this manganese evidence does not establish their dietary supply relationships. Extra intake when status is adequate is not established.
 
 <ScientificFinding finding={{"id":"PM4-F1","finding_label":"Three enzymes clear superoxide and hydrogen peroxide","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Superoxide dismutase converts superoxide to hydrogen peroxide. Catalase and glutathione peroxidase convert hydrogen peroxide to water. Copper-zinc superoxide dismutase holds copper and zinc. Mitochondrial superoxide dismutase holds manganese. Glutathione peroxidase is a selenoprotein and uses glutathione.","finding_interpretation":"Enzyme metals and the peroxidase thiol are biochemical participants. They are not, by themselves, proof that eating more of them changes the balance.","finding_statement":"Mammalian cells clear superoxide and hydrogen peroxide with superoxide dismutase, catalase and glutathione peroxidase. Copper, zinc, manganese, selenium and glutathione belong to those enzymes. That membership is not an intake result.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Weydert and Cullen describe the three primary antioxidant enzymes, the copper-zinc and manganese superoxide dismutases, catalase, and glutathione peroxidase as a selenoprotein that requires glutathione. That places the metals and glutathione in the clearance reactions. It does not test dietary intake.","synthesis_limitations":"A methods review states the enzyme chemistry. It does not show that raising intake of these participants changes net oxidative pressure.","evidence_considered":[{"label":"Weydert and Cullen (2010)","citation_key":"weydert_measurement_2010","href":"/docs/papers/BRAIN-Diet-References#weydert_measurement_2010","data_level":"Mechanistic","exposure_context":"isolated-substance","evidence_source":"bounded-external-search","directional_finding":"Superoxide dismutase, catalase and glutathione peroxidase are the three primary clearance enzymes. Copper-zinc and manganese forms of superoxide dismutase are named, and glutathione peroxidase requires glutathione and is a selenoprotein.","canonical_reference":{"author_year":"Weydert and Cullen (2010)","number":21,"anchor":"#pm-ref-21"}}],"connected_supportive_evidence":[]}} />
 
@@ -467,6 +646,10 @@ Net oxidative pressure is the balance of reactive-oxygen generation and enzymati
 <ScientificFinding finding={{"id":"PM4-F3","finding_label":"Selenium intake restores glutathione peroxidase up to a plateau","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"In adults eating very little selenium, plasma glutathione peroxidase activity rose with selenomethionine and levelled off at a total intake of about 35 micrograms a day. More selenium did not raise that enzyme further.","finding_interpretation":"Selenium is required for glutathione peroxidase when status is low. Extra selenium after the enzyme has levelled off is not shown to improve this balance.","finding_statement":"Dietary selenium restores plasma glutathione peroxidase activity in selenium-deficient adults up to a plateau near 35 micrograms a day. Intake above that plateau did not raise the enzyme further.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Xia and colleagues studied healthy Chinese adults whose usual diet supplied about 14 micrograms of selenium a day. Plasma glutathione peroxidase activity was optimised by a total intake of about 35 micrograms a day. Selenoprotein P needed more, about 49 micrograms a day. The trial measured those biomarkers, not net oxidative pressure and not a clinical outcome.","synthesis_limitations":"The result is repletion of a low-selenium diet. It is not evidence that extra selenium helps when glutathione peroxidase is already fully expressed.","evidence_considered":[{"label":"Xia et al. (2010)","citation_key":"xia_selenoprotein_2010","href":"/docs/papers/BRAIN-Diet-References#xia_selenoprotein_2010","data_level":"Human Study","exposure_context":"isolated-substance","evidence_source":"bounded-external-search","directional_finding":"Plasma glutathione peroxidase activity in selenium-deficient adults levelled off at about 35 micrograms of selenium a day. Higher doses did not raise it further.","canonical_reference":{"author_year":"Xia et al. (2010)","number":22,"anchor":"#pm-ref-22"}}],"connected_supportive_evidence":[]}} />
 
 <ScientificFinding finding={{"id":"PM4-F4","finding_label":"Copper repletion raises red-cell superoxide dismutase when copper is low","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"In infants recovering from malnutrition with marginal copper intake, copper supplementation raised red-cell superoxide dismutase together with plasma copper.","finding_interpretation":"Copper is required for that enzyme when copper status is low. The study does not show a benefit from extra copper when status is already adequate, and it is not an adult balance trial.","finding_statement":"Copper repletion raised erythrocyte superoxide dismutase in infants with marginal copper status. Adding copper to the assay tube did not raise the enzyme, so the change tracked copper nutrition rather than copper in the test.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Uauy and colleagues studied 17 infants recovering from malnutrition. After copper supplementation, plasma copper, ceruloplasmin and red-cell superoxide dismutase rose, and the enzyme correlated with plasma copper. Copper added in the assay did not change the activity. The setting is infant malnutrition, not ordinary adult intake.","synthesis_limitations":"Marginal copper in infants is not evidence that more copper improves reactive-oxygen balance in people who are already replete.","evidence_considered":[{"label":"Uauy et al. (1985)","citation_key":"uauy_superoxide_1985","href":"/docs/papers/BRAIN-Diet-References#uauy_superoxide_1985","data_level":"Human Study","exposure_context":"isolated-substance","evidence_source":"bounded-external-search","directional_finding":"Red-cell superoxide dismutase rose after copper supplementation in infants with marginal copper status and correlated with plasma copper.","canonical_reference":{"author_year":"Uauy et al. (1985)","number":23,"anchor":"#pm-ref-23"}}],"connected_supportive_evidence":[]}} />
+
+<ScientificFinding finding={{"id":"PM4-F5","finding_label":"Dietary manganese depletion lowers MnSOD activity in selected rat tissues","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"Reducing dietary manganese lowered mitochondrial manganese-superoxide-dismutase activity in heart and kidney in a controlled rat feeding experiment.","finding_summary":"Dietary supply affected the activity of a defined ROS-clearance enzyme in a tissue-dependent animal experiment.","finding_interpretation":"Supports a Type A manganese capacity relationship alongside curated human SOD2 cofactor dependence, without defining a human optimisation dose.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Paynter tested six dietary manganese concentrations for ten weeks in weanling male rats. Heart and kidney MnSOD activity fell at lower manganese supply. Effects differed by tissue and time; Cu-containing SOD and glutathione peroxidase did not significantly change in the examined tissues.","synthesis_limitations":"Human SOD2 requires manganese; dietary depletion experiments measured lower heart and kidney MnSOD activity in rats. This establishes a bounded enzyme-capacity dependency, not a human dose recommendation, universal tissue response, measured net ROS balance or benefit above adequate intake. Publisher abstract and bibliographic identity retrieved; full-text assay methods and group sample sizes remain unextracted, so numerical SEC is not assigned.","evidence_considered":[{"label":"Paynter (1980)","citation_key":"paynter_manganese_sod_1980","href":"/docs/papers/BRAIN-Diet-References#paynter_manganese_sod_1980","data_level":"Mechanistic","exposure_context":"Defined manganese diets for ten weeks in weanling male rats","evidence_source":"bounded-external-search","directional_finding":"Lower dietary manganese reduced measured heart and kidney MnSOD activity.","assessment":{"study":"Controlled dietary manganese concentration experiment.","population":"Weanling male rats; group sizes not extracted from the publisher abstract.","result":"Heart and kidney MnSOD activity depended on dietary manganese; other antioxidant enzyme activities were not uniformly altered.","effect_magnitude":"No numerical activity effect size extracted.","evidence_summary":"Direct dietary supply-to-enzyme activity evidence in rats, not a generic oxidative biomarker.","limitations":"Human SOD2 requires manganese; dietary depletion experiments measured lower heart and kidney MnSOD activity in rats. This establishes a bounded enzyme-capacity dependency, not a human dose recommendation, universal tissue response, measured net ROS balance or benefit above adequate intake.","retrieval_scope":"Publisher primary abstract at DOI 10.1093/jn/110.3.437; identity checked against PMID 7359215; retrieved 2026-10-26."},"canonical_reference":{"author_year":"Paynter (1980)","number":24,"anchor":"#pm-ref-24"}}],"connected_supportive_evidence":[]}} />
+
+<ScientificFinding finding={{"id":"PM4-F6","finding_label":"Dietary iron restriction has tissue-specific catalase effects","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"In a rat dietary-iron restriction experiment, kidney catalase activity was lower at the lowest intake, while many hepatic enzyme activities remained largely unaffected.","finding_summary":"In a rat dietary-iron restriction experiment, kidney catalase activity was lower at the lowest intake, while many hepatic enzyme activities remained largely unaffected.","finding_interpretation":"Iron supplies haem-bound catalytic capacity for catalase-mediated hydrogen-peroxide clearance; this does not imply that extra iron improves net redox balance.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"In a rat dietary-iron restriction experiment, kidney catalase activity was lower at the lowest intake, while many hepatic enzyme activities remained largely unaffected.","synthesis_limitations":"Rat diet and tissue context; the kidney result is not a uniform response across organs or a human intake threshold. Human catalase haem identity supports capacity, not benefit from extra iron. Iron can also promote non-enzymatic oxidation; higher catalase activity is not a clinical benefit. Numerical SEC remains pending full-method appraisal; no factor is forced.","evidence_considered":[{"label":"Stangl & Kirchgessner (1998)","citation_key":"stangl_iron_enzyme_capacity_1998","href":"/docs/papers/BRAIN-Diet-References#stangl_iron_enzyme_capacity_1998","data_level":"Animal Data","evidence_source":"bounded-external-search","exposure_context":"Dietary iron 9, 13 or 18 mg/kg compared with 50 mg/kg controls.","directional_finding":"In a rat dietary-iron restriction experiment, kidney catalase activity was lower at the lowest intake, while many hepatic enzyme activities remained largely unaffected.","assessment":{"study":"Five-week graded moderate dietary iron restriction with pair-fed comparisons and tissue enzyme assays.","population":"Young male rats; group sample sizes not extracted from the primary abstract.","result":"In a rat dietary-iron restriction experiment, kidney catalase activity was lower at the lowest intake, while many hepatic enzyme activities remained largely unaffected.","effect_magnitude":"No additional magnitude inferred.","evidence_summary":"In a rat dietary-iron restriction experiment, kidney catalase activity was lower at the lowest intake, while many hepatic enzyme activities remained largely unaffected.","limitations":"Rat diet and tissue context; the kidney result is not a uniform response across organs or a human intake threshold. Human catalase haem identity supports capacity, not benefit from extra iron. Iron can also promote non-enzymatic oxidation; higher catalase activity is not a clinical benefit.","retrieval_scope":"Primary abstract retrieved 26 October 2026; full methods and supplements not extracted."},"canonical_reference":{"author_year":"Stangl and Kirchgessner (1998)","number":25,"anchor":"#pm-ref-25"}}],"connected_supportive_evidence":[]}} />
 
 ## 5. BRS Pathways and Connections
 
@@ -634,3 +817,6 @@ No change to a canonical admission is proposed. The exposure, conversion and mod
 - <span id="pm-ref-21">[21]</span> [Weydert and Cullen (2010) — Superoxide dismutase, catalase and glutathione peroxidase](/docs/papers/BRAIN-Diet-References#weydert_measurement_2010)
 - <span id="pm-ref-22">[22]</span> [Xia et al. (2010) — Selenium requirement and glutathione peroxidase](/docs/papers/BRAIN-Diet-References#xia_selenoprotein_2010)
 - <span id="pm-ref-23">[23]</span> [Uauy et al. (1985) — Copper nutrition and red-cell superoxide dismutase](/docs/papers/BRAIN-Diet-References#uauy_superoxide_1985)
+- <span id="pm-ref-24">[24]</span> [Paynter (1980) — Dietary manganese and tissue MnSOD activity](/docs/papers/BRAIN-Diet-References#paynter_manganese_sod_1980)
+- <span id="pm-ref-25">[25]</span> [Stangl & Kirchgessner (1998) — Effect of different degrees of moderate iron deficiency on the activities of tricarboxylic acid cycle enzymes, and the cytochrome oxidase, and the iron, copper, and zinc concentrations in rat tissues](/docs/papers/BRAIN-Diet-References#stangl_iron_enzyme_capacity_1998)
+

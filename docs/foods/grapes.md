@@ -65,164 +65,193 @@ nutrition_supplementary_sources:
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database Release 3.3 (2018); Printed page 37; Grapes, red,
-      raw; NDB 97074. Positive mean in the named food row, not an assumed
-      association from database title. No free-aglycone mass inferred.
+      USDA flavonoid database Release 3.3 (2018); Printed page 37; Grapes, red, raw; NDB 97074.
+      Positive mean in the named food row, not an assumed association from database title. No
+      free-aglycone mass inferred.
     public_note: >-
-      USDA flavonoid database, Release 3.3; the studied food form is shown
-      beside each constituent. Glycoside-derived records do not establish
-      free-aglycone amounts.
+      USDA flavonoid database, Release 3.3; the studied food form is shown beside each constituent.
+      Glycoside-derived records do not establish free-aglycone amounts.
     source_group: USDA-flavonoid-3.3
-    notes: 'Grapes, red, raw; NDB 97074 — glycosides / reported aglycone equivalents'
+    notes: Grapes, red, raw; NDB 97074 — glycosides / reported aglycone equivalents
     public_display: table
     evidence_status: supported
-    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf
   - key: delphinidin_qual
     label: Delphinidin
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database Release 3.3 (2018); Printed page 37; Grapes, red,
-      raw; NDB 97074. Positive mean in the named food row, not an assumed
-      association from database title. No free-aglycone mass inferred.
+      USDA flavonoid database Release 3.3 (2018); Printed page 37; Grapes, red, raw; NDB 97074.
+      Positive mean in the named food row, not an assumed association from database title. No
+      free-aglycone mass inferred.
     public_note: >-
-      USDA flavonoid database, Release 3.3; the studied food form is shown
-      beside each constituent. Glycoside-derived records do not establish
-      free-aglycone amounts.
+      USDA flavonoid database, Release 3.3; the studied food form is shown beside each constituent.
+      Glycoside-derived records do not establish free-aglycone amounts.
     source_group: USDA-flavonoid-3.3
-    notes: 'Grapes, red, raw; NDB 97074 — glycosides / reported aglycone equivalents'
+    notes: Grapes, red, raw; NDB 97074 — glycosides / reported aglycone equivalents
     public_display: table
     evidence_status: supported
-    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf
   - key: malvidin_qual
     label: Malvidin
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database Release 3.3 (2018); Printed page 37; Grapes, red,
-      raw; NDB 97074. Positive mean in the named food row, not an assumed
-      association from database title. No free-aglycone mass inferred.
+      USDA flavonoid database Release 3.3 (2018); Printed page 37; Grapes, red, raw; NDB 97074.
+      Positive mean in the named food row, not an assumed association from database title. No
+      free-aglycone mass inferred.
     public_note: >-
-      USDA flavonoid database, Release 3.3; the studied food form is shown
-      beside each constituent. Glycoside-derived records do not establish
-      free-aglycone amounts.
+      USDA flavonoid database, Release 3.3; the studied food form is shown beside each constituent.
+      Glycoside-derived records do not establish free-aglycone amounts.
     source_group: USDA-flavonoid-3.3
-    notes: 'Grapes, red, raw; NDB 97074 — glycosides / reported aglycone equivalents'
+    notes: Grapes, red, raw; NDB 97074 — glycosides / reported aglycone equivalents
     public_display: table
     evidence_status: supported
-    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf
   - key: peonidin_qual
     label: Peonidin
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database Release 3.3 (2018); Printed page 37; Grapes, red,
-      raw; NDB 97074. Positive mean in the named food row, not an assumed
-      association from database title. No free-aglycone mass inferred.
+      USDA flavonoid database Release 3.3 (2018); Printed page 37; Grapes, red, raw; NDB 97074.
+      Positive mean in the named food row, not an assumed association from database title. No
+      free-aglycone mass inferred.
     public_note: >-
-      USDA flavonoid database, Release 3.3; the studied food form is shown
-      beside each constituent. Glycoside-derived records do not establish
-      free-aglycone amounts.
+      USDA flavonoid database, Release 3.3; the studied food form is shown beside each constituent.
+      Glycoside-derived records do not establish free-aglycone amounts.
     source_group: USDA-flavonoid-3.3
-    notes: 'Grapes, red, raw; NDB 97074 — glycosides / reported aglycone equivalents'
+    notes: Grapes, red, raw; NDB 97074 — glycosides / reported aglycone equivalents
     public_display: table
     evidence_status: supported
-    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf
   - key: petunidin_qual
     label: Petunidin
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database Release 3.3 (2018); Printed page 37; Grapes, red,
-      raw; NDB 97074. Positive mean in the named food row, not an assumed
-      association from database title. No free-aglycone mass inferred.
+      USDA flavonoid database Release 3.3 (2018); Printed page 37; Grapes, red, raw; NDB 97074.
+      Positive mean in the named food row, not an assumed association from database title. No
+      free-aglycone mass inferred.
     public_note: >-
-      USDA flavonoid database, Release 3.3; the studied food form is shown
-      beside each constituent. Glycoside-derived records do not establish
-      free-aglycone amounts.
+      USDA flavonoid database, Release 3.3; the studied food form is shown beside each constituent.
+      Glycoside-derived records do not establish free-aglycone amounts.
     source_group: USDA-flavonoid-3.3
-    notes: 'Grapes, red, raw; NDB 97074 — glycosides / reported aglycone equivalents'
+    notes: Grapes, red, raw; NDB 97074 — glycosides / reported aglycone equivalents
     public_display: table
     evidence_status: supported
-    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf
+  - key: glucose_sr_174683
+    label: Glucose
+    substance_id: glucose
+    value: 7.2
+    unit: g
+    basis: per 100 g edible portion
+    source_url: https://fdc.nal.usda.gov/food-details/174683/nutrients
+    source_note: >-
+      USDA SR Legacy glucose (nutrient 1011), distinct from total sugars. Exact source food and form
+      retained.
+    evidence_material: Grapes, red or green (European type, such as Thompson seedless), raw
+    preparation_state: raw
+    fdc_id: 174683
+    evidence_status: supported
+    public_display: public
 substance_relationships:
   - substance: Potassium
     relationship: contains
     description: >-
-      USDA FoodData Central reports potassium in Grapes, red or green (European
-      type, such as Thompson seedless), raw.
+      USDA FoodData Central reports potassium in Grapes, red or green (European type, such as
+      Thompson seedless), raw.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: grapes|Potassium
     evidence_source: USDA SR Legacy April 2018
-    evidence_material: 'Grapes, red or green (European type, such as Thompson seedless), raw'
-    source_url: 'https://fdc.nal.usda.gov/food-details/174683/nutrients'
+    evidence_material: Grapes, red or green (European type, such as Thompson seedless), raw
+    source_url: https://fdc.nal.usda.gov/food-details/174683/nutrients
     presence_status: presence_and_amount_supported
   - substance: Cyanidin
     relationship: contains
     description: >-
-      USDA’s flavonoid database identifies cyanidin-derived glycosides in
-      grapes, red, raw. A separate amount for this page is not established. This
-      does not establish free-aglycone content.
+      USDA’s flavonoid database identifies cyanidin-derived glycosides in grapes, red, raw. A
+      separate amount for this page is not established. This does not establish free-aglycone
+      content.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: grapes|Cyanidin
     evidence_source: USDA flavonoid database Release 3.3 (2018)
-    evidence_material: 'Grapes, red, raw; NDB 97074'
-    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    evidence_material: Grapes, red, raw; NDB 97074
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf
     presence_status: presence_supported_amount_unavailable
   - substance: Delphinidin
     relationship: contains
     description: >-
-      USDA’s flavonoid database identifies delphinidin-derived glycosides in
-      grapes, red, raw. A separate amount for this page is not established. This
-      does not establish free-aglycone content.
+      USDA’s flavonoid database identifies delphinidin-derived glycosides in grapes, red, raw. A
+      separate amount for this page is not established. This does not establish free-aglycone
+      content.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: grapes|Delphinidin
     evidence_source: USDA flavonoid database Release 3.3 (2018)
-    evidence_material: 'Grapes, red, raw; NDB 97074'
-    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    evidence_material: Grapes, red, raw; NDB 97074
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf
     presence_status: presence_supported_amount_unavailable
   - substance: Malvidin
     relationship: contains
     description: >-
-      USDA’s flavonoid database identifies malvidin-derived glycosides in
-      grapes, red, raw. A separate amount for this page is not established. This
-      does not establish free-aglycone content.
+      USDA’s flavonoid database identifies malvidin-derived glycosides in grapes, red, raw. A
+      separate amount for this page is not established. This does not establish free-aglycone
+      content.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: grapes|Malvidin
     evidence_source: USDA flavonoid database Release 3.3 (2018)
-    evidence_material: 'Grapes, red, raw; NDB 97074'
-    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    evidence_material: Grapes, red, raw; NDB 97074
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf
     presence_status: presence_supported_amount_unavailable
   - substance: Peonidin
     relationship: contains
     description: >-
-      USDA’s flavonoid database identifies peonidin-derived glycosides in
-      grapes, red, raw. A separate amount for this page is not established. This
-      does not establish free-aglycone content.
+      USDA’s flavonoid database identifies peonidin-derived glycosides in grapes, red, raw. A
+      separate amount for this page is not established. This does not establish free-aglycone
+      content.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: grapes|Peonidin
     evidence_source: USDA flavonoid database Release 3.3 (2018)
-    evidence_material: 'Grapes, red, raw; NDB 97074'
-    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    evidence_material: Grapes, red, raw; NDB 97074
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf
     presence_status: presence_supported_amount_unavailable
   - substance: Petunidin
     relationship: contains
     description: >-
-      USDA’s flavonoid database identifies petunidin-derived glycosides in
-      grapes, red, raw. A separate amount for this page is not established. This
-      does not establish free-aglycone content.
+      USDA’s flavonoid database identifies petunidin-derived glycosides in grapes, red, raw. A
+      separate amount for this page is not established. This does not establish free-aglycone
+      content.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: grapes|Petunidin
     evidence_source: USDA flavonoid database Release 3.3 (2018)
-    evidence_material: 'Grapes, red, raw; NDB 97074'
-    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    evidence_material: Grapes, red, raw; NDB 97074
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf
     presence_status: presence_supported_amount_unavailable
+  - substance: Glucose
+    substance_id: glucose
+    relationship: contains
+    evidence_status: supported
+    evidence_material: Grapes, red or green (European type, such as Thompson seedless), raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/174683/nutrients
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_source: >-
+      USDA SR Legacy nutrient 1011 reports glucose separately from fructose, sucrose, total sugars
+      and carbohydrate.
+    material_limitations: >-
+      Composition only; ripeness, cultivar and product vary. Not evidence that ordinary portions
+      reproduce an experimental intestinal glucose stimulus.
+    food_delivery_notes: >-
+      Composition only; ripeness, cultivar and product vary. Not evidence that ordinary portions
+      reproduce an experimental intestinal glucose stimulus.
+    chemical_form: glucose
 substance_review_candidates: []
 ---
 ## Overview

@@ -1,4 +1,24 @@
 ---
+formation_pathways:
+  - id: PECTIN-MICROBIAL-SCFAS
+    from: pectin
+    to: scfas
+    relationship: microbial-formation
+    status: supported
+    process: Microbial fermentation of pectin to a context-dependent SCFA mixture
+    dependencies:
+      - Pectin-degrading microbial community
+      - Tested substrate structure and culture conditions
+    evidence:
+      statement: Bang 2018 measured fermentation and SCFA changes using pectin and fecal inocula from three donors.
+      sources:
+        - https://doi.org/10.1186/s13568-018-0629-9
+    limitations: >-
+      Purified preparation in donor-derived cultures; whole apples are not equivalent interventions. The
+      shared food projection claims SCFA provision context only and must not infer a food-specific butyrate
+      response.
+    pm_evidence_refs:
+      - BRS5-FM2-PM5::PM5-F1
 id: SCFAs
 slug: scfas
 title: Short-Chain Fatty Acids (SCFAs)
