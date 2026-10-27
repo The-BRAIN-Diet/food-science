@@ -1,4 +1,4 @@
-import {informationIcon, renderCoverageWarning, renderTarget} from "./foodTargetTraceability.mjs";
+import {informationIcon, renderCoverageWarning, renderTarget, renderUpstreamCandidates, unresolvedButyratePrecursorCandidates} from "./foodTargetTraceability.mjs";
 import generatedScopes from "../data/inputMappingScopes.mjs";
 import { selectBrsReviewData, canonicalInputSection } from "../data/inputSubstanceFoodSelection.mjs";
 /** Read-only display of generated PM input joins; no hand-maintained food lists. */
@@ -204,6 +204,9 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
     const relationships = scoped.relationships.filter(r => r.pm === pm && (r.presentations || []).some((p: any) => norm(p.label) === norm(label) && p.section === section));
     if (!relationships.length)
         return;
+    const precursorBundle = unresolvedButyratePrecursorCandidates(scoped.relationships, scoped.food_sources)
+        .find((bundle: any) => relationships.some((r: any) => r.id === bundle.product_id || bundle.derived_ids.includes(r.id)));
+    const precursorIsProduct = !!precursorBundle && relationships.some((r: any) => r.id === precursorBundle.product_id);
     if (section === '3.1.1' && relationships.some((r:any) => 'food_targets' in r)) {
         const warnings = [...new Set(relationships.flatMap((r:any) => r.coverage_warnings || []))];
         const detail = li.querySelector('.brs-dietary-lever-detail-inner');
@@ -229,10 +232,11 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
                 group.forEach(target => { const item = document.createElement('li'); item.innerHTML = renderTarget(target); list.append(item); });
                 box.append(list);
             } else {
-                const empty = document.createElement('p'); empty.textContent = targets.length ? 'No supported food targets in this group.' : 'Food ontology coverage unresolved.'; box.append(empty);
+                const empty = document.createElement('p'); empty.textContent = targets.length ? 'No supported food targets in this group.' : precursorIsProduct ? 'No approved butyrate-delivery targets.' : 'Food ontology coverage unresolved.'; box.append(empty);
             }
             attachFoodDisclosureBehaviour(box); li.append(box);
         }
+        if (precursorBundle && !precursorIsProduct) li.insertAdjacentHTML('beforeend', renderUpstreamCandidates(precursorBundle));
         return;
     }
 
@@ -243,4 +247,5 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
     li.append(plantBox);
     animalBox.dataset.relationshipIds = relationships.map(r => r.id).join(' ');
     li.append(animalBox);
+    if (precursorBundle && !precursorIsProduct) li.insertAdjacentHTML('beforeend', renderUpstreamCandidates(precursorBundle));
 }

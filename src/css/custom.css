@@ -1912,6 +1912,33 @@ img[src*="/img/foods/"]:not(.food-page-hero) {
   cursor: help;
 }
 
+.dietary-origin-edge--direct {
+  color: var(--ifm-color-emphasis-800);
+}
+
+.dietary-origin-edge--derived {
+  margin-top: 0.15rem;
+  border-top: 1px dashed var(--ifm-color-warning-dark);
+  color: var(--ifm-color-warning-dark);
+}
+
+.dietary-origin-pathway__gap,
+.dietary-origin-provisional {
+  margin: 0.35rem 0 0.6rem;
+  font-size: 0.86rem;
+}
+
+.dietary-origin-provisional {
+  padding: 0.45rem 0.55rem;
+  border: 1px dashed var(--ifm-color-warning-dark);
+  border-radius: 0.4rem;
+}
+
+.dietary-origin-provisional p,
+.dietary-origin-provisional ul {
+  margin-bottom: 0.35rem;
+}
+
 .dietary-origin-pathway__evidence {
   margin-top: 0.75rem;
   font-size: 0.88rem;

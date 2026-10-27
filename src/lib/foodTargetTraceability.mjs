@@ -1,4 +1,4 @@
-import {structuredEvidence, reconcileFoodTargets} from './foodTargetReconciliation.mjs';
+import {structuredEvidence, reconcileFoodTargets, verifiedFoodTarget} from './foodTargetReconciliation.mjs';
 import {assessAdmission,evidencePresent,canonicalSection} from './dietaryInputGovernance.mjs';
 export const FOOD_MAPPING_STATES=['verified','research-supported-provisional','unresolved'];
 const unique=xs=>[...new Set(xs)];
@@ -37,7 +37,7 @@ export function projectFoodTargets({relationships=[],substances={},research=[],f
   const conversionUnresolved=derived&&(!r.scientific_assessment?.conversion_pathway?.length||admission.errors.some(e=>/conversion|target|dependencies/.test(e)));
   if(conversionUnresolved)warnings.push(`${r.input} → ${r.derived_target||r.scientific_assessment?.active_target_id||'active target'}: conversion pathway reconciliation pending.`);
   const ontologyConnections={identity:supplyId&&identities[supplyId]?'resolved':'unresolved',conversion:derived?(conversionUnresolved?'unresolved':'supported'):'not-applicable',food:foods.length?'supported':'unresolved'};
-  if(!foods.length)warnings.push(`${r.input}: Food ontology coverage unresolved.`);
+  if(!foods.length)warnings.push(r.substance_id==='butyrate'&&r.dietary_input!==true?'Butyrate: dietary admission unresolved. No approved food-delivery targets. Existing substrate foods are upstream candidates, not butyrate content.':`${r.input}: Food ontology coverage unresolved.`);
   for(const f of foods.filter(f=>f.mapping_status==='research-supported-provisional')) {
    const review=f.material_equivalence_status==='review-required';
    const context=f.display_material_context?` [${f.material}; ${f.preparation||'preparation unresolved'}]`:'';
@@ -53,7 +53,61 @@ export function projectFoodTargets({relationships=[],substances={},research=[],f
   projected.push(out);
   if(scientificStatus==='admitted')for(const f of foods.length?foods:[null])rollup.push({brs:r.brs,fm:r.fm,pm:r.pm,biological_mechanism:r.operation||null,dietary_input:r.input,type:r.scientific_assessment?.type||(r.relationship_type?.mode==='state-regulation'?'B':r.relationship_type?.mode==='capacity-requirement'?'A':null),classification:r.scientific_assessment?.classification||r.relationship_type?.classification,canonical_substance_id:supplyId||null,ontology_connections:ontologyConnections,scientific_admission:scientificStatus,admission_basis:out.admission_basis,food_target:f?.food_id||null,food_title:f?.food_title||null,food_material:f?.material||null,material_equivalence_status:f?.material_equivalence_status||null,material_equivalence_reason:f?.material_equivalence_reason||null,ontology_relationship_status:f?.ontology_relationship_status||null,reconciled_sources:f?.reconciled_sources||[],mapping_status:f?.mapping_status||'unresolved',food_evidence:f?.evidence||null,pm_evidence:r.evidence,preparation:f?.preparation||null,delivery:f?.delivery||null,conversion_pathway:r.scientific_assessment?.conversion_pathway||[],limitations:[r.limitation,f?.limitations].filter(Boolean),missing_ontology_edge:f?.mapping_status==='research-supported-provisional'&&f.material_equivalence_status!=='review-required'?`${f.food_id} → ${supplyId} [${f.material}; ${f.preparation||'preparation unresolved'}]`:null});
  }
+ attachUnresolvedButyrateCandidates(projected,foodSources);
  return {relationships:projected,manuscript_rows:rollup,cursor_queue:[...queue.values()]};
+}
+const PRECURSOR_LINKS={
+ 'resistant-starch':{
+  limitation:'Defined RS2/RS3 preparations can support microbial utilisation and increased butyrate proportions in suitable communities. This reuses the approved BRS5-FM2-PM5 Type A/Direct substrate assessment. It does not transfer the resistant-potato-starch faecal response to ordinary foods, and it does not establish epithelial butyrate exposure or tight-junction engagement.',
+  chain:{food_delivery:'established',microbial_butyrate:'conditional',ordinary_food_butyrate_yield:'unresolved',epithelial_exposure:'unresolved',tight_junction_engagement:'unresolved',butyrate_cellular_action:'established-experimental',pm1_capacity_admission:'withheld'},
+ },
+ pectin:{
+  limitation:'Apple pectin composition is provisional. Purified-pectin cultures can raise acetate and butyrate together, and the profile is often acetate-rich. That does not establish a butyrate-specific yield, epithelial exposure or tight-junction engagement.',
+  chain:{food_delivery:'provisional',microbial_butyrate:'conditional',ordinary_food_butyrate_yield:'unresolved',epithelial_exposure:'unresolved',tight_junction_engagement:'unresolved',butyrate_cellular_action:'established-experimental',pm1_capacity_admission:'withheld'},
+ },
+ 'fructo-galacto-oligosaccharides':{
+  limitation:'No canonical food source is recorded. The studied FOS/GOS preparation does not establish inulin alone, ordinary food portions, a butyrate-specific yield or tight-junction improvement. Its PM5 Capacity claim remains unresolved.',
+  chain:{food_delivery:'absent',microbial_butyrate:'unresolved',ordinary_food_butyrate_yield:'unresolved',epithelial_exposure:'unresolved',tight_junction_engagement:'unresolved',butyrate_cellular_action:'established-experimental',pm1_capacity_admission:'withheld'},
+ },
+};
+/** Candidate display only. Does not admit butyrate, create a class identity, or add food targets to the roll-up. */
+export function unresolvedButyratePrecursorCandidates(relationships=[],foodSources=[]) {
+ const bundles=[];
+ for(const product of relationships.filter(r=>r.substance_id==='butyrate'&&r.dietary_input!==true)) {
+  const derived=relationships.filter(r=>r.pm===product.pm&&r.derived_target_atom_id===product.id&&!r.substance_id);
+  if(!derived.length)continue;
+  const seen=new Set(),candidates=[];
+  for(const substrate of relationships.filter(r=>r.pm===product.pm&&PRECURSOR_LINKS[r.substance_id])) {
+   if(seen.has(substrate.substance_id))continue;
+   seen.add(substrate.substance_id);
+   const link=PRECURSOR_LINKS[substrate.substance_id];
+   const foods=foodSources.filter(f=>f.substance_id===substrate.substance_id).map(f=>{
+    const verified=verifiedFoodTarget(f);
+    return {...f,substance_title:substrate.input,mapping_status:verified?'verified':'research-supported-provisional',delivery:'precursor-source',limitations:link.limitation,review_status:verified?'verified-substrate-food':'provisional-substrate-food'};
+   });
+   candidates.push({relationship_id:substrate.id,substance_id:substrate.substance_id,label:substrate.input,review_status:!foods.length?'no-canonical-food-source':foods.some(f=>f.mapping_status==='verified')?'verified-substrate-food':'provisional-substrate-food',limitation:link.limitation,chain:{...link.chain,food_delivery:foods.length?link.chain.food_delivery:'absent'},foods});
+  }
+  bundles.push({product_id:product.id,derived_ids:derived.map(r=>r.id),inulin:{admitted:false,reason:'Inulin is not an admitted substrate of this PM. No canonical inulin food edge is joined, and the FOS/GOS record does not establish inulin alone.'},candidates});
+ }
+ return bundles;
+}
+function attachUnresolvedButyrateCandidates(projected,foodSources) {
+ for(const bundle of unresolvedButyratePrecursorCandidates(projected,foodSources)) {
+  for(const id of bundle.derived_ids) {
+   const row=projected.find(r=>r.id===id);
+   if(!row)continue;
+   row.upstream_candidates=bundle;
+   row.coverage_warnings=unique((row.coverage_warnings||[]).map(w=>w.endsWith('Food ontology coverage unresolved.')?'Fermentable dietary fibre: no canonical class identity. Upstream substrate foods are candidate sources, not approved butyrate-delivery targets.':w));
+  }
+ }
+}
+export function renderUpstreamCandidates(bundle) {
+ if(!bundle)return '';
+ const blocks=bundle.candidates.map(candidate=>{
+  const items=candidate.foods.length?`<ul>${candidate.foods.map(food=>`<li>${renderTarget(food)}</li>`).join('')}</ul>`:`<p>No canonical food source recorded.</p>`;
+  return `<section data-substrate="${escapeHtml(candidate.substance_id)}"><h4>${escapeHtml(candidate.label)}</h4><p>${escapeHtml(candidate.review_status)}. ${escapeHtml(candidate.limitation)}</p>${items}</section>`;
+ }).join('');
+ return `<details class="pm-input-food-sources" data-food-source-kind="upstream-candidates"><summary><span class="pm-input-food-source-arrow" aria-hidden="true">▶</span>Upstream candidate sources</summary><p>Not approved butyrate-delivery targets. Each food is a source of the named fermentable substrate only.</p>${blocks}<p>${escapeHtml(bundle.inulin.reason)}</p></details>`;
 }
 export function escapeHtml(value){return String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 export function informationIcon(message){return `<span class="food-target-info" style="color:#c62828;display:inline-block;font-size:.8em;margin-left:.3em" role="img" aria-label="${escapeHtml(message)}" title="${escapeHtml(message)}">ⓘ</span>`;}

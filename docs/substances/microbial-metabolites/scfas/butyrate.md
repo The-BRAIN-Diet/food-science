@@ -31,12 +31,11 @@ Evidence spans cell systems, animal models, human observational work and direct 
 
 ## Dietary Context
 
-Most Butyrate reaching the colon is produced by gut microbes fermenting suitable dietary substrates [2].
+Most butyrate that reaches the colon is produced when gut microbes ferment suitable dietary substrates. Direct food content and that upstream route are different relationships [2].
 
 <DietaryOriginProjection
   target="Butyrate"
-  pmId="BRS5-FM1-PM1"
-  transformationLabel="microbial fermentation"
+  pmId="BRS5-FM2-PM5"
 />
 
 ## Research Spotlights & Evidence Checks
@@ -64,7 +63,7 @@ BRS5-FM1-PM1 stores Butyrate as a direct substrate relationship and fermentable 
 
 | Biological Regulatory System | Evidence-qualified relationship | Evidence |
 | --- | --- | --- |
-| [Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system) (BRS5) | BRS5-FM1-PM1 records Butyrate as a direct epithelial substrate and fermentable fibre as a derived upstream provision relationship | [1,2] |
+| [Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system) (BRS5) | [SCFA production and signalling](/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling) records fermentable substrates and microbial butyrate as a product, not an oral requirement. [Gut barrier integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) records direct epithelial exposure separately from upstream substrate provision. Production, absorption and signalling are not one claim. | [1,2] |
 | [Inflammation & Oxidative Stress](/docs/biological-targets/inflammation-oxidative-stress) (BRS3) | Anti-inflammatory and redox findings are model- and route-dependent; altered SCFA profiles do not establish causality | [3–5] |
 | [Mitochondrial Function & Bioenergetics](/docs/biological-targets/mitochondrial-function-bioenergetics) (BRS4) | Mitochondrial effects are supported principally by mechanistic and model evidence rather than ordinary food interventions | [4,5] |
 
