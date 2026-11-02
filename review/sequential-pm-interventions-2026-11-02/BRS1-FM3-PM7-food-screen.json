@@ -1,0 +1,204 @@
+[
+  {
+    "file": "docs/foods/algal-oil.md",
+    "inputs": [
+      "dha-docosahexaenoic-acid"
+    ],
+    "sections": [
+      "### Preparation\n\n- Use algal oil in **capsule or measured liquid supplement forms** as directed; these products are not intended for high-heat culinary use.\n- Store away from heat and light and respect shelf-life guidance.\n\n",
+      "## References\n\n[1] European Commission (2024). [Commission Implementing Regulation (EU) 2017/2470 establishing the Union list of novel foods](/docs/papers/BRAIN-Diet-References#eu_2017_2470_union_list). Authorised algal-oil specifications distinguish DHA-rich Schizochytrium oils from a separate combined EPA/DHA formulation; the listed figures are regulatory minima, not product averages.\n\n[2] Arterburn et al. (2008). [Algal-oil capsules and cooked salmon: nutritionally equivalent sources of docosahexaenoic acid](/docs/papers/BRAIN-Diet-References#arterburn_algal_2008). Randomized comparison of algal-oil capsules with cooked salmon found similar DHA bioavailability; the intervention was capsules, not culinary oil.\n\n[3] NIH (2022). [Omega-3 Fatty Acids: Fact Sheet for Consumers](/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_consumer). Consumer fact sheet listing algal oil as a vegetarian omega-3 source; commercial products vary in dose and form.\n\n<span id=\"food-source-4\" />\n\n[4] [EU authorised algal oil specifications](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017R2470)\n\n<span id=\"food-source-5\" />\n\n[5] [EFSA (2014), Extension of use for DHA and EPA-rich algal oil from Schizochytrium sp.](/docs/papers/BRAIN-Diet-References#food_composition_981932cb4ec6)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/anchovies.md",
+    "inputs": [
+      "dha-docosahexaenoic-acid",
+      "sodium"
+    ],
+    "sections": [
+      "### Preparation\n\n- Mash or blend drained fillets into dressings rather than frying them in additional oil.\n- Taste the dish before adding salt; anchovies, capers and cheese often already season it.\n\n",
+      "## References\n\n[1] McNamara & Carlson (2006). [Role of omega-3 fatty acids in brain development and function: potential implications for the pathogenesis and prevention of psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006). Labelled EPA/DHA neurobiology context: this review is not an anchovy feeding study; canned drained anchovy composition includes EPA and DHA as reported in the table.\n\n[2] Stonehouse et al. (2013). [DHA supplementation improved both memory and reaction time in healthy young adults: a randomized controlled trial](/docs/papers/BRAIN-Diet-References#stonehouse_dha_2013). Labelled DHA context: this is a DHA-capsule trial in healthy young adults, not an anchovy feeding trial.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/cockles.md",
+    "inputs": [
+      "dha-docosahexaenoic-acid"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of diverse protein and seafood strategy\n\n",
+      "### Preparation\n\n- Purge in salted water before cooking; discard any that remain open when tapped\n- Brief steaming preserves the natural liquor, which contains minerals and peptides\n- Marine taurine intake estimated 300–450 mg per serving when cooked with liquor\n\n",
+      "## References\n\n[1] Very high vitamin B12 and iron per 100 g; bivalve nutrient density. Pawlak & Parrott 2013. [How prevalent is vitamin B $_\\textrm{12}$ deficiency among vegetarians?](/docs/papers/BRAIN-Diet-References#pawlak_how_2013)\n\n[2] Marine taurine source; phospholipid-bound omega-3 in shellfish matrices. Wójcik & Koenig 2010. [The potential protective effects of taurine on coronary heart disease](/docs/papers/BRAIN-Diet-References#wojcik_potential_2010)\n\n[3] Complete animal protein (DIAAS context). FAO 2013. [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)\n\n<span id=\"food-source-4\" />\n\n[4] [Changes in taste and texture of the foot of Japanese cockle by cooking and storage (2002)](/docs/papers/BRAIN-Diet-References#food_composition_4c7c714595ba)\n\n<span id=\"food-source-5\" />\n\n[5] [The Concise New Zealand Food Composition Tables, 9th edition (2012), T31](https://www.foodcomposition.co.nz/downloads/concise-9-edition.pdf)\n\n<span id=\"food-source-6\" />\n\n[6] [Maher et al. (1997), Selenium occurrence, distribution and speciation in the cockle Anadara trapezia](/docs/papers/BRAIN-Diet-References#food_composition_06a16e50c3c0)\n\n<span id=\"food-source-7\" />\n\n[7] [Fatty Acid Composition in Edible Tissue of Cerastoderma edule (2015)](/docs/papers/BRAIN-Diet-References#food_composition_7fe823d36d49)\n\n<span id=\"food-source-8\" />\n\n[8] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/169803/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/herring.md",
+    "inputs": [
+      "dha-docosahexaenoic-acid"
+    ],
+    "sections": [
+      "### Preparation\n\n- Prefer gentle or moist-heat cooking methods (baking, steaming, stewing) to preserve EPA/DHA and reduce oxidation compared with intense high-temperature frying.\n- Incorporate herring into meals that also contain vegetables and whole grains so that oily fish contributes marine omega-3s and vitamin D within a balanced plate.\n\n",
+      "## References\n\n[1] These intrinsic nutrients contribute to neuronal membrane phospholipid composition, mitochondrial oxidative metabolism, and anti-inflammatory lipid mediator production. McNamara & Carlson 2006. [Omega-3 fatty acids in brain development, function, and psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)\n\n[2] DHA supplementation improved both memory and reaction time in healthy young adults: a randomized controlled trial. Stonehouse et al. 2013. [DHA supplementation and cognitive performance in healthy adults](/docs/papers/BRAIN-Diet-References#stonehouse_dha_2013)\n\n[3] As a relatively small pelagic species, herring tends to accumulate less mercury than large predatory fish, which supports its use as a frequent marine omega-3 source within a varied dietary pattern. FAO 2013. [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/lumpfish-roe.md",
+    "inputs": [
+      "dha-docosahexaenoic-acid"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with unsalted vegetables and whole foods so the meal’s total sodium stays controlled.\n\n",
+      "### Preparation\n\n- Use **small amounts**; rinse is **not** a reliable way to remove embedded salt from finished caviar.\n- Keep chilled; treat like a cured seafood product for food safety.\n\n",
+      "## References\n\n[1] Sodium and formulation for lumpfish caviar are **label-dependent**; BRAIN Diet emphasis remains on **whole-food salmonid roe** when maximizing omega-3 quality per unit sodium. Patrick et al. 2019. [Role of phosphatidylcholine‐DHA in preventing APOE4‐associated Alzheimer's disease](/docs/papers/BRAIN-Diet-References#patrick_role_2019)\n\n<span id=\"food-source-2\" />\n\n[2] [Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)](/docs/papers/BRAIN-Diet-References#food_composition_5a40b36508dd)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/mackerel.md",
+    "inputs": [
+      "dha-docosahexaenoic-acid"
+    ],
+    "sections": [
+      "### Preparation\n\n- Prefer gentle or moist-heat cooking methods (baking, steaming, stewing) to help preserve EPA/DHA and reduce lipid oxidation compared with intense high-temperature pan-frying or grilling.\n- Use mackerel in modest portions within meals that also contain vegetables and whole grains, so the oily fish contributes marine omega-3s and B12 without dominating total energy or saturated fat intake.\n\n",
+      "## References\n\n[1] These intrinsic compounds support neuronal membrane phospholipid composition, mitochondrial oxidative phosphorylation, and antioxidant enzyme systems. McNamara & Carlson 2006. [Omega-3 fatty acids in brain development, function, and psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)\n\n[2] Its protein is highly digestible, and DIAAS data for similar oily fish indicate excellent indispensable amino acid coverage. FAO 2013. [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)\n\n<span id=\"food-source-3\" />\n\n[3] [Pravst, Zmitek and Zmitek (2010), Coenzyme Q10 Contents in Foods and Fortification Strategies](/docs/papers/BRAIN-Diet-References#food_composition_909fffb6dabb)\n\n<span id=\"food-source-4\" />\n\n[4] [Extractive Nitrogenous Constituents from the Dark Muscle of Fish (1985)](/docs/papers/BRAIN-Diet-References#food_composition_b7f31044141a)\n\n<span id=\"food-source-5\" />\n\n[5] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/175119/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/mussels.md",
+    "inputs": [
+      "dha-docosahexaenoic-acid"
+    ],
+    "sections": [
+      "### Preparation\n\n- Cook mussels thoroughly—for example by steaming until all shells have opened and discarding any that remain closed—to reduce microbiological risk while retaining their nutrient density.\n- Serve mussels with vegetable-rich bases such as tomato, garlic, herbs, or leafy greens, and consider pairing with whole grains to build balanced meals that combine shellfish micronutrients with fibre and phytochemicals.\n\n",
+      "## References\n\n[1] They are especially useful in dietary patterns where red meat intake is moderated but adequate intake of these micronutrients is still required. FAO 2013. [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)\n\n<span id=\"food-source-2\" />\n\n[2] [Current Progress in Lipidomics of Marine Invertebrates (2021)](/docs/papers/BRAIN-Diet-References#food_composition_12a56bba9e00)\n\n<span id=\"food-source-3\" />\n\n[3] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/174216/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/oysters.md",
+    "inputs": [
+      "dha-docosahexaenoic-acid"
+    ],
+    "sections": [
+      "### Preparation\n\n- Oysters can be eaten cooked or, where safe and culturally appropriate, raw; steaming or baking reduces microbiological risk while retaining much of their micronutrient density.\n- Pair oysters with vegetable-rich accompaniments such as lemon, herbs, and leafy greens to integrate their concentrated mineral content into balanced meals.\n\n",
+      "## References\n\n[1] Among commonly eaten foods, oysters are notable for their zinc density, supporting enzymes involved in neurotransmitter synthesis, antioxidant defence, and immune function. FAO 2013. [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)\n\n[2] Zinc concentrations vary materially by species and environment, but oysters remain among the most zinc-dense commonly eaten foods even with that variability. Yang & Li 2024. [Understanding the variable metal concentrations in estuarine oysters Crassostrea hongkongensis: A biokinetic analysis](/docs/papers/BRAIN-Diet-References#yang_metal_oysters_2024)\n\n<span id=\"food-source-3\" />\n\n[3] [Composition evidence for EPA](https://tools.myfooddata.com/nutrition-facts/174250/wt2)\n\n<span id=\"food-source-4\" />\n\n[4] [Exploitable Lipids in Crassostrea gigas on the French Atlantic Coast (2016)](/docs/papers/BRAIN-Diet-References#food_composition_491acbc23c17)\n\n<span id=\"food-source-5\" />\n\n[5] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/171978/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/salmon-roe.md",
+    "inputs": [
+      "dha-docosahexaenoic-acid",
+      "sodium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with vegetables and whole grains as a flavour-dense, small-portion ingredient rather than a bulk protein source.\n- Vitamin C–rich foods support iron balance in mixed meals (roe provides modest iron).\n\n",
+      "### Preparation\n\n- Traditionally eaten **cold** or lightly warmed (on rice, in sushi, or as a spoonful) to limit heat damage to unsaturated fats.\n- Avoid prolonged high heat; treat as a delicate fat + protein ingredient.\n- If the roe tastes heavily cured, a brief rinse in clean cold water followed by thorough draining can remove surface brine and reduce saltiness. A very short cold-water soak may reduce it further, but the resulting sodium content cannot be calculated from the original label. Keep the roe cold and avoid prolonged soaking, which can impair texture [3].\n\n",
+      "## References\n\n[1] Liu et al. (2014). [Higher efficacy of dietary DHA provided as a phospholipid than as a triglyceride for brain DHA accretion in neonatal piglets](/docs/papers/BRAIN-Diet-References#liu_higher_2014). Neonatal piglets given a single oral dose of 13C-DHA as phosphatidylcholine accumulated about 1.9-fold more labeled DHA in brain gray matter than piglets given the same DHA as triglyceride.\n\n[2] Patrick (2019). [Role of phosphatidylcholine-DHA in preventing APOE4-associated Alzheimer's disease](/docs/papers/BRAIN-Diet-References#patrick_role_2019). Review: phosphatidylcholine-DHA can be converted to lysophosphatidylcholine-DHA, which uses MFSD2A transport into the brain more efficiently than triglyceride-bound or unesterified DHA. Mechanistic context for roe's phospholipid DHA, not a salmon-roe feeding study.\n\n[3] Shallcross et al. (2022). [Salmon Roe Caviar](/docs/papers/BRAIN-Diet-References#shallcross_salmon_caviar_2022)\n\n<span id=\"food-source-4\" />\n\n[4] [Yamaguchi et al. (2012), Journal of Oleo Science 61:505–513](/docs/papers/BRAIN-Diet-References#food_composition_838f60c581a0)\n\n<span id=\"food-source-5\" />\n\n[5] [Phospholipids of Animal and Marine Origin: Structure and Function (2018)](/docs/papers/BRAIN-Diet-References#food_composition_61edf925ad9f)\n\n<span id=\"food-source-8\" />\n\n[8] [MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food 10140, chum salmon salted roe (ikura)](https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/salmon.md",
+    "inputs": [
+      "dha-docosahexaenoic-acid"
+    ],
+    "sections": [
+      "### Preparation\n\n- Best prepared with gentle cooking to preserve omega-3s and prevent oxidation\n- Avoid high-heat cooking that creates advanced glycation end products (AGEs)\n\n",
+      "## References\n\n[1] Regular inclusion of salmon and other oily fish helps reach evidence-based omega-3 intakes that are associated with cardiometabolic and cognitive benefits in many populations. McNamara & Carlson 2006. [Omega-3 fatty acids and neuropsychiatric function](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)\n\n[2] DHA supplementation improved both memory and reaction time in healthy young adults: a randomized controlled trial. Stonehouse et al. 2013. [DHA supplementation and cognitive outcomes in adults](/docs/papers/BRAIN-Diet-References#stonehouse_dha_2013)\n\n<span id=\"food-source-3\" />\n\n[3] [Salmon fillet nutritional composition feeding study (2025)](/docs/papers/BRAIN-Diet-References#food_composition_5cdbf4d42fc5)\n\n<span id=\"food-source-4\" />\n\n[4] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/175167/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/sardines.md",
+    "inputs": [
+      "dha-docosahexaenoic-acid"
+    ],
+    "sections": [
+      "### Preparation\n\n- Sardines can be eaten directly from the can or lightly warmed; avoid prolonged high-temperature frying or charring that can oxidize lipids.\n- When tolerated, consuming the **bones together with the fillet** maximizes calcium intake from the food; combining sardines with vegetables and whole grains helps integrate this dense source of omega-3s into balanced meals.\n\n",
+      "## References\n\n[1] Because canned sardines typically include the skeleton, they contribute meaningfully to both marine omega-3 intake and calcium alongside B12 and other micronutrients. McNamara & Carlson 2006. [Omega-3 fatty acids in brain development, function, and psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)\n\n[2] DHA supplementation improved both memory and reaction time in healthy young adults: a randomized controlled trial. Stonehouse et al. 2013. [DHA supplementation and cognitive performance in healthy adults](/docs/papers/BRAIN-Diet-References#stonehouse_dha_2013)\n\n[3] Compared with larger predatory fish, sardines sit low in the marine food chain and generally accumulate less mercury, which supports their use as a frequent marine omega-3 source in many dietary patterns. FAO 2013. [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)\n\n<span id=\"food-source-4\" />\n\n[4] [Pravst, Zmitek and Zmitek (2010), Coenzyme Q10 Contents in Foods and Fortification Strategies](/docs/papers/BRAIN-Diet-References#food_composition_909fffb6dabb)\n\n<span id=\"food-source-5\" />\n\n[5] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/175139/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/trout-roe.md",
+    "inputs": [
+      "dha-docosahexaenoic-acid"
+    ],
+    "sections": [
+      "### Synergies\n\n- Works well as a garnish on whole grains, vegetables, or mild fish to spread flavour without large sodium loads (unlike heavily salted caviar substitutes).\n\n",
+      "### Preparation\n\n- Serve cold or lightly warmed like other roe; minimise heat and air exposure to protect unsaturated fats.\n\n",
+      "## References\n\n[1] Mechanistic discussions of LPC-associated DHA transport apply to phospholipid-rich seafood matrices generally. Patrick et al. 2019. [Role of phosphatidylcholine-DHA and LPC-DHA in brain transport](/docs/papers/BRAIN-Diet-References#patrick_role_2019)\n\n[2] DHA supplied as phospholipid supports brain DHA accretion more effectively than DHA as triglyceride in neonatal models — supporting the biological relevance of roe's phospholipid-rich matrix. Liu et al. 2014. [Higher efficacy of phospholipid omega-3 for brain DHA accretion (porcine model)](/docs/papers/BRAIN-Diet-References#liu_higher_2014)\n\n<span id=\"food-source-3\" />\n\n[3] [Kaitaranta (1982), Hydrolytic changes in the lipids of roe products during storage](/docs/papers/BRAIN-Diet-References#food_composition_3e1964f23e93)\n\n<span id=\"food-source-4\" />\n\n[4] [Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)](/docs/papers/BRAIN-Diet-References#food_composition_5a40b36508dd)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/tuna.md",
+    "inputs": [
+      "dha-docosahexaenoic-acid"
+    ],
+    "sections": [
+      "### Preparation\n\n- Use gentle cooking methods (light searing, baking, steaming) to preserve moisture and omega-3 content; avoid repeated deep-frying or heavy charring.\n- Incorporate tuna into meals that also contain vegetables and whole grains, so it contributes lean protein, niacin, and selenium within a balanced plate rather than dominating total dietary fish intake.\n\n",
+      "## References\n\n[1] McNamara & Carlson (2006). [Omega-3 fatty acids in brain development, function, and psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006). Constituent-level review of long-chain omega-3 fatty acids in brain development and function; not a tuna feeding trial.\n\n<span id=\"food-source-2\" />\n\n[2] [Kulczynski et al. (2019), Characteristics of Selected Antioxidative and Bioactive Compounds in Meat and Animal Origin Products](/docs/papers/BRAIN-Diet-References#food_composition_8249db9abe99)\n\n<span id=\"food-source-3\" />\n\n[3] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/173706/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/capers.md",
+    "inputs": [
+      "sodium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of diverse polyphenol intake strategy\n- Pair with other quercetin sources\n\n",
+      "### Preparation\n\n- Can be used as seasoning or condiment\n- Rinse if high-sodium pickled variety\n\n",
+      "## References\n\n[1] Among the highest quercetin concentrations per 100 g of common foods (condiment-use portions). Boots & Haenen 2008. [Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)\n\n[2] Flavonoid-rich dietary patterns link to cognitive improvements in human trials. Neshatdoust & Saunders 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/miso.md",
+    "inputs": [
+      "sodium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of fermented foods strategy\n\n",
+      "### Preparation\n\n- Use in moderation due to sodium content\n- Add at end of cooking to preserve probiotics\n\n",
+      "## References\n\n[1] Fermented soy products such as miso modulate gut–brain signalling through microbiota pathways. Bravo et al. 2011. [Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011)\n\n[2] Traditional fermented soy pastes deliver live microbes and fermentation-derived metabolites. Jakobi et al. 2024. [The gut-microbiome in adult Attention-deficit/hyperactivity disorder - A Meta-analysis](/docs/papers/BRAIN-Diet-References#jakobi_gut-microbiome_2024)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/vinegar-pickles.md",
+    "inputs": [
+      "sodium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Use as a **low-volume acidic condiment** within meals that already include protein, fibre, and diverse plants — consistent with glycaemic-modulation patterns that pair vinegar with carbohydrate-containing foods [Johnston et al. 2004](/docs/papers/BRAIN-Diet-References#johnston_2004_14694010)\n- Combine with [Fermented Vegetables](./fermented-vegetables.md) in the diet when both **acetic acid at the meal** and **lacto-fermentation benefits** are desired — they are complementary categories, not interchangeable\n\n",
+      "### Preparation\n\n- Rinse or drain if sodium is a concern\n- Refrigerate after opening\n- Do not assume unpasteurized probiotic content unless explicitly labelled and handled accordingly\n\n",
+      "## References\n\n[1] Johnston et al. (2004). [Vinegar improves insulin sensitivity to a high-carbohydrate meal in subjects with insulin resistance or type 2 diabetes.](/docs/papers/BRAIN-Diet-References#johnston_2004_14694010). Vinegar improves insulin sensitivity to a high-carbohydrate meal.\n\n[2] Ousaaid et al. (2022). [The Nutritional and Antioxidant Potential of Artisanal and Industrial Apple Vinegars and Their Ability to Inhibit Key Enzymes Related to Type 2 Diabetes In Vitro](/docs/papers/BRAIN-Diet-References#ousaaid_nutritional_2022). Apple vinegar polyphenols, antioxidant activity, and in vitro α-glucosidase/α-amylase inhibition.\n\n[3] Wastyk et al. (2021). [Gut-microbiota-targeted diets modulate human immune status](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021). Gut microbiota–targeted diets and fermented-food context.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/chicory-root.md",
+    "inputs": [
+      "sodium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of diverse prebiotic fiber strategy\n\n",
+      "### Preparation\n\n- Can be consumed as root vegetable or coffee substitute\n- High inulin content\n- Supports Bifidobacterium and Akkermansia\n\n",
+      "## References\n\n[1] High inulin content — fermentable prebiotic fibre. Pouille & Ouaza 2022. [Chicory: Understanding the Effects and Effectors of This Functional Food](/docs/papers/BRAIN-Diet-References#pouille_chicory_2022)\n\n[2] Prebiotic intake studied for cortisol and emotional-bias endpoints. Schmidt & Cowen 2015. [Prebiotic intake reduces the waking cortisol response and alters emotional bias in healthy volunteers](/docs/papers/BRAIN-Diet-References#schmidt_prebiotic_2015)\n\n<span id=\"food-source-3\" />\n\n[3] [Chicory roots, raw (Cichorium intybus), USDA SR Legacy FDC 169993](https://tools.myfooddata.com/nutrition-facts/169993/wt1)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/nori.md",
+    "inputs": [
+      "sodium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of diverse plant food intake strategy\n\n",
+      "### Preparation\n\n- Commonly used in sushi rolls and as a garnish\n- Important for iodine intake, especially in plant-based diets\n- Folate and iron contributions are context-dependent and work best as part of a varied diet\n- Seaweed polysaccharides provide cumulative gut health benefits when consumed regularly\n\n",
+      "## References\n\n[1] Seaweed foods may contribute variable vitamin B12 compounds; nori should not be relied on as a sole B12 source. Watanabe et al. 2002. [Characterization and Bioavailability of Vitamin B12-Compounds from Edible Algae.](/docs/papers/BRAIN-Diet-References#watanabe_characterization_2002)\n\n[2] [MEXT food 09004: dried, toasted purple laver](https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100). Preparation-specific composition source for the nutrition panel.\n\n<span id=\"food-source-3\" />\n\n[3] [MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food 09004](https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100)\n\n<span id=\"food-source-4\" />\n\n[4] [Effect of roasted purple laver (nori) on vitamin B12 nutritional status of vegetarians (2024)](/docs/papers/BRAIN-Diet-References#food_composition_d353427cdc28)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/nutritional-yeast.md",
+    "inputs": [
+      "sodium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of functional food strategy\n\n",
+      "### Preparation\n\n- Can be used as seasoning or supplement\n- Important for vegan/vegetarian diets\n\n",
+      "## References\n\n[1] Fortified nutritional yeast helps close vitamin B12 gaps in vegan dietary patterns. Pawlak et al. 2013. [How prevalent is vitamin B $_\\textrm{12}$ deficiency among vegetarians?](/docs/papers/BRAIN-Diet-References#pawlak_how_2013)\n\n[2] B-vitamin–rich yeast products support NAD⁺ and one-carbon cofactor availability. Pravst et al. 2010. [Coenzyme Q10 contents in foods and fortification strategies. Crit Rev Food Sci Nutr](/docs/papers/BRAIN-Diet-References#pravst_coenzyme_2010)\n\n<span id=\"food-source-3\" />\n\n[3] [Marigold Engevita Nutritional Yeast Flakes with B12, manufacturer label](https://www.marigoldhealthfoods.co.uk/engevita)\n"
+    ]
+  }
+]

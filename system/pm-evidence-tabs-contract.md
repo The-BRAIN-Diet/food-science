@@ -73,3 +73,21 @@ Stage 2A/2B reruns must preserve the approved tab layout, stable IDs, gap record
 PM8 uses `open_issues_policy: evidence-gaps-only`. Its former seven issue records are removed, including legacy and reassignment metadata. Do not restore them from historical snapshots or reruns, create replacement issues in another PM, or infer new issue admissions from retained evidence gaps. The unresolved scientific propositions remain in PM8-EG-1 and PM8-EG-2, linked to existing Findings. This does not change the mission, Principles, Findings, interventions, KCs or SEC assessments. A future Open Issue requires explicit owner approval to change this policy. Validators must reject issue creation while this policy is set. Do not render orphaned issue links or empty issue-history headings.
 
 The canonical three-tab interface retains **Open Issues** even when its register is empty. Show an honest empty state, not fabricated records. Deleting issues must not remove the canonical tab.
+
+## Evidence-gap granularity — PM4 clarification, 2 November 2026
+
+Stage 2A: identify each independently answerable missing proposition. Trace popular numerical dietary targets to original study categories and search later interventions; distinguish observed associations, tested packages and demonstrated thresholds.
+
+Stage 2B: use a separate stable gap ID for each independently resolvable proposition. One gap may reference multiple relevant Findings; do not require one-to-one cardinality. Explain each source's role and preserve contradictory results and appraisal limits. Splitting a gap does not admit an intervention or modify SEC history. Retain the existing ID for its narrowed question and create a new ID for the separated question.
+
+Presentation: show `Related Scientific Findings` for Finding links and numbered source links from canonical citation keys. Do not label the first Finding as a decision record. Preserve actual completed-adjudication and Open Issue links. Reruns must preserve the separated questions rather than recombining them.
+
+PM4 Section 4 restoration (2 November 2026): BRS5-FM2-PM4 uses `scientific_findings_placement: section-4`. Stage 2A/2B reruns must retain its four Summary-to-mechanism-to-Finding mappings and four sibling ScientificFinding disclosures, using the existing generator. Do not restore the audit-only Findings link or duplicate active Findings in Evidence & Audit. SEC assessment links and historical audit records remain in the audit.
+
+## Assessment gaps in Evidence & Audit
+
+Render Assessment gaps inside the affected versioned SEC assessment using canonical independently expandable disclosures with stable IDs. Show affected Finding, dimensions, source, reason, attempted verification, required action, disposition and history. Keep scientific Evidence Gaps in their existing tab, with optional explicit cross-links. Do not create another tab or automatically duplicate Assessment gaps into Open Issues. On the main Finding, display Pending appraisal for tracked incomplete work and Evidence Un-assessable for a documented unassessable determination. No numerical score is implied by either. See the [SEC completeness contract](sec-assessments/README.md#assessment-completeness--approved-extension-2-november-2026).
+
+## Presentation correction — 2 November 2026
+
+Do not generate or render dated “Stage 2A/2B evidence and traceability review” execution panels in canonical pages, including Evidence & Audit. Historical execution reports remain in their source/archive records; the legacy `Stage2Review` wrapper is non-rendering compatibility only. Use the governed Finding, Principle, assessment, correction and gap interfaces for scientific records. This removes no scientific evidence and does not remove the public Framework Review & Corrections register link.

@@ -1,11 +1,12 @@
+import {assessmentGapErrors} from './secCompleteness.mjs';
 import {secLevelForScore} from '../components/EvidenceConfidenceIndicator/secDisplay.mjs';
 
 export const SEC_STATUSES = Object.freeze({
-  'not-scored':'Not scored', conditional:'Conditional estimate',
+  'not-scored':'Not scored', 'evidence-unassessable':'Evidence Un-assessable', conditional:'Conditional estimate',
   'codex-provisional':'Provisionally assessed', 'scientifically-reviewed':'Scientifically reviewed',
 });
 const factors=['D','B','P','R'];
-export const SEC_INTEGRATION_PM_IDS=Object.freeze(['BRS1-FM4-PM9','BRS6-FM1-PM2','BRS2-FM1-PM3','BRS1-FM1-PM1','BRS1-FM1-PM2','BRS4-FM2-PM4','BRS4-FM2-PM5','BRS6-FM4-PM8']);
+export const SEC_INTEGRATION_PM_IDS=Object.freeze(['BRS1-FM4-PM9','BRS6-FM1-PM2','BRS2-FM1-PM3','BRS1-FM1-PM1','BRS1-FM1-PM2','BRS4-FM2-PM4','BRS4-FM2-PM5','BRS6-FM4-PM8','BRS5-FM2-PM4']);
 const text=v=>typeof v==='string' && v.trim().length>0;
 const value=v=>Number.isInteger(v) && v>=0 && v<=2;
 const version=v=>Number.isSafeInteger(v) && v>0;
@@ -58,8 +59,10 @@ export function secRecordErrors(r) {
     if(r.factors?.[k]!==null && !value(r.factors?.[k])) add('sec_factor','Each formal factor must be null or integer 0–2: '+k);
     if(!text(r.rationale?.[k]))add('sec_rationale','Factor rationale required: '+k);
   }
-  if(r.assessmentStatus==='not-scored') {
-    for(const k of factors)if(r.factorStates?.[k] !== (r.factors?.[k]===null?'unresolved':'established'))add('sec_factor','Unscored factors must distinguish established from unresolved: '+k);
+  if(r.assessmentStatus==='evidence-unassessable' && r.completenessVersion!==1)add('sec_completeness','Evidence Un-assessable requires documented completeness metadata');
+  errors.push(...assessmentGapErrors(r));
+  if(r.assessmentStatus==='not-scored' || r.assessmentStatus==='evidence-unassessable') {
+    for(const k of factors)if(!(r.factors?.[k]===null ? (r.completenessVersion===1?['pending','unassessable']:['unresolved']).includes(r.factorStates?.[k]) : r.factorStates?.[k]==='established'))add('sec_factor','Unscored factors must distinguish established from unresolved: '+k);
     if(r.rawScore!==null || r.adjustedScore!==null || r.conditional!=null) add('sec_unscored','Not scored cannot conceal a numerical total or conditional estimate');
     if(factors.every(k=>value(r.factors?.[k])))add('sec_unscored','A complete numerical assessment requires its explicit assessment status');
     return errors;
@@ -124,10 +127,10 @@ export function resolveSecAssessment(registry,{pmId,finding}) {
 export function secAssessmentView(record) {
   const estimate=record.assessmentStatus==='conditional'?record.conditional:null;
   const total=estimate || record, f=total.factors;
-  const ordinal=record.assessmentStatus!=='not-scored' && f?.D!==0;
+  const ordinal=!['not-scored','evidence-unassessable'].includes(record.assessmentStatus) && f?.D!==0;
   const score=ordinal?total.adjustedScore:null, level=secLevelForScore(score);
-  const readout=record.assessmentStatus==='not-scored'?'Not scored':f?.D===0?(total.rawScore===0?'0/8 · Assessed zero — insufficient evidence for this claim':'Insufficient evidence for this claim'):level?score+'/8 · '+level.label:'Not scored';
-  return {status:record.assessmentStatus,statusLabel:SEC_STATUSES[record.assessmentStatus],score:level?score:null,readout,
+  const readout=record.assessmentStatus==='evidence-unassessable'?'Evidence Un-assessable':record.assessmentStatus==='not-scored'?(record.completenessVersion===1?'Pending appraisal':'Not scored'):f?.D===0?(total.rawScore===0?'0/8 · Assessed zero — insufficient evidence for this claim':'Insufficient evidence for this claim'):level?score+'/8 · '+level.label:'Not scored';
+  return {status:record.assessmentStatus,statusLabel:record.assessmentStatus==='not-scored'&&record.completenessVersion===1?'Pending appraisal':SEC_STATUSES[record.assessmentStatus],score:level?score:null,readout,
     shortId:record.findingId.replace(/^PM\d+-F/,'SF'),title:record.title || record.findingId,
     incomplete:record.assessmentStatus==='not-scored',date:record.lastEvidenceAssessmentDate,
     humanReview:record.assessmentStatus==='scientifically-reviewed'?record.humanReview:null};

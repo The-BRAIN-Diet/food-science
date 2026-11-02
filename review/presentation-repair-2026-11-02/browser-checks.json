@@ -1,0 +1,26 @@
+[
+  {
+    "type": "food",
+    "route": "/docs/foods/almonds",
+    "panelPresent": false,
+    "pageFound": true
+  },
+  {
+    "type": "PM",
+    "route": "/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment",
+    "panelPresent": false,
+    "pageFound": true
+  },
+  {
+    "type": "KC",
+    "route": "/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool",
+    "panelPresent": false,
+    "pageFound": true
+  },
+  {
+    "type": "substance",
+    "route": "/docs/substances/microbial-metabolites/scfas/butyrate",
+    "panelPresent": false,
+    "pageFound": true
+  }
+]

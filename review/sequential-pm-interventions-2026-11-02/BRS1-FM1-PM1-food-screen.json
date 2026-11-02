@@ -1,0 +1,254 @@
+[
+  {
+    "file": "docs/foods/almonds.md",
+    "inputs": [
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with legumes for lysine complementarity; grains are typically lysine-limited and are not a lysine rescue for almonds [4].\n\n",
+      "### Preparation\n\n- Prefer plain whole or slivered almonds over heavily salted or sugar-coated products.\n- Soaking can remain an optional texture or tolerability preference. Direct almond research does not support soaking as a mineral-bioavailability strategy: phytate changes were small (−12% to +10%) and mineral concentrations often fell, especially in chopped nuts [5]. Soaking also did not improve gastrointestinal tolerance [6].\n\n",
+      "## References\n\n[1] Jung et al. (2018). [The effect of almonds on vitamin E status and cardiovascular risk factors in Korean adults: a randomized clinical trial](/docs/papers/BRAIN-Diet-References#jung_almonds_vitamin_e_2018). Randomized trial in overweight/obese Korean adults: 56 g almonds/day increased plasma α-tocopherol and lowered total, LDL and non-HDL cholesterol versus an isocaloric cookie.\n\n[2] Berryman et al. (2015). [Effects of Daily Almond Consumption on Cardiometabolic Risk and Abdominal Adiposity in Healthy Adults With Elevated LDL-Cholesterol: A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#berryman_almonds_2015). Controlled-feeding crossover in adults with elevated LDL-C: 1.5 oz almonds/day substituted for an isocaloric muffin lowered LDL-C, non-HDL-C and abdominal fat.\n\n[3] Tan & Mattes (2013). [Appetitive, dietary and health effects of almonds consumed with meals or as snacks: a randomized, controlled trial](/docs/papers/BRAIN-Diet-References#tan_almonds_2013). Randomized trial: 43 g almonds/day with meals or as snacks lowered post-meal glucose; snack intake reduced hunger, and body weight did not increase over four weeks.\n\n[4] Mariotti & Gardner (2019). [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Review of vegetarian protein and amino acids: nut and seed proteins are typically lysine-limited, as are cereal proteins; legumes are the lysine-rich plant complement.\n\n[5] Kumari et al. (2020). [Does ‘activating’ nuts affect nutrient bioavailability?](/docs/papers/BRAIN-Diet-References#kumari_activating_nuts_2020). Soaking whole and chopped almonds changed phytate by only −12% to +10%, lowered mineral concentrations especially in chopped nuts, and did not improve phytate:mineral molar ratios.\n\n[6] Taylor et al. (2018). [The effects of ‘activating’ almonds on consumer acceptance and gastrointestinal tolerance](/docs/papers/BRAIN-Diet-References#taylor_activating_almonds_2018). 30 g/day soaked almonds did not improve gastrointestinal tolerance or acceptance; whole soaked almonds had higher phytate than unsoaked (563 vs 531 mg/100 g).\n"
+    ]
+  },
+  {
+    "file": "docs/foods/beef.md",
+    "inputs": [
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Combine ground beef with suitable herb or plant extracts where flavour permits; direct cooked-beef experiments show that some extracts can reduce lipid oxidation, but results are formulation-specific [2].\n- Serve beef alongside **fibrous plant foods** such as legumes, greens, or whole grains to increase meal variety.\n\n",
+      "### Preparation\n\n- Cook to a safe internal temperature and avoid unnecessary burning or heavy charring.\n\n",
+      "## References\n\n[1] Daley et al. (2010). [A review of nutritional differences between grass-fed and grain-fed beef](/docs/papers/BRAIN-Diet-References#daley_grassfed_2010). Review of measured compositional differences between grass-fed and grain-fed beef.\n\n[2] Ahn et al. (2007). [Effects of plant extracts on lipid oxidation and colour of cooked ground beef](/docs/papers/BRAIN-Diet-References#ahn_plant_extracts_beef_2007). Direct cooked-ground-beef experiment; effects depended on the plant extract and formulation tested.\n\n[3] Mattila & Kumpulainen (2001). [Coenzymes Q9 and Q10: Contents in Foods and Dietary Intake](/docs/papers/BRAIN-Diet-References#mattila_coq_foods_2001). HPLC food-composition analysis measured CoQ10 in beef and other foods; beef values varied by tissue and cut.\n\n<span id=\"food-source-4\" />\n\n[4] Kulczyński et al. (2019). [Characteristics of Selected Antioxidative and Bioactive Compounds in Meat and Animal Origin Products](/docs/papers/BRAIN-Diet-References#food_composition_8249db9abe99). Review of bioactive compounds in meat, including creatine; content varies with animal species and tissue.\n\n<span id=\"food-source-5\" />\n\n[5] Mattila et al. (2000). [Comparison of in-line connected diode array and electrochemical detectors in the high-performance liquid chromatographic analysis of coenzymes Q9 and Q10 in food materials](/docs/papers/BRAIN-Diet-References#food_composition_d3a572997731). Analytical study of individual coenzymes Q9 and Q10 in food materials, including beef steak and heart.\n\n<span id=\"food-source-6\" />\n\n[6] USDA (2018). [FoodData Central: Beef, ground, 85% lean meat / 15% fat, raw (FDC 171796)](https://fdc.nal.usda.gov/food-details/171796/nutrients). Composition baseline for raw ground beef containing 15% fat; the bioactive estimates use separate sources.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/cheddar-cheese.md",
+    "inputs": [
+      "indispensable-amino-acids",
+      "tyrosine"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pairs with **whole grains or beans** for varied amino acid patterns and sustained meals.\n- With **vegetables or salad**, adds protein and fat that can support satisfaction and micronutrient absorption from mixed meals.\n- As a fermented matrix, aged cheddar may deliver viable microbial populations more effectively than low-buffer liquid matrices in some conditions ([Leeuwendaal et al., 2021](/docs/papers/BRAIN-Diet-References#leeuwendaal_potential_2021); [Karimi et al., 2011](/docs/papers/BRAIN-Diet-References#karimi_viability_2011)).\n\n",
+      "### Preparation\n\n- **Grate or slice** for controlled portions; melting in sauces changes texture, not the basic nutrient list.\n- **Storage**: wrap tightly and refrigerate; surface mould on hard cheese is often trimmable, but follow food-safety guidance for your region.\n\n",
+      "## References\n\n[1] Complete animal protein with calcium and vitamin B12. Leeuwendaal & Stanton 2021. [The potential of non-starter lactic acid bacteria from Cheddar cheese to colonise the gut](/docs/papers/BRAIN-Diet-References#leeuwendaal_potential_2021)\n\n[2] Fermented dairy matrix with microbiota-modulating interest. Karimi & Mortazavian 2011. [Viability of probiotic microorganisms in cheese during production and storage: a review](/docs/papers/BRAIN-Diet-References#karimi_viability_2011)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/chicken.md",
+    "inputs": [
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of diverse protein strategy\n- Protein-rich breakfasts support dopamine synthesis; pair with anti-inflammatory nutrients to protect DMN switching\n\n",
+      "### Preparation\n\n- Best prepared with gentle cooking to preserve nutrients and prevent formation of advanced glycation end products (AGEs)\n- Dark meat provides more taurine, which regulates calcium signaling, antioxidant defense, and neurotransmission\n- Supports NAD+ and neurotransmitter synthesis\n\n",
+      "## References\n\n[1] Fernstrom et al. (2013). [Large neutral amino acids: dietary effects on brain neurochemistry and function](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013). Meal-pattern evidence: large-neutral-amino-acid balance affects tryptophan uptake into the brain; not a chicken feeding trial.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/chickpeas.md",
+    "inputs": [
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Soak and cook thoroughly to reduce phytates and improve mineral bioavailability; soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability\n- Pair with grains for complete amino acid profile; combine with grains like barley or oats for amino acid complementarity\n- Pair with vitamin C to enhance iron absorption, with studies showing up to a fourfold increase when consumed together\n- Part of grain-legume complementarity strategy\n\n",
+      "### Preparation\n\n- Legumes such as lentils and chickpeas provide complex carbs and fiber\n\n",
+      "## References\n\n[1] <span id=\"food-source-1\" />Fabbri, Schacht and Crosby (2016). [Evaluation of resistant starch content of cooked black beans, pinto beans, and chickpeas](https://doi.org/10.1016/j.nfs.2016.02.002). Cooked chickpeas stayed within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas were 4.32 g per 100 g of the dried sample.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/eggs.md",
+    "inputs": [
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair cooked eggs with carotenoid-rich vegetables such as [spinach](/docs/foods/spinach), tomatoes and carrots; yolk phospholipids help absorb the vegetables’ carotenoids [4].\n\n",
+      "### Preparation\n\n- **Cook eggs for protein utilization.** True ileal digestion and amino-acid absorption of egg protein is about **51% when raw and about 91% when cooked** — cooking markedly improves how much of the protein is available [1]. Routine raw eggs also carry a salmonella risk.\n- After resistance exercise, boiled eggs raised peak essential amino-acid concentrations more than raw eggs (~30 g protein from five eggs), but myofibrillar protein synthesis rates did not differ between groups [2].\n- **Yolk xanthophylls and cooking.** Boiling, frying and microwaving reduce total yolk lutein and zeaxanthin by about **6–18%**, with the largest loss in all-E-lutein after boiling (~22.5%). Most xanthophylls remain after ordinary cooking; very high-heat or prolonged frying should be weighed against AGE formation and fat oxidation [3].\n\n",
+      "## References\n\n[1] Evenepoel et al. (1998). [Digestibility of cooked and raw egg protein in humans as assessed by stable isotope techniques](/docs/papers/BRAIN-Diet-References#evenepoel_digestibility_1998). Cooked egg protein showed ~91% true ileal digestion and amino-acid absorption versus ~51% for raw egg protein.\n\n[2] Fuchs et al. (2022). [Raw vs boiled eggs after resistance exercise](/docs/papers/BRAIN-Diet-References#fuchs_raw_eggs_2022). Post-exercise trial (~30 g protein from five eggs): boiled eggs raised peak essential amino-acid concentrations more than raw eggs; myofibrillar protein synthesis rates did not differ.\n\n[3] Nimalaratne et al. (2012). [Domestic cooking methods and egg yolk xanthophylls](/docs/papers/BRAIN-Diet-References#nimalaratne_cooking_2012). Boiling, frying and microwaving reduced total yolk xanthophylls by 6–18%, with higher Z-isomer content after cooking and the largest all-E-lutein loss after boiling.\n\n[4] Kim et al. (2015). [Effects of egg consumption on carotenoid absorption from co-consumed, raw vegetables](/docs/papers/BRAIN-Diet-References#kim_egg_carotenoid_2015). Randomized crossover in 16 healthy young men: the same raw salad (100 g tomatoes, 62 g carrots, 70 g baby spinach, 25 g romaine, 5 g Chinese wolfberry; all with 3 g canola oil) plus 150 g scrambled whole eggs (~3 eggs) increased TRL carotenoid AUC versus no egg — lutein and zeaxanthin 4- to 5-fold; α-carotene, β-carotene and lycopene 3- to 8-fold. The ~1.5-egg meal did not significantly raise total carotenoid AUC versus control. The authors cite yolk phospholipids as well as total yolk lipid as promoters of intestinal micellarization; the trial did not isolate phospholipids from triglycerides, and arugula was not tested.\n\n[5] Eisenhauer et al. (2017). [Lutein and Zeaxanthin—Food Sources, Bioavailability and Dietary Variety in Age-Related Macular Degeneration Protection](/docs/papers/BRAIN-Diet-References#eisenhauer_lutein_zeaxanthin_2017). Table 4 reports 279 µg trans-zeaxanthin and 288 µg trans-lutein per 100 g in the raw whole egg measured by Perry et al. (2009).\n"
+    ]
+  },
+  {
+    "file": "docs/foods/kidney-beans.md",
+    "inputs": [
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Soak and cook thoroughly to reduce phytates and improve mineral bioavailability; soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability\n- Pair with grains for complete amino acid profile; pair with whole grains or seeds for amino acid complementarity\n- Pair with vitamin C to enhance iron absorption, with studies showing up to a fourfold increase when consumed together\n- Part of grain-legume complementarity strategy; grain-legume complementarity improves essential amino-acid coverage\n\n",
+      "## References\n\n"
+    ]
+  },
+  {
+    "file": "docs/foods/lentils.md",
+    "inputs": [
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Include a vitamin C–rich food in the same meal if raising non-haem iron absorption is the aim [3].\n\n",
+      "### Preparation\n\n- Cook lentils until soft. Cooking presoaked lentils removed trypsin-inhibitor activity and lowered phytic acid. Tannins and catechins increased, and the size of the change depended on the variety [5].\n- A 9-hour soak cut α-galactosides by 45–100%. Little of that loss was found in the soak water, and cooking afterwards changed those sugars only slightly [6].\n- Split lentils soften without a long soak. Soak whole lentils when the aim is fewer of these oligosaccharides [6]. The lentil processing studies did not measure iron absorption, so a soak is not evidence that more iron will be absorbed [5,6].\n- Sprouting for several days is not the same as an overnight soak. After 6 days of germination, trypsin-inhibitor activity and phytic acid fell, while tannins and catechins rose [5].\n\n",
+      "## References\n\n[1] Nosworthy et al. (2017). [Determination of the protein quality of cooked Canadian pulses](/docs/papers/BRAIN-Diet-References#nosworthy_cooked_pulses_2017). Cooked Canadian whole green and split red lentils, cooked without soaking, then analysed on a dry-matter basis. Table 3 cysteine is from performic-acid oxidation (whole green 0.26 g cysteine and 0.21 g methionine per 100 g dry matter; split red 0.22 g and 0.22 g), not the as-eaten cystine row. On the 1991 FAO pattern, methionine plus cysteine was the lowest ratio: amino-acid score 0.714, true protein digestibility 87.89% and PDCAAS 0.628 for whole green lentils; amino-acid score 0.594, true protein digestibility 90.60% and PDCAAS 0.538 for split red lentils. DIAAS used fecal protein digestibility rather than ileal amino-acid digestibility: 0.58 and 0.50. No cooked pulse in the set reached 0.75. Rat assay, not an adult-human adequacy measurement. Green-lentil PDCAAS was 0.63, against 0.51 cited for an average lentil.\n\n[2] Mariotti and Gardner (2019). [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Lysine is proportionally low in grains, and methionine plus cysteine are proportionally slightly low in legumes. The review treats “complete” and “incomplete” as misleading and finds no requirement to combine complementary proteins in the same meal when intake is varied across the day. Not a lentil digestibility trial.\n\n[3] Hallberg et al. (1989). [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989). Human iron-absorption series: phytate inhibits non-haem iron absorption in a dose-dependent way; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a lentil trial.\n\n[4] Dueñas et al. (2003). [Proanthocyanidin Composition in the Seed Coat of Lentils (Lens culinaris L.)](/docs/papers/BRAIN-Diet-References#duenas_lentil_seed_coat_2003). Lentil polyphenols are located essentially in the seed coat. In that coat, proanthocyanidin polymers were 65–75% (mean degree of polymerization 7–9) and oligomers 20–30%. Seed-coat composition, not a feeding trial and not a retail comparison of split versus whole lentils.\n\n[5] Vidal-Valverde et al. (1994). [Effect of processing on some antinutritional factors of lentils](/docs/papers/BRAIN-Diet-References#vidal_valverde_lentils_antinutrients_1994). Soaking lowered phytic acid without changing trypsin-inhibitor activity, and tannins and catechins rose. Cooking presoaked seeds removed trypsin-inhibitor activity and reduced phytic acid further; tannins and catechins increased. Six-day germination greatly reduced trypsin inhibitor and phytic acid. Effects varied by variety. Iron absorption was not measured.\n\n[6] Vidal-Valverde et al. (1992). [Effect of Processing on the Soluble Carbohydrate Content of Lentils](/docs/papers/BRAIN-Diet-References#vidal_valverde_lentils_carbohydrate_1992). A 9-hour soak reduced α-galactosides by 45–100%, and only 1–10% of those losses were recovered in the soak water. Cooking the soaked lentils changed α-galactoside content only slightly.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/milk.md",
+    "inputs": [
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "## References\n\n[1] FAO (2013). [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013). Protein-quality framework and reference data supporting milk protein as a complete, highly digestible protein source. <span id=\"food-source-1\"></span>\n\n[2] Trammell et al. (2016). [Nicotinamide Riboside Is a Major NAD+ Precursor Vitamin in Cow Milk](/docs/papers/BRAIN-Diet-References#trammell_nr_milk_2016). Primary LC-MS/MS occurrence evidence; no concentration is extrapolated to the USDA whole-milk material or an effective food dose. <span id=\"food-source-2\"></span>\n"
+    ]
+  },
+  {
+    "file": "docs/foods/mussels.md",
+    "inputs": [
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Preparation\n\n- Cook mussels thoroughly—for example by steaming until all shells have opened and discarding any that remain closed—to reduce microbiological risk while retaining their nutrient density.\n- Serve mussels with vegetable-rich bases such as tomato, garlic, herbs, or leafy greens, and consider pairing with whole grains to build balanced meals that combine shellfish micronutrients with fibre and phytochemicals.\n\n",
+      "## References\n\n[1] They are especially useful in dietary patterns where red meat intake is moderated but adequate intake of these micronutrients is still required. FAO 2013. [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)\n\n<span id=\"food-source-2\" />\n\n[2] [Current Progress in Lipidomics of Marine Invertebrates (2021)](/docs/papers/BRAIN-Diet-References#food_composition_12a56bba9e00)\n\n<span id=\"food-source-3\" />\n\n[3] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/174216/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/oats.md",
+    "inputs": [
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with tryptophan-rich proteins for serotonin synthesis; pair tryptophan-rich proteins with moderate carbs to increase Trp:LNAA ratio\n- Best consumed in evening for calming effect; timing midday or evening for calming effect\n- Lysine is often the lower ratio in grains, and methionine plus cysteine are proportionally slightly lower in legumes. Eating both across the day covers those ratios. The same meal is optional [2]\n- Tryptophan + complex carbohydrates aid serotonin conversion to melatonin; examples include pumpkin seeds + oats\n\n",
+      "### Preparation\n\n- Soak overnight to reduce phytates and improve mineral bioavailability\n\n",
+      "## References\n\n[1] Food and Agriculture Organization of the United Nations (2013). [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013). Scoring pattern for older children, adolescents and adults: lysine 48 mg/g protein and sulfur amino acids 23 mg/g protein. Applied to the dry oats on this page (FDC 169705; 16.89 g protein, 0.701 g lysine, 0.312 g methionine and 0.408 g cystine per 100 g): lysine 41.5 mg/g protein, uncorrected score 0.86; methionine plus cystine 42.6 mg/g protein, uncorrected score 1.85. Lysine is the lowest indispensable ratio on that pattern. Composition arithmetic, not an FAO oat trial and not PDCAAS or DIAAS.\n\n[2] Mariotti and Gardner (2019). [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Lysine is proportionally low in grains, and methionine plus cysteine are proportionally slightly low in legumes. The review treats “complete” and “incomplete” as misleading and finds no requirement to combine complementary proteins in the same meal when intake is varied across the day. Not an oat digestibility trial.\n\n[3] Sean Davies (2018). [Oatmeal Effect on N-acyl-phosphatidylethanolamines](/docs/papers/BRAIN-Diet-References#sean_davies_oatmeal_2018). Trial registration proposing that one oatmeal meal would raise serum NAPE and NAE. This page does not use it as evidence of an oat effect.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/peanuts.md",
+    "inputs": [
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of diverse plant protein strategy; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience\n- Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage\n\n",
+      "### Preparation\n\n- Choose dry-roasted or raw over oil-roasted to preserve nutrients and avoid excess omega-6\n- Soak to reduce phytates and improve mineral bioavailability\n\n",
+      "## References\n\n"
+    ]
+  },
+  {
+    "file": "docs/foods/pumpkin-seeds.md",
+    "inputs": [
+      "indispensable-amino-acids",
+      "tyrosine",
+      "tryptophan"
+    ],
+    "sections": [
+      "### Synergies\n\n- Soak to reduce phytates and improve mineral bioavailability; soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability\n- Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage\n- Pair with complex carbs for tryptophan-to-serotonin conversion; tryptophan + complex carbohydrates aid serotonin conversion to melatonin; examples include pumpkin seeds + oats\n\n",
+      "### Preparation\n\n- Plant zinc less bioavailable due to phytates; soaking/sprouting helps improve bioavailability\n\n",
+      "## References\n\n[1] Mariotti & Gardner (2019). [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/quinoa.md",
+    "inputs": [
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair quinoa with legumes (e.g. lentils, chickpeas, beans) to improve overall essential amino-acid balance at meal/day level [1,2].\n\n",
+      "### Preparation\n\n- Rinse before cooking to reduce residual saponin bitterness (even when labeled pre-washed).\n- Use gentle boiling/steaming and avoid overcooking to preserve texture and improve practical meal adherence.\n\n",
+      "## References\n\n[1] FAO (2013). [Protein quality evaluation framework (DIAAS)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)\n\n[2] Mariotti & Gardner (2019). [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Within the BRAIN Diet framework, quinoa works well as a rotating whole-grain/pseudograin option that supports mineral intake, fibre intake, and overall diet diversity.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/salmon.md",
+    "inputs": [
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Preparation\n\n- Best prepared with gentle cooking to preserve omega-3s and prevent oxidation\n- Avoid high-heat cooking that creates advanced glycation end products (AGEs)\n\n",
+      "## References\n\n[1] Regular inclusion of salmon and other oily fish helps reach evidence-based omega-3 intakes that are associated with cardiometabolic and cognitive benefits in many populations. McNamara & Carlson 2006. [Omega-3 fatty acids and neuropsychiatric function](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)\n\n[2] DHA supplementation improved both memory and reaction time in healthy young adults: a randomized controlled trial. Stonehouse et al. 2013. [DHA supplementation and cognitive outcomes in adults](/docs/papers/BRAIN-Diet-References#stonehouse_dha_2013)\n\n<span id=\"food-source-3\" />\n\n[3] [Salmon fillet nutritional composition feeding study (2025)](/docs/papers/BRAIN-Diet-References#food_composition_5cdbf4d42fc5)\n\n<span id=\"food-source-4\" />\n\n[4] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/175167/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/sardines.md",
+    "inputs": [
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Preparation\n\n- Sardines can be eaten directly from the can or lightly warmed; avoid prolonged high-temperature frying or charring that can oxidize lipids.\n- When tolerated, consuming the **bones together with the fillet** maximizes calcium intake from the food; combining sardines with vegetables and whole grains helps integrate this dense source of omega-3s into balanced meals.\n\n",
+      "## References\n\n[1] Because canned sardines typically include the skeleton, they contribute meaningfully to both marine omega-3 intake and calcium alongside B12 and other micronutrients. McNamara & Carlson 2006. [Omega-3 fatty acids in brain development, function, and psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)\n\n[2] DHA supplementation improved both memory and reaction time in healthy young adults: a randomized controlled trial. Stonehouse et al. 2013. [DHA supplementation and cognitive performance in healthy adults](/docs/papers/BRAIN-Diet-References#stonehouse_dha_2013)\n\n[3] Compared with larger predatory fish, sardines sit low in the marine food chain and generally accumulate less mercury, which supports their use as a frequent marine omega-3 source in many dietary patterns. FAO 2013. [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)\n\n<span id=\"food-source-4\" />\n\n[4] [Pravst, Zmitek and Zmitek (2010), Coenzyme Q10 Contents in Foods and Fortification Strategies](/docs/papers/BRAIN-Diet-References#food_composition_909fffb6dabb)\n\n<span id=\"food-source-5\" />\n\n[5] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/175139/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/sunflower-seeds.md",
+    "inputs": [
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of diverse seed intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience\n\n",
+      "### Preparation\n\n- Can be consumed raw or roasted; gentle roasting preserves nutrients\n- Supports mitochondrial function via thiamine; thiamine does not exist in a large brain \"reservoir\"; the CNS maintains small, tightly regulated intracellular pools that depend on continuous, transporter-mediated supply\n- Source of sunflower lecithin for choline support; vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli)\n\n",
+      "## References\n\n[1] Dhir et al. (2019). [Thiamine physiology and neuro-metabolic relevance](/docs/papers/BRAIN-Diet-References#dhir_neurological_2019). Abstract Enriching brain DHA is believed to be beneficial for the prevention and treatment of several neurological diseases, including Alzheimer’s disease.\n\n[2] Derbyshire & Maes (2023). [Choline as a practical nutrient target in dietary patterns](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)\n\n[3] Muñoz-Esparza et al. (2021). [Occurrence of Polyamines in Foods and the Influence of Cooking Processes](/docs/papers/BRAIN-Diet-References#munoz_esparza_food_polyamines_2021). Analytical evidence for spermidine occurrence; food type and preparation affect composition.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/tofu.md",
+    "inputs": [
+      "indispensable-amino-acids",
+      "tyrosine"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage\n- Part of diverse plant protein strategy\n- High-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis\n\n",
+      "### Preparation\n\n- Can be prepared various ways (baked, fried, steamed); gentle cooking preserves nutrients\n\n",
+      "## References\n\n[1] Tofu supplies soy isoflavones such as genistein studied for neuroinflammatory and metabolic pathways. Fuloria et al. 2022. [Genistein: A Potential Natural Lead Molecule for New Drug Design and Development for Treating Memory Impairment](/docs/papers/BRAIN-Diet-References#fuloria_genistein_2022)\n\n[2] Hallberg et al. (1989). [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989). Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food.\n\n<span id=\"food-source-3\" />\n\n[3] [NTP-CERHR Expert Panel Report on Genistein (2006)](/docs/papers/BRAIN-Diet-References#food_composition_16903d08234b)\n\n<span id=\"food-source-4\" />\n\n[4] [USDA Database for the Choline Content of Common Foods, Release 2 (2008)](https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Choline/Choln02.pdf)\n\n<span id=\"food-source-5\" />\n\n[5] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/172475/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/tuna.md",
+    "inputs": [
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Preparation\n\n- Use gentle cooking methods (light searing, baking, steaming) to preserve moisture and omega-3 content; avoid repeated deep-frying or heavy charring.\n- Incorporate tuna into meals that also contain vegetables and whole grains, so it contributes lean protein, niacin, and selenium within a balanced plate rather than dominating total dietary fish intake.\n\n",
+      "## References\n\n[1] McNamara & Carlson (2006). [Omega-3 fatty acids in brain development, function, and psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006). Constituent-level review of long-chain omega-3 fatty acids in brain development and function; not a tuna feeding trial.\n\n<span id=\"food-source-2\" />\n\n[2] [Kulczynski et al. (2019), Characteristics of Selected Antioxidative and Bioactive Compounds in Meat and Animal Origin Products](/docs/papers/BRAIN-Diet-References#food_composition_8249db9abe99)\n\n<span id=\"food-source-3\" />\n\n[3] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/173706/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/turkey.md",
+    "inputs": [
+      "indispensable-amino-acids",
+      "tryptophan"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with complex carbohydrates to enhance tryptophan-to-serotonin conversion; pair tryptophan-rich proteins with moderate carbs to increase Trp:LNAA ratio\n- Best consumed midday or evening for calming effect; timing midday or evening for calming effect\n- High-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis\n\n",
+      "### Preparation\n\n- Gentle cooking preserves tryptophan and prevents formation of advanced glycation end products (AGEs)\n\n",
+      "## References\n\n[1] Fernstrom et al. (2013). [Large neutral amino acids and brain neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013). Meal-pattern evidence: large-neutral-amino-acid balance affects tryptophan uptake into the brain; not a turkey feeding trial.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/parmesan-cheese.md",
+    "inputs": [
+      "tyrosine"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of nutrient-dense animal food strategy\n\n",
+      "### Preparation\n\n- Use as grated topping or snacks for flavor and nutrient density\n- Supports K2 and calcium intake; studies have shown that hard cheeses with high calcium do not raise serum LDL levels [Soerensen et al. 2014](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014)\n- When consumed in moderation within an anti-inflammatory, micronutrient-rich diet, foods like Parmesan cheese provide essential brain nutrients including choline, vitamin K2, butyrate, and fat-soluble vitamins A, D, and E\n\n",
+      "## References\n\n[1] Studies have shown that hard cheeses with high calcium do not raise serum LDL levels. Soerensen & Thorning 2014. [Effect of dairy calcium from cheese and milk on fecal fat excretion, blood lipids, and appetite in young men](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014)\n\n<span id=\"food-source-2\" />\n\n[2] [Vitamin K content of Australian foods (2021)](/docs/papers/BRAIN-Diet-References#food_composition_686b2546ed9e)\n\n<span id=\"food-source-3\" />\n\n[3] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/170848/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/soy.md",
+    "inputs": [
+      "tyrosine",
+      "tryptophan"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage\n- Part of diverse plant protein strategy\n\n",
+      "### Preparation\n\n- Fermented forms (tempeh, miso, natto) may have additional benefits including probiotics and improved digestibility\n- Supports choline and neurotransmitter synthesis\n- Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli) to support phosphatidylcholine synthesis\n\n",
+      "## References\n\n[1] Genistein and related soy isoflavones are studied for neuroinflammatory and metabolic pathways. Fuloria et al. 2022. [Genistein: A Potential Natural Lead Molecule for New Drug Design and Development for Treating Memory Impairment](/docs/papers/BRAIN-Diet-References#fuloria_genistein_2022)\n\n[2] Soy provides highly digestible plant protein; legume–grain pairing improves essential amino-acid balance. FAO 2013. [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)\n\n[3] Muñoz-Esparza et al. (2021). [Occurrence of Polyamines in Foods and the Influence of Cooking Processes](/docs/papers/BRAIN-Diet-References#munoz_esparza_food_polyamines_2021). Analytical evidence for spermidine occurrence; food type and preparation affect composition.\n\n<span id=\"food-source-4\" />\n\n[4] [Dynamic polyphenolic profiling of soybean seeds and leaves during developmental stages (2025)](/docs/papers/BRAIN-Diet-References#food_composition_d8e99613b6a5)\n\n<span id=\"food-source-5\" />\n\n[5] [NTP-CERHR Expert Panel Report on Genistein (2006)](/docs/papers/BRAIN-Diet-References#food_composition_16903d08234b)\n\n<span id=\"food-source-6\" />\n\n[6] [Composition evidence for Spermidine](/docs/papers/BRAIN-Diet-References#food_composition_ab43fb9a34b0)\n\n<span id=\"food-source-7\" />\n\n[7] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/174270/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/tempeh.md",
+    "inputs": [
+      "tyrosine"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of fermented foods rotation; fermented foods provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling\n- Supports gut microbiome diversity; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience\n\n",
+      "### Preparation\n\n- Fermentation improves digestibility and nutrient bioavailability; lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels\n- Can be cooked various ways; gentle cooking preserves probiotics\n\n",
+      "## References\n\n[1] Part of fermented foods strategy; fermentation goes further: lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels. LeBlanc & Laiño 2011. [B-Group vitamin production by lactic acid bacteria - current knowledge and potential applications: Vitamin production by LAB](/docs/papers/BRAIN-Diet-References#leblanc_b-group_2011)\n\n[2] Muñoz-Esparza et al. (2021). [Occurrence of Polyamines in Foods and the Influence of Cooking Processes](/docs/papers/BRAIN-Diet-References#munoz_esparza_food_polyamines_2021). Analytical evidence for spermidine occurrence; food type and preparation affect composition.\n\n<span id=\"food-source-3\" />\n\n[3] [NTP-CERHR Expert Panel Report on Genistein (2006)](/docs/papers/BRAIN-Diet-References#food_composition_16903d08234b)\n\n<span id=\"food-source-4\" />\n\n[4] [Plant-based nutrition for healthcare professionals (2017), Table 2](/docs/papers/BRAIN-Diet-References#food_composition_ef7ae3829e4e)\n\n<span id=\"food-source-5\" />\n\n[5] [Composition evidence for Spermidine](/docs/papers/BRAIN-Diet-References#food_composition_ab43fb9a34b0)\n\n<span id=\"food-source-6\" />\n\n[6] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/174272/nutrients)\n"
+    ]
+  }
+]

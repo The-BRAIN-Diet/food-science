@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "candidates": [
+    {
+      "candidate_id": "PM1-FOOD-REUSE-COOKED-EGG",
+      "pm_id": "BRS1-FM1-PM1",
+      "initial_discovery_origin": "new literature research",
+      "existing_food_page_evidence": {
+        "file": "docs/foods/eggs.md",
+        "section": "Preparation",
+        "citation_key": "evenepoel_digestibility_1998"
+      },
+      "provenance_note": "External research preceded this mandatory reuse checkpoint. Existing food-page support subsequently identified; not counted as prospective food-page-led discovery.",
+      "food_state": "raw versus cooked egg protein; distinguish study preparation from hard-boiled composition entry",
+      "practice": "Cooking egg protein before consumption",
+      "endpoint": "True ileal protein digestibility; not brain precursor delivery or neurotransmitter synthesis",
+      "source": "10.1093/jn/128.10.1716",
+      "source_verification": "Original PubMed/PMC evidence and Scite abstract checked; digestibility distinguished from plasma concentrations and neuronal availability",
+      "disposition": "admitted as PM1-SOP-COOKED-EGG-1; see cooked-egg-contract-clarification.md",
+      "food_page_update_opportunity": "Assess whether later postprandial amino-acid evidence adds a useful qualified preparation statement; no food-page edit authorised by this record."
+    },
+    {
+      "candidate_id": "PM3-FOOD-REUSE-ASCORBATE",
+      "pm_id": "BRS1-FM1-PM3",
+      "initial_discovery_origin": "existing BRAIN food page",
+      "food_page": "docs/foods/black-beans.md",
+      "section": "Synergies and reference 3",
+      "canonical_input": "iron",
+      "food_state": "Mixed-meal extrapolation; original trial wheat rolls, not black beans",
+      "practice": "Co-ingested ascorbic acid",
+      "endpoint": "Non-haem iron absorption",
+      "source": "10.1093/ajcn/49.1.140",
+      "source_verification": "Primary abstract inspected",
+      "disposition": "Already covered by PM3-SOP-1; no duplicate admission",
+      "food_page_update_opportunity": "Preserve food-specific versus mixed-meal distinction"
+    },
+    {
+      "candidate_id": "PM3-YOGA-NIDRA",
+      "pm_id": "BRS1-FM1-PM3",
+      "initial_discovery_origin": "new literature research",
+      "food_page": null,
+      "practice": "Guided Yoga Nidra in experienced practitioners",
+      "source": "10.1016/S0926-6410(01)00106-9",
+      "source_verification": "Full primary article inspected",
+      "disposition": "Mechanistic candidate; protocol applicability and linkage adjudication pending"
+    }
+  ]
+}

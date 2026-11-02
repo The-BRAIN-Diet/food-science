@@ -215,7 +215,12 @@ test('actual shared audit renders canonical factor states and closed version anc
   const r=copy(evidence.find(r=>r.findingId==='PM9-F1'));
   r.factorStates={D:'established',B:'conditional',P:'conditional',R:'conditional'};
   delete r.conditional.statuses;
+  const Disclosure=component(read('src/components/EvidenceGaps/Disclosure.tsx'),{
+    '@docusaurus/router':{useLocation:()=>({hash:''})},
+    '../../client/brsFmHubDropdown':{initBrsFmHubDropdowns(){}},
+  }).default;
   const Audit=component(read('src/components/SecCalibrationPreview/EvidenceAudit.tsx'),{
+    '../EvidenceGaps/Disclosure':Disclosure,
     '@docusaurus/router':{useLocation:()=>({pathname:'/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity'})},
     '../ReviewCorrections/PageReviewPanel':()=>null,
     '../Stage2Review':stage2Review,

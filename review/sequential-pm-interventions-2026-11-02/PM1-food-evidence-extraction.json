@@ -1,0 +1,1968 @@
+[
+  {
+    "food_id": "almonds",
+    "file": "docs/foods/almonds.md",
+    "substances": [
+      "magnesium",
+      "copper",
+      "iron",
+      "vitamin-b2",
+      "choline",
+      "vitamin-b9",
+      "vitamin-b5",
+      "vitamin-b6",
+      "potassium",
+      "sodium",
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with legumes for lysine complementarity; grains are typically lysine-limited and are not a lysine rescue for almonds [4].\n\n",
+      "### Preparation\n\n- Prefer plain whole or slivered almonds over heavily salted or sugar-coated products.\n- Soaking can remain an optional texture or tolerability preference. Direct almond research does not support soaking as a mineral-bioavailability strategy: phytate changes were small (−12% to +10%) and mineral concentrations often fell, especially in chopped nuts [5]. Soaking also did not improve gastrointestinal tolerance [6].\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "magnesium",
+        "material": "Nuts, almonds",
+        "preparation": null
+      },
+      {
+        "substance_id": "copper",
+        "material": "Nuts, almonds",
+        "preparation": null
+      },
+      {
+        "substance_id": "iron",
+        "material": "Nuts, almonds",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Nuts, almonds",
+        "preparation": null
+      },
+      {
+        "substance_id": "choline",
+        "material": "Nuts, almonds",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Nuts, almonds",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Nuts, almonds",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Nuts, almonds",
+        "preparation": null
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Nuts, almonds",
+        "preparation": null
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Nuts, almonds",
+        "preparation": null
+      },
+      {
+        "substance_id": "indispensable-amino-acids",
+        "material": "Nuts, almonds",
+        "preparation": "raw"
+      }
+    ]
+  },
+  {
+    "food_id": "beef",
+    "file": "docs/foods/beef.md",
+    "substances": [
+      "iron",
+      "vitamin-b2",
+      "vitamin-b6",
+      "glutamate",
+      "potassium",
+      "vitamin-b5",
+      "choline",
+      "magnesium",
+      "sodium",
+      "copper",
+      "vitamin-b9",
+      "dha-docosahexaenoic-acid",
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Combine ground beef with suitable herb or plant extracts where flavour permits; direct cooked-beef experiments show that some extracts can reduce lipid oxidation, but results are formulation-specific [2].\n- Serve beef alongside **fibrous plant foods** such as legumes, greens, or whole grains to increase meal variety.\n\n",
+      "### Preparation\n\n- Cook to a safe internal temperature and avoid unnecessary burning or heavy charring.\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "iron",
+        "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "glutamate",
+        "material": "Beef protein fractions",
+        "preparation": "form not known"
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "choline",
+        "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "magnesium",
+        "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "copper",
+        "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "dha-docosahexaenoic-acid",
+        "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "indispensable-amino-acids",
+        "material": "Beef, ground, 85% lean meat / 15% fat, patty, cooked, broiled",
+        "preparation": "cooked"
+      }
+    ]
+  },
+  {
+    "food_id": "cheddar-cheese",
+    "file": "docs/foods/cheddar-cheese.md",
+    "substances": [
+      "tyrosine",
+      "potassium",
+      "dha-docosahexaenoic-acid",
+      "copper",
+      "vitamin-b5",
+      "vitamin-b6",
+      "vitamin-b2",
+      "vitamin-b9",
+      "sodium",
+      "iron",
+      "magnesium",
+      "choline",
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pairs with **whole grains or beans** for varied amino acid patterns and sustained meals.\n- With **vegetables or salad**, adds protein and fat that can support satisfaction and micronutrient absorption from mixed meals.\n- As a fermented matrix, aged cheddar may deliver viable microbial populations more effectively than low-buffer liquid matrices in some conditions ([Leeuwendaal et al., 2021](/docs/papers/BRAIN-Diet-References#leeuwendaal_potential_2021); [Karimi et al., 2011](/docs/papers/BRAIN-Diet-References#karimi_viability_2011)).\n\n",
+      "### Preparation\n\n- **Grate or slice** for controlled portions; melting in sauces changes texture, not the basic nutrient list.\n- **Storage**: wrap tightly and refrigerate; surface mould on hard cheese is often trimmable, but follow food-safety guidance for your region.\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "tyrosine",
+        "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
+        "preparation": null
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
+        "preparation": null
+      },
+      {
+        "substance_id": "dha-docosahexaenoic-acid",
+        "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
+        "preparation": null
+      },
+      {
+        "substance_id": "copper",
+        "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
+        "preparation": null
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
+        "preparation": null
+      },
+      {
+        "substance_id": "iron",
+        "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
+        "preparation": null
+      },
+      {
+        "substance_id": "magnesium",
+        "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
+        "preparation": null
+      },
+      {
+        "substance_id": "choline",
+        "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
+        "preparation": null
+      },
+      {
+        "substance_id": "indispensable-amino-acids",
+        "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
+        "preparation": "cheddar"
+      }
+    ]
+  },
+  {
+    "food_id": "chicken",
+    "file": "docs/foods/chicken.md",
+    "substances": [
+      "iron",
+      "vitamin-b6",
+      "choline",
+      "magnesium",
+      "sodium",
+      "copper",
+      "vitamin-b2",
+      "vitamin-b9",
+      "dha-docosahexaenoic-acid",
+      "potassium",
+      "vitamin-b5",
+      "vitamin-c",
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of diverse protein strategy\n- Protein-rich breakfasts support dopamine synthesis; pair with anti-inflammatory nutrients to protect DMN switching\n\n",
+      "### Preparation\n\n- Best prepared with gentle cooking to preserve nutrients and prevent formation of advanced glycation end products (AGEs)\n- Dark meat provides more taurine, which regulates calcium signaling, antioxidant defense, and neurotransmission\n- Supports NAD+ and neurotransmitter synthesis\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "iron",
+        "material": "Chicken, broilers or fryers, meat and skin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Chicken, broilers or fryers, meat and skin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "choline",
+        "material": "Chicken, broilers or fryers, meat and skin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "magnesium",
+        "material": "Chicken, broilers or fryers, meat and skin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Chicken, broilers or fryers, meat and skin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "copper",
+        "material": "Chicken, broilers or fryers, meat and skin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Chicken, broilers or fryers, meat and skin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Chicken, broilers or fryers, meat and skin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "dha-docosahexaenoic-acid",
+        "material": "Chicken, broilers or fryers, meat and skin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Chicken, broilers or fryers, meat and skin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Chicken, broilers or fryers, meat and skin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-c",
+        "material": "Chicken, broilers or fryers, meat and skin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "indispensable-amino-acids",
+        "material": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+        "preparation": "cooked"
+      }
+    ]
+  },
+  {
+    "food_id": "chickpeas",
+    "file": "docs/foods/chickpeas.md",
+    "substances": [
+      "magnesium",
+      "potassium",
+      "copper",
+      "iron",
+      "vitamin-b6",
+      "vitamin-b9",
+      "choline",
+      "sodium",
+      "vitamin-c",
+      "vitamin-b2",
+      "vitamin-b5",
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Soak and cook thoroughly to reduce phytates and improve mineral bioavailability; soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability\n- Pair with grains for complete amino acid profile; combine with grains like barley or oats for amino acid complementarity\n- Pair with vitamin C to enhance iron absorption, with studies showing up to a fourfold increase when consumed together\n- Part of grain-legume complementarity strategy\n\n",
+      "### Preparation\n\n- Legumes such as lentils and chickpeas provide complex carbs and fiber\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "magnesium",
+        "material": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "copper",
+        "material": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "iron",
+        "material": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "choline",
+        "material": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-c",
+        "material": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "indispensable-amino-acids",
+        "material": "Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",
+        "preparation": "cooked"
+      }
+    ]
+  },
+  {
+    "food_id": "eggs",
+    "file": "docs/foods/eggs.md",
+    "substances": [
+      "choline",
+      "iron",
+      "glutamate",
+      "vitamin-b2",
+      "dha-docosahexaenoic-acid",
+      "magnesium",
+      "sodium",
+      "copper",
+      "potassium",
+      "vitamin-b5",
+      "vitamin-b6",
+      "vitamin-b9",
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair cooked eggs with carotenoid-rich vegetables such as [spinach](/docs/foods/spinach), tomatoes and carrots; yolk phospholipids help absorb the vegetables’ carotenoids [4].\n\n",
+      "### Preparation\n\n- **Cook eggs for protein utilization.** True ileal digestion and amino-acid absorption of egg protein is about **51% when raw and about 91% when cooked** — cooking markedly improves how much of the protein is available [1]. Routine raw eggs also carry a salmonella risk.\n- After resistance exercise, boiled eggs raised peak essential amino-acid concentrations more than raw eggs (~30 g protein from five eggs), but myofibrillar protein synthesis rates did not differ between groups [2].\n- **Yolk xanthophylls and cooking.** Boiling, frying and microwaving reduce total yolk lutein and zeaxanthin by about **6–18%**, with the largest loss in all-E-lutein after boiling (~22.5%). Most xanthophylls remain after ordinary cooking; very high-heat or prolonged frying should be weighed against AGE formation and fat oxidation [3].\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "choline",
+        "material": "Egg, whole, raw, fresh",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "iron",
+        "material": "Egg, whole, raw, fresh",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "glutamate",
+        "material": "Whole egg protein fractions",
+        "preparation": "form not known"
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Egg, whole, raw, fresh",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "dha-docosahexaenoic-acid",
+        "material": "Egg, whole, raw, fresh",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "magnesium",
+        "material": "Egg, whole, raw, fresh",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Egg, whole, raw, fresh",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "copper",
+        "material": "Egg, whole, raw, fresh",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Egg, whole, raw, fresh",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Egg, whole, raw, fresh",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Egg, whole, raw, fresh",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Egg, whole, raw, fresh",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "indispensable-amino-acids",
+        "material": "Egg, whole, cooked, hard-boiled",
+        "preparation": "cooked"
+      }
+    ]
+  },
+  {
+    "food_id": "kidney-beans",
+    "file": "docs/foods/kidney-beans.md",
+    "substances": [
+      "magnesium",
+      "iron",
+      "vitamin-b9",
+      "vitamin-b5",
+      "vitamin-b6",
+      "potassium",
+      "vitamin-c",
+      "vitamin-b2",
+      "sodium",
+      "copper",
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Soak and cook thoroughly to reduce phytates and improve mineral bioavailability; soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability\n- Pair with grains for complete amino acid profile; pair with whole grains or seeds for amino acid complementarity\n- Pair with vitamin C to enhance iron absorption, with studies showing up to a fourfold increase when consumed together\n- Part of grain-legume complementarity strategy; grain-legume complementarity improves essential amino-acid coverage\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "magnesium",
+        "material": "Beans, kidney, all types, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "iron",
+        "material": "Beans, kidney, all types, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Beans, kidney, all types, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Beans, kidney, all types, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Beans, kidney, all types, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Beans, kidney, all types, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-c",
+        "material": "Beans, kidney, all types, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Beans, kidney, all types, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Beans, kidney, all types, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "copper",
+        "material": "Beans, kidney, all types, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "indispensable-amino-acids",
+        "material": "Beans, kidney, red, mature seeds, cooked, boiled, without salt",
+        "preparation": "cooked"
+      }
+    ]
+  },
+  {
+    "food_id": "lentils",
+    "file": "docs/foods/lentils.md",
+    "substances": [
+      "iron",
+      "vitamin-b9",
+      "vitamin-b5",
+      "vitamin-b6",
+      "choline",
+      "sodium",
+      "vitamin-b2",
+      "copper",
+      "magnesium",
+      "vitamin-c",
+      "potassium",
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Include a vitamin C–rich food in the same meal if raising non-haem iron absorption is the aim [3].\n\n",
+      "### Preparation\n\n- Cook lentils until soft. Cooking presoaked lentils removed trypsin-inhibitor activity and lowered phytic acid. Tannins and catechins increased, and the size of the change depended on the variety [5].\n- A 9-hour soak cut α-galactosides by 45–100%. Little of that loss was found in the soak water, and cooking afterwards changed those sugars only slightly [6].\n- Split lentils soften without a long soak. Soak whole lentils when the aim is fewer of these oligosaccharides [6]. The lentil processing studies did not measure iron absorption, so a soak is not evidence that more iron will be absorbed [5,6].\n- Sprouting for several days is not the same as an overnight soak. After 6 days of germination, trypsin-inhibitor activity and phytic acid fell, while tannins and catechins rose [5].\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "iron",
+        "material": "Lentils, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Lentils, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Lentils, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Lentils, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "choline",
+        "material": "Lentils, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Lentils, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Lentils, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "copper",
+        "material": "Lentils, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "magnesium",
+        "material": "Lentils, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-c",
+        "material": "Lentils, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Lentils, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "indispensable-amino-acids",
+        "material": "Lentils, mature seeds, cooked, boiled, without salt",
+        "preparation": "cooked"
+      }
+    ]
+  },
+  {
+    "food_id": "milk",
+    "file": "docs/foods/milk.md",
+    "substances": [
+      "magnesium",
+      "potassium",
+      "vitamin-b2",
+      "vitamin-b5",
+      "uridine",
+      "pyridoxal-5-phosphate",
+      "choline",
+      "vitamin-b9",
+      "iron",
+      "sodium",
+      "copper",
+      "vitamin-b6",
+      "indispensable-amino-acids"
+    ],
+    "sections": [],
+    "sources": [
+      {
+        "substance_id": "magnesium",
+        "material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+        "preparation": null
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+        "preparation": null
+      },
+      {
+        "substance_id": "uridine",
+        "material": "Bovine milk from Holstein-Friesian cows",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "pyridoxal-5-phosphate",
+        "material": "Commercial liquid cow milk (31 samples: pasteurized, extended shelf-life and UHT)",
+        "preparation": "heat-treated; method-specific"
+      },
+      {
+        "substance_id": "choline",
+        "material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+        "preparation": null
+      },
+      {
+        "substance_id": "iron",
+        "material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+        "preparation": null
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+        "preparation": null
+      },
+      {
+        "substance_id": "copper",
+        "material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+        "preparation": null
+      },
+      {
+        "substance_id": "indispensable-amino-acids",
+        "material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+        "preparation": "whole milk"
+      }
+    ]
+  },
+  {
+    "food_id": "mussels",
+    "file": "docs/foods/mussels.md",
+    "substances": [
+      "dha-docosahexaenoic-acid",
+      "iron",
+      "phosphatidylcholine",
+      "choline",
+      "vitamin-b5",
+      "vitamin-b6",
+      "potassium",
+      "magnesium",
+      "sodium",
+      "copper",
+      "vitamin-c",
+      "vitamin-b2",
+      "vitamin-b9",
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Preparation\n\n- Cook mussels thoroughly—for example by steaming until all shells have opened and discarding any that remain closed—to reduce microbiological risk while retaining their nutrient density.\n- Serve mussels with vegetable-rich bases such as tomato, garlic, herbs, or leafy greens, and consider pairing with whole grains to build balanced meals that combine shellfish micronutrients with fibre and phytochemicals.\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "dha-docosahexaenoic-acid",
+        "material": "Mollusks, mussel, blue, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "iron",
+        "material": "Mollusks, mussel, blue, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "phosphatidylcholine",
+        "material": "Mytilus mussel edible tissue",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "choline",
+        "material": "Mollusks, mussel, blue, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Mollusks, mussel, blue, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Mollusks, mussel, blue, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Mollusks, mussel, blue, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "magnesium",
+        "material": "Mollusks, mussel, blue, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Mollusks, mussel, blue, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "copper",
+        "material": "Mollusks, mussel, blue, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-c",
+        "material": "Mollusks, mussel, blue, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Mollusks, mussel, blue, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Mollusks, mussel, blue, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "indispensable-amino-acids",
+        "material": "Mollusks, mussel, blue, cooked, moist heat",
+        "preparation": "cooked"
+      }
+    ]
+  },
+  {
+    "food_id": "oats",
+    "file": "docs/foods/oats.md",
+    "substances": [
+      "magnesium",
+      "copper",
+      "iron",
+      "sodium",
+      "vitamin-b2",
+      "vitamin-b9",
+      "potassium",
+      "vitamin-b5",
+      "vitamin-b6",
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with tryptophan-rich proteins for serotonin synthesis; pair tryptophan-rich proteins with moderate carbs to increase Trp:LNAA ratio\n- Best consumed in evening for calming effect; timing midday or evening for calming effect\n- Lysine is often the lower ratio in grains, and methionine plus cysteine are proportionally slightly lower in legumes. Eating both across the day covers those ratios. The same meal is optional [2]\n- Tryptophan + complex carbohydrates aid serotonin conversion to melatonin; examples include pumpkin seeds + oats\n\n",
+      "### Preparation\n\n- Soak overnight to reduce phytates and improve mineral bioavailability\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "magnesium",
+        "material": "Oats (Includes foods for USDA's Food Distribution Program)",
+        "preparation": null
+      },
+      {
+        "substance_id": "copper",
+        "material": "Oats (Includes foods for USDA's Food Distribution Program)",
+        "preparation": null
+      },
+      {
+        "substance_id": "iron",
+        "material": "Oats (Includes foods for USDA's Food Distribution Program)",
+        "preparation": null
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Oats (Includes foods for USDA's Food Distribution Program)",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Oats (Includes foods for USDA's Food Distribution Program)",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Oats (Includes foods for USDA's Food Distribution Program)",
+        "preparation": null
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Oats (Includes foods for USDA's Food Distribution Program)",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Oats (Includes foods for USDA's Food Distribution Program)",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Oats (Includes foods for USDA's Food Distribution Program)",
+        "preparation": null
+      },
+      {
+        "substance_id": "indispensable-amino-acids",
+        "material": "Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving), without salt",
+        "preparation": "cooked"
+      }
+    ]
+  },
+  {
+    "food_id": "parmesan-cheese",
+    "file": "docs/foods/parmesan-cheese.md",
+    "substances": [
+      "tyrosine",
+      "choline",
+      "sodium",
+      "copper",
+      "vitamin-b2",
+      "vitamin-b9",
+      "iron",
+      "magnesium",
+      "potassium",
+      "vitamin-b5",
+      "vitamin-b6"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of nutrient-dense animal food strategy\n\n",
+      "### Preparation\n\n- Use as grated topping or snacks for flavor and nutrient density\n- Supports K2 and calcium intake; studies have shown that hard cheeses with high calcium do not raise serum LDL levels [Soerensen et al. 2014](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014)\n- When consumed in moderation within an anti-inflammatory, micronutrient-rich diet, foods like Parmesan cheese provide essential brain nutrients including choline, vitamin K2, butyrate, and fat-soluble vitamins A, D, and E\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "tyrosine",
+        "material": "Cheese, parmesan, hard",
+        "preparation": null
+      },
+      {
+        "substance_id": "choline",
+        "material": "Cheese, parmesan, hard",
+        "preparation": null
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Cheese, parmesan, hard",
+        "preparation": null
+      },
+      {
+        "substance_id": "copper",
+        "material": "Cheese, parmesan, hard",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Cheese, parmesan, hard",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Cheese, parmesan, hard",
+        "preparation": null
+      },
+      {
+        "substance_id": "iron",
+        "material": "Cheese, parmesan, hard",
+        "preparation": null
+      },
+      {
+        "substance_id": "magnesium",
+        "material": "Cheese, parmesan, hard",
+        "preparation": null
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Cheese, parmesan, hard",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Cheese, parmesan, hard",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Cheese, parmesan, hard",
+        "preparation": null
+      }
+    ]
+  },
+  {
+    "food_id": "peanuts",
+    "file": "docs/foods/peanuts.md",
+    "substances": [
+      "magnesium",
+      "copper",
+      "vitamin-b9",
+      "choline",
+      "sodium",
+      "vitamin-b2",
+      "iron",
+      "potassium",
+      "vitamin-b5",
+      "vitamin-b6",
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of diverse plant protein strategy; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience\n- Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage\n\n",
+      "### Preparation\n\n- Choose dry-roasted or raw over oil-roasted to preserve nutrients and avoid excess omega-6\n- Soak to reduce phytates and improve mineral bioavailability\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "magnesium",
+        "material": "Peanuts, all types, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "copper",
+        "material": "Peanuts, all types, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Peanuts, all types, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "choline",
+        "material": "Peanuts, all types, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Peanuts, all types, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Peanuts, all types, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "iron",
+        "material": "Peanuts, all types, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Peanuts, all types, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Peanuts, all types, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Peanuts, all types, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "indispensable-amino-acids",
+        "material": "Peanuts, all types, dry-roasted, without salt",
+        "preparation": "dry-roasted"
+      }
+    ]
+  },
+  {
+    "food_id": "pumpkin-seeds",
+    "file": "docs/foods/pumpkin-seeds.md",
+    "substances": [
+      "tyrosine",
+      "tryptophan",
+      "magnesium",
+      "iron",
+      "vitamin-c",
+      "vitamin-b9",
+      "choline",
+      "sodium",
+      "copper",
+      "vitamin-b2",
+      "vitamin-b5",
+      "vitamin-b6",
+      "potassium",
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Soak to reduce phytates and improve mineral bioavailability; soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability\n- Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage\n- Pair with complex carbs for tryptophan-to-serotonin conversion; tryptophan + complex carbohydrates aid serotonin conversion to melatonin; examples include pumpkin seeds + oats\n\n",
+      "### Preparation\n\n- Plant zinc less bioavailable due to phytates; soaking/sprouting helps improve bioavailability\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "tyrosine",
+        "material": "Seeds, pumpkin and squash seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "tryptophan",
+        "material": "Seeds, pumpkin and squash seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "magnesium",
+        "material": "Seeds, pumpkin and squash seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "iron",
+        "material": "Seeds, pumpkin and squash seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "vitamin-c",
+        "material": "Seeds, pumpkin and squash seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Seeds, pumpkin and squash seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "choline",
+        "material": "Seeds, pumpkin and squash seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Seeds, pumpkin and squash seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "copper",
+        "material": "Seeds, pumpkin and squash seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Seeds, pumpkin and squash seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Seeds, pumpkin and squash seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Seeds, pumpkin and squash seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Seeds, pumpkin and squash seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "indispensable-amino-acids",
+        "material": "Seeds, pumpkin and squash seed kernels, dried",
+        "preparation": "dried"
+      }
+    ]
+  },
+  {
+    "food_id": "quinoa",
+    "file": "docs/foods/quinoa.md",
+    "substances": [
+      "betaine",
+      "choline",
+      "magnesium",
+      "iron",
+      "vitamin-b2",
+      "vitamin-b6",
+      "vitamin-b9",
+      "sodium",
+      "copper",
+      "potassium",
+      "vitamin-b5",
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair quinoa with legumes (e.g. lentils, chickpeas, beans) to improve overall essential amino-acid balance at meal/day level [1,2].\n\n",
+      "### Preparation\n\n- Rinse before cooking to reduce residual saponin bitterness (even when labeled pre-washed).\n- Use gentle boiling/steaming and avoid overcooking to preserve texture and improve practical meal adherence.\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "betaine",
+        "material": "Quinoa, uncooked",
+        "preparation": "uncooked"
+      },
+      {
+        "substance_id": "choline",
+        "material": "Quinoa, uncooked",
+        "preparation": "uncooked"
+      },
+      {
+        "substance_id": "magnesium",
+        "material": "Quinoa, uncooked",
+        "preparation": "uncooked"
+      },
+      {
+        "substance_id": "iron",
+        "material": "Quinoa, uncooked",
+        "preparation": "uncooked"
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Quinoa, uncooked",
+        "preparation": "uncooked"
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Quinoa, uncooked",
+        "preparation": "uncooked"
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Quinoa, uncooked",
+        "preparation": "uncooked"
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Quinoa, uncooked",
+        "preparation": "uncooked"
+      },
+      {
+        "substance_id": "copper",
+        "material": "Quinoa, uncooked",
+        "preparation": "uncooked"
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Quinoa, uncooked",
+        "preparation": "uncooked"
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Quinoa, uncooked",
+        "preparation": "uncooked"
+      },
+      {
+        "substance_id": "indispensable-amino-acids",
+        "material": "Quinoa, cooked",
+        "preparation": "cooked"
+      }
+    ]
+  },
+  {
+    "food_id": "salmon",
+    "file": "docs/foods/salmon.md",
+    "substances": [
+      "dha-docosahexaenoic-acid",
+      "vitamin-b5",
+      "vitamin-b6",
+      "potassium",
+      "vitamin-b2",
+      "iron",
+      "magnesium",
+      "sodium",
+      "copper",
+      "vitamin-c",
+      "vitamin-b9",
+      "choline",
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Preparation\n\n- Best prepared with gentle cooking to preserve omega-3s and prevent oxidation\n- Avoid high-heat cooking that creates advanced glycation end products (AGEs)\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "dha-docosahexaenoic-acid",
+        "material": "Fish, salmon, Atlantic, farmed, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Fish, salmon, Atlantic, farmed, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Fish, salmon, Atlantic, farmed, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Fish, salmon, Atlantic, farmed, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Fish, salmon, Atlantic, farmed, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "iron",
+        "material": "Fish, salmon, Atlantic, farmed, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "magnesium",
+        "material": "Fish, salmon, Atlantic, farmed, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Fish, salmon, Atlantic, farmed, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "copper",
+        "material": "Fish, salmon, Atlantic, farmed, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-c",
+        "material": "Fish, salmon, Atlantic, farmed, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Fish, salmon, Atlantic, farmed, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "choline",
+        "material": "Fish, salmon, Atlantic, farmed, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "indispensable-amino-acids",
+        "material": "Fish, salmon, Atlantic, farmed, cooked, dry heat",
+        "preparation": "cooked"
+      }
+    ]
+  },
+  {
+    "food_id": "sardines",
+    "file": "docs/foods/sardines.md",
+    "substances": [
+      "dha-docosahexaenoic-acid",
+      "choline",
+      "vitamin-b9",
+      "sodium",
+      "potassium",
+      "vitamin-b5",
+      "vitamin-b6",
+      "copper",
+      "iron",
+      "magnesium",
+      "vitamin-b2",
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Preparation\n\n- Sardines can be eaten directly from the can or lightly warmed; avoid prolonged high-temperature frying or charring that can oxidize lipids.\n- When tolerated, consuming the **bones together with the fillet** maximizes calcium intake from the food; combining sardines with vegetables and whole grains helps integrate this dense source of omega-3s into balanced meals.\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "dha-docosahexaenoic-acid",
+        "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+        "preparation": "oil"
+      },
+      {
+        "substance_id": "choline",
+        "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+        "preparation": "oil"
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+        "preparation": "oil"
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+        "preparation": "oil"
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+        "preparation": "oil"
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+        "preparation": "oil"
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+        "preparation": "oil"
+      },
+      {
+        "substance_id": "copper",
+        "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+        "preparation": "oil"
+      },
+      {
+        "substance_id": "iron",
+        "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+        "preparation": "oil"
+      },
+      {
+        "substance_id": "magnesium",
+        "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+        "preparation": "oil"
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+        "preparation": "oil"
+      },
+      {
+        "substance_id": "indispensable-amino-acids",
+        "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+        "preparation": "canned, drained"
+      }
+    ]
+  },
+  {
+    "food_id": "soy",
+    "file": "docs/foods/soy.md",
+    "substances": [
+      "choline",
+      "tyrosine",
+      "tryptophan",
+      "iron",
+      "vitamin-b6",
+      "vitamin-b9",
+      "vitamin-c",
+      "vitamin-b2",
+      "magnesium",
+      "sodium",
+      "copper",
+      "potassium",
+      "vitamin-b5"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage\n- Part of diverse plant protein strategy\n\n",
+      "### Preparation\n\n- Fermented forms (tempeh, miso, natto) may have additional benefits including probiotics and improved digestibility\n- Supports choline and neurotransmitter synthesis\n- Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli) to support phosphatidylcholine synthesis\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "choline",
+        "material": "Soybeans, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "tyrosine",
+        "material": "Soybeans, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "tryptophan",
+        "material": "Soybeans, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "iron",
+        "material": "Soybeans, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Soybeans, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Soybeans, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-c",
+        "material": "Soybeans, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Soybeans, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "magnesium",
+        "material": "Soybeans, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Soybeans, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "copper",
+        "material": "Soybeans, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Soybeans, mature seeds, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Soybeans, mature seeds, raw",
+        "preparation": "raw"
+      }
+    ]
+  },
+  {
+    "food_id": "sunflower-seeds",
+    "file": "docs/foods/sunflower-seeds.md",
+    "substances": [
+      "magnesium",
+      "copper",
+      "vitamin-b2",
+      "iron",
+      "sodium",
+      "vitamin-b5",
+      "vitamin-b6",
+      "potassium",
+      "vitamin-b9",
+      "vitamin-c",
+      "choline",
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of diverse seed intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience\n\n",
+      "### Preparation\n\n- Can be consumed raw or roasted; gentle roasting preserves nutrients\n- Supports mitochondrial function via thiamine; thiamine does not exist in a large brain \"reservoir\"; the CNS maintains small, tightly regulated intracellular pools that depend on continuous, transporter-mediated supply\n- Source of sunflower lecithin for choline support; vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli)\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "magnesium",
+        "material": "Seeds, sunflower seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "copper",
+        "material": "Seeds, sunflower seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Seeds, sunflower seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "iron",
+        "material": "Seeds, sunflower seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Seeds, sunflower seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Seeds, sunflower seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Seeds, sunflower seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Seeds, sunflower seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Seeds, sunflower seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "vitamin-c",
+        "material": "Seeds, sunflower seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "choline",
+        "material": "Seeds, sunflower seed kernels, dried",
+        "preparation": "dried"
+      },
+      {
+        "substance_id": "indispensable-amino-acids",
+        "material": "Seeds, sunflower seed kernels, dried",
+        "preparation": "dried"
+      }
+    ]
+  },
+  {
+    "food_id": "tempeh",
+    "file": "docs/foods/tempeh.md",
+    "substances": [
+      "tyrosine",
+      "magnesium",
+      "copper",
+      "iron",
+      "choline",
+      "sodium",
+      "vitamin-b2",
+      "vitamin-b9",
+      "potassium",
+      "vitamin-b5",
+      "vitamin-b6"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of fermented foods rotation; fermented foods provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling\n- Supports gut microbiome diversity; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience\n\n",
+      "### Preparation\n\n- Fermentation improves digestibility and nutrient bioavailability; lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels\n- Can be cooked various ways; gentle cooking preserves probiotics\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "tyrosine",
+        "material": "Tempeh",
+        "preparation": null
+      },
+      {
+        "substance_id": "magnesium",
+        "material": "Tempeh",
+        "preparation": null
+      },
+      {
+        "substance_id": "copper",
+        "material": "Tempeh",
+        "preparation": null
+      },
+      {
+        "substance_id": "iron",
+        "material": "Tempeh",
+        "preparation": null
+      },
+      {
+        "substance_id": "choline",
+        "material": "soy tempeh",
+        "preparation": null
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Tempeh",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Tempeh",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Tempeh",
+        "preparation": null
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Tempeh",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Tempeh",
+        "preparation": null
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Tempeh",
+        "preparation": null
+      }
+    ]
+  },
+  {
+    "food_id": "tofu",
+    "file": "docs/foods/tofu.md",
+    "substances": [
+      "tyrosine",
+      "magnesium",
+      "copper",
+      "iron",
+      "choline",
+      "glutamate",
+      "vitamin-c",
+      "vitamin-b2",
+      "vitamin-b9",
+      "sodium",
+      "potassium",
+      "vitamin-b5",
+      "vitamin-b6",
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage\n- Part of diverse plant protein strategy\n- High-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis\n\n",
+      "### Preparation\n\n- Can be prepared various ways (baked, fried, steamed); gentle cooking preserves nutrients\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "tyrosine",
+        "material": "Tofu, raw, firm, prepared with calcium sulfate",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "magnesium",
+        "material": "Tofu, raw, firm, prepared with calcium sulfate",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "copper",
+        "material": "Tofu, raw, firm, prepared with calcium sulfate",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "iron",
+        "material": "Tofu, raw, firm, prepared with calcium sulfate",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "choline",
+        "material": "firm tofu",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "glutamate",
+        "material": "Soy protein in tofu",
+        "preparation": "form not known"
+      },
+      {
+        "substance_id": "vitamin-c",
+        "material": "Tofu, raw, firm, prepared with calcium sulfate",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Tofu, raw, firm, prepared with calcium sulfate",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Tofu, raw, firm, prepared with calcium sulfate",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Tofu, raw, firm, prepared with calcium sulfate",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Tofu, raw, firm, prepared with calcium sulfate",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Tofu, raw, firm, prepared with calcium sulfate",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Tofu, raw, firm, prepared with calcium sulfate",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "indispensable-amino-acids",
+        "material": "Tofu, raw, firm, prepared with calcium sulfate",
+        "preparation": "firm, calcium-set"
+      }
+    ]
+  },
+  {
+    "food_id": "tuna",
+    "file": "docs/foods/tuna.md",
+    "substances": [
+      "dha-docosahexaenoic-acid",
+      "choline",
+      "potassium",
+      "vitamin-b5",
+      "vitamin-b6",
+      "iron",
+      "magnesium",
+      "sodium",
+      "copper",
+      "vitamin-b2",
+      "vitamin-b9",
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Preparation\n\n- Use gentle cooking methods (light searing, baking, steaming) to preserve moisture and omega-3 content; avoid repeated deep-frying or heavy charring.\n- Incorporate tuna into meals that also contain vegetables and whole grains, so it contributes lean protein, niacin, and selenium within a balanced plate rather than dominating total dietary fish intake.\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "dha-docosahexaenoic-acid",
+        "material": "Fish, tuna, fresh, bluefin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "choline",
+        "material": "Fish, tuna, fresh, bluefin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Fish, tuna, fresh, bluefin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Fish, tuna, fresh, bluefin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Fish, tuna, fresh, bluefin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "iron",
+        "material": "Fish, tuna, fresh, bluefin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "magnesium",
+        "material": "Fish, tuna, fresh, bluefin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Fish, tuna, fresh, bluefin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "copper",
+        "material": "Fish, tuna, fresh, bluefin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Fish, tuna, fresh, bluefin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Fish, tuna, fresh, bluefin, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "indispensable-amino-acids",
+        "material": "Fish, tuna, light, canned in water, drained solids (Includes foods for USDA's Food Distribution Program)",
+        "preparation": "canned, drained"
+      }
+    ]
+  },
+  {
+    "food_id": "turkey",
+    "file": "docs/foods/turkey.md",
+    "substances": [
+      "tryptophan",
+      "vitamin-b6",
+      "dha-docosahexaenoic-acid",
+      "iron",
+      "magnesium",
+      "sodium",
+      "copper",
+      "vitamin-b2",
+      "vitamin-b9",
+      "potassium",
+      "vitamin-b5",
+      "choline",
+      "indispensable-amino-acids"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with complex carbohydrates to enhance tryptophan-to-serotonin conversion; pair tryptophan-rich proteins with moderate carbs to increase Trp:LNAA ratio\n- Best consumed midday or evening for calming effect; timing midday or evening for calming effect\n- High-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis\n\n",
+      "### Preparation\n\n- Gentle cooking preserves tryptophan and prevents formation of advanced glycation end products (AGEs)\n\n"
+    ],
+    "sources": [
+      {
+        "substance_id": "tryptophan",
+        "material": "Turkey, whole, meat only, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b6",
+        "material": "Turkey, whole, meat only, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "dha-docosahexaenoic-acid",
+        "material": "Turkey, whole, meat only, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "iron",
+        "material": "Turkey, whole, meat only, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "magnesium",
+        "material": "Turkey, whole, meat only, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "sodium",
+        "material": "Turkey, whole, meat only, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "copper",
+        "material": "Turkey, whole, meat only, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b2",
+        "material": "Turkey, whole, meat only, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b9",
+        "material": "Turkey, whole, meat only, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "potassium",
+        "material": "Turkey, whole, meat only, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "vitamin-b5",
+        "material": "Turkey, whole, meat only, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "choline",
+        "material": "Turkey, whole, meat only, raw",
+        "preparation": "raw"
+      },
+      {
+        "substance_id": "indispensable-amino-acids",
+        "material": "Turkey, whole, breast, meat only, cooked, roasted",
+        "preparation": "cooked"
+      }
+    ]
+  }
+]

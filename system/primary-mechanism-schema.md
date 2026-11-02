@@ -1461,3 +1461,17 @@ Food disclosures apply equally to canonical §3.1.1–3.1.3 and their prominent 
 ### Optional Scientific Hypotheses — controlled pilot
 
 Where explicitly authored, an unnumbered **Scientific Hypotheses** subsection sits immediately before Scientific Findings, outside the mechanism narrative dropdown. It renders only when `scientific_hypotheses` records exist. See [Scientific Hypotheses schema](scientific-hypotheses-schema.md). Preserve §4.1/legacy §5.1 Finding IDs, anchors, counts and all scoring rules. Hypothesis status, including Supported, does not itself admit a mechanism relationship or dietary input. No repository-wide migration is implied.
+
+## Intervention presentation: practice before appraisal (2 November 2026)
+
+For admitted SOPs, retain the governed category heading, then present each practice in this order: precise comparison/action title; one sentence stating the demonstrated result; compact evidence type, population and exposure context; canonical numbered PM references; a collapsed **Evidence & limitations** disclosure using the existing blue `brs-fm-hub` controls. Use stable intervention IDs for the item and an `-evidence` suffix for its disclosure panel.
+
+Do not lead a category with an appraisal or negative-conclusion paragraph. Keep essential population and endpoint boundaries visible in the title/result/context; put detailed qualifications in the disclosure. Comparison titles are preferable to universal prescriptions where evidence is restricted. Distinguish digestibility, dietary appearance flux and circulating concentrations. No numerical SOP confidence badge is authorised.
+
+The canonical six-atom record, original citations, mechanistic Finding link, admission and dominance decision remain authoritative and unchanged by this presentation. A mechanism link does not transfer a Finding’s SEC to the intervention. Preserve source-specific limitations and citation traceability; do not create new Findings merely to render the practice. Apply the same evidence-first accuracy to Lifestyle Levers, with their own governed categories.
+
+PM1 is the initial presentation pilot. Its egg comparison is “Cooked versus raw eggs — protein digestibility and circulating amino-acid concentrations”; the digestibility and postexercise concentration studies must remain distinguishable. Section numbering follows the existing dominance renderer, not a fixed `3.1` override. Subsequent sequential reviews use this pattern; this update does not bulk-migrate unrelated pages.
+
+## Mandatory author approval for presentation changes
+
+Follow [presentation-change-control.md](presentation-change-control.md). Scientific data integration does not authorise public presentation. New substantive blocks require a proposal, representative rendered example, page-type/count scope, updated contract and explicit prior author approval. Run `npm run presentation:check`; never regenerate the baseline or invent an approval to bypass a failure. Both Dietary pathways technical panels are withdrawn across all page types; preserve their data without public projection. This rule supersedes earlier instructions permitting automatic pathway displays.

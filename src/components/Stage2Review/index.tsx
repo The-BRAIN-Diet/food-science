@@ -1,25 +1,15 @@
-import React, {createContext, useContext, useEffect, useState, type ReactNode} from 'react';
+import React, {type ReactNode} from 'react';
 
-const ReviewContent = createContext<ReactNode>(null);
-const RegisterReview = createContext<((content: ReactNode) => void) | null>(null);
-
-/** Keep review content in the MDX source while presenting it only in the audit tab. */
+/** Legacy source compatibility only. Dated execution reports are not canonical page content. */
 export function Stage2ReviewProvider({children}: {children: ReactNode}) {
-  const [content, setContent] = useState<ReactNode>(null);
-  return <RegisterReview.Provider value={setContent}>
-    <ReviewContent.Provider value={content}>{children}</ReviewContent.Provider>
-  </RegisterReview.Provider>;
+  return <>{children}</>;
 }
 
-export default function Stage2Review({children}: {children: ReactNode}) {
-  const register = useContext(RegisterReview);
-  useEffect(() => {
-    register?.(children);
-    return () => register?.(null);
-  }, [register, children]);
+/** Preserve historical MDX source without publishing the obsolete review panel. */
+export default function Stage2Review(_props: {children?: ReactNode}) {
   return null;
 }
 
 export function Stage2ReviewOutlet() {
-  return <>{useContext(ReviewContent)}</>;
+  return null;
 }

@@ -1,4 +1,4 @@
-import {Stage2ReviewOutlet} from '../Stage2Review';
+import EvidenceDisclosure from '../EvidenceGaps/Disclosure';
 import React, {useEffect, useRef} from 'react';
 import {useLocation} from '@docusaurus/router';
 import PageReviewPanel from '../ReviewCorrections/PageReviewPanel';
@@ -96,8 +96,19 @@ export default function EvidenceAudit({panelId,assessmentRecords,assessmentPmId,
           <dl className={styles.factorLegend}>{Object.entries(audit.rationale).map(([factor, reason]) => {
             const value = conditional ? conditional.factors[factor] : audit.factors[factor];
             const state = audit.factorStates?.[factor] || (conditional ? conditional.statuses?.[factor] : value === null ? 'Unresolved' : 'Established');
-            return <React.Fragment key={factor}><dt><strong>{secFactors[factor].name} — {value === null ? 'Unresolved' : `${value}/2`}</strong> · {state}</dt><dd>{describeFactorScores(reason)}</dd></React.Fragment>;
+            return <React.Fragment key={factor}><dt><strong>{secFactors[factor].name} — {value === null ? (state === 'pending' ? 'Pending appraisal' : state === 'unassessable' ? 'Evidence Un-assessable' : 'Unresolved') : `${value}/2`}</strong> · {state}</dt><dd>{describeFactorScores(reason)}</dd></React.Fragment>;
           })}</dl>
+          {audit.assessmentGaps?.length > 0 && <section aria-label="Assessment gaps"><h4>Assessment gaps</h4><p>These records track unfinished or unassessable appraisal, not missing scientific knowledge.</p>{audit.assessmentGaps.map((gap:any) => <EvidenceDisclosure key={gap.id} id={gap.id} label="Assessment gap" title={gap.dimensions.map((d:string)=>secFactors[d].name).join(' / ')} status={gap.status === 'pending' ? 'Pending appraisal' : gap.status === 'unassessable' ? 'Evidence Un-assessable' : 'Resolved'}>
+            <p><strong>Record ID:</strong> {gap.id} · <a href={'?review=0#'+gap.findingId.toLowerCase()}>{gap.findingId}</a></p>
+            <p><strong>Reason:</strong> {gap.reason}</p>
+            <p><strong>Sources:</strong> {gap.sources.map((source:string)=><a key={source} href={source.startsWith('10.')?'https://doi.org/'+source:'/docs/papers/BRAIN-Diet-References#'+source}>{source} </a>)}</p>
+            <ul>{gap.attempts.map((attempt:any,i:number)=><li key={i}>{attempt.date}: {attempt.action} — {attempt.outcome}</li>)}</ul>
+            <p><strong>Required action:</strong> {gap.resolutionAction}</p>
+            {gap.justification && <p><strong>Unassessable determination:</strong> {gap.justification}</p>}
+            {gap.resolution && <p><strong>Resolution:</strong> {gap.resolution}</p>}
+            {gap.evidenceGapIds?.map((id:string)=><p key={id}><a href={'?evidence-gaps=1#'+id.toLowerCase()}>Related Evidence Gap: {id}</a></p>)}
+            <ul>{gap.history.map((h:any,i:number)=><li key={i}>{h.date}: {h.decision}</li>)}</ul>
+          </EvidenceDisclosure>)}</section>}
           <p>Unknown is not zero. Inaccessible methods or uncertainty do not justify zero for Bias Protection or Precision; incomplete replication retrieval does not justify zero for Replication. {conditional ? 'Formal SEC remains Not scored until all four judgements are defensible; conditional factors are not established scores.' : 'Completed factor judgements are provisional anchor assessments, not measured quantities or human scientific review.'}</p>
           <p>Supporting synthesis: {audit.sources.supporting.map(key => <React.Fragment key={key}><a href={key.startsWith('stage2-ref-') ? `?review=0#${key}` : `/docs/papers/BRAIN-Diet-References#${key}`}>{key}</a>{' · '}</React.Fragment>)}</p>
           <p>{audit.sources.contradictoryAssessment}</p>
@@ -132,7 +143,6 @@ export default function EvidenceAudit({panelId,assessmentRecords,assessmentPmId,
     </div></div>}
     <p><a href={frameworkQcPublic.register_path}>Public Framework Review &amp; Corrections register</a></p>
     {scientificTransparency}
-    <Stage2ReviewOutlet />
     </>}
   </div>;
 }
