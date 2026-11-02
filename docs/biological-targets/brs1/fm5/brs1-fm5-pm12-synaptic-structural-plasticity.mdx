@@ -860,6 +860,7 @@ system_optimisation_practices:
       the tested exposure.
     description_finding_id: PM12-F6
     optimisation_category: conditional_supplementation
+    dietary_input: true
   - atom_id: PM12-SOP-2
     food_strategy_scope: supplementation
     food_strategy_id: food-strategy-6ba31ce0bd1c
@@ -881,8 +882,9 @@ system_optimisation_practices:
       status: existing-substance-identity-inconsistency
       intended_identity: Spermidine
       candidate_page: /docs/substances/bioactive-compounds/spermidine
-      reason: 'Substance page exists, but canonical registry membership was not found.'
+      reason: Substance page exists, but canonical registry membership was not found.
       severity: MAJOR
+    dietary_input: true
   - atom_id: PM12-SOP-3
     food_strategy_scope: dietary-protocol
     food_strategy_id: food-strategy-2c14849a7ddb
@@ -904,6 +906,7 @@ system_optimisation_practices:
       Meal scheduling changed the maintenance of connections differently across brain regions in this mouse
       diet model.
     description_finding_id: PM12-F11
+    dietary_input: true
   - atom_id: PM12-SOP-DEFERRED-1
     input: Experimental magnesium-L-threonate exposure
     input_type: defined dietary exposure
@@ -920,7 +923,7 @@ system_optimisation_practices:
     dietary_input: true
     reader_description: The tested formulation changed presynaptic structural markers in rats.
     description_finding_id: PM12-F12
-    optimisation_category: dietary_protocols
+    optimisation_category: conditional_supplementation
     food_strategy_scope: supplementation
     food_strategy_id: food-strategy-bafd6931fd98
 lifestyle_priorities:
@@ -938,10 +941,11 @@ lifestyle_priorities:
       cognitive-treatment claim.
     reader_description: Learning and practising a new motor skill can form and selectively stabilise dendritic spines in mice.
     description_finding_id: PM12-F1
+    dietary_input: false
   - atom_id: PM12-LS-2
     input: Sleep after learning
     input_type: lifestyle practice
-    biological_role: 'Sleep can support formation, selective retention, removal and resizing of connections after learning.'
+    biological_role: Sleep can support formation, selective retention, removal and resizing of connections after learning.
     evidence_source:
       finding_ids:
         - PM12-F3
@@ -952,8 +956,9 @@ lifestyle_priorities:
     evidence_limitation: >-
       Mouse sleep/REM manipulations and ultrastructure differ by age, region and endpoint. More spines is not
       always better; no universal human sleep duration is derived.
-    reader_description: 'Sleep can support formation, selective retention, removal and resizing of connections after learning.'
+    reader_description: Sleep can support formation, selective retention, removal and resizing of connections after learning.
     description_finding_id: PM12-F3
+    dietary_input: false
   - atom_id: PM12-LS-3
     input: Physical activity
     input_type: lifestyle practice
@@ -968,6 +973,7 @@ lifestyle_priorities:
       or uniform whole-brain change is established.
     reader_description: Voluntary running changed spine density and dendritic structure in selected regions of adult rat brains.
     description_finding_id: PM12-F7
+    dietary_input: false
 pm_kc_relationships: []
 kc_applicability_adjudications:
   - kc_id: BRS1(KC1)
@@ -1244,7 +1250,6 @@ No mapping established.
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Experimental magnesium-L-threonate exposure
 
 Experimental structural exposures are distinct from human supplementation recommendations. Sakamoto et al. (2007) [[9]](#pm-ref-9); Gupta et al. (2016) [[14]](#pm-ref-14)
 
@@ -1255,6 +1260,9 @@ Experimental structural exposures are distinct from human supplementation recomm
 <strong>Conditional Supplementation</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
+
+- Experimental magnesium-L-threonate exposure
+
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
@@ -1275,6 +1283,8 @@ DHA plus uridine monophosphate (UMP) increased gerbil hippocampal spine density 
 **Evidence source** = Sakamoto et al. (2007) [[9]](#pm-ref-9)
 
 **Limitation** = Four weeks, choline present in all diets, small animal-level sample. UMP alone was not significant for spine density. This is an experimental combination, not a human supplementation recommendation.
+
+**Dietary input** = Yes
 
 Supporting mechanism research: [Membrane precursors and a tested combination have different evidence roles](#pm12-f6)
 </div>
@@ -1301,6 +1311,8 @@ Spermidine feeding prevented ageing-related enlargement of presynaptic release s
 **Evidence source** = Gupta et al. (2016) [[14]](#pm-ref-14)
 
 **Limitation** = It did not restore reduced synapse numbers. Human wheat-germ-extract memory results were null; neither those results nor the fly study establish human structural benefit.
+
+**Dietary input** = Yes
 
 Supporting mechanism research: [Ageing-related presynaptic enlargement is a separate structural endpoint](#pm12-f8)
 </div>
@@ -1336,6 +1348,8 @@ Meal scheduling changed the maintenance of connections differently across brain 
 **Evidence source** = Chakraborty et al. (2025) [[18]](#pm-ref-18)
 
 **Limitation** = Four-week mouse protocol after prolonged high-fat/high-sucrose exposure. Regionally opposite structural responses; no human eating-window target or general healthy-adult benefit established.
+
+**Dietary input** = Yes
 
 Supporting mechanism research: [Meal scheduling changes regional spine maintenance under obesogenic exposure](#pm12-f11)
 </div>
@@ -1379,6 +1393,8 @@ Learning and practising a new motor skill can form and selectively stabilise den
 
 **Limitation** = Mouse motor tasks and spine imaging; not a human practice dose, verified synapse count or general cognitive-treatment claim.
 
+**Dietary input** = Yes
+
 Supporting mechanism research: [Learning forms and selectively stabilises dendritic spines](#pm12-f1)
 </div>
 </div>
@@ -1405,6 +1421,8 @@ Sleep can support formation, selective retention, removal and resizing of connec
 
 **Limitation** = Mouse sleep/REM manipulations and ultrastructure differ by age, region and endpoint. More spines is not always better; no universal human sleep duration is derived.
 
+**Dietary input** = Yes
+
 Supporting mechanism research: [Sleep supports selective formation, pruning and resizing](#pm12-f3)
 </div>
 </div>
@@ -1430,6 +1448,8 @@ Voluntary running changed spine density and dendritic structure in selected regi
 **Evidence source** = Stranahan et al. (2007) [[13]](#pm-ref-13)
 
 **Limitation** = Two-month rat wheel-running exposure; no human exercise prescription, synapse-mediated cognitive effect or uniform whole-brain change is established.
+
+**Dietary input** = Yes
 
 Supporting mechanism research: [Voluntary running changes spine and dendritic structure in rats](#pm12-f7)
 </div>

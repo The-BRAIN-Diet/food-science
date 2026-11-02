@@ -1,5 +1,29 @@
-import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import matter from 'gray-matter';import ts from 'typescript';import {compile} from '@mdx-js/mdx';
-const dir='review/stage2-audit-placement-2026-10-26',files=JSON.parse(fs.readFileSync(`${dir}/pages.json`));
-test('all 18 review disclosures move without changing scientific metadata or review content',async()=>{assert.equal(files.length,18);for(const file of files){const original=fs.readFileSync(`${dir}/before/${file}`,'utf8');const current=fs.readFileSync(file,'utf8');const withoutNavigation=s=>s.replace(/^sidebar_label:.*\n/gm,'');assert.equal(withoutNavigation(current.replace('<Stage2Review>','{/* stage2ab-preservation-2026-10-23 */}').replace('</Stage2Review>','{/* /stage2ab-preservation-2026-10-23 */}')),withoutNavigation(original),file);const a=matter(current).data,b=matter(original).data;delete a.sidebar_label;delete b.sidebar_label;assert.deepEqual(a,b);await compile(matter(current).content);}});
-test('review source renders only through the audit outlet after correction records',()=>{const component=fs.readFileSync('src/components/Stage2Review/index.tsx','utf8');assert.match(component,/return null;/);assert.match(component,/register\?\.\(children\)/);const audit=fs.readFileSync('src/components/SecCalibrationPreview/EvidenceAudit.tsx','utf8');assert.ok(audit.indexOf('<Stage2ReviewOutlet />')>audit.indexOf('Public Framework Review'));const bar=fs.readFileSync('src/components/ReviewCorrections/DocUtilityBar.tsx','utf8');assert.match(bar,/auditPreview \|\| isPmPage \? "Evidence & Audit"/);assert.match(bar,/: isPmPage \? <CanonicalSecAudit/);assert.match(audit,/No registry-backed SEC assessment is recorded/);});
-test('changed TypeScript components transpile without syntax errors',()=>{for(const file of ['src/components/Stage2Review/index.tsx','src/components/ReviewCorrections/DocUtilityBar.tsx','src/components/SecCalibrationPreview/EvidenceAudit.tsx']){const r=ts.transpileModule(fs.readFileSync(file,'utf8'),{fileName:file,reportDiagnostics:true,compilerOptions:{jsx:ts.JsxEmit.React,module:ts.ModuleKind.ESNext}});assert.deepEqual((r.diagnostics||[]).filter(d=>d.category===ts.DiagnosticCategory.Error),[],file);}});
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import ts from 'typescript';
+import React from 'react';
+import {renderToStaticMarkup} from 'react-dom/server';
+import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url);
+const source=fs.readFileSync('src/components/Stage2Review/index.tsx','utf8');
+const compiled=ts.transpileModule(source,{compilerOptions:{jsx:ts.JsxEmit.React,module:ts.ModuleKind.CommonJS,esModuleInterop:true}}).outputText;
+const mod={exports:{}};new Function('require','module','exports',compiled)(require,mod,mod.exports);
+const {default:Review,Stage2ReviewProvider:Provider,Stage2ReviewOutlet:Outlet}=mod.exports;
+test('legacy review content and outlet never render while canonical children survive',()=>{
+ const html=renderToStaticMarkup(React.createElement(Provider,null,
+ React.createElement('p',null,'Canonical evidence'),
+ React.createElement(Review,null,React.createElement('details',null,'Obsolete dated execution review')),
+ React.createElement(Outlet)));
+ assert.equal(html,'<p>Canonical evidence</p>');
+ assert.doesNotMatch(source,/useEffect|useContext|createContext/);
+});
+test('audit removes execution outlet and preserves the public corrections register',()=>{
+ const audit=fs.readFileSync('src/components/SecCalibrationPreview/EvidenceAudit.tsx','utf8');
+ assert.doesNotMatch(audit,/Stage2ReviewOutlet/);
+ assert.match(audit,/Public Framework Review &amp; Corrections register/);
+});
+test('retired preservation generator cannot regenerate panels',()=>{
+ const script=fs.readFileSync('scripts/run-stage2ab-preservation.mjs','utf8');
+ assert.match(script.split('\n')[1],/^throw new Error\('Retired Stage 2A\/2B/);
+});

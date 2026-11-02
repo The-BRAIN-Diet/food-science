@@ -1,0 +1,1334 @@
+{
+  "baseline": "c582b85c^ (pre-injection code); current scientific records retained",
+  "automatic": [
+    {
+      "file": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx",
+      "route": "/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment",
+      "id": "BRS-X(Circadian-FM1-PM1)",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation.mdx",
+      "route": "/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation",
+      "id": "BRS-X(Circadian-FM1-PM2)",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx",
+      "route": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity",
+      "id": "BRS-X(ECS-PM1)",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx",
+      "route": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling",
+      "id": "BRS-X(ECS-PM2)",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation.mdx",
+      "route": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation",
+      "id": "BRS-X(ECS-PM3)",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation.mdx",
+      "route": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation",
+      "id": "BRS-X(ECS-PM4)",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity.mdx",
+      "route": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity",
+      "id": "BRS-X(ECS-PM5)",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability.mdx",
+      "route": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability",
+      "id": "BRS-X(Hormones-PM1)",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation.mdx",
+      "route": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation",
+      "id": "BRS-X(Hormones-PM2)",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism.mdx",
+      "route": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism",
+      "id": "BRS-X(Hormones-PM3)",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration.mdx",
+      "route": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration",
+      "id": "BRS-X(Hormones-PM4)",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability.mdx",
+      "route": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability",
+      "id": "BRS-X(Hormones-PM5)",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation.mdx",
+      "route": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation",
+      "id": "BRS-X(Hormones-PM6)",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+      "route": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation",
+      "id": "BRS1-FM1-PM1",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+      "route": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation",
+      "id": "BRS1-FM1-PM2",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+      "route": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation",
+      "id": "BRS1-FM1-PM3",
+      "type": "PM",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
+      "route": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation",
+      "id": "BRS1-FM1-PM4",
+      "type": "PM",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+      "route": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation",
+      "id": "BRS1-FM1-PM5",
+      "type": "PM",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
+      "route": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support",
+      "id": "BRS1-FM2-PM6",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+      "route": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation",
+      "id": "BRS1-FM3-PM7",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling.mdx",
+      "route": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling",
+      "id": "BRS1-FM4-PM10",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx",
+      "route": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation",
+      "id": "BRS1-FM4-PM11",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
+      "route": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity",
+      "id": "BRS1-FM4-PM9",
+      "type": "PM",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx",
+      "route": "/docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity",
+      "id": "BRS1-FM5-PM12",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+      "route": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation",
+      "id": "BRS2-FM1-PM1",
+      "type": "PM",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+      "route": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation",
+      "id": "BRS2-FM1-PM2",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx",
+      "route": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis",
+      "id": "BRS2-FM1-PM3",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx",
+      "route": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux",
+      "id": "BRS2-FM1-PM4",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx",
+      "route": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway",
+      "id": "BRS2-FM2-PM5",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx",
+      "route": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis",
+      "id": "BRS2-FM2-PM6",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx",
+      "route": "/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation",
+      "id": "BRS2-FM3-PM7",
+      "type": "PM",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool.mdx",
+      "route": "/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool",
+      "id": "BRS2(KC2)",
+      "type": "KC",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx",
+      "route": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation",
+      "id": "BRS3-FM1-PM1",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx",
+      "route": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling",
+      "id": "BRS3-FM1-PM2",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
+      "route": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation",
+      "id": "BRS3-FM2-PM3",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx",
+      "route": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance",
+      "id": "BRS3-FM2-PM4",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx",
+      "route": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control",
+      "id": "BRS3-FM2-PM5",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx",
+      "route": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling",
+      "id": "BRS3-FM2-PM6",
+      "type": "PM",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx",
+      "route": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation",
+      "id": "BRS3-FM3-PM7",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx",
+      "route": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance",
+      "id": "BRS3-FM3-PM8",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx",
+      "route": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function",
+      "id": "BRS4-FM1-PM1",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx",
+      "route": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism",
+      "id": "BRS4-FM1-PM2",
+      "type": "PM",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx",
+      "route": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer",
+      "id": "BRS4-FM1-PM3",
+      "type": "PM",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx",
+      "route": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control",
+      "id": "BRS4-FM2-PM4",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx",
+      "route": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity",
+      "id": "BRS4-FM2-PM5",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx",
+      "route": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport",
+      "id": "BRS4-FM3-PM6",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx",
+      "route": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity",
+      "id": "BRS4-FM3-PM7",
+      "type": "PM",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx",
+      "route": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching",
+      "id": "BRS4-FM3-PM8",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+      "route": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis",
+      "id": "BRS4-FM4-PM9",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+      "route": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity",
+      "id": "BRS5-FM1-PM1",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx",
+      "route": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment",
+      "id": "BRS5-FM1-PM2",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx",
+      "route": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support",
+      "id": "BRS5-FM1-PM3",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
+      "route": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection",
+      "id": "BRS5-FM2-PM4",
+      "type": "PM",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+      "route": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling",
+      "id": "BRS5-FM2-PM5",
+      "type": "PM",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx",
+      "route": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation",
+      "id": "BRS5-FM2-PM6",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx",
+      "route": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation",
+      "id": "BRS5-FM3-PM7",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx",
+      "route": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability",
+      "id": "BRS5-FM3-PM8",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability.mdx",
+      "route": "/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability",
+      "id": "BRS5(KC1)",
+      "type": "KC",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx",
+      "route": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics",
+      "id": "BRS6-FM1-PM1",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx",
+      "route": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation",
+      "id": "BRS6-FM1-PM2",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+      "route": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal",
+      "id": "BRS6-FM1-PM3",
+      "type": "PM",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx",
+      "route": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation",
+      "id": "BRS6-FM2-PM4",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx",
+      "route": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery",
+      "id": "BRS6-FM3-PM6",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx",
+      "route": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation",
+      "id": "BRS6-FM3-PM7",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
+      "route": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling",
+      "id": "BRS6-FM4-PM8",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation.mdx",
+      "route": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation",
+      "id": "BRS6-FM4-PM9",
+      "type": "PM",
+      "panel": "Traceability status",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/almonds.md",
+      "route": "/docs/foods/almonds",
+      "id": "almonds",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/apples.md",
+      "route": "/docs/foods/apples",
+      "id": "apples",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/bananas.md",
+      "route": "/docs/foods/bananas",
+      "id": "bananas",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/beef.md",
+      "route": "/docs/foods/beef",
+      "id": "beef",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/black-beans.md",
+      "route": "/docs/foods/black-beans",
+      "id": "black-beans",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/broccoli-sprouts.md",
+      "route": "/docs/foods/broccoli-sprouts",
+      "id": "broccoli-sprouts",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/broccoli.md",
+      "route": "/docs/foods/broccoli",
+      "id": "broccoli",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/chicken.md",
+      "route": "/docs/foods/chicken",
+      "id": "chicken",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/chickpeas.md",
+      "route": "/docs/foods/chickpeas",
+      "id": "chickpeas",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/chicory-root.md",
+      "route": "/docs/foods/chicory-root",
+      "id": "chicory-root",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/eggs.md",
+      "route": "/docs/foods/eggs",
+      "id": "eggs",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/kale.md",
+      "route": "/docs/foods/kale",
+      "id": "kale",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/lupin-beans.md",
+      "route": "/docs/foods/lupin-beans",
+      "id": "lupin-beans",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/mct-oil.md",
+      "route": "/docs/foods/mct-oil",
+      "id": "mct-oil",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/milk.md",
+      "route": "/docs/foods/milk",
+      "id": "milk",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/nori.md",
+      "route": "/docs/foods/nori",
+      "id": "nori",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/nutritional-yeast.md",
+      "route": "/docs/foods/nutritional-yeast",
+      "id": "nutritional-yeast",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/potatoes.md",
+      "route": "/docs/foods/potatoes",
+      "id": "potatoes",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/quinoa.md",
+      "route": "/docs/foods/quinoa",
+      "id": "quinoa",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/salmon-roe.md",
+      "route": "/docs/foods/salmon-roe",
+      "id": "salmon-roe",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/salmon.md",
+      "route": "/docs/foods/salmon",
+      "id": "salmon",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/sardines.md",
+      "route": "/docs/foods/sardines",
+      "id": "sardines",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/soy.md",
+      "route": "/docs/foods/soy",
+      "id": "soy",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/spinach.md",
+      "route": "/docs/foods/spinach",
+      "id": "spinach",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/tuna.md",
+      "route": "/docs/foods/tuna",
+      "id": "tuna",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/turkey.md",
+      "route": "/docs/foods/turkey",
+      "id": "turkey",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/foods/watermelon.md",
+      "route": "/docs/foods/watermelon",
+      "id": "watermelon",
+      "type": "food",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/recipes/Breakfast/Matcha-mito-smoothie.md",
+      "route": "/docs/recipes/Breakfast/Matcha-mito-smoothie",
+      "id": "matcha-mito-smoothie",
+      "type": "recipe",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/recipes/Breakfast/savoury-greens-egg-breakfast-skillet.md",
+      "route": "/docs/recipes/Breakfast/savoury-greens-egg-breakfast-skillet",
+      "id": "savoury-greens-egg-breakfast-skillet",
+      "type": "recipe",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/recipes/Dinner/Lentil dahl.md",
+      "route": "/docs/recipes/Dinner/Lentil dahl",
+      "id": "turmeric-lentil-dahl",
+      "type": "recipe",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/recipes/Dinner/black-bean-sweet-potato-chilli.md",
+      "route": "/docs/recipes/Dinner/black-bean-sweet-potato-chilli",
+      "id": "black-bean-sweet-potato-chilli",
+      "type": "recipe",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/recipes/Dinner/broccoli-potato-onion-soup.md",
+      "route": "/docs/recipes/Dinner/broccoli-potato-onion-soup",
+      "id": "broccoli-potato-onion-soup",
+      "type": "recipe",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/recipes/Dinner/creamed-corn-roasted-sweet-potato.md",
+      "route": "/docs/recipes/Dinner/creamed-corn-roasted-sweet-potato",
+      "id": "creamed-corn-roasted-sweet-potato",
+      "type": "recipe",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/recipes/Dinner/turkey-wing-stew.md",
+      "route": "/docs/recipes/Dinner/turkey-wing-stew",
+      "id": "turkey-wing-stew",
+      "type": "recipe",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/recipes/Drinks/turmeric-milk.md",
+      "route": "/docs/recipes/Drinks/turmeric-milk",
+      "id": "turmeric-milk",
+      "type": "recipe",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/recipes/Lunch/Salmon-beetroot-toast-lemon.md",
+      "route": "/docs/recipes/Lunch/Salmon-beetroot-toast-lemon",
+      "id": "salmon-beetroot-toast-lemon",
+      "type": "recipe",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/recipes/Lunch/Salmon-salad.md",
+      "route": "/docs/recipes/Lunch/Salmon-salad",
+      "id": "ecs-tone-salmon-pistachio-bowl",
+      "type": "recipe",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/recipes/Lunch/mitochondrial-power-bowl.md",
+      "route": "/docs/recipes/Lunch/mitochondrial-power-bowl",
+      "id": "mitochondrial-power-bowl",
+      "type": "recipe",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/recipes/Lunch/mixed-leaf-tahini-caesar-salad.md",
+      "route": "/docs/recipes/Lunch/mixed-leaf-tahini-caesar-salad",
+      "id": "mixed-leaf-tahini-caesar-salad",
+      "type": "recipe",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/recipes/Lunch/rocket-lentil-midday-salad.md",
+      "route": "/docs/recipes/Lunch/rocket-lentil-midday-salad",
+      "id": "rocket-lentil-midday-salad",
+      "type": "recipe",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/recipes/Side-dishes/Saffron-roast-potatoes.md",
+      "route": "/docs/recipes/Side-dishes/Saffron-roast-potatoes",
+      "id": "saffron-roast-potatoes",
+      "type": "recipe",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/recipes/Snacks/neuroeshot.md",
+      "route": "/docs/recipes/Snacks/neuroeshot",
+      "id": "neuroeshot-roe",
+      "type": "recipe",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/substances/bioactive-compounds/lipid-based/creatine.md",
+      "route": "/docs/substances/bioactive-compounds/lipid-based/creatine",
+      "id": "creatine",
+      "type": "substance",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/substances/endogenous-metabolites/acetoacetate.md",
+      "route": "/docs/substances/endogenous-metabolites/acetoacetate",
+      "id": "acetoacetate",
+      "type": "substance",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/substances/endogenous-metabolites/acetyl-coa.md",
+      "route": "/docs/substances/endogenous-metabolites/acetyl-coa",
+      "id": "acetyl-coa",
+      "type": "substance",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/substances/endogenous-metabolites/guanidinoacetate.md",
+      "route": "/docs/substances/endogenous-metabolites/guanidinoacetate",
+      "id": "guanidinoacetate",
+      "type": "substance",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/substances/endogenous-metabolites/octanoate.md",
+      "route": "/docs/substances/endogenous-metabolites/octanoate",
+      "id": "octanoate",
+      "type": "substance",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/substances/endogenous-metabolites/s-adenosylmethionine.md",
+      "route": "/docs/substances/endogenous-metabolites/s-adenosylmethionine",
+      "id": "s-adenosylmethionine",
+      "type": "substance",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/substances/microbial-metabolites/scfas/scfas.md",
+      "route": "/docs/substances/microbial-metabolites/scfas/scfas",
+      "id": "SCFAs",
+      "type": "substance",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/substances/nutrients/macronutrients/amino-acids/conditionals/arginine.md",
+      "route": "/docs/substances/nutrients/macronutrients/amino-acids/conditionals/arginine",
+      "id": "arginine",
+      "type": "substance",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/substances/nutrients/macronutrients/amino-acids/conditionals/glycine.md",
+      "route": "/docs/substances/nutrients/macronutrients/amino-acids/conditionals/glycine",
+      "id": "glycine",
+      "type": "substance",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/substances/nutrients/macronutrients/amino-acids/essential/methionine.md",
+      "route": "/docs/substances/nutrients/macronutrients/amino-acids/essential/methionine",
+      "id": "methionine",
+      "type": "substance",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin.md",
+      "route": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin",
+      "id": "pectin",
+      "type": "substance",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch.md",
+      "route": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch",
+      "id": "resistant-starch",
+      "type": "substance",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/substances/nutrients/macronutrients/fatty-acids/saturated/caprylic-triglyceride.md",
+      "route": "/docs/substances/nutrients/macronutrients/fatty-acids/saturated/caprylic-triglyceride",
+      "id": "caprylic-triglyceride",
+      "type": "substance",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/substances/nutrients/micronutrients/vitamins/flavin-adenine-dinucleotide.md",
+      "route": "/docs/substances/nutrients/micronutrients/vitamins/flavin-adenine-dinucleotide",
+      "id": "flavin-adenine-dinucleotide",
+      "type": "substance",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/substances/nutrients/micronutrients/vitamins/flavin-mononucleotide.md",
+      "route": "/docs/substances/nutrients/micronutrients/vitamins/flavin-mononucleotide",
+      "id": "flavin-mononucleotide",
+      "type": "substance",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/substances/nutrients/micronutrients/vitamins/nad-plus.md",
+      "route": "/docs/substances/nutrients/micronutrients/vitamins/nad-plus",
+      "id": "nad-plus",
+      "type": "substance",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/substances/nutrients/micronutrients/vitamins/nicotinamide-mononucleotide.md",
+      "route": "/docs/substances/nutrients/micronutrients/vitamins/nicotinamide-mononucleotide",
+      "id": "nicotinamide-mononucleotide",
+      "type": "substance",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/substances/nutrients/micronutrients/vitamins/nicotinamide-riboside.md",
+      "route": "/docs/substances/nutrients/micronutrients/vitamins/nicotinamide-riboside",
+      "id": "nicotinamide-riboside",
+      "type": "substance",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/substances/nutrients/micronutrients/vitamins/pyridoxal-5-phosphate.md",
+      "route": "/docs/substances/nutrients/micronutrients/vitamins/pyridoxal-5-phosphate",
+      "id": "pyridoxal-5-phosphate",
+      "type": "substance",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/substances/nutrients/micronutrients/vitamins/vitamin-b2.md",
+      "route": "/docs/substances/nutrients/micronutrients/vitamins/vitamin-b2",
+      "id": "vitamin-b2",
+      "type": "substance",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    },
+    {
+      "file": "docs/substances/nutrients/micronutrients/vitamins/vitamin-b6.md",
+      "route": "/docs/substances/nutrients/micronutrients/vitamins/vitamin-b6",
+      "id": "vitamin-b6",
+      "type": "substance",
+      "panel": "Composition, conversion & PM evidence",
+      "injection": "DocItem/Content → DietaryPathways",
+      "origin": "c582b85c",
+      "decision": "Remove automatic panel; preserve authored content and data"
+    }
+  ],
+  "embedded": [
+    {
+      "file": "docs/substances/bioactive-compounds/polyphenols/ellagitannins.md",
+      "route": "/docs/substances/bioactive-compounds/polyphenols/ellagitannins",
+      "component": "DietaryOriginProjection",
+      "target": "Ellagitannins",
+      "renders": false,
+      "origin": "f41df959",
+      "decision": "Disable component output under explicit all-panel removal; retain authored call and surrounding prose"
+    },
+    {
+      "file": "docs/substances/bioactive-compounds/polyphenols/phenolic-acids/ellagic-acid.md",
+      "route": "/docs/substances/bioactive-compounds/polyphenols/phenolic-acids/ellagic-acid",
+      "component": "DietaryOriginProjection",
+      "target": "Ellagic acid",
+      "renders": false,
+      "origin": "f41df959",
+      "decision": "Disable component output under explicit all-panel removal; retain authored call and surrounding prose"
+    },
+    {
+      "file": "docs/substances/microbial-metabolites/scfas/butyrate.md",
+      "route": "/docs/substances/microbial-metabolites/scfas/butyrate",
+      "component": "DietaryPathways",
+      "target": "butyrate",
+      "renders": true,
+      "origin": "c582b85c",
+      "decision": "Disable component output under explicit all-panel removal; retain authored call and surrounding prose"
+    },
+    {
+      "file": "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructo-galacto-oligosaccharides.md",
+      "route": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructo-galacto-oligosaccharides",
+      "component": "DietaryOriginProjection",
+      "target": "Fructo-oligosaccharides / galacto-oligosaccharides",
+      "renders": false,
+      "origin": "f41df959",
+      "decision": "Disable component output under explicit all-panel removal; retain authored call and surrounding prose"
+    }
+  ],
+  "uniqueAffected": 130
+}

@@ -1,0 +1,305 @@
+[
+  {
+    "file": "docs/foods/anchovies.md",
+    "inputs": [
+      "sodium"
+    ],
+    "sections": [
+      "### Preparation\n\n- Mash or blend drained fillets into dressings rather than frying them in additional oil.\n- Taste the dish before adding salt; anchovies, capers and cheese often already season it.\n\n",
+      "## References\n\n[1] McNamara & Carlson (2006). [Role of omega-3 fatty acids in brain development and function: potential implications for the pathogenesis and prevention of psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006). Labelled EPA/DHA neurobiology context: this review is not an anchovy feeding study; canned drained anchovy composition includes EPA and DHA as reported in the table.\n\n[2] Stonehouse et al. (2013). [DHA supplementation improved both memory and reaction time in healthy young adults: a randomized controlled trial](/docs/papers/BRAIN-Diet-References#stonehouse_dha_2013). Labelled DHA context: this is a DHA-capsule trial in healthy young adults, not an anchovy feeding trial.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/capers.md",
+    "inputs": [
+      "sodium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of diverse polyphenol intake strategy\n- Pair with other quercetin sources\n\n",
+      "### Preparation\n\n- Can be used as seasoning or condiment\n- Rinse if high-sodium pickled variety\n\n",
+      "## References\n\n[1] Among the highest quercetin concentrations per 100 g of common foods (condiment-use portions). Boots & Haenen 2008. [Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)\n\n[2] Flavonoid-rich dietary patterns link to cognitive improvements in human trials. Neshatdoust & Saunders 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/miso.md",
+    "inputs": [
+      "sodium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of fermented foods strategy\n\n",
+      "### Preparation\n\n- Use in moderation due to sodium content\n- Add at end of cooking to preserve probiotics\n\n",
+      "## References\n\n[1] Fermented soy products such as miso modulate gut–brain signalling through microbiota pathways. Bravo et al. 2011. [Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011)\n\n[2] Traditional fermented soy pastes deliver live microbes and fermentation-derived metabolites. Jakobi et al. 2024. [The gut-microbiome in adult Attention-deficit/hyperactivity disorder - A Meta-analysis](/docs/papers/BRAIN-Diet-References#jakobi_gut-microbiome_2024)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/vinegar-pickles.md",
+    "inputs": [
+      "sodium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Use as a **low-volume acidic condiment** within meals that already include protein, fibre, and diverse plants — consistent with glycaemic-modulation patterns that pair vinegar with carbohydrate-containing foods [Johnston et al. 2004](/docs/papers/BRAIN-Diet-References#johnston_2004_14694010)\n- Combine with [Fermented Vegetables](./fermented-vegetables.md) in the diet when both **acetic acid at the meal** and **lacto-fermentation benefits** are desired — they are complementary categories, not interchangeable\n\n",
+      "### Preparation\n\n- Rinse or drain if sodium is a concern\n- Refrigerate after opening\n- Do not assume unpasteurized probiotic content unless explicitly labelled and handled accordingly\n\n",
+      "## References\n\n[1] Johnston et al. (2004). [Vinegar improves insulin sensitivity to a high-carbohydrate meal in subjects with insulin resistance or type 2 diabetes.](/docs/papers/BRAIN-Diet-References#johnston_2004_14694010). Vinegar improves insulin sensitivity to a high-carbohydrate meal.\n\n[2] Ousaaid et al. (2022). [The Nutritional and Antioxidant Potential of Artisanal and Industrial Apple Vinegars and Their Ability to Inhibit Key Enzymes Related to Type 2 Diabetes In Vitro](/docs/papers/BRAIN-Diet-References#ousaaid_nutritional_2022). Apple vinegar polyphenols, antioxidant activity, and in vitro α-glucosidase/α-amylase inhibition.\n\n[3] Wastyk et al. (2021). [Gut-microbiota-targeted diets modulate human immune status](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021). Gut microbiota–targeted diets and fermented-food context.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/chicory-root.md",
+    "inputs": [
+      "sodium",
+      "potassium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of diverse prebiotic fiber strategy\n\n",
+      "### Preparation\n\n- Can be consumed as root vegetable or coffee substitute\n- High inulin content\n- Supports Bifidobacterium and Akkermansia\n\n",
+      "## References\n\n[1] High inulin content — fermentable prebiotic fibre. Pouille & Ouaza 2022. [Chicory: Understanding the Effects and Effectors of This Functional Food](/docs/papers/BRAIN-Diet-References#pouille_chicory_2022)\n\n[2] Prebiotic intake studied for cortisol and emotional-bias endpoints. Schmidt & Cowen 2015. [Prebiotic intake reduces the waking cortisol response and alters emotional bias in healthy volunteers](/docs/papers/BRAIN-Diet-References#schmidt_prebiotic_2015)\n\n<span id=\"food-source-3\" />\n\n[3] [Chicory roots, raw (Cichorium intybus), USDA SR Legacy FDC 169993](https://tools.myfooddata.com/nutrition-facts/169993/wt1)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/nori.md",
+    "inputs": [
+      "sodium",
+      "potassium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of diverse plant food intake strategy\n\n",
+      "### Preparation\n\n- Commonly used in sushi rolls and as a garnish\n- Important for iodine intake, especially in plant-based diets\n- Folate and iron contributions are context-dependent and work best as part of a varied diet\n- Seaweed polysaccharides provide cumulative gut health benefits when consumed regularly\n\n",
+      "## References\n\n[1] Seaweed foods may contribute variable vitamin B12 compounds; nori should not be relied on as a sole B12 source. Watanabe et al. 2002. [Characterization and Bioavailability of Vitamin B12-Compounds from Edible Algae.](/docs/papers/BRAIN-Diet-References#watanabe_characterization_2002)\n\n[2] [MEXT food 09004: dried, toasted purple laver](https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100). Preparation-specific composition source for the nutrition panel.\n\n<span id=\"food-source-3\" />\n\n[3] [MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food 09004](https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100)\n\n<span id=\"food-source-4\" />\n\n[4] [Effect of roasted purple laver (nori) on vitamin B12 nutritional status of vegetarians (2024)](/docs/papers/BRAIN-Diet-References#food_composition_d353427cdc28)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/nutritional-yeast.md",
+    "inputs": [
+      "sodium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of functional food strategy\n\n",
+      "### Preparation\n\n- Can be used as seasoning or supplement\n- Important for vegan/vegetarian diets\n\n",
+      "## References\n\n[1] Fortified nutritional yeast helps close vitamin B12 gaps in vegan dietary patterns. Pawlak et al. 2013. [How prevalent is vitamin B $_\\textrm{12}$ deficiency among vegetarians?](/docs/papers/BRAIN-Diet-References#pawlak_how_2013)\n\n[2] B-vitamin–rich yeast products support NAD⁺ and one-carbon cofactor availability. Pravst et al. 2010. [Coenzyme Q10 contents in foods and fortification strategies. Crit Rev Food Sci Nutr](/docs/papers/BRAIN-Diet-References#pravst_coenzyme_2010)\n\n<span id=\"food-source-3\" />\n\n[3] [Marigold Engevita Nutritional Yeast Flakes with B12, manufacturer label](https://www.marigoldhealthfoods.co.uk/engevita)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/salmon-roe.md",
+    "inputs": [
+      "sodium",
+      "potassium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with vegetables and whole grains as a flavour-dense, small-portion ingredient rather than a bulk protein source.\n- Vitamin C–rich foods support iron balance in mixed meals (roe provides modest iron).\n\n",
+      "### Preparation\n\n- Traditionally eaten **cold** or lightly warmed (on rice, in sushi, or as a spoonful) to limit heat damage to unsaturated fats.\n- Avoid prolonged high heat; treat as a delicate fat + protein ingredient.\n- If the roe tastes heavily cured, a brief rinse in clean cold water followed by thorough draining can remove surface brine and reduce saltiness. A very short cold-water soak may reduce it further, but the resulting sodium content cannot be calculated from the original label. Keep the roe cold and avoid prolonged soaking, which can impair texture [3].\n\n",
+      "## References\n\n[1] Liu et al. (2014). [Higher efficacy of dietary DHA provided as a phospholipid than as a triglyceride for brain DHA accretion in neonatal piglets](/docs/papers/BRAIN-Diet-References#liu_higher_2014). Neonatal piglets given a single oral dose of 13C-DHA as phosphatidylcholine accumulated about 1.9-fold more labeled DHA in brain gray matter than piglets given the same DHA as triglyceride.\n\n[2] Patrick (2019). [Role of phosphatidylcholine-DHA in preventing APOE4-associated Alzheimer's disease](/docs/papers/BRAIN-Diet-References#patrick_role_2019). Review: phosphatidylcholine-DHA can be converted to lysophosphatidylcholine-DHA, which uses MFSD2A transport into the brain more efficiently than triglyceride-bound or unesterified DHA. Mechanistic context for roe's phospholipid DHA, not a salmon-roe feeding study.\n\n[3] Shallcross et al. (2022). [Salmon Roe Caviar](/docs/papers/BRAIN-Diet-References#shallcross_salmon_caviar_2022)\n\n<span id=\"food-source-4\" />\n\n[4] [Yamaguchi et al. (2012), Journal of Oleo Science 61:505–513](/docs/papers/BRAIN-Diet-References#food_composition_838f60c581a0)\n\n<span id=\"food-source-5\" />\n\n[5] [Phospholipids of Animal and Marine Origin: Structure and Function (2018)](/docs/papers/BRAIN-Diet-References#food_composition_61edf925ad9f)\n\n<span id=\"food-source-8\" />\n\n[8] [MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food 10140, chum salmon salted roe (ikura)](https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/avocado.md",
+    "inputs": [
+      "potassium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with carotenoid-rich vegetables: avocado fruit (and avocado oil in the companion trial) enhanced carotenoid absorption from salsa and salad [1].\n\n",
+      "### Preparation\n\n- Use as **whole fruit**: sliced or cubed in salads and bowls, mashed as a spread or dip, or blended into smoothies — the edible flesh is not a cooking oil.\n- **Avocado oil** (pressed/extracted fat) is a **different product** with a different nutrition profile and uses; see [Avocado Oil](/docs/foods/avocado-oil).\n\n",
+      "## References\n\n[1] Unlu et al. (2005). [Carotenoid Absorption from Salad and Salsa by Humans Is Enhanced by the Addition of Avocado or Avocado Oil](/docs/papers/BRAIN-Diet-References#unlu_carotenoid_2005). Adding avocado fruit or avocado oil to salsa or salad increased human absorption of lycopene, α-carotene, β-carotene and lutein versus the same meals without avocado lipid.\n\n<span id=\"food-source-2\" />\n\n[2] [Avocado Consumption Increases Macular Pigment Density in Older Adults (2017)](/docs/papers/BRAIN-Diet-References#food_composition_37a7e0259a1b)\n\n<span id=\"food-source-3\" />\n\n[3] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/171705/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/bananas.md",
+    "inputs": [
+      "potassium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Use ripe fruit when sweetness and softness are wanted; use greener fruit when more resistant starch is wanted.\n- For flavan-3-ol-rich drinks, prefer a lower-PPO base than banana [1].\n\n",
+      "### Preparation\n\n- **Ripe:** eat when yellow with brown speckling, or mash into meals for sweetness.\n- **Green / unripe:** use while still firm and green when more resistant starch is wanted.\n\n",
+      "## References\n\n[1] Ottaviani et al. (2023). [Impact of polyphenol oxidase on the bioavailability of flavan-3-ols in fruit smoothies: a controlled, single blinded, cross-over study](/docs/papers/BRAIN-Diet-References#ottaviani_polyphenol_oxidase_flavan_2023). In a controlled crossover study, a banana-based high-PPO smoothie substantially reduced flavan-3-ol bioavailability relative to capsule control; the result is specific to the tested smoothie and flavan-3-ols.\n\n[2] <span id=\"food-source-2\" />Gao et al. (2016). [Analysis of resistant starch degradation in postharvest ripening of two banana cultivars: Focus on starch structure and amylases](/docs/papers/BRAIN-Diet-References#gao_banana_resistant_starch_2016). Resistant starch fell from 18.1 to 2.7 g per 100 g fresh weight in Cavendish and from 25.3 to 5.3 g per 100 g in plantain over five days.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/beetroot.md",
+    "inputs": [
+      "potassium"
+    ],
+    "sections": [
+      "### Preparation\n\n- Preparation can change nitrate and pigment content; published values vary substantially among cultivars and products [1].\n- Roasting is useful for flavour; it does not turn beetroot into a nitrate extract.\n\n",
+      "## References\n\n[1] Milton-Laskibar et al. (2021). [Current Knowledge on Beetroot Bioactive Compounds: Role of Nitrate and Betalains in Health and Disease](/docs/papers/BRAIN-Diet-References#milton_laskibar_beetroot_2021). Beetroot-specific review describing nitrate and betalains as major bioactive constituents and documenting substantial variation with variety and processing.\n\n<span id=\"food-source-2\" />\n\n[2] [Current Knowledge on Beetroot Bioactive Compounds: Role of Nitrate and Betalains in Health and Disease (2021)](/docs/papers/BRAIN-Diet-References#food_composition_e9d2786d6670)\n\n<span id=\"food-source-3\" />\n\n[3] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/169145/nutrients)\n\n<span id=\"food-source-4\" />\n\n[4] Zeisel et al. (2003). [Concentrations of Choline-Containing Compounds and Betaine in Common Foods](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003). Table 1, corrected by the [erratum](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003_erratum), reports **128.63 mg betaine per 100 g of raw beets**, NDB 11080, shown as 129 mg. Canned beets in that table are 333.69 mg per 100 g. USDA Release 2 reports 130 mg per 100 g for the same raw NDB. This is separate from the main nutrient panel.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/black-beans.md",
+    "inputs": [
+      "potassium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with grains for complete amino acid profile; grain–legume complementarity improves essential amino-acid coverage.\n- Pair with vitamin C-rich foods to enhance non-heme iron absorption [3].\n\n",
+      "### Preparation\n\n- In the cited controlled processing study, endogenous phytase performed best near 60°C and pH 6.0; this is not equivalent to a validated household lemon-or-vinegar recipe [1].\n- Cook beans thoroughly after soaking.\n\n",
+      "## References\n\n[1] Soaking and cooking can reduce myo-inositol phosphates that limit mineral absorption in black beans; this paper measured phytate reduction in black beans (Phaseolus vulgaris). Greiner & Konietzny 1999. [Improving enzymatic reduction of myo-inositol phosphates with inhibitory effects on mineral absorption in black beans](/docs/papers/BRAIN-Diet-References#greiner_improving_1999)\n\n[2] Mariotti & Gardner (2019). [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Dietary-pattern evidence for complementary plant-protein sources; not evidence for black-bean polyphenol content or a black-bean feeding trial.\n\n[3] Hallberg et al. (1989). [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989). Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food.\n\n[4] <span id=\"food-source-4\" />Fabbri, Schacht and Crosby (2016). [Evaluation of resistant starch content of cooked black beans, pinto beans, and chickpeas](https://doi.org/10.1016/j.nfs.2016.02.002). Cooked black beans contained about 3–5 g resistant starch per 100 g dry weight. Raw beans in the same assay were about 31 g per 100 g dry weight.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/broccoli-sprouts.md",
+    "inputs": [
+      "potassium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Fits well within a broader cruciferous rotation including broccoli, cabbage, kale, cauliflower, and radish\n- Works best in minimally heated meals where active myrosinase is preserved\n- Pairs well with salads, bowls, eggs, wraps, sandwiches, and fermented-food meals where a small amount adds a high-value phytochemical signal\n\n",
+      "### Preparation\n\n- Best eaten raw or only very lightly heated if the goal is sulforaphane formation\n- Chopping and chewing help activate myrosinase, which converts glucoraphanin into sulforaphane\n- Prolonged heat reduces myrosinase activity and lowers conversion potential\n- Because raw sprouts carry higher microbial risk than mature broccoli, higher-risk groups should avoid raw sprouts or cook them thoroughly\n\n",
+      "## References\n\n[1] Houghton et al. (2016). [Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016). Constituent-level review of glucoraphanin, myrosinase and sulforaphane formation; not a fresh-sprout feeding trial.\n\n[2] Egner et al. (2014). [Rapid and Sustainable Detoxication of Airborne Pollutants by Broccoli Sprout Beverage: Results of a Randomized Clinical Trial in China](/docs/papers/BRAIN-Diet-References#egner_broccoli_sprout_beverage_2014). Twelve-week randomised trial of a quantified broccoli-sprout beverage (600 µmol glucoraphanin and 40 µmol sulforaphane daily): urinary mercapturic-acid markers rose for benzene and acrolein, not crotonaldehyde. Manufactured beverage, not blended fresh sprouts.\n\n<span id=\"food-source-3\" />\n\n[3] [Intensifying sulforaphane formation in broccoli sprouts (2018)](/docs/papers/BRAIN-Diet-References#food_composition_756c933c559c)\n\n<span id=\"food-source-4\" />\n\n[4] [Norwegian Food Composition Table](https://www.matvaretabellen.no/en/broccoli-sprouts-raw/)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/broccoli.md",
+    "inputs": [
+      "potassium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Include broccoli with a varied meal rather than treating it as a sulforaphane dose.\n\n",
+      "### Preparation\n\n- Chopping or chewing lets broccoli myrosinase meet glucoraphanin and form sulforaphane [1].\n- In the Okunade sous-vide series at 100 °C, myrosinase activity fell by 40% after 2 minutes and by 90% after 6 minutes. None was measurable after 8 minutes. The feeding meal was cooked for 20 minutes [4].\n- After that long cook, urinary sulforaphane-NAC was still detected. The authors read that remainder as conversion by gut microbes, and it varied between the 12 adults [4].\n- Adding 1 g brown mustard powder after cooking supplied active myrosinase. In the florets, 8.58 / 1.06 = 8.1, reported as an 8-fold rise. In urine, 44.7 / 9.8 = 4.6 from the published means. The average of each person's increase was 4.7-fold, from 1.7-fold to 10-fold [4].\n\n",
+      "## References\n\n[1] Houghton et al. (2016). [Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016). Constituent-level review of broccoli-derived sulforaphane and glucoraphanin–myrosinase conversion; not a broccoli feeding trial.\n\n<span id=\"food-source-2\" />\n\n[2] [Broccoli sprouts: An exceptionally rich source of inducers (1997)](/docs/papers/BRAIN-Diet-References#food_composition_8733e3bce0a9)\n\n<span id=\"food-source-3\" />\n\n[3] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/170379/nutrients)\n\n<span id=\"food-source-4\" />\n\n[4] Okunade et al. (2018). [Supplementation of the diet by exogenous myrosinase via mustard seeds to increase the bioavailability of sulforaphane in healthy human subjects after the consumption of cooked broccoli](/docs/papers/BRAIN-Diet-References#okunade_sulforaphane_2018). Twelve adults ate 200 g sous-vide broccoli, with and without 1 g brown mustard powder. Sulforaphane in the florets is reported per g dry weight, and the urinary metabolite per g creatinine. Neither figure is a sulforaphane amount for every 100 g of broccoli.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/carrots.md",
+    "inputs": [
+      "potassium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Cooking and fat pairing enhance beta-carotene absorption; co-consuming a small amount of unsaturated fat improves micelle formation and chylomicron packaging, increasing carotenoid and fat-soluble vitamin absorption\n- Pair with fat (tahini, olive oil, avocado) for optimal absorption; practical pairings: carrots + tahini\n- Part of diverse vegetable intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience\n\n",
+      "### Preparation\n\n- Supports carotenoid diversity; carotenoids play a neuroprotective role through their antioxidant and anti-inflammatory properties\n\n",
+      "## References\n\n[1] Kindel et al. (2010). [The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010). Mechanistic context for fat-stimulated chylomicron formation; not a carrot feeding trial.\n\n[2] Brown et al. (2004). [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004). Meal-pairing evidence: fat in salad dressings increased carotenoid bioavailability; not a carrot-only trial.\n\n[3] Johnson et al. (2014). [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014). Constituent-level lutein and zeaxanthin review; not a carrot feeding trial.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/chickpeas.md",
+    "inputs": [
+      "potassium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Soak and cook thoroughly to reduce phytates and improve mineral bioavailability; soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability\n- Pair with grains for complete amino acid profile; combine with grains like barley or oats for amino acid complementarity\n- Pair with vitamin C to enhance iron absorption, with studies showing up to a fourfold increase when consumed together\n- Part of grain-legume complementarity strategy\n\n",
+      "### Preparation\n\n- Legumes such as lentils and chickpeas provide complex carbs and fiber\n\n",
+      "## References\n\n[1] <span id=\"food-source-1\" />Fabbri, Schacht and Crosby (2016). [Evaluation of resistant starch content of cooked black beans, pinto beans, and chickpeas](https://doi.org/10.1016/j.nfs.2016.02.002). Cooked chickpeas stayed within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas were 4.32 g per 100 g of the dried sample.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/grapes.md",
+    "inputs": [
+      "potassium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of diverse polyphenol intake\n- Pair with other resveratrol sources\n\n",
+      "### Preparation\n\n- Can be consumed fresh or as juice (whole fruit preferred)\n- Supports mitochondrial NAD+ pathways\n\n",
+      "## References\n\n[1] Polyphenol-rich fruit patterns are associated with cognitive endpoints in flavonoid intervention trials. Neshatdoust et al. 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)\n\n[2] Grape polyphenols such as resveratrol are studied for antioxidant and nutraceutical mechanisms. Boots et al. 2008. [Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/greek-yogurt.md",
+    "inputs": [
+      "potassium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of fermented foods strategy; fermented foods provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling\n- Supports gut microbiome diversity; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience\n- Pair with berries/nuts for polyphenol synergy; practical pairings: berries + greek yogurt/nuts\n\n",
+      "## References\n\n[1] Fermentation goes further: lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels. LeBlanc & Laiño 2011. [B-Group vitamin production by lactic acid bacteria - current knowledge and potential applications: Vitamin production by LAB](/docs/papers/BRAIN-Diet-References#leblanc_b-group_2011)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/green-tea.md",
+    "inputs": [
+      "potassium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Can reduce non-heme iron absorption if taken with meals; space ≥1 hour from iron-rich meals or add lemon (vitamin C) to mitigate this.\n\n",
+      "### Preparation\n\n- Steep at lower temperatures (roughly 70–80 °C) to preserve catechins and limit bitter tannin extraction.\n- Unsweetened brews fit best within polyphenol-forward dietary patterns; cup strength varies widely by leaf type and steep time.\n- Adding milk to black tea did not impair catechin bioavailability in a 12-person crossover; green-tea catechins were also rapidly absorbed. This trial did not test milk with green tea [3].\n\n",
+      "## References\n\n[1] In Green Mediterranean Diet trials, added green-tea polyphenols contributed to greater visceral adiposity reduction than a standard Mediterranean diet alone. Zelicha et al. 2022. [The effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)\n\n[2] Brain MRI follow-up in DIRECT PLUS linked the green-Mediterranean pattern to attenuated brain atrophy, with glycemic control contributing to the neuroprotective signal. Pachter et al. 2024. [Glycemic control contributes to the neuroprotective effects of Mediterranean and green-Mediterranean diets on brain age: the DIRECT PLUS brain-magnetic resonance imaging randomized controlled trial](/docs/papers/BRAIN-Diet-References#pachter_glycemic_2024)\n\n[3] Randomised crossover (n = 12): green-tea and black-tea catechins rose rapidly in blood; adding 100 ml semi-skimmed milk to 600 ml black tea did not significantly change catechin AUC versus black tea alone. Milk was not tested with green tea. van het Hof et al. 1998. [Bioavailability of catechins from tea: the effect of milk](/docs/papers/BRAIN-Diet-References#van_het_hof_catechins_milk_1998)\n\n<span id=\"food-source-4\" />\n\n[4] [EFSA (2018), Scientific opinion on green tea catechins](/docs/papers/BRAIN-Diet-References#food_composition_d8291992bb52)\n\n<span id=\"food-source-5\" />\n\n[5] [Li et al. (2022), L-Theanine: A Unique Functional Amino Acid in Tea](/docs/papers/BRAIN-Diet-References#food_composition_75ad4b4a0b2b)\n\n<span id=\"food-source-6\" />\n\n[6] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/171917/nutrients)\n\n[7] Klepacka (2022). [Tea Infusions as a Source of Phenolic Compounds in the Human Diet](/docs/papers/BRAIN-Diet-References#klepacka_tea_infusions_2022). Table 1 reports green-tea infusion measurements at four brewing times.\n\n[8] Matsushima et al. (1993). [Contents of Aluminum and Manganese in Tea Leaves and Tea Infusions](/docs/papers/BRAIN-Diet-References#matsushima_tea_manganese_1993). The publisher abstract reports the green-tea infusion range.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/jerusalem-artichokes.md",
+    "inputs": [
+      "potassium"
+    ],
+    "sections": [
+      "### Preparation\n\n- Can be consumed raw or cooked\n- Highest inulin source\n- Start with small amounts to avoid digestive discomfort\n- Supports gut microbiome diversity\n\n",
+      "## References\n\n[1] Jerusalem artichokes are among the richest dietary sources of inulin-type prebiotic fibre. Pouille et al. 2022. [Chicory: Understanding the Effects and Effectors of This Functional Food](/docs/papers/BRAIN-Diet-References#pouille_chicory_2022)\n\n[2] Prebiotic fermentable fibre intake modulates gut microbiota and stress-related biomarkers. Schmidt et al. 2015. [Prebiotic intake reduces the waking cortisol response and alters emotional bias in healthy volunteers](/docs/papers/BRAIN-Diet-References#schmidt_prebiotic_2015)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/milk.md",
+    "inputs": [
+      "potassium"
+    ],
+    "sections": [
+      "## References\n\n[1] FAO (2013). [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013). Protein-quality framework and reference data supporting milk protein as a complete, highly digestible protein source. <span id=\"food-source-1\"></span>\n\n[2] Trammell et al. (2016). [Nicotinamide Riboside Is a Major NAD+ Precursor Vitamin in Cow Milk](/docs/papers/BRAIN-Diet-References#trammell_nr_milk_2016). Primary LC-MS/MS occurrence evidence; no concentration is extrapolated to the USDA whole-milk material or an effective food dose. <span id=\"food-source-2\"></span>\n"
+    ]
+  },
+  {
+    "file": "docs/foods/pomegranates.md",
+    "inputs": [
+      "potassium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with diverse plant foods to support microbiome; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience\n\n",
+      "### Preparation\n\n- Consume whole fruit or juice to obtain ellagitannins\n- Production of urolithin A depends on gut microbiome diversity; higher polyphenol intake and microbial diversity increase urolithin A production\n- Part of polyphenol-rich dietary pattern; polyphenol sources including berries, green tea catechins, cocoa flavanols, cranberries, pomegranate support gut microbiome health\n\n",
+      "## References\n\n[1] The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with higher total plasma polyphenols and with the microbiome-derived markers urolithin A (via ellagitannins: walnuts/pomegranate). Zelicha & Kloting 2022. [The effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)\n\n[2] Urolithin A supports mitochondrial resilience and mitophagy, improving cognitive endurance [Andreux et al. 2019](/docs/papers/BRAIN-Diet-References#andreux_mitophagy_2019). Singh & D’Amico 2022. [Direct supplementation with Urolithin A overcomes limitations of dietary exposure and gut microbiome variability in healthy adults to achieve consistent levels across the population](/docs/papers/BRAIN-Diet-References#singh_direct_2022)\n\n<span id=\"food-source-3\" />\n\n[3] [Elucidation of Anthocyanins in Pomegranate Juices from Three Extraction Methods (2021)](/docs/papers/BRAIN-Diet-References#food_composition_a323fbc0c8cf)\n\n<span id=\"food-source-4\" />\n\n[4] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/169134/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/potatoes.md",
+    "inputs": [
+      "potassium"
+    ],
+    "sections": [
+      "### Preparation\n\n- Cook, cool, and optionally reheat potatoes to increase resistant starch (retrogradation) while retaining practical meal use.\n- Cooled starch structures are associated with a lower glycaemic response versus freshly cooked hot potato servings.\n- Resistant starch supports gut fermentation patterns linked to butyrate production and broader microbiome resilience.\n\n",
+      "## References\n\n[1] Cooled potatoes provide resistant starch that supports beneficial gut microbiota fermentation. Zhou et al. 2015. [The importance of GLP‐1 and PYY in resistant starch's effect on body fat in mice](/docs/papers/BRAIN-Diet-References#zhou_importance_2015)\n\n[2] Resistant starch fermentation produces short-chain fatty acids relevant to gut–brain signalling. Fan et al. 2019. [SCFA producing bacteria shape the subtype of ADHD in children](/docs/papers/BRAIN-Diet-References#fan_scfa_2019)\n\n[3] <span id=\"food-source-3\" />Raatz et al. (2016). [Resistant starch analysis of commonly consumed potatoes: Content varies by cooking method and service temperature but not by variety](https://doi.org/10.1016/j.foodchem.2016.03.120). Moisture-corrected resistant starch was 2.2–5.4 g per 100 g across the baked and boiled, hot, chilled, and reheated potatoes tested.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/sourdough-bread.md",
+    "inputs": [
+      "potassium"
+    ],
+    "sections": [
+      "### Preparation\n\n- Use a process that actually acidifies and ferments the dough if the aim is matrix transformation rather than sourdough flavouring.\n- Avoid excessive surface burning or very dark browning. Normal crust colour is not inherently dangerous. Acrylamide formation depends on free asparagine, reducing sugars, fermentation, surface temperature, baking time and browning; sourdough does not universally reduce it, and household glycine addition or a particular baking vessel is not a defining recommendation.\n- Cool and store as for other breads; refrigeration and staling can increase resistant starch through retrogradation, which is a storage effect rather than a sourdough-specific nutrient addition.\n\n",
+      "## References\n\n[1] Ribet et al. (2023). [Nutritional benefits of sourdoughs: A systematic review](/docs/papers/BRAIN-Diet-References#ribet_nutritional_2023). Twenty-five randomised trials (542 adults) comparing sourdough with yeast breads; glucose, satiety, gastrointestinal and cardiovascular outcomes were heterogeneous and depended on flour, microbes and fermentation conditions.\n\n[2] Gil-Cardoso et al. (2021). [Consumption of Sourdough Breads Improves Postprandial Glucose Response and Produces Sourdough-Specific Effects on Biochemical and Inflammatory Parameters and Mineral Absorption](/docs/papers/BRAIN-Diet-References#gil_cardoso_consumption_2021). Rat study: different sourdoughs and flours produced different glucose, insulin and mineral-absorption patterns versus a refined wheat control, so the finding is not a universal human low-GI claim.\n\n[3] Alkay et al. (2024). [Exploring the Nutritional Impact of Sourdough Fermentation: Its Mechanisms and Functional Potential](/docs/papers/BRAIN-Diet-References#alkay_exploring_2024). Review of fermentation mechanisms affecting starch, phytate, protein digestibility and FODMAPs.\n\n[4] Gänzle, Loponen and Gobbetti (2008). [Proteolysis in sourdough fermentations: mechanisms and potential for improved bread quality](/docs/papers/BRAIN-Diet-References#ganzle_proteolysis_2008). Cereal and microbial proteolysis, peptides and free amino acids; not a claim that ordinary sourdough is a high-quality protein food.\n\n[5] Gobbetti et al. (2014). [How the sourdough may affect the functional features of leavened baked goods](/docs/papers/BRAIN-Diet-References#gobbetti_how_2014). Acidification, enzyme activation, fibre/phytochemical matrix, mineral uptake conditions, metabolites including GABA and exopolysaccharides; process-dependent.\n\n[6] Coda, Rizzello and Gobbetti (2010). [Use of sourdough fermentation and pseudo-cereals and leguminous flours for the making of a functional bread enriched of γ-aminobutyric acid (GABA)](/docs/papers/BRAIN-Diet-References#coda_use_2010). Formulation-specific GABA enrichment using selected flours and fermentation; not a general sourdough property.\n\n<span id=\"food-source-7\" />\n\n[7] [Nutritional composition of bread as affected by ancient wheat flour and sourdough fermentation (2024)](/docs/papers/BRAIN-Diet-References#food_composition_c671c7f60ed1)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/spinach.md",
+    "inputs": [
+      "potassium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with vitamin C sources (citrus, bell peppers) to enhance non-haem iron absorption; Hallberg 1989 is mixed-meal iron-absorption evidence, not a spinach trial [Hallberg et al. 1989](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)\n- Pair with fat (olive oil, avocado) for carotenoid absorption\n\n",
+      "### Preparation\n\n- Boiling markedly reduced soluble oxalate content by 30–87% and was more effective than steaming (5–53%) across the vegetables tested, which included spinach [Chai and Liebman 2005](/docs/papers/BRAIN-Diet-References#chai_effect_2005). Soluble oxalate lost during boiling or steaming was recovered in the cooking water (approximately 100%), so discard that water when the aim is to lower oxalate load. Baking, used only for potatoes in the same study, produced no oxalate loss.\n- Oxalate binds to minerals and forms insoluble compounds, significantly reducing bioavailability; boiling helps mitigate this by leaching soluble oxalate into the discarded cooking water\n- Oxalate can influence mitochondrial and redox biology in experimental cell models; this is mechanistic context rather than spinach-feeding evidence, and relevance to typical dietary intakes remains uncertain [Chaiyarit and Thongboonkerd 2020](/docs/papers/BRAIN-Diet-References#chaiyarit_mitochondrial_2020).\n\n",
+      "## References\n\n[1] Boiling markedly reduced soluble oxalate content by 30–87% and was more effective than steaming (5–53%); oxalate lost in cooking was recovered in the cooking water (approximately 100%). Chai & Liebman 2005. [Effect of Different Cooking Methods on Vegetable Oxalate Content](/docs/papers/BRAIN-Diet-References#chai_effect_2005)\n\n[2] Oxalate can influence mitochondrial and redox biology in experimental cell models; this is mechanistic context rather than spinach-feeding evidence. Chaiyarit & Thongboonkerd 2020. [Mitochondrial Dysfunction and Kidney Stone Disease](/docs/papers/BRAIN-Diet-References#chaiyarit_mitochondrial_2020)\n\n[3] Hallberg et al. (1989). [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989). Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food.\n\n[4] Sommerburg et al. (1998). [Fruits and vegetables that are sources for lutein and zeaxanthin: the macular pigment in human eyes](/docs/papers/BRAIN-Diet-References#sommerburg_lutein_zeaxanthin_1998). Spinach lutein was 47 mol% of carotenoids, and zeaxanthin in the green vegetables they grouped with spinach was only a trace.\n\n<span id=\"food-source-5\" />\n\n[5] Zeisel et al. (2003). [Concentrations of Choline-Containing Compounds and Betaine in Common Foods](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003). Table 1, corrected by the [erratum](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003_erratum), reports 674.52 mg betaine per 100 g of raw spinach and 725.41 mg per 100 g of cooked spinach. The nutrition row uses the raw value. USDA Release 2 later reports 110–130 mg per 100 g for frozen spinach.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/sweet-potatoes.md",
+    "inputs": [
+      "potassium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with fat-containing foods (e.g. olive oil, yogurt, nuts/seeds) to support carotenoid absorption.\n\n",
+      "### Preparation\n\n- Roasting and mashing improve palatability and can increase practical intake in mixed meals.\n- Cooling after cooking changes starch structure and may improve post-meal glucose response.\n\n",
+      "## References\n\n[1] Orange-fleshed sweet potatoes supply beta-carotene and carotenoid precursors for retinoid pathways. Johnson et al. 2014. [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)\n\n[2] Carotenoid bioavailability improves when paired with dietary fat in mixed meals. Brown et al. 2004. [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/tomatoes.md",
+    "inputs": [
+      "potassium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with fat (olive oil) for enhanced absorption; co-consuming a small amount of unsaturated fat improves micelle formation and chylomicron packaging, increasing carotenoid and fat-soluble vitamin absorption\n- Pair with iron-rich plant foods for enhanced absorption; eat your beans with vitamin C-rich foods (e.g., tomatoes, peppers, citrus) to enhance iron absorption\n- Practical pairings: spinach + eggs, tomatoes + olive oil, salad + oil\n\n",
+      "### Preparation\n\n- Cooking breaks down cell walls and increases lycopene bioavailability; prolonged cooking increases access to lycopene in tomatoes where cell walls need to be broken down\n- Canned tomatoes may have higher lycopene due to processing\n\n",
+      "## References\n\n[1] The bioaccessibility of carotenoids in vegetables is remarkably low—lycopene in canned and fresh tomatoes is less than 1%. Fielding & Rowley 2005. [Increases in plasma lycopene concentration after consumption of tomatoes cooked with olive oil](/docs/papers/BRAIN-Diet-References#fielding_increases_2005)\n\n[2] Eat your beans with vitamin C-rich foods (e.g., tomatoes, peppers, citrus) to enhance iron absorption; vitamin C significantly improves non-heme iron absorption by reducing ferric to ferrous iron. Hallberg & Brune 1989. [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)\n\n[3] Co-consuming a small amount of unsaturated fat with polyphenol-rich foods improves micelle formation and chylomicron packaging, increasing carotenoid absorption [Kindel et al. 2010](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010). Brown & Ferruzzi 2004. [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/watermelon.md",
+    "inputs": [
+      "potassium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Fits well with nitrate-rich vegetables and polyphenol-rich plant foods in vascular-support meal patterns.\n\n",
+      "### Preparation\n\n- Use fresh cut fruit for the highest practical intake volume; juice concentrates sugars and can reduce satiety.\n- Chill and combine with mineral-rich foods (for example, seeds or yogurt) when used in post-activity meals.\n\n",
+      "## References\n\n[1] Avgerinos et al. (2018). [Effects of creatine supplementation on cognitive function of healthy individuals: A systematic review of randomized controlled trials](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018)\n\n[2] Mariotti & Gardner (2019). [Dietary protein and amino acids in vegetarian diets: Current issues and practical recommendations](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)\n\n<span id=\"food-source-3\" />\n\n[3] [Wehner et al. (2011), L-citrulline levels in watermelon cultigens tested in two environments](/docs/papers/BRAIN-Diet-References#food_composition_ef718bcbebc1)\n\n<span id=\"food-source-4\" />\n\n[4] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/167765/nutrients)\n"
+    ]
+  }
+]

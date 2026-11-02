@@ -125,7 +125,7 @@ Every unresolved identity has a draft `pending_actions` entry. The registry and 
 
 ### BRS5-FM2-PM4 — Microbial Substrate-Processing Selection & Adaptation
 
-[Open draft](http://localhost:3000/docs/system/stage2b-preview/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection-stage2ab-draft)
+Draft removed on 2 November 2026 at owner request. [Open canonical PM4](/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection).
 
 Mission preserved: Adjust community substrate-processing capacity through resource competition and changes in microbial function.
 

@@ -689,3 +689,25 @@ Use `scripts/generate-dietary-pathways.mjs` and the shared `buildDietaryPathwayI
 Butyrate pilot ceiling: RS utilisation/cross-feeding is context-dependent; pectin evidence supports SCFA-mixture context, without transferring purified-substrate responses to apples. FOS/GOS remains under review. PM1-H1 remains Unestablished unless its complete joined epithelial pathway passes a separate adjudication. Keep Moreau temporal findings, Peng cellular evidence and human paracellular/transcellular distinctions. Do not turn food → starch → butyrate into an admitted tight-junction intervention automatically.
 
 Future Stage 2A/2B runs must preserve six atoms, evidence provenance, conversion dependencies and immutable SEC history. Report empty admitted sections separately from identity gaps, food gaps, conversion gaps and unresolved PM engagement. Run pathway mutation/preservation tests and real substance/PM/food/recipe browser checks before claiming implementation complete.
+
+## SEC assessment completeness — 2 November 2026
+
+Stage 2A must follow [Assessment completeness](sec-assessments/README.md#assessment-completeness--approved-extension-2-november-2026). Classify scientific propositions separately from appraisal tasks. Track pending or unassessable SEC dimensions with Assessment gaps in the existing versioned assessment; never manufacture a scientific Evidence Gap or numerical zero from missing appraisal. Report eligible/completed/pending/unassessable/missing-status Findings, dimension coverage, and scientific Evidence Gap linkage/review status separately. Run `scripts/check-sec-completeness.mjs --pm <id> --check` and the `--require-appraised` gate before declaring the run scientifically appraised. Preserve old SEC versions and Evidence Gaps; resolution of an Assessment gap triggers dimension reassessment, not automatic closure of a scientific Evidence Gap. Public labels are Evidence Gap, Assessment gap, Pending appraisal and Evidence Un-assessable; do not introduce gap acronyms.
+
+For scientific approval, supply `--base <reviewed-git-ref>` with `--require-appraised` to compare prior canonical Evidence Gap IDs; the approval gate rejects omission of this preservation baseline. Structural report mode remains available without a baseline.
+
+## Presentation correction — 2 November 2026
+
+Do not generate or render dated “Stage 2A/2B evidence and traceability review” execution panels in canonical pages, including Evidence & Audit. Historical execution reports remain in their source/archive records; the legacy `Stage2Review` wrapper is non-rendering compatibility only. Use the governed Finding, Principle, assessment, correction and gap interfaces for scientific records. This removes no scientific evidence and does not remove the public Framework Review & Corrections register link.
+
+### Stage 2A handoff — intervention presentation (2 November 2026)
+
+Supply a precisely bounded practice/comparison title, demonstrated endpoint, evidence type, population, exposure, original citations and separate limitations for each proposed SOP or Lifestyle Lever. Follow **Intervention presentation: practice before appraisal** in `dietary-input-traceability-contract.md` at Stage 2B rendering. Do not substitute circulating concentration for dietary appearance flux, or conceal essential boundaries inside a disclosure. This presentation change neither requires a new Finding per intervention nor transfers a linked Finding’s SEC to the intervention.
+
+### Recipe pathway presentation boundary — 2 November 2026
+
+Stage 2A evidence discovery may reuse ingredient pathway records, but must not generate a public recipe-level pathway panel from food tags. Stage 2B follows the recipe boundary in `dietary-input-traceability-contract.md`; preserve ontology evidence without implying recipe-specific engagement or adding unapproved recipe sections.
+
+## Mandatory author approval for presentation changes
+
+Follow [presentation-change-control.md](presentation-change-control.md). Scientific data integration does not authorise public presentation. New substantive blocks require a proposal, representative rendered example, page-type/count scope, updated contract and explicit prior author approval. Run `npm run presentation:check`; never regenerate the baseline or invent an approval to bypass a failure. Both Dietary pathways technical panels are withdrawn across all page types; preserve their data without public projection. This rule supersedes earlier instructions permitting automatic pathway displays.

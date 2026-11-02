@@ -14426,6 +14426,494 @@
         ]
       },
       "sha256": "95b9429e411b304558bc5c460e41456c7d0561c2b30d714b14ef209a9c57e6b3"
+    },
+    {
+      "sha256": "0de37eb2949152d2fdcc86b5c45595b06bca585f3a13ab2efaa95305bb4b76a4",
+      "record": {
+        "id": "brs5-pm4-f1-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS5-FM2-PM4",
+        "findingId": "PM4-F1",
+        "assessmentStatus": "codex-provisional",
+        "humanReview": null,
+        "recordedOn": "2026-11-02",
+        "lastEvidenceAssessmentDate": "2026-11-02",
+        "reviewer": null,
+        "process": "Codex exact-proposition SEC appraisal of canonical PM4 Findings, primary full-text recovery and targeted independent/contradictory evidence search; no scientific proposition or admission changed.",
+        "methodology": {
+          "name": "SEC calibration rubric proposal",
+          "version": null,
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "proposition": "Competition and functional acclimation can change community glycan processing even when several organisms possess relevant utilisation genes.",
+        "canonicalProposition": "Competition and functional acclimation can change community glycan processing even when several organisms possess relevant utilisation genes.",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "conditional": null,
+        "rationale": {
+          "D": "Direct gene-fitness, proteomic and in vivo degradation measurements test the scoped community-processing proposition; no human clinical inference is required.",
+          "B": "Orthogonal assays, omission controls, germ-free controls and spike-in controls protect the mechanism. Allocation/blinding are not established and selected defined communities, strain differences and proteomic imputation leave residual concerns; no demonstrated critical flaw warrants B0.",
+          "P": "Calibrated GC-MS with controls and 95% intervals distinguishes residual from lost arabinoxylan degradation. Small animal groups and glycan/context-dependent compensation leave material uncertainty about magnitude and scope, precluding P2.",
+          "R": "Patnode is the one fully appraised empirical line for the exact combined competition/acclimation/degradation proposition. Sonnenburg and Rakoff confirm related resource-context effects but not that exact degradation outcome; Desai tests resource substitution, not competitor-dependent compensation. Multiple assays within Patnode are not independent replication."
+        },
+        "limitations": [
+          "Defined mouse communities do not establish a universal human response, benefit from greater diversity or an optimal turnover rate. Substrate use can also accompany adverse host effects. Specific SCFA, polyphenol and precursor conversions belong to PM5, PM6 and PM8.",
+          "Assessment is provisional and not qualified-human reviewed. SEC does not establish dietary efficacy or alter admissions."
+        ],
+        "sources": {
+          "supporting": [
+            "patnode_interspecies_2019"
+          ],
+          "contextual": [
+            "desai_fiber-deprived_2016"
+          ],
+          "contradictory": [],
+          "contradictoryAssessment": "Null and context-dependent outcomes retained in the targeted appraisals. Different substrates, gene families, models and endpoints are not interchangeable replication. Search was targeted rather than an exhaustive systematic review.",
+          "targetedChecks": [
+            {
+              "doi": "10.1016/j.cell.2019.08.011",
+              "role": "load-bearing primary",
+              "access": "NCBI BioC full article, Methods, Results and figure legends (PMC6760872), retrieved 2026-11-02.",
+              "assessment": "Defined communities, competitor omissions, proteomics, genetic fitness and GC-MS bead degradation. Germ-free, empty-bead and processing spike-in controls distinguish microbial degradation. Arabinan degradation was retained after B. cellulosilyticus omission; arabinoxylan degradation was incompletely compensated despite B. ovatus gene capacity. Figures 4 and 6 report 95% intervals, n=3–7 per group. Repeated measures and FDR were addressed; random allocation/blinding not established. Artificial substrates and selected strains limit transfer."
+            },
+            {
+              "doi": "10.1016/j.cell.2010.05.005",
+              "role": "load-bearing primary",
+              "access": "NCBI BioC full article, Results, Methods and Figure 7 legends (PMC2900928), retrieved 2026-11-02.",
+              "assessment": "Genetic complementation and inulin gain-of-function tested alongside defined two-species mouse communities. B. caccae rose from approximately 13% to 51% on the inulin-only polysaccharide diet (n=7); the B. vulgatus comparison was imprecise (n=3, p=0.1). Lower-dose inulin in a polysaccharide-rich diet gave no detected advantage, but on a polysaccharide-free diet B. caccae rose 26±8 percentage points. Inulin-enabled Bt removed the B. caccae advantage. Do not isolate dose from competing substrates or infer a universal human benefit."
+            },
+            {
+              "doi": "10.1038/nature17626",
+              "role": "partial independent confirmation",
+              "access": "NCBI BioC full article and extended figure legends (PMC4978124), retrieved 2026-11-02.",
+              "assessment": "Independent group tested B. ovatus inulin-utilisation mutants and defined communities. Extracellular digestion mutants still used inulin, while SusC/SusD mutations impaired use; extracellular enzymes conferred community-dependent reciprocal fitness benefits with B. vulgatus. Different species, loci and cooperative endpoints provide partial confirmation of machinery/context-dependent fitness, not a replication of the 2010 species contrast or Patnode arabinoxylan-acclimation result."
+            }
+          ],
+          "retrievalLimited": []
+        },
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-11-02",
+            "decision": "Initial provisional exact-proposition assessment 4/8; canonical statement and historical records unchanged."
+          }
+        ],
+        "assessmentComplete": true,
+        "capRationale": "D2, B1, P1, R0: raw and adjusted 4/8; no D1/B0/P0 cap applies."
+      }
+    },
+    {
+      "sha256": "c3c90a2cc0828378f071cde1815b6b83e50ca06363853661fde8930a96dab5f4",
+      "record": {
+        "id": "brs5-pm4-f2-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS5-FM2-PM4",
+        "findingId": "PM4-F2",
+        "assessmentStatus": "codex-provisional",
+        "humanReview": null,
+        "recordedOn": "2026-11-02",
+        "lastEvidenceAssessmentDate": "2026-11-02",
+        "reviewer": null,
+        "process": "Codex exact-proposition SEC appraisal of canonical PM4 Findings, primary full-text recovery and targeted independent/contradictory evidence search; no scientific proposition or admission changed.",
+        "methodology": {
+          "name": "SEC calibration rubric proposal",
+          "version": null,
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "proposition": "High-fibre intake can increase metagenomic glycan-processing potential without increased diversity, while fermented-food-associated immune changes do not establish diversity-mediated benefit.",
+        "canonicalProposition": "High-fibre intake can increase metagenomic glycan-processing potential without increased diversity, while fermented-food-associated immune changes do not establish diversity-mediated benefit.",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "conditional": null,
+        "rationale": {
+          "D": "The proposition explicitly concerns encoded processing potential and the absence of a demonstrated mediation claim. Shotgun CAZymes and diversity directly address those endpoints; no actual flux or immune benefit mediated by diversity is asserted.",
+          "B": "Prospective allocation, longitudinal sampling and multiplicity adjustment offer protection. Two nonrandom allocations, unblinded conduct, exclusions, no untreated arm and exploratory outcomes leave residual bias. The scoped potential/association statement avoids a strong comparative therapeutic claim.",
+          "P": "Eleven increased CAZyme families narrow the encoded-potential inference. The small cohort, exploratory uncertainty and absence of equivalence testing prevent treating stable diversity or null primary immunity as proof of no possible effect; P1 rather than P2.",
+          "R": "One human cohort supports this exact joint proposition. Repeated samples, omics platforms and diet arms are not independent replication. The later trial differs in exposure/endpoints and does not establish independent confirmation of the joint CAZyme/diversity result."
+        },
+        "limitations": [
+          "The prespecified cytokine-response score did not change. Gene abundance is functional potential, not enzyme flux; stool metabolite concentration is not production rate. Diversity and immune changes were accompanying results, not demonstrated causal mediation. No improvement in cognition surveys, glucose, lipids or blood pressure was established.",
+          "Assessment is provisional and not qualified-human reviewed. SEC does not establish dietary efficacy or alter admissions."
+        ],
+        "sources": {
+          "supporting": [
+            "wastyk_gut-microbiota-targeted_2021"
+          ],
+          "contextual": [],
+          "contradictory": [],
+          "contradictoryAssessment": "Null and context-dependent outcomes retained in the targeted appraisals. Different substrates, gene families, models and endpoints are not interchangeable replication. Search was targeted rather than an exhaustive systematic review.",
+          "targetedChecks": [
+            {
+              "doi": "10.1016/j.cell.2021.06.019",
+              "role": "load-bearing primary",
+              "access": "NCBI BioC full article including STAR Methods and figure legends (PMC9020749), retrieved 2026-11-02.",
+              "assessment": "18 analysed adults/arm; 37 randomised and two nonrandomised allocations originally, with three exclusions/dropout. Study team unblinded; no unchanged-diet control or prepublished analysis plan. Eleven plant-glycan CAZyme abundances increased with high fibre (multiple-testing correction); diversity did not detectably increase. Null primary cytokine response and exploratory fermented-food immune changes retained. Encoded potential is not flux; correlations do not test diversity mediation."
+            },
+            {
+              "doi": "10.1101/2025.08.05.25332853",
+              "role": "qualifying preprint",
+              "access": "Primary medRxiv indexed abstract and excerpts; full retrieval blocked.",
+              "assessment": "147-adult fibre/fermented-food/control trial differs in formulations and endpoints. Immune responses are not a straightforward confirmation of Wastyk. Not counted as replication of its combined CAZyme/diversity proposition, and no causal diversity-mediated benefit inferred."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://doi.org/10.1101/2025.08.05.25332853",
+              "limitation": "Primary medRxiv indexed abstract and excerpts; full retrieval blocked."
+            }
+          ]
+        },
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-11-02",
+            "decision": "Initial provisional exact-proposition assessment 4/8; canonical statement and historical records unchanged."
+          }
+        ],
+        "assessmentComplete": true,
+        "capRationale": "D2, B1, P1, R0: raw and adjusted 4/8; no D1/B0/P0 cap applies."
+      }
+    },
+    {
+      "sha256": "5821b6328bbe4217a6773f2536f81d3b41d2d944c1f1f1b534299de5d0b51376",
+      "record": {
+        "id": "brs5-pm4-f3-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS5-FM2-PM4",
+        "findingId": "PM4-F3",
+        "assessmentStatus": "not-scored",
+        "humanReview": null,
+        "recordedOn": "2026-11-02",
+        "lastEvidenceAssessmentDate": "2026-11-02",
+        "reviewer": null,
+        "process": "Codex exact-proposition SEC appraisal of canonical PM4 Findings, primary full-text recovery and targeted independent/contradictory evidence search; no scientific proposition or admission changed.",
+        "methodology": {
+          "name": "SEC calibration rubric proposal",
+          "version": null,
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "proposition": "These resistant starch forms provide substrates for specialist microbial degradation and cross-feeding; adding Ruminococcus bromii enhanced RS3 fermentation in one donor’s faecal community in vitro.",
+        "canonicalProposition": "These resistant starch forms provide substrates for specialist microbial degradation and cross-feeding; adding Ruminococcus bromii enhanced RS3 fermentation in one donor’s faecal community in vitro.",
+        "factors": {
+          "D": 2,
+          "B": null,
+          "P": null,
+          "R": 1
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "unresolved",
+          "P": "unresolved",
+          "R": "established"
+        },
+        "rawScore": null,
+        "adjustedScore": null,
+        "conditional": null,
+        "rationale": {
+          "D": "Culture substrate utilisation and the explicitly in vitro donor-rescue endpoint directly match the bounded proposition.",
+          "B": "Unresolved: later cross-feeding controls cannot substitute for the original donor-rescue design, handling and confounder appraisal. Missing full methods are not B0.",
+          "P": "Unresolved: indexed Methods recover triplicate incubations, but original rescue effect uncertainty and independence of those replicates are not adequately resolved. Later culture estimates cannot establish precision for this component; missing extraction is not P0.",
+          "R": "Crost independently cultured the shared R. bromii strain with another partner and measured cross-feeding; this partially confirms the processing component. Shared investigator/strain, different partner and no repeat donor rescue preclude R2."
+        },
+        "limitations": [
+          "Cultures and one donor-community rescue are not a human oral intervention, universal response or clinical outcome. Full primary article is now accessible through PMC.",
+          "Assessment is provisional and not qualified-human reviewed. SEC does not establish dietary efficacy or alter admissions."
+        ],
+        "sources": {
+          "supporting": [
+            "ze_resistant_starch_2012"
+          ],
+          "contextual": [],
+          "contradictory": [],
+          "contradictoryAssessment": "Null and context-dependent outcomes retained in the targeted appraisals. Different substrates, gene families, models and endpoints are not interchangeable replication. Search was targeted rather than an exhaustive systematic review.",
+          "targetedChecks": [
+            {
+              "doi": "10.1038/ismej.2012.4",
+              "role": "load-bearing primary",
+              "access": "Primary abstract and indexed primary Methods/figure excerpts, plus existing canonical extraction. PMC/Europe PMC/BioC, publisher and Oxford attempts did not recover complete original results and uncertainty in this review.",
+              "assessment": "Four-species cultures and one donor RS3 rescue support the stated in vitro result. Indexed Methods identify three control donors and one low-fermenting donor, standardised bacterial inocula, sugar assays/qPCR over 48 hours and triplicate incubations. Those triplicates are not three independent donors. Complete rescue results, uncertainty and donor-specific confounder appraisal remain incomplete."
+            },
+            {
+              "doi": "10.3389/fmicb.2018.02558",
+              "role": "partial confirmation",
+              "access": "NCBI BioC full article Methods and Results (PMC6231298), retrieved 2026-11-02.",
+              "assessment": "Independent cultures with an overlapping research collaborator and the same R. bromii strain support RS cross-feeding to R. gnavus using qPCR, NMR and transcriptomics (three/four biological replicates). They do not repeat Ze’s single-donor RS3 rescue or all substrate preparations."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://doi.org/10.1038/ismej.2012.4",
+              "limitation": "Primary abstract and indexed primary Methods/figure excerpts, plus existing canonical extraction. PMC/Europe PMC/BioC, publisher and Oxford attempts did not recover complete original results and uncertainty in this review."
+            }
+          ]
+        },
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-11-02",
+            "decision": "Initial partial appraisal; B/P unresolved, no total assigned. Existing Finding remains active."
+          }
+        ],
+        "assessmentComplete": false
+      }
+    },
+    {
+      "sha256": "7217bd9dbee91cab2b601bd46d1902b7758639ac72266b39aea7fccbc4152925",
+      "record": {
+        "id": "brs5-pm4-f4-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS5-FM2-PM4",
+        "findingId": "PM4-F4",
+        "assessmentStatus": "codex-provisional",
+        "humanReview": null,
+        "recordedOn": "2026-11-02",
+        "lastEvidenceAssessmentDate": "2026-11-02",
+        "reviewer": null,
+        "process": "Codex exact-proposition SEC appraisal of canonical PM4 Findings, primary full-text recovery and targeted independent/contradictory evidence search; no scientific proposition or admission changed.",
+        "methodology": {
+          "name": "SEC calibration rubric proposal",
+          "version": null,
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "proposition": "Inulin utilisation machinery changed microbial competitive responses to dietary inulin in defined communities.",
+        "canonicalProposition": "Inulin utilisation machinery changed microbial competitive responses to dietary inulin in defined communities.",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 1
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 5,
+        "adjustedScore": 5,
+        "conditional": null,
+        "rationale": {
+          "D": "Gain-of-function and genetic perturbation plus diet-dependent competition directly test the defined-community inulin proposition, without a bridge to human benefit.",
+          "B": "Genetic complementation, strain-specific qPCR and defined diet/community contrasts reduce causal ambiguity. Small groups, allocation/blinding not established and partly entangled dose/background-polysaccharide contrasts leave residual concerns.",
+          "P": "Figure 7 differentiates a clear B. caccae advantage and its loss after inulin use is conferred on Bt. Small groups (3–7), the non-significant B. vulgatus contrast and diet-context variability prevent a precise general competitive effect or P2.",
+          "R": "Rakoff-Nahoum independently confirms that inulin-handling genes alter community-dependent fitness. Different species, loci and cooperative rather than identical competitive comparisons support R1, not R2. The elderly human composition study does not replicate genetic mechanism; the newer preprint is contextual only."
+        },
+        "limitations": [
+          "Effects depend on utilisation genes, dose and competing glycans. Inulin in a polysaccharide-rich diet did not give the same competitive advantage. No guaranteed butyrate response or health benefit. 16S abundance is not measured glycan-processing flux; this formulated ingredient is not an ordinary vegetable intervention. Immune endpoints were unchanged.",
+          "Assessment is provisional and not qualified-human reviewed. SEC does not establish dietary efficacy or alter admissions."
+        ],
+        "sources": {
+          "supporting": [
+            "sonnenburg_fructan_specificity_2010"
+          ],
+          "contextual": [
+            "long_chain_inulin_elderly_2020"
+          ],
+          "contradictory": [],
+          "contradictoryAssessment": "Null and context-dependent outcomes retained in the targeted appraisals. Different substrates, gene families, models and endpoints are not interchangeable replication. Search was targeted rather than an exhaustive systematic review.",
+          "targetedChecks": [
+            {
+              "doi": "10.1016/j.cell.2010.05.005",
+              "role": "load-bearing primary",
+              "access": "NCBI BioC full article, Results, Methods and Figure 7 legends (PMC2900928), retrieved 2026-11-02.",
+              "assessment": "Genetic complementation and inulin gain-of-function tested alongside defined two-species mouse communities. B. caccae rose from approximately 13% to 51% on the inulin-only polysaccharide diet (n=7); the B. vulgatus comparison was imprecise (n=3, p=0.1). Lower-dose inulin in a polysaccharide-rich diet gave no detected advantage, but on a polysaccharide-free diet B. caccae rose 26±8 percentage points. Inulin-enabled Bt removed the B. caccae advantage. Do not isolate dose from competing substrates or infer a universal human benefit."
+            },
+            {
+              "doi": "10.1038/nature17626",
+              "role": "partial independent confirmation",
+              "access": "NCBI BioC full article and extended figure legends (PMC4978124), retrieved 2026-11-02.",
+              "assessment": "Independent group tested B. ovatus inulin-utilisation mutants and defined communities. Extracellular digestion mutants still used inulin, while SusC/SusD mutations impaired use; extracellular enzymes conferred community-dependent reciprocal fitness benefits with B. vulgatus. Different species, loci and cooperative endpoints provide partial confirmation of machinery/context-dependent fitness, not a replication of the 2010 species contrast or Patnode arabinoxylan-acclimation result."
+            },
+            {
+              "doi": "10.1101/2025.11.13.688124",
+              "role": "contextual preprint",
+              "access": "NCBI BioC version-1 full text (PMC12642598), retrieved 2026-11-02; peer-reviewed successor not established.",
+              "assessment": "Transporter modification changed fructan size preference and competition in culture and mice. Supports plausibility but not counted as an additional peer-reviewed replication; growth-curve exclusions and small mouse groups constrain interpretation."
+            }
+          ],
+          "retrievalLimited": []
+        },
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-11-02",
+            "decision": "Initial provisional exact-proposition assessment 5/8; canonical statement and historical records unchanged."
+          }
+        ],
+        "assessmentComplete": true,
+        "capRationale": "D2, B1, P1, R1: raw and adjusted 5/8; no D1/B0/P0 cap applies."
+      }
+    },
+    {
+      "sha256": "3d0323ce2fb8910c0e710b2a8ed194a922d20f76fcbac3ee912276fd3aae151e",
+      "record": {
+        "id": "brs5-pm4-f3-assessment",
+        "recordVersion": 2,
+        "pmId": "BRS5-FM2-PM4",
+        "findingId": "PM4-F3",
+        "assessmentStatus": "not-scored",
+        "humanReview": null,
+        "recordedOn": "2026-11-02",
+        "lastEvidenceAssessmentDate": "2026-11-02",
+        "reviewer": null,
+        "process": "Codex exact-proposition SEC appraisal of canonical PM4 Findings, primary full-text recovery and targeted independent/contradictory evidence search; no scientific proposition or admission changed.",
+        "methodology": {
+          "name": "SEC calibration rubric proposal",
+          "version": null,
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "proposition": "These resistant starch forms provide substrates for specialist microbial degradation and cross-feeding; adding Ruminococcus bromii enhanced RS3 fermentation in one donor’s faecal community in vitro.",
+        "canonicalProposition": "These resistant starch forms provide substrates for specialist microbial degradation and cross-feeding; adding Ruminococcus bromii enhanced RS3 fermentation in one donor’s faecal community in vitro.",
+        "factors": {
+          "D": 2,
+          "B": null,
+          "P": null,
+          "R": 1
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "pending",
+          "P": "pending",
+          "R": "established"
+        },
+        "rawScore": null,
+        "adjustedScore": null,
+        "conditional": null,
+        "rationale": {
+          "D": "Culture substrate utilisation and the explicitly in vitro donor-rescue endpoint directly match the bounded proposition.",
+          "B": "Unresolved: later cross-feeding controls cannot substitute for the original donor-rescue design, handling and confounder appraisal. Missing full methods are not B0.",
+          "P": "Unresolved: indexed Methods recover triplicate incubations, but original rescue effect uncertainty and independence of those replicates are not adequately resolved. Later culture estimates cannot establish precision for this component; missing extraction is not P0.",
+          "R": "Crost independently cultured the shared R. bromii strain with another partner and measured cross-feeding; this partially confirms the processing component. Shared investigator/strain, different partner and no repeat donor rescue preclude R2."
+        },
+        "limitations": [
+          "Cultures and one donor-community rescue are not a human oral intervention, universal response or clinical outcome. A full-text location exists, but the previous appraisal did not recover and verify complete original methods/results; availability is not completed inspection.",
+          "Assessment is provisional and not qualified-human reviewed. SEC does not establish dietary efficacy or alter admissions."
+        ],
+        "sources": {
+          "supporting": [
+            "ze_resistant_starch_2012"
+          ],
+          "contextual": [],
+          "contradictory": [],
+          "contradictoryAssessment": "Null and context-dependent outcomes retained in the targeted appraisals. Different substrates, gene families, models and endpoints are not interchangeable replication. Search was targeted rather than an exhaustive systematic review.",
+          "targetedChecks": [
+            {
+              "doi": "10.1038/ismej.2012.4",
+              "role": "load-bearing primary",
+              "access": "Primary abstract and indexed primary Methods/figure excerpts, plus existing canonical extraction. PMC/Europe PMC/BioC, publisher and Oxford attempts did not recover complete original results and uncertainty in this review.",
+              "assessment": "Four-species cultures and one donor RS3 rescue support the stated in vitro result. Indexed Methods identify three control donors and one low-fermenting donor, standardised bacterial inocula, sugar assays/qPCR over 48 hours and triplicate incubations. Those triplicates are not three independent donors. Complete rescue results, uncertainty and donor-specific confounder appraisal remain incomplete."
+            },
+            {
+              "doi": "10.3389/fmicb.2018.02558",
+              "role": "partial confirmation",
+              "access": "NCBI BioC full article Methods and Results (PMC6231298), retrieved 2026-11-02.",
+              "assessment": "Independent cultures with an overlapping research collaborator and the same R. bromii strain support RS cross-feeding to R. gnavus using qPCR, NMR and transcriptomics (three/four biological replicates). They do not repeat Ze’s single-donor RS3 rescue or all substrate preparations."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://doi.org/10.1038/ismej.2012.4",
+              "limitation": "Primary abstract and indexed primary Methods/figure excerpts, plus existing canonical extraction. PMC/Europe PMC/BioC, publisher and Oxford attempts did not recover complete original results and uncertainty in this review."
+            }
+          ]
+        },
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-11-02",
+            "decision": "Initial partial appraisal; B/P unresolved, no total assigned. Existing Finding remains active."
+          },
+          {
+            "version": 2,
+            "date": "2026-11-02",
+            "decision": "Track separate bias/control and precision appraisal tasks; clarify accessible location versus verified extraction. No numerical factor, proposition or admission changed."
+          }
+        ],
+        "assessmentComplete": false,
+        "completenessVersion": 1,
+        "assessmentGaps": [
+          {
+            "id": "PM4-F3-ASSESSMENT-B-1",
+            "pmId": "BRS5-FM2-PM4",
+            "findingId": "PM4-F3",
+            "dimensions": [
+              "B"
+            ],
+            "sources": [
+              "10.1038/ismej.2012.4"
+            ],
+            "reason": "Unresolved: later cross-feeding controls cannot substitute for the original donor-rescue design, handling and confounder appraisal. Missing full methods are not B0.",
+            "attempts": [
+              {
+                "date": "2026-11-02",
+                "action": "Prior appraisal attempted PMC, Europe PMC/BioC, publisher and Oxford retrieval; inspected indexed Methods/figure excerpts.",
+                "outcome": "Triplicate incubations and donor context recovered; complete original rescue design and effect uncertainty not verified. This records prior attempts, not a new failed retrieval."
+              }
+            ],
+            "resolutionAction": "Retrieve and inspect original donor-rescue methods, controls, inoculum handling and donor-specific confounders; reassess B under the existing rubric.",
+            "status": "pending",
+            "history": [
+              {
+                "date": "2026-11-02",
+                "decision": "Pending appraisal task recorded from version 1 limitation; not adjudicated unassessable."
+              }
+            ],
+            "evidenceGapIds": []
+          },
+          {
+            "id": "PM4-F3-ASSESSMENT-P-1",
+            "pmId": "BRS5-FM2-PM4",
+            "findingId": "PM4-F3",
+            "dimensions": [
+              "P"
+            ],
+            "sources": [
+              "10.1038/ismej.2012.4"
+            ],
+            "reason": "Unresolved: indexed Methods recover triplicate incubations, but original rescue effect uncertainty and independence of those replicates are not adequately resolved. Later culture estimates cannot establish precision for this component; missing extraction is not P0.",
+            "attempts": [
+              {
+                "date": "2026-11-02",
+                "action": "Prior appraisal attempted PMC, Europe PMC/BioC, publisher and Oxford retrieval; inspected indexed Methods/figure excerpts.",
+                "outcome": "Triplicate incubations and donor context recovered; complete original rescue design and effect uncertainty not verified. This records prior attempts, not a new failed retrieval."
+              }
+            ],
+            "resolutionAction": "Inspect original rescue results, figures and supplementary methods; distinguish biological and technical replication and extract effect uncertainty before reassessing P.",
+            "status": "pending",
+            "history": [
+              {
+                "date": "2026-11-02",
+                "decision": "Pending appraisal task recorded from version 1 limitation; not adjudicated unassessable."
+              }
+            ],
+            "evidenceGapIds": []
+          }
+        ]
+      }
     }
   ]
 }

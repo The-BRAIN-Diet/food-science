@@ -1,0 +1,399 @@
+[
+  {
+    "file": "docs/foods/almonds.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with legumes for lysine complementarity; grains are typically lysine-limited and are not a lysine rescue for almonds [4].\n\n",
+      "### Preparation\n\n- Prefer plain whole or slivered almonds over heavily salted or sugar-coated products.\n- Soaking can remain an optional texture or tolerability preference. Direct almond research does not support soaking as a mineral-bioavailability strategy: phytate changes were small (−12% to +10%) and mineral concentrations often fell, especially in chopped nuts [5]. Soaking also did not improve gastrointestinal tolerance [6].\n\n",
+      "## References\n\n[1] Jung et al. (2018). [The effect of almonds on vitamin E status and cardiovascular risk factors in Korean adults: a randomized clinical trial](/docs/papers/BRAIN-Diet-References#jung_almonds_vitamin_e_2018). Randomized trial in overweight/obese Korean adults: 56 g almonds/day increased plasma α-tocopherol and lowered total, LDL and non-HDL cholesterol versus an isocaloric cookie.\n\n[2] Berryman et al. (2015). [Effects of Daily Almond Consumption on Cardiometabolic Risk and Abdominal Adiposity in Healthy Adults With Elevated LDL-Cholesterol: A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#berryman_almonds_2015). Controlled-feeding crossover in adults with elevated LDL-C: 1.5 oz almonds/day substituted for an isocaloric muffin lowered LDL-C, non-HDL-C and abdominal fat.\n\n[3] Tan & Mattes (2013). [Appetitive, dietary and health effects of almonds consumed with meals or as snacks: a randomized, controlled trial](/docs/papers/BRAIN-Diet-References#tan_almonds_2013). Randomized trial: 43 g almonds/day with meals or as snacks lowered post-meal glucose; snack intake reduced hunger, and body weight did not increase over four weeks.\n\n[4] Mariotti & Gardner (2019). [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Review of vegetarian protein and amino acids: nut and seed proteins are typically lysine-limited, as are cereal proteins; legumes are the lysine-rich plant complement.\n\n[5] Kumari et al. (2020). [Does ‘activating’ nuts affect nutrient bioavailability?](/docs/papers/BRAIN-Diet-References#kumari_activating_nuts_2020). Soaking whole and chopped almonds changed phytate by only −12% to +10%, lowered mineral concentrations especially in chopped nuts, and did not improve phytate:mineral molar ratios.\n\n[6] Taylor et al. (2018). [The effects of ‘activating’ almonds on consumer acceptance and gastrointestinal tolerance](/docs/papers/BRAIN-Diet-References#taylor_activating_almonds_2018). 30 g/day soaked almonds did not improve gastrointestinal tolerance or acceptance; whole soaked almonds had higher phytate than unsoaked (563 vs 531 mg/100 g).\n"
+    ]
+  },
+  {
+    "file": "docs/foods/amaranth.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with legumes and other grains for dietary variety; this is not lysine complementarity of the wheat–legume type [1].\n\n",
+      "### Preparation\n\n- Rinse before cooking to reduce the small saponin amounts reported in amaranth grain [2].\n- Germination has been reported to reduce phytic acid by about 30% and oxalate by about 38% and to improve in-vitro protein digestibility [3].\n- Fermentation can improve digestibility while still reducing some lysine; popping can reduce lysine and digestibility, so processing choice is not simply “reduces antinutrients” [1].\n- Can be used in porridge, baked goods, or fermented breads. Nitrate data from amaranth leaves should not be applied to this grain page [2].\n\n",
+      "## References\n\n[1] Amare et al. (2015). [Protein Quality of Amaranth Grains Cultivated in Ethiopia as Affected by Popping and Fermentation](/docs/papers/BRAIN-Diet-References#amare_amaranth_2015). Three Ethiopian amaranth grain varieties had lysine 65–74 mg/g protein, close to legumes and about twice that of common cereals; popping reduced total lysine by about 36% and in-vitro protein digestibility by 8.3–17.1%, while fermentation reduced lysine by about 20% and increased digestibility by 4.8–7.5%.\n\n[2] Jan et al. (2023). [Amaranth and quinoa as potential nutraceuticals: A review of anti-nutritional factors, health benefits and their applications in food, medicinal and cosmetic sectors](/docs/papers/BRAIN-Diet-References#jan_amaranth_quinoa_2023). Review of amaranth-grain antinutritional factors, including seed phytic acid of 2.9–7.9 g/kg; germination, fermentation and cooking can reduce some antinutrients, and nitrate findings for leaves are not grain composition.\n\n[3] Hejazi et al. (2016). [Improvement of the in vitro protein digestibility of amaranth grain through optimization of the malting process](/docs/papers/BRAIN-Diet-References#hejazi_amaranth_malting_2016). Optimized germination reduced phytic acid by about 30% and oxalate by about 38% in amaranth grain and improved in-vitro protein digestibility; tannin increased, so processing is not uniformly beneficial.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/barley.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Include among other whole grains rather than relying on barley alone.\n\n",
+      "## References\n\n[1] Mariotti & Gardner (2019). [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Dietary-pattern evidence for obtaining adequate amino acids from varied plant-protein sources; not a barley composition study.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/beetroot.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Preparation\n\n- Preparation can change nitrate and pigment content; published values vary substantially among cultivars and products [1].\n- Roasting is useful for flavour; it does not turn beetroot into a nitrate extract.\n\n",
+      "## References\n\n[1] Milton-Laskibar et al. (2021). [Current Knowledge on Beetroot Bioactive Compounds: Role of Nitrate and Betalains in Health and Disease](/docs/papers/BRAIN-Diet-References#milton_laskibar_beetroot_2021). Beetroot-specific review describing nitrate and betalains as major bioactive constituents and documenting substantial variation with variety and processing.\n\n<span id=\"food-source-2\" />\n\n[2] [Current Knowledge on Beetroot Bioactive Compounds: Role of Nitrate and Betalains in Health and Disease (2021)](/docs/papers/BRAIN-Diet-References#food_composition_e9d2786d6670)\n\n<span id=\"food-source-3\" />\n\n[3] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/169145/nutrients)\n\n<span id=\"food-source-4\" />\n\n[4] Zeisel et al. (2003). [Concentrations of Choline-Containing Compounds and Betaine in Common Foods](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003). Table 1, corrected by the [erratum](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003_erratum), reports **128.63 mg betaine per 100 g of raw beets**, NDB 11080, shown as 129 mg. Canned beets in that table are 333.69 mg per 100 g. USDA Release 2 reports 130 mg per 100 g for the same raw NDB. This is separate from the main nutrient panel.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/black-beans.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with grains for complete amino acid profile; grain–legume complementarity improves essential amino-acid coverage.\n- Pair with vitamin C-rich foods to enhance non-heme iron absorption [3].\n\n",
+      "### Preparation\n\n- In the cited controlled processing study, endogenous phytase performed best near 60°C and pH 6.0; this is not equivalent to a validated household lemon-or-vinegar recipe [1].\n- Cook beans thoroughly after soaking.\n\n",
+      "## References\n\n[1] Soaking and cooking can reduce myo-inositol phosphates that limit mineral absorption in black beans; this paper measured phytate reduction in black beans (Phaseolus vulgaris). Greiner & Konietzny 1999. [Improving enzymatic reduction of myo-inositol phosphates with inhibitory effects on mineral absorption in black beans](/docs/papers/BRAIN-Diet-References#greiner_improving_1999)\n\n[2] Mariotti & Gardner (2019). [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Dietary-pattern evidence for complementary plant-protein sources; not evidence for black-bean polyphenol content or a black-bean feeding trial.\n\n[3] Hallberg et al. (1989). [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989). Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food.\n\n[4] <span id=\"food-source-4\" />Fabbri, Schacht and Crosby (2016). [Evaluation of resistant starch content of cooked black beans, pinto beans, and chickpeas](https://doi.org/10.1016/j.nfs.2016.02.002). Cooked black beans contained about 3–5 g resistant starch per 100 g dry weight. Raw beans in the same assay were about 31 g per 100 g dry weight.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/broccoli-sprouts.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Fits well within a broader cruciferous rotation including broccoli, cabbage, kale, cauliflower, and radish\n- Works best in minimally heated meals where active myrosinase is preserved\n- Pairs well with salads, bowls, eggs, wraps, sandwiches, and fermented-food meals where a small amount adds a high-value phytochemical signal\n\n",
+      "### Preparation\n\n- Best eaten raw or only very lightly heated if the goal is sulforaphane formation\n- Chopping and chewing help activate myrosinase, which converts glucoraphanin into sulforaphane\n- Prolonged heat reduces myrosinase activity and lowers conversion potential\n- Because raw sprouts carry higher microbial risk than mature broccoli, higher-risk groups should avoid raw sprouts or cook them thoroughly\n\n",
+      "## References\n\n[1] Houghton et al. (2016). [Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016). Constituent-level review of glucoraphanin, myrosinase and sulforaphane formation; not a fresh-sprout feeding trial.\n\n[2] Egner et al. (2014). [Rapid and Sustainable Detoxication of Airborne Pollutants by Broccoli Sprout Beverage: Results of a Randomized Clinical Trial in China](/docs/papers/BRAIN-Diet-References#egner_broccoli_sprout_beverage_2014). Twelve-week randomised trial of a quantified broccoli-sprout beverage (600 µmol glucoraphanin and 40 µmol sulforaphane daily): urinary mercapturic-acid markers rose for benzene and acrolein, not crotonaldehyde. Manufactured beverage, not blended fresh sprouts.\n\n<span id=\"food-source-3\" />\n\n[3] [Intensifying sulforaphane formation in broccoli sprouts (2018)](/docs/papers/BRAIN-Diet-References#food_composition_756c933c559c)\n\n<span id=\"food-source-4\" />\n\n[4] [Norwegian Food Composition Table](https://www.matvaretabellen.no/en/broccoli-sprouts-raw/)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/broccoli.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Include broccoli with a varied meal rather than treating it as a sulforaphane dose.\n\n",
+      "### Preparation\n\n- Chopping or chewing lets broccoli myrosinase meet glucoraphanin and form sulforaphane [1].\n- In the Okunade sous-vide series at 100 °C, myrosinase activity fell by 40% after 2 minutes and by 90% after 6 minutes. None was measurable after 8 minutes. The feeding meal was cooked for 20 minutes [4].\n- After that long cook, urinary sulforaphane-NAC was still detected. The authors read that remainder as conversion by gut microbes, and it varied between the 12 adults [4].\n- Adding 1 g brown mustard powder after cooking supplied active myrosinase. In the florets, 8.58 / 1.06 = 8.1, reported as an 8-fold rise. In urine, 44.7 / 9.8 = 4.6 from the published means. The average of each person's increase was 4.7-fold, from 1.7-fold to 10-fold [4].\n\n",
+      "## References\n\n[1] Houghton et al. (2016). [Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016). Constituent-level review of broccoli-derived sulforaphane and glucoraphanin–myrosinase conversion; not a broccoli feeding trial.\n\n<span id=\"food-source-2\" />\n\n[2] [Broccoli sprouts: An exceptionally rich source of inducers (1997)](/docs/papers/BRAIN-Diet-References#food_composition_8733e3bce0a9)\n\n<span id=\"food-source-3\" />\n\n[3] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/170379/nutrients)\n\n<span id=\"food-source-4\" />\n\n[4] Okunade et al. (2018). [Supplementation of the diet by exogenous myrosinase via mustard seeds to increase the bioavailability of sulforaphane in healthy human subjects after the consumption of cooked broccoli](/docs/papers/BRAIN-Diet-References#okunade_sulforaphane_2018). Twelve adults ate 200 g sous-vide broccoli, with and without 1 g brown mustard powder. Sulforaphane in the florets is reported per g dry weight, and the urinary metabolite per g creatinine. Neither figure is a sulforaphane amount for every 100 g of broccoli.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/buckwheat.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair buckwheat with legumes, vegetables or other protein foods for meal variety.\n\n",
+      "### Preparation\n\n- Rinse before cooking to remove any debris\n- Use gentle simmering and avoid overcooking to preserve texture and practical meal quality.\n\n",
+      "## References\n\n[1] Mariotti & Gardner (2019). [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Dietary-pattern context for varied plant-protein intake; not a buckwheat composition or digestibility study.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/cacao-powder.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with vitamin C–rich foods when using cacao as an iron contributor in plant-based meals.\n- Combine with protein- and fibre-containing foods (yogurt, oats, seeds, legumes) to improve palatability of high-polyphenol patterns.\n\n",
+      "### Preparation\n\n- Favour no-heat or low-heat applications (smoothies, overnight oats, raw desserts) when aiming to preserve native flavanol content.\n- Store airtight in a cool, dry place away from light to limit oxidation.\n- If used in baked or heated recipes, expect flavour and bioactive profile to shift with temperature and process [1].\n\n",
+      "## References\n\n[1] Payne et al. (2011). [Impact of fermentation, drying, roasting and Dutch processing on flavan-3-ol stereochemistry in cacao beans and cocoa ingredients](/docs/papers/BRAIN-Diet-References#paynter_flavan3ol_cocoa_processing_2011). If used in baked or heated recipes, expect flavour and bioactive profile to shift with temperature and process.\n\n[2] Schroeter et al. (2006). [(-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans](/docs/papers/BRAIN-Diet-References#schroeter_epicatechin_flavanol_cocoa_vascular_2006). Mechanistic and clinical work links cocoa flavanol intake — particularly epicatechin — to vascular function endpoints.\n\n[3] Neshatdoust et al. (2016). [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016). High-flavonoid dietary patterns have been associated with cognitive improvements in controlled feeding studies.\n\n[4] Hands et al. (2024). [A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)\n\n[5] Godebo et al. (2024). [Occurrence of heavy metals coupled with elevated levels of essential elements in chocolates: Health risk assessment](/docs/papers/BRAIN-Diet-References#godebo_occurrence_2024). Select low-Cd/Pb origins with published contaminant testing where available; Latin American origins often show higher cadmium than West African beans, mainly reflecting soil geology.\n\n[6] Zhai et al. (2015). [Dietary Strategies for the Treatment of Cadmium and Lead Toxicity](/docs/papers/BRAIN-Diet-References#zhai_dietary_2015). Pair with calcium- and zinc-containing foods as part of a broader strategy that may help reduce cadmium uptake over time.\n\n<span id=\"food-source-7\" />\n\n[7] [Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease](/docs/papers/BRAIN-Diet-References#food_composition_12a9ef0926ab)\n\n<span id=\"food-source-8\" />\n\n[8] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/169593/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/cashews.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Soak to reduce phytates and improve zinc bioavailability; soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability\n- Part of diverse nut/seed intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience\n- Pair with animal proteins or vitamin C for better zinc absorption\n\n",
+      "### Preparation\n\n- Supports zinc sufficiency; zinc is critical for neurotransmitter modulation, synaptic plasticity, and antioxidant enzyme function\n\n",
+      "## References\n"
+    ]
+  },
+  {
+    "file": "docs/foods/chia-seeds.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of diverse seed intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience\n- Limited ALA-to-DHA conversion; consider algal DHA for direct omega-3 support; conversion from ALA is less than 5% in most adults\n\n",
+      "### Preparation\n\n- Can be consumed raw, soaked, or in recipes; soaking creates gel-like consistency\n- Supports gut health via soluble fiber; prebiotic fibres support Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier\n\n",
+      "## References\n\n[1] ALA omega-3 and very high fibre per 100 g; typical portions are 1–2 tablespoons. NIH 2025. [Omega-3 Fatty Acids: Fact Sheet for Health Professionals](/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_2025)\n\n[2] Lysine-limited plant protein; pair with legumes. Mariotti & Gardner 2019. [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/chickpeas.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Soak and cook thoroughly to reduce phytates and improve mineral bioavailability; soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability\n- Pair with grains for complete amino acid profile; combine with grains like barley or oats for amino acid complementarity\n- Pair with vitamin C to enhance iron absorption, with studies showing up to a fourfold increase when consumed together\n- Part of grain-legume complementarity strategy\n\n",
+      "### Preparation\n\n- Legumes such as lentils and chickpeas provide complex carbs and fiber\n\n",
+      "## References\n\n[1] <span id=\"food-source-1\" />Fabbri, Schacht and Crosby (2016). [Evaluation of resistant starch content of cooked black beans, pinto beans, and chickpeas](https://doi.org/10.1016/j.nfs.2016.02.002). Cooked chickpeas stayed within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas were 4.32 g per 100 g of the dried sample.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/chicory-root.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of diverse prebiotic fiber strategy\n\n",
+      "### Preparation\n\n- Can be consumed as root vegetable or coffee substitute\n- High inulin content\n- Supports Bifidobacterium and Akkermansia\n\n",
+      "## References\n\n[1] High inulin content — fermentable prebiotic fibre. Pouille & Ouaza 2022. [Chicory: Understanding the Effects and Effectors of This Functional Food](/docs/papers/BRAIN-Diet-References#pouille_chicory_2022)\n\n[2] Prebiotic intake studied for cortisol and emotional-bias endpoints. Schmidt & Cowen 2015. [Prebiotic intake reduces the waking cortisol response and alters emotional bias in healthy volunteers](/docs/papers/BRAIN-Diet-References#schmidt_prebiotic_2015)\n\n<span id=\"food-source-3\" />\n\n[3] [Chicory roots, raw (Cichorium intybus), USDA SR Legacy FDC 169993](https://tools.myfooddata.com/nutrition-facts/169993/wt1)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/cocoa.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of a diverse polyphenol intake strategy alongside berries, tea, extra virgin olive oil, and other flavanol sources.\n- Pair with vitamin C–rich foods when using cocoa as a plant-based iron contributor.\n- Combine with protein- and fibre-containing foods (oats, yogurt, seeds, legumes) to improve palatability of high-polyphenol patterns.\n\n",
+      "### Preparation\n\n- Favour no-heat or low-heat applications when aiming to preserve remaining flavanol content.\n- Store airtight in a cool, dry place away from light.\n- If using in heated recipes, expect further flavour and bioactive shifts with temperature and process [1].\n\n",
+      "## References\n\n[1] Payne et al. (2011). [Impact of fermentation, drying, roasting and Dutch processing on flavan-3-ol stereochemistry in cacao beans and cocoa ingredients](/docs/papers/BRAIN-Diet-References#paynter_flavan3ol_cocoa_processing_2011). If using in heated recipes, expect further flavour and bioactive shifts with temperature and process.\n\n[2] Schroeter et al. (2006). [(-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans](/docs/papers/BRAIN-Diet-References#schroeter_epicatechin_flavanol_cocoa_vascular_2006). Mechanistic and clinical work links cocoa flavanol intake — particularly epicatechin — to vascular function endpoints.\n\n[3] Neshatdoust et al. (2016). [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016). High-flavonoid dietary patterns have been associated with cognitive improvements in controlled feeding studies.\n\n[4] Hands et al. (2024). [A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)\n\n[5] Godebo et al. (2024). [Occurrence of heavy metals coupled with elevated levels of essential elements in chocolates: Health risk assessment](/docs/papers/BRAIN-Diet-References#godebo_occurrence_2024). **Heavy metals:** apply the same sourcing principles as [`Dark Chocolate`](/docs/foods/dark-chocolate) — choose low-Cd/Pb origins with strong post-harvest controls, and note that Latin American origins often show higher cadmium than West African beans, mainly reflecting soil geology.\n\n[6] Zhai et al. (2015). [Dietary Strategies for the Treatment of Cadmium and Lead Toxicity](/docs/papers/BRAIN-Diet-References#zhai_dietary_2015). Pair with calcium- and zinc-containing foods as part of a broader strategy that may help reduce cadmium uptake over time.\n\n<span id=\"food-source-7\" />\n\n[7] [Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease](/docs/papers/BRAIN-Diet-References#food_composition_12a9ef0926ab)\n\n<span id=\"food-source-8\" />\n\n[8] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/169593/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/dark-chocolate.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "## References\n\n[1] Concentrated cocoa flavanols, with evidence linking high flavonoid intake to cognitive improvements. Neshatdoust & Saunders 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)\n\n[2] Mechanistic endpoints in vascular biology implicate endothelial nitric-oxide related pathways as part of flavonoid-associated vascular regulation. Schroeter & Heiss 2006. [(-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans](/docs/papers/BRAIN-Diet-References#schroeter_epicatechin_flavanol_cocoa_vascular_2006)\n\n[3] Heavy-metal variability across products means sourcing and cocoa % selection matter for regular intake. Hands & Anderson 2024. [Multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)\n\n[4] Cacao from many Latin American origins (e.g. Peru/Ecuador, parts of Central/South America) tends to show higher cadmium concentrations than West African origins (e.g. Ghana/Ivory Coast), and this pattern is mainly geogenic (soil geology background) rather than a simple marker of farm quality. Godebo & Stoner 2024. [Occurrence of heavy metals in chocolates and health risk assessment (origin and geogenic context)](/docs/papers/BRAIN-Diet-References#godebo_occurrence_2024)\n\n<span id=\"food-source-5\" />\n\n[5] [Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease](/docs/papers/BRAIN-Diet-References#food_composition_12a9ef0926ab)\n\n<span id=\"food-source-6\" />\n\n[6] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/170273/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/flax-seeds.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of diverse seed intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience\n- Limited ALA-to-DHA conversion; consider algal DHA for direct omega-3 support; conversion from ALA is less than 5% in most adults\n\n",
+      "### Preparation\n\n- Grind for better ALA absorption (whole seeds may pass through undigested)\n- Store ground seeds in refrigerator to prevent oxidation of omega-3s\n\n",
+      "## References\n\n[1] NIH (2025). [Omega-3 Fatty Acids: Fact Sheet for Health Professionals](/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_2025). Constituent-level fact sheet on ALA conversion limits; not a flax-seed feeding trial.\n\n[2] Mariotti & Gardner (2019). [Dietary protein and amino acids in vegetarian diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Plant-protein dietary-pattern evidence for limiting amino acids and complementarity; not a flax-seed trial.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/greek-yogurt.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of fermented foods strategy; fermented foods provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling\n- Supports gut microbiome diversity; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience\n- Pair with berries/nuts for polyphenol synergy; practical pairings: berries + greek yogurt/nuts\n\n",
+      "## References\n\n[1] Fermentation goes further: lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels. LeBlanc & Laiño 2011. [B-Group vitamin production by lactic acid bacteria - current knowledge and potential applications: Vitamin production by LAB](/docs/papers/BRAIN-Diet-References#leblanc_b-group_2011)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/kidney-beans.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Soak and cook thoroughly to reduce phytates and improve mineral bioavailability; soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability\n- Pair with grains for complete amino acid profile; pair with whole grains or seeds for amino acid complementarity\n- Pair with vitamin C to enhance iron absorption, with studies showing up to a fourfold increase when consumed together\n- Part of grain-legume complementarity strategy; grain-legume complementarity improves essential amino-acid coverage\n\n",
+      "## References\n\n"
+    ]
+  },
+  {
+    "file": "docs/foods/lupin-beans.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with whole grains to improve methionine/cysteine balance across meals.\n- Combine with vitamin-C-rich vegetables to support non-heme iron utilization.\n\n",
+      "### Preparation\n\n- Dry lupins require soaking and thorough cooking/debittering before use.\n- Brined ready-to-eat lupin beans are convenient but often higher in sodium; rinse when needed.\n\n",
+      "## References\n\n[1] FAO (2013). [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)\n\n[2] Mariotti & Gardner (2019). [Dietary protein and amino acids in vegetarian diets: a review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/milk.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "## References\n\n[1] FAO (2013). [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013). Protein-quality framework and reference data supporting milk protein as a complete, highly digestible protein source. <span id=\"food-source-1\"></span>\n\n[2] Trammell et al. (2016). [Nicotinamide Riboside Is a Major NAD+ Precursor Vitamin in Cow Milk](/docs/papers/BRAIN-Diet-References#trammell_nr_milk_2016). Primary LC-MS/MS occurrence evidence; no concentration is extrapolated to the USDA whole-milk material or an effective food dose. <span id=\"food-source-2\"></span>\n"
+    ]
+  },
+  {
+    "file": "docs/foods/nori.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of diverse plant food intake strategy\n\n",
+      "### Preparation\n\n- Commonly used in sushi rolls and as a garnish\n- Important for iodine intake, especially in plant-based diets\n- Folate and iron contributions are context-dependent and work best as part of a varied diet\n- Seaweed polysaccharides provide cumulative gut health benefits when consumed regularly\n\n",
+      "## References\n\n[1] Seaweed foods may contribute variable vitamin B12 compounds; nori should not be relied on as a sole B12 source. Watanabe et al. 2002. [Characterization and Bioavailability of Vitamin B12-Compounds from Edible Algae.](/docs/papers/BRAIN-Diet-References#watanabe_characterization_2002)\n\n[2] [MEXT food 09004: dried, toasted purple laver](https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100). Preparation-specific composition source for the nutrition panel.\n\n<span id=\"food-source-3\" />\n\n[3] [MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food 09004](https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100)\n\n<span id=\"food-source-4\" />\n\n[4] [Effect of roasted purple laver (nori) on vitamin B12 nutritional status of vegetarians (2024)](/docs/papers/BRAIN-Diet-References#food_composition_d353427cdc28)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/oats.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with tryptophan-rich proteins for serotonin synthesis; pair tryptophan-rich proteins with moderate carbs to increase Trp:LNAA ratio\n- Best consumed in evening for calming effect; timing midday or evening for calming effect\n- Lysine is often the lower ratio in grains, and methionine plus cysteine are proportionally slightly lower in legumes. Eating both across the day covers those ratios. The same meal is optional [2]\n- Tryptophan + complex carbohydrates aid serotonin conversion to melatonin; examples include pumpkin seeds + oats\n\n",
+      "### Preparation\n\n- Soak overnight to reduce phytates and improve mineral bioavailability\n\n",
+      "## References\n\n[1] Food and Agriculture Organization of the United Nations (2013). [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013). Scoring pattern for older children, adolescents and adults: lysine 48 mg/g protein and sulfur amino acids 23 mg/g protein. Applied to the dry oats on this page (FDC 169705; 16.89 g protein, 0.701 g lysine, 0.312 g methionine and 0.408 g cystine per 100 g): lysine 41.5 mg/g protein, uncorrected score 0.86; methionine plus cystine 42.6 mg/g protein, uncorrected score 1.85. Lysine is the lowest indispensable ratio on that pattern. Composition arithmetic, not an FAO oat trial and not PDCAAS or DIAAS.\n\n[2] Mariotti and Gardner (2019). [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Lysine is proportionally low in grains, and methionine plus cysteine are proportionally slightly low in legumes. The review treats “complete” and “incomplete” as misleading and finds no requirement to combine complementary proteins in the same meal when intake is varied across the day. Not an oat digestibility trial.\n\n[3] Sean Davies (2018). [Oatmeal Effect on N-acyl-phosphatidylethanolamines](/docs/papers/BRAIN-Diet-References#sean_davies_oatmeal_2018). Trial registration proposing that one oatmeal meal would raise serum NAPE and NAE. This page does not use it as evidence of an oat effect.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/peanuts.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of diverse plant protein strategy; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience\n- Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage\n\n",
+      "### Preparation\n\n- Choose dry-roasted or raw over oil-roasted to preserve nutrients and avoid excess omega-6\n- Soak to reduce phytates and improve mineral bioavailability\n\n",
+      "## References\n\n"
+    ]
+  },
+  {
+    "file": "docs/foods/pumpkin-seeds.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Soak to reduce phytates and improve mineral bioavailability; soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability\n- Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage\n- Pair with complex carbs for tryptophan-to-serotonin conversion; tryptophan + complex carbohydrates aid serotonin conversion to melatonin; examples include pumpkin seeds + oats\n\n",
+      "### Preparation\n\n- Plant zinc less bioavailable due to phytates; soaking/sprouting helps improve bioavailability\n\n",
+      "## References\n\n[1] Mariotti & Gardner (2019). [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/quinoa.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair quinoa with legumes (e.g. lentils, chickpeas, beans) to improve overall essential amino-acid balance at meal/day level [1,2].\n\n",
+      "### Preparation\n\n- Rinse before cooking to reduce residual saponin bitterness (even when labeled pre-washed).\n- Use gentle boiling/steaming and avoid overcooking to preserve texture and improve practical meal adherence.\n\n",
+      "## References\n\n[1] FAO (2013). [Protein quality evaluation framework (DIAAS)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)\n\n[2] Mariotti & Gardner (2019). [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Within the BRAIN Diet framework, quinoa works well as a rotating whole-grain/pseudograin option that supports mineral intake, fibre intake, and overall diet diversity.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/salmon-roe.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with vegetables and whole grains as a flavour-dense, small-portion ingredient rather than a bulk protein source.\n- Vitamin C–rich foods support iron balance in mixed meals (roe provides modest iron).\n\n",
+      "### Preparation\n\n- Traditionally eaten **cold** or lightly warmed (on rice, in sushi, or as a spoonful) to limit heat damage to unsaturated fats.\n- Avoid prolonged high heat; treat as a delicate fat + protein ingredient.\n- If the roe tastes heavily cured, a brief rinse in clean cold water followed by thorough draining can remove surface brine and reduce saltiness. A very short cold-water soak may reduce it further, but the resulting sodium content cannot be calculated from the original label. Keep the roe cold and avoid prolonged soaking, which can impair texture [3].\n\n",
+      "## References\n\n[1] Liu et al. (2014). [Higher efficacy of dietary DHA provided as a phospholipid than as a triglyceride for brain DHA accretion in neonatal piglets](/docs/papers/BRAIN-Diet-References#liu_higher_2014). Neonatal piglets given a single oral dose of 13C-DHA as phosphatidylcholine accumulated about 1.9-fold more labeled DHA in brain gray matter than piglets given the same DHA as triglyceride.\n\n[2] Patrick (2019). [Role of phosphatidylcholine-DHA in preventing APOE4-associated Alzheimer's disease](/docs/papers/BRAIN-Diet-References#patrick_role_2019). Review: phosphatidylcholine-DHA can be converted to lysophosphatidylcholine-DHA, which uses MFSD2A transport into the brain more efficiently than triglyceride-bound or unesterified DHA. Mechanistic context for roe's phospholipid DHA, not a salmon-roe feeding study.\n\n[3] Shallcross et al. (2022). [Salmon Roe Caviar](/docs/papers/BRAIN-Diet-References#shallcross_salmon_caviar_2022)\n\n<span id=\"food-source-4\" />\n\n[4] [Yamaguchi et al. (2012), Journal of Oleo Science 61:505–513](/docs/papers/BRAIN-Diet-References#food_composition_838f60c581a0)\n\n<span id=\"food-source-5\" />\n\n[5] [Phospholipids of Animal and Marine Origin: Structure and Function (2018)](/docs/papers/BRAIN-Diet-References#food_composition_61edf925ad9f)\n\n<span id=\"food-source-8\" />\n\n[8] [MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food 10140, chum salmon salted roe (ikura)](https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/seaweed.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of diverse plant food strategy\n\n",
+      "### Preparation\n\n- Can be added to soups, stews, or salads\n- Important for iodine intake (especially for plant-based diets)\n- Low bioavailable EPA; consider algal oil for direct DHA\n\n",
+      "## References\n\n[1] Seaweed is a primary dietary iodine source supporting thyroid hormone synthesis. Arterburn et al. 2008. [Algal-oil capsules and cooked salmon: nutritionally equivalent sources of docosahexaenoic acid](/docs/papers/BRAIN-Diet-References#arterburn_algal_2008)\n\n[2] Marine algae contribute variable B12 analogues and should be interpreted cautiously for cobalamin status. Watanabe et al. 2002. [Characterization and Bioavailability of Vitamin B12-Compounds from Edible Algae.](/docs/papers/BRAIN-Diet-References#watanabe_characterization_2002)\n\n<span id=\"food-source-3\" />\n\n[3] [Seaweed bioactives: A comprehensive review of nutritional and functional roles (2026)](/docs/papers/BRAIN-Diet-References#food_composition_fd2ab56d3fe8)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/sesame-seeds.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with legumes to improve lysine coverage. Grains are typically lysine-limited as well and are not a lysine rescue for sesame [4].\n- A vitamin-C-rich food in the same meal can support non-haem iron absorption; that is mixed-meal iron evidence, not a sesame trial [6].\n- Dietary fat in the seed can help absorb carotenoids from vegetables eaten with it; the clinical demonstration used salad dressings, not sesame specifically [7].\n- Sesame counts once toward weekly plant diversity whether the form is seeds or tahini. “Thirty plants per week” is a practical target from observational microbiome work, not a proven biological threshold or an RCT-derived prescription [8].\n\n",
+      "### Preparation\n\n- Use whole, toasted or ground seed according to the dish. Grinding improves physical accessibility of nutrients but does not remove phytate or other antinutritional factors [1,6].\n- Toast for flavour if wanted; avoid treating darker roast as a health upgrade [2].\n\n",
+      "## References\n\n[1] Elleuch et al. (2007). [Quality characteristics of sesame seeds and by-products](/docs/papers/BRAIN-Diet-References#elleuch_sesame_2007). Whole seed, coat and dehulled fractions: a large share of the mineral load, including calcium, is located in the hull, so dehulling lowers measured calcium relative to whole seed.\n\n[2] Andargie et al. (2021). [Lignans of Sesame (Sesamum indicum L.): A Comprehensive Review](/docs/papers/BRAIN-Diet-References#andargie_sesame_lignans_2021). Sesamin and sesamolin are the major native lignans; content varies by cultivar, seed fraction and processing. Sesamol is a roasting and oil-processing product present only in traces in unroasted seed.\n\n[3] Wu et al. (2009). [Sesame supplementation does not improve cardiovascular disease risk markers in overweight men and women](/docs/papers/BRAIN-Diet-References#wu_sesame_2009). Randomised crossover (n = 33): 25 g/day sesame for five weeks (~50 mg/day sesame lignans) increased urinary enterolignans about eight-fold but did not change lipids, ambulatory blood pressure, CRP, IL-6, TNF-α or F2-isoprostanes.\n\n[4] Mariotti and Gardner (2019). [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Nut and seed proteins are typically lysine-limited, as are cereal proteins; legumes are the lysine-rich plant complement.\n\n[5] Adatia et al. (2017). [Sesame allergy: current perspectives](/docs/papers/BRAIN-Diet-References#adatia_sesame_allergy_2017). Clinical review: sesame is a priority food allergen with mandatory labelling in the EU, Canada and Australia, and a recognised cross-contamination risk.\n\n[6] Hallberg et al. (1989). [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989). Human iron-absorption series: phytate inhibits non-haem iron absorption in a dose-dependent way; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a sesame trial.\n\n[7] Brown et al. (2004). [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004). Human salad study of co-ingested dietary fat and carotenoid absorption. General lipid-phase mechanism; not a sesame-seed trial.\n\n[8] McDonald et al. (2018). [American Gut: an Open Platform for Citizen Science Microbiome Research](/docs/papers/BRAIN-Diet-References#mcdonald_american_gut_2018). Observational citizen-science cohort: self-reported intake of more than 30 plant types per week, versus 10 or fewer, associated with greater representation of putative fermenters. Not a randomised trial and not a proven threshold.\n\n[9] Muñoz-Esparza et al. (2021). [Occurrence of Polyamines in Foods and the Influence of Cooking Processes](/docs/papers/BRAIN-Diet-References#munoz_esparza_food_polyamines_2021). Analytical evidence for spermidine occurrence; food type and preparation affect composition.\n\n<span id=\"food-source-10\" />\n\n[10] [Sesame: A Comprehensive Review of Nutritional Value and Phytochemical Composition (2022)](/docs/papers/BRAIN-Diet-References#food_composition_d5966553a52d)\n\n<span id=\"food-source-11\" />\n\n[11] [Composition evidence for Spermidine](/docs/papers/BRAIN-Diet-References#food_composition_ab43fb9a34b0)\n\n<span id=\"food-source-12\" />\n\n[12] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/170150/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/sourdough-bread.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Preparation\n\n- Use a process that actually acidifies and ferments the dough if the aim is matrix transformation rather than sourdough flavouring.\n- Avoid excessive surface burning or very dark browning. Normal crust colour is not inherently dangerous. Acrylamide formation depends on free asparagine, reducing sugars, fermentation, surface temperature, baking time and browning; sourdough does not universally reduce it, and household glycine addition or a particular baking vessel is not a defining recommendation.\n- Cool and store as for other breads; refrigeration and staling can increase resistant starch through retrogradation, which is a storage effect rather than a sourdough-specific nutrient addition.\n\n",
+      "## References\n\n[1] Ribet et al. (2023). [Nutritional benefits of sourdoughs: A systematic review](/docs/papers/BRAIN-Diet-References#ribet_nutritional_2023). Twenty-five randomised trials (542 adults) comparing sourdough with yeast breads; glucose, satiety, gastrointestinal and cardiovascular outcomes were heterogeneous and depended on flour, microbes and fermentation conditions.\n\n[2] Gil-Cardoso et al. (2021). [Consumption of Sourdough Breads Improves Postprandial Glucose Response and Produces Sourdough-Specific Effects on Biochemical and Inflammatory Parameters and Mineral Absorption](/docs/papers/BRAIN-Diet-References#gil_cardoso_consumption_2021). Rat study: different sourdoughs and flours produced different glucose, insulin and mineral-absorption patterns versus a refined wheat control, so the finding is not a universal human low-GI claim.\n\n[3] Alkay et al. (2024). [Exploring the Nutritional Impact of Sourdough Fermentation: Its Mechanisms and Functional Potential](/docs/papers/BRAIN-Diet-References#alkay_exploring_2024). Review of fermentation mechanisms affecting starch, phytate, protein digestibility and FODMAPs.\n\n[4] Gänzle, Loponen and Gobbetti (2008). [Proteolysis in sourdough fermentations: mechanisms and potential for improved bread quality](/docs/papers/BRAIN-Diet-References#ganzle_proteolysis_2008). Cereal and microbial proteolysis, peptides and free amino acids; not a claim that ordinary sourdough is a high-quality protein food.\n\n[5] Gobbetti et al. (2014). [How the sourdough may affect the functional features of leavened baked goods](/docs/papers/BRAIN-Diet-References#gobbetti_how_2014). Acidification, enzyme activation, fibre/phytochemical matrix, mineral uptake conditions, metabolites including GABA and exopolysaccharides; process-dependent.\n\n[6] Coda, Rizzello and Gobbetti (2010). [Use of sourdough fermentation and pseudo-cereals and leguminous flours for the making of a functional bread enriched of γ-aminobutyric acid (GABA)](/docs/papers/BRAIN-Diet-References#coda_use_2010). Formulation-specific GABA enrichment using selected flours and fermentation; not a general sourdough property.\n\n<span id=\"food-source-7\" />\n\n[7] [Nutritional composition of bread as affected by ancient wheat flour and sourdough fermentation (2024)](/docs/papers/BRAIN-Diet-References#food_composition_c671c7f60ed1)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/spinach.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with vitamin C sources (citrus, bell peppers) to enhance non-haem iron absorption; Hallberg 1989 is mixed-meal iron-absorption evidence, not a spinach trial [Hallberg et al. 1989](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)\n- Pair with fat (olive oil, avocado) for carotenoid absorption\n\n",
+      "### Preparation\n\n- Boiling markedly reduced soluble oxalate content by 30–87% and was more effective than steaming (5–53%) across the vegetables tested, which included spinach [Chai and Liebman 2005](/docs/papers/BRAIN-Diet-References#chai_effect_2005). Soluble oxalate lost during boiling or steaming was recovered in the cooking water (approximately 100%), so discard that water when the aim is to lower oxalate load. Baking, used only for potatoes in the same study, produced no oxalate loss.\n- Oxalate binds to minerals and forms insoluble compounds, significantly reducing bioavailability; boiling helps mitigate this by leaching soluble oxalate into the discarded cooking water\n- Oxalate can influence mitochondrial and redox biology in experimental cell models; this is mechanistic context rather than spinach-feeding evidence, and relevance to typical dietary intakes remains uncertain [Chaiyarit and Thongboonkerd 2020](/docs/papers/BRAIN-Diet-References#chaiyarit_mitochondrial_2020).\n\n",
+      "## References\n\n[1] Boiling markedly reduced soluble oxalate content by 30–87% and was more effective than steaming (5–53%); oxalate lost in cooking was recovered in the cooking water (approximately 100%). Chai & Liebman 2005. [Effect of Different Cooking Methods on Vegetable Oxalate Content](/docs/papers/BRAIN-Diet-References#chai_effect_2005)\n\n[2] Oxalate can influence mitochondrial and redox biology in experimental cell models; this is mechanistic context rather than spinach-feeding evidence. Chaiyarit & Thongboonkerd 2020. [Mitochondrial Dysfunction and Kidney Stone Disease](/docs/papers/BRAIN-Diet-References#chaiyarit_mitochondrial_2020)\n\n[3] Hallberg et al. (1989). [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989). Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food.\n\n[4] Sommerburg et al. (1998). [Fruits and vegetables that are sources for lutein and zeaxanthin: the macular pigment in human eyes](/docs/papers/BRAIN-Diet-References#sommerburg_lutein_zeaxanthin_1998). Spinach lutein was 47 mol% of carotenoids, and zeaxanthin in the green vegetables they grouped with spinach was only a trace.\n\n<span id=\"food-source-5\" />\n\n[5] Zeisel et al. (2003). [Concentrations of Choline-Containing Compounds and Betaine in Common Foods](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003). Table 1, corrected by the [erratum](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003_erratum), reports 674.52 mg betaine per 100 g of raw spinach and 725.41 mg per 100 g of cooked spinach. The nutrition row uses the raw value. USDA Release 2 later reports 110–130 mg per 100 g for frozen spinach.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/sunflower-seeds.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of diverse seed intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience\n\n",
+      "### Preparation\n\n- Can be consumed raw or roasted; gentle roasting preserves nutrients\n- Supports mitochondrial function via thiamine; thiamine does not exist in a large brain \"reservoir\"; the CNS maintains small, tightly regulated intracellular pools that depend on continuous, transporter-mediated supply\n- Source of sunflower lecithin for choline support; vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli)\n\n",
+      "## References\n\n[1] Dhir et al. (2019). [Thiamine physiology and neuro-metabolic relevance](/docs/papers/BRAIN-Diet-References#dhir_neurological_2019). Abstract Enriching brain DHA is believed to be beneficial for the prevention and treatment of several neurological diseases, including Alzheimer’s disease.\n\n[2] Derbyshire & Maes (2023). [Choline as a practical nutrient target in dietary patterns](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)\n\n[3] Muñoz-Esparza et al. (2021). [Occurrence of Polyamines in Foods and the Influence of Cooking Processes](/docs/papers/BRAIN-Diet-References#munoz_esparza_food_polyamines_2021). Analytical evidence for spermidine occurrence; food type and preparation affect composition.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/swiss-chard.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with vitamin C sources to enhance iron absorption\n- Pair with fat (olive oil, avocado) for carotenoid absorption\n- Part of diverse leafy green strategy\n\n",
+      "### Preparation\n\n- Boiling reduces oxalates and improves mineral bioavailability\n- Can be used raw in salads or cooked in various dishes\n\n",
+      "## References\n\n[1] Leafy greens supply folate and B vitamins supporting one-carbon and neurochemical metabolism. Kennedy et al. 2016. [B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)\n\n[2] Green leafy vegetables contribute lutein and carotenoids relevant to neuroprotection. Johnson et al. 2014. [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/tempeh.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Part of fermented foods rotation; fermented foods provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling\n- Supports gut microbiome diversity; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience\n\n",
+      "### Preparation\n\n- Fermentation improves digestibility and nutrient bioavailability; lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels\n- Can be cooked various ways; gentle cooking preserves probiotics\n\n",
+      "## References\n\n[1] Part of fermented foods strategy; fermentation goes further: lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels. LeBlanc & Laiño 2011. [B-Group vitamin production by lactic acid bacteria - current knowledge and potential applications: Vitamin production by LAB](/docs/papers/BRAIN-Diet-References#leblanc_b-group_2011)\n\n[2] Muñoz-Esparza et al. (2021). [Occurrence of Polyamines in Foods and the Influence of Cooking Processes](/docs/papers/BRAIN-Diet-References#munoz_esparza_food_polyamines_2021). Analytical evidence for spermidine occurrence; food type and preparation affect composition.\n\n<span id=\"food-source-3\" />\n\n[3] [NTP-CERHR Expert Panel Report on Genistein (2006)](/docs/papers/BRAIN-Diet-References#food_composition_16903d08234b)\n\n<span id=\"food-source-4\" />\n\n[4] [Plant-based nutrition for healthcare professionals (2017), Table 2](/docs/papers/BRAIN-Diet-References#food_composition_ef7ae3829e4e)\n\n<span id=\"food-source-5\" />\n\n[5] [Composition evidence for Spermidine](/docs/papers/BRAIN-Diet-References#food_composition_ab43fb9a34b0)\n\n<span id=\"food-source-6\" />\n\n[6] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/174272/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/tofu.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage\n- Part of diverse plant protein strategy\n- High-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis\n\n",
+      "### Preparation\n\n- Can be prepared various ways (baked, fried, steamed); gentle cooking preserves nutrients\n\n",
+      "## References\n\n[1] Tofu supplies soy isoflavones such as genistein studied for neuroinflammatory and metabolic pathways. Fuloria et al. 2022. [Genistein: A Potential Natural Lead Molecule for New Drug Design and Development for Treating Memory Impairment](/docs/papers/BRAIN-Diet-References#fuloria_genistein_2022)\n\n[2] Hallberg et al. (1989). [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989). Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food.\n\n<span id=\"food-source-3\" />\n\n[3] [NTP-CERHR Expert Panel Report on Genistein (2006)](/docs/papers/BRAIN-Diet-References#food_composition_16903d08234b)\n\n<span id=\"food-source-4\" />\n\n[4] [USDA Database for the Choline Content of Common Foods, Release 2 (2008)](https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Choline/Choln02.pdf)\n\n<span id=\"food-source-5\" />\n\n[5] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/172475/nutrients)\n"
+    ]
+  },
+  {
+    "file": "docs/foods/walnuts.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair with other omega-3 sources for optimal DHA status (conversion from ALA is limited)\n- Higher polyphenol intake and microbial diversity increase urolithin A production from ellagitannins\n\n",
+      "### Preparation\n\n- Best consumed raw to preserve omega-3s and prevent oxidation\n- Soaking may improve digestibility and reduce antinutrients\n\n",
+      "## References\n\n[1] The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with higher total plasma polyphenols and with the microbiome-derived markers urolithin A (via ellagitannins: walnuts/pomegranate). Zelicha & Kloting 2022. [The effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)\n\n"
+    ]
+  },
+  {
+    "file": "docs/foods/wheat.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Synergies\n\n- Pair wheat with legumes (e.g. lentils, chickpeas, beans) to improve essential amino-acid balance at meal/day level [1,2].\n\n",
+      "### Preparation\n\n- Use minimally processed forms and avoid excessive refinement to preserve fibre and micronutrient density.\n\n",
+      "## References\n\n[1] FAO (2013). [Protein quality evaluation framework (DIAAS)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)\n\n[2] Mariotti & Gardner (2019). [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Wheat, especially in less-refined forms, provides complex carbohydrates, fibre, and minerals such as magnesium, iron, and zinc.\n"
+    ]
+  },
+  {
+    "file": "docs/foods/whole-grains.md",
+    "inputs": [
+      "magnesium"
+    ],
+    "sections": [
+      "### Preparation\n\n- Prefer minimally refined whole-kernel or whole-flour products where tolerated.\n- Soaking, fermentation, and cooking method can alter tolerance and functional texture.\n\n",
+      "## References\n\n[1] FAO (2013). [Protein quality evaluation framework (DIAAS)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)\n\n[2] Mariotti & Gardner (2019). [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)\n\n<span id=\"food-source-3\" />\n\n[3] [USDA SR Legacy, Wheat, hard red winter (FDC 168890)](https://fdc.nal.usda.gov/food-details/168890/nutrients)\n"
+    ]
+  }
+]

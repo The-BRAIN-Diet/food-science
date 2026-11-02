@@ -1,3 +1,5 @@
+// Retired execution script: never republish its dated review disclosures.
+throw new Error('Retired Stage 2A/2B preservation run: historical reports must not be inserted into canonical pages.');
 /** Additive Stage 2A/2B review over the complete canonical PM baseline. */
 import fs from 'node:fs';import path from 'node:path';import assert from 'node:assert/strict';import matter from 'gray-matter';import {createHash} from 'node:crypto';
 import {buildInputSubstanceFood} from './lib/input-substance-food.mjs';

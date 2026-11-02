@@ -8,7 +8,7 @@ const requestedBaseline=process.argv[2] || process.env.SEC_BASE_REF;
 if(registry.assessments?.length && !requestedBaseline)throw new Error('SEC_BASE_REF or an explicit published base ref is required to protect nonempty SEC history');
 const baseline=requestedBaseline || 'HEAD';
 const baselineFiles=execFileSync('git',['ls-tree','--name-only',baseline,'--','system/sec-assessments/registry.json'],{encoding:'utf8'}).trim();
-const previous=baselineFiles?JSON.parse(execFileSync('git',['show',baseline+':system/sec-assessments/registry.json'],{encoding:'utf8'})):{schemaVersion:1,assessments:[]};
+const previous=baselineFiles?JSON.parse(execFileSync('git',['show',baseline+':system/sec-assessments/registry.json'],{encoding:'utf8',maxBuffer:32*1024*1024})):{schemaVersion:1,assessments:[]};
 const errors=validateSecRegistry(registry,{previous}), used=new Map();
 for(const file of listMechanismMdxFiles(process.cwd(),'pm')) {
   const data=matter(fs.readFileSync(file,'utf8')).data;

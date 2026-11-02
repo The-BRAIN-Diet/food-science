@@ -44,14 +44,15 @@ test('cyclic graphs are bounded and an unresolved conversion is not traversed',(
  const result=buildDietaryPathwayIndex({registeredIdentities:{a:{exists:true},b:{exists:true},c:{exists:true}},docs:[{frontMatter:{formation_pathways:[e('ab','a','b'),e('ba','b','a'),e('bc','b','c','unresolved')]}}],scopes:[{relationships:[{id:'P::A',pm:'P',scientific_admission:'admitted',substance_id:'a',food_targets:[]}]}]});
  assert.equal(result.paths.length,1);assert.equal(result.paths[0].target_id,'b');assert.equal(result.blocked.length,1);
 });
-function render(fm,targetId){
- const module={exports:{}};vm.runInNewContext(ts.transpileModule(fs.readFileSync('src/components/DietaryPathways/index.tsx','utf8'),{compilerOptions:{jsx:ts.JsxEmit.React,module:ts.ModuleKind.CommonJS,esModuleInterop:true}}).outputText,{module,exports:module.exports,require:n=>n==='react'?React:n.includes('EvidenceGaps/Disclosure')?({children,title,label})=>React.createElement('details',null,React.createElement('summary',null,label,' · ',title),children):n.includes('plugin-content-docs')?{useDoc:()=>({metadata:{permalink:'/docs/test'},frontMatter:fm})}:n.includes('useGlobalData')?{usePluginData:()=>({dietaryPathways:index})}:n.includes('Link')?({children,to,...props})=>React.createElement('a',{href:to,...props},children):require(n)});
+function render(fm,targetId,permalink='/docs/test'){
+ const module={exports:{}};vm.runInNewContext(ts.transpileModule(fs.readFileSync('src/components/DietaryPathways/index.tsx','utf8'),{compilerOptions:{jsx:ts.JsxEmit.React,module:ts.ModuleKind.CommonJS,esModuleInterop:true}}).outputText,{module,exports:module.exports,require:n=>n==='react'?React:n.includes('EvidenceGaps/Disclosure')?({children,title,label})=>React.createElement('details',null,React.createElement('summary',null,label,' · ',title),children):n.includes('plugin-content-docs')?{useDoc:()=>({metadata:{permalink},frontMatter:fm})}:n.includes('useGlobalData')?{usePluginData:()=>({dietaryPathways:index})}:n.includes('Link')?({children,to,...props})=>React.createElement('a',{href:to,...props},children):require(n)});
  return renderToStaticMarkup(React.createElement(module.exports.default,{targetId}));
 }
-test('actual component shows independent statuses, provisional icon and unestablished hypothesis',()=>{
- const html=render({},'butyrate');assert.match(html,/Bananas/);assert.match(html,/not shown as containing/);assert.match(html,/Unestablished/);assert.match(html,/FOS\/GOS remains unresolved/);
- const pm=render({pm_id:'BRS5-FM2-PM5'});assert.match(pm,/Apples/);assert.match(pm,/food-target-info/);assert.match(pm,/research-supported-provisional/);
- const empty=render({pm_id:'BRS5-FM1-PM1'});assert.match(empty,/does not remove or reclassify/);assert.doesNotMatch(empty,/supplies Butyrate/);
+test('withdrawn technical panels render nothing for every affected page and explicit entry point',()=>{
+ const inventory=JSON.parse(fs.readFileSync('review/presentation-repair-2026-11-02/affected-pages.json'));
+ for(const row of inventory.automatic)assert.equal(render({pm_id:row.type==='PM'?row.id:undefined,tags:['Eggs']},undefined,row.route),'',row.route);
+ for(const row of inventory.embedded)assert.equal(render({},row.target,row.route),'',row.route);
+ const shell=fs.readFileSync('src/theme/DocItem/Content/index.tsx','utf8');assert.doesNotMatch(shell,/<DietaryPathways/);
 });
 test('SEC immutable history and prior PM admissions remain unchanged',()=>{
  const old=readReviewJson('review/dietary-pathway-activation-2026-10-26/before/sec-registry.json');
@@ -66,4 +67,13 @@ test('changed canonical substance documents compile through the real MDX process
   const processor=await createProcessorUncached({options:{siteDir:process.cwd(),staticDirs:[path.resolve('static')],markdownConfig:{anchors:{maintainCase:false},format:'mdx',mermaid:false,mdx1Compat:{comments:true,admonitions:true,headingIds:true}},remarkPlugins:[],rehypePlugins:[],admonitions:true},format:'mdx'});
   const compiled=await processor.process({content:d.content,filePath:path.resolve(file),frontMatter:d.data,compilerName:'server'});assert.ok(compiled.content);
  }
+});
+
+test('recipe ingredient tags never inject a technical pathway panel',()=>{
+ const food=index.paths.flatMap(p=>p.food_targets)[0];
+ assert.ok(food,'fixture has a genuinely pathway-linked food');
+ const fm={tags:[food.food_title,food.food_id]};
+ assert.equal(render(fm,undefined,'/docs/recipes/snacks/neuroeshot-roe/'),'');
+ assert.equal(render(fm,'butyrate','/docs/recipes/snacks/neuroeshot-roe/'),'');
+ assert.equal(render({},'butyrate'),'');
 });

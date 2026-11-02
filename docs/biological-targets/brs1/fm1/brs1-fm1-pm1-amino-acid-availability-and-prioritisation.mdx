@@ -433,6 +433,8 @@ references:
   - >-
     [Melamed et al. (1980) — Plasma tyrosine in normal humans: effects of oral tyrosine and protein-containing
     meals](/docs/papers/BRAIN-Diet-References#melamed_tyrosine_meals_1980)
+  - '[Fuchs et al. (2022)](/docs/papers/BRAIN-Diet-References#fuchs_raw_eggs_2022)'
+  - '[Evenepoel et al. (1998)](/docs/papers/BRAIN-Diet-References#evenepoel_digestibility_1998)'
 scientific_findings_intro: >-
   Dietary protein supplies the circulating precursor pool; food structure and source can alter delivery
   kinetics without proving superior neurotransmitter function. Curated reaction identity, whole-diet adequacy
@@ -1010,9 +1012,30 @@ system_optimisation_practices:
     dietary_input: true
     reader_description: The tested texture change increased six-hour appearance of dietary phenylalanine in ten older men.
     description_finding_id: PM1-F5
-    optimisation_category: dietary_protocols
+    optimisation_category: food_prep
     food_strategy_scope: food-preparation
     food_strategy_id: food-strategy-6d9c0fa97324
+  - atom_id: PM1-SOP-COOKED-EGG-1
+    input: Boiled rather than raw eggs in the tested postexercise meal
+    input_type: food preparation/delivery practice
+    biological_role: >-
+      Boiled eggs produced higher peak circulating essential-amino-acid concentrations than raw eggs in the
+      tested postexercise meal, supporting PM1’s circulating precursor-provision function.
+    evidence_source:
+      finding_ids:
+        - PM1-F1
+      citation_keys:
+        - fuchs_raw_eggs_2022
+        - evenepoel_digestibility_1998
+    evidence_limitation: >-
+      The 45-man trial compared five eggs after resistance exercise; higher peak concentrations did not
+      establish greater brain delivery or a detectable muscle-protein-synthesis advantage.
+    dietary_input: true
+    optimisation_category: food_prep
+    food_strategy_scope: food-preparation
+    food_strategy_id: food-strategy-pm1-cooked-egg-1
+    food_ids:
+      - eggs
 lifestyle_priorities: []
 pending_actions:
   - action: >-
@@ -1020,9 +1043,8 @@ pending_actions:
       Unset admission pending approval.
     status: scientific-approval-required
   - action: >-
-      Register an immutable SOP identity and reconcile strategy roll-up only if the proposed preparation
-      relationship is approved. No food-strategy ID or food mapping invented.
-    status: scientific-approval-required
+      The admitted minced-beef preparation retains PM1-SOP-DEFERRED-1 and its existing food-strategy identity; the earlier proposed-only presentation was reconciled on 2 November 2026.
+    status: resolved
 intervention_dominance_assessment:
   evidence_qualification:
     label: Diet-Dominant
@@ -1064,8 +1086,7 @@ intervention_dominance_assessment:
       - '3.1'
     rationale: >-
       Dietary Requirements remains the principal supply route: feeding interventions directly deliver the
-      indispensable precursor pool across relevant protein sources. The preparation experiment remains
-      evidence, not a selected or registered SOP pending exact-scope adjudication.
+      indispensable precursor pool across relevant protein sources. The preparation SOPs remain non-principal: their evidence concerns specific beef-texture and egg-cooking comparisons, not a generally superior supply route.
     comparative_limitations: >-
       No head-to-head superiority over all lifestyle or optimisation routes is established. Prominence
       concerns the mission-specific supply process; it is not a nutrient-benefit ranking.
@@ -1182,10 +1203,72 @@ Food protein supplies indispensable amino acids—the amino acids the body canno
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Minced rather than intact beef in the tested older-adult meal
+<div class="brs-hub-sop-categories" data-brs-sop-categories>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="food_prep" data-brs-sop-populated="true">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Food Preparation &amp; Delivery</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<div id="pm1-sop-deferred-1" data-pm-intervention-id="PM1-SOP-DEFERRED-1">
 
+**Minced versus intact beef — dietary phenylalanine appearance**
 
-No PM-specific preparation protocol is currently selected. The qualified preparation experiment and pending intervention disposition remain in [PM1-F5](#pm1-f5) and its Evidence & Audit assessment.
+In a controlled crossover study of ten older men, minced beef increased six-hour dietary phenylalanine appearance compared with intact beef.
+
+Human intervention · Ten older men · 135 g beef
+
+References [[22]](#pm-ref-22)
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Evidence &amp; limitations</strong>
+</button>
+<div class="brs-fm-hub-panel" id="pm1-sop-deferred-1-evidence" hidden>
+
+Total plasma essential-amino-acid concentrations and muscle protein synthesis did not differ detectably. This does not establish greater brain precursor delivery or universal superiority of minced beef.
+
+Mechanistic connection: [SF5](#pm1-f5). This link identifies the PM mechanism; it does not transfer that Finding’s SEC assessment to this intervention. Original study references: [[22]](#pm-ref-22).
+
+</div>
+</div>
+</div>
+</div>
+
+<div id="pm1-sop-cooked-egg-1" data-pm-intervention-id="PM1-SOP-COOKED-EGG-1">
+
+**Cooked versus raw eggs — protein digestibility and circulating amino-acid concentrations**
+
+In healthy resistance-trained young men, five boiled eggs produced higher peak circulating essential-amino-acid concentrations than five raw eggs after exercise.
+
+Human intervention · 45 young men · Five boiled versus five raw eggs after exercise
+
+References [[24]](#pm-ref-24) [[25]](#pm-ref-25)
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Evidence &amp; limitations</strong>
+</button>
+<div class="brs-fm-hub-panel" id="pm1-sop-cooked-egg-1-evidence" hidden>
+
+The earlier study in five ileostomy patients measured true ileal protein digestibility, not circulating amino-acid appearance. The postexercise study measured plasma concentrations, not dietary appearance flux. Neither establishes greater brain delivery, a daily five-egg prescription or a muscle-protein-synthesis advantage.
+
+Mechanistic connection: [SF1](#pm1-f1). This link identifies the PM mechanism; it does not transfer that Finding’s SEC assessment to this intervention. Original study references: [[24]](#pm-ref-24) [[25]](#pm-ref-25).
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
 
 </div>
 </div>
@@ -1266,7 +1349,7 @@ Foundational provenance: [Scientific Principle — Tyrosine and tryptophan precu
 
 Food structure can modify the time course and measured appearance of amino acids from an ingested protein source. In the matched beef-texture experiment, more dietary phenylalanine appeared in the circulation after mincing, but total plasma essential-amino-acid concentrations and muscle protein synthesis did not differ detectably. Dietary tracer appearance and total circulating concentration are different measurements; neither establishes greater brain precursor delivery. [Pennings et al.](#stage2-ref-pm1-pennings2013).
 
-Supporting evidence: [PM1-F5](#pm1-f5). The preparation SOP remains proposed, not admitted.
+Supporting evidence: [PM1-F5](#pm1-f5). The preparation-specific SOP is admitted for the tested older-male meal, without a brain-delivery or clinical-benefit claim.
 
 <span id="pm1-mechanism-f6" />
 
@@ -1517,6 +1600,9 @@ Rechecked the 135 g minced-beef/steak crossover. Admit only the preparation-spec
 - <span id="pm-ref-21">[21]</span> [Xin et al. (2026): exercise-induced dehydration and whey](?review=0#stage2-ref-pm1-hydration2026)
 - <span id="pm-ref-22">[22]</span> [Pennings et al. (2013) — Minced beef is more rapidly digested and absorbed than beef steak, resulting in greater postprandial protein retention in older men.](/docs/papers/BRAIN-Diet-References#pennings_minced_beef_2013)
 - <span id="pm-ref-23">[23]</span> [Melamed et al. (1980) — Plasma tyrosine in normal humans: effects of oral tyrosine and protein-containing meals](/docs/papers/BRAIN-Diet-References#melamed_tyrosine_meals_1980)
+
+- <span id="pm-ref-24">[24]</span> [Fuchs et al. (2022) — Raw versus boiled eggs after resistance exercise](/docs/papers/BRAIN-Diet-References#fuchs_raw_eggs_2022)
+- <span id="pm-ref-25">[25]</span> [Evenepoel et al. (1998) — Cooked and raw egg protein digestibility](/docs/papers/BRAIN-Diet-References#evenepoel_digestibility_1998)
 
 ### PM-local source records
 
