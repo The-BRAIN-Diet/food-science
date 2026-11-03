@@ -24,3 +24,14 @@ Validation: six-atom/category/PM-reference validation passed; existing dominance
 
 ## Superseding cooked-egg adjudication
 See cooked-egg-contract-clarification.md. The earlier requirement for a new Finding per preparation study was an unnecessarily restrictive interpretation. Admit PM1-SOP-COOKED-EGG-1 with PM1-F1 as mechanism link and its own original sources; no SEC copied. Food-page screening also identified generic meal complementarity, fermentation and gentle-cooking advice: no additional reproducible PM1-targeted protocol with verified original evidence was established in those entries. No generic meal-combination, evening-calming or breakfast-dopamine SOP admitted. Existing beef protocol retained, extrusion restriction rejected, lifestyle candidates remain unadmitted for the previously documented endpoint reasons.
+
+## Food-page reconciliation — continuation
+
+Read all 23 mapped food-page extracts. Existing egg preparation references support the already admitted example; beef oxidation research is not an amino-acid-appearance experiment. Grain/legume complementarity is dietary adequacy context, not a demonstrated same-meal requirement. Cooking/fermentation candidates require exact preparation and measured delivery endpoints; mineral phytate, carotenoid, lipid and microbial endpoints are not substituted for amino-acid provision.
+
+The tempeh lead prompted original-source retrieval through Scite: Ketnawa and Ogawa (2021), [doi:10.1038/s41598-021-93451-x](https://doi.org/10.1038/s41598-021-93451-x). Its natto manufacturing and static digestion methods differ from tempeh and human absorption; the candidate remains deferred with the exact mismatch documented in the candidate register. No new admission or score.
+
+The earlier opening statement that eggs were not admitted is superseded by the cooked-egg adjudication and canonical record. No duplicate egg admission is required.
+
+## Pass 1 closure — 3 November 2026
+Both admitted preparation records now explicitly record intervention SEC as Not yet assessed. Browser-verified independent beef/egg disclosures, two-line mechanism summaries, six atoms, citations, null outcomes and brain-delivery boundaries. Food-page checkpoint complete. Pass 1 complete with the documented deferred fermentation candidate; intervention scoring belongs to Pass 2. Earlier pending status above is superseded. Screenshot: pm1-pass1-verified.png.

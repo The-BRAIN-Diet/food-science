@@ -1,0 +1,23 @@
+[
+  {
+    "record": "PM1-SOP-DEFERRED-1",
+    "mechanismRef": "physical-disruption-food-matrix",
+    "mechanism": "Physical disruption of the food matrix",
+    "evidenceStatus": "Mechanistic interpretation; mediator not isolated",
+    "evidenceRecord": "#record-1"
+  },
+  {
+    "record": "PM1-SOP-COOKED-EGG-1",
+    "mechanismRef": "heat-induced-protein-denaturation",
+    "mechanism": "Heat-induced protein denaturation",
+    "evidenceStatus": "Mechanistic interpretation; mediator not isolated",
+    "evidenceRecord": "#record-2"
+  },
+  {
+    "record": "walking-example",
+    "mechanismRef": "activity-associated-muscle-glucose-uptake",
+    "mechanism": "Activity-associated muscle glucose uptake",
+    "evidenceStatus": "Proposed rationale; not measured in this trial",
+    "evidenceRecord": "#record-3"
+  }
+]

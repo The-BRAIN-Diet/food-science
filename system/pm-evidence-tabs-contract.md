@@ -91,3 +91,9 @@ Render Assessment gaps inside the affected versioned SEC assessment using canoni
 ## Presentation correction — 2 November 2026
 
 Do not generate or render dated “Stage 2A/2B evidence and traceability review” execution panels in canonical pages, including Evidence & Audit. Historical execution reports remain in their source/archive records; the legacy `Stage2Review` wrapper is non-rendering compatibility only. Use the governed Finding, Principle, assessment, correction and gap interfaces for scientific records. This removes no scientific evidence and does not remove the public Framework Review & Corrections register link.
+
+## Consecutive reader-facing Finding numbers — owner correction 2 November 2026
+
+Display active mechanism Findings as SF1 through SFN in canonical record order, excluding retired/withdrawn/superseded records and explicitly reclassified Principles. Retirement closes the display-number gap. These are reader labels, not scientific identities: preserve canonical Finding IDs, anchors, references and immutable assessment ownership. Never reuse a retired record ID for another proposition. Use `activeFindingNumber`/`findingReaderLabel` with the parent PM records for titles and supporting links. Existing historical records retain their canonical IDs. Stage 2A/2B must regenerate current reader labels without renaming scientific records.
+
+Current Evidence & Audit assessment labels and Evidence Gap links use the same consecutive active SF mapping. Canonical record IDs and historical snapshot references remain explicitly identified as provenance, not presented as current SF sequence numbers. This does not relabel retired history as another active Finding.

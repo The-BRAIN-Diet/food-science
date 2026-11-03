@@ -1,12 +1,20 @@
+import {isScientificPrinciple} from './scientificPrinciples.mjs';
 /** Reader labels are derived; canonical identities and anchors never change. */
 export function shortFindingId(id) {
   const match=/^PM\d+-F(\d+)$/.exec(String(id || ''));
   return match ? 'SF'+match[1] : String(id || '');
 }
 
-export function findingReaderLabel(finding) {
+export function activeFindingNumber(data, id) {
+  const rows=(data?.scientific_findings || []).filter(f=>f.presentation === "mechanistic-basis" && !isScientificPrinciple(data,f.id) && !["retired","withdrawn","superseded"].includes(f.status));
+  const index=rows.findIndex(f=>f.id===id);
+  return index<0 ? null : index+1;
+}
+
+export function findingReaderLabel(finding, data) {
   const label=String(finding?.finding_label || '').trim();
-  const id=shortFindingId(finding?.id);
+  const number=activeFindingNumber(data,finding?.id);
+  const id=number ? `SF${number}` : shortFindingId(finding?.id);
   return label ? (/^PM\d+-F\d+$/.test(finding?.id || '') ? `${id} — ${label}` : label) : id;
 }
 

@@ -1,3 +1,4 @@
+import {activeFindingNumber, findingReaderLabel} from '../../lib/scientificFindingPresentation.mjs';
 import {scientificPrincipleIds,scientificPrinciples,scientificPrincipleErrors} from '../../lib/scientificPrinciples.mjs';
 import React from 'react';
 import ScientificFinding from '../ScientificFinding';
@@ -57,7 +58,7 @@ export function CanonicalSecAudit({findings,pmId,page,panelId,frontMatter}:{find
     </div>)}
   </section> : null;
   const titles=new Map(findings.map(f=>[f.id,f.finding_label]));
-  const presentation=(r:any)=>({...secAssessmentView(r),title:titles.get(r.findingId)||r.title||r.findingId,incompleteReason:frontMatter?.scientific_finding_classification_notes?.[r.findingId]});
+  const presentation=(r:any)=>({...secAssessmentView(r),shortId:activeFindingNumber(frontMatter,r.findingId) ? `SF${activeFindingNumber(frontMatter,r.findingId)}` : r.findingId,title:titles.get(r.findingId)||r.title||r.findingId,incompleteReason:frontMatter?.scientific_finding_classification_notes?.[r.findingId]});
   return <>
     {principleErrors.length>0 && <p role="status">Scientific Principle classification requires review. Original Findings remain visible.</p>}
     {results.some(r=>r.errors.length>0)&&<p role="status">One or more confidence assessments are unavailable. No score has been inferred.</p>}

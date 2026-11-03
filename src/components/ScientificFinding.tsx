@@ -248,7 +248,7 @@ export default function ScientificFinding({
   const connected = finding.connected_supportive_evidence || []
   const dependency = finding.evidence_dependency || []
   const informs = finding.informs || []
-  const title = readerTitle(finding)
+  const title = findingReaderLabel(finding, frontMatter)
   const anchor = finding.id.toLowerCase()
   const summary = String(finding.finding_summary || "").trim()
   const interpretation = String(finding.finding_interpretation || "").trim()
@@ -297,7 +297,7 @@ export default function ScientificFinding({
 
             <HubDisclosure label="Explore the evidence">
               <p className="brain-sf-audit-id">
-                <strong>Finding ID:</strong> <code>{finding.id}</code>
+                <strong>Canonical record ID:</strong> <code>{finding.id}</code>
               </p>
 
               <p className="brain-sf-field">

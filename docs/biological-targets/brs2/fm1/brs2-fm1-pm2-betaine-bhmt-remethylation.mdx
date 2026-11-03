@@ -289,6 +289,7 @@ references:
   - >-
     [Strakova et al. (2011) — Specific BHMT inhibition and methylation
     capacity](/docs/papers/BRAIN-Diet-References#strakova_bhmt_inhibition_2011)
+  - '[Larsson et al. (1996) — Malted oats and mineral absorption](/docs/papers/BRAIN-Diet-References#larsson_malted_oats_1996)'
 hide_title: true
 phenome_relationships:
   - target_phenome: Focus / Attention Stability
@@ -1280,7 +1281,27 @@ kc_adjudication_history:
     rationale: Focused reassessment updates evidence/gap while keeping the stronger constraint unresolved.
     review_record: system/kc-unresolved-decisions-reconciliation.md
 sidebar_label: BRS2-1-2 — Betaine/BHMT Remethylation
+system_optimisation_practices:
+  - atom_id: PM2-SOP-MALTED-OATS-1
+    input: Tested malted and soaked oat porridge
+    input_type: food preparation/delivery practice
+    optimisation_category: food_prep
+    biological_role: Higher fractional zinc absorption than matched untreated-oat porridge; upstream provision of admitted catalytic zinc, not measured BHMT activity.
+    evidence_source:
+      finding_ids:
+        - PM2-F1
+      citation_keys:
+        - larsson_malted_oats_1996
+        - evans_betaine_2002
+        - breksa_zinc_1999
+    evidence_limitation: Pilot-plant malting and controlled soaking are not household overnight oats; acute absorption in ten adults does not establish tissue BHMT flux, long-term zinc status or clinical benefit.
+    dietary_input: true
+    sec_status: Not yet assessed
+
 ---
+
+import PilotInterventionDisclosure from "@site/src/components/PilotInterventionDisclosure";
+
 <p class="brs-pm-thumbnail-wrap">
   <img
     src="/img/biological-targets/brs2-portrait-thumbnail.png"
@@ -1386,7 +1407,36 @@ Betaine–homocysteine methyltransferase transfers a methyl group from betaine t
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-No preparation, supplementation schedule, fasting pattern, light exposure or stress practice has been shown to change this reaction beyond the betaine and choline relationships above.
+<div class="brs-fm-hub-item" data-brs-fm-hub >
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Food Preparation &amp; Delivery</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+
+<PilotInterventionDisclosure id="brs2-pm2-sop-malted-oats-1" title="Tested malted oat porridge → greater zinc absorption">
+<div class="brs-dietary-lever-detail-inner">
+<p><span class="brs-dietary-lever-detail-k">Intervention</span> = Pilot-plant malted, soaked <a href="/docs/foods/oats">oat</a> porridge versus untreated oats from the same batch.</p>
+<p><span class="brs-dietary-lever-detail-k">Intervention type</span> = Food Preparation &amp; Delivery.</p>
+<p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Processing reduced phytate; reduced mineral complexing is a supported explanation, without isolation of every processing effect.<br /><strong>Measured Effect:</strong> Fractional zinc absorption was 18.3% versus 11.8%.<br /><strong>PM Relevance:</strong> Upstream provision of the existing catalytic zinc input; no BHMT response measured.</p>
+<p><span class="brs-dietary-lever-detail-k">Evidence source</span> = Ten healthy adults, random-order paired meals; zinc-isotope whole-body retention. Oats were germinated for five days and dried; 30-g flour portions were soaked for 17 hours at 23°C then eight hours at 37.8°C before storage and cooking. <a href="#pm-ref-14">[14]</a> Catalytic connection: <a href="#pm-ref-1">[1]</a>.</p>
+<p><span class="brs-dietary-lever-detail-k">Limitations</span> =</p>
+<ul>
+<li><strong>Preparation:</strong> Not equivalent to household overnight soaking of commercial oats.</li>
+<li><strong>Endpoint:</strong> Acute absorption, not long-term zinc status, BHMT flux or clinical benefit.</li>
+<li><strong>Null outcome:</strong> One separate iron experiment was nonsignificant; iron meals differed from the zinc experiment.</li>
+</ul>
+<p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — the tested processing protocol only.</p>
+<p><strong>Intervention SEC:</strong> Not yet assessed</p>
+</div>
+</PilotInterventionDisclosure>
+
+
+</div>
+</div>
+</div>
 
 </div>
 </div>
@@ -1643,3 +1693,5 @@ No change to a canonical admission is proposed. The exposure, conversion and mod
 - <span id="pm-ref-12">[12]</span> [Setoue et al. (2008) — Choline deprivation, hepatic betaine and homocysteine](/docs/papers/BRAIN-Diet-References#setoue_choline_deprivation_2008)
 - <span id="pm-ref-13">[13]</span> [Strakova et al. (2011) — Specific BHMT inhibition and methylation capacity](/docs/papers/BRAIN-Diet-References#strakova_bhmt_inhibition_2011)
 
+
+- <span id="pm-ref-14">[14]</span> [Larsson et al. (1996) — Improved zinc and iron absorption from malted-oat meals](/docs/papers/BRAIN-Diet-References#larsson_malted_oats_1996)

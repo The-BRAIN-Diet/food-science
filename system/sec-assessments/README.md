@@ -113,3 +113,12 @@ Do not generate scientific Evidence Gaps from missing/low scores or Assessment g
 PM4 SF3 version 2 preserves D=2, R=1 and null B/P. `PM4-F3-ASSESSMENT-B-1` tracks controls/confounders; `PM4-F3-ASSESSMENT-P-1` tracks replicate independence/effect uncertainty. Both are pending. Version 1's inconsistent access wording is preserved historically and explicitly corrected in version 2: a paper location is not proof of completed extraction. No new retrieval failure or unassessable determination was invented.
 
 For scientific approval, supply `--base <reviewed-git-ref>` with `--require-appraised` to compare prior canonical Evidence Gap IDs; the approval gate rejects omission of this preservation baseline. Structural report mode remains available without a baseline.
+
+
+### Intervention-specific SEC ownership — PM3 integration, 3 November 2026
+
+The owner-requested PM3 appraisal is a bounded exception to the two-pass rollout priority. An SOP or Lifestyle Lever assessment uses the existing D/B/P/R rubric, caps and immutable SEC registry, with `interventionId` instead of `findingId`. These ownership fields are mutually exclusive. Never reinterpret an interpretive-constraint identifier as an intervention or inherit a linked Finding's score.
+
+A canonical intervention atom pins `sec_assessment_ref: {id, version, sha256}` and the exact `sec_assessed_proposition`. Resolve against its `atom_id`, PM identity, proposition and content pin. Assessment gaps use the same intervention owner and existing dimension-level tracking. Missing values remain null, pending dimensions require actionable Assessment gaps, and pending appraisal blocks scientific approval. Provisional appraisal is not human scientific acceptance or automatic intervention re-admission.
+
+Existing Finding assessments and all historical snapshots remain immutable. This extension stores intervention assessments and updates existing status text only; it does not authorise a new public panel. Numerical assessment presentation remains governed by Section 4 and its separately approved presentation contract. Keep intervention coverage separate from Finding coverage.

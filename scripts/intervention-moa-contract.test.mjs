@@ -1,0 +1,10 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';
+import {validateIntervention,mechanismSummary} from './lib/intervention-moa-contract.mjs';
+const record=()=>({intervention:'Minced versus intact beef',interventionType:'food preparation',biologicalRelationship:{moa:{status:'identified',mechanismRef:'demo:matrix-disruption',description:'Physical disruption may alter digestive accessibility; mediation not isolated.',summary:'Physical disruption of the food matrix',evidenceQualification:'Proposed digestive mediation',semanticReview:{status:'reviewed',rationale:'Describes preparation action, not proof of mediation.'}},measuredEffect:'Increased six-hour dietary phenylalanine appearance',pmRelevance:'Circulating amino-acid provision'},limitations:[{type:'Null outcome',text:'No detectable MPS difference'}]});
+test('summary projects from structured MoA',()=>assert.equal(mechanismSummary(record()),'Physical disruption of the food matrix'));
+test('unresolved MoA omits summary',()=>{let r=record();r.biologicalRelationship.moa={status:'unresolved',description:'Hypotheses not established'};assert.equal(mechanismSummary(r),null)});
+for(const s of ['Not isolated in the tested comparison','Evidence insufficient','Mediator not measured','Mechanistic interpretation; mediator not isolated'])test('reject '+s,()=>{let r=record();r.biologicalRelationship.moa.summary=s;assert.ok(validateIntervention(r).length)});
+test('independent effect required',()=>{let r=record();delete r.biologicalRelationship.measuredEffect;assert.ok(validateIntervention(r).length)});
+test('independent limitations required',()=>{let r=record();r.limitations=[];assert.ok(validateIntervention(r).length)});
+test('semantic review required beyond keywords',()=>{let r=record();delete r.biologicalRelationship.moa.semanticReview;assert.ok(validateIntervention(r).length)});
+test('no parallel summary assertion',()=>{let r=record();r.mechanism='other';assert.ok(validateIntervention(r).length)});

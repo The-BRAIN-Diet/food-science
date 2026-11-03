@@ -840,6 +840,7 @@ dietary_lever_presentations:
     description_finding_id: PM12-F6
 system_optimisation_practices:
   - atom_id: PM12-SOP-1
+    sec_status: Not yet assessed
     food_strategy_scope: supplementation
     food_strategy_id: food-strategy-4ca425a7d459
     input: Experimental DHA–UMP co-supplementation
@@ -862,6 +863,7 @@ system_optimisation_practices:
     optimisation_category: conditional_supplementation
     dietary_input: true
   - atom_id: PM12-SOP-2
+    sec_status: Not yet assessed
     food_strategy_scope: supplementation
     food_strategy_id: food-strategy-6ba31ce0bd1c
     input: Experimental spermidine supplementation in ageing
@@ -886,6 +888,7 @@ system_optimisation_practices:
       severity: MAJOR
     dietary_input: true
   - atom_id: PM12-SOP-3
+    sec_status: Not yet assessed
     food_strategy_scope: dietary-protocol
     food_strategy_id: food-strategy-2c14849a7ddb
     input: Active-period feeding under obesogenic exposure (experimental)
@@ -908,6 +911,7 @@ system_optimisation_practices:
     description_finding_id: PM12-F11
     dietary_input: true
   - atom_id: PM12-SOP-DEFERRED-1
+    sec_status: Not yet assessed
     input: Experimental magnesium-L-threonate exposure
     input_type: defined dietary exposure
     biological_role: The tested formulation changed presynaptic structural markers in rats.
@@ -928,6 +932,7 @@ system_optimisation_practices:
     food_strategy_id: food-strategy-bafd6931fd98
 lifestyle_priorities:
   - atom_id: PM12-LS-1
+    sec_status: Not yet assessed
     input: Skill learning and practice
     input_type: lifestyle practice
     biological_role: Learning and practising a new motor skill can form and selectively stabilise dendritic spines in mice.
@@ -943,6 +948,7 @@ lifestyle_priorities:
     description_finding_id: PM12-F1
     dietary_input: false
   - atom_id: PM12-LS-2
+    sec_status: Not yet assessed
     input: Sleep after learning
     input_type: lifestyle practice
     biological_role: Sleep can support formation, selective retention, removal and resizing of connections after learning.
@@ -960,6 +966,7 @@ lifestyle_priorities:
     description_finding_id: PM12-F3
     dietary_input: false
   - atom_id: PM12-LS-3
+    sec_status: Not yet assessed
     input: Physical activity
     input_type: lifestyle practice
     biological_role: Voluntary running changed spine density and dendritic structure in selected regions of adult rat brains.
@@ -1163,6 +1170,8 @@ evidence_gaps:
     review_date: '2026-10-26'
 ---
 
+import PilotInterventionDisclosure from "@site/src/components/PilotInterventionDisclosure";
+
 <p class="brs-pm-thumbnail-wrap"><img src="/img/biological-targets/brs1-portrait-thumbnail.png" alt="BRS1 — Neurotransmitter Regulation" class="brs-pm-thumbnail" /></p>
 
 ## BRS1-5-12 - Synaptic Structural Plasticity
@@ -1261,63 +1270,44 @@ Experimental structural exposures are distinct from human supplementation recomm
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Experimental magnesium-L-threonate exposure
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Experimental DHA–UMP co-supplementation</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-DHA plus uridine monophosphate (UMP) increased gerbil hippocampal spine density more than DHA alone in the tested exposure.
-
-**Expanded Disclosure**
-
-**Input** = Experimental DHA–UMP co-supplementation
-
-**Input type** = defined dietary exposure
-
-**Biological role** = DHA plus uridine monophosphate (UMP) increased gerbil hippocampal spine density more than DHA alone in the tested exposure.
-
-**Evidence source** = Sakamoto et al. (2007) [[9]](#pm-ref-9)
-
-**Limitation** = Four weeks, choline present in all diets, small animal-level sample. UMP alone was not significant for spine density. This is an experimental combination, not a human supplementation recommendation.
-
-**Dietary input** = Yes
-
-Supporting mechanism research: [Membrane precursors and a tested combination have different evidence roles](#pm12-f6)
+<PilotInterventionDisclosure id="pm12-sop-deferred-1" title="Magnesium-L-threonate in rats → increased presynaptic puncta density">
+<div class="brs-dietary-lever-detail-inner">
+<p><span class="brs-dietary-lever-detail-k">Intervention</span> = Experimental magnesium-L-threonate exposure</p>
+<p><span class="brs-dietary-lever-detail-k">Intervention type</span> = defined dietary exposure</p>
+<p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Formulation-specific magnesium exposure was associated with structural-marker and functional responses; puncta do not independently establish formation of new functional synapses.<br /><strong>Measured Effect:</strong> The tested formulation changed presynaptic structural markers in rats.<br /><strong>PM Relevance:</strong> Directly concerns formation, selective maintenance or remodelling of neuronal connections in the stated experimental model.</p>
+<p><span class="brs-dietary-lever-detail-k">Evidence source</span> = Defined magnesium-L-threonate exposure in young and aged rats. <a href="#pm-ref-19">Reference 19</a>. Supporting Finding identities: PM12-F12; intervention scores are not inherited.</p>
+<p><span class="brs-dietary-lever-detail-k">Limitations</span> =</p>
+<ul><li><strong>Evidence boundary:</strong> Puncta are markers, not ultrastructurally verified contact counts. Formulation- and region-specific animal evidence does not establish that ordinary magnesium foods increase human synapses or improve ADHD.</li><li><strong>Null outcomes and attribution:</strong> Comparison salts did not reproduce all responses; ordinary magnesium foods are not equivalent to the tested formulation.</li></ul>
+<p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — retained experimental-context record; not a human prescription.</p>
+<p><strong>Intervention SEC:</strong> Not yet assessed</p>
 </div>
+</PilotInterventionDisclosure>
+
+<PilotInterventionDisclosure id="pm12-sop-1" title="DHA–UMP feeding in gerbils → increased hippocampal spine density">
+<div class="brs-dietary-lever-detail-inner">
+<p><span class="brs-dietary-lever-detail-k">Intervention</span> = Experimental DHA–UMP co-supplementation</p>
+<p><span class="brs-dietary-lever-detail-k">Intervention type</span> = defined dietary exposure</p>
+<p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Membrane-precursor provision is a proposed explanation for the structural response; this comparison does not isolate a choline effect or prove mediation by phospholipid synthesis.<br /><strong>Measured Effect:</strong> DHA plus uridine monophosphate (UMP) increased gerbil hippocampal spine density more than DHA alone in the tested exposure.<br /><strong>PM Relevance:</strong> Directly concerns formation, selective maintenance or remodelling of neuronal connections in the stated experimental model.</p>
+<p><span class="brs-dietary-lever-detail-k">Evidence source</span> = Four-week feeding in adult male gerbils; all diets contained choline. <a href="#pm-ref-9">Reference 9</a>. Supporting Finding identities: PM12-F6; intervention scores are not inherited.</p>
+<p><span class="brs-dietary-lever-detail-k">Limitations</span> =</p>
+<ul><li><strong>Evidence boundary:</strong> Four weeks, choline present in all diets, small animal-level sample. UMP alone was not significant for spine density. This is an experimental combination, not a human supplementation recommendation.</li><li><strong>Null outcomes and attribution:</strong> UMP alone did not significantly increase spine density.</li></ul>
+<p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — retained experimental-context record; not a human prescription.</p>
+<p><strong>Intervention SEC:</strong> Not yet assessed</p>
 </div>
+</PilotInterventionDisclosure>
+
+<PilotInterventionDisclosure id="pm12-sop-2" title="Spermidine feeding in flies → prevented age-related active-zone enlargement">
+<div class="brs-dietary-lever-detail-inner">
+<p><span class="brs-dietary-lever-detail-k">Intervention</span> = Experimental spermidine supplementation in ageing</p>
+<p><span class="brs-dietary-lever-detail-k">Intervention type</span> = defined dietary exposure</p>
+<p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Autophagy-related maintenance is a mechanistic interpretation of the experimental analyses; food-derived human exposure and human structural mediation are not established.<br /><strong>Measured Effect:</strong> Spermidine feeding prevented ageing-related enlargement of presynaptic release sites in fruit flies.<br /><strong>PM Relevance:</strong> Directly concerns formation, selective maintenance or remodelling of neuronal connections in the stated experimental model.</p>
+<p><span class="brs-dietary-lever-detail-k">Evidence source</span> = Spermidine feeding and active-zone imaging in ageing Drosophila. <a href="#pm-ref-14">Reference 14</a>. Supporting Finding identities: PM12-F8; intervention scores are not inherited.</p>
+<p><span class="brs-dietary-lever-detail-k">Limitations</span> =</p>
+<ul><li><strong>Evidence boundary:</strong> It did not restore reduced synapse numbers. Human wheat-germ-extract memory results were null; neither those results nor the fly study establish human structural benefit.</li><li><strong>Null outcomes and attribution:</strong> Age-related loss of synapse number was not restored; human wheat-germ-extract memory results were null.</li></ul>
+<p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — retained experimental-context record; not a human prescription.</p>
+<p><strong>Intervention SEC:</strong> Not yet assessed</p>
 </div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Experimental spermidine supplementation in ageing</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-Spermidine feeding prevented ageing-related enlargement of presynaptic release sites in fruit flies.
-
-**Expanded Disclosure**
-
-**Input** = Experimental spermidine supplementation in ageing
-
-**Input type** = defined dietary exposure
-
-**Biological role** = Spermidine feeding prevented ageing-related enlargement of presynaptic release sites in fruit flies.
-
-**Evidence source** = Gupta et al. (2016) [[14]](#pm-ref-14)
-
-**Limitation** = It did not restore reduced synapse numbers. Human wheat-germ-extract memory results were null; neither those results nor the fly study establish human structural benefit.
-
-**Dietary input** = Yes
-
-Supporting mechanism research: [Ageing-related presynaptic enlargement is a separate structural endpoint](#pm12-f8)
-</div>
-</div>
-</div>
+</PilotInterventionDisclosure>
 </div>
 </div>
 </div>
@@ -1328,33 +1318,18 @@ Supporting mechanism research: [Ageing-related presynaptic enlargement is a sepa
 <strong>Dietary &amp; Fasting Protocols</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Active-period feeding under obesogenic exposure (experimental)</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-Meal scheduling changed the maintenance of connections differently across brain regions in this mouse diet model.
-
-**Expanded Disclosure**
-
-**Input** = Active-period feeding under obesogenic exposure (experimental)
-
-**Input type** = defined dietary exposure
-
-**Biological role** = A defined active-period feeding schedule changed regional spine maintenance in mice exposed to an obesogenic diet.
-
-**Evidence source** = Chakraborty et al. (2025) [[18]](#pm-ref-18)
-
-**Limitation** = Four-week mouse protocol after prolonged high-fat/high-sucrose exposure. Regionally opposite structural responses; no human eating-window target or general healthy-adult benefit established.
-
-**Dietary input** = Yes
-
-Supporting mechanism research: [Meal scheduling changes regional spine maintenance under obesogenic exposure](#pm12-f11)
+<PilotInterventionDisclosure id="pm12-sop-3" title="Active-period feeding in mice → region-dependent spine-maintenance changes">
+<div class="brs-dietary-lever-detail-inner">
+<p><span class="brs-dietary-lever-detail-k">Intervention</span> = Active-period feeding under obesogenic exposure (experimental)</p>
+<p><span class="brs-dietary-lever-detail-k">Intervention type</span> = defined dietary exposure</p>
+<p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Meal scheduling may affect metabolic and circadian conditions; the study does not identify one causal mediator for the regional structural responses.<br /><strong>Measured Effect:</strong> A defined active-period feeding schedule changed regional spine maintenance in mice exposed to an obesogenic diet.<br /><strong>PM Relevance:</strong> Directly concerns formation, selective maintenance or remodelling of neuronal connections in the stated experimental model.</p>
+<p><span class="brs-dietary-lever-detail-k">Evidence source</span> = Four weeks of active-period feeding after prolonged high-fat/high-sucrose exposure in mice; food access zt11–zt1. <a href="#pm-ref-18">Reference 18</a>. Supporting Finding identities: PM12-F11; intervention scores are not inherited.</p>
+<p><span class="brs-dietary-lever-detail-k">Limitations</span> =</p>
+<ul><li><strong>Evidence boundary:</strong> Four-week mouse protocol after prolonged high-fat/high-sucrose exposure. Regionally opposite structural responses; no human eating-window target or general healthy-adult benefit established.</li><li><strong>Null outcomes and attribution:</strong> Opposite regional responses prevent a universal spine-increase interpretation.</li></ul>
+<p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — retained experimental-context record; not a human prescription.</p>
+<p><strong>Intervention SEC:</strong> Not yet assessed</p>
 </div>
-</div>
-</div>
+</PilotInterventionDisclosure>
 </div>
 </div>
 </div>
@@ -1372,89 +1347,44 @@ Supporting mechanism research: [Meal scheduling changes regional spine maintenan
 <div class="brs-fm-hub-panel" hidden>
 Learning, sleep and activity influence structure in the animal contexts below; their endpoints and exposure conditions differ. Xu et al. (2009) [[1]](#pm-ref-1); Yang et al. (2014) [[4]](#pm-ref-4); Stranahan et al. (2007) [[13]](#pm-ref-13)
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Skill learning and practice</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-Learning and practising a new motor skill can form and selectively stabilise dendritic spines in mice.
-
-**Expanded Disclosure**
-
-**Input** = Skill learning and practice
-
-**Input type** = lifestyle practice
-
-**Biological role** = Learning and practising a new motor skill can form and selectively stabilise dendritic spines in mice.
-
-**Evidence source** = Xu et al. (2009) [[1]](#pm-ref-1)
-
-**Limitation** = Mouse motor tasks and spine imaging; not a human practice dose, verified synapse count or general cognitive-treatment claim.
-
-**Dietary input** = Yes
-
-Supporting mechanism research: [Learning forms and selectively stabilises dendritic spines](#pm12-f1)
+<PilotInterventionDisclosure id="pm12-ls-1" title="Motor-skill learning in mice → formation and selective retention of dendritic spines">
+<div class="brs-dietary-lever-detail-inner">
+<p><span class="brs-dietary-lever-detail-k">Intervention</span> = Skill learning and practice</p>
+<p><span class="brs-dietary-lever-detail-k">Intervention type</span> = lifestyle practice</p>
+<p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Activity-dependent remodelling provides a biological explanation; the intervention does not establish one molecular pathway mediating every new or retained spine.<br /><strong>Measured Effect:</strong> Learning and practising a new motor skill can form and selectively stabilise dendritic spines in mice.<br /><strong>PM Relevance:</strong> Directly concerns formation, selective maintenance or remodelling of neuronal connections in the stated experimental model.</p>
+<p><span class="brs-dietary-lever-detail-k">Evidence source</span> = Forelimb motor learning with longitudinal two-photon imaging in mouse motor cortex. <a href="#pm-ref-1">Reference 1</a>. Supporting Finding identities: PM12-F1; intervention scores are not inherited.</p>
+<p><span class="brs-dietary-lever-detail-k">Limitations</span> =</p>
+<ul><li><strong>Evidence boundary:</strong> Mouse motor tasks and spine imaging; not a human practice dose, verified synapse count or general cognitive-treatment claim.</li><li><strong>Null outcomes and attribution:</strong> Formation and elimination both occurred; more spines is not a universal optimisation target.</li></ul>
+<p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — retained experimental-context record; not a human prescription.</p>
+<p><strong>Intervention SEC:</strong> Not yet assessed</p>
 </div>
+</PilotInterventionDisclosure>
+
+<PilotInterventionDisclosure id="pm12-ls-2" title="Post-learning sleep in mice → branch-specific spine formation and selective remodelling">
+<div class="brs-dietary-lever-detail-inner">
+<p><span class="brs-dietary-lever-detail-k">Intervention</span> = Sleep after learning</p>
+<p><span class="brs-dietary-lever-detail-k">Intervention type</span> = lifestyle practice</p>
+<p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Reactivation and sleep-stage-dependent remodelling are relevant hypotheses; the different experiments do not establish one shared mediator or a human sleep-dose prescription.<br /><strong>Measured Effect:</strong> Sleep can support formation, selective retention, removal and resizing of connections after learning.<br /><strong>PM Relevance:</strong> Directly concerns formation, selective maintenance or remodelling of neuronal connections in the stated experimental model.</p>
+<p><span class="brs-dietary-lever-detail-k">Evidence source</span> = Mouse motor-learning/sleep manipulations, REM experiments and separate serial electron-microscopy comparisons. <a href="#pm-ref-4">Reference 4</a>; <a href="#pm-ref-5">Reference 5</a>; <a href="#pm-ref-6">Reference 6</a>. Supporting Finding identities: PM12-F3; intervention scores are not inherited.</p>
+<p><span class="brs-dietary-lever-detail-k">Limitations</span> =</p>
+<ul><li><strong>Evidence boundary:</strong> Mouse sleep/REM manipulations and ultrastructure differ by age, region and endpoint. More spines is not always better; no universal human sleep duration is derived.</li><li><strong>Null outcomes and attribution:</strong> Selective pruning and smaller contact interfaces are distinct from new-spine formation; none is uniformly better.</li></ul>
+<p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — retained experimental-context record; not a human prescription.</p>
+<p><strong>Intervention SEC:</strong> Not yet assessed</p>
 </div>
+</PilotInterventionDisclosure>
+
+<PilotInterventionDisclosure id="pm12-ls-3" title="Voluntary running in rats → regional dendritic and spine changes">
+<div class="brs-dietary-lever-detail-inner">
+<p><span class="brs-dietary-lever-detail-k">Intervention</span> = Physical activity</p>
+<p><span class="brs-dietary-lever-detail-k">Intervention type</span> = lifestyle practice</p>
+<p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Activity-dependent adaptation is a proposed explanation; the study does not isolate a molecular mediator connecting running to every regional structural change.<br /><strong>Measured Effect:</strong> Voluntary running changed spine density and dendritic structure in selected regions of adult rat brains.<br /><strong>PM Relevance:</strong> Directly concerns formation, selective maintenance or remodelling of neuronal connections in the stated experimental model.</p>
+<p><span class="brs-dietary-lever-detail-k">Evidence source</span> = Two months of voluntary wheel access versus sedentary housing in adult rats. <a href="#pm-ref-13">Reference 13</a>. Supporting Finding identities: PM12-F7; intervention scores are not inherited.</p>
+<p><span class="brs-dietary-lever-detail-k">Limitations</span> =</p>
+<ul><li><strong>Evidence boundary:</strong> Two-month rat wheel-running exposure; no human exercise prescription, synapse-mediated cognitive effect or uniform whole-brain change is established.</li><li><strong>Null outcomes and attribution:</strong> Regional changes do not establish a uniform whole-brain response or causal cognitive benefit.</li></ul>
+<p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — retained experimental-context record; not a human prescription.</p>
+<p><strong>Intervention SEC:</strong> Not yet assessed</p>
 </div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Sleep after learning</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-Sleep can support formation, selective retention, removal and resizing of connections after learning.
-
-**Expanded Disclosure**
-
-**Input** = Sleep after learning
-
-**Input type** = lifestyle practice
-
-**Biological role** = Sleep can support formation, selective retention, removal and resizing of connections after learning.
-
-**Evidence source** = Yang et al. (2014) [[4]](#pm-ref-4); Li et al. (2017) [[5]](#pm-ref-5); de Vivo et al. (2017) [[6]](#pm-ref-6)
-
-**Limitation** = Mouse sleep/REM manipulations and ultrastructure differ by age, region and endpoint. More spines is not always better; no universal human sleep duration is derived.
-
-**Dietary input** = Yes
-
-Supporting mechanism research: [Sleep supports selective formation, pruning and resizing](#pm12-f3)
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Physical activity</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-Voluntary running changed spine density and dendritic structure in selected regions of adult rat brains.
-
-**Expanded Disclosure**
-
-**Input** = Physical activity
-
-**Input type** = lifestyle practice
-
-**Biological role** = Voluntary running changed spine density and dendritic structure in selected regions of adult rat brains.
-
-**Evidence source** = Stranahan et al. (2007) [[13]](#pm-ref-13)
-
-**Limitation** = Two-month rat wheel-running exposure; no human exercise prescription, synapse-mediated cognitive effect or uniform whole-brain change is established.
-
-**Dietary input** = Yes
-
-Supporting mechanism research: [Voluntary running changes spine and dendritic structure in rats](#pm12-f7)
-</div>
-</div>
-</div>
+</PilotInterventionDisclosure>
 </div>
 </div>
 </div>

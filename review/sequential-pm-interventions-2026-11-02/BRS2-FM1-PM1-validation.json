@@ -1,0 +1,55 @@
+{
+  "before": [
+    {
+      "code": "nutrient_naming_nonpreferred_label",
+      "message": "BRS2-FM1-PM1: dietary_input_traceability[0].input \"5-Methyltetrahydrofolate\" — use \"5-Methyltetrahydrofolate (a form of vitamin B9)\""
+    },
+    {
+      "code": "nutrient_naming_nonpreferred_label",
+      "message": "BRS2-FM1-PM1: dietary_lever_presentations[0].label \"5-Methyltetrahydrofolate\" — use \"5-Methyltetrahydrofolate (a form of vitamin B9)\""
+    },
+    {
+      "code": "nutrient_naming_nonpreferred_label",
+      "message": "BRS2-FM1-PM1: dietary_lever_atoms[1].derived_target \"5-Methyltetrahydrofolate\" — use \"5-Methyltetrahydrofolate (a form of vitamin B9)\""
+    },
+    {
+      "code": "nutrient_naming_nonpreferred_label",
+      "message": "BRS2-FM1-PM1: public bullet \"5-Methyltetrahydrofolate\" — use \"5-Methyltetrahydrofolate (a form of vitamin B9)\""
+    },
+    {
+      "code": "dla_presentation_duplicate_substrate_provision",
+      "message": "BRS2-FM1-PM1: substrate-provision atom PM1-DIT-2 and supplied substrate PM1-DIT-1 must not render as separate primary entries without adjudication that both are independently admitted relationships"
+    },
+    {
+      "code": "dla_presentation_duplicate_derived_target",
+      "message": "BRS2-FM1-PM1: Derived atom PM1-DIT-4 and its biochemical target PM1-DIT-3 must not render as separate primary entries unless the target has an independently admitted dietary relationship"
+    }
+  ],
+  "after": [
+    {
+      "code": "nutrient_naming_nonpreferred_label",
+      "message": "BRS2-FM1-PM1: dietary_input_traceability[0].input \"5-Methyltetrahydrofolate\" — use \"5-Methyltetrahydrofolate (a form of vitamin B9)\""
+    },
+    {
+      "code": "nutrient_naming_nonpreferred_label",
+      "message": "BRS2-FM1-PM1: dietary_lever_presentations[0].label \"5-Methyltetrahydrofolate\" — use \"5-Methyltetrahydrofolate (a form of vitamin B9)\""
+    },
+    {
+      "code": "nutrient_naming_nonpreferred_label",
+      "message": "BRS2-FM1-PM1: dietary_lever_atoms[1].derived_target \"5-Methyltetrahydrofolate\" — use \"5-Methyltetrahydrofolate (a form of vitamin B9)\""
+    },
+    {
+      "code": "nutrient_naming_nonpreferred_label",
+      "message": "BRS2-FM1-PM1: public bullet \"5-Methyltetrahydrofolate\" — use \"5-Methyltetrahydrofolate (a form of vitamin B9)\""
+    },
+    {
+      "code": "dla_presentation_duplicate_substrate_provision",
+      "message": "BRS2-FM1-PM1: substrate-provision atom PM1-DIT-2 and supplied substrate PM1-DIT-1 must not render as separate primary entries without adjudication that both are independently admitted relationships"
+    },
+    {
+      "code": "dla_presentation_duplicate_derived_target",
+      "message": "BRS2-FM1-PM1: Derived atom PM1-DIT-4 and its biochemical target PM1-DIT-3 must not render as separate primary entries unless the target has an independently admitted dietary relationship"
+    }
+  ],
+  "newIssues": []
+}

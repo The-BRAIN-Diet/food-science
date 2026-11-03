@@ -1,0 +1,40 @@
+{
+  "vocabularyStatus": "Proposed demo vocabulary only; canonical identity adoption requires approval",
+  "terms": {
+    "physical-disruption-food-matrix": {
+      "label": "Physical disruption of the food matrix"
+    },
+    "heat-induced-protein-denaturation": {
+      "label": "Heat-induced protein denaturation"
+    },
+    "activity-associated-muscle-glucose-uptake": {
+      "label": "Activity-associated muscle glucose uptake"
+    }
+  },
+  "records": {
+    "PM1-SOP-DEFERRED-1": {
+      "atom3": {
+        "mechanismRef": "physical-disruption-food-matrix",
+        "moa": "Mincing physically disrupts the beef matrix and may facilitate digestive release and absorption. The preparation comparison supports a texture-related effect, but does not isolate this process as the causal mediator of the measured phenylalanine appearance.",
+        "evidenceStatus": "Mechanistic interpretation; mediator not isolated"
+      },
+      "reviewedMoAFingerprint": "ec3e3e7258dda73e40e9ff7287164aa24aef2b91c33eca820c38b2ca175e47ac"
+    },
+    "PM1-SOP-COOKED-EGG-1": {
+      "atom3": {
+        "mechanismRef": "heat-induced-protein-denaturation",
+        "moa": "Heating can denature egg proteins and alter their digestive accessibility. A separate ileal study supports improved digestibility of cooked egg protein. Denaturation itself was not isolated as the mediator of the postexercise circulating amino-acid response.",
+        "evidenceStatus": "Mechanistic interpretation; mediator not isolated"
+      },
+      "reviewedMoAFingerprint": "73eb3d5fb7b2e9202a59a66f092ffea82fd60dbef81faff4857bf162eb54ac9f"
+    },
+    "walking-example": {
+      "atom3": {
+        "mechanismRef": "activity-associated-muscle-glucose-uptake",
+        "moa": "Post-meal walking places muscle activity in the postprandial period. Increased muscle glucose uptake is a proposed rationale; the cited trial did not measure tissue-specific uptake or establish this as the mediator of lower glucose exposure.",
+        "evidenceStatus": "Proposed rationale; not measured in this trial"
+      },
+      "reviewedMoAFingerprint": "9cb71dddb2241ebfb093a25c1a6e603f7ff2db6e7e3271f72c39159e35740a0b"
+    }
+  }
+}

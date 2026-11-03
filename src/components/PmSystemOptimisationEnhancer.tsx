@@ -116,6 +116,9 @@ export default function PmSystemOptimisationEnhancer({ frontMatter }: Props): Re
   useEffect(() => {
     const pmId = typeof frontMatter?.pm_id === "string" ? frontMatter.pm_id : "";
     if (!pmId) return;
+    // PM9 presentation correction: hub candidates are not admitted PM SOPs.
+    // Preserve the generated evidence records, but do not project this legacy block.
+    if (pmId === "BRS1-FM4-PM9") return;
 
     const byPmId = (derivedIndex as { byPmId?: Record<string, DerivedIntervention[]> }).byPmId || {};
     const rows = byPmId[pmId];

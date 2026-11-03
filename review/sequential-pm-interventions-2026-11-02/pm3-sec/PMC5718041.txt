@@ -1,0 +1,195 @@
+Caloric restriction-induced decreases in dopamine receptor availability are associated with leptin concentration
+
+Objective
+
+We previously reported early after Roux-en-Y-gastric bypass(RYGB), dopamine(DA) type 2 and 3 receptor(D2/3R) binding potential(BPND) was decreased from pre-operative. The current study aimed to determine if calorie restriction without weight loss modifies D2/3R BPND and if such changes are explained by neuroendocrine regulation.
+
+Methods
+
+Fifteen females with obesity(BMI=39±6kg/m2) were studied before and after ~ten days of a very-low-calorie-diet(VLCD). Outcome measures included fasting insulin, leptin, acyl ghrelin, and glucose, and insulin sensitivity and disposition index estimated using the oral-minimal model(OMM) method. Participants underwent PET scanning with the displaceable radioligand [18F]fallypride to estimate available regional D2/3R levels. Region of interest included the caudate, putamen, ventral striatum, hypothalamus, and substantia nigra(SN).
+
+Results
+
+With the VLCD, weight decreased slightly(-3 kg). Insulin, glucose, and leptin decreased significantly, but there was no change in acyl ghrelin or measures from OMM. SN D2/3R BPND decreased significantly, with trends toward decreased levels in the remaining regions. The decrease in leptin concentration strongly predicted the change in D2/3R BPND in all regions(all p≤0.004).
+
+Conclusions
+
+In obesity, reductions in regional D2/3R availability after VLCD are suggestive of increased endogenous DA competing with the radioligand. Changes in regional D2/3R availability were associated with decreases in leptin concentrations occurred before clinically significant weight loss.
+
+Introduction
+
+Intact dopamine (DA) signaling is essential to survival and maintenance of eating patterns. Positron emission tomography (PET) imaging studies demonstrate that palatable meal-induced DA release in the dorsal striatum predicts an individual's pleasantness from the meal. However, in obesity, food-stimulated neural activation in the DA-rich caudate of the dorsal striatum is diminished in humans,. Diet-induced obesity (DIO) models demonstrate reduced striatal DA,, and individuals with obesity have limited pharmacologically-induced DA release supporting the hypothesis that a hypodopaminergic state in obesity promotes compensatory overeating.
+
+Roux-en-Y-gastric bypass (RYGB) remains one of the most effective obesity treatments despite uncertainty as to the mechanism by which it promotes long-term caloric restriction. In a small cohort of RYGB patients, we determined that D2/3R availability in the substantia nigra (SN), hypothalamus, striatum, and other reward regions was decreased seven weeks after surgery when individuals had lost an average of 12% of total body weight. Scans were completed with the displaceable radioligand, [18F]fallypride, such that its binding represents the availability of the receptors after the radioligand competes with endogenous DA. We interpreted the reduced receptor availability to represent increased DA levels after surgery. In the early weeks post-surgery, patients are significantly calorically restricted raising the possibility that the observed change in DA is either completely or partially related to the caloric restriction. This is supported by studies in rodents showing that both RYGB and pair-fed controls have increased striatal DA content.
+
+Caloric restriction in rodents enhances motivation and sensitivity to reward in a DA-dependent manner. Peripherally secreted hormones including insulin, ghrelin, and leptin are known modifiers of reward and eating behaviors and their receptors are present on midbrain DA neurons which project to the striatum. Caloric restriction in humans changes the concentration and potential action of these neuroendocrine hormones. The goal of this intervention was to determine the early effects of short-term caloric restriction on DA signaling before clinically significant weight loss, and the relevance of neuroendocrine regulation of DA signaling in this state.
+
+Methods and materials
+
+Participants
+
+Protocol approval was obtained from the Vanderbilt University Institutional Review Board, and all participants gave written informed consent. The study included 15 weight-stable (excluded if in 12months preceding enrollment weight had changed ≥10%), females (14 right-handed, 1 left-handed) with obesity, whose baseline measures were previous detailed. Participants were screened by history and physical exam, electrocardiogram, laboratory testing, and urine drug screen. Exclusion criteria included significant psychiatric, neurologic, renal, liver, cardiac, or pulmonary disease, pregnancy or breast feeding, current use or less than three years since tobacco dependence, current substance abuse or heavy alcohol use (>14 drinks per week), current caffeine intake (more than equivalent of 16 ounces of coffee daily), use of central acting medications in the last six months, use of insulin sensitizing agents, or exercising more than moderate levels on a regular basis. One participant had well controlled type 2 diabetes mellitus (DM) by diet while the remaining participants did not have DM as determined by sub-threshold fasting and two-hour oral glucose tolerance test (OGTT) glucose concentrations. Participants with significant depressive-symptoms during interview or with scores >20 on the Beck Depression Inventory-II (BDI-II) were also excluded. At screening and before the PET scans, β-hCG testing was completed in those capable of pregnancy. Screening also included structural magnetic resonance imaging (MRI) to later co-register with PET images.
+
+General study protocol
+
+Participants were studied at baseline and again after completing eight to ten days of VLCD. Two days prior to each study admission at the Vanderbilt University Clinical Research Center (CRC), participants were asked to refrain from exercising, alcohol, and to restrict caffeine intake (≤ 8 ounces of coffee daily or equivalent). On the day of study admission, participants ate a weight-maintenance breakfast that was similar to a typical breakfast for the individual (to avoid novelty) and then a small meal before 10:00 am, then only water. A blood sample for fasting neuroendocrine hormones was drawn before the PET scan which started at ~18:30. Scanning ran for 3.5 hours, and after scanning a weight-maintenance meal was provided before overnight sleep at the CRC. The following morning at ~07:30 am the five-hour OGTT was completed. Then participants returned on the last day of the VLCD for the post-study admission. On the day of study admission, participants had three study shakes (~450kcal), bouillon, and allowed vegetables (as below) before 10:00 am, then only water. A fasting blood sample and PET imaging were completed as at baseline. After the scan, dinner included one study shake and very low-calorie vegetables. After an overnight rest, the five-hour OGTT was repeated the next morning. At the study’s conclusion, participants resumed their pre-study dietary intake. During the diet participants were given a paper diary to complete about daily hunger ratings and diet related challenges to be returned at the end of the study. However, return of this information was too inconsistent to be included in the analysis.
+
+Metabolic measures
+
+Fasting blood was collected at the time of PET scan for insulin, glucose, acyl ghrelin and leptin. Blood was collected in pre-chilled-EDTA tubes containing AEBSF [4-(2-aminoethyl)-benzenesulfonyl fluoride hydrochloride; Roche Applied Science, Indianapolis, IN] at a final concentration of 4 mM. Samples were immediately centrifuged at 4 °C to separate plasma. Plasma for acyl ghrelin measurement was acidified with hydrochloric acid at a final concentration of 0.1 N. Plasma insulin, leptin, c-peptide, and acyl ghrelin were measured by radioimmunoassay in duplicate (Millipore) by the Vanderbilt Hormone Assay and Analytical Services Core. Plasma glucose was run in triplicate by the glucose oxidase method using a Beckman glucose analyzer.
+
+At each study admission body composition was measured by air-displacement plethysmography using the BOD POD (Version 5.4.1 Cosmed, Jamestown, Rhode Island). After an overnight fast, a five-hour OGTT was completed; participants ingested a 75 gram glucose load, with blood sampling obtained via an arterialized hand vein at times 0, 10, 20, 30, 60, 90, 120, 150, 180, 240, and 300 min. Plasma insulin, glucose, and c-peptide concentrations were used to estimate whole body insulin sensitivity index (SI) and β-cell response sensitivity to glucose (Φtotal) using the oral-minimal model (OMM) method. The product of these two measures provides the disposition index (DI).
+
+Dietary intervention
+
+Eight to ten days (12 of 15 participants completed 10 days) before participants returned for their second study admission, they started the VLCD. The VLCD included four Carnation Breakfast®, no-sugar added shakes a day each mixed with eight ounces of non-fat milk (~600 kcal/day, 96 g carbohydrate, 52 g protein, 4 g fat). Participants were allowed ad libitum intake of a selection of very low-calorie vegetables detailed by the dietitian (<30 kcal/serving). Calorie-free and very-low calorie (<30 kcal/serving) vegetable seasonings and dressings were also allowed after review by study dietitian. The goal was to provide ~800 kcal daily similar to the early weeks post-RYGB surgery. We also recommended a minimum of 48 ounces of water and two servings of bouillon daily to provide at least 2,000 mg sodium daily.
+
+Neuroimaging
+
+Imaging techniques and analysis were completed as we previously published. An MRI of the brain was obtained for detailed structural images for co-registration with PET images. Thin section T1 weighted images were completed on either a 1.5T (GE; General Electric, 1.2–1.4 mm slice thickness, in plane voxel size of 1 × 1 mm) or a 3T MRI scanner (Philips Integra Achieve, 1 mm slice thickness, in plane voxel size of 1 × 1 mm). Participants completed PET scanning with the D2/3R radioligand [18F]fallypride on a GE Discovery STE scanner with a 3-dimensional emission acquisition and a transmission attenuation correction, with a reconstructed resolution of 2.34 mm in plane, approximately 5 mm axially, and provides 47 planes over a 30-cm axial field of view. Over approximately three and half hours, a series of three PET scans were completed with 15 minute breaks between each scan sequence. The first scan sequence was initiated with a bolus injection during a 15-second period to deliver 5.0 mCi [18F]fallypride (specific activity >2,000 Ci/mmol) and lasted 70 minutes. The second and third scan sequences started at 85 and 150 minutes, lasting 50 and 60 minutes, respectively.
+
+Imaging analysis
+
+Region of interest (ROI) analysis were selected for their relevance to eating behavior and known modulation by the neuroendocrine measures. Using a mutual information rigid body algorithm, the serial PET scans were co-registered to each other and to the thin-section T1-weighted MRI scans. Images were reoriented to the anterior commissure-posterior commissure line. The reference region method was used to calculate regional D2/3R BPND with the cerebellum as the reference region. ROIs were delineated on the MRI images transferred to the co-registered PET scans. Right and left caudate, putamen, ventral striatum (VS), and SN were delineated and the average value for each was used for analysis. The hypothalamus was selected as an a priori ROI and delineated as we previously reported.
+
+Statistical analysis
+
+Data are presented as mean ± standard deviation (SD) and baseline to post-VLCD, respectively. Baseline and post-VLCD demographic and outcome measures were compared using paired t-tests. Longitudinal mixed-effect model analyses were used to determine whether neuroendocrine measures predicted D2/3R BPND. Individual neuroendocrine measures (insulin, leptin, acyl ghrelin) and glucose and DI were included as fixed effects and the main outcome of regional D2/D3R BPND for the five ROIs with random intercept for participants. To limit type 1 error with the multiple comparisons, Benjamini–Hochberg false discovery rate (FDR) correction at a level of significance q≤0.05 was used. In one region, two predictors were significant after FDR correction. These two predictors were both included as fixed effects in a similar longitudinal mixed-effect model. All statistical analyses were performed with SPSS Statistics 22.0 (IBM Corporation). To detect with the VLCD decreases in D2/3R BPND in the ROIs that are half of what we reported seven weeks after bariatric surgery (average 9.3%) with a similar standard deviation of the response (average 6.3%), 16 participants are necessary for a power of 0.8 with alpha of 0.05. Only 15 participants completed the diet, providing a power of 0.77 (PS Software).
+
+Results
+
+Fifteen females completed baseline and post-VLCD studies (Table 1). Table 1 details comparisons from baseline to post-VLCD. Data for body composition for 3 participants were excluded due to changes >10% which were considered technical error and not physiologic. The diet contributed to a small but statistically significant decrease in total body weight (2.8%), fat free mass (−1.9kg) and BMI (−1 kg/m2), but not a significant decrease in fat mass. Plasma insulin, glucose and leptin collected at the time of scanning significantly decreased with VLCD, but acyl ghrelin, SI, Φtotal and DI did not change. D2/3R BPND decreased in the SN, and trended to significant decreases in all other regions (Table 1 and Supplement Figure S1).
+
+Leptin concentrations predicted changes in D2/3R BPND from VLCD in all five ROIs (all p≤0.004) (Table 2) even after FDR correction. Glucose also demonstrated a highly significant relationship with D2/3R BPND in the SN (p=0.007) and trended to a relationship in the caudate and putamen but did not hold up to FDR correction. Only in the SN did acyl ghrelin concentrations trend towards significance (p=0.046). Neither insulin (all p>0.5) nor DI (all p>0.3) predicted any ROI D2/3R availability. In the SN, when leptin and glucose concentrations were included in a multivariate analysis, leptin accounted for all the effects seen by glucose and its parameter estimate was not significantly modified [leptin estimate 0.009 (0.005, 0.013) p<0.001]. Figure 1 provides graphical presentation of percent changes in regional D2/3R BPND and percent changes in leptin concentrations during VLCD.
+
+Discussion
+
+To our knowledge, our study is the first human study to specifically measure DA receptor availability with non-surgical caloric restriction, and further to relate DA signaling changes to known neuroendocrine modifiers. Our findings demonstrate that short-term caloric restriction (VLCD) decreases D2/3R availability in females with obesity. Further we found that this change was associated with diet-induced decreases in leptin. We interpret the decreased receptor availability to represent an increase in endogenous DA levels competing with the D2/D3R radioligand. Supporting our interpretation, food restriction causes increased striatal DA in rodents and leptin exposure decreases basal (tonic) and feeding-induced DA secretion. Therefore, caloric restriction-induced decreases in leptin diminish a negative regulator of DA secretion. As our participants had minimal weight loss, we were able to demonstrate that caloric restriction modifies the dopaminergic system before clinically significant weight loss occurs. Our findings highlight a role for neuroendocrine modification of DA signaling in the challenge to comply with even short-term caloric restriction.
+
+The decreased D2/3R availability (i.e. increased endogenous DA) after VCLD occurred in regions fundamental for regulating eating behaviors including the SN, VS, hypothalamus, and particularly the dorsal striatum, which is essential for ingestive-motivated behaviors. It is well established in animal models that caloric restriction enhances motivation and sensitivity for reward, including intake of drugs of abuse. DA signaling mediates food-restricted increases in reward sensitivity as a general DA antagonist abolishes and DA receptor agonists potentiate the effect. In rodents, caloric restriction causes an increase in striatal DA content and an increase in stimulated DA release. Multiple animal studies have reported that caloric restriction either does not change DA type 2 receptors or attenuates age-related decline in the receptor in the striatum,,. Our interpretation is that caloric restriction-induced decreases in D2/3R availability represent increases in endogenous DA levels. The mechanism underlying this observation is unknown.
+
+We found robust associations between the regional receptor availability and the decreases in leptin concentrations. The literature supports a mechanistic link between leptin and dopamine signaling. Preclinical studies demonstrate that leptin decreases basal and feeding-induced DA release in the nucleus accumbens, which is within the ventral striatum. Figelwicz et al. demonstrated that a low-dose leptin infusion (a dose without weight effects) eliminates the increased reward sensitivity that occurs with caloric restriction. In a functional MRI study of six individuals with obesity, 10% total body weight loss caused increased neural responsivity to food images in DA rich regions, including the hypothalamus and putamen. It was hypothesized that these weight loss-induced changes in food reward neural activation contribute to rebound overeating. This altered pattern of neural activation was partially reversed by restoring leptin to pre-weight loss levels. Interestingly, specific knockout of the leptin receptor (LepRb) on DA neurons does not increase reward sensitivity to highly palatable foods, suggesting that leptin indirectly modifies DA signaling. An alternative consideration is an attenuation of the inhibitory effect that leptin has on the orexin system. Orexin signaling increases DA release, is essential for caloric restriction-induced increases in reward sensitivity, and increases food anticipatory activity. It has been proposed that leptin therapy specifically at the stage of weight maintenance would limit weight recidivism.
+
+We have determined that with both caloric restriction and RYGB, D2/3R availability decreases in the striatum and extra-striatal regions. We interpret this to represent increased extracellular DA, data that are consistent with rodent studies of the striatum. Long-term maintenance of caloric restriction is a hallmark of RYGB’s success; however, VLCD is not the sole mechanism for the prolonged long term effect of metabolic improvements observed with RYGB. Non-surgical patients with obesity struggle to achieve and maintain sufficiently decreased food intake to lose even 5–10% of their total body weight. It is hypothesized that RYGB results in several adaptions in gut-brain signaling, which are essential to the surgery’s long-term success. Weight recidivism with non-surgical caloric restriction may be related to an impaired balance in ventral and dorsal striatal DA levels. It is interesting that preclinical studies reveal that DA release from the ventral and dorsal striatum have different motivational functions in eating, hedonic and nutritional, respectively. In our fasting measurements of D2/3R availability, the percent changes induced by RYGB or VLCD were similar for the ventral and dorsal striatum, nonetheless, studies to separate the motivational functions of eating with these interventions would be impactful.
+
+There are specific limitations of our study, including lack of available appetitive ratings, indirect estimates of endogenous DA levels, and a female-only cohort. This study cannot differentiate the portion of the change in D2/3 availability that is due to increased endogenous DA versus decreased D2/3R levels. However, preclinical literature supports that increases in DA and not decreases in D2/3 receptor levels occur with caloric restriction. If these changes represent increased endogenous DA displacing the radioligand, the level is noteworthy as the percent decreases induced by VLCD are approximately half (38–66%) of what occurs with acute amphetamine-induced increases in endogenous DA release when the drug is given at a moderate- to higher- end clinical dose (0.43 mg/kg). It cannot be excluded that the responses attributed to the VLCD are at least partially due to more ‘acute’ affects as the caloric intakes on the days of scanning were appreciably different; regardless, the results support a role of caloric restriction in modulating DA signaling. The circadian pattern of food intake does modify leptin concentrations at the time of day we completed scanning. While we did not collect precise measurements of caloric intake over the course of the VLCD, on average there was a 3 kg weight loss in our cohort which is a comparable degree of weight loss as seen with other short-term inpatient VLCD interventions Of note, the change in body composition was predominately fat free mass. Yang and Itallie also reported a ~3 kg total body weight loss with 10 days of VLCD in 6 individuals with obesity. Using the energy-nitrogen balance, they estimated that ~60% of the weight loss was fat mass and ~40% due to water and protein loss; the later would be detected as fat free mass. We suspect that the combination of limited total weight loss and different methodology failed to detect similar trends in body composition. We cannot exclude the potential impact of dietary non-adherence to limited changes in fat mass.
+
+Another consideration is that in reward studies often the interest is an acutely stimulated state (e.g. acute food or cocaine exposure) to investigate phasic DA release. However, tonic levels of extracellular DA modify phasic DA release. In the current study, imaging was completed while fasting in a baseline weight-stable state and then after ~10days of VLCD, suggesting that our findings likely represent changes in tonic DA activity. To fully interpret the significance of these findings, future studies should consider aspects of both tonic and phasic DA in obesity.
+
+Conclusion
+
+In summary, we present evidence in the current study that short-term caloric restriction increases DA levels possibly caused by diet-induced decreases in leptin concentrations. These changes occurred even before clinically relevant weight loss, and their impact on eating behaviors remains uncertain. Future work is necessary to define the dynamic neuroendocrine regulation of dopaminergic signaling during weight loss and its influence on eating behaviors.
+
+Supplementary Material
+
+Clinical Trial Registration Number: NCT00802204
+
+Disclosure: No authors claim a conflict-of- interest.
+
+Dopamine production in the caudate putamen restores feeding in dopamine-deficient mice
+
+Feeding-induced dopamine release in dorsal striatum correlates with meal pleasantness ratings in healthy human volunteers
+
+Decreased caudate response to milkshake is associated with higher body mass index and greater impulsivity
+
+Relation between obesity and blunted striatal response to food is moderated by TaqIA A1 allele
+
+Striatal dopamine homeostasis is altered in mice following Roux-en-Y gastric bypass surgery
+
+Deficits of mesolimbic dopamine neurotransmission in rat dietary obesity
+
+Dopamine D2/3 receptor availability and amphetamine-induced dopamine release in obesity
+
+Reward, dopamine and the control of food intake: implications for obesity
+
+Unveiling the "Magic" of Diabetes Remission After Weight-Loss Surgery
+
+Decreased dopamine type 2 receptor availability after bariatric surgery: preliminary findings
+
+Chronic food restriction: enhancing effects on drug reward and striatal cell signaling
+
+Leptin reverses sucrose-conditioned place preference in food-restricted rats
+
+Hormonal and neural mechanisms of food reward, eating behaviour and obesity
+
+Decreases in fasting leptin and insulin concentrations after acute energy restriction and subsequent compensation in food intake
+
+Relationship of dopamine type 2 receptor binding potential with fasting neuroendocrine hormones and insulin sensitivity in human obesity
+
+Comparison of Beck Depression Inventories -IA and -II in psychiatric outpatients
+
+Oral glucose tolerance test minimal model indexes of beta-cell function and insulin sensitivity
+
+Comparison of methods for analysis of clinical [11C]raclopride studies
+
+Yosef Controlling the false discovery rate: a practical and powerful approach to multiple testing
+
+Caloric restriction enhances evoked DA overflow in striatum and nucleus accumbens of aged Fischer 344 rats
+
+Basal and feeding-evoked dopamine release in the rat nucleus accumbens is depressed by leptin
+
+The gut-brain dopamine axis: a regulatory system for caloric intake
+
+Restricted eating with weight loss selectively decreases extracellular dopamine in the nucleus accumbens and alters dopamine response to amphetamine, morphine, and food intake
+
+Delayed loss of striatal dopamine receptors during aging of dietarily restricted rats
+
+Thanos MMYKPG-JWNDV. Food restriction markedly increases dopamine D2 receptor (D2R) in a rat model of obesity as assessed with in-vivo muPET imaging ([11 C] raclopride) and in-vitro ([ '1' 3 H] spiperone) autoradiography
+
+Leptin reverses weight loss–induced changes in regional neural activity responses to visual food stimuli
+
+Selective deletion of the leptin receptor in dopamine neurons produces anxiogenic-like behavior and increases dopaminergic activity in amygdala
+
+Leptin acts via lateral hypothalamic area neurotensin neurons to inhibit orexin neurons by multiple GABA-independent mechanisms
+
+Hypocretin/orexin regulation of dopamine signaling: implications for reward and reinforcement mechanisms
+
+Role of orexin/hypocretin in conditioned sucrose-seeking in female rats
+
+Entrainment of temperature and activity rhythms to restricted feeding in orexin knock out mice
+
+Gastric Bypass Surgery Recruits a Gut PPAR-alpha-Striatal D1R Pathway to Reduce Fat Appetite in Obese Rats
+
+Energy and macronutrient intake after gastric bypass for morbid obesity: a 3-y observational study focused on protein consumption
+
+Distinctive striatal dopamine signaling after dieting and gastric bypass
+
+Separate circuitries encode the hedonic and nutritional values of sugar
+
+Amphetamine-induced displacement of [18F] fallypride in striatum and extrastriatal regions in humans
+
+Appetite responds to changes in meal content, whereas ghrelin, leptin, and insulin track changes in energy availability
+
+Relative effects of calorie restriction and weight loss in noninsulin-dependent diabetes mellitus
+
+Composition of weight lost during short-term weight reduction. Metabolic responses of obese subjects to starvation and low-calorie ketogenic and nonketogenic diets
+
+Argument for a non-linear relationship between severity of human obesity and dopaminergic tone
+
+Regional D2/3R availability percent changes associated with leptin concentration percent changes from the VLCD.
+
+Demographics for females with obesity that completed VLCD. Data presented are mean ± SD.
+
+	Baseline	Post-VLCD	sign.*	 	Age (years)	39±8			 	Race (B/W)	7/8			 	Weight (kg)	104±17	101±17	t(14)=10.96, p<0.001	 	BMI (kg/m2)	39±6	38±6	t(14)=10.42, p<0.001	 	Fat mass (kg)	46.3±13.3	45.6±13.0	t(11)=1.12, p=0.285	 	Fat free mass (kg)	55.5±6.2	53.6±5.5	t(11)=3.12, p=0.010	 	Measures from OGTT				 	  SI (10−4 * min−1 *µU−1 * mL)	3.98±2.70	3.90±2.65	t(14)=0.11, p=0.917	 	  Φtotal (109 min−1)	29.6±10.3	26.0±10.5	t(14)=1.52, p=0.152	 	  DI (106min--2 *µU−1 * mL)	10.5±7.0	8.8±6.4	t(14)=0.71, p=0.488	 	Measures at time of scan				 	  Insulin (µU/ml)	16±9	11±5	t(13)=2.33, p=0.037	 	  Glucose (mg/dL)	86±9	81±7	t(13)=2.89, p=0.013	 	  Leptin (ng/ml)	43±12	34±15	t(14)=4.00, p=0.001	 	  Acyl ghrelin (pg/ml)	74±51	59±36	t(14)=1.42, p=0.177	 	D2/3R BPND				 	   Caudate	33.1±2.6	31.9±3.4	t(14)=1.91, p=0.076	 	   Putamen	37.94±2.36	36.32±3.50	t(14)=2.10, p=0.054	 	   Ventral striatum	22.4±2.5	21.6±2.5	t(14)=1.92, p=0.076	 	   Hypothalamus	4.23±0.50	4.12±0.62	t(14)=1.91, p=0.077	 	   Substantia Nigra	2.69±0.32	2.59±0.29	t(14)=3.24, p=0.006	 	
+
+B/W, black/white; OGTT, oral glucose tolerance test; SI, whole body insulin sensitivity index; Φtotal, β-cell response sensitivity to glucose; DI, disposition index; D2/3R BPND, dopamine type 2 and 3 receptor binding potential.
+
+test statistic (degrees of freedom)=,p-value
+
+Longitudinal model results for significant relationships of metabolic measures to regional D2/3R availability during VLCD.
+
+		Caudate	Putamen	VentralStriatum	SubstantiaNigra	Hypothalamus	 	Leptin	Estimate	0.12	0.12	0.08	0.01	0.01	 		(95% C.I.)	(0.05,0.18)	(0.05,0.19)	(0.03, 0.12)	(0.007, 0.01)	(0.006,0.02)	 		p-value	0.001*	0.002*	0.004*	<0.001*	0.001*	 	Glucose	Estimate	0.15	0.14	0.06	0.01	0.01	 		(95% C.I.)	(0.02,0.27)	(0.006,0.28)	(−0.03,0.16)	(0.003,0.018)	(−0.003,0.03)	 		p-value	0.022	0.042	0.184	0.007*	0.123	 	
+
+significant after correction for FDR
+
+What is already known about this subject?
+
+Intact dopamine signaling is essential for normal eating behaviors.
+
+Using a displaceable radioligand, we previously demonstrated that Roux-en-Y-gastric bypass causes decreases in D2/3R binding.
+
+What does your study show?
+
+Using a displaceable radioligand in obesity, short-term caloric restriction causes decreased D2/3R binding, suggestive of increased endogenous DA levels.
+
+These decreases were associated with diet-induced decreases in leptin supporting dynamic neuroendocrine regulation of dopaminergic signaling before clinically relevant weight loss.

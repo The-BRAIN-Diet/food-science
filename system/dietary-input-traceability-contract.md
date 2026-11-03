@@ -2823,3 +2823,39 @@ PM1 is the initial presentation pilot. Its egg comparison is “Cooked versus ra
 ## Mandatory author approval for presentation changes
 
 Follow [presentation-change-control.md](presentation-change-control.md). Scientific data integration does not authorise public presentation. New substantive blocks require a proposal, representative rendered example, page-type/count scope, updated contract and explicit prior author approval. Run `npm run presentation:check`; never regenerate the baseline or invent an approval to bypass a failure. Both Dietary pathways technical panels are withdrawn across all page types; preserve their data without public projection. This rule supersedes earlier instructions permitting automatic pathway displays.
+
+## SOP/Lifestyle Mechanism-of-Action integrity — 2 November 2026
+
+Follow [the six-atom SOP/Lifestyle contract](sop-lifestyle-six-atom-presentation.md). Intervention, full MoA, Measured Effect, PM Relevance and Evidence Limitations must remain separate. Unresolved MoA produces no collapsed Mechanism line. Evidence-status text cannot substitute for a process, and a measured effect does not establish mediation. Preserve existing admission, dominance, SEC and Dietary Confidence rules. This is an authorised governance correction; canonical presentation rollout requires separate explicit approval.
+
+## Two-pass SOP/Lifestyle execution — owner instruction 2 November 2026
+
+**Pass 1 takes priority across all 64 PMs.** Review mission relevance, original evidence, measured effects, identifiable MoA, independently typed limitations, PM-specific admission and ontology links. Implement only eligible interventions through the approved six-atom presentation, including legitimate dominance placement. An unresolved MoA does not automatically disqualify or admit an intervention. Contextual, mechanistic and unverified candidates must not be automatically admitted. Record intervention-specific SEC status as **Not yet assessed** unless an existing valid assessment covers the exact intervention–outcome proposition. Preserve any valid existing intervention assessment. Do not assign new intervention SEC scores or inherit Finding scores. Extract paper-relevant examples incrementally.
+
+**Pass 2 follows Pass 1.** Appraise admitted SOPs and Lifestyle Levers using the existing D/B/P/R rubric, exact intervention–outcome proposition and retained provenance. Use existing Assessment Gap tracking for incomplete appraisal. Present scoring in Section 4, not in the six atoms. Flag material appraisal problems for admission adjudication; do not silently rewrite admissions. Preserve scientific Findings, dietary admissions and immutable SEC history.
+
+Track scientific eligibility, implementation/validation and SEC appraisal independently. Pass 1 completion is not scoring completion. No new public presentation component or deployment is authorised by this sequencing instruction.
+
+## Dietary-first editorial placement — approved 2 November 2026
+
+This owner-approved rule supersedes requirements above that make routine dietary-first presentation depend on demonstrated comparative intervention dominance.
+
+- Where a PM has admitted Dietary Levers, present that group first by editorial default because the framework is diet-focused. Placement is not a claim that diet is biologically stronger, more effective or more important than SOPs or Lifestyle Levers.
+- Retain SOPs and Lifestyle Levers in their standard sections unless an explicitly justified presentation exception is approved. Do not withdraw previously approved exceptions automatically.
+- Keep scientific Intervention Dominance separate. Where comparative evidence does not establish a principal route, retain or record “No principal intervention route established”. Do not assign Diet-Dominant merely to achieve dietary-first placement or populate scientific `selected_groups` from editorial preference.
+- Admission remains evidence-governed. Dietary-first placement neither admits a candidate nor promotes biochemical-only participants. Specificity alone does not establish dominance; a defined SOP can also be specific. Empty dietary groups must not be promoted or filled artificially.
+- Routine Pass 1 presentation and paper extraction need not wait for comparative dominance adjudication. Record genuine scientific uncertainties separately and continue. Existing scores, admissions, scientific qualification labels and immutable history remain unchanged.
+- Future generator implementation must represent editorial placement separately from scientific route selection. This instruction approval does not itself confirm that the current generator implements the separation; validate before reporting rollout completion.
+
+
+### Intervention-specific SEC ownership — PM3 integration, 3 November 2026
+
+The owner-requested PM3 appraisal is a bounded exception to the two-pass rollout priority. An SOP or Lifestyle Lever assessment uses the existing D/B/P/R rubric, caps and immutable SEC registry, with `interventionId` instead of `findingId`. These ownership fields are mutually exclusive. Never reinterpret an interpretive-constraint identifier as an intervention or inherit a linked Finding's score.
+
+A canonical intervention atom pins `sec_assessment_ref: {id, version, sha256}` and the exact `sec_assessed_proposition`. Resolve against its `atom_id`, PM identity, proposition and content pin. Assessment gaps use the same intervention owner and existing dimension-level tracking. Missing values remain null, pending dimensions require actionable Assessment gaps, and pending appraisal blocks scientific approval. Provisional appraisal is not human scientific acceptance or automatic intervention re-admission.
+
+Existing Finding assessments and all historical snapshots remain immutable. This extension stores intervention assessments and updates existing status text only; it does not authorise a new public panel. Numerical assessment presentation remains governed by Section 4 and its separately approved presentation contract. Keep intervention coverage separate from Finding coverage.
+
+### BRS2 PM1 presentation correction — 3 November 2026
+
+Use the existing `brs-fm-hub-*` disclosure markup for SOP category groups, matching §1.1; do not wrap interventions in generic MDX `<details>` cards with theme-coloured backgrounds. Individual rows retain `brs-dietary-lever-trigger` styling. A mechanism summary may describe established nutrient provision without asserting unmeasured intracellular conversion or mediation. Preserve those qualifications in Atom 3. The steaming example remains unresolved: do not invent a leaching mechanism from folate-retention measurements alone.

@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-03",
+  "status": "PASS",
+  "command": "SEC_BASE_REF=HEAD NODE_OPTIONS=--max-old-space-size=4096 TERSER_PARALLEL=1 DOCUSAURUS_NO_PERSISTENT_CACHE=1 npm run build -- --out-dir /tmp/brain-sop-pass1-build-20261103",
+  "html_pages": 1154,
+  "output": "/tmp/brain-sop-pass1-build-20261103",
+  "log": "/tmp/brain-sop-pass1-build-20261103.log",
+  "warnings": {
+    "tag_lines": 52,
+    "broken_anchor_report": true,
+    "outdated_browserslist": true
+  },
+  "checks": {
+    "presentation": "691 protected files pass",
+    "dietary_governance": "64 PMs zero issues",
+    "sec": "110 snapshots valid",
+    "focused_tests": "20/20 pass",
+    "detailed_pm1_atom_validator": "Six pre-existing issues unchanged; zero introduced"
+  },
+  "scope": "Includes BRS2 PM1 steaming SOP. Nori and BRS2 PM2 oats remain review candidates, not implemented."
+}

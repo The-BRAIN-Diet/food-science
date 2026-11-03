@@ -220,7 +220,7 @@ function supportingFindingLink(
   const finding = findings.find((row) => String(row?.id || "") === id);
   const label = String(finding?.finding_label || "").trim();
   if (!label) return null;
-  return { id, label: isScientificPrinciple(frontMatter, id) ? scientificPrincipleLabel(finding, frontMatter) : findingReaderLabel(finding), href: findingEvidenceHref(frontMatter, id) };
+  return { id, label: isScientificPrinciple(frontMatter, id) ? scientificPrincipleLabel(finding, frontMatter) : findingReaderLabel(finding, frontMatter), href: findingEvidenceHref(frontMatter, id) };
 }
 
 function evidenceSourceReferences(

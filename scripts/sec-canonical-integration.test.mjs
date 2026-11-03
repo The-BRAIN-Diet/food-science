@@ -109,10 +109,20 @@ test('glycaemic protocols have immutable identities, exact six atoms and bounded
   assert.equal(r.adjustedScore,4);assert.ok(r.previousAssessments.some(v=>v.adjustedScore===2));
 });
 
-test('food-strategy projection removes only retired PM2 relationship; PM1 and other PMs are byte-equivalent data',()=>{
-  const path='system/generated/food-strategy-rollup/rollup.generated.json';
-  const old=JSON.parse(execFileSync('git',['show','HEAD:'+path],{encoding:'utf8'})),now=json(path);
-  const other=rows=>rows.filter(r=>r.pm!=='BRS6-FM1-PM2');assert.deepEqual(other(now.relationships),other(old.relationships));
+test('food-strategy projection matches current canonical SOPs and preserves retired PM2 boundary',()=>{
+  const path='system/generated/food-strategy-rollup/rollup.generated.json',now=json(path);
+  // Approved later SOP work changes the projection. Compare each projected
+  // relationship with its actual canonical source instead of freezing HEAD.
+  for(const row of now.relationships) {
+    const [file,location]=row.source_record.split('#');
+    const [field,id]=location.split('/');
+    const source=matter(read(file)).data[field].find(r=>r.atom_id===id);
+    assert.ok(source,row.id);
+    assert.equal(row.input,source.input,row.id);
+    assert.equal(row.biological_role,source.biological_role,row.id);
+    assert.equal(row.limitation,source.evidence_limitation,row.id);
+    assert.deepEqual(row.evidence,source.evidence_source,row.id);
+  }
   const fish=now.strategies.find(r=>r.id==='food-strategy-053016fdaaca');assert.deepEqual(fish.relationship_ids,['BRS6-FM1-PM1::PM1-SOP-2']);
   assert.ok(!now.relationships.some(r=>r.id==='BRS6-FM1-PM2::PM2-SOP-1'));
   const rows=now.relationships.filter(r=>r.pm==='BRS6-FM1-PM2');assert.equal(rows.length,2);

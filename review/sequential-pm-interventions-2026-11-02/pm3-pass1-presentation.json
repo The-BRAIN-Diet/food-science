@@ -1,0 +1,53 @@
+{
+  "pm": "BRS1-FM1-PM3",
+  "status": "presentation implemented; scientific review remains incomplete",
+  "records": [
+    {
+      "id": "PM3-SOP-1",
+      "admission": "existing admission retained",
+      "intervention_sec_status": "Not yet assessed",
+      "mechanism": "Countering meal-related inhibition of non-haem iron absorption"
+    },
+    {
+      "id": "PM3-SOP-2",
+      "admission": "existing admission retained",
+      "intervention_sec_status": "Not yet assessed",
+      "mechanism": "Phytate degradation"
+    },
+    {
+      "id": "PM3-SOP-3",
+      "admission": "existing admission retained",
+      "intervention_sec_status": "Not yet assessed",
+      "mechanism": null
+    },
+    {
+      "id": "PM3-SOP-4",
+      "admission": "existing admission retained",
+      "intervention_sec_status": "Not yet assessed",
+      "mechanism": null
+    },
+    {
+      "id": "PM3-LP-1",
+      "admission": "existing admission retained",
+      "intervention_sec_status": "Not yet assessed",
+      "mechanism": null
+    },
+    {
+      "id": "PM3-LP-2",
+      "admission": "existing admission retained",
+      "intervention_sec_status": "Not yet assessed",
+      "mechanism": null
+    },
+    {
+      "id": "PM3-SOP-TEA-TIMING-1",
+      "admission": "qualified upstream iron provision",
+      "intervention_sec_status": "Not yet assessed in canonical registry; provisional appraisal in pm3-sec/intervention-appraisals.json",
+      "mechanism": null
+    }
+  ],
+  "remaining": [
+    "Food-source appraisal beyond screened extracts",
+    "Complete pending intervention SEC dimensions and compatible canonical target integration",
+    "Verify latest evidence qualification in browser"
+  ]
+}

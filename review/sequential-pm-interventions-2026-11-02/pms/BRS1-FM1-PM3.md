@@ -38,3 +38,25 @@ Disposition: mission-relevant acute mechanistic candidate, originating in extern
 
 ### Validation/status
 Research artifacts and manifest only in this follow-up. Canonical PM, admissions, scientific findings, SEC records and food pages unchanged. Full PM review remains in progress: food-source appraisal and principal-route adjudication are outstanding, rather than an unspecified external blocker.
+
+## Two-pass continuation — 2 November 2026
+
+Six existing interventions now use the approved six-atom display, including both Lifestyle Levers. Two preparation mechanisms are displayed at their upstream iron-absorption scope; four imaging interventions omit an unresolved mechanism summary. All six intervention SEC states are explicitly Not yet assessed. Existing admissions are retained, not silently reapproved. Scientific frontmatter and original citations are unchanged. Browser expansion passed for one SOP and one Lifestyle Lever; presentation validation and ten mechanism-contract tests passed.
+
+Food-evidence follow-up: Kumari 2020 publisher abstract (https://doi.org/10.1016/j.foodchem.2020.126529) confirms that soaking did not improve phytate:mineral ratios and often reduced mineral concentrations. This does not support a nut-soaking iron-absorption SOP. Ahmad Fuzi 2017 accepted manuscript was located at https://ueaeprints.uea.ac.uk/id/eprint/65903/1/Accepted_manuscript.pdf; the food-page tea-timing lead has a primary retrieval route. Full appraisal and canonical admission remain pending, not rejected. The 12-woman porridge/black-tea protocol must not be represented as a green-tea-specific dopamine trial.
+
+Status remains in progress, not completed: pending food-source appraisal, additional-candidate adjudication and principal-route assessment. No intervention SEC scoring undertaken.
+
+## Tea-timing follow-up
+
+Original full text recovered: [Ahmad Fuzi et al. 2017](https://doi.org/10.3945/ajcn.117.161364). The exact food, exposure, measured endpoint and design limitations are recorded in `../pm3-tea-appraisal.json`. Implemented PM3-SOP-TEA-TIMING-1 as qualified upstream iron delivery, using existing PM3-F8 for the biochemical dependency and an independent primary citation. No new SF or SEC score. This is not evidence for improved dopamine signalling. Green-tea advice is not the tested exposure.
+
+Six-atom evidence validation and MDX compilation pass. Browser verification remains pending.
+
+## Intervention SEC continuation — 3 November 2026
+
+Owner explicitly requested the full PM3 intervention SEC review. This is a bounded exception to Pass 1 priority, not a framework-wide scoring restart. See `../pm3-sec/intervention-appraisals.json` for seven exact propositions, separate D/B/P/R rationales, source access and tracked assessment work. Five provisional review totals are available; ascorbate methods/replication and sleep-study cohort independence remain pending. These are review artifacts, not published canonical scores.
+
+Darcey SOP prose corrected: both diets were 30% calorie restricted versus baseline, and the between-diet PET contrast was nonsignificant. The separate food-cue fMRI result must not be substituted for that PET contrast. SF11 retains its existing record and has a specifically documented correction flag; immutable scores remain untouched.
+
+The registry currently supports Finding ownership only. Do not create a fake Finding or copy an existing score to publish an intervention appraisal. Canonical intervention-target support remains an implementation dependency. Dominance: no principal route established; dietary-first editorial placement does not assert superiority. Earlier references to tea retrieval/browser or comparative dominance as blanket Pass 1 blockers are superseded by the tea implementation and approved editorial rule.

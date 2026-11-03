@@ -1,0 +1,231 @@
+Evidence that Sleep Deprivation Downregulates Dopamine D2R in Ventral Striatum in the Human Brain
+
+Dopamine D2 receptors are involved with wakefulness but their role in the decreased alertness associated with sleep deprivation is unclear. We had shown that sleep deprivation reduced dopamine D2/D3 receptor availability (measured with PET and [11C]raclopride in controls) in striatum, but could not determine if this reflected dopamine increases ([11C]raclopride competes with dopamine for D2/D3 receptor binding) or receptor downregulation. To clarify this, we compared the dopamine increases induced by methylphenidate (drug that increases dopamine by blocking dopamine transporters), during sleep deprivation versus rested-sleep with the assumption that methylphenidate’s effects would be greater, if indeed, dopamine release was increased during sleep deprivation. We scanned 20 controls with [11C]raclopride after rested-sleep and after one night of sleep deprivation; both after placebo and after methylphenidate. We corroborated a decrease in D2/D3 receptor availability in the ventral striatum with sleep deprivation (compared to rested-sleep) that was associated with reduced alertness and increased sleepiness. However, the dopamine increases induced by methylphenidate (measured as decreases in D2/D3 receptor availability compared to placebo) did not differ between rested-sleep and sleep deprivation and were associated with the increased alertness and reduced sleepiness when methylphenidate was administered after sleep deprivation. Similar findings were obtained by microdialysis in rodents subjected to one night of paradoxical sleep deprivation. These findings are consistent with a downregulation of D2/D3 receptors in ventral striatum with sleep deprivation that may contribute to the associated decreased wakefulness and also corroborate an enhancement of D2 receptor signaling in the arousing effects of methylphenidate in humans.
+
+Introduction
+
+There is increasing evidence that dopamine (DA) modulates wakefulness exerting a wake promoting action. Indeed, drugs that enhance DA signaling through DA transporter (DAT) blockade (methylphenidate, modafinil) or by releasing DA (amphetamine) increase wakefulness in human subjects, promote wakefulness in normal and narcoleptic animals and actively induce emergence from anesthesia. Similarly mice with a deletion of the DAT gene, which results in enhanced DA neurotransmission, display increased wakefulness whereas patients with Parkinson’s disease, who suffer from DA depletion, experience excessive daytime sleepiness. The wake-promoting effects of DA appear to be mediated in part through DA D2 receptors (D2R). In fact antipsychotic drugs that block D2R are sedating in humans and decrease wakefulness in laboratory animals. Similarly, D2R KO mice show decreased wakefulness and an attenuated response to the wake-promoting effects of the DAT blocker GBR12909. Moreover, recent studies in flies document an involvement of D2R in DA-induced arousal during the dark but not the light period.
+
+Using positron emission tomography (PET) we previously showed that sleep deprivation (SD) in healthy controls decreased the specific binding of [11C]raclopride (radiotracer that binds to D2 and D3 receptors when these are not bound to DA) in striatum. Thus, we interpreted our findings to reflect increased DA release during SD. However, we could not rule out the possibility that the results reflected downregulation of D2/D3R and/or reduced receptor affinity. Here we test this possibility by comparing the dopamine increases induced by methylphenidate (MP) when given during the rested waking state (RW) versus when its given during SD in healthy volunteers. Since MP blocks DAT we reasoned that if there was increased DA release during SD then MP-induced DA increases would be greater during SD than during RW; whereas if there was no difference this would suggest a downregulation of D2/D3R. We previously validated the use of [11C]raclopride to measure DA increases induced by MP in the human brain and the use of MP (by blocking DA reuptake) as a strategy to enhance DA signals resulting from DA release.
+
+For this purpose we tested twenty healthy controls with PET and [11C]raclopride during RW and during SD both with placebo and with MP (40 mg po). Our initial hypothesis was that decreases in D2/D3R availability seen after SD reflect increases in DA release and thus MP-induced increases in DA would be enhanced during SD in comparison to RW. In parallel we conducted microdialysis studies in rodents to compare the extracellular concentration of DA in nucleus accumbens (located in ventral striatum) of sleep-deprived animals with those of control rats before and after MP (intravenous 1 mg/kg).
+
+Materials and Methods
+
+Subjects
+
+Twenty healthy, non-smoking, right-handed males (32.5 ± 9 years of age; 14 ± 2 years of education; BMI 26 ± 3; 9 AA, 8 Caucasians, 3 other) participated in the study. Participants were screened carefully with a detailed medical history, physical and neurological examination, EKG, Breath CO, routine blood tests and urinalysis, and urine toxicology for psychotropic drugs to ensure they fulfilled inclusion and exclusion criteria. Inclusion criteria were: 1) ability to understand and give informed consent; and 2) 18–50 years of age. Exclusion criteria were: 1) urine positive for psychotropic drugs; 2) present or past history of dependence on alcohol or other drugs of abuse (including current dependence on nicotine); 3) present or past history of neurological or psychiatric disorder; 4) use of psychoactive medications in the past month (i.e., opiate analgesics, stimulants, sedatives); 5) use of prescription (non-psychiatric) medication(s), i.e., antihistamines; 6) medical conditions that may alter cerebral function; 7) cardiovascular and metabolic diseases; 8) history of head trauma with loss of consciousness of more than 30 minutes; 9) history of sleep disorders (if they responded affirmatively to having problems falling asleep, staying asleep, feeling tired upon wakening, and/or required medications to help them sleep and/or if they had a past or present history of sleep apnea or restless leg syndrome; and 10) work that required shift-hours. Subjects were asked to keep a diary of the number of hours slept per night for the 2 weeks duration of the study (from evaluation to completion of PET scans) and this corresponded to an average of 7±1 hours per night; range 5–9 hours. Signed informed consents were obtained from the subjects prior to participation as approved by the Committee on Research Involving Human Subjects, Stony Brook University and the Radioactive Drug Research Committee, Brookhaven National Laboratory.
+
+Behavioral Measures
+
+Subjects were asked to rate self-reports for descriptors of “alert” and “sleepiness” and “tired”, on a scale of 1 to 10 with 1 being not at all and 10 being very intense. Self-reports were obtained at 30 minutes, 60 minutes (just prior to radiotracer injection) and at 90 minutes post placebo or MP administration. Self-reports of “tired” were strongly correlated with “sleepiness” so we did not report correlations for this descriptor. For analysis purposes we averaged the values for the placebo condition and used the values obtained at 90 minutes after MP, which is when the peak MP plasma concentration occurred.
+
+SD and rested wakefulness (non-sleep deprivation) procedures
+
+Subjects were kept overnight at Brookhaven National Laboratory prior to their scheduled SD or RW session to ensure that subjects stayed awake for the SD session (one night of sleep deprivation) or had a good night rest for the RW session (mean 7±1 hours slept) conditions. A research assistant remained with them throughout the night to ensure that they did not fall asleep for the SD or that they slept properly for the RW session. On the day of the RW session the subjects were awakened at 7 AM and brought to the imaging suite where a nurse remained with them to ensure that they stayed awake throughout the study. No food was given after midnight and caffeinated beverages were discontinued for 24 hours prior to the study.
+
+Imaging
+
+PET studies were done with a Siemens HR+ tomograph (resolution 4.5×4.5×4.5 mm full width half-maximum). Each subject served as his own control and was tested on two separate days; one day after RW and another after one night of SD. The order of the sessions (RW or SD) was randomized to control for order effects. On each day subjects underwent two sets of scans; the first scan was performed after placebo and the second scan was performed 2 hours later and 60 minutes after MP administration (40 mg po). The placebo scans were done between 10 and 11 AM and the MP scans between 12 and 1 PM; approximately 3–4 hours (placebo) and 5–6 hours (MP) after awakening for the RW session and 27–28 hours (placebo) and 29–30 hours (MP) after awakening for the SD session. Sequential dynamic scans were started immediately after iv injection of 4–10 mCi of [11C]raclopride (specific activity > 0.25 Ci/μmol at time of injection) for a total of 60 minutes as previously described. The doses of [11C]raclopride injected did not differ among the four different conditions. To ensure that subjects would not fall asleep during the study they were asked to keep their eyes open and a nurse remained by their side to ensure compliance. If the subjects closed their eyes the nurse would ask them to open them again.
+
+Image analysis and statistics
+
+Regions of interest (ROI) were obtained directly from the [11C]raclopride images as previously described. Briefly we identified and selected the ROI on summed images (dynamic images taken from 10–54 minutes) that were resliced along the intercommisural plane (AC-PC line). The ROI is based on a template that uses geometrical shapes of the same size across subjects and conditions. For the caudate, putamen, ventral striatum (VS) and cerebellum the ROI were extracted on 4, 3, 1 and 2 planes respectively, and right and left regions were delineated. These regions were then projected to the dynamic scans to obtain concentrations of C-11 vs. time, which were used to calculate the distribution volumes using a graphical analysis technique for reversible systems that does not require arterial blood sampling. We computed the ratio of the distribution volume in striatal regions to that in the cerebellum to obtain the non-displaceable binding potential (BPND), which was used as a quantification of D2/D3R availability.
+
+Differences on the BPND between RW and SD were tested with repeated ANOVA (left and right regions were averaged into one measure). Pearson product moment correlations were used to assess the association between the changes in BPND (SD - RW/RW x 100) and the change in the behavioral measures (SD - RW). To test the main hypotheses of the study; namely that SD would decrease BPND and that these differences would be associated with increased sleepiness and reduced alertness and that MP would reduce BPND to a greater extent in SD than for RW we set significance at p < 0.05.
+
+We also analyzed the BPND images using Statistical Parametric Mapping (SPM), which enabled us to make comparisons on a voxel by voxel basis. Repeated ANOVA were performed to compare the RW and SD sessions (both for placebo and MP), to assess the effects of MP on BPND (both for RW and SD) and to compare if MP-induced changes in BPND differed for the RW and SD sessions. Significance was set at p < 0.005 uncorrected, cluster threshold > 100 voxels. Since age affects D2/D3R availability we also assessed the correlation analysis between age the changes in BPND with SD and the changes with MP.
+
+Microdialysis experiments
+
+Male, Sprague-Dawley rats (8 weeks old) kept on a reverse light cycle were divided into two groups; one to assess the effects of SD (n=6) and the other to serve as controls (n=6). Rats on the SD group underwent paradoxical-sleep deprivation for 16 hours (5 PM to 9 AM) using the single platform on water method (“flower pot”)) whereas control rats were left overnight in a similar apparatus and setup but were placed in a larger platform (10 cm diameter) that allowed them to sleep. Microdialysis measurements in the nucleus accumbens (core) were then obtained from 10 AM to 4 PM and samples obtained every 20 minutes as previously described. At noon animals were intravenously injected with MP (1 mg) via a jugular vein catheter. Procedures for anesthesia and jugular vein catheterization were as previously published. We averaged the measures obtained prior to MP administration to compare “baseline measures” between paradoxical-sleep deprived and control rats with unpaired t tests (two tail). We computed the percent change from this “baseline measure” and compared the peak DA increases induced by MP (20–40) between paradoxical-sleep deprived and control rats with t tests (two tail). Experiments were conducted in an ALS accredited facility under the oversight of the Institutional Animal Care and Use Committee of Brookhaven National Laboratory.
+
+Results
+
+Behavioral Effects of SD with or without MP and Plasma Levels
+
+Self-reports of alertness were significantly reduced and those of sleepiness were increased after SD (Table 1). MP significantly increased alertness and reduced sleepiness when given after SD but not when given after RW (Table 1).
+
+The concentration of MP in plasma did not differ between the RW and the SD sessions neither for the 60 minutes (6.2 ± 7 and 5.1 ± 4 ng/ml; respectively) nor the 90 minutes plasma measures (9.8 ± 8 and 9.9 ± 8 ng/ml; respectively).
+
+Effects of SD on D2/D3R availability
+
+The region of interest (ROI) analysis showed that D2/D3R availability was significantly lower in the ventral striatum (VS) in SD than in RW, but it did not differ in caudate nor in putamen (Table 2). The SPM analysis (RW > SD) corroborated the decreases in D2/D3R during SD in VS but also revealed decreases in clusters that included regions in caudate and putamen (Figure 1; Table 3).
+
+Effects of MP on D2/D3R availability
+
+The ROI analysis revealed that MP decreased D2/D3R in striatal regions both for the RW and the SD conditions. Moreover the magnitude of these changes did not differ between the RW and the SD conditions (Table 2). Specifically, the decrease in D2/D3R availability for RW and SD respectively, were in caudate: 4.9 ± 11% and 4.6 ± 11%; putamen: 8.8 ± 11% and 7.8 ± 10%; and VS: 7.1 ± 6% and 9.5 ± 12%. SPM corroborated that MP-induced significant decreases in D2/D3R availability in striatum both for the RW and the SD conditions, and also failed to reveal significant differences in MP-induced changes between the RW and the SD sessions (Figure 2; Table 3). Note that neither the SPM comparison of MP-induced DA changes for SD > RW or for RW > SD were significant.
+
+Correlation between Changes in D2/D3R and Self-Reports and Effects of Age
+
+The decreases in D2/D3R with SD in VS (% change from RW) were correlated with the decreases in self-reports of alertness (r= 0.44, p<0.05) and with the increases in sleepiness (r=0.50, p<0.03) observed during SD (Figure 3A).
+
+The pattern of correlations between MP-induced decreases in D2/D3R availability (% change from placebo) and the changes in self-reports observed with MP during SD were in the opposite direction to those observed for the changes between RW and SD (for the placebo measures as reported in the paragraph above). Specifically, MP-induced decreases in D2/D3R availability were associated with increases in self-reports of alertness in caudate (r=−0.77, p <0.0001) and putamen (r=−0.50, p<0.03) and with decreases in sleepiness in caudate (r==−0.52, p<0.02) and putamen (R=−0.74, P<0.001) (Figure 3B).
+
+Aging was negatively correlated with the baseline measures of D2/D3R availability for RW (Putamen r=0.52, p <0.05; VS r=0.64, P<0.005) but not for SD. However, neither the correlation between aging and the effects of SD on D2/D3R availability nor the correlation between aging and the effects of MP on D2/D3R availability were significant (data not shown).
+
+Microdialysis experiments in rats
+
+The DA measures in nucleus accumbens (NAc) taken after one night of paradoxical sleep deprivation prior to MP (baseline measures averaged over 2 hours) did not differ between the paradoxical-sleep deprived rats and the control rats (p = 0.63). The comparisons of the DA increases induced by MP (% change from baseline measures) did not differ between the group of paradoxical-sleep deprived rats (128 % ±48) and the controls (132% ±31) (Figure 4).
+
+Discussion
+
+Here we replicate our prior findings of a reduction in D2/D3R availability in ventral striatum with SD that was associated with reduced alertness. However, we did not find the differences in MP-induced changes in striatal D2/D3 availability between RW and SD that we had initially hypothesized. This leads us to question our prior interpretation that the reductions in D2/D3R availability with SD reflected DA increases (competing for binding with [11C]raclopride) since such increases would have triggered larger DA increases with MP during SD than during RW. This is because MP blocks the DAT, interfering with the reuptake of DA into the terminal; thus, the DA increases for an equivalent level of DAT blockade reflect the amount of DA released. Moreover, our microdialysis results also showed no increases in DA after one night of paradoxical-sleep deprivation and no differences in MP-induced DA in Nac between paradoxical-sleep deprived and control rats. Thus, based on these findings we now interpret the reduction in D2/D3 availability in VS with SD as a reflection D2/D3R downregulation.
+
+Indeed, the opposite pattern of the correlations observed between the decreases in D2/D3R and self-reports with SD (associated with reduced alertness and increased sleepiness) than with MP (associated with increased alertness and reduced sleepiness) suggests that they reflect different physiological processes mediating the D2/D3R decreases with SD (D2/D3R downregulation) than with MP (DA increases). MP is known to increase DA in striatum, an effect that is consistent with our imaging and microdialysis results. However, there is no reported preclinical evidence of DA increases in striatum following SD, and our microdialysis studies failed to show any DA increases. Downregulation of D2/D3R by SD could explain why reductions in D2/D3R availability were associated with reduced alertness since this would result in reduced D2R signaling. Evidence of the role of D2R signaling in DA’s arousing effects is shown by the decreased wakefulness and the insensitivity to the wake-enhancing effects of modafinil observed in D2R knockout mice. In contrast, the DA increases induced by MP would help counteract the decreased signaling from D2/D3R downregulation thereby increasing wakefulness during SD.
+
+The internalization of DA receptors allows neurons to re-adjust their excitability and is necessary for ensuring accurate neurotransmission. In fact, experiments show that with prolonged DA stimulation the D2R downregulate, and in flies, D2R downregulation underlies light’s suppression of DA’s wake-promoting effects, corroborating a role of D2R internalization in modulating wakefulness. PET studies in rodents have given evidence that D2/D3R internalization might explain why amphetamine-induced decreases in striatal [11C]raclopride binding are more protracted than the amphetamine-induced DA increases. Specifically, in mice lacking β-arrestin-2 (arrestin3), which is necessary for D2R internalization, the decreases in striatal binding of a D2R agonist PET ligand ([11C]MNPA) or a D2R antagonist ([18F]fallypride) induced by amphetamine recovered 4 hours after its administration whereas they remained decreased in wild-type mice.
+
+Adenosine, through A2A receptors, regulates D2R internalization, apparently by facilitating the binding of β-arrestin-2 to the A2A-D2 receptor heteromer. This is noteworthy since increases in extracellular adenosine levels drive the pressure to sleep with SD, which is partly mediated through A2A receptors. Indeed, the adenosine receptor antagonist caffeine increases wakefulness via its A2A antagonist effects in the NAc. Interestingly, in healthy controls, caffeine was shown to increase D2/D3R availability in VS (measured with PET and [11C]raclopride), an effect that was associated with decreased tiredness. Note that this association is akin to our findings with SD, for which the opposite effect on D2/D3R in VS (decrease) was associated with the opposite effects in tiredness (increased sleepiness). Since caffeine modulates DA signaling in part by its antagonism of A2A receptors, caffeine-induced D2/D3R increases in VS would be consistent with caffeine’s antagonism of A2A mediated D2R internalization. Indeed, A2A receptor knockout mice show increased D2R levels in striatum. However A1 receptors are also involved in the effects of SD and up-regulation of A1 receptors has been documented during SD both in humans and rodents.
+
+The downregulation of D2/D3R in VS under SD conditions, in addition to contributing to reduced wakefulness, could also affect other behaviors. Specifically, DA stimulation of D2/D3R in VS is implicated in attention and thus D2/D3R downregulation could contribute to the inattentiveness observed with SD and explain our prior findings of an association between decreases in D2/D3R availability and impairments in visual attention with SD. Also D2R in VS modulate risk-taking propensity and thus D2/D3R reductions with SD could facilitate the engagement in risky behaviors characteristic of SD. Finally, lower D2R in VS is associated with a greater risk for compulsive drug consumption and could contribute to relapse in sleep deprived substance abusers.
+
+Limitations
+
+Here, we interpret the reductions in [11C]raclopride binding in VS with SD as reflecting a downregulation of D2/D3R but they could also reflect decreases in receptor affinity. However, this is unlikely since a decrease in D2/D3R affinity would have led to a reduced decrease in BPND with MP during the SD session, which we did not observe.
+
+Our results differ from those from a recent study in rodents that reported that paradoxical sleep deprivation was associated with increases in D3R but no changes in D2R binding in striatum, which is distinct from our finding of reductions in D2/D3R with SD. The reason(s) for this discrepancy is unclear but could reflect differences between the paradoxical SD (rats) versus total SD (humans) models. Interestingly, in our results the findings we obtained with total SD in the clinical PET studies were corroborated by our microdialysis studies in the rat with paradoxical SD. A further limitation for our clinical studies was that could not separately assess the effects of SD on D2R versus D3R binding since raclopride binds to both. Future studies using PET ligands that only bind to D2R or D3R are needed to address this.
+
+A confound for our clinical studies is the potential influence that the mental state can have on an individual’s baseline measures of BPND and on the magnitude of MP-induced DA changes. Also, we did not record how many times during the scans the nurse had to remind the subject to keep their eyes open and thus we can not evaluate if these interactions affected the BPND measures.
+
+This study corroborates a reduction in D2/D3R availability with SD in VS that was associated with reduced alertness. In contrast, MP-induced decreases in striatal D2/D3R availability (secondary to DA increases), which did not differ between RW and SD, were associated with increased alertness. This suggests that the reductions in D2/D3R induced by SD reflect a different physiological mechanism (downregulation of D2/D3R) than those mediating MP effects (increased DA). We also provide evidence that in the human brain under conditions of SD the increases in DA triggered by MP are associated with its alerting and awakening effects.
+
+Parkinson’s disease and sleepiness: an integral part of PD
+
+Drugs and the treatment of psychiatric disorders
+
+Dopamine responsiveness is regulated by targeted sorting of D2 receptors
+
+Caffeine and theophylline as adenosine receptor antagonists in humans
+
+On the existence of a possible A2A-D2-beta-Arrestin2 complex: A2A agonist modulation of D2 agonist-induced beta-arrestin2 recruitment
+
+Nucleus accumbens D2/3 receptors predict trait impulsivity and cocaine reinforcement
+
+Functional striatal hypodopaminergic activity in mice lacking adenosine A(2A) receptors
+
+Neurocognitive consequences of sleep deprivation
+
+Sleep deprivation increases A(1) adenosine receptor density in the rat brain
+
+Sleep deprivation increases A1 adenosine receptor binding in the human brain: a positron emission tomography study
+
+Adenosine A1-A2A receptor heteromers: new targets for caffeine in the brain
+
+Analysis of fMRI time-series revisited
+
+Desensitization of G protein-coupled receptors and neuronal functions
+
+Are sleep disturbances risk factors for anxiety, depressive and addictive disorders?
+
+Amphetamine pretreatment induces a change in both D2-Receptor density and apparent affinity: a [11C]raclopride positron emission tomography study in cats
+
+Genes for prostaglandin d synthase and receptor as well as adenosine A2A receptor are involved in the homeostatic regulation of nrem sleep
+
+Coaggregation, cointernalization, and codesensitization of adenosine A2A receptors and dopamine D2 receptors
+
+Adenosine A2A, but not A1, receptors mediate the arousal effect of caffeine
+
+Microdialysis monitoring of methylphenidate in blood and brain correlated with changes in dopamine and rat activity
+
+Evidence that the BLOC-1 protein dysbindin modulates dopamine D2 receptor internalization and signaling but not D1 internalization
+
+Dopaminergic effects of caffeine in the human striatum and thalamus
+
+Effects of dextroamphetamine, caffeine and modafinil on psychomotor vigilance test performance after 44 h of continuous wakefulness
+
+Small platform sleep deprivation selectively increases the average duration of rapid eye movement sleep episodes during sleep rebound
+
+Effects of methylphenidate on extracellular dopamine, serotonin, and norepinephrine: comparison with amphetamine
+
+Arousal effect of caffeine depends on adenosine A2Areceptors in the shell of the nucleus accumbens
+
+Sleep deprivation differentially affects dopamine receptor subtypes in mouse striatum
+
+Inverse association between dopaminergic neurotransmission and Iowa Gambling Task performance in pathological gamblers and healthy controls
+
+Distribution volume ratios without blood sampling from graphical analysis of PET data
+
+Sleep deprivation induced by the modified multiple platform technique: quantification of sleep loss and recovery
+
+The effects of one night of sleep deprivation on known-risk and ambiguous-risk decisions
+
+Increased dopaminergic transmission mediates the wake-promoting effects of CNS stimulants
+
+Differential effects of dopamine D-1 and D-2 receptor antagonist antipsychotics on sleep-wake patterns in the rat
+
+Adenosine: a mediator of the sleep-inducing effects of prolonged wakefulness
+
+Dopaminergic D1 and D2 receptors are essential for the arousal effect of modafinil
+
+Essential role of dopamine D2 receptor in the maintenance of wakefulness, but not in homeostatic regulation of sleep, in mice
+
+Selegiline potentiates cocaine-induced increases in rodent nucleus accumbens dopamine
+
+Effects of N6-cyclopentyladenosine and caffeine on sleep regulation in the rat
+
+Imaging analysis of clock neurons reveals light buffers the wake-promoting effect of dopamine
+
+Arrestin3 mediates D(2) dopamine receptor internalization
+
+D2 dopamine receptor internalization prolongs the decrease of radioligand binding after amphetamine: a PET study in a receptor internalization-deficient mouse model
+
+Methylphenidate actively induces emergence from general anesthesia
+
+In vivo evidence for dopamine-mediated internalization of D2-receptors after amphetamine: differential findings with [3H]raclopride versus [3H]spiperone
+
+A1 receptor and adenosinergic homeostatic regulation of sleep-wakefulness: effects of antisense to the A1 receptor in the cholinergic basal forebrain
+
+D-cycloserine facilitates extinction of cocaine self-administration in rats
+
+Impairment of attentional networksafter 1 night of sleep deprivation
+
+Imaging endogenous dopamine competition with [11C]raclopride in the human brain
+
+Imaging the effects of methylphenidate on brain dopamine: new model on its therapeutic actions for attention-deficit/hyperactivity disorder
+
+Dopamine transporter occupancies in the human brain induced by therapeutic doses of oral methylphenidate
+
+Hyperstimulation of striatal D2 receptors with sleep deprivation: Implications for cognitive impairment
+
+Relationship between blockade of dopamine transporters by oral methylphenidate and the increases in extracellular dopamine: therapeutic implications
+
+“Nonhedonic” food motivation in humans involves dopamine in the dorsal striatum and methylphenidate amplifies this effect
+
+Methylphenidate-elicited dopamine increases in ventral striatum are associated with long-term symptom improvement in adults with ADHD
+
+Sleep deprivation decreases binding of [11C]raclopride to dopamine D2/D3 receptors in the human brain
+
+A new PET ligand for the dopamine transporter: studies in the human brain
+
+Therapeutic doses of oral methylphenidate significantly increase extracellular dopamine in the human brain
+
+Mechanisms regulating membrane trafficking of G protein-coupled receptors in the endocytic pathway
+
+Reproducibility of repeated measures of endogenous dopamine competition with [11C]raclopride in the human brain in response to methylphenidate
+
+Dopaminergic role in stimulant-induced wakefulness
+
+What were they thinking? Cognitive states may influence [11C]raclopride binding potential in the striatum
+
+SPM results showing the regions where D2/D3R BPND was greater for RW than for SD (RW > SD; p <0.005 uncorrected), both for the placebo and the MP conditions and for both combined.
+
+A. SPM results showing the regions where D2/D3R BP was greater for placebo than for MP (PL > MP; p <0.005 uncorrected), which reflect MP induced DA increased, both for the RW and the SD conditions and for the results for the comparison of MP-induced changes between RW and SD (RW > SD; p<0.05 uncorrected). Neither the comparison of MP-induced changes for the contrast RW > SD nor that for SD > RW were significant. B. Scattergrams for the percent change in BPND with MP (with respect to placebo) both for RW and SD in caudate, putamen and VS.
+
+Correlations between changes in D2/D3R BP and changes in self-reports of alertness and sleepiness. A. Correlations for the D2R changes in VS and self-reports between RW and SD (placebo measures); and B. Correlations for the D2R changes in caudate (CD) and putamen (PT) and self-reports between PL and MP for the SD condition.
+
+Results for the microdialysis experiments measuring extracellular DA levels in nucleus accumbens between 10AM and 4 PM both for a groups of rats (SD) subjected the preceding night to paradoxical sleep deprivation (placed in small platform surrounded by water) and in a group of rats (controls) subjected to a similar environment during the night except that they were placed in a larger a platform that allowed them to sleep.
+
+Self-reports of alertness and sleepiness for the RW and SD sessions after placebo and after MP. Values correspond to means and standard deviations (±)
+
+	Placebo	Placebo	Placebo	MP	MP	MP	 		30′	60′	90′	30′	60′	90′	 	Alertness	 	RW	8.5 ± 1.3	8.0 ± 0.9	8.0 ± 1.7	8.3 ± 1.7	8.5 ± 1.4	8.7 ± 1.2	 	SD	6.0 ± 1.7	6.1 ± 1.7	6.5 ± 2.3	6.6 ± 2.7	7.1 ± 1.9	8.2 ± 1.5	 	Sleepiness	 	RW	2.1 ± 1.2	3.5 ± 2.2	2.9 ± 1.9	2.9 ± 2.0	2.8 ± 1.9	2.0 ± 1.5	 	SD	8.5 ± 1.6	8.3 ± 2.1	7.4 ± 2.0	7.5 ± 2.0	6.8 ± 2.6	4.0 ± 2.4	 	
+
+Measures of D2R availability (BPND) after placebo and after MP for the RW and the SD sessions and p values for comparisons between PL and MP (repeated ANOVA).
+
+	RW	SD	 		 	PL	MP	PL vs MP	PL	MP	PL vs MP	 		 	CDT	2.43 ± .35	2.30 .35	0.06	2.48 ± .31	2.38 ± .31	NS	 	PUT	3.07 ± .37	2.81 .47	0.005	3.09 ± .28	2.85 ± .34	0.003	 	VS	2.95 ± .37*	2.73 .41	0.0002	2.80 ± .37*	2.63 ± .37	0.06	 	
+
+p <0.05 for the comparison of the placebo measures between the RW and SD sessions.
+
+SPM results for the locations of clusters where D2R BPND RW > SD (PL & MP) and for the location of the cluster where D2R BPND Placebo > MP for the RW sessions and where D2R BPND Placebo > MP for the SD session. Small volume corrections: 8-mm diameter sphere centered at the MNI coordinates.
+
+RW > SD	 		 	Region	x	y	z	pFWE	pFDR	T	Z	puncorrected	 	Putamen	20	−2	10	0.026	0.013	2.77	2.67	0.004	 	Putamen	−20	12	8	0.038	0.017	2.58	2.5	0.006	 	Caudate	4	14	−6	0.001	0.001	3.9	3.66	0.0001	 		 	Placebo > MP for RW	 		 	Putamen	34	−6	2	0	0	4.55	4.14	0.0001	 	Putamen	−26	−4	2	0	0	4.94	4.49	0.0001	 	Caudate	10	12	−6	0.009	0.007	3.21	3.06	0.001	 	Thalamus	10	−4	4	0.111	0.089	2	1.97	0.025	 		 	Placebo > MP for SD	 		 	Putamen	30	−6	2	0	0.001	3.77	3.55	0.0001	 	Putamen	−24	−4	0	0	0	5.18	4.67	0.0001	 	Caudate	4	14	−6	0.03	0.019	2.7	2.61	0.0001	 	Thalamus	0	0	2	0.071	0.043	2.26	2.2	0.014	 	

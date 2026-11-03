@@ -1,0 +1,47 @@
+{
+  "atom_id": "PM2-SOP-MALTED-OATS-1",
+  "pm_id": "BRS2-FM1-PM2",
+  "intervention": "Malted and soaked oat porridge",
+  "interventionType": "food preparation/delivery practice",
+  "biologicalRelationship": {
+    "moa": {
+      "status": "unresolved",
+      "description": "Malting and soaking reduced phytate; reduced mineral complexing is a supported explanation.",
+      "evidenceQualification": "Multiple processing effects not independently isolated; controlled short mechanism identity unresolved."
+    },
+    "measuredEffect": "Fractional zinc absorption 18.3% versus 11.8%; paired comparison P<0.05.",
+    "pmRelevance": "Existing admitted zinc is a catalytic BHMT participant. Absorption evidence supports upstream provision, not increased BHMT activity or homocysteine clearance."
+  },
+  "evidenceSource": {
+    "doi": "10.1079/BJN19960075",
+    "citation_key": "larsson_malted_oats_1996",
+    "population": "10 healthy adults, seven women and three men, 21–30 years",
+    "protocol": {
+      "malting": "Dehulled oats steeped 6.5 h at 25 C; germinated 120 h at 15 C under controlled moisture; dried 18 h at 30 C and staged to 80 C.",
+      "soaking": "30 g ground malted oats in 150 mL water; 17 h at 23 C then 8 h at 37.8 C; refrigerated overnight, frozen, thawed and microwave-cooked for 2 min.",
+      "comparator": "30 g untreated dehulled ground oats from the same batch; cooked without milk or jam.",
+      "design": "Each participant received both meals in random order; extrinsic 65Zn labelling and whole-body retention at 10–14 days."
+    }
+  },
+  "limitations": [
+    {
+      "type": "preparation",
+      "text": "Pilot-plant malting is not household overnight soaking of commercial oats."
+    },
+    {
+      "type": "endpoint",
+      "text": "No zinc status, tissue BHMT flux or clinical benefit endpoint."
+    },
+    {
+      "type": "null",
+      "text": "Iron experiments used different meals and methods; one iron comparison was nonsignificant."
+    },
+    {
+      "type": "generalisability",
+      "text": "Short-term isotope absorption in ten healthy adults; no universal serving prescription."
+    }
+  ],
+  "interventionAdmitted": "Yes",
+  "secStatus": "Not yet assessed",
+  "candidateOrigin": "Food-page phytate-reduction screen followed by new original literature search"
+}
