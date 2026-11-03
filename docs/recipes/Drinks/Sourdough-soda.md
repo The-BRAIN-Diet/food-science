@@ -1,5 +1,6 @@
 ---
 id: sourdough-soda
+slug: /recipes/drinks/sourdough-soda
 title: Sourdough Soda (Fermented Cinnamon & Raisin Drink)
 sidebar_label: Sourdough Soda
 description: A lightly fermented, naturally sparkling drink made from stale sourdough, raisins, and cinnamon. Gut–brain friendly, refreshing, and probiotic-leaning.

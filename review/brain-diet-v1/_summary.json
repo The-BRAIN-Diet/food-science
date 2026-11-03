@@ -1,0 +1,1088 @@
+{
+  "pm_count": 64,
+  "systems": [
+    {
+      "system": "BRS1",
+      "pms": 11
+    },
+    {
+      "system": "BRS2",
+      "pms": 7
+    },
+    {
+      "system": "BRS3",
+      "pms": 8
+    },
+    {
+      "system": "BRS4",
+      "pms": 9
+    },
+    {
+      "system": "BRS5",
+      "pms": 8
+    },
+    {
+      "system": "BRS6",
+      "pms": 8
+    },
+    {
+      "system": "Cross-BRS · Circadian",
+      "pms": 2
+    },
+    {
+      "system": "Cross-BRS · Endocannabinoid",
+      "pms": 5
+    },
+    {
+      "system": "Cross-BRS · Hormones",
+      "pms": 6
+    }
+  ],
+  "relationships": 233,
+  "admitted_relationships": 158,
+  "non_input_relationships": 75,
+  "admitted_substances": 55,
+  "inventory_rows": 1490,
+  "foods": 122,
+  "top10": [
+    {
+      "title": "Salmon Roe",
+      "origin": "animal or mixed",
+      "file": "docs/foods/salmon-roe.md",
+      "pms": 28,
+      "systems": [
+        "BRS1",
+        "BRS2",
+        "BRS3",
+        "BRS4",
+        "BRS5",
+        "BRS6",
+        "Cross-BRS · Endocannabinoid",
+        "Cross-BRS · Hormones"
+      ],
+      "targets": [
+        "Iron",
+        "Vitamin B6",
+        "Vitamin B2",
+        "Magnesium",
+        "Copper",
+        "Vitamin C",
+        "Choline",
+        "Phosphatidylcholine",
+        "DHA",
+        "Vitamin B9 (folate)",
+        "Vitamin B12 (cobalamin)",
+        "Zinc",
+        "Vitamin E",
+        "EPA",
+        "Vitamin A"
+      ],
+      "rsp": [
+        {
+          "substance": "DHA",
+          "rsp": 100,
+          "quantity": "2000 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#1 of 20"
+        },
+        {
+          "substance": "EPA",
+          "rsp": 100,
+          "quantity": "1600 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#1 of 17"
+        },
+        {
+          "substance": "Vitamin B12 (cobalamin)",
+          "rsp": 79.3,
+          "quantity": "47 µg",
+          "basis": "per 100 g edible portion",
+          "rank": "#2 of 35"
+        },
+        {
+          "substance": "Vitamin E",
+          "rsp": 35.5,
+          "quantity": "9.1 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#4 of 103"
+        },
+        {
+          "substance": "Magnesium",
+          "rsp": 22.2,
+          "quantity": "95 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#21 of 121"
+        },
+        {
+          "substance": "Vitamin B9 (folate)",
+          "rsp": 20.9,
+          "quantity": "100 µg",
+          "basis": "per 100 g edible portion",
+          "rank": "#15 of 115"
+        },
+        {
+          "substance": "Vitamin B2",
+          "rsp": 19.4,
+          "quantity": "0.55 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#5 of 112"
+        },
+        {
+          "substance": "Copper",
+          "rsp": 7.8,
+          "quantity": "0.76 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#15 of 115"
+        }
+      ]
+    },
+    {
+      "title": "Broccoli",
+      "origin": "plant",
+      "file": "docs/foods/broccoli.md",
+      "pms": 24,
+      "systems": [
+        "BRS1",
+        "BRS2",
+        "BRS3",
+        "BRS4",
+        "BRS5",
+        "BRS6",
+        "Cross-BRS · Endocannabinoid",
+        "Cross-BRS · Hormones"
+      ],
+      "targets": [
+        "Iron",
+        "Vitamin B6",
+        "Vitamin B2",
+        "Magnesium",
+        "Vitamin C",
+        "Choline",
+        "Potassium",
+        "5-Methyltetrahydrofolate",
+        "Vitamin B9 (folate)",
+        "Zinc",
+        "Sulforaphane",
+        "Manganese"
+      ],
+      "rsp": [
+        {
+          "substance": "Vitamin C",
+          "rsp": 67.1,
+          "quantity": "89.2 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#4 of 75"
+        },
+        {
+          "substance": "5-Methyltetrahydrofolate",
+          "rsp": 35.1,
+          "quantity": "101 µg",
+          "basis": "per 100 g fresh edible material",
+          "rank": "#3 of 5"
+        },
+        {
+          "substance": "Potassium",
+          "rsp": 15.2,
+          "quantity": "316 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#56 of 124"
+        },
+        {
+          "substance": "Vitamin B9 (folate)",
+          "rsp": 13.2,
+          "quantity": "63 µg",
+          "basis": "per 100 g edible portion",
+          "rank": "#25 of 115"
+        },
+        {
+          "substance": "Vitamin B6",
+          "rsp": 6.5,
+          "quantity": "0.175 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#48 of 117"
+        },
+        {
+          "substance": "Magnesium",
+          "rsp": 4.9,
+          "quantity": "21 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#67 of 121"
+        },
+        {
+          "substance": "Vitamin B2",
+          "rsp": 4.1,
+          "quantity": "0.117 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#59 of 112"
+        },
+        {
+          "substance": "Choline",
+          "rsp": 2.3,
+          "quantity": "18.7 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#49 of 100"
+        }
+      ]
+    },
+    {
+      "title": "Quinoa",
+      "origin": "plant",
+      "file": "docs/foods/quinoa.md",
+      "pms": 23,
+      "systems": [
+        "BRS1",
+        "BRS2",
+        "BRS3",
+        "BRS4",
+        "BRS5",
+        "BRS6",
+        "Cross-BRS · Endocannabinoid",
+        "Cross-BRS · Hormones"
+      ],
+      "targets": [
+        "Indispensable amino-acid supply",
+        "Iron",
+        "Vitamin B6",
+        "Vitamin B2",
+        "Magnesium",
+        "Choline",
+        "Vitamin B9 (folate)",
+        "Betaine",
+        "Zinc",
+        "Manganese"
+      ],
+      "rsp": [
+        {
+          "substance": "Magnesium",
+          "rsp": 46,
+          "quantity": "197 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#11 of 121"
+        },
+        {
+          "substance": "Vitamin B9 (folate)",
+          "rsp": 38.4,
+          "quantity": "184 µg",
+          "basis": "per 100 g edible portion",
+          "rank": "#8 of 115"
+        },
+        {
+          "substance": "Vitamin B6",
+          "rsp": 18.1,
+          "quantity": "0.487 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#13 of 117"
+        },
+        {
+          "substance": "Vitamin B2",
+          "rsp": 11.2,
+          "quantity": "0.318 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#18 of 112"
+        },
+        {
+          "substance": "Indispensable amino-acid supply",
+          "rsp": 11.1,
+          "quantity": "1.433 g",
+          "basis": "per 100 g edible portion",
+          "rank": "#14 of 15"
+        },
+        {
+          "substance": "Manganese",
+          "rsp": 10.3,
+          "quantity": "2.033 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#12 of 112"
+        },
+        {
+          "substance": "Choline",
+          "rsp": 8.6,
+          "quantity": "70.2 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#12 of 100"
+        },
+        {
+          "substance": "Iron",
+          "rsp": 8.3,
+          "quantity": "4.57 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#25 of 124"
+        }
+      ]
+    },
+    {
+      "title": "Milk",
+      "origin": "animal or mixed",
+      "file": "docs/foods/milk.md",
+      "pms": 22,
+      "systems": [
+        "BRS1",
+        "BRS2",
+        "BRS3",
+        "BRS4",
+        "BRS5",
+        "BRS6",
+        "Cross-BRS · Endocannabinoid",
+        "Cross-BRS · Hormones"
+      ],
+      "targets": [
+        "Indispensable amino-acid supply",
+        "Vitamin B2",
+        "Magnesium",
+        "Potassium",
+        "Uridine",
+        "Vitamin B12 (cobalamin)",
+        "Zinc",
+        "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+        "Flavin mononucleotide (FMN)",
+        "Nicotinamide riboside"
+      ],
+      "rsp": [
+        {
+          "substance": "Indispensable amino-acid supply",
+          "rsp": 11.2,
+          "quantity": "1.447 g",
+          "basis": "per 100 g edible portion",
+          "rank": "#13 of 15"
+        },
+        {
+          "substance": "Potassium",
+          "rsp": 6.3,
+          "quantity": "132 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#101 of 124"
+        },
+        {
+          "substance": "Vitamin B2",
+          "rsp": 6,
+          "quantity": "0.169 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#41 of 112"
+        },
+        {
+          "substance": "Magnesium",
+          "rsp": 2.3,
+          "quantity": "10 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#102 of 121"
+        },
+        {
+          "substance": "Zinc",
+          "rsp": 0.9,
+          "quantity": "0.37 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#79 of 123"
+        },
+        {
+          "substance": "Vitamin B12 (cobalamin)",
+          "rsp": 0.8,
+          "quantity": "0.45 µg",
+          "basis": "per 100 g edible portion",
+          "rank": "#27 of 35"
+        }
+      ]
+    },
+    {
+      "title": "Mussels",
+      "origin": "animal or mixed",
+      "file": "docs/foods/mussels.md",
+      "pms": 22,
+      "systems": [
+        "BRS1",
+        "BRS2",
+        "BRS3",
+        "BRS4",
+        "BRS5",
+        "BRS6",
+        "Cross-BRS · Endocannabinoid",
+        "Cross-BRS · Hormones"
+      ],
+      "targets": [
+        "Indispensable amino-acid supply",
+        "Iron",
+        "Phosphatidylcholine",
+        "DHA",
+        "Vitamin B12 (cobalamin)",
+        "Zinc",
+        "Selenium",
+        "EPA"
+      ],
+      "rsp": [
+        {
+          "substance": "Indispensable amino-acid supply",
+          "rsp": 67.4,
+          "quantity": "8.67 g",
+          "basis": "per 100 g edible portion",
+          "rank": "#6 of 15"
+        },
+        {
+          "substance": "Selenium",
+          "rsp": 31.8,
+          "quantity": "44.8 µg",
+          "basis": "per 100 g edible portion",
+          "rank": "#8 of 104"
+        },
+        {
+          "substance": "Vitamin B12 (cobalamin)",
+          "rsp": 20.2,
+          "quantity": "12 µg",
+          "basis": "per 100 g edible portion",
+          "rank": "#5 of 35"
+        },
+        {
+          "substance": "DHA",
+          "rsp": 12.7,
+          "quantity": "253 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#8 of 20"
+        },
+        {
+          "substance": "EPA",
+          "rsp": 11.8,
+          "quantity": "188 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#8 of 17"
+        },
+        {
+          "substance": "Iron",
+          "rsp": 7.2,
+          "quantity": "3.95 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#28 of 124"
+        },
+        {
+          "substance": "Zinc",
+          "rsp": 4.1,
+          "quantity": "1.6 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#38 of 123"
+        }
+      ]
+    },
+    {
+      "title": "Chickpeas",
+      "origin": "plant",
+      "file": "docs/foods/chickpeas.md",
+      "pms": 21,
+      "systems": [
+        "BRS1",
+        "BRS2",
+        "BRS3",
+        "BRS4",
+        "BRS5",
+        "BRS6",
+        "Cross-BRS · Endocannabinoid",
+        "Cross-BRS · Hormones"
+      ],
+      "targets": [
+        "Indispensable amino-acid supply",
+        "Iron",
+        "Vitamin B6",
+        "Magnesium",
+        "Copper",
+        "Potassium",
+        "Vitamin B9 (folate)",
+        "Zinc",
+        "Manganese",
+        "Resistant starch"
+      ],
+      "rsp": [
+        {
+          "substance": "Vitamin B9 (folate)",
+          "rsp": 100,
+          "quantity": "557 µg",
+          "basis": "per 100 g edible portion",
+          "rank": "#1 of 16"
+        },
+        {
+          "substance": "Manganese",
+          "rsp": 52.8,
+          "quantity": "4.15 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#3 of 13"
+        },
+        {
+          "substance": "Potassium",
+          "rsp": 40,
+          "quantity": "718 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#12 of 16"
+        },
+        {
+          "substance": "Vitamin B6",
+          "rsp": 39.8,
+          "quantity": "0.535 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#6 of 15"
+        },
+        {
+          "substance": "Zinc",
+          "rsp": 35.3,
+          "quantity": "2.76 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#14 of 16"
+        },
+        {
+          "substance": "Indispensable amino-acid supply",
+          "rsp": 28.8,
+          "quantity": "3.225 g",
+          "basis": "per 100 g edible portion",
+          "rank": "#5 of 5"
+        },
+        {
+          "substance": "Magnesium",
+          "rsp": 13.3,
+          "quantity": "79 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#16 of 16"
+        },
+        {
+          "substance": "Copper",
+          "rsp": 10.8,
+          "quantity": "0.656 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#13 of 14"
+        }
+      ]
+    },
+    {
+      "title": "Oysters",
+      "origin": "animal or mixed",
+      "file": "docs/foods/oysters.md",
+      "pms": 21,
+      "systems": [
+        "BRS1",
+        "BRS2",
+        "BRS3",
+        "BRS4",
+        "BRS5",
+        "BRS6",
+        "Cross-BRS · Endocannabinoid",
+        "Cross-BRS · Hormones"
+      ],
+      "targets": [
+        "Iron",
+        "Phosphatidylcholine",
+        "DHA",
+        "Vitamin B12 (cobalamin)",
+        "Zinc",
+        "Selenium",
+        "EPA"
+      ],
+      "rsp": [
+        {
+          "substance": "Zinc",
+          "rsp": 100,
+          "quantity": "39.3 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#1 of 123"
+        },
+        {
+          "substance": "Vitamin B12 (cobalamin)",
+          "rsp": 14.8,
+          "quantity": "8.75 µg",
+          "basis": "per 100 g edible portion",
+          "rank": "#9 of 35"
+        },
+        {
+          "substance": "Selenium",
+          "rsp": 14,
+          "quantity": "19.7 µg",
+          "basis": "per 100 g edible portion",
+          "rank": "#27 of 104"
+        },
+        {
+          "substance": "EPA",
+          "rsp": 11.1,
+          "quantity": "177 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#9 of 17"
+        },
+        {
+          "substance": "Iron",
+          "rsp": 8.4,
+          "quantity": "4.61 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#22 of 124"
+        },
+        {
+          "substance": "DHA",
+          "rsp": 6.8,
+          "quantity": "136 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#9 of 20"
+        }
+      ]
+    },
+    {
+      "title": "Black Beans",
+      "origin": "plant",
+      "file": "docs/foods/black-beans.md",
+      "pms": 20,
+      "systems": [
+        "BRS1",
+        "BRS2",
+        "BRS3",
+        "BRS4",
+        "BRS5",
+        "BRS6",
+        "Cross-BRS · Endocannabinoid",
+        "Cross-BRS · Hormones"
+      ],
+      "targets": [
+        "Iron",
+        "Vitamin B6",
+        "Magnesium",
+        "Copper",
+        "Potassium",
+        "Vitamin B9 (folate)",
+        "Zinc",
+        "Manganese",
+        "Resistant starch"
+      ],
+      "rsp": [
+        {
+          "substance": "Potassium",
+          "rsp": 82.5,
+          "quantity": "1483 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#4 of 16"
+        },
+        {
+          "substance": "Vitamin B9 (folate)",
+          "rsp": 79.7,
+          "quantity": "444 µg",
+          "basis": "per 100 g edible portion",
+          "rank": "#2 of 16"
+        },
+        {
+          "substance": "Zinc",
+          "rsp": 46.7,
+          "quantity": "3.65 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#12 of 16"
+        },
+        {
+          "substance": "Magnesium",
+          "rsp": 28.9,
+          "quantity": "171 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#14 of 16"
+        },
+        {
+          "substance": "Vitamin B6",
+          "rsp": 21.3,
+          "quantity": "0.286 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#12 of 15"
+        },
+        {
+          "substance": "Copper",
+          "rsp": 13.8,
+          "quantity": "0.841 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#12 of 14"
+        },
+        {
+          "substance": "Manganese",
+          "rsp": 13.5,
+          "quantity": "1.06 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#12 of 13"
+        },
+        {
+          "substance": "Iron",
+          "rsp": 2.1,
+          "quantity": "5.02 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#13 of 17"
+        }
+      ]
+    },
+    {
+      "title": "Chicken",
+      "origin": "animal or mixed",
+      "file": "docs/foods/chicken.md",
+      "pms": 20,
+      "systems": [
+        "BRS1",
+        "BRS2",
+        "BRS3",
+        "BRS4",
+        "BRS5",
+        "Cross-BRS · Endocannabinoid",
+        "Cross-BRS · Hormones"
+      ],
+      "targets": [
+        "Indispensable amino-acid supply",
+        "Iron",
+        "Vitamin B6",
+        "Vitamin B12 (cobalamin)",
+        "Zinc",
+        "Methionine",
+        "Selenium"
+      ],
+      "rsp": [
+        {
+          "substance": "Indispensable amino-acid supply",
+          "rsp": 100,
+          "quantity": "12.865 g",
+          "basis": "per 100 g edible portion",
+          "rank": "#1 of 15"
+        },
+        {
+          "substance": "Methionine",
+          "rsp": 45.4,
+          "quantity": "0.493 g",
+          "basis": "per 100 g edible portion",
+          "rank": "#4 of 5"
+        },
+        {
+          "substance": "Vitamin B6",
+          "rsp": 13,
+          "quantity": "0.35 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#20 of 117"
+        },
+        {
+          "substance": "Selenium",
+          "rsp": 10.2,
+          "quantity": "14.4 µg",
+          "basis": "per 100 g edible portion",
+          "rank": "#33 of 104"
+        },
+        {
+          "substance": "Zinc",
+          "rsp": 3.3,
+          "quantity": "1.31 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#41 of 123"
+        },
+        {
+          "substance": "Iron",
+          "rsp": 1.6,
+          "quantity": "0.9 mg",
+          "basis": "per 100 g edible portion",
+          "rank": "#67 of 124"
+        },
+        {
+          "substance": "Vitamin B12 (cobalamin)",
+          "rsp": 0.5,
+          "quantity": "0.31 µg",
+          "basis": "per 100 g edible portion",
+          "rank": "#28 of 35"
+        }
+      ]
+    },
+    {
+      "title": "Nori",
+      "origin": "plant",
+      "file": "docs/foods/nori.md",
+      "pms": 20,
+      "systems": [
+        "BRS1",
+        "BRS2",
+        "BRS3",
+        "BRS4",
+        "BRS5",
+        "BRS6",
+        "Cross-BRS · Endocannabinoid",
+        "Cross-BRS · Hormones"
+      ],
+      "targets": [
+        "Iron",
+        "Vitamin B6",
+        "Vitamin B2",
+        "Magnesium",
+        "Copper",
+        "Vitamin C",
+        "Vitamin B9 (folate)",
+        "Vitamin B12 (cobalamin)",
+        "Zinc",
+        "Selenium",
+        "Vitamin E"
+      ],
+      "rsp": [
+        {
+          "substance": "Vitamin B6",
+          "rsp": 100,
+          "quantity": "0.59 mg",
+          "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+          "rank": "sole source"
+        },
+        {
+          "substance": "Vitamin B2",
+          "rsp": 100,
+          "quantity": "2.33 mg",
+          "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+          "rank": "sole source"
+        },
+        {
+          "substance": "Copper",
+          "rsp": 100,
+          "quantity": "0.55 mg",
+          "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+          "rank": "sole source"
+        },
+        {
+          "substance": "Vitamin C",
+          "rsp": 100,
+          "quantity": "210 mg",
+          "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+          "rank": "sole source"
+        },
+        {
+          "substance": "Zinc",
+          "rsp": 100,
+          "quantity": "3.6 mg",
+          "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+          "rank": "sole source"
+        },
+        {
+          "substance": "Selenium",
+          "rsp": 100,
+          "quantity": "9 µg",
+          "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+          "rank": "sole source"
+        },
+        {
+          "substance": "Vitamin E",
+          "rsp": 100,
+          "quantity": "4.6 mg",
+          "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+          "rank": "sole source"
+        }
+      ]
+    }
+  ],
+  "ready_ids": [
+    "BRS1-FM1-PM1",
+    "BRS1-FM1-PM3",
+    "BRS1-FM1-PM4",
+    "BRS1-FM1-PM5",
+    "BRS1-FM2-PM6",
+    "BRS1-FM3-PM7",
+    "BRS1-FM4-PM10",
+    "BRS1-FM4-PM11",
+    "BRS1-FM4-PM9",
+    "BRS1-FM5-PM12",
+    "BRS2-FM1-PM1",
+    "BRS2-FM1-PM2",
+    "BRS2-FM1-PM3",
+    "BRS2-FM1-PM4",
+    "BRS2-FM2-PM5",
+    "BRS2-FM2-PM6",
+    "BRS2-FM3-PM7",
+    "BRS3-FM2-PM4",
+    "BRS3-FM2-PM5",
+    "BRS3-FM2-PM6",
+    "BRS3-FM3-PM7",
+    "BRS3-FM3-PM8",
+    "BRS4-FM1-PM1",
+    "BRS4-FM1-PM2",
+    "BRS4-FM1-PM3",
+    "BRS4-FM2-PM5",
+    "BRS5-FM1-PM1",
+    "BRS5-FM2-PM4",
+    "BRS5-FM2-PM5",
+    "BRS5-FM3-PM7",
+    "BRS5-FM3-PM8",
+    "BRS6-FM1-PM3",
+    "BRS6-FM4-PM8",
+    "BRS-X(ECS-PM1)",
+    "BRS-X(ECS-PM2)",
+    "BRS-X(Hormones-PM5)"
+  ],
+  "no_diet_ids": [
+    "BRS4-FM2-PM4 ROS Production and Control",
+    "BRS4-FM3-PM8 Metabolic Fuel Switching",
+    "BRS4-FM4-PM9 Mitochondrial Biogenesis",
+    "BRS6-FM1-PM1 Glucose Appearance Kinetics",
+    "BRS6-FM1-PM2 Glycaemic Variability Regulation",
+    "BRS6-FM2-PM4 Cortisol Rhythm Regulation",
+    "BRS6-FM3-PM6 Sympathetic Activation & Parasympathetic Recovery",
+    "BRS6-FM3-PM7 Vagal Tone / HRV Regulation",
+    "BRS6-FM4-PM9 Stress-Modulated Appetite & Reward Regulation",
+    "BRS-X(Circadian-FM1-PM1) Light–Dark Circadian Entrainment",
+    "BRS-X(Circadian-FM1-PM2) Feeding-Time Circadian Synchronisation",
+    "BRS-X(ECS-PM3) FAAH-Mediated Endocannabinoid Preservation",
+    "BRS-X(ECS-PM4) Endocannabinoid–Dopamine Neuromodulation",
+    "BRS-X(ECS-PM5) Endocannabinoid Stress-Buffering Capacity",
+    "BRS-X(Hormones-PM1) Oestrogen Signalling Stability",
+    "BRS-X(Hormones-PM2) Estrobolome Regulation",
+    "BRS-X(Hormones-PM3) Progesterone-Supportive Microbial Metabolism",
+    "BRS-X(Hormones-PM4) Metabolic-Reproductive Hormone Integration",
+    "BRS-X(Hormones-PM6) Androgen-Microbiome Regulation"
+  ],
+  "mechanistic_ids": [
+    "BRS5-FM2-PM5"
+  ],
+  "sop_or_life": 64,
+  "sop_incomplete": 64,
+  "life_incomplete": 51,
+  "no_diet": 19,
+  "food_incomplete": 15,
+  "mechanistic": 1,
+  "sop_atoms": 45,
+  "lifestyle_atoms": 17,
+  "pattern_rels": 1,
+  "spans": 4,
+  "related_unadmitted": 105,
+  "pm6": {
+    "id": "BRS5-FM2-PM6",
+    "flags": [
+      "Food composition/ontology incomplete",
+      "SOP research incomplete",
+      "Lifestyle research incomplete"
+    ],
+    "admitted": [
+      {
+        "input": "Ellagic acid",
+        "identity": "resolved",
+        "sci": "admitted",
+        "foods": 1
+      },
+      {
+        "input": "Ellagitannins",
+        "identity": "resolved",
+        "sci": "admitted",
+        "foods": 2
+      },
+      {
+        "input": "Epicatechin",
+        "identity": "resolved",
+        "sci": "admitted",
+        "foods": 7
+      }
+    ]
+  },
+  "no_sop": 41,
+  "has_sop": 23,
+  "provisional_rows": 61,
+  "blocked_rows": 12,
+  "blocked_relationships": [
+    "BRS-X(ECS-PM1)::PM1-DIT-1",
+    "BRS-X(ECS-PM3)::PM3-DIT-1",
+    "BRS-X(ECS-PM4)::PM4-DIT-1",
+    "BRS-X(Hormones-PM2)::PM2-DIT-1",
+    "BRS-X(Hormones-PM3)::PM3-DIT-1",
+    "BRS-X(Hormones-PM3)::PM3-DIT-2",
+    "BRS-X(Hormones-PM6)::PM6-DIT-1",
+    "BRS2-FM3-PM7::PM7-DIT-8",
+    "BRS2-FM3-PM7::PM7-DIT-9",
+    "BRS4-FM3-PM7::PM7-DEFERRED-BIO-1",
+    "BRS4-FM3-PM7::PM7-DEFERRED-BIO-2",
+    "BRS5-FM1-PM1::PM1-DIT-2",
+    "BRS5-FM1-PM1::PM1-DIT-3",
+    "BRS5-FM1-PM1::PM1-DIT-6",
+    "BRS5-FM1-PM2::PM2-DIT-1",
+    "BRS5-FM1-PM2::PM2-DIT-2",
+    "BRS5-FM1-PM2::PM2-DIT-3",
+    "BRS5-FM1-PM2::PM2-DIT-4",
+    "BRS5-FM1-PM3::PM3-DIT-1",
+    "BRS5-FM1-PM3::PM3-DIT-2",
+    "BRS5-FM2-PM4::PM4-DIT-2",
+    "BRS5-FM2-PM4::PM4-DIT-3",
+    "BRS5-FM2-PM5::PM5-DIT-2",
+    "BRS5-FM2-PM6::PM6-DIT-1",
+    "BRS5-FM2-PM6::PM6-DIT-2",
+    "BRS5-FM3-PM7::PM7-DIT-1",
+    "BRS5-FM3-PM7::PM7-DIT-2",
+    "BRS5-FM3-PM7::PM7-DIT-3",
+    "BRS5-FM3-PM8::PM8-DIT-2",
+    "BRS5-FM3-PM8::PM8-DIT-3"
+  ],
+  "projected_admitted": 124,
+  "dietary_true_not_projected": 33,
+  "missing_foods": [
+    {
+      "pm": "BRS1-FM1-PM2",
+      "input": "Meal carbohydrate-to-protein composition",
+      "identity": "dietary pattern",
+      "sci": "admitted",
+      "foods": 0,
+      "warning": "Meal carbohydrate-to-protein composition: canonical substance identity unresolved."
+    },
+    {
+      "pm": "BRS2-FM1-PM4",
+      "input": "Dietary protein",
+      "identity": "unresolved-identity",
+      "sci": "admitted",
+      "foods": 0,
+      "warning": "Dietary protein: canonical substance identity unresolved."
+    },
+    {
+      "pm": "BRS2-FM1-PM4",
+      "input": "Glycine",
+      "identity": "resolved",
+      "sci": "admitted",
+      "foods": 3,
+      "warning": "Beef → Glycine: food ontology link pending."
+    },
+    {
+      "pm": "BRS2-FM2-PM6",
+      "input": "Glycine",
+      "identity": "resolved",
+      "sci": "admitted",
+      "foods": 3,
+      "warning": "Beef → Glycine: food ontology link pending."
+    },
+    {
+      "pm": "BRS2-FM2-PM6",
+      "input": "N-acetylcysteine",
+      "identity": "resolved",
+      "sci": "admitted",
+      "foods": 0,
+      "warning": "N-acetylcysteine → Cysteine: conversion pathway reconciliation pending."
+    },
+    {
+      "pm": "BRS3-FM1-PM2",
+      "input": "Oligofructose",
+      "identity": "resolved",
+      "sci": "admitted",
+      "foods": 0,
+      "warning": "Oligofructose: The admitted oligofructose exposure is a defined inulin-hydrolysate preparation. Native food FOS fractions do not establish an equivalent chain-length mixture or supplement exposure."
+    },
+    {
+      "pm": "BRS4-FM1-PM2",
+      "input": "Nicotinamide (a form of vitamin B3)",
+      "identity": "resolved",
+      "sci": "admitted",
+      "foods": 2,
+      "warning": "Chicken (studied breast material) → Nicotinamide: food ontology link pending."
+    },
+    {
+      "pm": "BRS4-FM1-PM2",
+      "input": "Nicotinic acid (a form of vitamin B3)",
+      "identity": "resolved",
+      "sci": "admitted",
+      "foods": 2,
+      "warning": "Chicken (studied breast material) → Nicotinic acid: food ontology link pending."
+    },
+    {
+      "pm": "BRS4-FM1-PM3",
+      "input": "Glycine",
+      "identity": "resolved",
+      "sci": "admitted",
+      "foods": 0,
+      "warning": "Glycine: Food ontology coverage unresolved."
+    },
+    {
+      "pm": "BRS4-FM3-PM6",
+      "input": "L-Carnitine",
+      "identity": "resolved",
+      "sci": "admitted",
+      "foods": 2,
+      "warning": "Beef → L-Carnitine: food ontology link pending."
+    },
+    {
+      "pm": "BRS5-FM2-PM5",
+      "input": "Pectin",
+      "identity": "resolved",
+      "sci": "admitted",
+      "foods": 1,
+      "warning": "Apples (studied cultivars) → Pectin: food ontology link pending."
+    }
+  ],
+  "identity_blocked": []
+}

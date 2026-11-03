@@ -1,5 +1,6 @@
 ---
 id: creamed-corn-roasted-sweet-potato
+slug: /recipes/dinner/creamed-corn-roasted-sweet-potato
 title: Creamed Corn on Roasted Sweet Potato
 sidebar_label: Creamed Corn on Roasted Sweet Potato
 description: Roasted sweet potato with creamed corn and a mixed lipid phase to enhance carotenoid absorption; served with broccoli for fibre and glucosinolates.

@@ -1,5 +1,6 @@
 ---
 id: snacks-recipes
+slug: /recipes/snacks
 title: Snacks
 sidebar_label: Snacks
 sidebar_position: 6

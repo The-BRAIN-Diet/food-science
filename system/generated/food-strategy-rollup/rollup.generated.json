@@ -629,7 +629,7 @@
       "input_type": "defined meal formulation",
       "scope": "dietary-protocol",
       "category": "dietary_protocols",
-      "biological_role": "The meal comparison measured different acute mononuclear NF-kB DNA-binding responses.",
+      "biological_role": "NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison. The mechanism of that difference was not isolated.",
       "evidence": {
         "finding_ids": [
           "PM1-F3"
@@ -638,7 +638,7 @@
           "ghanim_increase_2009"
         ]
       },
-      "limitation": "Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.",
+      "limitation": "Two parallel groups of ten healthy lean adults; random allocation was not described. The 910-kcal meals differed in several foods and macronutrients, so fibre, fruit, orange juice and individual constituents are not isolated. Mononuclear NF-kB DNA binding was an electrophoretic mobility-shift assay. Plasma CRP and TNF-alpha did not change after either meal. MMP-9 rose after the high-fat/high-carbohydrate meal only and is not an NF-kB measurement. LPS and LBP changes are the neighbouring gut-derived endpoint, not this transcriptional result. No brain or clinical benefit was measured.",
       "source_record": "docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx#system_optimisation_practices/PM1-SOP-DEFERRED-1",
       "food_ids": [],
       "substance_ids": []
@@ -654,7 +654,7 @@
       "input_type": "defined meal formulation",
       "scope": "dietary-protocol",
       "category": "dietary_protocols",
-      "biological_role": "The meal comparison measured different acute plasma endotoxin/LBP responses.",
+      "biological_role": "Plasma endotoxin rose from 0.39 ± 0.07 to 0.58 ± 0.10 EU/ml at 3 hours after the high-fat/high-carbohydrate meal (47 ± 14% over baseline), and LPS-binding protein rose by 34 ± 14% at 2 hours. The fibre/fruit-rich meal caused no significant change in either. The mechanism of that difference was not isolated.",
       "evidence": {
         "finding_ids": [
           "PM2-F5"
@@ -663,7 +663,7 @@
           "ghanim_increase_2009"
         ]
       },
-      "limitation": "Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.",
+      "limitation": "Two parallel groups of ten healthy lean adults; random allocation was not described. The 910-kcal meals differed in several foods and macronutrients, so fibre, fruit and orange juice are not isolated. Plasma endotoxin was a limulus amebocyte lysate, and LPS-binding protein was an immunoassay. The fibre/fruit meal contained more measurable endotoxin than the high-fat meal, so the meal's own endotoxin does not explain the plasma difference. CRP and TNF-alpha did not change. Mononuclear NF-kB DNA binding is the neighbouring transcriptional endpoint, not this result. No brain or clinical benefit was measured.",
       "source_record": "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx#system_optimisation_practices/PM2-SOP-DEFERRED-1",
       "food_ids": [],
       "substance_ids": []

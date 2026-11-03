@@ -355,6 +355,8 @@ const config: Config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
+  // Netlify serves directory indexes at the trailing-slash URL. Match that URL in canonicals, links and the sitemap.
+  trailingSlash: true,
 
   headTags: [
     {
@@ -636,7 +638,7 @@ const config: Config = {
           { to: '/docs/foods/aubergine', from: '/docs/foods/eggplant' },
           { to: '/docs/foods/cacao-nibs-raw', from: '/docs/foods/raw-cacao-nibs' },
           { to: '/docs/foods/greek-yogurt', from: '/docs/foods/yogurt' },
-          { to: '/docs/recipes/Snacks/neuroeshot-roe', from: '/docs/recipes/Drinks/neuroeshot-roe' },
+          { to: '/docs/recipes/snacks/neuroeshot-roe', from: '/docs/recipes/Drinks/neuroeshot-roe' },
           {
             to: '/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics',
             from: '/docs/biological-targets/brs6/pm/brs6-pm1-glycaemic-variability-absorption-kinetics',

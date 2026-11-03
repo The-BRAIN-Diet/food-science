@@ -1,5 +1,6 @@
 ---
 id: roast-duck-breast-berry-sauce
+slug: /recipes/dinner/roast-duck-breast-berry-sauce
 title: Roast Duck Breast with Berry Sauce
 sidebar_label: Roast Duck Breast with Berry Sauce
 description: A rich main dish built around crisp-skinned duck breast with a bright blueberry and raspberry sauce, designed to balance richness with acidity and aromatic depth.
@@ -203,9 +204,9 @@ Use sparingly — this is an aromatic finish rather than a sauce.
 
 Serve with:
 
-- [Saffron Roast Potatoes](/docs/recipes/Side-dishes/saffron-roast-potatoes)
+- [Saffron Roast Potatoes](/docs/recipes/side-dishes/saffron-roast-potatoes)
 
-- [Roasted Aubergine with Herb Olive Oil](/docs/recipes/Side-dishes/roasted-aubergine-herb-olive-oil)
+- [Roasted Aubergine with Herb Olive Oil](/docs/recipes/side-dishes/roasted-aubergine-herb-olive-oil)
 
 These sides absorb the duck juices and complement the berry sauce's acidity while adding texture and colour to the plate.
 

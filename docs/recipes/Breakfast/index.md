@@ -1,5 +1,6 @@
 ---
 id: breakfast-recipes
+slug: /recipes/breakfast
 title: Breakfast Recipes
 sidebar_label: Breakfast
 sidebar_position: 1

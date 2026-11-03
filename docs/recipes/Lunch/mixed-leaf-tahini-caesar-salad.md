@@ -1,5 +1,6 @@
 ---
 id: mixed-leaf-tahini-caesar-salad
+slug: /recipes/lunch/mixed-leaf-tahini-caesar-salad
 title: Mixed-Leaf Tahini Caesar Salad
 sidebar_label: Mixed-Leaf Tahini Caesar Salad
 description: A Caesar-style mixed-leaf salad with a tahini, anchovy, caper and Parmesan dressing, using extra virgin olive oil retained from oil-packed capers.

@@ -1,5 +1,6 @@
 ---
 id: ecs-tone-salmon-pistachio-bowl
+slug: /recipes/lunch/ecs-tone-salmon-pistachio-bowl
 title: Salmon Bowl-pistachio-cacao-nibs
 sidebar_label: Salmon Bowl-pistachio-cacao-nibs
 description: A Mediterranean-style bowl combining salmon, avocado, pistachios, cacao nibs, and early harvest olive oil — rich in omega-3 fats, polyphenols, and fibre.
