@@ -12,6 +12,6 @@ Pending wording: owner accepted discussion of replacing Pilot-plant with Experim
 
 Use food pages first, then original references and Scite search_literature/read_fulltext. Verify source=fulltext; abstract fallback is not full-text appraisal. Preserve exact study exposure, null results and PM-specific relevance. Follow existing six-atom presentation and Stage 2A/2B contracts; no new public components.
 
-Validation at checkpoint: 25 focused MoA/SEC integration/ownership tests pass; presentation contract passes for 691 protected files; git diff --check passes. Last full production build passed with 1154 HTML pages before the final category-wrapper/title corrections. Do not imply a new full build was performed after those corrections. See production-build-brs2-final-2026-11-03.json. The wider repository suite is not claimed clean.
+Validation at checkpoint: 25 focused MoA/SEC integration/ownership tests pass; presentation contract passes for 691 protected files; Tracked-file diff check passed before staging; the complete staged check reported whitespace in preserved before-copies and retrieved paper text. Those source copies were retained unchanged. Last full production build passed with 1154 HTML pages before the final category-wrapper/title corrections. Do not imply a new full build was performed after those corrections. See production-build-brs2-final-2026-11-03.json. The wider repository suite is not claimed clean.
 
 Do not merge or deploy. This push is to let Cursor retrieve the complete current work.
