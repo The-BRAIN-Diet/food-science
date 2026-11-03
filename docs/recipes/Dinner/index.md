@@ -1,5 +1,6 @@
 ---
 id: dinner-recipes
+slug: /recipes/dinner
 title: Dinner Recipes
 sidebar_label: Dinner
 sidebar_position: 4

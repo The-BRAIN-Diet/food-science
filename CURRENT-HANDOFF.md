@@ -78,3 +78,7 @@ Owner-authorised mission replacement and SF1 evidence consolidation implemented 
 ## LAT1 Stage 2B follow-up — 3 November 2026
 
 See `review/lat1-mission-sf1-2026-11-03/stage2b-status.md` and `stage2b-completeness.json`. Locally added SF1 provisional SEC v3 (5/8), preserved SF2 5/8, tracked SF3/IC1 eligibility decisions in v3 Assessment gaps, enabled owner-confirmed Evidence Gaps/Open Issues through the existing tab contract, and recorded the scientific meal-translation gap. 110 prior snapshots retained; 113 total. Structurally complete is not scientifically complete: interpretive-record scoring applicability and PM2-DIT-3 classification remain unresolved. Browser validation remains incomplete owing to unresponsive localhost. No commit/push/deployment.
+
+## Cursor integration — 3 November 2026
+
+Owner authorised local checkpoint and integration only. Checkpoint 533409e1 preserves current LAT1, SEC, disclosure removal and handoff work. Merged Cursor 48ee6a93 from github/review/brs3-fm1-pm1-pilot; see review/cursor-integration-2026-11-03/validation.md. Approval ledger reconciled by exact-record union (24 records); no science conflict. Focused tests 36 pass/one pre-existing BRS3 count fixture failure. No push/PR/main merge/deployment authorised; unrelated training drafts remain outside the checkpoint. Earlier handoff release instructions are superseded only to this local integration scope.

@@ -1,5 +1,6 @@
 ---
 id: roasted-aubergine-herb-olive-oil
+slug: /recipes/side-dishes/roasted-aubergine-herb-olive-oil
 title: Roasted Aubergine with Herb Olive Oil
 sidebar_label: Roasted Aubergine with Herb Olive Oil
 description: Soft roasted aubergine finished with a late-added herb oil of rosemary, thyme, chilli flakes and olive oil, served with a light balsamic drizzle.
@@ -160,9 +161,9 @@ Serve alongside roasted meats, poultry, or grain-based dishes.
 
 Pairs especially well with:
 
-- [Roast Duck Breast with Berry Sauce](/docs/recipes/Dinner/roast-duck-breast-berry-sauce)
+- [Roast Duck Breast with Berry Sauce](/docs/recipes/dinner/roast-duck-breast-berry-sauce)
 
-- [Saffron Roast Potatoes](/docs/recipes/Side-dishes/saffron-roast-potatoes)
+- [Saffron Roast Potatoes](/docs/recipes/side-dishes/saffron-roast-potatoes)
 
 ---
 

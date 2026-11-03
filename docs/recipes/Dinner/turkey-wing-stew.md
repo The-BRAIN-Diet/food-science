@@ -1,5 +1,6 @@
 ---
 id: turkey-wing-stew
+slug: /recipes/dinner/turkey-wing-stew
 title: Turkey Wing Stew
 sidebar_label: Turkey Wing Stew
 description: A collagen-rich, glycine-heavy slow-cooked stew made from affordable turkey wings — rich in protein, tryptophan, and B vitamins.

@@ -218,5 +218,25 @@
     "contract": "system/pm-evidence-tabs-contract.md",
     "example": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
     "scope": "LAT1 PM2 only: existing three-tab template, Section 4 Findings, existing SEC audit and independently stated meal-translation Evidence Gap. No new shared component."
+  },
+  {
+    "file": "docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx",
+    "sha256": "06ffb26bd3a6e56a14b48fd0e5fff4a69df09dca67f0ef2b0084c3e595eafaec",
+    "author_approval": "Owner: continue the SOP/Lifestyle rollout from BRS3 and complete six-atom records for paper-critical interventions",
+    "approval_source": "Current session exec: Accelerated SOP/Lifestyle Review for Paper Completion, one BRS3 pilot, using the existing six-atom presentation",
+    "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/six-atom-ux-demo-2026-11-02/index.html",
+    "scope": "BRS3-FM1-PM1 only: present the existing Ghanim meal comparison with the approved six-atom component and category disclosure; no mechanism summary, new component, SEC score or dietary-input admission"
+  },
+  {
+    "file": "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx",
+    "sha256": "dfce7d60f06814ee1ab895c66a0f123adf05c20136f6e4376090a4d6353ab11b",
+    "author_approval": "Owner: continue the SOP/Lifestyle rollout from BRS3 and complete six-atom records for paper-critical interventions",
+    "approval_source": "Current session exec: Accelerated SOP/Lifestyle Review for Paper Completion, continuing from the BRS3 pilot, using the existing six-atom presentation",
+    "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/six-atom-ux-demo-2026-11-02/index.html",
+    "scope": "BRS3-FM1-PM2 only: correct the existing Ghanim endotoxin comparison so the measured effect is plasma endotoxin and LPS-binding protein, with the approved category disclosure and no mechanism summary, new component, SEC score, or dietary-input admission"
   }
 ]

@@ -1,5 +1,6 @@
 ---
 id: side-dishes-recipes
+slug: /recipes/side-dishes
 title: Side Dishes
 sidebar_label: Side Dishes
 sidebar_position: 5

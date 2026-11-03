@@ -1,5 +1,6 @@
 ---
 id: rocket-lentil-midday-salad
+slug: /recipes/lunch/rocket-lentil-midday-salad
 title: Rocket Lentil Avocado Midday Salad (Gut-Supporting)
 sidebar_label: Rocket Lentil Salad
 description: Polyphenol-rich midday salad with quinoa or lentils, vegetables, avocado, and early harvest olive oil

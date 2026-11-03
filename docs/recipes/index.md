@@ -13,11 +13,11 @@ list_image: /img/icons/recipes.svg
 
 Printable shopping list: see the [Foods Shopping List](/docs/foods/shopping-list) for an alphabetised table you can print.
 
-- [Breakfast](/docs/recipes/Breakfast)
-- [Lunch](/docs/recipes/Lunch)
-- [Dinner](/docs/recipes/Dinner)
-- [Side Dishes](/docs/recipes/Side-dishes)
-- [Snacks](/docs/recipes/Snacks)
-- [Drinks](/docs/recipes/Drinks)
+- [Breakfast](/docs/recipes/breakfast)
+- [Lunch](/docs/recipes/lunch)
+- [Dinner](/docs/recipes/dinner)
+- [Side Dishes](/docs/recipes/side-dishes)
+- [Snacks](/docs/recipes/snacks)
+- [Drinks](/docs/recipes/drinks)
 
 <TagList tag="Recipe" filter="recipes" />

@@ -727,22 +727,30 @@ system_optimisation_practices:
   - atom_id: PM1-SOP-DEFERRED-1
     input: Tested fibre/fruit-rich mixed meal versus the high-fat/high-carbohydrate comparison
     input_type: defined meal formulation
-    biological_role: The meal comparison measured different acute mononuclear NF-kB DNA-binding responses.
+    biological_role: >-
+      NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the
+      isocaloric fibre/fruit-rich comparison. The mechanism of that difference was not isolated.
     evidence_source:
       finding_ids:
         - PM1-F3
       citation_keys:
         - ghanim_increase_2009
     evidence_limitation: >-
-      Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated
-      fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS
-      bioactivity or brain benefit. CRP and TNF-alpha did not change.
+      Two parallel groups of ten healthy lean adults; random allocation was not described. The 910-kcal meals
+      differed in several foods and macronutrients, so fibre, fruit, orange juice and individual constituents
+      are not isolated. Mononuclear NF-kB DNA binding was an electrophoretic mobility-shift assay. Plasma CRP
+      and TNF-alpha did not change after either meal. MMP-9 rose after the high-fat/high-carbohydrate meal
+      only and is not an NF-kB measurement. LPS and LBP changes are the neighbouring gut-derived endpoint, not
+      this transcriptional result. No brain or clinical benefit was measured.
     dietary_input: true
-    reader_description: The meal comparison measured different acute mononuclear NF-kB DNA-binding responses.
+    reader_description: >-
+      NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the
+      isocaloric fibre/fruit-rich comparison.
     description_finding_id: PM1-F3
     optimisation_category: dietary_protocols
     food_strategy_scope: dietary-protocol
     food_strategy_id: food-strategy-f69b067d45e3
+    sec_status: Not yet assessed
 sidebar_label: BRS3-1-1 — NF-kB Signalling Regulation
 evidence_tabs_version: 1
 evidence_gaps_tab: true
@@ -768,6 +776,9 @@ evidence_gaps:
       - reynaert_redox_nfkb_2006
     review_date: '2026-10-26'
 ---
+
+import PilotInterventionDisclosure from "@site/src/components/PilotInterventionDisclosure";
+
 <p class="brs-pm-thumbnail-wrap">
   <img
     src="/img/biological-targets/brs3-portrait-thumbnail.png"
@@ -868,11 +879,39 @@ NF-κB activation, DNA binding and redox-sensitive inflammatory gene regulation
 <strong>3.2 System Optimisation Practices</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">One defined meal comparison measured mononuclear NF-κB DNA binding. It did not isolate which part of the meal caused the difference.</p>
 
-- Tested fibre/fruit-rich mixed meal versus the high-fat/high-carbohydrate comparison
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Dietary &amp; Fasting Protocols</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
+<PilotInterventionDisclosure id="brs3-pm1-sop-meal-nfkb-1" title="Tested fibre/fruit-rich meal → no observed rise in mononuclear NF-κB DNA binding">
+<div class="brs-dietary-lever-detail-inner">
+<p><span class="brs-dietary-lever-detail-k">Intervention</span> = Tested fibre/fruit-rich mixed meal (oatmeal, milk, orange juice, raisins, peanut butter and an English muffin; 910 kcal) versus the isocaloric high-fat/high-carbohydrate meal (egg-muffin and sausage-muffin sandwiches and two hash browns).</p>
+<p><span class="brs-dietary-lever-detail-k">Intervention type</span> = Dietary protocol.</p>
+<p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Unresolved. Meal composition, the glucose excursion and endotoxin-associated changes are hypotheses. The comparison did not isolate a causal component, and it did not show that intestinal endotoxin absorption caused the NF-κB result.<br /><strong>Measured Effect:</strong> Mononuclear NF-κB DNA binding rose by 72 ± 24% at 2 hours after the high-fat/high-carbohydrate meal. The fibre/fruit-rich meal caused no significant change.<br /><strong>PM Relevance:</strong> The assay measured NF-κB DNA binding in circulating mononuclear cells, the operation named by this mechanism. It is not a brain measurement or a dietary treatment result.</p>
+<p><span class="brs-dietary-lever-detail-k">Evidence source</span> = Ghanim et al. (2009): two parallel groups of ten healthy lean adults, BMI under 25, aged 20–50, after an overnight fast. Electrophoretic mobility-shift assay on mononuclear nuclear extracts. [[14]](#pm-ref-14) Linked finding: PM1-F3.</p>
+<p><span class="brs-dietary-lever-detail-k">Limitations</span> =</p>
+<ul>
+<li><strong>Design:</strong> Parallel groups of ten; the paper does not describe random allocation.</li>
+<li><strong>Attribution:</strong> Several foods and the macronutrient mix differed (fat 42% versus 27%; carbohydrate 41% versus 58%). Fibre, fruit and orange juice are not isolated causes.</li>
+<li><strong>Null outcomes:</strong> Plasma CRP and TNF-α did not change after either meal.</li>
+<li><strong>Comparator:</strong> Insulin rose after both meals, and the rises were similar.</li>
+<li><strong>Other readouts:</strong> MMP-9 rose after the high-fat/high-carbohydrate meal only. That is not an NF-κB measurement. LPS and LBP changes belong to the gut-derived inflammatory mechanism.</li>
+<li><strong>Translation:</strong> One acute meal in healthy lean adults. No brain or clinical benefit was measured.</li>
+</ul>
+<p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — bounded meal comparison. The study measured this mechanism’s endpoint. An unresolved mechanism does not withdraw that admission. This is not a menu to prescribe.</p>
+<p><strong>Intervention SEC:</strong> Not yet assessed</p>
+</div>
+</PilotInterventionDisclosure>
 
-No evidence-qualified System Optimisation Practices are currently established for this mechanism.
+</div>
+</div>
+</div>
 
 </div>
 </div>

@@ -1,5 +1,6 @@
 ---
 id: savoury-greens-egg-breakfast-skillet
+slug: /recipes/breakfast/savoury-greens-egg-breakfast-skillet
 title: Savoury Greens & Egg Breakfast Skillet
 sidebar_label: Savoury Greens & Egg Skillet
 description: A warm savoury breakfast skillet with eggs, greens, and slow carbohydrates for steady morning energy.

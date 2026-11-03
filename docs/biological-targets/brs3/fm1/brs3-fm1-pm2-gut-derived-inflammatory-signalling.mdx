@@ -449,8 +449,7 @@ scientific_findings:
       bioactivity or brain benefit. CRP and TNF-alpha did not change.
     synthesised_evidence_confidence: not-yet-scored
     synthesis: >-
-      NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the
-      isocaloric fibre/fruit-rich comparison.
+      Plasma endotoxin rose from 0.39 ± 0.07 to 0.58 ± 0.10 EU/ml at 3 hours after the high-fat/high-carbohydrate meal (47 ± 14% over baseline), and LPS-binding protein rose by 34 ± 14% at 2 hours. The fibre/fruit-rich meal caused no significant change in either.
     synthesis_limitations: >-
       Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated
       fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS
@@ -465,22 +464,19 @@ scientific_findings:
           egg/sausage muffins and hash browns.
         evidence_source: bounded-external-search
         directional_finding: >-
-          NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the
-          isocaloric fibre/fruit-rich comparison.
+          Plasma endotoxin rose from 0.39 ± 0.07 to 0.58 ± 0.10 EU/ml at 3 hours after the high-fat/high-carbohydrate meal (47 ± 14% over baseline), and LPS-binding protein rose by 34 ± 14% at 2 hours. The fibre/fruit-rich meal caused no significant change in either.
         assessment:
           study: >-
             910-kcal mixed meals: oatmeal/milk/orange juice/raisins/peanut butter/English muffin versus
             egg/sausage muffins and hash browns.
           population: Two parallel groups of ten healthy lean adults.
           result: >-
-            NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the
-            isocaloric fibre/fruit-rich comparison.
+            Plasma endotoxin rose from 0.39 ± 0.07 to 0.58 ± 0.10 EU/ml at 3 hours after the high-fat/high-carbohydrate meal (47 ± 14% over baseline), and LPS-binding protein rose by 34 ± 14% at 2 hours. The fibre/fruit-rich meal caused no significant change in either.
           effect_magnitude: >-
             Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is
             inferred.
           evidence_summary: >-
-            Mononuclear-cell NF-kB DNA binding by electrophoretic mobility shift assay; plasma LPS by LAL and
-            LBP.
+            Plasma LPS by limulus amebocyte lysate and LPS-binding protein by immunoassay. Mononuclear NF-kB DNA binding from the same experiment is recorded on the neighbouring NF-kB mechanism.
           limitations: >-
             Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No
             isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal
@@ -755,22 +751,33 @@ system_optimisation_practices:
   - atom_id: PM2-SOP-DEFERRED-1
     input: Tested fibre/fruit-rich mixed meal versus the high-fat/high-carbohydrate comparison
     input_type: defined meal formulation
-    biological_role: The meal comparison measured different acute plasma endotoxin/LBP responses.
+    biological_role: >-
+      Plasma endotoxin rose from 0.39 ± 0.07 to 0.58 ± 0.10 EU/ml at 3 hours after the
+      high-fat/high-carbohydrate meal (47 ± 14% over baseline), and LPS-binding protein rose by 34 ± 14% at 2
+      hours. The fibre/fruit-rich meal caused no significant change in either. The mechanism of that difference
+      was not isolated.
     evidence_source:
       finding_ids:
         - PM2-F5
       citation_keys:
         - ghanim_increase_2009
     evidence_limitation: >-
-      Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated
-      fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS
-      bioactivity or brain benefit. CRP and TNF-alpha did not change.
+      Two parallel groups of ten healthy lean adults; random allocation was not described. The 910-kcal meals
+      differed in several foods and macronutrients, so fibre, fruit and orange juice are not isolated. Plasma
+      endotoxin was a limulus amebocyte lysate, and LPS-binding protein was an immunoassay. The fibre/fruit meal
+      contained more measurable endotoxin than the high-fat meal, so the meal's own endotoxin does not explain
+      the plasma difference. CRP and TNF-alpha did not change. Mononuclear NF-kB DNA binding is the neighbouring
+      transcriptional endpoint, not this result. No brain or clinical benefit was measured.
     dietary_input: true
-    reader_description: The meal comparison measured different acute plasma endotoxin/LBP responses.
+    reader_description: >-
+      Plasma endotoxin rose from 0.39 ± 0.07 to 0.58 ± 0.10 EU/ml at 3 hours after the
+      high-fat/high-carbohydrate meal (47 ± 14% over baseline), and LPS-binding protein rose by 34 ± 14% at 2
+      hours. The fibre/fruit-rich meal caused no significant change in either.
     description_finding_id: PM2-F5
     optimisation_category: dietary_protocols
     food_strategy_scope: dietary-protocol
     food_strategy_id: food-strategy-f69b067d45e3
+    sec_status: Not yet assessed
 sidebar_label: BRS3-1-2 — Gut-Derived Inflammatory Signalling
 dietary_input_assessments:
   - atom_id: PM2-DIT-RECOVERY-OLIGOFRUCTOSE
@@ -919,7 +926,40 @@ Gut-to-blood microbial-product handling; barrier-related systemic inflammatory s
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<PilotInterventionDisclosure id="pm2-sop-deferred-1" title="Tested fibre/fruit-rich meal → no observed postprandial endotoxin/LBP rise"><div><div><div class="brs-dietary-lever-detail-inner"><p><span class="brs-dietary-lever-detail-k">Intervention</span> = Tested fibre/fruit-rich mixed meal versus the high-fat/high-carbohydrate comparison</p><p><span class="brs-dietary-lever-detail-k">Intervention type</span> = defined meal formulation — Dietary Protocols</p><p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> MoA unresolved. Meal composition and gut-derived inflammatory exposure provide hypotheses, but the comparison did not isolate causal meal components or demonstrate intestinal absorption as its mechanism. <strong>Evidence status:</strong> Mechanism not isolated.<br /><strong>Measured Effect:</strong> The tested fibre/fruit-rich meal did not produce the postprandial LAL/LBP increase seen after the comparison meal. NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.<br /><strong>PM Relevance:</strong> <a target="_blank" rel="noopener" href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling/">BRS3-FM1-PM2</a> — circulating endotoxin-associated readouts relate to the PM’s inflammatory-load boundary; they do not establish the source or route of endotoxin entry.</p><p><span class="brs-dietary-lever-detail-k">Evidence source</span> = <a target="_blank" rel="noopener" href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling/#pm-ref-15">[15]</a> — Ghanim et al. (2009)<br /><strong>Study context:</strong> 910-kcal mixed meals: oatmeal/milk/orange juice/raisins/peanut butter/English muffin versus egg/sausage muffins and hash browns. Two parallel groups of ten healthy lean adults.</p><p><span class="brs-dietary-lever-detail-k">Limitations</span> = <ul><li><strong>Study design:</strong> Small parallel-group acute comparison: two groups of ten healthy lean adults.</li><li><strong>Attribution:</strong> Multiple ingredients and macronutrients differed; no isolated fibre, fruit or constituent effect.</li><li><strong>Endpoint boundary:</strong> LAL/LBP are not direct proof of gut leakage, portal origin or LPS bioactivity.</li><li><strong>Reported null outcomes:</strong> CRP and TNF-alpha did not change.</li><li><strong>Translation:</strong> No brain benefit is established.</li></ul></p><p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — historical admission retained; subsequent adjudication against the refined evidence requirements is pending. An unresolved mechanism does not itself withdraw this admission.</p><aside class="brs-dietary-confidence"><p><strong>Intervention confidence: not assigned</strong> — rubric pending adjudication.</p></aside></div></div></div></PilotInterventionDisclosure>
+<p class="brs-hub-sop-category-desc">One defined meal comparison measured plasma endotoxin and LPS-binding protein. It did not isolate which part of the meal caused the difference, and it did not show that the endotoxin came from the intestine.</p>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Dietary &amp; Fasting Protocols</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<PilotInterventionDisclosure id="pm2-sop-deferred-1" title="Tested fibre/fruit-rich meal → no observed postprandial endotoxin/LBP rise">
+<div class="brs-dietary-lever-detail-inner">
+<p><span class="brs-dietary-lever-detail-k">Intervention</span> = Tested fibre/fruit-rich mixed meal (oatmeal, milk, orange juice, raisins, peanut butter and an English muffin; 910 kcal) versus the isocaloric high-fat/high-carbohydrate meal (egg-muffin and sausage-muffin sandwiches and two hash browns).</p>
+<p><span class="brs-dietary-lever-detail-k">Intervention type</span> = Dietary protocol.</p>
+<p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Unresolved. Meal composition and fat-soluble carriage of endotoxin are hypotheses. The comparison did not isolate a causal component. The fibre/fruit meal contained more measurable endotoxin (5,700 EU) than the high-fat meal (4,200 EU), so the meal's own endotoxin does not explain the plasma difference. The study did not show that intestinal absorption caused the rise.<br /><strong>Measured Effect:</strong> Plasma endotoxin, measured by the limulus assay, rose from 0.39 ± 0.07 to 0.58 ± 0.10 EU/ml at 3 hours after the high-fat/high-carbohydrate meal (47 ± 14% over baseline). LPS-binding protein rose by 34 ± 14% at 2 hours, from 10.5 ± 1.5 to 14.7 ± 2.2 μg/ml. The fibre/fruit-rich meal caused no significant change in either.<br /><strong>PM Relevance:</strong> Plasma endotoxin and LPS-binding protein are this mechanism's circulating-load readouts. They do not establish gut leakage, portal origin or a brain effect. Mononuclear NF-κB DNA binding from the same experiment is recorded on the NF-κB mechanism.</p>
+<p><span class="brs-dietary-lever-detail-k">Evidence source</span> = Ghanim et al. (2009): two parallel groups of ten healthy lean adults, BMI under 25, aged 20–50, after an overnight fast. Limulus amebocyte lysate for plasma endotoxin and an immunoassay for LPS-binding protein. [[15]](#pm-ref-15) Linked finding: PM2-F5.</p>
+<p><span class="brs-dietary-lever-detail-k">Limitations</span> =</p>
+<ul>
+<li><strong>Design:</strong> Parallel groups of ten; the paper does not describe random allocation.</li>
+<li><strong>Attribution:</strong> Several foods and the macronutrient mix differed (fat 42% versus 27%; carbohydrate 41% versus 58%). Fibre, fruit and orange juice are not isolated causes.</li>
+<li><strong>Measurement:</strong> The limulus assay and LPS-binding protein are not direct proof of gut leakage, portal origin or endotoxin bioactivity.</li>
+<li><strong>Null outcomes:</strong> Plasma CRP and TNF-α did not change after either meal.</li>
+<li><strong>Comparator:</strong> Insulin rose after both meals, and the rises were similar.</li>
+<li><strong>Other readouts:</strong> Mononuclear NF-κB DNA binding belongs to the neighbouring transcriptional mechanism. It is not this endotoxin result.</li>
+<li><strong>Translation:</strong> One acute meal in healthy lean adults. No brain or clinical benefit was measured. The absent rise is not evidence that fibre or fruit prevents endotoxin entry.</li>
+</ul>
+<p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — bounded meal comparison. The study measured this mechanism's circulating endotoxin readouts. An unresolved mechanism does not withdraw that admission. This is not a menu to prescribe.</p>
+<p><strong>Intervention SEC:</strong> Not yet assessed</p>
+</div>
+</PilotInterventionDisclosure>
+
+</div>
+</div>
+</div>
 
 </div>
 </div>
@@ -985,7 +1025,7 @@ This PM links gut-derived inputs to inflammatory tone within [BRS3(FM1)](/docs/b
 
 <ScientificFinding finding={{"id":"PM2-F4","finding_label":"Oligofructose changed permeability and circulating endotoxin in obese mice","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"A prebiotic exposure improved barrier readouts and lowered circulating LPS in obese mice; GLP-2 blockade attenuated the effects.","finding_statement":"The defined mouse exposure provides evidence for dietary state regulation, rather than proving fermentable fibre is a necessary substrate for this PM.","finding_interpretation":"This corrects the blanket assertion that no dietary exposure influenced this state. It does not approve a generic fibre requirement or a human intervention protocol.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Permeability assays, tight-junction observations and circulating LPS converge within the obese-mouse experiment. GLP-2 antagonism supports a mediated barrier pathway; fermentation or SCFA production alone would not establish it.","synthesis_limitations":"Obese-mouse intervention; plasma LPS is not a direct translocation-flux measurement. No human dose or benefit is assigned, and the tested exposure cannot be generalized to every fermentable fibre.","evidence_considered":[{"label":"Cani et al. (2009)","citation_key":"cani_glp2_endotoxemia_2009","href":"/docs/papers/BRAIN-Diet-References#cani_glp2_endotoxemia_2009","data_level":"Animal Data","exposure_context":"Obese mice receiving oligofructose, with GLP-2 pathway manipulations.","evidence_source":"bounded-external-search","directional_finding":"Improved intestinal permeability and tight-junction readouts with lower plasma LPS; GLP-2 antagonist abolished most prebiotic effects.","assessment":{"study":"Obese mice receiving oligofructose, with GLP-2 pathway manipulations.","population":"Obese mice receiving oligofructose, with GLP-2 pathway manipulations.","result":"Improved intestinal permeability and tight-junction readouts with lower plasma LPS; GLP-2 antagonist abolished most prebiotic effects.","effect_magnitude":"No human dietary effect magnitude assigned.","evidence_summary":"Improved intestinal permeability and tight-junction readouts with lower plasma LPS; GLP-2 antagonist abolished most prebiotic effects.","limitations":"Preclinical dietary state regulation, not biochemical necessity, human implementation or brain benefit. Full-dose protocol verification remains pending."},"canonical_reference":{"author_year":"Cani et al. (2009)","number":14,"anchor":"#pm-ref-14"}}],"connected_supportive_evidence":[]}} />
 
-<ScientificFinding finding={{"id":"PM2-F5","finding_label":"Tested mixed meals differ in postprandial endotoxin readouts","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"The tested fibre/fruit-rich meal did not produce the postprandial LAL/LBP increase seen after the comparison meal.","finding_summary":"The tested fibre/fruit-rich meal did not produce the postprandial LAL/LBP increase seen after the comparison meal.","finding_interpretation":"Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.","synthesis_limitations":"Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.","evidence_considered":[{"label":"Ghanim et al. (2009)","citation_key":"ghanim_increase_2009","href":"/docs/papers/BRAIN-Diet-References#ghanim_increase_2009","data_level":"Human Study","exposure_context":"910-kcal mixed meals: oatmeal/milk/orange juice/raisins/peanut butter/English muffin versus egg/sausage muffins and hash browns.","evidence_source":"bounded-external-search","directional_finding":"NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.","assessment":{"study":"910-kcal mixed meals: oatmeal/milk/orange juice/raisins/peanut butter/English muffin versus egg/sausage muffins and hash browns.","population":"Two parallel groups of ten healthy lean adults.","result":"NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.","effect_magnitude":"Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.","evidence_summary":"Mononuclear-cell NF-kB DNA binding by electrophoretic mobility shift assay; plasma LPS by LAL and LBP.","limitations":"Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.","retrieval_scope":"Primary full text Methods and Results, including assay methods and Table 1, retrieved. Random allocation was not established.","source_url":"https://pubmed.ncbi.nlm.nih.gov/19755625/"},"canonical_reference":{"author_year":"Ghanim et al. (2009)","number":15,"anchor":"#pm-ref-15"}}],"evidence_dependency":["The source-specific observations support different links; food composition, biochemical identity, intervention exposure and clinical outcomes are not interchangeable. Reuse across PMs is not independent replication."],"connected_supportive_evidence":[]}} />
+<ScientificFinding finding={{"id":"PM2-F5","finding_label":"Tested mixed meals differ in postprandial endotoxin readouts","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"The tested fibre/fruit-rich meal did not produce the postprandial LAL/LBP increase seen after the comparison meal.","finding_summary":"The tested fibre/fruit-rich meal did not produce the postprandial LAL/LBP increase seen after the comparison meal.","finding_interpretation":"Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Plasma endotoxin rose from 0.39 ± 0.07 to 0.58 ± 0.10 EU/ml at 3 hours after the high-fat/high-carbohydrate meal (47 ± 14% over baseline), and LPS-binding protein rose by 34 ± 14% at 2 hours. The fibre/fruit-rich meal caused no significant change in either.","synthesis_limitations":"Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.","evidence_considered":[{"label":"Ghanim et al. (2009)","citation_key":"ghanim_increase_2009","href":"/docs/papers/BRAIN-Diet-References#ghanim_increase_2009","data_level":"Human Study","exposure_context":"910-kcal mixed meals: oatmeal/milk/orange juice/raisins/peanut butter/English muffin versus egg/sausage muffins and hash browns.","evidence_source":"bounded-external-search","directional_finding":"Plasma endotoxin rose from 0.39 ± 0.07 to 0.58 ± 0.10 EU/ml at 3 hours after the high-fat/high-carbohydrate meal (47 ± 14% over baseline), and LPS-binding protein rose by 34 ± 14% at 2 hours. The fibre/fruit-rich meal caused no significant change in either.","assessment":{"study":"910-kcal mixed meals: oatmeal/milk/orange juice/raisins/peanut butter/English muffin versus egg/sausage muffins and hash browns.","population":"Two parallel groups of ten healthy lean adults.","result":"Plasma endotoxin rose from 0.39 ± 0.07 to 0.58 ± 0.10 EU/ml at 3 hours after the high-fat/high-carbohydrate meal (47 ± 14% over baseline), and LPS-binding protein rose by 34 ± 14% at 2 hours. The fibre/fruit-rich meal caused no significant change in either.","effect_magnitude":"Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.","evidence_summary":"Plasma LPS by limulus amebocyte lysate and LPS-binding protein by immunoassay. Mononuclear NF-kB DNA binding from the same experiment is recorded on the neighbouring NF-kB mechanism.","limitations":"Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.","retrieval_scope":"Primary full text Methods and Results, including assay methods and Table 1, retrieved. Random allocation was not established.","source_url":"https://pubmed.ncbi.nlm.nih.gov/19755625/"},"canonical_reference":{"author_year":"Ghanim et al. (2009)","number":15,"anchor":"#pm-ref-15"}}],"evidence_dependency":["The source-specific observations support different links; food composition, biochemical identity, intervention exposure and clinical outcomes are not interchangeable. Reuse across PMs is not independent replication."],"connected_supportive_evidence":[]}} />
 
 ## 5. BRS Pathways and Connections
 
