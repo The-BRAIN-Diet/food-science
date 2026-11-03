@@ -1,0 +1,290 @@
+{
+  "date": "2026-11-03",
+  "purpose": "PM3-specific SEC review requested by owner; exception to framework Pass 1 priority",
+  "methodology": "Existing D/B/P/R 0–2 rubric and secTotals caps; no new dimensions",
+  "canonicalIntegrationBlocker": null,
+  "editorialNoticeCheck": "Scite DOI lookup returned seven identities; editorialNotices fields were absent, so absence of a correction/retraction is not asserted.",
+  "records": [
+    {
+      "interventionId": "PM3-SOP-1",
+      "pmId": "BRS1-FM1-PM3",
+      "proposition": "Ascorbate added to the tested inhibitor-containing meal increases non-haem iron absorption; this is an upstream supply proposition, not a dopamine outcome.",
+      "source": "10.1093/ajcn/53.2.537",
+      "factors": {
+        "D": 2,
+        "B": null,
+        "P": null,
+        "R": null
+      },
+      "rationale": {
+        "D": "The abstract measures the exact upstream absorption endpoint.",
+        "B": "Original allocation, controls and exclusions remain unretrieved.",
+        "P": "Original paired uncertainty and complete subgroup data remain unretrieved.",
+        "R": "Independent primary studies identified, but exact-proposition appraisal remains unfinished."
+      },
+      "limitations": [
+        "No brain iron, dopamine or clinical endpoint measured.",
+        "Do not substitute a review or citation count for primary appraisal."
+      ],
+      "status": "pending appraisal",
+      "assessmentGaps": [
+        "PM3-SOP-1-assessment-methods",
+        "PM3-SOP-1-assessment-replication"
+      ],
+      "publicationStatus": "Pinned intervention-specific sidecar; existing status text updated. No new public scoring section introduced.",
+      "inheritedFindingScore": false,
+      "totals": null
+    },
+    {
+      "interventionId": "PM3-SOP-2",
+      "pmId": "BRS1-FM1-PM3",
+      "proposition": "Verified phytase dephytinisation increased iron absorption from the tested water-reconstituted cereal porridges, with material-specific exceptions.",
+      "source": "10.1093/ajcn/77.5.1213",
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 1
+      },
+      "rationale": {
+        "D": "The measured isotope endpoint matches the bounded absorption proposition.",
+        "B": "Within-participant labelled comparisons and measured phytate; sequential meal order and unreported masking leave residual concerns.",
+        "P": "Reported paired ratios support direction; small cohorts and material-dependent magnitudes prevent a precise transferable effect.",
+        "R": "Separate study cohorts within the same research programme provide partial confirmation; not independent-team replication."
+      },
+      "limitations": [
+        "No generic household soaking claim.",
+        "Milk matrices and high-tannin sorghum did not consistently respond.",
+        "No dopamine outcome."
+      ],
+      "status": "provisional appraisal",
+      "assessmentGaps": [],
+      "publicationStatus": "Pinned intervention-specific sidecar; existing status text updated. No new public scoring section introduced.",
+      "inheritedFindingScore": false,
+      "totals": {
+        "raw": 5,
+        "adjusted": 5,
+        "ceiling": 8,
+        "ordinal": true
+      }
+    },
+    {
+      "interventionId": "PM3-SOP-3",
+      "pmId": "BRS1-FM1-PM3",
+      "proposition": "Five days of 30%-energy-restricted low-fat feeding was associated with lower striatal D2/D3 PET binding potential than eucaloric baseline in adults with obesity.",
+      "source": "10.1172/jci.insight.169759",
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "rationale": {
+        "D": "Exact population, protocol and imaging endpoint are assessed, not dopamine release or benefit.",
+        "B": "Randomised diet order, supervised intake and imaging sensitivity checks; baseline always precedes restriction and incomplete scans leave residual concerns.",
+        "P": "Corrected clusters and completer checks support a bounded observation; small sample and localisation uncertainty limit magnitude/generalisation.",
+        "R": "One verified dietary PET dataset; the separate VLCD study is not replication of this precise exposure and striatal proposition."
+      },
+      "limitations": [
+        "No significant PET difference between reduced-fat and reduced-carbohydrate diets.",
+        "The separately measured food-cue fMRI comparison differs; do not merge endpoints.",
+        "Binding does not identify receptor change versus dopamine occupancy.",
+        "No therapeutic advantage established."
+      ],
+      "status": "provisional appraisal",
+      "assessmentGaps": [],
+      "publicationStatus": "Pinned intervention-specific sidecar; existing status text updated. No new public scoring section introduced.",
+      "inheritedFindingScore": false,
+      "totals": {
+        "raw": 4,
+        "adjusted": 4,
+        "ceiling": 8,
+        "ordinal": true
+      }
+    },
+    {
+      "interventionId": "PM3-SOP-4",
+      "pmId": "BRS1-FM1-PM3",
+      "proposition": "The tested approximately ten-day very-low-calorie protocol causes lower substantia-nigra D2/D3 binding potential in women with obesity.",
+      "source": "10.1002/oby.22023",
+      "factors": {
+        "D": 2,
+        "B": 0,
+        "P": 1,
+        "R": 0
+      },
+      "rationale": {
+        "D": "The exact protocol and SN imaging endpoint were measured.",
+        "B": "For a causal intervention claim, the uncontrolled before/after design leaves time, retest and concurrent changes inseparable from the diet; this is a verified critical design limitation, not missing retrieval.",
+        "P": "SN changed from 2.69 to 2.59, paired t(14)=3.24, p=.006; small sample and uncertain magnitude prevent high precision.",
+        "R": "One verified dataset; bariatric surgery and different dietary protocols are not exact replications."
+      },
+      "limitations": [
+        "Observed change is not proof of causality or improved signalling.",
+        "Other regional changes were nonsignificant trends.",
+        "Leptin association does not establish mediation.",
+        "Admission requires adjudication if presented as a recommended optimisation rather than bounded research observation."
+      ],
+      "status": "provisional appraisal",
+      "assessmentGaps": [],
+      "publicationStatus": "Pinned intervention-specific sidecar; existing status text updated. No new public scoring section introduced.",
+      "inheritedFindingScore": false,
+      "totals": {
+        "raw": 3,
+        "adjusted": 2,
+        "ceiling": 2,
+        "ordinal": true
+      }
+    },
+    {
+      "interventionId": "PM3-SOP-TEA-TIMING-1",
+      "pmId": "BRS1-FM1-PM3",
+      "proposition": "In the tested porridge/black-tea protocol, iron absorption was higher when tea was consumed one hour after rather than with the meal.",
+      "source": "10.3945/ajcn.117.161364",
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "rationale": {
+        "D": "Exact upstream isotope absorption comparison; no dopamine inference.",
+        "B": "Same-participant standardised meals and objective isotope measurements, but fixed nonrandomised sequence leaves period effects unresolved.",
+        "P": "Paired difference 2.2 percentage points, p=.046; 12 women and broad dispersion limit transferable effect size.",
+        "R": "One verified exact timing dataset; thesis, conference and journal versions are the same study."
+      },
+      "limitations": [
+        "Not green tea, optimal timing, long-term iron status or brain delivery.",
+        "Population restricted to iron-replete women."
+      ],
+      "status": "provisional appraisal",
+      "assessmentGaps": [],
+      "publicationStatus": "Pinned intervention-specific sidecar; existing status text updated. No new public scoring section introduced.",
+      "inheritedFindingScore": false,
+      "totals": {
+        "raw": 4,
+        "adjusted": 4,
+        "ceiling": 8,
+        "ordinal": true
+      }
+    },
+    {
+      "interventionId": "PM3-LP-1",
+      "pmId": "BRS1-FM1-PM3",
+      "proposition": "During the tested 40-minute supine cycling protocol, striatal raclopride binding was lower than at rest in healthy young men.",
+      "source": "10.1113/JP285173",
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "rationale": {
+        "D": "Exact exercise and PET endpoint are assessed, without inferring causal cognitive mediation.",
+        "B": "Randomised condition order and matched timing; exploratory PET analysis, exclusions and possible reference-region blood-flow effects remain.",
+        "P": "PET condition effect p=.050 in 16 men; small sample and wide correlation intervals constrain confidence in magnitude.",
+        "R": "One exact during-exercise PET experiment. Earlier post-treadmill PET was null with different timing; EMS experiments do not replicate dopamine measurement."
+      },
+      "limitations": [
+        "No sustained benefit or general exercise prescription.",
+        "Reaction-time correlation is not mediation.",
+        "Left-putamen correlation and task-accuracy outcomes were not significant."
+      ],
+      "status": "provisional appraisal",
+      "assessmentGaps": [],
+      "publicationStatus": "Pinned intervention-specific sidecar; existing status text updated. No new public scoring section introduced.",
+      "inheritedFindingScore": false,
+      "totals": {
+        "raw": 4,
+        "adjusted": 4,
+        "ceiling": 8,
+        "ordinal": true
+      }
+    },
+    {
+      "interventionId": "PM3-LP-2",
+      "pmId": "BRS1-FM1-PM3",
+      "proposition": "One night of total sleep deprivation was associated with lower ventral-striatal D2/D3 availability than rested sleep in the tested healthy men.",
+      "source": "10.1523/JNEUROSCI.0045-12.2012",
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": null
+      },
+      "rationale": {
+        "D": "Exact acute sleep comparison and PET endpoint.",
+        "B": "Randomised session order and observed sleep conditions; unrecorded wakefulness prompts and mental-state effects remain.",
+        "P": "Small sample and region-dependent findings; reported binding difference supports direction but not a precise habitual-sleep prescription.",
+        "R": "Related 2008 study recovered, but cohort overlap/independence requires verification before a replication factor is finalised."
+      },
+      "limitations": [
+        "Receptor downregulation is an interpretation, not uniquely measured mechanism.",
+        "No recommended sleep-duration trial."
+      ],
+      "status": "pending appraisal",
+      "assessmentGaps": [
+        "PM3-LP-2-assessment-replication"
+      ],
+      "publicationStatus": "Pinned intervention-specific sidecar; existing status text updated. No new public scoring section introduced.",
+      "inheritedFindingScore": false,
+      "totals": null
+    }
+  ],
+  "assessmentIssues": [
+    {
+      "id": "PM3-SOP-1-assessment-methods",
+      "interventionId": "PM3-SOP-1",
+      "dimensions": [
+        "B",
+        "P"
+      ],
+      "source": "10.1093/ajcn/53.2.537",
+      "status": "pending",
+      "attempts": [
+        "Scite read_fulltext: abstract only",
+        "DOI/PubMed and targeted full-text search: original methods not recovered"
+      ],
+      "resolution": "Obtain original methods/results and assess allocation, sequence, exclusions and paired uncertainty."
+    },
+    {
+      "id": "PM3-SOP-1-assessment-replication",
+      "interventionId": "PM3-SOP-1",
+      "dimensions": [
+        "R"
+      ],
+      "status": "pending",
+      "source": "10.1093/ajcn/39.4.577",
+      "attempts": [
+        "Independent Hallberg meal study identified; abstract inspected"
+      ],
+      "resolution": "Appraise primary full text and exact proposition compatibility; distinguish meal absorption from clinical iron therapy."
+    },
+    {
+      "id": "PM3-LP-2-assessment-replication",
+      "interventionId": "PM3-LP-2",
+      "dimensions": [
+        "R"
+      ],
+      "status": "pending",
+      "source": "10.1523/JNEUROSCI.1443-08.2008",
+      "attempts": [
+        "2008 and 2012 original papers recovered through NCBI BioC"
+      ],
+      "resolution": "Verify participant independence and matching endpoints before assigning replication credit."
+    }
+  ],
+  "scientificReviewFlags": [
+    {
+      "finding": "PM3-F11",
+      "issue": "Existing synthesis uses isocaloric without clarifying 30% restriction versus baseline and omits nonsignificant RF–RC PET contrast. SOP corrected; Finding and historical assessments deliberately unchanged pending its separate evidence-specific correction."
+    }
+  ],
+  "dominance": "No principal intervention route established by these heterogeneous endpoint studies. Dietary-first remains editorial placement; Diet-Supported qualification preserved.",
+  "canonicalIntegration": {
+    "date": "2026-11-03",
+    "existingSnapshotsPreserved": 103,
+    "newSnapshots": 7,
+    "publicSection4Scores": "Not projected; existing intervention status text only"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "atom_id": "PM1-SOP-NORI-B12-1",
+  "pm_id": "BRS2-FM1-PM1",
+  "intervention": "Tested roasted-nori daily protocol",
+  "interventionType": "dietary protocol",
+  "biologicalRelationship": {
+    "moa": {
+      "status": "identified",
+      "description": "The measured active B12 provides an established methionine-synthase cofactor precursor; uptake and intracellular cofactor conversion were not directly traced.",
+      "evidenceQualification": "Food-supply connection supported; mediation of the homocysteine change was not isolated.",
+      "summary": "Dietary vitamin B12 provision",
+      "mechanismRef": "docs/substances/nutrients/micronutrients/vitamins/vitamin-b12.md",
+      "semanticReview": {
+        "status": "reviewed",
+        "rationale": "Summary is limited to measured food provision of B12, not demonstrated intracellular conversion or causal mediation of homocysteine. Existing description and qualifications retained."
+      }
+    },
+    "measuredEffect": "At 5 g/day, serum B12 and holoTC rose, homocysteine fell, and the combined B12-status index improved versus control after baseline adjustment.",
+    "pmRelevance": "Upstream B12 supply; not direct methionine-synthase flux."
+  },
+  "evidenceSource": {
+    "citation_key": "food_composition_d353427cdc28",
+    "doi": "10.1007/s00394-024-03505-9",
+    "population": "30 vegetarians, 20–50 years, without recent B12 supplements",
+    "design": "Open-label randomised parallel comparison",
+    "exposure": "5 or 8 g/day tested unflavoured roasted nori for four weeks; actual trial-batch B12 approximately 1.9/3.1 µg/day",
+    "comparator": "No nori; usual diet maintained"
+  },
+  "limitations": [
+    {
+      "type": "null",
+      "text": "Between-group MMA and folate changes were not significant; no significant advantage of 8 over 5 g."
+    },
+    {
+      "type": "material",
+      "text": "Product B12 varies; not all seaweed is equivalent."
+    },
+    {
+      "type": "clinical",
+      "text": "Did not eliminate deficiency in all participants; no replacement for established deficiency treatment."
+    },
+    {
+      "type": "generalisability",
+      "text": "Small, short, unblinded study; no tissue flux or clinical benefit measured."
+    }
+  ],
+  "interventionAdmitted": "Yes",
+  "secStatus": "Not yet assessed",
+  "candidateOrigin": "Existing nori food-page original reference",
+  "adjudication": {
+    "eligibility": "Evidence supports a bounded dietary protocol through the admitted B12 supply relationship.",
+    "implementation_status": "Implemented; MDX, protected fields, presentation, governance and browser six-atom checks passed; final production rebuild pending",
+    "food_identity": "docs/foods/nori.md",
+    "material": "Studied roasted purple-laver product; no new quantitative composition edge"
+  }
+}

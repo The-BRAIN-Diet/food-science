@@ -997,6 +997,7 @@ kc_adjudication_history:
     review_record: system/kc-unresolved-decisions-reconciliation.md
 system_optimisation_practices:
   - atom_id: PM1-SOP-DEFERRED-1
+    sec_status: Not yet assessed
     input: Minced rather than intact beef in the tested older-adult meal
     input_type: food preparation/delivery practice
     biological_role: The tested texture change increased six-hour appearance of dietary phenylalanine in ten older men.
@@ -1016,6 +1017,7 @@ system_optimisation_practices:
     food_strategy_scope: food-preparation
     food_strategy_id: food-strategy-6d9c0fa97324
   - atom_id: PM1-SOP-COOKED-EGG-1
+    sec_status: Not yet assessed
     input: Boiled rather than raw eggs in the tested postexercise meal
     input_type: food preparation/delivery practice
     biological_role: >-
@@ -1101,6 +1103,9 @@ intervention_dominance_assessment:
           windows, source, dose and population. No universal optimum or brain effect.
 sidebar_label: BRS1-1-1 — Amino-Acid Availability & Prioritisation
 ---
+
+import PilotInterventionDisclosure from "@site/src/components/PilotInterventionDisclosure";
+
 import ScientificFinding from '@site/src/components/ScientificFinding';
 
 <p class="brs-pm-thumbnail-wrap">
@@ -1211,59 +1216,9 @@ Food protein supplies indispensable amino acids—the amino acids the body canno
 <strong>Food Preparation &amp; Delivery</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<div id="pm1-sop-deferred-1" data-pm-intervention-id="PM1-SOP-DEFERRED-1">
+<PilotInterventionDisclosure id="pm1-sop-deferred-1" title="Minced beef → ↑ dietary phenylalanine appearance" mechanism="Physical disruption of the food matrix"><div><div><div class="brs-dietary-lever-detail-inner"><p><span class="brs-dietary-lever-detail-k">Intervention</span> = <a href="/docs/foods/beef" target="_blank" rel="noopener">Minced rather than intact beef in the tested older-adult meal</a></p><p><span class="brs-dietary-lever-detail-k">Intervention type</span> = food preparation/delivery practice</p><p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Mincing physically disrupts the beef matrix and may facilitate digestive release and absorption. The preparation comparison supports a texture-related effect, but does not isolate this process as the causal mediator of the measured phenylalanine appearance. Evidence status: Mechanistic interpretation; mediator not isolated<br /><strong>Measured Effect:</strong> The tested texture change increased six-hour appearance of dietary phenylalanine in ten older men. See <a href="/docs/substances/nutrients/macronutrients/amino-acids/essential/phenylalanine" target="_blank" rel="noopener">phenylalanine</a>.<br /><strong>PM Relevance:</strong> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation" target="_blank" rel="noopener">BRS1-FM1-PM1</a> — An upstream preparation effect relevant to circulating amino-acid provision; not evidence of brain precursor delivery.</p><p><span class="brs-dietary-lever-detail-k">Evidence source</span> = <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation#pm-ref-22" target="_blank" rel="noopener">[22]</a><br /><strong>Study Context:</strong> 135 g beef; ten older men; controlled crossover; six-hour dietary phenylalanine appearance.</p><p><span class="brs-dietary-lever-detail-k">Limitations</span> = <ul><li><strong>Population:</strong> Ten older men, one 135 g beef meal.</li><li><strong>Endpoint:</strong> Dietary phenylalanine appearance, not brain delivery.</li><li><strong>Null outcomes:</strong> No detectable difference in total plasma essential amino acids or muscle protein synthesis.</li></ul></p><p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — existing canonical SOP record</p><aside class="brs-dietary-confidence"><p><strong>Intervention confidence: not assigned</strong> — rubric pending adjudication.</p></aside></div></div></div></PilotInterventionDisclosure>
 
-**Minced versus intact beef — dietary phenylalanine appearance**
-
-In a controlled crossover study of ten older men, minced beef increased six-hour dietary phenylalanine appearance compared with intact beef.
-
-Human intervention · Ten older men · 135 g beef
-
-References [[22]](#pm-ref-22)
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Evidence &amp; limitations</strong>
-</button>
-<div class="brs-fm-hub-panel" id="pm1-sop-deferred-1-evidence" hidden>
-
-Total plasma essential-amino-acid concentrations and muscle protein synthesis did not differ detectably. This does not establish greater brain precursor delivery or universal superiority of minced beef.
-
-Mechanistic connection: [SF5](#pm1-f5). This link identifies the PM mechanism; it does not transfer that Finding’s SEC assessment to this intervention. Original study references: [[22]](#pm-ref-22).
-
-</div>
-</div>
-</div>
-</div>
-
-<div id="pm1-sop-cooked-egg-1" data-pm-intervention-id="PM1-SOP-COOKED-EGG-1">
-
-**Cooked versus raw eggs — protein digestibility and circulating amino-acid concentrations**
-
-In healthy resistance-trained young men, five boiled eggs produced higher peak circulating essential-amino-acid concentrations than five raw eggs after exercise.
-
-Human intervention · 45 young men · Five boiled versus five raw eggs after exercise
-
-References [[24]](#pm-ref-24) [[25]](#pm-ref-25)
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Evidence &amp; limitations</strong>
-</button>
-<div class="brs-fm-hub-panel" id="pm1-sop-cooked-egg-1-evidence" hidden>
-
-The earlier study in five ileostomy patients measured true ileal protein digestibility, not circulating amino-acid appearance. The postexercise study measured plasma concentrations, not dietary appearance flux. Neither establishes greater brain delivery, a daily five-egg prescription or a muscle-protein-synthesis advantage.
-
-Mechanistic connection: [SF1](#pm1-f1). This link identifies the PM mechanism; it does not transfer that Finding’s SEC assessment to this intervention. Original study references: [[24]](#pm-ref-24) [[25]](#pm-ref-25).
-
-</div>
-</div>
-</div>
-</div>
+<PilotInterventionDisclosure id="pm1-sop-cooked-egg-1" title="Boiled eggs → ↑ peak circulating essential amino acids" mechanism="Heat-induced protein denaturation"><div><div><div class="brs-dietary-lever-detail-inner"><p><span class="brs-dietary-lever-detail-k">Intervention</span> = <a href="/docs/foods/eggs" target="_blank" rel="noopener">Boiled rather than raw eggs in the tested postexercise meal</a></p><p><span class="brs-dietary-lever-detail-k">Intervention type</span> = food preparation/delivery practice</p><p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Heating can denature egg proteins and alter their digestive accessibility. A separate ileal study supports improved digestibility of cooked egg protein. Denaturation itself was not isolated as the mediator of the postexercise circulating amino-acid response. Evidence status: Mechanistic interpretation; mediator not isolated<br /><strong>Measured Effect:</strong> Five boiled eggs produced higher peak circulating essential-amino-acid concentrations than five raw eggs after exercise. Separately, the ileostomy study measured greater true ileal digestibility of cooked egg protein.<br /><strong>PM Relevance:</strong> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation" target="_blank" rel="noopener">BRS1-FM1-PM1</a> — An upstream preparation effect relevant to circulating amino-acid provision; not evidence of brain precursor delivery.</p><p><span class="brs-dietary-lever-detail-k">Evidence source</span> = <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation#pm-ref-24" target="_blank" rel="noopener">[24]</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation#pm-ref-25" target="_blank" rel="noopener">[25]</a><br /><strong>Study Context:</strong> Five boiled versus five raw eggs after resistance exercise; 45 trained young men. Separate digestibility study: five ileostomy patients.</p><p><span class="brs-dietary-lever-detail-k">Limitations</span> = <ul><li><strong>Population:</strong> 45 healthy resistance-trained young men; five eggs after exercise.</li><li><strong>Endpoint:</strong> Plasma concentration is not dietary appearance flux or neuronal availability.</li><li><strong>Separate study:</strong> Ileal digestibility was measured in five ileostomy patients, not the postexercise cohort.</li><li><strong>Translation:</strong> No daily five-egg prescription or demonstrated muscle-protein-synthesis advantage.</li></ul></p><p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — existing canonical SOP record</p><aside class="brs-dietary-confidence"><p><strong>Intervention confidence: not assigned</strong> — rubric pending adjudication.</p></aside></div></div></div></PilotInterventionDisclosure>
 
 </div>
 </div>

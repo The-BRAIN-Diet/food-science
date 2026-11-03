@@ -43,6 +43,20 @@
       "source": "10.1016/S0926-6410(01)00106-9",
       "source_verification": "Full primary article inspected",
       "disposition": "Mechanistic candidate; protocol applicability and linkage adjudication pending"
+    },
+    {
+      "candidate_id": "PM1-FOOD-REUSE-SOY-FERMENTATION",
+      "pm_id": "BRS1-FM1-PM1",
+      "initial_discovery_origin": "existing BRAIN food page",
+      "food_page": "docs/foods/tempeh.md",
+      "practice": "Fermentation to improve protein availability",
+      "source": "10.1038/s41598-021-93451-x",
+      "source_verification": "Scite full-text results and methods inspected; source field fulltext. Editorial notices not returned, not independently cleared.",
+      "citation": "Ketnawa, S., & Ogawa, Y. (2021). In vitro protein digestibility and biochemical characteristics of soaked, boiled and fermented soybeans. Scientific Reports, 11, 14257.",
+      "food_state": "Dehulled soybeans, soaked 18 h, pressure-cooked about 120 C for 90 min, then Bacillus natto incubation 40 C for 18 h; not tempeh.",
+      "endpoint": "TCA-soluble peptide-based digestibility and amino acids after static simulated digestion; not absorbed human amino acids.",
+      "disposition": "Defer the proposed tempeh amino-acid-delivery SOP: different fermentation and no established translation from assay to systemic availability. Not a rejection of fermentation science or a blanket human-trial rule.",
+      "food_page_update_opportunity": "Tempeh fermentation/digestibility claim needs tempeh-specific original evidence; LAB vitamin-production review is not evidence of that amino-acid intervention."
     }
   ]
 }

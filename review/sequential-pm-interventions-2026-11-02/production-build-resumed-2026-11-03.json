@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "evidence": "Docusaurus SUCCESS Generated static files",
+  "log": "/tmp/brain-pm3-sec-build-resumed.log",
+  "output": "/tmp/brain-pm3-sec-build",
+  "html_files": 1154,
+  "node_options": "--max-old-space-size=4096",
+  "terser_parallel": 1,
+  "persistent_cache": false,
+  "warnings": "Broken reference anchors reported; not repaired by this build",
+  "scope": "Build before subsequent PM7 presentation edit; PM7 separately MDX and presentation-contract validated"
+}

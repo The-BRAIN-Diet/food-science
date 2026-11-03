@@ -35,7 +35,9 @@
       "scope": "food-preparation",
       "category": "food_prep",
       "relationship_ids": [
-        "BRS1-FM1-PM3::PM3-SOP-2"
+        "BRS1-FM1-PM3::PM3-SOP-2",
+        "BRS1-FM1-PM4::PM4-SOP-PHYTASE-1",
+        "BRS1-FM1-PM5::PM5-SOP-PHYTASE-1"
       ]
     },
     {
@@ -427,7 +429,7 @@
       "input_type": "targeted dietary protocol",
       "scope": "dietary-protocol",
       "category": "dietary_protocols",
-      "biological_role": "Five days of selective isocaloric fat restriction reduced striatal D2/D3 receptor binding potential and food-cue activity in adults with obesity; selective carbohydrate restriction did not produce the same change.",
+      "biological_role": "After five days of dietary-fat restriction providing 30% fewer calories than baseline, striatal D2/D3 binding potential was lower than at baseline in adults with obesity. The PET comparison between the equally calorie-restricted fat and carbohydrate diets was not significant; the separately measured food-cue fMRI response differed between diets.",
       "evidence": {
         "finding_ids": [
           "PM3-F11"
@@ -463,6 +465,56 @@
       },
       "limitation": "The uncontrolled study involved 15 women with obesity and cannot establish whether the imaging change reflects altered receptor availability or endogenous dopamine occupancy.",
       "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#system_optimisation_practices/PM3-SOP-4",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS1-FM1-PM4::PM4-SOP-PHYTASE-1",
+      "strategy_id": "food-strategy-c8d6c2de9a7c",
+      "brs": "BRS1",
+      "fm": "BRS1(FM1)",
+      "pm": "BRS1-FM1-PM4",
+      "pm_page": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation",
+      "input": "Use validated phytate-reducing preparation methods for high-phytate cereals",
+      "input_type": "food preparation/delivery practice",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "biological_role": "Improved non-haem iron absorption from responsive water-reconstituted cereal matrices supports upstream iron provision for the shared iron-dependent tyrosine-hydroxylase step in noradrenaline synthesis.",
+      "evidence": {
+        "finding_ids": [
+          "PM4-F2"
+        ],
+        "citation_keys": [
+          "hurrell_phytic_2003"
+        ]
+      },
+      "limitation": "Small human isotope-absorption studies; results depended on the cereal, tannins and reconstitution medium. No human brain iron, noradrenaline, attention or clinical endpoint. This does not establish an ordinary household soaking method.",
+      "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#system_optimisation_practices/PM4-SOP-PHYTASE-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS1-FM1-PM5::PM5-SOP-PHYTASE-1",
+      "strategy_id": "food-strategy-c8d6c2de9a7c",
+      "brs": "BRS1",
+      "fm": "BRS1(FM1)",
+      "pm": "BRS1-FM1-PM5",
+      "pm_page": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation",
+      "input": "Use validated phytate-reducing preparation methods for high-phytate cereals",
+      "input_type": "food preparation/delivery practice",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "biological_role": "Improved non-haem iron absorption from responsive water-reconstituted cereal matrices supports upstream iron provision for the shared iron-dependent tryptophan-hydroxylase step in serotonin synthesis.",
+      "evidence": {
+        "finding_ids": [
+          "PM5-F2"
+        ],
+        "citation_keys": [
+          "hurrell_phytic_2003"
+        ]
+      },
+      "limitation": "Small human isotope-absorption studies; results depended on the cereal, tannins and reconstitution medium. No human brain iron, serotonin, attention or clinical endpoint. This does not establish an ordinary household soaking method.",
+      "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#system_optimisation_practices/PM5-SOP-PHYTASE-1",
       "food_ids": [],
       "substance_ids": []
     },
@@ -1255,6 +1307,16 @@
     },
     {
       "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS1-FM1-PM4::PM4-SOP-PHYTASE-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS1-FM1-PM5::PM5-SOP-PHYTASE-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
       "relationship_id": "BRS1-FM5-PM12::PM12-SOP-1",
       "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
     },
@@ -1406,8 +1468,8 @@
   ],
   "summary": {
     "strategies": 34,
-    "relationships": 36,
-    "pms": 17,
+    "relationships": 38,
+    "pms": 19,
     "brs": [
       "BRS1",
       "BRS3",

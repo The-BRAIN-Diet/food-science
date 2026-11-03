@@ -1,0 +1,239 @@
+Sleep Deprivation Decreases [11C]Raclopride’s Binding to Dopamine D2/D3 Receptors in the Human Brain
+
+Sleep deprivation can markedly impair human performance contributing to accidents and poor productivity. The mechanisms underlying this impairment are not well understood but brain dopamine systems have been implicated. Here we test whether one night of sleep deprivation changes dopamine brain activity. We studied fifteen healthy subjects using positron emission tomography and [11C]raclopride (dopamine D2/3 receptor radioligand) and [11C]cocaine (dopamine transporter radioligand). Subjects were tested twice; after one night of rested sleep and after on night of sleep deprivation. [11C]Raclopride’s specific binding in striatum and thalamus were significantly reduced after sleep deprivation and the magnitude of this reduction correlated with increases in fatigue (tiredness and sleepiness) and with deterioration in cognitive performance (visual attention and working memory). In contrast sleep deprivation did not affect the specific binding of [11C]cocaine in striatum. Since [11C]raclopride competes with endogenous dopamine for binding to D2/D3 receptors, we interpret the decreases in binding to reflect dopamine increases with sleep deprivation. However, we can not rule out the possibility that decreased [11C]raclopride binding reflects decreases in receptor levels or affinity. Sleep deprivation did not affect dopamine transporters (target for most wake-promoting medications) and thus dopamine increases are likely to reflect increases in dopamine cell firing and/or release rather than decreases in dopamine reuptake. Inasmuch as dopamine-enhancing drugs increase wakefulness we postulate that dopamine increases after sleep deprivation is a mechanism by which the brain maintains arousal as the drive to sleep increases but one that is insufficient to counteract behavioral and cognitive impairment.
+
+Across species, the drive to maintain a regular sleep-wake cycle is profound. Disruption of the sleep-wake cycle adversely affects an individual’s daily performance, safety and health. The public health implications of sleep deprivation (SD) are enormous and include the deleterious health consequences of SD, which is associated with risks for a wide variety of medical conditions (e.g., hypertension, obesity, diabetes, depression, and compromised immunological function). SD also accounts for 20% of all serious car accidents, which is equivalent to those attributed to alcohol. Accidents associated with SD are partially attributed to fatigue related performance failures. Indeed, SD adversely affects cognitive performance interfering with attention and reaction time. This can impair judgment and decision-making. The mechanisms associated with impaired cognitive function with SD are poorly understood.
+
+Multiple neurotransmitters are implicated in regulating the sleep/wake cycle. Dopamine’s (DA) role has been controversial since electrical activity of DA cells does not change during the wake/sleep cycle. However, there is increasing evidence of DA’s importance in sleep-wake states including the fact that medications used to maintain wakefulness increase brain DA activity. Moreover, patients with Parkinson’s disease who have degeneration of DA pathways suffer from sleep disturbances including excessive daytime sleepiness. Also mutations in the gene that encodes for the dopamine transporter (main molecular target that regulates extracellular DA concentration in brain) in the fly markedly reduce sleeps. However, the effects of SD on DA activity in the human brain and its relationship to cognitive performance have not been evaluated.
+
+We therefore set to assess the effects of SD on DA neurotransmission in the human brain and its relationship to cognitive performance. We used PET and [11C]raclopride, a radiotracer that is sensitive to competition with endogenous DA to measure changes in DA, and [11C]cocaine to measure DA transporters (DAT) during non-sleep deprivation (non-SD) and after one night of SD. We measured DAT since they regulate extracellular DA and are the targets of medications used to promote wakefulness. Moreover, because the cell surface expression of DAT can be rapidly regulated (minutes) this could be a mechanism for modulating DA neurotransmission. We measured performance on visual attention (VA) and working memory (WM), which are tasks sensitive to SD. Our working hypotheses were: (1) SD would result in DA increases (evidenced by decreases in D2 receptor availability) to maintain arousal; (2) DA increases would correlate with behavioral reports of fatigue (tiredness, desire to sleep, decreases in rested) and with cognitive performance; (3) SD would result in DAT downregulation to enhance DA neurotransmission.
+
+Methods
+
+Subjects
+
+Fifteen healthy, non-smoking, right-handed men (means ±SD: age 32±8 years, education: 16±2 years) participated in the study. Participants were screened carefully with a detailed medical history, physical and neurological examination, EKG, Breath CO, routine blood tests and urinalysis, and urine toxicology for psychotropic drugs to ensure they fulfilled inclusion and exclusion criteria. Inclusion criteria were: 1) ability to understand and give informed consent; and 2) 18–50 years of age. Exclusion criteria were: 1) urine positive for psychotropic drugs; 2) present or past history of dependence on alcohol or other drugs of abuse (including current dependence on nicotine); 3) present or past history of neurological or psychiatric disorder; 4) use of psychoactive medications in the past month (i.e., opiate analgesics, stimulants, sedatives); 5) use of prescription (non-psychiatric) medication(s), i.e., antihistamines; 6) medical conditions that may alter cerebral function; 7) cardiovascular and metabolic diseases; 8) history of head trauma with loss of consciousness of more than 30 minutes; 9) history of sleep disorders (if they responded affirmatively to having problems falling asleep, staying asleep, feeling tired upon wakening, and/or required medications to help them sleep and/or if they had a past or present history of sleep apnea or restless leg syndrome; and 10) work that required shift-hours. Subjects were asked to keep a diary of the number of hours slept per night for the 2 weeks duration of the study (from evaluation to completion of PET scans) and this corresponded to an average of 7 ±1 hours per night; range 5–8 hours. Signed informed consents were obtained from the subjects prior to participation as approved by the Institutional Review Board at Brookhaven National Laboratory.
+
+Behavioral and cognitive Measures
+
+Subjects were asked to rate self-reports for descriptors of “desire to sleep”, “tiredness”, and “rested” on a scale of 1 to 10 where 1 being not at all and 10 being very intense. They also rated their “mood” with 1 being very low and 10 very high. Self-reports were obtained prior to radiotracer injection.
+
+Visual Attention
+
+We used a VA task. For this task subjects view a display of moving balls and used only their attention to keep track of two, three or four of ten balls that had been briefly cued. To avoid eye movements while following the balls subjects are asked to fixate on a cross at the center of the display. At the end of each trial the balls stop moving and a new set of balls is highlighted; the subject presses a button if these balls are the same as the target set.
+
+Working memory
+
+We used the “n back” WM task. For this task subjects viewed a display where single alphabetical letters were sequentially presented in random order at a rate of one per second. The subjects were instructed to press a response button whenever the current letter was the same as the current (zero-back), the one (one-back task), or the two (two-back task) before.
+
+Performance accuracy was estimated as: (successful event - false alarms) / total events. These tasks were performed after the PET scans were completed.
+
+SD and rested wakefulness (non-sleep deprivation) procedures
+
+Subjects were kept overnight at Brookhaven National Laboratory prior to their scheduled SD or non-SD session to ensure that subjects stayed awake for the SD (one night of sleep deprivation) or had a good night rest for the non-SD (mean 6.7 ±0.9 hours slept; range 5–8.5 hours) conditions. A research assistant reamined with them throughout the night to ensure that they did not fall asleep for the SD or that they slept properly for the non-SD condition. On the day of the non-SD conditions the subjects were woken up at 7 AM and brought to the imaging suit were a nurse remained with the subjects to ensure that they stayed awake throughout the study. No food was given after midnight and caffeinated beverages were discontinued for 24 hours prior to the study.
+
+Imaging
+
+PET studies were done with a Siemens HR+ tomograph (resolution 4.5×4.5×4.5 mm full width half-maximum). Each subject was tested on two separate days; one day after non-SD and another after one night of SD. The order of the conditions (non-SD or SD) was randomized to control for order effects. On each day subjects underwent two sets of scans; first a [11C]cocaine scan (performed between 10 and 11 AM; approximately 3 to 4 hours after awakening for non-SD condition and 27 to 31 hours after awakening for SD condition) followed 2 hours later by a [11C]raclopride scan (performed between 12 and 1 PM; approximately 5 to 6 hours after awakening for non-SD condition and 29 to 33 hours after awakening for SD condition). The [11C]cocaine scans were done to monitor changes in DAT and the [11C]raclopride scans to monitor changes in endogenous DA after SD. For [11C]cocaine sequential dynamic scans were started immediately after iv injection of 4–8 mCi of [11C] cocaine (specific activity > 0.2 Ci/µmol at time of injection) for a total of 60 minutes as previously described. For [11C]raclopride sequential dynamic scans were started immediately after iv injection of 4–10 mCi of [11C]raclopride (specific activity > 0.25 Ci/µmol at time of injection) for a total of 60 minutes as previously described. To ensure that subjects would not fall asleep during the study they were asked to keep their eyes open and a nurse remained by their side to ensure compliance. If the subjects closed their eyes the nurse would ask them to open them again.
+
+Image analysis and statistics
+
+Regions of interest (ROI) were obtained directly from the [11C]raclopride and [11C]cocaine images as previously described. Briefly we identified and selected the ROI on summed images (dynamic images taken from 10–54 minutes) that were resliced along the intercommisural plane (AC-PC line). The caudate, putamen and cerebellum were measured on 4, 3, and 2 planes respectively, and right and left regions were delineated. These regions were then projected to the dynamic scans to obtain concentrations of C-11 vs. time, which were used to calculate the distribution volumes using a graphical analysis technique for reversible systems that does not require arterial blood sampling. We computed the ratio of the distribution volume in caudate and putamen to that in the cerebellum. The distribution volume ratio (DVR), which corresponds to Bmax/Kd +1, was used as an estimate of D2/D3 receptor availability ([11C]raclopride images) and of DA transporter availability ([11C]cocaine images).
+
+For [11C]raclopride and for [11C]cocaine differences between non-SD and SD were tested with paired t-tests on the Bmax/Kd measures (left and right regions were averaged into one measure). Pearson product moment correlations were used to assess the association between the changes in Bmax/Kd measures for [11C]raclopride and for [11C]cocaine (SD - non-SD / non-SD × 100) and the change in the behavioral and cognitive measures (SD - non-SD). To test the two main hypotheses of the study (SD would increase DA) and that these differences would be associated with fatigue (increased desire to sleep and tiredness and decreases in rested) and deterioration in cognitive performance (visual attention and working memory tests), we set significance at p < 0.05.
+
+To corroborate the location where the changes in the specific binding of [11C]raclopride and of [11C]cocaine occurred and to assess if there were regions other than striatum where SD changed specific binding we also analyzed the distribution volume ratio images using Statistical Parametric Mapping (SPM), which enabled us to make comparisons on a pixel by pixel basis. Paired t-tests were performed to compare the non-SD and the SD conditions (p < 0.005 uncorrected, cluster threshold > 100 voxels).
+
+To assess if regions other than striatum that were identified as differing between SD and non-SD by SPM were significant we extracted ROI independently from those identified by SPM using an automated method as previously described. This automated method projects the individual’s images (distribution volume ratio images) into the Talairach brain and then uses an inverse mapping procedure to extract the coordinates of the voxels located in the thalamus and the occipital regions (as defined by the Talairach Daemon database), which were the regions identified as significant by SPM. Since these were a posteriori comparisons we set the level of significance for comparison between SD and non-SD to p < 0.005. Significance for the correlations between changes in behavioral measures and DA changes in extrastriatal regions (a posteriori analysis) was set at p < 0.005 and p < 0.05 are reported as trends. We also used SPM to compute the pixel by pixel correlations between the changes in the behavioral measures and the changes in radioligand binding, which were done to corroborate the ROI findings.
+
+Results
+
+Behavioral and cognitive effects of SD
+
+SD significantly increased self-reports for “desire to sleep” and “tired” and it significantly decreased self-reports of “rested”. Self-reports of “mood” did not differ in SD and non-SD conditions (Table 1). SD significantly decreased performance accuracy on the VA task (all difficulty levels) whereas it decreased performance on the WM task only for the zero-back level (Table 1). SD did not change reaction times in these tests (data not shown). The correlations between the SD-induced changes in the behavioral and the cognitive measures were not significant.
+
+Effects of SD on [11C]raclopride and [11C]cocaine binding
+
+SD did not change the specific binding of [11C]cocaine (Bmax/Kd measures) in caudate or putamen (Figure 1). In contrast, SD significantly decreased the specific binding of [11C]raclopride (Bmax/Kd measures) in caudate and putamen when compared with non-SD (Figure 1).
+
+The results obtained using SPM on the [11C]cocaine images (transformed to DVR) revealed no differences in striatum but showed decreases (p < 0.005) in an area in the left thalamus (t = 2.92, p < 0.002, talairach coordinates −18 −8 10). However this thalamic region did not achieve significance after correction for cluster size (p = 0.27) (Figure 2).
+
+SPM analysis of the PET [11C]raclopride images (transformed to DVR) corroborated the significant decreases in binding in striatum and also revealed decreases in thalamus (t = 4.9, p < 0.001, talairach coordinates −18 −22 0) and in a small area in the occipital cortex (t = 5.0, p < 0.001, talairach coordinates 14, −84 4). The thalamic region remained significant after cluster correction but the occipital region did not, which suggests that it most likely reflected statistical noise (Figure 2). The ROI analysis corroborated the significant decreases in Bmax/Kd in thalamus with SD (t = 3.8; p < 0.002).
+
+Correlations between changes in [11C]raclopride binding and behavior
+
+The correlation analysis between the changes in D2 receptor availability (Bmax/Kd) with SD and the changes in the behavioral self-reports were significant, showing a negative correlation of “tired” and D2 availability in caudate (r = 0.83, p < 0.0001) and putamen (r = 0.59, p <0.02). For “desire to sleep” the correlation was negative for D2 availability in caudate (r = 0.72, p < 0.003). For “rested” the correlation was positive for changes in D2 availability in caudate (r = 0.7, p < 0.002), and showed a similar trend in thalamus (r = 0.55, p < 0.04) (Figure 3). The pixel by pixel correlations done with SPM corroborated these associations; the results for the correlations with changes in “tired” (negative) and “rested” (positive) are shown in Figure 2.
+
+Correlations between changes in [11C]raclopride’s specific binding and cognitive measures
+
+The correlations between changes in D2 receptor availability and changes in performance in the VA task were significant for putamen (two and three-ball levels of difficulty) for caudate (four-ball level) and for thalamus (three levels of difficulty): the greater the changes in specific binding the greater the deterioration (Table 2). The correlations with WM were much weaker and were significant only in putamen (one-back level). Averaging the scores across the 3 levels of difficulty yielded stronger correlations both for the VA task showing significant correlations with putamen (r = 0.79, p < 0.001), thalamus (r = 0.80, p < 0.001) and caudate (r = 0.56, p < 0.05) and for WM showing significant correlations with putamen (r = 0.71, p < 0.004), and a trend in thalamus (r = 0.57, p < 0.03) (Figure 4). The correlations on the changes in [11C]raclopride’s binding between the regions were significant between caudate and putamen (r = 0.68, p < 0.006) and between caudate and thalamus (r = 0.67, p < 0.006), which would indicate that these findings do not allow us to determine if the association of the cognitive measures with the regional changes in [11C]raclopride binding were regionally specific.
+
+Discussion
+
+Here we show that SD decreased the specific binding of [11C]raclopride in striatum and thalamus but not that of [11C]cocaine and that the decreases in [11C]raclopride binding were associated with subjective measures of fatigue and with deterioration in cognitive performance.
+
+Decreases in [11C]raclopride’s binding with SD
+
+We interpret the findings of decreases in [11C]raclopride’s specific binding as an indication of increases in DA release with SD. This is consistent with findings from a pilot SPECT study in depressed patients that showed decreases in striatal binding of the D2 receptor radioligand IBZM (also sensitive to competition with endogenous DA) in five patients that reported a beneficial effect of SD in their mood, though it showed no changes in patients that did not improve. These findings are also consistent with clinical studies that used indirect measures of brain DA activity to assess SD effects. Specifically, studies measuring prolactin, which is inhibited by DA, reported significant reductions after SD and studies measuring spontaneous eye blink rate, which is considered a positive central marker of DA activity, reported increases after SD in proportion to the hours subjects had been awake. Moreover, DA increases with SD have been postulated to underlie the therapeutic effects of SD in major depression.
+
+Medications used to promote wakefulness (methylphenidate, amphetamine and modafinil) increase extracellular DA in striatum and the potency of amphetamine to maintain wakefulness is associated with its potency to increase DA in striatum. Therefore DA increases after SD could reflect a compensatory response to maintain wakefulness and counteract a rising sleep drive. Thus the correlations between decreases in [11C]raclopride’s specific binding (interpreted as DA increases) and “desire to sleep” and “tiredness” could reflect the stronger DA stimulation needed to maintain wakefulness with increasing levels of fatigue. These findings are consistent, though for the opposite state, from those reported in controls after caffeine administration, which showed that the decreases in tiredness were correlated with increases in [11C]raclopride.
+
+The notion that DA increases with SD could reflect a sleep opposing process is consistent with a sleep/wake model that posits a dual process: a sleep drive (mediated in part through adenosine accumulation in brain); and a wakefulness promoting process (circadian component mediated by the suprachiasmatic nucleus). DA activation could be one of the mechanisms through which the suprachiasmatic nucleus opposes the increased sleep drive that follows prolonged wakefulness. The suprachiasmatic nucleus could modulate DA release in striatum through thalamo-striatal projections or via direct projections into mesencephalic DA cells, where it regulates expression of tyrosine hydroxylase (rate limiting enzyme in DA synthesis). Increases in DA tone after SD could also promote arousal via its regulation of orexin/hypocretin neurons or by activation of DA cells in ventral periaqueductal gray.
+
+Contrary to our hypothesis we saw no changes in DA transporters. This suggests that DA increases with SD are driven by increased DA release but not by reduced DA reuptake into the terminal. This is consistent with studies showing that the effects of DA on sleep/wakening are modulated by mesencephalic DA cells and not by their terminals.
+
+Though medications that increase DA are used to maintain wakefulness some have proposed that increases in DA could induce sleepiness. This is because clinical studies have reported that DA agonists increase somnolence in patients with Parkinson’s disease and in controls. However, DA agonists’ effects are most likely mediated by D2 autoreceptors, which would result in DA decreases rather than increases.
+
+However, the methodology does not allow us to exclude the possibility that decreases in [11C]raclopride binding reflect a downregulation of D2 receptors and/or changes in affinity rather than DA increases. Preclinical studies on the effects of SD on striatal D2 receptor levels report increases as well as no changes; though to our knowledge none has reported decreases. However, extrapolation is limited since most of these studies evaluated REM SD rather than total SD.
+
+Changes in DA D2 receptor availability in thalamus with SD
+
+In this study we found a significant reduction in binding of [11C]raclopride in thalamus with SD. DA cells project into several thalamic nuclei and [11C]raclopride has been used to measure D2 receptors in thalamus. Thus decreases in [11C]raclopride binding could reflect changes in DA neurotransmission in thalamus with SD. The thalamus is considered a key region in modulating sleep and wakefulness and is a target of the suprachiasmatic nucleus. Changes in [11C]raclopride binding in thalamus were associated with cognitive impairment (VA and WM). This is also consistent with findings from a recent study in non-human primates that showed that the reduced metabolic activity in thalamus with SD was reverted by orexin-A (potent arousal peptide) along with the behavioral impairment. However, because [11C]raclopride’s sensitivity for measuring thalamic D2 receptors is low we interpreting this finding as preliminary. Eventhough SD is likely to have decreased CBF in thalamus this is unlikely to account for the reduction in [11C]raclopride’s specific binding in thalamus since the distribution volume (DV), which was used to estimate the distribution volume ratio (DV in thalamus to DV in cerebllum) does not depend upon CBF.
+
+Relationship between SD-induced changes in DA and cognitive performance
+
+The impairment in performance in VA (lesser degree WM) with SD is consistent with prior studies. We also show that deterioration in performance in VA (lesser degree WM) was associated with decreased [11C]raclopride binding (interpreted as DA increases). This association could reflect DA’s involvement in these tasks. Though this may seem paradoxical, since DA agonists in preclinical models have been shown to improve cognitive performance, others have shown that stimulant medication can impair performance on WM and attention tasks. Similarly, in healthy humans medications that increase DA (i.e., stimulants) can improve cognitive performance with SD but this is not always the case and in some subjects stimulants impair performance. The fact that DA stimulation in some instances improves cognitive performance but that excessive stimulation impairs it, has led some to propose a model that posits an “inverted u-shaped curve” for the relationship between DA stimulation and cognitive performance. This model proposes a lower and an upper threshold level of DA stimulation required for optimal performance. Indeed, preclinical and clinical studies have shown improvement in cognitive performance with low doses of amphetamine but impairment with higher doses.
+
+However, because DA’s modulation of WM and attention is mediated in part through the prefrontal cortex we cannot exclude the possibility that DA changes in striatum and thalamus may be an epiphenomenon (e.g., fatigue-induced increases that are proportional but not causal to the deterioration in cognitive function).
+
+Study limitations
+
+The limited sensitivity of the [11C]raclopride methodology restricted our measures to regions with relatively high concentrations of D2 receptors (striatum and thalamus), but were unable to measure regions with relatively low concentrations (prefrontal cortex). The restricted spatial resolution of PET did not allowed us to measure small regions such as the ventral periaqueductal gray where damage to DA cells results in decreased wakefulness.
+
+As discussed the [11C]raclopride method does not allow us to ascertain if changes in binding reflect changes in DA, in D2 receptor levels or in affinity.
+
+We did not obtain electroencephalographic measures, which would have provided us with quantitative measures of duration of sleep (non-SD condition) and assurance that subjects did not fall asleep (SD condition or during scanning). However, a research assistant remained with the subjects during both nights (to ensure they went to bed for the non-SD condition and that they stayed awake for the SD condition) and a nurse remained by the side of the subjects throughout all the imaging procedures to ensure that they would not fall asleep.
+
+Summary
+
+Here we show that one night of SD increases DA in striatum and thalamus. Inasmuch as DA enhancing drugs help to maintain wakefulness we postulate that the DA increases serve to maintain arousal as the drive to sleep increases.
+
+References
+
+Bidirectional dopaminergic modulation of excitatory synaptic transmission in orexin neurons
+
+L-Dopa-induced sedation: a double-blind cross-over controlled study versus triazolam and placebo in healthy volunteers
+
+Distinct contributions of glutamate and dopamine receptors to temporal aspects of rodent working memory using a clinically relevant task
+
+Ventral tegmental area: site through which dopamine D2-receptor agonists evoke behavioural and electrocortical sleep in rats
+
+Sleep deprivation effects on eye blink rate and alpha EEG power
+
+Increased spontaneous eye blink rate following prolonged wakefulness
+
+Adenosine and sleep-wake regulation
+
+Sleep Deprivation and Stimulant Task Force of the American Academy of Sleep Medicine. The use of stimulants to modify performance during sleep loss: a review by the sleep deprivation and Stimulant Task Force of the American Academy of Sleep Medicine
+
+What keeps us awake: the neuropharmacology of stimulants and wakefulness-promoting medications
+
+Methylphenidate does not improve cognitive function in healthy sleep-deprived young adults
+
+Effects of desipramine and total sleep deprivation on hormonal levels of healthy subjects
+
+Dopaminergic modulation of visual attention and working memory in the rodent prefrontal cortex
+
+Driver sleepiness and risk of serious injury to car occupants: population based case control study
+
+Systemic and nasal delivery of orexin-A (Hypocretin-1) reduces the effects of sleep deprivation on cognitive performance in nonhuman primates
+
+Neurocognitive consequences of sleep deprivation
+
+Dopaminergic control of sleep-wake states
+
+Neurobiological similarities in antidepressant sleep deprivation and psychostimulant use: a psychostimulant theory of antidepressant sleep deprivation
+
+Single photon emission computerized tomography assessment of cerebral dopamine D2 receptor blockade in depression before and after sleep deprivation--preliminary results
+
+Effect of SCN lesions on sleep in squirrel monkeys
+
+Dopamine metabolism and receptor sensitivity in rat brain after REM sleep deprivation
+
+Nigrostriatal collaterals to thalamus degenerate in parkinsonian animal models
+
+Statistical Parametric Maps in functional imaging: A general linear approach
+
+Reevaluation of the role of the dopamine transporter in dopamine system homeostasis
+
+Afferents of the ventral tegmental area in the rat-anatomical substratum for integrative functions
+
+Human neuroelectric patterns predict performance accuracy
+
+Mapping neuroreceptors at work: on the definition and interpretation of binding potentials after 20 years of progress
+
+Cellular basis of working memory
+
+Association of daytime sleepiness with nigrostriatal dopaminergic degeneration in early Parkinson's disease
+
+Rapid regulation of dopamine transporters by tyrosine kinases in rat neuronal preparations
+
+Extent and health consequences of chronic sleep loss and sleep disorders
+
+Dopamine receptors and brain function
+
+Dopaminergic effects of caffeine in the human striatum and thalamus
+
+Implication of dopaminergic mechanisms in the wake-promoting effects of amphetamine: a study of D- and L-derivatives in canine narcolepsy
+
+Nocturnal TSH and prolactin secretion during sleep deprivation and prediction of antidepressant response in patients with major depression
+
+Dopamine is a regulator of arousal in the fruit fly
+
+The relation between striatal dopamine D2/D3 receptor availability and sleep quality in healthy adults
+
+Distribution volume ratios without blood sampling from graphical analysis of PET data
+
+Identification of wake-active dopaminergic neurons in the ventral periaqueductal gray matter
+
+Effects of dextro-amphetamine on cognitive performance and cortical activation
+
+Sleep and arousal: thalamocortical mechanisms
+
+Activity of mesencephalic dopamine and non-dopamine neurons across stages of sleep and waking in the rat
+
+The involvement of dopamine in the modulation of sleep and waking
+
+Dopamine and spatial working memory in rats and monkeys: pharmacological reversal of stress-induced impairment
+
+Autoradiographic analysis of D1 and D2 dopaminergic receptors in rat brain after paradoxical sleep deprivation
+
+A study of excessive daytime sleepiness and its clinical significance in three groups of Parkinson’s disease patients taking pramipexole, cabergoline and levodopa mono and combination therapy
+
+Tracking multiple independent targets: evidence for a parallel tracking mechanism
+
+The neurotransmitters of sleep
+
+Diurnal differences in dopamine transporter and tyrosine hydroxylase levels in rat brain: dependence on the suprachiasmatic nucleus
+
+Processing efficiency of a verbal working memory system is modulated by amphetamine: an fMRI investigation
+
+Imaging endogenous dopamine competition with [11C]raclopride in the human brain
+
+A new PET ligand for the dopamine transporter: Studies in the human brain
+
+Decreased striatal dopaminergic responsiveness in detoxified cocaine-dependent subjects
+
+Expectation enhances the regional brain metabolic and the reinforcing effects of stimulants in cocaine abusers
+
+Sleep deprivation: effects on circadian rhythms of rat brain neurotransmitter receptors
+
+Quantification of muscarinic cholinergic receptors with [11C]NMPB and positron emission tomography: method development and differentiation of tracer delivery from receptor binding
+
+Figures and Tables
+
+A. Averaged brain images of the distribution volume ratio for [11C]cocaine and for [11C]raclopride at the level of the striatum for the non-sleep deprived (non-SD) and the sleep deprivation (SD) conditions. B. Bmax/Kd in caudate (CD) and putamen (PT) for [11C]cocaine (measure of DAT availability) and for [11C]raclopride (measure of D2 receptor availability) for non-SD and SD. Values represent means ± standard deviations. Comparisons correspond to paired t-tests (two tail) * p < 0.05, ** p < 0.01.
+
+Brain maps obtained with SPM showing the difference in the distribution volume ratio of [11C]cocaine and of [11C]raclopride between non-SD and SD (non-SD > SD; p < 0.005, uncorrected; cluster > 100 pixels). There were no regions where specific binding was greater for SD than for non-SD. Decreases in [11C]raclopride’s specific binding are interpreted to reflect increases in DA.
+
+A SPM maps of the correlations between changes in [11C]raclopride’s specific binding with SD (percent changes from non-SD) and changes with SD in self-reports of “tiredness” (negative correlations) and “rested” (positive correlations) with respect to non-SD condition (p < 0.005, uncorrected). B Regression slopes between the changes in [11C]raclopride’s specific binding (percent changes in Bmax/Kd from non-SD) and changes in “tiredness” in caudate (r = 0.83, p < 0.0001), putamen (r = 0.59, p <0.02) and thalamus (r= 0.34, p = 21) and for changes in “rested” and caudate (r = 0.7, p < 0.002), putamen (r = 0.49, p < 0.06) and thalamus (r = 0.55, p < 0.04) (Figure 3).
+
+Regression slopes between the changes in [11C]raclopride’s specific binding (percent changes in Bmax/Kd from non-SD) and changes in cognitive performance (SD – non-SD) for the visual attention task in caudate (r = 0.56, p < 0.05), putamen (r = 0.79, p < 0.001) and thalamus (r = 0.79, p < 0.001) and for the working memory task in putamen (r = 0.71, p < 0.004) and thalamus (r = 0.57, p < 0.03).
+
+Self-reports for behavioral descriptors and for the accuracy scores on the visual attention and the working memory tasks for the non sleep deprived (non-SD) and for the sleep deprivation (SD) conditions and significance levels for the comparisons (paired t-tests; two tail). The scores for the performance on visual attention and working memory tasks for the 3 levels of difficulty. Values represent means and standard deviations.
+
+Behaviroal Measures	Non-SD	SD	T test	 	Desire to Sleep	3.5 ±3	7.7 ±2	p < 0.001	 	Tired	3.0 ±2	6.5 ±3	p < 0.003	 	Rested	7.5 ±2	3.6 ±3	p < 0.0003	 	Mood	6.7 ±2	6.5 ±2	NS	 	Cognitive Measures				 	Visual Attention				 	two-balls	95 ±8	86 ±16	p < 0.06	 	three-balls	96 ±4	79 ±21	p < 0.009	 	four-balls	86 ±10	66 ±20	p < 0.006	 	Working Memory				 	zero-back			p < 0.04	 	one-back	99 ±2	92 ±10	NS	 	two-back			NS	 		97 ±4	94 ±8		 		86 ±7	83 ±8		 	
+
+Correlations between the changes (non-SD – SD) in the behavioral measures and the accuracy scores on the visual attention (VA) and the working memory (WM) tasks and the percent changes in [11C]raclopride’s specific binding (non-SD – SD/Non-SD × 100) in caudate, putamen and thalamus.
+
+	Caudate	Putamen	Thalamus	 	VA				 	two-balls	NS	r =0.72, p < 0.004	r =0.58, p < 0.03	 	three-balls	NS	r =0.72, p < 0.004	r =0.70, p < 0.005	 	four-balls	r= 0.53p < 0.05	NS	r =0.65, p < 0.01	 	WM				 	zero-back	NS	NS	NS	 	one-back	NS	r =0.54, p < 0.04	NS	 	two-back	NS	NS	NS	 	

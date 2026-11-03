@@ -1475,3 +1475,14 @@ PM1 is the initial presentation pilot. Its egg comparison is “Cooked versus ra
 ## Mandatory author approval for presentation changes
 
 Follow [presentation-change-control.md](presentation-change-control.md). Scientific data integration does not authorise public presentation. New substantive blocks require a proposal, representative rendered example, page-type/count scope, updated contract and explicit prior author approval. Run `npm run presentation:check`; never regenerate the baseline or invent an approval to bypass a failure. Both Dietary pathways technical panels are withdrawn across all page types; preserve their data without public projection. This rule supersedes earlier instructions permitting automatic pathway displays.
+
+## Dietary-first editorial placement — approved 2 November 2026
+
+This owner-approved rule supersedes requirements above that make routine dietary-first presentation depend on demonstrated comparative intervention dominance.
+
+- Where a PM has admitted Dietary Levers, present that group first by editorial default because the framework is diet-focused. Placement is not a claim that diet is biologically stronger, more effective or more important than SOPs or Lifestyle Levers.
+- Retain SOPs and Lifestyle Levers in their standard sections unless an explicitly justified presentation exception is approved. Do not withdraw previously approved exceptions automatically.
+- Keep scientific Intervention Dominance separate. Where comparative evidence does not establish a principal route, retain or record “No principal intervention route established”. Do not assign Diet-Dominant merely to achieve dietary-first placement or populate scientific `selected_groups` from editorial preference.
+- Admission remains evidence-governed. Dietary-first placement neither admits a candidate nor promotes biochemical-only participants. Specificity alone does not establish dominance; a defined SOP can also be specific. Empty dietary groups must not be promoted or filled artificially.
+- Routine Pass 1 presentation and paper extraction need not wait for comparative dominance adjudication. Record genuine scientific uncertainties separately and continue. Existing scores, admissions, scientific qualification labels and immutable history remain unchanged.
+- Future generator implementation must represent editorial placement separately from scientific route selection. This instruction approval does not itself confirm that the current generator implements the separation; validate before reporting rollout completion.

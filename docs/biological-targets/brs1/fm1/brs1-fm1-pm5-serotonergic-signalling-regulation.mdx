@@ -405,6 +405,8 @@ references:
   - >-
     [Harrison et al. (2015) — Light therapy and serotonin transporter binding in the anterior cingulate and
     prefrontal cortex](/docs/papers/BRAIN-Diet-References#harrison_light_serotonin_transporter_2015)
+  - "[Hurrell et al. (2003) — Phytate Degradation and Cereal Iron Absorption](/docs/papers/BRAIN-Diet-References#hurrell_phytic_2003)"
+  - "[Ahmad Fuzi et al. (2017) — Tea timing and non-haem iron absorption](/docs/papers/BRAIN-Diet-References#ahmad_fuzi_tea_timing_2017)"
 kc_applicability_adjudications:
   - kc_id: BRS1(KC1)
     ikc_id: BRS1(KC1)
@@ -447,6 +449,7 @@ candidate_cross_brs_relationships:
   - target_brs: BRS2
     relationship_scope: One-carbon metabolism and SAM-dependent conversion of serotonin toward melatonin
     status: constrained-dependency
+
 scientific_findings:
   - id: PM5-F1
     finding_label: 'Serotonin supports mood stability, inhibition and behavioural regulation'
@@ -807,6 +810,7 @@ dietary_input_assessments:
             - 'https://www.rhea-db.org/rhea/17237'
 system_optimisation_practices:
   - atom_id: PM5-SOP-LIGHT-1
+    sec_status: Not yet assessed
     input: Five-morning bright-light protocol in the studied winter context
     input_type: circadian scheduling protocol
     optimisation_category: light_circadian
@@ -826,7 +830,47 @@ system_optimisation_practices:
     reader_description: >-
       The tested protocol used 10,000 lux white light for 30 minutes at 07:00 on five mornings; it changed a
       regional transporter-binding endpoint in winter, not fall.
+  - atom_id: PM5-SOP-PHYTASE-1
+    dietary_input: true
+    optimisation_category: food_prep
+    food_strategy_scope: food-preparation
+    food_strategy_id: food-strategy-c8d6c2de9a7c
+    input: Use validated phytate-reducing preparation methods for high-phytate cereals
+    input_type: food preparation/delivery practice
+    biological_role: >-
+      Improved non-haem iron absorption from responsive water-reconstituted cereal matrices supports upstream
+      iron provision for the shared iron-dependent tryptophan-hydroxylase step in serotonin synthesis.
+    evidence_source:
+      finding_ids:
+        - PM5-F2
+      citation_keys:
+        - hurrell_phytic_2003
+    evidence_limitation: >-
+      Small human isotope-absorption studies; results depended on the cereal, tannins and reconstitution medium.
+      No human brain iron, serotonin, attention or clinical endpoint. This does not establish an ordinary
+      household soaking method.
+    claim_ceiling: dietary-provision
+  - atom_id: PM5-SOP-TEA-TIMING-1
+    dietary_input: true
+    optimisation_category: food_prep
+    input: Black tea one hour after rather than with an iron-containing porridge meal
+    input_type: food preparation/delivery practice
+    biological_role: >-
+      Higher measured non-haem iron absorption supports upstream iron provision for the shared iron-dependent
+      tryptophan-hydroxylase step in serotonin synthesis.
+    evidence_source:
+      finding_ids:
+        - PM5-F2
+      citation_keys:
+        - ahmad_fuzi_tea_timing_2017
+    evidence_limitation: >-
+      Twelve iron-replete premenopausal women; fixed nonrandomised sequence, specific porridge and black-tea
+      preparation. No brain iron, serotonin, attention or long-term iron-status endpoint. Do not generalise to
+      coffee, green tea or an optimal timing interval.
+    claim_ceiling: dietary-provision
 ---
+
+import PilotInterventionDisclosure from "@site/src/components/PilotInterventionDisclosure";
 
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -931,16 +975,58 @@ Serotonin is made in neurons when tryptophan is converted through two enzyme ste
 <strong>3.2 System Optimisation Practices</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<details data-brs-sop-category="light_circadian" data-brs-sop-populated="true">
-<summary><strong>Light &amp; Circadian Optimisation</strong></summary>
 
-Morning bright light changed a regional serotonin-transporter measurement in the winter subgroup; it did not establish a general increase in serotonin or clinical benefit. [[19]](#pm-ref-19)
 
-- Five-morning bright-light protocol in the studied winter context
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-sop-category="food_prep">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Food Preparation &amp; Delivery</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-The research exposure was 10,000 lux white light for 30 minutes at 07:00 on five mornings. The fall comparison was null. This is a bounded experimental protocol, not a universal light prescription.
 
-</details>
+<PilotInterventionDisclosure id="pm5-sop-phytase-1" title="Validated cereal phytase treatment → increased iron absorption in tested matrices" mechanism="Phytate degradation"><div class="brs-dietary-lever-detail-inner"><p><span class="brs-dietary-lever-detail-k">Intervention</span> = Use validated phytate-reducing preparation methods for high-phytate cereals</p><p><span class="brs-dietary-lever-detail-k">Intervention type</span> = food preparation/delivery practice</p><p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Phytase degrades phytate; the absorption response depends on the tested matrix and other inhibitors.<br /><strong>Measured Effect:</strong> Human isotope studies found increased absorption after verified dephytinisation in responsive water-reconstituted cereals; high-tannin sorghum and milk matrices did not consistently respond.<br /><strong>PM Relevance:</strong> Improved non-haem iron absorption from responsive water-reconstituted cereal matrices supports upstream iron provision for the shared iron-dependent tryptophan-hydroxylase step in serotonin synthesis.</p><p><span class="brs-dietary-lever-detail-k">Evidence source</span> = Hurrell et al. (2003): labelled test meals, small separate cohorts, experimentally verified phytase processing. <a href="#pm-ref-20">[20]</a> The existing <a href="#pm5-f2">shared synthesis Finding</a> supplies the mechanistic connection, not an inherited appraisal.</p><p><span class="brs-dietary-lever-detail-k">Limitations</span> = <ul><li><strong>Population and protocol:</strong> Small human isotope-absorption studies; results depended on the cereal, tannins and reconstitution medium. No human brain iron, serotonin, attention or clinical endpoint. This does not establish an ordinary household soaking method.</li><li><strong>Clinical boundary:</strong> Improved absorption is not demonstrated brain delivery or enhanced serotonergic signalling, and does not establish benefit above adequate iron status.</li></ul></p><p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — bounded upstream dietary-provision practice; not a serotonin-enhancement recommendation.</p><p><strong>Intervention SEC:</strong> Not yet assessed</p></div></PilotInterventionDisclosure>
+
+<PilotInterventionDisclosure id="pm5-sop-tea-timing-1" title="Black tea one hour after the tested meal → higher iron absorption than tea with the meal"><div class="brs-dietary-lever-detail-inner"><p><span class="brs-dietary-lever-detail-k">Intervention</span> = Black tea one hour after rather than with an iron-containing porridge meal</p><p><span class="brs-dietary-lever-detail-k">Intervention type</span> = food preparation/delivery practice</p><p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Unresolved: temporal separation changed absorption, but the trial did not isolate the causal mediator.<br /><strong>Measured Effect:</strong> In twelve iron-replete women, tea one hour after the porridge meal gave a paired 2.2-percentage-point higher estimated absorption than tea with the meal (p = .046).<br /><strong>PM Relevance:</strong> Higher measured non-haem iron absorption supports upstream iron provision for the shared iron-dependent tryptophan-hydroxylase step in serotonin synthesis.</p><p><span class="brs-dietary-lever-detail-k">Evidence source</span> = Ahmad Fuzi et al. (2017): fixed-order comparisons of water, black tea with porridge, and black tea one hour later; 55 g oats, 4 mg labelled iron, defined black-tea preparation. <a href="#pm-ref-21">[21]</a> The existing <a href="#pm5-f2">shared synthesis Finding</a> supplies the mechanistic connection, not an inherited appraisal.</p><p><span class="brs-dietary-lever-detail-k">Limitations</span> = <ul><li><strong>Population and protocol:</strong> Twelve iron-replete premenopausal women; fixed nonrandomised sequence, specific porridge and black-tea preparation. No brain iron, serotonin, attention or long-term iron-status endpoint. Do not generalise to coffee, green tea or an optimal timing interval.</li><li><strong>Clinical boundary:</strong> Improved absorption is not demonstrated brain delivery or enhanced serotonergic signalling, and does not establish benefit above adequate iron status.</li></ul></p><p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — bounded upstream dietary-provision practice; not a serotonin-enhancement recommendation.</p><p><strong>Intervention SEC:</strong> Not yet assessed</p></div></PilotInterventionDisclosure>
+
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-sop-category="light_circadian" data-brs-sop-populated="true">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Light &amp; Circadian Optimisation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+
+<PilotInterventionDisclosure id="pm5-sop-light-1" title="Five-morning bright light → lower anterior-cingulate serotonin-transporter binding in winter">
+<div class="brs-dietary-lever-detail-inner">
+<p><span class="brs-dietary-lever-detail-k">Intervention</span> = Five-morning bright-light protocol in the studied winter context: 10,000 lux white light, 30 minutes at 07:00, compared with an inactive negative ionizer.</p>
+<p><span class="brs-dietary-lever-detail-k">Intervention type</span> = circadian scheduling protocol; Light &amp; Circadian Optimisation.</p>
+<p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Unresolved. Retinal–raphe signalling and altered transporter availability were proposed, but the study did not establish the cellular mediator.<br /><strong>Measured Effect:</strong> Anterior-cingulate serotonin-transporter binding was 12% lower after light than placebo in the winter subgroup (n=10; p=0.002).<br /><strong>PM Relevance:</strong> A regional human transporter-binding endpoint concerns the reuptake component of serotonergic signalling; it does not directly measure serotonin release.</p>
+<p><span class="brs-dietary-lever-detail-k">Evidence source</span> = Harrison et al. (2015), single-blind, randomised-order, counterbalanced crossover; 19 healthy completers, four-week washout, PET after each condition. <a href="#pm-ref-19">Reference 19</a> Existing <a href="#pm5-f4">reuptake evidence</a> supplies the mechanistic connection, not an inherited intervention score.</p>
+<p><span class="brs-dietary-lever-detail-k">Limitations</span> =</p>
+<ul>
+<li><strong>Seasonal null:</strong> No significant effect in the fall group.</li>
+<li><strong>Regional null:</strong> The winter prefrontal-cortex comparison was not significant (p=0.64); exploratory regional changes did not survive multiplicity correction.</li>
+<li><strong>Population:</strong> Healthy adults, small seasonal subgroups; no universal or clinical light prescription.</li>
+<li><strong>Outcome boundary:</strong> Transporter binding is not serotonin release, mood improvement or prevention of depression. Correlations with symptom change were not statistically significant.</li>
+<li><strong>Mechanism:</strong> No demonstrated cellular mediation; sleep-change correlations were also nonsignificant.</li>
+</ul>
+<p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — bounded protocol and regional endpoint under the existing admission; no principal-route promotion.</p>
+<p><strong>Intervention SEC:</strong> Not yet assessed</p>
+</div>
+</PilotInterventionDisclosure>
+
+
+</div>
+</div>
+</div>
 
 </div>
 </div>
@@ -1265,3 +1351,6 @@ Tryptophan, B6 and iron already cover accepted precursor/cofactor roles. The ret
 
 
 - <span id="pm-ref-19">[19]</span> [Harrison et al. (2015) — Light therapy and serotonin transporter binding in the anterior cingulate and prefrontal cortex](/docs/papers/BRAIN-Diet-References#harrison_light_serotonin_transporter_2015)
+
+- <span id="pm-ref-20">[20]</span> [Hurrell et al. (2003) — Phytate Degradation and Cereal Iron Absorption](/docs/papers/BRAIN-Diet-References#hurrell_phytic_2003)
+- <span id="pm-ref-21">[21]</span> [Ahmad Fuzi et al. (2017) — Tea timing and non-haem iron absorption](/docs/papers/BRAIN-Diet-References#ahmad_fuzi_tea_timing_2017)

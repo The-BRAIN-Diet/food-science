@@ -15,3 +15,9 @@ Existing entries: none; retain canonical empty sections. No content repair requi
 Dominance: no new principal route; existing Diet-Supported label retained. Generic inhibition may be scientifically relevant elsewhere, but no ownership transfer or other PM edit made.
 
 Validation: six-atom validator and actual MDX compile pass; no canonical changes, so no new rendering behaviour. Paper example: avoid equating concentration with synthesis. Status: complete with endpoint limitations, zero new admissions.
+
+## Food-source reconciliation and final Pass 1 verification
+
+All 16 mapped B6 food-page extracts were read. Their preparation/combination evidence concerns other compounds or endpoints (iron, DHA, resistant starch, polyphenols, carotenoids, protein), not a defined B6-delivery or GAD-synthesis practice. No candidate was admitted through nutrient co-occurrence. The extraction lists the exact pages and citations; unrelated primary papers were not represented as newly appraised. The prior targeted intervention research and its endpoint-specific exclusions remain the scientific review.
+
+Both real-page 3.2 and 3.3 disclosures were opened: canonical empty-state text, no ketogenic candidate injection. MDX and intervention validation passed. Pass 1 complete with limitations; no new intervention, score, mission or dietary change.

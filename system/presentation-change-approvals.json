@@ -1,1 +1,192 @@
-[]
+[
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+    "sha256": "aaf8e1ac8bef444ae7c8c580c9b9dba705b4c254ad8d0ff6f5d33a11f06ec155",
+    "author_approval": "Implement on localhost versions of the two test PMs",
+    "approval_source": "Owner message: no implement on the localhost versions of our test PMs please; you have tested 2",
+    "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/six-atom-ux-demo-2026-11-02/brs3.html",
+    "scope": "Only BRS1-FM1-PM1 and BRS3-FM1-PM2, three existing SOP records; no global rollout or deployment"
+  },
+  {
+    "file": "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx",
+    "sha256": "08d88d19fd9742619ac80bac58c6108b4c4b54269cd7fb347a39964f1d570582",
+    "author_approval": "Implement on localhost versions of the two test PMs; owner reiterated removal of legacy Stage 2A/2B panel",
+    "approval_source": "Owner message: no implement on the localhost versions of our test PMs please; you have tested 2",
+    "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/six-atom-ux-demo-2026-11-02/brs3.html",
+    "scope": "Only BRS1-FM1-PM1 and BRS3-FM1-PM2, three existing SOP records; no global rollout or deployment"
+  },
+  {
+    "file": "src/components/PilotInterventionDisclosure.tsx",
+    "sha256": "67d41bf36c0363430008f89d8b2aff596d89bc83b120e5c0fa6d9c8a0d06c6f2",
+    "author_approval": "Owner: text should be red like 3.1.3 Glutathione precursor pool; retain black disclosure indicator",
+    "approval_source": "Owner styling correction in current chat",
+    "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/six-atom-ux-demo-2026-11-02/brs3.html",
+    "scope": "Only the two approved test PMs; plain dietary-input trigger and uncoloured atom container"
+  },
+  {
+    "file": "src/components/ScientificFinding.tsx",
+    "sha256": "c46aa8d230fea8fb711e1c83bd4eea5e9f860097762123c028f4e52dcee93cc9",
+    "author_approval": "Owner requests consecutive SF numbers on PM8 and all other PMs after retirement",
+    "approval_source": "Current chat: SF2 should not be a gap, all the other SFs should move up",
+    "proposal": "system/pm-evidence-tabs-contract.md",
+    "contract": "system/pm-evidence-tabs-contract.md",
+    "example": "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx",
+    "scope": "All PM Finding reader labels; immutable IDs and scores unchanged"
+  },
+  {
+    "file": "src/components/SecAssessment/index.tsx",
+    "sha256": "4514ef5050ce32e27345dbd6252fcb6527373514f8a355ced9ad381e9b27e5ab",
+    "author_approval": "Owner requests all records show consistent consecutive SF numbering",
+    "approval_source": "Current chat: but all records need updating (Evidence & Audit)",
+    "proposal": "system/pm-evidence-tabs-contract.md",
+    "contract": "system/pm-evidence-tabs-contract.md",
+    "example": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
+    "scope": "Active SF labels in assessment audit and evidence-gap links; historical IDs preserved"
+  },
+  {
+    "file": "src/components/EvidenceGaps/index.tsx",
+    "sha256": "d2d8d637ef649dd7256729f183c33028ed6928db64ff7330522d34ace75b684f",
+    "author_approval": "Owner requests all records show consistent consecutive SF numbering",
+    "approval_source": "Current chat: but all records need updating (Evidence & Audit)",
+    "proposal": "system/pm-evidence-tabs-contract.md",
+    "contract": "system/pm-evidence-tabs-contract.md",
+    "example": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
+    "scope": "Active SF labels in assessment audit and evidence-gap links; historical IDs preserved"
+  },
+  {
+    "file": "src/components/PmSystemOptimisationEnhancer.tsx",
+    "sha256": "2dccc9ed5f51dde6e692fe1db127a55d634145767a549a4756a42d4f13652842",
+    "author_approval": "Owner identifies non-template injected ketogenic candidate on PM9 and requests correction",
+    "approval_source": "Current PM9 3.2/3.3 presentation instruction and quoted legacy content",
+    "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
+    "scope": "Remove legacy hub candidate projection on PM9 only; data preserved"
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+    "sha256": "5289cd0b45aefab1442f377ec25bac31dd6a9e16cd8ebec44fa5c5cc7ce65e17",
+    "author_approval": "Owner: continue 64-PM SOP and Lifestyle rollout; run Pass 1",
+    "approval_source": "Current chat: Two-Pass SOP/Lifestyle Implementation Rule and ok run it please",
+    "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/six-atom-ux-demo-2026-11-02/index.html",
+    "scope": "PM3 SOP/Lifestyle Pass 1 using approved six-atom component, including evidence-qualified tea timing; no score or new public component"
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
+    "sha256": "f96a2f736fd2b8563a61a84432261978636813e1c191d46f47822c243e430c40",
+    "author_approval": "Owner: continue 64-PM SOP and Lifestyle rollout; run Pass 1",
+    "approval_source": "Current chat: Two-Pass SOP/Lifestyle Implementation Rule and ok run it please",
+    "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/six-atom-ux-demo-2026-11-02/index.html",
+    "scope": "PM4 two bounded upstream iron-provision SOPs using existing approved six-atom presentation; no new component, scoring or deployment"
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+    "sha256": "8ab505bbd68cfa98b8f84b62e95b3622bc3871537018dcff98ead8264418fdc4",
+    "author_approval": "Owner: continue 64-PM SOP and Lifestyle rollout; run Pass 1",
+    "approval_source": "Current chat: Two-Pass SOP/Lifestyle Implementation Rule and ok run it please",
+    "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/six-atom-ux-demo-2026-11-02/index.html",
+    "scope": "PM5 two independently justified upstream iron-provision practices and retained light protocol use the approved six-atom rollout; no new component or score"
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+    "sha256": "8526e048e3a6f461cbb3cf9d6eeafe18d532e7e2e00cd02c117b883aa137df99",
+    "author_approval": "Owner: continue 64-PM SOP and Lifestyle rollout; run Pass 1",
+    "approval_source": "Current chat: Two-Pass SOP/Lifestyle Implementation Rule and ok run it please",
+    "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/six-atom-ux-demo-2026-11-02/index.html",
+    "scope": "PM7 existing bounded DHA protocol adopts authorised six-atom presentation; no new component, admission, score or deployment"
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx",
+    "sha256": "71cf0d0c6a66405c3acfe09c6c00fdc7777467a91796eb275234fb35ae6c6a58",
+    "author_approval": "Owner: continue 64-PM SOP and Lifestyle rollout; run Pass 1",
+    "approval_source": "Current chat: Two-Pass SOP/Lifestyle Implementation Rule and ok run it please",
+    "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/six-atom-ux-demo-2026-11-02/index.html",
+    "scope": "PM12 existing experimental SOP and Lifestyle records use approved six-atom rollout; preserve species/endpoint boundaries; no new admission, component or score"
+  },
+  {
+    "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+    "sha256": "9ab70b9cdb11a2e547dcd2cab9fcd2b3623ec5a17be6bfb949432d4570eb5789",
+    "author_approval": "Owner: continue 64-PM SOP and Lifestyle rollout; run Pass 1",
+    "approval_source": "Current chat: Two-Pass SOP/Lifestyle Implementation Rule and ok run it please",
+    "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/six-atom-ux-demo-2026-11-02/index.html",
+    "scope": "Author-approved 64-PM SOP/Lifestyle rollout: replace unsupported legacy advice with bounded folate-preservation six-atom SOP; no new component, SF score or dietary admission"
+  },
+  {
+    "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+    "sha256": "cfc96d99064393334b4158530243a95eefaacb8ac08c7ac2c088d8719b715ec4",
+    "author_approval": "Owner: continue 64-PM SOP and Lifestyle rollout; run Pass 1",
+    "approval_source": "Current chat: Two-Pass SOP/Lifestyle Implementation Rule and ok run it please",
+    "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/six-atom-ux-demo-2026-11-02/index.html",
+    "scope": "Author-approved 64-PM SOP/Lifestyle rollout: add bounded roasted-nori dietary protocol using existing category and six-atom component; no new public component or SEC score"
+  },
+  {
+    "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+    "sha256": "ab2d5db2f2a598d55705f7805bb687e0071ba4db49c39560b76367c09bb92e1f",
+    "author_approval": "Owner: continue 64-PM SOP and Lifestyle rollout; run Pass 1",
+    "approval_source": "Current chat: Two-Pass SOP/Lifestyle Implementation Rule and ok run it please",
+    "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/six-atom-ux-demo-2026-11-02/index.html",
+    "scope": "Author-approved 64-PM SOP/Lifestyle rollout: bounded malted-oat preparation using existing six-atom component and category; no new scoring or dietary-input admission"
+  },
+  {
+    "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+    "sha256": "b786a0d6a6d790e4eb04f52ae7356bb91aa6cd0a4cdf89573e3a7accdc3d485a",
+    "author_approval": "Owner requested matching §1.1 CSS and Roasted Nori title",
+    "approval_source": "Current chat, 3 November 2026",
+    "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/sequential-pm-interventions-2026-11-02/brs2-pm1-nori-six-atoms.png",
+    "scope": "Existing category wrapper repair and nori title/qualified provision summary; no new component or admission"
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+    "sha256": "72fea76faf71d5e84114054142ded4aca0da0910db7c540db8f37717f8cf18ea",
+    "author_approval": "Owner requested consistent §1.1 CSS across updated rollout PMs",
+    "approval_source": "Current chat: not seeing it here; did you change all the PMs you did?",
+    "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/sequential-pm-interventions-2026-11-02/brs2-pm1-category-correction.png",
+    "scope": "Replace generic category details wrappers with existing §1.1 disclosure markup; retain all scientific content"
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+    "sha256": "8b801079e0abae53bc6ea0494b57acd25d4f030248a16af298047412897eb581",
+    "author_approval": "Owner requested consistent §1.1 CSS across updated rollout PMs",
+    "approval_source": "Current chat: not seeing it here; did you change all the PMs you did?",
+    "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/sequential-pm-interventions-2026-11-02/brs2-pm1-category-correction.png",
+    "scope": "Replace generic category details wrappers with existing §1.1 disclosure markup; retain all scientific content"
+  },
+  {
+    "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+    "sha256": "b44235a6f295cf25cb754dfc5a3d3e4fc1ccbd1fd3459905e71db98a1942c74c",
+    "author_approval": "Owner requested consistent §1.1 CSS across updated rollout PMs",
+    "approval_source": "Current chat: not seeing it here; did you change all the PMs you did?",
+    "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/sequential-pm-interventions-2026-11-02/brs2-pm1-category-correction.png",
+    "scope": "Replace generic category details wrappers with existing §1.1 disclosure markup; retain all scientific content"
+  }
+]

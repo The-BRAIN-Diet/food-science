@@ -1,0 +1,38 @@
+{
+  "intervention": "Steam spinach or broccoli rather than the tested boiling preparation",
+  "interventionType": "food preparation/delivery practice",
+  "atom_id": "PM1-SOP-FOLATE-STEAM-1",
+  "pm_id": "BRS2-FM1-PM1",
+  "biologicalRelationship": {
+    "moa": {
+      "status": "unresolved",
+      "description": "Avoiding immersion may reduce leaching; thermal degradation is another possible source of loss.",
+      "evidenceQualification": "Contributions were not isolated. No controlled short mechanism identity assigned."
+    },
+    "measuredEffect": "Higher total-folate retention under the tested vegetable steaming conditions than boiling.",
+    "pmRelevance": "Preservation of an admitted dietary precursor for the 5-MTHF donor; no measured human remethylation response."
+  },
+  "evidenceSource": {
+    "doi": "10.1079/BJN2002733",
+    "citation_key": "mckillop_cooking_folate_2002",
+    "exposure": "25-g raw-weight portions; typical spinach steaming/boiling 3/3.5 minutes, broccoli 10/10 minutes",
+    "design": "Three independent occasions with duplicate food portions; food-composition assay, not human feeding"
+  },
+  "limitations": [
+    {
+      "type": "endpoint",
+      "text": "Total folate retention is not absorption, 5-MTHF concentration or remethylation flux."
+    },
+    {
+      "type": "null",
+      "text": "Tested potato boiling and beef grilling did not significantly reduce folate."
+    },
+    {
+      "type": "preparation",
+      "text": "Folate preservation does not establish superiority for other objectives such as oxalate removal."
+    }
+  ],
+  "interventionAdmitted": "Yes",
+  "secStatus": "Not yet assessed",
+  "candidateOrigin": "BRAIN food-page preparation screen followed by original-paper retrieval"
+}

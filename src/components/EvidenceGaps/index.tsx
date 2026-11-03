@@ -1,3 +1,4 @@
+import {activeFindingNumber} from '../../lib/scientificFindingPresentation.mjs';
 import React from 'react';
 import {useDoc} from '@docusaurus/plugin-content-docs/client';
 import records from '../../../system/framework-qc/pm-open-issues.json';
@@ -25,14 +26,14 @@ export default function EvidenceGaps({panelId = "evidence-gaps-panel"}: {panelId
     {rows.map((row,index) => <EvidenceDisclosure key={row.id} id={row.id} label={`Evidence Gap ${index+1}`} title={row.title} status={row.disposition === 'Not admitted' ? 'Not Admitted' : undefined}>
       <p><strong>Record ID:</strong> {row.id}</p>
       <p><strong>{row.disposition === 'Not admitted' ? 'Considered exposure:' : 'What the evidence establishes:'}</strong> {row.considered}</p>
-      {row.disposition === 'Not admitted' && <ul>{(row.finding_ids || []).map(id => {const finding=findings.find(f=>f.id===id);return finding ? <li key={id}><a href={'?review=1#'+id.toLowerCase()}>{id}</a>: {finding.finding_statement}</li> : null;})}</ul>}
+      {row.disposition === 'Not admitted' && <ul>{(row.finding_ids || []).map(id => {const finding=findings.find(f=>f.id===id);return finding ? <li key={id}><a href={'?review=1#'+id.toLowerCase()}>{activeFindingNumber(data,id) ? `SF${activeFindingNumber(data,id)}` : id}</a>: {finding.finding_statement}</li> : null;})}</ul>}
       {row.cannot_establish && <p><strong>What it cannot establish:</strong> {row.cannot_establish}</p>}
       {row.affected_relationship && <p><strong>Affected relationship:</strong> {row.affected_relationship}</p>}
       <p><strong>Current boundary:</strong> {row.reason}</p>
       <p><strong>What would resolve or change the decision:</strong> {row.resolution}</p>
       {row.disposition !== 'Evidence gap' && <a href={row.href}>Evidence and decision record</a>}
       {row.finding_ids?.length > 0 && <span> Related Scientific Findings:</span>}
-      {row.finding_ids?.map((id, index) => <React.Fragment key={id}>{index > 0 ? ' · ' : ' '}<a href={'?review=1#' + id.toLowerCase()}>{id}</a></React.Fragment>)}
+      {row.finding_ids?.map((id, index) => <React.Fragment key={id}>{index > 0 ? ' · ' : ' '}<a href={'?review=1#' + id.toLowerCase()}>{activeFindingNumber(data,id) ? `SF${activeFindingNumber(data,id)}` : id}</a></React.Fragment>)}
       {row.citation_keys?.length > 0 && <p><strong>Sources:</strong> {row.citation_keys.map((key, index) => <React.Fragment key={key}>{index > 0 && ' · '}<a href={'/docs/papers/BRAIN-Diet-References#' + key}>[{index + 1}]</a></React.Fragment>)}</p>}
       {row.decision_ref && <> · <a href={'?open-issues=1#' + row.decision_ref.toLowerCase()}>Related Open Issue</a></>}
     </EvidenceDisclosure>)}

@@ -476,6 +476,11 @@ dietary_lever_presentations:
     presentation_section: 3.1.1
 system_optimisation_practices:
   - atom_id: PM3-SOP-1
+    sec_assessed_proposition: "Ascorbate added to the tested inhibitor-containing meal increases non-haem iron absorption; this is an upstream supply proposition, not a dopamine outcome."
+    sec_assessment_ref:
+      id: brs1-pm3-sop-1-intervention-assessment
+      version: 1
+      sha256: 9a36c3d4ae865ee2c0a320b8ae001719a73966cbd001651d793c40ba0dba7f68
     dietary_input: true
     food_strategy_scope: food-preparation
     food_strategy_id: food-strategy-5827fa9ef1ad
@@ -496,6 +501,11 @@ system_optimisation_practices:
       iron status or any change in dopamine biology or function.
     claim_ceiling: dietary-provision
   - atom_id: PM3-SOP-2
+    sec_assessed_proposition: "Verified phytase dephytinisation increased iron absorption from the tested water-reconstituted cereal porridges, with material-specific exceptions."
+    sec_assessment_ref:
+      id: brs1-pm3-sop-2-intervention-assessment
+      version: 1
+      sha256: 180261ffce0012d0b7dc54a8a70a4c0682c0819dc2446d17269e1db2ef206548
     dietary_input: true
     food_strategy_scope: food-preparation
     food_strategy_id: food-strategy-c8d6c2de9a7c
@@ -517,6 +527,11 @@ system_optimisation_practices:
       status; no dopamine-related outcome was measured.
     claim_ceiling: dietary-provision
   - atom_id: PM3-SOP-3
+    sec_assessed_proposition: "Five days of 30%-energy-restricted low-fat feeding was associated with lower striatal D2/D3 PET binding potential than eucaloric baseline in adults with obesity."
+    sec_assessment_ref:
+      id: brs1-pm3-sop-3-intervention-assessment
+      version: 1
+      sha256: a165caf14944a268d824345a30114bd971a6ddd7368b7d076bf81c97c1631d53
     dietary_input: true
     food_strategy_scope: dietary-protocol
     food_strategy_id: food-strategy-37391d5ecccb
@@ -525,9 +540,10 @@ system_optimisation_practices:
     presentation_label: Short-term selective dietary-fat restriction in adults with obesity under controlled conditions
     input_type: targeted dietary protocol
     biological_role: >-
-      Five days of selective isocaloric fat restriction reduced striatal D2/D3 receptor binding potential and
-      food-cue activity in adults with obesity; selective carbohydrate restriction did not produce the same
-      change.
+      After five days of dietary-fat restriction providing 30% fewer calories than baseline, striatal
+      D2/D3 binding potential was lower than at baseline in adults with obesity. The PET comparison
+      between the equally calorie-restricted fat and carbohydrate diets was not significant; the
+      separately measured food-cue fMRI response differed between diets.
     evidence_source:
       finding_ids:
         - PM3-F11
@@ -538,6 +554,11 @@ system_optimisation_practices:
       does not by itself distinguish receptor change from greater endogenous dopamine occupancy.
     claim_ceiling: acute-human-mechanistic
   - atom_id: PM3-SOP-4
+    sec_assessed_proposition: "The tested approximately ten-day very-low-calorie protocol causes lower substantia-nigra D2/D3 binding potential in women with obesity."
+    sec_assessment_ref:
+      id: brs1-pm3-sop-4-intervention-assessment
+      version: 1
+      sha256: df1d1c76a8166b1f359bf83dc072d633631e86cc347d7207ba5846e9f370c1ab
     dietary_input: true
     food_strategy_scope: dietary-protocol
     food_strategy_id: food-strategy-21ec16030a2a
@@ -557,8 +578,36 @@ system_optimisation_practices:
       The uncontrolled study involved 15 women with obesity and cannot establish whether the imaging change
       reflects altered receptor availability or endogenous dopamine occupancy.
     claim_ceiling: acute-human-mechanistic
+  - atom_id: PM3-SOP-TEA-TIMING-1
+    sec_assessed_proposition: "In the tested porridge/black-tea protocol, iron absorption was higher when tea was consumed one hour after rather than with the meal."
+    sec_assessment_ref:
+      id: brs1-pm3-sop-tea-timing-1-intervention-assessment
+      version: 1
+      sha256: 40e4cf3c2981b3b34667b0ffee505f015e1a54ef929e94d1bf364659d42bbb8e
+    dietary_input: true
+    optimisation_category: food_prep
+    input: Black tea one hour after rather than with an iron-containing porridge meal
+    input_type: food preparation/delivery practice
+    biological_role: >-
+      Improved estimated non-haem iron absorption in the tested meal; an upstream supply relationship
+      for iron-dependent tyrosine hydroxylase.
+    evidence_source:
+      finding_ids:
+        - PM3-F8
+      citation_keys:
+        - ahmad_fuzi_tea_timing_2017
+    evidence_limitation: >-
+      Small nonrandomised fixed-order study in iron-replete women. No brain iron or dopamine endpoint;
+      not a green-tea or universal timing claim.
+    claim_ceiling: dietary-provision
+
 lifestyle_priorities:
   - atom_id: PM3-LP-1
+    sec_assessed_proposition: "During the tested 40-minute supine cycling protocol, striatal raclopride binding was lower than at rest in healthy young men."
+    sec_assessment_ref:
+      id: brs1-pm3-lp-1-intervention-assessment
+      version: 1
+      sha256: 238ed442c0f4b352d65ebfa278e649217a69be897489e10e9712dda3666cd7ad
     dietary_input: false
     input: Acute voluntary cardiovascular exercise
     presentation_label: Acute voluntary cardiovascular exercise
@@ -576,6 +625,11 @@ lifestyle_priorities:
       correlational and does not establish chronic or clinical benefit.
     claim_ceiling: acute-human-mechanistic
   - atom_id: PM3-LP-2
+    sec_assessed_proposition: "One night of total sleep deprivation was associated with lower ventral-striatal D2/D3 availability than rested sleep in the tested healthy men."
+    sec_assessment_ref:
+      id: brs1-pm3-lp-2-intervention-assessment
+      version: 1
+      sha256: 3b0d5490f7cbed3f11646b7f425ca10859e0691d12b0a28f0db9ace26eb62252
     dietary_input: false
     input: Avoid acute total sleep deprivation
     presentation_label: Avoid acute total sleep deprivation
@@ -1644,6 +1698,7 @@ references:
   - >-
     [Dix and Lambooy (1981) — Brain monoamine oxidase and replacement of its coenzyme flavin in
     rats](/docs/papers/BRAIN-Diet-References#dix_brain_mao_riboflavin_1981)
+  - '[Ahmad Fuzi et al. (2017) — Tea timing and non-haem iron absorption](/docs/papers/BRAIN-Diet-References#ahmad_fuzi_tea_timing_2017)'
 kc_applicability_adjudications:
   - kc_id: BRS1(KC1)
     ikc_id: BRS1(KC1)
@@ -2158,6 +2213,9 @@ dietary_input_assessments:
         - docs/foods/pumpkin-seeds.md
 ---
 
+import PilotInterventionDisclosure from "@site/src/components/PilotInterventionDisclosure";
+
+
 <p class="brs-pm-thumbnail-wrap">
   <img
     src="/img/biological-targets/brs1-portrait-thumbnail.png"
@@ -2288,8 +2346,18 @@ Only categories with a substantive evidence-qualified intervention are shown.
 <div class="brs-fm-hub-panel" hidden>
 <p class="brs-hub-sop-category-desc">These methods can improve non-haem iron absorption from a meal. Iron is required by tyrosine hydroxylase, but these studies did not test brain iron delivery or dopamine signalling.</p>
 
-- Pair non-haem iron-containing meals with an ascorbic-acid source
-- Use validated phytate-reducing preparation methods for high-phytate cereals
+<PilotInterventionDisclosure id="pm3-sop-1" title="Ascorbate with a non-haem iron meal → increased iron absorption" mechanism="Countering meal-related inhibition of non-haem iron absorption"><div class="brs-dietary-lever-detail-inner"><p><span class="brs-dietary-lever-detail-k">Intervention</span> = Pair non-haem iron-containing meals with an ascorbic-acid source</p><p><span class="brs-dietary-lever-detail-k">Intervention type</span> = food preparation/delivery practice</p><p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Ascorbate can counter meal inhibitor effects on non-haem iron absorption; improved dopamine function was not measured.<br /><strong>Measured Effect:</strong> Ascorbic acid can counter phytate- and polyphenol-related inhibition and improve non-haem iron absorption at the meal level. Iron is a required cofactor for tyrosine hydroxylase.<br /><strong>PM Relevance:</strong> Upstream iron provision for iron-dependent tyrosine hydroxylase; not measured dopamine efficacy.</p><p><span class="brs-dietary-lever-detail-k">Evidence source</span> = <a href="#pm-ref-12">[12]</a></p><p><span class="brs-dietary-lever-detail-k">Limitations</span> = <ul><li><strong>Study boundary:</strong> Evidence supports improved non-haem iron absorption at the meal level; it does not establish improved iron status or any change in dopamine biology or function.</li><li><strong>Interpretation:</strong> Improved absorption is not demonstrated brain iron delivery or dopamine benefit.</li></ul></p><p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — existing canonical admission retained; not reapproved solely by presentation conversion.</p><p><strong>Intervention SEC:</strong> Pending appraisal</p></div></PilotInterventionDisclosure>
+<PilotInterventionDisclosure id="pm3-sop-2" title="Validated cereal phytase treatment → increased iron absorption in tested matrices" mechanism="Phytate degradation"><div class="brs-dietary-lever-detail-inner"><p><span class="brs-dietary-lever-detail-k">Intervention</span> = Use validated phytate-reducing preparation methods for high-phytate cereals</p><p><span class="brs-dietary-lever-detail-k">Intervention type</span> = food preparation/delivery practice</p><p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Phytase treatment degrades phytate; translation to absorption depends on the tested food matrix.<br /><strong>Measured Effect:</strong> Phytase treatment can reduce phytate inhibition and improve non-haem iron absorption from some cereal matrices. Iron is a required cofactor for tyrosine hydroxylase.<br /><strong>PM Relevance:</strong> Upstream iron provision for iron-dependent tyrosine hydroxylase; not measured dopamine efficacy.</p><p><span class="brs-dietary-lever-detail-k">Evidence source</span> = <a href="#pm-ref-13">[13]</a> <a href="#pm-ref-14">[14]</a></p><p><span class="brs-dietary-lever-detail-k">Limitations</span> = <ul><li><strong>Study boundary:</strong> Improved absorption was matrix-dependent and did not consistently translate into better long-term iron status; no dopamine-related outcome was measured.</li><li><strong>Interpretation:</strong> Improved absorption is not demonstrated brain iron delivery or dopamine benefit.</li></ul></p><p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — existing canonical admission retained; not reapproved solely by presentation conversion.</p><p><strong>Intervention SEC:</strong> Provisionally assessed</p></div></PilotInterventionDisclosure>
+<PilotInterventionDisclosure id="pm3-sop-tea-timing-1" title="Black tea one hour after porridge → higher estimated iron absorption"><div className="brs-dietary-lever-detail-inner">
+<p><span className="brs-dietary-lever-detail-k">Intervention</span> = <a href="/docs/foods/black-tea">Black tea</a> one hour after, compared with simultaneous consumption of an <a href="/docs/foods/oats">oat</a> porridge meal.</p>
+<p><span className="brs-dietary-lever-detail-k">Intervention type</span> = Food preparation/delivery practice.</p>
+<p><span className="brs-dietary-lever-detail-k">Biological relationship</span><br /><strong>Mechanism of Action:</strong> Temporal separation may reduce interaction between meal iron and tea inhibitors; mediation was not isolated.<br /><strong>Measured Effect:</strong> Higher fractional iron absorption estimated by erythrocyte isotope incorporation.<br /><strong>PM Relevance:</strong> Upstream iron supply for tyrosine hydroxylase; no demonstrated dopamine effect.</p>
+<p><span className="brs-dietary-lever-detail-k">Evidence source</span> = Twelve iron-replete women; labelled porridge and black tea with milk; nonrandomised fixed sequence. <a href="#pm-ref-34">[34]</a></p>
+<div><span className="brs-dietary-lever-detail-k">Limitations</span><ul><li><strong>Design:</strong> Small sample, fixed order and variable absorption.</li><li><strong>Exposure:</strong> Tested black tea and meal only; not green tea or an optimal interval.</li><li><strong>Endpoint:</strong> No brain iron, dopamine or clinical benefit measured.</li></ul></div>
+<p><span className="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — qualified upstream iron delivery.</p>
+<p><strong>Intervention SEC:</strong> Provisionally assessed</p>
+</div></PilotInterventionDisclosure>
+
 
 </div>
 </div>
@@ -2303,8 +2371,8 @@ Only categories with a substantive evidence-qualified intervention are shown.
 <div class="brs-fm-hub-panel" hidden>
 <p class="brs-hub-sop-category-desc">These short dietary protocols changed regional D2/D3 receptor binding in small studies of adults with obesity. The scans cannot show whether this reflected receptor regulation or dopamine occupancy, and the studies did not establish a clinical benefit.</p>
 
-- Short-term selective dietary-fat restriction in adults with obesity under controlled conditions
-- Short-term very-low-calorie dieting in adults with obesity
+<PilotInterventionDisclosure id="pm3-sop-3" title="Selective fat restriction → reduced striatal D2/D3 binding potential"><div class="brs-dietary-lever-detail-inner"><p><span class="brs-dietary-lever-detail-k">Intervention</span> = Short-term selective dietary-fat restriction in adults with obesity under controlled conditions</p><p><span class="brs-dietary-lever-detail-k">Intervention type</span> = targeted dietary protocol</p><p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Unresolved: the observed imaging change does not isolate the causal biological pathway. Do not substitute the PET endpoint for a mechanism.<br /><strong>Measured Effect:</strong> After five days of dietary-fat restriction providing 30% fewer calories than baseline, striatal D2/D3 binding potential was lower than at baseline. The PET difference between the equally calorie-restricted fat and carbohydrate diets was not significant. The separate food-cue fMRI response differed between diets.<br /><strong>PM Relevance:</strong> The measured striatal/substantia-nigra dopamine-related endpoint concerns the PM mission; direction of change is not automatically beneficial.</p><p><span class="brs-dietary-lever-detail-k">Evidence source</span> = <a href="#pm-ref-17">[17]</a></p><p><span class="brs-dietary-lever-detail-k">Limitations</span> = <ul><li><strong>Study boundary:</strong> Evidence comes from 17 adults with obesity in a short inpatient experiment; reduced binding potential does not by itself distinguish receptor change from greater endogenous dopamine occupancy.</li><li><strong>Interpretation:</strong> Both diets reduced energy by 30%; they were matched to each other, not to baseline. A significant within-diet PET change does not establish superiority over the other diet. The acute study does not establish a general long-term programme or therapeutic benefit.</li></ul></p><p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — existing canonical admission retained; not reapproved solely by presentation conversion.</p><p><strong>Intervention SEC:</strong> Provisionally assessed</p></div></PilotInterventionDisclosure>
+<PilotInterventionDisclosure id="pm3-sop-4" title="Short very-low-calorie diet → reduced substantia-nigra D2/D3 binding potential"><div class="brs-dietary-lever-detail-inner"><p><span class="brs-dietary-lever-detail-k">Intervention</span> = Short-term very-low-calorie dieting in adults with obesity</p><p><span class="brs-dietary-lever-detail-k">Intervention type</span> = targeted dietary protocol</p><p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Unresolved: the observed imaging change does not isolate the causal biological pathway. Do not substitute the PET endpoint for a mechanism.<br /><strong>Measured Effect:</strong> About ten days of very-low-calorie dieting reduced substantia-nigra D2/D3 receptor binding potential in women with obesity, and regional changes tracked reductions in leptin.<br /><strong>PM Relevance:</strong> The measured striatal/substantia-nigra dopamine-related endpoint concerns the PM mission; direction of change is not automatically beneficial.</p><p><span class="brs-dietary-lever-detail-k">Evidence source</span> = <a href="#pm-ref-18">[18]</a></p><p><span class="brs-dietary-lever-detail-k">Limitations</span> = <ul><li><strong>Study boundary:</strong> The uncontrolled study involved 15 women with obesity and cannot establish whether the imaging change reflects altered receptor availability or endogenous dopamine occupancy.</li><li><strong>Interpretation:</strong> The acute study does not establish a general long-term programme or therapeutic benefit.</li></ul></p><p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — existing canonical admission retained; not reapproved solely by presentation conversion.</p><p><strong>Intervention SEC:</strong> Provisionally assessed</p></div></PilotInterventionDisclosure>
 
 </div>
 </div>
@@ -2325,8 +2393,8 @@ Only categories with a substantive evidence-qualified intervention are shown.
 
 Acute exercise and one night of sleep deprivation changed specific striatal dopamine measures in small studies. The evidence does not establish long-term programmes or clinical benefit.
 
-- Acute voluntary cardiovascular exercise
-- Avoid acute total sleep deprivation
+<PilotInterventionDisclosure id="pm3-lp-1" title="Acute voluntary cycling → PET signal consistent with dopamine release"><div class="brs-dietary-lever-detail-inner"><p><span class="brs-dietary-lever-detail-k">Intervention</span> = Acute voluntary cardiovascular exercise</p><p><span class="brs-dietary-lever-detail-k">Intervention type</span> = lifestyle practice</p><p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Unresolved: the observed imaging change does not isolate the causal biological pathway. Do not substitute the PET endpoint for a mechanism.<br /><strong>Measured Effect:</strong> Voluntary mild-to-moderate cycling produced a PET signal consistent with dorsal-striatal dopamine release, which was associated with faster Go/No-Go reaction time.<br /><strong>PM Relevance:</strong> The measured striatal/substantia-nigra dopamine-related endpoint concerns the PM mission; direction of change is not automatically beneficial.</p><p><span class="brs-dietary-lever-detail-k">Evidence source</span> = <a href="#pm-ref-15">[15]</a></p><p><span class="brs-dietary-lever-detail-k">Limitations</span> = <ul><li><strong>Study boundary:</strong> Evidence is limited to a small acute study in healthy adults; the dopamine–performance association was correlational and does not establish chronic or clinical benefit.</li><li><strong>Interpretation:</strong> The acute study does not establish a general long-term programme or therapeutic benefit.</li></ul></p><p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — existing canonical admission retained; not reapproved solely by presentation conversion.</p><p><strong>Intervention SEC:</strong> Provisionally assessed</p></div></PilotInterventionDisclosure>
+<PilotInterventionDisclosure id="pm3-lp-2" title="Acute total sleep deprivation → reduced ventral-striatal D2/D3 availability"><div class="brs-dietary-lever-detail-inner"><p><span class="brs-dietary-lever-detail-k">Intervention</span> = Avoid acute total sleep deprivation</p><p><span class="brs-dietary-lever-detail-k">Intervention type</span> = lifestyle practice</p><p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Unresolved: the observed imaging change does not isolate the causal biological pathway. Do not substitute the PET endpoint for a mechanism.<br /><strong>Measured Effect:</strong> One night of total sleep deprivation reduced PET-measured ventral-striatal D2/D3 receptor availability and was associated with lower alertness in healthy adults.<br /><strong>PM Relevance:</strong> The measured striatal/substantia-nigra dopamine-related endpoint concerns the PM mission; direction of change is not automatically beneficial.</p><p><span class="brs-dietary-lever-detail-k">Evidence source</span> = <a href="#pm-ref-16">[16]</a></p><p><span class="brs-dietary-lever-detail-k">Limitations</span> = <ul><li><strong>Study boundary:</strong> Evidence concerns acute total sleep deprivation in a small healthy sample and does not establish effects of habitual sleep patterns.</li><li><strong>Interpretation:</strong> The acute study does not establish a general long-term programme or therapeutic benefit.</li></ul></p><p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — existing canonical admission retained; not reapproved solely by presentation conversion.</p><p><strong>Intervention SEC:</strong> Pending appraisal</p></div></PilotInterventionDisclosure>
 
 </div>
 </div>
@@ -2590,4 +2658,5 @@ Iron, B6, tyrosine and upstream phenylalanine/methyl-donor relationships already
 - <span id="pm-ref-31">[31]</span> [Møller et al. (2000) — Human Phenylalanine-to-Tyrosine Conversion](/docs/papers/BRAIN-Diet-References#moller_phenylalanine_tyrosine_2000)
 - <span id="pm-ref-32">[32]</span> [Wurtman et al. (1974) — Precursor Supply and Brain DOPA Synthesis](/docs/papers/BRAIN-Diet-References#wurtman_brain_catechol_synthesis_1974)
 - <span id="pm-ref-33">[33]</span> [Dix and Lambooy (1981) — Brain monoamine oxidase and replacement of its coenzyme flavin in rats](/docs/papers/BRAIN-Diet-References#dix_brain_mao_riboflavin_1981)
+- <span id="pm-ref-34">[34]</span> [Ahmad Fuzi et al. (2017) — Tea timing and non-haem iron absorption](/docs/papers/BRAIN-Diet-References#ahmad_fuzi_tea_timing_2017)
 

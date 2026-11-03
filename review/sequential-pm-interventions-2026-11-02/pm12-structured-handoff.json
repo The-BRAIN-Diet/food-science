@@ -1,0 +1,256 @@
+[
+  {
+    "atom_id": "PM12-SOP-1",
+    "pm_id": "BRS1-FM5-PM12",
+    "intervention": "Experimental DHA–UMP co-supplementation",
+    "interventionType": "defined dietary exposure",
+    "biologicalRelationship": {
+      "moa": {
+        "status": "unresolved",
+        "description": "Membrane-precursor provision is a proposed explanation for the structural response; this comparison does not isolate a choline effect or prove mediation by phospholipid synthesis.",
+        "evidenceQualification": "No uniquely identified intervention mediator suitable for a controlled collapsed summary."
+      },
+      "measuredEffect": "DHA plus uridine monophosphate (UMP) increased gerbil hippocampal spine density more than DHA alone in the tested exposure.",
+      "pmRelevance": "Directly concerns formation, selective maintenance or remodelling of neuronal connections in the stated experimental model."
+    },
+    "evidenceSource": {
+      "finding_ids": [
+        "PM12-F6"
+      ],
+      "citation_keys": [
+        "sakamoto_dha_ump_spines_2007"
+      ],
+      "studyContext": "Four-week feeding in adult male gerbils; all diets contained choline."
+    },
+    "limitations": [
+      {
+        "type": "scope",
+        "text": "Four weeks, choline present in all diets, small animal-level sample. UMP alone was not significant for spine density. This is an experimental combination, not a human supplementation recommendation."
+      },
+      {
+        "type": "null-or-attribution-boundary",
+        "text": "UMP alone did not significantly increase spine density."
+      }
+    ],
+    "interventionAdmitted": "Yes — retained experimental-context record; not a human prescription",
+    "secStatus": "Not yet assessed"
+  },
+  {
+    "atom_id": "PM12-SOP-2",
+    "pm_id": "BRS1-FM5-PM12",
+    "intervention": "Experimental spermidine supplementation in ageing",
+    "interventionType": "defined dietary exposure",
+    "biologicalRelationship": {
+      "moa": {
+        "status": "unresolved",
+        "description": "Autophagy-related maintenance is a mechanistic interpretation of the experimental analyses; food-derived human exposure and human structural mediation are not established.",
+        "evidenceQualification": "No uniquely identified intervention mediator suitable for a controlled collapsed summary."
+      },
+      "measuredEffect": "Spermidine feeding prevented ageing-related enlargement of presynaptic release sites in fruit flies.",
+      "pmRelevance": "Directly concerns formation, selective maintenance or remodelling of neuronal connections in the stated experimental model."
+    },
+    "evidenceSource": {
+      "finding_ids": [
+        "PM12-F8"
+      ],
+      "citation_keys": [
+        "gupta_spermidine_active_zones_2016"
+      ],
+      "studyContext": "Spermidine feeding and active-zone imaging in ageing Drosophila."
+    },
+    "limitations": [
+      {
+        "type": "scope",
+        "text": "It did not restore reduced synapse numbers. Human wheat-germ-extract memory results were null; neither those results nor the fly study establish human structural benefit."
+      },
+      {
+        "type": "null-or-attribution-boundary",
+        "text": "Age-related loss of synapse number was not restored; human wheat-germ-extract memory results were null."
+      }
+    ],
+    "interventionAdmitted": "Yes — retained experimental-context record; not a human prescription",
+    "secStatus": "Not yet assessed"
+  },
+  {
+    "atom_id": "PM12-SOP-3",
+    "pm_id": "BRS1-FM5-PM12",
+    "intervention": "Active-period feeding under obesogenic exposure (experimental)",
+    "interventionType": "defined dietary exposure",
+    "biologicalRelationship": {
+      "moa": {
+        "status": "unresolved",
+        "description": "Meal scheduling may affect metabolic and circadian conditions; the study does not identify one causal mediator for the regional structural responses.",
+        "evidenceQualification": "No uniquely identified intervention mediator suitable for a controlled collapsed summary."
+      },
+      "measuredEffect": "A defined active-period feeding schedule changed regional spine maintenance in mice exposed to an obesogenic diet.",
+      "pmRelevance": "Directly concerns formation, selective maintenance or remodelling of neuronal connections in the stated experimental model."
+    },
+    "evidenceSource": {
+      "finding_ids": [
+        "PM12-F11"
+      ],
+      "citation_keys": [
+        "chakraborty_meal_schedule_spines_2025"
+      ],
+      "studyContext": "Four weeks of active-period feeding after prolonged high-fat/high-sucrose exposure in mice; food access zt11–zt1."
+    },
+    "limitations": [
+      {
+        "type": "scope",
+        "text": "Four-week mouse protocol after prolonged high-fat/high-sucrose exposure. Regionally opposite structural responses; no human eating-window target or general healthy-adult benefit established."
+      },
+      {
+        "type": "null-or-attribution-boundary",
+        "text": "Opposite regional responses prevent a universal spine-increase interpretation."
+      }
+    ],
+    "interventionAdmitted": "Yes — retained experimental-context record; not a human prescription",
+    "secStatus": "Not yet assessed"
+  },
+  {
+    "atom_id": "PM12-SOP-DEFERRED-1",
+    "pm_id": "BRS1-FM5-PM12",
+    "intervention": "Experimental magnesium-L-threonate exposure",
+    "interventionType": "defined dietary exposure",
+    "biologicalRelationship": {
+      "moa": {
+        "status": "unresolved",
+        "description": "Formulation-specific magnesium exposure was associated with structural-marker and functional responses; puncta do not independently establish formation of new functional synapses.",
+        "evidenceQualification": "No uniquely identified intervention mediator suitable for a controlled collapsed summary."
+      },
+      "measuredEffect": "The tested formulation changed presynaptic structural markers in rats.",
+      "pmRelevance": "Directly concerns formation, selective maintenance or remodelling of neuronal connections in the stated experimental model."
+    },
+    "evidenceSource": {
+      "finding_ids": [
+        "PM12-F12"
+      ],
+      "citation_keys": [
+        "slutsky_magnesium_synaptic_2010"
+      ],
+      "studyContext": "Defined magnesium-L-threonate exposure in young and aged rats."
+    },
+    "limitations": [
+      {
+        "type": "scope",
+        "text": "Puncta are markers, not ultrastructurally verified contact counts. Formulation- and region-specific animal evidence does not establish that ordinary magnesium foods increase human synapses or improve ADHD."
+      },
+      {
+        "type": "null-or-attribution-boundary",
+        "text": "Comparison salts did not reproduce all responses; ordinary magnesium foods are not equivalent to the tested formulation."
+      }
+    ],
+    "interventionAdmitted": "Yes — retained experimental-context record; not a human prescription",
+    "secStatus": "Not yet assessed"
+  },
+  {
+    "atom_id": "PM12-LS-1",
+    "pm_id": "BRS1-FM5-PM12",
+    "intervention": "Skill learning and practice",
+    "interventionType": "lifestyle practice",
+    "biologicalRelationship": {
+      "moa": {
+        "status": "unresolved",
+        "description": "Activity-dependent remodelling provides a biological explanation; the intervention does not establish one molecular pathway mediating every new or retained spine.",
+        "evidenceQualification": "No uniquely identified intervention mediator suitable for a controlled collapsed summary."
+      },
+      "measuredEffect": "Learning and practising a new motor skill can form and selectively stabilise dendritic spines in mice.",
+      "pmRelevance": "Directly concerns formation, selective maintenance or remodelling of neuronal connections in the stated experimental model."
+    },
+    "evidenceSource": {
+      "finding_ids": [
+        "PM12-F1"
+      ],
+      "citation_keys": [
+        "xu_motor_spine_stabilisation_2009"
+      ],
+      "studyContext": "Forelimb motor learning with longitudinal two-photon imaging in mouse motor cortex."
+    },
+    "limitations": [
+      {
+        "type": "scope",
+        "text": "Mouse motor tasks and spine imaging; not a human practice dose, verified synapse count or general cognitive-treatment claim."
+      },
+      {
+        "type": "null-or-attribution-boundary",
+        "text": "Formation and elimination both occurred; more spines is not a universal optimisation target."
+      }
+    ],
+    "interventionAdmitted": "Yes — retained experimental-context record; not a human prescription",
+    "secStatus": "Not yet assessed"
+  },
+  {
+    "atom_id": "PM12-LS-2",
+    "pm_id": "BRS1-FM5-PM12",
+    "intervention": "Sleep after learning",
+    "interventionType": "lifestyle practice",
+    "biologicalRelationship": {
+      "moa": {
+        "status": "unresolved",
+        "description": "Reactivation and sleep-stage-dependent remodelling are relevant hypotheses; the different experiments do not establish one shared mediator or a human sleep-dose prescription.",
+        "evidenceQualification": "No uniquely identified intervention mediator suitable for a controlled collapsed summary."
+      },
+      "measuredEffect": "Sleep can support formation, selective retention, removal and resizing of connections after learning.",
+      "pmRelevance": "Directly concerns formation, selective maintenance or remodelling of neuronal connections in the stated experimental model."
+    },
+    "evidenceSource": {
+      "finding_ids": [
+        "PM12-F3"
+      ],
+      "citation_keys": [
+        "yang_sleep_spine_formation_2014",
+        "li_rem_spine_pruning_2017",
+        "devivo_sleep_synaptic_scaling_2017"
+      ],
+      "studyContext": "Mouse motor-learning/sleep manipulations, REM experiments and separate serial electron-microscopy comparisons."
+    },
+    "limitations": [
+      {
+        "type": "scope",
+        "text": "Mouse sleep/REM manipulations and ultrastructure differ by age, region and endpoint. More spines is not always better; no universal human sleep duration is derived."
+      },
+      {
+        "type": "null-or-attribution-boundary",
+        "text": "Selective pruning and smaller contact interfaces are distinct from new-spine formation; none is uniformly better."
+      }
+    ],
+    "interventionAdmitted": "Yes — retained experimental-context record; not a human prescription",
+    "secStatus": "Not yet assessed"
+  },
+  {
+    "atom_id": "PM12-LS-3",
+    "pm_id": "BRS1-FM5-PM12",
+    "intervention": "Physical activity",
+    "interventionType": "lifestyle practice",
+    "biologicalRelationship": {
+      "moa": {
+        "status": "unresolved",
+        "description": "Activity-dependent adaptation is a proposed explanation; the study does not isolate a molecular mediator connecting running to every regional structural change.",
+        "evidenceQualification": "No uniquely identified intervention mediator suitable for a controlled collapsed summary."
+      },
+      "measuredEffect": "Voluntary running changed spine density and dendritic structure in selected regions of adult rat brains.",
+      "pmRelevance": "Directly concerns formation, selective maintenance or remodelling of neuronal connections in the stated experimental model."
+    },
+    "evidenceSource": {
+      "finding_ids": [
+        "PM12-F7"
+      ],
+      "citation_keys": [
+        "stranahan_running_structure_2007"
+      ],
+      "studyContext": "Two months of voluntary wheel access versus sedentary housing in adult rats."
+    },
+    "limitations": [
+      {
+        "type": "scope",
+        "text": "Two-month rat wheel-running exposure; no human exercise prescription, synapse-mediated cognitive effect or uniform whole-brain change is established."
+      },
+      {
+        "type": "null-or-attribution-boundary",
+        "text": "Regional changes do not establish a uniform whole-brain response or causal cognitive benefit."
+      }
+    ],
+    "interventionAdmitted": "Yes — retained experimental-context record; not a human prescription",
+    "secStatus": "Not yet assessed"
+  }
+]

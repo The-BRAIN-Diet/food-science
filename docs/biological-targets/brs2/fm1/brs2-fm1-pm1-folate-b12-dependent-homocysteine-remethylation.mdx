@@ -25,6 +25,8 @@ references:
   - '[García-Minguillán et al. (2014) — Riboflavin Status, MTHFR, MTRR and Homocysteine](/docs/papers/BRAIN-Diet-References#garcia_minguillan_riboflavin_2014)'
   - '[Stam et al. (2005) — Folic Acid and Whole-Body Methyl Flux](/docs/papers/BRAIN-Diet-References#stam_folic_acid_methyl_flux_2005)'
   - '[Wolthers et al. (2007) — Mechanism of coenzyme binding to human methionine synthase reductase](/docs/papers/BRAIN-Diet-References#wolthers_msr_flavins_2007)'
+  - '[McKillop et al. (2002) — Cooking methods and folate retention](/docs/papers/BRAIN-Diet-References#mckillop_cooking_folate_2002)'
+  - '[Huang et al. (2024) — Roasted nori and B12 status in vegetarians](/docs/papers/BRAIN-Diet-References#food_composition_d353427cdc28)'
 hide_title: true
 phenome_relationships:
   - target_phenome: Focus / Attention Stability
@@ -699,7 +701,40 @@ dietary_input_assessments:
           sources:
             - 'https://www.uniprot.org/uniprotkb/Q8NFF5/entry'
             - 'https://www.rhea-db.org/rhea/17237'
+system_optimisation_practices:
+  - atom_id: PM1-SOP-FOLATE-STEAM-1
+    input: Steam spinach or broccoli rather than boiling in the tested conditions
+    input_type: food preparation/delivery practice
+    optimisation_category: food_prep
+    biological_role: Preserves dietary folate upstream of the admitted folate-to-5-MTHF substrate supply for methionine synthase; no measured remethylation response.
+    evidence_source:
+      finding_ids:
+        - PM1-F1
+      citation_keys:
+        - mckillop_cooking_folate_2002
+        - froese_vitamin_2019
+    evidence_limitation: Controlled food-composition experiment, not a feeding trial. Total folate is not a 5-MTHF quantity. No absorption, tissue flux or clinical outcome was measured; other foods and preparation objectives differ.
+    dietary_input: true
+    sec_status: Not yet assessed
+  - atom_id: PM1-SOP-NORI-B12-1
+    input: Tested roasted-nori daily protocol
+    input_type: dietary protocol
+    optimisation_category: dietary_protocols
+    biological_role: Improved B12-status markers and lower baseline-adjusted homocysteine versus control after four weeks. Upstream B12 supply; not direct methionine-synthase flux.
+    evidence_source:
+      finding_ids:
+        - PM1-F1
+      citation_keys:
+        - food_composition_d353427cdc28
+        - froese_vitamin_2019
+    evidence_limitation: Between-group MMA and folate changes were not significant; no significant advantage of 8 over 5 g. Product B12 varies; not all seaweed is equivalent. Did not eliminate deficiency in all participants; no replacement for established deficiency treatment. Small, short, unblinded study; no tissue flux or clinical benefit measured.
+    dietary_input: true
+    sec_status: Not yet assessed
+
 ---
+
+import PilotInterventionDisclosure from "@site/src/components/PilotInterventionDisclosure";
+
 <p class="brs-pm-thumbnail-wrap">
   <img
     src="/img/biological-targets/brs2-portrait-thumbnail.png"
@@ -800,11 +835,66 @@ Methionine synthase transfers a methyl group from 5-methyltetrahydrofolate to ho
 <strong>3.2 System Optimisation Practices</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
+<p class="brs-hub-sop-category-desc">Preparation can preserve folate in the tested vegetables; this does not establish greater remethylation in people.</p>
 
-- Consistent daily meal timing may support one-carbon and methyl-donor availability across the day.
-- Soak and cook thoroughly to reduce phytates and improve mineral bioavailability; soaking and spro… — see [Lentils — Preparation](/docs/foods/lentils#preparation).
-- Pair fat-soluble compounds with dietary fat to support absorption — see [Spinach — Synergies](/docs/foods/spinach#synergies).
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Food Preparation &amp; Delivery</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<PilotInterventionDisclosure id="brs2-pm1-sop-folate-steam-1" title="Steamed spinach or broccoli → greater folate retention than tested boiling">
+<div class="brs-dietary-lever-detail-inner">
+<p><span class="brs-dietary-lever-detail-k">Intervention</span> = Steam <a href="/docs/foods/spinach">spinach</a> or <a href="/docs/foods/broccoli">broccoli</a> rather than the tested boiling preparation.</p>
+<p><span class="brs-dietary-lever-detail-k">Intervention type</span> = Food Preparation &amp; Delivery.</p>
+<p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Reduced contact with water may limit folate leaching; thermal degradation also contributes. Their separate contributions were not isolated in this experiment.<br /><strong>Measured Effect:</strong> Steaming retained more total folate than boiling in these vegetable samples.<br /><strong>PM Relevance:</strong> Preserving <a href="/docs/substances/nutrients/micronutrients/vitamins/vitamin-b9">folate</a> supports the accepted precursor supply for the 5-MTHF methyl donor; no tissue remethylation effect was tested.</p>
+<p><span class="brs-dietary-lever-detail-k">Evidence source</span> = McKillop et al. (2002): duplicate samples on three occasions; 25-g raw-weight portions. Typical spinach steaming/boiling: 3/3.5 minutes; broccoli: 10/10 minutes. Total-folate microbiological assay. <a href="#pm-ref-13">[13]</a> Biochemical connection: <a href="#pm-ref-9">[9]</a>.</p>
+<p><span class="brs-dietary-lever-detail-k">Limitations</span> =</p>
+<ul>
+<li><strong>Endpoint:</strong> Food retention, not human absorption, homocysteine lowering or remethylation flux; total folate is not a measured 5-MTHF amount.</li>
+<li><strong>Null outcomes:</strong> The same study found no significant folate loss with its potato-boiling or beef-grilling conditions. Do not generalise the vegetable result to all foods.</li>
+<li><strong>Preparation trade-off:</strong> This is folate preservation, not universal superiority of steaming. Oxalate reduction and other preparation goals require their own evidence.</li>
+</ul>
+<p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — bounded dietary-folate preservation practice.</p>
+<p><strong>Intervention SEC:</strong> Not yet assessed</p>
+</div>
+</PilotInterventionDisclosure>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Dietary &amp; Fasting Protocols</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<PilotInterventionDisclosure id="brs2-pm1-sop-nori-b12-1" title="Roasted Nori → improved B12-status markers in vegetarians" mechanism="Dietary vitamin B12 provision">
+<div class="brs-dietary-lever-detail-inner">
+<p><span class="brs-dietary-lever-detail-k">Intervention</span> = Tested unflavoured roasted <a href="/docs/foods/nori">nori</a>, 5 or 8 g/day for four weeks, versus none.</p>
+<p><span class="brs-dietary-lever-detail-k">Intervention type</span> = Dietary protocol.</p>
+<p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> The tested nori supplies vitamin B12, a precursor of the methionine-synthase cofactor; uptake and intracellular conversion were not traced, and mediation of the homocysteine response was not isolated.<br /><strong>Measured Effect:</strong> At 5 g/day, serum B12 and holoTC rose, homocysteine fell, and the combined B12-status index improved versus control after baseline adjustment.<br /><strong>PM Relevance:</strong> Upstream cofactor supply, not measured remethylation flux.</p>
+<p><span class="brs-dietary-lever-detail-k">Evidence source</span> = Open-label randomised trial, 30 vegetarians aged 20–50. Actual batch supplied approximately 1.9/3.1 µg B12/day. <a href="#pm-ref-14">[14]</a> Biochemical connection: <a href="#pm-ref-9">[9]</a>.</p>
+<p><span class="brs-dietary-lever-detail-k">Limitations</span> =</p>
+<ul>
+<li><strong>Null outcomes:</strong> Between-group MMA and folate changes were nonsignificant; 8 g was not significantly better than 5 g.</li>
+<li><strong>Material:</strong> Product B12 varies; other seaweeds are not equivalent.</li>
+<li><strong>Clinical boundary:</strong> Deficiency was not eliminated in all participants; not a substitute for established treatment.</li>
+<li><strong>Generalisability:</strong> Small, short, unblinded study; no clinical-benefit endpoint.</li>
+</ul>
+<p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — tested food protocol with these boundaries.</p>
+<p><strong>Intervention SEC:</strong> Not yet assessed</p>
+</div>
+</PilotInterventionDisclosure>
+
+</div>
+</div>
+</div>
 
 </div>
 </div>
@@ -818,7 +908,7 @@ Methionine synthase transfers a methyl group from 5-methyltetrahydrofolate to ho
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Sleep and stress context may indirectly affect methylation demand; lifestyle factors are secondary to dietary substrate supply for this PM.
+No PM-specific lifestyle practice is currently admitted for folate- and B12-dependent remethylation.
 
 </div>
 </div>
@@ -1032,3 +1122,7 @@ No change to a canonical admission is proposed. The exposure, conversion and mod
 - <span id="pm-ref-11">[11]</span> [Stam et al. (2005) — Folic Acid and Whole-Body Methyl Flux](/docs/papers/BRAIN-Diet-References#stam_folic_acid_methyl_flux_2005)
 - <span id="pm-ref-12">[12]</span> [Wolthers et al. (2007) — Mechanism of coenzyme binding to human methionine synthase reductase](/docs/papers/BRAIN-Diet-References#wolthers_msr_flavins_2007)
 
+
+- <span id="pm-ref-13">[13]</span> [McKillop et al. (2002) — The effect of different cooking methods on folate retention](/docs/papers/BRAIN-Diet-References#mckillop_cooking_folate_2002)
+
+- <span id="pm-ref-14">[14]</span> [Huang et al. (2024) — Roasted nori and vitamin B12 status](/docs/papers/BRAIN-Diet-References#food_composition_d353427cdc28)

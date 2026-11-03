@@ -11,7 +11,9 @@ const text=v=>typeof v==='string' && v.trim().length>0;
 const value=v=>Number.isInteger(v) && v>=0 && v<=2;
 const version=v=>Number.isSafeInteger(v) && v>0;
 const date=v=>typeof v==='string' && /^\d{4}-\d{2}-\d{2}$/.test(v) && !Number.isNaN(Date.parse(v)) && new Date(v).toISOString().slice(0,10)===v;
-const identity=r=>r?.pmId+'\0'+r?.findingId+'\0'+r?.recordVersion;
+const owner=r=>r?.pmId+'\0'+(r?.interventionId ? 'intervention:'+r.interventionId : 'finding:'+r?.findingId);
+const identity=r=>owner(r)+'\0'+r?.recordVersion;
+export const SEC_INTERVENTION_PM_IDS=Object.freeze(['BRS1-FM1-PM3']);
 
 // Stable content identity. Arrays retain order; no prose/identity normalisation.
 export function secCanonicalJson(input) {
@@ -41,8 +43,14 @@ export function secRecordErrors(r) {
   if(!r || typeof r!=='object' || Array.isArray(r)) return [{code:'sec_record',message:'Assessment must be an object'}];
   if(!text(r.id) || !/^[a-z0-9][a-z0-9-]*$/.test(r.id) || !version(r.recordVersion)) add('sec_identity','Stable assessment ID and positive integer record version required');
   const pm=/^BRS\d+-FM\d+-(PM\d+)$/.exec(r.pmId || '');
-  if(!SEC_INTEGRATION_PM_IDS.includes(r.pmId))add('sec_scope','Canonical SEC integration is limited to explicitly integrated PMs');
-  if(!pm || !new RegExp('^'+pm[1]+'-(F|IC)\\d+$').test(r.findingId || '')) add('sec_identity','Exact PM and local Finding identities must agree');
+  const intervention=Object.hasOwn(r,'interventionId');
+  if(intervention) {
+    if(Object.hasOwn(r,'findingId') || !pm || !new RegExp('^'+pm[1]+'-(SOP|LP)-[A-Z0-9-]+$').test(r.interventionId || ''))add('sec_identity','Intervention assessment requires exclusive, matching intervention ownership');
+    if(!SEC_INTERVENTION_PM_IDS.includes(r.pmId))add('sec_scope','Intervention SEC integration requires explicit PM scope');
+  } else {
+    if(!SEC_INTEGRATION_PM_IDS.includes(r.pmId))add('sec_scope','Canonical SEC integration is limited to explicitly integrated PMs');
+    if(!pm || !new RegExp('^'+pm[1]+'-(F|IC)\\d+$').test(r.findingId || ''))add('sec_identity','Exact PM and local Finding identities must agree');
+  }
   if(!text(r.proposition)) add('sec_proposition','Exact assessed proposition required');
   if(!Object.hasOwn(SEC_STATUSES,r.assessmentStatus)) add('sec_status','Unknown assessment status');
   if(!date(r.lastEvidenceAssessmentDate) || !text(r.process) || !text(r.methodology?.name) || !text(r.methodology?.source)) add('sec_provenance','Assessment date, identified process and methodology required');
@@ -99,11 +107,11 @@ export function secRegistryErrors(registry) {
     const r=entry?.record;
     if(!/^[a-f0-9]{64}$/.test(entry?.sha256 || ''))errors.push({code:'sec_hash',message:'Pinned SHA-256 required'});
     errors.push(...secRecordErrors(r));
-    const key=r?.id+'\0'+r?.recordVersion, owner=r?.pmId+'\0'+r?.findingId;
+    const key=r?.id+'\0'+r?.recordVersion, recordOwner=owner(r);
     if(versions.has(key)||identities.has(identity(r)))errors.push({code:'sec_duplicate',message:'Duplicate assessment ID/version or PM/Finding/version'});
     versions.add(key);identities.add(identity(r));
-    if(owners.has(r?.id) && owners.get(r?.id)!==owner)errors.push({code:'sec_identity',message:'Assessment ID cannot change PM/Finding ownership'});
-    owners.set(r?.id,owner);
+    if(owners.has(r?.id) && owners.get(r?.id)!==recordOwner)errors.push({code:'sec_identity',message:'Assessment ID cannot change PM/Finding ownership'});
+    owners.set(r?.id,recordOwner);
   }
   return errors;
 }
@@ -131,9 +139,25 @@ export function secAssessmentView(record) {
   const score=ordinal?total.adjustedScore:null, level=secLevelForScore(score);
   const readout=record.assessmentStatus==='evidence-unassessable'?'Evidence Un-assessable':record.assessmentStatus==='not-scored'?(record.completenessVersion===1?'Pending appraisal':'Not scored'):f?.D===0?(total.rawScore===0?'0/8 · Assessed zero — insufficient evidence for this claim':'Insufficient evidence for this claim'):level?score+'/8 · '+level.label:'Not scored';
   return {status:record.assessmentStatus,statusLabel:record.assessmentStatus==='not-scored'&&record.completenessVersion===1?'Pending appraisal':SEC_STATUSES[record.assessmentStatus],score:level?score:null,readout,
-    shortId:record.findingId.replace(/^PM\d+-F/,'SF'),title:record.title || record.findingId,
+    shortId:(record.findingId || record.interventionId).replace(/^PM\d+-F/,'SF'),title:record.title || record.findingId || record.interventionId,
     incomplete:record.assessmentStatus==='not-scored',date:record.lastEvidenceAssessmentDate,
     humanReview:record.assessmentStatus==='scientifically-reviewed'?record.humanReview:null};
 }
 
 export const secAuditAnchor=r=>'sec-'+r.id+'-v'+r.recordVersion;
+
+// Separate exact-proposition binding: an intervention never inherits its linked SF's score.
+export function resolveInterventionSecAssessment(registry,{pmId,intervention}) {
+  if(!Object.hasOwn(intervention || {},'sec_assessment_ref'))return {kind:'legacy',record:null,errors:[]};
+  const invalid=message=>({kind:'invalid',record:null,errors:[{code:'sec_reference',message}]});
+  const ref=intervention.sec_assessment_ref;
+  if(!ref || Object.keys(ref).sort().join(',')!=='id,sha256,version' || !text(ref.id) || !version(ref.version) || !/^[a-f0-9]{64}$/.test(ref.sha256 || ''))return invalid('Reference requires exactly id, version and SHA-256');
+  const errors=secRegistryErrors(registry);
+  if(errors.length)return {kind:'invalid',record:null,errors};
+  const entries=registry.assessments.filter(e=>e.record.id===ref.id&&e.record.recordVersion===ref.version);
+  if(entries.length!==1)return invalid('Pinned intervention assessment is missing or ambiguous');
+  const {record,sha256}=entries[0];
+  if(sha256!==ref.sha256 || record.pmId!==pmId || record.interventionId!==intervention.atom_id || record.findingId!==undefined)return invalid('Assessment does not belong to this intervention and content pin');
+  if(record.proposition!==intervention.sec_assessed_proposition)return invalid('Intervention assessed proposition does not match');
+  return {kind:'resolved',record,errors:[]};
+}

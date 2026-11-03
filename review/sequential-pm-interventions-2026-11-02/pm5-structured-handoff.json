@@ -1,0 +1,47 @@
+{
+  "intervention": "Five-morning bright-light protocol in the studied winter context",
+  "interventionType": "circadian scheduling protocol",
+  "atom_id": "PM5-SOP-LIGHT-1",
+  "pm_id": "BRS1-FM1-PM5",
+  "biologicalRelationship": {
+    "moa": {
+      "status": "unresolved",
+      "description": "Retinal\u2013raphe signalling and altered transporter availability were proposed; the trial did not establish the cellular mediator.",
+      "evidenceQualification": "Mechanistic hypotheses in the primary discussion, not demonstrated mediation."
+    },
+    "measuredEffect": "Winter subgroup anterior-cingulate serotonin-transporter binding was 12% lower after light than inactive-ionizer placebo (n=10; p=0.002).",
+    "pmRelevance": "Regional human transporter-binding endpoint concerns serotonergic reuptake; does not directly measure serotonin release."
+  },
+  "evidenceSource": {
+    "doi": "10.1111/acps.12424",
+    "citation_key": "harrison_light_serotonin_transporter_2015",
+    "population": "19 healthy adult completers; winter subgroup 10",
+    "exposure": "10000 lux white light for 30 minutes at 07:00 on five mornings",
+    "comparator": "Inactive negative ionizer; four-week washout; randomised order, counterbalanced crossover"
+  },
+  "limitations": [
+    {
+      "type": "seasonal-null",
+      "text": "No significant fall-group response."
+    },
+    {
+      "type": "regional-null",
+      "text": "Winter PFC comparison p=0.64; exploratory regional results did not survive multiplicity correction."
+    },
+    {
+      "type": "population",
+      "text": "Small healthy-adult seasonal subgroups; no general or clinical prescription."
+    },
+    {
+      "type": "endpoint",
+      "text": "Binding is not serotonin release; symptom-change correlations were not significant."
+    },
+    {
+      "type": "mediation",
+      "text": "Cellular mediator not established; sleep-change correlations nonsignificant."
+    }
+  ],
+  "interventionAdmitted": "Yes",
+  "secStatus": "Not yet assessed",
+  "recordRole": "Structured handoff of existing canonical admission; no new admission or score."
+}

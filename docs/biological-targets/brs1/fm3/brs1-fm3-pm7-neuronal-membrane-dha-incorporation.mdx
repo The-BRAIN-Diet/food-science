@@ -849,6 +849,7 @@ evidence_gaps:
     review_date: '2026-10-26'
 system_optimisation_practices:
   - atom_id: PM7-SOP-DHA-1
+    sec_status: Not yet assessed
     input: Defined DHA supplementation in older adults with low baseline DHA intake
     input_type: defined dietary exposure
     optimisation_category: conditional_supplementation
@@ -869,6 +870,8 @@ system_optimisation_practices:
       The trial used five 400 mg DHA capsules daily, three with breakfast and two with the evening meal; this
       studied protocol is not a general preventive-dose recommendation.
 ---
+
+import PilotInterventionDisclosure from "@site/src/components/PilotInterventionDisclosure";
 
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -975,16 +978,38 @@ DHA, a long-chain omega-3 fat, is built into the phospholipids of neuronal membr
 <strong>3.2 System Optimisation Practices</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<details data-brs-sop-category="conditional_supplementation" className="brs-fm-hub-item">
-<summary><strong>Conditional Supplementation</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-sop-category="conditional_supplementation">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Conditional Supplementation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-DHA supplementation increased a cerebrospinal-fluid exposure marker in older adults with low DHA intake; neuronal-membrane incorporation and cognitive benefit were not demonstrated. [[19]](#pm-ref-19)
 
-- Defined DHA supplementation in older adults with low baseline DHA intake
+<PilotInterventionDisclosure id="pm7-sop-dha-1" title="Defined DHA supplementation → higher cerebrospinal-fluid DHA-to-arachidonic-acid ratio">
+<div class="brs-dietary-lever-detail-inner">
+<p><span class="brs-dietary-lever-detail-k">Intervention</span> = Defined DHA supplementation in older adults with low baseline DHA intake: five 400 mg capsules daily, three with breakfast and two with the evening meal.</p>
+<p><span class="brs-dietary-lever-detail-k">Intervention type</span> = defined dietary exposure; Conditional Supplementation.</p>
+<p><span class="brs-dietary-lever-detail-k">Biological relationship</span> = <br /><strong>Mechanism of Action:</strong> Oral DHA provision supplies substrate upstream of CNS lipid uptake. The measured CSF response does not identify the transport route or demonstrate neuronal-membrane incorporation.<br /><strong>Measured Effect:</strong> The cerebrospinal-fluid DHA-to-arachidonic-acid ratio increased at six months.<br /><strong>PM Relevance:</strong> CNS exposure is a proximal relationship to the PM's DHA delivery and incorporation operation; exposure and membrane incorporation remain distinct.</p>
+<p><span class="brs-dietary-lever-detail-k">Evidence source</span> = Yassine et al. (2026); adults aged 55–80 with dietary DHA below 200 mg/day and at least one dementia risk factor, receiving 2 g/day DHA. Both groups received B vitamins. <a href="#pm-ref-19">Reference 19</a>. The established delivery mechanism is described in <a href="#pm7-f5">the linked Finding</a>; its SEC score is not inherited.</p>
+<p><span class="brs-dietary-lever-detail-k">Limitations</span> =</p>
+<ul>
+<li><strong>Endpoint:</strong> CSF exposure is not direct neuronal-membrane incorporation.</li>
+<li><strong>Reported null outcomes:</strong> Cognition and brain volumes did not improve over 24 months.</li>
+<li><strong>Population:</strong> Older adults with low DHA intake and dementia risk factors; not a general-population preventive prescription.</li>
+<li><strong>Co-intervention:</strong> Both groups received B vitamins; preserve this context when applying the result.</li>
+<li><strong>Protocol:</strong> The studied dose and divided timing do not establish an optimal dose or superiority of that timing.</li>
+</ul>
+<p><span class="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — existing bounded CNS-exposure protocol; no principal-route promotion.</p>
+<p><strong>Intervention SEC:</strong> Not yet assessed</p>
+</div>
+</PilotInterventionDisclosure>
 
-The studied exposure was 2 g/day, divided between breakfast and the evening meal. Eligibility required age 55–80, dietary DHA below 200 mg/day and at least one dementia risk factor; both groups received B vitamins. The result supports this bounded exposure protocol, not a general preventive prescription.
 
-</details>
+</div>
+</div>
+</div>
 
 </div>
 </div>

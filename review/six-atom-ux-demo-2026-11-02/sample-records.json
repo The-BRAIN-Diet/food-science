@@ -1,0 +1,300 @@
+[
+  {
+    "key": "b6",
+    "id": "PM9-DIT-3",
+    "title": "Vitamin B6 → PLP-dependent GABA-synthesis capacity",
+    "family": "Dietary Levers",
+    "category": "Dietary Inputs & Regulatory Modulators",
+    "input": "Vitamin B6",
+    "type": "cofactor precursor",
+    "relationship": "Provides dietary B6 vitamers that pyridoxal kinase converts to PLP, the cofactor required for GAD-dependent GABA synthesis",
+    "endpoint": "Established cofactor dependency; no extra-intake efficacy claim.",
+    "summary": "Dietary B6 supplies precursors of the PLP cofactor required by GAD. This is a capacity relationship, not evidence that extra B6 increases brain GABA.",
+    "refs": "<a href=\"http://localhost:3145/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity#pm-ref-1\" target=\"_blank\" rel=\"noopener\">[1]</a> <a href=\"http://localhost:3145/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity#pm-ref-2\" target=\"_blank\" rel=\"noopener\">[2]</a> <a href=\"http://localhost:3145/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity#pm-ref-3\" target=\"_blank\" rel=\"noopener\">[3]</a> <a href=\"http://localhost:3145/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity#pm-ref-4\" target=\"_blank\" rel=\"noopener\">[4]</a>",
+    "status": "Yes — existing dietary admission",
+    "limits": [
+      [
+        "Scope",
+        "Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific."
+      ]
+    ],
+    "confidence": "Dietary Confidence: High",
+    "sf": [
+      "PM9-F1",
+      "PM9-F2"
+    ],
+    "substance": "vitamin-b6",
+    "food": null,
+    "source": {
+      "atom_id": "PM9-DIT-3",
+      "dietary_input": true,
+      "dietary_input_note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+      "input": "Vitamin B6",
+      "input_type": "cofactor precursor",
+      "biological_role": "Provides dietary B6 vitamers that pyridoxal kinase converts to PLP, the cofactor required for GAD-dependent GABA synthesis",
+      "evidence_source": {
+        "finding_ids": [
+          "PM9-F1",
+          "PM9-F2"
+        ],
+        "citation_keys": [
+          "martin_regulation_1993",
+          "lee_human_2000",
+          "tang_crystal_2005",
+          "navarro_catalytic_2013"
+        ]
+      },
+      "evidence_limitation": "Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific."
+    },
+    "pm_id": "BRS1-FM4-PM9",
+    "brs_id": "BRS1",
+    "preparation_id": null,
+    "comparator_id": null,
+    "endpoint_id": null,
+    "canonical_reference_register": "http://localhost:3145/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity#8-references",
+    "protocol": null
+  },
+  {
+    "key": "pm1",
+    "id": "PM1-SOP-DEFERRED-1",
+    "title": "Minced versus intact beef → dietary phenylalanine appearance",
+    "family": "System Optimisation Practices",
+    "category": "Food Preparation & Delivery",
+    "category_id": "food_prep",
+    "food": "beef",
+    "substance": null,
+    "preparation": "minced",
+    "comparator": "intact beef",
+    "endpoint": "The tested texture change increased six-hour appearance of dietary phenylalanine in ten older men.",
+    "relationship": "Ensure meal-level protein supply delivers the amino-acid foundation neurotransmitter pathways depend on.",
+    "summary": "The tested texture change increased six-hour appearance of dietary phenylalanine in ten older men.",
+    "input": "Minced rather than intact beef in the tested older-adult meal",
+    "type": "food preparation/delivery practice",
+    "refs": "<a href=\"http://localhost:3145/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation#pm-ref-22\" target=\"_blank\" rel=\"noopener\">[22]</a>",
+    "status": "Yes — existing canonical SOP record",
+    "limits": [
+      [
+        "Population",
+        "Ten older men, one 135 g beef meal."
+      ],
+      [
+        "Endpoint",
+        "Dietary phenylalanine appearance, not brain delivery."
+      ],
+      [
+        "Null outcomes",
+        "No detectable difference in total plasma essential amino acids or muscle protein synthesis."
+      ]
+    ],
+    "confidence": "Intervention confidence: not assigned — proposed rubric pending",
+    "sf": [
+      "PM1-F5"
+    ],
+    "source": {
+      "atom_id": "PM1-SOP-DEFERRED-1",
+      "input": "Minced rather than intact beef in the tested older-adult meal",
+      "input_type": "food preparation/delivery practice",
+      "biological_role": "The tested texture change increased six-hour appearance of dietary phenylalanine in ten older men.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "pennings_minced_beef_2013"
+        ]
+      },
+      "evidence_limitation": "Single crossover with 135 g intrinsically labelled beef. Total plasma EAA concentrations and muscle protein synthesis did not differ detectably. Not a universal meat, protein or neurotransmitter prescription; earlier no-selected-SOP wording records the prior assessment.",
+      "dietary_input": true,
+      "reader_description": "The tested texture change increased six-hour appearance of dietary phenylalanine in ten older men.",
+      "description_finding_id": "PM1-F5",
+      "optimisation_category": "food_prep",
+      "food_strategy_scope": "food-preparation",
+      "food_strategy_id": "food-strategy-6d9c0fa97324"
+    },
+    "pm_id": "BRS1-FM1-PM1",
+    "brs_id": "BRS1",
+    "preparation_id": null,
+    "comparator_id": null,
+    "endpoint_id": null,
+    "canonical_reference_register": "http://localhost:3145/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation#8-references",
+    "protocol": "135 g beef; ten older men; controlled crossover; six-hour dietary phenylalanine appearance."
+  },
+  {
+    "key": "pm1",
+    "id": "PM1-SOP-COOKED-EGG-1",
+    "title": "Boiled versus raw eggs → circulating essential amino acids",
+    "family": "System Optimisation Practices",
+    "category": "Food Preparation & Delivery",
+    "category_id": "food_prep",
+    "food": "eggs",
+    "substance": null,
+    "preparation": "boiled",
+    "comparator": "raw eggs",
+    "endpoint": "Boiled eggs produced higher peak circulating essential-amino-acid concentrations than raw eggs in the tested postexercise meal, supporting PM1’s circulating precursor-provision function.",
+    "relationship": "Ensure meal-level protein supply delivers the amino-acid foundation neurotransmitter pathways depend on.",
+    "summary": "Boiled eggs produced higher peak circulating essential-amino-acid concentrations than raw eggs in the tested postexercise meal, supporting PM1’s circulating precursor-provision function.",
+    "input": "Boiled rather than raw eggs in the tested postexercise meal",
+    "type": "food preparation/delivery practice",
+    "refs": "<a href=\"http://localhost:3145/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation#pm-ref-24\" target=\"_blank\" rel=\"noopener\">[24]</a> <a href=\"http://localhost:3145/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation#pm-ref-25\" target=\"_blank\" rel=\"noopener\">[25]</a>",
+    "status": "Yes — existing canonical SOP record",
+    "limits": [
+      [
+        "Population",
+        "45 healthy resistance-trained young men; five eggs after exercise."
+      ],
+      [
+        "Endpoint",
+        "Plasma concentration is not dietary appearance flux or neuronal availability."
+      ],
+      [
+        "Separate study",
+        "Ileal digestibility was measured in five ileostomy patients, not the postexercise cohort."
+      ],
+      [
+        "Translation",
+        "No daily five-egg prescription or demonstrated muscle-protein-synthesis advantage."
+      ]
+    ],
+    "confidence": "Intervention confidence: not assigned — proposed rubric pending",
+    "sf": [
+      "PM1-F1"
+    ],
+    "source": {
+      "atom_id": "PM1-SOP-COOKED-EGG-1",
+      "input": "Boiled rather than raw eggs in the tested postexercise meal",
+      "input_type": "food preparation/delivery practice",
+      "biological_role": "Boiled eggs produced higher peak circulating essential-amino-acid concentrations than raw eggs in the tested postexercise meal, supporting PM1’s circulating precursor-provision function.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "fuchs_raw_eggs_2022",
+          "evenepoel_digestibility_1998"
+        ]
+      },
+      "evidence_limitation": "The 45-man trial compared five eggs after resistance exercise; higher peak concentrations did not establish greater brain delivery or a detectable muscle-protein-synthesis advantage.",
+      "dietary_input": true,
+      "optimisation_category": "food_prep",
+      "food_strategy_scope": "food-preparation",
+      "food_strategy_id": "food-strategy-pm1-cooked-egg-1",
+      "food_ids": [
+        "eggs"
+      ]
+    },
+    "pm_id": "BRS1-FM1-PM1",
+    "brs_id": "BRS1",
+    "preparation_id": null,
+    "comparator_id": null,
+    "endpoint_id": null,
+    "canonical_reference_register": "http://localhost:3145/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation#8-references",
+    "protocol": "Five boiled versus five raw eggs after resistance exercise; 45 trained young men. Separate digestibility study: five ileostomy patients."
+  },
+  {
+    "key": "brs3",
+    "id": "PM2-SOP-DEFERRED-1",
+    "title": "Tested mixed meals → acute endotoxin/LBP response",
+    "family": "System Optimisation Practices",
+    "category": "Dietary Protocols",
+    "category_id": "dietary_protocols",
+    "food": null,
+    "substance": null,
+    "preparation": null,
+    "comparator": "high-fat/high-carbohydrate meal",
+    "endpoint": "The meal comparison measured different acute plasma endotoxin/LBP responses.",
+    "relationship": "Limit gut-derived endotoxin spillover so barrier dysfunction does not drive systemic inflammatory load.",
+    "summary": "The meal comparison measured different acute plasma endotoxin/LBP responses.",
+    "input": "Tested fibre/fruit-rich mixed meal versus the high-fat/high-carbohydrate comparison",
+    "type": "defined meal formulation",
+    "refs": "<a href=\"http://localhost:3145/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling#pm-ref-15\" target=\"_blank\" rel=\"noopener\">[15]</a>",
+    "status": "Yes — existing canonical SOP record",
+    "limits": [
+      [
+        "Attribution",
+        "Multiple ingredients and macronutrients differed; no isolated fibre or fruit effect."
+      ],
+      [
+        "Measurement",
+        "LAL/LBP responses do not directly establish gut leakage, LPS bioactivity or brain benefit."
+      ],
+      [
+        "Design",
+        "Small acute parallel-group comparison; CRP and TNF-alpha did not change."
+      ]
+    ],
+    "confidence": "Intervention confidence: not assigned — proposed rubric pending",
+    "sf": [
+      "PM2-F5"
+    ],
+    "source": {
+      "atom_id": "PM2-SOP-DEFERRED-1",
+      "input": "Tested fibre/fruit-rich mixed meal versus the high-fat/high-carbohydrate comparison",
+      "input_type": "defined meal formulation",
+      "biological_role": "The meal comparison measured different acute plasma endotoxin/LBP responses.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F5"
+        ],
+        "citation_keys": [
+          "ghanim_increase_2009"
+        ]
+      },
+      "evidence_limitation": "Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.",
+      "dietary_input": true,
+      "reader_description": "The meal comparison measured different acute plasma endotoxin/LBP responses.",
+      "description_finding_id": "PM2-F5",
+      "optimisation_category": "dietary_protocols",
+      "food_strategy_scope": "dietary-protocol",
+      "food_strategy_id": "food-strategy-f69b067d45e3"
+    },
+    "pm_id": "BRS3-FM1-PM2",
+    "brs_id": "BRS3",
+    "preparation_id": null,
+    "comparator_id": null,
+    "endpoint_id": null,
+    "canonical_reference_register": "http://localhost:3145/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling#8-references",
+    "protocol": null
+  },
+  {
+    "key": "walk",
+    "id": null,
+    "title": "Post-meal walking → three-hour glucose exposure",
+    "family": "Lifestyle Levers",
+    "category": "Physical activity",
+    "category_id": null,
+    "input": "Advice to walk for 10 minutes after each main meal",
+    "type": "physical activity",
+    "relationship": "Postprandial glucose handling is related to the PM mission; lower exposure alone does not establish reduced glycaemic variability.",
+    "endpoint": "Lower three-hour postprandial glucose incremental area under the curve versus advice to walk 30 minutes daily without specified timing.",
+    "summary": "Two-week crossover periods in 41 adults with type 2 diabetes compared post-meal walking advice with untimed daily walking advice.",
+    "refs": "<a href=\"http://localhost:3145/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#pm-ref-20\" target=\"_blank\" rel=\"noopener\">[20]</a>",
+    "status": "Unset — no matching admitted post-meal walking record",
+    "limits": [
+      [
+        "Endpoint",
+        "Glucose exposure is not a variability endpoint."
+      ],
+      [
+        "Exposure",
+        "Advice and achieved activity differ; overall activity was greater in the post-meal condition."
+      ],
+      [
+        "Generalisability",
+        "Short study in adults with type 2 diabetes; not evidence of brain benefit."
+      ]
+    ],
+    "confidence": "Lifestyle confidence: provisional placement only — no rating assigned",
+    "sf": [],
+    "substance": null,
+    "food": null,
+    "comparator": "30 minutes daily, timing unspecified",
+    "preparation": null,
+    "pm_id": "BRS6-FM1-PM2",
+    "brs_id": "BRS6",
+    "preparation_id": null,
+    "comparator_id": null,
+    "endpoint_id": null,
+    "canonical_reference_register": "http://localhost:3145/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#8-references",
+    "protocol": "Two-week crossover periods; 41 adults with type 2 diabetes; 10 minutes after each main meal versus 30 minutes daily without specified timing."
+  }
+]

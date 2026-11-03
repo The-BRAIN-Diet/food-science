@@ -9,7 +9,7 @@ export function assessmentGapErrors(record,{strict=false}={}) {
  const gaps=record.assessmentGaps||[], ids=new Set();
  for(const gap of gaps){
   if(!text(gap.id)||ids.has(gap.id))add('Assessment gap requires a unique ID');ids.add(gap.id);
-  if(gap.pmId!==record.pmId||gap.findingId!==record.findingId)add('Assessment gap ownership does not match Finding');
+  if(gap.pmId!==record.pmId || (record.interventionId ? gap.interventionId!==record.interventionId || gap.findingId!==undefined : gap.findingId!==record.findingId || gap.interventionId!==undefined))add('Assessment gap ownership does not match assessed target');
   if(!gap.dimensions?.length||gap.dimensions.some(d=>!SEC_DIMENSIONS.includes(d)))add('Assessment gap requires valid affected dimensions');
   if(!gap.sources?.length||gap.sources.some(s=>!record.sources?.targetedChecks?.some(c=>c.doi===s)&&![...(record.sources?.supporting||[]),...(record.sources?.contextual||[])].includes(s)))add('Assessment gap source must resolve in the assessment');
   if(!text(gap.reason)||!text(gap.resolutionAction)||!gap.attempts?.length||gap.attempts.some(a=>!/^\d{4}-\d{2}-\d{2}$/.test(a.date||'')||!text(a.action)||!text(a.outcome)))add('Assessment gap requires reason, attempted verification and resolution action');

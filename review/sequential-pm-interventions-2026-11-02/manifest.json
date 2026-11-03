@@ -1,13 +1,13 @@
 {
   "started": "2026-11-02",
   "order": "Numbered BRS1–BRS6, FM and PM numeric order; then Cross-BRS canonical identifiers in natural order.",
-  "scope": "SOP and Lifestyle interventions only; no SF/SEC/mission/dietary/KC/gap reassessment",
-  "current": "BRS1-FM1-PM1",
+  "scope": "SOP and Lifestyle review and implementation; PM3 intervention SEC specifically requested as an exception to Pass 1 priority. Preserve Finding scores and immutable history.",
+  "current": "BRS2-FM1-PM3",
   "records": [
     {
       "pm_id": "BRS1-FM1-PM1",
       "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
-      "status": "in progress — food evidence reconciliation pending",
+      "status": "complete with limitations",
       "existing_sops": [
         "PM1-SOP-DEFERRED-1"
       ],
@@ -32,26 +32,68 @@
         "six_atoms_references_categories": "pass after egg addition",
         "dominance": "pass",
         "protected_records": "unchanged",
-        "mdx": "pass",
-        "interactive": "pending"
+        "mdx": "PASS 2026-11-03",
+        "interactive": "PASS 2026-11-03: both two-line summaries, independent first-click six atoms, citations and typed limitations"
       },
       "paper_examples": [
         "Matched beef texture alters labelled phenylalanine appearance, not demonstrated brain delivery."
       ],
-      "unresolved": [],
+      "unresolved": [
+        "Tempeh/natto generalisation not admitted; static digestion differs from human appearance and food identity.",
+        "Intervention-specific SEC remains Not yet assessed under Pass 1."
+      ],
       "food_evidence_review": {
-        "status": "screened; candidate decisions recorded; final verification pending",
-        "food_pages_inspected": [],
-        "candidate_ids": [],
-        "external_search_gate": "Inspect linked canonical food evidence first",
-        "source": "BRS1-FM1-PM1-food-screen.json"
+        "status": "complete",
+        "food_pages_inspected": [
+          "docs/foods/almonds.md",
+          "docs/foods/beef.md",
+          "docs/foods/cheddar-cheese.md",
+          "docs/foods/chicken.md",
+          "docs/foods/chickpeas.md",
+          "docs/foods/eggs.md",
+          "docs/foods/kidney-beans.md",
+          "docs/foods/lentils.md",
+          "docs/foods/milk.md",
+          "docs/foods/mussels.md",
+          "docs/foods/oats.md",
+          "docs/foods/peanuts.md",
+          "docs/foods/pumpkin-seeds.md",
+          "docs/foods/quinoa.md",
+          "docs/foods/salmon.md",
+          "docs/foods/sardines.md",
+          "docs/foods/sunflower-seeds.md",
+          "docs/foods/tofu.md",
+          "docs/foods/tuna.md",
+          "docs/foods/turkey.md",
+          "docs/foods/parmesan-cheese.md",
+          "docs/foods/soy.md",
+          "docs/foods/tempeh.md"
+        ],
+        "candidate_ids": [
+          "PM1-FOOD-REUSE-COOKED-EGG",
+          "PM1-FOOD-REUSE-SOY-FERMENTATION"
+        ],
+        "source": "BRS1-FM1-PM1-food-screen.json",
+        "disposition": "Retain cooked-egg admission; no duplicate. Defer tempeh generalisation; other preparation endpoints not amino-acid provision."
       },
-      "status_before_food_reuse_requirement": "complete with limitations"
+      "status_before_food_reuse_requirement": "complete with limitations",
+      "pass_1_status": "complete with limitations",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification",
+      "intervention_assessments": [
+        {
+          "id": "PM1-SOP-DEFERRED-1",
+          "status": "Not yet assessed"
+        },
+        {
+          "id": "PM1-SOP-COOKED-EGG-1",
+          "status": "Not yet assessed"
+        }
+      ]
     },
     {
       "pm_id": "BRS1-FM1-PM2",
       "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
-      "status": "in progress — full-methods and food evidence reconciliation pending",
+      "status": "blocked — original methods and direction-of-benefit adjudication for cerebral-exchange candidate",
       "existing_sops": [],
       "existing_lifestyle": [],
       "decisions": [
@@ -73,17 +115,21 @@
         "Alpha-lactalbumin proxy effects already represented by SF2; no independently justified transport-optimisation regimen established in this pass."
       ],
       "food_evidence_review": {
-        "status": "pending",
+        "status": "complete: existing mapper yields no food-linked records",
         "food_pages_inspected": [],
         "candidate_ids": [],
-        "external_search_gate": "Inspect linked canonical food evidence first"
+        "external_search_gate": "Inspect linked canonical food evidence first",
+        "source": "BRS1-FM1-PM2-food-screen.json",
+        "disposition": "No food-page-derived SOP found through current canonical mapping; does not establish absence of dietary interventions. External cerebral-exchange candidate preserved."
       },
-      "retrieval_followup": "pms/BRS1-FM1-PM2.md#retrieval-follow-up"
+      "retrieval_followup": "pms/BRS1-FM1-PM2.md#retrieval-follow-up",
+      "pass_1_status": "blocked — original methods and direction-of-benefit adjudication for cerebral-exchange candidate",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS1-FM1-PM3",
       "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
-      "status": "in progress — food source and principal-route adjudication pending",
+      "status": "implemented with tracked appraisal limitations",
       "existing_sops": [
         "PM3-SOP-1",
         "PM3-SOP-2",
@@ -124,14 +170,28 @@
           "id": "PM3-LP-2",
           "disposition": "revise",
           "reason": "Retain exact supported scope; supply missing dietary_input atom (true dietary SOP; false exercise/sleep)."
+        },
+        {
+          "id": "PM3-SOP-TEA-TIMING-1",
+          "disposition": "admit",
+          "reason": "Defined upstream iron-delivery practice; original nonrandomised black-tea meal trial retrieved; no dopamine efficacy claim. See pm3-tea-appraisal.json."
         }
       ],
-      "new_admissions": [],
-      "dominance": "Diet-Supported legacy qualification retained. Principal superiority not established; no promotion added.",
+      "new_admissions": [
+        "PM3-SOP-TEA-TIMING-1"
+      ],
+      "dominance": "No principal route established by comparative evidence; dietary-first editorial placement approved. Diet-Supported qualification retained.",
       "validation": {
         "six_atoms": [],
         "mdx": "pass",
-        "dominance": "legacy retained; principal assessment incomplete"
+        "dominance": "No comparative principal route established; dietary-first editorial placement retained.",
+        "presentation_contract": "pass, 691 protected files",
+        "mechanism_tests": "10/10",
+        "scientific_frontmatter": "unchanged",
+        "interactive": "PM3 provisional status and Darcey limits verified 3 November",
+        "sec_ownership": "84 focused tests pass; 110 snapshot registry valid; 103 previous snapshots preserved",
+        "broader_sec_suite": "3 legacy harness failures reproduced without ownership extension",
+        "production_build": "Stopped during compilation for disk exhaustion: 248 MiB available; no successful production build claimed."
       },
       "paper_examples": [
         "Iron meal matrix affects upstream provision, not demonstrated dopamine response.",
@@ -140,31 +200,66 @@
       ],
       "unresolved": [
         "Yoga Nidra full primary paper recovered. Determine exact transferable protocol and appropriate canonical evidence linkage; no automatic need for one Finding per paper.",
-        "Complete original-source appraisal for food-page candidates and record mission-specific principal-route assessment; preserve legacy placement meanwhile."
+        "Original ascorbate methods and replication unresolved; sleep cohort independence unresolved. Three tracked assessment gaps; no fabricated totals."
       ],
       "food_evidence_review": {
-        "status": "candidate screening performed; source appraisal partial",
-        "food_pages_inspected": [
-          "black-beans",
-          "almonds",
-          "green-tea",
-          "spinach",
-          "sesame-seeds",
-          "tahini",
-          "chicken",
-          "tofu",
-          "turkey"
-        ],
-        "candidate_ids": [],
-        "external_search_gate": "Inspect linked canonical food evidence first",
-        "extraction_file": "PM3-food-evidence-extraction.json",
-        "linked_food_pages_extracted": 155
+        "status": "screened with candidate dispositions and documented retrieval limitations",
+        "pages_screened": 155,
+        "report": "pm3-sec/food-reuse-dispositions.md"
+      },
+      "pass_1_status": "food evidence screened and dispositions recorded; existing scientific flags remain",
+      "pass_2_status": "PM3 exception: five provisional, two pending assessments pinned",
+      "presentation_status": "Six-atom implementation validated; SOP and Lifestyle browser expansion passed",
+      "intervention_assessments": [
+        {
+          "id": "PM3-SOP-1",
+          "status": "Pending appraisal"
+        },
+        {
+          "id": "PM3-SOP-2",
+          "status": "Provisionally assessed"
+        },
+        {
+          "id": "PM3-SOP-3",
+          "status": "Provisionally assessed"
+        },
+        {
+          "id": "PM3-SOP-4",
+          "status": "Provisionally assessed"
+        },
+        {
+          "id": "PM3-LP-1",
+          "status": "Provisionally assessed"
+        },
+        {
+          "id": "PM3-LP-2",
+          "status": "Pending appraisal"
+        },
+        {
+          "id": "PM3-SOP-TEA-TIMING-1",
+          "status": "Provisionally assessed"
+        }
+      ],
+      "dominance_note": "Scientific principal route remains unresolved; dietary-first editorial placement authorised independently.",
+      "intervention_sec_review": {
+        "date": "2026-11-03",
+        "provisional": 5,
+        "pending": 2,
+        "new_pinned_snapshots": 7,
+        "previous_snapshots_unchanged": 103,
+        "report": "pm3-sec/assessment-report.md",
+        "remaining": [
+          "SOP1 original methods and independent replication appraisal",
+          "LP2 cohort independence",
+          "SOP4 causal/admission adjudication; no automatic withdrawal",
+          "SF11 wording flagged separately; unchanged"
+        ]
       }
     },
     {
       "pm_id": "BRS1-FM1-PM4",
       "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
-      "status": "in progress — food evidence reconciliation pending",
+      "status": "implemented with limitations; mechanism vocabulary reconciliation remains open",
       "existing_sops": [],
       "existing_lifestyle": [],
       "decisions": [
@@ -173,12 +268,17 @@
           "reason": "Replace authoring-template placeholder and inappropriate dietary-requirement language in empty Lifestyle section."
         }
       ],
-      "new_admissions": [],
+      "new_admissions": [
+        "PM4-SOP-PHYTASE-1",
+        "PM4-SOP-TEA-TIMING-1"
+      ],
       "dominance": "Legacy qualification retained; no new principal route established.",
       "validation": {
-        "six_atoms": [],
+        "six_atoms_references_categories": "pass",
         "mdx": "pass",
-        "canonical_identity": "unchanged"
+        "presentation_contract": "pass",
+        "interactive": "pass: category and tea six atoms opened on canonical preview; screenshot saved",
+        "protected_records": "unchanged"
       },
       "paper_examples": [
         "Proxy endpoint specificity: pupil change is not direct noradrenaline release."
@@ -188,34 +288,52 @@
         "Cold-stress tyrosine studies do not isolate central noradrenaline from dopamine/other responses."
       ],
       "food_evidence_review": {
-        "status": "pending",
-        "food_pages_inspected": [],
-        "candidate_ids": [],
-        "external_search_gate": "Inspect linked canonical food evidence first"
+        "pages_screened": 80,
+        "source_reuse": "Subset of PM3 155-page screen; PM4 relevance independently checked against PM4-F2",
+        "report": "pms/BRS1-FM1-PM4.md"
       },
-      "status_before_food_reuse_requirement": "complete with limitations"
+      "status_before_food_reuse_requirement": "complete with limitations",
+      "pass_1_status": "implemented with limitations; mechanism vocabulary reconciliation remains open",
+      "pass_2_status": "Not yet assessed"
     },
     {
       "pm_id": "BRS1-FM1-PM5",
       "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
-      "status": "in progress — food evidence reconciliation pending",
+      "status": "implemented — final browser validation pending",
       "existing_sops": [],
       "existing_lifestyle": [],
       "decisions": [
         {
           "disposition": "revise",
           "reason": "Replace SOP template placeholder with governed light/circadian category."
+        },
+        {
+          "id": "PM5-SOP-PHYTASE-1",
+          "disposition": "admit",
+          "reason": "Human cereal iron-absorption intervention connects to independently established iron-dependent TPH in PM5-F2; upstream provision only."
+        },
+        {
+          "id": "PM5-SOP-TEA-TIMING-1",
+          "disposition": "admit",
+          "reason": "Defined black-tea timing increases measured iron absorption; upstream TPH cofactor supply only, no serotonin or mood endpoint."
         }
       ],
       "new_admissions": [
-        "PM5-SOP-LIGHT-1"
+        "PM5-SOP-LIGHT-1",
+        "PM5-SOP-PHYTASE-1",
+        "PM5-SOP-TEA-TIMING-1"
       ],
       "dominance": "No principal-route change; one seasonal experiment does not establish primacy.",
       "validation": {
         "six_atoms_references_category": "pass",
         "protected_records": "unchanged",
         "mdx": "pass",
-        "interactive": "pass: actual localhost SOP/category/input disclosures opened; six atoms and reference 19 rendered"
+        "interactive": "pass: localhost parent/category/first-click six atoms; seasonal and regional nulls, Not yet assessed retained",
+        "intervention_sec": "Not yet assessed",
+        "baseline_blockers": [
+          "Existing duplicate Derived dietary target PM5-DIT-4 / PM5-DIT-3; reproduced at HEAD; not changed in intervention work.",
+          "Existing stale reference-register formatting reproduced at HEAD."
+        ]
       },
       "paper_examples": [
         "Season-specific central serotonin-transporter target engagement by a defined light protocol."
@@ -225,48 +343,72 @@
         "Cross-PM light protocols may have different independently supported endpoints; do not count additive benefit."
       ],
       "food_evidence_review": {
-        "status": "pending",
-        "food_pages_inspected": [],
-        "candidate_ids": [],
-        "external_search_gate": "Inspect linked canonical food evidence first"
+        "status": "complete",
+        "pages_screened": 51,
+        "report": "pms/BRS1-FM1-PM5.md"
       },
-      "status_before_food_reuse_requirement": "complete with limitations"
+      "status_before_food_reuse_requirement": "complete with limitations",
+      "pass_1_status": "implemented — final browser validation pending",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification",
+      "presentation_status": "Approved six-atom disclosure implemented and browser verified",
+      "intervention_assessments": [
+        {
+          "id": "PM5-SOP-LIGHT-1",
+          "status": "Not yet assessed"
+        },
+        {
+          "id": "PM5-SOP-PHYTASE-1",
+          "status": "Not yet assessed"
+        },
+        {
+          "id": "PM5-SOP-TEA-TIMING-1",
+          "status": "Not yet assessed"
+        }
+      ]
     },
     {
       "pm_id": "BRS1-FM2-PM6",
       "file": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
-      "status": "in progress — food evidence reconciliation pending",
+      "status": "blocked — defined formulation identity and exposure adjudication",
       "existing_sops": [],
       "existing_lifestyle": [],
       "decisions": [
         {
           "disposition": "revise",
           "reason": "Replace leaked category/projection instructions with reader-facing empty states; no intervention removed."
+        },
+        {
+          "id": "choline-formulation-comparison",
+          "disposition": "defer",
+          "reason": "Defined 3 g choline-equivalent research formulation supports a plasma response; lower-dose trial did not reproduce AUC superiority. No generic egg, cooking or lecithin recommendation. Conditional protocol and exact formulation mapping require adjudication; no new score."
         }
       ],
       "new_admissions": [],
       "dominance": "Existing Diet-Dominant label preserved; no new principal SOP or Lifestyle route established. No new promotion.",
       "validation": {
         "six_atoms_references_categories": "pass",
-        "mdx": "pass",
-        "interactive": "pending"
+        "mdx": "pass 2026-11-03",
+        "interactive": "pending",
+        "dietary_atom_boundary": "Existing PM6-DIT-2 / PM6-DIT-1 substrate-provision display duplication reported; no dietary admission edits in this SOP review."
       },
       "paper_examples": [],
       "unresolved": [
-        "Retrieved human trial abstracts do not establish a synthesis-targeted protocol. No claim of exhaustive negative evidence; full-text appraisal required before reconsidering a candidate."
+        "3-g freeze-dried egg-phospholipid formulation must not be projected as ordinary eggs or generic lecithin; exact identity/exposure admission unresolved.",
+        "Human neuronal synthesis measurement is not imposed as an additional admission rule."
       ],
       "food_evidence_review": {
-        "status": "pending",
-        "food_pages_inspected": [],
-        "candidate_ids": [],
-        "external_search_gate": "Inspect linked canonical food evidence first"
+        "status": "23 pages and relevant references screened; original choline-form trials appraised; defined formulation candidate remains",
+        "pages_screened": 23,
+        "report": "pms/BRS1-FM2-PM6.md"
       },
-      "status_before_food_reuse_requirement": "complete with limitations"
+      "status_before_food_reuse_requirement": "complete with limitations",
+      "pass_1_status": "blocked — defined formulation identity and exposure adjudication",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS1-FM3-PM7",
       "file": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
-      "status": "in progress — food evidence reconciliation pending",
+      "status": "implemented with limitations — formulation methods retrieval remains unresolved",
       "existing_sops": [],
       "existing_lifestyle": [],
       "decisions": [
@@ -281,12 +423,14 @@
       "dominance": "Diet-Dominant retained; new conditional supplementation remains in 3.2 without principal promotion.",
       "validation": {
         "six_atoms_references_categories": "pass",
-        "mdx": "pass",
-        "interactive": "pass: localhost SOP and Conditional Supplementation disclosures opened; exact protocol and citation 19 displayed"
+        "mdx": "pass 2026-11-03",
+        "interactive": "PASS 2026-11-03: family/category controls, one-click six atoms, separately listed null outcomes, Not yet assessed, no speculative collapsed mechanism",
+        "presentation_contract": "691 protected files pass"
       },
       "paper_examples": [],
       "unresolved": [
-        "CSF exposure is not direct neuronal membrane incorporation; no clinical benefit inferred."
+        "CSF exposure is not direct neuronal membrane incorporation; no clinical benefit inferred.",
+        "Lawson/Hughes original methods unavailable from Scite; indexed original-paper mirror timed out. Formulation-specific meal-fat protocol remains deferred."
       ],
       "food_evidence_review": {
         "status": "pending",
@@ -294,12 +438,20 @@
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
       },
-      "status_before_food_reuse_requirement": "complete with limitations"
+      "status_before_food_reuse_requirement": "complete with limitations",
+      "pass_1_status": "in progress — food evidence reconciliation pending",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification",
+      "intervention_assessments": [
+        {
+          "id": "PM7-SOP-DHA-1",
+          "status": "Not yet assessed"
+        }
+      ]
     },
     {
       "pm_id": "BRS1-FM4-PM9",
       "file": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
-      "status": "in progress — food evidence reconciliation pending",
+      "status": "complete with limitations",
       "existing_sops": [],
       "existing_lifestyle": [],
       "decisions": [
@@ -311,21 +463,43 @@
       "new_admissions": [],
       "dominance": "Diet-Supported retained; no principal SOP or Lifestyle established.",
       "validation": {
-        "six_atoms_references_categories": "pass",
+        "six_atoms": "pass (no admitted records)",
         "mdx": "pass",
-        "canonical_edits": "none"
+        "interactive": "Both 3.2 and 3.3 opened on actual localhost page; canonical empty states; no injected ketogenic candidate",
+        "scientific_boundary": "Concentration is not synthesis flux"
       },
       "paper_examples": [],
       "unresolved": [
         "Human intervention effects on GAD-dependent synthesis capacity remain unestablished by the reviewed sources; no new scientific Evidence Gap created."
       ],
       "food_evidence_review": {
-        "status": "pending",
-        "food_pages_inspected": [],
+        "status": "completed relevance screen; no qualifying B6-delivery or GAD-synthesis preparation candidate",
+        "food_pages_inspected": [
+          "docs/foods/bananas.md",
+          "docs/foods/beef.md",
+          "docs/foods/black-beans.md",
+          "docs/foods/broccoli-sprouts.md",
+          "docs/foods/broccoli.md",
+          "docs/foods/chicken.md",
+          "docs/foods/chickpeas.md",
+          "docs/foods/chicory-root.md",
+          "docs/foods/nori.md",
+          "docs/foods/nutritional-yeast.md",
+          "docs/foods/potatoes.md",
+          "docs/foods/quinoa.md",
+          "docs/foods/salmon-roe.md",
+          "docs/foods/soy.md",
+          "docs/foods/spinach.md",
+          "docs/foods/turkey.md"
+        ],
         "candidate_ids": [],
-        "external_search_gate": "Inspect linked canonical food evidence first"
+        "source": "BRS1-FM4-PM9-food-screen.json",
+        "disposition": "The 16 mapped B6 food pages concern resistant starch, flavanols, carotenoids, iron, mineral antinutrients, DHA or general protein preparation. None establishes a preparation-specific B6/PLP or GAD-synthesis intervention. These different endpoints are not inherited merely because the food contains B6.",
+        "source_appraisal_boundary": "No food-page candidate passed PM relevance screening; no unrelated original paper was counted as appraised. Existing targeted yoga, exercise, B6 and sleep research is retained in the PM report."
       },
-      "status_before_food_reuse_requirement": "complete with limitations"
+      "status_before_food_reuse_requirement": "complete with limitations",
+      "pass_1_status": "complete with limitations",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS1-FM4-PM10",
@@ -356,12 +530,14 @@
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
       },
-      "status_before_food_reuse_requirement": "complete with limitations"
+      "status_before_food_reuse_requirement": "complete with limitations",
+      "pass_1_status": "in progress — food evidence reconciliation pending",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS1-FM4-PM11",
       "file": "docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx",
-      "status": "in progress — food evidence reconciliation pending",
+      "status": "in progress — experimental exercise exposure and magnesium preparation appraisal",
       "existing_sops": [],
       "existing_lifestyle": [],
       "decisions": [
@@ -379,20 +555,63 @@
       },
       "paper_examples": [],
       "unresolved": [
-        "Preclinical protective experiments do not establish a transferable human excitotoxicity protocol; no claim that lifestyle has no biological effect."
+        "Original Morris 1988 processing procedure and magnesium estimates unavailable in retrieved abstract.",
+        "Model-specific exercise protocols require appraisal; do not reject solely because nonhuman."
       ],
       "food_evidence_review": {
-        "status": "pending",
-        "food_pages_inspected": [],
-        "candidate_ids": [],
-        "external_search_gate": "Inspect linked canonical food evidence first"
+        "status": "complete",
+        "food_pages_inspected": [
+          "docs/foods/almonds.md",
+          "docs/foods/amaranth.md",
+          "docs/foods/barley.md",
+          "docs/foods/beetroot.md",
+          "docs/foods/black-beans.md",
+          "docs/foods/broccoli-sprouts.md",
+          "docs/foods/broccoli.md",
+          "docs/foods/buckwheat.md",
+          "docs/foods/cacao-powder.md",
+          "docs/foods/cashews.md",
+          "docs/foods/chia-seeds.md",
+          "docs/foods/chickpeas.md",
+          "docs/foods/chicory-root.md",
+          "docs/foods/cocoa.md",
+          "docs/foods/dark-chocolate.md",
+          "docs/foods/flax-seeds.md",
+          "docs/foods/greek-yogurt.md",
+          "docs/foods/kidney-beans.md",
+          "docs/foods/lupin-beans.md",
+          "docs/foods/milk.md",
+          "docs/foods/nori.md",
+          "docs/foods/oats.md",
+          "docs/foods/peanuts.md",
+          "docs/foods/pumpkin-seeds.md",
+          "docs/foods/quinoa.md",
+          "docs/foods/salmon-roe.md",
+          "docs/foods/seaweed.md",
+          "docs/foods/sesame-seeds.md",
+          "docs/foods/sourdough-bread.md",
+          "docs/foods/spinach.md",
+          "docs/foods/sunflower-seeds.md",
+          "docs/foods/swiss-chard.md",
+          "docs/foods/tempeh.md",
+          "docs/foods/tofu.md",
+          "docs/foods/walnuts.md",
+          "docs/foods/wheat.md",
+          "docs/foods/whole-grains.md"
+        ],
+        "candidate_ids": [
+          "magnesium-phytate-reduction"
+        ],
+        "disposition": "Full Bohn 2004 read; challenge experiment is not preparation trial. Morris 1988 primary abstract recovered; methods and Mg-specific estimates still needed."
       },
-      "status_before_food_reuse_requirement": "complete with limitations"
+      "status_before_food_reuse_requirement": "complete with limitations",
+      "pass_1_status": "in progress — experimental exercise exposure and magnesium preparation appraisal",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS1-FM5-PM12",
       "file": "docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx",
-      "status": "not-started",
+      "status": "implemented with limitations",
       "existing_sops": [
         "PM12-SOP-1",
         "PM12-SOP-2",
@@ -404,61 +623,237 @@
         "PM12-LS-2",
         "PM12-LS-3"
       ],
-      "decisions": [],
+      "decisions": [
+        {
+          "id": "PM12-SOP-1",
+          "disposition": "revise",
+          "reason": "Retain existing experimental-context admission; approved six-atom presentation, species-qualified effects, independent limitations and explicit Not yet assessed. See PM report."
+        },
+        {
+          "id": "PM12-SOP-2",
+          "disposition": "revise",
+          "reason": "Retain existing experimental-context admission; approved six-atom presentation, species-qualified effects, independent limitations and explicit Not yet assessed. See PM report."
+        },
+        {
+          "id": "PM12-SOP-3",
+          "disposition": "revise",
+          "reason": "Retain existing experimental-context admission; approved six-atom presentation, species-qualified effects, independent limitations and explicit Not yet assessed. See PM report."
+        },
+        {
+          "id": "PM12-SOP-DEFERRED-1",
+          "disposition": "revise",
+          "reason": "Retain existing experimental-context admission; approved six-atom presentation, species-qualified effects, independent limitations and explicit Not yet assessed. See PM report."
+        },
+        {
+          "id": "PM12-LS-1",
+          "disposition": "revise",
+          "reason": "Retain existing experimental-context admission; approved six-atom presentation, species-qualified effects, independent limitations and explicit Not yet assessed. See PM report."
+        },
+        {
+          "id": "PM12-LS-2",
+          "disposition": "revise",
+          "reason": "Retain existing experimental-context admission; approved six-atom presentation, species-qualified effects, independent limitations and explicit Not yet assessed. See PM report."
+        },
+        {
+          "id": "PM12-LS-3",
+          "disposition": "revise",
+          "reason": "Retain existing experimental-context admission; approved six-atom presentation, species-qualified effects, independent limitations and explicit Not yet assessed. See PM report."
+        }
+      ],
       "new_admissions": [],
-      "dominance": null,
-      "validation": null,
-      "paper_examples": [],
-      "unresolved": [],
+      "dominance": "Existing Lifestyle-Dominant placement retained; no new comparative claim",
+      "validation": {
+        "mdx": "pass",
+        "structured_handoffs": "7/7 pass",
+        "presentation_contract": "691 pages pass",
+        "interactive": "All seven six-atom disclosures checked on localhost 2026-11-03"
+      },
+      "paper_examples": [
+        "Species-qualified learning, sleep and running structural endpoints; experimental precursor combinations are not human prescriptions"
+      ],
+      "unresolved": [
+        "Intervention-specific SEC deferred to Pass 2.",
+        "Human translation not established; newly recovered sleep/SV2A study not fully appraised and not admitted."
+      ],
       "food_evidence_review": {
-        "status": "pending",
-        "food_pages_inspected": [],
+        "status": "complete",
+        "food_pages_inspected": [
+          "docs/foods/broccoli.md",
+          "docs/foods/duck-fat.md",
+          "docs/foods/egg-yolks.md",
+          "docs/foods/eggs.md",
+          "docs/foods/liver.md",
+          "docs/foods/quinoa.md",
+          "docs/foods/salmon-roe.md",
+          "docs/foods/soy-lecithin.md",
+          "docs/foods/soy.md",
+          "docs/foods/sunflower-lecithin.md",
+          "docs/foods/tempeh.md",
+          "docs/foods/tofu.md",
+          "docs/foods/trout-roe.md",
+          "docs/foods/wheat-germ.md",
+          "docs/foods/milk.md",
+          "docs/foods/algal-oil.md",
+          "docs/foods/anchovies.md",
+          "docs/foods/cockles.md",
+          "docs/foods/herring.md",
+          "docs/foods/lumpfish-roe.md",
+          "docs/foods/mackerel.md",
+          "docs/foods/mussels.md",
+          "docs/foods/oysters.md",
+          "docs/foods/salmon.md",
+          "docs/foods/sardines.md",
+          "docs/foods/tuna.md"
+        ],
         "candidate_ids": [],
-        "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+        "disposition": "No additional PM-specific preparation practice established; original citations and exposure distinctions reviewed."
+      },
+      "pass_1_status": "implemented with limitations",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification",
+      "intervention_assessments": [
+        {
+          "id": "PM12-SOP-1",
+          "status": "Not yet assessed"
+        },
+        {
+          "id": "PM12-SOP-2",
+          "status": "Not yet assessed"
+        },
+        {
+          "id": "PM12-SOP-3",
+          "status": "Not yet assessed"
+        },
+        {
+          "id": "PM12-SOP-DEFERRED-1",
+          "status": "Not yet assessed"
+        },
+        {
+          "id": "PM12-LS-1",
+          "status": "Not yet assessed"
+        },
+        {
+          "id": "PM12-LS-2",
+          "status": "Not yet assessed"
+        },
+        {
+          "id": "PM12-LS-3",
+          "status": "Not yet assessed"
+        }
+      ]
     },
     {
       "pm_id": "BRS2-FM1-PM1",
       "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
-      "status": "not-started",
+      "status": "implemented with limitations — folic-acid protocol methods blocked",
       "existing_sops": [],
       "existing_lifestyle": [],
-      "decisions": [],
-      "new_admissions": [],
-      "dominance": null,
-      "validation": null,
+      "decisions": [
+        {
+          "id": "PM1-SOP-FOLATE-STEAM-1",
+          "disposition": "admit",
+          "reason": "Defined preparation preserves established dietary substrate; no tissue-response inference."
+        },
+        {
+          "disposition": "remove from active presentation",
+          "reason": "Legacy meal-timing, generic mineral soaking and fat-soluble nutrient advice lacked a demonstrated remethylation relationship; source preserved in before-copy."
+        },
+        {
+          "id": "PM1-SOP-NORI-B12-1",
+          "disposition": "admit",
+          "reason": "Defined tested food protocol supports existing B12 supply; no flux/clinical inference or other-seaweed equivalence."
+        }
+      ],
+      "new_admissions": [
+        "PM1-SOP-FOLATE-STEAM-1",
+        "PM1-SOP-NORI-B12-1"
+      ],
+      "dominance": "Existing Diet-Dominant retained; no comparative dominance claim introduced",
+      "validation": {
+        "mdx": "PASS",
+        "protected_records": "unchanged against before-copy",
+        "presentation": "PASS 691 protected files",
+        "governance": "PASS 64 PMs, zero issues",
+        "focused_tests": "20/20 PASS",
+        "interactive": "PASS steaming and nori first-click six atoms with citations, null outcomes and Not yet assessed",
+        "detailed_atom_validator": "6 pre-existing warnings unchanged, 0 introduced; see BRS2-FM1-PM1-validation.json",
+        "sec": "110 snapshots valid; no new assessment in this continuation",
+        "production_build": "PASS 1154 HTML pages, exit 0; production-build-brs2-final-2026-11-03.json"
+      },
       "paper_examples": [],
-      "unresolved": [],
+      "unresolved": [
+        "Stam 2005 full methods blocked: Scite abstract only, VU dissertation HTTP403; no supplement admission from incomplete appraisal.",
+        "Intervention SEC remains Not yet assessed under Pass 1."
+      ],
       "food_evidence_review": {
-        "status": "pending",
-        "food_pages_inspected": [],
-        "candidate_ids": [],
-        "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+        "status": "complete",
+        "source": "BRS2-FM1-PM1-food-screen.json",
+        "food_page_count": 141
+      },
+      "pass_1_status": "in progress",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification",
+      "intervention_assessments": [
+        {
+          "id": "PM1-SOP-FOLATE-STEAM-1",
+          "status": "Not yet assessed"
+        },
+        {
+          "id": "PM1-SOP-NORI-B12-1",
+          "status": "Not yet assessed"
+        }
+      ]
     },
     {
       "pm_id": "BRS2-FM1-PM2",
       "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
-      "status": "not-started",
+      "status": "implemented preparation — remaining protocol appraisal pending",
       "existing_sops": [],
       "existing_lifestyle": [],
-      "decisions": [],
-      "new_admissions": [],
+      "decisions": [
+        {
+          "id": "PM2-SOP-MALTED-OATS-1",
+          "disposition": "admit",
+          "reason": "Defined experimental preparation improves absorption of admitted catalytic zinc; no BHMT response inferred."
+        }
+      ],
+      "new_admissions": [
+        "PM2-SOP-MALTED-OATS-1"
+      ],
       "dominance": null,
-      "validation": null,
+      "validation": {
+        "mdx": "PASS",
+        "protected_records": "unchanged",
+        "interactive": "PASS: oats first-click six atoms; protocol, null outcome, citations and Not yet assessed visible",
+        "production": "pending",
+        "focused_tests": "20/20 PASS after all three BRS2 additions",
+        "production_build": "PASS 1154 HTML pages, exit 0; production-build-brs2-final-2026-11-03.json"
+      },
       "paper_examples": [],
-      "unresolved": [],
+      "unresolved": [
+        "Exact oat preparation candidate implementation pending; primary methods/results retrieved.",
+        "Betaine-rich pattern and cooking original protocols need retrieval.",
+        "Fasting/exercise candidates require mechanism-specific benefit adjudication."
+      ],
       "food_evidence_review": {
-        "status": "pending",
-        "food_pages_inspected": [],
-        "candidate_ids": [],
-        "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+        "status": "screened; PM-specific candidate adjudication in progress",
+        "source": "BRS2-FM1-PM2-food-screen.json",
+        "count": 151,
+        "exact_prior_section_matches": 145,
+        "new_or_changed_pages": 6
+      },
+      "pass_1_status": "in progress",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification",
+      "report": "pms/BRS2-FM1-PM2.md",
+      "intervention_assessments": [
+        {
+          "id": "PM2-SOP-MALTED-OATS-1",
+          "status": "Not yet assessed"
+        }
+      ]
     },
     {
       "pm_id": "BRS2-FM1-PM3",
       "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx",
-      "status": "not-started",
+      "status": "in progress — food reuse and targeted discovery",
       "existing_sops": [],
       "existing_lifestyle": [],
       "decisions": [],
@@ -468,11 +863,13 @@
       "paper_examples": [],
       "unresolved": [],
       "food_evidence_review": {
-        "status": "pending",
-        "food_pages_inspected": [],
-        "candidate_ids": [],
-        "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+        "status": "screened; candidate appraisal in progress",
+        "source": "BRS2-FM1-PM3-food-screen.json",
+        "food_page_count": 53,
+        "exact_prior_screen_matches": 53
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS2-FM1-PM4",
@@ -491,7 +888,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS2-FM2-PM5",
@@ -510,7 +909,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS2-FM2-PM6",
@@ -529,7 +930,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS2-FM3-PM7",
@@ -548,7 +951,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS3-FM1-PM1",
@@ -569,7 +974,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS3-FM1-PM2",
@@ -590,7 +997,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS3-FM2-PM3",
@@ -611,7 +1020,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS3-FM2-PM4",
@@ -630,7 +1041,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS3-FM2-PM5",
@@ -649,7 +1062,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS3-FM2-PM6",
@@ -668,7 +1083,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS3-FM3-PM7",
@@ -687,7 +1104,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS3-FM3-PM8",
@@ -706,7 +1125,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS4-FM1-PM1",
@@ -725,7 +1146,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS4-FM1-PM2",
@@ -746,7 +1169,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS4-FM1-PM3",
@@ -768,7 +1193,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS4-FM2-PM4",
@@ -791,7 +1218,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS4-FM2-PM5",
@@ -810,7 +1239,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS4-FM3-PM6",
@@ -831,7 +1262,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS4-FM3-PM7",
@@ -852,7 +1285,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS4-FM3-PM8",
@@ -873,7 +1308,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS4-FM4-PM9",
@@ -894,7 +1331,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS5-FM1-PM1",
@@ -917,7 +1356,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS5-FM1-PM2",
@@ -938,7 +1379,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS5-FM1-PM3",
@@ -957,7 +1400,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS5-FM2-PM4",
@@ -976,7 +1421,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS5-FM2-PM5",
@@ -995,7 +1442,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS5-FM2-PM6",
@@ -1014,7 +1463,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS5-FM3-PM7",
@@ -1033,7 +1484,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS5-FM3-PM8",
@@ -1052,7 +1505,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS6-FM1-PM1",
@@ -1082,7 +1537,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS6-FM1-PM2",
@@ -1107,7 +1564,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS6-FM1-PM3",
@@ -1131,7 +1590,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS6-FM2-PM4",
@@ -1152,7 +1613,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS6-FM3-PM6",
@@ -1173,7 +1636,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS6-FM3-PM7",
@@ -1197,7 +1662,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS6-FM4-PM8",
@@ -1221,7 +1688,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS6-FM4-PM9",
@@ -1242,7 +1711,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS-X(Circadian-FM1-PM1)",
@@ -1265,7 +1736,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS-X(Circadian-FM1-PM2)",
@@ -1286,7 +1759,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS-X(ECS-PM1)",
@@ -1305,7 +1780,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS-X(ECS-PM2)",
@@ -1324,7 +1801,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS-X(ECS-PM3)",
@@ -1343,7 +1822,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS-X(ECS-PM4)",
@@ -1362,7 +1843,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS-X(ECS-PM5)",
@@ -1383,7 +1866,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS-X(Hormones-PM1)",
@@ -1402,7 +1887,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS-X(Hormones-PM2)",
@@ -1421,7 +1908,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS-X(Hormones-PM3)",
@@ -1440,7 +1929,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS-X(Hormones-PM4)",
@@ -1461,7 +1952,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS-X(Hormones-PM5)",
@@ -1482,7 +1975,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     },
     {
       "pm_id": "BRS-X(Hormones-PM6)",
@@ -1501,7 +1996,9 @@
         "food_pages_inspected": [],
         "candidate_ids": [],
         "external_search_gate": "Inspect linked canonical food evidence first"
-      }
+      },
+      "pass_1_status": "not-started",
+      "pass_2_status": "Not started — follows Pass 1; existing assessments require identity verification"
     }
   ],
   "food_evidence_reuse_contract": {
@@ -1510,5 +2007,17 @@
     "completion_gate": "Canonical food-page screening, candidate provenance and underlying-source appraisal recorded; unresolved retrieval is explicit.",
     "candidate_register": "food-evidence-candidates.json",
     "workflow": "food-evidence-reuse-workflow.md"
+  },
+  "execution_rule": {
+    "passes": [
+      "Scientific eligibility and six-atom implementation",
+      "Intervention-specific SEC appraisal"
+    ],
+    "priority": "Complete Pass 1 and paper extraction before framework-wide Pass 2",
+    "default_intervention_sec_status": "Not yet assessed",
+    "existing_assessment_rule": "Retain only valid exact intervention–outcome assessments; never inherit SF scores",
+    "scope": "SOPs and Lifestyle Levers, including governed promotion",
+    "editorial_placement": "Admitted Dietary Levers first by default; independent of scientific dominance. Existing approved exceptions preserved.",
+    "dominance_gate": "Comparative dominance is not a routine Pass 1 presentation blocker; preserve uncertainty separately."
   }
 }
