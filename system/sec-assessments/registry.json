@@ -15447,6 +15447,654 @@
         "adjustedScore": null,
         "capRationale": "Existing D/B/P/R ceilings applied; no additional cap."
       }
+    },
+    {
+      "sha256": "e5b32f3823c9b2473ff745bac284de9d363a944271f88095901b18ca6a18fa21",
+      "record": {
+        "id": "lat1-pm2-f1-assessment",
+        "recordVersion": 3,
+        "pmId": "BRS1-FM1-PM2",
+        "findingId": "PM2-F1",
+        "title": "Shared LAT1 transport and precursor competition",
+        "proposition": "Large neutral amino acids share competitive transport through LAT1 (SLC7A5) with the SLC3A2 heavy chain; plasma composition helps shape substrate availability but is not a direct measurement of net brain uptake.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "lastEvidenceAssessmentDate": "2026-11-03",
+        "process": "Codex proposition-level appraisal of original rat transport and molecular expression evidence; retrieved original 1977 paper and previously recovered Kanai/Boado full text. No human scientific acceptance recorded.",
+        "methodology": {
+          "name": "SEC calibration rubric, existing D/B/P/R anchors and caps",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html",
+          "version": "Source snapshot SHA-256 304dfe0a2bb08c0c95bf88677371957cab4b8b2365150941e840648ef544cb9a"
+        },
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 1
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 5,
+        "adjustedScore": 5,
+        "capRationale": "No ceiling applies to D2/B1/P1/R1; provisional 5/8 for the scoped transport proposition, not a dietary efficacy score.",
+        "rationale": {
+          "D": "Direct tracer competition in rat BBB experiments and selective transport after LAT1/4F2hc co-expression address the experimental transport proposition. Human meal efficacy is outside the claim; molecular structures are corroboration, not clinical transport measurements.",
+          "B": "Internal controls include reference tracer and efflux checks in the rat experiment, subunit-alone/water controls and ion/substrate comparisons in expression experiments. These support interpretation, but the small experiments do not establish random allocation or blinded analysis; residual model and assay concerns remain.",
+          "P": "Concentration-response data and reported replicate variability resolve the direction of competition and selective transport. Small animal groups and oocyte assays do not establish precise cross-model physiological effect sizes or human net flux; precision is bounded rather than high.",
+          "R": "Rat competition and independent Kanai expression work converge across methods. Boado shares the Pardridge investigator lineage and uses a related oocyte approach; these are not counted as fully independent replications of the complete BBB proposition. Structural corroboration is not transport replication."
+        },
+        "limitations": [
+          "Rat BBB transport, heterologous molecular function and human protein structure are distinct evidence levels; none establishes an ordinary-meal effect on human brain flux or cognition.",
+          "The 1975 paper and Yan 2019 remain abstract/record-level checks; the numerical appraisal rests on accessible experimental methods, not assumed methods in those reports.",
+          "Plasma ratios omit intracellular exchange conditions and do not measure net BBB uptake.",
+          "The current score is provisional and does not imply qualified human scientific review."
+        ],
+        "sources": {
+          "supporting": [
+            "10.1111/j.1471-4159.1977.tb07714.x",
+            "10.1074/jbc.273.37.23629",
+            "10.1073/pnas.96.21.12079"
+          ],
+          "contextual": [
+            "10.1016/0005-2736(75)90347-8",
+            "10.1038/s41586-019-1011-z",
+            "10.1093/emboj/21.4.580"
+          ],
+          "targetedChecks": [
+            {
+              "doi": "10.1111/j.1471-4159.1977.tb07714.x",
+              "role": "direct animal competition",
+              "access": "Original six-page author-posted PDF retrieved 2026-11-03; methods and competition results inspected.",
+              "assessment": "Reference-tracer uptake, efflux and albumin controls; graded neutral-amino-acid competition. Same investigator lineage as 1975; small animal groups."
+            },
+            {
+              "doi": "10.1074/jbc.273.37.23629",
+              "role": "molecular functional evidence",
+              "access": "Scite full-text methods/results inspected.",
+              "assessment": "Rat LAT1 and 4F2hc co-expression, control injections, substrate/ion tests and trans-stimulated efflux; separate oocyte batches, not human BBB flux."
+            },
+            {
+              "doi": "10.1073/pnas.96.21.12079",
+              "role": "BBB-derived molecular evidence",
+              "access": "Scite full-text methods/results inspected.",
+              "assessment": "Bovine brain-capillary clone, heterologous uptake and selective competition; overlapping Pardridge lineage."
+            },
+            {
+              "doi": "10.1093/emboj/21.4.580",
+              "role": "boundary check",
+              "access": "PubMed abstract screened; not used to upgrade methodological or replication scores.",
+              "assessment": "Obligatory exchange and intracellular substrate dependence constrain a plasma-only model; not a contradiction of competition."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://doi.org/10.1016/0005-2736(75)90347-8",
+              "limitation": "Abstract-level verification only."
+            },
+            {
+              "url": "https://doi.org/10.1038/s41586-019-1011-z",
+              "limitation": "Abstract and structural record verified; full methods unavailable in this review."
+            }
+          ],
+          "contradictoryAssessment": "Targeted search identified exchange dependence as a limitation of plasma-only predictions, not a refutation of the scoped competition proposition. No claim of exhaustive contradiction search or human efficacy replication."
+        },
+        "history": [
+          {
+            "date": "2026-10-19",
+            "decision": "Bounded reassessment in the existing isolated checkout. Preserve inherited Finding IDs, six atoms and KC decisions. Correct Wurtman direction from recovered Table 2; separate elementary provenance, plasma modulation and functional inference. PM2-only SEC integration authorised by user."
+          },
+          {
+            "date": "2026-10-19",
+            "decision": "Finalise PM-local supporting source anchors and DOI-linked contextual evidence using the existing audit renderer. Preserve version 1, exact proposition, factors and score. No new bibliography record or scientific admission."
+          },
+          {
+            "date": "2026-11-03",
+            "decision": "Owner requested scoring and Stage 2B completion. New v3 appraises consolidated empirical transport evidence; v1/v2 remain immutable. SF1 remains an empirical transport Finding, not solely an identity Principle."
+          }
+        ],
+        "previousAssessments": [
+          {
+            "id": "lat1-pm2-f1-assessment",
+            "recordVersion": 1,
+            "pmId": "BRS1-FM1-PM2",
+            "findingId": "PM2-F1",
+            "title": "Shared LAT1 transport and precursor competition",
+            "proposition": "Large neutral amino acids share competitive transport through LAT1 (SLC7A5) with the SLC3A2 heavy chain; plasma composition helps shape substrate availability but is not a direct measurement of net brain uptake.",
+            "assessmentStatus": "not-scored",
+            "assessmentComplete": false,
+            "lastEvidenceAssessmentDate": "2026-10-19",
+            "process": "Codex bounded Stage 2A/2B appraisal; full-text recovery and proposition-level SEC assessment. No human scientific review recorded.",
+            "methodology": {
+              "name": "SEC calibration rubric, existing D/B/P/R anchors and caps",
+              "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+            },
+            "factors": {
+              "D": null,
+              "B": null,
+              "P": null,
+              "R": null
+            },
+            "factorStates": {
+              "D": "unresolved",
+              "B": "unresolved",
+              "P": "unresolved",
+              "R": "unresolved"
+            },
+            "rawScore": null,
+            "adjustedScore": null,
+            "capRationale": "No numerical synthesis score assigned.",
+            "rationale": {
+              "D": "Not scored: retained biochemical provenance or an interpretive/phenome boundary, not a newly quantified intervention proposition.",
+              "B": "No numerical bias judgement assigned to an unscored contextual or provenance record.",
+              "P": "No numerical precision judgement or zero inferred from missing assessment.",
+              "R": "No numerical replication judgement assigned; curated agreement is not empirical replication."
+            },
+            "limitations": [
+              "Curated transporter and structural records do not quantify an ordinary meal effect in the human brain. The plasma-ratio proxy is not the sole determinant of net flux. The original Finding ID and source history are retained.",
+              "Evidence-confidence conclusions distinguish scientific limitations from retrieval limitations. No human expert review or PM-wide Reviewed status is inferred."
+            ],
+            "sources": {
+              "supporting": [
+                "https://www.uniprot.org/entry/P08195",
+                "https://www.ebi.ac.uk/emdb/EMD-9721"
+              ],
+              "contextual": [
+                "https://doi.org/10.1093/ajcn/81.5.1026",
+                "https://doi.org/10.3390/nu17071196"
+              ],
+              "contradictoryAssessment": "Ashley 1982 unfortified evening meals and the 2013 starch control did not reproduce a universal carbohydrate-induced rise. The 2025 sleep/performance null constrains functional extrapolation, not the measured acute plasma effect.",
+              "targetedChecks": [
+                {
+                  "doi": "10.1093/ajcn/77.1.128",
+                  "role": "supporting and directional correction",
+                  "access": "Scite abstract only; published five-page full text recovered and examined via public PDF.",
+                  "assessment": "Random-order crossover, Table 2, multiplicity-aware analysis; both protein-arm ratios decreased."
+                },
+                {
+                  "doi": "10.1016/j.clnu.2012.11.027",
+                  "role": "supporting with null control",
+                  "access": "Full institutional manuscript, UC eScholarship.",
+                  "assessment": "Distinct protein-source effects and starch null; six men, four visits, no human brain outcome."
+                },
+                {
+                  "doi": "10.1093/ajcn/36.1.143",
+                  "role": "contradictory to universal-direction claim",
+                  "access": "Scite/PubMed abstract plus author-posted results and figures.",
+                  "assessment": "Unfortified evening-meal ratios unchanged; different protocol, not equivalence."
+                }
+              ],
+              "retrievalLimited": [
+                {
+                  "url": "https://doi.org/10.1007/BF01252031",
+                  "limitation": "Scite returned abstract only. Publisher/repository recovery search did not establish full methods access; no concealment, blinding or paired confidence interval assumed."
+                }
+              ]
+            },
+            "history": [
+              {
+                "date": "2026-10-19",
+                "decision": "Bounded reassessment in the existing isolated checkout. Preserve inherited Finding IDs, six atoms and KC decisions. Correct Wurtman direction from recovered Table 2; separate elementary provenance, plasma modulation and functional inference. PM2-only SEC integration authorised by user."
+              }
+            ]
+          }
+        ],
+        "completenessVersion": 1,
+        "assessmentGaps": []
+      }
+    },
+    {
+      "sha256": "c26667c05ebf868d9c20266e5fb5659bc604abf03a1bc43928171694693ec4ab",
+      "record": {
+        "id": "lat1-pm2-f3-assessment",
+        "recordVersion": 3,
+        "pmId": "BRS1-FM1-PM2",
+        "findingId": "PM2-F3",
+        "title": "Plasma-ratio changes do not establish ordinary-meal functional benefit",
+        "proposition": "The ordinary-meal studies assessed here measured plasma amino-acid ratios, not brain transport or ADHD outcomes; findings from enriched-protein attention studies do not establish ordinary-meal efficacy.",
+        "assessmentStatus": "not-scored",
+        "assessmentComplete": false,
+        "lastEvidenceAssessmentDate": "2026-11-03",
+        "process": "Codex bounded Stage 2A/2B appraisal; full-text recovery and proposition-level SEC assessment. No human scientific review recorded.",
+        "methodology": {
+          "name": "SEC calibration rubric, existing D/B/P/R anchors and caps",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html",
+          "version": "Source snapshot SHA-256 304dfe0a2bb08c0c95bf88677371957cab4b8b2365150941e840648ef544cb9a"
+        },
+        "factors": {
+          "D": null,
+          "B": null,
+          "P": null,
+          "R": null
+        },
+        "factorStates": {
+          "D": "pending",
+          "B": "pending",
+          "P": "pending",
+          "R": "pending"
+        },
+        "rawScore": null,
+        "adjustedScore": null,
+        "capRationale": "No numerical synthesis score assigned.",
+        "rationale": {
+          "D": "Not scored: retained biochemical provenance or an interpretive/phenome boundary, not a newly quantified intervention proposition.",
+          "B": "No numerical bias judgement assigned to an unscored contextual or provenance record.",
+          "P": "No numerical precision judgement or zero inferred from missing assessment.",
+          "R": "No numerical replication judgement assigned; curated agreement is not empirical replication."
+        },
+        "limitations": [
+          "This is an assessment-scope boundary, not a claim that functional evidence is absent from the entire literature. The enriched-protein trials are not ordinary-meal or ADHD trials; no equivalence or mediation is inferred.",
+          "Evidence-confidence conclusions distinguish scientific limitations from retrieval limitations. No human expert review or PM-wide Reviewed status is inferred."
+        ],
+        "sources": {
+          "supporting": [
+            "wurtman_effects_2003",
+            "ashley_breakfast_1985"
+          ],
+          "contextual": [],
+          "contradictoryAssessment": "Ashley 1982 unfortified evening meals and the 2013 starch control did not reproduce a universal carbohydrate-induced rise. The 2025 sleep/performance null constrains functional extrapolation, not the measured acute plasma effect.",
+          "targetedChecks": [
+            {
+              "doi": "10.1093/ajcn/77.1.128",
+              "role": "supporting and directional correction",
+              "access": "Scite abstract only; published five-page full text recovered and examined via public PDF.",
+              "assessment": "Random-order crossover, Table 2, multiplicity-aware analysis; both protein-arm ratios decreased."
+            },
+            {
+              "doi": "10.1016/j.clnu.2012.11.027",
+              "role": "supporting with null control",
+              "access": "Full institutional manuscript, UC eScholarship.",
+              "assessment": "Distinct protein-source effects and starch null; six men, four visits, no human brain outcome."
+            },
+            {
+              "doi": "10.1093/ajcn/36.1.143",
+              "role": "contradictory to universal-direction claim",
+              "access": "Scite/PubMed abstract plus author-posted results and figures.",
+              "assessment": "Unfortified evening-meal ratios unchanged; different protocol, not equivalence."
+            },
+            {
+              "doi": "10.1093/ajcn/81.5.1026",
+              "role": "contextual functional evidence, not ordinary-meal replication",
+              "access": "Full institutional manuscript; methods and reported results examined.",
+              "assessment": "Twenty-eight healthy adults with/without mild sleep complaints; enriched-protein crossover measured next-morning attention. Does not prove LAT1 mediation or ordinary-meal benefit."
+            },
+            {
+              "doi": "10.3390/nu17071196",
+              "role": "contextual null/contrary functional evidence",
+              "access": "Scite full-text methods and results examined.",
+              "assessment": "Twenty-four sportspeople, seven-day randomised double-blind crossover; no general sleep/performance improvement and some adverse-direction endpoints. Different protocol; plasma target engagement not established by the examined outcome report."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://doi.org/10.1007/BF01252031",
+              "limitation": "Scite returned abstract only. Publisher/repository recovery search did not establish full methods access; no concealment, blinding or paired confidence interval assumed."
+            }
+          ]
+        },
+        "history": [
+          {
+            "date": "2026-10-19",
+            "decision": "Bounded reassessment in the existing isolated checkout. Preserve inherited Finding IDs, six atoms and KC decisions. Correct Wurtman direction from recovered Table 2; separate elementary provenance, plasma modulation and functional inference. PM2-only SEC integration authorised by user."
+          },
+          {
+            "date": "2026-10-19",
+            "decision": "Finalise PM-local supporting source anchors and DOI-linked contextual evidence using the existing audit renderer. Preserve version 1, exact proposition, factors and score. No new bibliography record or scientific admission."
+          },
+          {
+            "date": "2026-11-03",
+            "decision": "Explicitly track unresolved assessment eligibility without changing the proposition or historical scores."
+          }
+        ],
+        "previousAssessments": [
+          {
+            "id": "lat1-pm2-f3-assessment",
+            "recordVersion": 1,
+            "pmId": "BRS1-FM1-PM2",
+            "findingId": "PM2-F3",
+            "title": "Plasma-ratio changes do not establish ordinary-meal functional benefit",
+            "proposition": "The ordinary-meal studies assessed here measured plasma amino-acid ratios, not brain transport or ADHD outcomes; findings from enriched-protein attention studies do not establish ordinary-meal efficacy.",
+            "assessmentStatus": "not-scored",
+            "assessmentComplete": false,
+            "lastEvidenceAssessmentDate": "2026-10-19",
+            "process": "Codex bounded Stage 2A/2B appraisal; full-text recovery and proposition-level SEC assessment. No human scientific review recorded.",
+            "methodology": {
+              "name": "SEC calibration rubric, existing D/B/P/R anchors and caps",
+              "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+            },
+            "factors": {
+              "D": null,
+              "B": null,
+              "P": null,
+              "R": null
+            },
+            "factorStates": {
+              "D": "unresolved",
+              "B": "unresolved",
+              "P": "unresolved",
+              "R": "unresolved"
+            },
+            "rawScore": null,
+            "adjustedScore": null,
+            "capRationale": "No numerical synthesis score assigned.",
+            "rationale": {
+              "D": "Not scored: retained biochemical provenance or an interpretive/phenome boundary, not a newly quantified intervention proposition.",
+              "B": "No numerical bias judgement assigned to an unscored contextual or provenance record.",
+              "P": "No numerical precision judgement or zero inferred from missing assessment.",
+              "R": "No numerical replication judgement assigned; curated agreement is not empirical replication."
+            },
+            "limitations": [
+              "This is an assessment-scope boundary, not a claim that functional evidence is absent from the entire literature. The enriched-protein trials are not ordinary-meal or ADHD trials; no equivalence or mediation is inferred.",
+              "Evidence-confidence conclusions distinguish scientific limitations from retrieval limitations. No human expert review or PM-wide Reviewed status is inferred."
+            ],
+            "sources": {
+              "supporting": [
+                "https://www.uniprot.org/entry/P08195",
+                "https://www.ebi.ac.uk/emdb/EMD-9721"
+              ],
+              "contextual": [
+                "https://doi.org/10.1093/ajcn/81.5.1026",
+                "https://doi.org/10.3390/nu17071196"
+              ],
+              "contradictoryAssessment": "Ashley 1982 unfortified evening meals and the 2013 starch control did not reproduce a universal carbohydrate-induced rise. The 2025 sleep/performance null constrains functional extrapolation, not the measured acute plasma effect.",
+              "targetedChecks": [
+                {
+                  "doi": "10.1093/ajcn/77.1.128",
+                  "role": "supporting and directional correction",
+                  "access": "Scite abstract only; published five-page full text recovered and examined via public PDF.",
+                  "assessment": "Random-order crossover, Table 2, multiplicity-aware analysis; both protein-arm ratios decreased."
+                },
+                {
+                  "doi": "10.1016/j.clnu.2012.11.027",
+                  "role": "supporting with null control",
+                  "access": "Full institutional manuscript, UC eScholarship.",
+                  "assessment": "Distinct protein-source effects and starch null; six men, four visits, no human brain outcome."
+                },
+                {
+                  "doi": "10.1093/ajcn/36.1.143",
+                  "role": "contradictory to universal-direction claim",
+                  "access": "Scite/PubMed abstract plus author-posted results and figures.",
+                  "assessment": "Unfortified evening-meal ratios unchanged; different protocol, not equivalence."
+                }
+              ],
+              "retrievalLimited": [
+                {
+                  "url": "https://doi.org/10.1007/BF01252031",
+                  "limitation": "Scite returned abstract only. Publisher/repository recovery search did not establish full methods access; no concealment, blinding or paired confidence interval assumed."
+                }
+              ]
+            },
+            "history": [
+              {
+                "date": "2026-10-19",
+                "decision": "Bounded reassessment in the existing isolated checkout. Preserve inherited Finding IDs, six atoms and KC decisions. Correct Wurtman direction from recovered Table 2; separate elementary provenance, plasma modulation and functional inference. PM2-only SEC integration authorised by user."
+              }
+            ]
+          }
+        ],
+        "unscoredReason": "Interpretive-boundary eligibility requires adjudication; this is not an established biochemical identity/reaction and is not reclassified as a Scientific Principle.",
+        "completenessVersion": 1,
+        "assessmentGaps": [
+          {
+            "id": "PM2-F3-ASSESSMENT-SCOPE-1",
+            "pmId": "BRS1-FM1-PM2",
+            "findingId": "PM2-F3",
+            "sources": [
+              "wurtman_effects_2003"
+            ],
+            "dimensions": [
+              "D",
+              "B",
+              "P",
+              "R"
+            ],
+            "reason": "The record states an endpoint/inference boundary rather than an intervention effect. The completeness gate counts it as eligible, while the Finding contract distinguishes interpretive constraints. A numerical score must not be invented for absent outcomes.",
+            "attempts": [
+              {
+                "date": "2026-11-03",
+                "action": "Compared exact proposition, attached evidence and Stage 2A/SEC eligibility contracts.",
+                "outcome": "Not a Scientific Principle; interpretive status and applicability of all four quantitative rubric dimensions remain a governance decision."
+              }
+            ],
+            "resolutionAction": "Adjudicate whether to retain as a scored empirical synthesis with an exact assessable proposition or preserve as an explicitly non-scored interpretive record under a clarified eligibility contract. Preserve IDs and history.",
+            "status": "pending",
+            "history": [
+              {
+                "date": "2026-11-03",
+                "decision": "Tracked classification/appraisal task; no zero, forced score, retirement or automatic scientific Evidence Gap."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "sha256": "d96b85cb8fa365bab086a4df65ce2de9181da71371651bee16208499039cddca",
+      "record": {
+        "id": "lat1-pm2-ic1-assessment",
+        "recordVersion": 3,
+        "pmId": "BRS1-FM1-PM2",
+        "findingId": "PM2-IC1",
+        "title": "Plasma LNAA ratios are not monoamine dosing",
+        "proposition": "Plasma large-neutral-amino-acid ratio change after a meal is not equivalent to measured brain transport, monoamine synthesis or a Phenome outcome.",
+        "assessmentStatus": "not-scored",
+        "assessmentComplete": false,
+        "lastEvidenceAssessmentDate": "2026-11-03",
+        "process": "Codex bounded Stage 2A/2B appraisal; full-text recovery and proposition-level SEC assessment. No human scientific review recorded.",
+        "methodology": {
+          "name": "SEC calibration rubric, existing D/B/P/R anchors and caps",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html",
+          "version": "Source snapshot SHA-256 304dfe0a2bb08c0c95bf88677371957cab4b8b2365150941e840648ef544cb9a"
+        },
+        "factors": {
+          "D": null,
+          "B": null,
+          "P": null,
+          "R": null
+        },
+        "factorStates": {
+          "D": "pending",
+          "B": "pending",
+          "P": "pending",
+          "R": "pending"
+        },
+        "rawScore": null,
+        "adjustedScore": null,
+        "capRationale": "No numerical synthesis score assigned.",
+        "rationale": {
+          "D": "Not scored: retained biochemical provenance or an interpretive/phenome boundary, not a newly quantified intervention proposition.",
+          "B": "No numerical bias judgement assigned to an unscored contextual or provenance record.",
+          "P": "No numerical precision judgement or zero inferred from missing assessment.",
+          "R": "No numerical replication judgement assigned; curated agreement is not empirical replication."
+        },
+        "limitations": [
+          "The constraint is interpretive. It does not deny that brain entry can follow plasma ratios; it denies treating the attached meal endpoints as if they were those later steps.",
+          "Evidence-confidence conclusions distinguish scientific limitations from retrieval limitations. No human expert review or PM-wide Reviewed status is inferred."
+        ],
+        "sources": {
+          "supporting": [
+            "wurtman_effects_2003",
+            "ashley_breakfast_1985"
+          ],
+          "contextual": [],
+          "contradictoryAssessment": "Ashley 1982 unfortified evening meals and the 2013 starch control did not reproduce a universal carbohydrate-induced rise. The 2025 sleep/performance null constrains functional extrapolation, not the measured acute plasma effect.",
+          "targetedChecks": [
+            {
+              "doi": "10.1093/ajcn/77.1.128",
+              "role": "supporting and directional correction",
+              "access": "Scite abstract only; published five-page full text recovered and examined via public PDF.",
+              "assessment": "Random-order crossover, Table 2, multiplicity-aware analysis; both protein-arm ratios decreased."
+            },
+            {
+              "doi": "10.1016/j.clnu.2012.11.027",
+              "role": "supporting with null control",
+              "access": "Full institutional manuscript, UC eScholarship.",
+              "assessment": "Distinct protein-source effects and starch null; six men, four visits, no human brain outcome."
+            },
+            {
+              "doi": "10.1093/ajcn/36.1.143",
+              "role": "contradictory to universal-direction claim",
+              "access": "Scite/PubMed abstract plus author-posted results and figures.",
+              "assessment": "Unfortified evening-meal ratios unchanged; different protocol, not equivalence."
+            },
+            {
+              "doi": "10.1093/ajcn/81.5.1026",
+              "role": "contextual functional evidence, not ordinary-meal replication",
+              "access": "Full institutional manuscript; methods and reported results examined.",
+              "assessment": "Twenty-eight healthy adults with/without mild sleep complaints; enriched-protein crossover measured next-morning attention. Does not prove LAT1 mediation or ordinary-meal benefit."
+            },
+            {
+              "doi": "10.3390/nu17071196",
+              "role": "contextual null/contrary functional evidence",
+              "access": "Scite full-text methods and results examined.",
+              "assessment": "Twenty-four sportspeople, seven-day randomised double-blind crossover; no general sleep/performance improvement and some adverse-direction endpoints. Different protocol; plasma target engagement not established by the examined outcome report."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://doi.org/10.1007/BF01252031",
+              "limitation": "Scite returned abstract only. Publisher/repository recovery search did not establish full methods access; no concealment, blinding or paired confidence interval assumed."
+            }
+          ]
+        },
+        "history": [
+          {
+            "date": "2026-10-19",
+            "decision": "Bounded reassessment in the existing isolated checkout. Preserve inherited Finding IDs, six atoms and KC decisions. Correct Wurtman direction from recovered Table 2; separate elementary provenance, plasma modulation and functional inference. PM2-only SEC integration authorised by user."
+          },
+          {
+            "date": "2026-10-19",
+            "decision": "Finalise PM-local supporting source anchors and DOI-linked contextual evidence using the existing audit renderer. Preserve version 1, exact proposition, factors and score. No new bibliography record or scientific admission."
+          },
+          {
+            "date": "2026-11-03",
+            "decision": "Explicitly track unresolved assessment eligibility without changing the proposition or historical scores."
+          }
+        ],
+        "previousAssessments": [
+          {
+            "id": "lat1-pm2-ic1-assessment",
+            "recordVersion": 1,
+            "pmId": "BRS1-FM1-PM2",
+            "findingId": "PM2-IC1",
+            "title": "Plasma LNAA ratios are not monoamine dosing",
+            "proposition": "Plasma large-neutral-amino-acid ratio change after a meal is not equivalent to measured brain transport, monoamine synthesis or a Phenome outcome.",
+            "assessmentStatus": "not-scored",
+            "assessmentComplete": false,
+            "lastEvidenceAssessmentDate": "2026-10-19",
+            "process": "Codex bounded Stage 2A/2B appraisal; full-text recovery and proposition-level SEC assessment. No human scientific review recorded.",
+            "methodology": {
+              "name": "SEC calibration rubric, existing D/B/P/R anchors and caps",
+              "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+            },
+            "factors": {
+              "D": null,
+              "B": null,
+              "P": null,
+              "R": null
+            },
+            "factorStates": {
+              "D": "unresolved",
+              "B": "unresolved",
+              "P": "unresolved",
+              "R": "unresolved"
+            },
+            "rawScore": null,
+            "adjustedScore": null,
+            "capRationale": "No numerical synthesis score assigned.",
+            "rationale": {
+              "D": "Not scored: retained biochemical provenance or an interpretive/phenome boundary, not a newly quantified intervention proposition.",
+              "B": "No numerical bias judgement assigned to an unscored contextual or provenance record.",
+              "P": "No numerical precision judgement or zero inferred from missing assessment.",
+              "R": "No numerical replication judgement assigned; curated agreement is not empirical replication."
+            },
+            "limitations": [
+              "The constraint is interpretive. It does not deny that brain entry can follow plasma ratios; it denies treating the attached meal endpoints as if they were those later steps.",
+              "Evidence-confidence conclusions distinguish scientific limitations from retrieval limitations. No human expert review or PM-wide Reviewed status is inferred."
+            ],
+            "sources": {
+              "supporting": [
+                "https://www.uniprot.org/entry/P08195",
+                "https://www.ebi.ac.uk/emdb/EMD-9721"
+              ],
+              "contextual": [
+                "https://doi.org/10.1093/ajcn/81.5.1026",
+                "https://doi.org/10.3390/nu17071196"
+              ],
+              "contradictoryAssessment": "Ashley 1982 unfortified evening meals and the 2013 starch control did not reproduce a universal carbohydrate-induced rise. The 2025 sleep/performance null constrains functional extrapolation, not the measured acute plasma effect.",
+              "targetedChecks": [
+                {
+                  "doi": "10.1093/ajcn/77.1.128",
+                  "role": "supporting and directional correction",
+                  "access": "Scite abstract only; published five-page full text recovered and examined via public PDF.",
+                  "assessment": "Random-order crossover, Table 2, multiplicity-aware analysis; both protein-arm ratios decreased."
+                },
+                {
+                  "doi": "10.1016/j.clnu.2012.11.027",
+                  "role": "supporting with null control",
+                  "access": "Full institutional manuscript, UC eScholarship.",
+                  "assessment": "Distinct protein-source effects and starch null; six men, four visits, no human brain outcome."
+                },
+                {
+                  "doi": "10.1093/ajcn/36.1.143",
+                  "role": "contradictory to universal-direction claim",
+                  "access": "Scite/PubMed abstract plus author-posted results and figures.",
+                  "assessment": "Unfortified evening-meal ratios unchanged; different protocol, not equivalence."
+                }
+              ],
+              "retrievalLimited": [
+                {
+                  "url": "https://doi.org/10.1007/BF01252031",
+                  "limitation": "Scite returned abstract only. Publisher/repository recovery search did not establish full methods access; no concealment, blinding or paired confidence interval assumed."
+                }
+              ]
+            },
+            "history": [
+              {
+                "date": "2026-10-19",
+                "decision": "Bounded reassessment in the existing isolated checkout. Preserve inherited Finding IDs, six atoms and KC decisions. Correct Wurtman direction from recovered Table 2; separate elementary provenance, plasma modulation and functional inference. PM2-only SEC integration authorised by user."
+              }
+            ]
+          }
+        ],
+        "unscoredReason": "Interpretive-boundary eligibility requires adjudication; this is not an established biochemical identity/reaction and is not reclassified as a Scientific Principle.",
+        "completenessVersion": 1,
+        "assessmentGaps": [
+          {
+            "id": "PM2-IC1-ASSESSMENT-SCOPE-1",
+            "pmId": "BRS1-FM1-PM2",
+            "findingId": "PM2-IC1",
+            "sources": [
+              "wurtman_effects_2003"
+            ],
+            "dimensions": [
+              "D",
+              "B",
+              "P",
+              "R"
+            ],
+            "reason": "The record states an endpoint/inference boundary rather than an intervention effect. The completeness gate counts it as eligible, while the Finding contract distinguishes interpretive constraints. A numerical score must not be invented for absent outcomes.",
+            "attempts": [
+              {
+                "date": "2026-11-03",
+                "action": "Compared exact proposition, attached evidence and Stage 2A/SEC eligibility contracts.",
+                "outcome": "Not a Scientific Principle; interpretive status and applicability of all four quantitative rubric dimensions remain a governance decision."
+              }
+            ],
+            "resolutionAction": "Adjudicate whether to retain as a scored empirical synthesis with an exact assessable proposition or preserve as an explicitly non-scored interpretive record under a clarified eligibility contract. Preserve IDs and history.",
+            "status": "pending",
+            "history": [
+              {
+                "date": "2026-11-03",
+                "decision": "Tracked classification/appraisal task; no zero, forced score, retirement or automatic scientific Evidence Gap."
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }

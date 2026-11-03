@@ -188,5 +188,35 @@
     "contract": "system/sop-lifestyle-six-atom-presentation.md",
     "example": "review/sequential-pm-interventions-2026-11-02/brs2-pm1-category-correction.png",
     "scope": "Replace generic category details wrappers with existing §1.1 disclosure markup; retain all scientific content"
+  },
+  {
+    "file": "src/components/PmDietaryLeverEnhancer.tsx",
+    "sha256": "562adc84e00502109ec5b7c5472ebe64871d2eb8c8fdc15e6208b2c9b24e1e08",
+    "author_approval": "Explicit owner instruction: Delete Unauthorised Dietary Pathway Disclosure",
+    "approval_source": "Current chat, 3 November 2026: remove from all PM pages; no commit/push/deploy",
+    "proposal": "system/presentation-change-control.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "system/presentation-change-control.md",
+    "scope": "All PMs: remove nested generated pathway disclosure and exclusive data subscription; preserve six atoms and food displays"
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+    "sha256": "69555d6485ea2816550a0bfc07606e589153e285439d5d495f3de6819d810104",
+    "author_approval": "Owner EXEC: LAT1 Mission Refinement and SF1 Evidence Consolidation",
+    "approval_source": "Current chat, 3 November 2026: exact mission and targeted existing-Finding evidence update authorised",
+    "proposal": "review/lat1-mission-sf1-2026-11-03/assessment.md",
+    "contract": "system/pm-evidence-tabs-contract.md",
+    "example": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+    "scope": "PM2 only; existing Findings/reference structure regenerated with added evidence. No new presentation sections."
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+    "sha256": "cf828a083167718c0df3f8c6b8633733bfc9dcaff10f287cd1347e8022e1368a",
+    "author_approval": "Owner requested Stage 2B presentation completion and confirmed Evidence Gaps and Open Issues tabs.",
+    "approval_source": "Current chat, 3 November 2026: run Stage 2B and score Findings; clarification response: Evidence Gaps and Open Issues.",
+    "proposal": "system/pm-evidence-tabs-contract.md",
+    "contract": "system/pm-evidence-tabs-contract.md",
+    "example": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+    "scope": "LAT1 PM2 only: existing three-tab template, Section 4 Findings, existing SEC audit and independently stated meal-translation Evidence Gap. No new shared component."
   }
 ]

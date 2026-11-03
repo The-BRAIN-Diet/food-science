@@ -232,7 +232,7 @@ function createFoodSourceDetails(kind: string, sources: any[]): HTMLDetailsEleme
     attachFoodDisclosureBehaviour(box);
     return box;
 }
-export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, pm: string, label: string, section: string, pathways: any[] = []) {
+export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, pm: string, label: string, section: string) {
     section = canonicalInputSection(section);
     if (!data || !/^(BRS[1-6]-|BRS-X\()/.test(pm) || !/^3\.1\.[123]$/.test(section))
         return;
@@ -242,21 +242,6 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
     const relationships = scoped.relationships.filter(r => r.pm === pm && (r.presentations || []).some((p: any) => norm(p.label) === norm(label) && p.section === section));
     if (!relationships.length)
         return;
-    li.querySelectorAll('.pm-input-pathway-evidence').forEach(el => el.remove());
-    const routes = pathways.filter(p => p.pm === pm && relationships.some(r => r.id === `${pm}::${p.atom_id}`));
-    const audit = li.querySelector('.brs-dietary-lever-detail-inner');
-    if (audit && routes.length) {
-        const disclosure = document.createElement('details');
-        disclosure.className = 'pm-input-pathway-evidence';
-        const summary = document.createElement('summary'); summary.textContent = 'Dietary pathway evidence'; disclosure.append(summary);
-        for (const route of routes) {
-            const row = document.createElement('p');
-            row.innerHTML = `<a href="${esc(route.substance_page)}">${esc(route.input)}</a> → ${esc(route.conversion_pathway.map((e:any) => e.process).join(' → '))} → <a href="${esc(route.target_page)}">${esc(route.target_title)}</a>. ${esc(route.pm_specific_status === 'admitted-derived-pathway' ? 'Admitted Derived pathway for this receiving PM.' : 'Production context of the admitted substrate; not a new downstream PM admission.')} ${esc(route.conversion_pathway.map((e:any) => e.limitations).join(' '))}`;
-            disclosure.append(row);
-        }
-        audit.append(disclosure);
-    }
-
     if (section === '3.1.1' && relationships.some((r:any) => 'food_targets' in r)) {
         const warnings = inputCoverageWarnings(relationships);
         const detail = li.querySelector('.brs-dietary-lever-detail-inner');
