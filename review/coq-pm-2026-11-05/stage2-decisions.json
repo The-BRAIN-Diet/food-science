@@ -1,0 +1,309 @@
+{
+  "pm_id": "BRS4-FM1-PM10",
+  "parent_fm": "BRS4(FM1)",
+  "mission": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+  "placement": "No existing BRS4 PM owns endogenous CoQ production/maturation/distribution; FM1 supports cellular bioenergetic carrier pools. Existing PM1 owns downstream electron transfer.",
+  "dietary_admissions": [
+    {
+      "atom_id": "PM10-DIT-1",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "canonical_substance_id": "tyrosine",
+      "assessment_date": "2026-11-05",
+      "assessment_limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Tyrosine supplies quinone-head carbon through the HPDL-associated 4-HMA/4-HB pathway.",
+        "sources": [
+          "https://doi.org/10.1038/s41586-021-03865-w",
+          "https://reactome.org/content/detail/R-HSA-2142789"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Existing canonical food composition records establish dietary provision of this named nutrient, independently of its CoQ role.",
+        "sources": [
+          "docs/substances/nutrients/macronutrients/amino-acids/conditionals/tyrosine.md",
+          "docs/foods/beef.md",
+          "docs/foods/milk.md"
+        ]
+      },
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/substances/nutrients/macronutrients/amino-acids/conditionals/tyrosine.md",
+          "docs/foods/beef.md",
+          "docs/foods/milk.md",
+          "system/generated/brs4-input-substance-food/substance-index.md"
+        ],
+        "sufficient_coverage_rationale": "Reused existing amino-acid, riboflavin and iron composition records with original food-state and measurement provenance. No food is claimed to supply a mitochondrial dose or contain the downstream intracellular product because of precursor presence. No new nutrient concentration is inferred."
+      },
+      "active_target_id": "coq10",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ]
+    },
+    {
+      "atom_id": "PM10-DIT-2",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "canonical_substance_id": "methionine",
+      "assessment_date": "2026-11-05",
+      "assessment_limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established.",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Methionine supplies SAM used for COQ3/COQ5 methyl-group transfer.",
+        "sources": [
+          "https://doi.org/10.1038/s41929-023-01087-z",
+          "https://reactome.org/content/detail/R-HSA-2142789"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Existing canonical food composition records establish dietary provision of this named nutrient, independently of its CoQ role.",
+        "sources": [
+          "docs/substances/nutrients/macronutrients/amino-acids/essential/methionine.md",
+          "docs/foods/beef.md",
+          "docs/foods/milk.md"
+        ]
+      },
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/substances/nutrients/macronutrients/amino-acids/essential/methionine.md",
+          "docs/foods/beef.md",
+          "docs/foods/milk.md",
+          "system/generated/brs4-input-substance-food/substance-index.md"
+        ],
+        "sufficient_coverage_rationale": "Reused existing amino-acid, riboflavin and iron composition records with original food-state and measurement provenance. No food is claimed to supply a mitochondrial dose or contain the downstream intracellular product because of precursor presence. No new nutrient concentration is inferred."
+      },
+      "active_target_id": "s-adenosylmethionine",
+      "conversion_pathway": [
+        {
+          "from": "methionine",
+          "to": "s-adenosylmethionine",
+          "process": "MAT1A/MAT2A catalyse ATP-dependent methionine adenosylation to form SAM.",
+          "dependencies": [
+            "Functional MAT",
+            "ATP, magnesium and potassium",
+            "Tissue access and methyl-donor homeostasis"
+          ],
+          "limitations": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake.",
+          "evidence": {
+            "statement": "Human MAT crystallography and curated Rhea 21080; P31153 v237 and Q00266 v233.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/26858410/",
+              "https://www.uniprot.org/uniprotkb/P31153/entry",
+              "https://www.rhea-db.org/rhea/21080"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "atom_id": "PM10-DIT-3",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "canonical_substance_id": "vitamin-b2",
+      "assessment_date": "2026-11-05",
+      "assessment_limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established.",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Riboflavin supplies FAD for COQ6-associated biosynthetic activity.",
+        "sources": [
+          "https://doi.org/10.1038/s41929-023-01087-z",
+          "https://reactome.org/content/detail/R-HSA-2142789"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Existing canonical food composition records establish dietary provision of this named nutrient, independently of its CoQ role.",
+        "sources": [
+          "docs/substances/nutrients/micronutrients/vitamins/vitamin-b2.md",
+          "docs/foods/beef.md",
+          "docs/foods/milk.md"
+        ]
+      },
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/substances/nutrients/micronutrients/vitamins/vitamin-b2.md",
+          "docs/foods/beef.md",
+          "docs/foods/milk.md",
+          "system/generated/brs4-input-substance-food/substance-index.md"
+        ],
+        "sufficient_coverage_rationale": "Reused existing amino-acid, riboflavin and iron composition records with original food-state and measurement provenance. No food is claimed to supply a mitochondrial dose or contain the downstream intracellular product because of precursor presence. No new nutrient concentration is inferred."
+      },
+      "active_target_id": "flavin-adenine-dinucleotide",
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b2",
+          "to": "flavin-mononucleotide",
+          "process": "Riboflavin kinase (RFK) phosphorylates riboflavin to FMN using ATP.",
+          "dependencies": [
+            "Functional RFK",
+            "ATP and divalent metal availability"
+          ],
+          "limitations": "Enzyme identity does not quantify tissue cofactor supply or flux after a meal.",
+          "evidence": {
+            "statement": "Human RFK catalyses riboflavin phosphorylation; UniProt Q969G6 entry 195 retrieved 2026-10-26, Rhea 14357.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q969G6/entry",
+              "https://www.rhea-db.org/rhea/14357"
+            ]
+          }
+        },
+        {
+          "from": "flavin-mononucleotide",
+          "to": "flavin-adenine-dinucleotide",
+          "process": "FLAD1 FAD synthase adenylates FMN with ATP to form FAD.",
+          "dependencies": [
+            "Functional FLAD1 FAD synthase",
+            "ATP and divalent metal availability"
+          ],
+          "limitations": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred.",
+          "evidence": {
+            "statement": "Human FLAD1 catalyses FMN adenylation; UniProt Q8NFF5 entry 182 retrieved 2026-10-26, Rhea 17237.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q8NFF5/entry",
+              "https://www.rhea-db.org/rhea/17237"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "atom_id": "PM10-DIT-4",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "canonical_substance_id": "iron",
+      "assessment_date": "2026-11-05",
+      "assessment_limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established.",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Iron supports the diiron COQ7 hydroxylase and iron-dependent headgroup machinery.",
+        "sources": [
+          "https://doi.org/10.17912/micropub.biology.000635",
+          "https://reactome.org/content/detail/R-HSA-2142789"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Existing canonical food composition records establish dietary provision of this named nutrient, independently of its CoQ role.",
+        "sources": [
+          "docs/substances/nutrients/micronutrients/minerals/trace/iron.md",
+          "docs/foods/beef.md",
+          "docs/foods/milk.md"
+        ]
+      },
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/substances/nutrients/micronutrients/minerals/trace/iron.md",
+          "docs/foods/beef.md",
+          "docs/foods/milk.md",
+          "system/generated/brs4-input-substance-food/substance-index.md"
+        ],
+        "sufficient_coverage_rationale": "Reused existing amino-acid, riboflavin and iron composition records with original food-state and measurement provenance. No food is claimed to supply a mitochondrial dose or contain the downstream intracellular product because of precursor presence. No new nutrient concentration is inferred."
+      }
+    }
+  ],
+  "exercise": {
+    "atom_id": "PM10-LP-EXERCISE-1",
+    "input": "Twelve-week supervised endurance and resistance training",
+    "input_type": "exercise protocol",
+    "biological_role": "In the studied statin-user and non-user cohort, twelve weeks of combined endurance and resistance training was associated with a modest increase in total CoQ10 per gram of wet skeletal muscle.",
+    "evidence_source": {
+      "finding_ids": [
+        "PM10-F4"
+      ],
+      "citation_keys": [
+        "allard_coq_2023",
+        "allard_training_2021"
+      ]
+    },
+    "evidence_limitation": "No inactive comparison, some missing biopsies, sex/statin differences and one cohort. Concentration per wet mass is not mitochondrial-normalised concentration, synthesis rate, turnover, redistribution or redox state. CoQ change was not shown to mediate function.",
+    "dietary_input": false,
+    "admission_status": "deferred",
+    "sec_status": "Not yet assessed",
+    "biologicalRelationship": {
+      "moa": {
+        "status": "unresolved",
+        "description": "Training may alter synthesis, turnover, fibre composition or intracellular distribution; these alternatives were not isolated.",
+        "evidenceQualification": "No measured biosynthetic flux, mitochondrial-normalised CoQ or redox adaptation."
+      },
+      "measuredEffect": "In the studied statin-user and non-user cohort, twelve weeks of combined endurance and resistance training was associated with a modest increase in total CoQ10 per gram of wet skeletal muscle.",
+      "pmRelevance": "Directly measures total muscle CoQ concentration, within pool availability, without identifying its cause."
+    },
+    "limitations": [
+      {
+        "type": "design",
+        "text": "No inactive control and one reused cohort."
+      },
+      {
+        "type": "measurement",
+        "text": "Wet-muscle concentration, not mitochondrial-normalised concentration or synthetic flux."
+      },
+      {
+        "type": "null-outcome",
+        "text": "Parent trial ATP-production capacity and peak oxygen uptake did not change detectably."
+      }
+    ]
+  },
+  "nonadmissions": [
+    {
+      "input": "Phenylalanine",
+      "disposition": "Upstream systemic tyrosine contribution acknowledged; no separate duplicate admission without quantified PM-specific contribution."
+    },
+    {
+      "input": "4-HMA / 4-HB",
+      "disposition": "Genotype-specific precursor bypass is research/clinical context, not an ordinary dietary admission."
+    },
+    {
+      "input": "CoQ10 / ubiquinol",
+      "disposition": "Food occurrence retained; general muscle target engagement not established by plasma exposure. No general Type B admission."
+    },
+    {
+      "input": "Mevalonate / NADPH / NADH",
+      "disposition": "Endogenous pathway participants; no direct dietary requirement inferred."
+    },
+    {
+      "input": "Magnesium / zinc",
+      "disposition": "Reconstituted assay roles noted; further human-specific dependency appraisal required before expanding dietary admissions."
+    },
+    {
+      "input": "Exercise",
+      "disposition": "Defer causal intervention admission; observed cohort adaptation retained as SF4 and candidate six-atom record."
+    }
+  ],
+  "kc": "None created; no coherent shared pool established merely by multiple pathway cofactors.",
+  "publication": "Local only; no commit/push/merge/deployment."
+}

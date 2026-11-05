@@ -8,7 +8,7 @@ import {secAssessmentHash,validateSecRegistry,resolveSecAssessment,secTotals,sec
 import {validateScientificFindings,renderScientificFindingsSection} from './lib/scientific-findings.mjs';
 import * as principles from '../src/lib/scientificPrinciples.mjs';
 import * as auditPresentation from '../src/components/SecCalibrationPreview/auditPresentation.mjs';
-import {findingReaderLabel,findingInterventionLinks} from '../src/lib/scientificFindingPresentation.mjs';
+import {activeFindingNumber,findingReaderLabel,findingInterventionLinks} from '../src/lib/scientificFindingPresentation.mjs';
 
 const read=p=>fs.readFileSync(p,'utf8');
 const copy=x=>structuredClone(x);
@@ -148,7 +148,7 @@ test('legacy Finding evidence HTML is unchanged except the approved derived SF t
   for(const f of data.scientific_findings) {
     const html=render(current,{finding:f});
     if(/^PM\d+-F\d+$/.test(f.id))assert.ok(html.includes(findingReaderLabel(f)));
-    assert.equal(html.replace(/SF\d+ — /g,''),render(old,{finding:f}));
+    assert.equal(html.replace(/SF\d+ — /g,'').replace('Canonical record ID:', 'Finding ID:'),render(old,{finding:f}));
   }
 });
 
@@ -160,6 +160,7 @@ test('reference renderer reuses indicator and audit, exposes pinned history and 
     '../../../system/sec-assessments/registry.json':registry,
     '../../lib/secAssessments.mjs':{resolveSecAssessment,secAssessmentView,secAuditAnchor},
     '../../lib/scientificPrinciples.mjs':principles,
+    '../../lib/scientificFindingPresentation.mjs':{activeFindingNumber,findingReaderLabel,findingInterventionLinks},
     '../ScientificFinding':currentFinding,
     '../EvidenceGaps/Disclosure':disclosure,
     '../EvidenceGaps/Audit':transparencyAudit,
@@ -173,7 +174,8 @@ test('reference renderer reuses indicator and audit, exposes pinned history and 
   render(module.CanonicalSecAudit,{findings:[f],pmId:r.pmId,page,panelId:'audit'});
   assert.equal(auditProps[0].assessmentPage,page);
   assert.equal(auditProps[0].assessmentView(r).title,f.finding_label);
-  assert.equal(auditProps[0].assessmentView(r).shortId,'SF5');
+  // Without an active Finding inventory, preserve the canonical identity rather than invent numbering.
+  assert.equal(auditProps[0].assessmentView(r).shortId,r.findingId);
   assert.deepEqual(auditProps[0].assessmentRecords,[r]);
   // Older versions live in record history; a newer registry entry must never
   // replace the version pinned by the Finding or become a duplicate disclosure.
@@ -189,6 +191,7 @@ function assertPublicationGate(scripts) {
   // Approved dietary governance runs first. SEC must still fail closed before
   // generation; no semicolon, OR-chain or ignored failure may bypass either gate.
   assert.deepEqual(scripts.prebuild.split(/\s*&&\s*/),[
+    'npm run presentation:check',
     'node scripts/check-dietary-input-governance.mjs',
     'node scripts/check-sec-assessments.mjs',
     'node scripts/generate-all-input-mappings.mjs',

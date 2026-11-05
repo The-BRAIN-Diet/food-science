@@ -1,0 +1,42 @@
+[
+  {
+    "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx",
+    "sourceRecordsRemoved": 0,
+    "referenceCount": 9
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx",
+    "sourceRecordsRemoved": 0,
+    "referenceCount": 5
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx",
+    "sourceRecordsRemoved": 0,
+    "referenceCount": 10
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+    "sourceRecordsRemoved": 0,
+    "referenceCount": 12
+  },
+  {
+    "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx",
+    "sourceRecordsRemoved": 4,
+    "referenceCount": 14
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+    "sourceRecordsRemoved": 15,
+    "referenceCount": 27
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
+    "sourceRecordsRemoved": 0,
+    "referenceCount": 25
+  },
+  {
+    "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx",
+    "sourceRecordsRemoved": 18,
+    "referenceCount": 24
+  }
+]

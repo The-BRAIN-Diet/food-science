@@ -40,6 +40,55 @@
     "flags": []
   },
   {
+    "relationship_id": "BRS4-FM1-PM10::PM10-DIT-1",
+    "source_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-1",
+    "input": "Tyrosine",
+    "dietary_input": true,
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS4-FM1-PM10::PM10-DIT-2",
+    "source_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-2",
+    "input": "Methionine",
+    "dietary_input": true,
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS4-FM1-PM10::PM10-DIT-3",
+    "source_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-3",
+    "input": "Vitamin B2",
+    "dietary_input": true,
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS4-FM1-PM10::PM10-DIT-4",
+    "source_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-4",
+    "input": "Iron",
+    "dietary_input": true,
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS4-FM1-PM10::PM10-DIT-5",
+    "source_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-5",
+    "input": "CoQ10",
+    "dietary_input": false,
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS4-FM1-PM10::PM10-DIT-6",
+    "source_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-6",
+    "input": "S-adenosylmethionine (SAM)",
+    "dietary_input": false,
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS4-FM1-PM10::PM10-DIT-7",
+    "source_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-7",
+    "input": "Flavin adenine dinucleotide (FAD)",
+    "dietary_input": false,
+    "flags": []
+  },
+  {
     "relationship_id": "BRS4-FM1-PM2::PM2-DIT-1",
     "source_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx#dietary_input_traceability/PM2-DIT-1",
     "input": "Nicotinamide (a form of vitamin B3)",

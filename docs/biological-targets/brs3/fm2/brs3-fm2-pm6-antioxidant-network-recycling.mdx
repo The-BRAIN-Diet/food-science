@@ -370,6 +370,7 @@ references:
   - >-
     [Marcocci et al. (1997) — Evidence for a functional relevance of the selenocysteine residue in mammalian
     thioredoxin reductase](/docs/papers/BRAIN-Diet-References#marcocci_selenium_thioredoxin_1997)
+  - '[Bruno et al. (2006)](/docs/papers/BRAIN-Diet-References#bruno_retention_2006)'
 hide_title: true
 phenome_relationships:
   - target_phenome: Cognitive Clarity
@@ -715,7 +716,100 @@ kc_applicability_adjudications:
       The vitamin C and vitamin E radical reaction does not show that cysteine and glycine availability
       constrains recycling. The mapping stays unresolved, so it is not published.
 sidebar_label: BRS3-2-6 — Antioxidant Network Recycling
+system_optimisation_practices:
+  - atom_id: PM6-SOP-VITAMIN-C-RETENTION-1
+    input: Vitamin C supplementation and vitamin E retention
+    input_type: context-specific dietary protocol
+    biological_role: >-
+      Abstract reports 25% and 45% slower fractional disappearance in smokers; no corresponding effect in
+      nonsmokers.
+    evidence_source:
+      citation_keys:
+        - bruno_retention_2006
+    evidence_limitation: >-
+      No significant change in nonsmoker disappearance, tocopherol maximal concentration/time-to-maximum, or
+      F2-isoprostanes in either group. Small smoker-specific response; no general population supplementation
+      rule. Retention cannot establish reduced oxidative injury or clinical benefit. Low-ascorbate diet and
+      17-day supplementation with day-14 tracer challenge; not a recommendation to restrict vitamin C or to
+      offset smoking harms.
+    dietary_input: true
+    intervention_admitted: 'Yes'
+    optimisation_category: conditional_supplementation
+    food_strategy_scope: supplementation
+    reader_description: >-
+      Abstract reports 25% and 45% slower fractional disappearance in smokers; no corresponding effect in
+      nonsmokers.
+    biologicalRelationship:
+      moa:
+        status: unresolved
+        description: >-
+          Ascorbate reduction of tocopheroxyl radicals is established chemically, but the human experiment
+          infers recycling from slower disappearance.
+        evidenceQualification: proposed in this intervention
+      measuredEffect: >-
+        Abstract reports 25% and 45% slower fractional disappearance in smokers; no corresponding effect in
+        nonsmokers.
+      pmRelevance: >-
+        Antioxidant regeneration is PM6’s operation; retention is a related endpoint, not direct regeneration
+        flux.
+    limitations:
+      - type: null-outcome
+        text: >-
+          No significant change in nonsmoker disappearance, tocopherol maximal concentration/time-to-maximum,
+          or F2-isoprostanes in either group.
+      - type: population
+        text: Small smoker-specific response; no general population supplementation rule.
+      - type: inference
+        text: Retention cannot establish reduced oxidative injury or clinical benefit.
+      - type: protocol
+        text: >-
+          Low-ascorbate diet and 17-day supplementation with day-14 tracer challenge; not a recommendation to
+          restrict vitamin C or to offset smoking harms.
+    study_context: >-
+      Randomised double-blind crossover: 11 smokers and 13 nonsmokers; 500 mg ascorbate twice daily for 17
+      days on a low-ascorbate diet, tracer challenge on day 14, three-month washout. Labelled tocopherol
+      kinetics fitted over 24–72 hours; repeated-measures ANOVA and Bonferroni comparisons.
+    ontology:
+      substances:
+        - id: vitamin-c
+          url: /docs/substances/nutrients/micronutrients/vitamins/vitamin-c
+        - id: vitamin-e
+          url: /docs/substances/nutrients/micronutrients/vitamins/vitamin-e
+      pm: BRS3-FM2-PM6
+      formulation: >-
+        Randomised double-blind crossover: 11 smokers and 13 nonsmokers; 500 mg ascorbate twice daily for 17
+        days on a low-ascorbate diet, tracer challenge on day 14, three-month washout. Labelled tocopherol
+        kinetics fitted over 24–72 hours; repeated-measures ANOVA and Bonferroni comparisons.
+    sec_status: Provisionally assessed
+    sec_assessment_ref:
+      id: brs3-fm2-pm6-pm6-sop-vitamin-c-retention-1-assessment
+      version: 1
+      sha256: cb3e8f3b55d875431a6ac99ee6ad89fc8e3ca326d0388c06e0127356f2535915
+    sec_assessed_proposition: >-
+      Two weeks of vitamin C attenuated plasma labelled alpha- and gamma-tocopherol fractional disappearance
+      in smokers, without an observed reduction in plasma F2-isoprostanes.
+    admission_decision:
+      date: '2026-11-05'
+      status: admitted
+      authority: 'Author: Batch 2 Integration and Resolution'
+      scope: >-
+        Relevant retention endpoint and established chemical recycling relationship, but original bias
+        protections, kinetic uncertainty and published critique remain incompletely appraised. Not a
+        demonstrated recycling-flux or general antioxidant-benefit protocol.
+    food_strategy_id: food-strategy-8ae28ecbcef4
+    substance_ids:
+      - vitamin-c
+      - vitamin-e
 ---
+
+import {resolveInterventionSecAssessment, secAssessmentView, secAuditAnchor} from "@site/src/lib/secAssessments.mjs";
+
+import secRegistry from "@site/system/sec-assessments/registry.json";
+
+import EvidenceAudit from "@site/src/components/SecCalibrationPreview/EvidenceAudit";
+
+import PilotInterventionDisclosure from "@site/src/components/PilotInterventionDisclosure";
+
 <p class="brs-pm-thumbnail-wrap">
   <img
     src="/img/biological-targets/brs3-portrait-thumbnail.png"
@@ -819,7 +913,9 @@ Vitamin C can reduce the vitamin E radical and return vitamin E toward its worki
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-No evidence-qualified System Optimisation Practice is established.
+<PilotInterventionDisclosure id="pm6-sop-vitamin-c-retention-1" title="Tested vitamin C protocol → slower plasma vitamin E disappearance in smokers"><div className="brs-dietary-lever-detail-inner"><p><span className="brs-dietary-lever-detail-k">Intervention</span> = Vitamin C supplementation and vitamin E retention — <a href="/docs/substances/nutrients/micronutrients/vitamins/vitamin-c">Vitamin C</a>; <a href="/docs/substances/nutrients/micronutrients/vitamins/vitamin-e">Vitamin E</a></p><p><span className="brs-dietary-lever-detail-k">Intervention type</span> = condition-specific supplementation</p><p><span className="brs-dietary-lever-detail-k">Biological relationship</span> = <strong>Mechanism of Action:</strong> Ascorbate reduction of tocopheroxyl radicals is established chemically, but the human experiment infers recycling from slower disappearance.<br /><strong>Evidence status:</strong> proposed in this intervention<br /><strong>Measured Effect:</strong> Abstract reports 25% and 45% slower fractional disappearance in smokers; no corresponding effect in nonsmokers.<br /><strong>PM Relevance:</strong> Antioxidant regeneration is PM6’s operation; retention is a related endpoint, not direct regeneration flux.</p><p><span className="brs-dietary-lever-detail-k">Evidence source</span> = <a href="#pm-ref-13">[13]</a><br /><strong>Study context:</strong> Randomised double-blind crossover: 11 smokers and 13 nonsmokers; 500 mg ascorbate twice daily for 17 days on a low-ascorbate diet, tracer challenge on day 14, three-month washout. Labelled tocopherol kinetics fitted over 24–72 hours; repeated-measures ANOVA and Bonferroni comparisons.</p><p><span className="brs-dietary-lever-detail-k">Limitations</span></p><ul><li><strong>null-outcome:</strong> No significant change in nonsmoker disappearance, tocopherol maximal concentration/time-to-maximum, or F2-isoprostanes in either group.</li><li><strong>population:</strong> Small smoker-specific response; no general population supplementation rule.</li><li><strong>inference:</strong> Retention cannot establish reduced oxidative injury or clinical benefit.</li><li><strong>protocol:</strong> Low-ascorbate diet and 17-day supplementation with day-14 tracer challenge; not a recommendation to restrict vitamin C or to offset smoking harms.</li></ul><p><span className="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — bounded, study-specific admission</p><p><a href="#sec-brs3-fm2-pm6-pm6-sop-vitamin-c-retention-1-assessment-v1">Intervention-specific SEC assessment — Section 4</a></p></div></PilotInterventionDisclosure>
+
+
 
 </div>
 </div>
@@ -878,6 +974,8 @@ This PM encodes regeneration of vitamin E by vitamin C within [BRS3(FM2)](/docs/
 ### 4.1 Scientific Findings
 
 [Scientific Findings and source assessments — Evidence & Audit](?review=1#scientific-findings).
+
+<EvidenceAudit panelId="pm6-sop-vitamin-c-retention-1-assessments" embedded assessmentHeading="Intervention-specific SEC assessments" assessmentPmId="BRS3-FM2-PM6" assessmentRecords={[{"atom_id":"PM6-SOP-VITAMIN-C-RETENTION-1","sec_assessment_ref":{"id":"brs3-fm2-pm6-pm6-sop-vitamin-c-retention-1-assessment","version":1,"sha256":"cb3e8f3b55d875431a6ac99ee6ad89fc8e3ca326d0388c06e0127356f2535915"},"sec_assessed_proposition":"Two weeks of vitamin C attenuated plasma labelled alpha- and gamma-tocopherol fractional disappearance in smokers, without an observed reduction in plasma F2-isoprostanes."}].map(intervention => resolveInterventionSecAssessment(secRegistry, {pmId: "BRS3-FM2-PM6", intervention}).record).filter(Boolean)} assessmentView={secAssessmentView} recordAnchor={secAuditAnchor} />
 
 ## 5. BRS Pathways and Connections
 
@@ -1034,4 +1132,5 @@ The standard food dropdown continues to use the existing structured relationship
 - <span id="pm-ref-10">[10]</span> [Kamerbeek et al. (2007) — Molecular basis of glutathione reductase deficiency in human blood cells](/docs/papers/BRAIN-Diet-References#kamerbeek_gsr_deficiency_2007)
 - <span id="pm-ref-11">[11]</span> [Beutler (1969) — Glutathione reductase: stimulation in normal subjects by riboflavin supplementation.](/docs/papers/BRAIN-Diet-References#beutler_riboflavin_gr_1969)
 - <span id="pm-ref-12">[12]</span> [Marcocci et al. (1997) — Evidence for a functional relevance of the selenocysteine residue in mammalian thioredoxin reductase](/docs/papers/BRAIN-Diet-References#marcocci_selenium_thioredoxin_1997)
+- <span id="pm-ref-13">[13]</span> [Bruno et al. (2006)](/docs/papers/BRAIN-Diet-References#bruno_retention_2006)
 

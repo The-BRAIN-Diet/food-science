@@ -184,6 +184,10 @@ references:
     [Yang et al. (2019) — Clinical Efficacy and Biological Regulations of omega-3 PUFA-Derived
     Endocannabinoids in Major Depressive
     Disorder](/docs/papers/BRAIN-Diet-References#yang_omega3_endocannabinoids_2019)
+  - >-
+    [Courville et al. (2023) — Dietary linoleic acid lowering alone does not lower arachidonic acid or
+    endocannabinoids among women with overweight and obesity: A randomized, controlled
+    trial](/docs/papers/BRAIN-Diet-References#courville_dietary_endocannabinoids_2023)
 hide_title: true
 scientific_findings:
   - id: PM2-F1
@@ -406,7 +410,88 @@ dietary_lever_presentations:
     reader_description: EPA supply supports formation of its corresponding ethanolamide, EPEA.
     description_finding_id: PM2-F2
 pending_actions: []
-system_optimisation_practices: []
+system_optimisation_practices:
+  - atom_id: PM2-SOP-LOW-LA-HIGH-N3-1
+    input: >-
+      Twelve-week supplied diet: LA 1% energy, EPA .16% and DHA .38%; compare low-LA/low-n3 and high-LA/low-n3
+      diets.
+    input_type: context-specific dietary protocol
+    biological_role: >-
+      Adjusted DHA-ethanolamide was higher with high n3; within-arm increase 31%. AEA and 2-AG did not differ
+      between diets.
+    evidence_source:
+      citation_keys:
+        - courville_dietary_endocannabinoids_2023
+    evidence_limitation: >-
+      LA lowering and EPA/DHA addition are a combined exposure; not evidence that LA reduction alone causes
+      benefit. AEA was not lowered; within-arm AEA rose in both low-LA groups. Power targeted fatty-acid
+      composition; unbalanced allocation, recruitment stopped early and last measurements carried forward. No
+      inflammation, brain signalling or clinical efficacy claim.
+    dietary_input: true
+    intervention_admitted: 'Yes'
+    optimisation_category: dietary_protocols
+    reader_description: >-
+      Adjusted DHA-ethanolamide was higher with high n3; within-arm increase 31%. AEA and 2-AG did not differ
+      between diets.
+    biologicalRelationship:
+      moa:
+        description: >-
+          Dietary fatty-acid supply may alter ethanolamide substrate availability; synthesis flux and
+          clearance were not separated.
+        status: unresolved
+        evidenceQualification: Proposed relationship; measured endpoint does not establish causal mediation
+      measuredEffect: >-
+        Adjusted DHA-ethanolamide was higher with high n3; within-arm increase 31%. AEA and 2-AG did not
+        differ between diets.
+      pmRelevance: >-
+        DHA-derived ethanolamide availability fits this PM; plasma concentration is not production flux or CNS
+        engagement.
+    limitations:
+      - type: attribution
+        text: >-
+          LA lowering and EPA/DHA addition are a combined exposure; not evidence that LA reduction alone
+          causes benefit.
+      - type: null-outcome
+        text: AEA was not lowered; within-arm AEA rose in both low-LA groups.
+      - type: design
+        text: >-
+          Power targeted fatty-acid composition; unbalanced allocation, recruitment stopped early and last
+          measurements carried forward.
+      - type: translation
+        text: No inflammation, brain signalling or clinical efficacy claim.
+    study_context: >-
+      Courville et al. (2023); 66 randomised women with overweight/obesity, 62 reached four weeks, 59 twelve
+      weeks. First four weeks weight maintenance; subsequent intake permitted weight loss.
+    ontology:
+      pm: BRS-X(ECS-PM2)
+      pm_file: docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx
+      endpoint_id: null
+      endpoint_note: No canonical endpoint identity invented; measured endpoint is explicit in Atom 3.
+      substances:
+        - /docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-6/linoleic-acid
+        - /docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/epa-eicosapentaenoic-acid
+        - /docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/dha-docosahexaenoic-acid
+      intervention: PM2-SOP-LOW-LA-HIGH-N3-1
+    sec_status: Provisionally assessed
+    sec_assessment_ref:
+      id: brs-x-ecs-pm2-pm2-sop-low-la-high-n3-1-assessment
+      version: 1
+      sha256: 4c814c66c63bbb0443466efd8ef145938201eed759287e17470cdbfb49063a93
+    sec_assessed_proposition: >-
+      Twelve-week supplied diet: LA 1% energy, EPA .16% and DHA .38%; compare low-LA/low-n3 and high-LA/low-n3
+      diets. Adjusted DHA-ethanolamide was higher with high n3; within-arm increase 31%. AEA and 2-AG did not
+      differ between diets.
+    admission_decision:
+      date: '2026-11-05'
+      status: admitted
+      authority: 'Author: implement five eligible Batch 3 interventions'
+      scope: Admit — bounded proposal; exact exposure, population, endpoint and limitations retained.
+    food_strategy_id: food-strategy-1f42c89b4a16
+    food_strategy_scope: dietary-protocol
+    substance_ids:
+      - linoleic-acid
+      - epa-eicosapentaenoic-acid
+      - dha-docosahexaenoic-acid
 lifestyle_priorities: []
 kc_applicability_adjudications:
   - kc_id: BRS-X(ECS-KC1)
@@ -561,6 +646,14 @@ evidence_gaps:
       - kevala_synaptamide_precursors_2020
     review_date: '2026-10-26'
 ---
+import PilotInterventionDisclosure from "@site/src/components/PilotInterventionDisclosure";
+
+import EvidenceAudit from "@site/src/components/SecCalibrationPreview/EvidenceAudit";
+
+import secRegistry from "@site/system/sec-assessments/registry.json";
+
+import {resolveInterventionSecAssessment, secAssessmentView, secAuditAnchor} from "@site/src/lib/secAssessments.mjs";
+
 
 <p class="brs-pm-thumbnail-wrap"><img src="/img/biological-targets/brs-x-ecs-portrait-thumbnail.jpg" alt="BRS-X(ECS)" class="brs-pm-thumbnail" /></p>
 
@@ -652,7 +745,9 @@ No mapping established.
 <strong>3.2 System Optimisation Practices</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-No evidence-qualified System Optimisation Practice is currently established.
+<PilotInterventionDisclosure id="pm2-sop-low-la-high-n3-1" title="Tested low-LA/high-EPA/DHA diet → higher circulating DHA-ethanolamide"><div className="brs-dietary-lever-detail-inner"><p><span className="brs-dietary-lever-detail-k">Intervention</span> = Twelve-week supplied diet: LA 1% energy, EPA .16% and DHA .38%; compare low-LA/low-n3 and high-LA/low-n3 diets. — <a href="/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-6/linoleic-acid">linoleic acid</a> · <a href="/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/epa-eicosapentaenoic-acid">epa eicosapentaenoic acid</a> · <a href="/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/dha-docosahexaenoic-acid">dha docosahexaenoic acid</a></p><p><span className="brs-dietary-lever-detail-k">Intervention type</span> = SOP — Dietary Protocols</p><p><span className="brs-dietary-lever-detail-k">Biological relationship</span> = <strong>Mechanism of Action:</strong> Dietary fatty-acid supply may alter ethanolamide substrate availability; synthesis flux and clearance were not separated.<br /><strong>Evidence status:</strong> Proposed relationship; measured endpoint does not establish causal mediation<br /><strong>Measured Effect:</strong> Adjusted DHA-ethanolamide was higher with high n3; within-arm increase 31%. AEA and 2-AG did not differ between diets.<br /><strong>PM Relevance:</strong> DHA-derived ethanolamide availability fits this PM; plasma concentration is not production flux or CNS engagement.</p><p><span className="brs-dietary-lever-detail-k">Evidence source</span> = <a href="#pm-ref-7">[7]</a><br /><strong>Study context:</strong> Courville et al. (2023); 66 randomised women with overweight/obesity, 62 reached four weeks, 59 twelve weeks. First four weeks weight maintenance; subsequent intake permitted weight loss.</p><p><span className="brs-dietary-lever-detail-k">Limitations</span></p><ul><li><strong>attribution:</strong> LA lowering and EPA/DHA addition are a combined exposure; not evidence that LA reduction alone causes benefit.</li><li><strong>null-outcome:</strong> AEA was not lowered; within-arm AEA rose in both low-LA groups.</li><li><strong>design:</strong> Power targeted fatty-acid composition; unbalanced allocation, recruitment stopped early and last measurements carried forward.</li><li><strong>translation:</strong> No inflammation, brain signalling or clinical efficacy claim.</li></ul><p><span className="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — bounded, study-specific admission</p><p><a href="#sec-brs-x-ecs-pm2-pm2-sop-low-la-high-n3-1-assessment-v1">Intervention-specific SEC assessment — Section 4</a></p></div></PilotInterventionDisclosure>
+
+
 </div>
 </div>
 </div>
@@ -681,6 +776,9 @@ Both exposures supplied N-docosahexaenoyl-PE and synaptamide; equimolar free DHA
 
 
 [Scientific Findings and their source assessments are available in Evidence & Audit](?review=1#scientific-findings).
+
+<EvidenceAudit panelId="pm2-sop-low-la-high-n3-1-assessments" embedded assessmentHeading="Intervention-specific SEC assessments" assessmentPmId="BRS-X(ECS-PM2)" assessmentRecords={[{"atom_id":"PM2-SOP-LOW-LA-HIGH-N3-1","sec_assessment_ref":{"id":"brs-x-ecs-pm2-pm2-sop-low-la-high-n3-1-assessment","version":1,"sha256":"4c814c66c63bbb0443466efd8ef145938201eed759287e17470cdbfb49063a93"},"sec_assessed_proposition":"Twelve-week supplied diet: LA 1% energy, EPA .16% and DHA .38%; compare low-LA/low-n3 and high-LA/low-n3 diets. Adjusted DHA-ethanolamide was higher with high n3; within-arm increase 31%. AEA and 2-AG did not differ between diets."}].map(intervention => resolveInterventionSecAssessment(secRegistry, {pmId: "BRS-X(ECS-PM2)", intervention}).record).filter(Boolean)} assessmentView={secAssessmentView} recordAnchor={secAuditAnchor} />
+
 
 ## 5. BRS Pathways and Connections
 
@@ -803,7 +901,6 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 </div>
 </div>
 
-
 ## 8. References
 
 - <span id="pm-ref-1">[1]</span> [Watson et al. (2019) — Emerging Class of Omega-3 Fatty Acid Endocannabinoids \&amp; Their Derivatives](/docs/papers/BRAIN-Diet-References#watson_emerging_2019)
@@ -812,3 +909,5 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - <span id="pm-ref-4">[4]</span> [Kevala et al. (2020) — Biosynthesis of N-Docosahexanoylethanolamine from Unesterified Docosahexaenoic Acid and Docosahexaenoyl-Lysophosphatidylcholine in Neuronal Cells](/docs/papers/BRAIN-Diet-References#kevala_synaptamide_precursors_2020)
 - <span id="pm-ref-5">[5]</span> [Pu et al. (2016) — Interactions between dietary oil treatments and genetic variants modulate fatty acid ethanolamides in plasma and body weight composition](/docs/papers/BRAIN-Diet-References#pu_fatty_acid_ethanolamides_2016)
 - <span id="pm-ref-6">[6]</span> [Yang et al. (2019) — Clinical Efficacy and Biological Regulations of omega-3 PUFA-Derived Endocannabinoids in Major Depressive Disorder](/docs/papers/BRAIN-Diet-References#yang_omega3_endocannabinoids_2019)
+- <span id="pm-ref-7">[7]</span> [Courville et al. (2023) — Dietary linoleic acid lowering alone does not lower arachidonic acid or endocannabinoids among women with overweight and obesity: A randomized, controlled trial](/docs/papers/BRAIN-Diet-References#courville_dietary_endocannabinoids_2023)
+

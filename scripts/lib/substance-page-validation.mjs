@@ -10,6 +10,8 @@ export const CALIBRATION_SUBSTANCE_PATHS = [
   "nutrients/micronutrients/vitamins/vitamin-b12.md",
   "microbial-metabolites/secondary-plant-conversions/urolithin-a.md",
   "microbial-metabolites/scfas/butyrate.md",
+  "bioactive-compounds/phytate.md",
+  "bioactive-compounds/oxalate.md",
 ]
 
 export const CANONICAL_BRS_HUBS = new Set([
@@ -53,7 +55,10 @@ export function validateCanonicalSubstancePage(raw, label = "substance page") {
   const {data, content} = matter(raw)
   const issues = []
 
-  const offsets = REQUIRED_HEADINGS.map((heading) => [heading, headingOffset(content, heading)])
+  // The canonical schema requires a BRS section only when a mapping is evidenced.
+  const hasMapping = Object.keys(data.mechanisms || {}).length > 0 || headingOffset(content, "Biological Regulatory Systems") !== -1
+  const required = REQUIRED_HEADINGS.filter((heading) => heading !== "Biological Regulatory Systems" || hasMapping)
+  const offsets = required.map((heading) => [heading, headingOffset(content, heading)])
   for (const [heading, offset] of offsets) {
     if (offset === -1) issues.push(`missing required section: ## ${heading}`)
   }

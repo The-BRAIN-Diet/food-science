@@ -1,0 +1,659 @@
+{
+  "date": "2026-11-05",
+  "branch": "review/brs5-pm4-sec-assessment",
+  "head": "f1607fe5",
+  "status": "Review-only proposals; not canonical SEC snapshots",
+  "records": [
+    {
+      "review_id": "DISC-UROLITHIN-MITO",
+      "pm_id": "BRS4-FM2-PM5",
+      "candidate": "Urolithin A",
+      "eligibility": "Ineligible for proposed PM",
+      "recommendation": "Defer \u2014 ownership unresolved",
+      "implementation": "Not authorised; proposal only",
+      "first_line": null,
+      "source": {
+        "doi": "10.1001/jamanetworkopen.2021.44279",
+        "url": "https://doi.org/10.1001/jamanetworkopen.2021.44279",
+        "context": "Liu et al. (2022); related Singh et al. (2022), 10.1016/j.xcrm.2022.100633. Preliminary source verification only; full appraisal not undertaken after ownership gate."
+      },
+      "limitations": [
+        {
+          "type": "ownership",
+          "text": "Canonical PM5 expressly excludes mitophagy and damaged-organelle removal. PM9 formation of new mitochondria is not equivalent to mitophagic removal."
+        },
+        {
+          "type": "endpoint",
+          "text": "Older-adult ATP-production and six-minute-walk primary comparisons were null; muscle endurance is not mitophagy flux."
+        },
+        {
+          "type": "admission",
+          "text": "Historical urolithin discussion and dietary metabolites do not constitute admission of this supplement protocol."
+        }
+      ],
+      "assessment": {
+        "status": "Not assessed \u2014 eligibility gate",
+        "factors": {
+          "D": null,
+          "B": null,
+          "P": null,
+          "R": null
+        },
+        "raw_total": null,
+        "adjusted_total": null,
+        "rationale": {
+          "gate": "Do not score a mismatched receiving operation or broaden its mission. Author must resolve ownership before further appraisal."
+        },
+        "rubric": "system/sec-assessments/README.md; existing D/B/P/R anchors",
+        "human_approval": false,
+        "assessment_gaps": []
+      },
+      "six_atoms": null,
+      "canonical_file": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx",
+      "discovery_source": "review/sequential-pm-interventions-2026-11-02/manifest.json#DISC-UROLITHIN-MITO",
+      "existing_admission_check": "No exact structured intervention or intervention-specific SEC record found; existing dietary inputs and distinct protocols preserved.",
+      "ontology": {
+        "pm": "BRS4-FM2-PM5",
+        "pm_file": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx",
+        "endpoint_id": null,
+        "endpoint_note": "No canonical endpoint identity invented; measured endpoint is explicit in Atom 3.",
+        "intervention_id": null,
+        "identity_status": "Review candidate ID retained; no canonical intervention ID allocated."
+      }
+    },
+    {
+      "review_id": "DISC-ET-OXPHOS",
+      "pm_id": "BRS4-FM1-PM1",
+      "candidate": "Endurance cycling",
+      "eligibility": "Eligible endpoint; comparative efficacy uncertain",
+      "recommendation": "Defer \u2014 comparative contrast",
+      "implementation": "Not authorised; proposal only",
+      "first_line": "Eight-week endurance cycling \u2192 within-group increase in muscle mitochondrial respiration",
+      "source": {
+        "doi": "10.1210/jc.2014-3081",
+        "url": "https://doi.org/10.1210/jc.2014-3081",
+        "context": "Irving et al. (2015); 65 sedentary younger/older adults; ET n=22; biopsies 48 hours after training; assay-specific sample sizes."
+      },
+      "limitations": [
+        {
+          "type": "comparison",
+          "text": "Do not transfer combined-training versus control significance to endurance alone."
+        },
+        {
+          "type": "precision",
+          "text": "Small age subgroups, multiple substrates and variable biopsy availability."
+        },
+        {
+          "type": "scope",
+          "text": "Ex-vivo muscle respiration is not neuronal ATP supply or cognitive benefit."
+        }
+      ],
+      "assessment": {
+        "status": "codex-provisional review only",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "raw_total": 4,
+        "adjusted_total": 4,
+        "rationale": {
+          "D": "Exact muscle-respiration observation directly measured.",
+          "B": "Random allocation and supervised exposure; selected complete assays and multiple comparisons remain concerns.",
+          "P": "Figure 1 reports SEM and tests, but causal endurance-control contrast remains insufficiently established for admission.",
+          "R": "One independent dataset for this exact protocol; combined training reuses controls, not replication."
+        },
+        "rubric": "system/sec-assessments/README.md; existing D/B/P/R anchors",
+        "human_approval": false,
+        "assessment_gaps": [
+          {
+            "id": "BATCH3-ET-COMPARISON",
+            "status": "open",
+            "task": "Resolve exact endurance-versus-control respiratory contrast and uncertainty before proposing a causal superiority admission. Existing score applies only to within-arm observation.",
+            "attempted": "Primary Methods, Results and Figure 1 caption inspected; explicit control superiority concerns combined training.",
+            "source": "10.1210/jc.2014-3081",
+            "dimension": "Admission proposition; no missing numerical factor silently replaced with zero."
+          }
+        ]
+      },
+      "six_atoms": {
+        "Intervention": "Supervised cycling, approximately 65% VO2peak, 60 minutes five days/week for eight weeks; randomised nontraining control and resistance-training arms.",
+        "Intervention type": "Lifestyle Lever \u2014 Physical Activity",
+        "Biological relationship": {
+          "moa": {
+            "description": "Repeated contractile demand may remodel oxidative machinery; mediation was not isolated.",
+            "status": "Proposed relationship; measured endpoint does not establish causal mediation"
+          },
+          "measuredEffect": "State-3 respiration increased within the endurance arm; tissue complex I+II P=.059. Explicit superiority over control in the Results concerned combined training, not endurance alone.",
+          "pmRelevance": "Muscle ETC-linked oxygen flux is relevant; reduced electron leakage and brain effects were not measured."
+        },
+        "Evidence source": {
+          "doi": "10.1210/jc.2014-3081",
+          "url": "https://doi.org/10.1210/jc.2014-3081",
+          "context": "Irving et al. (2015); 65 sedentary younger/older adults; ET n=22; biopsies 48 hours after training; assay-specific sample sizes."
+        },
+        "Limitations": [
+          {
+            "type": "comparison",
+            "text": "Do not transfer combined-training versus control significance to endurance alone."
+          },
+          {
+            "type": "precision",
+            "text": "Small age subgroups, multiple substrates and variable biopsy availability."
+          },
+          {
+            "type": "scope",
+            "text": "Ex-vivo muscle respiration is not neuronal ATP supply or cognitive benefit."
+          }
+        ],
+        "Intervention admitted": "Unset"
+      },
+      "canonical_file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx",
+      "discovery_source": "review/sequential-pm-interventions-2026-11-02/manifest.json#DISC-ET-OXPHOS",
+      "existing_admission_check": "No exact structured intervention or intervention-specific SEC record found; existing dietary inputs and distinct protocols preserved.",
+      "ontology": {
+        "pm": "BRS4-FM1-PM1",
+        "pm_file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx",
+        "endpoint_id": null,
+        "endpoint_note": "No canonical endpoint identity invented; measured endpoint is explicit in Atom 3.",
+        "intervention_id": null,
+        "identity_status": "Review candidate ID retained; no canonical intervention ID allocated."
+      }
+    },
+    {
+      "review_id": "DISC-DHA-EA",
+      "pm_id": "BRS-X(ECS-PM2)",
+      "candidate": "Low-LA, high-EPA/DHA diet",
+      "eligibility": "Eligible",
+      "recommendation": "Admit \u2014 bounded proposal",
+      "implementation": "Not authorised; proposal only",
+      "first_line": "Tested low-LA/high-EPA/DHA diet \u2192 higher circulating DHA-ethanolamide",
+      "source": {
+        "doi": "10.1002/lipd.12382",
+        "url": "https://doi.org/10.1002/lipd.12382",
+        "context": "Courville et al. (2023); 66 randomised women with overweight/obesity, 62 reached four weeks, 59 twelve weeks. First four weeks weight maintenance; subsequent intake permitted weight loss."
+      },
+      "limitations": [
+        {
+          "type": "attribution",
+          "text": "LA lowering and EPA/DHA addition are a combined exposure; not evidence that LA reduction alone causes benefit."
+        },
+        {
+          "type": "null-outcome",
+          "text": "AEA was not lowered; within-arm AEA rose in both low-LA groups."
+        },
+        {
+          "type": "design",
+          "text": "Power targeted fatty-acid composition; unbalanced allocation, recruitment stopped early and last measurements carried forward."
+        },
+        {
+          "type": "translation",
+          "text": "No inflammation, brain signalling or clinical efficacy claim."
+        }
+      ],
+      "assessment": {
+        "status": "codex-provisional review only",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "raw_total": 4,
+        "adjusted_total": 4,
+        "rationale": {
+          "D": "Direct LC-MS/MS concentration endpoint for the tested diet.",
+          "B": "Controlled feeding and masking support inference; secondary endpoint, attrition and imputation limit protection.",
+          "P": "Adjusted contrasts narrow direction; magnitude and generalisability remain uncertain.",
+          "R": "One controlled feeding dataset; related oil studies do not replicate this formulation."
+        },
+        "rubric": "system/sec-assessments/README.md; existing D/B/P/R anchors",
+        "human_approval": false,
+        "assessment_gaps": []
+      },
+      "six_atoms": {
+        "Intervention": "Twelve-week supplied diet: LA 1% energy, EPA .16% and DHA .38%; compare low-LA/low-n3 and high-LA/low-n3 diets.",
+        "Intervention type": "SOP \u2014 Dietary Protocols",
+        "Biological relationship": {
+          "moa": {
+            "description": "Dietary fatty-acid supply may alter ethanolamide substrate availability; synthesis flux and clearance were not separated.",
+            "status": "Proposed relationship; measured endpoint does not establish causal mediation"
+          },
+          "measuredEffect": "Adjusted DHA-ethanolamide was higher with high n3; within-arm increase 31%. AEA and 2-AG did not differ between diets.",
+          "pmRelevance": "DHA-derived ethanolamide availability fits this PM; plasma concentration is not production flux or CNS engagement."
+        },
+        "Evidence source": {
+          "doi": "10.1002/lipd.12382",
+          "url": "https://doi.org/10.1002/lipd.12382",
+          "context": "Courville et al. (2023); 66 randomised women with overweight/obesity, 62 reached four weeks, 59 twelve weeks. First four weeks weight maintenance; subsequent intake permitted weight loss."
+        },
+        "Limitations": [
+          {
+            "type": "attribution",
+            "text": "LA lowering and EPA/DHA addition are a combined exposure; not evidence that LA reduction alone causes benefit."
+          },
+          {
+            "type": "null-outcome",
+            "text": "AEA was not lowered; within-arm AEA rose in both low-LA groups."
+          },
+          {
+            "type": "design",
+            "text": "Power targeted fatty-acid composition; unbalanced allocation, recruitment stopped early and last measurements carried forward."
+          },
+          {
+            "type": "translation",
+            "text": "No inflammation, brain signalling or clinical efficacy claim."
+          }
+        ],
+        "Intervention admitted": "Unset"
+      },
+      "canonical_file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx",
+      "discovery_source": "review/sequential-pm-interventions-2026-11-02/manifest.json#DISC-DHA-EA",
+      "existing_admission_check": "No exact structured intervention or intervention-specific SEC record found; existing dietary inputs and distinct protocols preserved.",
+      "ontology": {
+        "pm": "BRS-X(ECS-PM2)",
+        "pm_file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx",
+        "endpoint_id": null,
+        "endpoint_note": "No canonical endpoint identity invented; measured endpoint is explicit in Atom 3.",
+        "intervention_id": null,
+        "identity_status": "Review candidate ID retained; no canonical intervention ID allocated.",
+        "substances": [
+          "/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-6/linoleic-acid",
+          "/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/epa-eicosapentaenoic-acid",
+          "/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/dha-docosahexaenoic-acid"
+        ]
+      }
+    },
+    {
+      "review_id": "DISC-EUROLIVE",
+      "pm_id": "BRS3-FM2-PM5",
+      "candidate": "Olive-oil phenolics",
+      "eligibility": "Eligible with peripheral-marker boundary",
+      "recommendation": "Admit \u2014 bounded proposal",
+      "implementation": "Not authorised; proposal only",
+      "first_line": "Tested phenolic-rich olive oil \u2192 lower circulating oxidised LDL",
+      "source": {
+        "doi": "10.7326/0003-4819-145-5-200609050-00006",
+        "url": "https://doi.org/10.7326/0003-4819-145-5-200609050-00006",
+        "context": "Covas et al. (2006), EUROLIVE; 200 healthy men; randomised masked crossover; 18 noncompleters; mixed models checked period/carryover."
+      },
+      "limitations": [
+        {
+          "type": "endpoint",
+          "text": "No claim of reduced inflammatory signalling or universal systemic antioxidant effect."
+        },
+        {
+          "type": "exposure",
+          "text": "Defined oils; retail EVOO label does not guarantee tested phenolic concentration."
+        },
+        {
+          "type": "population",
+          "text": "Short interventions in healthy men; diet self-report and co-food interactions remain limitations."
+        }
+      ],
+      "assessment": {
+        "status": "codex-provisional review only",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "raw_total": 4,
+        "adjusted_total": 4,
+        "rationale": {
+          "D": "Direct assay of exact circulating oxidised-LDL proposition.",
+          "B": "Concealed sequence, matched oils and carryover testing; incomplete follow-up and self-reported background diet remain.",
+          "P": "CI narrows direction; clinical and neuronal significance not established.",
+          "R": "EUROLIVE multicentre design and later subgroup papers remain one dataset; no independent replication credit assigned."
+        },
+        "rubric": "system/sec-assessments/README.md; existing D/B/P/R anchors",
+        "human_approval": false,
+        "assessment_gaps": []
+      },
+      "six_atoms": {
+        "Intervention": "25 mL/day (22 g) raw olive oil replacing other raw fats; 366 versus 2.7 mg/kg phenolics, with intermediate 164 mg/kg arm; three weeks each, two-week washouts.",
+        "Intervention type": "SOP \u2014 Dietary Protocols",
+        "Biological relationship": {
+          "moa": {
+            "description": "Phenolic compounds may limit lipid oxidation; this trial does not isolate individual compounds or prove NF-\u03baB modulation.",
+            "status": "Proposed relationship; measured endpoint does not establish causal mediation"
+          },
+          "measuredEffect": "Oxidised LDL changed \u22123.21 U/L (95% CI \u22125.1 to \u22120.8) with high phenolics; dose trend supported. F2-isoprostanes did not vary significantly by phenolic exposure.",
+          "pmRelevance": "Peripheral lipid-oxidation evidence supports a bounded PM5 relationship, not demonstrated neuronal membrane protection."
+        },
+        "Evidence source": {
+          "doi": "10.7326/0003-4819-145-5-200609050-00006",
+          "url": "https://doi.org/10.7326/0003-4819-145-5-200609050-00006",
+          "context": "Covas et al. (2006), EUROLIVE; 200 healthy men; randomised masked crossover; 18 noncompleters; mixed models checked period/carryover."
+        },
+        "Limitations": [
+          {
+            "type": "endpoint",
+            "text": "No claim of reduced inflammatory signalling or universal systemic antioxidant effect."
+          },
+          {
+            "type": "exposure",
+            "text": "Defined oils; retail EVOO label does not guarantee tested phenolic concentration."
+          },
+          {
+            "type": "population",
+            "text": "Short interventions in healthy men; diet self-report and co-food interactions remain limitations."
+          }
+        ],
+        "Intervention admitted": "Unset"
+      },
+      "canonical_file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx",
+      "discovery_source": "review/sequential-pm-interventions-2026-11-02/manifest.json#DISC-EUROLIVE",
+      "existing_admission_check": "No exact structured intervention or intervention-specific SEC record found; existing dietary inputs and distinct protocols preserved.",
+      "ontology": {
+        "pm": "BRS3-FM2-PM5",
+        "pm_file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx",
+        "endpoint_id": null,
+        "endpoint_note": "No canonical endpoint identity invented; measured endpoint is explicit in Atom 3.",
+        "intervention_id": null,
+        "identity_status": "Review candidate ID retained; no canonical intervention ID allocated.",
+        "food": "/docs/foods/extra-virgin-olive-oil"
+      },
+      "food_evidence_reuse": "Existing food page inspected; EUROLIVE not represented in its preparation references. Candidate origin: saved literature discovery. Food-page update would require later integration; not performed."
+    },
+    {
+      "review_id": "DISC-BREATH-RECOVERY",
+      "pm_id": "BRS6-FM3-PM6",
+      "candidate": "Guided breathing",
+      "eligibility": "Eligible with HRV boundary",
+      "recommendation": "Admit \u2014 bounded proposal",
+      "implementation": "Not authorised; proposal only",
+      "first_line": "Six-minute guided breathing after a speech stressor \u2192 higher recovery RMSSD",
+      "source": {
+        "doi": "10.2196/12227",
+        "url": "https://doi.org/10.2196/12227",
+        "context": "Plans et al. (2019); 75 participants; random assignment; blinded ECG artifact review; non-preregistered pilot."
+      },
+      "limitations": [
+        {
+          "type": "protocol",
+          "text": "No verified six-breaths/minute prescription; remove that preliminary-discovery shorthand."
+        },
+        {
+          "type": "null-outcome",
+          "text": "Table 1 does not show significant HF difference versus passive control; narrative overgeneralisation is not adopted."
+        },
+        {
+          "type": "duration",
+          "text": "Monitoring ended after six minutes; breathing itself affects HRV."
+        },
+        {
+          "type": "bias",
+          "text": "Developer employees authored study; editorial notice flags nonregistration. No cardiovascular-disease prevention claim."
+        }
+      ],
+      "assessment": {
+        "status": "codex-provisional review only",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "raw_total": 4,
+        "adjusted_total": 4,
+        "rationale": {
+          "D": "Direct ECG RMSSD during specified recovery window.",
+          "B": "Randomised controls and blinded artifact handling; unregistered pilot and sponsor interests limit protection.",
+          "P": "SD and group statistics support bounded direction, not durability or clinical magnitude.",
+          "R": "One empirical pilot for this combined app/breathing protocol."
+        },
+        "rubric": "system/sec-assessments/README.md; existing D/B/P/R anchors",
+        "human_approval": false,
+        "assessment_gaps": []
+      },
+      "six_atoms": {
+        "Intervention": "Six minutes of app-guided Papworth\u2013Benson diaphragmatic breathing with heart-wave feedback versus passive control or rumination after a laboratory speech stressor.",
+        "Intervention type": "Lifestyle Lever \u2014 Stress and autonomic regulation",
+        "Biological relationship": {
+          "moa": {
+            "description": "Respiratory modulation of cardiac intervals may contribute; vagal mediation was not isolated.",
+            "status": "Proposed relationship; measured endpoint does not establish causal mediation"
+          },
+          "measuredEffect": "Recovery RMSSD 65.9 versus39.88 ms in passive control; group P=.001. Heart-rate group P=.08; subjective stress recovered in all arms.",
+          "pmRelevance": "A short autonomic-recovery marker fits PM6, without proving durable parasympathetic recovery."
+        },
+        "Evidence source": {
+          "doi": "10.2196/12227",
+          "url": "https://doi.org/10.2196/12227",
+          "context": "Plans et al. (2019); 75 participants; random assignment; blinded ECG artifact review; non-preregistered pilot."
+        },
+        "Limitations": [
+          {
+            "type": "protocol",
+            "text": "No verified six-breaths/minute prescription; remove that preliminary-discovery shorthand."
+          },
+          {
+            "type": "null-outcome",
+            "text": "Table 1 does not show significant HF difference versus passive control; narrative overgeneralisation is not adopted."
+          },
+          {
+            "type": "duration",
+            "text": "Monitoring ended after six minutes; breathing itself affects HRV."
+          },
+          {
+            "type": "bias",
+            "text": "Developer employees authored study; editorial notice flags nonregistration. No cardiovascular-disease prevention claim."
+          }
+        ],
+        "Intervention admitted": "Unset"
+      },
+      "canonical_file": "docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx",
+      "discovery_source": "review/sequential-pm-interventions-2026-11-02/manifest.json#DISC-BREATH-RECOVERY",
+      "existing_admission_check": "No exact structured intervention or intervention-specific SEC record found; existing dietary inputs and distinct protocols preserved.",
+      "ontology": {
+        "pm": "BRS6-FM3-PM6",
+        "pm_file": "docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx",
+        "endpoint_id": null,
+        "endpoint_note": "No canonical endpoint identity invented; measured endpoint is explicit in Atom 3.",
+        "intervention_id": null,
+        "identity_status": "Review candidate ID retained; no canonical intervention ID allocated."
+      }
+    },
+    {
+      "review_id": "DISC-BLUE-BLOCK",
+      "pm_id": "BRS-X(Circadian-FM1-PM1)",
+      "candidate": "Blue-blocking glasses",
+      "eligibility": "Eligible in tested pregnancy population",
+      "recommendation": "Admit \u2014 bounded proposal",
+      "implementation": "Not authorised; proposal only",
+      "first_line": "Tested evening blue-blocking glasses \u2192 earlier salivary melatonin onset",
+      "source": {
+        "doi": "10.1016/j.nbscr.2021.100074",
+        "url": "https://doi.org/10.1016/j.nbscr.2021.100074",
+        "context": "Liset et al. (2022); nulliparous third-trimester women;60 analysed,47 usable onset estimates; home saliva sampling; baseline-adjusted ANCOVA."
+      },
+      "limitations": [
+        {
+          "type": "missingness",
+          "text": "Onset estimation excluded out-of-range samples; baseline and follow-up counts differ."
+        },
+        {
+          "type": "population",
+          "text": "Pregnancy-specific, not universal sleep treatment."
+        },
+        {
+          "type": "safety",
+          "text": "Transient malaise and other symptoms reported; one control participant withdrew for severe malaise."
+        },
+        {
+          "type": "measurement",
+          "text": "Not standard dim-light laboratory onset; comparator also filters blue light."
+        }
+      ],
+      "assessment": {
+        "status": "codex-provisional review only",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "raw_total": 4,
+        "adjusted_total": 4,
+        "rationale": {
+          "D": "Direct salivary threshold-onset outcome under exact tested conditions.",
+          "B": "Randomised masked glasses; home collection and selected measurable samples remain concerns.",
+          "P": "CI spans5\u201351 minutes; no validated clinical adequacy threshold.",
+          "R": "One pregnancy dataset; healthy-adult sleep studies test another endpoint."
+        },
+        "rubric": "system/sec-assessments/README.md; existing D/B/P/R anchors",
+        "human_approval": false,
+        "assessment_gaps": []
+      },
+      "six_atoms": {
+        "Intervention": "Uvex S1933X glasses blocking 99% below530nm, from three hours before bedtime and during nocturnal light exposure for two weeks; compare partial-blocking S1905 glasses.",
+        "Intervention type": "Lifestyle Lever \u2014 Circadian regulation",
+        "Biological relationship": {
+          "moa": {
+            "description": "Short-wavelength filtering reduces retinal light exposure; the measured onset under exposure cannot separate acute suppression relief from persistent clock phase shifting.",
+            "status": "Proposed relationship; measured endpoint does not establish causal mediation"
+          },
+          "measuredEffect": "Adjusted melatonin-onset difference28 minutes (95% CI5\u201351); bedtime, sleep onset and phase angles did not differ significantly.",
+          "pmRelevance": "Light input and melatonin timing relate to entrainment; sustained phase shift and better sleep are not established."
+        },
+        "Evidence source": {
+          "doi": "10.1016/j.nbscr.2021.100074",
+          "url": "https://doi.org/10.1016/j.nbscr.2021.100074",
+          "context": "Liset et al. (2022); nulliparous third-trimester women;60 analysed,47 usable onset estimates; home saliva sampling; baseline-adjusted ANCOVA."
+        },
+        "Limitations": [
+          {
+            "type": "missingness",
+            "text": "Onset estimation excluded out-of-range samples; baseline and follow-up counts differ."
+          },
+          {
+            "type": "population",
+            "text": "Pregnancy-specific, not universal sleep treatment."
+          },
+          {
+            "type": "safety",
+            "text": "Transient malaise and other symptoms reported; one control participant withdrew for severe malaise."
+          },
+          {
+            "type": "measurement",
+            "text": "Not standard dim-light laboratory onset; comparator also filters blue light."
+          }
+        ],
+        "Intervention admitted": "Unset"
+      },
+      "canonical_file": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx",
+      "discovery_source": "review/sequential-pm-interventions-2026-11-02/manifest.json#DISC-BLUE-BLOCK",
+      "existing_admission_check": "No exact structured intervention or intervention-specific SEC record found; existing dietary inputs and distinct protocols preserved.",
+      "ontology": {
+        "pm": "BRS-X(Circadian-FM1-PM1)",
+        "pm_file": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx",
+        "endpoint_id": null,
+        "endpoint_note": "No canonical endpoint identity invented; measured endpoint is explicit in Atom 3.",
+        "intervention_id": null,
+        "identity_status": "Review candidate ID retained; no canonical intervention ID allocated."
+      }
+    },
+    {
+      "review_id": "DISC-CR-MTDNA",
+      "pm_id": "BRS4-FM4-PM9",
+      "candidate": "Calorie restriction",
+      "eligibility": "Eligible marker relationship",
+      "recommendation": "Admit \u2014 bounded proposal",
+      "implementation": "Not authorised; proposal only",
+      "first_line": "Six-month calorie restriction \u2192 higher muscle mitochondrial-DNA content",
+      "source": {
+        "doi": "10.1371/journal.pmed.0040076",
+        "url": "https://doi.org/10.1371/journal.pmed.0040076",
+        "context": "Civitarese et al. (2007);36 healthy overweight adults,12 per arm;11 paired molecular samples per arm; molecular outcomes not prespecified."
+      },
+      "limitations": [
+        {
+          "type": "endpoint",
+          "text": "Marker change must not be relabelled improved mitochondrial respiration."
+        },
+        {
+          "type": "clinical",
+          "text": "Weight and fat-free mass fell; not a general-population restriction prescription."
+        },
+        {
+          "type": "bias",
+          "text": "Small exploratory molecular analysis; multiple endpoints and unblinded exposure."
+        },
+        {
+          "type": "translation",
+          "text": "No brain-energy, longevity or ADHD benefit established."
+        }
+      ],
+      "assessment": {
+        "status": "codex-provisional review only",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "raw_total": 4,
+        "adjusted_total": 4,
+        "rationale": {
+          "D": "Exact muscle mtDNA observation measured by qPCR.",
+          "B": "Randomisation and weight-maintenance control; nonprespecified molecular outcomes limit protection.",
+          "P": "SEM supports a marker signal; small samples and null enzyme results constrain magnitude/meaning.",
+          "R": "One pilot dataset; separate cell experiments are not human replication."
+        },
+        "rubric": "system/sec-assessments/README.md; existing D/B/P/R anchors",
+        "human_approval": false,
+        "assessment_gaps": []
+      },
+      "six_atoms": {
+        "Intervention": "25% energy restriction for six months versus weight-maintenance control; separate12.5% restriction plus12.5% exercise arm not pooled.",
+        "Intervention type": "SOP \u2014 Dietary Protocols",
+        "Biological relationship": {
+          "moa": {
+            "description": "Energy deficit may engage biogenesis-associated transcription; cellular nitric-oxide experiments do not demonstrate mediation in participants.",
+            "status": "Proposed relationship; measured endpoint does not establish causal mediation"
+          },
+          "measuredEffect": "Muscle mtDNA increased35\u00b15% in restriction arm; citrate-synthase protein and tested mitochondrial enzyme activities did not increase.",
+          "pmRelevance": "mtDNA and transcription are biogenesis-associated markers, not direct organelle counts or increased respiratory capacity."
+        },
+        "Evidence source": {
+          "doi": "10.1371/journal.pmed.0040076",
+          "url": "https://doi.org/10.1371/journal.pmed.0040076",
+          "context": "Civitarese et al. (2007);36 healthy overweight adults,12 per arm;11 paired molecular samples per arm; molecular outcomes not prespecified."
+        },
+        "Limitations": [
+          {
+            "type": "endpoint",
+            "text": "Marker change must not be relabelled improved mitochondrial respiration."
+          },
+          {
+            "type": "clinical",
+            "text": "Weight and fat-free mass fell; not a general-population restriction prescription."
+          },
+          {
+            "type": "bias",
+            "text": "Small exploratory molecular analysis; multiple endpoints and unblinded exposure."
+          },
+          {
+            "type": "translation",
+            "text": "No brain-energy, longevity or ADHD benefit established."
+          }
+        ],
+        "Intervention admitted": "Unset"
+      },
+      "canonical_file": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+      "discovery_source": "review/sequential-pm-interventions-2026-11-02/manifest.json#DISC-CR-MTDNA",
+      "existing_admission_check": "No exact structured intervention or intervention-specific SEC record found; existing dietary inputs and distinct protocols preserved.",
+      "ontology": {
+        "pm": "BRS4-FM4-PM9",
+        "pm_file": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+        "endpoint_id": null,
+        "endpoint_note": "No canonical endpoint identity invented; measured endpoint is explicit in Atom 3.",
+        "intervention_id": null,
+        "identity_status": "Review candidate ID retained; no canonical intervention ID allocated."
+      }
+    }
+  ]
+}

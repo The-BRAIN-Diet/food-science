@@ -1276,7 +1276,89 @@ evidence_gaps:
     citation_keys:
       - baxter_fermentable_fibers_2019
     review_date: '2026-10-26'
+system_optimisation_practices:
+  - atom_id: PM5-SOP-POTATO-RS2-1
+    input: Unheated extracted potato resistant-starch supplementation
+    input_type: dietary protocol
+    biological_role: Potato-arm faecal butyrate increased about 29%; 63% increased and 37% were unchanged or decreased.
+    evidence_source:
+      citation_keys:
+        - baxter_fermentable_fibers_2019
+      finding_ids:
+        - PM5-F1
+      finding_role: >-
+        Mechanistic home only; intervention efficacy and SEC come from the separately cited primary trial, not
+        this Finding.
+    evidence_limitation: >-
+      Faecal concentration is not production flux, epithelial exposure or brain signalling. Extracted unheated
+      RS2 supplement; not cooked/cooled potato meals or a verified equivalent banana dose. Maize resistant
+      starch and inulin did not significantly raise butyrate; no alpha-diversity change. Small supplement
+      groups, incompletely masked participants, background diet uncontrolled and sample-completeness
+      exclusions. Individual microbiota-dependent heterogeneity; universal response is unsupported.
+    dietary_input: true
+    intervention_admitted: 'Yes'
+    optimisation_category: dietary_protocols
+    food_strategy_scope: dietary-protocol
+    reader_description: Potato-arm faecal butyrate increased about 29%; 63% increased and 37% were unchanged or decreased.
+    biologicalRelationship:
+      moa:
+        status: unresolved
+        description: >-
+          Resistant substrate fermentation and cross-feeding are biologically supported, but species-response
+          correlations do not isolate causal mediation of individual butyrate changes.
+        evidenceQualification: Observed endpoint does not identify causal mediation; no collapsed mechanism summary proposed.
+      measuredEffect: Potato-arm faecal butyrate increased about 29%; 63% increased and 37% were unchanged or decreased.
+      pmRelevance: >-
+        SCFA-related dietary substrate intervention fits PM5 with a faecal-concentration boundary, not a
+        guaranteed barrier/brain effect.
+    limitations:
+      - type: measurement
+        text: Faecal concentration is not production flux, epithelial exposure or brain signalling.
+      - type: exposure
+        text: >-
+          Extracted unheated RS2 supplement; not cooked/cooled potato meals or a verified equivalent banana
+          dose.
+      - type: null-outcome
+        text: Maize resistant starch and inulin did not significantly raise butyrate; no alpha-diversity change.
+      - type: design
+        text: >-
+          Small supplement groups, incompletely masked participants, background diet uncontrolled and
+          sample-completeness exclusions.
+      - type: response
+        text: Individual microbiota-dependent heterogeneity; universal response is unsupported.
+    study_context: >-
+      174 analysed across four supplements; potato n=43, ages 17–29. Random group assignment over four
+      academic-semester studies. Three/four baseline and intervention stools; 4–7-day dose ramp then full-dose
+      sampling. 40–48 g extracted unmodified potato starch/day, about 70% RS2 (approximately 28–34 g resistant
+      fraction), administered unheated. Analysts masked; participants masked only first semester.
+    ontology:
+      - identity: resistant-starch
+        path: docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch.md
+        role: Measured substrate; preparation-specific extracted RS2 supplement
+      - identity: potatoes
+        path: docs/foods/potatoes.md
+        role: Contextual food identity only; not the tested meal or an equivalent intervention
+    sec_status: Provisionally assessed
+    sec_assessment_ref:
+      id: brs5-fm2-pm5-pm5-sop-potato-rs2-1-assessment
+      version: 1
+      sha256: 634a75cecb3bf7a55318a4332daf80db94eef7ca350feb1d6549bacf096fa32f
+    sec_assessed_proposition: >-
+      In the tested young-adult cohort, extracted potato resistant-starch supplementation was associated with
+      higher faecal butyrate concentration during supplementation than baseline.
+    admission_decision:
+      date: '2026-11-05'
+      status: admitted
+      authority: 'Author: Implement Three Approved Priority SOPs'
+      scope: Exact tested intervention and endpoint only
+    food_strategy_id: BRS5-FM2-PM5::PM5-SOP-POTATO-RS2-1
 ---
+
+import PilotInterventionDisclosure from "@site/src/components/PilotInterventionDisclosure";
+import EvidenceAudit from "@site/src/components/SecCalibrationPreview/EvidenceAudit";
+import secRegistry from "@site/system/sec-assessments/registry.json";
+import {resolveInterventionSecAssessment, secAssessmentView, secAuditAnchor} from "@site/src/lib/secAssessments.mjs";
+
 <p class="brs-pm-thumbnail-wrap">
   <img
     src="/img/biological-targets/brs5-portrait-thumbnail.png"
@@ -1382,7 +1464,9 @@ Gut microbes ferment carbohydrates into short-chain fatty acids (SCFAs), includi
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-No separately adjudicated practice is admitted in this assessment. This is not evidence that no practice can affect the mechanism.
+<PilotInterventionDisclosure id="pm5-sop-potato-rs2-1" title="Unheated extracted potato RS2 supplementation → increased faecal butyrate concentration"><div className="brs-dietary-lever-detail-inner"><p><span className="brs-dietary-lever-detail-k">Intervention</span> = Unheated extracted potato resistant-starch supplementation (<a href="/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch">resistant starch</a>; <a href="/docs/foods/potatoes">potato</a> identity is contextual, not whole-potato equivalence)</p><p><span className="brs-dietary-lever-detail-k">Intervention type</span> = Dietary protocol</p><p><span className="brs-dietary-lever-detail-k">Biological relationship</span> = <strong>Mechanism of Action:</strong> Resistant substrate fermentation and cross-feeding are biologically supported, but species-response correlations do not isolate causal mediation of individual butyrate changes. Evidence status: unresolved. Observed endpoint does not identify causal mediation; no collapsed mechanism summary proposed.<br /><strong>Measured Effect:</strong> Potato-arm faecal butyrate increased about 29%; 63% increased and 37% were unchanged or decreased.<br /><strong>PM Relevance:</strong> SCFA-related dietary substrate intervention fits PM5 with a faecal-concentration boundary, not a guaranteed barrier/brain effect.</p><p><span className="brs-dietary-lever-detail-k">Evidence source</span> = <a href="#pm-ref-5">&#91;5&#93;</a><br /><strong>Study context:</strong> 174 analysed across four supplements; potato n=43, ages 17–29. Random group assignment over four academic-semester studies. Three/four baseline and intervention stools; 4–7-day dose ramp then full-dose sampling. 40–48 g extracted unmodified potato starch/day, about 70% RS2 (approximately 28–34 g resistant fraction), administered unheated. Analysts masked; participants masked only first semester.</p><p><span className="brs-dietary-lever-detail-k">Limitations</span></p><ul><li><strong>measurement:</strong> Faecal concentration is not production flux, epithelial exposure or brain signalling.</li><li><strong>exposure:</strong> Extracted unheated RS2 supplement; not cooked/cooled potato meals or a verified equivalent banana dose.</li><li><strong>null-outcome:</strong> Maize resistant starch and inulin did not significantly raise butyrate; no alpha-diversity change.</li><li><strong>design:</strong> Small supplement groups, incompletely masked participants, background diet uncontrolled and sample-completeness exclusions.</li><li><strong>response:</strong> Individual microbiota-dependent heterogeneity; universal response is unsupported.</li></ul><p><span className="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — author-approved, study-specific admission</p><p><a href="#sec-brs5-fm2-pm5-pm5-sop-potato-rs2-1-assessment-v1">Intervention-specific SEC assessment — Section 4</a></p></div></PilotInterventionDisclosure>
+
+
 
 </div>
 </div>
@@ -1423,6 +1507,10 @@ This PM contributes its specific process to its parent FM. Shared inputs do not 
 ### 4.1 Scientific Findings
 
 [Scientific Findings and their source assessments are available in Evidence & Audit](?review=1#scientific-findings).
+
+
+
+<EvidenceAudit panelId="pm5-sop-potato-rs2-1-assessments" embedded assessmentHeading="Intervention-specific SEC assessments" assessmentPmId="BRS5-FM2-PM5" assessmentRecords={[{"atom_id":"PM5-SOP-POTATO-RS2-1","sec_assessment_ref":{"id":"brs5-fm2-pm5-pm5-sop-potato-rs2-1-assessment","version":1,"sha256":"634a75cecb3bf7a55318a4332daf80db94eef7ca350feb1d6549bacf096fa32f"},"sec_assessed_proposition":"In the tested young-adult cohort, extracted potato resistant-starch supplementation was associated with higher faecal butyrate concentration during supplementation than baseline."}].map(intervention => resolveInterventionSecAssessment(secRegistry, {pmId: "BRS5-FM2-PM5", intervention}).record).filter(Boolean)} assessmentView={secAssessmentView} recordAnchor={secAuditAnchor} />
 
 ## 5. BRS Pathways and Connections
 

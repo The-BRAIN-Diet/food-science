@@ -119,7 +119,7 @@ export function renderNumberedPmReferencesSection(references = [], { heading = "
     const label = parsed[1];
     const href = inner.match(/\]\(([^)]+)\)/)?.[1] || "";
     lines.push(
-      `- <span id="${pmReferenceAnchorId(n)}">[${n}]</span> [${label}](${href})`,
+      `- ${/^(stage2-ref-|same-study-)/.test(parsed[2]) ? `<span id="${parsed[2]}" />` : ""}<span id="${pmReferenceAnchorId(n)}">[${n}]</span> [${label}](${href})`,
     );
   }
   return lines.join("\n").trimEnd();
@@ -130,12 +130,10 @@ export function replacePmReferencesSection(content, referencesBlock) {
   if (!match) return null;
   const start = match.index;
   const after = content.slice(start);
-  const next = after.slice(1).search(/^## \d+\. /m);
+  const next = after.slice(1).search(/^(?:#{2,3} |<PmCuratedReferences|<details>)/m);
   const end = next === -1 ? content.length : start + 1 + next;
-  const local = content.slice(start,end).split(PM_LOCAL_SOURCE_HEADING);
-  if(local.length>2)throw new Error('Duplicate PM-local source annex; refusing to overwrite authored references');
-  const annex = local.length===2 ? '\n\n'+PM_LOCAL_SOURCE_HEADING+local[1].trimEnd() : '';
-  return `${content.slice(0, start).trimEnd()}\n\n${referencesBlock}${annex}\n\n${content.slice(end).trimStart()}`;
+  if (content.includes(PM_LOCAL_SOURCE_HEADING)) throw new Error('PM-local source audit annex is withdrawn; migrate citations before regenerating references');
+  return `${content.slice(0, start).trimEnd()}\n\n${referencesBlock}\n\n${content.slice(end).trimStart()}`;
 }
 
 export function validatePmReferenceIntegrity(
@@ -173,8 +171,9 @@ export function validatePmReferenceIntegrity(
   const expected = renderNumberedPmReferencesSection(references);
   const start = referenceHeading.index;
   const after = String(content).slice(start);
-  const next = after.slice(1).search(/^## \d+\. /m);
+  const next = after.slice(1).search(/^(?:#{2,3} |<PmCuratedReferences|<details>)/m);
   const end = next === -1 ? String(content).length : start + 1 + next;
+  if (content.includes(PM_LOCAL_SOURCE_HEADING)) issues.push({code:'pm_source_audit_withdrawn',message:`${entityLabel}: PM-local source audit annex is not canonical`});
   const referenceParts=String(content).slice(start,end).split(PM_LOCAL_SOURCE_HEADING);
   const actual = referenceParts[0].trimEnd();
   if(referenceParts.length>2)issues.push({code:'pm_local_sources_duplicate',message:`${entityLabel}: only one explicit PM-local source annex is permitted`});
@@ -210,7 +209,13 @@ export function validatePmReferenceIntegrity(
     }
   }
 
-  for (const match of body.matchAll(/(^|[^\[])\[(\d+)\](?!\(#pm-ref-\d+\))/gm)) {
+  // Existing six-atom JSX uses explicit anchors as well as Markdown citations.
+  // Strip only correctly numbered, in-range links before checking bare labels.
+  const citationBody = body.replace(/<a href="#pm-ref-(\d+)">([^<]*)<\/a>/g, (whole, target, label) => {
+    const n=Number(target), number=label.match(/\[(\d+)\]/);
+    return number && Number(number[1])===n && n>=1 && n<=records.length ? '' : whole;
+  });
+  for (const match of citationBody.matchAll(/(^|[^\[])\[(\d+)\](?!\(#pm-ref-\d+\))/gm)) {
     issues.push({
       code: "pm_body_citation_unlinked",
       message: `${entityLabel}: body citation [${match[2]}] is not linked to its §8 entry`,

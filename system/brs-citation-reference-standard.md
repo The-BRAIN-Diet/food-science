@@ -242,3 +242,7 @@ One per line or semicolon-separated. The descriptive topic is required for inges
 | `system/key-constraint-schema.md` | KC pages |
 | `system/mechanism-page-section-prose.md` | Section prose + citation placement |
 | `system/templates/*.mdx` | Authoring shells |
+
+## Withdrawal of PM-local source audit annexes — owner instruction, 4 November 2026
+
+Do not render “PM-local source records”, “Additional PM-local source records”, historical reference narratives or source-retrieval/appraisal logs after References on any PM. These annexes are withdrawn, not relocated to another public tab. Preserve scientific citations and immutable SEC records. References remain numbered, concise Author (Year) — descriptive topic links to the master bibliography; DOI-only labels and local audit-record destinations are not substitutes. Stable historical citation anchors may remain as invisible aliases beside the corresponding numbered reference. Missing metadata must be verified, not invented. Reference regeneration must reject a reintroduced audit annex.

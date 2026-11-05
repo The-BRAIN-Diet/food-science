@@ -1,5 +1,7 @@
 # BRAIN Diet — project context
 
+New sessions: begin at [project-knowledge/START-HERE.md](project-knowledge/START-HERE.md). This existing file retains architecture detail; the hub provides concise orientation and current decision pointers.
+
 Stable orientation, prepared 3 November 2026. This is a navigation aid, not a scientific contract or new approval. Read [CURRENT-HANDOFF.md](CURRENT-HANDOFF.md) for dated work status. Where a summary and its source disagree, inspect the authoritative contract and dated approval; report unresolved conflicts rather than inventing a rule.
 
 ## Architecture and sources of truth

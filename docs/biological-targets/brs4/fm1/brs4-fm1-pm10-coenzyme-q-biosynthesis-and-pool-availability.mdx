@@ -1,0 +1,952 @@
+---
+title: Coenzyme Q Biosynthesis & Pool Availability
+sidebar_label: BRS4-1-10 — Coenzyme Q Biosynthesis & Pool Availability
+pm_id: BRS4-FM1-PM10
+mission: 'Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.'
+parent_fm: BRS4(FM1)
+parent_brs: BRS4
+list_image: /img/biological-targets/brs4-portrait-thumbnail.png
+hide_title: true
+evidence_status: Provisional; source-specific appraisal gaps remain
+summary: 'Endogenous CoQ production, maturation and compartmental availability support downstream electron transfer and redox functions. Biochemical capacity, dietary supply, measured intervention effects and clinical outcomes are assessed separately.'
+intervention_dominance: Diet-Supported
+intervention_breakdown: Mixed Modulation
+timing_specific: 'No'
+dose_sensitivity: High
+key_constraints: []
+cofactors: []
+phenome_relationships: []
+dietary_input_traceability:
+  - atom_id: PM10-DIT-1
+    input: Tyrosine
+    input_type: precursor
+    substance_id: tyrosine
+    biological_role: Tyrosine supplies quinone-head carbon through the HPDL-associated 4-HMA/4-HB pathway.
+    evidence_source:
+      finding_ids:
+        - PM10-F1
+      citation_keys:
+        - banh_coq_2021
+    evidence_limitation: 'Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.'
+    dietary_input: true
+  - atom_id: PM10-DIT-2
+    input: Methionine
+    input_type: precursor
+    substance_id: methionine
+    biological_role: Methionine supplies SAM used for COQ3/COQ5 methyl-group transfer.
+    evidence_source:
+      finding_ids:
+        - PM10-F2
+      citation_keys:
+        - nicoll_coq_2024
+    evidence_limitation: 'Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established.'
+    dietary_input: true
+  - atom_id: PM10-DIT-3
+    input: Vitamin B2
+    input_type: cofactor precursor
+    substance_id: vitamin-b2
+    biological_role: Riboflavin supplies FAD for COQ6-associated biosynthetic activity.
+    evidence_source:
+      finding_ids:
+        - PM10-F2
+      citation_keys:
+        - nicoll_coq_2024
+    evidence_limitation: 'Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established.'
+    dietary_input: true
+  - atom_id: PM10-DIT-4
+    input: Iron
+    input_type: catalytic ion
+    substance_id: iron
+    biological_role: Iron supports the diiron COQ7 hydroxylase and iron-dependent headgroup machinery.
+    evidence_source:
+      finding_ids:
+        - PM10-F2
+      citation_keys:
+        - wang_coq7_2022
+    evidence_limitation: 'Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established.'
+    dietary_input: true
+  - atom_id: PM10-DIT-5
+    input: CoQ10
+    input_type: cofactor
+    substance_id: coq10
+    biological_role: Endogenous product and measurable tissue pool; oral occurrence does not establish delivery to the receiving mitochondrial pool.
+    evidence_source:
+      finding_ids:
+        - PM10-F5
+      citation_keys:
+        - schmucker_coq_2026
+    evidence_limitation: Not an independent PM dietary admission. Food occurrence and endogenous biochemical participation remain valid distinct facts.
+    dietary_input: false
+  - atom_id: PM10-DIT-6
+    input: S-adenosylmethionine (SAM)
+    input_type: cofactor
+    substance_id: s-adenosylmethionine
+    biological_role: Intracellular methyl donor; represented dietarily through methionine.
+    evidence_source:
+      finding_ids:
+        - PM10-F2
+      citation_keys:
+        - nicoll_coq_2024
+    evidence_limitation: Not an independent PM dietary admission. Food occurrence and endogenous biochemical participation remain valid distinct facts.
+    dietary_input: false
+  - atom_id: PM10-DIT-7
+    input: Flavin adenine dinucleotide (FAD)
+    input_type: cofactor
+    substance_id: flavin-adenine-dinucleotide
+    biological_role: Intracellular flavin cofactor; represented dietarily through riboflavin.
+    evidence_source:
+      finding_ids:
+        - PM10-F2
+      citation_keys:
+        - nicoll_coq_2024
+    evidence_limitation: Not an independent PM dietary admission. Food occurrence and endogenous biochemical participation remain valid distinct facts.
+    dietary_input: false
+dietary_input_assessments:
+  - atom_id: PM10-DIT-1
+    status: admitted
+    type: A
+    classification: derived
+    operation: 'Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.'
+    canonical_substance_id: tyrosine
+    assessment_date: '2026-11-05'
+    assessment_limitations: 'Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.'
+    functional_dependency:
+      status: established
+      statement: Tyrosine supplies quinone-head carbon through the HPDL-associated 4-HMA/4-HB pathway.
+      sources:
+        - 'https://doi.org/10.1038/s41586-021-03865-w'
+        - 'https://reactome.org/content/detail/R-HSA-2142789'
+    dietary_supply:
+      status: established
+      statement: 'Existing canonical food composition records establish dietary provision of this named nutrient, independently of its CoQ role.'
+      sources:
+        - docs/substances/nutrients/macronutrients/amino-acids/conditionals/tyrosine.md
+        - docs/foods/beef.md
+        - docs/foods/milk.md
+    food_target_research:
+      completed: true
+      sources_examined:
+        - registry/substances.json
+        - docs/substances/nutrients/macronutrients/amino-acids/conditionals/tyrosine.md
+        - docs/foods/beef.md
+        - docs/foods/milk.md
+        - system/generated/brs4-input-substance-food/substance-index.md
+      sufficient_coverage_rationale: 'Reused existing amino-acid, riboflavin and iron composition records with original food-state and measurement provenance. No food is claimed to supply a mitochondrial dose or contain the downstream intracellular product because of precursor presence. No new nutrient concentration is inferred.'
+    active_target_id: coq10
+    conversion_pathway:
+      - to: coq10
+        process: 'Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.'
+        dependencies:
+          - Functional headgroup and COQ machinery
+          - Mevalonate-derived isoprenoid tail
+          - Tissue substrate access
+        limitations: 'Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.'
+        evidence:
+          statement: Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.
+          sources:
+            - 'https://doi.org/10.1038/s41586-021-03865-w'
+        from: tyrosine
+  - atom_id: PM10-DIT-2
+    status: admitted
+    type: A
+    classification: derived
+    operation: 'Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.'
+    canonical_substance_id: methionine
+    assessment_date: '2026-11-05'
+    assessment_limitations: 'Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established.'
+    functional_dependency:
+      status: established
+      statement: Methionine supplies SAM used for COQ3/COQ5 methyl-group transfer.
+      sources:
+        - 'https://doi.org/10.1038/s41929-023-01087-z'
+        - 'https://reactome.org/content/detail/R-HSA-2142789'
+    dietary_supply:
+      status: established
+      statement: 'Existing canonical food composition records establish dietary provision of this named nutrient, independently of its CoQ role.'
+      sources:
+        - docs/substances/nutrients/macronutrients/amino-acids/essential/methionine.md
+        - docs/foods/beef.md
+        - docs/foods/milk.md
+    food_target_research:
+      completed: true
+      sources_examined:
+        - registry/substances.json
+        - docs/substances/nutrients/macronutrients/amino-acids/essential/methionine.md
+        - docs/foods/beef.md
+        - docs/foods/milk.md
+        - system/generated/brs4-input-substance-food/substance-index.md
+      sufficient_coverage_rationale: 'Reused existing amino-acid, riboflavin and iron composition records with original food-state and measurement provenance. No food is claimed to supply a mitochondrial dose or contain the downstream intracellular product because of precursor presence. No new nutrient concentration is inferred.'
+    active_target_id: s-adenosylmethionine
+    conversion_pathway:
+      - from: methionine
+        to: s-adenosylmethionine
+        process: MAT1A/MAT2A catalyse ATP-dependent methionine adenosylation to form SAM.
+        dependencies:
+          - Functional MAT
+          - 'ATP, magnesium and potassium'
+          - Tissue access and methyl-donor homeostasis
+        limitations: 'Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake.'
+        evidence:
+          statement: Human MAT crystallography and curated Rhea 21080; P31153 v237 and Q00266 v233.
+          sources:
+            - 'https://pubmed.ncbi.nlm.nih.gov/26858410/'
+            - 'https://www.uniprot.org/uniprotkb/P31153/entry'
+            - 'https://www.rhea-db.org/rhea/21080'
+  - atom_id: PM10-DIT-3
+    status: admitted
+    type: A
+    classification: derived
+    operation: 'Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.'
+    canonical_substance_id: vitamin-b2
+    assessment_date: '2026-11-05'
+    assessment_limitations: 'Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established.'
+    functional_dependency:
+      status: established
+      statement: Riboflavin supplies FAD for COQ6-associated biosynthetic activity.
+      sources:
+        - 'https://doi.org/10.1038/s41929-023-01087-z'
+        - 'https://reactome.org/content/detail/R-HSA-2142789'
+    dietary_supply:
+      status: established
+      statement: 'Existing canonical food composition records establish dietary provision of this named nutrient, independently of its CoQ role.'
+      sources:
+        - docs/substances/nutrients/micronutrients/vitamins/vitamin-b2.md
+        - docs/foods/beef.md
+        - docs/foods/milk.md
+    food_target_research:
+      completed: true
+      sources_examined:
+        - registry/substances.json
+        - docs/substances/nutrients/micronutrients/vitamins/vitamin-b2.md
+        - docs/foods/beef.md
+        - docs/foods/milk.md
+        - system/generated/brs4-input-substance-food/substance-index.md
+      sufficient_coverage_rationale: 'Reused existing amino-acid, riboflavin and iron composition records with original food-state and measurement provenance. No food is claimed to supply a mitochondrial dose or contain the downstream intracellular product because of precursor presence. No new nutrient concentration is inferred.'
+    active_target_id: flavin-adenine-dinucleotide
+    conversion_pathway:
+      - from: vitamin-b2
+        to: flavin-mononucleotide
+        process: Riboflavin kinase (RFK) phosphorylates riboflavin to FMN using ATP.
+        dependencies:
+          - Functional RFK
+          - ATP and divalent metal availability
+        limitations: Enzyme identity does not quantify tissue cofactor supply or flux after a meal.
+        evidence:
+          statement: 'Human RFK catalyses riboflavin phosphorylation; UniProt Q969G6 entry 195 retrieved 2026-10-26, Rhea 14357.'
+          sources:
+            - 'https://www.uniprot.org/uniprotkb/Q969G6/entry'
+            - 'https://www.rhea-db.org/rhea/14357'
+      - from: flavin-mononucleotide
+        to: flavin-adenine-dinucleotide
+        process: FLAD1 FAD synthase adenylates FMN with ATP to form FAD.
+        dependencies:
+          - Functional FLAD1 FAD synthase
+          - ATP and divalent metal availability
+        limitations: FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred.
+        evidence:
+          statement: 'Human FLAD1 catalyses FMN adenylation; UniProt Q8NFF5 entry 182 retrieved 2026-10-26, Rhea 17237.'
+          sources:
+            - 'https://www.uniprot.org/uniprotkb/Q8NFF5/entry'
+            - 'https://www.rhea-db.org/rhea/17237'
+  - atom_id: PM10-DIT-4
+    status: admitted
+    type: A
+    classification: direct
+    operation: 'Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.'
+    canonical_substance_id: iron
+    assessment_date: '2026-11-05'
+    assessment_limitations: 'Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established.'
+    functional_dependency:
+      status: established
+      statement: Iron supports the diiron COQ7 hydroxylase and iron-dependent headgroup machinery.
+      sources:
+        - 'https://doi.org/10.17912/micropub.biology.000635'
+        - 'https://reactome.org/content/detail/R-HSA-2142789'
+    dietary_supply:
+      status: established
+      statement: 'Existing canonical food composition records establish dietary provision of this named nutrient, independently of its CoQ role.'
+      sources:
+        - docs/substances/nutrients/micronutrients/minerals/trace/iron.md
+        - docs/foods/beef.md
+        - docs/foods/milk.md
+    food_target_research:
+      completed: true
+      sources_examined:
+        - registry/substances.json
+        - docs/substances/nutrients/micronutrients/minerals/trace/iron.md
+        - docs/foods/beef.md
+        - docs/foods/milk.md
+        - system/generated/brs4-input-substance-food/substance-index.md
+      sufficient_coverage_rationale: 'Reused existing amino-acid, riboflavin and iron composition records with original food-state and measurement provenance. No food is claimed to supply a mitochondrial dose or contain the downstream intracellular product because of precursor presence. No new nutrient concentration is inferred.'
+dietary_lever_atoms:
+  - atom_id: PM10-DIT-1
+    requirement_classification: derived
+    relationship_layer: dietary-requirement
+    relationship_mode: capacity-requirement
+    dietary_addressability: precursor-mediated
+    claim_ceiling: biological-dependency
+    permitted_wording: Tyrosine supplies quinone-head carbon through the HPDL-associated 4-HMA/4-HB pathway.
+    evidence_limitation: 'Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.'
+    derived_target: CoQ10
+    derived_target_atom_id: PM10-DIT-5
+  - atom_id: PM10-DIT-2
+    requirement_classification: derived
+    relationship_layer: dietary-requirement
+    relationship_mode: capacity-requirement
+    dietary_addressability: precursor-mediated
+    claim_ceiling: biological-dependency
+    permitted_wording: Methionine supplies SAM used for COQ3/COQ5 methyl-group transfer.
+    evidence_limitation: 'Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established.'
+    derived_target: S-adenosylmethionine (SAM)
+    derived_target_atom_id: PM10-DIT-6
+  - atom_id: PM10-DIT-3
+    requirement_classification: derived
+    relationship_layer: dietary-requirement
+    relationship_mode: capacity-requirement
+    dietary_addressability: precursor-mediated
+    claim_ceiling: biological-dependency
+    permitted_wording: Riboflavin supplies FAD for COQ6-associated biosynthetic activity.
+    evidence_limitation: 'Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established.'
+    derived_target: Flavin adenine dinucleotide (FAD)
+    derived_target_atom_id: PM10-DIT-7
+  - atom_id: PM10-DIT-4
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    relationship_mode: capacity-requirement
+    dietary_addressability: direct
+    claim_ceiling: biological-dependency
+    permitted_wording: Iron supports the diiron COQ7 hydroxylase and iron-dependent headgroup machinery.
+    evidence_limitation: 'Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established.'
+  - atom_id: PM10-DIT-5
+    relationship_layer: biochemical-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: Endogenous product and measurable tissue pool; oral occurrence does not establish delivery to the receiving mitochondrial pool.
+    evidence_limitation: Not an independent PM dietary admission. Food occurrence and endogenous biochemical participation remain valid distinct facts.
+  - atom_id: PM10-DIT-6
+    relationship_layer: biochemical-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: Intracellular methyl donor; represented dietarily through methionine.
+    evidence_limitation: Not an independent PM dietary admission. Food occurrence and endogenous biochemical participation remain valid distinct facts.
+  - atom_id: PM10-DIT-7
+    relationship_layer: biochemical-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: Intracellular flavin cofactor; represented dietarily through riboflavin.
+    evidence_limitation: Not an independent PM dietary admission. Food occurrence and endogenous biochemical participation remain valid distinct facts.
+dietary_lever_presentations:
+  - atom_id: PM10-DIT-1
+    label: Tyrosine
+    presentation_section: 3.1.1
+    short_descriptor: CoQ biosynthetic capacity; Type A
+  - atom_id: PM10-DIT-2
+    label: Methionine
+    presentation_section: 3.1.1
+    short_descriptor: CoQ biosynthetic capacity; Type A
+  - atom_id: PM10-DIT-3
+    label: Vitamin B2
+    presentation_section: 3.1.1
+    short_descriptor: CoQ biosynthetic capacity; Type A
+  - atom_id: PM10-DIT-4
+    label: Iron
+    presentation_section: 3.1.1
+    short_descriptor: CoQ biosynthetic capacity; Type A
+system_optimisation_practices: []
+lifestyle_priorities: []
+scientific_principles:
+  - id: PM10-SP1
+    title: CoQ production is distinct from its downstream use
+    proposition: CoQ comprises a redox-active headgroup and an isoprenoid tail; maintaining its production and compartmental supply is distinct from electron transfer or lipid antioxidant activity.
+    mechanism: 'Mevalonate supplies IPP/DMAPP; PDSS1/PDSS2 build the human decaprenyl chain, COQ2 joins it to 4-HB, and the COQ machinery matures the headgroup. COQ3/5 methylate; COQ6 hydroxylates; COQ7/9 participate in late maturation; COQ8A/B support biosynthetic organisation. COQ9 is a protein, whereas CoQ9 is a nine-isoprene metabolite.'
+    scope_limitations: 'Pathway topology does not prove dietary rate limitation. CoQ redox state, total abundance and respiratory capacity are separate quantities. Yeast CoQ6 and rodent CoQ9 findings require species qualification.'
+    classification_rationale: 'Established biochemical identities and operation boundaries, not a new intervention-effect proposition.'
+    reviewed_on: '2026-11-05'
+    sources:
+      - label: Guerra and Pagliarini (2023)
+        href: 'https://doi.org/10.1016/j.tibs.2022.12.006'
+        accessed: '2026-11-05'
+      - label: Reactome human ubiquinol biosynthesis
+        href: 'https://reactome.org/content/detail/R-HSA-2142789'
+        accessed: '2026-11-05'
+scientific_findings:
+  - id: PM10-F1
+    finding_label: Tyrosine-derived headgroup formation and HPDL bypass
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: Isotope tracing and genetic perturbation establish an HPDL-associated tyrosine-to-CoQ headgroup route in studied human cell models; precursor rescue in HPDL deficiency is supported principally by mice and one treated patient.
+    finding_summary: Isotope tracing and genetic perturbation establish an HPDL-associated tyrosine-to-CoQ headgroup route in studied human cell models; precursor rescue in HPDL deficiency is supported principally by mice and one treated patient.
+    finding_interpretation: Cancer-cell models are not whole-body nutritional flux. Phenylalanine did not label the route in the tested non-liver cells lacking phenylalanine hydroxylase. The human 4-HMA-to-4-HB enzymatic sequence and tissue contribution remain incompletely assigned. A single patient is not a controlled efficacy trial.
+    synthesis: 'Banh identified tyrosine-derived 4-hydroxymandelate (4-HMA), HPDL loss/rescue and incorporation into CoQ10 in human cells. Dependence varied with cell density and culture conditions. Shi traced headgroup intermediates in mouse brain and reported early-treatment rescue and one human treatment course. These establish pathway biology and a genotype-specific bypass, not general dietary enhancement.'
+    synthesis_limitations: Cancer-cell models are not whole-body nutritional flux. Phenylalanine did not label the route in the tested non-liver cells lacking phenylalanine hydroxylase. The human 4-HMA-to-4-HB enzymatic sequence and tissue contribution remain incompletely assigned. A single patient is not a controlled efficacy trial.
+    synthesised_evidence_confidence: not-yet-scored
+    evidence_considered:
+      - label: Banh et al. (2021)
+        citation_key: banh_coq_2021
+        href: /docs/papers/BRAIN-Diet-References#banh_coq_2021
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: Tyrosine-labelled headgroup metabolites and CoQ10 respond to HPDL perturbation; high-density and 3D conditions reveal dependence.
+        assessment:
+          study: The polar oxy-metabolome reveals the 4-hydroxymandelate CoQ10 synthesis pathway
+          population: 'Human cell lines, isotope tracing, HPDL knockout and wild-type versus catalytic-mutant rescue.'
+          result: Tyrosine-labelled headgroup metabolites and CoQ10 respond to HPDL perturbation; high-density and 3D conditions reveal dependence.
+          effect_magnitude: No dietary effective dose is established.
+          evidence_summary: Tyrosine-labelled headgroup metabolites and CoQ10 respond to HPDL perturbation; high-density and 3D conditions reveal dependence.
+          limitations: Culture-specific pathways and rescue; not a dietary tyrosine trial.
+          retrieval_scope: Full primary article text via NCBI BioC PMC8538427
+      - label: Shi et al. (2025)
+        citation_key: shi_coq_2025
+        href: /docs/papers/BRAIN-Diet-References#shi_coq_2025
+        data_level: Animal Data
+        evidence_source: bounded-external-search
+        directional_finding: 'Labelled 4-HMA/4-HB entered brain CoQ; early precursor treatment rescued mice, with later treatment ineffective; one patient improved during treatment.'
+        assessment:
+          study: Coenzyme Q headgroup intermediates can ameliorate a mitochondrial encephalopathy
+          population: HPDL-deficient mice; one patient with biallelic HPDL disease.
+          result: 'Labelled 4-HMA/4-HB entered brain CoQ; early precursor treatment rescued mice, with later treatment ineffective; one patient improved during treatment.'
+          effect_magnitude: No dietary effective dose is established.
+          evidence_summary: 'Labelled 4-HMA/4-HB entered brain CoQ; early precursor treatment rescued mice, with later treatment ineffective; one patient improved during treatment.'
+          limitations: 'Developmental timing, genotype and species limit translation. The patient and mouse outcomes are not independent human replication.'
+          retrieval_scope: Full primary article text via NCBI BioC PMC12422950
+    connected_supportive_evidence: []
+    evidence_dependency: []
+    sec_assessment_ref:
+      id: brs4-pm10-f1-assessment
+      version: 1
+      sha256: 186f608a475ed36d275b6537e5a5178c09d2c9e75b0ff25759fe600a09265336
+  - id: PM10-F2
+    finding_label: Biosynthetic enzymes have specific cofactor requirements
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: 'Reconstituted tetrapod COQ enzymes use SAM, flavin-linked electron transfer and a diiron hydroxylase during CoQ headgroup maturation; this identifies biochemical capacity dependencies rather than a benefit from extra nutrient intake.'
+    finding_summary: 'Reconstituted tetrapod COQ enzymes use SAM, flavin-linked electron transfer and a diiron hydroxylase during CoQ headgroup maturation; this identifies biochemical capacity dependencies rather than a benefit from extra nutrient intake.'
+    finding_interpretation: Ancestral proteins and CoQ1 assay substrates are not intact human mitochondrial CoQ10 synthesis. FAD dependence is not proof that riboflavin intake limits flux. Cellular metal toxicity is not a reason to supplement cobalt or manganese. Mg/Zn assay roles do not automatically establish new dietary requirements.
+    synthesis: Nicoll reconstituted ancestral tetrapod COQ3–9 with short-chain substrates and omission controls. COQ3/COQ5 use SAM; COQ6 uses FAD and the FDXR–FDX2 electron-transfer system with upstream NADPH. COQ7 is a diiron hydroxylase supported by COQ9. Cellular metal perturbation provides complementary COQ7 evidence. COQ4 catalyses oxidative decarboxylation in the reconstructed system; COQ8A/B support the machinery rather than naming a CoQ homologue.
+    synthesis_limitations: Ancestral proteins and CoQ1 assay substrates are not intact human mitochondrial CoQ10 synthesis. FAD dependence is not proof that riboflavin intake limits flux. Cellular metal toxicity is not a reason to supplement cobalt or manganese. Mg/Zn assay roles do not automatically establish new dietary requirements.
+    synthesised_evidence_confidence: not-yet-scored
+    evidence_considered:
+      - label: Nicoll et al. (2024)
+        citation_key: nicoll_coq_2024
+        href: /docs/papers/BRAIN-Diet-References#nicoll_coq_2024
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: 'Cofactor/enzyme omission and product analysis establish distinct methylation, hydroxylation and assembly reactions.'
+        assessment:
+          study: In vitro construction of the COQ metabolon unveils the molecular determinants of coenzyme Q biosynthesis
+          population: 'Purified reconstructed tetrapod COQ proteins, more than 75% human sequence identity, expressed in bacteria; short-tail substrate assays.'
+          result: 'Cofactor/enzyme omission and product analysis establish distinct methylation, hydroxylation and assembly reactions.'
+          effect_magnitude: No dietary effective dose is established.
+          evidence_summary: 'Cofactor/enzyme omission and product analysis establish distinct methylation, hydroxylation and assembly reactions.'
+          limitations: 'Native human regulation, long-tail substrate handling and dietary responsiveness were not measured.'
+          retrieval_scope: Full primary article text via NCBI BioC PMC7615680
+      - label: Wang and Hekimi (2022)
+        citation_key: wang_coq7_2022
+        href: /docs/papers/BRAIN-Diet-References#wang_coq7_2022
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: Manganese exposure increased demethoxy-CoQ/CoQ and iron accelerated recovery after washout.
+        assessment:
+          study: The CoQ biosynthetic di-iron carboxylate hydroxylase COQ7 is inhibited by in vivo metalation with manganese but remains functional by metalation with cobalt
+          population: Mouse RAW264.7 and human HEK293 cells under high metal exposures.
+          result: Manganese exposure increased demethoxy-CoQ/CoQ and iron accelerated recovery after washout.
+          effect_magnitude: No dietary effective dose is established.
+          evidence_summary: Manganese exposure increased demethoxy-CoQ/CoQ and iron accelerated recovery after washout.
+          limitations: Metal substitution interpretation and supraphysiological exposures do not quantify normal dietary iron limitation.
+          retrieval_scope: Full primary article text via NCBI BioC PMC9513594
+    connected_supportive_evidence: []
+    evidence_dependency: []
+    sec_assessment_ref:
+      id: brs4-pm10-f2-assessment
+      version: 1
+      sha256: 28fc5805e645ce59be13406e617ba9e3ce502b64f55cf3a7cb08f1c3b7217998
+  - id: PM10-F3
+    finding_label: CoQ distribution is regulated separately from total supply
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: 'PARL-dependent STARD7 localisation regulates mitochondrial CoQ synthesis and export to other membranes in experimental cell systems, showing that total CoQ abundance and compartmental availability are distinct.'
+    finding_summary: 'PARL-dependent STARD7 localisation regulates mitochondrial CoQ synthesis and export to other membranes in experimental cell systems, showing that total CoQ abundance and compartmental availability are distinct.'
+    finding_interpretation: Cell and mouse genetic experiments do not establish a dietary transport intervention or the corresponding quantitative fluxes in healthy human tissues.
+    synthesis: 'Genetic loss and compartment-targeted rescue distinguish mitochondrial STARD7 support of CoQ production from cytosolic STARD7-mediated distribution. Redirecting CoQ towards the plasma membrane can reduce the mitochondrial pool. Findings support compartmental control, not a universal benefit from a larger circulating pool.'
+    synthesis_limitations: Cell and mouse genetic experiments do not establish a dietary transport intervention or the corresponding quantitative fluxes in healthy human tissues.
+    synthesised_evidence_confidence: not-yet-scored
+    evidence_considered:
+      - label: Deshwal et al. (2023)
+        citation_key: deshwal_stard7_2023
+        href: /docs/papers/BRAIN-Diet-References#deshwal_stard7_2023
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: STARD7 localisation separates CoQ synthesis and intracellular transport.
+        assessment:
+          study: Mitochondria regulate intracellular coenzyme Q transport and ferroptotic resistance via STARD7
+          population: 'Human cultured cells, targeted genetic rescue and mouse PARL-deficiency tissues.'
+          result: STARD7 localisation separates CoQ synthesis and intracellular transport.
+          effect_magnitude: No dietary effective dose is established.
+          evidence_summary: STARD7 localisation separates CoQ synthesis and intracellular transport.
+          limitations: 'Cellular ferroptosis resistance is a downstream readout; not cognition, diet or clinical resilience.'
+          retrieval_scope: Full primary article text via NCBI BioC PMC9928583
+    connected_supportive_evidence: []
+    evidence_dependency: []
+    sec_assessment_ref:
+      id: brs4-pm10-f3-assessment
+      version: 1
+      sha256: 8fbc248ebd6b2e4ede4552ac3337243492b29b9d30b066542ba0d5003f0e3db7
+  - id: PM10-F4
+    finding_label: Training-associated muscle CoQ concentration
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: 'In the studied statin-user and non-user cohort, twelve weeks of combined endurance and resistance training was associated with a modest increase in total CoQ10 per gram of wet skeletal muscle.'
+    finding_summary: 'In the studied statin-user and non-user cohort, twelve weeks of combined endurance and resistance training was associated with a modest increase in total CoQ10 per gram of wet skeletal muscle.'
+    finding_interpretation: 'No inactive comparison, some missing biopsies, sex/statin differences and one cohort. Concentration per wet mass is not mitochondrial-normalised concentration, synthesis rate, turnover, redistribution or redox state. CoQ change was not shown to mediate function.'
+    synthesis: 'The CoQ analysis reused biopsies from the 2021 STATEX training cohort, not a new independent trial. All participants trained. The pooled adjusted change was 3.4 micrograms/g wet muscle (95% CI 0.4–6.3); statin subgroup changes were not individually significant. The earlier report found increased citrate-synthase activity, but no detectable increase in ATP-production capacity or peak oxygen uptake.'
+    synthesis_limitations: 'No inactive comparison, some missing biopsies, sex/statin differences and one cohort. Concentration per wet mass is not mitochondrial-normalised concentration, synthesis rate, turnover, redistribution or redox state. CoQ change was not shown to mediate function.'
+    synthesised_evidence_confidence: not-yet-scored
+    evidence_considered:
+      - label: Allard et al. (2023)
+        citation_key: allard_coq_2023
+        href: /docs/papers/BRAIN-Diet-References#allard_coq_2023
+        data_level: Human Study
+        evidence_source: bounded-external-search
+        directional_finding: Pooled muscle CoQ rose after training; baseline CoQ did not distinguish statin muscle-symptom groups.
+        assessment:
+          study: The Effect of Exercise Training on Muscle Coenzyme Q10 in Symptomatic and Asymptomatic Statin Users
+          population: 16 symptomatic and 16 asymptomatic statin users plus 20 non-users; approximately 63–64 years.
+          result: Pooled muscle CoQ rose after training; baseline CoQ did not distinguish statin muscle-symptom groups.
+          effect_magnitude: 'Adjusted change 3.4 micrograms/g wet muscle, 95% CI 0.4–6.3; P=0.028.'
+          evidence_summary: Pooled muscle CoQ rose after training; baseline CoQ did not distinguish statin muscle-symptom groups.
+          limitations: All groups trained; subgroup and missing-biopsy limitations; no CoQ synthesis or redox flux.
+          retrieval_scope: Full primary article text via NCBI BioC PMC10774572
+      - label: Allard et al. (2021)
+        citation_key: allard_training_2021
+        href: /docs/papers/BRAIN-Diet-References#allard_training_2021
+        data_level: Human Study
+        evidence_source: bounded-external-search
+        directional_finding: 'Twice-weekly cycling plus weekly resistance work; citrate-synthase activity increased, ATP-production capacity and peak oxygen uptake did not.'
+        assessment:
+          study: Moderate Intensity Exercise Training Improves Skeletal Muscle Performance in Symptomatic and Asymptomatic Statin Users
+          population: Same STATEX cohort; supervised twelve-week programme.
+          result: 'Twice-weekly cycling plus weekly resistance work; citrate-synthase activity increased, ATP-production capacity and peak oxygen uptake did not.'
+          effect_magnitude: 'Cycling: 10-minute warm-up, 40 minutes at 70–80% maximal heart rate, 5-minute cool-down, twice weekly; resistance: 60 minutes weekly, 3 sets of 12 repetitions.'
+          evidence_summary: 'Twice-weekly cycling plus weekly resistance work; citrate-synthase activity increased, ATP-production capacity and peak oxygen uptake did not.'
+          limitations: Same participants as the 2023 CoQ report; not replication.
+          retrieval_scope: Full publisher-version PDF via Maastricht repository; methods and reported endpoints verified.
+    connected_supportive_evidence: []
+    evidence_dependency:
+      - 'Allard 2021 and 2023 are one cohort, not independent replications.'
+    sec_assessment_ref:
+      id: brs4-pm10-f4-assessment
+      version: 1
+      sha256: 81e86049e3c74aff4e70245158c964b6519848ca3b60f53f7b7156a9a8cbdd93
+  - id: PM10-F5
+    finding_label: Plasma exposure does not ensure muscle target engagement
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: 'In the reported older-adult and statin-treated trials, oral CoQ10 increased plasma exposure without a detectable increase in measured skeletal-muscle CoQ or mitochondrial function under the tested conditions.'
+    finding_summary: 'In the reported older-adult and statin-treated trials, oral CoQ10 increased plasma exposure without a detectable increase in measured skeletal-muscle CoQ or mitochondrial function under the tested conditions.'
+    finding_interpretation: 'Formulation, tissue, baseline deficiency and population matter. The 2026 abstract does not provide effect intervals or its cognitive result. Cooke reports borderline muscle signals in younger adults, and cardiac-surgical ubiquinol research concerns a different tissue/context; these are not general muscle-delivery proof.'
+    synthesis: 'The 2026 trial randomised 40 robust older adults (74 ± 4 years) to 400 mg/day or placebo for twelve weeks. Its abstract reports no change in muscle or isolated-mitochondrial CoQ, respiration, hydrogen-peroxide emission or mitochondrial content despite higher plasma CoQ. Dohlmann studied 37 simvastatin-treated adults for eight weeks at 400 mg/day with similarly null muscle/function results. Full 2026 methods remain unavailable. Neither study proves equivalence or universal inefficacy.'
+    synthesis_limitations: 'Formulation, tissue, baseline deficiency and population matter. The 2026 abstract does not provide effect intervals or its cognitive result. Cooke reports borderline muscle signals in younger adults, and cardiac-surgical ubiquinol research concerns a different tissue/context; these are not general muscle-delivery proof.'
+    synthesised_evidence_confidence: not-yet-scored
+    evidence_considered:
+      - label: Schmücker et al. (2026)
+        citation_key: schmucker_coq_2026
+        href: /docs/papers/BRAIN-Diet-References#schmucker_coq_2026
+        data_level: Human Study
+        evidence_source: bounded-external-search
+        directional_finding: Plasma rose; measured muscle/isolated mitochondrial CoQ and respiratory endpoints did not change detectably.
+        assessment:
+          study: Coenzyme Q10 supplementation raises plasma levels without improving mitochondrial function in older adults
+          population: '40 robust community-dwelling older adults, 74 ± 4 years; randomised double-blind placebo-controlled trial.'
+          result: Plasma rose; measured muscle/isolated mitochondrial CoQ and respiratory endpoints did not change detectably.
+          effect_magnitude: 400 mg/day for twelve weeks; no group effect intervals available in retrieved abstract.
+          evidence_summary: Plasma rose; measured muscle/isolated mitochondrial CoQ and respiratory endpoints did not change detectably.
+          limitations: Abstract-level retrieval; null results are not equivalence; cognitive outcome not extracted.
+          retrieval_scope: Publisher abstract and bibliographic record; full methods not verified
+      - label: Dohlmann et al. (2022)
+        citation_key: dohlmann_coq_2022
+        href: /docs/papers/BRAIN-Diet-References#dohlmann_coq_2022
+        data_level: Human Study
+        evidence_source: bounded-external-search
+        directional_finding: Muscle CoQ and respiration did not improve detectably; muscle changes did not correlate with myalgia changes.
+        assessment:
+          study: 'Coenzyme Q10 Supplementation in Statin Treated Patients: A Double-Blinded Randomized Placebo-Controlled Trial'
+          population: 37 simvastatin-treated men and women with/without myalgia; randomised double-blind placebo-controlled trial.
+          result: Muscle CoQ and respiration did not improve detectably; muscle changes did not correlate with myalgia changes.
+          effect_magnitude: 400 mg/day for eight weeks.
+          evidence_summary: Muscle CoQ and respiration did not improve detectably; muscle changes did not correlate with myalgia changes.
+          limitations: 'Small trial powered partly from plasma/previous mitochondrial data, not a muscle-CoQ equivalence margin.'
+          retrieval_scope: Full primary article text via NCBI BioC PMC9495827
+    connected_supportive_evidence:
+      - label: Cooke et al. (2008)
+        citation_key: cooke_coq_2008
+        href: 'https://doi.org/10.1186/1550-2783-5-8'
+        data_level: Human Study
+        why_relevant: 'Different formulation, population or tissue provides a boundary against universal non-delivery.'
+        why_excluded: Not replication of the exact older-adult skeletal-muscle proposition; no pooled effect inferred.
+      - label: Orlando et al. (2020)
+        citation_key: orlando_ubiquinol_2020
+        href: 'https://doi.org/10.18632/aging.103742'
+        data_level: Human Study
+        why_relevant: 'Different formulation, population or tissue provides a boundary against universal non-delivery.'
+        why_excluded: Not replication of the exact older-adult skeletal-muscle proposition; no pooled effect inferred.
+    evidence_dependency: []
+    sec_assessment_ref:
+      id: brs4-pm10-f5-assessment
+      version: 1
+      sha256: d6f2967daa6a685d82297735cb3a5bf96188b34cbc04f670d6f87fd48791bea3
+  - id: PM10-F6
+    finding_label: Ageing associations depend on redox and lipoprotein context
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: 'In a cross-sectional European sample, older adults had a higher oxidised serum-CoQ10 fraction, while the age pattern in cholesterol-adjusted total CoQ10 was not statistically significant.'
+    finding_summary: 'In a cross-sectional European sample, older adults had a higher oxidised serum-CoQ10 fraction, while the age pattern in cholesterol-adjusted total CoQ10 was not statistically significant.'
+    finding_interpretation: 'Cross-sectional serum measurements cannot demonstrate longitudinal loss in every tissue, altered biosynthetic flux or an optimal reduced fraction. Normal CoQ function requires reversible redox cycling. Sample processing can cause ex-vivo oxidation.'
+    synthesis: 'Niklowitz studied 860 adults aged 18–82. Unadjusted total CoQ followed an inverse-U pattern, with strong lipoprotein association. Serum handling affected the oxidised fraction; serum and plasma are not interchangeable. A separate short ubiquinol exposure in younger men does not establish reversal of tissue ageing.'
+    synthesis_limitations: 'Cross-sectional serum measurements cannot demonstrate longitudinal loss in every tissue, altered biosynthetic flux or an optimal reduced fraction. Normal CoQ function requires reversible redox cycling. Sample processing can cause ex-vivo oxidation.'
+    synthesised_evidence_confidence: not-yet-scored
+    evidence_considered:
+      - label: Niklowitz et al. (2016)
+        citation_key: niklowitz_coq_2016
+        href: /docs/papers/BRAIN-Diet-References#niklowitz_coq_2016
+        data_level: Human Study
+        evidence_source: bounded-external-search
+        directional_finding: Older groups had higher oxidised fractions; cholesterol-adjusted total age course was not significant.
+        assessment:
+          study: 'Coenzyme Q10 serum concentration and redox status in European adults: influence of age, sex, and lipoprotein concentration'
+          population: '860 adults, 18–82 years; selected European cohorts, cross-sectional.'
+          result: Older groups had higher oxidised fractions; cholesterol-adjusted total age course was not significant.
+          effect_magnitude: 'Age groups n=326, 388 and 146; mean oxidised serum fraction 12.9%; no causal age-effect estimate.'
+          evidence_summary: Older groups had higher oxidised fractions; cholesterol-adjusted total age course was not significant.
+          limitations: 'Selection, residual confounding, serum/plasma matrix and processing; supplementary exposure group comprised younger men.'
+          retrieval_scope: Full primary article text via NCBI BioC PMC4865593
+    connected_supportive_evidence: []
+    evidence_dependency: []
+    sec_assessment_ref:
+      id: brs4-pm10-f6-assessment
+      version: 1
+      sha256: 087afca135e1d99778c72b3e8a34734a612f7c1f4f6b6dfa6baa45c4a024d219
+scientific_findings_intro: 'Distinct propositions concern precursor formation, enzymatic requirements, distribution, training, tissue target engagement and ageing. Human intervention observations do not inherit the certainty of established biochemical reactions.'
+scientific_findings_placement: section-4
+evidence_tabs_version: 1
+evidence_gaps_tab: true
+evidence_gaps:
+  - id: PM10-EG-1
+    title: Dietary capacity versus controllable CoQ synthesis
+    finding_ids:
+      - PM10-F1
+      - PM10-F2
+    citation_keys:
+      - banh_coq_2021
+      - nicoll_coq_2024
+    establishes: Precursor and cofactor participation supports Type A capacity admissions.
+    cannot_establish: 'Which nutritional deficits or marginal intakes limit human tissue CoQ synthesis, and whether correcting them changes isotope-measured flux rather than plasma exposure.'
+    missing_link: 'Which nutritional deficits or marginal intakes limit human tissue CoQ synthesis, and whether correcting them changes isotope-measured flux rather than plasma exposure.'
+    required_evidence: 'Which nutritional deficits or marginal intakes limit human tissue CoQ synthesis, and whether correcting them changes isotope-measured flux rather than plasma exposure.'
+    affected_relationship: Dietary capacity versus controllable CoQ synthesis
+    review_required: false
+  - id: PM10-EG-2
+    title: Exercise mechanism and independent replication
+    finding_ids:
+      - PM10-F4
+    citation_keys:
+      - allard_coq_2023
+    establishes: Muscle concentration increased in one trained cohort.
+    cannot_establish: 'An independent controlled exercise comparison with mitochondrial-normalised content, synthesis/turnover and redox measures; separation from fibre composition and statin effects.'
+    missing_link: 'An independent controlled exercise comparison with mitochondrial-normalised content, synthesis/turnover and redox measures; separation from fibre composition and statin effects.'
+    required_evidence: 'An independent controlled exercise comparison with mitochondrial-normalised content, synthesis/turnover and redox measures; separation from fibre composition and statin effects.'
+    affected_relationship: Exercise mechanism and independent replication
+    review_required: false
+  - id: PM10-EG-3
+    title: Tissue target engagement and responders
+    finding_ids:
+      - PM10-F5
+    citation_keys:
+      - schmucker_coq_2026
+      - dohlmann_coq_2022
+    establishes: Plasma exposure can rise without detected muscle changes in the tested populations.
+    cannot_establish: 'Formulation-, tissue- and deficiency-specific uptake, effect intervals and clinically relevant target-engagement thresholds.'
+    missing_link: 'Formulation-, tissue- and deficiency-specific uptake, effect intervals and clinically relevant target-engagement thresholds.'
+    required_evidence: 'Formulation-, tissue- and deficiency-specific uptake, effect intervals and clinically relevant target-engagement thresholds.'
+    affected_relationship: Tissue target engagement and responders
+    review_required: false
+  - id: PM10-EG-4
+    title: Age-related compartmental redox changes
+    finding_ids:
+      - PM10-F6
+    citation_keys:
+      - niklowitz_coq_2016
+    establishes: Cross-sectional serum age associations differ between total and oxidised fractions.
+    cannot_establish: Longitudinal tissue measurements with standardised processing and lipoprotein adjustment; no universal optimal reduced fraction assumed.
+    missing_link: Longitudinal tissue measurements with standardised processing and lipoprotein adjustment; no universal optimal reduced fraction assumed.
+    required_evidence: Longitudinal tissue measurements with standardised processing and lipoprotein adjustment; no universal optimal reduced fraction assumed.
+    affected_relationship: Age-related compartmental redox changes
+    review_required: false
+  - id: PM10-EG-5
+    title: Energetic reserve under physiological or cognitive demand
+    finding_ids:
+      - PM10-F3
+      - PM10-F5
+    citation_keys:
+      - deshwal_stard7_2023
+      - schmucker_coq_2026
+      - gamal_coq_2022
+    establishes: CoQ has compartmental metabolic roles; clinical outcomes in distinct settings do not establish mitochondrial mediation.
+    cannot_establish: 'Whether baseline energetic status predicts response during sleep restriction, illness, ageing or sustained demand, preserves function or accelerates recovery, with separately measured adaptive capacity, allostatic load and resilience.'
+    missing_link: 'Whether baseline energetic status predicts response during sleep restriction, illness, ageing or sustained demand, preserves function or accelerates recovery, with separately measured adaptive capacity, allostatic load and resilience.'
+    required_evidence: 'Whether baseline energetic status predicts response during sleep restriction, illness, ageing or sustained demand, preserves function or accelerates recovery, with separately measured adaptive capacity, allostatic load and resilience.'
+    affected_relationship: Energetic reserve under physiological or cognitive demand
+    review_required: false
+references:
+  - '[Guerra and Pagliarini (2023)](/docs/papers/BRAIN-Diet-References#guerra_coq_2023)'
+  - '[Banh et al. (2021)](/docs/papers/BRAIN-Diet-References#banh_coq_2021)'
+  - '[Shi et al. (2025)](/docs/papers/BRAIN-Diet-References#shi_coq_2025)'
+  - '[Nicoll et al. (2024)](/docs/papers/BRAIN-Diet-References#nicoll_coq_2024)'
+  - '[Deshwal et al. (2023)](/docs/papers/BRAIN-Diet-References#deshwal_stard7_2023)'
+  - '[Allard et al. (2023)](/docs/papers/BRAIN-Diet-References#allard_coq_2023)'
+  - '[Allard et al. (2021)](/docs/papers/BRAIN-Diet-References#allard_training_2021)'
+  - '[Schmücker et al. (2026)](/docs/papers/BRAIN-Diet-References#schmucker_coq_2026)'
+  - '[Dohlmann et al. (2022)](/docs/papers/BRAIN-Diet-References#dohlmann_coq_2022)'
+  - '[Niklowitz et al. (2016)](/docs/papers/BRAIN-Diet-References#niklowitz_coq_2016)'
+  - '[Wang and Hekimi (2022)](/docs/papers/BRAIN-Diet-References#wang_coq7_2022)'
+  - '[Žmitek et al. (2014)](/docs/papers/BRAIN-Diet-References#zmitek_factors_2014)'
+  - '[Gamal et al. (2022)](/docs/papers/BRAIN-Diet-References#gamal_coq_2022)'
+  - '[Liu et al. (2026)](/docs/papers/BRAIN-Diet-References#liu_coq_2026)'
+  - '[Cooke et al. (2008)](/docs/papers/BRAIN-Diet-References#cooke_coq_2008)'
+  - '[Orlando et al. (2020)](/docs/papers/BRAIN-Diet-References#orlando_ubiquinol_2020)'
+intervention_dominance_assessment:
+  evidence_qualification:
+    label: Diet-Supported
+    rationale: Capacity inputs are admitted; comparative intervention dominance is not established.
+    routes: []
+  principal_route_selection:
+    disposition: not-established
+    selected_groups: []
+    rationale: 'No adequately controlled comparison establishes a principal dietary, SOP or lifestyle route for changing human CoQ pool availability.'
+    comparative_limitations: Biochemical necessity is not intervention responsiveness. The uncontrolled exercise cohort cannot establish superiority over dietary supply.
+---
+
+import ScientificFinding from '@site/src/components/ScientificFinding';
+
+<p class="brs-pm-thumbnail-wrap">
+<img src="/img/biological-targets/brs4-portrait-thumbnail.png" alt="BRS4 — Mitochondrial Function and Bioenergetics" class="brs-pm-thumbnail" />
+</p>
+
+## BRS4-1-10 - Coenzyme Q Biosynthesis & Pool Availability
+
+## 1. Mission & Overview
+
+### Mission
+
+Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.
+
+### Overview
+
+CoQ availability depends on endogenous synthesis, maturation and distribution between membranes. This PM owns those supply processes; ETC electron transfer remains with PM1 and downstream oxidant handling remains with the existing redox PMs. Genetic CoQ deficiency establishes the importance of intact biosynthesis, but does not establish a general need for CoQ supplements. [[1]](#pm-ref-1) [[2]](#pm-ref-2) [[3]](#pm-ref-3)
+
+Dietary precursor/cofactor supply is a capacity relationship. It does not establish that additional intake increases CoQ synthesis. Plasma exposure, tissue abundance, mitochondrial concentration, redox state and respiratory function must be measured separately. [[4]](#pm-ref-4) [[8]](#pm-ref-8)
+
+## 2. Primary Biological Effects
+
+Maintains CoQ production and compartmental availability → supplies downstream electron-transfer and cellular redox systems; not evidence of enhanced cognition or clinical resilience.
+
+## 3. Intervention Levers
+
+**Intervention Dominance:** Diet-Supported — capacity support, with no principal intervention route established.
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Dietary Inputs & Regulatory Modulators</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Tyrosine
+- Methionine
+- Vitamin B2
+- Iron
+
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+Intracellular CoQ, SAM and FAD are represented within the precursor relationships and biological mechanism, without separate dietary admissions.
+
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No mapping established. Multiple biosynthetic nutrients do not, by themselves, establish a coherent shared KC pool.
+
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No PM-specific protocol is admitted. Precursor bypass in inherited HPDL deficiency and oral CoQ supplementation require genotype-, formulation- and tissue-specific appraisal; neither establishes an ordinary-food protocol.
+
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No lifestyle intervention is admitted yet. The supervised training cohort measured muscle CoQ, but lacked an inactive comparison and did not establish synthesis or mitochondrial-normalised adaptation. See SF4 and the associated Evidence Gap.
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+Endogenous headgroup and side-chain pathways converge in CoQ maturation. COQ cofactors sustain biosynthetic capacity, while distribution governs which membranes receive the product. Training-associated muscle changes and oral supplementation results address different questions. Age-related serum redox associations do not demonstrate universal tissue depletion. [[1]](#pm-ref-1) [[4]](#pm-ref-4) [[5]](#pm-ref-5) [[6]](#pm-ref-6) [[8]](#pm-ref-8) [[10]](#pm-ref-10)
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Biological mechanism</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+Tyrosine-derived 4-HPP can enter an HPDL-associated 4-HMA route towards 4-HB; some intervening human assignments remain unresolved. Phenylalanine can supply tyrosine systemically, but did not directly label this route in the non-liver cells tested. Early precursor bypass in HPDL-deficient mice and one patient is not a healthy-population dietary intervention. [[2]](#pm-ref-2) [[3]](#pm-ref-3)
+
+Mevalonate-derived IPP/DMAPP supply the PDSS1/2 side-chain pathway. COQ2 prenylates the headgroup. COQ3/5 use SAM; COQ6 uses flavin-linked reducing equivalents; COQ7 is a diiron hydroxylase and COQ9 supports lipid-substrate handling. COQ4 decarboxylation and COQ8 support have been investigated in reconstructed tetrapod machinery. NADPH, NADH, ATP and metal availability have distinct reaction roles; no generic food-to-NADPH-to-CoQ efficacy chain is admitted. [[1]](#pm-ref-1) [[4]](#pm-ref-4) [[11]](#pm-ref-11)
+
+PARL/STARD7 experiments show that mitochondrial synthesis and export are separately regulated. COQ gene defects and secondary perturbations can impair pools, but circulating CoQ alone cannot diagnose all tissue deficiencies. The reduced and oxidised forms cycle during function; a higher reduced fraction is not automatically superior. [[1]](#pm-ref-1) [[5]](#pm-ref-5) [[10]](#pm-ref-10)
+
+</div>
+</div>
+</div>
+
+### 4.1 Scientific Findings
+
+#### Summary
+
+Distinct propositions concern precursor formation, enzymatic requirements, distribution, training, tissue target engagement and ageing. Human intervention observations do not inherit the certainty of established biochemical reactions.
+
+<ScientificFinding finding={{"id":"PM10-F1","finding_label":"Tyrosine-derived headgroup formation and HPDL bypass","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"Isotope tracing and genetic perturbation establish an HPDL-associated tyrosine-to-CoQ headgroup route in studied human cell models; precursor rescue in HPDL deficiency is supported principally by mice and one treated patient.","finding_summary":"Isotope tracing and genetic perturbation establish an HPDL-associated tyrosine-to-CoQ headgroup route in studied human cell models; precursor rescue in HPDL deficiency is supported principally by mice and one treated patient.","finding_interpretation":"Cancer-cell models are not whole-body nutritional flux. Phenylalanine did not label the route in the tested non-liver cells lacking phenylalanine hydroxylase. The human 4-HMA-to-4-HB enzymatic sequence and tissue contribution remain incompletely assigned. A single patient is not a controlled efficacy trial.","synthesis":"Banh identified tyrosine-derived 4-hydroxymandelate (4-HMA), HPDL loss/rescue and incorporation into CoQ10 in human cells. Dependence varied with cell density and culture conditions. Shi traced headgroup intermediates in mouse brain and reported early-treatment rescue and one human treatment course. These establish pathway biology and a genotype-specific bypass, not general dietary enhancement.","synthesis_limitations":"Cancer-cell models are not whole-body nutritional flux. Phenylalanine did not label the route in the tested non-liver cells lacking phenylalanine hydroxylase. The human 4-HMA-to-4-HB enzymatic sequence and tissue contribution remain incompletely assigned. A single patient is not a controlled efficacy trial.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Banh et al. (2021)","citation_key":"banh_coq_2021","href":"/docs/papers/BRAIN-Diet-References#banh_coq_2021","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Tyrosine-labelled headgroup metabolites and CoQ10 respond to HPDL perturbation; high-density and 3D conditions reveal dependence.","assessment":{"study":"The polar oxy-metabolome reveals the 4-hydroxymandelate CoQ10 synthesis pathway","population":"Human cell lines, isotope tracing, HPDL knockout and wild-type versus catalytic-mutant rescue.","result":"Tyrosine-labelled headgroup metabolites and CoQ10 respond to HPDL perturbation; high-density and 3D conditions reveal dependence.","effect_magnitude":"No dietary effective dose is established.","evidence_summary":"Tyrosine-labelled headgroup metabolites and CoQ10 respond to HPDL perturbation; high-density and 3D conditions reveal dependence.","limitations":"Culture-specific pathways and rescue; not a dietary tyrosine trial.","retrieval_scope":"Full primary article text via NCBI BioC PMC8538427"},"canonical_reference":{"author_year":"Banh et al. (2021)","number":2,"anchor":"#pm-ref-2"}},{"label":"Shi et al. (2025)","citation_key":"shi_coq_2025","href":"/docs/papers/BRAIN-Diet-References#shi_coq_2025","data_level":"Animal Data","evidence_source":"bounded-external-search","directional_finding":"Labelled 4-HMA/4-HB entered brain CoQ; early precursor treatment rescued mice, with later treatment ineffective; one patient improved during treatment.","assessment":{"study":"Coenzyme Q headgroup intermediates can ameliorate a mitochondrial encephalopathy","population":"HPDL-deficient mice; one patient with biallelic HPDL disease.","result":"Labelled 4-HMA/4-HB entered brain CoQ; early precursor treatment rescued mice, with later treatment ineffective; one patient improved during treatment.","effect_magnitude":"No dietary effective dose is established.","evidence_summary":"Labelled 4-HMA/4-HB entered brain CoQ; early precursor treatment rescued mice, with later treatment ineffective; one patient improved during treatment.","limitations":"Developmental timing, genotype and species limit translation. The patient and mouse outcomes are not independent human replication.","retrieval_scope":"Full primary article text via NCBI BioC PMC12422950"},"canonical_reference":{"author_year":"Shi et al. (2025)","number":3,"anchor":"#pm-ref-3"}}],"connected_supportive_evidence":[],"evidence_dependency":[],"sec_assessment_ref":{"id":"brs4-pm10-f1-assessment","version":1,"sha256":"186f608a475ed36d275b6537e5a5178c09d2c9e75b0ff25759fe600a09265336"}}} pmId={"BRS4-FM1-PM10"} />
+
+<ScientificFinding finding={{"id":"PM10-F2","finding_label":"Biosynthetic enzymes have specific cofactor requirements","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"Reconstituted tetrapod COQ enzymes use SAM, flavin-linked electron transfer and a diiron hydroxylase during CoQ headgroup maturation; this identifies biochemical capacity dependencies rather than a benefit from extra nutrient intake.","finding_summary":"Reconstituted tetrapod COQ enzymes use SAM, flavin-linked electron transfer and a diiron hydroxylase during CoQ headgroup maturation; this identifies biochemical capacity dependencies rather than a benefit from extra nutrient intake.","finding_interpretation":"Ancestral proteins and CoQ1 assay substrates are not intact human mitochondrial CoQ10 synthesis. FAD dependence is not proof that riboflavin intake limits flux. Cellular metal toxicity is not a reason to supplement cobalt or manganese. Mg/Zn assay roles do not automatically establish new dietary requirements.","synthesis":"Nicoll reconstituted ancestral tetrapod COQ3–9 with short-chain substrates and omission controls. COQ3/COQ5 use SAM; COQ6 uses FAD and the FDXR–FDX2 electron-transfer system with upstream NADPH. COQ7 is a diiron hydroxylase supported by COQ9. Cellular metal perturbation provides complementary COQ7 evidence. COQ4 catalyses oxidative decarboxylation in the reconstructed system; COQ8A/B support the machinery rather than naming a CoQ homologue.","synthesis_limitations":"Ancestral proteins and CoQ1 assay substrates are not intact human mitochondrial CoQ10 synthesis. FAD dependence is not proof that riboflavin intake limits flux. Cellular metal toxicity is not a reason to supplement cobalt or manganese. Mg/Zn assay roles do not automatically establish new dietary requirements.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Nicoll et al. (2024)","citation_key":"nicoll_coq_2024","href":"/docs/papers/BRAIN-Diet-References#nicoll_coq_2024","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Cofactor/enzyme omission and product analysis establish distinct methylation, hydroxylation and assembly reactions.","assessment":{"study":"In vitro construction of the COQ metabolon unveils the molecular determinants of coenzyme Q biosynthesis","population":"Purified reconstructed tetrapod COQ proteins, more than 75% human sequence identity, expressed in bacteria; short-tail substrate assays.","result":"Cofactor/enzyme omission and product analysis establish distinct methylation, hydroxylation and assembly reactions.","effect_magnitude":"No dietary effective dose is established.","evidence_summary":"Cofactor/enzyme omission and product analysis establish distinct methylation, hydroxylation and assembly reactions.","limitations":"Native human regulation, long-tail substrate handling and dietary responsiveness were not measured.","retrieval_scope":"Full primary article text via NCBI BioC PMC7615680"},"canonical_reference":{"author_year":"Nicoll et al. (2024)","number":4,"anchor":"#pm-ref-4"}},{"label":"Wang and Hekimi (2022)","citation_key":"wang_coq7_2022","href":"/docs/papers/BRAIN-Diet-References#wang_coq7_2022","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Manganese exposure increased demethoxy-CoQ/CoQ and iron accelerated recovery after washout.","assessment":{"study":"The CoQ biosynthetic di-iron carboxylate hydroxylase COQ7 is inhibited by in vivo metalation with manganese but remains functional by metalation with cobalt","population":"Mouse RAW264.7 and human HEK293 cells under high metal exposures.","result":"Manganese exposure increased demethoxy-CoQ/CoQ and iron accelerated recovery after washout.","effect_magnitude":"No dietary effective dose is established.","evidence_summary":"Manganese exposure increased demethoxy-CoQ/CoQ and iron accelerated recovery after washout.","limitations":"Metal substitution interpretation and supraphysiological exposures do not quantify normal dietary iron limitation.","retrieval_scope":"Full primary article text via NCBI BioC PMC9513594"},"canonical_reference":{"author_year":"Wang and Hekimi (2022)","number":11,"anchor":"#pm-ref-11"}}],"connected_supportive_evidence":[],"evidence_dependency":[],"sec_assessment_ref":{"id":"brs4-pm10-f2-assessment","version":1,"sha256":"28fc5805e645ce59be13406e617ba9e3ce502b64f55cf3a7cb08f1c3b7217998"}}} pmId={"BRS4-FM1-PM10"} />
+
+<ScientificFinding finding={{"id":"PM10-F3","finding_label":"CoQ distribution is regulated separately from total supply","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"PARL-dependent STARD7 localisation regulates mitochondrial CoQ synthesis and export to other membranes in experimental cell systems, showing that total CoQ abundance and compartmental availability are distinct.","finding_summary":"PARL-dependent STARD7 localisation regulates mitochondrial CoQ synthesis and export to other membranes in experimental cell systems, showing that total CoQ abundance and compartmental availability are distinct.","finding_interpretation":"Cell and mouse genetic experiments do not establish a dietary transport intervention or the corresponding quantitative fluxes in healthy human tissues.","synthesis":"Genetic loss and compartment-targeted rescue distinguish mitochondrial STARD7 support of CoQ production from cytosolic STARD7-mediated distribution. Redirecting CoQ towards the plasma membrane can reduce the mitochondrial pool. Findings support compartmental control, not a universal benefit from a larger circulating pool.","synthesis_limitations":"Cell and mouse genetic experiments do not establish a dietary transport intervention or the corresponding quantitative fluxes in healthy human tissues.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Deshwal et al. (2023)","citation_key":"deshwal_stard7_2023","href":"/docs/papers/BRAIN-Diet-References#deshwal_stard7_2023","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"STARD7 localisation separates CoQ synthesis and intracellular transport.","assessment":{"study":"Mitochondria regulate intracellular coenzyme Q transport and ferroptotic resistance via STARD7","population":"Human cultured cells, targeted genetic rescue and mouse PARL-deficiency tissues.","result":"STARD7 localisation separates CoQ synthesis and intracellular transport.","effect_magnitude":"No dietary effective dose is established.","evidence_summary":"STARD7 localisation separates CoQ synthesis and intracellular transport.","limitations":"Cellular ferroptosis resistance is a downstream readout; not cognition, diet or clinical resilience.","retrieval_scope":"Full primary article text via NCBI BioC PMC9928583"},"canonical_reference":{"author_year":"Deshwal et al. (2023)","number":5,"anchor":"#pm-ref-5"}}],"connected_supportive_evidence":[],"evidence_dependency":[],"sec_assessment_ref":{"id":"brs4-pm10-f3-assessment","version":1,"sha256":"8fbc248ebd6b2e4ede4552ac3337243492b29b9d30b066542ba0d5003f0e3db7"}}} pmId={"BRS4-FM1-PM10"} />
+
+<ScientificFinding finding={{"id":"PM10-F4","finding_label":"Training-associated muscle CoQ concentration","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"In the studied statin-user and non-user cohort, twelve weeks of combined endurance and resistance training was associated with a modest increase in total CoQ10 per gram of wet skeletal muscle.","finding_summary":"In the studied statin-user and non-user cohort, twelve weeks of combined endurance and resistance training was associated with a modest increase in total CoQ10 per gram of wet skeletal muscle.","finding_interpretation":"No inactive comparison, some missing biopsies, sex/statin differences and one cohort. Concentration per wet mass is not mitochondrial-normalised concentration, synthesis rate, turnover, redistribution or redox state. CoQ change was not shown to mediate function.","synthesis":"The CoQ analysis reused biopsies from the 2021 STATEX training cohort, not a new independent trial. All participants trained. The pooled adjusted change was 3.4 micrograms/g wet muscle (95% CI 0.4–6.3); statin subgroup changes were not individually significant. The earlier report found increased citrate-synthase activity, but no detectable increase in ATP-production capacity or peak oxygen uptake.","synthesis_limitations":"No inactive comparison, some missing biopsies, sex/statin differences and one cohort. Concentration per wet mass is not mitochondrial-normalised concentration, synthesis rate, turnover, redistribution or redox state. CoQ change was not shown to mediate function.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Allard et al. (2023)","citation_key":"allard_coq_2023","href":"/docs/papers/BRAIN-Diet-References#allard_coq_2023","data_level":"Human Study","evidence_source":"bounded-external-search","directional_finding":"Pooled muscle CoQ rose after training; baseline CoQ did not distinguish statin muscle-symptom groups.","assessment":{"study":"The Effect of Exercise Training on Muscle Coenzyme Q10 in Symptomatic and Asymptomatic Statin Users","population":"16 symptomatic and 16 asymptomatic statin users plus 20 non-users; approximately 63–64 years.","result":"Pooled muscle CoQ rose after training; baseline CoQ did not distinguish statin muscle-symptom groups.","effect_magnitude":"Adjusted change 3.4 micrograms/g wet muscle, 95% CI 0.4–6.3; P=0.028.","evidence_summary":"Pooled muscle CoQ rose after training; baseline CoQ did not distinguish statin muscle-symptom groups.","limitations":"All groups trained; subgroup and missing-biopsy limitations; no CoQ synthesis or redox flux.","retrieval_scope":"Full primary article text via NCBI BioC PMC10774572"},"canonical_reference":{"author_year":"Allard et al. (2023)","number":6,"anchor":"#pm-ref-6"}},{"label":"Allard et al. (2021)","citation_key":"allard_training_2021","href":"/docs/papers/BRAIN-Diet-References#allard_training_2021","data_level":"Human Study","evidence_source":"bounded-external-search","directional_finding":"Twice-weekly cycling plus weekly resistance work; citrate-synthase activity increased, ATP-production capacity and peak oxygen uptake did not.","assessment":{"study":"Moderate Intensity Exercise Training Improves Skeletal Muscle Performance in Symptomatic and Asymptomatic Statin Users","population":"Same STATEX cohort; supervised twelve-week programme.","result":"Twice-weekly cycling plus weekly resistance work; citrate-synthase activity increased, ATP-production capacity and peak oxygen uptake did not.","effect_magnitude":"Cycling: 10-minute warm-up, 40 minutes at 70–80% maximal heart rate, 5-minute cool-down, twice weekly; resistance: 60 minutes weekly, 3 sets of 12 repetitions.","evidence_summary":"Twice-weekly cycling plus weekly resistance work; citrate-synthase activity increased, ATP-production capacity and peak oxygen uptake did not.","limitations":"Same participants as the 2023 CoQ report; not replication.","retrieval_scope":"Full publisher-version PDF via Maastricht repository; methods and reported endpoints verified."},"canonical_reference":{"author_year":"Allard et al. (2021)","number":7,"anchor":"#pm-ref-7"}}],"connected_supportive_evidence":[],"evidence_dependency":["Allard 2021 and 2023 are one cohort, not independent replications."],"sec_assessment_ref":{"id":"brs4-pm10-f4-assessment","version":1,"sha256":"81e86049e3c74aff4e70245158c964b6519848ca3b60f53f7b7156a9a8cbdd93"}}} pmId={"BRS4-FM1-PM10"} />
+
+<ScientificFinding finding={{"id":"PM10-F5","finding_label":"Plasma exposure does not ensure muscle target engagement","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"In the reported older-adult and statin-treated trials, oral CoQ10 increased plasma exposure without a detectable increase in measured skeletal-muscle CoQ or mitochondrial function under the tested conditions.","finding_summary":"In the reported older-adult and statin-treated trials, oral CoQ10 increased plasma exposure without a detectable increase in measured skeletal-muscle CoQ or mitochondrial function under the tested conditions.","finding_interpretation":"Formulation, tissue, baseline deficiency and population matter. The 2026 abstract does not provide effect intervals or its cognitive result. Cooke reports borderline muscle signals in younger adults, and cardiac-surgical ubiquinol research concerns a different tissue/context; these are not general muscle-delivery proof.","synthesis":"The 2026 trial randomised 40 robust older adults (74 ± 4 years) to 400 mg/day or placebo for twelve weeks. Its abstract reports no change in muscle or isolated-mitochondrial CoQ, respiration, hydrogen-peroxide emission or mitochondrial content despite higher plasma CoQ. Dohlmann studied 37 simvastatin-treated adults for eight weeks at 400 mg/day with similarly null muscle/function results. Full 2026 methods remain unavailable. Neither study proves equivalence or universal inefficacy.","synthesis_limitations":"Formulation, tissue, baseline deficiency and population matter. The 2026 abstract does not provide effect intervals or its cognitive result. Cooke reports borderline muscle signals in younger adults, and cardiac-surgical ubiquinol research concerns a different tissue/context; these are not general muscle-delivery proof.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Schmücker et al. (2026)","citation_key":"schmucker_coq_2026","href":"/docs/papers/BRAIN-Diet-References#schmucker_coq_2026","data_level":"Human Study","evidence_source":"bounded-external-search","directional_finding":"Plasma rose; measured muscle/isolated mitochondrial CoQ and respiratory endpoints did not change detectably.","assessment":{"study":"Coenzyme Q10 supplementation raises plasma levels without improving mitochondrial function in older adults","population":"40 robust community-dwelling older adults, 74 ± 4 years; randomised double-blind placebo-controlled trial.","result":"Plasma rose; measured muscle/isolated mitochondrial CoQ and respiratory endpoints did not change detectably.","effect_magnitude":"400 mg/day for twelve weeks; no group effect intervals available in retrieved abstract.","evidence_summary":"Plasma rose; measured muscle/isolated mitochondrial CoQ and respiratory endpoints did not change detectably.","limitations":"Abstract-level retrieval; null results are not equivalence; cognitive outcome not extracted.","retrieval_scope":"Publisher abstract and bibliographic record; full methods not verified"},"canonical_reference":{"author_year":"Schmücker et al. (2026)","number":8,"anchor":"#pm-ref-8"}},{"label":"Dohlmann et al. (2022)","citation_key":"dohlmann_coq_2022","href":"/docs/papers/BRAIN-Diet-References#dohlmann_coq_2022","data_level":"Human Study","evidence_source":"bounded-external-search","directional_finding":"Muscle CoQ and respiration did not improve detectably; muscle changes did not correlate with myalgia changes.","assessment":{"study":"Coenzyme Q10 Supplementation in Statin Treated Patients: A Double-Blinded Randomized Placebo-Controlled Trial","population":"37 simvastatin-treated men and women with/without myalgia; randomised double-blind placebo-controlled trial.","result":"Muscle CoQ and respiration did not improve detectably; muscle changes did not correlate with myalgia changes.","effect_magnitude":"400 mg/day for eight weeks.","evidence_summary":"Muscle CoQ and respiration did not improve detectably; muscle changes did not correlate with myalgia changes.","limitations":"Small trial powered partly from plasma/previous mitochondrial data, not a muscle-CoQ equivalence margin.","retrieval_scope":"Full primary article text via NCBI BioC PMC9495827"},"canonical_reference":{"author_year":"Dohlmann et al. (2022)","number":9,"anchor":"#pm-ref-9"}}],"connected_supportive_evidence":[{"label":"Cooke et al. (2008)","citation_key":"cooke_coq_2008","href":"https://doi.org/10.1186/1550-2783-5-8","data_level":"Human Study","why_relevant":"Different formulation, population or tissue provides a boundary against universal non-delivery.","why_excluded":"Not replication of the exact older-adult skeletal-muscle proposition; no pooled effect inferred.","canonical_reference":{"author_year":"Cooke et al. (2008)","number":15,"anchor":"#pm-ref-15"}},{"label":"Orlando et al. (2020)","citation_key":"orlando_ubiquinol_2020","href":"https://doi.org/10.18632/aging.103742","data_level":"Human Study","why_relevant":"Different formulation, population or tissue provides a boundary against universal non-delivery.","why_excluded":"Not replication of the exact older-adult skeletal-muscle proposition; no pooled effect inferred.","canonical_reference":{"author_year":"Orlando et al. (2020)","number":16,"anchor":"#pm-ref-16"}}],"evidence_dependency":[],"sec_assessment_ref":{"id":"brs4-pm10-f5-assessment","version":1,"sha256":"d6f2967daa6a685d82297735cb3a5bf96188b34cbc04f670d6f87fd48791bea3"}}} pmId={"BRS4-FM1-PM10"} />
+
+<ScientificFinding finding={{"id":"PM10-F6","finding_label":"Ageing associations depend on redox and lipoprotein context","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"In a cross-sectional European sample, older adults had a higher oxidised serum-CoQ10 fraction, while the age pattern in cholesterol-adjusted total CoQ10 was not statistically significant.","finding_summary":"In a cross-sectional European sample, older adults had a higher oxidised serum-CoQ10 fraction, while the age pattern in cholesterol-adjusted total CoQ10 was not statistically significant.","finding_interpretation":"Cross-sectional serum measurements cannot demonstrate longitudinal loss in every tissue, altered biosynthetic flux or an optimal reduced fraction. Normal CoQ function requires reversible redox cycling. Sample processing can cause ex-vivo oxidation.","synthesis":"Niklowitz studied 860 adults aged 18–82. Unadjusted total CoQ followed an inverse-U pattern, with strong lipoprotein association. Serum handling affected the oxidised fraction; serum and plasma are not interchangeable. A separate short ubiquinol exposure in younger men does not establish reversal of tissue ageing.","synthesis_limitations":"Cross-sectional serum measurements cannot demonstrate longitudinal loss in every tissue, altered biosynthetic flux or an optimal reduced fraction. Normal CoQ function requires reversible redox cycling. Sample processing can cause ex-vivo oxidation.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Niklowitz et al. (2016)","citation_key":"niklowitz_coq_2016","href":"/docs/papers/BRAIN-Diet-References#niklowitz_coq_2016","data_level":"Human Study","evidence_source":"bounded-external-search","directional_finding":"Older groups had higher oxidised fractions; cholesterol-adjusted total age course was not significant.","assessment":{"study":"Coenzyme Q10 serum concentration and redox status in European adults: influence of age, sex, and lipoprotein concentration","population":"860 adults, 18–82 years; selected European cohorts, cross-sectional.","result":"Older groups had higher oxidised fractions; cholesterol-adjusted total age course was not significant.","effect_magnitude":"Age groups n=326, 388 and 146; mean oxidised serum fraction 12.9%; no causal age-effect estimate.","evidence_summary":"Older groups had higher oxidised fractions; cholesterol-adjusted total age course was not significant.","limitations":"Selection, residual confounding, serum/plasma matrix and processing; supplementary exposure group comprised younger men.","retrieval_scope":"Full primary article text via NCBI BioC PMC4865593"},"canonical_reference":{"author_year":"Niklowitz et al. (2016)","number":10,"anchor":"#pm-ref-10"}}],"connected_supportive_evidence":[],"evidence_dependency":[],"sec_assessment_ref":{"id":"brs4-pm10-f6-assessment","version":1,"sha256":"087afca135e1d99778c72b3e8a34734a612f7c1f4f6b6dfa6baa45c4a024d219"}}} pmId={"BRS4-FM1-PM10"} />
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+CoQ production and distribution supply [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function). This connection does not duplicate ownership of electron transfer.
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+BRS2 methyl-donor metabolism can supply SAM; BRS3 uses CoQ-dependent redox functions downstream. BRS1 neurotransmission, BRS5 metabolic/inflammatory signalling and BRS6 adaptive fuel supply are possible contexts for energetic-demand research, not demonstrated causal CoQ intervention pathways. [[1]](#pm-ref-1) [[4]](#pm-ref-4)
+
+The **Energetic Reserve Hypothesis** is recorded as an Evidence Gap: baseline energetic status might modify responses during demand and recovery. CoQ10, creatine, carnitine and microbial metabolites do not share one mechanism. ADHD, cognition or fatigue outcomes do not independently measure mitochondrial mediation, allostatic load or resilience. [[13]](#pm-ref-13)
+
+### 5.3 Local BRS Mechanism Relationships
+
+NAD metabolism and the creatine buffer are distinct operations; mitochondrial biogenesis governs organelle capacity rather than CoQ production. No existing PM mission or KC membership is changed.
+
+## 7. Phenome Connections
+
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+
+<div class="brs-fm-hub-item phenome-scoring-key-hub" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>How these ratings work</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<div class="phenome-scoring-key">
+<p class="phenome-scoring-key-intro">
+Each Phenome relationship has <strong>two independent ratings</strong>. They are not combined or averaged.
+</p>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Biology → Phenome Relationship Strength</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How direct and important is this biological mechanism expected to be to the Phenome within the BRAIN model?</em>
+</p>
+</div>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Evidence Confidence</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How strongly does the adjudicated evidence support this particular biology → Phenome relationship?</em>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+No direct functional outcome relationship currently mapped.
+
+## 8. References
+
+- <span id="pm-ref-1">[1]</span> [Guerra and Pagliarini (2023)](/docs/papers/BRAIN-Diet-References#guerra_coq_2023)
+- <span id="pm-ref-2">[2]</span> [Banh et al. (2021)](/docs/papers/BRAIN-Diet-References#banh_coq_2021)
+- <span id="pm-ref-3">[3]</span> [Shi et al. (2025)](/docs/papers/BRAIN-Diet-References#shi_coq_2025)
+- <span id="pm-ref-4">[4]</span> [Nicoll et al. (2024)](/docs/papers/BRAIN-Diet-References#nicoll_coq_2024)
+- <span id="pm-ref-5">[5]</span> [Deshwal et al. (2023)](/docs/papers/BRAIN-Diet-References#deshwal_stard7_2023)
+- <span id="pm-ref-6">[6]</span> [Allard et al. (2023)](/docs/papers/BRAIN-Diet-References#allard_coq_2023)
+- <span id="pm-ref-7">[7]</span> [Allard et al. (2021)](/docs/papers/BRAIN-Diet-References#allard_training_2021)
+- <span id="pm-ref-8">[8]</span> [Schmücker et al. (2026)](/docs/papers/BRAIN-Diet-References#schmucker_coq_2026)
+- <span id="pm-ref-9">[9]</span> [Dohlmann et al. (2022)](/docs/papers/BRAIN-Diet-References#dohlmann_coq_2022)
+- <span id="pm-ref-10">[10]</span> [Niklowitz et al. (2016)](/docs/papers/BRAIN-Diet-References#niklowitz_coq_2016)
+- <span id="pm-ref-11">[11]</span> [Wang and Hekimi (2022)](/docs/papers/BRAIN-Diet-References#wang_coq7_2022)
+- <span id="pm-ref-12">[12]</span> [Žmitek et al. (2014)](/docs/papers/BRAIN-Diet-References#zmitek_factors_2014)
+- <span id="pm-ref-13">[13]</span> [Gamal et al. (2022)](/docs/papers/BRAIN-Diet-References#gamal_coq_2022)
+- <span id="pm-ref-14">[14]</span> [Liu et al. (2026)](/docs/papers/BRAIN-Diet-References#liu_coq_2026)
+- <span id="pm-ref-15">[15]</span> [Cooke et al. (2008)](/docs/papers/BRAIN-Diet-References#cooke_coq_2008)
+- <span id="pm-ref-16">[16]</span> [Orlando et al. (2020)](/docs/papers/BRAIN-Diet-References#orlando_ubiquinol_2020)
+

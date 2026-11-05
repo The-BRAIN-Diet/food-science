@@ -122,3 +122,17 @@ The owner-requested PM3 appraisal is a bounded exception to the two-pass rollout
 A canonical intervention atom pins `sec_assessment_ref: {id, version, sha256}` and the exact `sec_assessed_proposition`. Resolve against its `atom_id`, PM identity, proposition and content pin. Assessment gaps use the same intervention owner and existing dimension-level tracking. Missing values remain null, pending dimensions require actionable Assessment gaps, and pending appraisal blocks scientific approval. Provisional appraisal is not human scientific acceptance or automatic intervention re-admission.
 
 Existing Finding assessments and all historical snapshots remain immutable. This extension stores intervention assessments and updates existing status text only; it does not authorise a new public panel. Numerical assessment presentation remains governed by Section 4 and its separately approved presentation contract. Keep intervention coverage separate from Finding coverage.
+
+## PM1 controlled reference completion — 3 November 2026
+
+Owner instruction: resolve PM1 issues starting with F3, complete SEC appraisal, apply PM8 tabs and approved six-atom presentation; no commit or push. Scope is BRS1-FM1-PM1, not framework-wide refactoring or certification of a finished Gold Standard.
+
+Add PM1 to the existing intervention SEC integration scope. Its two SOPs are appraised independently under the unchanged D/B/P/R rubric; Finding scores are not inherited. F2/F3 receive new immutable versions; F7 receives a documented access-limited assessment with unassessable B/P and no total. Preserve every earlier snapshot. A structural/appraisal gate pass is not qualified human acceptance or evidence that all knowledge gaps are closed.
+
+## CoQ PM scope — 5 November 2026
+
+The author authorised BRS4-FM1-PM10 creation and provisional SF appraisal. Its six Finding references use the existing immutable sidecar, D/B/P/R and Assessment gap contracts. Five initial assessments are provisional; SF5 retains pending B/P/R appraisal of the 2026 trial. No intervention assessment, formula change, new numerical anchor or human approval is inferred. See `review/coq-pm-2026-11-05/` for source access and boundaries.
+
+## Three author-approved priority SOPs — 5 November 2026
+
+BRS3-FM3-PM7 (Wastyk), BRS5-FM2-PM5 (Baxter) and BRS6-FM1-PM3 (Sutton) enter the existing intervention SEC scope. Their 4 November provisional appraisals are integrated unchanged with exclusive intervention ownership, immutable version/hash pins and Section4 presentation. Author admission approval is not qualified-human SEC review. Existing rubric, six atoms and presentation components are unchanged. Shukla/Reynolds remain deferred; see `review/priority-intervention-appraisal-2026-11-04/integration-report.md`.

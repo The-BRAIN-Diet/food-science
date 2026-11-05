@@ -212,3 +212,105 @@ The missing diet search used the insulin-clamp respiratory-exchange endpoint. Si
 #### Searched, with no relevant intervention retrieved
 
 Glutamate–glutamine cycle rate: human 13C measurements are resting physiology, not diet or exercise trials. Mucus thickness and MUC2: human biopsy trials measured proliferation or mucosal bacteria, not mucus. Endocannabinoid–dopamine interaction: anandamide and dopamine were still in different studies. Progesterone metabolites: faecal culture and the hydrogen paper already on the page, with no feeding trial. Androgen-conjugate recycling: not measured. A low-fat, high-fibre diet lowered serum testosterone by about 12% without a microbial endpoint, so it is not entered as a microbiome practice. L. reuteri remains a null testosterone result.
+
+## Priority intervention appraisal — 4 November 2026
+
+This supersedes “not scored” only for the exact seven propositions below. Five scores are review proposals, not canonical pins; two are existing independent PM3 intervention assessments. Discovery, appraisal and admission remain separate. No SF scores inherited.
+
+| Intervention | PM | D/B/P/R | SEC | Admission recommendation | Implementation status | Main limitation |
+|---|---|---|---|---|---|---|
+| Protein and vegetables before carbohydrate | BRS6-FM1-PM2 | 2/1/1/0 | 4/8 | Defer | Review proposal only | Acute excursions; prior PM2 selection needs adjudication |
+| Ten-minute walks after each main meal | BRS6-FM1-PM2 | 2/1/1/0 | 4/8 | Defer | Review proposal only | MAGE/CONGA/range null; activity amount also changed |
+| Ten-week high-fermented-food dietary pattern | BRS3-FM3-PM7 | 2/1/1/0 | 4/8 | Admit | Review proposal only | Primary response score null; exploratory marker changes |
+| Unheated extracted potato resistant-starch supplementation | BRS5-FM2-PM5 | 2/1/1/1 | 5/8 | Admit | Review proposal only | Extracted RS2; faecal concentration is not production flux |
+| Six-hour early eating window with weight-maintenance feeding | BRS6-FM1-PM3 | 2/1/1/0 | 4/8 | Admit | Review proposal only | Eight men; OGTT index, not clamp disposal |
+| Verified cereal dephytinisation | BRS1-FM1-PM3 | 2/1/1/1 | 5/8 | Admit — retain existing | Already pinned; unchanged | Matrix-dependent; not generic soaking or dopamine benefit |
+| Black tea delayed one hour after porridge | BRS1-FM1-PM3 | 2/1/1/0 | 4/8 | Admit — retain existing | Already pinned; unchanged | Twelve women; fixed sequence, not long-term iron status |
+
+Detailed source verification, limitations and approval gates: [seven-intervention report](../priority-intervention-appraisal-2026-11-04/report.md) and [structured appraisals](../priority-intervention-appraisal-2026-11-04/appraisals.json). The Wastyk primary cytokine-response score was null in both arms; Reynolds variability measures were null. No wider claim follows from positive selected endpoints. No new canonical admission or public panel implemented.
+
+## Author-approved priority integration — 5 November 2026 (local only)
+
+Supersedes proposed-only status for these three records; original discovery/appraisal history remains above. [Integration report](../priority-intervention-appraisal-2026-11-04/integration-report.md).
+
+| Intervention | PM / canonical SOP | Independent provisional SEC D/B/P/R | Paper boundary | State |
+|---|---|---|---|---|
+| Wastyk tested fermented-food pattern | BRS3-FM3-PM7 / PM7-SOP-FERMENTED-FOOD-1 | 2/1/1/0 = 4/8 | Exploratory selected serum markers; null primary response score; diversity separate | Author-admitted, implemented and locally validated |
+| Baxter unheated extracted potato RS2 | BRS5-FM2-PM5 / PM5-SOP-POTATO-RS2-1 | 2/1/1/1 = 5/8 | Faecal concentration, not production flux or whole-potato equivalence | Author-admitted, implemented and locally validated |
+| Sutton five-week six-hour early window, weight-maintenance feeding | BRS6-FM1-PM3 / PM3-SOP-EARLY-EATING-1 | 2/1/1/0 = 4/8 | Eight men with prediabetes; OGTT-derived index, not clamp or general efficacy | Author-admitted, implemented and locally validated |
+
+Shukla/Reynolds remain deferred: postprandial glucose-exposure ownership is unresolved among existing BRS6 operations. No new PM or mission change. No comparative dominance inferred. No new retrieval or rescoring. No commit/push/deployment.
+
+### BRS6PM3 remaining SOP SEC — 5 November 2026
+
+- PM3-SOP-1, conditional weight reduction: independently appraised exact Magkos protocol, D2/B1/P1/R0, provisional4/8. Not a score for weight loss generally.
+- PM3-SOP-DEFERRED-1, oral arginine: D2/R0; B/P pending full methods and uncertainty extraction. No total, two tracked Assessment Gaps. Existing admission unchanged, not recertified by an incomplete appraisal.
+- Sutton unchanged at4/8. No Finding score inheritance or lifestyle appraisal. [Appraisal and source-access report](../brs6-pm3-sop-sec-2026-11-05/report.md). Local-only; no commit/push/deployment.
+
+
+## Priority appraisal Batch 2 — 5 November 2026 (review only)
+
+Seven decisions: [report](../priority-intervention-appraisal-batch2-2026-11-05/report.md), [structured appraisals](../priority-intervention-appraisal-batch2-2026-11-05/appraisals.json). This supersedes preliminary candidate wording only; it does not change any canonical admission. Five eligible, one uncertain, one ineligible. Four provisional scores, one pending appraisal, two stopped at eligibility.
+
+| Candidate | Receiving PM | Eligibility | D/B/P/R | SEC | Admission recommendation | Main limitation |
+|---|---|---|---|---|---|---|
+| Whey versus micellar casein | BRS1-FM1-PM1 | Eligible | 2/1/1/0 | 4/8 provisional | Defer | Pooled interstudy contrast; no single matched protocol or universal whey advantage. |
+| Vitamin C supplementation and vitamin E retention | BRS3-FM2-PM6 | Eligible | 2/pending/pending/0 | Pending; no total | Defer | Primary methods unavailable; retention is not direct radical-recycling flux. |
+| Defined prebiotic blend and circulating indolepropionate | BRS5-FM3-PM8 | Eligible | 2/1/1/0 | 4/8 provisional | Defer | Unadjusted secondary IPA result (P=0.04); formulation specificity and concentration-versus-flux boundary. |
+| Glutamine for selected postinfectious IBS-D | BRS5-FM1-PM1 | Eligible | 2/1/2/0 | 5/8 provisional | Admit | Selected hyperpermeable postinfectious IBS-D; secondary endpoint, completer analysis and whey comparator. |
+| Egg-yolk phospholipid versus choline bitartrate | BRS1-FM2-PM6 | Eligible | 2/1/1/0 | 4/8 provisional | Admit | High-dose phospholipid concentrate; circulating choline, not neuronal uptake or acetylcholine. |
+| Cocoa flavanols | BRS1-FM5-PM12 | Ineligible | — | Not appraised | Reject | Cerebral blood volume is not a human synaptic structural endpoint. |
+| Fish versus fish-oil capsules | BRS1-FM3-PM7 | Uncertain | — | Not appraised | Defer | Red-cell EPA+DHA composite, not neuronal DHA; nonsignificance is not demonstrated equivalence. |
+
+Paper use: glutamine is a condition-specific permeability example; egg phospholipid is an acute upstream choline-provision example, not ordinary eggs or acetylcholine efficacy. Neither is canonically implemented by this batch. Whey illustrates why pooled source differences need protocol extraction; prebiotic IPA illustrates formulation/multiplicity boundaries; cocoa and fish illustrate endpoint ownership. The earlier glutamine “0.05 versus 0.11” was treatment-end versus baseline, not the treatment-control endpoint contrast (0.05 versus 0.10). Preserve historical discovery, use the corrected appraisal for writing. Vitamin C/E methods and precision remain two tracked Assessment gaps; no invented total.
+
+
+## Batch 2 integration — 5 November 2026
+
+Supersedes earlier review-only recommendations; discovery and original appraisals retained. Author: Batch 2 Integration and Resolution. Scores are provisional intervention-specific SEC, not clinical effectiveness.
+
+| Intervention | PM | Disposition | SEC | Paper boundary |
+|---|---|---|---|---|
+| 20 g whey versus casein in the tested older-adult drink | BRS1-FM1-PM1 | Implemented locally | 4/8 provisional | Pooled interstudy contrast; no single matched protocol or universal whey advantage. |
+| Vitamin C supplementation and vitamin E retention | BRS3-FM2-PM6 | Implemented locally | 4/8 provisional | Smoker-specific plasma retention under a low-ascorbate diet, not demonstrated recycling flux or clinical protection. |
+| Defined prebiotic blend and circulating indolepropionate | BRS5-FM3-PM8 | Defer | 4/8 review only | Unadjusted secondary IPA result (P=0.04); formulation specificity and concentration-versus-flux boundary. |
+| Glutamine for selected postinfectious IBS-D | BRS5-FM1-PM1 | Implemented locally | 5/8 provisional | Selected hyperpermeable postinfectious IBS-D; secondary endpoint, completer analysis and whey comparator. |
+| Egg-yolk phospholipid versus choline bitartrate | BRS1-FM2-PM6 | Implemented locally | 4/8 provisional | High-dose phospholipid concentrate; circulating choline, not neuronal uptake or acetylcholine. |
+| Cocoa flavanols | BRS1-FM5-PM12 | Reject | Not appraised | Cerebral blood volume is not a human synaptic structural endpoint. |
+| Tested fish-meal versus fish-oil capsule regimens over 16 weeks | BRS1-FM3-PM7 | Implemented locally | 4/8 provisional | Peripheral biomarker; no equivalence test or neuronal delivery measurement. |
+
+[Resolution and source-access record](../priority-intervention-appraisal-batch2-2026-11-05/resolution.json). [Integration/validation report](../priority-intervention-appraisal-batch2-2026-11-05/integration-report.md). No next batch authorised.
+
+## Priority Batch 3 appraisal — 5 November 2026 (local, author review)
+
+No new admissions or canonical scores. [Decisions and exact proposed six atoms](../priority-intervention-appraisal-batch3-2026-11-05/report.md).
+
+| Candidate | Receiving PM | D/B/P/R | SEC | Recommendation | Main boundary |
+|---|---|---|---|---|---|
+| Urolithin A | BRS4-FM2-PM5 | Not assessed | — | Defer — ownership unresolved | Canonical PM5 expressly excludes mitophagy and damaged-organelle removal. PM9 formation of new mitochondria is not equivalent to mitophagic removal. |
+| Endurance cycling | BRS4-FM1-PM1 | 2/1/1/0 | 4/8 | Defer — comparative contrast | Do not transfer combined-training versus control significance to endurance alone. |
+| Low-LA, high-EPA/DHA diet | BRS-X(ECS-PM2) | 2/1/1/0 | 4/8 | Admit — bounded proposal | LA lowering and EPA/DHA addition are a combined exposure; not evidence that LA reduction alone causes benefit. |
+| Olive-oil phenolics | BRS3-FM2-PM5 | 2/1/1/0 | 4/8 | Admit — bounded proposal | No claim of reduced inflammatory signalling or universal systemic antioxidant effect. |
+| Guided breathing | BRS6-FM3-PM6 | 2/1/1/0 | 4/8 | Admit — bounded proposal | No verified six-breaths/minute prescription; remove that preliminary-discovery shorthand. |
+| Blue-blocking glasses | BRS-X(Circadian-FM1-PM1) | 2/1/1/0 | 4/8 | Admit — bounded proposal | Onset estimation excluded out-of-range samples; baseline and follow-up counts differ. |
+| Calorie restriction | BRS4-FM4-PM9 | 2/1/1/0 | 4/8 | Admit — bounded proposal | Marker change must not be relabelled improved mitochondrial respiration. |
+
+Paper use: bounded peripheral biomarker and tissue examples; do not imply brain, ADHD or clinical benefit. Discovery entries remain historical; this checkpoint qualifies them.
+
+## Batch 3 authorised integration — 5 November 2026
+
+Five author-approved bounded interventions implemented locally; this supersedes review-only implementation status without changing the saved appraisal. Each has independent provisional D2/B1/P1/R0 = 4/8 SEC, not inherited from a Finding.
+
+| Intervention | PM | Implementation | Main boundary |
+|---|---|---|---|
+| Low-LA/high-EPA/DHA diet | BRS-X(ECS-PM2) | Six atoms + Section 4 SEC | Circulating DHA-ethanolamide, not CNS activity; AEA/2-AG null contrasts retained |
+| Phenolic olive oil | BRS3-FM2-PM5 | Six atoms + Section 4 SEC | Peripheral oxidised LDL; F2-isoprostane null retained |
+| Guided breathing | BRS6-FM3-PM6 | Lifestyle six atoms + Section 4 SEC | Acute recovery RMSSD; HR and comparator-specific HF limitations retained |
+| Blue-blocking glasses | BRS-X(Circadian-FM1-PM1) | Lifestyle six atoms + Section 4 SEC | Third-trimester pregnancy; sleep/phase-angle null results retained |
+| Six-month calorie restriction | BRS4-FM4-PM9 | Six atoms + Section 4 SEC | mtDNA marker; enzyme nulls, weight/lean-mass loss and exploratory status retained |
+
+Urolithin A remains deferred for PM ownership; endurance training remains deferred for the comparative contrast. Neither was newly admitted.
+
+## LAT1 classification correction — 5 November 2026
+
+BRS1-FM1-PM2 / PM2-SOP-MEAL-COMPOSITION-1: tested carbohydrate-rich versus protein-rich breakfasts, plasma LNAA ratios only. Author-approved relocation of historical PM2-DIT-3; exact protocol retained, no brain or cognitive benefit. Independent intervention SEC: Not yet assessed. See review/lat1-sop-relocation-2026-11-05/report.md. Local-only.

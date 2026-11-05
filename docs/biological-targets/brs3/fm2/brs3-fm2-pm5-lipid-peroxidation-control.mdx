@@ -4,13 +4,19 @@ pm_id: BRS3-FM2-PM5
 mission: Protect membrane fats from oxidative damage so vulnerable polyunsaturated fatty acids remain intact.
 parent_fm: BRS3(FM2)
 parent_brs: BRS3
-summary: 'Peroxyl radicals can keep oxidising polyunsaturated fats in membranes. Vitamin E is the main lipophilic antioxidant that breaks that chain. That role is the vitamin function of protecting those fats. Extra vitamin E was not shown to lower peroxidation, and a long trial found more prostate cancers with 400 IU a day.'
+summary: >-
+  Peroxyl radicals can keep oxidising polyunsaturated fats in membranes. Vitamin E is the main lipophilic
+  antioxidant that breaks that chain. That role is the vitamin function of protecting those fats. Extra
+  vitamin E was not shown to lower peroxidation, and a long trial found more prostate cancers with 400 IU a
+  day.
 key_constraints: []
 cofactors: []
 intervention_dominance: Not established
 intervention_breakdown: Food-State Dominant
 timing_specific: 'No'
-dose_sensitivity: 'No intake was shown to lower membrane peroxidation. In a large prevention trial, 400 IU of vitamin E a day was associated with more prostate cancers than placebo.'
+dose_sensitivity: >-
+  No intake was shown to lower membrane peroxidation. In a large prevention trial, 400 IU of vitamin E a day
+  was associated with more prostate cancers than placebo.
 dietary_addressability: not-established
 claim_ceiling: biological-dependency
 mechanistic_authoring_required: false
@@ -18,7 +24,10 @@ evidence_status: stage-2b-dietary-addressability
 dietary_input_traceability:
   - atom_id: PM5-DIT-1
     dietary_input: true
-    dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
+    dietary_input_note: >-
+      Dietary applicability is already admitted in the Direct/Derived section. This does not establish
+      ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a
+      derived product.
     input: Vitamin E
     input_type: nutrient/substance
     biological_role: Chain-breaking antioxidant that limits lipid-peroxyl radical propagation in membranes
@@ -28,36 +37,54 @@ dietary_input_traceability:
       citation_keys:
         - niki_vitamin_2014
         - traber_vitamin_2007
-    evidence_limitation: Vitamin E breaks peroxyl-radical chains in membranes. That chemistry does not show that extra vitamin E lowers peroxidation in people. A prevention trial found more prostate cancers with 400 IU a day.
+    evidence_limitation: >-
+      Vitamin E breaks peroxyl-radical chains in membranes. That chemistry does not show that extra vitamin E
+      lowers peroxidation in people. A prevention trial found more prostate cancers with 400 IU a day.
   - atom_id: PM5-DIT-RECOVERY-SELENIUM
     input: Selenium
     input_type: cofactor
     substance_id: selenium
-    biological_role: Dietary selenium supplies the selenocysteine-dependent phospholipid-hydroperoxide glutathione-peroxidase capacity that removes membrane lipid hydroperoxides.
+    biological_role: >-
+      Dietary selenium supplies the selenocysteine-dependent phospholipid-hydroperoxide glutathione-peroxidase
+      capacity that removes membrane lipid hydroperoxides.
     evidence_source:
       finding_ids:
         - PM5-F3
       citation_keys:
         - weitzel_selenium_phgpx_1990
-    evidence_limitation: 'Mouse whole-organ enzyme assays do not identify mitochondrial isoforms, a human food dose or benefit above selenium adequacy. Repletion response depended on dose; antioxidant capacity does not establish clinical prevention.'
+    evidence_limitation: >-
+      Mouse whole-organ enzyme assays do not identify mitochondrial isoforms, a human food dose or benefit
+      above selenium adequacy. Repletion response depended on dose; antioxidant capacity does not establish
+      clinical prevention.
     dietary_input: true
-    dietary_input_note: '2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition does not establish an effective intervention dose.'
+    dietary_input_note: >-
+      2026-10-26 mission-specific dietary recovery: admitted under the existing Type A gate; food composition
+      does not establish an effective intervention dose.
 dietary_lever_atoms:
   - atom_id: PM5-DIT-1
     requirement_classification: direct
     relationship_layer: dietary-requirement
     dietary_addressability: not-established
     claim_ceiling: biological-dependency
-    permitted_wording: 'Vitamin E is a Direct nutrient requirement for breaking peroxyl-radical chains in membranes. This is not an intake that was shown to lower peroxidation, and it is not a high-dose rule.'
-    evidence_limitation: Vitamin E breaks peroxyl-radical chains in membranes. That chemistry does not show that extra vitamin E lowers peroxidation in people. A prevention trial found more prostate cancers with 400 IU a day.
+    permitted_wording: >-
+      Vitamin E is a Direct nutrient requirement for breaking peroxyl-radical chains in membranes. This is not
+      an intake that was shown to lower peroxidation, and it is not a high-dose rule.
+    evidence_limitation: >-
+      Vitamin E breaks peroxyl-radical chains in membranes. That chemistry does not show that extra vitamin E
+      lowers peroxidation in people. A prevention trial found more prostate cancers with 400 IU a day.
   - atom_id: PM5-DIT-RECOVERY-SELENIUM
     requirement_classification: direct
     relationship_mode: capacity-requirement
     relationship_layer: dietary-requirement
     dietary_addressability: direct
     claim_ceiling: biological-dependency
-    permitted_wording: Dietary selenium supplies the selenocysteine-dependent phospholipid-hydroperoxide glutathione-peroxidase capacity that removes membrane lipid hydroperoxides.
-    evidence_limitation: 'Mouse whole-organ enzyme assays do not identify mitochondrial isoforms, a human food dose or benefit above selenium adequacy. Repletion response depended on dose; antioxidant capacity does not establish clinical prevention.'
+    permitted_wording: >-
+      Dietary selenium supplies the selenocysteine-dependent phospholipid-hydroperoxide glutathione-peroxidase
+      capacity that removes membrane lipid hydroperoxides.
+    evidence_limitation: >-
+      Mouse whole-organ enzyme assays do not identify mitochondrial isoforms, a human food dose or benefit
+      above selenium adequacy. Repletion response depended on dose; antioxidant capacity does not establish
+      clinical prevention.
 dietary_lever_presentations:
   - atom_id: PM5-DIT-1
     label: Vitamin E
@@ -66,21 +93,42 @@ dietary_lever_presentations:
     label: Selenium
     presentation_section: 3.1.1
 references:
-  - '[Bulut et al. (2007) — Malondialdehyde Levels in Adult Attention-deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007)'
-  - '[Fielding et al. (2005) — Increases in Plasma Lycopene Concentration After Consumption of Tomatoes Cooked with Olive](/docs/papers/BRAIN-Diet-References#fielding_increases_2005)'
-  - '[Johnson (2014) — Role of Lutein and Zeaxanthin in Visual and Cognitive Function Throughout the](/docs/papers/BRAIN-Diet-References#johnson_role_2014)'
-  - '[Solleiro-Villavicencio & Rivas-Arancibia (2018) — Oxidative Stress and Mitochondrial Dysfunction](/docs/papers/BRAIN-Diet-References#solleiro-villavicencio_effect_2018)'
-  - '[Niki (2014) — Vitamin E as a lipid-soluble peroxyl radical scavenger](/docs/papers/BRAIN-Diet-References#niki_vitamin_2014)'
-  - '[Traber and Atkinson (2007) — Vitamin E, antioxidant and nothing more](/docs/papers/BRAIN-Diet-References#traber_vitamin_2007)'
-  - '[Klein et al. (2011) — Vitamin E and the Risk of Prostate Cancer](/docs/papers/BRAIN-Diet-References#klein_vitamin_2011)'
-  - '[Weitzel et al. (1990) — Phospholipid hydroperoxide glutathione peroxidase in various mouse organs during selenium deficiency and repletion](/docs/papers/BRAIN-Diet-References#weitzel_selenium_phgpx_1990)'
+  - >-
+    [Bulut et al. (2007) — Malondialdehyde Levels in Adult Attention-deficit Hyperactivity
+    Disorder](/docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007)
+  - >-
+    [Fielding et al. (2005) — Increases in Plasma Lycopene Concentration After Consumption of Tomatoes Cooked
+    with Olive](/docs/papers/BRAIN-Diet-References#fielding_increases_2005)
+  - >-
+    [Johnson (2014) — Role of Lutein and Zeaxanthin in Visual and Cognitive Function Throughout
+    the](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
+  - >-
+    [Solleiro-Villavicencio & Rivas-Arancibia (2018) — Oxidative Stress and Mitochondrial
+    Dysfunction](/docs/papers/BRAIN-Diet-References#solleiro-villavicencio_effect_2018)
+  - >-
+    [Niki (2014) — Vitamin E as a lipid-soluble peroxyl radical
+    scavenger](/docs/papers/BRAIN-Diet-References#niki_vitamin_2014)
+  - >-
+    [Traber and Atkinson (2007) — Vitamin E, antioxidant and nothing
+    more](/docs/papers/BRAIN-Diet-References#traber_vitamin_2007)
+  - >-
+    [Klein et al. (2011) — Vitamin E and the Risk of Prostate
+    Cancer](/docs/papers/BRAIN-Diet-References#klein_vitamin_2011)
+  - >-
+    [Weitzel et al. (1990) — Phospholipid hydroperoxide glutathione peroxidase in various mouse organs during
+    selenium deficiency and repletion](/docs/papers/BRAIN-Diet-References#weitzel_selenium_phgpx_1990)
+  - >-
+    [Covas et al. (2006) — The effect of polyphenols in olive oil on heart disease risk factors: a randomized
+    trial](/docs/papers/BRAIN-Diet-References#covas_eurolive_2006)
 hide_title: true
 phenome_relationships:
   - target_phenome: Cognitive Clarity
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: One adult cohort had higher malondialdehyde. That marker is not a vitamin E result. Lutein is not the chain-breaking antioxidant in this membrane reaction.
+    rationale: >-
+      One adult cohort had higher malondialdehyde. That marker is not a vitamin E result. Lutein is not the
+      chain-breaking antioxidant in this membrane reaction.
     references:
       - index: 1
         label: Bulut et al. (2007)
@@ -97,7 +145,9 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: Lipid-peroxidation burden tracks oxidative load in ADHD cohorts; food-state antioxidant coverage may modulate membrane protection relevant to sustained attention contexts.
+    rationale: >-
+      Lipid-peroxidation burden tracks oxidative load in ADHD cohorts; food-state antioxidant coverage may
+      modulate membrane protection relevant to sustained attention contexts.
     references:
       - index: 1
         label: Bulut et al. (2007)
@@ -109,7 +159,9 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low
     evidence_level: mechanistic
-    rationale: Oxidative membrane damage and mitochondrial overlap may intersect affective regulation in neurodevelopmental framing; scope remains lipid-peroxidation control only.
+    rationale: >-
+      Oxidative membrane damage and mitochondrial overlap may intersect affective regulation in
+      neurodevelopmental framing; scope remains lipid-peroxidation control only.
     references:
       - index: 1
         label: Solleiro-Villavicencio & Rivas-Arancibia (2018)
@@ -117,18 +169,35 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#solleiro-villavicencio_effect_2018
         data_level: Mechanistic
     evidence_confidence: low
-scientific_findings_intro: Vitamin E breaks peroxyl-radical chains in membranes and is placed there to protect polyunsaturated fats. Extra vitamin E was not shown to lower peroxidation. A long trial found more prostate cancers with 400 IU a day.
+scientific_findings_intro: >-
+  Vitamin E breaks peroxyl-radical chains in membranes and is placed there to protect polyunsaturated fats.
+  Extra vitamin E was not shown to lower peroxidation. A long trial found more prostate cancers with 400 IU a
+  day.
 scientific_findings:
   - id: PM5-F1
     finding_label: Vitamin E breaks peroxyl-radical chains in membranes
     presentation: mechanistic-basis
     fm_rollup: true
-    finding_summary: 'Vitamin E is the main lipophilic antioxidant that stops peroxyl radicals from continuing to oxidise polyunsaturated fats. It does that job efficiently for peroxyl radicals, not for every oxidant. The vitamin function is protection of those fats in membranes.'
-    finding_interpretation: 'This is why vitamin E belongs to membrane peroxidation. It is not a trial of extra vitamin E, and lutein is not this antioxidant.'
-    finding_statement: Vitamin E interrupts lipid peroxidation by scavenging peroxyl radicals in the lipid phase. Its vitamin function is protection of polyunsaturated fats in membranes.
+    finding_summary: >-
+      Vitamin E is the main lipophilic antioxidant that stops peroxyl radicals from continuing to oxidise
+      polyunsaturated fats. It does that job efficiently for peroxyl radicals, not for every oxidant. The
+      vitamin function is protection of those fats in membranes.
+    finding_interpretation: >-
+      This is why vitamin E belongs to membrane peroxidation. It is not a trial of extra vitamin E, and lutein
+      is not this antioxidant.
+    finding_statement: >-
+      Vitamin E interrupts lipid peroxidation by scavenging peroxyl radicals in the lipid phase. Its vitamin
+      function is protection of polyunsaturated fats in membranes.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'Niki reviews the kinetic and in vivo evidence that vitamin E is the principal lipophilic peroxyl-radical scavenger and that it inhibits lipid peroxidation by breaking chain propagation. The same review states that vitamin E is not an efficient scavenger of hydroxyl, alkoxyl, nitrogen dioxide, or thiyl radicals in vivo. Traber and Atkinson argue that the vitamin function of alpha-tocopherol is that peroxyl-radical scavenging, which maintains polyunsaturated fats in membranes.'
-    synthesis_limitations: These are mechanistic reviews. They do not test a vitamin E dose against membrane peroxidation in people.
+    synthesis: >-
+      Niki reviews the kinetic and in vivo evidence that vitamin E is the principal lipophilic peroxyl-radical
+      scavenger and that it inhibits lipid peroxidation by breaking chain propagation. The same review states
+      that vitamin E is not an efficient scavenger of hydroxyl, alkoxyl, nitrogen dioxide, or thiyl radicals
+      in vivo. Traber and Atkinson argue that the vitamin function of alpha-tocopherol is that peroxyl-radical
+      scavenging, which maintains polyunsaturated fats in membranes.
+    synthesis_limitations: >-
+      These are mechanistic reviews. They do not test a vitamin E dose against membrane peroxidation in
+      people.
     evidence_considered:
       - label: Niki (2014)
         citation_key: niki_vitamin_2014
@@ -136,11 +205,15 @@ scientific_findings:
         data_level: Mechanistic
         exposure_context: in vitro lipid peroxidation and in vivo kinetic evidence
         evidence_source: bounded-external-search
-        directional_finding: 'Vitamin E breaks peroxyl-radical chain propagation in vitro and in vivo, and is not an efficient scavenger of several other radicals in vivo.'
+        directional_finding: >-
+          Vitamin E breaks peroxyl-radical chain propagation in vitro and in vivo, and is not an efficient
+          scavenger of several other radicals in vivo.
         assessment:
           study: Review of kinetic and physiological evidence for vitamin E as a peroxyl-radical scavenger.
           population: Chemical systems and the in vivo molar ratio of vitamin E to its substrates. No new human cohort.
-          result: Vitamin E inhibits lipid peroxidation by breaking peroxyl-radical chains. Other radicals are not scavenged efficiently at physiological ratios.
+          result: >-
+            Vitamin E inhibits lipid peroxidation by breaking peroxyl-radical chains. Other radicals are not
+            scavenged efficiently at physiological ratios.
           effect_magnitude: No dietary dose-response. The claim is which radical vitamin E can stop.
           evidence_summary: Vitamin E is the chain-breaking antioxidant in the lipid phase.
           limitations: A review of chemistry is not an intake trial and not a brain-outcome trial.
@@ -150,9 +223,13 @@ scientific_findings:
         data_level: Mechanistic
         exposure_context: review of the in vivo vitamin function
         evidence_source: bounded-external-search
-        directional_finding: The vitamin function of alpha-tocopherol is peroxyl-radical scavenging that protects polyunsaturated fats in membranes.
+        directional_finding: >-
+          The vitamin function of alpha-tocopherol is peroxyl-radical scavenging that protects polyunsaturated
+          fats in membranes.
         assessment:
-          study: Review arguing that the in vivo actions of alpha-tocopherol follow from peroxyl-radical scavenging.
+          study: >-
+            Review arguing that the in vivo actions of alpha-tocopherol follow from peroxyl-radical
+            scavenging.
           population: Mammalian vitamin E biology. No new trial.
           result: Protecting polyunsaturated fats in membranes is the vitamin function.
           effect_magnitude: No intake threshold for peroxidation is set.
@@ -162,12 +239,24 @@ scientific_findings:
     finding_label: Extra vitamin E is not a peroxidation benefit
     presentation: mechanistic-basis
     fm_rollup: false
-    finding_summary: Men in a large prevention trial who took 400 IU of vitamin E a day had more prostate cancers than men who took placebo. The trial did not measure membrane peroxidation.
-    finding_interpretation: This blocks a high-dose reading of the vitamin E requirement. It is not evidence about the chain-breaking chemistry.
-    finding_statement: 'A long prevention trial found more prostate cancers with 400 IU of vitamin E a day than with placebo. That result is not a peroxidation measurement, and it is a reason not to treat extra vitamin E as a benefit.'
+    finding_summary: >-
+      Men in a large prevention trial who took 400 IU of vitamin E a day had more prostate cancers than men
+      who took placebo. The trial did not measure membrane peroxidation.
+    finding_interpretation: >-
+      This blocks a high-dose reading of the vitamin E requirement. It is not evidence about the
+      chain-breaking chemistry.
+    finding_statement: >-
+      A long prevention trial found more prostate cancers with 400 IU of vitamin E a day than with placebo.
+      That result is not a peroxidation measurement, and it is a reason not to treat extra vitamin E as a
+      benefit.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'Klein and colleagues reported the SELECT prevention trial. Men assigned vitamin E, 400 IU a day, had a higher prostate-cancer risk than men assigned placebo. The endpoint is cancer incidence, not membrane peroxidation.'
-    synthesis_limitations: Prostate cancer is not lipid peroxidation. The result limits high-dose claims. It does not remove the biochemical role of vitamin E.
+    synthesis: >-
+      Klein and colleagues reported the SELECT prevention trial. Men assigned vitamin E, 400 IU a day, had a
+      higher prostate-cancer risk than men assigned placebo. The endpoint is cancer incidence, not membrane
+      peroxidation.
+    synthesis_limitations: >-
+      Prostate cancer is not lipid peroxidation. The result limits high-dose claims. It does not remove the
+      biochemical role of vitamin E.
     evidence_considered:
       - label: Klein et al. (2011)
         citation_key: klein_vitamin_2011
@@ -177,22 +266,35 @@ scientific_findings:
         evidence_source: repository-inherited
         directional_finding: Vitamin E assignment was associated with more prostate cancers than placebo.
         assessment:
-          study: 'SELECT prevention trial of selenium and vitamin E, with extended follow-up for prostate cancer.'
-          population: 'Men without prostate cancer at entry, assigned vitamin E, selenium, both, or placebo.'
-          result: 'Vitamin E, 400 IU a day, was associated with a higher prostate-cancer risk than placebo.'
+          study: SELECT prevention trial of selenium and vitamin E, with extended follow-up for prostate cancer.
+          population: Men without prostate cancer at entry, assigned vitamin E, selenium, both, or placebo.
+          result: Vitamin E, 400 IU a day, was associated with a higher prostate-cancer risk than placebo.
           effect_magnitude: The paper reports a higher risk. It does not report a peroxidation marker.
           evidence_summary: Extra vitamin E at this dose is not a benefit.
-          limitations: 'Cancer incidence is not membrane peroxidation, so the trial does not test the chain-breaking reaction.'
+          limitations: >-
+            Cancer incidence is not membrane peroxidation, so the trial does not test the chain-breaking
+            reaction.
   - id: PM5-F3
     finding_label: Dietary selenium supports phospholipid-peroxidase capacity
     presentation: mechanistic-basis
     fm_rollup: false
-    finding_statement: 'Dietary selenium deprivation lowered PH-GPx activity in mouse organs, with slower loss than classical GPx and tissue-dependent residual activity.'
-    finding_summary: 'Dietary selenium deprivation lowered PH-GPx activity in mouse organs, with slower loss than classical GPx and tissue-dependent residual activity.'
-    finding_interpretation: Dietary selenium supplies the selenocysteine-dependent phospholipid-hydroperoxide glutathione-peroxidase capacity that removes membrane lipid hydroperoxides.
+    finding_statement: >-
+      Dietary selenium deprivation lowered PH-GPx activity in mouse organs, with slower loss than classical
+      GPx and tissue-dependent residual activity.
+    finding_summary: >-
+      Dietary selenium deprivation lowered PH-GPx activity in mouse organs, with slower loss than classical
+      GPx and tissue-dependent residual activity.
+    finding_interpretation: >-
+      Dietary selenium supplies the selenocysteine-dependent phospholipid-hydroperoxide glutathione-peroxidase
+      capacity that removes membrane lipid hydroperoxides.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'Dietary selenium deprivation lowered PH-GPx activity in mouse organs, with slower loss than classical GPx and tissue-dependent residual activity.'
-    synthesis_limitations: 'Mouse whole-organ enzyme assays do not identify mitochondrial isoforms, a human food dose or benefit above selenium adequacy. Repletion response depended on dose; antioxidant capacity does not establish clinical prevention. Numerical SEC remains pending full-method appraisal; no factor is forced.'
+    synthesis: >-
+      Dietary selenium deprivation lowered PH-GPx activity in mouse organs, with slower loss than classical
+      GPx and tissue-dependent residual activity.
+    synthesis_limitations: >-
+      Mouse whole-organ enzyme assays do not identify mitochondrial isoforms, a human food dose or benefit
+      above selenium adequacy. Repletion response depended on dose; antioxidant capacity does not establish
+      clinical prevention. Numerical SEC remains pending full-method appraisal; no factor is forced.
     evidence_considered:
       - label: Weitzel et al. (1990)
         citation_key: weitzel_selenium_phgpx_1990
@@ -200,26 +302,39 @@ scientific_findings:
         data_level: Animal Data
         evidence_source: bounded-external-search
         exposure_context: Defined low-selenium diet and sodium-selenite comparison/repletion.
-        directional_finding: 'Dietary selenium deprivation lowered PH-GPx activity in mouse organs, with slower loss than classical GPx and tissue-dependent residual activity.'
+        directional_finding: >-
+          Dietary selenium deprivation lowered PH-GPx activity in mouse organs, with slower loss than
+          classical GPx and tissue-dependent residual activity.
         assessment:
           study: Controlled dietary selenium depletion and repletion with organ enzyme assays.
-          population: 'Mice; primary abstract, full group sizes and assay details not extracted.'
-          result: 'Dietary selenium deprivation lowered PH-GPx activity in mouse organs, with slower loss than classical GPx and tissue-dependent residual activity.'
+          population: Mice; primary abstract, full group sizes and assay details not extracted.
+          result: >-
+            Dietary selenium deprivation lowered PH-GPx activity in mouse organs, with slower loss than
+            classical GPx and tissue-dependent residual activity.
           effect_magnitude: No additional magnitude inferred.
-          evidence_summary: 'Dietary selenium deprivation lowered PH-GPx activity in mouse organs, with slower loss than classical GPx and tissue-dependent residual activity.'
-          limitations: 'Mouse whole-organ enzyme assays do not identify mitochondrial isoforms, a human food dose or benefit above selenium adequacy. Repletion response depended on dose; antioxidant capacity does not establish clinical prevention.'
+          evidence_summary: >-
+            Dietary selenium deprivation lowered PH-GPx activity in mouse organs, with slower loss than
+            classical GPx and tissue-dependent residual activity.
+          limitations: >-
+            Mouse whole-organ enzyme assays do not identify mitochondrial isoforms, a human food dose or
+            benefit above selenium adequacy. Repletion response depended on dose; antioxidant capacity does
+            not establish clinical prevention.
           retrieval_scope: Primary abstract retrieved 26 October 2026; full methods and supplements not extracted.
 intervention_dominance_assessment:
   evidence_qualification:
     label: Not established
-    rationale: Vitamin E is required for the chain-breaking reaction. No cited study shows that raising vitamin E intake lowers membrane peroxidation.
-    scope_note: The SELECT trial found more prostate cancers with 400 IU of vitamin E a day. That is a reason not to treat extra vitamin E as a benefit.
+    rationale: >-
+      Vitamin E is required for the chain-breaking reaction. No cited study shows that raising vitamin E
+      intake lowers membrane peroxidation.
+    scope_note: >-
+      The SELECT trial found more prostate cancers with 400 IU of vitamin E a day. That is a reason not to
+      treat extra vitamin E as a benefit.
     routes: []
   principal_route_selection:
     disposition: not-established
     selected_groups: []
     rationale: Biochemical necessity of vitamin E is not an intervention that was shown to lower peroxidation.
-    comparative_limitations: 'No route is ranked above another, because none is established.'
+    comparative_limitations: No route is ranked above another, because none is established.
     assessments: []
 kc_applicability_adjudications:
   - kc_id: BRS3(KC1)
@@ -229,11 +344,15 @@ kc_applicability_adjudications:
     disposition: unresolved
     established_links: []
     inferred_links:
-      - A shared glutathione-precursor pool would have to limit vitamin E chain-breaking before that iKC could constrain this step.
+      - >-
+        A shared glutathione-precursor pool would have to limit vitamin E chain-breaking before that iKC could
+        constrain this step.
     evidence_source:
       citation_keys:
         - niki_vitamin_2014
-    rationale: 'Vitamin E chain-breaking does not show that cysteine and glycine availability constrains membrane peroxidation. The mapping stays unresolved, so it is not published.'
+    rationale: >-
+      Vitamin E chain-breaking does not show that cysteine and glycine availability constrains membrane
+      peroxidation. The mapping stays unresolved, so it is not published.
 sidebar_label: BRS3-2-5 — Lipid Peroxidation Control
 dietary_input_assessments:
   - atom_id: PM5-DIT-RECOVERY-SELENIUM
@@ -243,7 +362,10 @@ dietary_input_assessments:
     operation: Protect membrane fats from oxidative damage so vulnerable polyunsaturated fatty acids remain intact.
     canonical_substance_id: selenium
     assessment_date: '2026-10-26'
-    assessment_limitations: 'Mouse whole-organ enzyme assays do not identify mitochondrial isoforms, a human food dose or benefit above selenium adequacy. Repletion response depended on dose; antioxidant capacity does not establish clinical prevention.'
+    assessment_limitations: >-
+      Mouse whole-organ enzyme assays do not identify mitochondrial isoforms, a human food dose or benefit
+      above selenium adequacy. Repletion response depended on dose; antioxidant capacity does not establish
+      clinical prevention.
     food_target_research:
       completed: true
       sources_examined:
@@ -251,19 +373,106 @@ dietary_input_assessments:
         - docs/foods/eggs.md
         - docs/foods/salmon.md
         - system/food-target-research.json
-      sufficient_coverage_rationale: Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships.
+      sufficient_coverage_rationale: >-
+        Existing structured composition and provisional food research for this exact canonical input were
+        inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent
+        additional relationships.
     functional_dependency:
       status: established
-      statement: Dietary selenium supplies the selenocysteine-dependent phospholipid-hydroperoxide glutathione-peroxidase capacity that removes membrane lipid hydroperoxides.
+      statement: >-
+        Dietary selenium supplies the selenocysteine-dependent phospholipid-hydroperoxide
+        glutathione-peroxidase capacity that removes membrane lipid hydroperoxides.
       sources:
-        - 'https://pubmed.ncbi.nlm.nih.gov/2223835/'
+        - https://pubmed.ncbi.nlm.nih.gov/2223835/
     dietary_supply:
       status: established
-      statement: The same canonical nutrient is supplied by the inspected food records. Tissue uptake and homeostasis remain distinct from an effect of extra intake.
+      statement: >-
+        The same canonical nutrient is supplied by the inspected food records. Tissue uptake and homeostasis
+        remain distinct from an effect of extra intake.
       sources:
         - docs/foods/eggs.md
         - docs/foods/salmon.md
+system_optimisation_practices:
+  - atom_id: PM5-SOP-PHENOLIC-OLIVE-OIL-1
+    input: >-
+      25 mL/day (22 g) raw olive oil replacing other raw fats; 366 versus 2.7 mg/kg phenolics, with
+      intermediate 164 mg/kg arm; three weeks each, two-week washouts.
+    input_type: context-specific dietary protocol
+    biological_role: >-
+      Oxidised LDL changed −3.21 U/L (95% CI −5.1 to −0.8) with high phenolics; dose trend supported.
+      F2-isoprostanes did not vary significantly by phenolic exposure.
+    evidence_source:
+      citation_keys:
+        - covas_eurolive_2006
+    evidence_limitation: >-
+      No claim of reduced inflammatory signalling or universal systemic antioxidant effect. Defined oils;
+      retail EVOO label does not guarantee tested phenolic concentration. Short interventions in healthy men;
+      diet self-report and co-food interactions remain limitations.
+    dietary_input: true
+    intervention_admitted: 'Yes'
+    optimisation_category: dietary_protocols
+    reader_description: >-
+      Oxidised LDL changed −3.21 U/L (95% CI −5.1 to −0.8) with high phenolics; dose trend supported.
+      F2-isoprostanes did not vary significantly by phenolic exposure.
+    biologicalRelationship:
+      moa:
+        description: >-
+          Phenolic compounds may limit lipid oxidation; this trial does not isolate individual compounds or
+          prove NF-κB modulation.
+        status: unresolved
+        evidenceQualification: Proposed relationship; measured endpoint does not establish causal mediation
+      measuredEffect: >-
+        Oxidised LDL changed −3.21 U/L (95% CI −5.1 to −0.8) with high phenolics; dose trend supported.
+        F2-isoprostanes did not vary significantly by phenolic exposure.
+      pmRelevance: >-
+        Peripheral lipid-oxidation evidence supports a bounded PM5 relationship, not demonstrated neuronal
+        membrane protection.
+    limitations:
+      - type: endpoint
+        text: No claim of reduced inflammatory signalling or universal systemic antioxidant effect.
+      - type: exposure
+        text: Defined oils; retail EVOO label does not guarantee tested phenolic concentration.
+      - type: population
+        text: Short interventions in healthy men; diet self-report and co-food interactions remain limitations.
+    study_context: >-
+      Covas et al. (2006), EUROLIVE; 200 healthy men; randomised masked crossover; 18 noncompleters; mixed
+      models checked period/carryover.
+    ontology:
+      pm: BRS3-FM2-PM5
+      pm_file: docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx
+      endpoint_id: null
+      endpoint_note: No canonical endpoint identity invented; measured endpoint is explicit in Atom 3.
+      food: /docs/foods/extra-virgin-olive-oil
+      intervention: PM5-SOP-PHENOLIC-OLIVE-OIL-1
+    sec_status: Provisionally assessed
+    sec_assessment_ref:
+      id: brs3-fm2-pm5-pm5-sop-phenolic-olive-oil-1-assessment
+      version: 1
+      sha256: f3987a1e08aa3751c61102b07116a803510f3f6345690dfc1bf578148eeae3b4
+    sec_assessed_proposition: >-
+      25 mL/day (22 g) raw olive oil replacing other raw fats; 366 versus 2.7 mg/kg phenolics, with
+      intermediate 164 mg/kg arm; three weeks each, two-week washouts. Oxidised LDL changed −3.21 U/L (95% CI
+      −5.1 to −0.8) with high phenolics; dose trend supported. F2-isoprostanes did not vary significantly by
+      phenolic exposure.
+    admission_decision:
+      date: '2026-11-05'
+      status: admitted
+      authority: 'Author: implement five eligible Batch 3 interventions'
+      scope: Admit — bounded proposal; exact exposure, population, endpoint and limitations retained.
+    food_strategy_id: food-strategy-b91b56073a99
+    food_strategy_scope: dietary-protocol
+    substance_ids: []
+    food_ids:
+      - extra-virgin-olive-oil
 ---
+import PilotInterventionDisclosure from "@site/src/components/PilotInterventionDisclosure";
+
+import EvidenceAudit from "@site/src/components/SecCalibrationPreview/EvidenceAudit";
+
+import secRegistry from "@site/system/sec-assessments/registry.json";
+
+import {resolveInterventionSecAssessment, secAssessmentView, secAuditAnchor} from "@site/src/lib/secAssessments.mjs";
+
 <p class="brs-pm-thumbnail-wrap">
   <img
     src="/img/biological-targets/brs3-portrait-thumbnail.png"
@@ -365,8 +574,10 @@ No mapping established.
 <strong>3.2 System Optimisation Practices</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
+<PilotInterventionDisclosure id="pm5-sop-phenolic-olive-oil-1" title="Tested phenolic-rich olive oil → lower circulating oxidised LDL"><div className="brs-dietary-lever-detail-inner"><p><span className="brs-dietary-lever-detail-k">Intervention</span> = 25 mL/day (22 g) raw olive oil replacing other raw fats; 366 versus 2.7 mg/kg phenolics, with intermediate 164 mg/kg arm; three weeks each, two-week washouts. — <a href="/docs/foods/extra-virgin-olive-oil">Extra virgin olive oil</a></p><p><span className="brs-dietary-lever-detail-k">Intervention type</span> = SOP — Dietary Protocols</p><p><span className="brs-dietary-lever-detail-k">Biological relationship</span> = <strong>Mechanism of Action:</strong> Phenolic compounds may limit lipid oxidation; this trial does not isolate individual compounds or prove NF-κB modulation.<br /><strong>Evidence status:</strong> Proposed relationship; measured endpoint does not establish causal mediation<br /><strong>Measured Effect:</strong> Oxidised LDL changed −3.21 U/L (95% CI −5.1 to −0.8) with high phenolics; dose trend supported. F2-isoprostanes did not vary significantly by phenolic exposure.<br /><strong>PM Relevance:</strong> Peripheral lipid-oxidation evidence supports a bounded PM5 relationship, not demonstrated neuronal membrane protection.</p><p><span className="brs-dietary-lever-detail-k">Evidence source</span> = <a href="#pm-ref-9">[9]</a><br /><strong>Study context:</strong> Covas et al. (2006), EUROLIVE; 200 healthy men; randomised masked crossover; 18 noncompleters; mixed models checked period/carryover.</p><p><span className="brs-dietary-lever-detail-k">Limitations</span></p><ul><li><strong>endpoint:</strong> No claim of reduced inflammatory signalling or universal systemic antioxidant effect.</li><li><strong>exposure:</strong> Defined oils; retail EVOO label does not guarantee tested phenolic concentration.</li><li><strong>population:</strong> Short interventions in healthy men; diet self-report and co-food interactions remain limitations.</li></ul><p><span className="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — bounded, study-specific admission</p><p><a href="#sec-brs3-fm2-pm5-pm5-sop-phenolic-olive-oil-1-assessment-v1">Intervention-specific SEC assessment — Section 4</a></p></div></PilotInterventionDisclosure>
 
-No evidence-qualified System Optimisation Practice is established.
+
+
 
 </div>
 </div>
@@ -431,6 +642,9 @@ Vitamin E breaks peroxyl-radical chains in membranes and is placed there to prot
 <ScientificFinding finding={{"id":"PM5-F2","finding_label":"Extra vitamin E is not a peroxidation benefit","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Men in a large prevention trial who took 400 IU of vitamin E a day had more prostate cancers than men who took placebo. The trial did not measure membrane peroxidation.","finding_interpretation":"This blocks a high-dose reading of the vitamin E requirement. It is not evidence about the chain-breaking chemistry.","finding_statement":"A long prevention trial found more prostate cancers with 400 IU of vitamin E a day than with placebo. That result is not a peroxidation measurement, and it is a reason not to treat extra vitamin E as a benefit.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Klein and colleagues reported the SELECT prevention trial. Men assigned vitamin E, 400 IU a day, had a higher prostate-cancer risk than men assigned placebo. The endpoint is cancer incidence, not membrane peroxidation.","synthesis_limitations":"Prostate cancer is not lipid peroxidation. The result limits high-dose claims. It does not remove the biochemical role of vitamin E.","evidence_considered":[{"label":"Klein et al. (2011)","citation_key":"klein_vitamin_2011","href":"/docs/papers/BRAIN-Diet-References#klein_vitamin_2011","data_level":"Human Outcome","exposure_context":"400 IU vitamin E a day in a prevention trial","evidence_source":"repository-inherited","directional_finding":"Vitamin E assignment was associated with more prostate cancers than placebo.","assessment":{"study":"SELECT prevention trial of selenium and vitamin E, with extended follow-up for prostate cancer.","population":"Men without prostate cancer at entry, assigned vitamin E, selenium, both, or placebo.","result":"Vitamin E, 400 IU a day, was associated with a higher prostate-cancer risk than placebo.","effect_magnitude":"The paper reports a higher risk. It does not report a peroxidation marker.","evidence_summary":"Extra vitamin E at this dose is not a benefit.","limitations":"Cancer incidence is not membrane peroxidation, so the trial does not test the chain-breaking reaction."},"canonical_reference":{"author_year":"Klein et al. (2011)","number":7,"anchor":"#pm-ref-7"}}],"connected_supportive_evidence":[]}} />
 
 <ScientificFinding finding={{"id":"PM5-F3","finding_label":"Dietary selenium supports phospholipid-peroxidase capacity","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"Dietary selenium deprivation lowered PH-GPx activity in mouse organs, with slower loss than classical GPx and tissue-dependent residual activity.","finding_summary":"Dietary selenium deprivation lowered PH-GPx activity in mouse organs, with slower loss than classical GPx and tissue-dependent residual activity.","finding_interpretation":"Dietary selenium supplies the selenocysteine-dependent phospholipid-hydroperoxide glutathione-peroxidase capacity that removes membrane lipid hydroperoxides.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Dietary selenium deprivation lowered PH-GPx activity in mouse organs, with slower loss than classical GPx and tissue-dependent residual activity.","synthesis_limitations":"Mouse whole-organ enzyme assays do not identify mitochondrial isoforms, a human food dose or benefit above selenium adequacy. Repletion response depended on dose; antioxidant capacity does not establish clinical prevention. Numerical SEC remains pending full-method appraisal; no factor is forced.","evidence_considered":[{"label":"Weitzel et al. (1990)","citation_key":"weitzel_selenium_phgpx_1990","href":"/docs/papers/BRAIN-Diet-References#weitzel_selenium_phgpx_1990","data_level":"Animal Data","evidence_source":"bounded-external-search","exposure_context":"Defined low-selenium diet and sodium-selenite comparison/repletion.","directional_finding":"Dietary selenium deprivation lowered PH-GPx activity in mouse organs, with slower loss than classical GPx and tissue-dependent residual activity.","assessment":{"study":"Controlled dietary selenium depletion and repletion with organ enzyme assays.","population":"Mice; primary abstract, full group sizes and assay details not extracted.","result":"Dietary selenium deprivation lowered PH-GPx activity in mouse organs, with slower loss than classical GPx and tissue-dependent residual activity.","effect_magnitude":"No additional magnitude inferred.","evidence_summary":"Dietary selenium deprivation lowered PH-GPx activity in mouse organs, with slower loss than classical GPx and tissue-dependent residual activity.","limitations":"Mouse whole-organ enzyme assays do not identify mitochondrial isoforms, a human food dose or benefit above selenium adequacy. Repletion response depended on dose; antioxidant capacity does not establish clinical prevention.","retrieval_scope":"Primary abstract retrieved 26 October 2026; full methods and supplements not extracted."},"canonical_reference":{"author_year":"Weitzel et al. (1990)","number":8,"anchor":"#pm-ref-8"}}],"connected_supportive_evidence":[]}} />
+
+<EvidenceAudit panelId="pm5-sop-phenolic-olive-oil-1-assessments" embedded assessmentHeading="Intervention-specific SEC assessments" assessmentPmId="BRS3-FM2-PM5" assessmentRecords={[{"atom_id":"PM5-SOP-PHENOLIC-OLIVE-OIL-1","sec_assessment_ref":{"id":"brs3-fm2-pm5-pm5-sop-phenolic-olive-oil-1-assessment","version":1,"sha256":"f3987a1e08aa3751c61102b07116a803510f3f6345690dfc1bf578148eeae3b4"},"sec_assessed_proposition":"25 mL/day (22 g) raw olive oil replacing other raw fats; 366 versus 2.7 mg/kg phenolics, with intermediate 164 mg/kg arm; three weeks each, two-week washouts. Oxidised LDL changed −3.21 U/L (95% CI −5.1 to −0.8) with high phenolics; dose trend supported. F2-isoprostanes did not vary significantly by phenolic exposure."}].map(intervention => resolveInterventionSecAssessment(secRegistry, {pmId: "BRS3-FM2-PM5", intervention}).record).filter(Boolean)} assessmentView={secAssessmentView} recordAnchor={secAuditAnchor} />
+
 
 ## 5. BRS Pathways and Connections
 
@@ -583,4 +797,5 @@ No change to a canonical admission is proposed. The exposure, conversion and mod
 - <span id="pm-ref-6">[6]</span> [Traber and Atkinson (2007) — Vitamin E, antioxidant and nothing more](/docs/papers/BRAIN-Diet-References#traber_vitamin_2007)
 - <span id="pm-ref-7">[7]</span> [Klein et al. (2011) — Vitamin E and the Risk of Prostate Cancer](/docs/papers/BRAIN-Diet-References#klein_vitamin_2011)
 - <span id="pm-ref-8">[8]</span> [Weitzel et al. (1990) — Phospholipid hydroperoxide glutathione peroxidase in various mouse organs during selenium deficiency and repletion](/docs/papers/BRAIN-Diet-References#weitzel_selenium_phgpx_1990)
+- <span id="pm-ref-9">[9]</span> [Covas et al. (2006) — The effect of polyphenols in olive oil on heart disease risk factors: a randomized trial](/docs/papers/BRAIN-Diet-References#covas_eurolive_2006)
 

@@ -1585,6 +1585,100 @@ system_optimisation_practices:
       compound, impose the study fat dose, or promise reduced permeability.
     reader_description: Include some dietary fat with provitamin-A vegetables to support carotenoid absorption.
     description_finding_id: PM1-F9
+  - atom_id: PM1-SOP-GLUTAMINE-1
+    input: Glutamine for selected postinfectious IBS-D
+    input_type: context-specific dietary protocol
+    biological_role: >-
+      L:M baseline0.11±0.03 to0.05±0.01 on glutamine; control0.11±0.04 to0.10±0.03. Between-group change test
+      P<0.0001.
+    evidence_source:
+      citation_keys:
+        - zhou_glutamine_piibs_2019
+    evidence_limitation: >-
+      106 completers from115 randomised; narrative withdrawal counts are internally inconsistent. Use
+      flow/Results cohort sizes, not a claim of complete intention-to-treat. Whey protein is not biologically
+      inert; authors note possible IBS sensitivity. No significant symptom exacerbation was observed in
+      control. Permeability was secondary; no direct junction-protein or mediator measurement. Not
+      generalisable to IBS with normal permeability, other disease types, children, pregnancy/lactation or
+      excluded renal/hepatic impairment. No significant control-arm permeability change; adverse-event rates
+      similar and no serious adverse events reported. Long-term safety not established. Earlier discovery
+      shorthand0.05 versus0.11 conflated post-treatment with active-group baseline; post-treatment control
+      was0.10, and Table3 is the actual between-group change comparison.
+    dietary_input: true
+    intervention_admitted: 'Yes'
+    optimisation_category: conditional_supplementation
+    food_strategy_scope: supplementation
+    reader_description: >-
+      L:M baseline0.11±0.03 to0.05±0.01 on glutamine; control0.11±0.04 to0.10±0.03. Between-group change test
+      P<0.0001.
+    biologicalRelationship:
+      moa:
+        status: unresolved
+        description: >-
+          Glutamine may support epithelial metabolism and junction maintenance; correlations with symptom
+          changes do not prove causal mediation and junction proteins were not measured.
+        evidenceQualification: not established by this trial
+      measuredEffect: >-
+        L:M baseline0.11±0.03 to0.05±0.01 on glutamine; control0.11±0.04 to0.10±0.03. Between-group change
+        test P<0.0001.
+      pmRelevance: Selective gut permeability is directly within PM1 mission; no ADHD inference.
+    limitations:
+      - type: analysis
+        text: >-
+          106 completers from115 randomised; narrative withdrawal counts are internally inconsistent. Use
+          flow/Results cohort sizes, not a claim of complete intention-to-treat.
+      - type: comparator
+        text: >-
+          Whey protein is not biologically inert; authors note possible IBS sensitivity. No significant
+          symptom exacerbation was observed in control.
+      - type: endpoint
+        text: Permeability was secondary; no direct junction-protein or mediator measurement.
+      - type: population
+        text: >-
+          Not generalisable to IBS with normal permeability, other disease types, children,
+          pregnancy/lactation or excluded renal/hepatic impairment.
+      - type: null-outcome
+        text: >-
+          No significant control-arm permeability change; adverse-event rates similar and no serious adverse
+          events reported. Long-term safety not established.
+      - type: data-interpretation
+        text: >-
+          Earlier discovery shorthand0.05 versus0.11 conflated post-treatment with active-group baseline;
+          post-treatment control was0.10, and Table3 is the actual between-group change comparison.
+    study_context: >-
+      Two-centre double-blind randomised trial;115 randomised (59/56),106 completers (54/52). Central computer
+      sequence, numbered containers, matched powders; glutamine 5 g three times daily for eight weeks versus
+      whey protein 5 g three times daily for eight weeks. Secondary permeability endpoint; primary endpoint
+      IBS symptom-score reduction. Completer analysis.
+    ontology:
+      substances:
+        - id: glutamine
+          url: /docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine
+      pm: BRS5-FM1-PM1
+      formulation: >-
+        Two-centre double-blind randomised trial;115 randomised (59/56),106 completers (54/52). Central
+        computer sequence, numbered containers, matched powders; glutamine 5 g three times daily for eight
+        weeks versus whey protein 5 g three times daily for eight weeks. Secondary permeability endpoint;
+        primary endpoint IBS symptom-score reduction. Completer analysis.
+    sec_status: Provisionally assessed
+    sec_assessment_ref:
+      id: brs5-fm1-pm1-pm1-sop-glutamine-1-assessment
+      version: 1
+      sha256: 732ef0615524e62c9353bdcc7599660353ca6968b8ef9cee486fdb4fed885a8d
+    sec_assessed_proposition: >-
+      In adults with postinfectious IBS-D and elevated baseline urinary lactulose:mannitol ratio, glutamine 5
+      g three times daily for eight weeks reduced this permeability measure compared with the whey-protein
+      control.
+    admission_decision:
+      date: '2026-11-05'
+      status: admitted
+      authority: 'Author: Batch 2 Integration and Resolution'
+      scope: >-
+        Conditional Supplementation explicitly permits condition-specific supplementation; exact selected
+        PI-IBS-D protocol admitted under current author instruction.
+    food_strategy_id: food-strategy-296741631293
+    substance_ids:
+      - glutamine
 lifestyle_priorities:
   - atom_id: PM1-LP-1
     input: Reduce alcohol exposure
@@ -1839,6 +1933,15 @@ evidence_gaps:
       - kong_vdr_barrier_2008
     review_date: '2026-10-26'
 ---
+
+import {resolveInterventionSecAssessment, secAssessmentView, secAuditAnchor} from "@site/src/lib/secAssessments.mjs";
+
+import secRegistry from "@site/system/sec-assessments/registry.json";
+
+import EvidenceAudit from "@site/src/components/SecCalibrationPreview/EvidenceAudit";
+
+import PilotInterventionDisclosure from "@site/src/components/PilotInterventionDisclosure";
+
 <p class="brs-pm-thumbnail-wrap">
   <img
     src="/img/biological-targets/brs5-portrait-thumbnail.png"
@@ -1945,6 +2048,9 @@ No additional separately disclosed biochemical participants established; indepen
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
+<PilotInterventionDisclosure id="pm1-sop-glutamine-1" title="Eight-week glutamine protocol in postinfectious IBS-D → lower lactulose:mannitol ratio"><div className="brs-dietary-lever-detail-inner"><p><span className="brs-dietary-lever-detail-k">Intervention</span> = Glutamine for selected postinfectious IBS-D — <a href="/docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine">Glutamine</a></p><p><span className="brs-dietary-lever-detail-k">Intervention type</span> = condition-specific supplementation</p><p><span className="brs-dietary-lever-detail-k">Biological relationship</span> = <strong>Mechanism of Action:</strong> Glutamine may support epithelial metabolism and junction maintenance; correlations with symptom changes do not prove causal mediation and junction proteins were not measured.<br /><strong>Evidence status:</strong> not established by this trial<br /><strong>Measured Effect:</strong> L:M baseline0.11±0.03 to0.05±0.01 on glutamine; control0.11±0.04 to0.10±0.03. Between-group change test P&lt;0.0001.<br /><strong>PM Relevance:</strong> Selective gut permeability is directly within PM1 mission; no ADHD inference.</p><p><span className="brs-dietary-lever-detail-k">Evidence source</span> = <a href="#pm-ref-16">[16]</a><br /><strong>Study context:</strong> Two-centre double-blind randomised trial;115 randomised (59/56),106 completers (54/52). Central computer sequence, numbered containers, matched powders; glutamine 5 g three times daily for eight weeks versus whey protein 5 g three times daily for eight weeks. Secondary permeability endpoint; primary endpoint IBS symptom-score reduction. Completer analysis.</p><p><span className="brs-dietary-lever-detail-k">Limitations</span></p><ul><li><strong>analysis:</strong> 106 completers from115 randomised; narrative withdrawal counts are internally inconsistent. Use flow/Results cohort sizes, not a claim of complete intention-to-treat.</li><li><strong>comparator:</strong> Whey protein is not biologically inert; authors note possible IBS sensitivity. No significant symptom exacerbation was observed in control.</li><li><strong>endpoint:</strong> Permeability was secondary; no direct junction-protein or mediator measurement.</li><li><strong>population:</strong> Not generalisable to IBS with normal permeability, other disease types, children, pregnancy/lactation or excluded renal/hepatic impairment.</li><li><strong>null-outcome:</strong> No significant control-arm permeability change; adverse-event rates similar and no serious adverse events reported. Long-term safety not established.</li><li><strong>data-interpretation:</strong> Earlier discovery shorthand0.05 versus0.11 conflated post-treatment with active-group baseline; post-treatment control was0.10, and Table3 is the actual between-group change comparison.</li></ul><p><span className="brs-dietary-lever-detail-k">Intervention admitted</span> = Yes — bounded, study-specific admission</p><p><a href="#sec-brs5-fm1-pm1-pm1-sop-glutamine-1-assessment-v1">Intervention-specific SEC assessment — Section 4</a></p></div></PilotInterventionDisclosure>
+
+
 **Food Preparation & Delivery**
 
 - Include dietary fat with provitamin-A vegetables
@@ -1995,6 +2101,8 @@ This PM contributes its specific process to its parent FM. Shared inputs do not 
 ### 4.1 Scientific Findings
 
 [Scientific Findings and their source assessments are available in Evidence & Audit](?review=1#scientific-findings).
+
+<EvidenceAudit panelId="pm1-sop-glutamine-1-assessments" embedded assessmentHeading="Intervention-specific SEC assessments" assessmentPmId="BRS5-FM1-PM1" assessmentRecords={[{"atom_id":"PM1-SOP-GLUTAMINE-1","sec_assessment_ref":{"id":"brs5-fm1-pm1-pm1-sop-glutamine-1-assessment","version":1,"sha256":"732ef0615524e62c9353bdcc7599660353ca6968b8ef9cee486fdb4fed885a8d"},"sec_assessed_proposition":"In adults with postinfectious IBS-D and elevated baseline urinary lactulose:mannitol ratio, glutamine 5 g three times daily for eight weeks reduced this permeability measure compared with the whey-protein control."}].map(intervention => resolveInterventionSecAssessment(secRegistry, {pmId: "BRS5-FM1-PM1", intervention}).record).filter(Boolean)} assessmentView={secAssessmentView} recordAnchor={secAuditAnchor} />
 
 ## 5. BRS Pathways and Connections
 

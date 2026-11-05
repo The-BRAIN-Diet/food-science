@@ -1,0 +1,42 @@
+{
+  "atom_id": "PM10-LP-EXERCISE-1",
+  "input": "Twelve-week supervised endurance and resistance training",
+  "input_type": "exercise protocol",
+  "biological_role": "In the studied statin-user and non-user cohort, twelve weeks of combined endurance and resistance training was associated with a modest increase in total CoQ10 per gram of wet skeletal muscle.",
+  "evidence_source": {
+    "finding_ids": [
+      "PM10-F4"
+    ],
+    "citation_keys": [
+      "allard_coq_2023",
+      "allard_training_2021"
+    ]
+  },
+  "evidence_limitation": "No inactive comparison, some missing biopsies, sex/statin differences and one cohort. Concentration per wet mass is not mitochondrial-normalised concentration, synthesis rate, turnover, redistribution or redox state. CoQ change was not shown to mediate function.",
+  "dietary_input": false,
+  "admission_status": "deferred",
+  "sec_status": "Not yet assessed",
+  "biologicalRelationship": {
+    "moa": {
+      "status": "unresolved",
+      "description": "Training may alter synthesis, turnover, fibre composition or intracellular distribution; these alternatives were not isolated.",
+      "evidenceQualification": "No measured biosynthetic flux, mitochondrial-normalised CoQ or redox adaptation."
+    },
+    "measuredEffect": "In the studied statin-user and non-user cohort, twelve weeks of combined endurance and resistance training was associated with a modest increase in total CoQ10 per gram of wet skeletal muscle.",
+    "pmRelevance": "Directly measures total muscle CoQ concentration, within pool availability, without identifying its cause."
+  },
+  "limitations": [
+    {
+      "type": "design",
+      "text": "No inactive control and one reused cohort."
+    },
+    {
+      "type": "measurement",
+      "text": "Wet-muscle concentration, not mitochondrial-normalised concentration or synthetic flux."
+    },
+    {
+      "type": "null-outcome",
+      "text": "Parent trial ATP-production capacity and peak oxygen uptake did not change detectably."
+    }
+  ]
+}

@@ -1,0 +1,1288 @@
+[
+  {
+    "pm": "BRS-X(ECS-FM1)",
+    "code": "fm_kc_43_not_in_pm_union",
+    "message": "BRS-X(ECS-FM1): §4.3 cites BRS-X(ECS-KC1) but that KC is absent from the PM-derived union"
+  },
+  {
+    "pm": "BRS-X(Hormones-FM1)",
+    "code": "fm_kc_43_not_in_pm_union",
+    "message": "BRS-X(Hormones-FM1): §4.3 cites BRS5(KC1) but that KC is absent from the PM-derived union"
+  },
+  {
+    "pm": "BRS3(FM1)",
+    "code": "fm_kc_43_not_in_pm_union",
+    "message": "BRS3(FM1): §4.3 cites BRS3(KC1) but that KC is absent from the PM-derived union"
+  },
+  {
+    "pm": "BRS4(FM1)",
+    "code": "fm_kc_43_not_in_pm_union",
+    "message": "BRS4(FM1): §4.3 cites BRS4(KC2) but that KC is absent from the PM-derived union"
+  },
+  {
+    "pm": "BRS5(FM2)",
+    "code": "fm_kc_43_not_in_pm_union",
+    "message": "BRS5(FM2): §4.3 cites BRS5(KC2) but that KC is absent from the PM-derived union"
+  },
+  {
+    "pm": "BRS6(FM1)",
+    "code": "fm_kc_43_not_in_pm_union",
+    "message": "BRS6(FM1): §4.3 cites BRS6(KC1) but that KC is absent from the PM-derived union"
+  },
+  {
+    "pm": "BRS6(FM2)",
+    "code": "single_pm_fm_outcome_orphan",
+    "message": "BRS6(FM2): remove functional_outcome_context or add phenome_relationships on sole child PM BRS6-FM2-PM4 (Single-PM FM 1:1 rule)"
+  },
+  {
+    "pm": "BRS6(FM2)",
+    "code": "fm_evidence_summary_stale",
+    "message": "BRS6(FM2): evidence summary does not match its durable source"
+  },
+  {
+    "pm": "BRS6(FM2)",
+    "code": "fm_synthesis_stale",
+    "message": "BRS6(FM2): section 4 does not match its durable rationale and summary"
+  },
+  {
+    "pm": "BRS6(FM2)",
+    "code": "fm_kc_43_not_in_pm_union",
+    "message": "BRS6(FM2): §4.3 cites BRS6(KC1) but that KC is absent from the PM-derived union"
+  },
+  {
+    "pm": "BRS6(FM2)",
+    "code": "fm_kc_43_not_in_pm_union",
+    "message": "BRS6(FM2): §4.3 cites BRS6(KC2) but that KC is absent from the PM-derived union"
+  },
+  {
+    "pm": "BRS6(FM2)",
+    "code": "fm_evidence_summary_stale",
+    "message": "BRS6(FM2): evidence summary does not match its durable source"
+  },
+  {
+    "pm": "BRS6(FM2)",
+    "code": "fm_synthesis_stale",
+    "message": "BRS6(FM2): section 4 does not match its durable rationale and summary"
+  },
+  {
+    "pm": "BRS6(FM3)",
+    "code": "fm_kc_43_not_in_pm_union",
+    "message": "BRS6(FM3): §4.3 cites BRS6(KC2) but that KC is absent from the PM-derived union"
+  },
+  {
+    "pm": "BRS6(FM4)",
+    "code": "invalid_intervention_breakdown",
+    "message": "BRS6(FM4): intervention_breakdown must be one of the five allowed semantic values"
+  },
+  {
+    "pm": "BRS6(FM4)",
+    "code": "invalid_intervention_dominance",
+    "message": "BRS6(FM4): intervention_dominance must be a recognized dominance value (Diet-Dominant, Diet/Lifestyle-Combined, Lifestyle-Dominant, or legacy Diet-Supported / Mixed)"
+  },
+  {
+    "pm": "BRS6(FM4)",
+    "code": "missing_fm_outcome_context_disclaimer",
+    "message": "BRS6(FM4): §7 must include the FM phenome connections disclaimer"
+  },
+  {
+    "pm": "BRS6(FM4)",
+    "code": "fm_outcome_context_dropdowns",
+    "message": "BRS6(FM4): FM §7 outcomes must use hub collapsible dropdowns (see renderFmOutcomeContextSectionBody)"
+  },
+  {
+    "pm": "BRS6(FM4)",
+    "code": "fm_synthesis_order",
+    "message": "BRS6(FM4): use Functional Rationale → Evidence Summary → Suboptimal Function"
+  },
+  {
+    "pm": "BRS6(FM4)",
+    "code": "fm_evidence_summary_stale",
+    "message": "BRS6(FM4): evidence summary does not match its durable source"
+  },
+  {
+    "pm": "BRS6(FM4)",
+    "code": "fm_synthesis_source",
+    "message": "BRS6(FM4): BRS6(FM4): preserve or assess the Suboptimal Function account"
+  },
+  {
+    "pm": "BRS6(FM4)",
+    "code": "fm_synthesis_order",
+    "message": "BRS6(FM4): use Functional Rationale → Evidence Summary → Suboptimal Function"
+  },
+  {
+    "pm": "BRS6(FM4)",
+    "code": "fm_evidence_summary_stale",
+    "message": "BRS6(FM4): evidence summary does not match its durable source"
+  },
+  {
+    "pm": "BRS6(FM4)",
+    "code": "fm_synthesis_source",
+    "message": "BRS6(FM4): BRS6(FM4): preserve or assess the Suboptimal Function account"
+  },
+  {
+    "pm": "BRS-X(Circadian-FM1-PM1)",
+    "code": "pm_lever_missing_finding_source",
+    "message": "BRS-X(Circadian-FM1-PM1): lifestyle_priorities[0] must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS-X(Circadian-FM1-PM1)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(Circadian-FM1-PM1): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(Circadian-FM1-PM2)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(Circadian-FM1-PM2): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(ECS-PM1)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(ECS-PM1): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(ECS-PM2)",
+    "code": "pm_lever_missing_finding_source",
+    "message": "BRS-X(ECS-PM2): system_optimisation_practices[0] must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS-X(ECS-PM2)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(ECS-PM2): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(ECS-PM3)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(ECS-PM3): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(ECS-PM4)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(ECS-PM4): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(ECS-PM5)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(ECS-PM5): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(Hormones-PM1)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(Hormones-PM1): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(Hormones-PM2)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(Hormones-PM2): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(Hormones-PM3)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(Hormones-PM3): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(Hormones-PM4)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(Hormones-PM4): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(Hormones-PM5)",
+    "code": "dit_missing_finding_source",
+    "message": "BRS-X(Hormones-PM5): dietary_input_traceability[1] evidence_source must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS-X(Hormones-PM5)",
+    "code": "pm_references_section_stale",
+    "message": "BRS-X(Hormones-PM5): §8 does not match the canonical references array"
+  },
+  {
+    "pm": "BRS-X(Hormones-PM5)",
+    "code": "pm_reference_anchor_missing",
+    "message": "BRS-X(Hormones-PM5): §8 must contain exactly one pm-ref-5 anchor"
+  },
+  {
+    "pm": "BRS-X(Hormones-PM5)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(Hormones-PM5): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(Hormones-PM6)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(Hormones-PM6): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS1-FM1-PM1",
+    "code": "pm_lever_missing_finding_source",
+    "message": "BRS1-FM1-PM1: system_optimisation_practices[2] must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS1-FM1-PM1",
+    "code": "pm_body_citation_unlinked",
+    "message": "BRS1-FM1-PM1: body citation [22] is not linked to its §8 entry"
+  },
+  {
+    "pm": "BRS1-FM1-PM1",
+    "code": "pm_body_citation_unlinked",
+    "message": "BRS1-FM1-PM1: body citation [24] is not linked to its §8 entry"
+  },
+  {
+    "pm": "BRS1-FM1-PM1",
+    "code": "pm_body_citation_unlinked",
+    "message": "BRS1-FM1-PM1: body citation [25] is not linked to its §8 entry"
+  },
+  {
+    "pm": "BRS1-FM1-PM1",
+    "code": "kc_change_flag_missing_unknown_citation",
+    "message": "BRS1-FM1-PM1: kc_change_control_flags[0] evidence_source citation_key fernstrom_lnna_2013 is not in the page references"
+  },
+  {
+    "pm": "BRS1-FM1-PM2",
+    "code": "pm_body_citation_unlinked",
+    "message": "BRS1-FM1-PM2: body citation [1] is not linked to its §8 entry"
+  },
+  {
+    "pm": "BRS1-FM1-PM2",
+    "code": "pm_body_citation_unlinked",
+    "message": "BRS1-FM1-PM2: body citation [3] is not linked to its §8 entry"
+  },
+  {
+    "pm": "BRS1-FM1-PM2",
+    "code": "pm_body_citation_unlinked",
+    "message": "BRS1-FM1-PM2: body citation [8] is not linked to its §8 entry"
+  },
+  {
+    "pm": "BRS1-FM1-PM2",
+    "code": "pm_connection_explanation_missing",
+    "message": "BRS1-FM1-PM2: published PM connection needs a 1–2 line relationship explanation, not a bare or title-only link"
+  },
+  {
+    "pm": "BRS1-FM1-PM3",
+    "code": "pm_connection_explanation_missing",
+    "message": "BRS1-FM1-PM3: published PM connection needs a 1–2 line relationship explanation, not a bare or title-only link"
+  },
+  {
+    "pm": "BRS1-FM1-PM4",
+    "code": "dla_presentation_duplicate_primary_entry",
+    "message": "BRS1-FM1-PM4: atom PM4-DIT-1 must not render as separate primary entries in both §3.1.1 and §3.1.2"
+  },
+  {
+    "pm": "BRS1-FM1-PM4",
+    "code": "dla_presentation_duplicate_primary_entry",
+    "message": "BRS1-FM1-PM4: atom PM4-DIT-2 must not render as separate primary entries in both §3.1.1 and §3.1.2"
+  },
+  {
+    "pm": "BRS1-FM1-PM4",
+    "code": "dla_presentation_duplicate_derived_target",
+    "message": "BRS1-FM1-PM4: Derived atom PM4-DIT-3 and its biochemical target PM4-DIT-2 must not render as separate primary entries unless the target has an independently admitted dietary relationship"
+  },
+  {
+    "pm": "BRS1-FM1-PM4",
+    "code": "pm_references_section_stale",
+    "message": "BRS1-FM1-PM4: §8 does not match the canonical references array"
+  },
+  {
+    "pm": "BRS1-FM1-PM5",
+    "code": "dla_presentation_duplicate_derived_target",
+    "message": "BRS1-FM1-PM5: Derived atom PM5-DIT-4 and its biochemical target PM5-DIT-3 must not render as separate primary entries unless the target has an independently admitted dietary relationship"
+  },
+  {
+    "pm": "BRS1-FM1-PM5",
+    "code": "pm_references_section_stale",
+    "message": "BRS1-FM1-PM5: §8 does not match the canonical references array"
+  },
+  {
+    "pm": "BRS1-FM2-PM6",
+    "code": "pm_lever_missing_finding_source",
+    "message": "BRS1-FM2-PM6: system_optimisation_practices[0] must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS1-FM2-PM6",
+    "code": "dla_presentation_duplicate_substrate_provision",
+    "message": "BRS1-FM2-PM6: substrate-provision atom PM6-DIT-2 and supplied substrate PM6-DIT-1 must not render as separate primary entries without adjudication that both are independently admitted relationships"
+  },
+  {
+    "pm": "BRS1-FM3-PM7",
+    "code": "pm_lever_missing_finding_source",
+    "message": "BRS1-FM3-PM7: system_optimisation_practices[1] must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS1-FM4-PM10",
+    "code": "pm_connection_explanation_missing",
+    "message": "BRS1-FM4-PM10: published PM connection needs a 1–2 line relationship explanation, not a bare or title-only link"
+  },
+  {
+    "pm": "BRS1-FM5-PM12",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS1-FM5-PM12: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "code": "nutrient_naming_nonpreferred_label",
+    "message": "BRS2-FM1-PM1: dietary_input_traceability[0].input \"5-Methyltetrahydrofolate\" — use \"5-Methyltetrahydrofolate (a form of vitamin B9)\""
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "code": "nutrient_naming_nonpreferred_label",
+    "message": "BRS2-FM1-PM1: dietary_lever_presentations[0].label \"5-Methyltetrahydrofolate\" — use \"5-Methyltetrahydrofolate (a form of vitamin B9)\""
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "code": "nutrient_naming_nonpreferred_label",
+    "message": "BRS2-FM1-PM1: dietary_lever_atoms[1].derived_target \"5-Methyltetrahydrofolate\" — use \"5-Methyltetrahydrofolate (a form of vitamin B9)\""
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "code": "nutrient_naming_nonpreferred_label",
+    "message": "BRS2-FM1-PM1: public bullet \"5-Methyltetrahydrofolate\" — use \"5-Methyltetrahydrofolate (a form of vitamin B9)\""
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "code": "dla_presentation_duplicate_substrate_provision",
+    "message": "BRS2-FM1-PM1: substrate-provision atom PM1-DIT-2 and supplied substrate PM1-DIT-1 must not render as separate primary entries without adjudication that both are independently admitted relationships"
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "code": "dla_presentation_duplicate_derived_target",
+    "message": "BRS2-FM1-PM1: Derived atom PM1-DIT-4 and its biochemical target PM1-DIT-3 must not render as separate primary entries unless the target has an independently admitted dietary relationship"
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "code": "pm_references_section_stale",
+    "message": "BRS2-FM1-PM1: §8 does not match the canonical references array"
+  },
+  {
+    "pm": "BRS2-FM1-PM2",
+    "code": "pm_references_section_stale",
+    "message": "BRS2-FM1-PM2: §8 does not match the canonical references array"
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "code": "dla_presentation_duplicate_primary_entry",
+    "message": "BRS2-FM1-PM4: atom PM4-DIT-1 must not render as separate primary entries in both §3.1.1 and §3.1.2"
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "code": "dla_presentation_duplicate_primary_entry",
+    "message": "BRS2-FM1-PM4: atom PM4-DIT-3 must not render as separate primary entries in both §3.1.1 and §3.1.2"
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "code": "dla_presentation_duplicate_primary_entry",
+    "message": "BRS2-FM1-PM4: atom PM4-DIT-4 must not render as separate primary entries in both §3.1.1 and §3.1.2"
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "code": "dla_presentation_duplicate_primary_entry",
+    "message": "BRS2-FM1-PM4: atom PM4-DIT-5 must not render as separate primary entries in both §3.1.1 and §3.1.2"
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "code": "dla_presentation_duplicate_primary_entry",
+    "message": "BRS2-FM1-PM4: atom PM4-DIT-6 must not render as separate primary entries in both §3.1.1 and §3.1.2"
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "code": "dla_presentation_duplicate_substrate_provision",
+    "message": "BRS2-FM1-PM4: substrate-provision atom PM4-DIT-2 and supplied substrate PM4-DIT-1 must not render as separate primary entries without adjudication that both are independently admitted relationships"
+  },
+  {
+    "pm": "BRS2-FM3-PM7",
+    "code": "dla_invalid_addressability",
+    "message": "BRS2-FM3-PM7: dietary_lever_atoms[10] invalid dietary_addressability"
+  },
+  {
+    "pm": "BRS2-FM3-PM7",
+    "code": "dla_presentation_duplicate_substrate_provision",
+    "message": "BRS2-FM3-PM7: substrate-provision atom PM7-DIT-4 and supplied substrate PM7-DIT-3 must not render as separate primary entries without adjudication that both are independently admitted relationships"
+  },
+  {
+    "pm": "BRS2-FM3-PM7",
+    "code": "dla_presentation_duplicate_derived_target",
+    "message": "BRS2-FM3-PM7: Derived atom PM7-DIT-RECOVERY-METHIONINE and its biochemical target PM7-DIT-2 must not render as separate primary entries unless the target has an independently admitted dietary relationship"
+  },
+  {
+    "pm": "BRS2-FM3-PM7",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS2-FM3-PM7: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS3-FM2-PM4",
+    "code": "kc_change_flag_missing_unknown_citation",
+    "message": "BRS3-FM2-PM4: kc_change_control_flags[0] evidence_source citation_key sekhar_glutathione_2011 is not in the page references"
+  },
+  {
+    "pm": "BRS3-FM2-PM5",
+    "code": "pm_lever_missing_finding_source",
+    "message": "BRS3-FM2-PM5: system_optimisation_practices[0] must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS3-FM2-PM5",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS3-FM2-PM5: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS3-FM2-PM6",
+    "code": "pm_lever_missing_finding_source",
+    "message": "BRS3-FM2-PM6: system_optimisation_practices[0] must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS4-FM1-PM2",
+    "code": "pm_connection_explanation_missing",
+    "message": "BRS4-FM1-PM2: published PM connection needs a 1–2 line relationship explanation, not a bare or title-only link"
+  },
+  {
+    "pm": "BRS4-FM1-PM3",
+    "code": "dla_invalid_addressability",
+    "message": "BRS4-FM1-PM3: dietary_lever_atoms[1] invalid dietary_addressability"
+  },
+  {
+    "pm": "BRS4-FM1-PM3",
+    "code": "dla_invalid_addressability",
+    "message": "BRS4-FM1-PM3: dietary_lever_atoms[2] invalid dietary_addressability"
+  },
+  {
+    "pm": "BRS4-FM1-PM3",
+    "code": "dla_invalid_addressability",
+    "message": "BRS4-FM1-PM3: dietary_lever_atoms[4] invalid dietary_addressability"
+  },
+  {
+    "pm": "BRS4-FM1-PM3",
+    "code": "dla_presentation_duplicate_primary_entry",
+    "message": "BRS4-FM1-PM3: atom PM3-DIT-1 must not render as separate primary entries in both §3.1.1 and §3.1.2"
+  },
+  {
+    "pm": "BRS4-FM1-PM3",
+    "code": "dla_presentation_duplicate_derived_target",
+    "message": "BRS4-FM1-PM3: Derived atom PM3-DIT-RECOVERY-METHIONINE and its biochemical target PM3-DIT-4 must not render as separate primary entries unless the target has an independently admitted dietary relationship"
+  },
+  {
+    "pm": "BRS4-FM3-PM7",
+    "code": "dla_presentation_duplicate_derived_target",
+    "message": "BRS4-FM3-PM7: Derived atom PM7-DIT-RECOVERY-CAPRYLIC-TRIGLYCERIDE and its biochemical target PM7-DEFERRED-BIO-1 must not render as separate primary entries unless the target has an independently admitted dietary relationship"
+  },
+  {
+    "pm": "BRS4-FM4-PM9",
+    "code": "pm_lever_missing_finding_source",
+    "message": "BRS4-FM4-PM9: system_optimisation_practices[0] must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS5-FM1-PM1",
+    "code": "pm_lever_missing_finding_source",
+    "message": "BRS5-FM1-PM1: system_optimisation_practices[1] must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS5-FM1-PM1",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS5-FM1-PM1: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS5-FM1-PM2",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS5-FM1-PM2: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS5-FM1-PM3",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS5-FM1-PM3: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS5-FM2-PM4",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS5-FM2-PM4: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS5-FM2-PM6",
+    "code": "dla_presentation_duplicate_substrate_provision",
+    "message": "BRS5-FM2-PM6: substrate-provision atom PM6-DIT-2 and supplied substrate PM6-DIT-1 must not render as separate primary entries without adjudication that both are independently admitted relationships"
+  },
+  {
+    "pm": "BRS5-FM2-PM6",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS5-FM2-PM6: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS5-FM3-PM7",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS5-FM3-PM7: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS5-FM3-PM8",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS5-FM3-PM8: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS6-FM1-PM1",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS6-FM1-PM1: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS6-FM1-PM2",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS6-FM1-PM2: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS6-FM1-PM3",
+    "code": "pm_connection_explanation_missing",
+    "message": "BRS6-FM1-PM3: published PM connection needs a 1–2 line relationship explanation, not a bare or title-only link"
+  },
+  {
+    "pm": "BRS6-FM1-PM3",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS6-FM1-PM3: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS6-FM2-PM4",
+    "code": "pm_connection_explanation_missing",
+    "message": "BRS6-FM2-PM4: published PM connection needs a 1–2 line relationship explanation, not a bare or title-only link"
+  },
+  {
+    "pm": "BRS6-FM2-PM4",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS6-FM2-PM4: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "code": "missing_timing_specific",
+    "message": "brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment.mdx: timing_specific is required in front matter"
+  },
+  {
+    "code": "missing_phenome_section",
+    "message": "brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment.mdx: published body must include \"## 7. Phenome Connections\" (canonical PM section order)"
+  },
+  {
+    "pm": "BRS6-FM3-PM6",
+    "code": "pm_lever_missing_finding_source",
+    "message": "BRS6-FM3-PM6: lifestyle_priorities[0] must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS6-FM3-PM6",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS6-FM3-PM6: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS6-FM3-PM7",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS6-FM3-PM7: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS6-FM4-PM8",
+    "code": "invalid_intervention_breakdown",
+    "message": "BRS6-FM4-PM8: intervention_breakdown must be one of the five allowed semantic values"
+  },
+  {
+    "pm": "BRS6-FM4-PM8",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS6-FM4-PM8: §3.1.2 must be Cofactors and Substrates"
+  },
+  {
+    "pm": "BRS6-FM4-PM8",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS6-FM4-PM8: §3.1.3 must be Key Constraints"
+  },
+  {
+    "pm": "BRS6-FM4-PM9",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS6-FM4-PM9: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS1(SM-CROSS1)",
+    "code": "pm_connected_subsections",
+    "message": "BRS1(SM-CROSS1): §5.2 must be Cross-BRS Mechanism Relationships"
+  },
+  {
+    "pm": "BRS1(SM-CROSS1)",
+    "code": "pm_connected_subsections",
+    "message": "BRS1(SM-CROSS1): §5.3 must be Local BRS Mechanism Relationships"
+  },
+  {
+    "pm": "BRS1(SM-CROSS1)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS1(SM-CROSS1): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS1(SM-SNP1)",
+    "code": "pm_connected_subsections",
+    "message": "BRS1(SM-SNP1): §5.2 must be Cross-BRS Mechanism Relationships"
+  },
+  {
+    "pm": "BRS1(SM-SNP1)",
+    "code": "pm_connected_subsections",
+    "message": "BRS1(SM-SNP1): §5.3 must be Local BRS Mechanism Relationships"
+  },
+  {
+    "pm": "BRS1(SM-SNP1)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS1(SM-SNP1): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS1(SM-SNP2)",
+    "code": "pm_connected_subsections",
+    "message": "BRS1(SM-SNP2): §5.2 must be Cross-BRS Mechanism Relationships"
+  },
+  {
+    "pm": "BRS1(SM-SNP2)",
+    "code": "pm_connected_subsections",
+    "message": "BRS1(SM-SNP2): §5.3 must be Local BRS Mechanism Relationships"
+  },
+  {
+    "pm": "BRS1(SM-SNP2)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS1(SM-SNP2): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS2(SM-SNP1)",
+    "code": "pm_connected_subsections",
+    "message": "BRS2(SM-SNP1): §5.2 must be Cross-BRS Mechanism Relationships"
+  },
+  {
+    "pm": "BRS2(SM-SNP1)",
+    "code": "pm_connected_subsections",
+    "message": "BRS2(SM-SNP1): §5.3 must be Local BRS Mechanism Relationships"
+  },
+  {
+    "pm": "BRS2(SM-SNP1)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS2(SM-SNP1): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(ECS-FM1)",
+    "code": "fm_kc_43_not_in_pm_union",
+    "message": "BRS-X(ECS-FM1): §4.3 cites BRS-X(ECS-KC1) but that KC is absent from the PM-derived union"
+  },
+  {
+    "pm": "BRS-X(Hormones-FM1)",
+    "code": "fm_kc_43_not_in_pm_union",
+    "message": "BRS-X(Hormones-FM1): §4.3 cites BRS5(KC1) but that KC is absent from the PM-derived union"
+  },
+  {
+    "pm": "BRS3(FM1)",
+    "code": "fm_kc_43_not_in_pm_union",
+    "message": "BRS3(FM1): §4.3 cites BRS3(KC1) but that KC is absent from the PM-derived union"
+  },
+  {
+    "pm": "BRS4(FM1)",
+    "code": "fm_kc_43_not_in_pm_union",
+    "message": "BRS4(FM1): §4.3 cites BRS4(KC2) but that KC is absent from the PM-derived union"
+  },
+  {
+    "pm": "BRS5(FM2)",
+    "code": "fm_kc_43_not_in_pm_union",
+    "message": "BRS5(FM2): §4.3 cites BRS5(KC2) but that KC is absent from the PM-derived union"
+  },
+  {
+    "pm": "BRS6(FM1)",
+    "code": "fm_kc_43_not_in_pm_union",
+    "message": "BRS6(FM1): §4.3 cites BRS6(KC1) but that KC is absent from the PM-derived union"
+  },
+  {
+    "pm": "BRS6(FM2)",
+    "code": "single_pm_fm_outcome_orphan",
+    "message": "BRS6(FM2): remove functional_outcome_context or add phenome_relationships on sole child PM BRS6-FM2-PM4 (Single-PM FM 1:1 rule)"
+  },
+  {
+    "pm": "BRS6(FM2)",
+    "code": "fm_evidence_summary_stale",
+    "message": "BRS6(FM2): evidence summary does not match its durable source"
+  },
+  {
+    "pm": "BRS6(FM2)",
+    "code": "fm_synthesis_stale",
+    "message": "BRS6(FM2): section 4 does not match its durable rationale and summary"
+  },
+  {
+    "pm": "BRS6(FM2)",
+    "code": "fm_kc_43_not_in_pm_union",
+    "message": "BRS6(FM2): §4.3 cites BRS6(KC1) but that KC is absent from the PM-derived union"
+  },
+  {
+    "pm": "BRS6(FM2)",
+    "code": "fm_kc_43_not_in_pm_union",
+    "message": "BRS6(FM2): §4.3 cites BRS6(KC2) but that KC is absent from the PM-derived union"
+  },
+  {
+    "pm": "BRS6(FM2)",
+    "code": "fm_evidence_summary_stale",
+    "message": "BRS6(FM2): evidence summary does not match its durable source"
+  },
+  {
+    "pm": "BRS6(FM2)",
+    "code": "fm_synthesis_stale",
+    "message": "BRS6(FM2): section 4 does not match its durable rationale and summary"
+  },
+  {
+    "pm": "BRS6(FM3)",
+    "code": "fm_kc_43_not_in_pm_union",
+    "message": "BRS6(FM3): §4.3 cites BRS6(KC2) but that KC is absent from the PM-derived union"
+  },
+  {
+    "pm": "BRS6(FM4)",
+    "code": "invalid_intervention_breakdown",
+    "message": "BRS6(FM4): intervention_breakdown must be one of the five allowed semantic values"
+  },
+  {
+    "pm": "BRS6(FM4)",
+    "code": "invalid_intervention_dominance",
+    "message": "BRS6(FM4): intervention_dominance must be a recognized dominance value (Diet-Dominant, Diet/Lifestyle-Combined, Lifestyle-Dominant, or legacy Diet-Supported / Mixed)"
+  },
+  {
+    "pm": "BRS6(FM4)",
+    "code": "missing_fm_outcome_context_disclaimer",
+    "message": "BRS6(FM4): §7 must include the FM phenome connections disclaimer"
+  },
+  {
+    "pm": "BRS6(FM4)",
+    "code": "fm_outcome_context_dropdowns",
+    "message": "BRS6(FM4): FM §7 outcomes must use hub collapsible dropdowns (see renderFmOutcomeContextSectionBody)"
+  },
+  {
+    "pm": "BRS6(FM4)",
+    "code": "fm_synthesis_order",
+    "message": "BRS6(FM4): use Functional Rationale → Evidence Summary → Suboptimal Function"
+  },
+  {
+    "pm": "BRS6(FM4)",
+    "code": "fm_evidence_summary_stale",
+    "message": "BRS6(FM4): evidence summary does not match its durable source"
+  },
+  {
+    "pm": "BRS6(FM4)",
+    "code": "fm_synthesis_source",
+    "message": "BRS6(FM4): BRS6(FM4): preserve or assess the Suboptimal Function account"
+  },
+  {
+    "pm": "BRS6(FM4)",
+    "code": "fm_synthesis_order",
+    "message": "BRS6(FM4): use Functional Rationale → Evidence Summary → Suboptimal Function"
+  },
+  {
+    "pm": "BRS6(FM4)",
+    "code": "fm_evidence_summary_stale",
+    "message": "BRS6(FM4): evidence summary does not match its durable source"
+  },
+  {
+    "pm": "BRS6(FM4)",
+    "code": "fm_synthesis_source",
+    "message": "BRS6(FM4): BRS6(FM4): preserve or assess the Suboptimal Function account"
+  },
+  {
+    "pm": "BRS-X(Circadian-FM1-PM1)",
+    "code": "pm_lever_missing_finding_source",
+    "message": "BRS-X(Circadian-FM1-PM1): lifestyle_priorities[0] must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS-X(Circadian-FM1-PM1)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(Circadian-FM1-PM1): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(Circadian-FM1-PM2)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(Circadian-FM1-PM2): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(ECS-PM1)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(ECS-PM1): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(ECS-PM2)",
+    "code": "pm_lever_missing_finding_source",
+    "message": "BRS-X(ECS-PM2): system_optimisation_practices[0] must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS-X(ECS-PM2)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(ECS-PM2): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(ECS-PM3)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(ECS-PM3): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(ECS-PM4)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(ECS-PM4): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(ECS-PM5)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(ECS-PM5): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(Hormones-PM1)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(Hormones-PM1): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(Hormones-PM2)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(Hormones-PM2): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(Hormones-PM3)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(Hormones-PM3): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(Hormones-PM4)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(Hormones-PM4): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(Hormones-PM5)",
+    "code": "dit_missing_finding_source",
+    "message": "BRS-X(Hormones-PM5): dietary_input_traceability[1] evidence_source must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS-X(Hormones-PM5)",
+    "code": "pm_references_section_stale",
+    "message": "BRS-X(Hormones-PM5): §8 does not match the canonical references array"
+  },
+  {
+    "pm": "BRS-X(Hormones-PM5)",
+    "code": "pm_reference_anchor_missing",
+    "message": "BRS-X(Hormones-PM5): §8 must contain exactly one pm-ref-5 anchor"
+  },
+  {
+    "pm": "BRS-X(Hormones-PM5)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(Hormones-PM5): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS-X(Hormones-PM6)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS-X(Hormones-PM6): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS1-FM1-PM1",
+    "code": "pm_lever_missing_finding_source",
+    "message": "BRS1-FM1-PM1: system_optimisation_practices[2] must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS1-FM1-PM1",
+    "code": "pm_body_citation_unlinked",
+    "message": "BRS1-FM1-PM1: body citation [22] is not linked to its §8 entry"
+  },
+  {
+    "pm": "BRS1-FM1-PM1",
+    "code": "pm_body_citation_unlinked",
+    "message": "BRS1-FM1-PM1: body citation [24] is not linked to its §8 entry"
+  },
+  {
+    "pm": "BRS1-FM1-PM1",
+    "code": "pm_body_citation_unlinked",
+    "message": "BRS1-FM1-PM1: body citation [25] is not linked to its §8 entry"
+  },
+  {
+    "pm": "BRS1-FM1-PM1",
+    "code": "kc_change_flag_missing_unknown_citation",
+    "message": "BRS1-FM1-PM1: kc_change_control_flags[0] evidence_source citation_key fernstrom_lnna_2013 is not in the page references"
+  },
+  {
+    "pm": "BRS1-FM1-PM2",
+    "code": "pm_body_citation_unlinked",
+    "message": "BRS1-FM1-PM2: body citation [1] is not linked to its §8 entry"
+  },
+  {
+    "pm": "BRS1-FM1-PM2",
+    "code": "pm_body_citation_unlinked",
+    "message": "BRS1-FM1-PM2: body citation [3] is not linked to its §8 entry"
+  },
+  {
+    "pm": "BRS1-FM1-PM2",
+    "code": "pm_body_citation_unlinked",
+    "message": "BRS1-FM1-PM2: body citation [8] is not linked to its §8 entry"
+  },
+  {
+    "pm": "BRS1-FM1-PM2",
+    "code": "pm_connection_explanation_missing",
+    "message": "BRS1-FM1-PM2: published PM connection needs a 1–2 line relationship explanation, not a bare or title-only link"
+  },
+  {
+    "pm": "BRS1-FM1-PM3",
+    "code": "pm_connection_explanation_missing",
+    "message": "BRS1-FM1-PM3: published PM connection needs a 1–2 line relationship explanation, not a bare or title-only link"
+  },
+  {
+    "pm": "BRS1-FM1-PM4",
+    "code": "dla_presentation_duplicate_primary_entry",
+    "message": "BRS1-FM1-PM4: atom PM4-DIT-1 must not render as separate primary entries in both §3.1.1 and §3.1.2"
+  },
+  {
+    "pm": "BRS1-FM1-PM4",
+    "code": "dla_presentation_duplicate_primary_entry",
+    "message": "BRS1-FM1-PM4: atom PM4-DIT-2 must not render as separate primary entries in both §3.1.1 and §3.1.2"
+  },
+  {
+    "pm": "BRS1-FM1-PM4",
+    "code": "dla_presentation_duplicate_derived_target",
+    "message": "BRS1-FM1-PM4: Derived atom PM4-DIT-3 and its biochemical target PM4-DIT-2 must not render as separate primary entries unless the target has an independently admitted dietary relationship"
+  },
+  {
+    "pm": "BRS1-FM1-PM4",
+    "code": "pm_references_section_stale",
+    "message": "BRS1-FM1-PM4: §8 does not match the canonical references array"
+  },
+  {
+    "pm": "BRS1-FM1-PM5",
+    "code": "dla_presentation_duplicate_derived_target",
+    "message": "BRS1-FM1-PM5: Derived atom PM5-DIT-4 and its biochemical target PM5-DIT-3 must not render as separate primary entries unless the target has an independently admitted dietary relationship"
+  },
+  {
+    "pm": "BRS1-FM1-PM5",
+    "code": "pm_references_section_stale",
+    "message": "BRS1-FM1-PM5: §8 does not match the canonical references array"
+  },
+  {
+    "pm": "BRS1-FM2-PM6",
+    "code": "pm_lever_missing_finding_source",
+    "message": "BRS1-FM2-PM6: system_optimisation_practices[0] must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS1-FM2-PM6",
+    "code": "dla_presentation_duplicate_substrate_provision",
+    "message": "BRS1-FM2-PM6: substrate-provision atom PM6-DIT-2 and supplied substrate PM6-DIT-1 must not render as separate primary entries without adjudication that both are independently admitted relationships"
+  },
+  {
+    "pm": "BRS1-FM3-PM7",
+    "code": "pm_lever_missing_finding_source",
+    "message": "BRS1-FM3-PM7: system_optimisation_practices[1] must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS1-FM4-PM10",
+    "code": "pm_connection_explanation_missing",
+    "message": "BRS1-FM4-PM10: published PM connection needs a 1–2 line relationship explanation, not a bare or title-only link"
+  },
+  {
+    "pm": "BRS1-FM5-PM12",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS1-FM5-PM12: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "code": "nutrient_naming_nonpreferred_label",
+    "message": "BRS2-FM1-PM1: dietary_input_traceability[0].input \"5-Methyltetrahydrofolate\" — use \"5-Methyltetrahydrofolate (a form of vitamin B9)\""
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "code": "nutrient_naming_nonpreferred_label",
+    "message": "BRS2-FM1-PM1: dietary_lever_presentations[0].label \"5-Methyltetrahydrofolate\" — use \"5-Methyltetrahydrofolate (a form of vitamin B9)\""
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "code": "nutrient_naming_nonpreferred_label",
+    "message": "BRS2-FM1-PM1: dietary_lever_atoms[1].derived_target \"5-Methyltetrahydrofolate\" — use \"5-Methyltetrahydrofolate (a form of vitamin B9)\""
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "code": "nutrient_naming_nonpreferred_label",
+    "message": "BRS2-FM1-PM1: public bullet \"5-Methyltetrahydrofolate\" — use \"5-Methyltetrahydrofolate (a form of vitamin B9)\""
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "code": "dla_presentation_duplicate_substrate_provision",
+    "message": "BRS2-FM1-PM1: substrate-provision atom PM1-DIT-2 and supplied substrate PM1-DIT-1 must not render as separate primary entries without adjudication that both are independently admitted relationships"
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "code": "dla_presentation_duplicate_derived_target",
+    "message": "BRS2-FM1-PM1: Derived atom PM1-DIT-4 and its biochemical target PM1-DIT-3 must not render as separate primary entries unless the target has an independently admitted dietary relationship"
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "code": "pm_references_section_stale",
+    "message": "BRS2-FM1-PM1: §8 does not match the canonical references array"
+  },
+  {
+    "pm": "BRS2-FM1-PM2",
+    "code": "pm_references_section_stale",
+    "message": "BRS2-FM1-PM2: §8 does not match the canonical references array"
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "code": "dla_presentation_duplicate_primary_entry",
+    "message": "BRS2-FM1-PM4: atom PM4-DIT-1 must not render as separate primary entries in both §3.1.1 and §3.1.2"
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "code": "dla_presentation_duplicate_primary_entry",
+    "message": "BRS2-FM1-PM4: atom PM4-DIT-3 must not render as separate primary entries in both §3.1.1 and §3.1.2"
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "code": "dla_presentation_duplicate_primary_entry",
+    "message": "BRS2-FM1-PM4: atom PM4-DIT-4 must not render as separate primary entries in both §3.1.1 and §3.1.2"
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "code": "dla_presentation_duplicate_primary_entry",
+    "message": "BRS2-FM1-PM4: atom PM4-DIT-5 must not render as separate primary entries in both §3.1.1 and §3.1.2"
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "code": "dla_presentation_duplicate_primary_entry",
+    "message": "BRS2-FM1-PM4: atom PM4-DIT-6 must not render as separate primary entries in both §3.1.1 and §3.1.2"
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "code": "dla_presentation_duplicate_substrate_provision",
+    "message": "BRS2-FM1-PM4: substrate-provision atom PM4-DIT-2 and supplied substrate PM4-DIT-1 must not render as separate primary entries without adjudication that both are independently admitted relationships"
+  },
+  {
+    "pm": "BRS2-FM3-PM7",
+    "code": "dla_invalid_addressability",
+    "message": "BRS2-FM3-PM7: dietary_lever_atoms[10] invalid dietary_addressability"
+  },
+  {
+    "pm": "BRS2-FM3-PM7",
+    "code": "dla_presentation_duplicate_substrate_provision",
+    "message": "BRS2-FM3-PM7: substrate-provision atom PM7-DIT-4 and supplied substrate PM7-DIT-3 must not render as separate primary entries without adjudication that both are independently admitted relationships"
+  },
+  {
+    "pm": "BRS2-FM3-PM7",
+    "code": "dla_presentation_duplicate_derived_target",
+    "message": "BRS2-FM3-PM7: Derived atom PM7-DIT-RECOVERY-METHIONINE and its biochemical target PM7-DIT-2 must not render as separate primary entries unless the target has an independently admitted dietary relationship"
+  },
+  {
+    "pm": "BRS2-FM3-PM7",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS2-FM3-PM7: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS3-FM2-PM4",
+    "code": "kc_change_flag_missing_unknown_citation",
+    "message": "BRS3-FM2-PM4: kc_change_control_flags[0] evidence_source citation_key sekhar_glutathione_2011 is not in the page references"
+  },
+  {
+    "pm": "BRS3-FM2-PM5",
+    "code": "pm_lever_missing_finding_source",
+    "message": "BRS3-FM2-PM5: system_optimisation_practices[0] must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS3-FM2-PM5",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS3-FM2-PM5: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS3-FM2-PM6",
+    "code": "pm_lever_missing_finding_source",
+    "message": "BRS3-FM2-PM6: system_optimisation_practices[0] must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS4-FM1-PM2",
+    "code": "pm_connection_explanation_missing",
+    "message": "BRS4-FM1-PM2: published PM connection needs a 1–2 line relationship explanation, not a bare or title-only link"
+  },
+  {
+    "pm": "BRS4-FM1-PM3",
+    "code": "dla_invalid_addressability",
+    "message": "BRS4-FM1-PM3: dietary_lever_atoms[1] invalid dietary_addressability"
+  },
+  {
+    "pm": "BRS4-FM1-PM3",
+    "code": "dla_invalid_addressability",
+    "message": "BRS4-FM1-PM3: dietary_lever_atoms[2] invalid dietary_addressability"
+  },
+  {
+    "pm": "BRS4-FM1-PM3",
+    "code": "dla_invalid_addressability",
+    "message": "BRS4-FM1-PM3: dietary_lever_atoms[4] invalid dietary_addressability"
+  },
+  {
+    "pm": "BRS4-FM1-PM3",
+    "code": "dla_presentation_duplicate_primary_entry",
+    "message": "BRS4-FM1-PM3: atom PM3-DIT-1 must not render as separate primary entries in both §3.1.1 and §3.1.2"
+  },
+  {
+    "pm": "BRS4-FM1-PM3",
+    "code": "dla_presentation_duplicate_derived_target",
+    "message": "BRS4-FM1-PM3: Derived atom PM3-DIT-RECOVERY-METHIONINE and its biochemical target PM3-DIT-4 must not render as separate primary entries unless the target has an independently admitted dietary relationship"
+  },
+  {
+    "pm": "BRS4-FM3-PM7",
+    "code": "dla_presentation_duplicate_derived_target",
+    "message": "BRS4-FM3-PM7: Derived atom PM7-DIT-RECOVERY-CAPRYLIC-TRIGLYCERIDE and its biochemical target PM7-DEFERRED-BIO-1 must not render as separate primary entries unless the target has an independently admitted dietary relationship"
+  },
+  {
+    "pm": "BRS4-FM4-PM9",
+    "code": "pm_lever_missing_finding_source",
+    "message": "BRS4-FM4-PM9: system_optimisation_practices[0] must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS5-FM1-PM1",
+    "code": "pm_lever_missing_finding_source",
+    "message": "BRS5-FM1-PM1: system_optimisation_practices[1] must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS5-FM1-PM1",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS5-FM1-PM1: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS5-FM1-PM2",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS5-FM1-PM2: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS5-FM1-PM3",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS5-FM1-PM3: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS5-FM2-PM4",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS5-FM2-PM4: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS5-FM2-PM6",
+    "code": "dla_presentation_duplicate_substrate_provision",
+    "message": "BRS5-FM2-PM6: substrate-provision atom PM6-DIT-2 and supplied substrate PM6-DIT-1 must not render as separate primary entries without adjudication that both are independently admitted relationships"
+  },
+  {
+    "pm": "BRS5-FM2-PM6",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS5-FM2-PM6: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS5-FM3-PM7",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS5-FM3-PM7: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS5-FM3-PM8",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS5-FM3-PM8: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS6-FM1-PM1",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS6-FM1-PM1: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS6-FM1-PM2",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS6-FM1-PM2: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS6-FM1-PM3",
+    "code": "pm_connection_explanation_missing",
+    "message": "BRS6-FM1-PM3: published PM connection needs a 1–2 line relationship explanation, not a bare or title-only link"
+  },
+  {
+    "pm": "BRS6-FM1-PM3",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS6-FM1-PM3: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS6-FM2-PM4",
+    "code": "pm_connection_explanation_missing",
+    "message": "BRS6-FM2-PM4: published PM connection needs a 1–2 line relationship explanation, not a bare or title-only link"
+  },
+  {
+    "pm": "BRS6-FM2-PM4",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS6-FM2-PM4: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "code": "missing_timing_specific",
+    "message": "brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment.mdx: timing_specific is required in front matter"
+  },
+  {
+    "code": "missing_phenome_section",
+    "message": "brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment.mdx: published body must include \"## 7. Phenome Connections\" (canonical PM section order)"
+  },
+  {
+    "pm": "BRS6-FM3-PM6",
+    "code": "pm_lever_missing_finding_source",
+    "message": "BRS6-FM3-PM6: lifestyle_priorities[0] must cite a Scientific Finding"
+  },
+  {
+    "pm": "BRS6-FM3-PM6",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS6-FM3-PM6: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS6-FM3-PM7",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS6-FM3-PM7: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS6-FM4-PM8",
+    "code": "invalid_intervention_breakdown",
+    "message": "BRS6-FM4-PM8: intervention_breakdown must be one of the five allowed semantic values"
+  },
+  {
+    "pm": "BRS6-FM4-PM8",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS6-FM4-PM8: §3.1.2 must be Cofactors and Substrates"
+  },
+  {
+    "pm": "BRS6-FM4-PM8",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS6-FM4-PM8: §3.1.3 must be Key Constraints"
+  },
+  {
+    "pm": "BRS6-FM4-PM9",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS6-FM4-PM9: §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS1(SM-CROSS1)",
+    "code": "pm_connected_subsections",
+    "message": "BRS1(SM-CROSS1): §5.2 must be Cross-BRS Mechanism Relationships"
+  },
+  {
+    "pm": "BRS1(SM-CROSS1)",
+    "code": "pm_connected_subsections",
+    "message": "BRS1(SM-CROSS1): §5.3 must be Local BRS Mechanism Relationships"
+  },
+  {
+    "pm": "BRS1(SM-CROSS1)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS1(SM-CROSS1): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS1(SM-SNP1)",
+    "code": "pm_connected_subsections",
+    "message": "BRS1(SM-SNP1): §5.2 must be Cross-BRS Mechanism Relationships"
+  },
+  {
+    "pm": "BRS1(SM-SNP1)",
+    "code": "pm_connected_subsections",
+    "message": "BRS1(SM-SNP1): §5.3 must be Local BRS Mechanism Relationships"
+  },
+  {
+    "pm": "BRS1(SM-SNP1)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS1(SM-SNP1): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS1(SM-SNP2)",
+    "code": "pm_connected_subsections",
+    "message": "BRS1(SM-SNP2): §5.2 must be Cross-BRS Mechanism Relationships"
+  },
+  {
+    "pm": "BRS1(SM-SNP2)",
+    "code": "pm_connected_subsections",
+    "message": "BRS1(SM-SNP2): §5.3 must be Local BRS Mechanism Relationships"
+  },
+  {
+    "pm": "BRS1(SM-SNP2)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS1(SM-SNP2): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  },
+  {
+    "pm": "BRS2(SM-SNP1)",
+    "code": "pm_connected_subsections",
+    "message": "BRS2(SM-SNP1): §5.2 must be Cross-BRS Mechanism Relationships"
+  },
+  {
+    "pm": "BRS2(SM-SNP1)",
+    "code": "pm_connected_subsections",
+    "message": "BRS2(SM-SNP1): §5.3 must be Local BRS Mechanism Relationships"
+  },
+  {
+    "pm": "BRS2(SM-SNP1)",
+    "code": "pm_dietary_requirements_headings",
+    "message": "BRS2(SM-SNP1): §3.1.1 must be Dietary Inputs & Regulatory Modulators"
+  }
+]

@@ -84,11 +84,12 @@ test('GABA approved corrections and conditional scores survive; lesson remains b
   assert.match(f('PM9-F2').evidence_considered.find(e=>e.citation_key==='tang_crystal_2005').assessment.population,/sheep/);
   assert.match(f('PM9-F6').finding_statement,/p=0.140/);assert.match(f('PM9-F6').finding_statement,/p=0.011/);
   assert.deepEqual(p.data.system_optimisation_practices,[]);assert.deepEqual(p.data.lifestyle_priorities,[]);
-  const lesson=authoredFindingLessons(p.content).get('PM9-F1');assert.ok(lesson);
-  const old=p.before.content.slice(p.before.content.indexOf('<div id="brs1-4-9-f1-l1"'),p.before.content.indexOf('<ScientificFinding finding={{"id":"PM9-F2"')).trim();
-  assert.ok(lesson.includes(old));
-  assert.ok(p.content.indexOf('scientific-lesson:PM9-F1:start')>p.content.indexOf('<ScientificFinding finding={{"id":"PM9-F1"'));
-  assert.ok(p.content.indexOf('scientific-lesson:PM9-F1:end')<p.content.indexOf('<ScientificFinding finding={{"id":"PM9-F2"'));
+  // Author-approved lesson placement: end of Section4 summary, before Findings.
+  const begin=p.content.indexOf('<div id="brs1-4-9-f1-l1"'),end=p.content.indexOf('### 4.1',begin);
+  assert.ok(begin>p.content.indexOf('## 4.'));assert.ok(end>begin);
+  assert.ok(end<p.content.indexOf('<ScientificFinding'));
+  assert.match(p.content.slice(begin,end),/brs1-4-9-f1-l1/);
+
 });
 
 test('glycaemic protocols have immutable identities, exact six atoms and bounded Finding links',()=>{
@@ -159,13 +160,13 @@ test('verified curated records and canonical audit reuse local anchors and stand
   assert.match(read('src/components/SecCalibrationPreview/EvidenceAudit.tsx'),/aria-expanded="false"/);
 });
 
-test('reference sync preserves the explicit local annex without relaxing numbered-reference integrity',()=>{
+test('reference sync rejects withdrawn audit annex and preserves numbered-reference integrity',()=>{
   for(const p of pages) {
-    const annex=p.content.split('### PM-local source records')[1];assert.ok(annex);
+    assert.ok(!p.content.includes('### PM-local source records'));
     const regenerated=replacePmReferencesSection(p.content,renderNumberedPmReferencesSection(p.data.references));
-    assert.equal(regenerated.split('### PM-local source records')[1].trim(),annex.trim());
+    assert.ok(!regenerated.includes('### PM-local source records'));
     const broken=p.content.replace('id="pm-ref-1"','id="pm-ref-999"');
     assert.ok(validatePmReferenceIntegrity(p.data.references,broken).some(e=>e.code==='pm_reference_anchor_missing'));
-    assert.throws(()=>replacePmReferencesSection(p.content+'\n### PM-local source records\n',renderNumberedPmReferencesSection(p.data.references)),/Duplicate/);
+    assert.throws(()=>replacePmReferencesSection(p.content+'\n### PM-local source records\n',renderNumberedPmReferencesSection(p.data.references)),/withdrawn/);
   }
 });

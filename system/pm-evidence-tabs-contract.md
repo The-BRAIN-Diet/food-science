@@ -97,3 +97,16 @@ Do not generate or render dated “Stage 2A/2B evidence and traceability review�
 Display active mechanism Findings as SF1 through SFN in canonical record order, excluding retired/withdrawn/superseded records and explicitly reclassified Principles. Retirement closes the display-number gap. These are reader labels, not scientific identities: preserve canonical Finding IDs, anchors, references and immutable assessment ownership. Never reuse a retired record ID for another proposition. Use `activeFindingNumber`/`findingReaderLabel` with the parent PM records for titles and supporting links. Existing historical records retain their canonical IDs. Stage 2A/2B must regenerate current reader labels without renaming scientific records.
 
 Current Evidence & Audit assessment labels and Evidence Gap links use the same consecutive active SF mapping. Canonical record IDs and historical snapshot references remain explicitly identified as provenance, not presented as current SF sequence numbers. This does not relabel retired history as another active Finding.
+
+## PM1 controlled reference completion — 3 November 2026
+
+Owner instruction: resolve PM1 issues starting with F3, complete SEC appraisal, apply PM8 tabs and approved six-atom presentation; no commit or push. Scope is BRS1-FM1-PM1, not framework-wide refactoring or certification of a finished Gold Standard.
+
+PM1 is an authorised controlled migration, not a new tab design. Retain six active mechanism Findings, the reserved F4 history and two Principles. Intervention assessment disclosures use the existing SEC widget in Section 4; ownership links must resolve to the intervention, not a surrogate Finding ID. The widget default for existing Finding/history callers is unchanged. Remove the obsolete dated execution block; preserve its source history. Empty Open Issues is valid. Do not claim visual completion until the canonical local route has been inspected.
+
+
+## PM1 Section 4 assessment-family grouping — approved 4 November 2026
+
+Author-approved PM1-only pilot: keep the Section 4 summary visible; group Scientific Findings first, SOP assessments second, and Lifestyle Lever assessments only when present. Each family starts collapsed and uses existing `brs-fm-hub` dropdown CSS and keyboard behaviour. Individual Findings/assessments retain their own disclosures; stable deep links must open all enclosing groups. Scores, assessment ownership, six atoms and admissions are unchanged. Do not display empty Lifestyle assessment groups.
+
+Stage 2A preserves separate scientific and intervention propositions; grouping never implies inherited scores. Stage 2B renders the approved family order and preserves the `section4-findings:end` generated boundary so regeneration cannot discard following SOP assessments. `section4_assessment_groups: true` is enabled only on PM1 in this pilot; do not activate other PMs without rollout authorisation. This presentation approval is not scientific reassessment.

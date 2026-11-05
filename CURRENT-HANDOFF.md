@@ -1,5 +1,7 @@
 # BRAIN Diet — current handoff
 
+**Latest checkpoint — 3 November 2026:** branch `review/brs5-pm4-sec-assessment`, HEAD `f1607fe5`, pushed and verified on remote `github`. Earlier uncommitted/not-pushed statements below are dated history, not current release state. No main merge or deployment was performed by this workstream. Use the [current handoff index](project-knowledge/handoffs/INDEX.md); this document retains detailed historical checkpoints. Current task is documentation consolidation only, with no commit/push/merge/deploy authorised.
+
 As inspected 3 November 2026. Draft knowledge-transfer entry for author review; uncommitted. Read [PROJECT-CONTEXT.md](PROJECT-CONTEXT.md), then the relevant authoritative contracts. Recheck Git and manifests on resumption: this file is a dated checkpoint, not live state.
 
 ## Checkout and release state
@@ -82,3 +84,37 @@ See `review/lat1-mission-sf1-2026-11-03/stage2b-status.md` and `stage2b-complete
 ## Cursor integration — 3 November 2026
 
 Owner authorised local checkpoint and integration only. Checkpoint 533409e1 preserves current LAT1, SEC, disclosure removal and handoff work. Merged Cursor 48ee6a93 from github/review/brs3-fm1-pm1-pilot; see review/cursor-integration-2026-11-03/validation.md. Approval ledger reconciled by exact-record union (24 records); no science conflict. Focused tests 36 pass/one pre-existing BRS3 count fixture failure. No push/PR/main merge/deployment authorised; unrelated training drafts remain outside the checkpoint. Earlier handoff release instructions are superseded only to this local integration scope.
+
+## PM1 reference candidate — local, 3 November 2026
+
+Owner-authorised F3 resolution, SEC appraisal, PM8 tabs and six-atom refinement implemented on `review/brs5-pm4-sec-assessment`, HEAD still `f1607fe5`. See [current report](review/pm1-reference-completion-2026-11-03/implementation-report.md). Six eligible Findings: five provisional numeric assessments, one Evidence Un-assessable (F7, B/P original-method access); two independent SOP assessments 4/8. All 113 prior SEC snapshots preserved; 118 total. Mission/admissions/KCs/Principles unchanged. Targeted 35 tests pass, presentation check passes, localhost tabs/disclosures/SEC links verified. Broader five baseline failures plus unrelated LAT1 dietary gate and two bibliography keys remain. No commit/push; concurrent knowledge-hub/training work preserved. Do not call PM1 a human-approved Gold Standard or initiate Stage 2C/refactor without agreement.
+
+## PM1 assessment-family presentation — 4 November 2026, local only
+
+Owner approved collapsed parent groups on PM1: Findings first, SOP scores beneath; summary remains visible. Existing CSS/behaviour reused; no empty Lifestyle group. Opt-in generator and explicit end boundary preserve SOP assessments on regeneration. Template, Stage 2A/2B and presentation contracts updated; no scores/admissions changed. Six focused tests pass, 64-PM Findings check and presentation check pass, 118 SEC snapshots valid. Browser verified parent toggles, keyboard collapse and assessment deep-link opening parent+child. See review/pm1-reference-completion-2026-11-03/assessment-groups-2026-11-04.md and assessment-groups-collapsed.png. No wider rollout, commit or push.
+
+## PM source-audit annex removal — 4 November 2026
+
+Owner requested removing, not relocating, PM-local source audit prose across all PMs. Eight affected PMs cleaned; 37 source entries reconciled to verified bibliography metadata with legacy anchors preserved. Source retrieval notes and duplicate historical reference narratives removed. Scores, scientific propositions and admissions unchanged. Stage 2A/2B and citation standard updated; reference sync rejects annex reintroduction. See review/pm-reference-cleanup-2026-11-04/report.md and inventory.json. Local only, no commit/push.
+
+## PM1 Scientific Lesson placement — 4 November 2026
+
+Owner clarified Scientific Lessons are permitted; relocated existing bottom-of-page lesson beneath F1 inside the Scientific Findings group using the GAD lesson disclosure, icon and CSS. Scientific wording preserved; descriptive links avoid obsolete SF numbers. Stage 2A/2B and PM schema updated. Six PM1 tests, 64-PM Findings consistency and presentation contract pass. Browser reconnection failed this turn; do not claim new visual verification. Local only, no commit/push. See review/pm1-reference-completion-2026-11-03/lesson-placement.md.
+
+PM1 lesson placement superseded by latest owner instruction: above and separate from SFs. Now before §4.1, outside Findings parent; existing stable anchor and GAD styling retained. Instructions updated; six tests, regeneration dry run and presentation check pass. No commit/push.
+
+Scientific Lesson rule finalised: immediately after Section 4 Summary prose, before mechanistic detail/Findings, separate sibling dropdowns. Existing PM1 and GAD/PM9 lessons moved; only two actual canonical lesson blocks found, other matches empty islands or historical calibration copies. Content preserved. Template and Stage 2A/2B updated; MDX/placement, 64-PM Findings and presentation checks pass. No commit/push.
+
+## Priority SOP/Lifestyle appraisal — 4 November 2026 (local only)
+
+Completed the requested seven-record appraisal batch on `review/brs5-pm4-sec-assessment`, base `f1607fe5`. See [report](review/priority-intervention-appraisal-2026-11-04/report.md) and [appraisals](review/priority-intervention-appraisal-2026-11-04/appraisals.json). Five new provisional review appraisals; two existing intervention-owned SEC pins reused unchanged. Three bounded admission recommendations (fermented-food pattern/BRS3-PM7, extracted potato RS2/BRS5-PM5, Sutton early feeding/BRS6-PM3); two PM2 candidates deferred for scope adjudication. Reynolds MAGE/CONGA/range and Wastyk primary cytokine-response outcomes were null and remain explicit. No automatic transfer to other PMs.
+
+Only review records, Section 6 register and this handoff changed in this batch. All 118 existing SEC snapshots and 107 protected PM/approval/registry files match the batch-start state, including pre-existing local work. Sixteen focused tests pass; presentation check passes for 691 files; SEC integrity passes against HEAD. No new canonical ownership or presentation approval fabricated; Section 4 grouping remains PM1-only pending rollout approval. Proposed records have admission Unset and are not public scores. Next action is author review of the three admission recommendations and the two PM2 scope decisions before canonical integration. No commit, push, merge or deployment.
+
+### Priority admission boundaries — 4 November 2026
+
+Targeted follow-up completed without retrieval or rescoring: [boundary proposal](review/priority-intervention-appraisal-2026-11-04/admission-boundaries.md). No existing BRS6 PM more directly owns Shukla/Reynolds glucose exposure: appearance and disposal remain unmeasured, so both retain deferred PM admission rather than automatic reassignment. Wastyk, Baxter and Sutton retain three bounded proposals, with exact first lines and null/measurement boundaries. Baxter substrate wording clarified to extracted potato starch, not whole-potato flour. Active SOP/Lifestyle arrays checked for duplicates. Scores, canonical pages and approval records unchanged; local documentation only at f1607fe5. Await author decision; no further batch started.
+
+### Phytate and oxalate — 5 November 2026
+
+Created two canonical substance pages in existing Bioactive taxonomy; registered aliases/forms, linked existing Functional Properties, repaired amaranth qualitative identities and added three evidence-qualified food edges (amaranth ×2, spinach oxalate). [Report](review/phytate-oxalate-2026-11-05/report.md) records source-access limits and tests. 9/9 schema tests, substance and presentation checks pass; no new PM admissions/scores and all task-start PM/SEC hashes unchanged. Local only on review/brs5-pm4-sec-assessment at f1607fe5; no commit/push/deployment. Amaranth methods and comparable quantities remain unverified; no numeric composition added.

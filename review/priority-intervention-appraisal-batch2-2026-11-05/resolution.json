@@ -1,0 +1,654 @@
+{
+  "date": "2026-11-05",
+  "authority": "Author: Batch 2 Integration and Resolution",
+  "originalReview": "appraisals.json preserved unchanged",
+  "records": [
+    {
+      "reviewId": "gorissen-2020",
+      "intervention": "20 g whey versus casein in the tested older-adult drink",
+      "pmId": "BRS1-FM1-PM1",
+      "sources": [
+        {
+          "doi": "10.3945/ajcn.110.008102",
+          "url": "https://doi.org/10.3945/ajcn.110.008102"
+        }
+      ],
+      "eligibility": "Eligible",
+      "proposition": "In older men, a 20 g whey drink produced a higher peak dietary phenylalanine appearance rate than a matched 20 g casein drink.",
+      "studyContext": "Pennings 2011: 48 older men, 16 per group; random parallel allocation to 20 g whey, casein or casein hydrolysate in 250 mL after overnight fasting; six-hour dual-tracer sampling. Standardised preceding meal; repeated-measures ANOVA with Bonferroni tests.",
+      "admissionRecommendation": "Admit",
+      "admissionRationale": "PM fit is established for meal-level circulating provision, but a reproducible matched whey-versus-casein practice should be extracted from constituent trials before turning the pooled contrast into an intervention recommendation. Do not reject merely because brain delivery was unmeasured.",
+      "mainLimitation": "Pooled interstudy contrast; no single matched protocol or universal whey advantage.",
+      "implementationStatus": "Implemented locally with independent immutable SEC and six-atom presentation; not committed or published",
+      "interventionAdmitted": "Yes",
+      "inheritedFindingScore": false,
+      "assessmentGaps": [],
+      "limitations": [
+        {
+          "type": "time-window",
+          "text": "Casein appearance was higher later; an earlier peak is not universal superiority or complete absorption."
+        },
+        {
+          "type": "population",
+          "text": "Single fasting test in older men; not an ordinary mixed meal or daily prescription."
+        },
+        {
+          "type": "endpoint",
+          "text": "Dietary tracer appearance is not brain uptake, neurotransmitter synthesis or cognition."
+        },
+        {
+          "type": "null-outcome",
+          "text": "No overall treatment effect on total plasma phenylalanine concentration; whey and hydrolysate did not differ in the first two-hour circulating fraction."
+        }
+      ],
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "totals": {
+        "raw": 4,
+        "adjusted": 4,
+        "ceiling": 8,
+        "ordinal": true
+      },
+      "assessmentStatus": "Independent provisional intervention appraisal",
+      "rationale": {
+        "D": "Dietary tracer appearance directly measures the stated provision endpoint.",
+        "B": "Random allocation and standardised conditions; allocation concealment and blinding not sufficiently documented for full bias credit.",
+        "P": "Six-hour circulating fraction 58\u00b11% versus 53\u00b11% (SEM), and peak contrast P<0.05; 16 per arm and no peak-effect CI limit precision.",
+        "R": "One matched trial; pooled reuse of this research programme does not independently replicate it."
+      },
+      "sourceVerification": {
+        "level": "Primary author-uploaded full text, Methods and Results inspected",
+        "access": "https://www.researchgate.net/publication/50266932",
+        "relationship": "Matched constituent-protocol evidence replaces pooled contrast for admission. Gorissen synthesis is not independent replication."
+      },
+      "biologicalRelationship": {
+        "moa": {
+          "status": "qualified interpretation",
+          "description": "Protein digestion and splanchnic handling influence systemic amino-acid appearance; this source comparison does not isolate one causal mediator."
+        },
+        "measuredEffect": "Higher peak dietary phenylalanine appearance with whey; six-hour circulating fraction 58\u00b11% versus 53\u00b11% (SEM).",
+        "pmRelevance": "Directly concerns PM1 meal-level amino-acid provision; no brain-specific effect asserted."
+      },
+      "existingRecordCheck": "Gorissen already supports PM1-F1. Current SOPs are minced beef and boiled eggs, with separate SEC pins; neither is this source comparison.",
+      "pmFile": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+      "mission": "Ensure meal-level protein supply delivers the amino-acid foundation neurotransmitter pathways depend on.",
+      "existingSops": [
+        {
+          "atomId": "PM1-SOP-DEFERRED-1",
+          "input": "Minced rather than intact beef in the tested older-adult meal",
+          "secAssessmentRef": {
+            "id": "pm1-pm1-sop-deferred-1-assessment",
+            "version": 1,
+            "sha256": "045c76a09f9f97c003c48a6de2435579643a41c98c037a200efa80aaead97f23"
+          }
+        },
+        {
+          "atomId": "PM1-SOP-COOKED-EGG-1",
+          "input": "Boiled rather than raw eggs in the tested postexercise meal",
+          "secAssessmentRef": {
+            "id": "pm1-pm1-sop-cooked-egg-1-assessment",
+            "version": 1,
+            "sha256": "c0aaf3a3d6d65e6580b3d06fe152b9b402760fe7e0a07a8f26a9baf3034f0f32"
+          }
+        }
+      ]
+    },
+    {
+      "reviewId": "bruno-2006",
+      "intervention": "Vitamin C supplementation and vitamin E retention",
+      "pmId": "BRS3-FM2-PM6",
+      "sources": [
+        {
+          "doi": "10.1016/j.freeradbiomed.2005.10.051",
+          "url": "https://doi.org/10.1016/j.freeradbiomed.2005.10.051"
+        }
+      ],
+      "eligibility": "Eligible",
+      "proposition": "Two weeks of vitamin C attenuated plasma labelled alpha- and gamma-tocopherol fractional disappearance in smokers, without an observed reduction in plasma F2-isoprostanes.",
+      "studyContext": "Randomised double-blind crossover: 11 smokers and 13 nonsmokers; 500 mg ascorbate twice daily for 17 days on a low-ascorbate diet, tracer challenge on day 14, three-month washout. Labelled tocopherol kinetics fitted over 24\u201372 hours; repeated-measures ANOVA and Bonferroni comparisons.",
+      "admissionRecommendation": "Admit",
+      "admissionRationale": "Relevant retention endpoint and established chemical recycling relationship, but original bias protections, kinetic uncertainty and published critique remain incompletely appraised. Not a demonstrated recycling-flux or general antioxidant-benefit protocol.",
+      "mainLimitation": "Smoker-specific plasma retention under a low-ascorbate diet, not demonstrated recycling flux or clinical protection.",
+      "implementationStatus": "Implemented locally with independent immutable SEC and six-atom presentation; not committed or published",
+      "interventionAdmitted": "Yes",
+      "inheritedFindingScore": false,
+      "assessmentGaps": [
+        {
+          "id": "batch2-bruno-b",
+          "pmId": "BRS3-FM2-PM6",
+          "reviewId": "bruno-2006",
+          "source": "10.1016/j.freeradbiomed.2005.10.051",
+          "dimension": "B",
+          "reason": "Pending: abstract design labels do not verify allocation, washout, carryover, missingness or analysis protections.",
+          "attempted": [
+            "Scite metadata found; read_fulltext returned no readable text and contentDenied=true.",
+            "PubMed 16458200 abstract and linked-comment metadata inspected.",
+            "Publisher full-text request returned HTTP403. Targeted full-text search did not recover verified primary methods."
+          ],
+          "resolutionAction": "Retrieve primary methods and the linked commentary/author reply; verify randomisation, washout, carryover, missingness and endpoint analysis.",
+          "status": "resolved",
+          "history": [
+            {
+              "date": "2026-11-05",
+              "action": "Opened in review record; no canonical issue created."
+            },
+            {
+              "date": "2026-11-05",
+              "action": "Resolved through primary full text and surrogate-endpoint commentary; no canonical historical score overwritten."
+            }
+          ],
+          "resolution": "Primary methods and kinetic uncertainty recovered; conservative B1/P1. Surrogate limitation retained."
+        },
+        {
+          "id": "batch2-bruno-p",
+          "pmId": "BRS3-FM2-PM6",
+          "reviewId": "bruno-2006",
+          "source": "10.1016/j.freeradbiomed.2005.10.051",
+          "dimension": "P",
+          "reason": "Pending: percentage changes and P-values do not establish the kinetic-fit uncertainty without tables/methods.",
+          "attempted": [
+            "Scite metadata found; read_fulltext returned no readable text and contentDenied=true.",
+            "PubMed 16458200 abstract and linked-comment metadata inspected.",
+            "Publisher full-text request returned HTTP403. Targeted full-text search did not recover verified primary methods."
+          ],
+          "resolutionAction": "Retrieve kinetic model, individual/summary uncertainty and tables for the disappearance estimates; establish exact estimand precision.",
+          "status": "resolved",
+          "history": [
+            {
+              "date": "2026-11-05",
+              "action": "Opened in review record; no canonical issue created."
+            },
+            {
+              "date": "2026-11-05",
+              "action": "Resolved through primary full text and surrogate-endpoint commentary; no canonical historical score overwritten."
+            }
+          ],
+          "resolution": "Primary methods and kinetic uncertainty recovered; conservative B1/P1. Surrogate limitation retained."
+        }
+      ],
+      "limitations": [
+        {
+          "type": "null-outcome",
+          "text": "No significant change in nonsmoker disappearance, tocopherol maximal concentration/time-to-maximum, or F2-isoprostanes in either group."
+        },
+        {
+          "type": "population",
+          "text": "Small smoker-specific response; no general population supplementation rule."
+        },
+        {
+          "type": "inference",
+          "text": "Retention cannot establish reduced oxidative injury or clinical benefit."
+        },
+        {
+          "type": "protocol",
+          "text": "Low-ascorbate diet and 17-day supplementation with day-14 tracer challenge; not a recommendation to restrict vitamin C or to offset smoking harms."
+        }
+      ],
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "totals": {
+        "raw": 4,
+        "adjusted": 4,
+        "ceiling": 8,
+        "ordinal": true
+      },
+      "assessmentStatus": "Independent provisional intervention appraisal",
+      "rationale": {
+        "D": "Labelled disappearance directly measures this retention proposition, not radical-recycling flux.",
+        "B": "Blinded crossover, three-month washout and lipid-standardisation sensitivity documented; allocation concealment and formal carryover verification not established.",
+        "P": "Reported kinetic variability and direction: smoker alpha half-life 25\u00b16 to34\u00b17 h, gamma10\u00b13 to16\u00b14 h (SD). Small sample and no clinically meaningful threshold; conservative partial precision.",
+        "R": "One intervention dataset; chemical evidence and linked commentary are not replications."
+      },
+      "sourceVerification": {
+        "level": "Author-uploaded primary full text, kinetic methods and results inspected",
+        "access": "https://www.researchgate.net/publication/7316446",
+        "commentary": "Hemila 2007, DOI10.1016/j.freeradbiomed.2006.11.035 read via Scite. Critique concerns surrogate-to-clinical inference; no clinical benefit or higher vitamin E intake recommendation admitted. Author reply not independently appraised."
+      },
+      "biologicalRelationship": {
+        "moa": {
+          "status": "proposed in this intervention",
+          "description": "Ascorbate reduction of tocopheroxyl radicals is established chemically, but the human experiment infers recycling from slower disappearance."
+        },
+        "measuredEffect": "Abstract reports 25% and 45% slower fractional disappearance in smokers; no corresponding effect in nonsmokers.",
+        "pmRelevance": "Antioxidant regeneration is PM6\u2019s operation; retention is a related endpoint, not direct regeneration flux."
+      },
+      "existingRecordCheck": "Vitamin C and vitamin E are already dietary inputs; PM6-F1 is chemical recycling evidence. No active SOP or intervention SEC pin for Bruno found.",
+      "pmFile": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx",
+      "mission": "Regenerate vitamin and thiol antioxidants across networked systems so endogenous defence capacity is sustained.",
+      "existingSops": []
+    },
+    {
+      "reviewId": "kang-2022",
+      "intervention": "Defined prebiotic blend and circulating indolepropionate",
+      "pmId": "BRS5-FM3-PM8",
+      "sources": [
+        {
+          "doi": "10.3389/fnut.2022.908534",
+          "url": "https://doi.org/10.3389/fnut.2022.908534"
+        }
+      ],
+      "eligibility": "Eligible",
+      "proposition": "The tested 12-g/day blend for four weeks increased the plasma indolepropionate metabolomic signal relative to its matched placebo in healthy low-fibre consumers.",
+      "studyContext": "24 randomised, 20 completed (10 men/10 women), ages 18\u201345, habitual fibre<15 g/day; double-blind crossover, four-week arms and four-week washout. Blend: FOS, resistant starch, sugarcane fibre, inulin, gum arabic, xanthan gum, apple/raspberry/blueberry powders. Placebo: rice flour, xanthan gum, grape/plum powders. UHPLC-MS metabolomics; treatment\u00d7time+subject models.",
+      "admissionRecommendation": "Defer",
+      "admissionRationale": "PM8 already owns microbial tryptophan processing, including indole routes. The signal is relevant, but exact ingredient proportions/material specification are not supplied in the inspected article, and the marginal secondary endpoint needs qualification. Do not substitute generic inulin, fibre or whole fruit.",
+      "mainLimitation": "Unadjusted secondary IPA result (P=0.04); formulation specificity and concentration-versus-flux boundary.",
+      "implementationStatus": "Review only; no canonical admission, assessment pin or presentation changed",
+      "interventionAdmitted": "Unset",
+      "inheritedFindingScore": false,
+      "assessmentGaps": [],
+      "limitations": [
+        {
+          "type": "null-outcome",
+          "text": "No significant change in TMAO (P=0.84), fecal SCFAs, overall microbial diversity, cardiometabolic profiles or bowel movement measures."
+        },
+        {
+          "type": "multiplicity",
+          "text": "IPA hypothesised in paper but secondary; Figure4 reports unadjusted P-values. Other exploratory taxa/pathway signals did not survive correction."
+        },
+        {
+          "type": "identity",
+          "text": "12 g is packet/blend mass, not a verified 12 g of pure fibre; constituent proportions not recovered."
+        },
+        {
+          "type": "endpoint",
+          "text": "Plasma IPA is not direct gut production flux, serotonin supply, brain uptake or health benefit."
+        },
+        {
+          "type": "population",
+          "text": "20 completers with low habitual fibre intake; four-week exposure."
+        }
+      ],
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "totals": {
+        "raw": 4,
+        "adjusted": 4,
+        "ceiling": 8,
+        "ordinal": true
+      },
+      "assessmentStatus": "Provisional review appraisal",
+      "rationale": {
+        "D": "Exact plasma IPA response to this formulation measured; D2 does not establish microbial production flux or central precursor delivery.",
+        "B": "Randomised blinded crossover with diet patterning and washout; four withdrawals, no explicit carryover robustness result located, and multiple secondary readouts.",
+        "P": "IPA P=0.04 unadjusted; small cohort, untargeted signal, no clinically interpretable absolute dose-response/CI established. Direction is reported but magnitude remains weakly constrained.",
+        "R": "One exact-formulation study. Separate bean-hull bread and broader diet studies in discovery are not replications of this formulation."
+      },
+      "sourceVerification": {
+        "level": "Full primary body inspected",
+        "access": "Scite fulltext, entire body through final figure captions",
+        "locations": [
+          "Study Design",
+          "Metabolomics",
+          "Statistical Analysis",
+          "Plasma Metabolites",
+          "Figure4 caption",
+          "Discussion"
+        ]
+      },
+      "biologicalRelationship": {
+        "moa": {
+          "status": "not isolated",
+          "description": "Substrate-driven changes in microbial tryptophan metabolism are plausible; producer-specific mediation and production rate were not demonstrated."
+        },
+        "measuredEffect": "Higher plasma IPA metabolomic signal, P=0.04 unadjusted.",
+        "pmRelevance": "Existing PM8-F1/F3 already cover fibre-dependent microbial tryptophan/indole processing; no mission expansion required."
+      },
+      "existingRecordCheck": "DISC-FIBRE-IPA is preliminary discovery only; no current PM8 SOP or intervention SEC pin. Existing apple-pectin Findings do not establish equivalence to this blend.",
+      "pmFile": "docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx",
+      "mission": "Maintain gut-side processing that shapes neurotransmitter precursor availability.",
+      "existingSops": [],
+      "resolution": "Defer with specific next action: obtain ingredient proportions and material specification from investigators/sponsor before a reproducible SOP can be admitted. Primary NCT03785860 record only describes a powder; no proportions. Follow-up Romo2025 DOI10.1016/j.nutres.2024.11.013 identified, but primary full text unavailable via Scite/PMC/BioC. Do not substitute generic fibre. Existing4/8 provisional appraisal unchanged."
+    },
+    {
+      "reviewId": "zhou-2019",
+      "intervention": "Glutamine for selected postinfectious IBS-D",
+      "pmId": "BRS5-FM1-PM1",
+      "sources": [
+        {
+          "doi": "10.1136/gutjnl-2017-315136",
+          "url": "https://doi.org/10.1136/gutjnl-2017-315136"
+        }
+      ],
+      "eligibility": "Eligible",
+      "proposition": "In adults with postinfectious IBS-D and elevated baseline urinary lactulose:mannitol ratio, glutamine 5 g three times daily for eight weeks reduced this permeability measure compared with the whey-protein control.",
+      "studyContext": "Two-centre double-blind randomised trial;115 randomised (59/56),106 completers (54/52). Central computer sequence, numbered containers, matched powders; whey protein 5 g three times/day control. Secondary permeability endpoint; primary endpoint IBS symptom-score reduction. Completer analysis.",
+      "admissionRecommendation": "Admit",
+      "admissionRationale": "Conditional Supplementation explicitly permits condition-specific supplementation; exact selected PI-IBS-D protocol admitted under current author instruction.",
+      "mainLimitation": "Selected hyperpermeable postinfectious IBS-D; secondary endpoint, completer analysis and whey comparator.",
+      "implementationStatus": "Implemented locally with independent immutable SEC and six-atom presentation; not committed or published",
+      "interventionAdmitted": "Yes",
+      "inheritedFindingScore": false,
+      "assessmentGaps": [],
+      "limitations": [
+        {
+          "type": "analysis",
+          "text": "106 completers from115 randomised; narrative withdrawal counts are internally inconsistent. Use flow/Results cohort sizes, not a claim of complete intention-to-treat."
+        },
+        {
+          "type": "comparator",
+          "text": "Whey protein is not biologically inert; authors note possible IBS sensitivity. No significant symptom exacerbation was observed in control."
+        },
+        {
+          "type": "endpoint",
+          "text": "Permeability was secondary; no direct junction-protein or mediator measurement."
+        },
+        {
+          "type": "population",
+          "text": "Not generalisable to IBS with normal permeability, other disease types, children, pregnancy/lactation or excluded renal/hepatic impairment."
+        },
+        {
+          "type": "null-outcome",
+          "text": "No significant control-arm permeability change; adverse-event rates similar and no serious adverse events reported. Long-term safety not established."
+        },
+        {
+          "type": "data-interpretation",
+          "text": "Earlier discovery shorthand0.05 versus0.11 conflated post-treatment with active-group baseline; post-treatment control was0.10, and Table3 is the actual between-group change comparison."
+        }
+      ],
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 2,
+        "R": 0
+      },
+      "totals": {
+        "raw": 5,
+        "adjusted": 5,
+        "ceiling": 8,
+        "ordinal": true
+      },
+      "assessmentStatus": "Independent provisional intervention appraisal",
+      "rationale": {
+        "D": "Urinary lactulose:mannitol is the exact assessed permeability endpoint and fits the PM\u2019s selective permeability operation. No tight-junction protein change asserted.",
+        "B": "Computer allocation, matching, masking and independent analysis documented; completer-only analysis, physiologically active whey comparator and inconsistent withdrawal prose prevent full bias credit.",
+        "P": "Table3 reports change -0.06\u00b10.03 versus -0.0004\u00b10.03 (means\u00b1SD;54/52), P<0.0001. Uncertainty resolves the prespecified-for-this-appraisal directional proposition (reduction vs no reduction); no clinical-importance threshold or generalisable effect size is inferred.",
+        "R": "One exact condition/protocol dataset; two recruitment sites are not independent replicated trials. Other disease/cell studies are mechanistic context, not exact replication."
+      },
+      "sourceVerification": {
+        "level": "Full primary body and tables inspected",
+        "access": "Scite fulltext Methods/Results/Discussion; PMC9549483 Tables2/3 checked separately because indexed text omitted table cells. BioC request returned429; HTML tables accessible.",
+        "bibliographicNote": "Online2018; journal issue2019. Same trial, not two studies."
+      },
+      "biologicalRelationship": {
+        "moa": {
+          "status": "not established by this trial",
+          "description": "Glutamine may support epithelial metabolism and junction maintenance; correlations with symptom changes do not prove causal mediation and junction proteins were not measured."
+        },
+        "measuredEffect": "L:M baseline0.11\u00b10.03 to0.05\u00b10.01 on glutamine; control0.11\u00b10.04 to0.10\u00b10.03. Between-group change test P<0.0001.",
+        "pmRelevance": "Selective gut permeability is directly within PM1 mission; no ADHD inference."
+      },
+      "existingRecordCheck": "PM1-F6 already includes this trial and glutamine has an accepted dietary atom. Current sole SOP is fat with provitamin-A vegetables. No glutamine protocol SEC pin found; do not inherit F6 score.",
+      "pmFile": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+      "mission": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "existingSops": [
+        {
+          "atomId": "PM1-SOP-1",
+          "input": "Include dietary fat with provitamin-A vegetables",
+          "secAssessmentRef": null
+        }
+      ]
+    },
+    {
+      "reviewId": "smolders-2019",
+      "intervention": "Egg-yolk phospholipid versus choline bitartrate",
+      "pmId": "BRS1-FM2-PM6",
+      "sources": [
+        {
+          "doi": "10.3390/nu11112758",
+          "url": "https://doi.org/10.3390/nu11112758"
+        }
+      ],
+      "eligibility": "Eligible",
+      "proposition": "In the tested acute crossover, an egg-yolk phospholipid drink providing3 g choline produced a greater six-hour plasma free-choline response than a choline-bitartrate drink supplying the same choline dose.",
+      "studyContext": "18 healthy adults(7 men,11 women;mean 62.3 years), randomised double-blind crossover, one-week washout;37 g freeze-dried ELIP egg phospholipids versus 9.3 g choline bitartrate, each equivalent 3 g choline. Shared juice,whey and maltodextrin base; lipid matrices differ. Samples 0\u2013360 min; UPLC-MS/MS; paired iAUC and mixed models.",
+      "admissionRecommendation": "Admit",
+      "admissionRationale": "Recommend only a bounded experimental choline-provision SOP through the already accepted PM6-DIT-2/PM6-F4 route. No whole-egg equivalence, routine3-g prescription or demonstrated acetylcholine effect. Do not also assign it to BRS2-PM7 as proof of phosphatidylcholine synthesis.",
+      "mainLimitation": "High-dose phospholipid concentrate; circulating choline, not neuronal uptake or acetylcholine.",
+      "implementationStatus": "Implemented locally with independent immutable SEC and six-atom presentation; not committed or published",
+      "interventionAdmitted": "Yes",
+      "inheritedFindingScore": false,
+      "assessmentGaps": [],
+      "limitations": [
+        {
+          "type": "dose",
+          "text": "Single3-g choline challenge, not ordinary egg consumption or a daily dose recommendation; lower-dose effect may differ."
+        },
+        {
+          "type": "null-outcome",
+          "text": "No plasma phospholipid-DHA response; no between-drink TAG-DHA difference after dose correction. Do not claim DHA superiority."
+        },
+        {
+          "type": "tolerability",
+          "text": "Faecal-consistency changes reported more often with phospholipid drink; not long-term tolerability evidence."
+        },
+        {
+          "type": "endpoint",
+          "text": "Plasma concentration/iAUC is not measured absorption fraction, brain choline, acetylcholine synthesis or cognition."
+        },
+        {
+          "type": "identity",
+          "text": "37 g isolated egg phospholipids in a defined drink, not37 g egg yolk; whole-food equivalence untested."
+        },
+        {
+          "type": "mechanism",
+          "text": "Specific causal mediator unresolved; omit a collapsed mechanism summary pending adequate identification."
+        }
+      ],
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "totals": {
+        "raw": 4,
+        "adjusted": 4,
+        "ceiling": 8,
+        "ordinal": true
+      },
+      "assessmentStatus": "Independent provisional intervention appraisal",
+      "rationale": {
+        "D": "Exact drink-to-plasma-choline proposition directly measured. PM relevance is separately bounded upstream substrate provision, not a scored acetylcholine response.",
+        "B": "Randomised blinded within-person comparison, standardised preceding meals and washout; small commercial-formulation study, different matrices and no independent validation of all allocation/prospective analysis protections.",
+        "P": "Fourfold six-hour choline iAUC response, P<0.01, with participant consistency and reported variability; small high-dose sample limits magnitude and lower-dose extrapolation.",
+        "R": "One exact formulation/dose comparison. Earlier lecithin/choline-chloride and lower-dose whole-egg studies cited by authors were not independently appraised as matching replications."
+      },
+      "sourceVerification": {
+        "level": "Full primary body inspected",
+        "access": "Scite fulltext through Methods, Results, Discussion and limitations",
+        "locations": [
+          "Intervention Drinks",
+          "Statistical Analysis",
+          "Choline, Betaine and Dimethylglycine Responses",
+          "Responses in Plasma DHA",
+          "Discussion"
+        ]
+      },
+      "biologicalRelationship": {
+        "moa": {
+          "status": "hypothesised mediation",
+          "description": "Phospholipid digestion and transport differ from free-choline salt handling. The authors could only speculate on why plasma response differed; saturation at the high dose remains possible."
+        },
+        "measuredEffect": "Approximately fourfold choline iAUC versus bitartrate; betaine and dimethylglycine responses also higher.",
+        "pmRelevance": "Existing PM6-F4 and dietary atom PM6-DIT-2 explicitly accept dietary phosphatidylcholine-to-circulating-choline provision. Contract allows connected proximal effects when kept separate from PM activity."
+      },
+      "existingRecordCheck": "Choline and phosphatidylcholine already admitted in PM6; no SOP entries. BRS2-FM3-PM7 duplicate discovery lead inspected: neither Kennedy nor PEMT synthesis was measured, so no additional assignment recommended.",
+      "pmFile": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
+      "mission": "Maintain the capacity to form acetylcholine so cholinergic signalling for attention, working memory, and learning stays supplied.",
+      "existingSops": []
+    },
+    {
+      "reviewId": "brickman-2014",
+      "intervention": "Cocoa flavanols",
+      "pmId": "BRS1-FM5-PM12",
+      "sources": [
+        {
+          "doi": "10.1038/nn.3850",
+          "url": "https://doi.org/10.1038/nn.3850"
+        }
+      ],
+      "eligibility": "Ineligible",
+      "proposition": "The three-month high-flavanol drink increased dentate-gyrus cerebral blood volume and improved the specified ModBent reaction-time endpoint; human synapse formation or structural remodelling was not measured.",
+      "studyContext": "Healthy sedentary adults 50\u201369;37 completed four-group flavanol\u00d7exercise experiment;900 versus 10 mg flavanols/day, with/without exercise. CBV-fMRI and cognitive task.",
+      "admissionRecommendation": "Reject",
+      "admissionRationale": "Reject this human vascular/cognitive result as a demonstrated synaptic-structural SOP for PM12. Preserve it as contextual evidence. Mouse spine work cited in the introduction is a separate study and cannot be silently substituted for the human endpoint.",
+      "mainLimitation": "Cerebral blood volume is not a human synaptic structural endpoint.",
+      "implementationStatus": "Review only; no canonical admission, assessment pin or presentation changed",
+      "interventionAdmitted": "Unset",
+      "inheritedFindingScore": false,
+      "assessmentGaps": [],
+      "limitations": [
+        {
+          "type": "null-outcome",
+          "text": "Delayed retention did not improve; exercise showed no significant cognitive or VO2max effect in this trial."
+        },
+        {
+          "type": "model",
+          "text": "Cited mouse dendritic-spine study is separate evidence, not a measured structural result in these humans."
+        },
+        {
+          "type": "scope",
+          "text": "Reject concerns receiving-PM intervention claim, not the validity of the measured vascular/cognitive observations."
+        }
+      ],
+      "factors": null,
+      "totals": null,
+      "assessmentStatus": "Not appraised \u2014 eligibility gate",
+      "sourceVerification": {
+        "level": "Targeted primary-text eligibility verification, not full SEC appraisal",
+        "access": "Scite Introduction and Results, including High flavanol intake improves DG function."
+      },
+      "existingRecordCheck": "No cocoa SOP in current PM12. Existing DHA\u2013UMP, spermidine, active-period feeding and magnesium protocols are distinct. No alternate PM invented.",
+      "biologicalRelationship": {
+        "moa": {
+          "status": "indirect hypothesis",
+          "description": "The human study motivates a structural inference from prior separate animal observations; CBV/cognition cannot identify synaptic remodelling."
+        },
+        "measuredEffect": "DG CBV increased; ModBent reaction time differed by630 ms; no delayed-retention benefit.",
+        "pmRelevance": "PM12 owns physical synapse formation/stabilisation/remodelling, not a generic cerebral vascular or memory endpoint."
+      },
+      "pmFile": "docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx",
+      "mission": "Maintain and adapt physical connections between neurons through synapse formation, selective stabilisation, structural remodelling and elimination.",
+      "existingSops": [
+        {
+          "atomId": "PM12-SOP-1",
+          "input": "Experimental DHA\u2013UMP co-supplementation",
+          "secAssessmentRef": null
+        },
+        {
+          "atomId": "PM12-SOP-2",
+          "input": "Experimental spermidine supplementation in ageing",
+          "secAssessmentRef": null
+        },
+        {
+          "atomId": "PM12-SOP-3",
+          "input": "Active-period feeding under obesogenic exposure (experimental)",
+          "secAssessmentRef": null
+        },
+        {
+          "atomId": "PM12-SOP-DEFERRED-1",
+          "input": "Experimental magnesium-L-threonate exposure",
+          "secAssessmentRef": null
+        }
+      ],
+      "resolution": "Reject for BRS1-FM5-PM12 retained: human CBV is not a measured synaptic structural endpoint. No alternate PM created."
+    },
+    {
+      "reviewId": "harris-2007",
+      "intervention": "Tested fish-meal versus fish-oil capsule regimens over 16 weeks",
+      "pmId": "BRS1-FM3-PM7",
+      "sources": [
+        {
+          "doi": "10.1093/ajcn/86.5.1621",
+          "url": "https://doi.org/10.1093/ajcn/86.5.1621"
+        }
+      ],
+      "eligibility": "Eligible",
+      "proposition": "In the tested 16-week regimens in premenopausal women, red-cell DHA increased with fish meals and fish-oil capsules; no between-regimen difference was detected.",
+      "studyContext": "23 women (fish11, capsules12), randomised; every fortnight three171 g cans albacore tuna and one171 g farmed Atlantic salmon portion versus17 capsules, averaging about485 mg EPA+DHA/day. Gas chromatography measured red-cell fatty-acid proportions. No untreated control.",
+      "admissionRecommendation": "Admit",
+      "admissionRationale": "Existing contract permits a bounded connected provision practice, without requiring source superiority. Defined food schedule adds a reproducible food route alongside the existing older-adult supplement protocol; no neuronal incorporation or equivalence claim.",
+      "mainLimitation": "Peripheral biomarker; no equivalence test or neuronal delivery measurement.",
+      "implementationStatus": "Implemented locally with independent immutable SEC and six-atom presentation; not committed or published",
+      "interventionAdmitted": "Yes",
+      "inheritedFindingScore": false,
+      "assessmentGaps": [],
+      "limitations": [
+        {
+          "type": "endpoint",
+          "text": "Red-cell DHA is peripheral exposure, not neuronal incorporation, cognition or clinical benefit."
+        },
+        {
+          "type": "null-outcome",
+          "text": "No detected DHA group difference; nonsignificance is not equivalence. Post-hoc power could not detect RBC EPA+DHA differences below1.5 percentage points."
+        },
+        {
+          "type": "design",
+          "text": "Small unblinded active-comparator study without untreated control; fish adherence self-reported and groups differed in age."
+        },
+        {
+          "type": "identity",
+          "text": "Specified albacore tuna, farmed Atlantic salmon and tested DHA-rich capsules; not arbitrary fish/capsule interchangeability."
+        },
+        {
+          "type": "other-outcomes",
+          "text": "More fishy aftertaste with capsules; lipid changes do not establish cardiovascular benefit."
+        }
+      ],
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "totals": {
+        "raw": 4,
+        "adjusted": 4,
+        "ceiling": 8,
+        "ordinal": true
+      },
+      "assessmentStatus": "Independent provisional intervention appraisal",
+      "sourceVerification": {
+        "level": "Complete primary PDF, Methods, Tables1/2 and Discussion inspected",
+        "access": "https://assets.speakcdn.com/Assets/2606/0e2031631_228fullpaper2007ajcncomparisonoffishandfishoil.pdf"
+      },
+      "existingRecordCheck": "PM7 already admits DHA and has PM7-SOP-DHA-1 for a defined older-adult low-intake protocol with different evidence. Fish/capsules is not already that protocol and must not duplicate it under a new label.",
+      "biologicalRelationship": {
+        "moa": {
+          "status": "provision relationship; neuronal mediation untested",
+          "description": "Ingested fatty acids can enter circulating lipid and blood-cell membrane pools; comparative transport into neurons was not measured."
+        },
+        "measuredEffect": "Red-cell DHA increased from3.22 to4.83% with fish and3.34 to4.86% with capsules; no detected between-regimen DHA difference.",
+        "pmRelevance": "Bounded upstream DHA provision through an already admitted input, distinct from demonstrated neuronal incorporation."
+      },
+      "pmFile": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+      "mission": "Deliver and integrate DHA into neuronal membranes so the brain maintains a flexible, signal-ready lipid foundation.",
+      "existingSops": [
+        {
+          "atomId": "PM7-SOP-DHA-1",
+          "input": "Defined DHA supplementation in older adults with low baseline DHA intake",
+          "secAssessmentRef": null
+        }
+      ],
+      "rationale": {
+        "D": "Red-cell DHA was separately measured; score applies only to peripheral provision.",
+        "B": "Randomised active-source comparison and serial assays; unblinded, self-reported fish adherence, age imbalance and no untreated arm.",
+        "P": "RBC DHA fish3.22\u00b10.58 to4.83\u00b11.16%; capsules3.34\u00b10.79 to4.86\u00b11.10% (SD). Small groups; insufficient power for equivalence.",
+        "R": "One exact comparative protocol; older-adult CNS trials are different propositions."
+      }
+    }
+  ]
+}

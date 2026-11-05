@@ -6,14 +6,14 @@ export const SEC_STATUSES = Object.freeze({
   'codex-provisional':'Provisionally assessed', 'scientifically-reviewed':'Scientifically reviewed',
 });
 const factors=['D','B','P','R'];
-export const SEC_INTEGRATION_PM_IDS=Object.freeze(['BRS1-FM4-PM9','BRS6-FM1-PM2','BRS2-FM1-PM3','BRS1-FM1-PM1','BRS1-FM1-PM2','BRS4-FM2-PM4','BRS4-FM2-PM5','BRS6-FM4-PM8','BRS5-FM2-PM4']);
+export const SEC_INTEGRATION_PM_IDS=Object.freeze(['BRS1-FM4-PM9','BRS6-FM1-PM2','BRS2-FM1-PM3','BRS1-FM1-PM1','BRS1-FM1-PM2','BRS4-FM2-PM4','BRS4-FM2-PM5','BRS6-FM4-PM8','BRS5-FM2-PM4','BRS4-FM1-PM10']);
 const text=v=>typeof v==='string' && v.trim().length>0;
 const value=v=>Number.isInteger(v) && v>=0 && v<=2;
 const version=v=>Number.isSafeInteger(v) && v>0;
 const date=v=>typeof v==='string' && /^\d{4}-\d{2}-\d{2}$/.test(v) && !Number.isNaN(Date.parse(v)) && new Date(v).toISOString().slice(0,10)===v;
 const owner=r=>r?.pmId+'\0'+(r?.interventionId ? 'intervention:'+r.interventionId : 'finding:'+r?.findingId);
 const identity=r=>owner(r)+'\0'+r?.recordVersion;
-export const SEC_INTERVENTION_PM_IDS=Object.freeze(['BRS1-FM1-PM3']);
+export const SEC_INTERVENTION_PM_IDS=Object.freeze(["BRS1-FM1-PM3","BRS1-FM1-PM1","BRS3-FM3-PM7","BRS5-FM2-PM5","BRS6-FM1-PM3","BRS1-FM2-PM6","BRS5-FM1-PM1","BRS3-FM2-PM6","BRS1-FM3-PM7","BRS-X(ECS-PM2)","BRS3-FM2-PM5","BRS6-FM3-PM6","BRS-X(Circadian-FM1-PM1)","BRS4-FM4-PM9"]);
 
 // Stable content identity. Arrays retain order; no prose/identity normalisation.
 export function secCanonicalJson(input) {
@@ -42,7 +42,7 @@ export function secRecordErrors(r) {
   const add=(code,message)=>errors.push({code,message});
   if(!r || typeof r!=='object' || Array.isArray(r)) return [{code:'sec_record',message:'Assessment must be an object'}];
   if(!text(r.id) || !/^[a-z0-9][a-z0-9-]*$/.test(r.id) || !version(r.recordVersion)) add('sec_identity','Stable assessment ID and positive integer record version required');
-  const pm=/^BRS\d+-FM\d+-(PM\d+)$/.exec(r.pmId || '');
+  const pm=/^BRS\d+-FM\d+-(PM\d+)$/.exec(r.pmId || '') || /^BRS-X\([A-Za-z][A-Za-z0-9]*(?:-FM\d+)?-(PM\d+)\)$/.exec(r.pmId || '');
   const intervention=Object.hasOwn(r,'interventionId');
   if(intervention) {
     if(Object.hasOwn(r,'findingId') || !pm || !new RegExp('^'+pm[1]+'-(SOP|LP)-[A-Z0-9-]+$').test(r.interventionId || ''))add('sec_identity','Intervention assessment requires exclusive, matching intervention ownership');

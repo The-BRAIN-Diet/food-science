@@ -11,7 +11,7 @@ const require=createRequire(import.meta.url),React=require('react'),{renderToSta
 const index=createDietaryPathwayIndex(process.cwd());
 
 test('complete canonical inventory, no phantom admission, exact source PMs',()=>{
- assert.equal(index.inventory.length,64);assert.equal(new Set(index.inventory.map(r=>r.pm)).size,64);
+ assert.equal(index.inventory.length,65);assert.equal(new Set(index.inventory.map(r=>r.pm)).size,65);
  assert.equal(index.errors.length,0);
  assert.ok(index.paths.some(p=>p.pm==='BRS5-FM2-PM5'&&p.substance_id==='resistant-starch'&&p.target_id==='butyrate'));
  assert.ok(!index.paths.some(p=>p.pm==='BRS5-FM1-PM1'));

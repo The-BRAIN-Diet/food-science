@@ -747,3 +747,31 @@ Existing Finding assessments and all historical snapshots remain immutable. This
 ### BRS2 PM1 presentation correction — 3 November 2026
 
 Use the existing `brs-fm-hub-*` disclosure markup for SOP category groups, matching §1.1; do not wrap interventions in generic MDX `<details>` cards with theme-coloured backgrounds. Individual rows retain `brs-dietary-lever-trigger` styling. A mechanism summary may describe established nutrient provision without asserting unmeasured intracellular conversion or mediation. Preserve those qualifications in Atom 3. The steaming example remains unresolved: do not invent a leaching mechanism from folate-retention measurements alone.
+
+## PM1 controlled reference completion — 3 November 2026
+
+Owner instruction: resolve PM1 issues starting with F3, complete SEC appraisal, apply PM8 tabs and approved six-atom presentation; no commit or push. Scope is BRS1-FM1-PM1, not framework-wide refactoring or certification of a finished Gold Standard.
+
+Separate established reaction identity from an empirical physiological-supply proposition. In PM1, SP1 retains PAH reaction identity; F3 retains human conversion/circulating-supply evidence and requires its own assessment. A Principle does not exempt an overlapping physiological Finding from SEC. Preserve stable IDs and historical assessments. Document exact source access; an abstract or a review describing primary studies is not full-text primary appraisal. Use existing Assessment gap/unassessable rules when retrieval cannot resolve required dimensions; do not invent values to complete coverage.
+
+
+## PM1 Section 4 assessment-family grouping — approved 4 November 2026
+
+Author-approved PM1-only pilot: keep the Section 4 summary visible; group Scientific Findings first, SOP assessments second, and Lifestyle Lever assessments only when present. Each family starts collapsed and uses existing `brs-fm-hub` dropdown CSS and keyboard behaviour. Individual Findings/assessments retain their own disclosures; stable deep links must open all enclosing groups. Scores, assessment ownership, six atoms and admissions are unchanged. Do not display empty Lifestyle assessment groups.
+
+Stage 2A preserves separate scientific and intervention propositions; grouping never implies inherited scores. Stage 2B renders the approved family order and preserves the `section4-findings:end` generated boundary so regeneration cannot discard following SOP assessments. `section4_assessment_groups: true` is enabled only on PM1 in this pilot; do not activate other PMs without rollout authorisation. This presentation approval is not scientific reassessment.
+
+### Reference presentation correction — 4 November 2026
+Stage 2A source-access tracking is not an additional PM reader-facing section. Follow `system/brs-citation-reference-standard.md`: no PM-local source audit annex or historical reference narrative. Preserve scientific evidence and SEC history; publish concise numbered references linked to verified master bibliography entries. Do not copy retrieval logs into the References section or another public tab.
+
+
+### Scientific Lesson placement — owner clarification, 4 November 2026
+Scientific Lessons remain permitted. Use the approved GAD lesson disclosure (`scientific-lesson brs-fm-hub-item`, book icon, kicker and concise title) beneath the relevant Scientific Finding within Section 4. Preserve the authored `scientific-lesson:<Finding ID>:start/end` island during regeneration. Do not append a standalone Scientific Lesson after References. Lessons explain existing evidence boundaries; they are not new Findings or independently scored claims. PM1's circulating-versus-brain-delivery lesson is placed beneath F1, with links to the other relevant Findings; avoid stale hard-coded display numbers. This change authorises PM1 placement, not a wider lesson rollout.
+
+
+**PM1 placement correction — 4 November 2026:** The owner subsequently requested its lesson above and separate from the Scientific Findings. Place the existing GAD-styled lesson disclosure before §4.1, outside the Findings parent and generated Findings block. Preserve its stable anchor and supporting Finding links. This supersedes the immediately preceding PM1-beneath-F1 placement instruction; it does not move other PM lessons.
+
+
+### Authoritative Scientific Lesson placement — 4 November 2026
+
+This supersedes earlier lesson-placement amendments above. Place each existing Scientific Lesson **at the end of the Section 4 Summary**, immediately after its summary prose and before mechanistic-detail or Scientific Findings disclosures. Lessons are separate sibling dropdowns, never children of the Scientific Findings parent or an individual Finding, and never appended after References. Reuse the GAD lesson CSS, book icon, concise title and initially collapsed behaviour. Preserve lesson identity, content and supporting Finding links; do not assign a new score or create a Finding. Keep the lesson outside the generated §4.1 block so regeneration cannot move or erase it. This instruction applies to existing lessons; do not invent lessons to populate every PM. Checked canonical PMs: PM1 and GAD/PM9 contain actual lesson disclosures; other authored-lesson markers alone are not lessons.

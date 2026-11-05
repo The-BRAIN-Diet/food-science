@@ -1,0 +1,145 @@
+ M AGENTS.md
+ M CURRENT-HANDOFF.md
+ M PROJECT-CONTEXT.md
+ M docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx
+ M docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx
+ M docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx
+ M docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx
+ M docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx
+ M docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx
+ M docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx
+ M docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx
+ M docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx
+ M docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx
+ M docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics.mdx
+ M docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx
+ M docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx
+ M docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx
+ M docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx
+ M docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx
+ M docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx
+ M docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx
+ M docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx
+ M docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx
+ M docs/foods/amaranth.md
+ M docs/foods/extra-virgin-olive-oil.md
+ M docs/foods/spinach.md
+ M docs/substances/bioactive-compounds/lipid-based/coq10.md
+ M docs/tags.yml
+ M registry/substances.json
+ M review/sequential-pm-interventions-2026-11-02/Section-6-Intervention-Evidence-Register.md
+ M review/sequential-pm-interventions-2026-11-02/manifest.json
+ M review/sequential-pm-interventions-2026-11-02/pms/BRS1-FM1-PM1.md
+ M scripts/dietary-pathway-activation.test.mjs
+ M scripts/lib/pm-reference-index.mjs
+ M scripts/lib/scientific-findings.mjs
+ M scripts/lib/substance-page-validation.mjs
+ M scripts/sec-canonical-integration.test.mjs
+ M scripts/substance-page-schema.test.mjs
+ M scripts/sync-pm-scientific-findings.mjs
+ M src/components/SecCalibrationPreview/EvidenceAudit.tsx
+ M src/data/functionalProperties.ts
+ M src/lib/secAssessments.mjs
+ M static/bibtex/BRAIN-diet.bib
+ M system/brs-citation-reference-standard.md
+ M system/dietary-input-traceability-contract.md
+ M system/generated/brs4-input-substance-food/dietary-input-decisions.json
+ M system/generated/brs4-input-substance-food/food-to-inputs.md
+ M system/generated/brs4-input-substance-food/gaps.generated.json
+ M system/generated/brs4-input-substance-food/inventory.md
+ M system/generated/brs4-input-substance-food/substance-index.md
+ M system/generated/dietary-food-targets/cursor-repair-queue.json
+ M system/generated/dietary-food-targets/cursor-repair-summary.md
+ M system/generated/dietary-food-targets/manuscript-rollup-brs1.json
+ M system/generated/dietary-food-targets/manuscript-rollup-brs4.json
+ M system/generated/dietary-food-targets/material-equivalence-reviews.json
+ M system/generated/dietary-pathways/pathways.generated.json
+ M system/pm-evidence-tabs-contract.md
+ M system/presentation-change-approvals.json
+ M system/primary-mechanism-schema.md
+ M system/scientific-finding-schema.md
+ M system/sec-assessments/README.md
+ M system/sec-assessments/registry.json
+ M system/sop-lifestyle-six-atom-presentation.md
+ M system/templates/primary-mechanism-template.mdx
+?? docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx
+?? docs/substances/bioactive-compounds/oxalate.md
+?? docs/substances/bioactive-compounds/phytate.md
+?? project-knowledge/DECISIONS.md
+?? project-knowledge/PROJECT-CONTEXT.md
+?? project-knowledge/START-HERE.md
+?? project-knowledge/handoffs/INDEX.md
+?? project-knowledge/handoffs/coq-pm-2026-11-05.md
+?? project-knowledge/handoffs/priority-sops-2026-11-05.md
+?? review/INDEX.md
+?? review/brs6-pm3-sop-sec-2026-11-05/assessments.json
+?? review/brs6-pm3-sop-sec-2026-11-05/before.json
+?? review/brs6-pm3-sop-sec-2026-11-05/report.md
+?? review/coq-pm-2026-11-05/coq10-before.md
+?? review/coq-pm-2026-11-05/exercise-candidate.json
+?? review/coq-pm-2026-11-05/pm10-six-atoms.png
+?? review/coq-pm-2026-11-05/preservation.json
+?? review/coq-pm-2026-11-05/report.md
+?? review/coq-pm-2026-11-05/sec-before.json
+?? review/coq-pm-2026-11-05/stage2-decisions.json
+?? review/coq-pm-2026-11-05/validation.json
+?? review/phytate-oxalate-2026-11-05/preservation.json
+?? review/phytate-oxalate-2026-11-05/report.md
+?? review/pm-reference-cleanup-2026-11-04/citation-metadata.json
+?? review/pm-reference-cleanup-2026-11-04/inventory.json
+?? review/pm-reference-cleanup-2026-11-04/pm1-references.png
+?? review/pm-reference-cleanup-2026-11-04/report.md
+?? review/pm1-reference-completion-2026-11-03/appraisals.json
+?? review/pm1-reference-completion-2026-11-03/assessment-groups-2026-11-04.md
+?? review/pm1-reference-completion-2026-11-03/assessment-groups-collapsed.png
+?? review/pm1-reference-completion-2026-11-03/before.mdx
+?? review/pm1-reference-completion-2026-11-03/implementation-report.md
+?? review/pm1-reference-completion-2026-11-03/interventions.json
+?? review/pm1-reference-completion-2026-11-03/lesson-placement-inventory.json
+?? review/pm1-reference-completion-2026-11-03/lesson-placement.md
+?? review/pm1-reference-completion-2026-11-03/lesson-visible.png
+?? review/pm1-reference-completion-2026-11-03/pm1-six-atoms.png
+?? review/pm1-reference-completion-2026-11-03/presentation-proposal.md
+?? review/pm1-reference-completion-2026-11-03/review.md
+?? review/pm1-reference-completion-2026-11-03/sec-after.json
+?? review/pm1-reference-completion-2026-11-03/sec-before.json
+?? review/priority-intervention-appraisal-2026-11-04/admission-boundaries.md
+?? review/priority-intervention-appraisal-2026-11-04/appraisals.json
+?? review/priority-intervention-appraisal-2026-11-04/integration-before.json
+?? review/priority-intervention-appraisal-2026-11-04/integration-report.md
+?? review/priority-intervention-appraisal-2026-11-04/integration.json
+?? review/priority-intervention-appraisal-2026-11-04/preservation-baseline.json
+?? review/priority-intervention-appraisal-2026-11-04/report.md
+?? review/priority-intervention-appraisal-2026-11-04/validation.json
+?? review/priority-intervention-appraisal-2026-11-04/wastyk-six-atoms.png
+?? review/priority-intervention-appraisal-batch2-2026-11-05/appraisals.json
+?? review/priority-intervention-appraisal-batch2-2026-11-05/browser-validation.json
+?? review/priority-intervention-appraisal-batch2-2026-11-05/integration-before.json
+?? review/priority-intervention-appraisal-batch2-2026-11-05/integration-report.md
+?? review/priority-intervention-appraisal-batch2-2026-11-05/integration-validation.json
+?? review/priority-intervention-appraisal-batch2-2026-11-05/integration.json
+?? review/priority-intervention-appraisal-batch2-2026-11-05/report.md
+?? review/priority-intervention-appraisal-batch2-2026-11-05/resolution.json
+?? review/priority-intervention-appraisal-batch2-2026-11-05/validation.json
+?? review/priority-intervention-appraisal-batch3-2026-11-05/appraisals.json
+?? review/priority-intervention-appraisal-batch3-2026-11-05/integration-before.json
+?? review/priority-intervention-appraisal-batch3-2026-11-05/integration-report.md
+?? review/priority-intervention-appraisal-batch3-2026-11-05/integration-validation.json
+?? review/priority-intervention-appraisal-batch3-2026-11-05/integration.json
+?? review/priority-intervention-appraisal-batch3-2026-11-05/preservation-baseline.json
+?? review/priority-intervention-appraisal-batch3-2026-11-05/report.md
+?? review/priority-intervention-appraisal-batch3-2026-11-05/validation.json
+?? review/training-foundations-2026-11-03/from-food-to-brain-following-a-nutrient.md
+?? review/training-foundations-2026-11-03/review-notes.md
+?? review/training-foundations-2026-11-03/what-can-we-really-prove-about-nutrition-and-the-brain.md
+?? review/training-foundations-2026-11-03/why-one-nutrient-can-influence-several-biological-systems.md
+?? scripts/batch2-integration.test.mjs
+?? scripts/batch3-integration.test.mjs
+?? scripts/brs6-pm3-sop-sec.test.mjs
+?? scripts/coq-pm.test.mjs
+?? scripts/pm-reference-cleanup.test.mjs
+?? scripts/pm1-reference-completion.test.mjs
+?? scripts/priority-sop-integration.test.mjs
+?? static/img/inchi/IMQLKJBTEOYOSI-UHFFFAOYSA-N.png
+?? static/img/inchi/MUBZPKHOEPUJKR-UHFFFAOYSA-L.png
+?? system/INDEX.md

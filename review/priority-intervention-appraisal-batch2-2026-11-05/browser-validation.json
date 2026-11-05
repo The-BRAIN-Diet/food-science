@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-05",
+  "environment": "Existing localhost server 127.0.0.1:3145; IAB DOM interaction",
+  "status": "Five intervention disclosures and independent SEC targets verified",
+  "records": [
+    {
+      "pm": "BRS1-FM2-PM6",
+      "intervention": "PM6-SOP-EGG-PHOSPHOLIPID-1",
+      "url": "http://127.0.0.1:3145/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support/",
+      "six_atoms": "Expanded in browser; independent MoA/measured effect/PM relevance, source context and typed limitations present",
+      "sec": "Section4 link opens intervention-owned provisional assessment, not Finding score",
+      "references": "Canonical source key visible in assessment and reference register",
+      "result": "Pass"
+    },
+    {
+      "pm": "BRS5-FM1-PM1",
+      "intervention": "PM1-SOP-GLUTAMINE-1",
+      "url": "http://127.0.0.1:3145/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity/",
+      "six_atoms": "Expanded in browser; independent MoA/measured effect/PM relevance, source context and typed limitations present",
+      "sec": "Section4 link opens intervention-owned provisional assessment, not Finding score",
+      "references": "Canonical source key visible in assessment and reference register",
+      "result": "Pass"
+    },
+    {
+      "pm": "BRS1-FM1-PM1",
+      "intervention": "PM1-SOP-WHEY-CASEIN-1",
+      "url": "http://127.0.0.1:3145/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation/",
+      "six_atoms": "Expanded in browser; independent MoA/measured effect/PM relevance, source context and typed limitations present",
+      "sec": "Section4 link opens intervention-owned provisional assessment, not Finding score",
+      "references": "Canonical source key visible in assessment and reference register",
+      "result": "Pass"
+    },
+    {
+      "pm": "BRS3-FM2-PM6",
+      "intervention": "PM6-SOP-VITAMIN-C-RETENTION-1",
+      "url": "http://127.0.0.1:3145/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling/",
+      "six_atoms": "Expanded in browser; independent MoA/measured effect/PM relevance, source context and typed limitations present",
+      "sec": "Section4 link opens intervention-owned provisional assessment, not Finding score",
+      "references": "Canonical source key visible in assessment and reference register",
+      "result": "Pass"
+    },
+    {
+      "pm": "BRS1-FM3-PM7",
+      "intervention": "PM7-SOP-FISH-CAPSULES-1",
+      "url": "http://127.0.0.1:3145/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation/",
+      "six_atoms": "Expanded in browser; independent MoA/measured effect/PM relevance, source context and typed limitations present",
+      "sec": "Section4 link opens intervention-owned provisional assessment, not Finding score",
+      "references": "Canonical source key visible in assessment and reference register",
+      "result": "Pass"
+    }
+  ],
+  "corrections": [
+    "Glutamine expanded context now states active 5 g three times daily for eight weeks.",
+    "Removed obsolete no-SOP sentence from antioxidant recycling.",
+    "PM1 Section4 SOP parent count corrected from2 to3."
+  ],
+  "scores_and_admissions_changed": false,
+  "validation": {
+    "focused_tests": "9/9 pass",
+    "presentation": "691 protected files pass; existing structural fingerprints unchanged",
+    "sec": "134 snapshots valid; no edits"
+  }
+}

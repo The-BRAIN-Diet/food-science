@@ -128,6 +128,13 @@
           "whey versus casein plasma amino-acid appearance"
         ],
         "stopping_rationale": "The appearance operation was measured. A further preparation search was not required to record this candidate."
+      },
+      "priority_batch2_browser_validation": {
+        "date": "2026-11-05",
+        "status": "Pass",
+        "intervention": "PM1-SOP-WHEY-CASEIN-1",
+        "record": "review/priority-intervention-appraisal-batch2-2026-11-05/browser-validation.json",
+        "admission_or_score_changed": false
       }
     },
     {
@@ -673,6 +680,13 @@
           "egg-yolk phospholipid and plasma choline"
         ],
         "stopping_rationale": "Citicoline was not suitable. Egg-yolk phospholipid remains the uncertain choline lead. No further class was required for this pass."
+      },
+      "priority_batch2_browser_validation": {
+        "date": "2026-11-05",
+        "status": "Pass",
+        "intervention": "PM6-SOP-EGG-PHOSPHOLIPID-1",
+        "record": "review/priority-intervention-appraisal-batch2-2026-11-05/browser-validation.json",
+        "admission_or_score_changed": false
       }
     },
     {
@@ -756,6 +770,13 @@
           "fish meals versus fish-oil capsules and red-cell DHA"
         ],
         "stopping_rationale": "The search compared food with the existing supplement class. Neuronal membrane was not measured."
+      },
+      "priority_batch2_browser_validation": {
+        "date": "2026-11-05",
+        "status": "Pass",
+        "intervention": "PM7-SOP-FISH-CAPSULES-1",
+        "record": "review/priority-intervention-appraisal-batch2-2026-11-05/browser-validation.json",
+        "admission_or_score_changed": false
       }
     },
     {
@@ -2200,6 +2221,24 @@
           "olive-oil phenols and F2-isoprostanes, already recorded"
         ],
         "stopping_rationale": "Oxidised LDL fell and F2-isoprostanes did not. The lead stays uncertain. A second phenol family was not required to stop."
+      },
+      "priority_batch3_appraisal": {
+        "date": "2026-11-05",
+        "review_id": "DISC-EUROLIVE",
+        "report": "review/priority-intervention-appraisal-batch3-2026-11-05/report.md",
+        "eligibility": "Eligible with peripheral-marker boundary",
+        "recommendation": "Admit — bounded proposal",
+        "implemented": true,
+        "approval": "Explicit author approval, 2026-11-05; implemented locally, not committed or published",
+        "disposition": "Admitted — bounded intervention",
+        "integration_report": "review/priority-intervention-appraisal-batch3-2026-11-05/integration-report.md",
+        "atom_id": "PM5-SOP-PHENOLIC-OLIVE-OIL-1",
+        "sec_assessment_ref": {
+          "id": "brs3-fm2-pm5-pm5-sop-phenolic-olive-oil-1-assessment",
+          "version": 1,
+          "sha256": "f3987a1e08aa3751c61102b07116a803510f3f6345690dfc1bf578148eeae3b4"
+        },
+        "browser_validation": "Passed six-atom expansion and independent Section 4 SEC navigation"
       }
     },
     {
@@ -2291,6 +2330,13 @@
         ],
         "stopping_rationale": "Vitamin C slowed tocopherol disappearance in smokers and not in nonsmokers or healthy women. The combination did not add a peroxidation benefit. The recycling interaction was measured. Lipoic acid remains unsupported.",
         "closing_pass": "new preliminary candidate"
+      },
+      "priority_batch2_browser_validation": {
+        "date": "2026-11-05",
+        "status": "Pass",
+        "intervention": "PM6-SOP-VITAMIN-C-RETENTION-1",
+        "record": "review/priority-intervention-appraisal-batch2-2026-11-05/browser-validation.json",
+        "admission_or_score_changed": false
       }
     },
     {
@@ -2532,6 +2578,15 @@
           "endurance training and muscle mitochondrial respiration"
         ],
         "stopping_rationale": "Coenzyme Q10 was not suitable. Training increased respiratory capacity. Electron leak was not the measured endpoint."
+      },
+      "priority_batch3_appraisal": {
+        "date": "2026-11-05",
+        "review_id": "DISC-ET-OXPHOS",
+        "report": "review/priority-intervention-appraisal-batch3-2026-11-05/report.md",
+        "eligibility": "Eligible endpoint; comparative efficacy uncertain",
+        "recommendation": "Defer — comparative contrast",
+        "implemented": false,
+        "approval": "Author explicitly retained deferral, 2026-11-05"
       }
     },
     {
@@ -2863,6 +2918,15 @@
           "urolithin A and muscle mitochondrial measures"
         ],
         "stopping_rationale": "Coenzyme Q10 was not suitable. Urolithin A improved endurance and mitophagy-linked proteins. ATP production did not improve in the older-adult trial."
+      },
+      "priority_batch3_appraisal": {
+        "date": "2026-11-05",
+        "review_id": "DISC-UROLITHIN-MITO",
+        "report": "review/priority-intervention-appraisal-batch3-2026-11-05/report.md",
+        "eligibility": "Ineligible for proposed PM",
+        "recommendation": "Defer — ownership unresolved",
+        "implemented": false,
+        "approval": "Author explicitly retained deferral, 2026-11-05"
       }
     },
     {
@@ -3199,6 +3263,24 @@
           "fasting or time-restricted eating and human mitochondrial biogenesis"
         ],
         "stopping_rationale": "Exercise rediscovered the training class. Calorie restriction raised mitochondrial DNA without raising enzyme activity. Short fasting and a 10-hour eating window did not support a biogenesis practice."
+      },
+      "priority_batch3_appraisal": {
+        "date": "2026-11-05",
+        "review_id": "DISC-CR-MTDNA",
+        "report": "review/priority-intervention-appraisal-batch3-2026-11-05/report.md",
+        "eligibility": "Eligible marker relationship",
+        "recommendation": "Admit — bounded proposal",
+        "implemented": true,
+        "approval": "Explicit author approval, 2026-11-05; implemented locally, not committed or published",
+        "disposition": "Admitted — bounded intervention",
+        "integration_report": "review/priority-intervention-appraisal-batch3-2026-11-05/integration-report.md",
+        "atom_id": "PM9-SOP-CALORIE-RESTRICTION-1",
+        "sec_assessment_ref": {
+          "id": "brs4-fm4-pm9-pm9-sop-calorie-restriction-1-assessment",
+          "version": 1,
+          "sha256": "0f1b6f88fe7cf9c4cb41bbaca18731be152c2eea5e496bfcf7f902045095d174"
+        },
+        "browser_validation": "Passed six-atom expansion and independent Section 4 SEC navigation"
       }
     },
     {
@@ -3317,6 +3399,13 @@
         ],
         "stopping_rationale": "Glutamine lowered permeability after an enteric infection. The same comparison in Crohn’s disease was not specific to glutamine. Three fibre preparations did not change permeability. Zinc carnosine remains the earlier uncertain supplement.",
         "closing_pass": "new preliminary candidate"
+      },
+      "priority_batch2_browser_validation": {
+        "date": "2026-11-05",
+        "status": "Pass",
+        "intervention": "PM1-SOP-GLUTAMINE-1",
+        "record": "review/priority-intervention-appraisal-batch2-2026-11-05/browser-validation.json",
+        "admission_or_score_changed": false
       }
     },
     {
@@ -4402,6 +4491,24 @@
           "slow breathing and heart-rate variability during post-stress recovery"
         ],
         "stopping_rationale": "Meditation is the existing practice. Breathing is a separate recovery practice. It was not copied onto the gut-vagus page."
+      },
+      "priority_batch3_appraisal": {
+        "date": "2026-11-05",
+        "review_id": "DISC-BREATH-RECOVERY",
+        "report": "review/priority-intervention-appraisal-batch3-2026-11-05/report.md",
+        "eligibility": "Eligible with HRV boundary",
+        "recommendation": "Admit — bounded proposal",
+        "implemented": true,
+        "approval": "Explicit author approval, 2026-11-05; implemented locally, not committed or published",
+        "disposition": "Admitted — bounded intervention",
+        "integration_report": "review/priority-intervention-appraisal-batch3-2026-11-05/integration-report.md",
+        "atom_id": "PM6-LP-GUIDED-BREATHING-1",
+        "sec_assessment_ref": {
+          "id": "brs6-fm3-pm6-pm6-lp-guided-breathing-1-assessment",
+          "version": 1,
+          "sha256": "7f6ed053c1033d77f289782e1706068e1a7738ec02b225f5ffb4ceba7239d293"
+        },
+        "browser_validation": "Passed six-atom expansion and independent Section 4 SEC navigation"
       }
     },
     {
@@ -4766,6 +4873,24 @@
           "evening blue-blocking glasses and melatonin onset"
         ],
         "stopping_rationale": "Bright light, dim evenings and printed books are the existing comparisons. Blue-blocking glasses are a further evening-light practice, with a pregnancy melatonin result and a null objective-sleep result."
+      },
+      "priority_batch3_appraisal": {
+        "date": "2026-11-05",
+        "review_id": "DISC-BLUE-BLOCK",
+        "report": "review/priority-intervention-appraisal-batch3-2026-11-05/report.md",
+        "eligibility": "Eligible in tested pregnancy population",
+        "recommendation": "Admit — bounded proposal",
+        "implemented": true,
+        "approval": "Explicit author approval, 2026-11-05; implemented locally, not committed or published",
+        "disposition": "Admitted — bounded intervention",
+        "integration_report": "review/priority-intervention-appraisal-batch3-2026-11-05/integration-report.md",
+        "atom_id": "PM1-LP-BLUE-BLOCKING-1",
+        "sec_assessment_ref": {
+          "id": "brs-x-circadian-fm1-pm1-pm1-lp-blue-blocking-1-assessment",
+          "version": 1,
+          "sha256": "24e8c9dce9a5399769b1d8d1c8f0d36037ed9004ec5807c6a108b906d345b470"
+        },
+        "browser_validation": "Passed six-atom expansion and independent Section 4 SEC navigation"
       }
     },
     {
@@ -5001,6 +5126,24 @@
           "omega-3 feeding and anandamide or DHA-ethanolamide"
         ],
         "stopping_rationale": "DHA-ethanolamide rose. Anandamide did not fall. That is the omega-3 ethanolamide endpoint."
+      },
+      "priority_batch3_appraisal": {
+        "date": "2026-11-05",
+        "review_id": "DISC-DHA-EA",
+        "report": "review/priority-intervention-appraisal-batch3-2026-11-05/report.md",
+        "eligibility": "Eligible",
+        "recommendation": "Admit — bounded proposal",
+        "implemented": true,
+        "approval": "Explicit author approval, 2026-11-05; implemented locally, not committed or published",
+        "disposition": "Admitted — bounded intervention",
+        "integration_report": "review/priority-intervention-appraisal-batch3-2026-11-05/integration-report.md",
+        "atom_id": "PM2-SOP-LOW-LA-HIGH-N3-1",
+        "sec_assessment_ref": {
+          "id": "brs-x-ecs-pm2-pm2-sop-low-la-high-n3-1-assessment",
+          "version": 1,
+          "sha256": "4c814c66c63bbb0443466efd8ef145938201eed759287e17470cdbfb49063a93"
+        },
+        "browser_validation": "Passed six-atom expansion and independent Section 4 SEC navigation"
       }
     },
     {

@@ -35,3 +35,7 @@ The earlier opening statement that eggs were not admitted is superseded by the c
 
 ## Pass 1 closure — 3 November 2026
 Both admitted preparation records now explicitly record intervention SEC as Not yet assessed. Browser-verified independent beef/egg disclosures, two-line mechanism summaries, six atoms, citations, null outcomes and brain-delivery boundaries. Food-page checkpoint complete. Pass 1 complete with the documented deferred fermentation candidate; intervention scoring belongs to Pass 2. Earlier pending status above is superseded. Screenshot: pm1-pass1-verified.png.
+
+## Current reconciliation — 3 November 2026
+
+Earlier deferred-egg wording above is historical and superseded by cooked-egg-contract-clarification.md and the canonical admitted PM1-SOP-COOKED-EGG-1 record. No new Finding is required for each SOP; PM1-F1 provides the mechanistic home, not an inherited cooking appraisal. Current PM1 reference work independently assesses both SOPs and preserves their admissions. See [PM1 completion report](../../pm1-reference-completion-2026-11-03/implementation-report.md) for current validation and source-access limits.
