@@ -1,5 +1,13 @@
 # Project Structure
 
+## Mandatory new-session orientation
+
+Start with [project-knowledge/START-HERE.md](project-knowledge/START-HERE.md). Use [project context](project-knowledge/PROJECT-CONTEXT.md), [decisions](project-knowledge/DECISIONS.md), [handoffs](project-knowledge/handoffs/INDEX.md) and [system authority index](system/INDEX.md). Canonical scientific records and authoritative contracts take precedence over summaries and handoffs; preserve all existing instructions below.
+
+## Cross-conversation context
+
+Read [PROJECT-CONTEXT.md](PROJECT-CONTEXT.md) for architecture and authoritative-document pointers, then [CURRENT-HANDOFF.md](CURRENT-HANDOFF.md) for the dated work checkpoint. These are navigation/status aids, not replacements for governance or author approval. Verify current Git state and source manifests before resuming; update the handoff after meaningful checkpoints, keeping approved decisions, proposals and incomplete work distinct.
+
 ## Agreed PM schema and template changes
 
 - When proposing or implementing a PM schema, template or shared presentation change, explicitly remind the user which authoritative instructions need to change with it.

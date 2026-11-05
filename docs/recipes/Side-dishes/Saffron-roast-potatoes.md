@@ -1,5 +1,6 @@
 ---
 id: saffron-roast-potatoes
+slug: /recipes/side-dishes/saffron-roast-potatoes
 title: Saffron Roast Potatoes
 sidebar_label: Saffron Roast Potatoes
 description: Crisp roast potatoes finished with saffron-infused olive oil, designed to maximise colour, flavour and texture while remaining adaptable to many main dishes.
@@ -155,9 +156,9 @@ Serve alongside roasted meats, poultry, or vegetable mains.
 
 Pairs especially well with:
 
-- [Roast Duck Breast with Berry Sauce](/docs/recipes/Dinner/roast-duck-breast-berry-sauce)
+- [Roast Duck Breast with Berry Sauce](/docs/recipes/dinner/roast-duck-breast-berry-sauce)
 
-- [Roasted Aubergine with Herb Olive Oil](/docs/recipes/Side-dishes/roasted-aubergine-herb-olive-oil)
+- [Roasted Aubergine with Herb Olive Oil](/docs/recipes/side-dishes/roasted-aubergine-herb-olive-oil)
 
 ---
 

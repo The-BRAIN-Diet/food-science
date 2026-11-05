@@ -17,6 +17,7 @@
  */
 
 import path from "node:path";
+import {activeFindingNumber} from "../../src/lib/scientificFindingPresentation.mjs";
 import { fileURLToPath } from "node:url";
 import { REFERENCE_DATA_LEVELS } from "./reference-data-levels.mjs";
 import { loadPhenomeRegistry, phenomeDetailUrlForName } from "./phenome-registry.mjs";
@@ -502,6 +503,12 @@ export function renderScientificFindingsSection(data, { sectionNum = 4, subNum =
     "",
     intro,
     "",
+    ...(data.section4_assessment_groups === true ? [
+      `<div id="${data.pm_id.toLowerCase()}-finding-assessments" className="brs-fm-hub-item brain-sf-disclosure" data-brs-fm-hub>`,
+      `<div className="brs-fm-hub-shell">`,
+      `<button type="button" className="brs-fm-hub-summary" aria-expanded="false" aria-controls="${data.pm_id.toLowerCase()}-finding-assessments-panel"><span className="brs-fm-hub-chevron" aria-hidden="true" /><strong>Scientific Findings (${findings.filter(f => activeFindingNumber(data, f.id) !== null).length})</strong></button>`,
+      `<div id="${data.pm_id.toLowerCase()}-finding-assessments-panel" className="brs-fm-hub-panel" hidden>`, "",
+    ] : []),
     ...renderFindingBlocks(
       findings,
       informs,
@@ -509,6 +516,7 @@ export function renderScientificFindingsSection(data, { sectionNum = 4, subNum =
       data.pm_id,
       authoredLessons,
     ),
+    ...(data.section4_assessment_groups === true ? ["", "</div>", "</div>", "</div>", "{/* section4-findings:end */}"] : []),
   ]
     .join("\n")
     .trimEnd();

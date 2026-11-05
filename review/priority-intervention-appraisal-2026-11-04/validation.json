@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-04",
+  "records": 7,
+  "newReviewAppraisals": 5,
+  "reusedCanonicalPins": 2,
+  "existingSnapshots": 118,
+  "protectedFilesChecked": 107,
+  "errors": [],
+  "focusedTests": {
+    "passed": 16,
+    "failed": 0,
+    "command": "node --test scripts/intervention-moa-contract.test.mjs scripts/pm1-reference-completion.test.mjs"
+  },
+  "presentationCheck": "PASS: 691 protected files",
+  "secCheck": "PASS: 118 snapshots, immutable history and canonical references valid against HEAD",
+  "productionBuild": "Not run: review-only records and register; no rendering/code changes"
+}

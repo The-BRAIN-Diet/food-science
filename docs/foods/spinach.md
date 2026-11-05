@@ -150,6 +150,15 @@ nutrition_supplementary_sources:
       not this panel. USDA Release 2 reports 110–130 mg per 100 g for frozen
       spinach.
 substance_relationships:
+  - substance: Oxalate
+    substance_id: oxalate
+    relationship: contains
+    evidence_status: supported
+    evidence_source: https://doi.org/10.1093/ajcn/47.4.707
+    evidence_material: Spinach test food analysed for calcium and oxalate in Heaney et al. 1988
+    preparation_state: Not established from the accessed abstract
+    description: Qualitative oxalate occurrence confirmed by the original food-analysis and human isotope-study abstract.
+    limitations: No amount projected onto the general spinach food record; preparation and oxalate fraction are not resolved from the abstract.
   - substance: 5-Methyltetrahydrofolate
     substance_id: 5-methyltetrahydrofolate
     relationship: contains
@@ -405,7 +414,7 @@ Spinach is also one of the richest dietary sources of oxalate. While most indivi
 ### Preparation
 
 - Boiling markedly reduced soluble oxalate content by 30–87% and was more effective than steaming (5–53%) across the vegetables tested, which included spinach [Chai and Liebman 2005](/docs/papers/BRAIN-Diet-References#chai_effect_2005). Soluble oxalate lost during boiling or steaming was recovered in the cooking water (approximately 100%), so discard that water when the aim is to lower oxalate load. Baking, used only for potatoes in the same study, produced no oxalate loss.
-- Oxalate binds to minerals and forms insoluble compounds, significantly reducing bioavailability; boiling helps mitigate this by leaching soluble oxalate into the discarded cooking water
+- [Oxalate](/docs/substances/bioactive-compounds/oxalate) can bind calcium. Soluble-oxalate loss into discarded boiling water is a composition result, not by itself a measured improvement in human mineral absorption [1]
 - Oxalate can influence mitochondrial and redox biology in experimental cell models; this is mechanistic context rather than spinach-feeding evidence, and relevance to typical dietary intakes remains uncertain [Chaiyarit and Thongboonkerd 2020](/docs/papers/BRAIN-Diet-References#chaiyarit_mitochondrial_2020).
 
 ## Recipes

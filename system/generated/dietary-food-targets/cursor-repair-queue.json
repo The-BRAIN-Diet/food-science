@@ -74,7 +74,8 @@
         "BRS1-FM1-PM4",
         "BRS1-FM1-PM5",
         "BRS3-FM2-PM4",
-        "BRS4-FM1-PM1"
+        "BRS4-FM1-PM1",
+        "BRS4-FM1-PM10"
       ],
       "missing_edge": "Nori → Iron [Purple laver (Porphyra spp.), dried, toasted; dried]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
       "required_action": "Compare the existing edge with this source material, brand/fortification, cultivar, preparation and analytical context. Do not create a new food edge unless independently established as necessary.",

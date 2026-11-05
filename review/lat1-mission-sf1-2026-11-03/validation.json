@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-03",
+  "protected_frontmatter": "unchanged except mission and scientific_findings",
+  "finding_ids_propositions_sec_pins": "unchanged",
+  "findings_check": "64 PMs; zero problems",
+  "sec_check": "110 snapshots valid against HEAD; no SEC file changes",
+  "dietary_check": "3 issues on existing PM2-DIT-3; historical exemption affected by mission change",
+  "mdx_compilation": "PASS",
+  "presentation_check": "PASS: 691 protected files; baseline unchanged",
+  "whitespace": "PASS",
+  "browser_check": "Not repeated for this scientific text change; MDX compilation performed"
+}

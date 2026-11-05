@@ -19,3 +19,7 @@ This is a conservative source-level gate, not proof of human consent or exhausti
 ## Emergency withdrawal
 
 Both Dietary pathways technical panel types are withdrawn on ALL pages by explicit author instruction. Remove the global injection and retain the legacy component as a no-output compatibility adapter. Preserve ontology, source provenance, admissions, authored prose and existing section hierarchy. No replacement panel is authorised. Embedded butyrate output is covered by the explicit instruction to remove the panel everywhere; its surrounding authored explanation remains.
+
+## Authorised nested pathway-disclosure removal — 3 November 2026
+
+Owner instruction: “Delete Unauthorised Dietary Pathway Disclosure.” Remove the generated `Dietary pathway evidence` / `.pm-input-pathway-evidence` block from all PM six-atom disclosures, including PM9 vitamin B6. Remove its exclusive renderer argument and ontology-projection subscription. This is a shared presentation removal only: keep pathway records, six atoms, Dietary Confidence, ontology links and approved food sources unchanged. No replacement is authorised. Representative expected result: PM9 vitamin B6 opens its existing six atoms and food disclosures without a nested pathway-evidence heading. The presentation baseline is not regenerated.

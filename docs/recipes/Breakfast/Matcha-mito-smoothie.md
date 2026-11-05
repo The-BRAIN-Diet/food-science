@@ -1,5 +1,6 @@
 ---
 id: matcha-mito-smoothie
+slug: /recipes/breakfast/matcha-mito-smoothie
 title: Matcha Mitochondria Smoothie
 sidebar_label: Matcha Mito Smoothie
 description: Mitochondrial energising smoothie rich in polyphenols, magnesium, and antioxidants

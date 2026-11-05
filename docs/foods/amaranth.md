@@ -68,13 +68,18 @@ legacy_list_image: /img/foods/amaranth/amaranth_thumb.webp
 legacy_main_image: /img/foods/amaranth/amaranth_medium.webp
 nutrition_supplementary_sources:
   - key: phytate_qual
+    substance_id: phytate
+    evidence_status: supported
+    evidence_material: Amaranth grain in the Hejazi et al. malting experiment
+    preparation_state: Native grain and experimentally malted grain; not a cooked serving
+    analytical_method: Full methods not retrieved; no quantitative or fraction-specific inference
     label: Phytate
-    status: Present — quantity not established
-    amount_display: Present — quantity not established
+    status: Present — value not known
+    amount_display: Present — value not known
     public_display: table
     notes: >-
-      Grain antinutrient; USDA iron and magnesium totals are not absorbed
-      amounts.
+      Qualitative grain constituent; mineral totals are not absorbed amounts.
+      No amaranth-specific human absorption effect established.
     source_note: >-
       Jan et al. 2023 review amaranth-seed phytic acid as 2.9–7.9 g/kg (citing
       Thakur et al. 2021). USDA SR Legacy (Amaranth grain, uncooked; FDC 170682)
@@ -87,9 +92,14 @@ nutrition_supplementary_sources:
       Jan et al. 2023 supports this qualitative constituent record. See
       technical provenance for food form and measurement details.
   - key: oxalate_qual
+    substance_id: oxalate
+    evidence_status: supported
+    evidence_material: Amaranth grain in the Hejazi et al. malting experiment
+    preparation_state: Native grain and experimentally malted grain; not a cooked serving
+    analytical_method: Full methods not retrieved; no quantitative or fraction-specific inference
     label: Oxalate
-    status: Present — quantity not established
-    amount_display: Present — quantity not established
+    status: Present — value not known
+    amount_display: Present — value not known
     public_display: table
     notes: Grain antinutrient; quantity is processing-sensitive.
     source_note: >-
@@ -104,6 +114,24 @@ nutrition_supplementary_sources:
       Hejazi et al. 2016 supports this qualitative constituent record. See
       technical provenance for food form and measurement details.
 substance_relationships:
+  - substance: Phytate
+    substance_id: phytate
+    relationship: contains
+    evidence_status: supported
+    evidence_source: https://doi.org/10.1016/j.jcs.2015.11.007
+    evidence_material: Amaranth grain; native and experimental malting samples
+    preparation_state: Native and malted grain; not a generic cooked serving
+    description: Qualitative occurrence verified in the original study abstract indexed by AGRIS/National Agricultural Library; no comparable amount assigned.
+    limitations: Full analytical methods not retrieved; extraction, analyte fraction and mass basis unresolved. No human mineral-absorption outcome measured.
+  - substance: Oxalate
+    substance_id: oxalate
+    relationship: contains
+    evidence_status: supported
+    evidence_source: https://doi.org/10.1016/j.jcs.2015.11.007
+    evidence_material: Amaranth grain; native and experimental malting samples
+    preparation_state: Native and malted grain; not a generic cooked serving
+    description: Qualitative occurrence verified in the original study abstract indexed by AGRIS/National Agricultural Library; no comparable amount assigned.
+    limitations: Full analytical methods not retrieved; extraction, analyte fraction and mass basis unresolved. No human mineral-absorption outcome measured.
   - substance: Magnesium
     relationship: contains
     description: 'USDA FoodData Central reports magnesium in Amaranth grain, uncooked.'
@@ -128,7 +156,7 @@ substance_review_candidates: []
 ---
 ## Overview
 
-Amaranth is a gluten-free pseudograin with comparatively lysine-rich protein and substantial **magnesium** and **iron**. Phytate and oxalate in the grain can limit how much of those minerals are available [2,3].
+Amaranth is a gluten-free pseudograin with comparatively lysine-rich protein and substantial **magnesium** and **iron**. [Phytate](/docs/substances/bioactive-compounds/phytate) and [oxalate](/docs/substances/bioactive-compounds/oxalate) occur in the studied grain. Their mineral-binding properties do not quantify human absorption of iron or magnesium from amaranth [2,3].
 
 Unlike ordinary cereals, amaranth does not need lysine rescue from legumes [1]. Processing changes both protein quality and mineral accessibility, so preparation matters [1,3]. In the BRAIN Diet, it is a rotating whole-grain option rather than a processed-grain staple.
 

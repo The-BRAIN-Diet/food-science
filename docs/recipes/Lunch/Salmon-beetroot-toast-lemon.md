@@ -1,5 +1,6 @@
 ---
 id: salmon-beetroot-toast-lemon
+slug: /recipes/lunch/salmon-beetroot-toast-lemon
 title: Salmon & Grated Beetroot Toast (with Lemon)
 sidebar_label: Salmon & Beetroot Toast
 description: A fast, brain-forward open sandwich combining omega-3 rich salmon, nitrate/polyphenol beetroot, and lemon acidity for a sharp, savoury bite.
@@ -90,7 +91,7 @@ nutrition_assumptions:
 
 ## Overview
 
-A fast, brain-forward open sandwich: **omega-3 rich salmon + nitrate/polyphenol beetroot + lemon acidity** for a sharp, savoury bite. Ideal for lunch when you need high protein without a long prep. [Salmon sources](/docs/recipes/Lunch/salmon-beetroot-toast-lemon#salmon-sourcing), like all seafood, are important to research.
+A fast, brain-forward open sandwich: **omega-3 rich salmon + nitrate/polyphenol beetroot + lemon acidity** for a sharp, savoury bite. Ideal for lunch when you need high protein without a long prep. [Salmon sources](/docs/recipes/lunch/salmon-beetroot-toast-lemon#salmon-sourcing), like all seafood, are important to research.
 
 ## Ingredients (1 serving)
 

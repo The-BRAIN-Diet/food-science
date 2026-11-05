@@ -1,0 +1,33 @@
+# Verified decisions and proposals
+
+Index, verified 3 November 2026. These summaries do not grant new authority. Follow the linked contracts, exact records and current author instruction; approval of a rule is distinct from completion or publication of every implementation.
+
+| ID | Verified decision and rationale | Status / authority |
+|---|---|---|
+| D01 | Preserve LAT1 PM2's mission exactly: **Regulate competitive transport of large neutral amino acids across the blood–brain barrier in response to circulating substrate availability.** Keep transport distinct from synthesis or dietary cognitive efficacy. | Author's targeted LAT1 EXEC; implemented and pushed in the integrated branch. [Decision report](../review/lat1-mission-sf1-2026-11-03/assessment.md), [current appraisal checkpoint](../review/lat1-mission-sf1-2026-11-03/stage2b-status.md). Scientific completion remains pending. |
+| D02 | New substantive reader-facing presentation needs an updated contract, explicit proposal/example/scope and prior author approval. Scientific data integration is separate permission. | Approved standing rule; [contract](../system/presentation-change-control.md), [approval ledger](../system/presentation-change-approvals.json). Never manufacture approval or regenerate the baseline to pass. |
+| D03 | Withdraw generated technical Dietary pathways panels, including the nested Dietary pathway evidence disclosure, while preserving underlying data. | Explicit owner removal; implemented and pushed, deployment not verified here. [Removal contract](../system/presentation-change-control.md), [regression test](../scripts/pm-pathway-disclosure-removal.test.mjs). |
+| D04 | Active mechanism Findings use individual Section 4 disclosures; Principles, SEC appraisal and history belong in Evidence & Audit. Evidence Gaps and Open Issues remain distinct. | Approved PM1 Section 4 / PM8 tab references, not universal migration completion. [Tab contract](../system/pm-evidence-tabs-contract.md). Stable record IDs and history survive consecutive reader numbering. |
+| D05 | Mechanism, measured effect and evidence limitation must not substitute for each other. Omit an unsupported collapsed Mechanism line. | Owner-approved distinction; [SOP/Lifestyle contract](../system/sop-lifestyle-six-atom-presentation.md), including later scoped pilot/rollout amendments. |
+| D06 | SOP/Lifestyle Pass 1 eligibility and six-atom implementation precede framework-wide Pass 2 intervention SEC. Keep unassessed status explicit; exact-proposition scoring uses existing rubric. | Approved two-pass instruction; [contract](../system/sop-lifestyle-six-atom-presentation.md). Later PM-specific appraisal requests are bounded exceptions, not framework-wide completion. |
+| D07 | Scientific Evidence Gaps concern unestablished science; Assessment gaps track unfinished appraisal. Never infer zero or automatically create/close a scientific gap from a score. | Approved completeness extension; [SEC contract](../system/sec-assessments/README.md), [implementation report](../review/sec-completeness-2026-11-02/implementation-report.md). |
+| D08 | Type A/B and Direct/Derived are independent; dietary patterns do not qualify as §3.1.1 substance inputs under the current contract. Preserve historical decisions for adjudication. | Approved 23 October revision; [admission governance](../system/dietary-input-governance-v2.md). LAT1's historical pattern entry remains a known unresolved case. |
+| D09 | Preserve per-amino-acid composition beneath any displayed EAA total; composition alone cannot establish digestibility or DIAAS. | Explicit owner instruction in foodless-target work; [source extraction](../review/foodless-targets-2026-10-26/eaa-source-extract.json), [decisions](../review/foodless-targets-2026-10-26/food-delivery-decisions.json). No new data changes authorised by this summary. |
+| D10 | Integrate Cursor 48ee6a93 with the local scientific checkpoint, retain both sets of approvals, then push the existing branch only. | Owner-authorised and completed: checkpoint 533409e1, merge/push f1607fe5; 24 approvals preserved. [Integration report](../review/cursor-integration-2026-11-03/validation.md). No main merge/deployment approval implied. |
+
+## Proposals and unresolved decisions — not approved rules
+
+- **Gold Standard PM:** proposed complete exemplar for later instruction simplification. No approved new reference or completed exemplar verified. PM1/PM8 are approved for their particular presentation contracts, not proof that all their evidence is finally appraised.
+- **Stage 2C:** proposed evidence-confidence stage, not activated. Scope, handoff gates and migration require an explicit contract and approval. Existing SEC rules remain active.
+- **LAT1 SF3 / IC1:** interpretive-boundary scoring applicability remains pending. Neither became a Scientific Principle. Do not relabel or force scores to reach numerical completeness.
+- **LAT1 meal-pattern entry:** historical PM2-DIT-3 conflicts with current section eligibility; admission/food-target adjudication remains open.
+- **Three dietary identification routes:** context maps existing three dietary sections, not a verified newly named route model. Confirm terminology before codifying it.
+
+## Reading dated authority
+
+The SOP contract opens with a demo-only restriction and later records scoped canonical pilots and a two-pass rollout. Read dated amendments and record-specific approvals together; do not extrapolate an approval to new components. If scope is still ambiguous, report the exact conflict. Root handoffs and old review reports retain historical “uncommitted/not pushed” wording; the current handoff index records later Git state without erasing history.
+
+## 2026-11-05 — Release evidence and legacy validation decisions
+
+- **Approved and implemented:** independent SOP/Lifestyle evidence pathway can use primary references, measured effects, PM relevance, typed limitations and an independently owned, hash-pinned intervention SEC assessment without creating a new Scientific Finding. Authority: explicit author reply in the release conversation; governing amendments in `system/dietary-input-traceability-contract.md`, `system/sop-lifestyle-six-atom-presentation.md` and `system/primary-mechanism-schema.md`. No SF-score inheritance or dietary-admission exception.
+- **Approved for this release only:** no-new-individual-mechanism-issues gate against verified GitHub main4eeca534; all other release gates independently mandatory. See `review/release-2026-11-05/legacy-mechanism-release-gate.json` and the111-item remediation register. This does not establish full mechanism compliance or a permanent waiver.

@@ -356,7 +356,6 @@ function enhanceEvidenceTitle(
 
 export default function PmDietaryLeverEnhancer({ frontMatter }: Props): React.ReactNode {
   const inputFoodData = usePluginData("input-substance-food") as MappingData;
-  const pathwayData = usePluginData("ontology-projection") as any;
   const { metadata } = useDoc();
   const { siteConfig } = useDocusaurusContext();
   const canonicalPmUrl = new URL(metadata.permalink, siteConfig.url).href;
@@ -440,12 +439,12 @@ export default function PmDietaryLeverEnhancer({ frontMatter }: Props): React.Re
         li.dataset.pmInputFoods = parsed.foods || "";
         li.dataset.pmInputSection = section;
         enhanceListItem(li, disclosure, root);
-        attachInputFoodDisclosure(li, inputFoodData, String(frontMatter.pm_id || ""), parsed.label, section, pathwayData?.dietaryPathways?.paths || []);
+        attachInputFoodDisclosure(li, inputFoodData, String(frontMatter.pm_id || ""), parsed.label, section);
       }
     });
 
     return () => document.removeEventListener("click", onDocClick);
-  }, [frontMatter, canonicalPmUrl, inputFoodData, pathwayData]);
+  }, [frontMatter, canonicalPmUrl, inputFoodData]);
 
   return null;
 }

@@ -1486,3 +1486,36 @@ This owner-approved rule supersedes requirements above that make routine dietary
 - Admission remains evidence-governed. Dietary-first placement neither admits a candidate nor promotes biochemical-only participants. Specificity alone does not establish dominance; a defined SOP can also be specific. Empty dietary groups must not be promoted or filled artificially.
 - Routine Pass 1 presentation and paper extraction need not wait for comparative dominance adjudication. Record genuine scientific uncertainties separately and continue. Existing scores, admissions, scientific qualification labels and immutable history remain unchanged.
 - Future generator implementation must represent editorial placement separately from scientific route selection. This instruction approval does not itself confirm that the current generator implements the separation; validate before reporting rollout completion.
+
+## PM1 controlled reference completion — 3 November 2026
+
+Owner instruction: resolve PM1 issues starting with F3, complete SEC appraisal, apply PM8 tabs and approved six-atom presentation; no commit or push. Scope is BRS1-FM1-PM1, not framework-wide refactoring or certification of a finished Gold Standard.
+
+PM1 uses evidence_tabs_version: 1, evidence_gaps_tab: true and scientific_findings_placement: section-4, following the existing PM8 tab contract. Active Findings remain independent Section 4 disclosures; Principles and Finding SEC history remain in Evidence & Audit. Existing intervention-specific SEC disclosures are placed in Section 4 outside the generated §4.1 block and outside six atoms, using the existing EvidenceAudit component with explicit intervention ownership. Do not add Lifestyle admissions to fill an empty section. Preserve scientific Evidence Gaps separately from access-limited Assessment gaps.
+
+
+## PM1 Section 4 assessment-family grouping — approved 4 November 2026
+
+Author-approved PM1-only pilot: keep the Section 4 summary visible; group Scientific Findings first, SOP assessments second, and Lifestyle Lever assessments only when present. Each family starts collapsed and uses existing `brs-fm-hub` dropdown CSS and keyboard behaviour. Individual Findings/assessments retain their own disclosures; stable deep links must open all enclosing groups. Scores, assessment ownership, six atoms and admissions are unchanged. Do not display empty Lifestyle assessment groups.
+
+Stage 2A preserves separate scientific and intervention propositions; grouping never implies inherited scores. Stage 2B renders the approved family order and preserves the `section4-findings:end` generated boundary so regeneration cannot discard following SOP assessments. `section4_assessment_groups: true` is enabled only on PM1 in this pilot; do not activate other PMs without rollout authorisation. This presentation approval is not scientific reassessment.
+
+### Reference annex withdrawal — 4 November 2026
+No PM-local source-record or historical reference-narrative section is permitted. Use only canonical reference presentation under `system/brs-citation-reference-standard.md`; retain citation anchors and scientific evidence without displaying retrieval logs. This owner-authorised removal applies to all PMs.
+
+
+### Scientific Lesson placement — owner clarification, 4 November 2026
+Scientific Lessons remain permitted. Use the approved GAD lesson disclosure (`scientific-lesson brs-fm-hub-item`, book icon, kicker and concise title) beneath the relevant Scientific Finding within Section 4. Preserve the authored `scientific-lesson:<Finding ID>:start/end` island during regeneration. Do not append a standalone Scientific Lesson after References. Lessons explain existing evidence boundaries; they are not new Findings or independently scored claims. PM1's circulating-versus-brain-delivery lesson is placed beneath F1, with links to the other relevant Findings; avoid stale hard-coded display numbers. This change authorises PM1 placement, not a wider lesson rollout.
+
+
+**PM1 placement correction — 4 November 2026:** The owner subsequently requested its lesson above and separate from the Scientific Findings. Place the existing GAD-styled lesson disclosure before §4.1, outside the Findings parent and generated Findings block. Preserve its stable anchor and supporting Finding links. This supersedes the immediately preceding PM1-beneath-F1 placement instruction; it does not move other PM lessons.
+
+
+### Authoritative Scientific Lesson placement — 4 November 2026
+
+This supersedes earlier lesson-placement amendments above. Place each existing Scientific Lesson **at the end of the Section 4 Summary**, immediately after its summary prose and before mechanistic-detail or Scientific Findings disclosures. Lessons are separate sibling dropdowns, never children of the Scientific Findings parent or an individual Finding, and never appended after References. Reuse the GAD lesson CSS, book icon, concise title and initially collapsed behaviour. Preserve lesson identity, content and supporting Finding links; do not assign a new score or create a Finding. Keep the lesson outside the generated §4.1 block so regeneration cannot move or erase it. This instruction applies to existing lessons; do not invent lessons to populate every PM. Checked canonical PMs: PM1 and GAD/PM9 contain actual lesson disclosures; other authored-lesson markers alone are not lessons.
+
+
+## Approved independent intervention evidence pathway — 5 November 2026
+
+For SOPs and Lifestyle Levers, a new Scientific Finding is not required when the exact intervention–outcome proposition has independent primary references in the PM bibliography, separately recorded measured effect and PM relevance, full MoA/status, typed limitations and a valid pinned intervention-specific SEC assessment. Admission remains a separate adjudication. The validator must resolve the assessment to this PM and intervention and validate its content/hash; no Finding score may be inherited. Existing Finding links, when supplied, must remain valid. An incomplete independent record fails validation; this exception does not apply to dietary-input substance admission or allow unsupported claims. Author explicitly approved this clarification during release reconciliation. No new public presentation or numerical scoring rule.

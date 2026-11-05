@@ -1,0 +1,210 @@
+[
+  {
+    "sha256": "79f5e04f6b143643fe8c65c78d3fef08a7914a006fb5bd47d6dd14f94d655110",
+    "record": {
+      "id": "brs6-fm1-pm3-pm3-sop-1-assessment",
+      "recordVersion": 1,
+      "pmId": "BRS6-FM1-PM3",
+      "interventionId": "PM3-SOP-1",
+      "title": "Diet-induced weight reduction when excess adiposity is relevant",
+      "proposition": "In adults with obesity and insulin resistance without diabetes, approximately 5% diet-induced weight loss improved clamp-measured insulin sensitivity compared with weight maintenance.",
+      "assessmentStatus": "codex-provisional",
+      "assessmentComplete": true,
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "factorStates": {
+        "D": "established",
+        "B": "established",
+        "P": "established",
+        "R": "established"
+      },
+      "rawScore": 4,
+      "adjustedScore": 4,
+      "capRationale": "Existing D/B/P/R sum and ceilings applied; no extra replication decrement.",
+      "unscoredReason": null,
+      "lastEvidenceAssessmentDate": "2026-11-05",
+      "humanReview": null,
+      "rationale": {
+        "D": "The randomised comparison directly measured the specified insulin-sensitivity endpoint with clamp/tracer methods.",
+        "B": "Randomised maintenance comparator and stabilised weight before retesting; differential attrition, unmasked intervention and incompletely verified concealment limit protection.",
+        "P": "Primary-outcome power calculation and dispersion reported; modest completer groups and outcome variability limit precision and generalisability.",
+        "R": "One directly appraised exact 5% protocol. Later stages and secondary analyses of this cohort are not independent replication; other weight-loss protocols were not credited without full appraisal."
+      },
+      "sources": {
+        "supporting": [
+          "magkos_weight_loss_adipose_2016"
+        ],
+        "contextual": [],
+        "targetedChecks": [
+          {
+            "doi": "10.1016/j.cmet.2016.02.005",
+            "role": "direct intervention evidence",
+            "access": "Full PMC4833627 text: study design, clamps, statistical analyses and results inspected; Scite supplied abstract only.",
+            "assessment": "In adults with obesity and insulin resistance without diabetes, approximately 5% diet-induced weight loss improved clamp-measured insulin sensitivity compared with weight maintenance."
+          }
+        ],
+        "retrievalLimited": [],
+        "contradictoryAssessment": "Conditional obesity/insulin-resistance population; not a general weight-loss recommendation. The 5% phase did not reduce measured systemic/subcutaneous adipose inflammatory markers; mediation is unestablished. Greater weight-loss stages involved a smaller subset, not independent replication or a separately randomised dose comparison."
+      },
+      "limitations": [
+        "Conditional obesity/insulin-resistance population; not a general weight-loss recommendation.",
+        "The 5% phase did not reduce measured systemic/subcutaneous adipose inflammatory markers; mediation is unestablished.",
+        "Greater weight-loss stages involved a smaller subset, not independent replication or a separately randomised dose comparison."
+      ],
+      "methodology": {
+        "name": "Scientific Evidence Confidence: Directness + Bias Protection + Precision + Replication",
+        "version": "Existing D/B/P/R rubric with approved completeness extension",
+        "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+      },
+      "process": "Owner-requested independent appraisal of the two existing BRS6PM3 SOPs; admission and parent Finding scores unchanged.",
+      "history": [
+        {
+          "date": "2026-11-05",
+          "decision": "Initial intervention-owned appraisal; no inherited Finding score. Pending work recorded explicitly."
+        }
+      ],
+      "previousAssessments": [],
+      "completenessVersion": 1,
+      "assessmentGaps": [],
+      "stoppingRationale": "Bounded provisional appraisal of this exact protocol; not a score for weight loss in general."
+    }
+  },
+  {
+    "sha256": "ea4b903e7d79edc3a0aa9c4b840cbcd7e1d7a9810d2c6943d20f3608fa2591e3",
+    "record": {
+      "id": "brs6-fm1-pm3-pm3-sop-deferred-1-assessment",
+      "recordVersion": 1,
+      "pmId": "BRS6-FM1-PM3",
+      "interventionId": "PM3-SOP-DEFERRED-1",
+      "title": "Conditional oral arginine supplementation in the tested type-2-diabetes protocol",
+      "proposition": "In the small lean type-2-diabetes study, one month of oral L-arginine 3 g three times daily increased clamp-measured glucose disposal but did not normalise it relative to healthy controls.",
+      "assessmentStatus": "not-scored",
+      "assessmentComplete": false,
+      "factors": {
+        "D": 2,
+        "B": null,
+        "P": null,
+        "R": 0
+      },
+      "factorStates": {
+        "D": "established",
+        "B": "pending",
+        "P": "pending",
+        "R": "established"
+      },
+      "rawScore": null,
+      "adjustedScore": null,
+      "capRationale": "Existing D/B/P/R sum and ceilings applied; no extra replication decrement.",
+      "unscoredReason": null,
+      "lastEvidenceAssessmentDate": "2026-11-05",
+      "humanReview": null,
+      "rationale": {
+        "D": "The primary abstract directly reports the named oral exposure and clamp glucose-disposal endpoint.",
+        "B": "Pending full methods: abstract describes randomisation and double blinding, but allocation, masking, exclusions and analysis safeguards remain unverified.",
+        "P": "Pending numerical tables and statistical methods: percentage change alone cannot establish variance, between-group uncertainty or precision.",
+        "R": "One directly identified exact protocol. No independent replication credited from citation counts or differently dosed studies."
+      },
+      "sources": {
+        "supporting": [
+          "piatti_oral_arginine_clamp_2001"
+        ],
+        "contextual": [],
+        "targetedChecks": [
+          {
+            "doi": "10.2337/diacare.24.5.875",
+            "role": "direct intervention evidence",
+            "access": "Primary abstract via PubMed and Scite; publisher HTML and original PDF returned403. No full-method verification claimed.",
+            "assessment": "In the small lean type-2-diabetes study, one month of oral L-arginine 3 g three times daily increased clamp-measured glucose disposal but did not normalise it relative to healthy controls."
+          }
+        ],
+        "retrievalLimited": [
+          {
+            "url": "https://doi.org/10.2337/diacare.24.5.875",
+            "limitation": "Primary abstract via PubMed and Scite; publisher HTML and original PDF returned403. No full-method verification claimed."
+          }
+        ],
+        "contradictoryAssessment": "Twelve lean adults with type2diabetes; not a general supplement or food prescription. Glucose disposal remained below healthy-control values; cGMP change does not prove NO-mediated causality. Full methods and uncertainty estimates were inaccessible; B and P remain pending rather than assigned zero."
+      },
+      "limitations": [
+        "Twelve lean adults with type2diabetes; not a general supplement or food prescription.",
+        "Glucose disposal remained below healthy-control values; cGMP change does not prove NO-mediated causality.",
+        "Full methods and uncertainty estimates were inaccessible; B and P remain pending rather than assigned zero."
+      ],
+      "methodology": {
+        "name": "Scientific Evidence Confidence: Directness + Bias Protection + Precision + Replication",
+        "version": "Existing D/B/P/R rubric with approved completeness extension",
+        "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+      },
+      "process": "Owner-requested independent appraisal of the two existing BRS6PM3 SOPs; admission and parent Finding scores unchanged.",
+      "history": [
+        {
+          "date": "2026-11-05",
+          "decision": "Initial intervention-owned appraisal; no inherited Finding score. Pending work recorded explicitly."
+        }
+      ],
+      "previousAssessments": [],
+      "completenessVersion": 1,
+      "assessmentGaps": [
+        {
+          "id": "PM3-SOP-DEFERRED-1-ASSESSMENT-B-1",
+          "pmId": "BRS6-FM1-PM3",
+          "interventionId": "PM3-SOP-DEFERRED-1",
+          "dimensions": [
+            "B"
+          ],
+          "sources": [
+            "piatti_oral_arginine_clamp_2001"
+          ],
+          "reason": "Pending full methods: abstract describes randomisation and double blinding, but allocation, masking, exclusions and analysis safeguards remain unverified.",
+          "resolutionAction": "Obtain original methods and verify allocation, masking, attrition and statistical safeguards.",
+          "status": "pending",
+          "attempts": [
+            {
+              "date": "2026-11-05",
+              "action": "Scite full-text/metadata, PubMed, publisher HTML and original PDF.",
+              "outcome": "Scite abstract only; publisher returned403; original methods not obtained."
+            }
+          ],
+          "history": [
+            {
+              "date": "2026-11-05",
+              "decision": "Track appraisal work; no scientific Evidence Gap or zero score inferred."
+            }
+          ]
+        },
+        {
+          "id": "PM3-SOP-DEFERRED-1-ASSESSMENT-P-1",
+          "pmId": "BRS6-FM1-PM3",
+          "interventionId": "PM3-SOP-DEFERRED-1",
+          "dimensions": [
+            "P"
+          ],
+          "sources": [
+            "piatti_oral_arginine_clamp_2001"
+          ],
+          "reason": "Pending numerical tables and statistical methods: percentage change alone cannot establish variance, between-group uncertainty or precision.",
+          "resolutionAction": "Obtain original numerical results and statistical methods; extract between-group contrasts and uncertainty.",
+          "status": "pending",
+          "attempts": [
+            {
+              "date": "2026-11-05",
+              "action": "Scite full-text/metadata, PubMed, publisher HTML and original PDF.",
+              "outcome": "Scite abstract only; publisher returned403; original methods not obtained."
+            }
+          ],
+          "history": [
+            {
+              "date": "2026-11-05",
+              "decision": "Track appraisal work; no scientific Evidence Gap or zero score inferred."
+            }
+          ]
+        }
+      ],
+      "stoppingRationale": "Full methods and uncertainty appraisal remain pending."
+    }
+  }
+]

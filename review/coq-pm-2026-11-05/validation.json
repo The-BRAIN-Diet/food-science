@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-05",
+  "branch": "review/brs5-pm4-sec-assessment",
+  "head": "f1607fe5",
+  "committed": false,
+  "focusedCoQ": {
+    "pass": 8,
+    "fail": 0
+  },
+  "broaderFocused": {
+    "pass": 65,
+    "fail": 7,
+    "total": 72
+  },
+  "presentation": "PASS; 691 protected files; approval added only for authorised new PM; baseline untouched",
+  "findings": "PASS:65 PMs,0 problems",
+  "sec": "PASS:124 snapshots,all118 pre-task snapshots exact",
+  "completeness": {
+    "eligible": 6,
+    "provisional": 5,
+    "pending": 1,
+    "trackedPendingDimensions": 3,
+    "structurallyComplete": true,
+    "scientificallyAppraised": false
+  },
+  "pmStructure": "PASS",
+  "pmAdmissions": "PASS",
+  "pathwayGeneration": "65 PMs;29 edges;33 pathways;0 errors",
+  "browser": "Real local PM compiled; existing tabs, six fields and food disclosures checked; screenshot saved",
+  "productionBuild": "Not run",
+  "coqSubstanceLegacyIssues": [
+    "missing required section: ## Dietary Context",
+    "missing required section: ## Biological Regulatory Systems",
+    "section order is invalid near ## Recipes",
+    "calibration pages must use evidence-qualified BRS rows, not SubstanceMatrix fallback",
+    "mechanisms key is not a canonical BRS hub: Mitochondrial Support",
+    "mechanisms key is not a canonical BRS hub: Oxidative Stress"
+  ],
+  "otherLimits": [
+    "Global dietary validator: three existing LAT1 PM2-DIT-3 issues",
+    "Global bibliography: existing missing zeisel_choline_betaine_2003 and erratum keys",
+    "Historical SEC equality fixture compares entire current registry with old activation snapshot, not append-only preservation",
+    "PM1 and PM9 section-order fixtures predate existing presentation changes",
+    "Legacy evidence HTML fixture expects Finding ID instead of Canonical record ID",
+    "Renderer test mock cannot resolve scientificFindingPresentation module",
+    "Publication-gate fixture omits existing presentation:check command",
+    "GABA lesson fixture expects previous placement; old PM hashes unchanged in this task"
+  ],
+  "fixtureRepair": "Updated fixed inventory expectation64→65 for authorised PM10; no scientific assertions weakened"
+}

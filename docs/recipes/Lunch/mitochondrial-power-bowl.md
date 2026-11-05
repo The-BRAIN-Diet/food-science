@@ -1,5 +1,6 @@
 ---
 id: mitochondrial-power-bowl
+slug: /recipes/lunch/mitochondrial-power-bowl
 title: Mitochondrial Power Bowl
 sidebar_label: Mitochondrial Power Bowl
 description: A nitrate-rich, polyphenol-dense bowl combining leafy greens, beets, berries, nuts, and early harvest olive oil

@@ -1,0 +1,843 @@
+{
+  "date": "2026-11-04",
+  "branch": "review/brs5-pm4-sec-assessment",
+  "head": "f1607fe5dcb150fdac1ca7fc2e2a146c45ecc60c",
+  "publication": "Local review only; not committed, published, or canonically admitted",
+  "rubric": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html",
+  "authority": "system/sec-assessments/README.md",
+  "scope": "Seven requested interventions only. Independent intervention-outcome appraisal; no inherited SF scores. New assessment candidates remain review records pending canonical ownership and presentation integration.",
+  "reconciliation": {
+    "manifest_pointer": "BRS2-FM1-PM3",
+    "later_discovery": "Section-6 register closing pass documents all 64 searched, 33 with open preliminary candidates; not 64 completed SEC appraisals. Individual pms/ reports do not exist for all later discovery candidates.",
+    "canonical_registry_count": 118,
+    "existing_scored": [
+      "PM3-SOP-2",
+      "PM3-SOP-TEA-TIMING-1"
+    ],
+    "baseline": "Current local content, including uncommitted discovery register, is used rather than treating main as current discovery.",
+    "gitComparison": [
+      {
+        "ref": "HEAD",
+        "containsClosingPass": true,
+        "characters": 33077
+      },
+      {
+        "ref": "main",
+        "available": false
+      },
+      {
+        "ref": "github/main",
+        "containsClosingPass": false,
+        "characters": 5999
+      }
+    ]
+  },
+  "records": [
+    {
+      "reviewId": "shukla-2017",
+      "intervention": "Protein and vegetables before carbohydrate",
+      "pmId": "BRS6-FM1-PM2",
+      "sources": [
+        {
+          "doi": "10.1136/bmjdrc-2017-000440",
+          "url": "https://doi.org/10.1136/bmjdrc-2017-000440"
+        }
+      ],
+      "proposition": "In 16 metformin-treated adults with type 2 diabetes, the tested carbohydrate-last meal order lowered three-hour glucose iAUC and incremental peak versus carbohydrate first.",
+      "studyContext": "Randomised three-condition crossover, one week apart; 30-minute matched meal: 10-minute first course, 10-minute interval, 10-minute second course. Chicken and salad before bread/orange juice versus reverse; sandwich condition also tested. Venous sampling through 180 minutes; mixed models with multiplicity adjustment and missing-sandwich sensitivity analysis.",
+      "assessmentStatus": "provisional review appraisal",
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "rationale": {
+        "D": "Exact acute meal/glucose proposition is directly measured; this D2 does not transfer to long-term variability.",
+        "B": "Randomised same-person matched meals and sensitivity analysis; small unmasked study, allocation concealment and prospective endpoint protections not fully established.",
+        "P": "Clear direction across tested contrasts; small cohort, mean/SEM and three-hour horizon limit transferable magnitude.",
+        "R": "One verified exact three-condition dataset. Earlier same-team pilot is referenced but not independently appraised here; no credit inferred."
+      },
+      "assessmentGaps": [],
+      "admissionRecommendation": "Defer",
+      "admissionRationale": "Do not reverse the prior governed PM2 selection merely because a later discovery list contains this study. Retain the acute result as evidence and request a bounded PM2 admission decision.",
+      "implementationStatus": "Proposed only; no canonical admission, score pin or public presentation changed",
+      "interventionType": "dietary protocol",
+      "biologicalRelationship": {
+        "moa": {
+          "status": "unresolved",
+          "description": "Delayed gastric emptying and altered absorption are hypotheses; neither was measured in this experiment.",
+          "evidenceQualification": "Observed endpoint does not identify causal mediation; no collapsed mechanism summary proposed."
+        },
+        "measuredEffect": "Glucose iAUC 53.4% lower versus carbohydrate first and 44.1% lower versus sandwich; incremental peak 53.8% lower versus carbohydrate first.",
+        "pmRelevance": "Acute excursion is relevant to post-meal swings, but current PM2 selects variability-specific protocols; PM1 appearance flux is also not measured."
+      },
+      "limitations": [
+        {
+          "type": "population",
+          "text": "16 adults with overweight/obesity, metformin-treated T2DM; one meal composition."
+        },
+        {
+          "type": "null-outcome",
+          "text": "Glucagon excursions did not differ; insulin and GLP-1 did not consistently differ versus sandwich."
+        },
+        {
+          "type": "time-course",
+          "text": "At 180 minutes glucose was lower in carbohydrate-first; no observation beyond three hours."
+        },
+        {
+          "type": "mechanism",
+          "text": "Gastric emptying and nutrient appearance flux were not measured."
+        },
+        {
+          "type": "scope",
+          "text": "Acute excursion is not established day-to-day MAGE, clinical benefit or brain benefit."
+        }
+      ],
+      "evidenceSource": {
+        "doi": "10.1136/bmjdrc-2017-000440",
+        "studyContext": "Randomised three-condition crossover, one week apart; 30-minute matched meal: 10-minute first course, 10-minute interval, 10-minute second course. Chicken and salad before bread/orange juice versus reverse; sandwich condition also tested. Venous sampling through 180 minutes; mixed models with multiplicity adjustment and missing-sandwich sensitivity analysis."
+      },
+      "interventionAdmitted": "Unset",
+      "inheritedFindingScore": false,
+      "secLocation": "Section 4 only if integration approved; no score inside six atoms",
+      "sourceVerification": {
+        "level": "Full primary text",
+        "route": "NCBI BioC PMC5604719",
+        "sections": [
+          "Research design and methods",
+          "Results",
+          "Table 1",
+          "Table 2",
+          "Conclusions"
+        ],
+        "scite": "Abstract only, contentDenied; not counted as full text"
+      },
+      "totals": {
+        "raw": 4,
+        "adjusted": 4,
+        "ceiling": 8,
+        "ordinal": true
+      },
+      "pmFile": "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx",
+      "pmMission": "Limit glycaemic volatility so post-prandial glucose swings do not create unnecessary metabolic and neuroendocrine stress.",
+      "existingInterventions": [
+        {
+          "id": "PM2-SOP-2",
+          "input": "Less-processed whole-grain food package (two-week trial)",
+          "assessment": null
+        },
+        {
+          "id": "PM2-SOP-3",
+          "input": "Early eating with front-loaded calories (six-day trial)",
+          "assessment": null
+        },
+        {
+          "id": "PM2-LIFE-2",
+          "input": "Supervised interval walking (two-week trial)",
+          "assessment": null
+        },
+        {
+          "id": "PM2-LIFE-3",
+          "input": "Four brief vigorous activity bouts daily (48-hour trial)",
+          "assessment": null
+        }
+      ],
+      "origin": "Existing local Section 6 discovery register; primary source is the study, not the register or food page",
+      "assessmentApproval": "Provisional agent appraisal; no qualified-human approval asserted",
+      "canonicalIntegrationGate": "Review candidate only. No fabricated atom_id. Canonical ownership/citation mapping must be reviewed before publishing; PM1-only Section 4 family grouping is not rollout approval (sop-lifestyle-six-atom-presentation.md, approved PM1 grouping amendment)."
+    },
+    {
+      "reviewId": "reynolds-2016",
+      "intervention": "Ten-minute walks after each main meal",
+      "pmId": "BRS6-FM1-PM2",
+      "sources": [
+        {
+          "doi": "10.1007/s00125-016-4085-2",
+          "url": "https://doi.org/10.1007/s00125-016-4085-2"
+        }
+      ],
+      "proposition": "In adults with type 2 diabetes, two weeks of advice to walk ten minutes after each meal lowered post-meal glucose iAUC versus advice to take one daily thirty-minute walk.",
+      "studyContext": "42 randomised, 41 completed; crossover with 30-day washout. Walk starts within five minutes of meal completion. Concealed computer allocation; unmasked intervention, blinded statistician, order-adjusted intention-to-treat models; accelerometry and seven-day CGM.",
+      "assessmentStatus": "provisional review appraisal",
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "rationale": {
+        "D": "Exact advice-versus-advice iAUC outcome directly tested.",
+        "B": "Concealed allocation, blinded analyst and order model; unmasked free-living behaviour and activity differences remain.",
+        "P": "CI permits approximately 1–22% reduction, materially varying magnitude.",
+        "R": "One exact advice/protocol dataset; other exercise protocols are not interchangeable replication."
+      },
+      "assessmentGaps": [],
+      "admissionRecommendation": "Defer",
+      "admissionRationale": "Explicit PM2 scope adjudication required. Do not relabel reduced exposure as demonstrated variability improvement.",
+      "implementationStatus": "Proposed only; no canonical admission, score pin or public presentation changed",
+      "interventionType": "physical activity",
+      "biologicalRelationship": {
+        "moa": {
+          "status": "unresolved",
+          "description": "Activity-related glucose utilisation is plausible, but muscle uptake and mediation were not directly quantified.",
+          "evidenceQualification": "Observed endpoint does not identify causal mediation; no collapsed mechanism summary proposed."
+        },
+        "measuredEffect": "All-meal iAUC ratio 0.88 (95% CI 0.78–0.99); dinner ratio 0.78 (0.67–0.91).",
+        "pmRelevance": "Postprandial exposure supports a bounded metabolic relationship; the measured variability outcomes do not support a positive PM2 variability claim."
+      },
+      "limitations": [
+        {
+          "type": "null-outcome",
+          "text": "MAGE difference −0.42 mmol/L (−0.94 to 0.10), CONGA and glycaemic range were not significant; mean glucose also unchanged."
+        },
+        {
+          "type": "attribution",
+          "text": "Actual activity increased despite equal prescribed minutes; timing alone was not isolated."
+        },
+        {
+          "type": "measurement",
+          "text": "Interstitial glucose concentration, not appearance/disposal flux."
+        },
+        {
+          "type": "population",
+          "text": "Short free-living T2DM trial; no cognitive outcome."
+        }
+      ],
+      "evidenceSource": {
+        "doi": "10.1007/s00125-016-4085-2",
+        "studyContext": "42 randomised, 41 completed; crossover with 30-day washout. Walk starts within five minutes of meal completion. Concealed computer allocation; unmasked intervention, blinded statistician, order-adjusted intention-to-treat models; accelerometry and seven-day CGM."
+      },
+      "interventionAdmitted": "Unset",
+      "inheritedFindingScore": false,
+      "secLocation": "Section 4 only if integration approved; no score inside six atoms",
+      "sourceVerification": {
+        "level": "Full primary article transcription plus publisher abstract cross-check",
+        "route": "https://paperzz.com/doc/8030794/advice-to-walk-after-meals-is-more-effective-for-lowering...",
+        "publisher": "https://link.springer.com/article/10.1007/s00125-016-4085-2",
+        "sections": [
+          "Methods",
+          "Tables 1–4",
+          "Discussion"
+        ],
+        "limitation": "Third-party transcription of the original paper, not publisher PDF; identity, sample and primary result agree with publisher.",
+        "scite": "Access restricted, 195-character fragment; not full text"
+      },
+      "totals": {
+        "raw": 4,
+        "adjusted": 4,
+        "ceiling": 8,
+        "ordinal": true
+      },
+      "pmFile": "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx",
+      "pmMission": "Limit glycaemic volatility so post-prandial glucose swings do not create unnecessary metabolic and neuroendocrine stress.",
+      "existingInterventions": [
+        {
+          "id": "PM2-SOP-2",
+          "input": "Less-processed whole-grain food package (two-week trial)",
+          "assessment": null
+        },
+        {
+          "id": "PM2-SOP-3",
+          "input": "Early eating with front-loaded calories (six-day trial)",
+          "assessment": null
+        },
+        {
+          "id": "PM2-LIFE-2",
+          "input": "Supervised interval walking (two-week trial)",
+          "assessment": null
+        },
+        {
+          "id": "PM2-LIFE-3",
+          "input": "Four brief vigorous activity bouts daily (48-hour trial)",
+          "assessment": null
+        }
+      ],
+      "origin": "Existing local Section 6 discovery register; primary source is the study, not the register or food page",
+      "assessmentApproval": "Provisional agent appraisal; no qualified-human approval asserted",
+      "canonicalIntegrationGate": "Review candidate only. No fabricated atom_id. Canonical ownership/citation mapping must be reviewed before publishing; PM1-only Section 4 family grouping is not rollout approval (sop-lifestyle-six-atom-presentation.md, approved PM1 grouping amendment)."
+    },
+    {
+      "reviewId": "wastyk-2021",
+      "intervention": "Ten-week high-fermented-food dietary pattern",
+      "pmId": "BRS3-FM3-PM7",
+      "sources": [
+        {
+          "doi": "10.1016/j.cell.2021.06.019",
+          "url": "https://doi.org/10.1016/j.cell.2021.06.019"
+        }
+      ],
+      "proposition": "In the fermented-food arm of the Wastyk trial, 19 of 93 measured serum inflammatory proteins decreased over the ten-week intervention; this is an exploratory within-arm observation.",
+      "studyContext": "18 analysed per arm, generally healthy adults; four-week ramp to about six fermented-food servings/day and six-week maintenance; high-fibre active comparator, no usual-diet control. Two fibre participants not randomised. Serial immune profiling with multiple-testing corrections.",
+      "assessmentStatus": "provisional review appraisal",
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "rationale": {
+        "D": "Direct measurement of the explicitly observational within-arm protein proposition.",
+        "B": "Repeated sampling and multiplicity control; no usual-diet control and unmasked exploratory analyses leave attribution concerns.",
+        "P": "Small arm and heterogeneous exploratory markers; precise transferable effect not established.",
+        "R": "One trial; multiple assays and microbiota associations are not independent replication."
+      },
+      "assessmentGaps": [],
+      "admissionRecommendation": "Admit",
+      "admissionRationale": "Recommend only the bounded, exploratory cytokine-marker intervention on BRS3-FM3-PM7; author review before canonical integration. No clinical efficacy claim.",
+      "implementationStatus": "Proposed only; no canonical admission, score pin or public presentation changed",
+      "interventionType": "dietary protocol",
+      "biologicalRelationship": {
+        "moa": {
+          "status": "unresolved",
+          "description": "Microbial and food-metabolite pathways remain hypotheses; the trial does not isolate a causal organism, compound or pathway.",
+          "evidenceQualification": "Observed endpoint does not identify causal mediation; no collapsed mechanism summary proposed."
+        },
+        "measuredEffect": "19/93 serum proteins decreased, including IL-6, IL-10 and IL-12b; microbiota diversity increased as a separate endpoint.",
+        "pmRelevance": "Serum immune signalling relates to cytokine network modulation. Do not automatically admit the same pattern to BRS5-FM2-PM4: diversity alone does not establish ecological selection or substrate-processing improvement."
+      },
+      "limitations": [
+        {
+          "type": "null-outcome",
+          "text": "Primary cytokine response score was not significant in either arm; ex vivo signalling capacity was unchanged."
+        },
+        {
+          "type": "clinical",
+          "text": "No significant cognition, well-being or standard metabolic-marker changes reported."
+        },
+        {
+          "type": "design",
+          "text": "No non-intervention control, modest sample, unmasked team and exploratory outcomes."
+        },
+        {
+          "type": "mechanism",
+          "text": "Diversity did not establish causal mediation of immune effects; IL-10 is not simply a harmful pro-inflammatory marker."
+        },
+        {
+          "type": "exposure",
+          "text": "Mixed fermented foods; no isolated yogurt/kimchi efficacy or universal six-serving prescription."
+        },
+        {
+          "type": "tolerability",
+          "text": "Transient bloating during ramp-up."
+        }
+      ],
+      "evidenceSource": {
+        "doi": "10.1016/j.cell.2021.06.019",
+        "studyContext": "18 analysed per arm, generally healthy adults; four-week ramp to about six fermented-food servings/day and six-week maintenance; high-fibre active comparator, no usual-diet control. Two fibre participants not randomised. Serial immune profiling with multiple-testing corrections."
+      },
+      "interventionAdmitted": "Unset",
+      "inheritedFindingScore": false,
+      "secLocation": "Section 4 only if integration approved; no score inside six atoms",
+      "sourceVerification": {
+        "level": "Reused full primary text",
+        "route": "NCBI BioC PMC9020749, prior 2026-11-02 retrieval /tmp/pm4-9020749.xml",
+        "sections": [
+          "Results overview (primary null)",
+          "Decreased inflammatory markers",
+          "Limitations",
+          "STAR Methods",
+          "Statistical Analysis of Primary Outcome"
+        ],
+        "scite": "No readable text; reused existing BioC instead",
+        "currentBioCAttempt": "HTTP 429; no repeated download needed after locating prior retrieval"
+      },
+      "totals": {
+        "raw": 4,
+        "adjusted": 4,
+        "ceiling": 8,
+        "ordinal": true
+      },
+      "pmFile": "docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx",
+      "pmMission": "Tune downstream cytokine signalling intensity so inflammatory tone does not remain chronically elevated.",
+      "existingInterventions": [],
+      "origin": "Existing local Section 6 discovery register; primary source is the study, not the register or food page",
+      "assessmentApproval": "Provisional agent appraisal; no qualified-human approval asserted",
+      "ontology": [],
+      "ontologyBoundary": "Pattern has no single food identity; do not invent a canonical six-servings pattern identifier or imply individual food efficacy.",
+      "mechanisticHome": "PM7-F1 identifies cytokine signalling; it does not substantiate this new intervention or confer its SEC.",
+      "proposedSummary": "Tested fermented-food pattern → lower selected serum inflammatory markers",
+      "citationKey": null,
+      "canonicalIntegrationGate": "Review candidate only. No fabricated atom_id. Canonical ownership/citation mapping must be reviewed before publishing; PM1-only Section 4 family grouping is not rollout approval (sop-lifestyle-six-atom-presentation.md, approved PM1 grouping amendment)."
+    },
+    {
+      "reviewId": "baxter-2019",
+      "intervention": "Unheated extracted potato resistant-starch supplementation",
+      "pmId": "BRS5-FM2-PM5",
+      "sources": [
+        {
+          "doi": "10.1128/mBio.02566-18",
+          "url": "https://doi.org/10.1128/mBio.02566-18"
+        }
+      ],
+      "proposition": "In the tested young-adult cohort, extracted potato resistant-starch supplementation was associated with higher faecal butyrate concentration during supplementation than baseline.",
+      "studyContext": "174 analysed across four supplements; potato n=43, ages 17–29. Random group assignment over four academic-semester studies. Three/four baseline and intervention stools; 4–7-day dose ramp then full-dose sampling. 40–48 g potato flour/day, about 70% RS2, not heated. Analysts masked; participants masked only first semester.",
+      "assessmentStatus": "provisional review appraisal",
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 1
+      },
+      "rationale": {
+        "D": "Exact supplement/faecal-concentration proposition directly measured.",
+        "B": "Random allocation, blinded sample analysis and repeated sampling; masking, diet and exclusions limit causal attribution.",
+        "P": "Mean response established but broad dispersion and nonresponders prevent reliable individual effect size.",
+        "R": "Separate academic-semester samples in one research programme provide partial confirmation; not independent-team replication."
+      },
+      "assessmentGaps": [],
+      "admissionRecommendation": "Admit",
+      "admissionRationale": "Recommend exact preparation-specific supplement only; do not convert existing food edges into equivalent effective-dose interventions.",
+      "implementationStatus": "Proposed only; no canonical admission, score pin or public presentation changed",
+      "interventionType": "dietary protocol",
+      "biologicalRelationship": {
+        "moa": {
+          "status": "unresolved",
+          "description": "Resistant substrate fermentation and cross-feeding are biologically supported, but species-response correlations do not isolate causal mediation of individual butyrate changes.",
+          "evidenceQualification": "Observed endpoint does not identify causal mediation; no collapsed mechanism summary proposed."
+        },
+        "measuredEffect": "Potato-arm faecal butyrate increased about 29%; 63% increased and 37% were unchanged or decreased.",
+        "pmRelevance": "SCFA-related dietary substrate intervention fits PM5 with a faecal-concentration boundary, not a guaranteed barrier/brain effect."
+      },
+      "limitations": [
+        {
+          "type": "measurement",
+          "text": "Faecal concentration is not production flux, epithelial exposure or brain signalling."
+        },
+        {
+          "type": "exposure",
+          "text": "Extracted unheated RS2 supplement; not cooked/cooled potato meals or a verified equivalent banana dose."
+        },
+        {
+          "type": "null-outcome",
+          "text": "Maize resistant starch and inulin did not significantly raise butyrate; no alpha-diversity change."
+        },
+        {
+          "type": "design",
+          "text": "Small supplement groups, incompletely masked participants, background diet uncontrolled and sample-completeness exclusions."
+        },
+        {
+          "type": "response",
+          "text": "Individual microbiota-dependent heterogeneity; universal response is unsupported."
+        }
+      ],
+      "evidenceSource": {
+        "doi": "10.1128/mBio.02566-18",
+        "studyContext": "174 analysed across four supplements; potato n=43, ages 17–29. Random group assignment over four academic-semester studies. Three/four baseline and intervention stools; 4–7-day dose ramp then full-dose sampling. 40–48 g potato flour/day, about 70% RS2, not heated. Analysts masked; participants masked only first semester."
+      },
+      "interventionAdmitted": "Unset",
+      "inheritedFindingScore": false,
+      "secLocation": "Section 4 only if integration approved; no score inside six atoms",
+      "sourceVerification": {
+        "level": "Full primary text",
+        "route": "NCBI BioC PMC6355990",
+        "sections": [
+          "Table 1",
+          "Effects on short-chain fatty acids",
+          "Study participants",
+          "Experimental design",
+          "Dietary supplements",
+          "HPLC methods"
+        ]
+      },
+      "totals": {
+        "raw": 5,
+        "adjusted": 5,
+        "ceiling": 8,
+        "ordinal": true
+      },
+      "pmFile": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+      "pmMission": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "existingInterventions": [],
+      "origin": "Existing local Section 6 discovery register; primary source is the study, not the register or food page",
+      "assessmentApproval": "Provisional agent appraisal; no qualified-human approval asserted",
+      "ontology": [
+        {
+          "identity": "resistant-starch",
+          "path": "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch.md",
+          "role": "Measured substrate; preparation-specific extracted RS2 supplement"
+        },
+        {
+          "identity": "potatoes",
+          "path": "docs/foods/potatoes.md",
+          "role": "Contextual food identity only; not the tested meal or an equivalent intervention"
+        }
+      ],
+      "mechanisticHome": "PM5-F1",
+      "proposedSummary": "Unheated potato-starch supplement → higher faecal butyrate in the tested cohort",
+      "citationKey": "baxter_fermentable_fibers_2019",
+      "canonicalIntegrationGate": "Review candidate only. No fabricated atom_id. Canonical ownership/citation mapping must be reviewed before publishing; PM1-only Section 4 family grouping is not rollout approval (sop-lifestyle-six-atom-presentation.md, approved PM1 grouping amendment)."
+    },
+    {
+      "reviewId": "sutton-2018",
+      "intervention": "Six-hour early eating window with weight-maintenance feeding",
+      "pmId": "BRS6-FM1-PM3",
+      "sources": [
+        {
+          "doi": "10.1016/j.cmet.2018.04.010",
+          "url": "https://doi.org/10.1016/j.cmet.2018.04.010"
+        }
+      ],
+      "proposition": "In eight men with prediabetes completing the crossover, five weeks of early six-hour feeding reduced the OGTT-derived incremental insulin/glucose AUC ratio compared with a twelve-hour eating schedule.",
+      "studyContext": "12 enrolled, eight completers; randomised concealed allocation, approximately seven-week washout. Matched calories/composition, supervised meals, dinner by 15:00. Completer mixed models include sequence and period; fasting duration before testing differed.",
+      "assessmentStatus": "provisional review appraisal",
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "rationale": {
+        "D": "Direct assessment of the named OGTT-derived index, not direct disposal.",
+        "B": "Concealed randomisation and matched supervised intake; completer analysis, unmasking and unequal pretest fast leave concerns.",
+        "P": "Eight completers, SEM and surrogate endpoint constrain magnitude/generalisation.",
+        "R": "One exact protocol trial; other fasting windows are not automatically replication."
+      },
+      "assessmentGaps": [],
+      "admissionRecommendation": "Admit",
+      "admissionRationale": "Recommend tightly qualified prediabetes protocol on PM3 only, retaining surrogate, fasting and population restrictions.",
+      "implementationStatus": "Proposed only; no canonical admission, score pin or public presentation changed",
+      "interventionType": "dietary protocol",
+      "biologicalRelationship": {
+        "moa": {
+          "status": "unresolved",
+          "description": "Early timing and prolonged fasting may alter metabolic handling; neither circadian mediation nor intracellular insulin signalling was isolated.",
+          "evidenceQualification": "Observed endpoint does not identify causal mediation; no collapsed mechanism summary proposed."
+        },
+        "measuredEffect": "OGTT-derived insulin-resistance index decreased 36 ± 10 U/mg (p=0.005).",
+        "pmRelevance": "Insulin-response index is relevant to PM3, with surrogate limitations; no automatic transfer to hormonal/circadian PMs or glucose-disposal flux."
+      },
+      "limitations": [
+        {
+          "type": "measurement",
+          "text": "OGTT-derived index, not clamp disposal, tissue signalling or a directly measured circadian mechanism."
+        },
+        {
+          "type": "null-outcome",
+          "text": "Fasting and OGTT glucose unchanged; hs-CRP, IL-6 and cortisol unchanged."
+        },
+        {
+          "type": "design",
+          "text": "Eight male completers, unmasked supervised efficacy trial; four withdrawals."
+        },
+        {
+          "type": "attribution",
+          "text": "Eating-window duration and early timing coupled; pretest fast unmatched. Sequence/period effects affected some other outcomes, not the selected index."
+        },
+        {
+          "type": "adverse-outcome",
+          "text": "Fasting triglycerides and total cholesterol increased; not a uniformly beneficial metabolic profile."
+        },
+        {
+          "type": "implementation",
+          "text": "Highly supervised protocol does not establish general feasibility or an unsupervised fasting prescription."
+        }
+      ],
+      "evidenceSource": {
+        "doi": "10.1016/j.cmet.2018.04.010",
+        "studyContext": "12 enrolled, eight completers; randomised concealed allocation, approximately seven-week washout. Matched calories/composition, supervised meals, dinner by 15:00. Completer mixed models include sequence and period; fasting duration before testing differed."
+      },
+      "interventionAdmitted": "Unset",
+      "inheritedFindingScore": false,
+      "secLocation": "Section 4 only if integration approved; no score inside six atoms",
+      "sourceVerification": {
+        "level": "Full primary text",
+        "route": "NCBI BioC PMC5990470",
+        "sections": [
+          "Participants",
+          "Insulin outcomes",
+          "Limitations",
+          "Study Design",
+          "Randomization",
+          "Statistical analyses"
+        ]
+      },
+      "totals": {
+        "raw": 4,
+        "adjusted": 4,
+        "ceiling": 8,
+        "ordinal": true
+      },
+      "pmFile": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+      "pmMission": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "existingInterventions": [
+        {
+          "id": "PM3-SOP-1",
+          "input": "Diet-induced weight reduction when excess adiposity is relevant",
+          "assessment": null
+        },
+        {
+          "id": "PM3-SOP-DEFERRED-1",
+          "input": "Conditional oral arginine supplementation in the tested type-2-diabetes protocol",
+          "assessment": null
+        },
+        {
+          "id": "PM3-LIFE-1",
+          "input": "Regular aerobic activity (studied training)",
+          "assessment": null
+        }
+      ],
+      "origin": "Existing local Section 6 discovery register; primary source is the study, not the register or food page",
+      "assessmentApproval": "Provisional agent appraisal; no qualified-human approval asserted",
+      "ontology": [],
+      "ontologyBoundary": "Protocol identity is the exact study exposure; no invented ontology identifier.",
+      "mechanisticHome": "PM3 insulin sensitivity operation; existing exercise and weight-loss Findings cannot substitute for the protocol evidence.",
+      "proposedSummary": "Tested early eating window → lower OGTT-derived insulin-resistance index",
+      "citationKey": null,
+      "canonicalIntegrationGate": "Review candidate only. No fabricated atom_id. Canonical ownership/citation mapping must be reviewed before publishing; PM1-only Section 4 family grouping is not rollout approval (sop-lifestyle-six-atom-presentation.md, approved PM1 grouping amendment)."
+    },
+    {
+      "reviewId": "hurrell-2003",
+      "intervention": "Verified cereal dephytinisation",
+      "pmId": "BRS1-FM1-PM3",
+      "interventionId": "PM3-SOP-2",
+      "proposition": "Verified phytase dephytinisation increased iron absorption from the tested water-reconstituted cereal porridges, with material-specific exceptions.",
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 1
+      },
+      "rationale": {
+        "D": "The measured isotope endpoint matches the bounded absorption proposition.",
+        "B": "Within-participant labelled comparisons and measured phytate; sequential meal order and unreported masking leave residual concerns.",
+        "P": "Reported paired ratios support direction; small cohorts and material-dependent magnitudes prevent a precise transferable effect.",
+        "R": "Separate study cohorts within the same research programme provide partial confirmation; not independent-team replication."
+      },
+      "assessmentStatus": "Existing canonical provisional assessment reused",
+      "existingAssessmentRef": {
+        "id": "brs1-pm3-sop-2-intervention-assessment",
+        "version": 1,
+        "sha256": "180261ffce0012d0b7dc54a8a70a4c0682c0819dc2446d17269e1db2ef206548"
+      },
+      "sources": {
+        "supporting": [
+          "10.1093/ajcn/77.5.1213"
+        ],
+        "contextual": [],
+        "targetedChecks": [],
+        "retrievalLimited": [],
+        "contradictoryAssessment": "No generic household soaking claim. Milk matrices and high-tannin sorghum did not consistently respond. No dopamine outcome. Separate study cohorts within the same research programme provide partial confirmation; not independent-team replication."
+      },
+      "assessmentGaps": [],
+      "limitations": [
+        "No generic household soaking claim.",
+        "Milk matrices and high-tannin sorghum did not consistently respond.",
+        "No dopamine outcome."
+      ],
+      "admissionRecommendation": "Admit",
+      "admissionRationale": "Retain existing narrowly bounded upstream iron-provision admission; no new downstream or food-generalisation claim. Shared PM4/PM5 relationships do not inherit this PM3 score.",
+      "implementationStatus": "Already admitted and independently scored; immutable record and pin unchanged. No duplicate assessment.",
+      "sourceVerification": {
+        "level": "Reused prior original full-text appraisal",
+        "records": [
+          "review/sequential-pm-interventions-2026-11-02/pm3-sec/intervention-appraisals.json",
+          "review/sequential-pm-interventions-2026-11-02/pm3-tea-appraisal.json"
+        ],
+        "rationale": "Existing exact-proposition independent appraisal verified against canonical pin; no evidence of change requiring repeat retrieval."
+      },
+      "inheritedFindingScore": false,
+      "totals": {
+        "raw": 5,
+        "adjusted": 5,
+        "ceiling": 8,
+        "ordinal": true
+      },
+      "pmFile": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+      "pmMission": "Maintain appropriately regulated dopamine synthesis, storage, release, receptor signalling, reuptake and metabolism across changing functional demand.",
+      "existingInterventions": [
+        {
+          "id": "PM3-SOP-1",
+          "input": "Pair non-haem iron-containing meals with an ascorbic-acid source",
+          "assessment": {
+            "id": "brs1-pm3-sop-1-intervention-assessment",
+            "version": 1,
+            "sha256": "9a36c3d4ae865ee2c0a320b8ae001719a73966cbd001651d793c40ba0dba7f68"
+          }
+        },
+        {
+          "id": "PM3-SOP-2",
+          "input": "Use validated phytate-reducing preparation methods for high-phytate cereals",
+          "assessment": {
+            "id": "brs1-pm3-sop-2-intervention-assessment",
+            "version": 1,
+            "sha256": "180261ffce0012d0b7dc54a8a70a4c0682c0819dc2446d17269e1db2ef206548"
+          }
+        },
+        {
+          "id": "PM3-SOP-3",
+          "input": "Short-term selective dietary-fat restriction in adults with obesity under controlled conditions",
+          "assessment": {
+            "id": "brs1-pm3-sop-3-intervention-assessment",
+            "version": 1,
+            "sha256": "a165caf14944a268d824345a30114bd971a6ddd7368b7d076bf81c97c1631d53"
+          }
+        },
+        {
+          "id": "PM3-SOP-4",
+          "input": "Short-term very-low-calorie dieting in adults with obesity",
+          "assessment": {
+            "id": "brs1-pm3-sop-4-intervention-assessment",
+            "version": 1,
+            "sha256": "df1d1c76a8166b1f359bf83dc072d633631e86cc347d7207ba5846e9f370c1ab"
+          }
+        },
+        {
+          "id": "PM3-SOP-TEA-TIMING-1",
+          "input": "Black tea one hour after rather than with an iron-containing porridge meal",
+          "assessment": {
+            "id": "brs1-pm3-sop-tea-timing-1-intervention-assessment",
+            "version": 1,
+            "sha256": "40e4cf3c2981b3b34667b0ffee505f015e1a54ef929e94d1bf364659d42bbb8e"
+          }
+        },
+        {
+          "id": "PM3-LP-1",
+          "input": "Acute voluntary cardiovascular exercise",
+          "assessment": {
+            "id": "brs1-pm3-lp-1-intervention-assessment",
+            "version": 1,
+            "sha256": "238ed442c0f4b352d65ebfa278e649217a69be897489e10e9712dda3666cd7ad"
+          }
+        },
+        {
+          "id": "PM3-LP-2",
+          "input": "Avoid acute total sleep deprivation",
+          "assessment": {
+            "id": "brs1-pm3-lp-2-intervention-assessment",
+            "version": 1,
+            "sha256": "3b0d5490f7cbed3f11646b7f425ca10859e0691d12b0a28f0db9ace26eb62252"
+          }
+        }
+      ],
+      "origin": "Existing local Section 6 discovery register; primary source is the study, not the register or food page",
+      "assessmentApproval": "Provisional agent appraisal; no qualified-human approval asserted"
+    },
+    {
+      "reviewId": "ahmad-fuzi-2017",
+      "intervention": "Black tea delayed one hour after porridge",
+      "pmId": "BRS1-FM1-PM3",
+      "interventionId": "PM3-SOP-TEA-TIMING-1",
+      "proposition": "In the tested porridge/black-tea protocol, iron absorption was higher when tea was consumed one hour after rather than with the meal.",
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "rationale": {
+        "D": "Exact upstream isotope absorption comparison; no dopamine inference.",
+        "B": "Same-participant standardised meals and objective isotope measurements, but fixed nonrandomised sequence leaves period effects unresolved.",
+        "P": "Paired difference 2.2 percentage points, p=.046; 12 women and broad dispersion limit transferable effect size.",
+        "R": "One verified exact timing dataset; thesis, conference and journal versions are the same study."
+      },
+      "assessmentStatus": "Existing canonical provisional assessment reused",
+      "existingAssessmentRef": {
+        "id": "brs1-pm3-sop-tea-timing-1-intervention-assessment",
+        "version": 1,
+        "sha256": "40e4cf3c2981b3b34667b0ffee505f015e1a54ef929e94d1bf364659d42bbb8e"
+      },
+      "sources": {
+        "supporting": [
+          "10.3945/ajcn.117.161364"
+        ],
+        "contextual": [],
+        "targetedChecks": [],
+        "retrievalLimited": [],
+        "contradictoryAssessment": "Not green tea, optimal timing, long-term iron status or brain delivery. Population restricted to iron-replete women. One verified exact timing dataset; thesis, conference and journal versions are the same study."
+      },
+      "assessmentGaps": [],
+      "limitations": [
+        "Not green tea, optimal timing, long-term iron status or brain delivery.",
+        "Population restricted to iron-replete women."
+      ],
+      "admissionRecommendation": "Admit",
+      "admissionRationale": "Retain existing narrowly bounded upstream iron-provision admission; no new downstream or food-generalisation claim. Shared PM4/PM5 relationships do not inherit this PM3 score.",
+      "implementationStatus": "Already admitted and independently scored; immutable record and pin unchanged. No duplicate assessment.",
+      "sourceVerification": {
+        "level": "Reused prior original full-text appraisal",
+        "records": [
+          "review/sequential-pm-interventions-2026-11-02/pm3-sec/intervention-appraisals.json",
+          "review/sequential-pm-interventions-2026-11-02/pm3-tea-appraisal.json"
+        ],
+        "rationale": "Existing exact-proposition independent appraisal verified against canonical pin; no evidence of change requiring repeat retrieval."
+      },
+      "inheritedFindingScore": false,
+      "totals": {
+        "raw": 4,
+        "adjusted": 4,
+        "ceiling": 8,
+        "ordinal": true
+      },
+      "pmFile": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+      "pmMission": "Maintain appropriately regulated dopamine synthesis, storage, release, receptor signalling, reuptake and metabolism across changing functional demand.",
+      "existingInterventions": [
+        {
+          "id": "PM3-SOP-1",
+          "input": "Pair non-haem iron-containing meals with an ascorbic-acid source",
+          "assessment": {
+            "id": "brs1-pm3-sop-1-intervention-assessment",
+            "version": 1,
+            "sha256": "9a36c3d4ae865ee2c0a320b8ae001719a73966cbd001651d793c40ba0dba7f68"
+          }
+        },
+        {
+          "id": "PM3-SOP-2",
+          "input": "Use validated phytate-reducing preparation methods for high-phytate cereals",
+          "assessment": {
+            "id": "brs1-pm3-sop-2-intervention-assessment",
+            "version": 1,
+            "sha256": "180261ffce0012d0b7dc54a8a70a4c0682c0819dc2446d17269e1db2ef206548"
+          }
+        },
+        {
+          "id": "PM3-SOP-3",
+          "input": "Short-term selective dietary-fat restriction in adults with obesity under controlled conditions",
+          "assessment": {
+            "id": "brs1-pm3-sop-3-intervention-assessment",
+            "version": 1,
+            "sha256": "a165caf14944a268d824345a30114bd971a6ddd7368b7d076bf81c97c1631d53"
+          }
+        },
+        {
+          "id": "PM3-SOP-4",
+          "input": "Short-term very-low-calorie dieting in adults with obesity",
+          "assessment": {
+            "id": "brs1-pm3-sop-4-intervention-assessment",
+            "version": 1,
+            "sha256": "df1d1c76a8166b1f359bf83dc072d633631e86cc347d7207ba5846e9f370c1ab"
+          }
+        },
+        {
+          "id": "PM3-SOP-TEA-TIMING-1",
+          "input": "Black tea one hour after rather than with an iron-containing porridge meal",
+          "assessment": {
+            "id": "brs1-pm3-sop-tea-timing-1-intervention-assessment",
+            "version": 1,
+            "sha256": "40e4cf3c2981b3b34667b0ffee505f015e1a54ef929e94d1bf364659d42bbb8e"
+          }
+        },
+        {
+          "id": "PM3-LP-1",
+          "input": "Acute voluntary cardiovascular exercise",
+          "assessment": {
+            "id": "brs1-pm3-lp-1-intervention-assessment",
+            "version": 1,
+            "sha256": "238ed442c0f4b352d65ebfa278e649217a69be897489e10e9712dda3666cd7ad"
+          }
+        },
+        {
+          "id": "PM3-LP-2",
+          "input": "Avoid acute total sleep deprivation",
+          "assessment": {
+            "id": "brs1-pm3-lp-2-intervention-assessment",
+            "version": 1,
+            "sha256": "3b0d5490f7cbed3f11646b7f425ca10859e0691d12b0a28f0db9ace26eb62252"
+          }
+        }
+      ],
+      "origin": "Existing local Section 6 discovery register; primary source is the study, not the register or food page",
+      "assessmentApproval": "Provisional agent appraisal; no qualified-human approval asserted"
+    }
+  ]
+}

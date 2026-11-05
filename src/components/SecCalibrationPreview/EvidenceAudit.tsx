@@ -14,7 +14,7 @@ import {GlycaemicStage2Audit} from './GlycaemicInterventionPreview';
 import {assessmentPresentation, evidenceReviewPresentation, correctionPresentation, secFactors, describeFactorScores} from './auditPresentation.mjs';
 import styles from './styles.module.css';
 
-export default function EvidenceAudit({panelId,assessmentRecords,assessmentPmId,assessmentPage,assessmentView=assessmentPresentation,recordAnchor=(r:any)=>r.id,scientificPrinciples,scientificFindings,scientificTransparency,showEvidenceReviewStatus=true,embedded=false}: {panelId:string;assessmentRecords?:any[];assessmentPmId?:string;assessmentPage?:PublicPageRecord|null;assessmentView?:(r:any)=>any;recordAnchor?:(r:any)=>string;scientificPrinciples?:React.ReactNode;scientificFindings?:React.ReactNode;scientificTransparency?:React.ReactNode;showEvidenceReviewStatus?:boolean;embedded?:boolean}) {
+export default function EvidenceAudit({panelId,assessmentRecords,assessmentPmId,assessmentPage,assessmentView=assessmentPresentation,recordAnchor=(r:any)=>r.id,scientificPrinciples,scientificFindings,scientificTransparency,showEvidenceReviewStatus=true,embedded=false,assessmentHeading}: {panelId:string;assessmentRecords?:any[];assessmentPmId?:string;assessmentPage?:PublicPageRecord|null;assessmentView?:(r:any)=>any;recordAnchor?:(r:any)=>string;scientificPrinciples?:React.ReactNode;scientificFindings?:React.ReactNode;scientificTransparency?:React.ReactNode;showEvidenceReviewStatus?:boolean;embedded?:boolean;assessmentHeading?:string}) {
   const location = useLocation();
   const v1Pm = location.pathname.includes('/sec-calibration/v1/') ? ({gaba:'BRS1-FM4-PM9','glycaemic-variability':'BRS6-FM1-PM2','same-synthesis':'BRS2-FM1-PM3'}[location.pathname.replace(/\/$/,'').split('/').pop() || '']) : null;
   const records = assessmentRecords ?? (v1Pm ? v1Assessments.filter(r => r.pmId === v1Pm) : location.pathname.replace(/\/$/, '') === '/docs/system/sec-calibration/same-synthesis' ? sameAudits : location.pathname.replace(/\/$/, '') === '/docs/system/sec-calibration/glycaemic-variability' ? glycaemicAudits : [audit, sf2Audit]);
@@ -69,7 +69,7 @@ export default function EvidenceAudit({panelId,assessmentRecords,assessmentPmId,
     {scientificPrinciples}
     </>}
     {scientificFindings}
-    <h3>{embedded ? "Historical assessment details" : "Scientific Finding assessments"}</h3>
+    <h3>{assessmentHeading ?? (embedded ? "Historical assessment details" : "Scientific Finding assessments")}</h3>
     {records.map(audit => {
       const conditional = 'conditional' in audit ? audit.conditional : null;
       const display = assessmentView(audit);
@@ -85,7 +85,7 @@ export default function EvidenceAudit({panelId,assessmentRecords,assessmentPmId,
           </span>
         </button>
         <div className="brs-fm-hub-panel" hidden>
-          <p><a href={`?review=0#${audit.findingId.toLowerCase()}`}>{display.shortId} — {display.title}</a> · Assessment status: {display.statusLabel}</p>
+          <p><a href={`?review=0#${(audit.findingId || audit.interventionId).toLowerCase()}`}>{display.shortId} — {display.title}</a> · Assessment status: {display.statusLabel}</p>
           <p>Synthesised Evidence Confidence (SEC) assessment</p>
           <p><strong>Exact assessed proposition:</strong> {audit.proposition}</p>
           <p><strong>Principal limitation:</strong> {audit.limitations[0]}</p>
@@ -99,7 +99,7 @@ export default function EvidenceAudit({panelId,assessmentRecords,assessmentPmId,
             return <React.Fragment key={factor}><dt><strong>{secFactors[factor].name} — {value === null ? (state === 'pending' ? 'Pending appraisal' : state === 'unassessable' ? 'Evidence Un-assessable' : 'Unresolved') : `${value}/2`}</strong> · {state}</dt><dd>{describeFactorScores(reason)}</dd></React.Fragment>;
           })}</dl>
           {audit.assessmentGaps?.length > 0 && <section aria-label="Assessment gaps"><h4>Assessment gaps</h4><p>These records track unfinished or unassessable appraisal, not missing scientific knowledge.</p>{audit.assessmentGaps.map((gap:any) => <EvidenceDisclosure key={gap.id} id={gap.id} label="Assessment gap" title={gap.dimensions.map((d:string)=>secFactors[d].name).join(' / ')} status={gap.status === 'pending' ? 'Pending appraisal' : gap.status === 'unassessable' ? 'Evidence Un-assessable' : 'Resolved'}>
-            <p><strong>Record ID:</strong> {gap.id} · <a href={'?review=0#'+gap.findingId.toLowerCase()}>{gap.findingId}</a></p>
+            <p><strong>Record ID:</strong> {gap.id} · <a href={'?review=0#'+(gap.findingId || gap.interventionId).toLowerCase()}>{gap.findingId || gap.interventionId}</a></p>
             <p><strong>Reason:</strong> {gap.reason}</p>
             <p><strong>Sources:</strong> {gap.sources.map((source:string)=><a key={source} href={source.startsWith('10.')?'https://doi.org/'+source:'/docs/papers/BRAIN-Diet-References#'+source}>{source} </a>)}</p>
             <ul>{gap.attempts.map((attempt:any,i:number)=><li key={i}>{attempt.date}: {attempt.action} — {attempt.outcome}</li>)}</ul>

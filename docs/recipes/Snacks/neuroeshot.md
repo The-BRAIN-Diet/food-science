@@ -1,5 +1,6 @@
 ---
 id: neuroeshot-roe
+slug: /recipes/snacks/neuroeshot-roe
 title: 'Neuroeshot (Roe, Lemon, Hot Sauce)'
 sidebar_label: Neuroeshot
 description: >-

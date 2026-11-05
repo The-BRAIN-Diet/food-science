@@ -45,7 +45,7 @@ test("canonical Substance schema declares the redesigned public structure", () =
   assert.match(schema, /does not contain Butyrate/)
 })
 
-test("all four calibration Substance pages satisfy the canonical validator", () => {
+test("all registered calibration Substance pages satisfy the canonical validator", () => {
   const result = runSubstanceValidation()
   assert.equal(
     substanceValidationHasFailures(result),
@@ -158,4 +158,12 @@ test("Butyrate page uses the ontology projection without defensive implementatio
   assert.doesNotMatch(page, /No fermentable-fibre food is emitted/)
   assert.doesNotMatch(page, /The Foods component does not convert/)
   assert.doesNotMatch(page, /Food\s*→\s*contains\s*→\s*Butyrate/)
+})
+
+// A substance identity must not acquire a fabricated BRS mapping to satisfy validation.
+test("unmapped substance pages omit BRS sections, mapped pages still require them", () => {
+  const raw = read("docs/substances/bioactive-compounds/oxalate.md")
+  assert.deepEqual(validateCanonicalSubstancePage(raw).issues, [])
+  const mapped = raw.replace("tags:", "mechanisms:\n  Neurotransmitter Regulation: Test mapping\ntags:")
+  assert.ok(validateCanonicalSubstancePage(mapped).issues.some(x => x.includes("Biological Regulatory Systems")))
 })

@@ -811,6 +811,73 @@
   {
     "brs": "BRS4",
     "fm": "BRS4(FM1)",
+    "pm": "BRS4-FM1-PM10",
+    "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+    "dietary_input": "Iron",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "iron",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "nori",
+    "food_title": "Nori",
+    "food_material": "Purple laver (Porphyra spp.), dried, toasted",
+    "material_equivalence_status": "review-required",
+    "material_equivalence_reason": "Material, brand/fortification, cultivar or analytical-sample equivalence is not established by the recorded provenance.",
+    "ontology_relationship_status": "material-equivalence-review",
+    "reconciled_sources": [],
+    "mapping_status": "research-supported-provisional",
+    "food_evidence": [
+      {
+        "nutrition_source": {
+          "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+          "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+          "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+          "source_reference": "#food-source-3"
+        },
+        "value": 11,
+        "unit": "mg",
+        "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+        "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+        "source_reference": "#food-source-3",
+        "material": "Purple laver (Porphyra spp.), dried, toasted",
+        "preparation": "dried",
+        "record": "docs/foods/nori.md#nutrition_per_100g/iron_mg",
+        "source_record": "docs/foods/nori.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/nori.md#nutrition_per_100g/iron_mg",
+        "rank_eligible": true,
+        "comparison_group": "dry::dried",
+        "low": 11,
+        "high": 11,
+        "display": "11 mg"
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM10-F2"
+      ],
+      "citation_keys": [
+        "wang_coq7_2022"
+      ]
+    },
+    "preparation": "dried",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM1)",
     "pm": "BRS4-FM1-PM3",
     "biological_mechanism": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
     "dietary_input": "Creatine",

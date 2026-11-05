@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-05",
+  "focused_tests": {
+    "batch3": 8,
+    "batch2": 9,
+    "failures": 0
+  },
+  "sec_snapshots": 139,
+  "prior_134_entries_unchanged": true,
+  "presentation_protected_files": 691,
+  "findings": {
+    "pms": 65,
+    "problems": 0
+  },
+  "browser": [
+    {
+      "pm": "BRS-X(ECS-PM2)",
+      "url": "http://127.0.0.1:3145/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling/",
+      "six_atoms": "pass",
+      "section4_independent_sec_link": "pass",
+      "score": "provisional 4/8"
+    },
+    {
+      "pm": "BRS3-FM2-PM5",
+      "url": "http://127.0.0.1:3145/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control/",
+      "six_atoms": "pass",
+      "section4_independent_sec_link": "pass",
+      "score": "provisional 4/8"
+    },
+    {
+      "pm": "BRS6-FM3-PM6",
+      "url": "http://127.0.0.1:3145/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery/",
+      "six_atoms": "pass",
+      "section4_independent_sec_link": "pass",
+      "score": "provisional 4/8"
+    },
+    {
+      "pm": "BRS-X(Circadian-FM1-PM1)",
+      "url": "http://127.0.0.1:3145/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment/",
+      "six_atoms": "pass",
+      "section4_independent_sec_link": "pass",
+      "score": "provisional 4/8"
+    },
+    {
+      "pm": "BRS4-FM4-PM9",
+      "url": "http://127.0.0.1:3145/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis/",
+      "six_atoms": "pass",
+      "section4_independent_sec_link": "pass",
+      "score": "provisional 4/8"
+    }
+  ],
+  "remaining_checks": {
+    "bibliography": [
+      "zeisel_choline_betaine_2003",
+      "zeisel_choline_betaine_2003_erratum"
+    ],
+    "broader_sec_suite": "3 legacy fixture failures: old Finding markup expectation, test mock module resolution, old prebuild command expectation; not repaired in this scope",
+    "production_build": "not run"
+  },
+  "published": false
+}

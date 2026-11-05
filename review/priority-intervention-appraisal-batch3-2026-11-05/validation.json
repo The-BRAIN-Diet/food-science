@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-05",
+  "review_decisions": 7,
+  "scored_review_proposals": 6,
+  "six_atom_proposals": 6,
+  "new_canonical_admissions": 0,
+  "new_SEC_snapshots": 0,
+  "SEC_snapshots_preserved": 134,
+  "canonical_protection": "All PM/source/SEC hashes unchanged since post-Batch2-repair checkpoint except PM1 stale parent count corrected2→3; no Batch3 canonical writes.",
+  "focused_Batch2_tests": "9/9 pass",
+  "presentation_check": "Pass:691 protected files",
+  "SEC_check": "Pass:134 snapshots",
+  "manifest": "Seven separate appraisal checkpoints; discovery records and overall completion states preserved",
+  "browser": "See ../priority-intervention-appraisal-batch2-2026-11-05/browser-validation.json",
+  "not_run": "Full production build: review-only Batch3 and three small Batch2 text corrections; focused MDX compilation covered all five pages."
+}

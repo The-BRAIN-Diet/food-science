@@ -1,0 +1,1593 @@
+[
+  {
+    "anchor": "same-study-1",
+    "metadata": {
+      "title": "Human Mat2A Uses an Ordered Kinetic Mechanism and Is Stabilized but Not Regulated by Mat2B",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4088-8094",
+          "authenticated-orcid": true,
+          "given": "Jonathan",
+          "family": "Bailey",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Mycobacterial Metabolism and Antibiotic Research Laboratory, The Francis Crick Institute, London NW1 1AT, United Kingdom"
+            },
+            {
+              "name": "Discovery Sciences, R&D, AstraZeneca, Cambridge CB4 0WG, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Holly",
+          "family": "Douglas",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Mycobacterial Metabolism and Antibiotic Research Laboratory, The Francis Crick Institute, London NW1 1AT, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Laura",
+          "family": "Masino",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Structural Biology Scientific Technology Platform, The Francis Crick Institute, London NW1 1AT, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2875-4552",
+          "authenticated-orcid": true,
+          "given": "Luiz Pedro Sorio",
+          "family": "de Carvalho",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Mycobacterial Metabolism and Antibiotic Research Laboratory, The Francis Crick Institute, London NW1 1AT, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3141-9122",
+          "authenticated-orcid": true,
+          "given": "Argyrides",
+          "family": "Argyrou",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Discovery Sciences, R&D, AstraZeneca, Cambridge CB4 0WG, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2021,
+      "doi": "10.1021/acs.biochem.1c00672",
+      "url": "https://doi.org/10.1021/acs.biochem.1c00672"
+    }
+  },
+  {
+    "anchor": "same-study-2",
+    "metadata": {
+      "title": "MAT2B regulates the protein level of MAT2A to preserve RNA N6-methyladenosine.",
+      "authorString": "Wan X, Zeng W, Fan H, Wang C, Han S, Sun Z, Tang M, Shao J, Liu Y, Fang Y, Jia J, Tang Y, Zhang Y, Zhao B, Fang D.",
+      "year": "2024",
+      "doi": "10.1038/s41419-024-07093-8",
+      "url": "https://doi.org/10.1038/s41419-024-07093-8"
+    }
+  },
+  {
+    "anchor": "same-study-3",
+    "metadata": {
+      "title": "CryoEM structures reveal allosteric regulation of the catalytic activity of the multi-protein human MAT enzyme complexes.",
+      "authorString": "Khaja FT, Vara R, Aspinall LP, Merriman C, Maerivoet A, White JBR, Muench SP, Hasnain SS, Antonyuk SV.",
+      "year": "2026",
+      "doi": "10.1107/s2052252526005075",
+      "url": "https://doi.org/10.1107/S2052252526005075"
+    }
+  },
+  {
+    "anchor": "same-study-4",
+    "metadata": {
+      "title": "Mechanism and Inhibition of Human Methionine Adenosyltransferase 2A",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0949-8779",
+          "authenticated-orcid": true,
+          "given": "Courtney N.",
+          "family": "Niland",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Biochemistry, Albert Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, New York 10461, United States"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7753-0240",
+          "authenticated-orcid": true,
+          "given": "Agnidipta",
+          "family": "Ghosh",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biochemistry, Albert Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, New York 10461, United States"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sean M.",
+          "family": "Cahill",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biochemistry, Albert Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, New York 10461, United States"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8056-1929",
+          "authenticated-orcid": true,
+          "given": "Vern L.",
+          "family": "Schramm",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biochemistry, Albert Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, New York 10461, United States"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2021,
+      "doi": "10.1021/acs.biochem.0c00998",
+      "url": "https://doi.org/10.1021/acs.biochem.0c00998"
+    }
+  },
+  {
+    "anchor": "stage2-ref-pm1-processing2026",
+    "metadata": {
+      "title": "Effects of food processing on dietary protein quality: A systematic review, pairwise and network meta-analysis of in-vitro studies and randomised controlled trials",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0009-0003-9129-6192",
+          "authenticated-orcid": false,
+          "given": "Zi Ning",
+          "family": "Leong",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ian En Kai",
+          "family": "Mak",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yang",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiangyi",
+          "family": "Du",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3912-9042",
+          "authenticated-orcid": false,
+          "given": "Jung Eun",
+          "family": "Kim",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2026,
+      "doi": "10.1016/j.tifs.2026.105725",
+      "url": "https://doi.org/10.1016/j.tifs.2026.105725"
+    }
+  },
+  {
+    "anchor": "stage2-ref-pm1-quality2025",
+    "metadata": {
+      "title": "Understanding Dietary Protein Quality: Digestible Indispensable Amino Acid Scores and Beyond.",
+      "authorString": "Matthews JJ, Arentson-Lantz EJ, Moughan PJ, Wolfe RR, Ferrando AA, Church DD.",
+      "year": "2025",
+      "doi": "10.1016/j.tjnut.2025.07.005",
+      "url": "https://doi.org/10.1016/j.tjnut.2025.07.005"
+    }
+  },
+  {
+    "anchor": "stage2-ref-pm1-pennings2013",
+    "metadata": {
+      "title": "Minced beef is more rapidly digested and absorbed than beef steak, resulting in greater postprandial protein retention in older men",
+      "authors": [
+        {
+          "given": "Bart",
+          "family": "Pennings",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bart BL",
+          "family": "Groen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jan-Willem",
+          "family": "van Dijk",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anneke",
+          "family": "de Lange",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexandra",
+          "family": "Kiskini",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marjan",
+          "family": "Kuklinski",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joan MG",
+          "family": "Senden",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Luc JC",
+          "family": "van Loon",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2013,
+      "doi": "10.3945/ajcn.112.051201",
+      "url": "https://doi.org/10.3945/ajcn.112.051201"
+    }
+  },
+  {
+    "anchor": "stage2-ref-pm1-nonanimal2024",
+    "metadata": {
+      "title": "Ingestion of a variety of non-animal-derived dietary protein sources results in diverse postprandial plasma amino acid responses which differ between young and older adults",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5248-499X",
+          "authenticated-orcid": false,
+          "given": "Ino",
+          "family": "van der Heijden",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5432-863X",
+          "authenticated-orcid": false,
+          "given": "Sam",
+          "family": "West",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alistair J.",
+          "family": "Monteyne",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tim J. A.",
+          "family": "Finnigan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Doaa R.",
+          "family": "Abdelrahman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9474-9113",
+          "authenticated-orcid": false,
+          "given": "Andrew J.",
+          "family": "Murton",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Francis B.",
+          "family": "Stephens",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6019-6709",
+          "authenticated-orcid": false,
+          "given": "Benjamin T.",
+          "family": "Wall",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2024,
+      "doi": "10.1017/s0007114524000163",
+      "url": "https://doi.org/10.1017/s0007114524000163"
+    }
+  },
+  {
+    "anchor": "stage2-ref-pm1-blend2019",
+    "metadata": {
+      "title": "Amino Acid Availability of a Dairy and Vegetable Protein Blend Compared to Single Casein, Whey, Soy, and Pea Proteins: A Double-Blind, Cross-Over Trial.",
+      "authorString": "Liu J, Klebach M, Visser M, Hofman Z.",
+      "year": "2019",
+      "doi": "10.3390/nu11112613",
+      "url": "https://doi.org/10.3390/nu11112613"
+    }
+  },
+  {
+    "anchor": "stage2-ref-pm1-extrusion2024",
+    "metadata": {
+      "title": "High-Moisture Extrusion of a Dietary Protein Blend Impairs In Vitro Digestion and Delays In Vivo Postprandial Plasma Amino Acid Availability in Humans.",
+      "authorString": "West S, Monteyne AJ, Whelehan G, Abdelrahman DR, Murton AJ, Finnigan TJ, Mandalari G, Booth C, Wilde PJ, Stephens FB, Wall BT.",
+      "year": "2024",
+      "doi": "10.1016/j.tjnut.2024.05.018",
+      "url": "https://doi.org/10.1016/j.tjnut.2024.05.018"
+    }
+  },
+  {
+    "anchor": "stage2-ref-pm1-carbohydrate2014",
+    "metadata": {
+      "title": "Carbohydrate Coingestion Delays Dietary Protein Digestion and Absorption but Does Not Modulate Postprandial Muscle Protein Accretion",
+      "authors": [
+        {
+          "given": "Stefan H. M.",
+          "family": "Gorissen",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Top Institute Food and Nutrition (S.H.M.G., N.A.B., H.M.H., L.J.C.v.L.), 6709 PA Wageningen, The Netherlands;"
+            },
+            {
+              "name": "Department of Human Movement Sciences (S.H.M.G., N.A.B., H.M.H., B.B.G., L.J.C.v.L.),6200 MD Maastricht, The Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nicholas A.",
+          "family": "Burd",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Top Institute Food and Nutrition (S.H.M.G., N.A.B., H.M.H., L.J.C.v.L.), 6709 PA Wageningen, The Netherlands;"
+            },
+            {
+              "name": "Department of Human Movement Sciences (S.H.M.G., N.A.B., H.M.H., B.B.G., L.J.C.v.L.),6200 MD Maastricht, The Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Henrike M.",
+          "family": "Hamer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Top Institute Food and Nutrition (S.H.M.G., N.A.B., H.M.H., L.J.C.v.L.), 6709 PA Wageningen, The Netherlands;"
+            },
+            {
+              "name": "Department of Human Movement Sciences (S.H.M.G., N.A.B., H.M.H., B.B.G., L.J.C.v.L.),6200 MD Maastricht, The Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Annemie P.",
+          "family": "Gijsen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "NUTRIM School for Nutrition, Toxicology, and Metabolism, and Department of Human Biology (A.P.G.), NUTRIM, Maastricht University Medical Centre+, 6200 MD Maastricht, The Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bart B.",
+          "family": "Groen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Human Movement Sciences (S.H.M.G., N.A.B., H.M.H., B.B.G., L.J.C.v.L.),6200 MD Maastricht, The Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Luc J. C.",
+          "family": "van Loon",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Top Institute Food and Nutrition (S.H.M.G., N.A.B., H.M.H., L.J.C.v.L.), 6709 PA Wageningen, The Netherlands;"
+            },
+            {
+              "name": "Department of Human Movement Sciences (S.H.M.G., N.A.B., H.M.H., B.B.G., L.J.C.v.L.),6200 MD Maastricht, The Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2014,
+      "doi": "10.1210/jc.2013-3970",
+      "url": "https://doi.org/10.1210/jc.2013-3970"
+    }
+  },
+  {
+    "anchor": "stage2-ref-pm1-fat2017",
+    "metadata": {
+      "title": "Co-ingesting milk fat with micellar casein does not affect postprandial protein handling in healthy older men",
+      "authors": [
+        {
+          "given": "Stefan H.M.",
+          "family": "Gorissen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nicholas A.",
+          "family": "Burd",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Irene Fleur",
+          "family": "Kramer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Janneau",
+          "family": "van Kranenburg",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Annemie P.",
+          "family": "Gijsen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Olav",
+          "family": "Rooyackers",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Luc J.C.",
+          "family": "van Loon",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2017,
+      "doi": "10.1016/j.clnu.2015.12.011",
+      "url": "https://doi.org/10.1016/j.clnu.2015.12.011"
+    }
+  },
+  {
+    "anchor": "stage2-ref-pm1-exercise2011",
+    "metadata": {
+      "title": "Exercising before protein intake allows for greater use of dietary protein\u2013derived amino acids for de novo muscle protein synthesis in both young and elderly men",
+      "authors": [
+        {
+          "given": "Bart",
+          "family": "Pennings",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ren\u00e9",
+          "family": "Koopman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Milou",
+          "family": "Beelen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joan MG",
+          "family": "Senden",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wim HM",
+          "family": "Saris",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Luc JC",
+          "family": "van Loon",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2011,
+      "doi": "10.3945/ajcn.2010.29649",
+      "url": "https://doi.org/10.3945/ajcn.2010.29649"
+    }
+  },
+  {
+    "anchor": "stage2-ref-pm1-sleep2012",
+    "metadata": {
+      "title": "Protein Ingestion before Sleep Improves Postexercise Overnight Recovery",
+      "authors": [
+        {
+          "given": "PETER T.",
+          "family": "RES",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "BART",
+          "family": "GROEN",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "BART",
+          "family": "PENNINGS",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "MILOU",
+          "family": "BEELEN",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "GARETH A.",
+          "family": "WALLIS",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "ANNEMIE P.",
+          "family": "GIJSEN",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "JOAN M. G.",
+          "family": "SENDEN",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "LUC J. C.",
+          "family": "VAN LOON",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2012,
+      "doi": "10.1249/mss.0b013e31824cc363",
+      "url": "https://doi.org/10.1249/mss.0b013e31824cc363"
+    }
+  },
+  {
+    "anchor": "stage2-ref-pm1-distribution2022",
+    "metadata": {
+      "title": "Comparing Even with Skewed Dietary Protein Distribution Shows No Difference in Muscle Protein Synthesis or Amino Acid Utilization in Healthy Older Individuals: A Randomized Controlled Trial",
+      "authors": [
+        {
+          "given": "Thomas Ehlig Hjermind",
+          "family": "Justesen",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Institute of Sports Medicine Copenhagen, Department of Orthopedic Surgery, Copenhagen University Hospital\u2014Bispebjerg and Frederiksberg, 2400 Copenhagen NV, Denmark"
+            },
+            {
+              "name": "Center for Healthy Ageing, Department of Clinical Medicine, University of Copenhagen, 2200 Copenhagen N, Denmark"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Simon Elmer",
+          "family": "Jespersen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Sports Medicine Copenhagen, Department of Orthopedic Surgery, Copenhagen University Hospital\u2014Bispebjerg and Frederiksberg, 2400 Copenhagen NV, Denmark"
+            },
+            {
+              "name": "Center for Healthy Ageing, Department of Clinical Medicine, University of Copenhagen, 2200 Copenhagen N, Denmark"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thomas",
+          "family": "Tagmose Thomsen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Sports Medicine Copenhagen, Department of Orthopedic Surgery, Copenhagen University Hospital\u2014Bispebjerg and Frederiksberg, 2400 Copenhagen NV, Denmark"
+            },
+            {
+              "name": "Center for Healthy Ageing, Department of Clinical Medicine, University of Copenhagen, 2200 Copenhagen N, Denmark"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4392-9616",
+          "authenticated-orcid": false,
+          "given": "Lars",
+          "family": "Holm",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Sport, Exercise and Rehabilitation Sciences, University of Birmingham, Birmingham B15 2TT, UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gerrit",
+          "family": "van Hall",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Clinical Metabolomics Core Facility, Rigshospitalet, 2200 Copenhagen N, Denmark"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jakob",
+          "family": "Agergaard",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Sports Medicine Copenhagen, Department of Orthopedic Surgery, Copenhagen University Hospital\u2014Bispebjerg and Frederiksberg, 2400 Copenhagen NV, Denmark"
+            },
+            {
+              "name": "Center for Healthy Ageing, Department of Clinical Medicine, University of Copenhagen, 2200 Copenhagen N, Denmark"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2022,
+      "doi": "10.3390/nu14214442",
+      "url": "https://doi.org/10.3390/nu14214442"
+    }
+  },
+  {
+    "anchor": "stage2-ref-pm1-freeaa2021",
+    "metadata": {
+      "title": "Ingestion of Free Amino Acids Compared with an Equivalent Amount of Intact Protein Results in More Rapid Amino Acid Absorption and Greater Postprandial Plasma Amino Acid Availability Without Affecting Muscle Protein Synthesis Rates in Young Adults in a Double-Blind Randomized Trial.",
+      "authorString": "Weijzen MEG, van Gassel RJJ, Kouw IWK, Trommelen J, Gorissen SHM, van Kranenburg J, Goessens JPB, van de Poll MCG, Verdijk LB, van Loon LJC.",
+      "year": "2022",
+      "doi": "10.1093/jn/nxab305",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34642762/"
+    }
+  },
+  {
+    "anchor": "stage2-ref-pm1-faba2024",
+    "metadata": {
+      "title": "True Ileal Amino Acid Digestibility and Protein Quality of <sup>15</sup>N-Labeled Faba Bean in Healthy Humans.",
+      "authorString": "Itkonen ST, Calvez J, Airinei G, Chapelais M, Khodorova N, Sahaka M, Benamouzig R, Stoddard FL, Simojoki A, Pajari AM, Gaudichon C.",
+      "year": "2024",
+      "doi": "10.1016/j.tjnut.2024.01.030",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38311065/"
+    }
+  },
+  {
+    "anchor": "stage2-ref-pm1-requirements2025",
+    "metadata": {
+      "title": "Evaluation of dietary protein and amino acid requirements: a systematic review.",
+      "authorString": "Burstad KM, Lamina T, Erickson A, Gholizadeh E, Namigga H, Claussen AM, Slavin JL, Teigen L, Hill Gallant KM, Stang J, Steffen LM, Harindhanavudhi T, Kouri A, Duval S, Butler M.",
+      "year": "2025",
+      "doi": "10.1016/j.ajcnut.2025.04.017",
+      "url": "https://doi.org/10.1016/j.ajcnut.2025.04.017"
+    }
+  },
+  {
+    "anchor": "stage2-ref-pm1-hydration2026",
+    "metadata": {
+      "title": "Exercise-Induced Dehydration Limits the Effectiveness of Post-Exercise Whey Protein Supplementation in Healthy Young Men.",
+      "authorString": "Xin Z, Gao M, Wu X, See M, Cheng P, Yan Y.",
+      "year": "2026",
+      "doi": "10.3390/nu18193267",
+      "url": "https://doi.org/10.3390/nu18193267"
+    }
+  },
+  {
+    "anchor": "stage2-ref-aberg",
+    "metadata": {
+      "title": "Whole-Grain Processing and Glycemic Control in Type 2 Diabetes: A Randomized Crossover Trial.",
+      "authorString": "\u00c5berg S, Mann J, Neumann S, Ross AB, Reynolds AN.",
+      "year": "2020",
+      "doi": "10.2337/dc20-0263",
+      "url": "https://doi.org/10.2337/dc20-0263"
+    }
+  },
+  {
+    "anchor": "stage2-ref-bruno",
+    "metadata": {
+      "title": "Weight-neutral early time-restricted eating improves glycemic variation and time in range without changes in inflammatory markers",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-3034-4977",
+          "authenticated-orcid": false,
+          "given": "Joanne",
+          "family": "Bruno",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jeanne M.",
+          "family": "Walker",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shabnam",
+          "family": "Nasserifar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dhairya",
+          "family": "Upadhyay",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andrea",
+          "family": "Ronning",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sally M.",
+          "family": "Vanegas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Collin J.",
+          "family": "Popp",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Souptik",
+          "family": "Barua",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jos\u00e9 O.",
+          "family": "Alem\u00e1n",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2024,
+      "doi": "10.1016/j.isci.2024.111501",
+      "url": "https://doi.org/10.1016/j.isci.2024.111501"
+    }
+  },
+  {
+    "anchor": "stage2-ref-jamshed",
+    "metadata": {
+      "title": "Early Time-Restricted Feeding Improves 24-Hour Glucose Levels and Affects Markers of the Circadian Clock, Aging, and Autophagy in Humans.",
+      "authorString": "Jamshed H, Beyl RA, Della Manna DL, Yang ES, Ravussin E, Peterson CM.",
+      "year": "2019",
+      "doi": "10.3390/nu11061234",
+      "url": "https://doi.org/10.3390/nu11061234"
+    }
+  },
+  {
+    "anchor": "stage2-ref-karstoft",
+    "metadata": {
+      "title": "The effects of 2\u00a0weeks of interval vs continuous walking training on glycaemic control and whole-body oxidative stress in individuals with type 2 diabetes: a controlled, randomised, crossover trial.",
+      "authorString": "Karstoft K, Clark MA, Jakobsen I, M\u00fcller IA, Pedersen BK, Solomon TP, Ried-Larsen M.",
+      "year": "2017",
+      "doi": "10.1007/s00125-016-4170-6",
+      "url": "https://doi.org/10.1007/s00125-016-4170-6"
+    }
+  },
+  {
+    "anchor": "stage2-ref-babir",
+    "metadata": {
+      "title": "Exercise snacks performed in real-world settings reduce postprandial hyperglycaemia and glycaemic variability in individuals living with type 2 diabetes: a randomised crossover study.",
+      "authorString": "Babir FJ, Marcotte-Ch\u00e9nard A, Sandilands RE, D'Amico A, Falkenhain K, Mulkewich N, Islam H, Richards DL, Madden K, Singer J, Riddell M, Gibala MJ, Little JP.",
+      "year": "2026",
+      "doi": "10.1007/s00125-026-06741-2",
+      "url": "https://doi.org/10.1007/s00125-026-06741-2"
+    }
+  },
+  {
+    "anchor": "stage2-ref-trico",
+    "metadata": {
+      "title": "Manipulating the sequence of food ingestion improves glycemic control in type 2 diabetic patients under free-living conditions.",
+      "authorString": "Tric\u00f2 D, Filice E, Trifir\u00f2 S, Natali A.",
+      "year": "2016",
+      "doi": "10.1038/nutd.2016.33",
+      "url": "https://doi.org/10.1038/nutd.2016.33"
+    }
+  },
+  {
+    "anchor": "stage2-ref-shukla",
+    "metadata": {
+      "title": "Carbohydrate-last meal pattern lowers postprandial glucose and insulin excursions in type 2 diabetes.",
+      "authorString": "Shukla AP, Andono J, Touhamy SH, Casper A, Iliescu RG, Mauer E, Shan Zhu Y, Ludwig DS, Aronne LJ.",
+      "year": "2017",
+      "doi": "10.1136/bmjdrc-2017-000440",
+      "url": "https://doi.org/10.1136/bmjdrc-2017-000440"
+    }
+  },
+  {
+    "anchor": "stage2-ref-touhamy",
+    "metadata": {
+      "title": "Carbohydrates-Last Food Order Improves Time in Range and Reduces Glycemic Variability.",
+      "authorString": "Touhamy Ii S, Palepu K, Karan A, Hootman KC, Riad J, Sripadrao S, Zhao AS, Giannita A, D'Angelo D, Alonso LC, Aronne LJ, Shukla AP.",
+      "year": "2025",
+      "doi": "10.2337/dc24-1956",
+      "url": "https://doi.org/10.2337/dc24-1956"
+    }
+  },
+  {
+    "anchor": "stage2-ref-smith",
+    "metadata": {
+      "title": "Thrice daily consumption of a novel, premeal shot containing a low dose of whey protein increases time in euglycemia during 7 days of free-living in individuals with type 2 diabetes.",
+      "authorString": "Smith K, Taylor GS, Brunsgaard LH, Walker M, Bowden Davies KA, Stevenson EJ, West DJ.",
+      "year": "2022",
+      "doi": "10.1136/bmjdrc-2022-002820",
+      "url": "https://doi.org/10.1136/bmjdrc-2022-002820"
+    }
+  },
+  {
+    "anchor": "stage2-ref-pabla",
+    "metadata": {
+      "title": "Effect of medium-chain triglycerides and whey protein isolate preloads on glycaemia in type 2 diabetes: a randomized crossover study.",
+      "authorString": "Pabla P, Mallinson J, Nixon A, Keeton M, Cooper S, Marshall M, Jacques M, Brown S, Johansen OE, Cuenoud B, Karagounis LG, Tsintzas K.",
+      "year": "2025",
+      "doi": "10.1016/j.ajcnut.2024.12.022",
+      "url": "https://doi.org/10.1016/j.ajcnut.2024.12.022"
+    }
+  },
+  {
+    "anchor": "stage2-ref-collins",
+    "metadata": {
+      "title": "Partial starch substitution with resistant starch lowers postprandial glucose and glycaemic variability in people with type 2 diabetes",
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-2861-8534",
+          "authenticated-orcid": false,
+          "given": "Sineaid M.",
+          "family": "Collins",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Faculty of Health and Medical Sciences University of Surrey  Guildford UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "Bernadette Egan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Health and Medical Sciences University of Surrey  Guildford UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2897-2026",
+          "authenticated-orcid": false,
+          "given": "Martin B.",
+          "family": "Whyte",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Health and Medical Sciences University of Surrey  Guildford UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "Denise Robertson",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Health and Medical Sciences University of Surrey  Guildford UK"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2025,
+      "doi": "10.1111/dme.70079",
+      "url": "https://doi.org/10.1111/dme.70079"
+    }
+  },
+  {
+    "anchor": "stage2-ref-sonia",
+    "metadata": {
+      "title": "Effect of cooling of cooked white rice on resistant starch content and glycemic response.",
+      "authorString": "Sonia S, Witjaksono F, Ridwan R.",
+      "year": "2015",
+      "doi": "10.6133/apjcn.2015.24.4.13",
+      "url": "https://doi.org/10.6133/apjcn.2015.24.4.13"
+    }
+  },
+  {
+    "anchor": "stage2-ref-liatis",
+    "metadata": {
+      "title": "Vinegar reduces postprandial hyperglycaemia in patients with type II diabetes when added to a high, but not to a low, glycaemic index meal",
+      "authors": [
+        {
+          "given": "S",
+          "family": "Liatis",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S",
+          "family": "Grammatikou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "K-A",
+          "family": "Poulia",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "D",
+          "family": "Perrea",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "K",
+          "family": "Makrilakis",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "E",
+          "family": "Diakoumopoulou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "N",
+          "family": "Katsilambros",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2010,
+      "doi": "10.1038/ejcn.2010.89",
+      "url": "https://doi.org/10.1038/ejcn.2010.89"
+    }
+  },
+  {
+    "anchor": "stage2-ref-reynolds",
+    "metadata": {
+      "title": "Advice to walk after meals is more effective for lowering postprandial glycaemia in type 2 diabetes mellitus than advice that does not specify timing: a randomised crossover study.",
+      "authorString": "Reynolds AN, Mann JI, Williams S, Venn BJ.",
+      "year": "2016",
+      "doi": "10.1007/s00125-016-4085-2",
+      "url": "https://doi.org/10.1007/s00125-016-4085-2"
+    }
+  },
+  {
+    "anchor": "stage2-ref-dempsey",
+    "metadata": {
+      "title": "Interrupting prolonged sitting in type 2 diabetes: nocturnal persistence of improved glycaemic control.",
+      "authorString": "Dempsey PC, Blankenship JM, Larsen RN, Sacre JW, Sethi P, Straznicky NE, Cohen ND, Cerin E, Lambert GW, Owen N, Kingwell BA, Dunstan DW.",
+      "year": "2017",
+      "doi": "10.1007/s00125-016-4169-z",
+      "url": "https://doi.org/10.1007/s00125-016-4169-z"
+    }
+  },
+  {
+    "anchor": "stage2-ref-bailey",
+    "metadata": {
+      "title": "Lower Amounts of Daily and Prolonged Sitting Do Not Lower Free-Living Continuously Monitored Glucose Concentrations in Overweight and Obese Adults: A Randomised Crossover Study.",
+      "authorString": "Bailey DP, Stringer CA, Maylor BD, Zakrzewski-Fruer JK.",
+      "year": "2022",
+      "doi": "10.3390/nu14030605",
+      "url": "https://doi.org/10.3390/nu14030605"
+    }
+  },
+  {
+    "anchor": "stage2-ref-resistance",
+    "metadata": {
+      "title": "Glycemic response varies between resistance and aerobic exercise in inactive males with long-term type 2 diabetes.",
+      "authorString": "Gordon BA, Bird SR, Macisaac RJ, Benson AC.",
+      "year": "2013",
+      "doi": "10.1139/apnm-2012-0494",
+      "url": "https://doi.org/10.1139/apnm-2012-0494"
+    }
+  },
+  {
+    "anchor": "stage2-ref-wheat",
+    "metadata": {
+      "title": "Matched whole grain wheat and refined wheat milled products do not differ in glycemic response or gastric emptying in a randomized, crossover trial",
+      "authors": [
+        {
+          "given": "Elizabeth A",
+          "family": "Pletsch",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9745-3123",
+          "authenticated-orcid": false,
+          "given": "Anna MR",
+          "family": "Hayes",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mohammad",
+          "family": "Chegeni",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6591-942X",
+          "authenticated-orcid": false,
+          "given": "Bruce R",
+          "family": "Hamaker",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2022,
+      "doi": "10.1093/ajcn/nqab434",
+      "url": "https://doi.org/10.1093/ajcn/nqab434"
+    }
+  }
+]

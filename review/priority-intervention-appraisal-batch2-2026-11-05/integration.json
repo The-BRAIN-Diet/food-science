@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-05",
+  "decisions": [
+    {
+      "reviewId": "smolders-2019",
+      "pmId": "BRS1-FM2-PM6",
+      "file": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
+      "atom_id": "PM6-SOP-EGG-PHOSPHOLIPID-1",
+      "sec_assessment_ref": {
+        "id": "brs1-fm2-pm6-pm6-sop-egg-phospholipid-1-assessment",
+        "version": 1,
+        "sha256": "e8ba56b1329af6ead858e9093b22e8486b4638e92926b7c60828e10795d4a5c5"
+      },
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "score": 4,
+      "title": "Egg-yolk phospholipid formulation → greater plasma choline response"
+    },
+    {
+      "reviewId": "zhou-2019",
+      "pmId": "BRS5-FM1-PM1",
+      "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+      "atom_id": "PM1-SOP-GLUTAMINE-1",
+      "sec_assessment_ref": {
+        "id": "brs5-fm1-pm1-pm1-sop-glutamine-1-assessment",
+        "version": 1,
+        "sha256": "732ef0615524e62c9353bdcc7599660353ca6968b8ef9cee486fdb4fed885a8d"
+      },
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 2,
+        "R": 0
+      },
+      "score": 5,
+      "title": "Eight-week glutamine protocol in postinfectious IBS-D → lower lactulose:mannitol ratio"
+    },
+    {
+      "reviewId": "gorissen-2020",
+      "pmId": "BRS1-FM1-PM1",
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+      "atom_id": "PM1-SOP-WHEY-CASEIN-1",
+      "sec_assessment_ref": {
+        "id": "brs1-fm1-pm1-pm1-sop-whey-casein-1-assessment",
+        "version": 1,
+        "sha256": "0e4aebfd5d8856665367e6d39532407f4a8a791bb83b0023d2c10055eecfdf09"
+      },
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "score": 4,
+      "title": "20 g whey versus casein → higher peak dietary phenylalanine appearance in older men"
+    },
+    {
+      "reviewId": "bruno-2006",
+      "pmId": "BRS3-FM2-PM6",
+      "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx",
+      "atom_id": "PM6-SOP-VITAMIN-C-RETENTION-1",
+      "sec_assessment_ref": {
+        "id": "brs3-fm2-pm6-pm6-sop-vitamin-c-retention-1-assessment",
+        "version": 1,
+        "sha256": "cb3e8f3b55d875431a6ac99ee6ad89fc8e3ca326d0388c06e0127356f2535915"
+      },
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "score": 4,
+      "title": "Tested vitamin C protocol → slower plasma vitamin E disappearance in smokers"
+    },
+    {
+      "reviewId": "harris-2007",
+      "pmId": "BRS1-FM3-PM7",
+      "file": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+      "atom_id": "PM7-SOP-FISH-CAPSULES-1",
+      "sec_assessment_ref": {
+        "id": "brs1-fm3-pm7-pm7-sop-fish-capsules-1-assessment",
+        "version": 1,
+        "sha256": "d72dd74eebdeb2a7b949f2d726cb6df96517cab5632fd2a2a4285c637bd6f6d6"
+      },
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "score": 4,
+      "title": "Tested fish-meal and capsule regimens → increased red-cell DHA"
+    }
+  ],
+  "deferred": [
+    "kang-2022"
+  ],
+  "rejected": [
+    "brickman-2014"
+  ]
+}

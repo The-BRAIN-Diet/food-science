@@ -299,6 +299,7 @@ export const functionalProperties: FunctionalProperty[] = [
   },
   {
     id: "phytate_content",
+    related_substances: ["phytate"],
     label: "Phytate content",
     definition: "Presence of phytate compounds with mixed effects on mineral binding and broader dietary context.",
     polarity: "mixed",
@@ -312,6 +313,7 @@ export const functionalProperties: FunctionalProperty[] = [
   },
   {
     id: "oxalate_content",
+    related_substances: ["oxalate"],
     label: "Oxalate content",
     definition: "Presence of oxalate compounds with context-dependent effects on mineral handling and tolerance.",
     polarity: "mixed",

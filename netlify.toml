@@ -10,3 +10,175 @@
   TERSER_PARALLEL = "1"
   # Match the validated local production build; avoid filesystem cache retention/serialization.
   DOCUSAURUS_NO_PERSISTENT_CACHE = "1"
+
+# HTTP 301s. These are server redirects, not Docusaurus meta-refresh pages.
+# Recipe source folders stay capitalised. Public URLs are the lowercase slugs.
+# The moved roe shot must be matched before the general Drinks rule.
+
+[[redirects]]
+  from = "/docs/recipes/Drinks/neuroeshot-roe"
+  to = "/docs/recipes/snacks/neuroeshot-roe/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Drinks/neuroeshot-roe/"
+  to = "/docs/recipes/snacks/neuroeshot-roe/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/drinks/neuroeshot-roe"
+  to = "/docs/recipes/snacks/neuroeshot-roe/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/drinks/neuroeshot-roe/"
+  to = "/docs/recipes/snacks/neuroeshot-roe/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Breakfast"
+  to = "/docs/recipes/breakfast/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Breakfast/"
+  to = "/docs/recipes/breakfast/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Breakfast/*/"
+  to = "/docs/recipes/breakfast/:splat/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Breakfast/*"
+  to = "/docs/recipes/breakfast/:splat/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Lunch"
+  to = "/docs/recipes/lunch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Lunch/"
+  to = "/docs/recipes/lunch/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Lunch/*/"
+  to = "/docs/recipes/lunch/:splat/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Lunch/*"
+  to = "/docs/recipes/lunch/:splat/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Dinner"
+  to = "/docs/recipes/dinner/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Dinner/"
+  to = "/docs/recipes/dinner/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Dinner/*/"
+  to = "/docs/recipes/dinner/:splat/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Dinner/*"
+  to = "/docs/recipes/dinner/:splat/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Drinks"
+  to = "/docs/recipes/drinks/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Drinks/"
+  to = "/docs/recipes/drinks/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Drinks/*/"
+  to = "/docs/recipes/drinks/:splat/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Drinks/*"
+  to = "/docs/recipes/drinks/:splat/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Snacks"
+  to = "/docs/recipes/snacks/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Snacks/"
+  to = "/docs/recipes/snacks/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Snacks/*/"
+  to = "/docs/recipes/snacks/:splat/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Snacks/*"
+  to = "/docs/recipes/snacks/:splat/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Side-dishes"
+  to = "/docs/recipes/side-dishes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Side-dishes/"
+  to = "/docs/recipes/side-dishes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Side-dishes/*/"
+  to = "/docs/recipes/side-dishes/:splat/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/recipes/Side-dishes/*"
+  to = "/docs/recipes/side-dishes/:splat/"
+  status = 301
+  force = true

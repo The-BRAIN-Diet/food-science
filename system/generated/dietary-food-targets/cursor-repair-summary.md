@@ -5,7 +5,7 @@ Outstanding food-edge, material-equivalence, identity and conversion tasks. Mate
 | Food | Substance | Preparation | Affected PMs | Verification |
 |---|---|---|---|---|
 | Beef | tryptophan | Cut/cooking unspecified; qualitative composition only | BRS1-FM1-PM1 | pending-independent-verification |
-| Nori | iron | dried | BRS1-FM1-PM3, BRS1-FM1-PM4, BRS1-FM1-PM5, BRS3-FM2-PM4, BRS4-FM1-PM1 | requires-material-equivalence-review |
+| Nori | iron | dried | BRS1-FM1-PM3, BRS1-FM1-PM4, BRS1-FM1-PM5, BRS3-FM2-PM4, BRS4-FM1-PM1, BRS4-FM1-PM10 | requires-material-equivalence-review |
 | Nori | magnesium | dried | BRS1-FM1-PM3, BRS1-FM1-PM4, BRS1-FM4-PM11, BRS2-FM1-PM3, BRS2-FM2-PM6, BRS6-FM1-PM3 | requires-material-equivalence-review |
 | Chicory Root | sodium | raw | BRS1-FM2-PM6, BRS1-FM3-PM7, BRS1-FM4-PM10 | pending-independent-verification |
 | Nori | sodium | dried | BRS1-FM2-PM6, BRS1-FM3-PM7, BRS1-FM4-PM10 | pending-independent-verification |

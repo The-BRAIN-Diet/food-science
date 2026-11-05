@@ -188,5 +188,525 @@
     "contract": "system/sop-lifestyle-six-atom-presentation.md",
     "example": "review/sequential-pm-interventions-2026-11-02/brs2-pm1-category-correction.png",
     "scope": "Replace generic category details wrappers with existing §1.1 disclosure markup; retain all scientific content"
+  },
+  {
+    "file": "src/components/PmDietaryLeverEnhancer.tsx",
+    "sha256": "562adc84e00502109ec5b7c5472ebe64871d2eb8c8fdc15e6208b2c9b24e1e08",
+    "author_approval": "Explicit owner instruction: Delete Unauthorised Dietary Pathway Disclosure",
+    "approval_source": "Current chat, 3 November 2026: remove from all PM pages; no commit/push/deploy",
+    "proposal": "system/presentation-change-control.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "system/presentation-change-control.md",
+    "scope": "All PMs: remove nested generated pathway disclosure and exclusive data subscription; preserve six atoms and food displays"
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+    "sha256": "69555d6485ea2816550a0bfc07606e589153e285439d5d495f3de6819d810104",
+    "author_approval": "Owner EXEC: LAT1 Mission Refinement and SF1 Evidence Consolidation",
+    "approval_source": "Current chat, 3 November 2026: exact mission and targeted existing-Finding evidence update authorised",
+    "proposal": "review/lat1-mission-sf1-2026-11-03/assessment.md",
+    "contract": "system/pm-evidence-tabs-contract.md",
+    "example": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+    "scope": "PM2 only; existing Findings/reference structure regenerated with added evidence. No new presentation sections."
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+    "sha256": "cf828a083167718c0df3f8c6b8633733bfc9dcaff10f287cd1347e8022e1368a",
+    "author_approval": "Owner requested Stage 2B presentation completion and confirmed Evidence Gaps and Open Issues tabs.",
+    "approval_source": "Current chat, 3 November 2026: run Stage 2B and score Findings; clarification response: Evidence Gaps and Open Issues.",
+    "proposal": "system/pm-evidence-tabs-contract.md",
+    "contract": "system/pm-evidence-tabs-contract.md",
+    "example": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+    "scope": "LAT1 PM2 only: existing three-tab template, Section 4 Findings, existing SEC audit and independently stated meal-translation Evidence Gap. No new shared component."
+  },
+  {
+    "file": "docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx",
+    "sha256": "06ffb26bd3a6e56a14b48fd0e5fff4a69df09dca67f0ef2b0084c3e595eafaec",
+    "author_approval": "Owner: continue the SOP/Lifestyle rollout from BRS3 and complete six-atom records for paper-critical interventions",
+    "approval_source": "Current session exec: Accelerated SOP/Lifestyle Review for Paper Completion, one BRS3 pilot, using the existing six-atom presentation",
+    "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/six-atom-ux-demo-2026-11-02/index.html",
+    "scope": "BRS3-FM1-PM1 only: present the existing Ghanim meal comparison with the approved six-atom component and category disclosure; no mechanism summary, new component, SEC score or dietary-input admission"
+  },
+  {
+    "file": "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx",
+    "sha256": "dfce7d60f06814ee1ab895c66a0f123adf05c20136f6e4376090a4d6353ab11b",
+    "author_approval": "Owner: continue the SOP/Lifestyle rollout from BRS3 and complete six-atom records for paper-critical interventions",
+    "approval_source": "Current session exec: Accelerated SOP/Lifestyle Review for Paper Completion, continuing from the BRS3 pilot, using the existing six-atom presentation",
+    "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/six-atom-ux-demo-2026-11-02/index.html",
+    "scope": "BRS3-FM1-PM2 only: correct the existing Ghanim endotoxin comparison so the measured effect is plasma endotoxin and LPS-binding protein, with the approved category disclosure and no mechanism summary, new component, SEC score, or dietary-input admission"
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+    "sha256": "0745cec325060e83a6cc6d3222e72542998b3d71213a0559d2dc4a33bd49dafd",
+    "author_approval": "Owner authorised resolving PM1, completing SEC appraisal and applying PM8 tabs and approved six-atom presentation.",
+    "approval_source": "Current chat, 3 November 2026: go ahead and resolve those issues on PM1, starting with F3; no commit or push.",
+    "proposal": "review/pm1-reference-completion-2026-11-03/presentation-proposal.md",
+    "contract": "system/pm-evidence-tabs-contract.md",
+    "example": "review/six-atom-ux-demo-2026-11-02/canonical-pm1-expanded.png",
+    "scope": "PM1 only: existing tabs/six atoms, Section 4 intervention assessments, removed dated execution block; no new admission."
+  },
+  {
+    "file": "src/components/SecCalibrationPreview/EvidenceAudit.tsx",
+    "sha256": "1846c7500da5c9ef798625e3f97f5045dc78bb7cafee3e8af3d5bc9121433f60",
+    "author_approval": "Owner authorised resolving PM1, completing SEC appraisal and applying PM8 tabs and approved six-atom presentation.",
+    "approval_source": "Current chat, 3 November 2026: go ahead and resolve those issues on PM1, starting with F3; no commit or push.",
+    "proposal": "review/pm1-reference-completion-2026-11-03/presentation-proposal.md",
+    "contract": "system/pm-evidence-tabs-contract.md",
+    "example": "review/six-atom-ux-demo-2026-11-02/canonical-pm1-expanded.png",
+    "scope": "Existing audit widget: optional heading and intervention-owned backlinks; default Finding output unchanged. No automatic new projection."
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+    "sha256": "68ee421176b0b7070443f26c61db5134237ce9ffa79c477168ecee5c1931ee18",
+    "author_approval": "Owner approved PM1 parent assessment dropdowns and SOP scores after Findings, 4 November 2026.",
+    "approval_source": "Current chat: yes implement that on PM1 please; no wider rollout or push yet.",
+    "proposal": "review/pm1-reference-completion-2026-11-03/assessment-groups-2026-11-04.md",
+    "contract": "system/pm-evidence-tabs-contract.md",
+    "example": "review/pm1-reference-completion-2026-11-03/assessment-groups-collapsed.png",
+    "scope": "PM1-only opt-in assessment family grouping; existing CSS; preserve regeneration and exact scores."
+  },
+  {
+    "file": "system/templates/primary-mechanism-template.mdx",
+    "sha256": "b239fc5bc9134c6b74c90a29a51a0820b4c8d37b692cc91c3e8a3f644e5b7050",
+    "author_approval": "Owner approved PM1 parent assessment dropdowns and SOP scores after Findings, 4 November 2026.",
+    "approval_source": "Current chat: yes implement that on PM1 please; no wider rollout or push yet.",
+    "proposal": "review/pm1-reference-completion-2026-11-03/assessment-groups-2026-11-04.md",
+    "contract": "system/pm-evidence-tabs-contract.md",
+    "example": "review/pm1-reference-completion-2026-11-03/assessment-groups-collapsed.png",
+    "scope": "PM1-only opt-in assessment family grouping; existing CSS; preserve regeneration and exact scores."
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx",
+    "sha256": "907a4393fae5de19838bbe67415a9f10816f522feb4538f164e2e8d37a7da525",
+    "author_approval": "Owner instructed deletion of PM-local source audit trails across all PMs and canonical reference presentation, 4 November 2026.",
+    "approval_source": "Current chat: we can lose this audit trail; it needs to be deleted from all PMs.",
+    "proposal": "review/pm-reference-cleanup-2026-11-04/report.md",
+    "contract": "system/brs-citation-reference-standard.md",
+    "example": "review/pm-reference-cleanup-2026-11-04/pm1-references.png",
+    "scope": "Remove source audit annexes; preserve citations and aliases; canonical bibliography links. No scientific reassessment."
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx",
+    "sha256": "b01a611865627912bcf833cab49576aa6f9ae92526c29abe1ac33e18c6bb2591",
+    "author_approval": "Owner instructed deletion of PM-local source audit trails across all PMs and canonical reference presentation, 4 November 2026.",
+    "approval_source": "Current chat: we can lose this audit trail; it needs to be deleted from all PMs.",
+    "proposal": "review/pm-reference-cleanup-2026-11-04/report.md",
+    "contract": "system/brs-citation-reference-standard.md",
+    "example": "review/pm-reference-cleanup-2026-11-04/pm1-references.png",
+    "scope": "Remove source audit annexes; preserve citations and aliases; canonical bibliography links. No scientific reassessment."
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx",
+    "sha256": "64f703364f05737c8ad48a3c253eb0989134367bbad886a46ce09a7bdefedf74",
+    "author_approval": "Owner instructed deletion of PM-local source audit trails across all PMs and canonical reference presentation, 4 November 2026.",
+    "approval_source": "Current chat: we can lose this audit trail; it needs to be deleted from all PMs.",
+    "proposal": "review/pm-reference-cleanup-2026-11-04/report.md",
+    "contract": "system/brs-citation-reference-standard.md",
+    "example": "review/pm-reference-cleanup-2026-11-04/pm1-references.png",
+    "scope": "Remove source audit annexes; preserve citations and aliases; canonical bibliography links. No scientific reassessment."
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+    "sha256": "c03b1b799bda8b120f847ce148d5b5dac98787db83519669312a8bef8df7cb3e",
+    "author_approval": "Owner instructed deletion of PM-local source audit trails across all PMs and canonical reference presentation, 4 November 2026.",
+    "approval_source": "Current chat: we can lose this audit trail; it needs to be deleted from all PMs.",
+    "proposal": "review/pm-reference-cleanup-2026-11-04/report.md",
+    "contract": "system/brs-citation-reference-standard.md",
+    "example": "review/pm-reference-cleanup-2026-11-04/pm1-references.png",
+    "scope": "Remove source audit annexes; preserve citations and aliases; canonical bibliography links. No scientific reassessment."
+  },
+  {
+    "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx",
+    "sha256": "161ff04cb9c62a8633b2a1fe72dc9c69d0087c0625bf57bb1e7b5620f1c595c7",
+    "author_approval": "Owner instructed deletion of PM-local source audit trails across all PMs and canonical reference presentation, 4 November 2026.",
+    "approval_source": "Current chat: we can lose this audit trail; it needs to be deleted from all PMs.",
+    "proposal": "review/pm-reference-cleanup-2026-11-04/report.md",
+    "contract": "system/brs-citation-reference-standard.md",
+    "example": "review/pm-reference-cleanup-2026-11-04/pm1-references.png",
+    "scope": "Remove source audit annexes; preserve citations and aliases; canonical bibliography links. No scientific reassessment."
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+    "sha256": "a3926bb52cda07052f56b88ef24138613d568fd34eeb49b83987d88990361252",
+    "author_approval": "Owner instructed deletion of PM-local source audit trails across all PMs and canonical reference presentation, 4 November 2026.",
+    "approval_source": "Current chat: we can lose this audit trail; it needs to be deleted from all PMs.",
+    "proposal": "review/pm-reference-cleanup-2026-11-04/report.md",
+    "contract": "system/brs-citation-reference-standard.md",
+    "example": "review/pm-reference-cleanup-2026-11-04/pm1-references.png",
+    "scope": "Remove source audit annexes; preserve citations and aliases; canonical bibliography links. No scientific reassessment."
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
+    "sha256": "32690e2458e9a69a521abb52be0f3b3ebafad4e704209abfe45c6d9ebeb7ccaa",
+    "author_approval": "Owner instructed deletion of PM-local source audit trails across all PMs and canonical reference presentation, 4 November 2026.",
+    "approval_source": "Current chat: we can lose this audit trail; it needs to be deleted from all PMs.",
+    "proposal": "review/pm-reference-cleanup-2026-11-04/report.md",
+    "contract": "system/brs-citation-reference-standard.md",
+    "example": "review/pm-reference-cleanup-2026-11-04/pm1-references.png",
+    "scope": "Remove source audit annexes; preserve citations and aliases; canonical bibliography links. No scientific reassessment."
+  },
+  {
+    "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx",
+    "sha256": "fbfa80e2117cdee30b86e0103c0d0af7621406d83fd874e02102142f5668872e",
+    "author_approval": "Owner instructed deletion of PM-local source audit trails across all PMs and canonical reference presentation, 4 November 2026.",
+    "approval_source": "Current chat: we can lose this audit trail; it needs to be deleted from all PMs.",
+    "proposal": "review/pm-reference-cleanup-2026-11-04/report.md",
+    "contract": "system/brs-citation-reference-standard.md",
+    "example": "review/pm-reference-cleanup-2026-11-04/pm1-references.png",
+    "scope": "Remove source audit annexes; preserve citations and aliases; canonical bibliography links. No scientific reassessment."
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+    "sha256": "8a5f8e94960125e5bcaa2bfbf5c053105f4f3c9cf39c16913722aa9989a3aac7",
+    "author_approval": "Owner requested PM1 Scientific Lesson use GAD dropdown below Scientific Findings.",
+    "approval_source": "Current chat, 4 November 2026: they should look like the other lessons like the one on GAD; appear in a dropdown under scientific findings.",
+    "proposal": "review/pm1-reference-completion-2026-11-03/lesson-placement.md",
+    "contract": "system/primary-mechanism-schema.md",
+    "example": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
+    "scope": "PM1 existing lesson relocated and styled using GAD precedent; no new science or scores."
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+    "sha256": "12ac159c0a52e44b8a26ee719bacc83cff98af65d92eea597785eafd0920cefb",
+    "author_approval": "Owner correction: put it above and separate to SFs.",
+    "approval_source": "Current chat, 4 November 2026.",
+    "proposal": "review/pm1-reference-completion-2026-11-03/lesson-placement.md",
+    "contract": "system/primary-mechanism-schema.md",
+    "example": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
+    "scope": "PM1 lesson moved above §4.1 outside the Scientific Findings parent; unchanged science and styling."
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+    "sha256": "619654c64a21406a6d19b7fcb7b967ae34619869aac5e000f028d7e835c42b60",
+    "author_approval": "Owner requested lessons at the end of Section 4 summary and checking/moving other existing lessons including GAD.",
+    "approval_source": "Current chat, 4 November 2026.",
+    "proposal": "review/pm1-reference-completion-2026-11-03/lesson-placement.md",
+    "contract": "system/primary-mechanism-schema.md",
+    "example": "review/pm1-reference-completion-2026-11-03/lesson-visible.png",
+    "scope": "Existing PM1 and GAD lessons moved as sibling disclosures immediately after Section 4 Summary prose; content unchanged."
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
+    "sha256": "8b5da6a783333d6f96cb189bcfb8e5cf6eb72afd7777fc8fad5f8a71aac123f0",
+    "author_approval": "Owner requested lessons at the end of Section 4 summary and checking/moving other existing lessons including GAD.",
+    "approval_source": "Current chat, 4 November 2026.",
+    "proposal": "review/pm1-reference-completion-2026-11-03/lesson-placement.md",
+    "contract": "system/primary-mechanism-schema.md",
+    "example": "review/pm1-reference-completion-2026-11-03/lesson-visible.png",
+    "scope": "Existing PM1 and GAD lessons moved as sibling disclosures immediately after Section 4 Summary prose; content unchanged."
+  },
+  {
+    "file": "system/templates/primary-mechanism-template.mdx",
+    "sha256": "47afe03e66f1d7256cb1dbc149ab5c4fe123f12325bc1bcd7b1e4a8309ea0fb4",
+    "author_approval": "Owner requested lessons at the end of Section 4 summary and checking/moving other existing lessons including GAD.",
+    "approval_source": "Current chat, 4 November 2026.",
+    "proposal": "review/pm1-reference-completion-2026-11-03/lesson-placement.md",
+    "contract": "system/primary-mechanism-schema.md",
+    "example": "review/pm1-reference-completion-2026-11-03/lesson-visible.png",
+    "scope": "Existing PM1 and GAD lessons moved as sibling disclosures immediately after Section 4 Summary prose; content unchanged."
+  },
+  {
+    "file": "docs/substances/bioactive-compounds/phytate.md",
+    "sha256": "675caed689a7b964f986aea264a46f78cf183842834176d54304990ebc8b256e",
+    "author_approval": "Owner: otherwise create one substance page for each, following system/substance-page-schema.md; use existing taxonomy and templates.",
+    "approval_source": "Current chat CODEX — Canonical Phytate and Oxalate Substance Pages, 5 November 2026",
+    "proposal": "review/phytate-oxalate-2026-11-05/report.md",
+    "contract": "system/substance-page-schema.md",
+    "example": "docs/substances/bioactive-compounds/phytate.md",
+    "scope": "Two requested substance pages only, existing template/components; no PM admissions or new presentation structures."
+  },
+  {
+    "file": "docs/substances/bioactive-compounds/oxalate.md",
+    "sha256": "bf1d535b5924eeee833a65b0902bda2db3cdb309028ca988b861d9713f2df80d",
+    "author_approval": "Owner: otherwise create one substance page for each, following system/substance-page-schema.md; use existing taxonomy and templates.",
+    "approval_source": "Current chat CODEX — Canonical Phytate and Oxalate Substance Pages, 5 November 2026",
+    "proposal": "review/phytate-oxalate-2026-11-05/report.md",
+    "contract": "system/substance-page-schema.md",
+    "example": "docs/substances/bioactive-compounds/oxalate.md",
+    "scope": "Two requested substance pages only, existing template/components; no PM admissions or new presentation structures."
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx",
+    "sha256": "e96b3996c4b40fd03c5aa1df821697dbe33168455d13fa6b344c3377bab6bfa5",
+    "author_approval": "Owner explicitly authorised a new Coenzyme Q PM after canonical placement and non-duplication checks, implemented under existing Stage 2A/2B and presentation conventions.",
+    "approval_source": "Current chat: CODEX EXEC — BRS4 Coenzyme Q Biosynthesis & Pool Availability, 5 November 2026.",
+    "proposal": "review/coq-pm-2026-11-05/report.md",
+    "contract": "system/primary-mechanism-schema.md",
+    "example": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx",
+    "scope": "One new BRS4-FM1-PM10 using existing PM sections, six-atom disclosures, ScientificFinding and evidence tabs. No new component or global presentation change."
+  },
+  {
+    "file": "docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx",
+    "sha256": "549919cfcec8cac0a10d911ce1506e43b9ebcdef7ef164b2394f8b1a1213dd65",
+    "author_approval": "Owner explicitly approved this bounded SOP admission and use of existing six-atom presentation and independent intervention SEC.",
+    "approval_source": "Current chat: Implement Three Approved Priority SOPs, 5 November 2026",
+    "proposal": "review/priority-intervention-appraisal-2026-11-04/integration-report.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx",
+    "scope": "Three named PMs only; existing §3.2 disclosure and Section4 EvidenceAudit, no new shared component or wider grouping rollout."
+  },
+  {
+    "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+    "sha256": "095adc27436897014e1c16f8e7a5e0086345fad4b71956eea677abe735fae547",
+    "author_approval": "Owner explicitly approved this bounded SOP admission and use of existing six-atom presentation and independent intervention SEC.",
+    "approval_source": "Current chat: Implement Three Approved Priority SOPs, 5 November 2026",
+    "proposal": "review/priority-intervention-appraisal-2026-11-04/integration-report.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+    "scope": "Three named PMs only; existing §3.2 disclosure and Section4 EvidenceAudit, no new shared component or wider grouping rollout."
+  },
+  {
+    "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+    "sha256": "3623aba3199a2db5b10b56a5d06b6923c249a1d8e73b1cdf25abf47406965d03",
+    "author_approval": "Owner explicitly approved this bounded SOP admission and use of existing six-atom presentation and independent intervention SEC.",
+    "approval_source": "Current chat: Implement Three Approved Priority SOPs, 5 November 2026",
+    "proposal": "review/priority-intervention-appraisal-2026-11-04/integration-report.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+    "scope": "Three named PMs only; existing §3.2 disclosure and Section4 EvidenceAudit, no new shared component or wider grouping rollout."
+  },
+  {
+    "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+    "sha256": "ca2017d796c0e92e3b672a8ae8f28e9d82395f542b288a518733e87fdb30419b",
+    "author_approval": "Owner requested SEC scoring of the other two existing BRS6PM3 SOPs; reuse existing Section4 assessment presentation.",
+    "approval_source": "Current chat: i see can you SEC score the others please,5 November2026",
+    "proposal": "review/brs6-pm3-sop-sec-2026-11-05/report.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+    "scope": "Two existing SOP SEC records and links only; no new component or admission change."
+  },
+  {
+    "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+    "sha256": "ca2017d796c0e92e3b672a8ae8f28e9d82395f542b288a518733e87fdb30419b",
+    "author_approval": "Owner identified summary-row intervention SEC link as wrongly placed; remove erroneous appended links, retain Section4 assessments.",
+    "approval_source": "Current chat: you have put the Intervention-specific SEC assessment in the wrong place,5 November2026",
+    "proposal": "review/brs6-pm3-sop-sec-2026-11-05/report.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+    "scope": "Remove two erroneous summary-row links only; no scientific or renderer changes."
+  },
+  {
+    "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+    "sha256": "d4666751ed6465e2b70cf96955bdba2bfb66218ff2d96f3b16a9ed13c51b85c6",
+    "author_approval": "Owner explicitly requested canonical arrow disclosures for the two older interventions, matching the existing six-hour study.",
+    "approval_source": "Current chat: canonical is an arrow like the five week six hour study above,5 November2026",
+    "proposal": "review/brs6-pm3-sop-sec-2026-11-05/report.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+    "scope": "Two existing SOP rows only; reuse PilotInterventionDisclosure and six atoms; unchanged scores and admissions."
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
+    "sha256": "1f53d8b8f5e819d067b0ea35e2d3cc122a29997a84537269fdb096a2582e9382",
+    "author_approval": "Author explicitly requested integration of every scientifically eligible Batch 2 intervention using existing six-atom SOP presentation and independent Section 4 SEC.",
+    "approval_source": "Conversation: CODEX — Batch 2 Integration and Resolution, 5 November 2026",
+    "proposal": "review/priority-intervention-appraisal-batch2-2026-11-05/integration-report.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
+    "scope": "One bounded SOP and its independent SEC in this PM; existing components only, no broader rollout."
+  },
+  {
+    "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+    "sha256": "12121705238fb8d7cb22d13ebcb513dbd998a9ca5f212d05ff87d5384d19354e",
+    "author_approval": "Author explicitly requested integration of every scientifically eligible Batch 2 intervention using existing six-atom SOP presentation and independent Section 4 SEC.",
+    "approval_source": "Conversation: CODEX — Batch 2 Integration and Resolution, 5 November 2026",
+    "proposal": "review/priority-intervention-appraisal-batch2-2026-11-05/integration-report.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+    "scope": "One bounded SOP and its independent SEC in this PM; existing components only, no broader rollout."
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+    "sha256": "2fbaa549d4ae1d52f62f325ce886c9d1138bc505494dc246074920cd6e0ccb72",
+    "author_approval": "Author explicitly requested integration of every scientifically eligible Batch 2 intervention using existing six-atom SOP presentation and independent Section 4 SEC.",
+    "approval_source": "Conversation: CODEX — Batch 2 Integration and Resolution, 5 November 2026",
+    "proposal": "review/priority-intervention-appraisal-batch2-2026-11-05/integration-report.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+    "scope": "One bounded SOP and its independent SEC in this PM; existing components only, no broader rollout."
+  },
+  {
+    "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx",
+    "sha256": "83b524d18b0a8abb38e28a46bf6c8feb3d6ad05a38a0fa16a65649db950d9403",
+    "author_approval": "Author explicitly requested integration of every scientifically eligible Batch 2 intervention using existing six-atom SOP presentation and independent Section 4 SEC.",
+    "approval_source": "Conversation: CODEX — Batch 2 Integration and Resolution, 5 November 2026",
+    "proposal": "review/priority-intervention-appraisal-batch2-2026-11-05/integration-report.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx",
+    "scope": "One bounded SOP and its independent SEC in this PM; existing components only, no broader rollout."
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+    "sha256": "d4d03432ea773731f03245d17b395b61bf2fe036cca72da6cf915e017bc102dd",
+    "author_approval": "Author explicitly requested integration of every scientifically eligible Batch 2 intervention using existing six-atom SOP presentation and independent Section 4 SEC.",
+    "approval_source": "Conversation: CODEX — Batch 2 Integration and Resolution, 5 November 2026",
+    "proposal": "review/priority-intervention-appraisal-batch2-2026-11-05/integration-report.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+    "scope": "One bounded SOP and its independent SEC in this PM; existing components only, no broader rollout."
+  },
+  {
+    "file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx",
+    "sha256": "86b2a0f2329d666aa074f6233bb2103f86cdfc387b22fe266719ac48fcdeab18",
+    "author_approval": "Author explicitly approved implementation of the five eligible Batch 3 interventions with existing six atoms and independent Section 4 SEC assessments.",
+    "approval_source": "Current conversation: implement the five eligible Batch 3 interventions, 5 November 2026",
+    "proposal": "review/priority-intervention-appraisal-batch3-2026-11-05/integration-report.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx",
+    "scope": "One approved intervention and its independent assessment using existing components on this PM; no new component or wider rollout."
+  },
+  {
+    "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx",
+    "sha256": "62a333a0a9a82327f620c333b366fdf6a5c511187c74137268e06290f3bd4b89",
+    "author_approval": "Author explicitly approved implementation of the five eligible Batch 3 interventions with existing six atoms and independent Section 4 SEC assessments.",
+    "approval_source": "Current conversation: implement the five eligible Batch 3 interventions, 5 November 2026",
+    "proposal": "review/priority-intervention-appraisal-batch3-2026-11-05/integration-report.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx",
+    "scope": "One approved intervention and its independent assessment using existing components on this PM; no new component or wider rollout."
+  },
+  {
+    "file": "docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx",
+    "sha256": "ee4469fb117560b6637368fb5f8589c6919355844c6c9cab04e34a3d3c83f5ef",
+    "author_approval": "Author explicitly approved implementation of the five eligible Batch 3 interventions with existing six atoms and independent Section 4 SEC assessments.",
+    "approval_source": "Current conversation: implement the five eligible Batch 3 interventions, 5 November 2026",
+    "proposal": "review/priority-intervention-appraisal-batch3-2026-11-05/integration-report.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx",
+    "scope": "One approved intervention and its independent assessment using existing components on this PM; no new component or wider rollout."
+  },
+  {
+    "file": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx",
+    "sha256": "e0711250d0442452e8f9eea0fcf38ee0cd0104fb2918dffa249176ce3f56ad4f",
+    "author_approval": "Author explicitly approved implementation of the five eligible Batch 3 interventions with existing six atoms and independent Section 4 SEC assessments.",
+    "approval_source": "Current conversation: implement the five eligible Batch 3 interventions, 5 November 2026",
+    "proposal": "review/priority-intervention-appraisal-batch3-2026-11-05/integration-report.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx",
+    "scope": "One approved intervention and its independent assessment using existing components on this PM; no new component or wider rollout."
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+    "sha256": "15763536c8e2a46bcbe8d4f4730ef40b8bfcfe9d6bfdbabd8a93292e71659766",
+    "author_approval": "Author explicitly approved implementation of the five eligible Batch 3 interventions with existing six atoms and independent Section 4 SEC assessments.",
+    "approval_source": "Current conversation: implement the five eligible Batch 3 interventions, 5 November 2026",
+    "proposal": "review/priority-intervention-appraisal-batch3-2026-11-05/integration-report.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+    "scope": "One approved intervention and its independent assessment using existing components on this PM; no new component or wider rollout."
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+    "sha256": "f087c227eea9699abfc525d2735f9ba2aa5ef3fc94acad428d3467238ababa9a",
+    "author_approval": "Explicit author decision: relocate LAT1 DIT-3 to Section 3.2 using existing SOP six atoms.",
+    "approval_source": "Current conversation — Approved LAT1 DIT-3 Relocation, 5 November 2026",
+    "proposal": "review/lat1-sop-relocation-2026-11-05/report.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+    "scope": "LAT1 only; existing disclosure, classification correction; no new component or scoring."
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+    "sha256": "b120a4eca6b5cb26c79ae8c3e60f77d04894a4819673025fa6f4a130695c27f4",
+    "author_approval": "Author explicitly approved implementation of the five eligible Batch 3 interventions with existing six atoms and independent Section 4 SEC assessments.",
+    "approval_source": "Existing author-approved reference standard and current release regression-repair instruction, 5 November 2026",
+    "proposal": "review/priority-intervention-appraisal-batch3-2026-11-05/integration-report.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+    "scope": "One approved intervention and its independent assessment using existing components on this PM; no new component or wider rollout. Restore approved canonical numbered-reference rendering; no new section."
+  },
+  {
+    "file": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx",
+    "sha256": "e0711250d0442452e8f9eea0fcf38ee0cd0104fb2918dffa249176ce3f56ad4f",
+    "author_approval": "Author authorised release regression repair; existing approved numbered References and canonical inventory conventions restored.",
+    "approval_source": "Current release instruction, 5 November 2026; prior approved reference cleanup and CoQ PM registration",
+    "proposal": "review/release-2026-11-05/release-manifest.md",
+    "contract": "system/brs-citation-reference-standard.md",
+    "example": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx",
+    "scope": "Restore existing canonical references/inventory; no new component, scientific claim or admission."
+  },
+  {
+    "file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx",
+    "sha256": "86b2a0f2329d666aa074f6233bb2103f86cdfc387b22fe266719ac48fcdeab18",
+    "author_approval": "Author authorised release regression repair; existing approved numbered References and canonical inventory conventions restored.",
+    "approval_source": "Current release instruction, 5 November 2026; prior approved reference cleanup and CoQ PM registration",
+    "proposal": "review/release-2026-11-05/release-manifest.md",
+    "contract": "system/brs-citation-reference-standard.md",
+    "example": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx",
+    "scope": "Restore existing canonical references/inventory; no new component, scientific claim or admission."
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+    "sha256": "d852c997a11ba816b7a0d6c5e0a47996bcfc982ccd0fd79a7762e790ee618c47",
+    "author_approval": "Author authorised release regression repair; existing approved numbered References and canonical inventory conventions restored.",
+    "approval_source": "Current release instruction, 5 November 2026; prior approved reference cleanup and CoQ PM registration",
+    "proposal": "review/release-2026-11-05/release-manifest.md",
+    "contract": "system/brs-citation-reference-standard.md",
+    "example": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+    "scope": "Restore existing canonical references/inventory; no new component, scientific claim or admission."
+  },
+  {
+    "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx",
+    "sha256": "62a333a0a9a82327f620c333b366fdf6a5c511187c74137268e06290f3bd4b89",
+    "author_approval": "Author authorised release regression repair; existing approved numbered References and canonical inventory conventions restored.",
+    "approval_source": "Current release instruction, 5 November 2026; prior approved reference cleanup and CoQ PM registration",
+    "proposal": "review/release-2026-11-05/release-manifest.md",
+    "contract": "system/brs-citation-reference-standard.md",
+    "example": "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx",
+    "scope": "Restore existing canonical references/inventory; no new component, scientific claim or admission."
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx",
+    "sha256": "907a4393fae5de19838bbe67415a9f10816f522feb4538f164e2e8d37a7da525",
+    "author_approval": "Author authorised release regression repair; existing approved numbered References and canonical inventory conventions restored.",
+    "approval_source": "Current release instruction, 5 November 2026; prior approved reference cleanup and CoQ PM registration",
+    "proposal": "review/release-2026-11-05/release-manifest.md",
+    "contract": "system/brs-citation-reference-standard.md",
+    "example": "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx",
+    "scope": "Restore existing canonical references/inventory; no new component, scientific claim or admission."
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx",
+    "sha256": "64f703364f05737c8ad48a3c253eb0989134367bbad886a46ce09a7bdefedf74",
+    "author_approval": "Author authorised release regression repair; existing approved numbered References and canonical inventory conventions restored.",
+    "approval_source": "Current release instruction, 5 November 2026; prior approved reference cleanup and CoQ PM registration",
+    "proposal": "review/release-2026-11-05/release-manifest.md",
+    "contract": "system/brs-citation-reference-standard.md",
+    "example": "docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx",
+    "scope": "Restore existing canonical references/inventory; no new component, scientific claim or admission."
+  },
+  {
+    "file": "docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx",
+    "sha256": "ee4469fb117560b6637368fb5f8589c6919355844c6c9cab04e34a3d3c83f5ef",
+    "author_approval": "Author authorised release regression repair; existing approved numbered References and canonical inventory conventions restored.",
+    "approval_source": "Current release instruction, 5 November 2026; prior approved reference cleanup and CoQ PM registration",
+    "proposal": "review/release-2026-11-05/release-manifest.md",
+    "contract": "system/brs-citation-reference-standard.md",
+    "example": "docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx",
+    "scope": "Restore existing canonical references/inventory; no new component, scientific claim or admission."
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics.mdx",
+    "sha256": "fea10f0519f3b49f866bb6384977f255c5c8a25d1a64280ad8551748352a0591",
+    "author_approval": "Author authorised release regression repair; existing approved numbered References and canonical inventory conventions restored.",
+    "approval_source": "Current release instruction, 5 November 2026; prior approved reference cleanup and CoQ PM registration",
+    "proposal": "review/release-2026-11-05/release-manifest.md",
+    "contract": "system/brs-citation-reference-standard.md",
+    "example": "docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics.mdx",
+    "scope": "Restore existing canonical references/inventory; no new component, scientific claim or admission."
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+    "sha256": "40a327ab39e51c2a4d10f9862669887641bd7fabd5c5f9b77f2d9a5825441d60",
+    "author_approval": "Author authorised release regression repair; existing approved numbered References and canonical inventory conventions restored.",
+    "approval_source": "Current release instruction, 5 November 2026; prior approved reference cleanup and CoQ PM registration",
+    "proposal": "review/release-2026-11-05/release-manifest.md",
+    "contract": "system/brs-citation-reference-standard.md",
+    "example": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+    "scope": "Approved LAT1 relocation with canonical linked reference labels; no scientific change."
   }
 ]

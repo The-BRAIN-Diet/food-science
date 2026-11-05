@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-05",
+  "decisions": [
+    {
+      "reviewId": "wastyk-2021",
+      "pmId": "BRS3-FM3-PM7",
+      "file": "docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx",
+      "atom_id": "PM7-SOP-FERMENTED-FOOD-1",
+      "sec_assessment_ref": {
+        "id": "brs3-fm3-pm7-pm7-sop-fermented-food-1-assessment",
+        "version": 1,
+        "sha256": "1a4c53d7614339a9af89a9fcd29b50c28f095efa83b17dd2fd332d6ae1cd0b38"
+      },
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "score": 4,
+      "title": "Tested fermented-food pattern → exploratory changes in selected inflammatory markers",
+      "admission": "author-approved; implemented locally"
+    },
+    {
+      "reviewId": "baxter-2019",
+      "pmId": "BRS5-FM2-PM5",
+      "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+      "atom_id": "PM5-SOP-POTATO-RS2-1",
+      "sec_assessment_ref": {
+        "id": "brs5-fm2-pm5-pm5-sop-potato-rs2-1-assessment",
+        "version": 1,
+        "sha256": "634a75cecb3bf7a55318a4332daf80db94eef7ca350feb1d6549bacf096fa32f"
+      },
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 1
+      },
+      "score": 5,
+      "title": "Unheated extracted potato RS2 supplementation → increased faecal butyrate concentration",
+      "admission": "author-approved; implemented locally"
+    },
+    {
+      "reviewId": "sutton-2018",
+      "pmId": "BRS6-FM1-PM3",
+      "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+      "atom_id": "PM3-SOP-EARLY-EATING-1",
+      "sec_assessment_ref": {
+        "id": "brs6-fm1-pm3-pm3-sop-early-eating-1-assessment",
+        "version": 1,
+        "sha256": "4edc0fe4e2ebfae9ac45dfb5408be65865df908a19baeed615a304d9b43d2f0c"
+      },
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "score": 4,
+      "title": "Five-week six-hour early eating window with weight-maintenance feeding → lower OGTT-derived insulin-resistance index in eight men with prediabetes",
+      "admission": "author-approved; implemented locally"
+    }
+  ],
+  "deferred": [
+    "shukla-2017",
+    "reynolds-2016"
+  ],
+  "ownershipQuestion": "No existing PM directly owns measured postprandial glucose exposure more closely; FM1 applicability retained pending adjudication. No new PM or mission change."
+}

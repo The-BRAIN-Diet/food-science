@@ -1,5 +1,6 @@
 ---
 id: turmeric-lentil-dahl
+slug: /recipes/dinner/turmeric-lentil-dahl
 title: Turmeric Lentil Dahl
 sidebar_label: Turmeric Lentil Dahl
 description: Turmeric- and ginger-spiced lentil dish rich in fibre, folate, and polyphenols

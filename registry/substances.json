@@ -35,9 +35,15 @@
       "bioactive",
       "lipid"
     ],
-    "title": "Coq10",
-    "inchikey": "",
-    "list_image": ""
+    "title": "Coenzyme Q10 (CoQ10)",
+    "inchikey": "ACTIUHUUMQJHFO-UPTCCGCDSA-N",
+    "list_image": "/img/inchi/ACTIUHUUMQJHFO-UPTCCGCDSA-N.png",
+    "aliases": [
+      "CoQ10",
+      "Coenzyme Q10",
+      "Ubiquinone-10",
+      "Ubiquinone 10"
+    ]
   },
   "creatine": {
     "path": "bioactive-compounds/lipid-based/creatine.md",
@@ -1516,5 +1522,36 @@
     ],
     "inchikey": "MEFKEPWMEQBLKI-AIRLBKTGSA-N",
     "list_image": "/img/inchi/MEFKEPWMEQBLKI-AIRLBKTGSA-N.png"
+  },
+  "phytate": {
+    "path": "bioactive-compounds/phytate.md",
+    "tags": [
+      "bioactive",
+      "phytate"
+    ],
+    "title": "Phytate",
+    "aliases": [
+      "Phytic acid",
+      "myo-inositol hexakisphosphate",
+      "InsP6",
+      "IP6"
+    ],
+    "inchikey": "IMQLKJBTEOYOSI-UHFFFAOYSA-N",
+    "list_image": "/img/inchi/IMQLKJBTEOYOSI-UHFFFAOYSA-N.png"
+  },
+  "oxalate": {
+    "path": "bioactive-compounds/oxalate.md",
+    "tags": [
+      "bioactive",
+      "oxalate"
+    ],
+    "title": "Oxalate",
+    "aliases": [
+      "Oxalates",
+      "Oxalate ion",
+      "Oxalic acid"
+    ],
+    "inchikey": "MUBZPKHOEPUJKR-UHFFFAOYSA-L",
+    "list_image": "/img/inchi/MUBZPKHOEPUJKR-UHFFFAOYSA-L.png"
   }
 }

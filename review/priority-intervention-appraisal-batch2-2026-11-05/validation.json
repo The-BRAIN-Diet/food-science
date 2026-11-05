@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-05",
+  "checks": [
+    {
+      "check": "Seven unique requested decisions",
+      "result": "PASS"
+    },
+    {
+      "check": "Canonical PM missions and source identities",
+      "result": "PASS"
+    },
+    {
+      "check": "SEC gate: only eligible candidates appraised",
+      "result": "PASS"
+    },
+    {
+      "check": "Existing SEC totals; pending never zero",
+      "result": "PASS"
+    },
+    {
+      "check": "No inherited or implemented score/admission",
+      "result": "PASS"
+    },
+    {
+      "check": "Mechanism, effect and PM relevance separate; typed limitations retained",
+      "result": "PASS"
+    },
+    {
+      "check": "All pre-edit docs/system/src files preserved byte-for-byte",
+      "result": "PASS"
+    }
+  ],
+  "protectedFiles": 1175,
+  "changedProtectedFiles": [],
+  "secSnapshots": 129,
+  "scope": "Review-only checks; no browser/build claims. No canonical files edited.",
+  "branch": "review/brs5-pm4-sec-assessment",
+  "head": "f1607fe5"
+}

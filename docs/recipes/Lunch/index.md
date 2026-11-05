@@ -1,5 +1,6 @@
 ---
 id: lunch-recipes
+slug: /recipes/lunch
 title: Lunch Recipes
 sidebar_label: Lunch
 sidebar_position: 2

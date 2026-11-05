@@ -1,5 +1,6 @@
 ---
 id: drinks-recipes
+slug: /recipes/drinks
 title: Drinks Recipes
 sidebar_label: Drinks
 sidebar_position: 3

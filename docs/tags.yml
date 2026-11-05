@@ -1949,3 +1949,10 @@ S-adenosylmethionine:
   label: S-adenosylmethionine
   permalink: /s-adenosylmethionine
   description: Intracellular methyl donor; no independent dietary admission.
+
+Phytate:
+  label: Phytate
+  description: Phytic acid and its phytate forms; composition does not imply mineral absorption.
+Oxalate:
+  label: Oxalate
+  description: Oxalate forms, food occurrence and qualified mineral interactions.

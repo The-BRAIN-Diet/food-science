@@ -1,0 +1,97 @@
+[
+  {
+    "atom_id": "PM1-SOP-DEFERRED-1",
+    "intervention": "Minced rather than intact beef in the tested older-adult meal",
+    "interventionType": "food preparation/delivery practice",
+    "biologicalRelationship": {
+      "moa": {
+        "status": "identified",
+        "summary": "Physical disruption of the food matrix",
+        "description": "Mincing physically disrupts the beef matrix and may facilitate digestive release; the study does not isolate mediation.",
+        "evidenceQualification": "Physicochemical interpretation; causal mediation of the measured response was not isolated.",
+        "mechanismRef": "physical-disruption-food-matrix",
+        "semanticReview": {
+          "status": "reviewed",
+          "date": "2026-11-03",
+          "rationale": "Uses the existing pilot process label; the physical process is distinguished from unproven mediation of the measured response. Digestibility and plasma endpoints are not interchangeable."
+        }
+      },
+      "measuredEffect": "The tested texture change increased six-hour appearance of dietary phenylalanine in ten older men.",
+      "pmRelevance": "Circulating amino-acid provision within PM1; not brain transport or neurotransmitter efficacy."
+    },
+    "limitations": [
+      {
+        "type": "population",
+        "text": "Ten older men; one 135 g beef protocol."
+      },
+      {
+        "type": "endpoint",
+        "text": "Dietary phenylalanine appearance is not brain delivery."
+      },
+      {
+        "type": "null-outcome",
+        "text": "No detectable total plasma EAA or muscle-protein-synthesis difference."
+      }
+    ],
+    "evidenceSource": {
+      "finding_ids": [
+        "PM1-F5"
+      ],
+      "citation_keys": [
+        "pennings_minced_beef_2013"
+      ]
+    },
+    "interventionAdmitted": "Yes",
+    "secStatus": "Provisionally assessed"
+  },
+  {
+    "atom_id": "PM1-SOP-COOKED-EGG-1",
+    "intervention": "Boiled rather than raw eggs in the tested postexercise meal",
+    "interventionType": "food preparation/delivery practice",
+    "biologicalRelationship": {
+      "moa": {
+        "status": "identified",
+        "summary": "Heat-induced protein denaturation",
+        "description": "Heating alters egg protein structure and digestive accessibility; separate digestibility evidence does not isolate mediation of the postexercise plasma response.",
+        "evidenceQualification": "Physicochemical interpretation; causal mediation of the measured response was not isolated.",
+        "mechanismRef": "heat-induced-protein-denaturation",
+        "semanticReview": {
+          "status": "reviewed",
+          "date": "2026-11-03",
+          "rationale": "Uses the existing pilot process label; the physical process is distinguished from unproven mediation of the measured response. Digestibility and plasma endpoints are not interchangeable."
+        }
+      },
+      "measuredEffect": "Boiled eggs produced higher peak circulating essential-amino-acid concentrations than raw eggs in the tested postexercise meal, supporting PM1’s circulating precursor-provision function.",
+      "pmRelevance": "Circulating amino-acid provision within PM1; not brain transport or neurotransmitter efficacy."
+    },
+    "limitations": [
+      {
+        "type": "population",
+        "text": "45 trained young men; five eggs after exercise."
+      },
+      {
+        "type": "endpoint",
+        "text": "Plasma concentration is not dietary tracer appearance or brain delivery."
+      },
+      {
+        "type": "separate-evidence",
+        "text": "Ileal digestibility measured in a separate five-patient ileostomy study."
+      },
+      {
+        "type": "null-outcome",
+        "text": "No detectable muscle-protein-synthesis advantage; not evidence of equivalence."
+      }
+    ],
+    "evidenceSource": {
+      "finding_ids": [
+        "PM1-F1"
+      ],
+      "citation_keys": [
+        "fuchs_raw_eggs_2022",
+        "evenepoel_digestibility_1998"
+      ]
+    },
+    "interventionAdmitted": "Yes",
+    "secStatus": "Provisionally assessed"
+  }
+]

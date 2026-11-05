@@ -1,3 +1,6 @@
+import fs from 'node:fs';
+import {secAssessmentHash} from './sec-assessments.mjs';
+import {resolveInterventionSecAssessment,secRecordErrors} from '../../src/lib/secAssessments.mjs';
 import {CONTROLLED_INPUT_TYPES} from '../../src/lib/dietaryInputGovernance.mjs';
 /**
  * PM Evidence layer — canonical six-atom dietary evidence relationships.
@@ -242,7 +245,16 @@ export function validatePmNonDietaryLeverEvidence(data, issues, { entityLabel })
       const fids = source.finding_ids || [];
       const citationKeys = source.citation_keys || [];
       if (!fids.length) {
-        push(issues, "pm_lever_missing_finding_source", `${label} must cite a Scientific Finding`);
+        // Author-approved independent intervention evidence route, 5 November 2026.
+        // Findings are not fabricated to satisfy linkage; exact intervention SEC is mandatory here.
+        const registry=JSON.parse(fs.readFileSync('system/sec-assessments/registry.json','utf8'));
+        const resolved=resolveInterventionSecAssessment(registry,{pmId:data.pm_id,intervention:row});
+        const a=row.biologicalRelationship;
+        const complete=Boolean(citationKeys.length && a?.measuredEffect?.trim() && a?.pmRelevance?.trim()
+          && a?.moa && row.limitations?.length && row.limitations.every(x=>x.type&&x.text)
+          && row.intervention_admitted==='Yes' && resolved.kind==='resolved'
+          && !secRecordErrors(resolved.record).length && secAssessmentHash(resolved.record)===row.sec_assessment_ref.sha256);
+        if(!complete)push(issues, "pm_lever_missing_finding_source", `${label} requires a valid Finding link or complete independently appraised intervention evidence`);
       }
       if (!citationKeys.length) {
         push(issues, "pm_lever_missing_bibliography_source", `${label} must cite a PM bibliography entry`);

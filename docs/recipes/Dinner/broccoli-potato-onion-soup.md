@@ -1,5 +1,6 @@
 ---
 id: broccoli-potato-onion-soup
+slug: /recipes/dinner/broccoli-potato-onion-soup
 title: Broccoli, Potato and Onion Soup
 sidebar_label: Broccoli, Potato and Onion Soup
 description: A smooth broccoli, potato and onion soup for 4, with the broccoli blended and rested before a short simmer.

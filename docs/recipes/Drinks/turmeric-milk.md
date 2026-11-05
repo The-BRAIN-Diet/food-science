@@ -1,5 +1,6 @@
 ---
 id: turmeric-milk
+slug: /recipes/drinks/turmeric-milk
 title: Turmeric Milk
 sidebar_label: Turmeric Milk
 description: A warming drink combining turmeric (curcumin) with milk/fat for enhanced curcumin absorption

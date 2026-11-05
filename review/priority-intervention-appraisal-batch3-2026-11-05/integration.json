@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-05",
+  "decisions": [
+    {
+      "review_id": "DISC-DHA-EA",
+      "pmId": "BRS-X(ECS-PM2)",
+      "file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx",
+      "atom_id": "PM2-SOP-LOW-LA-HIGH-N3-1",
+      "field": "system_optimisation_practices",
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "sec_assessment_ref": {
+        "id": "brs-x-ecs-pm2-pm2-sop-low-la-high-n3-1-assessment",
+        "version": 1,
+        "sha256": "4c814c66c63bbb0443466efd8ef145938201eed759287e17470cdbfb49063a93"
+      },
+      "reference": "courville_dietary_endocannabinoids_2023",
+      "url": "http://127.0.0.1:3145/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling/"
+    },
+    {
+      "review_id": "DISC-EUROLIVE",
+      "pmId": "BRS3-FM2-PM5",
+      "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx",
+      "atom_id": "PM5-SOP-PHENOLIC-OLIVE-OIL-1",
+      "field": "system_optimisation_practices",
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "sec_assessment_ref": {
+        "id": "brs3-fm2-pm5-pm5-sop-phenolic-olive-oil-1-assessment",
+        "version": 1,
+        "sha256": "f3987a1e08aa3751c61102b07116a803510f3f6345690dfc1bf578148eeae3b4"
+      },
+      "reference": "covas_eurolive_2006",
+      "url": "http://127.0.0.1:3145/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control/"
+    },
+    {
+      "review_id": "DISC-BREATH-RECOVERY",
+      "pmId": "BRS6-FM3-PM6",
+      "file": "docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx",
+      "atom_id": "PM6-LP-GUIDED-BREATHING-1",
+      "field": "lifestyle_priorities",
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "sec_assessment_ref": {
+        "id": "brs6-fm3-pm6-pm6-lp-guided-breathing-1-assessment",
+        "version": 1,
+        "sha256": "7f6ed053c1033d77f289782e1706068e1a7738ec02b225f5ffb4ceba7239d293"
+      },
+      "reference": "plans_breathing_recovery_2019",
+      "url": "http://127.0.0.1:3145/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery/"
+    },
+    {
+      "review_id": "DISC-BLUE-BLOCK",
+      "pmId": "BRS-X(Circadian-FM1-PM1)",
+      "file": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx",
+      "atom_id": "PM1-LP-BLUE-BLOCKING-1",
+      "field": "lifestyle_priorities",
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "sec_assessment_ref": {
+        "id": "brs-x-circadian-fm1-pm1-pm1-lp-blue-blocking-1-assessment",
+        "version": 1,
+        "sha256": "24e8c9dce9a5399769b1d8d1c8f0d36037ed9004ec5807c6a108b906d345b470"
+      },
+      "reference": "liset_blue_blocking_2022",
+      "url": "http://127.0.0.1:3145/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment/"
+    },
+    {
+      "review_id": "DISC-CR-MTDNA",
+      "pmId": "BRS4-FM4-PM9",
+      "file": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+      "atom_id": "PM9-SOP-CALORIE-RESTRICTION-1",
+      "field": "system_optimisation_practices",
+      "factors": {
+        "D": 2,
+        "B": 1,
+        "P": 1,
+        "R": 0
+      },
+      "sec_assessment_ref": {
+        "id": "brs4-fm4-pm9-pm9-sop-calorie-restriction-1-assessment",
+        "version": 1,
+        "sha256": "0f1b6f88fe7cf9c4cb41bbaca18731be152c2eea5e496bfcf7f902045095d174"
+      },
+      "reference": "civitarese_calorie_mitochondrial_2007",
+      "url": "http://127.0.0.1:3145/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis/"
+    }
+  ],
+  "deferred": [
+    "DISC-UROLITHIN-MITO",
+    "DISC-ET-OXPHOS"
+  ]
+}

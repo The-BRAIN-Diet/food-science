@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-05",
+  "focusedTests": {
+    "passed": 12,
+    "failed": 0
+  },
+  "changedPageGovernance": {
+    "pages": 5,
+    "issues": 0
+  },
+  "findings": {
+    "pages": 65,
+    "issues": 0
+  },
+  "sec": {
+    "command": "SEC_BASE_REF=HEAD npm run sec:check",
+    "snapshots": 134,
+    "priorPreserved": 129,
+    "pass": true
+  },
+  "presentation": {
+    "protectedFiles": 691,
+    "pass": true
+  },
+  "broaderLimitations": [
+    "dietary-inputs:check: three existing BRS1-FM1-PM2 / PM2-DIT-3 issues; changed PMs have none",
+    "bib:validate: missing existing zeisel_choline_betaine_2003 and zeisel_choline_betaine_2003_erratum keys",
+    "priority-sop-integration.test.mjs: older preservation fixture predates subsequently authorised PM3 SOP scores; Batch2 does not change that page",
+    "generate-food-strategy-rollup.mjs: stops before writes on existing BRS3-FM3-PM7 / PM7-SOP-FERMENTED-FOOD-1 missing strategy ID"
+  ],
+  "browser": "Egg PM verified loaded, arrow row, first-click six atoms and 4/8 independent Section4 assessment. Glutamine navigation timed out and remained an empty accessibility tree; full five-page visual verification is incomplete. Existing server retained; no new server or production deployment.",
+  "productionBuild": "Not run; no deployment. MDX compiled for all five changed pages."
+}
