@@ -708,5 +708,35 @@
     "contract": "system/brs-citation-reference-standard.md",
     "example": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
     "scope": "Approved LAT1 relocation with canonical linked reference labels; no scientific change."
+  },
+  {
+    "file": "static/explore/food-wheel/index.html",
+    "sha256": "ae98e38e6232efd964b629ae2be84b55ea8eb7bdb2c2eb833a5009ecb85768e8",
+    "author_approval": "Publish the reviewed food wheel for the website",
+    "approval_source": "Owner message 6 November 2026: these are great refinements ... no more rings ... can you publish it for the website",
+    "proposal": "system/food-wheel-presentation-contract.md",
+    "contract": "system/food-wheel-presentation-contract.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Standalone food wheel and scope page only; no scientific admissions or canonical page changes"
+  },
+  {
+    "file": "static/explore/food-wheel/about.html",
+    "sha256": "ad0f05c04d7cd695d22466bfbdfd22917bef139fb92393bedc3d7d39a4da5cec",
+    "author_approval": "Publish the reviewed food wheel for the website",
+    "approval_source": "Owner message 6 November 2026: these are great refinements ... no more rings ... can you publish it for the website",
+    "proposal": "system/food-wheel-presentation-contract.md",
+    "contract": "system/food-wheel-presentation-contract.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Standalone food wheel and scope page only; no scientific admissions or canonical page changes"
+  },
+  {
+    "file": "static/explore/food-wheel/food-wheel.svg",
+    "sha256": "6211634b974bbf6905a411af5e666b00845b52f029bde35cf6fd074a36dfbcd3",
+    "author_approval": "Publish the reviewed food wheel for the website",
+    "approval_source": "Owner message 6 November 2026: these are great refinements ... no more rings ... can you publish it for the website",
+    "proposal": "system/food-wheel-presentation-contract.md",
+    "contract": "system/food-wheel-presentation-contract.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Standalone food wheel and scope page only; no scientific admissions or canonical page changes"
   }
 ]
