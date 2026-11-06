@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import test from 'node:test';
+const root='static/explore/food-wheel/';
+const html=fs.readFileSync(root+'index.html','utf8');
+const data=JSON.parse(html.split('<script>const DATA=')[1].split(';const $=')[0]);
+test('public snapshot scope and connectivity preserved',()=>{assert.equal(data.foods.length,90);assert.equal(data.network.inventory.filter(s=>s.inclusion==='included').length,68);assert.equal(data.network.connections.length,121);assert.equal(data.foodPairs.length,1768);assert.equal(data.foodPairs.filter(p=>p.existing).length,1750);});
+test('no local paths, hosts or API credentials shipped',()=>{for(const file of fs.readdirSync(root)){const s=fs.readFileSync(root+file,'utf8');assert.doesNotMatch(s,/localhost|127\.0\.0\.1|\/Users\/|api_key=/i,file);}});
+test('proposal status, system colouring and controls retained',()=>{assert.match(html,/id="allConnections" checked/);assert.match(html,/id="proposals"/);assert.match(html,/<linearGradient/);assert.doesNotMatch(html,/class="food-link"[^>]*fill="#b7c9dd"/);assert.match(html,/diagram inclusion is not dietary admission/);assert.ok(data.research.proposals.every(p=>p.status==='Proposed'));});
+test('supporting public resources exist',()=>{for(const f of ['food-wheel.svg','TOP-FOODS.md','GAP-LEDGER.md','MULTI-TARGET-FOODS.md','about.html'])assert.ok(fs.existsSync(root+f));});
