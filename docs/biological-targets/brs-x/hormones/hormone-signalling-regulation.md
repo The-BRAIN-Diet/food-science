@@ -68,6 +68,7 @@ hide_title: true
   <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration">BRS-X(Hormones-PM4) — Metabolic-Reproductive Hormone Integration</a></li>
   <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability">BRS-X(Hormones-PM5) — Testosterone Signalling Stability</a></li>
   <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation">BRS-X(Hormones-PM6) — Androgen-Microbiome Regulation</a></li>
+  <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm7-circulating-sex-hormone-availability">BRS-X(Hormones-PM7) — Circulating Sex-Hormone Availability & Regulation</a></li>
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -223,6 +224,7 @@ Reproductive hormone balance interacts with neurocognitive regulation through in
   <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration">BRS-X(Hormones-PM4) — Metabolic-Reproductive Hormone Integration</a></li>
   <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability">BRS-X(Hormones-PM5) — Testosterone Signalling Stability</a></li>
   <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation">BRS-X(Hormones-PM6) — Androgen-Microbiome Regulation</a></li>
+  <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm7-circulating-sex-hormone-availability">BRS-X(Hormones-PM7) — Circulating Sex-Hormone Availability & Regulation</a></li>
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
