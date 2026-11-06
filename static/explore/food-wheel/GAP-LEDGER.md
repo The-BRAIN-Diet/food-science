@@ -1,120 +1,135 @@
-# Food-source gap research ledger
+# Uncovered ranking targets
 
-Every displayed substance is accounted for below. No canonical gap is silently marked closed. “Proposed” means research has supplied a local candidate record; author approval is outstanding. “Unresolved” includes insufficient analytical comparability or retrieval, not necessarily an absence of food occurrence. No fixed ten-source quota was used as a reason to manufacture records.
+32 uncovered targets, 22 distinct substances. Canonical relationships remain intact.
 
-|Substance|Original gap|Direct / numerical foods before|Evidence found|Proposed food mapping|Status|
-|---|---|---|---|---|---|
-|5-Methyltetrahydrofolate|Measured records not comparable for concentration ranking|5 / 5|[Original isotope-dilution HPLC/MS/MS study located. Vitamer-specific methods support keeping total folate separate; no missing numerical table invented.](https://pubmed.ncbi.nlm.nih.gov/12698226/)|None|Partially resolved — measured, not concentration-ranked|
-|Acetate|No direct source resolved|0 / 0|Existing source records inspected; no new verified numerical backfill|None|Derived provision only; no direct-food ranking|
-|Acetic acid|Presence but no verified numerical composition|2 / 0|Existing source records inspected; no new verified numerical backfill|None|Unresolved or protocol-specific; existing source records only|
-|Acetoacetate|No direct source resolved|0 / 0|Existing source records inspected; no new verified numerical backfill|None|Derived provision only; no direct-food ranking|
-|Arabinan|Presence but no verified numerical composition|1 / 0|Targeted food/nucleoside and cell-wall composition searches did not yield a verified new exact-food numerical mapping in this pass. Existing qualified records retained; no totals or dry-extract yields relabelled as food concentrations.|None|Unresolved after targeted search|
-|Arginine|Limited recorded food coverage|2 / 2|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Betaine|Measured records not comparable for concentration ranking|5 / 1|[USDA release 2 contains betaine and choline moieties. Phosphatidylcholine column is choline contributed by phosphatidylcholine, not phosphatidylcholine molecular mass. No relabelling as PC mg. Exact food/state joins require further reconciliation.](https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf)|None|Partially resolved — measured, not concentration-ranked|
-|Butyrate|No direct source resolved|0 / 0|Existing source records inspected; no new verified numerical backfill|None|Derived provision only; no direct-food ranking|
-|Caprylic Triglyceride (Trioctanoin)|Presence but no verified numerical composition|1 / 0|Existing source records inspected; no new verified numerical backfill|None|Unresolved or protocol-specific; existing source records only|
-|Choline|No priority source gap|119 / 113|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Coenzyme Q10 (CoQ10)|Presence but no verified numerical composition|9 / 0|[Olive-oil HPLC study confirmed. Existing mg/L sample means retained in canonical supplementary records; no mass-density conversion. Pistachio sample range proposed separately.](https://pubmed.ncbi.nlm.nih.gov/24650117/)|Pistachios — Six named pistachio samples, Turkish Pistachio Research Institute|Proposed — not canonically backfilled|
-|Copper|No priority source gap|132 / 131|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Creatine|Presence but no verified numerical composition|5 / 0|[Purchas et al. measured cooked/uncooked beef and lamb; original numerical table not retrieved. No fabricated universal meat value.](https://pubmed.ncbi.nlm.nih.gov/22060873/)|None|Unresolved after targeted search|
-|Cysteine|Presence but no verified numerical composition|7 / 0|[Original amino-acid database evaluation distinguishes sequence-derived estimates from hydrolysis measurements, which conflate glutamine/glutamate and cystine/cysteine. Exact canonical food, amino-acid form and analytical joins remain unresolved.](https://pmc.ncbi.nlm.nih.gov/articles/PMC3249386/)|None|Unresolved after targeted search|
-|DHA (Docosahexaenoic Acid)|No priority source gap|24 / 20|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Ellagic acid|Measured records not comparable for concentration ranking|1 / 1|Existing source records inspected; no new verified numerical backfill|None|Partially resolved — measured, not concentration-ranked|
-|Ellagitannins|Measured records not comparable for concentration ranking|2 / 1|Existing source records inspected; no new verified numerical backfill|None|Partially resolved — measured, not concentration-ranked|
-|EPA (Eicosapentaenoic Acid)|No priority source gap|22 / 18|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Epicatechin|Presence but no verified numerical composition|4 / 0|[USDA NDB 19165 cocoa quantified; proposed record retains processing and analytical form.](https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Flav/Flav3.3.pdf)|Cocoa — Dry unsweetened cocoa powder, not alkali-treated|Proposed — not canonically backfilled|
-|Flavin adenine dinucleotide (FAD)|No direct source resolved|0 / 0|Existing source records inspected; no new verified numerical backfill|None|Derived provision only; no direct-food ranking|
-|Flavin mononucleotide (FMN)|Presence but no verified numerical composition|1 / 0|Existing source records inspected; no new verified numerical backfill|None|Unresolved or protocol-specific; existing source records only|
-|Fructo-oligosaccharides / galacto-oligosaccharides|No direct source resolved|0 / 0|[Original dehydrated garlic/onion FOS storage study located. Dry solids and chain-length definitions cannot be equated with raw-food values or a combined FOS/GOS protocol. No numerical backfill.](https://academic.oup.com/ijfst/article/44/5/947/7864784)|None|Unresolved after targeted search|
-|Glucose|Measured records not comparable for concentration ranking|2 / 2|Existing source records inspected; no new verified numerical backfill|None|Partially resolved — measured, not concentration-ranked|
-|Glutamate|Presence but no verified numerical composition|3 / 0|[Original amino-acid database evaluation distinguishes sequence-derived estimates from hydrolysis measurements, which conflate glutamine/glutamate and cystine/cysteine. Exact canonical food, amino-acid form and analytical joins remain unresolved.](https://pmc.ncbi.nlm.nih.gov/articles/PMC3249386/)|None|Unresolved after targeted search|
-|Glutamine|Presence but no verified numerical composition|3 / 0|[Original amino-acid database evaluation distinguishes sequence-derived estimates from hydrolysis measurements, which conflate glutamine/glutamate and cystine/cysteine. Exact canonical food, amino-acid form and analytical joins remain unresolved.](https://pmc.ncbi.nlm.nih.gov/articles/PMC3249386/)|None|Unresolved after targeted search|
-|Glycine|No direct source resolved|0 / 0|[Original amino-acid database evaluation distinguishes sequence-derived estimates from hydrolysis measurements, which conflate glutamine/glutamate and cystine/cysteine. Exact canonical food, amino-acid form and analytical joins remain unresolved.](https://pmc.ncbi.nlm.nih.gov/articles/PMC3249386/)<br>[Five exact canonical food identities verified against USDA API descriptions and IDs; fifteen amino-acid composition mappings proposed. No substitution of free amino-acid concentrations or cooked state.](https://fdc.nal.usda.gov/)|Beef — Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)<br>Eggs — Egg, whole, raw, fresh<br>Salmon — Fish, salmon, Atlantic, farmed, raw<br>Chicken — Chicken, broilers or fryers, meat and skin, raw<br>Soy — Soybeans, mature seeds, raw|Proposed — not canonically backfilled|
-|Indispensable amino acids|No priority source gap|20 / 20|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Inulin|Measured records not comparable for concentration ranking|1 / 1|[Original dehydrated garlic/onion FOS storage study located. Dry solids and chain-length definitions cannot be equated with raw-food values or a combined FOS/GOS protocol. No numerical backfill.](https://academic.oup.com/ijfst/article/44/5/947/7864784)|None|Partially resolved — measured, not concentration-ranked|
-|Iron|No priority source gap|147 / 143|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|L-Carnitine|No direct source resolved|0 / 0|[Demarquoy original radioisotopic food analysis located; exact food-specific table unavailable. NIH serving estimate remains explicitly estimated.](https://www.sciencedirect.com/science/article/pii/S0308814603004886)|Beef — Cooked beef steak|Proposed — not canonically backfilled|
-|Linoleic Acid (LA, n-6)|No priority source gap|127 / 127|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Magnesium|No priority source gap|142 / 139|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Manganese|No priority source gap|128 / 127|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Methionine|Limited recorded food coverage|5 / 5|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|N-acetylcysteine|No direct source resolved|0 / 0|Existing source records inspected; no new verified numerical backfill|None|Unresolved or protocol-specific; existing source records only|
-|NAD+ (oxidised nicotinamide adenine dinucleotide)|No direct source resolved|0 / 0|[NR and nicotinamide measured in skim milk; nicotinic acid and NAD+ not quantifiable. Do not substitute total niacin or infer NAD+ occurrence.](https://pmc.ncbi.nlm.nih.gov/articles/PMC6879052/)|None|Derived provision only; no direct-food ranking|
-|Nicotinamide|No direct source resolved|0 / 0|[NR and nicotinamide measured in skim milk; nicotinic acid and NAD+ not quantifiable. Do not substitute total niacin or infer NAD+ occurrence.](https://pmc.ncbi.nlm.nih.gov/articles/PMC6879052/)|Milk — Commercial conventional skim milk; four brands|Proposed — not canonically backfilled|
-|Nicotinamide riboside|Presence but no verified numerical composition|1 / 0|[NR and nicotinamide measured in skim milk; nicotinic acid and NAD+ not quantifiable. Do not substitute total niacin or infer NAD+ occurrence.](https://pmc.ncbi.nlm.nih.gov/articles/PMC6879052/)|Milk — Commercial conventional skim milk; four brands|Proposed — not canonically backfilled|
-|Nicotinic acid|No direct source resolved|0 / 0|[NR and nicotinamide measured in skim milk; nicotinic acid and NAD+ not quantifiable. Do not substitute total niacin or infer NAD+ occurrence.](https://pmc.ncbi.nlm.nih.gov/articles/PMC6879052/)|None|Unresolved after targeted search|
-|Oligofructose|No direct source resolved|0 / 0|[Original dehydrated garlic/onion FOS storage study located. Dry solids and chain-length definitions cannot be equated with raw-food values or a combined FOS/GOS protocol. No numerical backfill.](https://academic.oup.com/ijfst/article/44/5/947/7864784)|None|Unresolved after targeted search|
-|Pectin|Presence but no verified numerical composition|1 / 0|Targeted food/nucleoside and cell-wall composition searches did not yield a verified new exact-food numerical mapping in this pass. Existing qualified records retained; no totals or dry-extract yields relabelled as food concentrations.|None|Unresolved after targeted search|
-|Phenylalanine|No direct source resolved|0 / 0|[Original amino-acid database evaluation distinguishes sequence-derived estimates from hydrolysis measurements, which conflate glutamine/glutamate and cystine/cysteine. Exact canonical food, amino-acid form and analytical joins remain unresolved.](https://pmc.ncbi.nlm.nih.gov/articles/PMC3249386/)<br>[Five exact canonical food identities verified against USDA API descriptions and IDs; fifteen amino-acid composition mappings proposed. No substitution of free amino-acid concentrations or cooked state.](https://fdc.nal.usda.gov/)|Beef — Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)<br>Eggs — Egg, whole, raw, fresh<br>Salmon — Fish, salmon, Atlantic, farmed, raw<br>Chicken — Chicken, broilers or fryers, meat and skin, raw<br>Soy — Soybeans, mature seeds, raw|Proposed — not canonically backfilled|
-|Phosphatidylcholine (PC)|Presence but no verified numerical composition|6 / 0|[USDA release 2 contains betaine and choline moieties. Phosphatidylcholine column is choline contributed by phosphatidylcholine, not phosphatidylcholine molecular mass. No relabelling as PC mg. Exact food/state joins require further reconciliation.](https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf)|None|Unresolved after targeted search|
-|Phytate|Presence but no verified numerical composition|1 / 0|[Tested oat malting/soaking supports a bounded presence/protocol proposal, not a generic quantity.](https://pubmed.ncbi.nlm.nih.gov/8958002/)|Oats — Oats in tested malting/soaking protocol|Proposed — not canonically backfilled|
-|Potassium|No priority source gap|143 / 142|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Propionate|No direct source resolved|0 / 0|Existing source records inspected; no new verified numerical backfill|None|Derived provision only; no direct-food ranking|
-|Pyridoxal 5′-phosphate (PLP)|Presence but no verified numerical composition|1 / 0|Existing source records inspected; no new verified numerical backfill|None|Unresolved or protocol-specific; existing source records only|
-|Resistant starch|Measured records not comparable for concentration ranking|4 / 4|Existing source records inspected; no new verified numerical backfill|None|Partially resolved — measured, not concentration-ranked|
-|Retinoic acid|No direct source resolved|0 / 0|Existing source records inspected; no new verified numerical backfill|None|Derived provision only; no direct-food ranking|
-|S-adenosylmethionine (SAM)|No direct source resolved|0 / 0|Existing source records inspected; no new verified numerical backfill|None|Derived provision only; no direct-food ranking|
-|Selenium|No priority source gap|124 / 122|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Serine|No direct source resolved|0 / 0|[Original amino-acid database evaluation distinguishes sequence-derived estimates from hydrolysis measurements, which conflate glutamine/glutamate and cystine/cysteine. Exact canonical food, amino-acid form and analytical joins remain unresolved.](https://pmc.ncbi.nlm.nih.gov/articles/PMC3249386/)<br>[Five exact canonical food identities verified against USDA API descriptions and IDs; fifteen amino-acid composition mappings proposed. No substitution of free amino-acid concentrations or cooked state.](https://fdc.nal.usda.gov/)|Beef — Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)<br>Eggs — Egg, whole, raw, fresh<br>Salmon — Fish, salmon, Atlantic, farmed, raw<br>Chicken — Chicken, broilers or fryers, meat and skin, raw<br>Soy — Soybeans, mature seeds, raw|Proposed — not canonically backfilled|
-|Short-Chain Fatty Acids (SCFAs)|No direct source resolved|0 / 0|Existing source records inspected; no new verified numerical backfill|None|Derived provision only; no direct-food ranking|
-|Sodium|No priority source gap|132 / 131|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Sulforaphane|Presence but no verified numerical composition|2 / 0|Existing source records inspected; no new verified numerical backfill|None|Unresolved or protocol-specific; existing source records only|
-|Tryptophan|Limited recorded food coverage|3 / 3|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Tyrosine|Limited recorded food coverage|6 / 6|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Uridine|Presence but no verified numerical composition|1 / 0|Targeted food/nucleoside and cell-wall composition searches did not yield a verified new exact-food numerical mapping in this pass. Existing qualified records retained; no totals or dry-extract yields relabelled as food concentrations.|None|Unresolved after targeted search|
-|Urolithin A|No direct source resolved|0 / 0|Existing source records inspected; no new verified numerical backfill|None|Unresolved or protocol-specific; existing source records only|
-|Vitamin A (Retinoids; β-Carotene precursor)|No priority source gap|90 / 89|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Vitamin B12 (Cobalamin)|No priority source gap|41 / 38|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Vitamin B2 (Riboflavin)|No priority source gap|128 / 128|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Vitamin B5 (Pantothenic Acid)|No priority source gap|124 / 124|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Vitamin B6 (Pyridoxine → PLP)|No priority source gap|135 / 135|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Vitamin B9 (Folate)|No priority source gap|133 / 133|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Vitamin C (Ascorbate)|No priority source gap|86 / 86|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Vitamin E (Tocopherols/Tocotrienols)|No priority source gap|119 / 117|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
-|Zinc|No priority source gap|145 / 142|Existing source records inspected; no new verified numerical backfill|None|Existing comparable sources retained|
+## phosphatidylcholine
 
-## Weak or unresolved mappings
+Food occurrence is documented but no verified PC-mass quantity is exposed by the canonical mapper. Choline or PC-derived choline mass must not be substituted for PC mass.
 
-- **5-Methyltetrahydrofolate**: Partially resolved — measured, not concentration-ranked. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Acetate**: Derived provision only; no direct-food ranking. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Acetic acid**: Unresolved or protocol-specific; existing source records only. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Acetoacetate**: Derived provision only; no direct-food ranking. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Arabinan**: Unresolved after targeted search. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Betaine**: Partially resolved — measured, not concentration-ranked. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Butyrate**: Derived provision only; no direct-food ranking. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Caprylic Triglyceride (Trioctanoin)**: Unresolved or protocol-specific; existing source records only. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Coenzyme Q10 (CoQ10)**: Proposed — not canonically backfilled. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Creatine**: Unresolved after targeted search. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Cysteine**: Unresolved after targeted search. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Ellagic acid**: Partially resolved — measured, not concentration-ranked. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Ellagitannins**: Partially resolved — measured, not concentration-ranked. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Epicatechin**: Proposed — not canonically backfilled. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Flavin adenine dinucleotide (FAD)**: Derived provision only; no direct-food ranking. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Flavin mononucleotide (FMN)**: Unresolved or protocol-specific; existing source records only. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Fructo-oligosaccharides / galacto-oligosaccharides**: Unresolved after targeted search. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Glucose**: Partially resolved — measured, not concentration-ranked. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Glutamate**: Unresolved after targeted search. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Glutamine**: Unresolved after targeted search. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Glycine**: Proposed — not canonically backfilled. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Inulin**: Partially resolved — measured, not concentration-ranked. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **L-Carnitine**: Proposed — not canonically backfilled. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **N-acetylcysteine**: Unresolved or protocol-specific; existing source records only. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **NAD+ (oxidised nicotinamide adenine dinucleotide)**: Derived provision only; no direct-food ranking. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Nicotinamide**: Proposed — not canonically backfilled. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Nicotinamide riboside**: Proposed — not canonically backfilled. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Nicotinic acid**: Unresolved after targeted search. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Oligofructose**: Unresolved after targeted search. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Pectin**: Unresolved after targeted search. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Phenylalanine**: Proposed — not canonically backfilled. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Phosphatidylcholine (PC)**: Unresolved after targeted search. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Phytate**: Proposed — not canonically backfilled. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Propionate**: Derived provision only; no direct-food ranking. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Pyridoxal 5′-phosphate (PLP)**: Unresolved or protocol-specific; existing source records only. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Resistant starch**: Partially resolved — measured, not concentration-ranked. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Retinoic acid**: Derived provision only; no direct-food ranking. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **S-adenosylmethionine (SAM)**: Derived provision only; no direct-food ranking. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Serine**: Proposed — not canonically backfilled. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Short-Chain Fatty Acids (SCFAs)**: Derived provision only; no direct-food ranking. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Sulforaphane**: Unresolved or protocol-specific; existing source records only. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Uridine**: Unresolved after targeted search. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
-- **Urolithin A**: Unresolved or protocol-specific; existing source records only. Serving delivery unavailable unless explicitly recorded. No comparison of incompatible forms, preparation or bases.
+Categories: compositional, mapping-related. Targets: BRS1-FM2-PM6|phosphatidylcholine, BRS2-FM3-PM7|phosphatidylcholine.
+
+## uridine
+
+Milk occurrence is qualitative; no verified comparable uridine amounts in the canonical source rows.
+
+Categories: compositional. Targets: BRS1-FM5-PM12|uridine, BRS2-FM3-PM7|uridine.
+
+## pyridoxal-5-phosphate
+
+Native PLP occurrence in milk is qualitative. Total B6 is not a PLP concentration.
+
+Categories: compositional. Targets: BRS2-FM2-PM5|pyridoxal-5-phosphate.
+
+## cysteine
+
+Documented food protein occurrence is qualitative; total cystine/hydrolysed sulphur-amino-acid values are not silently relabelled cysteine.
+
+Categories: compositional. Targets: BRS2-FM2-PM6|cysteine, BRS3-FM1-PM1|cysteine, BRS3-FM1-PM2|cysteine.
+
+## glutamate
+
+Existing source relationship is qualitative; no verified exact-analyte quantitative source row. Glx or combined hydrolysis values are not substituted.
+
+Categories: compositional. Targets: BRS2-FM2-PM6|glutamate.
+
+## n-acetylcysteine
+
+Canonical food-delivery assessment specifies supplemental NAC and no verified ordinary-food source. Protein cysteine/cystine is not NAC; preserve admission without inventing food equivalence.
+
+Categories: scientific, selection-related. Targets: BRS2-FM2-PM6|n-acetylcysteine.
+
+## oligofructose
+
+Canonical assessment identifies a defined inulin-hydrolysate exposure; native food fructans do not establish the same mixture. No matching ordinary-food quantities.
+
+Categories: scientific, selection-related. Targets: BRS3-FM1-PM2|oligofructose, BRS5-FM1-PM2|oligofructose.
+
+## sulforaphane
+
+Broccoli/sprout relationships are qualitative. Precursor glucoraphanin, potential sulforaphane yield and observed sulforaphane concentration are not interchangeable.
+
+Categories: compositional, mapping-related. Targets: BRS3-FM2-PM3|sulforaphane.
+
+## flavin-mononucleotide
+
+Milk native-FMN occurrence is qualitative; total riboflavin is not measured FMN.
+
+Categories: compositional. Targets: BRS4-FM1-PM1|flavin-mononucleotide.
+
+## nicotinamide
+
+Existing PM warnings identify chicken and chickpea analytical materials with food-ontology links pending; canonical food-source mapper has no matching quantitative rows. Total niacin does not resolve the vitamer.
+
+Categories: mapping-related, compositional. Targets: BRS4-FM1-PM2|nicotinamide.
+
+## nicotinic-acid
+
+Existing PM warnings identify chicken and chickpea analytical materials with food-ontology links pending; no matching canonical quantitative rows. Total niacin is not nicotinic acid.
+
+Categories: mapping-related, compositional. Targets: BRS4-FM1-PM2|nicotinic-acid.
+
+## nicotinamide-riboside
+
+Milk occurrence is documented without a verified food-matched quantity.
+
+Categories: compositional. Targets: BRS4-FM1-PM2|nicotinamide-riboside.
+
+## creatine
+
+Several qualitative food records; beef 400 mg is explicitly approximate/unverified with material-equivalence limits, not a verified ranking value.
+
+Categories: compositional, mapping-related. Targets: BRS4-FM1-PM3|creatine.
+
+## caprylic-triglyceride
+
+MCT-oil relationship is qualitative and formulation-specific. Total MCT, free C8 or coconut oil cannot replace the defined triglyceride concentration.
+
+Categories: compositional, scientific. Targets: BRS4-FM3-PM7|caprylic-triglyceride.
+
+## glutamine
+
+Protein-bound occurrence is qualitative. No verified specific glutamine concentrations; do not substitute glutamate/Glx.
+
+Categories: compositional. Targets: BRS5-FM1-PM1|glutamine.
+
+## fructo-galacto-oligosaccharides
+
+The PM record concerns a studied FOS/GOS mixture, not a universal food analyte. No matching canonical food source. BRS5 PM5 additionally carries an existing scientific-admission review warning, preserved without adjudication.
+
+Categories: scientific, mapping-related. Targets: BRS5-FM1-PM1|fructo-galacto-oligosaccharides, BRS5-FM2-PM5|fructo-galacto-oligosaccharides.
+
+## resistant-starch
+
+Verified ranges are retained for bananas, beans, chickpeas and potatoes, but the contract does not rank ranges. Fresh-, dry- and moisture-corrected bases are distinct; no midpoint or denominator conversion.
+
+Categories: selection-related, compositional. Targets: BRS5-FM1-PM1|resistant-starch, BRS5-FM2-PM4|resistant-starch, BRS5-FM2-PM5|resistant-starch, BRS6-FM1-PM3|resistant-starch.
+
+## arabinan
+
+Pea occurrence is qualitative. No comparable quantitative arabinan concentration.
+
+Categories: compositional. Targets: BRS5-FM2-PM4|arabinan.
+
+## inulin
+
+One verified asparagus-spear amount: 1.30 g/100 g dry matter. No authorised comparable pool, no second quantitative source, and no fresh-weight conversion. PM4 also records pending chicory/Jerusalem-artichoke ontology links.
+
+Categories: mapping-related, selection-related. Targets: BRS5-FM2-PM4|inulin, BRS5-FM2-PM5|inulin.
+
+## ellagic-acid
+
+One verified pomegranate-juice value, 3.79 mg/100 mL. Volume is not food mass; no second comparable quantitative source.
+
+Categories: selection-related, compositional. Targets: BRS5-FM2-PM6|ellagic-acid.
+
+## ellagitannins
+
+Pomegranate juice has 156.17 mg/100 mL gallagyl-type tannins, while walnuts are presence-only. No second compatible quantified pool; preserve tannin analytical definition and volume basis.
+
+Categories: selection-related, compositional. Targets: BRS5-FM2-PM6|ellagitannins.
+
+## epicatechin
+
+Canonical cacao/cocoa/chocolate values are representative or approximate/unverified and have material-context limitations; not verified ranking inputs.
+
+Categories: compositional, mapping-related. Targets: BRS5-FM2-PM6|epicatechin.

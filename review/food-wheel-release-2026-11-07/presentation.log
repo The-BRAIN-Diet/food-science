@@ -1,0 +1,5 @@
+
+> temp-docusaurus@0.0.0 presentation:check
+> node scripts/check-presentation-contract.mjs
+
+Presentation contract: 691 protected files; no unapproved structural changes.

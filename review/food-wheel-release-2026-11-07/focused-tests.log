@@ -1,0 +1,45 @@
+TAP version 13
+# Subtest: approved public snapshot counts and capped unique targets
+ok 1 - approved public snapshot counts and capped unique targets
+  ---
+  duration_ms: 11.97825
+  ...
+# Subtest: canonical source observations and qualifications survive publication
+ok 2 - canonical source observations and qualifications survive publication
+  ---
+  duration_ms: 1.622125
+  ...
+# Subtest: MEXT salted roe is first for DHA and EPA; trout not quantitatively ranked
+ok 3 - MEXT salted roe is first for DHA and EPA; trout not quantitatively ranked
+  ---
+  duration_ms: 0.326125
+  ...
+# Subtest: no local paths, private data dumps or research proposals shipped
+ok 4 - no local paths, private data dumps or research proposals shipped
+  ---
+  duration_ms: 22.789792
+  ...
+# Subtest: existing interactions, network and supporting resources retained
+ok 5 - existing interactions, network and supporting resources retained
+  ---
+  duration_ms: 0.382125
+  ...
+# Subtest: actual selector compares compatible ordinary preparations with exact power threshold
+ok 6 - actual selector compares compatible ordinary preparations with exact power threshold
+  ---
+  duration_ms: 1.669
+  ...
+# Subtest: actual selector preserves incompatible bases/forms, minimum two, ranges and cap
+ok 7 - actual selector preserves incompatible bases/forms, minimum two, ranges and cap
+  ---
+  duration_ms: 0.627541
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 172.583958

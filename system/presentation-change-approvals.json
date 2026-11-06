@@ -738,5 +738,35 @@
     "contract": "system/food-wheel-presentation-contract.md",
     "example": "static/explore/food-wheel/index.html",
     "scope": "Standalone food wheel and scope page only; no scientific admissions or canonical page changes"
+  },
+  {
+    "file": "static/explore/food-wheel/index.html",
+    "sha256": "4e00ba572815e4d00c76a4744e20afba3b6eb2413bd08adac05995fcb3921b3a",
+    "author_approval": "Publish the validated Food Wheel comparability correction, canonical-source snapshot and existing presentation.",
+    "approval_source": "Owner instruction, 7 November 2026: Prepare and publish the validated Food Wheel update; only approved Food Wheel changes.",
+    "proposal": "system/food-wheel-presentation-contract.md",
+    "contract": "system/food-wheel-presentation-contract.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing standalone Food Wheel and supporting evidence resources only; 64 foods / 586 connections / 119 of 151 targets; no canonical pages, scientific admissions or shared renderers changed."
+  },
+  {
+    "file": "static/explore/food-wheel/about.html",
+    "sha256": "4e126f362357f66cdd62214c2bd9c58d6e539df8f12cad8bad22e13a602849d4",
+    "author_approval": "Publish the validated Food Wheel comparability correction, canonical-source snapshot and existing presentation.",
+    "approval_source": "Owner instruction, 7 November 2026: Prepare and publish the validated Food Wheel update; only approved Food Wheel changes.",
+    "proposal": "system/food-wheel-presentation-contract.md",
+    "contract": "system/food-wheel-presentation-contract.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing standalone Food Wheel and supporting evidence resources only; 64 foods / 586 connections / 119 of 151 targets; no canonical pages, scientific admissions or shared renderers changed."
+  },
+  {
+    "file": "static/explore/food-wheel/food-wheel.svg",
+    "sha256": "1407193130bcf72f079cfd130b89bdd5dc458fc62a832c8321435fa8c77ab570",
+    "author_approval": "Publish the validated Food Wheel comparability correction, canonical-source snapshot and existing presentation.",
+    "approval_source": "Owner instruction, 7 November 2026: Prepare and publish the validated Food Wheel update; only approved Food Wheel changes.",
+    "proposal": "system/food-wheel-presentation-contract.md",
+    "contract": "system/food-wheel-presentation-contract.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing standalone Food Wheel and supporting evidence resources only; 64 foods / 586 connections / 119 of 151 targets; no canonical pages, scientific admissions or shared renderers changed."
   }
 ]
