@@ -62,6 +62,7 @@ hide_title: true
 <ul class="brs-fm-hub-pm-list">
   <li><a href="/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment">BRS-X(Circadian-FM1-PM1) — Light–Dark Circadian Entrainment</a></li>
   <li><a href="/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation">BRS-X(Circadian-FM1-PM2) — Feeding-Time Circadian Synchronisation</a></li>
+  <li><a href="/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability">BRS-X(Circadian-FM1-PM3) — Melatonin Biosynthesis & Availability</a></li>
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -255,6 +256,7 @@ Evening room light suppressed and shortened melatonin secretion [1]. Delaying me
 <ul class="brs-fm-hub-pm-list">
   <li><a href="/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment">BRS-X(Circadian-FM1-PM1) — Light–Dark Circadian Entrainment</a></li>
   <li><a href="/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation">BRS-X(Circadian-FM1-PM2) — Feeding-Time Circadian Synchronisation</a></li>
+  <li><a href="/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability">BRS-X(Circadian-FM1-PM3) — Melatonin Biosynthesis & Availability</a></li>
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 

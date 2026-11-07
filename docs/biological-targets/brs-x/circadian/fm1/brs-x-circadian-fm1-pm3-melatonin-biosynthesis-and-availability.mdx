@@ -1,0 +1,460 @@
+---
+title: Melatonin Biosynthesis & Availability
+pm_id: BRS-X(Circadian-FM1-PM3)
+mission: Sustain melatonin biosynthetic capacity from serotonin through AANAT-mediated acetylation and ASMT-mediated methylation. The operation is the formation of melatonin. It is distinct from light-driven circadian secretion and from melatonin receptor signalling. A change in biosynthetic capacity is not a sleep or ADHD outcome.
+parent_fm: BRS-X(Circadian-FM1)
+parent_brs: BRS-X(Circadian)
+summary: 'Pineal melatonin is formed from serotonin. AANAT acetylates serotonin to N-acetylserotonin using acetyl-CoA. ASMT methylates N-acetylserotonin to melatonin using S-adenosylmethionine. Acute tryptophan depletion lowered nocturnal melatonin secretion in eight healthy volunteers. That supports precursor availability as a constraint. It does not show that extra dietary tryptophan, better sleep or an ADHD outcome follows.'
+key_constraints: []
+cofactors:
+  - Acetyl-CoA
+  - S-adenosylmethionine (SAM)
+intervention_dominance: Diet-Supported
+intervention_breakdown: Mixed Modulation
+timing_specific: 'Yes'
+dose_sensitivity: 'The human comparison is acute tryptophan depletion against sham, not a supplemental tryptophan dose.'
+references:
+  - '[Peuhkuri, Sihvola and Korpela (2012) — Dietary factors and fluctuating levels of melatonin](/docs/papers/BRAIN-Diet-References#peuhkuri_dietary_2012)'
+  - '[Zimmermann et al. (1993) — Effects of acute tryptophan depletion on nocturnal melatonin secretion in humans](/docs/papers/BRAIN-Diet-References#zimmermann_tryptophan_melatonin_1993)'
+hide_title: true
+list_image: /img/biological-targets/brs-x-circadian-portrait-thumbnail.jpg
+sidebar_label: BRS-X(Circadian-FM1-PM3) — Melatonin Biosynthesis & Availability
+evidence_tabs_version: 1
+evidence_gaps_tab: true
+scientific_principles:
+  - id: PM3-SP1
+    provenance_kind: curated-biochemical
+    title: Serotonin to melatonin conversion
+    proposition: AANAT acetylates serotonin with acetyl-CoA to N-acetylserotonin. ASMT methylates N-acetylserotonin with S-adenosyl-L-methionine to melatonin.
+    mechanism: Serotonin to N-acetylserotonin to melatonin.
+    scope_limitations: 'Reaction identity does not quantify flux, dietary tryptophan above adequacy, SAM intake, sleep or ADHD outcomes. Light-driven secretion remains on Circadian PM1. Feeding time remains on Circadian PM2.'
+    classification_rationale: The enzyme reactions are a Scientific Principle. The human depletion comparison remains a Finding.
+    reviewed_on: '2026-11-06'
+    sources:
+      - label: UniProtKB Q16613 — human serotonin N-acetyltransferase
+        href: 'https://www.uniprot.org/uniprotkb/Q16613/entry'
+        database: UniProt
+        accession: Q16613
+        version: 'Entry version 199, 4 November 2026'
+        accessed: '2026-11-06'
+      - label: Rhea 25217 — serotonin acetylation
+        href: 'https://www.rhea-db.org/rhea/25217'
+        database: Rhea
+        accession: 'RHEA:25217'
+        version: Retrieved 6 November 2026
+        accessed: '2026-11-06'
+      - label: UniProtKB P46597 — human acetylserotonin O-methyltransferase
+        href: 'https://www.uniprot.org/uniprotkb/P46597/entry'
+        database: UniProt
+        accession: P46597
+        version: 'Entry version 201, 4 November 2026'
+        accessed: '2026-11-06'
+      - label: Rhea 15573 — N-acetylserotonin methylation
+        href: 'https://www.rhea-db.org/rhea/15573'
+        database: Rhea
+        accession: 'RHEA:15573'
+        version: Retrieved 6 November 2026
+        accessed: '2026-11-06'
+evidence_gaps:
+  - id: PM3-EG-1
+    title: Unregistered melatonin-pathway substance identities
+    establishes: 'The enzyme reactions and the depletion comparison are recorded. Tryptophan, acetyl-CoA and SAM already have canonical substance identities.'
+    cannot_establish: 'Serotonin, N-acetylserotonin and melatonin have no canonical substance pages, so the derived dietary gate cannot close.'
+    missing_link: 'Canonical identities for serotonin, N-acetylserotonin and melatonin are required before a derived tryptophan-to-melatonin admission.'
+    required_evidence: 'Register those identities, then re-apply the Type A derived gate. Do not treat extra tryptophan as a melatonin benefit in the meantime.'
+    affected_relationship: Tryptophan precursor relationship for melatonin biosynthesis
+    finding_ids:
+      - PM3-F1
+    citation_keys:
+      - zimmermann_tryptophan_melatonin_1993
+    review_date: '2026-11-06'
+scientific_findings_intro: 'The depletion study shows a constraint when tryptophan is driven very low. It does not show that eating more tryptophan raises melatonin, improves sleep or changes ADHD outcomes.'
+scientific_findings:
+  - id: PM3-F1
+    finding_label: Acute tryptophan depletion lowered nocturnal melatonin
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: 'In eight healthy volunteers, acute tryptophan depletion lowered nocturnal melatonin AUC compared with sham depletion.'
+    finding_statement: 'In eight healthy volunteers, randomised double-blind acute tryptophan depletion lowered free and total plasma tryptophan below 20% of baseline and reduced nocturnal melatonin AUC compared with sham depletion in all eight. The result supports precursor availability as a biological constraint. It does not establish benefit from additional dietary tryptophan, improved sleep or ADHD outcomes.'
+    finding_interpretation: The authors inferred a brain-serotonin step. Serotonin was not the reported endpoint. Sleep phase and ADHD outcomes were not reported in the retrieved abstract.
+    synthesis: Severe acute tryptophan depletion reduced nocturnal melatonin secretion relative to sham.
+    synthesis_limitations: Eight volunteers. The abstract does not give the AUC difference or a confidence interval. This is not a supplementation trial.
+    synthesised_evidence_confidence: not-yet-scored
+    sec_assessment_ref:
+      id: brs-x-circadian-fm1-pm3-pm3-f1-assessment
+      version: 1
+      sha256: 861689d9c495da66b0bcbdf2997585bb0aa409f4dbf80d8d358868c5e5c84936
+    evidence_considered:
+      - label: Zimmermann et al. (1993)
+        citation_key: zimmermann_tryptophan_melatonin_1993
+        href: /docs/papers/BRAIN-Diet-References#zimmermann_tryptophan_melatonin_1993
+        data_level: Human Study
+        evidence_source: bounded-external-search
+        directional_finding: Active tryptophan depletion lowered nocturnal melatonin AUC versus sham in all eight volunteers.
+        assessment:
+          study: Randomised double-blind active versus sham acute tryptophan depletion.
+          population: Eight healthy volunteers.
+          result: Free and total plasma tryptophan fell below 20% of baseline. Nocturnal melatonin AUC was lower after active depletion than after sham in all eight.
+          effect_magnitude: Direction in all eight. No mean difference or interval was retrieved.
+          evidence_summary: Precursor availability constrained nocturnal melatonin secretion under severe depletion.
+          limitations: 'Not a test of extra dietary tryptophan, sleep benefit or ADHD outcome. Serotonin itself was not the reported endpoint.'
+          retrieval_scope: Europe PMC abstract retrieved 6 November 2026. Full methods were not re-extracted.
+          source_url: 'https://doi.org/10.1210/jcem.76.5.8496306'
+    connected_supportive_evidence: []
+  - id: PM3-F2
+    finding_label: The pathway review names acetyl-CoA and SAM on melatonin formation
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: A narrative review of dietary factors and melatonin names acetyl-CoA and S-adenosylmethionine on the serotonin-to-melatonin route.
+    finding_statement: 'Peuhkuri, Sihvola and Korpela (2012) describe pineal melatonin formation from serotonin, with AANAT as the main rate-limiting enzyme and S-adenosylmethionine named on the methylation step. This is a pathway review, not a new enzyme assay, and it does not show that extra intake of an upstream nutrient raises melatonin.'
+    finding_interpretation: The enzyme identities are the Scientific Principle. This Finding records the review's pathway statement only.
+    synthesis: The review places acetyl-CoA and S-adenosylmethionine on the route from serotonin to melatonin.
+    synthesis_limitations: 'Narrative review. It does not admit folate, vitamin B12, vitamin B6, iron, zinc, magnesium or pantothenate, and it does not show a sleep or ADHD benefit.'
+    synthesised_evidence_confidence: not-yet-scored
+    evidence_considered:
+      - label: 'Peuhkuri, Sihvola and Korpela (2012)'
+        citation_key: peuhkuri_dietary_2012
+        href: /docs/papers/BRAIN-Diet-References#peuhkuri_dietary_2012
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: 'The review names AANAT, acetyl-CoA and S-adenosylmethionine on melatonin formation from serotonin.'
+        assessment:
+          study: Narrative review of dietary factors and melatonin.
+          population: Not a new human cohort.
+          result: The pathway figure and text place acetyl-CoA and S-adenosylmethionine on serotonin-to-melatonin formation.
+          effect_magnitude: No new effect size.
+          evidence_summary: 'Pathway description, not a dietary-efficacy result.'
+          limitations: Not a new enzyme assay and not an intake trial.
+          retrieval_scope: Full text retrieved 6 November 2026 from PMC3402070.
+          source_url: 'https://doi.org/10.3402/fnr.v56i0.17252'
+    connected_supportive_evidence: []
+dietary_input_assessments:
+  - atom_id: PM3-DIT-1
+    status: unresolved
+    type: A
+    classification: derived
+    operation: Sustain melatonin biosynthetic capacity from serotonin through AANAT-mediated acetylation and ASMT-mediated methylation. The operation is the formation of melatonin. It is distinct from light-driven circadian secretion and from melatonin receptor signalling. A change in biosynthetic capacity is not a sleep or ADHD outcome.
+    canonical_substance_id: tryptophan
+    functional_dependency:
+      status: established
+      statement: 'Acute dietary tryptophan depletion lowered nocturnal melatonin AUC in all eight volunteers. That is a constraint under severe restriction, not evidence that additional intake raises melatonin.'
+      sources:
+        - 'https://doi.org/10.1210/jcem.76.5.8496306'
+    dietary_supply:
+      status: established
+      statement: 'Tryptophan already has canonical food-source records. Those records show dietary presence. They do not set a melatonin-raising dose, and this assessment does not copy the BRS1 admission.'
+      sources:
+        - docs/foods/turkey.md
+        - docs/foods/pumpkin-seeds.md
+    assessment_date: '2026-11-06'
+    review_required: true
+    review_reason: 'The Type A derived gate stays unresolved. Serotonin, N-acetylserotonin and melatonin have no canonical substance identities, so the conversion path cannot close. Dietary input remains Unset. Extra tryptophan intake is not claimed to improve melatonin.'
+    assessment_limitations: 'The B/D gate is applied here and is unresolved. Serotonin, N-acetylserotonin and melatonin have no canonical substance identities, so the derived conversion path cannot close. Dietary input stays Unset. Increased tryptophan intake is not claimed to improve melatonin, sleep or ADHD. Folate, vitamin B12, vitamin B6 and iron are not admitted on this PM.'
+    food_target_research:
+      completed: true
+      sources_examined:
+        - registry/substances.json
+        - docs/foods/turkey.md
+        - docs/foods/pumpkin-seeds.md
+        - docs/substances/nutrients/macronutrients/amino-acids/essential/tryptophan.md
+      sufficient_coverage_rationale: Existing tryptophan food records are reused. No new food edge is created. The unresolved gate blocks an admitted ribbon.
+dietary_input_traceability:
+  - atom_id: PM3-DIT-1
+    input: Tryptophan
+    input_type: precursor
+    biological_role: 'Tryptophan is the dietary precursor of serotonin, and serotonin is the substrate for melatonin formation. Severe depletion lowered nocturnal melatonin secretion.'
+    evidence_source:
+      finding_ids:
+        - PM3-F1
+      citation_keys:
+        - zimmermann_tryptophan_melatonin_1993
+    evidence_limitation: Depletion shows a constraint. It does not show that extra dietary tryptophan raises melatonin. BRS1 admission is not inherited.
+    canonical_identity:
+      status: resolved
+      substance_id: tryptophan
+      substance_href: /docs/substances/nutrients/macronutrients/amino-acids/essential/tryptophan
+      verification: Registry id tryptophan and the canonical page agree.
+    dietary_input: null
+    substance_id: tryptophan
+    dietary_input_note: 'Dietary input = Unset. Type A derived gate is unresolved because serotonin, N-acetylserotonin and melatonin are not canonical substance identities. No extra-intake claim.'
+    upstream_pm_relationships:
+      - pm_id: BRS1-FM1-PM5
+        pm_short_id: BRS1-FM1-PM5
+        href: /docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation
+        relationship_label: Tryptophan precursor context on serotonergic signalling
+  - atom_id: PM3-DIT-2
+    input: S-adenosylmethionine (SAM)
+    input_type: cofactor
+    biological_role: 'SAM is the methyl donor for ASMT. Dietary provision is indirect, through the methylation pathways that already own SAM synthesis.'
+    evidence_source:
+      finding_ids:
+        - PM3-F2
+      citation_keys:
+        - peuhkuri_dietary_2012
+    evidence_limitation: 'Not a direct dietary requirement. Folate, vitamin B12, vitamin B6 and iron are not admitted on this PM.'
+    canonical_identity:
+      status: resolved
+      substance_id: s-adenosylmethionine
+      substance_href: /docs/substances/endogenous-metabolites/s-adenosylmethionine
+      verification: Registry id s-adenosylmethionine and the canonical page agree.
+    dietary_input: false
+    substance_id: s-adenosylmethionine
+    dietary_input_note: Biochemical dependency only. Indirect dietary provision stays on BRS2 SAMe synthesis. No direct dietary requirement is classified here.
+    upstream_pm_relationships:
+      - pm_id: BRS2-FM1-PM3
+        pm_short_id: BRS2-FM1-PM3
+        href: /docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis
+        relationship_label: Methyl-donor context on SAMe synthesis
+  - atom_id: PM3-DIT-3
+    input: Acetyl-CoA
+    input_type: substrate
+    biological_role: Acetyl-CoA is the acetyl donor for AANAT. It is not a dietary acetyl-CoA requirement.
+    evidence_source:
+      finding_ids:
+        - PM3-F2
+      citation_keys:
+        - peuhkuri_dietary_2012
+    evidence_limitation: Pantothenate remains on BRS1 acetylcholine synthesis. It is not admitted here.
+    canonical_identity:
+      status: resolved
+      substance_id: acetyl-coa
+      substance_href: /docs/substances/endogenous-metabolites/acetyl-coa
+      verification: Registry id acetyl-coa and the canonical page agree.
+    dietary_input: false
+    substance_id: acetyl-coa
+    dietary_input_note: Biochemical substrate only. Not a dietary requirement.
+dietary_lever_atoms:
+  - atom_id: PM3-DIT-1
+    relationship_layer: dietary-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: 'Severe restriction of tryptophan lowered nocturnal melatonin secretion. That is a precursor constraint, not an extra-intake benefit.'
+    evidence_limitation: 'The derived gate is unresolved until serotonin, N-acetylserotonin and melatonin have canonical identities. Dietary input remains Unset.'
+    relationship_mode: capacity-requirement
+    dietary_addressability: precursor-mediated
+  - atom_id: PM3-DIT-2
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: SAM provides the methyl group used by ASMT to form melatonin.
+    evidence_limitation: 'Indirect dietary provision through established methylation pathways. Not a direct dietary requirement, and not an admission of folate, B12, B6 or iron.'
+    dietary_addressability: not-established
+  - atom_id: PM3-DIT-3
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: Acetyl-CoA provides the acetyl group used by AANAT.
+    evidence_limitation: Not a dietary acetyl-CoA requirement. Pantothenate is not admitted on this PM.
+    dietary_addressability: not-established
+dietary_lever_presentations:
+  - atom_id: PM3-DIT-1
+    label: Tryptophan
+    presentation_section: 3.1.1
+    reader_description: Precursor relationship recorded. Dietary input is Unset. Depletion lowered melatonin. Extra intake is not established.
+    description_finding_id: PM3-F1
+  - atom_id: PM3-DIT-2
+    label: S-adenosylmethionine (SAM)
+    presentation_section: 3.1.2
+    reader_description: Methyl donor for ASMT. Not a direct dietary requirement.
+  - atom_id: PM3-DIT-3
+    label: Acetyl-CoA
+    presentation_section: 3.1.2
+    reader_description: Acetyl donor for AANAT. Not a dietary requirement.
+system_optimisation_practices: []
+lifestyle_priorities: []
+intervention_dominance_assessment:
+  evidence_qualification:
+    label: Diet-Supported
+    rationale: A dietary precursor constraint is recorded and left unresolved. The label is not an admission and not a claim that extra tryptophan improves melatonin.
+    scope_note: Light entrainment and feeding time stay on PM1 and PM2.
+    routes: []
+  principal_route_selection:
+    disposition: not-established
+    selected_groups: []
+    rationale: 'No admitted dietary, SOP or lifestyle route is selected.'
+    assessments: []
+stage2ab_assessment_history:
+  - date: '2026-11-06'
+    reason: Author-approved registration of melatonin biosynthesis as its own PM.
+    previous_records:
+      mission: Sustain melatonin biosynthetic capacity from serotonin through AANAT acetylation and ASMT methylation.
+---
+
+<p class="brs-pm-thumbnail-wrap"><img src="/img/biological-targets/brs-x-circadian-portrait-thumbnail.jpg" alt="BRS-X(Circadian)" class="brs-pm-thumbnail" /></p>
+
+## BRS-X-Circadian-1-3 - Melatonin Biosynthesis & Availability
+
+## 1. Mission & Overview
+
+### Mission
+
+Sustain melatonin biosynthetic capacity from serotonin through AANAT-mediated acetylation and ASMT-mediated methylation. The operation is the formation of melatonin. It is distinct from light-driven circadian secretion and from melatonin receptor signalling. A change in biosynthetic capacity is not a sleep or ADHD outcome.
+
+### Overview
+
+Serotonin is acetylated to N-acetylserotonin by serotonin N-acetyltransferase (AANAT), using acetyl-CoA. N-acetylserotonin is methylated to melatonin by acetylserotonin O-methyltransferase (ASMT), using S-adenosylmethionine. Those reactions are the biochemical identity of this PM. [[1]](#pm-ref-1)
+
+In eight healthy volunteers, acute tryptophan depletion lowered nocturnal melatonin AUC compared with sham depletion. Free and total plasma tryptophan fell below 20% of baseline. That supports precursor availability as a constraint. It does not show that additional dietary tryptophan raises melatonin, improves sleep or changes ADHD outcomes. [[2]](#pm-ref-2)
+
+## 2. Primary Biological Effects
+
+- AANAT acetylates serotonin to N-acetylserotonin. ASMT methylates N-acetylserotonin to melatonin. [[1]](#pm-ref-1)
+- Acute tryptophan depletion reduced nocturnal melatonin AUC in all eight volunteers. [[2]](#pm-ref-2)
+- The depletion result does not establish a benefit from extra tryptophan, better sleep or an ADHD outcome. [[2]](#pm-ref-2)
+
+## 3. Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-group="3.1">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Dietary Inputs & Regulatory Modulators</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Tryptophan — PM-specific precursor relationship. Dietary input = Unset. Severe depletion lowered nocturnal melatonin. Extra intake is not established. The derived gate stays unresolved because serotonin, N-acetylserotonin and melatonin have no canonical substance identities. BRS1 admission is not copied.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Acetyl-CoA — acetyl donor for AANAT. Not a dietary requirement.
+- S-adenosylmethionine (SAM) — methyl donor for ASMT. Upstream biochemical dependency, with indirect dietary provision through established methylation pathways. Not a direct dietary requirement. Folate, vitamin B12, vitamin B6 and iron are not admitted here.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No mapping established.
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-group="3.2">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.2 System Optimisation Practices</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+No evidence-qualified system optimisation practice is projected. Meal timing stays on Circadian PM2.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-group="3.3">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No evidence-qualified lifestyle relationship is projected. Light entrainment stays on Circadian PM1.
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+Melatonin formation from serotonin uses two enzyme steps. Acetyl-CoA and SAM are the biochemical donors. A human depletion experiment shows that driving tryptophan very low reduces nocturnal melatonin secretion. Ordinary food records for tryptophan are reused and are not a new intake target. [[1]](#pm-ref-1) [[2]](#pm-ref-2)
+
+**Mechanism boundary:** Circadian PM1 owns light effects on the circulating melatonin signal. Circadian PM2 owns feeding time. BRS1 owns tryptophan-to-serotonin signalling. BRS2 owns SAM synthesis. Exogenous melatonin capsules are outside this PM.
+
+### 4.1 Scientific Findings
+
+[Scientific Findings and their source assessments are available in Evidence & Audit](?review=1#scientific-findings).
+
+The provisional Scientific Evidence Confidence for the depletion comparison is 4/8 (D2, B1, P1, R0). It is pinned to the depletion proposition only. It is not an intervention score and it is not copied onto the tryptophan relationship.
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+- None listed
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS1-FM1-PM5 — Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation) — tryptophan to serotonin. That admission is not inherited here.
+- [BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis) — indirect dietary provision of SAM. SAM is not a direct dietary requirement of this PM.
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS-X(Circadian-FM1-PM1) — Light–Dark Circadian Entrainment](/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment) — light-driven secretion and phase. Not biosynthesis.
+- [BRS-X(Circadian-FM1-PM2) — Feeding-Time Circadian Synchronisation](/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation) — meal timing. A meal delay that does not move melatonin stays on PM2.
+
+## 7. Phenome Connections
+
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+
+<div class="brs-fm-hub-item phenome-scoring-key-hub" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>How these ratings work</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<div class="phenome-scoring-key">
+<p class="phenome-scoring-key-intro">
+Each Phenome relationship has <strong>two independent ratings</strong>. They are not combined or averaged.
+</p>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Biology → Phenome Relationship Strength</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How direct and important is this biological mechanism expected to be to the Phenome within the BRAIN model?</em>
+</p>
+</div>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Evidence Confidence</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How strongly does the adjudicated evidence support this particular biology → Phenome relationship?</em>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+No direct functional outcome relationship currently mapped.
+
+## 8. References
+
+- <span id="pm-ref-1">[1]</span> [Peuhkuri, Sihvola and Korpela (2012) — Dietary factors and fluctuating levels of melatonin](/docs/papers/BRAIN-Diet-References#peuhkuri_dietary_2012)
+- <span id="pm-ref-2">[2]</span> [Zimmermann et al. (1993) — Effects of acute tryptophan depletion on nocturnal melatonin secretion in humans](/docs/papers/BRAIN-Diet-References#zimmermann_tryptophan_melatonin_1993)
+
