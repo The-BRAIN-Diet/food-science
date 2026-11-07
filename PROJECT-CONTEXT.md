@@ -7,7 +7,7 @@ Stable orientation, prepared 3 November 2026. This is a navigation aid, not a sc
 ## Architecture and sources of truth
 
 - Docusaurus site: canonical documents and structured front matter in `docs/`; shared rendering in `src/components/`, `src/lib/`, `src/theme/` and `src/css/`; generators and validators in `scripts/`; governance in `system/`.
-- PMs live under `docs/biological-targets/`. Current framework scope is 64 canonical PMs: 51 numbered BRS1–BRS6 and 13 Cross-BRS (Circadian, ECS, Hormones). Preserve canonical identifiers; Cross-BRS IDs do not follow the numbered format. Resolve current membership from canonical records and existing selection logic, not a hand-maintained duplicate list.
+- PMs live under `docs/biological-targets/`. Current framework scope is 67 canonical PMs: 52 numbered BRS1–BRS6 and 15 Cross-BRS (Circadian, ECS, Hormones). Preserve canonical identifiers; Cross-BRS IDs do not follow the numbered format. Resolve current membership from canonical records and existing selection logic, not a hand-maintained duplicate list.
 - Foods, substances and recipes have separate records in `docs/foods/`, `docs/substances/` and `docs/recipes/`. Structured scientific relationships and verified composition determine eligible projections; a tag or connected graph alone does not establish an admission.
 - PM front matter holds scientific Findings, interventions and their assessment relationships. `system/sec-assessments/registry.json` and its referenced versioned records hold SEC history. Generated indexes are outputs, not substitute scientific authority.
 - References use `static/bibtex/Brain-diet.bib` and `docs/papers/BRAIN-Diet-References`. Follow original study references, preserving provenance and scope.

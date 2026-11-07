@@ -768,5 +768,45 @@
     "contract": "system/food-wheel-presentation-contract.md",
     "example": "static/explore/food-wheel/index.html",
     "scope": "Existing standalone Food Wheel and supporting evidence resources only; 64 foods / 586 connections / 119 of 151 targets; no canonical pages, scientific admissions or shared renderers changed."
+  },
+  {
+    "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm7-circulating-sex-hormone-availability.mdx",
+    "sha256": "d1759dc5e325bc1f29c42a346f92853b1f6a0b82bc46d389eaad0bbd138d7946",
+    "author_approval": "Publish the registered circulating sex-hormone availability PM on the existing Primary Mechanism template.",
+    "approval_source": "Owner instruction, 7 November 2026: preserve both new PMs, synchronise main, and publish the approved changes.",
+    "proposal": "review/brs-x-circulating-sex-hormone-availability-2026-11-06/DRAFT-pm.md",
+    "contract": "system/primary-mechanism-schema.md",
+    "example": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm7-circulating-sex-hormone-availability.mdx",
+    "scope": "One new BRS-X(Hormones-PM7) page using existing PM sections. Wheat bran remains dietary input Unset. No new component or panel."
+  },
+  {
+    "file": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability.mdx",
+    "sha256": "16b2c511d3110ee55ada791fc36bd81d97aff9e97bbf8ce3c29f6e83f303d1c2",
+    "author_approval": "Publish the registered melatonin biosynthesis PM on the existing Primary Mechanism template.",
+    "approval_source": "Owner instruction, 7 November 2026: preserve both new PMs, synchronise main, and publish the approved changes.",
+    "proposal": "review/brs-x-melatonin-biosynthesis-2026-11-06/DRAFT-pm.md",
+    "contract": "system/primary-mechanism-schema.md",
+    "example": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability.mdx",
+    "scope": "One new BRS-X(Circadian-FM1-PM3) page using existing PM sections. Tryptophan remains dietary input Unset. No new component or panel."
+  },
+  {
+    "file": "docs/biological-targets/brs-x/hormones/hormone-signalling-regulation.md",
+    "sha256": "2c4d39336b203afc473d4178b21d93f0a96f6e3ea21233ff3d92dca700ba3f81",
+    "author_approval": "Publish the registered circulating sex-hormone availability PM on the existing Primary Mechanism template.",
+    "approval_source": "Owner instruction, 7 November 2026: preserve both new PMs, synchronise main, and publish the approved changes.",
+    "proposal": "review/brs-x-circulating-sex-hormone-availability-2026-11-06/DRAFT-pm.md",
+    "contract": "system/primary-mechanism-schema.md",
+    "example": "docs/biological-targets/brs-x/hormones/hormone-signalling-regulation.md",
+    "scope": "Hormones hub list entry for BRS-X(Hormones-PM7) only. No new hub component."
+  },
+  {
+    "file": "docs/biological-targets/brs-x/circadian/circadian-rhythm-regulation.md",
+    "sha256": "5ed6a282603a55b9d561d747d92ffd88a3c628ae586896d01aa66de002ca6237",
+    "author_approval": "Publish the registered melatonin biosynthesis PM on the existing Primary Mechanism template.",
+    "approval_source": "Owner instruction, 7 November 2026: preserve both new PMs, synchronise main, and publish the approved changes.",
+    "proposal": "review/brs-x-melatonin-biosynthesis-2026-11-06/DRAFT-pm.md",
+    "contract": "system/primary-mechanism-schema.md",
+    "example": "docs/biological-targets/brs-x/circadian/circadian-rhythm-regulation.md",
+    "scope": "Circadian hub list entry for BRS-X(Circadian-FM1-PM3) only. No new hub component."
   }
 ]

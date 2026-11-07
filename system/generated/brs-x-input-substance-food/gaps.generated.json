@@ -12,6 +12,12 @@
     },
     {
       "kind": "dietary-input-unset",
+      "relationship_id": "BRS-X(Circadian-FM1-PM3)::PM3-DIT-1",
+      "reason": "Dietary input = Unset. Type A derived gate is unresolved because serotonin, N-acetylserotonin and melatonin are not canonical substance identities. No extra-intake claim.",
+      "flags": []
+    },
+    {
+      "kind": "dietary-input-unset",
       "relationship_id": "BRS-X(ECS-PM1)::PM1-DIT-1",
       "reason": "Dietary supply decision unset",
       "flags": []
@@ -129,6 +135,11 @@
       "status": "unresolved-identity"
     },
     {
+      "kind": "no-structured-admissions",
+      "pm_id": "BRS-X(Hormones-PM7)",
+      "reason": "No structured accepted dietary inputs; narrative mentions are not admissions."
+    },
+    {
       "kind": "specialist-specification-not-joined",
       "food_id": "algal-oil",
       "record": "docs/foods/algal-oil.md",
@@ -155,6 +166,12 @@
       "record": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation.mdx",
       "accepted_relationships": 0,
       "structured_atoms": 0
+    },
+    {
+      "pm_id": "BRS-X(Circadian-FM1-PM3)",
+      "record": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability.mdx",
+      "accepted_relationships": 3,
+      "structured_atoms": 3
     },
     {
       "pm_id": "BRS-X(ECS-PM1)",
@@ -221,6 +238,12 @@
       "record": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation.mdx",
       "accepted_relationships": 1,
       "structured_atoms": 1
+    },
+    {
+      "pm_id": "BRS-X(Hormones-PM7)",
+      "record": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm7-circulating-sex-hormone-availability.mdx",
+      "accepted_relationships": 0,
+      "structured_atoms": 0
     }
   ],
   "pools": []

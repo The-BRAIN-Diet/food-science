@@ -18635,6 +18635,82 @@
         "assessmentGaps": [],
         "stoppingRationale": "Completed appraisal of the exact bounded intervention proposition; admission does not establish clinical benefit."
       }
+    },
+    {
+      "sha256": "861689d9c495da66b0bcbdf2997585bb0aa409f4dbf80d8d358868c5e5c84936",
+      "record": {
+        "id": "brs-x-circadian-fm1-pm3-pm3-f1-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS-X(Circadian-FM1-PM3)",
+        "findingId": "PM3-F1",
+        "title": "Acute tryptophan depletion lowered nocturnal melatonin",
+        "proposition": "In eight healthy volunteers, randomised double-blind acute tryptophan depletion lowered free and total plasma tryptophan below 20% of baseline and reduced nocturnal melatonin AUC compared with sham depletion in all eight. The result supports precursor availability as a biological constraint. It does not establish benefit from additional dietary tryptophan, improved sleep or ADHD outcomes.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "capRationale": "Existing D/B/P/R sum and ceilings applied; no extra replication decrement.",
+        "unscoredReason": null,
+        "lastEvidenceAssessmentDate": "2026-11-06",
+        "humanReview": null,
+        "rationale": {
+          "D": "Direct nocturnal melatonin AUC comparison after active versus sham tryptophan depletion.",
+          "B": "The abstract reports a randomised double-blind active versus sham comparison. Eight volunteers and unreextracted full methods limit bias protection.",
+          "P": "The direction was the same in all eight volunteers. No mean difference or interval was retrieved, so magnitude stays limited.",
+          "R": "One small depletion experiment. It is not an independent replication and it is not a supplementation trial."
+        },
+        "sources": {
+          "supporting": [
+            "zimmermann_tryptophan_melatonin_1993"
+          ],
+          "contextual": [
+            "peuhkuri_dietary_2012"
+          ],
+          "targetedChecks": [
+            {
+              "doi": "10.1210/jcem.76.5.8496306",
+              "role": "Exact depletion-versus-sham melatonin AUC comparison",
+              "access": "Europe PMC abstract retrieved 6 November 2026",
+              "assessment": "Eight healthy volunteers. Free and total plasma tryptophan fell below 20% of baseline. Nocturnal melatonin AUC was lower after active depletion than sham in all eight."
+            }
+          ],
+          "retrievalLimited": [],
+          "contradictoryAssessment": "The result constrains melatonin secretion when tryptophan is severely depleted. It does not show that additional dietary tryptophan raises melatonin, improves sleep or changes ADHD outcomes. Serotonin was not the reported endpoint."
+        },
+        "limitations": [
+          "Eight healthy volunteers; no retrieved mean difference or confidence interval.",
+          "Full methods were not re-extracted beyond the abstract.",
+          "Not evidence that extra dietary tryptophan improves melatonin, sleep or ADHD outcomes."
+        ],
+        "methodology": {
+          "name": "Scientific Evidence Confidence: Directness + Bias Protection + Precision + Replication",
+          "version": "Existing D/B/P/R rubric with approved completeness extension",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "process": "Provisional appraisal of the depletion-versus-sham melatonin comparison. Author approved registration of the 4/8 working score, subject to the existing registry contract. The score is not inherited by the tryptophan dietary relationship.",
+        "history": [
+          {
+            "date": "2026-11-06",
+            "decision": "Author approved provisional 4/8 for the Zimmermann depletion comparison on Circadian PM3. Dietary input for tryptophan remains Unset."
+          }
+        ],
+        "previousAssessments": [],
+        "completenessVersion": 1,
+        "assessmentGaps": [],
+        "stoppingRationale": "Completed provisional appraisal of the depletion comparison only. It does not admit extra tryptophan intake."
+      }
     }
   ]
 }

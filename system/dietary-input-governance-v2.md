@@ -67,7 +67,7 @@ A class-level conversion may contain an `alternative-vitamer-routes` step betwee
 
 ## Canonical PM scope in Stage 2A/2B and generation
 
-Discovery, adjudication, ontology projection and dietary roll-up use the same canonical PM inventory: 51 numbered PMs and 13 Cross-BRS PMs (64 total at this revision). Select canonical `pm_id` records in both numbered and Cross-BRS directories; do not require a numbered BRS–FM–PM identifier shape. Keep Cross-BRS identities, missions and URLs intact. Cross-BRS is a scope family, not a seventh numbered BRS.
+Discovery, adjudication, ontology projection and dietary roll-up use the same canonical PM inventory: 52 numbered PMs and 15 Cross-BRS PMs (67 total at this revision). Select canonical `pm_id` records in both numbered and Cross-BRS directories; do not require a numbered BRS–FM–PM identifier shape. Keep Cross-BRS identities, missions and URLs intact. Cross-BRS is a scope family, not a seventh numbered BRS.
 
 Stage 2A must investigate mission-specific direct and upstream dietary candidates for every PM, including records with no admitted inputs. Stage 2B applies the same Type A/B and independent Direct/Derived gates to Cross-BRS inputs. Registry traversal is not scientific discovery. An existing Direct capacity overlay with a missing dietary field requires an explicit assessment, not automatic inheritance or automatic rejection.
 

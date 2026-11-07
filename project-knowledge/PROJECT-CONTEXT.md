@@ -17,7 +17,7 @@ The six Biological Regulatory Systems (BRSs), using current hub titles, are:
 | BRS5 | Gut-Brain Axis & Enteric Nervous System |
 | BRS6 | Metabolic & Neuroendocrine Regulation |
 
-Cross-BRS modulators are Circadian, Endocannabinoid System (ECS) and Hormones. Current scope is 64 PMs: 51 numbered-system PMs plus 13 Cross-BRS PMs. Preserve their canonical identities rather than forcing Cross-BRS records into numbered identifiers.
+Cross-BRS modulators are Circadian, Endocannabinoid System (ECS) and Hormones. Current scope is 67 PMs: 52 numbered-system PMs plus 15 Cross-BRS PMs. Preserve their canonical identities rather than forcing Cross-BRS records into numbered identifiers.
 
 Functional Mechanisms (FMs) group related Primary Mechanisms (PMs). A PM owns a defined biological operation and mission. A Key Constraint (KC) represents a biologically coherent shared dietary resource pool, not any generic prerequisite or a duplicate PM. Cross-system dependencies do not transfer KC ownership. See the PM, FM, KC and Cross-BRS contracts in the index.
 

@@ -17245,6 +17245,102 @@
       "disposition": "canonical-record-review-required"
     },
     {
+      "pm": "BRS-X(Circadian-FM1-PM3)",
+      "title": "Melatonin Biosynthesis & Availability",
+      "mission": "Sustain melatonin biosynthetic capacity from serotonin through AANAT-mediated acetylation and ASMT-mediated methylation. The operation is the formation of melatonin. It is distinct from light-driven circadian secretion and from melatonin receptor signalling. A change in biosynthetic capacity is not a sleep or ADHD outcome.",
+      "page": "/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability",
+      "admitted_inputs": [],
+      "existing_dietary_yes": [],
+      "canonical_inputs": [
+        {
+          "atom_id": "PM3-DIT-1",
+          "input": "Tryptophan",
+          "dietary_input": null,
+          "substance_id": "tryptophan",
+          "role": "Tryptophan is the dietary precursor of serotonin, and serotonin is the substrate for melatonin formation. Severe depletion lowered nocturnal melatonin secretion.",
+          "evidence": {
+            "finding_ids": [
+              "PM3-F1"
+            ],
+            "citation_keys": [
+              "zimmermann_tryptophan_melatonin_1993"
+            ]
+          },
+          "limitation": "Depletion shows a constraint. It does not show that extra dietary tryptophan raises melatonin. BRS1 admission is not inherited."
+        },
+        {
+          "atom_id": "PM3-DIT-2",
+          "input": "S-adenosylmethionine (SAM)",
+          "dietary_input": false,
+          "substance_id": "s-adenosylmethionine",
+          "role": "SAM is the methyl donor for ASMT. Dietary provision is indirect, through the methylation pathways that already own SAM synthesis.",
+          "evidence": {
+            "finding_ids": [
+              "PM3-F2"
+            ],
+            "citation_keys": [
+              "peuhkuri_dietary_2012"
+            ]
+          },
+          "limitation": "Not a direct dietary requirement. Folate, vitamin B12, vitamin B6 and iron are not admitted on this PM."
+        },
+        {
+          "atom_id": "PM3-DIT-3",
+          "input": "Acetyl-CoA",
+          "dietary_input": false,
+          "substance_id": "acetyl-coa",
+          "role": "Acetyl-CoA is the acetyl donor for AANAT. It is not a dietary acetyl-CoA requirement.",
+          "evidence": {
+            "finding_ids": [
+              "PM3-F2"
+            ],
+            "citation_keys": [
+              "peuhkuri_dietary_2012"
+            ]
+          },
+          "limitation": "Pantothenate remains on BRS1 acetylcholine synthesis. It is not admitted here."
+        }
+      ],
+      "upstream_dependencies": [],
+      "pathway_count": 0,
+      "traceability_gaps": [
+        {
+          "atom_id": "BRS-X(Circadian-FM1-PM3)::PM3-DIT-1",
+          "input": "Tryptophan",
+          "ontology": {
+            "identity": "resolved",
+            "conversion": "unresolved",
+            "food": "unresolved"
+          },
+          "admission": "unresolved",
+          "admission_errors": [
+            "dietary-input-not-admitted",
+            "conversion-pathway-missing"
+          ],
+          "evidence": {
+            "finding_ids": [
+              "PM3-F1"
+            ],
+            "citation_keys": [
+              "zimmermann_tryptophan_melatonin_1993"
+            ]
+          },
+          "limitation": "Depletion shows a constraint. It does not show that extra dietary tryptophan raises melatonin. BRS1 admission is not inherited."
+        }
+      ],
+      "unresolved": [
+        {
+          "input": "Tryptophan",
+          "atom_id": "BRS-X(Circadian-FM1-PM3)::PM3-DIT-1",
+          "reason": [
+            "dietary-input-not-admitted",
+            "conversion-pathway-missing"
+          ]
+        }
+      ],
+      "disposition": "no-currently-resolved-admission"
+    },
+    {
       "pm": "BRS-X(ECS-PM1)",
       "title": "NAPE → NAE Biosynthesis Capacity",
       "mission": "Enable NAPE-to-NAE biosynthesis so endocannabinoidome signalling lipids remain available for stress and motivation regulation.",
@@ -17681,6 +17777,20 @@
       "traceability_gaps": [],
       "unresolved": [],
       "disposition": "no-currently-resolved-admission"
+    },
+    {
+      "pm": "BRS-X(Hormones-PM7)",
+      "title": "Circulating Sex-Hormone Availability & Regulation",
+      "mission": "Regulate measured circulating sex-hormone availability. Production, transport, metabolism and clearance are separate parts of that availability. A measurement of one part does not establish the others. The operation stops before receptor binding and downstream signalling. It does not judge a higher or lower concentration as benefit or harm.",
+      "page": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm7-circulating-sex-hormone-availability",
+      "admitted_inputs": [],
+      "existing_dietary_yes": [],
+      "canonical_inputs": [],
+      "upstream_dependencies": [],
+      "pathway_count": 0,
+      "traceability_gaps": [],
+      "unresolved": [],
+      "disposition": "canonical-record-review-required"
     },
     {
       "pm": "BRS1-FM1-PM1",

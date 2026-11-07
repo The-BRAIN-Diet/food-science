@@ -1,5 +1,29 @@
 [
   {
+    "relationship_id": "BRS-X(Circadian-FM1-PM3)::PM3-DIT-1",
+    "source_record": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability.mdx#dietary_input_traceability/PM3-DIT-1",
+    "input": "Tryptophan",
+    "dietary_input": null,
+    "note": "Dietary input = Unset. Type A derived gate is unresolved because serotonin, N-acetylserotonin and melatonin are not canonical substance identities. No extra-intake claim.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS-X(Circadian-FM1-PM3)::PM3-DIT-2",
+    "source_record": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability.mdx#dietary_input_traceability/PM3-DIT-2",
+    "input": "S-adenosylmethionine (SAM)",
+    "dietary_input": false,
+    "note": "Biochemical dependency only. Indirect dietary provision stays on BRS2 SAMe synthesis. No direct dietary requirement is classified here.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS-X(Circadian-FM1-PM3)::PM3-DIT-3",
+    "source_record": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability.mdx#dietary_input_traceability/PM3-DIT-3",
+    "input": "Acetyl-CoA",
+    "dietary_input": false,
+    "note": "Biochemical substrate only. Not a dietary requirement.",
+    "flags": []
+  },
+  {
     "relationship_id": "BRS-X(ECS-PM1)::PM1-DIT-1",
     "source_record": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx#dietary_input_traceability/PM1-DIT-1",
     "input": "N-acyl phosphatidylethanolamines (NAPEs)",
