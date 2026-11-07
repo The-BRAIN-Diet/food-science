@@ -240,6 +240,9 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 
 Separate from dietary relationship filters.
 
+- BRS-X(Circadian-FM1-PM3) — Tryptophan: PM-owned dietary relationship
+- BRS-X(Circadian-FM1-PM3) — S-adenosylmethionine (SAM): Endogenous/biochemical dependency
+- BRS-X(Circadian-FM1-PM3) — Acetyl-CoA: Endogenous/biochemical dependency
 - BRS-X(ECS-PM1) — N-acyl phosphatidylethanolamines (NAPEs): Endogenous/biochemical dependency
 - BRS-X(ECS-PM1) — Phosphatidylethanolamine: Endogenous/biochemical dependency
 - BRS-X(ECS-PM3) — Anandamide (AEA): Endogenous/biochemical dependency

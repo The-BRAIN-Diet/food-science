@@ -54,6 +54,7 @@ Outstanding food-edge, material-equivalence, identity and conversion tasks. Mate
 | vitamin-a | Retinoic acid |  | BRS5-FM1-PM1 | requires-pathway-reconciliation |
 | BRS5-FM1-PM3::PM3-DIT-1 | Oligofructose-enriched inulin |  | BRS5-FM1-PM3 | requires-identity-reconciliation |
 | ellagitannins | Ellagic acid |  | BRS5-FM2-PM6 | requires-pathway-reconciliation |
+| tryptophan | Active target unresolved |  | BRS-X(Circadian-FM1-PM3) | requires-pathway-reconciliation |
 | Beef | serine | Cut and cooking state not specified in the composition table; qualitative presence only | No current admitted input | pending-independent-verification |
 | Pork | serine | Cut and cooking state not specified in the composition table; qualitative presence only | No current admitted input | pending-independent-verification |
 | Lamb | serine | Cut and cooking state not specified in the composition table; qualitative presence only | No current admitted input | pending-independent-verification |
