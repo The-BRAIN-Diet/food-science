@@ -23,3 +23,5 @@ test('shared panel attribution preserves identities and supplementary evidence w
  assert.ok(attributed[2].observations[0].ranking_hold.includes('explicit scoped exception'));
  const cocoaPools=snapshot.targets.flatMap(t=>t.comparisons).filter(c=>c.foods.includes('cocoa'));assert.ok(cocoaPools.length);assert.ok(cocoaPools.every(c=>!c.foods.includes('cacao-powder')));
 });
+
+test('visible selection guidance consistently states the top-ten cap',()=>{assert.doesNotMatch(html,/maximum five per target|up to five per target/i);assert.match(html,/maximum ten per target/);});

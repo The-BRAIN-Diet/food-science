@@ -928,5 +928,15 @@
     "contract": "system/input-substance-food-mapping.md",
     "example": "static/explore/food-wheel/index.html",
     "scope": "Existing PM ranked-food dropdowns and standalone Food Wheel, same ten qualifying foods before grouping. Lupin identity correction only. No new scientific admissions, panels or unrelated page edits."
+  },
+  {
+    "file": "static/explore/food-wheel/index.html",
+    "sha256": "5cd093f4f5da09f82e3cbe6018e73dcb584f542d3b6dc33854ec5b27af6d1502",
+    "author_approval": "Shared top-ten PM/Food Wheel preview and authorised lupin identity consolidation; no merge or production deployment.",
+    "approval_source": "Owner instructions 9 November 2026: implement shared selector; retain lupins and retire duplicate lupin-beans with redirects; preserve four oil/cocoa identities; attribute cocoa only and retain oil hold; reconcile counts and run release checks.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/TOP-TEN-COVERAGE-RECONCILIATION.md",
+    "contract": "system/input-substance-food-mapping.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing PM ranked-food dropdowns and standalone Food Wheel, same ten qualifying foods before grouping. Lupin identity correction only. No new scientific admissions, panels or unrelated page edits."
   }
 ]
