@@ -2,7 +2,7 @@
 id: chicory-root
 title: Chicory Root
 sidebar_label: Chicory Root
-description: High inulin content; coffee substitute
+description: Raw root with measured fructans, reported separately from fructooligosaccharides
 tags:
   - Food
   - Chicory Root
@@ -59,7 +59,49 @@ composition_technical_provenance:
     published as oleic acid, linoleic acid or ALA. MyFoodData omega-3 and
     omega-6 rows extrapolated from those undifferentiated acids are not used.
 eaa_profile_applicable: false
+nutrition_supplementary_sources:
+  - key: fructans_jovanovic
+    label: Fructans
+    value: 8.4
+    unit: g
+    basis: per 100 g fresh weight
+    amount_display: 8.40 ± 0.186 g per 100 g fresh weight
+    public_display: table
+    evidence_status: supported
+    source_url: https://doi.org/10.1080/10942912.2012.680221
+    evidence_material: Chicory root
+    preparation_state: Fresh weight as reported. Cultivar and further preparation are not stated in the abstract.
+    source_note: >-
+      Jovanovic-Malinovska et al. 2014 reported chicory-root fructans at
+      8.40 ± 0.186 g per 100 g fresh weight, separately from the
+      fructooligosaccharide figures in the same paper. This is not an
+      oligofructose amount, not galacto-oligosaccharides, and not the combined
+      experimental preparation.
+    public_note: >-
+      Fructans, 8.40 ± 0.186 g per 100 g fresh weight. Not a fructooligosaccharide
+      amount and not a combined fructo-oligosaccharide plus galacto-oligosaccharide amount.
+    source_group: Jovanovic-Malinovska et al. 2014
 substance_relationships:
+  - substance: Fructans
+    relationship: contains
+    requires_supplementary_key: fructans_jovanovic
+    description: >-
+      Jovanovic-Malinovska et al. 2014 reported fructans at 8.40 ± 0.186 g per
+      100 g fresh weight in chicory root. The paper reports this separately
+      from fructooligosaccharides.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: Jovanovic-Malinovska et al. 2014
+    evidence_material: Chicory root
+    preparation_state: Fresh weight as reported. Cultivar and further preparation are not stated in the abstract.
+    source_url: https://doi.org/10.1080/10942912.2012.680221
+    citation_keys:
+      - jovanovic_malinovska_food_oligosaccharides_2014
+    chemical_form: Fructans, reported separately from fructooligosaccharides
+    material_limitations: >-
+      Not oligofructose, not fructo-oligosaccharides, not galacto-oligosaccharides,
+      and not the combined experimental preparation. USDA dietary fibre on this
+      page does not include this fructan figure.
   - substance: Iron
     relationship: contains
     description: "USDA SR Legacy, FDC 169993 reports 0.8 mg iron per 100 g edible portion in Chicory roots, raw (Cichorium intybus)."
@@ -130,13 +172,13 @@ legacy_main_image: /img/foods/chicory-root/chicory-root_medium.webp
 ---
 ## Overview
 
-Chicory root is a concentrated source of **inulin**, a fermentable prebiotic fibre supporting **Bifidobacterium** and related taxa [1]. The nutrient table is raw chicory root. Dietary fibre in that table is 1.5 g per 100 g and does not include inulin. Prebiotic fibres have been studied for gut–brain axis markers including cortisol response [2].
+Chicory root contains **fructans** at 8.40 ± 0.186 g per 100 g fresh weight. That figure is reported separately from fructooligosaccharides and is not a combined fructo-oligosaccharide and galacto-oligosaccharide amount [4]. The nutrient table is raw chicory root. Dietary fibre in that table is 1.5 g per 100 g and does not include inulin. Prebiotic fibres have been studied for gut–brain axis markers including cortisol response [2].
 
 Within the BRAIN Diet framework, chicory root (and inulin ingredients) support fermentable-fibre diversity; typical use is as roasted drink or inulin additive rather than whole-root bulk intake [1,2].
 
 ## Key Nutritional Highlights
 
-- High inulin content — fermentable prebiotic fibre [1]. The table’s 1.5 g fibre is dietary fibre and does not include inulin.
+- Fructans, 8.40 ± 0.186 g per 100 g fresh weight, reported separately from fructooligosaccharides [4]. The table’s 1.5 g fibre is dietary fibre and does not include this fructan figure.
 - Prebiotic intake studied for cortisol and emotional-bias endpoints [2].
 - Roasted chicory beverage is caffeine-free coffee substitute.
 - Introduce gradually to limit fermentative GI discomfort.
@@ -172,3 +214,5 @@ Within the BRAIN Diet framework, chicory root (and inulin ingredients) support f
 <span id="food-source-3" />
 
 [3] [Chicory roots, raw (Cichorium intybus), USDA SR Legacy FDC 169993](https://tools.myfooddata.com/nutrition-facts/169993/wt1)
+
+[4] Jovanovic-Malinovska et al. (2014). [Oligosaccharide profile in fruits and vegetables as sources of prebiotics and functional foods](/docs/papers/BRAIN-Diet-References#jovanovic_malinovska_food_oligosaccharides_2014). Chicory-root fructans were 8.40 ± 0.186 g per 100 g fresh weight, reported separately from fructooligosaccharides.
