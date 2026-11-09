@@ -1,0 +1,60 @@
+{
+  "main_composition_same_119_targets": {
+    "five": {
+      "foods": 51,
+      "edges": 466,
+      "targets": 98
+    },
+    "ten": {
+      "foods": 60,
+      "edges": 777,
+      "targets": 98
+    }
+  },
+  "canonical_files_different_from_wheel": [
+    "docs/foods/almonds.md",
+    "docs/foods/amaranth.md",
+    "docs/foods/apples.md",
+    "docs/foods/bananas.md",
+    "docs/foods/beef.md",
+    "docs/foods/beetroot.md",
+    "docs/foods/broccoli.md",
+    "docs/foods/carrots.md",
+    "docs/foods/cauliflower.md",
+    "docs/foods/cheddar-cheese.md",
+    "docs/foods/chicken.md",
+    "docs/foods/chickpeas.md",
+    "docs/foods/early-harvest-olive-oil.md",
+    "docs/foods/eggs.md",
+    "docs/foods/extra-virgin-olive-oil.md",
+    "docs/foods/grapes.md",
+    "docs/foods/heart.md",
+    "docs/foods/kale.md",
+    "docs/foods/kidney-beans.md",
+    "docs/foods/lentils.md",
+    "docs/foods/milk.md",
+    "docs/foods/miso.md",
+    "docs/foods/mussels.md",
+    "docs/foods/oats.md",
+    "docs/foods/olive-oil.md",
+    "docs/foods/peanuts.md",
+    "docs/foods/pistachios.md",
+    "docs/foods/pork.md",
+    "docs/foods/potatoes.md",
+    "docs/foods/pumpkin-seeds.md",
+    "docs/foods/quinoa.md",
+    "docs/foods/salmon.md",
+    "docs/foods/sardines.md",
+    "docs/foods/soy.md",
+    "docs/foods/spinach.md",
+    "docs/foods/sunflower-seeds.md",
+    "docs/foods/swiss-chard.md",
+    "docs/foods/tofu.md",
+    "docs/foods/tuna.md",
+    "docs/foods/turkey.md",
+    "docs/foods/wheat-germ.md"
+  ],
+  "main_sources": 2367,
+  "pm_relationships": 242,
+  "wheel_relationships_missing_on_main": []
+}

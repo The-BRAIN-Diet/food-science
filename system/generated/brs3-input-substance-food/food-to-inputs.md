@@ -86,8 +86,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Lion's Mane Mushroom | 3 | iron; magnesium; zinc; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Liver | 9 | cysteine; iron; vitamin-c; zinc; selenium; vitamin-e; vitamin-b2; magnesium; copper; manganese | BRS3-FM1-PM1; BRS3-FM1-PM2; BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 | BRS3(KC1) |
 | Lumpfish Roe | 2 | dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid | BRS3-FM3-PM7; BRS3-FM3-PM8 |  |
-| Lupin Beans | 7 | magnesium; iron; zinc; copper; manganese; vitamin-c; vitamin-b2; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
-| Lupins | 3 | iron; magnesium; zinc; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
+| Lupins | 7 | magnesium; iron; zinc; selenium; copper; manganese; vitamin-c; vitamin-b2 | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Mackerel | 10 | dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid; vitamin-e; zinc; iron; magnesium; copper; manganese; vitamin-c; vitamin-b2; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 |  |
 | Maitake Mushroom | 7 | zinc; vitamin-e; magnesium; manganese; iron; copper; vitamin-b2; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Mankai (Duckweed) | 1 | iron | BRS3-FM2-PM4 |  |

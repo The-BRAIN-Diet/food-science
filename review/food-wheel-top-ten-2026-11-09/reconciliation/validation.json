@@ -1,0 +1,51 @@
+{
+  "source_files_checked": 41,
+  "record_changes": 105,
+  "source_hashes_unchanged": true,
+  "existing_numeric_values_unchanged": true,
+  "source_anchor_checks": 189,
+  "missing_anchors": [],
+  "citation_keys": [
+    "usda_sr_foodless_targets_2018",
+    "patterson_choline_2008",
+    "bailoni_pectins_2005",
+    "furusho_carnitine_food_2026"
+  ],
+  "missing_bibliography_keys_main": [
+    "bailoni_pectins_2005",
+    "furusho_carnitine_food_2026"
+  ],
+  "missing_bibliography_keys_local": [],
+  "existing_wheel_target_scope_conflicts": [
+    {
+      "food": "apples",
+      "pm": "BRS5-FM2-PM4",
+      "substance": "pectin"
+    },
+    {
+      "food": "spinach",
+      "pm": "BRS5-FM2-PM4",
+      "substance": "pectin"
+    },
+    {
+      "food": "carrots",
+      "pm": "BRS5-FM2-PM4",
+      "substance": "pectin"
+    },
+    {
+      "food": "potatoes",
+      "pm": "BRS5-FM2-PM4",
+      "substance": "pectin"
+    },
+    {
+      "food": "grapes",
+      "pm": "BRS5-FM3-PM7",
+      "substance": "glucose"
+    },
+    {
+      "food": "bananas",
+      "pm": "BRS5-FM3-PM7",
+      "substance": "glucose"
+    }
+  ]
+}

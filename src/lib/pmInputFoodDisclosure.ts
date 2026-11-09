@@ -1,3 +1,5 @@
+import rankedSnapshot from '../data/rankedFoodSources.generated.json';
+import {rankedSourcesForRelationships} from '../data/rankedFoodSources.mjs';
 import {informationIcon, renderCoverageWarning, foodTargetCoverageWarning, inputCoverageWarnings} from "./foodTargetTraceability.mjs";
 import generatedScopes from "../data/inputMappingScopes.mjs";
 import {formatAggregateSumForDropdown} from './aggregateFoodComposition.mjs';
@@ -192,22 +194,29 @@ function attachFoodMappingIcon(row: HTMLElement, source: any) {
     if (source?.mapping_status !== 'research-supported-provisional') return;
     row.querySelector('.pm-input-food-name a')?.insertAdjacentHTML('afterend', informationIcon(foodTargetCoverageWarning(source)));
 }
-function createFoodSourceDetails(kind: string, sources: any[]): HTMLDetailsElement {
-    const selected = selectFoodDisclosureSources(sources);
+function createFoodSourceDetails(kind: string, sources: any[], preselected = false): HTMLDetailsElement {
+    const selected = preselected ? sources : selectFoodDisclosureSources(sources);
     const box = document.createElement('details');
     box.className = 'pm-input-food-sources';
     box.dataset.foodSourceKind = kind.toLowerCase().replace(/\s+/g, '-');
+    if (preselected) box.dataset.rankedSnapshot = rankedSnapshot.snapshot_id;
     const summary = document.createElement('summary');
     const top = selected[0];
+    const annotate = (el: HTMLElement, source: any) => { if (preselected && source) { el.dataset.foodId=source.food_id; el.dataset.substanceId=source.substance_id; el.dataset.rank=String(source.rank); el.dataset.relativePower=String(source.relative_power); el.dataset.observationId=source.observations[0]?.record; } };
+    annotate(summary, top);
     summary.innerHTML = renderFoodSourceSummary(kind, top);
+    if (preselected && !top) summary.querySelector('.pm-input-food-source-empty')!.textContent='No qualifying ranked sources';
     attachFoodMappingIcon(summary, top);
     summary.querySelectorAll('a').forEach((a) => a.addEventListener('click', (event) => event.stopPropagation()));
     box.append(summary);
+    if (preselected && top) box.insertAdjacentHTML('beforeend', renderProvenance(top));
     if (selected.length > 1) {
         const list = document.createElement('ul');
         selected.slice(1).forEach(source => {
             const item = document.createElement('li');
             item.innerHTML = renderCompactFoodSourceItem(source);
+            annotate(item, source);
+            if (preselected) item.insertAdjacentHTML('beforeend', renderProvenance(source));
             attachFoodMappingIcon(item, source);
             item.title = source.material || '';
             list.append(item);
@@ -254,7 +263,7 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
             li.querySelector('.brs-dietary-lever-trigger')?.after(icon.firstElementChild!);
             if (detail) detail.insertAdjacentHTML('afterbegin', renderCoverageWarning(warnings));
         }
-        const targets = [...new Map(relationships.flatMap((r:any) => r.food_targets || []).map((f:any) => [JSON.stringify([f.food_id,f.substance_id,f.material,f.preparation]), f])).values()] as any[];
+        const targets = rankedSourcesForRelationships(rankedSnapshot, pm, relationships) as any[];
         for (const [kind, group] of [
             ['Plant-based', targets.filter(t => !isProbablyAnimalSource(t))],
             ['Animal-based', targets.filter(t => isProbablyAnimalSource(t))],
@@ -267,7 +276,7 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
                     display: `${target.amount.value} ${target.amount.unit}`,
                     basis: target.amount.basis}] : [],
             }));
-            const box = createFoodSourceDetails(kind, compact);
+            const box = createFoodSourceDetails(kind, compact, true);
             const noFood = relationships.find((r:any)=>r.food_delivery_assessment?.status==='no-ordinary-food-source');
             if (!compact.length && noFood) { const empty=box.querySelector('.pm-input-food-source-empty'); if(empty)empty.textContent='No verified ordinary-food source'; }
             li.append(box);
@@ -275,9 +284,9 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
         return;
     }
 
-    const sources = scoped.food_sources.filter(f => relationships.some(r => r.substance_id === f.substance_id));
-    const plantBox = createFoodSourceDetails('Plant-based', sources.filter(source => !isProbablyAnimalSource(source)));
-    const animalBox = createFoodSourceDetails('Animal-based', sources.filter(source => isProbablyAnimalSource(source)));
+    const sources = rankedSourcesForRelationships(rankedSnapshot, pm, relationships);
+    const plantBox = createFoodSourceDetails('Plant-based', sources.filter(source => !isProbablyAnimalSource(source)), true);
+    const animalBox = createFoodSourceDetails('Animal-based', sources.filter(source => isProbablyAnimalSource(source)), true);
     plantBox.dataset.relationshipIds = relationships.map(r => r.id).join(' ');
     li.append(plantBox);
     animalBox.dataset.relationshipIds = relationships.map(r => r.id).join(' ');

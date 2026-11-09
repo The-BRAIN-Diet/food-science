@@ -1,0 +1,3689 @@
+{
+  "before": {
+    "targets": 151,
+    "covered_targets": 98,
+    "connections": 794,
+    "foods": 63
+  },
+  "after": {
+    "targets": 151,
+    "covered_targets": 98,
+    "connections": 800,
+    "foods": 64
+  },
+  "changed_targets": 24,
+  "changes": [
+    {
+      "target": "BRS-X(ECS-PM1)|zinc",
+      "before": [
+        {
+          "food_id": "oysters",
+          "rank": 1,
+          "power": 100,
+          "value": 39.3,
+          "unit": "mg",
+          "record": "docs/foods/oysters.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 2,
+          "power": 19.872773536895675,
+          "value": 7.81,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 19.720101781170484,
+          "value": 7.75,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 4,
+          "power": 15.725190839694658,
+          "value": 6.18,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 5,
+          "power": 14.707379134860052,
+          "value": 5.78,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 6,
+          "power": 12.72264631043257,
+          "value": 5,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 7,
+          "power": 12.442748091603054,
+          "value": 4.89,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 8,
+          "power": 12.086513994910943,
+          "value": 4.75,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "tahini",
+          "rank": 9,
+          "power": 11.755725190839696,
+          "value": 4.62,
+          "unit": "mg",
+          "record": "docs/foods/tahini.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "chia-seeds",
+          "rank": 10,
+          "power": 11.653944020356235,
+          "value": 4.58,
+          "unit": "mg",
+          "record": "docs/foods/chia-seeds.md#nutrition_per_100g/zinc_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "oysters",
+          "rank": 1,
+          "power": 100,
+          "value": 39.3,
+          "unit": "mg",
+          "record": "docs/foods/oysters.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 2,
+          "power": 19.872773536895675,
+          "value": 7.81,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 19.720101781170484,
+          "value": 7.75,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 4,
+          "power": 17.32824427480916,
+          "value": 6.81,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 5,
+          "power": 15.725190839694658,
+          "value": 6.18,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 6,
+          "power": 14.707379134860052,
+          "value": 5.78,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 7,
+          "power": 12.72264631043257,
+          "value": 5,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 8,
+          "power": 12.442748091603054,
+          "value": 4.89,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 9,
+          "power": 12.086513994910943,
+          "value": 4.75,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "tahini",
+          "rank": 10,
+          "power": 11.755725190839696,
+          "value": 4.62,
+          "unit": "mg",
+          "record": "docs/foods/tahini.md#nutrition_per_100g/zinc_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS-X(Hormones-PM5)|zinc",
+      "before": [
+        {
+          "food_id": "oysters",
+          "rank": 1,
+          "power": 100,
+          "value": 39.3,
+          "unit": "mg",
+          "record": "docs/foods/oysters.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 2,
+          "power": 19.872773536895675,
+          "value": 7.81,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 19.720101781170484,
+          "value": 7.75,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 4,
+          "power": 15.725190839694658,
+          "value": 6.18,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 5,
+          "power": 14.707379134860052,
+          "value": 5.78,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 6,
+          "power": 12.72264631043257,
+          "value": 5,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 7,
+          "power": 12.442748091603054,
+          "value": 4.89,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 8,
+          "power": 12.086513994910943,
+          "value": 4.75,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "tahini",
+          "rank": 9,
+          "power": 11.755725190839696,
+          "value": 4.62,
+          "unit": "mg",
+          "record": "docs/foods/tahini.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "chia-seeds",
+          "rank": 10,
+          "power": 11.653944020356235,
+          "value": 4.58,
+          "unit": "mg",
+          "record": "docs/foods/chia-seeds.md#nutrition_per_100g/zinc_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "oysters",
+          "rank": 1,
+          "power": 100,
+          "value": 39.3,
+          "unit": "mg",
+          "record": "docs/foods/oysters.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 2,
+          "power": 19.872773536895675,
+          "value": 7.81,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 19.720101781170484,
+          "value": 7.75,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 4,
+          "power": 17.32824427480916,
+          "value": 6.81,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 5,
+          "power": 15.725190839694658,
+          "value": 6.18,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 6,
+          "power": 14.707379134860052,
+          "value": 5.78,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 7,
+          "power": 12.72264631043257,
+          "value": 5,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 8,
+          "power": 12.442748091603054,
+          "value": 4.89,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 9,
+          "power": 12.086513994910943,
+          "value": 4.75,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "tahini",
+          "rank": 10,
+          "power": 11.755725190839696,
+          "value": 4.62,
+          "unit": "mg",
+          "record": "docs/foods/tahini.md#nutrition_per_100g/zinc_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS1-FM1-PM3|iron",
+      "before": [
+        {
+          "food_id": "thyme",
+          "rank": 1,
+          "power": 100,
+          "value": 123.6,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 2,
+          "power": 29.773462783171524,
+          "value": 36.8,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 3,
+          "power": 23.058252427184467,
+          "value": 28.5,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "cockles",
+          "rank": 4,
+          "power": 13.106796116504855,
+          "value": 16.2,
+          "unit": "mg",
+          "record": "docs/foods/cockles.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 5,
+          "power": 12.702265372168284,
+          "value": 15.7,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 6,
+          "power": 11.771844660194176,
+          "value": 14.55,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/iron_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "thyme",
+          "rank": 1,
+          "power": 100,
+          "value": 123.6,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 2,
+          "power": 29.773462783171524,
+          "value": 36.8,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 3,
+          "power": 23.058252427184467,
+          "value": 28.5,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "cockles",
+          "rank": 4,
+          "power": 13.106796116504855,
+          "value": 16.2,
+          "unit": "mg",
+          "record": "docs/foods/cockles.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 5,
+          "power": 12.702265372168284,
+          "value": 15.7,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 6,
+          "power": 11.771844660194176,
+          "value": 14.55,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 7,
+          "power": 11.21359223300971,
+          "value": 13.86,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/iron_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS1-FM1-PM3|magnesium",
+      "before": [
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 1,
+          "power": 100,
+          "value": 592,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 2,
+          "power": 59.29054054054054,
+          "value": 351,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "chia-seeds",
+          "rank": 3,
+          "power": 56.58783783783784,
+          "value": 335,
+          "unit": "mg",
+          "record": "docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 4,
+          "power": 54.89864864864865,
+          "value": 325,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 5,
+          "power": 49.32432432432432,
+          "value": 292,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 6,
+          "power": 47.2972972972973,
+          "value": 280,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 7,
+          "power": 45.608108108108105,
+          "value": 270,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "amaranth",
+          "rank": 8,
+          "power": 41.891891891891895,
+          "value": 248,
+          "unit": "mg",
+          "record": "docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 9,
+          "power": 37.16216216216216,
+          "value": 220,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 10,
+          "power": 33.44594594594595,
+          "value": 198,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/magnesium_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 1,
+          "power": 100,
+          "value": 592,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 2,
+          "power": 84.29054054054053,
+          "value": 499,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 59.29054054054054,
+          "value": 351,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "chia-seeds",
+          "rank": 4,
+          "power": 56.58783783783784,
+          "value": 335,
+          "unit": "mg",
+          "record": "docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 5,
+          "power": 54.89864864864865,
+          "value": 325,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 6,
+          "power": 49.32432432432432,
+          "value": 292,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 7,
+          "power": 47.2972972972973,
+          "value": 280,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 8,
+          "power": 45.608108108108105,
+          "value": 270,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "amaranth",
+          "rank": 9,
+          "power": 41.891891891891895,
+          "value": 248,
+          "unit": "mg",
+          "record": "docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 10,
+          "power": 37.16216216216216,
+          "value": 220,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/magnesium_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS1-FM1-PM4|copper",
+      "before": [
+        {
+          "food_id": "liver",
+          "rank": 1,
+          "power": 100,
+          "value": 9.755,
+          "unit": "mg",
+          "record": "docs/foods/liver.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 2,
+          "power": 62.53203485392106,
+          "value": 6.1,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 41.84520758585341,
+          "value": 4.082,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "oysters",
+          "rank": 4,
+          "power": 29.29779600205023,
+          "value": 2.858,
+          "unit": "mg",
+          "record": "docs/foods/oysters.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 5,
+          "power": 22.501281394156837,
+          "value": 2.195,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 6,
+          "power": 18.452075858534084,
+          "value": 1.8,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 7,
+          "power": 16.99641209636084,
+          "value": 1.658,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "tahini",
+          "rank": 8,
+          "power": 16.504356740133264,
+          "value": 1.61,
+          "unit": "mg",
+          "record": "docs/foods/tahini.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 9,
+          "power": 13.767298821117373,
+          "value": 1.343,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "pistachios",
+          "rank": 10,
+          "power": 13.326499231163504,
+          "value": 1.3,
+          "unit": "mg",
+          "record": "docs/foods/pistachios.md#nutrition_per_100g/copper_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "liver",
+          "rank": 1,
+          "power": 100,
+          "value": 9.755,
+          "unit": "mg",
+          "record": "docs/foods/liver.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 2,
+          "power": 62.53203485392106,
+          "value": 6.1,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 41.84520758585341,
+          "value": 4.082,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 4,
+          "power": 38.8313685289595,
+          "value": 3.788,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "oysters",
+          "rank": 5,
+          "power": 29.29779600205023,
+          "value": 2.858,
+          "unit": "mg",
+          "record": "docs/foods/oysters.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 6,
+          "power": 22.501281394156837,
+          "value": 2.195,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 7,
+          "power": 18.452075858534084,
+          "value": 1.8,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 8,
+          "power": 16.99641209636084,
+          "value": 1.658,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "tahini",
+          "rank": 9,
+          "power": 16.504356740133264,
+          "value": 1.61,
+          "unit": "mg",
+          "record": "docs/foods/tahini.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 10,
+          "power": 13.767298821117373,
+          "value": 1.343,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/copper_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS1-FM1-PM4|iron",
+      "before": [
+        {
+          "food_id": "thyme",
+          "rank": 1,
+          "power": 100,
+          "value": 123.6,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 2,
+          "power": 29.773462783171524,
+          "value": 36.8,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 3,
+          "power": 23.058252427184467,
+          "value": 28.5,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "cockles",
+          "rank": 4,
+          "power": 13.106796116504855,
+          "value": 16.2,
+          "unit": "mg",
+          "record": "docs/foods/cockles.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 5,
+          "power": 12.702265372168284,
+          "value": 15.7,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 6,
+          "power": 11.771844660194176,
+          "value": 14.55,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/iron_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "thyme",
+          "rank": 1,
+          "power": 100,
+          "value": 123.6,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 2,
+          "power": 29.773462783171524,
+          "value": 36.8,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 3,
+          "power": 23.058252427184467,
+          "value": 28.5,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "cockles",
+          "rank": 4,
+          "power": 13.106796116504855,
+          "value": 16.2,
+          "unit": "mg",
+          "record": "docs/foods/cockles.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 5,
+          "power": 12.702265372168284,
+          "value": 15.7,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 6,
+          "power": 11.771844660194176,
+          "value": 14.55,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 7,
+          "power": 11.21359223300971,
+          "value": 13.86,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/iron_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS1-FM1-PM4|magnesium",
+      "before": [
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 1,
+          "power": 100,
+          "value": 592,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 2,
+          "power": 59.29054054054054,
+          "value": 351,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "chia-seeds",
+          "rank": 3,
+          "power": 56.58783783783784,
+          "value": 335,
+          "unit": "mg",
+          "record": "docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 4,
+          "power": 54.89864864864865,
+          "value": 325,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 5,
+          "power": 49.32432432432432,
+          "value": 292,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 6,
+          "power": 47.2972972972973,
+          "value": 280,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 7,
+          "power": 45.608108108108105,
+          "value": 270,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "amaranth",
+          "rank": 8,
+          "power": 41.891891891891895,
+          "value": 248,
+          "unit": "mg",
+          "record": "docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 9,
+          "power": 37.16216216216216,
+          "value": 220,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 10,
+          "power": 33.44594594594595,
+          "value": 198,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/magnesium_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 1,
+          "power": 100,
+          "value": 592,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 2,
+          "power": 84.29054054054053,
+          "value": 499,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 59.29054054054054,
+          "value": 351,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "chia-seeds",
+          "rank": 4,
+          "power": 56.58783783783784,
+          "value": 335,
+          "unit": "mg",
+          "record": "docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 5,
+          "power": 54.89864864864865,
+          "value": 325,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 6,
+          "power": 49.32432432432432,
+          "value": 292,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 7,
+          "power": 47.2972972972973,
+          "value": 280,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 8,
+          "power": 45.608108108108105,
+          "value": 270,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "amaranth",
+          "rank": 9,
+          "power": 41.891891891891895,
+          "value": 248,
+          "unit": "mg",
+          "record": "docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 10,
+          "power": 37.16216216216216,
+          "value": 220,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/magnesium_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS1-FM1-PM5|iron",
+      "before": [
+        {
+          "food_id": "thyme",
+          "rank": 1,
+          "power": 100,
+          "value": 123.6,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 2,
+          "power": 29.773462783171524,
+          "value": 36.8,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 3,
+          "power": 23.058252427184467,
+          "value": 28.5,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "cockles",
+          "rank": 4,
+          "power": 13.106796116504855,
+          "value": 16.2,
+          "unit": "mg",
+          "record": "docs/foods/cockles.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 5,
+          "power": 12.702265372168284,
+          "value": 15.7,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 6,
+          "power": 11.771844660194176,
+          "value": 14.55,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/iron_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "thyme",
+          "rank": 1,
+          "power": 100,
+          "value": 123.6,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 2,
+          "power": 29.773462783171524,
+          "value": 36.8,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 3,
+          "power": 23.058252427184467,
+          "value": 28.5,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "cockles",
+          "rank": 4,
+          "power": 13.106796116504855,
+          "value": 16.2,
+          "unit": "mg",
+          "record": "docs/foods/cockles.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 5,
+          "power": 12.702265372168284,
+          "value": 15.7,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 6,
+          "power": 11.771844660194176,
+          "value": 14.55,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 7,
+          "power": 11.21359223300971,
+          "value": 13.86,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/iron_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS1-FM4-PM10|potassium",
+      "before": [
+        {
+          "food_id": "soy",
+          "rank": 1,
+          "power": 100,
+          "value": 1797,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "black-beans",
+          "rank": 2,
+          "power": 82.52643294379521,
+          "value": 1483,
+          "unit": "mg",
+          "record": "docs/foods/black-beans.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "kidney-beans",
+          "rank": 3,
+          "power": 78.24151363383417,
+          "value": 1406,
+          "unit": "mg",
+          "record": "docs/foods/kidney-beans.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 4,
+          "power": 75.84863661658319,
+          "value": 1363,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 5,
+          "power": 70.11686143572621,
+          "value": 1260,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "pistachios",
+          "rank": 6,
+          "power": 57.039510294936,
+          "value": 1025,
+          "unit": "mg",
+          "record": "docs/foods/pistachios.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 7,
+          "power": 56.3717306622148,
+          "value": 1013,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 8,
+          "power": 45.2977184195882,
+          "value": 814,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 9,
+          "power": 45.01947690595437,
+          "value": 809,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "chickpeas",
+          "rank": 10,
+          "power": 39.955481357818584,
+          "value": 718,
+          "unit": "mg",
+          "record": "docs/foods/chickpeas.md#nutrition_per_100g/potassium_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "soy",
+          "rank": 1,
+          "power": 100,
+          "value": 1797,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 2,
+          "power": 84.80801335559266,
+          "value": 1524,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "black-beans",
+          "rank": 3,
+          "power": 82.52643294379521,
+          "value": 1483,
+          "unit": "mg",
+          "record": "docs/foods/black-beans.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "kidney-beans",
+          "rank": 4,
+          "power": 78.24151363383417,
+          "value": 1406,
+          "unit": "mg",
+          "record": "docs/foods/kidney-beans.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 5,
+          "power": 75.84863661658319,
+          "value": 1363,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 6,
+          "power": 70.11686143572621,
+          "value": 1260,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "pistachios",
+          "rank": 7,
+          "power": 57.039510294936,
+          "value": 1025,
+          "unit": "mg",
+          "record": "docs/foods/pistachios.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 8,
+          "power": 56.3717306622148,
+          "value": 1013,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 9,
+          "power": 45.2977184195882,
+          "value": 814,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 10,
+          "power": 45.01947690595437,
+          "value": 809,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/potassium_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS1-FM4-PM11|magnesium",
+      "before": [
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 1,
+          "power": 100,
+          "value": 592,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 2,
+          "power": 59.29054054054054,
+          "value": 351,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "chia-seeds",
+          "rank": 3,
+          "power": 56.58783783783784,
+          "value": 335,
+          "unit": "mg",
+          "record": "docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 4,
+          "power": 54.89864864864865,
+          "value": 325,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 5,
+          "power": 49.32432432432432,
+          "value": 292,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 6,
+          "power": 47.2972972972973,
+          "value": 280,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 7,
+          "power": 45.608108108108105,
+          "value": 270,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "amaranth",
+          "rank": 8,
+          "power": 41.891891891891895,
+          "value": 248,
+          "unit": "mg",
+          "record": "docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 9,
+          "power": 37.16216216216216,
+          "value": 220,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 10,
+          "power": 33.44594594594595,
+          "value": 198,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/magnesium_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 1,
+          "power": 100,
+          "value": 592,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 2,
+          "power": 84.29054054054053,
+          "value": 499,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 59.29054054054054,
+          "value": 351,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "chia-seeds",
+          "rank": 4,
+          "power": 56.58783783783784,
+          "value": 335,
+          "unit": "mg",
+          "record": "docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 5,
+          "power": 54.89864864864865,
+          "value": 325,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 6,
+          "power": 49.32432432432432,
+          "value": 292,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 7,
+          "power": 47.2972972972973,
+          "value": 280,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 8,
+          "power": 45.608108108108105,
+          "value": 270,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "amaranth",
+          "rank": 9,
+          "power": 41.891891891891895,
+          "value": 248,
+          "unit": "mg",
+          "record": "docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 10,
+          "power": 37.16216216216216,
+          "value": 220,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/magnesium_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS2-FM1-PM2|zinc",
+      "before": [
+        {
+          "food_id": "oysters",
+          "rank": 1,
+          "power": 100,
+          "value": 39.3,
+          "unit": "mg",
+          "record": "docs/foods/oysters.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 2,
+          "power": 19.872773536895675,
+          "value": 7.81,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 19.720101781170484,
+          "value": 7.75,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 4,
+          "power": 15.725190839694658,
+          "value": 6.18,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 5,
+          "power": 14.707379134860052,
+          "value": 5.78,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 6,
+          "power": 12.72264631043257,
+          "value": 5,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 7,
+          "power": 12.442748091603054,
+          "value": 4.89,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 8,
+          "power": 12.086513994910943,
+          "value": 4.75,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "tahini",
+          "rank": 9,
+          "power": 11.755725190839696,
+          "value": 4.62,
+          "unit": "mg",
+          "record": "docs/foods/tahini.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "chia-seeds",
+          "rank": 10,
+          "power": 11.653944020356235,
+          "value": 4.58,
+          "unit": "mg",
+          "record": "docs/foods/chia-seeds.md#nutrition_per_100g/zinc_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "oysters",
+          "rank": 1,
+          "power": 100,
+          "value": 39.3,
+          "unit": "mg",
+          "record": "docs/foods/oysters.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 2,
+          "power": 19.872773536895675,
+          "value": 7.81,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 19.720101781170484,
+          "value": 7.75,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 4,
+          "power": 17.32824427480916,
+          "value": 6.81,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 5,
+          "power": 15.725190839694658,
+          "value": 6.18,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 6,
+          "power": 14.707379134860052,
+          "value": 5.78,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 7,
+          "power": 12.72264631043257,
+          "value": 5,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 8,
+          "power": 12.442748091603054,
+          "value": 4.89,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 9,
+          "power": 12.086513994910943,
+          "value": 4.75,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "tahini",
+          "rank": 10,
+          "power": 11.755725190839696,
+          "value": 4.62,
+          "unit": "mg",
+          "record": "docs/foods/tahini.md#nutrition_per_100g/zinc_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS2-FM1-PM3|magnesium",
+      "before": [
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 1,
+          "power": 100,
+          "value": 592,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 2,
+          "power": 59.29054054054054,
+          "value": 351,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "chia-seeds",
+          "rank": 3,
+          "power": 56.58783783783784,
+          "value": 335,
+          "unit": "mg",
+          "record": "docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 4,
+          "power": 54.89864864864865,
+          "value": 325,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 5,
+          "power": 49.32432432432432,
+          "value": 292,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 6,
+          "power": 47.2972972972973,
+          "value": 280,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 7,
+          "power": 45.608108108108105,
+          "value": 270,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "amaranth",
+          "rank": 8,
+          "power": 41.891891891891895,
+          "value": 248,
+          "unit": "mg",
+          "record": "docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 9,
+          "power": 37.16216216216216,
+          "value": 220,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 10,
+          "power": 33.44594594594595,
+          "value": 198,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/magnesium_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 1,
+          "power": 100,
+          "value": 592,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 2,
+          "power": 84.29054054054053,
+          "value": 499,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 59.29054054054054,
+          "value": 351,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "chia-seeds",
+          "rank": 4,
+          "power": 56.58783783783784,
+          "value": 335,
+          "unit": "mg",
+          "record": "docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 5,
+          "power": 54.89864864864865,
+          "value": 325,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 6,
+          "power": 49.32432432432432,
+          "value": 292,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 7,
+          "power": 47.2972972972973,
+          "value": 280,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 8,
+          "power": 45.608108108108105,
+          "value": 270,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "amaranth",
+          "rank": 9,
+          "power": 41.891891891891895,
+          "value": 248,
+          "unit": "mg",
+          "record": "docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 10,
+          "power": 37.16216216216216,
+          "value": 220,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/magnesium_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS2-FM1-PM3|potassium",
+      "before": [
+        {
+          "food_id": "soy",
+          "rank": 1,
+          "power": 100,
+          "value": 1797,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "black-beans",
+          "rank": 2,
+          "power": 82.52643294379521,
+          "value": 1483,
+          "unit": "mg",
+          "record": "docs/foods/black-beans.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "kidney-beans",
+          "rank": 3,
+          "power": 78.24151363383417,
+          "value": 1406,
+          "unit": "mg",
+          "record": "docs/foods/kidney-beans.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 4,
+          "power": 75.84863661658319,
+          "value": 1363,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 5,
+          "power": 70.11686143572621,
+          "value": 1260,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "pistachios",
+          "rank": 6,
+          "power": 57.039510294936,
+          "value": 1025,
+          "unit": "mg",
+          "record": "docs/foods/pistachios.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 7,
+          "power": 56.3717306622148,
+          "value": 1013,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 8,
+          "power": 45.2977184195882,
+          "value": 814,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 9,
+          "power": 45.01947690595437,
+          "value": 809,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "chickpeas",
+          "rank": 10,
+          "power": 39.955481357818584,
+          "value": 718,
+          "unit": "mg",
+          "record": "docs/foods/chickpeas.md#nutrition_per_100g/potassium_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "soy",
+          "rank": 1,
+          "power": 100,
+          "value": 1797,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 2,
+          "power": 84.80801335559266,
+          "value": 1524,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "black-beans",
+          "rank": 3,
+          "power": 82.52643294379521,
+          "value": 1483,
+          "unit": "mg",
+          "record": "docs/foods/black-beans.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "kidney-beans",
+          "rank": 4,
+          "power": 78.24151363383417,
+          "value": 1406,
+          "unit": "mg",
+          "record": "docs/foods/kidney-beans.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 5,
+          "power": 75.84863661658319,
+          "value": 1363,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 6,
+          "power": 70.11686143572621,
+          "value": 1260,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "pistachios",
+          "rank": 7,
+          "power": 57.039510294936,
+          "value": 1025,
+          "unit": "mg",
+          "record": "docs/foods/pistachios.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 8,
+          "power": 56.3717306622148,
+          "value": 1013,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 9,
+          "power": 45.2977184195882,
+          "value": 814,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/potassium_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 10,
+          "power": 45.01947690595437,
+          "value": 809,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/potassium_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS2-FM2-PM6|magnesium",
+      "before": [
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 1,
+          "power": 100,
+          "value": 592,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 2,
+          "power": 59.29054054054054,
+          "value": 351,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "chia-seeds",
+          "rank": 3,
+          "power": 56.58783783783784,
+          "value": 335,
+          "unit": "mg",
+          "record": "docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 4,
+          "power": 54.89864864864865,
+          "value": 325,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 5,
+          "power": 49.32432432432432,
+          "value": 292,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 6,
+          "power": 47.2972972972973,
+          "value": 280,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 7,
+          "power": 45.608108108108105,
+          "value": 270,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "amaranth",
+          "rank": 8,
+          "power": 41.891891891891895,
+          "value": 248,
+          "unit": "mg",
+          "record": "docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 9,
+          "power": 37.16216216216216,
+          "value": 220,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 10,
+          "power": 33.44594594594595,
+          "value": 198,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/magnesium_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 1,
+          "power": 100,
+          "value": 592,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 2,
+          "power": 84.29054054054053,
+          "value": 499,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 59.29054054054054,
+          "value": 351,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "chia-seeds",
+          "rank": 4,
+          "power": 56.58783783783784,
+          "value": 335,
+          "unit": "mg",
+          "record": "docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 5,
+          "power": 54.89864864864865,
+          "value": 325,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 6,
+          "power": 49.32432432432432,
+          "value": 292,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 7,
+          "power": 47.2972972972973,
+          "value": 280,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 8,
+          "power": 45.608108108108105,
+          "value": 270,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "amaranth",
+          "rank": 9,
+          "power": 41.891891891891895,
+          "value": 248,
+          "unit": "mg",
+          "record": "docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 10,
+          "power": 37.16216216216216,
+          "value": 220,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/magnesium_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS3-FM2-PM4|copper",
+      "before": [
+        {
+          "food_id": "liver",
+          "rank": 1,
+          "power": 100,
+          "value": 9.755,
+          "unit": "mg",
+          "record": "docs/foods/liver.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 2,
+          "power": 62.53203485392106,
+          "value": 6.1,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 41.84520758585341,
+          "value": 4.082,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "oysters",
+          "rank": 4,
+          "power": 29.29779600205023,
+          "value": 2.858,
+          "unit": "mg",
+          "record": "docs/foods/oysters.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 5,
+          "power": 22.501281394156837,
+          "value": 2.195,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 6,
+          "power": 18.452075858534084,
+          "value": 1.8,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 7,
+          "power": 16.99641209636084,
+          "value": 1.658,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "tahini",
+          "rank": 8,
+          "power": 16.504356740133264,
+          "value": 1.61,
+          "unit": "mg",
+          "record": "docs/foods/tahini.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 9,
+          "power": 13.767298821117373,
+          "value": 1.343,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "pistachios",
+          "rank": 10,
+          "power": 13.326499231163504,
+          "value": 1.3,
+          "unit": "mg",
+          "record": "docs/foods/pistachios.md#nutrition_per_100g/copper_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "liver",
+          "rank": 1,
+          "power": 100,
+          "value": 9.755,
+          "unit": "mg",
+          "record": "docs/foods/liver.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 2,
+          "power": 62.53203485392106,
+          "value": 6.1,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 41.84520758585341,
+          "value": 4.082,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 4,
+          "power": 38.8313685289595,
+          "value": 3.788,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "oysters",
+          "rank": 5,
+          "power": 29.29779600205023,
+          "value": 2.858,
+          "unit": "mg",
+          "record": "docs/foods/oysters.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 6,
+          "power": 22.501281394156837,
+          "value": 2.195,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 7,
+          "power": 18.452075858534084,
+          "value": 1.8,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 8,
+          "power": 16.99641209636084,
+          "value": 1.658,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "tahini",
+          "rank": 9,
+          "power": 16.504356740133264,
+          "value": 1.61,
+          "unit": "mg",
+          "record": "docs/foods/tahini.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 10,
+          "power": 13.767298821117373,
+          "value": 1.343,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/copper_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS3-FM2-PM4|iron",
+      "before": [
+        {
+          "food_id": "thyme",
+          "rank": 1,
+          "power": 100,
+          "value": 123.6,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 2,
+          "power": 29.773462783171524,
+          "value": 36.8,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 3,
+          "power": 23.058252427184467,
+          "value": 28.5,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "cockles",
+          "rank": 4,
+          "power": 13.106796116504855,
+          "value": 16.2,
+          "unit": "mg",
+          "record": "docs/foods/cockles.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 5,
+          "power": 12.702265372168284,
+          "value": 15.7,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 6,
+          "power": 11.771844660194176,
+          "value": 14.55,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/iron_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "thyme",
+          "rank": 1,
+          "power": 100,
+          "value": 123.6,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 2,
+          "power": 29.773462783171524,
+          "value": 36.8,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 3,
+          "power": 23.058252427184467,
+          "value": 28.5,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "cockles",
+          "rank": 4,
+          "power": 13.106796116504855,
+          "value": 16.2,
+          "unit": "mg",
+          "record": "docs/foods/cockles.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 5,
+          "power": 12.702265372168284,
+          "value": 15.7,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 6,
+          "power": 11.771844660194176,
+          "value": 14.55,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 7,
+          "power": 11.21359223300971,
+          "value": 13.86,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/iron_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS3-FM2-PM4|manganese",
+      "before": [
+        {
+          "food_id": "thyme",
+          "rank": 1,
+          "power": 100,
+          "value": 7.867,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 2,
+          "power": 57.747553069785184,
+          "value": 4.543,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "chickpeas",
+          "rank": 3,
+          "power": 52.752002033812126,
+          "value": 4.15,
+          "unit": "mg",
+          "record": "docs/foods/chickpeas.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "mussels",
+          "rank": 4,
+          "power": 43.218507690352105,
+          "value": 3.4,
+          "unit": "mg",
+          "record": "docs/foods/mussels.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "amaranth",
+          "rank": 5,
+          "power": 42.36684886233634,
+          "value": 3.333,
+          "unit": "mg",
+          "record": "docs/foods/amaranth.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "spelt",
+          "rank": 6,
+          "power": 37.917884835388335,
+          "value": 2.983,
+          "unit": "mg",
+          "record": "docs/foods/spelt.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "chia-seeds",
+          "rank": 7,
+          "power": 34.61294012965552,
+          "value": 2.723,
+          "unit": "mg",
+          "record": "docs/foods/chia-seeds.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 8,
+          "power": 31.994407016651838,
+          "value": 2.517,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 9,
+          "power": 31.269861446548873,
+          "value": 2.46,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 10,
+          "power": 30.278378034829036,
+          "value": 2.382,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/manganese_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "thyme",
+          "rank": 1,
+          "power": 100,
+          "value": 7.867,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 2,
+          "power": 57.747553069785184,
+          "value": 4.543,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "chickpeas",
+          "rank": 3,
+          "power": 52.752002033812126,
+          "value": 4.15,
+          "unit": "mg",
+          "record": "docs/foods/chickpeas.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 4,
+          "power": 48.77335706114148,
+          "value": 3.837,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "mussels",
+          "rank": 5,
+          "power": 43.218507690352105,
+          "value": 3.4,
+          "unit": "mg",
+          "record": "docs/foods/mussels.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "amaranth",
+          "rank": 6,
+          "power": 42.36684886233634,
+          "value": 3.333,
+          "unit": "mg",
+          "record": "docs/foods/amaranth.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "spelt",
+          "rank": 7,
+          "power": 37.917884835388335,
+          "value": 2.983,
+          "unit": "mg",
+          "record": "docs/foods/spelt.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "chia-seeds",
+          "rank": 8,
+          "power": 34.61294012965552,
+          "value": 2.723,
+          "unit": "mg",
+          "record": "docs/foods/chia-seeds.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 9,
+          "power": 31.994407016651838,
+          "value": 2.517,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 10,
+          "power": 31.269861446548873,
+          "value": 2.46,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/manganese_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS3-FM2-PM4|zinc",
+      "before": [
+        {
+          "food_id": "oysters",
+          "rank": 1,
+          "power": 100,
+          "value": 39.3,
+          "unit": "mg",
+          "record": "docs/foods/oysters.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 2,
+          "power": 19.872773536895675,
+          "value": 7.81,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 19.720101781170484,
+          "value": 7.75,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 4,
+          "power": 15.725190839694658,
+          "value": 6.18,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 5,
+          "power": 14.707379134860052,
+          "value": 5.78,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 6,
+          "power": 12.72264631043257,
+          "value": 5,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 7,
+          "power": 12.442748091603054,
+          "value": 4.89,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 8,
+          "power": 12.086513994910943,
+          "value": 4.75,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "tahini",
+          "rank": 9,
+          "power": 11.755725190839696,
+          "value": 4.62,
+          "unit": "mg",
+          "record": "docs/foods/tahini.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "chia-seeds",
+          "rank": 10,
+          "power": 11.653944020356235,
+          "value": 4.58,
+          "unit": "mg",
+          "record": "docs/foods/chia-seeds.md#nutrition_per_100g/zinc_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "oysters",
+          "rank": 1,
+          "power": 100,
+          "value": 39.3,
+          "unit": "mg",
+          "record": "docs/foods/oysters.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 2,
+          "power": 19.872773536895675,
+          "value": 7.81,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 19.720101781170484,
+          "value": 7.75,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 4,
+          "power": 17.32824427480916,
+          "value": 6.81,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 5,
+          "power": 15.725190839694658,
+          "value": 6.18,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 6,
+          "power": 14.707379134860052,
+          "value": 5.78,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 7,
+          "power": 12.72264631043257,
+          "value": 5,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 8,
+          "power": 12.442748091603054,
+          "value": 4.89,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 9,
+          "power": 12.086513994910943,
+          "value": 4.75,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "tahini",
+          "rank": 10,
+          "power": 11.755725190839696,
+          "value": 4.62,
+          "unit": "mg",
+          "record": "docs/foods/tahini.md#nutrition_per_100g/zinc_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS4-FM1-PM10|iron",
+      "before": [
+        {
+          "food_id": "thyme",
+          "rank": 1,
+          "power": 100,
+          "value": 123.6,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 2,
+          "power": 29.773462783171524,
+          "value": 36.8,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 3,
+          "power": 23.058252427184467,
+          "value": 28.5,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "cockles",
+          "rank": 4,
+          "power": 13.106796116504855,
+          "value": 16.2,
+          "unit": "mg",
+          "record": "docs/foods/cockles.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 5,
+          "power": 12.702265372168284,
+          "value": 15.7,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 6,
+          "power": 11.771844660194176,
+          "value": 14.55,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/iron_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "thyme",
+          "rank": 1,
+          "power": 100,
+          "value": 123.6,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 2,
+          "power": 29.773462783171524,
+          "value": 36.8,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 3,
+          "power": 23.058252427184467,
+          "value": 28.5,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "cockles",
+          "rank": 4,
+          "power": 13.106796116504855,
+          "value": 16.2,
+          "unit": "mg",
+          "record": "docs/foods/cockles.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 5,
+          "power": 12.702265372168284,
+          "value": 15.7,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 6,
+          "power": 11.771844660194176,
+          "value": 14.55,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 7,
+          "power": 11.21359223300971,
+          "value": 13.86,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/iron_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS4-FM1-PM1|copper",
+      "before": [
+        {
+          "food_id": "liver",
+          "rank": 1,
+          "power": 100,
+          "value": 9.755,
+          "unit": "mg",
+          "record": "docs/foods/liver.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 2,
+          "power": 62.53203485392106,
+          "value": 6.1,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 41.84520758585341,
+          "value": 4.082,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "oysters",
+          "rank": 4,
+          "power": 29.29779600205023,
+          "value": 2.858,
+          "unit": "mg",
+          "record": "docs/foods/oysters.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 5,
+          "power": 22.501281394156837,
+          "value": 2.195,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 6,
+          "power": 18.452075858534084,
+          "value": 1.8,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 7,
+          "power": 16.99641209636084,
+          "value": 1.658,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "tahini",
+          "rank": 8,
+          "power": 16.504356740133264,
+          "value": 1.61,
+          "unit": "mg",
+          "record": "docs/foods/tahini.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 9,
+          "power": 13.767298821117373,
+          "value": 1.343,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "pistachios",
+          "rank": 10,
+          "power": 13.326499231163504,
+          "value": 1.3,
+          "unit": "mg",
+          "record": "docs/foods/pistachios.md#nutrition_per_100g/copper_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "liver",
+          "rank": 1,
+          "power": 100,
+          "value": 9.755,
+          "unit": "mg",
+          "record": "docs/foods/liver.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 2,
+          "power": 62.53203485392106,
+          "value": 6.1,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 41.84520758585341,
+          "value": 4.082,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 4,
+          "power": 38.8313685289595,
+          "value": 3.788,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "oysters",
+          "rank": 5,
+          "power": 29.29779600205023,
+          "value": 2.858,
+          "unit": "mg",
+          "record": "docs/foods/oysters.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 6,
+          "power": 22.501281394156837,
+          "value": 2.195,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 7,
+          "power": 18.452075858534084,
+          "value": 1.8,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 8,
+          "power": 16.99641209636084,
+          "value": 1.658,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "tahini",
+          "rank": 9,
+          "power": 16.504356740133264,
+          "value": 1.61,
+          "unit": "mg",
+          "record": "docs/foods/tahini.md#nutrition_per_100g/copper_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 10,
+          "power": 13.767298821117373,
+          "value": 1.343,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/copper_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS4-FM1-PM1|iron",
+      "before": [
+        {
+          "food_id": "thyme",
+          "rank": 1,
+          "power": 100,
+          "value": 123.6,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 2,
+          "power": 29.773462783171524,
+          "value": 36.8,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 3,
+          "power": 23.058252427184467,
+          "value": 28.5,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "cockles",
+          "rank": 4,
+          "power": 13.106796116504855,
+          "value": 16.2,
+          "unit": "mg",
+          "record": "docs/foods/cockles.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 5,
+          "power": 12.702265372168284,
+          "value": 15.7,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 6,
+          "power": 11.771844660194176,
+          "value": 14.55,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/iron_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "thyme",
+          "rank": 1,
+          "power": 100,
+          "value": 123.6,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 2,
+          "power": 29.773462783171524,
+          "value": 36.8,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "spirulina",
+          "rank": 3,
+          "power": 23.058252427184467,
+          "value": 28.5,
+          "unit": "mg",
+          "record": "docs/foods/spirulina.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "cockles",
+          "rank": 4,
+          "power": 13.106796116504855,
+          "value": 16.2,
+          "unit": "mg",
+          "record": "docs/foods/cockles.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 5,
+          "power": 12.702265372168284,
+          "value": 15.7,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 6,
+          "power": 11.771844660194176,
+          "value": 14.55,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/iron_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 7,
+          "power": 11.21359223300971,
+          "value": 13.86,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/iron_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS4-FM2-PM5|manganese",
+      "before": [
+        {
+          "food_id": "thyme",
+          "rank": 1,
+          "power": 100,
+          "value": 7.867,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 2,
+          "power": 57.747553069785184,
+          "value": 4.543,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "chickpeas",
+          "rank": 3,
+          "power": 52.752002033812126,
+          "value": 4.15,
+          "unit": "mg",
+          "record": "docs/foods/chickpeas.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "mussels",
+          "rank": 4,
+          "power": 43.218507690352105,
+          "value": 3.4,
+          "unit": "mg",
+          "record": "docs/foods/mussels.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "amaranth",
+          "rank": 5,
+          "power": 42.36684886233634,
+          "value": 3.333,
+          "unit": "mg",
+          "record": "docs/foods/amaranth.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "spelt",
+          "rank": 6,
+          "power": 37.917884835388335,
+          "value": 2.983,
+          "unit": "mg",
+          "record": "docs/foods/spelt.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "chia-seeds",
+          "rank": 7,
+          "power": 34.61294012965552,
+          "value": 2.723,
+          "unit": "mg",
+          "record": "docs/foods/chia-seeds.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 8,
+          "power": 31.994407016651838,
+          "value": 2.517,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 9,
+          "power": 31.269861446548873,
+          "value": 2.46,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 10,
+          "power": 30.278378034829036,
+          "value": 2.382,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/manganese_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "thyme",
+          "rank": 1,
+          "power": 100,
+          "value": 7.867,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 2,
+          "power": 57.747553069785184,
+          "value": 4.543,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "chickpeas",
+          "rank": 3,
+          "power": 52.752002033812126,
+          "value": 4.15,
+          "unit": "mg",
+          "record": "docs/foods/chickpeas.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 4,
+          "power": 48.77335706114148,
+          "value": 3.837,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "mussels",
+          "rank": 5,
+          "power": 43.218507690352105,
+          "value": 3.4,
+          "unit": "mg",
+          "record": "docs/foods/mussels.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "amaranth",
+          "rank": 6,
+          "power": 42.36684886233634,
+          "value": 3.333,
+          "unit": "mg",
+          "record": "docs/foods/amaranth.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "spelt",
+          "rank": 7,
+          "power": 37.917884835388335,
+          "value": 2.983,
+          "unit": "mg",
+          "record": "docs/foods/spelt.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "chia-seeds",
+          "rank": 8,
+          "power": 34.61294012965552,
+          "value": 2.723,
+          "unit": "mg",
+          "record": "docs/foods/chia-seeds.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 9,
+          "power": 31.994407016651838,
+          "value": 2.517,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/manganese_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 10,
+          "power": 31.269861446548873,
+          "value": 2.46,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/manganese_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS5-FM1-PM1|zinc",
+      "before": [
+        {
+          "food_id": "oysters",
+          "rank": 1,
+          "power": 100,
+          "value": 39.3,
+          "unit": "mg",
+          "record": "docs/foods/oysters.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 2,
+          "power": 19.872773536895675,
+          "value": 7.81,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 19.720101781170484,
+          "value": 7.75,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 4,
+          "power": 15.725190839694658,
+          "value": 6.18,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 5,
+          "power": 14.707379134860052,
+          "value": 5.78,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 6,
+          "power": 12.72264631043257,
+          "value": 5,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 7,
+          "power": 12.442748091603054,
+          "value": 4.89,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 8,
+          "power": 12.086513994910943,
+          "value": 4.75,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "tahini",
+          "rank": 9,
+          "power": 11.755725190839696,
+          "value": 4.62,
+          "unit": "mg",
+          "record": "docs/foods/tahini.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "chia-seeds",
+          "rank": 10,
+          "power": 11.653944020356235,
+          "value": 4.58,
+          "unit": "mg",
+          "record": "docs/foods/chia-seeds.md#nutrition_per_100g/zinc_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "oysters",
+          "rank": 1,
+          "power": 100,
+          "value": 39.3,
+          "unit": "mg",
+          "record": "docs/foods/oysters.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 2,
+          "power": 19.872773536895675,
+          "value": 7.81,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 19.720101781170484,
+          "value": 7.75,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 4,
+          "power": 17.32824427480916,
+          "value": 6.81,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 5,
+          "power": 15.725190839694658,
+          "value": 6.18,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 6,
+          "power": 14.707379134860052,
+          "value": 5.78,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 7,
+          "power": 12.72264631043257,
+          "value": 5,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 8,
+          "power": 12.442748091603054,
+          "value": 4.89,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 9,
+          "power": 12.086513994910943,
+          "value": 4.75,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/zinc_mg"
+        },
+        {
+          "food_id": "tahini",
+          "rank": 10,
+          "power": 11.755725190839696,
+          "value": 4.62,
+          "unit": "mg",
+          "record": "docs/foods/tahini.md#nutrition_per_100g/zinc_mg"
+        }
+      ]
+    },
+    {
+      "target": "BRS6-FM1-PM3|magnesium",
+      "before": [
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 1,
+          "power": 100,
+          "value": 592,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 2,
+          "power": 59.29054054054054,
+          "value": 351,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "chia-seeds",
+          "rank": 3,
+          "power": 56.58783783783784,
+          "value": 335,
+          "unit": "mg",
+          "record": "docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 4,
+          "power": 54.89864864864865,
+          "value": 325,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 5,
+          "power": 49.32432432432432,
+          "value": 292,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 6,
+          "power": 47.2972972972973,
+          "value": 280,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 7,
+          "power": 45.608108108108105,
+          "value": 270,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "amaranth",
+          "rank": 8,
+          "power": 41.891891891891895,
+          "value": 248,
+          "unit": "mg",
+          "record": "docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 9,
+          "power": 37.16216216216216,
+          "value": 220,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "lupins",
+          "rank": 10,
+          "power": 33.44594594594595,
+          "value": 198,
+          "unit": "mg",
+          "record": "docs/foods/lupins.md#nutrition_per_100g/magnesium_mg"
+        }
+      ],
+      "after": [
+        {
+          "food_id": "pumpkin-seeds",
+          "rank": 1,
+          "power": 100,
+          "value": 592,
+          "unit": "mg",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "cocoa",
+          "rank": 2,
+          "power": 84.29054054054053,
+          "value": 499,
+          "unit": "mg",
+          "record": "docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sesame-seeds",
+          "rank": 3,
+          "power": 59.29054054054054,
+          "value": 351,
+          "unit": "mg",
+          "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "chia-seeds",
+          "rank": 4,
+          "power": 56.58783783783784,
+          "value": 335,
+          "unit": "mg",
+          "record": "docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "sunflower-seeds",
+          "rank": 5,
+          "power": 54.89864864864865,
+          "value": 325,
+          "unit": "mg",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "cashews",
+          "rank": 6,
+          "power": 49.32432432432432,
+          "value": 292,
+          "unit": "mg",
+          "record": "docs/foods/cashews.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "soy",
+          "rank": 7,
+          "power": 47.2972972972973,
+          "value": 280,
+          "unit": "mg",
+          "record": "docs/foods/soy.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "oregano",
+          "rank": 8,
+          "power": 45.608108108108105,
+          "value": 270,
+          "unit": "mg",
+          "record": "docs/foods/oregano.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "amaranth",
+          "rank": 9,
+          "power": 41.891891891891895,
+          "value": 248,
+          "unit": "mg",
+          "record": "docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg"
+        },
+        {
+          "food_id": "thyme",
+          "rank": 10,
+          "power": 37.16216216216216,
+          "value": 220,
+          "unit": "mg",
+          "record": "docs/foods/thyme.md#nutrition_per_100g/magnesium_mg"
+        }
+      ]
+    }
+  ]
+}
