@@ -808,5 +808,25 @@
     "contract": "system/primary-mechanism-schema.md",
     "example": "docs/biological-targets/brs-x/circadian/circadian-rhythm-regulation.md",
     "scope": "Circadian hub list entry for BRS-X(Circadian-FM1-PM3) only. No new hub component."
+  },
+  {
+    "file": "static/preview/recipe-brs-matrix/index.html",
+    "sha256": "464daab01592400a0309106c903b71255fb1c46cc6619cf83f37a41f57265bd3",
+    "author_approval": "Publish the reviewed recipe matrix at an unlisted URL; prepare the GitHub PR through the existing workflow.",
+    "approval_source": "Author messages 9 November 2026: publish it live on the site on a hidden url; then ok sounds good; do the github PR then.",
+    "proposal": "system/recipe-matrix-preview-presentation-contract.md",
+    "contract": "system/recipe-matrix-preview-presentation-contract.md",
+    "example": "static/preview/recipe-brs-matrix/index.html",
+    "scope": "One standalone unlisted preview at /preview/recipe-brs-matrix/; two static assets, no canonical rollout; PR only, no merge in this task."
+  },
+  {
+    "file": "static/preview/recipe-brs-matrix/network.json",
+    "sha256": "c0303d769db299b8fa3597f756dfab1362e9283aa98b34ffac5736418031ba53",
+    "author_approval": "Publish the reviewed recipe matrix at an unlisted URL; prepare the GitHub PR through the existing workflow.",
+    "approval_source": "Author messages 9 November 2026: publish it live on the site on a hidden url; then ok sounds good; do the github PR then.",
+    "proposal": "system/recipe-matrix-preview-presentation-contract.md",
+    "contract": "system/recipe-matrix-preview-presentation-contract.md",
+    "example": "static/preview/recipe-brs-matrix/index.html",
+    "scope": "One standalone unlisted preview at /preview/recipe-brs-matrix/; two static assets, no canonical rollout; PR only, no merge in this task."
   }
 ]
