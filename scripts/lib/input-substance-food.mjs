@@ -168,13 +168,14 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
     const needed = new Set(relationships.map(r => r.substance_id).filter(Boolean));
     for (const f of walk(path.join(root, 'docs/foods'))) {
         const doc = load(path.relative(root, f)), d = doc.data, foodId = d.id || path.basename(f).replace(/\.mdx?$/, ''), page = '/docs/' + doc.file.replace(/^docs\//, '').replace(/\.mdx?$/, ''), validPanel = checkExactFoodMatch(d, foodId).length === 0 && d.composition_status !== 'withdrawn', src = d.nutrition_source;
+        if (d.retired_identity) continue;
         const heldSubstances = new Set((d.nutrition_value_reviews || []).filter(r => r.exclude_from_food_lists === true).map(r => r.substance_id));
         for (const review of d.nutrition_value_reviews || []) if (review.exclude_from_food_lists === true)
             gaps.push({ kind: 'composition-observation-held', food_id: foodId, substance_id: review.substance_id, record: doc.file + '#nutrition_value_reviews', reason: review.title });
         const entries = new Map();
         function entry(id, material, preparation) { const key = foodId + '::' + id + '::' + normalize(material || 'unspecified') + '::' + normalize(preparation || 'unspecified'); if (!entries.has(key))
             entries.set(key, { id: key, substance_id: id, food_id: foodId, food_title: d.title || foodId, food_page: page, food_record: doc.file, material: material || null, preparation: preparation || null, species: d.food_identity?.species || null, product: d.food_identity?.product || null, edible_part: d.food_identity?.edible_part || null, chemical_form: null, food_matrix: null, preparation_effects: null, absorption_evidence: null, observations: [], presence_records: [], qualification: [] }); return entries.get(key); }
-        const material = src?.food_name || d.food_identity?.material || d.title, prep = d.preparation_state || d.food_identity?.preparation || (/\b(raw|uncooked|cooked|dried|roasted|boiled|oil)\b/i.exec(src?.food_name || '')?.[1] || null);
+        const material = src?.food_name || d.food_identity?.material || d.title, prep = d.preparation_state || d.food_identity?.preparation || (/\b(dry powder|raw|uncooked|cooked|dried|roasted|boiled|salted|smoked|canned|frozen|oil)\b/i.exec(src?.food_name || '')?.[1] || null);
         for (const edge of canonicalContainsRelationships(d)) {
             const ident = identity(edge.substance, edge.substance_id);
             if (!ident.id || !needed.has(ident.id) || heldSubstances.has(ident.id) || substances[ident.id]?.identity_type === 'defined-substrate-class')

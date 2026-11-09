@@ -77,7 +77,6 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Lion's Mane Mushroom | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Liver | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Lumpfish Roe | 1 | dha-docosahexaenoic-acid | BRS6-FM4-PM8 |  |
-| Lupin Beans | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Lupins | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Mackerel | 2 | dha-docosahexaenoic-acid; magnesium | BRS6-FM1-PM3; BRS6-FM4-PM8 |  |
 | Maitake Mushroom | 1 | magnesium | BRS6-FM1-PM3 |  |

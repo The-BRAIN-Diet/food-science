@@ -82,8 +82,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Lentils | 3 | zinc; vitamin-a; magnesium; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Lion's Mane Mushroom | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
 | Liver | 3 | vitamin-a; zinc; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
-| Lupin Beans | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
-| Lupins | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
+| Lupins | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Mackerel | 3 | vitamin-a; linoleic-acid; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Maitake Mushroom | 2 | linoleic-acid; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Milk | 3 | magnesium; zinc; pyridoxal-5-phosphate; vitamin-a; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |

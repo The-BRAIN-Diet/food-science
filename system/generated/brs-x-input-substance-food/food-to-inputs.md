@@ -79,7 +79,6 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Lion's Mane Mushroom | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Liver | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Lumpfish Roe | 2 | dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid | BRS-X(ECS-PM2) |  |
-| Lupin Beans | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Lupins | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Mackerel | 3 | dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid; zinc | BRS-X(ECS-PM1); BRS-X(ECS-PM2); BRS-X(Hormones-PM5) |  |
 | Maitake Mushroom | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |

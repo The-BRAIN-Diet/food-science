@@ -84,8 +84,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Lentils | 5 | iron; zinc; vitamin-e; vitamin-b2; copper; manganese; magnesium; selenium | BRS4-FM1-PM1; BRS4-FM1-PM10; BRS4-FM2-PM5 |  |
 | Lion's Mane Mushroom | 1 | iron; magnesium; zinc; selenium | BRS4-FM1-PM1; BRS4-FM1-PM10 |  |
 | Liver | 6 | iron; coq10; creatine; zinc; selenium; vitamin-e; vitamin-b2; magnesium; copper; manganese | BRS4-FM1-PM1; BRS4-FM1-PM10; BRS4-FM1-PM3; BRS4-FM2-PM5 |  |
-| Lupin Beans | 5 | arginine; magnesium; iron; zinc; copper; manganese; vitamin-b2; selenium | BRS4-FM1-PM1; BRS4-FM1-PM10; BRS4-FM1-PM3; BRS4-FM2-PM5 |  |
-| Lupins | 1 | iron; magnesium; zinc; selenium | BRS4-FM1-PM1; BRS4-FM1-PM10 |  |
+| Lupins | 5 | arginine; magnesium; iron; zinc; selenium; copper; manganese; vitamin-b2 | BRS4-FM1-PM1; BRS4-FM1-PM10; BRS4-FM1-PM3; BRS4-FM2-PM5 |  |
 | Mackerel | 5 | coq10; vitamin-e; zinc; iron; magnesium; copper; manganese; vitamin-b2; selenium | BRS4-FM1-PM1; BRS4-FM1-PM10; BRS4-FM2-PM5 |  |
 | Maitake Mushroom | 5 | zinc; vitamin-e; magnesium; manganese; iron; copper; vitamin-b2; selenium | BRS4-FM1-PM1; BRS4-FM1-PM10; BRS4-FM2-PM5 |  |
 | Mankai (Duckweed) | 1 | iron | BRS4-FM1-PM1; BRS4-FM1-PM10 |  |

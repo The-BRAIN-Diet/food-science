@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "aliases": {
+    "lupin-beans": "lupins"
+  },
+  "author_decision": "9 November 2026: retain lupins as canonical USDA FDC 172423 identity; retire duplicate with redirects."
+}

@@ -1,0 +1,390 @@
+{
+  "before": {
+    "foods": 64,
+    "connections": 586,
+    "targets": 119,
+    "pms": 41,
+    "substances": 33,
+    "systems": [
+      "BRS-X/ecs",
+      "BRS-X/hormones",
+      "BRS1",
+      "BRS2",
+      "BRS3",
+      "BRS4",
+      "BRS5",
+      "BRS6"
+    ]
+  },
+  "after": {
+    "foods": 78,
+    "connections": 985,
+    "targets": 119,
+    "pms": 41,
+    "substances": 33,
+    "systems": [
+      "BRS-X/ecs",
+      "BRS-X/hormones",
+      "BRS1",
+      "BRS2",
+      "BRS3",
+      "BRS4",
+      "BRS5",
+      "BRS6"
+    ]
+  },
+  "added": [
+    {
+      "food": "turkey",
+      "foods": 1,
+      "connections": 14,
+      "targets": 14,
+      "pms": 10,
+      "substances": 4,
+      "systems": [
+        "BRS1",
+        "BRS2",
+        "BRS4",
+        "BRS5"
+      ]
+    },
+    {
+      "food": "lupins",
+      "foods": 1,
+      "connections": 15,
+      "targets": 15,
+      "pms": 14,
+      "substances": 3,
+      "systems": [
+        "BRS-X/ecs",
+        "BRS-X/hormones",
+        "BRS1",
+        "BRS2",
+        "BRS3",
+        "BRS5"
+      ]
+    },
+    {
+      "food": "clams",
+      "foods": 1,
+      "connections": 5,
+      "targets": 5,
+      "pms": 5,
+      "substances": 2,
+      "systems": [
+        "BRS1",
+        "BRS2"
+      ]
+    },
+    {
+      "food": "edamame",
+      "foods": 1,
+      "connections": 8,
+      "targets": 8,
+      "pms": 8,
+      "substances": 1,
+      "systems": [
+        "BRS1",
+        "BRS2"
+      ]
+    },
+    {
+      "food": "mushrooms",
+      "foods": 1,
+      "connections": 8,
+      "targets": 8,
+      "pms": 8,
+      "substances": 1,
+      "systems": [
+        "BRS1",
+        "BRS2",
+        "BRS3",
+        "BRS4"
+      ]
+    },
+    {
+      "food": "sauerkraut",
+      "foods": 1,
+      "connections": 3,
+      "targets": 3,
+      "pms": 3,
+      "substances": 1,
+      "systems": [
+        "BRS1"
+      ]
+    },
+    {
+      "food": "shrimp",
+      "foods": 1,
+      "connections": 3,
+      "targets": 3,
+      "pms": 3,
+      "substances": 1,
+      "systems": [
+        "BRS1"
+      ]
+    },
+    {
+      "food": "scallops",
+      "foods": 1,
+      "connections": 3,
+      "targets": 3,
+      "pms": 3,
+      "substances": 1,
+      "systems": [
+        "BRS1"
+      ]
+    },
+    {
+      "food": "oranges",
+      "foods": 1,
+      "connections": 2,
+      "targets": 2,
+      "pms": 2,
+      "substances": 1,
+      "systems": [
+        "BRS1",
+        "BRS3"
+      ]
+    },
+    {
+      "food": "lemon",
+      "foods": 1,
+      "connections": 2,
+      "targets": 2,
+      "pms": 2,
+      "substances": 1,
+      "systems": [
+        "BRS1",
+        "BRS3"
+      ]
+    },
+    {
+      "food": "broccoli-sprouts",
+      "foods": 1,
+      "connections": 2,
+      "targets": 2,
+      "pms": 2,
+      "substances": 1,
+      "systems": [
+        "BRS1",
+        "BRS3"
+      ]
+    },
+    {
+      "food": "spelt",
+      "foods": 1,
+      "connections": 2,
+      "targets": 2,
+      "pms": 2,
+      "substances": 1,
+      "systems": [
+        "BRS3",
+        "BRS4"
+      ]
+    },
+    {
+      "food": "dandelion-greens",
+      "foods": 1,
+      "connections": 1,
+      "targets": 1,
+      "pms": 1,
+      "substances": 1,
+      "systems": [
+        "BRS5"
+      ]
+    },
+    {
+      "food": "avocado-oil",
+      "foods": 1,
+      "connections": 1,
+      "targets": 1,
+      "pms": 1,
+      "substances": 1,
+      "systems": [
+        "BRS5"
+      ]
+    }
+  ],
+  "removed": [],
+  "bySystem": {
+    "BRS-X/ecs": {
+      "before": {
+        "foods": 11,
+        "connections": 15,
+        "targets": 3,
+        "pms": 2,
+        "substances": 3,
+        "systems": [
+          "BRS-X/ecs"
+        ]
+      },
+      "after": {
+        "foods": 18,
+        "connections": 27,
+        "targets": 3,
+        "pms": 2,
+        "substances": 3,
+        "systems": [
+          "BRS-X/ecs"
+        ]
+      }
+    },
+    "BRS-X/hormones": {
+      "before": {
+        "foods": 5,
+        "connections": 5,
+        "targets": 1,
+        "pms": 1,
+        "substances": 1,
+        "systems": [
+          "BRS-X/hormones"
+        ]
+      },
+      "after": {
+        "foods": 10,
+        "connections": 10,
+        "targets": 1,
+        "pms": 1,
+        "substances": 1,
+        "systems": [
+          "BRS-X/hormones"
+        ]
+      }
+    },
+    "BRS1": {
+      "before": {
+        "foods": 45,
+        "connections": 220,
+        "targets": 44,
+        "pms": 11,
+        "substances": 17,
+        "systems": [
+          "BRS1"
+        ]
+      },
+      "after": {
+        "foods": 63,
+        "connections": 388,
+        "targets": 44,
+        "pms": 11,
+        "substances": 17,
+        "systems": [
+          "BRS1"
+        ]
+      }
+    },
+    "BRS2": {
+      "before": {
+        "foods": 40,
+        "connections": 155,
+        "targets": 31,
+        "pms": 7,
+        "substances": 13,
+        "systems": [
+          "BRS2"
+        ]
+      },
+      "after": {
+        "foods": 49,
+        "connections": 243,
+        "targets": 31,
+        "pms": 7,
+        "substances": 13,
+        "systems": [
+          "BRS2"
+        ]
+      }
+    },
+    "BRS3": {
+      "before": {
+        "foods": 35,
+        "connections": 80,
+        "targets": 16,
+        "pms": 7,
+        "substances": 11,
+        "systems": [
+          "BRS3"
+        ]
+      },
+      "after": {
+        "foods": 49,
+        "connections": 143,
+        "targets": 16,
+        "pms": 7,
+        "substances": 11,
+        "systems": [
+          "BRS3"
+        ]
+      }
+    },
+    "BRS4": {
+      "before": {
+        "foods": 31,
+        "connections": 67,
+        "targets": 14,
+        "pms": 6,
+        "substances": 11,
+        "systems": [
+          "BRS4"
+        ]
+      },
+      "after": {
+        "foods": 39,
+        "connections": 106,
+        "targets": 14,
+        "pms": 6,
+        "substances": 11,
+        "systems": [
+          "BRS4"
+        ]
+      }
+    },
+    "BRS5": {
+      "before": {
+        "foods": 21,
+        "connections": 34,
+        "targets": 8,
+        "pms": 5,
+        "substances": 6,
+        "systems": [
+          "BRS5"
+        ]
+      },
+      "after": {
+        "foods": 32,
+        "connections": 50,
+        "targets": 8,
+        "pms": 5,
+        "substances": 6,
+        "systems": [
+          "BRS5"
+        ]
+      }
+    },
+    "BRS6": {
+      "before": {
+        "foods": 10,
+        "connections": 10,
+        "targets": 2,
+        "pms": 2,
+        "substances": 2,
+        "systems": [
+          "BRS6"
+        ]
+      },
+      "after": {
+        "foods": 18,
+        "connections": 18,
+        "targets": 2,
+        "pms": 2,
+        "substances": 2,
+        "systems": [
+          "BRS6"
+        ]
+      }
+    }
+  },
+  "multiplePools": [],
+  "baseline_reproduced": true
+}

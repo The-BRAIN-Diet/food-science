@@ -1,3 +1,5 @@
+import * as relatedSubstanceRelationships from '../src/data/relatedSubstanceRelationships.mjs';
+import * as rankedFoodSources from '../src/data/rankedFoodSources.mjs';
 import * as foodTargetTraceability from '../src/lib/foodTargetTraceability.mjs';
 import * as aggregateFoodComposition from '../src/lib/aggregateFoodComposition.mjs';
 
@@ -1473,7 +1475,7 @@ test('NAD B3 form documentation links remain distinct and do not change the six-
 const rendererModule = new Module(PM_INPUT_FOOD_DISCLOSURE);
 rendererModule.filename = PM_INPUT_FOOD_DISCLOSURE;
 const rendererRequire = createRequire(PM_INPUT_FOOD_DISCLOSURE);
-rendererModule.require = id => id.endsWith('inputMappingScopes.mjs') ? {__esModule:true,default:{}}
+rendererModule.require = id => id.endsWith('rankedFoodSources.mjs') ? rankedFoodSources : id.endsWith('relatedSubstanceRelationships.mjs') ? relatedSubstanceRelationships : id.endsWith('inputMappingScopes.mjs') ? {__esModule:true,default:{}}
  : id.endsWith('inputSubstanceFoodSelection.mjs') ? foodSelection : id.endsWith('foodTargetTraceability.mjs') ? foodTargetTraceability : id.endsWith('aggregateFoodComposition.mjs') ? aggregateFoodComposition : rendererRequire(id);
 rendererModule._compile(ts.transpileModule(fs.readFileSync(PM_INPUT_FOOD_DISCLOSURE,'utf8'),{
  compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022},

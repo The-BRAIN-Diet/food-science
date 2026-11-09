@@ -1,0 +1,30 @@
+{
+  "baseline_commit": "2efc9c82b42128d81e1039d7244651b591c3e11d",
+  "method": "Extracted tracked HEAD scripts/docs/system/src/registry/bibliography to isolated temporary directory; same node_modules and Node; ran identical commands. No baseline files modified.",
+  "mapper_failures": [
+    "meal pattern remains a pattern with candidate ingredient source pointers, no nutrient substitute",
+    "sixth field gates PM lists independently of accounting and preserves unresolved decisions",
+    "rollout records every accepted atom decision and retains evidence and precursor distinctions",
+    "food strategy rollup preserves independently admitted SOP science and separate intervention scopes"
+  ],
+  "nutrition_failures": [
+    "FAIL: public table rows missing value or source support (3 page(s)):",
+    "  broccoli.md: Sulforaphane: public qualitative row needs status or amount_display \"Present — quantity not established\"",
+    "  shrimp.md: Betaine: public qualitative row needs status or amount_display \"Present — quantity not established\"",
+    "  spinach.md: Betaine: public qualitative row needs status or amount_display \"Present — quantity not established\"",
+    "FAIL: qualitative presence claims lacking food-specific evidence (3 page(s)):",
+    "  broccoli.md: Sulforaphane: public qualitative row needs status or amount_display \"Present — quantity not established\"",
+    "  shrimp.md: Betaine: public qualitative row needs status or amount_display \"Present — quantity not established\"",
+    "  spinach.md: Betaine: public qualitative row needs status or amount_display \"Present — quantity not established\""
+  ],
+  "new_failure_identities": [],
+  "current_tests": {
+    "passed": 88,
+    "failed": 4
+  },
+  "baseline_tests": {
+    "passed": 77,
+    "failed": 4
+  },
+  "status": "Pre-existing failures remain; not a waiver or a fully passing release gate."
+}

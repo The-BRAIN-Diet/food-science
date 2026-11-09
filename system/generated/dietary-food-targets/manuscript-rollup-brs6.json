@@ -462,7 +462,7 @@
           "suarez_magnesium_insulin_1995"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -722,7 +722,7 @@
           "suarez_magnesium_insulin_1995"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -954,8 +954,8 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "lupin-beans",
-      "food_title": "Lupin Beans",
+      "food_target": "lupins",
+      "food_title": "Lupins",
       "food_material": "Lupins, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -964,7 +964,7 @@
       "mapping_status": "verified",
       "food_evidence": [
         {
-          "record": "docs/foods/lupin-beans.md#substance_relationships/Magnesium",
+          "record": "docs/foods/lupins.md#substance_relationships/Magnesium",
           "evidence": "USDA SR Legacy April 2018",
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
@@ -1346,7 +1346,7 @@
           "suarez_magnesium_insulin_1995"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -2399,7 +2399,7 @@
           "rausch_omega3_adipokines_2021"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -2784,7 +2784,7 @@
           "rausch_omega3_adipokines_2021"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -2894,7 +2894,7 @@
           "rausch_omega3_adipokines_2021"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [

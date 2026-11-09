@@ -1,0 +1,192 @@
+{
+  "comparison": "Diagnostic only: shared panels allowed versus current conservative hold; not production before/after",
+  "changes": [
+    {
+      "target": "BRS3-FM2-PM5|vitamin-e",
+      "shared_panel_rankings": [
+        {
+          "food": "early-harvest-olive-oil",
+          "rank": 2,
+          "observation": "docs/foods/early-harvest-olive-oil.md#nutrition_per_100g/vitamin_e_mg"
+        },
+        {
+          "food": "extra-virgin-olive-oil",
+          "rank": 3,
+          "observation": "docs/foods/extra-virgin-olive-oil.md#nutrition_per_100g/vitamin_e_mg"
+        }
+      ],
+      "after": [
+        {
+          "food": "sunflower-seeds",
+          "rank": 1
+        },
+        {
+          "food": "salmon-roe",
+          "rank": 2
+        },
+        {
+          "food": "peanuts",
+          "rank": 3
+        },
+        {
+          "food": "soy-lecithin",
+          "rank": 4
+        },
+        {
+          "food": "thyme",
+          "rank": 5
+        },
+        {
+          "food": "spirulina",
+          "rank": 6
+        },
+        {
+          "food": "salmon",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "target": "BRS3-FM2-PM6|vitamin-e",
+      "shared_panel_rankings": [
+        {
+          "food": "early-harvest-olive-oil",
+          "rank": 2,
+          "observation": "docs/foods/early-harvest-olive-oil.md#nutrition_per_100g/vitamin_e_mg"
+        },
+        {
+          "food": "extra-virgin-olive-oil",
+          "rank": 3,
+          "observation": "docs/foods/extra-virgin-olive-oil.md#nutrition_per_100g/vitamin_e_mg"
+        }
+      ],
+      "after": [
+        {
+          "food": "sunflower-seeds",
+          "rank": 1
+        },
+        {
+          "food": "salmon-roe",
+          "rank": 2
+        },
+        {
+          "food": "peanuts",
+          "rank": 3
+        },
+        {
+          "food": "soy-lecithin",
+          "rank": 4
+        },
+        {
+          "food": "thyme",
+          "rank": 5
+        },
+        {
+          "food": "spirulina",
+          "rank": 6
+        },
+        {
+          "food": "salmon",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "target": "BRS4-FM2-PM5|vitamin-e",
+      "shared_panel_rankings": [
+        {
+          "food": "early-harvest-olive-oil",
+          "rank": 2,
+          "observation": "docs/foods/early-harvest-olive-oil.md#nutrition_per_100g/vitamin_e_mg"
+        },
+        {
+          "food": "extra-virgin-olive-oil",
+          "rank": 3,
+          "observation": "docs/foods/extra-virgin-olive-oil.md#nutrition_per_100g/vitamin_e_mg"
+        }
+      ],
+      "after": [
+        {
+          "food": "sunflower-seeds",
+          "rank": 1
+        },
+        {
+          "food": "salmon-roe",
+          "rank": 2
+        },
+        {
+          "food": "peanuts",
+          "rank": 3
+        },
+        {
+          "food": "soy-lecithin",
+          "rank": 4
+        },
+        {
+          "food": "thyme",
+          "rank": 5
+        },
+        {
+          "food": "spirulina",
+          "rank": 6
+        },
+        {
+          "food": "salmon",
+          "rank": 7
+        }
+      ]
+    },
+    {
+      "target": "BRS5-FM3-PM7|linoleic-acid",
+      "shared_panel_rankings": [
+        {
+          "food": "early-harvest-olive-oil",
+          "rank": 10,
+          "observation": "docs/foods/early-harvest-olive-oil.md#nutrition_per_100g/linoleic_g"
+        }
+      ],
+      "after": [
+        {
+          "food": "soy-lecithin",
+          "rank": 1
+        },
+        {
+          "food": "tahini",
+          "rank": 2
+        },
+        {
+          "food": "sunflower-seeds",
+          "rank": 3
+        },
+        {
+          "food": "sesame-seeds",
+          "rank": 4
+        },
+        {
+          "food": "pumpkin-seeds",
+          "rank": 5
+        },
+        {
+          "food": "peanuts",
+          "rank": 6
+        },
+        {
+          "food": "pistachios",
+          "rank": 7
+        },
+        {
+          "food": "avocado-oil",
+          "rank": 8
+        },
+        {
+          "food": "soy",
+          "rank": 9
+        },
+        {
+          "food": "cashews",
+          "rank": 10
+        }
+      ]
+    }
+  ]
+}

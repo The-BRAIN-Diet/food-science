@@ -1000,7 +1000,7 @@
           "froese_vitamin_2019"
         ]
       },
-      "preparation": null,
+      "preparation": "frozen",
       "delivery": "precursor-source",
       "conversion_pathway": [],
       "limitations": [
@@ -1676,7 +1676,7 @@
           "froese_vitamin_2019"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "precursor-source",
       "conversion_pathway": [],
       "limitations": [
@@ -2315,7 +2315,7 @@
           "froese_vitamin_2019"
         ]
       },
-      "preparation": null,
+      "preparation": "frozen",
       "delivery": "precursor-source",
       "conversion_pathway": [],
       "limitations": [
@@ -2792,7 +2792,7 @@
           "froese_vitamin_2019"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "precursor-source",
       "conversion_pathway": [],
       "limitations": [
@@ -2896,7 +2896,7 @@
           "froese_vitamin_2019"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "precursor-source",
       "conversion_pathway": [],
       "limitations": [
@@ -3748,7 +3748,7 @@
           "wolthers_msr_flavins_2007"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "precursor-source",
       "conversion_pathway": [
         {
@@ -4550,7 +4550,7 @@
           "evans_betaine_2002"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "precursor-source",
       "conversion_pathway": [],
       "limitations": [
@@ -5147,7 +5147,7 @@
           "breksa_zinc_1999"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -5518,7 +5518,7 @@
           "breksa_zinc_1999"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -5571,7 +5571,7 @@
           "breksa_zinc_1999"
         ]
       },
-      "preparation": null,
+      "preparation": "frozen",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -5860,8 +5860,8 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
-      "food_target": "lupin-beans",
-      "food_title": "Lupin Beans",
+      "food_target": "lupins",
+      "food_title": "Lupins",
       "food_material": "Lupins, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -5870,7 +5870,7 @@
       "mapping_status": "verified",
       "food_evidence": [
         {
-          "record": "docs/foods/lupin-beans.md#substance_relationships/Zinc",
+          "record": "docs/foods/lupins.md#substance_relationships/Zinc",
           "evidence": "USDA SR Legacy April 2018",
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
@@ -6472,7 +6472,7 @@
           "breksa_zinc_1999"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -6949,7 +6949,7 @@
           "murray_crystallography_2016"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -7470,7 +7470,7 @@
           "murray_crystallography_2016"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -7730,7 +7730,7 @@
           "murray_crystallography_2016"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -7962,8 +7962,8 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
-      "food_target": "lupin-beans",
-      "food_title": "Lupin Beans",
+      "food_target": "lupins",
+      "food_title": "Lupins",
       "food_material": "Lupins, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -7972,7 +7972,7 @@
       "mapping_status": "verified",
       "food_evidence": [
         {
-          "record": "docs/foods/lupin-beans.md#substance_relationships/Magnesium",
+          "record": "docs/foods/lupins.md#substance_relationships/Magnesium",
           "evidence": "USDA SR Legacy April 2018",
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
@@ -8354,7 +8354,7 @@
           "murray_crystallography_2016"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -10217,13 +10217,13 @@
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
           "source_reference": "#food-source-8",
           "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-          "preparation": null,
+          "preparation": "salted",
           "record": "docs/foods/salmon-roe.md#nutrition_per_100g/potassium_mg",
           "source_record": "docs/foods/salmon-roe.md#nutrition_source",
           "verified": true,
           "id": "docs/foods/salmon-roe.md#nutrition_per_100g/potassium_mg",
-          "rank_eligible": false,
-          "comparison_group": null,
+          "rank_eligible": true,
+          "comparison_group": "edible::salted",
           "low": 210,
           "high": 210,
           "display": "210 mg"
@@ -10237,13 +10237,13 @@
           "murray_crystallography_2016"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
         "Human MAT structures establish the specific ion relationship. Physiological potassium homeostasis and tissue uptake intervene; no claim that extra dietary potassium raises SAM flux or improves methylation is established."
       ],
-      "missing_ontology_edge": "salmon-roe → potassium [Chum salmon (Oncorhynchus keta), salted roe (ikura); preparation unresolved]"
+      "missing_ontology_edge": "salmon-roe → potassium [Chum salmon (Oncorhynchus keta), salted roe (ikura); salted]"
     },
     {
       "brs": "BRS2",
@@ -10449,7 +10449,7 @@
           "finkelstein_homocysteine_1998"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -11149,7 +11149,7 @@
           "collaboration_lowering_1998"
         ]
       },
-      "preparation": null,
+      "preparation": "frozen",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -11864,7 +11864,7 @@
           "collaboration_lowering_1998"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -12532,7 +12532,7 @@
           "collaboration_lowering_1998"
         ]
       },
-      "preparation": null,
+      "preparation": "frozen",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -13025,7 +13025,7 @@
           "collaboration_lowering_1998"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -13133,7 +13133,7 @@
           "collaboration_lowering_1998"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -14017,7 +14017,7 @@
           "lamers_vitamin_b6_methionine_cycle_2011"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -14659,7 +14659,7 @@
           "finkelstein_homocysteine_1998"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -15723,7 +15723,7 @@
           "lamers_vitamin_b6_methionine_cycle_2011"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "precursor-source",
       "conversion_pathway": [],
       "limitations": [
@@ -16734,7 +16734,7 @@
           "polekhina_gss_1999"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -16994,7 +16994,7 @@
           "polekhina_gss_1999"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -17226,8 +17226,8 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
-      "food_target": "lupin-beans",
-      "food_title": "Lupin Beans",
+      "food_target": "lupins",
+      "food_title": "Lupins",
       "food_material": "Lupins, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -17236,7 +17236,7 @@
       "mapping_status": "verified",
       "food_evidence": [
         {
-          "record": "docs/foods/lupin-beans.md#substance_relationships/Magnesium",
+          "record": "docs/foods/lupins.md#substance_relationships/Magnesium",
           "evidence": "USDA SR Legacy April 2018",
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
@@ -17618,7 +17618,7 @@
           "polekhina_gss_1999"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -18469,7 +18469,7 @@
           "courtney_martin_cysteine_2008"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "precursor-source",
       "conversion_pathway": [],
       "limitations": [
@@ -18927,7 +18927,7 @@
           "bockmann_choline_supplements_2023"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -19447,7 +19447,7 @@
           "bockmann_choline_supplements_2023"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "precursor-source",
       "conversion_pathway": [],
       "limitations": [
@@ -19931,7 +19931,7 @@
           "asiriwardhana_methionine_transmethylation_2025"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "precursor-source",
       "conversion_pathway": [
         {

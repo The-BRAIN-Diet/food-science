@@ -1,3 +1,4 @@
+import * as rankedFoodSources from '../src/data/rankedFoodSources.mjs';
 import * as foodTargetTraceability from '../src/lib/foodTargetTraceability.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -585,7 +586,7 @@ test('C1 end-to-end: disposable canonical fixtures → BRS4 JSON → qualified P
  const rendererFile=path.join(root,'src/lib/pmInputFoodDisclosure.ts');
  const mod=new Module(rendererFile),require=createRequire(rendererFile);
  mod.filename=rendererFile;
- mod.require=id=>id.endsWith('inputMappingScopes.mjs')?{__esModule:true,default:{BRS4:snapshot}}:id.endsWith('inputSubstanceFoodSelection.mjs')?foodSelection:id.endsWith('foodTargetTraceability.mjs')?foodTargetTraceability:id.endsWith('aggregateFoodComposition.mjs')?aggregateFoodComposition:id.endsWith('relatedSubstanceRelationships.mjs')?relatedSubstanceRelationships:require(id);
+ mod.require=id=>id.endsWith('rankedFoodSources.mjs') ? rankedFoodSources : id.endsWith('relatedSubstanceRelationships.mjs') ? relatedSubstanceRelationships : id.endsWith('inputMappingScopes.mjs')?{__esModule:true,default:{BRS4:snapshot}}:id.endsWith('inputSubstanceFoodSelection.mjs')?foodSelection:id.endsWith('foodTargetTraceability.mjs')?foodTargetTraceability:id.endsWith('aggregateFoodComposition.mjs')?aggregateFoodComposition:id.endsWith('relatedSubstanceRelationships.mjs')?relatedSubstanceRelationships:require(id);
  mod._compile(ts.transpileModule(fs.readFileSync(rendererFile,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText,rendererFile);
  const {selectFoodDisclosureSources,renderFoodSourceSummary,renderProvenance}=mod.exports;
  const forms=snapshot.food_sources.filter(f=>['nicotinamide','nicotinic-acid'].includes(f.substance_id));

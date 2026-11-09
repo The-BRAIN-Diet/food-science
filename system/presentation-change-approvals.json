@@ -808,5 +808,95 @@
     "contract": "system/primary-mechanism-schema.md",
     "example": "docs/biological-targets/brs-x/circadian/circadian-rhythm-regulation.md",
     "scope": "Circadian hub list entry for BRS-X(Circadian-FM1-PM3) only. No new hub component."
+  },
+  {
+    "file": "static/explore/food-wheel/index.html",
+    "sha256": "efcf2dd724e6a7291ed21cbfc63b814929d5488b0a2e05c2d36cea54149cfd97",
+    "author_approval": "Top-ten Food Wheel experiment; draft GitHub PR and Netlify preview only. No merge or production deployment.",
+    "approval_source": "Author instruction in this conversation, 9 November 2026: change maximum from five to ten while preserving threshold, comparability, canonical records and admissions.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/report.md",
+    "contract": "system/food-wheel-presentation-contract.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing standalone Food Wheel route and supporting assets only; no canonical pages, deep-linking or PM integration."
+  },
+  {
+    "file": "static/explore/food-wheel/food-wheel.svg",
+    "sha256": "46877051beedb8b4a9f3ddec54dabb9dd203b299e0b17b4b97872cb00a317026",
+    "author_approval": "Top-ten Food Wheel experiment; draft GitHub PR and Netlify preview only. No merge or production deployment.",
+    "approval_source": "Author instruction in this conversation, 9 November 2026: change maximum from five to ten while preserving threshold, comparability, canonical records and admissions.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/report.md",
+    "contract": "system/food-wheel-presentation-contract.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing standalone Food Wheel route and supporting assets only; no canonical pages, deep-linking or PM integration."
+  },
+  {
+    "file": "static/explore/food-wheel/about.html",
+    "sha256": "239b07812680a16655383603cc7b38357a20c858f46deab03f971760909d0633",
+    "author_approval": "Top-ten Food Wheel experiment; draft GitHub PR and Netlify preview only. No merge or production deployment.",
+    "approval_source": "Author instruction in this conversation, 9 November 2026: change maximum from five to ten while preserving threshold, comparability, canonical records and admissions.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/report.md",
+    "contract": "system/food-wheel-presentation-contract.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing standalone Food Wheel route and supporting assets only; no canonical pages, deep-linking or PM integration."
+  },
+  {
+    "file": "docs/foods/lupins.md",
+    "sha256": "560c3f9955113fc8d7c06e651b65ef28c72065ebcb178eebe0a7627823e8f49c",
+    "author_approval": "Shared top-ten PM/Food Wheel preview and authorised lupin identity consolidation; no merge or production deployment.",
+    "approval_source": "Owner instructions 9 November 2026: implement shared selector; retain lupins and retire duplicate lupin-beans with redirects; preserve four oil/cocoa identities; attribute cocoa only and retain oil hold; reconcile counts and run release checks.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/TOP-TEN-COVERAGE-RECONCILIATION.md",
+    "contract": "system/input-substance-food-mapping.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing PM ranked-food dropdowns and standalone Food Wheel, same ten qualifying foods before grouping. Lupin identity correction only. No new scientific admissions, panels or unrelated page edits."
+  },
+  {
+    "file": "docs/foods/lupin-beans.md",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "author_approval": "Shared top-ten PM/Food Wheel preview and authorised lupin identity consolidation; no merge or production deployment.",
+    "approval_source": "Owner instructions 9 November 2026: implement shared selector; retain lupins and retire duplicate lupin-beans with redirects; preserve four oil/cocoa identities; attribute cocoa only and retain oil hold; reconcile counts and run release checks.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/TOP-TEN-COVERAGE-RECONCILIATION.md",
+    "contract": "system/input-substance-food-mapping.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing PM ranked-food dropdowns and standalone Food Wheel, same ten qualifying foods before grouping. Lupin identity correction only. No new scientific admissions, panels or unrelated page edits."
+  },
+  {
+    "file": "src/lib/pmInputFoodDisclosure.ts",
+    "sha256": "4f4ccdec85fd081db85a70557795a25188788cc4255ee9d0ad2bb4b1fc570c45",
+    "author_approval": "Shared top-ten PM/Food Wheel preview and authorised lupin identity consolidation; no merge or production deployment.",
+    "approval_source": "Owner instructions 9 November 2026: implement shared selector; retain lupins and retire duplicate lupin-beans with redirects; preserve four oil/cocoa identities; attribute cocoa only and retain oil hold; reconcile counts and run release checks.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/TOP-TEN-COVERAGE-RECONCILIATION.md",
+    "contract": "system/input-substance-food-mapping.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing PM ranked-food dropdowns and standalone Food Wheel, same ten qualifying foods before grouping. Lupin identity correction only. No new scientific admissions, panels or unrelated page edits."
+  },
+  {
+    "file": "static/explore/food-wheel/index.html",
+    "sha256": "d2eb01a67df47f39dfeeaa303ee619d693260f34778a0c5f08e74382fc1ae426",
+    "author_approval": "Shared top-ten PM/Food Wheel preview and authorised lupin identity consolidation; no merge or production deployment.",
+    "approval_source": "Owner instructions 9 November 2026: implement shared selector; retain lupins and retire duplicate lupin-beans with redirects; preserve four oil/cocoa identities; attribute cocoa only and retain oil hold; reconcile counts and run release checks.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/TOP-TEN-COVERAGE-RECONCILIATION.md",
+    "contract": "system/input-substance-food-mapping.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing PM ranked-food dropdowns and standalone Food Wheel, same ten qualifying foods before grouping. Lupin identity correction only. No new scientific admissions, panels or unrelated page edits."
+  },
+  {
+    "file": "static/explore/food-wheel/food-wheel.svg",
+    "sha256": "ded5b60e9423beff55845103922046c0b0aa60d47973475098323b7ac6088e26",
+    "author_approval": "Shared top-ten PM/Food Wheel preview and authorised lupin identity consolidation; no merge or production deployment.",
+    "approval_source": "Owner instructions 9 November 2026: implement shared selector; retain lupins and retire duplicate lupin-beans with redirects; preserve four oil/cocoa identities; attribute cocoa only and retain oil hold; reconcile counts and run release checks.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/TOP-TEN-COVERAGE-RECONCILIATION.md",
+    "contract": "system/input-substance-food-mapping.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing PM ranked-food dropdowns and standalone Food Wheel, same ten qualifying foods before grouping. Lupin identity correction only. No new scientific admissions, panels or unrelated page edits."
+  },
+  {
+    "file": "static/explore/food-wheel/about.html",
+    "sha256": "3723b3f690c73fc0538feb4c930e12ac6bdaea12d7ca94683815b31376e363da",
+    "author_approval": "Shared top-ten PM/Food Wheel preview and authorised lupin identity consolidation; no merge or production deployment.",
+    "approval_source": "Owner instructions 9 November 2026: implement shared selector; retain lupins and retire duplicate lupin-beans with redirects; preserve four oil/cocoa identities; attribute cocoa only and retain oil hold; reconcile counts and run release checks.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/TOP-TEN-COVERAGE-RECONCILIATION.md",
+    "contract": "system/input-substance-food-mapping.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing PM ranked-food dropdowns and standalone Food Wheel, same ten qualifying foods before grouping. Lupin identity correction only. No new scientific admissions, panels or unrelated page edits."
   }
 ]

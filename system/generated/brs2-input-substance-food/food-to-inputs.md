@@ -82,8 +82,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Lentils | 8 | cysteine; zinc; vitamin-b9; vitamin-b6; choline; vitamin-b2; magnesium; potassium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Lion's Mane Mushroom | 5 | magnesium; potassium; zinc; vitamin-b6; vitamin-b9 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Liver | 9 | cysteine; choline; vitamin-b12; vitamin-b9; potassium; zinc; vitamin-b6; vitamin-b2; magnesium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
-| Lupin Beans | 6 | magnesium; zinc; vitamin-b2; vitamin-b9; potassium; vitamin-b6 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
-| Lupins | 5 | magnesium; potassium; zinc; vitamin-b6; vitamin-b9 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
+| Lupins | 6 | magnesium; zinc; potassium; vitamin-b6; vitamin-b9; vitamin-b2 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Mackerel | 8 | choline; potassium; zinc; vitamin-b6; magnesium; vitamin-b2; vitamin-b9; vitamin-b12 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Maitake Mushroom | 7 | zinc; magnesium; vitamin-b9; choline; vitamin-b2; potassium; vitamin-b6 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Milk | 10 | magnesium; potassium; zinc; vitamin-b12; vitamin-b2; uridine; pyridoxal-5-phosphate; choline; vitamin-b9; vitamin-b6 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |

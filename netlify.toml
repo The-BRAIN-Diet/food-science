@@ -182,3 +182,16 @@
   to = "/docs/recipes/side-dishes/:splat/"
   status = 301
   force = true
+
+# Author-approved lupin identity consolidation.
+[[redirects]]
+  from = "/docs/foods/lupin-beans"
+  to = "/docs/foods/lupins/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/foods/lupin-beans/"
+  to = "/docs/foods/lupins/"
+  status = 301
+  force = true

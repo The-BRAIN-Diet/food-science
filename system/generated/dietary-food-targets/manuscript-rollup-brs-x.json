@@ -201,7 +201,7 @@
           "magotti_nape_pld_2015"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -565,7 +565,7 @@
           "magotti_nape_pld_2015"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -617,7 +617,7 @@
           "magotti_nape_pld_2015"
         ]
       },
-      "preparation": null,
+      "preparation": "frozen",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -901,8 +901,8 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
-      "food_target": "lupin-beans",
-      "food_title": "Lupin Beans",
+      "food_target": "lupins",
+      "food_title": "Lupins",
       "food_material": "Lupins, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -911,7 +911,7 @@
       "mapping_status": "verified",
       "food_evidence": [
         {
-          "record": "docs/foods/lupin-beans.md#substance_relationships/Zinc",
+          "record": "docs/foods/lupins.md#substance_relationships/Zinc",
           "evidence": "USDA SR Legacy April 2018",
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
@@ -1501,7 +1501,7 @@
           "magotti_nape_pld_2015"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -1865,7 +1865,7 @@
           "kevala_synaptamide_precursors_2020"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -2229,7 +2229,7 @@
           "kevala_synaptamide_precursors_2020"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -2333,7 +2333,7 @@
           "kevala_synaptamide_precursors_2020"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -2543,7 +2543,7 @@
           "yang_omega3_endocannabinoids_2019"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -2914,7 +2914,7 @@
           "yang_omega3_endocannabinoids_2019"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -3020,7 +3020,7 @@
           "yang_omega3_endocannabinoids_2019"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -3326,7 +3326,7 @@
           "shaffer_androgen_dbd_2004"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -3676,7 +3676,7 @@
           "shaffer_androgen_dbd_2004"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -3726,7 +3726,7 @@
           "shaffer_androgen_dbd_2004"
         ]
       },
-      "preparation": null,
+      "preparation": "frozen",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -4000,8 +4000,8 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
-      "food_target": "lupin-beans",
-      "food_title": "Lupin Beans",
+      "food_target": "lupins",
+      "food_title": "Lupins",
       "food_material": "Lupins, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -4010,7 +4010,7 @@
       "mapping_status": "verified",
       "food_evidence": [
         {
-          "record": "docs/foods/lupin-beans.md#substance_relationships/Zinc",
+          "record": "docs/foods/lupins.md#substance_relationships/Zinc",
           "evidence": "USDA SR Legacy April 2018",
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
@@ -4576,7 +4576,7 @@
           "shaffer_androgen_dbd_2004"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
