@@ -1,6 +1,6 @@
 # Shared PM/Wheel ranked sources
 
-Snapshot: 22c5855e87167bd33a6dbfc10bf48087c1186a550afe80e2a480d1b834579d35
+Snapshot: f76bb11abb3b4f0593437f1a291d0dd3bfe2ce2de9717cda9c33670ec4ec9d17
 
 Provisional source power ≥10%; up to ten; no padding. Original quantities, states and sources retained.
 
@@ -55,13 +55,27 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS1-FM1-PM1|indispensable-amino-acids|peanuts|10|57.27944034201321|7.369 g per 100 g edible portion|dry-roasted|https://fdc.nal.usda.gov/food-details/173806/nutrients|
 |BRS1-FM1-PM1|tryptophan|soy|1|100|0.591 g per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/tryptophan_g|
 |BRS1-FM1-PM1|tryptophan|pumpkin-seeds|2|97.46192893401016|0.576 g per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/tryptophan_g|
-|BRS1-FM1-PM1|tryptophan|turkey|3|40.77834179357022|0.241 g per 100 g edible portion|raw|docs/foods/turkey.md#nutrition_per_100g/tryptophan_g|
+|BRS1-FM1-PM1|tryptophan|cheddar-cheese|3|92.55499153976311|0.547 g per 100 g edible portion|cheddar|https://fdc.nal.usda.gov/food-details/173414/nutrients|
+|BRS1-FM1-PM1|tryptophan|chicken|4|61.25211505922166|0.362 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171477/nutrients|
+|BRS1-FM1-PM1|tryptophan|sunflower-seeds|5|58.88324873096447|0.348 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170562/nutrients|
+|BRS1-FM1-PM1|tryptophan|turkey|6|48.56175972927242|0.287 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171496/nutrients|
+|BRS1-FM1-PM1|tryptophan|sardines|7|46.7005076142132|0.276 g per 100 g edible portion|canned, drained|https://fdc.nal.usda.gov/food-details/175139/nutrients|
+|BRS1-FM1-PM1|tryptophan|mussels|8|45.17766497461929|0.267 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/174217/nutrients|
+|BRS1-FM1-PM1|tryptophan|tofu|9|39.76311336717428|0.235 g per 100 g edible portion|firm, calcium-set|https://fdc.nal.usda.gov/food-details/172475/nutrients|
+|BRS1-FM1-PM1|tryptophan|peanuts|10|38.917089678511|0.23 g per 100 g edible portion|dry-roasted|https://fdc.nal.usda.gov/food-details/173806/nutrients|
 |BRS1-FM1-PM1|tyrosine|soy|1|100|1.539 g per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/tyrosine_g|
 |BRS1-FM1-PM1|tyrosine|pumpkin-seeds|2|71.02014294996751|1.093 g per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/tyrosine_g|
 |BRS1-FM1-PM1|tyrosine|tofu|3|45.54905782975958|0.701 g per 100 g edible portion|raw|docs/foods/tofu.md#nutrition_per_100g/tyrosine_g|
 |BRS1-FM1-PM2|tryptophan|soy|1|100|0.591 g per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/tryptophan_g|
 |BRS1-FM1-PM2|tryptophan|pumpkin-seeds|2|97.46192893401016|0.576 g per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/tryptophan_g|
-|BRS1-FM1-PM2|tryptophan|turkey|3|40.77834179357022|0.241 g per 100 g edible portion|raw|docs/foods/turkey.md#nutrition_per_100g/tryptophan_g|
+|BRS1-FM1-PM2|tryptophan|cheddar-cheese|3|92.55499153976311|0.547 g per 100 g edible portion|cheddar|https://fdc.nal.usda.gov/food-details/173414/nutrients|
+|BRS1-FM1-PM2|tryptophan|chicken|4|61.25211505922166|0.362 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171477/nutrients|
+|BRS1-FM1-PM2|tryptophan|sunflower-seeds|5|58.88324873096447|0.348 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170562/nutrients|
+|BRS1-FM1-PM2|tryptophan|turkey|6|48.56175972927242|0.287 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171496/nutrients|
+|BRS1-FM1-PM2|tryptophan|sardines|7|46.7005076142132|0.276 g per 100 g edible portion|canned, drained|https://fdc.nal.usda.gov/food-details/175139/nutrients|
+|BRS1-FM1-PM2|tryptophan|mussels|8|45.17766497461929|0.267 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/174217/nutrients|
+|BRS1-FM1-PM2|tryptophan|tofu|9|39.76311336717428|0.235 g per 100 g edible portion|firm, calcium-set|https://fdc.nal.usda.gov/food-details/172475/nutrients|
+|BRS1-FM1-PM2|tryptophan|peanuts|10|38.917089678511|0.23 g per 100 g edible portion|dry-roasted|https://fdc.nal.usda.gov/food-details/173806/nutrients|
 |BRS1-FM1-PM2|tyrosine|soy|1|100|1.539 g per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/tyrosine_g|
 |BRS1-FM1-PM2|tyrosine|pumpkin-seeds|2|71.02014294996751|1.093 g per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/tyrosine_g|
 |BRS1-FM1-PM2|tyrosine|tofu|3|45.54905782975958|0.701 g per 100 g edible portion|raw|docs/foods/tofu.md#nutrition_per_100g/tyrosine_g|
@@ -90,6 +104,16 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS1-FM1-PM3|magnesium|oregano|8|45.608108108108105|270 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/magnesium_mg|
 |BRS1-FM1-PM3|magnesium|amaranth|9|41.891891891891895|248 mg per 100 g edible portion|uncooked|docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg|
 |BRS1-FM1-PM3|magnesium|thyme|10|37.16216216216216|220 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM3|phenylalanine|pumpkin-seeds|1|100|1.733 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170556/nutrients|
+|BRS1-FM1-PM3|phenylalanine|chicken|2|71.0328909405655|1.231 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171477/nutrients|
+|BRS1-FM1-PM3|phenylalanine|peanuts|3|70.80207732256203|1.227 g per 100 g edible portion|dry-roasted|https://fdc.nal.usda.gov/food-details/173806/nutrients|
+|BRS1-FM1-PM3|phenylalanine|sunflower-seeds|4|67.45527986151183|1.169 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170562/nutrients|
+|BRS1-FM1-PM3|phenylalanine|almonds|5|65.32025389497981|1.132 g per 100 g edible portion|raw|https://fdc.nal.usda.gov/food-details/170567/nutrients|
+|BRS1-FM1-PM3|phenylalanine|cheddar-cheese|6|61.9734564339296|1.074 g per 100 g edible portion|cheddar|https://fdc.nal.usda.gov/food-details/173414/nutrients|
+|BRS1-FM1-PM3|phenylalanine|sardines|7|55.45297172533179|0.961 g per 100 g edible portion|canned, drained|https://fdc.nal.usda.gov/food-details/175139/nutrients|
+|BRS1-FM1-PM3|phenylalanine|turkey|8|50.14425851125216|0.869 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171496/nutrients|
+|BRS1-FM1-PM3|phenylalanine|mussels|9|49.221004039238316|0.853 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/174217/nutrients|
+|BRS1-FM1-PM3|phenylalanine|tofu|10|48.18234275822274|0.835 g per 100 g edible portion|firm, calcium-set|https://fdc.nal.usda.gov/food-details/172475/nutrients|
 |BRS1-FM1-PM3|tyrosine|soy|1|100|1.539 g per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/tyrosine_g|
 |BRS1-FM1-PM3|tyrosine|pumpkin-seeds|2|71.02014294996751|1.093 g per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/tyrosine_g|
 |BRS1-FM1-PM3|tyrosine|tofu|3|45.54905782975958|0.701 g per 100 g edible portion|raw|docs/foods/tofu.md#nutrition_per_100g/tyrosine_g|
@@ -158,6 +182,16 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS1-FM1-PM4|magnesium|oregano|8|45.608108108108105|270 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/magnesium_mg|
 |BRS1-FM1-PM4|magnesium|amaranth|9|41.891891891891895|248 mg per 100 g edible portion|uncooked|docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg|
 |BRS1-FM1-PM4|magnesium|thyme|10|37.16216216216216|220 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM4|phenylalanine|pumpkin-seeds|1|100|1.733 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170556/nutrients|
+|BRS1-FM1-PM4|phenylalanine|chicken|2|71.0328909405655|1.231 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171477/nutrients|
+|BRS1-FM1-PM4|phenylalanine|peanuts|3|70.80207732256203|1.227 g per 100 g edible portion|dry-roasted|https://fdc.nal.usda.gov/food-details/173806/nutrients|
+|BRS1-FM1-PM4|phenylalanine|sunflower-seeds|4|67.45527986151183|1.169 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170562/nutrients|
+|BRS1-FM1-PM4|phenylalanine|almonds|5|65.32025389497981|1.132 g per 100 g edible portion|raw|https://fdc.nal.usda.gov/food-details/170567/nutrients|
+|BRS1-FM1-PM4|phenylalanine|cheddar-cheese|6|61.9734564339296|1.074 g per 100 g edible portion|cheddar|https://fdc.nal.usda.gov/food-details/173414/nutrients|
+|BRS1-FM1-PM4|phenylalanine|sardines|7|55.45297172533179|0.961 g per 100 g edible portion|canned, drained|https://fdc.nal.usda.gov/food-details/175139/nutrients|
+|BRS1-FM1-PM4|phenylalanine|turkey|8|50.14425851125216|0.869 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171496/nutrients|
+|BRS1-FM1-PM4|phenylalanine|mussels|9|49.221004039238316|0.853 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/174217/nutrients|
+|BRS1-FM1-PM4|phenylalanine|tofu|10|48.18234275822274|0.835 g per 100 g edible portion|firm, calcium-set|https://fdc.nal.usda.gov/food-details/172475/nutrients|
 |BRS1-FM1-PM4|tyrosine|soy|1|100|1.539 g per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/tyrosine_g|
 |BRS1-FM1-PM4|tyrosine|pumpkin-seeds|2|71.02014294996751|1.093 g per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/tyrosine_g|
 |BRS1-FM1-PM4|tyrosine|tofu|3|45.54905782975958|0.701 g per 100 g edible portion|raw|docs/foods/tofu.md#nutrition_per_100g/tyrosine_g|
@@ -210,7 +244,14 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS1-FM1-PM5|iron|cocoa|7|11.21359223300971|13.86 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/iron_mg|
 |BRS1-FM1-PM5|tryptophan|soy|1|100|0.591 g per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/tryptophan_g|
 |BRS1-FM1-PM5|tryptophan|pumpkin-seeds|2|97.46192893401016|0.576 g per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/tryptophan_g|
-|BRS1-FM1-PM5|tryptophan|turkey|3|40.77834179357022|0.241 g per 100 g edible portion|raw|docs/foods/turkey.md#nutrition_per_100g/tryptophan_g|
+|BRS1-FM1-PM5|tryptophan|cheddar-cheese|3|92.55499153976311|0.547 g per 100 g edible portion|cheddar|https://fdc.nal.usda.gov/food-details/173414/nutrients|
+|BRS1-FM1-PM5|tryptophan|chicken|4|61.25211505922166|0.362 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171477/nutrients|
+|BRS1-FM1-PM5|tryptophan|sunflower-seeds|5|58.88324873096447|0.348 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170562/nutrients|
+|BRS1-FM1-PM5|tryptophan|turkey|6|48.56175972927242|0.287 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171496/nutrients|
+|BRS1-FM1-PM5|tryptophan|sardines|7|46.7005076142132|0.276 g per 100 g edible portion|canned, drained|https://fdc.nal.usda.gov/food-details/175139/nutrients|
+|BRS1-FM1-PM5|tryptophan|mussels|8|45.17766497461929|0.267 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/174217/nutrients|
+|BRS1-FM1-PM5|tryptophan|tofu|9|39.76311336717428|0.235 g per 100 g edible portion|firm, calcium-set|https://fdc.nal.usda.gov/food-details/172475/nutrients|
+|BRS1-FM1-PM5|tryptophan|peanuts|10|38.917089678511|0.23 g per 100 g edible portion|dry-roasted|https://fdc.nal.usda.gov/food-details/173806/nutrients|
 |BRS1-FM1-PM5|vitamin-b2|spirulina|1|100|3.67 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/vitamin_b2_mg|
 |BRS1-FM1-PM5|vitamin-b2|kidney|2|77.3841961852861|2.84 mg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/vitamin_b2_mg|
 |BRS1-FM1-PM5|vitamin-b2|liver|3|75.06811989100818|2.755 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_b2_mg|
@@ -425,10 +466,15 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS2-FM1-PM3|magnesium|amaranth|9|41.891891891891895|248 mg per 100 g edible portion|uncooked|docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg|
 |BRS2-FM1-PM3|magnesium|thyme|10|37.16216216216216|220 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/magnesium_mg|
 |BRS2-FM1-PM3|methionine|sardines|1|100|1.086 g per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/methionine_g|
-|BRS2-FM1-PM3|methionine|tuna|2|63.53591160220995|0.69 g per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/methionine_g|
-|BRS2-FM1-PM3|methionine|salmon|3|57.6427255985267|0.626 g per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/methionine_g|
-|BRS2-FM1-PM3|methionine|chicken|4|45.39594843462247|0.493 g per 100 g edible portion|raw|docs/foods/chicken.md#nutrition_per_100g/methionine_g|
-|BRS2-FM1-PM3|methionine|eggs|5|34.99079189686925|0.38 g per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/methionine_g|
+|BRS2-FM1-PM3|methionine|chicken|2|79.09760589318601|0.859 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171477/nutrients|
+|BRS2-FM1-PM3|methionine|turkey|3|64.9171270718232|0.705 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171496/nutrients|
+|BRS2-FM1-PM3|methionine|tuna|4|63.53591160220995|0.69 g per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/methionine_g|
+|BRS2-FM1-PM3|methionine|salmon|5|57.6427255985267|0.626 g per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/methionine_g|
+|BRS2-FM1-PM3|methionine|pumpkin-seeds|6|55.52486187845304|0.603 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170556/nutrients|
+|BRS2-FM1-PM3|methionine|cheddar-cheese|7|50.3683241252302|0.547 g per 100 g edible portion|cheddar|https://fdc.nal.usda.gov/food-details/173414/nutrients|
+|BRS2-FM1-PM3|methionine|mussels|8|49.447513812154696|0.537 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/174217/nutrients|
+|BRS2-FM1-PM3|methionine|sunflower-seeds|9|45.48802946593002|0.494 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170562/nutrients|
+|BRS2-FM1-PM3|methionine|eggs|10|36.095764272559855|0.392 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/173424/nutrients|
 |BRS2-FM1-PM3|potassium|soy|1|100|1797 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/potassium_mg|
 |BRS2-FM1-PM3|potassium|cocoa|2|84.80801335559266|1524 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/potassium_mg|
 |BRS2-FM1-PM3|potassium|black-beans|3|82.52643294379521|1483 mg per 100 g edible portion|raw|docs/foods/black-beans.md#nutrition_per_100g/potassium_mg|
@@ -458,10 +504,15 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS2-FM1-PM4|choline|lentils|7|11.753230919287978|96.4 mg per 100 g edible portion|raw|docs/foods/lentils.md#nutrition_per_100g/choline_mg|
 |BRS2-FM1-PM4|choline|anchovies|8|10.36332601804438|85 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/choline_mg|
 |BRS2-FM1-PM4|methionine|sardines|1|100|1.086 g per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/methionine_g|
-|BRS2-FM1-PM4|methionine|tuna|2|63.53591160220995|0.69 g per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/methionine_g|
-|BRS2-FM1-PM4|methionine|salmon|3|57.6427255985267|0.626 g per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/methionine_g|
-|BRS2-FM1-PM4|methionine|chicken|4|45.39594843462247|0.493 g per 100 g edible portion|raw|docs/foods/chicken.md#nutrition_per_100g/methionine_g|
-|BRS2-FM1-PM4|methionine|eggs|5|34.99079189686925|0.38 g per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/methionine_g|
+|BRS2-FM1-PM4|methionine|chicken|2|79.09760589318601|0.859 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171477/nutrients|
+|BRS2-FM1-PM4|methionine|turkey|3|64.9171270718232|0.705 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171496/nutrients|
+|BRS2-FM1-PM4|methionine|tuna|4|63.53591160220995|0.69 g per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/methionine_g|
+|BRS2-FM1-PM4|methionine|salmon|5|57.6427255985267|0.626 g per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/methionine_g|
+|BRS2-FM1-PM4|methionine|pumpkin-seeds|6|55.52486187845304|0.603 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170556/nutrients|
+|BRS2-FM1-PM4|methionine|cheddar-cheese|7|50.3683241252302|0.547 g per 100 g edible portion|cheddar|https://fdc.nal.usda.gov/food-details/173414/nutrients|
+|BRS2-FM1-PM4|methionine|mussels|8|49.447513812154696|0.537 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/174217/nutrients|
+|BRS2-FM1-PM4|methionine|sunflower-seeds|9|45.48802946593002|0.494 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170562/nutrients|
+|BRS2-FM1-PM4|methionine|eggs|10|36.095764272559855|0.392 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/173424/nutrients|
 |BRS2-FM1-PM4|vitamin-b12|liver|1|100|59.3 µg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_b12_ug|
 |BRS2-FM1-PM4|vitamin-b12|salmon-roe|2|79.25801011804384|47 µg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
 |BRS2-FM1-PM4|vitamin-b12|kidney|3|46.3743676222597|27.5 µg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/vitamin_b12_ug|
@@ -503,10 +554,15 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS2-FM1-PM4|vitamin-b9|thyme|9|49.19210053859964|274 µg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/folate_ug|
 |BRS2-FM1-PM4|vitamin-b9|peanuts|10|43.08797127468581|240 µg per 100 g edible portion|raw|docs/foods/peanuts.md#nutrition_per_100g/folate_ug|
 |BRS2-FM2-PM5|methionine|sardines|1|100|1.086 g per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/methionine_g|
-|BRS2-FM2-PM5|methionine|tuna|2|63.53591160220995|0.69 g per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/methionine_g|
-|BRS2-FM2-PM5|methionine|salmon|3|57.6427255985267|0.626 g per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/methionine_g|
-|BRS2-FM2-PM5|methionine|chicken|4|45.39594843462247|0.493 g per 100 g edible portion|raw|docs/foods/chicken.md#nutrition_per_100g/methionine_g|
-|BRS2-FM2-PM5|methionine|eggs|5|34.99079189686925|0.38 g per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/methionine_g|
+|BRS2-FM2-PM5|methionine|chicken|2|79.09760589318601|0.859 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171477/nutrients|
+|BRS2-FM2-PM5|methionine|turkey|3|64.9171270718232|0.705 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171496/nutrients|
+|BRS2-FM2-PM5|methionine|tuna|4|63.53591160220995|0.69 g per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/methionine_g|
+|BRS2-FM2-PM5|methionine|salmon|5|57.6427255985267|0.626 g per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/methionine_g|
+|BRS2-FM2-PM5|methionine|pumpkin-seeds|6|55.52486187845304|0.603 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170556/nutrients|
+|BRS2-FM2-PM5|methionine|cheddar-cheese|7|50.3683241252302|0.547 g per 100 g edible portion|cheddar|https://fdc.nal.usda.gov/food-details/173414/nutrients|
+|BRS2-FM2-PM5|methionine|mussels|8|49.447513812154696|0.537 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/174217/nutrients|
+|BRS2-FM2-PM5|methionine|sunflower-seeds|9|45.48802946593002|0.494 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170562/nutrients|
+|BRS2-FM2-PM5|methionine|eggs|10|36.095764272559855|0.392 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/173424/nutrients|
 |BRS2-FM2-PM5|vitamin-b6|pistachios|1|100|1.7 mg per 100 g edible portion|raw|docs/foods/pistachios.md#nutrition_per_100g/vitamin_b6_mg|
 |BRS2-FM2-PM5|vitamin-b6|sunflower-seeds|2|79.11764705882352|1.345 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/vitamin_b6_mg|
 |BRS2-FM2-PM5|vitamin-b6|garlic|3|72.64705882352942|1.235 mg per 100 g edible portion|raw|docs/foods/garlic.md#nutrition_per_100g/vitamin_b6_mg|
@@ -528,10 +584,15 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS2-FM2-PM6|magnesium|amaranth|9|41.891891891891895|248 mg per 100 g edible portion|uncooked|docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg|
 |BRS2-FM2-PM6|magnesium|thyme|10|37.16216216216216|220 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/magnesium_mg|
 |BRS2-FM2-PM6|methionine|sardines|1|100|1.086 g per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/methionine_g|
-|BRS2-FM2-PM6|methionine|tuna|2|63.53591160220995|0.69 g per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/methionine_g|
-|BRS2-FM2-PM6|methionine|salmon|3|57.6427255985267|0.626 g per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/methionine_g|
-|BRS2-FM2-PM6|methionine|chicken|4|45.39594843462247|0.493 g per 100 g edible portion|raw|docs/foods/chicken.md#nutrition_per_100g/methionine_g|
-|BRS2-FM2-PM6|methionine|eggs|5|34.99079189686925|0.38 g per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/methionine_g|
+|BRS2-FM2-PM6|methionine|chicken|2|79.09760589318601|0.859 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171477/nutrients|
+|BRS2-FM2-PM6|methionine|turkey|3|64.9171270718232|0.705 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171496/nutrients|
+|BRS2-FM2-PM6|methionine|tuna|4|63.53591160220995|0.69 g per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/methionine_g|
+|BRS2-FM2-PM6|methionine|salmon|5|57.6427255985267|0.626 g per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/methionine_g|
+|BRS2-FM2-PM6|methionine|pumpkin-seeds|6|55.52486187845304|0.603 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170556/nutrients|
+|BRS2-FM2-PM6|methionine|cheddar-cheese|7|50.3683241252302|0.547 g per 100 g edible portion|cheddar|https://fdc.nal.usda.gov/food-details/173414/nutrients|
+|BRS2-FM2-PM6|methionine|mussels|8|49.447513812154696|0.537 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/174217/nutrients|
+|BRS2-FM2-PM6|methionine|sunflower-seeds|9|45.48802946593002|0.494 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170562/nutrients|
+|BRS2-FM2-PM6|methionine|eggs|10|36.095764272559855|0.392 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/173424/nutrients|
 |BRS2-FM3-PM7|choline|egg-yolks|1|100|820.2 mg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/choline_mg|
 |BRS2-FM3-PM7|choline|soy-lecithin|2|42.6725188978298|350 mg per 100 g edible portion|Oil|docs/foods/soy-lecithin.md#nutrition_per_100g/choline_mg|
 |BRS2-FM3-PM7|choline|liver|3|40.636430138990484|333.3 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/choline_mg|
@@ -541,10 +602,15 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS2-FM3-PM7|choline|lentils|7|11.753230919287978|96.4 mg per 100 g edible portion|raw|docs/foods/lentils.md#nutrition_per_100g/choline_mg|
 |BRS2-FM3-PM7|choline|anchovies|8|10.36332601804438|85 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/choline_mg|
 |BRS2-FM3-PM7|methionine|sardines|1|100|1.086 g per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/methionine_g|
-|BRS2-FM3-PM7|methionine|tuna|2|63.53591160220995|0.69 g per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/methionine_g|
-|BRS2-FM3-PM7|methionine|salmon|3|57.6427255985267|0.626 g per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/methionine_g|
-|BRS2-FM3-PM7|methionine|chicken|4|45.39594843462247|0.493 g per 100 g edible portion|raw|docs/foods/chicken.md#nutrition_per_100g/methionine_g|
-|BRS2-FM3-PM7|methionine|eggs|5|34.99079189686925|0.38 g per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/methionine_g|
+|BRS2-FM3-PM7|methionine|chicken|2|79.09760589318601|0.859 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171477/nutrients|
+|BRS2-FM3-PM7|methionine|turkey|3|64.9171270718232|0.705 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171496/nutrients|
+|BRS2-FM3-PM7|methionine|tuna|4|63.53591160220995|0.69 g per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/methionine_g|
+|BRS2-FM3-PM7|methionine|salmon|5|57.6427255985267|0.626 g per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/methionine_g|
+|BRS2-FM3-PM7|methionine|pumpkin-seeds|6|55.52486187845304|0.603 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170556/nutrients|
+|BRS2-FM3-PM7|methionine|cheddar-cheese|7|50.3683241252302|0.547 g per 100 g edible portion|cheddar|https://fdc.nal.usda.gov/food-details/173414/nutrients|
+|BRS2-FM3-PM7|methionine|mussels|8|49.447513812154696|0.537 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/174217/nutrients|
+|BRS2-FM3-PM7|methionine|sunflower-seeds|9|45.48802946593002|0.494 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170562/nutrients|
+|BRS2-FM3-PM7|methionine|eggs|10|36.095764272559855|0.392 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/173424/nutrients|
 |BRS2-FM3-PM7|vitamin-b9|chickpeas|1|100|557 µg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/folate_ug|
 |BRS2-FM3-PM7|vitamin-b9|lentils|2|85.99640933572711|479 µg per 100 g edible portion|raw|docs/foods/lentils.md#nutrition_per_100g/folate_ug|
 |BRS2-FM3-PM7|vitamin-b9|black-beans|3|79.71274685816876|444 µg per 100 g edible portion|raw|docs/foods/black-beans.md#nutrition_per_100g/folate_ug|
@@ -689,10 +755,15 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS4-FM1-PM10|iron|sesame-seeds|6|11.771844660194176|14.55 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/iron_mg|
 |BRS4-FM1-PM10|iron|cocoa|7|11.21359223300971|13.86 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/iron_mg|
 |BRS4-FM1-PM10|methionine|sardines|1|100|1.086 g per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/methionine_g|
-|BRS4-FM1-PM10|methionine|tuna|2|63.53591160220995|0.69 g per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/methionine_g|
-|BRS4-FM1-PM10|methionine|salmon|3|57.6427255985267|0.626 g per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/methionine_g|
-|BRS4-FM1-PM10|methionine|chicken|4|45.39594843462247|0.493 g per 100 g edible portion|raw|docs/foods/chicken.md#nutrition_per_100g/methionine_g|
-|BRS4-FM1-PM10|methionine|eggs|5|34.99079189686925|0.38 g per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/methionine_g|
+|BRS4-FM1-PM10|methionine|chicken|2|79.09760589318601|0.859 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171477/nutrients|
+|BRS4-FM1-PM10|methionine|turkey|3|64.9171270718232|0.705 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171496/nutrients|
+|BRS4-FM1-PM10|methionine|tuna|4|63.53591160220995|0.69 g per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/methionine_g|
+|BRS4-FM1-PM10|methionine|salmon|5|57.6427255985267|0.626 g per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/methionine_g|
+|BRS4-FM1-PM10|methionine|pumpkin-seeds|6|55.52486187845304|0.603 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170556/nutrients|
+|BRS4-FM1-PM10|methionine|cheddar-cheese|7|50.3683241252302|0.547 g per 100 g edible portion|cheddar|https://fdc.nal.usda.gov/food-details/173414/nutrients|
+|BRS4-FM1-PM10|methionine|mussels|8|49.447513812154696|0.537 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/174217/nutrients|
+|BRS4-FM1-PM10|methionine|sunflower-seeds|9|45.48802946593002|0.494 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170562/nutrients|
+|BRS4-FM1-PM10|methionine|eggs|10|36.095764272559855|0.392 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/173424/nutrients|
 |BRS4-FM1-PM10|tyrosine|soy|1|100|1.539 g per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/tyrosine_g|
 |BRS4-FM1-PM10|tyrosine|pumpkin-seeds|2|71.02014294996751|1.093 g per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/tyrosine_g|
 |BRS4-FM1-PM10|tyrosine|tofu|3|45.54905782975958|0.701 g per 100 g edible portion|raw|docs/foods/tofu.md#nutrition_per_100g/tyrosine_g|
@@ -735,13 +806,25 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS4-FM1-PM1|vitamin-b2|mushrooms|10|10.953678474114442|0.402 mg per 100 g edible portion|raw|docs/foods/mushrooms.md#nutrition_per_100g/vitamin_b2_mg|
 |BRS4-FM1-PM2|tryptophan|soy|1|100|0.591 g per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/tryptophan_g|
 |BRS4-FM1-PM2|tryptophan|pumpkin-seeds|2|97.46192893401016|0.576 g per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/tryptophan_g|
-|BRS4-FM1-PM2|tryptophan|turkey|3|40.77834179357022|0.241 g per 100 g edible portion|raw|docs/foods/turkey.md#nutrition_per_100g/tryptophan_g|
+|BRS4-FM1-PM2|tryptophan|cheddar-cheese|3|92.55499153976311|0.547 g per 100 g edible portion|cheddar|https://fdc.nal.usda.gov/food-details/173414/nutrients|
+|BRS4-FM1-PM2|tryptophan|chicken|4|61.25211505922166|0.362 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171477/nutrients|
+|BRS4-FM1-PM2|tryptophan|sunflower-seeds|5|58.88324873096447|0.348 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170562/nutrients|
+|BRS4-FM1-PM2|tryptophan|turkey|6|48.56175972927242|0.287 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171496/nutrients|
+|BRS4-FM1-PM2|tryptophan|sardines|7|46.7005076142132|0.276 g per 100 g edible portion|canned, drained|https://fdc.nal.usda.gov/food-details/175139/nutrients|
+|BRS4-FM1-PM2|tryptophan|mussels|8|45.17766497461929|0.267 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/174217/nutrients|
+|BRS4-FM1-PM2|tryptophan|tofu|9|39.76311336717428|0.235 g per 100 g edible portion|firm, calcium-set|https://fdc.nal.usda.gov/food-details/172475/nutrients|
+|BRS4-FM1-PM2|tryptophan|peanuts|10|38.917089678511|0.23 g per 100 g edible portion|dry-roasted|https://fdc.nal.usda.gov/food-details/173806/nutrients|
 |BRS4-FM1-PM3|arginine|lupins|1|100|3.877 g per 100 g edible portion|raw|docs/foods/lupins.md#nutrition_per_100g/arginine_g|
 |BRS4-FM1-PM3|methionine|sardines|1|100|1.086 g per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/methionine_g|
-|BRS4-FM1-PM3|methionine|tuna|2|63.53591160220995|0.69 g per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/methionine_g|
-|BRS4-FM1-PM3|methionine|salmon|3|57.6427255985267|0.626 g per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/methionine_g|
-|BRS4-FM1-PM3|methionine|chicken|4|45.39594843462247|0.493 g per 100 g edible portion|raw|docs/foods/chicken.md#nutrition_per_100g/methionine_g|
-|BRS4-FM1-PM3|methionine|eggs|5|34.99079189686925|0.38 g per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/methionine_g|
+|BRS4-FM1-PM3|methionine|chicken|2|79.09760589318601|0.859 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171477/nutrients|
+|BRS4-FM1-PM3|methionine|turkey|3|64.9171270718232|0.705 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171496/nutrients|
+|BRS4-FM1-PM3|methionine|tuna|4|63.53591160220995|0.69 g per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/methionine_g|
+|BRS4-FM1-PM3|methionine|salmon|5|57.6427255985267|0.626 g per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/methionine_g|
+|BRS4-FM1-PM3|methionine|pumpkin-seeds|6|55.52486187845304|0.603 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170556/nutrients|
+|BRS4-FM1-PM3|methionine|cheddar-cheese|7|50.3683241252302|0.547 g per 100 g edible portion|cheddar|https://fdc.nal.usda.gov/food-details/173414/nutrients|
+|BRS4-FM1-PM3|methionine|mussels|8|49.447513812154696|0.537 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/174217/nutrients|
+|BRS4-FM1-PM3|methionine|sunflower-seeds|9|45.48802946593002|0.494 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170562/nutrients|
+|BRS4-FM1-PM3|methionine|eggs|10|36.095764272559855|0.392 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/173424/nutrients|
 |BRS4-FM2-PM5|manganese|thyme|1|100|7.867 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/manganese_mg|
 |BRS4-FM2-PM5|manganese|pumpkin-seeds|2|57.747553069785184|4.543 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/manganese_mg|
 |BRS4-FM2-PM5|manganese|chickpeas|3|52.752002033812126|4.15 mg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/manganese_mg|
@@ -787,7 +870,14 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS5-FM3-PM7|linoleic-acid|cashews|10|19.366880692847545|7.782 g per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/linoleic_g|
 |BRS5-FM3-PM8|tryptophan|soy|1|100|0.591 g per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/tryptophan_g|
 |BRS5-FM3-PM8|tryptophan|pumpkin-seeds|2|97.46192893401016|0.576 g per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/tryptophan_g|
-|BRS5-FM3-PM8|tryptophan|turkey|3|40.77834179357022|0.241 g per 100 g edible portion|raw|docs/foods/turkey.md#nutrition_per_100g/tryptophan_g|
+|BRS5-FM3-PM8|tryptophan|cheddar-cheese|3|92.55499153976311|0.547 g per 100 g edible portion|cheddar|https://fdc.nal.usda.gov/food-details/173414/nutrients|
+|BRS5-FM3-PM8|tryptophan|chicken|4|61.25211505922166|0.362 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171477/nutrients|
+|BRS5-FM3-PM8|tryptophan|sunflower-seeds|5|58.88324873096447|0.348 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170562/nutrients|
+|BRS5-FM3-PM8|tryptophan|turkey|6|48.56175972927242|0.287 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171496/nutrients|
+|BRS5-FM3-PM8|tryptophan|sardines|7|46.7005076142132|0.276 g per 100 g edible portion|canned, drained|https://fdc.nal.usda.gov/food-details/175139/nutrients|
+|BRS5-FM3-PM8|tryptophan|mussels|8|45.17766497461929|0.267 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/174217/nutrients|
+|BRS5-FM3-PM8|tryptophan|tofu|9|39.76311336717428|0.235 g per 100 g edible portion|firm, calcium-set|https://fdc.nal.usda.gov/food-details/172475/nutrients|
+|BRS5-FM3-PM8|tryptophan|peanuts|10|38.917089678511|0.23 g per 100 g edible portion|dry-roasted|https://fdc.nal.usda.gov/food-details/173806/nutrients|
 |BRS6-FM1-PM3|magnesium|pumpkin-seeds|1|100|592 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg|
 |BRS6-FM1-PM3|magnesium|cocoa|2|84.29054054054053|499 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg|
 |BRS6-FM1-PM3|magnesium|sesame-seeds|3|59.29054054054054|351 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg|

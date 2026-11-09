@@ -5,9 +5,7 @@ Unranked canonical relationships remain intact. This diagnostic ledger is not an
 |Target|Reason|
 |---|---|
 |BRS1-FM1-PM3|betaine|No authorised compatible comparison pool for this measurement basis; Unverified or held canonical quantity; Presence-only: no quantitative observation|
-|BRS1-FM1-PM3|phenylalanine|No verified compatible source observations|
 |BRS1-FM1-PM4|betaine|No authorised compatible comparison pool for this measurement basis; Unverified or held canonical quantity; Presence-only: no quantitative observation|
-|BRS1-FM1-PM4|phenylalanine|No verified compatible source observations|
 |BRS1-FM2-PM6|phosphatidylcholine|Presence-only: no quantitative observation|
 |BRS1-FM3-PM7|betaine|No authorised compatible comparison pool for this measurement basis; Unverified or held canonical quantity; Presence-only: no quantitative observation|
 |BRS1-FM5-PM12|uridine|Presence-only: no quantitative observation|

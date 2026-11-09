@@ -1677,3 +1677,11 @@ test('shared cocoa attribution qualification remains accessible in actual PM pro
  assert.match(html,/Does not establish a specifically Dutch-processed product/);
  assert.equal(cocoa.observations[0].value,target.selected.find(s=>s.food_id==='cocoa').observation.value);
 });
+
+test('recovered individual amino acid displays its actual amount and existing provenance disclosure',()=>{
+ const snapshot=JSON.parse(fs.readFileSync('src/data/rankedFoodSources.generated.json','utf8'));
+ const target=snapshot.targets.find(t=>t.pm_id==='BRS1-FM1-PM3'&&t.substance_id==='phenylalanine');
+ const sources=rankedFoodSources.rankedSourcesForRelationships(snapshot,target.pm_id,target.relationship_ids.map(id=>({id,dietary_input:true})));
+ assert.equal(sources.length,10);
+ for(const s of sources){const row=renderFoodSourceSummary('Source',s);assert.doesNotMatch(row,/value not known|undefined/);assert.ok(row.includes(String(s.observations[0].value)));assert.match(renderProvenance(s),/USDA database composition/);assert.match(renderProvenance(s),/Original source/);}
+});

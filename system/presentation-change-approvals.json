@@ -938,5 +938,35 @@
     "contract": "system/input-substance-food-mapping.md",
     "example": "static/explore/food-wheel/index.html",
     "scope": "Existing PM ranked-food dropdowns and standalone Food Wheel, same ten qualifying foods before grouping. Lupin identity correction only. No new scientific admissions, panels or unrelated page edits."
+  },
+  {
+    "file": "static/explore/food-wheel/index.html",
+    "sha256": "b3e271e2942ce5739303ae21e868e9af0ec66f96235e9750ecccef060736edaf",
+    "author_approval": "Integrate the verified individual-amino-acid extraction correction into the existing shared top-ten selector PR and update its Netlify preview; no merge or production deployment.",
+    "approval_source": "Author instruction 9 November 2026: verified individual-amino-acid extraction correction; expected 26 substances, 100/151 targets, 890 connections, 65 foods.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/AMINO-ACID-CORRECTION.md",
+    "contract": "system/input-substance-food-mapping.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing PM ranked-food dropdowns and standalone Food Wheel, same ten qualifying foods before grouping. Lupin identity correction only. No new scientific admissions, panels or unrelated page edits."
+  },
+  {
+    "file": "static/explore/food-wheel/food-wheel.svg",
+    "sha256": "5cb374b8d54a42f32c71fb2a799d2fcc754d94c31febbf79dfe7dafb06b5836e",
+    "author_approval": "Integrate the verified individual-amino-acid extraction correction into the existing shared top-ten selector PR and update its Netlify preview; no merge or production deployment.",
+    "approval_source": "Author instruction 9 November 2026: verified individual-amino-acid extraction correction; expected 26 substances, 100/151 targets, 890 connections, 65 foods.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/AMINO-ACID-CORRECTION.md",
+    "contract": "system/input-substance-food-mapping.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing PM ranked-food dropdowns and standalone Food Wheel, same ten qualifying foods before grouping. Lupin identity correction only. No new scientific admissions, panels or unrelated page edits."
+  },
+  {
+    "file": "static/explore/food-wheel/about.html",
+    "sha256": "5ce47bb063d93ab4f31a9bd7b9ab5c798a4fa32c0653e3a7527f5ac87a2a7e17",
+    "author_approval": "Integrate the verified individual-amino-acid extraction correction into the existing shared top-ten selector PR and update its Netlify preview; no merge or production deployment.",
+    "approval_source": "Author instruction 9 November 2026: verified individual-amino-acid extraction correction; expected 26 substances, 100/151 targets, 890 connections, 65 foods.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/AMINO-ACID-CORRECTION.md",
+    "contract": "system/input-substance-food-mapping.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing PM ranked-food dropdowns and standalone Food Wheel, same ten qualifying foods before grouping. Lupin identity correction only. No new scientific admissions, panels or unrelated page edits."
   }
 ]

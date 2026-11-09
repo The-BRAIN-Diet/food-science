@@ -13,3 +13,7 @@ Existing baseline failures remain separately documented in release-validation-ba
 Local production build was deliberately stopped under resource pressure after 431.27 seconds (server compiled; client unfinished). The host has 8 GiB RAM, used approximately 25 GiB swap, and free disk fell to 2.8 GiB. Heap remained 4096 MiB; reported max RSS was 1,205,895,168 bytes. Wrapper exit 1 after termination, not a successful build and not an established compiler defect. Do not rerun locally for this task. Remote build and browser results will be reported against the exact pushed commit.
 
 Latest compatible main at preparation: ca3183b1, recipe-preview PR237 merge. Its static assets and approval records must be preserved. No canonical food values changed beyond the explicitly authorised lupin consolidation; all four olive-oil/cocoa pages remain unchanged. Generated manuscript-named rollups are deterministic mapping exports, not manuscript prose or new scientific claims.
+
+## Individual amino-acid correction follow-up
+
+The approved correction supersedes the snapshot counts above: 65 foods, 890 connections, 100/151 targets and 26 ranked substances. Focused tests: 60/60. Four mapper baseline failures unchanged. See AMINO-ACID-CORRECTION.md. The 32 classification questions and 18 conversion gaps remain in the separate audit worktree. No merge or production deployment authorised.

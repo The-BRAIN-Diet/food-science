@@ -4,6 +4,7 @@ Distinct PM–substance connections, not clinical efficacy.
 
 |Food|Qualified targets|
 |---|---:|
+|Almonds|2|
 |Amaranth|14|
 |Anchovies|23|
 |Avocado Oil|1|
@@ -16,9 +17,9 @@ Distinct PM–substance connections, not clinical efficacy.
 |Carrots|1|
 |Cashews|15|
 |Cauliflower|2|
-|Cheddar Cheese|1|
+|Cheddar Cheese|15|
 |Chia Seeds|11|
-|Chicken|8|
+|Chicken|15|
 |Chickpeas|20|
 |Clams|5|
 |Cockles|6|
@@ -41,17 +42,17 @@ Distinct PM–substance connections, not clinical efficacy.
 |Lupins|16|
 |Mackerel|13|
 |White/Button Mushroom|8|
-|Mussels|16|
+|Mussels|30|
 |Olives|3|
 |Oranges|2|
 |Oregano|20|
 |Oysters|12|
-|Peanuts|14|
+|Peanuts|21|
 |Pistachios|9|
-|Pumpkin Seeds|30|
+|Pumpkin Seeds|39|
 |Salmon|26|
 |Salmon Roe|25|
-|Sardines|21|
+|Sardines|28|
 |Sauerkraut|3|
 |Scallops|3|
 |Sesame Seeds|29|
@@ -61,10 +62,10 @@ Distinct PM–substance connections, not clinical efficacy.
 |Spelt|2|
 |Spirulina|26|
 |Strawberries|2|
-|Sunflower Seeds|28|
+|Sunflower Seeds|42|
 |Sweet Potatoes|1|
 |Tahini|17|
 |Thyme|34|
-|Tofu|5|
+|Tofu|12|
 |Tuna|19|
-|Turkey|12|
+|Turkey|21|
