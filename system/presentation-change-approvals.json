@@ -152,7 +152,7 @@
   {
     "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
     "sha256": "b786a0d6a6d790e4eb04f52ae7356bb91aa6cd0a4cdf89573e3a7accdc3d485a",
-    "author_approval": "Owner requested matching §1.1 CSS and Roasted Nori title",
+    "author_approval": "Owner requested matching \u00a71.1 CSS and Roasted Nori title",
     "approval_source": "Current chat, 3 November 2026",
     "proposal": "system/sop-lifestyle-six-atom-presentation.md",
     "contract": "system/sop-lifestyle-six-atom-presentation.md",
@@ -162,32 +162,32 @@
   {
     "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
     "sha256": "72fea76faf71d5e84114054142ded4aca0da0910db7c540db8f37717f8cf18ea",
-    "author_approval": "Owner requested consistent §1.1 CSS across updated rollout PMs",
+    "author_approval": "Owner requested consistent \u00a71.1 CSS across updated rollout PMs",
     "approval_source": "Current chat: not seeing it here; did you change all the PMs you did?",
     "proposal": "system/sop-lifestyle-six-atom-presentation.md",
     "contract": "system/sop-lifestyle-six-atom-presentation.md",
     "example": "review/sequential-pm-interventions-2026-11-02/brs2-pm1-category-correction.png",
-    "scope": "Replace generic category details wrappers with existing §1.1 disclosure markup; retain all scientific content"
+    "scope": "Replace generic category details wrappers with existing \u00a71.1 disclosure markup; retain all scientific content"
   },
   {
     "file": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
     "sha256": "8b801079e0abae53bc6ea0494b57acd25d4f030248a16af298047412897eb581",
-    "author_approval": "Owner requested consistent §1.1 CSS across updated rollout PMs",
+    "author_approval": "Owner requested consistent \u00a71.1 CSS across updated rollout PMs",
     "approval_source": "Current chat: not seeing it here; did you change all the PMs you did?",
     "proposal": "system/sop-lifestyle-six-atom-presentation.md",
     "contract": "system/sop-lifestyle-six-atom-presentation.md",
     "example": "review/sequential-pm-interventions-2026-11-02/brs2-pm1-category-correction.png",
-    "scope": "Replace generic category details wrappers with existing §1.1 disclosure markup; retain all scientific content"
+    "scope": "Replace generic category details wrappers with existing \u00a71.1 disclosure markup; retain all scientific content"
   },
   {
     "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
     "sha256": "b44235a6f295cf25cb754dfc5a3d3e4fc1ccbd1fd3459905e71db98a1942c74c",
-    "author_approval": "Owner requested consistent §1.1 CSS across updated rollout PMs",
+    "author_approval": "Owner requested consistent \u00a71.1 CSS across updated rollout PMs",
     "approval_source": "Current chat: not seeing it here; did you change all the PMs you did?",
     "proposal": "system/sop-lifestyle-six-atom-presentation.md",
     "contract": "system/sop-lifestyle-six-atom-presentation.md",
     "example": "review/sequential-pm-interventions-2026-11-02/brs2-pm1-category-correction.png",
-    "scope": "Replace generic category details wrappers with existing §1.1 disclosure markup; retain all scientific content"
+    "scope": "Replace generic category details wrappers with existing \u00a71.1 disclosure markup; retain all scientific content"
   },
   {
     "file": "src/components/PmDietaryLeverEnhancer.tsx",
@@ -377,7 +377,7 @@
     "proposal": "review/pm1-reference-completion-2026-11-03/lesson-placement.md",
     "contract": "system/primary-mechanism-schema.md",
     "example": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
-    "scope": "PM1 lesson moved above §4.1 outside the Scientific Findings parent; unchanged science and styling."
+    "scope": "PM1 lesson moved above \u00a74.1 outside the Scientific Findings parent; unchanged science and styling."
   },
   {
     "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
@@ -413,7 +413,7 @@
     "file": "docs/substances/bioactive-compounds/phytate.md",
     "sha256": "675caed689a7b964f986aea264a46f78cf183842834176d54304990ebc8b256e",
     "author_approval": "Owner: otherwise create one substance page for each, following system/substance-page-schema.md; use existing taxonomy and templates.",
-    "approval_source": "Current chat CODEX — Canonical Phytate and Oxalate Substance Pages, 5 November 2026",
+    "approval_source": "Current chat CODEX \u2014 Canonical Phytate and Oxalate Substance Pages, 5 November 2026",
     "proposal": "review/phytate-oxalate-2026-11-05/report.md",
     "contract": "system/substance-page-schema.md",
     "example": "docs/substances/bioactive-compounds/phytate.md",
@@ -423,7 +423,7 @@
     "file": "docs/substances/bioactive-compounds/oxalate.md",
     "sha256": "bf1d535b5924eeee833a65b0902bda2db3cdb309028ca988b861d9713f2df80d",
     "author_approval": "Owner: otherwise create one substance page for each, following system/substance-page-schema.md; use existing taxonomy and templates.",
-    "approval_source": "Current chat CODEX — Canonical Phytate and Oxalate Substance Pages, 5 November 2026",
+    "approval_source": "Current chat CODEX \u2014 Canonical Phytate and Oxalate Substance Pages, 5 November 2026",
     "proposal": "review/phytate-oxalate-2026-11-05/report.md",
     "contract": "system/substance-page-schema.md",
     "example": "docs/substances/bioactive-compounds/oxalate.md",
@@ -433,7 +433,7 @@
     "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx",
     "sha256": "e96b3996c4b40fd03c5aa1df821697dbe33168455d13fa6b344c3377bab6bfa5",
     "author_approval": "Owner explicitly authorised a new Coenzyme Q PM after canonical placement and non-duplication checks, implemented under existing Stage 2A/2B and presentation conventions.",
-    "approval_source": "Current chat: CODEX EXEC — BRS4 Coenzyme Q Biosynthesis & Pool Availability, 5 November 2026.",
+    "approval_source": "Current chat: CODEX EXEC \u2014 BRS4 Coenzyme Q Biosynthesis & Pool Availability, 5 November 2026.",
     "proposal": "review/coq-pm-2026-11-05/report.md",
     "contract": "system/primary-mechanism-schema.md",
     "example": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx",
@@ -447,7 +447,7 @@
     "proposal": "review/priority-intervention-appraisal-2026-11-04/integration-report.md",
     "contract": "system/sop-lifestyle-six-atom-presentation.md",
     "example": "docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx",
-    "scope": "Three named PMs only; existing §3.2 disclosure and Section4 EvidenceAudit, no new shared component or wider grouping rollout."
+    "scope": "Three named PMs only; existing \u00a73.2 disclosure and Section4 EvidenceAudit, no new shared component or wider grouping rollout."
   },
   {
     "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
@@ -457,7 +457,7 @@
     "proposal": "review/priority-intervention-appraisal-2026-11-04/integration-report.md",
     "contract": "system/sop-lifestyle-six-atom-presentation.md",
     "example": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
-    "scope": "Three named PMs only; existing §3.2 disclosure and Section4 EvidenceAudit, no new shared component or wider grouping rollout."
+    "scope": "Three named PMs only; existing \u00a73.2 disclosure and Section4 EvidenceAudit, no new shared component or wider grouping rollout."
   },
   {
     "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
@@ -467,7 +467,7 @@
     "proposal": "review/priority-intervention-appraisal-2026-11-04/integration-report.md",
     "contract": "system/sop-lifestyle-six-atom-presentation.md",
     "example": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
-    "scope": "Three named PMs only; existing §3.2 disclosure and Section4 EvidenceAudit, no new shared component or wider grouping rollout."
+    "scope": "Three named PMs only; existing \u00a73.2 disclosure and Section4 EvidenceAudit, no new shared component or wider grouping rollout."
   },
   {
     "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
@@ -503,7 +503,7 @@
     "file": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
     "sha256": "1f53d8b8f5e819d067b0ea35e2d3cc122a29997a84537269fdb096a2582e9382",
     "author_approval": "Author explicitly requested integration of every scientifically eligible Batch 2 intervention using existing six-atom SOP presentation and independent Section 4 SEC.",
-    "approval_source": "Conversation: CODEX — Batch 2 Integration and Resolution, 5 November 2026",
+    "approval_source": "Conversation: CODEX \u2014 Batch 2 Integration and Resolution, 5 November 2026",
     "proposal": "review/priority-intervention-appraisal-batch2-2026-11-05/integration-report.md",
     "contract": "system/sop-lifestyle-six-atom-presentation.md",
     "example": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
@@ -513,7 +513,7 @@
     "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
     "sha256": "12121705238fb8d7cb22d13ebcb513dbd998a9ca5f212d05ff87d5384d19354e",
     "author_approval": "Author explicitly requested integration of every scientifically eligible Batch 2 intervention using existing six-atom SOP presentation and independent Section 4 SEC.",
-    "approval_source": "Conversation: CODEX — Batch 2 Integration and Resolution, 5 November 2026",
+    "approval_source": "Conversation: CODEX \u2014 Batch 2 Integration and Resolution, 5 November 2026",
     "proposal": "review/priority-intervention-appraisal-batch2-2026-11-05/integration-report.md",
     "contract": "system/sop-lifestyle-six-atom-presentation.md",
     "example": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
@@ -523,7 +523,7 @@
     "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
     "sha256": "2fbaa549d4ae1d52f62f325ce886c9d1138bc505494dc246074920cd6e0ccb72",
     "author_approval": "Author explicitly requested integration of every scientifically eligible Batch 2 intervention using existing six-atom SOP presentation and independent Section 4 SEC.",
-    "approval_source": "Conversation: CODEX — Batch 2 Integration and Resolution, 5 November 2026",
+    "approval_source": "Conversation: CODEX \u2014 Batch 2 Integration and Resolution, 5 November 2026",
     "proposal": "review/priority-intervention-appraisal-batch2-2026-11-05/integration-report.md",
     "contract": "system/sop-lifestyle-six-atom-presentation.md",
     "example": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
@@ -533,7 +533,7 @@
     "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx",
     "sha256": "83b524d18b0a8abb38e28a46bf6c8feb3d6ad05a38a0fa16a65649db950d9403",
     "author_approval": "Author explicitly requested integration of every scientifically eligible Batch 2 intervention using existing six-atom SOP presentation and independent Section 4 SEC.",
-    "approval_source": "Conversation: CODEX — Batch 2 Integration and Resolution, 5 November 2026",
+    "approval_source": "Conversation: CODEX \u2014 Batch 2 Integration and Resolution, 5 November 2026",
     "proposal": "review/priority-intervention-appraisal-batch2-2026-11-05/integration-report.md",
     "contract": "system/sop-lifestyle-six-atom-presentation.md",
     "example": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx",
@@ -543,7 +543,7 @@
     "file": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
     "sha256": "d4d03432ea773731f03245d17b395b61bf2fe036cca72da6cf915e017bc102dd",
     "author_approval": "Author explicitly requested integration of every scientifically eligible Batch 2 intervention using existing six-atom SOP presentation and independent Section 4 SEC.",
-    "approval_source": "Conversation: CODEX — Batch 2 Integration and Resolution, 5 November 2026",
+    "approval_source": "Conversation: CODEX \u2014 Batch 2 Integration and Resolution, 5 November 2026",
     "proposal": "review/priority-intervention-appraisal-batch2-2026-11-05/integration-report.md",
     "contract": "system/sop-lifestyle-six-atom-presentation.md",
     "example": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
@@ -603,7 +603,7 @@
     "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
     "sha256": "f087c227eea9699abfc525d2735f9ba2aa5ef3fc94acad428d3467238ababa9a",
     "author_approval": "Explicit author decision: relocate LAT1 DIT-3 to Section 3.2 using existing SOP six atoms.",
-    "approval_source": "Current conversation — Approved LAT1 DIT-3 Relocation, 5 November 2026",
+    "approval_source": "Current conversation \u2014 Approved LAT1 DIT-3 Relocation, 5 November 2026",
     "proposal": "review/lat1-sop-relocation-2026-11-05/report.md",
     "contract": "system/sop-lifestyle-six-atom-presentation.md",
     "example": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
@@ -918,5 +918,15 @@
     "contract": "system/recipe-matrix-preview-presentation-contract.md",
     "example": "static/preview/recipe-brs-matrix/index.html",
     "scope": "One standalone unlisted preview at /preview/recipe-brs-matrix/; two static assets, no canonical rollout; PR only, no merge in this task."
+  },
+  {
+    "file": "static/explore/food-wheel/index.html",
+    "sha256": "e13be291fbab2c52a418893d4efbf4ab596d9f7cbdee9900393cbb721dfacb21",
+    "author_approval": "Shared top-ten PM/Food Wheel preview and authorised lupin identity consolidation; no merge or production deployment.",
+    "approval_source": "Owner instructions 9 November 2026: implement shared selector; retain lupins and retire duplicate lupin-beans with redirects; preserve four oil/cocoa identities; attribute cocoa only and retain oil hold; reconcile counts and run release checks.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/TOP-TEN-COVERAGE-RECONCILIATION.md",
+    "contract": "system/input-substance-food-mapping.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing PM ranked-food dropdowns and standalone Food Wheel, same ten qualifying foods before grouping. Lupin identity correction only. No new scientific admissions, panels or unrelated page edits."
   }
 ]
