@@ -52,7 +52,7 @@ A systematic review of adult clinical trials found no overall improvement in gut
 
 ## Foods
 
-Food links use identified protein fractions. Their calculated quantities are not presented as direct assays [4].
+Lenders et al. estimated glutamine from the amino-acid sequences and relative contributions of food proteins. The calculation excludes free glutamine. Values below apply to the identified study food where its composition supports the match [4].
 
 <SubstanceFoods tag="Glutamine" />
 

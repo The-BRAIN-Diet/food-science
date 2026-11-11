@@ -114,6 +114,65 @@ dietary_input_assessments:
         - docs/foods/bananas.md
         - system/food-target-research.json
       sufficient_coverage_rationale: 'Inspected existing structured composition records and provisional research coverage for the same mineral. Verified plant/animal sources are reused with preparation qualifiers; no new food edge, effective food dose or enzyme-response inference is created.'
+  - atom_id: PM3-DIT-5
+    status: admitted
+    type: A
+    classification: derived
+    operation: >-
+      Maintain methionine adenosyltransferase capacity to convert methionine and ATP into SAMe, sustaining the
+      methyl-donor pool used by downstream methyltransferases.
+    active_target_id: methionine
+    record_origin: >-
+      Author-approved Group 4 reconciliation of existing admitted route; no new admission, SEC or publication
+      permission.
+    functional_dependency:
+      status: established
+      statement: >-
+        Provides methionine through protein digestion and amino-acid absorption; methionine is the direct
+        amino-acid substrate for MAT-dependent SAMe synthesis.
+      sources:
+        - docs/papers/BRAIN-Diet-References#fao_diaas_2013
+    dietary_supply:
+      status: established
+      statement: >-
+        Provides methionine through protein digestion and amino-acid absorption; methionine is the direct
+        amino-acid substrate for MAT-dependent SAMe synthesis.
+      sources:
+        - docs/papers/BRAIN-Diet-References#fao_diaas_2013
+    conversion_pathway:
+      - from: BRS2-FM1-PM3::PM3-DIT-5
+        to: methionine
+        process: Protein digestion and amino-acid absorption provide methionine.
+        dependencies: []
+        limitations: >-
+          Dietary protein provides digestible methionine, but this does not establish that increasing protein or
+          methionine intake increases MAT-dependent SAMe synthesis in humans. DIAAS evaluates sulfur amino acids
+          as methionine + cysteine. The primary evidence uses purified recombinant protein and crystallised
+          human enzyme rather than intact human physiology. Active-site ion requirements do not show that
+          physiological magnesium or potassium availability ordinarily limits MAT activity. The studies do not
+          establish a methionine intake-response relationship, a clinically meaningful reserve-capacity
+          threshold, or a phenome outcome.
+        evidence:
+          statement: >-
+            Provides methionine through protein digestion and amino-acid absorption; methionine is the direct
+            amino-acid substrate for MAT-dependent SAMe synthesis.
+          sources:
+            - docs/papers/BRAIN-Diet-References#fao_diaas_2013
+    limitations:
+      - >-
+        Dietary protein provides digestible methionine, but this does not establish that increasing protein or
+        methionine intake increases MAT-dependent SAMe synthesis in humans. DIAAS evaluates sulfur amino acids
+        as methionine + cysteine.
+      - >-
+        The primary evidence uses purified recombinant protein and crystallised human enzyme rather than intact
+        human physiology. Active-site ion requirements do not show that physiological magnesium or potassium
+        availability ordinarily limits MAT activity. The studies do not establish a methionine intake-response
+        relationship, a clinically meaningful reserve-capacity threshold, or a phenome outcome.
+      - Do not derive methionine quantities from protein grams or combined methionine-plus-cysteine values.
+    provenance:
+      - docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx
+      - docs/papers/BRAIN-Diet-References#fao_diaas_2013
+    source_atom_id: BRS2-FM1-PM3::PM3-DIT-5
 references:
   - '[Bailey et al. (2021) — Human MAT2A ordered kinetic mechanism](/docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021)'
   - '[Murray et al. (2016) — Human MAT catalytic structures](/docs/papers/BRAIN-Diet-References#murray_crystallography_2016)'
@@ -227,6 +286,11 @@ dietary_input_traceability:
     evidence_limitation: Human MAT structures establish the specific ion relationship. Physiological potassium homeostasis and tissue uptake intervene; no claim that extra dietary potassium raises SAM flux or improves methylation is established.
     substance_id: potassium
   - atom_id: PM3-DIT-5
+    source_identity:
+      kind: source-class
+      pm_atom_id: BRS2-FM1-PM3::PM3-DIT-5
+      status: resolved
+      substance_applicability: not-applicable
     dietary_input: true
     dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
     input: Dietary protein

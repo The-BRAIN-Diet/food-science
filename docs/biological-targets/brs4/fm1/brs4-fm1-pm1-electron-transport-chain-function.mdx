@@ -64,6 +64,60 @@ dietary_input_assessments:
         Inspected existing structured composition records and provisional research coverage for the same
         mineral. Verified plant/animal sources are reused with preparation qualifiers; no new food edge,
         effective food dose or enzyme-response inference is created.
+  - atom_id: PM1-DIT-3
+    status: admitted
+    type: A
+    classification: derived
+    operation: Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.
+    canonical_substance_id: vitamin-b2
+    active_target_id: flavin-mononucleotide
+    record_origin: >-
+      Author-approved Group 2 reconciliation of existing admitted Derived route, 9 November 2026; no new
+      admission, SEC or publication permission.
+    functional_dependency:
+      status: established
+      statement: >-
+        Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH
+        electrons in complex I.
+      sources:
+        - docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022
+    dietary_supply:
+      status: established
+      statement: >-
+        Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH
+        electrons in complex I.
+      sources:
+        - docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022
+    conversion_pathway:
+      - from: vitamin-b2
+        to: flavin-mononucleotide
+        process: Riboflavin supplies the precursor for FMN used by complex I.
+        dependencies: []
+        limitations: >-
+          The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate,
+          raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context. The
+          sources are reviews of enzyme structure and function, not human feeding trials. Flavin mononucleotide
+          (FMN) abundance has not been shown to limit complex I in ordinary conditions. Endogenous ubiquinone
+          synthesis is not separated here from dietary coenzyme Q10. Copper and iron centres are not evidence
+          that supplements raise chain activity.
+        evidence:
+          statement: >-
+            Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH
+            electrons in complex I.
+          sources:
+            - docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022
+    limitations:
+      - >-
+        The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate,
+        raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context.
+      - >-
+        The sources are reviews of enzyme structure and function, not human feeding trials. Flavin
+        mononucleotide (FMN) abundance has not been shown to limit complex I in ordinary conditions. Endogenous
+        ubiquinone synthesis is not separated here from dietary coenzyme Q10. Copper and iron centres are not
+        evidence that supplements raise chain activity.
+    provenance:
+      - docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx
+      - docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022
 references:
   - >-
     [Vercellino and Sazanov (2022) — Assembly and function of the mitochondrial respiratory

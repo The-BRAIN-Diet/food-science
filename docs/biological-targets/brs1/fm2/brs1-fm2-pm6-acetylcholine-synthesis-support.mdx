@@ -92,6 +92,13 @@ dietary_input_traceability:
       this does not establish that extra B5 raises brain acetylcholine in adequately nourished humans.
   - atom_id: PM6-DIT-5
     dietary_input: true
+    kc_id: BRS2(KC1)
+    ikc_id: BRS2-KC1-KIT-1
+    relationship_type: conditional-constraint
+    canonical_identity:
+      status: resolved
+      substance_id: vitamin-b9
+      substance_href: /docs/substances/nutrients/micronutrients/vitamins/vitamin-b9
     dietary_input_note: Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.
     input: Vitamin B9 (folate)
     input_type: resource dependency
@@ -348,8 +355,16 @@ pm_kc_relationships:
     origin_label: 'KC1: Methyl Donor Pool'
     constituent_relationships:
       - relationship_id: BRS1-FM2-PM6-KCI-1
+        disposition: established
+        relationship_type: conditional-constraint
+        substance_id: vitamin-b9
+        ikc_id: BRS2-KC1-KIT-1
         pm_atom_id: PM6-DIT-5
         kc_atom_id: BRS2-KC1-KIT-1
+        canonical_identity:
+          status: resolved
+          substance_id: vitamin-b9
+          substance_href: /docs/substances/nutrients/micronutrients/vitamins/vitamin-b9
         kc_membership_status: canonical-reviewed
         label: Vitamin B9 (folate)
         reader_description: >-
@@ -862,6 +877,58 @@ dietary_input_assessments:
       sources:
         - docs/foods/anchovies.md
         - docs/foods/miso.md
+  - atom_id: PM6-DIT-2
+    status: admitted
+    type: A
+    classification: derived
+    operation: >-
+      Maintain the capacity to form acetylcholine so cholinergic signalling for attention, working memory, and
+      learning stays supplied.
+    canonical_substance_id: phosphatidylcholine
+    active_target_id: choline
+    record_origin: >-
+      Author-approved Group 1 reconciliation of existing admitted Derived route, 9 November 2026; no new
+      admission, SEC or publication permission.
+    functional_dependency:
+      status: established
+      statement: >-
+        Dietary choline-containing phospholipid that is digested and remodelled, producing circulating choline
+        as one route to the direct choline substrate
+      sources:
+        - docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023
+    dietary_supply:
+      status: established
+      statement: >-
+        Dietary choline-containing phospholipid that is digested and remodelled, producing circulating choline
+        as one route to the direct choline substrate
+      sources:
+        - docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023
+    conversion_pathway:
+      - from: phosphatidylcholine
+        to: choline
+        process: Digestion and remodelling of dietary phosphatidylcholine supplies circulating choline.
+        dependencies: []
+        limitations: >-
+          Human tracer evidence establishes phosphatidylcholine as a choline-provision route; it does not show
+          delivery to cholinergic terminals or increased brain acetylcholine synthesis. Small single-dose study
+          in healthy men. Plasma appearance does not measure delivery to cholinergic terminals, acetylcholine
+          synthesis, neurotransmitter release, attention, or clinical benefit.
+        evidence:
+          statement: >-
+            Dietary choline-containing phospholipid that is digested and remodelled, producing circulating
+            choline as one route to the direct choline substrate
+          sources:
+            - docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023
+    limitations:
+      - >-
+        Human tracer evidence establishes phosphatidylcholine as a choline-provision route; it does not show
+        delivery to cholinergic terminals or increased brain acetylcholine synthesis.
+      - >-
+        Small single-dose study in healthy men. Plasma appearance does not measure delivery to cholinergic
+        terminals, acetylcholine synthesis, neurotransmitter release, attention, or clinical benefit.
+    provenance:
+      - docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx
+      - docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023
 system_optimisation_practices:
   - atom_id: PM6-SOP-EGG-PHOSPHOLIPID-1
     input: Egg-yolk phospholipid versus choline bitartrate

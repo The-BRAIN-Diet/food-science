@@ -68,6 +68,21 @@ main_image: /img/foods/tofu/tofu_medium.webp
 legacy_list_image: /img/foods/tofu/tofu_thumb.webp
 legacy_main_image: /img/foods/tofu/tofu_medium.webp
 nutrition_supplementary_sources:
+  - key: glutamine_lenders
+    label: Glutamine
+    substance_id: glutamine
+    public_display: table
+    evidence_status: supported
+    evidence_material: Soy protein in tofu
+    preparation_state: form not known
+    chemical_form: protein-bound glutamine residues
+    citation_mark: asterisk
+    source_reference: /docs/papers/BRAIN-Diet-References#lenders_amino_acid_sequencing_2009
+    source_url: https://doi.org/10.1038/ejcn.2009.110
+    source_note: Lenders et al. (2009), Table 2. Food-specific protein fractions weighted by their amino-acid sequences. Lenders Table 2 estimated 0.603 g protein-bound glutamine per 100 g of its tofu reference (6.6 g protein). Firmness and processing were unspecified. The canonical firm calcium-set tofu contains 17.27 g protein per 100 g. Its glutamine quantity remains unresolved.
+    notes: Lenders Table 2 estimated 0.603 g protein-bound glutamine per 100 g of its tofu reference (6.6 g protein). Firmness and processing were unspecified. The canonical firm calcium-set tofu contains 17.27 g protein per 100 g. Its glutamine quantity remains unresolved.
+    status: Present — quantity not established
+    presence_status: presence_supported_amount_unavailable
   - key: ala_interpreted
     label: Alpha-linolenic acid (ALA; 18:3 n-3)
     value: 0.582
@@ -244,6 +259,7 @@ substance_relationships:
     source_reference: '#food-source-4'
   - substance: Glutamine
     substance_id: glutamine
+    requires_supplementary_key: glutamine_lenders
     relationship: contains
     evidence_status: supported
     evidence_material: Soy protein in tofu
@@ -251,7 +267,7 @@ substance_relationships:
     source_url: https://doi.org/10.1038/ejcn.2009.110
     citation_keys:
       - lenders_amino_acid_sequencing_2009
-    evidence_source: 'Lenders et al. (2009), Table 1: protein-sequence-based occurrence.'
+    evidence_source: 'Lenders et al. (2009), Table 2: food-specific protein-sequence model.'
     material_limitations: Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.
     food_delivery_notes: Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.
     chemical_form: protein-bound glutamine residues

@@ -410,7 +410,7 @@
           "vercellino_respiratory_chain_2022"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -826,7 +826,7 @@
           "vercellino_respiratory_chain_2022"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -982,7 +982,7 @@
           "vercellino_respiratory_chain_2022"
         ]
       },
-      "preparation": null,
+      "preparation": "frozen",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -1370,8 +1370,8 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "lupin-beans",
-      "food_title": "Lupin Beans",
+      "food_target": "lupins",
+      "food_title": "Lupins",
       "food_material": "Lupins, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -1380,7 +1380,7 @@
       "mapping_status": "verified",
       "food_evidence": [
         {
-          "record": "docs/foods/lupin-beans.md#substance_relationships/Iron",
+          "record": "docs/foods/lupins.md#substance_relationships/Iron",
           "evidence": "USDA SR Legacy April 2018",
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
@@ -1814,7 +1814,7 @@
           "vercellino_respiratory_chain_2022"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -2923,7 +2923,7 @@
           "curtabbi_complex_i_fmn_2022"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "precursor-source",
       "conversion_pathway": [],
       "limitations": [
@@ -3443,7 +3443,7 @@
           "vercellino_respiratory_chain_2022"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -4495,7 +4495,7 @@
           "nicoll_coq_2024"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "precursor-source",
       "conversion_pathway": [
         {
@@ -5335,7 +5335,7 @@
           "nicoll_coq_2024"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "precursor-source",
       "conversion_pathway": [
         {
@@ -5873,7 +5873,7 @@
           "wang_coq7_2022"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -6289,7 +6289,7 @@
           "wang_coq7_2022"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -6445,7 +6445,7 @@
           "wang_coq7_2022"
         ]
       },
-      "preparation": null,
+      "preparation": "frozen",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -6833,8 +6833,8 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
-      "food_target": "lupin-beans",
-      "food_title": "Lupin Beans",
+      "food_target": "lupins",
+      "food_title": "Lupins",
       "food_material": "Lupins, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -6843,7 +6843,7 @@
       "mapping_status": "verified",
       "food_evidence": [
         {
-          "record": "docs/foods/lupin-beans.md#substance_relationships/Iron",
+          "record": "docs/foods/lupins.md#substance_relationships/Iron",
           "evidence": "USDA SR Legacy April 2018",
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
@@ -7277,7 +7277,7 @@
           "wang_coq7_2022"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -8672,8 +8672,8 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
-      "food_target": "lupin-beans",
-      "food_title": "Lupin Beans",
+      "food_target": "lupins",
+      "food_title": "Lupins",
       "food_material": "Lupins, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -8682,7 +8682,7 @@
       "mapping_status": "verified",
       "food_evidence": [
         {
-          "record": "docs/foods/lupin-beans.md#substance_relationships/Arginine",
+          "record": "docs/foods/lupins.md#substance_relationships/Arginine",
           "evidence": "USDA SR Legacy April 2018",
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
@@ -9182,7 +9182,7 @@
           "asiriwardhana_methionine_transmethylation_2025"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "precursor-source",
       "conversion_pathway": [
         {
@@ -9805,7 +9805,7 @@
           "brs4_azuma2022_20261023"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -11210,13 +11210,13 @@
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
           "source_reference": "#food-source-8",
           "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-          "preparation": null,
+          "preparation": "salted",
           "record": "docs/foods/salmon-roe.md#nutrition_per_100g/manganese_mg",
           "source_record": "docs/foods/salmon-roe.md#nutrition_source",
           "verified": true,
           "id": "docs/foods/salmon-roe.md#nutrition_per_100g/manganese_mg",
-          "rank_eligible": false,
-          "comparison_group": null,
+          "rank_eligible": true,
+          "comparison_group": "edible::salted",
           "low": 0.06,
           "high": 0.06,
           "display": "0.06 mg"
@@ -11231,13 +11231,13 @@
           "brs4_uniprot_p04179_20261023"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
         "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
       ],
-      "missing_ontology_edge": "salmon-roe → manganese [Chum salmon (Oncorhynchus keta), salted roe (ikura); preparation unresolved]"
+      "missing_ontology_edge": "salmon-roe → manganese [Chum salmon (Oncorhynchus keta), salted roe (ikura); salted]"
     },
     {
       "brs": "BRS4",

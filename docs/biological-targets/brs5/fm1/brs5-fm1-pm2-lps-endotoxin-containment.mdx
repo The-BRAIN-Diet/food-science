@@ -562,9 +562,11 @@ dietary_input_traceability:
       citation_keys:
         - zhang_rs2_endotoxin_2020
     evidence_limitation: 'Sixteen-week mouse protocol; no human dose or equivalence to cooled potatoes, rice or green bananas. Measured metabolite changes do not prove SCFA mediation.'
+    substance_id: resistant-starch-type-2-zhang-2020
     canonical_identity:
-      status: missing-substance
-      severity: MAJOR
+      substance_id: resistant-starch-type-2-zhang-2020
+      substance_href: /docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch#rs2-zhang-2020
+      status: resolved
       intended_identity: Type 2 resistant starch (tested aged-mouse exposure)
       aliases_checked:
         - resistant-starch
@@ -572,6 +574,11 @@ dietary_input_traceability:
         - RS2
       projection_status: blocked
   - atom_id: PM2-DIT-3
+    source_identity:
+      kind: dietary-matrix
+      pm_atom_id: BRS5-FM1-PM2::PM2-DIT-3
+      status: resolved
+      substance_applicability: not-applicable
     dietary_input: true
     dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
     input: Fish-oil-containing meal (tested comparison)
@@ -584,13 +591,17 @@ dietary_input_traceability:
         - lyte_meal_endotoxin_2016
     evidence_limitation: 'Acute comparison of entire meals with differing fatty-acid profiles. Differences from the lower-fat olive-oil control were not significant. No isolated DHA/EPA effect, cofactor status, chronic containment or inflammation benefit established.'
     canonical_identity:
-      status: missing-substance
-      severity: MAJOR
+      status: not-applicable
       intended_identity: Fish-oil-containing meal (tested comparison)
       aliases_checked:
         - exact tested dietary matrix/preparation; not replaceable by an individual fatty-acid identity
       projection_status: blocked
   - atom_id: PM2-DIT-4
+    source_identity:
+      kind: preparation-characteristic
+      pm_atom_id: BRS5-FM1-PM2::PM2-DIT-4
+      status: resolved
+      substance_applicability: not-applicable
     dietary_input: true
     dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
     input: Milk-fat physical structure (tested comparison)
@@ -603,8 +614,7 @@ dietary_input_traceability:
         - vors_emulsion_endotoxemia_2017
     evidence_limitation: Eight normal-weight men did not show the same area difference. Physical emulsification is not equivalent to every emulsifier additive; no general avoidance rule or clinical benefit follows.
     canonical_identity:
-      status: missing-substance
-      severity: MAJOR
+      status: not-applicable
       intended_identity: Milk-fat physical structure (tested comparison)
       aliases_checked:
         - exact tested dietary matrix/preparation; not replaceable by an individual fatty-acid identity

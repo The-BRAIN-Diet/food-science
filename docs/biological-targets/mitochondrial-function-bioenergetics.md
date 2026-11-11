@@ -91,6 +91,7 @@ hide_title: true
   <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function">BRS4-FM1-PM1 — Electron Transport Chain Function</a></li>
   <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism">BRS4-FM1-PM2 — NAD⁺ Metabolism</a></li>
   <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer">BRS4-FM1-PM3 — Creatine–Phosphocreatine Energy Buffering</a></li>
+  <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability">BRS4-FM1-PM10 — Coenzyme Q Biosynthesis &amp; Pool Availability</a></li>
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -558,6 +559,7 @@ Cellular bioenergetics, mitochondrial resilience, substrate flexibility, and ada
   <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function">BRS4-FM1-PM1 — Electron Transport Chain Function</a></li>
   <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism">BRS4-FM1-PM2 — NAD⁺ Metabolism</a></li>
   <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer">BRS4-FM1-PM3 — Creatine–Phosphocreatine Energy Buffering</a></li>
+  <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability">BRS4-FM1-PM10 — Coenzyme Q Biosynthesis &amp; Pool Availability</a></li>
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 

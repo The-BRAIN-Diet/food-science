@@ -1,3 +1,4 @@
+import {resolveAminoAcidProfileSources} from '../../src/lib/aminoAcidProfileSources.mjs';
 import {resolveAggregateFoodSources} from '../../src/lib/aggregateFoodComposition.mjs';
 import {projectFoodTargets} from '../../src/lib/foodTargetTraceability.mjs';
 import {historicalAdmission} from './dietary-input-governance.mjs';
@@ -17,7 +18,7 @@ const section = v => String(v || '').replace(/^1\.1\./, '3.1.');
 const walk = dir => fs.existsSync(dir) ? fs.readdirSync(dir, { withFileTypes: true }).flatMap(e => e.isDirectory() ? walk(path.join(dir, e.name)) : [path.join(dir, e.name)]).filter(p => /\.mdx?$/.test(p)) : [];
 const unique = a => [...new Set(a)];
 export function amountDisplay(o) { return o?.value != null ? `${o.value} ${o.unit}` : o?.range ? `${o.range[0]}–${o.range[1]} ${o.unit}` : 'value not known'; }
-export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
+export function buildInputSubstanceFood(root, { brs = 'BRS1', additionalSubstanceIds = [], includeProfileConstituents = false } = {}) {
     if (!/^(BRS[1-6]|BRS-X)$/.test(brs)) throw new Error('Mapping scope must be BRS1–6 or BRS-X');
     const scope = brs.toLowerCase();
     const reads = new Set(), gaps = [], conflicts = [];
@@ -29,14 +30,17 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
         return; if (!aliases.has(n))
         aliases.set(n, new Set()); aliases.get(n).add(id); }
     for (const [id, r] of Object.entries(registry)) {
+        // Registration/documentation does not authorise network activation.
+
         const form = forms.get(id);
         if (form) {
             reads.add(form.file);
-            substances[id] = { id, title: form.title, aliases: form.aliases, page: form.href, record: registryFile + '#' + id, exists: Boolean(form.documented), identity_registered: true, parent_substance_id: form.parent_substance_id };
-            for (const name of [id, form.title, ...form.aliases]) alias(name, id);
+            substances[id] = { id, title: form.title, aliases: form.aliases, page: form.href, record: registryFile + '#' + id, exists: Boolean(form.documented), identity_registered: true, network_activation: form.network_activation, parent_substance_id: form.parent_substance_id };
+            if (form.network_activation !== "held") for (const name of [id, form.title, ...form.aliases]) alias(name, id);
             if (!form.documented) gaps.push({ kind: 'substance-documentation', substance_id: id, record: form.file, reason: 'Registered identity retained; shared documentation page or anchor does not verify.' });
             continue;
         }
+        if (r.network_activation === "held") continue;
         if (!r?.path)
             continue;
         const file = 'docs/substances/' + r.path;
@@ -133,8 +137,8 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
                 gaps.push({ kind: 'unresolved-admitted-atom', pm_id: pm, id: l.atom_id });
                 continue;
             }
-            const ident = identity(a.input, a.substance_id || (d.dietary_input_assessments||[]).find(x=>x.atom_id===a.atom_id)?.canonical_substance_id || a.canonical_identity?.substance_id || members.find(x => x.substance_id)?.substance_id), upstream = (a.upstream_pm_relationships || []).map(u => ({ ...u, resolved: !!dep('pm', u.pm_id, u.href) }));
-            if (!ident.id && ['dietary pattern', 'nutrient/compound class', 'dietary matrix'].includes(a.input_type))
+            const ident = a.source_identity?.status === 'resolved' ? {id:null,status:'resolved-pm-source-atom'} : identity(a.input, a.substance_id || (d.dietary_input_assessments||[]).find(x=>x.atom_id===a.atom_id)?.canonical_substance_id || a.canonical_identity?.substance_id || members.find(x => x.substance_id)?.substance_id), upstream = (a.upstream_pm_relationships || []).map(u => ({ ...u, resolved: !!dep('pm', u.pm_id, u.href) }));
+            if (!ident.id && !a.source_identity && ['dietary pattern', 'nutrient/compound class', 'dietary matrix'].includes(a.input_type))
                 ident.status = a.input_type;
             const type = l.relationship_layer || 'dietary-requirement', supply = upstream.some(u => /supply/i.test(u.relationship_label));
             let accounting = members.length ? 'C' : supply ? 'B' : (type === 'biochemical-requirement' && a.dietary_input !== true) || (/PLP|tetrahydrobiopterin|acetyl.CoA/i.test(a.input) && l.dietary_addressability === 'not-established') ? 'E' : type === 'kc-relevance' ? 'unresolved' : 'A';
@@ -153,9 +157,9 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
             qualification.push(a.dietary_input_note || '');
             if (accounting === 'C' && members.some(x => x.relationship_type === 'supported-upstream-supply'))
                 qualification.push('Supported upstream resource supply; not reclassified as limiting iKC applicability.');
-            if (!ident.id && !['dietary pattern', 'nutrient/compound class', 'dietary matrix'].includes(a.input_type))
+            if (!ident.id && !a.source_identity && !['dietary pattern', 'nutrient/compound class', 'dietary matrix'].includes(a.input_type))
                 gaps.push({ kind: 'substance-identity', pm_id: pm, id: l.atom_id, input: a.input, status: ident.status });
-            const rel = { operation:d.mission, scientific_assessment:(d.dietary_input_assessments||[]).find(x=>x.atom_id===a.atom_id), historical_admission:historicalAdmission(d,a,root), id: pm + '::' + l.atom_id, brs, fm: d.parent_fm, pm, pm_page: pmPage, input: a.input, input_type: a.input_type, relationship_type: { layer: type, classification: l.requirement_classification || null, mode: l.relationship_mode || null, addressability: l.dietary_addressability || null, claim_ceiling: l.claim_ceiling || null }, biological_role: a.biological_role, dietary_input: a.dietary_input ?? null, dietary_input_note: a.dietary_input_note, dietary_input_flags: a.dietary_input_flags || [], accounting, accounting_label: designation, upstream, pool_references: unique(members.map(x => x.kc_id)), members, substance_id: ident.id, substance_page: substances[ident.id]?.page || null, identity_status: ident.status, source_record: doc.file + '#dietary_input_traceability/' + l.atom_id, evidence: a.evidence_source, limitation: a.evidence_limitation || l.evidence_limitation, derived_target_atom_id: l.derived_target_atom_id ? pm + '::' + l.derived_target_atom_id : null, derived_target: l.derived_target || null, qualification: qualification.join(' '), presentations: [...pres.map(p => ({ label: p.label || a.input, section: section(p.presentation_section) })), ...members.filter(m => m.label).map(m => ({ label: m.label, section: m.presentation_section }))].filter((p, i, all) => all.findIndex(q => q.label === p.label && q.section === p.section) === i) };
+            const rel = { operation:d.mission, scientific_assessment:(d.dietary_input_assessments||[]).find(x=>x.atom_id===a.atom_id), historical_admission:historicalAdmission(d,a,root), source_identity:a.source_identity || null, id: pm + '::' + l.atom_id, brs, fm: d.parent_fm, pm, pm_page: pmPage, input: a.input, input_type: a.input_type, relationship_type: { layer: type, classification: l.requirement_classification || null, mode: l.relationship_mode || null, addressability: l.dietary_addressability || null, claim_ceiling: l.claim_ceiling || null }, biological_role: a.biological_role, dietary_input: a.dietary_input ?? null, dietary_input_note: a.dietary_input_note, dietary_input_flags: a.dietary_input_flags || [], accounting, accounting_label: designation, upstream, pool_references: unique(members.map(x => x.kc_id)), members, substance_id: ident.id, substance_page: substances[ident.id]?.page || null, identity_status: ident.status, network_activation: substances[ident.id]?.network_activation || null, ...(a.canonical_identity?.documented_occurrence ? {documented_occurrence: a.canonical_identity.documented_occurrence} : {}), projection_status: a.canonical_identity?.projection_status || null, source_record: doc.file + '#dietary_input_traceability/' + l.atom_id, evidence: a.evidence_source, limitation: a.evidence_limitation || l.evidence_limitation, derived_target_atom_id: l.derived_target_atom_id ? pm + '::' + l.derived_target_atom_id : null, derived_target: l.derived_target || null, qualification: qualification.join(' '), presentations: [...pres.map(p => ({ label: p.label || a.input, section: section(p.presentation_section) })), ...members.filter(m => m.label).map(m => ({ label: m.label, section: m.presentation_section }))].filter((p, i, all) => all.findIndex(q => q.label === p.label && q.section === p.section) === i) };
             relationships.push(rel);
         }
         coverage.push({ pm_id: pm, record: doc.file, accepted_relationships: relationships.filter(r => r.pm === pm).length, structured_atoms: (d.dietary_lever_atoms || []).length });
@@ -165,16 +169,17 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
     const foodSources = [], patternCandidates = [];
     // Food composition is ontology-owned. Build sources for every resolved
     // mapped substance; dietary_input only governs dietary admission/roll-up.
-    const needed = new Set(relationships.map(r => r.substance_id).filter(Boolean));
+    const needed = new Set([...relationships.map(r => r.substance_id).filter(Boolean), ...additionalSubstanceIds.filter(id => substances[id])].filter(id => substances[id]?.network_activation !== "held"));
     for (const f of walk(path.join(root, 'docs/foods'))) {
         const doc = load(path.relative(root, f)), d = doc.data, foodId = d.id || path.basename(f).replace(/\.mdx?$/, ''), page = '/docs/' + doc.file.replace(/^docs\//, '').replace(/\.mdx?$/, ''), validPanel = checkExactFoodMatch(d, foodId).length === 0 && d.composition_status !== 'withdrawn', src = d.nutrition_source;
+        if (d.retired_identity) continue;
         const heldSubstances = new Set((d.nutrition_value_reviews || []).filter(r => r.exclude_from_food_lists === true).map(r => r.substance_id));
         for (const review of d.nutrition_value_reviews || []) if (review.exclude_from_food_lists === true)
             gaps.push({ kind: 'composition-observation-held', food_id: foodId, substance_id: review.substance_id, record: doc.file + '#nutrition_value_reviews', reason: review.title });
         const entries = new Map();
         function entry(id, material, preparation) { const key = foodId + '::' + id + '::' + normalize(material || 'unspecified') + '::' + normalize(preparation || 'unspecified'); if (!entries.has(key))
             entries.set(key, { id: key, substance_id: id, food_id: foodId, food_title: d.title || foodId, food_page: page, food_record: doc.file, material: material || null, preparation: preparation || null, species: d.food_identity?.species || null, product: d.food_identity?.product || null, edible_part: d.food_identity?.edible_part || null, chemical_form: null, food_matrix: null, preparation_effects: null, absorption_evidence: null, observations: [], presence_records: [], qualification: [] }); return entries.get(key); }
-        const material = src?.food_name || d.food_identity?.material || d.title, prep = d.preparation_state || d.food_identity?.preparation || (/\b(raw|uncooked|cooked|dried|roasted|boiled|oil)\b/i.exec(src?.food_name || '')?.[1] || null);
+        const material = src?.food_name || d.food_identity?.material || d.title, prep = d.preparation_state || d.food_identity?.preparation || (/\b(dry powder|raw|uncooked|cooked|dried|roasted|boiled|salted|smoked|canned|frozen|oil)\b/i.exec(src?.food_name || '')?.[1] || null);
         for (const edge of canonicalContainsRelationships(d)) {
             const ident = identity(edge.substance, edge.substance_id);
             if (!ident.id || !needed.has(ident.id) || heldSubstances.has(ident.id) || substances[ident.id]?.identity_type === 'defined-substrate-class')
@@ -236,6 +241,7 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
             gaps.push({ kind: 'specialist-specification-not-joined', food_id: foodId, record: doc.file, reason: 'Authorised specification schema needs a material-specific adapter; no generic amount inferred.' });
         }
         foodSources.push(...entries.values());
+        if (includeProfileConstituents) foodSources.push(...resolveAminoAcidProfileSources(d, needed, doc.file));
         for (const aggregate of Object.values(substances).filter(s => needed.has(s.id) && s.identity_type === 'defined-substrate-class')) foodSources.push(...resolveAggregateFoodSources(d, aggregate, doc.file));
         if (validPanel && src && Number.isFinite(d.nutrition_per_100g?.carbs_g) && Number.isFinite(d.nutrition_per_100g?.protein_g))
             patternCandidates.push({ food_id: foodId, food_page: page, title: d.title, composition_record: doc.file + '#nutrition_per_100g', composition_values: { carbs_g: d.nutrition_per_100g.carbs_g, protein_g: d.nutrition_per_100g.protein_g }, fields: ['carbs_g', 'protein_g'], qualification: 'Candidate ingredient composition only; a single food does not establish a meal pattern, ratio or target.' });
@@ -247,7 +253,7 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
         // Existing explicit comparison decisions are not inferred from citations or prose.
         // Keep the legacy ordinary-panel groups; qualified records need adjudication.
         const group = qualified ? (o.rank_eligible === true && o.comparison_group || null)
-            : per100g && o.preparation ? (/dry|dried|powder/i.test(o.basis || '') ? 'dry' : 'edible') + '::' + normalize(o.preparation) : null;
+            : per100g && (o.preparation || (o.nutrition_source?.fdc_id && o.material && /^per 100 g edible portion$/i.test(o.basis || ''))) ? (/dry|dried|powder/i.test(o.basis || '') ? 'dry' : 'edible') + '::' + normalize(o.preparation || 'unspecified') : null;
         const rankEligible = !!(o.verified && per100g && factor && group && o.rank_eligible !== false);
         return { ...o, id: o.record, rank_eligible: rankEligible,
             comparison_group: rankEligible ? group : null,

@@ -106,3 +106,16 @@ This supersedes earlier lesson-placement amendments above. Place each existing S
 ## Approved independent intervention evidence pathway — 5 November 2026
 
 For SOPs and Lifestyle Levers, a new Scientific Finding is not required when the exact intervention–outcome proposition has independent primary references in the PM bibliography, separately recorded measured effect and PM relevance, full MoA/status, typed limitations and a valid pinned intervention-specific SEC assessment. Admission remains a separate adjudication. The validator must resolve the assessment to this PM and intervention and validate its content/hash; no Finding score may be inherited. Existing Finding links, when supplied, must remain valid. An incomplete independent record fails validation; this exception does not apply to dietary-input substance admission or allow unsupported claims. Author explicitly approved this clarification during release reconciliation. No new public presentation or numerical scoring rule.
+
+
+## Approved SOP/Lifestyle food–substance joins — 6 November 2026
+
+Author approved PM intervention-level food/substance links and reuse by the chord extractor. This does not admit an intervention, alter SEC or establish a causal mediator. Reuse canonical `food_ids`, `substance_ids`, ontology entries and exact existing six-atom links. Add only identity metadata supported by the recorded exposure; preserve preparation, comparator and limitations. Never mine unrelated Findings, outcome prose or pattern names for ingredients. Named patterns without explicit constituent identities remain unmapped. Behavioural interventions need no food/substance mapping.
+
+Generate the shared `intervention_mapping` in the existing food-strategy roll-up with `npm run mappings:food-strategies`. It inventories both SOPs and Lifestyle Levers, including Cross-BRS, independently of food-strategy scope. Explicitly rejected/deferred/candidate records are excluded; existing canonical arrays are retained as historical admissions, not newly adjudicated. A false dietary-input flag does not reject a Lifestyle Lever.
+
+Render documented identity links directly beneath the intervention title, using existing dietary-lever/source CSS. Preserve direct six-atom expansion and separate optional Mechanism summary. Composition-only sources are labelled separately; no seventh atom, new score, clinical claim, food-equivalence assumption or technical pathway panel. Missing mappings produce no public placeholder. Existing contextual material roles (e.g. potatoes versus extracted RS2) remain visible.
+
+The chord consumer uses the very same generated records/typed edges: PM-to-intervention, named identity, documented composition and intervention-context-to-BRS. These edges are not dietary-input admissions or therapeutic-effect assertions. Keep composition provenance and original PM/SOP identifiers. A pattern is not expanded into foods without recorded constituent evidence.
+
+Validation: `node --test scripts/intervention-food-substance.test.mjs`, existing dietary/Findings/SEC checks, `npm run presentation:check`, and representative browser inspection. Counts distinguish complete recorded food–substance pairs, partial identity-only mapping and unmapped records (including behaviour where a mapping is unnecessary). This is mapping completeness, not evidence confidence.

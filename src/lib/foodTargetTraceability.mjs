@@ -20,9 +20,9 @@ export function projectFoodTargets({relationships=[],substances={},research=[],f
  const identities=Array.isArray(substances)?Object.fromEntries(substances.map(s=>[s.id,s])):substances;
  for(const r of relationships) {
   if(!(r.presentations||[]).some(p=>canonicalSection(p.section)==='3.1.1')) {projected.push(r);continue;}
-  const admission=assessAdmission({...r,operation:r.operation},r.scientific_assessment,{substances:identities});
+  const admission=assessAdmission({...r,operation:r.operation},r.scientific_assessment,{substances:identities,sourceAtoms:r.source_identity?{[r.id]:r}:{}});
   // Preserve historical decisions without pretending they passed a newly introduced gate.
-  const scientificStatus=r.scientific_assessment?admission.status:(r.historical_admission&&r.dietary_input===true?'admitted':'unresolved');
+  const scientificStatus=r.scientific_assessment?(r.scientific_assessment.conversion_status==='unresolved'&&r.scientific_assessment.projection_status==='blocked'&&r.historical_admission&&r.dietary_input===true?'admitted':admission.status):(r.historical_admission&&r.dietary_input===true?'admitted':'unresolved');
   const supplyId=r.scientific_assessment?.canonical_substance_id||r.substance_id;
   const targets=[];
   if(scientificStatus==='admitted'&&supplyId&&identities[supplyId]) {
@@ -45,7 +45,7 @@ export function projectFoodTargets({relationships=[],substances={},research=[],f
   if(r.scientific_assessment?.review_required&&scientificStatus==='unresolved')warnings.push(`${r.input}: Scientific admission requires review. ${r.scientific_assessment.review_reason||'See the source assessment.'}`);
   if(!supplyId||!identities[supplyId])warnings.push(`${r.input}: canonical substance identity unresolved.`);
   const derived=(r.scientific_assessment?.classification||r.relationship_type?.classification)==='derived';
-  const conversionUnresolved=derived&&(!r.scientific_assessment?.conversion_pathway?.length||admission.errors.some(e=>/conversion|target|dependencies/.test(e)));
+  const conversionUnresolved=derived&&(r.scientific_assessment?.conversion_status==='unresolved'||!r.scientific_assessment?.conversion_pathway?.length||admission.errors.some(e=>/conversion|target|dependencies/.test(e)));
   if(conversionUnresolved)warnings.push(`${r.input} → ${r.derived_target||r.scientific_assessment?.active_target_id||'active target'}: conversion pathway reconciliation pending.`);
   const ontologyConnections={identity:supplyId&&identities[supplyId]?'resolved':'unresolved',conversion:derived?(conversionUnresolved?'unresolved':'supported'):'not-applicable',food:foods.length?'supported':'unresolved'};
   const foodDeliveryAssessment = identities[supplyId]?.food_delivery_assessment;

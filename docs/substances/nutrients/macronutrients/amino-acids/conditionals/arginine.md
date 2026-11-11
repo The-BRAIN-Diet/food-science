@@ -36,7 +36,7 @@ Food context matters: arginine-rich foods are mainly high-protein animal foods a
 ### Vegetarian (top links)
 
 - [Pumpkin Seeds](/docs/foods/pumpkin-seeds)
-- [Lupin Beans](/docs/foods/lupin-beans)
+- [Lupins](/docs/foods/lupins)
 - [Tofu](/docs/foods/tofu)
 
 ### Minor contributor

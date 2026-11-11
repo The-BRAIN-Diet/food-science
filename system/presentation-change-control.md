@@ -23,3 +23,19 @@ Both Dietary pathways technical panel types are withdrawn on ALL pages by explic
 ## Authorised nested pathway-disclosure removal — 3 November 2026
 
 Owner instruction: “Delete Unauthorised Dietary Pathway Disclosure.” Remove the generated `Dietary pathway evidence` / `.pm-input-pathway-evidence` block from all PM six-atom disclosures, including PM9 vitamin B6. Remove its exclusive renderer argument and ontology-projection subscription. This is a shared presentation removal only: keep pathway records, six atoms, Dietary Confidence, ontology links and approved food sources unchanged. No replacement is authorised. Representative expected result: PM9 vitamin B6 opens its existing six atoms and food disclosures without a nested pathway-evidence heading. The presentation baseline is not regenerated.
+
+
+## Canonical scientific projections — approved 10 November 2026
+
+Apply [Canonical scientific truth and presentation consistency](canonical-scientific-projections.md), including its five scientific, automated, release and publication checkpoints. Current mission comes from PM frontmatter; explanatory prose must not strengthen the canonical science. Preserve authoritative admissions, limitations and SEC history. Report conflicts with provenance instead of selecting the newest text.
+
+## Author-reviewed local release candidate — 11 November 2026
+
+Author instruction: “Yes, approve all four presentation changes as reviewed” with the NutritionTable proviso. Approval is presentation only.
+
+- NutritionTable: in the existing summary, highlight vitamins and minerals meeting 10% RI. For complete records (currently pears), a collapsed **Full vitamins and minerals** disclosure includes all public quantified panel observations, including small positives and those without an RI. Keep preparation, basis, sources and measurement status. Repeated highlight amounts in the full table are the same observations, not new evidence. Example: pear copper remains quantified even below the highlight threshold.
+- SubstanceFoods: below direct sources on the FOS/GOS substance page, show constituent food pathways, not foods containing the combined preparation. Example: garlic supplies documented fructans, not the tested mixture.
+- Mature soybeans: retain /soy/, with boiled unsalted beans as default, raw beans and defatted flour in separately labelled panels. No transfer of flour or raw concentrations to cooked beans.
+- Acetic acid: retain qualified food and trial context, cider vinegar presence only and vinegar-pickle brine only; no pickle concentration, isolated-acid effect or new admission.
+
+No ranking, food-composition, scientific-admission or release authorisation is conferred.

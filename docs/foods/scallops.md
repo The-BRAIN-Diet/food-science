@@ -17,6 +17,7 @@ overview_key_compounds:
   - Vitamin B12
   - Selenium
 nutrition_per_100g:
+  tyrosine_g: 0.296
   choline_mg: 65
   dha_mg: 61
   epa_mg: 42
@@ -104,6 +105,16 @@ nutrition_supplementary_sources:
     omit_substance_card: true
     evidence_status: unresolved
 substance_relationships:
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: "Mollusks, scallop, mixed species, raw"
+    source_url: https://fdc.nal.usda.gov/food-details/174220/nutrients
+    description: "USDA reports 296 mg tyrosine per 100 g edible portion of the specified food."
+    material_limitations: "USDA SR Legacy (April 2018), food-nutrient row 1841346, nutrient 1218; Analytical. Data points: 0. Exact database food: Mollusks, scallop, mixed species, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
   - substance: Selenium
     relationship: contains
     description: >-

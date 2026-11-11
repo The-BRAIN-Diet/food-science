@@ -23,6 +23,7 @@ tags:
 list_image: /img/foods/milk/milk_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
+  tyrosine_g: 0.159
   vitamin_a_rae_ug: 46
   caprylic_g: 0.075
   caproic_g: 0.075
@@ -68,6 +69,16 @@ main_image: /img/foods/milk/milk_medium.webp
 legacy_list_image: /img/foods/milk/milk_thumb.webp
 legacy_main_image: /img/foods/milk/milk_medium.webp
 substance_relationships:
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: "Milk, whole, 3.25% milkfat, with added vitamin D"
+    source_url: https://fdc.nal.usda.gov/food-details/171265/nutrients
+    description: "USDA reports 159 mg tyrosine per 100 g edible portion of the specified food."
+    material_limitations: "USDA SR Legacy (April 2018), food-nutrient row 1595699, nutrient 1218; Analytical. Data points: 0. Exact database food: Milk, whole, 3.25% milkfat, with added vitamin D. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
   - substance: Calcium
     relationship: contains
     description: USDA FoodData Central reports calcium in Milk, whole, 3.25% milkfat, with added vitamin D.

@@ -1,592 +1,808 @@
-# Canonical power-qualified sources
+# Shared PM/Wheel ranked sources
 
-Provisional ≥10%; maximum five per target. No clinical efficacy claim.
+Snapshot: 22c5855e87167bd33a6dbfc10bf48087c1186a550afe80e2a480d1b834579d35
 
-|PM|Substance|Food, original concentration, power and comparison pool|
-|---|---|---|
-|BRS1-FM1-PM1|indispensable-amino-acids|chicken: 12.865 g per 100 g edible portion; Power 100.000%; nine-EAA::as-eaten-100g / indispensable-amino-acids / per 100 g edible portion|
-|BRS1-FM1-PM1|indispensable-amino-acids|pumpkin-seeds: 11.205 g per 100 g edible portion; Power 87.097%; nine-EAA::as-eaten-100g / indispensable-amino-acids / per 100 g edible portion|
-|BRS1-FM1-PM1|indispensable-amino-acids|sardines: 10.433 g per 100 g edible portion; Power 81.096%; nine-EAA::as-eaten-100g / indispensable-amino-acids / per 100 g edible portion|
-|BRS1-FM1-PM1|indispensable-amino-acids|salmon: 9.368 g per 100 g edible portion; Power 72.818%; nine-EAA::as-eaten-100g / indispensable-amino-acids / per 100 g edible portion|
-|BRS1-FM1-PM1|indispensable-amino-acids|cheddar-cheese: 9.333 g per 100 g edible portion; Power 72.546%; nine-EAA::as-eaten-100g / indispensable-amino-acids / per 100 g edible portion|
-|BRS1-FM1-PM1|tyrosine|soy: 1.539 g per 100 g edible portion; Power 100.000%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS1-FM1-PM1|tyrosine|pumpkin-seeds: 1.093 g per 100 g edible portion; Power 71.020%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS1-FM1-PM1|tyrosine|tofu: 0.701 g per 100 g edible portion; Power 45.549%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS1-FM1-PM1|tyrosine|sunflower-seeds: 0.666 g per 100 g edible portion; Power 43.275%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS1-FM1-PM1|tyrosine|chicken: 0.597 g per 100 g edible portion; Power 38.791%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS1-FM1-PM1|tryptophan|soy: 0.591 g per 100 g edible portion; Power 100.000%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS1-FM1-PM1|tryptophan|pumpkin-seeds: 0.576 g per 100 g edible portion; Power 97.462%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS1-FM1-PM1|tryptophan|cheddar-cheese: 0.547 g per 100 g edible portion; Power 92.555%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS1-FM1-PM1|tryptophan|chicken: 0.362 g per 100 g edible portion; Power 61.252%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS1-FM1-PM1|tryptophan|sunflower-seeds: 0.348 g per 100 g edible portion; Power 58.883%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS1-FM1-PM2|tyrosine|soy: 1.539 g per 100 g edible portion; Power 100.000%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS1-FM1-PM2|tyrosine|pumpkin-seeds: 1.093 g per 100 g edible portion; Power 71.020%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS1-FM1-PM2|tyrosine|tofu: 0.701 g per 100 g edible portion; Power 45.549%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS1-FM1-PM2|tyrosine|sunflower-seeds: 0.666 g per 100 g edible portion; Power 43.275%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS1-FM1-PM2|tyrosine|chicken: 0.597 g per 100 g edible portion; Power 38.791%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS1-FM1-PM2|tryptophan|soy: 0.591 g per 100 g edible portion; Power 100.000%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS1-FM1-PM2|tryptophan|pumpkin-seeds: 0.576 g per 100 g edible portion; Power 97.462%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS1-FM1-PM2|tryptophan|cheddar-cheese: 0.547 g per 100 g edible portion; Power 92.555%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS1-FM1-PM2|tryptophan|chicken: 0.362 g per 100 g edible portion; Power 61.252%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS1-FM1-PM2|tryptophan|sunflower-seeds: 0.348 g per 100 g edible portion; Power 58.883%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS1-FM1-PM3|iron|thyme: 123.6 mg per 100 g edible portion; Power 100.000%; edible-mass / iron / per 100 g edible portion|
-|BRS1-FM1-PM3|iron|oregano: 36.8 mg per 100 g edible portion; Power 29.773%; edible-mass / iron / per 100 g edible portion|
-|BRS1-FM1-PM3|iron|spirulina: 28.5 mg per 100 g edible portion; Power 23.058%; edible-mass / iron / per 100 g edible portion|
-|BRS1-FM1-PM3|iron|cockles: 16.2 mg per 100 g edible portion; Power 13.107%; edible-mass / iron / per 100 g edible portion|
-|BRS1-FM1-PM3|iron|soy: 15.7 mg per 100 g edible portion; Power 12.702%; edible-mass / iron / per 100 g edible portion|
-|BRS1-FM1-PM3|vitamin-b6|pistachios: 1.7 mg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS1-FM1-PM3|vitamin-b6|sunflower-seeds: 1.345 mg per 100 g edible portion; Power 79.118%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS1-FM1-PM3|vitamin-b6|garlic: 1.235 mg per 100 g edible portion; Power 72.647%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS1-FM1-PM3|vitamin-b6|liver: 1.083 mg per 100 g edible portion; Power 63.706%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS1-FM1-PM3|vitamin-b6|oregano: 1.044 mg per 100 g edible portion; Power 61.412%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS1-FM1-PM3|tyrosine|soy: 1.539 g per 100 g edible portion; Power 100.000%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS1-FM1-PM3|tyrosine|pumpkin-seeds: 1.093 g per 100 g edible portion; Power 71.020%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS1-FM1-PM3|tyrosine|tofu: 0.701 g per 100 g edible portion; Power 45.549%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS1-FM1-PM3|tyrosine|sunflower-seeds: 0.666 g per 100 g edible portion; Power 43.275%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS1-FM1-PM3|tyrosine|chicken: 0.597 g per 100 g edible portion; Power 38.791%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS1-FM1-PM3|vitamin-b9|chickpeas: 557 µg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS1-FM1-PM3|vitamin-b9|lentils: 479 µg per 100 g edible portion; Power 85.996%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS1-FM1-PM3|vitamin-b9|black-beans: 444 µg per 100 g edible portion; Power 79.713%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS1-FM1-PM3|vitamin-b9|kidney-beans: 394 µg per 100 g edible portion; Power 70.736%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS1-FM1-PM3|vitamin-b9|soy: 375 µg per 100 g edible portion; Power 67.325%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS1-FM1-PM3|betaine|quinoa: 630 mg per 100 g food; Power 100.000%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS1-FM1-PM3|betaine|wheat-germ: 410 mg per 100 g food; Power 65.079%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS1-FM1-PM3|betaine|beetroot: 130 mg per 100 g food; Power 20.635%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS1-FM1-PM3|betaine|spinach: 120 mg per 100 g food; Power 19.048%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS1-FM1-PM3|betaine|amaranth: 68 mg per 100 g food; Power 10.794%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS1-FM1-PM3|choline|egg-yolks: 820.2 mg per 100 g edible portion; Power 100.000%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM1-PM3|choline|soy-lecithin: 350 mg per 100 g edible portion; Power 42.673%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM1-PM3|choline|liver: 333.3 mg per 100 g edible portion; Power 40.636%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM1-PM3|choline|eggs: 293.8 mg per 100 g edible portion; Power 35.821%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM1-PM3|choline|soy: 115.9 mg per 100 g edible portion; Power 14.131%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM1-PM3|phenylalanine|soy: 2.122 g per 100 g edible portion; Power 100.000%; edible-mass / phenylalanine / per 100 g edible portion|
-|BRS1-FM1-PM3|phenylalanine|pumpkin-seeds: 1.733 g per 100 g edible portion; Power 81.668%; edible-mass / phenylalanine / per 100 g edible portion|
-|BRS1-FM1-PM3|phenylalanine|chicken: 1.231 g per 100 g edible portion; Power 58.011%; edible-mass / phenylalanine / per 100 g edible portion|
-|BRS1-FM1-PM3|phenylalanine|peanuts: 1.227 g per 100 g edible portion; Power 57.823%; edible-mass / phenylalanine / per 100 g edible portion|
-|BRS1-FM1-PM3|phenylalanine|sunflower-seeds: 1.169 g per 100 g edible portion; Power 55.090%; edible-mass / phenylalanine / per 100 g edible portion|
-|BRS1-FM1-PM3|vitamin-b2|spirulina: 3.67 mg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS1-FM1-PM3|vitamin-b2|kidney: 2.84 mg per 100 g edible portion; Power 77.384%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS1-FM1-PM3|vitamin-b2|liver: 2.755 mg per 100 g edible portion; Power 75.068%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS1-FM1-PM3|vitamin-b2|heart: 0.906 mg per 100 g edible portion; Power 24.687%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS1-FM1-PM3|vitamin-b2|soy: 0.87 mg per 100 g edible portion; Power 23.706%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS1-FM1-PM3|magnesium|pumpkin-seeds: 592 mg per 100 g edible portion; Power 100.000%; edible-mass / magnesium / per 100 g edible portion|
-|BRS1-FM1-PM3|magnesium|sesame-seeds: 351 mg per 100 g edible portion; Power 59.291%; edible-mass / magnesium / per 100 g edible portion|
-|BRS1-FM1-PM3|magnesium|chia-seeds: 335 mg per 100 g edible portion; Power 56.588%; edible-mass / magnesium / per 100 g edible portion|
-|BRS1-FM1-PM3|magnesium|sunflower-seeds: 325 mg per 100 g edible portion; Power 54.899%; edible-mass / magnesium / per 100 g edible portion|
-|BRS1-FM1-PM3|magnesium|cashews: 292 mg per 100 g edible portion; Power 49.324%; edible-mass / magnesium / per 100 g edible portion|
-|BRS1-FM1-PM4|iron|thyme: 123.6 mg per 100 g edible portion; Power 100.000%; edible-mass / iron / per 100 g edible portion|
-|BRS1-FM1-PM4|iron|oregano: 36.8 mg per 100 g edible portion; Power 29.773%; edible-mass / iron / per 100 g edible portion|
-|BRS1-FM1-PM4|iron|spirulina: 28.5 mg per 100 g edible portion; Power 23.058%; edible-mass / iron / per 100 g edible portion|
-|BRS1-FM1-PM4|iron|cockles: 16.2 mg per 100 g edible portion; Power 13.107%; edible-mass / iron / per 100 g edible portion|
-|BRS1-FM1-PM4|iron|soy: 15.7 mg per 100 g edible portion; Power 12.702%; edible-mass / iron / per 100 g edible portion|
-|BRS1-FM1-PM4|vitamin-b6|pistachios: 1.7 mg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS1-FM1-PM4|vitamin-b6|sunflower-seeds: 1.345 mg per 100 g edible portion; Power 79.118%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS1-FM1-PM4|vitamin-b6|garlic: 1.235 mg per 100 g edible portion; Power 72.647%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS1-FM1-PM4|vitamin-b6|liver: 1.083 mg per 100 g edible portion; Power 63.706%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS1-FM1-PM4|vitamin-b6|oregano: 1.044 mg per 100 g edible portion; Power 61.412%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS1-FM1-PM4|copper|liver: 9.755 mg per 100 g edible portion; Power 100.000%; edible-mass / copper / per 100 g edible portion|
-|BRS1-FM1-PM4|copper|spirulina: 6.1 mg per 100 g edible portion; Power 62.532%; edible-mass / copper / per 100 g edible portion|
-|BRS1-FM1-PM4|copper|sesame-seeds: 4.082 mg per 100 g edible portion; Power 41.845%; edible-mass / copper / per 100 g edible portion|
-|BRS1-FM1-PM4|copper|oysters: 2.858 mg per 100 g edible portion; Power 29.298%; edible-mass / copper / per 100 g edible portion|
-|BRS1-FM1-PM4|copper|cashews: 2.195 mg per 100 g edible portion; Power 22.501%; edible-mass / copper / per 100 g edible portion|
-|BRS1-FM1-PM4|vitamin-c|bell-peppers: 127.7 mg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-c / per 100 g edible portion|
-|BRS1-FM1-PM4|vitamin-c|kale: 93.4 mg per 100 g edible portion; Power 73.140%; edible-mass / vitamin-c / per 100 g edible portion|
-|BRS1-FM1-PM4|vitamin-c|broccoli: 89.2 mg per 100 g edible portion; Power 69.851%; edible-mass / vitamin-c / per 100 g edible portion|
-|BRS1-FM1-PM4|vitamin-c|brussels-sprouts: 85 mg per 100 g edible portion; Power 66.562%; edible-mass / vitamin-c / per 100 g edible portion|
-|BRS1-FM1-PM4|vitamin-c|strawberries: 58.8 mg per 100 g edible portion; Power 46.045%; edible-mass / vitamin-c / per 100 g edible portion|
-|BRS1-FM1-PM4|tyrosine|soy: 1.539 g per 100 g edible portion; Power 100.000%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS1-FM1-PM4|tyrosine|pumpkin-seeds: 1.093 g per 100 g edible portion; Power 71.020%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS1-FM1-PM4|tyrosine|tofu: 0.701 g per 100 g edible portion; Power 45.549%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS1-FM1-PM4|tyrosine|sunflower-seeds: 0.666 g per 100 g edible portion; Power 43.275%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS1-FM1-PM4|tyrosine|chicken: 0.597 g per 100 g edible portion; Power 38.791%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS1-FM1-PM4|vitamin-b9|chickpeas: 557 µg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS1-FM1-PM4|vitamin-b9|lentils: 479 µg per 100 g edible portion; Power 85.996%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS1-FM1-PM4|vitamin-b9|black-beans: 444 µg per 100 g edible portion; Power 79.713%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS1-FM1-PM4|vitamin-b9|kidney-beans: 394 µg per 100 g edible portion; Power 70.736%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS1-FM1-PM4|vitamin-b9|soy: 375 µg per 100 g edible portion; Power 67.325%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS1-FM1-PM4|betaine|quinoa: 630 mg per 100 g food; Power 100.000%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS1-FM1-PM4|betaine|wheat-germ: 410 mg per 100 g food; Power 65.079%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS1-FM1-PM4|betaine|beetroot: 130 mg per 100 g food; Power 20.635%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS1-FM1-PM4|betaine|spinach: 120 mg per 100 g food; Power 19.048%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS1-FM1-PM4|betaine|amaranth: 68 mg per 100 g food; Power 10.794%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS1-FM1-PM4|choline|egg-yolks: 820.2 mg per 100 g edible portion; Power 100.000%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM1-PM4|choline|soy-lecithin: 350 mg per 100 g edible portion; Power 42.673%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM1-PM4|choline|liver: 333.3 mg per 100 g edible portion; Power 40.636%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM1-PM4|choline|eggs: 293.8 mg per 100 g edible portion; Power 35.821%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM1-PM4|choline|soy: 115.9 mg per 100 g edible portion; Power 14.131%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM1-PM4|phenylalanine|soy: 2.122 g per 100 g edible portion; Power 100.000%; edible-mass / phenylalanine / per 100 g edible portion|
-|BRS1-FM1-PM4|phenylalanine|pumpkin-seeds: 1.733 g per 100 g edible portion; Power 81.668%; edible-mass / phenylalanine / per 100 g edible portion|
-|BRS1-FM1-PM4|phenylalanine|chicken: 1.231 g per 100 g edible portion; Power 58.011%; edible-mass / phenylalanine / per 100 g edible portion|
-|BRS1-FM1-PM4|phenylalanine|peanuts: 1.227 g per 100 g edible portion; Power 57.823%; edible-mass / phenylalanine / per 100 g edible portion|
-|BRS1-FM1-PM4|phenylalanine|sunflower-seeds: 1.169 g per 100 g edible portion; Power 55.090%; edible-mass / phenylalanine / per 100 g edible portion|
-|BRS1-FM1-PM4|vitamin-b2|spirulina: 3.67 mg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS1-FM1-PM4|vitamin-b2|kidney: 2.84 mg per 100 g edible portion; Power 77.384%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS1-FM1-PM4|vitamin-b2|liver: 2.755 mg per 100 g edible portion; Power 75.068%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS1-FM1-PM4|vitamin-b2|heart: 0.906 mg per 100 g edible portion; Power 24.687%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS1-FM1-PM4|vitamin-b2|soy: 0.87 mg per 100 g edible portion; Power 23.706%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS1-FM1-PM4|magnesium|pumpkin-seeds: 592 mg per 100 g edible portion; Power 100.000%; edible-mass / magnesium / per 100 g edible portion|
-|BRS1-FM1-PM4|magnesium|sesame-seeds: 351 mg per 100 g edible portion; Power 59.291%; edible-mass / magnesium / per 100 g edible portion|
-|BRS1-FM1-PM4|magnesium|chia-seeds: 335 mg per 100 g edible portion; Power 56.588%; edible-mass / magnesium / per 100 g edible portion|
-|BRS1-FM1-PM4|magnesium|sunflower-seeds: 325 mg per 100 g edible portion; Power 54.899%; edible-mass / magnesium / per 100 g edible portion|
-|BRS1-FM1-PM4|magnesium|cashews: 292 mg per 100 g edible portion; Power 49.324%; edible-mass / magnesium / per 100 g edible portion|
-|BRS1-FM1-PM5|tryptophan|soy: 0.591 g per 100 g edible portion; Power 100.000%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS1-FM1-PM5|tryptophan|pumpkin-seeds: 0.576 g per 100 g edible portion; Power 97.462%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS1-FM1-PM5|tryptophan|cheddar-cheese: 0.547 g per 100 g edible portion; Power 92.555%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS1-FM1-PM5|tryptophan|chicken: 0.362 g per 100 g edible portion; Power 61.252%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS1-FM1-PM5|tryptophan|sunflower-seeds: 0.348 g per 100 g edible portion; Power 58.883%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS1-FM1-PM5|iron|thyme: 123.6 mg per 100 g edible portion; Power 100.000%; edible-mass / iron / per 100 g edible portion|
-|BRS1-FM1-PM5|iron|oregano: 36.8 mg per 100 g edible portion; Power 29.773%; edible-mass / iron / per 100 g edible portion|
-|BRS1-FM1-PM5|iron|spirulina: 28.5 mg per 100 g edible portion; Power 23.058%; edible-mass / iron / per 100 g edible portion|
-|BRS1-FM1-PM5|iron|cockles: 16.2 mg per 100 g edible portion; Power 13.107%; edible-mass / iron / per 100 g edible portion|
-|BRS1-FM1-PM5|iron|soy: 15.7 mg per 100 g edible portion; Power 12.702%; edible-mass / iron / per 100 g edible portion|
-|BRS1-FM1-PM5|vitamin-b6|pistachios: 1.7 mg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS1-FM1-PM5|vitamin-b6|sunflower-seeds: 1.345 mg per 100 g edible portion; Power 79.118%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS1-FM1-PM5|vitamin-b6|garlic: 1.235 mg per 100 g edible portion; Power 72.647%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS1-FM1-PM5|vitamin-b6|liver: 1.083 mg per 100 g edible portion; Power 63.706%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS1-FM1-PM5|vitamin-b6|oregano: 1.044 mg per 100 g edible portion; Power 61.412%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS1-FM1-PM5|vitamin-b2|spirulina: 3.67 mg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS1-FM1-PM5|vitamin-b2|kidney: 2.84 mg per 100 g edible portion; Power 77.384%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS1-FM1-PM5|vitamin-b2|liver: 2.755 mg per 100 g edible portion; Power 75.068%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS1-FM1-PM5|vitamin-b2|heart: 0.906 mg per 100 g edible portion; Power 24.687%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS1-FM1-PM5|vitamin-b2|soy: 0.87 mg per 100 g edible portion; Power 23.706%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS1-FM2-PM6|choline|egg-yolks: 820.2 mg per 100 g edible portion; Power 100.000%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM2-PM6|choline|soy-lecithin: 350 mg per 100 g edible portion; Power 42.673%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM2-PM6|choline|liver: 333.3 mg per 100 g edible portion; Power 40.636%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM2-PM6|choline|eggs: 293.8 mg per 100 g edible portion; Power 35.821%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM2-PM6|choline|soy: 115.9 mg per 100 g edible portion; Power 14.131%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM2-PM6|vitamin-b5|liver: 7.173 mg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b5 / per 100 g edible portion|
-|BRS1-FM2-PM6|vitamin-b5|kidney: 3.97 mg per 100 g edible portion; Power 55.346%; edible-mass / vitamin-b5 / per 100 g edible portion|
-|BRS1-FM2-PM6|vitamin-b5|spirulina: 3.48 mg per 100 g edible portion; Power 48.515%; edible-mass / vitamin-b5 / per 100 g edible portion|
-|BRS1-FM2-PM6|vitamin-b5|egg-yolks: 2.99 mg per 100 g edible portion; Power 41.684%; edible-mass / vitamin-b5 / per 100 g edible portion|
-|BRS1-FM2-PM6|vitamin-b5|salmon-roe: 2.36 mg per 100 g edible portion; Power 32.901%; edible-mass / vitamin-b5 / per 100 g edible portion|
-|BRS1-FM2-PM6|vitamin-b9|chickpeas: 557 µg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS1-FM2-PM6|vitamin-b9|lentils: 479 µg per 100 g edible portion; Power 85.996%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS1-FM2-PM6|vitamin-b9|black-beans: 444 µg per 100 g edible portion; Power 79.713%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS1-FM2-PM6|vitamin-b9|kidney-beans: 394 µg per 100 g edible portion; Power 70.736%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS1-FM2-PM6|vitamin-b9|soy: 375 µg per 100 g edible portion; Power 67.325%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS1-FM2-PM6|sodium|anchovies: 3668 mg per 100 g edible portion; Power 100.000%; edible-mass / sodium / per 100 g edible portion|
-|BRS1-FM2-PM6|sodium|capers: 2348 mg per 100 g edible portion; Power 64.013%; edible-mass / sodium / per 100 g edible portion|
-|BRS1-FM2-PM6|sodium|spirulina: 1048 mg per 100 g edible portion; Power 28.571%; edible-mass / sodium / per 100 g edible portion|
-|BRS1-FM2-PM6|sodium|salmon-roe: 910 mg per 100 g edible portion; Power 24.809%; edible-mass / sodium / per 100 g edible portion|
-|BRS1-FM2-PM6|sodium|olives: 735 mg per 100 g edible portion; Power 20.038%; edible-mass / sodium / per 100 g edible portion|
-|BRS1-FM3-PM7|dha-docosahexaenoic-acid|salmon-roe: 2000 mg per 100 g edible portion; Power 100.000%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS1-FM3-PM7|dha-docosahexaenoic-acid|mackerel: 1401 mg per 100 g edible portion; Power 70.050%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS1-FM3-PM7|dha-docosahexaenoic-acid|anchovies: 1292 mg per 100 g edible portion; Power 64.600%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS1-FM3-PM7|dha-docosahexaenoic-acid|salmon: 1104 mg per 100 g edible portion; Power 55.200%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS1-FM3-PM7|dha-docosahexaenoic-acid|tuna: 890 mg per 100 g edible portion; Power 44.500%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS1-FM3-PM7|choline|egg-yolks: 820.2 mg per 100 g edible portion; Power 100.000%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM3-PM7|choline|soy-lecithin: 350 mg per 100 g edible portion; Power 42.673%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM3-PM7|choline|liver: 333.3 mg per 100 g edible portion; Power 40.636%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM3-PM7|choline|eggs: 293.8 mg per 100 g edible portion; Power 35.821%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM3-PM7|choline|soy: 115.9 mg per 100 g edible portion; Power 14.131%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM3-PM7|vitamin-b9|chickpeas: 557 µg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS1-FM3-PM7|vitamin-b9|lentils: 479 µg per 100 g edible portion; Power 85.996%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS1-FM3-PM7|vitamin-b9|black-beans: 444 µg per 100 g edible portion; Power 79.713%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS1-FM3-PM7|vitamin-b9|kidney-beans: 394 µg per 100 g edible portion; Power 70.736%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS1-FM3-PM7|vitamin-b9|soy: 375 µg per 100 g edible portion; Power 67.325%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS1-FM3-PM7|betaine|quinoa: 630 mg per 100 g food; Power 100.000%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS1-FM3-PM7|betaine|wheat-germ: 410 mg per 100 g food; Power 65.079%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS1-FM3-PM7|betaine|beetroot: 130 mg per 100 g food; Power 20.635%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS1-FM3-PM7|betaine|spinach: 120 mg per 100 g food; Power 19.048%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS1-FM3-PM7|betaine|amaranth: 68 mg per 100 g food; Power 10.794%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS1-FM3-PM7|sodium|anchovies: 3668 mg per 100 g edible portion; Power 100.000%; edible-mass / sodium / per 100 g edible portion|
-|BRS1-FM3-PM7|sodium|capers: 2348 mg per 100 g edible portion; Power 64.013%; edible-mass / sodium / per 100 g edible portion|
-|BRS1-FM3-PM7|sodium|spirulina: 1048 mg per 100 g edible portion; Power 28.571%; edible-mass / sodium / per 100 g edible portion|
-|BRS1-FM3-PM7|sodium|salmon-roe: 910 mg per 100 g edible portion; Power 24.809%; edible-mass / sodium / per 100 g edible portion|
-|BRS1-FM3-PM7|sodium|olives: 735 mg per 100 g edible portion; Power 20.038%; edible-mass / sodium / per 100 g edible portion|
-|BRS1-FM4-PM10|sodium|anchovies: 3668 mg per 100 g edible portion; Power 100.000%; edible-mass / sodium / per 100 g edible portion|
-|BRS1-FM4-PM10|sodium|capers: 2348 mg per 100 g edible portion; Power 64.013%; edible-mass / sodium / per 100 g edible portion|
-|BRS1-FM4-PM10|sodium|spirulina: 1048 mg per 100 g edible portion; Power 28.571%; edible-mass / sodium / per 100 g edible portion|
-|BRS1-FM4-PM10|sodium|salmon-roe: 910 mg per 100 g edible portion; Power 24.809%; edible-mass / sodium / per 100 g edible portion|
-|BRS1-FM4-PM10|sodium|olives: 735 mg per 100 g edible portion; Power 20.038%; edible-mass / sodium / per 100 g edible portion|
-|BRS1-FM4-PM10|potassium|soy: 1797 mg per 100 g edible portion; Power 100.000%; edible-mass / potassium / per 100 g edible portion|
-|BRS1-FM4-PM10|potassium|black-beans: 1483 mg per 100 g edible portion; Power 82.526%; edible-mass / potassium / per 100 g edible portion|
-|BRS1-FM4-PM10|potassium|kidney-beans: 1406 mg per 100 g edible portion; Power 78.242%; edible-mass / potassium / per 100 g edible portion|
-|BRS1-FM4-PM10|potassium|spirulina: 1363 mg per 100 g edible portion; Power 75.849%; edible-mass / potassium / per 100 g edible portion|
-|BRS1-FM4-PM10|potassium|oregano: 1260 mg per 100 g edible portion; Power 70.117%; edible-mass / potassium / per 100 g edible portion|
-|BRS1-FM4-PM11|magnesium|pumpkin-seeds: 592 mg per 100 g edible portion; Power 100.000%; edible-mass / magnesium / per 100 g edible portion|
-|BRS1-FM4-PM11|magnesium|sesame-seeds: 351 mg per 100 g edible portion; Power 59.291%; edible-mass / magnesium / per 100 g edible portion|
-|BRS1-FM4-PM11|magnesium|chia-seeds: 335 mg per 100 g edible portion; Power 56.588%; edible-mass / magnesium / per 100 g edible portion|
-|BRS1-FM4-PM11|magnesium|sunflower-seeds: 325 mg per 100 g edible portion; Power 54.899%; edible-mass / magnesium / per 100 g edible portion|
-|BRS1-FM4-PM11|magnesium|cashews: 292 mg per 100 g edible portion; Power 49.324%; edible-mass / magnesium / per 100 g edible portion|
-|BRS1-FM4-PM9|vitamin-b6|pistachios: 1.7 mg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS1-FM4-PM9|vitamin-b6|sunflower-seeds: 1.345 mg per 100 g edible portion; Power 79.118%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS1-FM4-PM9|vitamin-b6|garlic: 1.235 mg per 100 g edible portion; Power 72.647%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS1-FM4-PM9|vitamin-b6|liver: 1.083 mg per 100 g edible portion; Power 63.706%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS1-FM4-PM9|vitamin-b6|oregano: 1.044 mg per 100 g edible portion; Power 61.412%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS1-FM5-PM12|choline|egg-yolks: 820.2 mg per 100 g edible portion; Power 100.000%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM5-PM12|choline|soy-lecithin: 350 mg per 100 g edible portion; Power 42.673%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM5-PM12|choline|liver: 333.3 mg per 100 g edible portion; Power 40.636%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM5-PM12|choline|eggs: 293.8 mg per 100 g edible portion; Power 35.821%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM5-PM12|choline|soy: 115.9 mg per 100 g edible portion; Power 14.131%; edible-mass / choline / per 100 g edible portion|
-|BRS1-FM5-PM12|dha-docosahexaenoic-acid|salmon-roe: 2000 mg per 100 g edible portion; Power 100.000%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS1-FM5-PM12|dha-docosahexaenoic-acid|mackerel: 1401 mg per 100 g edible portion; Power 70.050%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS1-FM5-PM12|dha-docosahexaenoic-acid|anchovies: 1292 mg per 100 g edible portion; Power 64.600%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS1-FM5-PM12|dha-docosahexaenoic-acid|salmon: 1104 mg per 100 g edible portion; Power 55.200%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS1-FM5-PM12|dha-docosahexaenoic-acid|tuna: 890 mg per 100 g edible portion; Power 44.500%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS2-FM1-PM1|5-methyltetrahydrofolate|spinach: 288 µg per 100 g fresh edible material; Power 100.000%; 5-mthf-monoglutamate-equivalents::wang-2010::fresh-mass / 5-MTHF equivalents, summed monoglutamate and polyglutamate species / per 100 g fresh edible material|
-|BRS2-FM1-PM1|5-methyltetrahydrofolate|swiss-chard: 242 µg per 100 g fresh edible material; Power 84.028%; 5-mthf-monoglutamate-equivalents::wang-2010::fresh-mass / 5-MTHF equivalents, summed monoglutamate and polyglutamate species / per 100 g fresh edible material|
-|BRS2-FM1-PM1|5-methyltetrahydrofolate|broccoli: 101 µg per 100 g fresh edible material; Power 35.069%; 5-mthf-monoglutamate-equivalents::wang-2010::fresh-mass / 5-MTHF equivalents, summed monoglutamate and polyglutamate species / per 100 g fresh edible material|
-|BRS2-FM1-PM1|5-methyltetrahydrofolate|cauliflower: 92 µg per 100 g fresh edible material; Power 31.944%; 5-mthf-monoglutamate-equivalents::wang-2010::fresh-mass / 5-MTHF equivalents, summed monoglutamate and polyglutamate species / per 100 g fresh edible material|
-|BRS2-FM1-PM1|5-methyltetrahydrofolate|kale: 54 µg per 100 g fresh edible material; Power 18.750%; 5-mthf-monoglutamate-equivalents::wang-2010::fresh-mass / 5-MTHF equivalents, summed monoglutamate and polyglutamate species / per 100 g fresh edible material|
-|BRS2-FM1-PM1|vitamin-b9|chickpeas: 557 µg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS2-FM1-PM1|vitamin-b9|lentils: 479 µg per 100 g edible portion; Power 85.996%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS2-FM1-PM1|vitamin-b9|black-beans: 444 µg per 100 g edible portion; Power 79.713%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS2-FM1-PM1|vitamin-b9|kidney-beans: 394 µg per 100 g edible portion; Power 70.736%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS2-FM1-PM1|vitamin-b9|soy: 375 µg per 100 g edible portion; Power 67.325%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS2-FM1-PM1|vitamin-b12|liver: 59.3 µg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b12 / per 100 g edible portion|
-|BRS2-FM1-PM1|vitamin-b12|salmon-roe: 47 µg per 100 g edible portion; Power 79.258%; edible-mass / vitamin-b12 / per 100 g edible portion|
-|BRS2-FM1-PM1|vitamin-b12|kidney: 27.5 µg per 100 g edible portion; Power 46.374%; edible-mass / vitamin-b12 / per 100 g edible portion|
-|BRS2-FM1-PM1|vitamin-b12|herring: 13.67 µg per 100 g edible portion; Power 23.052%; edible-mass / vitamin-b12 / per 100 g edible portion|
-|BRS2-FM1-PM1|vitamin-b12|mussels: 12 µg per 100 g edible portion; Power 20.236%; edible-mass / vitamin-b12 / per 100 g edible portion|
-|BRS2-FM1-PM1|vitamin-b2|spirulina: 3.67 mg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS2-FM1-PM1|vitamin-b2|kidney: 2.84 mg per 100 g edible portion; Power 77.384%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS2-FM1-PM1|vitamin-b2|liver: 2.755 mg per 100 g edible portion; Power 75.068%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS2-FM1-PM1|vitamin-b2|heart: 0.906 mg per 100 g edible portion; Power 24.687%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS2-FM1-PM1|vitamin-b2|soy: 0.87 mg per 100 g edible portion; Power 23.706%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS2-FM1-PM2|betaine|quinoa: 630 mg per 100 g food; Power 100.000%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS2-FM1-PM2|betaine|wheat-germ: 410 mg per 100 g food; Power 65.079%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS2-FM1-PM2|betaine|beetroot: 130 mg per 100 g food; Power 20.635%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS2-FM1-PM2|betaine|spinach: 120 mg per 100 g food; Power 19.048%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS2-FM1-PM2|betaine|amaranth: 68 mg per 100 g food; Power 10.794%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS2-FM1-PM2|choline|egg-yolks: 820.2 mg per 100 g edible portion; Power 100.000%; edible-mass / choline / per 100 g edible portion|
-|BRS2-FM1-PM2|choline|soy-lecithin: 350 mg per 100 g edible portion; Power 42.673%; edible-mass / choline / per 100 g edible portion|
-|BRS2-FM1-PM2|choline|liver: 333.3 mg per 100 g edible portion; Power 40.636%; edible-mass / choline / per 100 g edible portion|
-|BRS2-FM1-PM2|choline|eggs: 293.8 mg per 100 g edible portion; Power 35.821%; edible-mass / choline / per 100 g edible portion|
-|BRS2-FM1-PM2|choline|soy: 115.9 mg per 100 g edible portion; Power 14.131%; edible-mass / choline / per 100 g edible portion|
-|BRS2-FM1-PM2|zinc|oysters: 39.3 mg per 100 g edible portion; Power 100.000%; edible-mass / zinc / per 100 g edible portion|
-|BRS2-FM1-PM2|zinc|pumpkin-seeds: 7.81 mg per 100 g edible portion; Power 19.873%; edible-mass / zinc / per 100 g edible portion|
-|BRS2-FM1-PM2|zinc|sesame-seeds: 7.75 mg per 100 g edible portion; Power 19.720%; edible-mass / zinc / per 100 g edible portion|
-|BRS2-FM1-PM2|zinc|thyme: 6.18 mg per 100 g edible portion; Power 15.725%; edible-mass / zinc / per 100 g edible portion|
-|BRS2-FM1-PM2|zinc|cashews: 5.78 mg per 100 g edible portion; Power 14.707%; edible-mass / zinc / per 100 g edible portion|
-|BRS2-FM1-PM3|methionine|sardines: 1.086 g per 100 g edible portion; Power 100.000%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM1-PM3|methionine|tuna: 0.69 g per 100 g edible portion; Power 63.536%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM1-PM3|methionine|salmon: 0.626 g per 100 g edible portion; Power 57.643%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM1-PM3|methionine|chicken: 0.493 g per 100 g edible portion; Power 45.396%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM1-PM3|methionine|eggs: 0.38 g per 100 g edible portion; Power 34.991%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM1-PM3|magnesium|pumpkin-seeds: 592 mg per 100 g edible portion; Power 100.000%; edible-mass / magnesium / per 100 g edible portion|
-|BRS2-FM1-PM3|magnesium|sesame-seeds: 351 mg per 100 g edible portion; Power 59.291%; edible-mass / magnesium / per 100 g edible portion|
-|BRS2-FM1-PM3|magnesium|chia-seeds: 335 mg per 100 g edible portion; Power 56.588%; edible-mass / magnesium / per 100 g edible portion|
-|BRS2-FM1-PM3|magnesium|sunflower-seeds: 325 mg per 100 g edible portion; Power 54.899%; edible-mass / magnesium / per 100 g edible portion|
-|BRS2-FM1-PM3|magnesium|cashews: 292 mg per 100 g edible portion; Power 49.324%; edible-mass / magnesium / per 100 g edible portion|
-|BRS2-FM1-PM3|potassium|soy: 1797 mg per 100 g edible portion; Power 100.000%; edible-mass / potassium / per 100 g edible portion|
-|BRS2-FM1-PM3|potassium|black-beans: 1483 mg per 100 g edible portion; Power 82.526%; edible-mass / potassium / per 100 g edible portion|
-|BRS2-FM1-PM3|potassium|kidney-beans: 1406 mg per 100 g edible portion; Power 78.242%; edible-mass / potassium / per 100 g edible portion|
-|BRS2-FM1-PM3|potassium|spirulina: 1363 mg per 100 g edible portion; Power 75.849%; edible-mass / potassium / per 100 g edible portion|
-|BRS2-FM1-PM3|potassium|oregano: 1260 mg per 100 g edible portion; Power 70.117%; edible-mass / potassium / per 100 g edible portion|
-|BRS2-FM1-PM3|vitamin-b9|chickpeas: 557 µg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS2-FM1-PM3|vitamin-b9|lentils: 479 µg per 100 g edible portion; Power 85.996%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS2-FM1-PM3|vitamin-b9|black-beans: 444 µg per 100 g edible portion; Power 79.713%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS2-FM1-PM3|vitamin-b9|kidney-beans: 394 µg per 100 g edible portion; Power 70.736%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS2-FM1-PM3|vitamin-b9|soy: 375 µg per 100 g edible portion; Power 67.325%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS2-FM1-PM3|betaine|quinoa: 630 mg per 100 g food; Power 100.000%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS2-FM1-PM3|betaine|wheat-germ: 410 mg per 100 g food; Power 65.079%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS2-FM1-PM3|betaine|beetroot: 130 mg per 100 g food; Power 20.635%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS2-FM1-PM3|betaine|spinach: 120 mg per 100 g food; Power 19.048%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS2-FM1-PM3|betaine|amaranth: 68 mg per 100 g food; Power 10.794%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS2-FM1-PM3|choline|egg-yolks: 820.2 mg per 100 g edible portion; Power 100.000%; edible-mass / choline / per 100 g edible portion|
-|BRS2-FM1-PM3|choline|soy-lecithin: 350 mg per 100 g edible portion; Power 42.673%; edible-mass / choline / per 100 g edible portion|
-|BRS2-FM1-PM3|choline|liver: 333.3 mg per 100 g edible portion; Power 40.636%; edible-mass / choline / per 100 g edible portion|
-|BRS2-FM1-PM3|choline|eggs: 293.8 mg per 100 g edible portion; Power 35.821%; edible-mass / choline / per 100 g edible portion|
-|BRS2-FM1-PM3|choline|soy: 115.9 mg per 100 g edible portion; Power 14.131%; edible-mass / choline / per 100 g edible portion|
-|BRS2-FM1-PM4|methionine|sardines: 1.086 g per 100 g edible portion; Power 100.000%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM1-PM4|methionine|tuna: 0.69 g per 100 g edible portion; Power 63.536%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM1-PM4|methionine|salmon: 0.626 g per 100 g edible portion; Power 57.643%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM1-PM4|methionine|chicken: 0.493 g per 100 g edible portion; Power 45.396%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM1-PM4|methionine|eggs: 0.38 g per 100 g edible portion; Power 34.991%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM1-PM4|vitamin-b9|chickpeas: 557 µg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS2-FM1-PM4|vitamin-b9|lentils: 479 µg per 100 g edible portion; Power 85.996%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS2-FM1-PM4|vitamin-b9|black-beans: 444 µg per 100 g edible portion; Power 79.713%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS2-FM1-PM4|vitamin-b9|kidney-beans: 394 µg per 100 g edible portion; Power 70.736%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS2-FM1-PM4|vitamin-b9|soy: 375 µg per 100 g edible portion; Power 67.325%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS2-FM1-PM4|vitamin-b12|liver: 59.3 µg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b12 / per 100 g edible portion|
-|BRS2-FM1-PM4|vitamin-b12|salmon-roe: 47 µg per 100 g edible portion; Power 79.258%; edible-mass / vitamin-b12 / per 100 g edible portion|
-|BRS2-FM1-PM4|vitamin-b12|kidney: 27.5 µg per 100 g edible portion; Power 46.374%; edible-mass / vitamin-b12 / per 100 g edible portion|
-|BRS2-FM1-PM4|vitamin-b12|herring: 13.67 µg per 100 g edible portion; Power 23.052%; edible-mass / vitamin-b12 / per 100 g edible portion|
-|BRS2-FM1-PM4|vitamin-b12|mussels: 12 µg per 100 g edible portion; Power 20.236%; edible-mass / vitamin-b12 / per 100 g edible portion|
-|BRS2-FM1-PM4|vitamin-b6|pistachios: 1.7 mg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS2-FM1-PM4|vitamin-b6|sunflower-seeds: 1.345 mg per 100 g edible portion; Power 79.118%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS2-FM1-PM4|vitamin-b6|garlic: 1.235 mg per 100 g edible portion; Power 72.647%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS2-FM1-PM4|vitamin-b6|liver: 1.083 mg per 100 g edible portion; Power 63.706%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS2-FM1-PM4|vitamin-b6|oregano: 1.044 mg per 100 g edible portion; Power 61.412%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS2-FM1-PM4|vitamin-b2|spirulina: 3.67 mg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS2-FM1-PM4|vitamin-b2|kidney: 2.84 mg per 100 g edible portion; Power 77.384%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS2-FM1-PM4|vitamin-b2|liver: 2.755 mg per 100 g edible portion; Power 75.068%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS2-FM1-PM4|vitamin-b2|heart: 0.906 mg per 100 g edible portion; Power 24.687%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS2-FM1-PM4|vitamin-b2|soy: 0.87 mg per 100 g edible portion; Power 23.706%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS2-FM1-PM4|betaine|quinoa: 630 mg per 100 g food; Power 100.000%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS2-FM1-PM4|betaine|wheat-germ: 410 mg per 100 g food; Power 65.079%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS2-FM1-PM4|betaine|beetroot: 130 mg per 100 g food; Power 20.635%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS2-FM1-PM4|betaine|spinach: 120 mg per 100 g food; Power 19.048%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS2-FM1-PM4|betaine|amaranth: 68 mg per 100 g food; Power 10.794%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS2-FM1-PM4|choline|egg-yolks: 820.2 mg per 100 g edible portion; Power 100.000%; edible-mass / choline / per 100 g edible portion|
-|BRS2-FM1-PM4|choline|soy-lecithin: 350 mg per 100 g edible portion; Power 42.673%; edible-mass / choline / per 100 g edible portion|
-|BRS2-FM1-PM4|choline|liver: 333.3 mg per 100 g edible portion; Power 40.636%; edible-mass / choline / per 100 g edible portion|
-|BRS2-FM1-PM4|choline|eggs: 293.8 mg per 100 g edible portion; Power 35.821%; edible-mass / choline / per 100 g edible portion|
-|BRS2-FM1-PM4|choline|soy: 115.9 mg per 100 g edible portion; Power 14.131%; edible-mass / choline / per 100 g edible portion|
-|BRS2-FM1-PM4|glycine|soy: 1.88 g per 100 g edible portion; Power 100.000%; edible-mass / glycine / per 100 g edible portion|
-|BRS2-FM1-PM4|glycine|pumpkin-seeds: 1.843 g per 100 g edible portion; Power 98.032%; edible-mass / glycine / per 100 g edible portion|
-|BRS2-FM1-PM4|glycine|sunflower-seeds: 1.461 g per 100 g edible portion; Power 77.713%; edible-mass / glycine / per 100 g edible portion|
-|BRS2-FM1-PM4|glycine|almonds: 1.429 g per 100 g edible portion; Power 76.011%; edible-mass / glycine / per 100 g edible portion|
-|BRS2-FM1-PM4|glycine|beef: 1.262 g per 100 g edible portion; Power 67.128%; edible-mass / glycine / per 100 g edible portion|
-|BRS2-FM2-PM5|vitamin-b6|pistachios: 1.7 mg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS2-FM2-PM5|vitamin-b6|sunflower-seeds: 1.345 mg per 100 g edible portion; Power 79.118%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS2-FM2-PM5|vitamin-b6|garlic: 1.235 mg per 100 g edible portion; Power 72.647%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS2-FM2-PM5|vitamin-b6|liver: 1.083 mg per 100 g edible portion; Power 63.706%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS2-FM2-PM5|vitamin-b6|oregano: 1.044 mg per 100 g edible portion; Power 61.412%; edible-mass / vitamin-b6 / per 100 g edible portion|
-|BRS2-FM2-PM5|serine|soy: 2.357 g per 100 g edible portion; Power 100.000%; edible-mass / serine / per 100 g edible portion|
-|BRS2-FM2-PM5|serine|pumpkin-seeds: 1.673 g per 100 g edible portion; Power 70.980%; edible-mass / serine / per 100 g edible portion|
-|BRS2-FM2-PM5|serine|sunflower-seeds: 1.075 g per 100 g edible portion; Power 45.609%; edible-mass / serine / per 100 g edible portion|
-|BRS2-FM2-PM5|serine|eggs: 0.971 g per 100 g edible portion; Power 41.196%; edible-mass / serine / per 100 g edible portion|
-|BRS2-FM2-PM5|serine|almonds: 0.912 g per 100 g edible portion; Power 38.693%; edible-mass / serine / per 100 g edible portion|
-|BRS2-FM2-PM5|methionine|sardines: 1.086 g per 100 g edible portion; Power 100.000%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM2-PM5|methionine|tuna: 0.69 g per 100 g edible portion; Power 63.536%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM2-PM5|methionine|salmon: 0.626 g per 100 g edible portion; Power 57.643%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM2-PM5|methionine|chicken: 0.493 g per 100 g edible portion; Power 45.396%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM2-PM5|methionine|eggs: 0.38 g per 100 g edible portion; Power 34.991%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM2-PM6|glycine|soy: 1.88 g per 100 g edible portion; Power 100.000%; edible-mass / glycine / per 100 g edible portion|
-|BRS2-FM2-PM6|glycine|pumpkin-seeds: 1.843 g per 100 g edible portion; Power 98.032%; edible-mass / glycine / per 100 g edible portion|
-|BRS2-FM2-PM6|glycine|sunflower-seeds: 1.461 g per 100 g edible portion; Power 77.713%; edible-mass / glycine / per 100 g edible portion|
-|BRS2-FM2-PM6|glycine|almonds: 1.429 g per 100 g edible portion; Power 76.011%; edible-mass / glycine / per 100 g edible portion|
-|BRS2-FM2-PM6|glycine|beef: 1.262 g per 100 g edible portion; Power 67.128%; edible-mass / glycine / per 100 g edible portion|
-|BRS2-FM2-PM6|magnesium|pumpkin-seeds: 592 mg per 100 g edible portion; Power 100.000%; edible-mass / magnesium / per 100 g edible portion|
-|BRS2-FM2-PM6|magnesium|sesame-seeds: 351 mg per 100 g edible portion; Power 59.291%; edible-mass / magnesium / per 100 g edible portion|
-|BRS2-FM2-PM6|magnesium|chia-seeds: 335 mg per 100 g edible portion; Power 56.588%; edible-mass / magnesium / per 100 g edible portion|
-|BRS2-FM2-PM6|magnesium|sunflower-seeds: 325 mg per 100 g edible portion; Power 54.899%; edible-mass / magnesium / per 100 g edible portion|
-|BRS2-FM2-PM6|magnesium|cashews: 292 mg per 100 g edible portion; Power 49.324%; edible-mass / magnesium / per 100 g edible portion|
-|BRS2-FM2-PM6|methionine|sardines: 1.086 g per 100 g edible portion; Power 100.000%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM2-PM6|methionine|tuna: 0.69 g per 100 g edible portion; Power 63.536%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM2-PM6|methionine|salmon: 0.626 g per 100 g edible portion; Power 57.643%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM2-PM6|methionine|chicken: 0.493 g per 100 g edible portion; Power 45.396%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM2-PM6|methionine|eggs: 0.38 g per 100 g edible portion; Power 34.991%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM3-PM7|vitamin-b9|chickpeas: 557 µg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS2-FM3-PM7|vitamin-b9|lentils: 479 µg per 100 g edible portion; Power 85.996%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS2-FM3-PM7|vitamin-b9|black-beans: 444 µg per 100 g edible portion; Power 79.713%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS2-FM3-PM7|vitamin-b9|kidney-beans: 394 µg per 100 g edible portion; Power 70.736%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS2-FM3-PM7|vitamin-b9|soy: 375 µg per 100 g edible portion; Power 67.325%; edible-mass / vitamin-b9 / per 100 g edible portion|
-|BRS2-FM3-PM7|betaine|quinoa: 630 mg per 100 g food; Power 100.000%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS2-FM3-PM7|betaine|wheat-germ: 410 mg per 100 g food; Power 65.079%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS2-FM3-PM7|betaine|beetroot: 130 mg per 100 g food; Power 20.635%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS2-FM3-PM7|betaine|spinach: 120 mg per 100 g food; Power 19.048%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS2-FM3-PM7|betaine|amaranth: 68 mg per 100 g food; Power 10.794%; betaine::USDA-release2::food-mass / betaine / per 100 g food|
-|BRS2-FM3-PM7|choline|egg-yolks: 820.2 mg per 100 g edible portion; Power 100.000%; edible-mass / choline / per 100 g edible portion|
-|BRS2-FM3-PM7|choline|soy-lecithin: 350 mg per 100 g edible portion; Power 42.673%; edible-mass / choline / per 100 g edible portion|
-|BRS2-FM3-PM7|choline|liver: 333.3 mg per 100 g edible portion; Power 40.636%; edible-mass / choline / per 100 g edible portion|
-|BRS2-FM3-PM7|choline|eggs: 293.8 mg per 100 g edible portion; Power 35.821%; edible-mass / choline / per 100 g edible portion|
-|BRS2-FM3-PM7|choline|soy: 115.9 mg per 100 g edible portion; Power 14.131%; edible-mass / choline / per 100 g edible portion|
-|BRS2-FM3-PM7|methionine|sardines: 1.086 g per 100 g edible portion; Power 100.000%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM3-PM7|methionine|tuna: 0.69 g per 100 g edible portion; Power 63.536%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM3-PM7|methionine|salmon: 0.626 g per 100 g edible portion; Power 57.643%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM3-PM7|methionine|chicken: 0.493 g per 100 g edible portion; Power 45.396%; edible-mass / methionine / per 100 g edible portion|
-|BRS2-FM3-PM7|methionine|eggs: 0.38 g per 100 g edible portion; Power 34.991%; edible-mass / methionine / per 100 g edible portion|
-|BRS3-FM1-PM1|glycine|soy: 1.88 g per 100 g edible portion; Power 100.000%; edible-mass / glycine / per 100 g edible portion|
-|BRS3-FM1-PM1|glycine|pumpkin-seeds: 1.843 g per 100 g edible portion; Power 98.032%; edible-mass / glycine / per 100 g edible portion|
-|BRS3-FM1-PM1|glycine|sunflower-seeds: 1.461 g per 100 g edible portion; Power 77.713%; edible-mass / glycine / per 100 g edible portion|
-|BRS3-FM1-PM1|glycine|almonds: 1.429 g per 100 g edible portion; Power 76.011%; edible-mass / glycine / per 100 g edible portion|
-|BRS3-FM1-PM1|glycine|beef: 1.262 g per 100 g edible portion; Power 67.128%; edible-mass / glycine / per 100 g edible portion|
-|BRS3-FM1-PM2|glycine|soy: 1.88 g per 100 g edible portion; Power 100.000%; edible-mass / glycine / per 100 g edible portion|
-|BRS3-FM1-PM2|glycine|pumpkin-seeds: 1.843 g per 100 g edible portion; Power 98.032%; edible-mass / glycine / per 100 g edible portion|
-|BRS3-FM1-PM2|glycine|sunflower-seeds: 1.461 g per 100 g edible portion; Power 77.713%; edible-mass / glycine / per 100 g edible portion|
-|BRS3-FM1-PM2|glycine|almonds: 1.429 g per 100 g edible portion; Power 76.011%; edible-mass / glycine / per 100 g edible portion|
-|BRS3-FM1-PM2|glycine|beef: 1.262 g per 100 g edible portion; Power 67.128%; edible-mass / glycine / per 100 g edible portion|
-|BRS3-FM2-PM4|selenium|kidney: 141 µg per 100 g edible portion; Power 100.000%; edible-mass / selenium / per 100 g edible portion|
-|BRS3-FM2-PM4|selenium|anchovies: 68.1 µg per 100 g edible portion; Power 48.298%; edible-mass / selenium / per 100 g edible portion|
-|BRS3-FM2-PM4|selenium|crab: 60.03 µg per 100 g edible portion; Power 42.574%; edible-mass / selenium / per 100 g edible portion|
-|BRS3-FM2-PM4|selenium|egg-yolks: 56 µg per 100 g edible portion; Power 39.716%; edible-mass / selenium / per 100 g edible portion|
-|BRS3-FM2-PM4|selenium|chia-seeds: 55.2 µg per 100 g edible portion; Power 39.149%; edible-mass / selenium / per 100 g edible portion|
-|BRS3-FM2-PM4|zinc|oysters: 39.3 mg per 100 g edible portion; Power 100.000%; edible-mass / zinc / per 100 g edible portion|
-|BRS3-FM2-PM4|zinc|pumpkin-seeds: 7.81 mg per 100 g edible portion; Power 19.873%; edible-mass / zinc / per 100 g edible portion|
-|BRS3-FM2-PM4|zinc|sesame-seeds: 7.75 mg per 100 g edible portion; Power 19.720%; edible-mass / zinc / per 100 g edible portion|
-|BRS3-FM2-PM4|zinc|thyme: 6.18 mg per 100 g edible portion; Power 15.725%; edible-mass / zinc / per 100 g edible portion|
-|BRS3-FM2-PM4|zinc|cashews: 5.78 mg per 100 g edible portion; Power 14.707%; edible-mass / zinc / per 100 g edible portion|
-|BRS3-FM2-PM4|copper|liver: 9.755 mg per 100 g edible portion; Power 100.000%; edible-mass / copper / per 100 g edible portion|
-|BRS3-FM2-PM4|copper|spirulina: 6.1 mg per 100 g edible portion; Power 62.532%; edible-mass / copper / per 100 g edible portion|
-|BRS3-FM2-PM4|copper|sesame-seeds: 4.082 mg per 100 g edible portion; Power 41.845%; edible-mass / copper / per 100 g edible portion|
-|BRS3-FM2-PM4|copper|oysters: 2.858 mg per 100 g edible portion; Power 29.298%; edible-mass / copper / per 100 g edible portion|
-|BRS3-FM2-PM4|copper|cashews: 2.195 mg per 100 g edible portion; Power 22.501%; edible-mass / copper / per 100 g edible portion|
-|BRS3-FM2-PM4|manganese|thyme: 7.867 mg per 100 g edible portion; Power 100.000%; edible-mass / manganese / per 100 g edible portion|
-|BRS3-FM2-PM4|manganese|pumpkin-seeds: 4.543 mg per 100 g edible portion; Power 57.748%; edible-mass / manganese / per 100 g edible portion|
-|BRS3-FM2-PM4|manganese|chickpeas: 4.15 mg per 100 g edible portion; Power 52.752%; edible-mass / manganese / per 100 g edible portion|
-|BRS3-FM2-PM4|manganese|mussels: 3.4 mg per 100 g edible portion; Power 43.219%; edible-mass / manganese / per 100 g edible portion|
-|BRS3-FM2-PM4|manganese|amaranth: 3.333 mg per 100 g edible portion; Power 42.367%; edible-mass / manganese / per 100 g edible portion|
-|BRS3-FM2-PM4|iron|thyme: 123.6 mg per 100 g edible portion; Power 100.000%; edible-mass / iron / per 100 g edible portion|
-|BRS3-FM2-PM4|iron|oregano: 36.8 mg per 100 g edible portion; Power 29.773%; edible-mass / iron / per 100 g edible portion|
-|BRS3-FM2-PM4|iron|spirulina: 28.5 mg per 100 g edible portion; Power 23.058%; edible-mass / iron / per 100 g edible portion|
-|BRS3-FM2-PM4|iron|cockles: 16.2 mg per 100 g edible portion; Power 13.107%; edible-mass / iron / per 100 g edible portion|
-|BRS3-FM2-PM4|iron|soy: 15.7 mg per 100 g edible portion; Power 12.702%; edible-mass / iron / per 100 g edible portion|
-|BRS3-FM2-PM5|vitamin-e|sunflower-seeds: 35.17 mg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-e / per 100 g edible portion|
-|BRS3-FM2-PM5|vitamin-e|early-harvest-olive-oil: 14.35 mg per 100 g edible portion; Power 40.802%; edible-mass / vitamin-e / per 100 g edible portion|
-|BRS3-FM2-PM5|vitamin-e|extra-virgin-olive-oil: 14.35 mg per 100 g edible portion; Power 40.802%; edible-mass / vitamin-e / per 100 g edible portion|
-|BRS3-FM2-PM5|vitamin-e|salmon-roe: 9.1 mg per 100 g edible portion; Power 25.874%; edible-mass / vitamin-e / per 100 g edible portion|
-|BRS3-FM2-PM5|vitamin-e|peanuts: 8.33 mg per 100 g edible portion; Power 23.685%; edible-mass / vitamin-e / per 100 g edible portion|
-|BRS3-FM2-PM5|selenium|kidney: 141 µg per 100 g edible portion; Power 100.000%; edible-mass / selenium / per 100 g edible portion|
-|BRS3-FM2-PM5|selenium|anchovies: 68.1 µg per 100 g edible portion; Power 48.298%; edible-mass / selenium / per 100 g edible portion|
-|BRS3-FM2-PM5|selenium|crab: 60.03 µg per 100 g edible portion; Power 42.574%; edible-mass / selenium / per 100 g edible portion|
-|BRS3-FM2-PM5|selenium|egg-yolks: 56 µg per 100 g edible portion; Power 39.716%; edible-mass / selenium / per 100 g edible portion|
-|BRS3-FM2-PM5|selenium|chia-seeds: 55.2 µg per 100 g edible portion; Power 39.149%; edible-mass / selenium / per 100 g edible portion|
-|BRS3-FM2-PM6|vitamin-c|bell-peppers: 127.7 mg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-c / per 100 g edible portion|
-|BRS3-FM2-PM6|vitamin-c|kale: 93.4 mg per 100 g edible portion; Power 73.140%; edible-mass / vitamin-c / per 100 g edible portion|
-|BRS3-FM2-PM6|vitamin-c|broccoli: 89.2 mg per 100 g edible portion; Power 69.851%; edible-mass / vitamin-c / per 100 g edible portion|
-|BRS3-FM2-PM6|vitamin-c|brussels-sprouts: 85 mg per 100 g edible portion; Power 66.562%; edible-mass / vitamin-c / per 100 g edible portion|
-|BRS3-FM2-PM6|vitamin-c|strawberries: 58.8 mg per 100 g edible portion; Power 46.045%; edible-mass / vitamin-c / per 100 g edible portion|
-|BRS3-FM2-PM6|vitamin-e|sunflower-seeds: 35.17 mg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-e / per 100 g edible portion|
-|BRS3-FM2-PM6|vitamin-e|early-harvest-olive-oil: 14.35 mg per 100 g edible portion; Power 40.802%; edible-mass / vitamin-e / per 100 g edible portion|
-|BRS3-FM2-PM6|vitamin-e|extra-virgin-olive-oil: 14.35 mg per 100 g edible portion; Power 40.802%; edible-mass / vitamin-e / per 100 g edible portion|
-|BRS3-FM2-PM6|vitamin-e|salmon-roe: 9.1 mg per 100 g edible portion; Power 25.874%; edible-mass / vitamin-e / per 100 g edible portion|
-|BRS3-FM2-PM6|vitamin-e|peanuts: 8.33 mg per 100 g edible portion; Power 23.685%; edible-mass / vitamin-e / per 100 g edible portion|
-|BRS3-FM2-PM6|vitamin-b2|spirulina: 3.67 mg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS3-FM2-PM6|vitamin-b2|kidney: 2.84 mg per 100 g edible portion; Power 77.384%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS3-FM2-PM6|vitamin-b2|liver: 2.755 mg per 100 g edible portion; Power 75.068%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS3-FM2-PM6|vitamin-b2|heart: 0.906 mg per 100 g edible portion; Power 24.687%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS3-FM2-PM6|vitamin-b2|soy: 0.87 mg per 100 g edible portion; Power 23.706%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS3-FM2-PM6|selenium|kidney: 141 µg per 100 g edible portion; Power 100.000%; edible-mass / selenium / per 100 g edible portion|
-|BRS3-FM2-PM6|selenium|anchovies: 68.1 µg per 100 g edible portion; Power 48.298%; edible-mass / selenium / per 100 g edible portion|
-|BRS3-FM2-PM6|selenium|crab: 60.03 µg per 100 g edible portion; Power 42.574%; edible-mass / selenium / per 100 g edible portion|
-|BRS3-FM2-PM6|selenium|egg-yolks: 56 µg per 100 g edible portion; Power 39.716%; edible-mass / selenium / per 100 g edible portion|
-|BRS3-FM2-PM6|selenium|chia-seeds: 55.2 µg per 100 g edible portion; Power 39.149%; edible-mass / selenium / per 100 g edible portion|
-|BRS3-FM3-PM7|dha-docosahexaenoic-acid|salmon-roe: 2000 mg per 100 g edible portion; Power 100.000%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS3-FM3-PM7|dha-docosahexaenoic-acid|mackerel: 1401 mg per 100 g edible portion; Power 70.050%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS3-FM3-PM7|dha-docosahexaenoic-acid|anchovies: 1292 mg per 100 g edible portion; Power 64.600%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS3-FM3-PM7|dha-docosahexaenoic-acid|salmon: 1104 mg per 100 g edible portion; Power 55.200%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS3-FM3-PM7|dha-docosahexaenoic-acid|tuna: 890 mg per 100 g edible portion; Power 44.500%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS3-FM3-PM8|epa-eicosapentaenoic-acid|salmon-roe: 1600 mg per 100 g edible portion; Power 100.000%; edible-mass / epa-eicosapentaenoic-acid / per 100 g edible portion|
-|BRS3-FM3-PM8|epa-eicosapentaenoic-acid|mackerel: 898 mg per 100 g edible portion; Power 56.125%; edible-mass / epa-eicosapentaenoic-acid / per 100 g edible portion|
-|BRS3-FM3-PM8|epa-eicosapentaenoic-acid|salmon: 862 mg per 100 g edible portion; Power 53.875%; edible-mass / epa-eicosapentaenoic-acid / per 100 g edible portion|
-|BRS3-FM3-PM8|epa-eicosapentaenoic-acid|anchovies: 763 mg per 100 g edible portion; Power 47.688%; edible-mass / epa-eicosapentaenoic-acid / per 100 g edible portion|
-|BRS3-FM3-PM8|epa-eicosapentaenoic-acid|herring: 709 mg per 100 g edible portion; Power 44.313%; edible-mass / epa-eicosapentaenoic-acid / per 100 g edible portion|
-|BRS3-FM3-PM8|dha-docosahexaenoic-acid|salmon-roe: 2000 mg per 100 g edible portion; Power 100.000%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS3-FM3-PM8|dha-docosahexaenoic-acid|mackerel: 1401 mg per 100 g edible portion; Power 70.050%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS3-FM3-PM8|dha-docosahexaenoic-acid|anchovies: 1292 mg per 100 g edible portion; Power 64.600%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS3-FM3-PM8|dha-docosahexaenoic-acid|salmon: 1104 mg per 100 g edible portion; Power 55.200%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS3-FM3-PM8|dha-docosahexaenoic-acid|tuna: 890 mg per 100 g edible portion; Power 44.500%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS4-FM1-PM1|iron|thyme: 123.6 mg per 100 g edible portion; Power 100.000%; edible-mass / iron / per 100 g edible portion|
-|BRS4-FM1-PM1|iron|oregano: 36.8 mg per 100 g edible portion; Power 29.773%; edible-mass / iron / per 100 g edible portion|
-|BRS4-FM1-PM1|iron|spirulina: 28.5 mg per 100 g edible portion; Power 23.058%; edible-mass / iron / per 100 g edible portion|
-|BRS4-FM1-PM1|iron|cockles: 16.2 mg per 100 g edible portion; Power 13.107%; edible-mass / iron / per 100 g edible portion|
-|BRS4-FM1-PM1|iron|soy: 15.7 mg per 100 g edible portion; Power 12.702%; edible-mass / iron / per 100 g edible portion|
-|BRS4-FM1-PM1|vitamin-b2|spirulina: 3.67 mg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS4-FM1-PM1|vitamin-b2|kidney: 2.84 mg per 100 g edible portion; Power 77.384%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS4-FM1-PM1|vitamin-b2|liver: 2.755 mg per 100 g edible portion; Power 75.068%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS4-FM1-PM1|vitamin-b2|heart: 0.906 mg per 100 g edible portion; Power 24.687%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS4-FM1-PM1|vitamin-b2|soy: 0.87 mg per 100 g edible portion; Power 23.706%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS4-FM1-PM1|copper|liver: 9.755 mg per 100 g edible portion; Power 100.000%; edible-mass / copper / per 100 g edible portion|
-|BRS4-FM1-PM1|copper|spirulina: 6.1 mg per 100 g edible portion; Power 62.532%; edible-mass / copper / per 100 g edible portion|
-|BRS4-FM1-PM1|copper|sesame-seeds: 4.082 mg per 100 g edible portion; Power 41.845%; edible-mass / copper / per 100 g edible portion|
-|BRS4-FM1-PM1|copper|oysters: 2.858 mg per 100 g edible portion; Power 29.298%; edible-mass / copper / per 100 g edible portion|
-|BRS4-FM1-PM1|copper|cashews: 2.195 mg per 100 g edible portion; Power 22.501%; edible-mass / copper / per 100 g edible portion|
-|BRS4-FM1-PM10|tyrosine|soy: 1.539 g per 100 g edible portion; Power 100.000%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS4-FM1-PM10|tyrosine|pumpkin-seeds: 1.093 g per 100 g edible portion; Power 71.020%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS4-FM1-PM10|tyrosine|tofu: 0.701 g per 100 g edible portion; Power 45.549%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS4-FM1-PM10|tyrosine|sunflower-seeds: 0.666 g per 100 g edible portion; Power 43.275%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS4-FM1-PM10|tyrosine|chicken: 0.597 g per 100 g edible portion; Power 38.791%; edible-mass / tyrosine / per 100 g edible portion|
-|BRS4-FM1-PM10|methionine|sardines: 1.086 g per 100 g edible portion; Power 100.000%; edible-mass / methionine / per 100 g edible portion|
-|BRS4-FM1-PM10|methionine|tuna: 0.69 g per 100 g edible portion; Power 63.536%; edible-mass / methionine / per 100 g edible portion|
-|BRS4-FM1-PM10|methionine|salmon: 0.626 g per 100 g edible portion; Power 57.643%; edible-mass / methionine / per 100 g edible portion|
-|BRS4-FM1-PM10|methionine|chicken: 0.493 g per 100 g edible portion; Power 45.396%; edible-mass / methionine / per 100 g edible portion|
-|BRS4-FM1-PM10|methionine|eggs: 0.38 g per 100 g edible portion; Power 34.991%; edible-mass / methionine / per 100 g edible portion|
-|BRS4-FM1-PM10|vitamin-b2|spirulina: 3.67 mg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS4-FM1-PM10|vitamin-b2|kidney: 2.84 mg per 100 g edible portion; Power 77.384%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS4-FM1-PM10|vitamin-b2|liver: 2.755 mg per 100 g edible portion; Power 75.068%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS4-FM1-PM10|vitamin-b2|heart: 0.906 mg per 100 g edible portion; Power 24.687%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS4-FM1-PM10|vitamin-b2|soy: 0.87 mg per 100 g edible portion; Power 23.706%; edible-mass / vitamin-b2 / per 100 g edible portion|
-|BRS4-FM1-PM10|iron|thyme: 123.6 mg per 100 g edible portion; Power 100.000%; edible-mass / iron / per 100 g edible portion|
-|BRS4-FM1-PM10|iron|oregano: 36.8 mg per 100 g edible portion; Power 29.773%; edible-mass / iron / per 100 g edible portion|
-|BRS4-FM1-PM10|iron|spirulina: 28.5 mg per 100 g edible portion; Power 23.058%; edible-mass / iron / per 100 g edible portion|
-|BRS4-FM1-PM10|iron|cockles: 16.2 mg per 100 g edible portion; Power 13.107%; edible-mass / iron / per 100 g edible portion|
-|BRS4-FM1-PM10|iron|soy: 15.7 mg per 100 g edible portion; Power 12.702%; edible-mass / iron / per 100 g edible portion|
-|BRS4-FM1-PM2|tryptophan|soy: 0.591 g per 100 g edible portion; Power 100.000%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS4-FM1-PM2|tryptophan|pumpkin-seeds: 0.576 g per 100 g edible portion; Power 97.462%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS4-FM1-PM2|tryptophan|cheddar-cheese: 0.547 g per 100 g edible portion; Power 92.555%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS4-FM1-PM2|tryptophan|chicken: 0.362 g per 100 g edible portion; Power 61.252%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS4-FM1-PM2|tryptophan|sunflower-seeds: 0.348 g per 100 g edible portion; Power 58.883%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS4-FM1-PM3|arginine|pumpkin-seeds: 5.353 g per 100 g edible portion; Power 100.000%; edible-mass / arginine / per 100 g edible portion|
-|BRS4-FM1-PM3|arginine|lupin-beans: 3.877 g per 100 g edible portion; Power 72.427%; edible-mass / arginine / per 100 g edible portion|
-|BRS4-FM1-PM3|arginine|soy: 3.153 g per 100 g edible portion; Power 58.902%; edible-mass / arginine / per 100 g edible portion|
-|BRS4-FM1-PM3|arginine|almonds: 2.465 g per 100 g edible portion; Power 46.049%; edible-mass / arginine / per 100 g edible portion|
-|BRS4-FM1-PM3|arginine|sunflower-seeds: 2.403 g per 100 g edible portion; Power 44.891%; edible-mass / arginine / per 100 g edible portion|
-|BRS4-FM1-PM3|glycine|soy: 1.88 g per 100 g edible portion; Power 100.000%; edible-mass / glycine / per 100 g edible portion|
-|BRS4-FM1-PM3|glycine|pumpkin-seeds: 1.843 g per 100 g edible portion; Power 98.032%; edible-mass / glycine / per 100 g edible portion|
-|BRS4-FM1-PM3|glycine|sunflower-seeds: 1.461 g per 100 g edible portion; Power 77.713%; edible-mass / glycine / per 100 g edible portion|
-|BRS4-FM1-PM3|glycine|almonds: 1.429 g per 100 g edible portion; Power 76.011%; edible-mass / glycine / per 100 g edible portion|
-|BRS4-FM1-PM3|glycine|beef: 1.262 g per 100 g edible portion; Power 67.128%; edible-mass / glycine / per 100 g edible portion|
-|BRS4-FM1-PM3|methionine|sardines: 1.086 g per 100 g edible portion; Power 100.000%; edible-mass / methionine / per 100 g edible portion|
-|BRS4-FM1-PM3|methionine|tuna: 0.69 g per 100 g edible portion; Power 63.536%; edible-mass / methionine / per 100 g edible portion|
-|BRS4-FM1-PM3|methionine|salmon: 0.626 g per 100 g edible portion; Power 57.643%; edible-mass / methionine / per 100 g edible portion|
-|BRS4-FM1-PM3|methionine|chicken: 0.493 g per 100 g edible portion; Power 45.396%; edible-mass / methionine / per 100 g edible portion|
-|BRS4-FM1-PM3|methionine|eggs: 0.38 g per 100 g edible portion; Power 34.991%; edible-mass / methionine / per 100 g edible portion|
-|BRS4-FM2-PM5|vitamin-e|sunflower-seeds: 35.17 mg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-e / per 100 g edible portion|
-|BRS4-FM2-PM5|vitamin-e|early-harvest-olive-oil: 14.35 mg per 100 g edible portion; Power 40.802%; edible-mass / vitamin-e / per 100 g edible portion|
-|BRS4-FM2-PM5|vitamin-e|extra-virgin-olive-oil: 14.35 mg per 100 g edible portion; Power 40.802%; edible-mass / vitamin-e / per 100 g edible portion|
-|BRS4-FM2-PM5|vitamin-e|salmon-roe: 9.1 mg per 100 g edible portion; Power 25.874%; edible-mass / vitamin-e / per 100 g edible portion|
-|BRS4-FM2-PM5|vitamin-e|peanuts: 8.33 mg per 100 g edible portion; Power 23.685%; edible-mass / vitamin-e / per 100 g edible portion|
-|BRS4-FM2-PM5|manganese|thyme: 7.867 mg per 100 g edible portion; Power 100.000%; edible-mass / manganese / per 100 g edible portion|
-|BRS4-FM2-PM5|manganese|pumpkin-seeds: 4.543 mg per 100 g edible portion; Power 57.748%; edible-mass / manganese / per 100 g edible portion|
-|BRS4-FM2-PM5|manganese|chickpeas: 4.15 mg per 100 g edible portion; Power 52.752%; edible-mass / manganese / per 100 g edible portion|
-|BRS4-FM2-PM5|manganese|mussels: 3.4 mg per 100 g edible portion; Power 43.219%; edible-mass / manganese / per 100 g edible portion|
-|BRS4-FM2-PM5|manganese|amaranth: 3.333 mg per 100 g edible portion; Power 42.367%; edible-mass / manganese / per 100 g edible portion|
-|BRS4-FM3-PM6|l-carnitine|beef: 45.58 mg per 100 g food; Power 100.000%; free-l-carnitine::furusho-2026::per-100g-food / free L-carnitine / per 100 g food|
-|BRS4-FM3-PM6|l-carnitine|pork: 12.76 mg per 100 g food; Power 27.995%; free-l-carnitine::furusho-2026::per-100g-food / free L-carnitine / per 100 g food|
-|BRS5-FM1-PM1|vitamin-a|liver: 4968 µg per 100 g edible portion; Power 100.000%; edible-mass / vitamin-a / per 100 g edible portion|
-|BRS5-FM1-PM1|vitamin-a|ghee: 840 µg per 100 g edible portion; Power 16.908%; edible-mass / vitamin-a / per 100 g edible portion|
-|BRS5-FM1-PM1|vitamin-a|carrots: 835 µg per 100 g edible portion; Power 16.808%; edible-mass / vitamin-a / per 100 g edible portion|
-|BRS5-FM1-PM1|vitamin-a|sweet-potatoes: 709 µg per 100 g edible portion; Power 14.271%; edible-mass / vitamin-a / per 100 g edible portion|
-|BRS5-FM1-PM1|vitamin-a|tuna: 655 µg per 100 g edible portion; Power 13.184%; edible-mass / vitamin-a / per 100 g edible portion|
-|BRS5-FM1-PM1|zinc|oysters: 39.3 mg per 100 g edible portion; Power 100.000%; edible-mass / zinc / per 100 g edible portion|
-|BRS5-FM1-PM1|zinc|pumpkin-seeds: 7.81 mg per 100 g edible portion; Power 19.873%; edible-mass / zinc / per 100 g edible portion|
-|BRS5-FM1-PM1|zinc|sesame-seeds: 7.75 mg per 100 g edible portion; Power 19.720%; edible-mass / zinc / per 100 g edible portion|
-|BRS5-FM1-PM1|zinc|thyme: 6.18 mg per 100 g edible portion; Power 15.725%; edible-mass / zinc / per 100 g edible portion|
-|BRS5-FM1-PM1|zinc|cashews: 5.78 mg per 100 g edible portion; Power 14.707%; edible-mass / zinc / per 100 g edible portion|
-|BRS5-FM1-PM1|pectin|apples: 0.51778 g per 100 g source edible material; Power 100.000%; total-pectic-substances::bailoni-2005::fresh-mass / Total pectic substances (HM, LM and protopectin) / per 100 g source edible material|
-|BRS5-FM1-PM1|pectin|spinach: 0.38167 g per 100 g source edible material; Power 73.713%; total-pectic-substances::bailoni-2005::fresh-mass / Total pectic substances (HM, LM and protopectin) / per 100 g source edible material|
-|BRS5-FM1-PM1|pectin|carrots: 0.3049 g per 100 g source edible material; Power 58.886%; total-pectic-substances::bailoni-2005::fresh-mass / Total pectic substances (HM, LM and protopectin) / per 100 g source edible material|
-|BRS5-FM1-PM1|pectin|potatoes: 0.18067 g per 100 g source edible material; Power 34.893%; total-pectic-substances::bailoni-2005::fresh-mass / Total pectic substances (HM, LM and protopectin) / per 100 g source edible material|
-|BRS5-FM2-PM4|pectin|apples: 0.51778 g per 100 g source edible material; Power 100.000%; total-pectic-substances::bailoni-2005::fresh-mass / Total pectic substances (HM, LM and protopectin) / per 100 g source edible material|
-|BRS5-FM2-PM4|pectin|spinach: 0.38167 g per 100 g source edible material; Power 73.713%; total-pectic-substances::bailoni-2005::fresh-mass / Total pectic substances (HM, LM and protopectin) / per 100 g source edible material|
-|BRS5-FM2-PM4|pectin|carrots: 0.3049 g per 100 g source edible material; Power 58.886%; total-pectic-substances::bailoni-2005::fresh-mass / Total pectic substances (HM, LM and protopectin) / per 100 g source edible material|
-|BRS5-FM2-PM4|pectin|potatoes: 0.18067 g per 100 g source edible material; Power 34.893%; total-pectic-substances::bailoni-2005::fresh-mass / Total pectic substances (HM, LM and protopectin) / per 100 g source edible material|
-|BRS5-FM2-PM5|pectin|apples: 0.51778 g per 100 g source edible material; Power 100.000%; total-pectic-substances::bailoni-2005::fresh-mass / Total pectic substances (HM, LM and protopectin) / per 100 g source edible material|
-|BRS5-FM2-PM5|pectin|spinach: 0.38167 g per 100 g source edible material; Power 73.713%; total-pectic-substances::bailoni-2005::fresh-mass / Total pectic substances (HM, LM and protopectin) / per 100 g source edible material|
-|BRS5-FM2-PM5|pectin|carrots: 0.3049 g per 100 g source edible material; Power 58.886%; total-pectic-substances::bailoni-2005::fresh-mass / Total pectic substances (HM, LM and protopectin) / per 100 g source edible material|
-|BRS5-FM2-PM5|pectin|potatoes: 0.18067 g per 100 g source edible material; Power 34.893%; total-pectic-substances::bailoni-2005::fresh-mass / Total pectic substances (HM, LM and protopectin) / per 100 g source edible material|
-|BRS5-FM3-PM7|glucose|grapes: 7.2 g per 100 g edible portion; Power 100.000%; glucose::SR-legacy::food-mass / glucose / per 100 g edible portion|
-|BRS5-FM3-PM7|glucose|bananas: 4.98 g per 100 g edible portion; Power 69.167%; glucose::SR-legacy::food-mass / glucose / per 100 g edible portion|
-|BRS5-FM3-PM7|linoleic-acid|soy-lecithin: 40.182 g per 100 g edible portion; Power 100.000%; edible-mass / linoleic-acid / per 100 g edible portion|
-|BRS5-FM3-PM7|linoleic-acid|tahini: 23.133 g per 100 g edible portion; Power 57.571%; edible-mass / linoleic-acid / per 100 g edible portion|
-|BRS5-FM3-PM7|linoleic-acid|sunflower-seeds: 23.05 g per 100 g edible portion; Power 57.364%; edible-mass / linoleic-acid / per 100 g edible portion|
-|BRS5-FM3-PM7|linoleic-acid|sesame-seeds: 21.375 g per 100 g edible portion; Power 53.195%; edible-mass / linoleic-acid / per 100 g edible portion|
-|BRS5-FM3-PM7|linoleic-acid|pumpkin-seeds: 20.667 g per 100 g edible portion; Power 51.433%; edible-mass / linoleic-acid / per 100 g edible portion|
-|BRS5-FM3-PM8|tryptophan|soy: 0.591 g per 100 g edible portion; Power 100.000%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS5-FM3-PM8|tryptophan|pumpkin-seeds: 0.576 g per 100 g edible portion; Power 97.462%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS5-FM3-PM8|tryptophan|cheddar-cheese: 0.547 g per 100 g edible portion; Power 92.555%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS5-FM3-PM8|tryptophan|chicken: 0.362 g per 100 g edible portion; Power 61.252%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS5-FM3-PM8|tryptophan|sunflower-seeds: 0.348 g per 100 g edible portion; Power 58.883%; edible-mass / tryptophan / per 100 g edible portion|
-|BRS6-FM1-PM3|magnesium|pumpkin-seeds: 592 mg per 100 g edible portion; Power 100.000%; edible-mass / magnesium / per 100 g edible portion|
-|BRS6-FM1-PM3|magnesium|sesame-seeds: 351 mg per 100 g edible portion; Power 59.291%; edible-mass / magnesium / per 100 g edible portion|
-|BRS6-FM1-PM3|magnesium|chia-seeds: 335 mg per 100 g edible portion; Power 56.588%; edible-mass / magnesium / per 100 g edible portion|
-|BRS6-FM1-PM3|magnesium|sunflower-seeds: 325 mg per 100 g edible portion; Power 54.899%; edible-mass / magnesium / per 100 g edible portion|
-|BRS6-FM1-PM3|magnesium|cashews: 292 mg per 100 g edible portion; Power 49.324%; edible-mass / magnesium / per 100 g edible portion|
-|BRS6-FM4-PM8|dha-docosahexaenoic-acid|salmon-roe: 2000 mg per 100 g edible portion; Power 100.000%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS6-FM4-PM8|dha-docosahexaenoic-acid|mackerel: 1401 mg per 100 g edible portion; Power 70.050%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS6-FM4-PM8|dha-docosahexaenoic-acid|anchovies: 1292 mg per 100 g edible portion; Power 64.600%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS6-FM4-PM8|dha-docosahexaenoic-acid|salmon: 1104 mg per 100 g edible portion; Power 55.200%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS6-FM4-PM8|dha-docosahexaenoic-acid|tuna: 890 mg per 100 g edible portion; Power 44.500%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS-X(ECS-PM1)|zinc|oysters: 39.3 mg per 100 g edible portion; Power 100.000%; edible-mass / zinc / per 100 g edible portion|
-|BRS-X(ECS-PM1)|zinc|pumpkin-seeds: 7.81 mg per 100 g edible portion; Power 19.873%; edible-mass / zinc / per 100 g edible portion|
-|BRS-X(ECS-PM1)|zinc|sesame-seeds: 7.75 mg per 100 g edible portion; Power 19.720%; edible-mass / zinc / per 100 g edible portion|
-|BRS-X(ECS-PM1)|zinc|thyme: 6.18 mg per 100 g edible portion; Power 15.725%; edible-mass / zinc / per 100 g edible portion|
-|BRS-X(ECS-PM1)|zinc|cashews: 5.78 mg per 100 g edible portion; Power 14.707%; edible-mass / zinc / per 100 g edible portion|
-|BRS-X(ECS-PM2)|dha-docosahexaenoic-acid|salmon-roe: 2000 mg per 100 g edible portion; Power 100.000%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS-X(ECS-PM2)|dha-docosahexaenoic-acid|mackerel: 1401 mg per 100 g edible portion; Power 70.050%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS-X(ECS-PM2)|dha-docosahexaenoic-acid|anchovies: 1292 mg per 100 g edible portion; Power 64.600%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS-X(ECS-PM2)|dha-docosahexaenoic-acid|salmon: 1104 mg per 100 g edible portion; Power 55.200%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS-X(ECS-PM2)|dha-docosahexaenoic-acid|tuna: 890 mg per 100 g edible portion; Power 44.500%; edible-mass / dha-docosahexaenoic-acid / per 100 g edible portion|
-|BRS-X(ECS-PM2)|epa-eicosapentaenoic-acid|salmon-roe: 1600 mg per 100 g edible portion; Power 100.000%; edible-mass / epa-eicosapentaenoic-acid / per 100 g edible portion|
-|BRS-X(ECS-PM2)|epa-eicosapentaenoic-acid|mackerel: 898 mg per 100 g edible portion; Power 56.125%; edible-mass / epa-eicosapentaenoic-acid / per 100 g edible portion|
-|BRS-X(ECS-PM2)|epa-eicosapentaenoic-acid|salmon: 862 mg per 100 g edible portion; Power 53.875%; edible-mass / epa-eicosapentaenoic-acid / per 100 g edible portion|
-|BRS-X(ECS-PM2)|epa-eicosapentaenoic-acid|anchovies: 763 mg per 100 g edible portion; Power 47.688%; edible-mass / epa-eicosapentaenoic-acid / per 100 g edible portion|
-|BRS-X(ECS-PM2)|epa-eicosapentaenoic-acid|herring: 709 mg per 100 g edible portion; Power 44.313%; edible-mass / epa-eicosapentaenoic-acid / per 100 g edible portion|
-|BRS-X(Hormones-PM5)|zinc|oysters: 39.3 mg per 100 g edible portion; Power 100.000%; edible-mass / zinc / per 100 g edible portion|
-|BRS-X(Hormones-PM5)|zinc|pumpkin-seeds: 7.81 mg per 100 g edible portion; Power 19.873%; edible-mass / zinc / per 100 g edible portion|
-|BRS-X(Hormones-PM5)|zinc|sesame-seeds: 7.75 mg per 100 g edible portion; Power 19.720%; edible-mass / zinc / per 100 g edible portion|
-|BRS-X(Hormones-PM5)|zinc|thyme: 6.18 mg per 100 g edible portion; Power 15.725%; edible-mass / zinc / per 100 g edible portion|
-|BRS-X(Hormones-PM5)|zinc|cashews: 5.78 mg per 100 g edible portion; Power 14.707%; edible-mass / zinc / per 100 g edible portion|
+Provisional source power ≥10%; up to ten; no padding. Original quantities, states and sources retained.
+
+|PM|Substance|Food|Rank|Power (%)|Original quantity|Preparation|Source|
+|---|---|---|---:|---:|---|---|---|
+|BRS-X(ECS-PM1)|zinc|oysters|1|100|39.3 mg per 100 g edible portion|raw|docs/foods/oysters.md#nutrition_per_100g/zinc_mg|
+|BRS-X(ECS-PM1)|zinc|pumpkin-seeds|2|19.872773536895675|7.81 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/zinc_mg|
+|BRS-X(ECS-PM1)|zinc|sesame-seeds|3|19.720101781170484|7.75 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/zinc_mg|
+|BRS-X(ECS-PM1)|zinc|cocoa|4|17.32824427480916|6.81 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/zinc_mg|
+|BRS-X(ECS-PM1)|zinc|thyme|5|15.725190839694658|6.18 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/zinc_mg|
+|BRS-X(ECS-PM1)|zinc|cashews|6|14.707379134860052|5.78 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/zinc_mg|
+|BRS-X(ECS-PM1)|zinc|sunflower-seeds|7|12.72264631043257|5 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/zinc_mg|
+|BRS-X(ECS-PM1)|zinc|soy|8|12.442748091603054|4.89 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/zinc_mg|
+|BRS-X(ECS-PM1)|zinc|lupins|9|12.086513994910943|4.75 mg per 100 g edible portion|raw|docs/foods/lupins.md#nutrition_per_100g/zinc_mg|
+|BRS-X(ECS-PM1)|zinc|tahini|10|11.755725190839696|4.62 mg per 100 g edible portion|roasted|docs/foods/tahini.md#nutrition_per_100g/zinc_mg|
+|BRS-X(ECS-PM2)|dha-docosahexaenoic-acid|salmon-roe|1|100|2000 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS-X(ECS-PM2)|dha-docosahexaenoic-acid|mackerel|2|70.05|1401 mg per 100 g edible portion|raw|docs/foods/mackerel.md#nutrition_per_100g/dha_mg|
+|BRS-X(ECS-PM2)|dha-docosahexaenoic-acid|anchovies|3|64.60000000000001|1292 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/dha_mg|
+|BRS-X(ECS-PM2)|dha-docosahexaenoic-acid|salmon|4|55.2|1104 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/dha_mg|
+|BRS-X(ECS-PM2)|dha-docosahexaenoic-acid|tuna|5|44.5|890 mg per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/dha_mg|
+|BRS-X(ECS-PM2)|dha-docosahexaenoic-acid|herring|6|43.1|862 mg per 100 g edible portion|raw|docs/foods/herring.md#nutrition_per_100g/dha_mg|
+|BRS-X(ECS-PM2)|dha-docosahexaenoic-acid|sardines|7|25.45|509 mg per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/dha_mg|
+|BRS-X(ECS-PM2)|dha-docosahexaenoic-acid|mussels|8|12.65|253 mg per 100 g edible portion|raw|docs/foods/mussels.md#nutrition_per_100g/dha_mg|
+|BRS-X(ECS-PM2)|epa-eicosapentaenoic-acid|salmon-roe|1|100|1600 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS-X(ECS-PM2)|epa-eicosapentaenoic-acid|mackerel|2|56.125|898 mg per 100 g edible portion|raw|docs/foods/mackerel.md#nutrition_per_100g/epa_mg|
+|BRS-X(ECS-PM2)|epa-eicosapentaenoic-acid|salmon|3|53.87499999999999|862 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/epa_mg|
+|BRS-X(ECS-PM2)|epa-eicosapentaenoic-acid|anchovies|4|47.6875|763 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/epa_mg|
+|BRS-X(ECS-PM2)|epa-eicosapentaenoic-acid|herring|5|44.3125|709 mg per 100 g edible portion|raw|docs/foods/herring.md#nutrition_per_100g/epa_mg|
+|BRS-X(ECS-PM2)|epa-eicosapentaenoic-acid|sardines|6|29.562500000000004|473 mg per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/epa_mg|
+|BRS-X(ECS-PM2)|epa-eicosapentaenoic-acid|tuna|7|17.6875|283 mg per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/epa_mg|
+|BRS-X(ECS-PM2)|epa-eicosapentaenoic-acid|mussels|8|11.75|188 mg per 100 g edible portion|raw|docs/foods/mussels.md#nutrition_per_100g/epa_mg|
+|BRS-X(ECS-PM2)|epa-eicosapentaenoic-acid|oysters|9|11.0625|177 mg per 100 g edible portion|raw|docs/foods/oysters.md#nutrition_per_100g/epa_mg|
+|BRS-X(Hormones-PM5)|zinc|oysters|1|100|39.3 mg per 100 g edible portion|raw|docs/foods/oysters.md#nutrition_per_100g/zinc_mg|
+|BRS-X(Hormones-PM5)|zinc|pumpkin-seeds|2|19.872773536895675|7.81 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/zinc_mg|
+|BRS-X(Hormones-PM5)|zinc|sesame-seeds|3|19.720101781170484|7.75 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/zinc_mg|
+|BRS-X(Hormones-PM5)|zinc|cocoa|4|17.32824427480916|6.81 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/zinc_mg|
+|BRS-X(Hormones-PM5)|zinc|thyme|5|15.725190839694658|6.18 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/zinc_mg|
+|BRS-X(Hormones-PM5)|zinc|cashews|6|14.707379134860052|5.78 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/zinc_mg|
+|BRS-X(Hormones-PM5)|zinc|sunflower-seeds|7|12.72264631043257|5 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/zinc_mg|
+|BRS-X(Hormones-PM5)|zinc|soy|8|12.442748091603054|4.89 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/zinc_mg|
+|BRS-X(Hormones-PM5)|zinc|lupins|9|12.086513994910943|4.75 mg per 100 g edible portion|raw|docs/foods/lupins.md#nutrition_per_100g/zinc_mg|
+|BRS-X(Hormones-PM5)|zinc|tahini|10|11.755725190839696|4.62 mg per 100 g edible portion|roasted|docs/foods/tahini.md#nutrition_per_100g/zinc_mg|
+|BRS1-FM1-PM1|indispensable-amino-acids|chicken|1|100|12.865 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171477/nutrients|
+|BRS1-FM1-PM1|indispensable-amino-acids|pumpkin-seeds|2|87.09677419354838|11.205 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170556/nutrients|
+|BRS1-FM1-PM1|indispensable-amino-acids|sardines|3|81.09599689078895|10.433 g per 100 g edible portion|canned, drained|https://fdc.nal.usda.gov/food-details/175139/nutrients|
+|BRS1-FM1-PM1|indispensable-amino-acids|salmon|4|72.81772250291489|9.368 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/175168/nutrients|
+|BRS1-FM1-PM1|indispensable-amino-acids|cheddar-cheese|5|72.5456665371162|9.333 g per 100 g edible portion|cheddar|https://fdc.nal.usda.gov/food-details/173414/nutrients|
+|BRS1-FM1-PM1|indispensable-amino-acids|turkey|6|72.28915662650603|9.3 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171496/nutrients|
+|BRS1-FM1-PM1|indispensable-amino-acids|mussels|7|67.3921492421298|8.67 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/174217/nutrients|
+|BRS1-FM1-PM1|indispensable-amino-acids|sunflower-seeds|8|67.01127089001166|8.621 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170562/nutrients|
+|BRS1-FM1-PM1|indispensable-amino-acids|tuna|9|61.36027982899339|7.894 g per 100 g edible portion|canned, drained|https://fdc.nal.usda.gov/food-details/173709/nutrients|
+|BRS1-FM1-PM1|indispensable-amino-acids|peanuts|10|57.27944034201321|7.369 g per 100 g edible portion|dry-roasted|https://fdc.nal.usda.gov/food-details/173806/nutrients|
+|BRS1-FM1-PM1|tryptophan|soy|1|100|0.591 g per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/tryptophan_g|
+|BRS1-FM1-PM1|tryptophan|pumpkin-seeds|2|97.46192893401016|0.576 g per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/tryptophan_g|
+|BRS1-FM1-PM1|tryptophan|turkey|3|40.77834179357022|0.241 g per 100 g edible portion|raw|docs/foods/turkey.md#nutrition_per_100g/tryptophan_g|
+|BRS1-FM1-PM1|tyrosine|soy|1|100|1.539 g per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/tyrosine_g|
+|BRS1-FM1-PM1|tyrosine|pumpkin-seeds|2|71.02014294996751|1.093 g per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/tyrosine_g|
+|BRS1-FM1-PM1|tyrosine|tofu|3|45.54905782975958|0.701 g per 100 g edible portion|raw|docs/foods/tofu.md#nutrition_per_100g/tyrosine_g|
+|BRS1-FM1-PM2|tryptophan|soy|1|100|0.591 g per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/tryptophan_g|
+|BRS1-FM1-PM2|tryptophan|pumpkin-seeds|2|97.46192893401016|0.576 g per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/tryptophan_g|
+|BRS1-FM1-PM2|tryptophan|turkey|3|40.77834179357022|0.241 g per 100 g edible portion|raw|docs/foods/turkey.md#nutrition_per_100g/tryptophan_g|
+|BRS1-FM1-PM2|tyrosine|soy|1|100|1.539 g per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/tyrosine_g|
+|BRS1-FM1-PM2|tyrosine|pumpkin-seeds|2|71.02014294996751|1.093 g per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/tyrosine_g|
+|BRS1-FM1-PM2|tyrosine|tofu|3|45.54905782975958|0.701 g per 100 g edible portion|raw|docs/foods/tofu.md#nutrition_per_100g/tyrosine_g|
+|BRS1-FM1-PM3|choline|egg-yolks|1|100|820.2 mg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/choline_mg|
+|BRS1-FM1-PM3|choline|soy-lecithin|2|42.6725188978298|350 mg per 100 g edible portion|Oil|docs/foods/soy-lecithin.md#nutrition_per_100g/choline_mg|
+|BRS1-FM1-PM3|choline|liver|3|40.636430138990484|333.3 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/choline_mg|
+|BRS1-FM1-PM3|choline|eggs|4|35.820531577663985|293.8 mg per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/choline_mg|
+|BRS1-FM1-PM3|choline|soy|5|14.130699829309926|115.9 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/choline_mg|
+|BRS1-FM1-PM3|choline|chickpeas|6|12.106803218727139|99.3 mg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/choline_mg|
+|BRS1-FM1-PM3|choline|lentils|7|11.753230919287978|96.4 mg per 100 g edible portion|raw|docs/foods/lentils.md#nutrition_per_100g/choline_mg|
+|BRS1-FM1-PM3|choline|anchovies|8|10.36332601804438|85 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/choline_mg|
+|BRS1-FM1-PM3|iron|thyme|1|100|123.6 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/iron_mg|
+|BRS1-FM1-PM3|iron|oregano|2|29.773462783171524|36.8 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/iron_mg|
+|BRS1-FM1-PM3|iron|spirulina|3|23.058252427184467|28.5 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/iron_mg|
+|BRS1-FM1-PM3|iron|cockles|4|13.106796116504855|16.2 mg per 100 g edible portion|raw|docs/foods/cockles.md#nutrition_per_100g/iron_mg|
+|BRS1-FM1-PM3|iron|soy|5|12.702265372168284|15.7 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/iron_mg|
+|BRS1-FM1-PM3|iron|sesame-seeds|6|11.771844660194176|14.55 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/iron_mg|
+|BRS1-FM1-PM3|iron|cocoa|7|11.21359223300971|13.86 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/iron_mg|
+|BRS1-FM1-PM3|magnesium|pumpkin-seeds|1|100|592 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM3|magnesium|cocoa|2|84.29054054054053|499 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM3|magnesium|sesame-seeds|3|59.29054054054054|351 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM3|magnesium|chia-seeds|4|56.58783783783784|335 mg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM3|magnesium|sunflower-seeds|5|54.89864864864865|325 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM3|magnesium|cashews|6|49.32432432432432|292 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM3|magnesium|soy|7|47.2972972972973|280 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM3|magnesium|oregano|8|45.608108108108105|270 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM3|magnesium|amaranth|9|41.891891891891895|248 mg per 100 g edible portion|uncooked|docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM3|magnesium|thyme|10|37.16216216216216|220 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM3|tyrosine|soy|1|100|1.539 g per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/tyrosine_g|
+|BRS1-FM1-PM3|tyrosine|pumpkin-seeds|2|71.02014294996751|1.093 g per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/tyrosine_g|
+|BRS1-FM1-PM3|tyrosine|tofu|3|45.54905782975958|0.701 g per 100 g edible portion|raw|docs/foods/tofu.md#nutrition_per_100g/tyrosine_g|
+|BRS1-FM1-PM3|vitamin-b2|spirulina|1|100|3.67 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM3|vitamin-b2|kidney|2|77.3841961852861|2.84 mg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM3|vitamin-b2|liver|3|75.06811989100818|2.755 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM3|vitamin-b2|heart|4|24.6866485013624|0.906 mg per 100 g edible portion|raw|docs/foods/heart.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM3|vitamin-b2|soy|5|23.705722070844686|0.87 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM3|vitamin-b2|salmon-roe|6|14.986376021798367|0.55 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS1-FM1-PM3|vitamin-b2|egg-yolks|7|14.386920980926432|0.528 mg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM3|vitamin-b2|tahini|8|12.888283378746593|0.473 mg per 100 g edible portion|roasted|docs/foods/tahini.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM3|vitamin-b2|eggs|9|12.452316076294279|0.457 mg per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM3|vitamin-b2|mushrooms|10|10.953678474114442|0.402 mg per 100 g edible portion|raw|docs/foods/mushrooms.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM3|vitamin-b6|pistachios|1|100|1.7 mg per 100 g edible portion|raw|docs/foods/pistachios.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM3|vitamin-b6|sunflower-seeds|2|79.11764705882352|1.345 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM3|vitamin-b6|garlic|3|72.64705882352942|1.235 mg per 100 g edible portion|raw|docs/foods/garlic.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM3|vitamin-b6|liver|4|63.70588235294118|1.083 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM3|vitamin-b6|oregano|5|61.411764705882355|1.044 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM3|vitamin-b6|sesame-seeds|6|46.470588235294116|0.79 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM3|vitamin-b6|kidney|7|39.117647058823536|0.665 mg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM3|vitamin-b6|turkey|8|38.35294117647059|0.652 mg per 100 g edible portion|raw|docs/foods/turkey.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM3|vitamin-b6|salmon|9|37.411764705882355|0.636 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM3|vitamin-b6|amaranth|10|34.76470588235294|0.591 mg per 100 g edible portion|uncooked|docs/foods/amaranth.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM3|vitamin-b9|chickpeas|1|100|557 µg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/folate_ug|
+|BRS1-FM1-PM3|vitamin-b9|lentils|2|85.99640933572711|479 µg per 100 g edible portion|raw|docs/foods/lentils.md#nutrition_per_100g/folate_ug|
+|BRS1-FM1-PM3|vitamin-b9|black-beans|3|79.71274685816876|444 µg per 100 g edible portion|raw|docs/foods/black-beans.md#nutrition_per_100g/folate_ug|
+|BRS1-FM1-PM3|vitamin-b9|kidney-beans|4|70.73608617594255|394 µg per 100 g edible portion|raw|docs/foods/kidney-beans.md#nutrition_per_100g/folate_ug|
+|BRS1-FM1-PM3|vitamin-b9|soy|5|67.32495511669659|375 µg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/folate_ug|
+|BRS1-FM1-PM3|vitamin-b9|lupins|6|63.73429084380609|355 µg per 100 g edible portion|raw|docs/foods/lupins.md#nutrition_per_100g/folate_ug|
+|BRS1-FM1-PM3|vitamin-b9|edamame|7|54.39856373429084|303 µg per 100 g edible portion|frozen|docs/foods/edamame.md#nutrition_per_100g/folate_ug|
+|BRS1-FM1-PM3|vitamin-b9|liver|8|52.064631956912024|290 µg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/folate_ug|
+|BRS1-FM1-PM3|vitamin-b9|thyme|9|49.19210053859964|274 µg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/folate_ug|
+|BRS1-FM1-PM3|vitamin-b9|peanuts|10|43.08797127468581|240 µg per 100 g edible portion|raw|docs/foods/peanuts.md#nutrition_per_100g/folate_ug|
+|BRS1-FM1-PM4|choline|egg-yolks|1|100|820.2 mg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/choline_mg|
+|BRS1-FM1-PM4|choline|soy-lecithin|2|42.6725188978298|350 mg per 100 g edible portion|Oil|docs/foods/soy-lecithin.md#nutrition_per_100g/choline_mg|
+|BRS1-FM1-PM4|choline|liver|3|40.636430138990484|333.3 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/choline_mg|
+|BRS1-FM1-PM4|choline|eggs|4|35.820531577663985|293.8 mg per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/choline_mg|
+|BRS1-FM1-PM4|choline|soy|5|14.130699829309926|115.9 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/choline_mg|
+|BRS1-FM1-PM4|choline|chickpeas|6|12.106803218727139|99.3 mg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/choline_mg|
+|BRS1-FM1-PM4|choline|lentils|7|11.753230919287978|96.4 mg per 100 g edible portion|raw|docs/foods/lentils.md#nutrition_per_100g/choline_mg|
+|BRS1-FM1-PM4|choline|anchovies|8|10.36332601804438|85 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/choline_mg|
+|BRS1-FM1-PM4|copper|liver|1|100|9.755 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/copper_mg|
+|BRS1-FM1-PM4|copper|spirulina|2|62.53203485392106|6.1 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/copper_mg|
+|BRS1-FM1-PM4|copper|sesame-seeds|3|41.84520758585341|4.082 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/copper_mg|
+|BRS1-FM1-PM4|copper|cocoa|4|38.8313685289595|3.788 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/copper_mg|
+|BRS1-FM1-PM4|copper|oysters|5|29.29779600205023|2.858 mg per 100 g edible portion|raw|docs/foods/oysters.md#nutrition_per_100g/copper_mg|
+|BRS1-FM1-PM4|copper|cashews|6|22.501281394156837|2.195 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/copper_mg|
+|BRS1-FM1-PM4|copper|sunflower-seeds|7|18.452075858534084|1.8 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/copper_mg|
+|BRS1-FM1-PM4|copper|soy|8|16.99641209636084|1.658 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/copper_mg|
+|BRS1-FM1-PM4|copper|tahini|9|16.504356740133264|1.61 mg per 100 g edible portion|roasted|docs/foods/tahini.md#nutrition_per_100g/copper_mg|
+|BRS1-FM1-PM4|copper|pumpkin-seeds|10|13.767298821117373|1.343 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/copper_mg|
+|BRS1-FM1-PM4|iron|thyme|1|100|123.6 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/iron_mg|
+|BRS1-FM1-PM4|iron|oregano|2|29.773462783171524|36.8 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/iron_mg|
+|BRS1-FM1-PM4|iron|spirulina|3|23.058252427184467|28.5 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/iron_mg|
+|BRS1-FM1-PM4|iron|cockles|4|13.106796116504855|16.2 mg per 100 g edible portion|raw|docs/foods/cockles.md#nutrition_per_100g/iron_mg|
+|BRS1-FM1-PM4|iron|soy|5|12.702265372168284|15.7 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/iron_mg|
+|BRS1-FM1-PM4|iron|sesame-seeds|6|11.771844660194176|14.55 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/iron_mg|
+|BRS1-FM1-PM4|iron|cocoa|7|11.21359223300971|13.86 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/iron_mg|
+|BRS1-FM1-PM4|magnesium|pumpkin-seeds|1|100|592 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM4|magnesium|cocoa|2|84.29054054054053|499 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM4|magnesium|sesame-seeds|3|59.29054054054054|351 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM4|magnesium|chia-seeds|4|56.58783783783784|335 mg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM4|magnesium|sunflower-seeds|5|54.89864864864865|325 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM4|magnesium|cashews|6|49.32432432432432|292 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM4|magnesium|soy|7|47.2972972972973|280 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM4|magnesium|oregano|8|45.608108108108105|270 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM4|magnesium|amaranth|9|41.891891891891895|248 mg per 100 g edible portion|uncooked|docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM4|magnesium|thyme|10|37.16216216216216|220 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM4|tyrosine|soy|1|100|1.539 g per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/tyrosine_g|
+|BRS1-FM1-PM4|tyrosine|pumpkin-seeds|2|71.02014294996751|1.093 g per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/tyrosine_g|
+|BRS1-FM1-PM4|tyrosine|tofu|3|45.54905782975958|0.701 g per 100 g edible portion|raw|docs/foods/tofu.md#nutrition_per_100g/tyrosine_g|
+|BRS1-FM1-PM4|vitamin-b2|spirulina|1|100|3.67 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM4|vitamin-b2|kidney|2|77.3841961852861|2.84 mg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM4|vitamin-b2|liver|3|75.06811989100818|2.755 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM4|vitamin-b2|heart|4|24.6866485013624|0.906 mg per 100 g edible portion|raw|docs/foods/heart.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM4|vitamin-b2|soy|5|23.705722070844686|0.87 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM4|vitamin-b2|salmon-roe|6|14.986376021798367|0.55 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS1-FM1-PM4|vitamin-b2|egg-yolks|7|14.386920980926432|0.528 mg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM4|vitamin-b2|tahini|8|12.888283378746593|0.473 mg per 100 g edible portion|roasted|docs/foods/tahini.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM4|vitamin-b2|eggs|9|12.452316076294279|0.457 mg per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM4|vitamin-b2|mushrooms|10|10.953678474114442|0.402 mg per 100 g edible portion|raw|docs/foods/mushrooms.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM4|vitamin-b6|pistachios|1|100|1.7 mg per 100 g edible portion|raw|docs/foods/pistachios.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM4|vitamin-b6|sunflower-seeds|2|79.11764705882352|1.345 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM4|vitamin-b6|garlic|3|72.64705882352942|1.235 mg per 100 g edible portion|raw|docs/foods/garlic.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM4|vitamin-b6|liver|4|63.70588235294118|1.083 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM4|vitamin-b6|oregano|5|61.411764705882355|1.044 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM4|vitamin-b6|sesame-seeds|6|46.470588235294116|0.79 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM4|vitamin-b6|kidney|7|39.117647058823536|0.665 mg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM4|vitamin-b6|turkey|8|38.35294117647059|0.652 mg per 100 g edible portion|raw|docs/foods/turkey.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM4|vitamin-b6|salmon|9|37.411764705882355|0.636 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM4|vitamin-b6|amaranth|10|34.76470588235294|0.591 mg per 100 g edible portion|uncooked|docs/foods/amaranth.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM4|vitamin-b9|chickpeas|1|100|557 µg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/folate_ug|
+|BRS1-FM1-PM4|vitamin-b9|lentils|2|85.99640933572711|479 µg per 100 g edible portion|raw|docs/foods/lentils.md#nutrition_per_100g/folate_ug|
+|BRS1-FM1-PM4|vitamin-b9|black-beans|3|79.71274685816876|444 µg per 100 g edible portion|raw|docs/foods/black-beans.md#nutrition_per_100g/folate_ug|
+|BRS1-FM1-PM4|vitamin-b9|kidney-beans|4|70.73608617594255|394 µg per 100 g edible portion|raw|docs/foods/kidney-beans.md#nutrition_per_100g/folate_ug|
+|BRS1-FM1-PM4|vitamin-b9|soy|5|67.32495511669659|375 µg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/folate_ug|
+|BRS1-FM1-PM4|vitamin-b9|lupins|6|63.73429084380609|355 µg per 100 g edible portion|raw|docs/foods/lupins.md#nutrition_per_100g/folate_ug|
+|BRS1-FM1-PM4|vitamin-b9|edamame|7|54.39856373429084|303 µg per 100 g edible portion|frozen|docs/foods/edamame.md#nutrition_per_100g/folate_ug|
+|BRS1-FM1-PM4|vitamin-b9|liver|8|52.064631956912024|290 µg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/folate_ug|
+|BRS1-FM1-PM4|vitamin-b9|thyme|9|49.19210053859964|274 µg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/folate_ug|
+|BRS1-FM1-PM4|vitamin-b9|peanuts|10|43.08797127468581|240 µg per 100 g edible portion|raw|docs/foods/peanuts.md#nutrition_per_100g/folate_ug|
+|BRS1-FM1-PM4|vitamin-c|bell-peppers|1|100|127.7 mg per 100 g edible portion|raw|docs/foods/bell-peppers.md#nutrition_per_100g/vitamin_c_mg|
+|BRS1-FM1-PM4|vitamin-c|kale|2|73.1401722787784|93.4 mg per 100 g edible portion|raw|docs/foods/kale.md#nutrition_per_100g/vitamin_c_mg|
+|BRS1-FM1-PM4|vitamin-c|broccoli|3|69.85121378230227|89.2 mg per 100 g edible portion|raw|docs/foods/broccoli.md#nutrition_per_100g/vitamin_c_mg|
+|BRS1-FM1-PM4|vitamin-c|brussels-sprouts|4|66.56225528582615|85 mg per 100 g edible portion|raw|docs/foods/brussels-sprouts.md#nutrition_per_100g/vitamin_c_mg|
+|BRS1-FM1-PM4|vitamin-c|strawberries|5|46.04541895066562|58.8 mg per 100 g edible portion|raw|docs/foods/strawberries.md#nutrition_per_100g/vitamin_c_mg|
+|BRS1-FM1-PM4|vitamin-c|oranges|6|41.660140955364135|53.2 mg per 100 g edible portion|raw|docs/foods/oranges.md#nutrition_per_100g/vitamin_c_mg|
+|BRS1-FM1-PM4|vitamin-c|lemon|7|41.503523884103366|53 mg per 100 g edible portion|raw|docs/foods/lemon.md#nutrition_per_100g/vitamin_c_mg|
+|BRS1-FM1-PM4|vitamin-c|thyme|8|39.15426781519186|50 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/vitamin_c_mg|
+|BRS1-FM1-PM4|vitamin-c|cauliflower|9|37.744714173844955|48.2 mg per 100 g edible portion|raw|docs/foods/cauliflower.md#nutrition_per_100g/vitamin_c_mg|
+|BRS1-FM1-PM4|vitamin-c|broccoli-sprouts|10|33.672670321065|43 mg per 100 g edible portion|raw|docs/foods/broccoli-sprouts.md#nutrition_per_100g/vitamin_c_mg|
+|BRS1-FM1-PM5|iron|thyme|1|100|123.6 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/iron_mg|
+|BRS1-FM1-PM5|iron|oregano|2|29.773462783171524|36.8 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/iron_mg|
+|BRS1-FM1-PM5|iron|spirulina|3|23.058252427184467|28.5 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/iron_mg|
+|BRS1-FM1-PM5|iron|cockles|4|13.106796116504855|16.2 mg per 100 g edible portion|raw|docs/foods/cockles.md#nutrition_per_100g/iron_mg|
+|BRS1-FM1-PM5|iron|soy|5|12.702265372168284|15.7 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/iron_mg|
+|BRS1-FM1-PM5|iron|sesame-seeds|6|11.771844660194176|14.55 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/iron_mg|
+|BRS1-FM1-PM5|iron|cocoa|7|11.21359223300971|13.86 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/iron_mg|
+|BRS1-FM1-PM5|tryptophan|soy|1|100|0.591 g per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/tryptophan_g|
+|BRS1-FM1-PM5|tryptophan|pumpkin-seeds|2|97.46192893401016|0.576 g per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/tryptophan_g|
+|BRS1-FM1-PM5|tryptophan|turkey|3|40.77834179357022|0.241 g per 100 g edible portion|raw|docs/foods/turkey.md#nutrition_per_100g/tryptophan_g|
+|BRS1-FM1-PM5|vitamin-b2|spirulina|1|100|3.67 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM5|vitamin-b2|kidney|2|77.3841961852861|2.84 mg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM5|vitamin-b2|liver|3|75.06811989100818|2.755 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM5|vitamin-b2|heart|4|24.6866485013624|0.906 mg per 100 g edible portion|raw|docs/foods/heart.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM5|vitamin-b2|soy|5|23.705722070844686|0.87 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM5|vitamin-b2|salmon-roe|6|14.986376021798367|0.55 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS1-FM1-PM5|vitamin-b2|egg-yolks|7|14.386920980926432|0.528 mg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM5|vitamin-b2|tahini|8|12.888283378746593|0.473 mg per 100 g edible portion|roasted|docs/foods/tahini.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM5|vitamin-b2|eggs|9|12.452316076294279|0.457 mg per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM5|vitamin-b2|mushrooms|10|10.953678474114442|0.402 mg per 100 g edible portion|raw|docs/foods/mushrooms.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS1-FM1-PM5|vitamin-b6|pistachios|1|100|1.7 mg per 100 g edible portion|raw|docs/foods/pistachios.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM5|vitamin-b6|sunflower-seeds|2|79.11764705882352|1.345 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM5|vitamin-b6|garlic|3|72.64705882352942|1.235 mg per 100 g edible portion|raw|docs/foods/garlic.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM5|vitamin-b6|liver|4|63.70588235294118|1.083 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM5|vitamin-b6|oregano|5|61.411764705882355|1.044 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM5|vitamin-b6|sesame-seeds|6|46.470588235294116|0.79 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM5|vitamin-b6|kidney|7|39.117647058823536|0.665 mg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM5|vitamin-b6|turkey|8|38.35294117647059|0.652 mg per 100 g edible portion|raw|docs/foods/turkey.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM5|vitamin-b6|salmon|9|37.411764705882355|0.636 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM1-PM5|vitamin-b6|amaranth|10|34.76470588235294|0.591 mg per 100 g edible portion|uncooked|docs/foods/amaranth.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM2-PM6|choline|egg-yolks|1|100|820.2 mg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/choline_mg|
+|BRS1-FM2-PM6|choline|soy-lecithin|2|42.6725188978298|350 mg per 100 g edible portion|Oil|docs/foods/soy-lecithin.md#nutrition_per_100g/choline_mg|
+|BRS1-FM2-PM6|choline|liver|3|40.636430138990484|333.3 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/choline_mg|
+|BRS1-FM2-PM6|choline|eggs|4|35.820531577663985|293.8 mg per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/choline_mg|
+|BRS1-FM2-PM6|choline|soy|5|14.130699829309926|115.9 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/choline_mg|
+|BRS1-FM2-PM6|choline|chickpeas|6|12.106803218727139|99.3 mg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/choline_mg|
+|BRS1-FM2-PM6|choline|lentils|7|11.753230919287978|96.4 mg per 100 g edible portion|raw|docs/foods/lentils.md#nutrition_per_100g/choline_mg|
+|BRS1-FM2-PM6|choline|anchovies|8|10.36332601804438|85 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/choline_mg|
+|BRS1-FM2-PM6|sodium|anchovies|1|100|3668 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM2-PM6|sodium|capers|2|64.01308615049072|2348 mg per 100 g edible portion|canned|docs/foods/capers.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM2-PM6|sodium|spirulina|3|28.57142857142857|1048 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM2-PM6|sodium|salmon-roe|4|24.80916030534351|910 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS1-FM2-PM6|sodium|olives|5|20.0381679389313|735 mg per 100 g edible portion|canned|docs/foods/olives.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM2-PM6|sodium|sauerkraut|6|18.02071973827699|661 mg per 100 g edible portion|canned|docs/foods/sauerkraut.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM2-PM6|sodium|clams|7|16.38495092693566|601 mg per 100 g edible portion|raw|docs/foods/clams.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM2-PM6|sodium|shrimp|8|15.430752453653218|566 mg per 100 g edible portion|raw|docs/foods/shrimp.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM2-PM6|sodium|scallops|9|10.687022900763358|392 mg per 100 g edible portion|raw|docs/foods/scallops.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM2-PM6|vitamin-b5|liver|1|100|7.173 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_b5_mg|
+|BRS1-FM2-PM6|vitamin-b5|kidney|2|55.34643803150704|3.97 mg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/vitamin_b5_mg|
+|BRS1-FM2-PM6|vitamin-b5|spirulina|3|48.51526557925554|3.48 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/vitamin_b5_mg|
+|BRS1-FM2-PM6|vitamin-b5|egg-yolks|4|41.68409312700405|2.99 mg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/vitamin_b5_mg|
+|BRS1-FM2-PM6|vitamin-b5|salmon-roe|5|32.9011571169664|2.36 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS1-FM2-PM6|vitamin-b5|lentils|6|29.834100097588177|2.14 mg per 100 g edible portion|raw|docs/foods/lentils.md#nutrition_per_100g/vitamin_b5_mg|
+|BRS1-FM2-PM6|vitamin-b5|heart|7|24.954691203122824|1.79 mg per 100 g edible portion|raw|docs/foods/heart.md#nutrition_per_100g/vitamin_b5_mg|
+|BRS1-FM2-PM6|vitamin-b5|peanuts|8|24.6340443329151|1.767 mg per 100 g edible portion|raw|docs/foods/peanuts.md#nutrition_per_100g/vitamin_b5_mg|
+|BRS1-FM2-PM6|vitamin-b5|chickpeas|9|22.138575212602817|1.588 mg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/vitamin_b5_mg|
+|BRS1-FM2-PM6|vitamin-b5|salmon|10|21.566987313536874|1.547 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/vitamin_b5_mg|
+|BRS1-FM2-PM6|vitamin-b9|chickpeas|1|100|557 µg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/folate_ug|
+|BRS1-FM2-PM6|vitamin-b9|lentils|2|85.99640933572711|479 µg per 100 g edible portion|raw|docs/foods/lentils.md#nutrition_per_100g/folate_ug|
+|BRS1-FM2-PM6|vitamin-b9|black-beans|3|79.71274685816876|444 µg per 100 g edible portion|raw|docs/foods/black-beans.md#nutrition_per_100g/folate_ug|
+|BRS1-FM2-PM6|vitamin-b9|kidney-beans|4|70.73608617594255|394 µg per 100 g edible portion|raw|docs/foods/kidney-beans.md#nutrition_per_100g/folate_ug|
+|BRS1-FM2-PM6|vitamin-b9|soy|5|67.32495511669659|375 µg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/folate_ug|
+|BRS1-FM2-PM6|vitamin-b9|lupins|6|63.73429084380609|355 µg per 100 g edible portion|raw|docs/foods/lupins.md#nutrition_per_100g/folate_ug|
+|BRS1-FM2-PM6|vitamin-b9|edamame|7|54.39856373429084|303 µg per 100 g edible portion|frozen|docs/foods/edamame.md#nutrition_per_100g/folate_ug|
+|BRS1-FM2-PM6|vitamin-b9|liver|8|52.064631956912024|290 µg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/folate_ug|
+|BRS1-FM2-PM6|vitamin-b9|thyme|9|49.19210053859964|274 µg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/folate_ug|
+|BRS1-FM2-PM6|vitamin-b9|peanuts|10|43.08797127468581|240 µg per 100 g edible portion|raw|docs/foods/peanuts.md#nutrition_per_100g/folate_ug|
+|BRS1-FM3-PM7|choline|egg-yolks|1|100|820.2 mg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/choline_mg|
+|BRS1-FM3-PM7|choline|soy-lecithin|2|42.6725188978298|350 mg per 100 g edible portion|Oil|docs/foods/soy-lecithin.md#nutrition_per_100g/choline_mg|
+|BRS1-FM3-PM7|choline|liver|3|40.636430138990484|333.3 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/choline_mg|
+|BRS1-FM3-PM7|choline|eggs|4|35.820531577663985|293.8 mg per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/choline_mg|
+|BRS1-FM3-PM7|choline|soy|5|14.130699829309926|115.9 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/choline_mg|
+|BRS1-FM3-PM7|choline|chickpeas|6|12.106803218727139|99.3 mg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/choline_mg|
+|BRS1-FM3-PM7|choline|lentils|7|11.753230919287978|96.4 mg per 100 g edible portion|raw|docs/foods/lentils.md#nutrition_per_100g/choline_mg|
+|BRS1-FM3-PM7|choline|anchovies|8|10.36332601804438|85 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/choline_mg|
+|BRS1-FM3-PM7|dha-docosahexaenoic-acid|salmon-roe|1|100|2000 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS1-FM3-PM7|dha-docosahexaenoic-acid|mackerel|2|70.05|1401 mg per 100 g edible portion|raw|docs/foods/mackerel.md#nutrition_per_100g/dha_mg|
+|BRS1-FM3-PM7|dha-docosahexaenoic-acid|anchovies|3|64.60000000000001|1292 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/dha_mg|
+|BRS1-FM3-PM7|dha-docosahexaenoic-acid|salmon|4|55.2|1104 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/dha_mg|
+|BRS1-FM3-PM7|dha-docosahexaenoic-acid|tuna|5|44.5|890 mg per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/dha_mg|
+|BRS1-FM3-PM7|dha-docosahexaenoic-acid|herring|6|43.1|862 mg per 100 g edible portion|raw|docs/foods/herring.md#nutrition_per_100g/dha_mg|
+|BRS1-FM3-PM7|dha-docosahexaenoic-acid|sardines|7|25.45|509 mg per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/dha_mg|
+|BRS1-FM3-PM7|dha-docosahexaenoic-acid|mussels|8|12.65|253 mg per 100 g edible portion|raw|docs/foods/mussels.md#nutrition_per_100g/dha_mg|
+|BRS1-FM3-PM7|sodium|anchovies|1|100|3668 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM3-PM7|sodium|capers|2|64.01308615049072|2348 mg per 100 g edible portion|canned|docs/foods/capers.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM3-PM7|sodium|spirulina|3|28.57142857142857|1048 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM3-PM7|sodium|salmon-roe|4|24.80916030534351|910 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS1-FM3-PM7|sodium|olives|5|20.0381679389313|735 mg per 100 g edible portion|canned|docs/foods/olives.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM3-PM7|sodium|sauerkraut|6|18.02071973827699|661 mg per 100 g edible portion|canned|docs/foods/sauerkraut.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM3-PM7|sodium|clams|7|16.38495092693566|601 mg per 100 g edible portion|raw|docs/foods/clams.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM3-PM7|sodium|shrimp|8|15.430752453653218|566 mg per 100 g edible portion|raw|docs/foods/shrimp.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM3-PM7|sodium|scallops|9|10.687022900763358|392 mg per 100 g edible portion|raw|docs/foods/scallops.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM3-PM7|vitamin-b9|chickpeas|1|100|557 µg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/folate_ug|
+|BRS1-FM3-PM7|vitamin-b9|lentils|2|85.99640933572711|479 µg per 100 g edible portion|raw|docs/foods/lentils.md#nutrition_per_100g/folate_ug|
+|BRS1-FM3-PM7|vitamin-b9|black-beans|3|79.71274685816876|444 µg per 100 g edible portion|raw|docs/foods/black-beans.md#nutrition_per_100g/folate_ug|
+|BRS1-FM3-PM7|vitamin-b9|kidney-beans|4|70.73608617594255|394 µg per 100 g edible portion|raw|docs/foods/kidney-beans.md#nutrition_per_100g/folate_ug|
+|BRS1-FM3-PM7|vitamin-b9|soy|5|67.32495511669659|375 µg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/folate_ug|
+|BRS1-FM3-PM7|vitamin-b9|lupins|6|63.73429084380609|355 µg per 100 g edible portion|raw|docs/foods/lupins.md#nutrition_per_100g/folate_ug|
+|BRS1-FM3-PM7|vitamin-b9|edamame|7|54.39856373429084|303 µg per 100 g edible portion|frozen|docs/foods/edamame.md#nutrition_per_100g/folate_ug|
+|BRS1-FM3-PM7|vitamin-b9|liver|8|52.064631956912024|290 µg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/folate_ug|
+|BRS1-FM3-PM7|vitamin-b9|thyme|9|49.19210053859964|274 µg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/folate_ug|
+|BRS1-FM3-PM7|vitamin-b9|peanuts|10|43.08797127468581|240 µg per 100 g edible portion|raw|docs/foods/peanuts.md#nutrition_per_100g/folate_ug|
+|BRS1-FM4-PM10|potassium|soy|1|100|1797 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/potassium_mg|
+|BRS1-FM4-PM10|potassium|cocoa|2|84.80801335559266|1524 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/potassium_mg|
+|BRS1-FM4-PM10|potassium|black-beans|3|82.52643294379521|1483 mg per 100 g edible portion|raw|docs/foods/black-beans.md#nutrition_per_100g/potassium_mg|
+|BRS1-FM4-PM10|potassium|kidney-beans|4|78.24151363383417|1406 mg per 100 g edible portion|raw|docs/foods/kidney-beans.md#nutrition_per_100g/potassium_mg|
+|BRS1-FM4-PM10|potassium|spirulina|5|75.84863661658319|1363 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/potassium_mg|
+|BRS1-FM4-PM10|potassium|oregano|6|70.11686143572621|1260 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/potassium_mg|
+|BRS1-FM4-PM10|potassium|pistachios|7|57.039510294936|1025 mg per 100 g edible portion|raw|docs/foods/pistachios.md#nutrition_per_100g/potassium_mg|
+|BRS1-FM4-PM10|potassium|lupins|8|56.3717306622148|1013 mg per 100 g edible portion|raw|docs/foods/lupins.md#nutrition_per_100g/potassium_mg|
+|BRS1-FM4-PM10|potassium|thyme|9|45.2977184195882|814 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/potassium_mg|
+|BRS1-FM4-PM10|potassium|pumpkin-seeds|10|45.01947690595437|809 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/potassium_mg|
+|BRS1-FM4-PM10|sodium|anchovies|1|100|3668 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM4-PM10|sodium|capers|2|64.01308615049072|2348 mg per 100 g edible portion|canned|docs/foods/capers.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM4-PM10|sodium|spirulina|3|28.57142857142857|1048 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM4-PM10|sodium|salmon-roe|4|24.80916030534351|910 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS1-FM4-PM10|sodium|olives|5|20.0381679389313|735 mg per 100 g edible portion|canned|docs/foods/olives.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM4-PM10|sodium|sauerkraut|6|18.02071973827699|661 mg per 100 g edible portion|canned|docs/foods/sauerkraut.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM4-PM10|sodium|clams|7|16.38495092693566|601 mg per 100 g edible portion|raw|docs/foods/clams.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM4-PM10|sodium|shrimp|8|15.430752453653218|566 mg per 100 g edible portion|raw|docs/foods/shrimp.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM4-PM10|sodium|scallops|9|10.687022900763358|392 mg per 100 g edible portion|raw|docs/foods/scallops.md#nutrition_per_100g/sodium_mg|
+|BRS1-FM4-PM11|magnesium|pumpkin-seeds|1|100|592 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM4-PM11|magnesium|cocoa|2|84.29054054054053|499 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM4-PM11|magnesium|sesame-seeds|3|59.29054054054054|351 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM4-PM11|magnesium|chia-seeds|4|56.58783783783784|335 mg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM4-PM11|magnesium|sunflower-seeds|5|54.89864864864865|325 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM4-PM11|magnesium|cashews|6|49.32432432432432|292 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM4-PM11|magnesium|soy|7|47.2972972972973|280 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM4-PM11|magnesium|oregano|8|45.608108108108105|270 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM4-PM11|magnesium|amaranth|9|41.891891891891895|248 mg per 100 g edible portion|uncooked|docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM4-PM11|magnesium|thyme|10|37.16216216216216|220 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM4-PM9|vitamin-b6|pistachios|1|100|1.7 mg per 100 g edible portion|raw|docs/foods/pistachios.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM4-PM9|vitamin-b6|sunflower-seeds|2|79.11764705882352|1.345 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM4-PM9|vitamin-b6|garlic|3|72.64705882352942|1.235 mg per 100 g edible portion|raw|docs/foods/garlic.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM4-PM9|vitamin-b6|liver|4|63.70588235294118|1.083 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM4-PM9|vitamin-b6|oregano|5|61.411764705882355|1.044 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM4-PM9|vitamin-b6|sesame-seeds|6|46.470588235294116|0.79 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM4-PM9|vitamin-b6|kidney|7|39.117647058823536|0.665 mg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM4-PM9|vitamin-b6|turkey|8|38.35294117647059|0.652 mg per 100 g edible portion|raw|docs/foods/turkey.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM4-PM9|vitamin-b6|salmon|9|37.411764705882355|0.636 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM4-PM9|vitamin-b6|amaranth|10|34.76470588235294|0.591 mg per 100 g edible portion|uncooked|docs/foods/amaranth.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS1-FM5-PM12|choline|egg-yolks|1|100|820.2 mg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/choline_mg|
+|BRS1-FM5-PM12|choline|soy-lecithin|2|42.6725188978298|350 mg per 100 g edible portion|Oil|docs/foods/soy-lecithin.md#nutrition_per_100g/choline_mg|
+|BRS1-FM5-PM12|choline|liver|3|40.636430138990484|333.3 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/choline_mg|
+|BRS1-FM5-PM12|choline|eggs|4|35.820531577663985|293.8 mg per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/choline_mg|
+|BRS1-FM5-PM12|choline|soy|5|14.130699829309926|115.9 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/choline_mg|
+|BRS1-FM5-PM12|choline|chickpeas|6|12.106803218727139|99.3 mg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/choline_mg|
+|BRS1-FM5-PM12|choline|lentils|7|11.753230919287978|96.4 mg per 100 g edible portion|raw|docs/foods/lentils.md#nutrition_per_100g/choline_mg|
+|BRS1-FM5-PM12|choline|anchovies|8|10.36332601804438|85 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/choline_mg|
+|BRS1-FM5-PM12|dha-docosahexaenoic-acid|salmon-roe|1|100|2000 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS1-FM5-PM12|dha-docosahexaenoic-acid|mackerel|2|70.05|1401 mg per 100 g edible portion|raw|docs/foods/mackerel.md#nutrition_per_100g/dha_mg|
+|BRS1-FM5-PM12|dha-docosahexaenoic-acid|anchovies|3|64.60000000000001|1292 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/dha_mg|
+|BRS1-FM5-PM12|dha-docosahexaenoic-acid|salmon|4|55.2|1104 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/dha_mg|
+|BRS1-FM5-PM12|dha-docosahexaenoic-acid|tuna|5|44.5|890 mg per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/dha_mg|
+|BRS1-FM5-PM12|dha-docosahexaenoic-acid|herring|6|43.1|862 mg per 100 g edible portion|raw|docs/foods/herring.md#nutrition_per_100g/dha_mg|
+|BRS1-FM5-PM12|dha-docosahexaenoic-acid|sardines|7|25.45|509 mg per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/dha_mg|
+|BRS1-FM5-PM12|dha-docosahexaenoic-acid|mussels|8|12.65|253 mg per 100 g edible portion|raw|docs/foods/mussels.md#nutrition_per_100g/dha_mg|
+|BRS2-FM1-PM1|vitamin-b12|liver|1|100|59.3 µg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_b12_ug|
+|BRS2-FM1-PM1|vitamin-b12|salmon-roe|2|79.25801011804384|47 µg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS2-FM1-PM1|vitamin-b12|kidney|3|46.3743676222597|27.5 µg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/vitamin_b12_ug|
+|BRS2-FM1-PM1|vitamin-b12|herring|4|23.052276559865092|13.67 µg per 100 g edible portion|raw|docs/foods/herring.md#nutrition_per_100g/vitamin_b12_ug|
+|BRS2-FM1-PM1|vitamin-b12|mussels|5|20.236087689713322|12 µg per 100 g edible portion|raw|docs/foods/mussels.md#nutrition_per_100g/vitamin_b12_ug|
+|BRS2-FM1-PM1|vitamin-b12|clams|6|19.021922428330523|11.28 µg per 100 g edible portion|raw|docs/foods/clams.md#nutrition_per_100g/vitamin_b12_ug|
+|BRS2-FM1-PM1|vitamin-b12|tuna|7|15.902192242833053|9.43 µg per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/vitamin_b12_ug|
+|BRS2-FM1-PM1|vitamin-b12|sardines|8|15.075885328836424|8.94 µg per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/vitamin_b12_ug|
+|BRS2-FM1-PM1|vitamin-b12|oysters|9|14.755480607082633|8.75 µg per 100 g edible portion|raw|docs/foods/oysters.md#nutrition_per_100g/vitamin_b12_ug|
+|BRS2-FM1-PM1|vitamin-b12|mackerel|10|14.688026981450255|8.71 µg per 100 g edible portion|raw|docs/foods/mackerel.md#nutrition_per_100g/vitamin_b12_ug|
+|BRS2-FM1-PM1|vitamin-b2|spirulina|1|100|3.67 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS2-FM1-PM1|vitamin-b2|kidney|2|77.3841961852861|2.84 mg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS2-FM1-PM1|vitamin-b2|liver|3|75.06811989100818|2.755 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS2-FM1-PM1|vitamin-b2|heart|4|24.6866485013624|0.906 mg per 100 g edible portion|raw|docs/foods/heart.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS2-FM1-PM1|vitamin-b2|soy|5|23.705722070844686|0.87 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS2-FM1-PM1|vitamin-b2|salmon-roe|6|14.986376021798367|0.55 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS2-FM1-PM1|vitamin-b2|egg-yolks|7|14.386920980926432|0.528 mg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS2-FM1-PM1|vitamin-b2|tahini|8|12.888283378746593|0.473 mg per 100 g edible portion|roasted|docs/foods/tahini.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS2-FM1-PM1|vitamin-b2|eggs|9|12.452316076294279|0.457 mg per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS2-FM1-PM1|vitamin-b2|mushrooms|10|10.953678474114442|0.402 mg per 100 g edible portion|raw|docs/foods/mushrooms.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS2-FM1-PM1|vitamin-b9|chickpeas|1|100|557 µg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM1|vitamin-b9|lentils|2|85.99640933572711|479 µg per 100 g edible portion|raw|docs/foods/lentils.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM1|vitamin-b9|black-beans|3|79.71274685816876|444 µg per 100 g edible portion|raw|docs/foods/black-beans.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM1|vitamin-b9|kidney-beans|4|70.73608617594255|394 µg per 100 g edible portion|raw|docs/foods/kidney-beans.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM1|vitamin-b9|soy|5|67.32495511669659|375 µg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM1|vitamin-b9|lupins|6|63.73429084380609|355 µg per 100 g edible portion|raw|docs/foods/lupins.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM1|vitamin-b9|edamame|7|54.39856373429084|303 µg per 100 g edible portion|frozen|docs/foods/edamame.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM1|vitamin-b9|liver|8|52.064631956912024|290 µg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM1|vitamin-b9|thyme|9|49.19210053859964|274 µg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM1|vitamin-b9|peanuts|10|43.08797127468581|240 µg per 100 g edible portion|raw|docs/foods/peanuts.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM2|choline|egg-yolks|1|100|820.2 mg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM2|choline|soy-lecithin|2|42.6725188978298|350 mg per 100 g edible portion|Oil|docs/foods/soy-lecithin.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM2|choline|liver|3|40.636430138990484|333.3 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM2|choline|eggs|4|35.820531577663985|293.8 mg per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM2|choline|soy|5|14.130699829309926|115.9 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM2|choline|chickpeas|6|12.106803218727139|99.3 mg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM2|choline|lentils|7|11.753230919287978|96.4 mg per 100 g edible portion|raw|docs/foods/lentils.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM2|choline|anchovies|8|10.36332601804438|85 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM2|zinc|oysters|1|100|39.3 mg per 100 g edible portion|raw|docs/foods/oysters.md#nutrition_per_100g/zinc_mg|
+|BRS2-FM1-PM2|zinc|pumpkin-seeds|2|19.872773536895675|7.81 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/zinc_mg|
+|BRS2-FM1-PM2|zinc|sesame-seeds|3|19.720101781170484|7.75 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/zinc_mg|
+|BRS2-FM1-PM2|zinc|cocoa|4|17.32824427480916|6.81 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/zinc_mg|
+|BRS2-FM1-PM2|zinc|thyme|5|15.725190839694658|6.18 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/zinc_mg|
+|BRS2-FM1-PM2|zinc|cashews|6|14.707379134860052|5.78 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/zinc_mg|
+|BRS2-FM1-PM2|zinc|sunflower-seeds|7|12.72264631043257|5 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/zinc_mg|
+|BRS2-FM1-PM2|zinc|soy|8|12.442748091603054|4.89 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/zinc_mg|
+|BRS2-FM1-PM2|zinc|lupins|9|12.086513994910943|4.75 mg per 100 g edible portion|raw|docs/foods/lupins.md#nutrition_per_100g/zinc_mg|
+|BRS2-FM1-PM2|zinc|tahini|10|11.755725190839696|4.62 mg per 100 g edible portion|roasted|docs/foods/tahini.md#nutrition_per_100g/zinc_mg|
+|BRS2-FM1-PM3|choline|egg-yolks|1|100|820.2 mg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM3|choline|soy-lecithin|2|42.6725188978298|350 mg per 100 g edible portion|Oil|docs/foods/soy-lecithin.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM3|choline|liver|3|40.636430138990484|333.3 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM3|choline|eggs|4|35.820531577663985|293.8 mg per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM3|choline|soy|5|14.130699829309926|115.9 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM3|choline|chickpeas|6|12.106803218727139|99.3 mg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM3|choline|lentils|7|11.753230919287978|96.4 mg per 100 g edible portion|raw|docs/foods/lentils.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM3|choline|anchovies|8|10.36332601804438|85 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM3|magnesium|pumpkin-seeds|1|100|592 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM1-PM3|magnesium|cocoa|2|84.29054054054053|499 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM1-PM3|magnesium|sesame-seeds|3|59.29054054054054|351 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM1-PM3|magnesium|chia-seeds|4|56.58783783783784|335 mg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM1-PM3|magnesium|sunflower-seeds|5|54.89864864864865|325 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM1-PM3|magnesium|cashews|6|49.32432432432432|292 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM1-PM3|magnesium|soy|7|47.2972972972973|280 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM1-PM3|magnesium|oregano|8|45.608108108108105|270 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM1-PM3|magnesium|amaranth|9|41.891891891891895|248 mg per 100 g edible portion|uncooked|docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM1-PM3|magnesium|thyme|10|37.16216216216216|220 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM1-PM3|methionine|sardines|1|100|1.086 g per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/methionine_g|
+|BRS2-FM1-PM3|methionine|tuna|2|63.53591160220995|0.69 g per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/methionine_g|
+|BRS2-FM1-PM3|methionine|salmon|3|57.6427255985267|0.626 g per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/methionine_g|
+|BRS2-FM1-PM3|methionine|chicken|4|45.39594843462247|0.493 g per 100 g edible portion|raw|docs/foods/chicken.md#nutrition_per_100g/methionine_g|
+|BRS2-FM1-PM3|methionine|eggs|5|34.99079189686925|0.38 g per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/methionine_g|
+|BRS2-FM1-PM3|potassium|soy|1|100|1797 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/potassium_mg|
+|BRS2-FM1-PM3|potassium|cocoa|2|84.80801335559266|1524 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/potassium_mg|
+|BRS2-FM1-PM3|potassium|black-beans|3|82.52643294379521|1483 mg per 100 g edible portion|raw|docs/foods/black-beans.md#nutrition_per_100g/potassium_mg|
+|BRS2-FM1-PM3|potassium|kidney-beans|4|78.24151363383417|1406 mg per 100 g edible portion|raw|docs/foods/kidney-beans.md#nutrition_per_100g/potassium_mg|
+|BRS2-FM1-PM3|potassium|spirulina|5|75.84863661658319|1363 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/potassium_mg|
+|BRS2-FM1-PM3|potassium|oregano|6|70.11686143572621|1260 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/potassium_mg|
+|BRS2-FM1-PM3|potassium|pistachios|7|57.039510294936|1025 mg per 100 g edible portion|raw|docs/foods/pistachios.md#nutrition_per_100g/potassium_mg|
+|BRS2-FM1-PM3|potassium|lupins|8|56.3717306622148|1013 mg per 100 g edible portion|raw|docs/foods/lupins.md#nutrition_per_100g/potassium_mg|
+|BRS2-FM1-PM3|potassium|thyme|9|45.2977184195882|814 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/potassium_mg|
+|BRS2-FM1-PM3|potassium|pumpkin-seeds|10|45.01947690595437|809 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/potassium_mg|
+|BRS2-FM1-PM3|vitamin-b9|chickpeas|1|100|557 µg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM3|vitamin-b9|lentils|2|85.99640933572711|479 µg per 100 g edible portion|raw|docs/foods/lentils.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM3|vitamin-b9|black-beans|3|79.71274685816876|444 µg per 100 g edible portion|raw|docs/foods/black-beans.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM3|vitamin-b9|kidney-beans|4|70.73608617594255|394 µg per 100 g edible portion|raw|docs/foods/kidney-beans.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM3|vitamin-b9|soy|5|67.32495511669659|375 µg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM3|vitamin-b9|lupins|6|63.73429084380609|355 µg per 100 g edible portion|raw|docs/foods/lupins.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM3|vitamin-b9|edamame|7|54.39856373429084|303 µg per 100 g edible portion|frozen|docs/foods/edamame.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM3|vitamin-b9|liver|8|52.064631956912024|290 µg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM3|vitamin-b9|thyme|9|49.19210053859964|274 µg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM3|vitamin-b9|peanuts|10|43.08797127468581|240 µg per 100 g edible portion|raw|docs/foods/peanuts.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM4|choline|egg-yolks|1|100|820.2 mg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM4|choline|soy-lecithin|2|42.6725188978298|350 mg per 100 g edible portion|Oil|docs/foods/soy-lecithin.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM4|choline|liver|3|40.636430138990484|333.3 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM4|choline|eggs|4|35.820531577663985|293.8 mg per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM4|choline|soy|5|14.130699829309926|115.9 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM4|choline|chickpeas|6|12.106803218727139|99.3 mg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM4|choline|lentils|7|11.753230919287978|96.4 mg per 100 g edible portion|raw|docs/foods/lentils.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM4|choline|anchovies|8|10.36332601804438|85 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/choline_mg|
+|BRS2-FM1-PM4|methionine|sardines|1|100|1.086 g per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/methionine_g|
+|BRS2-FM1-PM4|methionine|tuna|2|63.53591160220995|0.69 g per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/methionine_g|
+|BRS2-FM1-PM4|methionine|salmon|3|57.6427255985267|0.626 g per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/methionine_g|
+|BRS2-FM1-PM4|methionine|chicken|4|45.39594843462247|0.493 g per 100 g edible portion|raw|docs/foods/chicken.md#nutrition_per_100g/methionine_g|
+|BRS2-FM1-PM4|methionine|eggs|5|34.99079189686925|0.38 g per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/methionine_g|
+|BRS2-FM1-PM4|vitamin-b12|liver|1|100|59.3 µg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_b12_ug|
+|BRS2-FM1-PM4|vitamin-b12|salmon-roe|2|79.25801011804384|47 µg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS2-FM1-PM4|vitamin-b12|kidney|3|46.3743676222597|27.5 µg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/vitamin_b12_ug|
+|BRS2-FM1-PM4|vitamin-b12|herring|4|23.052276559865092|13.67 µg per 100 g edible portion|raw|docs/foods/herring.md#nutrition_per_100g/vitamin_b12_ug|
+|BRS2-FM1-PM4|vitamin-b12|mussels|5|20.236087689713322|12 µg per 100 g edible portion|raw|docs/foods/mussels.md#nutrition_per_100g/vitamin_b12_ug|
+|BRS2-FM1-PM4|vitamin-b12|clams|6|19.021922428330523|11.28 µg per 100 g edible portion|raw|docs/foods/clams.md#nutrition_per_100g/vitamin_b12_ug|
+|BRS2-FM1-PM4|vitamin-b12|tuna|7|15.902192242833053|9.43 µg per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/vitamin_b12_ug|
+|BRS2-FM1-PM4|vitamin-b12|sardines|8|15.075885328836424|8.94 µg per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/vitamin_b12_ug|
+|BRS2-FM1-PM4|vitamin-b12|oysters|9|14.755480607082633|8.75 µg per 100 g edible portion|raw|docs/foods/oysters.md#nutrition_per_100g/vitamin_b12_ug|
+|BRS2-FM1-PM4|vitamin-b12|mackerel|10|14.688026981450255|8.71 µg per 100 g edible portion|raw|docs/foods/mackerel.md#nutrition_per_100g/vitamin_b12_ug|
+|BRS2-FM1-PM4|vitamin-b2|spirulina|1|100|3.67 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS2-FM1-PM4|vitamin-b2|kidney|2|77.3841961852861|2.84 mg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS2-FM1-PM4|vitamin-b2|liver|3|75.06811989100818|2.755 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS2-FM1-PM4|vitamin-b2|heart|4|24.6866485013624|0.906 mg per 100 g edible portion|raw|docs/foods/heart.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS2-FM1-PM4|vitamin-b2|soy|5|23.705722070844686|0.87 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS2-FM1-PM4|vitamin-b2|salmon-roe|6|14.986376021798367|0.55 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS2-FM1-PM4|vitamin-b2|egg-yolks|7|14.386920980926432|0.528 mg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS2-FM1-PM4|vitamin-b2|tahini|8|12.888283378746593|0.473 mg per 100 g edible portion|roasted|docs/foods/tahini.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS2-FM1-PM4|vitamin-b2|eggs|9|12.452316076294279|0.457 mg per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS2-FM1-PM4|vitamin-b2|mushrooms|10|10.953678474114442|0.402 mg per 100 g edible portion|raw|docs/foods/mushrooms.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS2-FM1-PM4|vitamin-b6|pistachios|1|100|1.7 mg per 100 g edible portion|raw|docs/foods/pistachios.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS2-FM1-PM4|vitamin-b6|sunflower-seeds|2|79.11764705882352|1.345 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS2-FM1-PM4|vitamin-b6|garlic|3|72.64705882352942|1.235 mg per 100 g edible portion|raw|docs/foods/garlic.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS2-FM1-PM4|vitamin-b6|liver|4|63.70588235294118|1.083 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS2-FM1-PM4|vitamin-b6|oregano|5|61.411764705882355|1.044 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS2-FM1-PM4|vitamin-b6|sesame-seeds|6|46.470588235294116|0.79 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS2-FM1-PM4|vitamin-b6|kidney|7|39.117647058823536|0.665 mg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS2-FM1-PM4|vitamin-b6|turkey|8|38.35294117647059|0.652 mg per 100 g edible portion|raw|docs/foods/turkey.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS2-FM1-PM4|vitamin-b6|salmon|9|37.411764705882355|0.636 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS2-FM1-PM4|vitamin-b6|amaranth|10|34.76470588235294|0.591 mg per 100 g edible portion|uncooked|docs/foods/amaranth.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS2-FM1-PM4|vitamin-b9|chickpeas|1|100|557 µg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM4|vitamin-b9|lentils|2|85.99640933572711|479 µg per 100 g edible portion|raw|docs/foods/lentils.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM4|vitamin-b9|black-beans|3|79.71274685816876|444 µg per 100 g edible portion|raw|docs/foods/black-beans.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM4|vitamin-b9|kidney-beans|4|70.73608617594255|394 µg per 100 g edible portion|raw|docs/foods/kidney-beans.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM4|vitamin-b9|soy|5|67.32495511669659|375 µg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM4|vitamin-b9|lupins|6|63.73429084380609|355 µg per 100 g edible portion|raw|docs/foods/lupins.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM4|vitamin-b9|edamame|7|54.39856373429084|303 µg per 100 g edible portion|frozen|docs/foods/edamame.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM4|vitamin-b9|liver|8|52.064631956912024|290 µg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM4|vitamin-b9|thyme|9|49.19210053859964|274 µg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/folate_ug|
+|BRS2-FM1-PM4|vitamin-b9|peanuts|10|43.08797127468581|240 µg per 100 g edible portion|raw|docs/foods/peanuts.md#nutrition_per_100g/folate_ug|
+|BRS2-FM2-PM5|methionine|sardines|1|100|1.086 g per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/methionine_g|
+|BRS2-FM2-PM5|methionine|tuna|2|63.53591160220995|0.69 g per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/methionine_g|
+|BRS2-FM2-PM5|methionine|salmon|3|57.6427255985267|0.626 g per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/methionine_g|
+|BRS2-FM2-PM5|methionine|chicken|4|45.39594843462247|0.493 g per 100 g edible portion|raw|docs/foods/chicken.md#nutrition_per_100g/methionine_g|
+|BRS2-FM2-PM5|methionine|eggs|5|34.99079189686925|0.38 g per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/methionine_g|
+|BRS2-FM2-PM5|vitamin-b6|pistachios|1|100|1.7 mg per 100 g edible portion|raw|docs/foods/pistachios.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS2-FM2-PM5|vitamin-b6|sunflower-seeds|2|79.11764705882352|1.345 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS2-FM2-PM5|vitamin-b6|garlic|3|72.64705882352942|1.235 mg per 100 g edible portion|raw|docs/foods/garlic.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS2-FM2-PM5|vitamin-b6|liver|4|63.70588235294118|1.083 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS2-FM2-PM5|vitamin-b6|oregano|5|61.411764705882355|1.044 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS2-FM2-PM5|vitamin-b6|sesame-seeds|6|46.470588235294116|0.79 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS2-FM2-PM5|vitamin-b6|kidney|7|39.117647058823536|0.665 mg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS2-FM2-PM5|vitamin-b6|turkey|8|38.35294117647059|0.652 mg per 100 g edible portion|raw|docs/foods/turkey.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS2-FM2-PM5|vitamin-b6|salmon|9|37.411764705882355|0.636 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS2-FM2-PM5|vitamin-b6|amaranth|10|34.76470588235294|0.591 mg per 100 g edible portion|uncooked|docs/foods/amaranth.md#nutrition_per_100g/vitamin_b6_mg|
+|BRS2-FM2-PM6|magnesium|pumpkin-seeds|1|100|592 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM2-PM6|magnesium|cocoa|2|84.29054054054053|499 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM2-PM6|magnesium|sesame-seeds|3|59.29054054054054|351 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM2-PM6|magnesium|chia-seeds|4|56.58783783783784|335 mg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM2-PM6|magnesium|sunflower-seeds|5|54.89864864864865|325 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM2-PM6|magnesium|cashews|6|49.32432432432432|292 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM2-PM6|magnesium|soy|7|47.2972972972973|280 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM2-PM6|magnesium|oregano|8|45.608108108108105|270 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM2-PM6|magnesium|amaranth|9|41.891891891891895|248 mg per 100 g edible portion|uncooked|docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM2-PM6|magnesium|thyme|10|37.16216216216216|220 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM2-PM6|methionine|sardines|1|100|1.086 g per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/methionine_g|
+|BRS2-FM2-PM6|methionine|tuna|2|63.53591160220995|0.69 g per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/methionine_g|
+|BRS2-FM2-PM6|methionine|salmon|3|57.6427255985267|0.626 g per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/methionine_g|
+|BRS2-FM2-PM6|methionine|chicken|4|45.39594843462247|0.493 g per 100 g edible portion|raw|docs/foods/chicken.md#nutrition_per_100g/methionine_g|
+|BRS2-FM2-PM6|methionine|eggs|5|34.99079189686925|0.38 g per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/methionine_g|
+|BRS2-FM3-PM7|choline|egg-yolks|1|100|820.2 mg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/choline_mg|
+|BRS2-FM3-PM7|choline|soy-lecithin|2|42.6725188978298|350 mg per 100 g edible portion|Oil|docs/foods/soy-lecithin.md#nutrition_per_100g/choline_mg|
+|BRS2-FM3-PM7|choline|liver|3|40.636430138990484|333.3 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/choline_mg|
+|BRS2-FM3-PM7|choline|eggs|4|35.820531577663985|293.8 mg per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/choline_mg|
+|BRS2-FM3-PM7|choline|soy|5|14.130699829309926|115.9 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/choline_mg|
+|BRS2-FM3-PM7|choline|chickpeas|6|12.106803218727139|99.3 mg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/choline_mg|
+|BRS2-FM3-PM7|choline|lentils|7|11.753230919287978|96.4 mg per 100 g edible portion|raw|docs/foods/lentils.md#nutrition_per_100g/choline_mg|
+|BRS2-FM3-PM7|choline|anchovies|8|10.36332601804438|85 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/choline_mg|
+|BRS2-FM3-PM7|methionine|sardines|1|100|1.086 g per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/methionine_g|
+|BRS2-FM3-PM7|methionine|tuna|2|63.53591160220995|0.69 g per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/methionine_g|
+|BRS2-FM3-PM7|methionine|salmon|3|57.6427255985267|0.626 g per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/methionine_g|
+|BRS2-FM3-PM7|methionine|chicken|4|45.39594843462247|0.493 g per 100 g edible portion|raw|docs/foods/chicken.md#nutrition_per_100g/methionine_g|
+|BRS2-FM3-PM7|methionine|eggs|5|34.99079189686925|0.38 g per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/methionine_g|
+|BRS2-FM3-PM7|vitamin-b9|chickpeas|1|100|557 µg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/folate_ug|
+|BRS2-FM3-PM7|vitamin-b9|lentils|2|85.99640933572711|479 µg per 100 g edible portion|raw|docs/foods/lentils.md#nutrition_per_100g/folate_ug|
+|BRS2-FM3-PM7|vitamin-b9|black-beans|3|79.71274685816876|444 µg per 100 g edible portion|raw|docs/foods/black-beans.md#nutrition_per_100g/folate_ug|
+|BRS2-FM3-PM7|vitamin-b9|kidney-beans|4|70.73608617594255|394 µg per 100 g edible portion|raw|docs/foods/kidney-beans.md#nutrition_per_100g/folate_ug|
+|BRS2-FM3-PM7|vitamin-b9|soy|5|67.32495511669659|375 µg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/folate_ug|
+|BRS2-FM3-PM7|vitamin-b9|lupins|6|63.73429084380609|355 µg per 100 g edible portion|raw|docs/foods/lupins.md#nutrition_per_100g/folate_ug|
+|BRS2-FM3-PM7|vitamin-b9|edamame|7|54.39856373429084|303 µg per 100 g edible portion|frozen|docs/foods/edamame.md#nutrition_per_100g/folate_ug|
+|BRS2-FM3-PM7|vitamin-b9|liver|8|52.064631956912024|290 µg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/folate_ug|
+|BRS2-FM3-PM7|vitamin-b9|thyme|9|49.19210053859964|274 µg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/folate_ug|
+|BRS2-FM3-PM7|vitamin-b9|peanuts|10|43.08797127468581|240 µg per 100 g edible portion|raw|docs/foods/peanuts.md#nutrition_per_100g/folate_ug|
+|BRS3-FM2-PM4|copper|liver|1|100|9.755 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/copper_mg|
+|BRS3-FM2-PM4|copper|spirulina|2|62.53203485392106|6.1 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/copper_mg|
+|BRS3-FM2-PM4|copper|sesame-seeds|3|41.84520758585341|4.082 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/copper_mg|
+|BRS3-FM2-PM4|copper|cocoa|4|38.8313685289595|3.788 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/copper_mg|
+|BRS3-FM2-PM4|copper|oysters|5|29.29779600205023|2.858 mg per 100 g edible portion|raw|docs/foods/oysters.md#nutrition_per_100g/copper_mg|
+|BRS3-FM2-PM4|copper|cashews|6|22.501281394156837|2.195 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/copper_mg|
+|BRS3-FM2-PM4|copper|sunflower-seeds|7|18.452075858534084|1.8 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/copper_mg|
+|BRS3-FM2-PM4|copper|soy|8|16.99641209636084|1.658 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/copper_mg|
+|BRS3-FM2-PM4|copper|tahini|9|16.504356740133264|1.61 mg per 100 g edible portion|roasted|docs/foods/tahini.md#nutrition_per_100g/copper_mg|
+|BRS3-FM2-PM4|copper|pumpkin-seeds|10|13.767298821117373|1.343 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/copper_mg|
+|BRS3-FM2-PM4|iron|thyme|1|100|123.6 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/iron_mg|
+|BRS3-FM2-PM4|iron|oregano|2|29.773462783171524|36.8 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/iron_mg|
+|BRS3-FM2-PM4|iron|spirulina|3|23.058252427184467|28.5 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/iron_mg|
+|BRS3-FM2-PM4|iron|cockles|4|13.106796116504855|16.2 mg per 100 g edible portion|raw|docs/foods/cockles.md#nutrition_per_100g/iron_mg|
+|BRS3-FM2-PM4|iron|soy|5|12.702265372168284|15.7 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/iron_mg|
+|BRS3-FM2-PM4|iron|sesame-seeds|6|11.771844660194176|14.55 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/iron_mg|
+|BRS3-FM2-PM4|iron|cocoa|7|11.21359223300971|13.86 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/iron_mg|
+|BRS3-FM2-PM4|manganese|thyme|1|100|7.867 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/manganese_mg|
+|BRS3-FM2-PM4|manganese|pumpkin-seeds|2|57.747553069785184|4.543 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/manganese_mg|
+|BRS3-FM2-PM4|manganese|chickpeas|3|52.752002033812126|4.15 mg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/manganese_mg|
+|BRS3-FM2-PM4|manganese|cocoa|4|48.77335706114148|3.837 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/manganese_mg|
+|BRS3-FM2-PM4|manganese|mussels|5|43.218507690352105|3.4 mg per 100 g edible portion|raw|docs/foods/mussels.md#nutrition_per_100g/manganese_mg|
+|BRS3-FM2-PM4|manganese|amaranth|6|42.36684886233634|3.333 mg per 100 g edible portion|uncooked|docs/foods/amaranth.md#nutrition_per_100g/manganese_mg|
+|BRS3-FM2-PM4|manganese|spelt|7|37.917884835388335|2.983 mg per 100 g edible portion|uncooked|docs/foods/spelt.md#nutrition_per_100g/manganese_mg|
+|BRS3-FM2-PM4|manganese|chia-seeds|8|34.61294012965552|2.723 mg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/manganese_mg|
+|BRS3-FM2-PM4|manganese|soy|9|31.994407016651838|2.517 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/manganese_mg|
+|BRS3-FM2-PM4|manganese|sesame-seeds|10|31.269861446548873|2.46 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/manganese_mg|
+|BRS3-FM2-PM4|selenium|kidney|1|100|141 µg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM4|selenium|anchovies|2|48.29787234042552|68.1 µg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM4|selenium|crab|3|42.574468085106375|60.03 µg per 100 g edible portion|frozen|docs/foods/crab.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM4|selenium|egg-yolks|4|39.716312056737586|56 µg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM4|selenium|chia-seeds|5|39.148936170212764|55.2 µg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM4|selenium|sunflower-seeds|6|37.588652482269495|53 µg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM4|selenium|sardines|7|37.3758865248227|52.7 µg per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM4|selenium|mussels|8|31.773049645390067|44.8 µg per 100 g edible portion|raw|docs/foods/mussels.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM4|selenium|mackerel|9|31.276595744680847|44.1 µg per 100 g edible portion|raw|docs/foods/mackerel.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM4|selenium|liver|10|28.156028368794328|39.7 µg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM4|zinc|oysters|1|100|39.3 mg per 100 g edible portion|raw|docs/foods/oysters.md#nutrition_per_100g/zinc_mg|
+|BRS3-FM2-PM4|zinc|pumpkin-seeds|2|19.872773536895675|7.81 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/zinc_mg|
+|BRS3-FM2-PM4|zinc|sesame-seeds|3|19.720101781170484|7.75 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/zinc_mg|
+|BRS3-FM2-PM4|zinc|cocoa|4|17.32824427480916|6.81 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/zinc_mg|
+|BRS3-FM2-PM4|zinc|thyme|5|15.725190839694658|6.18 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/zinc_mg|
+|BRS3-FM2-PM4|zinc|cashews|6|14.707379134860052|5.78 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/zinc_mg|
+|BRS3-FM2-PM4|zinc|sunflower-seeds|7|12.72264631043257|5 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/zinc_mg|
+|BRS3-FM2-PM4|zinc|soy|8|12.442748091603054|4.89 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/zinc_mg|
+|BRS3-FM2-PM4|zinc|lupins|9|12.086513994910943|4.75 mg per 100 g edible portion|raw|docs/foods/lupins.md#nutrition_per_100g/zinc_mg|
+|BRS3-FM2-PM4|zinc|tahini|10|11.755725190839696|4.62 mg per 100 g edible portion|roasted|docs/foods/tahini.md#nutrition_per_100g/zinc_mg|
+|BRS3-FM2-PM5|selenium|kidney|1|100|141 µg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM5|selenium|anchovies|2|48.29787234042552|68.1 µg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM5|selenium|crab|3|42.574468085106375|60.03 µg per 100 g edible portion|frozen|docs/foods/crab.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM5|selenium|egg-yolks|4|39.716312056737586|56 µg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM5|selenium|chia-seeds|5|39.148936170212764|55.2 µg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM5|selenium|sunflower-seeds|6|37.588652482269495|53 µg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM5|selenium|sardines|7|37.3758865248227|52.7 µg per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM5|selenium|mussels|8|31.773049645390067|44.8 µg per 100 g edible portion|raw|docs/foods/mussels.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM5|selenium|mackerel|9|31.276595744680847|44.1 µg per 100 g edible portion|raw|docs/foods/mackerel.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM5|selenium|liver|10|28.156028368794328|39.7 µg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM5|vitamin-e|sunflower-seeds|1|100|35.17 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM5|vitamin-e|salmon-roe|2|25.874324708558426|9.1 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS3-FM2-PM5|vitamin-e|peanuts|3|23.68495877168041|8.33 mg per 100 g edible portion|raw|docs/foods/peanuts.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM5|vitamin-e|soy-lecithin|4|23.258458913847026|8.18 mg per 100 g edible portion|Oil|docs/foods/soy-lecithin.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM5|vitamin-e|thyme|5|21.26812624395792|7.48 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM5|vitamin-e|spirulina|6|14.216661927779356|5 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM5|vitamin-e|salmon|7|10.093829968723343|3.55 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM6|selenium|kidney|1|100|141 µg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM6|selenium|anchovies|2|48.29787234042552|68.1 µg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM6|selenium|crab|3|42.574468085106375|60.03 µg per 100 g edible portion|frozen|docs/foods/crab.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM6|selenium|egg-yolks|4|39.716312056737586|56 µg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM6|selenium|chia-seeds|5|39.148936170212764|55.2 µg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM6|selenium|sunflower-seeds|6|37.588652482269495|53 µg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM6|selenium|sardines|7|37.3758865248227|52.7 µg per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM6|selenium|mussels|8|31.773049645390067|44.8 µg per 100 g edible portion|raw|docs/foods/mussels.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM6|selenium|mackerel|9|31.276595744680847|44.1 µg per 100 g edible portion|raw|docs/foods/mackerel.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM6|selenium|liver|10|28.156028368794328|39.7 µg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM6|vitamin-b2|spirulina|1|100|3.67 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS3-FM2-PM6|vitamin-b2|kidney|2|77.3841961852861|2.84 mg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS3-FM2-PM6|vitamin-b2|liver|3|75.06811989100818|2.755 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS3-FM2-PM6|vitamin-b2|heart|4|24.6866485013624|0.906 mg per 100 g edible portion|raw|docs/foods/heart.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS3-FM2-PM6|vitamin-b2|soy|5|23.705722070844686|0.87 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS3-FM2-PM6|vitamin-b2|salmon-roe|6|14.986376021798367|0.55 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS3-FM2-PM6|vitamin-b2|egg-yolks|7|14.386920980926432|0.528 mg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS3-FM2-PM6|vitamin-b2|tahini|8|12.888283378746593|0.473 mg per 100 g edible portion|roasted|docs/foods/tahini.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS3-FM2-PM6|vitamin-b2|eggs|9|12.452316076294279|0.457 mg per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS3-FM2-PM6|vitamin-b2|mushrooms|10|10.953678474114442|0.402 mg per 100 g edible portion|raw|docs/foods/mushrooms.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS3-FM2-PM6|vitamin-c|bell-peppers|1|100|127.7 mg per 100 g edible portion|raw|docs/foods/bell-peppers.md#nutrition_per_100g/vitamin_c_mg|
+|BRS3-FM2-PM6|vitamin-c|kale|2|73.1401722787784|93.4 mg per 100 g edible portion|raw|docs/foods/kale.md#nutrition_per_100g/vitamin_c_mg|
+|BRS3-FM2-PM6|vitamin-c|broccoli|3|69.85121378230227|89.2 mg per 100 g edible portion|raw|docs/foods/broccoli.md#nutrition_per_100g/vitamin_c_mg|
+|BRS3-FM2-PM6|vitamin-c|brussels-sprouts|4|66.56225528582615|85 mg per 100 g edible portion|raw|docs/foods/brussels-sprouts.md#nutrition_per_100g/vitamin_c_mg|
+|BRS3-FM2-PM6|vitamin-c|strawberries|5|46.04541895066562|58.8 mg per 100 g edible portion|raw|docs/foods/strawberries.md#nutrition_per_100g/vitamin_c_mg|
+|BRS3-FM2-PM6|vitamin-c|oranges|6|41.660140955364135|53.2 mg per 100 g edible portion|raw|docs/foods/oranges.md#nutrition_per_100g/vitamin_c_mg|
+|BRS3-FM2-PM6|vitamin-c|lemon|7|41.503523884103366|53 mg per 100 g edible portion|raw|docs/foods/lemon.md#nutrition_per_100g/vitamin_c_mg|
+|BRS3-FM2-PM6|vitamin-c|thyme|8|39.15426781519186|50 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/vitamin_c_mg|
+|BRS3-FM2-PM6|vitamin-c|cauliflower|9|37.744714173844955|48.2 mg per 100 g edible portion|raw|docs/foods/cauliflower.md#nutrition_per_100g/vitamin_c_mg|
+|BRS3-FM2-PM6|vitamin-c|broccoli-sprouts|10|33.672670321065|43 mg per 100 g edible portion|raw|docs/foods/broccoli-sprouts.md#nutrition_per_100g/vitamin_c_mg|
+|BRS3-FM2-PM6|vitamin-e|sunflower-seeds|1|100|35.17 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM6|vitamin-e|salmon-roe|2|25.874324708558426|9.1 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS3-FM2-PM6|vitamin-e|peanuts|3|23.68495877168041|8.33 mg per 100 g edible portion|raw|docs/foods/peanuts.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM6|vitamin-e|soy-lecithin|4|23.258458913847026|8.18 mg per 100 g edible portion|Oil|docs/foods/soy-lecithin.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM6|vitamin-e|thyme|5|21.26812624395792|7.48 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM6|vitamin-e|spirulina|6|14.216661927779356|5 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM6|vitamin-e|salmon|7|10.093829968723343|3.55 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM3-PM7|dha-docosahexaenoic-acid|salmon-roe|1|100|2000 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS3-FM3-PM7|dha-docosahexaenoic-acid|mackerel|2|70.05|1401 mg per 100 g edible portion|raw|docs/foods/mackerel.md#nutrition_per_100g/dha_mg|
+|BRS3-FM3-PM7|dha-docosahexaenoic-acid|anchovies|3|64.60000000000001|1292 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/dha_mg|
+|BRS3-FM3-PM7|dha-docosahexaenoic-acid|salmon|4|55.2|1104 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/dha_mg|
+|BRS3-FM3-PM7|dha-docosahexaenoic-acid|tuna|5|44.5|890 mg per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/dha_mg|
+|BRS3-FM3-PM7|dha-docosahexaenoic-acid|herring|6|43.1|862 mg per 100 g edible portion|raw|docs/foods/herring.md#nutrition_per_100g/dha_mg|
+|BRS3-FM3-PM7|dha-docosahexaenoic-acid|sardines|7|25.45|509 mg per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/dha_mg|
+|BRS3-FM3-PM7|dha-docosahexaenoic-acid|mussels|8|12.65|253 mg per 100 g edible portion|raw|docs/foods/mussels.md#nutrition_per_100g/dha_mg|
+|BRS3-FM3-PM8|dha-docosahexaenoic-acid|salmon-roe|1|100|2000 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS3-FM3-PM8|dha-docosahexaenoic-acid|mackerel|2|70.05|1401 mg per 100 g edible portion|raw|docs/foods/mackerel.md#nutrition_per_100g/dha_mg|
+|BRS3-FM3-PM8|dha-docosahexaenoic-acid|anchovies|3|64.60000000000001|1292 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/dha_mg|
+|BRS3-FM3-PM8|dha-docosahexaenoic-acid|salmon|4|55.2|1104 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/dha_mg|
+|BRS3-FM3-PM8|dha-docosahexaenoic-acid|tuna|5|44.5|890 mg per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/dha_mg|
+|BRS3-FM3-PM8|dha-docosahexaenoic-acid|herring|6|43.1|862 mg per 100 g edible portion|raw|docs/foods/herring.md#nutrition_per_100g/dha_mg|
+|BRS3-FM3-PM8|dha-docosahexaenoic-acid|sardines|7|25.45|509 mg per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/dha_mg|
+|BRS3-FM3-PM8|dha-docosahexaenoic-acid|mussels|8|12.65|253 mg per 100 g edible portion|raw|docs/foods/mussels.md#nutrition_per_100g/dha_mg|
+|BRS3-FM3-PM8|epa-eicosapentaenoic-acid|salmon-roe|1|100|1600 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS3-FM3-PM8|epa-eicosapentaenoic-acid|mackerel|2|56.125|898 mg per 100 g edible portion|raw|docs/foods/mackerel.md#nutrition_per_100g/epa_mg|
+|BRS3-FM3-PM8|epa-eicosapentaenoic-acid|salmon|3|53.87499999999999|862 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/epa_mg|
+|BRS3-FM3-PM8|epa-eicosapentaenoic-acid|anchovies|4|47.6875|763 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/epa_mg|
+|BRS3-FM3-PM8|epa-eicosapentaenoic-acid|herring|5|44.3125|709 mg per 100 g edible portion|raw|docs/foods/herring.md#nutrition_per_100g/epa_mg|
+|BRS3-FM3-PM8|epa-eicosapentaenoic-acid|sardines|6|29.562500000000004|473 mg per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/epa_mg|
+|BRS3-FM3-PM8|epa-eicosapentaenoic-acid|tuna|7|17.6875|283 mg per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/epa_mg|
+|BRS3-FM3-PM8|epa-eicosapentaenoic-acid|mussels|8|11.75|188 mg per 100 g edible portion|raw|docs/foods/mussels.md#nutrition_per_100g/epa_mg|
+|BRS3-FM3-PM8|epa-eicosapentaenoic-acid|oysters|9|11.0625|177 mg per 100 g edible portion|raw|docs/foods/oysters.md#nutrition_per_100g/epa_mg|
+|BRS4-FM1-PM10|iron|thyme|1|100|123.6 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/iron_mg|
+|BRS4-FM1-PM10|iron|oregano|2|29.773462783171524|36.8 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/iron_mg|
+|BRS4-FM1-PM10|iron|spirulina|3|23.058252427184467|28.5 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/iron_mg|
+|BRS4-FM1-PM10|iron|cockles|4|13.106796116504855|16.2 mg per 100 g edible portion|raw|docs/foods/cockles.md#nutrition_per_100g/iron_mg|
+|BRS4-FM1-PM10|iron|soy|5|12.702265372168284|15.7 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/iron_mg|
+|BRS4-FM1-PM10|iron|sesame-seeds|6|11.771844660194176|14.55 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/iron_mg|
+|BRS4-FM1-PM10|iron|cocoa|7|11.21359223300971|13.86 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/iron_mg|
+|BRS4-FM1-PM10|methionine|sardines|1|100|1.086 g per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/methionine_g|
+|BRS4-FM1-PM10|methionine|tuna|2|63.53591160220995|0.69 g per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/methionine_g|
+|BRS4-FM1-PM10|methionine|salmon|3|57.6427255985267|0.626 g per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/methionine_g|
+|BRS4-FM1-PM10|methionine|chicken|4|45.39594843462247|0.493 g per 100 g edible portion|raw|docs/foods/chicken.md#nutrition_per_100g/methionine_g|
+|BRS4-FM1-PM10|methionine|eggs|5|34.99079189686925|0.38 g per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/methionine_g|
+|BRS4-FM1-PM10|tyrosine|soy|1|100|1.539 g per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/tyrosine_g|
+|BRS4-FM1-PM10|tyrosine|pumpkin-seeds|2|71.02014294996751|1.093 g per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/tyrosine_g|
+|BRS4-FM1-PM10|tyrosine|tofu|3|45.54905782975958|0.701 g per 100 g edible portion|raw|docs/foods/tofu.md#nutrition_per_100g/tyrosine_g|
+|BRS4-FM1-PM10|vitamin-b2|spirulina|1|100|3.67 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS4-FM1-PM10|vitamin-b2|kidney|2|77.3841961852861|2.84 mg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS4-FM1-PM10|vitamin-b2|liver|3|75.06811989100818|2.755 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS4-FM1-PM10|vitamin-b2|heart|4|24.6866485013624|0.906 mg per 100 g edible portion|raw|docs/foods/heart.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS4-FM1-PM10|vitamin-b2|soy|5|23.705722070844686|0.87 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS4-FM1-PM10|vitamin-b2|salmon-roe|6|14.986376021798367|0.55 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS4-FM1-PM10|vitamin-b2|egg-yolks|7|14.386920980926432|0.528 mg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS4-FM1-PM10|vitamin-b2|tahini|8|12.888283378746593|0.473 mg per 100 g edible portion|roasted|docs/foods/tahini.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS4-FM1-PM10|vitamin-b2|eggs|9|12.452316076294279|0.457 mg per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS4-FM1-PM10|vitamin-b2|mushrooms|10|10.953678474114442|0.402 mg per 100 g edible portion|raw|docs/foods/mushrooms.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS4-FM1-PM1|copper|liver|1|100|9.755 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/copper_mg|
+|BRS4-FM1-PM1|copper|spirulina|2|62.53203485392106|6.1 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/copper_mg|
+|BRS4-FM1-PM1|copper|sesame-seeds|3|41.84520758585341|4.082 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/copper_mg|
+|BRS4-FM1-PM1|copper|cocoa|4|38.8313685289595|3.788 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/copper_mg|
+|BRS4-FM1-PM1|copper|oysters|5|29.29779600205023|2.858 mg per 100 g edible portion|raw|docs/foods/oysters.md#nutrition_per_100g/copper_mg|
+|BRS4-FM1-PM1|copper|cashews|6|22.501281394156837|2.195 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/copper_mg|
+|BRS4-FM1-PM1|copper|sunflower-seeds|7|18.452075858534084|1.8 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/copper_mg|
+|BRS4-FM1-PM1|copper|soy|8|16.99641209636084|1.658 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/copper_mg|
+|BRS4-FM1-PM1|copper|tahini|9|16.504356740133264|1.61 mg per 100 g edible portion|roasted|docs/foods/tahini.md#nutrition_per_100g/copper_mg|
+|BRS4-FM1-PM1|copper|pumpkin-seeds|10|13.767298821117373|1.343 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/copper_mg|
+|BRS4-FM1-PM1|iron|thyme|1|100|123.6 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/iron_mg|
+|BRS4-FM1-PM1|iron|oregano|2|29.773462783171524|36.8 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/iron_mg|
+|BRS4-FM1-PM1|iron|spirulina|3|23.058252427184467|28.5 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/iron_mg|
+|BRS4-FM1-PM1|iron|cockles|4|13.106796116504855|16.2 mg per 100 g edible portion|raw|docs/foods/cockles.md#nutrition_per_100g/iron_mg|
+|BRS4-FM1-PM1|iron|soy|5|12.702265372168284|15.7 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/iron_mg|
+|BRS4-FM1-PM1|iron|sesame-seeds|6|11.771844660194176|14.55 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/iron_mg|
+|BRS4-FM1-PM1|iron|cocoa|7|11.21359223300971|13.86 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/iron_mg|
+|BRS4-FM1-PM1|vitamin-b2|spirulina|1|100|3.67 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS4-FM1-PM1|vitamin-b2|kidney|2|77.3841961852861|2.84 mg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS4-FM1-PM1|vitamin-b2|liver|3|75.06811989100818|2.755 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS4-FM1-PM1|vitamin-b2|heart|4|24.6866485013624|0.906 mg per 100 g edible portion|raw|docs/foods/heart.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS4-FM1-PM1|vitamin-b2|soy|5|23.705722070844686|0.87 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS4-FM1-PM1|vitamin-b2|salmon-roe|6|14.986376021798367|0.55 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS4-FM1-PM1|vitamin-b2|egg-yolks|7|14.386920980926432|0.528 mg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS4-FM1-PM1|vitamin-b2|tahini|8|12.888283378746593|0.473 mg per 100 g edible portion|roasted|docs/foods/tahini.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS4-FM1-PM1|vitamin-b2|eggs|9|12.452316076294279|0.457 mg per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS4-FM1-PM1|vitamin-b2|mushrooms|10|10.953678474114442|0.402 mg per 100 g edible portion|raw|docs/foods/mushrooms.md#nutrition_per_100g/vitamin_b2_mg|
+|BRS4-FM1-PM2|tryptophan|soy|1|100|0.591 g per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/tryptophan_g|
+|BRS4-FM1-PM2|tryptophan|pumpkin-seeds|2|97.46192893401016|0.576 g per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/tryptophan_g|
+|BRS4-FM1-PM2|tryptophan|turkey|3|40.77834179357022|0.241 g per 100 g edible portion|raw|docs/foods/turkey.md#nutrition_per_100g/tryptophan_g|
+|BRS4-FM1-PM3|arginine|lupins|1|100|3.877 g per 100 g edible portion|raw|docs/foods/lupins.md#nutrition_per_100g/arginine_g|
+|BRS4-FM1-PM3|methionine|sardines|1|100|1.086 g per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/methionine_g|
+|BRS4-FM1-PM3|methionine|tuna|2|63.53591160220995|0.69 g per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/methionine_g|
+|BRS4-FM1-PM3|methionine|salmon|3|57.6427255985267|0.626 g per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/methionine_g|
+|BRS4-FM1-PM3|methionine|chicken|4|45.39594843462247|0.493 g per 100 g edible portion|raw|docs/foods/chicken.md#nutrition_per_100g/methionine_g|
+|BRS4-FM1-PM3|methionine|eggs|5|34.99079189686925|0.38 g per 100 g edible portion|raw|docs/foods/eggs.md#nutrition_per_100g/methionine_g|
+|BRS4-FM2-PM5|manganese|thyme|1|100|7.867 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/manganese_mg|
+|BRS4-FM2-PM5|manganese|pumpkin-seeds|2|57.747553069785184|4.543 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/manganese_mg|
+|BRS4-FM2-PM5|manganese|chickpeas|3|52.752002033812126|4.15 mg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/manganese_mg|
+|BRS4-FM2-PM5|manganese|cocoa|4|48.77335706114148|3.837 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/manganese_mg|
+|BRS4-FM2-PM5|manganese|mussels|5|43.218507690352105|3.4 mg per 100 g edible portion|raw|docs/foods/mussels.md#nutrition_per_100g/manganese_mg|
+|BRS4-FM2-PM5|manganese|amaranth|6|42.36684886233634|3.333 mg per 100 g edible portion|uncooked|docs/foods/amaranth.md#nutrition_per_100g/manganese_mg|
+|BRS4-FM2-PM5|manganese|spelt|7|37.917884835388335|2.983 mg per 100 g edible portion|uncooked|docs/foods/spelt.md#nutrition_per_100g/manganese_mg|
+|BRS4-FM2-PM5|manganese|chia-seeds|8|34.61294012965552|2.723 mg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/manganese_mg|
+|BRS4-FM2-PM5|manganese|soy|9|31.994407016651838|2.517 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/manganese_mg|
+|BRS4-FM2-PM5|manganese|sesame-seeds|10|31.269861446548873|2.46 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/manganese_mg|
+|BRS4-FM2-PM5|vitamin-e|sunflower-seeds|1|100|35.17 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/vitamin_e_mg|
+|BRS4-FM2-PM5|vitamin-e|salmon-roe|2|25.874324708558426|9.1 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS4-FM2-PM5|vitamin-e|peanuts|3|23.68495877168041|8.33 mg per 100 g edible portion|raw|docs/foods/peanuts.md#nutrition_per_100g/vitamin_e_mg|
+|BRS4-FM2-PM5|vitamin-e|soy-lecithin|4|23.258458913847026|8.18 mg per 100 g edible portion|Oil|docs/foods/soy-lecithin.md#nutrition_per_100g/vitamin_e_mg|
+|BRS4-FM2-PM5|vitamin-e|thyme|5|21.26812624395792|7.48 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/vitamin_e_mg|
+|BRS4-FM2-PM5|vitamin-e|spirulina|6|14.216661927779356|5 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/vitamin_e_mg|
+|BRS4-FM2-PM5|vitamin-e|salmon|7|10.093829968723343|3.55 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/vitamin_e_mg|
+|BRS5-FM1-PM1|vitamin-a|liver|1|100|4968 µg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_a_rae_ug|
+|BRS5-FM1-PM1|vitamin-a|ghee|2|16.908212560386474|840 µg per 100 g edible portion|oil|docs/foods/ghee.md#nutrition_per_100g/vitamin_a_rae_ug|
+|BRS5-FM1-PM1|vitamin-a|carrots|3|16.80756843800322|835 µg per 100 g edible portion|raw|docs/foods/carrots.md#nutrition_per_100g/vitamin_a_rae_ug|
+|BRS5-FM1-PM1|vitamin-a|sweet-potatoes|4|14.271336553945249|709 µg per 100 g edible portion|raw|docs/foods/sweet-potatoes.md#nutrition_per_100g/vitamin_a_rae_ug|
+|BRS5-FM1-PM1|vitamin-a|tuna|5|13.18438003220612|655 µg per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/vitamin_a_rae_ug|
+|BRS5-FM1-PM1|vitamin-a|dandelion-greens|6|10.225442834138486|508 µg per 100 g edible portion|raw|docs/foods/dandelion-greens.md#nutrition_per_100g/vitamin_a_rae_ug|
+|BRS5-FM1-PM1|zinc|oysters|1|100|39.3 mg per 100 g edible portion|raw|docs/foods/oysters.md#nutrition_per_100g/zinc_mg|
+|BRS5-FM1-PM1|zinc|pumpkin-seeds|2|19.872773536895675|7.81 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/zinc_mg|
+|BRS5-FM1-PM1|zinc|sesame-seeds|3|19.720101781170484|7.75 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/zinc_mg|
+|BRS5-FM1-PM1|zinc|cocoa|4|17.32824427480916|6.81 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/zinc_mg|
+|BRS5-FM1-PM1|zinc|thyme|5|15.725190839694658|6.18 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/zinc_mg|
+|BRS5-FM1-PM1|zinc|cashews|6|14.707379134860052|5.78 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/zinc_mg|
+|BRS5-FM1-PM1|zinc|sunflower-seeds|7|12.72264631043257|5 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/zinc_mg|
+|BRS5-FM1-PM1|zinc|soy|8|12.442748091603054|4.89 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/zinc_mg|
+|BRS5-FM1-PM1|zinc|lupins|9|12.086513994910943|4.75 mg per 100 g edible portion|raw|docs/foods/lupins.md#nutrition_per_100g/zinc_mg|
+|BRS5-FM1-PM1|zinc|tahini|10|11.755725190839696|4.62 mg per 100 g edible portion|roasted|docs/foods/tahini.md#nutrition_per_100g/zinc_mg|
+|BRS5-FM3-PM7|linoleic-acid|soy-lecithin|1|100|40.182 g per 100 g edible portion|Oil|docs/foods/soy-lecithin.md#nutrition_per_100g/linoleic_g|
+|BRS5-FM3-PM7|linoleic-acid|tahini|2|57.57055397939376|23.133 g per 100 g edible portion|roasted|docs/foods/tahini.md#nutrition_per_100g/linoleic_g|
+|BRS5-FM3-PM7|linoleic-acid|sunflower-seeds|3|57.36399382808223|23.05 g per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/linoleic_g|
+|BRS5-FM3-PM7|linoleic-acid|sesame-seeds|4|53.19546065402419|21.375 g per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/linoleic_g|
+|BRS5-FM3-PM7|linoleic-acid|pumpkin-seeds|5|51.433477676571606|20.667 g per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/linoleic_g|
+|BRS5-FM3-PM7|linoleic-acid|peanuts|6|38.711363296998655|15.555 g per 100 g edible portion|raw|docs/foods/peanuts.md#nutrition_per_100g/linoleic_g|
+|BRS5-FM3-PM7|linoleic-acid|pistachios|7|35.06794086904584|14.091 g per 100 g edible portion|raw|docs/foods/pistachios.md#nutrition_per_100g/linoleic_g|
+|BRS5-FM3-PM7|linoleic-acid|avocado-oil|8|31.183116818475938|12.53 g per 100 g edible portion|Oil|docs/foods/avocado-oil.md#nutrition_per_100g/linoleic_g|
+|BRS5-FM3-PM7|linoleic-acid|soy|9|24.700114479120003|9.925 g per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/linoleic_g|
+|BRS5-FM3-PM7|linoleic-acid|cashews|10|19.366880692847545|7.782 g per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/linoleic_g|
+|BRS5-FM3-PM8|tryptophan|soy|1|100|0.591 g per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/tryptophan_g|
+|BRS5-FM3-PM8|tryptophan|pumpkin-seeds|2|97.46192893401016|0.576 g per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/tryptophan_g|
+|BRS5-FM3-PM8|tryptophan|turkey|3|40.77834179357022|0.241 g per 100 g edible portion|raw|docs/foods/turkey.md#nutrition_per_100g/tryptophan_g|
+|BRS6-FM1-PM3|magnesium|pumpkin-seeds|1|100|592 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS6-FM1-PM3|magnesium|cocoa|2|84.29054054054053|499 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg|
+|BRS6-FM1-PM3|magnesium|sesame-seeds|3|59.29054054054054|351 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS6-FM1-PM3|magnesium|chia-seeds|4|56.58783783783784|335 mg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS6-FM1-PM3|magnesium|sunflower-seeds|5|54.89864864864865|325 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS6-FM1-PM3|magnesium|cashews|6|49.32432432432432|292 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/magnesium_mg|
+|BRS6-FM1-PM3|magnesium|soy|7|47.2972972972973|280 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/magnesium_mg|
+|BRS6-FM1-PM3|magnesium|oregano|8|45.608108108108105|270 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/magnesium_mg|
+|BRS6-FM1-PM3|magnesium|amaranth|9|41.891891891891895|248 mg per 100 g edible portion|uncooked|docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg|
+|BRS6-FM1-PM3|magnesium|thyme|10|37.16216216216216|220 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/magnesium_mg|
+|BRS6-FM4-PM8|dha-docosahexaenoic-acid|salmon-roe|1|100|2000 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
+|BRS6-FM4-PM8|dha-docosahexaenoic-acid|mackerel|2|70.05|1401 mg per 100 g edible portion|raw|docs/foods/mackerel.md#nutrition_per_100g/dha_mg|
+|BRS6-FM4-PM8|dha-docosahexaenoic-acid|anchovies|3|64.60000000000001|1292 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/dha_mg|
+|BRS6-FM4-PM8|dha-docosahexaenoic-acid|salmon|4|55.2|1104 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/dha_mg|
+|BRS6-FM4-PM8|dha-docosahexaenoic-acid|tuna|5|44.5|890 mg per 100 g edible portion|raw|docs/foods/tuna.md#nutrition_per_100g/dha_mg|
+|BRS6-FM4-PM8|dha-docosahexaenoic-acid|herring|6|43.1|862 mg per 100 g edible portion|raw|docs/foods/herring.md#nutrition_per_100g/dha_mg|
+|BRS6-FM4-PM8|dha-docosahexaenoic-acid|sardines|7|25.45|509 mg per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/dha_mg|
+|BRS6-FM4-PM8|dha-docosahexaenoic-acid|mussels|8|12.65|253 mg per 100 g edible portion|raw|docs/foods/mussels.md#nutrition_per_100g/dha_mg|
