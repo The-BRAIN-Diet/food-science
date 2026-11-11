@@ -39,3 +39,7 @@ Author instruction: “Yes, approve all four presentation changes as reviewed”
 - Acetic acid: retain qualified food and trial context, cider vinegar presence only and vinegar-pickle brine only; no pickle concentration, isolated-acid effect or new admission.
 
 No ranking, food-composition, scientific-admission or release authorisation is conferred.
+
+## PM food-source dropdown repair — 11 November 2026
+
+Author instruction: restore `Plant-based -` and `Animal-based -`, then “we don't need this unranked heading, remove it from the template.” The shared dropdown does not prefix categories with `Ranked sources ·` and does not render `Documented, unranked sources`. The category column grid applies only to a summary that contains the category label, so an empty ranked row stays on the available line. Representative page: BRS1-FM5-PM12. No ranking, food-record or admission change.

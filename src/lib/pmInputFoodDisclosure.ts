@@ -1,6 +1,6 @@
 import {scfaRelatedSources} from '../data/scfaRelatedSources.mjs';
 import {renderRelatedFoodSources} from '../data/relatedSubstanceRelationships.mjs';
-import {documentedSourcesForRelationships, isCanonicalAnimalSource} from '../data/documentedFoodSources.mjs';
+import {isCanonicalAnimalSource} from '../data/documentedFoodSources.mjs';
 import publishedRanking from '../data/rankedFoodSources.generated.json';
 // Local PM pages use the same review snapshot as the reference-pool viewers.
 const rankedSnapshot = process.env.NODE_ENV === 'development'
@@ -200,7 +200,7 @@ function createFoodSourceDetails(kind: string, sources: any[], preselected = fal
     const top = selected[0];
     const annotate = (el: HTMLElement, source: any) => { if (preselected && source) { el.dataset.foodId=source.food_id; el.dataset.substanceId=source.substance_id; el.dataset.rank=String(source.rank); el.dataset.relativePower=String(source.relative_power); el.dataset.observationId=source.observations[0]?.record; } };
     annotate(summary, top);
-    summary.innerHTML = renderFoodSourceSummary(preselected ? `Ranked sources · ${kind}` : kind, top);
+    summary.innerHTML = renderFoodSourceSummary(kind, top);
     if (preselected && !top) summary.querySelector('.pm-input-food-source-empty')!.textContent='No qualifying ranked sources';
     attachFoodMappingIcon(summary, top);
     summary.querySelectorAll('a').forEach((a) => a.addEventListener('click', (event) => event.stopPropagation()));
@@ -251,10 +251,7 @@ export function renderDocumentedFoodSources(sources: any[]): string {
     }).join('');
     return `<details class="pm-input-food-sources pm-input-food-documented"><summary>Documented, unranked sources (${sources.length})</summary><ul>${items}</ul></details>`;
 }
-function attachDocumentedFoodSources(li: HTMLElement, data: MappingData, pm: string, relationships: any[]) {
-    const ranked = rankedSourcesForRelationships(rankedSnapshot, pm, relationships);
-    const sources = documentedSourcesForRelationships(data, pm, relationships, ranked, rankedSnapshot);
-    li.insertAdjacentHTML('beforeend', renderDocumentedFoodSources(sources));
+function attachDocumentedFoodSources(li: HTMLElement, data: MappingData, relationships: any[]) {
     li.insertAdjacentHTML('beforeend', renderRelatedFoodSources(scfaRelatedSources(relationships, data.food_sources)));
 }
 export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, pm: string, label: string, section: string) {
@@ -297,7 +294,7 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
             if (!compact.length && noFood) { const empty=box.querySelector('.pm-input-food-source-empty'); if(empty)empty.textContent='No verified ordinary-food source'; }
             li.append(box);
         }
-        attachDocumentedFoodSources(li, scoped, pm, relationships);
+        attachDocumentedFoodSources(li, scoped, relationships);
         return;
     }
 
@@ -308,5 +305,5 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
     li.append(plantBox);
     animalBox.dataset.relationshipIds = relationships.map(r => r.id).join(' ');
     li.append(animalBox);
-    attachDocumentedFoodSources(li, scoped, pm, relationships);
+    attachDocumentedFoodSources(li, scoped, relationships);
 }

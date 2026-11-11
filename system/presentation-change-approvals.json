@@ -1108,5 +1108,15 @@
     "contract": "system/presentation-change-control.md",
     "example": "docs/substances/bioactive-compounds/acetic-acid.md",
     "scope": "Qualified vinegar/brine and whole-meal trial presentation."
+  },
+  {
+    "file": "src/css/custom.css",
+    "sha256": "103485f4731a4f82d46f44ff940268d4233550eb1940fdfbb32c89dd7da3b7e3",
+    "author_approval": "Restore Plant-based and Animal-based labels, and remove the unranked heading from the template.",
+    "approval_source": "11 November 2026 chat: we don't need this unranked heading, remove it from the template; then great lets push those changes to main.",
+    "proposal": "system/presentation-change-control.md",
+    "contract": "system/input-substance-food-mapping.md",
+    "example": "docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx",
+    "scope": "Shared PM food-source dropdown only. Category grid applies to labelled summaries. No ranking, food-record or admission change."
   }
 ]

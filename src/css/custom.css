@@ -1249,7 +1249,7 @@
   --food-name-width: 8.5rem;
   --food-preparation-width: 7rem;
 }
-.pm-input-food-sources > summary {
+.pm-input-food-sources > summary:has(> .pm-input-food-source-kind) {
   display: grid;
   grid-template-columns: 1.1em var(--food-label-width) minmax(0, 1fr);
   width: 100%;
@@ -1291,10 +1291,11 @@
   font-size: 0.86rem;
 }
 @media (max-width: 600px) {
-  .pm-input-food-sources > summary {
+  .pm-input-food-sources > summary:has(> .pm-input-food-source-kind) {
     grid-template-columns: 1.1em minmax(0, 1fr);
   }
-  .pm-input-food-sources > summary > .pm-input-food-row {
+  .pm-input-food-sources > summary > .pm-input-food-row,
+  .pm-input-food-sources > summary > .pm-input-food-source-empty {
     grid-column: 2;
   }
   .pm-input-food-row {
