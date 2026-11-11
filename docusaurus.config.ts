@@ -439,6 +439,12 @@ const config: Config = {
   "plugins": [
     localInternalDocsPlugin,
     './src/plugin/build-memory/index.cjs',
+    ...(process.env.CONTEXT === 'deploy-preview' ? [() => ({
+      name: 'sequential-preview-compilation',
+      configureWebpack(config: {mode?: string}, isServer: boolean) {
+        return isServer && config.mode === 'production' ? {dependencies: ['client']} : {};
+      },
+    })] : []),
     './src/plugin/category-listing',
     './src/plugin/input-substance-food',
     './src/plugin/ontology-projection',
