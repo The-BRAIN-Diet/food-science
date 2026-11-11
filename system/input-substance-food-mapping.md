@@ -259,6 +259,8 @@ Use reconciled PM food targets when supplied; an empty target list must not be r
 
 Food grouping uses canonical food identity, not mentions inside analytical prose: trout roe is animal-derived; tahini is plant-derived. This changes neither food composition nor admission. Apply to existing admitted PM dietary inputs across BRS1–6/BRS-X. Representative fixture and counts: `review/pm-food-source-visibility-2026-11-09/`. Author instruction: “Correct PM Food-Source Visibility Regression”. Local implementation only; no build, deployment or PR update until review.
 
+Author instruction, 11 November 2026: the public dropdown does not show a **Documented, unranked sources** heading. Category labels remain `Plant-based -` and `Animal-based -`. Occurrence records stay in the selector and are not deleted.
+
 
 ### Approved measured-but-unrankable sources — 9 November 2026
 Owner approval: CODEX EXEC — Measured-but-Unrankable Food Presentation. Reuse Documented, unranked sources for 5-MTHF, ellagic acid, inulin and resistant starch. Show original point/range, unit, denominator, preparation, citation and exclusion reason. Separate calculated-from-measurements, measured non-comparable and qualitative occurrence labels. Keep independent studies separate and retain calculation/variability/source qualifications. Verified provisional source-context mappings remain explicitly qualified, not silently upgraded. Preserve all target/source publication and protocol holds. Never recover sources excluded solely by RSP threshold or top-ten cap; rankings remain unchanged. No inferred conversions, range midpoints or downstream quantities. See review/dietary-connectivity-2026-11-09/measured-unranked/REPORT.md.
