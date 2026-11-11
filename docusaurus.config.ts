@@ -439,7 +439,7 @@ const config: Config = {
   "plugins": [
     localInternalDocsPlugin,
     './src/plugin/build-memory/index.cjs',
-    ...(process.env.CONTEXT === 'deploy-preview' ? [() => ({
+    ...(['deploy-preview', 'production'].includes(process.env.CONTEXT ?? '') ? [() => ({
       name: 'sequential-preview-compilation',
       configureWebpack(config: {mode?: string}, isServer: boolean) {
         return isServer && config.mode === 'production' ? {dependencies: ['client']} : {};

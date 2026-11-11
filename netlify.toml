@@ -199,3 +199,6 @@
 # Validate the reconciled candidate on Netlify's deploy-preview workers.
 [context.deploy-preview.environment]
   NODE_OPTIONS = "--max-old-space-size=6144"
+
+[context.production.environment]
+  NODE_OPTIONS = "--max-old-space-size=6144"
