@@ -5,7 +5,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Food | Unique dietary input coverage | Substance IDs | Connected PMs | Shared pools |
 | --- | --- | --- | --- | --- |
 | Algal Oil | 2 | dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid | BRS3-FM3-PM7; BRS3-FM3-PM8 |  |
-| Almonds | 7 | magnesium; copper; iron; manganese; vitamin-b2; vitamin-e; zinc; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
+| Almonds | 8 | magnesium; copper; iron; manganese; vitamin-b2; vitamin-e; zinc; selenium; glycine | BRS3-FM1-PM1; BRS3-FM1-PM2; BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 | BRS3(KC1) |
 | Amaranth | 8 | magnesium; iron; copper; manganese; vitamin-b2; zinc; selenium; vitamin-e; vitamin-c | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Anchovies | 9 | dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid; selenium; zinc; copper; manganese; iron; magnesium; vitamin-e; vitamin-b2 | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 |  |
 | Apples | 7 | vitamin-c; vitamin-e; zinc; iron; magnesium; copper; manganese; vitamin-b2 | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
@@ -15,7 +15,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Avocado | 8 | vitamin-e; vitamin-c; iron; magnesium; copper; manganese; vitamin-b2; selenium; zinc | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Bananas | 8 | vitamin-c; vitamin-b2; iron; magnesium; copper; manganese; zinc; selenium; vitamin-e | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Barley | 7 | magnesium; selenium; vitamin-b2; iron; copper; manganese; zinc; vitamin-e | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
-| Beef | 9 | iron; selenium; zinc; vitamin-b2; magnesium; copper; manganese; vitamin-e; dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 |  |
+| Beef | 10 | iron; selenium; zinc; vitamin-b2; magnesium; copper; manganese; vitamin-e; dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid; glycine | BRS3-FM1-PM1; BRS3-FM1-PM2; BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 | BRS3(KC1) |
 | Beetroot | 8 | magnesium; iron; manganese; zinc; vitamin-c; vitamin-b2; copper; vitamin-e; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Bell Peppers | 8 | vitamin-c; manganese; vitamin-e; copper; iron; magnesium; vitamin-b2; zinc; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Black Beans | 7 | magnesium; copper; iron; manganese; zinc; vitamin-e; vitamin-b2; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
@@ -37,7 +37,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Cheddar Cheese | 9 | selenium; zinc; dha-docosahexaenoic-acid; copper; vitamin-e; vitamin-b2; epa-eicosapentaenoic-acid; manganese; iron; magnesium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 |  |
 | Cherries | 7 | vitamin-c; vitamin-e; zinc; vitamin-b2; iron; magnesium; copper; manganese | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Chia Seeds | 8 | magnesium; manganese; iron; copper; vitamin-c; vitamin-b2; zinc; selenium; vitamin-e | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
-| Chicken | 11 | cysteine; iron; selenium; zinc; magnesium; copper; manganese; vitamin-b2; dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid; vitamin-c; vitamin-e | BRS3-FM1-PM1; BRS3-FM1-PM2; BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 | BRS3(KC1) |
+| Chicken | 12 | cysteine; iron; selenium; zinc; magnesium; copper; manganese; vitamin-b2; dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid; vitamin-c; vitamin-e; glycine | BRS3-FM1-PM1; BRS3-FM1-PM2; BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 | BRS3(KC1) |
 | Chickpeas | 7 | magnesium; copper; iron; manganese; zinc; vitamin-e; vitamin-c; vitamin-b2 | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Chicory Root | 6 | iron; copper; vitamin-c; selenium; zinc; magnesium; manganese | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Chlorella | 1 | iron | BRS3-FM2-PM4 |  |
@@ -60,7 +60,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Olive Oil (Early Harvest) | 2 | vitamin-e; iron | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Edamame | 7 | iron; vitamin-c; vitamin-b2; vitamin-e; zinc; magnesium; copper; manganese | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Egg Yolks | 9 | vitamin-e; manganese; zinc; selenium; iron; magnesium; copper; vitamin-b2; dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 |  |
-| Eggs | 9 | cysteine; iron; selenium; zinc; vitamin-b2; dha-docosahexaenoic-acid; magnesium; copper; manganese; vitamin-e | BRS3-FM1-PM1; BRS3-FM1-PM2; BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 | BRS3(KC1) |
+| Eggs | 10 | cysteine; iron; selenium; zinc; vitamin-b2; dha-docosahexaenoic-acid; magnesium; copper; manganese; vitamin-e; glycine | BRS3-FM1-PM1; BRS3-FM1-PM2; BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 | BRS3(KC1) |
 | Extra Virgin Olive Oil | 2 | vitamin-e; iron | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Fermented Hot Sauce | 8 | iron; magnesium; zinc; selenium; copper; manganese; vitamin-b2; vitamin-c; vitamin-e | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Flax Seeds | 8 | magnesium; manganese; zinc; selenium; vitamin-e; iron; copper; vitamin-c; vitamin-b2 | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
@@ -84,10 +84,9 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Lemon | 8 | vitamin-c; vitamin-e; vitamin-b2; iron; magnesium; copper; manganese; zinc; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Lentils | 9 | cysteine; iron; zinc; vitamin-e; vitamin-b2; copper; manganese; magnesium; vitamin-c; selenium | BRS3-FM1-PM1; BRS3-FM1-PM2; BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 | BRS3(KC1) |
 | Lion's Mane Mushroom | 3 | iron; magnesium; zinc; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
-| Liver | 9 | cysteine; iron; vitamin-c; zinc; selenium; vitamin-e; vitamin-b2; magnesium; copper; manganese | BRS3-FM1-PM1; BRS3-FM1-PM2; BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 | BRS3(KC1) |
+| Liver (beef) | 9 | cysteine; iron; vitamin-c; zinc; selenium; vitamin-e; vitamin-b2; magnesium; copper; manganese | BRS3-FM1-PM1; BRS3-FM1-PM2; BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 | BRS3(KC1) |
 | Lumpfish Roe | 2 | dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid | BRS3-FM3-PM7; BRS3-FM3-PM8 |  |
-| Lupin Beans | 7 | magnesium; iron; zinc; copper; manganese; vitamin-c; vitamin-b2; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
-| Lupins | 3 | iron; magnesium; zinc; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
+| Lupins | 7 | magnesium; iron; zinc; selenium; copper; manganese; vitamin-c; vitamin-b2 | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Mackerel | 10 | dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid; vitamin-e; zinc; iron; magnesium; copper; manganese; vitamin-c; vitamin-b2; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 |  |
 | Maitake Mushroom | 7 | zinc; vitamin-e; magnesium; manganese; iron; copper; vitamin-b2; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Mankai (Duckweed) | 1 | iron | BRS3-FM2-PM4 |  |
@@ -108,13 +107,14 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Parmesan Cheese | 7 | vitamin-e; copper; manganese; vitamin-b2; iron; magnesium; zinc; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Parsley | 8 | vitamin-c; vitamin-e; zinc; iron; magnesium; copper; manganese; vitamin-b2; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Peanuts | 7 | magnesium; copper; manganese; zinc; vitamin-e; vitamin-b2; iron; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
+| Pears | 8 | iron; magnesium; zinc; copper; manganese; selenium; vitamin-c; vitamin-b2; vitamin-e | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Peas | 8 | iron; magnesium; copper; manganese; vitamin-c; vitamin-b2; vitamin-e; zinc; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Peppermint | 6 | iron; magnesium; copper; manganese; vitamin-c; vitamin-b2; zinc | BRS3-FM2-PM4; BRS3-FM2-PM6 |  |
 | Pistachios | 8 | iron; vitamin-c; vitamin-e; selenium; zinc; copper; manganese; magnesium; vitamin-b2 | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Pomegranates | 8 | vitamin-c; vitamin-e; iron; magnesium; copper; manganese; vitamin-b2; zinc; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Pork | 9 | cysteine; zinc; vitamin-e; iron; magnesium; copper; manganese; vitamin-c; vitamin-b2; selenium | BRS3-FM1-PM1; BRS3-FM1-PM2; BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 | BRS3(KC1) |
 | Potatoes | 8 | vitamin-c; vitamin-e; vitamin-b2; magnesium; manganese; copper; iron; zinc; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
-| Pumpkin Seeds | 8 | magnesium; iron; zinc; vitamin-e; vitamin-c; copper; manganese; vitamin-b2; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
+| Pumpkin Seeds | 9 | magnesium; iron; zinc; vitamin-e; vitamin-c; copper; manganese; vitamin-b2; selenium; glycine | BRS3-FM1-PM1; BRS3-FM1-PM2; BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 | BRS3(KC1) |
 | Quinoa | 7 | magnesium; iron; manganese; zinc; vitamin-b2; copper; selenium; vitamin-e | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Radicchio | 8 | zinc; selenium; copper; manganese; iron; magnesium; vitamin-c; vitamin-e; vitamin-b2 | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Raspberries | 8 | vitamin-c; zinc; selenium; vitamin-e; vitamin-b2; copper; manganese; iron; magnesium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
@@ -124,7 +124,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Saffron | 3 | iron; magnesium; zinc; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Sage | 3 | iron; magnesium; zinc; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Salmon Roe | 9 | epa-eicosapentaenoic-acid; dha-docosahexaenoic-acid; iron; copper; vitamin-c; vitamin-b2; vitamin-e; zinc; magnesium; manganese | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 |  |
-| Salmon | 10 | dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid; selenium; zinc; vitamin-e; vitamin-b2; iron; magnesium; copper; manganese; vitamin-c | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 |  |
+| Salmon | 11 | dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid; selenium; zinc; vitamin-e; vitamin-b2; iron; magnesium; copper; manganese; vitamin-c; glycine | BRS3-FM1-PM1; BRS3-FM1-PM2; BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 | BRS3(KC1) |
 | Sardines | 9 | dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid; selenium; vitamin-e; zinc; copper; manganese; iron; magnesium; vitamin-b2 | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 |  |
 | Sauerkraut | 8 | vitamin-e; zinc; vitamin-c; vitamin-b2; iron; magnesium; copper; manganese; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Scallops | 8 | selenium; dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid; vitamin-b2; iron; magnesium; copper; manganese; zinc | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 |  |
@@ -134,12 +134,12 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Shrimp | 9 | selenium; zinc; vitamin-e; vitamin-b2; iron; magnesium; copper; manganese; epa-eicosapentaenoic-acid; dha-docosahexaenoic-acid | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 |  |
 | Sourdough Bread | 4 | magnesium; copper; iron; manganese; zinc | BRS3-FM2-PM4 |  |
 | Soy Lecithin | 1 | vitamin-e | BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
-| Soy | 8 | iron; vitamin-c; vitamin-b2; magnesium; copper; manganese; zinc; vitamin-e; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
+| Mature soybeans | 8 | iron; vitamin-c; vitamin-b2; magnesium; copper; manganese; zinc; vitamin-e; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Spelt | 7 | zinc; selenium; vitamin-e; vitamin-b2; iron; magnesium; copper; manganese | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Spinach | 8 | magnesium; copper; iron; manganese; zinc; vitamin-b2; vitamin-c; vitamin-e; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Spirulina | 8 | iron; vitamin-e; zinc; magnesium; copper; manganese; vitamin-c; vitamin-b2; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Strawberries | 8 | vitamin-c; manganese; vitamin-e; zinc; selenium; magnesium; copper; vitamin-b2; iron | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
-| Sunflower Seeds | 9 | magnesium; copper; manganese; selenium; vitamin-e; vitamin-b2; epa-eicosapentaenoic-acid; iron; zinc; vitamin-c | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM8 |  |
+| Sunflower Seeds | 10 | magnesium; copper; manganese; selenium; vitamin-e; vitamin-b2; epa-eicosapentaenoic-acid; iron; zinc; vitamin-c; glycine | BRS3-FM1-PM1; BRS3-FM1-PM2; BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM8 | BRS3(KC1) |
 | Sweet Potatoes | 8 | vitamin-c; selenium; zinc; vitamin-e; iron; magnesium; copper; manganese; vitamin-b2 | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Swiss Chard | 8 | magnesium; iron; copper; manganese; vitamin-c; vitamin-b2; zinc; selenium; vitamin-e | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Tahini | 7 | vitamin-e; selenium; zinc; vitamin-b2; iron; magnesium; copper; manganese | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |

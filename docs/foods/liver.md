@@ -1,7 +1,7 @@
 ---
 id: liver
-title: Liver
-sidebar_label: Liver
+title: Liver (beef)
+sidebar_label: Liver (beef)
 description: Nutrient-dense organ meat with bioavailable B12, retinol, iron, and CoQ10
 tags:
   - Food
@@ -18,6 +18,7 @@ public_display:
   cystine_mg: internal-only
 list_image: /img/foods/liver/liver_thumb.webp
 nutrition_per_100g:
+  tyrosine_g: 0.807
   vitamin_a_rae_ug: 4968
   vitamin_c_mg: 1.3
   ala_mg: 7
@@ -104,6 +105,16 @@ nutrition_supplementary_sources:
     notes: the named meat or fish tissue
     source_reference: '#food-source-3'
 substance_relationships:
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: "Beef, variety meats and by-products, liver, raw"
+    source_url: https://fdc.nal.usda.gov/food-details/169451/nutrients
+    description: "USDA reports 807 mg tyrosine per 100 g edible portion of the specified food."
+    material_limitations: "USDA SR Legacy (April 2018), food-nutrient row 1443230, nutrient 1218; Analytical. Data points: 1. Exact database food: Beef, variety meats and by-products, liver, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
   - substance: Cysteine
     relationship: contains
     description: >-

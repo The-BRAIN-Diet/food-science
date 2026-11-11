@@ -11,3 +11,7 @@ if(targets.status!==0)process.exit(targets.status||1);
 
 const pathways=spawnSync(process.execPath,["scripts/generate-dietary-pathways.mjs"],{stdio:"inherit"});
 if(pathways.status!==0)process.exit(pathways.status||1);
+
+for (const script of ['scripts/generate-ranked-food-sources.mjs','scripts/build-food-wheel-top-ten.mjs']) {
+ const r=spawnSync(process.execPath,[script],{stdio:'inherit'});if(r.status!==0)process.exit(r.status||1);
+}

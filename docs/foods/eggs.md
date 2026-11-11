@@ -21,6 +21,7 @@ public_display:
   cystine_mg: internal-only
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
+  tyrosine_g: 0.499
   kcal: 143
   choline_mg: 293.8
   ala_mg: 36
@@ -79,6 +80,16 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
 substance_relationships:
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: "Egg, whole, raw, fresh"
+    source_url: https://fdc.nal.usda.gov/food-details/171287/nutrients
+    description: "USDA reports 499 mg tyrosine per 100 g edible portion of the specified food."
+    material_limitations: "USDA SR Legacy (April 2018), food-nutrient row 1597643, nutrient 1218; Analytical. Data points: 0. Exact database food: Egg, whole, raw, fresh. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
   - substance: Methionine
     relationship: contains
     description: >-
@@ -160,6 +171,7 @@ substance_relationships:
     presence_status: presence_supported_amount_unavailable
   - substance: Glutamine
     substance_id: glutamine
+    requires_supplementary_key: glutamine_lenders
     relationship: contains
     evidence_status: supported
     evidence_material: Whole egg protein fractions
@@ -167,7 +179,7 @@ substance_relationships:
     source_url: https://doi.org/10.1038/ejcn.2009.110
     citation_keys:
       - lenders_amino_acid_sequencing_2009
-    evidence_source: 'Lenders et al. (2009), Table 1: protein-sequence-based occurrence.'
+    evidence_source: 'Lenders et al. (2009), Table 2: food-specific protein-sequence model.'
     material_limitations: Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.
     food_delivery_notes: Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.
     chemical_form: protein-bound glutamine residues
@@ -273,6 +285,57 @@ nutrition_amino_acid_profiles:
       summary: >-
         Human tracer evidence distinguishes cooked from raw egg protein digestibility. It does not
         supply a matching nine-amino-acid digestibility correction for this database record.
+nutrition_supplementary_sources:
+  - key: glutamine_lenders
+    label: Glutamine
+    substance_id: glutamine
+    public_display: table
+    evidence_status: supported
+    evidence_material: Whole egg protein fractions
+    preparation_state: form not known
+    chemical_form: protein-bound glutamine residues
+    citation_mark: asterisk
+    source_reference: /docs/papers/BRAIN-Diet-References#lenders_amino_acid_sequencing_2009
+    source_url: https://doi.org/10.1038/ejcn.2009.110
+    source_note: Lenders et al. (2009), Table 2. Food-specific protein fractions weighted by their amino-acid sequences. Study egg contained 12.6 g protein per 100 g food. The canonical whole egg has 12.56 g. Study preparation was unspecified. Free amino acids were excluded; cooking and variation between eggs were not evaluated.
+    notes: Study egg contained 12.6 g protein per 100 g food. The canonical whole egg has 12.56 g. Study preparation was unspecified. Free amino acids were excluded; cooking and variation between eggs were not evaluated.
+    value: 0.559
+    unit: g
+    basis: per 100 g reference egg as food
+    measurement_kind: sequence-derived estimate
+    rank_eligible: false
+    unranked_reason: Preparation unspecified; reference-food model excludes free amino acids.
+  - key: glycine_usda_review01_171287
+    label: Glycine
+    substance_id: glycine
+    value: 0.432
+    unit: g
+    basis: per 100 g edible portion
+    original_source_basis: per 100 g edible portion
+    evidence_material: Egg, whole, raw, fresh
+    preparation_state: Egg, whole, raw, fresh
+    source_url: https://fdc.nal.usda.gov/food-details/171287/nutrients
+    source_group: USDA SR Legacy April 2018; source-specific database value
+    source_note: >-
+      Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact
+      source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility
+      or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026.
+      Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.
+    material_limitations: >-
+      Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact
+      source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility
+      or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026.
+      Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: author-approved-review-01
+    fdc_id: 171287
+    food_nutrient_id: 1597646
+    source_derivation_id: A
+    source_data_points: 0
+
 ---
 import NutritionTable from "@site/src/components/NutritionTable";
 

@@ -810,6 +810,96 @@
     "scope": "Circadian hub list entry for BRS-X(Circadian-FM1-PM3) only. No new hub component."
   },
   {
+    "file": "static/explore/food-wheel/index.html",
+    "sha256": "efcf2dd724e6a7291ed21cbfc63b814929d5488b0a2e05c2d36cea54149cfd97",
+    "author_approval": "Top-ten Food Wheel experiment; draft GitHub PR and Netlify preview only. No merge or production deployment.",
+    "approval_source": "Author instruction in this conversation, 9 November 2026: change maximum from five to ten while preserving threshold, comparability, canonical records and admissions.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/report.md",
+    "contract": "system/food-wheel-presentation-contract.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing standalone Food Wheel route and supporting assets only; no canonical pages, deep-linking or PM integration."
+  },
+  {
+    "file": "static/explore/food-wheel/food-wheel.svg",
+    "sha256": "46877051beedb8b4a9f3ddec54dabb9dd203b299e0b17b4b97872cb00a317026",
+    "author_approval": "Top-ten Food Wheel experiment; draft GitHub PR and Netlify preview only. No merge or production deployment.",
+    "approval_source": "Author instruction in this conversation, 9 November 2026: change maximum from five to ten while preserving threshold, comparability, canonical records and admissions.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/report.md",
+    "contract": "system/food-wheel-presentation-contract.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing standalone Food Wheel route and supporting assets only; no canonical pages, deep-linking or PM integration."
+  },
+  {
+    "file": "static/explore/food-wheel/about.html",
+    "sha256": "239b07812680a16655383603cc7b38357a20c858f46deab03f971760909d0633",
+    "author_approval": "Top-ten Food Wheel experiment; draft GitHub PR and Netlify preview only. No merge or production deployment.",
+    "approval_source": "Author instruction in this conversation, 9 November 2026: change maximum from five to ten while preserving threshold, comparability, canonical records and admissions.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/report.md",
+    "contract": "system/food-wheel-presentation-contract.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing standalone Food Wheel route and supporting assets only; no canonical pages, deep-linking or PM integration."
+  },
+  {
+    "file": "docs/foods/lupins.md",
+    "sha256": "560c3f9955113fc8d7c06e651b65ef28c72065ebcb178eebe0a7627823e8f49c",
+    "author_approval": "Shared top-ten PM/Food Wheel preview and authorised lupin identity consolidation; no merge or production deployment.",
+    "approval_source": "Owner instructions 9 November 2026: implement shared selector; retain lupins and retire duplicate lupin-beans with redirects; preserve four oil/cocoa identities; attribute cocoa only and retain oil hold; reconcile counts and run release checks.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/TOP-TEN-COVERAGE-RECONCILIATION.md",
+    "contract": "system/input-substance-food-mapping.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing PM ranked-food dropdowns and standalone Food Wheel, same ten qualifying foods before grouping. Lupin identity correction only. No new scientific admissions, panels or unrelated page edits."
+  },
+  {
+    "file": "docs/foods/lupin-beans.md",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "author_approval": "Shared top-ten PM/Food Wheel preview and authorised lupin identity consolidation; no merge or production deployment.",
+    "approval_source": "Owner instructions 9 November 2026: implement shared selector; retain lupins and retire duplicate lupin-beans with redirects; preserve four oil/cocoa identities; attribute cocoa only and retain oil hold; reconcile counts and run release checks.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/TOP-TEN-COVERAGE-RECONCILIATION.md",
+    "contract": "system/input-substance-food-mapping.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing PM ranked-food dropdowns and standalone Food Wheel, same ten qualifying foods before grouping. Lupin identity correction only. No new scientific admissions, panels or unrelated page edits."
+  },
+  {
+    "file": "src/lib/pmInputFoodDisclosure.ts",
+    "sha256": "4f4ccdec85fd081db85a70557795a25188788cc4255ee9d0ad2bb4b1fc570c45",
+    "author_approval": "Shared top-ten PM/Food Wheel preview and authorised lupin identity consolidation; no merge or production deployment.",
+    "approval_source": "Owner instructions 9 November 2026: implement shared selector; retain lupins and retire duplicate lupin-beans with redirects; preserve four oil/cocoa identities; attribute cocoa only and retain oil hold; reconcile counts and run release checks.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/TOP-TEN-COVERAGE-RECONCILIATION.md",
+    "contract": "system/input-substance-food-mapping.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing PM ranked-food dropdowns and standalone Food Wheel, same ten qualifying foods before grouping. Lupin identity correction only. No new scientific admissions, panels or unrelated page edits."
+  },
+  {
+    "file": "static/explore/food-wheel/index.html",
+    "sha256": "d2eb01a67df47f39dfeeaa303ee619d693260f34778a0c5f08e74382fc1ae426",
+    "author_approval": "Shared top-ten PM/Food Wheel preview and authorised lupin identity consolidation; no merge or production deployment.",
+    "approval_source": "Owner instructions 9 November 2026: implement shared selector; retain lupins and retire duplicate lupin-beans with redirects; preserve four oil/cocoa identities; attribute cocoa only and retain oil hold; reconcile counts and run release checks.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/TOP-TEN-COVERAGE-RECONCILIATION.md",
+    "contract": "system/input-substance-food-mapping.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing PM ranked-food dropdowns and standalone Food Wheel, same ten qualifying foods before grouping. Lupin identity correction only. No new scientific admissions, panels or unrelated page edits."
+  },
+  {
+    "file": "static/explore/food-wheel/food-wheel.svg",
+    "sha256": "ded5b60e9423beff55845103922046c0b0aa60d47973475098323b7ac6088e26",
+    "author_approval": "Shared top-ten PM/Food Wheel preview and authorised lupin identity consolidation; no merge or production deployment.",
+    "approval_source": "Owner instructions 9 November 2026: implement shared selector; retain lupins and retire duplicate lupin-beans with redirects; preserve four oil/cocoa identities; attribute cocoa only and retain oil hold; reconcile counts and run release checks.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/TOP-TEN-COVERAGE-RECONCILIATION.md",
+    "contract": "system/input-substance-food-mapping.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing PM ranked-food dropdowns and standalone Food Wheel, same ten qualifying foods before grouping. Lupin identity correction only. No new scientific admissions, panels or unrelated page edits."
+  },
+  {
+    "file": "static/explore/food-wheel/about.html",
+    "sha256": "3723b3f690c73fc0538feb4c930e12ac6bdaea12d7ca94683815b31376e363da",
+    "author_approval": "Shared top-ten PM/Food Wheel preview and authorised lupin identity consolidation; no merge or production deployment.",
+    "approval_source": "Owner instructions 9 November 2026: implement shared selector; retain lupins and retire duplicate lupin-beans with redirects; preserve four oil/cocoa identities; attribute cocoa only and retain oil hold; reconcile counts and run release checks.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/TOP-TEN-COVERAGE-RECONCILIATION.md",
+    "contract": "system/input-substance-food-mapping.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing PM ranked-food dropdowns and standalone Food Wheel, same ten qualifying foods before grouping. Lupin identity correction only. No new scientific admissions, panels or unrelated page edits."
+  },
+  {
     "file": "static/preview/recipe-brs-matrix/index.html",
     "sha256": "464daab01592400a0309106c903b71255fb1c46cc6619cf83f37a41f57265bd3",
     "author_approval": "Publish the reviewed recipe matrix at an unlisted URL; prepare the GitHub PR through the existing workflow.",
@@ -828,5 +918,195 @@
     "contract": "system/recipe-matrix-preview-presentation-contract.md",
     "example": "static/preview/recipe-brs-matrix/index.html",
     "scope": "One standalone unlisted preview at /preview/recipe-brs-matrix/; two static assets, no canonical rollout; PR only, no merge in this task."
+  },
+  {
+    "file": "static/explore/food-wheel/index.html",
+    "sha256": "e13be291fbab2c52a418893d4efbf4ab596d9f7cbdee9900393cbb721dfacb21",
+    "author_approval": "Shared top-ten PM/Food Wheel preview and authorised lupin identity consolidation; no merge or production deployment.",
+    "approval_source": "Owner instructions 9 November 2026: implement shared selector; retain lupins and retire duplicate lupin-beans with redirects; preserve four oil/cocoa identities; attribute cocoa only and retain oil hold; reconcile counts and run release checks.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/TOP-TEN-COVERAGE-RECONCILIATION.md",
+    "contract": "system/input-substance-food-mapping.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing PM ranked-food dropdowns and standalone Food Wheel, same ten qualifying foods before grouping. Lupin identity correction only. No new scientific admissions, panels or unrelated page edits."
+  },
+  {
+    "file": "static/explore/food-wheel/index.html",
+    "sha256": "5cd093f4f5da09f82e3cbe6018e73dcb584f542d3b6dc33854ec5b27af6d1502",
+    "author_approval": "Shared top-ten PM/Food Wheel preview and authorised lupin identity consolidation; no merge or production deployment.",
+    "approval_source": "Owner instructions 9 November 2026: implement shared selector; retain lupins and retire duplicate lupin-beans with redirects; preserve four oil/cocoa identities; attribute cocoa only and retain oil hold; reconcile counts and run release checks.",
+    "proposal": "review/food-wheel-top-ten-2026-11-09/TOP-TEN-COVERAGE-RECONCILIATION.md",
+    "contract": "system/input-substance-food-mapping.md",
+    "example": "static/explore/food-wheel/index.html",
+    "scope": "Existing PM ranked-food dropdowns and standalone Food Wheel, same ten qualifying foods before grouping. Lupin identity correction only. No new scientific admissions, panels or unrelated page edits."
+  },
+  {
+    "file": "src/lib/pmInputFoodDisclosure.ts",
+    "sha256": "3f925dee6c668418f82d9179609e7a6ce0eaee894c6c5309c71f5a7695b9b788",
+    "author_approval": "Correct PM Food-Source Visibility Regression: implement ranked and documented-unranked layers across admitted PM dietary inputs; preserve ranking and science; no build, deployment or PR update.",
+    "approval_source": "Author instruction in current conversation, 9 November 2026: CODEX EXEC — Correct PM Food-Source Visibility Regression.",
+    "proposal": "review/pm-food-source-visibility-2026-11-09/REVIEW.md",
+    "contract": "system/input-substance-food-mapping.md",
+    "example": "review/pm-food-source-visibility-2026-11-09/pm7-example.html",
+    "scope": "Existing PM food-source renderer, all admitted PM dietary inputs; current qualitative output across 35 PMs. No wheel or scientific admission changes."
+  },
+  {
+    "file": "docs/substances/bifidobacterium-longum.md",
+    "sha256": "c17e7013715fe8dfaa64a964544e9dff8fc11d8a58b6c307fef7b703130bc971",
+    "author_approval": "Approve the minimal contract extension and proposed identity structure; register and document first, public network visibility separately approved.",
+    "approval_source": "Owner implementation notes in this conversation, 9 November 2026: immediate narrowly scoped implementation of the approved shared-documentation extension.",
+    "proposal": "review/dietary-connectivity-2026-11-09/shared-documentation-extension/IMPLEMENTATION.md",
+    "contract": "system/substance-page-schema.md",
+    "example": "docs/substances/bifidobacterium-longum.md",
+    "scope": "Five documentation pages only: three existing substance parents and two new species parents; no network activation, wheel changes or inherited scientific claims."
+  },
+  {
+    "file": "docs/substances/lacticaseibacillus-rhamnosus.md",
+    "sha256": "2670c3683ebea65c9b095c898a691e2748fd0f4ae5f82b0b10371aa6234634ef",
+    "author_approval": "Approve the minimal contract extension and proposed identity structure; register and document first, public network visibility separately approved.",
+    "approval_source": "Owner implementation notes in this conversation, 9 November 2026: immediate narrowly scoped implementation of the approved shared-documentation extension.",
+    "proposal": "review/dietary-connectivity-2026-11-09/shared-documentation-extension/IMPLEMENTATION.md",
+    "contract": "system/substance-page-schema.md",
+    "example": "docs/substances/lacticaseibacillus-rhamnosus.md",
+    "scope": "Five documentation pages only: three existing substance parents and two new species parents; no network activation, wheel changes or inherited scientific claims."
+  },
+  {
+    "file": "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch.md",
+    "sha256": "7345e5311e196c8f6de445ae748d717342d5e4f81e86f67cd402ea73c456138c",
+    "author_approval": "Approve the minimal contract extension and proposed identity structure; register and document first, public network visibility separately approved.",
+    "approval_source": "Owner implementation notes in this conversation, 9 November 2026: immediate narrowly scoped implementation of the approved shared-documentation extension.",
+    "proposal": "review/dietary-connectivity-2026-11-09/shared-documentation-extension/IMPLEMENTATION.md",
+    "contract": "system/substance-page-schema.md",
+    "example": "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch.md",
+    "scope": "Five documentation pages only: three existing substance parents and two new species parents; no network activation, wheel changes or inherited scientific claims."
+  },
+  {
+    "file": "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin.md",
+    "sha256": "6c594ece86ab1e10cdf5a3961e5be4ce5a0e99eae3a97df7c7ef9f12412f3063",
+    "author_approval": "Approve the minimal contract extension and proposed identity structure; register and document first, public network visibility separately approved.",
+    "approval_source": "Owner implementation notes in this conversation, 9 November 2026: immediate narrowly scoped implementation of the approved shared-documentation extension.",
+    "proposal": "review/dietary-connectivity-2026-11-09/shared-documentation-extension/IMPLEMENTATION.md",
+    "contract": "system/substance-page-schema.md",
+    "example": "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin.md",
+    "scope": "Five documentation pages only: three existing substance parents and two new species parents; no network activation, wheel changes or inherited scientific claims."
+  },
+  {
+    "file": "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/inulin.md",
+    "sha256": "32d9d3f83be72a1834c66d0e1fa5e56931ab2a40ffeffbcdf1878c5eceb6d21e",
+    "author_approval": "Approve the minimal contract extension and proposed identity structure; register and document first, public network visibility separately approved.",
+    "approval_source": "Owner implementation notes in this conversation, 9 November 2026: immediate narrowly scoped implementation of the approved shared-documentation extension.",
+    "proposal": "review/dietary-connectivity-2026-11-09/shared-documentation-extension/IMPLEMENTATION.md",
+    "contract": "system/substance-page-schema.md",
+    "example": "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/inulin.md",
+    "scope": "Five documentation pages only: three existing substance parents and two new species parents; no network activation, wheel changes or inherited scientific claims."
+  },
+  {
+    "file": "docs/foods/pears.md",
+    "sha256": "c528b935995d76b05ec237ec2eb8f76463880b3af9a732a02b37c009adf54167",
+    "author_approval": "Inspect the new pear, lemon and orange pectin records and reconcile eligible links into the PM pages, Explorer and Food Wheel. Preserve evidence qualifications; test locally, no push.",
+    "approval_source": "Author request and supplied Cursor branch review/pear-orange-lemon-pectin-2026-11-09, 9 November 2026.",
+    "proposal": "review/compact-pm-explorer-2026-11-09/CURSOR-PECTIN.md",
+    "contract": "system/food-page-schema.md",
+    "example": "docs/foods/apples.md",
+    "scope": "Import supplied canonical Pears food page with existing components and evidence qualifications; no new intervention admission or efficacy claim."
+  },
+  {
+    "file": "docs/biological-targets/mitochondrial-function-bioenergetics.md",
+    "sha256": "8ecc817ba5ad6ea997e6394d8ad14eaa76e8e43f4897aac748200ba9c0a409e2",
+    "author_approval": "Author requested missing PM10 navigation repair in this localhost BRS4 view.",
+    "approval_source": "5 November2026: still do not see PM10 in this view; original CoQ integration index-update approval.",
+    "proposal": "review/pm10-localhost-navigation-2026-11-05/report.md",
+    "contract": "system/brs-page-schema.md",
+    "example": "docs/biological-targets/mitochondrial-function-bioenergetics.md",
+    "scope": "Two links in existing BRS4 mechanism lists only."
+  },
+  {
+    "file": "src/components/PilotInterventionDisclosure.tsx",
+    "sha256": "77ddc0d48292edc96603c3f4d1724c6b87fd0662a6d3ff9bfc78daf092a86aa0",
+    "author_approval": "Author approval: PM presentation and derived mapping implementation — 6 November 2026",
+    "approval_source": "Current author instruction: CODEX EXEC — PM SOP & Lifestyle Food–Substance Integration",
+    "proposal": "review/intervention-food-substance-2026-11-06/proposal.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/intervention-food-substance-2026-11-06/proposal.md",
+    "scope": "PM SOP/Lifestyle title-adjacent canonical identity/composition links only; no dietary admissions, scores or other page types"
+  },
+  {
+    "file": "src/components/PmDietaryLeverEnhancer.tsx",
+    "sha256": "2702f4d963731bdb0c8de92397c608d3d16e43a87bf58d64bb3198447b066e27",
+    "author_approval": "Author approval: PM presentation and derived mapping implementation — 6 November 2026",
+    "approval_source": "Current author instruction: CODEX EXEC — PM SOP & Lifestyle Food–Substance Integration",
+    "proposal": "review/intervention-food-substance-2026-11-06/proposal.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/intervention-food-substance-2026-11-06/proposal.md",
+    "scope": "PM SOP/Lifestyle title-adjacent canonical identity/composition links only; no dietary admissions, scores or other page types"
+  },
+  {
+    "file": "system/templates/primary-mechanism-template.mdx",
+    "sha256": "16055199708fb74beb7ae6b6e33b60f4524552cb339e8155508d578a658678eb",
+    "author_approval": "Author approval: PM presentation and derived mapping implementation — 6 November 2026",
+    "approval_source": "Current author instruction: CODEX EXEC — PM SOP & Lifestyle Food–Substance Integration",
+    "proposal": "review/intervention-food-substance-2026-11-06/proposal.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/intervention-food-substance-2026-11-06/proposal.md",
+    "scope": "PM SOP/Lifestyle title-adjacent canonical identity/composition links only; no dietary admissions, scores or other page types"
+  },
+  {
+    "file": "src/components/CanonicalPmMission.tsx",
+    "sha256": "ef3bea12958d2a9040f7133290ca173404d0ebf1355ad50ca9386025ec7ac530",
+    "author_approval": "Author approved canonical scientific projections and the Melatonin PM3 frontmatter Mission renderer, 10 November 2026.",
+    "approval_source": "Cursor instruction, 10 November 2026: Adopt Canonical Scientific Truth and Presentation Consistency; preserve the Melatonin PM3 implementation. No new admission, SEC change, commit or deployment.",
+    "proposal": "review/circadian-pm3-identity-review-2026-11-10/REPORT.md",
+    "contract": "system/canonical-scientific-projections.md",
+    "example": "review/circadian-pm3-identity-review-2026-11-10/REPORT.md",
+    "scope": "One component that renders the current PM frontmatter mission. No second mission sentence, new section, admission or food edge."
+  },
+  {
+    "file": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability.mdx",
+    "sha256": "bcb6db9e6bb695e02f6ce9cebd5e8771b8caeda895f3fc92a01c0b3199fa1cfa",
+    "author_approval": "Author approved canonical scientific projections and the Melatonin PM3 frontmatter Mission renderer, 10 November 2026.",
+    "approval_source": "Cursor instruction, 10 November 2026: Adopt Canonical Scientific Truth and Presentation Consistency; preserve the Melatonin PM3 implementation. No new admission, SEC change, commit or deployment.",
+    "proposal": "review/circadian-pm3-identity-review-2026-11-10/REPORT.md",
+    "contract": "system/canonical-scientific-projections.md",
+    "example": "review/circadian-pm3-identity-review-2026-11-10/REPORT.md",
+    "scope": "PM3 visible Mission element reads canonical frontmatter. Historical assessment, unresolved dietary admission and missing-identity gap retained. No contextual food activation."
+  },
+  {
+    "file": "src/components/NutritionTable.tsx",
+    "sha256": "e076a191b015b834edf3f75b3ea84acb5710842f97ed07e61f3c71e23dde4e6d",
+    "author_approval": "Author approved all four as reviewed, subject to the refined complete-table presentation.",
+    "approval_source": "11 November 2026 — EXEC — Refine NutritionTable Presentation Approval",
+    "proposal": "system/presentation-change-control.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/pears.md",
+    "scope": "Complete panels use collapsed full table, unchanged highlight threshold and qualified precision."
+  },
+  {
+    "file": "src/theme/SubstanceFoods/index.tsx",
+    "sha256": "a99369efcdc01892db2e4237bf44169681fd9bdc35eac8508b707985f63ca44e",
+    "author_approval": "Author approved all four as reviewed, subject to the refined complete-table presentation.",
+    "approval_source": "11 November 2026 — EXEC — Refine NutritionTable Presentation Approval",
+    "proposal": "system/presentation-change-control.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "src/theme/SubstanceFoods/index.tsx",
+    "scope": "Distinct FOS/GOS constituent food pathways; no mixture occurrence."
+  },
+  {
+    "file": "docs/foods/soy.md",
+    "sha256": "1ef7ba4c668165a4c527693c641dfc3ef3ada92bba719acc110548a556e3235a",
+    "author_approval": "Author approved all four as reviewed, subject to the refined complete-table presentation.",
+    "approval_source": "11 November 2026 — EXEC — Refine NutritionTable Presentation Approval",
+    "proposal": "system/presentation-change-control.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/soy.md",
+    "scope": "Mature soybean title and three distinct preparation panels."
+  },
+  {
+    "file": "docs/substances/bioactive-compounds/acetic-acid.md",
+    "sha256": "32e8f26e2e233e41685dae5a2ef2aeb385d4b677e839c626ec258a502cf0f2a8",
+    "author_approval": "Author approved all four as reviewed, subject to the refined complete-table presentation.",
+    "approval_source": "11 November 2026 — EXEC — Refine NutritionTable Presentation Approval",
+    "proposal": "system/presentation-change-control.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/substances/bioactive-compounds/acetic-acid.md",
+    "scope": "Qualified vinegar/brine and whole-meal trial presentation."
   }
 ]

@@ -461,7 +461,7 @@
       },
       "candidate_food": "Salmon Roe",
       "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-      "preparation": null,
+      "preparation": "salted",
       "evidence": [
         [
           {
@@ -479,13 +479,13 @@
             "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
             "source_reference": "#food-source-8",
             "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-            "preparation": null,
+            "preparation": "salted",
             "record": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
             "source_record": "docs/foods/salmon-roe.md#nutrition_source",
             "verified": true,
             "id": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
-            "rank_eligible": false,
-            "comparison_group": null,
+            "rank_eligible": true,
+            "comparison_group": "edible::salted",
             "low": 910,
             "high": 910,
             "display": "910 mg"
@@ -507,13 +507,13 @@
             "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
             "source_reference": "#food-source-8",
             "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-            "preparation": null,
+            "preparation": "salted",
             "record": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
             "source_record": "docs/foods/salmon-roe.md#nutrition_source",
             "verified": true,
             "id": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
-            "rank_eligible": false,
-            "comparison_group": null,
+            "rank_eligible": true,
+            "comparison_group": "edible::salted",
             "low": 910,
             "high": 910,
             "display": "910 mg"
@@ -535,13 +535,13 @@
             "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
             "source_reference": "#food-source-8",
             "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-            "preparation": null,
+            "preparation": "salted",
             "record": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
             "source_record": "docs/foods/salmon-roe.md#nutrition_source",
             "verified": true,
             "id": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
-            "rank_eligible": false,
-            "comparison_group": null,
+            "rank_eligible": true,
+            "comparison_group": "edible::salted",
             "low": 910,
             "high": 910,
             "display": "910 mg"
@@ -553,7 +553,7 @@
         "BRS1-FM3-PM7",
         "BRS1-FM4-PM10"
       ],
-      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains sodium (null)",
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains sodium (salted)",
       "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
       "verification_status": "pending-independent-verification"
     },
@@ -665,7 +665,7 @@
       },
       "candidate_food": "Salmon Roe",
       "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-      "preparation": null,
+      "preparation": "salted",
       "evidence": [
         [
           {
@@ -683,13 +683,13 @@
             "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
             "source_reference": "#food-source-8",
             "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-            "preparation": null,
+            "preparation": "salted",
             "record": "docs/foods/salmon-roe.md#nutrition_per_100g/potassium_mg",
             "source_record": "docs/foods/salmon-roe.md#nutrition_source",
             "verified": true,
             "id": "docs/foods/salmon-roe.md#nutrition_per_100g/potassium_mg",
-            "rank_eligible": false,
-            "comparison_group": null,
+            "rank_eligible": true,
+            "comparison_group": "edible::salted",
             "low": 210,
             "high": 210,
             "display": "210 mg"
@@ -700,7 +700,7 @@
         "BRS1-FM4-PM10",
         "BRS2-FM1-PM3"
       ],
-      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains potassium (null)",
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains potassium (salted)",
       "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
       "verification_status": "pending-independent-verification"
     },
@@ -1450,7 +1450,7 @@
       },
       "candidate_food": "Salmon Roe",
       "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-      "preparation": null,
+      "preparation": "salted",
       "evidence": [
         [
           {
@@ -1468,13 +1468,13 @@
             "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
             "source_reference": "#food-source-8",
             "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-            "preparation": null,
+            "preparation": "salted",
             "record": "docs/foods/salmon-roe.md#nutrition_per_100g/manganese_mg",
             "source_record": "docs/foods/salmon-roe.md#nutrition_source",
             "verified": true,
             "id": "docs/foods/salmon-roe.md#nutrition_per_100g/manganese_mg",
-            "rank_eligible": false,
-            "comparison_group": null,
+            "rank_eligible": true,
+            "comparison_group": "edible::salted",
             "low": 0.06,
             "high": 0.06,
             "display": "0.06 mg"
@@ -1485,7 +1485,7 @@
         "BRS3-FM2-PM4",
         "BRS4-FM2-PM5"
       ],
-      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains manganese (null)",
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains manganese (salted)",
       "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
       "verification_status": "pending-independent-verification"
     },
@@ -1850,7 +1850,7 @@
       },
       "candidate_food": "Cacao Powder",
       "material": "Cocoa, dry powder, unsweetened",
-      "preparation": null,
+      "preparation": "dry powder",
       "evidence": [
         [
           {
@@ -1880,7 +1880,7 @@
       "affected_pms": [
         "BRS5-FM2-PM6"
       ],
-      "missing_edge": "Cacao Powder → Epicatechin [Cocoa, dry powder, unsweetened; preparation unresolved]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
+      "missing_edge": "Cacao Powder → Epicatechin [Cocoa, dry powder, unsweetened; dry powder]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
       "required_action": "Compare the existing edge with this source material, brand/fortification, cultivar, preparation and analytical context. Do not create a new food edge unless independently established as necessary.",
       "verification_status": "requires-material-equivalence-review"
     },
@@ -1894,7 +1894,7 @@
       },
       "candidate_food": "Cocoa",
       "material": "Cocoa, dry powder, unsweetened",
-      "preparation": null,
+      "preparation": "dry powder",
       "evidence": [
         [
           {
@@ -1924,7 +1924,7 @@
       "affected_pms": [
         "BRS5-FM2-PM6"
       ],
-      "missing_edge": "Cocoa → Epicatechin [Cocoa, dry powder, unsweetened; preparation unresolved]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
+      "missing_edge": "Cocoa → Epicatechin [Cocoa, dry powder, unsweetened; dry powder]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
       "required_action": "Compare the existing edge with this source material, brand/fortification, cultivar, preparation and analytical context. Do not create a new food edge unless independently established as necessary.",
       "verification_status": "requires-material-equivalence-review"
     },
@@ -1982,7 +1982,7 @@
       },
       "candidate_food": "Salmon Roe",
       "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-      "preparation": null,
+      "preparation": "salted",
       "evidence": [
         [
           {
@@ -2000,13 +2000,13 @@
             "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
             "source_reference": "#food-source-8",
             "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-            "preparation": null,
+            "preparation": "salted",
             "record": "docs/foods/salmon-roe.md#nutrition_per_100g/linoleic_g",
             "source_record": "docs/foods/salmon-roe.md#nutrition_source",
             "verified": true,
             "id": "docs/foods/salmon-roe.md#nutrition_per_100g/linoleic_g",
-            "rank_eligible": false,
-            "comparison_group": null,
+            "rank_eligible": true,
+            "comparison_group": "edible::salted",
             "low": 110,
             "high": 110,
             "display": "0.11 g"
@@ -2016,7 +2016,7 @@
       "affected_pms": [
         "BRS5-FM3-PM7"
       ],
-      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains linoleic-acid (null)",
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains linoleic-acid (salted)",
       "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
       "verification_status": "pending-independent-verification"
     },

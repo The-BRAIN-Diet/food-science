@@ -10,10 +10,10 @@ Outstanding food-edge, material-equivalence, identity and conversion tasks. Mate
 | Chicory Root | sodium | raw | BRS1-FM2-PM6, BRS1-FM3-PM7, BRS1-FM4-PM10 | pending-independent-verification |
 | Nori | sodium | dried | BRS1-FM2-PM6, BRS1-FM3-PM7, BRS1-FM4-PM10 | pending-independent-verification |
 | Nutritional Yeast | sodium | dried | BRS1-FM2-PM6, BRS1-FM3-PM7, BRS1-FM4-PM10 | pending-independent-verification |
-| Salmon Roe | sodium |  | BRS1-FM2-PM6, BRS1-FM3-PM7, BRS1-FM4-PM10 | pending-independent-verification |
+| Salmon Roe | sodium | salted | BRS1-FM2-PM6, BRS1-FM3-PM7, BRS1-FM4-PM10 | pending-independent-verification |
 | Chicory Root | potassium | raw | BRS1-FM4-PM10, BRS2-FM1-PM3 | pending-independent-verification |
 | Nori | potassium | dried | BRS1-FM4-PM10, BRS2-FM1-PM3 | pending-independent-verification |
-| Salmon Roe | potassium |  | BRS1-FM4-PM10, BRS2-FM1-PM3 | pending-independent-verification |
+| Salmon Roe | potassium | salted | BRS1-FM4-PM10, BRS2-FM1-PM3 | pending-independent-verification |
 | vitamin-b6 | Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor) |  | BRS1-FM1-PM3, BRS1-FM1-PM4, BRS1-FM1-PM5, BRS2-FM2-PM5 | requires-pathway-reconciliation |
 | phosphatidylcholine | Choline |  | BRS1-FM2-PM6, BRS2-FM3-PM7 | requires-pathway-reconciliation |
 | Kale | 5-methyltetrahydrofolate | raw | BRS2-FM1-PM1 | pending-independent-verification |
@@ -32,7 +32,7 @@ Outstanding food-edge, material-equivalence, identity and conversion tasks. Mate
 | n-acetylcysteine | Cysteine |  | BRS2-FM2-PM6 | requires-pathway-reconciliation |
 | Chicory Root | manganese | raw | BRS3-FM2-PM4, BRS4-FM2-PM5 | pending-independent-verification |
 | Nori | manganese | dried | BRS3-FM2-PM4, BRS4-FM2-PM5 | pending-independent-verification |
-| Salmon Roe | manganese |  | BRS3-FM2-PM4, BRS4-FM2-PM5 | pending-independent-verification |
+| Salmon Roe | manganese | salted | BRS3-FM2-PM4, BRS4-FM2-PM5 | pending-independent-verification |
 | Chicken (studied breast material) | nicotinamide | Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement | BRS4-FM1-PM2 | pending-independent-verification |
 | Chickpeas (studied analytical material) | nicotinamide | Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement | BRS4-FM1-PM2 | pending-independent-verification |
 | Chicken (studied breast material) | nicotinic-acid | Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement | BRS4-FM1-PM2 | pending-independent-verification |
@@ -45,10 +45,10 @@ Outstanding food-edge, material-equivalence, identity and conversion tasks. Mate
 | Chicory root | inulin | Taproots dehydrated at 40°C, followed by laboratory extraction; qualitative source, not a household preparation protocol | BRS5-FM2-PM4 | pending-independent-verification |
 | Jerusalem artichokes | inulin | Harvest maturity and storage-specific laboratory analysis; cooked products not tested | BRS5-FM2-PM4 | pending-independent-verification |
 | Apples (studied cultivars) | pectin | Cultivar-specific extracted analytical fractions; not a standardised pectin dose | BRS5-FM2-PM5 | pending-independent-verification |
-| Cacao Powder | epicatechin |  | BRS5-FM2-PM6 | requires-material-equivalence-review |
-| Cocoa | epicatechin |  | BRS5-FM2-PM6 | requires-material-equivalence-review |
+| Cacao Powder | epicatechin | dry powder | BRS5-FM2-PM6 | requires-material-equivalence-review |
+| Cocoa | epicatechin | dry powder | BRS5-FM2-PM6 | requires-material-equivalence-review |
 | Dark Chocolate | epicatechin |  | BRS5-FM2-PM6 | requires-material-equivalence-review |
-| Salmon Roe | linoleic-acid |  | BRS5-FM3-PM7 | pending-independent-verification |
+| Salmon Roe | linoleic-acid | salted | BRS5-FM3-PM7 | pending-independent-verification |
 | BRS5-FM1-PM1::PM1-DIT-2 | Fermentable dietary fibre |  | BRS5-FM1-PM1 | requires-identity-reconciliation |
 | BRS5-FM1-PM1::PM1-DIT-2 | Butyrate |  | BRS5-FM1-PM1 | requires-pathway-reconciliation |
 | vitamin-a | Retinoic acid |  | BRS5-FM1-PM1 | requires-pathway-reconciliation |

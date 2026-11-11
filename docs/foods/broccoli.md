@@ -99,7 +99,9 @@ nutrition_supplementary_sources:
       One study sample does not establish universal food composition; do not
       add this vitamer value to total folate as an independent nutrient supply.
   - key: sulforaphane_qual
+    preparation_state: Sous vide at 100 °C for 20 minutes, with and without 1 g brown mustard powder
     label: Sulforaphane
+    status: Preparation-dependent — edible-weight quantity not established
     amount_display: Preparation-dependent
     public_note: >-
       One UK broccoli lot, cooked sous vide at 100 °C for 20 minutes, formed
@@ -335,6 +337,7 @@ substance_relationships:
     presence_status: presence_and_amount_supported
     source_reference: '#food-source-3'
   - substance: Sulforaphane
+    preparation_state: Sous vide at 100 °C for 20 minutes, with and without 1 g brown mustard powder
     relationship: contains
     description: >-
       Sulforaphane forms from glucoraphanin when myrosinase is active. In one

@@ -3979,7 +3979,7 @@
           "erikson_iron_2000"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -4403,7 +4403,7 @@
           "erikson_iron_2000"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -4562,7 +4562,7 @@
           "erikson_iron_2000"
         ]
       },
-      "preparation": null,
+      "preparation": "frozen",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -4957,8 +4957,8 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "lupin-beans",
-      "food_title": "Lupin Beans",
+      "food_target": "lupins",
+      "food_title": "Lupins",
       "food_material": "Lupins, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -4967,7 +4967,7 @@
       "mapping_status": "verified",
       "food_evidence": [
         {
-          "record": "docs/foods/lupin-beans.md#substance_relationships/Iron",
+          "record": "docs/foods/lupins.md#substance_relationships/Iron",
           "evidence": "USDA SR Legacy April 2018",
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
@@ -5410,7 +5410,7 @@
           "erikson_iron_2000"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -6758,7 +6758,7 @@
           "spector_vitamin_1978"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "precursor-source",
       "conversion_pathway": [],
       "limitations": [
@@ -7989,7 +7989,7 @@
           "dix_brain_mao_riboflavin_1981"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "precursor-source",
       "conversion_pathway": [
         {
@@ -8579,7 +8579,7 @@
           "lotta_human_comt_1995"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -8839,7 +8839,7 @@
           "lotta_human_comt_1995"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -9071,8 +9071,8 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
-      "food_target": "lupin-beans",
-      "food_title": "Lupin Beans",
+      "food_target": "lupins",
+      "food_title": "Lupins",
       "food_material": "Lupins, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -9081,7 +9081,7 @@
       "mapping_status": "verified",
       "food_evidence": [
         {
-          "record": "docs/foods/lupin-beans.md#substance_relationships/Magnesium",
+          "record": "docs/foods/lupins.md#substance_relationships/Magnesium",
           "evidence": "USDA SR Legacy April 2018",
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
@@ -9463,7 +9463,7 @@
           "lotta_human_comt_1995"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -10518,7 +10518,7 @@
           "beard_iron_2003"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -10934,7 +10934,7 @@
           "beard_iron_2003"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -11090,7 +11090,7 @@
           "beard_iron_2003"
         ]
       },
-      "preparation": null,
+      "preparation": "frozen",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -11478,8 +11478,8 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "lupin-beans",
-      "food_title": "Lupin Beans",
+      "food_target": "lupins",
+      "food_title": "Lupins",
       "food_material": "Lupins, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -11488,7 +11488,7 @@
       "mapping_status": "verified",
       "food_evidence": [
         {
-          "record": "docs/foods/lupin-beans.md#substance_relationships/Iron",
+          "record": "docs/foods/lupins.md#substance_relationships/Iron",
           "evidence": "USDA SR Legacy April 2018",
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
@@ -11922,7 +11922,7 @@
           "beard_iron_2003"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -13259,7 +13259,7 @@
           "spector_vitamin_1978"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "precursor-source",
       "conversion_pathway": [],
       "limitations": [
@@ -13913,7 +13913,7 @@
           "lutsenko_copper_2019"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -15432,7 +15432,7 @@
           "harrison_vitamin_2009"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -16558,7 +16558,7 @@
           "dix_brain_mao_riboflavin_1981"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "precursor-source",
       "conversion_pathway": [
         {
@@ -17148,7 +17148,7 @@
           "lotta_human_comt_1995"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -17408,7 +17408,7 @@
           "lotta_human_comt_1995"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -17640,8 +17640,8 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
-      "food_target": "lupin-beans",
-      "food_title": "Lupin Beans",
+      "food_target": "lupins",
+      "food_title": "Lupins",
       "food_material": "Lupins, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -17650,7 +17650,7 @@
       "mapping_status": "verified",
       "food_evidence": [
         {
-          "record": "docs/foods/lupin-beans.md#substance_relationships/Magnesium",
+          "record": "docs/foods/lupins.md#substance_relationships/Magnesium",
           "evidence": "USDA SR Legacy April 2018",
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
@@ -18032,7 +18032,7 @@
           "lotta_human_comt_1995"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -19257,7 +19257,7 @@
           "fanet_tetrahydrobioterin_2021"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -19681,7 +19681,7 @@
           "fanet_tetrahydrobioterin_2021"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -19840,7 +19840,7 @@
           "fanet_tetrahydrobioterin_2021"
         ]
       },
-      "preparation": null,
+      "preparation": "frozen",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -20235,8 +20235,8 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "lupin-beans",
-      "food_title": "Lupin Beans",
+      "food_target": "lupins",
+      "food_title": "Lupins",
       "food_material": "Lupins, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -20245,7 +20245,7 @@
       "mapping_status": "verified",
       "food_evidence": [
         {
-          "record": "docs/foods/lupin-beans.md#substance_relationships/Iron",
+          "record": "docs/foods/lupins.md#substance_relationships/Iron",
           "evidence": "USDA SR Legacy April 2018",
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
@@ -20688,7 +20688,7 @@
           "fanet_tetrahydrobioterin_2021"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -22036,7 +22036,7 @@
           "spector_vitamin_1978"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "precursor-source",
       "conversion_pathway": [],
       "limitations": [
@@ -22943,7 +22943,7 @@
           "dix_brain_mao_riboflavin_1981"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "precursor-source",
       "conversion_pathway": [
         {
@@ -23436,7 +23436,7 @@
           "ojiakor_choline_transporter_2020"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -23963,7 +23963,7 @@
           "bockmann_choline_supplements_2023"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "precursor-source",
       "conversion_pathway": [],
       "limitations": [
@@ -24171,7 +24171,7 @@
           "xue_human_cht1_structure_2024"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -24223,7 +24223,7 @@
           "xue_human_cht1_structure_2024"
         ]
       },
-      "preparation": null,
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -24579,13 +24579,13 @@
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
           "source_reference": "#food-source-8",
           "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-          "preparation": null,
+          "preparation": "salted",
           "record": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
           "source_record": "docs/foods/salmon-roe.md#nutrition_source",
           "verified": true,
           "id": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
-          "rank_eligible": false,
-          "comparison_group": null,
+          "rank_eligible": true,
+          "comparison_group": "edible::salted",
           "low": 910,
           "high": 910,
           "display": "910 mg"
@@ -24599,13 +24599,13 @@
           "xue_human_cht1_structure_2024"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
         "Transport-ion capacity does not establish that added dietary salt increases brain choline uptake or acetylcholine output. CNS homeostasis and membrane gradients intervene. Chloride is not assumed to have identical transport stoichiometry and is not independently admitted here."
       ],
-      "missing_ontology_edge": "salmon-roe → sodium [Chum salmon (Oncorhynchus keta), salted roe (ikura); preparation unresolved]"
+      "missing_ontology_edge": "salmon-roe → sodium [Chum salmon (Oncorhynchus keta), salted roe (ikura); salted]"
     },
     {
       "brs": "BRS1",
@@ -24711,7 +24711,7 @@
           "liu_higher_2014"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -25103,7 +25103,7 @@
           "liu_higher_2014"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -25215,7 +25215,7 @@
           "liu_higher_2014"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -25379,7 +25379,7 @@
           "quek_mfsd2a_transport_2016"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -25431,7 +25431,7 @@
           "quek_mfsd2a_transport_2016"
         ]
       },
-      "preparation": null,
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -25787,13 +25787,13 @@
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
           "source_reference": "#food-source-8",
           "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-          "preparation": null,
+          "preparation": "salted",
           "record": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
           "source_record": "docs/foods/salmon-roe.md#nutrition_source",
           "verified": true,
           "id": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
-          "rank_eligible": false,
-          "comparison_group": null,
+          "rank_eligible": true,
+          "comparison_group": "edible::salted",
           "low": 910,
           "high": 910,
           "display": "910 mg"
@@ -25807,13 +25807,13 @@
           "quek_mfsd2a_transport_2016"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
         "This supports the specific LPC-DHA carrier route, not all DHA delivery or direct neural incorporation from a meal. Sodium homeostasis, carrier formation and membrane gradients intervene; no added-salt recommendation, food-effective dose or clinical benefit."
       ],
-      "missing_ontology_edge": "salmon-roe → sodium [Chum salmon (Oncorhynchus keta), salted roe (ikura); preparation unresolved]"
+      "missing_ontology_edge": "salmon-roe → sodium [Chum salmon (Oncorhynchus keta), salted roe (ikura); salted]"
     },
     {
       "brs": "BRS1",
@@ -25859,7 +25859,7 @@
           "zhang_glt1_ion_coupling_1998"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -25911,7 +25911,7 @@
           "zhang_glt1_ion_coupling_1998"
         ]
       },
-      "preparation": null,
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -26267,13 +26267,13 @@
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
           "source_reference": "#food-source-8",
           "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-          "preparation": null,
+          "preparation": "salted",
           "record": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
           "source_record": "docs/foods/salmon-roe.md#nutrition_source",
           "verified": true,
           "id": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
-          "rank_eligible": false,
-          "comparison_group": null,
+          "rank_eligible": true,
+          "comparison_group": "edible::salted",
           "low": 910,
           "high": 910,
           "display": "910 mg"
@@ -26287,13 +26287,13 @@
           "zhang_glt1_ion_coupling_1998"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
         "Established transport-ion capacity does not show that increasing dietary sodium increases brain clearance. CNS ion regulation and Na/K-pump energy supply intervene; transporter gradients are not inferred from a food quantity. No added-salt recommendation or clinical benefit."
       ],
-      "missing_ontology_edge": "salmon-roe → sodium [Chum salmon (Oncorhynchus keta), salted roe (ikura); preparation unresolved]"
+      "missing_ontology_edge": "salmon-roe → sodium [Chum salmon (Oncorhynchus keta), salted roe (ikura); salted]"
     },
     {
       "brs": "BRS1",
@@ -27511,13 +27511,13 @@
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
           "source_reference": "#food-source-8",
           "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-          "preparation": null,
+          "preparation": "salted",
           "record": "docs/foods/salmon-roe.md#nutrition_per_100g/potassium_mg",
           "source_record": "docs/foods/salmon-roe.md#nutrition_source",
           "verified": true,
           "id": "docs/foods/salmon-roe.md#nutrition_per_100g/potassium_mg",
-          "rank_eligible": false,
-          "comparison_group": null,
+          "rank_eligible": true,
+          "comparison_group": "edible::salted",
           "low": 210,
           "high": 210,
           "display": "210 mg"
@@ -27531,13 +27531,13 @@
           "zhang_glt1_ion_coupling_1998"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
         "Established transport-ion capacity does not show that increasing dietary potassium increases brain clearance. CNS ion regulation and Na/K-pump energy supply intervene; transporter gradients are not inferred from a food quantity. No added-salt recommendation or clinical benefit."
       ],
-      "missing_ontology_edge": "salmon-roe → potassium [Chum salmon (Oncorhynchus keta), salted roe (ikura); preparation unresolved]"
+      "missing_ontology_edge": "salmon-roe → potassium [Chum salmon (Oncorhynchus keta), salted roe (ikura); salted]"
     },
     {
       "brs": "BRS1",
@@ -27999,7 +27999,7 @@
           "nowak_magnesium_nmda_1984"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -28259,7 +28259,7 @@
           "nowak_magnesium_nmda_1984"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -28491,8 +28491,8 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
-      "food_target": "lupin-beans",
-      "food_title": "Lupin Beans",
+      "food_target": "lupins",
+      "food_title": "Lupins",
       "food_material": "Lupins, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -28501,7 +28501,7 @@
       "mapping_status": "verified",
       "food_evidence": [
         {
-          "record": "docs/foods/lupin-beans.md#substance_relationships/Magnesium",
+          "record": "docs/foods/lupins.md#substance_relationships/Magnesium",
           "evidence": "USDA SR Legacy April 2018",
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
@@ -28883,7 +28883,7 @@
           "nowak_magnesium_nmda_1984"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -32603,7 +32603,7 @@
           "navarro_catalytic_2013"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "precursor-source",
       "conversion_pathway": [
         {
@@ -33906,7 +33906,7 @@
           "wurtman_uridine_dha_phospholipids_2006"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -34441,7 +34441,7 @@
           "carbone_dha_cortical_connectivity_2020"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -34819,7 +34819,7 @@
           "carbone_dha_cortical_connectivity_2020"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -34927,7 +34927,7 @@
           "carbone_dha_cortical_connectivity_2020"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [

@@ -459,7 +459,7 @@
           "li_retinoid_junction_2017"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "precursor-source",
       "conversion_pathway": [],
       "limitations": [
@@ -773,7 +773,7 @@
           "miyoshi_cellular_2016"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -1137,7 +1137,7 @@
           "miyoshi_cellular_2016"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -1189,7 +1189,7 @@
           "miyoshi_cellular_2016"
         ]
       },
-      "preparation": null,
+      "preparation": "frozen",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -1473,8 +1473,8 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "lupin-beans",
-      "food_title": "Lupin Beans",
+      "food_target": "lupins",
+      "food_title": "Lupins",
       "food_material": "Lupins, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -1483,7 +1483,7 @@
       "mapping_status": "verified",
       "food_evidence": [
         {
-          "record": "docs/foods/lupin-beans.md#substance_relationships/Zinc",
+          "record": "docs/foods/lupins.md#substance_relationships/Zinc",
           "evidence": "USDA SR Legacy April 2018",
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
@@ -2073,7 +2073,7 @@
           "miyoshi_cellular_2016"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -3996,7 +3996,7 @@
           "liu_epicatechin_conversion_2020"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -4048,7 +4048,7 @@
           "liu_epicatechin_conversion_2020"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -4164,7 +4164,7 @@
           "liu_epicatechin_conversion_2020"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -4228,7 +4228,7 @@
           "liu_epicatechin_conversion_2020"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -5062,13 +5062,13 @@
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
           "source_reference": "#food-source-8",
           "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-          "preparation": null,
+          "preparation": "salted",
           "record": "docs/foods/salmon-roe.md#nutrition_per_100g/linoleic_g",
           "source_record": "docs/foods/salmon-roe.md#nutrition_source",
           "verified": true,
           "id": "docs/foods/salmon-roe.md#nutrition_per_100g/linoleic_g",
-          "rank_eligible": false,
-          "comparison_group": null,
+          "rank_eligible": true,
+          "comparison_group": "edible::salted",
           "low": 110,
           "high": 110,
           "display": "0.11 g"
@@ -5082,13 +5082,13 @@
           "li_gut_brain_fat_2022"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
         "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
       ],
-      "missing_ontology_edge": "salmon-roe → linoleic-acid [Chum salmon (Oncorhynchus keta), salted roe (ikura); preparation unresolved]"
+      "missing_ontology_edge": "salmon-roe → linoleic-acid [Chum salmon (Oncorhynchus keta), salted roe (ikura); salted]"
     },
     {
       "brs": "BRS5",

@@ -132,7 +132,15 @@ nutrition_supplementary_sources:
   - key: betaine_qual
     label: Betaine
     basis: per 100 g
-    amount_display: 675 mg
+    value: 674.52
+    unit: mg
+    rank_eligible: false
+    exclude_from_recipe_sum: true
+    preparation_state: raw
+    evidence_material: Spinach, raw
+    public_display: table
+    measurement_kind: measured
+    unranked_reason: Source-specific preparation reported separately from the comparable ranking panel.
     citation_mark: asterisk
     source_reference: '#food-source-5'
     source_url: https://doi.org/10.1093/jn/133.5.1302
@@ -149,6 +157,39 @@ nutrition_supplementary_sources:
       Raw spinach. Cooked spinach in the same table is 725 mg per 100 g and is
       not this panel. USDA Release 2 reports 110–130 mg per 100 g for frozen
       spinach.
+  - key: betaine_usda_review01_11463
+    label: Betaine
+    substance_id: betaine
+    value: 120
+    unit: mg
+    basis: per 100 g edible portion
+    original_source_basis: per 100 g food
+    evidence_material: Spinach, frozen, chopped or leaf, unprepared
+    preparation_state: frozen, unprepared
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf
+    source_group: USDA Choline Content of Common Foods Release Two (2008); source-specific observation
+    source_note: >-
+      Single historical analytical dataset; retain sample context. Not a universal concentration. Printed
+      confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not
+      establish national representativeness. Different material from the canonical base nutrient panel. Publish
+      only as a separately labelled supplementary observation, not replacement of the raw/crude panel.
+      Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion
+      yield, brain delivery or clinical effect inferred.
+    material_limitations: >-
+      Single historical analytical dataset; retain sample context. Not a universal concentration. Printed
+      confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not
+      establish national representativeness. Different material from the canonical base nutrient panel. Publish
+      only as a separately labelled supplementary observation, not replacement of the raw/crude panel.
+      Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion
+      yield, brain delivery or clinical effect inferred.
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: author-approved-review-01
+    ndb_id: '11463'
+    source_sample_count: 3
+    source_printed_page: 23
 substance_relationships:
   - substance: Oxalate
     substance_id: oxalate

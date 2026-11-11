@@ -198,7 +198,7 @@
           "weydert_measurement_2010"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -516,7 +516,7 @@
           "weydert_measurement_2010"
         ]
       },
-      "preparation": null,
+      "preparation": "frozen",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -1054,7 +1054,7 @@
           "weydert_measurement_2010"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -1580,7 +1580,7 @@
           "weydert_measurement_2010"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -1944,7 +1944,7 @@
           "weydert_measurement_2010"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -1996,7 +1996,7 @@
           "weydert_measurement_2010"
         ]
       },
-      "preparation": null,
+      "preparation": "frozen",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -2280,8 +2280,8 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
-      "food_target": "lupin-beans",
-      "food_title": "Lupin Beans",
+      "food_target": "lupins",
+      "food_title": "Lupins",
       "food_material": "Lupins, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -2290,7 +2290,7 @@
       "mapping_status": "verified",
       "food_evidence": [
         {
-          "record": "docs/foods/lupin-beans.md#substance_relationships/Zinc",
+          "record": "docs/foods/lupins.md#substance_relationships/Zinc",
           "evidence": "USDA SR Legacy April 2018",
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
@@ -2880,7 +2880,7 @@
           "weydert_measurement_2010"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -3617,7 +3617,7 @@
           "weydert_measurement_2010"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -5310,13 +5310,13 @@
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
           "source_reference": "#food-source-8",
           "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-          "preparation": null,
+          "preparation": "salted",
           "record": "docs/foods/salmon-roe.md#nutrition_per_100g/manganese_mg",
           "source_record": "docs/foods/salmon-roe.md#nutrition_source",
           "verified": true,
           "id": "docs/foods/salmon-roe.md#nutrition_per_100g/manganese_mg",
-          "rank_eligible": false,
-          "comparison_group": null,
+          "rank_eligible": true,
+          "comparison_group": "edible::salted",
           "low": 0.06,
           "high": 0.06,
           "display": "0.06 mg"
@@ -5332,13 +5332,13 @@
           "paynter_manganese_sod_1980"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
         "Human SOD2 requires manganese; dietary depletion experiments measured lower heart and kidney MnSOD activity in rats. This establishes a bounded enzyme-capacity dependency, not a human dose recommendation, universal tissue response, measured net ROS balance or benefit above adequate intake."
       ],
-      "missing_ontology_edge": "salmon-roe → manganese [Chum salmon (Oncorhynchus keta), salted roe (ikura); preparation unresolved]"
+      "missing_ontology_edge": "salmon-roe → manganese [Chum salmon (Oncorhynchus keta), salted roe (ikura); salted]"
     },
     {
       "brs": "BRS3",
@@ -5748,7 +5748,7 @@
           "stangl_iron_enzyme_capacity_1998"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -6164,7 +6164,7 @@
           "stangl_iron_enzyme_capacity_1998"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -6320,7 +6320,7 @@
           "stangl_iron_enzyme_capacity_1998"
         ]
       },
-      "preparation": null,
+      "preparation": "frozen",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -6708,8 +6708,8 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
-      "food_target": "lupin-beans",
-      "food_title": "Lupin Beans",
+      "food_target": "lupins",
+      "food_title": "Lupins",
       "food_material": "Lupins, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -6718,7 +6718,7 @@
       "mapping_status": "verified",
       "food_evidence": [
         {
-          "record": "docs/foods/lupin-beans.md#substance_relationships/Iron",
+          "record": "docs/foods/lupins.md#substance_relationships/Iron",
           "evidence": "USDA SR Legacy April 2018",
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
@@ -7152,7 +7152,7 @@
           "stangl_iron_enzyme_capacity_1998"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -8269,7 +8269,7 @@
           "traber_vitamin_2007"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -8427,7 +8427,7 @@
           "weitzel_selenium_phgpx_1990"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -8739,7 +8739,7 @@
           "weitzel_selenium_phgpx_1990"
         ]
       },
-      "preparation": null,
+      "preparation": "frozen",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -9268,7 +9268,7 @@
           "weitzel_selenium_phgpx_1990"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -10693,7 +10693,7 @@
           "niki_vitamin_2014"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -11594,7 +11594,7 @@
           "niki_vitamin_2014"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -12457,7 +12457,7 @@
           "beutler_riboflavin_gr_1969"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "precursor-source",
       "conversion_pathway": [
         {
@@ -12632,7 +12632,7 @@
           "marcocci_selenium_thioredoxin_1997"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -12944,7 +12944,7 @@
           "marcocci_selenium_thioredoxin_1997"
         ]
       },
-      "preparation": null,
+      "preparation": "frozen",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -13473,7 +13473,7 @@
           "marcocci_selenium_thioredoxin_1997"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -13889,7 +13889,7 @@
           "capo_dha_cytokine_production_2016"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -14253,7 +14253,7 @@
           "capo_dha_cytokine_production_2016"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -14357,7 +14357,7 @@
           "capo_dha_cytokine_production_2016"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -14569,7 +14569,7 @@
           "barden_short-term_2014"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -14947,7 +14947,7 @@
           "barden_short-term_2014"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -15055,7 +15055,7 @@
           "barden_short-term_2014"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -15271,7 +15271,7 @@
           "barden_short-term_2014"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -15649,7 +15649,7 @@
           "barden_short-term_2014"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -15757,7 +15757,7 @@
           "barden_short-term_2014"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [

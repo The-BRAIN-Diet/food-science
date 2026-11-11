@@ -292,11 +292,14 @@ Validators: `validatePublishedPmConnectionExplanations` in
 ## 1. Mission & Overview
 
 ### Mission
-[1–2 lines — biological ambition]
+
+<CanonicalPmMission />
 
 ### Overview
 [~65–75 words — orientation paragraph + normally 3 useful scannable bullets; adapt when evidence does not support all three]
 ```
+
+The visible Mission reads frontmatter `mission` through `CanonicalPmMission`. Import `@site/src/components/CanonicalPmMission`. Do not author a second mission sentence. Historical assessment operation text stays in its own record. See [canonical scientific projections](canonical-scientific-projections.md).
 
 | Subsection | Role | Rules |
 |------------|------|--------|
@@ -325,7 +328,7 @@ Paragraph and bullet claims require readable, claim-local numbered bibliography 
 
 | Field | Maps to | Notes |
 |-------|---------|--------|
-| `mission` | `### Mission` | Required on Profile A PMs |
+| `mission` | `### Mission` | Required on Profile A PMs. This field is the only current mission. Revised MDX pages render it with CanonicalPmMission. |
 | `summary` | Overview opening paragraph | Bullets are body-only |
 
 **Good Mission examples:**
@@ -1519,3 +1522,13 @@ This supersedes earlier lesson-placement amendments above. Place each existing S
 ## Approved independent intervention evidence pathway — 5 November 2026
 
 For SOPs and Lifestyle Levers, a new Scientific Finding is not required when the exact intervention–outcome proposition has independent primary references in the PM bibliography, separately recorded measured effect and PM relevance, full MoA/status, typed limitations and a valid pinned intervention-specific SEC assessment. Admission remains a separate adjudication. The validator must resolve the assessment to this PM and intervention and validate its content/hash; no Finding score may be inherited. Existing Finding links, when supplied, must remain valid. An incomplete independent record fails validation; this exception does not apply to dietary-input substance admission or allow unsupported claims. Author explicitly approved this clarification during release reconciliation. No new public presentation or numerical scoring rule.
+
+
+## Intervention food/substance presentation — author-approved 6 November 2026
+
+Apply [SOP/Lifestyle food–substance joins](sop-lifestyle-six-atom-presentation.md#approved-soplifestyle-foodsubstance-joins--6-november-2026). Stage 2A distinguishes documented composition, tested protocol, biological relationship and unconfirmed mediator; Stage 2B records supported canonical identities and derives the links below intervention titles. These are presentation metadata, not a seventh atom or new admission. Keep all six atoms, preparation/comparator limits and independent SEC provenance; omit unsupported food connections for patterns and behaviours. PM rendering and chord extraction consume one generated mapping, with composition/context edge types rather than inferred efficacy.
+
+
+## Canonical scientific projections — approved 10 November 2026
+
+Apply [Canonical scientific truth and presentation consistency](canonical-scientific-projections.md), including its five scientific, automated, release and publication checkpoints. Current mission comes from PM frontmatter; explanatory prose must not strengthen the canonical science. Preserve authoritative admissions, limitations and SEC history. Report conflicts with provenance instead of selecting the newest text.

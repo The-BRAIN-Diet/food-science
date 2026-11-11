@@ -261,6 +261,7 @@ dietary_input_traceability:
       identity_scope: Canonical arabinan glycan; PM claim remains restricted to the studied pea-fibre preparation.
     substance_id: arabinan
   - atom_id: PM4-DIT-2
+    substance_id: pectin
     dietary_input: true
     dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
     input: Citrus pectin
@@ -273,16 +274,12 @@ dietary_input_traceability:
         - patnode_interspecies_2019
     evidence_limitation: 'Defined-community mouse experiments and glycan assays do not establish equivalence across all pectins, a human intake target or beneficial host outcomes.'
     canonical_identity:
-      status: missing-substance
-      severity: MAJOR
+      status: resolved
+      substance_id: pectin
       intended_identity: Citrus pectin
-      aliases_checked:
-        - Citrus pectin
-      checked_sources:
-        - registry/substances.json
-        - docs/substances/ (label/form/alias search)
-      projection_status: blocked
+      projection_status: qualified
   - atom_id: PM4-DIT-3
+    substance_id: resistant-starch
     dietary_input: true
     dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
     input: Resistant starch (RS2/RS3)
@@ -295,15 +292,10 @@ dietary_input_traceability:
         - ze_resistant_starch_2012
     evidence_limitation: 'Cultures and one donor’s faecal rescue do not establish oral R. bromii efficacy, uniform human processing, equivalence to RS4 or clinical benefit.'
     canonical_identity:
-      status: missing-substance
-      severity: MAJOR
+      status: resolved
+      substance_id: resistant-starch
       intended_identity: Resistant starch (RS2/RS3)
-      aliases_checked:
-        - Resistant starch (RS2/RS3)
-      checked_sources:
-        - registry/substances.json
-        - docs/substances/ (label/form/alias search)
-      projection_status: blocked
+      projection_status: qualified
   - atom_id: PM4-DIT-DEFERRED-1
     input: Inulin
     input_type: substrate
@@ -440,14 +432,17 @@ pending_actions:
     resolved_date: '2026-10-09'
   - action_id: PM4-IDENTITY-2
     severity: MAJOR
-    status: pending
+    status: resolved
     input: Citrus pectin
     pm_id: BRS5-FM2-PM4
     section: 3.1.1
     relationship_type: pm-specific-input
     aliases_checked:
       - Citrus pectin
+      - Pectin
     action: Resolve the precise substance/form or experimental preparation/strain through canonical registration and page identity repair; preserve this scientific decision while blocking unreliable projections. Then assess source-backed food composition and approved source records separately; do not fabricate food rankings.
+    resolved_date: '2026-11-09'
+    resolution: The registry and substance page resolve citrus pectin to pectin. Only qualified citrus composition records project here. Verified registry and page aliases include Citrus pectin and Pectin. Orange and lemon tissue records document occurrence only; whole citrus fruit and apple pectin are distinct from the experimental preparation. See /docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin.
   - action_id: PM4-IDENTITY-3
     severity: MAJOR
     status: pending

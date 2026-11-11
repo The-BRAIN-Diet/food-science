@@ -1227,6 +1227,11 @@ Peanuts:
   permalink: /peanuts
   description: Legume rich in protein and resveratrol
 
+Pears:
+  label: Pears
+  permalink: /pears
+  description: Whole fruit providing fibre, natural sugars and pectin
+
 Peas:
   label: Peas
   permalink: /peas
@@ -1723,6 +1728,11 @@ Acetate:
   label: Acetate
   permalink: /acetate
   description: Short-chain fatty acid (SCFA)
+
+Acetic Acid:
+  label: Acetic Acid
+  permalink: /acetic-acid
+  description: Characteristic acid of vinegar, distinct from microbial acetate.
 
 Butyrate:
   label: Butyrate

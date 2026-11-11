@@ -19,6 +19,7 @@ tags:
 list_image: /img/foods/beef/beef_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
+  tyrosine_g: 0.572
   vitamin_d_ug: 0.1
   calcium_mg: 15
   potassium_mg: 295
@@ -74,6 +75,21 @@ nutrition_source:
   last_checked: '2026-08-15'
   source_reference: '#food-source-6'
 nutrition_supplementary_sources:
+  - key: glutamine_lenders
+    label: Glutamine
+    substance_id: glutamine
+    public_display: table
+    evidence_status: supported
+    evidence_material: Beef protein fractions
+    preparation_state: form not known
+    chemical_form: protein-bound glutamine residues
+    citation_mark: asterisk
+    source_reference: /docs/papers/BRAIN-Diet-References#lenders_amino_acid_sequencing_2009
+    source_url: https://doi.org/10.1038/ejcn.2009.110
+    source_note: Lenders et al. (2009), Table 2. Food-specific protein fractions weighted by their amino-acid sequences. Lenders Table 2 estimated 1.231 g protein-bound glutamine per 100 g of its beef reference (25.9 g protein). Cut and preparation were unspecified. The canonical ground-beef panel contains 18.59 g protein per 100 g. Its glutamine quantity remains unresolved.
+    notes: Lenders Table 2 estimated 1.231 g protein-bound glutamine per 100 g of its beef reference (25.9 g protein). Cut and preparation were unspecified. The canonical ground-beef panel contains 18.59 g protein per 100 g. Its glutamine quantity remains unresolved.
+    status: Present — quantity not established
+    presence_status: presence_supported_amount_unavailable
   - key: creatine_mg
     label: Creatine
     notes: >-
@@ -136,10 +152,52 @@ nutrition_supplementary_sources:
     unit: mg
     quantity_citation_pending: true
     source_reference: '#food-source-5'
+  - key: glycine_usda_review01_171796
+    label: Glycine
+    substance_id: glycine
+    value: 1.262
+    unit: g
+    basis: per 100 g edible portion
+    original_source_basis: per 100 g edible portion
+    evidence_material: Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)
+    preparation_state: Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)
+    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
+    source_group: USDA SR Legacy April 2018; source-specific database value
+    source_note: >-
+      Analytical data; derived by linear regression data_points=0; sample count not reported, not evidence of
+      zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or
+      dry-matter concentration. No digestibility or clinical inference. USDA derivation AR: Analytical data;
+      derived by linear regression Author-approved source attribution, 9 November 2026. Food composition only;
+      no digestibility, conversion yield, brain delivery or clinical effect inferred.
+    material_limitations: >-
+      Analytical data; derived by linear regression data_points=0; sample count not reported, not evidence of
+      zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or
+      dry-matter concentration. No digestibility or clinical inference. USDA derivation AR: Analytical data;
+      derived by linear regression Author-approved source attribution, 9 November 2026. Food composition only;
+      no digestibility, conversion yield, brain delivery or clinical effect inferred.
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: author-approved-review-01
+    fdc_id: 171796
+    food_nutrient_id: 1641442
+    source_derivation_id: AR
+    source_data_points: 0
 main_image: /img/foods/beef/beef_medium.webp
 legacy_list_image: /img/foods/beef/beef_thumb.webp
 legacy_main_image: /img/foods/beef/beef_medium.webp
 substance_relationships:
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)"
+    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
+    description: "USDA reports 572 mg tyrosine per 100 g edible portion of the specified food."
+    material_limitations: "USDA SR Legacy (April 2018), food-nutrient row 1641439, nutrient 1218; Analytical data; derived by linear regression. Data points: 0. Exact database food: Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program). Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
   - substance: Phosphorus
     relationship: contains
     description: >-
@@ -288,6 +346,7 @@ substance_relationships:
     source_reference: '#food-source-5'
   - substance: Glutamine
     substance_id: glutamine
+    requires_supplementary_key: glutamine_lenders
     relationship: contains
     evidence_status: supported
     evidence_material: Beef protein fractions
@@ -295,7 +354,7 @@ substance_relationships:
     source_url: https://doi.org/10.1038/ejcn.2009.110
     citation_keys:
       - lenders_amino_acid_sequencing_2009
-    evidence_source: 'Lenders et al. (2009), Table 1: protein-sequence-based occurrence.'
+    evidence_source: 'Lenders et al. (2009), Table 2: food-specific protein-sequence model.'
     material_limitations: Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.
     food_delivery_notes: Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.
     chemical_form: protein-bound glutamine residues
@@ -315,6 +374,7 @@ substance_relationships:
 substance_review_candidates: []
 nutrition_value_reviews:
   - title: 'Creatine amount: citation attachment pending'
+    substance_id: creatine
     section: Bioactive compounds
     correction_status: pending
     description: >
@@ -328,6 +388,7 @@ nutrition_value_reviews:
       preparation and denominator. Presence citations do not independently
       verify this amount.
   - title: 'CoQ10 amount: preparation and citation check pending'
+    substance_id: coq10
     section: Bioactive compounds
     correction_status: pending
     description: >-

@@ -61,3 +61,9 @@ The apple-pectin work redirected microbial tryptophan processing through cross-f
 [2] Patnode et al. (2019). [Interspecies Competition Impacts Targeted Manipulation of Human Gut Bacteria by Fiber-Derived Glycans](/docs/papers/BRAIN-Diet-References#patnode_interspecies_2019). Studied citrus pectin supplied glycans whose use depended on microbial machinery and competition. Defined-community experiments, not a human intake target.
 
 [3] Pascale et al. (2022). [The Potential of Pectins to Modulate the Human Gut Microbiota Evaluated by In Vitro Fermentation: A Systematic Review](/docs/papers/BRAIN-Diet-References#pascale_potential_2022). Human-microbiota cultures ferment pectin to short-chain fatty acids. Products depend on pectin structure and donor community. Not a demonstrated human brain or clinical benefit.
+
+## Apple pectin (studied preparation) {#apple-pectin-sinha-2024}
+
+No equivalence to whole apples, all pectin or all fibre; no human intake recommendation or brain neurotransmitter benefit. [Original study](/docs/papers/BRAIN-Diet-References#sinha_dietary_2024).
+
+This identity denotes the source-specific studied material. Manufacturer, batch, formulation proportions and analytical specifications must not be inferred from its name; details not established in the retained record remain unspecified. Sharing this documentation page does not make the material equivalent to the parent substance or its ordinary food sources.

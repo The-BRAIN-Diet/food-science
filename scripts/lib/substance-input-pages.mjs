@@ -50,6 +50,15 @@ export function readRegisteredSubstanceForms(root = ROOT) {
         !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(entry.page_anchor || "")) {
       throw new Error(`Invalid registered nutrient form: ${id}`);
     }
+    if (entry.identity_type === "microbial-strain" &&
+        (!entry.taxonomic_parent_id || registry[entry.taxonomic_parent_id]?.identity_type !== "microbial-species")) {
+      throw new Error(`Invalid strain taxonomic parent: ${id}`);
+    }
+    if (entry.identity_type === "defined-mixture" &&
+        (!Array.isArray(entry.constituent_ids) || entry.constituent_ids.length < 2 ||
+         entry.constituent_ids.some(child => !registry[child] || child === id))) {
+      throw new Error(`Invalid mixture constituents: ${id}`);
+    }
     const file = `docs/substances/${parent.path}`;
     const full = path.join(root, file);
     const document = fs.existsSync(full) ? matter(fs.readFileSync(full, "utf8")) : null;
@@ -59,6 +68,8 @@ export function readRegisteredSubstanceForms(root = ROOT) {
       [...anchors].filter(match => match[1] === entry.page_anchor).length === 1;
     forms.set(id, {
       id, title: entry.title, aliases: entry.aliases || [],
+      identity_type: entry.identity_type || "nutrient-form", network_activation: entry.network_activation || null,
+      taxonomic_parent_id: entry.taxonomic_parent_id || null, constituent_ids: entry.constituent_ids || [],
       parent_substance_id: entry.parent_substance_id,
       file, documented,
       href: documented ? `/docs/substances/${parent.path.replace(/\.mdx?$/, "")}#${entry.page_anchor}` : null,
@@ -95,7 +106,7 @@ export function buildSubstanceInputPages(root = ROOT) {
   }
 
   for (const form of readRegisteredSubstanceForms(root).values()) {
-    if (!form.href) continue;
+    if (!form.href || form.network_activation === "held") continue;
     for (const name of [form.id.replace(/-/g, " "), form.title, ...form.aliases]) add(name, form.href);
   }
 

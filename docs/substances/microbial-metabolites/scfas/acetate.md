@@ -19,7 +19,7 @@ inchi_image: /img/inchi/QTBSBXVTEAMEQO-UHFFFAOYSA-M.png
 
 ## Overview
 
-Acetate is a short-chain fatty acid produced during microbial fermentation of dietary fibre and resistant starch. This page distinguishes the metabolite from the dietary substrates supporting its formation. SCFA research provides a biological context for gut–brain communication, but findings for the class are not automatically findings for acetate alone [1].
+Acetate is a short-chain fatty acid produced during microbial fermentation of dietary fibre and resistant starch. This page distinguishes the metabolite from the dietary substrates supporting its formation. Dietary vinegar acetic acid is a separate food constituent, recorded on [Acetic acid](/docs/substances/bioactive-compounds/acetic-acid). SCFA research provides a biological context for gut–brain communication, but findings for the class are not automatically findings for acetate alone [1].
 
 An observational study reported lower faecal acetic acid in children and adolescents with ADHD than in controls [2]. This is a measured association, not evidence that low acetate causes ADHD or that increasing it treats symptoms. It also does not measure acetate exposure in the brain.
 
