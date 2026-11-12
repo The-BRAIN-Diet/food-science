@@ -1,0 +1,81 @@
+{
+  "records": {
+    "BRS5-FM1-PM2::PM2-DIT-2": {
+      "before": "921f8cfd0c8c9e88beb3e5896abb2f04d3ccc37365d0ec1f000f82aa924a83d2",
+      "after": "9270a227f966ae0a775e807e7378cdd38d887b2e424d8edeea08a78c4bcf1135",
+      "substance_id": "resistant-starch-type-2-zhang-2020",
+      "authority": "Author EXEC: complete exact child-ID mapping, preserve existing admissions; 9 November 2026",
+      "scope": "Identity fields only; baseline and scientific record unchanged."
+    },
+    "BRS5-FM1-PM3::PM3-DIT-1": {
+      "before": "bccdb3d8d29828d5ca6bf7919ed1a9b77aab109a7e47ca1f587085a1a9e242dd",
+      "after": "3420e1ecaf44d98cb3ca427bbeb947d0fb08924ad2934bcffe22d5df3b9e9e54",
+      "substance_id": "oligofructose-enriched-inulin-schroeder-2018",
+      "authority": "Author EXEC: complete exact child-ID mapping, preserve existing admissions; 9 November 2026",
+      "scope": "Identity fields only; baseline and scientific record unchanged."
+    },
+    "BRS5-FM1-PM3::PM3-DIT-2": {
+      "before": "607e660475d4da234367d20f52c27b178169cf60d95b06f9f8c805fb75c63edd",
+      "after": "8fceb2fcff00e4f18cd325a4066265fa1f62e9c0d194276a2eac605846169c3d",
+      "substance_id": "bifidobacterium-longum-ncc2705",
+      "authority": "Author EXEC: complete exact child-ID mapping, preserve existing admissions; 9 November 2026",
+      "scope": "Identity fields only; baseline and scientific record unchanged."
+    },
+    "BRS5-FM3-PM7::PM7-DIT-1": {
+      "before": "8e217a7212540be1bf1d45326f2cfeb5e0dae32a6920d17049465dbec0501483",
+      "after": "00deaf7536af892152ce58006585af55592277ab7a52e4ef12c8ca6018676740",
+      "substance_id": "lacticaseibacillus-rhamnosus-jb-1",
+      "authority": "Author EXEC: complete exact child-ID mapping, preserve existing admissions; 9 November 2026",
+      "scope": "Identity fields only; baseline and scientific record unchanged."
+    },
+    "BRS5-FM3-PM8::PM8-DIT-2": {
+      "before": "a428fa96fa7f2af64af8aa64fd318233a2b9821bbd9247356749dd584e767a0a",
+      "after": "7c4e21e8334cec3455b6a0dd2e59fdff7d8418872211c86b61377ed3f9321d77",
+      "substance_id": "apple-pectin-sinha-2024",
+      "authority": "Author EXEC: complete exact child-ID mapping, preserve existing admissions; 9 November 2026",
+      "scope": "Identity fields only; baseline and scientific record unchanged."
+    },
+    "BRS2-FM1-PM4::PM4-DIT-2": {
+      "before": "2b4e0f58a4dd72e87df7c047cfd6ac9d5954ec3da5892c507d5a83e704f6e933",
+      "after": "6c9aa04c025fba2e12dfde623692cf212e4d5cd6618f2c0f1743ad9fdd0c4617",
+      "source_atom_id": "BRS2-FM1-PM4::PM4-DIT-2",
+      "authority": "Author EXEC Resolve Four Non-Substance Dietary Input Representations; 9 November 2026",
+      "scope": "Typed identity only; no admissions or conversion completion."
+    },
+    "BRS5-FM1-PM1::PM1-DIT-2": {
+      "before": "3223edf99872b73b28ba35a0762f7043cb2f444f50d0dd6f2838a810e7d92139",
+      "after": "9c3d3de83e85317e0a5235eb71cc9bc5c5a4e4319369c625e371db8967908cfb",
+      "source_atom_id": "BRS5-FM1-PM1::PM1-DIT-2",
+      "authority": "Author EXEC Resolve Four Non-Substance Dietary Input Representations; 9 November 2026",
+      "scope": "Typed identity only; no admissions or conversion completion."
+    },
+    "BRS5-FM1-PM2::PM2-DIT-3": {
+      "before": "80f20f46caaef74f789592bf4195567b336d41a186fbae75265fd8320dc6456a",
+      "after": "9a327a73ccf6e842fedbecf5ba947ef2903e1633c2e223dbe72353ac7c121350",
+      "source_atom_id": "BRS5-FM1-PM2::PM2-DIT-3",
+      "authority": "Author EXEC Resolve Four Non-Substance Dietary Input Representations; 9 November 2026",
+      "scope": "Typed identity only; no admissions or conversion completion."
+    },
+    "BRS5-FM1-PM2::PM2-DIT-4": {
+      "before": "35a70f4d317a238470fe44c8e936f84fd047a7821dcf03df7c3296138a3f20ac",
+      "after": "9019f2b2f62f4f8028cac32be75e069dd2063a4e6f92b897fd9b6b55920ca259",
+      "source_atom_id": "BRS5-FM1-PM2::PM2-DIT-4",
+      "authority": "Author EXEC Resolve Four Non-Substance Dietary Input Representations; 9 November 2026",
+      "scope": "Typed identity only; no admissions or conversion completion."
+    },
+    "BRS5-FM2-PM4::PM4-DIT-3": {
+      "before": "06c87b830035a2810e5a49e55596f0cf08cd501e9048ebddd7655f92b7734a3a",
+      "after": "5dd40c233a9914a311f68258570c70ac9c4bcf094596d27c84c720acf71beb2e",
+      "substance_id": "resistant-starch",
+      "authority": "Author instruction 9 November 2026: correct PM4 stale resistant-starch hold; preserve subtype, preparation and existing admission.",
+      "scope": "Identity/projection reconciliation only. No scientific proposition, SEC, admission or baseline alteration."
+    },
+    "BRS5-FM2-PM4::PM4-DIT-2": {
+      "before": "b3ebbf52f7c0b736ff439cc008061356a7809aa494c317672791a97618021914",
+      "after": "d1c0338e6107c6bf7065c1b0682e793d18ee3e8fac9f7b6c9bd6e630da5493c8",
+      "substance_id": "pectin",
+      "authority": "Author instruction 9 November 2026: reconcile Cursor pear/lemon/orange pectin records into eligible PM links, preserving qualifications.",
+      "scope": "Identity repair; citrus-only provision. Existing admission, SEC and experimental boundaries unchanged. The 12 November qualification keeps the same pectin identity: the studied preparation is not whole orange or lemon, and it is not the apple-pectin record."
+    }
+  }
+}
