@@ -12,6 +12,12 @@ data.release={date:'2026-11-09',source_head:snapshot.approved_source_baseline,so
 const svg=renderFoodWheel(data,fs.readFileSync('scripts/templates/food-wheel-substance-layout.svg','utf8'));
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let shell=split[0].replace(/<svg[\s\S]*?<\/svg>/,()=>svg).replace(/(<select id="foodSearch"[^>]*>)[\s\S]*?<\/select>/,(_,start)=>start+'<option value="">Select food…</option>'+[...svg.matchAll(/<g class="food" data-food="([^"]+)"/g)].map(m=>data.foods.find(f=>f.id===m[1])).map(f=>`<option value="${esc(f.id)}">${esc(f.title)} · ${f.targets} qualified pairs</option>`).join('')+'</select>').replaceAll('up to five per target','up to ten per target');
+const viewLinks='<a href="../pm-explorer/">PM Explorer</a> · <a href="../food-intelligence/">Food Intelligence</a> · <a href="/preview/recipe-brs-matrix/">Recipe BRS Matrix</a> · ';
+const scopeLink='<a href="about.html">Scope &amp; evidence</a>';
+if(!shell.includes('>PM Explorer</a>')){
+  assert.ok(shell.includes(scopeLink),'Food Wheel scope link missing');
+  shell=shell.replace(scopeLink,viewLinks+scopeLink);
+}
 const result=shell+'<script>const DATA='+JSON.stringify(data).replaceAll('<','\\u003c')+split[1].slice(mark).replaceAll('maximum five per target','maximum ten per target');assert.doesNotMatch(result,/\/Users\/|localhost|127\.0\.0\.1|canonical_composition/);fs.writeFileSync(output+'index.html',result);fs.writeFileSync(output+'food-wheel.svg',svg);
 fs.writeFileSync(output+'MULTI-TARGET-FOODS.md','# Qualified target coverage\n\nDistinct PM–substance connections, not clinical efficacy.\n\n|Food|Qualified targets|\n|---|---:|\n'+data.foods.map(f=>'|'+f.title+'|'+f.targets+'|').join('\n')+'\n');
 fs.writeFileSync(output+'TOP-FOODS.md','# Shared PM/Wheel ranked sources\n\nSnapshot: '+snapshot.snapshot_id+'\n\nProvisional source power ≥10%; up to ten; no padding. Original quantities, states and sources retained.\n\n|PM|Substance|Food|Rank|Power (%)|Original quantity|Preparation|Source|\n|---|---|---|---:|---:|---|---|---|\n'+selected.map(e=>{const o=e.ranking_observation;return '|'+[e.pm_id,e.substance_id,e.food_id,e.rank,e.relative_power,`${o.value} ${o.unit} ${o.basis}`,o.preparation,o.source_url||o.record].map(x=>String(x??'').replaceAll('|','\\|')).join('|')+'|';}).join('\n')+'\n');
