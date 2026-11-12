@@ -43,3 +43,5 @@ No ranking, food-composition, scientific-admission or release authorisation is c
 ## PM food-source dropdown repair — 11 November 2026
 
 Author instruction: restore `Plant-based -` and `Animal-based -`, then “we don't need this unranked heading, remove it from the template.” The shared dropdown does not prefix categories with `Ranked sources ·` and does not render `Documented, unranked sources`. The category column grid applies only to a summary that contains the category label, so an empty ranked row stays on the available line. Representative page: BRS1-FM5-PM12. No ranking, food-record or admission change.
+
+Author instruction, 12 November 2026: `edible portion` is not a public basis label, and `Measurement provenance` is not shown on any PM. Preparations such as `cooked` stay. Stored analytical bases are unchanged.

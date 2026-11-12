@@ -95,13 +95,17 @@ export function selectFoodDisclosureSources(sources: any[]): any[] {
     const presenceFoods = new Set(presence.slice(0, Math.max(0, 5 - selectedOrdinary.length - measurements.length)).map(item => item.food_id));
     return [...selectedOrdinary, ...measurements, ...presence.filter(item => presenceFoods.has(item.food_id))];
 }
+/** Public label only. Stored bases keep their analytical wording for comparison. */
+function publicFoodBasis(basis: string): string {
+    return basis.replace(/\s+edible portion\b/gi, '').replace(/[ \t]{2,}/g, ' ').trim();
+}
 function formatFoodAmount(source: any): string {
     const obs = (source.observations || [])[0];
     if (obs?.verified !== true || !obs?.display) return 'value not known';
     if (source.projection_kind === 'constituent-composition' && source.aggregate_composition) {
         return `${formatAggregateSumForDropdown(source.aggregate_composition.eaa_g)} g per 100 g`;
     }
-    const basis = String(obs.basis || '').trim();
+    const basis = publicFoodBasis(String(obs.basis || '').trim());
     if (analyticalQualification(obs)) return `${esc(obs.display)} (${esc(basis || 'measurement basis not established')})`;
     return `${esc(obs.display)}${/per\s*100\s*g/i.test(basis) ? ' per 100 g' : basis ? ` (${esc(basis)})` : ' (measurement basis not established)'}`;
 }
@@ -142,11 +146,8 @@ export function renderFoodSourceItem(source: any): string {
     const reference = sourceReference(source, obs);
     return `<a href="${esc(source.food_page)}">${esc(source.food_title)}</a><span class="pm-input-food-source-meta${qualityClass}"${qualityAttrs}> — ${formatFoodAmount(source)} · ${formatFoodPrep(source)}</span>${detail || comparison || reference ? `<details class="pm-input-food-analytical-detail"><summary>Source qualifications</summary><p>${detail}${reference}${comparison}</p></details>` : ''}`;
 }
-export function renderProvenance(source: any): string {
-    const obs = source.observations[0];
-    if (hasCompactFoodMeasurement(obs)) return '';
-    if (!obs || !analyticalQualification(obs) || !obs.source_note) return '';
-    return `<details><summary>Measurement provenance</summary><p>${esc(obs.source_note)}</p>${obs.source_url && /^https?:\/\//.test(obs.source_url) ? `<a href="${esc(obs.source_url)}">Original source</a>` : ''}</details>`;
+export function renderProvenance(_source: any): string {
+    return '';
 }
 function updateFoodArrow(details: HTMLDetailsElement) {
     const arrow = details.querySelector<HTMLElement>('.pm-input-food-source-arrow');
@@ -241,7 +242,7 @@ export function renderDocumentedFoodSources(sources: any[]): string {
     if (!sources.length) return '';
     const items = sources.map(source => {
         const observation = source.observations?.[0];
-        const measuredLabel = observation ? `${source.measurement_kind === 'estimated' ? 'Sequence-derived estimate' : source.measurement_kind === 'calculated' ? 'Calculated from measurements' : 'Measured'} — not ranked: ${observation.range ? observation.range.join('–') : observation.value} ${observation.unit} ${observation.basis} · ${observation.unranked_reason}` : null;
+        const measuredLabel = observation ? `${source.measurement_kind === 'estimated' ? 'Sequence-derived estimate' : source.measurement_kind === 'calculated' ? 'Calculated from measurements' : 'Measured'} — not ranked: ${observation.range ? observation.range.join('–') : observation.value} ${observation.unit} ${publicFoodBasis(String(observation.basis || ''))} · ${observation.unranked_reason}` : null;
         const notes = [...new Set([source.mapping_status === 'research-supported-provisional' ? 'Research-supported provisional food mapping; source-specific observation retained without asserting material equivalence.' : null, observation?.source_note, observation?.limitations, observation?.original_observation, observation?.calculation, source.chemical_form, source.material, source.food_delivery_notes,
             source.preparation_effects, source.absorption_evidence, ...(source.qualification || []),
             ...source.presence_records.flatMap((p:any) => [p.public_note, p.limitations, p.evidence, p.source_note])]
