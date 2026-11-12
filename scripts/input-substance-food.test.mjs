@@ -608,14 +608,15 @@ test('C1 end-to-end: disposable canonical fixtures → BRS4 JSON → qualified P
   assert.ok(item);
   const obs=item.observations[0],html=mod.exports.renderFoodSourceItem(item);
   assert.equal(obs.unit,'mg');assert.equal(obs.preparation,'unknown');
-  assert.ok(html.includes(value+' mg ('+obs.basis+')'));
+  assert.ok(html.includes(value+' mg ('+obs.basis.replace(/\s+edible portion\b/gi,'').trim()+')'));
+  assert.doesNotMatch(html,/edible portion|Measurement provenance/);
   assert.ok(html.includes('Studied material: '+obs.material));
   assert.ok(html.includes('unknown'));
   assert.ok(html.includes(obs.public_note));
   assert.ok(html.includes(item.food_page+obs.source_reference));
   assert.ok(html.includes('no concentration ranking'));
-  assert.ok(renderProvenance(item).includes(obs.source_url));
-  assert.ok(renderProvenance(item).includes('heated acid extraction at 121 °C'));
+  assert.equal(renderProvenance(item),'');
+  assert.match(obs.source_note || '', /heated acid extraction at 121 °C/);
  }
  const held=selected.find(f=>f.observations[0].key==='e2e-held');
  assert.equal(held.observations[0].verified,false);
