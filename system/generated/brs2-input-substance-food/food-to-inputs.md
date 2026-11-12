@@ -35,6 +35,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Cheddar Cheese | 8 | zinc; vitamin-b12; potassium; vitamin-b6; vitamin-b2; vitamin-b9; magnesium; choline | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Cherries | 7 | choline; potassium; zinc; vitamin-b6; vitamin-b2; vitamin-b9; magnesium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Chia Seeds | 5 | magnesium; vitamin-b2; vitamin-b9; potassium; zinc | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
+| Chicken Liver | 8 | vitamin-b12; vitamin-b9; vitamin-b2; choline; magnesium; potassium; zinc; vitamin-b6 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Chicken | 11 | methionine; cysteine; zinc; vitamin-b12; vitamin-b6; choline; magnesium; vitamin-b2; vitamin-b9; potassium; glycine | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1); BRS2(KC2) |
 | Chickpeas | 7 | magnesium; potassium; zinc; vitamin-b6; vitamin-b9; choline; vitamin-b2 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Chicory Root | 5 | vitamin-b6; vitamin-b9; zinc; magnesium; potassium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |

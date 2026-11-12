@@ -1477,7 +1477,7 @@ PM1 is the initial presentation pilot. Its egg comparison is “Cooked versus ra
 
 ## Mandatory author approval for presentation changes
 
-Follow [presentation-change-control.md](presentation-change-control.md). Scientific data integration does not authorise public presentation. New substantive blocks require a proposal, representative rendered example, page-type/count scope, updated contract and explicit prior author approval. Run `npm run presentation:check`; never regenerate the baseline or invent an approval to bypass a failure. Both Dietary pathways technical panels are withdrawn across all page types; preserve their data without public projection. This rule supersedes earlier instructions permitting automatic pathway displays.
+Follow [presentation-change-control.md](presentation-change-control.md). Scientific data integration does not authorise public presentation. New substantive blocks require a proposal, representative rendered example, page-type/count scope, updated contract and explicit prior author approval. The presentation build gate is off by owner instruction on 12 November 2026: do not switch it back on, regenerate the baseline, or invent an approval. Both Dietary pathways technical panels are withdrawn across all page types; preserve their data without public projection. This rule supersedes earlier instructions permitting automatic pathway displays.
 
 ## Dietary-first editorial placement — approved 2 November 2026
 

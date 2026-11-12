@@ -17,6 +17,7 @@ tags:
   - Copper
   - Phosphorus
   - Polyphenol
+  - Ellagitannins
 list_image: /img/foods/walnuts/walnuts_thumb.webp
 nutrition_per_100g:
   calcium_mg: 98
@@ -79,22 +80,21 @@ nutrition_supplementary_sources:
     public_note: This value uses a documented composition interpretation.
     source_group: This value uses a documented composition interpretation.
   - key: walnut_polyphenols_proxy
-    label: Ellagitannins / total polyphenols
-    amount_display: High among tree nuts (varies by batch)
-    notes: >-
-      Ellagitannins feed gut-derived urolithins (e.g. urolithin A) in
-      responders; assays differ (GAE/TEAC).
-    source_note: >-
-      Qualitative ranking with high batch/cultivar variance; not a USDA standard
-      nutrient row. Use for framework context, not precise comparison across
-      studies.
+    label: Ellagitannins
     status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_url: https://doi.org/10.1016/j.foodchem.2013.11.158
+    evidence_material: Walnut kernels
+    preparation_state: Kernels
+    public_display: table
+    source_note: >-
+      Regueiro et al. (2014) identified ellagitannins among the major polyphenols
+      of walnut kernels by LC–Orbitrap mass spectrometry. Presence only; this is
+      not an amount, not free ellagic acid, and not a Urolithin A exposure.
+    source_group: Regueiro et al. 2014
+    notes: Kernel assay. Not free ellagic acid and not a Urolithin A amount.
     public_note: >-
-      Qualitative ranking with high batch/cultivar variance; not a USDA standard
-      nutrient row.
-    source_group: >-
-      Qualitative ranking with high batch/cultivar variance; not a USDA standard
-      nutrient row.
+      Presence in kernels. Quantity not established. Not a Urolithin A amount.
 nutrition_functional_metrics:
   - key: total_polyphenols_walnut
     label: Total polyphenols (Folin proxy)
@@ -180,7 +180,7 @@ substance_relationships:
     presence_status: presence_supported_amount_unavailable
     evidence_source: "Regueiro et al., Food Chemistry 2014"
     evidence_material: "Walnut kernels"
-    preparation_state: "Walnut kernels; assay-specific extraction"
+    preparation_state: "Kernels"
     source_url: "https://doi.org/10.1016/j.foodchem.2013.11.158"
     material_limitations: "Assay-specific extraction of kernels. Peeled kernel without the pellicle is a different material. This is not an amount, not free ellagic acid, and not a urolithin A exposure."
 substance_review_candidates: []

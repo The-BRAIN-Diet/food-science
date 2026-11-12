@@ -385,6 +385,15 @@
       ]
     },
     {
+      "id": "food-strategy-abe6da411a78",
+      "title": "Early time-restricted eating (8 am–2 pm)",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS6-FM2-PM4::PM4-SOP-2"
+      ]
+    },
+    {
       "id": "food-strategy-07783aa4511c",
       "title": "EPA+DHA supplementation (studied combined formulation)",
       "scope": "supplementation",
@@ -1598,8 +1607,33 @@
           "scheer_2009_19255424"
         ]
       },
-      "limitation": "Restoring every abnormal rhythm and the separate contribution of each cue were not tested.",
+      "limitation": "The evidence shows that a twelve-hour misalignment disrupts cortisol timing. Restoring an already abnormal rhythm, ordinary schedule variation and the separate contribution of each cue were not tested.",
       "source_record": "docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx#system_optimisation_practices/PM4-SOP-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM2-PM4::PM4-SOP-2",
+      "strategy_id": "food-strategy-abe6da411a78",
+      "brs": "BRS6",
+      "fm": "BRS6(FM2)",
+      "pm": "BRS6-FM2-PM4",
+      "pm_page": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation",
+      "input": "Early time-restricted eating (8 am–2 pm)",
+      "input_type": "dietary timing protocol",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "Four days of eating between 8 am and 2 pm lowered evening cortisol compared with a 12-hour window at the same energy intake.",
+      "evidence": {
+        "finding_ids": [
+          "PM4-F4"
+        ],
+        "citation_keys": [
+          "stage2-ref-jamshed"
+        ]
+      },
+      "limitation": "One four-day crossover trial in eleven adults with overweight, with two cortisol samples per day. Window length and timing were coupled, and rhythm phase was not measured.",
+      "source_record": "docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx#system_optimisation_practices/PM4-SOP-2",
       "food_ids": [],
       "substance_ids": []
     },
@@ -1854,6 +1888,11 @@
     },
     {
       "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM2-PM4::PM4-SOP-2",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
       "relationship_id": "BRS6-FM4-PM9::PM9-SOP-1",
       "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
     },
@@ -1863,8 +1902,8 @@
     }
   ],
   "summary": {
-    "strategies": 45,
-    "relationships": 49,
+    "strategies": 46,
+    "relationships": 50,
     "pms": 27,
     "brs": [
       "BRS1",
@@ -3269,6 +3308,13 @@
           "kind": "food",
           "title": "Chia Seeds",
           "href": "/docs/foods/chia-seeds",
+          "aliases": []
+        },
+        {
+          "id": "chicken-liver",
+          "kind": "food",
+          "title": "Chicken Liver",
+          "href": "/docs/foods/chicken-liver",
           "aliases": []
         },
         {
@@ -7224,6 +7270,132 @@
               "evidence_material": "Seeds, chia seeds, dried",
               "source_url": "https://fdc.nal.usda.gov/food-details/170554/nutrients",
               "presence_status": "presence_and_amount_supported"
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "chicken-liver",
+          "substance_id": "vitamin-a",
+          "provenance": {
+            "file": "docs/foods/chicken-liver.md",
+            "relationship": {
+              "substance": "Vitamin A",
+              "relationship": "contains",
+              "description": "USDA FoodData Central reports 3,296 µg RAE vitamin A per 100 g in Chicken, liver, all classes, raw (FDC 171060), of which 3,290 µg is retinol and 56 µg is beta-carotene.",
+              "evidence_status": "supported",
+              "evidence_source": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "evidence_material": "Chicken, liver, all classes, raw",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "presence_status": "presence_and_amount_supported",
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ]
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "chicken-liver",
+          "substance_id": "vitamin-b12",
+          "provenance": {
+            "file": "docs/foods/chicken-liver.md",
+            "relationship": {
+              "substance": "Vitamin B12",
+              "relationship": "contains",
+              "description": "USDA FoodData Central reports 16.58 µg vitamin B12 per 100 g in Chicken, liver, all classes, raw (FDC 171060).",
+              "evidence_status": "supported",
+              "evidence_source": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "evidence_material": "Chicken, liver, all classes, raw",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "presence_status": "presence_and_amount_supported",
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ]
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "chicken-liver",
+          "substance_id": "vitamin-b9",
+          "provenance": {
+            "file": "docs/foods/chicken-liver.md",
+            "relationship": {
+              "substance": "Vitamin B9",
+              "relationship": "contains",
+              "description": "USDA FoodData Central reports 588 µg folate per 100 g in Chicken, liver, all classes, raw (FDC 171060). The recorded analyte is folate.",
+              "evidence_status": "supported",
+              "evidence_source": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "evidence_material": "Chicken, liver, all classes, raw",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "presence_status": "presence_and_amount_supported",
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ]
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "chicken-liver",
+          "substance_id": "vitamin-b2",
+          "provenance": {
+            "file": "docs/foods/chicken-liver.md",
+            "relationship": {
+              "substance": "Vitamin B2",
+              "relationship": "contains",
+              "description": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060).",
+              "evidence_status": "supported",
+              "evidence_source": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "evidence_material": "Chicken, liver, all classes, raw",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "presence_status": "presence_and_amount_supported",
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ]
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "chicken-liver",
+          "substance_id": "iron",
+          "provenance": {
+            "file": "docs/foods/chicken-liver.md",
+            "relationship": {
+              "substance": "Iron",
+              "relationship": "contains",
+              "description": "USDA FoodData Central reports 8.99 mg iron per 100 g in Chicken, liver, all classes, raw (FDC 171060).",
+              "evidence_status": "supported",
+              "evidence_source": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "evidence_material": "Chicken, liver, all classes, raw",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "presence_status": "presence_and_amount_supported",
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ]
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "chicken-liver",
+          "substance_id": "choline",
+          "provenance": {
+            "file": "docs/foods/chicken-liver.md",
+            "relationship": {
+              "substance": "Choline",
+              "relationship": "contains",
+              "description": "USDA FoodData Central reports 194.4 mg choline per 100 g in Chicken, liver, all classes, raw (FDC 171060).",
+              "evidence_status": "supported",
+              "evidence_source": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "evidence_material": "Chicken, liver, all classes, raw",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "presence_status": "presence_and_amount_supported",
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ]
             }
           },
           "kind": "documented-composition"
@@ -12637,7 +12809,7 @@
               "presence_status": "presence_and_amount_supported",
               "evidence_source": "Gil et al., Journal of Agricultural and Food Chemistry 2000",
               "evidence_material": "Commercial single-strength pomegranate juice",
-              "preparation_state": "Commercial single-strength juice; gallagyl-type tannins, not every ellagitannin",
+              "preparation_state": "Juice sample",
               "source_url": "https://doi.org/10.1021/jf000404a",
               "material_limitations": "Gallagyl-type tannins, not the sum of every ellagitannin and not free ellagic acid. Not an aril or whole-fruit flesh value."
             }
@@ -16835,7 +17007,7 @@
               "presence_status": "presence_supported_amount_unavailable",
               "evidence_source": "Regueiro et al., Food Chemistry 2014",
               "evidence_material": "Walnut kernels",
-              "preparation_state": "Walnut kernels; assay-specific extraction",
+              "preparation_state": "Kernels",
               "source_url": "https://doi.org/10.1016/j.foodchem.2013.11.158",
               "material_limitations": "Assay-specific extraction of kernels. Peeled kernel without the pellicle is a different material. This is not an amount, not free ellagic acid, and not a urolithin A exposure."
             }
@@ -18235,6 +18407,34 @@
               "kind": "food",
               "title": "Cashews",
               "href": "/docs/foods/cashews",
+              "aliases": []
+            }
+          },
+          {
+            "food_id": "chicken-liver",
+            "substance_id": "iron",
+            "provenance": {
+              "file": "docs/foods/chicken-liver.md",
+              "relationship": {
+                "substance": "Iron",
+                "relationship": "contains",
+                "description": "USDA FoodData Central reports 8.99 mg iron per 100 g in Chicken, liver, all classes, raw (FDC 171060).",
+                "evidence_status": "supported",
+                "evidence_source": "USDA FoodData Central SR Legacy, published 2019-04-01",
+                "evidence_material": "Chicken, liver, all classes, raw",
+                "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+                "presence_status": "presence_and_amount_supported",
+                "citation_keys": [
+                  "usda_chicken_liver_raw_sr_legacy_2019"
+                ]
+              }
+            },
+            "kind": "documented-composition",
+            "food": {
+              "id": "chicken-liver",
+              "kind": "food",
+              "title": "Chicken Liver",
+              "href": "/docs/foods/chicken-liver",
               "aliases": []
             }
           },
@@ -20456,6 +20656,34 @@
             }
           },
           {
+            "food_id": "chicken-liver",
+            "substance_id": "iron",
+            "provenance": {
+              "file": "docs/foods/chicken-liver.md",
+              "relationship": {
+                "substance": "Iron",
+                "relationship": "contains",
+                "description": "USDA FoodData Central reports 8.99 mg iron per 100 g in Chicken, liver, all classes, raw (FDC 171060).",
+                "evidence_status": "supported",
+                "evidence_source": "USDA FoodData Central SR Legacy, published 2019-04-01",
+                "evidence_material": "Chicken, liver, all classes, raw",
+                "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+                "presence_status": "presence_and_amount_supported",
+                "citation_keys": [
+                  "usda_chicken_liver_raw_sr_legacy_2019"
+                ]
+              }
+            },
+            "kind": "documented-composition",
+            "food": {
+              "id": "chicken-liver",
+              "kind": "food",
+              "title": "Chicken Liver",
+              "href": "/docs/foods/chicken-liver",
+              "aliases": []
+            }
+          },
+          {
             "food_id": "chicken",
             "substance_id": "iron",
             "provenance": {
@@ -21881,6 +22109,34 @@
             }
           },
           {
+            "food_id": "chicken-liver",
+            "substance_id": "iron",
+            "provenance": {
+              "file": "docs/foods/chicken-liver.md",
+              "relationship": {
+                "substance": "Iron",
+                "relationship": "contains",
+                "description": "USDA FoodData Central reports 8.99 mg iron per 100 g in Chicken, liver, all classes, raw (FDC 171060).",
+                "evidence_status": "supported",
+                "evidence_source": "USDA FoodData Central SR Legacy, published 2019-04-01",
+                "evidence_material": "Chicken, liver, all classes, raw",
+                "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+                "presence_status": "presence_and_amount_supported",
+                "citation_keys": [
+                  "usda_chicken_liver_raw_sr_legacy_2019"
+                ]
+              }
+            },
+            "kind": "documented-composition",
+            "food": {
+              "id": "chicken-liver",
+              "kind": "food",
+              "title": "Chicken Liver",
+              "href": "/docs/foods/chicken-liver",
+              "aliases": []
+            }
+          },
+          {
             "food_id": "chicken",
             "substance_id": "iron",
             "provenance": {
@@ -23264,6 +23520,34 @@
             }
           },
           {
+            "food_id": "chicken-liver",
+            "substance_id": "iron",
+            "provenance": {
+              "file": "docs/foods/chicken-liver.md",
+              "relationship": {
+                "substance": "Iron",
+                "relationship": "contains",
+                "description": "USDA FoodData Central reports 8.99 mg iron per 100 g in Chicken, liver, all classes, raw (FDC 171060).",
+                "evidence_status": "supported",
+                "evidence_source": "USDA FoodData Central SR Legacy, published 2019-04-01",
+                "evidence_material": "Chicken, liver, all classes, raw",
+                "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+                "presence_status": "presence_and_amount_supported",
+                "citation_keys": [
+                  "usda_chicken_liver_raw_sr_legacy_2019"
+                ]
+              }
+            },
+            "kind": "documented-composition",
+            "food": {
+              "id": "chicken-liver",
+              "kind": "food",
+              "title": "Chicken Liver",
+              "href": "/docs/foods/chicken-liver",
+              "aliases": []
+            }
+          },
+          {
             "food_id": "chicken",
             "substance_id": "iron",
             "provenance": {
@@ -24323,6 +24607,34 @@
               "kind": "food",
               "title": "Broccoli",
               "href": "/docs/foods/broccoli",
+              "aliases": []
+            }
+          },
+          {
+            "food_id": "chicken-liver",
+            "substance_id": "choline",
+            "provenance": {
+              "file": "docs/foods/chicken-liver.md",
+              "relationship": {
+                "substance": "Choline",
+                "relationship": "contains",
+                "description": "USDA FoodData Central reports 194.4 mg choline per 100 g in Chicken, liver, all classes, raw (FDC 171060).",
+                "evidence_status": "supported",
+                "evidence_source": "USDA FoodData Central SR Legacy, published 2019-04-01",
+                "evidence_material": "Chicken, liver, all classes, raw",
+                "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+                "presence_status": "presence_and_amount_supported",
+                "citation_keys": [
+                  "usda_chicken_liver_raw_sr_legacy_2019"
+                ]
+              }
+            },
+            "kind": "documented-composition",
+            "food": {
+              "id": "chicken-liver",
+              "kind": "food",
+              "title": "Chicken Liver",
+              "href": "/docs/foods/chicken-liver",
               "aliases": []
             }
           },
@@ -25458,6 +25770,34 @@
             }
           },
           {
+            "food_id": "chicken-liver",
+            "substance_id": "vitamin-b9",
+            "provenance": {
+              "file": "docs/foods/chicken-liver.md",
+              "relationship": {
+                "substance": "Vitamin B9",
+                "relationship": "contains",
+                "description": "USDA FoodData Central reports 588 µg folate per 100 g in Chicken, liver, all classes, raw (FDC 171060). The recorded analyte is folate.",
+                "evidence_status": "supported",
+                "evidence_source": "USDA FoodData Central SR Legacy, published 2019-04-01",
+                "evidence_material": "Chicken, liver, all classes, raw",
+                "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+                "presence_status": "presence_and_amount_supported",
+                "citation_keys": [
+                  "usda_chicken_liver_raw_sr_legacy_2019"
+                ]
+              }
+            },
+            "kind": "documented-composition",
+            "food": {
+              "id": "chicken-liver",
+              "kind": "food",
+              "title": "Chicken Liver",
+              "href": "/docs/foods/chicken-liver",
+              "aliases": []
+            }
+          },
+          {
             "food_id": "chickpeas",
             "substance_id": "vitamin-b9",
             "provenance": {
@@ -26122,6 +26462,34 @@
               "kind": "food",
               "title": "Cheddar Cheese",
               "href": "/docs/foods/cheddar-cheese",
+              "aliases": []
+            }
+          },
+          {
+            "food_id": "chicken-liver",
+            "substance_id": "vitamin-b12",
+            "provenance": {
+              "file": "docs/foods/chicken-liver.md",
+              "relationship": {
+                "substance": "Vitamin B12",
+                "relationship": "contains",
+                "description": "USDA FoodData Central reports 16.58 µg vitamin B12 per 100 g in Chicken, liver, all classes, raw (FDC 171060).",
+                "evidence_status": "supported",
+                "evidence_source": "USDA FoodData Central SR Legacy, published 2019-04-01",
+                "evidence_material": "Chicken, liver, all classes, raw",
+                "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+                "presence_status": "presence_and_amount_supported",
+                "citation_keys": [
+                  "usda_chicken_liver_raw_sr_legacy_2019"
+                ]
+              }
+            },
+            "kind": "documented-composition",
+            "food": {
+              "id": "chicken-liver",
+              "kind": "food",
+              "title": "Chicken Liver",
+              "href": "/docs/foods/chicken-liver",
               "aliases": []
             }
           },
@@ -29663,9 +30031,64 @@
             "scheer_2009_19255424"
           ]
         },
-        "limitation": "Restoring every abnormal rhythm and the separate contribution of each cue were not tested.",
+        "limitation": "The evidence shows that a twelve-hour misalignment disrupts cortisol timing. Restoring an already abnormal rhythm, ordinary schedule variation and the separate contribution of each cue were not tested.",
         "admission_basis": "existing canonical intervention array; no new adjudication",
         "source_record": "docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx#system_optimisation_practices/PM4-SOP-1"
+      },
+      {
+        "id": "BRS6-FM2-PM4::PM4-SOP-2",
+        "pm": "BRS6-FM2-PM4",
+        "atom_id": "PM4-SOP-2",
+        "field": "system_optimisation_practices",
+        "input": "Early time-restricted eating (8 am–2 pm)",
+        "label": "Early time-restricted eating (8 am–2 pm)",
+        "brs": "BRS6",
+        "origin": "protocol",
+        "status": "unmapped",
+        "reason": "No canonical material identity resolved from the recorded exposure",
+        "identities": [],
+        "composition": [],
+        "sources": [],
+        "unresolved": [],
+        "evidence": {
+          "finding_ids": [
+            "PM4-F4"
+          ],
+          "citation_keys": [
+            "stage2-ref-jamshed"
+          ]
+        },
+        "limitation": "One four-day crossover trial in eleven adults with overweight, with two cortisol samples per day. Window length and timing were coupled, and rhythm phase was not measured.",
+        "admission_basis": "existing canonical intervention array; no new adjudication",
+        "source_record": "docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx#system_optimisation_practices/PM4-SOP-2"
+      },
+      {
+        "id": "BRS6-FM2-PM4::PM4-LIFE-1",
+        "pm": "BRS6-FM2-PM4",
+        "atom_id": "PM4-LIFE-1",
+        "field": "lifestyle_priorities",
+        "input": "Sufficient, unrestricted sleep",
+        "label": "Sufficient, unrestricted sleep",
+        "brs": "BRS6",
+        "origin": "behavioural",
+        "status": "unmapped",
+        "reason": "No food/substance connection required",
+        "identities": [],
+        "composition": [],
+        "sources": [],
+        "unresolved": [],
+        "evidence": {
+          "finding_ids": [
+            "PM4-F6"
+          ],
+          "citation_keys": [
+            "leproult_sleep_loss_cortisol_1997",
+            "spiegel_impact_1999"
+          ]
+        },
+        "limitation": "Laboratory sleep restriction in small samples of young men from one laboratory. The evidence shows harm from sleep loss; it does not define an optimal sleep duration or show correction of an existing rhythm problem.",
+        "admission_basis": "existing canonical intervention array; no new adjudication",
+        "source_record": "docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx#lifestyle_priorities/PM4-LIFE-1"
       },
       {
         "id": "BRS6-FM3-PM6::PM6-SOP-1",
@@ -32031,6 +32454,18 @@
         "record": "BRS6-FM2-PM4::PM4-SOP-1"
       },
       {
+        "from": "BRS6-FM2-PM4",
+        "to": "BRS6-FM2-PM4::PM4-SOP-2",
+        "kind": "admitted-intervention",
+        "record": "BRS6-FM2-PM4::PM4-SOP-2"
+      },
+      {
+        "from": "BRS6-FM2-PM4",
+        "to": "BRS6-FM2-PM4::PM4-LIFE-1",
+        "kind": "admitted-intervention",
+        "record": "BRS6-FM2-PM4::PM4-LIFE-1"
+      },
+      {
         "from": "BRS6-FM3-PM6",
         "to": "BRS6-FM3-PM6::PM6-SOP-1",
         "kind": "admitted-intervention",
@@ -32118,7 +32553,7 @@
     "counts": {
       "mapped": 6,
       "partially mapped": 22,
-      "unmapped": 59
+      "unmapped": 61
     }
   }
 }

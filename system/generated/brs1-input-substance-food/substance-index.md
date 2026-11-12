@@ -119,7 +119,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (150)</summary>
+<summary>All mapped food sources (151)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -155,6 +155,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 0.14 mg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/iron_mg |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 0.36 mg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/iron_mg |
 | [Chia Seeds](http://localhost:3000/docs/foods/chia-seeds) | Seeds, chia seeds, dried — dried | 7.72 mg (per 100 g edible portion) | docs/foods/chia-seeds.md#nutrition_per_100g/iron_mg |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 8.99 mg (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/iron_mg; docs/foods/chicken-liver.md#substance_relationships/Iron |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 0.9 mg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/iron_mg; docs/foods/chicken.md#substance_relationships/Iron |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 4.31 mg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/iron_mg; docs/foods/chickpeas.md#substance_relationships/Iron |
 | [Chicory Root](http://localhost:3000/docs/foods/chicory-root) | Chicory roots, raw (Cichorium intybus) — raw | 0.8 mg (per 100 g edible portion; dietary fibre does not include inulin) | docs/foods/chicory-root.md#nutrition_per_100g/iron_mg; docs/foods/chicory-root.md#substance_relationships/Iron |
@@ -281,7 +282,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (137)</summary>
+<summary>All mapped food sources (138)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -314,6 +315,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cauliflower](http://localhost:3000/docs/foods/cauliflower) | Cauliflower, raw — raw | 0.184 mg (per 100 g edible portion) | docs/foods/cauliflower.md#nutrition_per_100g/vitamin_b6_mg |
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 0.066 mg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/vitamin_b6_mg |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 0.049 mg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/vitamin_b6_mg |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 0.853 mg (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b6_mg |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 0.35 mg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/vitamin_b6_mg; docs/foods/chicken.md#substance_relationships/Vitamin%20B6 |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 0.535 mg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/vitamin_b6_mg; docs/foods/chickpeas.md#substance_relationships/Vitamin%20B6 |
 | [Chicory Root](http://localhost:3000/docs/foods/chicory-root) | Chicory roots, raw (Cichorium intybus) — raw | 0.241 mg (per 100 g edible portion; dietary fibre does not include inulin) | docs/foods/chicory-root.md#nutrition_per_100g/vitamin_b6_mg; docs/foods/chicory-root.md#substance_relationships/Vitamin%20B6 |
@@ -430,7 +432,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (135)</summary>
+<summary>All mapped food sources (136)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -466,6 +468,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 27 µg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/folate_ug |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 4 µg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/folate_ug |
 | [Chia Seeds](http://localhost:3000/docs/foods/chia-seeds) | Seeds, chia seeds, dried — dried | 49 µg (per 100 g edible portion) | docs/foods/chia-seeds.md#nutrition_per_100g/folate_ug |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 588 µg (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/folate_ug; docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B9 |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 6 µg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/folate_ug |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 557 µg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/folate_ug; docs/foods/chickpeas.md#substance_relationships/Vitamin%20B9 |
 | [Chicory Root](http://localhost:3000/docs/foods/chicory-root) | Chicory roots, raw (Cichorium intybus) — raw | 23 µg (per 100 g edible portion; dietary fibre does not include inulin) | docs/foods/chicory-root.md#nutrition_per_100g/folate_ug; docs/foods/chicory-root.md#substance_relationships/Vitamin%20B9 |
@@ -598,7 +601,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (120)</summary>
+<summary>All mapped food sources (121)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -627,6 +630,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cauliflower](http://localhost:3000/docs/foods/cauliflower) | Cauliflower, raw — raw | 44.3 mg (per 100 g edible portion) | docs/foods/cauliflower.md#nutrition_per_100g/choline_mg |
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 16.5 mg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/choline_mg |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 6.1 mg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/choline_mg |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 194.4 mg (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/choline_mg; docs/foods/chicken-liver.md#substance_relationships/Choline |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 59.7 mg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/choline_mg |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 99.3 mg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/choline_mg |
 | [Cilantro](http://localhost:3000/docs/foods/cilantro) | Coriander (cilantro) leaves, raw — raw | 12.8 mg (per 100 g edible portion) | docs/foods/cilantro.md#nutrition_per_100g/choline_mg |
@@ -741,7 +745,7 @@ No eligible dietary food list is generated. Check the PM dietary-input decision 
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (129)</summary>
+<summary>All mapped food sources (130)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -773,6 +777,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 0.428 mg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/vitamin_b2_mg |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 0.033 mg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/vitamin_b2_mg |
 | [Chia Seeds](http://localhost:3000/docs/foods/chia-seeds) | Seeds, chia seeds, dried — dried | 0.17 mg (per 100 g edible portion) | docs/foods/chia-seeds.md#nutrition_per_100g/vitamin_b2_mg |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 1.778 mg (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg; docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2 |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 0.12 mg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/vitamin_b2_mg |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 0.212 mg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/vitamin_b2_mg |
 | [Cilantro](http://localhost:3000/docs/foods/cilantro) | Coriander (cilantro) leaves, raw — raw | 0.162 mg (per 100 g edible portion) | docs/foods/cilantro.md#nutrition_per_100g/vitamin_b2_mg |
@@ -882,7 +887,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (144)</summary>
+<summary>All mapped food sources (145)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -918,6 +923,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 27 mg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/magnesium_mg |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 11 mg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/magnesium_mg |
 | [Chia Seeds](http://localhost:3000/docs/foods/chia-seeds) | Seeds, chia seeds, dried — dried | 335 mg (per 100 g edible portion) | docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg; docs/foods/chia-seeds.md#substance_relationships/Magnesium |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 19 mg (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/magnesium_mg |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 20 mg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/magnesium_mg |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 79 mg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/magnesium_mg; docs/foods/chickpeas.md#substance_relationships/Magnesium |
 | [Chicory Root](http://localhost:3000/docs/foods/chicory-root) | Chicory roots, raw (Cichorium intybus) — raw | 22 mg (per 100 g edible portion; dietary fibre does not include inulin) | docs/foods/chicory-root.md#nutrition_per_100g/magnesium_mg; docs/foods/chicory-root.md#substance_relationships/Magnesium |
@@ -1038,7 +1044,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (133)</summary>
+<summary>All mapped food sources (134)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -1071,6 +1077,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 0.03 mg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/copper_mg |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 0.06 mg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/copper_mg |
 | [Chia Seeds](http://localhost:3000/docs/foods/chia-seeds) | Seeds, chia seeds, dried — dried | 0.924 mg (per 100 g edible portion) | docs/foods/chia-seeds.md#nutrition_per_100g/copper_mg |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 0.492 mg (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/copper_mg |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 0.048 mg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/copper_mg |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 0.656 mg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/copper_mg; docs/foods/chickpeas.md#substance_relationships/Copper |
 | [Chicory Root](http://localhost:3000/docs/foods/chicory-root) | Chicory roots, raw (Cichorium intybus) — raw | 0.077 mg (per 100 g edible portion; dietary fibre does not include inulin) | docs/foods/chicory-root.md#nutrition_per_100g/copper_mg; docs/foods/chicory-root.md#substance_relationships/Copper |
@@ -1183,7 +1190,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (88)</summary>
+<summary>All mapped food sources (89)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -1207,6 +1214,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cauliflower](http://localhost:3000/docs/foods/cauliflower) | Cauliflower, raw — raw | 48.2 mg (per 100 g edible portion) | docs/foods/cauliflower.md#nutrition_per_100g/vitamin_c_mg; docs/foods/cauliflower.md#substance_relationships/Vitamin%20C |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 7 mg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/vitamin_c_mg; docs/foods/cherries.md#substance_relationships/Vitamin%20C |
 | [Chia Seeds](http://localhost:3000/docs/foods/chia-seeds) | Seeds, chia seeds, dried — dried | 1.6 mg (per 100 g edible portion) | docs/foods/chia-seeds.md#nutrition_per_100g/vitamin_c_mg |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 17.9 mg (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_c_mg |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 1.6 mg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/vitamin_c_mg |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 4 mg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/vitamin_c_mg |
 | [Chicory Root](http://localhost:3000/docs/foods/chicory-root) | Chicory roots, raw (Cichorium intybus) — raw | 5 mg (per 100 g edible portion; dietary fibre does not include inulin) | docs/foods/chicory-root.md#nutrition_per_100g/vitamin_c_mg; docs/foods/chicory-root.md#substance_relationships/Vitamin%20C |
@@ -1301,7 +1309,7 @@ Food sources identified; quantities not established.
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (125)</summary>
+<summary>All mapped food sources (126)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -1332,6 +1340,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cauliflower](http://localhost:3000/docs/foods/cauliflower) | Cauliflower, raw — raw | 0.667 mg (per 100 g edible portion) | docs/foods/cauliflower.md#nutrition_per_100g/vitamin_b5_mg |
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 0.41 mg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/vitamin_b5_mg |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 0.199 mg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/vitamin_b5_mg |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 6.233 mg (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b5_mg |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 0.91 mg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/vitamin_b5_mg |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 1.588 mg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/vitamin_b5_mg |
 | [Chicory Root](http://localhost:3000/docs/foods/chicory-root) | Chicory roots, raw (Cichorium intybus) — raw | 0.323 mg (per 100 g edible portion; dietary fibre does not include inulin) | docs/foods/chicory-root.md#nutrition_per_100g/vitamin_b5_mg |
@@ -1438,7 +1447,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (133)</summary>
+<summary>All mapped food sources (134)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -1469,6 +1478,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cauliflower](http://localhost:3000/docs/foods/cauliflower) | Cauliflower, raw — raw | 30 mg (per 100 g edible portion) | docs/foods/cauliflower.md#nutrition_per_100g/sodium_mg |
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 653 mg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/sodium_mg |
 | [Chia Seeds](http://localhost:3000/docs/foods/chia-seeds) | Seeds, chia seeds, dried — dried | 16 mg (per 100 g edible portion) | docs/foods/chia-seeds.md#nutrition_per_100g/sodium_mg |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 71 mg (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/sodium_mg |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 70 mg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/sodium_mg |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 24 mg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/sodium_mg |
 | [Chicory Root](http://localhost:3000/docs/foods/chicory-root) | Chicory roots, raw (Cichorium intybus) — raw | 50 mg (per 100 g edible portion; dietary fibre does not include inulin) | docs/foods/chicory-root.md#nutrition_per_100g/sodium_mg |
@@ -1619,7 +1629,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (144)</summary>
+<summary>All mapped food sources (145)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -1655,6 +1665,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 76 mg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/potassium_mg |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 222 mg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/potassium_mg |
 | [Chia Seeds](http://localhost:3000/docs/foods/chia-seeds) | Seeds, chia seeds, dried — dried | 407 mg (per 100 g edible portion) | docs/foods/chia-seeds.md#nutrition_per_100g/potassium_mg |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 230 mg (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/potassium_mg |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 189 mg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/potassium_mg |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 718 mg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/potassium_mg; docs/foods/chickpeas.md#substance_relationships/Potassium |
 | [Chicory Root](http://localhost:3000/docs/foods/chicory-root) | Chicory roots, raw (Cichorium intybus) — raw | 290 mg (per 100 g edible portion; dietary fibre does not include inulin) | docs/foods/chicory-root.md#nutrition_per_100g/potassium_mg |

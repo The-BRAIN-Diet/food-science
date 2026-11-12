@@ -11,6 +11,8 @@ tags:
   - Vitamin C
   - Potassium
   - Polyphenol
+  - Ellagitannins
+  - Ellagic acid
   - Cyanidin
   - Delphinidin
   - Pelargonidin
@@ -48,7 +50,7 @@ substance_relationships:
     presence_status: presence_and_amount_supported
     evidence_source: "Gil et al., Journal of Agricultural and Food Chemistry 2000"
     evidence_material: "Commercial single-strength pomegranate juice"
-    preparation_state: "Commercial single-strength juice; gallagyl-type tannins, not every ellagitannin"
+    preparation_state: "Juice sample"
     source_url: "https://doi.org/10.1021/jf000404a"
     material_limitations: "Gallagyl-type tannins, not the sum of every ellagitannin and not free ellagic acid. Not an aril or whole-fruit flesh value."
   - substance: Potassium
@@ -174,7 +176,7 @@ nutrition_supplementary_sources:
     basis: per 100 mL
     source_url: https://doi.org/10.1021/jf000404a
     evidence_material: Commercial single-strength pomegranate juice
-    preparation_state: Commercial single-strength juice; gallagyl-type tannins, not every ellagitannin
+    preparation_state: Juice sample
     public_display: table
     public_note: Gallagyl-type tannins in commercial juice, including punicalagin. Not free ellagic acid and not an aril value.
     source_note: >-

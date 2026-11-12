@@ -184,6 +184,10 @@ A reviewer should finish each BRS summary thinking:
 
 ---
 
+## BRS6 evidence amendment — 12 November 2026
+
+The BRS6 summary keeps this template and adds one passage after Landmark ADHD Evidence, **Intervention evidence: why so few food substances are listed** (generator keys `evidence_review_heading` / `evidence_review`). It reads each mechanism's dominance label against its displayed principal route, states what the direct dietary requirements contain (resistant starch, magnesium, DHA) and their limits, summarises the practice and lifestyle evidence with its populations, surrogate endpoints and unisolated mediation, and explains why few substances qualify: BRS6 regulates rates, swings, clearance, phase and recovery; a tested food comparison is not a requirement; neither shared-pool constraint survived review; and repeated participation is not a dietary requirement. Landmark ADHD Evidence keeps lower, magnitude-unstable basal morning cortisol, the null and imprecise reactivity evidence, Lane et al. (2010) electrodermal recovery, and Di Girolamo et al. (2022) without excess below age 60.
+
 ## Related documents
 
 - `scripts/data/brs-cross-integration-evidence.json` — relationship synthesis for Systems Integration sections

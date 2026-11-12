@@ -37,6 +37,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Cheddar Cheese | 9 | selenium; zinc; dha-docosahexaenoic-acid; copper; vitamin-e; vitamin-b2; epa-eicosapentaenoic-acid; manganese; iron; magnesium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 |  |
 | Cherries | 7 | vitamin-c; vitamin-e; zinc; vitamin-b2; iron; magnesium; copper; manganese | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Chia Seeds | 8 | magnesium; manganese; iron; copper; vitamin-c; vitamin-b2; zinc; selenium; vitamin-e | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
+| Chicken Liver | 8 | vitamin-b2; iron; magnesium; zinc; copper; manganese; selenium; vitamin-c; vitamin-e | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Chicken | 12 | cysteine; iron; selenium; zinc; magnesium; copper; manganese; vitamin-b2; dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid; vitamin-c; vitamin-e; glycine | BRS3-FM1-PM1; BRS3-FM1-PM2; BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 | BRS3(KC1) |
 | Chickpeas | 7 | magnesium; copper; iron; manganese; zinc; vitamin-e; vitamin-c; vitamin-b2 | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Chicory Root | 6 | iron; copper; vitamin-c; selenium; zinc; magnesium; manganese | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |

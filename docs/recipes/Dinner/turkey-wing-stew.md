@@ -201,3 +201,7 @@ The pot is divided into three servings. The recipe does not state a number, so t
 ## Explore the foods and substances
 
 <RecipeFoods details={frontMatter} />
+
+## References
+
+[1] Fukaya et al. (1999). [Effect of Cooking with Vinegar on Calcium, Magnesium and Phosphorus Solubilization from Food](/docs/papers/BRAIN-Diet-References#fukaya_vinegar_cooking_minerals_1999). Boiling chicken meat with the wing bone in vinegar raised calcium in the edible portion above the water-cooked comparison. The tested vinegars were grain vinegar and white wine vinegar, not this apple-cider quantity, and magnesium did not increase in the same way.

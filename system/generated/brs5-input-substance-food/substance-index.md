@@ -17,7 +17,7 @@ Generated from the same authoritative records as the PM disclosures. The preview
 | [BRS5-FM2-PM4](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Arabinan](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/arabinan) — arabinan | No comparable quantified food sources | [Peas](http://localhost:3000/docs/foods/peas) — Quantity not established · raw cotyledons |
 | [BRS5-FM2-PM4](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship<br/>[BRS5-FM2-PM5](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Inulin](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/inulin) — inulin | [Asparagus](http://localhost:3000/docs/foods/asparagus) — 1.3 g (per 100 g dry matter) · Lyophilized edible spear; hot-water extract. Root excluded. | None recorded |
 | [BRS5-FM2-PM6](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Ellagic acid](http://localhost:3000/docs/substances/bioactive-compounds/polyphenols/phenolic-acids/ellagic-acid) — ellagic-acid | No comparable quantified food sources | [Pomegranates](http://localhost:3000/docs/foods/pomegranates) — 3.79 mg (per 100 mL) · Commercial single-strength juice; not aril-only juice |
-| [BRS5-FM2-PM6](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Ellagitannins](http://localhost:3000/docs/substances/bioactive-compounds/polyphenols/ellagitannins) — ellagitannins | No comparable quantified food sources | [Pomegranates](http://localhost:3000/docs/foods/pomegranates) — 156.17 mg (per 100 mL) · Commercial single-strength juice; gallagyl-type tannins, not every ellagitannin<br/>[Walnuts](http://localhost:3000/docs/foods/walnuts) — Quantity not established · Walnut kernels; assay-specific extraction |
+| [BRS5-FM2-PM6](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Ellagitannins](http://localhost:3000/docs/substances/bioactive-compounds/polyphenols/ellagitannins) — ellagitannins | No comparable quantified food sources | [Pomegranates](http://localhost:3000/docs/foods/pomegranates) — 156.17 mg (per 100 mL) · Juice sample<br/>[Walnuts](http://localhost:3000/docs/foods/walnuts) — Quantity not established · Kernels |
 | [BRS5-FM2-PM6](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Epicatechin](http://localhost:3000/docs/substances/bioactive-compounds/polyphenols/flavan-3-ols/epicatechin) — epicatechin | No comparable quantified food sources | [Cacao Nibs (Raw)](http://localhost:3000/docs/foods/cacao-nibs-raw) — Quantity not established · preparation unknown<br/>[Cacao Powder](http://localhost:3000/docs/foods/cacao-powder) — Quantity not established · dry powder<br/>[Cacao Powder](http://localhost:3000/docs/foods/cacao-powder) — 196 mg (basis unknown; unverified amount) · dry powder<br/>[Cocoa](http://localhost:3000/docs/foods/cocoa) — Quantity not established · dry powder<br/>[Cocoa](http://localhost:3000/docs/foods/cocoa) — 34 mg (basis unknown; unverified amount) · dry powder<br/>[Dark Chocolate](http://localhost:3000/docs/foods/dark-chocolate) — Quantity not established · preparation unknown<br/>[Dark Chocolate](http://localhost:3000/docs/foods/dark-chocolate) — 70.4 mg (basis unknown; unverified amount) · preparation unknown |
 | [BRS5-FM3-PM7](http://localhost:3000/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Lacticaseibacillus rhamnosus JB-1](http://localhost:3000/docs/substances/lacticaseibacillus-rhamnosus#jb-1) — lacticaseibacillus-rhamnosus-jb-1 | No comparable quantified food sources | None recorded |
 | [BRS5-FM3-PM7](http://localhost:3000/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Glucose](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/glucose) — glucose | [Bananas](http://localhost:3000/docs/foods/bananas) — 4.98 g (per 100 g edible portion) · raw<br/>[Grapes](http://localhost:3000/docs/foods/grapes) — 7.2 g (per 100 g edible portion) · raw | None recorded |
@@ -30,7 +30,7 @@ Generated from the same authoritative records as the PM disclosures. The preview
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (91)</summary>
+<summary>All mapped food sources (92)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -53,6 +53,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Carrots](http://localhost:3000/docs/foods/carrots) | Carrots, raw — raw | 835 µg (per 100 g edible portion) | docs/foods/carrots.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 337 µg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 3 µg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/vitamin_a_rae_ug |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 3296 µg (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_a_rae_ug; docs/foods/chicken-liver.md#substance_relationships/Vitamin%20A |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 41 µg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 3 µg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Cilantro](http://localhost:3000/docs/foods/cilantro) | Coriander (cilantro) leaves, raw — raw | 337 µg (per 100 g edible portion) | docs/foods/cilantro.md#nutrition_per_100g/vitamin_a_rae_ug |
@@ -133,7 +134,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (146)</summary>
+<summary>All mapped food sources (147)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -168,6 +169,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 3.64 mg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/zinc_mg; docs/foods/cheddar-cheese.md#substance_relationships/Zinc |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 0.07 mg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/zinc_mg |
 | [Chia Seeds](http://localhost:3000/docs/foods/chia-seeds) | Seeds, chia seeds, dried — dried | 4.58 mg (per 100 g edible portion) | docs/foods/chia-seeds.md#nutrition_per_100g/zinc_mg |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 2.67 mg (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/zinc_mg |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 1.31 mg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/zinc_mg; docs/foods/chicken.md#substance_relationships/Zinc |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 2.76 mg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/zinc_mg; docs/foods/chickpeas.md#substance_relationships/Zinc |
 | [Chicory Root](http://localhost:3000/docs/foods/chicory-root) | Chicory roots, raw (Cichorium intybus) — raw | 0.33 mg (per 100 g edible portion; dietary fibre does not include inulin) | docs/foods/chicory-root.md#nutrition_per_100g/zinc_mg; docs/foods/chicory-root.md#substance_relationships/Zinc |
@@ -437,8 +439,8 @@ Food sources identified; no verified comparable quantities available.
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
-| [Pomegranates](http://localhost:3000/docs/foods/pomegranates) | Commercial single-strength pomegranate juice — Commercial single-strength juice; gallagyl-type tannins, not every ellagitannin | 156.17 mg (per 100 mL) | docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagitannins_commercial_juice; docs/foods/pomegranates.md#substance_relationships/Ellagitannins; docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagitannins_commercial_juice |
-| [Walnuts](http://localhost:3000/docs/foods/walnuts) | Walnut kernels — Walnut kernels; assay-specific extraction | Quantity not established | docs/foods/walnuts.md#substance_relationships/Ellagitannins |
+| [Pomegranates](http://localhost:3000/docs/foods/pomegranates) | Commercial single-strength pomegranate juice — Juice sample | 156.17 mg (per 100 mL) | docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagitannins_commercial_juice; docs/foods/pomegranates.md#substance_relationships/Ellagitannins; docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagitannins_commercial_juice |
+| [Walnuts](http://localhost:3000/docs/foods/walnuts) | Walnut kernels — Kernels | Quantity not established | docs/foods/walnuts.md#substance_relationships/Ellagitannins; docs/foods/walnuts.md#nutrition_supplementary_sources/walnut_polyphenols_proxy |
 
 </details>
 
@@ -491,7 +493,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (128)</summary>
+<summary>All mapped food sources (129)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -524,6 +526,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 0.791 g (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/linoleic_g |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 0.027 g (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/linoleic_g |
 | [Chia Seeds](http://localhost:3000/docs/foods/chia-seeds) | Seeds, chia seeds, dried — dried | 5.835 g (per 100 g edible portion) | docs/foods/chia-seeds.md#nutrition_per_100g/linoleic_g; docs/foods/chia-seeds.md#substance_relationships/Linoleic%20Acid |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 0.475 g (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/linoleic_g |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 2.88 g (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/linoleic_g |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 2.629 g (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/linoleic_g |
 | [Cilantro](http://localhost:3000/docs/foods/cilantro) | Coriander (cilantro) leaves, raw — raw | 0.04 g (per 100 g edible portion) | docs/foods/cilantro.md#nutrition_per_100g/linoleic_g |

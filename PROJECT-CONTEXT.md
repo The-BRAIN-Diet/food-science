@@ -44,7 +44,7 @@ Stable orientation, prepared 3 November 2026. This is a navigation aid, not a sc
 
 Use current manifests to resume rather than repeating completed research. For SOP/Lifestyle research, inspect linked food pages and their preparation/bioavailability references first, then retrieve original evidence and research missing questions. Food pages are not independent primary evidence. When using Scite, verify full-text retrieval versus abstract fallback.
 
-Run checks appropriate to the change and record exact scope/results; a historical passing build is not current validation. `npm run presentation:check` is mandatory for presentation work. Preserve the running preview during production builds as specified in AGENTS and INTERNAL-DOCS. Consult current build scripts/configuration; previously successful settings used a 4 GiB Node heap and single-worker Terser, not a licence to alter configuration or keep increasing memory.
+Run checks appropriate to the change and record exact scope/results; a historical passing build is not current validation. The presentation build gate is off by owner instruction on 12 November 2026. Preserve the running preview during production builds as specified in AGENTS and INTERNAL-DOCS. Consult current build scripts/configuration; previously successful settings used a 4 GiB Node heap and single-worker Terser, not a licence to alter configuration or keep increasing memory.
 
 ## Keeping this aid lightweight
 

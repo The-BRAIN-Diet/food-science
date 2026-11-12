@@ -18,6 +18,17 @@ mechanisms:
   Inflammation & Oxidative Stress: 'Redox and inflammatory findings depend on model and exposure; precursor-food intake is not equivalent to direct Urolithin A administration.'
 inchikey: RIUPLDUFZCXCHM-UHFFFAOYSA-N
 inchi_image: /img/inchi/RIUPLDUFZCXCHM-UHFFFAOYSA-N.png
+food_delivery_assessment:
+  review_date: '2026-11-12'
+  status: no-ordinary-food-source
+  classification: E
+  reason: >-
+    Urolithin A is not present in foods. Gut microbes in producers form it from ellagitannins and ellagic acid,
+    for example from walnuts and pomegranate; the amount formed varies between people.
+  sources:
+    - https://doi.org/10.1039/C4FO00092G
+    - https://doi.org/10.1038/s41430-021-00950-1
+  admission_changed: false
 ---
 
 ## Overview

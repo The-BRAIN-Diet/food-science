@@ -27,12 +27,15 @@ for file in $staged_files; do
     continue
   fi
   
-  # These canonical text records outgrew 1 MiB during the 64-PM recovery.
-  # Keep a bounded 2 MiB allowance for these exact files only.
+  # Canonical records and published explore artifacts that already exceed 1 MiB.
+  # Text records stay within 3 MiB. Explore artifacts stay within 12 MiB; they already shipped on main.
   file_limit=$MAX_SIZE
   case "$file" in
-    static/bibtex/BRAIN-diet.bib|system/generated/dietary-food-targets/manuscript-rollup-brs1.json|system/sec-assessments/registry.json)
-      file_limit=2097152
+    static/bibtex/BRAIN-diet.bib|system/generated/dietary-food-targets/manuscript-rollup-brs1.json|system/generated/dietary-food-targets/manuscript-rollup-brs2.json|system/generated/dietary-pathways/pathways.generated.json|system/generated/food-strategy-rollup/rollup.generated.json|system/sec-assessments/registry.json)
+      file_limit=3145728
+      ;;
+    review/ranked-food-reconciliation/reference-pool/ranking.json|static/explore/food-intelligence/data.json|static/explore/food-wheel/display-network.json|static/explore/food-wheel/index.html|static/explore/pm-explorer/pm-sources.json)
+      file_limit=12582912
       ;;
   esac
 

@@ -72,10 +72,10 @@
     },
     "BRS5-FM2-PM4::PM4-DIT-2": {
       "before": "b3ebbf52f7c0b736ff439cc008061356a7809aa494c317672791a97618021914",
-      "after": "e918b75807154cdb3cb46167cf85db32a542781a997bec1ee5250c3bdc010566",
+      "after": "a809db53468f4935de8ff649599934ed55d3d78408f3a5427a2b69ffe85e29a0",
       "substance_id": "pectin",
       "authority": "Author instruction 9 November 2026: reconcile Cursor pear/lemon/orange pectin records into eligible PM links, preserving qualifications.",
-      "scope": "Identity repair; citrus-only provision. Existing admission, SEC and experimental boundaries unchanged."
+      "scope": "Identity repair; citrus-only provision. Existing admission, SEC and experimental boundaries unchanged. The studied preparation remains distinct from whole orange, lemon and apple pectin."
     }
   }
 }

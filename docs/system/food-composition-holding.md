@@ -18,7 +18,7 @@ Amounts are per 100 g of the specified food, not dry matter. Preparation is part
 | --- | --- | --- | --- | --- | --- |
 | Tilapia, cooked, dry heat | [Betaine](/docs/substances/bioactive-compounds/choline-methylation/betaine) | 25 mg | [USDA Release 2 (2008), printed p. 27](#source-usda-choline-2008) | NDB `15262` | Substance: `betaine`. Food: unassigned; no exact food page identified. |
 | Shrimp, mixed species, canned | [Betaine](/docs/substances/bioactive-compounds/choline-methylation/betaine) | 23 mg | [USDA Release 2 (2008), printed p. 27](#source-usda-choline-2008) | NDB `15152` | Substance: `betaine`. Existing food: [`shrimp`](/docs/foods/shrimp); preparation-specific observation not yet integrated. |
-| Chicken liver, pan-fried | [Betaine](/docs/substances/bioactive-compounds/choline-methylation/betaine) | 21 mg | [USDA Release 2 (2008), printed p. 15](#source-usda-choline-2008) | NDB `05661` | Substance: `betaine`. Exact food: unassigned. Existing [`liver`](/docs/foods/liver) is generic and is not an exact identity match. |
+| Chicken liver, pan-fried | [Betaine](/docs/substances/bioactive-compounds/choline-methylation/betaine) | 21 mg | [USDA Release 2 (2008), printed p. 15](#source-usda-choline-2008) | NDB `05661` | Substance: `betaine`. Food page [`chicken-liver`](/docs/foods/chicken-liver) is raw chicken liver (FDC 171060). This pan-fried amount is not on that page. Existing [`liver`](/docs/foods/liver) remains beef liver and is not this food. |
 
 ## References
 

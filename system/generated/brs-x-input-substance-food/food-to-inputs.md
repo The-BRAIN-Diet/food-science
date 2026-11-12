@@ -36,6 +36,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Cheddar Cheese | 3 | zinc; dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid | BRS-X(ECS-PM1); BRS-X(ECS-PM2); BRS-X(Hormones-PM5) |  |
 | Cherries | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Chia Seeds | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
+| Chicken Liver | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Chicken | 3 | zinc; dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid | BRS-X(ECS-PM1); BRS-X(ECS-PM2); BRS-X(Hormones-PM5) |  |
 | Chickpeas | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Chicory Root | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |

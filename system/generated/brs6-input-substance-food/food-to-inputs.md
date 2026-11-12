@@ -36,6 +36,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Cheddar Cheese | 2 | dha-docosahexaenoic-acid; magnesium | BRS6-FM1-PM3; BRS6-FM4-PM8 |  |
 | Cherries | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Chia Seeds | 1 | magnesium | BRS6-FM1-PM3 |  |
+| Chicken Liver | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Chicken | 2 | magnesium; dha-docosahexaenoic-acid | BRS6-FM1-PM3; BRS6-FM4-PM8 |  |
 | Chickpeas | 2 | magnesium; resistant-starch | BRS6-FM1-PM3 |  |
 | Chicory Root | 1 | magnesium | BRS6-FM1-PM3 |  |
@@ -100,7 +101,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Peas | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Peppermint | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Pistachios | 1 | magnesium | BRS6-FM1-PM3 |  |
-| Pomegranates | 1 | magnesium | BRS6-FM1-PM3 |  |
+| Pomegranates | 2 | ellagitannins; magnesium | BRS6-FM1-PM3; BRS6-FM4-PM8 |  |
 | Pork | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Potatoes | 2 | resistant-starch; magnesium | BRS6-FM1-PM3 |  |
 | Pumpkin Seeds | 1 | magnesium | BRS6-FM1-PM3 |  |
@@ -142,7 +143,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Turmeric | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Vinegar Pickles | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Vinegar | 1 | magnesium | BRS6-FM1-PM3 |  |
-| Walnuts | 1 | magnesium | BRS6-FM1-PM3 |  |
+| Walnuts | 2 | magnesium; ellagitannins | BRS6-FM1-PM3; BRS6-FM4-PM8 |  |
 | Wasabi | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Watercress | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Watermelon | 1 | magnesium | BRS6-FM1-PM3 |  |

@@ -7,13 +7,15 @@ Generated from the same authoritative records as the PM disclosures. The preview
 | [BRS6-FM1-PM3](http://localhost:3000/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Magnesium](http://localhost:3000/docs/substances/nutrients/micronutrients/minerals/macro/magnesium) — magnesium | [Almonds](http://localhost:3000/docs/foods/almonds) — 270 mg (per 100 g edible portion) · preparation unknown<br/>[Amaranth](http://localhost:3000/docs/foods/amaranth) — 248 mg (per 100 g edible portion) · uncooked<br/>[Anchovies](http://localhost:3000/docs/foods/anchovies) — 69 mg (per 100 g edible portion) · canned<br/>[Apples](http://localhost:3000/docs/foods/apples) — 5 mg (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 14 mg (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 14 mg (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 29 mg (per 100 g edible portion) · raw<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 27 mg (per 100 g edible portion) · raw<br/>[Barley](http://localhost:3000/docs/foods/barley) — 133 mg (per 100 g edible portion) · preparation unknown<br/>[Beef](http://localhost:3000/docs/foods/beef) — 18 mg (per 100 g edible portion) · raw | [Broccoli Sprouts](http://localhost:3000/docs/foods/broccoli-sprouts) — Quantity not established · raw<br/>[Nori](http://localhost:3000/docs/foods/nori) — Quantity not established · dried<br/>[Seaweed](http://localhost:3000/docs/foods/seaweed) — Quantity not established · preparation unknown<br/>[Sourdough Bread](http://localhost:3000/docs/foods/sourdough-bread) — Quantity not established · preparation unknown<br/>[Whole Grains](http://localhost:3000/docs/foods/whole-grains) — Quantity not established · preparation unknown |
 | [BRS6-FM1-PM3](http://localhost:3000/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Resistant starch](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch) — resistant-starch | [Bananas](http://localhost:3000/docs/foods/bananas) — 2.7–25.3 g (per 100 g fresh weight) · Green/unripe; cultivar and ripening state matter<br/>[Black Beans](http://localhost:3000/docs/foods/black-beans) — 3–5 g (per 100 g dry weight) · Cooked; cooking duration and cooling protocol remain study-specific<br/>[Chickpeas](http://localhost:3000/docs/foods/chickpeas) — 3–5 g (per 100 g dry weight) · Cooked; cooking duration and cooling protocol remain study-specific<br/>[Potatoes](http://localhost:3000/docs/foods/potatoes) — 2.2–5.4 g (per 100 g, moisture-corrected) · Baked or boiled, then chilled to 4°C; distinguish reheated material | None recorded |
 | [BRS6-FM4-PM8](http://localhost:3000/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [DHA (Docosahexaenoic Acid)](http://localhost:3000/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/dha-docosahexaenoic-acid) — dha-docosahexaenoic-acid | [Anchovies](http://localhost:3000/docs/foods/anchovies) — 1292 mg (per 100 g edible portion) · canned<br/>[Beef](http://localhost:3000/docs/foods/beef) — 1 mg (per 100 g edible portion) · raw<br/>[Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) — 1 mg (per 100 g edible portion) · preparation unknown<br/>[Chicken](http://localhost:3000/docs/foods/chicken) — 30 mg (per 100 g edible portion) · raw<br/>[Clams](http://localhost:3000/docs/foods/clams) — 64 mg (per 100 g edible portion) · raw<br/>[Cod](http://localhost:3000/docs/foods/cod) — 120 mg (per 100 g edible portion) · raw<br/>[Egg Yolks](http://localhost:3000/docs/foods/egg-yolks) — 114 mg (per 100 g edible portion) · raw<br/>[Eggs](http://localhost:3000/docs/foods/eggs) — 58 mg (per 100 g edible portion) · raw<br/>[Greek Yogurt](http://localhost:3000/docs/foods/greek-yogurt) — 4 mg (per 100 g edible portion) · preparation unknown<br/>[Herring](http://localhost:3000/docs/foods/herring) — 862 mg (per 100 g edible portion) · raw | [Algal Oil](http://localhost:3000/docs/foods/algal-oil) — Quantity not established · preparation unknown<br/>[Cockles](http://localhost:3000/docs/foods/cockles) — Quantity not established · raw<br/>[Lumpfish Roe](http://localhost:3000/docs/foods/lumpfish-roe) — Quantity not established · preparation unknown<br/>[Trout Roe](http://localhost:3000/docs/foods/trout-roe) — Quantity not established · preparation unknown |
+| [BRS6-FM4-PM8](http://localhost:3000/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Urolithin A](http://localhost:3000/docs/substances/microbial-metabolites/secondary-plant-conversions/urolithin-a) — urolithin-a | No comparable quantified food sources | None recorded |
+| [BRS6-FM4-PM8](http://localhost:3000/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Ellagitannins](http://localhost:3000/docs/substances/bioactive-compounds/polyphenols/ellagitannins) — ellagitannins | No comparable quantified food sources | [Pomegranates](http://localhost:3000/docs/foods/pomegranates) — 156.17 mg (per 100 mL) · Juice sample<br/>[Walnuts](http://localhost:3000/docs/foods/walnuts) — Quantity not established · Kernels |
 
 ## Magnesium — magnesium
 
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (144)</summary>
+<summary>All mapped food sources (145)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -49,6 +51,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 27 mg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/magnesium_mg |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 11 mg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/magnesium_mg |
 | [Chia Seeds](http://localhost:3000/docs/foods/chia-seeds) | Seeds, chia seeds, dried — dried | 335 mg (per 100 g edible portion) | docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg; docs/foods/chia-seeds.md#substance_relationships/Magnesium |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 19 mg (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/magnesium_mg |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 20 mg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/magnesium_mg |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 79 mg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/magnesium_mg; docs/foods/chickpeas.md#substance_relationships/Magnesium |
 | [Chicory Root](http://localhost:3000/docs/foods/chicory-root) | Chicory roots, raw (Cichorium intybus) — raw | 22 mg (per 100 g edible portion; dietary fibre does not include inulin) | docs/foods/chicory-root.md#nutrition_per_100g/magnesium_mg; docs/foods/chicory-root.md#substance_relationships/Magnesium |
@@ -213,6 +216,31 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Trout Roe](http://localhost:3000/docs/foods/trout-roe) | commercial salmon, trout or lumpfish roe | Quantity not established | docs/foods/trout-roe.md#substance_relationships/DHA |
 | [Tuna](http://localhost:3000/docs/foods/tuna) | Fish, tuna, fresh, bluefin, raw — raw | 890 mg (per 100 g edible portion) | docs/foods/tuna.md#nutrition_per_100g/dha_mg; docs/foods/tuna.md#substance_relationships/DHA |
 | [Turkey](http://localhost:3000/docs/foods/turkey) | Turkey, whole, meat only, raw — raw | 2 mg (per 100 g edible portion) | docs/foods/turkey.md#nutrition_per_100g/dha_mg |
+
+</details>
+
+## Urolithin A — urolithin-a
+
+No food-source mappings for this preparation.
+
+<details>
+<summary>All mapped food sources (0)</summary>
+
+No eligible dietary food list is generated. Check the PM dietary-input decision separately from sourcing coverage.
+
+</details>
+
+## Ellagitannins — ellagitannins
+
+Food sources identified; no verified comparable quantities available.
+
+<details>
+<summary>All mapped food sources (2)</summary>
+
+| Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
+| --- | --- | --- | --- |
+| [Pomegranates](http://localhost:3000/docs/foods/pomegranates) | Commercial single-strength pomegranate juice — Juice sample | 156.17 mg (per 100 mL) | docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagitannins_commercial_juice; docs/foods/pomegranates.md#substance_relationships/Ellagitannins; docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagitannins_commercial_juice |
+| [Walnuts](http://localhost:3000/docs/foods/walnuts) | Walnut kernels — Kernels | Quantity not established | docs/foods/walnuts.md#substance_relationships/Ellagitannins; docs/foods/walnuts.md#nutrition_supplementary_sources/walnut_polyphenols_proxy |
 
 </details>
 

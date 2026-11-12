@@ -4,67 +4,83 @@ Distinct PM–substance connections, not clinical efficacy.
 
 |Food|Qualified targets|
 |---|---:|
-|Amaranth|14|
-|Anchovies|23|
+|Almonds|25|
+|Amaranth|7|
+|Anchovies|28|
 |Avocado Oil|1|
+|Beef|12|
+|Beetroot|7|
 |Bell Peppers|2|
 |Black Beans|10|
+|Black Pepper|2|
 |Broccoli|2|
-|Broccoli Sprouts|2|
 |Brussels Sprouts|2|
+|Butter|1|
 |Capers|3|
 |Carrots|1|
-|Cashews|15|
+|Cashews|14|
 |Cauliflower|2|
-|Cheddar Cheese|1|
-|Chia Seeds|11|
-|Chicken|8|
-|Chickpeas|20|
-|Clams|5|
+|Cheddar Cheese|23|
+|Chia Seeds|9|
+|Chicken|20|
+|Chicken Liver|38|
+|Chickpeas|19|
+|Cinnamon|2|
+|Clams|2|
 |Cockles|6|
 |Cocoa|24|
 |Crab|3|
 |Dandelion Greens|1|
+|Dark Chocolate|3|
 |Edamame|8|
 |Egg Yolks|21|
-|Eggs|24|
+|Eggs|14|
+|Flax Seeds|6|
 |Garlic|6|
 |Ghee|1|
 |Heart|9|
 |Herring|10|
 |Kale|2|
-|Kidney|20|
+|Kidney|14|
 |Kidney Beans|10|
 |Lemon|2|
 |Lentils|18|
-|Liver|41|
-|Lupins|16|
-|Mackerel|13|
-|White/Button Mushroom|8|
-|Mussels|16|
+|Liver (beef)|43|
+|Lupins|14|
+|Mackerel|8|
+|Miso|3|
+|Mussels|25|
+|Oats|2|
 |Olives|3|
 |Oranges|2|
-|Oregano|20|
+|Oregano|14|
 |Oysters|12|
-|Peanuts|14|
-|Pistachios|9|
-|Pumpkin Seeds|30|
-|Salmon|26|
+|Parmesan Cheese|8|
+|Parsley|2|
+|Peanuts|8|
+|Pistachios|7|
+|Pumpkin Seeds|39|
+|Quinoa|7|
+|Saffron|8|
+|Sage|20|
+|Salmon|36|
 |Salmon Roe|25|
-|Sardines|21|
+|Sardines|33|
 |Sauerkraut|3|
-|Scallops|3|
-|Sesame Seeds|29|
-|Shrimp|3|
-|Soy|60|
-|Soy Lecithin|13|
-|Spelt|2|
+|Sesame Seeds|27|
+|Mature soybeans|58|
+|Spinach|7|
 |Spirulina|26|
 |Strawberries|2|
-|Sunflower Seeds|28|
+|Sunflower Seeds|47|
 |Sweet Potatoes|1|
-|Tahini|17|
-|Thyme|34|
-|Tofu|5|
-|Tuna|19|
-|Turkey|12|
+|Tahini|4|
+|Thyme|18|
+|Tofu|10|
+|Tuna|24|
+|Turkey|15|
+|Turmeric|13|
+|Vinegar Pickles|3|
+|Walnuts|3|
+|Wheat|5|
+|Wheat Germ|40|

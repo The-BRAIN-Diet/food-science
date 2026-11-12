@@ -145,7 +145,7 @@
           "wise_sulforaphane_copd_2016"
         ]
       },
-      "preparation": "raw",
+      "preparation": "Sous vide at 100 °C for 20 minutes, with and without 1 g brown mustard powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -5824,6 +5824,60 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
+      "food_target": "chicken-liver",
+      "food_title": "Chicken Liver",
+      "food_material": "Chicken, liver, all classes, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chicken-liver.md#substance_relationships/Iron",
+          "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+          "source_reference": null,
+          "citation_keys": [
+            "usda_chicken_liver_raw_sr_legacy_2019"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports 8.99 mg iron per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F6"
+        ],
+        "citation_keys": [
+          "stangl_iron_enzyme_capacity_1998"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Rat diet and tissue context; the kidney result is not a uniform response across organs or a human intake threshold. Human catalase haem identity supports capacity, not benefit from extra iron. Iron can also promote non-enzymatic oxidation; higher catalase activity is not a clinical benefit."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS3",
+      "fm": "BRS3(FM2)",
+      "pm": "BRS3-FM2-PM4",
+      "biological_mechanism": "Balance reactive oxygen species production and clearance so net oxidative pressure stays within tolerable limits.",
+      "dietary_input": "Iron",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "iron",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
       "food_target": "chicken",
       "food_title": "Chicken",
       "food_material": "Chicken, broilers or fryers, meat and skin, raw",
@@ -6657,7 +6711,7 @@
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
       "food_target": "liver",
-      "food_title": "Liver",
+      "food_title": "Liver (beef)",
       "food_material": "Beef, variety meats and by-products, liver, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -7281,7 +7335,7 @@
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
       "food_target": "soy",
-      "food_title": "Soy",
+      "food_title": "Mature soybeans",
       "food_material": "Soybeans, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -11918,6 +11972,96 @@
           "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin B2 in Broccoli, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F2",
+          "PM6-F3"
+        ],
+        "citation_keys": [
+          "beutler_riboflavin_gr_1969"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b2",
+          "to": "flavin-mononucleotide",
+          "process": "Riboflavin kinase (RFK) phosphorylates riboflavin to FMN using ATP.",
+          "dependencies": [
+            "Functional RFK",
+            "ATP and divalent metal availability"
+          ],
+          "limitations": "Enzyme identity does not quantify tissue cofactor supply or flux after a meal.",
+          "evidence": {
+            "statement": "Human RFK catalyses riboflavin phosphorylation; UniProt Q969G6 entry 195 retrieved 2026-10-26, Rhea 14357.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q969G6/entry",
+              "https://www.rhea-db.org/rhea/14357"
+            ]
+          }
+        },
+        {
+          "from": "flavin-mononucleotide",
+          "to": "flavin-adenine-dinucleotide",
+          "process": "FLAD1 FAD synthase adenylates FMN with ATP to form FAD.",
+          "dependencies": [
+            "Functional FLAD1 FAD synthase",
+            "ATP and divalent metal availability"
+          ],
+          "limitations": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred.",
+          "evidence": {
+            "statement": "Human FLAD1 catalyses FMN adenylation; UniProt Q8NFF5 entry 182 retrieved 2026-10-26, Rhea 17237.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q8NFF5/entry",
+              "https://www.rhea-db.org/rhea/17237"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Human red-cell enzyme evidence supports flavin-dependent capacity. It does not establish neuronal or whole-body recycling flux, benefit above adequacy, or equivalence between an ordinary food and a 5 mg/day supplement."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS3",
+      "fm": "BRS3(FM2)",
+      "pm": "BRS3-FM2-PM6",
+      "biological_mechanism": "Regenerate vitamin and thiol antioxidants across networked systems so endogenous defence capacity is sustained.",
+      "dietary_input": "Vitamin B2",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "vitamin-b2",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "chicken-liver",
+      "food_title": "Chicken Liver",
+      "food_material": "Chicken, liver, all classes, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+          "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+          "source_reference": null,
+          "citation_keys": [
+            "usda_chicken_liver_raw_sr_legacy_2019"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
         }
       ],
       "pm_evidence": {

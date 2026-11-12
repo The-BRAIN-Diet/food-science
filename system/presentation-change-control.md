@@ -10,7 +10,9 @@ Typographical, citation and existing-content repairs remain allowed. They must n
 
 ## Technical gate
 
-`npm run presentation:check` is a mandatory prebuild gate. `system/presentation-contract-baseline.json` freezes existing renderer/theme/plugin/CSS/template code and document structure (headings, markup, tables and internal record IDs). Additions, removals and modifications fail unless `system/presentation-change-approvals.json` contains the exact resulting file hash plus explicit author approval/source, proposal, contract, representative example and affected scope. Referenced proposal/contract/example files must exist.
+**Owner instruction — 12 November 2026:** turn the presentation gate off. `npm run presentation:check` stays in the prebuild command and exits successfully without comparing hashes. Do not switch that check back on, regenerate the baseline, or invent an approval to recreate the failure. Dietary-input governance and SEC checks remain in the build.
+
+`system/presentation-contract-baseline.json` still freezes existing renderer/theme/plugin/CSS/template code and document structure (headings, markup, tables and internal record IDs). It is no longer a build failure. `system/presentation-change-approvals.json` remains the record of earlier approvals.
 
 The emergency baseline captures current presentation after panel withdrawal; it is a containment baseline, NOT retrospective author approval of every legacy page. Do not regenerate it to make a test pass. Baseline and approval changes require author review. No automatic approve or baseline-update command is supplied.
 

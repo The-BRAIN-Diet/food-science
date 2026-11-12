@@ -92,6 +92,22 @@ version with 5/8, all factor rationales and DOI sources. The development client
 compiled successfully after the standard mapping generator; no production build
 or deployment was performed. Existing PM4 Finding placement was not changed.
 
+## BRS6-FM2-PM4 cortisol rhythm — 12 November 2026
+
+Owner instruction: run SEC scoring for BRS6-2-4 after the Stage 2A/2B reassessment. All seven active Findings receive Codex-provisional D/B/P/R appraisals under the existing rubric, caps and immutable sidecar. No human scientific review, admission change, intervention SEC or phenome relationship is inferred. `synthesised_evidence_confidence` remains `not-yet-scored`.
+
+| Finding | D/B/P/R | SEC | Status |
+|---|---|---|---|
+| PM4-F1: misalignment reverses cortisol timing | 2/1/2/0 | 5/8 | Provisionally assessed |
+| PM4-F2: B-GOS waking response | 2/1/1/0 | 4/8 | Provisionally assessed |
+| PM4-F3: meal-delay cortisol-phase null | 2/1/1/0 | 4/8 | Provisionally assessed |
+| PM4-F4: earlier eating window, evening cortisol | 2/1/1/0 | 4/8 | Provisionally assessed |
+| PM4-F5: light timing and protocol set direction | 2/1/1/1 | 5/8 | Provisionally assessed |
+| PM4-F6: sleep loss raises evening cortisol | 2/1/1/0 | 4/8 | Provisionally assessed |
+| PM4-F7: lower morning cortisol in ADHD, uncertain size | 2/1/1/1 | 5/8 | Provisionally assessed |
+
+Primary recovery: Scheer 2009 (PMC2657421/PNAS full text); Schmidt 2015 (PMC4410136 Methods/Results); Wehrens 2017 (PMC5483233 STAR Methods and cortisol ANOVA/cosinor); Jamshed 2019 (PMC6627766 Methods and evening cortisol); Chang 2021 (PMC8377148, including sensitivity analysis). Light and sleep studies were appraised from published abstracts plus reported n, direction and p or percent change. No absent retrieval was scored zero.
+
 ## Assessment completeness — approved extension, 2 November 2026
 
 Scientific Evidence Gaps concern what research has not established. Assessment gaps concern what this framework has not adequately assessed. Do not use their acronyms in reader-facing labels. Reuse versioned SEC records; no separate score or issue register is introduced.

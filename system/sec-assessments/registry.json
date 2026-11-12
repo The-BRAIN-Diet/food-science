@@ -18711,6 +18711,858 @@
         "assessmentGaps": [],
         "stoppingRationale": "Completed provisional appraisal of the depletion comparison only. It does not admit extra tryptophan intake."
       }
+    },
+    {
+      "sha256": "a5dd1f3e5117736b88805a787eec7df0257308fa60ed7eaa672868b5d221becb",
+      "record": {
+        "id": "brs6-fm2-pm4-f1-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS6-FM2-PM4",
+        "findingId": "PM4-F1",
+        "assessmentStatus": "codex-provisional",
+        "humanReview": null,
+        "recordedOn": "2026-11-12",
+        "lastEvidenceAssessmentDate": "2026-11-12",
+        "reviewer": null,
+        "process": "Codex exact-proposition SEC appraisal of canonical BRS6-FM2-PM4 Findings after the 12 November 2026 Stage 2A/2B reassessment; primary full-text recovery for Scheer 2009; no scientific proposition or admission changed.",
+        "methodology": {
+          "name": "SEC calibration rubric proposal",
+          "version": null,
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "proposition": "Forced circadian misalignment of sleep and meals by about twelve hours completely reversed the daily cortisol pattern relative to the behavioural schedule.",
+        "canonicalProposition": "Forced circadian misalignment of sleep and meals by about twelve hours completely reversed the daily cortisol pattern relative to the behavioural schedule.",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 2,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 5,
+        "adjustedScore": 5,
+        "conditional": null,
+        "rationale": {
+          "D": "Hourly plasma cortisol across a 10-day forced-desynchrony protocol tests the scoped claim: cortisol timing relative to the behavioural sleep/wake and meal cycle under about 12-hour misalignment. No ADHD, restoration or isolated-cue inference is required.",
+          "B": "Time-cue-free suite, dim light (~1.8 lux), >2-week pre-laboratory schedule, hourly sampling via indwelling catheter, mixed-model ANOVA with REML, and chemiluminescent assay (sensitivity 0.26 µg/dL) protect the rhythm measurement. Residual concerns: n=10 (5 with mild asthma, none on steroids), sleep, meals and remaining light moved together, and there is no restoration arm. No demonstrated critical flaw that can explain a complete inversion warrants B0.",
+          "P": "The inversion is a qualitative waveform claim with dense sampling. Circadian peak-to-trough was 113% versus ~45% across the behavioural cycle; the alignment × behavioural-cycle interaction was p<0.001. That excludes a mere level shift or a modest phase nudge as the explanation of the stated reversal.",
+          "R": "Scheer 2009 is the one fully appraised empirical line for this combined 12-hour sleep-and-meal misalignment inversion. Later misalignment work from the same laboratory is not independent replication. Light-timing and sleep-loss studies test different exposures."
+        },
+        "limitations": [
+          "Ten healthy adults under an extreme laboratory schedule. Individual cues were not isolated, and restoring an already disrupted rhythm was not tested.",
+          "Assessment is provisional and not qualified-human reviewed. SEC does not establish a dietary timetable or alter admissions."
+        ],
+        "sources": {
+          "supporting": [
+            "scheer_2009_19255424"
+          ],
+          "contextual": [],
+          "contradictory": [],
+          "contradictoryAssessment": "No retrieved study contradicts complete cortisol inversion under ~12-hour behavioural misalignment. Related light, sleep and meal-delay experiments address different propositions and are scored separately.",
+          "targetedChecks": [
+            {
+              "doi": "10.1073/pnas.0808180106",
+              "role": "load-bearing primary",
+              "access": "PNAS/PMC2657421 full article, Methods, Results and Figure 4 (retrieved 2026-11-12).",
+              "assessment": "10 adults (5 female, mean age 25.5). Seven 28-h days after 2 baseline days; 4 isocaloric meals per 28-h day; hourly plasma cortisol. Complete inverse pattern across the sleep/wake cycle (p<0.001). Endogenous circadian cortisol peak-to-trough 113%. Combined sleep, meals and remaining dim light; no isolated-cue or restoration contrast."
+            }
+          ],
+          "retrievalLimited": []
+        },
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-11-12",
+            "decision": "Initial provisional exact-proposition assessment 5/8; canonical statement unchanged."
+          }
+        ],
+        "assessmentComplete": true,
+        "capRationale": "D2, B1, P2, R0: raw and adjusted 5/8; no D1/B0/P0 cap applies."
+      }
+    },
+    {
+      "sha256": "7d035accfc55723252559e4888b193dc3664f51f84d53d65d85870598941b3ba",
+      "record": {
+        "id": "brs6-fm2-pm4-f2-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS6-FM2-PM4",
+        "findingId": "PM4-F2",
+        "assessmentStatus": "codex-provisional",
+        "humanReview": null,
+        "recordedOn": "2026-11-12",
+        "lastEvidenceAssessmentDate": "2026-11-12",
+        "reviewer": null,
+        "process": "Codex exact-proposition SEC appraisal of canonical BRS6-FM2-PM4 Findings; Schmidt 2015 Methods/Results recovered; no scientific proposition or admission changed.",
+        "methodology": {
+          "name": "SEC calibration rubric proposal",
+          "version": null,
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "proposition": "Three weeks of the studied B-GOS preparation lowered the salivary cortisol awakening response compared with placebo in healthy volunteers; FOS did not.",
+        "canonicalProposition": "Three weeks of the studied B-GOS preparation lowered the salivary cortisol awakening response compared with placebo in healthy volunteers; FOS did not.",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "conditional": null,
+        "rationale": {
+          "D": "The scoped claim is the waking-response endpoint in healthy volunteers, not a full-day rhythm. Salivary CAR at 0/15/30/45/60 minutes before and after three weeks of B-GOS, FOS or maltodextrin tests that claim.",
+          "B": "Double-blind randomised three-arm design, sex-balanced 15 per arm, ELISA within 7 days, and a FOS arm that did not differ from placebo protect against a generic prebiotic or placebo effect. Residual concerns: unverified home waking times, n=15/arm, sponsor-supplied preparations, and no microbial mediation assay. No demonstrated critical flaw warrants B0.",
+          "P": "Day-21 group effect F(2,41)=4.20, p<0.05; placebo vs B-GOS p=0.02; AUCg day×group F(2,41)=3.52, p=0.039. Square-root transformation and Sidak contrasts were used. No confidence interval for the CAR difference was recovered, and n=15/arm leaves a materially different magnitude still plausible, so P1 rather than P2.",
+          "R": "One trial supports this exact B-GOS versus placebo CAR result. The FOS null is an internal discriminator, not independent replication."
+        },
+        "limitations": [
+          "Single trial in 45 healthy volunteers. Only the waking segment was sampled. Cortisol and attentional-bias changes were unrelated. Desirable direction is not established.",
+          "Assessment is provisional and not qualified-human reviewed. SEC does not admit B-GOS as a rhythm lever."
+        ],
+        "sources": {
+          "supporting": [
+            "schmidt_prebiotic_2015"
+          ],
+          "contextual": [],
+          "contradictory": [],
+          "contradictoryAssessment": "FOS was null in the same trial and is part of the scoped claim, not a contradiction of B-GOS. No independent contradictory CAR trial was retrieved.",
+          "targetedChecks": [
+            {
+              "doi": "10.1007/s00213-014-3810-0",
+              "role": "load-bearing primary",
+              "access": "PMC4410136 Methods, Results and figures (retrieved 2026-11-12).",
+              "assessment": "Double-blind RCT; 5.5 g/day with breakfast for 3 weeks; home CAR ELISA. Day 0 group n.s.; day 21 F(2,41)=4.20, p<0.05, placebo vs B-GOS p=0.02. AUCg interaction p=0.039. Behavioural change unrelated to cortisol."
+            }
+          ],
+          "retrievalLimited": []
+        },
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-11-12",
+            "decision": "Initial provisional exact-proposition assessment 4/8; canonical statement unchanged."
+          }
+        ],
+        "assessmentComplete": true,
+        "capRationale": "D2, B1, P1, R0: raw and adjusted 4/8; no D1/B0/P0 cap applies."
+      }
+    },
+    {
+      "sha256": "5946bd0e1634ec7fc37987041c34343e3ff5a2912262c98c9117e1fc3bf55740",
+      "record": {
+        "id": "brs6-fm2-pm4-f3-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS6-FM2-PM4",
+        "findingId": "PM4-F3",
+        "assessmentStatus": "codex-provisional",
+        "humanReview": null,
+        "recordedOn": "2026-11-12",
+        "lastEvidenceAssessmentDate": "2026-11-12",
+        "reviewer": null,
+        "process": "Codex exact-proposition SEC appraisal of canonical BRS6-FM2-PM4 Findings; Wehrens 2017 STAR Methods and cortisol analyses recovered; no scientific proposition or admission changed.",
+        "methodology": {
+          "name": "SEC calibration rubric proposal",
+          "version": null,
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "proposition": "A five-hour delay of all three meals did not significantly shift plasma cortisol rhythms under constant-routine assessment while light and sleep schedules were held fixed.",
+        "canonicalProposition": "A five-hour delay of all three meals did not significantly shift plasma cortisol rhythms under constant-routine assessment while light and sleep schedules were held fixed.",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "conditional": null,
+        "rationale": {
+          "D": "Hourly plasma cortisol in a 37-hour constant routine after early versus 5-hour-delayed meals, with sleep and light held, tests the scoped phase-null claim. Glucose and adipose PER2 delays are different endpoints and are not used to rescue or refute it.",
+          "B": "Laboratory control of light, sleep and isocaloric meals, RIA (inter-assay CV 7.5–11%), Bonferroni-corrected critical p=0.01 for five plasma markers, and a positive glucose-phase control protect against a globally insensitive protocol. Residual concerns: sequential rather than randomised meal-order, n=10 young men only. No demonstrated critical flaw that can invent a hidden cortisol-phase shift warrants B0.",
+          "P": "Meal effect F(1,9)=2.27, p=0.166; meal×time F(31,279)=1.39, p=0.090; cortisol acrophase t(9)=0.96, p=0.182. A non-significant result is not equivalence; no confidence interval on the phase difference was recovered, so a small shift remains plausible. The hourly curves and cosinor still narrow the claim away from a 5-hour glucose-like delay, hence P1 rather than P0 or P2.",
+          "R": "One experiment. The later eating-window trial (Jamshed) used a different exposure and evening-level endpoint and does not replicate or contradict this phase null."
+        },
+        "limitations": [
+          "Small sequential sample of young men. The null is not evidence of no effect or of an earlier-window benefit.",
+          "Assessment is provisional and not qualified-human reviewed."
+        ],
+        "sources": {
+          "supporting": [
+            "wehrens_meal_timing_2017"
+          ],
+          "contextual": [
+            "stage2-ref-jamshed"
+          ],
+          "contradictory": [],
+          "contradictoryAssessment": "Jamshed 2019 lowered evening cortisol after an earlier, shorter window; that is a different exposure and endpoint, not a contradiction of a meal-delay phase null.",
+          "targetedChecks": [
+            {
+              "doi": "10.1016/j.cub.2017.04.059",
+              "role": "load-bearing primary",
+              "access": "PMC5483233 full article, STAR Methods, Figure 1B–C and cortisol ANOVA/cosinor (retrieved 2026-11-12).",
+              "assessment": "10 healthy young men; 13-day laboratory protocol; 37-h constant routine after early then late meals. Cortisol meal p=0.166, interaction p=0.090, acrophase p=0.182. Glucose delayed 5.69±1.29 h (p<0.001). Bonferroni p=0.01 for plasma markers."
+            }
+          ],
+          "retrievalLimited": []
+        },
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-11-12",
+            "decision": "Initial provisional exact-proposition assessment 4/8; canonical statement unchanged."
+          }
+        ],
+        "assessmentComplete": true,
+        "capRationale": "D2, B1, P1, R0: raw and adjusted 4/8; no D1/B0/P0 cap applies."
+      }
+    },
+    {
+      "sha256": "9fc66fcdbdce8eee8b6329d28eb9b182bc6323787f8f29aa49e7f91d52ccf7fa",
+      "record": {
+        "id": "brs6-fm2-pm4-f4-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS6-FM2-PM4",
+        "findingId": "PM4-F4",
+        "assessmentStatus": "codex-provisional",
+        "humanReview": null,
+        "recordedOn": "2026-11-12",
+        "lastEvidenceAssessmentDate": "2026-11-12",
+        "reviewer": null,
+        "process": "Codex exact-proposition SEC appraisal of canonical BRS6-FM2-PM4 Findings; Jamshed 2019 Methods and cortisol results recovered; no scientific proposition or admission changed.",
+        "methodology": {
+          "name": "SEC calibration rubric proposal",
+          "version": null,
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "proposition": "Four days of early time-restricted eating (8 am to 2 pm) lowered evening cortisol compared with a 12-hour eating window (8 am to 8 pm) at the same energy intake; morning cortisol was non-significantly higher.",
+        "canonicalProposition": "Four days of early time-restricted eating (8 am to 2 pm) lowered evening cortisol compared with a 12-hour eating window (8 am to 8 pm) at the same energy intake; morning cortisol was non-significantly higher.",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "conditional": null,
+        "rationale": {
+          "D": "The scoped claim is evening (and morning) cortisol after a 6-hour versus 12-hour eating window at matched energy, not rhythm phase. Those two timed samples are what the trial measured.",
+          "B": "Randomised crossover, sex-stratified blocks of 4, 3.5–5-week washout, supervised matched meals on days 3–4, both arms fasted 6 hours before the 20:00 draw, and chemiluminescent immunoassay protect the contrast. Residual concerns: n=11, four-day arms, window length coupled to clock time, unblinded eating schedule, two samples per day. No demonstrated critical flaw warrants B0.",
+          "P": "Evening cortisol −1.4 ± 0.6 µg/dL (p=0.03); morning +1.5 ± 0.9 µg/dL (p=0.10). The evening difference is distinguishable from zero but the interval still permits a much smaller effect, and morning remains compatible with no change, so P1.",
+          "R": "One four-day crossover. Wehrens tests a meal delay and phase, not this window."
+        },
+        "limitations": [
+          "Two cortisol samples per day; four-day arms; window length and timing coupled; adults with overweight.",
+          "Assessment is provisional and not qualified-human reviewed."
+        ],
+        "sources": {
+          "supporting": [
+            "stage2-ref-jamshed"
+          ],
+          "contextual": [
+            "wehrens_meal_timing_2017"
+          ],
+          "contradictory": [],
+          "contradictoryAssessment": "Wehrens 2017 is a different exposure (5-hour delay of three meals) and endpoint (constant-routine phase). It does not contradict an evening-level change after an earlier, shorter window.",
+          "targetedChecks": [
+            {
+              "doi": "10.3390/nu11061234",
+              "role": "load-bearing primary",
+              "access": "PMC6627766 Methods, Figure 5 and cortisol results (retrieved 2026-11-12).",
+              "assessment": "11 overweight adults; 4-day randomised crossover; 08:00–14:00 versus 08:00–20:00; matched energy. Evening cortisol −1.4±0.6 µg/dL (p=0.03); morning +1.5±0.9 (p=0.10). Blood at 20:00 day 3 and ~07:30 day 5."
+            }
+          ],
+          "retrievalLimited": []
+        },
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-11-12",
+            "decision": "Initial provisional exact-proposition assessment 4/8; canonical statement unchanged."
+          }
+        ],
+        "assessmentComplete": true,
+        "capRationale": "D2, B1, P1, R0: raw and adjusted 4/8; no D1/B0/P0 cap applies."
+      }
+    },
+    {
+      "sha256": "ca39550995cd448ba433ad8fcc12d16f5d2cbd56d287551e888b909e84f2d037",
+      "record": {
+        "id": "brs6-fm2-pm4-f5-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS6-FM2-PM4",
+        "findingId": "PM4-F5",
+        "assessmentStatus": "codex-provisional",
+        "humanReview": null,
+        "recordedOn": "2026-11-12",
+        "lastEvidenceAssessmentDate": "2026-11-12",
+        "reviewer": null,
+        "process": "Codex exact-proposition SEC appraisal of canonical BRS6-FM2-PM4 Findings; light studies appraised from published abstracts with reported n, direction and magnitude; no scientific proposition or admission changed.",
+        "methodology": {
+          "name": "SEC calibration rubric proposal",
+          "version": null,
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "proposition": "Bright light acutely changes cortisol, but the effect depends on timing: light after waking or in the early morning raised cortisol, light in the afternoon or evening had no effect, and several hours of very bright light across the biological night and morning lowered it.",
+        "canonicalProposition": "Bright light acutely changes cortisol, but the effect depends on timing: light after waking or in the early morning raised cortisol, light in the afternoon or evening had no effect, and several hours of very bright light across the biological night and morning lowered it.",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 1
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 5,
+        "adjustedScore": 5,
+        "conditional": null,
+        "rationale": {
+          "D": "The scoped claim is an acute, protocol-dependent cortisol response to light, not a shift of the daily rhythm. Within-participant morning versus later-day contrasts, plus a prolonged-night protocol with the opposite direction, test that claim.",
+          "B": "Laboratory within-participant light versus dim comparisons protect timing inferences. Residual concerns: small samples, mostly men, sleep deprivation in Leproult 2001, extreme ~10,000 lux for hours in Jung, and abstract-level methods for allocation/blinding. No demonstrated critical flaw that can reverse the timed pattern warrants B0.",
+          "P": "Reported magnitudes distinguish direction by protocol (~35% morning rise; >50% early-morning rise; lowering under prolonged night/morning bright light; afternoon/evening nulls). Residual uncertainty remains about size and about untested repeated daily exposure, so P1.",
+          "R": "Morning-up versus later-day-null is supported by two laboratories (Scheer & Buijs 1999; Leproult/Van Cauter 2001). Jung 2010 adds the lowering protocol but shares an author with Scheer & Buijs, so team overlap blocks R2. Opposite directions are protocol differences, not unresolved contradiction of the scoped claim."
+        },
+        "limitations": [
+          "Acute laboratory endpoints. Repeated daily light on rhythm timing or amplitude was not tested. Direction cannot be summarised as simply up or down.",
+          "Scheer & Buijs 1999, Leproult 2001 and Jung 2010 were appraised at abstract level; full-method extraction was not completed. Assessment is provisional and not qualified-human reviewed. SEC does not admit morning light as a rhythm lever."
+        ],
+        "sources": {
+          "supporting": [
+            "scheer_buijs_light_cortisol_1999",
+            "leproult_bright_light_cortisol_2001",
+            "jung_bright_light_cortisol_2010"
+          ],
+          "contextual": [],
+          "contradictory": [],
+          "contradictoryAssessment": "Jung's lowering result is retained as protocol-dependent, which the proposition already states. It is not counted as a failure to replicate the short post-waking rise.",
+          "targetedChecks": [
+            {
+              "doi": "10.1210/jcem.84.9.6102",
+              "role": "load-bearing primary",
+              "access": "Published abstract (retrieved 2026-11-12).",
+              "assessment": "14 healthy men; 1 h of 800 lux after waking raised salivary cortisol ~35% at 20 and 40 minutes versus dim light; evening light had no effect."
+            },
+            {
+              "doi": "10.1210/jcem.86.1.7102",
+              "role": "load-bearing primary",
+              "access": "Published abstract (retrieved 2026-11-12).",
+              "assessment": "8 healthy men; 36 h awake; dim-to-bright light at 05:00–08:00 produced an immediate >50% cortisol rise; 13:00–16:00 light had no effect."
+            },
+            {
+              "doi": "10.1177/0748730410368413",
+              "role": "load-bearing primary",
+              "access": "Published abstract (retrieved 2026-11-12).",
+              "assessment": "20 healthy adults; ~6.7 h of ~10,000 lux across biological night and morning lowered plasma cortisol versus dim light. Opposite direction from the short post-waking protocols."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://doi.org/10.1210/jcem.84.9.6102",
+              "limitation": "Abstract recovered; full Methods/figures not extracted."
+            },
+            {
+              "url": "https://doi.org/10.1210/jcem.86.1.7102",
+              "limitation": "Abstract recovered; full Methods/figures not extracted."
+            },
+            {
+              "url": "https://doi.org/10.1177/0748730410368413",
+              "limitation": "Abstract recovered; full Methods/figures not extracted."
+            }
+          ]
+        },
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-11-12",
+            "decision": "Initial provisional exact-proposition assessment 5/8; opposite light directions treated as protocol dependence; canonical statement unchanged."
+          }
+        ],
+        "assessmentComplete": true,
+        "capRationale": "D2, B1, P1, R1: raw and adjusted 5/8; no D1/B0/P0 cap applies."
+      }
+    },
+    {
+      "sha256": "a024d9ad6ab9a962e498947b4f5de8cebf7efc8c8b0c0cea6ed5a7a9771e003e",
+      "record": {
+        "id": "brs6-fm2-pm4-f6-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS6-FM2-PM4",
+        "findingId": "PM4-F6",
+        "assessmentStatus": "codex-provisional",
+        "humanReview": null,
+        "recordedOn": "2026-11-12",
+        "lastEvidenceAssessmentDate": "2026-11-12",
+        "reviewer": null,
+        "process": "Codex exact-proposition SEC appraisal of canonical BRS6-FM2-PM4 Findings; sleep-loss studies appraised from published abstracts with reported evening-segment statistics; no scientific proposition or admission changed.",
+        "methodology": {
+          "name": "SEC calibration rubric proposal",
+          "version": null,
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "proposition": "Partial or total sleep deprivation raised cortisol the following evening and delayed the start of the evening quiet period; six nights of four-hour sleep also raised evening cortisol.",
+        "canonicalProposition": "Partial or total sleep deprivation raised cortisol the following evening and delayed the start of the evening quiet period; six nights of four-hour sleep also raised evening cortisol.",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "conditional": null,
+        "rationale": {
+          "D": "Both load-bearing studies measured evening cortisol after experimental sleep loss in healthy men, which is the scoped claim. They do not test morning amplitude, rhythm phase restoration or ADHD.",
+          "B": "Within-participant laboratory restriction versus habitual or recovery sleep, with 24-hour profiles in Leproult 1997, protects the evening-segment contrast. Residual concerns: small samples of young men, abstract-level allocation/assay detail, and recovery sleep of 12 hours rather than habitual sleep in Spiegel 1999. No demonstrated critical flaw warrants B0.",
+          "P": "Leproult: 18:00–23:00 cortisol +37% after partial (p=0.03) and +45% after total deprivation (p=0.003); quiet-period onset delayed ≥1 hour; other times unchanged. Spiegel: evening elevation p=0.0001. Magnitude remains imprecise without recovered intervals, so P1.",
+          "R": "Both papers are from the Van Cauter laboratory and share authors. They are related experiments, not independent replication."
+        },
+        "limitations": [
+          "Laboratory sleep restriction in small samples of young men from one laboratory. Harm from restriction is not a demonstrated correction of an existing rhythm problem.",
+          "Abstract-level retrieval for both papers. Assessment is provisional and not qualified-human reviewed."
+        ],
+        "sources": {
+          "supporting": [
+            "leproult_sleep_loss_cortisol_1997",
+            "spiegel_impact_1999"
+          ],
+          "contextual": [],
+          "contradictory": [],
+          "contradictoryAssessment": "No retrieved study contradicts an evening cortisol rise after experimental sleep loss in healthy men. Shared laboratory origin is recorded under replication, not treated as contradiction.",
+          "targetedChecks": [
+            {
+              "doi": "10.1093/sleep/20.10.865",
+              "role": "load-bearing primary",
+              "access": "Published abstract, PMID 9415946 (retrieved 2026-11-12).",
+              "assessment": "Partial (sleep 04:00–08:00) and total deprivation versus normal sleep. Next-evening cortisol 18:00–23:00 +37% (p=0.03) and +45% (p=0.003); quiet period delayed ≥1 h; other clock times unchanged."
+            },
+            {
+              "doi": "10.1016/S0140-6736(99)01376-8",
+              "role": "load-bearing primary",
+              "access": "Published abstract (retrieved 2026-11-12).",
+              "assessment": "11 healthy young men; 6 nights of 4 h versus 6 nights of 12 h in bed. Evening cortisol higher in sleep debt (p=0.0001)."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://doi.org/10.1093/sleep/20.10.865",
+              "limitation": "Abstract recovered; full 24-hour profiles and methods not extracted."
+            },
+            {
+              "url": "https://doi.org/10.1016/S0140-6736(99)01376-8",
+              "limitation": "Abstract recovered; full profiles and methods not extracted."
+            }
+          ]
+        },
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-11-12",
+            "decision": "Initial provisional exact-proposition assessment 4/8; shared-laboratory papers not counted as independent replication."
+          }
+        ],
+        "assessmentComplete": true,
+        "capRationale": "D2, B1, P1, R0: raw and adjusted 4/8; no D1/B0/P0 cap applies."
+      }
+    },
+    {
+      "sha256": "f46ab5efa117665e31cb8ca1e5247ab6a5c78d40127331c28d689f230cd7928b",
+      "record": {
+        "id": "brs6-fm2-pm4-f7-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS6-FM2-PM4",
+        "findingId": "PM4-F7",
+        "assessmentStatus": "codex-provisional",
+        "humanReview": null,
+        "recordedOn": "2026-11-12",
+        "lastEvidenceAssessmentDate": "2026-11-12",
+        "reviewer": null,
+        "process": "Codex exact-proposition SEC appraisal of canonical BRS6-FM2-PM4 Findings; Chang 2021 full text including sensitivity analysis; McCarthy 2011 full text; remaining included studies at abstract level as previously assessed in Pilot 1; no scientific proposition or admission changed.",
+        "methodology": {
+          "name": "SEC calibration rubric proposal",
+          "version": null,
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "proposition": "In youths with ADHD, basal salivary cortisol is lower than in typically developing youths, most consistently in the morning and in total daily output, with no difference in the afternoon. The size of the morning difference is uncertain.",
+        "canonicalProposition": "In youths with ADHD, basal salivary cortisol is lower than in typically developing youths, most consistently in the morning and in total daily output, with no difference in the afternoon. The size of the morning difference is uncertain.",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 1
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 5,
+        "adjustedScore": 5,
+        "conditional": null,
+        "rationale": {
+          "D": "The scoped claim is basal, time-of-day salivary cortisol in youths with ADHD versus typically developing peers, including an explicit statement that magnitude is uncertain. Case–control morning, afternoon, AUCg and sensitivity analyses test that claim. Stress-reactivity syntheses are excluded.",
+          "B": "The meta-analysis reports leave-one-out stability of direction, a planned sensitivity analysis, and persistence of a smaller morning effect after removing two influential studies (g=0.24, p=0.020). Residual concerns: I² 95–96% falling only to 65.5%, nested included studies, parent-reported diagnosis and clinic-anticipatory sampling in the influential pair, immunoassay detection of inactive metabolites, and unverified home waking times. Those threaten magnitude more than direction; they do not warrant B0 for the directional, size-uncertain proposition.",
+          "P": "Morning g=0.84 (14 studies, n=1679) versus g=0.24 without Maldonado 2009 and McCarthy 2011; basal 0.68 to 0.27; afternoon p=0.48. Direction is narrowed; size is not. That matches the proposition, so P1 rather than P0 (the uncertainty is stated) or P2 (CIs were not in the recovered text; magnitude remains unstable).",
+          "R": "Multiple independent case–control samples contribute to the pooled direction. A systematic review is not extra replication of its inputs, and Isaksson 2012, Chang 2020, Maldonado 2009 and McCarthy 2011 sit inside Chang 2021, so they cannot be counted as four further lines. Partial independent-sample confirmation with unresolved heterogeneity is R1, not R2."
+        },
+        "limitations": [
+          "Entirely cross-sectional. No study measured rhythm phase or amplitude. Nested evidence cannot be read as five independent replications. Age, diagnosis method and sampling setting remain unresolved as drivers of magnitude.",
+          "Assessment is provisional and not qualified-human reviewed. SEC does not establish a desirable direction of change or an ADHD treatment effect."
+        ],
+        "sources": {
+          "supporting": [
+            "chang_cortisol_2021",
+            "isaksson_cortisol_2012",
+            "chang_cortisol_2020",
+            "maldonado_cortisol_adhd_2009",
+            "mccarthy_cortisol_iv_adhd_2011"
+          ],
+          "contextual": [
+            "kamradt_cortisol_reactivity_2018",
+            "lane_sensory_2010"
+          ],
+          "contradictory": [],
+          "contradictoryAssessment": "Kamradt 2018 is a reactivity synthesis (r=0.00) and is excluded from this basal proposition. McCarthy's non-significant higher home samples qualify setting, they do not reverse the clinic/pooled basal direction. Schmidt 2015 is a healthy-adult intervention with a conflicting desirable-direction implication and is not a contradiction of the case–control difference.",
+          "targetedChecks": [
+            {
+              "doi": "10.1038/s41398-021-01550-0",
+              "role": "load-bearing primary",
+              "access": "PMC8377148 full text including sensitivity analysis; supplementary tables not inspected (retrieved 2026-11-12 and previously in Pilot 1).",
+              "assessment": "19 studies; 916 ADHD vs 947 typically developing youths. Basal g=0.68; AUCg g=0.39; morning g=0.84; afternoon p=0.48. Removing Maldonado 2009 and McCarthy 2011: basal g=0.27, morning g=0.24; I² 95→73.1% and 96→65.5%. Leave-one-out did not change main results. Authors disclaim stress-reactivity inference."
+            },
+            {
+              "doi": "10.1093/jpepsy/jsr012",
+              "role": "influential included primary",
+              "access": "Full text (retrieved previously; re-used 2026-11-12).",
+              "assessment": "29 ADHD vs 339 non-ADHD, ages 4–10; 28/29 parent-reported diagnoses; 75.9% medicated. Clinic cortisol lower; home samples at matching clock times non-significantly higher. Drives pooled morning magnitude."
+            },
+            {
+              "doi": "10.1017/S1138741600002079",
+              "role": "influential included primary",
+              "access": "Published abstract (retrieved previously; re-used 2026-11-12).",
+              "assessment": "33 ADHD vs 33 controls, mean age ~6.5; TSST-C; no expected stress response; hyperactive–impulsive subgroup lower AUCg. Samples around a stressor, not home basal."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://doi.org/10.1016/j.jpsychires.2012.08.021",
+              "limitation": "Isaksson 2012 appraised from abstract; full text not recovered locally."
+            },
+            {
+              "url": "https://doi.org/10.1016/j.bbi.2020.05.017",
+              "limitation": "Chang 2020 appraised from abstract; reported cortisol effect size uninterpretable as published."
+            }
+          ]
+        },
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-11-12",
+            "decision": "Initial provisional exact-proposition assessment 5/8; nested studies and unstable magnitude recorded under B, P and R; canonical statement unchanged."
+          }
+        ],
+        "assessmentComplete": true,
+        "capRationale": "D2, B1, P1, R1: raw and adjusted 5/8; no D1/B0/P0 cap applies. D1 cap not applied because the proposition is the basal time-of-day difference actually measured."
+      }
+    },
+    {
+      "sha256": "e95210c54b65652fb7f108de31ec42d9c96ce8b1b478cb2d295e4c51e1cd70aa",
+      "record": {
+        "id": "brs6-pm8-pm8-f22-urolithin-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS6-FM4-PM8",
+        "findingId": "PM8-F22",
+        "assessmentStatus": "codex-provisional",
+        "humanReview": null,
+        "recordedOn": "2026-11-12",
+        "lastEvidenceAssessmentDate": "2026-11-12",
+        "reviewer": null,
+        "process": "Codex exact-proposition SEC appraisal of the PM8 urolithin A Findings after the owner-directed 12 November 2026 reassessment; primary full texts recovered for Toney 2019, Xia 2020, Abdulrahman 2020, Zelicha 2022 and Singh 2022; abstract only for Kang 2016 and Mora-Cubillos 2015.",
+        "methodology": {
+          "name": "SEC calibration rubric proposal",
+          "version": null,
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "proposition": "In high-fat-fed rodents, administered urolithin A raised circulating adiponectin and increased local adipose thyroid-hormone activation, and blocking thyroid-hormone synthesis abolished its fat-mass effect.",
+        "canonicalProposition": "In high-fat-fed rodents, administered urolithin A raised circulating adiponectin and increased local adipose thyroid-hormone activation, and blocking thyroid-hormone synthesis abolished its fat-mass effect.",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "conditional": null,
+        "rationale": {
+          "D": "The proposition is explicitly scoped to rodents and to the measured endpoints: circulating adiponectin (Toney) and adipose tissue T3/DIO2 activation with PTU ablation and T4 rescue (Xia). No human or food-derived claim is made.",
+          "B": "Vehicle-controlled designs; Xia adds a mechanistic ablation-and-rescue test and a thermoneutral arm. Residual risks: n=6–8 per group, male-only, randomisation and blinding not described, single laboratory per endpoint. No critical flaw that would explain the effects warrants B0.",
+          "P": "Toney adiponectin contrast p=0.0073 with reported SEM; Xia reports large fold changes in small groups. Directions are clear, but small samples leave effect sizes imprecise.",
+          "R": "Each endocrine component rests on one experiment (adiponectin: Toney; T3/DIO2: Xia). Rat visceral-fat and human adipocyte lipid studies address different endpoints and are not counted as replication."
+        },
+        "limitations": [
+          "Administered metabolite bypasses microbial production; doses are not food-equivalent.",
+          "Assessment is provisional and not qualified-human reviewed; SEC does not alter admissions or establish human efficacy."
+        ],
+        "sources": {
+          "supporting": [
+            "toney_urolithin_2019",
+            "xia_urolithin_thermogenesis_2020"
+          ],
+          "contextual": [
+            "abdulrahman_urolithins_obesity_2020",
+            "kang_urolithins_adipocytes_2016"
+          ],
+          "contradictory": [],
+          "contradictoryAssessment": "Some 3T3-L1 studies report lower adiponectin expression with urolithins; cell-line direction differs from the in vivo circulating result and is not scored against this rodent proposition.",
+          "targetedChecks": [
+            {
+              "doi": "10.1002/oby.22404",
+              "role": "load-bearing primary",
+              "access": "Wiley full text, Methods and Table 1 (retrieved 2026-11-12).",
+              "assessment": "n=8/group; daily i.p. 20 µg; adiponectin 12.9 ± 0.87 vs 18.1 ± 1.27 µg/dL, p=0.0073; Adipoq up; body weight unchanged."
+            },
+            {
+              "doi": "10.1371/journal.pbio.3000688",
+              "role": "load-bearing primary",
+              "access": "PMC7141696 full text (retrieved 2026-11-12).",
+              "assessment": "n=6/group; 30 mg/kg/day oral; tissue T3 up in BAT and iWAT with unchanged serum T3/T4; Dio2 and D2 activity up; PTU abolished and T4 restored effects."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://doi.org/10.1002/mnfr.201500796",
+              "limitation": "Kang 2016 full text not recovered; contextual human-adipocyte result taken from the primary abstract only."
+            }
+          ]
+        },
+        "capRationale": "D2, B1, P1, R0: raw and adjusted 4/8; no D1/B0/P0 cap applies.",
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-11-12",
+            "decision": "Initial provisional exact-proposition assessment 4/8; canonical statement unchanged."
+          }
+        ],
+        "assessmentComplete": true
+      }
+    },
+    {
+      "sha256": "378df8b00c55ae1507fd611c1798659f6c490fb06ee22ee46b2a89b36593ecfd",
+      "record": {
+        "id": "brs6-pm8-pm8-f23-urolithin-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS6-FM4-PM8",
+        "findingId": "PM8-F23",
+        "assessmentStatus": "codex-provisional",
+        "humanReview": null,
+        "recordedOn": "2026-11-12",
+        "lastEvidenceAssessmentDate": "2026-11-12",
+        "reviewer": null,
+        "process": "Codex exact-proposition SEC appraisal of the PM8 urolithin A Findings after the owner-directed 12 November 2026 reassessment; primary full texts recovered for Toney 2019, Xia 2020, Abdulrahman 2020, Zelicha 2022 and Singh 2022; abstract only for Kang 2016 and Mora-Cubillos 2015.",
+        "methodology": {
+          "name": "SEC calibration rubric proposal",
+          "version": null,
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "proposition": "In the DIRECT-PLUS trial, a larger rise in urinary urolithin A was associated with greater visceral-fat loss and with walnut and Mankai intake.",
+        "canonicalProposition": "In the DIRECT-PLUS trial, a larger rise in urinary urolithin A was associated with greater visceral-fat loss and with walnut and Mankai intake.",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "conditional": null,
+        "rationale": {
+          "D": "The proposition is the measured association itself: change in urinary urolithin A against MRI-measured VAT change, and against recorded walnut and Mankai intake, within DIRECT-PLUS.",
+          "B": "Randomised parent trial with MRI VAT and FDR control across 139 metabolites; the association persisted after waist adjustment. However, urolithin A was not randomised, the analysis was exploratory, and confounding by adherence or weight loss cannot be excluded.",
+          "P": "VAT correlation r=−0.241 (q=0.00036) excludes zero but explains little variance; the walnut (p=0.035) and Mankai (p=0.044) correlations are marginal.",
+          "R": "Mora-Cubillos 2015 is directionally consistent but measures waist, cross-sectionally, in a different design; it is not exact-proposition replication of the VAT association."
+        },
+        "limitations": [
+          "Association only; not evidence that urolithin A mediates VAT loss or adipose endocrine change.",
+          "Assessment is provisional and not qualified-human reviewed."
+        ],
+        "sources": {
+          "supporting": [
+            "zelicha_effect_2022"
+          ],
+          "contextual": [
+            "mora_cubillos_nut_metabolomics_2015"
+          ],
+          "contradictory": [],
+          "contradictoryAssessment": "No retrieved human study reports an opposite urolithin–VAT association. The ATLAS null fat-mass result tests supplementation, a different proposition (PM8-F24).",
+          "targetedChecks": [
+            {
+              "doi": "10.1186/s12916-022-02525-8",
+              "role": "load-bearing primary",
+              "access": "PMC9523931 full text (retrieved 2026-11-12).",
+              "assessment": "Exploratory urine polyphenols; urolithin A the only metabolite significant after Benjamini–Hochberg correction; r=−0.241 with VAT change; walnut r=0.14, Mankai r=0.24."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://doi.org/10.1002/mnfr.201500549",
+              "limitation": "Mora-Cubillos 2015 full text not recovered; waist correlations taken from the primary abstract only."
+            }
+          ]
+        },
+        "capRationale": "D2, B1, P1, R0: raw and adjusted 4/8; no D1/B0/P0 cap applies.",
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-11-12",
+            "decision": "Initial provisional exact-proposition assessment 4/8; canonical statement unchanged."
+          }
+        ],
+        "assessmentComplete": true
+      }
+    },
+    {
+      "sha256": "1db09c6541fd604fd2ac57f311fa349131faef6cc0ddc1b4dbe3a35453436e2e",
+      "record": {
+        "id": "brs6-pm8-pm8-f23-urolithin-assessment",
+        "recordVersion": 2,
+        "pmId": "BRS6-FM4-PM8",
+        "findingId": "PM8-F23",
+        "assessmentStatus": "codex-provisional",
+        "humanReview": null,
+        "recordedOn": "2026-11-12",
+        "lastEvidenceAssessmentDate": "2026-11-12",
+        "reviewer": null,
+        "process": "Codex exact-proposition SEC appraisal of the PM8 urolithin A Findings after the owner-directed 12 November 2026 reassessment; primary full texts recovered for Toney 2019, Xia 2020, Abdulrahman 2020, Zelicha 2022 and Singh 2022; abstract only for Kang 2016 and Mora-Cubillos 2015.",
+        "methodology": {
+          "name": "SEC calibration rubric proposal",
+          "version": null,
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "proposition": "In humans, higher urolithin A production has tracked greater visceral-fat loss and nut intake, while four months of supplementation did not change total fat mass.",
+        "canonicalProposition": "In humans, higher urolithin A production has tracked greater visceral-fat loss and nut intake, while four months of supplementation did not change total fat mass.",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "conditional": null,
+        "rationale": {
+          "D": "The proposition states two measured human results and no causal or endocrine claim: the DIRECT-PLUS association of urinary urolithin A with visceral-fat change and nut intake, and the ATLAS report that four-month supplementation did not change DXA total fat mass.",
+          "B": "The association sits in a randomised parent trial with MRI visceral fat and false-discovery control, but urolithin A was not randomised and the analysis was exploratory. The supplementation result is from a randomised, double-blind, placebo-controlled trial, with fat mass as a secondary outcome not designed for adiposity.",
+          "P": "The scored magnitude is the visceral-fat correlation (r=−0.241, q=0.00036), which excludes zero but explains little variance; the walnut and Mankai correlations are marginal. The fat-mass clause records the trial's reported absence of change. No interval for that contrast was retrieved, so this factor does not treat the null as a precise zero.",
+          "R": "Mora-Cubillos 2015 is directionally consistent on waist and is not exact replication of the visceral-fat association. ATLAS uses a different exposure and endpoint and is not replication. One cohort, DIRECT-PLUS, carries the visceral-fat association."
+        },
+        "limitations": [
+          "Association only; not evidence that urolithin A mediates visceral-fat loss or adipose endocrine change.",
+          "The supplementation fat-mass contrast has no retrieved interval, so this score does not quantify that null.",
+          "Assessment is provisional and not qualified-human reviewed."
+        ],
+        "sources": {
+          "supporting": [
+            "zelicha_effect_2022"
+          ],
+          "contextual": [
+            "mora_cubillos_nut_metabolomics_2015"
+          ],
+          "contradictory": [
+            "singh_urolithin_atlas_2022"
+          ],
+          "contradictoryAssessment": "ATLAS reported no change in DXA total fat mass after four months of supplementation. It bounds fat-mass extrapolation. It does not reverse the urinary visceral-fat association, and it did not measure visceral fat or an adipokine.",
+          "targetedChecks": [
+            {
+              "doi": "10.1186/s12916-022-02525-8",
+              "role": "load-bearing primary",
+              "access": "PMC9523931 full text (retrieved 2026-11-12).",
+              "assessment": "Exploratory urine polyphenols; urolithin A the only metabolite significant after Benjamini–Hochberg correction; r=−0.241 with VAT change; walnut r=0.14, Mankai r=0.24."
+            },
+            {
+              "doi": "10.1016/j.xcrm.2022.100633",
+              "role": "contradictory primary",
+              "access": "PMC9133463 full text and supplementary body-composition table (retrieved 2026-11-12).",
+              "assessment": "n=88; 500 or 1,000 mg/day for 4 months; total fat mass change +0.4%, +0.9%, −1.2%; reported as unchanged across groups. Fenced into PM8-F23 rather than scored as its own finding."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://doi.org/10.1002/mnfr.201500549",
+              "limitation": "Mora-Cubillos 2015 full text not recovered; waist correlations taken from the primary abstract only."
+            },
+            {
+              "url": "https://doi.org/10.1016/j.xcrm.2022.100633",
+              "limitation": "Supplementary variance or interval data for the fat-mass contrast were not recovered; the contrast is a bound, not a precise null."
+            }
+          ]
+        },
+        "capRationale": "D2, B1, P1, R0: raw and adjusted 4/8; no D1/B0/P0 cap applies.",
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-11-12",
+            "decision": "Initial provisional exact-proposition assessment 4/8; canonical statement unchanged."
+          },
+          {
+            "version": 2,
+            "date": "2026-11-12",
+            "decision": "Proposition widened so the human adiposity evidence, including the ATLAS fat-mass result previously held as PM8-F24, is one finding. Confidence not promoted: the association remains 4/8, and the fat-mass contrast stays a bound without a retrieved interval."
+          }
+        ],
+        "assessmentComplete": true
+      }
     }
   ]
 }

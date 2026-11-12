@@ -712,7 +712,7 @@ Stage 2A evidence discovery may reuse ingredient pathway records, but must not g
 
 ## Mandatory author approval for presentation changes
 
-Follow [presentation-change-control.md](presentation-change-control.md). Scientific data integration does not authorise public presentation. New substantive blocks require a proposal, representative rendered example, page-type/count scope, updated contract and explicit prior author approval. Run `npm run presentation:check`; never regenerate the baseline or invent an approval to bypass a failure. Both Dietary pathways technical panels are withdrawn across all page types; preserve their data without public projection. This rule supersedes earlier instructions permitting automatic pathway displays.
+Follow [presentation-change-control.md](presentation-change-control.md). Scientific data integration does not authorise public presentation. New substantive blocks require a proposal, representative rendered example, page-type/count scope, updated contract and explicit prior author approval. The presentation build gate is off by owner instruction on 12 November 2026: do not switch it back on, regenerate the baseline, or invent an approval. Both Dietary pathways technical panels are withdrawn across all page types; preserve their data without public projection. This rule supersedes earlier instructions permitting automatic pathway displays.
 
 ## SOP/Lifestyle Mechanism-of-Action integrity — 2 November 2026
 

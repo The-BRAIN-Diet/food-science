@@ -17,7 +17,7 @@
         "food": "unresolved"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": null,
       "food_title": null,
       "food_material": null,
@@ -37,7 +37,24 @@
       },
       "preparation": null,
       "delivery": null,
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "BRS5-FM1-PM1::PM1-DIT-2",
+          "to": "butyrate",
+          "process": "Microbial fermentation of appropriate dietary substrates can generate butyrate.",
+          "dependencies": [
+            "Substrate-specific fermentability",
+            "Dose and microbial ecology"
+          ],
+          "limitations": "Production depends on fibre structure, dose and microbial ecology. Evidence for specific fibres must not be generalised to all fibre, and this relationship does not establish a universal intake threshold or response. The direct assembly experiment is an immortalised epithelial-cell model. Fibre-to-butyrate conversion varies by fibre structure and microbial ecology, and neither source establishes a universal human intake threshold, a generic effect of all fibre, or oral butyrate as necessary treatment.",
+          "evidence": {
+            "statement": "Provides fermentable carbohydrate to gut microbes for short-chain-fatty-acid, including butyrate, production upstream of epithelial barrier effects.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#silva_role_2020"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "Production depends on fibre structure, dose and microbial ecology. Evidence for specific fibres must not be generalised to all fibre, and this relationship does not establish a universal intake threshold or response."
       ],
@@ -54,11 +71,11 @@
       "canonical_substance_id": "vitamin-a",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "butter",
       "food_title": "Butter",
       "food_material": "Butter, without salt",
@@ -90,7 +107,22 @@
       },
       "preparation": null,
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-a",
+          "to": "retinoic-acid",
+          "process": "Form-dependent metabolism of dietary retinoids and provitamin A precursors supports retinoic-acid formation.",
+          "dependencies": [],
+          "limitations": "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1. Cell experiments and mechanistic synthesis do not define dietary thresholds or extra-intake benefit.",
+          "evidence": {
+            "statement": "Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for epithelial differentiation and barrier maintenance.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019",
+              "docs/papers/BRAIN-Diet-References#li_retinoid_junction_2017"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
       ],
@@ -107,11 +139,81 @@
       "canonical_substance_id": "vitamin-a",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
+      "food_target": "chicken-liver",
+      "food_title": "Chicken Liver",
+      "food_material": "Chicken, liver, all classes, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20A",
+          "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+          "source_reference": null,
+          "citation_keys": [
+            "usda_chicken_liver_raw_sr_legacy_2019"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports 3,296 µg RAE vitamin A per 100 g in Chicken, liver, all classes, raw (FDC 171060), of which 3,290 µg is retinol and 56 µg is beta-carotene."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "from": "vitamin-a",
+          "to": "retinoic-acid",
+          "process": "Form-dependent metabolism of dietary retinoids and provitamin A precursors supports retinoic-acid formation.",
+          "dependencies": [],
+          "limitations": "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1. Cell experiments and mechanistic synthesis do not define dietary thresholds or extra-intake benefit.",
+          "evidence": {
+            "statement": "Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for epithelial differentiation and barrier maintenance.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019",
+              "docs/papers/BRAIN-Diet-References#li_retinoid_junction_2017"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Vitamin A",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "vitamin-a",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
       "food_target": "egg-yolks",
       "food_title": "Egg Yolks",
       "food_material": "Egg, yolk, raw, fresh",
@@ -143,7 +245,22 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-a",
+          "to": "retinoic-acid",
+          "process": "Form-dependent metabolism of dietary retinoids and provitamin A precursors supports retinoic-acid formation.",
+          "dependencies": [],
+          "limitations": "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1. Cell experiments and mechanistic synthesis do not define dietary thresholds or extra-intake benefit.",
+          "evidence": {
+            "statement": "Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for epithelial differentiation and barrier maintenance.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019",
+              "docs/papers/BRAIN-Diet-References#li_retinoid_junction_2017"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
       ],
@@ -160,11 +277,11 @@
       "canonical_substance_id": "vitamin-a",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "ghee",
       "food_title": "Ghee",
       "food_material": "Butter oil, anhydrous",
@@ -196,7 +313,22 @@
       },
       "preparation": "oil",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-a",
+          "to": "retinoic-acid",
+          "process": "Form-dependent metabolism of dietary retinoids and provitamin A precursors supports retinoic-acid formation.",
+          "dependencies": [],
+          "limitations": "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1. Cell experiments and mechanistic synthesis do not define dietary thresholds or extra-intake benefit.",
+          "evidence": {
+            "statement": "Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for epithelial differentiation and barrier maintenance.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019",
+              "docs/papers/BRAIN-Diet-References#li_retinoid_junction_2017"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
       ],
@@ -213,11 +345,11 @@
       "canonical_substance_id": "vitamin-a",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "grass-fed-butter",
       "food_title": "Grass-Fed Butter",
       "food_material": "Butter, without salt",
@@ -249,7 +381,22 @@
       },
       "preparation": null,
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-a",
+          "to": "retinoic-acid",
+          "process": "Form-dependent metabolism of dietary retinoids and provitamin A precursors supports retinoic-acid formation.",
+          "dependencies": [],
+          "limitations": "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1. Cell experiments and mechanistic synthesis do not define dietary thresholds or extra-intake benefit.",
+          "evidence": {
+            "statement": "Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for epithelial differentiation and barrier maintenance.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019",
+              "docs/papers/BRAIN-Diet-References#li_retinoid_junction_2017"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
       ],
@@ -266,11 +413,11 @@
       "canonical_substance_id": "vitamin-a",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "kale",
       "food_title": "Kale",
       "food_material": "Kale, raw",
@@ -302,7 +449,22 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-a",
+          "to": "retinoic-acid",
+          "process": "Form-dependent metabolism of dietary retinoids and provitamin A precursors supports retinoic-acid formation.",
+          "dependencies": [],
+          "limitations": "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1. Cell experiments and mechanistic synthesis do not define dietary thresholds or extra-intake benefit.",
+          "evidence": {
+            "statement": "Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for epithelial differentiation and barrier maintenance.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019",
+              "docs/papers/BRAIN-Diet-References#li_retinoid_junction_2017"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
       ],
@@ -319,13 +481,13 @@
       "canonical_substance_id": "vitamin-a",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "liver",
-      "food_title": "Liver",
+      "food_title": "Liver (beef)",
       "food_material": "Beef, variety meats and by-products, liver, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -355,7 +517,22 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-a",
+          "to": "retinoic-acid",
+          "process": "Form-dependent metabolism of dietary retinoids and provitamin A precursors supports retinoic-acid formation.",
+          "dependencies": [],
+          "limitations": "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1. Cell experiments and mechanistic synthesis do not define dietary thresholds or extra-intake benefit.",
+          "evidence": {
+            "statement": "Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for epithelial differentiation and barrier maintenance.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019",
+              "docs/papers/BRAIN-Diet-References#li_retinoid_junction_2017"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
       ],
@@ -372,11 +549,11 @@
       "canonical_substance_id": "vitamin-a",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "romaine-lettuce",
       "food_title": "Romaine Lettuce",
       "food_material": "Lettuce, cos or romaine, raw",
@@ -408,7 +585,22 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-a",
+          "to": "retinoic-acid",
+          "process": "Form-dependent metabolism of dietary retinoids and provitamin A precursors supports retinoic-acid formation.",
+          "dependencies": [],
+          "limitations": "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1. Cell experiments and mechanistic synthesis do not define dietary thresholds or extra-intake benefit.",
+          "evidence": {
+            "statement": "Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for epithelial differentiation and barrier maintenance.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019",
+              "docs/papers/BRAIN-Diet-References#li_retinoid_junction_2017"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
       ],
@@ -425,11 +617,11 @@
       "canonical_substance_id": "vitamin-a",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "salmon-roe",
       "food_title": "Salmon Roe",
       "food_material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
@@ -461,7 +653,22 @@
       },
       "preparation": "salted",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-a",
+          "to": "retinoic-acid",
+          "process": "Form-dependent metabolism of dietary retinoids and provitamin A precursors supports retinoic-acid formation.",
+          "dependencies": [],
+          "limitations": "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1. Cell experiments and mechanistic synthesis do not define dietary thresholds or extra-intake benefit.",
+          "evidence": {
+            "statement": "Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for epithelial differentiation and barrier maintenance.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019",
+              "docs/papers/BRAIN-Diet-References#li_retinoid_junction_2017"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
       ],
@@ -478,11 +685,11 @@
       "canonical_substance_id": "vitamin-a",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "spinach",
       "food_title": "Spinach",
       "food_material": "Spinach, raw",
@@ -514,7 +721,22 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-a",
+          "to": "retinoic-acid",
+          "process": "Form-dependent metabolism of dietary retinoids and provitamin A precursors supports retinoic-acid formation.",
+          "dependencies": [],
+          "limitations": "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1. Cell experiments and mechanistic synthesis do not define dietary thresholds or extra-intake benefit.",
+          "evidence": {
+            "statement": "Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for epithelial differentiation and barrier maintenance.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019",
+              "docs/papers/BRAIN-Diet-References#li_retinoid_junction_2017"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
       ],
@@ -531,11 +753,11 @@
       "canonical_substance_id": "vitamin-a",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "swiss-chard",
       "food_title": "Swiss Chard",
       "food_material": "Chard, swiss, raw",
@@ -567,7 +789,22 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-a",
+          "to": "retinoic-acid",
+          "process": "Form-dependent metabolism of dietary retinoids and provitamin A precursors supports retinoic-acid formation.",
+          "dependencies": [],
+          "limitations": "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1. Cell experiments and mechanistic synthesis do not define dietary thresholds or extra-intake benefit.",
+          "evidence": {
+            "statement": "Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for epithelial differentiation and barrier maintenance.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019",
+              "docs/papers/BRAIN-Diet-References#li_retinoid_junction_2017"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
       ],
@@ -2368,7 +2605,7 @@
       "food_evidence": [
         {
           "record": "docs/foods/beef.md#substance_relationships/Glutamine",
-          "evidence": "Lenders et al. (2009), Table 1: protein-sequence-based occurrence.",
+          "evidence": "Lenders et al. (2009), Table 2: food-specific protein-sequence model.",
           "source_url": "https://doi.org/10.1038/ejcn.2009.110",
           "source_reference": null,
           "citation_keys": [
@@ -2426,7 +2663,7 @@
       "food_evidence": [
         {
           "record": "docs/foods/eggs.md#substance_relationships/Glutamine",
-          "evidence": "Lenders et al. (2009), Table 1: protein-sequence-based occurrence.",
+          "evidence": "Lenders et al. (2009), Table 2: food-specific protein-sequence model.",
           "source_url": "https://doi.org/10.1038/ejcn.2009.110",
           "source_reference": null,
           "citation_keys": [
@@ -2484,7 +2721,7 @@
       "food_evidence": [
         {
           "record": "docs/foods/tofu.md#substance_relationships/Glutamine",
-          "evidence": "Lenders et al. (2009), Table 1: protein-sequence-based occurrence.",
+          "evidence": "Lenders et al. (2009), Table 2: food-specific protein-sequence model.",
           "source_url": "https://doi.org/10.1038/ejcn.2009.110",
           "source_reference": null,
           "citation_keys": [
@@ -2565,9 +2802,9 @@
       "dietary_input": "Type 2 resistant starch (tested aged-mouse exposure)",
       "type": "B",
       "classification": "direct",
-      "canonical_substance_id": null,
+      "canonical_substance_id": "resistant-starch-type-2-zhang-2020",
       "ontology_connections": {
-        "identity": "unresolved",
+        "identity": "resolved",
         "conversion": "not-applicable",
         "food": "unresolved"
       },
@@ -2688,9 +2925,9 @@
       "dietary_input": "Oligofructose-enriched inulin",
       "type": "B",
       "classification": "direct",
-      "canonical_substance_id": null,
+      "canonical_substance_id": "oligofructose-enriched-inulin-schroeder-2018",
       "ontology_connections": {
-        "identity": "unresolved",
+        "identity": "resolved",
         "conversion": "not-applicable",
         "food": "unresolved"
       },
@@ -2729,9 +2966,9 @@
       "dietary_input": "Bifidobacterium longum NCC2705",
       "type": "B",
       "classification": "direct",
-      "canonical_substance_id": null,
+      "canonical_substance_id": "bifidobacterium-longum-ncc2705",
       "ontology_connections": {
-        "identity": "unresolved",
+        "identity": "resolved",
         "conversion": "not-applicable",
         "food": "unresolved"
       },
@@ -2828,19 +3065,30 @@
       "ontology_connections": {
         "identity": "resolved",
         "conversion": "not-applicable",
-        "food": "unresolved"
+        "food": "supported"
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": null,
-      "food_title": null,
-      "food_material": null,
+      "food_target": "apples",
+      "food_title": "Apples",
+      "food_material": "Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
       "ontology_relationship_status": null,
       "reconciled_sources": [],
-      "mapping_status": "unresolved",
-      "food_evidence": null,
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/apples.md#substance_relationships/Pectin",
+          "evidence": "Liu et al. (2023), pectin isolated from thirteen apple cultivars.",
+          "source_url": "https://doi.org/10.1016/j.ijbiomac.2023.125410",
+          "source_reference": "/docs/papers/BRAIN-Diet-References#liu_apple_pectin_2023",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "supported-qualitative",
+          "limitations": "Cultivar, plant part and extraction method affect the isolated fractions. No edible-food concentration is established; total fibre is not pectin quantity. Not equivalent to citrus pectin or a studied isolated apple-pectin protocol."
+        }
+      ],
       "pm_evidence": {
         "finding_ids": [
           "PM4-F1"
@@ -2849,11 +3097,227 @@
           "patnode_interspecies_2019"
         ]
       },
-      "preparation": null,
-      "delivery": null,
+      "preparation": "raw",
+      "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
-        "Defined-community mouse experiments and glycan assays do not establish equivalence across all pectins, a human intake target or beneficial host outcomes."
+        "Defined-community mouse experiments and glycan assays do not establish equivalence across all pectins, a human intake target or beneficial host outcomes. The studied citrus-pectin preparation is not whole orange or lemon, and it is not the apple-pectin record."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM4",
+      "biological_mechanism": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "dietary_input": "Citrus pectin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "pectin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "apples",
+      "food_title": "Apples",
+      "food_material": "Peel, flesh and core from thirteen apple cultivars, extracted as analytical fractions",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/apples.md#substance_relationships/Pectin",
+          "evidence": "Liu et al. (2023)",
+          "source_url": "https://doi.org/10.1016/j.ijbiomac.2023.125410",
+          "source_reference": null,
+          "citation_keys": [
+            "liu_apple_pectin_2023"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Liu et al. (2023) isolated pectin from thirteen apple cultivars. USDA reports total fibre and does not give a per-100 g pectin amount. Whole fruit is not purified citrus pectin and is not the tested apple-pectin preparation."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F1"
+        ],
+        "citation_keys": [
+          "patnode_interspecies_2019"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Defined-community mouse experiments and glycan assays do not establish equivalence across all pectins, a human intake target or beneficial host outcomes. The studied citrus-pectin preparation is not whole orange or lemon, and it is not the apple-pectin record."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM4",
+      "biological_mechanism": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "dietary_input": "Citrus pectin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "pectin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "lemon",
+      "food_title": "Lemon",
+      "food_material": "Meyer lemon flavedo, albedo, membrane and juice sacs recovered after juice extraction",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/lemon.md#substance_relationships/Pectin",
+          "evidence": "Braddock et al. (1976)",
+          "source_url": "https://doi.org/10.1111/j.1365-2621.1976.tb01201.x",
+          "source_reference": null,
+          "citation_keys": [
+            "braddock_meyer_lemon_pectin_1976"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Braddock et al. (1976) recovered pectin from Meyer lemon flavedo, albedo, membrane and juice sacs after juice extraction. USDA reports total fibre for lemons raw without peel and does not give a per-100 g pectin amount. This is not the purified citrus pectin used in defined-community experiments."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F1"
+        ],
+        "citation_keys": [
+          "patnode_interspecies_2019"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Defined-community mouse experiments and glycan assays do not establish equivalence across all pectins, a human intake target or beneficial host outcomes. The studied citrus-pectin preparation is not whole orange or lemon, and it is not the apple-pectin record."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM4",
+      "biological_mechanism": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "dietary_input": "Citrus pectin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "pectin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "oranges",
+      "food_title": "Oranges",
+      "food_material": "Peel, albedo, pulp and juice of ripe pêra, Valência, Lima, Natal and Bahia oranges",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/oranges.md#substance_relationships/Pectin",
+          "evidence": "Ywassaki and Canniatti-Brazaca (2011)",
+          "source_url": "https://doi.org/10.1590/s0101-20612011000200007",
+          "source_reference": null,
+          "citation_keys": [
+            "ywassaki_citrus_pectin_2011"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Ywassaki and Canniatti-Brazaca (2011) measured pectin in peel, albedo, pulp and juice of several ripe orange cultivars. USDA reports total fibre and does not give a per-100 g pectin amount. Whole fruit and juice are not the purified citrus pectin used in defined-community experiments."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F1"
+        ],
+        "citation_keys": [
+          "patnode_interspecies_2019"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Defined-community mouse experiments and glycan assays do not establish equivalence across all pectins, a human intake target or beneficial host outcomes. The studied citrus-pectin preparation is not whole orange or lemon, and it is not the apple-pectin record."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM4",
+      "biological_mechanism": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "dietary_input": "Citrus pectin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "pectin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "pears",
+      "food_title": "Pears",
+      "food_material": "Bartlett pear fruit during maturation and after-ripening",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/pears.md#substance_relationships/Pectin",
+          "evidence": "Miura et al. (1963)",
+          "source_url": "https://doi.org/10.2503/jjshs.32.27",
+          "source_reference": null,
+          "citation_keys": [
+            "miura_bartlett_pear_pectin_1963"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Miura et al. (1963) measured pectic fractions in Bartlett pears. USDA reports total fibre and does not give a per-100 g pectin amount. This is not a standardised pectin dose and is not the purified citrus pectin used in defined-community experiments."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F1"
+        ],
+        "citation_keys": [
+          "patnode_interspecies_2019"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Defined-community mouse experiments and glycan assays do not establish equivalence across all pectins, a human intake target or beneficial host outcomes. The studied citrus-pectin preparation is not whole orange or lemon, and it is not the apple-pectin record."
       ],
       "missing_ontology_edge": null
     },
@@ -3635,11 +4099,284 @@
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
       "food_target": "apples",
+      "food_title": "Apples",
+      "food_material": "Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/apples.md#substance_relationships/Pectin",
+          "evidence": "Liu et al. (2023), pectin isolated from thirteen apple cultivars.",
+          "source_url": "https://doi.org/10.1016/j.ijbiomac.2023.125410",
+          "source_reference": "/docs/papers/BRAIN-Diet-References#liu_apple_pectin_2023",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "supported-qualitative",
+          "limitations": "Cultivar, plant part and extraction method affect the isolated fractions. No edible-food concentration is established; total fibre is not pectin quantity. Not equivalent to citrus pectin or a studied isolated apple-pectin protocol."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "pascale_potential_2022",
+          "bang_pectin_2018"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Pectin structure, purified preparation, donor community and enriched culture medium affect interpretation. Pascale is secondary synthesis; Bang is bounded primary culture evidence. Whole apples are not equivalent to the tested citrus preparation; no human brain or clinical benefit is established."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Pectin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "pectin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "apples",
+      "food_title": "Apples",
+      "food_material": "Peel, flesh and core from thirteen apple cultivars, extracted as analytical fractions",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/apples.md#substance_relationships/Pectin",
+          "evidence": "Liu et al. (2023)",
+          "source_url": "https://doi.org/10.1016/j.ijbiomac.2023.125410",
+          "source_reference": null,
+          "citation_keys": [
+            "liu_apple_pectin_2023"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Liu et al. (2023) isolated pectin from thirteen apple cultivars. USDA reports total fibre and does not give a per-100 g pectin amount. Whole fruit is not purified citrus pectin and is not the tested apple-pectin preparation."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "pascale_potential_2022",
+          "bang_pectin_2018"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Pectin structure, purified preparation, donor community and enriched culture medium affect interpretation. Pascale is secondary synthesis; Bang is bounded primary culture evidence. Whole apples are not equivalent to the tested citrus preparation; no human brain or clinical benefit is established."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Pectin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "pectin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "lemon",
+      "food_title": "Lemon",
+      "food_material": "Meyer lemon flavedo, albedo, membrane and juice sacs recovered after juice extraction",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/lemon.md#substance_relationships/Pectin",
+          "evidence": "Braddock et al. (1976)",
+          "source_url": "https://doi.org/10.1111/j.1365-2621.1976.tb01201.x",
+          "source_reference": null,
+          "citation_keys": [
+            "braddock_meyer_lemon_pectin_1976"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Braddock et al. (1976) recovered pectin from Meyer lemon flavedo, albedo, membrane and juice sacs after juice extraction. USDA reports total fibre for lemons raw without peel and does not give a per-100 g pectin amount. This is not the purified citrus pectin used in defined-community experiments."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "pascale_potential_2022",
+          "bang_pectin_2018"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Pectin structure, purified preparation, donor community and enriched culture medium affect interpretation. Pascale is secondary synthesis; Bang is bounded primary culture evidence. Whole apples are not equivalent to the tested citrus preparation; no human brain or clinical benefit is established."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Pectin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "pectin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "oranges",
+      "food_title": "Oranges",
+      "food_material": "Peel, albedo, pulp and juice of ripe pêra, Valência, Lima, Natal and Bahia oranges",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/oranges.md#substance_relationships/Pectin",
+          "evidence": "Ywassaki and Canniatti-Brazaca (2011)",
+          "source_url": "https://doi.org/10.1590/s0101-20612011000200007",
+          "source_reference": null,
+          "citation_keys": [
+            "ywassaki_citrus_pectin_2011"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Ywassaki and Canniatti-Brazaca (2011) measured pectin in peel, albedo, pulp and juice of several ripe orange cultivars. USDA reports total fibre and does not give a per-100 g pectin amount. Whole fruit and juice are not the purified citrus pectin used in defined-community experiments."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "pascale_potential_2022",
+          "bang_pectin_2018"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Pectin structure, purified preparation, donor community and enriched culture medium affect interpretation. Pascale is secondary synthesis; Bang is bounded primary culture evidence. Whole apples are not equivalent to the tested citrus preparation; no human brain or clinical benefit is established."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Pectin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "pectin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "pears",
+      "food_title": "Pears",
+      "food_material": "Bartlett pear fruit during maturation and after-ripening",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/pears.md#substance_relationships/Pectin",
+          "evidence": "Miura et al. (1963)",
+          "source_url": "https://doi.org/10.2503/jjshs.32.27",
+          "source_reference": null,
+          "citation_keys": [
+            "miura_bartlett_pear_pectin_1963"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Miura et al. (1963) measured pectic fractions in Bartlett pears. USDA reports total fibre and does not give a per-100 g pectin amount. This is not a standardised pectin dose and is not the purified citrus pectin used in defined-community experiments."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "pascale_potential_2022",
+          "bang_pectin_2018"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Pectin structure, purified preparation, donor community and enriched culture medium affect interpretation. Pascale is secondary synthesis; Bang is bounded primary culture evidence. Whole apples are not equivalent to the tested citrus preparation; no human brain or clinical benefit is established."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Pectin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "pectin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "apples",
       "food_title": "Apples (studied cultivars)",
       "food_material": "Analytical cell-wall pectin fractions from the thirteen apple cultivars studied by Liu et al.",
-      "material_equivalence_status": "not-applicable",
-      "material_equivalence_reason": null,
-      "ontology_relationship_status": "missing-context-edge",
+      "material_equivalence_status": "review-required",
+      "material_equivalence_reason": "Preparation equivalence is not established.",
+      "ontology_relationship_status": "material-equivalence-review",
       "reconciled_sources": [],
       "mapping_status": "research-supported-provisional",
       "food_evidence": {
@@ -3666,7 +4403,7 @@
         "Pectin structure, purified preparation, donor community and enriched culture medium affect interpretation. Pascale is secondary synthesis; Bang is bounded primary culture evidence. Whole apples are not equivalent to the tested citrus preparation; no human brain or clinical benefit is established.",
         "Qualitative supply only; retain cultivar, fraction and food-matrix variation. No per-100-g pectin amount inferred from total fibre; whole fruit is not purified citrus pectin."
       ],
-      "missing_ontology_edge": "apples → pectin [Analytical cell-wall pectin fractions from the thirteen apple cultivars studied by Liu et al.; Cultivar-specific extracted analytical fractions; not a standardised pectin dose]"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS5",
@@ -3784,11 +4521,11 @@
       "canonical_substance_id": "ellagitannins",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "pomegranates",
       "food_title": "Pomegranates",
       "food_material": "Commercial single-strength pomegranate juice",
@@ -3817,9 +4554,26 @@
           "singh_direct_2022"
         ]
       },
-      "preparation": "Commercial single-strength juice; gallagyl-type tannins, not every ellagitannin",
+      "preparation": "Juice sample",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "ellagitannins",
+          "to": "ellagic-acid",
+          "process": "Ellagitannin hydrolysis releases ellagic acid upstream of microbial urolithin formation.",
+          "dependencies": [
+            "Hydrolysable ellagitannin substrate in its food matrix",
+            "Microbial competence is required for the separate downstream urolithin stage, not equated with ellagitannin hydrolysis"
+          ],
+          "limitations": "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies. Species participation does not establish that those species alone form urolithin A or that all people convert food exposures similarly.",
+          "evidence": {
+            "statement": "Hydrolysis releases ellagic acid upstream of microbial urolithin formation.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#singh_direct_2022"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies."
       ],
@@ -3836,11 +4590,11 @@
       "canonical_substance_id": "ellagitannins",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "walnuts",
       "food_title": "Walnuts",
       "food_material": "Walnut kernels",
@@ -3850,7 +4604,7 @@
       "reconciled_sources": [
         {
           "material": "Walnut kernels",
-          "preparation": "Walnut kernels; assay-specific extraction",
+          "preparation": "Kernels",
           "evidence": {
             "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
             "sources": [
@@ -3892,9 +4646,26 @@
           "singh_direct_2022"
         ]
       },
-      "preparation": "Walnut kernels; assay-specific extraction",
+      "preparation": "Kernels",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "ellagitannins",
+          "to": "ellagic-acid",
+          "process": "Ellagitannin hydrolysis releases ellagic acid upstream of microbial urolithin formation.",
+          "dependencies": [
+            "Hydrolysable ellagitannin substrate in its food matrix",
+            "Microbial competence is required for the separate downstream urolithin stage, not equated with ellagitannin hydrolysis"
+          ],
+          "limitations": "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies. Species participation does not establish that those species alone form urolithin A or that all people convert food exposures similarly.",
+          "evidence": {
+            "statement": "Hydrolysis releases ellagic acid upstream of microbial urolithin formation.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#singh_direct_2022"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies."
       ],
@@ -4308,9 +5079,9 @@
       "dietary_input": "Lactobacillus rhamnosus JB-1",
       "type": "B",
       "classification": "direct",
-      "canonical_substance_id": null,
+      "canonical_substance_id": "lacticaseibacillus-rhamnosus-jb-1",
       "ontology_connections": {
-        "identity": "unresolved",
+        "identity": "resolved",
         "conversion": "not-applicable",
         "food": "unresolved"
       },
@@ -5160,7 +5931,7 @@
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "soy",
-      "food_title": "Soy",
+      "food_title": "Mature soybeans",
       "food_material": "Soybeans, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -5257,9 +6028,9 @@
       "dietary_input": "Apple pectin (studied preparation)",
       "type": "B",
       "classification": "direct",
-      "canonical_substance_id": null,
+      "canonical_substance_id": "apple-pectin-sinha-2024",
       "ontology_connections": {
-        "identity": "unresolved",
+        "identity": "resolved",
         "conversion": "not-applicable",
         "food": "unresolved"
       },

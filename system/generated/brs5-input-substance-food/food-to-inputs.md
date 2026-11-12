@@ -37,6 +37,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Cheddar Cheese | 3 | zinc; linoleic-acid; vitamin-a; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Cherries | 3 | vitamin-a; linoleic-acid; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Chia Seeds | 2 | linoleic-acid; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Chicken Liver | 3 | vitamin-a; magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Chicken | 3 | zinc; magnesium; linoleic-acid; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Chickpeas | 4 | magnesium; zinc; resistant-starch; vitamin-a; linoleic-acid | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5; BRS5-FM3-PM7 | BRS5(KC1) |
 | Chicory Root | 1 | zinc; magnesium | BRS5-FM1-PM1 |  |

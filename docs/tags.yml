@@ -807,6 +807,11 @@ Chicken:
   permalink: /chicken
   description: Poultry providing complete protein
 
+Chicken Liver:
+  label: Chicken Liver
+  permalink: /chicken-liver
+  description: Poultry offal rich in vitamin A, B12, folate and iron
+
 Chickpeas:
   label: Chickpeas
   permalink: /chickpeas
