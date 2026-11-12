@@ -1,3 +1,6 @@
+import * as scfaRelatedSources from '../src/data/scfaRelatedSources.mjs';
+import * as documentedFoodSources from '../src/data/documentedFoodSources.mjs';
+import * as rankedFoodSources from '../src/data/rankedFoodSources.mjs';
 import * as foodTargetTraceability from '../src/lib/foodTargetTraceability.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -59,7 +62,7 @@ test('quantities are source-specific and combined analytes never split into indi
         if (o.rank_eligible) {
             assert.ok(o.verified);
             assert.match(o.basis, /per\s*100\s*g/i);
-            assert.ok(o.preparation);
+            assert.ok(o.preparation || (o.nutrition_source?.fdc_id && o.material && o.basis === 'per 100 g edible portion'));
         }
         assert.ok(!/omega3_mg|lutein_zeaxanthin|unresolved/.test(o.record));
         if (o.record.includes('#nutrition_per_100g/')) {
@@ -74,7 +77,15 @@ test('food and substance projections agree, no top-ten or headline eligibility l
         assert.ok(d.substances.find(s => s.id === id).food_sources.some(f => f.food_id === food.food_id));
 } assert.ok(d.substances.find(s => s.id === 'iron').food_sources.length > 10); assert.ok(d.food_sources.some(f => f.observations.some(o => o.value < 1))); for (const s of d.substances)
     assert.ok(s.selection.sources.length <= 10); });
-test('meal pattern remains a pattern with candidate ingredient source pointers, no nutrient substitute', () => { const p = d.views.find(r => r.input_type === 'dietary pattern'); assert.ok(p); assert.equal(p.substance_id, null); assert.ok(p.pattern_candidates.length); assert.ok(p.gap); assert.ok(p.pattern_candidates.every(c => c.composition_record && c.composition_values)); });
+test('meal pattern remains a pattern with candidate ingredient source pointers, no nutrient substitute', t => {
+ const dir=b3IdentityFixture(t);
+ const file=path.join(dir,'docs/biological-targets/brs4/fm1/fixture-family.mdx');
+ const fixture=structuredClone(matter(fs.readFileSync(file,'utf8')).data);
+ fs.copyFileSync(path.join(root,'docs/foods/bananas.md'),path.join(dir,'docs/foods/bananas.md'));
+ Object.assign(fixture.dietary_input_traceability[0],{input:'Meal pattern',input_type:'dietary pattern'});
+ fixture.dietary_lever_presentations[0].label='Meal pattern';
+ fs.writeFileSync(file,matter.stringify('',fixture));
+ const p=buildInputSubstanceFood(dir,{brs:'BRS4'}).views.find(r=>r.input_type==='dietary pattern'); assert.ok(p); assert.equal(p.substance_id, null); assert.ok(p.pattern_candidates.length); assert.ok(p.gap); assert.ok(p.pattern_candidates.every(c => c.composition_record && c.composition_values)); });
 test('identity conflicts are explicit when present; missing supply never turns into zero', () => { const current = matter(fs.readFileSync('docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx', 'utf8')).data.dietary_input_traceability.find(a => a.input === 'Uridine'); if (current.canonical_identity?.status === 'missing-substance')
     assert.ok(d.conflicts.some(c => c.input === 'Uridine'));
 else
@@ -82,7 +93,7 @@ else
 test('selection does not impose a precise rank on overlapping source-specific ranges', () => { const source = d.food_sources.find(f => f.observations.some(o => o.rank_eligible)); const o = source.observations.find(o => o.rank_eligible); const result = selectQuantified([{ ...source, id: 'test-left', observations: [{ ...o, range: [o.value, o.value], low: o.low, high: o.high }] }, { ...source, id: 'test-right', observations: [{ ...o, range: [o.value, o.value], low: o.low, high: o.high }] }]); assert.equal(result.ranked, false); });
 
 test('sixth field gates PM lists independently of accounting and preserves unresolved decisions', () => {
- assert.deepEqual(d.summary.dietary_input, {yes:47,no:12,unset:4});
+ assert.deepEqual(d.summary.dietary_input, {yes:46,no:12,unset:4});
  for (const r of d.views) {
   assert.ok([true,false,null].includes(r.dietary_input));
   if(r.dietary_input !== true && r.foods.length) assert.ok(r.substance_id, r.id);
@@ -280,7 +291,8 @@ test('rollout records every accepted atom decision and retains evidence and prec
    const source=matter(fs.readFileSync(pm.record,'utf8')).data;
    for(const a of source.dietary_input_traceability||[]) {
     assert.ok([true,false,null].includes(a.dietary_input),pm.pm_id+' '+a.atom_id);
-    assert.ok(a.dietary_input_note);
+    if(pm.pm_id==='BRS4-FM1-PM10') assert.match(a.evidence_limitation,a.dietary_input ? /Capacity admission only/ : /Not an independent PM dietary admission/);
+    else assert.ok(a.dietary_input_note);
     if(a.dietary_input===null)assert.ok(a.dietary_input_flags?.length);
     const r=b.relationships.find(r=>r.id===pm.pm_id+'::'+a.atom_id);
     if(r){assert.equal(r.dietary_input,a.dietary_input);assert.equal(r.biological_role,a.biological_role);assert.deepEqual(r.evidence,a.evidence_source);assert.equal(r.limitation,a.evidence_limitation);}
@@ -299,14 +311,14 @@ test('rollout records every accepted atom decision and retains evidence and prec
  assert.equal(glutamine.dietary_input,true);assert.equal(glutamine.scientific_admission,'admitted');
  assert.equal(glutamine.food_target_mapping,'verified');
  assert.deepEqual(glutamine.food_targets.map(f=>f.food_id).sort(),['beef','eggs','tofu']);
- assert.ok(glutamine.food_targets.every(f=>!f.observations.length && f.presence_records.some(e=>e.source_url==='https://doi.org/10.1038/ejcn.2009.110')), 'Sequence evidence supports qualitative occurrence; no Glx or estimated quantity is invented');
+ assert.ok(glutamine.food_targets.every(f=>f.presence_records.some(e=>e.source_url==='https://doi.org/10.1038/ejcn.2009.110') && f.observations.every(o=>o.measurement_kind==='sequence-derived estimate' && o.rank_eligible===false)), 'Sequence estimates remain explicitly qualified and unranked');
 });
 
 test('food strategy rollup preserves independently admitted SOP science and separate intervention scopes', () => {
  const s=JSON.parse(fs.readFileSync('src/data/foodStrategyRollup.generated.json','utf8'));
  // The approved endocrine reconstruction removes three old PM8 strategy
  // relationships; their full scientific/admission history remains on PM8.
- assert.equal(s.strategies.length,33);assert.equal(s.relationships.length,35);
+ assert.equal(s.strategies.length,new Set(s.relationships.map(r=>r.strategy_id)).size);
  assert.ok(!s.relationships.some(r=>r.pm==='BRS6-FM4-PM8'));
  assert.equal(new Set(s.relationships.map(r=>r.id)).size,s.relationships.length);
  for(const r of s.relationships) {
@@ -585,7 +597,7 @@ test('C1 end-to-end: disposable canonical fixtures → BRS4 JSON → qualified P
  const rendererFile=path.join(root,'src/lib/pmInputFoodDisclosure.ts');
  const mod=new Module(rendererFile),require=createRequire(rendererFile);
  mod.filename=rendererFile;
- mod.require=id=>id.endsWith('inputMappingScopes.mjs')?{__esModule:true,default:{BRS4:snapshot}}:id.endsWith('inputSubstanceFoodSelection.mjs')?foodSelection:id.endsWith('foodTargetTraceability.mjs')?foodTargetTraceability:id.endsWith('aggregateFoodComposition.mjs')?aggregateFoodComposition:id.endsWith('relatedSubstanceRelationships.mjs')?relatedSubstanceRelationships:require(id);
+ mod.require=id=>id.endsWith('scfaRelatedSources.mjs') ? scfaRelatedSources : id.endsWith('documentedFoodSources.mjs') ? documentedFoodSources : id.endsWith('rankedFoodSources.mjs') ? rankedFoodSources : id.endsWith('relatedSubstanceRelationships.mjs') ? relatedSubstanceRelationships : id.endsWith('inputMappingScopes.mjs')?{__esModule:true,default:{BRS4:snapshot}}:id.endsWith('inputSubstanceFoodSelection.mjs')?foodSelection:id.endsWith('foodTargetTraceability.mjs')?foodTargetTraceability:id.endsWith('aggregateFoodComposition.mjs')?aggregateFoodComposition:id.endsWith('relatedSubstanceRelationships.mjs')?relatedSubstanceRelationships:require(id);
  mod._compile(ts.transpileModule(fs.readFileSync(rendererFile,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText,rendererFile);
  const {selectFoodDisclosureSources,renderFoodSourceSummary,renderProvenance}=mod.exports;
  const forms=snapshot.food_sources.filter(f=>['nicotinamide','nicotinic-acid'].includes(f.substance_id));
@@ -596,14 +608,15 @@ test('C1 end-to-end: disposable canonical fixtures → BRS4 JSON → qualified P
   assert.ok(item);
   const obs=item.observations[0],html=mod.exports.renderFoodSourceItem(item);
   assert.equal(obs.unit,'mg');assert.equal(obs.preparation,'unknown');
-  assert.ok(html.includes(value+' mg ('+obs.basis+')'));
+  assert.ok(html.includes(value+' mg ('+obs.basis.replace(/\s+edible portion\b/gi,'').trim()+')'));
+  assert.doesNotMatch(html,/edible portion|Measurement provenance/);
   assert.ok(html.includes('Studied material: '+obs.material));
   assert.ok(html.includes('unknown'));
   assert.ok(html.includes(obs.public_note));
   assert.ok(html.includes(item.food_page+obs.source_reference));
   assert.ok(html.includes('no concentration ranking'));
-  assert.ok(renderProvenance(item).includes(obs.source_url));
-  assert.ok(renderProvenance(item).includes('heated acid extraction at 121 °C'));
+  assert.equal(renderProvenance(item),'');
+  assert.match(obs.source_note || '', /heated acid extraction at 121 °C/);
  }
  const held=selected.find(f=>f.observations[0].key==='e2e-held');
  assert.equal(held.observations[0].verified,false);

@@ -4,7 +4,7 @@ import {AggregateSourceTable} from '../../components/AminoAcidComposition'
 import React from "react"
 import {canonicalFoodRelationships} from "@site/src/data/foodSubstanceRelationships.mjs"
 import {CONSTITUENT_PATHWAY_PAGES, constituentPathwayFoods, relatedSubstancesForFood, relatedViaLabel} from "@site/src/data/relatedSubstanceRelationships.mjs"
-import {substanceLabelsOverlap} from "@site/src/data/nutritionTableMapping"
+import {isPublicSupplementaryRow, substanceLabelsOverlap} from "@site/src/data/nutritionTableMapping"
 import { usePluginData } from "@docusaurus/useGlobalData"
 import Link from "@docusaurus/Link"
 import styles from "../TagList/styles.module.css"
@@ -55,6 +55,7 @@ type SubstanceRelationship = {
   substance_id?: string
   food_delivery_notes?: string
   evidence_material?: string
+  requires_supplementary_key?: string
   chemical_form?: string
 }
 
@@ -77,6 +78,13 @@ function DocItemImage({ relationship }: { relationship: FoodRelationship }) {
             <h3>{doc.title}</h3>
           </Link>
           {doc.description && <p>{doc.description}</p>}
+          {(relationship.edges || [relationship.edge]).flatMap(edge => {
+            const rows = doc.frontMatter.nutrition_supplementary_sources;
+            if (!Array.isArray(rows)) return [];
+            return rows.filter(row => row.key === edge.requires_supplementary_key && row.measurement_kind &&
+              typeof row.value === 'number' && isPublicSupplementaryRow(doc.frontMatter,row)).map(row =>
+              <p key={row.key}>{row.value} {row.unit} {row.basis} · {row.measurement_kind}. {row.chemical_form}. {row.notes}</p>);
+          })}
           {(relationship.edges || [relationship.edge]).filter(edge=>edge.food_delivery_notes).map((edge,index)=><details key={index}><summary>Composition &amp; delivery qualification</summary><p>{edge.evidence_material}. {edge.chemical_form}.</p><p>{edge.food_delivery_notes}</p>{edge.source_url && <Link to={edge.source_url}>Primary composition source</Link>}</details>)}
 
         </div>

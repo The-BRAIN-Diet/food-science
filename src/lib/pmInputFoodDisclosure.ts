@@ -1,3 +1,12 @@
+import {scfaRelatedSources} from '../data/scfaRelatedSources.mjs';
+import {renderRelatedFoodSources} from '../data/relatedSubstanceRelationships.mjs';
+import {isCanonicalAnimalSource} from '../data/documentedFoodSources.mjs';
+import publishedRanking from '../data/rankedFoodSources.generated.json';
+// Local PM pages use the same review snapshot as the reference-pool viewers.
+const rankedSnapshot = process.env.NODE_ENV === 'development'
+    ? require('../../review/ranked-food-reconciliation/reference-pool/ranking.json')
+    : publishedRanking;
+import {rankedSourcesForRelationships} from '../data/rankedFoodSources.mjs';
 import {informationIcon, renderCoverageWarning, foodTargetCoverageWarning, inputCoverageWarnings} from "./foodTargetTraceability.mjs";
 import {relatedFoodsForInput, relatedViaLabel, renderRelatedFoodSources} from "../data/relatedSubstanceRelationships.mjs";
 import generatedScopes from "../data/inputMappingScopes.mjs";
@@ -12,18 +21,7 @@ export type MappingData = {
 };
 const norm = (v: string) => String(v || '').toLowerCase().replace(/\s+/g, ' ').trim();
 function esc(v: unknown) { return String(v ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
-function isProbablyAnimalSource(source: any): boolean {
-    if (source.food_group) return source.food_group === 'animal';
-    const value = norm([
-        source.food_id,
-        source.food_title,
-        source.material,
-        source.food_matrix,
-        source.product,
-        source.species,
-    ].filter(Boolean).join(' '));
-    return /\b(anchov|beef|butter|cheese|chicken|clam|cockles?|cod|crab|duck|egg|fish|liver|mackerel|meat|milk|mussel|oyster|pork|poultry|salmon|sardine|scallop|seafood|shellfish|shrimp|tuna|turkey|whey|yolk)\b/.test(value);
-}
+const isProbablyAnimalSource = isCanonicalAnimalSource;
 function analyticalQualification(obs: any): string {
     const publicNotes = [obs.public_note, obs.material_limitations, obs.notes,
         obs.limitations !== obs.source_note ? obs.limitations : null].filter(Boolean);
@@ -98,13 +96,17 @@ export function selectFoodDisclosureSources(sources: any[]): any[] {
     const presenceFoods = new Set(presence.slice(0, Math.max(0, 5 - selectedOrdinary.length - measurements.length)).map(item => item.food_id));
     return [...selectedOrdinary, ...measurements, ...presence.filter(item => presenceFoods.has(item.food_id))];
 }
+/** Public label only. Stored bases keep their analytical wording for comparison. */
+function publicFoodBasis(basis: string): string {
+    return basis.replace(/\s+edible portion\b/gi, '').replace(/[ \t]{2,}/g, ' ').trim();
+}
 function formatFoodAmount(source: any): string {
     const obs = (source.observations || [])[0];
     if (obs?.verified !== true || !obs?.display) return 'value not known';
     if (source.projection_kind === 'constituent-composition' && source.aggregate_composition) {
         return `${formatAggregateSumForDropdown(source.aggregate_composition.eaa_g)} g per 100 g`;
     }
-    const basis = String(obs.basis || '').trim();
+    const basis = publicFoodBasis(String(obs.basis || '').trim());
     if (analyticalQualification(obs)) return `${esc(obs.display)} (${esc(basis || 'measurement basis not established')})`;
     return `${esc(obs.display)}${/per\s*100\s*g/i.test(basis) ? ' per 100 g' : basis ? ` (${esc(basis)})` : ' (measurement basis not established)'}`;
 }
@@ -148,11 +150,8 @@ export function renderFoodSourceItem(source: any): string {
     const reference = sourceReference(source, obs);
     return `<a href="${esc(source.food_page)}">${esc(source.food_title)}</a><span class="pm-input-food-source-meta${qualityClass}"${qualityAttrs}> — ${formatFoodAmount(source)} · ${formatFoodPrep(source)}</span>${detail || comparison || reference ? `<details class="pm-input-food-analytical-detail"><summary>Source qualifications</summary><p>${detail}${reference}${comparison}</p></details>` : ''}`;
 }
-export function renderProvenance(source: any): string {
-    const obs = source.observations[0];
-    if (hasCompactFoodMeasurement(obs)) return '';
-    if (!obs || !analyticalQualification(obs) || !obs.source_note) return '';
-    return `<details><summary>Measurement provenance</summary><p>${esc(obs.source_note)}</p>${obs.source_url && /^https?:\/\//.test(obs.source_url) ? `<a href="${esc(obs.source_url)}">Original source</a>` : ''}</details>`;
+export function renderProvenance(_source: any): string {
+    return '';
 }
 function updateFoodArrow(details: HTMLDetailsElement) {
     const arrow = details.querySelector<HTMLElement>('.pm-input-food-source-arrow');
@@ -196,22 +195,29 @@ function attachFoodMappingIcon(row: HTMLElement, source: any) {
     if (source?.mapping_status !== 'research-supported-provisional') return;
     row.querySelector('.pm-input-food-name a')?.insertAdjacentHTML('afterend', informationIcon(foodTargetCoverageWarning(source)));
 }
-function createFoodSourceDetails(kind: string, sources: any[]): HTMLDetailsElement {
-    const selected = selectFoodDisclosureSources(sources);
+function createFoodSourceDetails(kind: string, sources: any[], preselected = false): HTMLDetailsElement {
+    const selected = preselected ? sources : selectFoodDisclosureSources(sources);
     const box = document.createElement('details');
     box.className = 'pm-input-food-sources';
     box.dataset.foodSourceKind = kind.toLowerCase().replace(/\s+/g, '-');
+    if (preselected) box.dataset.rankedSnapshot = rankedSnapshot.snapshot_id;
     const summary = document.createElement('summary');
     const top = selected[0];
+    const annotate = (el: HTMLElement, source: any) => { if (preselected && source) { el.dataset.foodId=source.food_id; el.dataset.substanceId=source.substance_id; el.dataset.rank=String(source.rank); el.dataset.relativePower=String(source.relative_power); el.dataset.observationId=source.observations[0]?.record; } };
+    annotate(summary, top);
     summary.innerHTML = renderFoodSourceSummary(kind, top);
+    if (preselected && !top) summary.querySelector('.pm-input-food-source-empty')!.textContent='No qualifying ranked sources';
     attachFoodMappingIcon(summary, top);
     summary.querySelectorAll('a').forEach((a) => a.addEventListener('click', (event) => event.stopPropagation()));
     box.append(summary);
+    if (preselected && top) box.insertAdjacentHTML('beforeend', renderProvenance(top));
     if (selected.length > 1) {
         const list = document.createElement('ul');
         selected.slice(1).forEach(source => {
             const item = document.createElement('li');
             item.innerHTML = renderCompactFoodSourceItem(source);
+            annotate(item, source);
+            if (preselected) item.insertAdjacentHTML('beforeend', renderProvenance(source));
             attachFoodMappingIcon(item, source);
             item.title = source.material || '';
             list.append(item);
@@ -235,6 +241,23 @@ function createFoodSourceDetails(kind: string, sources: any[]): HTMLDetailsEleme
     box.insertAdjacentHTML('beforeend', renderFoodMappingNotes(sources));
     attachFoodDisclosureBehaviour(box);
     return box;
+}
+export function renderDocumentedFoodSources(sources: any[]): string {
+    if (!sources.length) return '';
+    const items = sources.map(source => {
+        const observation = source.observations?.[0];
+        const measuredLabel = observation ? `${source.measurement_kind === 'estimated' ? 'Sequence-derived estimate' : source.measurement_kind === 'calculated' ? 'Calculated from measurements' : 'Measured'} — not ranked: ${observation.range ? observation.range.join('–') : observation.value} ${observation.unit} ${publicFoodBasis(String(observation.basis || ''))} · ${observation.unranked_reason}` : null;
+        const notes = [...new Set([source.mapping_status === 'research-supported-provisional' ? 'Research-supported provisional food mapping; source-specific observation retained without asserting material equivalence.' : null, observation?.source_note, observation?.limitations, observation?.original_observation, observation?.calculation, source.chemical_form, source.material, source.food_delivery_notes,
+            source.preparation_effects, source.absorption_evidence, ...(source.qualification || []),
+            ...source.presence_records.flatMap((p:any) => [p.public_note, p.limitations, p.evidence, p.source_note])]
+            .filter(Boolean).map(v => typeof v === 'string' ? v : JSON.stringify(v)))];
+        const refs = [...source.presence_records, ...(source.observations || [])].map((p:any) => sourceReference(source,p)).join('');
+        return `<li data-food-id="${esc(source.food_id)}" data-substance-id="${esc(source.substance_id)}"><a href="${esc(source.food_page)}">${esc(source.food_title)}</a> — ${measuredLabel ? esc(measuredLabel) : source.presence_records.some((p:any) => p.presence_status === 'product_or_preparation_dependent') ? 'Preparation-dependent — not ranked' : 'Quantity not established — not ranked'} · ${observation?.range && observation.notes ? esc(observation.notes) : formatFoodPrep(source)}<details class="pm-input-food-analytical-detail"><summary>Source qualifications</summary><p>${notes.map(esc).join(' ')}${refs}</p><a href="${esc(source.food_page)}">Canonical food record and references</a></details></li>`;
+    }).join('');
+    return `<details class="pm-input-food-sources pm-input-food-documented"><summary>Documented, unranked sources (${sources.length})</summary><ul>${items}</ul></details>`;
+}
+function attachDocumentedFoodSources(li: HTMLElement, data: MappingData, relationships: any[]) {
+    li.insertAdjacentHTML('beforeend', renderRelatedFoodSources(scfaRelatedSources(relationships, data.food_sources)));
 }
 export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, pm: string, label: string, section: string) {
     section = canonicalInputSection(section);
@@ -264,7 +287,7 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
             ? relatedFoodsForInput(relationships, scoped.food_sources) : [];
         const relatedHtml = renderRelatedFoodSources(relatedFoods);
         if (relatedHtml && detail) detail.insertAdjacentHTML('afterbegin', relatedHtml);
-        const targets = [...new Map(relationships.flatMap((r:any) => r.food_targets || []).map((f:any) => [JSON.stringify([f.food_id,f.substance_id,f.material,f.preparation]), f])).values()] as any[];
+        const targets = rankedSourcesForRelationships(rankedSnapshot, pm, relationships) as any[];
         const relatedOntology = [...new Map(relatedFoods.map((row: any) => [row.food_id, {
             ...row,
             related_via: relatedViaLabel(row.intermediate_label),
@@ -283,19 +306,21 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
                     display: `${target.amount.value} ${target.amount.unit}`,
                     basis: target.amount.basis}] : [],
             }));
-            const box = createFoodSourceDetails(kind, compact);
+            const box = createFoodSourceDetails(kind, compact, true);
             const noFood = relationships.find((r:any)=>r.food_delivery_assessment?.status==='no-ordinary-food-source');
             if (!compact.length && noFood) { const empty=box.querySelector('.pm-input-food-source-empty'); if(empty)empty.textContent='No verified ordinary-food source'; }
             li.append(box);
         }
+        attachDocumentedFoodSources(li, scoped, relationships);
         return;
     }
 
-    const sources = scoped.food_sources.filter(f => relationships.some(r => r.substance_id === f.substance_id));
-    const plantBox = createFoodSourceDetails('Plant-based', sources.filter(source => !isProbablyAnimalSource(source)));
-    const animalBox = createFoodSourceDetails('Animal-based', sources.filter(source => isProbablyAnimalSource(source)));
+    const sources = rankedSourcesForRelationships(rankedSnapshot, pm, relationships);
+    const plantBox = createFoodSourceDetails('Plant-based', sources.filter(source => !isProbablyAnimalSource(source)), true);
+    const animalBox = createFoodSourceDetails('Animal-based', sources.filter(source => isProbablyAnimalSource(source)), true);
     plantBox.dataset.relationshipIds = relationships.map(r => r.id).join(' ');
     li.append(plantBox);
     animalBox.dataset.relationshipIds = relationships.map(r => r.id).join(' ');
     li.append(animalBox);
+    attachDocumentedFoodSources(li, scoped, relationships);
 }

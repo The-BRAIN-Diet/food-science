@@ -9,13 +9,13 @@ const root=process.cwd();
 const cross=buildInputSubstanceFood(root,{brs:'BRS-X'});
 test('one shared mapper covers all canonical numbered and Cross-BRS identities without renumbering',()=>{
  const scopes=['BRS1','BRS2','BRS3','BRS4','BRS5','BRS6','BRS-X'].map(brs=>buildInputSubstanceFood(root,{brs}));
- assert.equal(scopes.slice(0,6).reduce((n,s)=>n+s.coverage.length,0),51);
+ assert.equal(scopes.slice(0,6).reduce((n,s)=>n+s.coverage.length,0),52);
  assert.equal(cross.coverage.length,15);
  const ids=scopes.flatMap(s=>s.coverage.map(p=>p.pm_id));
- assert.equal(new Set(ids).size,66);
+ assert.equal(new Set(ids).size,67);
  for(const p of cross.coverage){const d=matter(fs.readFileSync(p.record,'utf8')).data;assert.equal(p.pm_id,d.pm_id);assert.match(p.pm_id,/^BRS-X\(/);for(const a of d.dietary_input_traceability||[])assert.ok(cross.relationships.some(r=>r.id===p.pm_id+'::'+a.atom_id));}
  const all=selectBrsReviewData(scopes[0],Object.fromEntries(scopes.map(s=>[s.scope,s])),'all');
- assert.equal(new Set(all.data.coverage.map(p=>p.pm_id)).size,66);
+ assert.equal(new Set(all.data.coverage.map(p=>p.pm_id)).size,67);
 });
 test('Cross-BRS Zn and DHA/EPA have independent PM gates, foods and manuscript rows; unset is never inherited',()=>{
  for(const [pm,substance]of [['BRS-X(ECS-PM1)','zinc'],['BRS-X(ECS-PM2)','dha-docosahexaenoic-acid'],['BRS-X(ECS-PM2)','epa-eicosapentaenoic-acid']]){
@@ -29,7 +29,7 @@ test('Cross-BRS Zn and DHA/EPA have independent PM gates, foods and manuscript r
  assert.equal(new Set(cross.relationships.map(r=>r.id)).size,cross.relationships.length);
 });
 test('pathway coverage includes all fifteen Cross-BRS PMs without granting downstream admissions',()=>{
- const index=createDietaryPathwayIndex(root);assert.equal(index.inventory.length,66);
+ const index=createDietaryPathwayIndex(root);assert.equal(index.inventory.length,67);
  assert.equal(index.inventory.filter(x=>x.pm.startsWith('BRS-X(')).length,15);
  assert.deepEqual(index.errors,[]);
  for(const path of index.paths)assert.notEqual(path.downstream_pm_admission,true);

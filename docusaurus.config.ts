@@ -439,6 +439,12 @@ const config: Config = {
   "plugins": [
     localInternalDocsPlugin,
     './src/plugin/build-memory/index.cjs',
+    ...(['deploy-preview', 'production'].includes(process.env.CONTEXT ?? '') ? [() => ({
+      name: 'sequential-preview-compilation',
+      configureWebpack(config: {mode?: string}, isServer: boolean) {
+        return isServer && config.mode === 'production' ? {dependencies: ['client']} : {};
+      },
+    })] : []),
     './src/plugin/category-listing',
     './src/plugin/input-substance-food',
     './src/plugin/ontology-projection',
@@ -473,6 +479,7 @@ const config: Config = {
       require.resolve('@docusaurus/plugin-client-redirects'),
       {
         redirects: [
+          { to: '/docs/foods/lupins', from: '/docs/foods/lupin-beans' },
           // Accepted PM8 retirement: integrated E/I state belongs to FM4.
           { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation', from: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance' },
           // BRS1 KC2 -> KC1 after KC1 removal

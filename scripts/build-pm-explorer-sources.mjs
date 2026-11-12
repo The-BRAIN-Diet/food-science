@@ -5,15 +5,18 @@ import {scfaRelatedSources} from '../src/data/scfaRelatedSources.mjs';
 import fs from 'node:fs';
 import {isCanonicalAnimalSource,documentedSourcesForRelationships} from '../src/data/documentedFoodSources.mjs';
 import {rankedSourcesForRelationships} from '../src/data/rankedFoodSources.mjs';
+const review=process.argv.includes('--reference-preview');
+const reviewDir='review/ranked-food-reconciliation/reference-pool';
+const explorerOut=review?reviewDir+'/explore/pm-explorer/':'static/explore/pm-explorer/';
 const mappings=['brs1','brs2','brs3','brs4','brs5','brs6','brs-x'].map(scope=>JSON.parse(fs.readFileSync('src/data/'+scope+'InputMapping.generated.json')));
 const data=mappings.find(d=>d.scope==='BRS5')||mappings[4];
-const snapshot=JSON.parse(fs.readFileSync('src/data/rankedFoodSources.generated.json'));
+const snapshot=JSON.parse(fs.readFileSync(review?reviewDir+'/ranking.json':'src/data/rankedFoodSources.generated.json'));
 const foods=[],relationships=mappings.flatMap(d=>d.relationships.filter(r=>r.presentations?.length));
 for(const mapping of mappings){
 for(const pm of new Set(mapping.relationships.map(r=>r.pm))){
  const rs=relationships.filter(r=>r.pm===pm),ranked=rankedSourcesForRelationships(snapshot,pm,rs);
  for(const s of ranked)foods.push({...s,pm,substance:s.substance_id,food:s.food_id,layer:'Ranked'});
- for(const s of documentedSourcesForRelationships(mapping,pm,rs,ranked,snapshot))foods.push({...s,pm,substance:s.substance_id,food:s.food_id,layer:s.observations.length?(s.measurement_kind==='calculated'?'Calculated, unranked':'Measured, unranked'):'Presence-only, unranked'});
+ for(const s of documentedSourcesForRelationships(mapping,pm,rs,ranked,snapshot))foods.push({...s,pm,substance:s.substance_id,food:s.food_id,layer:s.observations.length?(s.measurement_kind==='estimated'?('Estimated — '+s.observations[0].value+' '+s.observations[0].unit+' '+s.observations[0].basis+' · '+s.chemical_form+' · unranked'):s.measurement_kind==='calculated'?'Calculated, unranked':'Measured, unranked'):'Presence-only, unranked'});
 }
 }
 const wheel=JSON.parse(fs.readFileSync('static/explore/food-wheel/index.html','utf8').split('<script>const DATA=')[1].split(';const $=')[0]);
@@ -39,6 +42,6 @@ if(pms.length!==pmIds.size)throw Error('PM registry/file mismatch '+pms.length+'
 const systems=wheel.network.systems.map((id,i)=>({id,name:({'BRS-X/circadian':'Circadian regulation','BRS-X/ecs':'Endocannabinoid system','BRS-X/hormones':'Hormonal regulation'}[id]||wheel.network.names[i]),color:wheel.network.colors[i]}));
 const registry=JSON.parse(fs.readFileSync('registry/substances.json'));
 const identities=Object.fromEntries(Object.entries(registry).filter(([k,v])=>v&&typeof v==='object').map(([k,v])=>[k,{name:v.title||v.label||v.name||k,page:v.path?'/docs/substances/'+v.path.replace(/\.mdx?$/,'')+(v.page_anchor?'#'+v.page_anchor:''):v.page||null}]));
-fs.writeFileSync('static/explore/pm-explorer/titles.json',JSON.stringify(Object.fromEntries(pms.map(p=>[p.id,p.title])),null,2)+'\n');
-fs.writeFileSync('static/explore/pm-explorer/pm-sources.json',JSON.stringify({source:'PM dropdown shared selectors; all seven generated scope mappings + rankedFoodSources.generated.json',snapshot:snapshot.snapshot_id,foods,relationships,historicalRelationships,pms,systems,identities},null,2)+'\n');
+fs.writeFileSync(explorerOut+'titles.json',JSON.stringify(Object.fromEntries(pms.map(p=>[p.id,p.title])),null,2)+'\n');
+fs.writeFileSync(explorerOut+'pm-sources.json',JSON.stringify({source:'PM dropdown shared selectors; all seven generated scope mappings + rankedFoodSources.generated.json',snapshot:snapshot.snapshot_id,foods,relationships,historicalRelationships,pms,systems,identities},null,2)+'\n');
 console.log(JSON.stringify({sourceRecords:foods.length}));

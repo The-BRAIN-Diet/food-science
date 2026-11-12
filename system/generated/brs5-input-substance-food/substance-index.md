@@ -4,21 +4,26 @@ Generated from the same authoritative records as the PM disclosures. The preview
 
 | Section ID | Substance | Quantified food preview | Other supported food sources |
 | --- | --- | --- | --- |
-| [BRS5-FM1-PM1](http://localhost:3000/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Vitamin A (Retinoids; β-Carotene precursor)](http://localhost:3000/docs/substances/nutrients/micronutrients/vitamins/vitamin-a) — vitamin-a | [Anchovies](http://localhost:3000/docs/foods/anchovies) — 12 µg (per 100 g edible portion) · oil<br/>[Apples](http://localhost:3000/docs/foods/apples) — 3 µg (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 38 µg (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 1 µg (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 7 µg (per 100 g edible portion) · raw<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 3 µg (per 100 g edible portion) · raw<br/>[Barley](http://localhost:3000/docs/foods/barley) — 1 µg (per 100 g edible portion) · preparation unknown<br/>[Beef](http://localhost:3000/docs/foods/beef) — 4 µg (per 100 g edible portion) · raw<br/>[Beetroot](http://localhost:3000/docs/foods/beetroot) — 2 µg (per 100 g edible portion) · raw<br/>[Bell Peppers](http://localhost:3000/docs/foods/bell-peppers) — 157 µg (per 100 g edible portion) · raw | [Grass-Fed Butter](http://localhost:3000/docs/foods/grass-fed-butter) — Quantity not established · preparation unknown |
-| [BRS5-FM1-PM1](http://localhost:3000/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Zinc](http://localhost:3000/docs/substances/nutrients/micronutrients/minerals/trace/zinc) — zinc | [Almonds](http://localhost:3000/docs/foods/almonds) — 3.12 mg (per 100 g edible portion) · preparation unknown<br/>[Amaranth](http://localhost:3000/docs/foods/amaranth) — 2.87 mg (per 100 g edible portion) · uncooked<br/>[Anchovies](http://localhost:3000/docs/foods/anchovies) — 2.44 mg (per 100 g edible portion) · oil<br/>[Apples](http://localhost:3000/docs/foods/apples) — 0.04 mg (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 0.54 mg (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 0.16 mg (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 0.64 mg (per 100 g edible portion) · raw<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 0.15 mg (per 100 g edible portion) · raw<br/>[Barley](http://localhost:3000/docs/foods/barley) — 2.77 mg (per 100 g edible portion) · preparation unknown<br/>[Beef](http://localhost:3000/docs/foods/beef) — 4.48 mg (per 100 g edible portion) · raw | [Cockles](http://localhost:3000/docs/foods/cockles) — Quantity not established · raw<br/>[Crab](http://localhost:3000/docs/foods/crab) — Quantity not established · preparation unknown<br/>[Sourdough Bread](http://localhost:3000/docs/foods/sourdough-bread) — Quantity not established · preparation unknown<br/>[Whole Grains](http://localhost:3000/docs/foods/whole-grains) — Quantity not established · preparation unknown |
-| [BRS5-FM1-PM1](http://localhost:3000/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Glutamine](http://localhost:3000/docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine) — glutamine | No comparable quantified food sources | [Beef](http://localhost:3000/docs/foods/beef) — Quantity not established · form not known<br/>[Eggs](http://localhost:3000/docs/foods/eggs) — Quantity not established · form not known<br/>[Tofu](http://localhost:3000/docs/foods/tofu) — Quantity not established · form not known |
+| [BRS5-FM1-PM1](http://localhost:3000/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Vitamin A (Retinoids; β-Carotene precursor)](http://localhost:3000/docs/substances/nutrients/micronutrients/vitamins/vitamin-a) — vitamin-a | [Anchovies](http://localhost:3000/docs/foods/anchovies) — 12 µg (per 100 g edible portion) · canned<br/>[Apples](http://localhost:3000/docs/foods/apples) — 3 µg (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 38 µg (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 1 µg (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 7 µg (per 100 g edible portion) · raw<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 3 µg (per 100 g edible portion) · raw<br/>[Barley](http://localhost:3000/docs/foods/barley) — 1 µg (per 100 g edible portion) · preparation unknown<br/>[Beef](http://localhost:3000/docs/foods/beef) — 4 µg (per 100 g edible portion) · raw<br/>[Beetroot](http://localhost:3000/docs/foods/beetroot) — 2 µg (per 100 g edible portion) · raw<br/>[Bell Peppers](http://localhost:3000/docs/foods/bell-peppers) — 157 µg (per 100 g edible portion) · raw | [Grass-Fed Butter](http://localhost:3000/docs/foods/grass-fed-butter) — Quantity not established · preparation unknown |
+| [BRS5-FM1-PM1](http://localhost:3000/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Zinc](http://localhost:3000/docs/substances/nutrients/micronutrients/minerals/trace/zinc) — zinc | [Almonds](http://localhost:3000/docs/foods/almonds) — 3.12 mg (per 100 g edible portion) · preparation unknown<br/>[Amaranth](http://localhost:3000/docs/foods/amaranth) — 2.87 mg (per 100 g edible portion) · uncooked<br/>[Anchovies](http://localhost:3000/docs/foods/anchovies) — 2.44 mg (per 100 g edible portion) · canned<br/>[Apples](http://localhost:3000/docs/foods/apples) — 0.04 mg (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 0.54 mg (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 0.16 mg (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 0.64 mg (per 100 g edible portion) · raw<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 0.15 mg (per 100 g edible portion) · raw<br/>[Barley](http://localhost:3000/docs/foods/barley) — 2.77 mg (per 100 g edible portion) · preparation unknown<br/>[Beef](http://localhost:3000/docs/foods/beef) — 4.48 mg (per 100 g edible portion) · raw | [Cockles](http://localhost:3000/docs/foods/cockles) — Quantity not established · raw<br/>[Crab](http://localhost:3000/docs/foods/crab) — Quantity not established · frozen<br/>[Sourdough Bread](http://localhost:3000/docs/foods/sourdough-bread) — Quantity not established · preparation unknown<br/>[Whole Grains](http://localhost:3000/docs/foods/whole-grains) — Quantity not established · preparation unknown |
+| [BRS5-FM1-PM1](http://localhost:3000/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Glutamine](http://localhost:3000/docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine) — glutamine | [Eggs](http://localhost:3000/docs/foods/eggs) — 0.559 g (per 100 g reference egg as food) · form not known | [Beef](http://localhost:3000/docs/foods/beef) — Quantity not established · form not known<br/>[Tofu](http://localhost:3000/docs/foods/tofu) — Quantity not established · form not known |
 | [BRS5-FM1-PM1](http://localhost:3000/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — 3.1.3 Key Constraints / Upstream Resources — Upstream/shared relationship<br/>[BRS5-FM2-PM5](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Fructo-oligosaccharides / galacto-oligosaccharides](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructo-galacto-oligosaccharides) — fructo-galacto-oligosaccharides | No comparable quantified food sources | None recorded |
 | [BRS5-FM1-PM1](http://localhost:3000/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — 3.1.3 Key Constraints / Upstream Resources — Upstream/shared relationship<br/>[BRS5-FM2-PM4](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship<br/>[BRS5-FM2-PM5](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Pectin](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin) — pectin | No comparable quantified food sources | [Apples](http://localhost:3000/docs/foods/apples) — Quantity not established · raw<br/>[Apples](http://localhost:3000/docs/foods/apples) — Quantity not established · raw<br/>[Lemon](http://localhost:3000/docs/foods/lemon) — Quantity not established · raw<br/>[Oranges](http://localhost:3000/docs/foods/oranges) — Quantity not established · raw<br/>[Pears](http://localhost:3000/docs/foods/pears) — Quantity not established · raw |
 | [BRS5-FM1-PM1](http://localhost:3000/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — 3.1.3 Key Constraints / Upstream Resources — Upstream/shared relationship<br/>[BRS5-FM2-PM4](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship<br/>[BRS5-FM2-PM5](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Resistant starch](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch) — resistant-starch | [Bananas](http://localhost:3000/docs/foods/bananas) — 2.7–25.3 g (per 100 g fresh weight) · Green/unripe; cultivar and ripening state matter<br/>[Black Beans](http://localhost:3000/docs/foods/black-beans) — 3–5 g (per 100 g dry weight) · Cooked; cooking duration and cooling protocol remain study-specific<br/>[Chickpeas](http://localhost:3000/docs/foods/chickpeas) — 3–5 g (per 100 g dry weight) · Cooked; cooking duration and cooling protocol remain study-specific<br/>[Potatoes](http://localhost:3000/docs/foods/potatoes) — 2.2–5.4 g (per 100 g, moisture-corrected) · Baked or boiled, then chilled to 4°C; distinguish reheated material | None recorded |
 | [BRS5-FM1-PM2](http://localhost:3000/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Oligofructose](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/oligofructose) — oligofructose | No comparable quantified food sources | None recorded |
+| [BRS5-FM1-PM2](http://localhost:3000/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Type 2 resistant starch (tested aged-mouse exposure)](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch#rs2-zhang-2020) — resistant-starch-type-2-zhang-2020 | No comparable quantified food sources | None recorded |
+| [BRS5-FM1-PM3](http://localhost:3000/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Oligofructose-enriched inulin](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/inulin#oligofructose-enriched-inulin-schroeder-2018) — oligofructose-enriched-inulin-schroeder-2018 | No comparable quantified food sources | None recorded |
+| [BRS5-FM1-PM3](http://localhost:3000/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Bifidobacterium longum NCC2705](http://localhost:3000/docs/substances/bifidobacterium-longum#ncc2705) — bifidobacterium-longum-ncc2705 | No comparable quantified food sources | None recorded |
 | [BRS5-FM2-PM4](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Arabinan](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/arabinan) — arabinan | No comparable quantified food sources | [Peas](http://localhost:3000/docs/foods/peas) — Quantity not established · raw cotyledons |
 | [BRS5-FM2-PM4](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship<br/>[BRS5-FM2-PM5](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Inulin](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/inulin) — inulin | [Asparagus](http://localhost:3000/docs/foods/asparagus) — 1.3 g (per 100 g dry matter) · Lyophilized edible spear; hot-water extract. Root excluded. | None recorded |
 | [BRS5-FM2-PM6](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Ellagic acid](http://localhost:3000/docs/substances/bioactive-compounds/polyphenols/phenolic-acids/ellagic-acid) — ellagic-acid | No comparable quantified food sources | [Pomegranates](http://localhost:3000/docs/foods/pomegranates) — 3.79 mg (per 100 mL) · Commercial single-strength juice; not aril-only juice |
 | [BRS5-FM2-PM6](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Ellagitannins](http://localhost:3000/docs/substances/bioactive-compounds/polyphenols/ellagitannins) — ellagitannins | No comparable quantified food sources | [Pomegranates](http://localhost:3000/docs/foods/pomegranates) — 156.17 mg (per 100 mL) · Juice sample<br/>[Walnuts](http://localhost:3000/docs/foods/walnuts) — Quantity not established · Kernels |
-| [BRS5-FM2-PM6](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Epicatechin](http://localhost:3000/docs/substances/bioactive-compounds/polyphenols/flavan-3-ols/epicatechin) — epicatechin | No comparable quantified food sources | [Cacao Nibs (Raw)](http://localhost:3000/docs/foods/cacao-nibs-raw) — Quantity not established · preparation unknown<br/>[Cacao Powder](http://localhost:3000/docs/foods/cacao-powder) — Quantity not established · preparation unknown<br/>[Cacao Powder](http://localhost:3000/docs/foods/cacao-powder) — 196 mg (basis unknown; unverified amount) · preparation unknown<br/>[Cocoa](http://localhost:3000/docs/foods/cocoa) — Quantity not established · preparation unknown<br/>[Cocoa](http://localhost:3000/docs/foods/cocoa) — 34 mg (basis unknown; unverified amount) · preparation unknown<br/>[Dark Chocolate](http://localhost:3000/docs/foods/dark-chocolate) — Quantity not established · preparation unknown<br/>[Dark Chocolate](http://localhost:3000/docs/foods/dark-chocolate) — 70.4 mg (basis unknown; unverified amount) · preparation unknown |
+| [BRS5-FM2-PM6](http://localhost:3000/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Epicatechin](http://localhost:3000/docs/substances/bioactive-compounds/polyphenols/flavan-3-ols/epicatechin) — epicatechin | No comparable quantified food sources | [Cacao Nibs (Raw)](http://localhost:3000/docs/foods/cacao-nibs-raw) — Quantity not established · preparation unknown<br/>[Cacao Powder](http://localhost:3000/docs/foods/cacao-powder) — Quantity not established · dry powder<br/>[Cacao Powder](http://localhost:3000/docs/foods/cacao-powder) — 196 mg (basis unknown; unverified amount) · dry powder<br/>[Cocoa](http://localhost:3000/docs/foods/cocoa) — Quantity not established · dry powder<br/>[Cocoa](http://localhost:3000/docs/foods/cocoa) — 34 mg (basis unknown; unverified amount) · dry powder<br/>[Dark Chocolate](http://localhost:3000/docs/foods/dark-chocolate) — Quantity not established · preparation unknown<br/>[Dark Chocolate](http://localhost:3000/docs/foods/dark-chocolate) — 70.4 mg (basis unknown; unverified amount) · preparation unknown |
+| [BRS5-FM3-PM7](http://localhost:3000/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Lacticaseibacillus rhamnosus JB-1](http://localhost:3000/docs/substances/lacticaseibacillus-rhamnosus#jb-1) — lacticaseibacillus-rhamnosus-jb-1 | No comparable quantified food sources | None recorded |
 | [BRS5-FM3-PM7](http://localhost:3000/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Glucose](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/glucose) — glucose | [Bananas](http://localhost:3000/docs/foods/bananas) — 4.98 g (per 100 g edible portion) · raw<br/>[Grapes](http://localhost:3000/docs/foods/grapes) — 7.2 g (per 100 g edible portion) · raw | None recorded |
-| [BRS5-FM3-PM7](http://localhost:3000/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Linoleic Acid (LA, n-6)](http://localhost:3000/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-6/linoleic-acid) — linoleic-acid | [Almonds](http://localhost:3000/docs/foods/almonds) — 12.32 g (per 100 g edible portion) · preparation unknown<br/>[Amaranth](http://localhost:3000/docs/foods/amaranth) — 2.736 g (per 100 g edible portion) · uncooked<br/>[Anchovies](http://localhost:3000/docs/foods/anchovies) — 0.362 g (per 100 g edible portion) · oil<br/>[Apples](http://localhost:3000/docs/foods/apples) — 0.043 g (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 0.04 g (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 0.063 g (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 1.674 g (per 100 g edible portion) · raw<br/>[Avocado Oil](http://localhost:3000/docs/foods/avocado-oil) — 12.53 g (per 100 g edible portion) · Oil<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 0.046 g (per 100 g edible portion) · raw<br/>[Barley](http://localhost:3000/docs/foods/barley) — 0.999 g (per 100 g edible portion) · preparation unknown | None recorded |
-| [BRS5-FM3-PM8](http://localhost:3000/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Tryptophan](http://localhost:3000/docs/substances/nutrients/macronutrients/amino-acids/essential/tryptophan) — tryptophan | [Pumpkin Seeds](http://localhost:3000/docs/foods/pumpkin-seeds) — 0.576 g (per 100 g edible portion) · dried<br/>[Soy](http://localhost:3000/docs/foods/soy) — 0.591 g (per 100 g edible portion) · raw<br/>[Turkey](http://localhost:3000/docs/foods/turkey) — 0.241 g (per 100 g edible portion) · raw | None recorded |
+| [BRS5-FM3-PM7](http://localhost:3000/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Linoleic Acid (LA, n-6)](http://localhost:3000/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-6/linoleic-acid) — linoleic-acid | [Almonds](http://localhost:3000/docs/foods/almonds) — 12.32 g (per 100 g edible portion) · preparation unknown<br/>[Amaranth](http://localhost:3000/docs/foods/amaranth) — 2.736 g (per 100 g edible portion) · uncooked<br/>[Anchovies](http://localhost:3000/docs/foods/anchovies) — 0.362 g (per 100 g edible portion) · canned<br/>[Apples](http://localhost:3000/docs/foods/apples) — 0.043 g (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 0.04 g (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 0.063 g (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 1.674 g (per 100 g edible portion) · raw<br/>[Avocado Oil](http://localhost:3000/docs/foods/avocado-oil) — 12.53 g (per 100 g edible portion) · Oil<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 0.046 g (per 100 g edible portion) · raw<br/>[Barley](http://localhost:3000/docs/foods/barley) — 0.999 g (per 100 g edible portion) · preparation unknown | None recorded |
+| [BRS5-FM3-PM8](http://localhost:3000/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Tryptophan](http://localhost:3000/docs/substances/nutrients/macronutrients/amino-acids/essential/tryptophan) — tryptophan | [Mature soybeans](http://localhost:3000/docs/foods/soy) — 0.591 g (per 100 g edible portion) · raw<br/>[Pumpkin Seeds](http://localhost:3000/docs/foods/pumpkin-seeds) — 0.576 g (per 100 g edible portion) · dried<br/>[Turkey](http://localhost:3000/docs/foods/turkey) — 0.241 g (per 100 g edible portion) · raw | None recorded |
+| [BRS5-FM3-PM8](http://localhost:3000/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Apple pectin (studied preparation)](http://localhost:3000/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin#apple-pectin-sinha-2024) — apple-pectin-sinha-2024 | No comparable quantified food sources | None recorded |
 
 ## Vitamin A (Retinoids; β-Carotene precursor) — vitamin-a
 
@@ -29,7 +34,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
-| [Anchovies](http://localhost:3000/docs/foods/anchovies) | Fish, anchovy, european, canned in oil, drained solids — oil | 12 µg (per 100 g edible portion) | docs/foods/anchovies.md#nutrition_per_100g/vitamin_a_rae_ug |
+| [Anchovies](http://localhost:3000/docs/foods/anchovies) | Fish, anchovy, european, canned in oil, drained solids — canned | 12 µg (per 100 g edible portion) | docs/foods/anchovies.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Apples](http://localhost:3000/docs/foods/apples) | Apples, raw, with skin (Includes foods for USDA's Food Distribution Program) — raw | 3 µg (per 100 g edible portion) | docs/foods/apples.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Asparagus](http://localhost:3000/docs/foods/asparagus) | Asparagus, raw — raw | 38 µg (per 100 g edible portion) | docs/foods/asparagus.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Aubergine](http://localhost:3000/docs/foods/aubergine) | Eggplant, raw — raw | 1 µg (per 100 g edible portion) | docs/foods/aubergine.md#nutrition_per_100g/vitamin_a_rae_ug |
@@ -44,7 +49,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Brussels Sprouts](http://localhost:3000/docs/foods/brussels-sprouts) | Brussels sprouts, raw — raw | 38 µg (per 100 g edible portion) | docs/foods/brussels-sprouts.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Butter](http://localhost:3000/docs/foods/butter) | Butter, without salt | 684 µg (per 100 g edible portion) | docs/foods/butter.md#nutrition_per_100g/vitamin_a_rae_ug; docs/foods/butter.md#substance_relationships/Vitamin%20A |
 | [Cabbage](http://localhost:3000/docs/foods/cabbage) | Cabbage, raw — raw | 5 µg (per 100 g edible portion) | docs/foods/cabbage.md#nutrition_per_100g/vitamin_a_rae_ug |
-| [Capers](http://localhost:3000/docs/foods/capers) | Capers, canned | 7 µg (per 100 g edible portion) | docs/foods/capers.md#nutrition_per_100g/vitamin_a_rae_ug |
+| [Capers](http://localhost:3000/docs/foods/capers) | Capers, canned — canned | 7 µg (per 100 g edible portion) | docs/foods/capers.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Carrots](http://localhost:3000/docs/foods/carrots) | Carrots, raw — raw | 835 µg (per 100 g edible portion) | docs/foods/carrots.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 337 µg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 3 µg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/vitamin_a_rae_ug |
@@ -75,12 +80,12 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Leeks](http://localhost:3000/docs/foods/leeks) | Leeks, (bulb and lower leaf-portion), raw — raw | 83 µg (per 100 g edible portion) | docs/foods/leeks.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Lemon](http://localhost:3000/docs/foods/lemon) | Lemons, raw, without peel — raw | 1 µg (per 100 g edible portion) | docs/foods/lemon.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Lentils](http://localhost:3000/docs/foods/lentils) | Lentils, raw — raw | 2 µg (per 100 g edible portion) | docs/foods/lentils.md#nutrition_per_100g/vitamin_a_rae_ug |
-| [Liver](http://localhost:3000/docs/foods/liver) | Beef, variety meats and by-products, liver, raw — raw | 4968 µg (per 100 g edible portion) | docs/foods/liver.md#nutrition_per_100g/vitamin_a_rae_ug; docs/foods/liver.md#substance_relationships/Vitamin%20A |
+| [Liver (beef)](http://localhost:3000/docs/foods/liver) | Beef, variety meats and by-products, liver, raw — raw | 4968 µg (per 100 g edible portion) | docs/foods/liver.md#nutrition_per_100g/vitamin_a_rae_ug; docs/foods/liver.md#substance_relationships/Vitamin%20A |
 | [Mackerel](http://localhost:3000/docs/foods/mackerel) | Fish, mackerel, Atlantic, raw — raw | 50 µg (per 100 g edible portion) | docs/foods/mackerel.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Milk](http://localhost:3000/docs/foods/milk) | Milk, whole, 3.25% milkfat, with added vitamin D | 46 µg (per 100 g edible portion) | docs/foods/milk.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Miso](http://localhost:3000/docs/foods/miso) | Miso | 4 µg (per 100 g edible portion) | docs/foods/miso.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Mussels](http://localhost:3000/docs/foods/mussels) | Mollusks, mussel, blue, raw — raw | 48 µg (per 100 g edible portion) | docs/foods/mussels.md#nutrition_per_100g/vitamin_a_rae_ug |
-| [Olives](http://localhost:3000/docs/foods/olives) | Olives, ripe, canned (small-extra large) | 17 µg (per 100 g edible portion) | docs/foods/olives.md#nutrition_per_100g/vitamin_a_rae_ug |
+| [Olives](http://localhost:3000/docs/foods/olives) | Olives, ripe, canned (small-extra large) — canned | 17 µg (per 100 g edible portion) | docs/foods/olives.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Oranges](http://localhost:3000/docs/foods/oranges) | Oranges, raw, all commercial varieties — raw | 11 µg (per 100 g edible portion) | docs/foods/oranges.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Oyster Mushroom](http://localhost:3000/docs/foods/oyster-mushroom) | Mushrooms, oyster, raw — raw | 2 µg (per 100 g edible portion) | docs/foods/oyster-mushroom.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Oysters](http://localhost:3000/docs/foods/oysters) | Mollusks, oyster, eastern, wild, raw — raw | 13 µg (per 100 g edible portion) | docs/foods/oysters.md#nutrition_per_100g/vitamin_a_rae_ug |
@@ -97,13 +102,13 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Raspberries](http://localhost:3000/docs/foods/raspberries) | Raspberries, raw — raw | 2 µg (per 100 g edible portion) | docs/foods/raspberries.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Romaine Lettuce](http://localhost:3000/docs/foods/romaine-lettuce) | Lettuce, cos or romaine, raw — raw | 436 µg (per 100 g edible portion) | docs/foods/romaine-lettuce.md#nutrition_per_100g/vitamin_a_rae_ug; docs/foods/romaine-lettuce.md#substance_relationships/Vitamin%20A |
 | [Rosemary](http://localhost:3000/docs/foods/rosemary) | Rosemary, fresh | 146 µg (per 100 g edible portion) | docs/foods/rosemary.md#nutrition_per_100g/vitamin_a_rae_ug |
-| [Salmon Roe](http://localhost:3000/docs/foods/salmon-roe) | Chum salmon (Oncorhynchus keta), salted roe (ikura) | 330 µg (per 100 g edible portion) | docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_a_rae_ug; docs/foods/salmon-roe.md#substance_relationships/Vitamin%20A |
+| [Salmon Roe](http://localhost:3000/docs/foods/salmon-roe) | Chum salmon (Oncorhynchus keta), salted roe (ikura) — salted | 330 µg (per 100 g edible portion) | docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_a_rae_ug; docs/foods/salmon-roe.md#substance_relationships/Vitamin%20A |
 | [Salmon](http://localhost:3000/docs/foods/salmon) | Fish, salmon, Atlantic, farmed, raw — raw | 58 µg (per 100 g edible portion) | docs/foods/salmon.md#nutrition_per_100g/vitamin_a_rae_ug |
-| [Sardines](http://localhost:3000/docs/foods/sardines) | Fish, sardine, Atlantic, canned in oil, drained solids with bone — oil | 32 µg (per 100 g edible portion) | docs/foods/sardines.md#nutrition_per_100g/vitamin_a_rae_ug |
-| [Sauerkraut](http://localhost:3000/docs/foods/sauerkraut) | Sauerkraut, canned, solids and liquids | 1 µg (per 100 g edible portion) | docs/foods/sauerkraut.md#nutrition_per_100g/vitamin_a_rae_ug |
+| [Sardines](http://localhost:3000/docs/foods/sardines) | Fish, sardine, Atlantic, canned in oil, drained solids with bone — canned | 32 µg (per 100 g edible portion) | docs/foods/sardines.md#nutrition_per_100g/vitamin_a_rae_ug |
+| [Sauerkraut](http://localhost:3000/docs/foods/sauerkraut) | Sauerkraut, canned, solids and liquids — canned | 1 µg (per 100 g edible portion) | docs/foods/sauerkraut.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Scallops](http://localhost:3000/docs/foods/scallops) | Mollusks, scallop, mixed species, raw — raw | 1 µg (per 100 g edible portion) | docs/foods/scallops.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Shrimp](http://localhost:3000/docs/foods/shrimp) | Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture) — raw | 54 µg (per 100 g edible portion) | docs/foods/shrimp.md#nutrition_per_100g/vitamin_a_rae_ug |
-| [Soy](http://localhost:3000/docs/foods/soy) | Soybeans, mature seeds, raw — raw | 1 µg (per 100 g edible portion) | docs/foods/soy.md#nutrition_per_100g/vitamin_a_rae_ug |
+| [Mature soybeans](http://localhost:3000/docs/foods/soy) | Soybeans, mature seeds, raw — raw | 1 µg (per 100 g edible portion) | docs/foods/soy.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Spinach](http://localhost:3000/docs/foods/spinach) | Spinach, raw — raw | 469 µg (per 100 g edible portion) | docs/foods/spinach.md#nutrition_per_100g/vitamin_a_rae_ug; docs/foods/spinach.md#substance_relationships/Vitamin%20A |
 | [Spirulina](http://localhost:3000/docs/foods/spirulina) | Seaweed, spirulina, dried — dried | 29 µg (per 100 g edible portion) | docs/foods/spirulina.md#nutrition_per_100g/vitamin_a_rae_ug |
 | [Strawberries](http://localhost:3000/docs/foods/strawberries) | Strawberries, raw — raw | 1 µg (per 100 g edible portion) | docs/foods/strawberries.md#nutrition_per_100g/vitamin_a_rae_ug |
@@ -129,13 +134,13 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (148)</summary>
+<summary>All mapped food sources (147)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
 | [Almonds](http://localhost:3000/docs/foods/almonds) | Nuts, almonds | 3.12 mg (per 100 g edible portion) | docs/foods/almonds.md#nutrition_per_100g/zinc_mg |
 | [Amaranth](http://localhost:3000/docs/foods/amaranth) | Amaranth grain, uncooked — uncooked | 2.87 mg (per 100 g edible portion) | docs/foods/amaranth.md#nutrition_per_100g/zinc_mg |
-| [Anchovies](http://localhost:3000/docs/foods/anchovies) | Fish, anchovy, european, canned in oil, drained solids — oil | 2.44 mg (per 100 g edible portion) | docs/foods/anchovies.md#nutrition_per_100g/zinc_mg |
+| [Anchovies](http://localhost:3000/docs/foods/anchovies) | Fish, anchovy, european, canned in oil, drained solids — canned | 2.44 mg (per 100 g edible portion) | docs/foods/anchovies.md#nutrition_per_100g/zinc_mg |
 | [Apples](http://localhost:3000/docs/foods/apples) | Apples, raw, with skin (Includes foods for USDA's Food Distribution Program) — raw | 0.04 mg (per 100 g edible portion) | docs/foods/apples.md#nutrition_per_100g/zinc_mg |
 | [Asparagus](http://localhost:3000/docs/foods/asparagus) | Asparagus, raw — raw | 0.54 mg (per 100 g edible portion) | docs/foods/asparagus.md#nutrition_per_100g/zinc_mg |
 | [Aubergine](http://localhost:3000/docs/foods/aubergine) | Eggplant, raw — raw | 0.16 mg (per 100 g edible portion) | docs/foods/aubergine.md#nutrition_per_100g/zinc_mg |
@@ -155,8 +160,8 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Buckwheat](http://localhost:3000/docs/foods/buckwheat) | Buckwheat | 2.4 mg (per 100 g edible portion) | docs/foods/buckwheat.md#nutrition_per_100g/zinc_mg |
 | [Butter](http://localhost:3000/docs/foods/butter) | Butter, without salt | 0.09 mg (per 100 g edible portion) | docs/foods/butter.md#nutrition_per_100g/zinc_mg |
 | [Cabbage](http://localhost:3000/docs/foods/cabbage) | Cabbage, raw — raw | 0.18 mg (per 100 g edible portion) | docs/foods/cabbage.md#nutrition_per_100g/zinc_mg |
-| [Cacao Powder](http://localhost:3000/docs/foods/cacao-powder) | Cocoa, dry powder, unsweetened | 6.81 mg (per 100 g edible portion) | docs/foods/cacao-powder.md#nutrition_per_100g/zinc_mg; docs/foods/cacao-powder.md#substance_relationships/Zinc |
-| [Capers](http://localhost:3000/docs/foods/capers) | Capers, canned | 0.32 mg (per 100 g edible portion) | docs/foods/capers.md#nutrition_per_100g/zinc_mg |
+| [Cacao Powder](http://localhost:3000/docs/foods/cacao-powder) | Cocoa, dry powder, unsweetened — dry powder | 6.81 mg (per 100 g edible portion) | docs/foods/cacao-powder.md#nutrition_per_100g/zinc_mg; docs/foods/cacao-powder.md#substance_relationships/Zinc |
+| [Capers](http://localhost:3000/docs/foods/capers) | Capers, canned — canned | 0.32 mg (per 100 g edible portion) | docs/foods/capers.md#nutrition_per_100g/zinc_mg |
 | [Carrots](http://localhost:3000/docs/foods/carrots) | Carrots, raw — raw | 0.24 mg (per 100 g edible portion) | docs/foods/carrots.md#nutrition_per_100g/zinc_mg |
 | [Cashews](http://localhost:3000/docs/foods/cashews) | Nuts, cashew nuts, raw — raw | 5.78 mg (per 100 g edible portion) | docs/foods/cashews.md#nutrition_per_100g/zinc_mg; docs/foods/cashews.md#substance_relationships/Zinc |
 | [Cauliflower](http://localhost:3000/docs/foods/cauliflower) | Cauliflower, raw — raw | 0.27 mg (per 100 g edible portion) | docs/foods/cauliflower.md#nutrition_per_100g/zinc_mg |
@@ -172,18 +177,18 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cinnamon](http://localhost:3000/docs/foods/cinnamon) | Spices, cinnamon, ground | 1.83 mg (per 100 g edible portion) | docs/foods/cinnamon.md#nutrition_per_100g/zinc_mg |
 | [Clams](http://localhost:3000/docs/foods/clams) | Mollusks, clam, mixed species, raw — raw | 0.51 mg (per 100 g edible portion) | docs/foods/clams.md#nutrition_per_100g/zinc_mg |
 | [Cockles](http://localhost:3000/docs/foods/cockles) | boiled Austrovenus stutchburyi cockles — raw | Quantity not established | docs/foods/cockles.md#substance_relationships/Zinc; docs/foods/cockles.md#nutrition_supplementary_sources/zinc_qual |
-| [Cocoa](http://localhost:3000/docs/foods/cocoa) | Cocoa, dry powder, unsweetened | 6.81 mg (per 100 g edible portion) | docs/foods/cocoa.md#nutrition_per_100g/zinc_mg; docs/foods/cocoa.md#substance_relationships/Zinc |
+| [Cocoa](http://localhost:3000/docs/foods/cocoa) | Cocoa, dry powder, unsweetened — dry powder | 6.81 mg (per 100 g edible portion) | docs/foods/cocoa.md#nutrition_per_100g/zinc_mg; docs/foods/cocoa.md#substance_relationships/Zinc |
 | [Coconut Oil](http://localhost:3000/docs/foods/coconut-oil) | Oil, coconut — Oil | 0.02 mg (per 100 g edible portion) | docs/foods/coconut-oil.md#nutrition_per_100g/zinc_mg |
 | [Cod](http://localhost:3000/docs/foods/cod) | Fish, cod, Atlantic, raw — raw | 0.45 mg (per 100 g edible portion) | docs/foods/cod.md#nutrition_per_100g/zinc_mg |
 | [Coffee](http://localhost:3000/docs/foods/coffee) | Beverages, coffee, brewed, breakfast blend | 0.02 mg (per 100 g edible portion) | docs/foods/coffee.md#nutrition_per_100g/zinc_mg |
 | [Corn](http://localhost:3000/docs/foods/corn) | Corn, sweet, yellow, raw — raw | 0.46 mg (per 100 g edible portion) | docs/foods/corn.md#nutrition_per_100g/zinc_mg |
-| [Crab](http://localhost:3000/docs/foods/crab) | Crustaceans, crab, alaska king, cooked, moist heat | Quantity not established | docs/foods/crab.md#substance_relationships/Zinc |
-| [Crab](http://localhost:3000/docs/foods/crab) | Snow crab, legs only, frozen   | 3.369 mg (per 100 g edible portion) | docs/foods/crab.md#nutrition_per_100g/zinc_mg |
+| [Crab](http://localhost:3000/docs/foods/crab) | Crustaceans, crab, alaska king, cooked, moist heat — frozen | Quantity not established | docs/foods/crab.md#substance_relationships/Zinc |
+| [Crab](http://localhost:3000/docs/foods/crab) | Snow crab, legs only, frozen   — frozen | 3.369 mg (per 100 g edible portion) | docs/foods/crab.md#nutrition_per_100g/zinc_mg |
 | [Cranberries](http://localhost:3000/docs/foods/cranberries) | Cranberries, raw — raw | 0.09 mg (per 100 g edible portion) | docs/foods/cranberries.md#nutrition_per_100g/zinc_mg |
 | [Cucumber](http://localhost:3000/docs/foods/cucumber) | Cucumber, with peel, raw — raw | 0.2 mg (per 100 g edible portion) | docs/foods/cucumber.md#nutrition_per_100g/zinc_mg |
 | [Dandelion Greens](http://localhost:3000/docs/foods/dandelion-greens) | Dandelion greens, raw — raw | 0.41 mg (per 100 g edible portion) | docs/foods/dandelion-greens.md#nutrition_per_100g/zinc_mg |
 | [Dark Chocolate](http://localhost:3000/docs/foods/dark-chocolate) | Chocolate, dark, 70-85% cacao solids | 3.31 mg (per 100 g edible portion) | docs/foods/dark-chocolate.md#nutrition_per_100g/zinc_mg; docs/foods/dark-chocolate.md#substance_relationships/Zinc |
-| [Edamame](http://localhost:3000/docs/foods/edamame) | Edamame, frozen, unprepared | 1.32 mg (per 100 g edible portion) | docs/foods/edamame.md#nutrition_per_100g/zinc_mg |
+| [Edamame](http://localhost:3000/docs/foods/edamame) | Edamame, frozen, unprepared — frozen | 1.32 mg (per 100 g edible portion) | docs/foods/edamame.md#nutrition_per_100g/zinc_mg |
 | [Egg Yolks](http://localhost:3000/docs/foods/egg-yolks) | Egg, yolk, raw, fresh — raw | 2.3 mg (per 100 g edible portion) | docs/foods/egg-yolks.md#nutrition_per_100g/zinc_mg |
 | [Eggs](http://localhost:3000/docs/foods/eggs) | Egg, whole, raw, fresh — raw | 1.29 mg (per 100 g edible portion) | docs/foods/eggs.md#nutrition_per_100g/zinc_mg; docs/foods/eggs.md#substance_relationships/Zinc |
 | [Fermented Hot Sauce](http://localhost:3000/docs/foods/fermented-hot-sauce) | Sauce, ready-to-serve, pepper, TABASCO | 0.16 mg (per 100 g edible portion) | docs/foods/fermented-hot-sauce.md#nutrition_per_100g/zinc_mg |
@@ -207,9 +212,8 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Lemon](http://localhost:3000/docs/foods/lemon) | Lemons, raw, without peel — raw | 0.06 mg (per 100 g edible portion) | docs/foods/lemon.md#nutrition_per_100g/zinc_mg |
 | [Lentils](http://localhost:3000/docs/foods/lentils) | Lentils, raw — raw | 3.27 mg (per 100 g edible portion) | docs/foods/lentils.md#nutrition_per_100g/zinc_mg; docs/foods/lentils.md#substance_relationships/Zinc |
 | [Lion's Mane Mushroom](http://localhost:3000/docs/foods/lions-mane-mushroom) | Mushroom, lion's mane | 0.7448 mg (per 100 g edible portion) | docs/foods/lions-mane-mushroom.md#nutrition_per_100g/zinc_mg |
-| [Liver](http://localhost:3000/docs/foods/liver) | Beef, variety meats and by-products, liver, raw — raw | 4 mg (per 100 g edible portion) | docs/foods/liver.md#nutrition_per_100g/zinc_mg |
-| [Lupin Beans](http://localhost:3000/docs/foods/lupin-beans) | Lupins, mature seeds, raw — raw | 4.75 mg (per 100 g edible portion) | docs/foods/lupin-beans.md#nutrition_per_100g/zinc_mg; docs/foods/lupin-beans.md#substance_relationships/Zinc |
-| [Lupins](http://localhost:3000/docs/foods/lupins) | Lupins, mature seeds, raw — raw | 4.75 mg (per 100 g edible portion) | docs/foods/lupins.md#nutrition_per_100g/zinc_mg |
+| [Liver (beef)](http://localhost:3000/docs/foods/liver) | Beef, variety meats and by-products, liver, raw — raw | 4 mg (per 100 g edible portion) | docs/foods/liver.md#nutrition_per_100g/zinc_mg |
+| [Lupins](http://localhost:3000/docs/foods/lupins) | Lupins, mature seeds, raw — raw | 4.75 mg (per 100 g edible portion) | docs/foods/lupins.md#nutrition_per_100g/zinc_mg; docs/foods/lupins.md#substance_relationships/Zinc |
 | [Mackerel](http://localhost:3000/docs/foods/mackerel) | Fish, mackerel, Atlantic, raw — raw | 0.63 mg (per 100 g edible portion) | docs/foods/mackerel.md#nutrition_per_100g/zinc_mg |
 | [Maitake Mushroom](http://localhost:3000/docs/foods/maitake-mushroom) | Mushrooms, maitake, raw — raw | 0.75 mg (per 100 g edible portion) | docs/foods/maitake-mushroom.md#nutrition_per_100g/zinc_mg |
 | [Milk](http://localhost:3000/docs/foods/milk) | Milk, whole, 3.25% milkfat, with added vitamin D | 0.37 mg (per 100 g edible portion) | docs/foods/milk.md#nutrition_per_100g/zinc_mg; docs/foods/milk.md#substance_relationships/Zinc |
@@ -220,7 +224,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Nori](http://localhost:3000/docs/foods/nori) | Purple laver (Porphyra spp.), dried, toasted — dried | 3.6 mg (per 100 g edible dried, toasted nori; not a typical serving) | docs/foods/nori.md#nutrition_per_100g/zinc_mg; docs/foods/nori.md#substance_relationships/Zinc |
 | [Nutritional Yeast](http://localhost:3000/docs/foods/nutritional-yeast) | Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae — dried | 120 mg (per 100 g dry product; the label serving is 5 g) | docs/foods/nutritional-yeast.md#nutrition_per_100g/zinc_mg; docs/foods/nutritional-yeast.md#substance_relationships/Zinc |
 | [Oats](http://localhost:3000/docs/foods/oats) | Oats (Includes foods for USDA's Food Distribution Program) | 3.97 mg (per 100 g edible portion) | docs/foods/oats.md#nutrition_per_100g/zinc_mg; docs/foods/oats.md#substance_relationships/Zinc |
-| [Olives](http://localhost:3000/docs/foods/olives) | Olives, ripe, canned (small-extra large) | 0.22 mg (per 100 g edible portion) | docs/foods/olives.md#nutrition_per_100g/zinc_mg |
+| [Olives](http://localhost:3000/docs/foods/olives) | Olives, ripe, canned (small-extra large) — canned | 0.22 mg (per 100 g edible portion) | docs/foods/olives.md#nutrition_per_100g/zinc_mg |
 | [Onions](http://localhost:3000/docs/foods/onions) | Onions, raw — raw | 0.17 mg (per 100 g edible portion) | docs/foods/onions.md#nutrition_per_100g/zinc_mg |
 | [Oranges](http://localhost:3000/docs/foods/oranges) | Oranges, raw, all commercial varieties — raw | 0.07 mg (per 100 g edible portion) | docs/foods/oranges.md#nutrition_per_100g/zinc_mg |
 | [Oregano](http://localhost:3000/docs/foods/oregano) | Spices, oregano, dried — dried | 2.69 mg (per 100 g edible portion) | docs/foods/oregano.md#nutrition_per_100g/zinc_mg |
@@ -245,16 +249,16 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Rosemary](http://localhost:3000/docs/foods/rosemary) | Rosemary, fresh | 0.93 mg (per 100 g edible portion) | docs/foods/rosemary.md#nutrition_per_100g/zinc_mg |
 | [Saffron](http://localhost:3000/docs/foods/saffron) | Spices, saffron | 1.09 mg (per 100 g edible portion) | docs/foods/saffron.md#nutrition_per_100g/zinc_mg |
 | [Sage](http://localhost:3000/docs/foods/sage) | Spices, sage, ground | 4.7 mg (per 100 g edible portion) | docs/foods/sage.md#nutrition_per_100g/zinc_mg |
-| [Salmon Roe](http://localhost:3000/docs/foods/salmon-roe) | Chum salmon (Oncorhynchus keta), salted roe (ikura) | 2.1 mg (per 100 g edible portion) | docs/foods/salmon-roe.md#nutrition_per_100g/zinc_mg; docs/foods/salmon-roe.md#substance_relationships/Zinc |
+| [Salmon Roe](http://localhost:3000/docs/foods/salmon-roe) | Chum salmon (Oncorhynchus keta), salted roe (ikura) — salted | 2.1 mg (per 100 g edible portion) | docs/foods/salmon-roe.md#nutrition_per_100g/zinc_mg; docs/foods/salmon-roe.md#substance_relationships/Zinc |
 | [Salmon](http://localhost:3000/docs/foods/salmon) | Fish, salmon, Atlantic, farmed, raw — raw | 0.36 mg (per 100 g edible portion) | docs/foods/salmon.md#nutrition_per_100g/zinc_mg |
-| [Sardines](http://localhost:3000/docs/foods/sardines) | Fish, sardine, Atlantic, canned in oil, drained solids with bone — oil | 1.31 mg (per 100 g edible portion) | docs/foods/sardines.md#nutrition_per_100g/zinc_mg |
-| [Sauerkraut](http://localhost:3000/docs/foods/sauerkraut) | Sauerkraut, canned, solids and liquids | 0.19 mg (per 100 g edible portion) | docs/foods/sauerkraut.md#nutrition_per_100g/zinc_mg |
+| [Sardines](http://localhost:3000/docs/foods/sardines) | Fish, sardine, Atlantic, canned in oil, drained solids with bone — canned | 1.31 mg (per 100 g edible portion) | docs/foods/sardines.md#nutrition_per_100g/zinc_mg |
+| [Sauerkraut](http://localhost:3000/docs/foods/sauerkraut) | Sauerkraut, canned, solids and liquids — canned | 0.19 mg (per 100 g edible portion) | docs/foods/sauerkraut.md#nutrition_per_100g/zinc_mg |
 | [Scallops](http://localhost:3000/docs/foods/scallops) | Mollusks, scallop, mixed species, raw — raw | 0.91 mg (per 100 g edible portion) | docs/foods/scallops.md#nutrition_per_100g/zinc_mg |
 | [Sesame Seeds](http://localhost:3000/docs/foods/sesame-seeds) | Seeds, sesame seeds, whole, dried — dried | 7.75 mg (per 100 g edible portion) | docs/foods/sesame-seeds.md#nutrition_per_100g/zinc_mg |
 | [Shiitake Mushroom](http://localhost:3000/docs/foods/shiitake-mushroom) | Mushrooms, shiitake, raw — raw | 1.03 mg (per 100 g edible portion) | docs/foods/shiitake-mushroom.md#nutrition_per_100g/zinc_mg |
 | [Shrimp](http://localhost:3000/docs/foods/shrimp) | Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture) — raw | 0.97 mg (per 100 g edible portion) | docs/foods/shrimp.md#nutrition_per_100g/zinc_mg; docs/foods/shrimp.md#substance_relationships/Zinc |
 | [Sourdough Bread](http://localhost:3000/docs/foods/sourdough-bread) | wheat sourdough breads | Quantity not established | docs/foods/sourdough-bread.md#substance_relationships/Zinc |
-| [Soy](http://localhost:3000/docs/foods/soy) | Soybeans, mature seeds, raw — raw | 4.89 mg (per 100 g edible portion) | docs/foods/soy.md#nutrition_per_100g/zinc_mg |
+| [Mature soybeans](http://localhost:3000/docs/foods/soy) | Soybeans, mature seeds, raw — raw | 4.89 mg (per 100 g edible portion) | docs/foods/soy.md#nutrition_per_100g/zinc_mg |
 | [Spelt](http://localhost:3000/docs/foods/spelt) | Spelt, uncooked — uncooked | 3.28 mg (per 100 g edible portion) | docs/foods/spelt.md#nutrition_per_100g/zinc_mg |
 | [Spinach](http://localhost:3000/docs/foods/spinach) | Spinach, raw — raw | 0.53 mg (per 100 g edible portion) | docs/foods/spinach.md#nutrition_per_100g/zinc_mg; docs/foods/spinach.md#substance_relationships/Zinc |
 | [Spirulina](http://localhost:3000/docs/foods/spirulina) | Seaweed, spirulina, dried — dried | 2 mg (per 100 g edible portion) | docs/foods/spirulina.md#nutrition_per_100g/zinc_mg |
@@ -286,16 +290,16 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 
 ## Glutamine — glutamine
 
-Food sources identified; quantities not established.
+Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
 <summary>All mapped food sources (3)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
-| [Beef](http://localhost:3000/docs/foods/beef) | Beef protein fractions — form not known | Quantity not established | docs/foods/beef.md#substance_relationships/Glutamine |
-| [Eggs](http://localhost:3000/docs/foods/eggs) | Whole egg protein fractions — form not known | Quantity not established | docs/foods/eggs.md#substance_relationships/Glutamine |
-| [Tofu](http://localhost:3000/docs/foods/tofu) | Soy protein in tofu — form not known | Quantity not established | docs/foods/tofu.md#substance_relationships/Glutamine |
+| [Beef](http://localhost:3000/docs/foods/beef) | Beef protein fractions — form not known | Quantity not established | docs/foods/beef.md#substance_relationships/Glutamine; docs/foods/beef.md#nutrition_supplementary_sources/glutamine_lenders |
+| [Eggs](http://localhost:3000/docs/foods/eggs) | Whole egg protein fractions — form not known | 0.559 g (per 100 g reference egg as food) | docs/foods/eggs.md#nutrition_supplementary_sources/glutamine_lenders; docs/foods/eggs.md#substance_relationships/Glutamine; docs/foods/eggs.md#nutrition_supplementary_sources/glutamine_lenders |
+| [Tofu](http://localhost:3000/docs/foods/tofu) | Soy protein in tofu — form not known | Quantity not established | docs/foods/tofu.md#substance_relationships/Glutamine; docs/foods/tofu.md#nutrition_supplementary_sources/glutamine_lenders |
 
 </details>
 
@@ -319,8 +323,8 @@ Food sources identified; quantities not established.
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
+| [Apples](http://localhost:3000/docs/foods/apples) | Apples, raw, with skin (Includes foods for USDA's Food Distribution Program) — raw | Quantity not established | docs/foods/apples.md#substance_relationships/Pectin; docs/foods/apples.md#nutrition_supplementary_sources/pectin_qual |
 | [Apples](http://localhost:3000/docs/foods/apples) | Peel, flesh and core from thirteen apple cultivars, extracted as analytical fractions — raw | Quantity not established | docs/foods/apples.md#substance_relationships/Pectin |
-| [Apples](http://localhost:3000/docs/foods/apples) | Apples, raw, with skin (Includes foods for USDA's Food Distribution Program) — raw | Quantity not established | docs/foods/apples.md#nutrition_supplementary_sources/pectin_qual |
 | [Lemon](http://localhost:3000/docs/foods/lemon) | Meyer lemon flavedo, albedo, membrane and juice sacs recovered after juice extraction — raw | Quantity not established | docs/foods/lemon.md#substance_relationships/Pectin; docs/foods/lemon.md#nutrition_supplementary_sources/pectin_qual |
 | [Oranges](http://localhost:3000/docs/foods/oranges) | Peel, albedo, pulp and juice of ripe pêra, Valência, Lima, Natal and Bahia oranges — raw | Quantity not established | docs/foods/oranges.md#substance_relationships/Pectin; docs/foods/oranges.md#nutrition_supplementary_sources/pectin_qual |
 | [Pears](http://localhost:3000/docs/foods/pears) | Bartlett pear fruit during maturation and after-ripening — raw | Quantity not established | docs/foods/pears.md#substance_relationships/Pectin; docs/foods/pears.md#nutrition_supplementary_sources/pectin_qual |
@@ -344,6 +348,39 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 </details>
 
 ## Oligofructose — oligofructose
+
+No food-source mappings for this preparation.
+
+<details>
+<summary>All mapped food sources (0)</summary>
+
+No eligible dietary food list is generated. Check the PM dietary-input decision separately from sourcing coverage.
+
+</details>
+
+## Type 2 resistant starch (tested aged-mouse exposure) — resistant-starch-type-2-zhang-2020
+
+No food-source mappings for this preparation.
+
+<details>
+<summary>All mapped food sources (0)</summary>
+
+No eligible dietary food list is generated. Check the PM dietary-input decision separately from sourcing coverage.
+
+</details>
+
+## Oligofructose-enriched inulin — oligofructose-enriched-inulin-schroeder-2018
+
+No food-source mappings for this preparation.
+
+<details>
+<summary>All mapped food sources (0)</summary>
+
+No eligible dietary food list is generated. Check the PM dietary-input decision separately from sourcing coverage.
+
+</details>
+
+## Bifidobacterium longum NCC2705 — bifidobacterium-longum-ncc2705
 
 No food-source mappings for this preparation.
 
@@ -417,12 +454,23 @@ Food sources identified; no verified comparable quantities available.
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
 | [Cacao Nibs (Raw)](http://localhost:3000/docs/foods/cacao-nibs-raw) | cocoa beans and cocoa products | Quantity not established | docs/foods/cacao-nibs-raw.md#substance_relationships/Epicatechin; docs/foods/cacao-nibs-raw.md#nutrition_supplementary_sources/epicatechin_qual |
-| [Cacao Powder](http://localhost:3000/docs/foods/cacao-powder) | cocoa beans and cocoa products | Quantity not established | docs/foods/cacao-powder.md#substance_relationships/Epicatechin |
-| [Cacao Powder](http://localhost:3000/docs/foods/cacao-powder) | Cocoa, dry powder, unsweetened | 196 mg (basis unknown; unverified amount) | docs/foods/cacao-powder.md#nutrition_supplementary_sources/epicatechin_mg; docs/foods/cacao-powder.md#nutrition_supplementary_sources/epicatechin_mg |
-| [Cocoa](http://localhost:3000/docs/foods/cocoa) | cocoa beans and cocoa products | Quantity not established | docs/foods/cocoa.md#substance_relationships/Epicatechin |
-| [Cocoa](http://localhost:3000/docs/foods/cocoa) | Cocoa, dry powder, unsweetened | 34 mg (basis unknown; unverified amount) | docs/foods/cocoa.md#nutrition_supplementary_sources/epicatechin_mg; docs/foods/cocoa.md#nutrition_supplementary_sources/epicatechin_mg |
+| [Cacao Powder](http://localhost:3000/docs/foods/cacao-powder) | cocoa beans and cocoa products — dry powder | Quantity not established | docs/foods/cacao-powder.md#substance_relationships/Epicatechin |
+| [Cacao Powder](http://localhost:3000/docs/foods/cacao-powder) | Cocoa, dry powder, unsweetened — dry powder | 196 mg (basis unknown; unverified amount) | docs/foods/cacao-powder.md#nutrition_supplementary_sources/epicatechin_mg; docs/foods/cacao-powder.md#nutrition_supplementary_sources/epicatechin_mg |
+| [Cocoa](http://localhost:3000/docs/foods/cocoa) | cocoa beans and cocoa products — dry powder | Quantity not established | docs/foods/cocoa.md#substance_relationships/Epicatechin |
+| [Cocoa](http://localhost:3000/docs/foods/cocoa) | Cocoa, dry powder, unsweetened — dry powder | 34 mg (basis unknown; unverified amount) | docs/foods/cocoa.md#nutrition_supplementary_sources/epicatechin_mg; docs/foods/cocoa.md#nutrition_supplementary_sources/epicatechin_mg |
 | [Dark Chocolate](http://localhost:3000/docs/foods/dark-chocolate) | cocoa beans and cocoa products | Quantity not established | docs/foods/dark-chocolate.md#substance_relationships/Epicatechin |
 | [Dark Chocolate](http://localhost:3000/docs/foods/dark-chocolate) | Chocolate, dark, 70-85% cacao solids | 70.4 mg (basis unknown; unverified amount) | docs/foods/dark-chocolate.md#nutrition_supplementary_sources/epicatechin_mg; docs/foods/dark-chocolate.md#nutrition_supplementary_sources/epicatechin_mg |
+
+</details>
+
+## Lacticaseibacillus rhamnosus JB-1 — lacticaseibacillus-rhamnosus-jb-1
+
+No food-source mappings for this preparation.
+
+<details>
+<summary>All mapped food sources (0)</summary>
+
+No eligible dietary food list is generated. Check the PM dietary-input decision separately from sourcing coverage.
 
 </details>
 
@@ -451,7 +499,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | --- | --- | --- | --- |
 | [Almonds](http://localhost:3000/docs/foods/almonds) | Nuts, almonds | 12.32 g (per 100 g edible portion) | docs/foods/almonds.md#nutrition_per_100g/linoleic_g; docs/foods/almonds.md#substance_relationships/Linoleic%20Acid |
 | [Amaranth](http://localhost:3000/docs/foods/amaranth) | Amaranth grain, uncooked — uncooked | 2.736 g (per 100 g edible portion) | docs/foods/amaranth.md#nutrition_per_100g/linoleic_g |
-| [Anchovies](http://localhost:3000/docs/foods/anchovies) | Fish, anchovy, european, canned in oil, drained solids — oil | 0.362 g (per 100 g edible portion) | docs/foods/anchovies.md#nutrition_per_100g/linoleic_g |
+| [Anchovies](http://localhost:3000/docs/foods/anchovies) | Fish, anchovy, european, canned in oil, drained solids — canned | 0.362 g (per 100 g edible portion) | docs/foods/anchovies.md#nutrition_per_100g/linoleic_g |
 | [Apples](http://localhost:3000/docs/foods/apples) | Apples, raw, with skin (Includes foods for USDA's Food Distribution Program) — raw | 0.043 g (per 100 g edible portion) | docs/foods/apples.md#nutrition_per_100g/linoleic_g |
 | [Asparagus](http://localhost:3000/docs/foods/asparagus) | Asparagus, raw — raw | 0.04 g (per 100 g edible portion) | docs/foods/asparagus.md#nutrition_per_100g/linoleic_g |
 | [Aubergine](http://localhost:3000/docs/foods/aubergine) | Eggplant, raw — raw | 0.063 g (per 100 g edible portion) | docs/foods/aubergine.md#nutrition_per_100g/linoleic_g |
@@ -470,8 +518,8 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Buckwheat](http://localhost:3000/docs/foods/buckwheat) | Buckwheat | 0.961 g (per 100 g edible portion) | docs/foods/buckwheat.md#nutrition_per_100g/linoleic_g |
 | [Butter](http://localhost:3000/docs/foods/butter) | Butter, without salt | 2.166 g (per 100 g edible portion) | docs/foods/butter.md#nutrition_per_100g/linoleic_g |
 | [Cabbage](http://localhost:3000/docs/foods/cabbage) | Cabbage, raw — raw | 0.017 g (per 100 g edible portion) | docs/foods/cabbage.md#nutrition_per_100g/linoleic_g |
-| [Cacao Powder](http://localhost:3000/docs/foods/cacao-powder) | Cocoa, dry powder, unsweetened | 0.44 g (per 100 g edible portion) | docs/foods/cacao-powder.md#nutrition_per_100g/linoleic_g |
-| [Capers](http://localhost:3000/docs/foods/capers) | Capers, canned | 0.111 g (per 100 g edible portion) | docs/foods/capers.md#nutrition_per_100g/linoleic_g |
+| [Cacao Powder](http://localhost:3000/docs/foods/cacao-powder) | Cocoa, dry powder, unsweetened — dry powder | 0.44 g (per 100 g edible portion) | docs/foods/cacao-powder.md#nutrition_per_100g/linoleic_g |
+| [Capers](http://localhost:3000/docs/foods/capers) | Capers, canned — canned | 0.111 g (per 100 g edible portion) | docs/foods/capers.md#nutrition_per_100g/linoleic_g |
 | [Carrots](http://localhost:3000/docs/foods/carrots) | Carrots, raw — raw | 0.1 g (per 100 g edible portion) | docs/foods/carrots.md#nutrition_per_100g/linoleic_g |
 | [Cashews](http://localhost:3000/docs/foods/cashews) | Nuts, cashew nuts, raw — raw | 7.782 g (per 100 g edible portion) | docs/foods/cashews.md#nutrition_per_100g/linoleic_g; docs/foods/cashews.md#substance_relationships/Linoleic%20Acid |
 | [Cauliflower](http://localhost:3000/docs/foods/cauliflower) | Cauliflower, raw — raw | 0.013 g (per 100 g edible portion) | docs/foods/cauliflower.md#nutrition_per_100g/linoleic_g |
@@ -484,7 +532,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cilantro](http://localhost:3000/docs/foods/cilantro) | Coriander (cilantro) leaves, raw — raw | 0.04 g (per 100 g edible portion) | docs/foods/cilantro.md#nutrition_per_100g/linoleic_g |
 | [Cinnamon](http://localhost:3000/docs/foods/cinnamon) | Spices, cinnamon, ground | 0.044 g (per 100 g edible portion) | docs/foods/cinnamon.md#nutrition_per_100g/linoleic_g |
 | [Clams](http://localhost:3000/docs/foods/clams) | Mollusks, clam, mixed species, raw — raw | 0.027 g (per 100 g edible portion) | docs/foods/clams.md#nutrition_per_100g/linoleic_g |
-| [Cocoa](http://localhost:3000/docs/foods/cocoa) | Cocoa, dry powder, unsweetened | 0.44 g (per 100 g edible portion) | docs/foods/cocoa.md#nutrition_per_100g/linoleic_g |
+| [Cocoa](http://localhost:3000/docs/foods/cocoa) | Cocoa, dry powder, unsweetened — dry powder | 0.44 g (per 100 g edible portion) | docs/foods/cocoa.md#nutrition_per_100g/linoleic_g |
 | [Coconut Oil](http://localhost:3000/docs/foods/coconut-oil) | Oil, coconut — Oil | 1.676 g (per 100 g edible portion) | docs/foods/coconut-oil.md#nutrition_per_100g/linoleic_g |
 | [Cod](http://localhost:3000/docs/foods/cod) | Fish, cod, Atlantic, raw — raw | 0.005 g (per 100 g edible portion) | docs/foods/cod.md#nutrition_per_100g/linoleic_g |
 | [Corn](http://localhost:3000/docs/foods/corn) | Corn, sweet, yellow, raw — raw | 0.468 g (per 100 g edible portion) | docs/foods/corn.md#nutrition_per_100g/linoleic_g |
@@ -514,8 +562,8 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Leeks](http://localhost:3000/docs/foods/leeks) | Leeks, (bulb and lower leaf-portion), raw — raw | 0.067 g (per 100 g edible portion) | docs/foods/leeks.md#nutrition_per_100g/linoleic_g |
 | [Lemon](http://localhost:3000/docs/foods/lemon) | Lemons, raw, without peel — raw | 0.063 g (per 100 g edible portion) | docs/foods/lemon.md#nutrition_per_100g/linoleic_g |
 | [Lentils](http://localhost:3000/docs/foods/lentils) | Lentils, raw — raw | 0.414 g (per 100 g edible portion) | docs/foods/lentils.md#nutrition_per_100g/linoleic_g |
-| [Liver](http://localhost:3000/docs/foods/liver) | Beef, variety meats and by-products, liver, raw — raw | 0.299 g (per 100 g edible portion) | docs/foods/liver.md#nutrition_per_100g/linoleic_g |
-| [Lupin Beans](http://localhost:3000/docs/foods/lupin-beans) | Lupins, mature seeds, raw — raw | 1.995 g (per 100 g edible portion) | docs/foods/lupin-beans.md#nutrition_per_100g/linoleic_g |
+| [Liver (beef)](http://localhost:3000/docs/foods/liver) | Beef, variety meats and by-products, liver, raw — raw | 0.299 g (per 100 g edible portion) | docs/foods/liver.md#nutrition_per_100g/linoleic_g |
+| [Lupins](http://localhost:3000/docs/foods/lupins) | Lupins, mature seeds, raw — raw | 1.995 g (per 100 g edible portion) | docs/foods/lupins.md#nutrition_per_100g/linoleic_g |
 | [Mackerel](http://localhost:3000/docs/foods/mackerel) | Fish, mackerel, Atlantic, raw — raw | 0.219 g (per 100 g edible portion) | docs/foods/mackerel.md#nutrition_per_100g/linoleic_g |
 | [Maitake Mushroom](http://localhost:3000/docs/foods/maitake-mushroom) | Mushrooms, maitake, raw — raw | 0.09 g (per 100 g edible portion) | docs/foods/maitake-mushroom.md#nutrition_per_100g/linoleic_g |
 | [Milk](http://localhost:3000/docs/foods/milk) | Milk, whole, 3.25% milkfat, with added vitamin D | 0.12 g (per 100 g edible portion) | docs/foods/milk.md#nutrition_per_100g/linoleic_g |
@@ -524,7 +572,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Mussels](http://localhost:3000/docs/foods/mussels) | Mollusks, mussel, blue, raw — raw | 0.018 g (per 100 g edible portion) | docs/foods/mussels.md#nutrition_per_100g/linoleic_g |
 | [Natto](http://localhost:3000/docs/foods/natto) | Natto | 5.476 g (per 100 g edible portion) | docs/foods/natto.md#nutrition_per_100g/linoleic_g |
 | [Oats](http://localhost:3000/docs/foods/oats) | Oats (Includes foods for USDA's Food Distribution Program) | 2.424 g (per 100 g edible portion) | docs/foods/oats.md#nutrition_per_100g/linoleic_g |
-| [Olives](http://localhost:3000/docs/foods/olives) | Olives, ripe, canned (small-extra large) | 0.629 g (per 100 g edible portion) | docs/foods/olives.md#nutrition_per_100g/linoleic_g |
+| [Olives](http://localhost:3000/docs/foods/olives) | Olives, ripe, canned (small-extra large) — canned | 0.629 g (per 100 g edible portion) | docs/foods/olives.md#nutrition_per_100g/linoleic_g |
 | [Onions](http://localhost:3000/docs/foods/onions) | Onions, raw — raw | 0.013 g (per 100 g edible portion) | docs/foods/onions.md#nutrition_per_100g/linoleic_g |
 | [Oranges](http://localhost:3000/docs/foods/oranges) | Oranges, raw, all commercial varieties — raw | 0.018 g (per 100 g edible portion) | docs/foods/oranges.md#nutrition_per_100g/linoleic_g |
 | [Oyster Mushroom](http://localhost:3000/docs/foods/oyster-mushroom) | Mushrooms, oyster, raw — raw | 0.123 g (per 100 g edible portion) | docs/foods/oyster-mushroom.md#nutrition_per_100g/linoleic_g |
@@ -546,15 +594,15 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Rice](http://localhost:3000/docs/foods/rice) | Rice, white, long-grain, regular, raw, unenriched — raw | 0.146 g (per 100 g edible portion) | docs/foods/rice.md#nutrition_per_100g/linoleic_g |
 | [Romaine Lettuce](http://localhost:3000/docs/foods/romaine-lettuce) | Lettuce, cos or romaine, raw — raw | 0.047 g (per 100 g edible portion) | docs/foods/romaine-lettuce.md#nutrition_per_100g/linoleic_g |
 | [Rosemary](http://localhost:3000/docs/foods/rosemary) | Rosemary, fresh | 0.447 g (per 100 g edible portion) | docs/foods/rosemary.md#nutrition_per_100g/linoleic_g |
-| [Salmon Roe](http://localhost:3000/docs/foods/salmon-roe) | Chum salmon (Oncorhynchus keta), salted roe (ikura) | 0.11 g (per 100 g edible portion) | docs/foods/salmon-roe.md#nutrition_per_100g/linoleic_g |
+| [Salmon Roe](http://localhost:3000/docs/foods/salmon-roe) | Chum salmon (Oncorhynchus keta), salted roe (ikura) — salted | 0.11 g (per 100 g edible portion) | docs/foods/salmon-roe.md#nutrition_per_100g/linoleic_g |
 | [Salmon](http://localhost:3000/docs/foods/salmon) | Fish, salmon, Atlantic, farmed, raw — raw | 0.9 g (per 100 g edible portion) | docs/foods/salmon.md#nutrition_per_100g/linoleic_g |
-| [Sardines](http://localhost:3000/docs/foods/sardines) | Fish, sardine, Atlantic, canned in oil, drained solids with bone — oil | 3.543 g (per 100 g edible portion) | docs/foods/sardines.md#nutrition_per_100g/linoleic_g |
-| [Sauerkraut](http://localhost:3000/docs/foods/sauerkraut) | Sauerkraut, canned, solids and liquids | 0.034 g (per 100 g edible portion) | docs/foods/sauerkraut.md#nutrition_per_100g/linoleic_g |
+| [Sardines](http://localhost:3000/docs/foods/sardines) | Fish, sardine, Atlantic, canned in oil, drained solids with bone — canned | 3.543 g (per 100 g edible portion) | docs/foods/sardines.md#nutrition_per_100g/linoleic_g |
+| [Sauerkraut](http://localhost:3000/docs/foods/sauerkraut) | Sauerkraut, canned, solids and liquids — canned | 0.034 g (per 100 g edible portion) | docs/foods/sauerkraut.md#nutrition_per_100g/linoleic_g |
 | [Scallops](http://localhost:3000/docs/foods/scallops) | Mollusks, scallop, mixed species, raw — raw | 0.007 g (per 100 g edible portion) | docs/foods/scallops.md#nutrition_per_100g/linoleic_g |
 | [Sesame Seeds](http://localhost:3000/docs/foods/sesame-seeds) | Seeds, sesame seeds, whole, dried — dried | 21.375 g (per 100 g edible portion) | docs/foods/sesame-seeds.md#nutrition_per_100g/linoleic_g; docs/foods/sesame-seeds.md#substance_relationships/Linoleic%20Acid |
 | [Shrimp](http://localhost:3000/docs/foods/shrimp) | Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture) — raw | 0.089 g (per 100 g edible portion) | docs/foods/shrimp.md#nutrition_per_100g/linoleic_g |
 | [Soy Lecithin](http://localhost:3000/docs/foods/soy-lecithin) | Oil, soybean lecithin — Oil | 40.182 g (per 100 g edible portion) | docs/foods/soy-lecithin.md#nutrition_per_100g/linoleic_g |
-| [Soy](http://localhost:3000/docs/foods/soy) | Soybeans, mature seeds, raw — raw | 9.925 g (per 100 g edible portion) | docs/foods/soy.md#nutrition_per_100g/linoleic_g |
+| [Mature soybeans](http://localhost:3000/docs/foods/soy) | Soybeans, mature seeds, raw — raw | 9.925 g (per 100 g edible portion) | docs/foods/soy.md#nutrition_per_100g/linoleic_g |
 | [Spelt](http://localhost:3000/docs/foods/spelt) | Spelt, uncooked — uncooked | 1.193 g (per 100 g edible portion) | docs/foods/spelt.md#nutrition_per_100g/linoleic_g |
 | [Spinach](http://localhost:3000/docs/foods/spinach) | Spinach, raw — raw | 0.026 g (per 100 g edible portion) | docs/foods/spinach.md#nutrition_per_100g/linoleic_g |
 | [Spirulina](http://localhost:3000/docs/foods/spirulina) | Seaweed, spirulina, dried — dried | 1.254 g (per 100 g edible portion) | docs/foods/spirulina.md#nutrition_per_100g/linoleic_g |
@@ -591,8 +639,19 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
 | [Pumpkin Seeds](http://localhost:3000/docs/foods/pumpkin-seeds) | Seeds, pumpkin and squash seed kernels, dried — dried | 0.576 g (per 100 g edible portion) | docs/foods/pumpkin-seeds.md#nutrition_per_100g/tryptophan_g; docs/foods/pumpkin-seeds.md#substance_relationships/Tryptophan |
-| [Soy](http://localhost:3000/docs/foods/soy) | Soybeans, mature seeds, raw — raw | 0.591 g (per 100 g edible portion) | docs/foods/soy.md#nutrition_per_100g/tryptophan_g; docs/foods/soy.md#substance_relationships/Tryptophan |
+| [Mature soybeans](http://localhost:3000/docs/foods/soy) | Soybeans, mature seeds, raw — raw | 0.591 g (per 100 g edible portion) | docs/foods/soy.md#nutrition_per_100g/tryptophan_g; docs/foods/soy.md#substance_relationships/Tryptophan |
 | [Turkey](http://localhost:3000/docs/foods/turkey) | Turkey, whole, meat only, raw — raw | 0.241 g (per 100 g edible portion) | docs/foods/turkey.md#nutrition_per_100g/tryptophan_g; docs/foods/turkey.md#substance_relationships/Tryptophan |
+
+</details>
+
+## Apple pectin (studied preparation) — apple-pectin-sinha-2024
+
+No food-source mappings for this preparation.
+
+<details>
+<summary>All mapped food sources (0)</summary>
+
+No eligible dietary food list is generated. Check the PM dietary-input decision separately from sourcing coverage.
 
 </details>
 

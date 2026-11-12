@@ -1,3 +1,7 @@
+import * as relatedSubstanceRelationships from '../src/data/relatedSubstanceRelationships.mjs';
+import * as rankedFoodSources from '../src/data/rankedFoodSources.mjs';
+import * as scfaRelatedSources from '../src/data/scfaRelatedSources.mjs';
+import * as documentedFoodSources from '../src/data/documentedFoodSources.mjs';
 import * as foodTargetTraceability from '../src/lib/foodTargetTraceability.mjs';
 import * as aggregateFoodComposition from '../src/lib/aggregateFoodComposition.mjs';
 
@@ -1473,7 +1477,7 @@ test('NAD B3 form documentation links remain distinct and do not change the six-
 const rendererModule = new Module(PM_INPUT_FOOD_DISCLOSURE);
 rendererModule.filename = PM_INPUT_FOOD_DISCLOSURE;
 const rendererRequire = createRequire(PM_INPUT_FOOD_DISCLOSURE);
-rendererModule.require = id => id.endsWith('inputMappingScopes.mjs') ? {__esModule:true,default:{}}
+rendererModule.require = id => id.endsWith('scfaRelatedSources.mjs') ? scfaRelatedSources : id.endsWith('documentedFoodSources.mjs') ? documentedFoodSources : id.endsWith('rankedFoodSources.mjs') ? rankedFoodSources : id.endsWith('relatedSubstanceRelationships.mjs') ? relatedSubstanceRelationships : id.endsWith('inputMappingScopes.mjs') ? {__esModule:true,default:{}}
  : id.endsWith('inputSubstanceFoodSelection.mjs') ? foodSelection : id.endsWith('foodTargetTraceability.mjs') ? foodTargetTraceability : id.endsWith('aggregateFoodComposition.mjs') ? aggregateFoodComposition : rendererRequire(id);
 rendererModule._compile(ts.transpileModule(fs.readFileSync(PM_INPUT_FOOD_DISCLOSURE,'utf8'),{
  compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022},
@@ -1609,10 +1613,12 @@ test('rollout summaries show the first food quantity and basis without analytica
  assert.match(expanded('details > summary').text(),/Source qualifications/);
  assert.match(expanded('details').text(),/native free-vitamer/);
  assert.equal(expanded('details a').attr('href'),'/docs/foods/chicken#food-source-4');
- const provenance=parseHtml(renderProvenance(item));
- assert.equal(provenance('details > summary').text(),'Measurement provenance');
- assert.match(provenance('p').text(),/121 °C/);
- assert.equal(provenance('a').attr('href'),item.observations[0].source_url);
+ assert.equal(renderProvenance(item),'');
+ const cooked={...item,preparation:'cooked',observations:[{...item.observations[0],basis:'per 100 g edible portion',preparation:'cooked'}]};
+ const cookedText=parseHtml(renderFoodSourceItem(cooked)).text();
+ assert.match(cookedText,/per 100 g/);
+ assert.doesNotMatch(cookedText,/edible portion|Measurement provenance/);
+ assert.match(cookedText,/cooked/);
  assert.match(renderFoodSourceSummary('Plant-based'),/No verified sources yet/);
  const legacy=selectFoodDisclosureSources([c1Source('chicken','nicotinamide',5.442,{rank_eligible:true,comparison_group:'edible::raw'})]);
  assert.match(legacy[0].comparisonNotice,/no concentration ranking/);
@@ -1662,4 +1668,19 @@ test('food warning relocation preserves input identity and conversion warnings a
  assert.doesNotMatch(notes,/Vitamin B6|canonical substance identity unresolved/);
  assert.equal(rendererModule.exports.renderFoodMappingNotes([{...food,mapping_status:'verified'}]),'');
  assert.equal(rendererModule.exports.renderFoodMappingNotes([]),'');
+});
+
+
+test('shared cocoa attribution qualification remains accessible in actual PM provenance rendering',()=>{
+ const snapshot=JSON.parse(fs.readFileSync(path.join(process.cwd(),'src/data/rankedFoodSources.generated.json'),'utf8'));
+ const target=snapshot.targets.find(t=>t.selected.some(s=>s.food_id==='cocoa'));
+ const sources=rankedFoodSources.rankedSourcesForRelationships(snapshot,target.pm_id,target.relationship_ids.map(id=>({id,dietary_input:true})));
+ const cocoa=sources.find(s=>s.food_id==='cocoa');
+ const html=renderFoodSourceItem(cocoa);
+ assert.equal(renderProvenance(cocoa),'');
+ assert.match(html,/unsweetened cocoa powder/);
+ assert.match(html,/Does not establish a specifically Dutch-processed product/);
+ assert.match(html,/dry powder/);
+ assert.doesNotMatch(html,/edible portion|Measurement provenance/);
+ assert.equal(cocoa.observations[0].value,target.selected.find(s=>s.food_id==='cocoa').observation.value);
 });

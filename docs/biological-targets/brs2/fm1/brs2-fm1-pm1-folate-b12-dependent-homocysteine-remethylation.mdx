@@ -701,6 +701,118 @@ dietary_input_assessments:
           sources:
             - 'https://www.uniprot.org/uniprotkb/Q8NFF5/entry'
             - 'https://www.rhea-db.org/rhea/17237'
+  - atom_id: PM1-DIT-2
+    status: admitted
+    type: A
+    classification: derived
+    operation: >-
+      Recycle homocysteine to methionine through folate and B12 so methyl-donor supply and homocysteine control
+      stay supported.
+    canonical_substance_id: vitamin-b9
+    active_target_id: 5-methyltetrahydrofolate
+    record_origin: >-
+      Author-approved Group 2 reconciliation of existing admitted Derived route, 9 November 2026; no new
+      admission, SEC or publication permission.
+    functional_dependency:
+      status: established
+      statement: >-
+        Dietary folate, including folic acid reduced by dihydrofolate reductase, is converted through the folate
+        cycle to 5-methyltetrahydrofolate, the methyl donor used by methionine synthase.
+      sources:
+        - docs/papers/BRAIN-Diet-References#froese_vitamin_2019
+    dietary_supply:
+      status: established
+      statement: >-
+        Dietary folate, including folic acid reduced by dihydrofolate reductase, is converted through the folate
+        cycle to 5-methyltetrahydrofolate, the methyl donor used by methionine synthase.
+      sources:
+        - docs/papers/BRAIN-Diet-References#froese_vitamin_2019
+    conversion_pathway:
+      - from: vitamin-b9
+        to: 5-methyltetrahydrofolate
+        process: >-
+          Form-dependent folate processing and folate-cycle conversion supply 5-methyltetrahydrofolate; folic
+          acid requires reduction.
+        dependencies: []
+        limitations: >-
+          This conversion pathway does not show that increasing folate intake increases tissue remethylation
+          flux. Folic acid lowers blood homocysteine, which is a circulating marker. The primary source is a
+          biochemical review, not a new human flux study. Reaction identity does not show that ordinary dietary
+          intake controls tissue remethylation rate, and it does not assign clinical benefit.
+          Phosphatidylethanolamine methylation is a later SAMe-consuming reaction, not part of this step.
+        evidence:
+          statement: >-
+            Dietary folate, including folic acid reduced by dihydrofolate reductase, is converted through the
+            folate cycle to 5-methyltetrahydrofolate, the methyl donor used by methionine synthase.
+          sources:
+            - docs/papers/BRAIN-Diet-References#froese_vitamin_2019
+    limitations:
+      - >-
+        This conversion pathway does not show that increasing folate intake increases tissue remethylation flux.
+        Folic acid lowers blood homocysteine, which is a circulating marker.
+      - >-
+        The primary source is a biochemical review, not a new human flux study. Reaction identity does not show
+        that ordinary dietary intake controls tissue remethylation rate, and it does not assign clinical
+        benefit. Phosphatidylethanolamine methylation is a later SAMe-consuming reaction, not part of this step.
+    provenance:
+      - docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx
+      - docs/papers/BRAIN-Diet-References#froese_vitamin_2019
+  - atom_id: PM1-DIT-4
+    status: admitted
+    type: A
+    classification: derived
+    operation: >-
+      Recycle homocysteine to methionine through folate and B12 so methyl-donor supply and homocysteine control
+      stay supported.
+    canonical_substance_id: vitamin-b12
+    active_target_id: methylcobalamin
+    record_origin: >-
+      Author-approved Group 2 reconciliation of existing admitted Derived route, 9 November 2026; no new
+      admission, SEC or publication permission.
+    functional_dependency:
+      status: established
+      statement: >-
+        Dietary cobalamin is absorbed and processed intracellularly to the methylcobalamin cofactor used by
+        methionine synthase.
+      sources:
+        - docs/papers/BRAIN-Diet-References#froese_vitamin_2019
+    dietary_supply:
+      status: established
+      statement: >-
+        Dietary cobalamin is absorbed and processed intracellularly to the methylcobalamin cofactor used by
+        methionine synthase.
+      sources:
+        - docs/papers/BRAIN-Diet-References#froese_vitamin_2019
+    conversion_pathway:
+      - from: vitamin-b12
+        to: methylcobalamin
+        process: Absorbed cobalamin undergoes intracellular processing to methylcobalamin used by methionine synthase.
+        dependencies: []
+        limitations: >-
+          Provision of vitamin B12 does not show that increasing intake raises tissue remethylation flux. Added
+          vitamin B12 further lowered blood homocysteine beyond folic acid in pooled trials, which remains a
+          circulating marker. The primary source is a biochemical review, not a new human flux study. Reaction
+          identity does not show that ordinary dietary intake controls tissue remethylation rate, and it does
+          not assign clinical benefit. Phosphatidylethanolamine methylation is a later SAMe-consuming reaction,
+          not part of this step.
+        evidence:
+          statement: >-
+            Dietary cobalamin is absorbed and processed intracellularly to the methylcobalamin cofactor used by
+            methionine synthase.
+          sources:
+            - docs/papers/BRAIN-Diet-References#froese_vitamin_2019
+    limitations:
+      - >-
+        Provision of vitamin B12 does not show that increasing intake raises tissue remethylation flux. Added
+        vitamin B12 further lowered blood homocysteine beyond folic acid in pooled trials, which remains a
+        circulating marker.
+      - >-
+        The primary source is a biochemical review, not a new human flux study. Reaction identity does not show
+        that ordinary dietary intake controls tissue remethylation rate, and it does not assign clinical
+        benefit. Phosphatidylethanolamine methylation is a later SAMe-consuming reaction, not part of this step.
+    provenance:
+      - docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx
+      - docs/papers/BRAIN-Diet-References#froese_vitamin_2019
 system_optimisation_practices:
   - atom_id: PM1-SOP-FOLATE-STEAM-1
     food_ids:

@@ -9,61 +9,12 @@
       ]
     },
     {
-      "kind": "substance-identity",
-      "pm_id": "BRS5-FM1-PM1",
-      "id": "PM1-DIT-2",
-      "input": "Fermentable dietary fibre",
-      "status": "unresolved-identity"
-    },
-    {
       "kind": "dietary-input-unset",
       "relationship_id": "BRS5-FM1-PM1::PM1-DIT-3",
       "reason": "Direct-section admission conflicts with the accepted limitation excluding an established general oral/dietary lever. The microbial, active-metabolite or selected supplementation context is preserved; applicability requires resolution.",
       "flags": [
         "section-supply-contradiction"
       ]
-    },
-    {
-      "kind": "substance-identity",
-      "pm_id": "BRS5-FM1-PM2",
-      "id": "PM2-DIT-2",
-      "input": "Type 2 resistant starch (tested aged-mouse exposure)",
-      "status": "unresolved-identity"
-    },
-    {
-      "kind": "substance-identity",
-      "pm_id": "BRS5-FM1-PM2",
-      "id": "PM2-DIT-4",
-      "input": "Milk-fat physical structure (tested comparison)",
-      "status": "unresolved-identity"
-    },
-    {
-      "kind": "substance-identity",
-      "pm_id": "BRS5-FM1-PM3",
-      "id": "PM3-DIT-1",
-      "input": "Oligofructose-enriched inulin",
-      "status": "unresolved-identity"
-    },
-    {
-      "kind": "substance-identity",
-      "pm_id": "BRS5-FM1-PM3",
-      "id": "PM3-DIT-2",
-      "input": "Bifidobacterium longum NCC2705",
-      "status": "unresolved-identity"
-    },
-    {
-      "kind": "substance-identity",
-      "pm_id": "BRS5-FM3-PM7",
-      "id": "PM7-DIT-1",
-      "input": "Lactobacillus rhamnosus JB-1",
-      "status": "unresolved-identity"
-    },
-    {
-      "kind": "substance-identity",
-      "pm_id": "BRS5-FM3-PM8",
-      "id": "PM8-DIT-2",
-      "input": "Apple pectin (studied preparation)",
-      "status": "unresolved-identity"
     },
     {
       "kind": "specialist-specification-not-joined",
@@ -100,7 +51,7 @@
       "kind": "mapping-gap",
       "relationship_id": "BRS5-FM1-PM2::PM2-DIT-2",
       "input": "Type 2 resistant starch (tested aged-mouse exposure)",
-      "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred."
+      "reason": "No supported canonical food-source record found."
     },
     {
       "kind": "mapping-gap",
@@ -118,13 +69,13 @@
       "kind": "mapping-gap",
       "relationship_id": "BRS5-FM1-PM3::PM3-DIT-1",
       "input": "Oligofructose-enriched inulin",
-      "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred."
+      "reason": "No supported canonical food-source record found."
     },
     {
       "kind": "mapping-gap",
       "relationship_id": "BRS5-FM1-PM3::PM3-DIT-2",
       "input": "Bifidobacterium longum NCC2705",
-      "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred."
+      "reason": "No supported canonical food-source record found."
     },
     {
       "kind": "mapping-gap",
@@ -136,13 +87,13 @@
       "kind": "mapping-gap",
       "relationship_id": "BRS5-FM3-PM7::PM7-DIT-1",
       "input": "Lactobacillus rhamnosus JB-1",
-      "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred."
+      "reason": "No supported canonical food-source record found."
     },
     {
       "kind": "mapping-gap",
       "relationship_id": "BRS5-FM3-PM8::PM8-DIT-2",
       "input": "Apple pectin (studied preparation)",
-      "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred."
+      "reason": "No supported canonical food-source record found."
     }
   ],
   "conflicts": [
@@ -155,24 +106,10 @@
     },
     {
       "kind": "stale-missing-substance-status",
-      "pm_id": "BRS5-FM1-PM1",
-      "atom_id": "PM1-DIT-6",
-      "input": "Glutamine",
-      "resolved_id": "glutamine"
-    },
-    {
-      "kind": "stale-missing-substance-status",
       "pm_id": "BRS5-FM1-PM2",
       "atom_id": "PM2-DIT-1",
       "input": "Oligofructose",
       "resolved_id": "oligofructose"
-    },
-    {
-      "kind": "stale-missing-substance-status",
-      "pm_id": "BRS5-FM2-PM4",
-      "atom_id": "PM4-DIT-3",
-      "input": "Resistant starch (RS2/RS3)",
-      "resolved_id": "resistant-starch"
     },
     {
       "kind": "stale-missing-substance-status",
@@ -187,13 +124,6 @@
       "atom_id": "PM6-DIT-1",
       "input": "Ellagic acid",
       "resolved_id": "ellagic-acid"
-    },
-    {
-      "kind": "stale-missing-substance-status",
-      "pm_id": "BRS5-FM2-PM6",
-      "atom_id": "PM6-DIT-2",
-      "input": "Ellagitannins",
-      "resolved_id": "ellagitannins"
     },
     {
       "kind": "stale-missing-substance-status",

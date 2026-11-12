@@ -61,3 +61,9 @@ The mouse protocol lowered serum and faecal lipopolysaccharide and increased col
 [2] Baxter et al. (2019). [Dynamics of Human Gut Microbiota and Short-Chain Fatty Acids in Response to Dietary Interventions with Three Fermentable Fibers](/docs/papers/BRAIN-Diet-References#baxter_fermentable_fibers_2019). Resistant potato starch was associated with increased faecal butyrate in a short human intervention. Responses vary with microbial context. Faecal concentration is not production flux, brain delivery, or clinical benefit.
 
 [3] Ze et al. (2012). [Ruminococcus bromii is a keystone species for the degradation of resistant starch in the human colon](/docs/papers/BRAIN-Diet-References#ze_resistant_starch_2012). RS2 and RS3 were substrates for specialist degradation. Adding R. bromii enhanced RS3 fermentation in one donor’s faecal community in vitro. Not oral probiotic efficacy and not RS4 equivalence.
+
+## Type 2 resistant starch (tested aged-mouse exposure) {#rs2-zhang-2020}
+
+Sixteen-week aged-mouse protocol. No ordinary-food equivalence, human dose or demonstrated SCFA mediation. [Original study](/docs/papers/BRAIN-Diet-References#zhang_rs2_endotoxin_2020).
+
+This identity denotes the source-specific studied material. Manufacturer, batch, formulation proportions and analytical specifications must not be inferred from its name; details not established in the retained record remain unspecified. Sharing this documentation page does not make the material equivalent to the parent substance or its ordinary food sources.

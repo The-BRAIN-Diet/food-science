@@ -85,6 +85,36 @@ nutrition_supplementary_sources:
       Esparza et al. (2021) supports this qualitative constituent record. See
       technical provenance for food form and measurement details.
     source_url: 'https://doi.org/10.3390/foods10081752'
+  - key: glycine_usda_review01_170562
+    label: Glycine
+    substance_id: glycine
+    value: 1.461
+    unit: g
+    basis: per 100 g edible portion
+    original_source_basis: per 100 g edible portion
+    evidence_material: Seeds, sunflower seed kernels, dried
+    preparation_state: Seeds, sunflower seed kernels, dried
+    source_url: https://fdc.nal.usda.gov/food-details/170562/nutrients
+    source_group: USDA SR Legacy April 2018; source-specific database value
+    source_note: >-
+      Derivation code absent; do not label as measured analytical data Reported data points: 26 Preserve exact
+      source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility
+      or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no
+      digestibility, conversion yield, brain delivery or clinical effect inferred.
+    material_limitations: >-
+      Derivation code absent; do not label as measured analytical data Reported data points: 26 Preserve exact
+      source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility
+      or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no
+      digestibility, conversion yield, brain delivery or clinical effect inferred.
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: author-approved-review-01
+    fdc_id: 170562
+    food_nutrient_id: 1533390
+    source_derivation_id: null
+    source_data_points: 26
 substance_relationships:
   - substance: Spermidine
     relationship: contains

@@ -461,7 +461,7 @@
       },
       "candidate_food": "Salmon Roe",
       "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-      "preparation": null,
+      "preparation": "salted",
       "evidence": [
         [
           {
@@ -479,13 +479,13 @@
             "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
             "source_reference": "#food-source-8",
             "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-            "preparation": null,
+            "preparation": "salted",
             "record": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
             "source_record": "docs/foods/salmon-roe.md#nutrition_source",
             "verified": true,
             "id": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
-            "rank_eligible": false,
-            "comparison_group": null,
+            "rank_eligible": true,
+            "comparison_group": "edible::salted",
             "low": 910,
             "high": 910,
             "display": "910 mg"
@@ -507,13 +507,13 @@
             "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
             "source_reference": "#food-source-8",
             "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-            "preparation": null,
+            "preparation": "salted",
             "record": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
             "source_record": "docs/foods/salmon-roe.md#nutrition_source",
             "verified": true,
             "id": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
-            "rank_eligible": false,
-            "comparison_group": null,
+            "rank_eligible": true,
+            "comparison_group": "edible::salted",
             "low": 910,
             "high": 910,
             "display": "910 mg"
@@ -535,13 +535,13 @@
             "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
             "source_reference": "#food-source-8",
             "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-            "preparation": null,
+            "preparation": "salted",
             "record": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
             "source_record": "docs/foods/salmon-roe.md#nutrition_source",
             "verified": true,
             "id": "docs/foods/salmon-roe.md#nutrition_per_100g/sodium_mg",
-            "rank_eligible": false,
-            "comparison_group": null,
+            "rank_eligible": true,
+            "comparison_group": "edible::salted",
             "low": 910,
             "high": 910,
             "display": "910 mg"
@@ -553,7 +553,7 @@
         "BRS1-FM3-PM7",
         "BRS1-FM4-PM10"
       ],
-      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains sodium (null)",
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains sodium (salted)",
       "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
       "verification_status": "pending-independent-verification"
     },
@@ -665,7 +665,7 @@
       },
       "candidate_food": "Salmon Roe",
       "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-      "preparation": null,
+      "preparation": "salted",
       "evidence": [
         [
           {
@@ -683,13 +683,13 @@
             "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
             "source_reference": "#food-source-8",
             "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-            "preparation": null,
+            "preparation": "salted",
             "record": "docs/foods/salmon-roe.md#nutrition_per_100g/potassium_mg",
             "source_record": "docs/foods/salmon-roe.md#nutrition_source",
             "verified": true,
             "id": "docs/foods/salmon-roe.md#nutrition_per_100g/potassium_mg",
-            "rank_eligible": false,
-            "comparison_group": null,
+            "rank_eligible": true,
+            "comparison_group": "edible::salted",
             "low": 210,
             "high": 210,
             "display": "210 mg"
@@ -700,109 +700,9 @@
         "BRS1-FM4-PM10",
         "BRS2-FM1-PM3"
       ],
-      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains potassium (null)",
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains potassium (salted)",
       "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
       "verification_status": "pending-independent-verification"
-    },
-    {
-      "source_entity": "vitamin-b6",
-      "target_entity": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
-      "relationship_type": "precursor-conversion",
-      "canonical_ids": {
-        "precursor": "vitamin-b6",
-        "active_target": null
-      },
-      "candidate_food": null,
-      "material": null,
-      "preparation": null,
-      "evidence": [
-        {
-          "finding_ids": [
-            "PM3-F1"
-          ],
-          "citation_keys": [
-            "kennedy_b_2016",
-            "spector_vitamin_1978"
-          ]
-        },
-        {
-          "finding_ids": [
-            "PM4-F2"
-          ],
-          "citation_keys": [
-            "kennedy_b_2016",
-            "spector_vitamin_1978"
-          ]
-        },
-        {
-          "finding_ids": [
-            "PM5-F2"
-          ],
-          "citation_keys": [
-            "kennedy_b_2016",
-            "spector_vitamin_1978"
-          ]
-        },
-        {
-          "finding_ids": [
-            "PM5-F1",
-            "PM5-IC1",
-            "PM5-F5"
-          ],
-          "citation_keys": [
-            "disalvo_plp_availability_2012",
-            "belew_cbs_kinetics_2009",
-            "zhu_cgl_kinetics_2008",
-            "lamers_vitamin_b6_methionine_cycle_2011"
-          ]
-        }
-      ],
-      "affected_pms": [
-        "BRS1-FM1-PM3",
-        "BRS1-FM1-PM4",
-        "BRS1-FM1-PM5",
-        "BRS2-FM2-PM5"
-      ],
-      "missing_edge": "Vitamin B6 → Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor): structured conversion pathway",
-      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
-      "verification_status": "requires-pathway-reconciliation"
-    },
-    {
-      "source_entity": "phosphatidylcholine",
-      "target_entity": "Choline",
-      "relationship_type": "precursor-conversion",
-      "canonical_ids": {
-        "precursor": "phosphatidylcholine",
-        "active_target": null
-      },
-      "candidate_food": null,
-      "material": null,
-      "preparation": null,
-      "evidence": [
-        {
-          "finding_ids": [
-            "PM6-F4"
-          ],
-          "citation_keys": [
-            "bockmann_choline_supplements_2023"
-          ]
-        },
-        {
-          "finding_ids": [
-            "PM7-F7"
-          ],
-          "citation_keys": [
-            "bockmann_choline_supplements_2023"
-          ]
-        }
-      ],
-      "affected_pms": [
-        "BRS1-FM2-PM6",
-        "BRS2-FM3-PM7"
-      ],
-      "missing_edge": "Phosphatidylcholine → Choline: structured conversion pathway",
-      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
-      "verification_status": "requires-pathway-reconciliation"
     },
     {
       "source_entity": "kale",
@@ -1014,6 +914,207 @@
       "verification_status": "requires-material-equivalence-review"
     },
     {
+      "source_entity": "amaranth",
+      "target_entity": "betaine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "amaranth",
+        "substance": "betaine"
+      },
+      "candidate_food": "Amaranth",
+      "material": "Amaranth",
+      "preparation": "uncooked (NDB crosswalk; not stated in the 2008 table)",
+      "evidence": [
+        [
+          {
+            "key": "betaine_usda_review01_20001",
+            "label": "Betaine",
+            "substance_id": "betaine",
+            "value": 68,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g food",
+            "evidence_material": "Amaranth",
+            "preparation_state": "uncooked (NDB crosswalk; not stated in the 2008 table)",
+            "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+            "source_group": "USDA Choline Content of Common Foods Release Two (2008); source-specific observation",
+            "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "ndb_id": "20001",
+            "source_sample_count": 1,
+            "source_printed_page": 31,
+            "range": null,
+            "material": "Amaranth",
+            "preparation": "uncooked (NDB crosswalk; not stated in the 2008 table)",
+            "record": "docs/foods/amaranth.md#nutrition_supplementary_sources/betaine_usda_review01_20001",
+            "source_record": "docs/foods/amaranth.md#nutrition_supplementary_sources/betaine_usda_review01_20001",
+            "nutrition_value_reviews": [],
+            "limitations": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "id": "docs/foods/amaranth.md#nutrition_supplementary_sources/betaine_usda_review01_20001",
+            "low": 68,
+            "high": 68,
+            "display": "68 mg"
+          },
+          {
+            "key": "betaine_usda_review01_20001",
+            "label": "Betaine",
+            "substance_id": "betaine",
+            "value": 68,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g food",
+            "evidence_material": "Amaranth",
+            "preparation_state": "uncooked (NDB crosswalk; not stated in the 2008 table)",
+            "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+            "source_group": "USDA Choline Content of Common Foods Release Two (2008); source-specific observation",
+            "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "ndb_id": "20001",
+            "source_sample_count": 1,
+            "source_printed_page": 31,
+            "record": "docs/foods/amaranth.md#nutrition_supplementary_sources/betaine_usda_review01_20001",
+            "evidence": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "source_reference": null,
+            "presence_status": "qualitative",
+            "limitations": null
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM2"
+      ],
+      "missing_edge": "docs/foods/amaranth.md#substance_relationships: contains betaine (uncooked (NDB crosswalk; not stated in the 2008 table))",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "quinoa",
+      "target_entity": "betaine",
+      "relationship_type": "material-equivalence-review",
+      "canonical_ids": {
+        "food": "quinoa",
+        "substance": "betaine"
+      },
+      "candidate_food": "Quinoa",
+      "material": "Quinoa",
+      "preparation": "uncooked (NDB crosswalk; not stated in the 2008 table)",
+      "evidence": [
+        [
+          {
+            "key": "betaine_usda_review01_20035",
+            "label": "Betaine",
+            "substance_id": "betaine",
+            "value": 630,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g food",
+            "evidence_material": "Quinoa",
+            "preparation_state": "uncooked (NDB crosswalk; not stated in the 2008 table)",
+            "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+            "source_group": "USDA Choline Content of Common Foods Release Two (2008); source-specific observation",
+            "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "ndb_id": "20035",
+            "source_sample_count": 1,
+            "source_printed_page": 31,
+            "range": null,
+            "material": "Quinoa",
+            "preparation": "uncooked (NDB crosswalk; not stated in the 2008 table)",
+            "record": "docs/foods/quinoa.md#nutrition_supplementary_sources/betaine_usda_review01_20035",
+            "source_record": "docs/foods/quinoa.md#nutrition_supplementary_sources/betaine_usda_review01_20035",
+            "nutrition_value_reviews": [
+              {
+                "title": "DHA observation: independent confirmation unresolved",
+                "section": "Fatty acids",
+                "correction_status": "pending",
+                "substance_id": "dha-docosahexaenoic-acid",
+                "nutrient_key": "dha_mg",
+                "exclude_from_food_lists": true,
+                "original_observation": {
+                  "source": "USDA SR Legacy April 2018",
+                  "fdc_id": 168874,
+                  "food_name": "Quinoa, uncooked",
+                  "nutrient_id": 1272,
+                  "nutrient_name": "PUFA 22:6 n-3 (DHA)",
+                  "value": 0.047,
+                  "unit": "g",
+                  "basis": "per 100 g edible portion",
+                  "data_points": 3,
+                  "range": [
+                    0.03,
+                    0.06
+                  ],
+                  "derivation": "Analytical",
+                  "source_url": "https://fdc.nal.usda.gov/food-details/168874/nutrients"
+                },
+                "description": "The archived USDA record reports DHA at 47 mg/100 g. Identity and unit conversion are verified, but independent confirmation of this amount in edible quinoa remains unresolved. The database observation is retained here, not replaced with zero or relabelled as ALA.",
+                "decision": "Temporarily withhold quinoa from DHA food lists and quantified rankings. The former 47 mg omega-3 total depended entirely on this held observation and is withheld too. Unqualified 18:3 remains separately unresolved. Reinstate only after review of supporting analytical identity and food basis.",
+                "independent_review_sources": [
+                  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7500770/",
+                  "https://pmc.ncbi.nlm.nih.gov/articles/PMC9025313/",
+                  "https://www.matvaretabellen.no/en/quinoa-black-uncooked/"
+                ]
+              }
+            ],
+            "limitations": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "id": "docs/foods/quinoa.md#nutrition_supplementary_sources/betaine_usda_review01_20035",
+            "low": 630,
+            "high": 630,
+            "display": "630 mg"
+          },
+          {
+            "key": "betaine_usda_review01_20035",
+            "label": "Betaine",
+            "substance_id": "betaine",
+            "value": 630,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g food",
+            "evidence_material": "Quinoa",
+            "preparation_state": "uncooked (NDB crosswalk; not stated in the 2008 table)",
+            "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+            "source_group": "USDA Choline Content of Common Foods Release Two (2008); source-specific observation",
+            "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "ndb_id": "20035",
+            "source_sample_count": 1,
+            "source_printed_page": 31,
+            "record": "docs/foods/quinoa.md#nutrition_supplementary_sources/betaine_usda_review01_20035",
+            "evidence": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "source_reference": null,
+            "presence_status": "qualitative",
+            "limitations": null
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM2"
+      ],
+      "missing_edge": "Quinoa → Betaine [Quinoa; uncooked (NDB crosswalk; not stated in the 2008 table)]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
+      "required_action": "Compare the existing edge with this source material, brand/fortification, cultivar, preparation and analytical context. Do not create a new food edge unless independently established as necessary.",
+      "verification_status": "requires-material-equivalence-review"
+    },
+    {
       "source_entity": "shrimp",
       "target_entity": "betaine",
       "relationship_type": "contains",
@@ -1030,7 +1131,47 @@
             "key": "betaine_mg",
             "label": "Betaine",
             "basis": "per 100 g",
-            "amount_display": "246 mg",
+            "value": 245.99,
+            "unit": "mg",
+            "rank_eligible": false,
+            "exclude_from_recipe_sum": true,
+            "public_display": "table",
+            "measurement_kind": "measured",
+            "unranked_reason": "Source-specific preparation reported separately from the comparable ranking panel.",
+            "citation_mark": "asterisk",
+            "source_reference": "#food-source-3",
+            "source_url": "https://doi.org/10.1093/jn/133.5.1302",
+            "preparation_state": "canned",
+            "evidence_material": "Shrimp, canned",
+            "source_note": "Zeisel et al. (2003) Table 1, corrected by the erratum: shrimp, canned (NDB 15152), 245.99 mg betaine per 100 g, shown as 246 mg. This page’s USDA panel is raw mixed-species shrimp, not that canned sample. USDA Release 2 does not report betaine for canned shrimp.",
+            "public_note": "Zeisel et al. (2003) Table 1, as corrected, supports this canned-shrimp value. The asterisk marks that paper. It is not the raw USDA panel.",
+            "source_group": "Zeisel et al. (2003) Table 1, erratum-corrected, NDB 15152",
+            "notes": "Canned shrimp. Not the raw mixed-species panel used for the other nutrients.",
+            "range": null,
+            "material": "Shrimp, canned",
+            "preparation": "canned",
+            "record": "docs/foods/shrimp.md#nutrition_supplementary_sources/betaine_mg",
+            "source_record": "docs/foods/shrimp.md#nutrition_supplementary_sources/betaine_mg",
+            "verified": true,
+            "nutrition_value_reviews": [],
+            "limitations": "Zeisel et al. (2003) Table 1, corrected by the erratum: shrimp, canned (NDB 15152), 245.99 mg betaine per 100 g, shown as 246 mg. This page’s USDA panel is raw mixed-species shrimp, not that canned sample. USDA Release 2 does not report betaine for canned shrimp.",
+            "id": "docs/foods/shrimp.md#nutrition_supplementary_sources/betaine_mg",
+            "comparison_group": null,
+            "low": 245.99,
+            "high": 245.99,
+            "display": "245.99 mg"
+          },
+          {
+            "key": "betaine_mg",
+            "label": "Betaine",
+            "basis": "per 100 g",
+            "value": 245.99,
+            "unit": "mg",
+            "rank_eligible": false,
+            "exclude_from_recipe_sum": true,
+            "public_display": "table",
+            "measurement_kind": "measured",
+            "unranked_reason": "Source-specific preparation reported separately from the comparable ranking panel.",
             "citation_mark": "asterisk",
             "source_reference": "#food-source-3",
             "source_url": "https://doi.org/10.1093/jn/133.5.1302",
@@ -1051,6 +1192,816 @@
         "BRS2-FM1-PM2"
       ],
       "missing_edge": "docs/foods/shrimp.md#substance_relationships: contains betaine (canned)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "spinach",
+      "target_entity": "betaine",
+      "relationship_type": "material-equivalence-review",
+      "canonical_ids": {
+        "food": "spinach",
+        "substance": "betaine"
+      },
+      "candidate_food": "Spinach",
+      "material": "Spinach, frozen, chopped or leaf, unprepared",
+      "preparation": "frozen, unprepared",
+      "evidence": [
+        [
+          {
+            "key": "betaine_usda_review01_11463",
+            "label": "Betaine",
+            "substance_id": "betaine",
+            "value": 120,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g food",
+            "evidence_material": "Spinach, frozen, chopped or leaf, unprepared",
+            "preparation_state": "frozen, unprepared",
+            "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+            "source_group": "USDA Choline Content of Common Foods Release Two (2008); source-specific observation",
+            "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "ndb_id": "11463",
+            "source_sample_count": 3,
+            "source_printed_page": 23,
+            "range": null,
+            "material": "Spinach, frozen, chopped or leaf, unprepared",
+            "preparation": "frozen, unprepared",
+            "record": "docs/foods/spinach.md#nutrition_supplementary_sources/betaine_usda_review01_11463",
+            "source_record": "docs/foods/spinach.md#nutrition_supplementary_sources/betaine_usda_review01_11463",
+            "nutrition_value_reviews": [],
+            "limitations": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "id": "docs/foods/spinach.md#nutrition_supplementary_sources/betaine_usda_review01_11463",
+            "low": 120,
+            "high": 120,
+            "display": "120 mg"
+          },
+          {
+            "key": "betaine_usda_review01_11463",
+            "label": "Betaine",
+            "substance_id": "betaine",
+            "value": 120,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g food",
+            "evidence_material": "Spinach, frozen, chopped or leaf, unprepared",
+            "preparation_state": "frozen, unprepared",
+            "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+            "source_group": "USDA Choline Content of Common Foods Release Two (2008); source-specific observation",
+            "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "ndb_id": "11463",
+            "source_sample_count": 3,
+            "source_printed_page": 23,
+            "record": "docs/foods/spinach.md#nutrition_supplementary_sources/betaine_usda_review01_11463",
+            "evidence": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "source_reference": null,
+            "presence_status": "qualitative",
+            "limitations": null
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM2"
+      ],
+      "missing_edge": "Spinach → Betaine [Spinach, frozen, chopped or leaf, unprepared; frozen, unprepared]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
+      "required_action": "Compare the existing edge with this source material, brand/fortification, cultivar, preparation and analytical context. Do not create a new food edge unless independently established as necessary.",
+      "verification_status": "requires-material-equivalence-review"
+    },
+    {
+      "source_entity": "wheat-germ",
+      "target_entity": "betaine",
+      "relationship_type": "material-equivalence-review",
+      "canonical_ids": {
+        "food": "wheat-germ",
+        "substance": "betaine"
+      },
+      "candidate_food": "Wheat Germ",
+      "material": "Cereals ready-to-eat, wheat germ, toasted, plain",
+      "preparation": "toasted",
+      "evidence": [
+        [
+          {
+            "key": "betaine_usda_review01_08084",
+            "label": "Betaine",
+            "substance_id": "betaine",
+            "value": 410,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g food",
+            "evidence_material": "Cereals ready-to-eat, wheat germ, toasted, plain",
+            "preparation_state": "toasted",
+            "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+            "source_group": "USDA Choline Content of Common Foods Release Two (2008); source-specific observation",
+            "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "ndb_id": "08084",
+            "source_sample_count": 2,
+            "source_printed_page": 17,
+            "range": null,
+            "material": "Cereals ready-to-eat, wheat germ, toasted, plain",
+            "preparation": "toasted",
+            "record": "docs/foods/wheat-germ.md#nutrition_supplementary_sources/betaine_usda_review01_08084",
+            "source_record": "docs/foods/wheat-germ.md#nutrition_supplementary_sources/betaine_usda_review01_08084",
+            "nutrition_value_reviews": [],
+            "limitations": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "id": "docs/foods/wheat-germ.md#nutrition_supplementary_sources/betaine_usda_review01_08084",
+            "low": 410,
+            "high": 410,
+            "display": "410 mg"
+          },
+          {
+            "key": "betaine_usda_review01_08084",
+            "label": "Betaine",
+            "substance_id": "betaine",
+            "value": 410,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g food",
+            "evidence_material": "Cereals ready-to-eat, wheat germ, toasted, plain",
+            "preparation_state": "toasted",
+            "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+            "source_group": "USDA Choline Content of Common Foods Release Two (2008); source-specific observation",
+            "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "ndb_id": "08084",
+            "source_sample_count": 2,
+            "source_printed_page": 17,
+            "record": "docs/foods/wheat-germ.md#nutrition_supplementary_sources/betaine_usda_review01_08084",
+            "evidence": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "source_reference": null,
+            "presence_status": "qualitative",
+            "limitations": null
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM2"
+      ],
+      "missing_edge": "Wheat Germ → Betaine [Cereals ready-to-eat, wheat germ, toasted, plain; toasted]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
+      "required_action": "Compare the existing edge with this source material, brand/fortification, cultivar, preparation and analytical context. Do not create a new food edge unless independently established as necessary.",
+      "verification_status": "requires-material-equivalence-review"
+    },
+    {
+      "source_entity": "almonds",
+      "target_entity": "glycine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "almonds",
+        "substance": "glycine"
+      },
+      "candidate_food": "Almonds",
+      "material": "Nuts, almonds",
+      "preparation": "Nuts, almonds",
+      "evidence": [
+        [
+          {
+            "key": "glycine_usda_review01_170567",
+            "label": "Glycine",
+            "substance_id": "glycine",
+            "value": 1.429,
+            "unit": "g",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g edible portion",
+            "evidence_material": "Nuts, almonds",
+            "preparation_state": "Nuts, almonds",
+            "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
+            "source_group": "USDA SR Legacy April 2018; source-specific database value",
+            "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "fdc_id": 170567,
+            "food_nutrient_id": 1533853,
+            "source_derivation_id": "A",
+            "source_data_points": 0,
+            "range": null,
+            "material": "Nuts, almonds",
+            "preparation": "Nuts, almonds",
+            "record": "docs/foods/almonds.md#nutrition_supplementary_sources/glycine_usda_review01_170567",
+            "source_record": "docs/foods/almonds.md#nutrition_supplementary_sources/glycine_usda_review01_170567",
+            "nutrition_value_reviews": [],
+            "limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "id": "docs/foods/almonds.md#nutrition_supplementary_sources/glycine_usda_review01_170567",
+            "low": 1429,
+            "high": 1429,
+            "display": "1.429 g"
+          },
+          {
+            "key": "glycine_usda_review01_170567",
+            "label": "Glycine",
+            "substance_id": "glycine",
+            "value": 1.429,
+            "unit": "g",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g edible portion",
+            "evidence_material": "Nuts, almonds",
+            "preparation_state": "Nuts, almonds",
+            "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
+            "source_group": "USDA SR Legacy April 2018; source-specific database value",
+            "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "fdc_id": 170567,
+            "food_nutrient_id": 1533853,
+            "source_derivation_id": "A",
+            "source_data_points": 0,
+            "record": "docs/foods/almonds.md#nutrition_supplementary_sources/glycine_usda_review01_170567",
+            "evidence": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "source_reference": null,
+            "presence_status": "qualitative",
+            "limitations": null
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM6",
+        "BRS4-FM1-PM3"
+      ],
+      "missing_edge": "docs/foods/almonds.md#substance_relationships: contains glycine (Nuts, almonds)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "glycine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "glycine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "preparation": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "evidence": [
+        [
+          {
+            "key": "glycine_usda_review01_171796",
+            "label": "Glycine",
+            "substance_id": "glycine",
+            "value": 1.262,
+            "unit": "g",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g edible portion",
+            "evidence_material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+            "preparation_state": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+            "source_url": "https://fdc.nal.usda.gov/food-details/171796/nutrients",
+            "source_group": "USDA SR Legacy April 2018; source-specific database value",
+            "source_note": "Analytical data; derived by linear regression data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation AR: Analytical data; derived by linear regression Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Analytical data; derived by linear regression data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation AR: Analytical data; derived by linear regression Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "fdc_id": 171796,
+            "food_nutrient_id": 1641442,
+            "source_derivation_id": "AR",
+            "source_data_points": 0,
+            "range": null,
+            "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+            "preparation": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+            "record": "docs/foods/beef.md#nutrition_supplementary_sources/glycine_usda_review01_171796",
+            "source_record": "docs/foods/beef.md#nutrition_supplementary_sources/glycine_usda_review01_171796",
+            "nutrition_value_reviews": [
+              {
+                "title": "Creatine amount: citation attachment pending",
+                "substance_id": "creatine",
+                "section": "Bioactive compounds",
+                "correction_status": "pending",
+                "description": "Retained researched estimate: 400 mg per 100 g. Original note: Approximate creatine content per 100 g cooked beef based on dietary creatine source summaries and compositional surveys (raw beef muscle ~390–445 mg/100 g, with modest cooking losses; see Avgerinos et al. 2018 and creatine dietary sources reviews).\n",
+                "decision": "Retain the estimate while attaching its quantitative source and verifying preparation and denominator. Presence citations do not independently verify this amount."
+              },
+              {
+                "title": "CoQ10 amount: preparation and citation check pending",
+                "substance_id": "coq10",
+                "section": "Bioactive compounds",
+                "correction_status": "pending",
+                "description": "Retained original beef-muscle estimate of 2.5 mg per 100 g. The cited food-composition research supports beef occurrence, while the exact estimate and applicability to ground beef require verification.",
+                "decision": "Retain as an estimate in one CoQ10 row; do not duplicate the compound or treat this as a preparation-specific assay."
+              }
+            ],
+            "limitations": "Analytical data; derived by linear regression data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation AR: Analytical data; derived by linear regression Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "id": "docs/foods/beef.md#nutrition_supplementary_sources/glycine_usda_review01_171796",
+            "low": 1262,
+            "high": 1262,
+            "display": "1.262 g"
+          },
+          {
+            "key": "glycine_usda_review01_171796",
+            "label": "Glycine",
+            "substance_id": "glycine",
+            "value": 1.262,
+            "unit": "g",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g edible portion",
+            "evidence_material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+            "preparation_state": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+            "source_url": "https://fdc.nal.usda.gov/food-details/171796/nutrients",
+            "source_group": "USDA SR Legacy April 2018; source-specific database value",
+            "source_note": "Analytical data; derived by linear regression data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation AR: Analytical data; derived by linear regression Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Analytical data; derived by linear regression data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation AR: Analytical data; derived by linear regression Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "fdc_id": 171796,
+            "food_nutrient_id": 1641442,
+            "source_derivation_id": "AR",
+            "source_data_points": 0,
+            "record": "docs/foods/beef.md#nutrition_supplementary_sources/glycine_usda_review01_171796",
+            "evidence": "Analytical data; derived by linear regression data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation AR: Analytical data; derived by linear regression Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "source_reference": null,
+            "presence_status": "qualitative",
+            "limitations": null
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM6",
+        "BRS4-FM1-PM3"
+      ],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains glycine (Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program))",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "chicken",
+      "target_entity": "glycine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chicken",
+        "substance": "glycine"
+      },
+      "candidate_food": "Chicken",
+      "material": "Chicken, broilers or fryers, meat and skin, raw",
+      "preparation": "Chicken, broilers or fryers, meat and skin, raw",
+      "evidence": [
+        [
+          {
+            "key": "glycine_usda_review01_171447",
+            "label": "Glycine",
+            "substance_id": "glycine",
+            "value": 1.223,
+            "unit": "g",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g edible portion",
+            "evidence_material": "Chicken, broilers or fryers, meat and skin, raw",
+            "preparation_state": "Chicken, broilers or fryers, meat and skin, raw",
+            "source_url": "https://fdc.nal.usda.gov/food-details/171447/nutrients",
+            "source_group": "USDA SR Legacy April 2018; source-specific database value",
+            "source_note": "Derivation code absent; do not label as measured analytical data data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Derivation code absent; do not label as measured analytical data data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "fdc_id": 171447,
+            "food_nutrient_id": 1610591,
+            "source_derivation_id": null,
+            "source_data_points": 0,
+            "range": null,
+            "material": "Chicken, broilers or fryers, meat and skin, raw",
+            "preparation": "Chicken, broilers or fryers, meat and skin, raw",
+            "record": "docs/foods/chicken.md#nutrition_supplementary_sources/glycine_usda_review01_171447",
+            "source_record": "docs/foods/chicken.md#nutrition_supplementary_sources/glycine_usda_review01_171447",
+            "nutrition_value_reviews": [],
+            "limitations": "Derivation code absent; do not label as measured analytical data data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "id": "docs/foods/chicken.md#nutrition_supplementary_sources/glycine_usda_review01_171447",
+            "low": 1223,
+            "high": 1223,
+            "display": "1.223 g"
+          },
+          {
+            "key": "glycine_usda_review01_171447",
+            "label": "Glycine",
+            "substance_id": "glycine",
+            "value": 1.223,
+            "unit": "g",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g edible portion",
+            "evidence_material": "Chicken, broilers or fryers, meat and skin, raw",
+            "preparation_state": "Chicken, broilers or fryers, meat and skin, raw",
+            "source_url": "https://fdc.nal.usda.gov/food-details/171447/nutrients",
+            "source_group": "USDA SR Legacy April 2018; source-specific database value",
+            "source_note": "Derivation code absent; do not label as measured analytical data data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Derivation code absent; do not label as measured analytical data data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "fdc_id": 171447,
+            "food_nutrient_id": 1610591,
+            "source_derivation_id": null,
+            "source_data_points": 0,
+            "record": "docs/foods/chicken.md#nutrition_supplementary_sources/glycine_usda_review01_171447",
+            "evidence": "Derivation code absent; do not label as measured analytical data data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "source_reference": null,
+            "presence_status": "qualitative",
+            "limitations": null
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM6",
+        "BRS4-FM1-PM3"
+      ],
+      "missing_edge": "docs/foods/chicken.md#substance_relationships: contains glycine (Chicken, broilers or fryers, meat and skin, raw)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "eggs",
+      "target_entity": "glycine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "eggs",
+        "substance": "glycine"
+      },
+      "candidate_food": "Eggs",
+      "material": "Egg, whole, raw, fresh",
+      "preparation": "Egg, whole, raw, fresh",
+      "evidence": [
+        [
+          {
+            "key": "glycine_usda_review01_171287",
+            "label": "Glycine",
+            "substance_id": "glycine",
+            "value": 0.432,
+            "unit": "g",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g edible portion",
+            "evidence_material": "Egg, whole, raw, fresh",
+            "preparation_state": "Egg, whole, raw, fresh",
+            "source_url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+            "source_group": "USDA SR Legacy April 2018; source-specific database value",
+            "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "fdc_id": 171287,
+            "food_nutrient_id": 1597646,
+            "source_derivation_id": "A",
+            "source_data_points": 0,
+            "range": null,
+            "material": "Egg, whole, raw, fresh",
+            "preparation": "Egg, whole, raw, fresh",
+            "record": "docs/foods/eggs.md#nutrition_supplementary_sources/glycine_usda_review01_171287",
+            "source_record": "docs/foods/eggs.md#nutrition_supplementary_sources/glycine_usda_review01_171287",
+            "nutrition_value_reviews": [],
+            "limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "id": "docs/foods/eggs.md#nutrition_supplementary_sources/glycine_usda_review01_171287",
+            "low": 432,
+            "high": 432,
+            "display": "0.432 g"
+          },
+          {
+            "key": "glycine_usda_review01_171287",
+            "label": "Glycine",
+            "substance_id": "glycine",
+            "value": 0.432,
+            "unit": "g",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g edible portion",
+            "evidence_material": "Egg, whole, raw, fresh",
+            "preparation_state": "Egg, whole, raw, fresh",
+            "source_url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+            "source_group": "USDA SR Legacy April 2018; source-specific database value",
+            "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "fdc_id": 171287,
+            "food_nutrient_id": 1597646,
+            "source_derivation_id": "A",
+            "source_data_points": 0,
+            "record": "docs/foods/eggs.md#nutrition_supplementary_sources/glycine_usda_review01_171287",
+            "evidence": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "source_reference": null,
+            "presence_status": "qualitative",
+            "limitations": null
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM6",
+        "BRS4-FM1-PM3"
+      ],
+      "missing_edge": "docs/foods/eggs.md#substance_relationships: contains glycine (Egg, whole, raw, fresh)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "pumpkin-seeds",
+      "target_entity": "glycine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "pumpkin-seeds",
+        "substance": "glycine"
+      },
+      "candidate_food": "Pumpkin Seeds",
+      "material": "Seeds, pumpkin and squash seed kernels, dried",
+      "preparation": "Seeds, pumpkin and squash seed kernels, dried",
+      "evidence": [
+        [
+          {
+            "key": "glycine_usda_review01_170556",
+            "label": "Glycine",
+            "substance_id": "glycine",
+            "value": 1.843,
+            "unit": "g",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g edible portion",
+            "evidence_material": "Seeds, pumpkin and squash seed kernels, dried",
+            "preparation_state": "Seeds, pumpkin and squash seed kernels, dried",
+            "source_url": "https://fdc.nal.usda.gov/food-details/170556/nutrients",
+            "source_group": "USDA SR Legacy April 2018; source-specific database value",
+            "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "fdc_id": 170556,
+            "food_nutrient_id": 1532882,
+            "source_derivation_id": "A",
+            "source_data_points": 0,
+            "range": null,
+            "material": "Seeds, pumpkin and squash seed kernels, dried",
+            "preparation": "Seeds, pumpkin and squash seed kernels, dried",
+            "record": "docs/foods/pumpkin-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170556",
+            "source_record": "docs/foods/pumpkin-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170556",
+            "nutrition_value_reviews": [],
+            "limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "id": "docs/foods/pumpkin-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170556",
+            "low": 1843,
+            "high": 1843,
+            "display": "1.843 g"
+          },
+          {
+            "key": "glycine_usda_review01_170556",
+            "label": "Glycine",
+            "substance_id": "glycine",
+            "value": 1.843,
+            "unit": "g",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g edible portion",
+            "evidence_material": "Seeds, pumpkin and squash seed kernels, dried",
+            "preparation_state": "Seeds, pumpkin and squash seed kernels, dried",
+            "source_url": "https://fdc.nal.usda.gov/food-details/170556/nutrients",
+            "source_group": "USDA SR Legacy April 2018; source-specific database value",
+            "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "fdc_id": 170556,
+            "food_nutrient_id": 1532882,
+            "source_derivation_id": "A",
+            "source_data_points": 0,
+            "record": "docs/foods/pumpkin-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170556",
+            "evidence": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "source_reference": null,
+            "presence_status": "qualitative",
+            "limitations": null
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM6",
+        "BRS4-FM1-PM3"
+      ],
+      "missing_edge": "docs/foods/pumpkin-seeds.md#substance_relationships: contains glycine (Seeds, pumpkin and squash seed kernels, dried)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "salmon",
+      "target_entity": "glycine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "salmon",
+        "substance": "glycine"
+      },
+      "candidate_food": "Salmon",
+      "material": "Fish, salmon, Atlantic, farmed, raw",
+      "preparation": "Fish, salmon, Atlantic, farmed, raw",
+      "evidence": [
+        [
+          {
+            "key": "glycine_usda_review01_175167",
+            "label": "Glycine",
+            "substance_id": "glycine",
+            "value": 0.96,
+            "unit": "g",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g edible portion",
+            "evidence_material": "Fish, salmon, Atlantic, farmed, raw",
+            "preparation_state": "Fish, salmon, Atlantic, farmed, raw",
+            "source_url": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
+            "source_group": "USDA SR Legacy April 2018; source-specific database value",
+            "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "fdc_id": 175167,
+            "food_nutrient_id": 1918104,
+            "source_derivation_id": "A",
+            "source_data_points": 0,
+            "range": null,
+            "material": "Fish, salmon, Atlantic, farmed, raw",
+            "preparation": "Fish, salmon, Atlantic, farmed, raw",
+            "record": "docs/foods/salmon.md#nutrition_supplementary_sources/glycine_usda_review01_175167",
+            "source_record": "docs/foods/salmon.md#nutrition_supplementary_sources/glycine_usda_review01_175167",
+            "nutrition_value_reviews": [
+              {
+                "title": "Astaxanthin amount: citation attachment pending",
+                "substance_id": "astaxanthin",
+                "section": "Bioactive compounds",
+                "correction_status": "pending",
+                "description": "Retained researched estimate: 3.2 mg per 100 g. Original note: Literature estimate for farmed Atlantic salmon; carotenoid content varies by feed and species (e.g. Turujman et al., 1997; USDA does not report astaxanthin).",
+                "decision": "Retain the estimate while attaching its quantitative source and verifying preparation and denominator. Presence citations do not independently verify this amount."
+              }
+            ],
+            "limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "id": "docs/foods/salmon.md#nutrition_supplementary_sources/glycine_usda_review01_175167",
+            "low": 960,
+            "high": 960,
+            "display": "0.96 g"
+          },
+          {
+            "key": "glycine_usda_review01_175167",
+            "label": "Glycine",
+            "substance_id": "glycine",
+            "value": 0.96,
+            "unit": "g",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g edible portion",
+            "evidence_material": "Fish, salmon, Atlantic, farmed, raw",
+            "preparation_state": "Fish, salmon, Atlantic, farmed, raw",
+            "source_url": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
+            "source_group": "USDA SR Legacy April 2018; source-specific database value",
+            "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "fdc_id": 175167,
+            "food_nutrient_id": 1918104,
+            "source_derivation_id": "A",
+            "source_data_points": 0,
+            "record": "docs/foods/salmon.md#nutrition_supplementary_sources/glycine_usda_review01_175167",
+            "evidence": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "source_reference": null,
+            "presence_status": "qualitative",
+            "limitations": null
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM6",
+        "BRS4-FM1-PM3"
+      ],
+      "missing_edge": "docs/foods/salmon.md#substance_relationships: contains glycine (Fish, salmon, Atlantic, farmed, raw)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "sunflower-seeds",
+      "target_entity": "glycine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "sunflower-seeds",
+        "substance": "glycine"
+      },
+      "candidate_food": "Sunflower Seeds",
+      "material": "Seeds, sunflower seed kernels, dried",
+      "preparation": "Seeds, sunflower seed kernels, dried",
+      "evidence": [
+        [
+          {
+            "key": "glycine_usda_review01_170562",
+            "label": "Glycine",
+            "substance_id": "glycine",
+            "value": 1.461,
+            "unit": "g",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g edible portion",
+            "evidence_material": "Seeds, sunflower seed kernels, dried",
+            "preparation_state": "Seeds, sunflower seed kernels, dried",
+            "source_url": "https://fdc.nal.usda.gov/food-details/170562/nutrients",
+            "source_group": "USDA SR Legacy April 2018; source-specific database value",
+            "source_note": "Derivation code absent; do not label as measured analytical data Reported data points: 26 Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Derivation code absent; do not label as measured analytical data Reported data points: 26 Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "fdc_id": 170562,
+            "food_nutrient_id": 1533390,
+            "source_derivation_id": null,
+            "source_data_points": 26,
+            "range": null,
+            "material": "Seeds, sunflower seed kernels, dried",
+            "preparation": "Seeds, sunflower seed kernels, dried",
+            "record": "docs/foods/sunflower-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170562",
+            "source_record": "docs/foods/sunflower-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170562",
+            "nutrition_value_reviews": [],
+            "limitations": "Derivation code absent; do not label as measured analytical data Reported data points: 26 Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "id": "docs/foods/sunflower-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170562",
+            "low": 1461,
+            "high": 1461,
+            "display": "1.461 g"
+          },
+          {
+            "key": "glycine_usda_review01_170562",
+            "label": "Glycine",
+            "substance_id": "glycine",
+            "value": 1.461,
+            "unit": "g",
+            "basis": "per 100 g edible portion",
+            "original_source_basis": "per 100 g edible portion",
+            "evidence_material": "Seeds, sunflower seed kernels, dried",
+            "preparation_state": "Seeds, sunflower seed kernels, dried",
+            "source_url": "https://fdc.nal.usda.gov/food-details/170562/nutrients",
+            "source_group": "USDA SR Legacy April 2018; source-specific database value",
+            "source_note": "Derivation code absent; do not label as measured analytical data Reported data points: 26 Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "material_limitations": "Derivation code absent; do not label as measured analytical data Reported data points: 26 Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "verified": true,
+            "evidence_status": "supported",
+            "rank_eligible": true,
+            "comparison_group": "edible::source-specific",
+            "composition_review_status": "author-approved-review-01",
+            "fdc_id": 170562,
+            "food_nutrient_id": 1533390,
+            "source_derivation_id": null,
+            "source_data_points": 26,
+            "record": "docs/foods/sunflower-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170562",
+            "evidence": "Derivation code absent; do not label as measured analytical data Reported data points: 26 Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+            "source_reference": null,
+            "presence_status": "qualitative",
+            "limitations": null
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM6",
+        "BRS4-FM1-PM3"
+      ],
+      "missing_edge": "docs/foods/sunflower-seeds.md#substance_relationships: contains glycine (Seeds, sunflower seed kernels, dried)",
       "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
       "verification_status": "pending-independent-verification"
     },
@@ -1142,93 +2093,6 @@
       "verification_status": "pending-independent-verification"
     },
     {
-      "source_entity": "vitamin-b9",
-      "target_entity": "5-Methyltetrahydrofolate",
-      "relationship_type": "precursor-conversion",
-      "canonical_ids": {
-        "precursor": "vitamin-b9",
-        "active_target": null
-      },
-      "candidate_food": null,
-      "material": null,
-      "preparation": null,
-      "evidence": [
-        {
-          "finding_ids": [
-            "PM1-F1"
-          ],
-          "citation_keys": [
-            "froese_vitamin_2019"
-          ]
-        }
-      ],
-      "affected_pms": [
-        "BRS2-FM1-PM1"
-      ],
-      "missing_edge": "Vitamin B9 (folate) → 5-Methyltetrahydrofolate: structured conversion pathway",
-      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
-      "verification_status": "requires-pathway-reconciliation"
-    },
-    {
-      "source_entity": "vitamin-b12",
-      "target_entity": "Methylcobalamin",
-      "relationship_type": "precursor-conversion",
-      "canonical_ids": {
-        "precursor": "vitamin-b12",
-        "active_target": null
-      },
-      "candidate_food": null,
-      "material": null,
-      "preparation": null,
-      "evidence": [
-        {
-          "finding_ids": [
-            "PM1-F1"
-          ],
-          "citation_keys": [
-            "froese_vitamin_2019"
-          ]
-        }
-      ],
-      "affected_pms": [
-        "BRS2-FM1-PM1"
-      ],
-      "missing_edge": "Vitamin B12 (cobalamin) → Methylcobalamin: structured conversion pathway",
-      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
-      "verification_status": "requires-pathway-reconciliation"
-    },
-    {
-      "source_entity": "choline",
-      "target_entity": "Betaine",
-      "relationship_type": "precursor-conversion",
-      "canonical_ids": {
-        "precursor": "choline",
-        "active_target": null
-      },
-      "candidate_food": null,
-      "material": null,
-      "preparation": null,
-      "evidence": [
-        {
-          "finding_ids": [
-            "PM2-F2",
-            "PM2-F1"
-          ],
-          "citation_keys": [
-            "obeid_metabolic_2013",
-            "salvi_choline_2013",
-            "evans_betaine_2002"
-          ]
-        }
-      ],
-      "affected_pms": [
-        "BRS2-FM1-PM2"
-      ],
-      "missing_edge": "Choline → Betaine: structured conversion pathway",
-      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
-      "verification_status": "requires-pathway-reconciliation"
-    },
-    {
       "source_entity": "BRS2-FM1-PM4::PM4-DIT-2",
       "target_entity": "Dietary protein",
       "relationship_type": "identity-resolution",
@@ -1255,92 +2119,6 @@
       "missing_edge": "BRS2-FM1-PM4::PM4-DIT-2 → canonical substance/substrate identity",
       "required_action": "Resolve against existing identities and aliases. Do not create duplicates or reapprove the PM admission.",
       "verification_status": "requires-identity-reconciliation"
-    },
-    {
-      "source_entity": "BRS2-FM1-PM4::PM4-DIT-2",
-      "target_entity": "Methionine",
-      "relationship_type": "precursor-conversion",
-      "canonical_ids": {
-        "precursor": null,
-        "active_target": null
-      },
-      "candidate_food": null,
-      "material": null,
-      "preparation": null,
-      "evidence": [
-        {
-          "finding_ids": [
-            "PM4-F1"
-          ],
-          "citation_keys": [
-            "fao_diaas_2013",
-            "finkelstein_homocysteine_1998"
-          ]
-        }
-      ],
-      "affected_pms": [
-        "BRS2-FM1-PM4"
-      ],
-      "missing_edge": "Dietary protein → Methionine: structured conversion pathway",
-      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
-      "verification_status": "requires-pathway-reconciliation"
-    },
-    {
-      "source_entity": "methionine",
-      "target_entity": "Cysteine",
-      "relationship_type": "precursor-conversion",
-      "canonical_ids": {
-        "precursor": "methionine",
-        "active_target": null
-      },
-      "candidate_food": null,
-      "material": null,
-      "preparation": null,
-      "evidence": [
-        {
-          "finding_ids": [
-            "PM6-F2"
-          ],
-          "citation_keys": [
-            "lyons_glutathione_2000",
-            "courtney_martin_cysteine_2008"
-          ]
-        }
-      ],
-      "affected_pms": [
-        "BRS2-FM2-PM6"
-      ],
-      "missing_edge": "Methionine → Cysteine: structured conversion pathway",
-      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
-      "verification_status": "requires-pathway-reconciliation"
-    },
-    {
-      "source_entity": "n-acetylcysteine",
-      "target_entity": "Cysteine",
-      "relationship_type": "precursor-conversion",
-      "canonical_ids": {
-        "precursor": "n-acetylcysteine",
-        "active_target": null
-      },
-      "candidate_food": null,
-      "material": null,
-      "preparation": null,
-      "evidence": [
-        {
-          "finding_ids": [
-            "PM6-F2"
-          ],
-          "citation_keys": [
-            "sekhar_glutathione_2011"
-          ]
-        }
-      ],
-      "affected_pms": [
-        "BRS2-FM2-PM6"
-      ],
-      "missing_edge": "N-acetylcysteine → Cysteine: structured conversion pathway",
-      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
-      "verification_status": "requires-pathway-reconciliation"
     },
     {
       "source_entity": "chicory-root",
@@ -1450,7 +2228,7 @@
       },
       "candidate_food": "Salmon Roe",
       "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-      "preparation": null,
+      "preparation": "salted",
       "evidence": [
         [
           {
@@ -1468,13 +2246,13 @@
             "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
             "source_reference": "#food-source-8",
             "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-            "preparation": null,
+            "preparation": "salted",
             "record": "docs/foods/salmon-roe.md#nutrition_per_100g/manganese_mg",
             "source_record": "docs/foods/salmon-roe.md#nutrition_source",
             "verified": true,
             "id": "docs/foods/salmon-roe.md#nutrition_per_100g/manganese_mg",
-            "rank_eligible": false,
-            "comparison_group": null,
+            "rank_eligible": true,
+            "comparison_group": "edible::salted",
             "low": 0.06,
             "high": 0.06,
             "display": "0.06 mg"
@@ -1485,7 +2263,7 @@
         "BRS3-FM2-PM4",
         "BRS4-FM2-PM5"
       ],
-      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains manganese (null)",
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains manganese (salted)",
       "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
       "verification_status": "pending-independent-verification"
     },
@@ -1701,62 +2479,6 @@
       "verification_status": "pending-independent-verification"
     },
     {
-      "source_entity": "vitamin-b2",
-      "target_entity": "Flavin mononucleotide (FMN)",
-      "relationship_type": "precursor-conversion",
-      "canonical_ids": {
-        "precursor": "vitamin-b2",
-        "active_target": null
-      },
-      "candidate_food": null,
-      "material": null,
-      "preparation": null,
-      "evidence": [
-        {
-          "finding_ids": [
-            "PM1-F1"
-          ],
-          "citation_keys": [
-            "curtabbi_complex_i_fmn_2022"
-          ]
-        }
-      ],
-      "affected_pms": [
-        "BRS4-FM1-PM1"
-      ],
-      "missing_edge": "Vitamin B2 (riboflavin) → Flavin mononucleotide (FMN): structured conversion pathway",
-      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
-      "verification_status": "requires-pathway-reconciliation"
-    },
-    {
-      "source_entity": "tryptophan",
-      "target_entity": "Nicotinamide (a form of vitamin B3)",
-      "relationship_type": "precursor-conversion",
-      "canonical_ids": {
-        "precursor": "tryptophan",
-        "active_target": null
-      },
-      "candidate_food": null,
-      "material": null,
-      "preparation": null,
-      "evidence": [
-        {
-          "finding_ids": [
-            "PM2-F1"
-          ],
-          "citation_keys": [
-            "covarrubias_nad_2021"
-          ]
-        }
-      ],
-      "affected_pms": [
-        "BRS4-FM1-PM2"
-      ],
-      "missing_edge": "Tryptophan → Nicotinamide (a form of vitamin B3): structured conversion pathway",
-      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
-      "verification_status": "requires-pathway-reconciliation"
-    },
-    {
       "source_entity": "chicory-root",
       "target_entity": "inulin",
       "relationship_type": "contains",
@@ -1850,7 +2572,7 @@
       },
       "candidate_food": "Cacao Powder",
       "material": "Cocoa, dry powder, unsweetened",
-      "preparation": null,
+      "preparation": "dry powder",
       "evidence": [
         [
           {
@@ -1880,7 +2602,7 @@
       "affected_pms": [
         "BRS5-FM2-PM6"
       ],
-      "missing_edge": "Cacao Powder → Epicatechin [Cocoa, dry powder, unsweetened; preparation unresolved]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
+      "missing_edge": "Cacao Powder → Epicatechin [Cocoa, dry powder, unsweetened; dry powder]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
       "required_action": "Compare the existing edge with this source material, brand/fortification, cultivar, preparation and analytical context. Do not create a new food edge unless independently established as necessary.",
       "verification_status": "requires-material-equivalence-review"
     },
@@ -1894,7 +2616,7 @@
       },
       "candidate_food": "Cocoa",
       "material": "Cocoa, dry powder, unsweetened",
-      "preparation": null,
+      "preparation": "dry powder",
       "evidence": [
         [
           {
@@ -1924,7 +2646,7 @@
       "affected_pms": [
         "BRS5-FM2-PM6"
       ],
-      "missing_edge": "Cocoa → Epicatechin [Cocoa, dry powder, unsweetened; preparation unresolved]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
+      "missing_edge": "Cocoa → Epicatechin [Cocoa, dry powder, unsweetened; dry powder]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
       "required_action": "Compare the existing edge with this source material, brand/fortification, cultivar, preparation and analytical context. Do not create a new food edge unless independently established as necessary.",
       "verification_status": "requires-material-equivalence-review"
     },
@@ -1982,7 +2704,7 @@
       },
       "candidate_food": "Salmon Roe",
       "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-      "preparation": null,
+      "preparation": "salted",
       "evidence": [
         [
           {
@@ -2000,13 +2722,13 @@
             "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
             "source_reference": "#food-source-8",
             "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-            "preparation": null,
+            "preparation": "salted",
             "record": "docs/foods/salmon-roe.md#nutrition_per_100g/linoleic_g",
             "source_record": "docs/foods/salmon-roe.md#nutrition_source",
             "verified": true,
             "id": "docs/foods/salmon-roe.md#nutrition_per_100g/linoleic_g",
-            "rank_eligible": false,
-            "comparison_group": null,
+            "rank_eligible": true,
+            "comparison_group": "edible::salted",
             "low": 110,
             "high": 110,
             "display": "0.11 g"
@@ -2016,7 +2738,7 @@
       "affected_pms": [
         "BRS5-FM3-PM7"
       ],
-      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains linoleic-acid (null)",
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains linoleic-acid (salted)",
       "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
       "verification_status": "pending-independent-verification"
     },
@@ -2053,7 +2775,7 @@
       "relationship_type": "precursor-conversion",
       "canonical_ids": {
         "precursor": null,
-        "active_target": null
+        "active_target": "butyrate"
       },
       "candidate_food": null,
       "material": null,
@@ -2072,90 +2794,6 @@
         "BRS5-FM1-PM1"
       ],
       "missing_edge": "Fermentable dietary fibre → Butyrate: structured conversion pathway",
-      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
-      "verification_status": "requires-pathway-reconciliation"
-    },
-    {
-      "source_entity": "vitamin-a",
-      "target_entity": "Retinoic acid",
-      "relationship_type": "precursor-conversion",
-      "canonical_ids": {
-        "precursor": "vitamin-a",
-        "active_target": null
-      },
-      "candidate_food": null,
-      "material": null,
-      "preparation": null,
-      "evidence": [
-        {
-          "finding_ids": [
-            "PM1-F5"
-          ],
-          "citation_keys": [
-            "cantorna_vitamin_2019",
-            "li_retinoid_junction_2017"
-          ]
-        }
-      ],
-      "affected_pms": [
-        "BRS5-FM1-PM1"
-      ],
-      "missing_edge": "Vitamin A → Retinoic acid: structured conversion pathway",
-      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
-      "verification_status": "requires-pathway-reconciliation"
-    },
-    {
-      "source_entity": "BRS5-FM1-PM3::PM3-DIT-1",
-      "target_entity": "Oligofructose-enriched inulin",
-      "relationship_type": "identity-resolution",
-      "canonical_ids": {
-        "substance": null
-      },
-      "candidate_food": null,
-      "material": null,
-      "preparation": null,
-      "evidence": [
-        {
-          "finding_ids": [
-            "PM3-F1"
-          ],
-          "citation_keys": [
-            "schroeder_bifidobacteria_2018"
-          ]
-        }
-      ],
-      "affected_pms": [
-        "BRS5-FM1-PM3"
-      ],
-      "missing_edge": "BRS5-FM1-PM3::PM3-DIT-1 → canonical substance/substrate identity",
-      "required_action": "Resolve against existing identities and aliases. Do not create duplicates or reapprove the PM admission.",
-      "verification_status": "requires-identity-reconciliation"
-    },
-    {
-      "source_entity": "ellagitannins",
-      "target_entity": "Ellagic acid",
-      "relationship_type": "precursor-conversion",
-      "canonical_ids": {
-        "precursor": "ellagitannins",
-        "active_target": null
-      },
-      "candidate_food": null,
-      "material": null,
-      "preparation": null,
-      "evidence": [
-        {
-          "finding_ids": [
-            "PM6-F1"
-          ],
-          "citation_keys": [
-            "singh_direct_2022"
-          ]
-        }
-      ],
-      "affected_pms": [
-        "BRS5-FM2-PM6"
-      ],
-      "missing_edge": "Ellagitannins → Ellagic acid: structured conversion pathway",
       "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
       "verification_status": "requires-pathway-reconciliation"
     },

@@ -4,8 +4,8 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 
 | Food | Unique dietary input coverage | Substance IDs | Connected PMs | Shared pools |
 | --- | --- | --- | --- | --- |
-| Almonds | 7 | magnesium; vitamin-b2; choline; vitamin-b9; vitamin-b6; potassium; zinc | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
-| Amaranth | 7 | magnesium; choline; vitamin-b2; vitamin-b9; potassium; zinc; vitamin-b6 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
+| Almonds | 8 | magnesium; vitamin-b2; choline; vitamin-b9; vitamin-b6; potassium; zinc; glycine | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
+| Amaranth | 8 | magnesium; choline; vitamin-b2; vitamin-b9; potassium; zinc; vitamin-b6; betaine | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Anchovies | 8 | choline; potassium; zinc; magnesium; vitamin-b2; vitamin-b6; vitamin-b9; vitamin-b12 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Apples | 7 | vitamin-b9; choline; vitamin-b6; potassium; zinc; magnesium; vitamin-b2 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Asparagus | 7 | vitamin-b9; choline; magnesium; vitamin-b2; potassium; zinc; vitamin-b6 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
@@ -13,7 +13,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Avocado | 7 | potassium; magnesium; vitamin-b2; vitamin-b6; zinc; vitamin-b9; choline | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Bananas | 7 | potassium; vitamin-b6; choline; vitamin-b2; vitamin-b9; magnesium; zinc | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Barley | 6 | magnesium; vitamin-b2; vitamin-b9; vitamin-b6; potassium; zinc | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
-| Beef | 9 | zinc; vitamin-b12; vitamin-b2; vitamin-b6; glutamate; potassium; choline; magnesium; vitamin-b9 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
+| Beef | 10 | zinc; vitamin-b12; vitamin-b2; vitamin-b6; glutamate; potassium; choline; magnesium; vitamin-b9; glycine | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Beetroot | 8 | betaine; magnesium; potassium; vitamin-b9; choline; zinc; vitamin-b6; vitamin-b2 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Bell Peppers | 7 | vitamin-b9; choline; magnesium; vitamin-b2; potassium; zinc; vitamin-b6 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Black Beans | 7 | magnesium; potassium; zinc; vitamin-b6; vitamin-b9; choline; vitamin-b2 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
@@ -36,7 +36,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Cherries | 7 | choline; potassium; zinc; vitamin-b6; vitamin-b2; vitamin-b9; magnesium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Chia Seeds | 5 | magnesium; vitamin-b2; vitamin-b9; potassium; zinc | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Chicken Liver | 8 | vitamin-b12; vitamin-b9; vitamin-b2; choline; magnesium; potassium; zinc; vitamin-b6 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
-| Chicken | 10 | methionine; cysteine; zinc; vitamin-b12; vitamin-b6; choline; magnesium; vitamin-b2; vitamin-b9; potassium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1); BRS2(KC2) |
+| Chicken | 11 | methionine; cysteine; zinc; vitamin-b12; vitamin-b6; choline; magnesium; vitamin-b2; vitamin-b9; potassium; glycine | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1); BRS2(KC2) |
 | Chickpeas | 7 | magnesium; potassium; zinc; vitamin-b6; vitamin-b9; choline; vitamin-b2 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Chicory Root | 5 | vitamin-b6; vitamin-b9; zinc; magnesium; potassium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Chlorella | 1 | vitamin-b12 | BRS2-FM1-PM1; BRS2-FM1-PM4 |  |
@@ -58,7 +58,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Olive Oil (Early Harvest) | 2 | potassium; choline | BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM3-PM7 | BRS2(KC1) |
 | Edamame | 7 | vitamin-b9; vitamin-b2; vitamin-b6; potassium; zinc; magnesium; choline | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Egg Yolks | 8 | choline; potassium; zinc; vitamin-b6; magnesium; vitamin-b2; vitamin-b12; vitamin-b9 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
-| Eggs | 11 | methionine; cysteine; choline; zinc; glutamate; vitamin-b2; vitamin-b12; magnesium; potassium; vitamin-b6; vitamin-b9 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1); BRS2(KC2) |
+| Eggs | 12 | methionine; cysteine; choline; zinc; glutamate; vitamin-b2; vitamin-b12; magnesium; potassium; vitamin-b6; vitamin-b9; glycine | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1); BRS2(KC2) |
 | Extra Virgin Olive Oil | 2 | potassium; choline | BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM3-PM7 | BRS2(KC1) |
 | Fermented Hot Sauce | 6 | magnesium; potassium; zinc; vitamin-b2; vitamin-b6; vitamin-b9 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Flax Seeds | 7 | magnesium; vitamin-b6; potassium; zinc; vitamin-b2; vitamin-b9; choline | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
@@ -82,9 +82,8 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Lemon | 7 | choline; vitamin-b2; vitamin-b9; magnesium; potassium; zinc; vitamin-b6 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Lentils | 8 | cysteine; zinc; vitamin-b9; vitamin-b6; choline; vitamin-b2; magnesium; potassium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Lion's Mane Mushroom | 5 | magnesium; potassium; zinc; vitamin-b6; vitamin-b9 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
-| Liver | 9 | cysteine; choline; vitamin-b12; vitamin-b9; potassium; zinc; vitamin-b6; vitamin-b2; magnesium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
-| Lupin Beans | 6 | magnesium; zinc; vitamin-b2; vitamin-b9; potassium; vitamin-b6 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
-| Lupins | 5 | magnesium; potassium; zinc; vitamin-b6; vitamin-b9 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
+| Liver (beef) | 9 | cysteine; choline; vitamin-b12; vitamin-b9; potassium; zinc; vitamin-b6; vitamin-b2; magnesium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
+| Lupins | 6 | magnesium; zinc; potassium; vitamin-b6; vitamin-b9; vitamin-b2 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Mackerel | 8 | choline; potassium; zinc; vitamin-b6; magnesium; vitamin-b2; vitamin-b9; vitamin-b12 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Maitake Mushroom | 7 | zinc; magnesium; vitamin-b9; choline; vitamin-b2; potassium; vitamin-b6 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Milk | 10 | magnesium; potassium; zinc; vitamin-b12; vitamin-b2; uridine; pyridoxal-5-phosphate; choline; vitamin-b9; vitamin-b6 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
@@ -111,7 +110,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Pomegranates | 7 | potassium; choline; magnesium; vitamin-b2; vitamin-b9; vitamin-b6; zinc | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Pork | 9 | cysteine; zinc; vitamin-b9; vitamin-b6; potassium; magnesium; vitamin-b2; vitamin-b12; choline | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Potatoes | 7 | potassium; vitamin-b6; choline; vitamin-b2; magnesium; vitamin-b9; zinc | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
-| Pumpkin Seeds | 7 | magnesium; zinc; vitamin-b9; choline; vitamin-b2; vitamin-b6; potassium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
+| Pumpkin Seeds | 8 | magnesium; zinc; vitamin-b9; choline; vitamin-b2; vitamin-b6; potassium; glycine | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Quinoa | 8 | betaine; choline; magnesium; zinc; vitamin-b2; vitamin-b6; vitamin-b9; potassium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Radicchio | 7 | choline; potassium; zinc; magnesium; vitamin-b9; vitamin-b2; vitamin-b6 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Raspberries | 7 | vitamin-b9; choline; potassium; zinc; vitamin-b6; vitamin-b2; magnesium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
@@ -121,7 +120,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Saffron | 5 | magnesium; potassium; zinc; vitamin-b6; vitamin-b9 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Sage | 6 | magnesium; potassium; zinc; vitamin-b6; vitamin-b9; choline | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Salmon Roe | 9 | phosphatidylcholine; choline; vitamin-b6; vitamin-b9; vitamin-b12; vitamin-b2; zinc; magnesium; potassium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
-| Salmon | 9 | methionine; vitamin-b12; vitamin-b6; potassium; zinc; vitamin-b2; magnesium; vitamin-b9; choline | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1); BRS2(KC2) |
+| Salmon | 10 | methionine; vitamin-b12; vitamin-b6; potassium; zinc; vitamin-b2; magnesium; vitamin-b9; choline; glycine | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1); BRS2(KC2) |
 | Sardines | 9 | methionine; vitamin-b12; choline; vitamin-b9; potassium; zinc; vitamin-b6; magnesium; vitamin-b2 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1); BRS2(KC2) |
 | Sauerkraut | 7 | choline; potassium; zinc; vitamin-b6; vitamin-b2; vitamin-b9; magnesium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Scallops | 8 | vitamin-b12; choline; vitamin-b2; magnesium; vitamin-b6; potassium; zinc; vitamin-b9 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
@@ -131,13 +130,13 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Shrimp | 9 | zinc; choline; vitamin-b6; potassium; vitamin-b2; vitamin-b9; vitamin-b12; magnesium; betaine | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Sourdough Bread | 3 | magnesium; potassium; zinc | BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM2-PM6 |  |
 | Soy Lecithin | 2 | choline; phosphatidylcholine | BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM3-PM7 | BRS2(KC1) |
-| Soy | 7 | choline; vitamin-b6; vitamin-b9; vitamin-b2; magnesium; potassium; zinc | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
+| Mature soybeans | 7 | choline; vitamin-b6; vitamin-b9; vitamin-b2; magnesium; potassium; zinc | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Spelt | 6 | potassium; zinc; vitamin-b6; vitamin-b2; vitamin-b9; magnesium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Spinach | 9 | 5-methyltetrahydrofolate; betaine; magnesium; potassium; zinc; vitamin-b2; vitamin-b6; vitamin-b9; choline | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Spirulina | 7 | choline; potassium; zinc; vitamin-b6; magnesium; vitamin-b2; vitamin-b9 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Strawberries | 7 | vitamin-b9; vitamin-b6; zinc; magnesium; vitamin-b2; potassium; choline | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Sunflower Lecithin | 2 | phosphatidylcholine; choline | BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM3-PM7 | BRS2(KC1) |
-| Sunflower Seeds | 7 | magnesium; vitamin-b2; vitamin-b6; potassium; zinc; vitamin-b9; choline | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
+| Sunflower Seeds | 8 | magnesium; vitamin-b2; vitamin-b6; potassium; zinc; vitamin-b9; choline; glycine | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Sweet Potatoes | 7 | potassium; choline; vitamin-b9; zinc; vitamin-b6; magnesium; vitamin-b2 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Swiss Chard | 8 | 5-methyltetrahydrofolate; magnesium; vitamin-b9; choline; vitamin-b2; potassium; zinc; vitamin-b6 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Tahini | 7 | potassium; zinc; vitamin-b6; vitamin-b2; vitamin-b9; magnesium; choline | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |

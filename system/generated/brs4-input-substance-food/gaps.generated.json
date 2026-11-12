@@ -144,12 +144,6 @@
     },
     {
       "kind": "mapping-gap",
-      "relationship_id": "BRS4-FM1-PM3::PM3-DIT-3",
-      "input": "Glycine",
-      "reason": "No supported canonical food-source record found."
-    },
-    {
-      "kind": "mapping-gap",
       "relationship_id": "BRS4-FM3-PM6::PM6-DIT-CARNITINE-1",
       "input": "L-Carnitine",
       "reason": "No supported canonical food-source record found."

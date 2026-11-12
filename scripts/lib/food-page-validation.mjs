@@ -79,6 +79,17 @@ export function getFoodSlugs(foodsDir) {
     .filter((f) => f.endsWith(".md"))
     .map((f) => path.basename(f, ".md"))
     .filter((slug) => !SKIP_SLUGS.has(slug))
+    .filter((slug) => {
+      const data = matter(fs.readFileSync(path.join(abs, slug + ".md"), "utf8")).data
+      if (!data.retired_identity) return true
+      const target = data.canonical_food_id
+      if (data.draft !== true || typeof target !== "string" || !/^[a-z0-9-]+$/.test(target) || target === slug)
+        throw new Error("Invalid retired food identity: " + slug)
+      const destination = matter(fs.readFileSync(path.join(abs, target + ".md"), "utf8")).data
+      if (destination.retired_identity || !(destination.aliases || []).includes(slug))
+        throw new Error("Retired food lacks a surviving canonical alias: " + slug)
+      return false // Redirect/alias records are not additional compositional food pages.
+    })
     .sort()
 }
 

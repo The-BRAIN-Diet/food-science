@@ -78,9 +78,8 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Lemon | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Lentils | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Lion's Mane Mushroom | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
-| Liver | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
+| Liver (beef) | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Lumpfish Roe | 2 | dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid | BRS-X(ECS-PM2) |  |
-| Lupin Beans | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Lupins | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Mackerel | 3 | dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid; zinc | BRS-X(ECS-PM1); BRS-X(ECS-PM2); BRS-X(Hormones-PM5) |  |
 | Maitake Mushroom | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
@@ -126,7 +125,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Shiitake Mushroom | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Shrimp | 3 | zinc; epa-eicosapentaenoic-acid; dha-docosahexaenoic-acid | BRS-X(ECS-PM1); BRS-X(ECS-PM2); BRS-X(Hormones-PM5) |  |
 | Sourdough Bread | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
-| Soy | 1 | tryptophan; zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
+| Mature soybeans | 1 | tryptophan; zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Spelt | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Spinach | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Spirulina | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |

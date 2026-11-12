@@ -414,11 +414,11 @@
     "canonical_substance_id": "vitamin-b9",
     "ontology_connections": {
       "identity": "resolved",
-      "conversion": "unresolved",
+      "conversion": "supported",
       "food": "supported"
     },
     "scientific_admission": "admitted",
-    "admission_basis": "historical-decision-pending-reconciliation",
+    "admission_basis": "versioned-assessment",
     "food_target": "nori",
     "food_title": "Nori",
     "food_material": "Purple laver (Porphyra spp.), dried, toasted",
@@ -464,9 +464,377 @@
     },
     "preparation": "dried",
     "delivery": "precursor-source",
-    "conversion_pathway": [],
+    "conversion_pathway": [
+      {
+        "from": "vitamin-b9",
+        "to": "5-methyltetrahydrofolate",
+        "process": "Form-dependent folate processing and folate-cycle conversion supply 5-methyltetrahydrofolate; folic acid requires reduction.",
+        "dependencies": [],
+        "limitations": "This conversion pathway does not show that increasing folate intake increases tissue remethylation flux. Folic acid lowers blood homocysteine, which is a circulating marker. The primary source is a biochemical review, not a new human flux study. Reaction identity does not show that ordinary dietary intake controls tissue remethylation rate, and it does not assign clinical benefit. Phosphatidylethanolamine methylation is a later SAMe-consuming reaction, not part of this step.",
+        "evidence": {
+          "statement": "Dietary folate, including folic acid reduced by dihydrofolate reductase, is converted through the folate cycle to 5-methyltetrahydrofolate, the methyl donor used by methionine synthase.",
+          "sources": [
+            "docs/papers/BRAIN-Diet-References#froese_vitamin_2019"
+          ]
+        }
+      }
+    ],
     "limitations": [
       "This conversion pathway does not show that increasing folate intake increases tissue remethylation flux. Folic acid lowers blood homocysteine, which is a circulating marker."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS2",
+    "fm": "BRS2(FM1)",
+    "pm": "BRS2-FM1-PM2",
+    "biological_mechanism": "Provide a parallel homocysteine clearance route so methionine and SAMe supply remain resilient when folate demand is high.",
+    "dietary_input": "Betaine",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "betaine",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "food_target": "quinoa",
+    "food_title": "Quinoa",
+    "food_material": "Quinoa",
+    "material_equivalence_status": "review-required",
+    "material_equivalence_reason": "Preparation equivalence is not established.",
+    "ontology_relationship_status": "material-equivalence-review",
+    "reconciled_sources": [],
+    "mapping_status": "research-supported-provisional",
+    "food_evidence": [
+      {
+        "key": "betaine_usda_review01_20035",
+        "label": "Betaine",
+        "substance_id": "betaine",
+        "value": 630,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "original_source_basis": "per 100 g food",
+        "evidence_material": "Quinoa",
+        "preparation_state": "uncooked (NDB crosswalk; not stated in the 2008 table)",
+        "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+        "source_group": "USDA Choline Content of Common Foods Release Two (2008); source-specific observation",
+        "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+        "material_limitations": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+        "verified": true,
+        "evidence_status": "supported",
+        "rank_eligible": true,
+        "comparison_group": "edible::source-specific",
+        "composition_review_status": "author-approved-review-01",
+        "ndb_id": "20035",
+        "source_sample_count": 1,
+        "source_printed_page": 31,
+        "range": null,
+        "material": "Quinoa",
+        "preparation": "uncooked (NDB crosswalk; not stated in the 2008 table)",
+        "record": "docs/foods/quinoa.md#nutrition_supplementary_sources/betaine_usda_review01_20035",
+        "source_record": "docs/foods/quinoa.md#nutrition_supplementary_sources/betaine_usda_review01_20035",
+        "nutrition_value_reviews": [
+          {
+            "title": "DHA observation: independent confirmation unresolved",
+            "section": "Fatty acids",
+            "correction_status": "pending",
+            "substance_id": "dha-docosahexaenoic-acid",
+            "nutrient_key": "dha_mg",
+            "exclude_from_food_lists": true,
+            "original_observation": {
+              "source": "USDA SR Legacy April 2018",
+              "fdc_id": 168874,
+              "food_name": "Quinoa, uncooked",
+              "nutrient_id": 1272,
+              "nutrient_name": "PUFA 22:6 n-3 (DHA)",
+              "value": 0.047,
+              "unit": "g",
+              "basis": "per 100 g edible portion",
+              "data_points": 3,
+              "range": [
+                0.03,
+                0.06
+              ],
+              "derivation": "Analytical",
+              "source_url": "https://fdc.nal.usda.gov/food-details/168874/nutrients"
+            },
+            "description": "The archived USDA record reports DHA at 47 mg/100 g. Identity and unit conversion are verified, but independent confirmation of this amount in edible quinoa remains unresolved. The database observation is retained here, not replaced with zero or relabelled as ALA.",
+            "decision": "Temporarily withhold quinoa from DHA food lists and quantified rankings. The former 47 mg omega-3 total depended entirely on this held observation and is withheld too. Unqualified 18:3 remains separately unresolved. Reinstate only after review of supporting analytical identity and food basis.",
+            "independent_review_sources": [
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC7500770/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC9025313/",
+              "https://www.matvaretabellen.no/en/quinoa-black-uncooked/"
+            ]
+          }
+        ],
+        "limitations": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+        "id": "docs/foods/quinoa.md#nutrition_supplementary_sources/betaine_usda_review01_20035",
+        "low": 630,
+        "high": 630,
+        "display": "630 mg"
+      },
+      {
+        "key": "betaine_usda_review01_20035",
+        "label": "Betaine",
+        "substance_id": "betaine",
+        "value": 630,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "original_source_basis": "per 100 g food",
+        "evidence_material": "Quinoa",
+        "preparation_state": "uncooked (NDB crosswalk; not stated in the 2008 table)",
+        "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+        "source_group": "USDA Choline Content of Common Foods Release Two (2008); source-specific observation",
+        "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+        "material_limitations": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+        "verified": true,
+        "evidence_status": "supported",
+        "rank_eligible": true,
+        "comparison_group": "edible::source-specific",
+        "composition_review_status": "author-approved-review-01",
+        "ndb_id": "20035",
+        "source_sample_count": 1,
+        "source_printed_page": 31,
+        "record": "docs/foods/quinoa.md#nutrition_supplementary_sources/betaine_usda_review01_20035",
+        "evidence": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+        "source_reference": null,
+        "presence_status": "qualitative",
+        "limitations": null
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM2-F1",
+        "PM2-IC1"
+      ],
+      "citation_keys": [
+        "evans_betaine_2002",
+        "breksa_zinc_1999",
+        "olthof_low_2003"
+      ]
+    },
+    "preparation": "uncooked (NDB crosswalk; not stated in the 2008 table)",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Supplemental betaine lowers plasma homocysteine in healthy adults, but that change does not measure tissue BHMT activity or show a clinical benefit. Human evidence is an eight-man depletion pilot, with the challenge response in four clinically depleted participants; tissue BHMT flux was not measured. Rat donor rescue and specific inhibition support the chain. This does not establish ordinary-diet limitation, response in every tissue or benefit above adequacy. Folate’s indirect constraint on BHMT remains unresolved."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS2",
+    "fm": "BRS2(FM1)",
+    "pm": "BRS2-FM1-PM2",
+    "biological_mechanism": "Provide a parallel homocysteine clearance route so methionine and SAMe supply remain resilient when folate demand is high.",
+    "dietary_input": "Betaine",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "betaine",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "food_target": "spinach",
+    "food_title": "Spinach",
+    "food_material": "Spinach, frozen, chopped or leaf, unprepared",
+    "material_equivalence_status": "review-required",
+    "material_equivalence_reason": "Preparation equivalence is not established.",
+    "ontology_relationship_status": "material-equivalence-review",
+    "reconciled_sources": [],
+    "mapping_status": "research-supported-provisional",
+    "food_evidence": [
+      {
+        "key": "betaine_usda_review01_11463",
+        "label": "Betaine",
+        "substance_id": "betaine",
+        "value": 120,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "original_source_basis": "per 100 g food",
+        "evidence_material": "Spinach, frozen, chopped or leaf, unprepared",
+        "preparation_state": "frozen, unprepared",
+        "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+        "source_group": "USDA Choline Content of Common Foods Release Two (2008); source-specific observation",
+        "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+        "material_limitations": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+        "verified": true,
+        "evidence_status": "supported",
+        "rank_eligible": true,
+        "comparison_group": "edible::source-specific",
+        "composition_review_status": "author-approved-review-01",
+        "ndb_id": "11463",
+        "source_sample_count": 3,
+        "source_printed_page": 23,
+        "range": null,
+        "material": "Spinach, frozen, chopped or leaf, unprepared",
+        "preparation": "frozen, unprepared",
+        "record": "docs/foods/spinach.md#nutrition_supplementary_sources/betaine_usda_review01_11463",
+        "source_record": "docs/foods/spinach.md#nutrition_supplementary_sources/betaine_usda_review01_11463",
+        "nutrition_value_reviews": [],
+        "limitations": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+        "id": "docs/foods/spinach.md#nutrition_supplementary_sources/betaine_usda_review01_11463",
+        "low": 120,
+        "high": 120,
+        "display": "120 mg"
+      },
+      {
+        "key": "betaine_usda_review01_11463",
+        "label": "Betaine",
+        "substance_id": "betaine",
+        "value": 120,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "original_source_basis": "per 100 g food",
+        "evidence_material": "Spinach, frozen, chopped or leaf, unprepared",
+        "preparation_state": "frozen, unprepared",
+        "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+        "source_group": "USDA Choline Content of Common Foods Release Two (2008); source-specific observation",
+        "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+        "material_limitations": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+        "verified": true,
+        "evidence_status": "supported",
+        "rank_eligible": true,
+        "comparison_group": "edible::source-specific",
+        "composition_review_status": "author-approved-review-01",
+        "ndb_id": "11463",
+        "source_sample_count": 3,
+        "source_printed_page": 23,
+        "record": "docs/foods/spinach.md#nutrition_supplementary_sources/betaine_usda_review01_11463",
+        "evidence": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+        "source_reference": null,
+        "presence_status": "qualitative",
+        "limitations": null
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM2-F1",
+        "PM2-IC1"
+      ],
+      "citation_keys": [
+        "evans_betaine_2002",
+        "breksa_zinc_1999",
+        "olthof_low_2003"
+      ]
+    },
+    "preparation": "frozen, unprepared",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Supplemental betaine lowers plasma homocysteine in healthy adults, but that change does not measure tissue BHMT activity or show a clinical benefit. Human evidence is an eight-man depletion pilot, with the challenge response in four clinically depleted participants; tissue BHMT flux was not measured. Rat donor rescue and specific inhibition support the chain. This does not establish ordinary-diet limitation, response in every tissue or benefit above adequacy. Folate’s indirect constraint on BHMT remains unresolved."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS2",
+    "fm": "BRS2(FM1)",
+    "pm": "BRS2-FM1-PM2",
+    "biological_mechanism": "Provide a parallel homocysteine clearance route so methionine and SAMe supply remain resilient when folate demand is high.",
+    "dietary_input": "Betaine",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "betaine",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "food_target": "wheat-germ",
+    "food_title": "Wheat Germ",
+    "food_material": "Cereals ready-to-eat, wheat germ, toasted, plain",
+    "material_equivalence_status": "review-required",
+    "material_equivalence_reason": "Preparation equivalence is not established.",
+    "ontology_relationship_status": "material-equivalence-review",
+    "reconciled_sources": [],
+    "mapping_status": "research-supported-provisional",
+    "food_evidence": [
+      {
+        "key": "betaine_usda_review01_08084",
+        "label": "Betaine",
+        "substance_id": "betaine",
+        "value": 410,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "original_source_basis": "per 100 g food",
+        "evidence_material": "Cereals ready-to-eat, wheat germ, toasted, plain",
+        "preparation_state": "toasted",
+        "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+        "source_group": "USDA Choline Content of Common Foods Release Two (2008); source-specific observation",
+        "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+        "material_limitations": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+        "verified": true,
+        "evidence_status": "supported",
+        "rank_eligible": true,
+        "comparison_group": "edible::source-specific",
+        "composition_review_status": "author-approved-review-01",
+        "ndb_id": "08084",
+        "source_sample_count": 2,
+        "source_printed_page": 17,
+        "range": null,
+        "material": "Cereals ready-to-eat, wheat germ, toasted, plain",
+        "preparation": "toasted",
+        "record": "docs/foods/wheat-germ.md#nutrition_supplementary_sources/betaine_usda_review01_08084",
+        "source_record": "docs/foods/wheat-germ.md#nutrition_supplementary_sources/betaine_usda_review01_08084",
+        "nutrition_value_reviews": [],
+        "limitations": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+        "id": "docs/foods/wheat-germ.md#nutrition_supplementary_sources/betaine_usda_review01_08084",
+        "low": 410,
+        "high": 410,
+        "display": "410 mg"
+      },
+      {
+        "key": "betaine_usda_review01_08084",
+        "label": "Betaine",
+        "substance_id": "betaine",
+        "value": 410,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "original_source_basis": "per 100 g food",
+        "evidence_material": "Cereals ready-to-eat, wheat germ, toasted, plain",
+        "preparation_state": "toasted",
+        "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+        "source_group": "USDA Choline Content of Common Foods Release Two (2008); source-specific observation",
+        "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+        "material_limitations": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+        "verified": true,
+        "evidence_status": "supported",
+        "rank_eligible": true,
+        "comparison_group": "edible::source-specific",
+        "composition_review_status": "author-approved-review-01",
+        "ndb_id": "08084",
+        "source_sample_count": 2,
+        "source_printed_page": 17,
+        "record": "docs/foods/wheat-germ.md#nutrition_supplementary_sources/betaine_usda_review01_08084",
+        "evidence": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+        "source_reference": null,
+        "presence_status": "qualitative",
+        "limitations": null
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM2-F1",
+        "PM2-IC1"
+      ],
+      "citation_keys": [
+        "evans_betaine_2002",
+        "breksa_zinc_1999",
+        "olthof_low_2003"
+      ]
+    },
+    "preparation": "toasted",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Supplemental betaine lowers plasma homocysteine in healthy adults, but that change does not measure tissue BHMT activity or show a clinical benefit. Human evidence is an eight-man depletion pilot, with the challenge response in four clinically depleted participants; tissue BHMT flux was not measured. Rat donor rescue and specific inhibition support the chain. This does not establish ordinary-diet limitation, response in every tissue or benefit above adequacy. Folate’s indirect constraint on BHMT remains unresolved."
     ],
     "missing_ontology_edge": null
   },
@@ -1046,7 +1414,7 @@
         "liu_epicatechin_conversion_2020"
       ]
     },
-    "preparation": null,
+    "preparation": "dry powder",
     "delivery": "direct-input-source",
     "conversion_pathway": [],
     "limitations": [
@@ -1110,7 +1478,7 @@
         "liu_epicatechin_conversion_2020"
       ]
     },
-    "preparation": null,
+    "preparation": "dry powder",
     "delivery": "direct-input-source",
     "conversion_pathway": [],
     "limitations": [

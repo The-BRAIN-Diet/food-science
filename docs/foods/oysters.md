@@ -18,6 +18,7 @@ tags:
   - Phosphatidylcholine
 list_image: /img/foods/oysters/oysters_thumb.webp
 nutrition_per_100g:
+  tyrosine_g: 0.202
   iron_mg: 4.61
   magnesium_mg: 18
   phosphorus_mg: 97
@@ -135,6 +136,16 @@ main_image: /img/foods/oysters/oysters_medium.webp
 legacy_list_image: /img/foods/oysters/oysters_thumb.webp
 legacy_main_image: /img/foods/oysters/oysters_medium.webp
 substance_relationships:
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: "Mollusks, oyster, eastern, wild, raw"
+    source_url: https://fdc.nal.usda.gov/food-details/171978/nutrients
+    description: "USDA reports 202 mg tyrosine per 100 g edible portion of the specified food."
+    material_limitations: "USDA SR Legacy (April 2018), food-nutrient row 1655303, nutrient 1218; Recipe; Approximate ingredient proportions (ex. combination of several recipes). Data points: 0. Exact database food: Mollusks, oyster, eastern, wild, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
   - substance: DHA
     relationship: contains
     description: USDA FoodData Central reports DHA in Mollusks, oyster, eastern, wild, raw.

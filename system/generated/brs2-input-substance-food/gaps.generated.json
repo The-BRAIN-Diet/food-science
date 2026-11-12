@@ -41,20 +41,6 @@
     },
     {
       "kind": "substance-identity",
-      "pm_id": "BRS2-FM1-PM3",
-      "id": "PM3-DIT-5",
-      "input": "Dietary protein",
-      "status": "unresolved-identity"
-    },
-    {
-      "kind": "substance-identity",
-      "pm_id": "BRS2-FM1-PM4",
-      "id": "PM4-DIT-2",
-      "input": "Dietary protein",
-      "status": "unresolved-identity"
-    },
-    {
-      "kind": "substance-identity",
       "pm_id": "BRS2-FM2-PM5",
       "id": "PM5-DIT-3",
       "input": "Homocysteine",
@@ -125,20 +111,8 @@
     },
     {
       "kind": "mapping-gap",
-      "relationship_id": "BRS2-FM1-PM4::PM4-DIT-DEFERRED-1",
-      "input": "Glycine",
-      "reason": "No supported canonical food-source record found."
-    },
-    {
-      "kind": "mapping-gap",
       "relationship_id": "BRS2-FM2-PM5::PM5-DIT-4",
       "input": "Serine",
-      "reason": "No supported canonical food-source record found."
-    },
-    {
-      "kind": "mapping-gap",
-      "relationship_id": "BRS2-FM2-PM6::PM6-DIT-3",
-      "input": "Glycine",
       "reason": "No supported canonical food-source record found."
     },
     {

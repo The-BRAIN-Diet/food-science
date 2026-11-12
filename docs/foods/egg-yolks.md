@@ -17,6 +17,7 @@ tags:
   - Vitamin K2
 list_image: /img/foods/egg-yolks/egg-yolks_thumb.webp
 nutrition_per_100g:
+  tyrosine_g: 0.678
   vitamin_e_mg: 2.58
   sugar_g: 0.56
   lutein_zeaxanthin_ug: 1094
@@ -91,6 +92,16 @@ nutrition_supplementary_sources:
     notes: butter, egg yolk or fermented soybean food
     source_reference: '#food-source-4'
 substance_relationships:
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: "Egg, yolk, raw, fresh"
+    source_url: https://fdc.nal.usda.gov/food-details/172184/nutrients
+    description: "USDA reports 678 mg tyrosine per 100 g edible portion of the specified food."
+    material_limitations: "USDA SR Legacy (April 2018), food-nutrient row 1674750, nutrient 1218; Analytical. Data points: 0. Exact database food: Egg, yolk, raw, fresh. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
   - substance: Retinoic acid
     relationship: dietary-precursor
     input: Preformed vitamin A (retinol and retinyl esters)

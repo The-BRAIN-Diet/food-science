@@ -412,7 +412,7 @@
     {
       "class": "related-substance",
       "food_id": "liver",
-      "food_title": "Liver",
+      "food_title": "Liver (beef)",
       "food_page": "/docs/foods/liver",
       "intermediate_id": "vitamin-a",
       "intermediate_label": "Vitamin A",

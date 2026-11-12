@@ -2893,12 +2893,38 @@ This supersedes earlier lesson-placement amendments above. Place each existing S
 
 For SOPs and Lifestyle Levers, a new Scientific Finding is not required when the exact intervention–outcome proposition has independent primary references in the PM bibliography, separately recorded measured effect and PM relevance, full MoA/status, typed limitations and a valid pinned intervention-specific SEC assessment. Admission remains a separate adjudication. The validator must resolve the assessment to this PM and intervention and validate its content/hash; no Finding score may be inherited. Existing Finding links, when supplied, must remain valid. An incomplete independent record fails validation; this exception does not apply to dietary-input substance admission or allow unsupported claims. Author explicitly approved this clarification during release reconciliation. No new public presentation or numerical scoring rule.
 
+### Ranked food-source projection — approved shared preview, 9 November 2026
 
-## Intervention food/substance presentation — author-approved 6 November 2026
+Stage 2B projects the publication-approved shared ranked snapshot described in `system/input-substance-food-mapping.md` for PM dietary food dropdowns and the Food Wheel. The same target uses the same selected observations, ranks, Relative Source Power and evidence qualifications in both views. Cap ten across all foods before plant/animal grouping; retain provisional 10% threshold and minimum two compatible independent sources. No new admission, quantity, form conversion or public unranked-food list follows from this projection. Source-specific and target-specific holds remain effective; canonical evidence and Stage 2A findings remain untouched. This is an author-approved preview implementation, not production authorisation.
 
-Apply [SOP/Lifestyle food–substance joins](sop-lifestyle-six-atom-presentation.md#approved-soplifestyle-foodsubstance-joins--6-november-2026). Stage 2A distinguishes documented composition, tested protocol, biological relationship and unconfirmed mediator; Stage 2B records supported canonical identities and derives the links below intervention titles. These are presentation metadata, not a seventh atom or new admission. Keep all six atoms, preparation/comparator limits and independent SEC provenance; omit unsupported food connections for patterns and behaviours. PM rendering and chord extraction consume one generated mapping, with composition/context edge types rather than inferred efficacy.
+
+### PM food-source visibility correction — author-approved, 9 November 2026
+
+Stage 2B must distinguish ranked food sources from documented qualitative occurrence. Apply the two-layer contract in `system/input-substance-food-mapping.md`: identical shared top-ten ranked observations in PMs and wheel; separately labelled, evidence-qualified documented occurrences on PMs only. The earlier prohibition on an unranked list is superseded for this bounded layer. Preserve six atoms, admission, Direct/Derived/KC/inventory distinctions, limitations, SEC and publication holds. No ordinary-food dose or clinical benefit follows from occurrence. No new dietary admission or seventh atom.
+
+
+### Shared-documentation identity extension — 9 November 2026
+Use the registered child identity/shared-page convention in system/substance-page-schema.md for approved studied preparations, defined mixtures and exact strains. Documentation parentage is independent of taxonomy and mixture composition. Registration does not admit a PM relationship or activate food/network projection; preserve network_activation=held and existing PM projection holds until source-specific formulation and publication eligibility are separately approved. No parent/child inheritance of food quantities, PM admissions, effects or SEC.
+
+
+Identity-resolution clarification, 9 November 2026: network_activation=held does not block an explicitly authored PM substance_id from resolving to its registered identity. It continues to block automated alias activation and food-source projection. Preserve canonical_identity.projection_status and independent scientific/publication holds. Approved identity-only fingerprint transitions are recorded separately in system/dietary-input-identity-reconciliations.json; the immutable historical baseline is not regenerated, and any other scientific change invalidates the transition.
+
+
+### Typed non-substance PM source identities — approved 9 November 2026
+
+An existing PM atom may carry source_identity with kind (source-class, functional-substrate-class, dietary-matrix or preparation-characteristic), pm_atom_id (full PM ID::atom ID), status=resolved and substance_applicability=not-applicable. This resolves its representation, not scientific efficacy, admission, food eligibility or conversion completion. Do not create a substance ID. Retain original input_type, evidence, limitations and projection holds.
+
+A conversion assessment may use source_atom_id instead of canonical_substance_id. Validation must receive the referenced canonical record in sourceAtoms, verify the same candidate PM atom and input label, and allow that typed identity only as the first conversion origin. Subsequent steps and the target still require canonical substance identities. Evidence, dependencies, admission and pathway-continuity gates remain unchanged; a typed functional fibre source does not complete the butyrate pathway. Report non-substance connections separately from substance/preparation/strain pairs. No conversion efficiency or downstream quantity is inferred.
+
+
+### Approved measured-but-unrankable sources — 9 November 2026
+Owner approval: CODEX EXEC — Measured-but-Unrankable Food Presentation. Reuse Documented, unranked sources for 5-MTHF, ellagic acid, inulin and resistant starch. Show original point/range, unit, denominator, preparation, citation and exclusion reason. Separate calculated-from-measurements, measured non-comparable and qualitative occurrence labels. Keep independent studies separate and retain calculation/variability/source qualifications. Verified provisional source-context mappings remain explicitly qualified, not silently upgraded. Preserve all target/source publication and protocol holds. Never recover sources excluded solely by RSP threshold or top-ten cap; rankings remain unchanged. No inferred conversions, range midpoints or downstream quantities. See review/dietary-connectivity-2026-11-09/measured-unranked/REPORT.md.
 
 
 ## Canonical scientific projections — approved 10 November 2026
 
 Apply [Canonical scientific truth and presentation consistency](canonical-scientific-projections.md), including its five scientific, automated, release and publication checkpoints. Current mission comes from PM frontmatter; explanatory prose must not strengthen the canonical science. Preserve authoritative admissions, limitations and SEC history. Report conflicts with provenance instead of selecting the newest text.
+
+## Intervention food/substance presentation — author-approved 6 November 2026
+
+Apply [SOP/Lifestyle food–substance joins](sop-lifestyle-six-atom-presentation.md#approved-soplifestyle-foodsubstance-joins--6-november-2026). Stage 2A distinguishes documented composition, tested protocol, biological relationship and unconfirmed mediator; Stage 2B records supported canonical identities and derives the links below intervention titles. These are presentation metadata, not a seventh atom or new admission. Keep all six atoms, preparation/comparator limits and independent SEC provenance; omit unsupported food connections for patterns and behaviours. PM rendering and chord extraction consume one generated mapping, with composition/context edge types rather than inferred efficacy.

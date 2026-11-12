@@ -2282,7 +2282,9 @@
           "kind": "substance",
           "title": "Vitamin B2 (Riboflavin)",
           "href": "/docs/substances/nutrients/micronutrients/vitamins/vitamin-b2",
-          "aliases": []
+          "aliases": [
+            "Vitamin B2 (riboflavin)"
+          ]
         },
         {
           "id": "vitamin-b6",
@@ -2303,7 +2305,9 @@
           "kind": "substance",
           "title": "Vitamin B9 (Folate)",
           "href": "/docs/substances/nutrients/micronutrients/vitamins/vitamin-b9",
-          "aliases": []
+          "aliases": [
+            "Vitamin B9 (folate)"
+          ]
         },
         {
           "id": "vitamin-e",
@@ -2331,7 +2335,9 @@
           "kind": "substance",
           "title": "Vitamin B12 (Cobalamin)",
           "href": "/docs/substances/nutrients/micronutrients/vitamins/vitamin-b12",
-          "aliases": []
+          "aliases": [
+            "Vitamin B12 (cobalamin)"
+          ]
         },
         {
           "id": "vitamin-b1",
@@ -3007,6 +3013,59 @@
           ]
         },
         {
+          "id": "bifidobacterium-longum",
+          "kind": "substance",
+          "title": "Bifidobacterium longum",
+          "href": "/docs/substances/bifidobacterium-longum",
+          "aliases": []
+        },
+        {
+          "id": "lacticaseibacillus-rhamnosus",
+          "kind": "substance",
+          "title": "Lacticaseibacillus rhamnosus",
+          "href": "/docs/substances/lacticaseibacillus-rhamnosus",
+          "aliases": [
+            "Lactobacillus rhamnosus"
+          ]
+        },
+        {
+          "id": "resistant-starch-type-2-zhang-2020",
+          "kind": "substance",
+          "title": "Type 2 resistant starch (tested aged-mouse exposure)",
+          "href": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch#rs2-zhang-2020",
+          "aliases": []
+        },
+        {
+          "id": "apple-pectin-sinha-2024",
+          "kind": "substance",
+          "title": "Apple pectin (studied preparation)",
+          "href": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin#apple-pectin-sinha-2024",
+          "aliases": []
+        },
+        {
+          "id": "oligofructose-enriched-inulin-schroeder-2018",
+          "kind": "substance",
+          "title": "Oligofructose-enriched inulin",
+          "href": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/inulin#oligofructose-enriched-inulin-schroeder-2018",
+          "aliases": []
+        },
+        {
+          "id": "bifidobacterium-longum-ncc2705",
+          "kind": "substance",
+          "title": "Bifidobacterium longum NCC2705",
+          "href": "/docs/substances/bifidobacterium-longum#ncc2705",
+          "aliases": []
+        },
+        {
+          "id": "lacticaseibacillus-rhamnosus-jb-1",
+          "kind": "substance",
+          "title": "Lacticaseibacillus rhamnosus JB-1",
+          "href": "/docs/substances/lacticaseibacillus-rhamnosus#jb-1",
+          "aliases": [
+            "Lactobacillus rhamnosus JB-1"
+          ]
+        },
+        {
           "id": "algal-oil",
           "kind": "food",
           "title": "Algal Oil",
@@ -3632,7 +3691,7 @@
         {
           "id": "liver",
           "kind": "food",
-          "title": "Liver",
+          "title": "Liver (beef)",
           "href": "/docs/foods/liver",
           "aliases": []
         },
@@ -3646,7 +3705,7 @@
         {
           "id": "lupin-beans",
           "kind": "food",
-          "title": "Lupin Beans",
+          "title": "Lupin Beans — canonical alias",
           "href": "/docs/foods/lupin-beans",
           "aliases": []
         },
@@ -3655,7 +3714,9 @@
           "kind": "food",
           "title": "Lupins",
           "href": "/docs/foods/lupins",
-          "aliases": []
+          "aliases": [
+            "lupin-beans"
+          ]
         },
         {
           "id": "mackerel",
@@ -4031,7 +4092,7 @@
         {
           "id": "soy",
           "kind": "food",
-          "title": "Soy",
+          "title": "Mature soybeans",
           "href": "/docs/foods/soy",
           "aliases": []
         },
@@ -4500,6 +4561,26 @@
         },
         {
           "food_id": "anchovies",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/anchovies.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Fish, anchovy, european, canned in oil, drained solids",
+              "source_url": "https://fdc.nal.usda.gov/food-details/174183/nutrients",
+              "description": "USDA reports 975 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1837794, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Fish, anchovy, european, canned in oil, drained solids. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "anchovies",
           "substance_id": "calcium",
           "provenance": {
             "file": "docs/foods/anchovies.md",
@@ -4574,6 +4655,24 @@
               "evidence_material": "Fish, anchovy, european, canned in oil, drained solids",
               "source_url": "https://fdc.nal.usda.gov/food-details/174183/nutrients",
               "presence_status": "presence_and_amount_supported"
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "apples",
+          "substance_id": "pectin",
+          "provenance": {
+            "file": "docs/foods/apples.md",
+            "relationship": {
+              "substance": "Pectin",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "supported-qualitative",
+              "evidence_source": "Liu et al. (2023), pectin isolated from thirteen apple cultivars.",
+              "source_url": "https://doi.org/10.1016/j.ijbiomac.2023.125410",
+              "source_reference": "/docs/papers/BRAIN-Diet-References#liu_apple_pectin_2023",
+              "material_limitations": "Cultivar, plant part and extraction method affect the isolated fractions. No edible-food concentration is established; total fibre is not pectin quantity. Not equivalent to citrus pectin or a studied isolated apple-pectin protocol."
             }
           },
           "kind": "documented-composition"
@@ -4956,6 +5055,26 @@
         },
         {
           "food_id": "beef",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/beef.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171796/nutrients",
+              "description": "USDA reports 572 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1641439, nutrient 1218; Analytical data; derived by linear regression. Data points: 0. Exact database food: Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program). Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "beef",
           "substance_id": "phosphorus",
           "provenance": {
             "file": "docs/foods/beef.md",
@@ -5172,6 +5291,7 @@
             "relationship": {
               "substance": "Glutamine",
               "substance_id": "glutamine",
+              "requires_supplementary_key": "glutamine_lenders",
               "relationship": "contains",
               "evidence_status": "supported",
               "evidence_material": "Beef protein fractions",
@@ -5180,7 +5300,7 @@
               "citation_keys": [
                 "lenders_amino_acid_sequencing_2009"
               ],
-              "evidence_source": "Lenders et al. (2009), Table 1: protein-sequence-based occurrence.",
+              "evidence_source": "Lenders et al. (2009), Table 2: food-specific protein-sequence model.",
               "material_limitations": "Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.",
               "food_delivery_notes": "Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.",
               "chemical_form": "protein-bound glutamine residues"
@@ -6247,6 +6367,7 @@
             "file": "docs/foods/broccoli.md",
             "relationship": {
               "substance": "Sulforaphane",
+              "preparation_state": "Sous vide at 100 °C for 20 minutes, with and without 1 g brown mustard powder",
               "relationship": "contains",
               "description": "Sulforaphane forms from glucoraphanin when myrosinase is active. In one cooked-broccoli study the amount depended on preparation, and it is not entered as a per-100 g nutrient.",
               "recovery_origin": "legacy-tag-migration",
@@ -6317,6 +6438,26 @@
               "evidence_material": "Buckwheat",
               "source_url": "https://fdc.nal.usda.gov/food-details/170286/nutrients",
               "presence_status": "presence_and_amount_supported"
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "butter",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/butter.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Butter, without salt",
+              "source_url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+              "description": "USDA reports 41 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1778452, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Butter, without salt. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
             }
           },
           "kind": "documented-composition"
@@ -7261,6 +7402,26 @@
         },
         {
           "food_id": "chicken",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/chicken.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Chicken, broilers or fryers, meat and skin, raw",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171447/nutrients",
+              "description": "USDA reports 597 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1610588, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Chicken, broilers or fryers, meat and skin, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "chicken",
           "substance_id": "methionine",
           "provenance": {
             "file": "docs/foods/chicken.md",
@@ -7846,6 +8007,26 @@
         },
         {
           "food_id": "clams",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/clams.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Mollusks, clam, mixed species, raw",
+              "source_url": "https://fdc.nal.usda.gov/food-details/174214/nutrients",
+              "description": "USDA reports 597 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1840857, nutrient 1218; Analytical. Data points: 0. Exact database food: Mollusks, clam, mixed species, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "clams",
           "substance_id": "iron",
           "provenance": {
             "file": "docs/foods/clams.md",
@@ -8131,6 +8312,26 @@
               "evidence_material": "cocoa beans and cocoa products",
               "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
               "source_reference": "#food-source-7"
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "cod",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/cod.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Fish, cod, Atlantic, raw",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171955/nutrients",
+              "description": "USDA reports 601 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1653419, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Fish, cod, Atlantic, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
             }
           },
           "kind": "documented-composition"
@@ -8712,6 +8913,26 @@
         },
         {
           "food_id": "egg-yolks",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/egg-yolks.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Egg, yolk, raw, fresh",
+              "source_url": "https://fdc.nal.usda.gov/food-details/172184/nutrients",
+              "description": "USDA reports 678 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1674750, nutrient 1218; Analytical. Data points: 0. Exact database food: Egg, yolk, raw, fresh. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "egg-yolks",
           "substance_id": "choline",
           "provenance": {
             "file": "docs/foods/egg-yolks.md",
@@ -8853,6 +9074,26 @@
               "source_url": "https://www.kinkiagri.or.jp/CropFFF/vegetables/Pdf/zeaxanthin1.pdf",
               "presence_status": "presence_supported_amount_unavailable",
               "source_reference": "#food-source-6"
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "eggs",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/eggs.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Egg, whole, raw, fresh",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+              "description": "USDA reports 499 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1597643, nutrient 1218; Analytical. Data points: 0. Exact database food: Egg, whole, raw, fresh. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
             }
           },
           "kind": "documented-composition"
@@ -9003,6 +9244,7 @@
             "relationship": {
               "substance": "Glutamine",
               "substance_id": "glutamine",
+              "requires_supplementary_key": "glutamine_lenders",
               "relationship": "contains",
               "evidence_status": "supported",
               "evidence_material": "Whole egg protein fractions",
@@ -9011,7 +9253,7 @@
               "citation_keys": [
                 "lenders_amino_acid_sequencing_2009"
               ],
-              "evidence_source": "Lenders et al. (2009), Table 1: protein-sequence-based occurrence.",
+              "evidence_source": "Lenders et al. (2009), Table 2: food-specific protein-sequence model.",
               "material_limitations": "Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.",
               "food_delivery_notes": "Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.",
               "chemical_form": "protein-bound glutamine residues"
@@ -9327,6 +9569,26 @@
               "evidence_material": "fresh garlic after crushing or chopping",
               "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12150274/",
               "source_reference": "#food-source-3"
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "ghee",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/ghee.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Butter oil, anhydrous",
+              "source_url": "https://fdc.nal.usda.gov/food-details/173412/nutrients",
+              "description": "USDA reports 14 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1776683, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Butter oil, anhydrous. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
             }
           },
           "kind": "documented-composition"
@@ -9784,6 +10046,26 @@
         },
         {
           "food_id": "herring",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/herring.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Fish, herring, Atlantic, raw",
+              "source_url": "https://fdc.nal.usda.gov/food-details/175116/nutrients",
+              "description": "USDA reports 606 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1913685, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Fish, herring, Atlantic, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "herring",
           "substance_id": "vitamin-d",
           "provenance": {
             "file": "docs/foods/herring.md",
@@ -10124,6 +10406,26 @@
         },
         {
           "food_id": "lamb",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/lamb.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Lamb, ground, raw",
+              "source_url": "https://fdc.nal.usda.gov/food-details/174370/nutrients",
+              "description": "USDA reports 556 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1852565, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Lamb, ground, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "lamb",
           "substance_id": "iron",
           "provenance": {
             "file": "docs/foods/lamb.md",
@@ -10400,6 +10702,26 @@
         },
         {
           "food_id": "liver",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/liver.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Beef, variety meats and by-products, liver, raw",
+              "source_url": "https://fdc.nal.usda.gov/food-details/169451/nutrients",
+              "description": "USDA reports 807 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1443230, nutrient 1218; Analytical. Data points: 1. Exact database food: Beef, variety meats and by-products, liver, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "liver",
           "substance_id": "choline",
           "provenance": {
             "file": "docs/foods/liver.md",
@@ -10546,10 +10868,10 @@
           "kind": "documented-composition"
         },
         {
-          "food_id": "lupin-beans",
+          "food_id": "lupins",
           "substance_id": "arginine",
           "provenance": {
-            "file": "docs/foods/lupin-beans.md",
+            "file": "docs/foods/lupins.md",
             "relationship": {
               "substance": "Arginine",
               "relationship": "contains",
@@ -10566,10 +10888,10 @@
           "kind": "documented-composition"
         },
         {
-          "food_id": "lupin-beans",
+          "food_id": "lupins",
           "substance_id": "magnesium",
           "provenance": {
-            "file": "docs/foods/lupin-beans.md",
+            "file": "docs/foods/lupins.md",
             "relationship": {
               "substance": "Magnesium",
               "relationship": "contains",
@@ -10586,10 +10908,10 @@
           "kind": "documented-composition"
         },
         {
-          "food_id": "lupin-beans",
+          "food_id": "lupins",
           "substance_id": "iron",
           "provenance": {
-            "file": "docs/foods/lupin-beans.md",
+            "file": "docs/foods/lupins.md",
             "relationship": {
               "substance": "Iron",
               "relationship": "contains",
@@ -10606,10 +10928,10 @@
           "kind": "documented-composition"
         },
         {
-          "food_id": "lupin-beans",
+          "food_id": "lupins",
           "substance_id": "zinc",
           "provenance": {
-            "file": "docs/foods/lupin-beans.md",
+            "file": "docs/foods/lupins.md",
             "relationship": {
               "substance": "Zinc",
               "relationship": "contains",
@@ -10621,6 +10943,26 @@
               "evidence_material": "Lupins, mature seeds, raw",
               "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
               "presence_status": "presence_and_amount_supported"
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "mackerel",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/mackerel.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Fish, mackerel, Atlantic, raw",
+              "source_url": "https://fdc.nal.usda.gov/food-details/175119/nutrients",
+              "description": "USDA reports 628 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1913993, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Fish, mackerel, Atlantic, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
             }
           },
           "kind": "documented-composition"
@@ -10791,6 +11133,26 @@
               "description": "Identified in a studied commercial C8/C10 MCT oil; content depends on the formulation and a separate amount is unavailable.",
               "previous_review_reason": "Fatty-acid C6/C8/C10 fractions do not identify the named homogeneous triacylglycerol molecule. Molecular-species or relevant product evidence is required.",
               "source_reference": "#food-source-4"
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "milk",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/milk.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171265/nutrients",
+              "description": "USDA reports 159 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1595699, nutrient 1218; Analytical. Data points: 0. Exact database food: Milk, whole, 3.25% milkfat, with added vitamin D. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
             }
           },
           "kind": "documented-composition"
@@ -11188,6 +11550,26 @@
               "evidence_material": "Mushrooms, white, raw",
               "source_url": "https://fdc.nal.usda.gov/food-details/169251/nutrients",
               "presence_status": "presence_and_amount_supported"
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "mussels",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/mussels.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Mollusks, mussel, blue, raw",
+              "source_url": "https://fdc.nal.usda.gov/food-details/174216/nutrients",
+              "description": "USDA reports 381 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1841056, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Mollusks, mussel, blue, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
             }
           },
           "kind": "documented-composition"
@@ -11848,6 +12230,26 @@
               "evidence_material": "mushroom fruiting bodies",
               "source_url": "https://prod-media.megazyme.com/media/pdf/25/07/d6/screening-of-beta-glucan-contents-in-commercially-cultivated-and-wild-sari-et-al-2017.pdf",
               "source_reference": "#food-source-2"
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "oysters",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/oysters.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Mollusks, oyster, eastern, wild, raw",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171978/nutrients",
+              "description": "USDA reports 202 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1655303, nutrient 1218; Recipe; Approximate ingredient proportions (ex. combination of several recipes). Data points: 0. Exact database food: Mollusks, oyster, eastern, wild, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
             }
           },
           "kind": "documented-composition"
@@ -12515,6 +12917,26 @@
               "evidence_material": "pomegranate juice",
               "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8304681/",
               "source_reference": "#food-source-3"
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "pork",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/pork.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Pork, fresh, loin, whole, separable lean and fat, raw",
+              "source_url": "https://fdc.nal.usda.gov/food-details/167818/nutrients",
+              "description": "USDA reports 676 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1307064, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Pork, fresh, loin, whole, separable lean and fat, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
             }
           },
           "kind": "documented-composition"
@@ -13531,6 +13953,26 @@
         },
         {
           "food_id": "salmon",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/salmon.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Fish, salmon, Atlantic, farmed, raw",
+              "source_url": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
+              "description": "USDA reports 759 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1918101, nutrient 1218; Analytical. Data points: 0. Exact database food: Fish, salmon, Atlantic, farmed, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "salmon",
           "substance_id": "methionine",
           "provenance": {
             "file": "docs/foods/salmon.md",
@@ -13606,6 +14048,26 @@
               "evidence_material": "salmon fillet",
               "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11952918/",
               "source_reference": "#food-source-3"
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "sardines",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/sardines.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+              "source_url": "https://fdc.nal.usda.gov/food-details/175139/nutrients",
+              "description": "USDA reports 831 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1915842, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Fish, sardine, Atlantic, canned in oil, drained solids with bone. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
             }
           },
           "kind": "documented-composition"
@@ -13750,6 +14212,26 @@
               "evidence_material": "fermented cabbage",
               "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3941825/",
               "source_reference": "#food-source-3"
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "scallops",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/scallops.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Mollusks, scallop, mixed species, raw",
+              "source_url": "https://fdc.nal.usda.gov/food-details/174220/nutrients",
+              "description": "USDA reports 296 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1841346, nutrient 1218; Analytical. Data points: 0. Exact database food: Mollusks, scallop, mixed species, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
             }
           },
           "kind": "documented-composition"
@@ -14065,6 +14547,26 @@
               "evidence_material": "mushroom fruiting bodies",
               "source_url": "https://prod-media.megazyme.com/media/pdf/25/07/d6/screening-of-beta-glucan-contents-in-commercially-cultivated-and-wild-sari-et-al-2017.pdf",
               "source_reference": "#food-source-3"
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "shrimp",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/shrimp.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture)",
+              "source_url": "https://fdc.nal.usda.gov/food-details/174210/nutrients",
+              "description": "USDA reports 515 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1840479, nutrient 1218; Analytical. Data points: 0. Exact database food: Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture). Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
             }
           },
           "kind": "documented-composition"
@@ -15906,6 +16408,7 @@
             "relationship": {
               "substance": "Glutamine",
               "substance_id": "glutamine",
+              "requires_supplementary_key": "glutamine_lenders",
               "relationship": "contains",
               "evidence_status": "supported",
               "evidence_material": "Soy protein in tofu",
@@ -15914,7 +16417,7 @@
               "citation_keys": [
                 "lenders_amino_acid_sequencing_2009"
               ],
-              "evidence_source": "Lenders et al. (2009), Table 1: protein-sequence-based occurrence.",
+              "evidence_source": "Lenders et al. (2009), Table 2: food-specific protein-sequence model.",
               "material_limitations": "Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.",
               "food_delivery_notes": "Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.",
               "chemical_form": "protein-bound glutamine residues"
@@ -16049,6 +16552,26 @@
         },
         {
           "food_id": "tuna",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/tuna.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Fish, tuna, fresh, bluefin, raw",
+              "source_url": "https://fdc.nal.usda.gov/food-details/173706/nutrients",
+              "description": "USDA reports 787 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1800018, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Fish, tuna, fresh, bluefin, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "tuna",
           "substance_id": "methionine",
           "provenance": {
             "file": "docs/foods/tuna.md",
@@ -16166,6 +16689,26 @@
               "evidence_material": "Trametes versicolor fruiting bodies",
               "source_url": "https://prod-media.megazyme.com/media/pdf/25/07/d6/screening-of-beta-glucan-contents-in-commercially-cultivated-and-wild-sari-et-al-2017.pdf",
               "source_reference": "#food-source-3"
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "turkey",
+          "substance_id": "tyrosine",
+          "provenance": {
+            "file": "docs/foods/turkey.md",
+            "relationship": {
+              "substance": "Tyrosine",
+              "substance_id": "tyrosine",
+              "relationship": "contains",
+              "evidence_status": "supported",
+              "presence_status": "presence_and_amount_supported",
+              "evidence_source": "USDA SR Legacy April 2018",
+              "evidence_material": "Turkey, whole, meat only, raw",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171480/nutrients",
+              "description": "USDA reports 672 mg tyrosine per 100 g edible portion of the specified food.",
+              "material_limitations": "USDA SR Legacy (April 2018), food-nutrient row 1613333, nutrient 1218; Based on physical composition; Derived from analytical data; Known physical composition. Data points: 0. Exact database food: Turkey, whole, meat only, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
             }
           },
           "kind": "documented-composition"
@@ -18355,16 +18898,16 @@
             "food": {
               "id": "liver",
               "kind": "food",
-              "title": "Liver",
+              "title": "Liver (beef)",
               "href": "/docs/foods/liver",
               "aliases": []
             }
           },
           {
-            "food_id": "lupin-beans",
+            "food_id": "lupins",
             "substance_id": "iron",
             "provenance": {
-              "file": "docs/foods/lupin-beans.md",
+              "file": "docs/foods/lupins.md",
               "relationship": {
                 "substance": "Iron",
                 "relationship": "contains",
@@ -18380,11 +18923,13 @@
             },
             "kind": "documented-composition",
             "food": {
-              "id": "lupin-beans",
+              "id": "lupins",
               "kind": "food",
-              "title": "Lupin Beans",
-              "href": "/docs/foods/lupin-beans",
-              "aliases": []
+              "title": "Lupins",
+              "href": "/docs/foods/lupins",
+              "aliases": [
+                "lupin-beans"
+              ]
             }
           },
           {
@@ -18684,7 +19229,7 @@
             "food": {
               "id": "soy",
               "kind": "food",
-              "title": "Soy",
+              "title": "Mature soybeans",
               "href": "/docs/foods/soy",
               "aliases": []
             }
@@ -20598,16 +21143,16 @@
             "food": {
               "id": "liver",
               "kind": "food",
-              "title": "Liver",
+              "title": "Liver (beef)",
               "href": "/docs/foods/liver",
               "aliases": []
             }
           },
           {
-            "food_id": "lupin-beans",
+            "food_id": "lupins",
             "substance_id": "iron",
             "provenance": {
-              "file": "docs/foods/lupin-beans.md",
+              "file": "docs/foods/lupins.md",
               "relationship": {
                 "substance": "Iron",
                 "relationship": "contains",
@@ -20623,11 +21168,13 @@
             },
             "kind": "documented-composition",
             "food": {
-              "id": "lupin-beans",
+              "id": "lupins",
               "kind": "food",
-              "title": "Lupin Beans",
-              "href": "/docs/foods/lupin-beans",
-              "aliases": []
+              "title": "Lupins",
+              "href": "/docs/foods/lupins",
+              "aliases": [
+                "lupin-beans"
+              ]
             }
           },
           {
@@ -20927,7 +21474,7 @@
             "food": {
               "id": "soy",
               "kind": "food",
-              "title": "Soy",
+              "title": "Mature soybeans",
               "href": "/docs/foods/soy",
               "aliases": []
             }
@@ -22049,16 +22596,16 @@
             "food": {
               "id": "liver",
               "kind": "food",
-              "title": "Liver",
+              "title": "Liver (beef)",
               "href": "/docs/foods/liver",
               "aliases": []
             }
           },
           {
-            "food_id": "lupin-beans",
+            "food_id": "lupins",
             "substance_id": "iron",
             "provenance": {
-              "file": "docs/foods/lupin-beans.md",
+              "file": "docs/foods/lupins.md",
               "relationship": {
                 "substance": "Iron",
                 "relationship": "contains",
@@ -22074,11 +22621,13 @@
             },
             "kind": "documented-composition",
             "food": {
-              "id": "lupin-beans",
+              "id": "lupins",
               "kind": "food",
-              "title": "Lupin Beans",
-              "href": "/docs/foods/lupin-beans",
-              "aliases": []
+              "title": "Lupins",
+              "href": "/docs/foods/lupins",
+              "aliases": [
+                "lupin-beans"
+              ]
             }
           },
           {
@@ -22378,7 +22927,7 @@
             "food": {
               "id": "soy",
               "kind": "food",
-              "title": "Soy",
+              "title": "Mature soybeans",
               "href": "/docs/foods/soy",
               "aliases": []
             }
@@ -23458,16 +24007,16 @@
             "food": {
               "id": "liver",
               "kind": "food",
-              "title": "Liver",
+              "title": "Liver (beef)",
               "href": "/docs/foods/liver",
               "aliases": []
             }
           },
           {
-            "food_id": "lupin-beans",
+            "food_id": "lupins",
             "substance_id": "iron",
             "provenance": {
-              "file": "docs/foods/lupin-beans.md",
+              "file": "docs/foods/lupins.md",
               "relationship": {
                 "substance": "Iron",
                 "relationship": "contains",
@@ -23483,11 +24032,13 @@
             },
             "kind": "documented-composition",
             "food": {
-              "id": "lupin-beans",
+              "id": "lupins",
               "kind": "food",
-              "title": "Lupin Beans",
-              "href": "/docs/foods/lupin-beans",
-              "aliases": []
+              "title": "Lupins",
+              "href": "/docs/foods/lupins",
+              "aliases": [
+                "lupin-beans"
+              ]
             }
           },
           {
@@ -23787,7 +24338,7 @@
             "food": {
               "id": "soy",
               "kind": "food",
-              "title": "Soy",
+              "title": "Mature soybeans",
               "href": "/docs/foods/soy",
               "aliases": []
             }
@@ -24190,7 +24741,7 @@
             "food": {
               "id": "liver",
               "kind": "food",
-              "title": "Liver",
+              "title": "Liver (beef)",
               "href": "/docs/foods/liver",
               "aliases": []
             }
@@ -24300,7 +24851,7 @@
             "food": {
               "id": "soy",
               "kind": "food",
-              "title": "Soy",
+              "title": "Mature soybeans",
               "href": "/docs/foods/soy",
               "aliases": []
             }
@@ -24948,7 +25499,9 @@
             "kind": "substance",
             "title": "Vitamin B9 (Folate)",
             "href": "/docs/substances/nutrients/micronutrients/vitamins/vitamin-b9",
-            "aliases": [],
+            "aliases": [
+              "Vitamin B9 (folate)"
+            ],
             "source": "substance_ids",
             "role": "Named intervention identity; see the tested protocol and comparator"
           }
@@ -25428,7 +25981,7 @@
             "food": {
               "id": "liver",
               "kind": "food",
-              "title": "Liver",
+              "title": "Liver (beef)",
               "href": "/docs/foods/liver",
               "aliases": []
             }
@@ -25699,7 +26252,7 @@
             "food": {
               "id": "soy",
               "kind": "food",
-              "title": "Soy",
+              "title": "Mature soybeans",
               "href": "/docs/foods/soy",
               "aliases": []
             }
@@ -25827,7 +26380,9 @@
             "kind": "substance",
             "title": "Vitamin B12 (Cobalamin)",
             "href": "/docs/substances/nutrients/micronutrients/vitamins/vitamin-b12",
-            "aliases": [],
+            "aliases": [
+              "Vitamin B12 (cobalamin)"
+            ],
             "source": "substance_ids",
             "role": "Named intervention identity; see the tested protocol and comparator"
           }
@@ -26127,7 +26682,7 @@
             "food": {
               "id": "liver",
               "kind": "food",
-              "title": "Liver",
+              "title": "Liver (beef)",
               "href": "/docs/foods/liver",
               "aliases": []
             }
@@ -27912,7 +28467,7 @@
             "food": {
               "id": "liver",
               "kind": "food",
-              "title": "Liver",
+              "title": "Liver (beef)",
               "href": "/docs/foods/liver",
               "aliases": []
             }
@@ -28090,7 +28645,7 @@
             "food": {
               "id": "liver",
               "kind": "food",
-              "title": "Liver",
+              "title": "Liver (beef)",
               "href": "/docs/foods/liver",
               "aliases": []
             }
@@ -28439,6 +28994,7 @@
               "relationship": {
                 "substance": "Glutamine",
                 "substance_id": "glutamine",
+                "requires_supplementary_key": "glutamine_lenders",
                 "relationship": "contains",
                 "evidence_status": "supported",
                 "evidence_material": "Beef protein fractions",
@@ -28447,7 +29003,7 @@
                 "citation_keys": [
                   "lenders_amino_acid_sequencing_2009"
                 ],
-                "evidence_source": "Lenders et al. (2009), Table 1: protein-sequence-based occurrence.",
+                "evidence_source": "Lenders et al. (2009), Table 2: food-specific protein-sequence model.",
                 "material_limitations": "Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.",
                 "food_delivery_notes": "Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.",
                 "chemical_form": "protein-bound glutamine residues"
@@ -28470,6 +29026,7 @@
               "relationship": {
                 "substance": "Glutamine",
                 "substance_id": "glutamine",
+                "requires_supplementary_key": "glutamine_lenders",
                 "relationship": "contains",
                 "evidence_status": "supported",
                 "evidence_material": "Whole egg protein fractions",
@@ -28478,7 +29035,7 @@
                 "citation_keys": [
                   "lenders_amino_acid_sequencing_2009"
                 ],
-                "evidence_source": "Lenders et al. (2009), Table 1: protein-sequence-based occurrence.",
+                "evidence_source": "Lenders et al. (2009), Table 2: food-specific protein-sequence model.",
                 "material_limitations": "Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.",
                 "food_delivery_notes": "Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.",
                 "chemical_form": "protein-bound glutamine residues"
@@ -28501,6 +29058,7 @@
               "relationship": {
                 "substance": "Glutamine",
                 "substance_id": "glutamine",
+                "requires_supplementary_key": "glutamine_lenders",
                 "relationship": "contains",
                 "evidence_status": "supported",
                 "evidence_material": "Soy protein in tofu",
@@ -28509,7 +29067,7 @@
                 "citation_keys": [
                   "lenders_amino_acid_sequencing_2009"
                 ],
-                "evidence_source": "Lenders et al. (2009), Table 1: protein-sequence-based occurrence.",
+                "evidence_source": "Lenders et al. (2009), Table 2: food-specific protein-sequence model.",
                 "material_limitations": "Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.",
                 "food_delivery_notes": "Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.",
                 "chemical_form": "protein-bound glutamine residues"
@@ -29315,10 +29873,10 @@
         "composition": [],
         "sources": [
           {
-            "food_id": "lupin-beans",
+            "food_id": "lupins",
             "substance_id": "arginine",
             "provenance": {
-              "file": "docs/foods/lupin-beans.md",
+              "file": "docs/foods/lupins.md",
               "relationship": {
                 "substance": "Arginine",
                 "relationship": "contains",
@@ -29334,11 +29892,13 @@
             },
             "kind": "documented-composition",
             "food": {
-              "id": "lupin-beans",
+              "id": "lupins",
               "kind": "food",
-              "title": "Lupin Beans",
-              "href": "/docs/foods/lupin-beans",
-              "aliases": []
+              "title": "Lupins",
+              "href": "/docs/foods/lupins",
+              "aliases": [
+                "lupin-beans"
+              ]
             }
           },
           {
@@ -31582,6 +32142,7 @@
           "relationship": {
             "substance": "Glutamine",
             "substance_id": "glutamine",
+            "requires_supplementary_key": "glutamine_lenders",
             "relationship": "contains",
             "evidence_status": "supported",
             "evidence_material": "Beef protein fractions",
@@ -31590,7 +32151,7 @@
             "citation_keys": [
               "lenders_amino_acid_sequencing_2009"
             ],
-            "evidence_source": "Lenders et al. (2009), Table 1: protein-sequence-based occurrence.",
+            "evidence_source": "Lenders et al. (2009), Table 2: food-specific protein-sequence model.",
             "material_limitations": "Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.",
             "food_delivery_notes": "Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.",
             "chemical_form": "protein-bound glutamine residues"
@@ -31607,6 +32168,7 @@
           "relationship": {
             "substance": "Glutamine",
             "substance_id": "glutamine",
+            "requires_supplementary_key": "glutamine_lenders",
             "relationship": "contains",
             "evidence_status": "supported",
             "evidence_material": "Whole egg protein fractions",
@@ -31615,7 +32177,7 @@
             "citation_keys": [
               "lenders_amino_acid_sequencing_2009"
             ],
-            "evidence_source": "Lenders et al. (2009), Table 1: protein-sequence-based occurrence.",
+            "evidence_source": "Lenders et al. (2009), Table 2: food-specific protein-sequence model.",
             "material_limitations": "Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.",
             "food_delivery_notes": "Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.",
             "chemical_form": "protein-bound glutamine residues"
@@ -31632,6 +32194,7 @@
           "relationship": {
             "substance": "Glutamine",
             "substance_id": "glutamine",
+            "requires_supplementary_key": "glutamine_lenders",
             "relationship": "contains",
             "evidence_status": "supported",
             "evidence_material": "Soy protein in tofu",
@@ -31640,7 +32203,7 @@
             "citation_keys": [
               "lenders_amino_acid_sequencing_2009"
             ],
-            "evidence_source": "Lenders et al. (2009), Table 1: protein-sequence-based occurrence.",
+            "evidence_source": "Lenders et al. (2009), Table 2: food-specific protein-sequence model.",
             "material_limitations": "Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.",
             "food_delivery_notes": "Protein-bound residues; no free-amino-acid dose or hydrolysed Glx amount inferred.",
             "chemical_form": "protein-bound glutamine residues"

@@ -82,9 +82,8 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Lemon | 4 | pectin; vitamin-a; magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5; BRS5-FM3-PM7 | BRS5(KC1) |
 | Lentils | 3 | zinc; vitamin-a; magnesium; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Lion's Mane Mushroom | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Liver | 3 | vitamin-a; zinc; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
-| Lupin Beans | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
-| Lupins | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
+| Liver (beef) | 3 | vitamin-a; zinc; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Lupins | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Mackerel | 3 | vitamin-a; linoleic-acid; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Maitake Mushroom | 2 | linoleic-acid; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Milk | 3 | magnesium; zinc; pyridoxal-5-phosphate; vitamin-a; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
@@ -131,7 +130,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Shrimp | 3 | zinc; vitamin-a; magnesium; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Sourdough Bread | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
 | Soy Lecithin | 1 | linoleic-acid | BRS5-FM3-PM7 |  |
-| Soy | 4 | tryptophan; vitamin-a; magnesium; linoleic-acid; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7; BRS5-FM3-PM8 |  |
+| Mature soybeans | 4 | tryptophan; vitamin-a; magnesium; linoleic-acid; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7; BRS5-FM3-PM8 |  |
 | Spelt | 2 | zinc; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Spinach | 3 | magnesium; zinc; vitamin-a; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Spirulina | 3 | zinc; linoleic-acid; magnesium; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |

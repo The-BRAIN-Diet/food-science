@@ -30,3 +30,20 @@ Owner instruction: “Delete Unauthorised Dietary Pathway Disclosure.” Remove 
 ## Canonical scientific projections — approved 10 November 2026
 
 Apply [Canonical scientific truth and presentation consistency](canonical-scientific-projections.md), including its five scientific, automated, release and publication checkpoints. Current mission comes from PM frontmatter; explanatory prose must not strengthen the canonical science. Preserve authoritative admissions, limitations and SEC history. Report conflicts with provenance instead of selecting the newest text.
+
+## Author-reviewed local release candidate — 11 November 2026
+
+Author instruction: “Yes, approve all four presentation changes as reviewed” with the NutritionTable proviso. Approval is presentation only.
+
+- NutritionTable: in the existing summary, highlight vitamins and minerals meeting 10% RI. For complete records (currently pears), a collapsed **Full vitamins and minerals** disclosure includes all public quantified panel observations, including small positives and those without an RI. Keep preparation, basis, sources and measurement status. Repeated highlight amounts in the full table are the same observations, not new evidence. Example: pear copper remains quantified even below the highlight threshold.
+- SubstanceFoods: below direct sources on the FOS/GOS substance page, show constituent food pathways, not foods containing the combined preparation. Example: garlic supplies documented fructans, not the tested mixture.
+- Mature soybeans: retain /soy/, with boiled unsalted beans as default, raw beans and defatted flour in separately labelled panels. No transfer of flour or raw concentrations to cooked beans.
+- Acetic acid: retain qualified food and trial context, cider vinegar presence only and vinegar-pickle brine only; no pickle concentration, isolated-acid effect or new admission.
+
+No ranking, food-composition, scientific-admission or release authorisation is conferred.
+
+## PM food-source dropdown repair — 11 November 2026
+
+Author instruction: restore `Plant-based -` and `Animal-based -`, then “we don't need this unranked heading, remove it from the template.” The shared dropdown does not prefix categories with `Ranked sources ·` and does not render `Documented, unranked sources`. The category column grid applies only to a summary that contains the category label, so an empty ranked row stays on the available line. Representative page: BRS1-FM5-PM12. No ranking, food-record or admission change.
+
+Author instruction, 12 November 2026: `edible portion` is not a public basis label, and `Measurement provenance` is not shown on any PM. Preparations such as `cooked` stay. Stored analytical bases are unchanged.

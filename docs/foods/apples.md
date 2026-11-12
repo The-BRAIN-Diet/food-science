@@ -74,6 +74,10 @@ nutrition_supplementary_sources:
     evidence_status: supported
     source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
   - key: pectin_qual
+    evidence_status: supported
+    presence_status: supported-qualitative
+    source_url: https://doi.org/10.1016/j.ijbiomac.2023.125410
+    source_reference: /docs/papers/BRAIN-Diet-References#liu_apple_pectin_2023
     label: Pectin
     status: Present — quantity not established
     amount_display: Present — quantity not established
@@ -93,6 +97,14 @@ nutrition_supplementary_sources:
       Liu et al. 2023 supports this qualitative constituent record. See
       technical provenance for food form and measurement details.
 substance_relationships:
+  - substance: Pectin
+    relationship: contains
+    evidence_status: supported
+    presence_status: supported-qualitative
+    evidence_source: Liu et al. (2023), pectin isolated from thirteen apple cultivars.
+    source_url: https://doi.org/10.1016/j.ijbiomac.2023.125410
+    source_reference: /docs/papers/BRAIN-Diet-References#liu_apple_pectin_2023
+    material_limitations: Cultivar, plant part and extraction method affect the isolated fractions. No edible-food concentration is established; total fibre is not pectin quantity. Not equivalent to citrus pectin or a studied isolated apple-pectin protocol.
   - substance: Vitamin C
     relationship: contains
     description: >-

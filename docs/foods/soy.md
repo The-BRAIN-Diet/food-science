@@ -2,8 +2,8 @@
 id: soy
 fcir_cases:
   - FCIR-007
-title: Soy
-sidebar_label: Soy
+title: Mature soybeans
+sidebar_label: Mature soybeans
 description: Complete plant protein with isoflavones (genistein) and choline
 tags:
   - Food
@@ -20,6 +20,73 @@ tags:
   - Quercetin
   - Spermidine
 list_image: /img/foods/soy/soy_thumb.webp
+composition_forms:
+  cooked:
+    nutrition_source:
+      database: USDA FoodData Central
+      food_name: "Soybeans, mature cooked, boiled, without salt"
+      fdc_id: 174271
+      basis: per 100 g edible portion
+    nutrition_per_100g:
+      kcal: 172
+      protein_g: 18.21
+      fat_g: 8.97
+      carbs_g: 8.36
+      fibre_g: 6
+      sugar_g: 3
+      calcium_mg: 102
+      iron_mg: 5.14
+      magnesium_mg: 86
+      phosphorus_mg: 245
+      potassium_mg: 515
+      sodium_mg: 1
+      zinc_mg: 1.15
+      copper_mg: 0.407
+      manganese_mg: 0.824
+      selenium_ug: 7.3
+      vitamin_c_mg: 1.7
+      vitamin_b1_mg: 0.155
+      vitamin_b2_mg: 0.285
+      vitamin_b3_mg: 0.399
+      vitamin_b5_mg: 0.179
+      vitamin_b6_mg: 0.234
+      folate_ug: 54
+      choline_mg: 47.5
+      vitamin_a_rae_ug: 0
+      beta_carotene_ug: 5
+      vitamin_e_mg: 0.35
+      vitamin_k_ug: 19.2
+      sat_fat_g: 1.297
+      tryptophan_g: 0.242
+      tyrosine_g: 0.63
+  defatted_flour:
+    nutrition_source:
+      database: USDA FoodData Central
+      food_name: "Flour, soy, defatted"
+      fdc_id: 1104705
+      basis: per 100 g edible portion
+    nutrition_per_100g:
+      kcal: 366
+      protein_g: 51.1
+      fat_g: 3.33
+      carbs_g: 32.9
+      fibre_g: 24.3
+      calcium_mg: 338
+      iron_mg: 7.34
+      magnesium_mg: 313
+      phosphorus_mg: 726
+      potassium_mg: 2480
+      sodium_mg: 2
+      zinc_mg: 4.44
+      copper_mg: 1.51
+      manganese_mg: 3.81
+      selenium_ug: 45.8
+      vitamin_b1_mg: 0.542
+      vitamin_b2_mg: 0.298
+      vitamin_b3_mg: 3.43
+      vitamin_b6_mg: 0.618
+      tryptophan_g: 0.616
+      tyrosine_g: 1.74
 nutrition_per_100g:
   vitamin_k_ug: 47
   vitamin_a_rae_ug: 1
@@ -249,16 +316,15 @@ substance_review_candidates: []
 ---
 ## Overview
 
-Soy provides **complete plant protein**, **isoflavones** (especially genistein), and **choline**, supporting neurotransmitter synthesis and membrane phospholipid pathways. Defatted soy flour and soy protein concentrates score highly on protein-quality metrics, though methionine remains relatively limiting and grain pairing improves amino-acid balance.
+Mature soybeans provide plant protein, choline and isoflavones. The main table describes whole beans boiled without salt. The two additional panels describe raw mature beans and defatted soy flour. Each reports composition per 100 g of that preparation.
 
-Within the BRAIN Diet framework, soy is a core plant-protein anchor for vegan and plant-forward patterns. Genistein and related isoflavones are studied for metabolic and neuroinflammatory modulation [1], while soy's protein density supports essential amino-acid intake within legume–grain complementary pairings [2].
+[Edamame](/docs/foods/edamame/) is harvested immature. [Tofu](/docs/foods/tofu/) and [tempeh](/docs/foods/tempeh/) have their own composition records.
 
 ## Key Nutritional Highlights
 
 - **Genistein** and related soy isoflavones are studied for neuroinflammatory and metabolic pathways [1].
 - High **plant-protein** density with favourable digestibility for a legume; pair with grains for methionine balance [2].
 - Provides **choline**, tryptophan, tyrosine, and B vitamins relevant to neurotransmitter synthesis.
-- Fermented forms (tempeh, miso, natto) add fermentation-derived benefits beyond raw soy ingredients.
 
 ## Food Context
 
@@ -275,13 +341,33 @@ Within the BRAIN Diet framework, soy is a core plant-protein anchor for vegan an
 
 ### Essential Amino Acid Profile
 
-Soy provide a relatively complete plant protein (higher in lysine than most grains). Pairing with grains or other legumes still supports dietary variety and amino acid balance.
+Mature soybeans provide a relatively complete plant protein (higher in lysine than most grains). Pairing with grains or other legumes still supports dietary variety and amino acid balance.
 
 ## Recipes
 
 <FoodRecipes tag="Soy" />
 
+### Mature soybeans, boiled without salt
+
+The default serving-form panel uses [USDA FDC 174271](https://fdc.nal.usda.gov/food-details/174271/nutrients). USDA reports 0.598 g of total 18:3 per 100 g without specifying its isomer.
+
+<NutritionTable details={frontMatter.composition_forms.cooked} />
+
+<details>
+<summary>Mature soybeans, raw — source for ranked soybean observations</summary>
+
 <NutritionTable details={frontMatter} />
+
+</details>
+
+<details>
+<summary>Defatted soy flour — separate composition record</summary>
+
+[Nutrient values for defatted soy flour](https://fdc.nal.usda.gov/food-details/1104705/nutrients) apply to the flour. USDA reports alanine at 2.86 g/100 g. This record provides no alpha-linolenic acid value.
+
+<NutritionTable details={frontMatter.composition_forms.defatted_flour} />
+
+</details>
 
 ## Substances
 

@@ -366,7 +366,7 @@ export function renderRelatedFoodSources(rows) {
       const amount = row.contained_amount?.display
         ? ` ${escapeHtml(row.intermediate_label)} ${escapeHtml(row.contained_amount.display)}`
         : ""
-      return `<li data-related-source="true" data-quantity="none" data-related-quantity="none" title="${escapeHtml(title)}"><a href="${escapeHtml(row.food_page)}">${escapeHtml(row.food_title)}</a> — via ${escapeHtml(via)}${preparation}${amount}</li>`
+      return `<li data-related-source="true" data-quantity="none" data-related-quantity="none" title="${escapeHtml(title)}"><a href="${escapeHtml(row.food_page)}">${escapeHtml(row.food_title)}</a> — via ${escapeHtml(via)} · ${escapeHtml(row.relationship_label)}${preparation}${amount}<details><summary>Pathway qualifications</summary><p>${escapeHtml(title)}</p></details></li>`
     })
     .join("")
   return `<details class="pm-input-food-sources" data-food-source-kind="related"><summary><span class="pm-input-food-source-arrow" aria-hidden="true">▶</span>Related Foods</summary><p>Indirect sources. These foods are not recorded as containing the input, and they are not ranked by amount.</p><ul>${items}</ul></details>`

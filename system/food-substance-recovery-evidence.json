@@ -5271,7 +5271,7 @@
       ]
     },
     {
-      "food": "lupin-beans",
+      "food": "lupins",
       "title": "Lupin Beans",
       "substance": "Arginine",
       "tag": "Arginine",
@@ -5293,7 +5293,8 @@
       },
       "prior_restored_display": true,
       "quantified_public": false,
-      "presence_status": "presence_supported_amount_unavailable"
+      "presence_status": "presence_supported_amount_unavailable",
+      "legacy_food_id": "lupin-beans"
     },
     {
       "food": "watermelon",
@@ -8603,7 +8604,7 @@
       "presence_status": "presence_and_amount_supported"
     },
     {
-      "food": "lupin-beans",
+      "food": "lupins",
       "title": "Lupin Beans",
       "substance": "Magnesium",
       "tag": "Magnesium",
@@ -8625,7 +8626,8 @@
       },
       "prior_restored_display": true,
       "quantified_public": true,
-      "presence_status": "presence_and_amount_supported"
+      "presence_status": "presence_and_amount_supported",
+      "legacy_food_id": "lupin-beans"
     },
     {
       "food": "milk",
@@ -11184,7 +11186,7 @@
       "presence_status": "presence_and_amount_supported"
     },
     {
-      "food": "lupin-beans",
+      "food": "lupins",
       "title": "Lupin Beans",
       "substance": "Iron",
       "tag": "Iron",
@@ -11206,7 +11208,8 @@
       },
       "prior_restored_display": true,
       "quantified_public": true,
-      "presence_status": "presence_and_amount_supported"
+      "presence_status": "presence_and_amount_supported",
+      "legacy_food_id": "lupin-beans"
     },
     {
       "food": "mankai",
@@ -13161,7 +13164,7 @@
       "presence_status": "presence_and_amount_supported"
     },
     {
-      "food": "lupin-beans",
+      "food": "lupins",
       "title": "Lupin Beans",
       "substance": "Zinc",
       "tag": "Zinc",
@@ -13183,7 +13186,8 @@
       },
       "prior_restored_display": true,
       "quantified_public": true,
-      "presence_status": "presence_and_amount_supported"
+      "presence_status": "presence_and_amount_supported",
+      "legacy_food_id": "lupin-beans"
     },
     {
       "food": "milk",

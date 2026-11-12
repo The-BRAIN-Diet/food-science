@@ -410,7 +410,7 @@
           "vercellino_respiratory_chain_2022"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -880,7 +880,7 @@
           "vercellino_respiratory_chain_2022"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -1036,7 +1036,7 @@
           "vercellino_respiratory_chain_2022"
         ]
       },
-      "preparation": null,
+      "preparation": "frozen",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -1373,7 +1373,7 @@
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "liver",
-      "food_title": "Liver",
+      "food_title": "Liver (beef)",
       "food_material": "Beef, variety meats and by-products, liver, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -1424,8 +1424,8 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "lupin-beans",
-      "food_title": "Lupin Beans",
+      "food_target": "lupins",
+      "food_title": "Lupins",
       "food_material": "Lupins, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -1434,7 +1434,7 @@
       "mapping_status": "verified",
       "food_evidence": [
         {
-          "record": "docs/foods/lupin-beans.md#substance_relationships/Iron",
+          "record": "docs/foods/lupins.md#substance_relationships/Iron",
           "evidence": "USDA SR Legacy April 2018",
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
@@ -1868,7 +1868,7 @@
           "vercellino_respiratory_chain_2022"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -1997,7 +1997,7 @@
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "soy",
-      "food_title": "Soy",
+      "food_title": "Mature soybeans",
       "food_material": "Soybeans, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -2528,11 +2528,11 @@
       "canonical_substance_id": "vitamin-b2",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "almonds",
       "food_title": "Almonds",
       "food_material": "Nuts, almonds",
@@ -2563,7 +2563,21 @@
       },
       "preparation": null,
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b2",
+          "to": "flavin-mononucleotide",
+          "process": "Riboflavin supplies the precursor for FMN used by complex I.",
+          "dependencies": [],
+          "limitations": "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context. The sources are reviews of enzyme structure and function, not human feeding trials. Flavin mononucleotide (FMN) abundance has not been shown to limit complex I in ordinary conditions. Endogenous ubiquinone synthesis is not separated here from dietary coenzyme Q10. Copper and iron centres are not evidence that supplements raise chain activity.",
+          "evidence": {
+            "statement": "Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH electrons in complex I.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context."
       ],
@@ -2580,11 +2594,11 @@
       "canonical_substance_id": "vitamin-b2",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "beef",
       "food_title": "Beef",
       "food_material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
@@ -2615,7 +2629,21 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b2",
+          "to": "flavin-mononucleotide",
+          "process": "Riboflavin supplies the precursor for FMN used by complex I.",
+          "dependencies": [],
+          "limitations": "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context. The sources are reviews of enzyme structure and function, not human feeding trials. Flavin mononucleotide (FMN) abundance has not been shown to limit complex I in ordinary conditions. Endogenous ubiquinone synthesis is not separated here from dietary coenzyme Q10. Copper and iron centres are not evidence that supplements raise chain activity.",
+          "evidence": {
+            "statement": "Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH electrons in complex I.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context."
       ],
@@ -2632,11 +2660,11 @@
       "canonical_substance_id": "vitamin-b2",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "broccoli",
       "food_title": "Broccoli",
       "food_material": "Broccoli, raw",
@@ -2667,7 +2695,21 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b2",
+          "to": "flavin-mononucleotide",
+          "process": "Riboflavin supplies the precursor for FMN used by complex I.",
+          "dependencies": [],
+          "limitations": "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context. The sources are reviews of enzyme structure and function, not human feeding trials. Flavin mononucleotide (FMN) abundance has not been shown to limit complex I in ordinary conditions. Endogenous ubiquinone synthesis is not separated here from dietary coenzyme Q10. Copper and iron centres are not evidence that supplements raise chain activity.",
+          "evidence": {
+            "statement": "Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH electrons in complex I.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context."
       ],
@@ -2684,11 +2726,11 @@
       "canonical_substance_id": "vitamin-b2",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "chicken-liver",
       "food_title": "Chicken Liver",
       "food_material": "Chicken, liver, all classes, raw",
@@ -2721,7 +2763,21 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b2",
+          "to": "flavin-mononucleotide",
+          "process": "Riboflavin supplies the precursor for FMN used by complex I.",
+          "dependencies": [],
+          "limitations": "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context. The sources are reviews of enzyme structure and function, not human feeding trials. Flavin mononucleotide (FMN) abundance has not been shown to limit complex I in ordinary conditions. Endogenous ubiquinone synthesis is not separated here from dietary coenzyme Q10. Copper and iron centres are not evidence that supplements raise chain activity.",
+          "evidence": {
+            "statement": "Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH electrons in complex I.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context."
       ],
@@ -2738,11 +2794,11 @@
       "canonical_substance_id": "vitamin-b2",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "kale",
       "food_title": "Kale",
       "food_material": "Kale, raw",
@@ -2773,7 +2829,21 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b2",
+          "to": "flavin-mononucleotide",
+          "process": "Riboflavin supplies the precursor for FMN used by complex I.",
+          "dependencies": [],
+          "limitations": "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context. The sources are reviews of enzyme structure and function, not human feeding trials. Flavin mononucleotide (FMN) abundance has not been shown to limit complex I in ordinary conditions. Endogenous ubiquinone synthesis is not separated here from dietary coenzyme Q10. Copper and iron centres are not evidence that supplements raise chain activity.",
+          "evidence": {
+            "statement": "Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH electrons in complex I.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context."
       ],
@@ -2790,11 +2860,11 @@
       "canonical_substance_id": "vitamin-b2",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "milk",
       "food_title": "Milk",
       "food_material": "Milk, whole, 3.25% milkfat, with added vitamin D",
@@ -2825,7 +2895,21 @@
       },
       "preparation": null,
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b2",
+          "to": "flavin-mononucleotide",
+          "process": "Riboflavin supplies the precursor for FMN used by complex I.",
+          "dependencies": [],
+          "limitations": "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context. The sources are reviews of enzyme structure and function, not human feeding trials. Flavin mononucleotide (FMN) abundance has not been shown to limit complex I in ordinary conditions. Endogenous ubiquinone synthesis is not separated here from dietary coenzyme Q10. Copper and iron centres are not evidence that supplements raise chain activity.",
+          "evidence": {
+            "statement": "Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH electrons in complex I.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context."
       ],
@@ -2842,11 +2926,11 @@
       "canonical_substance_id": "vitamin-b2",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "nori",
       "food_title": "Nori",
       "food_material": "Purple laver (Porphyra spp.), dried, toasted",
@@ -2877,7 +2961,21 @@
       },
       "preparation": "dried",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b2",
+          "to": "flavin-mononucleotide",
+          "process": "Riboflavin supplies the precursor for FMN used by complex I.",
+          "dependencies": [],
+          "limitations": "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context. The sources are reviews of enzyme structure and function, not human feeding trials. Flavin mononucleotide (FMN) abundance has not been shown to limit complex I in ordinary conditions. Endogenous ubiquinone synthesis is not separated here from dietary coenzyme Q10. Copper and iron centres are not evidence that supplements raise chain activity.",
+          "evidence": {
+            "statement": "Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH electrons in complex I.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context."
       ],
@@ -2894,11 +2992,11 @@
       "canonical_substance_id": "vitamin-b2",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "nutritional-yeast",
       "food_title": "Nutritional Yeast",
       "food_material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
@@ -2929,7 +3027,21 @@
       },
       "preparation": "dried",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b2",
+          "to": "flavin-mononucleotide",
+          "process": "Riboflavin supplies the precursor for FMN used by complex I.",
+          "dependencies": [],
+          "limitations": "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context. The sources are reviews of enzyme structure and function, not human feeding trials. Flavin mononucleotide (FMN) abundance has not been shown to limit complex I in ordinary conditions. Endogenous ubiquinone synthesis is not separated here from dietary coenzyme Q10. Copper and iron centres are not evidence that supplements raise chain activity.",
+          "evidence": {
+            "statement": "Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH electrons in complex I.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context."
       ],
@@ -2946,11 +3058,11 @@
       "canonical_substance_id": "vitamin-b2",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "quinoa",
       "food_title": "Quinoa",
       "food_material": "Quinoa, uncooked",
@@ -2981,7 +3093,21 @@
       },
       "preparation": "uncooked",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b2",
+          "to": "flavin-mononucleotide",
+          "process": "Riboflavin supplies the precursor for FMN used by complex I.",
+          "dependencies": [],
+          "limitations": "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context. The sources are reviews of enzyme structure and function, not human feeding trials. Flavin mononucleotide (FMN) abundance has not been shown to limit complex I in ordinary conditions. Endogenous ubiquinone synthesis is not separated here from dietary coenzyme Q10. Copper and iron centres are not evidence that supplements raise chain activity.",
+          "evidence": {
+            "statement": "Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH electrons in complex I.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context."
       ],
@@ -2998,11 +3124,11 @@
       "canonical_substance_id": "vitamin-b2",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "salmon-roe",
       "food_title": "Salmon Roe",
       "food_material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
@@ -3031,9 +3157,23 @@
           "curtabbi_complex_i_fmn_2022"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b2",
+          "to": "flavin-mononucleotide",
+          "process": "Riboflavin supplies the precursor for FMN used by complex I.",
+          "dependencies": [],
+          "limitations": "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context. The sources are reviews of enzyme structure and function, not human feeding trials. Flavin mononucleotide (FMN) abundance has not been shown to limit complex I in ordinary conditions. Endogenous ubiquinone synthesis is not separated here from dietary coenzyme Q10. Copper and iron centres are not evidence that supplements raise chain activity.",
+          "evidence": {
+            "statement": "Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH electrons in complex I.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context."
       ],
@@ -3050,11 +3190,11 @@
       "canonical_substance_id": "vitamin-b2",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "spinach",
       "food_title": "Spinach",
       "food_material": "Spinach, raw",
@@ -3085,7 +3225,21 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b2",
+          "to": "flavin-mononucleotide",
+          "process": "Riboflavin supplies the precursor for FMN used by complex I.",
+          "dependencies": [],
+          "limitations": "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context. The sources are reviews of enzyme structure and function, not human feeding trials. Flavin mononucleotide (FMN) abundance has not been shown to limit complex I in ordinary conditions. Endogenous ubiquinone synthesis is not separated here from dietary coenzyme Q10. Copper and iron centres are not evidence that supplements raise chain activity.",
+          "evidence": {
+            "statement": "Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH electrons in complex I.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context."
       ],
@@ -3551,7 +3705,7 @@
           "vercellino_respiratory_chain_2022"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -3939,6 +4093,216 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
+      "food_target": "anchovies",
+      "food_title": "Anchovies",
+      "food_material": "Fish, anchovy, european, canned in oil, drained solids",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/anchovies.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174183/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1837794, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Fish, anchovy, european, canned in oil, drained solids. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": "canned",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "beef",
+      "food_title": "Beef",
+      "food_material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/beef.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171796/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1641439, nutrient 1218; Analytical data; derived by linear regression. Data points: 0. Exact database food: Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program). Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "butter",
+      "food_title": "Butter",
+      "food_material": "Butter, without salt",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/butter.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1778452, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Butter, without salt. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": null,
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
       "food_target": "cheddar-cheese",
       "food_title": "Cheddar Cheese",
       "food_material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
@@ -3968,6 +4332,916 @@
         ]
       },
       "preparation": null,
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "chicken",
+      "food_title": "Chicken",
+      "food_material": "Chicken, broilers or fryers, meat and skin, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chicken.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171447/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1610588, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Chicken, broilers or fryers, meat and skin, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "clams",
+      "food_title": "Clams",
+      "food_material": "Mollusks, clam, mixed species, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/clams.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174214/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1840857, nutrient 1218; Analytical. Data points: 0. Exact database food: Mollusks, clam, mixed species, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "cod",
+      "food_title": "Cod",
+      "food_material": "Fish, cod, Atlantic, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/cod.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171955/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1653419, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Fish, cod, Atlantic, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "egg-yolks",
+      "food_title": "Egg Yolks",
+      "food_material": "Egg, yolk, raw, fresh",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/egg-yolks.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/172184/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1674750, nutrient 1218; Analytical. Data points: 0. Exact database food: Egg, yolk, raw, fresh. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "eggs",
+      "food_title": "Eggs",
+      "food_material": "Egg, whole, raw, fresh",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/eggs.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1597643, nutrient 1218; Analytical. Data points: 0. Exact database food: Egg, whole, raw, fresh. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "ghee",
+      "food_title": "Ghee",
+      "food_material": "Butter oil, anhydrous",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/ghee.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/173412/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1776683, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Butter oil, anhydrous. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": "oil",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "herring",
+      "food_title": "Herring",
+      "food_material": "Fish, herring, Atlantic, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/herring.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/175116/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1913685, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Fish, herring, Atlantic, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "lamb",
+      "food_title": "Lamb",
+      "food_material": "Lamb, ground, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/lamb.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174370/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1852565, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Lamb, ground, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "liver",
+      "food_title": "Liver (beef)",
+      "food_material": "Beef, variety meats and by-products, liver, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/liver.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/169451/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1443230, nutrient 1218; Analytical. Data points: 1. Exact database food: Beef, variety meats and by-products, liver, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "mackerel",
+      "food_title": "Mackerel",
+      "food_material": "Fish, mackerel, Atlantic, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/mackerel.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/175119/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1913993, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Fish, mackerel, Atlantic, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "milk",
+      "food_title": "Milk",
+      "food_material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/milk.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171265/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1595699, nutrient 1218; Analytical. Data points: 0. Exact database food: Milk, whole, 3.25% milkfat, with added vitamin D. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": null,
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "mussels",
+      "food_title": "Mussels",
+      "food_material": "Mollusks, mussel, blue, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/mussels.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174216/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1841056, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Mollusks, mussel, blue, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "oysters",
+      "food_title": "Oysters",
+      "food_material": "Mollusks, oyster, eastern, wild, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/oysters.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171978/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1655303, nutrient 1218; Recipe; Approximate ingredient proportions (ex. combination of several recipes). Data points: 0. Exact database food: Mollusks, oyster, eastern, wild, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": "raw",
       "delivery": "precursor-source",
       "conversion_pathway": [
         {
@@ -4079,6 +5353,76 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
+      "food_target": "pork",
+      "food_title": "Pork",
+      "food_material": "Pork, fresh, loin, whole, separable lean and fat, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/pork.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/167818/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1307064, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Pork, fresh, loin, whole, separable lean and fat, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
       "food_target": "pumpkin-seeds",
       "food_title": "Pumpkin Seeds",
       "food_material": "Seeds, pumpkin and squash seed kernels, dried",
@@ -4149,8 +5493,288 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
+      "food_target": "salmon",
+      "food_title": "Salmon",
+      "food_material": "Fish, salmon, Atlantic, farmed, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/salmon.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1918101, nutrient 1218; Analytical. Data points: 0. Exact database food: Fish, salmon, Atlantic, farmed, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "sardines",
+      "food_title": "Sardines",
+      "food_material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/sardines.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/175139/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1915842, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Fish, sardine, Atlantic, canned in oil, drained solids with bone. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": "canned",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "scallops",
+      "food_title": "Scallops",
+      "food_material": "Mollusks, scallop, mixed species, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/scallops.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174220/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1841346, nutrient 1218; Analytical. Data points: 0. Exact database food: Mollusks, scallop, mixed species, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "shrimp",
+      "food_title": "Shrimp",
+      "food_material": "Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/shrimp.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174210/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1840479, nutrient 1218; Analytical. Data points: 0. Exact database food: Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture). Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
       "food_target": "soy",
-      "food_title": "Soy",
+      "food_title": "Mature soybeans",
       "food_material": "Soybeans, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -4307,6 +5931,146 @@
           "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "USDA FoodData Central reports tyrosine in Tofu, raw, firm, prepared with calcium sulfate."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "tuna",
+      "food_title": "Tuna",
+      "food_material": "Fish, tuna, fresh, bluefin, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/tuna.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/173706/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1800018, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Fish, tuna, fresh, bluefin, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F1"
+        ],
+        "citation_keys": [
+          "banh_coq_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "to": "coq10",
+          "process": "Tyrosine-derived headgroup carbon enters CoQ10 through 4-HPP, HPDL-associated 4-HMA and 4-HB formation followed by prenylation and COQ maturation; this is a net precursor relationship, not an assertion that all intervening human enzymes are assigned.",
+          "dependencies": [
+            "Functional headgroup and COQ machinery",
+            "Mevalonate-derived isoprenoid tail",
+            "Tissue substrate access"
+          ],
+          "limitations": "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned.",
+          "evidence": {
+            "statement": "Human-cell isotope tracing and genetic rescue support net tyrosine contribution; no dietary conversion yield is assumed.",
+            "sources": [
+              "https://doi.org/10.1038/s41586-021-03865-w"
+            ]
+          },
+          "from": "tyrosine"
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established. Endogenous phenylalanine conversion is an alternative source; the full human intervening enzyme sequence remains incompletely assigned."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Tyrosine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "tyrosine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "turkey",
+      "food_title": "Turkey",
+      "food_material": "Turkey, whole, meat only, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/turkey.md#substance_relationships/Tyrosine",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171480/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy (April 2018), food-nutrient row 1613333, nutrient 1218; Based on physical composition; Derived from analytical data; Known physical composition. Data points: 0. Exact database food: Turkey, whole, meat only, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
         }
       ],
       "pm_evidence": {
@@ -4603,7 +6367,7 @@
           "nicoll_coq_2024"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "precursor-source",
       "conversion_pathway": [
         {
@@ -5532,7 +7296,7 @@
           "nicoll_coq_2024"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "precursor-source",
       "conversion_pathway": [
         {
@@ -6070,7 +7834,7 @@
           "wang_coq7_2022"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -6540,7 +8304,7 @@
           "wang_coq7_2022"
         ]
       },
-      "preparation": null,
+      "preparation": "dry powder",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -6696,7 +8460,7 @@
           "wang_coq7_2022"
         ]
       },
-      "preparation": null,
+      "preparation": "frozen",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -7033,7 +8797,7 @@
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
       "food_target": "liver",
-      "food_title": "Liver",
+      "food_title": "Liver (beef)",
       "food_material": "Beef, variety meats and by-products, liver, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -7084,8 +8848,8 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
-      "food_target": "lupin-beans",
-      "food_title": "Lupin Beans",
+      "food_target": "lupins",
+      "food_title": "Lupins",
       "food_material": "Lupins, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -7094,7 +8858,7 @@
       "mapping_status": "verified",
       "food_evidence": [
         {
-          "record": "docs/foods/lupin-beans.md#substance_relationships/Iron",
+          "record": "docs/foods/lupins.md#substance_relationships/Iron",
           "evidence": "USDA SR Legacy April 2018",
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
@@ -7528,7 +9292,7 @@
           "wang_coq7_2022"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -7657,7 +9421,7 @@
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
       "food_target": "soy",
-      "food_title": "Soy",
+      "food_title": "Mature soybeans",
       "food_material": "Soybeans, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -8334,11 +10098,11 @@
       "canonical_substance_id": "tryptophan",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "pumpkin-seeds",
       "food_title": "Pumpkin Seeds",
       "food_material": "Seeds, pumpkin and squash seed kernels, dried",
@@ -8369,7 +10133,21 @@
       },
       "preparation": "dried",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "tryptophan",
+          "to": "nicotinamide",
+          "process": "Multistep hepatic kynurenine/de-novo NAD metabolism and subsequent nicotinamide availability for salvage; not a direct one-step tryptophan-to-nicotinamide reaction.",
+          "dependencies": [],
+          "limitations": "Most cells outside the liver do not run the full route. The review does not establish what share of the NAD⁺ pool comes from tryptophan, and eating more protein is not shown to raise NAD⁺. This is a review of pathways, not a human feeding trial. It does not measure how much an ordinary meal changes NAD⁺, and it does not test attention or cognitive energy. Nicotinamide riboside and nicotinamide mononucleotide, as supplement doses, are outside this dietary assessment.",
+          "evidence": {
+            "statement": "The liver can convert tryptophan to nicotinamide, which other cells salvage into NAD⁺.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#covarrubias_nad_2021"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "Most cells outside the liver do not run the full route. The review does not establish what share of the NAD⁺ pool comes from tryptophan, and eating more protein is not shown to raise NAD⁺."
       ],
@@ -8386,13 +10164,13 @@
       "canonical_substance_id": "tryptophan",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "soy",
-      "food_title": "Soy",
+      "food_title": "Mature soybeans",
       "food_material": "Soybeans, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -8421,7 +10199,21 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "tryptophan",
+          "to": "nicotinamide",
+          "process": "Multistep hepatic kynurenine/de-novo NAD metabolism and subsequent nicotinamide availability for salvage; not a direct one-step tryptophan-to-nicotinamide reaction.",
+          "dependencies": [],
+          "limitations": "Most cells outside the liver do not run the full route. The review does not establish what share of the NAD⁺ pool comes from tryptophan, and eating more protein is not shown to raise NAD⁺. This is a review of pathways, not a human feeding trial. It does not measure how much an ordinary meal changes NAD⁺, and it does not test attention or cognitive energy. Nicotinamide riboside and nicotinamide mononucleotide, as supplement doses, are outside this dietary assessment.",
+          "evidence": {
+            "statement": "The liver can convert tryptophan to nicotinamide, which other cells salvage into NAD⁺.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#covarrubias_nad_2021"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "Most cells outside the liver do not run the full route. The review does not establish what share of the NAD⁺ pool comes from tryptophan, and eating more protein is not shown to raise NAD⁺."
       ],
@@ -8438,11 +10230,11 @@
       "canonical_substance_id": "tryptophan",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "turkey",
       "food_title": "Turkey",
       "food_material": "Turkey, whole, meat only, raw",
@@ -8473,7 +10265,21 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "tryptophan",
+          "to": "nicotinamide",
+          "process": "Multistep hepatic kynurenine/de-novo NAD metabolism and subsequent nicotinamide availability for salvage; not a direct one-step tryptophan-to-nicotinamide reaction.",
+          "dependencies": [],
+          "limitations": "Most cells outside the liver do not run the full route. The review does not establish what share of the NAD⁺ pool comes from tryptophan, and eating more protein is not shown to raise NAD⁺. This is a review of pathways, not a human feeding trial. It does not measure how much an ordinary meal changes NAD⁺, and it does not test attention or cognitive energy. Nicotinamide riboside and nicotinamide mononucleotide, as supplement doses, are outside this dietary assessment.",
+          "evidence": {
+            "statement": "The liver can convert tryptophan to nicotinamide, which other cells salvage into NAD⁺.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#covarrubias_nad_2021"
+            ]
+          }
+        }
+      ],
       "limitations": [
         "Most cells outside the liver do not run the full route. The review does not establish what share of the NAD⁺ pool comes from tryptophan, and eating more protein is not shown to raise NAD⁺."
       ],
@@ -8697,7 +10503,7 @@
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "liver",
-      "food_title": "Liver",
+      "food_title": "Liver (beef)",
       "food_material": "the named meat or fish tissue",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -8923,8 +10729,8 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
-      "food_target": "lupin-beans",
-      "food_title": "Lupin Beans",
+      "food_target": "lupins",
+      "food_title": "Lupins",
       "food_material": "Lupins, mature seeds, raw",
       "material_equivalence_status": null,
       "material_equivalence_reason": null,
@@ -8933,7 +10739,7 @@
       "mapping_status": "verified",
       "food_evidence": [
         {
-          "record": "docs/foods/lupin-beans.md#substance_relationships/Arginine",
+          "record": "docs/foods/lupins.md#substance_relationships/Arginine",
           "evidence": "USDA SR Legacy April 2018",
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
@@ -9101,19 +10907,84 @@
       "ontology_connections": {
         "identity": "resolved",
         "conversion": "supported",
-        "food": "unresolved"
+        "food": "supported"
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
-      "food_target": null,
-      "food_title": null,
-      "food_material": null,
-      "material_equivalence_status": null,
+      "food_target": "almonds",
+      "food_title": "Almonds",
+      "food_material": "Nuts, almonds",
+      "material_equivalence_status": "not-applicable",
       "material_equivalence_reason": null,
-      "ontology_relationship_status": null,
+      "ontology_relationship_status": "missing-context-edge",
       "reconciled_sources": [],
-      "mapping_status": "unresolved",
-      "food_evidence": null,
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "key": "glycine_usda_review01_170567",
+          "label": "Glycine",
+          "substance_id": "glycine",
+          "value": 1.429,
+          "unit": "g",
+          "basis": "per 100 g edible portion",
+          "original_source_basis": "per 100 g edible portion",
+          "evidence_material": "Nuts, almonds",
+          "preparation_state": "Nuts, almonds",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
+          "source_group": "USDA SR Legacy April 2018; source-specific database value",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "material_limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "verified": true,
+          "evidence_status": "supported",
+          "rank_eligible": true,
+          "comparison_group": "edible::source-specific",
+          "composition_review_status": "author-approved-review-01",
+          "fdc_id": 170567,
+          "food_nutrient_id": 1533853,
+          "source_derivation_id": "A",
+          "source_data_points": 0,
+          "range": null,
+          "material": "Nuts, almonds",
+          "preparation": "Nuts, almonds",
+          "record": "docs/foods/almonds.md#nutrition_supplementary_sources/glycine_usda_review01_170567",
+          "source_record": "docs/foods/almonds.md#nutrition_supplementary_sources/glycine_usda_review01_170567",
+          "nutrition_value_reviews": [],
+          "limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "id": "docs/foods/almonds.md#nutrition_supplementary_sources/glycine_usda_review01_170567",
+          "low": 1429,
+          "high": 1429,
+          "display": "1.429 g"
+        },
+        {
+          "key": "glycine_usda_review01_170567",
+          "label": "Glycine",
+          "substance_id": "glycine",
+          "value": 1.429,
+          "unit": "g",
+          "basis": "per 100 g edible portion",
+          "original_source_basis": "per 100 g edible portion",
+          "evidence_material": "Nuts, almonds",
+          "preparation_state": "Nuts, almonds",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
+          "source_group": "USDA SR Legacy April 2018; source-specific database value",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "material_limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "verified": true,
+          "evidence_status": "supported",
+          "rank_eligible": true,
+          "comparison_group": "edible::source-specific",
+          "composition_review_status": "author-approved-review-01",
+          "fdc_id": 170567,
+          "food_nutrient_id": 1533853,
+          "source_derivation_id": "A",
+          "source_data_points": 0,
+          "record": "docs/foods/almonds.md#nutrition_supplementary_sources/glycine_usda_review01_170567",
+          "evidence": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "source_reference": null,
+          "presence_status": "qualitative",
+          "limitations": null
+        }
+      ],
       "pm_evidence": {
         "finding_ids": [
           "PM3-F1"
@@ -9123,8 +10994,8 @@
           "edison_renal_guanidinoacetate_2007"
         ]
       },
-      "preparation": null,
-      "delivery": null,
+      "preparation": "Nuts, almonds",
+      "delivery": "precursor-source",
       "conversion_pathway": [
         {
           "from": "glycine",
@@ -9167,7 +11038,903 @@
       "limitations": [
         "Capacity of the endogenous synthesis route is distinct from a claim that extra amino-acid intake raises cerebral creatine, phosphocreatine buffering or cognition. AGAT feedback, GAMT methyl supply, organ exchange and SLC6A8-mediated tissue transport constrain delivery. Human renal GAA production is not a measurement of brain synthesis flux; rat arginine infusion and glycine null responses are not oral human efficacy experiments."
       ],
-      "missing_ontology_edge": null
+      "missing_ontology_edge": "almonds → glycine [Nuts, almonds; Nuts, almonds]"
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM3",
+      "biological_mechanism": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
+      "dietary_input": "Glycine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "glycine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "beef",
+      "food_title": "Beef",
+      "food_material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "key": "glycine_usda_review01_171796",
+          "label": "Glycine",
+          "substance_id": "glycine",
+          "value": 1.262,
+          "unit": "g",
+          "basis": "per 100 g edible portion",
+          "original_source_basis": "per 100 g edible portion",
+          "evidence_material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+          "preparation_state": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171796/nutrients",
+          "source_group": "USDA SR Legacy April 2018; source-specific database value",
+          "source_note": "Analytical data; derived by linear regression data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation AR: Analytical data; derived by linear regression Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "material_limitations": "Analytical data; derived by linear regression data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation AR: Analytical data; derived by linear regression Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "verified": true,
+          "evidence_status": "supported",
+          "rank_eligible": true,
+          "comparison_group": "edible::source-specific",
+          "composition_review_status": "author-approved-review-01",
+          "fdc_id": 171796,
+          "food_nutrient_id": 1641442,
+          "source_derivation_id": "AR",
+          "source_data_points": 0,
+          "range": null,
+          "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+          "preparation": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+          "record": "docs/foods/beef.md#nutrition_supplementary_sources/glycine_usda_review01_171796",
+          "source_record": "docs/foods/beef.md#nutrition_supplementary_sources/glycine_usda_review01_171796",
+          "nutrition_value_reviews": [
+            {
+              "title": "Creatine amount: citation attachment pending",
+              "substance_id": "creatine",
+              "section": "Bioactive compounds",
+              "correction_status": "pending",
+              "description": "Retained researched estimate: 400 mg per 100 g. Original note: Approximate creatine content per 100 g cooked beef based on dietary creatine source summaries and compositional surveys (raw beef muscle ~390–445 mg/100 g, with modest cooking losses; see Avgerinos et al. 2018 and creatine dietary sources reviews).\n",
+              "decision": "Retain the estimate while attaching its quantitative source and verifying preparation and denominator. Presence citations do not independently verify this amount."
+            },
+            {
+              "title": "CoQ10 amount: preparation and citation check pending",
+              "substance_id": "coq10",
+              "section": "Bioactive compounds",
+              "correction_status": "pending",
+              "description": "Retained original beef-muscle estimate of 2.5 mg per 100 g. The cited food-composition research supports beef occurrence, while the exact estimate and applicability to ground beef require verification.",
+              "decision": "Retain as an estimate in one CoQ10 row; do not duplicate the compound or treat this as a preparation-specific assay."
+            }
+          ],
+          "limitations": "Analytical data; derived by linear regression data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation AR: Analytical data; derived by linear regression Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "id": "docs/foods/beef.md#nutrition_supplementary_sources/glycine_usda_review01_171796",
+          "low": 1262,
+          "high": 1262,
+          "display": "1.262 g"
+        },
+        {
+          "key": "glycine_usda_review01_171796",
+          "label": "Glycine",
+          "substance_id": "glycine",
+          "value": 1.262,
+          "unit": "g",
+          "basis": "per 100 g edible portion",
+          "original_source_basis": "per 100 g edible portion",
+          "evidence_material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+          "preparation_state": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171796/nutrients",
+          "source_group": "USDA SR Legacy April 2018; source-specific database value",
+          "source_note": "Analytical data; derived by linear regression data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation AR: Analytical data; derived by linear regression Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "material_limitations": "Analytical data; derived by linear regression data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation AR: Analytical data; derived by linear regression Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "verified": true,
+          "evidence_status": "supported",
+          "rank_eligible": true,
+          "comparison_group": "edible::source-specific",
+          "composition_review_status": "author-approved-review-01",
+          "fdc_id": 171796,
+          "food_nutrient_id": 1641442,
+          "source_derivation_id": "AR",
+          "source_data_points": 0,
+          "record": "docs/foods/beef.md#nutrition_supplementary_sources/glycine_usda_review01_171796",
+          "evidence": "Analytical data; derived by linear regression data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation AR: Analytical data; derived by linear regression Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "source_reference": null,
+          "presence_status": "qualitative",
+          "limitations": null
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F1"
+        ],
+        "citation_keys": [
+          "beard_creatine_cns_2010",
+          "edison_renal_guanidinoacetate_2007"
+        ]
+      },
+      "preparation": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "from": "glycine",
+          "to": "guanidinoacetate",
+          "process": "Human AGAT transfers the amidino group of arginine to glycine, yielding guanidinoacetate and ornithine.",
+          "dependencies": [
+            "Functional AGAT",
+            "arginine co-substrate availability",
+            "Tissue access and feedback regulation"
+          ],
+          "limitations": "Both co-substrates are required; this is not a fixed dietary yield or an assertion that extra intake is rate-limiting.",
+          "evidence": {
+            "statement": "UniProt P50440 entry version 227, Rhea 13201; human renal GAA production independently measured.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17928413/",
+              "https://www.uniprot.org/uniprotkb/P50440/entry",
+              "https://www.rhea-db.org/rhea/13201"
+            ]
+          }
+        },
+        {
+          "from": "guanidinoacetate",
+          "to": "creatine",
+          "process": "GAMT methylates guanidinoacetate using S-adenosylmethionine to form creatine.",
+          "dependencies": [
+            "Functional GAMT",
+            "S-adenosylmethionine methyl supply",
+            "Interorgan exchange and receiving-tissue creatine transport"
+          ],
+          "limitations": "Reaction identity does not prove dietary precursor limitation or cerebral delivery; SAM participation creates no independent methionine admission.",
+          "evidence": {
+            "statement": "UniProt Q14353 entry version 215, Rhea 10656.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q14353/entry",
+              "https://www.rhea-db.org/rhea/10656"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Capacity of the endogenous synthesis route is distinct from a claim that extra amino-acid intake raises cerebral creatine, phosphocreatine buffering or cognition. AGAT feedback, GAMT methyl supply, organ exchange and SLC6A8-mediated tissue transport constrain delivery. Human renal GAA production is not a measurement of brain synthesis flux; rat arginine infusion and glycine null responses are not oral human efficacy experiments."
+      ],
+      "missing_ontology_edge": "beef → glycine [Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program); Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)]"
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM3",
+      "biological_mechanism": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
+      "dietary_input": "Glycine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "glycine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "chicken",
+      "food_title": "Chicken",
+      "food_material": "Chicken, broilers or fryers, meat and skin, raw",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "key": "glycine_usda_review01_171447",
+          "label": "Glycine",
+          "substance_id": "glycine",
+          "value": 1.223,
+          "unit": "g",
+          "basis": "per 100 g edible portion",
+          "original_source_basis": "per 100 g edible portion",
+          "evidence_material": "Chicken, broilers or fryers, meat and skin, raw",
+          "preparation_state": "Chicken, broilers or fryers, meat and skin, raw",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171447/nutrients",
+          "source_group": "USDA SR Legacy April 2018; source-specific database value",
+          "source_note": "Derivation code absent; do not label as measured analytical data data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "material_limitations": "Derivation code absent; do not label as measured analytical data data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "verified": true,
+          "evidence_status": "supported",
+          "rank_eligible": true,
+          "comparison_group": "edible::source-specific",
+          "composition_review_status": "author-approved-review-01",
+          "fdc_id": 171447,
+          "food_nutrient_id": 1610591,
+          "source_derivation_id": null,
+          "source_data_points": 0,
+          "range": null,
+          "material": "Chicken, broilers or fryers, meat and skin, raw",
+          "preparation": "Chicken, broilers or fryers, meat and skin, raw",
+          "record": "docs/foods/chicken.md#nutrition_supplementary_sources/glycine_usda_review01_171447",
+          "source_record": "docs/foods/chicken.md#nutrition_supplementary_sources/glycine_usda_review01_171447",
+          "nutrition_value_reviews": [],
+          "limitations": "Derivation code absent; do not label as measured analytical data data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "id": "docs/foods/chicken.md#nutrition_supplementary_sources/glycine_usda_review01_171447",
+          "low": 1223,
+          "high": 1223,
+          "display": "1.223 g"
+        },
+        {
+          "key": "glycine_usda_review01_171447",
+          "label": "Glycine",
+          "substance_id": "glycine",
+          "value": 1.223,
+          "unit": "g",
+          "basis": "per 100 g edible portion",
+          "original_source_basis": "per 100 g edible portion",
+          "evidence_material": "Chicken, broilers or fryers, meat and skin, raw",
+          "preparation_state": "Chicken, broilers or fryers, meat and skin, raw",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171447/nutrients",
+          "source_group": "USDA SR Legacy April 2018; source-specific database value",
+          "source_note": "Derivation code absent; do not label as measured analytical data data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "material_limitations": "Derivation code absent; do not label as measured analytical data data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "verified": true,
+          "evidence_status": "supported",
+          "rank_eligible": true,
+          "comparison_group": "edible::source-specific",
+          "composition_review_status": "author-approved-review-01",
+          "fdc_id": 171447,
+          "food_nutrient_id": 1610591,
+          "source_derivation_id": null,
+          "source_data_points": 0,
+          "record": "docs/foods/chicken.md#nutrition_supplementary_sources/glycine_usda_review01_171447",
+          "evidence": "Derivation code absent; do not label as measured analytical data data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "source_reference": null,
+          "presence_status": "qualitative",
+          "limitations": null
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F1"
+        ],
+        "citation_keys": [
+          "beard_creatine_cns_2010",
+          "edison_renal_guanidinoacetate_2007"
+        ]
+      },
+      "preparation": "Chicken, broilers or fryers, meat and skin, raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "from": "glycine",
+          "to": "guanidinoacetate",
+          "process": "Human AGAT transfers the amidino group of arginine to glycine, yielding guanidinoacetate and ornithine.",
+          "dependencies": [
+            "Functional AGAT",
+            "arginine co-substrate availability",
+            "Tissue access and feedback regulation"
+          ],
+          "limitations": "Both co-substrates are required; this is not a fixed dietary yield or an assertion that extra intake is rate-limiting.",
+          "evidence": {
+            "statement": "UniProt P50440 entry version 227, Rhea 13201; human renal GAA production independently measured.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17928413/",
+              "https://www.uniprot.org/uniprotkb/P50440/entry",
+              "https://www.rhea-db.org/rhea/13201"
+            ]
+          }
+        },
+        {
+          "from": "guanidinoacetate",
+          "to": "creatine",
+          "process": "GAMT methylates guanidinoacetate using S-adenosylmethionine to form creatine.",
+          "dependencies": [
+            "Functional GAMT",
+            "S-adenosylmethionine methyl supply",
+            "Interorgan exchange and receiving-tissue creatine transport"
+          ],
+          "limitations": "Reaction identity does not prove dietary precursor limitation or cerebral delivery; SAM participation creates no independent methionine admission.",
+          "evidence": {
+            "statement": "UniProt Q14353 entry version 215, Rhea 10656.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q14353/entry",
+              "https://www.rhea-db.org/rhea/10656"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Capacity of the endogenous synthesis route is distinct from a claim that extra amino-acid intake raises cerebral creatine, phosphocreatine buffering or cognition. AGAT feedback, GAMT methyl supply, organ exchange and SLC6A8-mediated tissue transport constrain delivery. Human renal GAA production is not a measurement of brain synthesis flux; rat arginine infusion and glycine null responses are not oral human efficacy experiments."
+      ],
+      "missing_ontology_edge": "chicken → glycine [Chicken, broilers or fryers, meat and skin, raw; Chicken, broilers or fryers, meat and skin, raw]"
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM3",
+      "biological_mechanism": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
+      "dietary_input": "Glycine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "glycine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "eggs",
+      "food_title": "Eggs",
+      "food_material": "Egg, whole, raw, fresh",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "key": "glycine_usda_review01_171287",
+          "label": "Glycine",
+          "substance_id": "glycine",
+          "value": 0.432,
+          "unit": "g",
+          "basis": "per 100 g edible portion",
+          "original_source_basis": "per 100 g edible portion",
+          "evidence_material": "Egg, whole, raw, fresh",
+          "preparation_state": "Egg, whole, raw, fresh",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+          "source_group": "USDA SR Legacy April 2018; source-specific database value",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "material_limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "verified": true,
+          "evidence_status": "supported",
+          "rank_eligible": true,
+          "comparison_group": "edible::source-specific",
+          "composition_review_status": "author-approved-review-01",
+          "fdc_id": 171287,
+          "food_nutrient_id": 1597646,
+          "source_derivation_id": "A",
+          "source_data_points": 0,
+          "range": null,
+          "material": "Egg, whole, raw, fresh",
+          "preparation": "Egg, whole, raw, fresh",
+          "record": "docs/foods/eggs.md#nutrition_supplementary_sources/glycine_usda_review01_171287",
+          "source_record": "docs/foods/eggs.md#nutrition_supplementary_sources/glycine_usda_review01_171287",
+          "nutrition_value_reviews": [],
+          "limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "id": "docs/foods/eggs.md#nutrition_supplementary_sources/glycine_usda_review01_171287",
+          "low": 432,
+          "high": 432,
+          "display": "0.432 g"
+        },
+        {
+          "key": "glycine_usda_review01_171287",
+          "label": "Glycine",
+          "substance_id": "glycine",
+          "value": 0.432,
+          "unit": "g",
+          "basis": "per 100 g edible portion",
+          "original_source_basis": "per 100 g edible portion",
+          "evidence_material": "Egg, whole, raw, fresh",
+          "preparation_state": "Egg, whole, raw, fresh",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+          "source_group": "USDA SR Legacy April 2018; source-specific database value",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "material_limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "verified": true,
+          "evidence_status": "supported",
+          "rank_eligible": true,
+          "comparison_group": "edible::source-specific",
+          "composition_review_status": "author-approved-review-01",
+          "fdc_id": 171287,
+          "food_nutrient_id": 1597646,
+          "source_derivation_id": "A",
+          "source_data_points": 0,
+          "record": "docs/foods/eggs.md#nutrition_supplementary_sources/glycine_usda_review01_171287",
+          "evidence": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "source_reference": null,
+          "presence_status": "qualitative",
+          "limitations": null
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F1"
+        ],
+        "citation_keys": [
+          "beard_creatine_cns_2010",
+          "edison_renal_guanidinoacetate_2007"
+        ]
+      },
+      "preparation": "Egg, whole, raw, fresh",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "from": "glycine",
+          "to": "guanidinoacetate",
+          "process": "Human AGAT transfers the amidino group of arginine to glycine, yielding guanidinoacetate and ornithine.",
+          "dependencies": [
+            "Functional AGAT",
+            "arginine co-substrate availability",
+            "Tissue access and feedback regulation"
+          ],
+          "limitations": "Both co-substrates are required; this is not a fixed dietary yield or an assertion that extra intake is rate-limiting.",
+          "evidence": {
+            "statement": "UniProt P50440 entry version 227, Rhea 13201; human renal GAA production independently measured.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17928413/",
+              "https://www.uniprot.org/uniprotkb/P50440/entry",
+              "https://www.rhea-db.org/rhea/13201"
+            ]
+          }
+        },
+        {
+          "from": "guanidinoacetate",
+          "to": "creatine",
+          "process": "GAMT methylates guanidinoacetate using S-adenosylmethionine to form creatine.",
+          "dependencies": [
+            "Functional GAMT",
+            "S-adenosylmethionine methyl supply",
+            "Interorgan exchange and receiving-tissue creatine transport"
+          ],
+          "limitations": "Reaction identity does not prove dietary precursor limitation or cerebral delivery; SAM participation creates no independent methionine admission.",
+          "evidence": {
+            "statement": "UniProt Q14353 entry version 215, Rhea 10656.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q14353/entry",
+              "https://www.rhea-db.org/rhea/10656"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Capacity of the endogenous synthesis route is distinct from a claim that extra amino-acid intake raises cerebral creatine, phosphocreatine buffering or cognition. AGAT feedback, GAMT methyl supply, organ exchange and SLC6A8-mediated tissue transport constrain delivery. Human renal GAA production is not a measurement of brain synthesis flux; rat arginine infusion and glycine null responses are not oral human efficacy experiments."
+      ],
+      "missing_ontology_edge": "eggs → glycine [Egg, whole, raw, fresh; Egg, whole, raw, fresh]"
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM3",
+      "biological_mechanism": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
+      "dietary_input": "Glycine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "glycine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "pumpkin-seeds",
+      "food_title": "Pumpkin Seeds",
+      "food_material": "Seeds, pumpkin and squash seed kernels, dried",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "key": "glycine_usda_review01_170556",
+          "label": "Glycine",
+          "substance_id": "glycine",
+          "value": 1.843,
+          "unit": "g",
+          "basis": "per 100 g edible portion",
+          "original_source_basis": "per 100 g edible portion",
+          "evidence_material": "Seeds, pumpkin and squash seed kernels, dried",
+          "preparation_state": "Seeds, pumpkin and squash seed kernels, dried",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170556/nutrients",
+          "source_group": "USDA SR Legacy April 2018; source-specific database value",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "material_limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "verified": true,
+          "evidence_status": "supported",
+          "rank_eligible": true,
+          "comparison_group": "edible::source-specific",
+          "composition_review_status": "author-approved-review-01",
+          "fdc_id": 170556,
+          "food_nutrient_id": 1532882,
+          "source_derivation_id": "A",
+          "source_data_points": 0,
+          "range": null,
+          "material": "Seeds, pumpkin and squash seed kernels, dried",
+          "preparation": "Seeds, pumpkin and squash seed kernels, dried",
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170556",
+          "source_record": "docs/foods/pumpkin-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170556",
+          "nutrition_value_reviews": [],
+          "limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "id": "docs/foods/pumpkin-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170556",
+          "low": 1843,
+          "high": 1843,
+          "display": "1.843 g"
+        },
+        {
+          "key": "glycine_usda_review01_170556",
+          "label": "Glycine",
+          "substance_id": "glycine",
+          "value": 1.843,
+          "unit": "g",
+          "basis": "per 100 g edible portion",
+          "original_source_basis": "per 100 g edible portion",
+          "evidence_material": "Seeds, pumpkin and squash seed kernels, dried",
+          "preparation_state": "Seeds, pumpkin and squash seed kernels, dried",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170556/nutrients",
+          "source_group": "USDA SR Legacy April 2018; source-specific database value",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "material_limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "verified": true,
+          "evidence_status": "supported",
+          "rank_eligible": true,
+          "comparison_group": "edible::source-specific",
+          "composition_review_status": "author-approved-review-01",
+          "fdc_id": 170556,
+          "food_nutrient_id": 1532882,
+          "source_derivation_id": "A",
+          "source_data_points": 0,
+          "record": "docs/foods/pumpkin-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170556",
+          "evidence": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "source_reference": null,
+          "presence_status": "qualitative",
+          "limitations": null
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F1"
+        ],
+        "citation_keys": [
+          "beard_creatine_cns_2010",
+          "edison_renal_guanidinoacetate_2007"
+        ]
+      },
+      "preparation": "Seeds, pumpkin and squash seed kernels, dried",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "from": "glycine",
+          "to": "guanidinoacetate",
+          "process": "Human AGAT transfers the amidino group of arginine to glycine, yielding guanidinoacetate and ornithine.",
+          "dependencies": [
+            "Functional AGAT",
+            "arginine co-substrate availability",
+            "Tissue access and feedback regulation"
+          ],
+          "limitations": "Both co-substrates are required; this is not a fixed dietary yield or an assertion that extra intake is rate-limiting.",
+          "evidence": {
+            "statement": "UniProt P50440 entry version 227, Rhea 13201; human renal GAA production independently measured.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17928413/",
+              "https://www.uniprot.org/uniprotkb/P50440/entry",
+              "https://www.rhea-db.org/rhea/13201"
+            ]
+          }
+        },
+        {
+          "from": "guanidinoacetate",
+          "to": "creatine",
+          "process": "GAMT methylates guanidinoacetate using S-adenosylmethionine to form creatine.",
+          "dependencies": [
+            "Functional GAMT",
+            "S-adenosylmethionine methyl supply",
+            "Interorgan exchange and receiving-tissue creatine transport"
+          ],
+          "limitations": "Reaction identity does not prove dietary precursor limitation or cerebral delivery; SAM participation creates no independent methionine admission.",
+          "evidence": {
+            "statement": "UniProt Q14353 entry version 215, Rhea 10656.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q14353/entry",
+              "https://www.rhea-db.org/rhea/10656"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Capacity of the endogenous synthesis route is distinct from a claim that extra amino-acid intake raises cerebral creatine, phosphocreatine buffering or cognition. AGAT feedback, GAMT methyl supply, organ exchange and SLC6A8-mediated tissue transport constrain delivery. Human renal GAA production is not a measurement of brain synthesis flux; rat arginine infusion and glycine null responses are not oral human efficacy experiments."
+      ],
+      "missing_ontology_edge": "pumpkin-seeds → glycine [Seeds, pumpkin and squash seed kernels, dried; Seeds, pumpkin and squash seed kernels, dried]"
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM3",
+      "biological_mechanism": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
+      "dietary_input": "Glycine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "glycine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "salmon",
+      "food_title": "Salmon",
+      "food_material": "Fish, salmon, Atlantic, farmed, raw",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "key": "glycine_usda_review01_175167",
+          "label": "Glycine",
+          "substance_id": "glycine",
+          "value": 0.96,
+          "unit": "g",
+          "basis": "per 100 g edible portion",
+          "original_source_basis": "per 100 g edible portion",
+          "evidence_material": "Fish, salmon, Atlantic, farmed, raw",
+          "preparation_state": "Fish, salmon, Atlantic, farmed, raw",
+          "source_url": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
+          "source_group": "USDA SR Legacy April 2018; source-specific database value",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "material_limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "verified": true,
+          "evidence_status": "supported",
+          "rank_eligible": true,
+          "comparison_group": "edible::source-specific",
+          "composition_review_status": "author-approved-review-01",
+          "fdc_id": 175167,
+          "food_nutrient_id": 1918104,
+          "source_derivation_id": "A",
+          "source_data_points": 0,
+          "range": null,
+          "material": "Fish, salmon, Atlantic, farmed, raw",
+          "preparation": "Fish, salmon, Atlantic, farmed, raw",
+          "record": "docs/foods/salmon.md#nutrition_supplementary_sources/glycine_usda_review01_175167",
+          "source_record": "docs/foods/salmon.md#nutrition_supplementary_sources/glycine_usda_review01_175167",
+          "nutrition_value_reviews": [
+            {
+              "title": "Astaxanthin amount: citation attachment pending",
+              "substance_id": "astaxanthin",
+              "section": "Bioactive compounds",
+              "correction_status": "pending",
+              "description": "Retained researched estimate: 3.2 mg per 100 g. Original note: Literature estimate for farmed Atlantic salmon; carotenoid content varies by feed and species (e.g. Turujman et al., 1997; USDA does not report astaxanthin).",
+              "decision": "Retain the estimate while attaching its quantitative source and verifying preparation and denominator. Presence citations do not independently verify this amount."
+            }
+          ],
+          "limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "id": "docs/foods/salmon.md#nutrition_supplementary_sources/glycine_usda_review01_175167",
+          "low": 960,
+          "high": 960,
+          "display": "0.96 g"
+        },
+        {
+          "key": "glycine_usda_review01_175167",
+          "label": "Glycine",
+          "substance_id": "glycine",
+          "value": 0.96,
+          "unit": "g",
+          "basis": "per 100 g edible portion",
+          "original_source_basis": "per 100 g edible portion",
+          "evidence_material": "Fish, salmon, Atlantic, farmed, raw",
+          "preparation_state": "Fish, salmon, Atlantic, farmed, raw",
+          "source_url": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
+          "source_group": "USDA SR Legacy April 2018; source-specific database value",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "material_limitations": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "verified": true,
+          "evidence_status": "supported",
+          "rank_eligible": true,
+          "comparison_group": "edible::source-specific",
+          "composition_review_status": "author-approved-review-01",
+          "fdc_id": 175167,
+          "food_nutrient_id": 1918104,
+          "source_derivation_id": "A",
+          "source_data_points": 0,
+          "record": "docs/foods/salmon.md#nutrition_supplementary_sources/glycine_usda_review01_175167",
+          "evidence": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "source_reference": null,
+          "presence_status": "qualitative",
+          "limitations": null
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F1"
+        ],
+        "citation_keys": [
+          "beard_creatine_cns_2010",
+          "edison_renal_guanidinoacetate_2007"
+        ]
+      },
+      "preparation": "Fish, salmon, Atlantic, farmed, raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "from": "glycine",
+          "to": "guanidinoacetate",
+          "process": "Human AGAT transfers the amidino group of arginine to glycine, yielding guanidinoacetate and ornithine.",
+          "dependencies": [
+            "Functional AGAT",
+            "arginine co-substrate availability",
+            "Tissue access and feedback regulation"
+          ],
+          "limitations": "Both co-substrates are required; this is not a fixed dietary yield or an assertion that extra intake is rate-limiting.",
+          "evidence": {
+            "statement": "UniProt P50440 entry version 227, Rhea 13201; human renal GAA production independently measured.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17928413/",
+              "https://www.uniprot.org/uniprotkb/P50440/entry",
+              "https://www.rhea-db.org/rhea/13201"
+            ]
+          }
+        },
+        {
+          "from": "guanidinoacetate",
+          "to": "creatine",
+          "process": "GAMT methylates guanidinoacetate using S-adenosylmethionine to form creatine.",
+          "dependencies": [
+            "Functional GAMT",
+            "S-adenosylmethionine methyl supply",
+            "Interorgan exchange and receiving-tissue creatine transport"
+          ],
+          "limitations": "Reaction identity does not prove dietary precursor limitation or cerebral delivery; SAM participation creates no independent methionine admission.",
+          "evidence": {
+            "statement": "UniProt Q14353 entry version 215, Rhea 10656.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q14353/entry",
+              "https://www.rhea-db.org/rhea/10656"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Capacity of the endogenous synthesis route is distinct from a claim that extra amino-acid intake raises cerebral creatine, phosphocreatine buffering or cognition. AGAT feedback, GAMT methyl supply, organ exchange and SLC6A8-mediated tissue transport constrain delivery. Human renal GAA production is not a measurement of brain synthesis flux; rat arginine infusion and glycine null responses are not oral human efficacy experiments."
+      ],
+      "missing_ontology_edge": "salmon → glycine [Fish, salmon, Atlantic, farmed, raw; Fish, salmon, Atlantic, farmed, raw]"
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM3",
+      "biological_mechanism": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
+      "dietary_input": "Glycine",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "glycine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "sunflower-seeds",
+      "food_title": "Sunflower Seeds",
+      "food_material": "Seeds, sunflower seed kernels, dried",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "key": "glycine_usda_review01_170562",
+          "label": "Glycine",
+          "substance_id": "glycine",
+          "value": 1.461,
+          "unit": "g",
+          "basis": "per 100 g edible portion",
+          "original_source_basis": "per 100 g edible portion",
+          "evidence_material": "Seeds, sunflower seed kernels, dried",
+          "preparation_state": "Seeds, sunflower seed kernels, dried",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170562/nutrients",
+          "source_group": "USDA SR Legacy April 2018; source-specific database value",
+          "source_note": "Derivation code absent; do not label as measured analytical data Reported data points: 26 Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "material_limitations": "Derivation code absent; do not label as measured analytical data Reported data points: 26 Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "verified": true,
+          "evidence_status": "supported",
+          "rank_eligible": true,
+          "comparison_group": "edible::source-specific",
+          "composition_review_status": "author-approved-review-01",
+          "fdc_id": 170562,
+          "food_nutrient_id": 1533390,
+          "source_derivation_id": null,
+          "source_data_points": 26,
+          "range": null,
+          "material": "Seeds, sunflower seed kernels, dried",
+          "preparation": "Seeds, sunflower seed kernels, dried",
+          "record": "docs/foods/sunflower-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170562",
+          "source_record": "docs/foods/sunflower-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170562",
+          "nutrition_value_reviews": [],
+          "limitations": "Derivation code absent; do not label as measured analytical data Reported data points: 26 Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "id": "docs/foods/sunflower-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170562",
+          "low": 1461,
+          "high": 1461,
+          "display": "1.461 g"
+        },
+        {
+          "key": "glycine_usda_review01_170562",
+          "label": "Glycine",
+          "substance_id": "glycine",
+          "value": 1.461,
+          "unit": "g",
+          "basis": "per 100 g edible portion",
+          "original_source_basis": "per 100 g edible portion",
+          "evidence_material": "Seeds, sunflower seed kernels, dried",
+          "preparation_state": "Seeds, sunflower seed kernels, dried",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170562/nutrients",
+          "source_group": "USDA SR Legacy April 2018; source-specific database value",
+          "source_note": "Derivation code absent; do not label as measured analytical data Reported data points: 26 Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "material_limitations": "Derivation code absent; do not label as measured analytical data Reported data points: 26 Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "verified": true,
+          "evidence_status": "supported",
+          "rank_eligible": true,
+          "comparison_group": "edible::source-specific",
+          "composition_review_status": "author-approved-review-01",
+          "fdc_id": 170562,
+          "food_nutrient_id": 1533390,
+          "source_derivation_id": null,
+          "source_data_points": 26,
+          "record": "docs/foods/sunflower-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170562",
+          "evidence": "Derivation code absent; do not label as measured analytical data Reported data points: 26 Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.",
+          "source_reference": null,
+          "presence_status": "qualitative",
+          "limitations": null
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F1"
+        ],
+        "citation_keys": [
+          "beard_creatine_cns_2010",
+          "edison_renal_guanidinoacetate_2007"
+        ]
+      },
+      "preparation": "Seeds, sunflower seed kernels, dried",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "from": "glycine",
+          "to": "guanidinoacetate",
+          "process": "Human AGAT transfers the amidino group of arginine to glycine, yielding guanidinoacetate and ornithine.",
+          "dependencies": [
+            "Functional AGAT",
+            "arginine co-substrate availability",
+            "Tissue access and feedback regulation"
+          ],
+          "limitations": "Both co-substrates are required; this is not a fixed dietary yield or an assertion that extra intake is rate-limiting.",
+          "evidence": {
+            "statement": "UniProt P50440 entry version 227, Rhea 13201; human renal GAA production independently measured.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17928413/",
+              "https://www.uniprot.org/uniprotkb/P50440/entry",
+              "https://www.rhea-db.org/rhea/13201"
+            ]
+          }
+        },
+        {
+          "from": "guanidinoacetate",
+          "to": "creatine",
+          "process": "GAMT methylates guanidinoacetate using S-adenosylmethionine to form creatine.",
+          "dependencies": [
+            "Functional GAMT",
+            "S-adenosylmethionine methyl supply",
+            "Interorgan exchange and receiving-tissue creatine transport"
+          ],
+          "limitations": "Reaction identity does not prove dietary precursor limitation or cerebral delivery; SAM participation creates no independent methionine admission.",
+          "evidence": {
+            "statement": "UniProt Q14353 entry version 215, Rhea 10656.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q14353/entry",
+              "https://www.rhea-db.org/rhea/10656"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Capacity of the endogenous synthesis route is distinct from a claim that extra amino-acid intake raises cerebral creatine, phosphocreatine buffering or cognition. AGAT feedback, GAMT methyl supply, organ exchange and SLC6A8-mediated tissue transport constrain delivery. Human renal GAA production is not a measurement of brain synthesis flux; rat arginine infusion and glycine null responses are not oral human efficacy experiments."
+      ],
+      "missing_ontology_edge": "sunflower-seeds → glycine [Seeds, sunflower seed kernels, dried; Seeds, sunflower seed kernels, dried]"
     },
     {
       "brs": "BRS4",
@@ -9433,7 +12200,7 @@
           "asiriwardhana_methionine_transmethylation_2025"
         ]
       },
-      "preparation": "oil",
+      "preparation": "canned",
       "delivery": "precursor-source",
       "conversion_pathway": [
         {
@@ -10056,7 +12823,7 @@
           "brs4_azuma2022_20261023"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -11461,13 +14228,13 @@
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
           "source_reference": "#food-source-8",
           "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-          "preparation": null,
+          "preparation": "salted",
           "record": "docs/foods/salmon-roe.md#nutrition_per_100g/manganese_mg",
           "source_record": "docs/foods/salmon-roe.md#nutrition_source",
           "verified": true,
           "id": "docs/foods/salmon-roe.md#nutrition_per_100g/manganese_mg",
-          "rank_eligible": false,
-          "comparison_group": null,
+          "rank_eligible": true,
+          "comparison_group": "edible::salted",
           "low": 0.06,
           "high": 0.06,
           "display": "0.06 mg"
@@ -11482,13 +14249,13 @@
           "brs4_uniprot_p04179_20261023"
         ]
       },
-      "preparation": null,
+      "preparation": "salted",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
         "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
       ],
-      "missing_ontology_edge": "salmon-roe → manganese [Chum salmon (Oncorhynchus keta), salted roe (ikura); preparation unresolved]"
+      "missing_ontology_edge": "salmon-roe → manganese [Chum salmon (Oncorhynchus keta), salted roe (ikura); salted]"
     },
     {
       "brs": "BRS4",

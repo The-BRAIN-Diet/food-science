@@ -76,9 +76,8 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Lemon | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Lentils | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Lion's Mane Mushroom | 1 | magnesium | BRS6-FM1-PM3 |  |
-| Liver | 1 | magnesium | BRS6-FM1-PM3 |  |
+| Liver (beef) | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Lumpfish Roe | 1 | dha-docosahexaenoic-acid | BRS6-FM4-PM8 |  |
-| Lupin Beans | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Lupins | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Mackerel | 2 | dha-docosahexaenoic-acid; magnesium | BRS6-FM1-PM3; BRS6-FM4-PM8 |  |
 | Maitake Mushroom | 1 | magnesium | BRS6-FM1-PM3 |  |
@@ -124,7 +123,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Shiitake Mushroom | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Shrimp | 2 | magnesium; dha-docosahexaenoic-acid | BRS6-FM1-PM3; BRS6-FM4-PM8 |  |
 | Sourdough Bread | 1 | magnesium | BRS6-FM1-PM3 |  |
-| Soy | 1 | magnesium | BRS6-FM1-PM3 |  |
+| Mature soybeans | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Spelt | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Spinach | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Spirulina | 1 | magnesium | BRS6-FM1-PM3 |  |

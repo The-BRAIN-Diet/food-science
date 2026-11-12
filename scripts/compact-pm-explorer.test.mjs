@@ -12,7 +12,12 @@ test('all nine systems expose the 67 current canonical PMs without altering BRS5
  for(const g of sources.systems)assert(all.pms.some(p=>p.group===g.id));
  for(const p of all.pms)assert(fs.existsSync(p.file));
  for(const f of all.foods){assert(all.pms.some(p=>p.id===f.pm));assert(all.relationships.some(r=>r.pm===f.pm&&r.substance===f.substance),f.pm+' '+f.substance);}
- assert.equal(all.foods.filter(f=>f.pm.startsWith('BRS5-')).length,99);
+ const brs5=all.foods.filter(f=>f.pm.startsWith('BRS5-'));
+ const snapshot=JSON.parse(fs.readFileSync('src/data/rankedFoodSources.generated.json'));
+ const rankedKey=(pm,sub,food,rank,power)=>JSON.stringify([pm,sub,food,rank,power]);
+ const expected=snapshot.targets.filter(t=>t.pm_id.startsWith('BRS5-')).flatMap(t=>t.selected.map(r=>rankedKey(t.pm_id,t.substance_id,r.food_id,r.rank,r.relative_power)));
+ assert.deepEqual(brs5.filter(f=>f.layer==='Ranked').map(f=>rankedKey(f.pm,f.substance,f.food,f.rank,f.relative_power)).sort(),expected.sort());
+ assert.equal(brs5.filter(f=>f.layer!=='Ranked').length,63);
  assert(all.pms.some(p=>p.id==='BRS-X(Circadian-FM1-PM3)'));
  assert(all.pms.some(p=>p.id==='BRS-X(Hormones-PM7)'));
  const historical=all.relationships.find(r=>r.id==='BRS5-FM2-PM5::PM5-DIT-2');assert.equal(historical.admitted,false);assert.equal(historical.projection_status,'blocked');
@@ -25,4 +30,13 @@ test('food presentation is plant-first then animal, retaining descending ranked 
  const before=JSON.stringify(rows);
  assert.deepEqual(orderedFoodGroups(rows).map(x=>x.food),['soy','pumpkin-seeds','tofu','parmesan-cheese','cheddar-cheese','anchovies','sardines','liver','tuna','salmon']);
  assert.equal(JSON.stringify(rows),before);
+});
+
+test('lamb creatine is grouped as animal in the shared helper and Explorer',async()=>{
+ const {isCanonicalAnimalSource}=await import('../src/data/documentedFoodSources.mjs');
+ assert.equal(isCanonicalAnimalSource({food_id:'lamb'}),true);
+ assert.equal(isCanonicalAnimalSource({food_id:'tahini',material:'Compared with lamb'}),false);
+ const sources=JSON.parse(fs.readFileSync('static/explore/pm-explorer/pm-sources.json'));
+ const rows=sources.foods.filter(f=>f.food==='lamb'&&f.pm==='BRS4-FM1-PM3'&&f.substance==='creatine');
+ assert(rows.length>0);assert(rows.every(f=>f.food_group==='animal'));
 });

@@ -574,7 +574,10 @@
     ],
     "title": "Vitamin B2",
     "inchikey": "",
-    "list_image": ""
+    "list_image": "",
+    "aliases": [
+      "Vitamin B2 (riboflavin)"
+    ]
   },
   "vitamin-b6": {
     "path": "nutrients/micronutrients/vitamins/vitamin-b6.md",
@@ -604,7 +607,10 @@
     ],
     "title": "Vitamin B9",
     "inchikey": "",
-    "list_image": ""
+    "list_image": "",
+    "aliases": [
+      "Vitamin B9 (folate)"
+    ]
   },
   "vitamin-e": {
     "path": "nutrients/micronutrients/vitamins/vitamin-e.md",
@@ -644,7 +650,10 @@
     ],
     "title": "Vitamin B12",
     "inchikey": "",
-    "list_image": ""
+    "list_image": "",
+    "aliases": [
+      "Vitamin B12 (cobalamin)"
+    ]
   },
   "vitamin-b1": {
     "path": "nutrients/micronutrients/vitamins/vitamin-b1.md",
@@ -1342,15 +1351,15 @@
   },
   "pyridoxal-5-phosphate": {
     "path": "nutrients/micronutrients/vitamins/pyridoxal-5-phosphate.md",
-    "title": "Pyridoxal 5′-phosphate (PLP)",
+    "title": "Pyridoxal 5\u2032-phosphate (PLP)",
     "tags": [
       "nutrient",
       "vitamin"
     ],
     "aliases": [
       "PLP",
-      "Pyridoxal 5′-phosphate",
-      "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)"
+      "Pyridoxal 5\u2032-phosphate",
+      "Pyridoxal 5\u2032-phosphate (PLP; active vitamin B6 cofactor)"
     ],
     "inchikey": "NGVDGCNFYWLIFO-UHFFFAOYSA-N",
     "list_image": "/img/icons/nutrient.svg"
@@ -1566,5 +1575,74 @@
     ],
     "inchikey": "MUBZPKHOEPUJKR-UHFFFAOYSA-L",
     "list_image": "/img/inchi/MUBZPKHOEPUJKR-UHFFFAOYSA-L.png"
+  },
+  "bifidobacterium-longum": {
+    "path": "bifidobacterium-longum.md",
+    "title": "Bifidobacterium longum",
+    "identity_type": "microbial-species",
+    "network_activation": "held",
+    "aliases": []
+  },
+  "lacticaseibacillus-rhamnosus": {
+    "path": "lacticaseibacillus-rhamnosus.md",
+    "title": "Lacticaseibacillus rhamnosus",
+    "identity_type": "microbial-species",
+    "network_activation": "held",
+    "aliases": [
+      "Lactobacillus rhamnosus"
+    ]
+  },
+  "resistant-starch-type-2-zhang-2020": {
+    "path": "nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch.md",
+    "title": "Type 2 resistant starch (tested aged-mouse exposure)",
+    "parent_substance_id": "resistant-starch",
+    "page_anchor": "rs2-zhang-2020",
+    "identity_type": "studied-preparation",
+    "network_activation": "held",
+    "aliases": []
+  },
+  "apple-pectin-sinha-2024": {
+    "path": "nutrients/macronutrients/carbohydrates/dietary-fibre/pectin.md",
+    "title": "Apple pectin (studied preparation)",
+    "parent_substance_id": "pectin",
+    "page_anchor": "apple-pectin-sinha-2024",
+    "identity_type": "studied-preparation",
+    "network_activation": "held",
+    "aliases": []
+  },
+  "oligofructose-enriched-inulin-schroeder-2018": {
+    "path": "nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/inulin.md",
+    "title": "Oligofructose-enriched inulin",
+    "parent_substance_id": "inulin",
+    "page_anchor": "oligofructose-enriched-inulin-schroeder-2018",
+    "identity_type": "defined-mixture",
+    "network_activation": "held",
+    "aliases": [],
+    "constituent_ids": [
+      "inulin",
+      "oligofructose"
+    ]
+  },
+  "bifidobacterium-longum-ncc2705": {
+    "path": "bifidobacterium-longum.md",
+    "title": "Bifidobacterium longum NCC2705",
+    "parent_substance_id": "bifidobacterium-longum",
+    "page_anchor": "ncc2705",
+    "identity_type": "microbial-strain",
+    "network_activation": "held",
+    "aliases": [],
+    "taxonomic_parent_id": "bifidobacterium-longum"
+  },
+  "lacticaseibacillus-rhamnosus-jb-1": {
+    "path": "lacticaseibacillus-rhamnosus.md",
+    "title": "Lacticaseibacillus rhamnosus JB-1",
+    "parent_substance_id": "lacticaseibacillus-rhamnosus",
+    "page_anchor": "jb-1",
+    "identity_type": "microbial-strain",
+    "network_activation": "held",
+    "aliases": [
+      "Lactobacillus rhamnosus JB-1"
+    ],
+    "taxonomic_parent_id": "lacticaseibacillus-rhamnosus"
   }
 }
