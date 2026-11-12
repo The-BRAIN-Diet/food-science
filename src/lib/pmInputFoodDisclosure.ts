@@ -1,5 +1,5 @@
 import {scfaRelatedSources} from '../data/scfaRelatedSources.mjs';
-import {renderRelatedFoodSources} from '../data/relatedSubstanceRelationships.mjs';
+import {relatedFoodsForInput, relatedViaLabel, renderRelatedFoodSources} from '../data/relatedSubstanceRelationships.mjs';
 import {isCanonicalAnimalSource} from '../data/documentedFoodSources.mjs';
 import publishedRanking from '../data/rankedFoodSources.generated.json';
 // Local PM pages use the same review snapshot as the reference-pool viewers.
@@ -8,7 +8,6 @@ const rankedSnapshot = process.env.NODE_ENV === 'development'
     : publishedRanking;
 import {rankedSourcesForRelationships} from '../data/rankedFoodSources.mjs';
 import {informationIcon, renderCoverageWarning, foodTargetCoverageWarning, inputCoverageWarnings} from "./foodTargetTraceability.mjs";
-import {relatedFoodsForInput, relatedViaLabel, renderRelatedFoodSources} from "../data/relatedSubstanceRelationships.mjs";
 import generatedScopes from "../data/inputMappingScopes.mjs";
 import {formatAggregateSumForDropdown} from './aggregateFoodComposition.mjs';
 import { selectBrsReviewData, canonicalInputSection } from "../data/inputSubstanceFoodSelection.mjs";
