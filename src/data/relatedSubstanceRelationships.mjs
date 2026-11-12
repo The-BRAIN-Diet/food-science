@@ -97,6 +97,40 @@ export const RELATED_SUBSTANCE_RELATIONSHIPS = [
     limitation:
       "The food's ellagitannin figure is not an ellagic acid concentration, and neither figure is a urolithin A amount. Release and later microbial conversion both vary.",
   },
+  {
+    id: "ellagitannins-urolithin-a",
+    intermediate_id: "ellagitannins",
+    intermediate_label: "Ellagitannins",
+    related_id: "urolithin-a",
+    related_label: "Urolithin A",
+    related_href: "/docs/substances/microbial-metabolites/secondary-plant-conversions/urolithin-a",
+    relationship: "microbial-production",
+    relationship_label: "Microbial production",
+    evidence: {
+      citation_keys: ["singh_direct_2022", "selma_urolithin_capacity_2014"],
+      statement:
+        "Ellagitannins can be hydrolysed to ellagic acid, which some gut communities convert to Urolithin A.",
+    },
+    limitation:
+      "The food's ellagitannin figure is not a Urolithin A amount. Conversion depends on hydrolysis, microbial capacity and host context.",
+  },
+  {
+    id: "ellagic-acid-urolithin-a",
+    intermediate_id: "ellagic-acid",
+    intermediate_label: "Ellagic acid",
+    related_id: "urolithin-a",
+    related_label: "Urolithin A",
+    related_href: "/docs/substances/microbial-metabolites/secondary-plant-conversions/urolithin-a",
+    relationship: "microbial-production",
+    relationship_label: "Microbial production",
+    evidence: {
+      citation_keys: ["singh_direct_2022", "selma_urolithin_capacity_2014"],
+      statement:
+        "Free ellagic acid is a microbial substrate that some gut communities convert to Urolithin A.",
+    },
+    limitation:
+      "The food's ellagic acid figure is not a Urolithin A amount. Producer status and yield vary between people.",
+  },
 ]
 
 /**
@@ -335,7 +369,7 @@ export function renderRelatedFoodSources(rows) {
       return `<li data-related-source="true" data-quantity="none" data-related-quantity="none" title="${escapeHtml(title)}"><a href="${escapeHtml(row.food_page)}">${escapeHtml(row.food_title)}</a> — via ${escapeHtml(via)}${preparation}${amount}</li>`
     })
     .join("")
-  return `<details class="pm-input-food-sources" data-food-source-kind="related"><summary><span class="pm-input-food-source-arrow" aria-hidden="true">▶</span>Related sources</summary><p>Indirect sources. These foods are not recorded as containing the input, and they are not ranked by amount.</p><ul>${items}</ul></details>`
+  return `<details class="pm-input-food-sources" data-food-source-kind="related"><summary><span class="pm-input-food-source-arrow" aria-hidden="true">▶</span>Related Foods</summary><p>Indirect sources. These foods are not recorded as containing the input, and they are not ranked by amount.</p><ul>${items}</ul></details>`
 }
 
 /** Rank only comparable point measurements of one contained upstream substance and basis. */

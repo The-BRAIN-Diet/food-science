@@ -3011,6 +3011,234 @@
         "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
       ],
       "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "Urolithin A",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "urolithin-a",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": null,
+      "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "unresolved",
+      "food_evidence": null,
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F22",
+          "PM8-F23"
+        ],
+        "citation_keys": [
+          "toney_urolithin_2019",
+          "xia_urolithin_thermogenesis_2020",
+          "zelicha_effect_2022",
+          "singh_urolithin_atlas_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [],
+      "limitations": [
+        "Endocrine engagement is demonstrated in animal studies only, using administered urolithin A. In humans, a rise in urinary urolithin A tracked visceral-fat loss but was not randomised, and four-month supplementation did not change fat mass. Production depends on gut microbiota and varies between people; no food-effective dose or human adipokine effect is established."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "Ellagitannins",
+      "type": "B",
+      "classification": "derived",
+      "canonical_substance_id": "ellagitannins",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "pomegranates",
+      "food_title": "Pomegranates",
+      "food_material": "Commercial single-strength pomegranate juice",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/pomegranates.md#substance_relationships/Ellagitannins",
+          "evidence": "Gil et al., Journal of Agricultural and Food Chemistry 2000",
+          "source_url": "https://doi.org/10.1021/jf000404a",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "Gallagyl-type tannins, not the sum of every ellagitannin and not free ellagic acid. Not an aril or whole-fruit flesh value."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F23"
+        ],
+        "citation_keys": [
+          "zelicha_effect_2022"
+        ]
+      },
+      "preparation": "Juice sample",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "from": "ellagitannins",
+          "to": "ellagic-acid",
+          "process": "Hydrolysis of ellagitannins releases ellagic acid in the gut lumen.",
+          "evidence": {
+            "statement": "Ellagitannin-rich pomegranate juice produced variable downstream urolithin A exposure in healthy adults, consistent with hydrolysis to ellagic acid before microbial conversion.",
+            "sources": [
+              "https://doi.org/10.1038/s41430-021-00950-1"
+            ]
+          },
+          "limitations": "Hydrolysis extent varies with food matrix and ellagitannin structure; no food-to-ellagic-acid yield is established."
+        },
+        {
+          "from": "ellagic-acid",
+          "to": "urolithin-a",
+          "process": "Gut microbial conversion of ellagic acid through intermediate urolithins to urolithin A.",
+          "dependencies": [
+            "Urolithin-producing gut microbiota (Gordonibacter and Ellagibacter-related taxa); producer status varies between people"
+          ],
+          "evidence": {
+            "statement": "Human intestinal Gordonibacter species converted ellagic acid to intermediate urolithins; complete urolithin A production depends on the wider community.",
+            "sources": [
+              "https://doi.org/10.1039/c4fo00092g"
+            ]
+          },
+          "limitations": "Non-producers form little or no urolithin A; the species studied did not complete conversion alone."
+        }
+      ],
+      "limitations": [
+        "Food ellagitannin content is not a urolithin A amount. Conversion depends on hydrolysis and producer microbiota; some people produce little or none. Walnuts were the studied DIRECT-PLUS food; pomegranate is included from the ellagitannin ontology, not from an adipose endocrine trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "Ellagitannins",
+      "type": "B",
+      "classification": "derived",
+      "canonical_substance_id": "ellagitannins",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "walnuts",
+      "food_title": "Walnuts",
+      "food_material": "Walnut kernels",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Walnut kernels",
+          "preparation": "Kernels",
+          "evidence": {
+            "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
+            "sources": [
+              "https://doi.org/10.1016/j.foodchem.2013.11.158"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Qualitative presence only; batch and analytical extraction vary. No predictable urolithin A exposure or PM8 benefit inferred.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/walnuts.md#substance_relationships/Ellagitannins",
+          "evidence": "Regueiro et al., Food Chemistry 2014",
+          "source_url": "https://doi.org/10.1016/j.foodchem.2013.11.158",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Assay-specific extraction of kernels. Peeled kernel without the pellicle is a different material. This is not an amount, not free ellagic acid, and not a urolithin A exposure."
+        },
+        {
+          "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
+          "sources": [
+            "https://doi.org/10.1016/j.foodchem.2013.11.158"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F23"
+        ],
+        "citation_keys": [
+          "zelicha_effect_2022"
+        ]
+      },
+      "preparation": "Kernels",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "from": "ellagitannins",
+          "to": "ellagic-acid",
+          "process": "Hydrolysis of ellagitannins releases ellagic acid in the gut lumen.",
+          "evidence": {
+            "statement": "Ellagitannin-rich pomegranate juice produced variable downstream urolithin A exposure in healthy adults, consistent with hydrolysis to ellagic acid before microbial conversion.",
+            "sources": [
+              "https://doi.org/10.1038/s41430-021-00950-1"
+            ]
+          },
+          "limitations": "Hydrolysis extent varies with food matrix and ellagitannin structure; no food-to-ellagic-acid yield is established."
+        },
+        {
+          "from": "ellagic-acid",
+          "to": "urolithin-a",
+          "process": "Gut microbial conversion of ellagic acid through intermediate urolithins to urolithin A.",
+          "dependencies": [
+            "Urolithin-producing gut microbiota (Gordonibacter and Ellagibacter-related taxa); producer status varies between people"
+          ],
+          "evidence": {
+            "statement": "Human intestinal Gordonibacter species converted ellagic acid to intermediate urolithins; complete urolithin A production depends on the wider community.",
+            "sources": [
+              "https://doi.org/10.1039/c4fo00092g"
+            ]
+          },
+          "limitations": "Non-producers form little or no urolithin A; the species studied did not complete conversion alone."
+        }
+      ],
+      "limitations": [
+        "Food ellagitannin content is not a urolithin A amount. Conversion depends on hydrolysis and producer microbiota; some people produce little or none. Walnuts were the studied DIRECT-PLUS food; pomegranate is included from the ellagitannin ontology, not from an adipose endocrine trial."
+      ],
+      "missing_ontology_edge": null
     }
   ]
 }

@@ -849,6 +849,19 @@
     "inchikey": "",
     "list_image": ""
   },
+  "acetic-acid": {
+    "path": "bioactive-compounds/acetic-acid.md",
+    "tags": [
+      "bioactive"
+    ],
+    "title": "Acetic acid",
+    "aliases": [
+      "Acetic Acid",
+      "Ethanoic acid"
+    ],
+    "inchikey": "QTBSBXVTEAMEQO-UHFFFAOYSA-N",
+    "list_image": "/img/inchi/QTBSBXVTEAMEQO-UHFFFAOYSA-N.png"
+  },
   "scfas": {
     "path": "microbial-metabolites/scfas/scfas.md",
     "tags": [

@@ -82,6 +82,8 @@ Stage 2B: use a separate stable gap ID for each independently resolvable proposi
 
 Presentation: show `Related Scientific Findings` for Finding links and numbered source links from canonical citation keys. Do not label the first Finding as a decision record. Preserve actual completed-adjudication and Open Issue links. Reruns must preserve the separated questions rather than recombining them.
 
+**Owner correction — 12 November 2026 (BRS6-FM2-PM4 and BRS6-FM4-PM8):** the §4 Summary is prose only, with no list of mechanism → SF hyperlinks, because the list repeats the headings in the mechanistic-detail dropdown and §4.1. Mechanism blocks keep their "Supporting evidence: SFn" links. Other section-4 pages keep their Summary mappings until the owner extends this correction. PM8 was added the same day on owner instruction after the urolithin A summary bullet repeated SF11 and SF12.
+
 PM4 Section 4 restoration (2 November 2026): BRS5-FM2-PM4 uses `scientific_findings_placement: section-4`. Stage 2A/2B reruns must retain its four Summary-to-mechanism-to-Finding mappings and four sibling ScientificFinding disclosures, using the existing generator. Do not restore the audit-only Findings link or duplicate active Findings in Evidence & Audit. SEC assessment links and historical audit records remain in the audit.
 
 ## Assessment gaps in Evidence & Audit

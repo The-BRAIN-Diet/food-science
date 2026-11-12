@@ -27,7 +27,7 @@ Generated from the same authoritative records as the PM disclosures. The preview
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (150)</summary>
+<summary>All mapped food sources (152)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -63,6 +63,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 0.14 mg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/iron_mg |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 0.36 mg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/iron_mg |
 | [Chia Seeds](http://localhost:3000/docs/foods/chia-seeds) | Seeds, chia seeds, dried — dried | 7.72 mg (per 100 g edible portion) | docs/foods/chia-seeds.md#nutrition_per_100g/iron_mg |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 8.99 mg (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/iron_mg; docs/foods/chicken-liver.md#substance_relationships/Iron |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 0.9 mg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/iron_mg; docs/foods/chicken.md#substance_relationships/Iron |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 4.31 mg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/iron_mg; docs/foods/chickpeas.md#substance_relationships/Iron |
 | [Chicory Root](http://localhost:3000/docs/foods/chicory-root) | Chicory roots, raw (Cichorium intybus) — raw | 0.8 mg (per 100 g edible portion; dietary fibre does not include inulin) | docs/foods/chicory-root.md#nutrition_per_100g/iron_mg; docs/foods/chicory-root.md#substance_relationships/Iron |
@@ -130,6 +131,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Parmesan Cheese](http://localhost:3000/docs/foods/parmesan-cheese) | Cheese, parmesan, hard | 0.82 mg (per 100 g edible portion) | docs/foods/parmesan-cheese.md#nutrition_per_100g/iron_mg |
 | [Parsley](http://localhost:3000/docs/foods/parsley) | Parsley, fresh | 6.2 mg (per 100 g edible portion) | docs/foods/parsley.md#nutrition_per_100g/iron_mg |
 | [Peanuts](http://localhost:3000/docs/foods/peanuts) | Peanuts, all types, raw — raw | 4.58 mg (per 100 g edible portion) | docs/foods/peanuts.md#nutrition_per_100g/iron_mg |
+| [Pears](http://localhost:3000/docs/foods/pears) | Pears, raw — raw | 0.18 mg (per 100 g edible portion) | docs/foods/pears.md#nutrition_per_100g/iron_mg |
 | [Peas](http://localhost:3000/docs/foods/peas) | Peas, green, raw — raw | 1.47 mg (per 100 g edible portion) | docs/foods/peas.md#nutrition_per_100g/iron_mg |
 | [Peppermint](http://localhost:3000/docs/foods/peppermint) | Peppermint, fresh | 5.08 mg (per 100 g edible portion) | docs/foods/peppermint.md#nutrition_per_100g/iron_mg |
 | [Pistachios](http://localhost:3000/docs/foods/pistachios) | Nuts, pistachio nuts, raw — raw | 3.92 mg (per 100 g edible portion) | docs/foods/pistachios.md#nutrition_per_100g/iron_mg |
@@ -202,7 +204,7 @@ Food sources identified; quantities not established.
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (128)</summary>
+<summary>All mapped food sources (130)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -234,6 +236,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 0.428 mg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/vitamin_b2_mg |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 0.033 mg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/vitamin_b2_mg |
 | [Chia Seeds](http://localhost:3000/docs/foods/chia-seeds) | Seeds, chia seeds, dried — dried | 0.17 mg (per 100 g edible portion) | docs/foods/chia-seeds.md#nutrition_per_100g/vitamin_b2_mg |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 1.778 mg (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg; docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2 |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 0.12 mg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/vitamin_b2_mg |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 0.212 mg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/vitamin_b2_mg |
 | [Cilantro](http://localhost:3000/docs/foods/cilantro) | Coriander (cilantro) leaves, raw — raw | 0.162 mg (per 100 g edible portion) | docs/foods/cilantro.md#nutrition_per_100g/vitamin_b2_mg |
@@ -288,6 +291,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Parmesan Cheese](http://localhost:3000/docs/foods/parmesan-cheese) | Cheese, parmesan, hard | 0.332 mg (per 100 g edible portion) | docs/foods/parmesan-cheese.md#nutrition_per_100g/vitamin_b2_mg |
 | [Parsley](http://localhost:3000/docs/foods/parsley) | Parsley, fresh | 0.098 mg (per 100 g edible portion) | docs/foods/parsley.md#nutrition_per_100g/vitamin_b2_mg |
 | [Peanuts](http://localhost:3000/docs/foods/peanuts) | Peanuts, all types, raw — raw | 0.135 mg (per 100 g edible portion) | docs/foods/peanuts.md#nutrition_per_100g/vitamin_b2_mg |
+| [Pears](http://localhost:3000/docs/foods/pears) | Pears, raw — raw | 0.026 mg (per 100 g edible portion) | docs/foods/pears.md#nutrition_per_100g/vitamin_b2_mg |
 | [Peas](http://localhost:3000/docs/foods/peas) | Peas, green, raw — raw | 0.132 mg (per 100 g edible portion) | docs/foods/peas.md#nutrition_per_100g/vitamin_b2_mg |
 | [Peppermint](http://localhost:3000/docs/foods/peppermint) | Peppermint, fresh | 0.266 mg (per 100 g edible portion) | docs/foods/peppermint.md#nutrition_per_100g/vitamin_b2_mg |
 | [Pistachios](http://localhost:3000/docs/foods/pistachios) | Nuts, pistachio nuts, raw — raw | 0.16 mg (per 100 g edible portion) | docs/foods/pistachios.md#nutrition_per_100g/vitamin_b2_mg |
@@ -342,7 +346,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (132)</summary>
+<summary>All mapped food sources (134)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -375,6 +379,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 0.03 mg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/copper_mg |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 0.06 mg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/copper_mg |
 | [Chia Seeds](http://localhost:3000/docs/foods/chia-seeds) | Seeds, chia seeds, dried — dried | 0.924 mg (per 100 g edible portion) | docs/foods/chia-seeds.md#nutrition_per_100g/copper_mg |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 0.492 mg (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/copper_mg |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 0.048 mg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/copper_mg |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 0.656 mg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/copper_mg; docs/foods/chickpeas.md#substance_relationships/Copper |
 | [Chicory Root](http://localhost:3000/docs/foods/chicory-root) | Chicory roots, raw (Cichorium intybus) — raw | 0.077 mg (per 100 g edible portion; dietary fibre does not include inulin) | docs/foods/chicory-root.md#nutrition_per_100g/copper_mg; docs/foods/chicory-root.md#substance_relationships/Copper |
@@ -430,6 +435,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Parmesan Cheese](http://localhost:3000/docs/foods/parmesan-cheese) | Cheese, parmesan, hard | 0.032 mg (per 100 g edible portion) | docs/foods/parmesan-cheese.md#nutrition_per_100g/copper_mg |
 | [Parsley](http://localhost:3000/docs/foods/parsley) | Parsley, fresh | 0.149 mg (per 100 g edible portion) | docs/foods/parsley.md#nutrition_per_100g/copper_mg |
 | [Peanuts](http://localhost:3000/docs/foods/peanuts) | Peanuts, all types, raw — raw | 1.144 mg (per 100 g edible portion) | docs/foods/peanuts.md#nutrition_per_100g/copper_mg; docs/foods/peanuts.md#substance_relationships/Copper |
+| [Pears](http://localhost:3000/docs/foods/pears) | Pears, raw — raw | 0.082 mg (per 100 g edible portion) | docs/foods/pears.md#nutrition_per_100g/copper_mg |
 | [Peas](http://localhost:3000/docs/foods/peas) | Peas, green, raw — raw | 0.176 mg (per 100 g edible portion) | docs/foods/peas.md#nutrition_per_100g/copper_mg |
 | [Peppermint](http://localhost:3000/docs/foods/peppermint) | Peppermint, fresh | 0.329 mg (per 100 g edible portion) | docs/foods/peppermint.md#nutrition_per_100g/copper_mg |
 | [Pistachios](http://localhost:3000/docs/foods/pistachios) | Nuts, pistachio nuts, raw — raw | 1.3 mg (per 100 g edible portion) | docs/foods/pistachios.md#nutrition_per_100g/copper_mg |
@@ -614,7 +620,7 @@ No eligible dietary food list is generated. Check the PM dietary-input decision 
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (128)</summary>
+<summary>All mapped food sources (130)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -646,6 +652,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 0.027 mg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/manganese_mg |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 0.07 mg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/manganese_mg |
 | [Chia Seeds](http://localhost:3000/docs/foods/chia-seeds) | Seeds, chia seeds, dried — dried | 2.723 mg (per 100 g edible portion) | docs/foods/chia-seeds.md#nutrition_per_100g/manganese_mg; docs/foods/chia-seeds.md#substance_relationships/Manganese |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 0.255 mg (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/manganese_mg |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 0.019 mg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/manganese_mg |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 4.15 mg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/manganese_mg; docs/foods/chickpeas.md#substance_relationships/Manganese |
 | [Chicory Root](http://localhost:3000/docs/foods/chicory-root) | Chicory roots, raw (Cichorium intybus) — raw | 0.233 mg (per 100 g edible portion; dietary fibre does not include inulin) | docs/foods/chicory-root.md#nutrition_per_100g/manganese_mg |
@@ -699,6 +706,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Parmesan Cheese](http://localhost:3000/docs/foods/parmesan-cheese) | Cheese, parmesan, hard | 0.02 mg (per 100 g edible portion) | docs/foods/parmesan-cheese.md#nutrition_per_100g/manganese_mg |
 | [Parsley](http://localhost:3000/docs/foods/parsley) | Parsley, fresh | 0.16 mg (per 100 g edible portion) | docs/foods/parsley.md#nutrition_per_100g/manganese_mg |
 | [Peanuts](http://localhost:3000/docs/foods/peanuts) | Peanuts, all types, raw — raw | 1.934 mg (per 100 g edible portion) | docs/foods/peanuts.md#nutrition_per_100g/manganese_mg; docs/foods/peanuts.md#substance_relationships/Manganese |
+| [Pears](http://localhost:3000/docs/foods/pears) | Pears, raw — raw | 0.048 mg (per 100 g edible portion) | docs/foods/pears.md#nutrition_per_100g/manganese_mg |
 | [Peas](http://localhost:3000/docs/foods/peas) | Peas, green, raw — raw | 0.41 mg (per 100 g edible portion) | docs/foods/peas.md#nutrition_per_100g/manganese_mg |
 | [Peppermint](http://localhost:3000/docs/foods/peppermint) | Peppermint, fresh | 1.176 mg (per 100 g edible portion) | docs/foods/peppermint.md#nutrition_per_100g/manganese_mg |
 | [Pistachios](http://localhost:3000/docs/foods/pistachios) | Nuts, pistachio nuts, raw — raw | 1.2 mg (per 100 g edible portion) | docs/foods/pistachios.md#nutrition_per_100g/manganese_mg |
@@ -754,7 +762,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (119)</summary>
+<summary>All mapped food sources (121)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -785,6 +793,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 0.71 mg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/vitamin_e_mg |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 0.07 mg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/vitamin_e_mg |
 | [Chia Seeds](http://localhost:3000/docs/foods/chia-seeds) | Seeds, chia seeds, dried — dried | 0.5 mg (per 100 g edible portion) | docs/foods/chia-seeds.md#nutrition_per_100g/vitamin_e_mg |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 0.7 mg (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_e_mg |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 0.3 mg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/vitamin_e_mg |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 0.82 mg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/vitamin_e_mg |
 | [Cilantro](http://localhost:3000/docs/foods/cilantro) | Coriander (cilantro) leaves, raw — raw | 2.5 mg (per 100 g edible portion) | docs/foods/cilantro.md#nutrition_per_100g/vitamin_e_mg |
@@ -838,6 +847,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Parmesan Cheese](http://localhost:3000/docs/foods/parmesan-cheese) | Cheese, parmesan, hard | 0.22 mg (per 100 g edible portion) | docs/foods/parmesan-cheese.md#nutrition_per_100g/vitamin_e_mg |
 | [Parsley](http://localhost:3000/docs/foods/parsley) | Parsley, fresh | 0.75 mg (per 100 g edible portion) | docs/foods/parsley.md#nutrition_per_100g/vitamin_e_mg |
 | [Peanuts](http://localhost:3000/docs/foods/peanuts) | Peanuts, all types, raw — raw | 8.33 mg (per 100 g edible portion) | docs/foods/peanuts.md#nutrition_per_100g/vitamin_e_mg; docs/foods/peanuts.md#substance_relationships/Vitamin%20E |
+| [Pears](http://localhost:3000/docs/foods/pears) | Pears, raw — raw | 0.12 mg (per 100 g edible portion) | docs/foods/pears.md#nutrition_per_100g/vitamin_e_mg |
 | [Peas](http://localhost:3000/docs/foods/peas) | Peas, green, raw — raw | 0.13 mg (per 100 g edible portion) | docs/foods/peas.md#nutrition_per_100g/vitamin_e_mg |
 | [Pistachios](http://localhost:3000/docs/foods/pistachios) | Nuts, pistachio nuts, raw — raw | 2.86 mg (per 100 g edible portion) | docs/foods/pistachios.md#nutrition_per_100g/vitamin_e_mg |
 | [Pomegranates](http://localhost:3000/docs/foods/pomegranates) | Pomegranates, raw — raw | 0.6 mg (per 100 g edible portion) | docs/foods/pomegranates.md#nutrition_per_100g/vitamin_e_mg |

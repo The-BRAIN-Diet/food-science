@@ -708,5 +708,95 @@
     "contract": "system/brs-citation-reference-standard.md",
     "example": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
     "scope": "Approved LAT1 relocation with canonical linked reference labels; no scientific change."
+  },
+  {
+    "file": "docs/biological-targets/mitochondrial-function-bioenergetics.md",
+    "sha256": "8ecc817ba5ad6ea997e6394d8ad14eaa76e8e43f4897aac748200ba9c0a409e2",
+    "author_approval": "Author requested missing PM10 navigation repair in this localhost BRS4 view.",
+    "approval_source": "5 November2026: still do not see PM10 in this view; original CoQ integration index-update approval.",
+    "proposal": "review/pm10-localhost-navigation-2026-11-05/report.md",
+    "contract": "system/brs-page-schema.md",
+    "example": "docs/biological-targets/mitochondrial-function-bioenergetics.md",
+    "scope": "Two links in existing BRS4 mechanism lists only."
+  },
+  {
+    "file": "src/components/PilotInterventionDisclosure.tsx",
+    "sha256": "77ddc0d48292edc96603c3f4d1724c6b87fd0662a6d3ff9bfc78daf092a86aa0",
+    "author_approval": "Author approval: PM presentation and derived mapping implementation — 6 November 2026",
+    "approval_source": "Current author instruction: CODEX EXEC — PM SOP & Lifestyle Food–Substance Integration",
+    "proposal": "review/intervention-food-substance-2026-11-06/proposal.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/intervention-food-substance-2026-11-06/proposal.md",
+    "scope": "PM SOP/Lifestyle title-adjacent canonical identity/composition links only; no dietary admissions, scores or other page types"
+  },
+  {
+    "file": "src/components/PmDietaryLeverEnhancer.tsx",
+    "sha256": "2702f4d963731bdb0c8de92397c608d3d16e43a87bf58d64bb3198447b066e27",
+    "author_approval": "Author approval: PM presentation and derived mapping implementation — 6 November 2026",
+    "approval_source": "Current author instruction: CODEX EXEC — PM SOP & Lifestyle Food–Substance Integration",
+    "proposal": "review/intervention-food-substance-2026-11-06/proposal.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/intervention-food-substance-2026-11-06/proposal.md",
+    "scope": "PM SOP/Lifestyle title-adjacent canonical identity/composition links only; no dietary admissions, scores or other page types"
+  },
+  {
+    "file": "system/templates/primary-mechanism-template.mdx",
+    "sha256": "16055199708fb74beb7ae6b6e33b60f4524552cb339e8155508d578a658678eb",
+    "author_approval": "Author approval: PM presentation and derived mapping implementation — 6 November 2026",
+    "approval_source": "Current author instruction: CODEX EXEC — PM SOP & Lifestyle Food–Substance Integration",
+    "proposal": "review/intervention-food-substance-2026-11-06/proposal.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/intervention-food-substance-2026-11-06/proposal.md",
+    "scope": "PM SOP/Lifestyle title-adjacent canonical identity/composition links only; no dietary admissions, scores or other page types"
+  },
+  {
+    "file": "src/components/CanonicalPmMission.tsx",
+    "sha256": "ef3bea12958d2a9040f7133290ca173404d0ebf1355ad50ca9386025ec7ac530",
+    "author_approval": "Author approved canonical scientific projections and the Melatonin PM3 frontmatter Mission renderer, 10 November 2026.",
+    "approval_source": "Cursor instruction, 10 November 2026: Adopt Canonical Scientific Truth and Presentation Consistency; preserve the Melatonin PM3 implementation. No new admission, SEC change, commit or deployment.",
+    "proposal": "review/circadian-pm3-identity-review-2026-11-10/REPORT.md",
+    "contract": "system/canonical-scientific-projections.md",
+    "example": "review/circadian-pm3-identity-review-2026-11-10/REPORT.md",
+    "scope": "One component that renders the current PM frontmatter mission. No second mission sentence, new section, admission or food edge."
+  },
+  {
+    "file": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability.mdx",
+    "sha256": "bcb6db9e6bb695e02f6ce9cebd5e8771b8caeda895f3fc92a01c0b3199fa1cfa",
+    "author_approval": "Author approved canonical scientific projections and the Melatonin PM3 frontmatter Mission renderer, 10 November 2026.",
+    "approval_source": "Cursor instruction, 10 November 2026: Adopt Canonical Scientific Truth and Presentation Consistency; preserve the Melatonin PM3 implementation. No new admission, SEC change, commit or deployment.",
+    "proposal": "review/circadian-pm3-identity-review-2026-11-10/REPORT.md",
+    "contract": "system/canonical-scientific-projections.md",
+    "example": "review/circadian-pm3-identity-review-2026-11-10/REPORT.md",
+    "scope": "PM3 visible Mission element reads canonical frontmatter. Historical assessment, unresolved dietary admission and missing-identity gap retained. No contextual food activation."
+  },
+  {
+    "file": "docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx",
+    "sha256": "3336239c0020a05ce1e54327a48664e8a4ff392572c7e149aef4072ef747f3c1",
+    "author_approval": "Author instructed a full Stage 2A/2B rerun of this PM with a reworked Section 4 whose 4.1 mirrors the Section 4 subsections, 12 November 2026.",
+    "approval_source": "Cursor instruction, 12 November 2026: this PM https://thebraindiet.org/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation/ has not had a full assessment of evidence please run 2a and 2b again; add the Maldonado and McCarthy studies and summary we discussed above; you can connect evidence to the 'Canonical Synthesised Evidence — Pilot 1 Record' review also but respect the tab structure and 'evidence & audit' tab. Please summarise those changes. Section 4 needs a lot of work and 4.1 needs to mirror section 4 subsections. Follow-up instruction, 12 November 2026: Now please run the SEC scoring for BRS6-2-4.",
+    "proposal": "review/brs6-pm4-stage2ab-2026-11-12/REPORT.md",
+    "contract": "system/pm-evidence-tabs-contract.md",
+    "example": "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
+    "scope": "One PM page. Existing section-4 evidence-tabs layout (Summary, mechanism-to-SF bullets, one mechanistic-detail dropdown, generated 4.1); dated Stage 2A/2B details block removed; no new component, section type or page-type rollout. SEC remains not-yet-scored; no phenome relationship, commit or deployment. Codex-provisional Finding SEC for PM4-F1–F7; synthesised_evidence_confidence remains not-yet-scored; no human review or intervention SEC."
+  },
+  {
+    "file": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
+    "sha256": "75d96dc9f3cdbbcf6971d6045e91565d3d6ec2adbd997fea4aee79c1c8b6c5d4",
+    "author_approval": "Author instructed that PM8 Section 4 SF numbering be synced to the consecutive SF1–SFN labels already shown in 4.1.",
+    "approval_source": "Cursor instruction, 12 November 2026: https://thebraindiet.org/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling/ the section 4 numbering for SFs was updated but section 4 lags behind and still starts at 12 whereas 4.1 has the good numbering ; please sync",
+    "proposal": "system/pm-evidence-tabs-contract.md",
+    "contract": "system/pm-evidence-tabs-contract.md",
+    "example": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx",
+    "scope": "BRS6-FM4-PM8 Section 4 mechanism headings and Supporting evidence links only. Reader labels SF1–SF10; canonical PM8-F12–F21 IDs, anchors, scores and 4.1 records unchanged. No new component, section type or page-type rollout."
+  },
+  {
+    "file": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
+    "sha256": "51eba42950e2a8ee340c1404a19b828178855ea393e1602811c1b77dfb41fa9a",
+    "author_approval": "Author instructed that urolithin A be reassessed for Decision 1, that a urolithin A dietary lever be added with walnuts and pomegranate and a stated animal-data limitation, and that a Scientific Hypothesis be added to PM8.",
+    "approval_source": "Cursor instruction, 12 November 2026: we are missing a food and evidence for Decision 1 … i want this reassessing and to add a dietary lever of urolithin A with associated foods i.e walnuts as per the study and pomegranate as per our ontology. We have the obvious limitation to state animal data but that is not enough to not include a dietary lever with a limitation and the associated evidence . We also have i believe in 2a or 2b the 'Hypothesis' parameter to add as in this PM https://thebraindiet.org/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis/#scientific-hypotheses please research and score as appropriate",
+    "proposal": "system/scientific-hypotheses-schema.md",
+    "contract": "system/scientific-hypotheses-schema.md; system/pm-evidence-tabs-contract.md",
+    "example": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+    "scope": "BRS6-FM4-PM8 only: §3.1.1 adds Urolithin A and Ellagitannins bullets; §4 Summary bullet and SF11–SF13 mechanism blocks; §4.1 regenerated with PM8-F22–F24; existing ScientificHypothesis component placed before §4.1 (PM8-H1); §8 references 70–75 appended; evidence gap PM8-EG-7. Existing IDs, anchors, scores and SF1–SF10 unchanged. No new component or page-type rollout."
   }
 ]

@@ -169,3 +169,8 @@ Recipes: meal-category folder before letter. BRS / FM / PM / KC: BRS hierarchy (
 ## Working rule
 
 See `.cursor/rules/framework-qc.mdc`. Log outside the active batch; do not fix unless the exception criteria apply.
+
+
+## Canonical scientific projections — approved 10 November 2026
+
+Apply [Canonical scientific truth and presentation consistency](canonical-scientific-projections.md), including its five scientific, automated, release and publication checkpoints. Current mission comes from PM frontmatter; explanatory prose must not strengthen the canonical science. Preserve authoritative admissions, limitations and SEC history. Report conflicts with provenance instead of selecting the newest text.

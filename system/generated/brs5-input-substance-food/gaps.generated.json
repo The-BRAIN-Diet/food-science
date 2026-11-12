@@ -170,13 +170,6 @@
     {
       "kind": "stale-missing-substance-status",
       "pm_id": "BRS5-FM2-PM4",
-      "atom_id": "PM4-DIT-2",
-      "input": "Citrus pectin",
-      "resolved_id": "pectin"
-    },
-    {
-      "kind": "stale-missing-substance-status",
-      "pm_id": "BRS5-FM2-PM4",
       "atom_id": "PM4-DIT-3",
       "input": "Resistant starch (RS2/RS3)",
       "resolved_id": "resistant-starch"

@@ -243,8 +243,18 @@ export default function NutritionTable({details, view = "highlights"}: Nutrition
     }
     const isNull = raw === null
     const value = typeof raw === "number" ? raw : null
+    const decimals =
+      details.micronutrient_table === "complete" &&
+      (MICRONUTRIENT_KEYS as readonly string[]).includes(key) &&
+      value !== null &&
+      value > 0 &&
+      roundTo(value, 1) === 0
+        ? roundTo(value, 2) === 0
+          ? 3
+          : 2
+        : 1
     const displayAmount =
-      value === null ? (isNull ? "—" : "") : `${roundTo(value, 1)} ${meta.unit}`.trim()
+      value === null ? (isNull ? "—" : "") : `${roundTo(value, decimals)} ${meta.unit}`.trim()
 
     let percentDisplay = "—"
     const rda = RDA_VALUES[key]
@@ -495,6 +505,25 @@ export default function NutritionTable({details, view = "highlights"}: Nutrition
               </tr>
             </thead>
             <tbody>{microRows}{mineralRangeRows.map(renderRangeRow)}</tbody>
+          </table>
+        </>
+      )}
+
+      {details.micronutrient_table === "complete" && advancedMicroRows.length > 0 && (
+        <>
+          <h3>Vitamins and minerals</h3>
+          <p style={{fontSize: "0.9em", color: "var(--ifm-font-color-base)", marginTop: "0.5rem"}}>
+            {ADVANCED_NUTRITION_CAPTION} No entry here supplies 10% of an adult reference intake per 100 g.
+          </p>
+          <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
+            <thead>
+              <tr>
+                <th style={thStyle}>Nutrient</th>
+                <th style={thStyle}>Amount per 100 g</th>
+                <th style={thStyle}>% reference intake per 100 g</th>
+              </tr>
+            </thead>
+            <tbody>{advancedMicroRows}</tbody>
           </table>
         </>
       )}

@@ -5,10 +5,10 @@
       "food_id": "walnuts",
       "substance_id": "ellagitannins",
       "material": "Walnut kernels",
-      "preparation": "Walnut kernels; assay-specific extraction",
+      "preparation": "Kernels",
       "status": "verified-equivalent",
       "canonical_material": "Walnut kernels",
-      "canonical_preparation": "Walnut kernels; assay-specific extraction",
+      "canonical_preparation": "Kernels",
       "canonical_evidence": [
         {
           "record": "docs/foods/walnuts.md#substance_relationships/Ellagitannins",
@@ -205,8 +205,10 @@
       ],
       "relationship": "contains",
       "mapping_status": "research-supported-provisional",
-      "material_equivalence_status": "not-applicable",
-      "ontology_relationship_status": "missing-context-edge"
+      "material_equivalence_status": "review-required",
+      "ontology_relationship_status": "material-equivalence-review",
+      "display_material_context": true,
+      "material_equivalence_reason": "Preparation equivalence is not established."
     },
     {
       "food_id": "chicken",

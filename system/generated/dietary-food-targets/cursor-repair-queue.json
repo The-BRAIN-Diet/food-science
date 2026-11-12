@@ -1815,7 +1815,7 @@
     {
       "source_entity": "apples",
       "target_entity": "pectin",
-      "relationship_type": "contains",
+      "relationship_type": "material-equivalence-review",
       "canonical_ids": {
         "food": "apples",
         "substance": "pectin"
@@ -1836,9 +1836,9 @@
       "affected_pms": [
         "BRS5-FM2-PM5"
       ],
-      "missing_edge": "docs/foods/apples.md#substance_relationships: contains pectin (Cultivar-specific extracted analytical fractions; not a standardised pectin dose)",
-      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
-      "verification_status": "pending-independent-verification"
+      "missing_edge": "Apples (studied cultivars) → Pectin [Analytical cell-wall pectin fractions from the thirteen apple cultivars studied by Liu et al.; Cultivar-specific extracted analytical fractions; not a standardised pectin dose]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
+      "required_action": "Compare the existing edge with this source material, brand/fortification, cultivar, preparation and analytical context. Do not create a new food edge unless independently established as necessary.",
+      "verification_status": "requires-material-equivalence-review"
     },
     {
       "source_entity": "cacao-powder",
@@ -2156,6 +2156,34 @@
         "BRS5-FM2-PM6"
       ],
       "missing_edge": "Ellagitannins → Ellagic acid: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "tryptophan",
+      "target_entity": "Active target unresolved",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "tryptophan",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM3-F1"
+          ],
+          "citation_keys": [
+            "zimmermann_tryptophan_melatonin_1993"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS-X(Circadian-FM1-PM3)"
+      ],
+      "missing_edge": "Tryptophan → active target: structured conversion pathway",
       "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
       "verification_status": "requires-pathway-reconciliation"
     },

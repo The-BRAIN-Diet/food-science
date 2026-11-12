@@ -13,7 +13,7 @@ Generated from the same authoritative records as the PM disclosures. The preview
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (146)</summary>
+<summary>All mapped food sources (148)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -48,6 +48,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 3.64 mg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/zinc_mg; docs/foods/cheddar-cheese.md#substance_relationships/Zinc |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 0.07 mg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/zinc_mg |
 | [Chia Seeds](http://localhost:3000/docs/foods/chia-seeds) | Seeds, chia seeds, dried — dried | 4.58 mg (per 100 g edible portion) | docs/foods/chia-seeds.md#nutrition_per_100g/zinc_mg |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 2.67 mg (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/zinc_mg |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 1.31 mg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/zinc_mg; docs/foods/chicken.md#substance_relationships/Zinc |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 2.76 mg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/zinc_mg; docs/foods/chickpeas.md#substance_relationships/Zinc |
 | [Chicory Root](http://localhost:3000/docs/foods/chicory-root) | Chicory roots, raw (Cichorium intybus) — raw | 0.33 mg (per 100 g edible portion; dietary fibre does not include inulin) | docs/foods/chicory-root.md#nutrition_per_100g/zinc_mg; docs/foods/chicory-root.md#substance_relationships/Zinc |
@@ -112,6 +113,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Parmesan Cheese](http://localhost:3000/docs/foods/parmesan-cheese) | Cheese, parmesan, hard | 2.75 mg (per 100 g edible portion) | docs/foods/parmesan-cheese.md#nutrition_per_100g/zinc_mg |
 | [Parsley](http://localhost:3000/docs/foods/parsley) | Parsley, fresh | 1.07 mg (per 100 g edible portion) | docs/foods/parsley.md#nutrition_per_100g/zinc_mg |
 | [Peanuts](http://localhost:3000/docs/foods/peanuts) | Peanuts, all types, raw — raw | 3.27 mg (per 100 g edible portion) | docs/foods/peanuts.md#nutrition_per_100g/zinc_mg; docs/foods/peanuts.md#substance_relationships/Zinc |
+| [Pears](http://localhost:3000/docs/foods/pears) | Pears, raw — raw | 0.1 mg (per 100 g edible portion) | docs/foods/pears.md#nutrition_per_100g/zinc_mg |
 | [Peas](http://localhost:3000/docs/foods/peas) | Peas, green, raw — raw | 1.24 mg (per 100 g edible portion) | docs/foods/peas.md#nutrition_per_100g/zinc_mg |
 | [Peppermint](http://localhost:3000/docs/foods/peppermint) | Peppermint, fresh | 1.11 mg (per 100 g edible portion) | docs/foods/peppermint.md#nutrition_per_100g/zinc_mg |
 | [Pistachios](http://localhost:3000/docs/foods/pistachios) | Nuts, pistachio nuts, raw — raw | 2.2 mg (per 100 g edible portion) | docs/foods/pistachios.md#nutrition_per_100g/zinc_mg |
@@ -240,6 +242,9 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 
 Separate from dietary relationship filters.
 
+- BRS-X(Circadian-FM1-PM3) — Tryptophan: PM-owned dietary relationship
+- BRS-X(Circadian-FM1-PM3) — S-adenosylmethionine (SAM): Endogenous/biochemical dependency
+- BRS-X(Circadian-FM1-PM3) — Acetyl-CoA: Endogenous/biochemical dependency
 - BRS-X(ECS-PM1) — N-acyl phosphatidylethanolamines (NAPEs): Endogenous/biochemical dependency
 - BRS-X(ECS-PM1) — Phosphatidylethanolamine: Endogenous/biochemical dependency
 - BRS-X(ECS-PM3) — Anandamide (AEA): Endogenous/biochemical dependency

@@ -36,6 +36,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Cheddar Cheese | 3 | zinc; dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid | BRS-X(ECS-PM1); BRS-X(ECS-PM2); BRS-X(Hormones-PM5) |  |
 | Cherries | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Chia Seeds | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
+| Chicken Liver | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Chicken | 3 | zinc; dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid | BRS-X(ECS-PM1); BRS-X(ECS-PM2); BRS-X(Hormones-PM5) |  |
 | Chickpeas | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Chicory Root | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
@@ -100,13 +101,14 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Parmesan Cheese | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Parsley | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Peanuts | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
+| Pears | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Peas | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Peppermint | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Pistachios | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Pomegranates | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Pork | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Potatoes | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
-| Pumpkin Seeds | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
+| Pumpkin Seeds | 1 | tryptophan; zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Quinoa | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Radicchio | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Raspberries | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
@@ -124,7 +126,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Shiitake Mushroom | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Shrimp | 3 | zinc; epa-eicosapentaenoic-acid; dha-docosahexaenoic-acid | BRS-X(ECS-PM1); BRS-X(ECS-PM2); BRS-X(Hormones-PM5) |  |
 | Sourdough Bread | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
-| Soy | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
+| Soy | 1 | tryptophan; zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Spelt | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Spinach | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Spirulina | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
@@ -140,7 +142,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Tomatoes | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Trout Roe | 2 | epa-eicosapentaenoic-acid; dha-docosahexaenoic-acid | BRS-X(ECS-PM2) |  |
 | Tuna | 3 | dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid; zinc | BRS-X(ECS-PM1); BRS-X(ECS-PM2); BRS-X(Hormones-PM5) |  |
-| Turkey | 2 | dha-docosahexaenoic-acid; zinc | BRS-X(ECS-PM1); BRS-X(ECS-PM2); BRS-X(Hormones-PM5) |  |
+| Turkey | 2 | tryptophan; dha-docosahexaenoic-acid; zinc | BRS-X(ECS-PM1); BRS-X(ECS-PM2); BRS-X(Hormones-PM5) |  |
 | Turmeric | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Vinegar Pickles | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |
 | Vinegar | 1 | zinc | BRS-X(ECS-PM1); BRS-X(Hormones-PM5) |  |

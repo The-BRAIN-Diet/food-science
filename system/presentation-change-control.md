@@ -23,3 +23,8 @@ Both Dietary pathways technical panel types are withdrawn on ALL pages by explic
 ## Authorised nested pathway-disclosure removal — 3 November 2026
 
 Owner instruction: “Delete Unauthorised Dietary Pathway Disclosure.” Remove the generated `Dietary pathway evidence` / `.pm-input-pathway-evidence` block from all PM six-atom disclosures, including PM9 vitamin B6. Remove its exclusive renderer argument and ontology-projection subscription. This is a shared presentation removal only: keep pathway records, six atoms, Dietary Confidence, ontology links and approved food sources unchanged. No replacement is authorised. Representative expected result: PM9 vitamin B6 opens its existing six atoms and food disclosures without a nested pathway-evidence heading. The presentation baseline is not regenerated.
+
+
+## Canonical scientific projections — approved 10 November 2026
+
+Apply [Canonical scientific truth and presentation consistency](canonical-scientific-projections.md), including its five scientific, automated, release and publication checkpoints. Current mission comes from PM frontmatter; explanatory prose must not strengthen the canonical science. Preserve authoritative admissions, limitations and SEC history. Report conflicts with provenance instead of selecting the newest text.

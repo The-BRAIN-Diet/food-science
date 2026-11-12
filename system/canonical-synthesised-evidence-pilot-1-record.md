@@ -420,3 +420,9 @@ The accepted result:
 - Legacy row-level Evidence Level and Evidence Confidence remain unresolved and unchanged while further pilots test the new architecture.
 
 Pilot 1 is **accepted and conceptually closed**.
+
+---
+
+## Downstream use (pointer only; this record is unchanged)
+
+12 November 2026 — the BRS6-FM2-PM4 Stage 2A/2B reassessment uses this record as provenance. SF1 is carried into `PM4-F7` with Maldonado 2009 and McCarthy 2011 added as Evidence Considered. Scheer 2009 and Schmidt 2015 remain primary Findings `PM4-F1` and `PM4-F2`, and both are also connected evidence for `PM4-F7`. SF2 (stress reactivity) is not a PM4 Finding; Kamradt 2018 and Lane 2010 are kept as connected evidence only. The Schmidt direction tension is recorded in decision `PM4-ADJ-BGOS-1` and gap `PM4-EG-DIRECTION-1`. No PH015 relationship, SEC score or legacy rating is created. Report: `review/brs6-pm4-stage2ab-2026-11-12/REPORT.md`.

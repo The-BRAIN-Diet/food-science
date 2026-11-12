@@ -22,5 +22,21 @@
     "dietary_input": true,
     "note": "Type B regulatory relationship; no dietary necessity, brain efficacy or ordinary-food intervention equivalence.",
     "flags": []
+  },
+  {
+    "relationship_id": "BRS6-FM4-PM8::PM8-DIT-13",
+    "source_record": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx#dietary_input_traceability/PM8-DIT-13",
+    "input": "Urolithin A",
+    "dietary_input": true,
+    "note": "Type B regulatory relationship admitted with a preclinical-evidence limitation on owner instruction (12 November 2026). Dietary delivery is precursor-mediated through ellagitannin-rich foods; supplements are not equated with food.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS6-FM4-PM8::PM8-DIT-14",
+    "source_record": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx#dietary_input_traceability/PM8-DIT-14",
+    "input": "Ellagitannins",
+    "dietary_input": true,
+    "note": "Derived precursor relationship supporting PM8-DIT-13; no extra-intake benefit, dose or producer-independent effect is implied.",
+    "flags": []
   }
 ]

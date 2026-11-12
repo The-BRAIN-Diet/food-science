@@ -708,120 +708,204 @@ SECTIONS = [
     },
     {
         "title": "BRS6 — Metabolic & Neuroendocrine Regulation",
+        "revision_note": (
+            "Revised 12 November 2026 against the current BRS6 mechanism "
+            "pages and their intervention evidence. BRS1–BRS5 retain the "
+            "15 July 2026 text."
+        ),
         "biological_regulatory_identity": (
-            "Adaptive performance requires coordinated allocation of energy, "
-            "inflammatory load and recovery capacity across the body — not merely "
-            "adequate hormone levels in isolation. BRS6 (Metabolic & "
-            "Neuroendocrine Regulation) represents this integrated whole-body "
-            "capacity: glycaemic stability, HPA-axis cortisol rhythm, autonomic "
-            "balance and proportionate stress–metabolic load allocation operating "
-            "as the principal systems through which physiological demand is "
-            "translated into constraints on cognitive and behavioural performance.\n\n"
-            "BRS6 warrants Biological Regulatory System status because it "
-            "coordinates how physiological resources are mobilised and restored "
-            "under demand — determining whether cognition, mood and behavioural "
-            "control remain proportionate or drift toward exhaustion. In ADHD, "
-            "where evidence identifies altered cortisol rhythms, autonomic "
-            "arousal differences, cerebral glucose metabolism shifts and elevated "
-            "metabolic comorbidity, this regulatory tier is biologically relevant "
-            "as the system's principal gateway for resource allocation across "
-            "the integrated network — the architectural tier most directly "
-            "aligned with allostatic theory."
+            "Adaptive performance depends on more than supply. Energy has to "
+            "arrive at a manageable rate, circulating glucose has to be "
+            "cleared, activation has to be timed across the day, and the body "
+            "has to return from acute demand. BRS6 (Metabolic & "
+            "Neuroendocrine Regulation) is the system that allocates these "
+            "resources. Its Functional Mechanisms cover glycaemic and insulin "
+            "stability, the daily rhythm of the hypothalamic–pituitary–adrenal "
+            "axis, autonomic balance and vagal recovery, and the coupling of "
+            "stress, inflammation, adipose signalling and appetite. Circadian "
+            "feeding and light–dark entrainment, formerly part of this system, "
+            "are now treated within circadian (temporal) regulation.\n\n"
+            "What unites these mechanisms is the kind of quantity they "
+            "regulate. Each governs a rate, a swing, a clearance, a daily "
+            "phase or a recovery, rather than the size of a nutrient-dependent "
+            "pool. That property defines the system biologically, and it also "
+            "determines how diet can reach it. BRS6 is relevant to ADHD "
+            "because the cohort evidence points to altered timing and recovery "
+            "of stress physiology rather than to a missing substrate."
         ),
         "landmark_adhd_evidence": (
-            "Within the BRAIN Framework, ADHD serves as the principal "
-            "translational exemplar for BRS6 — not because the disorder is "
-            "reducible to endocrine pathology, but because it demonstrates how "
-            "resource-allocation dysregulation constrains performance across "
-            "connected regulatory systems. A systematic review with meta-analysis "
-            "establishes HPA-axis dysregulation as a reproducible ADHD "
-            "neuroendocrine signature. Chang et al. (2021), in Translational "
-            "Psychiatry, reported altered basal and morning cortisol patterns in "
-            "youths with ADHD compared with typically developing peers — anchoring "
-            "stress-axis rhythm as a landmark regulatory domain within the "
-            "disorder.\n\n"
-            "Complementary cohort and mechanistic evidence extends this framing "
-            "beyond cortisol alone. Chang et al. (2020) measured cortisol "
-            "alongside inflammatory biomarkers and neurotrophins in Taiwanese "
-            "children and adolescents with ADHD, linking neuroendocrine rhythm "
-            "to immune activation that propagates into BRS3. Lane et al. (2010) "
-            "differentiated sensory over-responsivity from ADHD using cortisol "
-            "and autonomic markers — supporting autonomic balance as a distinct "
-            "regulatory dimension within the same architectural tier. Early "
-            "landmark PET work by Zametkin et al. (1990) demonstrated altered "
-            "cerebral glucose metabolism in prefrontal and striatal regions in "
-            "adults with hyperactivity of childhood onset, anchoring metabolic "
-            "energy allocation as long-standing ADHD-relevant biology.\n\n"
-            "Long-term metabolic burden extends the argument into adulthood. "
-            "Di Girolamo et al. (2022) reported higher prevalence of metabolic "
-            "syndrome and insulin resistance in adult ADHD outpatients versus "
-            "expected population rates, while Marcelli et al. (2025) synthesise "
-            "shared mechanisms bridging ADHD and metabolic disorders. ADHD is "
-            "therefore not interpreted as a cortisol disorder alone. Rather, "
-            "disturbed resource allocation represents the systemic logic through "
-            "which glycaemic instability, inflammatory load and recovery "
-            "capacity progressively constrain BRS4 bioenergetics and BRS1 "
-            "neurochemical performance — the architectural question the "
-            "framework poses and the ADHD exemplar helps answer."
+            "ADHD is a useful exemplar for BRS6 because its most consistent "
+            "cohort finding concerns the timing of stress-axis output, while "
+            "the findings most often assumed, exaggerated stress reactivity "
+            "and metabolic disease, are weaker than commonly stated. Keeping "
+            "these apart is the translational argument.\n\n"
+            "Chang et al. (2021) meta-analysed case–control studies of youths "
+            "with ADHD and found lower basal cortisol, lower cumulative daily "
+            "output and lower morning cortisol (g = 0.84), with no afternoon "
+            "difference. The direction is consistent; the size is not settled. "
+            "Heterogeneity is extreme, and in the authors' sensitivity analysis "
+            "the morning effect fell to g = 0.24 when two influential studies "
+            "with younger samples (Maldonado et al., 2009; McCarthy et al., "
+            "2011) were removed, so the effect may be larger in younger "
+            "children. The authors state that their analysis cannot support a conclusion "
+            "about stress reactivity, and a link with symptom severity has not "
+            "been demonstrated.\n\n"
+            "Acute reactivity is a separate question. Kamradt et al. (2018) "
+            "pooled twelve case–control studies (N = 1,041) of the cortisol "
+            "change after an acute stressor and found no overall association "
+            "(r = 0.00, 95% CI −0.36 to 0.36), with study directions evenly "
+            "split. That interval is compatible with large blunting or large "
+            "elevation, and adjustment for possible publication bias moved the "
+            "estimate towards moderate blunting, so the null is uninformative "
+            "rather than reassuring. Lane et al. (2010), one of the pooled "
+            "studies, found no significant cortisol difference at baseline or "
+            "after a sensory challenge in 84 children. Its significant "
+            "physiological result was greater electrodermal recovery in "
+            "children with ADHD and sensory over-responsivity: an autonomic "
+            "signal, not an adrenal one.\n\n"
+            "On the metabolic side, Di Girolamo et al. (2022) found metabolic "
+            "syndrome in 17 of 158 adult outpatients with ADHD (10.8%). Below "
+            "age 60 the prevalence did not differ significantly from European "
+            "normative data, and the sample contained no older adults, so the "
+            "study does not establish a metabolic excess in adult ADHD.\n\n"
+            "Together, the cohort evidence describes a lower morning phase of "
+            "cortisol and a possible difference in autonomic recovery. It does "
+            "not identify a substrate deficit, and none of these studies "
+            "tested a dietary or lifestyle intervention in ADHD."
+        ),
+        "evidence_review_heading": (
+            "Intervention evidence: why so few food substances are listed"
+        ),
+        "evidence_review": (
+            "Each BRS6 mechanism carries two statements about intervention. "
+            "An intervention-dominance label (Diet-Dominant, Diet-Supported or "
+            "Lifestyle-Dominant) is carried over from the framework's earlier "
+            "assessment. A principal route names the class of lever whose "
+            "tested evidence most directly addresses the mechanism: a direct "
+            "dietary requirement, a system optimisation practice (a defined "
+            "dietary, timing or behavioural protocol) or a lifestyle lever. "
+            "Neither is a claim of comparative superiority. The selected route "
+            "is moved to the top of the mechanism page as section 1.1, beside "
+            "the mission; when dietary requirements are the route, their direct "
+            "dietary inputs appear there as 1.1.1. No BRS6 mechanism promotes "
+            "dietary requirements: five promote system optimisation practices, "
+            "two promote lifestyle levers and one promotes no route. Read "
+            "together, the labels and routes rarely point to a nutrient. Glucose appearance is labelled "
+            "Diet-Dominant, but its route is a set of practices that compare "
+            "food form or meal order: wholemeal rye against refined wheat "
+            "bread, fish before rice, a slowly digestible breakfast against "
+            "extruded cereal, a whey preload, isomaltulose in place of sucrose. "
+            "Glycaemic variability is also labelled Diet-Dominant, yet its "
+            "route is lifestyle: supervised interval walking and brief "
+            "vigorous activity. Stress-linked appetite is Diet-Supported, but "
+            "its route is food-related mindfulness training. Cortisol rhythm, "
+            "sympathetic recovery and heart-rate variability are "
+            "Lifestyle-Dominant, with routes in aligned sleep–wake and meal "
+            "timing, focused-attention meditation and slow breathing. No "
+            "principal route was selected for adipose endocrine signalling. "
+            "Where the label says diet, the tested route is a food form, a "
+            "schedule or no food at all.\n\n"
+            "The list of direct dietary requirements (section 3.1.1 on every "
+            "BRS6 page, because none is promoted to 1.1.1) is where a food "
+            "substance is named as something a mechanism needs. Across the "
+            "eight active BRS6 mechanisms it holds three entries: resistant "
+            "starch and magnesium for insulin-sensitive glucose disposal, and "
+            "DHA for adipose endocrine signalling. Each is narrower than its "
+            "name. The resistant-starch effect came from a 30 g/day supplement "
+            "given to ten healthy adults, and a later 40 g/day trial in type 2 "
+            "diabetes was null. The magnesium relationship rests on depletion "
+            "experiments in rats. DHA changed circulating adiponectin in "
+            "supplement and enriched-oil studies, without an equivalent food "
+            "dose. Oral arginine at 9 g/day and a combined EPA and DHA "
+            "supplement are listed as conditional practices, not requirements, "
+            "because they are formulations rather than dietary intakes.\n\n"
+            "The practices and lifestyle levers carry the evidence, and their "
+            "limits are consistent. Participants were mostly adults with type 2 "
+            "diabetes, prediabetes or obesity, or healthy young adults; none "
+            "had ADHD. Endpoints are surrogates, and mediation is rarely "
+            "isolated. An early six-hour eating window lowered an "
+            "insulin-resistance index in eight men with prediabetes, but "
+            "fasting glucose was unchanged and triglycerides rose. About 5% "
+            "diet-induced weight loss improved clamp-measured insulin "
+            "sensitivity without identifying the responsible tissue change. "
+            "The cortisol evidence is a disruption experiment: combined "
+            "misalignment of sleep and meals reversed the daily cortisol "
+            "rhythm (Scheer et al., 2009), a five-hour meal delay alone did not "
+            "shift it (Wehrens et al., 2017), and restoring an abnormal rhythm "
+            "was not tested. Brief vigorous bouts missed their primary "
+            "mean-glucose endpoint, and mindfulness training changed reported "
+            "stress eating without a measured change in everyday intake. "
+            "Aerobic conditioning appears on the heart-rate-variability page "
+            "beside a statement that no separate lifestyle lever was "
+            "established, so it is not yet a settled lever.\n\n"
+            "The short substance list is therefore a result, not an omission. "
+            "A dietary requirement presupposes a capacity that supply limits: "
+            "a substrate, cofactor or structural component whose shortfall "
+            "impairs the mechanism and whose provision restores it. BRS6 "
+            "mechanisms regulate the kinetics and timing of resources that are "
+            "usually already present, so what moves them is the structure and "
+            "order of a meal, the timing of eating, body weight, activity, "
+            "breathing and attention. A food can be the vehicle of a tested "
+            "comparison without becoming a requirement. Rye bread slowed early "
+            "glucose appearance without identifying a responsible nutrient; "
+            "cooling and reheating the same chickpea pasta changed its "
+            "digestible fraction without changing the food. The shared-resource "
+            "analysis agrees. Circulating glucose is a credible cerebral "
+            "constraint (Mergenthaler et al., 2013), but carbohydrate, "
+            "protein, fat and fibre were not shown to form one shared pool, "
+            "and magnesium, the B vitamins, vitamin C, iron, zinc and EPA/DHA "
+            "were not shown to form one stress-response nutrient pool. A "
+            "nutrient that participates in many BRS6 pathways counts as one "
+            "consolidated relationship, not a reason to recommend it; it enters dietary "
+            "guidance only where an intervention effect or adequacy concern "
+            "has been shown. In BRS6, diet acts mainly through meal "
+            "architecture and timing, and the testable prediction is that "
+            "BRS6-directed interventions in ADHD will need to be evaluated as "
+            "protocols rather than nutrient prescriptions."
         ),
         "systems_integration": (
-            "BRS6 coordinates resource allocation across the integrated BRS "
-            "network. Glycaemic instability and HPA-axis dysregulation constrain "
-            "mitochondrial recovery and bioenergetic reserve within BRS4 (Picard "
-            "et al., 2014). Chronic stress activation propagates inflammatory "
-            "signalling through BRS3 (Slavich & Irwin, 2014), while autonomic "
-            "and cortisol dynamics directly modulate the conditions under which "
-            "BRS1 sustains neurotransmitter regulation (Thayer et al., 2012). "
-            "Gut–vagal signalling from BRS5 feeds back into autonomic and "
-            "HPA-axis responsiveness, completing a peripheral–central loop "
-            "through which dietary and lifestyle inputs influence whole-body "
-            "load allocation.\n\n"
-            "The framework makes BRS6→BRS1, BRS6→BRS3 and BRS6→BRS4 explicit "
-            "as mutual constraints: when HPA-axis rhythm, glycaemic stability "
-            "or autonomic recovery become chronically dysregulated, cumulative "
-            "load progressively constrains performance across connected systems "
-            "(McEwen, 2006). Landmark architectural evidence supports this "
-            "organisation: Thayer et al. (2012) link heart-rate variability to "
-            "prefrontal regulatory capacity; Picard et al. (2014) formalise "
-            "mitochondrial allostatic load as the energetic cost of sustained "
-            "stress-axis activation. BRS6 is therefore the principal gateway "
-            "through which whole-body demand is translated into constraints on "
-            "every connected regulatory system."
+            "BRS6 coordinates load across the network. Glycaemic instability "
+            "and sustained stress-axis activation constrain mitochondrial "
+            "recovery in BRS4 (Picard et al., 2014). Chronic stress activation "
+            "can propagate inflammatory signalling through BRS3 (Slavich & "
+            "Irwin, 2014). Autonomic state, indexed by heart-rate variability, "
+            "is coupled to prefrontal regulation and so to the conditions for "
+            "neurotransmitter signalling in BRS1 (Thayer et al., 2012). "
+            "Gut–vagal signalling from BRS5 feeds autonomic and cortisol "
+            "responsiveness. These are architectural constraints. They do not "
+            "turn a tested meal comparison or a breathing practice into a "
+            "substance that every connected system requires."
         ),
         "role_within_adaptive_network": (
-            "BRS6 coordinates the resource-allocation logic through which "
-            "whole-body energy, inflammatory burden and recovery capacity are "
-            "proportionately distributed across the integrated network — the "
-            "architectural tier most directly aligned with allostatic theory. "
-            "When HPA-axis rhythm, glycaemic stability or autonomic recovery "
-            "become chronically dysregulated, cumulative load progressively "
-            "constrains performance across connected systems (McEwen, 2006). "
-            "Meal timing, glycaemic balance and stress-recovery practices "
-            "therefore become nutritionally meaningful because they influence "
-            "the systemic logic through which adaptive regulatory capacities "
-            "are mobilised and restored — not because they correct isolated "
-            "hormone values, but because they support the resource-allocation "
-            "architecture on which every other Biological Regulatory System "
-            "depends."
+            "BRS6 supplies the resource-allocation logic on which the other "
+            "Biological Regulatory Systems depend. In allostatic terms it sets "
+            "how quickly energy is mobilised, when activation peaks and how "
+            "completely the body returns from demand (McEwen, 1998). Its "
+            "nutritional translation is therefore about how meals are built, "
+            "ordered and placed in the day, alongside activity, sleep–wake "
+            "alignment and recovery practices; resistant starch, magnesium and "
+            "DHA are bounded exceptions, not the basis of a general endocrine "
+            "or micronutrient prescription."
         ),
         "references": {
             "adhd_landmark": [
-                "Chang, J. P.-C., et al. (2021). Cortisol and inflammatory biomarker levels in youths with ADHD. Translational Psychiatry, 11, 388. https://doi.org/10.1038/s41398-021-01388-3",
-                "Chang, J. P.-C., et al. (2020). Cortisol, inflammatory biomarkers and neurotrophins in children and adolescents with ADHD in Taiwan. Brain, Behavior, and Immunity, 88, 105–113. https://doi.org/10.1016/j.bbi.2020.05.017",
-                "Lane, S. J., Reynolds, S., & Thacker, L. (2010). Sensory over-responsivity and ADHD differentiated using cortisol and autonomic markers. American Journal of Occupational Therapy, 64(3), 393–403. https://doi.org/10.5014/ajot.2010.09031",
-                "Zametkin, A. J., et al. (1990). Cerebral glucose metabolism in adults with hyperactivity of childhood onset. New England Journal of Medicine, 323(20), 1361–1366. https://doi.org/10.1056/NEJM199011153232001",
-                "Di Girolamo, G., et al. (2022). Prevalence of metabolic syndrome and insulin resistance in adult ADHD outpatients. Frontiers in Psychiatry, 13, 1078932. https://doi.org/10.3389/fpsyt.2022.1078932",
-                "Marcelli, V., et al. (2025). Bridging ADHD and metabolic disorders: Shared mechanisms and clinical implications. Brain Sciences, 15(1), 42. https://doi.org/10.3390/brainsci15010042",
+                "Chang, J. P.-C., Su, K.-P., Mondelli, V., & Pariante, C. M. (2021). Cortisol and inflammatory biomarker levels in youths with attention deficit hyperactivity disorder (ADHD): Evidence from a systematic review with meta-analysis. Translational Psychiatry, 11, 430. https://doi.org/10.1038/s41398-021-01550-0",
+                "Maldonado, E. F., Trianes, M. V., Cortés, A., Moreno, E., & Escobar, M. (2009). Salivary cortisol response to a psychosocial stressor on children diagnosed with attention-deficit/hyperactivity disorder: Differences between diagnostic subtypes. The Spanish Journal of Psychology, 12(2), 707–714. https://doi.org/10.1017/S1138741600002079",
+                "McCarthy, A. M., Hanrahan, K., Scott, L. M., Zemblidge, N., Kleiber, C., & Zimmerman, M. B. (2011). Salivary cortisol responsivity to an intravenous catheter insertion in children with attention-deficit/hyperactivity disorder. Journal of Pediatric Psychology, 36(8), 902–910. https://doi.org/10.1093/jpepsy/jsr012",
+                "Kamradt, J. M., Momany, A. M., & Nikolas, M. A. (2018). A meta-analytic review of the association between cortisol reactivity in response to a stressor and attention-deficit hyperactivity disorder. ADHD Attention Deficit and Hyperactivity Disorders, 10(2), 99–111. https://doi.org/10.1007/s12402-017-0238-5",
+                "Lane, S. J., Reynolds, S., & Thacker, L. (2010). Sensory over-responsivity and ADHD: Differentiating using electrodermal responses, cortisol, and anxiety. Frontiers in Integrative Neuroscience, 4, 8. https://doi.org/10.3389/fnint.2010.00008",
+                "Di Girolamo, G., Bracco, I. F., Portigliatti Pomeri, A., Puglisi, S., & Oliva, F. (2022). Prevalence of metabolic syndrome and insulin resistance in a sample of adult ADHD outpatients. Frontiers in Psychiatry, 13, 891479. https://doi.org/10.3389/fpsyt.2022.891479",
             ],
             "systems_integration": [
-                "Thayer, J. F., Ahs, F., Fredrikson, M., Sollers, J. J., & Wager, T. D. (2012). A meta-analysis of heart rate variability and neuroimaging studies: Implications for heart rate variability as a marker of stress and health. Neuroscience & Biobehavioral Reviews, 36(2), 747–756. https://doi.org/10.1016/j.neubiorev.2011.11.009",
                 "Picard, M., Juster, R.-P., & McEwen, B. S. (2014). Mitochondrial allostatic load puts the 'gluc' back in glucocorticoids. Nature Reviews Endocrinology, 10(5), 303–310. https://doi.org/10.1038/nrendo.2014.22",
                 "Slavich, G. M., & Irwin, M. R. (2014). From stress to inflammation and major depressive disorder: A social signal transduction theory of depression. Psychological Bulletin, 140(3), 774–815. https://doi.org/10.1037/a0035302",
+                "Thayer, J. F., Ahs, F., Fredrikson, M., Sollers, J. J., & Wager, T. D. (2012). A meta-analysis of heart rate variability and neuroimaging studies: Implications for heart rate variability as a marker of stress and health. Neuroscience & Biobehavioral Reviews, 36(2), 747–756. https://doi.org/10.1016/j.neubiorev.2011.11.009",
+                "Scheer, F. A. J. L., Hilton, M. F., Mantzoros, C. S., & Shea, S. A. (2009). Adverse metabolic and cardiovascular consequences of circadian misalignment. Proceedings of the National Academy of Sciences of the United States of America. https://doi.org/10.1073/pnas.0808180106",
+                "Wehrens, S. M. T., Christou, S., Isherwood, C., Middleton, B., Gibbs, M. A., Archer, S. N., Skene, D. J., & Johnston, J. D. (2017). Meal timing regulates the human circadian system. Current Biology. https://doi.org/10.1016/j.cub.2017.04.059",
+                "Mergenthaler, P., Lindauer, U., Dienel, G. A., & Meisel, A. (2013). Sugar for the brain: The role of glucose in physiological and pathological brain function. Trends in Neurosciences, 36(10), 587–597. https://doi.org/10.1016/j.tins.2013.07.001",
             ],
             "allostasis_and_resilience": [
                 "McEwen, B. S. (1998). Protective and damaging effects of stress mediators. New England Journal of Medicine, 338(3), 171–179. https://doi.org/10.1056/NEJM199801083380307",
-                "McEwen, B. S. (2006). Protective and damaging effects of stress mediators: Central role of the brain. Dialogues in Clinical Neuroscience, 8(4), 367–381. https://doi.org/10.31887/DCNS.2006.8.4/bmcewen",
-                "Sterling, P., & Eyer, J. (1988). Allostasis: A new paradigm to explain arousal pathology. In S. Fisher & J. Reason (Eds.), Handbook of Life Stress, Cognition and Health. Wiley.",
             ],
         },
     },
@@ -864,6 +948,8 @@ def count_words(*texts):
 
 def add_section(doc, section):
     add_body_paragraphs(doc, section["title"], heading_level=1, heading_size=14)
+    if section.get("revision_note"):
+        add_body_paragraphs(doc, section["revision_note"])
 
     add_body_paragraphs(
         doc, "Biological Regulatory Identity", heading_level=2, heading_size=13
@@ -874,6 +960,15 @@ def add_section(doc, section):
         doc, "Landmark ADHD Evidence", heading_level=2, heading_size=13
     )
     add_body_paragraphs(doc, section["landmark_adhd_evidence"])
+
+    if section.get("evidence_review"):
+        add_body_paragraphs(
+            doc,
+            section.get("evidence_review_heading", "What closer review changed"),
+            heading_level=2,
+            heading_size=13,
+        )
+        add_body_paragraphs(doc, section["evidence_review"])
 
     add_body_paragraphs(doc, "Systems Integration", heading_level=2, heading_size=13)
     add_body_paragraphs(doc, section["systems_integration"])
@@ -901,6 +996,7 @@ def add_section(doc, section):
     return count_words(
         section["biological_regulatory_identity"],
         section["landmark_adhd_evidence"],
+        section.get("evidence_review", ""),
         section["systems_integration"],
         section["role_within_adaptive_network"],
     )

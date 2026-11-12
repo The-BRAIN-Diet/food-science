@@ -904,6 +904,47 @@
       "record": "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx#dietary_input_traceability/PM7-DIT-RECOVERY-CAPRYLIC-TRIGLYCERIDE",
       "from_page": "/docs/substances/endogenous-metabolites/acetyl-coa",
       "to_page": "/docs/substances/endogenous-metabolites/acetoacetate"
+    },
+    {
+      "from": "ellagitannins",
+      "to": "ellagic-acid",
+      "process": "Hydrolysis of ellagitannins releases ellagic acid in the gut lumen.",
+      "evidence": {
+        "statement": "Ellagitannin-rich pomegranate juice produced variable downstream urolithin A exposure in healthy adults, consistent with hydrolysis to ellagic acid before microbial conversion.",
+        "sources": [
+          "https://doi.org/10.1038/s41430-021-00950-1"
+        ]
+      },
+      "limitations": "Hydrolysis extent varies with food matrix and ellagitannin structure; no food-to-ellagic-acid yield is established.",
+      "id": "BRS6-FM4-PM8::PM8-DIT-14:conversion:0",
+      "relationship": "endogenous-formation",
+      "status": "supported",
+      "scope_pm": "BRS6-FM4-PM8",
+      "record": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx#dietary_input_traceability/PM8-DIT-14",
+      "from_page": "/docs/substances/bioactive-compounds/polyphenols/ellagitannins",
+      "to_page": "/docs/substances/bioactive-compounds/polyphenols/phenolic-acids/ellagic-acid"
+    },
+    {
+      "from": "ellagic-acid",
+      "to": "urolithin-a",
+      "process": "Gut microbial conversion of ellagic acid through intermediate urolithins to urolithin A.",
+      "dependencies": [
+        "Urolithin-producing gut microbiota (Gordonibacter and Ellagibacter-related taxa); producer status varies between people"
+      ],
+      "evidence": {
+        "statement": "Human intestinal Gordonibacter species converted ellagic acid to intermediate urolithins; complete urolithin A production depends on the wider community.",
+        "sources": [
+          "https://doi.org/10.1039/c4fo00092g"
+        ]
+      },
+      "limitations": "Non-producers form little or no urolithin A; the species studied did not complete conversion alone.",
+      "id": "BRS6-FM4-PM8::PM8-DIT-14:conversion:1",
+      "relationship": "microbial-formation",
+      "status": "supported",
+      "scope_pm": "BRS6-FM4-PM8",
+      "record": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx#dietary_input_traceability/PM8-DIT-14",
+      "from_page": "/docs/substances/bioactive-compounds/polyphenols/phenolic-acids/ellagic-acid",
+      "to_page": "/docs/substances/microbial-metabolites/secondary-plant-conversions/urolithin-a"
     }
   ],
   "paths": [
@@ -1169,6 +1210,84 @@
               "relationship_type": "contains",
               "presence_status": "presence_and_amount_supported",
               "limitations": "USDA FoodData Central reports vitamin B2 in Broccoli, raw."
+            }
+          ],
+          "delivery": "precursor-source",
+          "substance_title": "Vitamin B2 (Riboflavin)"
+        },
+        {
+          "id": "chicken-liver::vitamin-b2::chicken liver all classes raw::raw",
+          "substance_id": "vitamin-b2",
+          "food_id": "chicken-liver",
+          "food_title": "Chicken Liver",
+          "food_page": "/docs/foods/chicken-liver",
+          "food_record": "docs/foods/chicken-liver.md",
+          "material": "Chicken, liver, all classes, raw",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "nutrition_source": {
+                "database": "USDA FoodData Central",
+                "food_name": "Chicken, liver, all classes, raw",
+                "fdc_id": 171060,
+                "retrieval_method": "SR Legacy bulk (April 2018)",
+                "basis": "per 100 g edible portion",
+                "last_checked": "2026-11-11"
+              },
+              "value": 1.778,
+              "unit": "mg",
+              "basis": "per 100 g edible portion",
+              "source_url": null,
+              "source_reference": null,
+              "material": "Chicken, liver, all classes, raw",
+              "preparation": "raw",
+              "record": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "source_record": "docs/foods/chicken-liver.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "rank_eligible": true,
+              "comparison_group": "edible::raw",
+              "low": 1.778,
+              "high": 1.778,
+              "display": "1.778 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
             }
           ],
           "delivery": "precursor-source",
@@ -1994,6 +2113,84 @@
           "substance_title": "Vitamin B2 (Riboflavin)"
         },
         {
+          "id": "chicken-liver::vitamin-b2::chicken liver all classes raw::raw",
+          "substance_id": "vitamin-b2",
+          "food_id": "chicken-liver",
+          "food_title": "Chicken Liver",
+          "food_page": "/docs/foods/chicken-liver",
+          "food_record": "docs/foods/chicken-liver.md",
+          "material": "Chicken, liver, all classes, raw",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "nutrition_source": {
+                "database": "USDA FoodData Central",
+                "food_name": "Chicken, liver, all classes, raw",
+                "fdc_id": 171060,
+                "retrieval_method": "SR Legacy bulk (April 2018)",
+                "basis": "per 100 g edible portion",
+                "last_checked": "2026-11-11"
+              },
+              "value": 1.778,
+              "unit": "mg",
+              "basis": "per 100 g edible portion",
+              "source_url": null,
+              "source_reference": null,
+              "material": "Chicken, liver, all classes, raw",
+              "preparation": "raw",
+              "record": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "source_record": "docs/foods/chicken-liver.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "rank_eligible": true,
+              "comparison_group": "edible::raw",
+              "low": 1.778,
+              "high": 1.778,
+              "display": "1.778 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+            }
+          ],
+          "delivery": "precursor-source",
+          "substance_title": "Vitamin B2 (Riboflavin)"
+        },
+        {
           "id": "kale::vitamin-b2::kale raw::raw",
           "substance_id": "vitamin-b2",
           "food_id": "kale",
@@ -2783,6 +2980,84 @@
               "relationship_type": "contains",
               "presence_status": "presence_and_amount_supported",
               "limitations": "USDA FoodData Central reports vitamin B2 in Broccoli, raw."
+            }
+          ],
+          "delivery": "precursor-source",
+          "substance_title": "Vitamin B2 (Riboflavin)"
+        },
+        {
+          "id": "chicken-liver::vitamin-b2::chicken liver all classes raw::raw",
+          "substance_id": "vitamin-b2",
+          "food_id": "chicken-liver",
+          "food_title": "Chicken Liver",
+          "food_page": "/docs/foods/chicken-liver",
+          "food_record": "docs/foods/chicken-liver.md",
+          "material": "Chicken, liver, all classes, raw",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "nutrition_source": {
+                "database": "USDA FoodData Central",
+                "food_name": "Chicken, liver, all classes, raw",
+                "fdc_id": 171060,
+                "retrieval_method": "SR Legacy bulk (April 2018)",
+                "basis": "per 100 g edible portion",
+                "last_checked": "2026-11-11"
+              },
+              "value": 1.778,
+              "unit": "mg",
+              "basis": "per 100 g edible portion",
+              "source_url": null,
+              "source_reference": null,
+              "material": "Chicken, liver, all classes, raw",
+              "preparation": "raw",
+              "record": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "source_record": "docs/foods/chicken-liver.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "rank_eligible": true,
+              "comparison_group": "edible::raw",
+              "low": 1.778,
+              "high": 1.778,
+              "display": "1.778 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
             }
           ],
           "delivery": "precursor-source",
@@ -3608,6 +3883,84 @@
           "substance_title": "Vitamin B2 (Riboflavin)"
         },
         {
+          "id": "chicken-liver::vitamin-b2::chicken liver all classes raw::raw",
+          "substance_id": "vitamin-b2",
+          "food_id": "chicken-liver",
+          "food_title": "Chicken Liver",
+          "food_page": "/docs/foods/chicken-liver",
+          "food_record": "docs/foods/chicken-liver.md",
+          "material": "Chicken, liver, all classes, raw",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "nutrition_source": {
+                "database": "USDA FoodData Central",
+                "food_name": "Chicken, liver, all classes, raw",
+                "fdc_id": 171060,
+                "retrieval_method": "SR Legacy bulk (April 2018)",
+                "basis": "per 100 g edible portion",
+                "last_checked": "2026-11-11"
+              },
+              "value": 1.778,
+              "unit": "mg",
+              "basis": "per 100 g edible portion",
+              "source_url": null,
+              "source_reference": null,
+              "material": "Chicken, liver, all classes, raw",
+              "preparation": "raw",
+              "record": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "source_record": "docs/foods/chicken-liver.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "rank_eligible": true,
+              "comparison_group": "edible::raw",
+              "low": 1.778,
+              "high": 1.778,
+              "display": "1.778 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+            }
+          ],
+          "delivery": "precursor-source",
+          "substance_title": "Vitamin B2 (Riboflavin)"
+        },
+        {
           "id": "kale::vitamin-b2::kale raw::raw",
           "substance_id": "vitamin-b2",
           "food_id": "kale",
@@ -4397,6 +4750,84 @@
               "relationship_type": "contains",
               "presence_status": "presence_and_amount_supported",
               "limitations": "USDA FoodData Central reports vitamin B2 in Broccoli, raw."
+            }
+          ],
+          "delivery": "precursor-source",
+          "substance_title": "Vitamin B2 (Riboflavin)"
+        },
+        {
+          "id": "chicken-liver::vitamin-b2::chicken liver all classes raw::raw",
+          "substance_id": "vitamin-b2",
+          "food_id": "chicken-liver",
+          "food_title": "Chicken Liver",
+          "food_page": "/docs/foods/chicken-liver",
+          "food_record": "docs/foods/chicken-liver.md",
+          "material": "Chicken, liver, all classes, raw",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "nutrition_source": {
+                "database": "USDA FoodData Central",
+                "food_name": "Chicken, liver, all classes, raw",
+                "fdc_id": 171060,
+                "retrieval_method": "SR Legacy bulk (April 2018)",
+                "basis": "per 100 g edible portion",
+                "last_checked": "2026-11-11"
+              },
+              "value": 1.778,
+              "unit": "mg",
+              "basis": "per 100 g edible portion",
+              "source_url": null,
+              "source_reference": null,
+              "material": "Chicken, liver, all classes, raw",
+              "preparation": "raw",
+              "record": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "source_record": "docs/foods/chicken-liver.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "rank_eligible": true,
+              "comparison_group": "edible::raw",
+              "low": 1.778,
+              "high": 1.778,
+              "display": "1.778 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
             }
           ],
           "delivery": "precursor-source",
@@ -5216,6 +5647,84 @@
               "relationship_type": "contains",
               "presence_status": "presence_and_amount_supported",
               "limitations": "USDA FoodData Central reports vitamin B2 in Broccoli, raw."
+            }
+          ],
+          "delivery": "precursor-source",
+          "substance_title": "Vitamin B2 (Riboflavin)"
+        },
+        {
+          "id": "chicken-liver::vitamin-b2::chicken liver all classes raw::raw",
+          "substance_id": "vitamin-b2",
+          "food_id": "chicken-liver",
+          "food_title": "Chicken Liver",
+          "food_page": "/docs/foods/chicken-liver",
+          "food_record": "docs/foods/chicken-liver.md",
+          "material": "Chicken, liver, all classes, raw",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "nutrition_source": {
+                "database": "USDA FoodData Central",
+                "food_name": "Chicken, liver, all classes, raw",
+                "fdc_id": 171060,
+                "retrieval_method": "SR Legacy bulk (April 2018)",
+                "basis": "per 100 g edible portion",
+                "last_checked": "2026-11-11"
+              },
+              "value": 1.778,
+              "unit": "mg",
+              "basis": "per 100 g edible portion",
+              "source_url": null,
+              "source_reference": null,
+              "material": "Chicken, liver, all classes, raw",
+              "preparation": "raw",
+              "record": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "source_record": "docs/foods/chicken-liver.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "rank_eligible": true,
+              "comparison_group": "edible::raw",
+              "low": 1.778,
+              "high": 1.778,
+              "display": "1.778 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
             }
           ],
           "delivery": "precursor-source",
@@ -7470,6 +7979,84 @@
           "substance_title": "Vitamin B2 (Riboflavin)"
         },
         {
+          "id": "chicken-liver::vitamin-b2::chicken liver all classes raw::raw",
+          "substance_id": "vitamin-b2",
+          "food_id": "chicken-liver",
+          "food_title": "Chicken Liver",
+          "food_page": "/docs/foods/chicken-liver",
+          "food_record": "docs/foods/chicken-liver.md",
+          "material": "Chicken, liver, all classes, raw",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "nutrition_source": {
+                "database": "USDA FoodData Central",
+                "food_name": "Chicken, liver, all classes, raw",
+                "fdc_id": 171060,
+                "retrieval_method": "SR Legacy bulk (April 2018)",
+                "basis": "per 100 g edible portion",
+                "last_checked": "2026-11-11"
+              },
+              "value": 1.778,
+              "unit": "mg",
+              "basis": "per 100 g edible portion",
+              "source_url": null,
+              "source_reference": null,
+              "material": "Chicken, liver, all classes, raw",
+              "preparation": "raw",
+              "record": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "source_record": "docs/foods/chicken-liver.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "rank_eligible": true,
+              "comparison_group": "edible::raw",
+              "low": 1.778,
+              "high": 1.778,
+              "display": "1.778 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+            }
+          ],
+          "delivery": "precursor-source",
+          "substance_title": "Vitamin B2 (Riboflavin)"
+        },
+        {
           "id": "kale::vitamin-b2::kale raw::raw",
           "substance_id": "vitamin-b2",
           "food_id": "kale",
@@ -8283,6 +8870,84 @@
               "relationship_type": "contains",
               "presence_status": "presence_and_amount_supported",
               "limitations": "USDA FoodData Central reports vitamin B2 in Broccoli, raw."
+            }
+          ],
+          "delivery": "precursor-source",
+          "substance_title": "Vitamin B2 (Riboflavin)"
+        },
+        {
+          "id": "chicken-liver::vitamin-b2::chicken liver all classes raw::raw",
+          "substance_id": "vitamin-b2",
+          "food_id": "chicken-liver",
+          "food_title": "Chicken Liver",
+          "food_page": "/docs/foods/chicken-liver",
+          "food_record": "docs/foods/chicken-liver.md",
+          "material": "Chicken, liver, all classes, raw",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "nutrition_source": {
+                "database": "USDA FoodData Central",
+                "food_name": "Chicken, liver, all classes, raw",
+                "fdc_id": 171060,
+                "retrieval_method": "SR Legacy bulk (April 2018)",
+                "basis": "per 100 g edible portion",
+                "last_checked": "2026-11-11"
+              },
+              "value": 1.778,
+              "unit": "mg",
+              "basis": "per 100 g edible portion",
+              "source_url": null,
+              "source_reference": null,
+              "material": "Chicken, liver, all classes, raw",
+              "preparation": "raw",
+              "record": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "source_record": "docs/foods/chicken-liver.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "rank_eligible": true,
+              "comparison_group": "edible::raw",
+              "low": 1.778,
+              "high": 1.778,
+              "display": "1.778 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
             }
           ],
           "delivery": "precursor-source",
@@ -9512,6 +10177,84 @@
           "substance_title": "Vitamin B2 (Riboflavin)"
         },
         {
+          "id": "chicken-liver::vitamin-b2::chicken liver all classes raw::raw",
+          "substance_id": "vitamin-b2",
+          "food_id": "chicken-liver",
+          "food_title": "Chicken Liver",
+          "food_page": "/docs/foods/chicken-liver",
+          "food_record": "docs/foods/chicken-liver.md",
+          "material": "Chicken, liver, all classes, raw",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "nutrition_source": {
+                "database": "USDA FoodData Central",
+                "food_name": "Chicken, liver, all classes, raw",
+                "fdc_id": 171060,
+                "retrieval_method": "SR Legacy bulk (April 2018)",
+                "basis": "per 100 g edible portion",
+                "last_checked": "2026-11-11"
+              },
+              "value": 1.778,
+              "unit": "mg",
+              "basis": "per 100 g edible portion",
+              "source_url": null,
+              "source_reference": null,
+              "material": "Chicken, liver, all classes, raw",
+              "preparation": "raw",
+              "record": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "source_record": "docs/foods/chicken-liver.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "rank_eligible": true,
+              "comparison_group": "edible::raw",
+              "low": 1.778,
+              "high": 1.778,
+              "display": "1.778 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+            }
+          ],
+          "delivery": "precursor-source",
+          "substance_title": "Vitamin B2 (Riboflavin)"
+        },
+        {
           "id": "kale::vitamin-b2::kale raw::raw",
           "substance_id": "vitamin-b2",
           "food_id": "kale",
@@ -10326,6 +11069,84 @@
               "relationship_type": "contains",
               "presence_status": "presence_and_amount_supported",
               "limitations": "USDA FoodData Central reports vitamin B2 in Broccoli, raw."
+            }
+          ],
+          "delivery": "precursor-source",
+          "substance_title": "Vitamin B2 (Riboflavin)"
+        },
+        {
+          "id": "chicken-liver::vitamin-b2::chicken liver all classes raw::raw",
+          "substance_id": "vitamin-b2",
+          "food_id": "chicken-liver",
+          "food_title": "Chicken Liver",
+          "food_page": "/docs/foods/chicken-liver",
+          "food_record": "docs/foods/chicken-liver.md",
+          "material": "Chicken, liver, all classes, raw",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "nutrition_source": {
+                "database": "USDA FoodData Central",
+                "food_name": "Chicken, liver, all classes, raw",
+                "fdc_id": 171060,
+                "retrieval_method": "SR Legacy bulk (April 2018)",
+                "basis": "per 100 g edible portion",
+                "last_checked": "2026-11-11"
+              },
+              "value": 1.778,
+              "unit": "mg",
+              "basis": "per 100 g edible portion",
+              "source_url": null,
+              "source_reference": null,
+              "material": "Chicken, liver, all classes, raw",
+              "preparation": "raw",
+              "record": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "source_record": "docs/foods/chicken-liver.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "rank_eligible": true,
+              "comparison_group": "edible::raw",
+              "low": 1.778,
+              "high": 1.778,
+              "display": "1.778 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
             }
           ],
           "delivery": "precursor-source",
@@ -12057,6 +12878,84 @@
           "substance_title": "Vitamin B2 (Riboflavin)"
         },
         {
+          "id": "chicken-liver::vitamin-b2::chicken liver all classes raw::raw",
+          "substance_id": "vitamin-b2",
+          "food_id": "chicken-liver",
+          "food_title": "Chicken Liver",
+          "food_page": "/docs/foods/chicken-liver",
+          "food_record": "docs/foods/chicken-liver.md",
+          "material": "Chicken, liver, all classes, raw",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "nutrition_source": {
+                "database": "USDA FoodData Central",
+                "food_name": "Chicken, liver, all classes, raw",
+                "fdc_id": 171060,
+                "retrieval_method": "SR Legacy bulk (April 2018)",
+                "basis": "per 100 g edible portion",
+                "last_checked": "2026-11-11"
+              },
+              "value": 1.778,
+              "unit": "mg",
+              "basis": "per 100 g edible portion",
+              "source_url": null,
+              "source_reference": null,
+              "material": "Chicken, liver, all classes, raw",
+              "preparation": "raw",
+              "record": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "source_record": "docs/foods/chicken-liver.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "rank_eligible": true,
+              "comparison_group": "edible::raw",
+              "low": 1.778,
+              "high": 1.778,
+              "display": "1.778 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+            }
+          ],
+          "delivery": "precursor-source",
+          "substance_title": "Vitamin B2 (Riboflavin)"
+        },
+        {
           "id": "kale::vitamin-b2::kale raw::raw",
           "substance_id": "vitamin-b2",
           "food_id": "kale",
@@ -12870,6 +13769,84 @@
               "relationship_type": "contains",
               "presence_status": "presence_and_amount_supported",
               "limitations": "USDA FoodData Central reports vitamin B2 in Broccoli, raw."
+            }
+          ],
+          "delivery": "precursor-source",
+          "substance_title": "Vitamin B2 (Riboflavin)"
+        },
+        {
+          "id": "chicken-liver::vitamin-b2::chicken liver all classes raw::raw",
+          "substance_id": "vitamin-b2",
+          "food_id": "chicken-liver",
+          "food_title": "Chicken Liver",
+          "food_page": "/docs/foods/chicken-liver",
+          "food_record": "docs/foods/chicken-liver.md",
+          "material": "Chicken, liver, all classes, raw",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "nutrition_source": {
+                "database": "USDA FoodData Central",
+                "food_name": "Chicken, liver, all classes, raw",
+                "fdc_id": 171060,
+                "retrieval_method": "SR Legacy bulk (April 2018)",
+                "basis": "per 100 g edible portion",
+                "last_checked": "2026-11-11"
+              },
+              "value": 1.778,
+              "unit": "mg",
+              "basis": "per 100 g edible portion",
+              "source_url": null,
+              "source_reference": null,
+              "material": "Chicken, liver, all classes, raw",
+              "preparation": "raw",
+              "record": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "source_record": "docs/foods/chicken-liver.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+              "rank_eligible": true,
+              "comparison_group": "edible::raw",
+              "low": 1.778,
+              "high": 1.778,
+              "display": "1.778 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+              "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+              "source_reference": null,
+              "citation_keys": [
+                "usda_chicken_liver_raw_sr_legacy_2019"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
             }
           ],
           "delivery": "precursor-source",
@@ -15359,61 +16336,6 @@
       "limitations": "Uncontrolled sequential exposure: C8/C10 mixture (n=11) then 95% tricaprylin (n=6), 30 g/day for one month each. No claim of isolated C8 superiority, cognitive efficacy, healthy-person requirement or ordinary coconut-oil equivalence. PET uptake/metabolism is not a direct cellular ATP assay; no food-effective dose or fixed conversion yield is inferred."
     },
     {
-      "id": "BRS5-FM2-PM4::PM4-DIT-2:PECTIN-MICROBIAL-SCFAS",
-      "pm": "BRS5-FM2-PM4",
-      "pm_page": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection",
-      "mission": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
-      "atom_id": "PM4-DIT-2",
-      "input": "Citrus pectin",
-      "substance_id": "pectin",
-      "substance_page": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin",
-      "target_id": "scfas",
-      "target_title": "Short-Chain Fatty Acids (SCFAs)",
-      "target_page": "/docs/substances/microbial-metabolites/scfas/scfas",
-      "type": null,
-      "classification": "direct",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "pm_specific_status": "admitted-substrate-production-context",
-      "downstream_pm_admission": false,
-      "conversion_pathway": [
-        {
-          "id": "PECTIN-MICROBIAL-SCFAS",
-          "from": "pectin",
-          "to": "scfas",
-          "relationship": "microbial-formation",
-          "status": "supported",
-          "process": "Microbial fermentation of pectin to a context-dependent SCFA mixture",
-          "dependencies": [
-            "Pectin-degrading microbial community",
-            "Tested substrate structure and culture conditions"
-          ],
-          "evidence": {
-            "statement": "Bang 2018 measured fermentation and SCFA changes using pectin and fecal inocula from three donors.",
-            "sources": [
-              "https://doi.org/10.1186/s13568-018-0629-9"
-            ]
-          },
-          "limitations": "Purified preparation in donor-derived cultures; whole apples are not equivalent interventions. The shared food projection claims SCFA provision context only and must not infer a food-specific butyrate response.",
-          "pm_evidence_refs": [
-            "BRS5-FM2-PM5::PM5-F1"
-          ],
-          "record": "/docs/substances/microbial-metabolites/scfas/scfas",
-          "from_page": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin",
-          "to_page": "/docs/substances/microbial-metabolites/scfas/scfas"
-        }
-      ],
-      "food_targets": [],
-      "pm_evidence": {
-        "finding_ids": [
-          "PM4-F1"
-        ],
-        "citation_keys": [
-          "patnode_interspecies_2019"
-        ]
-      },
-      "limitations": "Defined-community mouse experiments and glycan assays do not establish equivalence across all pectins, a human intake target or beneficial host outcomes."
-    },
-    {
       "id": "BRS5-FM2-PM4::PM4-DIT-3:RS-MICROBIAL-BUTYRATE",
       "pm": "BRS5-FM2-PM4",
       "pm_page": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection",
@@ -16603,6 +17525,266 @@
       ],
       "food_targets": [
         {
+          "id": "apples::pectin::peel flesh and core from thirteen apple cultivars extracted as analytical fractions::raw",
+          "substance_id": "pectin",
+          "food_id": "apples",
+          "food_title": "Apples",
+          "food_page": "/docs/foods/apples",
+          "food_record": "docs/foods/apples.md",
+          "material": "Peel, flesh and core from thirteen apple cultivars, extracted as analytical fractions",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": "Plant cell-wall pectin",
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [],
+          "presence_records": [
+            {
+              "record": "docs/foods/apples.md#substance_relationships/Pectin",
+              "evidence": "Liu et al. (2023)",
+              "source_url": "https://doi.org/10.1016/j.ijbiomac.2023.125410",
+              "source_reference": null,
+              "citation_keys": [
+                "liu_apple_pectin_2023"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_supported_amount_unavailable",
+              "limitations": "Liu et al. (2023) isolated pectin from thirteen apple cultivars. USDA reports total fibre and does not give a per-100 g pectin amount. Whole fruit is not purified citrus pectin and is not the tested apple-pectin preparation."
+            }
+          ],
+          "qualification": [],
+          "food_delivery_notes": "Qualitative presence in apple cell walls. No per-100 g pectin amount is established. This is not a standardised pectin dose.",
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/apples.md#substance_relationships/Pectin",
+              "evidence": "Liu et al. (2023)",
+              "source_url": "https://doi.org/10.1016/j.ijbiomac.2023.125410",
+              "source_reference": null,
+              "citation_keys": [
+                "liu_apple_pectin_2023"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_supported_amount_unavailable",
+              "limitations": "Liu et al. (2023) isolated pectin from thirteen apple cultivars. USDA reports total fibre and does not give a per-100 g pectin amount. Whole fruit is not purified citrus pectin and is not the tested apple-pectin preparation."
+            }
+          ],
+          "delivery": "direct-input-source",
+          "display_material_context": true,
+          "substance_title": "Pectin"
+        },
+        {
+          "id": "lemon::pectin::meyer lemon flavedo albedo membrane and juice sacs recovered after juice extraction::raw",
+          "substance_id": "pectin",
+          "food_id": "lemon",
+          "food_title": "Lemon",
+          "food_page": "/docs/foods/lemon",
+          "food_record": "docs/foods/lemon.md",
+          "material": "Meyer lemon flavedo, albedo, membrane and juice sacs recovered after juice extraction",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": "Plant cell-wall pectin",
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [],
+          "presence_records": [
+            {
+              "record": "docs/foods/lemon.md#substance_relationships/Pectin",
+              "evidence": "Braddock et al. (1976)",
+              "source_url": "https://doi.org/10.1111/j.1365-2621.1976.tb01201.x",
+              "source_reference": null,
+              "citation_keys": [
+                "braddock_meyer_lemon_pectin_1976"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_supported_amount_unavailable",
+              "limitations": "Braddock et al. (1976) recovered pectin from Meyer lemon flavedo, albedo, membrane and juice sacs after juice extraction. USDA reports total fibre for lemons raw without peel and does not give a per-100 g pectin amount. This is not the purified citrus pectin used in defined-community experiments."
+            },
+            {
+              "key": "pectin_qual",
+              "label": "Pectin",
+              "status": "Present — quantity not established",
+              "amount_display": "Present — quantity not established",
+              "public_display": "table",
+              "notes": "Recovered from Meyer lemon flavedo, albedo, membrane and juice sacs. Not a per-100 g amount for lemons raw without peel.",
+              "source_note": "Braddock, Crandall and Kesterson (1976) recovered pectin from Meyer lemon flavedo, albedo, membrane and juice sacs in the residue left after juice extraction. Yield and jelly grade changed with maturity. USDA SR Legacy (Lemons, raw, without peel; FDC 167746) reports total fibre 2.8 g/100 g and does not quantify pectin. The Meyer lemon part yields are not converted into a per-100 g pectin number for this record.",
+              "public_note": "Braddock et al. 1976 supports this qualitative constituent record for Meyer lemon peel and internal tissues. See technical provenance for fruit part.",
+              "evidence_status": "supported",
+              "source_url": "https://doi.org/10.1111/j.1365-2621.1976.tb01201.x",
+              "record": "docs/foods/lemon.md#nutrition_supplementary_sources/pectin_qual",
+              "evidence": "Braddock, Crandall and Kesterson (1976) recovered pectin from Meyer lemon flavedo, albedo, membrane and juice sacs in the residue left after juice extraction. Yield and jelly grade changed with maturity. USDA SR Legacy (Lemons, raw, without peel; FDC 167746) reports total fibre 2.8 g/100 g and does not quantify pectin. The Meyer lemon part yields are not converted into a per-100 g pectin number for this record.",
+              "source_reference": null,
+              "presence_status": "Present — quantity not established",
+              "limitations": "Recovered from Meyer lemon flavedo, albedo, membrane and juice sacs. Not a per-100 g amount for lemons raw without peel."
+            }
+          ],
+          "qualification": [],
+          "food_delivery_notes": "Qualitative presence in Meyer lemon peel and internal tissues. No per-100 g pectin amount is established for lemons raw without peel. Juice alone is not this peel-and-residue record.",
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/lemon.md#substance_relationships/Pectin",
+              "evidence": "Braddock et al. (1976)",
+              "source_url": "https://doi.org/10.1111/j.1365-2621.1976.tb01201.x",
+              "source_reference": null,
+              "citation_keys": [
+                "braddock_meyer_lemon_pectin_1976"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_supported_amount_unavailable",
+              "limitations": "Braddock et al. (1976) recovered pectin from Meyer lemon flavedo, albedo, membrane and juice sacs after juice extraction. USDA reports total fibre for lemons raw without peel and does not give a per-100 g pectin amount. This is not the purified citrus pectin used in defined-community experiments."
+            }
+          ],
+          "delivery": "direct-input-source",
+          "substance_title": "Pectin"
+        },
+        {
+          "id": "oranges::pectin::peel albedo pulp and juice of ripe pe ra vale ncia lima natal and bahia oranges::raw",
+          "substance_id": "pectin",
+          "food_id": "oranges",
+          "food_title": "Oranges",
+          "food_page": "/docs/foods/oranges",
+          "food_record": "docs/foods/oranges.md",
+          "material": "Peel, albedo, pulp and juice of ripe pêra, Valência, Lima, Natal and Bahia oranges",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": "Plant cell-wall pectin",
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [],
+          "presence_records": [
+            {
+              "record": "docs/foods/oranges.md#substance_relationships/Pectin",
+              "evidence": "Ywassaki and Canniatti-Brazaca (2011)",
+              "source_url": "https://doi.org/10.1590/s0101-20612011000200007",
+              "source_reference": null,
+              "citation_keys": [
+                "ywassaki_citrus_pectin_2011"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_supported_amount_unavailable",
+              "limitations": "Ywassaki and Canniatti-Brazaca (2011) measured pectin in peel, albedo, pulp and juice of several ripe orange cultivars. USDA reports total fibre and does not give a per-100 g pectin amount. Whole fruit and juice are not the purified citrus pectin used in defined-community experiments."
+            },
+            {
+              "key": "pectin_qual",
+              "label": "Pectin",
+              "status": "Present — quantity not established",
+              "amount_display": "Present — quantity not established",
+              "public_display": "table",
+              "notes": "Measured in peel, albedo, pulp and juice of several ripe orange cultivars. Part and cultivar vary. Not a single per-100 g amount for this page.",
+              "source_note": "Ywassaki and Canniatti-Brazaca (2011) quantified total and soluble pectin in peel, albedo, pulp and juice of ripe pêra, Valência, Lima, Natal and Bahia oranges. Amounts differed by part, cultivar and fruit size. USDA SR Legacy (Oranges, raw, all commercial varieties; FDC 169097) reports total fibre 2.4 g/100 g and does not quantify pectin. Those part-specific measurements are not converted into one per-100 g pectin number for this record.",
+              "public_note": "Ywassaki and Canniatti-Brazaca 2011 supports this qualitative constituent record. See technical provenance for fruit part and cultivar.",
+              "evidence_status": "supported",
+              "source_url": "https://doi.org/10.1590/s0101-20612011000200007",
+              "record": "docs/foods/oranges.md#nutrition_supplementary_sources/pectin_qual",
+              "evidence": "Ywassaki and Canniatti-Brazaca (2011) quantified total and soluble pectin in peel, albedo, pulp and juice of ripe pêra, Valência, Lima, Natal and Bahia oranges. Amounts differed by part, cultivar and fruit size. USDA SR Legacy (Oranges, raw, all commercial varieties; FDC 169097) reports total fibre 2.4 g/100 g and does not quantify pectin. Those part-specific measurements are not converted into one per-100 g pectin number for this record.",
+              "source_reference": null,
+              "presence_status": "Present — quantity not established",
+              "limitations": "Measured in peel, albedo, pulp and juice of several ripe orange cultivars. Part and cultivar vary. Not a single per-100 g amount for this page."
+            }
+          ],
+          "qualification": [],
+          "food_delivery_notes": "Qualitative presence in the studied orange parts. No single per-100 g pectin amount is established. Peel and albedo are richer than juice.",
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/oranges.md#substance_relationships/Pectin",
+              "evidence": "Ywassaki and Canniatti-Brazaca (2011)",
+              "source_url": "https://doi.org/10.1590/s0101-20612011000200007",
+              "source_reference": null,
+              "citation_keys": [
+                "ywassaki_citrus_pectin_2011"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_supported_amount_unavailable",
+              "limitations": "Ywassaki and Canniatti-Brazaca (2011) measured pectin in peel, albedo, pulp and juice of several ripe orange cultivars. USDA reports total fibre and does not give a per-100 g pectin amount. Whole fruit and juice are not the purified citrus pectin used in defined-community experiments."
+            }
+          ],
+          "delivery": "direct-input-source",
+          "substance_title": "Pectin"
+        },
+        {
+          "id": "pears::pectin::bartlett pear fruit during maturation and after ripening::raw",
+          "substance_id": "pectin",
+          "food_id": "pears",
+          "food_title": "Pears",
+          "food_page": "/docs/foods/pears",
+          "food_record": "docs/foods/pears.md",
+          "material": "Bartlett pear fruit during maturation and after-ripening",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": "Plant cell-wall pectin",
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [],
+          "presence_records": [
+            {
+              "record": "docs/foods/pears.md#substance_relationships/Pectin",
+              "evidence": "Miura et al. (1963)",
+              "source_url": "https://doi.org/10.2503/jjshs.32.27",
+              "source_reference": null,
+              "citation_keys": [
+                "miura_bartlett_pear_pectin_1963"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_supported_amount_unavailable",
+              "limitations": "Miura et al. (1963) measured pectic fractions in Bartlett pears. USDA reports total fibre and does not give a per-100 g pectin amount. This is not a standardised pectin dose and is not the purified citrus pectin used in defined-community experiments."
+            },
+            {
+              "key": "pectin_qual",
+              "label": "Pectin",
+              "status": "Present — quantity not established",
+              "amount_display": "Present — quantity not established",
+              "public_display": "table",
+              "notes": "Bartlett pear pectic fractions change with maturity and after-ripening. Not a per-100 g amount for this page.",
+              "source_note": "Miura, Haginuma and Mizuta (1963) measured water-soluble pectin, protopectin and other pectic fractions in Bartlett pears during maturation and after-ripening. The fractions changed with ripeness. USDA FoodData Central (Pears, raw; FDC 169118) reports total fibre 3.1 g/100 g and does not quantify pectin. Those fraction measurements are not converted into a per-100 g pectin number for this record.",
+              "public_note": "Miura et al. 1963 supports this qualitative constituent record. See technical provenance for fruit and ripeness.",
+              "evidence_status": "supported",
+              "source_url": "https://doi.org/10.2503/jjshs.32.27",
+              "record": "docs/foods/pears.md#nutrition_supplementary_sources/pectin_qual",
+              "evidence": "Miura, Haginuma and Mizuta (1963) measured water-soluble pectin, protopectin and other pectic fractions in Bartlett pears during maturation and after-ripening. The fractions changed with ripeness. USDA FoodData Central (Pears, raw; FDC 169118) reports total fibre 3.1 g/100 g and does not quantify pectin. Those fraction measurements are not converted into a per-100 g pectin number for this record.",
+              "source_reference": null,
+              "presence_status": "Present — quantity not established",
+              "limitations": "Bartlett pear pectic fractions change with maturity and after-ripening. Not a per-100 g amount for this page."
+            }
+          ],
+          "qualification": [],
+          "food_delivery_notes": "Qualitative presence in Bartlett pear fruit. No per-100 g pectin amount is established. Ripeness changes the balance of pectic fractions.",
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/pears.md#substance_relationships/Pectin",
+              "evidence": "Miura et al. (1963)",
+              "source_url": "https://doi.org/10.2503/jjshs.32.27",
+              "source_reference": null,
+              "citation_keys": [
+                "miura_bartlett_pear_pectin_1963"
+              ],
+              "relationship_type": "contains",
+              "presence_status": "presence_supported_amount_unavailable",
+              "limitations": "Miura et al. (1963) measured pectic fractions in Bartlett pears. USDA reports total fibre and does not give a per-100 g pectin amount. This is not a standardised pectin dose and is not the purified citrus pectin used in defined-community experiments."
+            }
+          ],
+          "delivery": "direct-input-source",
+          "substance_title": "Pectin"
+        },
+        {
           "food_id": "apples",
           "food_title": "Apples (studied cultivars)",
           "food_page": "/docs/foods/apples",
@@ -16625,8 +17807,10 @@
           "mapping_status": "research-supported-provisional",
           "relationship": "contains",
           "delivery": "direct-input-source",
-          "material_equivalence_status": "not-applicable",
-          "ontology_relationship_status": "missing-context-edge",
+          "material_equivalence_status": "review-required",
+          "ontology_relationship_status": "material-equivalence-review",
+          "display_material_context": true,
+          "material_equivalence_reason": "Preparation equivalence is not established.",
           "substance_title": "Pectin"
         }
       ],
@@ -17212,6 +18396,502 @@
         ]
       },
       "limitations": "Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference."
+    },
+    {
+      "id": "BRS6-FM4-PM8::PM8-DIT-14:BRS6-FM4-PM8::PM8-DIT-14:conversion:0",
+      "pm": "BRS6-FM4-PM8",
+      "pm_page": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling",
+      "mission": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "atom_id": "PM8-DIT-14",
+      "input": "Ellagitannins",
+      "substance_id": "ellagitannins",
+      "substance_page": "/docs/substances/bioactive-compounds/polyphenols/ellagitannins",
+      "target_id": "ellagic-acid",
+      "target_title": "Ellagic acid",
+      "target_page": "/docs/substances/bioactive-compounds/polyphenols/phenolic-acids/ellagic-acid",
+      "type": "B",
+      "classification": "derived",
+      "admission_basis": "versioned-assessment",
+      "pm_specific_status": "admitted-substrate-production-context",
+      "downstream_pm_admission": false,
+      "conversion_pathway": [
+        {
+          "from": "ellagitannins",
+          "to": "ellagic-acid",
+          "process": "Hydrolysis of ellagitannins releases ellagic acid in the gut lumen.",
+          "evidence": {
+            "statement": "Ellagitannin-rich pomegranate juice produced variable downstream urolithin A exposure in healthy adults, consistent with hydrolysis to ellagic acid before microbial conversion.",
+            "sources": [
+              "https://doi.org/10.1038/s41430-021-00950-1"
+            ]
+          },
+          "limitations": "Hydrolysis extent varies with food matrix and ellagitannin structure; no food-to-ellagic-acid yield is established.",
+          "id": "BRS6-FM4-PM8::PM8-DIT-14:conversion:0",
+          "relationship": "endogenous-formation",
+          "status": "supported",
+          "scope_pm": "BRS6-FM4-PM8",
+          "record": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx#dietary_input_traceability/PM8-DIT-14",
+          "from_page": "/docs/substances/bioactive-compounds/polyphenols/ellagitannins",
+          "to_page": "/docs/substances/bioactive-compounds/polyphenols/phenolic-acids/ellagic-acid"
+        }
+      ],
+      "food_targets": [
+        {
+          "id": "pomegranates::ellagitannins::commercial single strength pomegranate juice::juice sample",
+          "substance_id": "ellagitannins",
+          "food_id": "pomegranates",
+          "food_title": "Pomegranates",
+          "food_page": "/docs/foods/pomegranates",
+          "food_record": "docs/foods/pomegranates.md",
+          "material": "Commercial single-strength pomegranate juice",
+          "preparation": "Juice sample",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "key": "ellagitannins_commercial_juice",
+              "label": "Ellagitannins",
+              "value": 156.17,
+              "unit": "mg",
+              "basis": "per 100 mL",
+              "source_url": "https://doi.org/10.1021/jf000404a",
+              "evidence_material": "Commercial single-strength pomegranate juice",
+              "preparation_state": "Juice sample",
+              "public_display": "table",
+              "public_note": "Gallagyl-type tannins in commercial juice, including punicalagin. Not free ellagic acid and not an aril value.",
+              "source_note": "Gil et al. 2000 Table 3, juice 3: gallagyl-type tannins 1561.7 mg/L, including punicalagin. Commercial whole-fruit pressing extracts rind tannins. This is not free ellagic acid and not a fresh-aril value.",
+              "source_group": "Gil et al. 2000",
+              "notes": "Gallagyl-type tannins. Not free ellagic acid.",
+              "range": null,
+              "material": "Commercial single-strength pomegranate juice",
+              "preparation": "Juice sample",
+              "record": "docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagitannins_commercial_juice",
+              "source_record": "docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagitannins_commercial_juice",
+              "verified": true,
+              "nutrition_value_reviews": [],
+              "limitations": "Gil et al. 2000 Table 3, juice 3: gallagyl-type tannins 1561.7 mg/L, including punicalagin. Commercial whole-fruit pressing extracts rind tannins. This is not free ellagic acid and not a fresh-aril value.",
+              "id": "docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagitannins_commercial_juice",
+              "rank_eligible": false,
+              "comparison_group": null,
+              "low": 156.17,
+              "high": 156.17,
+              "display": "156.17 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/pomegranates.md#substance_relationships/Ellagitannins",
+              "evidence": "Gil et al., Journal of Agricultural and Food Chemistry 2000",
+              "source_url": "https://doi.org/10.1021/jf000404a",
+              "source_reference": null,
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "Gallagyl-type tannins, not the sum of every ellagitannin and not free ellagic acid. Not an aril or whole-fruit flesh value."
+            },
+            {
+              "key": "ellagitannins_commercial_juice",
+              "label": "Ellagitannins",
+              "value": 156.17,
+              "unit": "mg",
+              "basis": "per 100 mL",
+              "source_url": "https://doi.org/10.1021/jf000404a",
+              "evidence_material": "Commercial single-strength pomegranate juice",
+              "preparation_state": "Juice sample",
+              "public_display": "table",
+              "public_note": "Gallagyl-type tannins in commercial juice, including punicalagin. Not free ellagic acid and not an aril value.",
+              "source_note": "Gil et al. 2000 Table 3, juice 3: gallagyl-type tannins 1561.7 mg/L, including punicalagin. Commercial whole-fruit pressing extracts rind tannins. This is not free ellagic acid and not a fresh-aril value.",
+              "source_group": "Gil et al. 2000",
+              "notes": "Gallagyl-type tannins. Not free ellagic acid.",
+              "record": "docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagitannins_commercial_juice",
+              "evidence": "Gil et al. 2000 Table 3, juice 3: gallagyl-type tannins 1561.7 mg/L, including punicalagin. Commercial whole-fruit pressing extracts rind tannins. This is not free ellagic acid and not a fresh-aril value.",
+              "source_reference": null,
+              "presence_status": "qualitative",
+              "limitations": "Gallagyl-type tannins. Not free ellagic acid."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/pomegranates.md#substance_relationships/Ellagitannins",
+              "evidence": "Gil et al., Journal of Agricultural and Food Chemistry 2000",
+              "source_url": "https://doi.org/10.1021/jf000404a",
+              "source_reference": null,
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "Gallagyl-type tannins, not the sum of every ellagitannin and not free ellagic acid. Not an aril or whole-fruit flesh value."
+            }
+          ],
+          "delivery": "precursor-source",
+          "substance_title": "Ellagitannins"
+        },
+        {
+          "id": "walnuts::ellagitannins::walnut kernels::kernels",
+          "substance_id": "ellagitannins",
+          "food_id": "walnuts",
+          "food_title": "Walnuts",
+          "food_page": "/docs/foods/walnuts",
+          "food_record": "docs/foods/walnuts.md",
+          "material": "Walnut kernels",
+          "preparation": "Kernels",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [],
+          "presence_records": [
+            {
+              "record": "docs/foods/walnuts.md#substance_relationships/Ellagitannins",
+              "evidence": "Regueiro et al., Food Chemistry 2014",
+              "source_url": "https://doi.org/10.1016/j.foodchem.2013.11.158",
+              "source_reference": null,
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_supported_amount_unavailable",
+              "limitations": "Assay-specific extraction of kernels. Peeled kernel without the pellicle is a different material. This is not an amount, not free ellagic acid, and not a urolithin A exposure."
+            },
+            {
+              "key": "walnut_polyphenols_proxy",
+              "label": "Ellagitannins",
+              "status": "Present — quantity not established",
+              "amount_display": "Present — quantity not established",
+              "source_url": "https://doi.org/10.1016/j.foodchem.2013.11.158",
+              "evidence_material": "Walnut kernels",
+              "preparation_state": "Kernels",
+              "public_display": "table",
+              "source_note": "Regueiro et al. (2014) identified ellagitannins among the major polyphenols of walnut kernels by LC–Orbitrap mass spectrometry. Presence only; this is not an amount, not free ellagic acid, and not a Urolithin A exposure.",
+              "source_group": "Regueiro et al. 2014",
+              "notes": "Kernel assay. Not free ellagic acid and not a Urolithin A amount.",
+              "public_note": "Presence in kernels. Quantity not established. Not a Urolithin A amount.",
+              "record": "docs/foods/walnuts.md#nutrition_supplementary_sources/walnut_polyphenols_proxy",
+              "evidence": "Regueiro et al. (2014) identified ellagitannins among the major polyphenols of walnut kernels by LC–Orbitrap mass spectrometry. Presence only; this is not an amount, not free ellagic acid, and not a Urolithin A exposure.",
+              "source_reference": null,
+              "presence_status": "Present — quantity not established",
+              "limitations": "Kernel assay. Not free ellagic acid and not a Urolithin A amount."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/walnuts.md#substance_relationships/Ellagitannins",
+              "evidence": "Regueiro et al., Food Chemistry 2014",
+              "source_url": "https://doi.org/10.1016/j.foodchem.2013.11.158",
+              "source_reference": null,
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_supported_amount_unavailable",
+              "limitations": "Assay-specific extraction of kernels. Peeled kernel without the pellicle is a different material. This is not an amount, not free ellagic acid, and not a urolithin A exposure."
+            },
+            {
+              "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
+              "sources": [
+                "https://doi.org/10.1016/j.foodchem.2013.11.158"
+              ],
+              "retrieved": "2026-10-23",
+              "kind": "primary-food-composition"
+            }
+          ],
+          "delivery": "precursor-source",
+          "reconciled_sources": [
+            {
+              "material": "Walnut kernels",
+              "preparation": "Kernels",
+              "evidence": {
+                "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
+                "sources": [
+                  "https://doi.org/10.1016/j.foodchem.2013.11.158"
+                ],
+                "retrieved": "2026-10-23",
+                "kind": "primary-food-composition"
+              },
+              "limitations": "Qualitative presence only; batch and analytical extraction vary. No predictable urolithin A exposure or PM8 benefit inferred.",
+              "reason": "Same canonical identities, material, preparation and composition source."
+            }
+          ],
+          "substance_title": "Ellagitannins"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F23"
+        ],
+        "citation_keys": [
+          "zelicha_effect_2022"
+        ]
+      },
+      "limitations": "Food ellagitannin content is not a urolithin A amount. Conversion depends on hydrolysis and producer microbiota; some people produce little or none. Walnuts were the studied DIRECT-PLUS food; pomegranate is included from the ellagitannin ontology, not from an adipose endocrine trial."
+    },
+    {
+      "id": "BRS6-FM4-PM8::PM8-DIT-14:BRS6-FM4-PM8::PM8-DIT-14:conversion:0>BRS6-FM4-PM8::PM8-DIT-14:conversion:1",
+      "pm": "BRS6-FM4-PM8",
+      "pm_page": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling",
+      "mission": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "atom_id": "PM8-DIT-14",
+      "input": "Ellagitannins",
+      "substance_id": "ellagitannins",
+      "substance_page": "/docs/substances/bioactive-compounds/polyphenols/ellagitannins",
+      "target_id": "urolithin-a",
+      "target_title": "Urolithin A",
+      "target_page": "/docs/substances/microbial-metabolites/secondary-plant-conversions/urolithin-a",
+      "type": "B",
+      "classification": "derived",
+      "admission_basis": "versioned-assessment",
+      "pm_specific_status": "admitted-derived-pathway",
+      "downstream_pm_admission": false,
+      "conversion_pathway": [
+        {
+          "from": "ellagitannins",
+          "to": "ellagic-acid",
+          "process": "Hydrolysis of ellagitannins releases ellagic acid in the gut lumen.",
+          "evidence": {
+            "statement": "Ellagitannin-rich pomegranate juice produced variable downstream urolithin A exposure in healthy adults, consistent with hydrolysis to ellagic acid before microbial conversion.",
+            "sources": [
+              "https://doi.org/10.1038/s41430-021-00950-1"
+            ]
+          },
+          "limitations": "Hydrolysis extent varies with food matrix and ellagitannin structure; no food-to-ellagic-acid yield is established.",
+          "id": "BRS6-FM4-PM8::PM8-DIT-14:conversion:0",
+          "relationship": "endogenous-formation",
+          "status": "supported",
+          "scope_pm": "BRS6-FM4-PM8",
+          "record": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx#dietary_input_traceability/PM8-DIT-14",
+          "from_page": "/docs/substances/bioactive-compounds/polyphenols/ellagitannins",
+          "to_page": "/docs/substances/bioactive-compounds/polyphenols/phenolic-acids/ellagic-acid"
+        },
+        {
+          "from": "ellagic-acid",
+          "to": "urolithin-a",
+          "process": "Gut microbial conversion of ellagic acid through intermediate urolithins to urolithin A.",
+          "dependencies": [
+            "Urolithin-producing gut microbiota (Gordonibacter and Ellagibacter-related taxa); producer status varies between people"
+          ],
+          "evidence": {
+            "statement": "Human intestinal Gordonibacter species converted ellagic acid to intermediate urolithins; complete urolithin A production depends on the wider community.",
+            "sources": [
+              "https://doi.org/10.1039/c4fo00092g"
+            ]
+          },
+          "limitations": "Non-producers form little or no urolithin A; the species studied did not complete conversion alone.",
+          "id": "BRS6-FM4-PM8::PM8-DIT-14:conversion:1",
+          "relationship": "microbial-formation",
+          "status": "supported",
+          "scope_pm": "BRS6-FM4-PM8",
+          "record": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx#dietary_input_traceability/PM8-DIT-14",
+          "from_page": "/docs/substances/bioactive-compounds/polyphenols/phenolic-acids/ellagic-acid",
+          "to_page": "/docs/substances/microbial-metabolites/secondary-plant-conversions/urolithin-a"
+        }
+      ],
+      "food_targets": [
+        {
+          "id": "pomegranates::ellagitannins::commercial single strength pomegranate juice::juice sample",
+          "substance_id": "ellagitannins",
+          "food_id": "pomegranates",
+          "food_title": "Pomegranates",
+          "food_page": "/docs/foods/pomegranates",
+          "food_record": "docs/foods/pomegranates.md",
+          "material": "Commercial single-strength pomegranate juice",
+          "preparation": "Juice sample",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "key": "ellagitannins_commercial_juice",
+              "label": "Ellagitannins",
+              "value": 156.17,
+              "unit": "mg",
+              "basis": "per 100 mL",
+              "source_url": "https://doi.org/10.1021/jf000404a",
+              "evidence_material": "Commercial single-strength pomegranate juice",
+              "preparation_state": "Juice sample",
+              "public_display": "table",
+              "public_note": "Gallagyl-type tannins in commercial juice, including punicalagin. Not free ellagic acid and not an aril value.",
+              "source_note": "Gil et al. 2000 Table 3, juice 3: gallagyl-type tannins 1561.7 mg/L, including punicalagin. Commercial whole-fruit pressing extracts rind tannins. This is not free ellagic acid and not a fresh-aril value.",
+              "source_group": "Gil et al. 2000",
+              "notes": "Gallagyl-type tannins. Not free ellagic acid.",
+              "range": null,
+              "material": "Commercial single-strength pomegranate juice",
+              "preparation": "Juice sample",
+              "record": "docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagitannins_commercial_juice",
+              "source_record": "docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagitannins_commercial_juice",
+              "verified": true,
+              "nutrition_value_reviews": [],
+              "limitations": "Gil et al. 2000 Table 3, juice 3: gallagyl-type tannins 1561.7 mg/L, including punicalagin. Commercial whole-fruit pressing extracts rind tannins. This is not free ellagic acid and not a fresh-aril value.",
+              "id": "docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagitannins_commercial_juice",
+              "rank_eligible": false,
+              "comparison_group": null,
+              "low": 156.17,
+              "high": 156.17,
+              "display": "156.17 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/pomegranates.md#substance_relationships/Ellagitannins",
+              "evidence": "Gil et al., Journal of Agricultural and Food Chemistry 2000",
+              "source_url": "https://doi.org/10.1021/jf000404a",
+              "source_reference": null,
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "Gallagyl-type tannins, not the sum of every ellagitannin and not free ellagic acid. Not an aril or whole-fruit flesh value."
+            },
+            {
+              "key": "ellagitannins_commercial_juice",
+              "label": "Ellagitannins",
+              "value": 156.17,
+              "unit": "mg",
+              "basis": "per 100 mL",
+              "source_url": "https://doi.org/10.1021/jf000404a",
+              "evidence_material": "Commercial single-strength pomegranate juice",
+              "preparation_state": "Juice sample",
+              "public_display": "table",
+              "public_note": "Gallagyl-type tannins in commercial juice, including punicalagin. Not free ellagic acid and not an aril value.",
+              "source_note": "Gil et al. 2000 Table 3, juice 3: gallagyl-type tannins 1561.7 mg/L, including punicalagin. Commercial whole-fruit pressing extracts rind tannins. This is not free ellagic acid and not a fresh-aril value.",
+              "source_group": "Gil et al. 2000",
+              "notes": "Gallagyl-type tannins. Not free ellagic acid.",
+              "record": "docs/foods/pomegranates.md#nutrition_supplementary_sources/ellagitannins_commercial_juice",
+              "evidence": "Gil et al. 2000 Table 3, juice 3: gallagyl-type tannins 1561.7 mg/L, including punicalagin. Commercial whole-fruit pressing extracts rind tannins. This is not free ellagic acid and not a fresh-aril value.",
+              "source_reference": null,
+              "presence_status": "qualitative",
+              "limitations": "Gallagyl-type tannins. Not free ellagic acid."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/pomegranates.md#substance_relationships/Ellagitannins",
+              "evidence": "Gil et al., Journal of Agricultural and Food Chemistry 2000",
+              "source_url": "https://doi.org/10.1021/jf000404a",
+              "source_reference": null,
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "Gallagyl-type tannins, not the sum of every ellagitannin and not free ellagic acid. Not an aril or whole-fruit flesh value."
+            }
+          ],
+          "delivery": "precursor-source",
+          "substance_title": "Ellagitannins"
+        },
+        {
+          "id": "walnuts::ellagitannins::walnut kernels::kernels",
+          "substance_id": "ellagitannins",
+          "food_id": "walnuts",
+          "food_title": "Walnuts",
+          "food_page": "/docs/foods/walnuts",
+          "food_record": "docs/foods/walnuts.md",
+          "material": "Walnut kernels",
+          "preparation": "Kernels",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [],
+          "presence_records": [
+            {
+              "record": "docs/foods/walnuts.md#substance_relationships/Ellagitannins",
+              "evidence": "Regueiro et al., Food Chemistry 2014",
+              "source_url": "https://doi.org/10.1016/j.foodchem.2013.11.158",
+              "source_reference": null,
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_supported_amount_unavailable",
+              "limitations": "Assay-specific extraction of kernels. Peeled kernel without the pellicle is a different material. This is not an amount, not free ellagic acid, and not a urolithin A exposure."
+            },
+            {
+              "key": "walnut_polyphenols_proxy",
+              "label": "Ellagitannins",
+              "status": "Present — quantity not established",
+              "amount_display": "Present — quantity not established",
+              "source_url": "https://doi.org/10.1016/j.foodchem.2013.11.158",
+              "evidence_material": "Walnut kernels",
+              "preparation_state": "Kernels",
+              "public_display": "table",
+              "source_note": "Regueiro et al. (2014) identified ellagitannins among the major polyphenols of walnut kernels by LC–Orbitrap mass spectrometry. Presence only; this is not an amount, not free ellagic acid, and not a Urolithin A exposure.",
+              "source_group": "Regueiro et al. 2014",
+              "notes": "Kernel assay. Not free ellagic acid and not a Urolithin A amount.",
+              "public_note": "Presence in kernels. Quantity not established. Not a Urolithin A amount.",
+              "record": "docs/foods/walnuts.md#nutrition_supplementary_sources/walnut_polyphenols_proxy",
+              "evidence": "Regueiro et al. (2014) identified ellagitannins among the major polyphenols of walnut kernels by LC–Orbitrap mass spectrometry. Presence only; this is not an amount, not free ellagic acid, and not a Urolithin A exposure.",
+              "source_reference": null,
+              "presence_status": "Present — quantity not established",
+              "limitations": "Kernel assay. Not free ellagic acid and not a Urolithin A amount."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/walnuts.md#substance_relationships/Ellagitannins",
+              "evidence": "Regueiro et al., Food Chemistry 2014",
+              "source_url": "https://doi.org/10.1016/j.foodchem.2013.11.158",
+              "source_reference": null,
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_supported_amount_unavailable",
+              "limitations": "Assay-specific extraction of kernels. Peeled kernel without the pellicle is a different material. This is not an amount, not free ellagic acid, and not a urolithin A exposure."
+            },
+            {
+              "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
+              "sources": [
+                "https://doi.org/10.1016/j.foodchem.2013.11.158"
+              ],
+              "retrieved": "2026-10-23",
+              "kind": "primary-food-composition"
+            }
+          ],
+          "delivery": "precursor-source",
+          "reconciled_sources": [
+            {
+              "material": "Walnut kernels",
+              "preparation": "Kernels",
+              "evidence": {
+                "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
+                "sources": [
+                  "https://doi.org/10.1016/j.foodchem.2013.11.158"
+                ],
+                "retrieved": "2026-10-23",
+                "kind": "primary-food-composition"
+              },
+              "limitations": "Qualitative presence only; batch and analytical extraction vary. No predictable urolithin A exposure or PM8 benefit inferred.",
+              "reason": "Same canonical identities, material, preparation and composition source."
+            }
+          ],
+          "substance_title": "Ellagitannins"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F23"
+        ],
+        "citation_keys": [
+          "zelicha_effect_2022"
+        ]
+      },
+      "limitations": "Food ellagitannin content is not a urolithin A amount. Conversion depends on hydrolysis and producer microbiota; some people produce little or none. Walnuts were the studied DIRECT-PLUS food; pomegranate is included from the ellagitannin ontology, not from an adipose endocrine trial."
     }
   ],
   "blocked": [],
@@ -17243,6 +18923,104 @@
       "traceability_gaps": [],
       "unresolved": [],
       "disposition": "canonical-record-review-required"
+    },
+    {
+      "pm": "BRS-X(Circadian-FM1-PM3)",
+      "title": "Melatonin Biosynthesis & Availability",
+      "mission": "Support the body's capacity to synthesise melatonin from serotonin through the availability of essential precursors and the activity of its biosynthetic enzymes.",
+      "page": "/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability",
+      "admitted_inputs": [],
+      "existing_dietary_yes": [],
+      "canonical_inputs": [
+        {
+          "atom_id": "PM3-DIT-1",
+          "input": "Tryptophan",
+          "dietary_input": null,
+          "substance_id": "tryptophan",
+          "role": "Tryptophan is the dietary precursor of serotonin, and serotonin is the substrate for melatonin formation. Severe depletion lowered nocturnal melatonin secretion.",
+          "evidence": {
+            "finding_ids": [
+              "PM3-F1"
+            ],
+            "citation_keys": [
+              "zimmermann_tryptophan_melatonin_1993"
+            ]
+          },
+          "limitation": "Depletion shows a constraint. It does not show that extra dietary tryptophan raises melatonin. BRS1 admission is not inherited."
+        },
+        {
+          "atom_id": "PM3-DIT-2",
+          "input": "S-adenosylmethionine (SAM)",
+          "dietary_input": false,
+          "substance_id": "s-adenosylmethionine",
+          "role": "SAM is the methyl donor for ASMT. Dietary provision is indirect, through the methylation pathways that already own SAM synthesis.",
+          "evidence": {
+            "finding_ids": [
+              "PM3-F2"
+            ],
+            "citation_keys": [
+              "peuhkuri_dietary_2012"
+            ]
+          },
+          "limitation": "Not a direct dietary requirement. Folate, vitamin B12, vitamin B6 and iron are not admitted on this PM."
+        },
+        {
+          "atom_id": "PM3-DIT-3",
+          "input": "Acetyl-CoA",
+          "dietary_input": false,
+          "substance_id": "acetyl-coa",
+          "role": "Acetyl-CoA is the acetyl donor for AANAT. It is not a dietary acetyl-CoA requirement.",
+          "evidence": {
+            "finding_ids": [
+              "PM3-F2"
+            ],
+            "citation_keys": [
+              "peuhkuri_dietary_2012"
+            ]
+          },
+          "limitation": "Pantothenate remains on BRS1 acetylcholine synthesis. It is not admitted here."
+        }
+      ],
+      "upstream_dependencies": [],
+      "pathway_count": 0,
+      "traceability_gaps": [
+        {
+          "atom_id": "BRS-X(Circadian-FM1-PM3)::PM3-DIT-1",
+          "input": "Tryptophan",
+          "ontology": {
+            "identity": "resolved",
+            "conversion": "unresolved",
+            "food": "unresolved"
+          },
+          "admission": "unresolved",
+          "admission_errors": [
+            "dietary-input-not-admitted",
+            "pm-operation-unresolved",
+            "conversion-pathway-missing"
+          ],
+          "evidence": {
+            "finding_ids": [
+              "PM3-F1"
+            ],
+            "citation_keys": [
+              "zimmermann_tryptophan_melatonin_1993"
+            ]
+          },
+          "limitation": "Depletion shows a constraint. It does not show that extra dietary tryptophan raises melatonin. BRS1 admission is not inherited."
+        }
+      ],
+      "unresolved": [
+        {
+          "input": "Tryptophan",
+          "atom_id": "BRS-X(Circadian-FM1-PM3)::PM3-DIT-1",
+          "reason": [
+            "dietary-input-not-admitted",
+            "pm-operation-unresolved",
+            "conversion-pathway-missing"
+          ]
+        }
+      ],
+      "disposition": "no-currently-resolved-admission"
     },
     {
       "pm": "BRS-X(ECS-PM1)",
@@ -17683,6 +19461,20 @@
       "disposition": "no-currently-resolved-admission"
     },
     {
+      "pm": "BRS-X(Hormones-PM7)",
+      "title": "Circulating Sex-Hormone Availability & Regulation",
+      "mission": "Regulate measured circulating sex-hormone availability. Production, transport, metabolism and clearance are separate parts of that availability. A measurement of one part does not establish the others. The operation stops before receptor binding and downstream signalling. It does not judge a higher or lower concentration as benefit or harm.",
+      "page": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm7-circulating-sex-hormone-availability",
+      "admitted_inputs": [],
+      "existing_dietary_yes": [],
+      "canonical_inputs": [],
+      "upstream_dependencies": [],
+      "pathway_count": 0,
+      "traceability_gaps": [],
+      "unresolved": [],
+      "disposition": "canonical-record-review-required"
+    },
+    {
       "pm": "BRS1-FM1-PM1",
       "title": "Amino-Acid Availability & Prioritisation",
       "mission": "Ensure meal-level protein supply delivers the amino-acid foundation neurotransmitter pathways depend on.",
@@ -17839,7 +19631,7 @@
           "input": "Iron",
           "substance_id": "iron",
           "assessment": "historical-decision-pending-reconciliation",
-          "food_count": 46
+          "food_count": 47
         },
         {
           "atom_id": "BRS1-FM1-PM3::PM3-DIT-3",
@@ -17860,7 +19652,7 @@
           "input": "Vitamin B2",
           "substance_id": "vitamin-b2",
           "assessment": "versioned-assessment",
-          "food_count": 10
+          "food_count": 11
         },
         {
           "atom_id": "BRS1-FM1-PM3::PM3-DIT-RECOVERY-MAGNESIUM",
@@ -18137,7 +19929,7 @@
           "input": "Iron",
           "substance_id": "iron",
           "assessment": "historical-decision-pending-reconciliation",
-          "food_count": 46
+          "food_count": 47
         },
         {
           "atom_id": "BRS1-FM1-PM4::PM4-DIT-3",
@@ -18165,7 +19957,7 @@
           "input": "Vitamin B2",
           "substance_id": "vitamin-b2",
           "assessment": "versioned-assessment",
-          "food_count": 10
+          "food_count": 11
         },
         {
           "atom_id": "BRS1-FM1-PM4::PM4-DIT-RECOVERY-MAGNESIUM",
@@ -18498,7 +20290,7 @@
           "input": "Iron",
           "substance_id": "iron",
           "assessment": "historical-decision-pending-reconciliation",
-          "food_count": 46
+          "food_count": 47
         },
         {
           "atom_id": "BRS1-FM1-PM5::PM5-DIT-4",
@@ -18512,7 +20304,7 @@
           "input": "Vitamin B2",
           "substance_id": "vitamin-b2",
           "assessment": "versioned-assessment",
-          "food_count": 10
+          "food_count": 11
         }
       ],
       "existing_dietary_yes": [
@@ -18724,7 +20516,7 @@
           "input": "Choline",
           "substance_id": "choline",
           "assessment": "historical-decision-pending-reconciliation",
-          "food_count": 14
+          "food_count": 15
         },
         {
           "atom_id": "BRS1-FM2-PM6::PM6-DIT-2",
@@ -19211,7 +21003,7 @@
           "input": "Choline",
           "substance_id": "choline",
           "assessment": "historical-decision-pending-reconciliation",
-          "food_count": 14
+          "food_count": 15
         },
         {
           "atom_id": "BRS1-FM5-PM12::PM12-DIT-2",
@@ -19312,21 +21104,21 @@
           "input": "Vitamin B9 (folate)",
           "substance_id": "vitamin-b9",
           "assessment": "historical-decision-pending-reconciliation",
-          "food_count": 29
+          "food_count": 30
         },
         {
           "atom_id": "BRS2-FM1-PM1::PM1-DIT-4",
           "input": "Vitamin B12 (cobalamin)",
           "substance_id": "vitamin-b12",
           "assessment": "historical-decision-pending-reconciliation",
-          "food_count": 19
+          "food_count": 20
         },
         {
           "atom_id": "BRS2-FM1-PM1::PM1-DIT-RECOVERY-VITAMIN-B2",
           "input": "Vitamin B2",
           "substance_id": "vitamin-b2",
           "assessment": "versioned-assessment",
-          "food_count": 10
+          "food_count": 11
         }
       ],
       "existing_dietary_yes": [
@@ -19564,7 +21356,7 @@
           "input": "Choline",
           "substance_id": "choline",
           "assessment": "historical-decision-pending-reconciliation",
-          "food_count": 14
+          "food_count": 15
         },
         {
           "atom_id": "BRS2-FM1-PM2::PM2-DIT-4",
@@ -19899,14 +21691,14 @@
           "input": "Vitamin B9 (folate)",
           "substance_id": "vitamin-b9",
           "assessment": "historical-decision-pending-reconciliation",
-          "food_count": 29
+          "food_count": 30
         },
         {
           "atom_id": "BRS2-FM1-PM4::PM4-DIT-4",
           "input": "Vitamin B12 (cobalamin)",
           "substance_id": "vitamin-b12",
           "assessment": "historical-decision-pending-reconciliation",
-          "food_count": 19
+          "food_count": 20
         },
         {
           "atom_id": "BRS2-FM1-PM4::PM4-DIT-5",
@@ -19920,7 +21712,7 @@
           "input": "Vitamin B2 (riboflavin)",
           "substance_id": "vitamin-b2",
           "assessment": "historical-decision-pending-reconciliation",
-          "food_count": 10
+          "food_count": 11
         },
         {
           "atom_id": "BRS2-FM1-PM4::PM4-DIT-DEFERRED-1",
@@ -20563,7 +22355,7 @@
           "input": "Choline",
           "substance_id": "choline",
           "assessment": "historical-decision-pending-reconciliation",
-          "food_count": 14
+          "food_count": 15
         },
         {
           "atom_id": "BRS2-FM3-PM7::PM7-DIT-4",
@@ -21077,7 +22869,7 @@
           "input": "Iron",
           "substance_id": "iron",
           "assessment": "versioned-assessment",
-          "food_count": 46
+          "food_count": 47
         }
       ],
       "existing_dietary_yes": [
@@ -21286,7 +23078,7 @@
           "input": "Vitamin B2",
           "substance_id": "vitamin-b2",
           "assessment": "versioned-assessment",
-          "food_count": 10
+          "food_count": 11
         },
         {
           "atom_id": "BRS3-FM2-PM6::PM6-DIT-RECOVERY-SELENIUM",
@@ -21520,7 +23312,7 @@
           "input": "Iron",
           "substance_id": "iron",
           "assessment": "historical-decision-pending-reconciliation",
-          "food_count": 46
+          "food_count": 47
         },
         {
           "atom_id": "BRS4-FM1-PM1::PM1-DIT-2",
@@ -21534,7 +23326,7 @@
           "input": "Vitamin B2 (riboflavin)",
           "substance_id": "vitamin-b2",
           "assessment": "historical-decision-pending-reconciliation",
-          "food_count": 10
+          "food_count": 11
         },
         {
           "atom_id": "BRS4-FM1-PM1::PM1-DIT-5",
@@ -21693,14 +23485,14 @@
           "input": "Vitamin B2",
           "substance_id": "vitamin-b2",
           "assessment": "versioned-assessment",
-          "food_count": 10
+          "food_count": 11
         },
         {
           "atom_id": "BRS4-FM1-PM10::PM10-DIT-4",
           "input": "Iron",
           "substance_id": "iron",
           "assessment": "versioned-assessment",
-          "food_count": 46
+          "food_count": 47
         }
       ],
       "existing_dietary_yes": [
@@ -22581,7 +24373,7 @@
           "input": "Vitamin A",
           "substance_id": "vitamin-a",
           "assessment": "historical-decision-pending-reconciliation",
-          "food_count": 10
+          "food_count": 11
         },
         {
           "atom_id": "BRS5-FM1-PM1::PM1-DIT-5",
@@ -23250,13 +25042,6 @@
           "food_count": 1
         },
         {
-          "atom_id": "BRS5-FM2-PM4::PM4-DIT-2",
-          "input": "Citrus pectin",
-          "substance_id": "pectin",
-          "assessment": "historical-decision-pending-reconciliation",
-          "food_count": 0
-        },
-        {
           "atom_id": "BRS5-FM2-PM4::PM4-DIT-3",
           "input": "Resistant starch (RS2/RS3)",
           "substance_id": "resistant-starch",
@@ -23298,7 +25083,7 @@
           "atom_id": "PM4-DIT-2",
           "input": "Citrus pectin",
           "dietary_input": true,
-          "substance_id": null,
+          "substance_id": "pectin",
           "role": "The studied citrus pectin supplies glycans for microbial utilisation; community context and expression of utilisation machinery alter processing.",
           "evidence": {
             "finding_ids": [
@@ -23308,7 +25093,7 @@
               "patnode_interspecies_2019"
             ]
           },
-          "limitation": "Defined-community mouse experiments and glycan assays do not establish equivalence across all pectins, a human intake target or beneficial host outcomes."
+          "limitation": "Defined-community mouse experiments and glycan assays do not establish equivalence across all pectins, a human intake target or beneficial host outcomes. The studied citrus-pectin preparation is not whole orange or lemon, and it is not the apple-pectin record."
         },
         {
           "atom_id": "PM4-DIT-3",
@@ -23345,7 +25130,7 @@
         }
       ],
       "upstream_dependencies": [],
-      "pathway_count": 2,
+      "pathway_count": 1,
       "traceability_gaps": [
         {
           "atom_id": "BRS5-FM2-PM4::PM4-DIT-2",
@@ -23355,7 +25140,7 @@
             "conversion": "not-applicable",
             "food": "unresolved"
           },
-          "admission": "admitted",
+          "admission": "unresolved",
           "admission_errors": [
             "scientific-assessment-missing"
           ],
@@ -23367,11 +25152,19 @@
               "patnode_interspecies_2019"
             ]
           },
-          "limitation": "Defined-community mouse experiments and glycan assays do not establish equivalence across all pectins, a human intake target or beneficial host outcomes."
+          "limitation": "Defined-community mouse experiments and glycan assays do not establish equivalence across all pectins, a human intake target or beneficial host outcomes. The studied citrus-pectin preparation is not whole orange or lemon, and it is not the apple-pectin record."
         }
       ],
-      "unresolved": [],
-      "disposition": "admitted-food-coverage-gap"
+      "unresolved": [
+        {
+          "input": "Citrus pectin",
+          "atom_id": "BRS5-FM2-PM4::PM4-DIT-2",
+          "reason": [
+            "scientific-assessment-missing"
+          ]
+        }
+      ],
+      "disposition": "admitted-food-targets-resolved"
     },
     {
       "pm": "BRS5-FM2-PM5",
@@ -23391,7 +25184,7 @@
           "input": "Pectin",
           "substance_id": "pectin",
           "assessment": "versioned-assessment",
-          "food_count": 1
+          "food_count": 5
         },
         {
           "atom_id": "BRS5-FM2-PM5::PM5-DIT-RECOVERY-INULIN",
@@ -24066,10 +25859,26 @@
           "substance_id": "dha-docosahexaenoic-acid",
           "assessment": "versioned-assessment",
           "food_count": 13
+        },
+        {
+          "atom_id": "BRS6-FM4-PM8::PM8-DIT-13",
+          "input": "Urolithin A",
+          "substance_id": "urolithin-a",
+          "assessment": "versioned-assessment",
+          "food_count": 0
+        },
+        {
+          "atom_id": "BRS6-FM4-PM8::PM8-DIT-14",
+          "input": "Ellagitannins",
+          "substance_id": "ellagitannins",
+          "assessment": "versioned-assessment",
+          "food_count": 2
         }
       ],
       "existing_dietary_yes": [
-        "PM8-DIT-12"
+        "PM8-DIT-12",
+        "PM8-DIT-13",
+        "PM8-DIT-14"
       ],
       "canonical_inputs": [
         {
@@ -24090,13 +25899,79 @@
             ]
           },
           "limitation": "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+        },
+        {
+          "atom_id": "PM8-DIT-13",
+          "input": "Urolithin A",
+          "dietary_input": true,
+          "substance_id": "urolithin-a",
+          "role": "Microbial metabolite of dietary ellagitannins that raised circulating adiponectin and local adipose thyroid-hormone activation in rodent obesity models.",
+          "evidence": {
+            "finding_ids": [
+              "PM8-F22",
+              "PM8-F23"
+            ],
+            "citation_keys": [
+              "toney_urolithin_2019",
+              "xia_urolithin_thermogenesis_2020",
+              "zelicha_effect_2022",
+              "singh_urolithin_atlas_2022"
+            ]
+          },
+          "limitation": "Endocrine engagement is demonstrated in animal studies only, using administered urolithin A. In humans, a rise in urinary urolithin A tracked visceral-fat loss but was not randomised, and four-month supplementation did not change fat mass. Production depends on gut microbiota and varies between people; no food-effective dose or human adipokine effect is established."
+        },
+        {
+          "atom_id": "PM8-DIT-14",
+          "input": "Ellagitannins",
+          "dietary_input": true,
+          "substance_id": "ellagitannins",
+          "role": "Dietary polyphenols hydrolysed to ellagic acid, which producer gut microbiota convert to urolithin A.",
+          "evidence": {
+            "finding_ids": [
+              "PM8-F23"
+            ],
+            "citation_keys": [
+              "zelicha_effect_2022"
+            ]
+          },
+          "limitation": "Food ellagitannin content is not a urolithin A amount. Conversion depends on hydrolysis and producer microbiota; some people produce little or none. Walnuts were the studied DIRECT-PLUS food; pomegranate is included from the ellagitannin ontology, not from an adipose endocrine trial."
         }
       ],
-      "upstream_dependencies": [],
-      "pathway_count": 0,
-      "traceability_gaps": [],
+      "upstream_dependencies": [
+        {
+          "atom_id": "PM8-DIT-14",
+          "target": "Urolithin A"
+        }
+      ],
+      "pathway_count": 2,
+      "traceability_gaps": [
+        {
+          "atom_id": "BRS6-FM4-PM8::PM8-DIT-13",
+          "input": "Urolithin A",
+          "ontology": {
+            "identity": "resolved",
+            "conversion": "not-applicable",
+            "food": "unresolved"
+          },
+          "admission": "admitted",
+          "admission_errors": [],
+          "evidence": {
+            "finding_ids": [
+              "PM8-F22",
+              "PM8-F23"
+            ],
+            "citation_keys": [
+              "toney_urolithin_2019",
+              "xia_urolithin_thermogenesis_2020",
+              "zelicha_effect_2022",
+              "singh_urolithin_atlas_2022"
+            ]
+          },
+          "limitation": "Endocrine engagement is demonstrated in animal studies only, using administered urolithin A. In humans, a rise in urinary urolithin A tracked visceral-fat loss but was not randomised, and four-month supplementation did not change fat mass. Production depends on gut microbiota and varies between people; no food-effective dose or human adipokine effect is established."
+        }
+      ],
       "unresolved": [],
-      "disposition": "admitted-food-targets-resolved"
+      "disposition": "admitted-food-coverage-gap"
     },
     {
       "pm": "BRS6-FM4-PM9",

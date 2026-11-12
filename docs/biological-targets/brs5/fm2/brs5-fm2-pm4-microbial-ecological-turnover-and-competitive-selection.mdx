@@ -271,17 +271,20 @@ dietary_input_traceability:
         - PM4-F1
       citation_keys:
         - patnode_interspecies_2019
-    evidence_limitation: 'Defined-community mouse experiments and glycan assays do not establish equivalence across all pectins, a human intake target or beneficial host outcomes.'
+    evidence_limitation: 'Defined-community mouse experiments and glycan assays do not establish equivalence across all pectins, a human intake target or beneficial host outcomes. The studied citrus-pectin preparation is not whole orange or lemon, and it is not the apple-pectin record.'
     canonical_identity:
-      status: missing-substance
-      severity: MAJOR
-      intended_identity: Citrus pectin
+      status: resolved
+      substance_id: pectin
+      substance_href: /docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin
+      verified_against:
+        - registry/substances.json
+        - docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin.md
       aliases_checked:
         - Citrus pectin
-      checked_sources:
-        - registry/substances.json
-        - docs/substances/ (label/form/alias search)
-      projection_status: blocked
+        - Pectin
+      identity_scope: Canonical pectin class. The PM claim stays with the studied citrus-pectin preparation. Orange and lemon pages do not document pectin occurrence, so no citrus food edge is attached.
+      projection_status: resolved
+    substance_id: pectin
   - atom_id: PM4-DIT-3
     dietary_input: true
     dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
@@ -440,14 +443,17 @@ pending_actions:
     resolved_date: '2026-10-09'
   - action_id: PM4-IDENTITY-2
     severity: MAJOR
-    status: pending
+    status: resolved
     input: Citrus pectin
     pm_id: BRS5-FM2-PM4
     section: 3.1.1
     relationship_type: pm-specific-input
     aliases_checked:
       - Citrus pectin
+      - Pectin
     action: Resolve the precise substance/form or experimental preparation/strain through canonical registration and page identity repair; preserve this scientific decision while blocking unreliable projections. Then assess source-backed food composition and approved source records separately; do not fabricate food rankings.
+    resolution: 'Verified the existing pectin registry ID and the Citrus pectin alias on the pectin page, 2026-11-09. Orange and lemon pages do not document pectin, so no citrus food relationship was added. The studied preparation stays distinct from whole citrus fruit and from apple pectin.'
+    resolved_date: '2026-11-09'
   - action_id: PM4-IDENTITY-3
     severity: MAJOR
     status: pending

@@ -120,6 +120,28 @@ substance_relationships:
     evidence_material: 'Apples, raw, with skin; NDB 09003'
     source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
     presence_status: presence_supported_amount_unavailable
+  - substance: Pectin
+    substance_id: pectin
+    relationship: contains
+    description: >-
+      Liu et al. (2023) isolated pectin from thirteen apple cultivars. USDA
+      reports total fibre and does not give a per-100 g pectin amount. Whole
+      fruit is not purified citrus pectin and is not the tested apple-pectin
+      preparation.
+    requires_supplementary_key: pectin_qual
+    evidence_status: supported
+    evidence_source: Liu et al. (2023)
+    evidence_material: >-
+      Peel, flesh and core from thirteen apple cultivars, extracted as
+      analytical fractions
+    source_url: 'https://doi.org/10.1016/j.ijbiomac.2023.125410'
+    citation_keys:
+      - liu_apple_pectin_2023
+    presence_status: presence_supported_amount_unavailable
+    chemical_form: Plant cell-wall pectin
+    food_delivery_notes: >-
+      Qualitative presence in apple cell walls. No per-100 g pectin amount is
+      established. This is not a standardised pectin dose.
 substance_review_candidates: []
 ---
 ## Overview

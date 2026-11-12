@@ -1636,6 +1636,46 @@
     "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
   },
   {
+    "pm": "BRS6-FM4-PM8",
+    "id": "BRS6-FM4-PM8::PM8-DIT-13",
+    "input": "Urolithin A",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "versioned-assessment",
+    "issues": [],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS-X(Circadian-FM1-PM3)",
+    "id": "BRS-X(Circadian-FM1-PM3)::PM3-DIT-1",
+    "input": "Tryptophan",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "versioned-assessment",
+    "issues": [
+      "dietary-input-not-admitted",
+      "pm-operation-unresolved",
+      "conversion-pathway-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "unresolved",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
     "pm": "BRS-X(Hormones-PM5)",
     "id": "BRS-X(Hormones-PM5)::PM5-DIT-1",
     "input": "Zinc",

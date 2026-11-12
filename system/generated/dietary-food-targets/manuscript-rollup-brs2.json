@@ -868,6 +868,60 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "chicken-liver",
+      "food_title": "Chicken Liver",
+      "food_material": "Chicken, liver, all classes, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B9",
+          "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+          "source_reference": null,
+          "citation_keys": [
+            "usda_chicken_liver_raw_sr_legacy_2019"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports 588 µg folate per 100 g in Chicken, liver, all classes, raw (FDC 171060). The recorded analyte is folate."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "froese_vitamin_2019"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This conversion pathway does not show that increasing folate intake increases tissue remethylation flux. Folic acid lowers blood homocysteine, which is a circulating marker."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS2",
+      "fm": "BRS2(FM1)",
+      "pm": "BRS2-FM1-PM1",
+      "biological_mechanism": "Recycle homocysteine to methionine through folate and B12 so methyl-donor supply and homocysteine control stay supported.",
+      "dietary_input": "Vitamin B9 (folate)",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "vitamin-b9",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "chickpeas",
       "food_title": "Chickpeas",
       "food_material": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
@@ -2056,6 +2110,60 @@
         ]
       },
       "preparation": null,
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Provision of vitamin B12 does not show that increasing intake raises tissue remethylation flux. Added vitamin B12 further lowered blood homocysteine beyond folic acid in pooled trials, which remains a circulating marker."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS2",
+      "fm": "BRS2(FM1)",
+      "pm": "BRS2-FM1-PM1",
+      "biological_mechanism": "Recycle homocysteine to methionine through folate and B12 so methyl-donor supply and homocysteine control stay supported.",
+      "dietary_input": "Vitamin B12 (cobalamin)",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "vitamin-b12",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "chicken-liver",
+      "food_title": "Chicken Liver",
+      "food_material": "Chicken, liver, all classes, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B12",
+          "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+          "source_reference": null,
+          "citation_keys": [
+            "usda_chicken_liver_raw_sr_legacy_2019"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports 16.58 µg vitamin B12 per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "froese_vitamin_2019"
+        ]
+      },
+      "preparation": "raw",
       "delivery": "precursor-source",
       "conversion_pathway": [],
       "limitations": [
@@ -3285,6 +3393,95 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
+      "food_target": "chicken-liver",
+      "food_title": "Chicken Liver",
+      "food_material": "Chicken, liver, all classes, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+          "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+          "source_reference": null,
+          "citation_keys": [
+            "usda_chicken_liver_raw_sr_legacy_2019"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "wolthers_msr_flavins_2007"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b2",
+          "to": "flavin-mononucleotide",
+          "process": "Riboflavin kinase (RFK) phosphorylates riboflavin to FMN using ATP.",
+          "dependencies": [
+            "Functional RFK",
+            "ATP and divalent metal availability"
+          ],
+          "limitations": "Enzyme identity does not quantify tissue cofactor supply or flux after a meal.",
+          "evidence": {
+            "statement": "Human RFK catalyses riboflavin phosphorylation; UniProt Q969G6 entry 195 retrieved 2026-10-26, Rhea 14357.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q969G6/entry",
+              "https://www.rhea-db.org/rhea/14357"
+            ]
+          }
+        },
+        {
+          "from": "flavin-mononucleotide",
+          "to": "flavin-adenine-dinucleotide",
+          "process": "FLAD1 FAD synthase adenylates FMN with ATP to form FAD.",
+          "dependencies": [
+            "Functional FLAD1 FAD synthase",
+            "ATP and divalent metal availability"
+          ],
+          "limitations": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred.",
+          "evidence": {
+            "statement": "Human FLAD1 catalyses FMN adenylation; UniProt Q8NFF5 entry 182 retrieved 2026-10-26, Rhea 17237.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q8NFF5/entry",
+              "https://www.rhea-db.org/rhea/17237"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Foundational human-enzyme cofactor provenance supports capacity; it is not a measurement of dietary riboflavin-induced remethylation flux, brain methylation or benefit above adequacy. FMN is also required; FAD is the endpoint of the displayed activation chain, not its sole functional cofactor."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS2",
+      "fm": "BRS2(FM1)",
+      "pm": "BRS2-FM1-PM1",
+      "biological_mechanism": "Recycle homocysteine to methionine through folate and B12 so methyl-donor supply and homocysteine control stay supported.",
+      "dietary_input": "Vitamin B2",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "vitamin-b2",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
       "food_target": "kale",
       "food_title": "Kale",
       "food_material": "Kale, raw",
@@ -4207,6 +4404,63 @@
           "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports choline in Broccoli, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM2-F2",
+          "PM2-F1"
+        ],
+        "citation_keys": [
+          "obeid_metabolic_2013",
+          "salvi_choline_2013",
+          "evans_betaine_2002"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Choline oxidation can supply betaine, but increasing choline intake has not been shown to increase tissue BHMT flux. Human evidence is an eight-man depletion pilot, with the challenge response in four clinically depleted participants; tissue BHMT flux was not measured. Rat donor rescue and specific inhibition support the chain. This does not establish ordinary-diet limitation, response in every tissue or benefit above adequacy. Folate’s indirect constraint on BHMT remains unresolved."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS2",
+      "fm": "BRS2(FM1)",
+      "pm": "BRS2-FM1-PM2",
+      "biological_mechanism": "Provide a parallel homocysteine clearance route so methionine and SAMe supply remain resilient when folate demand is high.",
+      "dietary_input": "Choline",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "choline",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "chicken-liver",
+      "food_title": "Chicken Liver",
+      "food_material": "Chicken, liver, all classes, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chicken-liver.md#substance_relationships/Choline",
+          "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+          "source_reference": null,
+          "citation_keys": [
+            "usda_chicken_liver_raw_sr_legacy_2019"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports 194.4 mg choline per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
         }
       ],
       "pm_evidence": {
@@ -11008,6 +11262,63 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "chicken-liver",
+      "food_title": "Chicken Liver",
+      "food_material": "Chicken, liver, all classes, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B9",
+          "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+          "source_reference": null,
+          "citation_keys": [
+            "usda_chicken_liver_raw_sr_legacy_2019"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports 588 µg folate per 100 g in Chicken, liver, all classes, raw (FDC 171060). The recorded analyte is folate."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F1",
+          "PM4-IC1"
+        ],
+        "citation_keys": [
+          "finkelstein_homocysteine_1998",
+          "froese_vitamin_2019",
+          "collaboration_lowering_1998"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Folic acid can lower blood homocysteine concentration. That concentration change is not a measured change in remethylation or transsulfuration rate."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS2",
+      "fm": "BRS2(FM1)",
+      "pm": "BRS2-FM1-PM4",
+      "biological_mechanism": "Maintain balanced methionine-cycle flux so methionine availability, SAM-dependent methylation, homocysteine recycling and transsulfuration remain coordinated across changing physiological demand.",
+      "dietary_input": "Vitamin B9 (folate)",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "vitamin-b9",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "chickpeas",
       "food_title": "Chickpeas",
       "food_material": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
@@ -12263,6 +12574,62 @@
         ]
       },
       "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Added vitamin B12 can lower blood homocysteine further after folic acid. That is a concentration result, not a measured cycle-rate response."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS2",
+      "fm": "BRS2(FM1)",
+      "pm": "BRS2-FM1-PM4",
+      "biological_mechanism": "Maintain balanced methionine-cycle flux so methionine availability, SAM-dependent methylation, homocysteine recycling and transsulfuration remain coordinated across changing physiological demand.",
+      "dietary_input": "Vitamin B12 (cobalamin)",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "vitamin-b12",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "chicken-liver",
+      "food_title": "Chicken Liver",
+      "food_material": "Chicken, liver, all classes, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B12",
+          "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+          "source_reference": null,
+          "citation_keys": [
+            "usda_chicken_liver_raw_sr_legacy_2019"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports 16.58 µg vitamin B12 per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F1",
+          "PM4-IC1"
+        ],
+        "citation_keys": [
+          "froese_vitamin_2019",
+          "collaboration_lowering_1998"
+        ]
+      },
+      "preparation": "raw",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
@@ -14330,6 +14697,61 @@
           "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin B2 in Broccoli, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F1"
+        ],
+        "citation_keys": [
+          "froese_vitamin_2019",
+          "finkelstein_homocysteine_1998"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Riboflavin supports formation of the methyl donor. It is not the cofactor at the methionine-synthase catalytic site, and it has not been shown to change human cycle rates."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS2",
+      "fm": "BRS2(FM1)",
+      "pm": "BRS2-FM1-PM4",
+      "biological_mechanism": "Maintain balanced methionine-cycle flux so methionine availability, SAM-dependent methylation, homocysteine recycling and transsulfuration remain coordinated across changing physiological demand.",
+      "dietary_input": "Vitamin B2 (riboflavin)",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "vitamin-b2",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "chicken-liver",
+      "food_title": "Chicken Liver",
+      "food_material": "Chicken, liver, all classes, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+          "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+          "source_reference": null,
+          "citation_keys": [
+            "usda_chicken_liver_raw_sr_legacy_2019"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
         }
       ],
       "pm_evidence": {
@@ -18605,6 +19027,60 @@
           "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports choline in Broccoli, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F7"
+        ],
+        "citation_keys": [
+          "bockmann_choline_supplements_2023"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Plasma tracing does not measure absolute hepatic flux, intermediary SAM, ordinary-food equivalence or benefit."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS2",
+      "fm": "BRS2(FM3)",
+      "pm": "BRS2-FM3-PM7",
+      "biological_mechanism": "Maintain phosphatidylcholine formation through PEMT methylation and the choline-based Kennedy pathway.",
+      "dietary_input": "Choline",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "choline",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "chicken-liver",
+      "food_title": "Chicken Liver",
+      "food_material": "Chicken, liver, all classes, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chicken-liver.md#substance_relationships/Choline",
+          "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+          "source_reference": null,
+          "citation_keys": [
+            "usda_chicken_liver_raw_sr_legacy_2019"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports 194.4 mg choline per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
         }
       ],
       "pm_evidence": {

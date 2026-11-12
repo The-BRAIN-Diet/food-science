@@ -37,6 +37,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Cheddar Cheese | 9 | selenium; zinc; dha-docosahexaenoic-acid; copper; vitamin-e; vitamin-b2; epa-eicosapentaenoic-acid; manganese; iron; magnesium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 |  |
 | Cherries | 7 | vitamin-c; vitamin-e; zinc; vitamin-b2; iron; magnesium; copper; manganese | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Chia Seeds | 8 | magnesium; manganese; iron; copper; vitamin-c; vitamin-b2; zinc; selenium; vitamin-e | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
+| Chicken Liver | 8 | vitamin-b2; iron; magnesium; zinc; copper; manganese; selenium; vitamin-c; vitamin-e | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Chicken | 11 | cysteine; iron; selenium; zinc; magnesium; copper; manganese; vitamin-b2; dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid; vitamin-c; vitamin-e | BRS3-FM1-PM1; BRS3-FM1-PM2; BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 | BRS3(KC1) |
 | Chickpeas | 7 | magnesium; copper; iron; manganese; zinc; vitamin-e; vitamin-c; vitamin-b2 | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Chicory Root | 6 | iron; copper; vitamin-c; selenium; zinc; magnesium; manganese | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
@@ -108,6 +109,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Parmesan Cheese | 7 | vitamin-e; copper; manganese; vitamin-b2; iron; magnesium; zinc; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Parsley | 8 | vitamin-c; vitamin-e; zinc; iron; magnesium; copper; manganese; vitamin-b2; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Peanuts | 7 | magnesium; copper; manganese; zinc; vitamin-e; vitamin-b2; iron; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
+| Pears | 8 | iron; magnesium; zinc; copper; manganese; selenium; vitamin-c; vitamin-b2; vitamin-e | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Peas | 8 | iron; magnesium; copper; manganese; vitamin-c; vitamin-b2; vitamin-e; zinc; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Peppermint | 6 | iron; magnesium; copper; manganese; vitamin-c; vitamin-b2; zinc | BRS3-FM2-PM4; BRS3-FM2-PM6 |  |
 | Pistachios | 8 | iron; vitamin-c; vitamin-e; selenium; zinc; copper; manganese; magnesium; vitamin-b2 | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |

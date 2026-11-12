@@ -7,7 +7,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Almonds | 2 | linoleic-acid; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Amaranth | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Anchovies | 3 | linoleic-acid; zinc; magnesium; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
-| Apples | 4 | linoleic-acid; zinc; vitamin-a; magnesium; pectin | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5; BRS5-FM3-PM7 | BRS5(KC1) |
+| Apples | 4 | pectin; linoleic-acid; zinc; vitamin-a; magnesium | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5; BRS5-FM3-PM7 | BRS5(KC1) |
 | Asparagus | 4 | inulin; linoleic-acid; vitamin-a; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5; BRS5-FM3-PM7 |  |
 | Aubergine | 3 | vitamin-a; linoleic-acid; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Avocado Oil | 1 | linoleic-acid | BRS5-FM3-PM7 |  |
@@ -37,6 +37,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Cheddar Cheese | 3 | zinc; linoleic-acid; vitamin-a; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Cherries | 3 | vitamin-a; linoleic-acid; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Chia Seeds | 2 | linoleic-acid; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Chicken Liver | 3 | vitamin-a; magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Chicken | 3 | zinc; magnesium; linoleic-acid; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Chickpeas | 4 | magnesium; zinc; resistant-starch; vitamin-a; linoleic-acid | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5; BRS5-FM3-PM7 | BRS5(KC1) |
 | Chicory Root | 1 | zinc; magnesium | BRS5-FM1-PM1 |  |
@@ -78,7 +79,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Kimchi | 3 | zinc; linoleic-acid; magnesium; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Lamb | 2 | zinc; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Leeks | 3 | vitamin-a; zinc; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
-| Lemon | 3 | vitamin-a; magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Lemon | 4 | pectin; vitamin-a; magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5; BRS5-FM3-PM7 | BRS5(KC1) |
 | Lentils | 3 | zinc; vitamin-a; magnesium; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Lion's Mane Mushroom | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
 | Liver | 3 | vitamin-a; zinc; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
@@ -96,13 +97,14 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Oats | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Olives | 3 | zinc; magnesium; vitamin-a; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Onions | 2 | linoleic-acid; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
-| Oranges | 3 | vitamin-a; linoleic-acid; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Oranges | 4 | pectin; vitamin-a; linoleic-acid; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5; BRS5-FM3-PM7 | BRS5(KC1) |
 | Oregano | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
 | Oyster Mushroom | 3 | vitamin-a; magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Oysters | 3 | zinc; magnesium; vitamin-a; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Parmesan Cheese | 3 | vitamin-a; magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Parsley | 3 | vitamin-a; zinc; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Peanuts | 2 | linoleic-acid; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Pears | 4 | pectin; magnesium; zinc; vitamin-a; linoleic-acid | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5; BRS5-FM3-PM7 | BRS5(KC1) |
 | Peas | 4 | arabinan; vitamin-a; magnesium; linoleic-acid; zinc | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM3-PM7 |  |
 | Peppermint | 3 | magnesium; linoleic-acid; zinc; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Pistachios | 3 | linoleic-acid; vitamin-a; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |

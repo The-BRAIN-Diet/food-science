@@ -18,7 +18,7 @@ export const PROTEIN_SOURCE_SLUGS = new Set([
   "anchovies", "beef", "chicken", "pork", "lamb", "turkey", "dark-meat-poultry",
   "eggs", "egg-yolks", "salmon", "tuna", "cod", "mackerel", "herring", "sardines",
   "shrimp", "crab", "scallops", "clams", "mussels", "oysters", "cockles",
-  "salmon-roe", "trout-roe", "lumpfish-roe", "liver", "kidney", "heart",
+  "salmon-roe", "trout-roe", "lumpfish-roe", "liver", "chicken-liver", "kidney", "heart",
   "milk", "cheddar-cheese", "parmesan-cheese", "greek-yogurt", "whey-protein",
   "oats", "barley", "quinoa", "amaranth", "buckwheat", "rice", "wheat", "spelt",
   "whole-grains", "wheat-germ", "sourdough-bread",

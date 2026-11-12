@@ -1,0 +1,87 @@
+{
+  "applied_on": "2026-11-12",
+  "approval_source": "Owner instruction, 12 November 2026: reassess urolithin A for Decision 1 (Zelicha 2022 VAT association and animal evidence), add a urolithin A dietary lever with walnuts (as studied) and pomegranate (ontology) stating the animal-data limitation, add a Scientific Hypothesis, and research and score as appropriate.",
+  "pm_id": "BRS6-FM4-PM8",
+  "added": {
+    "findings": [
+      "PM8-F22",
+      "PM8-F23",
+      "PM8-F24"
+    ],
+    "sec": [
+      {
+        "id": "brs6-pm8-pm8-f22-urolithin-assessment",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "rawScore": 4,
+        "status": "codex-provisional"
+      },
+      {
+        "id": "brs6-pm8-pm8-f23-urolithin-assessment",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "rawScore": 4,
+        "status": "codex-provisional"
+      },
+      {
+        "id": "brs6-pm8-pm8-f24-urolithin-assessment",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": null,
+          "R": 0
+        },
+        "rawScore": null,
+        "status": "not-scored"
+      }
+    ],
+    "atoms": [
+      "PM8-DIT-13",
+      "PM8-DIT-14"
+    ],
+    "evidence_gap": "PM8-EG-7",
+    "decision": "PM8-ADJ-UROA-1",
+    "decision_updated": "PM8-ADJ-ENDO-1 (history v2)",
+    "hypothesis": "PM8-H1",
+    "references": [
+      {
+        "key": "toney_urolithin_2019",
+        "number": 70
+      },
+      {
+        "key": "xia_urolithin_thermogenesis_2020",
+        "number": 71
+      },
+      {
+        "key": "abdulrahman_urolithins_obesity_2020",
+        "number": 72
+      },
+      {
+        "key": "kang_urolithins_adipocytes_2016",
+        "number": 73
+      },
+      {
+        "key": "mora_cubillos_nut_metabolomics_2015",
+        "number": 74
+      },
+      {
+        "key": "singh_urolithin_atlas_2022",
+        "number": 75
+      }
+    ]
+  },
+  "post_apply": [
+    "Authored scientific-lesson blocks added for PM8-F22–F24 and §4.1 regenerated from canonical records (lineWidth 110).",
+    "PM8 snapshot tests updated to the reviewed counts: 13 Findings, 3 dietary inputs, 7 evidence gaps.",
+    "Owner follow-up the same day: PM8-F24 was folded into PM8-F23 so one human finding fences the production association and the supplementation fat-mass result. PM8-F22 stays the rodent endocrine finding. SEC F23 advanced to version 2 at the same 4/8; the unpublished F24 snapshot was removed. Active finding count is 12.",
+    "Presentation approval appended (sha256 51eba429…); system/scientific-hypotheses-schema.md records the PM8 extension."
+  ]
+}

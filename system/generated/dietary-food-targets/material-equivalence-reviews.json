@@ -943,6 +943,56 @@
   {
     "brs": "BRS5",
     "fm": "BRS5(FM2)",
+    "pm": "BRS5-FM2-PM5",
+    "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+    "dietary_input": "Pectin",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "pectin",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "apples",
+    "food_title": "Apples (studied cultivars)",
+    "food_material": "Analytical cell-wall pectin fractions from the thirteen apple cultivars studied by Liu et al.",
+    "material_equivalence_status": "review-required",
+    "material_equivalence_reason": "Preparation equivalence is not established.",
+    "ontology_relationship_status": "material-equivalence-review",
+    "reconciled_sources": [],
+    "mapping_status": "research-supported-provisional",
+    "food_evidence": {
+      "statement": "The primary composition study isolated and characterised pectin from apple materials.",
+      "sources": [
+        "https://doi.org/10.1016/j.ijbiomac.2023.125410"
+      ],
+      "retrieved": "2026-10-23",
+      "kind": "primary-food-composition"
+    },
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F1"
+      ],
+      "citation_keys": [
+        "pascale_potential_2022",
+        "bang_pectin_2018"
+      ]
+    },
+    "preparation": "Cultivar-specific extracted analytical fractions; not a standardised pectin dose",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Pectin structure, purified preparation, donor community and enriched culture medium affect interpretation. Pascale is secondary synthesis; Bang is bounded primary culture evidence. Whole apples are not equivalent to the tested citrus preparation; no human brain or clinical benefit is established.",
+      "Qualitative supply only; retain cultivar, fraction and food-matrix variation. No per-100-g pectin amount inferred from total fibre; whole fruit is not purified citrus pectin."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS5",
+    "fm": "BRS5(FM2)",
     "pm": "BRS5-FM2-PM6",
     "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
     "dietary_input": "Epicatechin",

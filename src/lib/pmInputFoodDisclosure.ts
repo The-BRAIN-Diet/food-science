@@ -1,4 +1,5 @@
 import {informationIcon, renderCoverageWarning, foodTargetCoverageWarning, inputCoverageWarnings} from "./foodTargetTraceability.mjs";
+import {relatedFoodsForInput, relatedViaLabel, renderRelatedFoodSources} from "../data/relatedSubstanceRelationships.mjs";
 import generatedScopes from "../data/inputMappingScopes.mjs";
 import {formatAggregateSumForDropdown} from './aggregateFoodComposition.mjs';
 import { selectBrsReviewData, canonicalInputSection } from "../data/inputSubstanceFoodSelection.mjs";
@@ -120,6 +121,9 @@ function sourceReference(source: any, obs: any): string {
     return ` · <a href="${esc(href)}">${esc(reference || 'Source')}</a>`;
 }
 function renderCompactFoodSourceItem(source: any): string {
+    if (source.related_via) {
+        return `<span class="pm-input-food-row" data-related-source="true" data-quantity="none"><span class="pm-input-food-name"><a href="${esc(source.food_page)}">${esc(source.food_title)}</a></span><span class="pm-input-food-source-meta"> via ${esc(source.related_via)}</span><span class="pm-input-food-source-meta pm-input-food-preparation"> - ${formatFoodPrep(source)}</span></span>`;
+    }
     // Align comparable quantities without rewriting non-standard measurement bases.
     const amount = formatFoodAmount(source);
     const standard = amount.match(/^(.+?) (µg|μg|mg|g|kg|IU|kcal) per 100 g$/);
@@ -254,13 +258,25 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
             li.querySelector('.brs-dietary-lever-trigger')?.after(icon.firstElementChild!);
             if (detail) detail.insertAdjacentHTML('afterbegin', renderCoverageWarning(warnings));
         }
+        // Related foods sit in the info area above the six atoms. They are indirect
+        // sources for an input that is not itself present in food.
+        const relatedFoods = relationships.some((r:any) => r.food_delivery_assessment?.status === 'no-ordinary-food-source')
+            ? relatedFoodsForInput(relationships, scoped.food_sources) : [];
+        const relatedHtml = renderRelatedFoodSources(relatedFoods);
+        if (relatedHtml && detail) detail.insertAdjacentHTML('afterbegin', relatedHtml);
         const targets = [...new Map(relationships.flatMap((r:any) => r.food_targets || []).map((f:any) => [JSON.stringify([f.food_id,f.substance_id,f.material,f.preparation]), f])).values()] as any[];
+        const relatedOntology = [...new Map(relatedFoods.map((row: any) => [row.food_id, {
+            ...row,
+            related_via: relatedViaLabel(row.intermediate_label),
+            id: [row.food_id, row.intermediate_id].join(':'),
+        }])).values()];
         for (const [kind, group] of [
             ['Plant-based', targets.filter(t => !isProbablyAnimalSource(t))],
             ['Animal-based', targets.filter(t => isProbablyAnimalSource(t))],
         ] as [string, any[]][]) {
+            const ontology = group.length ? group : relatedOntology.filter((row: any) => (kind === 'Animal-based') === isProbablyAnimalSource(row));
             // Use the same first-food preview and aligned rows as cofactors/KCs.
-            const compact = group.map(target => ({
+            const compact = ontology.map(target => ({
                 ...target,
                 id: JSON.stringify([target.food_id, target.substance_id, target.material, target.preparation]),
                 observations: target.observations?.length ? target.observations : target.amount ? [{verified: true,

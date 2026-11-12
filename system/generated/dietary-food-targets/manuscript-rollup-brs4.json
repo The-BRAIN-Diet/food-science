@@ -486,6 +486,60 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "chicken-liver",
+      "food_title": "Chicken Liver",
+      "food_material": "Chicken, liver, all classes, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chicken-liver.md#substance_relationships/Iron",
+          "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+          "source_reference": null,
+          "citation_keys": [
+            "usda_chicken_liver_raw_sr_legacy_2019"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports 8.99 mg iron per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Iron",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "iron",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "chicken",
       "food_title": "Chicken",
       "food_material": "Chicken, broilers or fryers, meat and skin, raw",
@@ -2601,6 +2655,60 @@
           "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin B2 in Broccoli, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "curtabbi_complex_i_fmn_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Vitamin B2 (riboflavin)",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "vitamin-b2",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "chicken-liver",
+      "food_title": "Chicken Liver",
+      "food_material": "Chicken, liver, all classes, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+          "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+          "source_reference": null,
+          "citation_keys": [
+            "usda_chicken_liver_raw_sr_legacy_2019"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
         }
       ],
       "pm_evidence": {
@@ -4872,6 +4980,95 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
+      "food_target": "chicken-liver",
+      "food_title": "Chicken Liver",
+      "food_material": "Chicken, liver, all classes, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20B2",
+          "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+          "source_reference": null,
+          "citation_keys": [
+            "usda_chicken_liver_raw_sr_legacy_2019"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports 1.778 mg riboflavin per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F2"
+        ],
+        "citation_keys": [
+          "nicoll_coq_2024"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b2",
+          "to": "flavin-mononucleotide",
+          "process": "Riboflavin kinase (RFK) phosphorylates riboflavin to FMN using ATP.",
+          "dependencies": [
+            "Functional RFK",
+            "ATP and divalent metal availability"
+          ],
+          "limitations": "Enzyme identity does not quantify tissue cofactor supply or flux after a meal.",
+          "evidence": {
+            "statement": "Human RFK catalyses riboflavin phosphorylation; UniProt Q969G6 entry 195 retrieved 2026-10-26, Rhea 14357.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q969G6/entry",
+              "https://www.rhea-db.org/rhea/14357"
+            ]
+          }
+        },
+        {
+          "from": "flavin-mononucleotide",
+          "to": "flavin-adenine-dinucleotide",
+          "process": "FLAD1 FAD synthase adenylates FMN with ATP to form FAD.",
+          "dependencies": [
+            "Functional FLAD1 FAD synthase",
+            "ATP and divalent metal availability"
+          ],
+          "limitations": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred.",
+          "evidence": {
+            "statement": "Human FLAD1 catalyses FMN adenylation; UniProt Q8NFF5 entry 182 retrieved 2026-10-26, Rhea 17237.",
+            "sources": [
+              "https://www.uniprot.org/uniprotkb/Q8NFF5/entry",
+              "https://www.rhea-db.org/rhea/17237"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Vitamin B2",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "vitamin-b2",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "supported",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
       "food_target": "kale",
       "food_title": "Kale",
       "food_material": "Kale, raw",
@@ -5915,6 +6112,60 @@
           "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Nuts, cashew nuts, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM10-F2"
+        ],
+        "citation_keys": [
+          "wang_coq7_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Capacity admission only: no CoQ-specific intake target, rate limitation under adequate nutrition, increased synthesis from extra intake, mitochondrial delivery or clinical benefit is established."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM10",
+      "biological_mechanism": "Maintain endogenous Coenzyme Q synthesis, maturation and pool availability to support mitochondrial electron transfer and cellular redox functions.",
+      "dietary_input": "Iron",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "iron",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "chicken-liver",
+      "food_title": "Chicken Liver",
+      "food_material": "Chicken, liver, all classes, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chicken-liver.md#substance_relationships/Iron",
+          "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+          "source_reference": null,
+          "citation_keys": [
+            "usda_chicken_liver_raw_sr_legacy_2019"
+          ],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports 8.99 mg iron per 100 g in Chicken, liver, all classes, raw (FDC 171060)."
         }
       ],
       "pm_evidence": {
