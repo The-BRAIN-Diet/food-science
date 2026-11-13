@@ -38845,12 +38845,38 @@
             ]
           },
           "limitation": "Administered anandamide and experimental inhibitors do not establish food efficacy or everyday motivational improvement."
+        },
+        {
+          "atom_id": "PM3-DIT-2",
+          "input": "Genistein",
+          "dietary_input": false,
+          "substance_id": "genistein",
+          "role": "Genistein is a soy isoflavone. Laboratory assays found that it altered anandamide uptake. That makes it a hypothesis candidate for dietary modulation of FAAH-mediated signal duration, not an admitted food lever.",
+          "evidence": {
+            "finding_ids": [
+              "PM3-F2"
+            ],
+            "citation_keys": [
+              "thors_inhibition_2007"
+            ]
+          },
+          "limitation": "Food-level genistein exposure to relevant neural FAAH inhibition and signal duration is unestablished. Dietary soy is not equivalent to unbound aglycone concentrations at neuronal FAAH. Soy, tofu, tempeh and edamame document occurrence only."
         }
       ],
       "upstream_dependencies": [],
       "pathway_count": 0,
       "traceability_gaps": [],
-      "unresolved": [],
+      "unresolved": [
+        {
+          "input": "Genistein",
+          "atom_id": "BRS-X(ECS-PM3)::PM3-DIT-2",
+          "reason": [
+            "dietary-input-not-admitted",
+            "mechanism_engagement-unresolved",
+            "dietary_exposure-unresolved"
+          ]
+        }
+      ],
       "disposition": "no-currently-resolved-admission"
     },
     {
@@ -42261,7 +42287,7 @@
           "input": "Selenium",
           "substance_id": "selenium",
           "assessment": "historical-decision-pending-reconciliation",
-          "food_count": 22
+          "food_count": 23
         },
         {
           "atom_id": "BRS3-FM2-PM4::PM4-DIT-2",
@@ -42425,7 +42451,7 @@
           "input": "Selenium",
           "substance_id": "selenium",
           "assessment": "versioned-assessment",
-          "food_count": 22
+          "food_count": 23
         }
       ],
       "existing_dietary_yes": [
@@ -42505,7 +42531,7 @@
           "input": "Selenium",
           "substance_id": "selenium",
           "assessment": "versioned-assessment",
-          "food_count": 22
+          "food_count": 23
         }
       ],
       "existing_dietary_yes": [

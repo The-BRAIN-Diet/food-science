@@ -39,4 +39,8 @@ test('lamb creatine is grouped as animal in the shared helper and Explorer',asyn
  const sources=JSON.parse(fs.readFileSync('static/explore/pm-explorer/pm-sources.json'));
  const rows=sources.foods.filter(f=>f.food==='lamb'&&f.pm==='BRS4-FM1-PM3'&&f.substance==='creatine');
  assert(rows.length>0);assert(rows.every(f=>f.food_group==='animal'));
+ for(const id of ['herring','heart','ghee','lumpfish-roe'])assert(sources.foods.filter(f=>f.food===id).every(f=>f.food_group==='animal'),id);
+ for(const id of ['kidney-beans'])assert(sources.foods.filter(f=>f.food===id).every(f=>f.food_group==='plant'),id);
+ assert(sources.foods.filter(f=>f.pm==='BRS2-FM1-PM1'&&f.substance==='vitamin-b12'&&f.food==='herring').every(f=>f.food_group==='animal'));
+ assert(sources.foods.filter(f=>f.pm==='BRS2-FM1-PM1'&&f.substance==='vitamin-b2'&&f.food==='heart').every(f=>f.food_group==='animal'));
 });

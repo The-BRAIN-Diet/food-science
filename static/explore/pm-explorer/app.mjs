@@ -1,4 +1,5 @@
 import {buildPilot,orderedFoodGroups} from './model.mjs?v=plant-first-1';
+import {addViewControls} from '../view-theme.mjs?v=1';
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const html=await fetch('../food-wheel/').then(r=>r.text()),data=JSON.parse(html.split('<script>const DATA=')[1].split(';const $=')[0]),ledger=await fetch('../food-wheel/evidence-ledger.json').then(r=>r.json()),pmSources=await fetch('pm-sources.json',{cache:'no-store'}).then(r=>r.json()),m=buildPilot(data,ledger,pmSources);
 const systems=pmSources.systems,groupFor=pm=>m.pms.find(p=>p.id===pm)?.group,system=()=>systems.find(s=>s.id===state.brs);
@@ -18,4 +19,5 @@ function render(){document.documentElement.style.setProperty('--accent',system()
  $('#summary').textContent=subs.length+' recorded identities · '+new Set(fs.map(f=>f.food)).size+' food sources · ranked, documented or explicitly related; selected PM only';const step=!state.pm?'pms':!state.sub?'subs':'foods';for(const c of ['system','pms','subs','foods'])$('#'+c).classList.toggle('step',c===step);requestAnimationFrame(draw);}
 $('#home').onclick=()=>go({brs:'',pm:'',sub:'',food:''});$('#back').onclick=()=>state.sub?go({sub:'',food:''}):state.pm?go({pm:'',sub:'',food:''}):go({brs:''});$('#close').onclick=()=>$('#detail').hidden=true;for(const c of ['system','pms','subs','foods'])$('#'+c).onscroll=draw;window.onresize=draw;window.onpopstate=()=>{read();render();};read();render();
 
+addViewControls({anchor:document.querySelector('header'),diagram:()=>$('#explorer').hidden?$('#overview'):$('#canvas'),fileStem:'brain-biology-explorer'});
 for(const id of [...new Set(m.foods.map(f=>f.food))].sort()){const o=document.createElement("option");o.value=id;o.textContent=fn(id);$("#foodJump").appendChild(o);}$("#foodJump").onchange=e=>{const rows=m.foods.filter(f=>f.food===e.target.value);if(!rows.length)return;const r=rows[0];go({brs:groupFor(r.pm),pm:r.pm,sub:r.substance,food:r.food});info(fn(r.food),rows,"/docs/foods/"+r.food);for(const route of rows){const b=document.createElement("button");b.textContent=sn(route.substance)+" → "+route.pm;b.onclick=()=>go({brs:groupFor(route.pm),pm:route.pm,sub:route.substance,food:route.food});$("#detailBody").appendChild(b);}e.target.value="";};

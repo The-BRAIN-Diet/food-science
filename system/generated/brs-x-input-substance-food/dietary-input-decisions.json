@@ -69,6 +69,14 @@
     "flags": []
   },
   {
+    "relationship_id": "BRS-X(ECS-PM3)::PM3-DIT-2",
+    "source_record": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation.mdx#dietary_input_traceability/PM3-DIT-2",
+    "input": "Genistein",
+    "dietary_input": false,
+    "note": "Hypothesis candidate only. Dietary input is No. No food ribbon or intake recommendation is created.",
+    "flags": []
+  },
+  {
     "relationship_id": "BRS-X(ECS-PM4)::PM4-DIT-1",
     "source_record": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation.mdx#dietary_input_traceability/PM4-DIT-1",
     "input": "2-Arachidonoylglycerol (2-AG)",

@@ -275,6 +275,59 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "brazil-nuts",
+      "food_title": "Brazil Nuts",
+      "food_material": "Nuts, brazilnuts, dried, unblanched",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/brazil-nuts.md#substance_relationships/Selenium",
+          "evidence": "USDA SR Legacy",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170569/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports 1917 µg selenium per 100 g in Nuts, brazilnuts, dried, unblanched. The same record’s 1 oz (28.35 g) portion is 543 µg."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F3"
+        ],
+        "citation_keys": [
+          "xia_selenoprotein_2010",
+          "weydert_measurement_2010"
+        ]
+      },
+      "preparation": "dried, unblanched",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "In selenium-deficient adults, plasma glutathione peroxidase activity levelled off once intake reached about 35 micrograms a day. Intake above that plateau did not raise the enzyme further, and the study did not measure net oxidative pressure."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS3",
+      "fm": "BRS3(FM2)",
+      "pm": "BRS3-FM2-PM4",
+      "biological_mechanism": "Balance reactive oxygen species production and clearance so net oxidative pressure stays within tolerable limits.",
+      "dietary_input": "Selenium",
+      "type": null,
+      "classification": "direct",
+      "canonical_substance_id": "selenium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "cheddar-cheese",
       "food_title": "Cheddar Cheese",
       "food_material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
@@ -8557,6 +8610,58 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "versioned-assessment",
+      "food_target": "brazil-nuts",
+      "food_title": "Brazil Nuts",
+      "food_material": "Nuts, brazilnuts, dried, unblanched",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/brazil-nuts.md#substance_relationships/Selenium",
+          "evidence": "USDA SR Legacy",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170569/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports 1917 µg selenium per 100 g in Nuts, brazilnuts, dried, unblanched. The same record’s 1 oz (28.35 g) portion is 543 µg."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F3"
+        ],
+        "citation_keys": [
+          "weitzel_selenium_phgpx_1990"
+        ]
+      },
+      "preparation": "dried, unblanched",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Mouse whole-organ enzyme assays do not identify mitochondrial isoforms, a human food dose or benefit above selenium adequacy. Repletion response depended on dose; antioxidant capacity does not establish clinical prevention."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS3",
+      "fm": "BRS3(FM2)",
+      "pm": "BRS3-FM2-PM5",
+      "biological_mechanism": "Protect membrane fats from oxidative damage so vulnerable polyunsaturated fatty acids remain intact.",
+      "dietary_input": "Selenium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "selenium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
       "food_target": "cheddar-cheese",
       "food_title": "Cheddar Cheese",
       "food_material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
@@ -12829,6 +12934,58 @@
         ]
       },
       "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Culture selenium exposure is not an oral food dose. This supports the thioredoxin arm, not selenium dependence of glutathione reductase, universal tissue recycling flux or benefit above adequacy."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS3",
+      "fm": "BRS3(FM2)",
+      "pm": "BRS3-FM2-PM6",
+      "biological_mechanism": "Regenerate vitamin and thiol antioxidants across networked systems so endogenous defence capacity is sustained.",
+      "dietary_input": "Selenium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "selenium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "brazil-nuts",
+      "food_title": "Brazil Nuts",
+      "food_material": "Nuts, brazilnuts, dried, unblanched",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/brazil-nuts.md#substance_relationships/Selenium",
+          "evidence": "USDA SR Legacy",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170569/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports 1917 µg selenium per 100 g in Nuts, brazilnuts, dried, unblanched. The same record’s 1 oz (28.35 g) portion is 543 µg."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F4"
+        ],
+        "citation_keys": [
+          "marcocci_selenium_thioredoxin_1997"
+        ]
+      },
+      "preparation": "dried, unblanched",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [

@@ -168,6 +168,74 @@ dietary_input_traceability:
       candidates_checked:
         - Canonical registry, page titles and aliases checked; no verified identity.
       gap: Register this specific biochemical identity before substance/food projection.
+  - atom_id: PM3-DIT-2
+    input: Genistein
+    input_type: nutrient/substance
+    biological_role: >-
+      Genistein is a soy isoflavone. Laboratory assays found that it altered anandamide uptake.
+      That makes it a hypothesis candidate for dietary modulation of FAAH-mediated signal duration,
+      not an admitted food lever.
+    evidence_source:
+      finding_ids:
+        - PM3-F2
+      citation_keys:
+        - thors_inhibition_2007
+    evidence_limitation: >-
+      Food-level genistein exposure to relevant neural FAAH inhibition and signal duration is
+      unestablished. Dietary soy is not equivalent to unbound aglycone concentrations at neuronal FAAH.
+      Soy, tofu, tempeh and edamame document occurrence only.
+    canonical_identity:
+      status: resolved
+      substance_id: genistein
+      substance_href: /docs/substances/bioactive-compounds/polyphenols/isoflavones/genistein
+      verification: Registry id genistein and the canonical page agree.
+    dietary_input: false
+    substance_id: genistein
+    dietary_input_note: >-
+      Hypothesis candidate only. Dietary input is No. No food ribbon or intake recommendation is created.
+dietary_input_assessments:
+  - atom_id: PM3-DIT-2
+    status: unresolved
+    type: B
+    classification: direct
+    operation: >-
+      Preserve endocannabinoid signalling duration by limiting FAAH-mediated degradation of anandamide and related
+      NAEs.
+    canonical_substance_id: genistein
+    mechanism_engagement:
+      status: unresolved
+      statement: >-
+        Cell assays found that genistein altered anandamide uptake. They did not show engagement of neural FAAH
+        after dietary exposure.
+      sources:
+        - https://doi.org/10.1038/sj.bjp.0707401
+    dietary_exposure:
+      status: unresolved
+      statement: >-
+        Soy, tofu, tempeh and edamame record genistein occurrence. Occurrence is not evidence that those foods
+        change FAAH activity or anandamide signal duration.
+      sources:
+        - docs/foods/soy.md
+        - docs/foods/tofu.md
+        - docs/foods/tempeh.md
+        - docs/foods/edamame.md
+    assessment_date: '2026-11-12'
+    review_required: true
+    review_reason: >-
+      Hypothesis candidate only. The laboratory uptake finding does not establish dietary exposure or neural
+      FAAH engagement, so the admission gates stay unresolved.
+    food_target_research:
+      completed: true
+      sources_examined:
+        - registry/substances.json
+        - docs/substances/bioactive-compounds/polyphenols/isoflavones/genistein.md
+        - docs/foods/soy.md
+        - docs/foods/tofu.md
+        - docs/foods/tempeh.md
+        - docs/foods/edamame.md
+      sufficient_coverage_rationale: >-
+        The four foods tagged Genistein were examined. Occurrence is documented. No admitted food edge is
+        created because neural FAAH engagement from dietary exposure is unestablished.
 dietary_lever_atoms:
   - atom_id: PM3-DIT-1
     relationship_layer: biochemical-requirement
@@ -176,12 +244,75 @@ dietary_lever_atoms:
     evidence_limitation: >-
       Administered anandamide and experimental inhibitors do not establish food efficacy or everyday
       motivational improvement.
+  - atom_id: PM3-DIT-2
+    relationship_layer: dietary-requirement
+    claim_ceiling: hypothesis-candidate
+    permitted_wording: >-
+      Genistein is a hypothesis candidate for dietary modulation of anandamide uptake. Food-level neural
+      FAAH inhibition is unestablished.
+    evidence_limitation: >-
+      Food-level genistein exposure to relevant neural FAAH inhibition and signal duration is
+      unestablished. Dietary soy is not equivalent to unbound aglycone concentrations at neuronal FAAH.
+      Soy, tofu, tempeh and edamame document occurrence only.
 dietary_lever_presentations:
   - atom_id: PM3-DIT-1
     label: Anandamide (AEA)
     presentation_section: 3.1.2
     reader_description: Anandamide is a signalling lipid hydrolysed by FAAH; inhibition can prolong its effects.
     description_finding_id: PM3-F1
+  - atom_id: PM3-DIT-2
+    label: Genistein
+    presentation_section: 3.1.1
+    short_descriptor: Hypothesis candidate
+    reader_description: >-
+      A laboratory anandamide-uptake finding makes genistein a hypothesis candidate. It is not an admitted
+      dietary requirement.
+    description_finding_id: PM3-F2
+scientific_hypotheses:
+  - id: PM3-H1
+    title: Dietary genistein and FAAH-mediated anandamide preservation
+    proposition: >-
+      Genistein from ordinary soy foods may slow FAAH-mediated anandamide clearance in relevant neural tissue.
+    proposed_direction: Dietary genistein → FAAH-mediated anandamide preservation
+    status: Unestablished
+    rationale: >-
+      Laboratory assays found that genistein and daidzein altered anandamide uptake, and soy foods contain
+      genistein. Those separate observations motivate a dietary hypothesis. They do not establish neural FAAH
+      inhibition or a change in signal duration from eating soy.
+    finding_links:
+      supporting: []
+      contradictory_or_null: []
+      contextual:
+        - pm_id: BRS-X(ECS-PM3)
+          finding_id: PM3-F2
+          href: '?review=1#pm3-f2'
+          label: Genistein changes anandamide handling in laboratory preparations
+          explanation: >-
+            The cell-assay finding supplies the laboratory observation. It does not test dietary soy or neural
+            FAAH engagement.
+    evidence_sources:
+      - study_id: thors-2007-anandamide-uptake
+        label: Thors et al. (2007) — Genistein and anandamide uptake
+        url: https://doi.org/10.1038/sj.bjp.0707401
+        role: contextual
+        proposition: Genistein and daidzein altered anandamide uptake under the tested laboratory conditions.
+        limitations: >-
+          Cell assays are not a dietary exposure study. They do not establish neural FAAH inhibition from soy foods.
+    limitations:
+      - Food-level genistein exposure to relevant neural FAAH inhibition and signal duration is unestablished.
+      - Dietary soy is not equivalent to unbound aglycone concentrations at neuronal FAAH.
+    alternative_explanations:
+      - The uptake change may reflect a cell-assay effect that does not occur after oral exposure and conjugation.
+      - Any dietary association could come from the soy food matrix rather than genistein itself.
+    required_evidence:
+      - >-
+        Human or appropriate neural evidence that oral genistein, in a studied soy food or an equivalent
+        exposure, engages FAAH-mediated anandamide clearance.
+    provenance:
+      - >-
+        Added on owner instruction (12 November 2026) as a hypothesis candidate. No SEC, Dietary Confidence
+        or dietary admission is attached.
+    review_date: '2026-11-12'
 pending_actions:
   - severity: MAJOR
     input: Anandamide (AEA)
@@ -334,7 +465,7 @@ FAAH is an enzyme that breaks down anandamide and related signalling lipids. Its
 ## 2. Primary Biological Effects
 
 - FAAH inhibition prolonged the rapid CB1-sensitive dopamine response; a later component differed pharmacologically.  Solinas et al. (2006) [[2]](#pm-ref-2)
-- Genistein and daidzein altered anandamide uptake under the tested laboratory conditions.  Thors et al. (2007) [[1]](#pm-ref-1)
+- [Genistein](/docs/substances/bioactive-compounds/polyphenols/isoflavones/genistein) and daidzein altered anandamide uptake under the tested laboratory conditions.  Thors et al. (2007) [[1]](#pm-ref-1)
 
 ## 3. Levers
 
@@ -352,7 +483,9 @@ FAAH is an enzyme that breaks down anandamide and related signalling lipids. Its
 <strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-No Direct or Derived Dietary Requirement is currently established.
+No admitted Direct or Derived dietary requirement is established.
+
+- Genistein
 </div>
 </div>
 </div>
@@ -414,7 +547,14 @@ No evidence-qualified Lifestyle Lever is currently established.
 
 FAAH inhibition prolonged the rapid CB1-sensitive dopamine response; a later component differed pharmacologically.  Solinas et al. (2006) [[2]](#pm-ref-2)
 
-**Mechanism boundary:** Food-level genistein exposure to relevant neural FAAH inhibition and signal duration is unestablished. Probiotic serum FAAH concentration is not a brain enzyme-activity assay.
+**Mechanism boundary:** Food-level [genistein](/docs/substances/bioactive-compounds/polyphenols/isoflavones/genistein) exposure to relevant neural FAAH inhibition and signal duration is unestablished. Probiotic serum FAAH concentration is not a brain enzyme-activity assay.
+
+{/* scientific-hypotheses:start */}
+### Scientific Hypotheses
+
+<ScientificHypothesis hypothesis={{"id":"PM3-H1","title":"Dietary genistein and FAAH-mediated anandamide preservation","proposition":"Genistein from ordinary soy foods may slow FAAH-mediated anandamide clearance in relevant neural tissue.","proposed_direction":"Dietary genistein → FAAH-mediated anandamide preservation","status":"Unestablished","rationale":"Laboratory assays found that genistein and daidzein altered anandamide uptake, and soy foods contain genistein. Those separate observations motivate a dietary hypothesis. They do not establish neural FAAH inhibition or a change in signal duration from eating soy.","finding_links":{"supporting":[],"contradictory_or_null":[],"contextual":[{"pm_id":"BRS-X(ECS-PM3)","finding_id":"PM3-F2","href":"?review=1#pm3-f2","label":"Genistein changes anandamide handling in laboratory preparations","explanation":"The cell-assay finding supplies the laboratory observation. It does not test dietary soy or neural FAAH engagement."}]},"evidence_sources":[{"study_id":"thors-2007-anandamide-uptake","label":"Thors et al. (2007) — Genistein and anandamide uptake","url":"https://doi.org/10.1038/sj.bjp.0707401","role":"contextual","proposition":"Genistein and daidzein altered anandamide uptake under the tested laboratory conditions.","limitations":"Cell assays are not a dietary exposure study. They do not establish neural FAAH inhibition from soy foods."}],"limitations":["Food-level genistein exposure to relevant neural FAAH inhibition and signal duration is unestablished.","Dietary soy is not equivalent to unbound aglycone concentrations at neuronal FAAH."],"alternative_explanations":["The uptake change may reflect a cell-assay effect that does not occur after oral exposure and conjugation.","Any dietary association could come from the soy food matrix rather than genistein itself."],"required_evidence":["Human or appropriate neural evidence that oral genistein, in a studied soy food or an equivalent exposure, engages FAAH-mediated anandamide clearance."],"provenance":["Added on owner instruction (12 November 2026) as a hypothesis candidate. No SEC, Dietary Confidence or dietary admission is attached."],"review_date":"2026-11-12"}} />
+
+{/* scientific-hypotheses:end */}
 
 ### 4.1 Scientific Findings
 
@@ -497,7 +637,7 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
-- **Rationale:** FAAH inhibition may preserve endogenous anandamide tone relevant to stress-buffering context; dietary polyphenols such as genistein represent plausible diet-sensitive modulation points.
+- **Rationale:** FAAH inhibition may preserve endogenous anandamide tone relevant to stress-buffering context; dietary polyphenols such as [genistein](/docs/substances/bioactive-compounds/polyphenols/isoflavones/genistein) represent plausible diet-sensitive modulation points.
 </div>
 </div>
 </div>
@@ -525,5 +665,5 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 
 ## 8. References
 
-- <span id="pm-ref-1">[1]</span> [Thors et al. (2007) — Inhibition of the Cellular Uptake of Anandamide by Genistein and Its Analogue](/docs/papers/BRAIN-Diet-References#thors_inhibition_2007)
+- <span id="pm-ref-1">[1]</span> [Thors et al. (2007) — Inhibition of the Cellular Uptake of Anandamide by Genistein and Its Analogue](/docs/papers/BRAIN-Diet-References#thors_inhibition_2007). Substance record: [Genistein](/docs/substances/bioactive-compounds/polyphenols/isoflavones/genistein). This is a laboratory anandamide-uptake finding. It does not establish dietary inhibition of neural FAAH.
 - <span id="pm-ref-2">[2]</span> [Solinas et al. (2006) — Anandamide Administration Alone and After Inhibition of Fatty Acid Amide Hydrolase (FAAH)](/docs/papers/BRAIN-Diet-References#solinas_anandamide_2006)

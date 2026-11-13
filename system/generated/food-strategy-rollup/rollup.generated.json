@@ -3199,6 +3199,13 @@
           "aliases": []
         },
         {
+          "id": "brazil-nuts",
+          "kind": "food",
+          "title": "Brazil Nuts",
+          "href": "/docs/foods/brazil-nuts",
+          "aliases": []
+        },
+        {
           "id": "broccoli-sprouts",
           "kind": "food",
           "title": "Broccoli Sprouts",
@@ -3364,6 +3371,13 @@
           "kind": "food",
           "title": "Clams",
           "href": "/docs/foods/clams",
+          "aliases": []
+        },
+        {
+          "id": "cloves",
+          "kind": "food",
+          "title": "Cloves",
+          "href": "/docs/foods/cloves",
           "aliases": []
         },
         {
@@ -5920,6 +5934,25 @@
           "kind": "documented-composition"
         },
         {
+          "food_id": "brazil-nuts",
+          "substance_id": "selenium",
+          "provenance": {
+            "file": "docs/foods/brazil-nuts.md",
+            "relationship": {
+              "substance": "Selenium",
+              "relationship": "contains",
+              "description": "USDA FoodData Central reports 1917 µg selenium per 100 g in Nuts, brazilnuts, dried, unblanched. The same record’s 1 oz (28.35 g) portion is 543 µg.",
+              "evidence_status": "supported",
+              "evidence_source": "USDA SR Legacy",
+              "evidence_material": "Nuts, brazilnuts, dried, unblanched",
+              "preparation_state": "dried, unblanched",
+              "source_url": "https://fdc.nal.usda.gov/food-details/170569/nutrients",
+              "presence_status": "presence_and_amount_supported"
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
           "food_id": "broccoli-sprouts",
           "substance_id": "calcium",
           "provenance": {
@@ -6782,14 +6815,15 @@
             "relationship": {
               "substance": "Quercetin",
               "relationship": "contains",
-              "description": "USDA’s flavonoid database identifies quercetin-derived glycosides in capers, canned. A separate amount for this page is not established. This does not establish free-aglycone content.",
+              "description": "Phenol-Explorer chromatography, without hydrolysis, reports a mean of 32.82 mg quercetin per 100 g fresh weight in commercial Mediterranean capers (17 samples; Inocencio et al. 2000). Quercetin 3-O-rutinoside is recorded separately and is not included. The USDA flavonoid Release 3.3 canned-capers row remains a glycoside or aglycone-equivalent panel and does not set this amount.",
               "recovery_origin": "legacy-tag-migration",
               "evidence_status": "supported",
               "recovery_audit": "capers|Quercetin",
-              "evidence_source": "USDA flavonoid database Release 3.3 (2018)",
-              "evidence_material": "Capers, canned; NDB 02054",
-              "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf",
-              "presence_status": "presence_supported_amount_unavailable"
+              "evidence_source": "Inocencio et al. 2000, compiled in Phenol-Explorer",
+              "evidence_material": "Commercial Mediterranean capers",
+              "preparation_state": "Commercial capers",
+              "source_url": "http://phenol-explorer.eu/contents/graph?compound_id=291&experimental_method_group_id=2&food_id=786&unit_type=weight",
+              "presence_status": "presence_and_amount_supported"
             }
           },
           "kind": "documented-composition"
@@ -8084,6 +8118,25 @@
               "evidence_material": "clam or scallop edible tissue, or dark poultry meat",
               "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2813349/",
               "source_reference": "#food-source-3"
+            }
+          },
+          "kind": "documented-composition"
+        },
+        {
+          "food_id": "cloves",
+          "substance_id": "quercetin",
+          "provenance": {
+            "file": "docs/foods/cloves.md",
+            "relationship": {
+              "substance": "Quercetin",
+              "relationship": "contains",
+              "description": "Phenol-Explorer chromatography, without hydrolysis, reports one quercetin determination in dried clove buds: 28.4 mg per 100 g fresh weight (Shan et al. 2005). This is a single sample, not a range.",
+              "evidence_status": "supported",
+              "evidence_source": "Shan et al. 2005, compiled in Phenol-Explorer",
+              "evidence_material": "Dried clove bud",
+              "preparation_state": "Dried bud",
+              "source_url": "http://phenol-explorer.eu/contents/show/2/291/797",
+              "presence_status": "presence_and_amount_supported"
             }
           },
           "kind": "documented-composition"

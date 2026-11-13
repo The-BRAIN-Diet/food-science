@@ -1,4 +1,5 @@
 import {prepare,servingContribution} from './model.mjs';
+import {addViewControls} from '../view-theme.mjs?v=1';
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const data=await fetch('data.json',{cache:'no-store'}).then(r=>r.json());
 const pm=new Map(data.pms.map(p=>[p.id,p])),subs=new Map(data.substances.map(s=>[s.id,s])),systems=new Map(data.systems.map(s=>[s.id,s]));
@@ -40,5 +41,6 @@ function render(){view=prepare(data,threshold,expanded,system);nodes.clear();for
 for(const s of data.systems){const o=document.createElement('option');o.value=s.id;o.textContent=s.id+' · '+s.name;$('#system').appendChild(o);}$('#system').value=system;
 function updateURL(){const u=new URL(location.href);u.searchParams.set('threshold',threshold);if(system)u.searchParams.set('brs',system);else u.searchParams.delete('brs');history.replaceState(null,'',u);}
 for(const b of document.querySelectorAll('[data-threshold]'))b.onclick=()=>{threshold=+b.dataset.threshold;updateURL();render();};$('#expanded').onchange=e=>{expanded=e.target.checked;render();};$('#system').onchange=e=>{system=e.target.value;updateURL();render();};$('#clear').onclick=()=>{selected=null;highlight();$('#detail').hidden=true;};$('#close').onclick=()=>$('#detail').hidden=true;$('#print').onclick=()=>window.print();window.onresize=()=>requestAnimationFrame(draw);
+addViewControls({anchor:document.querySelector('nav'),diagram:()=>$('#diagram'),fileStem:'brain-food-intelligence'});
 $('#export').onclick=()=>{const blob=new Blob([JSON.stringify({snapshot:data.canonical_snapshot,threshold,counts:view.counts,records:view.records,missing:view.missing},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='brain-food-intelligence-'+threshold+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);};
 $('#coverage').innerHTML=table(['Threshold','Foods','Ranked substances','Supporting-only substances','Substance–PM pairs'],[10,25,50].map(t=>{const c=prepare(data,t).counts;return[t+'%',c.foods,c.rankedSubstances,c.starredSubstances,c.targets];}));$('#overlaps').innerHTML=table(['Food identities','Relationship','Treatment'],data.overlaps.map(o=>[o.foods.join(', '),o.type,o.action]));$('#provenance').textContent='Canonical PM source snapshot '+data.canonical_snapshot+' · generated '+data.generated_at+'. This prototype uses the current shared PM source projection, not the older frozen wheel-ranked inventory.';render();

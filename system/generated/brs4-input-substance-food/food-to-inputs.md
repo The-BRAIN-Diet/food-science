@@ -21,6 +21,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Black Pepper | 2 | iron; magnesium; zinc; copper; selenium | BRS4-FM1-PM1; BRS4-FM1-PM10 |  |
 | Black Tea | 4 | manganese; iron; magnesium; copper; vitamin-b2; zinc | BRS4-FM1-PM1; BRS4-FM1-PM10; BRS4-FM2-PM5 |  |
 | Blueberries | 5 | manganese; zinc; selenium; vitamin-e; vitamin-b2; iron; magnesium; copper | BRS4-FM1-PM1; BRS4-FM1-PM10; BRS4-FM2-PM5 |  |
+| Brazil Nuts | 5 | selenium; iron; magnesium; zinc; copper; manganese; vitamin-b2; vitamin-e | BRS4-FM1-PM1; BRS4-FM1-PM10; BRS4-FM2-PM5 |  |
 | Broccoli Sprouts | 1 | magnesium; iron; zinc | BRS4-FM1-PM1; BRS4-FM1-PM10 |  |
 | Broccoli | 5 | magnesium; iron; manganese; zinc; vitamin-b2; selenium; vitamin-e; copper | BRS4-FM1-PM1; BRS4-FM1-PM10; BRS4-FM2-PM5 |  |
 | Brussels Sprouts | 5 | iron; magnesium; copper; manganese; vitamin-b2; zinc; vitamin-e; selenium | BRS4-FM1-PM1; BRS4-FM1-PM10; BRS4-FM2-PM5 |  |
@@ -44,6 +45,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Cilantro | 5 | copper; manganese; zinc; selenium; iron; magnesium; vitamin-b2; vitamin-e | BRS4-FM1-PM1; BRS4-FM1-PM10; BRS4-FM2-PM5 |  |
 | Cinnamon | 5 | selenium; iron; magnesium; copper; manganese; vitamin-b2; zinc; vitamin-e | BRS4-FM1-PM1; BRS4-FM1-PM10; BRS4-FM2-PM5 |  |
 | Clams | 6 | tyrosine; iron; zinc; selenium; vitamin-e; vitamin-b2; magnesium; copper; manganese | BRS4-FM1-PM1; BRS4-FM1-PM10; BRS4-FM2-PM5 |  |
+| Cloves | 4 | iron; magnesium; zinc; copper; manganese; selenium; vitamin-e | BRS4-FM1-PM1; BRS4-FM1-PM10; BRS4-FM2-PM5 |  |
 | Cockles | 2 | iron; selenium; zinc; vitamin-b2 | BRS4-FM1-PM1; BRS4-FM1-PM10 |  |
 | Cocoa | 5 | magnesium; iron; zinc; vitamin-e; copper; manganese; vitamin-b2; selenium | BRS4-FM1-PM1; BRS4-FM1-PM10; BRS4-FM2-PM5 |  |
 | Coconut Oil | 2 | iron; vitamin-e; zinc | BRS4-FM1-PM1; BRS4-FM1-PM10; BRS4-FM2-PM5 |  |

@@ -286,6 +286,15 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
             ? relatedFoodsForInput(relationships, scoped.food_sources) : [];
         const relatedHtml = renderRelatedFoodSources(relatedFoods);
         if (relatedHtml && detail) detail.insertAdjacentHTML('afterbegin', relatedHtml);
+        const compositionTargets = relationships.flatMap((r: any) => (r.food_targets || []).filter((target: any) => target.delivery === "composition-context"));
+        if (compositionTargets.length) {
+            const note = document.createElement("p");
+            note.className = "pm-input-food-composition-note";
+            note.textContent = "Food ontology — composition context. Not a dietary requirement.";
+            li.append(note);
+            li.insertAdjacentHTML("beforeend", renderDocumentedFoodSources(compositionTargets));
+            return;
+        }
         const targets = rankedSourcesForRelationships(rankedSnapshot, pm, relationships) as any[];
         const relatedOntology = [...new Map(relatedFoods.map((row: any) => [row.food_id, {
             ...row,
