@@ -10,6 +10,7 @@ import {
   buildQueuePages,
   issueIsOpen,
   buildPublicDataset,
+  buildRegisterDataset,
   assertPublicDatasetSafe,
 } from "./lib/framework-qc.mjs"
 
@@ -217,9 +218,16 @@ function main() {
     generated: report.generated,
   })
   assertPublicDatasetSafe(publicDataset)
+  const registerDataset = buildRegisterDataset({
+    register,
+    issues: issuesDoc.issues,
+    generated: report.generated,
+  })
+  assertPublicDatasetSafe(registerDataset)
 
   const publicJson = JSON.stringify(publicDataset, null, 2) + "\n"
   const publicSrcPath = path.join(ROOT, "src/data/framework-qc-public.generated.json")
+  const registerSrcPath = path.join(ROOT, "src/data/framework-qc-register.generated.json")
 
   fs.mkdirSync(OUT_DIR, { recursive: true })
   fs.writeFileSync(
@@ -233,12 +241,14 @@ function main() {
   )
   fs.writeFileSync(path.join(OUT_DIR, "framework-qc-public.json"), publicJson)
   fs.writeFileSync(publicSrcPath, publicJson)
+  fs.writeFileSync(registerSrcPath, JSON.stringify(registerDataset, null, 2) + "\n")
 
   console.log(`Framework QC: ${register.length} pages`)
   console.log(`  register → scripts/out/framework-qc/page-review-register.json`)
   console.log(`  report   → scripts/out/framework-qc/page-review-report.md`)
   console.log(`  queue    → scripts/out/framework-qc/review-queue.html`)
   console.log(`  public   → src/data/framework-qc-public.generated.json`)
+  console.log(`  register → src/data/framework-qc-register.generated.json (${registerDataset.issues.length} issues, local only)`)
 }
 
 main()

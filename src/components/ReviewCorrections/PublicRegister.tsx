@@ -2,7 +2,7 @@ import React, {useMemo} from "react"
 import Link from "@docusaurus/Link"
 import {useHistory, useLocation} from "@docusaurus/router"
 import {
-  frameworkQcPublic,
+  frameworkQcRegister,
   reviewStatusLabel,
   type PublicIssue,
 } from "@site/src/data/frameworkQcPublic"
@@ -95,9 +95,7 @@ export default function FrameworkReviewRegister(): React.ReactNode {
   const filters = readParams(location.search)
   const issues = useMemo(
     () =>
-      (frameworkQcPublic.issues || []).filter(
-        (issue) => issue.register_surface !== "pm-tab" && issueMatches(issue, filters),
-      ),
+      (frameworkQcRegister.issues || []).filter((issue) => issueMatches(issue, filters)),
     [filters.q, filters.pageType, filters.letter, filters.issueStatus, filters.reviewStatus, filters.openOnly],
   )
 
@@ -175,17 +173,20 @@ export default function FrameworkReviewRegister(): React.ReactNode {
       </div>
 
       <p className={styles.meta}>
-        {issues.length} public {issues.length === 1 ? "issue" : "issues"}
+        {issues.length} {issues.length === 1 ? "issue" : "issues"}
       </p>
 
-      {issues.length === 0 ? <p>No public issues match these filters.</p> : null}
+      {issues.length === 0 ? <p>No issues match these filters.</p> : null}
 
       {issues.map((issue) => (
         <article className={styles.issueCard} key={issue.id} id={issue.id}>
           <h2>
             {issue.id} — {issue.title}
           </h2>
-          <p className={styles.meta}>Status: {issue.status}</p>
+          <p className={styles.meta}>
+            Status: {issue.status} · {issue.register_surface === "pm-tab" ? "PM Review & Corrections tab" : "Framework register"} ·{" "}
+            {issue.visibility === "internal" ? "Internal" : "Public"}
+          </p>
           <ol>
             {(issue.findings || []).map((finding, index) => (
               <li key={`${issue.id}-${index}`}>{finding}</li>

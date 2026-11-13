@@ -508,6 +508,7 @@ export function isPublicIssue(issue) {
 }
 
 export function isPmEvidenceCorrection(issue) {
+  if (issue?.register_surface === "framework") return false
   return issue?.record_kind === "correction" || issue?.register_surface === "pm-tab"
 }
 
@@ -548,6 +549,10 @@ function affectedPublicPagesForIssue(issue, register) {
 
 export function sanitizePublicIssue(issue, register) {
   if (!isPublicIssue(issue)) return null
+  return projectIssue(issue, register)
+}
+
+function projectIssue(issue, register) {
   const findings = Array.isArray(issue.public_findings)
     ? issue.public_findings
     : Array.isArray(issue.findings)
@@ -571,6 +576,18 @@ export function sanitizePublicIssue(issue, register) {
     resolution_summary: issue.resolution_summary || null,
     resolved_date: issue.resolved_date || null,
     affected_pages: affectedPublicPagesForIssue(issue, register),
+  }
+}
+
+/** Every register issue, for the local-only central register page. Never bundled into public builds. */
+export function buildRegisterDataset({ register, issues, generated }) {
+  return {
+    version: 1,
+    generated: generated || new Date().toISOString().slice(0, 10),
+    issues: (issues || []).map((issue) => ({
+      ...projectIssue(issue, register),
+      visibility: isPublicIssue(issue) ? "public" : "internal",
+    })),
   }
 }
 
