@@ -2,7 +2,7 @@
   "generated_at": "2026-11-11T14:47:24.192Z",
   "canonical_snapshot": "ae60547729842e78864f44d254b2385fd183f21781d36091e6a3161b55077ccc",
   "source_file": "static/explore/pm-explorer/pm-sources.json",
-  "source_sha256": "5c264ff1eabfdf0fa93aa11ca8dd00dfca57b1c1e4faee6634a5fc80904cd87d",
+  "source_sha256": "5f317612e0e2568955e516ef734e2c80230558ef207d5a7fe30e33268cca575c",
   "pms": [
     {
       "id": "BRS-X(Circadian-FM1-PM1)",
@@ -2318,7 +2318,7 @@
       "id": "herring",
       "title": "Herring",
       "page": "/docs/foods/herring",
-      "group": "plant",
+      "group": "animal",
       "source": {
         "database": "USDA FoodData Central",
         "food_name": "Fish, herring, Atlantic, raw",
@@ -2363,7 +2363,7 @@
       "id": "lumpfish-roe",
       "title": "Lumpfish Roe",
       "page": "/docs/foods/lumpfish-roe",
-      "group": "plant",
+      "group": "animal",
       "source": null,
       "tags": [
         "Food",
@@ -165129,7 +165129,7 @@
       "substance": "vitamin-b2",
       "food": "heart",
       "layer": "Ranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "soy::vitamin-b2::soybeans mature seeds raw::raw",
@@ -166230,7 +166230,7 @@
       "substance": "vitamin-b9",
       "food": "kidney-beans",
       "layer": "Ranked",
-      "food_group": "animal"
+      "food_group": "plant"
     },
     {
       "id": "soy::vitamin-b9::soybeans mature seeds raw::raw",
@@ -170897,7 +170897,7 @@
       "substance": "vitamin-b2",
       "food": "heart",
       "layer": "Ranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "soy::vitamin-b2::soybeans mature seeds raw::raw",
@@ -171998,7 +171998,7 @@
       "substance": "vitamin-b9",
       "food": "kidney-beans",
       "layer": "Ranked",
-      "food_group": "animal"
+      "food_group": "plant"
     },
     {
       "id": "soy::vitamin-b9::soybeans mature seeds raw::raw",
@@ -174799,7 +174799,7 @@
       "substance": "vitamin-b2",
       "food": "heart",
       "layer": "Ranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "soy::vitamin-b2::soybeans mature seeds raw::raw",
@@ -177246,7 +177246,7 @@
       "substance": "vitamin-b5",
       "food": "heart",
       "layer": "Ranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "peanuts::vitamin-b5::peanuts all types raw::raw",
@@ -177631,7 +177631,7 @@
       "substance": "vitamin-b9",
       "food": "kidney-beans",
       "layer": "Ranked",
-      "food_group": "animal"
+      "food_group": "plant"
     },
     {
       "id": "soy::vitamin-b9::soybeans mature seeds raw::raw",
@@ -179847,7 +179847,7 @@
       "substance": "dha-docosahexaenoic-acid",
       "food": "herring",
       "layer": "Ranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "sardines::dha-docosahexaenoic-acid::fish sardine atlantic canned in oil drained solids with bone::canned",
@@ -180673,7 +180673,7 @@
       "substance": "vitamin-b9",
       "food": "kidney-beans",
       "layer": "Ranked",
-      "food_group": "animal"
+      "food_group": "plant"
     },
     {
       "id": "soy::vitamin-b9::soybeans mature seeds raw::raw",
@@ -181227,7 +181227,7 @@
       "substance": "dha-docosahexaenoic-acid",
       "food": "lumpfish-roe",
       "layer": "Presence-only, unranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "salmon-roe::choline::salmon roe::salted",
@@ -181837,7 +181837,7 @@
       "substance": "potassium",
       "food": "kidney-beans",
       "layer": "Ranked",
-      "food_group": "animal"
+      "food_group": "plant"
     },
     {
       "id": "spirulina::potassium::seaweed spirulina dried::dried",
@@ -184731,7 +184731,7 @@
       "substance": "dha-docosahexaenoic-acid",
       "food": "herring",
       "layer": "Ranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "sardines::dha-docosahexaenoic-acid::fish sardine atlantic canned in oil drained solids with bone::canned",
@@ -185046,7 +185046,7 @@
       "substance": "dha-docosahexaenoic-acid",
       "food": "lumpfish-roe",
       "layer": "Presence-only, unranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "milk::uridine::bovine milk from holstein friesian cows::raw",
@@ -185738,7 +185738,7 @@
       "substance": "vitamin-b12",
       "food": "herring",
       "layer": "Ranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "mussels::vitamin-b12::mollusks mussel blue raw::raw",
@@ -186289,7 +186289,7 @@
       "substance": "vitamin-b2",
       "food": "heart",
       "layer": "Ranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "soy::vitamin-b2::soybeans mature seeds raw::raw",
@@ -186840,7 +186840,7 @@
       "substance": "vitamin-b9",
       "food": "kidney-beans",
       "layer": "Ranked",
-      "food_group": "animal"
+      "food_group": "plant"
     },
     {
       "id": "soy::vitamin-b9::soybeans mature seeds raw::raw",
@@ -191934,7 +191934,7 @@
       "substance": "potassium",
       "food": "kidney-beans",
       "layer": "Ranked",
-      "food_group": "animal"
+      "food_group": "plant"
     },
     {
       "id": "spirulina::potassium::seaweed spirulina dried::dried",
@@ -192503,7 +192503,7 @@
       "substance": "vitamin-b9",
       "food": "kidney-beans",
       "layer": "Ranked",
-      "food_group": "animal"
+      "food_group": "plant"
     },
     {
       "id": "soy::vitamin-b9::soybeans mature seeds raw::raw",
@@ -195377,7 +195377,7 @@
       "substance": "vitamin-b12",
       "food": "herring",
       "layer": "Ranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "mussels::vitamin-b12::mollusks mussel blue raw::raw",
@@ -195928,7 +195928,7 @@
       "substance": "vitamin-b2",
       "food": "heart",
       "layer": "Ranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "soy::vitamin-b2::soybeans mature seeds raw::raw",
@@ -197029,7 +197029,7 @@
       "substance": "vitamin-b9",
       "food": "kidney-beans",
       "layer": "Ranked",
-      "food_group": "animal"
+      "food_group": "plant"
     },
     {
       "id": "soy::vitamin-b9::soybeans mature seeds raw::raw",
@@ -202418,7 +202418,7 @@
       "substance": "vitamin-b9",
       "food": "kidney-beans",
       "layer": "Ranked",
-      "food_group": "animal"
+      "food_group": "plant"
     },
     {
       "id": "soy::vitamin-b9::soybeans mature seeds raw::raw",
@@ -210081,7 +210081,7 @@
       "substance": "vitamin-b2",
       "food": "heart",
       "layer": "Ranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "soy::vitamin-b2::soybeans mature seeds raw::raw",
@@ -211920,7 +211920,7 @@
       "substance": "dha-docosahexaenoic-acid",
       "food": "herring",
       "layer": "Ranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "sardines::dha-docosahexaenoic-acid::fish sardine atlantic canned in oil drained solids with bone::canned",
@@ -212235,7 +212235,7 @@
       "substance": "dha-docosahexaenoic-acid",
       "food": "lumpfish-roe",
       "layer": "Presence-only, unranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "trout-roe::dha-docosahexaenoic-acid::commercial salmon trout or lumpfish roe::unspecified",
@@ -212621,7 +212621,7 @@
       "substance": "dha-docosahexaenoic-acid",
       "food": "herring",
       "layer": "Ranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "sardines::dha-docosahexaenoic-acid::fish sardine atlantic canned in oil drained solids with bone::canned",
@@ -213006,7 +213006,7 @@
       "substance": "epa-eicosapentaenoic-acid",
       "food": "herring",
       "layer": "Ranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "sardines::epa-eicosapentaenoic-acid::fish sardine atlantic canned in oil drained solids with bone::canned",
@@ -213506,7 +213506,7 @@
       "substance": "dha-docosahexaenoic-acid",
       "food": "lumpfish-roe",
       "layer": "Presence-only, unranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "lumpfish-roe::epa-eicosapentaenoic-acid::commercial salmon trout or lumpfish roe::unspecified",
@@ -213580,7 +213580,7 @@
       "substance": "epa-eicosapentaenoic-acid",
       "food": "lumpfish-roe",
       "layer": "Presence-only, unranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "trout-roe::dha-docosahexaenoic-acid::commercial salmon trout or lumpfish roe::unspecified",
@@ -214870,7 +214870,7 @@
       "substance": "vitamin-b2",
       "food": "heart",
       "layer": "Ranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "soy::vitamin-b2::soybeans mature seeds raw::raw",
@@ -217290,7 +217290,7 @@
       "substance": "vitamin-b2",
       "food": "heart",
       "layer": "Ranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "soy::vitamin-b2::soybeans mature seeds raw::raw",
@@ -221134,7 +221134,7 @@
       "substance": "vitamin-a",
       "food": "ghee",
       "layer": "Ranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "carrots::vitamin-a::carrots raw::raw",
@@ -226556,7 +226556,7 @@
       "substance": "dha-docosahexaenoic-acid",
       "food": "herring",
       "layer": "Ranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "sardines::dha-docosahexaenoic-acid::fish sardine atlantic canned in oil drained solids with bone::canned",
@@ -226871,7 +226871,7 @@
       "substance": "dha-docosahexaenoic-acid",
       "food": "lumpfish-roe",
       "layer": "Presence-only, unranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "trout-roe::dha-docosahexaenoic-acid::commercial salmon trout or lumpfish roe::unspecified",
@@ -228003,7 +228003,7 @@
       "substance": "dha-docosahexaenoic-acid",
       "food": "herring",
       "layer": "Ranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "sardines::dha-docosahexaenoic-acid::fish sardine atlantic canned in oil drained solids with bone::canned",
@@ -228388,7 +228388,7 @@
       "substance": "epa-eicosapentaenoic-acid",
       "food": "herring",
       "layer": "Ranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "sardines::epa-eicosapentaenoic-acid::fish sardine atlantic canned in oil drained solids with bone::canned",
@@ -228888,7 +228888,7 @@
       "substance": "dha-docosahexaenoic-acid",
       "food": "lumpfish-roe",
       "layer": "Presence-only, unranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "lumpfish-roe::epa-eicosapentaenoic-acid::commercial salmon trout or lumpfish roe::unspecified",
@@ -228962,7 +228962,7 @@
       "substance": "epa-eicosapentaenoic-acid",
       "food": "lumpfish-roe",
       "layer": "Presence-only, unranked",
-      "food_group": "plant"
+      "food_group": "animal"
     },
     {
       "id": "trout-roe::dha-docosahexaenoic-acid::commercial salmon trout or lumpfish roe::unspecified",

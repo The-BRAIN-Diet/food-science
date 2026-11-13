@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import matter from 'gray-matter';
 import {documentedSourcesForRelationships,isCanonicalAnimalSource} from '../src/data/documentedFoodSources.mjs';
 import {rankedSourcesForRelationships} from '../src/data/rankedFoodSources.mjs';
 import {renderFoodWheel} from './lib/food-wheel-render.mjs';
@@ -42,7 +43,43 @@ for(const scope of ['brs1','brs2','brs3','brs4','brs5','brs6','brs-x']){
   }
  }
 }
-data.documentedUnranked=[...edges.values()];data.relatedSources=JSON.parse(fs.readFileSync(review?reviewDir+'/explore/pm-explorer/pm-sources.json':'static/explore/pm-explorer/pm-sources.json')).foods.filter(f=>f.status==='contextual-related').map(f=>({edge_id:[f.food,f.substance,f.pm,'related'].join('|'),food_id:f.food,substance_id:f.substance,pm_id:f.pm,brs:'BRS5',status:'contextual-related',layer:f.layer,relationship_ids:f.member_pathways.map(p=>'resistant-starch-'+p.related_id),limitations:[f.limitation],network:'approved',food_pair_id:f.food+'|'+f.substance,related_source:f,direct_containment:false}));
+data.documentedUnranked=[...edges.values()];
+// The seven foods on the quercetin page. Composition only: no PM dietary admission is created.
+const quercetinFoods=['apples','blueberries','capers','cloves','kale','onions','soy'];
+if(!data.network.inventory.some(s=>s.id==='quercetin'))data.network.inventory.push({id:'quercetin',name:'Quercetin',page:'/docs/substances/bioactive-compounds/polyphenols/flavonols/quercetin',category:'Distinctive',primary:'',inclusion:'included',decision:'Display',reason:'Documented on the seven quercetin food pages. Food composition is not a PM dietary admission.',reach:quercetinFoods.length,food_linked:true,records:[],upstream:[]});
+for(const foodId of quercetinFoods){
+ const page=matter(fs.readFileSync(`docs/foods/${foodId}.md`,'utf8'));
+ const rel=(page.data.substance_relationships||[]).find(r=>r.substance==='Quercetin');
+ const row=(page.data.nutrition_supplementary_sources||[]).find(s=>/quercetin/i.test(s.key||'')||/quercetin/i.test(s.label||''));
+ if(!rel||!row)throw Error('Quercetin food record missing: '+foodId);
+ const measured=Number.isFinite(row.value)||(Array.isArray(row.range)&&row.range.length===2);
+ const observation=measured?{value:Number.isFinite(row.value)?row.value:undefined,range:Array.isArray(row.range)?row.range:undefined,unit:row.unit||'mg',basis:row.basis||'',public_note:row.public_note||row.notes||'',source_note:row.source_note||'',source_url:row.source_url||rel.source_url||'',unranked_reason:'Food composition is not ranked and is not a PM dietary admission.'}:null;
+ const source={food_id:foodId,substance_id:'quercetin',food_title:page.data.title,food_page:'/docs/foods/'+foodId,food_record:'docs/foods/'+foodId+'.md',material:rel.evidence_material||page.data.title,preparation:rel.preparation_state||null,observations:observation?[observation]:[],presence_records:measured?[]:[{evidence:rel.description||row.public_note||row.source_note||'',source_url:rel.source_url||row.source_url||'',presence_status:rel.presence_status||row.presence_status||'presence_supported_amount_unavailable',limitations:'Quantity is not established for this food. Occurrence does not establish a PM effect.'}],relationship_ids:[]};
+ const edge={edge_id:foodId+'|quercetin|food-composition',food_id:foodId,substance_id:'quercetin',pm_id:'Food composition',brs:'',status:'documented-unranked',layer:measured?'Measured, unranked':'Presence-only — quantity not established, not ranked',relationship_ids:[],limitations:['Documented food occurrence only. This does not admit quercetin to a biological system or establish an effect.'],network:'approved',food_pair_id:foodId+'|quercetin',delivery:'Documented food occurrence/provision; not intervention efficacy',sources:[source]};
+ if(!data.documentedUnranked.some(e=>e.edge_id===edge.edge_id))data.documentedUnranked.push(edge);
+}
+// The four foods tagged Genistein. Composition only: no PM dietary admission is created.
+const genisteinFoods=['edamame','soy','tempeh','tofu'];
+if(!data.network.inventory.some(s=>s.id==='genistein'))data.network.inventory.push({id:'genistein',name:'Genistein',page:'/docs/substances/bioactive-compounds/polyphenols/isoflavones/genistein',category:'Distinctive',primary:'',inclusion:'included',decision:'Display',reason:'Documented on the four genistein food pages. Food composition is not a PM dietary admission.',reach:genisteinFoods.length,food_linked:true,records:[],upstream:[]});
+for(const foodId of genisteinFoods){
+ const page=matter(fs.readFileSync(`docs/foods/${foodId}.md`,'utf8'));
+ const rel=(page.data.substance_relationships||[]).find(r=>r.substance==='Genistein');
+ const row=(page.data.nutrition_supplementary_sources||[]).find(s=>/genistein/i.test(s.key||'')||/genistein/i.test(s.label||''));
+ if(!rel||!row)throw Error('Genistein food record missing: '+foodId);
+ const source={food_id:foodId,substance_id:'genistein',food_title:page.data.title,food_page:'/docs/foods/'+foodId,food_record:'docs/foods/'+foodId+'.md',material:rel.evidence_material||page.data.title,preparation:rel.preparation_state||null,observations:[],presence_records:[{evidence:rel.description||row.public_note||row.source_note||'',source_url:rel.source_url||row.source_url||'',presence_status:rel.presence_status||row.presence_status||'presence_supported_amount_unavailable',limitations:'Quantity is not established for this food. Occurrence does not establish a PM effect.'}],relationship_ids:[]};
+ const edge={edge_id:foodId+'|genistein|food-composition',food_id:foodId,substance_id:'genistein',pm_id:'Food composition',brs:'',status:'documented-unranked',layer:'Presence-only — quantity not established, not ranked',relationship_ids:[],limitations:['Documented food occurrence only. This does not admit genistein to a biological system or establish an effect.'],network:'approved',food_pair_id:foodId+'|genistein',delivery:'Documented food occurrence/provision; not intervention efficacy',sources:[source]};
+ if(!data.documentedUnranked.some(e=>e.edge_id===edge.edge_id))data.documentedUnranked.push(edge);
+}
+// Brazil nuts record 1917 µg selenium per 100 g. The food is new, so it stays measured composition and is not inserted into the frozen ranked panel.
+{
+ const page=matter(fs.readFileSync('docs/foods/brazil-nuts.md','utf8'));
+ const value=page.data.nutrition_per_100g?.selenium_ug;
+ if(value!==1917)throw Error('Brazil nut selenium value changed: '+value);
+ const source={food_id:'brazil-nuts',substance_id:'selenium',food_title:page.data.title,food_page:'/docs/foods/brazil-nuts',food_record:'docs/foods/brazil-nuts.md',material:page.data.nutrition_source.food_name,preparation:'dried, unblanched',observations:[{value,unit:'µg',basis:page.data.nutrition_source.basis,public_note:'USDA FoodData Central, Nuts, brazilnuts, dried, unblanched (FDC 170569), 1917 µg selenium per 100 g. The same record’s 1 oz (28.35 g) portion is 543 µg.',source_note:'Not in the frozen ranked selenium panel. Shown as measured composition.',source_url:'https://fdc.nal.usda.gov/food-details/170569/nutrients',unranked_reason:'Measured food composition is not in the frozen ranked panel and is not a dietary admission.'}],presence_records:[],relationship_ids:[]};
+ const edge={edge_id:'brazil-nuts|selenium|food-composition',food_id:'brazil-nuts',substance_id:'selenium',pm_id:'Food composition',brs:'',status:'documented-unranked',layer:'Measured, unranked',relationship_ids:[],limitations:['USDA SR Legacy reports 1917 µg selenium per 100 g dried unblanched brazil nuts, and 543 µg in 1 oz (28.35 g). This page is not in the frozen ranked panel, so the link is measured composition and not a ranked source or a dietary admission.'],network:'approved',food_pair_id:'brazil-nuts|selenium',delivery:'Documented food occurrence/provision; not intervention efficacy',sources:[source]};
+ if(!data.documentedUnranked.some(e=>e.edge_id===edge.edge_id))data.documentedUnranked.push(edge);
+}
+data.relatedSources=JSON.parse(fs.readFileSync(review?reviewDir+'/explore/pm-explorer/pm-sources.json':'static/explore/pm-explorer/pm-sources.json')).foods.filter(f=>f.status==='contextual-related').map(f=>({edge_id:[f.food,f.substance,f.pm,'related'].join('|'),food_id:f.food,substance_id:f.substance,pm_id:f.pm,brs:'BRS5',status:'contextual-related',layer:f.layer,relationship_ids:f.member_pathways.map(p=>'resistant-starch-'+p.related_id),limitations:[f.limitation],network:'approved',food_pair_id:f.food+'|'+f.substance,related_source:f,direct_containment:false}));
  data.displaySelections=[...ranked,...data.documentedUnranked,...data.relatedSources];
 for(const e of [...data.documentedUnranked,...data.relatedSources]){
  if(!data.foods.some(f=>f.id===e.food_id)){const s=e.sources[0];data.foods.push({id:e.food_id,title:s.food_title,page:s.food_page,record:s.food_record,targets:0,pairs:[]});}

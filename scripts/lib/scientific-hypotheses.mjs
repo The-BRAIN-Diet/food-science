@@ -12,7 +12,8 @@ export function validateScientificHypotheses(data,issues=[],{content='',root=pro
  if(!rows.length){if(content.includes(HYPOTHESES_START)||/^### Scientific Hypotheses\s*$/m.test(content)||content.includes('<ScientificHypothesis '))add('empty_section','Do not render an empty hypothesis section');return issues;}
  const registry=resolvePm?null:pmRegistry(root),resolve=resolvePm||((id)=>registry.get(id)),ids=new Set();
  for(const h of rows){
-  if(!/^PM\d+-H\d+$/.test(h.id||'')||!h.id.startsWith(data.pm_id.split('-').at(-1)+'-H')||ids.has(h.id))add('invalid_id','Hypothesis ID must be stable, unique and belong to the receiving PM');ids.add(h.id);
+  const owner=String(data.pm_id||'').split('-').at(-1).replace(/\)$/,'');
+  if(!/^PM\d+-H\d+$/.test(h.id||'')||!h.id.startsWith(owner+'-H')||ids.has(h.id))add('invalid_id','Hypothesis ID must be stable, unique and belong to the receiving PM');ids.add(h.id);
   for(const key of ['title','proposition','proposed_direction','rationale'])if(!h[key]?.trim())add('missing_field',`${h.id}: ${key} required`);
   if(!HYPOTHESIS_STATUSES.includes(h.status))add('invalid_status',`${h.id}: invalid status`);
   if((h.source_pm||h.target_pm)&&(h.target_pm!==data.pm_id||!h.source_pm||h.proposed_direction!==`${h.source_pm} → ${h.target_pm}`))add('direction',`${h.id}: source/target and explicit direction must match receiving PM`);

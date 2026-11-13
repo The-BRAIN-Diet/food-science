@@ -86,20 +86,30 @@ const fallbackQcPath = path.resolve(
   'src/data/framework-qc-public.fallback.json',
 );
 
+const generatedRegisterPath = path.resolve(
+  __dirname,
+  'src/data/framework-qc-register.generated.json',
+);
+const fallbackRegisterPath = path.resolve(
+  __dirname,
+  'src/data/framework-qc-register.fallback.json',
+);
+
 function localInternalDocsPlugin() {
   return {
     name: 'local-internal-docs',
     configureWebpack() {
-      const useGenerated = fs.existsSync(generatedQcPath);
-      if (!useGenerated) return {};
-      return {
-        resolve: {
-          alias: {
-            './framework-qc-public.fallback.json': generatedQcPath,
-            [fallbackQcPath]: generatedQcPath,
-          },
-        },
-      };
+      const alias: Record<string, string> = {};
+      if (fs.existsSync(generatedQcPath)) {
+        alias['./framework-qc-public.fallback.json'] = generatedQcPath;
+        alias[fallbackQcPath] = generatedQcPath;
+      }
+      // Internal issues reach the bundle only when internal docs are built.
+      if (includeInternalDocs && fs.existsSync(generatedRegisterPath)) {
+        alias['./framework-qc-register.fallback.json'] = generatedRegisterPath;
+        alias[fallbackRegisterPath] = generatedRegisterPath;
+      }
+      return Object.keys(alias).length ? {resolve: {alias}} : {};
     },
   };
 }

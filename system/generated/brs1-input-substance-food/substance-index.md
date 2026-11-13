@@ -18,7 +18,7 @@ Generated from the same authoritative records as the PM disclosures. The preview
 | [BRS1-FM1-PM3](http://localhost:3000/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship<br/>[BRS1-FM1-PM4](http://localhost:3000/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship<br/>[BRS1-FM1-PM5](http://localhost:3000/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Vitamin B2 (Riboflavin)](http://localhost:3000/docs/substances/nutrients/micronutrients/vitamins/vitamin-b2) — vitamin-b2 | [Almonds](http://localhost:3000/docs/foods/almonds) — 1.138 mg (per 100 g edible portion) · preparation unknown<br/>[Amaranth](http://localhost:3000/docs/foods/amaranth) — 0.2 mg (per 100 g edible portion) · uncooked<br/>[Anchovies](http://localhost:3000/docs/foods/anchovies) — 0.363 mg (per 100 g edible portion) · canned<br/>[Apples](http://localhost:3000/docs/foods/apples) — 0.026 mg (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 0.141 mg (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 0.037 mg (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 0.13 mg (per 100 g edible portion) · raw<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 0.073 mg (per 100 g edible portion) · raw<br/>[Barley](http://localhost:3000/docs/foods/barley) — 0.285 mg (per 100 g edible portion) · preparation unknown<br/>[Beef](http://localhost:3000/docs/foods/beef) — 0.151 mg (per 100 g edible portion) · raw | None recorded |
 | [BRS1-FM1-PM3](http://localhost:3000/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship<br/>[BRS1-FM1-PM4](http://localhost:3000/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship<br/>[BRS1-FM4-PM11](http://localhost:3000/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Magnesium](http://localhost:3000/docs/substances/nutrients/micronutrients/minerals/macro/magnesium) — magnesium | [Almonds](http://localhost:3000/docs/foods/almonds) — 270 mg (per 100 g edible portion) · preparation unknown<br/>[Amaranth](http://localhost:3000/docs/foods/amaranth) — 248 mg (per 100 g edible portion) · uncooked<br/>[Anchovies](http://localhost:3000/docs/foods/anchovies) — 69 mg (per 100 g edible portion) · canned<br/>[Apples](http://localhost:3000/docs/foods/apples) — 5 mg (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 14 mg (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 14 mg (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 29 mg (per 100 g edible portion) · raw<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 27 mg (per 100 g edible portion) · raw<br/>[Barley](http://localhost:3000/docs/foods/barley) — 133 mg (per 100 g edible portion) · preparation unknown<br/>[Beef](http://localhost:3000/docs/foods/beef) — 18 mg (per 100 g edible portion) · raw | [Broccoli Sprouts](http://localhost:3000/docs/foods/broccoli-sprouts) — Quantity not established · raw<br/>[Nori](http://localhost:3000/docs/foods/nori) — Quantity not established · dried<br/>[Seaweed](http://localhost:3000/docs/foods/seaweed) — Quantity not established · preparation unknown<br/>[Sourdough Bread](http://localhost:3000/docs/foods/sourdough-bread) — Quantity not established · preparation unknown<br/>[Whole Grains](http://localhost:3000/docs/foods/whole-grains) — Quantity not established · preparation unknown |
 | [BRS1-FM1-PM4](http://localhost:3000/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Copper](http://localhost:3000/docs/substances/nutrients/micronutrients/minerals/trace/copper) — copper | [Almonds](http://localhost:3000/docs/foods/almonds) — 1.031 mg (per 100 g edible portion) · preparation unknown<br/>[Amaranth](http://localhost:3000/docs/foods/amaranth) — 0.525 mg (per 100 g edible portion) · uncooked<br/>[Anchovies](http://localhost:3000/docs/foods/anchovies) — 0.339 mg (per 100 g edible portion) · canned<br/>[Apples](http://localhost:3000/docs/foods/apples) — 0.027 mg (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 0.189 mg (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 0.081 mg (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 0.19 mg (per 100 g edible portion) · raw<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 0.078 mg (per 100 g edible portion) · raw<br/>[Barley](http://localhost:3000/docs/foods/barley) — 0.498 mg (per 100 g edible portion) · preparation unknown<br/>[Beef](http://localhost:3000/docs/foods/beef) — 0.067 mg (per 100 g edible portion) · raw | [Sourdough Bread](http://localhost:3000/docs/foods/sourdough-bread) — Quantity not established · preparation unknown |
-| [BRS1-FM1-PM4](http://localhost:3000/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Vitamin C (Ascorbate)](http://localhost:3000/docs/substances/nutrients/micronutrients/vitamins/vitamin-c) — vitamin-c | [Amaranth](http://localhost:3000/docs/foods/amaranth) — 4.2 mg (per 100 g edible portion) · uncooked<br/>[Apples](http://localhost:3000/docs/foods/apples) — 4.6 mg (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 5.6 mg (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 2.2 mg (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 10 mg (per 100 g edible portion) · raw<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 8.7 mg (per 100 g edible portion) · raw<br/>[Beetroot](http://localhost:3000/docs/foods/beetroot) — 4.9 mg (per 100 g edible portion) · raw<br/>[Bell Peppers](http://localhost:3000/docs/foods/bell-peppers) — 127.7 mg (per 100 g edible portion) · raw<br/>[Blueberries](http://localhost:3000/docs/foods/blueberries) — 9.7 mg (per 100 g edible portion) · raw<br/>[Broccoli](http://localhost:3000/docs/foods/broccoli) — 89.2 mg (per 100 g edible portion) · raw | [Broccoli Sprouts](http://localhost:3000/docs/foods/broccoli-sprouts) — Quantity not established · raw |
+| [BRS1-FM1-PM4](http://localhost:3000/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Vitamin C (Ascorbate)](http://localhost:3000/docs/substances/nutrients/micronutrients/vitamins/vitamin-c) — vitamin-c | [Amaranth](http://localhost:3000/docs/foods/amaranth) — 4.2 mg (per 100 g edible portion) · uncooked<br/>[Apples](http://localhost:3000/docs/foods/apples) — 4.6 mg (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 5.6 mg (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 2.2 mg (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 10 mg (per 100 g edible portion) · raw<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 8.7 mg (per 100 g edible portion) · raw<br/>[Beetroot](http://localhost:3000/docs/foods/beetroot) — 4.9 mg (per 100 g edible portion) · raw<br/>[Bell Peppers](http://localhost:3000/docs/foods/bell-peppers) — 127.7 mg (per 100 g edible portion) · raw<br/>[Blueberries](http://localhost:3000/docs/foods/blueberries) — 9.7 mg (per 100 g edible portion) · raw<br/>[Brazil Nuts](http://localhost:3000/docs/foods/brazil-nuts) — 0.7 mg (per 100 g edible portion) · dried | [Broccoli Sprouts](http://localhost:3000/docs/foods/broccoli-sprouts) — Quantity not established · raw |
 | [BRS1-FM2-PM6](http://localhost:3000/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Phosphatidylcholine (PC)](http://localhost:3000/docs/substances/nutrients/macronutrients/fatty-acids/phospholipids/phosphatidylcholine) — phosphatidylcholine | No comparable quantified food sources | [Mussels](http://localhost:3000/docs/foods/mussels) — Quantity not established · raw<br/>[Oysters](http://localhost:3000/docs/foods/oysters) — Quantity not established · raw<br/>[Salmon Roe](http://localhost:3000/docs/foods/salmon-roe) — Quantity not established · salted<br/>[Soy Lecithin](http://localhost:3000/docs/foods/soy-lecithin) — Quantity not established · Oil<br/>[Sunflower Lecithin](http://localhost:3000/docs/foods/sunflower-lecithin) — Quantity not established · preparation unknown<br/>[Trout Roe](http://localhost:3000/docs/foods/trout-roe) — Quantity not established · preparation unknown |
 | [BRS1-FM2-PM6](http://localhost:3000/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) — 3.1.2 Cofactors and Substrates — PM-owned dietary relationship | [Vitamin B5 (Pantothenic Acid)](http://localhost:3000/docs/substances/nutrients/micronutrients/vitamins/vitamin-b5) — vitamin-b5 | [Almonds](http://localhost:3000/docs/foods/almonds) — 0.471 mg (per 100 g edible portion) · preparation unknown<br/>[Amaranth](http://localhost:3000/docs/foods/amaranth) — 1.457 mg (per 100 g edible portion) · uncooked<br/>[Anchovies](http://localhost:3000/docs/foods/anchovies) — 0.909 mg (per 100 g edible portion) · canned<br/>[Apples](http://localhost:3000/docs/foods/apples) — 0.061 mg (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 0.274 mg (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 0.281 mg (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 1.389 mg (per 100 g edible portion) · raw<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 0.334 mg (per 100 g edible portion) · raw<br/>[Barley](http://localhost:3000/docs/foods/barley) — 0.282 mg (per 100 g edible portion) · preparation unknown<br/>[Beef](http://localhost:3000/docs/foods/beef) — 0.549 mg (per 100 g edible portion) · raw | None recorded |
 | [BRS1-FM2-PM6](http://localhost:3000/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship<br/>[BRS1-FM3-PM7](http://localhost:3000/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship<br/>[BRS1-FM4-PM10](http://localhost:3000/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Sodium](http://localhost:3000/docs/substances/nutrients/micronutrients/minerals/macro/sodium) — sodium | [Almonds](http://localhost:3000/docs/foods/almonds) — 1 mg (per 100 g edible portion) · preparation unknown<br/>[Amaranth](http://localhost:3000/docs/foods/amaranth) — 4 mg (per 100 g edible portion) · uncooked<br/>[Anchovies](http://localhost:3000/docs/foods/anchovies) — 3668 mg (per 100 g edible portion) · canned<br/>[Apples](http://localhost:3000/docs/foods/apples) — 1 mg (per 100 g edible portion) · raw<br/>[Asparagus](http://localhost:3000/docs/foods/asparagus) — 2 mg (per 100 g edible portion) · raw<br/>[Aubergine](http://localhost:3000/docs/foods/aubergine) — 2 mg (per 100 g edible portion) · raw<br/>[Avocado](http://localhost:3000/docs/foods/avocado) — 7 mg (per 100 g edible portion) · raw<br/>[Bananas](http://localhost:3000/docs/foods/bananas) — 1 mg (per 100 g edible portion) · raw<br/>[Barley](http://localhost:3000/docs/foods/barley) — 12 mg (per 100 g edible portion) · preparation unknown<br/>[Beef](http://localhost:3000/docs/foods/beef) — 66 mg (per 100 g edible portion) · raw | [Lumpfish Roe](http://localhost:3000/docs/foods/lumpfish-roe) — Quantity not established · preparation unknown |
@@ -119,7 +119,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (151)</summary>
+<summary>All mapped food sources (153)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -139,6 +139,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Black Pepper](http://localhost:3000/docs/foods/black-pepper) | Spices, pepper, black | 9.71 mg (per 100 g edible portion) | docs/foods/black-pepper.md#nutrition_per_100g/iron_mg |
 | [Black Tea](http://localhost:3000/docs/foods/black-tea) | Beverages, tea, black, brewed, prepared with tap water | 0.02 mg (per 100 g edible portion) | docs/foods/black-tea.md#nutrition_per_100g/iron_mg |
 | [Blueberries](http://localhost:3000/docs/foods/blueberries) | Blueberries, raw — raw | 0.28 mg (per 100 g edible portion) | docs/foods/blueberries.md#nutrition_per_100g/iron_mg |
+| [Brazil Nuts](http://localhost:3000/docs/foods/brazil-nuts) | Nuts, brazilnuts, dried, unblanched — dried | 2.43 mg (per 100 g edible portion) | docs/foods/brazil-nuts.md#nutrition_per_100g/iron_mg |
 | [Broccoli Sprouts](http://localhost:3000/docs/foods/broccoli-sprouts) | Broccoli sprouts, raw (sprout material, not mature broccoli) — raw | Quantity not established | docs/foods/broccoli-sprouts.md#substance_relationships/Iron |
 | [Broccoli Sprouts](http://localhost:3000/docs/foods/broccoli-sprouts) | Broccoli sprouts, raw — raw | 0.6 mg (per 100 g edible portion) | docs/foods/broccoli-sprouts.md#nutrition_per_100g/iron_mg |
 | [Broccoli](http://localhost:3000/docs/foods/broccoli) | Broccoli, raw — raw | 0.73 mg (per 100 g edible portion) | docs/foods/broccoli.md#nutrition_per_100g/iron_mg; docs/foods/broccoli.md#substance_relationships/Iron |
@@ -164,6 +165,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cilantro](http://localhost:3000/docs/foods/cilantro) | Coriander (cilantro) leaves, raw — raw | 1.77 mg (per 100 g edible portion) | docs/foods/cilantro.md#nutrition_per_100g/iron_mg |
 | [Cinnamon](http://localhost:3000/docs/foods/cinnamon) | Spices, cinnamon, ground | 8.32 mg (per 100 g edible portion) | docs/foods/cinnamon.md#nutrition_per_100g/iron_mg |
 | [Clams](http://localhost:3000/docs/foods/clams) | Mollusks, clam, mixed species, raw — raw | 1.62 mg (per 100 g edible portion) | docs/foods/clams.md#nutrition_per_100g/iron_mg; docs/foods/clams.md#substance_relationships/Iron |
+| [Cloves](http://localhost:3000/docs/foods/cloves) | Spices, cloves, ground | 11.8 mg (per 100 g edible portion) | docs/foods/cloves.md#nutrition_per_100g/iron_mg |
 | [Cockles](http://localhost:3000/docs/foods/cockles) | Cockles, raw (Alaska Native) — raw | 16.2 mg (per 100 g edible portion) | docs/foods/cockles.md#nutrition_per_100g/iron_mg; docs/foods/cockles.md#substance_relationships/Iron |
 | [Cocoa](http://localhost:3000/docs/foods/cocoa) | Cocoa, dry powder, unsweetened — dry powder | 13.86 mg (per 100 g edible portion) | docs/foods/cocoa.md#nutrition_per_100g/iron_mg; docs/foods/cocoa.md#substance_relationships/Iron |
 | [Coconut Oil](http://localhost:3000/docs/foods/coconut-oil) | Oil, coconut — Oil | 0.05 mg (per 100 g edible portion) | docs/foods/coconut-oil.md#nutrition_per_100g/iron_mg |
@@ -282,7 +284,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (138)</summary>
+<summary>All mapped food sources (140)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -301,6 +303,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Black Beans](http://localhost:3000/docs/foods/black-beans) | Beans, black, mature seeds, raw — raw | 0.286 mg (per 100 g edible portion) | docs/foods/black-beans.md#nutrition_per_100g/vitamin_b6_mg; docs/foods/black-beans.md#substance_relationships/Vitamin%20B6 |
 | [Black Pepper](http://localhost:3000/docs/foods/black-pepper) | Spices, pepper, black | 0.291 mg (per 100 g edible portion) | docs/foods/black-pepper.md#nutrition_per_100g/vitamin_b6_mg |
 | [Blueberries](http://localhost:3000/docs/foods/blueberries) | Blueberries, raw — raw | 0.052 mg (per 100 g edible portion) | docs/foods/blueberries.md#nutrition_per_100g/vitamin_b6_mg |
+| [Brazil Nuts](http://localhost:3000/docs/foods/brazil-nuts) | Nuts, brazilnuts, dried, unblanched — dried | 0.101 mg (per 100 g edible portion) | docs/foods/brazil-nuts.md#nutrition_per_100g/vitamin_b6_mg |
 | [Broccoli Sprouts](http://localhost:3000/docs/foods/broccoli-sprouts) | Broccoli sprouts, raw (sprout material, not mature broccoli) — raw | Quantity not established | docs/foods/broccoli-sprouts.md#substance_relationships/Vitamin%20B6 |
 | [Broccoli Sprouts](http://localhost:3000/docs/foods/broccoli-sprouts) | Broccoli sprouts, raw — raw | 0.14 mg (per 100 g edible portion) | docs/foods/broccoli-sprouts.md#nutrition_per_100g/vitamin_b6_mg |
 | [Broccoli](http://localhost:3000/docs/foods/broccoli) | Broccoli, raw — raw | 0.175 mg (per 100 g edible portion) | docs/foods/broccoli.md#nutrition_per_100g/vitamin_b6_mg; docs/foods/broccoli.md#substance_relationships/Vitamin%20B6 |
@@ -322,6 +325,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cilantro](http://localhost:3000/docs/foods/cilantro) | Coriander (cilantro) leaves, raw — raw | 0.149 mg (per 100 g edible portion) | docs/foods/cilantro.md#nutrition_per_100g/vitamin_b6_mg |
 | [Cinnamon](http://localhost:3000/docs/foods/cinnamon) | Spices, cinnamon, ground | 0.158 mg (per 100 g edible portion) | docs/foods/cinnamon.md#nutrition_per_100g/vitamin_b6_mg |
 | [Clams](http://localhost:3000/docs/foods/clams) | Mollusks, clam, mixed species, raw — raw | 0.01 mg (per 100 g edible portion) | docs/foods/clams.md#nutrition_per_100g/vitamin_b6_mg |
+| [Cloves](http://localhost:3000/docs/foods/cloves) | Spices, cloves, ground | 0.39 mg (per 100 g edible portion) | docs/foods/cloves.md#nutrition_per_100g/vitamin_b6_mg |
 | [Cocoa](http://localhost:3000/docs/foods/cocoa) | Cocoa, dry powder, unsweetened — dry powder | 0.118 mg (per 100 g edible portion) | docs/foods/cocoa.md#nutrition_per_100g/vitamin_b6_mg |
 | [Cod](http://localhost:3000/docs/foods/cod) | Fish, cod, Atlantic, raw — raw | 0.245 mg (per 100 g edible portion) | docs/foods/cod.md#nutrition_per_100g/vitamin_b6_mg |
 | [Corn](http://localhost:3000/docs/foods/corn) | Corn, sweet, yellow, raw — raw | 0.093 mg (per 100 g edible portion) | docs/foods/corn.md#nutrition_per_100g/vitamin_b6_mg |
@@ -432,7 +436,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (136)</summary>
+<summary>All mapped food sources (138)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -452,6 +456,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Black Pepper](http://localhost:3000/docs/foods/black-pepper) | Spices, pepper, black | 17 µg (per 100 g edible portion) | docs/foods/black-pepper.md#nutrition_per_100g/folate_ug |
 | [Black Tea](http://localhost:3000/docs/foods/black-tea) | Beverages, tea, black, brewed, prepared with tap water | 5 µg (per 100 g edible portion) | docs/foods/black-tea.md#nutrition_per_100g/folate_ug |
 | [Blueberries](http://localhost:3000/docs/foods/blueberries) | Blueberries, raw — raw | 6 µg (per 100 g edible portion) | docs/foods/blueberries.md#nutrition_per_100g/folate_ug |
+| [Brazil Nuts](http://localhost:3000/docs/foods/brazil-nuts) | Nuts, brazilnuts, dried, unblanched — dried | 22 µg (per 100 g edible portion) | docs/foods/brazil-nuts.md#nutrition_per_100g/folate_ug |
 | [Broccoli Sprouts](http://localhost:3000/docs/foods/broccoli-sprouts) | Broccoli sprouts, raw (sprout material, not mature broccoli) — raw | Quantity not established | docs/foods/broccoli-sprouts.md#substance_relationships/Vitamin%20B9 |
 | [Broccoli Sprouts](http://localhost:3000/docs/foods/broccoli-sprouts) | Broccoli sprouts, raw — raw | 37 µg (per 100 g edible portion) | docs/foods/broccoli-sprouts.md#nutrition_per_100g/folate_ug |
 | [Broccoli](http://localhost:3000/docs/foods/broccoli) | Broccoli, raw — raw | 63 µg (per 100 g edible portion) | docs/foods/broccoli.md#nutrition_per_100g/folate_ug; docs/foods/broccoli.md#substance_relationships/Vitamin%20B9 |
@@ -475,6 +480,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cilantro](http://localhost:3000/docs/foods/cilantro) | Coriander (cilantro) leaves, raw — raw | 62 µg (per 100 g edible portion) | docs/foods/cilantro.md#nutrition_per_100g/folate_ug |
 | [Cinnamon](http://localhost:3000/docs/foods/cinnamon) | Spices, cinnamon, ground | 6 µg (per 100 g edible portion) | docs/foods/cinnamon.md#nutrition_per_100g/folate_ug |
 | [Clams](http://localhost:3000/docs/foods/clams) | Mollusks, clam, mixed species, raw — raw | 5 µg (per 100 g edible portion) | docs/foods/clams.md#nutrition_per_100g/folate_ug |
+| [Cloves](http://localhost:3000/docs/foods/cloves) | Spices, cloves, ground | 25 µg (per 100 g edible portion) | docs/foods/cloves.md#nutrition_per_100g/folate_ug |
 | [Cocoa](http://localhost:3000/docs/foods/cocoa) | Cocoa, dry powder, unsweetened — dry powder | 32 µg (per 100 g edible portion) | docs/foods/cocoa.md#nutrition_per_100g/folate_ug |
 | [Cod](http://localhost:3000/docs/foods/cod) | Fish, cod, Atlantic, raw — raw | 7 µg (per 100 g edible portion) | docs/foods/cod.md#nutrition_per_100g/folate_ug |
 | [Corn](http://localhost:3000/docs/foods/corn) | Corn, sweet, yellow, raw — raw | 42 µg (per 100 g edible portion) | docs/foods/corn.md#nutrition_per_100g/folate_ug |
@@ -601,7 +607,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (121)</summary>
+<summary>All mapped food sources (123)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -620,6 +626,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Black Pepper](http://localhost:3000/docs/foods/black-pepper) | Spices, pepper, black | 11.3 mg (per 100 g edible portion) | docs/foods/black-pepper.md#nutrition_per_100g/choline_mg |
 | [Black Tea](http://localhost:3000/docs/foods/black-tea) | Beverages, tea, black, brewed, prepared with tap water | 0.4 mg (per 100 g edible portion) | docs/foods/black-tea.md#nutrition_per_100g/choline_mg |
 | [Blueberries](http://localhost:3000/docs/foods/blueberries) | Blueberries, raw — raw | 6 mg (per 100 g edible portion) | docs/foods/blueberries.md#nutrition_per_100g/choline_mg |
+| [Brazil Nuts](http://localhost:3000/docs/foods/brazil-nuts) | Nuts, brazilnuts, dried, unblanched — dried | 28.8 mg (per 100 g edible portion) | docs/foods/brazil-nuts.md#nutrition_per_100g/choline_mg |
 | [Broccoli](http://localhost:3000/docs/foods/broccoli) | Broccoli, raw — raw | 18.7 mg (per 100 g edible portion) | docs/foods/broccoli.md#nutrition_per_100g/choline_mg; docs/foods/broccoli.md#substance_relationships/Choline |
 | [Brussels Sprouts](http://localhost:3000/docs/foods/brussels-sprouts) | Brussels sprouts, raw — raw | 19.1 mg (per 100 g edible portion) | docs/foods/brussels-sprouts.md#nutrition_per_100g/choline_mg |
 | [Butter](http://localhost:3000/docs/foods/butter) | Butter, without salt | 18.8 mg (per 100 g edible portion) | docs/foods/butter.md#nutrition_per_100g/choline_mg |
@@ -636,6 +643,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cilantro](http://localhost:3000/docs/foods/cilantro) | Coriander (cilantro) leaves, raw — raw | 12.8 mg (per 100 g edible portion) | docs/foods/cilantro.md#nutrition_per_100g/choline_mg |
 | [Cinnamon](http://localhost:3000/docs/foods/cinnamon) | Spices, cinnamon, ground | 11 mg (per 100 g edible portion) | docs/foods/cinnamon.md#nutrition_per_100g/choline_mg |
 | [Clams](http://localhost:3000/docs/foods/clams) | Mollusks, clam, mixed species, raw — raw | 65 mg (per 100 g edible portion) | docs/foods/clams.md#nutrition_per_100g/choline_mg |
+| [Cloves](http://localhost:3000/docs/foods/cloves) | Spices, cloves, ground | 37.4 mg (per 100 g edible portion) | docs/foods/cloves.md#nutrition_per_100g/choline_mg |
 | [Cocoa](http://localhost:3000/docs/foods/cocoa) | Cocoa, dry powder, unsweetened — dry powder | 12 mg (per 100 g edible portion) | docs/foods/cocoa.md#nutrition_per_100g/choline_mg |
 | [Coconut Oil](http://localhost:3000/docs/foods/coconut-oil) | Oil, coconut — Oil | 0.3 mg (per 100 g edible portion) | docs/foods/coconut-oil.md#nutrition_per_100g/choline_mg |
 | [Cod](http://localhost:3000/docs/foods/cod) | Fish, cod, Atlantic, raw — raw | 65.2 mg (per 100 g edible portion) | docs/foods/cod.md#nutrition_per_100g/choline_mg |
@@ -745,7 +753,7 @@ No eligible dietary food list is generated. Check the PM dietary-input decision 
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (130)</summary>
+<summary>All mapped food sources (131)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -764,6 +772,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Black Beans](http://localhost:3000/docs/foods/black-beans) | Beans, black, mature seeds, raw — raw | 0.193 mg (per 100 g edible portion) | docs/foods/black-beans.md#nutrition_per_100g/vitamin_b2_mg |
 | [Black Tea](http://localhost:3000/docs/foods/black-tea) | Beverages, tea, black, brewed, prepared with tap water | 0.014 mg (per 100 g edible portion) | docs/foods/black-tea.md#nutrition_per_100g/vitamin_b2_mg |
 | [Blueberries](http://localhost:3000/docs/foods/blueberries) | Blueberries, raw — raw | 0.041 mg (per 100 g edible portion) | docs/foods/blueberries.md#nutrition_per_100g/vitamin_b2_mg |
+| [Brazil Nuts](http://localhost:3000/docs/foods/brazil-nuts) | Nuts, brazilnuts, dried, unblanched — dried | 0.035 mg (per 100 g edible portion) | docs/foods/brazil-nuts.md#nutrition_per_100g/vitamin_b2_mg |
 | [Broccoli](http://localhost:3000/docs/foods/broccoli) | Broccoli, raw — raw | 0.117 mg (per 100 g edible portion) | docs/foods/broccoli.md#nutrition_per_100g/vitamin_b2_mg; docs/foods/broccoli.md#substance_relationships/Vitamin%20B2 |
 | [Brussels Sprouts](http://localhost:3000/docs/foods/brussels-sprouts) | Brussels sprouts, raw — raw | 0.09 mg (per 100 g edible portion) | docs/foods/brussels-sprouts.md#nutrition_per_100g/vitamin_b2_mg |
 | [Buckwheat](http://localhost:3000/docs/foods/buckwheat) | Buckwheat | 0.425 mg (per 100 g edible portion) | docs/foods/buckwheat.md#nutrition_per_100g/vitamin_b2_mg |
@@ -887,7 +896,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (145)</summary>
+<summary>All mapped food sources (147)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -907,6 +916,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Black Pepper](http://localhost:3000/docs/foods/black-pepper) | Spices, pepper, black | 171 mg (per 100 g edible portion) | docs/foods/black-pepper.md#nutrition_per_100g/magnesium_mg |
 | [Black Tea](http://localhost:3000/docs/foods/black-tea) | Beverages, tea, black, brewed, prepared with tap water | 3 mg (per 100 g edible portion) | docs/foods/black-tea.md#nutrition_per_100g/magnesium_mg |
 | [Blueberries](http://localhost:3000/docs/foods/blueberries) | Blueberries, raw — raw | 6 mg (per 100 g edible portion) | docs/foods/blueberries.md#nutrition_per_100g/magnesium_mg |
+| [Brazil Nuts](http://localhost:3000/docs/foods/brazil-nuts) | Nuts, brazilnuts, dried, unblanched — dried | 376 mg (per 100 g edible portion) | docs/foods/brazil-nuts.md#nutrition_per_100g/magnesium_mg |
 | [Broccoli Sprouts](http://localhost:3000/docs/foods/broccoli-sprouts) | Broccoli sprouts, raw (sprout material, not mature broccoli) — raw | Quantity not established | docs/foods/broccoli-sprouts.md#substance_relationships/Magnesium |
 | [Broccoli Sprouts](http://localhost:3000/docs/foods/broccoli-sprouts) | Broccoli sprouts, raw — raw | 29 mg (per 100 g edible portion) | docs/foods/broccoli-sprouts.md#nutrition_per_100g/magnesium_mg |
 | [Broccoli](http://localhost:3000/docs/foods/broccoli) | Broccoli, raw — raw | 21 mg (per 100 g edible portion) | docs/foods/broccoli.md#nutrition_per_100g/magnesium_mg; docs/foods/broccoli.md#substance_relationships/Magnesium |
@@ -930,6 +940,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cilantro](http://localhost:3000/docs/foods/cilantro) | Coriander (cilantro) leaves, raw — raw | 26 mg (per 100 g edible portion) | docs/foods/cilantro.md#nutrition_per_100g/magnesium_mg |
 | [Cinnamon](http://localhost:3000/docs/foods/cinnamon) | Spices, cinnamon, ground | 60 mg (per 100 g edible portion) | docs/foods/cinnamon.md#nutrition_per_100g/magnesium_mg |
 | [Clams](http://localhost:3000/docs/foods/clams) | Mollusks, clam, mixed species, raw — raw | 19 mg (per 100 g edible portion) | docs/foods/clams.md#nutrition_per_100g/magnesium_mg |
+| [Cloves](http://localhost:3000/docs/foods/cloves) | Spices, cloves, ground | 259 mg (per 100 g edible portion) | docs/foods/cloves.md#nutrition_per_100g/magnesium_mg |
 | [Cocoa](http://localhost:3000/docs/foods/cocoa) | Cocoa, dry powder, unsweetened — dry powder | 499 mg (per 100 g edible portion) | docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg; docs/foods/cocoa.md#substance_relationships/Magnesium |
 | [Cod](http://localhost:3000/docs/foods/cod) | Fish, cod, Atlantic, raw — raw | 32 mg (per 100 g edible portion) | docs/foods/cod.md#nutrition_per_100g/magnesium_mg |
 | [Coffee](http://localhost:3000/docs/foods/coffee) | Beverages, coffee, brewed, breakfast blend | 4 mg (per 100 g edible portion) | docs/foods/coffee.md#nutrition_per_100g/magnesium_mg |
@@ -1044,7 +1055,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (134)</summary>
+<summary>All mapped food sources (136)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -1064,6 +1075,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Black Pepper](http://localhost:3000/docs/foods/black-pepper) | Spices, pepper, black | 1.33 mg (per 100 g edible portion) | docs/foods/black-pepper.md#nutrition_per_100g/copper_mg |
 | [Black Tea](http://localhost:3000/docs/foods/black-tea) | Beverages, tea, black, brewed, prepared with tap water | 0.01 mg (per 100 g edible portion) | docs/foods/black-tea.md#nutrition_per_100g/copper_mg |
 | [Blueberries](http://localhost:3000/docs/foods/blueberries) | Blueberries, raw — raw | 0.057 mg (per 100 g edible portion) | docs/foods/blueberries.md#nutrition_per_100g/copper_mg |
+| [Brazil Nuts](http://localhost:3000/docs/foods/brazil-nuts) | Nuts, brazilnuts, dried, unblanched — dried | 1.743 mg (per 100 g edible portion) | docs/foods/brazil-nuts.md#nutrition_per_100g/copper_mg |
 | [Broccoli](http://localhost:3000/docs/foods/broccoli) | Broccoli, raw — raw | 0.049 mg (per 100 g edible portion) | docs/foods/broccoli.md#nutrition_per_100g/copper_mg |
 | [Brussels Sprouts](http://localhost:3000/docs/foods/brussels-sprouts) | Brussels sprouts, raw — raw | 0.07 mg (per 100 g edible portion) | docs/foods/brussels-sprouts.md#nutrition_per_100g/copper_mg |
 | [Buckwheat](http://localhost:3000/docs/foods/buckwheat) | Buckwheat | 1.1 mg (per 100 g edible portion) | docs/foods/buckwheat.md#nutrition_per_100g/copper_mg |
@@ -1084,6 +1096,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cilantro](http://localhost:3000/docs/foods/cilantro) | Coriander (cilantro) leaves, raw — raw | 0.225 mg (per 100 g edible portion) | docs/foods/cilantro.md#nutrition_per_100g/copper_mg |
 | [Cinnamon](http://localhost:3000/docs/foods/cinnamon) | Spices, cinnamon, ground | 0.339 mg (per 100 g edible portion) | docs/foods/cinnamon.md#nutrition_per_100g/copper_mg |
 | [Clams](http://localhost:3000/docs/foods/clams) | Mollusks, clam, mixed species, raw — raw | 0.053 mg (per 100 g edible portion) | docs/foods/clams.md#nutrition_per_100g/copper_mg |
+| [Cloves](http://localhost:3000/docs/foods/cloves) | Spices, cloves, ground | 0.37 mg (per 100 g edible portion) | docs/foods/cloves.md#nutrition_per_100g/copper_mg |
 | [Cocoa](http://localhost:3000/docs/foods/cocoa) | Cocoa, dry powder, unsweetened — dry powder | 3.788 mg (per 100 g edible portion) | docs/foods/cocoa.md#nutrition_per_100g/copper_mg |
 | [Cod](http://localhost:3000/docs/foods/cod) | Fish, cod, Atlantic, raw — raw | 0.028 mg (per 100 g edible portion) | docs/foods/cod.md#nutrition_per_100g/copper_mg |
 | [Coffee](http://localhost:3000/docs/foods/coffee) | Beverages, coffee, brewed, breakfast blend | 0.005 mg (per 100 g edible portion) | docs/foods/coffee.md#nutrition_per_100g/copper_mg |
@@ -1190,7 +1203,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (89)</summary>
+<summary>All mapped food sources (91)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -1203,6 +1216,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Beetroot](http://localhost:3000/docs/foods/beetroot) | Beets, raw — raw | 4.9 mg (per 100 g edible portion) | docs/foods/beetroot.md#nutrition_per_100g/vitamin_c_mg |
 | [Bell Peppers](http://localhost:3000/docs/foods/bell-peppers) | Peppers, sweet, red, raw — raw | 127.7 mg (per 100 g edible portion) | docs/foods/bell-peppers.md#nutrition_per_100g/vitamin_c_mg; docs/foods/bell-peppers.md#substance_relationships/Vitamin%20C |
 | [Blueberries](http://localhost:3000/docs/foods/blueberries) | Blueberries, raw — raw | 9.7 mg (per 100 g edible portion) | docs/foods/blueberries.md#nutrition_per_100g/vitamin_c_mg; docs/foods/blueberries.md#substance_relationships/Vitamin%20C |
+| [Brazil Nuts](http://localhost:3000/docs/foods/brazil-nuts) | Nuts, brazilnuts, dried, unblanched — dried | 0.7 mg (per 100 g edible portion) | docs/foods/brazil-nuts.md#nutrition_per_100g/vitamin_c_mg |
 | [Broccoli Sprouts](http://localhost:3000/docs/foods/broccoli-sprouts) | Broccoli sprouts, raw (sprout material, not mature broccoli) — raw | Quantity not established | docs/foods/broccoli-sprouts.md#substance_relationships/Vitamin%20C |
 | [Broccoli Sprouts](http://localhost:3000/docs/foods/broccoli-sprouts) | Broccoli sprouts, raw — raw | 43 mg (per 100 g edible portion) | docs/foods/broccoli-sprouts.md#nutrition_per_100g/vitamin_c_mg |
 | [Broccoli](http://localhost:3000/docs/foods/broccoli) | Broccoli, raw — raw | 89.2 mg (per 100 g edible portion) | docs/foods/broccoli.md#nutrition_per_100g/vitamin_c_mg; docs/foods/broccoli.md#substance_relationships/Vitamin%20C |
@@ -1220,6 +1234,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Chicory Root](http://localhost:3000/docs/foods/chicory-root) | Chicory roots, raw (Cichorium intybus) — raw | 5 mg (per 100 g edible portion; dietary fibre does not include inulin) | docs/foods/chicory-root.md#nutrition_per_100g/vitamin_c_mg; docs/foods/chicory-root.md#substance_relationships/Vitamin%20C |
 | [Cilantro](http://localhost:3000/docs/foods/cilantro) | Coriander (cilantro) leaves, raw — raw | 27 mg (per 100 g edible portion) | docs/foods/cilantro.md#nutrition_per_100g/vitamin_c_mg |
 | [Cinnamon](http://localhost:3000/docs/foods/cinnamon) | Spices, cinnamon, ground | 3.8 mg (per 100 g edible portion) | docs/foods/cinnamon.md#nutrition_per_100g/vitamin_c_mg |
+| [Cloves](http://localhost:3000/docs/foods/cloves) | Spices, cloves, ground | 0.2 mg (per 100 g edible portion) | docs/foods/cloves.md#nutrition_per_100g/vitamin_c_mg |
 | [Cod](http://localhost:3000/docs/foods/cod) | Fish, cod, Atlantic, raw — raw | 1 mg (per 100 g edible portion) | docs/foods/cod.md#nutrition_per_100g/vitamin_c_mg |
 | [Corn](http://localhost:3000/docs/foods/corn) | Corn, sweet, yellow, raw — raw | 6.8 mg (per 100 g edible portion) | docs/foods/corn.md#nutrition_per_100g/vitamin_c_mg |
 | [Cranberries](http://localhost:3000/docs/foods/cranberries) | Cranberries, raw — raw | 14 mg (per 100 g edible portion) | docs/foods/cranberries.md#nutrition_per_100g/vitamin_c_mg; docs/foods/cranberries.md#substance_relationships/Vitamin%20C |
@@ -1309,7 +1324,7 @@ Food sources identified; quantities not established.
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (126)</summary>
+<summary>All mapped food sources (127)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -1328,6 +1343,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Black Beans](http://localhost:3000/docs/foods/black-beans) | Beans, black, mature seeds, raw — raw | 0.899 mg (per 100 g edible portion) | docs/foods/black-beans.md#nutrition_per_100g/vitamin_b5_mg |
 | [Black Tea](http://localhost:3000/docs/foods/black-tea) | Beverages, tea, black, brewed, prepared with tap water | 0.011 mg (per 100 g edible portion) | docs/foods/black-tea.md#nutrition_per_100g/vitamin_b5_mg |
 | [Blueberries](http://localhost:3000/docs/foods/blueberries) | Blueberries, raw — raw | 0.124 mg (per 100 g edible portion) | docs/foods/blueberries.md#nutrition_per_100g/vitamin_b5_mg |
+| [Brazil Nuts](http://localhost:3000/docs/foods/brazil-nuts) | Nuts, brazilnuts, dried, unblanched — dried | 0.184 mg (per 100 g edible portion) | docs/foods/brazil-nuts.md#nutrition_per_100g/vitamin_b5_mg |
 | [Broccoli](http://localhost:3000/docs/foods/broccoli) | Broccoli, raw — raw | 0.573 mg (per 100 g edible portion) | docs/foods/broccoli.md#nutrition_per_100g/vitamin_b5_mg; docs/foods/broccoli.md#substance_relationships/Vitamin%20B5 |
 | [Brussels Sprouts](http://localhost:3000/docs/foods/brussels-sprouts) | Brussels sprouts, raw — raw | 0.309 mg (per 100 g edible portion) | docs/foods/brussels-sprouts.md#nutrition_per_100g/vitamin_b5_mg |
 | [Buckwheat](http://localhost:3000/docs/foods/buckwheat) | Buckwheat | 1.233 mg (per 100 g edible portion) | docs/foods/buckwheat.md#nutrition_per_100g/vitamin_b5_mg |
@@ -1447,7 +1463,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (134)</summary>
+<summary>All mapped food sources (136)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -1466,6 +1482,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Black Beans](http://localhost:3000/docs/foods/black-beans) | Beans, black, mature seeds, raw — raw | 5 mg (per 100 g edible portion) | docs/foods/black-beans.md#nutrition_per_100g/sodium_mg |
 | [Black Tea](http://localhost:3000/docs/foods/black-tea) | Beverages, tea, black, brewed, prepared with tap water | 3 mg (per 100 g edible portion) | docs/foods/black-tea.md#nutrition_per_100g/sodium_mg |
 | [Blueberries](http://localhost:3000/docs/foods/blueberries) | Blueberries, raw — raw | 1 mg (per 100 g edible portion) | docs/foods/blueberries.md#nutrition_per_100g/sodium_mg |
+| [Brazil Nuts](http://localhost:3000/docs/foods/brazil-nuts) | Nuts, brazilnuts, dried, unblanched — dried | 3 mg (per 100 g edible portion) | docs/foods/brazil-nuts.md#nutrition_per_100g/sodium_mg |
 | [Broccoli](http://localhost:3000/docs/foods/broccoli) | Broccoli, raw — raw | 33 mg (per 100 g edible portion) | docs/foods/broccoli.md#nutrition_per_100g/sodium_mg |
 | [Brussels Sprouts](http://localhost:3000/docs/foods/brussels-sprouts) | Brussels sprouts, raw — raw | 25 mg (per 100 g edible portion) | docs/foods/brussels-sprouts.md#nutrition_per_100g/sodium_mg |
 | [Buckwheat](http://localhost:3000/docs/foods/buckwheat) | Buckwheat | 1 mg (per 100 g edible portion) | docs/foods/buckwheat.md#nutrition_per_100g/sodium_mg |
@@ -1485,6 +1502,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cilantro](http://localhost:3000/docs/foods/cilantro) | Coriander (cilantro) leaves, raw — raw | 46 mg (per 100 g edible portion) | docs/foods/cilantro.md#nutrition_per_100g/sodium_mg |
 | [Cinnamon](http://localhost:3000/docs/foods/cinnamon) | Spices, cinnamon, ground | 10 mg (per 100 g edible portion) | docs/foods/cinnamon.md#nutrition_per_100g/sodium_mg |
 | [Clams](http://localhost:3000/docs/foods/clams) | Mollusks, clam, mixed species, raw — raw | 601 mg (per 100 g edible portion) | docs/foods/clams.md#nutrition_per_100g/sodium_mg |
+| [Cloves](http://localhost:3000/docs/foods/cloves) | Spices, cloves, ground | 277 mg (per 100 g edible portion) | docs/foods/cloves.md#nutrition_per_100g/sodium_mg |
 | [Cocoa](http://localhost:3000/docs/foods/cocoa) | Cocoa, dry powder, unsweetened — dry powder | 21 mg (per 100 g edible portion) | docs/foods/cocoa.md#nutrition_per_100g/sodium_mg |
 | [Cod](http://localhost:3000/docs/foods/cod) | Fish, cod, Atlantic, raw — raw | 54 mg (per 100 g edible portion) | docs/foods/cod.md#nutrition_per_100g/sodium_mg |
 | [Coffee](http://localhost:3000/docs/foods/coffee) | Beverages, coffee, brewed, breakfast blend | 1 mg (per 100 g edible portion) | docs/foods/coffee.md#nutrition_per_100g/sodium_mg |
@@ -1629,7 +1647,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (145)</summary>
+<summary>All mapped food sources (147)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -1649,6 +1667,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Black Pepper](http://localhost:3000/docs/foods/black-pepper) | Spices, pepper, black | 1329 mg (per 100 g edible portion) | docs/foods/black-pepper.md#nutrition_per_100g/potassium_mg |
 | [Black Tea](http://localhost:3000/docs/foods/black-tea) | Beverages, tea, black, brewed, prepared with tap water | 37 mg (per 100 g edible portion) | docs/foods/black-tea.md#nutrition_per_100g/potassium_mg |
 | [Blueberries](http://localhost:3000/docs/foods/blueberries) | Blueberries, raw — raw | 77 mg (per 100 g edible portion) | docs/foods/blueberries.md#nutrition_per_100g/potassium_mg |
+| [Brazil Nuts](http://localhost:3000/docs/foods/brazil-nuts) | Nuts, brazilnuts, dried, unblanched — dried | 659 mg (per 100 g edible portion) | docs/foods/brazil-nuts.md#nutrition_per_100g/potassium_mg |
 | [Broccoli Sprouts](http://localhost:3000/docs/foods/broccoli-sprouts) | Broccoli sprouts, raw (sprout material, not mature broccoli) — raw | Quantity not established | docs/foods/broccoli-sprouts.md#substance_relationships/Potassium |
 | [Broccoli Sprouts](http://localhost:3000/docs/foods/broccoli-sprouts) | Broccoli sprouts, raw — raw | 220 mg (per 100 g edible portion) | docs/foods/broccoli-sprouts.md#nutrition_per_100g/potassium_mg |
 | [Broccoli](http://localhost:3000/docs/foods/broccoli) | Broccoli, raw — raw | 316 mg (per 100 g edible portion) | docs/foods/broccoli.md#nutrition_per_100g/potassium_mg; docs/foods/broccoli.md#substance_relationships/Potassium |
@@ -1672,6 +1691,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cilantro](http://localhost:3000/docs/foods/cilantro) | Coriander (cilantro) leaves, raw — raw | 521 mg (per 100 g edible portion) | docs/foods/cilantro.md#nutrition_per_100g/potassium_mg |
 | [Cinnamon](http://localhost:3000/docs/foods/cinnamon) | Spices, cinnamon, ground | 431 mg (per 100 g edible portion) | docs/foods/cinnamon.md#nutrition_per_100g/potassium_mg |
 | [Clams](http://localhost:3000/docs/foods/clams) | Mollusks, clam, mixed species, raw — raw | 46 mg (per 100 g edible portion) | docs/foods/clams.md#nutrition_per_100g/potassium_mg |
+| [Cloves](http://localhost:3000/docs/foods/cloves) | Spices, cloves, ground | 1020 mg (per 100 g edible portion) | docs/foods/cloves.md#nutrition_per_100g/potassium_mg |
 | [Cocoa](http://localhost:3000/docs/foods/cocoa) | Cocoa, dry powder, unsweetened — dry powder | 1524 mg (per 100 g edible portion) | docs/foods/cocoa.md#nutrition_per_100g/potassium_mg |
 | [Cod](http://localhost:3000/docs/foods/cod) | Fish, cod, Atlantic, raw — raw | 413 mg (per 100 g edible portion) | docs/foods/cod.md#nutrition_per_100g/potassium_mg |
 | [Coffee](http://localhost:3000/docs/foods/coffee) | Beverages, coffee, brewed, breakfast blend | 50 mg (per 100 g edible portion) | docs/foods/coffee.md#nutrition_per_100g/potassium_mg |

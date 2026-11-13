@@ -20,6 +20,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Black Pepper | 6 | magnesium; potassium; zinc; vitamin-b6; vitamin-b9; choline | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Black Tea | 6 | choline; magnesium; vitamin-b2; vitamin-b9; potassium; zinc | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Blueberries | 7 | potassium; choline; zinc; vitamin-b6; vitamin-b2; vitamin-b9; magnesium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
+| Brazil Nuts | 7 | magnesium; potassium; zinc; vitamin-b2; vitamin-b6; vitamin-b9; choline | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Broccoli Sprouts | 5 | magnesium; potassium; vitamin-b6; vitamin-b9; zinc | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Broccoli | 8 | 5-methyltetrahydrofolate; choline; magnesium; potassium; zinc; vitamin-b2; vitamin-b6; vitamin-b9 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Brussels Sprouts | 7 | vitamin-b9; choline; magnesium; vitamin-b2; vitamin-b6; potassium; zinc | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
@@ -43,6 +44,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Cilantro | 7 | vitamin-b9; choline; zinc; magnesium; vitamin-b2; vitamin-b6; potassium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Cinnamon | 7 | vitamin-b6; vitamin-b9; magnesium; choline; vitamin-b2; potassium; zinc | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Clams | 8 | vitamin-b12; choline; potassium; zinc; vitamin-b6; vitamin-b2; vitamin-b9; magnesium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
+| Cloves | 6 | magnesium; potassium; zinc; vitamin-b9; vitamin-b6; choline | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Cockles | 3 | vitamin-b12; zinc; vitamin-b2 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM4 |  |
 | Cocoa | 7 | magnesium; zinc; vitamin-b2; vitamin-b9; vitamin-b6; potassium; choline | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Coconut Oil | 2 | zinc; choline | BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM3-PM7 | BRS2(KC1) |

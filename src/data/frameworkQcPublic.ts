@@ -1,4 +1,5 @@
 import publicDataset from "./framework-qc-public.fallback.json"
+import registerDataset from "./framework-qc-register.fallback.json"
 
 export type PublicCorrection = {
   title: string
@@ -60,6 +61,15 @@ export type PublicQcDataset = {
 }
 
 export const frameworkQcPublic = publicDataset as PublicQcDataset
+
+export type RegisterIssue = PublicIssue & {visibility: "public" | "internal"}
+
+/** Every register issue. Empty unless the build includes internal docs. */
+export const frameworkQcRegister = registerDataset as {
+  version: number
+  generated: string
+  issues: RegisterIssue[]
+}
 
 export const REVIEW_QUERY_PARAM = "review"
 export const ADVANCED_QUERY_PARAM = "advanced"

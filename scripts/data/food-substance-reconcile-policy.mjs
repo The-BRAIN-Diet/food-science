@@ -126,7 +126,7 @@ export const QUALITATIVE_COMPOUNDS = [
   {
     label: "Quercetin",
     key: "quercetin_qual",
-    slugs: ["apples", "capers", "onions", "kale", "soy"],
+    slugs: ["apples", "onions", "kale", "soy"],
     source: (title) =>
       `USDA Database for the Flavonoid Content of Selected Foods (Release 3.3) reports quercetin glycosides in ${title}; a single defensible per-100 g value is not taken from the abbreviated USDA nutrient panel.`,
   },

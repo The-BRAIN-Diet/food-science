@@ -269,9 +269,10 @@ nutrition_assumptions:
     White balsamic vinegar has no separate USDA SR Legacy record; both vinegars
     use Vinegar, balsamic (FDC 172241).
   - >-
-    Capers contribute quercetin as presence only. The Capers food page does not
-    carry a defensible per-100 g quantity, so no numerical quercetin value is
-    published for this recipe.
+    The Capers page records quercetin as the mean 32.82 mg per 100 g fresh
+    weight from 17 commercial Mediterranean samples. Recipe totals scale that
+    mean by the caper weight. These capers are oil-packed rather than those
+    samples.
   - >-
     EPA and DHA are taken only from USDA canned anchovy in oil, drained solids
     (FDC 174183), which names both acids. They are not inferred from undrained
@@ -372,7 +373,7 @@ Optional wholegrain croutons are excluded from these figures. Values for commerc
 ## Brain Health Notes
 
 - Anchovies contribute marine omega-3 fatty acids, including EPA and DHA, alongside protein, vitamin B12 and selenium. The contribution is modest within a dressed salad, and quantitative values follow the drained canned-anchovy record rather than an assumed fillet.
-- Capers preserved in extra virgin olive oil contribute a concentrated caper matrix containing flavonoids, including quercetin, alongside the polyphenol and monounsaturated-fat profile of EVOO. The caper serving is small, so claims stay with the mapped serving rather than concentration per 100 g, and quercetin is not given a number unless a defensible composition record supplies one.
+- Capers preserved in extra virgin olive oil contribute a concentrated caper matrix containing flavonoids, including quercetin, alongside the polyphenol and monounsaturated-fat profile of EVOO. The food page uses the mean 32.82 mg quercetin per 100 g fresh weight from 17 commercial Mediterranean samples. Recipe totals scale that mean by the caper weight. The oil-packed capers are not those samples.
 - Extra virgin olive oil and tahini provide predominantly unsaturated fats. Dietary fat consumed with raw vegetables supports the absorption of carotenoids and other fat-soluble compounds.
 - Romaine and spinach contribute folate, carotenoids and vitamin K.
 - Watercress contributes vitamin C, vitamin K, carotenoids and glucosinolate-derived compounds.

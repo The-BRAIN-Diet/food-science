@@ -21,6 +21,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Black Pepper | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
 | Black Tea | 2 | linoleic-acid; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Blueberries | 3 | linoleic-acid; zinc; magnesium; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Brazil Nuts | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
 | Broccoli Sprouts | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
 | Broccoli | 3 | magnesium; zinc; linoleic-acid; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Brussels Sprouts | 3 | vitamin-a; magnesium; linoleic-acid; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
@@ -44,6 +45,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Cilantro | 3 | linoleic-acid; vitamin-a; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Cinnamon | 3 | magnesium; vitamin-a; linoleic-acid; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Clams | 3 | linoleic-acid; zinc; magnesium; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Cloves | 2 | magnesium; zinc; vitamin-a | BRS5-FM1-PM1 |  |
 | Cockles | 1 | zinc | BRS5-FM1-PM1 |  |
 | Cocoa | 3 | magnesium; zinc; epicatechin; linoleic-acid | BRS5-FM1-PM1; BRS5-FM2-PM6; BRS5-FM3-PM7 |  |
 | Coconut Oil | 2 | linoleic-acid; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |

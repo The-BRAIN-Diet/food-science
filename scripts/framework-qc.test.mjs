@@ -16,6 +16,7 @@ import {
   mealCategoryFromPath,
   mergeReviewState,
   buildPublicDataset,
+  buildRegisterDataset,
   assertPublicDatasetSafe,
   findPublicPageRecord,
   openPublicIssueCount,
@@ -283,6 +284,25 @@ test("PM1 rerun records stay valid and off the framework register", () => {
       .every((issue) => issue.register_surface === "pm-tab"),
     true,
   )
+})
+
+test("central register dataset lists every issue while the public dataset stays filtered", () => {
+  const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..")
+  const issuesDoc = loadJson(path.join(root, "system/framework-qc/framework-issues-register.json"), {issues: []})
+  const registerDataset = buildRegisterDataset({register: [], issues: issuesDoc.issues, generated: "2026-01-01"})
+  assertPublicDatasetSafe(registerDataset)
+  assert.deepEqual(
+    registerDataset.issues.map((issue) => issue.id),
+    issuesDoc.issues.map((issue) => issue.public_id || issue.id),
+  )
+  for (const issue of registerDataset.issues) {
+    assert.ok(["public", "internal"].includes(issue.visibility))
+    assert.ok(["pm-tab", "framework"].includes(issue.register_surface))
+  }
+  const publicDataset = buildPublicDataset({register: [], issues: issuesDoc.issues, generated: "2026-01-01"})
+  assert.equal(publicDataset.issues.some((issue) => issue.register_surface === "pm-tab"), false)
+  const internalIds = new Set(issuesDoc.issues.filter((issue) => issue.visibility !== "public").map((issue) => issue.id))
+  assert.equal(publicDataset.issues.some((issue) => internalIds.has(issue.id)), false)
 })
 
 test("PM open issues stay page-specific and off the framework register", () => {
