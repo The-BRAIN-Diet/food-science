@@ -1,0 +1,183 @@
+{
+  "dietary_input": {
+    "yes": 46,
+    "no": 12,
+    "unset": 4
+  },
+  "pms": 11,
+  "relationships": 62,
+  "accounting": {
+    "A": 29,
+    "B": 3,
+    "C": 14,
+    "D": 5,
+    "E": 11,
+    "unresolved": 0
+  },
+  "unique_dietary_substances": 19,
+  "unique_shared_pools": 2,
+  "food_source_materials": 1566,
+  "quantified_observations": 1524,
+  "qualitative_materials": 47,
+  "gaps": 13,
+  "conflicts": 0
+}
+{
+  "dietary_input": {
+    "yes": 39,
+    "no": 17,
+    "unset": 1
+  },
+  "pms": 7,
+  "relationships": 57,
+  "accounting": {
+    "A": 26,
+    "B": 3,
+    "C": 12,
+    "D": 5,
+    "E": 11,
+    "unresolved": 0
+  },
+  "unique_dietary_substances": 19,
+  "unique_shared_pools": 2,
+  "food_source_materials": 1068,
+  "quantified_observations": 1021,
+  "qualitative_materials": 58,
+  "gaps": 19,
+  "conflicts": 0
+}
+{
+  "dietary_input": {
+    "yes": 20,
+    "no": 5,
+    "unset": 0
+  },
+  "pms": 8,
+  "relationships": 25,
+  "accounting": {
+    "A": 16,
+    "B": 0,
+    "C": 4,
+    "D": 2,
+    "E": 3,
+    "unresolved": 0
+  },
+  "unique_dietary_substances": 14,
+  "unique_shared_pools": 1,
+  "food_source_materials": 1255,
+  "quantified_observations": 1213,
+  "qualitative_materials": 46,
+  "gaps": 4,
+  "conflicts": 0
+}
+{
+  "dietary_input": {
+    "yes": 20,
+    "no": 8,
+    "unset": 9
+  },
+  "pms": 10,
+  "relationships": 37,
+  "accounting": {
+    "A": 20,
+    "B": 0,
+    "C": 0,
+    "D": 0,
+    "E": 17,
+    "unresolved": 0
+  },
+  "unique_dietary_substances": 17,
+  "unique_shared_pools": 0,
+  "food_source_materials": 1165,
+  "quantified_observations": 1122,
+  "qualitative_materials": 45,
+  "gaps": 22,
+  "conflicts": 1
+}
+{
+  "dietary_input": {
+    "yes": 29,
+    "no": 11,
+    "unset": 2
+  },
+  "pms": 8,
+  "relationships": 42,
+  "accounting": {
+    "A": 28,
+    "B": 0,
+    "C": 3,
+    "D": 4,
+    "E": 7,
+    "unresolved": 0
+  },
+  "unique_dietary_substances": 20,
+  "unique_shared_pools": 1,
+  "food_source_materials": 551,
+  "quantified_observations": 521,
+  "qualitative_materials": 40,
+  "gaps": 15,
+  "conflicts": 7
+}
+{
+  "dietary_input": {
+    "yes": 5,
+    "no": 0,
+    "unset": 0
+  },
+  "pms": 8,
+  "relationships": 5,
+  "accounting": {
+    "A": 5,
+    "B": 0,
+    "C": 0,
+    "D": 0,
+    "E": 0,
+    "unresolved": 0
+  },
+  "unique_dietary_substances": 5,
+  "unique_shared_pools": 0,
+  "food_source_materials": 177,
+  "quantified_observations": 168,
+  "qualitative_materials": 15,
+  "gaps": 9,
+  "conflicts": 0
+}
+{
+  "dietary_input": {
+    "yes": 4,
+    "no": 3,
+    "unset": 10
+  },
+  "pms": 15,
+  "relationships": 17,
+  "accounting": {
+    "A": 7,
+    "B": 0,
+    "C": 0,
+    "D": 0,
+    "E": 10,
+    "unresolved": 0
+  },
+  "unique_dietary_substances": 3,
+  "unique_shared_pools": 0,
+  "food_source_materials": 202,
+  "quantified_observations": 188,
+  "qualitative_materials": 16,
+  "gaps": 25,
+  "conflicts": 0
+}
+{
+  strategies: 46,
+  relationships: 50,
+  pms: 27,
+  brs: [ 'BRS1', 'BRS3', 'BRS4', 'BRS5', 'BRS6', 'BRS-X' ]
+}
+{"rollup_records":1768,"repair_items":61,"reconciliation_records":70}
+{"pms":67,"edges":45,"paths":48,"errors":0}
+Shared ranked snapshot 5fbbd35186f7164654d408f5d74619d6d02216fa6e8d90d18e996ab2bd3f08f1 { targets: 158, covered_targets: 112, connections: 984, foods: 79 }
+Generated shared wheel { targets: 158, covered_targets: 112, connections: 984, foods: 79 } 5fbbd35186f7164654d408f5d74619d6d02216fa6e8d90d18e996ab2bd3f08f1
+{"parent_connections":20,"children":5,"growth_support_statements":5}
+{"sourceRecords":1244}
+{"excluded":[{"pm":"BRS1-FM1-PM3","food":"whole-grains","substance":"iron","reason":"Category-level food identity"},{"pm":"BRS1-FM1-PM3","food":"whole-grains","substance":"magnesium","reason":"Category-level food identity"},{"pm":"BRS1-FM1-PM4","food":"whole-grains","substance":"iron","reason":"Category-level food identity"},{"pm":"BRS1-FM1-PM4","food":"whole-grains","substance":"magnesium","reason":"Category-level food identity"},{"pm":"BRS1-FM1-PM5","food":"whole-grains","substance":"iron","reason":"Category-level food identity"},{"pm":"BRS1-FM4-PM11","food":"whole-grains","substance":"magnesium","reason":"Category-level food identity"},{"pm":"BRS2-FM1-PM2","food":"whole-grains","substance":"zinc","reason":"Category-level food identity"},{"pm":"BRS2-FM1-PM3","food":"whole-grains","substance":"magnesium","reason":"Category-level food identity"},{"pm":"BRS2-FM2-PM6","food":"whole-grains","substance":"magnesium","reason":"Category-level food identity"},{"pm":"BRS3-FM2-PM4","food":"whole-grains","substance":"iron","reason":"Category-level food identity"},{"pm":"BRS3-FM2-PM4","food":"whole-grains","substance":"zinc","reason":"Category-level food identity"},{"pm":"BRS4-FM1-PM1","food":"whole-grains","substance":"iron","reason":"Category-level food identity"},{"pm":"BRS4-FM1-PM10","food":"whole-grains","substance":"iron","reason":"Category-level food identity"},{"pm":"BRS5-FM1-PM1","food":"whole-grains","substance":"zinc","reason":"Category-level food identity"},{"pm":"BRS6-FM1-PM3","food":"whole-grains","substance":"magnesium","reason":"Category-level food identity"},{"pm":"BRS6-FM4-PM8","food":"walnuts","substance":"ellagitannins","reason":"No existing wheel substance–PM relationship; not manufactured"},{"pm":"BRS-X(ECS-PM1)","food":"whole-grains","substance":"zinc","reason":"Category-level food identity"},{"pm":"BRS-X(Hormones-PM5)","food":"whole-grains","substance":"zinc","reason":"Category-level food identity"}],"ranked_preserved":984,"unranked":224,"related":28,"foods":104,"targets":148}
+{ foods: 104, records: 1244, pms: 67, substances: 74 }
+Verified ranked viewer equivalence: 984

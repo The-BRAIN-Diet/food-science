@@ -1,5 +1,6 @@
 {
-  "snapshot_id": "5e6b6a58d89e9b7165ef58f20f05ac5f30aaccf8786c0a3f6db16c6aea8ca607",
+  "publication_exclusions": [],
+  "snapshot_id": "5fbbd35186f7164654d408f5d74619d6d02216fa6e8d90d18e996ab2bd3f08f1",
   "policy": {
     "version": "2026-11-11-reference-pool-v1",
     "maximum": 10,
@@ -156,7 +157,7 @@
     "docs/foods/cheddar-cheese.md": "31b07c5c78a5060086c05e0e85e9e9b38a6438ffd25ac80589c2c92ca5b996de",
     "docs/foods/cherries.md": "337f137534f213419dbc34b2e8b60b754a44acd7d18086223041272f82ab278d",
     "docs/foods/chia-seeds.md": "655aa0c2f395f2baf5aebf1dbc9810e4de8e641d1959ef2aee99d3f548b69696",
-    "docs/foods/chicken-liver.md": "25563821646a837d63c1052d8d910926910f877cc91fe9474992068895f14448",
+    "docs/foods/chicken-liver.md": "fc539c8f83fe31fbbf18259645dd371e422a319fb0a6542527507997880e08f2",
     "docs/foods/chicken.md": "b8e59a2bf2361d22e92ae7a31adfb78d3d73bb96ebcc5357dbf9a8e1a7b0c007",
     "docs/foods/chickpeas.md": "b187f8475e9c2182df2c862dce4ce38728cc7e59027126d1928e97361981048b",
     "docs/foods/chicory-root.md": "4c4b88d0231be7c240b71b7df2175d8d13b8c6e7efa7dcc3f8f546c6d2dc23ed",
@@ -391,7 +392,7 @@
     "docs/substances/nutrients/macronutrients/carbohydrates/glucose.md": "953650b2daf16376dd9dec03de9d01e06985938cb2842fb2fd2229d153802dc8",
     "docs/substances/nutrients/macronutrients/fatty-acids/mufas/oleic-acid.md": "0b9492123545ed0d72a13510a7192ad824571011cbcee454331edb6005bffca3",
     "docs/substances/nutrients/macronutrients/fatty-acids/phospholipids/phosphatidylcholine.md": "1a89a8188695474ffbbb22acff966cf008a63fa2aa70453ea1408ab755e99d8e",
-    "docs/substances/nutrients/macronutrients/fatty-acids/phospholipids/phosphatidylethanolamine.md": "bf023da9d4c30da8b3f1bbeffd64a944a169ff7adcd173147241e6874527956e",
+    "docs/substances/nutrients/macronutrients/fatty-acids/phospholipids/phosphatidylethanolamine.md": "4e8bdcf24d1745a089f82e76eb3ad82b05ac1b7f789f75735283ee611dce59e0",
     "docs/substances/nutrients/macronutrients/fatty-acids/phospholipids/phosphatidylserine.md": "1816374707e0ab47bac833b103f1369134adc8ecdaf03c704de196e3a872f352",
     "docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/ala-alpha-linolenic-acid.md": "4354e08e04944ca356a2f7a3b63efa2ae6f78b6e489aa90b32a6b702be5dc70f",
     "docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/dha-docosahexaenoic-acid.md": "bfad1b6e0bb43163dae4cbeb755984a3494022d9cc492860e8e459d207b32051",
@@ -438,8 +439,9 @@
     "docs/substances/nutrients/micronutrients/vitamins/vitamin-e.md": "e2a5d5ebb6d43fc9051798b17e3db49f936bdc5c7fe8e1ea4363d6491e0fdcf7",
     "docs/substances/nutrients/micronutrients/vitamins/vitamin-k2.md": "a28876abfac9fe7dd1bb4f0fdc67cee1754987f29f3c06dcc50e7f933c329c05",
     "registry/substances.json": "fc5856c917f5dbe76fcc44012685f34ff1ad7055c85b2cbd82ad9a36169318b8",
-    "scripts/generate-ranked-food-sources.mjs": "619ccb8e2f517d0a75f97243acc27e5730730492fa003dc6c86df199b9e7bbe4",
+    "scripts/generate-ranked-food-sources.mjs": "17a371eb2201e90b03bccf9a1786ff1660029982e55ec4baacd463d16b577396",
     "scripts/lib/input-substance-food.mjs": "dd2d24ea894911f67aff0353b8d603477d5587db416c81aa7423b8612d19c444",
+    "scripts/lib/ranked-publication-sources.mjs": "4b6826bf930e6d64bf9659522aa54a37bdcd28200e74e76816fcec3fdb8bde5c",
     "scripts/lib/shared-reference-attribution.mjs": "8aad3982993fa02a68711d80139be0770b95d58f9ee44b49436241f1ff7d5b11",
     "src/data/nutritionTableMapping.ts": "64533382ab26b8a958b0ab4e1b10d0861615baa5f38be5ff7493ebee72dc0ff1",
     "src/data/rankedFoodSources.mjs": "e3d99758faddf8ce6e82eca9c71a163ad444ca5c4d631a95cdb3191176912395",
@@ -447,7 +449,7 @@
     "src/lib/aggregateFoodComposition.mjs": "5e2900b3c50422bd87e3f000b5deb37d679ffdc66dbd3163e62537f3e9c8772c",
     "src/lib/aminoAcidProfileSources.mjs": "e23965027f01333fdbc7c35acddd7358b50a6aa1e154ea16eab0735dc9eaff9b",
     "system/food-target-research.json": "78e4429dce5634a15c672e9aba66ffe9cc9599261f6efd924364ad127e39e971",
-    "system/ranked-food-publication-sources.json": "0b966f73c1c3f7088cf1b8dc78c5a1051c9a6e1e50b727b4e4aef5fc5efbb81b",
+    "system/ranked-food-publication-sources.json": "ffd4d4c630f0692ef744819f669ff2eb15e629ac829654cb51da0c0b79d93458",
     "system/ranked-food-source-policy.json": "4b80a280562834d2b2c8aabe1121e03c4448d2bef5b570e38d0322d984bac813"
   },
   "counts": {
@@ -10224,6 +10226,7 @@
           "foods": [
             "amaranth",
             "beetroot",
+            "chicken-liver",
             "quinoa",
             "spinach",
             "wheat-germ"
@@ -10258,6 +10261,12 @@
           "food_id": "wheat-germ",
           "reason": "Presence-only: no quantitative observation",
           "source_id": "wheat-germ::betaine::wheat germ crude::unspecified"
+        },
+        {
+          "food_id": "chicken-liver",
+          "record": "docs/foods/chicken-liver.md#nutrition_supplementary_sources/betaine_mg",
+          "comparison_group": "edible-mass|betaine|per 100 g edible portion",
+          "reason": "Below the provisional one-tenth threshold inside this basis."
         }
       ]
     },
@@ -21426,6 +21435,7 @@
           "foods": [
             "amaranth",
             "beetroot",
+            "chicken-liver",
             "quinoa",
             "spinach",
             "wheat-germ"
@@ -21460,6 +21470,12 @@
           "food_id": "wheat-germ",
           "reason": "Presence-only: no quantitative observation",
           "source_id": "wheat-germ::betaine::wheat germ crude::unspecified"
+        },
+        {
+          "food_id": "chicken-liver",
+          "record": "docs/foods/chicken-liver.md#nutrition_supplementary_sources/betaine_mg",
+          "comparison_group": "edible-mass|betaine|per 100 g edible portion",
+          "reason": "Below the provisional one-tenth threshold inside this basis."
         }
       ]
     },
@@ -46868,6 +46884,7 @@
           "foods": [
             "amaranth",
             "beetroot",
+            "chicken-liver",
             "quinoa",
             "spinach",
             "wheat-germ"
@@ -46902,6 +46919,12 @@
           "food_id": "wheat-germ",
           "reason": "Presence-only: no quantitative observation",
           "source_id": "wheat-germ::betaine::wheat germ crude::unspecified"
+        },
+        {
+          "food_id": "chicken-liver",
+          "record": "docs/foods/chicken-liver.md#nutrition_supplementary_sources/betaine_mg",
+          "comparison_group": "edible-mass|betaine|per 100 g edible portion",
+          "reason": "Below the provisional one-tenth threshold inside this basis."
         }
       ]
     },
@@ -64821,6 +64844,7 @@
           "foods": [
             "amaranth",
             "beetroot",
+            "chicken-liver",
             "quinoa",
             "spinach",
             "wheat-germ"
@@ -64855,6 +64879,12 @@
           "food_id": "wheat-germ",
           "reason": "Presence-only: no quantitative observation",
           "source_id": "wheat-germ::betaine::wheat germ crude::unspecified"
+        },
+        {
+          "food_id": "chicken-liver",
+          "record": "docs/foods/chicken-liver.md#nutrition_supplementary_sources/betaine_mg",
+          "comparison_group": "edible-mass|betaine|per 100 g edible portion",
+          "reason": "Below the provisional one-tenth threshold inside this basis."
         }
       ]
     },
@@ -68247,6 +68277,7 @@
           "foods": [
             "amaranth",
             "beetroot",
+            "chicken-liver",
             "quinoa",
             "spinach",
             "wheat-germ"
@@ -68281,6 +68312,12 @@
           "food_id": "wheat-germ",
           "reason": "Presence-only: no quantitative observation",
           "source_id": "wheat-germ::betaine::wheat germ crude::unspecified"
+        },
+        {
+          "food_id": "chicken-liver",
+          "record": "docs/foods/chicken-liver.md#nutrition_supplementary_sources/betaine_mg",
+          "comparison_group": "edible-mass|betaine|per 100 g edible portion",
+          "reason": "Below the provisional one-tenth threshold inside this basis."
         }
       ]
     },
@@ -75611,6 +75648,7 @@
           "foods": [
             "amaranth",
             "beetroot",
+            "chicken-liver",
             "quinoa",
             "spinach",
             "wheat-germ"
@@ -75645,6 +75683,12 @@
           "food_id": "wheat-germ",
           "reason": "Presence-only: no quantitative observation",
           "source_id": "wheat-germ::betaine::wheat germ crude::unspecified"
+        },
+        {
+          "food_id": "chicken-liver",
+          "record": "docs/foods/chicken-liver.md#nutrition_supplementary_sources/betaine_mg",
+          "comparison_group": "edible-mass|betaine|per 100 g edible portion",
+          "reason": "Below the provisional one-tenth threshold inside this basis."
         }
       ]
     },
@@ -89729,6 +89773,7 @@
           "foods": [
             "amaranth",
             "beetroot",
+            "chicken-liver",
             "quinoa",
             "spinach",
             "wheat-germ"
@@ -89763,6 +89808,12 @@
           "food_id": "wheat-germ",
           "reason": "Presence-only: no quantitative observation",
           "source_id": "wheat-germ::betaine::wheat germ crude::unspecified"
+        },
+        {
+          "food_id": "chicken-liver",
+          "record": "docs/foods/chicken-liver.md#nutrition_supplementary_sources/betaine_mg",
+          "comparison_group": "edible-mass|betaine|per 100 g edible portion",
+          "reason": "Below the provisional one-tenth threshold inside this basis."
         }
       ]
     },

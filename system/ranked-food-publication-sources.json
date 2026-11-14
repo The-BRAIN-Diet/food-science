@@ -21,6 +21,7 @@
     "docs/foods/black-pepper.md": "b6935f63adcfe9119e7c95e53ce35790227b438844acc02caae436c588cce380",
     "docs/foods/black-tea.md": "f0efc2544bbce945c92df925f936e295a1832844f74e2056f007bf5528eb3c41",
     "docs/foods/blueberries.md": "fe6409e02fdd4d27951945f6b79714632b1c1a5b4f42219343af199a08d9728a",
+    "docs/foods/brazil-nuts.md": "4fb7ba568403cea95b38c44ea7c0605e980684e6b403760078f6528312ee0746",
     "docs/foods/broccoli-sprouts.md": "2e2575f2b7160978d3b047940573c38d679ea5ead352331b102f698edf24b2f4",
     "docs/foods/broccoli.md": "4da9b74ef464442d94f29dc6cd0aa0312cd12dd8945fe361c68044510e2d15bb",
     "docs/foods/brussels-sprouts.md": "3e752cc67bb0e2c360906b5a855dddaf6e6c1e582fc452e59a7ee79f81f8d742",
@@ -37,6 +38,7 @@
     "docs/foods/cheddar-cheese.md": "31b07c5c78a5060086c05e0e85e9e9b38a6438ffd25ac80589c2c92ca5b996de",
     "docs/foods/cherries.md": "337f137534f213419dbc34b2e8b60b754a44acd7d18086223041272f82ab278d",
     "docs/foods/chia-seeds.md": "655aa0c2f395f2baf5aebf1dbc9810e4de8e641d1959ef2aee99d3f548b69696",
+    "docs/foods/chicken-liver.md": "fc539c8f83fe31fbbf18259645dd371e422a319fb0a6542527507997880e08f2",
     "docs/foods/chicken.md": "b8e59a2bf2361d22e92ae7a31adfb78d3d73bb96ebcc5357dbf9a8e1a7b0c007",
     "docs/foods/chickpeas.md": "b187f8475e9c2182df2c862dce4ce38728cc7e59027126d1928e97361981048b",
     "docs/foods/chicory-root.md": "4c4b88d0231be7c240b71b7df2175d8d13b8c6e7efa7dcc3f8f546c6d2dc23ed",
@@ -44,6 +46,7 @@
     "docs/foods/cilantro.md": "d96d55de325a507037d537f303ee7e351da3d51a89502ea62cc0aa0e37fe8085",
     "docs/foods/cinnamon.md": "388787b25ebc2dfbed20bcd1a89e3a9717a9630893238302da69cd7d9a4ae560",
     "docs/foods/clams.md": "66fd6e8cca6f8a553a3a34311e060365d8e5002d309addd4e353584dfc702155",
+    "docs/foods/cloves.md": "2bf0db5a86ca3c8be595e7c5dced9a751a1b82e38addcfba916b4e2b1e9e7434",
     "docs/foods/cockles.md": "6c32d85b9659d8744b42bb16ab8491a7341845af74989fc6446a4d1ed3a4e9a2",
     "docs/foods/cocoa.md": "1fb9e53737a1f0cc232af0d7d87ba2334c75d23ed35da9047c0b056bde6e7de4",
     "docs/foods/coconut-oil.md": "b9bf481e8f5f65c9a689b2ea11c0e003ed5bd8488d921a85706115eee30e729d",
@@ -244,6 +247,24 @@
         "docs/foods/vinegar-pickles.md",
         "docs/foods/vinegar.md"
       ]
+    },
+    {
+      "date": "2026-11-14",
+      "scope": "Explicit author approval: Brazil nuts and cloves for ranking under existing top-ten, 10% RSP and independent comparable-pool rules; corrected capers quercetin publication pin; chicken liver whole-record publication scope. Preserve separate raw USDA panel and pan-fried betaine observation. This approval authorises manifest/snapshot regeneration and draft preview only, not merge or production deployment.",
+      "files": [
+        "docs/foods/brazil-nuts.md",
+        "docs/foods/cloves.md",
+        "docs/foods/capers.md",
+        "docs/foods/chicken-liver.md"
+      ],
+      "approved_sha256": {
+        "docs/foods/brazil-nuts.md": "4fb7ba568403cea95b38c44ea7c0605e980684e6b403760078f6528312ee0746",
+        "docs/foods/cloves.md": "2bf0db5a86ca3c8be595e7c5dced9a751a1b82e38addcfba916b4e2b1e9e7434",
+        "docs/foods/capers.md": "639f000cd17f707d647dd3ee4d55ee943ab62093d732a652dc5446ff2c7b74d7",
+        "docs/foods/chicken-liver.md": "fc539c8f83fe31fbbf18259645dd371e422a319fb0a6542527507997880e08f2"
+      },
+      "decision_record": "review/recovery-readiness-2026-11-14/ACTION-REGISTER.md",
+      "recovery_note": "Chicken-liver pan-fried betaine observation copied unchanged from approved combined recovery f3e7240c375045c0e8c1014f118f818fc1118e4f; the preview branch previously held only the raw panel."
     }
   ]
 }

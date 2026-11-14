@@ -48172,7 +48172,7 @@
   "pattern_candidates": [],
   "scope": "BRS1",
   "schema_version": 4,
-  "source_revision": 1794521501343.9883,
+  "source_revision": 1794678169214.678,
   "pilot_pms": [
     "BRS1-FM1-PM1",
     "BRS1-FM1-PM2",
@@ -120433,6 +120433,92 @@
       "qualification": []
     },
     {
+      "id": "chicken-liver::betaine::chicken liver pan fried::pan fried",
+      "substance_id": "betaine",
+      "food_id": "chicken-liver",
+      "food_title": "Chicken Liver",
+      "food_page": "/docs/foods/chicken-liver",
+      "food_record": "docs/foods/chicken-liver.md",
+      "material": "Chicken liver, pan-fried",
+      "preparation": "pan-fried",
+      "species": null,
+      "product": null,
+      "edible_part": null,
+      "chemical_form": null,
+      "food_matrix": null,
+      "preparation_effects": null,
+      "absorption_evidence": null,
+      "observations": [
+        {
+          "key": "betaine_mg",
+          "label": "Betaine",
+          "substance_id": "betaine",
+          "value": 21,
+          "unit": "mg",
+          "basis": "per 100 g edible portion",
+          "original_source_basis": "per 100 g food",
+          "preparation_state": "pan-fried",
+          "evidence_material": "Chicken liver, pan-fried",
+          "measurement_kind": "measured",
+          "public_display": "table",
+          "exclude_from_recipe_sum": true,
+          "verified": true,
+          "evidence_status": "supported",
+          "rank_eligible": true,
+          "comparison_group": "edible::source-specific",
+          "ndb_id": "05661",
+          "source_printed_page": 15,
+          "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+          "source_group": "USDA Database for the Choline Content of Common Foods, Release Two (2008)",
+          "source_note": "Pan-fried chicken liver, NDB 05661, printed page 15. The USDA confidence code concerns total choline.",
+          "public_note": "Pan-fried chicken liver. The main nutrient panel describes raw chicken liver.",
+          "range": null,
+          "material": "Chicken liver, pan-fried",
+          "preparation": "pan-fried",
+          "record": "docs/foods/chicken-liver.md#nutrition_supplementary_sources/betaine_mg",
+          "source_record": "docs/foods/chicken-liver.md#nutrition_supplementary_sources/betaine_mg",
+          "nutrition_value_reviews": [],
+          "limitations": "Pan-fried chicken liver, NDB 05661, printed page 15. The USDA confidence code concerns total choline.",
+          "id": "docs/foods/chicken-liver.md#nutrition_supplementary_sources/betaine_mg",
+          "low": 21,
+          "high": 21,
+          "display": "21 mg"
+        }
+      ],
+      "presence_records": [
+        {
+          "key": "betaine_mg",
+          "label": "Betaine",
+          "substance_id": "betaine",
+          "value": 21,
+          "unit": "mg",
+          "basis": "per 100 g edible portion",
+          "original_source_basis": "per 100 g food",
+          "preparation_state": "pan-fried",
+          "evidence_material": "Chicken liver, pan-fried",
+          "measurement_kind": "measured",
+          "public_display": "table",
+          "exclude_from_recipe_sum": true,
+          "verified": true,
+          "evidence_status": "supported",
+          "rank_eligible": true,
+          "comparison_group": "edible::source-specific",
+          "ndb_id": "05661",
+          "source_printed_page": 15,
+          "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+          "source_group": "USDA Database for the Choline Content of Common Foods, Release Two (2008)",
+          "source_note": "Pan-fried chicken liver, NDB 05661, printed page 15. The USDA confidence code concerns total choline.",
+          "public_note": "Pan-fried chicken liver. The main nutrient panel describes raw chicken liver.",
+          "record": "docs/foods/chicken-liver.md#nutrition_supplementary_sources/betaine_mg",
+          "evidence": "Pan-fried chicken liver, NDB 05661, printed page 15. The USDA confidence code concerns total choline.",
+          "source_reference": null,
+          "presence_status": "qualitative",
+          "limitations": null
+        }
+      ],
+      "qualification": []
+    },
+    {
       "id": "chicken::tyrosine::chicken broilers or fryers meat and skin raw::raw",
       "substance_id": "tyrosine",
       "food_id": "chicken",
@@ -185010,12 +185096,14 @@
         "copper",
         "vitamin-c",
         "vitamin-b5",
-        "vitamin-b6"
+        "vitamin-b6",
+        "betaine"
       ],
       "unique_dietary_inputs": [
         "iron",
         "vitamin-b6",
         "vitamin-b9",
+        "betaine",
         "choline",
         "vitamin-b2",
         "magnesium",
@@ -185025,7 +185113,7 @@
         "sodium",
         "potassium"
       ],
-      "unique_input_coverage": 11,
+      "unique_input_coverage": 12,
       "biological_reach": 9,
       "connected_pms": [
         "BRS1-FM1-PM3",
@@ -185052,7 +185140,8 @@
         "chicken-liver::copper::chicken liver all classes raw::raw",
         "chicken-liver::vitamin-c::chicken liver all classes raw::raw",
         "chicken-liver::vitamin-b5::chicken liver all classes raw::raw",
-        "chicken-liver::vitamin-b6::chicken liver all classes raw::raw"
+        "chicken-liver::vitamin-b6::chicken liver all classes raw::raw",
+        "chicken-liver::betaine::chicken liver pan fried::pan fried"
       ]
     },
     {
@@ -192340,8 +192429,8 @@
     },
     "unique_dietary_substances": 19,
     "unique_shared_pools": 2,
-    "food_source_materials": 1565,
-    "quantified_observations": 1523,
+    "food_source_materials": 1566,
+    "quantified_observations": 1524,
     "qualitative_materials": 47,
     "gaps": 13,
     "conflicts": 0
