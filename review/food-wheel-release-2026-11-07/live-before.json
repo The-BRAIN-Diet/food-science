@@ -1,0 +1,33 @@
+[
+  {
+    "path": "/docs/foods/salmon-roe/",
+    "status": 200,
+    "sha256": "b1dc46ef81093f521d1faeb4130b5bee3a7fef23e81d8ee96911674d70d210f2",
+    "bytes": 117240
+  },
+  {
+    "path": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation/",
+    "status": 200,
+    "sha256": "d91b0e3fffb262ef6c144e37921abadb9a922280917bc325b567aef3c3b11023",
+    "bytes": 71678
+  },
+  {
+    "path": "/docs/recipes/snacks/neuroeshot-roe/",
+    "status": 200,
+    "sha256": "5dc6fc77800a608d0d8b05bdec6ab4d695e490be95f9746ccc18a8b6532b8487",
+    "bytes": 40399
+  },
+  {
+    "path": "/explore/food-wheel/",
+    "status": 200,
+    "sha256": "004d97c68abb399177dbcfd42cc8f5adf4f3611b1350d0f066716c2707146c65",
+    "bytes": 6928121
+  },
+  {
+    "path": "/docs/substances/nutrients/micronutrients/vitamins/vitamin-b6/",
+    "status": 200,
+    "sha256": "63afb6e76143b55c6504a24b0761102981bcab5428b65c7e4b7e4f4a9ccef6fa",
+    "bytes": 59706,
+    "purpose": "Substance BRS Matrix regression"
+  }
+]

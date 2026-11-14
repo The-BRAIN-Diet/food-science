@@ -1,0 +1,1905 @@
+{
+  "schema_version": 1,
+  "scope": "All canonical PMs: BRS1–6 and Cross-BRS",
+  "strategies": [
+    {
+      "id": "food-strategy-6d9c0fa97324",
+      "title": "Minced rather than intact beef in the tested older-adult meal",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "relationship_ids": [
+        "BRS1-FM1-PM1::PM1-SOP-DEFERRED-1"
+      ]
+    },
+    {
+      "id": "food-strategy-pm1-cooked-egg-1",
+      "title": "Boiled rather than raw eggs in the tested postexercise meal",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "relationship_ids": [
+        "BRS1-FM1-PM1::PM1-SOP-COOKED-EGG-1"
+      ]
+    },
+    {
+      "id": "food-strategy-2795f34292bc",
+      "title": "20 g whey versus casein in the tested older-adult drink",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "relationship_ids": [
+        "BRS1-FM1-PM1::PM1-SOP-WHEY-CASEIN-1"
+      ]
+    },
+    {
+      "id": "food-strategy-5827fa9ef1ad",
+      "title": "Pair non-haem iron-containing meals with an ascorbic-acid source",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "relationship_ids": [
+        "BRS1-FM1-PM3::PM3-SOP-1"
+      ]
+    },
+    {
+      "id": "food-strategy-c8d6c2de9a7c",
+      "title": "Use validated phytate-reducing preparation methods for high-phytate cereals",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "relationship_ids": [
+        "BRS1-FM1-PM3::PM3-SOP-2",
+        "BRS1-FM1-PM4::PM4-SOP-PHYTASE-1",
+        "BRS1-FM1-PM5::PM5-SOP-PHYTASE-1"
+      ]
+    },
+    {
+      "id": "food-strategy-37391d5ecccb",
+      "title": "Short-term selective dietary-fat restriction in adults with obesity under controlled conditions",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS1-FM1-PM3::PM3-SOP-3"
+      ]
+    },
+    {
+      "id": "food-strategy-21ec16030a2a",
+      "title": "Short-term very-low-calorie dieting in adults with obesity",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS1-FM1-PM3::PM3-SOP-4"
+      ]
+    },
+    {
+      "id": "food-strategy-330542e5f55b",
+      "title": "Egg-yolk phospholipid versus choline bitartrate",
+      "scope": "supplementation",
+      "category": "conditional_supplementation",
+      "relationship_ids": [
+        "BRS1-FM2-PM6::PM6-SOP-EGG-PHOSPHOLIPID-1"
+      ]
+    },
+    {
+      "id": "food-strategy-735d3d83f14f",
+      "title": "Tested fish-meal versus fish-oil capsule regimens over 16 weeks",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS1-FM3-PM7::PM7-SOP-FISH-CAPSULES-1"
+      ]
+    },
+    {
+      "id": "food-strategy-4ca425a7d459",
+      "title": "Experimental DHA–UMP co-supplementation",
+      "scope": "supplementation",
+      "category": "conditional_supplementation",
+      "relationship_ids": [
+        "BRS1-FM5-PM12::PM12-SOP-1"
+      ]
+    },
+    {
+      "id": "food-strategy-6ba31ce0bd1c",
+      "title": "Experimental spermidine supplementation in ageing",
+      "scope": "supplementation",
+      "category": "conditional_supplementation",
+      "relationship_ids": [
+        "BRS1-FM5-PM12::PM12-SOP-2"
+      ]
+    },
+    {
+      "id": "food-strategy-2c14849a7ddb",
+      "title": "Active-period feeding under obesogenic exposure (experimental)",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS1-FM5-PM12::PM12-SOP-3"
+      ]
+    },
+    {
+      "id": "food-strategy-bafd6931fd98",
+      "title": "Experimental magnesium-L-threonate exposure",
+      "scope": "supplementation",
+      "category": "conditional_supplementation",
+      "relationship_ids": [
+        "BRS1-FM5-PM12::PM12-SOP-DEFERRED-1"
+      ]
+    },
+    {
+      "id": "food-strategy-f69b067d45e3",
+      "title": "Tested fibre/fruit-rich mixed meal versus the high-fat/high-carbohydrate comparison",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS3-FM1-PM1::PM1-SOP-DEFERRED-1",
+        "BRS3-FM1-PM2::PM2-SOP-DEFERRED-1",
+        "BRS5-FM1-PM2::PM2-SOP-DEFERRED-1"
+      ]
+    },
+    {
+      "id": "food-strategy-bec27b284d44",
+      "title": "Myrosinase-completed broccoli sprout homogenate",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "relationship_ids": [
+        "BRS3-FM2-PM3::PM3-SOP-1"
+      ]
+    },
+    {
+      "id": "food-strategy-b91b56073a99",
+      "title": "25 mL/day (22 g) raw olive oil replacing other raw fats; 366 versus 2.7 mg/kg phenolics, with intermediate 164 mg/kg arm; three weeks each, two-week washouts.",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS3-FM2-PM5::PM5-SOP-PHENOLIC-OLIVE-OIL-1"
+      ]
+    },
+    {
+      "id": "food-strategy-8ae28ecbcef4",
+      "title": "Vitamin C supplementation and vitamin E retention",
+      "scope": "supplementation",
+      "category": "conditional_supplementation",
+      "relationship_ids": [
+        "BRS3-FM2-PM6::PM6-SOP-VITAMIN-C-RETENTION-1"
+      ]
+    },
+    {
+      "id": "BRS3-FM3-PM7::PM7-SOP-FERMENTED-FOOD-1",
+      "title": "Ten-week high-fermented-food dietary pattern",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS3-FM3-PM7::PM7-SOP-FERMENTED-FOOD-1"
+      ]
+    },
+    {
+      "id": "food-strategy-d77d8db065cc",
+      "title": "Limit unnecessary cumulative heat exposure when retaining creatine in pork products",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "relationship_ids": [
+        "BRS4-FM1-PM3::PM3-SOP-1"
+      ]
+    },
+    {
+      "id": "food-strategy-d01445d73fbe",
+      "title": "Consider creatine monohydrate only in defined low-intake or high-demand contexts",
+      "scope": "supplementation",
+      "category": "conditional_supplementation",
+      "relationship_ids": [
+        "BRS4-FM1-PM3::PM3-SOP-2"
+      ]
+    },
+    {
+      "id": "food-strategy-1116604823f5",
+      "title": "Experimental carnitine/carbohydrate loading protocol",
+      "scope": "supplementation",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS4-FM3-PM6::PM6-SOP-DEFERRED-1"
+      ]
+    },
+    {
+      "id": "food-strategy-30a8479fab48",
+      "title": "Four-day ketogenic liquid formula in the studied healthy-adult experiment",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS4-FM3-PM7::PM7-SOP-DEFERRED-1"
+      ]
+    },
+    {
+      "id": "food-strategy-c40bd474f157",
+      "title": "25% energy restriction for six months versus weight-maintenance control; separate12.5% restriction plus12.5% exercise arm not pooled.",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS4-FM4-PM9::PM9-SOP-CALORIE-RESTRICTION-1"
+      ]
+    },
+    {
+      "id": "food-strategy-f8e9fd166d63",
+      "title": "Include dietary fat with provitamin-A vegetables",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "relationship_ids": [
+        "BRS5-FM1-PM1::PM1-SOP-1"
+      ]
+    },
+    {
+      "id": "food-strategy-296741631293",
+      "title": "Glutamine for selected postinfectious IBS-D",
+      "scope": "supplementation",
+      "category": "conditional_supplementation",
+      "relationship_ids": [
+        "BRS5-FM1-PM1::PM1-SOP-GLUTAMINE-1"
+      ]
+    },
+    {
+      "id": "BRS5-FM2-PM5::PM5-SOP-POTATO-RS2-1",
+      "title": "Unheated extracted potato resistant-starch supplementation",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS5-FM2-PM5::PM5-SOP-POTATO-RS2-1"
+      ]
+    },
+    {
+      "id": "food-strategy-b82469682ec7",
+      "title": "Wholemeal rye bread in place of the tested refined wheat bread",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "relationship_ids": [
+        "BRS6-FM1-PM1::PM1-SOP-1"
+      ]
+    },
+    {
+      "id": "food-strategy-053016fdaaca",
+      "title": "Fish before rice in the studied meal sequence",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS6-FM1-PM1::PM1-SOP-2"
+      ]
+    },
+    {
+      "id": "food-strategy-2b4f3e1e8a5d",
+      "title": "The tested high-slowly-digestible-starch breakfast in place of extruded cereal",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "relationship_ids": [
+        "BRS6-FM1-PM1::PM1-SOP-3"
+      ]
+    },
+    {
+      "id": "food-strategy-39329d80422a",
+      "title": "The studied whey preload before a carbohydrate meal",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS6-FM1-PM1::PM1-SOP-4"
+      ]
+    },
+    {
+      "id": "food-strategy-4a484fa5d3fe",
+      "title": "The tested semolina pasta matrix in place of semolina bread or couscous",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "relationship_ids": [
+        "BRS6-FM1-PM1::PM1-SOP-5"
+      ]
+    },
+    {
+      "id": "food-strategy-e23a1ae63828",
+      "title": "Cooling and reheating the tested chickpea pasta",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "relationship_ids": [
+        "BRS6-FM1-PM1::PM1-SOP-6"
+      ]
+    },
+    {
+      "id": "food-strategy-30f51165f095",
+      "title": "The tested beta-glucan addition to a polenta meal",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS6-FM1-PM1::PM1-SOP-7"
+      ]
+    },
+    {
+      "id": "food-strategy-cf5b3e5c4373",
+      "title": "The tested guar–chickpea flour flatbread blend",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "relationship_ids": [
+        "BRS6-FM1-PM1::PM1-SOP-8"
+      ]
+    },
+    {
+      "id": "food-strategy-00271bfb09df",
+      "title": "Isomaltulose instead of sucrose in the studied sugar-load comparison",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS6-FM1-PM1::PM1-SOP-9"
+      ]
+    },
+    {
+      "id": "food-strategy-a312af25728a",
+      "title": "Vinegar with the studied starchy meal",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS6-FM1-PM1::PM1-SOP-10"
+      ]
+    },
+    {
+      "id": "food-strategy-485ec8fa28a2",
+      "title": "Less-processed whole-grain food package (two-week trial)",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "relationship_ids": [
+        "BRS6-FM1-PM2::PM2-SOP-2"
+      ]
+    },
+    {
+      "id": "food-strategy-e67a5bf54b65",
+      "title": "Early eating with front-loaded calories (six-day trial)",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS6-FM1-PM2::PM2-SOP-3"
+      ]
+    },
+    {
+      "id": "food-strategy-4601009eb275",
+      "title": "Diet-induced weight reduction when excess adiposity is relevant",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS6-FM1-PM3::PM3-SOP-1"
+      ]
+    },
+    {
+      "id": "food-strategy-9693baf6cdc4",
+      "title": "Conditional oral arginine supplementation in the tested type-2-diabetes protocol",
+      "scope": "supplementation",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS6-FM1-PM3::PM3-SOP-DEFERRED-1"
+      ]
+    },
+    {
+      "id": "BRS6-FM1-PM3::PM3-SOP-EARLY-EATING-1",
+      "title": "Six-hour early eating window with weight-maintenance feeding",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS6-FM1-PM3::PM3-SOP-EARLY-EATING-1"
+      ]
+    },
+    {
+      "id": "food-strategy-26b6ca2f625b",
+      "title": "Aligned sleep–wake and meal scheduling",
+      "scope": "mixed-food-and-timing",
+      "category": "light_circadian",
+      "relationship_ids": [
+        "BRS6-FM2-PM4::PM4-SOP-1"
+      ]
+    },
+    {
+      "id": "food-strategy-07783aa4511c",
+      "title": "EPA+DHA supplementation (studied combined formulation)",
+      "scope": "supplementation",
+      "category": "conditional_supplementation",
+      "relationship_ids": [
+        "BRS6-FM3-PM7::PM7-SOP-2"
+      ]
+    },
+    {
+      "id": "food-strategy-f10ef9a22773",
+      "title": "Food-related mindfulness training",
+      "scope": "mixed-food-and-behaviour",
+      "category": "stress_autonomic",
+      "relationship_ids": [
+        "BRS6-FM4-PM9::PM9-SOP-1"
+      ]
+    },
+    {
+      "id": "food-strategy-1f42c89b4a16",
+      "title": "Twelve-week supplied diet: LA 1% energy, EPA .16% and DHA .38%; compare low-LA/low-n3 and high-LA/low-n3 diets.",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS-X(ECS-PM2)::PM2-SOP-LOW-LA-HIGH-N3-1"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "BRS1-FM1-PM1::PM1-SOP-DEFERRED-1",
+      "strategy_id": "food-strategy-6d9c0fa97324",
+      "brs": "BRS1",
+      "fm": "BRS1(FM1)",
+      "pm": "BRS1-FM1-PM1",
+      "pm_page": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation",
+      "input": "Minced rather than intact beef in the tested older-adult meal",
+      "input_type": "food preparation/delivery practice",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "biological_role": "The tested texture change increased six-hour appearance of dietary phenylalanine in ten older men.",
+      "evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "pennings_minced_beef_2013"
+        ]
+      },
+      "limitation": "Single crossover with 135 g intrinsically labelled beef. Total plasma EAA concentrations and muscle protein synthesis did not differ detectably. Not a universal meat, protein or neurotransmitter prescription; earlier no-selected-SOP wording records the prior assessment.",
+      "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx#system_optimisation_practices/PM1-SOP-DEFERRED-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS1-FM1-PM1::PM1-SOP-COOKED-EGG-1",
+      "strategy_id": "food-strategy-pm1-cooked-egg-1",
+      "brs": "BRS1",
+      "fm": "BRS1(FM1)",
+      "pm": "BRS1-FM1-PM1",
+      "pm_page": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation",
+      "input": "Boiled rather than raw eggs in the tested postexercise meal",
+      "input_type": "food preparation/delivery practice",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "biological_role": "Boiled eggs produced higher peak circulating essential-amino-acid concentrations than raw eggs in the tested postexercise meal, supporting PM1’s circulating precursor-provision function.",
+      "evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "fuchs_raw_eggs_2022",
+          "evenepoel_digestibility_1998"
+        ]
+      },
+      "limitation": "The 45-man trial compared five eggs after resistance exercise; higher peak concentrations did not establish greater brain delivery or a detectable muscle-protein-synthesis advantage.",
+      "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx#system_optimisation_practices/PM1-SOP-COOKED-EGG-1",
+      "food_ids": [
+        "eggs"
+      ],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS1-FM1-PM1::PM1-SOP-WHEY-CASEIN-1",
+      "strategy_id": "food-strategy-2795f34292bc",
+      "brs": "BRS1",
+      "fm": "BRS1(FM1)",
+      "pm": "BRS1-FM1-PM1",
+      "pm_page": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation",
+      "input": "20 g whey versus casein in the tested older-adult drink",
+      "input_type": "food preparation/delivery practice",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "biological_role": "Higher peak dietary phenylalanine appearance with whey; six-hour circulating fraction 58±1% versus 53±1% (SEM).",
+      "evidence": {
+        "citation_keys": [
+          "pennings_whey_2011"
+        ]
+      },
+      "limitation": "Casein appearance was higher later; an earlier peak is not universal superiority or complete absorption. Single fasting test in older men; not an ordinary mixed meal or daily prescription. Dietary tracer appearance is not brain uptake, neurotransmitter synthesis or cognition. No overall treatment effect on total plasma phenylalanine concentration; whey and hydrolysate did not differ in the first two-hour circulating fraction.",
+      "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx#system_optimisation_practices/PM1-SOP-WHEY-CASEIN-1",
+      "food_ids": [],
+      "substance_ids": [
+        "phenylalanine"
+      ]
+    },
+    {
+      "id": "BRS1-FM1-PM3::PM3-SOP-1",
+      "strategy_id": "food-strategy-5827fa9ef1ad",
+      "brs": "BRS1",
+      "fm": "BRS1(FM1)",
+      "pm": "BRS1-FM1-PM3",
+      "pm_page": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation",
+      "input": "Pair non-haem iron-containing meals with an ascorbic-acid source",
+      "input_type": "food preparation/delivery practice",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "biological_role": "Ascorbic acid can counter phytate- and polyphenol-related inhibition and improve non-haem iron absorption at the meal level. Iron is a required cofactor for tyrosine hydroxylase.",
+      "evidence": {
+        "finding_ids": [
+          "PM3-F8"
+        ],
+        "citation_keys": [
+          "siegenberg_ascorbic_1991"
+        ]
+      },
+      "limitation": "Evidence supports improved non-haem iron absorption at the meal level; it does not establish improved iron status or any change in dopamine biology or function.",
+      "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#system_optimisation_practices/PM3-SOP-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS1-FM1-PM3::PM3-SOP-2",
+      "strategy_id": "food-strategy-c8d6c2de9a7c",
+      "brs": "BRS1",
+      "fm": "BRS1(FM1)",
+      "pm": "BRS1-FM1-PM3",
+      "pm_page": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation",
+      "input": "Use validated phytate-reducing preparation methods for high-phytate cereals",
+      "input_type": "food preparation/delivery practice",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "biological_role": "Phytase treatment can reduce phytate inhibition and improve non-haem iron absorption from some cereal matrices. Iron is a required cofactor for tyrosine hydroxylase.",
+      "evidence": {
+        "finding_ids": [
+          "PM3-F8"
+        ],
+        "citation_keys": [
+          "hurrell_phytic_2003",
+          "chondrou_phytic_2024"
+        ]
+      },
+      "limitation": "Improved absorption was matrix-dependent and did not consistently translate into better long-term iron status; no dopamine-related outcome was measured.",
+      "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#system_optimisation_practices/PM3-SOP-2",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS1-FM1-PM3::PM3-SOP-3",
+      "strategy_id": "food-strategy-37391d5ecccb",
+      "brs": "BRS1",
+      "fm": "BRS1(FM1)",
+      "pm": "BRS1-FM1-PM3",
+      "pm_page": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation",
+      "input": "Short-term selective dietary-fat restriction in adults with obesity under controlled conditions",
+      "input_type": "targeted dietary protocol",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "After five days of dietary-fat restriction providing 30% fewer calories than baseline, striatal D2/D3 binding potential was lower than at baseline in adults with obesity. The PET comparison between the equally calorie-restricted fat and carbohydrate diets was not significant; the separately measured food-cue fMRI response differed between diets.",
+      "evidence": {
+        "finding_ids": [
+          "PM3-F11"
+        ],
+        "citation_keys": [
+          "darcey_dietary_fat_2023"
+        ]
+      },
+      "limitation": "Evidence comes from 17 adults with obesity in a short inpatient experiment; reduced binding potential does not by itself distinguish receptor change from greater endogenous dopamine occupancy.",
+      "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#system_optimisation_practices/PM3-SOP-3",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS1-FM1-PM3::PM3-SOP-4",
+      "strategy_id": "food-strategy-21ec16030a2a",
+      "brs": "BRS1",
+      "fm": "BRS1(FM1)",
+      "pm": "BRS1-FM1-PM3",
+      "pm_page": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation",
+      "input": "Short-term very-low-calorie dieting in adults with obesity",
+      "input_type": "targeted dietary protocol",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "About ten days of very-low-calorie dieting reduced substantia-nigra D2/D3 receptor binding potential in women with obesity, and regional changes tracked reductions in leptin.",
+      "evidence": {
+        "finding_ids": [
+          "PM3-F11"
+        ],
+        "citation_keys": [
+          "dunn_caloric_restriction_2017"
+        ]
+      },
+      "limitation": "The uncontrolled study involved 15 women with obesity and cannot establish whether the imaging change reflects altered receptor availability or endogenous dopamine occupancy.",
+      "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#system_optimisation_practices/PM3-SOP-4",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS1-FM1-PM4::PM4-SOP-PHYTASE-1",
+      "strategy_id": "food-strategy-c8d6c2de9a7c",
+      "brs": "BRS1",
+      "fm": "BRS1(FM1)",
+      "pm": "BRS1-FM1-PM4",
+      "pm_page": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation",
+      "input": "Use validated phytate-reducing preparation methods for high-phytate cereals",
+      "input_type": "food preparation/delivery practice",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "biological_role": "Improved non-haem iron absorption from responsive water-reconstituted cereal matrices supports upstream iron provision for the shared iron-dependent tyrosine-hydroxylase step in noradrenaline synthesis.",
+      "evidence": {
+        "finding_ids": [
+          "PM4-F2"
+        ],
+        "citation_keys": [
+          "hurrell_phytic_2003"
+        ]
+      },
+      "limitation": "Small human isotope-absorption studies; results depended on the cereal, tannins and reconstitution medium. No human brain iron, noradrenaline, attention or clinical endpoint. This does not establish an ordinary household soaking method.",
+      "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#system_optimisation_practices/PM4-SOP-PHYTASE-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS1-FM1-PM5::PM5-SOP-PHYTASE-1",
+      "strategy_id": "food-strategy-c8d6c2de9a7c",
+      "brs": "BRS1",
+      "fm": "BRS1(FM1)",
+      "pm": "BRS1-FM1-PM5",
+      "pm_page": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation",
+      "input": "Use validated phytate-reducing preparation methods for high-phytate cereals",
+      "input_type": "food preparation/delivery practice",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "biological_role": "Improved non-haem iron absorption from responsive water-reconstituted cereal matrices supports upstream iron provision for the shared iron-dependent tryptophan-hydroxylase step in serotonin synthesis.",
+      "evidence": {
+        "finding_ids": [
+          "PM5-F2"
+        ],
+        "citation_keys": [
+          "hurrell_phytic_2003"
+        ]
+      },
+      "limitation": "Small human isotope-absorption studies; results depended on the cereal, tannins and reconstitution medium. No human brain iron, serotonin, attention or clinical endpoint. This does not establish an ordinary household soaking method.",
+      "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#system_optimisation_practices/PM5-SOP-PHYTASE-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS1-FM2-PM6::PM6-SOP-EGG-PHOSPHOLIPID-1",
+      "strategy_id": "food-strategy-330542e5f55b",
+      "brs": "BRS1",
+      "fm": "BRS1(FM2)",
+      "pm": "BRS1-FM2-PM6",
+      "pm_page": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support",
+      "input": "Egg-yolk phospholipid versus choline bitartrate",
+      "input_type": "context-specific dietary protocol",
+      "scope": "supplementation",
+      "category": "conditional_supplementation",
+      "biological_role": "Approximately fourfold choline iAUC versus bitartrate; betaine and dimethylglycine responses also higher.",
+      "evidence": {
+        "citation_keys": [
+          "smolders_choline_2019"
+        ]
+      },
+      "limitation": "Single3-g choline challenge, not ordinary egg consumption or a daily dose recommendation; lower-dose effect may differ. No plasma phospholipid-DHA response; no between-drink TAG-DHA difference after dose correction. Do not claim DHA superiority. Faecal-consistency changes reported more often with phospholipid drink; not long-term tolerability evidence. Plasma concentration/iAUC is not measured absorption fraction, brain choline, acetylcholine synthesis or cognition. 37 g isolated egg phospholipids in a defined drink, not37 g egg yolk; whole-food equivalence untested. Specific causal mediator unresolved; omit a collapsed mechanism summary pending adequate identification.",
+      "source_record": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx#system_optimisation_practices/PM6-SOP-EGG-PHOSPHOLIPID-1",
+      "food_ids": [],
+      "substance_ids": [
+        "choline",
+        "phosphatidylcholine"
+      ]
+    },
+    {
+      "id": "BRS1-FM3-PM7::PM7-SOP-FISH-CAPSULES-1",
+      "strategy_id": "food-strategy-735d3d83f14f",
+      "brs": "BRS1",
+      "fm": "BRS1(FM3)",
+      "pm": "BRS1-FM3-PM7",
+      "pm_page": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation",
+      "input": "Tested fish-meal versus fish-oil capsule regimens over 16 weeks",
+      "input_type": "dietary protocol",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "Red-cell DHA increased from3.22 to4.83% with fish and3.34 to4.86% with capsules; no detected between-regimen DHA difference.",
+      "evidence": {
+        "citation_keys": [
+          "harris_fish_capsules_2007"
+        ]
+      },
+      "limitation": "Red-cell DHA is peripheral exposure, not neuronal incorporation, cognition or clinical benefit. No detected DHA group difference; nonsignificance is not equivalence. Post-hoc power could not detect RBC EPA+DHA differences below1.5 percentage points. Small unblinded active-comparator study without untreated control; fish adherence self-reported and groups differed in age. Specified albacore tuna, farmed Atlantic salmon and tested DHA-rich capsules; not arbitrary fish/capsule interchangeability. More fishy aftertaste with capsules; lipid changes do not establish cardiovascular benefit.",
+      "source_record": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx#system_optimisation_practices/PM7-SOP-FISH-CAPSULES-1",
+      "food_ids": [],
+      "substance_ids": [
+        "dha-docosahexaenoic-acid"
+      ]
+    },
+    {
+      "id": "BRS1-FM5-PM12::PM12-SOP-1",
+      "strategy_id": "food-strategy-4ca425a7d459",
+      "brs": "BRS1",
+      "fm": "BRS1(FM5)",
+      "pm": "BRS1-FM5-PM12",
+      "pm_page": "/docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity",
+      "input": "Experimental DHA–UMP co-supplementation",
+      "input_type": "defined dietary exposure",
+      "scope": "supplementation",
+      "category": "conditional_supplementation",
+      "biological_role": "DHA plus uridine monophosphate (UMP) increased gerbil hippocampal spine density more than DHA alone in the tested exposure.",
+      "evidence": {
+        "finding_ids": [
+          "PM12-F6"
+        ],
+        "citation_keys": [
+          "sakamoto_dha_ump_spines_2007"
+        ]
+      },
+      "limitation": "Four weeks, choline present in all diets, small animal-level sample. UMP alone was not significant for spine density. This is an experimental combination, not a human supplementation recommendation.",
+      "source_record": "docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx#system_optimisation_practices/PM12-SOP-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS1-FM5-PM12::PM12-SOP-2",
+      "strategy_id": "food-strategy-6ba31ce0bd1c",
+      "brs": "BRS1",
+      "fm": "BRS1(FM5)",
+      "pm": "BRS1-FM5-PM12",
+      "pm_page": "/docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity",
+      "input": "Experimental spermidine supplementation in ageing",
+      "input_type": "defined dietary exposure",
+      "scope": "supplementation",
+      "category": "conditional_supplementation",
+      "biological_role": "Spermidine feeding prevented ageing-related enlargement of presynaptic release sites in fruit flies.",
+      "evidence": {
+        "finding_ids": [
+          "PM12-F8"
+        ],
+        "citation_keys": [
+          "gupta_spermidine_active_zones_2016"
+        ]
+      },
+      "limitation": "It did not restore reduced synapse numbers. Human wheat-germ-extract memory results were null; neither those results nor the fly study establish human structural benefit.",
+      "source_record": "docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx#system_optimisation_practices/PM12-SOP-2",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS1-FM5-PM12::PM12-SOP-3",
+      "strategy_id": "food-strategy-2c14849a7ddb",
+      "brs": "BRS1",
+      "fm": "BRS1(FM5)",
+      "pm": "BRS1-FM5-PM12",
+      "pm_page": "/docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity",
+      "input": "Active-period feeding under obesogenic exposure (experimental)",
+      "input_type": "defined dietary exposure",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "A defined active-period feeding schedule changed regional spine maintenance in mice exposed to an obesogenic diet.",
+      "evidence": {
+        "finding_ids": [
+          "PM12-F11"
+        ],
+        "citation_keys": [
+          "chakraborty_meal_schedule_spines_2025"
+        ]
+      },
+      "limitation": "Four-week mouse protocol after prolonged high-fat/high-sucrose exposure. Regionally opposite structural responses; no human eating-window target or general healthy-adult benefit established.",
+      "source_record": "docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx#system_optimisation_practices/PM12-SOP-3",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS1-FM5-PM12::PM12-SOP-DEFERRED-1",
+      "strategy_id": "food-strategy-bafd6931fd98",
+      "brs": "BRS1",
+      "fm": "BRS1(FM5)",
+      "pm": "BRS1-FM5-PM12",
+      "pm_page": "/docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity",
+      "input": "Experimental magnesium-L-threonate exposure",
+      "input_type": "defined dietary exposure",
+      "scope": "supplementation",
+      "category": "conditional_supplementation",
+      "biological_role": "The tested formulation changed presynaptic structural markers in rats.",
+      "evidence": {
+        "finding_ids": [
+          "PM12-F12"
+        ],
+        "citation_keys": [
+          "slutsky_magnesium_synaptic_2010"
+        ]
+      },
+      "limitation": "Puncta are markers, not ultrastructurally verified contact counts. Formulation- and region-specific animal evidence does not establish that ordinary magnesium foods increase human synapses or improve ADHD.",
+      "source_record": "docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx#system_optimisation_practices/PM12-SOP-DEFERRED-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS3-FM1-PM1::PM1-SOP-DEFERRED-1",
+      "strategy_id": "food-strategy-f69b067d45e3",
+      "brs": "BRS3",
+      "fm": "BRS3(FM1)",
+      "pm": "BRS3-FM1-PM1",
+      "pm_page": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation",
+      "input": "Tested fibre/fruit-rich mixed meal versus the high-fat/high-carbohydrate comparison",
+      "input_type": "defined meal formulation",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison. The mechanism of that difference was not isolated.",
+      "evidence": {
+        "finding_ids": [
+          "PM1-F3"
+        ],
+        "citation_keys": [
+          "ghanim_increase_2009"
+        ]
+      },
+      "limitation": "Two parallel groups of ten healthy lean adults; random allocation was not described. The 910-kcal meals differed in several foods and macronutrients, so fibre, fruit, orange juice and individual constituents are not isolated. Mononuclear NF-kB DNA binding was an electrophoretic mobility-shift assay. Plasma CRP and TNF-alpha did not change after either meal. MMP-9 rose after the high-fat/high-carbohydrate meal only and is not an NF-kB measurement. LPS and LBP changes are the neighbouring gut-derived endpoint, not this transcriptional result. No brain or clinical benefit was measured.",
+      "source_record": "docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx#system_optimisation_practices/PM1-SOP-DEFERRED-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS3-FM1-PM2::PM2-SOP-DEFERRED-1",
+      "strategy_id": "food-strategy-f69b067d45e3",
+      "brs": "BRS3",
+      "fm": "BRS3(FM1)",
+      "pm": "BRS3-FM1-PM2",
+      "pm_page": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling",
+      "input": "Tested fibre/fruit-rich mixed meal versus the high-fat/high-carbohydrate comparison",
+      "input_type": "defined meal formulation",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "Plasma endotoxin rose from 0.39 ± 0.07 to 0.58 ± 0.10 EU/ml at 3 hours after the high-fat/high-carbohydrate meal (47 ± 14% over baseline), and LPS-binding protein rose by 34 ± 14% at 2 hours. The fibre/fruit-rich meal caused no significant change in either. The mechanism of that difference was not isolated.",
+      "evidence": {
+        "finding_ids": [
+          "PM2-F5"
+        ],
+        "citation_keys": [
+          "ghanim_increase_2009"
+        ]
+      },
+      "limitation": "Two parallel groups of ten healthy lean adults; random allocation was not described. The 910-kcal meals differed in several foods and macronutrients, so fibre, fruit and orange juice are not isolated. Plasma endotoxin was a limulus amebocyte lysate, and LPS-binding protein was an immunoassay. The fibre/fruit meal contained more measurable endotoxin than the high-fat meal, so the meal's own endotoxin does not explain the plasma difference. CRP and TNF-alpha did not change. Mononuclear NF-kB DNA binding is the neighbouring transcriptional endpoint, not this result. No brain or clinical benefit was measured.",
+      "source_record": "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx#system_optimisation_practices/PM2-SOP-DEFERRED-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS3-FM2-PM3::PM3-SOP-1",
+      "strategy_id": "food-strategy-bec27b284d44",
+      "brs": "BRS3",
+      "fm": "BRS3(FM2)",
+      "pm": "BRS3-FM2-PM3",
+      "pm_page": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation",
+      "input": "Myrosinase-completed broccoli sprout homogenate",
+      "input_type": "preparation characteristic",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "biological_role": "Three daily doses of broccoli sprouts, blended with water and daikon sprouts and held at 37°C so myrosinase could finish forming sulforaphane, increased phase II enzyme RNA in nasal cells of healthy adults. The authors read that shared pattern as Nrf2-linked induction. They did not measure Nrf2 protein or its movement into the nucleus.",
+      "evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "riedl_sulforaphane_airway_2009",
+          "wise_sulforaphane_copd_2016"
+        ]
+      },
+      "limitation": "This is three days of that homogenate in healthy adults and nasal enzyme RNA, not brain Nrf2, an ordinary broccoli serving, or the four-week sprout-extract capsules that did not raise lung target-gene expression in COPD.",
+      "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx#system_optimisation_practices/PM3-SOP-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS3-FM2-PM5::PM5-SOP-PHENOLIC-OLIVE-OIL-1",
+      "strategy_id": "food-strategy-b91b56073a99",
+      "brs": "BRS3",
+      "fm": "BRS3(FM2)",
+      "pm": "BRS3-FM2-PM5",
+      "pm_page": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control",
+      "input": "25 mL/day (22 g) raw olive oil replacing other raw fats; 366 versus 2.7 mg/kg phenolics, with intermediate 164 mg/kg arm; three weeks each, two-week washouts.",
+      "input_type": "context-specific dietary protocol",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "Oxidised LDL changed −3.21 U/L (95% CI −5.1 to −0.8) with high phenolics; dose trend supported. F2-isoprostanes did not vary significantly by phenolic exposure.",
+      "evidence": {
+        "citation_keys": [
+          "covas_eurolive_2006"
+        ]
+      },
+      "limitation": "No claim of reduced inflammatory signalling or universal systemic antioxidant effect. Defined oils; retail EVOO label does not guarantee tested phenolic concentration. Short interventions in healthy men; diet self-report and co-food interactions remain limitations.",
+      "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx#system_optimisation_practices/PM5-SOP-PHENOLIC-OLIVE-OIL-1",
+      "food_ids": [
+        "extra-virgin-olive-oil"
+      ],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS3-FM2-PM6::PM6-SOP-VITAMIN-C-RETENTION-1",
+      "strategy_id": "food-strategy-8ae28ecbcef4",
+      "brs": "BRS3",
+      "fm": "BRS3(FM2)",
+      "pm": "BRS3-FM2-PM6",
+      "pm_page": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling",
+      "input": "Vitamin C supplementation and vitamin E retention",
+      "input_type": "context-specific dietary protocol",
+      "scope": "supplementation",
+      "category": "conditional_supplementation",
+      "biological_role": "Abstract reports 25% and 45% slower fractional disappearance in smokers; no corresponding effect in nonsmokers.",
+      "evidence": {
+        "citation_keys": [
+          "bruno_retention_2006"
+        ]
+      },
+      "limitation": "No significant change in nonsmoker disappearance, tocopherol maximal concentration/time-to-maximum, or F2-isoprostanes in either group. Small smoker-specific response; no general population supplementation rule. Retention cannot establish reduced oxidative injury or clinical benefit. Low-ascorbate diet and 17-day supplementation with day-14 tracer challenge; not a recommendation to restrict vitamin C or to offset smoking harms.",
+      "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx#system_optimisation_practices/PM6-SOP-VITAMIN-C-RETENTION-1",
+      "food_ids": [],
+      "substance_ids": [
+        "vitamin-c",
+        "vitamin-e"
+      ]
+    },
+    {
+      "id": "BRS3-FM3-PM7::PM7-SOP-FERMENTED-FOOD-1",
+      "strategy_id": "BRS3-FM3-PM7::PM7-SOP-FERMENTED-FOOD-1",
+      "brs": "BRS3",
+      "fm": "BRS3(FM3)",
+      "pm": "BRS3-FM3-PM7",
+      "pm_page": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation",
+      "input": "Ten-week high-fermented-food dietary pattern",
+      "input_type": "dietary protocol",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "19/93 serum proteins decreased, including IL-6, IL-10 and IL-12b; microbiota diversity increased as a separate endpoint.",
+      "evidence": {
+        "citation_keys": [
+          "wastyk_gut-microbiota-targeted_2021"
+        ],
+        "finding_ids": [
+          "PM7-F1"
+        ],
+        "finding_role": "Mechanistic home only; intervention efficacy and SEC come from the separately cited primary trial, not this Finding."
+      },
+      "limitation": "Primary cytokine response score was not significant in either arm; ex vivo signalling capacity was unchanged. No significant cognition, well-being or standard metabolic-marker changes reported. No non-intervention control, modest sample, unmasked team and exploratory outcomes. Diversity did not establish causal mediation of immune effects; IL-10 is not simply a harmful pro-inflammatory marker. Mixed fermented foods; no isolated yogurt/kimchi efficacy or universal six-serving prescription. Transient bloating during ramp-up.",
+      "source_record": "docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx#system_optimisation_practices/PM7-SOP-FERMENTED-FOOD-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS4-FM1-PM3::PM3-SOP-1",
+      "strategy_id": "food-strategy-d77d8db065cc",
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM3",
+      "pm_page": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer",
+      "input": "Limit unnecessary cumulative heat exposure when retaining creatine in pork products",
+      "input_type": "food preparation/delivery practice",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "biological_role": "Controlled pork-loin and cooked-ham experiments found greater creatine-to-creatinine conversion with higher heat exposure, especially at the product surface.",
+      "evidence": {
+        "finding_ids": [
+          "PM3-F6"
+        ],
+        "citation_keys": [
+          "mora_cooking_creatine_2008"
+        ]
+      },
+      "limitation": "Evidence is limited to processed pork matrices and does not establish higher creatine intake or cerebral target engagement.",
+      "source_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx#system_optimisation_practices/PM3-SOP-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS4-FM1-PM3::PM3-SOP-2",
+      "strategy_id": "food-strategy-d01445d73fbe",
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM3",
+      "pm_page": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer",
+      "input": "Consider creatine monohydrate only in defined low-intake or high-demand contexts",
+      "input_type": "nutrient/substance",
+      "scope": "supplementation",
+      "category": "conditional_supplementation",
+      "biological_role": "Human reviews indicate that supplementation can raise cerebral total creatine or phosphocreatine modestly and variably, while a small crossover trial during sleep deprivation found concurrent changes in cerebral high-energy phosphates and cognitive performance.",
+      "evidence": {
+        "finding_ids": [
+          "PM3-F3",
+          "PM3-F4",
+          "PM3-F5"
+        ],
+        "citation_keys": [
+          "dolan_beyond_muscle_2019",
+          "avgerinos_effects_2018",
+          "gordji-nejad_creatine_sleep_2024"
+        ]
+      },
+      "limitation": "Effective dosing and responder characteristics remain uncertain, and cognitive trials do not consistently measure cerebral target engagement.",
+      "source_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx#system_optimisation_practices/PM3-SOP-2",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS4-FM3-PM6::PM6-SOP-DEFERRED-1",
+      "strategy_id": "food-strategy-1116604823f5",
+      "brs": "BRS4",
+      "fm": "BRS4(FM3)",
+      "pm": "BRS4-FM3-PM6",
+      "pm_page": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport",
+      "input": "Experimental carnitine/carbohydrate loading protocol",
+      "input_type": "defined dietary exposure",
+      "scope": "supplementation",
+      "category": "dietary_protocols",
+      "biological_role": "The tested 24-week exposure increased muscle carnitine and changed exercise-dependent fuel handling.",
+      "evidence": {
+        "finding_ids": [
+          "PM6-F1"
+        ],
+        "citation_keys": [
+          "wall_carnitine_carbohydrate_2011"
+        ]
+      },
+      "limitation": "Lipid use is partly inferred from glycogen sparing; CPT transport flux was not directly measured. Large carbohydrate co-exposure and extracted formulation are not meat/dairy effects or a routine dietary recommendation.",
+      "source_record": "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx#system_optimisation_practices/PM6-SOP-DEFERRED-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS4-FM3-PM7::PM7-SOP-DEFERRED-1",
+      "strategy_id": "food-strategy-30a8479fab48",
+      "brs": "BRS4",
+      "fm": "BRS4(FM3)",
+      "pm": "BRS4-FM3-PM7",
+      "pm_page": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity",
+      "input": "Four-day ketogenic liquid formula in the studied healthy-adult experiment",
+      "input_type": "dietary pattern",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "The defined formula raised tracer/model-estimated cerebral acetoacetate metabolism.",
+      "evidence": {
+        "finding_ids": [
+          "PM7-F1"
+        ],
+        "citation_keys": [
+          "courchesne_loyer_diet_ketone_pet_2017"
+        ]
+      },
+      "limitation": "Small short-term nonrandomised study; PET metabolic rates are tracer/model estimates, not direct neuronal oxidation measurements. Combined total ketone energy contribution was estimated separately. No ADHD efficacy or endorsement of routine ketogenic dieting.",
+      "source_record": "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx#system_optimisation_practices/PM7-SOP-DEFERRED-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS4-FM4-PM9::PM9-SOP-CALORIE-RESTRICTION-1",
+      "strategy_id": "food-strategy-c40bd474f157",
+      "brs": "BRS4",
+      "fm": "BRS4(FM4)",
+      "pm": "BRS4-FM4-PM9",
+      "pm_page": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis",
+      "input": "25% energy restriction for six months versus weight-maintenance control; separate12.5% restriction plus12.5% exercise arm not pooled.",
+      "input_type": "context-specific dietary protocol",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "Muscle mtDNA increased35±5% in restriction arm; citrate-synthase protein and tested mitochondrial enzyme activities did not increase.",
+      "evidence": {
+        "citation_keys": [
+          "civitarese_calorie_mitochondrial_2007"
+        ]
+      },
+      "limitation": "Marker change must not be relabelled improved mitochondrial respiration. Weight and fat-free mass fell; not a general-population restriction prescription. Small exploratory molecular analysis; multiple endpoints and unblinded exposure. No brain-energy, longevity or ADHD benefit established.",
+      "source_record": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx#system_optimisation_practices/PM9-SOP-CALORIE-RESTRICTION-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS5-FM1-PM1::PM1-SOP-1",
+      "strategy_id": "food-strategy-f8e9fd166d63",
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "pm_page": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity",
+      "input": "Include dietary fat with provitamin-A vegetables",
+      "input_type": "Food delivery practice",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "biological_role": "Dietary fat supports absorption of vegetable provitamin-A carotenoids upstream of the vitamin A–retinoid biology recorded for this PM.",
+      "evidence": {
+        "finding_ids": [
+          "PM1-F9",
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "brown_carotenoid_dressing_2004",
+          "cantorna_vitamin_2019"
+        ]
+      },
+      "limitation": "Measured carotenoid absorption, not vitamin A conversion, intestinal retinoic-acid delivery or improved tight-junction function. Applies to the tested vegetable meal; do not generalise to every fat-soluble compound, impose the study fat dose, or promise reduced permeability.",
+      "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx#system_optimisation_practices/PM1-SOP-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS5-FM1-PM1::PM1-SOP-GLUTAMINE-1",
+      "strategy_id": "food-strategy-296741631293",
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "pm_page": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity",
+      "input": "Glutamine for selected postinfectious IBS-D",
+      "input_type": "context-specific dietary protocol",
+      "scope": "supplementation",
+      "category": "conditional_supplementation",
+      "biological_role": "L:M baseline0.11±0.03 to0.05±0.01 on glutamine; control0.11±0.04 to0.10±0.03. Between-group change test P<0.0001.",
+      "evidence": {
+        "citation_keys": [
+          "zhou_glutamine_piibs_2019"
+        ]
+      },
+      "limitation": "106 completers from115 randomised; narrative withdrawal counts are internally inconsistent. Use flow/Results cohort sizes, not a claim of complete intention-to-treat. Whey protein is not biologically inert; authors note possible IBS sensitivity. No significant symptom exacerbation was observed in control. Permeability was secondary; no direct junction-protein or mediator measurement. Not generalisable to IBS with normal permeability, other disease types, children, pregnancy/lactation or excluded renal/hepatic impairment. No significant control-arm permeability change; adverse-event rates similar and no serious adverse events reported. Long-term safety not established. Earlier discovery shorthand0.05 versus0.11 conflated post-treatment with active-group baseline; post-treatment control was0.10, and Table3 is the actual between-group change comparison.",
+      "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx#system_optimisation_practices/PM1-SOP-GLUTAMINE-1",
+      "food_ids": [],
+      "substance_ids": [
+        "glutamine"
+      ]
+    },
+    {
+      "id": "BRS5-FM1-PM2::PM2-SOP-DEFERRED-1",
+      "strategy_id": "food-strategy-f69b067d45e3",
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM2",
+      "pm_page": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment",
+      "input": "Tested fibre/fruit-rich mixed meal versus the high-fat/high-carbohydrate comparison",
+      "input_type": "defined meal formulation",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "The meal comparison measured different acute plasma endotoxin/LBP responses.",
+      "evidence": {
+        "finding_ids": [
+          "PM2-F9"
+        ],
+        "citation_keys": [
+          "ghanim_increase_2009"
+        ]
+      },
+      "limitation": "Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.",
+      "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx#system_optimisation_practices/PM2-SOP-DEFERRED-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS5-FM2-PM5::PM5-SOP-POTATO-RS2-1",
+      "strategy_id": "BRS5-FM2-PM5::PM5-SOP-POTATO-RS2-1",
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "pm_page": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling",
+      "input": "Unheated extracted potato resistant-starch supplementation",
+      "input_type": "dietary protocol",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "Potato-arm faecal butyrate increased about 29%; 63% increased and 37% were unchanged or decreased.",
+      "evidence": {
+        "citation_keys": [
+          "baxter_fermentable_fibers_2019"
+        ],
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "finding_role": "Mechanistic home only; intervention efficacy and SEC come from the separately cited primary trial, not this Finding."
+      },
+      "limitation": "Faecal concentration is not production flux, epithelial exposure or brain signalling. Extracted unheated RS2 supplement; not cooked/cooled potato meals or a verified equivalent banana dose. Maize resistant starch and inulin did not significantly raise butyrate; no alpha-diversity change. Small supplement groups, incompletely masked participants, background diet uncontrolled and sample-completeness exclusions. Individual microbiota-dependent heterogeneity; universal response is unsupported.",
+      "source_record": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx#system_optimisation_practices/PM5-SOP-POTATO-RS2-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM1-PM1::PM1-SOP-1",
+      "strategy_id": "food-strategy-b82469682ec7",
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM1",
+      "pm_page": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics",
+      "input": "Wholemeal rye bread in place of the tested refined wheat bread",
+      "input_type": "meal matrix substitution",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "biological_role": "The tested replacement slowed early model-derived glucose appearance.",
+      "evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "ostman_glucose_appearance_2019"
+        ]
+      },
+      "limitation": "The result applies to the tested breads and does not identify one responsible nutrient.",
+      "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx#system_optimisation_practices/PM1-SOP-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM1-PM1::PM1-SOP-2",
+      "strategy_id": "food-strategy-053016fdaaca",
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM1",
+      "pm_page": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics",
+      "input": "Fish before rice in the studied meal sequence",
+      "input_type": "meal sequencing protocol",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "Fish first delayed gastric emptying, an upstream control of carbohydrate delivery.",
+      "evidence": {
+        "finding_ids": [
+          "PM1-F2"
+        ],
+        "citation_keys": [
+          "kuwata_meal_sequence_2016"
+        ]
+      },
+      "limitation": "An acute meal result; no claim that protein alone accounts for the effect.",
+      "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx#system_optimisation_practices/PM1-SOP-2",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM1-PM1::PM1-SOP-3",
+      "strategy_id": "food-strategy-2b4f3e1e8a5d",
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM1",
+      "pm_page": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics",
+      "input": "The tested high-slowly-digestible-starch breakfast in place of extruded cereal",
+      "input_type": "cereal processing substitution",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "biological_role": "The high-slowly-digestible-starch product redistributed glucose appearance from earlier to later in the morning.",
+      "evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vinoy_cereal_processing_2013"
+        ]
+      },
+      "limitation": "Measured in 12 tracer participants after specific breakfasts; no universal product, dose or longer-term outcome claim.",
+      "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx#system_optimisation_practices/PM1-SOP-3",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM1-PM1::PM1-SOP-4",
+      "strategy_id": "food-strategy-39329d80422a",
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM1",
+      "pm_page": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics",
+      "input": "The studied whey preload before a carbohydrate meal",
+      "input_type": "protein preload protocol",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "Whey given before the studied meal delayed scintigraphic gastric emptying and stimulated insulin and gut hormones.",
+      "evidence": {
+        "finding_ids": [
+          "PM1-F2"
+        ],
+        "citation_keys": [
+          "ma_whey_preload_2009"
+        ]
+      },
+      "limitation": "Eight adults with diet-controlled type 2 diabetes; 55 g whey 30 min before the meal, additional energy, acute results. No universal preload prescription or direct requirement.",
+      "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx#system_optimisation_practices/PM1-SOP-4",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM1-PM1::PM1-SOP-5",
+      "strategy_id": "food-strategy-4a484fa5d3fe",
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM1",
+      "pm_page": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics",
+      "input": "The tested semolina pasta matrix in place of semolina bread or couscous",
+      "input_type": "food matrix substitution",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "biological_role": "The pasta matrix retained starch within larger particles and a protein network during the assessed digestion steps.",
+      "evidence": {
+        "finding_ids": [
+          "PM1-F3"
+        ],
+        "citation_keys": [
+          "vanhatalo_pasta_structure_2022"
+        ]
+      },
+      "limitation": "Separate human and simulated-digestion experiments; appearance slowing is inferred, not quantified. The result does not apply to every pasta or processing method.",
+      "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx#system_optimisation_practices/PM1-SOP-5",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM1-PM1::PM1-SOP-6",
+      "strategy_id": "food-strategy-e23a1ae63828",
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM1",
+      "pm_page": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics",
+      "input": "Cooling and reheating the tested chickpea pasta",
+      "input_type": "starch preparation protocol",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "biological_role": "Cooling and reheating increased measured resistant starch in this pasta, reducing the readily digestible fraction as a plausible entry-pathway change.",
+      "evidence": {
+        "finding_ids": [
+          "PM1-F3"
+        ],
+        "citation_keys": [
+          "bojarczuk_chickpea_cooling_2024"
+        ]
+      },
+      "limitation": "Twelve healthy adults; 24 h at 4 °C and the tested reheating method. Glucose entry was not measured and digestible carbohydrate was not re-matched after processing.",
+      "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx#system_optimisation_practices/PM1-SOP-6",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM1-PM1::PM1-SOP-7",
+      "strategy_id": "food-strategy-30f51165f095",
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM1",
+      "pm_page": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics",
+      "input": "The tested beta-glucan addition to a polenta meal",
+      "input_type": "defined fibre meal addition",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "The studied 5 g beta-glucan addition redistributed exogenous glucose appearance from the first two hours to later in the six-hour period.",
+      "evidence": {
+        "finding_ids": [
+          "PM1-F4"
+        ],
+        "citation_keys": [
+          "nazare_beta_glucan_2009"
+        ]
+      },
+      "limitation": "Twelve overweight adults; no lower overall appearing quantity and no universal fibre effect. Viscosity is a proposed explanation, not a measured mediator.",
+      "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx#system_optimisation_practices/PM1-SOP-7",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM1-PM1::PM1-SOP-8",
+      "strategy_id": "food-strategy-cf5b3e5c4373",
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM1",
+      "pm_page": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics",
+      "input": "The tested guar–chickpea flour flatbread blend",
+      "input_type": "defined meal formulation",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "biological_role": "The 4% guar and 15% chickpea flour formulation modestly reduced four-hour exogenous glucose appearance in the tested flatbread.",
+      "evidence": {
+        "finding_ids": [
+          "PM1-F4"
+        ],
+        "citation_keys": [
+          "boers_fibre_glucose_kinetics_2017"
+        ]
+      },
+      "limitation": "The primary half-absorption-time endpoint did not change significantly; larger liver-production and disposal changes also occurred. No isolated guar effect or general fibre requirement.",
+      "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx#system_optimisation_practices/PM1-SOP-8",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM1-PM1::PM1-SOP-9",
+      "strategy_id": "food-strategy-00271bfb09df",
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM1",
+      "pm_page": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics",
+      "input": "Isomaltulose instead of sucrose in the studied sugar-load comparison",
+      "input_type": "carbohydrate substitution protocol",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "The tested substitution slowed estimated oral-glucose appearance under the study conditions.",
+      "evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "ang_isomaltulose_kinetics_2014",
+          "brunner_isomaltulose_2012"
+        ]
+      },
+      "limitation": "Eleven adults with type 2 diabetes under a clamp; not an instruction to add sugar. A separate 12-week trial did not show an HbA1c advantage.",
+      "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx#system_optimisation_practices/PM1-SOP-9",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM1-PM1::PM1-SOP-10",
+      "strategy_id": "food-strategy-a312af25728a",
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM1",
+      "pm_page": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics",
+      "input": "Vinegar with the studied starchy meal",
+      "input_type": "acid-containing meal protocol",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "The matched-meal trial supports a possible delay in gastric delivery from its lower paracetamol-marker response.",
+      "evidence": {
+        "finding_ids": [
+          "PM1-F6"
+        ],
+        "citation_keys": [
+          "liljeberg_vinegar_emptying_1998",
+          "hlebowicz_vinegar_gastroparesis_2007"
+        ]
+      },
+      "limitation": "Indirect marker in ten healthy volunteers, no appearance flux. Further delay occurred in diabetic gastroparesis and may be disadvantageous; do not apply this practice to that context.",
+      "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx#system_optimisation_practices/PM1-SOP-10",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM1-PM2::PM2-SOP-2",
+      "strategy_id": "food-strategy-485ec8fa28a2",
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM2",
+      "pm_page": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation",
+      "input": "Less-processed whole-grain food package (two-week trial)",
+      "input_type": "dietary protocol",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "biological_role": "In adults with type 2 diabetes, the tested less-processed whole-grain package reduced daily glucose standard deviation and mean amplitude of glycaemic excursions (MAGE) versus a nutrient-matched finely processed package over two weeks.",
+      "evidence": {
+        "finding_ids": [
+          "PM2-F5"
+        ],
+        "citation_keys": [
+          "stage2-ref-aberg"
+        ]
+      },
+      "limitation": "A food package, not an isolated grain or fibre effect; unmasked foods, short duration. Concealed randomisation, blinded CGM, initial masked analysis and intention-to-treat models support appraisal.",
+      "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx#system_optimisation_practices/PM2-SOP-2",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM1-PM2::PM2-SOP-3",
+      "strategy_id": "food-strategy-e67a5bf54b65",
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM2",
+      "pm_page": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation",
+      "input": "Early eating with front-loaded calories (six-day trial)",
+      "input_type": "dietary protocol",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "In a small prediabetes crossover, the tested early, front-loaded eating schedule reduced mean amplitude of glycaemic excursions (MAGE) over six days versus later calorie distribution; mean glucose and several other variability/range measures were inconclusive.",
+      "evidence": {
+        "finding_ids": [
+          "PM2-F6"
+        ],
+        "citation_keys": [
+          "stage2-ref-bruno",
+          "stage2-ref-jamshed"
+        ]
+      },
+      "limitation": "Small sample, no washout; timing, eating-window length and calorie distribution cannot be separated.",
+      "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx#system_optimisation_practices/PM2-SOP-3",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM1-PM3::PM3-SOP-1",
+      "strategy_id": "food-strategy-4601009eb275",
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "pm_page": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal",
+      "input": "Diet-induced weight reduction when excess adiposity is relevant",
+      "input_type": "context-specific dietary protocol",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "The assessed programme improved measured insulin sensitivity in adults with obesity.",
+      "evidence": {
+        "finding_ids": [
+          "PM3-F3"
+        ],
+        "citation_keys": [
+          "magkos_weight_loss_adipose_2016"
+        ]
+      },
+      "limitation": "This is conditional on the studied metabolic context, not a general recommendation to lose weight.",
+      "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx#system_optimisation_practices/PM3-SOP-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM1-PM3::PM3-SOP-DEFERRED-1",
+      "strategy_id": "food-strategy-9693baf6cdc4",
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "pm_page": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal",
+      "input": "Conditional oral arginine supplementation in the tested type-2-diabetes protocol",
+      "input_type": "conditional supplementation",
+      "scope": "supplementation",
+      "category": "dietary_protocols",
+      "biological_role": "The studied 9 g/day exposure improved clamp-measured glucose disposal in a small clinical comparison.",
+      "evidence": {
+        "finding_ids": [
+          "PM3-F4"
+        ],
+        "citation_keys": [
+          "piatti_oral_arginine_clamp_2001"
+        ]
+      },
+      "limitation": "Incomplete normalisation; small selected clinical population. cGMP change does not isolate causal NO mediation. The 9 g/day supplement protocol is not equivalent to arginine-containing food.",
+      "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx#system_optimisation_practices/PM3-SOP-DEFERRED-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM1-PM3::PM3-SOP-EARLY-EATING-1",
+      "strategy_id": "BRS6-FM1-PM3::PM3-SOP-EARLY-EATING-1",
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "pm_page": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal",
+      "input": "Six-hour early eating window with weight-maintenance feeding",
+      "input_type": "dietary protocol",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "OGTT-derived insulin-resistance index decreased 36 ± 10 U/mg (p=0.005).",
+      "evidence": {
+        "citation_keys": [
+          "sutton_early_2018"
+        ],
+        "finding_ids": [
+          "PM3-F1"
+        ],
+        "finding_role": "Mechanistic home only; intervention efficacy and SEC come from the separately cited primary trial, not this Finding."
+      },
+      "limitation": "OGTT-derived index, not clamp disposal, tissue signalling or a directly measured circadian mechanism. Fasting and OGTT glucose unchanged; hs-CRP, IL-6 and cortisol unchanged. Eight male completers, unmasked supervised efficacy trial; four withdrawals. Eating-window duration and early timing coupled; pretest fast unmatched. Sequence/period effects affected some other outcomes, not the selected index. Fasting triglycerides and total cholesterol increased; not a uniformly beneficial metabolic profile. Highly supervised protocol does not establish general feasibility or an unsupervised fasting prescription.",
+      "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx#system_optimisation_practices/PM3-SOP-EARLY-EATING-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM2-PM4::PM4-SOP-1",
+      "strategy_id": "food-strategy-26b6ca2f625b",
+      "brs": "BRS6",
+      "fm": "BRS6(FM2)",
+      "pm": "BRS6-FM2-PM4",
+      "pm_page": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation",
+      "input": "Aligned sleep–wake and meal scheduling",
+      "input_type": "circadian scheduling protocol",
+      "scope": "mixed-food-and-timing",
+      "category": "light_circadian",
+      "biological_role": "The experiment establishes that combined behavioural misalignment disrupts daily cortisol timing.",
+      "evidence": {
+        "finding_ids": [
+          "PM4-F1"
+        ],
+        "citation_keys": [
+          "scheer_2009_19255424"
+        ]
+      },
+      "limitation": "Restoring every abnormal rhythm and the separate contribution of each cue were not tested.",
+      "source_record": "docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx#system_optimisation_practices/PM4-SOP-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM3-PM7::PM7-SOP-2",
+      "strategy_id": "food-strategy-07783aa4511c",
+      "brs": "BRS6",
+      "fm": "BRS6(FM3)",
+      "pm": "BRS6-FM3-PM7",
+      "pm_page": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation",
+      "input": "EPA+DHA supplementation (studied combined formulation)",
+      "input_type": "conditional supplementation",
+      "scope": "supplementation",
+      "category": "conditional_supplementation",
+      "biological_role": "The higher-dose combined exposure changed RMSSD and total power in the trial.",
+      "evidence": {
+        "finding_ids": [
+          "PM7-F2"
+        ],
+        "citation_keys": [
+          "sauder_effects_2013"
+        ]
+      },
+      "limitation": "Small elevated-triglyceride sample; no separated EPA/DHA necessity or routine benefit claim.",
+      "source_record": "docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx#system_optimisation_practices/PM7-SOP-2",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM4-PM9::PM9-SOP-1",
+      "strategy_id": "food-strategy-f10ef9a22773",
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM9",
+      "pm_page": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation",
+      "input": "Food-related mindfulness training",
+      "input_type": "mindfulness training protocol",
+      "scope": "mixed-food-and-behaviour",
+      "category": "stress_autonomic",
+      "biological_role": "The tested programme reduced reported stress-eating tendencies and cravings.",
+      "evidence": {
+        "finding_ids": [
+          "PM9-F1"
+        ],
+        "citation_keys": [
+          "torske_mindfulness_2024"
+        ]
+      },
+      "limitation": "Self-report and pseudo-randomized allocation; neural mediation and real-world intake remain unproven.",
+      "source_record": "docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation.mdx#system_optimisation_practices/PM9-SOP-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS-X(ECS-PM2)::PM2-SOP-LOW-LA-HIGH-N3-1",
+      "strategy_id": "food-strategy-1f42c89b4a16",
+      "brs": "BRS-X",
+      "fm": "BRS-X(ECS-FM1)",
+      "pm": "BRS-X(ECS-PM2)",
+      "pm_page": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling",
+      "input": "Twelve-week supplied diet: LA 1% energy, EPA .16% and DHA .38%; compare low-LA/low-n3 and high-LA/low-n3 diets.",
+      "input_type": "context-specific dietary protocol",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "Adjusted DHA-ethanolamide was higher with high n3; within-arm increase 31%. AEA and 2-AG did not differ between diets.",
+      "evidence": {
+        "citation_keys": [
+          "courville_dietary_endocannabinoids_2023"
+        ]
+      },
+      "limitation": "LA lowering and EPA/DHA addition are a combined exposure; not evidence that LA reduction alone causes benefit. AEA was not lowered; within-arm AEA rose in both low-LA groups. Power targeted fatty-acid composition; unbalanced allocation, recruitment stopped early and last measurements carried forward. No inflammation, brain signalling or clinical efficacy claim.",
+      "source_record": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx#system_optimisation_practices/PM2-SOP-LOW-LA-HIGH-N3-1",
+      "food_ids": [],
+      "substance_ids": [
+        "linoleic-acid",
+        "epa-eicosapentaenoic-acid",
+        "dha-docosahexaenoic-acid"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS1-FM1-PM1::PM1-SOP-DEFERRED-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "strategy-evidence-pointer-gap",
+      "relationship_id": "BRS1-FM1-PM1::PM1-SOP-WHEY-CASEIN-1"
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS1-FM1-PM3::PM3-SOP-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS1-FM1-PM3::PM3-SOP-2",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS1-FM1-PM3::PM3-SOP-3",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS1-FM1-PM3::PM3-SOP-4",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS1-FM1-PM4::PM4-SOP-PHYTASE-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS1-FM1-PM5::PM5-SOP-PHYTASE-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "strategy-evidence-pointer-gap",
+      "relationship_id": "BRS1-FM2-PM6::PM6-SOP-EGG-PHOSPHOLIPID-1"
+    },
+    {
+      "kind": "strategy-evidence-pointer-gap",
+      "relationship_id": "BRS1-FM3-PM7::PM7-SOP-FISH-CAPSULES-1"
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS1-FM5-PM12::PM12-SOP-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS1-FM5-PM12::PM12-SOP-2",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS1-FM5-PM12::PM12-SOP-3",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS1-FM5-PM12::PM12-SOP-DEFERRED-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS3-FM1-PM1::PM1-SOP-DEFERRED-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS3-FM1-PM2::PM2-SOP-DEFERRED-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS3-FM2-PM3::PM3-SOP-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "strategy-evidence-pointer-gap",
+      "relationship_id": "BRS3-FM2-PM5::PM5-SOP-PHENOLIC-OLIVE-OIL-1"
+    },
+    {
+      "kind": "strategy-evidence-pointer-gap",
+      "relationship_id": "BRS3-FM2-PM6::PM6-SOP-VITAMIN-C-RETENTION-1"
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS3-FM3-PM7::PM7-SOP-FERMENTED-FOOD-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS4-FM1-PM3::PM3-SOP-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS4-FM1-PM3::PM3-SOP-2",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS4-FM3-PM6::PM6-SOP-DEFERRED-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS4-FM3-PM7::PM7-SOP-DEFERRED-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "strategy-evidence-pointer-gap",
+      "relationship_id": "BRS4-FM4-PM9::PM9-SOP-CALORIE-RESTRICTION-1"
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS4-FM4-PM9::PM9-SOP-CALORIE-RESTRICTION-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS5-FM1-PM1::PM1-SOP-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "strategy-evidence-pointer-gap",
+      "relationship_id": "BRS5-FM1-PM1::PM1-SOP-GLUTAMINE-1"
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS5-FM1-PM2::PM2-SOP-DEFERRED-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS5-FM2-PM5::PM5-SOP-POTATO-RS2-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM1-PM1::PM1-SOP-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM1-PM1::PM1-SOP-2",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM1-PM1::PM1-SOP-3",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM1-PM1::PM1-SOP-4",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM1-PM1::PM1-SOP-5",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM1-PM1::PM1-SOP-6",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM1-PM1::PM1-SOP-7",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM1-PM1::PM1-SOP-8",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM1-PM1::PM1-SOP-9",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM1-PM1::PM1-SOP-10",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM1-PM2::PM2-SOP-2",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM1-PM2::PM2-SOP-3",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM1-PM3::PM3-SOP-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM1-PM3::PM3-SOP-DEFERRED-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM1-PM3::PM3-SOP-EARLY-EATING-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM2-PM4::PM4-SOP-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM3-PM7::PM7-SOP-2",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM4-PM9::PM9-SOP-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "strategy-evidence-pointer-gap",
+      "relationship_id": "BRS-X(ECS-PM2)::PM2-SOP-LOW-LA-HIGH-N3-1"
+    }
+  ],
+  "summary": {
+    "strategies": 45,
+    "relationships": 49,
+    "pms": 27,
+    "brs": [
+      "BRS1",
+      "BRS3",
+      "BRS4",
+      "BRS5",
+      "BRS6",
+      "BRS-X"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "LIVE_VERIFIED",
+  "url": "https://thebraindiet.org/explore/food-wheel/",
+  "pr": "https://github.com/The-BRAIN-Diet/food-science/pull/234",
+  "release_commit": "40a94f2b61c2ed086d5244b5b15e0a170658ff60",
+  "merge_commit": "b4d8f127854ae165e2bcd675a3b475044d63b984",
+  "netlify_deploy": "6aedb434fa418ba844b6fd06",
+  "published_at": "2026-11-06T11:09:56.310Z",
+  "embedded_data_and_runtime_match": true,
+  "live_checks": {
+    "foods": 90,
+    "default_connections": 1750,
+    "beef_connections": 28,
+    "supporting_resources": "all HTTP 200"
+  },
+  "local_build": "Stopped proactively due to disk pressure; remote preview and production builds passed"
+}

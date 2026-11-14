@@ -1,0 +1,196 @@
+[
+  {
+    "food": "beef",
+    "label_count": 28,
+    "direct": [
+      "choline",
+      "copper",
+      "coq10",
+      "creatine",
+      "dha-docosahexaenoic-acid",
+      "epa-eicosapentaenoic-acid",
+      "glutamate",
+      "glutamine",
+      "indispensable-amino-acids",
+      "iron",
+      "linoleic-acid",
+      "magnesium",
+      "manganese",
+      "potassium",
+      "selenium",
+      "sodium",
+      "vitamin-a",
+      "vitamin-b12",
+      "vitamin-b2",
+      "vitamin-b5",
+      "vitamin-b6",
+      "vitamin-b9",
+      "vitamin-e",
+      "zinc"
+    ],
+    "derived": [
+      "flavin-adenine-dinucleotide",
+      "flavin-mononucleotide",
+      "pyridoxal-5-phosphate",
+      "retinoic-acid"
+    ],
+    "proposed_only": [
+      "glycine",
+      "l-carnitine",
+      "phenylalanine",
+      "serine"
+    ],
+    "brs6_targets": [
+      "dha-docosahexaenoic-acid",
+      "epa-eicosapentaenoic-acid",
+      "magnesium"
+    ],
+    "whole_network_brs_reach": 8,
+    "font_size": 22
+  },
+  {
+    "food": "bananas",
+    "label_count": 26,
+    "direct": [
+      "choline",
+      "copper",
+      "glucose",
+      "iron",
+      "linoleic-acid",
+      "magnesium",
+      "manganese",
+      "potassium",
+      "resistant-starch",
+      "selenium",
+      "sodium",
+      "vitamin-a",
+      "vitamin-b2",
+      "vitamin-b5",
+      "vitamin-b6",
+      "vitamin-b9",
+      "vitamin-c",
+      "vitamin-e",
+      "zinc"
+    ],
+    "derived": [
+      "acetate",
+      "butyrate",
+      "flavin-adenine-dinucleotide",
+      "flavin-mononucleotide",
+      "propionate",
+      "pyridoxal-5-phosphate",
+      "retinoic-acid"
+    ],
+    "proposed_only": [],
+    "brs6_targets": [
+      "butyrate",
+      "magnesium",
+      "resistant-starch"
+    ],
+    "whole_network_brs_reach": 8,
+    "font_size": 22
+  },
+  {
+    "food": "salmon-roe",
+    "label_count": 24,
+    "direct": [
+      "choline",
+      "copper",
+      "dha-docosahexaenoic-acid",
+      "epa-eicosapentaenoic-acid",
+      "iron",
+      "linoleic-acid",
+      "magnesium",
+      "manganese",
+      "phosphatidylcholine",
+      "potassium",
+      "sodium",
+      "vitamin-a",
+      "vitamin-b12",
+      "vitamin-b2",
+      "vitamin-b5",
+      "vitamin-b6",
+      "vitamin-b9",
+      "vitamin-c",
+      "vitamin-e",
+      "zinc"
+    ],
+    "derived": [
+      "flavin-adenine-dinucleotide",
+      "flavin-mononucleotide",
+      "pyridoxal-5-phosphate",
+      "retinoic-acid"
+    ],
+    "proposed_only": [],
+    "brs6_targets": [
+      "dha-docosahexaenoic-acid",
+      "epa-eicosapentaenoic-acid",
+      "magnesium"
+    ],
+    "whole_network_brs_reach": 8,
+    "font_size": 22
+  },
+  {
+    "food": "oysters",
+    "label_count": 24,
+    "direct": [
+      "choline",
+      "copper",
+      "dha-docosahexaenoic-acid",
+      "epa-eicosapentaenoic-acid",
+      "iron",
+      "linoleic-acid",
+      "magnesium",
+      "manganese",
+      "phosphatidylcholine",
+      "potassium",
+      "selenium",
+      "sodium",
+      "vitamin-a",
+      "vitamin-b12",
+      "vitamin-b2",
+      "vitamin-b5",
+      "vitamin-b6",
+      "vitamin-b9",
+      "vitamin-e",
+      "zinc"
+    ],
+    "derived": [
+      "flavin-adenine-dinucleotide",
+      "flavin-mononucleotide",
+      "pyridoxal-5-phosphate",
+      "retinoic-acid"
+    ],
+    "proposed_only": [],
+    "brs6_targets": [
+      "dha-docosahexaenoic-acid",
+      "epa-eicosapentaenoic-acid",
+      "magnesium"
+    ],
+    "whole_network_brs_reach": 8,
+    "font_size": 22
+  },
+  {
+    "food": "broccoli-sprouts",
+    "label_count": 9,
+    "direct": [
+      "iron",
+      "magnesium",
+      "potassium",
+      "sulforaphane",
+      "vitamin-b6",
+      "vitamin-b9",
+      "vitamin-c",
+      "zinc"
+    ],
+    "derived": [
+      "pyridoxal-5-phosphate"
+    ],
+    "proposed_only": [],
+    "brs6_targets": [
+      "magnesium"
+    ],
+    "whole_network_brs_reach": 8,
+    "font_size": 22
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "url": "https://thebraindiet.org/explore/food-wheel/",
+  "exact_snapshot_match": true,
+  "foods": 64,
+  "connections": 586,
+  "targets": 119,
+  "salmon_roe_dha_epa_first": true,
+  "regressions": [
+    {
+      "path": "/docs/foods/salmon-roe/",
+      "visible_text_equal": true,
+      "links_equal": true
+    },
+    {
+      "path": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation/",
+      "visible_text_equal": true,
+      "links_equal": true
+    },
+    {
+      "path": "/docs/recipes/snacks/neuroeshot-roe/",
+      "visible_text_equal": true,
+      "links_equal": true
+    },
+    {
+      "path": "/docs/substances/nutrients/micronutrients/vitamins/vitamin-b6/",
+      "visible_text_equal": true,
+      "links_equal": true
+    }
+  ]
+}

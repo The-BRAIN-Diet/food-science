@@ -1,0 +1,14 @@
++ codex/brs4-pm4-pm5-reassessment                     a850e101 (/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brs4-pm4-pm5-reassessment) [github/codex/brs4-pm4-pm5-reassessment] Reassess BRS4 PM4 and PM5 with scoped dietary evidence and SEC audits
++ codex/brs5-kc2-focused-reassessment                 1884c7ae (/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brs5-kc2-focused-reassessment) Add reviewed Dietary Confidence pilot and PM1 tight-junction hypothesis
+  codex/brs5-scfa-controlled-test                     110a26bc [origin/codex/brs5-scfa-controlled-test] Reconcile PM5 substrate evidence and controlled food-target export
++ codex/brs6-fm4-endocrine-review                     297b88fc (/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brs6-fm4-github-review) [github/codex/brs6-fm4-endocrine-review] Reconstruct BRS6 FM4 adipose endocrine and stress appetite mechanisms
++ codex/deferred-stage2ab-enrichment                  d3570391 (/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/deferred-stage2ab) Enrich deferred PMs and reconcile BRS4 dietary records
+  codex/dietary-confidence-pilot                      767e15db [github/codex/dietary-confidence-pilot] build: bound production webpack module concurrency
++ codex/dietary-recovery-canonical-release-2026-10-27 11f4e450 (/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework) [github/codex/dietary-recovery-canonical-release-2026-10-27] Fix remaining SEC fixtures and PM1 SF7 mapping; align Netlify cache
+  codex/netlify-minifier-concurrency-2026-10-24       491036cd [github/codex/netlify-minifier-concurrency-2026-10-24] Limit Netlify JavaScript minification to one worker
+  codex/netlify-sec-baseline-2026-10-24               3c545de9 [github/codex/netlify-sec-baseline-2026-10-24] Configure and fetch the reviewed SEC baseline for Netlify builds
++ codex/rapid-stage2ab-manuscript                     110a26bc (/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/rapid-stage2ab) Reconcile PM5 substrate evidence and controlled food-target export
+  codex/release-reviewed-framework-2026-10-24         2cd72eba [github/codex/release-reviewed-framework-2026-10-24] Record combined release validation and refreshed dietary mapping outputs
++ release/food-wheel-2026-11-06                       40a94f2b (/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/food-wheel-publication) [github/main: behind 1] Publish reviewed BRAIN food substance chord wheel
+  review/brain-diet-v1-rollup                         0e779686 [github/review/brain-diet-v1-rollup] docs: complete quantitative food roll-up and reconcile PM coverage
+* review/brs5-pm4-sec-assessment                      521036b1 [github/review/brs5-pm4-sec-assessment] Release approved intervention appraisals, CoQ mechanism and canonical repairs

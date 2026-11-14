@@ -1,0 +1,22 @@
+{
+  "url": "https://thebraindiet.org/explore/food-wheel/",
+  "extracted_at_utc": "2026-11-06T12:06:58.756979+00:00",
+  "production_commit": "b4d8f127854ae165e2bcd675a3b475044d63b984",
+  "netlify_deploy_id": "6aedb434fa418ba844b6fd06",
+  "published_at": "2026-11-06T11:09:56.310Z",
+  "html_sha256": "004d97c68abb399177dbcfd42cc8f5adf4f3611b1350d0f066716c2707146c65",
+  "data_sha256": "76cf527c9454dff251b38d09a22801a23a7f4b4a8c152aaf4ad9db841e870a5e",
+  "embedded_scientific_source": {
+    "root": "scientific-source-snapshot",
+    "head": "521036b1d6c212e58c660f0f985e47617a71a716",
+    "branch": "review/brs5-pm4-sec-assessment",
+    "local_changes": true
+  },
+  "supplemental_source": {
+    "root": "supplemental-local-research-snapshot",
+    "head": "a00d6b0d6c879e75c058ccb2a5c63ae6562afd2c",
+    "branch": "main",
+    "local_changes": true
+  },
+  "build_version_note": "No semantic build version in page; production commit and Netlify deploy ID identify build."
+}

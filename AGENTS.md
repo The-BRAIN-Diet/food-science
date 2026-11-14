@@ -83,3 +83,11 @@ All the references in there are contained in the `static/bibtex/Brain-diet.bib` 
 ## Mandatory author approval for presentation changes
 
 Follow [system/presentation-change-control.md](system/presentation-change-control.md). Scientific data integration does not authorise public presentation. New substantive blocks require a proposal, representative rendered example, page-type/count scope, updated contract and explicit prior author approval. Run `npm run presentation:check`; never regenerate the baseline or invent an approval to bypass a failure. Both Dietary pathways technical panels are withdrawn across all page types; preserve their data without public projection. This rule supersedes earlier instructions permitting automatic pathway displays.
+
+## Food Wheel and Cursor handover — 6 November 2026
+
+Read [Food Wheel context](PROJECT-CONTEXT.md#food-wheel--published-snapshot-and-open-questions-6-november-2026) and [final reconciliation](review/final-git-reconciliation-2026-11-06/report.md) before changing the wheel or resuming its scientific dependencies. `PROJECT_CONTEXT.md` is a compatibility pointer to the existing hyphenated context document, not a second authority.
+
+The published wheel is a frozen research snapshot, not a live reflection of every checkout or a new dietary admission. Preserve quantified, presence-only, derived, contextual, candidate and proposed distinctions. Label counts are distinct target identities, not efficacy or nutrient density. System views currently follow all connected sources; do not silently replace this with a shortlist, dose threshold or admission-only filter. BRS6/Hormones refinements remain proposals pending approval.
+
+Cursor must inspect Git status in both its own checkout and the scientific worktree before integration. A clean remote branch does not include uncommitted scientific work. Do not reset, stash, overwrite approval files, regenerate SEC history or sweep generated builds/training/duplicate exports into commits. Reconcile distinct approval records and scientific history explicitly. Commit/push/merge remain subject to the current author instruction; this reconciliation authorises none.

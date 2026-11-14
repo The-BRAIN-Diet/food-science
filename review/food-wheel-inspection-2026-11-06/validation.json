@@ -1,0 +1,73 @@
+{
+  "counts": {
+    "before": {
+      "direct_substances": 49,
+      "quantified_substances": 32,
+      "direct_pairs": 2346
+    },
+    "after_proposals": {
+      "direct_substances": 54,
+      "quantified_substances": 39,
+      "direct_pairs": 2364
+    },
+    "displayed_foods": 90,
+    "food_substance_pairs": 1768,
+    "existing_pairs": 1750,
+    "proposed_only_pairs": 18,
+    "substance_brs_pairs": 121
+  },
+  "worked_counts_verified": true,
+  "browser_states": [
+    {
+      "name": "full-network",
+      "selected": "Explore the integrated wheel",
+      "food_ribbons": 1750,
+      "highlighted_foods": 90,
+      "header": "90 foods \u00b7 68 substances \u00b7 121 unchanged substance\u2013system connections"
+    },
+    {
+      "name": "brs6",
+      "selected": "BRS6",
+      "food_ribbons": 129,
+      "highlighted_foods": 80,
+      "header": "80 foods \u00b7 7 targets \u00b7 1 reachable systems \u2014 connectivity, not efficacy"
+    },
+    {
+      "name": "brs-x-hormones",
+      "selected": "BRS6",
+      "food_ribbons": 129,
+      "highlighted_foods": 80,
+      "header": "80 foods \u00b7 7 targets \u00b7 1 reachable systems \u2014 connectivity, not efficacy"
+    },
+    {
+      "name": "brs-x-hormones-keyboard",
+      "selected": "BRS-X/hormones",
+      "food_ribbons": 81,
+      "highlighted_foods": 81,
+      "header": "81 foods \u00b7 1 targets \u00b7 1 reachable systems \u2014 connectivity, not efficacy"
+    },
+    {
+      "name": "salmon-roe",
+      "selected": "Salmon Roe",
+      "food_ribbons": 24,
+      "highlighted_foods": 1,
+      "header": "1 foods \u00b7 24 targets \u00b7 8 reachable systems \u2014 connectivity, not efficacy"
+    },
+    {
+      "name": "beef",
+      "selected": "Beef",
+      "food_ribbons": 28,
+      "highlighted_foods": 1,
+      "header": "1 foods \u00b7 28 targets \u00b7 8 reachable systems \u2014 connectivity, not efficacy"
+    },
+    {
+      "name": "magnesium",
+      "selected": "Magnesium",
+      "food_ribbons": 78,
+      "highlighted_foods": 78,
+      "header": "78 foods \u00b7 1 targets \u00b7 6 reachable systems \u2014 connectivity, not efficacy"
+    }
+  ],
+  "all_browser_food_edges_exist_in_deployed_data": true,
+  "all_browser_selection_edge_sets_exactly_match_runtime_rules": true
+}

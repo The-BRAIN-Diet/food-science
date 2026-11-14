@@ -1,0 +1,54 @@
+diff --git a/AGENTS.md b/AGENTS.md
+index 9dbb296b..078420fb 100644
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -83,3 +83,11 @@ All the references in there are contained in the `static/bibtex/Brain-diet.bib`
+ ## Mandatory author approval for presentation changes
+ 
+ Follow [system/presentation-change-control.md](system/presentation-change-control.md). Scientific data integration does not authorise public presentation. New substantive blocks require a proposal, representative rendered example, page-type/count scope, updated contract and explicit prior author approval. Run `npm run presentation:check`; never regenerate the baseline or invent an approval to bypass a failure. Both Dietary pathways technical panels are withdrawn across all page types; preserve their data without public projection. This rule supersedes earlier instructions permitting automatic pathway displays.
++
++## Food Wheel and Cursor handover — 6 November 2026
++
++Read [Food Wheel context](PROJECT-CONTEXT.md#food-wheel--published-snapshot-and-open-questions-6-november-2026) and [final reconciliation](review/final-git-reconciliation-2026-11-06/report.md) before changing the wheel or resuming its scientific dependencies. `PROJECT_CONTEXT.md` is a compatibility pointer to the existing hyphenated context document, not a second authority.
++
++The published wheel is a frozen research snapshot, not a live reflection of every checkout or a new dietary admission. Preserve quantified, presence-only, derived, contextual, candidate and proposed distinctions. Label counts are distinct target identities, not efficacy or nutrient density. System views currently follow all connected sources; do not silently replace this with a shortlist, dose threshold or admission-only filter. BRS6/Hormones refinements remain proposals pending approval.
++
++Cursor must inspect Git status in both its own checkout and the scientific worktree before integration. A clean remote branch does not include uncommitted scientific work. Do not reset, stash, overwrite approval files, regenerate SEC history or sweep generated builds/training/duplicate exports into commits. Reconcile distinct approval records and scientific history explicitly. Commit/push/merge remain subject to the current author instruction; this reconciliation authorises none.
+diff --git a/PROJECT-CONTEXT.md b/PROJECT-CONTEXT.md
+index f05bf0c2..365ac2ef 100644
+--- a/PROJECT-CONTEXT.md
++++ b/PROJECT-CONTEXT.md
+@@ -49,3 +49,21 @@ Run checks appropriate to the change and record exact scope/results; a historica
+ ## Keeping this aid lightweight
+ 
+ Update this file only when stable architecture or an approved rule changes, linking its authority. Put queue positions, branch state, test results and unfinished work in CURRENT-HANDOFF. Neither file authorises commits, publication or scientific changes. Do not replace detailed manifests or duplicate governance here.
++
++## Food Wheel — published snapshot and open questions (6 November 2026)
++
++**Published and verified:** https://thebraindiet.org/explore/food-wheel/ . PR #234; release `40a94f2b61c2ed086d5244b5b15e0a170658ff60`; production merge `b4d8f127854ae165e2bcd675a3b475044d63b984`; Netlify deployment `6aedb434fa418ba844b6fd06`. Authority: [publication contract](system/food-wheel-presentation-contract.md) and exact-hash author approvals. Static assets live in `static/explore/food-wheel/`. This standalone display does not change canonical admissions.
++
++**Implemented methodology:** 90 foods, 68 displayed substances (76 inventory records including exclusions), 121 substance–system pairs. One canonical node per identity. Food labels count distinct existing food–substance targets, including qualified derived targets; duplicate PM mentions/citations do not inflate counts. Collective pools can coexist with constituents. There are 1,750 default food edges and 18 additional proposed-only edges; 21 proposal records include improvements to existing pairs. Proposed-only edges are off by default and never increase fixed label counts. Existing direct composition, derived provision and intervention claims remain separate; no downstream quantity or efficacy is inferred.
++
++Food labels use font sizes 16/18/20/22 SVG units for 1–2/3–4/5–7/8+ targets. Food position follows the circular centre of its documented target positions, equally weighted, with even spacing; not concentration or clinical importance. Colours retain BRS1–6 and BRS-X identities. All-connections and focused selection coexist. No further rings approved. Source shortlists are up to ten within compatible comparison groups, not an exhaustive global ranking. No arbitrary serving, mg/L-to-mass conversion or presence-to-quantity inference.
++
++**Verified diagnostic findings, not new science:** BRS6 reaches 80 foods: 78 magnesium sources plus cockles and trout roe through DHA/EPA. Seven targets create 129 food edges, not 129 foods. Other targets are resistant starch, arginine, butyrate and acetic acid. An admitted-only filter still reaches 80 through magnesium and DHA. Hormones reaches 81 foods solely through zinc/PM5 (80 quantified, cockles presence-only). Its aggregate Admitted edge contains both an admitted receptor-domain dependency and an unresolved candidate testosterone-response relationship. Never imply that all 81 foods modulate hormones or that additional zinc improves testosterone.
++
++**Proposals only:** default reviewed food shortlists with optional all-sources mode; clear system scope; claim-level statuses; system-specific counts; separate tested interventions from ordinary food composition. Existing shortlist unions are 28 BRS6 foods and 10 Hormones foods, not approved strongest-food rankings. Do not implement or publish these proposals without author agreement.
++
++**Outstanding research/QA:** review preparation/comparison groups and realistic servings before ranking; retain missing quantitative source evidence and 21 proposed backfills; investigate collapsed admission/status semantics; reconcile snapshot-local relationships against canonical records; inspect narrow BRS-X pointer targets (one Hormones click left BRS6 selected, keyboard worked). No new SEC appraisal authorised by this diagnosis. CoQ clinical bias/precision gaps and the dietary-provision gate remain separate scientific workstreams; inspect their local reports instead of assuming completion from publication of the wheel.
++
++**Cursor handover:** use [reconciliation report](review/final-git-reconciliation-2026-11-06/report.md) and its exact file inventory. Publication worktree, scientific worktree and Cursor checkout are distinct. Fetching main supplies the published wheel but not uncommitted CoQ, provenance-validation or intervention food/substance work. Preserve Cursor's separately pushed BRS-X PM branch; its new PMs are not part of this frozen wheel. Review and validate coherent scientific batches before requesting publication. Do not combine local training, build outputs or duplicate inspection folders with release changes.
++
++The earlier 64-PM orientation count is historical; the wheel snapshot records 65 PMs. Always resolve current canonical membership rather than editing identifiers or assuming the frozen diagram is current.
+diff --git a/project-knowledge/handoffs/food-wheel-publication-2026-11-06.md b/project-knowledge/handoffs/food-wheel-publication-2026-11-06.md
+index 9912a644..d3f3681e 100644
+--- a/project-knowledge/handoffs/food-wheel-publication-2026-11-06.md
++++ b/project-knowledge/handoffs/food-wheel-publication-2026-11-06.md
+@@ -3,3 +3,7 @@
+ Author approved publication on 6 November 2026 after local visual review. Branch `release/food-wheel-2026-11-06`, based on main a00d6b0d. Release scope and checks: [manifest](../../review/food-wheel-publication-2026-11-06/release.md).
+ 
+ Public route: `/explore/food-wheel/`. Static research snapshot, not new scientific admission. No canonical scientific files altered. Prior scientific checkout and localhost previews preserved. Build and external publication verification pending at this checkpoint.
++
++Publication checkpoint (local handoff update): PR #234 merged; release commit 40a94f2b61c2ed086d5244b5b15e0a170658ff60, merge b4d8f127854ae165e2bcd675a3b475044d63b984. Netlify preview 6aedb26224262f865d770dff passed in 7m15s. Exact embedded data match verified; Netlify pretty-URL transformation changes only the scope link. Production verification pending.
++
++Production verified 6 November 2026, 12:09 Paris: https://thebraindiet.org/explore/food-wheel/ . Netlify deploy 6aedb434fa418ba844b6fd06 ready, merge b4d8f127854ae165e2bcd675a3b475044d63b984. Live data/runtime exactly match release; browser confirms 90 foods, 1,750 default ribbons and Beef focus 28. Supporting SVG/evidence files HTTP 200. Post-release verification and live screenshot are local-only handoff artifacts; no further deployment triggered.

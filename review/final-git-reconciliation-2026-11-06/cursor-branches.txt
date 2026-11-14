@@ -1,0 +1,36 @@
+  PAUL3                                              4f427759 [origin/PAUL3] >
+  Paul-4                                             4c1f1bdf [origin/Paul-4: gone] Refactor substance navigation to enhance user experience
+  Paul10                                             28931e8c [origin/Paul10: gone] tighten dark chocolate context citations
+  add-flavin-mononucleotide-page                     ea2c25b8 [origin/add-flavin-mononucleotide-page] Add flavin mononucleotide substance page
+  brs-contextual-colours                             da80b936 [origin/brs-contextual-colours] Give each BRS and BRS-X network its own route-scoped interface accent.
+  brs-pm-short-headings                              8810d572 [origin/brs-pm-short-headings] Show short BRS numbers on primary-mechanism page headings.
+  brs-x-rationale-under-ambition                     7b90338c [origin/brs-x-rationale-under-ambition] Keep the circadian rationale to the two timing paragraphs.
+  butyrate-dietary-origin                            af3877dd [origin/butyrate-dietary-origin] Restore the published gut-barrier page so section 1.1.1 stays the live dietary-input implementation.
+  circadian-adhd-research-panel                      f9bfcede [origin/circadian-adhd-research-panel] Separate circadian timing from sleep and ADHD symptom endpoints.
+  circadian-rationale-two-paragraphs                 2e93d208 [origin/circadian-rationale-two-paragraphs] Keep the circadian rationale to the two timing paragraphs.
+  dietary-evidence-governance                        7c9f9f7f [origin/dietary-evidence-governance] Render PM body citations in square brackets
+  dopaminergic-pm-stage1                             c492b1b5 [origin/dopaminergic-pm-stage1] Record Stage 2 findings and dietary requirements across BRS mechanism pages.
+  food-substance-edges-and-phenylalanine             e5af7fdc [origin/food-substance-edges-and-phenylalanine] Merge remote-tracking branch 'origin/main' into food-substance-edges-and-phenylalanine
+  hotfix-pm-input-food-ssr                           02c2b420 [origin/main: behind 78] Server-render PM input food sources
+  kc-supply-reconciliation                           774c86aa [origin/kc-supply-reconciliation] Record supported upstream supply on the BRS1 and BRS2 mechanism pages.
+  main                                               a00d6b0d [origin/main: behind 2] Merge pull request #232 from The-BRAIN-Diet/review/brs5-pm4-sec-assessment
+  paul11                                             0d72ce7b [origin/paul11] Fix BRS1 PM redirect targets after serotonin renumber.
+  paul12                                             d90d7eea [origin/paul12] Improve Scientific Findings UX and align PM8 Finding titles with §4 dropdown style.
+  paul5                                              2004a09d [origin/paul5] Fix docs tag URLs and footer tag links
+  pm-lesson-breadcrumb-and-brs-x-headings            a2e4e714 [origin/pm-lesson-breadcrumb-and-brs-x-headings] Show PM numbers in navigation and add the GABA scientific lesson.
+  preview-dietary-requirements-demos                 1dde10ad [origin/preview-dietary-requirements-demos: ahead 1] Server-render PM input food sources
+  publish-brs-cross-framework-dietary-architecture   af4d3839 [origin/publish-brs-cross-framework-dietary-architecture] Publish a standalone BRS dietary-architecture report, unlinked from site navigation.
+  publish-brs1-substance-index                       7cc352cb [origin/publish-brs1-substance-index] Combine substance identity and accounting in review table
+  publish-stage2-hubs-and-substances                 1d16c9b6 [origin/publish-stage2-hubs-and-substances] Publish Stage 2 mechanism evidence, hub bibliographies, and the missing substance pages.
+  reconcile-stage2ab-bd-instructions                 7246043b [origin/reconcile-stage2ab-bd-instructions] Refine PM food source presentation
+  reconcile/implementation-on-production             6d139fab [origin/reconcile/implementation-on-production] Align the beetroot caption and pathway tests with the retained Zeisel and resistant-starch observations.
+  restore-circadian-adhd-table                       c18647f6 [origin/restore-circadian-adhd-table] Restore canonical circadian ADHD research table
+  restore-pm-lifestyle-levers                        7563a4f0 [origin/restore-pm-lifestyle-levers] Collapse the brain DHA replacement note into a dropdown.
+  review/brain-diet-v1-rollup                        f8cfcf30 Record the V1 food-target inventory against the published baseline.
+* review/brs-x-hormones-pm7-circadian-pm3-2026-11-06 54bb05bb [origin/review/brs-x-hormones-pm7-circadian-pm3-2026-11-06] Register circulating sex-hormone availability and melatonin biosynthesis as separate BRS-X mechanisms.
+  review/brs3-fm1-pm1-pilot                          48ee6a93 [origin/review/brs3-fm1-pm1-pilot] Align public canonical URLs with the trailing-slash pages Netlify serves, and record the BRS3 meal-comparison review.
+  rollout-brs1-6-dietary-food-mappings               96990ba6 [origin/rollout-brs1-6-dietary-food-mappings: gone] Raise Netlify Node heap limit for Docusaurus compilation
+  substance-az-and-composition                       63bf5ce5 [origin/substance-az-and-composition] Point the A–Z SCFAs link at its published slug.
+  unpublish-therapeutic-areas                        5515585a [origin/main: ahead 1, behind 136] Unpublish unfinished therapeutic-area pages from local and production builds.
+  vitamin-b3-advanced-nutrition                      5787f167 [origin/vitamin-b3-advanced-nutrition] Display verified nutrient forms in Advanced nutrition
+  vitamin-b3-form-identities                         3bf5baa2 [origin/vitamin-b3-form-identities: behind 2] Register vitamin B3 forms with shared documentation
