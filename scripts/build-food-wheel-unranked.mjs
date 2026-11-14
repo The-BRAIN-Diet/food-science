@@ -70,8 +70,8 @@ for(const foodId of genisteinFoods){
  const edge={edge_id:foodId+'|genistein|food-composition',food_id:foodId,substance_id:'genistein',pm_id:'Food composition',brs:'',status:'documented-unranked',layer:'Presence-only — quantity not established, not ranked',relationship_ids:[],limitations:['Documented food occurrence only. This does not admit genistein to a biological system or establish an effect.'],network:'approved',food_pair_id:foodId+'|genistein',delivery:'Documented food occurrence/provision; not intervention efficacy',sources:[source]};
  if(!data.documentedUnranked.some(e=>e.edge_id===edge.edge_id))data.documentedUnranked.push(edge);
 }
-// Brazil nuts record 1917 µg selenium per 100 g. The food is new, so it stays measured composition and is not inserted into the frozen ranked panel.
-{
+// Retain the measured-composition fallback only while no ranked selenium source exists.
+if (!ranked.some(edge => edge.food_id === 'brazil-nuts' && edge.substance_id === 'selenium')) {
  const page=matter(fs.readFileSync('docs/foods/brazil-nuts.md','utf8'));
  const value=page.data.nutrition_per_100g?.selenium_ug;
  if(value!==1917)throw Error('Brazil nut selenium value changed: '+value);

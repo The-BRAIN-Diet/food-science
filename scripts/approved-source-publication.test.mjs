@@ -20,3 +20,5 @@ test('chicken liver raw panel and pan-fried betaine remain separate; below-thres
  const betaine=food.nutrition_supplementary_sources.find(x=>x.substance_id==='betaine');assert.equal(betaine.value,21);assert.equal(betaine.unit,'mg');assert.equal(betaine.preparation_state,'pan-fried');assert.equal(betaine.exclude_from_recipe_sum,true);
  const targets=snapshot.targets.filter(t=>t.substance_id==='betaine');assert(targets.length);for(const target of targets){assert(!target.selected.some(r=>r.food_id==='chicken-liver'));assert(target.excluded.some(r=>r.food_id==='chicken-liver'&&/one-tenth/.test(r.reason)));}
 });
+
+test('ranked Brazil-nut selenium has no contradictory unranked fallback',()=>{const wheel=JSON.parse(fs.readFileSync('static/explore/food-wheel/display-network.json'));assert(wheel.canonicalNetworks.topFive.selections.some(e=>e.food_id==='brazil-nuts'&&e.substance_id==='selenium'));assert(!wheel.documentedUnranked.some(e=>e.edge_id==='brazil-nuts|selenium|food-composition'));});
