@@ -30,3 +30,5 @@ Author selected PM1 as the first complete-reference workstream, using PM8 tabs a
 - **Canonical scientific projections — 10 November 2026, local adoption:** [contract](../../system/canonical-scientific-projections.md) and [PM3 review](../../review/circadian-pm3-identity-review-2026-11-10/REPORT.md). One current mission in PM frontmatter; Melatonin PM3 visible Mission reads that field. Historical assessment and unresolved dietary admission retained. No commit, push or deployment.
 
 - **Chicken liver food page — 11 November 2026, local only:** [chicken-liver](../../docs/foods/chicken-liver.md) uses raw USDA SR Legacy FDC 171060. The existing liver page remains beef liver. Pan-fried betaine (NDB 05661) stays in the composition holding register. Other Nutritional Highlights states that the vitamin A is already retinol, with the adult preformed-vitamin-A upper level and UK liver-frequency guidance. No commit, push or deployment.
+
+- [Recovery and release action register — 14 November 2026](../../review/recovery-readiness-2026-11-14/ACTION-REGISTER.md): active technical, publication and deferred issues; preserves temporary QC suspension.

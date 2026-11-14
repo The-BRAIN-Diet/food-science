@@ -1,0 +1,325 @@
+TAP version 13
+# Subtest: network retains eight BRS5 PMs and all five qualified experimental relationships
+ok 1 - network retains eight BRS5 PMs and all five qualified experimental relationships # SKIP test name does not match pattern
+  ---
+  duration_ms: 5.265083
+  ...
+# Subtest: ranked observations are preserved without new selection
+ok 2 - ranked observations are preserved without new selection # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.179583
+  ...
+# Subtest: unranked records retain provenance; children inherit no food edges
+ok 3 - unranked records retain provenance; children inherit no food edges # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.126666
+  ...
+# Subtest: PM4 uses PM dropdown sources: asparagus/inulin and peas/arabinan; restrictions remain
+ok 4 - PM4 uses PM dropdown sources: asparagus/inulin and peas/arabinan; restrictions remain # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.104
+  ...
+# Subtest: all nine systems expose the 67 current canonical PMs without altering BRS5 foods
+not ok 5 - all nine systems expose the 67 current canonical PMs without altering BRS5 foods
+  ---
+  duration_ms: 268.605375
+  location: 'file:///Users/paulhouston/Food%20Science/food-science/scripts/compact-pm-explorer.test.mjs:8:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected ... Lines skipped
+    
+      [
+    +   '["BRS5-FM1-PM1","vitamin-a","carrots",3,16.80756843800322]',
+    +   '["BRS5-FM1-PM1","vitamin-a","dandelion-greens",6,10.225442834138486]',
+    +   '["BRS5-FM1-PM1","vitamin-a","ghee",2,16.908212560386474]',
+    +   '["BRS5-FM1-PM1","vitamin-a","liver",1,100]',
+    +   '["BRS5-FM1-PM1","vitamin-a","sweet-potatoes",4,14.271336553945249]',
+    +   '["BRS5-FM1-PM1","vitamin-a","tuna",5,13.18438003220612]',
+    +   '["BRS5-FM1-PM1","zinc","cashews",6,14.707379134860052]',
+    +   '["BRS5-FM1-PM1","zinc","cocoa",4,17.32824427480916]',
+    +   '["BRS5-FM1-PM1","zinc","lupins",9,12.086513994910943]',
+    +   '["BRS5-FM1-PM1","zinc","oysters",1,100]',
+    +   '["BRS5-FM1-PM1","zinc","pumpkin-seeds",2,19.872773536895675]',
+    +   '["BRS5-FM1-PM1","zinc","sesame-seeds",3,19.720101781170484]',
+    +   '["BRS5-FM1-PM1","zinc","soy",8,12.442748091603054]',
+    +   '["BRS5-FM1-PM1","zinc","sunflower-seeds",7,12.72264631043257]',
+    +   '["BRS5-FM1-PM1","zinc","tahini",10,11.755725190839696]',
+    +   '["BRS5-FM1-PM1","zinc","thyme",5,15.725190839694658]',
+    +   '["BRS5-FM3-PM7","linoleic-acid","avocado-oil",8,31.183116818475938]',
+    +   '["BRS5-FM3-PM7","linoleic-acid","cashews",10,19.366880692847545]',
+    +   '["BRS5-FM3-PM7","linoleic-acid","peanuts",6,38.711363296998655]',
+    +   '["BRS5-FM3-PM7","linoleic-acid","pistachios",7,35.06794086904584]',
+    +   '["BRS5-FM3-PM7","linoleic-acid","pumpkin-seeds",5,51.433477676571606]',
+    +   '["BRS5-FM3-PM7","linoleic-acid","sesame-seeds",4,53.19546065402419]',
+    +   '["BRS5-FM3-PM7","linoleic-acid","soy",9,24.700114479120003]',
+    +   '["BRS5-FM3-PM7","linoleic-acid","soy-lecithin",1,100]',
+    +   '["BRS5-FM3-PM7","linoleic-acid","sunflower-seeds",3,57.36399382808223]',
+    ...
+    -   '["BRS5-FM1-PM1","vitamin-a","butter",6,13.768115942028986]',
+    -   '["BRS5-FM1-PM1","vitamin-a","carrots",4,16.80756843800322]',
+    -   '["BRS5-FM1-PM1","vitamin-a","chicken-liver",2,66.34460547504027]',
+    -   '["BRS5-FM1-PM1","vitamin-a","dandelion-greens",8,10.225442834138486]',
+    -   '["BRS5-FM1-PM1","vitamin-a","ghee",3,16.908212560386474]',
+    -   '["BRS5-FM1-PM1","vitamin-a","liver",1,100]',
+    -   '["BRS5-FM1-PM1","vitamin-a","sweet-potatoes",5,14.271336553945249]',
+    -   '["BRS5-FM1-PM1","vitamin-a","tuna",7,13.18438003220612]',
+    -   '["BRS5-FM1-PM1","zinc","cashews",7,14.707379134860052]',
+    -   '["BRS5-FM1-PM1","zinc","cocoa",5,17.32824427480916]',
+    -   '["BRS5-FM1-PM1","zinc","lupins",10,12.086513994910943]',
+    -   '["BRS5-FM1-PM1","zinc","oysters",1,100]',
+    -   '["BRS5-FM1-PM1","zinc","pumpkin-seeds",3,19.872773536895675]',
+    -   '["BRS5-FM1-PM1","zinc","sesame-seeds",4,19.720101781170484]',
+    -   '["BRS5-FM1-PM1","zinc","soy",9,12.442748091603054]',
+    -   '["BRS5-FM1-PM1","zinc","sunflower-seeds",8,12.72264631043257]',
+    -   '["BRS5-FM1-PM1","zinc","thyme",6,15.725190839694658]',
+    -   '["BRS5-FM1-PM1","zinc","wheat-germ",2,31.272264631043257]',
+    -   '["BRS5-FM3-PM7","linoleic-acid","almonds",9,32.34190008663009]',
+    -   '["BRS5-FM3-PM7","linoleic-acid","avocado-oil",8,32.89318247447037]',
+    -   '["BRS5-FM3-PM7","linoleic-acid","peanuts",6,40.8342740135983]',
+    -   '["BRS5-FM3-PM7","linoleic-acid","pistachios",7,36.991048224083166]',
+    -   '["BRS5-FM3-PM7","linoleic-acid","pumpkin-seeds",5,54.254062426167536]',
+    -   '["BRS5-FM3-PM7","linoleic-acid","sesame-seeds",4,56.11267161945764]',
+    -   '["BRS5-FM3-PM7","linoleic-acid","soy",10,26.054655711023024]',
+    ...
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: '["BRS5-FM1-PM1","vitamin-a","butter",6,13.768115942028986]'
+    1: '["BRS5-FM1-PM1","vitamin-a","carrots",4,16.80756843800322]'
+    2: '["BRS5-FM1-PM1","vitamin-a","chicken-liver",2,66.34460547504027]'
+    3: '["BRS5-FM1-PM1","vitamin-a","dandelion-greens",8,10.225442834138486]'
+    4: '["BRS5-FM1-PM1","vitamin-a","ghee",3,16.908212560386474]'
+    5: '["BRS5-FM1-PM1","vitamin-a","liver",1,100]'
+    6: '["BRS5-FM1-PM1","vitamin-a","sweet-potatoes",5,14.271336553945249]'
+    7: '["BRS5-FM1-PM1","vitamin-a","tuna",7,13.18438003220612]'
+    8: '["BRS5-FM1-PM1","zinc","cashews",7,14.707379134860052]'
+    9: '["BRS5-FM1-PM1","zinc","cocoa",5,17.32824427480916]'
+    10: '["BRS5-FM1-PM1","zinc","lupins",10,12.086513994910943]'
+    11: '["BRS5-FM1-PM1","zinc","oysters",1,100]'
+    12: '["BRS5-FM1-PM1","zinc","pumpkin-seeds",3,19.872773536895675]'
+    13: '["BRS5-FM1-PM1","zinc","sesame-seeds",4,19.720101781170484]'
+    14: '["BRS5-FM1-PM1","zinc","soy",9,12.442748091603054]'
+    15: '["BRS5-FM1-PM1","zinc","sunflower-seeds",8,12.72264631043257]'
+    16: '["BRS5-FM1-PM1","zinc","thyme",6,15.725190839694658]'
+    17: '["BRS5-FM1-PM1","zinc","wheat-germ",2,31.272264631043257]'
+    18: '["BRS5-FM3-PM7","linoleic-acid","almonds",9,32.34190008663009]'
+    19: '["BRS5-FM3-PM7","linoleic-acid","avocado-oil",8,32.89318247447037]'
+    20: '["BRS5-FM3-PM7","linoleic-acid","peanuts",6,40.8342740135983]'
+    21: '["BRS5-FM3-PM7","linoleic-acid","pistachios",7,36.991048224083166]'
+    22: '["BRS5-FM3-PM7","linoleic-acid","pumpkin-seeds",5,54.254062426167536]'
+    23: '["BRS5-FM3-PM7","linoleic-acid","sesame-seeds",4,56.11267161945764]'
+    24: '["BRS5-FM3-PM7","linoleic-acid","soy",10,26.054655711023024]'
+    25: '["BRS5-FM3-PM7","linoleic-acid","sunflower-seeds",3,60.50980495104087]'
+    26: '["BRS5-FM3-PM7","linoleic-acid","tahini",2,60.72769275194918]'
+    27: '["BRS5-FM3-PM7","linoleic-acid","walnuts",1,100]'
+    28: '["BRS5-FM3-PM8","tryptophan","cheddar-cheese",3,92.55499153976311]'
+    29: '["BRS5-FM3-PM8","tryptophan","chicken",4,61.25211505922166]'
+    30: '["BRS5-FM3-PM8","tryptophan","mussels",8,45.17766497461929]'
+    31: '["BRS5-FM3-PM8","tryptophan","pumpkin-seeds",2,97.46192893401016]'
+    32: '["BRS5-FM3-PM8","tryptophan","salmon",9,41.96277495769882]'
+    33: '["BRS5-FM3-PM8","tryptophan","sardines",7,46.7005076142132]'
+    34: '["BRS5-FM3-PM8","tryptophan","soy",1,100]'
+    35: '["BRS5-FM3-PM8","tryptophan","sunflower-seeds",5,58.88324873096447]'
+    36: '["BRS5-FM3-PM8","tryptophan","tofu",10,39.76311336717428]'
+    37: '["BRS5-FM3-PM8","tryptophan","turkey",6,48.56175972927242]'
+  actual:
+    0: '["BRS5-FM1-PM1","vitamin-a","carrots",3,16.80756843800322]'
+    1: '["BRS5-FM1-PM1","vitamin-a","dandelion-greens",6,10.225442834138486]'
+    2: '["BRS5-FM1-PM1","vitamin-a","ghee",2,16.908212560386474]'
+    3: '["BRS5-FM1-PM1","vitamin-a","liver",1,100]'
+    4: '["BRS5-FM1-PM1","vitamin-a","sweet-potatoes",4,14.271336553945249]'
+    5: '["BRS5-FM1-PM1","vitamin-a","tuna",5,13.18438003220612]'
+    6: '["BRS5-FM1-PM1","zinc","cashews",6,14.707379134860052]'
+    7: '["BRS5-FM1-PM1","zinc","cocoa",4,17.32824427480916]'
+    8: '["BRS5-FM1-PM1","zinc","lupins",9,12.086513994910943]'
+    9: '["BRS5-FM1-PM1","zinc","oysters",1,100]'
+    10: '["BRS5-FM1-PM1","zinc","pumpkin-seeds",2,19.872773536895675]'
+    11: '["BRS5-FM1-PM1","zinc","sesame-seeds",3,19.720101781170484]'
+    12: '["BRS5-FM1-PM1","zinc","soy",8,12.442748091603054]'
+    13: '["BRS5-FM1-PM1","zinc","sunflower-seeds",7,12.72264631043257]'
+    14: '["BRS5-FM1-PM1","zinc","tahini",10,11.755725190839696]'
+    15: '["BRS5-FM1-PM1","zinc","thyme",5,15.725190839694658]'
+    16: '["BRS5-FM3-PM7","linoleic-acid","avocado-oil",8,31.183116818475938]'
+    17: '["BRS5-FM3-PM7","linoleic-acid","cashews",10,19.366880692847545]'
+    18: '["BRS5-FM3-PM7","linoleic-acid","peanuts",6,38.711363296998655]'
+    19: '["BRS5-FM3-PM7","linoleic-acid","pistachios",7,35.06794086904584]'
+    20: '["BRS5-FM3-PM7","linoleic-acid","pumpkin-seeds",5,51.433477676571606]'
+    21: '["BRS5-FM3-PM7","linoleic-acid","sesame-seeds",4,53.19546065402419]'
+    22: '["BRS5-FM3-PM7","linoleic-acid","soy",9,24.700114479120003]'
+    23: '["BRS5-FM3-PM7","linoleic-acid","soy-lecithin",1,100]'
+    24: '["BRS5-FM3-PM7","linoleic-acid","sunflower-seeds",3,57.36399382808223]'
+    25: '["BRS5-FM3-PM7","linoleic-acid","tahini",2,57.57055397939376]'
+    26: '["BRS5-FM3-PM8","tryptophan","cheddar-cheese",3,92.55499153976311]'
+    27: '["BRS5-FM3-PM8","tryptophan","chicken",4,61.25211505922166]'
+    28: '["BRS5-FM3-PM8","tryptophan","mussels",8,45.17766497461929]'
+    29: '["BRS5-FM3-PM8","tryptophan","pumpkin-seeds",2,97.46192893401016]'
+    30: '["BRS5-FM3-PM8","tryptophan","salmon",9,41.96277495769882]'
+    31: '["BRS5-FM3-PM8","tryptophan","sardines",7,46.7005076142132]'
+    32: '["BRS5-FM3-PM8","tryptophan","soy",1,100]'
+    33: '["BRS5-FM3-PM8","tryptophan","sunflower-seeds",5,58.88324873096447]'
+    34: '["BRS5-FM3-PM8","tryptophan","tofu",10,39.76311336717428]'
+    35: '["BRS5-FM3-PM8","tryptophan","turkey",6,48.56175972927242]'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/paulhouston/Food%20Science/food-science/scripts/compact-pm-explorer.test.mjs:19:9)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: food presentation is plant-first then animal, retaining descending ranked values
+ok 6 - food presentation is plant-first then animal, retaining descending ranked values # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.2415
+  ...
+# Subtest: lamb creatine is grouped as animal in the shared helper and Explorer
+ok 7 - lamb creatine is grouped as animal in the shared helper and Explorer # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.104666
+  ...
+# Subtest: PC restores exactly six evidence-qualified occurrences without ranks or quantities
+ok 8 - PC restores exactly six evidence-qualified occurrences without ranks or quantities # SKIP test name does not match pattern
+  ---
+  duration_ms: 2.479625
+  ...
+# Subtest: uridine retains free-form distinction, delivery limits and original reference
+ok 9 - uridine retains free-form distinction, delivery limits and original reference # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.148708
+  ...
+# Subtest: qualitative choline coexists with eight unchanged ranked sources
+ok 10 - qualitative choline coexists with eight unchanged ranked sources # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.12075
+  ...
+# Subtest: methionine retains ten; approved local betaine ranks coexist with qualitative shrimp
+not ok 11 - methionine retains ten; approved local betaine ranks coexist with qualitative shrimp
+  ---
+  duration_ms: 7.495375
+  location: 'file:///Users/paulhouston/Food%20Science/food-science/scripts/pm-documented-food-sources.test.mjs:24:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+    + []
+    - [
+    -   'shrimp'
+    - ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'shrimp'
+  actual:
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/paulhouston/Food%20Science/food-science/scripts/pm-documented-food-sources.test.mjs:24:338)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: no biochemical participant or unadmitted route creates qualitative food admission
+ok 12 - no biochemical participant or unadmitted route creates qualitative food admission # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.164375
+  ...
+# Subtest: blocked targets, internal-only duplicate records, quantities and unsupported assertions remain excluded
+ok 13 - blocked targets, internal-only duplicate records, quantities and unsupported assertions remain excluded # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.096625
+  ...
+# Subtest: identity-based grouping ignores misleading analytical prose
+ok 14 - identity-based grouping ignores misleading analytical prose # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.094458
+  ...
+# Subtest: deduplication retains provenance and excludes ranked food pairs
+ok 15 - deduplication retains provenance and excludes ranked food pairs # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.09375
+  ...
+# Subtest: all scopes keep qualitative connections separate from ranked snapshot without mutation
+not ok 16 - all scopes keep qualitative connections separate from ranked snapshot without mutation
+  ---
+  duration_ms: 709.97875
+  location: 'file:///Users/paulhouston/Food%20Science/food-science/scripts/pm-documented-food-sources.test.mjs:29:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    206 !== 204
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 204
+  actual: 206
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/paulhouston/Food%20Science/food-science/scripts/pm-documented-food-sources.test.mjs:43:55)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: preparation-dependent sulforaphane renders its qualified label
+ok 17 - preparation-dependent sulforaphane renders its qualified label # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.409458
+  ...
+# Subtest: refreshed PM dropdowns recover four exact sources with provenance and preparation
+not ok 18 - refreshed PM dropdowns recover four exact sources with provenance and preparation
+  ---
+  duration_ms: 74.522417
+  location: 'file:///Users/paulhouston/Food%20Science/food-science/scripts/pm-documented-food-sources.test.mjs:48:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+        'apples',
+    +   'lemon',
+    +   'oranges',
+    +   'pears'
+      ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'apples'
+  actual:
+    0: 'apples'
+    1: 'lemon'
+    2: 'oranges'
+    3: 'pears'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/paulhouston/Food%20Science/food-science/scripts/pm-documented-food-sources.test.mjs:51:260)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: measured unranked renderer retains bases, calculation, variability and holds
+ok 19 - measured unranked renderer retains bases, calculation, variability and holds # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.142875
+  ...
+1..19
+# tests 19
+# suites 0
+# pass 0
+# fail 4
+# cancelled 0
+# skipped 15
+# todo 0
+# duration_ms 2666.020125
