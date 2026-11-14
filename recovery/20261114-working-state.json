@@ -1,0 +1,90 @@
+{
+  "source_path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/recipe-matrix-preview",
+  "source_head": "ac5ffca6629550b850998b38b676142182e92b43",
+  "source_branch": "release/recipe-matrix-preview-2026-11-09",
+  "purpose": "Backup only. Not a release candidate. No regeneration or scientific approval inferred.",
+  "files": [
+    {
+      "path": "review/connection-focus-2026-11-09/GAP-LEDGER.md",
+      "bytes": 5874,
+      "sha256": "f18e828068c4ad4f51eb4ac08d6c07e93b255f92ad1166798bde4786faf55f7a"
+    },
+    {
+      "path": "review/connection-focus-2026-11-09/MULTI-TARGET-FOODS.md",
+      "bytes": 1030,
+      "sha256": "5127e903afdccfdc904b2cfe7a23b17946bc1e20a24e0ade6bc1e976222a5a09"
+    },
+    {
+      "path": "review/connection-focus-2026-11-09/TOP-FOODS.md",
+      "bytes": 82168,
+      "sha256": "0af35834477f534e766b6d8c3639f64c6acd128e698924d986fc59a69055f8d2"
+    },
+    {
+      "path": "review/connection-focus-2026-11-09/about.html",
+      "bytes": 2789,
+      "sha256": "4e126f362357f66cdd62214c2bd9c58d6e539df8f12cad8bad22e13a602849d4"
+    },
+    {
+      "path": "review/connection-focus-2026-11-09/brs1-1_5x.png",
+      "bytes": 129069,
+      "sha256": "0be94154b9c8c01a6ca22e19760cf7c06814a1bceb56859c028de0639fadb06f"
+    },
+    {
+      "path": "review/connection-focus-2026-11-09/brs1-2x.png",
+      "bytes": 130831,
+      "sha256": "4b9b1943e8b6d000b08d4c2b647a73177762c85ff96d02c47cc620d55ca54972"
+    },
+    {
+      "path": "review/connection-focus-2026-11-09/focus.js",
+      "bytes": 1819,
+      "sha256": "d701f463f112dab34b731dbff8a03435a478ce0bfe000ab51a4e8aa8e909c476"
+    },
+    {
+      "path": "review/connection-focus-2026-11-09/index.md",
+      "bytes": 2718,
+      "sha256": "ccdc30be60e2f6933fdee59c295540d2b168fc114b39e48843592505520fd7ec"
+    },
+    {
+      "path": "review/connection-focus-2026-11-09/network.json",
+      "bytes": 326597,
+      "sha256": "c0303d769db299b8fa3597f756dfab1362e9283aa98b34ffac5736418031ba53"
+    },
+    {
+      "path": "review/connection-focus-2026-11-09/recipe-2x.png",
+      "bytes": 235818,
+      "sha256": "a2563d86c5fdf3bd8d5fd911c52a64cd9cb909b13d0769bf27d99a0a3bc6a38c"
+    },
+    {
+      "path": "review/connection-focus-2026-11-09/recipe.html",
+      "bytes": 279560,
+      "sha256": "0bf77909bd4eda2eb702f17d44608fe1b26c9de2d56b86d25013209c1be4dc90"
+    },
+    {
+      "path": "review/connection-focus-2026-11-09/roe-2x.png",
+      "bytes": 113418,
+      "sha256": "3f2f1df7014e877f23b8842e7eeadb825866e131344034ea159f104585edfc9e"
+    },
+    {
+      "path": "review/connection-focus-2026-11-09/roe-brighter.png",
+      "bytes": 73505,
+      "sha256": "a0bd828ebe05ae9178408d1493e4e1898f208af1a14a942a5ada3641d66bcddd"
+    },
+    {
+      "path": "review/connection-focus-2026-11-09/test.mjs",
+      "bytes": 1241,
+      "sha256": "fb0c9fb574ec5a25fe8f456d5fc1266a10bf7d53bb669ed0d0e862d79ee13712"
+    },
+    {
+      "path": "review/connection-focus-2026-11-09/wheel.html",
+      "bytes": 3192596,
+      "sha256": "076e2ba97ae0ad503875be9be3a4c1704c64e8eef842b6db10f50e07c8d8ff82"
+    }
+  ],
+  "excluded": [
+    [
+      "review/connection-focus-2026-11-09/build.mjs",
+      "regenerable build/cache"
+    ]
+  ],
+  "lossless_compressed": []
+}
