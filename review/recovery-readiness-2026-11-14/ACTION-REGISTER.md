@@ -132,3 +132,7 @@ See [five-check reconciliation](integration/five-check-reconciliation.md) for th
 ### Technical recovery checkpoint — historical/current contracts and ECS PM3
 
 [Scoped repair report and exact verification](integration/technical-contract-repair/README.md). Current candidate26/26; explicit historical reproduction0/1 against current sources (pins preserved); public QC9/10 with missing-input failure retained; related Findings31/35 with identical four baseline failures; global Findings checker67/67. ECS PM3 deterministic canonical link now matches the existing page exactly. Manifest/ranked observations/ranks/RSP unchanged (984/79/112-of-158), no runtime dataset or generated metadata difference. No Netlify build needed. Recovery checkpoint only—not global QC PASS, freeze or release-ready. QC remains suspended; archived inputs remain inactive. Previous investigation entries above remain historical evidence; this entry supersedes their unresolved technical-contract/ECS-link statuses only.
+
+### Four Findings fixtures — local follow-up
+
+[Exact dispositions and provenance](integration/findings-contract-reconciliation/README.md): all four remaining Findings failures reconciled against approved1841/schema contracts. Two test files only; no scientific/runtime changes. Findings35/35, isolation26/26, global Findings67/67. Approved manifest/ranked data unchanged. Public-QC missing-input limitation and suspension remain; no global clearance or freeze. Local work, not yet committed/pushed.
