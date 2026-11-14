@@ -136,3 +136,7 @@ See [five-check reconciliation](integration/five-check-reconciliation.md) for th
 ### Four Findings fixtures — local follow-up
 
 [Exact dispositions and provenance](integration/findings-contract-reconciliation/README.md): all four remaining Findings failures reconciled against approved1841/schema contracts. Two test files only; no scientific/runtime changes. Findings35/35, isolation26/26, global Findings67/67. Approved manifest/ranked data unchanged. Public-QC missing-input limitation and suspension remain; no global clearance or freeze. Local work, not yet committed/pushed.
+
+### Fresh complete build and Netlify verification
+
+[Authoritative fresh-build evidence](integration/fresh-build/README.md): tested runtime`7c5743f817943ada3e7e749ef103d6d2f4061488`; Netlify deploy`6af8b9463f27637b149b3eb9` ready on that exact SHA. Local standard build passes with all configured preview settings.64current tests pass; global Findings67/67; original historical reproduction and unresolved public-QC expectation reported separately. Four older Findings failures now repaired against approvals. All three deployed datasets equal candidate/build bytes; nine disclosures expanded; desktop/mobile and same-origin links checked.984/79/112-of-158 unchanged. Conditional merge readiness only: public-QC missing-input limitation still requires acknowledged disposition; QC suspended. Main is the production branch, so merging is expected to auto-deploy. No merge/production/freeze. Later evidence-only commit is distinct from this tested runtime.

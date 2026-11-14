@@ -1,0 +1,22 @@
+{
+  "runtime": "7c5743f817943ada3e7e749ef103d6d2f4061488",
+  "desktop": [
+    "Wheel single salmon-roe selection",
+    "Multiple/Compare cocoa and pumpkin seeds, BRS off retains food connections",
+    "PM Explorer food-to-DHA/PM navigation",
+    "PM canonical documentation stays on preview origin",
+    "Food Intelligence 50% filter",
+    "All nine hypothesis disclosures expanded after hydration"
+  ],
+  "mobile_viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "mobile": [
+    "Wheel Combined/50% controls",
+    "PM Explorer food source stage, plant/animal labels",
+    "Food Intelligence BRS5/supporting association filter, horizontal swipe guidance"
+  ],
+  "errors": "No observed functional blocker; Netlify overlay and intentional horizontal diagram scrolling remain",
+  "viewport_reset": true
+}

@@ -52,3 +52,5 @@ Verified recovery preview: runtime6f7dc761e2548607c28d4bd1cccb937326eb6daf; nine
 Validation follow-up: historical hashes explained; ignored QC inputs recovered as evidence only; ECS PM3 hyperlink/projection mismatch isolated.34/36 checks pass with two assertions retained failing. See the authoritative action register above; QC remains suspended and no freeze is declared.
 
 Technical recovery checkpoint: current provenance/hypothesis contracts26/26 and global Findings67/67 pass; historical pins retained separately, public-QC missing-input expectation still unresolved. No runtime-output change or rebuild. See the authoritative action register; no global QC PASS or freeze.
+
+Fresh complete build/preview verified at runtime`7c5743f817943ada3e7e749ef103d6d2f4061488` (Netlify`6af8b9463f27637b149b3eb9`):64current tests and67-PM Findings checker pass; datasets/nine disclosures verified. See action register for conditional merge readiness and unresolved public-QC limitation. Later evidence-only commits are not the tested runtime; no merge/production/freeze authorised.
