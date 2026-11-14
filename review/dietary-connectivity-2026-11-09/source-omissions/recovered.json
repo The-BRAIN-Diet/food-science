@@ -1,0 +1,26 @@
+[
+  {
+    "pm": "BRS3-FM2-PM3",
+    "substance": "sulforaphane",
+    "food": "broccoli",
+    "preparation": "Sous vide at 100 °C for 20 minutes, with and without 1 g brown mustard powder"
+  },
+  {
+    "pm": "BRS3-FM2-PM3",
+    "substance": "sulforaphane",
+    "food": "broccoli-sprouts",
+    "preparation": "raw"
+  },
+  {
+    "pm": "BRS5-FM1-PM1",
+    "substance": "pectin",
+    "food": "apples",
+    "preparation": "raw"
+  },
+  {
+    "pm": "BRS5-FM2-PM5",
+    "substance": "pectin",
+    "food": "apples",
+    "preparation": "raw"
+  }
+]

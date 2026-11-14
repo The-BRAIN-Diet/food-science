@@ -1,0 +1,529 @@
+{
+  "ids": [
+    "BRS2-FM1-PM1::PM1-DIT-2",
+    "BRS2-FM1-PM1::PM1-DIT-4",
+    "BRS4-FM1-PM1::PM1-DIT-3"
+  ],
+  "proposal_sha256": "9afc5b24766b997e4d75d379a05723647de91da0da9e9698ef4d4cc46a16a74a",
+  "records": [
+    {
+      "relationship_id": "BRS2-FM1-PM1::PM1-DIT-2",
+      "pm": "BRS2-FM1-PM1",
+      "source_file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+      "source_sha256": "afeea6ae0840eedc688fa9d2d55d85c260a464bc98b1bc31d7f8e6429809674c",
+      "priority_group": 1,
+      "proposal_status": "awaiting-author-approval",
+      "decision_required": "Approve metadata reconciliation; distinguish folic acid from reduced food folates and preserve circulating homocysteine versus tissue-flux boundary. Approve the existing display name as an exact alias for vitamin-b9; current registry label validation does not accept the parenthetical name.",
+      "original_atom": {
+        "atom_id": "PM1-DIT-2",
+        "dietary_input": true,
+        "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "input": "Vitamin B9 (folate)",
+        "input_type": "substrate provision",
+        "biological_role": "Dietary folate, including folic acid reduced by dihydrofolate reductase, is converted through the folate cycle to 5-methyltetrahydrofolate, the methyl donor used by methionine synthase.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM1-F1"
+          ],
+          "citation_keys": [
+            "froese_vitamin_2019"
+          ]
+        },
+        "evidence_limitation": "This conversion pathway does not show that increasing folate intake increases tissue remethylation flux. Folic acid lowers blood homocysteine, which is a circulating marker.",
+        "substance_id": "vitamin-b9",
+        "kc_id": "BRS2(KC1)",
+        "ikc_id": "BRS2-KC1-KIT-1",
+        "relationship_type": "supported-upstream-supply",
+        "canonical_identity": {
+          "status": "resolved",
+          "substance_id": "vitamin-b9",
+          "substance_href": "/docs/substances/nutrients/micronutrients/vitamins/vitamin-b9",
+          "verified_against": [
+            "registry/substances.json",
+            "docs/substances/nutrients/micronutrients/vitamins/vitamin-b9.md"
+          ]
+        }
+      },
+      "original_overlay": {
+        "atom_id": "PM1-DIT-2",
+        "requirement_classification": "derived",
+        "derived_target": "5-Methyltetrahydrofolate",
+        "derived_target_atom_id": "PM1-DIT-1",
+        "relationship_mode": "capacity-requirement",
+        "relationship_layer": "dietary-requirement",
+        "dietary_addressability": "precursor-mediated",
+        "claim_ceiling": "dietary-provision",
+        "permitted_wording": "Folate provides 5-methyltetrahydrofolate after reduction and folate-cycle conversion. This provision relationship does not establish that more folate increases tissue methionine-synthase flux.",
+        "evidence_limitation": "This conversion pathway does not show that increasing folate intake increases tissue remethylation flux. Folic acid lowers blood homocysteine, which is a circulating marker."
+      },
+      "original_supporting_findings": [
+        {
+          "id": "PM1-F1",
+          "finding_label": "Methionine synthase remethylates homocysteine",
+          "presentation": "mechanistic-basis",
+          "fm_rollup": true,
+          "finding_summary": "Methionine synthase transfers the methyl group of 5-methyltetrahydrofolate to homocysteine, producing methionine and tetrahydrofolate. Methylcobalamin carries that methyl group. Betaine remethylation, SAMe synthesis, transsulfuration and phospholipid methylation are different reactions.",
+          "finding_interpretation": "This defines the reaction and its direct participants. It does not show that eating more folate or vitamin B12 speeds the reaction in human tissues, and it does not make riboflavin a cofactor of the synthase.",
+          "finding_statement": "Cobalamin-dependent methionine synthase transfers the methyl group of 5-methyltetrahydrofolate to homocysteine, producing methionine and tetrahydrofolate, and uses methylcobalamin as its cofactor. Betaine-dependent remethylation, methionine adenosyltransferase, transsulfuration and phosphatidylethanolamine methylation are separate reactions.",
+          "synthesised_evidence_confidence": "not-yet-scored",
+          "synthesis": "A human-pathway review states the reaction directly: methionine synthase (MTR) converts homocysteine plus 5-methyltetrahydrofolate to methionine plus tetrahydrofolate and requires the methylated form of cobalamin. Methylenetetrahydrofolate reductase produces that folate substrate. Betaine-homocysteine methyltransferase is a separate, mainly liver and kidney route. Methionine adenosyltransferase then converts methionine to SAMe, and cystathionine beta-synthase starts transsulfuration. The review also traces dietary folate, including folic acid reduced by dihydrofolate reductase, into 5-methyltetrahydrofolate, and dietary cobalamin through absorption and intracellular processing onto the enzyme as methylcobalamin.",
+          "synthesis_limitations": "The primary source is a biochemical review, not a new human flux study. Reaction identity does not show that ordinary dietary intake controls tissue remethylation rate, and it does not assign clinical benefit. Phosphatidylethanolamine methylation is a later SAMe-consuming reaction, not part of this step.",
+          "evidence_considered": [
+            {
+              "label": "Froese et al. (2019)",
+              "citation_key": "froese_vitamin_2019",
+              "href": "/docs/papers/BRAIN-Diet-References#froese_vitamin_2019",
+              "data_level": "Mechanistic",
+              "evidence_source": "bounded-external-search",
+              "directional_finding": "Methionine synthase uses methylcobalamin to remethylate homocysteine with 5-methyltetrahydrofolate, producing methionine and tetrahydrofolate. Parallel and downstream reactions are named separately.",
+              "assessment": {
+                "study": "Narrative review of cobalamin absorption, intracellular cofactor processing, folate-mediated one-carbon metabolism and methionine-cycle regulation.",
+                "population": "No new participants. The review synthesises human pathway biochemistry and inherited disorders of cobalamin and folate metabolism.",
+                "result": "Methionine synthase (MTR, EC 2.1.1.13) catalyses homocysteine plus 5-methyltetrahydrofolate to methionine plus tetrahydrofolate and requires methylcobalamin. Methylenetetrahydrofolate reductase produces 5-methyltetrahydrofolate. Betaine-homocysteine methyltransferase is an alternative remethylation enzyme, mainly in liver and kidney. Methionine adenosyltransferase converts methionine and ATP to SAMe. Cystathionine beta-synthase combines homocysteine with serine to start transsulfuration. Dietary folic acid is reduced to tetrahydrofolate by dihydrofolate reductase, and dietary cobalamin is processed to methylcobalamin on the synthase.",
+                "effect_magnitude": "No new numeric effect size. The result is reaction identity and pathway separation.",
+                "evidence_summary": "Direct statement of the human methionine synthase reaction, its methylcobalamin cofactor, the folate route to its substrate, and the neighbouring reactions this PM does not include.",
+                "limitations": "A review does not measure tissue remethylation flux, ordinary-diet dose response, or a cognitive or attention outcome."
+              }
+            },
+            {
+              "label": "Wolthers et al. (2007)",
+              "citation_key": "wolthers_msr_flavins_2007",
+              "href": "/docs/papers/BRAIN-Diet-References#wolthers_msr_flavins_2007",
+              "data_level": "Mechanistic",
+              "evidence_source": "bounded-external-search",
+              "exposure_context": "Purified enzyme and coenzymes.",
+              "directional_finding": "Purified human methionine-synthase reductase contains both flavins and transfers reducing equivalents to methionine synthase.",
+              "assessment": {
+                "study": "Human reductase module crystallography and coenzyme-binding experiments.",
+                "population": "Recombinant human enzyme; no dietary participant cohort.",
+                "result": "Purified human methionine-synthase reductase contains both flavins and transfers reducing equivalents to methionine synthase.",
+                "effect_magnitude": "No additional magnitude inferred.",
+                "evidence_summary": "Purified human methionine-synthase reductase contains both flavins and transfers reducing equivalents to methionine synthase.",
+                "limitations": "Foundational human-enzyme cofactor provenance supports capacity; it is not a measurement of dietary riboflavin-induced remethylation flux, brain methylation or benefit above adequacy. FMN is also required; FAD is the endpoint of the displayed activation chain, not its sole functional cofactor.",
+                "retrieval_scope": "Primary abstract retrieved 26 October 2026; full methods and supplements not extracted."
+              }
+            }
+          ],
+          "connected_supportive_evidence": [
+            {
+              "label": "Aragão et al. (2024)",
+              "citation_key": "aragao_revitalising_2024",
+              "href": "/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024",
+              "data_level": "Mechanistic",
+              "why_relevant": "Riboflavin is often discussed beside folate-cycle enzymes, so this review was checked against the synthase reaction.",
+              "why_excluded": "Its abstract describes general riboflavin physiology. It does not state the methionine synthase reaction, methylcobalamin dependence, or separation from betaine remethylation."
+            }
+          ]
+        }
+      ],
+      "existing_assessment": null,
+      "proposed_dietary_input_assessment": {
+        "atom_id": "PM1-DIT-2",
+        "status": "admitted",
+        "type": "A",
+        "classification": "derived",
+        "operation": "Recycle homocysteine to methionine through folate and B12 so methyl-donor supply and homocysteine control stay supported.",
+        "canonical_substance_id": "vitamin-b9",
+        "active_target_id": "5-methyltetrahydrofolate",
+        "record_origin": "PROPOSAL ONLY: reconciliation of existing admitted Derived route; no new admission, SEC or publication permission.",
+        "functional_dependency": {
+          "status": "established",
+          "statement": "Dietary folate, including folic acid reduced by dihydrofolate reductase, is converted through the folate cycle to 5-methyltetrahydrofolate, the methyl donor used by methionine synthase.",
+          "sources": [
+            "docs/papers/BRAIN-Diet-References#froese_vitamin_2019"
+          ]
+        },
+        "dietary_supply": {
+          "status": "established",
+          "statement": "Dietary folate, including folic acid reduced by dihydrofolate reductase, is converted through the folate cycle to 5-methyltetrahydrofolate, the methyl donor used by methionine synthase.",
+          "sources": [
+            "docs/papers/BRAIN-Diet-References#froese_vitamin_2019"
+          ]
+        },
+        "conversion_pathway": [
+          {
+            "from": "vitamin-b9",
+            "to": "5-methyltetrahydrofolate",
+            "process": "Form-dependent folate processing and folate-cycle conversion supply 5-methyltetrahydrofolate; folic acid requires reduction.",
+            "dependencies": [],
+            "limitations": "This conversion pathway does not show that increasing folate intake increases tissue remethylation flux. Folic acid lowers blood homocysteine, which is a circulating marker. The primary source is a biochemical review, not a new human flux study. Reaction identity does not show that ordinary dietary intake controls tissue remethylation rate, and it does not assign clinical benefit. Phosphatidylethanolamine methylation is a later SAMe-consuming reaction, not part of this step.",
+            "evidence": {
+              "statement": "Dietary folate, including folic acid reduced by dihydrofolate reductase, is converted through the folate cycle to 5-methyltetrahydrofolate, the methyl donor used by methionine synthase.",
+              "sources": [
+                "docs/papers/BRAIN-Diet-References#froese_vitamin_2019"
+              ]
+            }
+          }
+        ],
+        "limitations": [
+          "This conversion pathway does not show that increasing folate intake increases tissue remethylation flux. Folic acid lowers blood homocysteine, which is a circulating marker.",
+          "The primary source is a biochemical review, not a new human flux study. Reaction identity does not show that ordinary dietary intake controls tissue remethylation rate, and it does not assign clinical benefit. Phosphatidylethanolamine methylation is a later SAMe-consuming reaction, not part of this step."
+        ],
+        "provenance": [
+          "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+          "docs/papers/BRAIN-Diet-References#froese_vitamin_2019"
+        ]
+      },
+      "publication_boundary": "No source hold or projection block released; no downstream quantity, efficiency, clinical benefit, new direct admission or KC/inventory reclassification.",
+      "source_access": "Canonical records and previously recorded appraisals inspected. No new original-paper full-text verification claimed.",
+      "schema_validation": {
+        "status": "unresolved",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": [
+          "canonical-input-identity-mismatch"
+        ]
+      },
+      "proposed_identity_correction": {
+        "kind": "exact-existing-display-name-alias",
+        "canonical_id": "vitamin-b9",
+        "alias": "Vitamin B9 (folate)",
+        "approval_required": true
+      }
+    },
+    {
+      "relationship_id": "BRS2-FM1-PM1::PM1-DIT-4",
+      "pm": "BRS2-FM1-PM1",
+      "source_file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+      "source_sha256": "afeea6ae0840eedc688fa9d2d55d85c260a464bc98b1bc31d7f8e6429809674c",
+      "priority_group": 1,
+      "proposal_status": "awaiting-author-approval",
+      "decision_required": "Approve metadata reconciliation; do not treat every dietary B12 form as already methylcobalamin or equate homocysteine lowering with tissue flux. Approve the existing display name as an exact alias for vitamin-b12; current registry label validation does not accept the parenthetical name.",
+      "original_atom": {
+        "atom_id": "PM1-DIT-4",
+        "dietary_input": true,
+        "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "input": "Vitamin B12 (cobalamin)",
+        "input_type": "cofactor precursor",
+        "biological_role": "Dietary cobalamin is absorbed and processed intracellularly to the methylcobalamin cofactor used by methionine synthase.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM1-F1"
+          ],
+          "citation_keys": [
+            "froese_vitamin_2019"
+          ]
+        },
+        "evidence_limitation": "Provision of vitamin B12 does not show that increasing intake raises tissue remethylation flux. Added vitamin B12 further lowered blood homocysteine beyond folic acid in pooled trials, which remains a circulating marker."
+      },
+      "original_overlay": {
+        "atom_id": "PM1-DIT-4",
+        "requirement_classification": "derived",
+        "derived_target": "Methylcobalamin",
+        "derived_target_atom_id": "PM1-DIT-3",
+        "relationship_mode": "capacity-requirement",
+        "relationship_layer": "dietary-requirement",
+        "dietary_addressability": "precursor-mediated",
+        "claim_ceiling": "dietary-provision",
+        "permitted_wording": "Vitamin B12 provides the cobalamin that cells process to methylcobalamin. This does not establish that increasing vitamin B12 intake increases tissue remethylation flux.",
+        "evidence_limitation": "Provision of vitamin B12 does not show that increasing intake raises tissue remethylation flux. Added vitamin B12 further lowered blood homocysteine beyond folic acid in pooled trials, which remains a circulating marker."
+      },
+      "original_supporting_findings": [
+        {
+          "id": "PM1-F1",
+          "finding_label": "Methionine synthase remethylates homocysteine",
+          "presentation": "mechanistic-basis",
+          "fm_rollup": true,
+          "finding_summary": "Methionine synthase transfers the methyl group of 5-methyltetrahydrofolate to homocysteine, producing methionine and tetrahydrofolate. Methylcobalamin carries that methyl group. Betaine remethylation, SAMe synthesis, transsulfuration and phospholipid methylation are different reactions.",
+          "finding_interpretation": "This defines the reaction and its direct participants. It does not show that eating more folate or vitamin B12 speeds the reaction in human tissues, and it does not make riboflavin a cofactor of the synthase.",
+          "finding_statement": "Cobalamin-dependent methionine synthase transfers the methyl group of 5-methyltetrahydrofolate to homocysteine, producing methionine and tetrahydrofolate, and uses methylcobalamin as its cofactor. Betaine-dependent remethylation, methionine adenosyltransferase, transsulfuration and phosphatidylethanolamine methylation are separate reactions.",
+          "synthesised_evidence_confidence": "not-yet-scored",
+          "synthesis": "A human-pathway review states the reaction directly: methionine synthase (MTR) converts homocysteine plus 5-methyltetrahydrofolate to methionine plus tetrahydrofolate and requires the methylated form of cobalamin. Methylenetetrahydrofolate reductase produces that folate substrate. Betaine-homocysteine methyltransferase is a separate, mainly liver and kidney route. Methionine adenosyltransferase then converts methionine to SAMe, and cystathionine beta-synthase starts transsulfuration. The review also traces dietary folate, including folic acid reduced by dihydrofolate reductase, into 5-methyltetrahydrofolate, and dietary cobalamin through absorption and intracellular processing onto the enzyme as methylcobalamin.",
+          "synthesis_limitations": "The primary source is a biochemical review, not a new human flux study. Reaction identity does not show that ordinary dietary intake controls tissue remethylation rate, and it does not assign clinical benefit. Phosphatidylethanolamine methylation is a later SAMe-consuming reaction, not part of this step.",
+          "evidence_considered": [
+            {
+              "label": "Froese et al. (2019)",
+              "citation_key": "froese_vitamin_2019",
+              "href": "/docs/papers/BRAIN-Diet-References#froese_vitamin_2019",
+              "data_level": "Mechanistic",
+              "evidence_source": "bounded-external-search",
+              "directional_finding": "Methionine synthase uses methylcobalamin to remethylate homocysteine with 5-methyltetrahydrofolate, producing methionine and tetrahydrofolate. Parallel and downstream reactions are named separately.",
+              "assessment": {
+                "study": "Narrative review of cobalamin absorption, intracellular cofactor processing, folate-mediated one-carbon metabolism and methionine-cycle regulation.",
+                "population": "No new participants. The review synthesises human pathway biochemistry and inherited disorders of cobalamin and folate metabolism.",
+                "result": "Methionine synthase (MTR, EC 2.1.1.13) catalyses homocysteine plus 5-methyltetrahydrofolate to methionine plus tetrahydrofolate and requires methylcobalamin. Methylenetetrahydrofolate reductase produces 5-methyltetrahydrofolate. Betaine-homocysteine methyltransferase is an alternative remethylation enzyme, mainly in liver and kidney. Methionine adenosyltransferase converts methionine and ATP to SAMe. Cystathionine beta-synthase combines homocysteine with serine to start transsulfuration. Dietary folic acid is reduced to tetrahydrofolate by dihydrofolate reductase, and dietary cobalamin is processed to methylcobalamin on the synthase.",
+                "effect_magnitude": "No new numeric effect size. The result is reaction identity and pathway separation.",
+                "evidence_summary": "Direct statement of the human methionine synthase reaction, its methylcobalamin cofactor, the folate route to its substrate, and the neighbouring reactions this PM does not include.",
+                "limitations": "A review does not measure tissue remethylation flux, ordinary-diet dose response, or a cognitive or attention outcome."
+              }
+            },
+            {
+              "label": "Wolthers et al. (2007)",
+              "citation_key": "wolthers_msr_flavins_2007",
+              "href": "/docs/papers/BRAIN-Diet-References#wolthers_msr_flavins_2007",
+              "data_level": "Mechanistic",
+              "evidence_source": "bounded-external-search",
+              "exposure_context": "Purified enzyme and coenzymes.",
+              "directional_finding": "Purified human methionine-synthase reductase contains both flavins and transfers reducing equivalents to methionine synthase.",
+              "assessment": {
+                "study": "Human reductase module crystallography and coenzyme-binding experiments.",
+                "population": "Recombinant human enzyme; no dietary participant cohort.",
+                "result": "Purified human methionine-synthase reductase contains both flavins and transfers reducing equivalents to methionine synthase.",
+                "effect_magnitude": "No additional magnitude inferred.",
+                "evidence_summary": "Purified human methionine-synthase reductase contains both flavins and transfers reducing equivalents to methionine synthase.",
+                "limitations": "Foundational human-enzyme cofactor provenance supports capacity; it is not a measurement of dietary riboflavin-induced remethylation flux, brain methylation or benefit above adequacy. FMN is also required; FAD is the endpoint of the displayed activation chain, not its sole functional cofactor.",
+                "retrieval_scope": "Primary abstract retrieved 26 October 2026; full methods and supplements not extracted."
+              }
+            }
+          ],
+          "connected_supportive_evidence": [
+            {
+              "label": "Aragão et al. (2024)",
+              "citation_key": "aragao_revitalising_2024",
+              "href": "/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024",
+              "data_level": "Mechanistic",
+              "why_relevant": "Riboflavin is often discussed beside folate-cycle enzymes, so this review was checked against the synthase reaction.",
+              "why_excluded": "Its abstract describes general riboflavin physiology. It does not state the methionine synthase reaction, methylcobalamin dependence, or separation from betaine remethylation."
+            }
+          ]
+        }
+      ],
+      "existing_assessment": null,
+      "proposed_dietary_input_assessment": {
+        "atom_id": "PM1-DIT-4",
+        "status": "admitted",
+        "type": "A",
+        "classification": "derived",
+        "operation": "Recycle homocysteine to methionine through folate and B12 so methyl-donor supply and homocysteine control stay supported.",
+        "canonical_substance_id": "vitamin-b12",
+        "active_target_id": "methylcobalamin",
+        "record_origin": "PROPOSAL ONLY: reconciliation of existing admitted Derived route; no new admission, SEC or publication permission.",
+        "functional_dependency": {
+          "status": "established",
+          "statement": "Dietary cobalamin is absorbed and processed intracellularly to the methylcobalamin cofactor used by methionine synthase.",
+          "sources": [
+            "docs/papers/BRAIN-Diet-References#froese_vitamin_2019"
+          ]
+        },
+        "dietary_supply": {
+          "status": "established",
+          "statement": "Dietary cobalamin is absorbed and processed intracellularly to the methylcobalamin cofactor used by methionine synthase.",
+          "sources": [
+            "docs/papers/BRAIN-Diet-References#froese_vitamin_2019"
+          ]
+        },
+        "conversion_pathway": [
+          {
+            "from": "vitamin-b12",
+            "to": "methylcobalamin",
+            "process": "Absorbed cobalamin undergoes intracellular processing to methylcobalamin used by methionine synthase.",
+            "dependencies": [],
+            "limitations": "Provision of vitamin B12 does not show that increasing intake raises tissue remethylation flux. Added vitamin B12 further lowered blood homocysteine beyond folic acid in pooled trials, which remains a circulating marker. The primary source is a biochemical review, not a new human flux study. Reaction identity does not show that ordinary dietary intake controls tissue remethylation rate, and it does not assign clinical benefit. Phosphatidylethanolamine methylation is a later SAMe-consuming reaction, not part of this step.",
+            "evidence": {
+              "statement": "Dietary cobalamin is absorbed and processed intracellularly to the methylcobalamin cofactor used by methionine synthase.",
+              "sources": [
+                "docs/papers/BRAIN-Diet-References#froese_vitamin_2019"
+              ]
+            }
+          }
+        ],
+        "limitations": [
+          "Provision of vitamin B12 does not show that increasing intake raises tissue remethylation flux. Added vitamin B12 further lowered blood homocysteine beyond folic acid in pooled trials, which remains a circulating marker.",
+          "The primary source is a biochemical review, not a new human flux study. Reaction identity does not show that ordinary dietary intake controls tissue remethylation rate, and it does not assign clinical benefit. Phosphatidylethanolamine methylation is a later SAMe-consuming reaction, not part of this step."
+        ],
+        "provenance": [
+          "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+          "docs/papers/BRAIN-Diet-References#froese_vitamin_2019"
+        ]
+      },
+      "publication_boundary": "No source hold or projection block released; no downstream quantity, efficiency, clinical benefit, new direct admission or KC/inventory reclassification.",
+      "source_access": "Canonical records and previously recorded appraisals inspected. No new original-paper full-text verification claimed.",
+      "schema_validation": {
+        "status": "unresolved",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": [
+          "canonical-input-identity-mismatch"
+        ]
+      },
+      "proposed_identity_correction": {
+        "kind": "exact-existing-display-name-alias",
+        "canonical_id": "vitamin-b12",
+        "alias": "Vitamin B12 (cobalamin)",
+        "approval_required": true
+      }
+    },
+    {
+      "relationship_id": "BRS4-FM1-PM1::PM1-DIT-3",
+      "pm": "BRS4-FM1-PM1",
+      "source_file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx",
+      "source_sha256": "3225502d5bb706243fa07b571917d83be0d1c6e17a1e732c7d826ad6cdbe0e7d",
+      "priority_group": 1,
+      "proposal_status": "awaiting-author-approval",
+      "decision_required": "Approve metadata reconciliation only; preserve adequate-state and riboflavin-responsive disease boundaries. Approve the existing display name as an exact alias for vitamin-b2; current registry label validation does not accept the parenthetical name.",
+      "original_atom": {
+        "atom_id": "PM1-DIT-3",
+        "dietary_input": true,
+        "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "input": "Vitamin B2 (riboflavin)",
+        "input_type": "precursor",
+        "biological_role": "Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH electrons in complex I.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM1-F1"
+          ],
+          "citation_keys": [
+            "curtabbi_complex_i_fmn_2022"
+          ]
+        },
+        "evidence_limitation": "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context."
+      },
+      "original_overlay": {
+        "atom_id": "PM1-DIT-3",
+        "requirement_classification": "derived",
+        "derived_target": "Flavin mononucleotide (FMN)",
+        "derived_target_atom_id": "PM1-DIT-2",
+        "relationship_mode": "capacity-requirement",
+        "relationship_layer": "dietary-requirement",
+        "dietary_addressability": "precursor-mediated",
+        "claim_ceiling": "biological-dependency",
+        "permitted_wording": "Riboflavin is a precursor of the flavin mononucleotide (FMN) used by complex I. Eating more riboflavin once flavin mononucleotide (FMN) is adequate is not shown to raise electron transport.",
+        "evidence_limitation": "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context."
+      },
+      "original_supporting_findings": [
+        {
+          "id": "PM1-F1",
+          "finding_label": "Five complexes and two carriers make ATP",
+          "presentation": "mechanistic-basis",
+          "fm_rollup": true,
+          "finding_summary": "Electrons from NADH and from succinate pass through five enzyme complexes. Ubiquinone and cytochrome c carry them between complexes. The proton gradient drives ATP synthase. Iron–sulfur clusters, haem, copper and flavin mononucleotide (FMN) take part in the transfers.",
+          "finding_interpretation": "These are the working parts of the chain. Identifying a part does not show that eating more of its dietary source raises electron transport or ATP production.",
+          "finding_statement": "Mammalian oxidative phosphorylation oxidises mitochondrial reducing equivalents through five complexes and two mobile carriers, uses iron, copper, haem and flavin mononucleotide (FMN) in the transfers, and couples the proton gradient to ATP synthesis.",
+          "synthesised_evidence_confidence": "not-yet-scored",
+          "synthesis": "The respiratory-chain review describes five complexes and two mobile carriers. Oxidation of reducing equivalents builds a proton gradient that ATP synthase uses to make ATP. Iron–sulfur clusters and haem irons transfer electrons, and complex IV has two copper centres. A separate review places flavin mononucleotide (FMN) at the NADH entry site of complex I. Coenzyme Q10 reviews describe ubiquinone as the electron carrier used for that mitochondrial transfer and for related proton movement. Together they define the participants. They do not measure a dietary dose.",
+          "synthesis_limitations": "The sources are reviews of enzyme structure and function, not human feeding trials. Flavin mononucleotide (FMN) abundance has not been shown to limit complex I in ordinary conditions. Endogenous ubiquinone synthesis is not separated here from dietary coenzyme Q10. Copper and iron centres are not evidence that supplements raise chain activity.",
+          "evidence_considered": [
+            {
+              "label": "Vercellino and Sazanov (2022)",
+              "citation_key": "vercellino_respiratory_chain_2022",
+              "href": "/docs/papers/BRAIN-Diet-References#vercellino_respiratory_chain_2022",
+              "data_level": "Cellular / Molecular",
+              "evidence_source": "bounded-external-search",
+              "directional_finding": "Five complexes and two mobile carriers couple oxidation of reducing equivalents to a proton gradient and ATP synthesis, using iron–sulfur clusters, haem and copper centres.",
+              "assessment": {
+                "study": "Review of assembly, structure and function of the mammalian mitochondrial respiratory chain.",
+                "population": "No human participants. Review of structural and biochemical studies.",
+                "result": "The chain comprises five complexes and two mobile electron carriers. Proton pumping is coupled to ATP synthesis. Iron–sulfur clusters, haem and the two copper centres of complex IV transfer electrons.",
+                "effect_magnitude": "No human effect size.",
+                "evidence_summary": "Defines the complexes, carriers and metal centres used for electron transport and ATP synthesis.",
+                "limitations": "A review does not test dietary intake, brain ATP, or clinical outcomes."
+              }
+            },
+            {
+              "label": "Curtabbi and Enríquez (2022)",
+              "citation_key": "curtabbi_complex_i_fmn_2022",
+              "href": "/docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022",
+              "data_level": "Cellular / Molecular",
+              "evidence_source": "bounded-external-search",
+              "directional_finding": "Flavin mononucleotide (FMN) in complex I accepts the electrons that NADH donates at the start of the chain.",
+              "assessment": {
+                "study": "Review of the flavin mononucleotide (FMN) site of respiratory complex I.",
+                "population": "No human feeding cohort. Review of enzyme and mitochondrial studies.",
+                "result": "Electrons from NADH enter complex I at flavin mononucleotide (FMN). The review does not establish that flavin mononucleotide (FMN) abundance limits assembly or activity.",
+                "effect_magnitude": "No intake effect size.",
+                "evidence_summary": "Places flavin mononucleotide (FMN) as the NADH-entry cofactor of complex I.",
+                "limitations": "Does not test riboflavin intake in healthy people or show that more flavin mononucleotide (FMN) increases ATP synthesis."
+              }
+            },
+            {
+              "label": "Crane (2001)",
+              "citation_key": "crane_coq10_2001",
+              "href": "/docs/papers/BRAIN-Diet-References#crane_coq10_2001",
+              "data_level": "Mechanistic",
+              "evidence_source": "repository-inherited",
+              "directional_finding": "Coenzyme Q10 functions in mitochondrial electron transport and in proton movement linked to ATP synthesis.",
+              "assessment": {
+                "study": "Narrative review of biochemical functions of coenzyme Q10.",
+                "population": "No new human participants.",
+                "result": "The review assigns coenzyme Q10 a role in electron transport and proton translocation, and an antioxidant role in membranes.",
+                "effect_magnitude": "No dietary effect size.",
+                "evidence_summary": "Supports ubiquinone as an electron carrier. It does not test food or supplement intake.",
+                "limitations": "A biochemical review cannot show that dietary coenzyme Q10 changes chain rate."
+              }
+            }
+          ],
+          "connected_supportive_evidence": [
+            {
+              "label": "Tardy et al. (2020)",
+              "citation_key": "tardy_vitamins_2020",
+              "href": "/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020",
+              "data_level": "Mechanistic",
+              "why_relevant": "Reviews B vitamins, iron and magnesium in energy-yielding metabolism and fatigue.",
+              "why_excluded": "It does not measure respiratory-complex activity or separate each cofactor's job in this chain."
+            }
+          ]
+        }
+      ],
+      "existing_assessment": null,
+      "proposed_dietary_input_assessment": {
+        "atom_id": "PM1-DIT-3",
+        "status": "admitted",
+        "type": "A",
+        "classification": "derived",
+        "operation": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+        "canonical_substance_id": "vitamin-b2",
+        "active_target_id": "flavin-mononucleotide",
+        "record_origin": "PROPOSAL ONLY: reconciliation of existing admitted Derived route; no new admission, SEC or publication permission.",
+        "functional_dependency": {
+          "status": "established",
+          "statement": "Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH electrons in complex I.",
+          "sources": [
+            "docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022"
+          ]
+        },
+        "dietary_supply": {
+          "status": "established",
+          "statement": "Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH electrons in complex I.",
+          "sources": [
+            "docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022"
+          ]
+        },
+        "conversion_pathway": [
+          {
+            "from": "vitamin-b2",
+            "to": "flavin-mononucleotide",
+            "process": "Riboflavin supplies the precursor for FMN used by complex I.",
+            "dependencies": [],
+            "limitations": "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context. The sources are reviews of enzyme structure and function, not human feeding trials. Flavin mononucleotide (FMN) abundance has not been shown to limit complex I in ordinary conditions. Endogenous ubiquinone synthesis is not separated here from dietary coenzyme Q10. Copper and iron centres are not evidence that supplements raise chain activity.",
+            "evidence": {
+              "statement": "Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH electrons in complex I.",
+              "sources": [
+                "docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022"
+              ]
+            }
+          }
+        ],
+        "limitations": [
+          "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context.",
+          "The sources are reviews of enzyme structure and function, not human feeding trials. Flavin mononucleotide (FMN) abundance has not been shown to limit complex I in ordinary conditions. Endogenous ubiquinone synthesis is not separated here from dietary coenzyme Q10. Copper and iron centres are not evidence that supplements raise chain activity."
+        ],
+        "provenance": [
+          "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx",
+          "docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022"
+        ]
+      },
+      "publication_boundary": "No source hold or projection block released; no downstream quantity, efficiency, clinical benefit, new direct admission or KC/inventory reclassification.",
+      "source_access": "Canonical records and previously recorded appraisals inspected. No new original-paper full-text verification claimed.",
+      "schema_validation": {
+        "status": "unresolved",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": [
+          "canonical-input-identity-mismatch"
+        ]
+      },
+      "proposed_identity_correction": {
+        "kind": "exact-existing-display-name-alias",
+        "canonical_id": "vitamin-b2",
+        "alias": "Vitamin B2 (riboflavin)",
+        "approval_required": true
+      }
+    }
+  ]
+}

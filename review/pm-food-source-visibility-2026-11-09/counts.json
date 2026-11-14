@@ -1,0 +1,1889 @@
+{
+  "definition": "Unique food–substance–PM triples; unranked occurrences carry no RSP and do not enter wheel counts.",
+  "snapshot": "5ca08ea52696e966bbf61463278c614582f49a36a218a86092ef9f692c75aedc",
+  "before": {
+    "ranked": 960,
+    "documented_unranked": 0
+  },
+  "after": {
+    "ranked": 960,
+    "documented_unranked": 200
+  },
+  "unranked_pms": 35,
+  "scopeCounts": [
+    {
+      "scope": "brs1",
+      "connections": 68
+    },
+    {
+      "scope": "brs2",
+      "connections": 49
+    },
+    {
+      "scope": "brs3",
+      "connections": 32
+    },
+    {
+      "scope": "brs4",
+      "connections": 19
+    },
+    {
+      "scope": "brs5",
+      "connections": 13
+    },
+    {
+      "scope": "brs6",
+      "connections": 6
+    },
+    {
+      "scope": "brs-x",
+      "connections": 13
+    }
+  ],
+  "connections": [
+    {
+      "pm": "BRS1-FM1-PM3",
+      "food": "dark-meat-poultry",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/dark-meat-poultry.md#substance_relationships/Iron"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM3",
+      "food": "mankai",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/mankai.md#substance_relationships/Iron",
+        "docs/foods/mankai.md#nutrition_supplementary_sources/iron_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM3",
+      "food": "salmon-roe",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/salmon-roe.md#substance_relationships/Choline"
+      ],
+      "preparation": "salted"
+    },
+    {
+      "pm": "BRS1-FM1-PM3",
+      "food": "shrimp",
+      "substance": "betaine",
+      "source_records": [
+        "docs/foods/shrimp.md#nutrition_supplementary_sources/betaine_mg"
+      ],
+      "preparation": "canned"
+    },
+    {
+      "pm": "BRS1-FM1-PM3",
+      "food": "sourdough-bread",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Iron"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM3",
+      "food": "sourdough-bread",
+      "substance": "magnesium",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Magnesium"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM3",
+      "food": "sunflower-lecithin",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/sunflower-lecithin.md#substance_relationships/Choline",
+        "docs/foods/sunflower-lecithin.md#nutrition_supplementary_sources/choline_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM3",
+      "food": "tempeh",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/tempeh.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM3",
+      "food": "tofu",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/tofu.md#substance_relationships/Choline"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS1-FM1-PM3",
+      "food": "trout-roe",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/trout-roe.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM3",
+      "food": "wheat-germ",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/wheat-germ.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM3",
+      "food": "whole-grains",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/whole-grains.md#substance_relationships/Iron"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM3",
+      "food": "whole-grains",
+      "substance": "magnesium",
+      "source_records": [
+        "docs/foods/whole-grains.md#substance_relationships/Magnesium"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM4",
+      "food": "dark-meat-poultry",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/dark-meat-poultry.md#substance_relationships/Iron"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM4",
+      "food": "mankai",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/mankai.md#substance_relationships/Iron",
+        "docs/foods/mankai.md#nutrition_supplementary_sources/iron_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM4",
+      "food": "salmon-roe",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/salmon-roe.md#substance_relationships/Choline"
+      ],
+      "preparation": "salted"
+    },
+    {
+      "pm": "BRS1-FM1-PM4",
+      "food": "shrimp",
+      "substance": "betaine",
+      "source_records": [
+        "docs/foods/shrimp.md#nutrition_supplementary_sources/betaine_mg"
+      ],
+      "preparation": "canned"
+    },
+    {
+      "pm": "BRS1-FM1-PM4",
+      "food": "sourdough-bread",
+      "substance": "copper",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Copper"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM4",
+      "food": "sourdough-bread",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Iron"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM4",
+      "food": "sourdough-bread",
+      "substance": "magnesium",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Magnesium"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM4",
+      "food": "sunflower-lecithin",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/sunflower-lecithin.md#substance_relationships/Choline",
+        "docs/foods/sunflower-lecithin.md#nutrition_supplementary_sources/choline_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM4",
+      "food": "tempeh",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/tempeh.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM4",
+      "food": "tofu",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/tofu.md#substance_relationships/Choline"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS1-FM1-PM4",
+      "food": "trout-roe",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/trout-roe.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM4",
+      "food": "wheat-germ",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/wheat-germ.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM4",
+      "food": "whole-grains",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/whole-grains.md#substance_relationships/Iron"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM4",
+      "food": "whole-grains",
+      "substance": "magnesium",
+      "source_records": [
+        "docs/foods/whole-grains.md#substance_relationships/Magnesium"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM5",
+      "food": "dark-meat-poultry",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/dark-meat-poultry.md#substance_relationships/Iron"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM5",
+      "food": "mankai",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/mankai.md#substance_relationships/Iron",
+        "docs/foods/mankai.md#nutrition_supplementary_sources/iron_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM5",
+      "food": "sourdough-bread",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Iron"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM1-PM5",
+      "food": "whole-grains",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/whole-grains.md#substance_relationships/Iron"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM2-PM6",
+      "food": "mussels",
+      "substance": "phosphatidylcholine",
+      "source_records": [
+        "docs/foods/mussels.md#substance_relationships/Phosphatidylcholine"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS1-FM2-PM6",
+      "food": "oysters",
+      "substance": "phosphatidylcholine",
+      "source_records": [
+        "docs/foods/oysters.md#substance_relationships/Phosphatidylcholine"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS1-FM2-PM6",
+      "food": "salmon-roe",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/salmon-roe.md#substance_relationships/Choline"
+      ],
+      "preparation": "salted"
+    },
+    {
+      "pm": "BRS1-FM2-PM6",
+      "food": "salmon-roe",
+      "substance": "phosphatidylcholine",
+      "source_records": [
+        "docs/foods/salmon-roe.md#substance_relationships/Phosphatidylcholine"
+      ],
+      "preparation": "salted"
+    },
+    {
+      "pm": "BRS1-FM2-PM6",
+      "food": "soy-lecithin",
+      "substance": "phosphatidylcholine",
+      "source_records": [
+        "docs/foods/soy-lecithin.md#substance_relationships/Phosphatidylcholine",
+        "docs/foods/soy-lecithin.md#nutrition_supplementary_sources/phosphatidylcholine_qual"
+      ],
+      "preparation": "Oil"
+    },
+    {
+      "pm": "BRS1-FM2-PM6",
+      "food": "sunflower-lecithin",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/sunflower-lecithin.md#substance_relationships/Choline",
+        "docs/foods/sunflower-lecithin.md#nutrition_supplementary_sources/choline_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM2-PM6",
+      "food": "sunflower-lecithin",
+      "substance": "phosphatidylcholine",
+      "source_records": [
+        "docs/foods/sunflower-lecithin.md#substance_relationships/Phosphatidylcholine",
+        "docs/foods/sunflower-lecithin.md#nutrition_supplementary_sources/phosphatidylcholine_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM2-PM6",
+      "food": "tempeh",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/tempeh.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM2-PM6",
+      "food": "tofu",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/tofu.md#substance_relationships/Choline"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS1-FM2-PM6",
+      "food": "trout-roe",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/trout-roe.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM2-PM6",
+      "food": "trout-roe",
+      "substance": "phosphatidylcholine",
+      "source_records": [
+        "docs/foods/trout-roe.md#substance_relationships/Phosphatidylcholine",
+        "docs/foods/trout-roe.md#nutrition_supplementary_sources/phosphatidylcholine_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM2-PM6",
+      "food": "wheat-germ",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/wheat-germ.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM3-PM7",
+      "food": "algal-oil",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/algal-oil.md#substance_relationships/DHA"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM3-PM7",
+      "food": "cockles",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/cockles.md#substance_relationships/DHA",
+        "docs/foods/cockles.md#nutrition_supplementary_sources/dha_qual"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS1-FM3-PM7",
+      "food": "lumpfish-roe",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/lumpfish-roe.md#substance_relationships/DHA",
+        "docs/foods/lumpfish-roe.md#nutrition_supplementary_sources/dha_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM3-PM7",
+      "food": "salmon-roe",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/salmon-roe.md#substance_relationships/Choline"
+      ],
+      "preparation": "salted"
+    },
+    {
+      "pm": "BRS1-FM3-PM7",
+      "food": "shrimp",
+      "substance": "betaine",
+      "source_records": [
+        "docs/foods/shrimp.md#nutrition_supplementary_sources/betaine_mg"
+      ],
+      "preparation": "canned"
+    },
+    {
+      "pm": "BRS1-FM3-PM7",
+      "food": "sunflower-lecithin",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/sunflower-lecithin.md#substance_relationships/Choline",
+        "docs/foods/sunflower-lecithin.md#nutrition_supplementary_sources/choline_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM3-PM7",
+      "food": "tempeh",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/tempeh.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM3-PM7",
+      "food": "tofu",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/tofu.md#substance_relationships/Choline"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS1-FM3-PM7",
+      "food": "trout-roe",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/trout-roe.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM3-PM7",
+      "food": "trout-roe",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/trout-roe.md#substance_relationships/DHA"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM3-PM7",
+      "food": "wheat-germ",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/wheat-germ.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM4-PM10",
+      "food": "sourdough-bread",
+      "substance": "potassium",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Potassium"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM4-PM11",
+      "food": "sourdough-bread",
+      "substance": "magnesium",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Magnesium"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM4-PM11",
+      "food": "whole-grains",
+      "substance": "magnesium",
+      "source_records": [
+        "docs/foods/whole-grains.md#substance_relationships/Magnesium"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM5-PM12",
+      "food": "algal-oil",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/algal-oil.md#substance_relationships/DHA"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM5-PM12",
+      "food": "cockles",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/cockles.md#substance_relationships/DHA",
+        "docs/foods/cockles.md#nutrition_supplementary_sources/dha_qual"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS1-FM5-PM12",
+      "food": "lumpfish-roe",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/lumpfish-roe.md#substance_relationships/DHA",
+        "docs/foods/lumpfish-roe.md#nutrition_supplementary_sources/dha_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM5-PM12",
+      "food": "milk",
+      "substance": "uridine",
+      "source_records": [
+        "docs/foods/milk.md#substance_relationships/Uridine"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS1-FM5-PM12",
+      "food": "salmon-roe",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/salmon-roe.md#substance_relationships/Choline"
+      ],
+      "preparation": "salted"
+    },
+    {
+      "pm": "BRS1-FM5-PM12",
+      "food": "sunflower-lecithin",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/sunflower-lecithin.md#substance_relationships/Choline",
+        "docs/foods/sunflower-lecithin.md#nutrition_supplementary_sources/choline_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM5-PM12",
+      "food": "tempeh",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/tempeh.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM5-PM12",
+      "food": "tofu",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/tofu.md#substance_relationships/Choline"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS1-FM5-PM12",
+      "food": "trout-roe",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/trout-roe.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM5-PM12",
+      "food": "trout-roe",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/trout-roe.md#substance_relationships/DHA"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS1-FM5-PM12",
+      "food": "wheat-germ",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/wheat-germ.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM1-PM1",
+      "food": "cockles",
+      "substance": "vitamin-b12",
+      "source_records": [
+        "docs/foods/cockles.md#substance_relationships/Vitamin%20B12"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS2-FM1-PM2",
+      "food": "cockles",
+      "substance": "zinc",
+      "source_records": [
+        "docs/foods/cockles.md#substance_relationships/Zinc"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS2-FM1-PM2",
+      "food": "salmon-roe",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/salmon-roe.md#substance_relationships/Choline"
+      ],
+      "preparation": "salted"
+    },
+    {
+      "pm": "BRS2-FM1-PM2",
+      "food": "sourdough-bread",
+      "substance": "zinc",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Zinc"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM1-PM2",
+      "food": "sunflower-lecithin",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/sunflower-lecithin.md#substance_relationships/Choline",
+        "docs/foods/sunflower-lecithin.md#nutrition_supplementary_sources/choline_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM1-PM2",
+      "food": "tempeh",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/tempeh.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM1-PM2",
+      "food": "tofu",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/tofu.md#substance_relationships/Choline"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS2-FM1-PM2",
+      "food": "trout-roe",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/trout-roe.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM1-PM2",
+      "food": "wheat-germ",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/wheat-germ.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM1-PM2",
+      "food": "whole-grains",
+      "substance": "zinc",
+      "source_records": [
+        "docs/foods/whole-grains.md#substance_relationships/Zinc"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM1-PM3",
+      "food": "salmon-roe",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/salmon-roe.md#substance_relationships/Choline"
+      ],
+      "preparation": "salted"
+    },
+    {
+      "pm": "BRS2-FM1-PM3",
+      "food": "shrimp",
+      "substance": "betaine",
+      "source_records": [
+        "docs/foods/shrimp.md#nutrition_supplementary_sources/betaine_mg"
+      ],
+      "preparation": "canned"
+    },
+    {
+      "pm": "BRS2-FM1-PM3",
+      "food": "sourdough-bread",
+      "substance": "magnesium",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Magnesium"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM1-PM3",
+      "food": "sourdough-bread",
+      "substance": "potassium",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Potassium"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM1-PM3",
+      "food": "sunflower-lecithin",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/sunflower-lecithin.md#substance_relationships/Choline",
+        "docs/foods/sunflower-lecithin.md#nutrition_supplementary_sources/choline_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM1-PM3",
+      "food": "tempeh",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/tempeh.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM1-PM3",
+      "food": "tofu",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/tofu.md#substance_relationships/Choline"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS2-FM1-PM3",
+      "food": "trout-roe",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/trout-roe.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM1-PM3",
+      "food": "wheat-germ",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/wheat-germ.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM1-PM3",
+      "food": "whole-grains",
+      "substance": "magnesium",
+      "source_records": [
+        "docs/foods/whole-grains.md#substance_relationships/Magnesium"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM1-PM4",
+      "food": "cockles",
+      "substance": "vitamin-b12",
+      "source_records": [
+        "docs/foods/cockles.md#substance_relationships/Vitamin%20B12"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS2-FM1-PM4",
+      "food": "salmon-roe",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/salmon-roe.md#substance_relationships/Choline"
+      ],
+      "preparation": "salted"
+    },
+    {
+      "pm": "BRS2-FM1-PM4",
+      "food": "shrimp",
+      "substance": "betaine",
+      "source_records": [
+        "docs/foods/shrimp.md#nutrition_supplementary_sources/betaine_mg"
+      ],
+      "preparation": "canned"
+    },
+    {
+      "pm": "BRS2-FM1-PM4",
+      "food": "sunflower-lecithin",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/sunflower-lecithin.md#substance_relationships/Choline",
+        "docs/foods/sunflower-lecithin.md#nutrition_supplementary_sources/choline_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM1-PM4",
+      "food": "tempeh",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/tempeh.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM1-PM4",
+      "food": "tofu",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/tofu.md#substance_relationships/Choline"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS2-FM1-PM4",
+      "food": "trout-roe",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/trout-roe.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM1-PM4",
+      "food": "wheat-germ",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/wheat-germ.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM2-PM5",
+      "food": "milk",
+      "substance": "pyridoxal-5-phosphate",
+      "source_records": [
+        "docs/foods/milk.md#substance_relationships/Pyridoxal-5-phosphate"
+      ],
+      "preparation": "heat-treated; method-specific"
+    },
+    {
+      "pm": "BRS2-FM2-PM6",
+      "food": "beef",
+      "substance": "glutamate",
+      "source_records": [
+        "docs/foods/beef.md#substance_relationships/Glutamate"
+      ],
+      "preparation": "form not known"
+    },
+    {
+      "pm": "BRS2-FM2-PM6",
+      "food": "eggs",
+      "substance": "glutamate",
+      "source_records": [
+        "docs/foods/eggs.md#substance_relationships/Glutamate"
+      ],
+      "preparation": "form not known"
+    },
+    {
+      "pm": "BRS2-FM2-PM6",
+      "food": "lentils",
+      "substance": "cysteine",
+      "source_records": [
+        "docs/foods/lentils.md#substance_relationships/Cysteine"
+      ],
+      "preparation": "cooked"
+    },
+    {
+      "pm": "BRS2-FM2-PM6",
+      "food": "sourdough-bread",
+      "substance": "magnesium",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Magnesium"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM2-PM6",
+      "food": "tofu",
+      "substance": "glutamate",
+      "source_records": [
+        "docs/foods/tofu.md#substance_relationships/Glutamate"
+      ],
+      "preparation": "form not known"
+    },
+    {
+      "pm": "BRS2-FM2-PM6",
+      "food": "whole-grains",
+      "substance": "magnesium",
+      "source_records": [
+        "docs/foods/whole-grains.md#substance_relationships/Magnesium"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM3-PM7",
+      "food": "milk",
+      "substance": "uridine",
+      "source_records": [
+        "docs/foods/milk.md#substance_relationships/Uridine"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS2-FM3-PM7",
+      "food": "mussels",
+      "substance": "phosphatidylcholine",
+      "source_records": [
+        "docs/foods/mussels.md#substance_relationships/Phosphatidylcholine"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS2-FM3-PM7",
+      "food": "oysters",
+      "substance": "phosphatidylcholine",
+      "source_records": [
+        "docs/foods/oysters.md#substance_relationships/Phosphatidylcholine"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS2-FM3-PM7",
+      "food": "salmon-roe",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/salmon-roe.md#substance_relationships/Choline"
+      ],
+      "preparation": "salted"
+    },
+    {
+      "pm": "BRS2-FM3-PM7",
+      "food": "salmon-roe",
+      "substance": "phosphatidylcholine",
+      "source_records": [
+        "docs/foods/salmon-roe.md#substance_relationships/Phosphatidylcholine"
+      ],
+      "preparation": "salted"
+    },
+    {
+      "pm": "BRS2-FM3-PM7",
+      "food": "shrimp",
+      "substance": "betaine",
+      "source_records": [
+        "docs/foods/shrimp.md#nutrition_supplementary_sources/betaine_mg"
+      ],
+      "preparation": "canned"
+    },
+    {
+      "pm": "BRS2-FM3-PM7",
+      "food": "soy-lecithin",
+      "substance": "phosphatidylcholine",
+      "source_records": [
+        "docs/foods/soy-lecithin.md#substance_relationships/Phosphatidylcholine",
+        "docs/foods/soy-lecithin.md#nutrition_supplementary_sources/phosphatidylcholine_qual"
+      ],
+      "preparation": "Oil"
+    },
+    {
+      "pm": "BRS2-FM3-PM7",
+      "food": "sunflower-lecithin",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/sunflower-lecithin.md#substance_relationships/Choline",
+        "docs/foods/sunflower-lecithin.md#nutrition_supplementary_sources/choline_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM3-PM7",
+      "food": "sunflower-lecithin",
+      "substance": "phosphatidylcholine",
+      "source_records": [
+        "docs/foods/sunflower-lecithin.md#substance_relationships/Phosphatidylcholine",
+        "docs/foods/sunflower-lecithin.md#nutrition_supplementary_sources/phosphatidylcholine_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM3-PM7",
+      "food": "tempeh",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/tempeh.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM3-PM7",
+      "food": "tofu",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/tofu.md#substance_relationships/Choline"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS2-FM3-PM7",
+      "food": "trout-roe",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/trout-roe.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM3-PM7",
+      "food": "trout-roe",
+      "substance": "phosphatidylcholine",
+      "source_records": [
+        "docs/foods/trout-roe.md#substance_relationships/Phosphatidylcholine",
+        "docs/foods/trout-roe.md#nutrition_supplementary_sources/phosphatidylcholine_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS2-FM3-PM7",
+      "food": "wheat-germ",
+      "substance": "choline",
+      "source_records": [
+        "docs/foods/wheat-germ.md#substance_relationships/Choline"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS3-FM1-PM1",
+      "food": "lentils",
+      "substance": "cysteine",
+      "source_records": [
+        "docs/foods/lentils.md#substance_relationships/Cysteine"
+      ],
+      "preparation": "cooked"
+    },
+    {
+      "pm": "BRS3-FM1-PM2",
+      "food": "lentils",
+      "substance": "cysteine",
+      "source_records": [
+        "docs/foods/lentils.md#substance_relationships/Cysteine"
+      ],
+      "preparation": "cooked"
+    },
+    {
+      "pm": "BRS3-FM2-PM4",
+      "food": "cockles",
+      "substance": "selenium",
+      "source_records": [
+        "docs/foods/cockles.md#substance_relationships/Selenium",
+        "docs/foods/cockles.md#nutrition_supplementary_sources/selenium_qual"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS3-FM2-PM4",
+      "food": "cockles",
+      "substance": "zinc",
+      "source_records": [
+        "docs/foods/cockles.md#substance_relationships/Zinc"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS3-FM2-PM4",
+      "food": "dark-meat-poultry",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/dark-meat-poultry.md#substance_relationships/Iron"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS3-FM2-PM4",
+      "food": "grass-fed-butter",
+      "substance": "selenium",
+      "source_records": [
+        "docs/foods/grass-fed-butter.md#substance_relationships/Selenium"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS3-FM2-PM4",
+      "food": "mankai",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/mankai.md#substance_relationships/Iron",
+        "docs/foods/mankai.md#nutrition_supplementary_sources/iron_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS3-FM2-PM4",
+      "food": "sourdough-bread",
+      "substance": "copper",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Copper"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS3-FM2-PM4",
+      "food": "sourdough-bread",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Iron"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS3-FM2-PM4",
+      "food": "sourdough-bread",
+      "substance": "manganese",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Manganese"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS3-FM2-PM4",
+      "food": "sourdough-bread",
+      "substance": "zinc",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Zinc"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS3-FM2-PM4",
+      "food": "whole-grains",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/whole-grains.md#substance_relationships/Iron"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS3-FM2-PM4",
+      "food": "whole-grains",
+      "substance": "zinc",
+      "source_records": [
+        "docs/foods/whole-grains.md#substance_relationships/Zinc"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS3-FM2-PM5",
+      "food": "avocado-oil",
+      "substance": "vitamin-e",
+      "source_records": [
+        "docs/foods/avocado-oil.md#substance_relationships/Vitamin%20E"
+      ],
+      "preparation": "Oil"
+    },
+    {
+      "pm": "BRS3-FM2-PM5",
+      "food": "cockles",
+      "substance": "selenium",
+      "source_records": [
+        "docs/foods/cockles.md#substance_relationships/Selenium",
+        "docs/foods/cockles.md#nutrition_supplementary_sources/selenium_qual"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS3-FM2-PM5",
+      "food": "grass-fed-butter",
+      "substance": "selenium",
+      "source_records": [
+        "docs/foods/grass-fed-butter.md#substance_relationships/Selenium"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS3-FM2-PM5",
+      "food": "wheat-germ",
+      "substance": "vitamin-e",
+      "source_records": [
+        "docs/foods/wheat-germ.md#substance_relationships/Vitamin%20E"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS3-FM2-PM6",
+      "food": "avocado-oil",
+      "substance": "vitamin-e",
+      "source_records": [
+        "docs/foods/avocado-oil.md#substance_relationships/Vitamin%20E"
+      ],
+      "preparation": "Oil"
+    },
+    {
+      "pm": "BRS3-FM2-PM6",
+      "food": "cockles",
+      "substance": "selenium",
+      "source_records": [
+        "docs/foods/cockles.md#substance_relationships/Selenium",
+        "docs/foods/cockles.md#nutrition_supplementary_sources/selenium_qual"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS3-FM2-PM6",
+      "food": "grass-fed-butter",
+      "substance": "selenium",
+      "source_records": [
+        "docs/foods/grass-fed-butter.md#substance_relationships/Selenium"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS3-FM2-PM6",
+      "food": "wheat-germ",
+      "substance": "vitamin-e",
+      "source_records": [
+        "docs/foods/wheat-germ.md#substance_relationships/Vitamin%20E"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS3-FM3-PM7",
+      "food": "algal-oil",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/algal-oil.md#substance_relationships/DHA"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS3-FM3-PM7",
+      "food": "cockles",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/cockles.md#substance_relationships/DHA",
+        "docs/foods/cockles.md#nutrition_supplementary_sources/dha_qual"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS3-FM3-PM7",
+      "food": "lumpfish-roe",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/lumpfish-roe.md#substance_relationships/DHA",
+        "docs/foods/lumpfish-roe.md#nutrition_supplementary_sources/dha_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS3-FM3-PM7",
+      "food": "trout-roe",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/trout-roe.md#substance_relationships/DHA"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS3-FM3-PM8",
+      "food": "algal-oil",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/algal-oil.md#substance_relationships/DHA"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS3-FM3-PM8",
+      "food": "cockles",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/cockles.md#substance_relationships/DHA",
+        "docs/foods/cockles.md#nutrition_supplementary_sources/dha_qual"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS3-FM3-PM8",
+      "food": "cockles",
+      "substance": "epa-eicosapentaenoic-acid",
+      "source_records": [
+        "docs/foods/cockles.md#substance_relationships/EPA",
+        "docs/foods/cockles.md#nutrition_supplementary_sources/epa_qual"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS3-FM3-PM8",
+      "food": "lumpfish-roe",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/lumpfish-roe.md#substance_relationships/DHA",
+        "docs/foods/lumpfish-roe.md#nutrition_supplementary_sources/dha_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS3-FM3-PM8",
+      "food": "lumpfish-roe",
+      "substance": "epa-eicosapentaenoic-acid",
+      "source_records": [
+        "docs/foods/lumpfish-roe.md#substance_relationships/EPA",
+        "docs/foods/lumpfish-roe.md#nutrition_supplementary_sources/epa_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS3-FM3-PM8",
+      "food": "trout-roe",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/trout-roe.md#substance_relationships/DHA"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS3-FM3-PM8",
+      "food": "trout-roe",
+      "substance": "epa-eicosapentaenoic-acid",
+      "source_records": [
+        "docs/foods/trout-roe.md#substance_relationships/EPA"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS4-FM1-PM1",
+      "food": "dark-meat-poultry",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/dark-meat-poultry.md#substance_relationships/Iron"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS4-FM1-PM1",
+      "food": "mankai",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/mankai.md#substance_relationships/Iron",
+        "docs/foods/mankai.md#nutrition_supplementary_sources/iron_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS4-FM1-PM1",
+      "food": "milk",
+      "substance": "flavin-mononucleotide",
+      "source_records": [
+        "docs/foods/milk.md#substance_relationships/Flavin%20mononucleotide"
+      ],
+      "preparation": "heat-treated; method-specific"
+    },
+    {
+      "pm": "BRS4-FM1-PM1",
+      "food": "sourdough-bread",
+      "substance": "copper",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Copper"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS4-FM1-PM1",
+      "food": "sourdough-bread",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Iron"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS4-FM1-PM1",
+      "food": "whole-grains",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/whole-grains.md#substance_relationships/Iron"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS4-FM1-PM10",
+      "food": "dark-meat-poultry",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/dark-meat-poultry.md#substance_relationships/Iron"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS4-FM1-PM10",
+      "food": "mankai",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/mankai.md#substance_relationships/Iron",
+        "docs/foods/mankai.md#nutrition_supplementary_sources/iron_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS4-FM1-PM10",
+      "food": "sourdough-bread",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Iron"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS4-FM1-PM10",
+      "food": "whole-grains",
+      "substance": "iron",
+      "source_records": [
+        "docs/foods/whole-grains.md#substance_relationships/Iron"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS4-FM1-PM2",
+      "food": "milk",
+      "substance": "nicotinamide-riboside",
+      "source_records": [
+        "docs/foods/milk.md#substance_relationships/Nicotinamide%20riboside"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS4-FM1-PM3",
+      "food": "beef",
+      "substance": "creatine",
+      "source_records": [
+        "docs/foods/beef.md#substance_relationships/Creatine"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS4-FM1-PM3",
+      "food": "lamb",
+      "substance": "creatine",
+      "source_records": [
+        "docs/foods/lamb.md#substance_relationships/Creatine",
+        "docs/foods/lamb.md#nutrition_supplementary_sources/creatine_qual"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS4-FM1-PM3",
+      "food": "liver",
+      "substance": "creatine",
+      "source_records": [
+        "docs/foods/liver.md#substance_relationships/Creatine",
+        "docs/foods/liver.md#nutrition_supplementary_sources/creatine_qual"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS4-FM1-PM3",
+      "food": "pork",
+      "substance": "creatine",
+      "source_records": [
+        "docs/foods/pork.md#substance_relationships/Creatine",
+        "docs/foods/pork.md#nutrition_supplementary_sources/creatine_qual"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS4-FM1-PM3",
+      "food": "tuna",
+      "substance": "creatine",
+      "source_records": [
+        "docs/foods/tuna.md#substance_relationships/Creatine"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS4-FM2-PM5",
+      "food": "avocado-oil",
+      "substance": "vitamin-e",
+      "source_records": [
+        "docs/foods/avocado-oil.md#substance_relationships/Vitamin%20E"
+      ],
+      "preparation": "Oil"
+    },
+    {
+      "pm": "BRS4-FM2-PM5",
+      "food": "sourdough-bread",
+      "substance": "manganese",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Manganese"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS4-FM2-PM5",
+      "food": "wheat-germ",
+      "substance": "vitamin-e",
+      "source_records": [
+        "docs/foods/wheat-germ.md#substance_relationships/Vitamin%20E"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS5-FM1-PM1",
+      "food": "beef",
+      "substance": "glutamine",
+      "source_records": [
+        "docs/foods/beef.md#substance_relationships/Glutamine"
+      ],
+      "preparation": "form not known"
+    },
+    {
+      "pm": "BRS5-FM1-PM1",
+      "food": "cockles",
+      "substance": "zinc",
+      "source_records": [
+        "docs/foods/cockles.md#substance_relationships/Zinc"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS5-FM1-PM1",
+      "food": "eggs",
+      "substance": "glutamine",
+      "source_records": [
+        "docs/foods/eggs.md#substance_relationships/Glutamine"
+      ],
+      "preparation": "form not known"
+    },
+    {
+      "pm": "BRS5-FM1-PM1",
+      "food": "grass-fed-butter",
+      "substance": "vitamin-a",
+      "source_records": [
+        "docs/foods/grass-fed-butter.md#substance_relationships/Vitamin%20A"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS5-FM1-PM1",
+      "food": "sourdough-bread",
+      "substance": "zinc",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Zinc"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS5-FM1-PM1",
+      "food": "tofu",
+      "substance": "glutamine",
+      "source_records": [
+        "docs/foods/tofu.md#substance_relationships/Glutamine"
+      ],
+      "preparation": "form not known"
+    },
+    {
+      "pm": "BRS5-FM1-PM1",
+      "food": "whole-grains",
+      "substance": "zinc",
+      "source_records": [
+        "docs/foods/whole-grains.md#substance_relationships/Zinc"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS5-FM2-PM4",
+      "food": "peas",
+      "substance": "arabinan",
+      "source_records": [
+        "docs/foods/peas.md#substance_relationships/Arabinan"
+      ],
+      "preparation": "raw cotyledons"
+    },
+    {
+      "pm": "BRS5-FM2-PM6",
+      "food": "cacao-nibs-raw",
+      "substance": "epicatechin",
+      "source_records": [
+        "docs/foods/cacao-nibs-raw.md#substance_relationships/Epicatechin",
+        "docs/foods/cacao-nibs-raw.md#nutrition_supplementary_sources/epicatechin_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS5-FM2-PM6",
+      "food": "cacao-powder",
+      "substance": "epicatechin",
+      "source_records": [
+        "docs/foods/cacao-powder.md#substance_relationships/Epicatechin"
+      ],
+      "preparation": "dry powder"
+    },
+    {
+      "pm": "BRS5-FM2-PM6",
+      "food": "cocoa",
+      "substance": "epicatechin",
+      "source_records": [
+        "docs/foods/cocoa.md#substance_relationships/Epicatechin"
+      ],
+      "preparation": "dry powder"
+    },
+    {
+      "pm": "BRS5-FM2-PM6",
+      "food": "dark-chocolate",
+      "substance": "epicatechin",
+      "source_records": [
+        "docs/foods/dark-chocolate.md#substance_relationships/Epicatechin"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS5-FM2-PM6",
+      "food": "walnuts",
+      "substance": "ellagitannins",
+      "source_records": [
+        "docs/foods/walnuts.md#substance_relationships/Ellagitannins"
+      ],
+      "preparation": "Walnut kernels; assay-specific extraction"
+    },
+    {
+      "pm": "BRS6-FM1-PM3",
+      "food": "sourdough-bread",
+      "substance": "magnesium",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Magnesium"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS6-FM1-PM3",
+      "food": "whole-grains",
+      "substance": "magnesium",
+      "source_records": [
+        "docs/foods/whole-grains.md#substance_relationships/Magnesium"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS6-FM4-PM8",
+      "food": "algal-oil",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/algal-oil.md#substance_relationships/DHA"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS6-FM4-PM8",
+      "food": "cockles",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/cockles.md#substance_relationships/DHA",
+        "docs/foods/cockles.md#nutrition_supplementary_sources/dha_qual"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS6-FM4-PM8",
+      "food": "lumpfish-roe",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/lumpfish-roe.md#substance_relationships/DHA",
+        "docs/foods/lumpfish-roe.md#nutrition_supplementary_sources/dha_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS6-FM4-PM8",
+      "food": "trout-roe",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/trout-roe.md#substance_relationships/DHA"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS-X(ECS-PM1)",
+      "food": "cockles",
+      "substance": "zinc",
+      "source_records": [
+        "docs/foods/cockles.md#substance_relationships/Zinc"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS-X(ECS-PM1)",
+      "food": "sourdough-bread",
+      "substance": "zinc",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Zinc"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS-X(ECS-PM1)",
+      "food": "whole-grains",
+      "substance": "zinc",
+      "source_records": [
+        "docs/foods/whole-grains.md#substance_relationships/Zinc"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS-X(ECS-PM2)",
+      "food": "algal-oil",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/algal-oil.md#substance_relationships/DHA"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS-X(ECS-PM2)",
+      "food": "cockles",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/cockles.md#substance_relationships/DHA",
+        "docs/foods/cockles.md#nutrition_supplementary_sources/dha_qual"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS-X(ECS-PM2)",
+      "food": "cockles",
+      "substance": "epa-eicosapentaenoic-acid",
+      "source_records": [
+        "docs/foods/cockles.md#substance_relationships/EPA",
+        "docs/foods/cockles.md#nutrition_supplementary_sources/epa_qual"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS-X(ECS-PM2)",
+      "food": "lumpfish-roe",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/lumpfish-roe.md#substance_relationships/DHA",
+        "docs/foods/lumpfish-roe.md#nutrition_supplementary_sources/dha_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS-X(ECS-PM2)",
+      "food": "lumpfish-roe",
+      "substance": "epa-eicosapentaenoic-acid",
+      "source_records": [
+        "docs/foods/lumpfish-roe.md#substance_relationships/EPA",
+        "docs/foods/lumpfish-roe.md#nutrition_supplementary_sources/epa_qual"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS-X(ECS-PM2)",
+      "food": "trout-roe",
+      "substance": "dha-docosahexaenoic-acid",
+      "source_records": [
+        "docs/foods/trout-roe.md#substance_relationships/DHA"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS-X(ECS-PM2)",
+      "food": "trout-roe",
+      "substance": "epa-eicosapentaenoic-acid",
+      "source_records": [
+        "docs/foods/trout-roe.md#substance_relationships/EPA"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS-X(Hormones-PM5)",
+      "food": "cockles",
+      "substance": "zinc",
+      "source_records": [
+        "docs/foods/cockles.md#substance_relationships/Zinc"
+      ],
+      "preparation": "raw"
+    },
+    {
+      "pm": "BRS-X(Hormones-PM5)",
+      "food": "sourdough-bread",
+      "substance": "zinc",
+      "source_records": [
+        "docs/foods/sourdough-bread.md#substance_relationships/Zinc"
+      ],
+      "preparation": null
+    },
+    {
+      "pm": "BRS-X(Hormones-PM5)",
+      "food": "whole-grains",
+      "substance": "zinc",
+      "source_records": [
+        "docs/foods/whole-grains.md#substance_relationships/Zinc"
+      ],
+      "preparation": null
+    }
+  ]
+}

@@ -1,0 +1,2419 @@
+[
+  {
+    "relationship_id": "BRS1-FM2-PM6::PM6-DIT-2",
+    "pm": "BRS1-FM2-PM6",
+    "source_file": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
+    "source_sha256": "7945e915f57b19cd1749b280c5bd9c648c493583120719ecfec304a9101cc08a",
+    "priority_group": 1,
+    "proposal_status": "awaiting-author-approval",
+    "decision_required": "Approve metadata reconciliation only; retain six-man single-dose supplement tracer context, not ordinary-food equivalence or brain acetylcholine synthesis.",
+    "original_atom": {
+      "atom_id": "PM6-DIT-2",
+      "dietary_input": true,
+      "dietary_input_note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+      "input": "Phosphatidylcholine",
+      "input_type": "substrate provision",
+      "biological_role": "Dietary choline-containing phospholipid that is digested and remodelled, producing circulating choline as one route to the direct choline substrate",
+      "evidence_source": {
+        "finding_ids": [
+          "PM6-F4"
+        ],
+        "citation_keys": [
+          "bockmann_choline_supplements_2023"
+        ]
+      },
+      "evidence_limitation": "Human tracer evidence establishes phosphatidylcholine as a choline-provision route; it does not show delivery to cholinergic terminals or increased brain acetylcholine synthesis."
+    },
+    "original_overlay": {
+      "atom_id": "PM6-DIT-2",
+      "requirement_classification": "derived",
+      "relationship_mode": "capacity-requirement",
+      "derived_target": "Choline",
+      "derived_target_atom_id": "PM6-DIT-1",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "precursor-mediated",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "Phosphatidylcholine is a Derived Dietary Requirement because digestion and remodelling provide choline. It is a provision route, not a second acetylcholine-synthesis substrate.",
+      "evidence_limitation": "Human tracer evidence establishes phosphatidylcholine as a choline-provision route; it does not show delivery to cholinergic terminals or increased brain acetylcholine synthesis."
+    },
+    "original_supporting_findings": [
+      {
+        "id": "PM6-F4",
+        "finding_label": "Dietary phosphatidylcholine is a choline-provision route",
+        "finding_summary": "Phosphatidylcholine is a choline-containing dietary form that is digested, absorbed, and remodelled. It provides choline but is not a second substrate in the ChAT reaction.",
+        "finding_interpretation": "Represent phosphatidylcholine as Derived provision to choline, not as an independent acetylcholine-synthesis requirement.",
+        "finding_statement": "Dietary phosphatidylcholine is digested and remodelled into circulating phosphatidylcholine and free choline, establishing a dietary provision route to the direct choline substrate.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "synthesis": "In a randomized crossover tracer study in six healthy men, labelled phosphatidylcholine produced a delayed rise in labelled plasma choline and a larger phosphatidylcholine exposure than water-soluble choline forms. The tracer results directly establish digestion and systemic assimilation as a choline-containing dietary route.",
+        "synthesis_limitations": "Small single-dose study in healthy men. Plasma appearance does not measure delivery to cholinergic terminals, acetylcholine synthesis, neurotransmitter release, attention, or clinical benefit.",
+        "evidence_considered": [
+          {
+            "label": "B\u00f6ckmann et al. (2023)",
+            "citation_key": "bockmann_choline_supplements_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023",
+            "data_level": "Human Mechanistic",
+            "exposure_context": "isolated-substance",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Oral labelled phosphatidylcholine produced delayed circulating labelled choline and the highest labelled phosphatidylcholine exposure among four tested choline forms.",
+            "assessment": {
+              "study": "Randomized crossover stable-isotope comparison of four oral choline forms.",
+              "population": "Six healthy adult men.",
+              "result": "Phosphatidylcholine was digested and remodelled, with delayed plasma choline appearance and higher plasma phosphatidylcholine exposure.",
+              "effect_magnitude": "Delayed choline peak and approximately 2.3-fold higher peak labelled phosphatidylcholine than water-soluble forms.",
+              "evidence_summary": "Establishes phosphatidylcholine as an assimilated choline-provision route.",
+              "limitations": "Small sample; supplement bolus rather than whole food; no brain or acetylcholine measurement."
+            }
+          }
+        ],
+        "presentation": "mechanistic-basis"
+      }
+    ],
+    "existing_assessment": null,
+    "proposed_dietary_input_assessment": {
+      "atom_id": "PM6-DIT-2",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Maintain the capacity to form acetylcholine so cholinergic signalling for attention, working memory, and learning stays supplied.",
+      "canonical_substance_id": "phosphatidylcholine",
+      "active_target_id": "choline",
+      "record_origin": "PROPOSAL ONLY: reconciliation of existing admitted Derived route; no new admission, SEC or publication permission.",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Dietary choline-containing phospholipid that is digested and remodelled, producing circulating choline as one route to the direct choline substrate",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Dietary choline-containing phospholipid that is digested and remodelled, producing circulating choline as one route to the direct choline substrate",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023"
+        ]
+      },
+      "conversion_pathway": [
+        {
+          "from": "phosphatidylcholine",
+          "to": "choline",
+          "process": "Digestion and remodelling of dietary phosphatidylcholine supplies circulating choline.",
+          "dependencies": [],
+          "limitations": "Human tracer evidence establishes phosphatidylcholine as a choline-provision route; it does not show delivery to cholinergic terminals or increased brain acetylcholine synthesis. Small single-dose study in healthy men. Plasma appearance does not measure delivery to cholinergic terminals, acetylcholine synthesis, neurotransmitter release, attention, or clinical benefit.",
+          "evidence": {
+            "statement": "Dietary choline-containing phospholipid that is digested and remodelled, producing circulating choline as one route to the direct choline substrate",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Human tracer evidence establishes phosphatidylcholine as a choline-provision route; it does not show delivery to cholinergic terminals or increased brain acetylcholine synthesis.",
+        "Small single-dose study in healthy men. Plasma appearance does not measure delivery to cholinergic terminals, acetylcholine synthesis, neurotransmitter release, attention, or clinical benefit."
+      ],
+      "provenance": [
+        "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
+        "docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023"
+      ]
+    },
+    "publication_boundary": "No source hold or projection block released; no downstream quantity, efficiency, clinical benefit, new direct admission or KC/inventory reclassification.",
+    "source_access": "Canonical records and previously recorded appraisals inspected. No new original-paper full-text verification claimed.",
+    "schema_validation": {
+      "status": "admitted",
+      "eligibility": {
+        "eligible": true,
+        "state": "eligible-candidate"
+      },
+      "errors": []
+    }
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM1::PM1-DIT-2",
+    "pm": "BRS2-FM1-PM1",
+    "source_file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+    "source_sha256": "afeea6ae0840eedc688fa9d2d55d85c260a464bc98b1bc31d7f8e6429809674c",
+    "priority_group": 1,
+    "proposal_status": "awaiting-author-approval",
+    "decision_required": "Approve metadata reconciliation; distinguish folic acid from reduced food folates and preserve circulating homocysteine versus tissue-flux boundary. Approve the existing display name as an exact alias for vitamin-b9; current registry label validation does not accept the parenthetical name.",
+    "original_atom": {
+      "atom_id": "PM1-DIT-2",
+      "dietary_input": true,
+      "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+      "input": "Vitamin B9 (folate)",
+      "input_type": "substrate provision",
+      "biological_role": "Dietary folate, including folic acid reduced by dihydrofolate reductase, is converted through the folate cycle to 5-methyltetrahydrofolate, the methyl donor used by methionine synthase.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "froese_vitamin_2019"
+        ]
+      },
+      "evidence_limitation": "This conversion pathway does not show that increasing folate intake increases tissue remethylation flux. Folic acid lowers blood homocysteine, which is a circulating marker.",
+      "substance_id": "vitamin-b9",
+      "kc_id": "BRS2(KC1)",
+      "ikc_id": "BRS2-KC1-KIT-1",
+      "relationship_type": "supported-upstream-supply",
+      "canonical_identity": {
+        "status": "resolved",
+        "substance_id": "vitamin-b9",
+        "substance_href": "/docs/substances/nutrients/micronutrients/vitamins/vitamin-b9",
+        "verified_against": [
+          "registry/substances.json",
+          "docs/substances/nutrients/micronutrients/vitamins/vitamin-b9.md"
+        ]
+      }
+    },
+    "original_overlay": {
+      "atom_id": "PM1-DIT-2",
+      "requirement_classification": "derived",
+      "derived_target": "5-Methyltetrahydrofolate",
+      "derived_target_atom_id": "PM1-DIT-1",
+      "relationship_mode": "capacity-requirement",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "precursor-mediated",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "Folate provides 5-methyltetrahydrofolate after reduction and folate-cycle conversion. This provision relationship does not establish that more folate increases tissue methionine-synthase flux.",
+      "evidence_limitation": "This conversion pathway does not show that increasing folate intake increases tissue remethylation flux. Folic acid lowers blood homocysteine, which is a circulating marker."
+    },
+    "original_supporting_findings": [
+      {
+        "id": "PM1-F1",
+        "finding_label": "Methionine synthase remethylates homocysteine",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": true,
+        "finding_summary": "Methionine synthase transfers the methyl group of 5-methyltetrahydrofolate to homocysteine, producing methionine and tetrahydrofolate. Methylcobalamin carries that methyl group. Betaine remethylation, SAMe synthesis, transsulfuration and phospholipid methylation are different reactions.",
+        "finding_interpretation": "This defines the reaction and its direct participants. It does not show that eating more folate or vitamin B12 speeds the reaction in human tissues, and it does not make riboflavin a cofactor of the synthase.",
+        "finding_statement": "Cobalamin-dependent methionine synthase transfers the methyl group of 5-methyltetrahydrofolate to homocysteine, producing methionine and tetrahydrofolate, and uses methylcobalamin as its cofactor. Betaine-dependent remethylation, methionine adenosyltransferase, transsulfuration and phosphatidylethanolamine methylation are separate reactions.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "synthesis": "A human-pathway review states the reaction directly: methionine synthase (MTR) converts homocysteine plus 5-methyltetrahydrofolate to methionine plus tetrahydrofolate and requires the methylated form of cobalamin. Methylenetetrahydrofolate reductase produces that folate substrate. Betaine-homocysteine methyltransferase is a separate, mainly liver and kidney route. Methionine adenosyltransferase then converts methionine to SAMe, and cystathionine beta-synthase starts transsulfuration. The review also traces dietary folate, including folic acid reduced by dihydrofolate reductase, into 5-methyltetrahydrofolate, and dietary cobalamin through absorption and intracellular processing onto the enzyme as methylcobalamin.",
+        "synthesis_limitations": "The primary source is a biochemical review, not a new human flux study. Reaction identity does not show that ordinary dietary intake controls tissue remethylation rate, and it does not assign clinical benefit. Phosphatidylethanolamine methylation is a later SAMe-consuming reaction, not part of this step.",
+        "evidence_considered": [
+          {
+            "label": "Froese et al. (2019)",
+            "citation_key": "froese_vitamin_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#froese_vitamin_2019",
+            "data_level": "Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Methionine synthase uses methylcobalamin to remethylate homocysteine with 5-methyltetrahydrofolate, producing methionine and tetrahydrofolate. Parallel and downstream reactions are named separately.",
+            "assessment": {
+              "study": "Narrative review of cobalamin absorption, intracellular cofactor processing, folate-mediated one-carbon metabolism and methionine-cycle regulation.",
+              "population": "No new participants. The review synthesises human pathway biochemistry and inherited disorders of cobalamin and folate metabolism.",
+              "result": "Methionine synthase (MTR, EC 2.1.1.13) catalyses homocysteine plus 5-methyltetrahydrofolate to methionine plus tetrahydrofolate and requires methylcobalamin. Methylenetetrahydrofolate reductase produces 5-methyltetrahydrofolate. Betaine-homocysteine methyltransferase is an alternative remethylation enzyme, mainly in liver and kidney. Methionine adenosyltransferase converts methionine and ATP to SAMe. Cystathionine beta-synthase combines homocysteine with serine to start transsulfuration. Dietary folic acid is reduced to tetrahydrofolate by dihydrofolate reductase, and dietary cobalamin is processed to methylcobalamin on the synthase.",
+              "effect_magnitude": "No new numeric effect size. The result is reaction identity and pathway separation.",
+              "evidence_summary": "Direct statement of the human methionine synthase reaction, its methylcobalamin cofactor, the folate route to its substrate, and the neighbouring reactions this PM does not include.",
+              "limitations": "A review does not measure tissue remethylation flux, ordinary-diet dose response, or a cognitive or attention outcome."
+            }
+          },
+          {
+            "label": "Wolthers et al. (2007)",
+            "citation_key": "wolthers_msr_flavins_2007",
+            "href": "/docs/papers/BRAIN-Diet-References#wolthers_msr_flavins_2007",
+            "data_level": "Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "exposure_context": "Purified enzyme and coenzymes.",
+            "directional_finding": "Purified human methionine-synthase reductase contains both flavins and transfers reducing equivalents to methionine synthase.",
+            "assessment": {
+              "study": "Human reductase module crystallography and coenzyme-binding experiments.",
+              "population": "Recombinant human enzyme; no dietary participant cohort.",
+              "result": "Purified human methionine-synthase reductase contains both flavins and transfers reducing equivalents to methionine synthase.",
+              "effect_magnitude": "No additional magnitude inferred.",
+              "evidence_summary": "Purified human methionine-synthase reductase contains both flavins and transfers reducing equivalents to methionine synthase.",
+              "limitations": "Foundational human-enzyme cofactor provenance supports capacity; it is not a measurement of dietary riboflavin-induced remethylation flux, brain methylation or benefit above adequacy. FMN is also required; FAD is the endpoint of the displayed activation chain, not its sole functional cofactor.",
+              "retrieval_scope": "Primary abstract retrieved 26 October 2026; full methods and supplements not extracted."
+            }
+          }
+        ],
+        "connected_supportive_evidence": [
+          {
+            "label": "Arag\u00e3o et al. (2024)",
+            "citation_key": "aragao_revitalising_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024",
+            "data_level": "Mechanistic",
+            "why_relevant": "Riboflavin is often discussed beside folate-cycle enzymes, so this review was checked against the synthase reaction.",
+            "why_excluded": "Its abstract describes general riboflavin physiology. It does not state the methionine synthase reaction, methylcobalamin dependence, or separation from betaine remethylation."
+          }
+        ]
+      }
+    ],
+    "existing_assessment": null,
+    "proposed_dietary_input_assessment": {
+      "atom_id": "PM1-DIT-2",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Recycle homocysteine to methionine through folate and B12 so methyl-donor supply and homocysteine control stay supported.",
+      "canonical_substance_id": "vitamin-b9",
+      "active_target_id": "5-methyltetrahydrofolate",
+      "record_origin": "PROPOSAL ONLY: reconciliation of existing admitted Derived route; no new admission, SEC or publication permission.",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Dietary folate, including folic acid reduced by dihydrofolate reductase, is converted through the folate cycle to 5-methyltetrahydrofolate, the methyl donor used by methionine synthase.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#froese_vitamin_2019"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Dietary folate, including folic acid reduced by dihydrofolate reductase, is converted through the folate cycle to 5-methyltetrahydrofolate, the methyl donor used by methionine synthase.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#froese_vitamin_2019"
+        ]
+      },
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b9",
+          "to": "5-methyltetrahydrofolate",
+          "process": "Form-dependent folate processing and folate-cycle conversion supply 5-methyltetrahydrofolate; folic acid requires reduction.",
+          "dependencies": [],
+          "limitations": "This conversion pathway does not show that increasing folate intake increases tissue remethylation flux. Folic acid lowers blood homocysteine, which is a circulating marker. The primary source is a biochemical review, not a new human flux study. Reaction identity does not show that ordinary dietary intake controls tissue remethylation rate, and it does not assign clinical benefit. Phosphatidylethanolamine methylation is a later SAMe-consuming reaction, not part of this step.",
+          "evidence": {
+            "statement": "Dietary folate, including folic acid reduced by dihydrofolate reductase, is converted through the folate cycle to 5-methyltetrahydrofolate, the methyl donor used by methionine synthase.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#froese_vitamin_2019"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "This conversion pathway does not show that increasing folate intake increases tissue remethylation flux. Folic acid lowers blood homocysteine, which is a circulating marker.",
+        "The primary source is a biochemical review, not a new human flux study. Reaction identity does not show that ordinary dietary intake controls tissue remethylation rate, and it does not assign clinical benefit. Phosphatidylethanolamine methylation is a later SAMe-consuming reaction, not part of this step."
+      ],
+      "provenance": [
+        "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+        "docs/papers/BRAIN-Diet-References#froese_vitamin_2019"
+      ]
+    },
+    "publication_boundary": "No source hold or projection block released; no downstream quantity, efficiency, clinical benefit, new direct admission or KC/inventory reclassification.",
+    "source_access": "Canonical records and previously recorded appraisals inspected. No new original-paper full-text verification claimed.",
+    "schema_validation": {
+      "status": "unresolved",
+      "eligibility": {
+        "eligible": true,
+        "state": "eligible-candidate"
+      },
+      "errors": [
+        "canonical-input-identity-mismatch"
+      ]
+    },
+    "proposed_identity_correction": {
+      "kind": "exact-existing-display-name-alias",
+      "canonical_id": "vitamin-b9",
+      "alias": "Vitamin B9 (folate)",
+      "approval_required": true
+    }
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM1::PM1-DIT-4",
+    "pm": "BRS2-FM1-PM1",
+    "source_file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+    "source_sha256": "afeea6ae0840eedc688fa9d2d55d85c260a464bc98b1bc31d7f8e6429809674c",
+    "priority_group": 1,
+    "proposal_status": "awaiting-author-approval",
+    "decision_required": "Approve metadata reconciliation; do not treat every dietary B12 form as already methylcobalamin or equate homocysteine lowering with tissue flux. Approve the existing display name as an exact alias for vitamin-b12; current registry label validation does not accept the parenthetical name.",
+    "original_atom": {
+      "atom_id": "PM1-DIT-4",
+      "dietary_input": true,
+      "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+      "input": "Vitamin B12 (cobalamin)",
+      "input_type": "cofactor precursor",
+      "biological_role": "Dietary cobalamin is absorbed and processed intracellularly to the methylcobalamin cofactor used by methionine synthase.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "froese_vitamin_2019"
+        ]
+      },
+      "evidence_limitation": "Provision of vitamin B12 does not show that increasing intake raises tissue remethylation flux. Added vitamin B12 further lowered blood homocysteine beyond folic acid in pooled trials, which remains a circulating marker."
+    },
+    "original_overlay": {
+      "atom_id": "PM1-DIT-4",
+      "requirement_classification": "derived",
+      "derived_target": "Methylcobalamin",
+      "derived_target_atom_id": "PM1-DIT-3",
+      "relationship_mode": "capacity-requirement",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "precursor-mediated",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "Vitamin B12 provides the cobalamin that cells process to methylcobalamin. This does not establish that increasing vitamin B12 intake increases tissue remethylation flux.",
+      "evidence_limitation": "Provision of vitamin B12 does not show that increasing intake raises tissue remethylation flux. Added vitamin B12 further lowered blood homocysteine beyond folic acid in pooled trials, which remains a circulating marker."
+    },
+    "original_supporting_findings": [
+      {
+        "id": "PM1-F1",
+        "finding_label": "Methionine synthase remethylates homocysteine",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": true,
+        "finding_summary": "Methionine synthase transfers the methyl group of 5-methyltetrahydrofolate to homocysteine, producing methionine and tetrahydrofolate. Methylcobalamin carries that methyl group. Betaine remethylation, SAMe synthesis, transsulfuration and phospholipid methylation are different reactions.",
+        "finding_interpretation": "This defines the reaction and its direct participants. It does not show that eating more folate or vitamin B12 speeds the reaction in human tissues, and it does not make riboflavin a cofactor of the synthase.",
+        "finding_statement": "Cobalamin-dependent methionine synthase transfers the methyl group of 5-methyltetrahydrofolate to homocysteine, producing methionine and tetrahydrofolate, and uses methylcobalamin as its cofactor. Betaine-dependent remethylation, methionine adenosyltransferase, transsulfuration and phosphatidylethanolamine methylation are separate reactions.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "synthesis": "A human-pathway review states the reaction directly: methionine synthase (MTR) converts homocysteine plus 5-methyltetrahydrofolate to methionine plus tetrahydrofolate and requires the methylated form of cobalamin. Methylenetetrahydrofolate reductase produces that folate substrate. Betaine-homocysteine methyltransferase is a separate, mainly liver and kidney route. Methionine adenosyltransferase then converts methionine to SAMe, and cystathionine beta-synthase starts transsulfuration. The review also traces dietary folate, including folic acid reduced by dihydrofolate reductase, into 5-methyltetrahydrofolate, and dietary cobalamin through absorption and intracellular processing onto the enzyme as methylcobalamin.",
+        "synthesis_limitations": "The primary source is a biochemical review, not a new human flux study. Reaction identity does not show that ordinary dietary intake controls tissue remethylation rate, and it does not assign clinical benefit. Phosphatidylethanolamine methylation is a later SAMe-consuming reaction, not part of this step.",
+        "evidence_considered": [
+          {
+            "label": "Froese et al. (2019)",
+            "citation_key": "froese_vitamin_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#froese_vitamin_2019",
+            "data_level": "Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Methionine synthase uses methylcobalamin to remethylate homocysteine with 5-methyltetrahydrofolate, producing methionine and tetrahydrofolate. Parallel and downstream reactions are named separately.",
+            "assessment": {
+              "study": "Narrative review of cobalamin absorption, intracellular cofactor processing, folate-mediated one-carbon metabolism and methionine-cycle regulation.",
+              "population": "No new participants. The review synthesises human pathway biochemistry and inherited disorders of cobalamin and folate metabolism.",
+              "result": "Methionine synthase (MTR, EC 2.1.1.13) catalyses homocysteine plus 5-methyltetrahydrofolate to methionine plus tetrahydrofolate and requires methylcobalamin. Methylenetetrahydrofolate reductase produces 5-methyltetrahydrofolate. Betaine-homocysteine methyltransferase is an alternative remethylation enzyme, mainly in liver and kidney. Methionine adenosyltransferase converts methionine and ATP to SAMe. Cystathionine beta-synthase combines homocysteine with serine to start transsulfuration. Dietary folic acid is reduced to tetrahydrofolate by dihydrofolate reductase, and dietary cobalamin is processed to methylcobalamin on the synthase.",
+              "effect_magnitude": "No new numeric effect size. The result is reaction identity and pathway separation.",
+              "evidence_summary": "Direct statement of the human methionine synthase reaction, its methylcobalamin cofactor, the folate route to its substrate, and the neighbouring reactions this PM does not include.",
+              "limitations": "A review does not measure tissue remethylation flux, ordinary-diet dose response, or a cognitive or attention outcome."
+            }
+          },
+          {
+            "label": "Wolthers et al. (2007)",
+            "citation_key": "wolthers_msr_flavins_2007",
+            "href": "/docs/papers/BRAIN-Diet-References#wolthers_msr_flavins_2007",
+            "data_level": "Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "exposure_context": "Purified enzyme and coenzymes.",
+            "directional_finding": "Purified human methionine-synthase reductase contains both flavins and transfers reducing equivalents to methionine synthase.",
+            "assessment": {
+              "study": "Human reductase module crystallography and coenzyme-binding experiments.",
+              "population": "Recombinant human enzyme; no dietary participant cohort.",
+              "result": "Purified human methionine-synthase reductase contains both flavins and transfers reducing equivalents to methionine synthase.",
+              "effect_magnitude": "No additional magnitude inferred.",
+              "evidence_summary": "Purified human methionine-synthase reductase contains both flavins and transfers reducing equivalents to methionine synthase.",
+              "limitations": "Foundational human-enzyme cofactor provenance supports capacity; it is not a measurement of dietary riboflavin-induced remethylation flux, brain methylation or benefit above adequacy. FMN is also required; FAD is the endpoint of the displayed activation chain, not its sole functional cofactor.",
+              "retrieval_scope": "Primary abstract retrieved 26 October 2026; full methods and supplements not extracted."
+            }
+          }
+        ],
+        "connected_supportive_evidence": [
+          {
+            "label": "Arag\u00e3o et al. (2024)",
+            "citation_key": "aragao_revitalising_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024",
+            "data_level": "Mechanistic",
+            "why_relevant": "Riboflavin is often discussed beside folate-cycle enzymes, so this review was checked against the synthase reaction.",
+            "why_excluded": "Its abstract describes general riboflavin physiology. It does not state the methionine synthase reaction, methylcobalamin dependence, or separation from betaine remethylation."
+          }
+        ]
+      }
+    ],
+    "existing_assessment": null,
+    "proposed_dietary_input_assessment": {
+      "atom_id": "PM1-DIT-4",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Recycle homocysteine to methionine through folate and B12 so methyl-donor supply and homocysteine control stay supported.",
+      "canonical_substance_id": "vitamin-b12",
+      "active_target_id": "methylcobalamin",
+      "record_origin": "PROPOSAL ONLY: reconciliation of existing admitted Derived route; no new admission, SEC or publication permission.",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Dietary cobalamin is absorbed and processed intracellularly to the methylcobalamin cofactor used by methionine synthase.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#froese_vitamin_2019"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Dietary cobalamin is absorbed and processed intracellularly to the methylcobalamin cofactor used by methionine synthase.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#froese_vitamin_2019"
+        ]
+      },
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b12",
+          "to": "methylcobalamin",
+          "process": "Absorbed cobalamin undergoes intracellular processing to methylcobalamin used by methionine synthase.",
+          "dependencies": [],
+          "limitations": "Provision of vitamin B12 does not show that increasing intake raises tissue remethylation flux. Added vitamin B12 further lowered blood homocysteine beyond folic acid in pooled trials, which remains a circulating marker. The primary source is a biochemical review, not a new human flux study. Reaction identity does not show that ordinary dietary intake controls tissue remethylation rate, and it does not assign clinical benefit. Phosphatidylethanolamine methylation is a later SAMe-consuming reaction, not part of this step.",
+          "evidence": {
+            "statement": "Dietary cobalamin is absorbed and processed intracellularly to the methylcobalamin cofactor used by methionine synthase.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#froese_vitamin_2019"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Provision of vitamin B12 does not show that increasing intake raises tissue remethylation flux. Added vitamin B12 further lowered blood homocysteine beyond folic acid in pooled trials, which remains a circulating marker.",
+        "The primary source is a biochemical review, not a new human flux study. Reaction identity does not show that ordinary dietary intake controls tissue remethylation rate, and it does not assign clinical benefit. Phosphatidylethanolamine methylation is a later SAMe-consuming reaction, not part of this step."
+      ],
+      "provenance": [
+        "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+        "docs/papers/BRAIN-Diet-References#froese_vitamin_2019"
+      ]
+    },
+    "publication_boundary": "No source hold or projection block released; no downstream quantity, efficiency, clinical benefit, new direct admission or KC/inventory reclassification.",
+    "source_access": "Canonical records and previously recorded appraisals inspected. No new original-paper full-text verification claimed.",
+    "schema_validation": {
+      "status": "unresolved",
+      "eligibility": {
+        "eligible": true,
+        "state": "eligible-candidate"
+      },
+      "errors": [
+        "canonical-input-identity-mismatch"
+      ]
+    },
+    "proposed_identity_correction": {
+      "kind": "exact-existing-display-name-alias",
+      "canonical_id": "vitamin-b12",
+      "alias": "Vitamin B12 (cobalamin)",
+      "approval_required": true
+    }
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM2::PM2-DIT-2",
+    "pm": "BRS2-FM1-PM2",
+    "source_file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+    "source_sha256": "f79eda4ae11ad96d59a39f0a3eb9b47e36704e27357d8fd26d4ec5fec030c325",
+    "priority_group": 1,
+    "proposal_status": "awaiting-author-approval",
+    "decision_required": "Approve metadata reconciliation with the current expanded eight-man depletion-pilot limitation; do not use the shorter legacy overlay limitation alone.",
+    "original_atom": {
+      "atom_id": "PM2-DIT-2",
+      "dietary_input": true,
+      "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+      "input": "Choline",
+      "input_type": "precursor",
+      "biological_role": "Dietary precursor that can be oxidised to betaine, the methyl-donor substrate for BHMT",
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F2",
+          "PM2-F1"
+        ],
+        "citation_keys": [
+          "obeid_metabolic_2013",
+          "salvi_choline_2013",
+          "evans_betaine_2002"
+        ]
+      },
+      "evidence_limitation": "Choline oxidation can supply betaine, but increasing choline intake has not been shown to increase tissue BHMT flux. Human evidence is an eight-man depletion pilot, with the challenge response in four clinically depleted participants; tissue BHMT flux was not measured. Rat donor rescue and specific inhibition support the chain. This does not establish ordinary-diet limitation, response in every tissue or benefit above adequacy. Folate\u2019s indirect constraint on BHMT remains unresolved.",
+      "substance_id": "choline",
+      "kc_id": "BRS2(KC1)",
+      "ikc_id": "BRS2-KC1-KIT-2",
+      "relationship_type": "conditional-constraint",
+      "canonical_identity": {
+        "status": "resolved",
+        "substance_id": "choline",
+        "substance_href": "/docs/substances/bioactive-compounds/choline-methylation/choline",
+        "verified_against": [
+          "registry/substances.json",
+          "docs/substances/bioactive-compounds/choline-methylation/choline.md"
+        ]
+      }
+    },
+    "original_overlay": {
+      "atom_id": "PM2-DIT-2",
+      "requirement_classification": "derived",
+      "derived_target": "Betaine",
+      "derived_target_atom_id": "PM2-DIT-1",
+      "relationship_mode": "capacity-requirement",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "precursor-mediated",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "Choline can be oxidised to betaine, which is the direct substrate. This provision route does not establish that increasing choline intake increases tissue BHMT flux.",
+      "evidence_limitation": "Choline oxidation can supply betaine, but increasing choline intake has not been shown to increase tissue BHMT flux."
+    },
+    "original_supporting_findings": [
+      {
+        "id": "PM2-F1",
+        "finding_label": "BHMT remethylates homocysteine with betaine and catalytic zinc",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": true,
+        "finding_summary": "Human betaine-homocysteine methyltransferase (BHMT) transfers one methyl group from betaine to homocysteine. The products are methionine and dimethylglycine. A zinc ion bound by three cysteines activates homocysteine. Folate and vitamin B12 are not part of this reaction.",
+        "finding_interpretation": "This is the reaction boundary. It does not include folate-dependent remethylation, the later conversion of methionine to SAMe, whole-cycle throughput, phosphatidylethanolamine methyltransferase, or acetylcholine formation. It also does not show that dietary zinc intake changes the reaction in people.",
+        "finding_statement": "BHMT transfers a methyl group from betaine to homocysteine, forming methionine and dimethylglycine, without folate or vitamin B12 in that reaction, and uses an active-site zinc ion to activate homocysteine.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "synthesis": "Human crystal structures show that BHMT makes methionine from betaine and homocysteine and uses zinc to activate homocysteine. Mutating any of the three zinc-binding cysteines to alanine abolishes activity and sharply reduces zinc binding, and the same biochemical work states the products as methionine and dimethylglycine. A methyl-donor review states that methyl flow through this pathway does not depend on folate or vitamin B12. Together these sources identify the reaction and its metal. They do not test ordinary dietary control or human tissue flux.",
+        "synthesis_limitations": "The enzyme evidence uses purified or recombinant human protein, not intact human metabolism. Loss of activity after removing zinc ligands does not show that dietary zinc usually limits the enzyme. The review statement that the pathway is independent of folate and vitamin B12 is not a new flux experiment. Quantitative claims in that review about choline deficiency and liver methionine were not re-checked in the primary animal papers.",
+        "evidence_considered": [
+          {
+            "label": "Evans et al. (2002)",
+            "citation_key": "evans_betaine_2002",
+            "href": "/docs/papers/BRAIN-Diet-References#evans_betaine_2002",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Human BHMT structures show methionine formation from betaine and homocysteine, with zinc activating homocysteine; oxidation that expels zinc rearranges the active site.",
+            "assessment": {
+              "study": "X-ray structures of human BHMT in an oxidised zinc-free form and a reduced zinc-bound form with a homocysteine-like bisubstrate analog.",
+              "population": "Purified crystallised human BHMT; no cells, animals or human participants.",
+              "result": "The enzyme forms methionine from betaine and homocysteine. Zinc activates homocysteine. The zinc-binding sequences sit at the ends of barrel strands, and a Cys217\u2013Cys299 disulfide expels zinc.",
+              "effect_magnitude": "Structures at 2.15 \u00c5 (zinc-free) and 2.05 \u00c5 (zinc-bound). No physiological effect size applies.",
+              "evidence_summary": "Direct structural evidence for the human reaction and for catalytic zinc.",
+              "limitations": "Static structures establish catalytic geometry, not in-vivo flux, dietary zinc responsiveness, or a clinical outcome."
+            }
+          },
+          {
+            "label": "Breksa and Garrow (1999)",
+            "citation_key": "breksa_zinc_1999",
+            "href": "/docs/papers/BRAIN-Diet-References#breksa_zinc_1999",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Replacing any of Cys217, Cys299 or Cys300 with alanine abolished human BHMT activity and reduced zinc binding. The reaction produces methionine and dimethylglycine from betaine and homocysteine.",
+            "assessment": {
+              "study": "Site-directed mutagenesis of recombinant human liver BHMT, with activity and zinc-binding measurements.",
+              "population": "Recombinant human BHMT protein expressed in bacteria; no human participants.",
+              "result": "Cys217, Cys299 and Cys300 were identified as zinc ligands. Mutation of any one to alanine caused complete loss of activity and a significant reduction in zinc binding. The catalysed transfer is from betaine to homocysteine, yielding dimethylglycine and methionine.",
+              "effect_magnitude": "Complete loss of activity for each alanine substitution. No human effect size applies.",
+              "evidence_summary": "Direct evidence that catalytic activity of human BHMT depends on those zinc ligands, and a clear statement of the reaction products.",
+              "limitations": "Bacterial expression and purified-protein assays do not show that dietary zinc limits BHMT in human tissues."
+            }
+          },
+          {
+            "label": "Obeid (2013)",
+            "citation_key": "obeid_metabolic_2013",
+            "href": "/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013",
+            "data_level": "Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Methyl-group flow through BHMT does not depend on folate or vitamin B12, although the pathway is most active in liver and kidney and talks to the folate route.",
+            "assessment": {
+              "study": "Narrative review of methyl-donor deficiency with emphasis on the BHMT pathway.",
+              "population": "Review of human and animal methyl-donor studies; not a new experiment.",
+              "result": "BHMT transfers a methyl group from betaine to homocysteine. The review states that methyl flow through this pathway is not dependent on folate or vitamin B12, while several cross-talk mechanisms exist. BHMT is particularly active in liver and kidney.",
+              "effect_magnitude": "No new effect size. The review cites other studies for homocysteine and metabolite changes.",
+              "evidence_summary": "Explicit pathway-level statement that folate and vitamin B12 are not required for methyl flow through BHMT.",
+              "limitations": "A review cannot replace a flux assay. Some quantitative deficiency claims are attributed to other papers and were not re-adjudicated here."
+            }
+          }
+        ],
+        "evidence_dependency": [
+          "Obeid (2013) is also primary evidence in PM2-F2 for choline oxidation. That reuse is one review, not a second experiment."
+        ]
+      },
+      {
+        "id": "PM2-F2",
+        "finding_label": "Choline oxidation supplies betaine and is not the BHMT reaction",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": true,
+        "finding_summary": "Choline can be oxidised to betaine aldehyde and then to betaine. That sequence can supply the BHMT substrate. It is not the methyl transfer that BHMT carries out, and betaine is not turned back into choline.",
+        "finding_interpretation": "Choline is a precursor of the substrate, not a cofactor or substrate of BHMT. Acetylcholine formation and phosphatidylethanolamine methylation use choline or SAMe in other reactions.",
+        "finding_statement": "Irreversible oxidation of choline to betaine is an upstream supply route for the BHMT substrate and is not itself the BHMT reaction.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "synthesis": "A methyl-donor review states that betaine is produced by irreversible oxidation of choline through choline dehydrogenase and betaine-aldehyde dehydrogenase, and that BHMT then uses betaine. A choline-dehydrogenase review places the human enzyme in the inner mitochondrial membrane, mainly in kidney and liver, and separates the first oxidation to betaine aldehyde from the second oxidation to betaine. Betaine then donates a methyl group in the homocysteine-to-methionine reaction. The two steps are supply, not the BHMT reaction.",
+        "synthesis_limitations": "Purified, stable human choline dehydrogenase has been difficult to obtain, so some catalytic detail is inferred from related enzymes and from tissue activity rather than from a complete human kinetic characterisation. The reviews do not show that raising choline intake increases BHMT flux in people.",
+        "evidence_considered": [
+          {
+            "label": "Obeid (2013)",
+            "citation_key": "obeid_metabolic_2013",
+            "href": "/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013",
+            "data_level": "Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Betaine can be formed by irreversible oxidation of choline via choline dehydrogenase and betaine-aldehyde dehydrogenase, and BHMT then uses that betaine to remethylate homocysteine.",
+            "assessment": {
+              "study": "Narrative review of methyl-donor metabolism centred on BHMT.",
+              "population": "Review of human and animal evidence; not a new enzyme assay.",
+              "result": "The review states the two-enzyme oxidation of choline to betaine and the subsequent BHMT reaction. It treats the oxidation as irreversible.",
+              "effect_magnitude": "No new effect size for the oxidation steps.",
+              "evidence_summary": "Pathway-level evidence that choline oxidation supplies betaine upstream of BHMT.",
+              "limitations": "Review synthesis, not a direct demonstration of human choline dehydrogenase kinetics or of dietary choline increasing BHMT flux."
+            }
+          },
+          {
+            "label": "Salvi and Gadda (2013)",
+            "citation_key": "salvi_choline_2013",
+            "href": "/docs/papers/BRAIN-Diet-References#salvi_choline_2013",
+            "data_level": "Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Human choline dehydrogenase oxidises choline to betaine aldehyde, and betaine-aldehyde dehydrogenase completes formation of betaine, which can donate a methyl group to homocysteine.",
+            "assessment": {
+              "study": "Review of human choline dehydrogenase localisation, physiological role and biochemical characterisation.",
+              "population": "Review of human tissue activity and comparative biochemistry; not a dietary trial.",
+              "result": "The enzyme sits in the inner mitochondrial membrane and is found mainly in kidney and liver. It oxidises choline to betaine aldehyde. A second enzyme, betaine-aldehyde dehydrogenase, oxidises that aldehyde to betaine. Betaine is described as a methyl donor for methionine formation from homocysteine. Purified active human enzyme has been difficult to obtain.",
+              "effect_magnitude": "Tissue activity was reported mainly in kidney, with about six-fold lower activity in liver. No dietary dose-response was measured.",
+              "evidence_summary": "Enzyme-level support for the two-step oxidation that supplies betaine.",
+              "limitations": "Incomplete purification of human choline dehydrogenase limits kinetic detail. Localisation and pathway role do not show that dietary choline changes BHMT flux."
+            }
+          }
+        ],
+        "evidence_dependency": [
+          "Obeid (2013) is also primary evidence in PM2-F1 for folate- and vitamin B12-independence of BHMT. That reuse is one review, not a second experiment."
+        ]
+      }
+    ],
+    "existing_assessment": null,
+    "proposed_dietary_input_assessment": {
+      "atom_id": "PM2-DIT-2",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Provide a parallel homocysteine clearance route so methionine and SAMe supply remain resilient when folate demand is high.",
+      "canonical_substance_id": "choline",
+      "active_target_id": "betaine",
+      "record_origin": "PROPOSAL ONLY: reconciliation of existing admitted Derived route; no new admission, SEC or publication permission.",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Dietary precursor that can be oxidised to betaine, the methyl-donor substrate for BHMT",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#obeid_metabolic_2013",
+          "docs/papers/BRAIN-Diet-References#salvi_choline_2013",
+          "docs/papers/BRAIN-Diet-References#evans_betaine_2002"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Dietary precursor that can be oxidised to betaine, the methyl-donor substrate for BHMT",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#obeid_metabolic_2013",
+          "docs/papers/BRAIN-Diet-References#salvi_choline_2013",
+          "docs/papers/BRAIN-Diet-References#evans_betaine_2002"
+        ]
+      },
+      "conversion_pathway": [
+        {
+          "from": "choline",
+          "to": "betaine",
+          "process": "Choline oxidation supplies betaine upstream of BHMT.",
+          "dependencies": [],
+          "limitations": "Choline oxidation can supply betaine, but increasing choline intake has not been shown to increase tissue BHMT flux. Human evidence is an eight-man depletion pilot, with the challenge response in four clinically depleted participants; tissue BHMT flux was not measured. Rat donor rescue and specific inhibition support the chain. This does not establish ordinary-diet limitation, response in every tissue or benefit above adequacy. Folate\u2019s indirect constraint on BHMT remains unresolved. Choline oxidation can supply betaine, but increasing choline intake has not been shown to increase tissue BHMT flux. The enzyme evidence uses purified or recombinant human protein, not intact human metabolism. Loss of activity after removing zinc ligands does not show that dietary zinc usually limits the enzyme. The review statement that the pathway is independent of folate and vitamin B12 is not a new flux experiment. Quantitative claims in that review about choline deficiency and liver methionine were not re-checked in the primary animal papers. Purified, stable human choline dehydrogenase has been difficult to obtain, so some catalytic detail is inferred from related enzymes and from tissue activity rather than from a complete human kinetic characterisation. The reviews do not show that raising choline intake increases BHMT flux in people.",
+          "evidence": {
+            "statement": "Dietary precursor that can be oxidised to betaine, the methyl-donor substrate for BHMT",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#obeid_metabolic_2013",
+              "docs/papers/BRAIN-Diet-References#salvi_choline_2013",
+              "docs/papers/BRAIN-Diet-References#evans_betaine_2002"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Choline oxidation can supply betaine, but increasing choline intake has not been shown to increase tissue BHMT flux. Human evidence is an eight-man depletion pilot, with the challenge response in four clinically depleted participants; tissue BHMT flux was not measured. Rat donor rescue and specific inhibition support the chain. This does not establish ordinary-diet limitation, response in every tissue or benefit above adequacy. Folate\u2019s indirect constraint on BHMT remains unresolved.",
+        "Choline oxidation can supply betaine, but increasing choline intake has not been shown to increase tissue BHMT flux.",
+        "The enzyme evidence uses purified or recombinant human protein, not intact human metabolism. Loss of activity after removing zinc ligands does not show that dietary zinc usually limits the enzyme. The review statement that the pathway is independent of folate and vitamin B12 is not a new flux experiment. Quantitative claims in that review about choline deficiency and liver methionine were not re-checked in the primary animal papers.",
+        "Purified, stable human choline dehydrogenase has been difficult to obtain, so some catalytic detail is inferred from related enzymes and from tissue activity rather than from a complete human kinetic characterisation. The reviews do not show that raising choline intake increases BHMT flux in people."
+      ],
+      "provenance": [
+        "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+        "docs/papers/BRAIN-Diet-References#obeid_metabolic_2013",
+        "docs/papers/BRAIN-Diet-References#salvi_choline_2013",
+        "docs/papers/BRAIN-Diet-References#evans_betaine_2002"
+      ]
+    },
+    "publication_boundary": "No source hold or projection block released; no downstream quantity, efficiency, clinical benefit, new direct admission or KC/inventory reclassification.",
+    "source_access": "Canonical records and previously recorded appraisals inspected. No new original-paper full-text verification claimed.",
+    "schema_validation": {
+      "status": "admitted",
+      "eligibility": {
+        "eligible": true,
+        "state": "eligible-candidate"
+      },
+      "errors": []
+    }
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM3::PM3-DIT-5",
+    "pm": "BRS2-FM1-PM3",
+    "source_file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx",
+    "source_sha256": "12ac0125e4dc310b1fec4e4a72f8307c0710db43f91b39f3c52dd38055016ef1",
+    "priority_group": 3,
+    "proposal_status": "awaiting-author-approval",
+    "decision_required": "Decide whether to authorise a scoped dietary-protein class identity in a separate ontology task. Keep this conversion unresolved until an appropriate source identity exists; do not substitute an EAA total or equate protein grams with methionine.",
+    "original_atom": {
+      "atom_id": "PM3-DIT-5",
+      "dietary_input": true,
+      "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+      "input": "Dietary protein",
+      "input_type": "substrate provision",
+      "biological_role": "Provides methionine through protein digestion and amino-acid absorption; methionine is the direct amino-acid substrate for MAT-dependent SAMe synthesis.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM3-F1"
+        ],
+        "citation_keys": [
+          "fao_diaas_2013"
+        ]
+      },
+      "evidence_limitation": "Dietary protein provides digestible methionine, but this does not establish that increasing protein or methionine intake increases MAT-dependent SAMe synthesis in humans. DIAAS evaluates sulfur amino acids as methionine + cysteine."
+    },
+    "original_overlay": {
+      "atom_id": "PM3-DIT-5",
+      "requirement_classification": "derived",
+      "derived_target": "Methionine",
+      "derived_target_atom_id": "PM3-DIT-1",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "direct",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "Dietary protein provides digestible methionine after digestion. This provision relationship does not establish that increasing protein intake increases MAT-dependent SAMe synthesis.",
+      "evidence_limitation": "Dietary protein provides digestible methionine, but this does not establish that increasing protein or methionine intake increases MAT-dependent SAMe synthesis in humans. DIAAS evaluates sulfur amino acids as methionine + cysteine."
+    },
+    "original_supporting_findings": [
+      {
+        "id": "PM3-F1",
+        "finding_label": "Biochemical provenance: MAT reaction",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": true,
+        "finding_summary": "MAT-dependent SAMe synthesis directly requires methionine and ATP and uses active-site magnesium and potassium ions to support ATP-dependent catalysis.",
+        "finding_interpretation": "This establishes the biochemical reaction and its direct requirements. It does not establish that increasing dietary methionine, magnesium or potassium increases SAMe synthesis in adequately nourished humans; ATP is an intracellular biochemical substrate, not a dietary lever.",
+        "finding_statement": "MAT-dependent SAMe synthesis directly requires methionine and ATP and uses active-site magnesium and potassium ions to support ATP-dependent catalysis.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "synthesis": "The MAT reaction and catalytic participants have curated provenance. Human MAT2A studies support conflicting ATP-first and rapid-equilibrium random substrate-binding models; no settled universal order is asserted. MAT2B stability is assessed separately in proposed F5.",
+        "synthesis_limitations": "The primary evidence uses purified recombinant protein and crystallised human enzyme rather than intact human physiology. Active-site ion requirements do not show that physiological magnesium or potassium availability ordinarily limits MAT activity. The studies do not establish a methionine intake-response relationship, a clinically meaningful reserve-capacity threshold, or a phenome outcome.",
+        "evidence_considered": [
+          {
+            "label": "Bailey et al. (2021)",
+            "citation_key": "bailey_human_mat2a_2021",
+            "href": "/docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Purified human MAT2A followed an ordered ATP-first, methionine-second kinetic mechanism; MAT2B stabilised the enzyme without materially changing the tested catalytic parameters.",
+            "assessment": {
+              "study": "Purified recombinant human MAT2A steady-state kinetics, product/dead-end inhibition and isothermal titration calorimetry, with and without MAT2B.",
+              "population": "Purified human MAT2A/MAT2B proteins; no cells, animals or human participants.",
+              "result": "ATP bound before methionine; SAM was released before phosphate and pyrophosphate. MAT2B bound tightly and stabilised low-concentration MAT2A but did not significantly change the tested kinetic parameters.",
+              "effect_magnitude": "ATP Kd 80 \u00b1 30 \u03bcM and Km 50 \u00b1 10 \u03bcM; MAT2B Kd 6 \u00b1 1 nM. No significant catalytic-parameter change under saturating MAT2B conditions.",
+              "evidence_summary": "Direct human-enzyme evidence for the ordered MAT2A reaction and distinction between catalytic activity and MAT2B-mediated stability.",
+              "limitations": "In-vitro purified-enzyme conditions do not establish in-vivo flux limitation, dietary responsiveness, tissue-specific regulation or phenome effects."
+            }
+          },
+          {
+            "label": "Murray et al. (2016)",
+            "citation_key": "murray_crystallography_2016",
+            "href": "/docs/papers/BRAIN-Diet-References#murray_crystallography_2016",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "High-resolution human MAT\u03b12 structures captured substrates/products and active-site ion coordination across ATP-driven SAMe formation.",
+            "assessment": {
+              "study": "X-ray crystallography of human MAT\u03b12 with methionine, ATP analogues, SAMe, adenosine and phosphate-state ligands.",
+              "population": "Purified crystallised human MAT\u03b12 protein; no cells, animals or human participants.",
+              "result": "Structures captured methionine repositioning toward ATP C5\u2032, SAMe/product states and phosphate-group coordination by magnesium and potassium ions.",
+              "effect_magnitude": "Structures ranged from 1.1 \u00c5 to 2.34 \u00c5 resolution; no physiological effect size applies.",
+              "evidence_summary": "Direct structural support for the reaction chemistry and catalytic-ion requirement of human MAT.",
+              "limitations": "Static ligand-bound structures establish catalytic geometry, not physiological nutrient limitation, in-vivo reaction rate, dietary dose response or clinical outcome."
+            }
+          }
+        ],
+        "connected_supportive_evidence": [
+          {
+            "label": "Chiang et al. (1996)",
+            "citation_key": "chiang_s-adenosylmethionine_1996",
+            "href": "/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996",
+            "data_level": "Mechanistic",
+            "why_relevant": "Foundational review establishes SAMe as a major methyl donor and places MAT synthesis upstream of transmethylation.",
+            "why_excluded": "It is a broad methylation review and does not independently quantify human MAT kinetics, active-site ion requirements or dietary control of synthesis flux."
+          },
+          {
+            "label": "Corrillero Bravo et al. (2022)",
+            "citation_key": "corrillero_bravo_analysis_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#corrillero_bravo_analysis_2022",
+            "data_level": "Human Mechanistic",
+            "why_relevant": "Measured circulating SAM, SAH and SAM:SAH after contrasting four-week dietary patterns in healthy adults.",
+            "why_excluded": "The biomarkers do not isolate MAT synthesis flux; group trajectories were similar, so the study does not establish a dietary lever for PM3."
+          }
+        ],
+        "sec_assessment_ref": {
+          "id": "same-pm3-f1-assessment-v1",
+          "version": 2,
+          "sha256": "2ab92745040cb0d76a604a306ddaf2e56c2d6352500bd3bee6224956b784df8f"
+        }
+      }
+    ],
+    "existing_assessment": null,
+    "proposed_dietary_input_assessment": {
+      "atom_id": "PM3-DIT-5",
+      "status": "unresolved",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Maintain methionine adenosyltransferase capacity to convert methionine and ATP into SAMe, sustaining the methyl-donor pool used by downstream methyltransferases.",
+      "canonical_substance_id": null,
+      "active_target_id": "methionine",
+      "record_origin": "PROPOSAL ONLY: reconciliation of existing admitted Derived route; no new admission, SEC or publication permission.",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Provides methionine through protein digestion and amino-acid absorption; methionine is the direct amino-acid substrate for MAT-dependent SAMe synthesis.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#fao_diaas_2013"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Provides methionine through protein digestion and amino-acid absorption; methionine is the direct amino-acid substrate for MAT-dependent SAMe synthesis.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#fao_diaas_2013"
+        ]
+      },
+      "conversion_pathway": [
+        {
+          "from": null,
+          "to": "methionine",
+          "process": "Protein digestion and amino-acid absorption provide methionine.",
+          "dependencies": [],
+          "limitations": "Dietary protein provides digestible methionine, but this does not establish that increasing protein or methionine intake increases MAT-dependent SAMe synthesis in humans. DIAAS evaluates sulfur amino acids as methionine + cysteine. The primary evidence uses purified recombinant protein and crystallised human enzyme rather than intact human physiology. Active-site ion requirements do not show that physiological magnesium or potassium availability ordinarily limits MAT activity. The studies do not establish a methionine intake-response relationship, a clinically meaningful reserve-capacity threshold, or a phenome outcome.",
+          "evidence": {
+            "statement": "Provides methionine through protein digestion and amino-acid absorption; methionine is the direct amino-acid substrate for MAT-dependent SAMe synthesis.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#fao_diaas_2013"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Dietary protein provides digestible methionine, but this does not establish that increasing protein or methionine intake increases MAT-dependent SAMe synthesis in humans. DIAAS evaluates sulfur amino acids as methionine + cysteine.",
+        "The primary evidence uses purified recombinant protein and crystallised human enzyme rather than intact human physiology. Active-site ion requirements do not show that physiological magnesium or potassium availability ordinarily limits MAT activity. The studies do not establish a methionine intake-response relationship, a clinically meaningful reserve-capacity threshold, or a phenome outcome."
+      ],
+      "provenance": [
+        "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx",
+        "docs/papers/BRAIN-Diet-References#fao_diaas_2013"
+      ]
+    },
+    "publication_boundary": "No source hold or projection block released; no downstream quantity, efficiency, clinical benefit, new direct admission or KC/inventory reclassification.",
+    "source_access": "Canonical records and previously recorded appraisals inspected. No new original-paper full-text verification claimed.",
+    "schema_validation": {
+      "status": "unresolved",
+      "eligibility": {
+        "eligible": true,
+        "state": "eligible-candidate"
+      },
+      "errors": [
+        "canonical-identity-unresolved",
+        "conversion-identity-unresolved"
+      ]
+    }
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM4::PM4-DIT-2",
+    "pm": "BRS2-FM1-PM4",
+    "source_file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx",
+    "source_sha256": "190486e48b28a39e95c0bc544d02bf3b5558f992edc2608cd73469e40dffe890",
+    "priority_group": 3,
+    "proposal_status": "awaiting-author-approval",
+    "decision_required": "Same source-identity decision as PM3, but retain this independent PM-specific assessment. Do not infer increased cycle flux.",
+    "original_atom": {
+      "atom_id": "PM4-DIT-2",
+      "dietary_input": true,
+      "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+      "input": "Dietary protein",
+      "input_type": "substrate provision",
+      "biological_role": "Provides digestible methionine, the amino acid that enters the cycle.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM4-F1"
+        ],
+        "citation_keys": [
+          "fao_diaas_2013",
+          "finkelstein_homocysteine_1998"
+        ]
+      },
+      "evidence_limitation": "Dietary protein supplies methionine. It does not show that eating more protein increases cycle rates. DIAAS scores sulfur amino acids as methionine plus cysteine."
+    },
+    "original_overlay": {
+      "atom_id": "PM4-DIT-2",
+      "requirement_classification": "derived",
+      "derived_target": "Methionine",
+      "derived_target_atom_id": "PM4-DIT-1",
+      "relationship_layer": "dietary-requirement",
+      "relationship_mode": "capacity-requirement",
+      "dietary_addressability": "direct",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "Dietary protein provides methionine for the cycle after digestion. This does not show that more protein increases cycle rates.",
+      "evidence_limitation": "Dietary protein supplies methionine. It does not show that eating more protein increases cycle rates. DIAAS scores sulfur amino acids as methionine plus cysteine."
+    },
+    "original_supporting_findings": [
+      {
+        "id": "PM4-F1",
+        "finding_label": "Homocysteine is split between remethylation and transsulfuration",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": true,
+        "finding_summary": "Methionine becomes SAM, SAM donates a methyl group, and SAH is hydrolysed to homocysteine. Homocysteine is then either remethylated to methionine or sent into transsulfuration toward cysteine.",
+        "finding_interpretation": "This is the integrated route and the branch. It does not assign the MAT, remethylation or transsulfuration reactions to this mechanism, and it does not show that ordinary diet changes the rates.",
+        "finding_statement": "Methionine-cycle throughput runs from methionine to SAM, methyl transfer and SAH hydrolysis to homocysteine, after which homocysteine is distributed between remethylation and transsulfuration under the influence of SAM, SAH and methyl-tetrahydrofolate.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "synthesis": "A methylation review establishes SAM as the methyl donor and SAH hydrolysis to adenosine and homocysteine, and it shows that blocking that hydrolysis can affect methylation of phospholipids, proteins, DNA, RNA and small molecules together. A pathway review then places regulation at the distribution of homocysteine between remethylation, which every tissue can perform, and transsulfuration to cystathionine, which is limited to liver, kidney, small intestine and pancreas, with SAM, SAH and methyl-tetrahydrofolate as effectors. A human tracer study uses that same partition, measuring postprandial remethylation, transmethylation and total transsulfuration as rates.",
+        "synthesis_limitations": "The pathway accounts are reviews. Transsulfuration is not present in every tissue. The human rate study was a 28-day vitamin B6 restriction in nine healthy young adults. It does not show that ordinary changes in methionine, folate, or B-vitamin intake change those rates. Individual enzyme reactions remain neighbouring mechanisms.",
+        "evidence_considered": [
+          {
+            "label": "Chiang et al. (1996)",
+            "citation_key": "chiang_s-adenosylmethionine_1996",
+            "href": "/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996",
+            "data_level": "Mechanistic",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "SAM donates methyl groups; SAH formed by that transfer is hydrolysed to adenosine and homocysteine; blocking SAH hydrolysis can affect methylation across phospholipids, proteins, DNA, RNA and small molecules.",
+            "assessment": {
+              "study": "Narrative review of SAM-dependent methylation, SAH hydrolysis and downstream methyl acceptors.",
+              "population": "Review of biochemical and cellular literature; no new human cohort.",
+              "result": "SAM is the methyl donor. SAH is hydrolysed by SAH hydrolase to adenosine and homocysteine. Blocking that hydrolase can affect methylation of several classes of acceptor at once.",
+              "effect_magnitude": "No quantitative flux or concentration effect size.",
+              "evidence_summary": "Establishes methyl transfer and the SAH-to-homocysteine step as a shared route into many methylation reactions.",
+              "limitations": "Does not describe remethylation, transsulfuration or a measured SAM:SAH ratio, and does not test diet or cognition."
+            }
+          },
+          {
+            "label": "Finkelstein (1998)",
+            "citation_key": "finkelstein_homocysteine_1998",
+            "href": "/docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998",
+            "data_level": "Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Homocysteine is distributed between tissue-wide remethylation and transsulfuration to cystathionine in liver, kidney, small intestine and pancreas; SAM, SAH and methyl-tetrahydrofolate are effectors of that distribution.",
+            "assessment": {
+              "study": "Review of mammalian methionine-cycle and transsulfuration pathways and their regulation.",
+              "population": "Mammalian pathway review; no new human experiment.",
+              "result": "Every tissue can synthesise SAM, use it for transmethylation, hydrolyse SAH and remethylate homocysteine. Transsulfuration catabolises homocysteine in liver, kidney, small intestine and pancreas. Regulation is the distribution of homocysteine between remethylation and conversion to cystathionine.",
+              "effect_magnitude": "No numeric rate or intake-response estimate.",
+              "evidence_summary": "Establishes the regulated branch between recycling and transsulfuration and names SAM, SAH and methyl-tetrahydrofolate as effectors.",
+              "limitations": "Review-level pathway evidence. It does not measure human rates, test ordinary diets, or show a cognitive or attention outcome."
+            }
+          },
+          {
+            "label": "Lamers et al. (2011)",
+            "citation_key": "lamers_vitamin_b6_methionine_cycle_2011",
+            "href": "/docs/papers/BRAIN-Diet-References#lamers_vitamin_b6_methionine_cycle_2011",
+            "data_level": "Human Mechanistic",
+            "exposure_context": "dietary",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Human postprandial kinetics were quantified as remethylation, transmethylation and total transsulfuration rates, confirming that the branch is measurable as rates rather than as a single metabolite level.",
+            "assessment": {
+              "study": "Primed constant infusion of labelled methionine and leucine in the postprandial state, repeated after 28 days of dietary vitamin B6 restriction.",
+              "population": "Nine healthy adults (4 men, 5 women), aged 20\u201335 years.",
+              "result": "The protocol quantified remethylation, transmethylation and total transsulfuration. Mean rates were unchanged by the restriction.",
+              "effect_magnitude": "Plasma PLP fell from 49 \u00b1 4 nmol/L to 19 \u00b1 2 nmol/L. Mean cycle rates did not change. No rate delta is reported because the mean change was null.",
+              "evidence_summary": "Shows that human cycle throughput can be partitioned into measured rates.",
+              "limitations": "Small healthy-adult sample, 28-day restriction, postprandial state only, and large individual variation. Not a test of cognitive or attention outcomes."
+            }
+          }
+        ],
+        "connected_supportive_evidence": [
+          {
+            "label": "Kumar et al. (2017)",
+            "citation_key": "kumar_transsulfuration_2017",
+            "href": "/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017",
+            "data_level": "Mechanistic",
+            "why_relevant": "The repository record describes a review of transsulfuration from homocysteine toward cysteine and glutathione.",
+            "why_excluded": "That record does not establish remethylation or the regulated split between the two exits."
+          },
+          {
+            "label": "Arag\u00e3o et al. (2024)",
+            "citation_key": "aragao_revitalising_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024",
+            "data_level": "Mechanistic",
+            "why_relevant": "Riboflavin was listed beside this mechanism because vitamin B2 is a cofactor of a folate-cycle enzyme.",
+            "why_excluded": "The paper is a general riboflavin physiology review and does not test methionine-cycle throughput or the homocysteine split."
+          },
+          {
+            "label": "Fanti et al. (2026)",
+            "citation_key": "fanti_methionine_longevity_diet_2026",
+            "href": "/docs/papers/BRAIN-Diet-References#fanti_methionine_longevity_diet_2026",
+            "data_level": "Mixed",
+            "why_relevant": "Tests how little or how much methionine sits inside a low-amino-acid longevity diet.",
+            "why_excluded": "The mouse endpoints are frailty and metabolic signalling, and the human component is epidemiology rather than a methionine trial. Neither measures cycle branch rates or an attention or cognitive treatment effect."
+          },
+          {
+            "label": "Parkhitko et al. (2026)",
+            "citation_key": "parkhitko_methionine_restriction_mimetics_2026",
+            "href": "/docs/papers/BRAIN-Diet-References#parkhitko_methionine_restriction_mimetics_2026",
+            "data_level": "Mechanistic",
+            "why_relevant": "Reviews methionine restriction as an ageing intervention.",
+            "why_excluded": "It is an ageing and disease review, not a measurement of human cycle rates and not an ADHD treatment study."
+          }
+        ]
+      }
+    ],
+    "existing_assessment": null,
+    "proposed_dietary_input_assessment": {
+      "atom_id": "PM4-DIT-2",
+      "status": "unresolved",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Maintain balanced methionine-cycle flux so methionine availability, SAM-dependent methylation, homocysteine recycling and transsulfuration remain coordinated across changing physiological demand.",
+      "canonical_substance_id": null,
+      "active_target_id": "methionine",
+      "record_origin": "PROPOSAL ONLY: reconciliation of existing admitted Derived route; no new admission, SEC or publication permission.",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Provides digestible methionine, the amino acid that enters the cycle.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#fao_diaas_2013",
+          "docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Provides digestible methionine, the amino acid that enters the cycle.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#fao_diaas_2013",
+          "docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998"
+        ]
+      },
+      "conversion_pathway": [
+        {
+          "from": null,
+          "to": "methionine",
+          "process": "Protein digestion and amino-acid absorption provide methionine to the methionine cycle.",
+          "dependencies": [],
+          "limitations": "Dietary protein supplies methionine. It does not show that eating more protein increases cycle rates. DIAAS scores sulfur amino acids as methionine plus cysteine. The pathway accounts are reviews. Transsulfuration is not present in every tissue. The human rate study was a 28-day vitamin B6 restriction in nine healthy young adults. It does not show that ordinary changes in methionine, folate, or B-vitamin intake change those rates. Individual enzyme reactions remain neighbouring mechanisms.",
+          "evidence": {
+            "statement": "Provides digestible methionine, the amino acid that enters the cycle.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#fao_diaas_2013",
+              "docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Dietary protein supplies methionine. It does not show that eating more protein increases cycle rates. DIAAS scores sulfur amino acids as methionine plus cysteine.",
+        "The pathway accounts are reviews. Transsulfuration is not present in every tissue. The human rate study was a 28-day vitamin B6 restriction in nine healthy young adults. It does not show that ordinary changes in methionine, folate, or B-vitamin intake change those rates. Individual enzyme reactions remain neighbouring mechanisms."
+      ],
+      "provenance": [
+        "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx",
+        "docs/papers/BRAIN-Diet-References#fao_diaas_2013",
+        "docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998"
+      ]
+    },
+    "publication_boundary": "No source hold or projection block released; no downstream quantity, efficiency, clinical benefit, new direct admission or KC/inventory reclassification.",
+    "source_access": "Canonical records and previously recorded appraisals inspected. No new original-paper full-text verification claimed.",
+    "schema_validation": {
+      "status": "unresolved",
+      "eligibility": {
+        "eligible": true,
+        "state": "eligible-candidate"
+      },
+      "errors": [
+        "canonical-identity-unresolved",
+        "conversion-identity-unresolved"
+      ]
+    }
+  },
+  {
+    "relationship_id": "BRS2-FM2-PM6::PM6-DIT-9",
+    "pm": "BRS2-FM2-PM6",
+    "source_file": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx",
+    "source_sha256": "a0f685407940c16eac3610521fa479af02e6e7ad94539719388d7545fc078d0c",
+    "priority_group": 1,
+    "proposal_status": "awaiting-author-approval",
+    "decision_required": "Approve metadata reconciliation only; preserve combined sulfur-amino-acid depletion, unchanged blood concentration and null cysteine-dose response at adequate methionine.",
+    "original_atom": {
+      "atom_id": "PM6-DIT-9",
+      "dietary_input": true,
+      "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+      "input": "Methionine",
+      "input_type": "precursor",
+      "biological_role": "Dietary methionine can supply cysteine for glutathione assembly. Methionine is not a substrate of the assembly enzymes.",
+      "upstream_pm_relationships": [
+        {
+          "relationship_label": "Supply",
+          "pm_short_id": "PM5",
+          "pm_id": "BRS2-FM2-PM5",
+          "href": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway"
+        }
+      ],
+      "evidence_source": {
+        "finding_ids": [
+          "PM6-F2"
+        ],
+        "citation_keys": [
+          "lyons_glutathione_2000",
+          "courtney_martin_cysteine_2008"
+        ]
+      },
+      "evidence_limitation": "A formula that removed methionine and cysteine together slowed whole-blood synthesis, so that result does not isolate methionine. In the cysteine-free study, methionine intake stayed adequate and red-cell synthesis did not fall. This does not show that eating more methionine, once intake is adequate, raises glutathione synthesis."
+    },
+    "original_overlay": {
+      "atom_id": "PM6-DIT-9",
+      "requirement_classification": "derived",
+      "derived_target": "Cysteine",
+      "derived_target_atom_id": "PM6-DIT-1",
+      "relationship_mode": "capacity-requirement",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "precursor-mediated",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Methionine is a precursor of cysteine for glutathione assembly. It is not a substrate of the assembly enzymes. Eating more methionine once intake is adequate is not shown to raise glutathione synthesis.",
+      "evidence_limitation": "A formula that removed methionine and cysteine together slowed whole-blood synthesis, so that result does not isolate methionine. In the cysteine-free study, methionine intake stayed adequate and red-cell synthesis did not fall. This does not show that eating more methionine, once intake is adequate, raises glutathione synthesis."
+    },
+    "original_supporting_findings": [
+      {
+        "id": "PM6-F2",
+        "finding_label": "Blood-cell synthesis responds only under defined substrate conditions",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": true,
+        "finding_summary": "Removing both methionine and cysteine slowed whole-blood glutathione synthesis in healthy young men. Combined cysteine-precursor and glycine supplementation raised erythrocyte synthesis in older adults. A methionine-adequate diet without cysteine did not lower erythrocyte synthesis in young men.",
+        "finding_interpretation": "Substrate supply can change blood-cell synthesis in these specific conditions. That does not mean every ordinary diet is cysteine-limited, and the older-adult result is a supplemental precursor plus glycine, not a food prescription.",
+        "finding_statement": "Human blood-cell glutathione synthesis can slow when dietary methionine and cysteine are both removed and can rise in older adults after combined cysteine and glycine precursor supplementation, whereas a methionine-adequate cysteine-free diet did not limit erythrocyte synthesis in young men.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "synthesis": "Three human tracer studies set the ceiling. In seven healthy young men, a 10-day amino-acid diet with methionine and cysteine removed lowered whole-blood fractional synthesis from 0.65 \u00b1 0.13 to 0.49 \u00b1 0.13 per day and lowered absolute synthesis by about 23%, while concentration stayed near 1.2 mM and glycine intake was not reduced. In eight older adults compared with eight younger adults, erythrocyte glutathione synthesis and concentration were lower, and two weeks of cysteine plus glycine precursor supplementation raised fractional synthesis by 78.8% and absolute synthesis by 230.9%. The cysteine source in that protocol is N-acetylcysteine, given with glycine. In four young men, cysteine intakes from zero to 40 mg/kg/day did not change erythrocyte synthesis when methionine was held at 14 mg/kg/day. Synthesis is therefore substrate-responsive under defined restrictions, not universally limited by dietary cysteine.",
+        "synthesis_limitations": "All three studies measured blood-cell, not neuronal, synthesis. The sulfur-amino-acid-free diet was an experimental amino-acid formula in seven young men for 10 days. The older-adult increase required combined supplementation and was not an isolated N-acetylcysteine or glycine test, not an ADHD trial, and not ordinary food. The cysteine-free arm used only four young men and two days of adaptation. Concentration did not track synthesis rate in the sulfur-amino-acid-free study.",
+        "evidence_considered": [
+          {
+            "label": "Lyons et al. (2000)",
+            "citation_key": "lyons_glutathione_2000",
+            "href": "/docs/papers/BRAIN-Diet-References#lyons_glutathione_2000",
+            "data_level": "Human Mechanistic",
+            "exposure_context": "dietary",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "A sulfur-amino-acid-free amino-acid diet slowed whole-blood glutathione synthesis in healthy young men without lowering glutathione concentration.",
+            "assessment": {
+              "study": "Randomised crossover of two 10-day L-amino-acid diets, adequate versus methionine and cysteine both set to zero, with a primed intravenous L-[1-13C]cysteine infusion on day 10.",
+              "population": "Seven healthy men, age 24 \u00b1 6 years.",
+              "result": "Fractional synthesis fell from 0.65 \u00b1 0.13 to 0.49 \u00b1 0.13 per day (P < 0.01). Absolute synthesis fell from 747 \u00b1 216 to 578.6 \u00b1 135 \u00b5mol/L/day (P < 0.05), about 23%. Whole-blood glutathione stayed about 1.2 mM (1,142 \u00b1 243 versus 1,216 \u00b1 162 \u00b5M). Glycine in the formula rose from 39.6 to 75.1 mg/kg/day so nitrogen stayed constant; glutamic acid was unchanged.",
+              "effect_magnitude": "About a 23% lower absolute synthesis rate after 10 days without methionine and cysteine; concentration unchanged.",
+              "evidence_summary": "Direct human evidence that removing the shared sulfur-amino-acid supply slows whole-blood glutathione synthesis.",
+              "limitations": "Experimental formula, young men, short duration, whole blood rather than brain, and no clinical outcome. Glycine was increased, so the slowdown is not a glycine deficit."
+            }
+          },
+          {
+            "label": "Sekhar et al. (2011)",
+            "citation_key": "sekhar_glutathione_2011",
+            "href": "/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011",
+            "data_level": "Human Mechanistic",
+            "exposure_context": "supplemental-formulation",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "Older adults had lower erythrocyte glutathione synthesis than younger adults, and two weeks of cysteine plus glycine precursor supplementation restored synthesis and concentration.",
+            "assessment": {
+              "study": "Stable-isotope erythrocyte glutathione kinetics before and after precursor supplementation. Cysteine was supplied as N-acetylcysteine together with glycine.",
+              "population": "Eight older adults restudied after supplementation, compared with eight younger adults.",
+              "result": "Before supplementation, older adults had lower erythrocyte glycine, cysteine, glutathione concentration, fractional synthesis (45.80 \u00b1 5.69 versus 83.14 \u00b1 6.43 %/day) and absolute synthesis (0.55 \u00b1 0.12 versus 1.73 \u00b1 0.16 mmol/L red cells per day). After two weeks, glutathione concentration was 94.6% higher, fractional synthesis 78.8% higher and absolute synthesis 230.9% higher, and plasma oxidative-stress markers were lower.",
+              "effect_magnitude": "Combined precursor supplementation in older adults: fractional synthesis +78.8% and absolute synthesis +230.9% from the deficient baseline.",
+              "evidence_summary": "Human evidence that combined supplemental cysteine precursor and glycine can raise erythrocyte glutathione synthesis when it is low in older adults.",
+              "limitations": "Small older-adult sample, erythrocyte pool, combined supplements, not ordinary food, not neuronal synthesis, and not an ADHD or recovery trial."
+            }
+          },
+          {
+            "label": "Courtney-Martin et al. (2008)",
+            "citation_key": "courtney_martin_cysteine_2008",
+            "href": "/docs/papers/BRAIN-Diet-References#courtney_martin_cysteine_2008",
+            "data_level": "Human Mechanistic",
+            "exposure_context": "dietary",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Erythrocyte glutathione synthesis did not change across cysteine intakes, including zero, when methionine intake was adequate.",
+            "assessment": {
+              "study": "Five graded cysteine intakes (0, 10, 20, 30 and 40 mg/kg/day) in random order with methionine fixed at 14 mg/kg/day and protein at 1 g/kg/day. Erythrocyte glutathione synthesis was measured after two days at each intake.",
+              "population": "Four healthy young adult men.",
+              "result": "Fractional and absolute erythrocyte glutathione synthesis and glutathione concentration did not change as cysteine intake increased. Urinary sulfate excretion rose with cysteine intake (r = 0.92).",
+              "effect_magnitude": "No change in erythrocyte glutathione synthesis across the cysteine range tested.",
+              "evidence_summary": "Human evidence that dietary cysteine is not independently limiting for erythrocyte glutathione synthesis when methionine intake meets the protein requirement.",
+              "limitations": "Preliminary sample of four men, two-day adaptation, erythrocyte endpoint, and no neuronal or clinical outcome."
+            }
+          }
+        ],
+        "evidence_dependency": [
+          "Sekhar et al. (2011) is also used in PM6-F3 and PM6-F4 for the phenome boundary, and in PM6-IC1 for the measurement boundary. Those uses are not independent replications of the synthesis-rate result."
+        ]
+      }
+    ],
+    "existing_assessment": null,
+    "proposed_dietary_input_assessment": {
+      "atom_id": "PM6-DIT-9",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Build glutathione from sulfur amino acids so cellular antioxidant defence stays connected to one-carbon metabolism.",
+      "canonical_substance_id": "methionine",
+      "active_target_id": "cysteine",
+      "record_origin": "PROPOSAL ONLY: reconciliation of existing admitted Derived route; no new admission, SEC or publication permission.",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Dietary methionine can supply cysteine for glutathione assembly. Methionine is not a substrate of the assembly enzymes.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#lyons_glutathione_2000",
+          "docs/papers/BRAIN-Diet-References#courtney_martin_cysteine_2008"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Dietary methionine can supply cysteine for glutathione assembly. Methionine is not a substrate of the assembly enzymes.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#lyons_glutathione_2000",
+          "docs/papers/BRAIN-Diet-References#courtney_martin_cysteine_2008"
+        ]
+      },
+      "conversion_pathway": [
+        {
+          "from": "methionine",
+          "to": "cysteine",
+          "process": "Methionine can supply cysteine through upstream transsulfuration before glutathione assembly.",
+          "dependencies": [],
+          "limitations": "A formula that removed methionine and cysteine together slowed whole-blood synthesis, so that result does not isolate methionine. In the cysteine-free study, methionine intake stayed adequate and red-cell synthesis did not fall. This does not show that eating more methionine, once intake is adequate, raises glutathione synthesis. All three studies measured blood-cell, not neuronal, synthesis. The sulfur-amino-acid-free diet was an experimental amino-acid formula in seven young men for 10 days. The older-adult increase required combined supplementation and was not an isolated N-acetylcysteine or glycine test, not an ADHD trial, and not ordinary food. The cysteine-free arm used only four young men and two days of adaptation. Concentration did not track synthesis rate in the sulfur-amino-acid-free study.",
+          "evidence": {
+            "statement": "Dietary methionine can supply cysteine for glutathione assembly. Methionine is not a substrate of the assembly enzymes.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#lyons_glutathione_2000",
+              "docs/papers/BRAIN-Diet-References#courtney_martin_cysteine_2008"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "A formula that removed methionine and cysteine together slowed whole-blood synthesis, so that result does not isolate methionine. In the cysteine-free study, methionine intake stayed adequate and red-cell synthesis did not fall. This does not show that eating more methionine, once intake is adequate, raises glutathione synthesis.",
+        "All three studies measured blood-cell, not neuronal, synthesis. The sulfur-amino-acid-free diet was an experimental amino-acid formula in seven young men for 10 days. The older-adult increase required combined supplementation and was not an isolated N-acetylcysteine or glycine test, not an ADHD trial, and not ordinary food. The cysteine-free arm used only four young men and two days of adaptation. Concentration did not track synthesis rate in the sulfur-amino-acid-free study."
+      ],
+      "provenance": [
+        "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx",
+        "docs/papers/BRAIN-Diet-References#lyons_glutathione_2000",
+        "docs/papers/BRAIN-Diet-References#courtney_martin_cysteine_2008"
+      ]
+    },
+    "publication_boundary": "No source hold or projection block released; no downstream quantity, efficiency, clinical benefit, new direct admission or KC/inventory reclassification.",
+    "source_access": "Canonical records and previously recorded appraisals inspected. No new original-paper full-text verification claimed.",
+    "schema_validation": {
+      "status": "admitted",
+      "eligibility": {
+        "eligible": true,
+        "state": "eligible-candidate"
+      },
+      "errors": []
+    }
+  },
+  {
+    "relationship_id": "BRS2-FM2-PM6::PM6-DIT-7",
+    "pm": "BRS2-FM2-PM6",
+    "source_file": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx",
+    "source_sha256": "a0f685407940c16eac3610521fa479af02e6e7ad94539719388d7545fc078d0c",
+    "priority_group": 2,
+    "proposal_status": "awaiting-author-approval",
+    "decision_required": "Approve a protocol-qualified route only. Preserve the existing capacity-requirement classification without treating the combination response as NAC-alone efficacy, an ordinary-food route, or a measured conversion efficiency.",
+    "original_atom": {
+      "atom_id": "PM6-DIT-7",
+      "dietary_input": true,
+      "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+      "input": "N-acetylcysteine",
+      "input_type": "precursor",
+      "biological_role": "Supplemental cysteine precursor given with glycine to older adults, in whom erythrocyte glutathione synthesis increased.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM6-F2"
+        ],
+        "citation_keys": [
+          "sekhar_glutathione_2011"
+        ]
+      },
+      "evidence_limitation": "The synthesis increase was measured in older adults given this precursor together with glycine. It does not show an effect of N-acetylcysteine alone, of ordinary foods, or of supplementation outside that group, and it is not a neuronal or clinical result."
+    },
+    "original_overlay": {
+      "atom_id": "PM6-DIT-7",
+      "requirement_classification": "derived",
+      "derived_target": "Cysteine",
+      "derived_target_atom_id": "PM6-DIT-1",
+      "relationship_mode": "capacity-requirement",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "precursor-mediated",
+      "claim_ceiling": "modulation-demonstrated",
+      "permitted_wording": "N-acetylcysteine is a supplemental cysteine precursor. In older adults, giving it with glycine raised erythrocyte glutathione synthesis. This is not evidence about ordinary food.",
+      "evidence_limitation": "The synthesis increase was measured in older adults given this precursor together with glycine. It does not show an effect of N-acetylcysteine alone, of ordinary foods, or of supplementation outside that group, and it is not a neuronal or clinical result."
+    },
+    "original_supporting_findings": [
+      {
+        "id": "PM6-F2",
+        "finding_label": "Blood-cell synthesis responds only under defined substrate conditions",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": true,
+        "finding_summary": "Removing both methionine and cysteine slowed whole-blood glutathione synthesis in healthy young men. Combined cysteine-precursor and glycine supplementation raised erythrocyte synthesis in older adults. A methionine-adequate diet without cysteine did not lower erythrocyte synthesis in young men.",
+        "finding_interpretation": "Substrate supply can change blood-cell synthesis in these specific conditions. That does not mean every ordinary diet is cysteine-limited, and the older-adult result is a supplemental precursor plus glycine, not a food prescription.",
+        "finding_statement": "Human blood-cell glutathione synthesis can slow when dietary methionine and cysteine are both removed and can rise in older adults after combined cysteine and glycine precursor supplementation, whereas a methionine-adequate cysteine-free diet did not limit erythrocyte synthesis in young men.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "synthesis": "Three human tracer studies set the ceiling. In seven healthy young men, a 10-day amino-acid diet with methionine and cysteine removed lowered whole-blood fractional synthesis from 0.65 \u00b1 0.13 to 0.49 \u00b1 0.13 per day and lowered absolute synthesis by about 23%, while concentration stayed near 1.2 mM and glycine intake was not reduced. In eight older adults compared with eight younger adults, erythrocyte glutathione synthesis and concentration were lower, and two weeks of cysteine plus glycine precursor supplementation raised fractional synthesis by 78.8% and absolute synthesis by 230.9%. The cysteine source in that protocol is N-acetylcysteine, given with glycine. In four young men, cysteine intakes from zero to 40 mg/kg/day did not change erythrocyte synthesis when methionine was held at 14 mg/kg/day. Synthesis is therefore substrate-responsive under defined restrictions, not universally limited by dietary cysteine.",
+        "synthesis_limitations": "All three studies measured blood-cell, not neuronal, synthesis. The sulfur-amino-acid-free diet was an experimental amino-acid formula in seven young men for 10 days. The older-adult increase required combined supplementation and was not an isolated N-acetylcysteine or glycine test, not an ADHD trial, and not ordinary food. The cysteine-free arm used only four young men and two days of adaptation. Concentration did not track synthesis rate in the sulfur-amino-acid-free study.",
+        "evidence_considered": [
+          {
+            "label": "Lyons et al. (2000)",
+            "citation_key": "lyons_glutathione_2000",
+            "href": "/docs/papers/BRAIN-Diet-References#lyons_glutathione_2000",
+            "data_level": "Human Mechanistic",
+            "exposure_context": "dietary",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "A sulfur-amino-acid-free amino-acid diet slowed whole-blood glutathione synthesis in healthy young men without lowering glutathione concentration.",
+            "assessment": {
+              "study": "Randomised crossover of two 10-day L-amino-acid diets, adequate versus methionine and cysteine both set to zero, with a primed intravenous L-[1-13C]cysteine infusion on day 10.",
+              "population": "Seven healthy men, age 24 \u00b1 6 years.",
+              "result": "Fractional synthesis fell from 0.65 \u00b1 0.13 to 0.49 \u00b1 0.13 per day (P < 0.01). Absolute synthesis fell from 747 \u00b1 216 to 578.6 \u00b1 135 \u00b5mol/L/day (P < 0.05), about 23%. Whole-blood glutathione stayed about 1.2 mM (1,142 \u00b1 243 versus 1,216 \u00b1 162 \u00b5M). Glycine in the formula rose from 39.6 to 75.1 mg/kg/day so nitrogen stayed constant; glutamic acid was unchanged.",
+              "effect_magnitude": "About a 23% lower absolute synthesis rate after 10 days without methionine and cysteine; concentration unchanged.",
+              "evidence_summary": "Direct human evidence that removing the shared sulfur-amino-acid supply slows whole-blood glutathione synthesis.",
+              "limitations": "Experimental formula, young men, short duration, whole blood rather than brain, and no clinical outcome. Glycine was increased, so the slowdown is not a glycine deficit."
+            }
+          },
+          {
+            "label": "Sekhar et al. (2011)",
+            "citation_key": "sekhar_glutathione_2011",
+            "href": "/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011",
+            "data_level": "Human Mechanistic",
+            "exposure_context": "supplemental-formulation",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "Older adults had lower erythrocyte glutathione synthesis than younger adults, and two weeks of cysteine plus glycine precursor supplementation restored synthesis and concentration.",
+            "assessment": {
+              "study": "Stable-isotope erythrocyte glutathione kinetics before and after precursor supplementation. Cysteine was supplied as N-acetylcysteine together with glycine.",
+              "population": "Eight older adults restudied after supplementation, compared with eight younger adults.",
+              "result": "Before supplementation, older adults had lower erythrocyte glycine, cysteine, glutathione concentration, fractional synthesis (45.80 \u00b1 5.69 versus 83.14 \u00b1 6.43 %/day) and absolute synthesis (0.55 \u00b1 0.12 versus 1.73 \u00b1 0.16 mmol/L red cells per day). After two weeks, glutathione concentration was 94.6% higher, fractional synthesis 78.8% higher and absolute synthesis 230.9% higher, and plasma oxidative-stress markers were lower.",
+              "effect_magnitude": "Combined precursor supplementation in older adults: fractional synthesis +78.8% and absolute synthesis +230.9% from the deficient baseline.",
+              "evidence_summary": "Human evidence that combined supplemental cysteine precursor and glycine can raise erythrocyte glutathione synthesis when it is low in older adults.",
+              "limitations": "Small older-adult sample, erythrocyte pool, combined supplements, not ordinary food, not neuronal synthesis, and not an ADHD or recovery trial."
+            }
+          },
+          {
+            "label": "Courtney-Martin et al. (2008)",
+            "citation_key": "courtney_martin_cysteine_2008",
+            "href": "/docs/papers/BRAIN-Diet-References#courtney_martin_cysteine_2008",
+            "data_level": "Human Mechanistic",
+            "exposure_context": "dietary",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Erythrocyte glutathione synthesis did not change across cysteine intakes, including zero, when methionine intake was adequate.",
+            "assessment": {
+              "study": "Five graded cysteine intakes (0, 10, 20, 30 and 40 mg/kg/day) in random order with methionine fixed at 14 mg/kg/day and protein at 1 g/kg/day. Erythrocyte glutathione synthesis was measured after two days at each intake.",
+              "population": "Four healthy young adult men.",
+              "result": "Fractional and absolute erythrocyte glutathione synthesis and glutathione concentration did not change as cysteine intake increased. Urinary sulfate excretion rose with cysteine intake (r = 0.92).",
+              "effect_magnitude": "No change in erythrocyte glutathione synthesis across the cysteine range tested.",
+              "evidence_summary": "Human evidence that dietary cysteine is not independently limiting for erythrocyte glutathione synthesis when methionine intake meets the protein requirement.",
+              "limitations": "Preliminary sample of four men, two-day adaptation, erythrocyte endpoint, and no neuronal or clinical outcome."
+            }
+          }
+        ],
+        "evidence_dependency": [
+          "Sekhar et al. (2011) is also used in PM6-F3 and PM6-F4 for the phenome boundary, and in PM6-IC1 for the measurement boundary. Those uses are not independent replications of the synthesis-rate result."
+        ]
+      }
+    ],
+    "existing_assessment": null,
+    "proposed_dietary_input_assessment": {
+      "atom_id": "PM6-DIT-7",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Build glutathione from sulfur amino acids so cellular antioxidant defence stays connected to one-carbon metabolism.",
+      "canonical_substance_id": "n-acetylcysteine",
+      "active_target_id": "cysteine",
+      "record_origin": "PROPOSAL ONLY: reconciliation of existing admitted Derived route; no new admission, SEC or publication permission.",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Supplemental cysteine precursor given with glycine to older adults, in whom erythrocyte glutathione synthesis increased.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Supplemental cysteine precursor given with glycine to older adults, in whom erythrocyte glutathione synthesis increased.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011"
+        ]
+      },
+      "conversion_pathway": [
+        {
+          "from": "n-acetylcysteine",
+          "to": "cysteine",
+          "process": "Supplemental N-acetylcysteine supplies a cysteine precursor in the tested combined glycine protocol.",
+          "dependencies": [],
+          "limitations": "The synthesis increase was measured in older adults given this precursor together with glycine. It does not show an effect of N-acetylcysteine alone, of ordinary foods, or of supplementation outside that group, and it is not a neuronal or clinical result. All three studies measured blood-cell, not neuronal, synthesis. The sulfur-amino-acid-free diet was an experimental amino-acid formula in seven young men for 10 days. The older-adult increase required combined supplementation and was not an isolated N-acetylcysteine or glycine test, not an ADHD trial, and not ordinary food. The cysteine-free arm used only four young men and two days of adaptation. Concentration did not track synthesis rate in the sulfur-amino-acid-free study.",
+          "evidence": {
+            "statement": "Supplemental cysteine precursor given with glycine to older adults, in whom erythrocyte glutathione synthesis increased.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "The synthesis increase was measured in older adults given this precursor together with glycine. It does not show an effect of N-acetylcysteine alone, of ordinary foods, or of supplementation outside that group, and it is not a neuronal or clinical result.",
+        "All three studies measured blood-cell, not neuronal, synthesis. The sulfur-amino-acid-free diet was an experimental amino-acid formula in seven young men for 10 days. The older-adult increase required combined supplementation and was not an isolated N-acetylcysteine or glycine test, not an ADHD trial, and not ordinary food. The cysteine-free arm used only four young men and two days of adaptation. Concentration did not track synthesis rate in the sulfur-amino-acid-free study."
+      ],
+      "provenance": [
+        "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx",
+        "docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011"
+      ]
+    },
+    "publication_boundary": "No source hold or projection block released; no downstream quantity, efficiency, clinical benefit, new direct admission or KC/inventory reclassification.",
+    "source_access": "Canonical records and previously recorded appraisals inspected. No new original-paper full-text verification claimed.",
+    "schema_validation": {
+      "status": "admitted",
+      "eligibility": {
+        "eligible": true,
+        "state": "eligible-candidate"
+      },
+      "errors": []
+    }
+  },
+  {
+    "relationship_id": "BRS2-FM3-PM7::PM7-DIT-4",
+    "pm": "BRS2-FM3-PM7",
+    "source_file": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx",
+    "source_sha256": "317e3d09fb31404e1adb0fde22baab7f982a7b2b1530f22a6ccfaa19a5d5b701",
+    "priority_group": 2,
+    "proposal_status": "awaiting-author-approval",
+    "decision_required": "Approve only the PC-to-choline conversion endpoint. Retain D3-PC versus D9-PC distinction and the unmeasured hepatic flux/SAM intermediates; do not add a fully quantified choline-to-SAM-to-PEMT chain.",
+    "original_atom": {
+      "atom_id": "PM7-DIT-4",
+      "dietary_input": true,
+      "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+      "input": "Phosphatidylcholine",
+      "input_type": "substrate provision",
+      "biological_role": "Dietary phosphatidylcholine can provide choline for its methyl-donor provision relationship to PEMT-dependent formation.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM7-F7"
+        ],
+        "citation_keys": [
+          "bockmann_choline_supplements_2023"
+        ]
+      },
+      "evidence_limitation": "Plasma tracing does not measure absolute hepatic flux, intermediary SAM, ordinary-food equivalence or benefit."
+    },
+    "original_overlay": {
+      "atom_id": "PM7-DIT-4",
+      "requirement_classification": "derived",
+      "derived_target": "Choline",
+      "derived_target_atom_id": "PM7-DIT-3",
+      "relationship_layer": "dietary-requirement",
+      "relationship_mode": "capacity-requirement",
+      "dietary_addressability": "direct",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "Dietary phosphatidylcholine can provide choline for its methyl-donor provision relationship to PEMT-dependent formation.",
+      "evidence_limitation": "Plasma tracing does not measure absolute hepatic flux, intermediary SAM, ordinary-food equivalence or benefit."
+    },
+    "original_supporting_findings": [
+      {
+        "id": "PM7-F7",
+        "finding_label": "Dietary choline forms supply methyl groups to the PEMT route",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": false,
+        "finding_summary": "Choline and dietary phosphatidylcholine can provide methyl groups used in PEMT-dependent phosphatidylcholine formation.",
+        "finding_interpretation": "Plasma tracing does not measure absolute hepatic flux, intermediary SAM, ordinary-food equivalence or benefit.",
+        "finding_statement": "Choline and dietary phosphatidylcholine can provide methyl groups used in PEMT-dependent phosphatidylcholine formation.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "synthesis": "Provision is supported by methyl-derived labelling, separately from intact-headgroup PC. This does not establish indispensable dependence or enhanced activity.",
+        "synthesis_limitations": "Plasma tracing does not measure absolute hepatic flux, intermediary SAM, ordinary-food equivalence or benefit.",
+        "evidence_considered": [
+          {
+            "label": "B\u00f6ckmann et al. (2023)",
+            "citation_key": "bockmann_choline_supplements_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "D3-PC supports methyl-donor provision after choline chloride and POPC.",
+            "assessment": {
+              "study": "Randomised crossover, labelled choline forms; full text assessed.",
+              "population": "Six healthy men.",
+              "result": "Results subsection D3-PC from the PEMT pathway: Figure S5B reports delayed D3-PC after all four inputs; S5A relates it to betaine labelling.",
+              "effect_magnitude": "No significant D3-PC difference between formulations.",
+              "evidence_summary": "D3-PC supports methyl-donor provision after choline chloride and POPC.",
+              "limitations": "D3-PC (m/z 187) is distinct from D9-PC (193). Methionine/SAM intermediates and hepatic origin are mechanistically attributed, not directly measured here."
+            }
+          }
+        ]
+      }
+    ],
+    "existing_assessment": null,
+    "proposed_dietary_input_assessment": {
+      "atom_id": "PM7-DIT-4",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Maintain phosphatidylcholine formation through PEMT methylation and the choline-based Kennedy pathway.",
+      "canonical_substance_id": "phosphatidylcholine",
+      "active_target_id": "choline",
+      "record_origin": "PROPOSAL ONLY: reconciliation of existing admitted Derived route; no new admission, SEC or publication permission.",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Dietary phosphatidylcholine can provide choline for its methyl-donor provision relationship to PEMT-dependent formation.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Dietary phosphatidylcholine can provide choline for its methyl-donor provision relationship to PEMT-dependent formation.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023"
+        ]
+      },
+      "conversion_pathway": [
+        {
+          "from": "phosphatidylcholine",
+          "to": "choline",
+          "process": "Dietary phosphatidylcholine supplies choline through digestion/remodelling; the receiving PM records methyl-derived labelling separately from intact-headgroup incorporation.",
+          "dependencies": [],
+          "limitations": "Plasma tracing does not measure absolute hepatic flux, intermediary SAM, ordinary-food equivalence or benefit.",
+          "evidence": {
+            "statement": "Dietary phosphatidylcholine can provide choline for its methyl-donor provision relationship to PEMT-dependent formation.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Plasma tracing does not measure absolute hepatic flux, intermediary SAM, ordinary-food equivalence or benefit."
+      ],
+      "provenance": [
+        "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx",
+        "docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023"
+      ]
+    },
+    "publication_boundary": "No source hold or projection block released; no downstream quantity, efficiency, clinical benefit, new direct admission or KC/inventory reclassification.",
+    "source_access": "Canonical records and previously recorded appraisals inspected. No new original-paper full-text verification claimed.",
+    "schema_validation": {
+      "status": "admitted",
+      "eligibility": {
+        "eligible": true,
+        "state": "eligible-candidate"
+      },
+      "errors": []
+    }
+  },
+  {
+    "relationship_id": "BRS4-FM1-PM1::PM1-DIT-3",
+    "pm": "BRS4-FM1-PM1",
+    "source_file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx",
+    "source_sha256": "3225502d5bb706243fa07b571917d83be0d1c6e17a1e732c7d826ad6cdbe0e7d",
+    "priority_group": 1,
+    "proposal_status": "awaiting-author-approval",
+    "decision_required": "Approve metadata reconciliation only; preserve adequate-state and riboflavin-responsive disease boundaries. Approve the existing display name as an exact alias for vitamin-b2; current registry label validation does not accept the parenthetical name.",
+    "original_atom": {
+      "atom_id": "PM1-DIT-3",
+      "dietary_input": true,
+      "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+      "input": "Vitamin B2 (riboflavin)",
+      "input_type": "precursor",
+      "biological_role": "Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH electrons in complex I.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "curtabbi_complex_i_fmn_2022"
+        ]
+      },
+      "evidence_limitation": "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context."
+    },
+    "original_overlay": {
+      "atom_id": "PM1-DIT-3",
+      "requirement_classification": "derived",
+      "derived_target": "Flavin mononucleotide (FMN)",
+      "derived_target_atom_id": "PM1-DIT-2",
+      "relationship_mode": "capacity-requirement",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "precursor-mediated",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Riboflavin is a precursor of the flavin mononucleotide (FMN) used by complex I. Eating more riboflavin once flavin mononucleotide (FMN) is adequate is not shown to raise electron transport.",
+      "evidence_limitation": "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context."
+    },
+    "original_supporting_findings": [
+      {
+        "id": "PM1-F1",
+        "finding_label": "Five complexes and two carriers make ATP",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": true,
+        "finding_summary": "Electrons from NADH and from succinate pass through five enzyme complexes. Ubiquinone and cytochrome c carry them between complexes. The proton gradient drives ATP synthase. Iron\u2013sulfur clusters, haem, copper and flavin mononucleotide (FMN) take part in the transfers.",
+        "finding_interpretation": "These are the working parts of the chain. Identifying a part does not show that eating more of its dietary source raises electron transport or ATP production.",
+        "finding_statement": "Mammalian oxidative phosphorylation oxidises mitochondrial reducing equivalents through five complexes and two mobile carriers, uses iron, copper, haem and flavin mononucleotide (FMN) in the transfers, and couples the proton gradient to ATP synthesis.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "synthesis": "The respiratory-chain review describes five complexes and two mobile carriers. Oxidation of reducing equivalents builds a proton gradient that ATP synthase uses to make ATP. Iron\u2013sulfur clusters and haem irons transfer electrons, and complex IV has two copper centres. A separate review places flavin mononucleotide (FMN) at the NADH entry site of complex I. Coenzyme Q10 reviews describe ubiquinone as the electron carrier used for that mitochondrial transfer and for related proton movement. Together they define the participants. They do not measure a dietary dose.",
+        "synthesis_limitations": "The sources are reviews of enzyme structure and function, not human feeding trials. Flavin mononucleotide (FMN) abundance has not been shown to limit complex I in ordinary conditions. Endogenous ubiquinone synthesis is not separated here from dietary coenzyme Q10. Copper and iron centres are not evidence that supplements raise chain activity.",
+        "evidence_considered": [
+          {
+            "label": "Vercellino and Sazanov (2022)",
+            "citation_key": "vercellino_respiratory_chain_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#vercellino_respiratory_chain_2022",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Five complexes and two mobile carriers couple oxidation of reducing equivalents to a proton gradient and ATP synthesis, using iron\u2013sulfur clusters, haem and copper centres.",
+            "assessment": {
+              "study": "Review of assembly, structure and function of the mammalian mitochondrial respiratory chain.",
+              "population": "No human participants. Review of structural and biochemical studies.",
+              "result": "The chain comprises five complexes and two mobile electron carriers. Proton pumping is coupled to ATP synthesis. Iron\u2013sulfur clusters, haem and the two copper centres of complex IV transfer electrons.",
+              "effect_magnitude": "No human effect size.",
+              "evidence_summary": "Defines the complexes, carriers and metal centres used for electron transport and ATP synthesis.",
+              "limitations": "A review does not test dietary intake, brain ATP, or clinical outcomes."
+            }
+          },
+          {
+            "label": "Curtabbi and Enr\u00edquez (2022)",
+            "citation_key": "curtabbi_complex_i_fmn_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Flavin mononucleotide (FMN) in complex I accepts the electrons that NADH donates at the start of the chain.",
+            "assessment": {
+              "study": "Review of the flavin mononucleotide (FMN) site of respiratory complex I.",
+              "population": "No human feeding cohort. Review of enzyme and mitochondrial studies.",
+              "result": "Electrons from NADH enter complex I at flavin mononucleotide (FMN). The review does not establish that flavin mononucleotide (FMN) abundance limits assembly or activity.",
+              "effect_magnitude": "No intake effect size.",
+              "evidence_summary": "Places flavin mononucleotide (FMN) as the NADH-entry cofactor of complex I.",
+              "limitations": "Does not test riboflavin intake in healthy people or show that more flavin mononucleotide (FMN) increases ATP synthesis."
+            }
+          },
+          {
+            "label": "Crane (2001)",
+            "citation_key": "crane_coq10_2001",
+            "href": "/docs/papers/BRAIN-Diet-References#crane_coq10_2001",
+            "data_level": "Mechanistic",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "Coenzyme Q10 functions in mitochondrial electron transport and in proton movement linked to ATP synthesis.",
+            "assessment": {
+              "study": "Narrative review of biochemical functions of coenzyme Q10.",
+              "population": "No new human participants.",
+              "result": "The review assigns coenzyme Q10 a role in electron transport and proton translocation, and an antioxidant role in membranes.",
+              "effect_magnitude": "No dietary effect size.",
+              "evidence_summary": "Supports ubiquinone as an electron carrier. It does not test food or supplement intake.",
+              "limitations": "A biochemical review cannot show that dietary coenzyme Q10 changes chain rate."
+            }
+          }
+        ],
+        "connected_supportive_evidence": [
+          {
+            "label": "Tardy et al. (2020)",
+            "citation_key": "tardy_vitamins_2020",
+            "href": "/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020",
+            "data_level": "Mechanistic",
+            "why_relevant": "Reviews B vitamins, iron and magnesium in energy-yielding metabolism and fatigue.",
+            "why_excluded": "It does not measure respiratory-complex activity or separate each cofactor's job in this chain."
+          }
+        ]
+      }
+    ],
+    "existing_assessment": null,
+    "proposed_dietary_input_assessment": {
+      "atom_id": "PM1-DIT-3",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "canonical_substance_id": "vitamin-b2",
+      "active_target_id": "flavin-mononucleotide",
+      "record_origin": "PROPOSAL ONLY: reconciliation of existing admitted Derived route; no new admission, SEC or publication permission.",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH electrons in complex I.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH electrons in complex I.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022"
+        ]
+      },
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b2",
+          "to": "flavin-mononucleotide",
+          "process": "Riboflavin supplies the precursor for FMN used by complex I.",
+          "dependencies": [],
+          "limitations": "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context. The sources are reviews of enzyme structure and function, not human feeding trials. Flavin mononucleotide (FMN) abundance has not been shown to limit complex I in ordinary conditions. Endogenous ubiquinone synthesis is not separated here from dietary coenzyme Q10. Copper and iron centres are not evidence that supplements raise chain activity.",
+          "evidence": {
+            "statement": "Riboflavin is the vitamin precursor of flavin mononucleotide (FMN), the flavin that accepts NADH electrons in complex I.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context.",
+        "The sources are reviews of enzyme structure and function, not human feeding trials. Flavin mononucleotide (FMN) abundance has not been shown to limit complex I in ordinary conditions. Endogenous ubiquinone synthesis is not separated here from dietary coenzyme Q10. Copper and iron centres are not evidence that supplements raise chain activity."
+      ],
+      "provenance": [
+        "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx",
+        "docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022"
+      ]
+    },
+    "publication_boundary": "No source hold or projection block released; no downstream quantity, efficiency, clinical benefit, new direct admission or KC/inventory reclassification.",
+    "source_access": "Canonical records and previously recorded appraisals inspected. No new original-paper full-text verification claimed.",
+    "schema_validation": {
+      "status": "unresolved",
+      "eligibility": {
+        "eligible": true,
+        "state": "eligible-candidate"
+      },
+      "errors": [
+        "canonical-input-identity-mismatch"
+      ]
+    },
+    "proposed_identity_correction": {
+      "kind": "exact-existing-display-name-alias",
+      "canonical_id": "vitamin-b2",
+      "alias": "Vitamin B2 (riboflavin)",
+      "approval_required": true
+    }
+  },
+  {
+    "relationship_id": "BRS4-FM1-PM2::PM2-DIT-3",
+    "pm": "BRS4-FM1-PM2",
+    "source_file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx",
+    "source_sha256": "12f4d64a612c3a073cebd7430d0628cd9187ddbd713a1659155ea5708051c93d",
+    "priority_group": 2,
+    "proposal_status": "awaiting-author-approval",
+    "decision_required": "Approve a macro-pathway record to the existing nicotinamide target, explicitly preserving kynurenine/de-novo NAD context and subsequent nicotinamide availability. No conversion factor or extra-protein effect.",
+    "original_atom": {
+      "atom_id": "PM2-DIT-3",
+      "dietary_input": true,
+      "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+      "input": "Tryptophan",
+      "input_type": "precursor",
+      "biological_role": "The liver can convert tryptophan to nicotinamide, which other cells salvage into NAD\u207a.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F1"
+        ],
+        "citation_keys": [
+          "covarrubias_nad_2021"
+        ]
+      },
+      "evidence_limitation": "Most cells outside the liver do not run the full route. The review does not establish what share of the NAD\u207a pool comes from tryptophan, and eating more protein is not shown to raise NAD\u207a."
+    },
+    "original_overlay": {
+      "atom_id": "PM2-DIT-3",
+      "requirement_classification": "derived",
+      "derived_target": "Nicotinamide (a form of vitamin B3)",
+      "derived_target_atom_id": "PM2-DIT-1",
+      "relationship_mode": "capacity-requirement",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "precursor-mediated",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Tryptophan can supply nicotinamide for NAD\u207a salvage. Eating more protein is not shown to raise NAD\u207a.",
+      "evidence_limitation": "Most cells outside the liver do not run the full route. The review does not establish what share of the NAD\u207a pool comes from tryptophan, and eating more protein is not shown to raise NAD\u207a."
+    },
+    "original_supporting_findings": [
+      {
+        "id": "PM2-F1",
+        "finding_label": "Three major pathways maintain the NAD\u207a pool",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": true,
+        "finding_summary": "NAD\u207a accepts electrons to form NADH, and that NADH can be oxidised back to NAD\u207a. Separately, nicotinamide salvage, the nicotinic-acid route and hepatic conversion of tryptophan are major pathways that replenish the pool when consuming enzymes break NAD\u207a down.",
+        "finding_interpretation": "These are major maintenance pathways, not every precursor entry. Identifying them does not show that eating more of a precursor, once intake is adequate, raises NAD\u207a or improves attention.",
+        "finding_statement": "Major pathways that maintain the mammalian NAD\u207a pool are de novo synthesis from tryptophan, the Preiss\u2013Handler route from nicotinic acid, and salvage of nicotinamide. Most cells outside the liver depend on salvage. These are not the only precursor entry routes.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "synthesis": "The review describes NAD\u207a as the coenzyme that accepts a hydride in redox reactions. It is synthesised de novo from tryptophan through the kynurenine pathway, from nicotinic acid by the Preiss\u2013Handler pathway, and by salvage of nicotinamide. Outside the liver, most cells do not express the full tryptophan route. The liver can convert tryptophan to nicotinamide, release it, and leave other cells to salvage that nicotinamide. The review states that the share of the pool coming from tryptophan is not established. Most NAD\u207a is described as coming from nicotinamide salvage.",
+        "synthesis_limitations": "This is a review of pathways, not a human feeding trial. It does not measure how much an ordinary meal changes NAD\u207a, and it does not test attention or cognitive energy. Nicotinamide riboside and nicotinamide mononucleotide, as supplement doses, are outside this dietary assessment.",
+        "evidence_considered": [
+          {
+            "label": "Covarrubias et al. (2021)",
+            "citation_key": "covarrubias_nad_2021",
+            "href": "/docs/papers/BRAIN-Diet-References#covarrubias_nad_2021",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "NAD\u207a is made from tryptophan, from nicotinic acid, and by salvage of nicotinamide, with salvage as the main route outside the liver.",
+            "assessment": {
+              "study": "Review of NAD\u207a biosynthesis and of NAD\u207a-dependent enzymes in energy metabolism and ageing.",
+              "population": "No new human feeding cohort. Review of biochemical and organism studies.",
+              "result": "Three biosynthetic routes are distinguished. Nicotinamide salvage supplies most NAD\u207a outside the liver. The contribution of tryptophan is not established.",
+              "effect_magnitude": "No ordinary-diet effect size.",
+              "evidence_summary": "Defines major pathways that maintain the NAD\u207a pool, not every precursor entry.",
+              "limitations": "A review does not test meals, adequate versus extra intake, or cognitive outcomes."
+            },
+            "canonical_reference": {
+              "author_year": "Covarrubias et al. (2021)",
+              "number": 1,
+              "anchor": "#pm-ref-1"
+            }
+          }
+        ],
+        "connected_supportive_evidence": [
+          {
+            "label": "Tardy et al. (2020)",
+            "citation_key": "tardy_vitamins_2020",
+            "href": "/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020",
+            "data_level": "Mechanistic",
+            "why_relevant": "Reviews B vitamins among cofactors linked to energy metabolism and fatigue.",
+            "why_excluded": "It does not define the NAD\u207a biosynthetic enzymes or measure NAD\u207a.",
+            "canonical_reference": {
+              "author_year": "Tardy et al. (2020)",
+              "number": 9,
+              "anchor": "#pm-ref-9"
+            }
+          },
+          {
+            "label": "Kyriazis et al. (2022)",
+            "citation_key": "kyriazis_impact_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022",
+            "data_level": "Mechanistic",
+            "why_relevant": "Reviews how several diet patterns relate to mitochondrial function, biogenesis and turnover.",
+            "why_excluded": "It does not establish the NAD\u207a biosynthetic routes or a change in NAD\u207a availability.",
+            "canonical_reference": {
+              "author_year": "Kyriazis et al. (2022)",
+              "number": 10,
+              "anchor": "#pm-ref-10"
+            }
+          }
+        ],
+        "informs": [
+          {
+            "phenome": "Cognitive Energy Stability",
+            "href": "/docs/phenomes/details/ph004-cognitive-energy-stability"
+          }
+        ]
+      }
+    ],
+    "existing_assessment": null,
+    "proposed_dietary_input_assessment": {
+      "atom_id": "PM2-DIT-3",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Maintain NAD\u207a availability so redox reactions and mitochondrial signalling stay adequately powered.",
+      "canonical_substance_id": "tryptophan",
+      "active_target_id": "nicotinamide",
+      "record_origin": "PROPOSAL ONLY: reconciliation of existing admitted Derived route; no new admission, SEC or publication permission.",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "The liver can convert tryptophan to nicotinamide, which other cells salvage into NAD\u207a.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#covarrubias_nad_2021"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The liver can convert tryptophan to nicotinamide, which other cells salvage into NAD\u207a.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#covarrubias_nad_2021"
+        ]
+      },
+      "conversion_pathway": [
+        {
+          "from": "tryptophan",
+          "to": "nicotinamide",
+          "process": "Multi-step hepatic tryptophan metabolism can supply nicotinamide for subsequent salvage; this is not a direct one-step reaction.",
+          "dependencies": [],
+          "limitations": "Most cells outside the liver do not run the full route. The review does not establish what share of the NAD\u207a pool comes from tryptophan, and eating more protein is not shown to raise NAD\u207a. This is a review of pathways, not a human feeding trial. It does not measure how much an ordinary meal changes NAD\u207a, and it does not test attention or cognitive energy. Nicotinamide riboside and nicotinamide mononucleotide, as supplement doses, are outside this dietary assessment.",
+          "evidence": {
+            "statement": "The liver can convert tryptophan to nicotinamide, which other cells salvage into NAD\u207a.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#covarrubias_nad_2021"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Most cells outside the liver do not run the full route. The review does not establish what share of the NAD\u207a pool comes from tryptophan, and eating more protein is not shown to raise NAD\u207a.",
+        "This is a review of pathways, not a human feeding trial. It does not measure how much an ordinary meal changes NAD\u207a, and it does not test attention or cognitive energy. Nicotinamide riboside and nicotinamide mononucleotide, as supplement doses, are outside this dietary assessment."
+      ],
+      "provenance": [
+        "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx",
+        "docs/papers/BRAIN-Diet-References#covarrubias_nad_2021"
+      ]
+    },
+    "publication_boundary": "No source hold or projection block released; no downstream quantity, efficiency, clinical benefit, new direct admission or KC/inventory reclassification.",
+    "source_access": "Canonical records and previously recorded appraisals inspected. No new original-paper full-text verification claimed.",
+    "schema_validation": {
+      "status": "admitted",
+      "eligibility": {
+        "eligible": true,
+        "state": "eligible-candidate"
+      },
+      "errors": []
+    }
+  },
+  {
+    "relationship_id": "BRS5-FM1-PM1::PM1-DIT-2",
+    "pm": "BRS5-FM1-PM1",
+    "source_file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+    "source_sha256": "deb2296bff243ba074c5d7f3d180db9a30e9910b8a82207ed893bc1747aa88f6",
+    "priority_group": 3,
+    "proposal_status": "awaiting-author-approval",
+    "decision_required": "Keep blocked pending a decision on the scoped fermentable-fibre source identity. Do not alias total fibre, resistant starch, pectin or FOS/GOS to the whole class. Any narrowing to a specific substrate needs separate admission review.",
+    "original_atom": {
+      "atom_id": "PM1-DIT-2",
+      "dietary_input": true,
+      "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+      "input": "Fermentable dietary fibre",
+      "input_type": "substrate provision",
+      "biological_role": "Provides fermentable carbohydrate to gut microbes for short-chain-fatty-acid, including butyrate, production upstream of epithelial barrier effects.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM1-F2"
+        ],
+        "citation_keys": [
+          "silva_role_2020"
+        ]
+      },
+      "evidence_limitation": "Production depends on fibre structure, dose and microbial ecology. Evidence for specific fibres must not be generalised to all fibre, and this relationship does not establish a universal intake threshold or response.",
+      "canonical_identity": {
+        "status": "missing-substance",
+        "severity": "MAJOR",
+        "intended_identity": "Fermentable dietary fibre",
+        "aliases_checked": [
+          "Fermentable dietary fibre"
+        ],
+        "checked_sources": [
+          "registry/substances.json",
+          "docs/substances/ (label/form/alias search)"
+        ],
+        "projection_status": "blocked"
+      }
+    },
+    "original_overlay": {
+      "atom_id": "PM1-DIT-2",
+      "relationship_layer": "dietary-requirement",
+      "relationship_mode": "capacity-requirement",
+      "claim_ceiling": "biological-dependency",
+      "dietary_addressability": "precursor-mediated",
+      "requirement_classification": "derived",
+      "derived_target": "Butyrate",
+      "derived_target_atom_id": "PM1-DIT-1"
+    },
+    "original_supporting_findings": [
+      {
+        "id": "PM1-F2",
+        "finding_label": "Butyrate can support epithelial tight-junction assembly",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": false,
+        "finding_summary": "Microbial fermentation products, especially butyrate, can act directly on epithelial barrier biology.",
+        "finding_interpretation": "This supports a Direct butyrate relationship and a Derived fermentable-fibre provision relationship, with microbiota and fibre-specific limitations.",
+        "finding_statement": "Butyrate can function as an epithelial metabolic substrate and promote intestinal tight-junction assembly, while fermentable dietary fibre lies upstream as microbial substrate provision for short-chain-fatty-acid production.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "synthesis": "In Caco-2 monolayers, physiological butyrate increased transepithelial resistance, reduced inulin permeability and accelerated tight-junction assembly alongside AMPK activation. A broader review links microbial fermentation of dietary substrates to short-chain-fatty-acid production and intestinal barrier effects.",
+        "synthesis_limitations": "The direct assembly experiment is an immortalised epithelial-cell model. Fibre-to-butyrate conversion varies by fibre structure and microbial ecology, and neither source establishes a universal human intake threshold, a generic effect of all fibre, or oral butyrate as necessary treatment.",
+        "evidence_considered": [
+          {
+            "label": "Peng et al. (2009)",
+            "citation_key": "peng_butyrate_2009",
+            "href": "/docs/papers/BRAIN-Diet-References#peng_butyrate_2009",
+            "data_level": "Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Butyrate increased barrier resistance, reduced inulin permeability and accelerated tight-junction assembly in Caco-2 monolayers."
+          },
+          {
+            "label": "Silva et al. (2020)",
+            "citation_key": "silva_role_2020",
+            "href": "/docs/papers/BRAIN-Diet-References#silva_role_2020",
+            "data_level": "Mechanistic",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "The review links microbial fermentation-derived short-chain fatty acids with epithelial barrier and gut-brain communication mechanisms."
+          }
+        ]
+      }
+    ],
+    "existing_assessment": null,
+    "proposed_dietary_input_assessment": {
+      "atom_id": "PM1-DIT-2",
+      "status": "unresolved",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "canonical_substance_id": null,
+      "active_target_id": "butyrate",
+      "record_origin": "PROPOSAL ONLY: reconciliation of existing admitted Derived route; no new admission, SEC or publication permission.",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Provides fermentable carbohydrate to gut microbes for short-chain-fatty-acid, including butyrate, production upstream of epithelial barrier effects.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#silva_role_2020"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Provides fermentable carbohydrate to gut microbes for short-chain-fatty-acid, including butyrate, production upstream of epithelial barrier effects.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#silva_role_2020"
+        ]
+      },
+      "conversion_pathway": [
+        {
+          "from": null,
+          "to": "butyrate",
+          "process": "Microbial fermentation of appropriate dietary substrates can generate butyrate.",
+          "dependencies": [
+            "Substrate-specific fermentability",
+            "Dose and microbial ecology"
+          ],
+          "limitations": "Production depends on fibre structure, dose and microbial ecology. Evidence for specific fibres must not be generalised to all fibre, and this relationship does not establish a universal intake threshold or response. The direct assembly experiment is an immortalised epithelial-cell model. Fibre-to-butyrate conversion varies by fibre structure and microbial ecology, and neither source establishes a universal human intake threshold, a generic effect of all fibre, or oral butyrate as necessary treatment.",
+          "evidence": {
+            "statement": "Provides fermentable carbohydrate to gut microbes for short-chain-fatty-acid, including butyrate, production upstream of epithelial barrier effects.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#silva_role_2020"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Production depends on fibre structure, dose and microbial ecology. Evidence for specific fibres must not be generalised to all fibre, and this relationship does not establish a universal intake threshold or response.",
+        "The direct assembly experiment is an immortalised epithelial-cell model. Fibre-to-butyrate conversion varies by fibre structure and microbial ecology, and neither source establishes a universal human intake threshold, a generic effect of all fibre, or oral butyrate as necessary treatment."
+      ],
+      "provenance": [
+        "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+        "docs/papers/BRAIN-Diet-References#silva_role_2020"
+      ]
+    },
+    "publication_boundary": "No source hold or projection block released; no downstream quantity, efficiency, clinical benefit, new direct admission or KC/inventory reclassification.",
+    "source_access": "Canonical records and previously recorded appraisals inspected. No new original-paper full-text verification claimed.",
+    "schema_validation": {
+      "status": "unresolved",
+      "eligibility": {
+        "eligible": true,
+        "state": "eligible-candidate"
+      },
+      "errors": [
+        "canonical-identity-unresolved",
+        "conversion-identity-unresolved"
+      ]
+    }
+  },
+  {
+    "relationship_id": "BRS5-FM1-PM1::PM1-DIT-4",
+    "pm": "BRS5-FM1-PM1",
+    "source_file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+    "source_sha256": "deb2296bff243ba074c5d7f3d180db9a30e9910b8a82207ed893bc1747aa88f6",
+    "priority_group": 2,
+    "proposal_status": "awaiting-author-approval",
+    "decision_required": "Approve structured draft reconciliation only, retaining draft-only projection. Preserve form/status dependence and the cell-model result of increased permeability; do not assert universal barrier tightening or release the projection hold.",
+    "original_atom": {
+      "atom_id": "PM1-DIT-4",
+      "dietary_input": true,
+      "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+      "input": "Vitamin A",
+      "input_type": "precursor",
+      "biological_role": "Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for epithelial differentiation and barrier maintenance.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ]
+      },
+      "evidence_limitation": "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1.",
+      "canonical_identity": {
+        "status": "resolved",
+        "substance_id": "vitamin-a",
+        "substance_href": "/docs/substances/nutrients/micronutrients/vitamins/vitamin-a",
+        "checked_sources": [
+          "registry/substances.json",
+          "docs/substances/nutrients/micronutrients/vitamins/vitamin-a.md"
+        ],
+        "projection_status": "draft-only"
+      },
+      "substance_id": "vitamin-a"
+    },
+    "original_overlay": {
+      "atom_id": "PM1-DIT-4",
+      "relationship_layer": "dietary-requirement",
+      "relationship_mode": "capacity-requirement",
+      "claim_ceiling": "biological-dependency",
+      "dietary_addressability": "precursor-mediated",
+      "requirement_classification": "derived",
+      "derived_target": "Retinoic acid",
+      "derived_target_atom_id": "PM1-DIT-3"
+    },
+    "original_supporting_findings": [
+      {
+        "id": "PM1-F5",
+        "finding_label": "Retinoid and zinc effects depend on the epithelial context",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": false,
+        "finding_summary": "Cellular zinc supports junction-protein maintenance; retinoic acid influences epithelial differentiation and selective permeability.",
+        "finding_statement": "Cellular zinc supports junction-protein maintenance; retinoic acid influences epithelial differentiation and selective permeability.",
+        "finding_interpretation": "The zinc result supports a bounded cellular requirement. Retinoid biology cannot be simplified to lower permeability in every context.",
+        "synthesis": "The zinc result supports a bounded cellular requirement. Retinoid biology cannot be simplified to lower permeability in every context.",
+        "synthesis_limitations": "Cell experiments and mechanistic synthesis do not define dietary thresholds or extra-intake benefit.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "evidence_considered": [
+          {
+            "label": "Miyoshi et al. (2016)",
+            "citation_key": "miyoshi_cellular_2016",
+            "href": "/docs/papers/BRAIN-Diet-References#miyoshi_cellular_2016",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Cellular zinc depletion impaired barrier maintenance and affected occludin and claudin-3.",
+            "study_exposure": "Intestinal epithelial zinc depletion/repletion experiments.",
+            "study_finding": "Cellular zinc depletion impaired barrier maintenance and affected occludin and claudin-3.",
+            "assessment": {
+              "study": "Intestinal epithelial zinc depletion/repletion experiments.",
+              "population": "Intestinal epithelial zinc depletion/repletion experiments.",
+              "result": "Cellular zinc depletion impaired barrier maintenance and affected occludin and claudin-3.",
+              "effect_magnitude": "Only extracted comparisons retained; no pooled effect or clinical-benefit magnitude assigned.",
+              "evidence_summary": "Cellular zinc depletion impaired barrier maintenance and affected occludin and claudin-3.",
+              "limitations": "Cellular availability is not proof that ordinary zinc intake limits every person\u2019s barrier.",
+              "retrieval_scope": "Primary abstract/results retrieved online; no unextracted numerical effect inferred."
+            }
+          },
+          {
+            "label": "Baltes et al. (2004)",
+            "citation_key": "baltes_retinoic_permeability_2004",
+            "href": "/docs/papers/BRAIN-Diet-References#baltes_retinoic_permeability_2004",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Differentiation increased, but permeability also increased alongside claudin-2 expression.",
+            "study_exposure": "Serum-free Caco-2 retinoic-acid exposure.",
+            "study_finding": "Differentiation increased, but permeability also increased alongside claudin-2 expression.",
+            "assessment": {
+              "study": "Serum-free Caco-2 retinoic-acid exposure.",
+              "population": "Serum-free Caco-2 retinoic-acid exposure.",
+              "result": "Differentiation increased, but permeability also increased alongside claudin-2 expression.",
+              "effect_magnitude": "Only extracted comparisons retained; no pooled effect or clinical-benefit magnitude assigned.",
+              "evidence_summary": "Differentiation increased, but permeability also increased alongside claudin-2 expression.",
+              "limitations": "A model-specific result; do not infer a universally tighter barrier.",
+              "retrieval_scope": "Primary abstract/results retrieved online; no unextracted numerical effect inferred."
+            }
+          },
+          {
+            "label": "Cantorna et al. (2019)",
+            "citation_key": "cantorna_vitamin_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019",
+            "data_level": "Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Vitamin A metabolites participate in epithelial differentiation and mucosal regulation.",
+            "study_exposure": "Attached mechanistic review of vitamin A and intestinal/mucosal biology.",
+            "study_finding": "Vitamin A metabolites participate in epithelial differentiation and mucosal regulation.",
+            "assessment": {
+              "study": "Attached mechanistic review of vitamin A and intestinal/mucosal biology.",
+              "population": "Attached mechanistic review of vitamin A and intestinal/mucosal biology.",
+              "result": "Vitamin A metabolites participate in epithelial differentiation and mucosal regulation.",
+              "effect_magnitude": "Only extracted comparisons retained; no pooled effect or clinical-benefit magnitude assigned.",
+              "evidence_summary": "Vitamin A metabolites participate in epithelial differentiation and mucosal regulation.",
+              "limitations": "Review-level support for capacity, not a supplementation trial.",
+              "retrieval_scope": "Inherited review assessed as context; primary Baltes result separately checked."
+            }
+          },
+          {
+            "label": "Li et al. (2017)",
+            "citation_key": "li_retinoid_junction_2017",
+            "href": "/docs/papers/BRAIN-Diet-References#li_retinoid_junction_2017",
+            "data_level": "Preclinical",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Retinoid treatment increased junction-related expression and electrical resistance in the tested systems.",
+            "study_exposure": "Retinoid receptor/TLR4 perturbation in Caco-2 cells and vitamin A status experiments in rodents.",
+            "study_finding": "Retinoid treatment increased junction-related expression and electrical resistance in the tested systems.",
+            "assessment": {
+              "study": "Retinoid receptor/TLR4 perturbation in Caco-2 cells and vitamin A status experiments in rodents.",
+              "population": "Retinoid receptor/TLR4 perturbation in Caco-2 cells and vitamin A status experiments in rodents.",
+              "result": "Retinoid treatment increased junction-related expression and electrical resistance in the tested systems.",
+              "effect_magnitude": "Only extracted comparisons retained; no pooled effect or clinical-benefit magnitude assigned.",
+              "evidence_summary": "Retinoid treatment increased junction-related expression and electrical resistance in the tested systems.",
+              "limitations": "Context-specific protective result does not erase the different permeability response in Baltes or establish human supplementation benefit.",
+              "retrieval_scope": "Primary abstract/results retrieved online; no unextracted numerical effect inferred."
+            }
+          }
+        ],
+        "connected_supportive_evidence": []
+      }
+    ],
+    "existing_assessment": null,
+    "proposed_dietary_input_assessment": {
+      "atom_id": "PM1-DIT-4",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "canonical_substance_id": "vitamin-a",
+      "active_target_id": "retinoic-acid",
+      "record_origin": "PROPOSAL ONLY: reconciliation of existing admitted Derived route; no new admission, SEC or publication permission.",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for epithelial differentiation and barrier maintenance.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019",
+          "docs/papers/BRAIN-Diet-References#li_retinoid_junction_2017"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for epithelial differentiation and barrier maintenance.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019",
+          "docs/papers/BRAIN-Diet-References#li_retinoid_junction_2017"
+        ]
+      },
+      "conversion_pathway": [
+        {
+          "from": "vitamin-a",
+          "to": "retinoic-acid",
+          "process": "Form-dependent metabolism of dietary retinoids and provitamin A precursors supports retinoic-acid formation.",
+          "dependencies": [],
+          "limitations": "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1. Cell experiments and mechanistic synthesis do not define dietary thresholds or extra-intake benefit.",
+          "evidence": {
+            "statement": "Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for epithelial differentiation and barrier maintenance.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019",
+              "docs/papers/BRAIN-Diet-References#li_retinoid_junction_2017"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1.",
+        "Cell experiments and mechanistic synthesis do not define dietary thresholds or extra-intake benefit."
+      ],
+      "provenance": [
+        "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+        "docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019",
+        "docs/papers/BRAIN-Diet-References#li_retinoid_junction_2017"
+      ]
+    },
+    "publication_boundary": "No source hold or projection block released; no downstream quantity, efficiency, clinical benefit, new direct admission or KC/inventory reclassification.",
+    "source_access": "Canonical records and previously recorded appraisals inspected. No new original-paper full-text verification claimed.",
+    "schema_validation": {
+      "status": "admitted",
+      "eligibility": {
+        "eligible": true,
+        "state": "eligible-candidate"
+      },
+      "errors": []
+    }
+  },
+  {
+    "relationship_id": "BRS5-FM2-PM6::PM6-DIT-2",
+    "pm": "BRS5-FM2-PM6",
+    "source_file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx",
+    "source_sha256": "ed260528ab624daf6b0a55d05b2dc96dfc0e05c125c242922c0a9b7dc7bfed3b",
+    "priority_group": 2,
+    "proposal_status": "awaiting-author-approval",
+    "decision_required": "Approve correction of the stale missing-substance annotation to the existing ellagitannins ID and a qualified hydrolysis record; preserve blocked public projection unless separately authorised. Pomegranate juice does not establish every ellagitannin or food equivalent.",
+    "original_atom": {
+      "atom_id": "PM6-DIT-2",
+      "dietary_input": true,
+      "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+      "input": "Ellagitannins",
+      "input_type": "substrate provision",
+      "biological_role": "Hydrolysis releases ellagic acid upstream of microbial urolithin formation.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM6-F1"
+        ],
+        "citation_keys": [
+          "singh_direct_2022"
+        ]
+      },
+      "evidence_limitation": "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies.",
+      "canonical_identity": {
+        "status": "missing-substance",
+        "severity": "MAJOR",
+        "intended_identity": "Ellagitannins",
+        "aliases_checked": [
+          "Ellagitannins"
+        ],
+        "checked_sources": [
+          "registry/substances.json",
+          "docs/substances/ (label/form/alias search)"
+        ],
+        "projection_status": "blocked"
+      }
+    },
+    "original_overlay": {
+      "atom_id": "PM6-DIT-2",
+      "relationship_layer": "dietary-requirement",
+      "relationship_mode": "capacity-requirement",
+      "claim_ceiling": "biological-dependency",
+      "dietary_addressability": "precursor-mediated",
+      "requirement_classification": "derived",
+      "derived_target": "Ellagic acid",
+      "derived_target_atom_id": "PM6-DIT-1"
+    },
+    "original_supporting_findings": [
+      {
+        "id": "PM6-F1",
+        "finding_label": "Urolithin conversion is substrate- and community-dependent",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": false,
+        "finding_summary": "Ellagic acid conversion requires microbial activity; particular species perform intermediate steps, and human completion varies.",
+        "finding_statement": "Ellagic acid conversion requires microbial activity; particular species perform intermediate steps, and human completion varies.",
+        "finding_interpretation": "Ellagic acid and ellagitannin provision support the route. A finished-metabolite supplement does not assess that conversion.",
+        "synthesis": "Ellagic acid and ellagitannin provision support the route. A finished-metabolite supplement does not assess that conversion.",
+        "synthesis_limitations": "Species participation does not establish that those species alone form urolithin A or that all people convert food exposures similarly.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "evidence_considered": [
+          {
+            "label": "Selma et al. (2014)",
+            "citation_key": "selma_urolithin_capacity_2014",
+            "href": "/docs/papers/BRAIN-Diet-References#selma_urolithin_capacity_2014",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "The species converted ellagic acid into intermediate urolithins.",
+            "study_exposure": "Two human intestinal Gordonibacter species cultured with ellagic acid.",
+            "study_finding": "The species converted ellagic acid into intermediate urolithins.",
+            "assessment": {
+              "study": "Two human intestinal Gordonibacter species cultured with ellagic acid.",
+              "population": "Two human intestinal Gordonibacter species cultured with ellagic acid.",
+              "result": "The species converted ellagic acid into intermediate urolithins.",
+              "effect_magnitude": "Only extracted comparisons retained; no pooled effect or clinical-benefit magnitude assigned.",
+              "evidence_summary": "The species converted ellagic acid into intermediate urolithins.",
+              "limitations": "They did not establish complete urolithin A production by the two species alone.",
+              "retrieval_scope": "Primary abstract/results retrieved online; no unextracted numerical effect inferred."
+            }
+          },
+          {
+            "label": "Singh et al. (2022)",
+            "citation_key": "singh_direct_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#singh_direct_2022",
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Food-derived urolithin A exposure varied, while direct administration bypassed conversion and increased exposure.",
+            "study_exposure": "Pomegranate juice compared with direct urolithin A in healthy adults.",
+            "study_finding": "Food-derived urolithin A exposure varied, while direct administration bypassed conversion and increased exposure.",
+            "assessment": {
+              "study": "Pomegranate juice compared with direct urolithin A in healthy adults.",
+              "population": "Pomegranate juice compared with direct urolithin A in healthy adults.",
+              "result": "Food-derived urolithin A exposure varied, while direct administration bypassed conversion and increased exposure.",
+              "effect_magnitude": "Only extracted comparisons retained; no pooled effect or clinical-benefit magnitude assigned.",
+              "evidence_summary": "Food-derived urolithin A exposure varied, while direct administration bypassed conversion and increased exposure.",
+              "limitations": "A studied juice matrix is not proof of equivalent conversion from every ellagitannin food or constituent.",
+              "retrieval_scope": "Primary abstract/results retrieved online; no unextracted numerical effect inferred."
+            }
+          }
+        ],
+        "connected_supportive_evidence": [
+          {
+            "label": "Schleupner & Carmichael (2022)",
+            "citation_key": "schleupner_attention-deficithyperactivity_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022",
+            "why_relevant": "Attached corpus assessed for connection to this PM; preserved in the draft evidence inventory.",
+            "why_excluded": "Research-design context; no PM-specific intervention or mechanism measurement."
+          }
+        ]
+      }
+    ],
+    "existing_assessment": null,
+    "proposed_dietary_input_assessment": {
+      "atom_id": "PM6-DIT-2",
+      "status": "admitted",
+      "type": "A",
+      "classification": "derived",
+      "operation": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "canonical_substance_id": "ellagitannins",
+      "active_target_id": "ellagic-acid",
+      "record_origin": "PROPOSAL ONLY: reconciliation of existing admitted Derived route; no new admission, SEC or publication permission.",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Hydrolysis releases ellagic acid upstream of microbial urolithin formation.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#singh_direct_2022"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Hydrolysis releases ellagic acid upstream of microbial urolithin formation.",
+        "sources": [
+          "docs/papers/BRAIN-Diet-References#singh_direct_2022"
+        ]
+      },
+      "conversion_pathway": [
+        {
+          "from": "ellagitannins",
+          "to": "ellagic-acid",
+          "process": "Ellagitannin hydrolysis releases ellagic acid upstream of microbial urolithin formation.",
+          "dependencies": [
+            "Hydrolysable ellagitannin substrate in its food matrix",
+            "Microbial competence is required for the separate downstream urolithin stage, not equated with ellagitannin hydrolysis"
+          ],
+          "limitations": "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies. Species participation does not establish that those species alone form urolithin A or that all people convert food exposures similarly.",
+          "evidence": {
+            "statement": "Hydrolysis releases ellagic acid upstream of microbial urolithin formation.",
+            "sources": [
+              "docs/papers/BRAIN-Diet-References#singh_direct_2022"
+            ]
+          }
+        }
+      ],
+      "limitations": [
+        "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies.",
+        "Species participation does not establish that those species alone form urolithin A or that all people convert food exposures similarly."
+      ],
+      "provenance": [
+        "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx",
+        "docs/papers/BRAIN-Diet-References#singh_direct_2022"
+      ]
+    },
+    "publication_boundary": "No source hold or projection block released; no downstream quantity, efficiency, clinical benefit, new direct admission or KC/inventory reclassification.",
+    "source_access": "Canonical records and previously recorded appraisals inspected. No new original-paper full-text verification claimed.",
+    "schema_validation": {
+      "status": "admitted",
+      "eligibility": {
+        "eligible": true,
+        "state": "eligible-candidate"
+      },
+      "errors": []
+    }
+  }
+]

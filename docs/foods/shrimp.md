@@ -11,6 +11,7 @@ tags:
   - Betaine
 list_image: /img/foods/shrimp/shrimp_thumb.webp
 nutrition_per_100g:
+  tyrosine_g: 0.515
   choline_mg: 80.9
   fat_g: 1.01
   carbs_g: 0.91
@@ -90,6 +91,16 @@ nutrition_supplementary_sources:
     source_group: Zeisel et al. (2003) Table 1, erratum-corrected, NDB 15152
     notes: Canned shrimp. Not the raw mixed-species panel used for the other nutrients.
 substance_relationships:
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: "Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture)"
+    source_url: https://fdc.nal.usda.gov/food-details/174210/nutrients
+    description: "USDA reports 515 mg tyrosine per 100 g edible portion of the specified food."
+    material_limitations: "USDA SR Legacy (April 2018), food-nutrient row 1840479, nutrient 1218; Analytical. Data points: 0. Exact database food: Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture). Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
   - substance: Selenium
     relationship: contains
     description: >-

@@ -20,6 +20,7 @@ public_display:
   cystine_mg: internal-only
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
+  tyrosine_g: 0.597
   choline_mg: 59.7
   selenium_ug: 14.4
   iron_mg: 0.9
@@ -72,6 +73,16 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
 substance_relationships:
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: "Chicken, broilers or fryers, meat and skin, raw"
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    description: "USDA reports 597 mg tyrosine per 100 g edible portion of the specified food."
+    material_limitations: "USDA SR Legacy (April 2018), food-nutrient row 1610588, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Chicken, broilers or fryers, meat and skin, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
   - substance: Methionine
     relationship: contains
     description: >-
@@ -256,6 +267,40 @@ nutrition_amino_acid_profiles:
       USDA database composition, including source-specific analytical or calculated values. No
       amino-acid-specific digestibility correction; illustrative USDA household portion, not an
       intake recommendation. Missing values are not treated as zero.
+nutrition_supplementary_sources:
+  - key: glycine_usda_review01_171447
+    label: Glycine
+    substance_id: glycine
+    value: 1.223
+    unit: g
+    basis: per 100 g edible portion
+    original_source_basis: per 100 g edible portion
+    evidence_material: Chicken, broilers or fryers, meat and skin, raw
+    preparation_state: Chicken, broilers or fryers, meat and skin, raw
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    source_group: USDA SR Legacy April 2018; source-specific database value
+    source_note: >-
+      Derivation code absent; do not label as measured analytical data data_points=0; sample count not reported,
+      not evidence of zero concentration Preserve exact source material; raw/dried preparation is not
+      cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source
+      attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or
+      clinical effect inferred.
+    material_limitations: >-
+      Derivation code absent; do not label as measured analytical data data_points=0; sample count not reported,
+      not evidence of zero concentration Preserve exact source material; raw/dried preparation is not
+      cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source
+      attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or
+      clinical effect inferred.
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: author-approved-review-01
+    fdc_id: 171447
+    food_nutrient_id: 1610591
+    source_derivation_id: null
+    source_data_points: 0
+
 ---
 ## Overview
 

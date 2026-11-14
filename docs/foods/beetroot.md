@@ -107,6 +107,41 @@ nutrition_supplementary_sources:
       This is not the FDC 169145 panel used for the other nutrients. No
       cross-food ranking is inferred.
     source_group: Zeisel et al. (2003) Table 1, erratum-corrected, NDB 11080
+  - key: betaine_usda_review01_11080
+    label: Betaine
+    substance_id: betaine
+    value: 130
+    unit: mg
+    basis: per 100 g edible portion
+    original_source_basis: per 100 g food
+    evidence_material: Beets, raw
+    preparation_state: raw
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf
+    source_group: USDA Choline Content of Common Foods Release Two (2008); source-specific observation
+    source_note: >-
+      Single historical analytical dataset; retain sample context. Not a universal concentration. Printed
+      confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not
+      establish national representativeness. 130 mg USDA Release 2 and the existing rounded 129 mg corrected
+      Zeisel value are distinct source observations; choose the approved USDA observation explicitly for
+      ranking, retain the older value in provenance and do not count twice. Author-approved source attribution,
+      9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical
+      effect inferred.
+    material_limitations: >-
+      Single historical analytical dataset; retain sample context. Not a universal concentration. Printed
+      confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not
+      establish national representativeness. 130 mg USDA Release 2 and the existing rounded 129 mg corrected
+      Zeisel value are distinct source observations; choose the approved USDA observation explicitly for
+      ranking, retain the older value in provenance and do not count twice. Author-approved source attribution,
+      9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical
+      effect inferred.
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: author-approved-review-01
+    ndb_id: '11080'
+    source_sample_count: 1
+    source_printed_page: 21
 substance_relationships:
   - substance: Betaine
     relationship: contains

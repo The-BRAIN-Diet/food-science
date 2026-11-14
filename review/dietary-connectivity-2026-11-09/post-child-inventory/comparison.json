@@ -1,0 +1,102 @@
+{
+  "before": {
+    "pairs": 150,
+    "identities": 55
+  },
+  "after": {
+    "pairs": 155,
+    "identities": 60
+  },
+  "categories": {
+    "substance": {
+      "pm_identity_pairs": 150,
+      "distinct_identities": 55
+    },
+    "studied-preparation": {
+      "pm_identity_pairs": 2,
+      "distinct_identities": 2
+    },
+    "defined-mixture": {
+      "pm_identity_pairs": 1,
+      "distinct_identities": 1
+    },
+    "microbial-strain": {
+      "pm_identity_pairs": 2,
+      "distinct_identities": 2
+    }
+  },
+  "added": [
+    {
+      "pm": "BRS5-FM1-PM2",
+      "id": "resistant-starch-type-2-zhang-2020",
+      "parent": "resistant-starch",
+      "href": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch#rs2-zhang-2020",
+      "status": "resolved",
+      "scientific_admission": "admitted",
+      "projection_status": "blocked",
+      "network_activation": "held"
+    },
+    {
+      "pm": "BRS5-FM1-PM3",
+      "id": "oligofructose-enriched-inulin-schroeder-2018",
+      "parent": "inulin",
+      "href": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/inulin#oligofructose-enriched-inulin-schroeder-2018",
+      "status": "resolved",
+      "scientific_admission": "admitted",
+      "projection_status": "blocked",
+      "network_activation": "held"
+    },
+    {
+      "pm": "BRS5-FM1-PM3",
+      "id": "bifidobacterium-longum-ncc2705",
+      "parent": "bifidobacterium-longum",
+      "href": "/docs/substances/bifidobacterium-longum#ncc2705",
+      "status": "resolved",
+      "scientific_admission": "admitted",
+      "projection_status": "blocked",
+      "network_activation": "held"
+    },
+    {
+      "pm": "BRS5-FM3-PM7",
+      "id": "lacticaseibacillus-rhamnosus-jb-1",
+      "parent": "lacticaseibacillus-rhamnosus",
+      "href": "/docs/substances/lacticaseibacillus-rhamnosus#jb-1",
+      "status": "resolved",
+      "scientific_admission": "admitted",
+      "projection_status": "blocked",
+      "network_activation": "held"
+    },
+    {
+      "pm": "BRS5-FM3-PM8",
+      "id": "apple-pectin-sinha-2024",
+      "parent": "pectin",
+      "href": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin#apple-pectin-sinha-2024",
+      "status": "resolved",
+      "scientific_admission": "admitted",
+      "projection_status": "blocked",
+      "network_activation": "held"
+    }
+  ],
+  "ranked": {
+    "pm_identity_pairs": 112,
+    "distinct_identities": 28,
+    "connections": 960
+  },
+  "documented_unranked": {
+    "pm_identity_pairs": 72,
+    "distinct_identities": 26,
+    "connections": 200
+  },
+  "either_food_layer": {
+    "pairs": 128,
+    "identities": 40
+  },
+  "presentation_snapshot_targets": 151,
+  "validation": {
+    "all_previous_pairs_retained": true,
+    "fresh_documented_matches_saved": true,
+    "all_five_parent_anchors_verified": true,
+    "no_child_food_inheritance": true,
+    "no_publication_hold_released": true
+  }
+}

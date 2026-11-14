@@ -21,6 +21,7 @@ public_display:
   cystine_mg: internal-only
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
+  tyrosine_g: 0.499
   kcal: 143
   choline_mg: 293.8
   ala_mg: 36
@@ -79,6 +80,16 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
 substance_relationships:
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: "Egg, whole, raw, fresh"
+    source_url: https://fdc.nal.usda.gov/food-details/171287/nutrients
+    description: "USDA reports 499 mg tyrosine per 100 g edible portion of the specified food."
+    material_limitations: "USDA SR Legacy (April 2018), food-nutrient row 1597643, nutrient 1218; Analytical. Data points: 0. Exact database food: Egg, whole, raw, fresh. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
   - substance: Methionine
     relationship: contains
     description: >-
@@ -273,6 +284,38 @@ nutrition_amino_acid_profiles:
       summary: >-
         Human tracer evidence distinguishes cooked from raw egg protein digestibility. It does not
         supply a matching nine-amino-acid digestibility correction for this database record.
+nutrition_supplementary_sources:
+  - key: glycine_usda_review01_171287
+    label: Glycine
+    substance_id: glycine
+    value: 0.432
+    unit: g
+    basis: per 100 g edible portion
+    original_source_basis: per 100 g edible portion
+    evidence_material: Egg, whole, raw, fresh
+    preparation_state: Egg, whole, raw, fresh
+    source_url: https://fdc.nal.usda.gov/food-details/171287/nutrients
+    source_group: USDA SR Legacy April 2018; source-specific database value
+    source_note: >-
+      Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact
+      source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility
+      or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026.
+      Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.
+    material_limitations: >-
+      Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact
+      source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility
+      or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026.
+      Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: author-approved-review-01
+    fdc_id: 171287
+    food_nutrient_id: 1597646
+    source_derivation_id: A
+    source_data_points: 0
+
 ---
 import NutritionTable from "@site/src/components/NutritionTable";
 

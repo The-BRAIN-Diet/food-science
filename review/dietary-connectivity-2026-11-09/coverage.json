@@ -1,0 +1,85 @@
+{
+  "base_commit": "af13bec172b5938098a46f85c06523b8a20e90dc",
+  "wheel_sha256": "5cd093f4f5da09f82e3cbe6018e73dcb584f542d3b6dc33854ec5b27af6d1502",
+  "policy": {
+    "version": "2026-11-09-v1",
+    "maximum": 10,
+    "threshold": 10,
+    "threshold_status": "provisional",
+    "minimum_comparable_foods": 2
+  },
+  "counts": {
+    "network_substances": 68,
+    "before_ranked_substances": 25,
+    "after_ranked_substances": 26,
+    "exclusive_categories": {
+      "additional-verified-derived-route": 7,
+      "admitted-route-with-unresolved-food-or-conversion": 10,
+      "contextual-candidate-or-unresolved-only": 5,
+      "documented-unranked-food-occurrence": 21,
+      "ranked-food-input": 25
+    },
+    "ordinary_food_derived_substances": [
+      "coq10",
+      "creatine",
+      "flavin-adenine-dinucleotide",
+      "nad-plus",
+      "pyridoxal-5-phosphate",
+      "s-adenosylmethionine"
+    ],
+    "protocol_only_derived_substances": [
+      "acetoacetate"
+    ],
+    "additional_derived_substances": [
+      "acetoacetate",
+      "coq10",
+      "creatine",
+      "flavin-adenine-dinucleotide",
+      "nad-plus",
+      "pyridoxal-5-phosphate",
+      "s-adenosylmethionine"
+    ],
+    "documented_unranked_including_overlap": [
+      "5-methyltetrahydrofolate",
+      "arabinan",
+      "betaine",
+      "caprylic-triglyceride",
+      "coq10",
+      "creatine",
+      "cysteine",
+      "ellagic-acid",
+      "ellagitannins",
+      "epicatechin",
+      "flavin-mononucleotide",
+      "glucose",
+      "glutamate",
+      "glutamine",
+      "inulin",
+      "nicotinamide-riboside",
+      "pectin",
+      "phenylalanine",
+      "phosphatidylcholine",
+      "phytate",
+      "pyridoxal-5-phosphate",
+      "resistant-starch",
+      "sulforaphane",
+      "uridine"
+    ],
+    "targets": 151,
+    "target_classifications": {
+      "derived": 30,
+      "direct": 89,
+      "not-explicitly-classified": 32
+    },
+    "before_covered": 98,
+    "after_covered": 100,
+    "before_connections": 800,
+    "after_connections": 890,
+    "after_foods": 65,
+    "incoming_derived_covered_targets": [
+      "BRS4-FM1-PM3|creatine"
+    ],
+    "ranked_and_incoming_derived": []
+  },
+  "warning": "Ranked food input is not equivalent to Direct biological classification. Categories are audit descriptions, not new admissions. No downstream quantities inferred."
+}

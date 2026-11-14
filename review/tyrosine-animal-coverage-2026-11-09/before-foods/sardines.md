@@ -1,0 +1,343 @@
+---
+id: sardines
+title: Sardines
+sidebar_label: Sardines
+description: Small oily fish rich in EPA/DHA, CoQ10, and calcium
+tags:
+  - Food
+  - Sardines
+  - Omega-3 Fatty Acids
+  - EPA
+  - DHA
+  - CoQ10
+  - Calcium
+  - Vitamin B3
+  - Vitamin B12
+  - Selenium
+  - Methionine
+list_image: /img/foods/sardines/sardines_thumb.webp
+nutrition_per_100g:
+  vitamin_e_mg: 2.04
+  vitamin_k_ug: 2.6
+  choline_mg: 75
+  vitamin_a_rae_ug: 32
+  folate_ug: 10
+  vitamin_d_ug: 4.8
+  sodium_mg: 307
+  calcium_mg: 382
+  potassium_mg: 397
+  zinc_mg: 1.31
+  fat_g: 11.45
+  kcal: 208
+  linoleic_g: 3.543
+  vitamin_b3_mg: 5.245
+  vitamin_b5_mg: 0.642
+  vitamin_b6_mg: 0.167
+  copper_mg: 0.186
+  manganese_mg: 0.108
+  iron_mg: 2.92
+  magnesium_mg: 39
+  phosphorus_mg: 490
+  protein_g: 24.62
+  methionine_g: 1.086
+  vitamin_b1_mg: 0.08
+  vitamin_b2_mg: 0.227
+  sat_fat_g: 1.528
+  vitamin_b12_ug: 8.94
+  dha_mg: 509
+  epa_mg: 473
+  selenium_ug: 52.7
+  omega3_mg: 982
+  pufa_18_3_unresolved_mg: 498
+omega3_components:
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 509
+  - nutrient: epa_mg
+    identity: 20:5 n-3 (EPA)
+    amount_mg: 473
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: Fish, sardine, Atlantic, canned in oil, drained solids with bone
+  fdc_id: 175139
+  retrieval_method: SR Legacy bulk (April 2018)
+  basis: per 100 g edible portion
+  last_checked: '2026-08-15'
+main_image: /img/foods/sardines/sardines_medium.webp
+legacy_list_image: /img/foods/sardines/sardines_thumb.webp
+legacy_main_image: /img/foods/sardines/sardines_medium.webp
+nutrition_supplementary_sources:
+  - key: coq10_qual
+    label: CoQ10
+    status: Present — quantity not established
+    amount_display: Present
+    source_note: >-
+      Pravst, Zmitek and Zmitek (2010), Coenzyme Q10 Contents in Foods and
+      Fortification Strategies. Review Table 1 separately lists CoQ10 in sardine
+      and mackerel muscle. Different muscle types and studies are not merged
+      into a standard range.
+    public_note: Reported in mackerel or sardine edible muscle.
+    source_group: fish-coq
+    public_display: internal-only
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://dirros.openscience.si/Dokument.php?id=36758&lang=eng
+    notes: mackerel or sardine edible muscle
+    source_reference: '#food-source-4'
+protein_profile_note: Complete essential amino acid profile.
+substance_relationships:
+  - substance: Methionine
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports methionine 1.086 g per 100 g in Fish,
+      sardine, Atlantic, canned in oil, drained solids with bone (FDC 175139).
+      Composition only; this does not establish a PM-specific dietary efficacy
+      claim.
+    evidence_status: supported
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, sardine, Atlantic, canned in oil, drained solids with bone
+    source_url: https://fdc.nal.usda.gov/food-details/175139/nutrients
+    presence_status: presence_and_amount_supported
+  - substance: DHA
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports DHA in Fish, sardine, Atlantic, canned in
+      oil, drained solids with bone.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sardines|DHA
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, sardine, Atlantic, canned in oil, drained solids with bone
+    source_url: https://fdc.nal.usda.gov/food-details/175139/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: EPA
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports EPA in Fish, sardine, Atlantic, canned in
+      oil, drained solids with bone.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sardines|EPA
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, sardine, Atlantic, canned in oil, drained solids with bone
+    source_url: https://fdc.nal.usda.gov/food-details/175139/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: Omega-3 Fatty Acids
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports EPA, DHA, total omega-3 in Fish, sardine,
+      Atlantic, canned in oil, drained solids with bone. This class link does
+      not treat a combined total as EPA, DHA or ALA.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sardines|Omega-3 Fatty Acids
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, sardine, Atlantic, canned in oil, drained solids with bone
+    source_url: https://fdc.nal.usda.gov/food-details/175139/nutrients
+    presence_status: presence_supported_amount_unavailable
+    source_reference: '#food-source-5'
+  - substance: Calcium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports calcium in Fish, sardine, Atlantic, canned
+      in oil, drained solids with bone.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sardines|Calcium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, sardine, Atlantic, canned in oil, drained solids with bone
+    source_url: https://fdc.nal.usda.gov/food-details/175139/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: Selenium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports selenium in Fish, sardine, Atlantic, canned
+      in oil, drained solids with bone.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sardines|Selenium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, sardine, Atlantic, canned in oil, drained solids with bone
+    source_url: https://fdc.nal.usda.gov/food-details/175139/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: Vitamin B12
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B12 in Fish, sardine, Atlantic,
+      canned in oil, drained solids with bone.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sardines|Vitamin B12
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, sardine, Atlantic, canned in oil, drained solids with bone
+    source_url: https://fdc.nal.usda.gov/food-details/175139/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: Vitamin B3
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B3 in Fish, sardine, Atlantic,
+      canned in oil, drained solids with bone.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sardines|Vitamin B3
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, sardine, Atlantic, canned in oil, drained solids with bone
+    source_url: https://fdc.nal.usda.gov/food-details/175139/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: CoQ10
+    relationship: contains
+    description: Reported in mackerel or sardine edible muscle.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sardines|CoQ10
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Pravst, Zmitek and Zmitek (2010), Coenzyme Q10 Contents in Foods and
+      Fortification Strategies
+    evidence_material: mackerel or sardine edible muscle
+    source_url: https://dirros.openscience.si/Dokument.php?id=36758&lang=eng
+    source_reference: '#food-source-4'
+substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-175139
+    material: Fish, sardine, Atlantic, canned in oil, drained solids with bone
+    preparation: canned, drained
+    food_group: animal
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 175139
+      source_url: https://fdc.nal.usda.gov/food-details/175139/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 24.62
+    protein_source_row_id: "1915826"
+    amino_acids:
+      histidine:
+        value: 0.725
+        source_row_id: "1915804"
+        nutrient_id: "1221"
+        data_points: 0
+        derivation_id: null
+      isoleucine:
+        value: 1.134
+        source_row_id: "1915794"
+        nutrient_id: "1212"
+        data_points: 0
+        derivation_id: null
+      leucine:
+        value: 2.001
+        source_row_id: "1915795"
+        nutrient_id: "1213"
+        data_points: 0
+        derivation_id: null
+      lysine:
+        value: 2.26
+        source_row_id: "1915796"
+        nutrient_id: "1214"
+        data_points: 0
+        derivation_id: null
+      methionine:
+        value: 0.729
+        source_row_id: "1915840"
+        nutrient_id: "1215"
+        data_points: 0
+        derivation_id: null
+      phenylalanine:
+        value: 0.961
+        source_row_id: "1915841"
+        nutrient_id: "1217"
+        data_points: 0
+        derivation_id: null
+      threonine:
+        value: 1.079
+        source_row_id: "1915839"
+        nutrient_id: "1211"
+        data_points: 0
+        derivation_id: null
+      tryptophan:
+        value: 0.276
+        source_row_id: "1915838"
+        nutrient_id: "1210"
+        data_points: 0
+        derivation_id: null
+      valine:
+        value: 1.268
+        source_row_id: "1915798"
+        nutrient_id: "1219"
+        data_points: 0
+        derivation_id: null
+    portion:
+      label: 1 can (3.75 oz)
+      source_row_id: "95725"
+      source_grams: 92
+      multiplier: 1
+    limitations: >-
+      USDA database composition, including source-specific analytical or calculated values. No
+      amino-acid-specific digestibility correction; illustrative USDA household portion, not an
+      intake recommendation. Missing values are not treated as zero.
+---
+## Overview
+
+Sardines are small oily fish eaten whole, providing long-chain omega-3 fatty acids **EPA** and **DHA**, **vitamin B12**, **selenium**, **calcium** from the softened bones, and highly digestible protein. Because canned sardines typically include the skeleton, they contribute meaningfully to both marine omega-3 intake and calcium alongside B12 and other micronutrients [1]. These intrinsic nutrients support neuronal membrane structure, mitochondrial bioenergetics, and red blood cell formation.
+
+Within the BRAIN Diet framework, sardines are treated as a **compact, shelf-stable oily fish** that can be used when fresh fish is less practical. Regular intake of oily fish rich in EPA and DHA is associated with reduced cardiovascular risk and may support aspects of cognitive and mood outcomes [1,2]. Compared with larger predatory fish, sardines sit low in the marine food chain and generally accumulate less mercury, which supports their use as a frequent marine omega-3 source in many dietary patterns
+
+## Key Nutritional Highlights
+
+- Highest total omega-3 among BRAIN Diet fish and seafood pages (per 100 g).
+- Provides complete, highly digestible protein.
+- Commonly contributes selenium, iodine, and vitamin B12, though levels vary by species.
+- EPA/DHA content is highly species-dependent; oily fish are usually higher than lean fish or shellfish.
+- Often lower in saturated fat than many fatty red-meat patterns when minimally processed.
+- Nutritional profile and risk context depend on processing method (fresh vs salted/smoked/cured).
+
+## Food Context
+
+### Sourcing
+
+- Choose sardines from reputable brands and fisheries that publish sustainability and contaminant information; smaller pelagic species such as sardines typically show lower mercury levels than larger predatory fish.
+- Canned sardines packed in **extra-virgin olive oil** or water are preferable to those in refined oils or heavily sweetened sauces, to maintain a healthier overall fat profile.
+
+### Preparation
+
+- Sardines can be eaten directly from the can or lightly warmed; avoid prolonged high-temperature frying or charring that can oxidize lipids.
+- When tolerated, consuming the **bones together with the fillet** maximizes calcium intake from the food; combining sardines with vegetables and whole grains helps integrate this dense source of omega-3s into balanced meals.
+
+## Recipes
+
+<FoodRecipes tag="Sardines" />
+
+### Essential Amino Acid Profile
+
+This food provides a complete essential amino acid profile typical of animal proteins.
+
+<NutritionTable details={frontMatter} />
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
+## References
+
+[1] Because canned sardines typically include the skeleton, they contribute meaningfully to both marine omega-3 intake and calcium alongside B12 and other micronutrients. McNamara & Carlson 2006. [Omega-3 fatty acids in brain development, function, and psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
+
+[2] DHA supplementation improved both memory and reaction time in healthy young adults: a randomized controlled trial. Stonehouse et al. 2013. [DHA supplementation and cognitive performance in healthy adults](/docs/papers/BRAIN-Diet-References#stonehouse_dha_2013)
+
+[3] Compared with larger predatory fish, sardines sit low in the marine food chain and generally accumulate less mercury, which supports their use as a frequent marine omega-3 source in many dietary patterns. FAO 2013. [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+
+<span id="food-source-4" />
+
+[4] [Pravst, Zmitek and Zmitek (2010), Coenzyme Q10 Contents in Foods and Fortification Strategies](/docs/papers/BRAIN-Diet-References#food_composition_909fffb6dabb)
+
+<span id="food-source-5" />
+
+[5] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/175139/nutrients)

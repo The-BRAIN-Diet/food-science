@@ -26,3 +26,9 @@ Author selected PM1 as the first complete-reference workstream, using PM8 tabs a
 - **CoQ biosynthesis PM (local-only):** [handoff](coq-pm-2026-11-05.md). Authorised PM10 implementation; provisional appraisal and remaining source-access limits recorded.
 
 - **Three approved priority SOPs (local implementation):** [handoff](priority-sops-2026-11-05.md). Wastyk/Baxter/Sutton admitted; Shukla/Reynolds deferred. Independent provisional SEC retained.
+
+- **Dietary connectivity reconciliation — 9 November 2026, local audit:** [handoff](dietary-connectivity-2026-11-09.md). Separate branch from PR238; full 68-substance/151-target audit and opt-in canonical constituent extraction. Public wheel unchanged; activation and scientific gaps await review.
+
+- [Food Wheel qualified evidence-ledger reconciliation](../../review/dietary-connectivity-2026-11-09/evidence-ledger/REPORT.md): local-only implementation; parent unranked evidence and five exact experimental PM relationships; ranked ribbons/recipe mappings unchanged. See report for validation and outstanding baseline failures. No commit or deployment.
+- [Food Wheel / Recipe Explorer view recovery](../../review/dietary-connectivity-2026-11-09/evidence-ledger/VIEW-RECOVERY.md): three standalone views browser-verified on localhost:3180; native dropdown/back-navigation synchronization repaired. Twelve tests pass. Build resource settings matched Netlify; server compiled, client retry stopped at 1.3 GiB free disk. No publication or scientific changes.
+- [Food Wheel single/multiple interactive views](../../review/food-wheel-interactive-views-2026-11-09/REPORT.md): local Combined/Compare, fixed double-bond shared ribbons, BRS focus and URL history implemented and browser-verified; 17 focused tests pass. Existing data, science and circular geometry preserved; no production build or publication.

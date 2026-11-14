@@ -3,7 +3,7 @@ import {resolveAggregateFoodSources} from '../../lib/aggregateFoodComposition.mj
 import {AggregateSourceTable} from '../../components/AminoAcidComposition'
 import React from "react"
 import {canonicalFoodRelationships} from "@site/src/data/foodSubstanceRelationships.mjs"
-import {relatedSubstancesForFood, relatedViaLabel} from "@site/src/data/relatedSubstanceRelationships.mjs"
+import {CONSTITUENT_PATHWAY_PAGES, constituentPathwayFoods, relatedSubstancesForFood, relatedViaLabel} from "@site/src/data/relatedSubstanceRelationships.mjs"
 import {substanceLabelsOverlap} from "@site/src/data/nutritionTableMapping"
 import { usePluginData } from "@docusaurus/useGlobalData"
 import Link from "@docusaurus/Link"
@@ -40,6 +40,8 @@ type TagToDocMap = Record<string, Document[]>
 interface SubstanceFoodsProps {
   tag: string
   directOnly?: boolean
+  /** Shown when no related food is registered, so the section is not omitted. */
+  emptyRelatedExplanation?: string
 }
 
 type SubstanceRelationship = {
@@ -89,7 +91,7 @@ function DocItemImage({ relationship }: { relationship: FoodRelationship }) {
  * Lists foods with an explicit `substance_relationships` record for this substance.
  * A food tag alone is not a relationship and is not shown.
  */
-export default function SubstanceFoods({ tag, directOnly = false }: SubstanceFoodsProps): React.ReactElement {
+export default function SubstanceFoods({ tag, directOnly = false, emptyRelatedExplanation }: SubstanceFoodsProps): React.ReactElement {
   const allTags = usePluginData("category-listing") as TagToDocMap
   const {frontMatter} = useDoc()
   const substance = frontMatter as any
@@ -165,13 +167,47 @@ export default function SubstanceFoods({ tag, directOnly = false }: SubstanceFoo
         ))}
       </ul>
     </section>
+  ) : emptyRelatedExplanation ? (
+    <section className="related-substances" aria-label="Related food sources">
+      <h3>Related food sources</h3>
+      <p>{emptyRelatedExplanation}</p>
+    </section>
   ) : null
+
+  const constituentGroups = constituentPathwayFoods(uniqueFoods, substance.id)
+  const constituentSection = constituentGroups.length ? (
+    <section className="related-substances" aria-label="Related food sources">
+      <h3>Related food sources — constituent pathways</h3>
+      <p>
+        Each food is listed for the carbohydrate on its own record. These foods are not recorded as containing the combined preparation.
+      </p>
+      {constituentGroups.map((group) => (
+        <div key={group.id}>
+          <h4>{group.title}</h4>
+          <ul>
+            {group.rows.map((row) => (
+              <li key={`${row.permalink}:${row.constituent}:${row.preparation || ""}`}>
+                <Link to={row.permalink || ""}>{row.title}</Link>
+                {" — "}
+                {row.constituent}
+                {row.amount ? ` · ${row.amount}` : ""}
+                {row.material ? ` · ${row.material}` : ""}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </section>
+  ) : null
+  const directAbsence = CONSTITUENT_PATHWAY_PAGES[substance.id]?.directAbsence
 
   if (substanceFoods.length === 0) {
     return (
       <div className="bok-tag-list">
-        <em>{substance.food_delivery_assessment?.reason || (directOnly ? "No verified direct food-content relationships are recorded. See upstream dietary pathways separately." : "No verified food-composition relationship is currently recorded; this does not determine scientific admission.")}</em>
+        {constituentSection ? <h3>Direct food sources</h3> : null}
+        <em>{directAbsence || substance.food_delivery_assessment?.reason || (directOnly ? "No verified direct food-content relationships are recorded. See upstream dietary pathways separately." : "No verified food-composition relationship is currently recorded; this does not determine scientific admission.")}</em>
         {relatedSection}
+        {constituentSection}
       </div>
     )
   }
@@ -211,6 +247,7 @@ export default function SubstanceFoods({ tag, directOnly = false }: SubstanceFoo
         </div>
       </details>
       {relatedSection}
+      {constituentSection}
     </div>
   )
 }

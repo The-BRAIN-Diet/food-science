@@ -1,0 +1,9 @@
+{
+  "checked": 67,
+  "issues": [
+    {
+      "code": "input_food_target_research_missing",
+      "message": "BRS5-FM2-PM6: PM6-DIT-2 requires recorded ontology search, source examination and targeted research or a documented sufficient-coverage rationale"
+    }
+  ]
+}

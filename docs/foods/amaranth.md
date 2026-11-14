@@ -113,6 +113,39 @@ nutrition_supplementary_sources:
     source_group: >-
       Hejazi et al. 2016 supports this qualitative constituent record. See
       technical provenance for food form and measurement details.
+  - key: betaine_usda_review01_20001
+    label: Betaine
+    substance_id: betaine
+    value: 68
+    unit: mg
+    basis: per 100 g edible portion
+    original_source_basis: per 100 g food
+    evidence_material: Amaranth
+    preparation_state: uncooked (NDB crosswalk; not stated in the 2008 table)
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf
+    source_group: USDA Choline Content of Common Foods Release Two (2008); source-specific observation
+    source_note: >-
+      Single historical analytical dataset; retain sample context. Not a universal concentration. Printed
+      confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not
+      establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR
+      Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source
+      attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or
+      clinical effect inferred.
+    material_limitations: >-
+      Single historical analytical dataset; retain sample context. Not a universal concentration. Printed
+      confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not
+      establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR
+      Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source
+      attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or
+      clinical effect inferred.
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: author-approved-review-01
+    ndb_id: '20001'
+    source_sample_count: 1
+    source_printed_page: 31
 substance_relationships:
   - substance: Phytate
     substance_id: phytate

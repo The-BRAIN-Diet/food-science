@@ -7,7 +7,13 @@ export const historicalFingerprint=(data,atom)=>createHash('sha256').update(JSON
 const baselineFile='system/dietary-input-historical-baseline.json';
 export function historicalAdmission(data,atom,root=process.cwd()) {
  const file=path.join(root,baselineFile);if(!fs.existsSync(file))return false;
- const baseline=JSON.parse(fs.readFileSync(file));return baseline.records[data.pm_id+'::'+atom.atom_id]===historicalFingerprint(data,atom);
+ const baseline=JSON.parse(fs.readFileSync(file)),key=data.pm_id+'::'+atom.atom_id,current=historicalFingerprint(data,atom);
+ if(baseline.records[key]===current)return true;
+ // Approved identity-only transitions preserve the immutable scientific baseline.
+ const transitions=path.join(root,'system/dietary-input-identity-reconciliations.json');
+ if(!fs.existsSync(transitions))return false;
+ const transition=JSON.parse(fs.readFileSync(transitions)).records?.[key];
+ return Boolean(transition?.authority && transition.before===baseline.records[key] && transition.after===current && (transition.source_atom_id ? transition.source_atom_id===atom.source_identity?.pm_atom_id : transition.substance_id===atom.substance_id));
 }
 export function validateInputGovernance(data,issues,{entityLabel='',content='',root=process.cwd()}={}) {
  issues.push(...validateDietaryConfidence(data,{isHistoricallyAdmitted:atom=>historicalAdmission(data,atom,root)}));

@@ -1,10 +1,10 @@
 {
   "baseline_commit": "2efc9c82b42128d81e1039d7244651b591c3e11d",
-  "authority": "Published canonical food records from GitHub main, author restriction 9 November 2026. Uncommitted local backfill excluded.",
+  "authority": "Published canonical baseline plus explicitly author-approved local source updates listed below. Other unpublished backfill remains excluded; approval here is not deployment.",
   "files": {
     "docs/foods/algal-oil.md": "3318c1ba9a54f014cf34180ffb547a147765e3ff6d81b28e6c4bbd98fb67483c",
-    "docs/foods/almonds.md": "dc2d12a6fa0504815361b5f284d750f2553f64d17797131cb828623a95f142ed",
-    "docs/foods/amaranth.md": "4a71d3917b9add0c10e4571aa90d6eb4b0632edd47af6a3a61d10d44d0d6ce10",
+    "docs/foods/almonds.md": "a2aec6d86574d7e7de1261aeadaf1c3fb43ffd5a8fab0dfd2e4fb0d9eec8966d",
+    "docs/foods/amaranth.md": "21aba26ce2e0df5a21f4dbce860964d83bc3bcbfb36dd55cf5e8d5afa0eedab1",
     "docs/foods/anchovies.md": "fadeeaab16790e1c2fb66e368cd91390cac69984df3ae603dfd257e0249bd50e",
     "docs/foods/apples.md": "3af4592d7b569f22038cb3783b79fb338c873bc49e5949a091cb3d88cdc11ab9",
     "docs/foods/asparagus.md": "fa253baa484e92b0d46b348ac16a3faadcea7efed54b77c8f8a1e577a5573793",
@@ -13,8 +13,8 @@
     "docs/foods/avocado.md": "1a4d0f98d753e6bda0cf4592be25555c3a02c0835de5a7afbaf412a60863e66e",
     "docs/foods/bananas.md": "a1d2adbfebe2b0b79ebbf6907ca590da48dd952a231e22aada113977dea38120",
     "docs/foods/barley.md": "f85e1d6d7b45415a4c7083f6f10ead82e96303aa03e4701fb555e640196eb3a5",
-    "docs/foods/beef.md": "86e3a685fbf0d21bb20ae7a25c6da728d56dca8b6beba13f9f022dad10022d87",
-    "docs/foods/beetroot.md": "da31157e256f4823fe72feeb4e255b66e3cd20aaf53faf71132be0ba9e8d2f44",
+    "docs/foods/beef.md": "d1775545e00f3a51c8dfb49de9abe2bde4c2f017b627527db4bf79881425672a",
+    "docs/foods/beetroot.md": "0a381bdfd126b0290ec3eb089aed8c40f80ed1c16eef67bcb3cdd87a6939b3f6",
     "docs/foods/bell-peppers.md": "bf86c83d06ac739089121f289ec76299b1b592cf0271ce9361e855ac78fd6bec",
     "docs/foods/black-beans.md": "776e24ce502bafadb29fd4afaf40f5408d5196fecd45f0a5b8c564ead2904b46",
     "docs/foods/black-goji.md": "767f7c888074c1e2fa849356179867387a8aba085be736b660f576516a6f732a",
@@ -37,7 +37,7 @@
     "docs/foods/cheddar-cheese.md": "31b07c5c78a5060086c05e0e85e9e9b38a6438ffd25ac80589c2c92ca5b996de",
     "docs/foods/cherries.md": "337f137534f213419dbc34b2e8b60b754a44acd7d18086223041272f82ab278d",
     "docs/foods/chia-seeds.md": "655aa0c2f395f2baf5aebf1dbc9810e4de8e641d1959ef2aee99d3f548b69696",
-    "docs/foods/chicken.md": "a4022e02094ae6911741e4ff1fac50d476db4054b5ac765828169773b7402979",
+    "docs/foods/chicken.md": "243d24fd229d33527cea65607be1f4e73643e5b3f562a1a65525775045fb25b0",
     "docs/foods/chickpeas.md": "b187f8475e9c2182df2c862dce4ce38728cc7e59027126d1928e97361981048b",
     "docs/foods/chicory-root.md": "f0d7c1dae2fe6fccff6490af79212dc9cb7f2f41ce039299eed7fc40e5dfffed",
     "docs/foods/chlorella.md": "0e27e81f9a64687ee3c8f8c060313250d48740722e2e5658f122d50e3d830dcc",
@@ -61,7 +61,7 @@
     "docs/foods/early-harvest-olive-oil.md": "6b06182c35a84473668140db9ee50bb5bc1858e251ddeac027709f074c087597",
     "docs/foods/edamame.md": "ccaa4753640e80ace99295118374adf1524eb1f8634504a8ad6503c59d101941",
     "docs/foods/egg-yolks.md": "b27815bcb0a628bd40ab26c7e7978d3973f0fe80b088097cfdf921c783751026",
-    "docs/foods/eggs.md": "8e40b7105520136b811991b735cc0ecb0fd4279d90b896933af7d67b57b510d4",
+    "docs/foods/eggs.md": "3620bac7b48b7479fecc47e12d13a6eda341982e8537280d69d7df4a2c6cb476",
     "docs/foods/extra-virgin-olive-oil.md": "cccf8256d5ec83dc8ce0588dc611b825a10fefde1d258f195a30832347aa2ce9",
     "docs/foods/fermented-hot-sauce.md": "4cc6a62f63930618518d959611d6df5b5088e1555c50d3e263a2c9782781188d",
     "docs/foods/fermented-vegetables.md": "9c99ed4a9259bc2765b400972e29b5b25268463e45d2f0ee90f7857f6003bf6d",
@@ -124,8 +124,8 @@
     "docs/foods/pork.md": "714d2551409929c4ab1b7f590f0c64517a360ffa72387967480eb6ee483fda6d",
     "docs/foods/potatoes.md": "74316a413090d22f5c17930f1be33cb19f6e013dc75617787efabf32c19e7764",
     "docs/foods/psyllium-husk.md": "f730804352d445b5720b8d4e69450983a8942350134ab5ac98885fb801a9d44d",
-    "docs/foods/pumpkin-seeds.md": "7100dbd545f45ccfa4e6d2bfcfd5de21be5355d57dab30f73649f0b56fa8a2ec",
-    "docs/foods/quinoa.md": "70ff00c20b81812bc3bc11d7b2b467284e410783e26202fef5ea9d216509c3a9",
+    "docs/foods/pumpkin-seeds.md": "fd351c9ef1b247dded3628a465d6853dd2298ddc7c26c624580c302d3c5115a7",
+    "docs/foods/quinoa.md": "02329bb617eb3289675cd658bb565329b8694929684b4b8c1ca74b08fdb33280",
     "docs/foods/radicchio.md": "4525bc7ef1129369db49f08c06beac63a00913266cd5efcc8426061c9f0a34f3",
     "docs/foods/raspberries.md": "07a3443861e792498f298e4000b8ec5b3856d170eaded9aab305838ef9b30070",
     "docs/foods/reishi-mushroom.md": "a9d4a2d5c088cc3b66fcf31b16f47cf2af586543ca82134277d2262e70fbc6e5",
@@ -135,7 +135,7 @@
     "docs/foods/saffron.md": "665c1a16cbf5be94e0ae0020d17a1755c71063859f8151c15ff06b94bdd3fb1c",
     "docs/foods/sage.md": "140691b61b0ade545768b91595ebf2108597b1286b1e8ff75ce1a4569a2cf665",
     "docs/foods/salmon-roe.md": "2c1a43fd566ebe9ff0b8448319aada37ec1ecf129e0b2c905e236e582cc85971",
-    "docs/foods/salmon.md": "d3e4892409013909c013ab9d9ee9fc3fe4da2c6bca4e21bd12134aeb14665f45",
+    "docs/foods/salmon.md": "72d133fe9a163b26e37f8f76096b41b0d311e0a4e2e8050eeac0a322102d678e",
     "docs/foods/sardines.md": "738cc698237f3c99b05787a50fa7409ab72524dff691922e4459068f9c3e05f2",
     "docs/foods/sauerkraut.md": "bbf6daf19c230c63f7d072b702e4f0d6e8654f1f2af31562ee81337c18a3d8f4",
     "docs/foods/scallops.md": "ae9b3183f17d8b64d81f44c11613b8eb4abde076d85b178b8889a8b3951957b9",
@@ -148,11 +148,11 @@
     "docs/foods/soy-lecithin.md": "5b092e9bff67479fd845dd861ce7025653fff8fa01fa93c52cc86c09954a443e",
     "docs/foods/soy.md": "6cd65fca5b094d14ea8575d1666a1ae884ca0723a3586471ebe414ea7580fb87",
     "docs/foods/spelt.md": "60d45363584235356ed10dde0fdf437bbd0b5ddb8e87140c397c6131299e06ed",
-    "docs/foods/spinach.md": "25729a2cb0a0fa0bbb6293db738dc6a9ac10f92116b465875d5705c2697fb841",
+    "docs/foods/spinach.md": "268ed8bebcec5e01a17ced4915ff2a628772189b21fdf76a8223280c8b029dbd",
     "docs/foods/spirulina.md": "8a5a933f15d406a7dac69d36b8d616e38794ac62f76dc2457e153ffc80a629f5",
     "docs/foods/strawberries.md": "f4dba7ee43b49f9663a964f6fb9485d6909c4d42def469a5cd1661da90b7fff9",
     "docs/foods/sunflower-lecithin.md": "195236e6cf9b6bda0b66211fbe3c51f5c9d59dbea29906303f5db5a468834f9e",
-    "docs/foods/sunflower-seeds.md": "bb42c20dd54236af3b5ccd947e6b4c47b141e647fe7457ef353651996f832e05",
+    "docs/foods/sunflower-seeds.md": "e5303f2330c77a9fe292804822ac4f6b0f3c136742cb8877abd86731f0091db2",
     "docs/foods/sweet-potatoes.md": "6454ca15d23dc6b0d5283eb07c48d6b67145b490e3134350bf2b62ce60615930",
     "docs/foods/swiss-chard.md": "f1efdcfd315dcaab2581ebb4e49421bcb70865745675b98516ba0f4c6b0e156e",
     "docs/foods/tahini.md": "914207ba4c8307d9c9383db6a884a5289e3e9e739c1182c2080c46b14cfcecff",
@@ -172,7 +172,7 @@
     "docs/foods/wasabi.md": "da8fb6ea4f1de579e46a0e8a6b4f3831814125b5934708edc7a6fa4e3e29c369",
     "docs/foods/watercress.md": "bc90f82f673c4561a4c58df73b22f4655b8d4fa7c2dfd0f296fb35e96b4b334d",
     "docs/foods/watermelon.md": "b5e08e281c0f5711660e81315dc3a48fc43dd84fa7aaab1355738de763f105a1",
-    "docs/foods/wheat-germ.md": "38f3deb4bb57121e49af877302df45ac0fa72158a3ed9d104d8c0e7150640a35",
+    "docs/foods/wheat-germ.md": "934f7ae89343a9197579c1b1192651448e2ab4effb347bea89bae39db5bb415b",
     "docs/foods/wheat.md": "15489c7e681a7b9e93a54bef9161ce0a4565f4e23025a87c06438346c57ddd0a",
     "docs/foods/whey-protein.md": "ffafa78241f819ce7e6062635e8b8bda1d692aed3eca6dfc9b7d1ac4daacc8d9",
     "docs/foods/whole-grains.md": "1565c436e2d088d91868be99082e74dfe6ff14791a3f85ba0ac67d7596b153f0"
@@ -180,5 +180,26 @@
   "approved_exceptions": {
     "docs/foods/lupins.md": "Author-approved identity consolidation; unchanged quantities, 9 November 2026",
     "docs/foods/lupin-beans.md": "Author-approved retired alias, 9 November 2026"
-  }
+  },
+  "author_approved_updates": [
+    {
+      "date": "2026-11-09",
+      "scope": "Review 01: twelve verified source observations, exact qualifications; soybean glycine not approved. Local implementation only.",
+      "evidence": "review/dietary-connectivity-2026-11-09/author-review-01/source-verification.json",
+      "files": [
+        "docs/foods/almonds.md",
+        "docs/foods/amaranth.md",
+        "docs/foods/beef.md",
+        "docs/foods/beetroot.md",
+        "docs/foods/chicken.md",
+        "docs/foods/eggs.md",
+        "docs/foods/pumpkin-seeds.md",
+        "docs/foods/quinoa.md",
+        "docs/foods/salmon.md",
+        "docs/foods/spinach.md",
+        "docs/foods/sunflower-seeds.md",
+        "docs/foods/wheat-germ.md"
+      ]
+    }
+  ]
 }

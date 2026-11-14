@@ -1,0 +1,26 @@
+{
+  "documented_children": [
+    {
+      "id": "resistant-starch-type-2-zhang-2020",
+      "href": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch#rs2-zhang-2020"
+    },
+    {
+      "id": "apple-pectin-sinha-2024",
+      "href": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin#apple-pectin-sinha-2024"
+    },
+    {
+      "id": "oligofructose-enriched-inulin-schroeder-2018",
+      "href": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/inulin#oligofructose-enriched-inulin-schroeder-2018"
+    },
+    {
+      "id": "bifidobacterium-longum-ncc2705",
+      "href": "/docs/substances/bifidobacterium-longum#ncc2705"
+    },
+    {
+      "id": "lacticaseibacillus-rhamnosus-jb-1",
+      "href": "/docs/substances/lacticaseibacillus-rhamnosus#jb-1"
+    }
+  ],
+  "network_activation": "held",
+  "no_new_pm_identity_matches": true
+}

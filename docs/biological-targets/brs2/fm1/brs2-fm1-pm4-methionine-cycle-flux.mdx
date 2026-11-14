@@ -184,6 +184,11 @@ dietary_input_traceability:
         - finkelstein_homocysteine_1998
     evidence_limitation: Methionine is required to enter the cycle. This does not show that raising methionine intake increases human remethylation or transsulfuration rates.
   - atom_id: PM4-DIT-2
+    source_identity:
+      kind: source-class
+      pm_atom_id: BRS2-FM1-PM4::PM4-DIT-2
+      status: resolved
+      substance_applicability: not-applicable
     dietary_input: true
     dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
     input: Dietary protein
@@ -1000,6 +1005,61 @@ dietary_input_assessments:
     assessment_date: '2026-10-23'
     assessment_limitations: Endogenous glycine synthesis and other methyltransferases also contribute. Enzyme loss is not glycine deficiency; extra dietary glycine has not been established to normalise whole-cycle or brain methylation.
     review_source: system/reviews/deferred-stage2ab-2026-10-23/assessment-plan.json#BRS2-FM1-PM4
+  - atom_id: PM4-DIT-2
+    status: admitted
+    type: A
+    classification: derived
+    operation: >-
+      Maintain balanced methionine-cycle flux so methionine availability, SAM-dependent methylation,
+      homocysteine recycling and transsulfuration remain coordinated across changing physiological demand.
+    active_target_id: methionine
+    record_origin: >-
+      Author-approved Group 4 reconciliation of existing admitted route; no new admission, SEC or publication
+      permission.
+    functional_dependency:
+      status: established
+      statement: Provides digestible methionine, the amino acid that enters the cycle.
+      sources:
+        - docs/papers/BRAIN-Diet-References#fao_diaas_2013
+        - docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998
+    dietary_supply:
+      status: established
+      statement: Provides digestible methionine, the amino acid that enters the cycle.
+      sources:
+        - docs/papers/BRAIN-Diet-References#fao_diaas_2013
+        - docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998
+    conversion_pathway:
+      - from: BRS2-FM1-PM4::PM4-DIT-2
+        to: methionine
+        process: Protein digestion and amino-acid absorption provide methionine to the methionine cycle.
+        dependencies: []
+        limitations: >-
+          Dietary protein supplies methionine. It does not show that eating more protein increases cycle rates.
+          DIAAS scores sulfur amino acids as methionine plus cysteine. The pathway accounts are reviews.
+          Transsulfuration is not present in every tissue. The human rate study was a 28-day vitamin B6
+          restriction in nine healthy young adults. It does not show that ordinary changes in methionine,
+          folate, or B-vitamin intake change those rates. Individual enzyme reactions remain neighbouring
+          mechanisms.
+        evidence:
+          statement: Provides digestible methionine, the amino acid that enters the cycle.
+          sources:
+            - docs/papers/BRAIN-Diet-References#fao_diaas_2013
+            - docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998
+    limitations:
+      - >-
+        Dietary protein supplies methionine. It does not show that eating more protein increases cycle rates.
+        DIAAS scores sulfur amino acids as methionine plus cysteine.
+      - >-
+        The pathway accounts are reviews. Transsulfuration is not present in every tissue. The human rate study
+        was a 28-day vitamin B6 restriction in nine healthy young adults. It does not show that ordinary changes
+        in methionine, folate, or B-vitamin intake change those rates. Individual enzyme reactions remain
+        neighbouring mechanisms.
+      - Do not derive methionine quantities from protein grams or combined methionine-plus-cysteine values.
+    provenance:
+      - docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx
+      - docs/papers/BRAIN-Diet-References#fao_diaas_2013
+      - docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998
+    source_atom_id: BRS2-FM1-PM4::PM4-DIT-2
 sidebar_label: "BRS2-1-4 — Methionine Cycle Flux"
 ---
 <p class="brs-pm-thumbnail-wrap">

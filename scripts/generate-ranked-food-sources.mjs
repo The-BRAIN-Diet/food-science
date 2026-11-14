@@ -5,13 +5,13 @@ import {selectRankedFoodSources,RANKED_FOOD_POLICY} from '../src/data/rankedFood
 const hash=x=>crypto.createHash('sha256').update(x).digest('hex'),root=process.cwd(),policy=JSON.parse(fs.readFileSync('system/ranked-food-source-policy.json'));
 const approved=JSON.parse(fs.readFileSync('system/ranked-food-publication-sources.json'));
 for(const [file,expected]of Object.entries(approved.files))if(hash(fs.readFileSync(file))!==expected)throw Error('Publication-approved source changed: '+file+'; reconcile before generation');
-const maps=['BRS1','BRS2','BRS3','BRS4','BRS5','BRS6','BRS-X'].map(brs=>buildInputSubstanceFood(root,{brs}));
+const maps=['BRS1','BRS2','BRS3','BRS4','BRS5','BRS6','BRS-X'].map(brs=>buildInputSubstanceFood(root,{brs,includeProfileConstituents:true}));
 const sources=[...new Map(maps.flatMap(m=>m.food_sources).map(s=>[s.id,s])).values()].sort((a,b)=>a.id.localeCompare(b.id));
 const relationships=maps.flatMap(m=>m.relationships),foodDocs=fs.readdirSync('docs/foods').filter(f=>/\.mdx?$/.test(f)).sort().map(f=>({file:'docs/foods/'+f,...matter(fs.readFileSync('docs/foods/'+f,'utf8'))}));
 const panelGroups=new Map();for(const f of foodDocs){if(f.data.retired_identity)continue;const n=f.data.nutrition_source;if(n?.fdc_id){const key=[n.database,n.fdc_id,n.food_name,n.basis].join('|');if(!panelGroups.has(key))panelGroups.set(key,[]);panelGroups.get(key).push(f.data.id||path.basename(f.file,'.md'));}}
 const duplicatePanels=[...panelGroups].filter(([k,ids])=>ids.length>1).map(([source,food_ids])=>({source,food_ids,reason:'Shared reference panel reused by distinct food preparations; not independent preparation-specific measurements.'}));
 const rankingSources=attributeSharedReferencePanels(sources,duplicatePanels,policy);
-const sourceFiles=[...new Set([...maps.flatMap(m=>m.source_records),...foodDocs.map(f=>f.file),'system/ranked-food-source-policy.json','system/ranked-food-publication-sources.json','scripts/lib/shared-reference-attribution.mjs','scripts/lib/input-substance-food.mjs','src/data/relatedSubstanceRelationships.mjs','scripts/generate-ranked-food-sources.mjs','src/data/rankedFoodSources.mjs'])].sort();
+const sourceFiles=[...new Set([...maps.flatMap(m=>m.source_records),...foodDocs.map(f=>f.file),'system/ranked-food-source-policy.json','system/ranked-food-publication-sources.json','scripts/lib/shared-reference-attribution.mjs','scripts/lib/input-substance-food.mjs','src/data/relatedSubstanceRelationships.mjs','scripts/generate-ranked-food-sources.mjs','src/data/rankedFoodSources.mjs','src/lib/aminoAcidProfileSources.mjs','src/lib/aggregateFoodComposition.mjs'])].sort();
 const source_hashes=Object.fromEntries(sourceFiles.filter(f=>fs.existsSync(f)).map(f=>[f,hash(fs.readFileSync(f))]));
 const snapshot_id=hash(JSON.stringify({source_hashes,policy:RANKED_FOOD_POLICY})),targets=[];
 for(const target_id of [...new Set(relationships.filter(r=>r.dietary_input===true&&r.substance_id).map(r=>r.pm+'|'+r.substance_id))].sort()){

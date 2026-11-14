@@ -1,0 +1,217 @@
+{
+  "verified_technical_correction": {
+    "defect": "Individual source-linked amino-acid observations were ignored while their aggregate EAA sum was extracted.",
+    "implementation": "src/lib/aminoAcidProfileSources.mjs and shared input mapper",
+    "impact_file": "ranking-impact.json"
+  },
+  "classification_metadata_gaps": [
+    "BRS1-FM1-PM2|tryptophan",
+    "BRS1-FM1-PM2|tyrosine",
+    "BRS1-FM1-PM3|betaine",
+    "BRS1-FM1-PM3|choline",
+    "BRS1-FM1-PM3|phenylalanine",
+    "BRS1-FM1-PM3|vitamin-b9",
+    "BRS1-FM1-PM4|betaine",
+    "BRS1-FM1-PM4|choline",
+    "BRS1-FM1-PM4|phenylalanine",
+    "BRS1-FM1-PM4|tyrosine",
+    "BRS1-FM1-PM4|vitamin-b9",
+    "BRS1-FM2-PM6|vitamin-b5",
+    "BRS1-FM2-PM6|vitamin-b9",
+    "BRS1-FM3-PM7|betaine",
+    "BRS1-FM3-PM7|choline",
+    "BRS1-FM3-PM7|vitamin-b9",
+    "BRS2-FM1-PM3|betaine",
+    "BRS2-FM1-PM3|choline",
+    "BRS2-FM1-PM3|vitamin-b9",
+    "BRS2-FM1-PM4|betaine",
+    "BRS2-FM1-PM4|choline",
+    "BRS2-FM2-PM5|methionine",
+    "BRS2-FM2-PM5|serine",
+    "BRS2-FM3-PM7|betaine",
+    "BRS2-FM3-PM7|vitamin-b9",
+    "BRS3-FM1-PM1|cysteine",
+    "BRS3-FM1-PM1|glycine",
+    "BRS3-FM1-PM2|cysteine",
+    "BRS3-FM1-PM2|glycine",
+    "BRS5-FM1-PM1|fructo-galacto-oligosaccharides",
+    "BRS5-FM1-PM1|pectin",
+    "BRS5-FM1-PM1|resistant-starch"
+  ],
+  "recorded_derived_links_pending_resolution": [
+    {
+      "id": "BRS1-FM1-PM3::PM3-DIT-3",
+      "target": "pyridoxal-5-phosphate",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      }
+    },
+    {
+      "id": "BRS1-FM1-PM4::PM4-DIT-3",
+      "target": "pyridoxal-5-phosphate",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      }
+    },
+    {
+      "id": "BRS1-FM1-PM5::PM5-DIT-4",
+      "target": "pyridoxal-5-phosphate",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      }
+    },
+    {
+      "id": "BRS1-FM2-PM6::PM6-DIT-2",
+      "target": "choline",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      }
+    },
+    {
+      "id": "BRS2-FM1-PM1::PM1-DIT-2",
+      "target": "5-methyltetrahydrofolate",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      }
+    },
+    {
+      "id": "BRS2-FM1-PM1::PM1-DIT-4",
+      "target": "methylcobalamin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      }
+    },
+    {
+      "id": "BRS2-FM1-PM2::PM2-DIT-2",
+      "target": "betaine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      }
+    },
+    {
+      "id": "BRS2-FM1-PM3::PM3-DIT-5",
+      "target": "methionine",
+      "ontology_connections": null
+    },
+    {
+      "id": "BRS2-FM1-PM4::PM4-DIT-2",
+      "target": "methionine",
+      "ontology_connections": {
+        "identity": "unresolved",
+        "conversion": "unresolved",
+        "food": "unresolved"
+      }
+    },
+    {
+      "id": "BRS2-FM2-PM5::PM5-DIT-2",
+      "target": "pyridoxal-5-phosphate",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      }
+    },
+    {
+      "id": "BRS2-FM2-PM6::PM6-DIT-9",
+      "target": "cysteine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      }
+    },
+    {
+      "id": "BRS2-FM2-PM6::PM6-DIT-7",
+      "target": "cysteine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "unresolved"
+      }
+    },
+    {
+      "id": "BRS2-FM3-PM7::PM7-DIT-4",
+      "target": "choline",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      }
+    },
+    {
+      "id": "BRS4-FM1-PM1::PM1-DIT-3",
+      "target": "flavin-mononucleotide",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      }
+    },
+    {
+      "id": "BRS4-FM1-PM2::PM2-DIT-3",
+      "target": "nicotinamide",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      }
+    },
+    {
+      "id": "BRS5-FM1-PM1::PM1-DIT-2",
+      "target": "butyrate",
+      "ontology_connections": {
+        "identity": "unresolved",
+        "conversion": "unresolved",
+        "food": "unresolved"
+      }
+    },
+    {
+      "id": "BRS5-FM1-PM1::PM1-DIT-4",
+      "target": "retinoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      }
+    },
+    {
+      "id": "BRS5-FM2-PM6::PM6-DIT-2",
+      "target": "ellagic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      }
+    }
+  ],
+  "network_nodes_without_ranked_target": [
+    "acetate",
+    "acetic-acid",
+    "acetoacetate",
+    "butyrate",
+    "coq10",
+    "flavin-adenine-dinucleotide",
+    "nad-plus",
+    "phytate",
+    "propionate",
+    "retinoic-acid",
+    "s-adenosylmethionine",
+    "scfas",
+    "urolithin-a"
+  ],
+  "warning": "Not all metadata gaps are software bugs. Do not infer scientific classifications or complete unresolved conversion evidence automatically."
+}

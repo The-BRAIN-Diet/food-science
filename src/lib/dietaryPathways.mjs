@@ -11,6 +11,7 @@ export function validateFormationPathway(edge, identities) {
 }
 export function buildDietaryPathwayIndex({docs=[],scopes=[],registeredIdentities={}}) {
  const identities={...registeredIdentities,...Object.fromEntries(scopes.flatMap(s=>s.substances||[]).map(s=>[s.id,s]))};
+ const held=r=>['draft-only','blocked','internal-only'].includes(r.scientific_assessment?.projection_status)||r.network_activation==='held';
  const relationships=scopes.flatMap(s=>s.relationships||[]),edges=[],errors=[];
  for(const doc of docs)for(const edge of doc.frontMatter?.formation_pathways||[]) {
   const problems=validateFormationPathway(edge,identities);
@@ -18,11 +19,12 @@ export function buildDietaryPathwayIndex({docs=[],scopes=[],registeredIdentities
   edges.push({...edge,record:doc.permalink,from_page:identities[edge.from]?.page,to_page:identities[edge.to]?.page});
  }
  // Versioned PM conversion metadata already passed the complete PM admission gate.
- for(const r of relationships.filter(r=>r.scientific_admission==='admitted'&&r.ontology_connections?.conversion==='supported'))
+ for(const r of relationships.filter(r=>r.scientific_admission==='admitted'&&!held(r)&&r.ontology_connections?.conversion==='supported'))
   for(const [i,step] of (r.scientific_assessment?.conversion_pathway||[]).entries())
    edges.push({...step,id:`${r.id}:conversion:${i}`,relationship:/microb|ferment/i.test(step.process)?'microbial-formation':'endogenous-formation',status:'supported',scope_pm:r.pm,record:r.source_record,from_page:identities[step.from]?.page,to_page:identities[step.to]?.page});
  const paths=[],blocked=[];
  for(const r of relationships){
+  if(held(r)){blocked.push({pm:r.pm,input:r.input,atom_id:r.id.split('::')[1],reason:r.scientific_assessment?.projection_status||r.network_activation});continue;}
   if(r.scientific_admission!=='admitted')continue;
   const source=r.scientific_assessment?.canonical_substance_id||r.substance_id;
   if(!source)continue;

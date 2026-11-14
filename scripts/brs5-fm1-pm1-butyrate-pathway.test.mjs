@@ -43,7 +43,7 @@ test('existing substrate foods are candidates, not butyrate content', () => {
   assert.equal(starch.chain.pm1_capacity_admission, 'withheld');
   assert.equal(pectin.chain.microbial_butyrate, 'conditional');
   assert.equal(fos.chain.microbial_butyrate, 'unresolved');
-  assert.deepEqual((pm.data.dietary_input_assessments || []).map(a => a.atom_id), ['PM1-DIT-6']);
+  assert.deepEqual((pm.data.dietary_input_assessments || []).map(a => a.atom_id), ['PM1-DIT-6', 'PM1-DIT-4']);
   assert.ok(starch.foods.some(f => f.food_id === 'bananas' && /green|unripe/i.test(f.preparation)));
   assert.ok(starch.foods.some(f => f.food_id === 'potatoes' && /chill|cool|4/i.test(f.preparation)));
   assert.ok(['chickpeas', 'black-beans'].every(id => starch.foods.some(f => f.food_id === id)));

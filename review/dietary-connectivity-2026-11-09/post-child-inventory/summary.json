@@ -1,0 +1,16 @@
+{
+  "pms": 67,
+  "pairs": 155,
+  "substances": 60,
+  "admitted_inputs": 127,
+  "kc_relationships": 24,
+  "accepted_kc_relationships": 22,
+  "explicit_established_constituents": 33,
+  "multiple_provenance_pairs": 6,
+  "ranked_triples": 960,
+  "documented_triples": 200,
+  "issue_counts": {
+    "dietary-flag-without-explicit-admission": 29,
+    "unresolved-canonical-substance": 4
+  }
+}
