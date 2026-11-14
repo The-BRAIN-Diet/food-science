@@ -1,0 +1,50 @@
+[
+  {
+    "ref": "f0845f3a",
+    "template": 68,
+    "inventory": 76,
+    "missing": []
+  },
+  {
+    "ref": "97335940",
+    "template": 70,
+    "inventory": 76,
+    "missing": [
+      "quercetin",
+      "genistein"
+    ]
+  },
+  {
+    "ref": "37adc6b1",
+    "template": 70,
+    "inventory": 76,
+    "missing": [
+      "quercetin",
+      "genistein"
+    ]
+  },
+  {
+    "ref": "9d9159d8",
+    "template": 70,
+    "inventory": 76,
+    "missing": [
+      "quercetin",
+      "genistein"
+    ]
+  },
+  {
+    "displayInventory": 78,
+    "existingMetadata": [
+      {
+        "id": "quercetin",
+        "category": "Distinctive",
+        "reason": "Documented on the seven quercetin food pages. Food composition is not a PM dietary admission."
+      },
+      {
+        "id": "genistein",
+        "category": "Distinctive",
+        "reason": "Documented on the four genistein food pages. Food composition is not a PM dietary admission."
+      }
+    ]
+  }
+]

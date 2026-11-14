@@ -11969,5 +11969,57 @@
       " M scripts/pm-documented-food-sources.test.mjs"
     ],
     "remote_contains": []
+  },
+  {
+    "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/food-target-integration",
+    "head": "96b08913b917fffb8c96862ac4aab50a46a8d4fe",
+    "branch": "codex/food-target-integration",
+    "changes": [],
+    "remote_contains": []
+  },
+  {
+    "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brs5-scfa-controlled-test",
+    "head": "110a26bc52663ba6a2e5bdd1a02e4014278b5233",
+    "branch": "codex/brs5-scfa-controlled-test",
+    "changes": [
+      "?? review/brs5-pm5-controlled-2026-10-23/classification-matrix.json",
+      "?? review/brs5-pm5-controlled-2026-10-23/controlled-render.html",
+      "?? review/brs5-pm5-controlled-2026-10-23/controlled-result.json",
+      "?? review/brs5-pm5-controlled-2026-10-23/controlled-test-report.md",
+      "?? review/brs5-pm5-controlled-2026-10-23/proposed-source-corrections.json",
+      "?? review/brs5-pm5-controlled-2026-10-23/raw-target-extraction.json",
+      "?? review/brs5-pm5-controlled-2026-10-23/related-rs-family-foods.json",
+      "?? review/brs5-pm5-controlled-2026-10-23/remaining-gaps.json",
+      "?? review/brs5-pm5-controlled-2026-10-23/retrieval-log.json",
+      "?? review/brs5-pm5-controlled-2026-10-23/scientifically-screened-manuscript.json",
+      "?? review/brs5-pm5-controlled-2026-10-23/scoped-food-research.json",
+      "?? review/brs5-pm5-controlled-2026-10-23/stage2a-assessment.json",
+      "?? review/brs5-pm5-controlled-2026-10-23/stage2b-assessment.json",
+      "?? review/brs5-pm5-controlled-2026-10-23/target-repair-queue.json",
+      "?? review/brs5-pm5-retest-2026-10-23/actual-client-preview.html",
+      "?? review/brs5-pm5-retest-2026-10-23/baseline-bibliography.log",
+      "?? review/brs5-pm5-retest-2026-10-23/baseline-scientific-findings.log",
+      "?? review/brs5-pm5-retest-2026-10-23/before-food-targets.json",
+      "?? review/brs5-pm5-retest-2026-10-23/before-global-repair-queue.json",
+      "?? review/brs5-pm5-retest-2026-10-23/before-pm.json",
+      "?? review/brs5-pm5-retest-2026-10-23/before-repair-queue.json",
+      "?? review/brs5-pm5-retest-2026-10-23/bibliography-check.log",
+      "?? review/brs5-pm5-retest-2026-10-23/bibliography-format.log",
+      "?? review/brs5-pm5-retest-2026-10-23/browser-disclosure.mjs",
+      "?? review/brs5-pm5-retest-2026-10-23/compiled-pm.html",
+      "?? review/brs5-pm5-retest-2026-10-23/controlled-render.html",
+      "?? review/brs5-pm5-retest-2026-10-23/findings-check.log",
+      "?? review/brs5-pm5-retest-2026-10-23/focused-regression.log",
+      "?? review/brs5-pm5-retest-2026-10-23/governance-check.log",
+      "?? review/brs5-pm5-retest-2026-10-23/mapping-generation.log",
+      "?? review/brs5-pm5-retest-2026-10-23/ontology-check.log",
+      "?? review/brs5-pm5-retest-2026-10-23/regression.log",
+      "?? review/brs5-pm5-retest-2026-10-23/rollup-generation.log",
+      "?? review/brs5-pm5-retest-2026-10-23/sec-check.log",
+      "?? scripts/run-brs5-pm5-controlled-stage2ab.mjs"
+    ],
+    "remote_contains": [
+      "  github/codex/brs5-scfa-controlled-test"
+    ]
   }
 ]

@@ -1,0 +1,123 @@
+[
+  {
+    "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/rapid-stage2ab",
+    "branch": "recovery/20261114-rapid-stage2ab",
+    "commit": "eb67615caf314c4d537c1bc2add69c02ff776fd7",
+    "files": 163,
+    "compressed": []
+  },
+  {
+    "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/combined-local",
+    "branch": "recovery/20261114-combined-local",
+    "commit": "2109bb5ad1d836c2898334a6dd94444a16cabe21",
+    "files": 519,
+    "compressed": [],
+    "snapshot_commit": "2c258e0ed4a005697beb4ea56e3fe47a3289bf13"
+  },
+  {
+    "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brain-diet-v1-quantitative",
+    "branch": "recovery/20261114-brain-diet-v1-quantitative",
+    "commit": "95ea448716a9da82e6b425423935c90121753274",
+    "files": 392,
+    "compressed": [
+      {
+        "path": "review/pm-food-source-coverage-2026-11-06/BRS1.snapshot.json",
+        "stored_as": "review/pm-food-source-coverage-2026-11-06/BRS1.snapshot.json.gz",
+        "sha256": "0cc16b356c4f83167e44bc85fce9c049726999d1927b4bca679f4b8758995f25",
+        "bytes": 269859392,
+        "compressed_bytes": 17200821
+      },
+      {
+        "path": "review/pm-food-source-coverage-2026-11-06/BRS2.snapshot.json",
+        "stored_as": "review/pm-food-source-coverage-2026-11-06/BRS2.snapshot.json.gz",
+        "sha256": "b39b06f0297db7ebd93c3224da22a4fc894ce7ca1bd278dc7ea302702b976c46",
+        "bytes": 160364761,
+        "compressed_bytes": 10330967
+      },
+      {
+        "path": "review/pm-food-source-coverage-2026-11-06/BRS3.snapshot.json",
+        "stored_as": "review/pm-food-source-coverage-2026-11-06/BRS3.snapshot.json.gz",
+        "sha256": "c58cf074c4830876239e09e9703afb850908f85ab05bb362e7b1464df4ae053f",
+        "bytes": 133080743,
+        "compressed_bytes": 8831899
+      },
+      {
+        "path": "review/pm-food-source-coverage-2026-11-06/BRS4.snapshot.json",
+        "stored_as": "review/pm-food-source-coverage-2026-11-06/BRS4.snapshot.json.gz",
+        "sha256": "4148fb320bfb498ab4dfcfa5d53417aa8b90752504a2e34b2f553752c72a6949",
+        "bytes": 98253564,
+        "compressed_bytes": 6261868
+      }
+    ]
+  },
+  {
+    "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brs4-pm4-pm5-reassessment",
+    "branch": "recovery/20261114-brs4-pm4-pm5-reassessment",
+    "commit": "ec7c3e7a3bb591e4d27313797cd705a50851143b",
+    "files": 60,
+    "compressed": []
+  },
+  {
+    "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brs5-kc2-focused-reassessment",
+    "branch": "recovery/20261114-brs5-kc2-focused-reassessment",
+    "commit": "37ab37ab3d5c273d82422648462d58859c83b2da",
+    "files": 76,
+    "compressed": []
+  },
+  {
+    "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/deferred-stage2ab",
+    "branch": "recovery/20261114-deferred-stage2ab",
+    "commit": "bbee350b2d17f48f11b65f3dc1c5ef74cb1020d1",
+    "files": 76,
+    "compressed": []
+  },
+  {
+    "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/food-wheel-publication",
+    "branch": "recovery/20261114-food-wheel-publication",
+    "commit": "0ba9e424f01282b4c548bb8e306e6832312f2073",
+    "files": 146,
+    "compressed": []
+  },
+  {
+    "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/food-wheel-top-ten",
+    "branch": "recovery/20261114-food-wheel-top-ten",
+    "commit": "f4d0704eb3b24892d0dc6d84399984db018e7211",
+    "files": 391,
+    "compressed": []
+  },
+  {
+    "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/food-wheel-top-ten-amino",
+    "branch": "recovery/20261114-food-wheel-top-ten-amino",
+    "commit": "cb03e4498bb5742ba5f3f6d37b878011b942b1a0",
+    "files": 2,
+    "compressed": []
+  },
+  {
+    "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/recipe-matrix-preview",
+    "branch": "recovery/20261114-recipe-matrix-preview",
+    "commit": "079d484bb017ff70359c288cab423900cf71eb93",
+    "files": 15,
+    "compressed": []
+  },
+  {
+    "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework",
+    "branch": "recovery/20261114-release-reviewed-framework",
+    "commit": "d29526e063630016a42d864ce138444ab53dc2ac",
+    "files": 56,
+    "compressed": []
+  },
+  {
+    "path": "/Users/paulhouston/Food Science/food-science",
+    "branch": "recovery/20261114-food-science",
+    "commit": "6a79296bfd94d9b128b15d1a81265095345cd2b9",
+    "files": 48,
+    "compressed": []
+  },
+  {
+    "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brs5-scfa-controlled-test",
+    "branch": "recovery/20261114-brs5-scfa-controlled-test",
+    "commit": "1f217713b37f4e76b9349892afa72e7d5da1c3f0",
+    "files": 49,
+    "compressed": []
+  }
+]

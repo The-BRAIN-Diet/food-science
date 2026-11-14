@@ -1,0 +1,80 @@
+[
+  {
+    "branch": "recovery/20261114-rapid-stage2ab",
+    "commit": "eb67615caf314c4d537c1bc2add69c02ff776fd7",
+    "files_verified": 163,
+    "mismatches": []
+  },
+  {
+    "branch": "recovery/20261114-combined-local",
+    "commit": "2c258e0ed4a005697beb4ea56e3fe47a3289bf13",
+    "files_verified": 519,
+    "mismatches": []
+  },
+  {
+    "branch": "recovery/20261114-brain-diet-v1-quantitative",
+    "commit": "95ea448716a9da82e6b425423935c90121753274",
+    "files_verified": 392,
+    "mismatches": []
+  },
+  {
+    "branch": "recovery/20261114-brs4-pm4-pm5-reassessment",
+    "commit": "ec7c3e7a3bb591e4d27313797cd705a50851143b",
+    "files_verified": 60,
+    "mismatches": []
+  },
+  {
+    "branch": "recovery/20261114-brs5-kc2-focused-reassessment",
+    "commit": "37ab37ab3d5c273d82422648462d58859c83b2da",
+    "files_verified": 75,
+    "mismatches": []
+  },
+  {
+    "branch": "recovery/20261114-deferred-stage2ab",
+    "commit": "bbee350b2d17f48f11b65f3dc1c5ef74cb1020d1",
+    "files_verified": 76,
+    "mismatches": []
+  },
+  {
+    "branch": "recovery/20261114-food-wheel-publication",
+    "commit": "0ba9e424f01282b4c548bb8e306e6832312f2073",
+    "files_verified": 146,
+    "mismatches": []
+  },
+  {
+    "branch": "recovery/20261114-food-wheel-top-ten",
+    "commit": "f4d0704eb3b24892d0dc6d84399984db018e7211",
+    "files_verified": 391,
+    "mismatches": []
+  },
+  {
+    "branch": "recovery/20261114-food-wheel-top-ten-amino",
+    "commit": "cb03e4498bb5742ba5f3f6d37b878011b942b1a0",
+    "files_verified": 2,
+    "mismatches": []
+  },
+  {
+    "branch": "recovery/20261114-recipe-matrix-preview",
+    "commit": "079d484bb017ff70359c288cab423900cf71eb93",
+    "files_verified": 15,
+    "mismatches": []
+  },
+  {
+    "branch": "recovery/20261114-release-reviewed-framework",
+    "commit": "d29526e063630016a42d864ce138444ab53dc2ac",
+    "files_verified": 56,
+    "mismatches": []
+  },
+  {
+    "branch": "recovery/20261114-food-science",
+    "commit": "6a79296bfd94d9b128b15d1a81265095345cd2b9",
+    "files_verified": 48,
+    "mismatches": []
+  },
+  {
+    "branch": "recovery/20261114-brs5-scfa-controlled-test",
+    "commit": "1f217713b37f4e76b9349892afa72e7d5da1c3f0",
+    "files_verified": 49,
+    "mismatches": []
+  }
+]
