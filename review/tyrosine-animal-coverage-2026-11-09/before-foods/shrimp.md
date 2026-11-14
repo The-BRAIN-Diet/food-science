@@ -1,0 +1,174 @@
+---
+id: shrimp
+title: Shrimp
+sidebar_label: Shrimp
+description: Seafood providing protein and minerals
+tags:
+  - Food
+  - Shrimp
+  - Selenium
+  - Zinc
+  - Betaine
+list_image: /img/foods/shrimp/shrimp_thumb.webp
+nutrition_per_100g:
+  choline_mg: 80.9
+  fat_g: 1.01
+  carbs_g: 0.91
+  kcal: 71
+  vitamin_b3_mg: 1.778
+  vitamin_b5_mg: 0.31
+  vitamin_b6_mg: 0.161
+  calcium_mg: 54
+  potassium_mg: 113
+  zinc_mg: 0.97
+  selenium_ug: 29.6
+  vitamin_e_mg: 1.32
+  vitamin_b1_mg: 0.02
+  vitamin_b2_mg: 0.015
+  folate_ug: 19
+  vitamin_b12_ug: 1.11
+  vitamin_k_ug: 0.3
+  ala_mg: 6
+  vitamin_a_rae_ug: 54
+  vitamin_d_ug: 0.1
+  iron_mg: 0.21
+  magnesium_mg: 22
+  phosphorus_mg: 244
+  sodium_mg: 566
+  copper_mg: 0.182
+  manganese_mg: 0.029
+  protein_g: 13.61
+  linoleic_g: 0.089
+  epa_mg: 68
+  dha_mg: 70
+  sat_fat_g: 0.261
+  omega3_mg: 150
+omega3_components:
+  - nutrient: dha_mg
+    identity: '22:6 n-3 (DHA)'
+    amount_mg: 70
+  - nutrient: epa_mg
+    identity: '20:5 n-3 (EPA)'
+    amount_mg: 68
+  - nutrient: dpa_mg
+    identity: '22:5 n-3 (DPA)'
+    amount_mg: 6
+  - nutrient: ala_mg
+    identity: '18:3 n-3 (ALA)'
+    amount_mg: 6
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: >-
+    Crustaceans, shrimp, mixed species, raw (may contain additives to retain
+    moisture)
+  fdc_id: 174210
+  retrieval_method: SR Legacy bulk (April 2018)
+  basis: per 100 g edible portion
+  last_checked: '2026-08-15'
+protein_profile_note: Complete essential amino acid profile.
+main_image: /img/foods/shrimp/shrimp_medium.webp
+legacy_list_image: /img/foods/shrimp/shrimp_thumb.webp
+legacy_main_image: /img/foods/shrimp/shrimp_medium.webp
+nutrition_supplementary_sources:
+  - key: betaine_mg
+    label: Betaine
+    basis: per 100 g
+    amount_display: 246 mg
+    citation_mark: asterisk
+    source_reference: '#food-source-3'
+    source_url: https://doi.org/10.1093/jn/133.5.1302
+    preparation_state: canned
+    evidence_material: Shrimp, canned
+    source_note: >-
+      Zeisel et al. (2003) Table 1, corrected by the erratum: shrimp, canned
+      (NDB 15152), 245.99 mg betaine per 100 g, shown as 246 mg. This page’s
+      USDA panel is raw mixed-species shrimp, not that canned sample. USDA
+      Release 2 does not report betaine for canned shrimp.
+    public_note: >-
+      Zeisel et al. (2003) Table 1, as corrected, supports this canned-shrimp
+      value. The asterisk marks that paper. It is not the raw USDA panel.
+    source_group: Zeisel et al. (2003) Table 1, erratum-corrected, NDB 15152
+    notes: Canned shrimp. Not the raw mixed-species panel used for the other nutrients.
+substance_relationships:
+  - substance: Selenium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports selenium in Crustaceans, shrimp, mixed
+      species, raw (may contain additives to retain moisture).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: shrimp|Selenium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: >-
+      Crustaceans, shrimp, mixed species, raw (may contain additives to retain
+      moisture)
+    source_url: 'https://fdc.nal.usda.gov/food-details/174210/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zinc
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports zinc in Crustaceans, shrimp, mixed species,
+      raw (may contain additives to retain moisture).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: shrimp|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: >-
+      Crustaceans, shrimp, mixed species, raw (may contain additives to retain
+      moisture)
+    source_url: 'https://fdc.nal.usda.gov/food-details/174210/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
+---
+## Overview
+
+Shrimp are shellfish that provide **selenium**, **iodine**, **vitamin B12**, and other trace minerals, together with highly digestible protein. These nutrients support neurotransmitter synthesis, antioxidant enzyme systems, and thyroid function within a broader seafood rotation [1].
+
+Within the BRAIN Diet framework, as with other shellfish, sourcing and preparation influence both safety and sustainability, so shrimp are best used as one component of a varied marine protein pattern rather than a sole staple [2].
+
+## Key Nutritional Highlights
+
+- Provides complete, highly digestible protein. [1]
+- Commonly contributes selenium, iodine, and vitamin B12, though levels vary by species. [2]
+- EPA/DHA content is highly species-dependent; oily fish are usually higher than lean fish or shellfish.
+- Often lower in saturated fat than many fatty red-meat patterns when minimally processed.
+- Nutritional profile and risk context depend on processing method (fresh vs salted/smoked/cured).
+
+## Food Context
+
+### Synergies
+
+- Part of diverse seafood intake
+
+### Sourcing
+
+- Sustainable when sourced responsibly
+
+### Preparation
+
+- Best prepared with gentle cooking
+- Supports protein and mineral goals
+
+### Essential Amino Acid Profile
+
+This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Shrimp" />
+
+<NutritionTable details={frontMatter} />
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
+## References
+
+[1] Seafood including shellfish contributes EPA and DHA relevant to neuronal membrane composition. McNamara & Carlson 2006. [Role of omega-3 fatty acids in brain development and function: Potential implications for the pathogenesis and prevention of psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
+
+[2] Shellfish provides complete highly digestible protein with key micronutrients. Gao et al. 2022. [Protein intake from different sources and cognitive decline over 9 years in community-dwelling older adults](/docs/papers/BRAIN-Diet-References#gao_protein_2022)
+
+<span id="food-source-3" />
+
+[3] Zeisel et al. (2003). [Concentrations of Choline-Containing Compounds and Betaine in Common Foods](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003). Table 1, corrected by the [erratum](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003_erratum), reports 245.99 mg betaine per 100 g of canned shrimp, NDB 15152. The other nutrients on this page are raw mixed-species shrimp.

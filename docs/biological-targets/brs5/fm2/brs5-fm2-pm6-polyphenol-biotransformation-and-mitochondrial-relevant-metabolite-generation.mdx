@@ -179,9 +179,10 @@ dietary_input_traceability:
       citation_keys:
         - singh_direct_2022
     evidence_limitation: The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies.
+    substance_id: ellagitannins
     canonical_identity:
-      status: missing-substance
-      severity: MAJOR
+      substance_id: ellagitannins
+      status: resolved
       intended_identity: Ellagitannins
       aliases_checked:
         - Ellagitannins
@@ -189,6 +190,9 @@ dietary_input_traceability:
         - registry/substances.json
         - docs/substances/ (label/form/alias search)
       projection_status: blocked
+      documented_occurrence:
+        food_ids: [walnuts]
+        limitation: Walnut-kernel occurrence only. The conversion evidence concerns a pomegranate-juice matrix. No walnut conversion yield or urolithin response is established.
   - atom_id: PM6-DIT-RECOVERY-EPICATECHIN
     input: Epicatechin
     input_type: substrate
@@ -390,6 +394,61 @@ dietary_input_assessments:
       sources:
         - docs/foods/cocoa.md
         - docs/foods/dark-chocolate.md
+  - atom_id: PM6-DIT-2
+    status: admitted
+    type: A
+    classification: derived
+    operation: Enable microbial activation of dietary polyphenols into bioactive metabolites.
+    canonical_substance_id: ellagitannins
+    active_target_id: ellagic-acid
+    food_target_research:
+      completed: true
+      sources_examined:
+        - registry/substances.json
+        - docs/foods/walnuts.md
+      sufficient_coverage_rationale: Walnut-kernel analysis supports ellagitannin occurrence only. The approved occurrence display retains the conversion hold. Neither a food concentration nor an ellagic-acid yield is available from this mapping.
+    record_origin: >-
+      Author-approved Group 3 reconciliation of existing admitted Derived route, 9 November 2026; no new
+      admission, SEC or publication permission.
+    functional_dependency:
+      status: established
+      statement: Hydrolysis releases ellagic acid upstream of microbial urolithin formation.
+      sources:
+        - docs/papers/BRAIN-Diet-References#singh_direct_2022
+    dietary_supply:
+      status: established
+      statement: Hydrolysis releases ellagic acid upstream of microbial urolithin formation.
+      sources:
+        - docs/papers/BRAIN-Diet-References#singh_direct_2022
+    conversion_pathway:
+      - from: ellagitannins
+        to: ellagic-acid
+        process: Ellagitannin hydrolysis releases ellagic acid upstream of microbial urolithin formation.
+        dependencies:
+          - Hydrolysable ellagitannin substrate in its food matrix
+          - >-
+            Microbial competence is required for the separate downstream urolithin stage, not equated with
+            ellagitannin hydrolysis
+        limitations: >-
+          The human study tested a pomegranate-juice matrix rather than isolated equivalence of every
+          ellagitannin; final metabolite generation varies. Species participation does not establish that those
+          species alone form urolithin A or that all people convert food exposures similarly.
+        evidence:
+          statement: Hydrolysis releases ellagic acid upstream of microbial urolithin formation.
+          sources:
+            - docs/papers/BRAIN-Diet-References#singh_direct_2022
+    limitations:
+      - >-
+        The human study tested a pomegranate-juice matrix rather than isolated equivalence of every
+        ellagitannin; final metabolite generation varies.
+      - >-
+        Species participation does not establish that those species alone form urolithin A or that all people
+        convert food exposures similarly.
+    provenance:
+      - >-
+        docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx
+      - docs/papers/BRAIN-Diet-References#singh_direct_2022
+    projection_status: blocked
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img

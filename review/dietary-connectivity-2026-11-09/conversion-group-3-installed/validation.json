@@ -1,0 +1,71 @@
+{
+  "results": [
+    {
+      "id": "BRS2-FM2-PM6::PM6-DIT-7",
+      "validation": {
+        "status": "admitted",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": []
+      },
+      "status": "installed-qualified-provision",
+      "food_targets_unchanged": true
+    },
+    {
+      "id": "BRS2-FM3-PM7::PM7-DIT-4",
+      "validation": {
+        "status": "admitted",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": []
+      },
+      "status": "installed-qualified-provision",
+      "food_targets_unchanged": true
+    },
+    {
+      "id": "BRS4-FM1-PM2::PM2-DIT-3",
+      "validation": {
+        "status": "admitted",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": []
+      },
+      "status": "installed-qualified-provision",
+      "food_targets_unchanged": true
+    },
+    {
+      "id": "BRS5-FM1-PM1::PM1-DIT-4",
+      "validation": {
+        "status": "admitted",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": []
+      },
+      "status": "draft-only",
+      "food_targets_unchanged": true
+    },
+    {
+      "id": "BRS5-FM2-PM6::PM6-DIT-2",
+      "validation": {
+        "status": "admitted",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": []
+      },
+      "status": "blocked",
+      "food_targets_unchanged": true
+    }
+  ],
+  "held_routes_not_projected": true,
+  "remaining_group4_unchanged": true
+}

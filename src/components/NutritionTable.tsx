@@ -30,6 +30,7 @@ interface SupplementarySource {
   unit?: string
   /** Inclusive literature span. Rendered when amount_display is absent. */
   range?: [number, number]
+  measurement_kind?: string
   /** When set (e.g. “Present — quantity not established”), overrides value + unit in the Amount column */
   amount_display?: string
   /** Explicit qualitative status; rendered when amount_display is absent */
@@ -219,6 +220,7 @@ export default function NutritionTable({details, view = "highlights"}: Nutrition
     return number ? ` [${number}]` : ""
   }
   const supplementaryAmount = (sup: SupplementarySource): string => {
+    if (sup.measurement_kind && typeof sup.value === "number") return `${sup.value} ${sup.unit} ${sup.basis} (${sup.measurement_kind})`
     if (typeof sup.amount_display === "string" && sup.amount_display.trim().length > 0) return sup.amount_display.trim()
     if (Array.isArray(sup.range) && sup.range.length === 2 && sup.range.every((n) => typeof n === "number")) {
       return `${sup.range[0]}–${sup.range[1]}${sup.unit ? ` ${sup.unit}` : ""}`
@@ -243,8 +245,18 @@ export default function NutritionTable({details, view = "highlights"}: Nutrition
     }
     const isNull = raw === null
     const value = typeof raw === "number" ? raw : null
+    const decimals =
+      details.micronutrient_table === "complete" &&
+      (MICRONUTRIENT_KEYS as readonly string[]).includes(key) &&
+      value !== null &&
+      value > 0 &&
+      roundTo(value, 1) === 0
+        ? roundTo(value, 2) === 0
+          ? 3
+          : 2
+        : 1
     const displayAmount =
-      value === null ? (isNull ? "—" : "") : `${roundTo(value, 1)} ${meta.unit}`.trim()
+      value === null ? (isNull ? "—" : "") : `${roundTo(value, decimals)} ${meta.unit}`.trim()
 
     let percentDisplay = "—"
     const rda = RDA_VALUES[key]
@@ -262,7 +274,7 @@ export default function NutritionTable({details, view = "highlights"}: Nutrition
     )
   }
 
-  function renderKeyRows(keys: readonly string[]): React.ReactNode[] {
+  function renderKeyRows(keys: readonly string[], full = false): React.ReactNode[] {
     const out: React.ReactNode[] = []
     for (const key of keys) {
       if (key === "omega3_mg") {
@@ -281,7 +293,7 @@ export default function NutritionTable({details, view = "highlights"}: Nutrition
         continue
       }
       out.push(
-        <tr key={key} id={`nutrition-row-${key}`} className="nutrition-row-target">
+        <tr key={key} id={full ? undefined : `nutrition-row-${key}`} className="nutrition-row-target">
           <td style={tdStyle}>{meta.label}</td>
           {cells}
         </tr>
@@ -291,7 +303,9 @@ export default function NutritionTable({details, view = "highlights"}: Nutrition
   }
 
   const coreRows = renderKeyRows(CORE_NUTRIENT_KEYS)
-  const microRows = renderKeyRows(MICRONUTRIENT_KEYS.filter((key) => isKeyFoodMicronutrient(details, key)))
+  const complete = details.micronutrient_table === "complete"
+  const fullRows = complete ? renderKeyRows(MICRONUTRIENT_KEYS.filter(key => typeof nutrition[key] === "number"), true) : []
+  const microRows = renderKeyRows(MICRONUTRIENT_KEYS.filter((key) => isKeyFoodMicronutrient(details, key) && (!complete || RDA_VALUES[key] > 0)))
   const advancedMicroRows = renderKeyRows(
     MICRONUTRIENT_KEYS.filter(
       (key) => isPublicTableKey(details, key) && !isKeyFoodMicronutrient(details, key),
@@ -480,7 +494,7 @@ export default function NutritionTable({details, view = "highlights"}: Nutrition
         </>
       )}
 
-      {(microRows.length > 0 || mineralRangeRows.length > 0) && (
+      {(microRows.length > 0 || (!complete && mineralRangeRows.length > 0)) && (
         <>
           <h3>Key vitamins and minerals</h3>
           <p style={{fontSize: "0.9em", color: "var(--ifm-font-color-base)", marginTop: "0.5rem"}}>
@@ -494,9 +508,20 @@ export default function NutritionTable({details, view = "highlights"}: Nutrition
                 <th style={thStyle}>% reference intake per 100 g</th>
               </tr>
             </thead>
-            <tbody>{microRows}{mineralRangeRows.map(renderRangeRow)}</tbody>
+            <tbody>{microRows}{!complete && mineralRangeRows.map(renderRangeRow)}</tbody>
           </table>
         </>
+      )}
+
+      {complete && (fullRows.length > 0 || mineralRangeRows.length > 0) && (
+        <details>
+          <summary>Full vitamins and minerals</summary>
+          <p>Amounts apply to the preparation named above. Only amounts meeting 10% of the adult reference intake are highlighted in the summary. A dash means no RI percentage is available.</p>
+          <table style={{width: "100%", borderCollapse: "collapse"}}>
+            <thead><tr><th style={thStyle}>Nutrient</th><th style={thStyle}>Amount per 100 g or stated basis</th><th style={thStyle}>% reference intake</th></tr></thead>
+            <tbody>{fullRows}{mineralRangeRows.map(renderRangeRow)}</tbody>
+          </table>
+        </details>
       )}
 
       {(advancedMicroRows.length > 0 || formObservations.length > 0) && view === "highlights" && (

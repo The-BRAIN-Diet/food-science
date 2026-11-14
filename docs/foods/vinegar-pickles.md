@@ -11,6 +11,7 @@ tags:
   - Vegan
   - Vegetarian
   - Sodium
+  - Acetic Acid
 list_image: /img/foods/vinegar-pickles/vinegar-pickles_thumb.webp
 nutrition_per_100g:
   vitamin_e_mg: 0.03
@@ -54,6 +55,22 @@ nutrition_source:
 main_image: /img/foods/vinegar-pickles/vinegar-pickles_medium.webp
 legacy_list_image: /img/foods/vinegar-pickles/vinegar-pickles_thumb.webp
 legacy_main_image: /img/foods/vinegar-pickles/vinegar-pickles_medium.webp
+nutrition_supplementary_sources:
+  - key: acetic_acid_qual
+    label: Acetic acid
+    status: Present — quantity not established
+    amount_display: Present
+    notes: From the vinegar brine. Not reported by the USDA dill-pickle panel.
+    source_note: >-
+      Vinegar pickles are acidified in a vinegar brine. FDA CPG Sec 525.825
+      identifies acetic acid as the acid of cider vinegar, at a labeling figure
+      of 4 g per 100 mL for the vinegar itself. USDA FDC 168558 (Pickles,
+      cucumber, dill or kosher dill) does not report acetic acid in the edible
+      portion, so no pickle quantity is stored.
+    source_url: >-
+      https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525825-vinegar-definitions-adulteration-vinegar-eels
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
 substance_relationships:
   - substance: Sodium
     relationship: contains
@@ -67,6 +84,19 @@ substance_relationships:
     evidence_material: 'Pickles, cucumber, dill or kosher dill'
     source_url: 'https://fdc.nal.usda.gov/food-details/168558/nutrients'
     presence_status: presence_and_amount_supported
+  - substance: Acetic Acid
+    substance_id: acetic-acid
+    relationship: contains
+    description: >-
+      The functional acid is acetic acid from the vinegar brine. The USDA
+      dill-pickle record does not report an edible-portion amount.
+    requires_supplementary_key: acetic_acid_qual
+    evidence_status: supported
+    evidence_source: FDA CPG Sec 525.825 (March 1995), applied to the vinegar brine
+    evidence_material: Vinegar brine used for vinegar pickles
+    source_url: >-
+      https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525825-vinegar-definitions-adulteration-vinegar-eels
+    presence_status: presence_supported_amount_unavailable
 substance_review_candidates: []
 ---
 ## Overview
@@ -85,7 +115,7 @@ Unlike lacto-fermented vegetables, vinegar pickles are **not primarily a probiot
 
 ### Acetic acid exposure
 
-The functional acid in vinegar pickles is **acetic acid**. When consumed, acetic acid from the brine and absorbed pickle matrix contributes to **dietary acetic acid load** at the meal level. This is mechanistically distinct from the **lactic acid** and microbial metabolites produced during vegetable fermentation, though both pathways lower pH and alter flavour.
+The functional acid in vinegar pickles is **[acetic acid](/docs/substances/bioactive-compounds/acetic-acid)**. When consumed, acetic acid from the brine and absorbed pickle matrix contributes to **dietary acetic acid load** at the meal level. The USDA dill-pickle record does not report that amount [4]. This is mechanistically distinct from the **lactic acid** and microbial metabolites produced during vegetable fermentation, though both pathways lower pH and alter flavour.
 
 ### Shelf-life extension
 
@@ -152,3 +182,5 @@ Acidification and reduced pH can **slow oxidative degradation** of some plant co
 [2] Ousaaid et al. (2022). [The Nutritional and Antioxidant Potential of Artisanal and Industrial Apple Vinegars and Their Ability to Inhibit Key Enzymes Related to Type 2 Diabetes In Vitro](/docs/papers/BRAIN-Diet-References#ousaaid_nutritional_2022). Apple vinegar polyphenols, antioxidant activity, and in vitro α-glucosidase/α-amylase inhibition.
 
 [3] Wastyk et al. (2021). [Gut-microbiota-targeted diets modulate human immune status](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021). Gut microbiota–targeted diets and fermented-food context.
+
+[4] U.S. Food and Drug Administration (1995). [CPG Sec 525.825 Vinegar, Definitions - Adulteration with Vinegar Eels](/docs/papers/BRAIN-Diet-References#fda_cpg_525_825_vinegar_1995). Acetic acid is the acid of cider vinegar. The 4 g/100 mL figure applies to the vinegar, not to a measured pickle portion.

@@ -1,0 +1,1888 @@
+[
+  {
+    "food_id": "anchovies",
+    "file": "docs/foods/anchovies.md",
+    "title": "Anchovies",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Fish, anchovy, european, canned in oil, drained solids",
+      "fdc_id": 174183,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-09-04"
+    },
+    "database_food": {
+      "fdc_id": "174183",
+      "data_type": "sr_legacy_food",
+      "description": "Fish, anchovy, european, canned in oil, drained solids",
+      "food_category_id": "15",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Finfish and Shellfish Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1837793",
+        "fdc_id": "174183",
+        "nutrient_id": "1217",
+        "amount": "1.128",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1837794",
+        "fdc_id": "174183",
+        "nutrient_id": "1218",
+        "amount": "0.975",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 975,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1837794, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Fish, anchovy, european, canned in oil, drained solids. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "beef",
+    "file": "docs/foods/beef.md",
+    "title": "Beef",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "fdc_id": 171796,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15",
+      "source_reference": "#food-source-6"
+    },
+    "database_food": {
+      "fdc_id": "171796",
+      "data_type": "sr_legacy_food",
+      "description": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "food_category_id": "13",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Beef Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": true,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1641438",
+        "fdc_id": "171796",
+        "nutrient_id": "1217",
+        "amount": "0.725",
+        "data_points": "0",
+        "derivation_id": "3",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "3",
+          "code": "AR",
+          "description": "Analytical data; derived by linear regression",
+          "source_id": "1"
+        },
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1641439",
+        "fdc_id": "171796",
+        "nutrient_id": "1218",
+        "amount": "0.572",
+        "data_points": "0",
+        "derivation_id": "3",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "3",
+          "code": "AR",
+          "description": "Analytical data; derived by linear regression",
+          "source_id": "1"
+        },
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 572,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1641439, nutrient 1218; Analytical data; derived by linear regression. Data points: 0. Exact database food: Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program). Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "butter",
+    "file": "docs/foods/butter.md",
+    "title": "Butter",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Butter, without salt",
+      "fdc_id": 173430,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "173430",
+      "data_type": "sr_legacy_food",
+      "description": "Butter, without salt",
+      "food_category_id": "1",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Dairy and Egg Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1778451",
+        "fdc_id": "173430",
+        "nutrient_id": "1217",
+        "amount": "0.041",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1778452",
+        "fdc_id": "173430",
+        "nutrient_id": "1218",
+        "amount": "0.041",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 41,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1778452, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Butter, without salt. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "cheddar-cheese",
+    "file": "docs/foods/cheddar-cheese.md",
+    "title": "Cheddar Cheese",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
+      "fdc_id": 173414,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "173414",
+      "data_type": "sr_legacy_food",
+      "description": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
+      "food_category_id": "1",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Dairy and Egg Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": 1.108,
+    "existing_phe_g": null,
+    "existing_profiles": true,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1776886",
+        "fdc_id": "173414",
+        "nutrient_id": "1217",
+        "amount": "1.074",
+        "data_points": "0",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "1",
+          "code": "A",
+          "description": "Analytical",
+          "source_id": "1"
+        },
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1776887",
+        "fdc_id": "173414",
+        "nutrient_id": "1218",
+        "amount": "1.108",
+        "data_points": "0",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "1",
+          "code": "A",
+          "description": "Analytical",
+          "source_id": "1"
+        },
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Existing quantity retained"
+  },
+  {
+    "food_id": "chicken",
+    "file": "docs/foods/chicken.md",
+    "title": "Chicken",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Chicken, broilers or fryers, meat and skin, raw",
+      "fdc_id": 171447,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "171447",
+      "data_type": "sr_legacy_food",
+      "description": "Chicken, broilers or fryers, meat and skin, raw",
+      "food_category_id": "5",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Poultry Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": true,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1610587",
+        "fdc_id": "171447",
+        "nutrient_id": "1217",
+        "amount": "0.721",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1610588",
+        "fdc_id": "171447",
+        "nutrient_id": "1218",
+        "amount": "0.597",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 597,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1610588, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Chicken, broilers or fryers, meat and skin, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "clams",
+    "file": "docs/foods/clams.md",
+    "title": "Clams",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Mollusks, clam, mixed species, raw",
+      "fdc_id": 174214,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "174214",
+      "data_type": "sr_legacy_food",
+      "description": "Mollusks, clam, mixed species, raw",
+      "food_category_id": "15",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Finfish and Shellfish Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1840856",
+        "fdc_id": "174214",
+        "nutrient_id": "1217",
+        "amount": "0.56",
+        "data_points": "0",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "1",
+          "code": "A",
+          "description": "Analytical",
+          "source_id": "1"
+        },
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1840857",
+        "fdc_id": "174214",
+        "nutrient_id": "1218",
+        "amount": "0.597",
+        "data_points": "0",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "1",
+          "code": "A",
+          "description": "Analytical",
+          "source_id": "1"
+        },
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 597,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1840857, nutrient 1218; Analytical. Data points: 0. Exact database food: Mollusks, clam, mixed species, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "cockles",
+    "file": "docs/foods/cockles.md",
+    "title": "Cockles",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Cockles, raw (Alaska Native)",
+      "fdc_id": 169803,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "169803",
+      "data_type": "sr_legacy_food",
+      "description": "Cockles, raw (Alaska Native)",
+      "food_category_id": "24",
+      "publication_date": "2019-04-01"
+    },
+    "category": "American Indian/Alaska Native Foods",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {},
+    "retired": null,
+    "disposition": "No tyrosine row in exact USDA record"
+  },
+  {
+    "food_id": "cod",
+    "file": "docs/foods/cod.md",
+    "title": "Cod",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Fish, cod, Atlantic, raw",
+      "fdc_id": 171955,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "171955",
+      "data_type": "sr_legacy_food",
+      "description": "Fish, cod, Atlantic, raw",
+      "food_category_id": "15",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Finfish and Shellfish Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1653418",
+        "fdc_id": "171955",
+        "nutrient_id": "1217",
+        "amount": "0.695",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1653419",
+        "fdc_id": "171955",
+        "nutrient_id": "1218",
+        "amount": "0.601",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 601,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1653419, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Fish, cod, Atlantic, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "crab",
+    "file": "docs/foods/crab.md",
+    "title": "Crab",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Snow crab, legs only, frozen  ",
+      "fdc_id": 2747670,
+      "retrieval_method": "API",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-03-14"
+    },
+    "database_food": {},
+    "category": "",
+    "exact_source_description": false,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {},
+    "retired": null,
+    "disposition": "Unresolved source identity or non-SR source"
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "file": "docs/foods/dark-meat-poultry.md",
+    "title": "Dark-Meat Poultry",
+    "source": {},
+    "database_food": {},
+    "category": "",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {},
+    "retired": null,
+    "disposition": "No tyrosine row in exact USDA record"
+  },
+  {
+    "food_id": "egg-yolks",
+    "file": "docs/foods/egg-yolks.md",
+    "title": "Egg Yolks",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Egg, yolk, raw, fresh",
+      "fdc_id": 172184,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "172184",
+      "data_type": "sr_legacy_food",
+      "description": "Egg, yolk, raw, fresh",
+      "food_category_id": "1",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Dairy and Egg Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1674749",
+        "fdc_id": "172184",
+        "nutrient_id": "1217",
+        "amount": "0.681",
+        "data_points": "0",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "1",
+          "code": "A",
+          "description": "Analytical",
+          "source_id": "1"
+        },
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1674750",
+        "fdc_id": "172184",
+        "nutrient_id": "1218",
+        "amount": "0.678",
+        "data_points": "0",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "1",
+          "code": "A",
+          "description": "Analytical",
+          "source_id": "1"
+        },
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 678,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1674750, nutrient 1218; Analytical. Data points: 0. Exact database food: Egg, yolk, raw, fresh. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "eggs",
+    "file": "docs/foods/eggs.md",
+    "title": "Eggs",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Egg, whole, raw, fresh",
+      "fdc_id": 171287,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "171287",
+      "data_type": "sr_legacy_food",
+      "description": "Egg, whole, raw, fresh",
+      "food_category_id": "1",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Dairy and Egg Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": true,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1597642",
+        "fdc_id": "171287",
+        "nutrient_id": "1217",
+        "amount": "0.68",
+        "data_points": "0",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "1",
+          "code": "A",
+          "description": "Analytical",
+          "source_id": "1"
+        },
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1597643",
+        "fdc_id": "171287",
+        "nutrient_id": "1218",
+        "amount": "0.499",
+        "data_points": "0",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "1",
+          "code": "A",
+          "description": "Analytical",
+          "source_id": "1"
+        },
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 499,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1597643, nutrient 1218; Analytical. Data points: 0. Exact database food: Egg, whole, raw, fresh. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "ghee",
+    "file": "docs/foods/ghee.md",
+    "title": "Ghee",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Butter oil, anhydrous",
+      "fdc_id": 173412,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "173412",
+      "data_type": "sr_legacy_food",
+      "description": "Butter oil, anhydrous",
+      "food_category_id": "1",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Dairy and Egg Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1776682",
+        "fdc_id": "173412",
+        "nutrient_id": "1217",
+        "amount": "0.014",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1776683",
+        "fdc_id": "173412",
+        "nutrient_id": "1218",
+        "amount": "0.014",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 14,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1776683, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Butter oil, anhydrous. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "grass-fed-butter",
+    "file": "docs/foods/grass-fed-butter.md",
+    "title": "Grass-Fed Butter",
+    "source": {},
+    "database_food": {},
+    "category": "",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {},
+    "retired": null,
+    "disposition": "No tyrosine row in exact USDA record"
+  },
+  {
+    "food_id": "greek-yogurt",
+    "file": "docs/foods/greek-yogurt.md",
+    "title": "Greek Yogurt",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Yogurt, Greek, plain, whole milk",
+      "fdc_id": 171304,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "171304",
+      "data_type": "sr_legacy_food",
+      "description": "Yogurt, Greek, plain, whole milk",
+      "food_category_id": "1",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Dairy and Egg Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {},
+    "retired": null,
+    "disposition": "No tyrosine row in exact USDA record"
+  },
+  {
+    "food_id": "heart",
+    "file": "docs/foods/heart.md",
+    "title": "Heart",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Beef, variety meats and by-products, heart, raw",
+      "fdc_id": 168625,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "168625",
+      "data_type": "sr_legacy_food",
+      "description": "Beef, variety meats and by-products, heart, raw",
+      "food_category_id": "13",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Beef Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {},
+    "retired": null,
+    "disposition": "No tyrosine row in exact USDA record"
+  },
+  {
+    "food_id": "herring",
+    "file": "docs/foods/herring.md",
+    "title": "Herring",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Fish, herring, Atlantic, raw",
+      "fdc_id": 175116,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "175116",
+      "data_type": "sr_legacy_food",
+      "description": "Fish, herring, Atlantic, raw",
+      "food_category_id": "15",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Finfish and Shellfish Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1913684",
+        "fdc_id": "175116",
+        "nutrient_id": "1217",
+        "amount": "0.701",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1913685",
+        "fdc_id": "175116",
+        "nutrient_id": "1218",
+        "amount": "0.606",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 606,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1913685, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Fish, herring, Atlantic, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "kefir",
+    "file": "docs/foods/kefir.md",
+    "title": "Kefir",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Kefir, lowfat, plain, LIFEWAY",
+      "fdc_id": 170904,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "170904",
+      "data_type": "sr_legacy_food",
+      "description": "Kefir, lowfat, plain, LIFEWAY",
+      "food_category_id": "1",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Dairy and Egg Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {},
+    "retired": null,
+    "disposition": "No tyrosine row in exact USDA record"
+  },
+  {
+    "food_id": "kidney",
+    "file": "docs/foods/kidney.md",
+    "title": "Kidney",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Beef, variety meats and by-products, kidneys, raw",
+      "fdc_id": 169449,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "169449",
+      "data_type": "sr_legacy_food",
+      "description": "Beef, variety meats and by-products, kidneys, raw",
+      "food_category_id": "13",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Beef Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {},
+    "retired": null,
+    "disposition": "No tyrosine row in exact USDA record"
+  },
+  {
+    "food_id": "lamb",
+    "file": "docs/foods/lamb.md",
+    "title": "Lamb",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Lamb, ground, raw",
+      "fdc_id": 174370,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "174370",
+      "data_type": "sr_legacy_food",
+      "description": "Lamb, ground, raw",
+      "food_category_id": "17",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Lamb, Veal, and Game Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1852564",
+        "fdc_id": "174370",
+        "nutrient_id": "1217",
+        "amount": "0.674",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1852565",
+        "fdc_id": "174370",
+        "nutrient_id": "1218",
+        "amount": "0.556",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 556,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1852565, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Lamb, ground, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "liver",
+    "file": "docs/foods/liver.md",
+    "title": "Liver",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Beef, variety meats and by-products, liver, raw",
+      "fdc_id": 169451,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "169451",
+      "data_type": "sr_legacy_food",
+      "description": "Beef, variety meats and by-products, liver, raw",
+      "food_category_id": "13",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Beef Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1443229",
+        "fdc_id": "169451",
+        "nutrient_id": "1217",
+        "amount": "1.084",
+        "data_points": "1",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "1",
+          "code": "A",
+          "description": "Analytical",
+          "source_id": "1"
+        },
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1443230",
+        "fdc_id": "169451",
+        "nutrient_id": "1218",
+        "amount": "0.807",
+        "data_points": "1",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "1",
+          "code": "A",
+          "description": "Analytical",
+          "source_id": "1"
+        },
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 807,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1443230, nutrient 1218; Analytical. Data points: 1. Exact database food: Beef, variety meats and by-products, liver, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "file": "docs/foods/lumpfish-roe.md",
+    "title": "Lumpfish Roe",
+    "source": {},
+    "database_food": {},
+    "category": "",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {},
+    "retired": null,
+    "disposition": "No tyrosine row in exact USDA record"
+  },
+  {
+    "food_id": "mackerel",
+    "file": "docs/foods/mackerel.md",
+    "title": "Mackerel",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Fish, mackerel, Atlantic, raw",
+      "fdc_id": 175119,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "175119",
+      "data_type": "sr_legacy_food",
+      "description": "Fish, mackerel, Atlantic, raw",
+      "food_category_id": "15",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Finfish and Shellfish Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1913992",
+        "fdc_id": "175119",
+        "nutrient_id": "1217",
+        "amount": "0.726",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1913993",
+        "fdc_id": "175119",
+        "nutrient_id": "1218",
+        "amount": "0.628",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 628,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1913993, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Fish, mackerel, Atlantic, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "milk",
+    "file": "docs/foods/milk.md",
+    "title": "Milk",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Milk, whole, 3.25% milkfat, with added vitamin D",
+      "fdc_id": 171265,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "171265",
+      "data_type": "sr_legacy_food",
+      "description": "Milk, whole, 3.25% milkfat, with added vitamin D",
+      "food_category_id": "1",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Dairy and Egg Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": true,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1595698",
+        "fdc_id": "171265",
+        "nutrient_id": "1217",
+        "amount": "0.163",
+        "data_points": "0",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "1",
+          "code": "A",
+          "description": "Analytical",
+          "source_id": "1"
+        },
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1595699",
+        "fdc_id": "171265",
+        "nutrient_id": "1218",
+        "amount": "0.159",
+        "data_points": "0",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "1",
+          "code": "A",
+          "description": "Analytical",
+          "source_id": "1"
+        },
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 159,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1595699, nutrient 1218; Analytical. Data points: 0. Exact database food: Milk, whole, 3.25% milkfat, with added vitamin D. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "mussels",
+    "file": "docs/foods/mussels.md",
+    "title": "Mussels",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Mollusks, mussel, blue, raw",
+      "fdc_id": 174216,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "174216",
+      "data_type": "sr_legacy_food",
+      "description": "Mollusks, mussel, blue, raw",
+      "food_category_id": "15",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Finfish and Shellfish Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": true,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1841055",
+        "fdc_id": "174216",
+        "nutrient_id": "1217",
+        "amount": "0.426",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1841056",
+        "fdc_id": "174216",
+        "nutrient_id": "1218",
+        "amount": "0.381",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 381,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1841056, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Mollusks, mussel, blue, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "oysters",
+    "file": "docs/foods/oysters.md",
+    "title": "Oysters",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Mollusks, oyster, eastern, wild, raw",
+      "fdc_id": 171978,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "171978",
+      "data_type": "sr_legacy_food",
+      "description": "Mollusks, oyster, eastern, wild, raw",
+      "food_category_id": "15",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Finfish and Shellfish Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1655302",
+        "fdc_id": "171978",
+        "nutrient_id": "1217",
+        "amount": "0.207",
+        "data_points": "0",
+        "derivation_id": "57",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "57",
+          "code": "RA",
+          "description": "Recipe; Approximate ingredient proportions (ex. combination of several recipes)",
+          "source_id": "2"
+        },
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1655303",
+        "fdc_id": "171978",
+        "nutrient_id": "1218",
+        "amount": "0.202",
+        "data_points": "0",
+        "derivation_id": "57",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "57",
+          "code": "RA",
+          "description": "Recipe; Approximate ingredient proportions (ex. combination of several recipes)",
+          "source_id": "2"
+        },
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 202,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1655303, nutrient 1218; Recipe; Approximate ingredient proportions (ex. combination of several recipes). Data points: 0. Exact database food: Mollusks, oyster, eastern, wild, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "parmesan-cheese",
+    "file": "docs/foods/parmesan-cheese.md",
+    "title": "Parmesan Cheese",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Cheese, parmesan, hard",
+      "fdc_id": 170848,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "170848",
+      "data_type": "sr_legacy_food",
+      "description": "Cheese, parmesan, hard",
+      "food_category_id": "1",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Dairy and Egg Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": 1.995,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1559162",
+        "fdc_id": "170848",
+        "nutrient_id": "1217",
+        "amount": "1.922",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1559163",
+        "fdc_id": "170848",
+        "nutrient_id": "1218",
+        "amount": "1.995",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Existing quantity retained"
+  },
+  {
+    "food_id": "pork",
+    "file": "docs/foods/pork.md",
+    "title": "Pork",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Pork, fresh, loin, whole, separable lean and fat, raw",
+      "fdc_id": 167818,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "167818",
+      "data_type": "sr_legacy_food",
+      "description": "Pork, fresh, loin, whole, separable lean and fat, raw",
+      "food_category_id": "10",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Pork Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1307063",
+        "fdc_id": "167818",
+        "nutrient_id": "1217",
+        "amount": "0.785",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1307064",
+        "fdc_id": "167818",
+        "nutrient_id": "1218",
+        "amount": "0.676",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 676,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1307064, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Pork, fresh, loin, whole, separable lean and fat, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "salmon-roe",
+    "file": "docs/foods/salmon-roe.md",
+    "title": "Salmon Roe",
+    "source": {
+      "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+      "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "basis": "per 100 g edible portion",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+      "source_reference": "#food-source-8",
+      "last_checked": "2026-10-12"
+    },
+    "database_food": {},
+    "category": "",
+    "exact_source_description": false,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {},
+    "retired": null,
+    "disposition": "Unresolved source identity or non-SR source"
+  },
+  {
+    "food_id": "salmon",
+    "file": "docs/foods/salmon.md",
+    "title": "Salmon",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Fish, salmon, Atlantic, farmed, raw",
+      "fdc_id": 175167,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "175167",
+      "data_type": "sr_legacy_food",
+      "description": "Fish, salmon, Atlantic, farmed, raw",
+      "food_category_id": "15",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Finfish and Shellfish Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": true,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1918100",
+        "fdc_id": "175167",
+        "nutrient_id": "1217",
+        "amount": "0.845",
+        "data_points": "0",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "1",
+          "code": "A",
+          "description": "Analytical",
+          "source_id": "1"
+        },
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1918101",
+        "fdc_id": "175167",
+        "nutrient_id": "1218",
+        "amount": "0.759",
+        "data_points": "0",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "1",
+          "code": "A",
+          "description": "Analytical",
+          "source_id": "1"
+        },
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 759,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1918101, nutrient 1218; Analytical. Data points: 0. Exact database food: Fish, salmon, Atlantic, farmed, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "sardines",
+    "file": "docs/foods/sardines.md",
+    "title": "Sardines",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+      "fdc_id": 175139,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "175139",
+      "data_type": "sr_legacy_food",
+      "description": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+      "food_category_id": "15",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Finfish and Shellfish Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": true,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1915841",
+        "fdc_id": "175139",
+        "nutrient_id": "1217",
+        "amount": "0.961",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1915842",
+        "fdc_id": "175139",
+        "nutrient_id": "1218",
+        "amount": "0.831",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 831,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1915842, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Fish, sardine, Atlantic, canned in oil, drained solids with bone. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "scallops",
+    "file": "docs/foods/scallops.md",
+    "title": "Scallops",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Mollusks, scallop, mixed species, raw",
+      "fdc_id": 174220,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "174220",
+      "data_type": "sr_legacy_food",
+      "description": "Mollusks, scallop, mixed species, raw",
+      "food_category_id": "15",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Finfish and Shellfish Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1841345",
+        "fdc_id": "174220",
+        "nutrient_id": "1217",
+        "amount": "0.351",
+        "data_points": "0",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "1",
+          "code": "A",
+          "description": "Analytical",
+          "source_id": "1"
+        },
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1841346",
+        "fdc_id": "174220",
+        "nutrient_id": "1218",
+        "amount": "0.296",
+        "data_points": "0",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "1",
+          "code": "A",
+          "description": "Analytical",
+          "source_id": "1"
+        },
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 296,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1841346, nutrient 1218; Analytical. Data points: 0. Exact database food: Mollusks, scallop, mixed species, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "shrimp",
+    "file": "docs/foods/shrimp.md",
+    "title": "Shrimp",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture)",
+      "fdc_id": 174210,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "174210",
+      "data_type": "sr_legacy_food",
+      "description": "Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture)",
+      "food_category_id": "15",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Finfish and Shellfish Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1840478",
+        "fdc_id": "174210",
+        "nutrient_id": "1217",
+        "amount": "0.593",
+        "data_points": "0",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "1",
+          "code": "A",
+          "description": "Analytical",
+          "source_id": "1"
+        },
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1840479",
+        "fdc_id": "174210",
+        "nutrient_id": "1218",
+        "amount": "0.515",
+        "data_points": "0",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "1",
+          "code": "A",
+          "description": "Analytical",
+          "source_id": "1"
+        },
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 515,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1840479, nutrient 1218; Analytical. Data points: 0. Exact database food: Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture). Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "trout-roe",
+    "file": "docs/foods/trout-roe.md",
+    "title": "Trout Roe",
+    "source": {},
+    "database_food": {},
+    "category": "",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": false,
+    "usda": {},
+    "retired": null,
+    "disposition": "No tyrosine row in exact USDA record"
+  },
+  {
+    "food_id": "tuna",
+    "file": "docs/foods/tuna.md",
+    "title": "Tuna",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Fish, tuna, fresh, bluefin, raw",
+      "fdc_id": 173706,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "173706",
+      "data_type": "sr_legacy_food",
+      "description": "Fish, tuna, fresh, bluefin, raw",
+      "food_category_id": "15",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Finfish and Shellfish Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": true,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1800017",
+        "fdc_id": "173706",
+        "nutrient_id": "1217",
+        "amount": "0.911",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1800018",
+        "fdc_id": "173706",
+        "nutrient_id": "1218",
+        "amount": "0.787",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": null,
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 787,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1800018, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Fish, tuna, fresh, bluefin, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  },
+  {
+    "food_id": "turkey",
+    "file": "docs/foods/turkey.md",
+    "title": "Turkey",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Turkey, whole, meat only, raw",
+      "fdc_id": 171480,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "database_food": {
+      "fdc_id": "171480",
+      "data_type": "sr_legacy_food",
+      "description": "Turkey, whole, meat only, raw",
+      "food_category_id": "5",
+      "publication_date": "2019-04-01"
+    },
+    "category": "Poultry Products",
+    "exact_source_description": true,
+    "existing_tyrosine_g": null,
+    "existing_phe_g": null,
+    "existing_profiles": true,
+    "usda": {
+      "Phenylalanine": {
+        "id": "1613332",
+        "fdc_id": "171480",
+        "nutrient_id": "1217",
+        "amount": "0.73",
+        "data_points": "0",
+        "derivation_id": "54",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "54",
+          "code": "PAK",
+          "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+          "source_id": "1"
+        },
+        "unit": "G"
+      },
+      "Tyrosine": {
+        "id": "1613333",
+        "fdc_id": "171480",
+        "nutrient_id": "1218",
+        "amount": "0.672",
+        "data_points": "0",
+        "derivation_id": "54",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": "",
+        "derivation": {
+          "id": "54",
+          "code": "PAK",
+          "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+          "source_id": "1"
+        },
+        "unit": "G"
+      }
+    },
+    "retired": null,
+    "disposition": "Exact USDA quantity recovered",
+    "installed_mg_per_100g": 672,
+    "limitation": "USDA SR Legacy (April 2018), food-nutrient row 1613333, nutrient 1218; Based on physical composition; Derived from analytical data; Known physical composition. Data points: 0. Exact database food: Turkey, whole, meat only, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
+  }
+]

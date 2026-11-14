@@ -28,7 +28,7 @@ export function inputEligibility(type,section,input='') {
  return {eligible:true,state:'eligible-candidate'};
 }
 export function evidencePresent(e) {return !!(e&&typeof e==='object'&&e.statement?.trim()&&Array.isArray(e.sources)&&e.sources.length&&e.sources.every(s=>typeof s==='string'&&/^(https?:\/\/|docs\/|system\/|#)/.test(s)));}
-export function assessAdmission(candidate,assessment,{substances={}}={}) {
+export function assessAdmission(candidate,assessment,{substances={},sourceAtoms={}}={}) {
  const errors=[],add=code=>errors.push(code),eligibility=inputEligibility(candidate.input_type,'3.1.1',candidate.input);
  if(!eligibility.eligible)add(eligibility.code);
  if(!assessment){add('scientific-assessment-missing');return {status:'unresolved',eligibility,errors};}
@@ -42,7 +42,11 @@ export function assessAdmission(candidate,assessment,{substances={}}={}) {
  if(candidate.dietary_input===false||candidate.dietary_input===null)add('dietary-input-not-admitted');
 
  if(!assessment.operation?.trim()||assessment.operation!==candidate.operation)add('pm-operation-unresolved');
- if(!substances[assessment.canonical_substance_id])add('canonical-identity-unresolved');
+ const typed=assessment.source_atom_id?sourceAtoms[assessment.source_atom_id]:null;
+ const typedValid=!!(typed && typed.source_identity?.status==='resolved' && typed.source_identity?.pm_atom_id===assessment.source_atom_id && typed.input===candidate.input && (candidate.id===assessment.source_atom_id || candidate.source_identity?.pm_atom_id===assessment.source_atom_id) && ['source-class','functional-substrate-class','dietary-matrix','preparation-characteristic'].includes(typed.source_identity.kind));
+ if(assessment.source_atom_id && (assessment.canonical_substance_id || !typedValid))add('source-atom-identity-unresolved');
+ if(!typedValid&&!substances[assessment.canonical_substance_id])add('canonical-identity-unresolved');
+ const origin=typedValid?assessment.source_atom_id:assessment.canonical_substance_id;
  const identity=substances[assessment.canonical_substance_id];
  const normalize=v=>String(v||'').toLowerCase().replace(/^dietary\s+/,'').replace(/[^a-z0-9]/g,'');
  const names=identity?[assessment.canonical_substance_id,identity.title,...(identity.aliases||[])]:[];
@@ -53,10 +57,10 @@ export function assessAdmission(candidate,assessment,{substances={}}={}) {
  if(assessment.classification==='derived') {
   const path=assessment.conversion_pathway||[];
   if(!path.length)add('conversion-pathway-missing');
-  if(path.length&&path[0].from!==assessment.canonical_substance_id)add('conversion-origin-mismatch');
+  if(path.length&&path[0].from!==origin)add('conversion-origin-mismatch');
   for(const [i,step]of path.entries()) {
    if(step.kind==='alternative-vitamer-routes')errors.push(...validateVitamerRoutes(step,evidencePresent));
-   if(!substances[step.from]||!substances[step.to])add('conversion-identity-unresolved');
+   if(!(substances[step.from]||(i===0&&typedValid&&step.from===origin))||!substances[step.to])add('conversion-identity-unresolved');
    if(!step.process?.trim()||!step.limitations?.trim()||!evidencePresent(step.evidence))add('conversion-evidence-unresolved');
    if(/microb|ferment/i.test(step.process)&&!step.dependencies?.length)add('microbial-dependencies-missing');
    if(i&&path[i-1].to!==step.from)add('conversion-pathway-disconnected');

@@ -1,13 +1,31 @@
 import { relativeSourcePower } from './relatedSubstanceRelationships.mjs';
 
+// Named source panels reviewed for the ordinary-food reference pool. A dry
+// culinary ingredient is comparable on its as-sold edible basis. Formulated
+// beverage mixes, supplemental preparations and isolated emulsifiers require
+// their own matched product pools. Their composition remains in the ledger.
+const separatePanels = new Map([
+  [1064099, 'Branded broken-cell-wall chlorella powder; manufacturer serving declaration, separate product pool.'],
+  [173180, 'Whey-based beverage mix; undiluted formulation, separate product pool.'],
+  [171426, 'Isolated soybean lecithin emulsifier; separate ingredient-fraction pool.'],
+]);
+export function referenceRestriction(source, observation) {
+  const fdc = Number(observation.nutrition_source?.fdc_id);
+  if (source.substance_id === 'vitamin-b12' && [1064099,170495].includes(fdc))
+    return 'Active cobalamin identity unverified for this algal preparation.';
+  return separatePanels.get(fdc) || null;
+}
+
 // Author-confirmed 6 November 2026. Ranking is a derived display selection,
 // not an admission. Reuse the existing calculation and its provisional threshold.
-export function selectRankedFoodSources(sources, maximum = 10) {
+export function selectRankedFoodSources(sources, maximum = RANKED_FOOD_POLICY.maximum) {
   if (!Number.isInteger(maximum) || maximum < 1) throw new Error('Maximum must be a positive integer');
   const groups = new Map(), excluded = [], qualified = [];
   for (const source of [...sources].sort((a,b)=>String(a.id).localeCompare(String(b.id)))) {
     if (!source.observations.length) excluded.push({food_id:source.food_id,reason:'Presence-only: no quantitative observation',source_id:source.id});
     for (const o of [...source.observations].sort((a,b)=>String(a.record).localeCompare(String(b.record)))) {
+      const restriction = referenceRestriction(source, o);
+      if (restriction) { excluded.push({food_id:source.food_id,record:o.record,reason:restriction}); continue; }
       const factor = {g:1000,mg:1,'µg':.001,ug:.001}[o.unit];
       if (['internal-only','excluded-error','substance-only'].includes(o.public_display) || o.ranking_hold || !o.verified || !o.rank_eligible || !o.comparison_group || !factor || !(o.value>0 || o.range?.[0]>0)) {
         excluded.push({food_id:source.food_id,record:o.record,reason:o.ranking_hold || (!o.verified?'Unverified or held canonical quantity':o.range?'Measurement range; no point ranking or midpoint substitution':!factor?'Unsupported unit conversion':!(o.value>0)?'No positive point concentration':!o.comparison_group?'No authorised compatible comparison pool for this measurement basis':'Canonical observation not rank-eligible')}); continue;
@@ -42,7 +60,7 @@ export function selectRankedFoodSources(sources, maximum = 10) {
   return {selected,excluded,comparisons};
 }
 
-export const RANKED_FOOD_POLICY = Object.freeze({version: '2026-11-09-v1', maximum: 10, threshold: 10, threshold_status: 'provisional', minimum_comparable_foods: 2});
+export const RANKED_FOOD_POLICY = Object.freeze({version: '2026-11-11-reference-pool-v1', maximum: 10, threshold: 10, threshold_status: 'provisional', minimum_comparable_foods: 2});
 
 /** Both consumers use these exact generated target records; no per-view reranking. */
 export function rankedTargetsForRelationships(snapshot, pm, relationships) {

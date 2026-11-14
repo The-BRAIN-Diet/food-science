@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "unique_pairs": 150,
+  "original_145_pairs_and_provenance_preserved": true,
+  "five_expected_additions": [
+    "BRS1-FM1-PM2|tryptophan",
+    "BRS1-FM1-PM2|tyrosine",
+    "BRS1-FM2-PM6|vitamin-b5",
+    "BRS1-FM2-PM6|vitamin-b9",
+    "BRS2-FM2-PM5|serine"
+  ],
+  "only_canonical_change": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx \u2014 exactly four approved child fields",
+  "ranked_snapshot_151_targets_unchanged": true,
+  "sec_food_quantities_ranking_policy_holds_unchanged": true,
+  "two_historical_kc_exclusions_retained": true,
+  "fos_gos_unresolved_and_excluded": true,
+  "nine_identities_proposals_only": true
+}

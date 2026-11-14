@@ -1,0 +1,36 @@
+{
+  "pms": 67,
+  "pairs": 155,
+  "substances": 60,
+  "admitted_inputs": 127,
+  "kc_relationships": 24,
+  "accepted_kc_relationships": 22,
+  "explicit_established_constituents": 33,
+  "multiple_provenance_pairs": 6,
+  "ranked_triples": 960,
+  "documented_triples": 200,
+  "issue_counts": {
+    "dietary-flag-without-explicit-admission": 29
+  },
+  "canonical_identities": 60,
+  "non_substance_connections": 4,
+  "admitted_direct_atoms": 95,
+  "admitted_derived_atoms": 32,
+  "typed_non_substance_direct_atoms": 2,
+  "typed_non_substance_derived_atoms": 2,
+  "remaining_conversion_assessments": 14,
+  "ranked_covered_pairs": 112,
+  "ranked_identities": 28,
+  "documented_covered_pairs": 72,
+  "documented_identities": 26,
+  "either_covered_pairs": 128,
+  "either_identities": 40,
+  "completed_derived_routes": 19,
+  "food_connected_derived_routes": 18,
+  "derived_endpoints_outside_supply_identity_universe": [
+    "coq10",
+    "s-adenosylmethionine",
+    "nad-plus",
+    "flavin-adenine-dinucleotide"
+  ]
+}

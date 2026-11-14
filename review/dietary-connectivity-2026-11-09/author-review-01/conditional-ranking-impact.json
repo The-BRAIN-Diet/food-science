@@ -1,0 +1,198 @@
+{
+  "baseline": "Approved amino-acid correction snapshot, read-only; 65 foods / 890 edges / 100 targets / 26 ranked inputs. Not a deployment assertion.",
+  "baseline_snapshot_id": "f76bb11abb3b4f0593437f1a291d0dd3bfe2ce2de9717cda9c33670ec4ec9d17",
+  "ranking_rules": "Unchanged shared selector: >=10%, top 10, at least two comparable foods.",
+  "scenarios": [
+    {
+      "name": "ready-only",
+      "assumption": "Author approves only specified observations and qualifications; scenario does not modify any hold. Soy excluded. USDA beet observation is selected explicitly, not merged with the old rounded Zeisel estimate.",
+      "selected": {
+        "glycine": {
+          "foods": [
+            {
+              "food_id": "pumpkin-seeds",
+              "value": 1.843,
+              "unit": "g",
+              "relative_power": 100
+            },
+            {
+              "food_id": "sunflower-seeds",
+              "value": 1.461,
+              "unit": "g",
+              "relative_power": 79.27292457948997
+            },
+            {
+              "food_id": "almonds",
+              "value": 1.429,
+              "unit": "g",
+              "relative_power": 77.53662506782419
+            },
+            {
+              "food_id": "salmon",
+              "value": 0.96,
+              "unit": "g",
+              "relative_power": 52.08898534997287
+            },
+            {
+              "food_id": "eggs",
+              "value": 0.432,
+              "unit": "g",
+              "relative_power": 23.440043407487792
+            }
+          ],
+          "excluded": []
+        },
+        "betaine": {
+          "foods": [],
+          "excluded": [
+            {
+              "food_id": "beetroot",
+              "record": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf#11080",
+              "comparison_group": "edible-mass|betaine|per 100 g edible portion",
+              "reason": "Single-source comparison set: fewer than two distinct comparable foods"
+            }
+          ]
+        }
+      },
+      "target_ids": [
+        "BRS2-FM1-PM4|glycine",
+        "BRS2-FM2-PM6|glycine",
+        "BRS3-FM1-PM1|glycine",
+        "BRS3-FM1-PM2|glycine",
+        "BRS4-FM1-PM3|glycine"
+      ],
+      "new_food_ids": [],
+      "gains": {
+        "food_substance_pm_connections": 25,
+        "covered_targets": 5,
+        "ranked_substances": 1,
+        "unique_foods": 0
+      },
+      "result": {
+        "connections": 915,
+        "covered_targets": 105,
+        "foods": 65
+      }
+    },
+    {
+      "name": "ready-plus-qualified",
+      "assumption": "Author approves only specified observations and qualifications; scenario does not modify any hold. Soy excluded. USDA beet observation is selected explicitly, not merged with the old rounded Zeisel estimate.",
+      "selected": {
+        "glycine": {
+          "foods": [
+            {
+              "food_id": "pumpkin-seeds",
+              "value": 1.843,
+              "unit": "g",
+              "relative_power": 100
+            },
+            {
+              "food_id": "sunflower-seeds",
+              "value": 1.461,
+              "unit": "g",
+              "relative_power": 79.27292457948997
+            },
+            {
+              "food_id": "almonds",
+              "value": 1.429,
+              "unit": "g",
+              "relative_power": 77.53662506782419
+            },
+            {
+              "food_id": "beef",
+              "value": 1.262,
+              "unit": "g",
+              "relative_power": 68.4753119913185
+            },
+            {
+              "food_id": "chicken",
+              "value": 1.223,
+              "unit": "g",
+              "relative_power": 66.35919696147585
+            },
+            {
+              "food_id": "salmon",
+              "value": 0.96,
+              "unit": "g",
+              "relative_power": 52.08898534997287
+            },
+            {
+              "food_id": "eggs",
+              "value": 0.432,
+              "unit": "g",
+              "relative_power": 23.440043407487792
+            }
+          ],
+          "excluded": []
+        },
+        "betaine": {
+          "foods": [
+            {
+              "food_id": "quinoa",
+              "value": 630,
+              "unit": "mg",
+              "relative_power": 100
+            },
+            {
+              "food_id": "wheat-germ",
+              "value": 410,
+              "unit": "mg",
+              "relative_power": 65.07936507936508
+            },
+            {
+              "food_id": "beetroot",
+              "value": 130,
+              "unit": "mg",
+              "relative_power": 20.634920634920633
+            },
+            {
+              "food_id": "spinach",
+              "value": 120,
+              "unit": "mg",
+              "relative_power": 19.047619047619047
+            },
+            {
+              "food_id": "amaranth",
+              "value": 68,
+              "unit": "mg",
+              "relative_power": 10.793650793650794
+            }
+          ],
+          "excluded": []
+        }
+      },
+      "target_ids": [
+        "BRS1-FM1-PM3|betaine",
+        "BRS1-FM1-PM4|betaine",
+        "BRS1-FM3-PM7|betaine",
+        "BRS2-FM1-PM2|betaine",
+        "BRS2-FM1-PM3|betaine",
+        "BRS2-FM1-PM4|betaine",
+        "BRS2-FM1-PM4|glycine",
+        "BRS2-FM2-PM6|glycine",
+        "BRS2-FM3-PM7|betaine",
+        "BRS3-FM1-PM1|glycine",
+        "BRS3-FM1-PM2|glycine",
+        "BRS4-FM1-PM3|glycine"
+      ],
+      "new_food_ids": [
+        "quinoa",
+        "wheat-germ",
+        "beetroot",
+        "spinach",
+        "beef"
+      ],
+      "gains": {
+        "food_substance_pm_connections": 70,
+        "covered_targets": 12,
+        "ranked_substances": 2,
+        "unique_foods": 5
+      },
+      "result": {
+        "connections": 960,
+        "covered_targets": 112,
+        "foods": 70
+      }
+    }
+  ]
+}

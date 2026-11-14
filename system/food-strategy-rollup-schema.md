@@ -25,3 +25,16 @@ Food preparation strategies can qualify delivery or retention without becoming a
 The initial rollup contains only currently admitted PM SOPs tagged after reading their accepted records. Pure breathing/meditation records remain outside the food rollup; food-related mindfulness and combined meal/sleep schedules are explicitly mixed. BRS2 has no admitted food-related SOP records in this collection; do not invent examples. KC emerging supports and narrative optimisation candidates need their own existing admission workflow before inclusion.
 
 Review page: `/docs/system/food-strategy-rollup`. The page and data are generated/reproducible and hidden from navigation; PM records remain the only editable scientific authority.
+
+
+## Approved SOP/Lifestyle food–substance joins — 6 November 2026
+
+Author approved PM intervention-level food/substance links and reuse by the chord extractor. This does not admit an intervention, alter SEC or establish a causal mediator. Reuse canonical `food_ids`, `substance_ids`, ontology entries and exact existing six-atom links. Add only identity metadata supported by the recorded exposure; preserve preparation, comparator and limitations. Never mine unrelated Findings, outcome prose or pattern names for ingredients. Named patterns without explicit constituent identities remain unmapped. Behavioural interventions need no food/substance mapping.
+
+Generate the shared `intervention_mapping` in the existing food-strategy roll-up with `npm run mappings:food-strategies`. It inventories both SOPs and Lifestyle Levers, including Cross-BRS, independently of food-strategy scope. Explicitly rejected/deferred/candidate records are excluded; existing canonical arrays are retained as historical admissions, not newly adjudicated. A false dietary-input flag does not reject a Lifestyle Lever.
+
+Render documented identity links directly beneath the intervention title, using existing dietary-lever/source CSS. Preserve direct six-atom expansion and separate optional Mechanism summary. Composition-only sources are labelled separately; no seventh atom, new score, clinical claim, food-equivalence assumption or technical pathway panel. Missing mappings produce no public placeholder. Existing contextual material roles (e.g. potatoes versus extracted RS2) remain visible.
+
+The chord consumer uses the very same generated records/typed edges: PM-to-intervention, named identity, documented composition and intervention-context-to-BRS. These edges are not dietary-input admissions or therapeutic-effect assertions. Keep composition provenance and original PM/SOP identifiers. A pattern is not expanded into foods without recorded constituent evidence.
+
+Validation: `node --test scripts/intervention-food-substance.test.mjs`, existing dietary/Findings/SEC checks, `npm run presentation:check`, and representative browser inspection. Counts distinguish complete recorded food–substance pairs, partial identity-only mapping and unmapped records (including behaviour where a mapping is unnecessary). This is mapping completeness, not evidence confidence.

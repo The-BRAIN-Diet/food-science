@@ -1,3 +1,5 @@
+import interventionRollup from '../data/foodStrategyRollup.generated.json';
+import {attachInterventionLinks} from '../lib/interventionFoodSubstanceDisplay.mjs';
 import {renderDietaryConfidence} from "@site/src/lib/dietaryConfidence.mjs";
 import React, { useEffect } from "react";
 import { usePluginData } from "@docusaurus/useGlobalData";
@@ -443,7 +445,8 @@ export default function PmDietaryLeverEnhancer({ frontMatter }: Props): React.Re
       }
     });
 
-    return () => document.removeEventListener("click", onDocClick);
+    const removeInterventionLinks = attachInterventionLinks(root, interventionRollup.intervention_mapping.records.filter(record => record.pm === frontMatter.pm_id));
+    return () => { removeInterventionLinks(); document.removeEventListener("click", onDocClick); };
   }, [frontMatter, canonicalPmUrl, inputFoodData]);
 
   return null;

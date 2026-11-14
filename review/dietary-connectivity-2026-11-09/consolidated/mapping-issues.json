@@ -1,0 +1,263 @@
+[
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS1-FM1-PM3",
+    "relationship_id": "BRS1-FM1-PM3::BRS1-PM3-KC1-DONOR-1",
+    "substance_id": "vitamin-b9",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/BRS1-PM3-KC1-DONOR-1"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS1-FM1-PM3",
+    "relationship_id": "BRS1-FM1-PM3::BRS1-PM3-KC1-DONOR-2",
+    "substance_id": "betaine",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/BRS1-PM3-KC1-DONOR-2"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS1-FM1-PM3",
+    "relationship_id": "BRS1-FM1-PM3::BRS1-PM3-KC1-DONOR-3",
+    "substance_id": "choline",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/BRS1-PM3-KC1-DONOR-3"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS1-FM1-PM3",
+    "relationship_id": "BRS1-FM1-PM3::PM3-KC1-PHENYLALANINE-SUPPLY",
+    "substance_id": "phenylalanine",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-KC1-PHENYLALANINE-SUPPLY"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS1-FM1-PM4",
+    "relationship_id": "BRS1-FM1-PM4::PM4-KC1-TYROSINE-SUPPLY",
+    "substance_id": "tyrosine",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-KC1-TYROSINE-SUPPLY"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS1-FM1-PM4",
+    "relationship_id": "BRS1-FM1-PM4::BRS1-PM4-KC1-DONOR-1",
+    "substance_id": "vitamin-b9",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/BRS1-PM4-KC1-DONOR-1"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS1-FM1-PM4",
+    "relationship_id": "BRS1-FM1-PM4::BRS1-PM4-KC1-DONOR-2",
+    "substance_id": "betaine",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/BRS1-PM4-KC1-DONOR-2"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS1-FM1-PM4",
+    "relationship_id": "BRS1-FM1-PM4::BRS1-PM4-KC1-DONOR-3",
+    "substance_id": "choline",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/BRS1-PM4-KC1-DONOR-3"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS1-FM1-PM4",
+    "relationship_id": "BRS1-FM1-PM4::PM4-KC1-PHENYLALANINE-SUPPLY",
+    "substance_id": "phenylalanine",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-KC1-PHENYLALANINE-SUPPLY"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS1-FM3-PM7",
+    "relationship_id": "BRS1-FM3-PM7::PM7-DIT-2",
+    "substance_id": "choline",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx#dietary_input_traceability/PM7-DIT-2"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS1-FM3-PM7",
+    "relationship_id": "BRS1-FM3-PM7::PM7-KC1-FOLATE-SUPPLY",
+    "substance_id": "vitamin-b9",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx#dietary_input_traceability/PM7-KC1-FOLATE-SUPPLY"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS1-FM3-PM7",
+    "relationship_id": "BRS1-FM3-PM7::PM7-KC1-BETAINE-SUPPLY",
+    "substance_id": "betaine",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx#dietary_input_traceability/PM7-KC1-BETAINE-SUPPLY"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS2-FM1-PM3",
+    "relationship_id": "BRS2-FM1-PM3::PM3-DIT-5",
+    "substance_id": null,
+    "admission": null,
+    "layer": "dietary-requirement",
+    "source": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx#dietary_input_traceability/PM3-DIT-5"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS2-FM1-PM3",
+    "relationship_id": "BRS2-FM1-PM3::PM3-KC1-UPSTREAM-1",
+    "substance_id": "vitamin-b9",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx#dietary_input_traceability/PM3-KC1-UPSTREAM-1"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS2-FM1-PM3",
+    "relationship_id": "BRS2-FM1-PM3::PM3-KC1-UPSTREAM-2",
+    "substance_id": "betaine",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx#dietary_input_traceability/PM3-KC1-UPSTREAM-2"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS2-FM1-PM3",
+    "relationship_id": "BRS2-FM1-PM3::PM3-KC1-UPSTREAM-3",
+    "substance_id": "choline",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx#dietary_input_traceability/PM3-KC1-UPSTREAM-3"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS2-FM1-PM4",
+    "relationship_id": "BRS2-FM1-PM4::PM4-KC1-SUPPLY-2",
+    "substance_id": "betaine",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx#dietary_input_traceability/PM4-KC1-SUPPLY-2"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS2-FM1-PM4",
+    "relationship_id": "BRS2-FM1-PM4::PM4-KC1-SUPPLY-3",
+    "substance_id": "choline",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx#dietary_input_traceability/PM4-KC1-SUPPLY-3"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS2-FM2-PM5",
+    "relationship_id": "BRS2-FM2-PM5::PM5-KC2-UPSTREAM-1",
+    "substance_id": "methionine",
+    "admission": null,
+    "layer": "biochemical-requirement",
+    "source": "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx#dietary_input_traceability/PM5-KC2-UPSTREAM-1"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS2-FM3-PM7",
+    "relationship_id": "BRS2-FM3-PM7::PM7-DIT-5",
+    "substance_id": "vitamin-b9",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-5"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS2-FM3-PM7",
+    "relationship_id": "BRS2-FM3-PM7::PM7-DIT-6",
+    "substance_id": "betaine",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-6"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS3-FM1-PM1",
+    "relationship_id": "BRS3-FM1-PM1::PM1-KC1-UPSTREAM-1",
+    "substance_id": "cysteine",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx#dietary_input_traceability/PM1-KC1-UPSTREAM-1"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS3-FM1-PM1",
+    "relationship_id": "BRS3-FM1-PM1::PM1-KC1-UPSTREAM-2",
+    "substance_id": "glycine",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx#dietary_input_traceability/PM1-KC1-UPSTREAM-2"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS3-FM1-PM2",
+    "relationship_id": "BRS3-FM1-PM2::PM2-KC1-UPSTREAM-1",
+    "substance_id": "cysteine",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx#dietary_input_traceability/PM2-KC1-UPSTREAM-1"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS3-FM1-PM2",
+    "relationship_id": "BRS3-FM1-PM2::PM2-KC1-UPSTREAM-2",
+    "substance_id": "glycine",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx#dietary_input_traceability/PM2-KC1-UPSTREAM-2"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS5-FM1-PM1",
+    "relationship_id": "BRS5-FM1-PM1::PM1-KC1-UPSTREAM-1",
+    "substance_id": "fructo-galacto-oligosaccharides",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx#dietary_input_traceability/PM1-KC1-UPSTREAM-1"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS5-FM1-PM1",
+    "relationship_id": "BRS5-FM1-PM1::PM1-KC1-UPSTREAM-2",
+    "substance_id": "pectin",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx#dietary_input_traceability/PM1-KC1-UPSTREAM-2"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS5-FM1-PM1",
+    "relationship_id": "BRS5-FM1-PM1::PM1-KC1-UPSTREAM-3",
+    "substance_id": "resistant-starch",
+    "admission": null,
+    "layer": "kc-relevance",
+    "source": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx#dietary_input_traceability/PM1-KC1-UPSTREAM-3"
+  },
+  {
+    "kind": "dietary-flag-without-explicit-admission",
+    "pm": "BRS5-FM2-PM5",
+    "relationship_id": "BRS5-FM2-PM5::PM5-DIT-2",
+    "substance_id": "fructo-galacto-oligosaccharides",
+    "admission": "unresolved",
+    "layer": "dietary-requirement",
+    "source": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx#dietary_input_traceability/PM5-DIT-2"
+  }
+]

@@ -99,6 +99,79 @@ export const RELATED_SUBSTANCE_RELATIONSHIPS = [
   },
 ]
 
+/**
+ * Constituent food pathways for a parent identity. A match is a canonical
+ * contains record for the named carbohydrate. It is not a contains record for
+ * the parent, and it is not added to RELATED_SUBSTANCE_RELATIONSHIPS.
+ */
+export const CONSTITUENT_PATHWAY_PAGES = {
+  "fructo-galacto-oligosaccharides": {
+    directAbsence:
+      "No food is recorded as containing the combined fructo-oligosaccharide and galacto-oligosaccharide preparation.",
+    pathways: [
+      {
+        id: "fos-oligofructose",
+        title: "FOS / oligofructose",
+        labels: ["Fructo-oligosaccharides", "Oligofructose"],
+        ids: ["oligofructose"],
+      },
+      {
+        id: "inulin-type-fructans",
+        title: "Inulin-type fructans",
+        labels: ["Fructans", "Inulin"],
+        ids: ["inulin"],
+      },
+      {
+        id: "galactosyl-oligosaccharides",
+        title: "GOS or other specified galactosyl oligosaccharides",
+        labels: ["Raffinose-family oligosaccharides", "Raffinose", "Stachyose", "Galacto-oligosaccharides"],
+        ids: ["galacto-oligosaccharides"],
+      },
+    ],
+  },
+}
+
+export function constituentPathwayFoods(foods, substanceId) {
+  const page = CONSTITUENT_PATHWAY_PAGES[substanceId]
+  if (!page) return []
+  return page.pathways
+    .map((pathway) => {
+      const rows = []
+      for (const food of foods || []) {
+        const frontMatter = food.frontMatter || food
+        for (const edge of canonicalContainsRelationships(frontMatter)) {
+          const matches =
+            pathway.ids.includes(edge.substance_id) ||
+            pathway.labels.some((label) => sameSubstance(edge.substance, label))
+          if (!matches) continue
+          const amount = constituentAmount(frontMatter, edge)
+          rows.push({
+            food_id: food.id || frontMatter.id || null,
+            title: food.title || frontMatter.title || food.id,
+            permalink: food.permalink || null,
+            constituent: edge.substance,
+            amount,
+            material: edge.evidence_material || null,
+            preparation: edge.preparation_state || edge.preparation || null,
+            direct_parent_containment: false,
+          })
+        }
+      }
+      rows.sort((a, b) => String(a.title).localeCompare(String(b.title)) || String(a.constituent).localeCompare(String(b.constituent)))
+      return { id: pathway.id, title: pathway.title, rows }
+    })
+    .filter((group) => group.rows.length)
+}
+
+function constituentAmount(frontMatter, edge) {
+  const rows = Array.isArray(frontMatter?.nutrition_supplementary_sources)
+    ? frontMatter.nutrition_supplementary_sources
+    : []
+  const row = rows.find((item) => item && norm(item.label) === norm(edge?.substance) && item.public_display !== "internal-only")
+  if (typeof row?.amount_display === "string" && row.amount_display.trim()) return row.amount_display.trim()
+  return containedAmount(frontMatter, edge)?.display || null
+}
+
 export function relatedViaLabel(label) {
   return String(label || "").replace(/^[A-Z](?![A-Z])/, (letter) => letter.toLowerCase())
 }
@@ -259,7 +332,7 @@ export function renderRelatedFoodSources(rows) {
       const amount = row.contained_amount?.display
         ? ` ${escapeHtml(row.intermediate_label)} ${escapeHtml(row.contained_amount.display)}`
         : ""
-      return `<li data-related-source="true" data-quantity="none" data-related-quantity="none" title="${escapeHtml(title)}"><a href="${escapeHtml(row.food_page)}">${escapeHtml(row.food_title)}</a> — via ${escapeHtml(via)}${preparation}${amount}</li>`
+      return `<li data-related-source="true" data-quantity="none" data-related-quantity="none" title="${escapeHtml(title)}"><a href="${escapeHtml(row.food_page)}">${escapeHtml(row.food_title)}</a> — via ${escapeHtml(via)} · ${escapeHtml(row.relationship_label)}${preparation}${amount}<details><summary>Pathway qualifications</summary><p>${escapeHtml(title)}</p></details></li>`
     })
     .join("")
   return `<details class="pm-input-food-sources" data-food-source-kind="related"><summary><span class="pm-input-food-source-arrow" aria-hidden="true">▶</span>Related sources</summary><p>Indirect sources. These foods are not recorded as containing the input, and they are not ranked by amount.</p><ul>${items}</ul></details>`

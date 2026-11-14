@@ -206,6 +206,29 @@
     },
     {
       "class": "related-substance",
+      "food_id": "chicken-liver",
+      "food_title": "Chicken Liver",
+      "food_page": "/docs/foods/chicken-liver",
+      "intermediate_id": "vitamin-a",
+      "intermediate_label": "Vitamin A",
+      "related_id": "retinoic-acid",
+      "related_label": "Retinoic acid",
+      "relationship": "precursor-formation",
+      "preparation": null,
+      "contained_amount": null,
+      "related_quantity": null,
+      "evidence": {
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ],
+        "statement": "Dietary vitamin A supplies retinoids and provitamin A precursors that can support retinoic acid formation."
+      },
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration.",
+      "quantity_policy": "The contained amount belongs to the intermediate substance. Do not add intermediate amounts into the related substance, and do not count one food twice for the same pathway."
+    },
+    {
+      "class": "related-substance",
       "food_id": "chickpeas",
       "food_title": "Chickpeas",
       "food_page": "/docs/foods/chickpeas",
@@ -389,7 +412,7 @@
     {
       "class": "related-substance",
       "food_id": "liver",
-      "food_title": "Liver",
+      "food_title": "Liver (beef)",
       "food_page": "/docs/foods/liver",
       "intermediate_id": "vitamin-a",
       "intermediate_label": "Vitamin A",

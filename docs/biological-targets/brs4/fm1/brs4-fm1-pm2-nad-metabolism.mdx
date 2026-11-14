@@ -604,6 +604,54 @@ dietary_input_assessments:
           sources:
             - 'https://www.uniprot.org/uniprotkb/Q9HAN9/entry'
             - 'https://www.rhea-db.org/rhea/21360'
+  - atom_id: PM2-DIT-3
+    status: admitted
+    type: A
+    classification: derived
+    operation: Maintain NAD⁺ availability so redox reactions and mitochondrial signalling stay adequately powered.
+    canonical_substance_id: tryptophan
+    active_target_id: nicotinamide
+    record_origin: >-
+      Author-approved Group 3 reconciliation of existing admitted Derived route, 9 November 2026; no new
+      admission, SEC or publication permission.
+    functional_dependency:
+      status: established
+      statement: The liver can convert tryptophan to nicotinamide, which other cells salvage into NAD⁺.
+      sources:
+        - docs/papers/BRAIN-Diet-References#covarrubias_nad_2021
+    dietary_supply:
+      status: established
+      statement: The liver can convert tryptophan to nicotinamide, which other cells salvage into NAD⁺.
+      sources:
+        - docs/papers/BRAIN-Diet-References#covarrubias_nad_2021
+    conversion_pathway:
+      - from: tryptophan
+        to: nicotinamide
+        process: >-
+          Multistep hepatic kynurenine/de-novo NAD metabolism and subsequent nicotinamide availability for
+          salvage; not a direct one-step tryptophan-to-nicotinamide reaction.
+        dependencies: []
+        limitations: >-
+          Most cells outside the liver do not run the full route. The review does not establish what share of
+          the NAD⁺ pool comes from tryptophan, and eating more protein is not shown to raise NAD⁺. This is a
+          review of pathways, not a human feeding trial. It does not measure how much an ordinary meal changes
+          NAD⁺, and it does not test attention or cognitive energy. Nicotinamide riboside and nicotinamide
+          mononucleotide, as supplement doses, are outside this dietary assessment.
+        evidence:
+          statement: The liver can convert tryptophan to nicotinamide, which other cells salvage into NAD⁺.
+          sources:
+            - docs/papers/BRAIN-Diet-References#covarrubias_nad_2021
+    limitations:
+      - >-
+        Most cells outside the liver do not run the full route. The review does not establish what share of the
+        NAD⁺ pool comes from tryptophan, and eating more protein is not shown to raise NAD⁺.
+      - >-
+        This is a review of pathways, not a human feeding trial. It does not measure how much an ordinary meal
+        changes NAD⁺, and it does not test attention or cognitive energy. Nicotinamide riboside and nicotinamide
+        mononucleotide, as supplement doses, are outside this dietary assessment.
+    provenance:
+      - docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx
+      - docs/papers/BRAIN-Diet-References#covarrubias_nad_2021
 ---
 
 <p class="brs-pm-thumbnail-wrap">

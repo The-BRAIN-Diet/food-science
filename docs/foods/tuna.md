@@ -18,6 +18,7 @@ public_display:
   cystine_mg: internal-only
 list_image: /img/foods/tuna/tuna_thumb.webp
 nutrition_per_100g:
+  tyrosine_g: 0.787
   vitamin_e_mg: 1
   vitamin_a_rae_ug: 655
   vitamin_d_ug: 5.7
@@ -68,6 +69,16 @@ nutrition_source:
   last_checked: '2026-08-15'
 protein_profile_note: Complete essential amino acid profile.
 substance_relationships:
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: "Fish, tuna, fresh, bluefin, raw"
+    source_url: https://fdc.nal.usda.gov/food-details/173706/nutrients
+    description: "USDA reports 787 mg tyrosine per 100 g edible portion of the specified food."
+    material_limitations: "USDA SR Legacy (April 2018), food-nutrient row 1800018, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Fish, tuna, fresh, bluefin, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
   - substance: Methionine
     relationship: contains
     description: >-

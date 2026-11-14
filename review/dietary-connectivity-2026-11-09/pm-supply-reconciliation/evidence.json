@@ -1,0 +1,828 @@
+{
+  "six_targets": [
+    {
+      "operation": "Regulate competitive transport of large neutral amino acids across the blood\u2013brain barrier in response to circulating substrate availability.",
+      "historical_admission": false,
+      "id": "BRS1-FM1-PM2::PM2-DIT-1",
+      "brs": "BRS1",
+      "fm": "BRS1(FM1)",
+      "pm": "BRS1-FM1-PM2",
+      "pm_page": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation",
+      "input": "Tyrosine",
+      "input_type": "substrate",
+      "relationship_type": {
+        "layer": "biochemical-requirement",
+        "classification": null,
+        "mode": null,
+        "addressability": null,
+        "claim_ceiling": "biological-dependency"
+      },
+      "biological_role": "Large-neutral amino acid that competes for LAT1-mediated brain entry",
+      "dietary_input": true,
+      "dietary_input_note": "Dietary amino-acid supply is established upstream in PM1; this entry retains the accepted LAT1 cargo/competition role. Food composition is not evidence that eating more of this amino acid improves brain entry or signalling.",
+      "dietary_input_flags": [],
+      "accounting": "B",
+      "accounting_label": "Upstream PM reference",
+      "upstream": [
+        {
+          "relationship_label": "Supply",
+          "pm_id": "BRS1-FM1-PM1",
+          "pm_short_id": "PM1",
+          "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation",
+          "resolved": true,
+          "relationship_ids": [
+            "BRS1-FM1-PM1::PM1-DIT-4"
+          ]
+        }
+      ],
+      "pool_references": [],
+      "members": [],
+      "substance_id": "tyrosine",
+      "substance_page": "/docs/substances/nutrients/macronutrients/amino-acids/conditionals/tyrosine",
+      "identity_status": "resolved",
+      "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx#dietary_input_traceability/PM2-DIT-1",
+      "evidence": {
+        "finding_ids": [
+          "PM2-F1"
+        ],
+        "citation_keys": [
+          "fernstrom_lnna_2013"
+        ]
+      },
+      "limitation": "Competitive transport biology does not establish that eating more tyrosine increases brain tyrosine or catecholamine signalling.",
+      "derived_target_atom_id": null,
+      "derived_target": null,
+      "qualification": "Dietary amino-acid supply is established upstream in PM1; this entry retains the accepted LAT1 cargo/competition role. Food composition is not evidence that eating more of this amino acid improves brain entry or signalling.",
+      "presentations": [
+        {
+          "label": "Tyrosine",
+          "section": "3.1.2"
+        }
+      ],
+      "relationship_owner": "BRS1-FM1-PM2",
+      "canonical_supply_owner": [
+        "BRS1-FM1-PM1"
+      ]
+    },
+    {
+      "operation": "Regulate competitive transport of large neutral amino acids across the blood\u2013brain barrier in response to circulating substrate availability.",
+      "historical_admission": false,
+      "id": "BRS1-FM1-PM2::PM2-DIT-2",
+      "brs": "BRS1",
+      "fm": "BRS1(FM1)",
+      "pm": "BRS1-FM1-PM2",
+      "pm_page": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation",
+      "input": "Tryptophan",
+      "input_type": "substrate",
+      "relationship_type": {
+        "layer": "biochemical-requirement",
+        "classification": null,
+        "mode": null,
+        "addressability": null,
+        "claim_ceiling": "biological-dependency"
+      },
+      "biological_role": "Large-neutral amino acid that competes for LAT1-mediated brain entry",
+      "dietary_input": true,
+      "dietary_input_note": "Dietary amino-acid supply is established upstream in PM1; this entry retains the accepted LAT1 cargo/competition role. Food composition is not evidence that eating more of this amino acid improves brain entry or signalling.",
+      "dietary_input_flags": [],
+      "accounting": "B",
+      "accounting_label": "Upstream PM reference",
+      "upstream": [
+        {
+          "relationship_label": "Supply",
+          "pm_id": "BRS1-FM1-PM1",
+          "pm_short_id": "PM1",
+          "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation",
+          "resolved": true,
+          "relationship_ids": [
+            "BRS1-FM1-PM1::PM1-DIT-5"
+          ]
+        }
+      ],
+      "pool_references": [],
+      "members": [],
+      "substance_id": "tryptophan",
+      "substance_page": "/docs/substances/nutrients/macronutrients/amino-acids/essential/tryptophan",
+      "identity_status": "resolved",
+      "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx#dietary_input_traceability/PM2-DIT-2",
+      "evidence": {
+        "finding_ids": [
+          "PM2-F1",
+          "PM2-F2"
+        ],
+        "citation_keys": [
+          "fernstrom_lnna_2013",
+          "wurtman_effects_2003",
+          "ashley_breakfast_1985"
+        ]
+      },
+      "limitation": "Meal-driven changes in plasma tryptophan-to-LNAA ratios do not establish increased brain serotonin or a clinical benefit.",
+      "derived_target_atom_id": null,
+      "derived_target": null,
+      "qualification": "Dietary amino-acid supply is established upstream in PM1; this entry retains the accepted LAT1 cargo/competition role. Food composition is not evidence that eating more of this amino acid improves brain entry or signalling.",
+      "presentations": [
+        {
+          "label": "Tryptophan",
+          "section": "3.1.2"
+        }
+      ],
+      "relationship_owner": "BRS1-FM1-PM2",
+      "canonical_supply_owner": [
+        "BRS1-FM1-PM1"
+      ]
+    },
+    {
+      "operation": "Maintain the capacity to form acetylcholine so cholinergic signalling for attention, working memory, and learning stays supplied.",
+      "historical_admission": true,
+      "id": "BRS1-FM2-PM6::PM6-DIT-4",
+      "brs": "BRS1",
+      "fm": "BRS1(FM2)",
+      "pm": "BRS1-FM2-PM6",
+      "pm_page": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support",
+      "input": "Vitamin B5 (pantothenate)",
+      "input_type": "cofactor precursor",
+      "relationship_type": {
+        "layer": "biochemical-requirement",
+        "classification": null,
+        "mode": null,
+        "addressability": "direct",
+        "claim_ceiling": "dietary-provision"
+      },
+      "biological_role": "Nutritional precursor of coenzyme A, from which cells form the acetyl-CoA required for acetylcholine synthesis",
+      "dietary_input": true,
+      "dietary_input_note": "Existing biological role explicitly admits the nutritional precursor route to coenzyme A; intracellular reaction participation does not negate that dietary route.",
+      "dietary_input_flags": [],
+      "accounting": "A",
+      "accounting_label": "PM-owned dietary relationship",
+      "upstream": [],
+      "pool_references": [],
+      "members": [],
+      "substance_id": "vitamin-b5",
+      "substance_page": "/docs/substances/nutrients/micronutrients/vitamins/vitamin-b5",
+      "identity_status": "resolved",
+      "source_record": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx#dietary_input_traceability/PM6-DIT-4",
+      "evidence": {
+        "finding_ids": [
+          "PM6-F5"
+        ],
+        "citation_keys": [
+          "rivera_calimlim_pantothenic_1988"
+        ]
+      },
+      "limitation": "Chronic ethanol-associated pantothenate depletion and rescue affected acetylcholine synthesis in rats; this does not establish that extra B5 raises brain acetylcholine in adequately nourished humans.",
+      "derived_target_atom_id": null,
+      "derived_target": null,
+      "qualification": "Existing biological role explicitly admits the nutritional precursor route to coenzyme A; intracellular reaction participation does not negate that dietary route.",
+      "presentations": [
+        {
+          "label": "Vitamin B5 (pantothenate)",
+          "section": "3.1.2"
+        }
+      ],
+      "relationship_owner": "BRS1-FM2-PM6",
+      "canonical_supply_owner": []
+    },
+    {
+      "operation": "Maintain the capacity to form acetylcholine so cholinergic signalling for attention, working memory, and learning stays supplied.",
+      "historical_admission": true,
+      "id": "BRS1-FM2-PM6::PM6-DIT-5",
+      "brs": "BRS1",
+      "fm": "BRS1(FM2)",
+      "pm": "BRS1-FM2-PM6",
+      "pm_page": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support",
+      "input": "Vitamin B9 (folate)",
+      "input_type": "resource dependency",
+      "relationship_type": {
+        "layer": "kc-relevance",
+        "classification": null,
+        "mode": null,
+        "addressability": null,
+        "claim_ceiling": "dietary-provision"
+      },
+      "biological_role": "Folate-dependent methyl metabolism helps maintain the brain choline resource available for acetylcholine formation; folate deprivation lowered choline and acetylcholine in studied mouse models, with SAM rescue supporting this upstream resource relationship.",
+      "dietary_input": true,
+      "dietary_input_note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+      "dietary_input_flags": [],
+      "accounting": "C",
+      "accounting_label": "Upstream iKC/resource constituent relationship",
+      "upstream": [],
+      "pool_references": [
+        "BRS2(KC1)"
+      ],
+      "members": [
+        {
+          "kc_id": "BRS2(KC1)",
+          "ikc_id": "BRS2-KC1-KIT-1",
+          "constituent_id": "BRS2-KC1-KIT-1",
+          "relationship_id": "BRS1-FM2-PM6-KCI-1",
+          "relationship_type": null,
+          "membership": "admitted",
+          "label": "Vitamin B9 (folate)",
+          "presentation_section": "3.1.3",
+          "source_record": "docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool.mdx#kc_input_traceability/BRS2-KC1-KIT-1",
+          "substance_id": "vitamin-b9"
+        }
+      ],
+      "substance_id": "vitamin-b9",
+      "substance_page": "/docs/substances/nutrients/micronutrients/vitamins/vitamin-b9",
+      "identity_status": "resolved",
+      "source_record": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx#dietary_input_traceability/PM6-DIT-5",
+      "evidence": {
+        "finding_ids": [
+          "PM6-F6"
+        ],
+        "citation_keys": [
+          "chan_folate_acetylcholine_2008",
+          "crivello_folate_choline_2010"
+        ]
+      },
+      "limitation": "Animal evidence is conditional on age, brain region and experimental context. Choline and acetylcholine concentrations were measured; methyl-dependent choline retention and the consequence for synthesis capacity are mechanistic inferences, not measured human synthesis flux. Folate is not a ChAT cofactor; extra folate above adequacy and cognitive benefit are not established.",
+      "derived_target_atom_id": null,
+      "derived_target": null,
+      "qualification": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+      "presentations": [
+        {
+          "label": "Vitamin B9 (folate)",
+          "section": "3.1.3"
+        }
+      ],
+      "relationship_owner": "BRS1-FM2-PM6",
+      "canonical_supply_owner": []
+    },
+    {
+      "operation": "Divert homocysteine toward cysteine so methylation demand is balanced against sulfur amino-acid and redox needs.",
+      "historical_admission": true,
+      "id": "BRS2-FM2-PM5::PM5-DIT-4",
+      "brs": "BRS2",
+      "fm": "BRS2(FM2)",
+      "pm": "BRS2-FM2-PM5",
+      "pm_page": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway",
+      "input": "Serine",
+      "input_type": "substrate",
+      "relationship_type": {
+        "layer": "biochemical-requirement",
+        "classification": null,
+        "mode": null,
+        "addressability": null,
+        "claim_ceiling": "biological-dependency"
+      },
+      "biological_role": "Cosubstrate with homocysteine for cystathionine formation by cystathionine beta-synthase.",
+      "dietary_input": true,
+      "dietary_input_note": "The accepted serine limitation explicitly admits endogenous and dietary provision. This records supply, not increased flux from intake.",
+      "dietary_input_flags": [],
+      "accounting": "A",
+      "accounting_label": "PM-owned dietary relationship",
+      "upstream": [],
+      "pool_references": [],
+      "members": [],
+      "substance_id": "serine",
+      "substance_page": "/docs/substances/nutrients/macronutrients/amino-acids/conditionals/serine",
+      "identity_status": "resolved",
+      "source_record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx#dietary_input_traceability/PM5-DIT-4",
+      "evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "belew_cbs_kinetics_2009",
+          "meier_cbs_structure_2001"
+        ]
+      },
+      "limitation": "Serine is a direct enzyme substrate. Endogenous synthesis and diet can both supply it; this does not show that dietary serine or protein intake increases cystathionine formation.",
+      "derived_target_atom_id": null,
+      "derived_target": null,
+      "qualification": "The accepted serine limitation explicitly admits endogenous and dietary provision. This records supply, not increased flux from intake.",
+      "presentations": [
+        {
+          "label": "Serine",
+          "section": "3.1.2"
+        }
+      ],
+      "relationship_owner": "BRS2-FM2-PM5",
+      "canonical_supply_owner": []
+    },
+    {
+      "operation": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "scientific_assessment": {
+        "atom_id": "PM5-DIT-2",
+        "status": "unresolved",
+        "type": "A",
+        "classification": "direct",
+        "operation": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+        "canonical_substance_id": "fructo-galacto-oligosaccharides",
+        "assessment_date": "2026-10-23",
+        "food_target_research": {
+          "completed": true,
+          "sources_examined": [
+            "registry/substances.json",
+            "system/food-target-research.json",
+            "docs/foods/potatoes.md",
+            "docs/foods/bananas.md",
+            "docs/foods/black-beans.md",
+            "docs/foods/chickpeas.md",
+            "docs/foods/apples.md"
+          ],
+          "targeted_searches": [
+            "https://pubmed.ncbi.nlm.nih.gov/37327923/"
+          ],
+          "sufficient_coverage_rationale": "Existing verified resistant-starch composition and the retained provisional apple-pectin composition research were examined independently of fermentation evidence."
+        },
+        "review_required": true,
+        "review_reason": "Historical mixture-specific Capacity admission requires review: limited anatomical observations and indirect/modelled results do not sufficiently establish the existing substrate-to-SCFA claim; no independent constituent or butyrate admission is made.",
+        "functional_dependency": {
+          "status": "unresolved",
+          "statement": "Historical mixture-specific Capacity admission requires review: limited anatomical observations and indirect/modelled results do not sufficiently establish the existing substrate-to-SCFA claim; no independent constituent or butyrate admission is made.",
+          "sources": [
+            "https://doi.org/10.1016/j.isci.2024.109208"
+          ]
+        },
+        "dietary_supply": {
+          "status": "established",
+          "statement": "The experimental mixture was administered; ordinary food equivalence is not established.",
+          "sources": [
+            "https://doi.org/10.1016/j.isci.2024.109208"
+          ]
+        }
+      },
+      "historical_admission": false,
+      "id": "BRS5-FM2-PM5::PM5-DIT-2",
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "pm_page": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling",
+      "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
+      "input_type": "substrate",
+      "relationship_type": {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "capacity-requirement",
+        "addressability": "direct",
+        "claim_ceiling": "biological-dependency"
+      },
+      "biological_role": "The studied FOS/GOS mixture is a candidate microbial carbohydrate substrate; the corrected study does not sufficiently establish the existing PM-specific Capacity admission.",
+      "dietary_input": true,
+      "dietary_input_note": "Historical Type A/Direct record retained; current scientific admission requires review and is excluded from admitted manuscript food-target output. Dietary input Yes records historical dietary applicability, not renewed approval.",
+      "dietary_input_flags": [],
+      "accounting": "A",
+      "accounting_label": "PM-owned dietary relationship",
+      "upstream": [],
+      "pool_references": [],
+      "members": [],
+      "substance_id": "fructo-galacto-oligosaccharides",
+      "substance_page": "/docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructo-galacto-oligosaccharides",
+      "identity_status": "resolved",
+      "source_record": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx#dietary_input_traceability/PM5-DIT-2",
+      "evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "van_trijp_intraintestinal_2024"
+        ]
+      },
+      "limitation": "Requiring review: distinguish the studied mixture from individual FOS/GOS constituents, substrate utilisation from measured SCFA production, and SCFAs generally from butyrate. Ileal observations do not establish colonic absence; separate SCFA infusion and modelled estimates do not directly trace substrate conversion.",
+      "derived_target_atom_id": null,
+      "derived_target": null,
+      "qualification": "PM identity says missing; canonical registry now resolves. Scientific admission unchanged. Historical Type A/Direct record retained; current scientific admission requires review and is excluded from admitted manuscript food-target output. Dietary input Yes records historical dietary applicability, not renewed approval.",
+      "presentations": [
+        {
+          "label": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
+          "section": "3.1.1"
+        }
+      ],
+      "relationship_owner": "BRS5-FM2-PM5",
+      "canonical_supply_owner": [],
+      "scientific_admission": "unresolved",
+      "admission_basis": "versioned-assessment",
+      "admission_errors": [
+        "functional_dependency-unresolved"
+      ],
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "unresolved"
+      },
+      "food_target_mapping": "unresolved",
+      "food_targets": [],
+      "food_target_reconciliations": [],
+      "coverage_warnings": [
+        "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation): Scientific admission requires review. Historical mixture-specific Capacity admission requires review: limited anatomical observations and indirect/modelled results do not sufficiently establish the existing substrate-to-SCFA claim; no independent constituent or butyrate admission is made.",
+        "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation): Food ontology coverage unresolved."
+      ]
+    }
+  ],
+  "kc_records": [
+    {
+      "pm": "BRS1-FM2-PM6",
+      "kc_id": "BRS2(KC1)",
+      "accepted": true,
+      "source": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
+      "canonical_record": "docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool.mdx",
+      "relationship": {
+        "relationship_id": "BRS1-FM2-PM6-KCR-1",
+        "dietary_input": false,
+        "dietary_input_note": "Pool/constraint reference; constituent dietary supply is recorded separately.",
+        "kc_id": "BRS2(KC1)",
+        "ikc_id": "BRS2(KC1)",
+        "pm_biological_role": "Inadequate one-carbon donor availability can increase pressure on choline-dependent methyl donation and disturb brain choline and acetylcholine availability, thereby constraining the substrate capacity used for acetylcholine synthesis.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM6-F6",
+            "PM6-F2"
+          ],
+          "citation_keys": [
+            "chan_folate_acetylcholine_2008",
+            "crivello_folate_choline_2010",
+            "jadavji_mtrr_choline_2014",
+            "oda_choline_1999"
+          ]
+        },
+        "evidence_limitation": "The mapping is supported by dietary and genetic animal models plus the established choline substrate reaction. It does not show that folate, B12, or betaine supplementation increases acetylcholine synthesis in nutrient-replete humans, and it does not inherit the KC food list.",
+        "kc_href": "https://thebraindiet.org/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool",
+        "origin_label": "KC1: Methyl Donor Pool",
+        "constituent_relationships": [
+          {
+            "relationship_id": "BRS1-FM2-PM6-KCI-1",
+            "pm_atom_id": "PM6-DIT-5",
+            "kc_atom_id": "BRS2-KC1-KIT-1",
+            "kc_membership_status": "canonical-reviewed",
+            "label": "Vitamin B9 (folate)",
+            "reader_description": "Folate-dependent methyl metabolism helps maintain the choline available for acetylcholine formation in the studied deficiency models.",
+            "description_finding_id": "PM6-F6"
+          }
+        ]
+      },
+      "adjudications": [
+        {
+          "kc_id": "BRS2(KC1)",
+          "ikc_id": "BRS2(KC1)",
+          "arm_id": "one-carbon-methyl-donor-pool",
+          "applicability_proposition": "Inadequacy of the shared methyl-donor pool can constrain this mechanism\u2019s governed acetylcholine-synthesis capacity.",
+          "disposition": "established",
+          "applicability_mode": "constrained-by",
+          "established_links": [
+            "Choline plus acetyl-CoA forms acetylcholine via choline acetyltransferase (PM6-F2).",
+            "Dietary folate deficiency reduced brain choline and acetylcholine in mouse models, and SAM restored both under folate compromise (PM6-F6).",
+            "Methionine-synthase-reductase deficiency lowered hippocampal choline, betaine, and acetylcholine (PM6-F6).",
+            "A separate folate-deficiency experiment found region- and age-dependent acetylcholine changes rather than a uniform whole-brain response (PM6-F6)."
+          ],
+          "inferred_links": [],
+          "evidence_source": {
+            "finding_ids": [
+              "PM6-F6",
+              "PM6-F2"
+            ],
+            "citation_keys": [
+              "chan_folate_acetylcholine_2008",
+              "crivello_folate_choline_2010",
+              "jadavji_mtrr_choline_2014",
+              "oda_choline_1999"
+            ]
+          },
+          "rationale": "Type D is met through a supported mechanistic chain rather than a single end-to-end human capacity assay: one-carbon compromise changes the choline resource state, animal models show lower choline and acetylcholine under folate or methionine-cycle impairment, and choline is the required synthesis substrate. BRS1(KC1) was screened out because choline is not a LAT1 large-neutral-amino-acid cargo."
+        }
+      ],
+      "constituents": [
+        {
+          "relationship_id": "BRS1-FM2-PM6-KCI-1",
+          "pm_atom_id": "PM6-DIT-5",
+          "kc_atom_id": "BRS2-KC1-KIT-1",
+          "kc_membership_status": "canonical-reviewed",
+          "label": "Vitamin B9 (folate)",
+          "reader_description": "Folate-dependent methyl metabolism helps maintain the choline available for acetylcholine formation in the studied deficiency models.",
+          "description_finding_id": "PM6-F6",
+          "established": false,
+          "supply_admitted": true,
+          "resolved_substance_id": "vitamin-b9",
+          "kc_atom": {
+            "atom_id": "BRS2-KC1-KIT-1",
+            "input": "Vitamin B9 (folate)",
+            "input_type": "nutrient/substance",
+            "biological_role": "Provides 5-methyltetrahydrofolate, the methyl-group donor used by methionine synthase to remethylate homocysteine and replenish methionine for SAM synthesis.",
+            "evidence_source": {
+              "citation_keys": [
+                "ducker_one-carbon_2017",
+                "obeid_metabolic_2013"
+              ]
+            },
+            "evidence_limitation": "Folate insufficiency can constrain remethylation and methylation capacity, but effects on SAM, SAH and downstream methylation vary by tissue and metabolic state; adequacy does not imply benefit from additional intake.",
+            "constraint_status": "nutritionally-constrained",
+            "ikc_membership": "admitted",
+            "claim_ceiling": "dietary-provision",
+            "ikc_id": "BRS2-KC1-KIT-1",
+            "substance_id": "vitamin-b9",
+            "identity_status": "resolved"
+          },
+          "pm_relationship": "BRS1-FM2-PM6::PM6-DIT-5"
+        }
+      ]
+    },
+    {
+      "pm": "BRS4-FM2-PM4",
+      "kc_id": "BRS4(KC2)",
+      "accepted": false,
+      "relationship_type": "historical-context",
+      "source": "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx",
+      "canonical_record": "docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency.mdx",
+      "relationship": {
+        "relationship_id": "PM4-KC2-HISTORICAL-REVIEW",
+        "kc_id": "BRS4(KC2)",
+        "relationship_type": "historical-context",
+        "review_status": "unresolved",
+        "scientific_admission": "unresolved",
+        "pm_biological_role": "Historical cofactor-pool reference preserved. Current applicability to the approved operation is unresolved; no pool constraint or constituent supply is newly admitted.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM4-F1"
+          ],
+          "citation_keys": [
+            "brs4_brand2016_20261023",
+            "brs4_chouchani2014_20261023"
+          ]
+        },
+        "evidence_limitation": "The source-specific mitochondrial evidence does not independently establish the entire B-vitamin/iron/magnesium pool as a current constraint. Existing KC index remains traceable pending review.",
+        "constituent_relationships": [],
+        "dietary_input": false,
+        "dietary_input_note": "Historical pool mapping retained as unresolved context; no dietary pool supply or constituent admission."
+      },
+      "adjudications": [],
+      "constituents": []
+    },
+    {
+      "pm": "BRS4-FM2-PM5",
+      "kc_id": "BRS4(KC2)",
+      "accepted": false,
+      "relationship_type": "historical-context",
+      "source": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx",
+      "canonical_record": "docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency.mdx",
+      "relationship": {
+        "relationship_id": "PM5-KC2-HISTORICAL-REVIEW",
+        "kc_id": "BRS4(KC2)",
+        "relationship_type": "historical-context",
+        "review_status": "unresolved",
+        "scientific_admission": "unresolved",
+        "pm_biological_role": "Historical cofactor-pool reference preserved. Current applicability to the approved operation is unresolved; no pool constraint or constituent supply is newly admitted.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM5-F1"
+          ],
+          "citation_keys": [
+            "brs4_rafique2001_20261023",
+            "brs4_azuma2022_20261023"
+          ]
+        },
+        "evidence_limitation": "The source-specific mitochondrial evidence does not independently establish the entire B-vitamin/iron/magnesium pool as a current constraint. Existing KC index remains traceable pending review.",
+        "constituent_relationships": [],
+        "dietary_input": false,
+        "dietary_input_note": "Historical pool mapping retained as unresolved context; no dietary pool supply or constituent admission."
+      },
+      "adjudications": [],
+      "constituents": []
+    }
+  ],
+  "nine_unresolved": [
+    {
+      "kind": "unresolved-canonical-substance",
+      "pm": "BRS2-FM1-PM4",
+      "id": null,
+      "provenance": {
+        "kind": "admitted-input",
+        "relationship_id": "BRS2-FM1-PM4::PM4-DIT-2",
+        "classification": "derived",
+        "layer": "dietary-requirement",
+        "accounting": "A",
+        "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx#dietary_input_traceability/PM4-DIT-2",
+        "input": "Dietary protein",
+        "evidence": {
+          "finding_ids": [
+            "PM4-F1"
+          ],
+          "citation_keys": [
+            "fao_diaas_2013",
+            "finkelstein_homocysteine_1998"
+          ]
+        },
+        "limitations": "Dietary protein supplies methionine. It does not show that eating more protein increases cycle rates. DIAAS scores sulfur amino acids as methionine plus cysteine.",
+        "upstream": [],
+        "members": []
+      }
+    },
+    {
+      "kind": "unresolved-canonical-substance",
+      "pm": "BRS5-FM1-PM1",
+      "id": null,
+      "provenance": {
+        "kind": "admitted-input",
+        "relationship_id": "BRS5-FM1-PM1::PM1-DIT-2",
+        "classification": "derived",
+        "layer": "dietary-requirement",
+        "accounting": "A",
+        "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx#dietary_input_traceability/PM1-DIT-2",
+        "input": "Fermentable dietary fibre",
+        "evidence": {
+          "finding_ids": [
+            "PM1-F2"
+          ],
+          "citation_keys": [
+            "silva_role_2020"
+          ]
+        },
+        "limitations": "Production depends on fibre structure, dose and microbial ecology. Evidence for specific fibres must not be generalised to all fibre, and this relationship does not establish a universal intake threshold or response.",
+        "upstream": [],
+        "members": []
+      }
+    },
+    {
+      "kind": "unresolved-canonical-substance",
+      "pm": "BRS5-FM1-PM2",
+      "id": null,
+      "provenance": {
+        "kind": "admitted-input",
+        "relationship_id": "BRS5-FM1-PM2::PM2-DIT-2",
+        "classification": "direct",
+        "layer": "dietary-requirement",
+        "accounting": "A",
+        "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx#dietary_input_traceability/PM2-DIT-2",
+        "input": "Type 2 resistant starch (tested aged-mouse exposure)",
+        "evidence": {
+          "finding_ids": [
+            "PM2-F4"
+          ],
+          "citation_keys": [
+            "zhang_rs2_endotoxin_2020"
+          ]
+        },
+        "limitations": "Sixteen-week mouse protocol; no human dose or equivalence to cooled potatoes, rice or green bananas. Measured metabolite changes do not prove SCFA mediation.",
+        "upstream": [],
+        "members": []
+      }
+    },
+    {
+      "kind": "unresolved-canonical-substance",
+      "pm": "BRS5-FM1-PM2",
+      "id": null,
+      "provenance": {
+        "kind": "admitted-input",
+        "relationship_id": "BRS5-FM1-PM2::PM2-DIT-3",
+        "classification": "direct",
+        "layer": "dietary-requirement",
+        "accounting": "A",
+        "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx#dietary_input_traceability/PM2-DIT-3",
+        "input": "Fish-oil-containing meal (tested comparison)",
+        "evidence": {
+          "finding_ids": [
+            "PM2-F3"
+          ],
+          "citation_keys": [
+            "lyte_meal_endotoxin_2016"
+          ]
+        },
+        "limitations": "Acute comparison of entire meals with differing fatty-acid profiles. Differences from the lower-fat olive-oil control were not significant. No isolated DHA/EPA effect, cofactor status, chronic containment or inflammation benefit established.",
+        "upstream": [],
+        "members": []
+      }
+    },
+    {
+      "kind": "unresolved-canonical-substance",
+      "pm": "BRS5-FM1-PM2",
+      "id": null,
+      "provenance": {
+        "kind": "admitted-input",
+        "relationship_id": "BRS5-FM1-PM2::PM2-DIT-4",
+        "classification": "direct",
+        "layer": "dietary-requirement",
+        "accounting": "A",
+        "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx#dietary_input_traceability/PM2-DIT-4",
+        "input": "Milk-fat physical structure (tested comparison)",
+        "evidence": {
+          "finding_ids": [
+            "PM2-F3"
+          ],
+          "citation_keys": [
+            "vors_emulsion_endotoxemia_2017"
+          ]
+        },
+        "limitations": "Eight normal-weight men did not show the same area difference. Physical emulsification is not equivalent to every emulsifier additive; no general avoidance rule or clinical benefit follows.",
+        "upstream": [],
+        "members": []
+      }
+    },
+    {
+      "kind": "unresolved-canonical-substance",
+      "pm": "BRS5-FM1-PM3",
+      "id": null,
+      "provenance": {
+        "kind": "admitted-input",
+        "relationship_id": "BRS5-FM1-PM3::PM3-DIT-1",
+        "classification": "direct",
+        "layer": "dietary-requirement",
+        "accounting": "A",
+        "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx#dietary_input_traceability/PM3-DIT-1",
+        "input": "Oligofructose-enriched inulin",
+        "evidence": {
+          "finding_ids": [
+            "PM3-F1"
+          ],
+          "citation_keys": [
+            "schroeder_bifidobacteria_2018"
+          ]
+        },
+        "limitations": "A defined mouse exposure, not an indispensable nutrient or a human dose recommendation. The responsible microbial effector was not isolated; combining it with NCC2705 did not preserve the penetrability effect.",
+        "upstream": [],
+        "members": []
+      }
+    },
+    {
+      "kind": "unresolved-canonical-substance",
+      "pm": "BRS5-FM1-PM3",
+      "id": null,
+      "provenance": {
+        "kind": "admitted-input",
+        "relationship_id": "BRS5-FM1-PM3::PM3-DIT-2",
+        "classification": "direct",
+        "layer": "dietary-requirement",
+        "accounting": "A",
+        "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx#dietary_input_traceability/PM3-DIT-2",
+        "input": "Bifidobacterium longum NCC2705",
+        "evidence": {
+          "finding_ids": [
+            "PM3-F1"
+          ],
+          "citation_keys": [
+            "schroeder_bifidobacteria_2018"
+          ]
+        },
+        "limitations": "Strain-specific preclinical modulation does not establish a human dietary requirement, clinical benefit or equivalence to fermented foods. Penetrability and thickness were not restored by the strain.",
+        "upstream": [],
+        "members": []
+      }
+    },
+    {
+      "kind": "unresolved-canonical-substance",
+      "pm": "BRS5-FM3-PM7",
+      "id": null,
+      "provenance": {
+        "kind": "admitted-input",
+        "relationship_id": "BRS5-FM3-PM7::PM7-DIT-1",
+        "classification": "direct",
+        "layer": "dietary-requirement",
+        "accounting": "A",
+        "source_record": "docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx#dietary_input_traceability/PM7-DIT-1",
+        "input": "Lactobacillus rhamnosus JB-1",
+        "evidence": {
+          "finding_ids": [
+            "PM7-F1"
+          ],
+          "citation_keys": [
+            "bravo_ingestion_2011",
+            "kelly_jb1_translation_2017"
+          ]
+        },
+        "limitations": "The human placebo-controlled trial did not reproduce overall stress/cognitive benefit. No generic probiotic, fermented-food or nutritional-necessity claim.",
+        "upstream": [],
+        "members": []
+      }
+    },
+    {
+      "kind": "unresolved-canonical-substance",
+      "pm": "BRS5-FM3-PM8",
+      "id": null,
+      "provenance": {
+        "kind": "admitted-input",
+        "relationship_id": "BRS5-FM3-PM8::PM8-DIT-2",
+        "classification": "direct",
+        "layer": "dietary-requirement",
+        "accounting": "A",
+        "source_record": "docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx#dietary_input_traceability/PM8-DIT-2",
+        "input": "Apple pectin (studied preparation)",
+        "evidence": {
+          "finding_ids": [
+            "PM8-F1"
+          ],
+          "citation_keys": [
+            "sinha_dietary_2024"
+          ]
+        },
+        "limitations": "The experiment does not establish equivalence to all fibre or pectin foods, a human intake recommendation or brain neurotransmitter benefit.",
+        "upstream": [],
+        "members": []
+      }
+    }
+  ],
+  "canonical_source_sha256": {
+    "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx": "9a2198bfaf94749601eb9fcf611cfcff17114c1724ec6eab2580350219be13d8",
+    "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx": "7945e915f57b19cd1749b280c5bd9c648c493583120719ecfec304a9101cc08a",
+    "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx": "190486e48b28a39e95c0bc544d02bf3b5558f992edc2608cd73469e40dffe890",
+    "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx": "7101f5c60f6ac1f69b88ab13b8f4dd6b8a8c32dfdf140d5d901398f50171280f",
+    "docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool.mdx": "0d9c8b42c83147827164c0028f367f346aa9c4b8873de5b04687a61150187e0d",
+    "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx": "a080393588c2f623d0f5ed3ae5beac4ffe9da0181862a6f282bb9bc2e86998bb",
+    "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx": "cab53887d746257c3567ec9423e19d1798e8f566aaca8e8bb7331e213ed8951d",
+    "docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency.mdx": "6ebc80f10345446463b1ecf31802cfd88508d399e0f6aa33dceaa5b3d9e66487",
+    "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx": "deb2296bff243ba074c5d7f3d180db9a30e9910b8a82207ed893bc1747aa88f6",
+    "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx": "ccb994b14bc07f0e94176fb91c35f55aa17ea2b1b299e3f00c2f41aecdb4511c",
+    "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx": "0827e6073f91529251d3ee6702a1b820eee179894114e4ca8f70587d1beec1dc",
+    "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx": "47bd18dce23033e56db030d088397d1a21046b7c92e95d231be1b9250b2cee5a",
+    "docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx": "7a80c484c383b78ea12a1a8de58a21554fbb480237516a49415c2342e686f68f",
+    "docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx": "b34e60dfe6d677ce1b341600792d505b9ea9e722a389cf26cfa6ab95cfc6ff1e"
+  }
+}

@@ -159,7 +159,7 @@ This deeply nourishing stew is made from **slow-cooked turkey wings**, releasing
 - 2 **carrots**, diced
 - 2 **celery sticks**, chopped
 - 3 cloves **garlic**, minced
-- 1 tbsp **apple cider vinegar** (helps extract minerals from bones)
+- 1 tbsp **apple cider vinegar** (helps extract calcium from the bone into the edible portion) [1]
 - 2 tbsp (30 ml) **olive oil**
 - 1 tsp **turmeric** (optional)
 - 1 tsp (5 ml) **thyme** or **rosemary**
@@ -193,6 +193,10 @@ This deeply nourishing stew is made from **slow-cooked turkey wings**, releasing
 The pot is divided into three servings. The recipe does not state a number, so this is an editorial decision rather than something the ingredients determine; an earlier untraced line of ~450 kcal and 35 g protein per serving corresponds to no plausible division of the calculated pot and has been withdrawn.
 
 > Note: glycine and gelatin extracted from bone and cartilage depend on simmer time and are not captured by a meat-only composition record.
+
+**Reference**
+
+[1] Fukaya et al. (1999). [Effect of Cooking with Vinegar on Calcium, Magnesium and Phosphorus Solubilization from Food](/docs/papers/BRAIN-Diet-References#fukaya_vinegar_cooking_minerals_1999). Boiling chicken meat with the wing bone in vinegar raised calcium in the edible portion above the water-cooked comparison. The tested vinegars were grain vinegar and white wine vinegar, not this apple-cider quantity, and magnesium did not increase in the same way.
 
 ## Explore the foods and substances
 

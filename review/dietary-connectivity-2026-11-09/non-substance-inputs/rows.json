@@ -1,0 +1,22 @@
+[
+  [
+    "brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx",
+    "PM4-DIT-2",
+    "source-class"
+  ],
+  [
+    "brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+    "PM1-DIT-2",
+    "functional-substrate-class"
+  ],
+  [
+    "brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx",
+    "PM2-DIT-3",
+    "dietary-matrix"
+  ],
+  [
+    "brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx",
+    "PM2-DIT-4",
+    "preparation-characteristic"
+  ]
+]

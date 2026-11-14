@@ -13,7 +13,7 @@ Generated from the same authoritative records as the PM disclosures. The preview
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (145)</summary>
+<summary>All mapped food sources (147)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -48,6 +48,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cheddar Cheese](http://localhost:3000/docs/foods/cheddar-cheese) | Cheese, cheddar (Includes foods for USDA's Food Distribution Program) | 3.64 mg (per 100 g edible portion) | docs/foods/cheddar-cheese.md#nutrition_per_100g/zinc_mg; docs/foods/cheddar-cheese.md#substance_relationships/Zinc |
 | [Cherries](http://localhost:3000/docs/foods/cherries) | Cherries, sweet, raw — raw | 0.07 mg (per 100 g edible portion) | docs/foods/cherries.md#nutrition_per_100g/zinc_mg |
 | [Chia Seeds](http://localhost:3000/docs/foods/chia-seeds) | Seeds, chia seeds, dried — dried | 4.58 mg (per 100 g edible portion) | docs/foods/chia-seeds.md#nutrition_per_100g/zinc_mg |
+| [Chicken Liver](http://localhost:3000/docs/foods/chicken-liver) | Chicken, liver, all classes, raw — raw | 2.67 mg (per 100 g edible portion) | docs/foods/chicken-liver.md#nutrition_per_100g/zinc_mg |
 | [Chicken](http://localhost:3000/docs/foods/chicken) | Chicken, broilers or fryers, meat and skin, raw — raw | 1.31 mg (per 100 g edible portion) | docs/foods/chicken.md#nutrition_per_100g/zinc_mg; docs/foods/chicken.md#substance_relationships/Zinc |
 | [Chickpeas](http://localhost:3000/docs/foods/chickpeas) | Chickpeas (garbanzo beans, bengal gram), mature seeds, raw — raw | 2.76 mg (per 100 g edible portion) | docs/foods/chickpeas.md#nutrition_per_100g/zinc_mg; docs/foods/chickpeas.md#substance_relationships/Zinc |
 | [Chicory Root](http://localhost:3000/docs/foods/chicory-root) | Chicory roots, raw (Cichorium intybus) — raw | 0.33 mg (per 100 g edible portion; dietary fibre does not include inulin) | docs/foods/chicory-root.md#nutrition_per_100g/zinc_mg; docs/foods/chicory-root.md#substance_relationships/Zinc |
@@ -90,7 +91,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Lemon](http://localhost:3000/docs/foods/lemon) | Lemons, raw, without peel — raw | 0.06 mg (per 100 g edible portion) | docs/foods/lemon.md#nutrition_per_100g/zinc_mg |
 | [Lentils](http://localhost:3000/docs/foods/lentils) | Lentils, raw — raw | 3.27 mg (per 100 g edible portion) | docs/foods/lentils.md#nutrition_per_100g/zinc_mg; docs/foods/lentils.md#substance_relationships/Zinc |
 | [Lion's Mane Mushroom](http://localhost:3000/docs/foods/lions-mane-mushroom) | Mushroom, lion's mane | 0.7448 mg (per 100 g edible portion) | docs/foods/lions-mane-mushroom.md#nutrition_per_100g/zinc_mg |
-| [Liver](http://localhost:3000/docs/foods/liver) | Beef, variety meats and by-products, liver, raw — raw | 4 mg (per 100 g edible portion) | docs/foods/liver.md#nutrition_per_100g/zinc_mg |
+| [Liver (beef)](http://localhost:3000/docs/foods/liver) | Beef, variety meats and by-products, liver, raw — raw | 4 mg (per 100 g edible portion) | docs/foods/liver.md#nutrition_per_100g/zinc_mg |
 | [Lupins](http://localhost:3000/docs/foods/lupins) | Lupins, mature seeds, raw — raw | 4.75 mg (per 100 g edible portion) | docs/foods/lupins.md#nutrition_per_100g/zinc_mg; docs/foods/lupins.md#substance_relationships/Zinc |
 | [Mackerel](http://localhost:3000/docs/foods/mackerel) | Fish, mackerel, Atlantic, raw — raw | 0.63 mg (per 100 g edible portion) | docs/foods/mackerel.md#nutrition_per_100g/zinc_mg |
 | [Maitake Mushroom](http://localhost:3000/docs/foods/maitake-mushroom) | Mushrooms, maitake, raw — raw | 0.75 mg (per 100 g edible portion) | docs/foods/maitake-mushroom.md#nutrition_per_100g/zinc_mg |
@@ -111,6 +112,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Parmesan Cheese](http://localhost:3000/docs/foods/parmesan-cheese) | Cheese, parmesan, hard | 2.75 mg (per 100 g edible portion) | docs/foods/parmesan-cheese.md#nutrition_per_100g/zinc_mg |
 | [Parsley](http://localhost:3000/docs/foods/parsley) | Parsley, fresh | 1.07 mg (per 100 g edible portion) | docs/foods/parsley.md#nutrition_per_100g/zinc_mg |
 | [Peanuts](http://localhost:3000/docs/foods/peanuts) | Peanuts, all types, raw — raw | 3.27 mg (per 100 g edible portion) | docs/foods/peanuts.md#nutrition_per_100g/zinc_mg; docs/foods/peanuts.md#substance_relationships/Zinc |
+| [Pears](http://localhost:3000/docs/foods/pears) | Pears, raw — raw | 0.1 mg (per 100 g edible portion) | docs/foods/pears.md#nutrition_per_100g/zinc_mg |
 | [Peas](http://localhost:3000/docs/foods/peas) | Peas, green, raw — raw | 1.24 mg (per 100 g edible portion) | docs/foods/peas.md#nutrition_per_100g/zinc_mg |
 | [Peppermint](http://localhost:3000/docs/foods/peppermint) | Peppermint, fresh | 1.11 mg (per 100 g edible portion) | docs/foods/peppermint.md#nutrition_per_100g/zinc_mg |
 | [Pistachios](http://localhost:3000/docs/foods/pistachios) | Nuts, pistachio nuts, raw — raw | 2.2 mg (per 100 g edible portion) | docs/foods/pistachios.md#nutrition_per_100g/zinc_mg |
@@ -135,7 +137,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Shiitake Mushroom](http://localhost:3000/docs/foods/shiitake-mushroom) | Mushrooms, shiitake, raw — raw | 1.03 mg (per 100 g edible portion) | docs/foods/shiitake-mushroom.md#nutrition_per_100g/zinc_mg |
 | [Shrimp](http://localhost:3000/docs/foods/shrimp) | Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture) — raw | 0.97 mg (per 100 g edible portion) | docs/foods/shrimp.md#nutrition_per_100g/zinc_mg; docs/foods/shrimp.md#substance_relationships/Zinc |
 | [Sourdough Bread](http://localhost:3000/docs/foods/sourdough-bread) | wheat sourdough breads | Quantity not established | docs/foods/sourdough-bread.md#substance_relationships/Zinc |
-| [Soy](http://localhost:3000/docs/foods/soy) | Soybeans, mature seeds, raw — raw | 4.89 mg (per 100 g edible portion) | docs/foods/soy.md#nutrition_per_100g/zinc_mg |
+| [Mature soybeans](http://localhost:3000/docs/foods/soy) | Soybeans, mature seeds, raw — raw | 4.89 mg (per 100 g edible portion) | docs/foods/soy.md#nutrition_per_100g/zinc_mg |
 | [Spelt](http://localhost:3000/docs/foods/spelt) | Spelt, uncooked — uncooked | 3.28 mg (per 100 g edible portion) | docs/foods/spelt.md#nutrition_per_100g/zinc_mg |
 | [Spinach](http://localhost:3000/docs/foods/spinach) | Spinach, raw — raw | 0.53 mg (per 100 g edible portion) | docs/foods/spinach.md#nutrition_per_100g/zinc_mg; docs/foods/spinach.md#substance_relationships/Zinc |
 | [Spirulina](http://localhost:3000/docs/foods/spirulina) | Seaweed, spirulina, dried — dried | 2 mg (per 100 g edible portion) | docs/foods/spirulina.md#nutrition_per_100g/zinc_mg |

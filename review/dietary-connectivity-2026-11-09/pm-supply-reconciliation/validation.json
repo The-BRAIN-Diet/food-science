@@ -1,0 +1,8 @@
+{
+  "six_targets": 6,
+  "excluded_kc_relationships": 2,
+  "unresolved_identities": 9,
+  "inventory_pairs_unchanged": 145,
+  "canonical_source_hashes_unchanged": true,
+  "implementation": "none; proposals only"
+}

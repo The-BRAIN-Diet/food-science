@@ -20,18 +20,6 @@
     },
     {
       "kind": "mapping-gap",
-      "relationship_id": "BRS3-FM1-PM1::PM1-KC1-UPSTREAM-2",
-      "input": "Glycine",
-      "reason": "No supported canonical food-source record found."
-    },
-    {
-      "kind": "mapping-gap",
-      "relationship_id": "BRS3-FM1-PM2::PM2-KC1-UPSTREAM-2",
-      "input": "Glycine",
-      "reason": "No supported canonical food-source record found."
-    },
-    {
-      "kind": "mapping-gap",
       "relationship_id": "BRS3-FM1-PM2::PM2-DIT-RECOVERY-OLIGOFRUCTOSE",
       "input": "Oligofructose",
       "reason": "No supported canonical food-source record found."

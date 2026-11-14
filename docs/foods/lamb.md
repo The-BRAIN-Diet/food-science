@@ -12,6 +12,7 @@ tags:
 list_image: /img/foods/lamb/lamb_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
+  tyrosine_g: 0.556
   vitamin_k_ug: 3.6
   vitamin_d_ug: 0.1
   fat_g: 23.41
@@ -70,6 +71,16 @@ nutrition_supplementary_sources:
     notes: the named meat or fish tissue
     source_reference: '#food-source-7'
 substance_relationships:
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: "Lamb, ground, raw"
+    source_url: https://fdc.nal.usda.gov/food-details/174370/nutrients
+    description: "USDA reports 556 mg tyrosine per 100 g edible portion of the specified food."
+    material_limitations: "USDA SR Legacy (April 2018), food-nutrient row 1852565, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Lamb, ground, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
   - substance: Iron
     relationship: contains
     description: USDA FoodData Central reports iron in Lamb, ground, raw.

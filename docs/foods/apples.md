@@ -74,6 +74,10 @@ nutrition_supplementary_sources:
     evidence_status: supported
     source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
   - key: pectin_qual
+    evidence_status: supported
+    presence_status: supported-qualitative
+    source_url: https://doi.org/10.1016/j.ijbiomac.2023.125410
+    source_reference: /docs/papers/BRAIN-Diet-References#liu_apple_pectin_2023
     label: Pectin
     status: Present — quantity not established
     amount_display: Present — quantity not established
@@ -93,6 +97,14 @@ nutrition_supplementary_sources:
       Liu et al. 2023 supports this qualitative constituent record. See
       technical provenance for food form and measurement details.
 substance_relationships:
+  - substance: Pectin
+    relationship: contains
+    evidence_status: supported
+    presence_status: supported-qualitative
+    evidence_source: Liu et al. (2023), pectin isolated from thirteen apple cultivars.
+    source_url: https://doi.org/10.1016/j.ijbiomac.2023.125410
+    source_reference: /docs/papers/BRAIN-Diet-References#liu_apple_pectin_2023
+    material_limitations: Cultivar, plant part and extraction method affect the isolated fractions. No edible-food concentration is established; total fibre is not pectin quantity. Not equivalent to citrus pectin or a studied isolated apple-pectin protocol.
   - substance: Vitamin C
     relationship: contains
     description: >-
@@ -120,6 +132,28 @@ substance_relationships:
     evidence_material: 'Apples, raw, with skin; NDB 09003'
     source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
     presence_status: presence_supported_amount_unavailable
+  - substance: Pectin
+    substance_id: pectin
+    relationship: contains
+    description: >-
+      Liu et al. (2023) isolated pectin from thirteen apple cultivars. USDA
+      reports total fibre and does not give a per-100 g pectin amount. Whole
+      fruit is not purified citrus pectin and is not the tested apple-pectin
+      preparation.
+    requires_supplementary_key: pectin_qual
+    evidence_status: supported
+    evidence_source: Liu et al. (2023)
+    evidence_material: >-
+      Peel, flesh and core from thirteen apple cultivars, extracted as
+      analytical fractions
+    source_url: 'https://doi.org/10.1016/j.ijbiomac.2023.125410'
+    citation_keys:
+      - liu_apple_pectin_2023
+    presence_status: presence_supported_amount_unavailable
+    chemical_form: Plant cell-wall pectin
+    food_delivery_notes: >-
+      Qualitative presence in apple cell walls. No per-100 g pectin amount is
+      established. This is not a standardised pectin dose.
 substance_review_candidates: []
 ---
 ## Overview

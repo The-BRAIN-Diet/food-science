@@ -249,6 +249,83 @@ dietary_input_assessments:
         Inspected existing structured composition records and provisional research coverage for the same
         mineral. Verified plant/animal sources are reused with preparation qualifiers; no new food edge,
         effective food dose or enzyme-response inference is created.
+  - atom_id: PM2-DIT-2
+    status: admitted
+    type: A
+    classification: derived
+    operation: >-
+      Provide a parallel homocysteine clearance route so methionine and SAMe supply remain resilient when folate
+      demand is high.
+    canonical_substance_id: choline
+    active_target_id: betaine
+    record_origin: >-
+      Author-approved Group 1 reconciliation of existing admitted Derived route, 9 November 2026; no new
+      admission, SEC or publication permission.
+    functional_dependency:
+      status: established
+      statement: Dietary precursor that can be oxidised to betaine, the methyl-donor substrate for BHMT
+      sources:
+        - docs/papers/BRAIN-Diet-References#obeid_metabolic_2013
+        - docs/papers/BRAIN-Diet-References#salvi_choline_2013
+        - docs/papers/BRAIN-Diet-References#evans_betaine_2002
+    dietary_supply:
+      status: established
+      statement: Dietary precursor that can be oxidised to betaine, the methyl-donor substrate for BHMT
+      sources:
+        - docs/papers/BRAIN-Diet-References#obeid_metabolic_2013
+        - docs/papers/BRAIN-Diet-References#salvi_choline_2013
+        - docs/papers/BRAIN-Diet-References#evans_betaine_2002
+    conversion_pathway:
+      - from: choline
+        to: betaine
+        process: Choline oxidation supplies betaine upstream of BHMT.
+        dependencies: []
+        limitations: >-
+          Choline oxidation can supply betaine, but increasing choline intake has not been shown to increase
+          tissue BHMT flux. Human evidence is an eight-man depletion pilot, with the challenge response in four
+          clinically depleted participants; tissue BHMT flux was not measured. Rat donor rescue and specific
+          inhibition support the chain. This does not establish ordinary-diet limitation, response in every
+          tissue or benefit above adequacy. Folate’s indirect constraint on BHMT remains unresolved. Choline
+          oxidation can supply betaine, but increasing choline intake has not been shown to increase tissue BHMT
+          flux. The enzyme evidence uses purified or recombinant human protein, not intact human metabolism.
+          Loss of activity after removing zinc ligands does not show that dietary zinc usually limits the
+          enzyme. The review statement that the pathway is independent of folate and vitamin B12 is not a new
+          flux experiment. Quantitative claims in that review about choline deficiency and liver methionine were
+          not re-checked in the primary animal papers. Purified, stable human choline dehydrogenase has been
+          difficult to obtain, so some catalytic detail is inferred from related enzymes and from tissue
+          activity rather than from a complete human kinetic characterisation. The reviews do not show that
+          raising choline intake increases BHMT flux in people.
+        evidence:
+          statement: Dietary precursor that can be oxidised to betaine, the methyl-donor substrate for BHMT
+          sources:
+            - docs/papers/BRAIN-Diet-References#obeid_metabolic_2013
+            - docs/papers/BRAIN-Diet-References#salvi_choline_2013
+            - docs/papers/BRAIN-Diet-References#evans_betaine_2002
+    limitations:
+      - >-
+        Choline oxidation can supply betaine, but increasing choline intake has not been shown to increase
+        tissue BHMT flux. Human evidence is an eight-man depletion pilot, with the challenge response in four
+        clinically depleted participants; tissue BHMT flux was not measured. Rat donor rescue and specific
+        inhibition support the chain. This does not establish ordinary-diet limitation, response in every tissue
+        or benefit above adequacy. Folate’s indirect constraint on BHMT remains unresolved.
+      - >-
+        Choline oxidation can supply betaine, but increasing choline intake has not been shown to increase
+        tissue BHMT flux.
+      - >-
+        The enzyme evidence uses purified or recombinant human protein, not intact human metabolism. Loss of
+        activity after removing zinc ligands does not show that dietary zinc usually limits the enzyme. The
+        review statement that the pathway is independent of folate and vitamin B12 is not a new flux experiment.
+        Quantitative claims in that review about choline deficiency and liver methionine were not re-checked in
+        the primary animal papers.
+      - >-
+        Purified, stable human choline dehydrogenase has been difficult to obtain, so some catalytic detail is
+        inferred from related enzymes and from tissue activity rather than from a complete human kinetic
+        characterisation. The reviews do not show that raising choline intake increases BHMT flux in people.
+    provenance:
+      - docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx
+      - docs/papers/BRAIN-Diet-References#obeid_metabolic_2013
+      - docs/papers/BRAIN-Diet-References#salvi_choline_2013
+      - docs/papers/BRAIN-Diet-References#evans_betaine_2002
 references:
   - >-
     [Evans et al. (2002) — Human BHMT structure and catalytic
@@ -1283,6 +1360,8 @@ kc_adjudication_history:
 sidebar_label: BRS2-1-2 — Betaine/BHMT Remethylation
 system_optimisation_practices:
   - atom_id: PM2-SOP-MALTED-OATS-1
+    food_ids:
+      - oats
     input: Tested malted and soaked oat porridge
     input_type: food preparation/delivery practice
     optimisation_category: food_prep

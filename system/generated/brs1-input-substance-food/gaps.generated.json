@@ -45,12 +45,6 @@
       "id": "PM5-DIT-RECOVERY-FAD"
     },
     {
-      "kind": "constituent-relationship-type-missing",
-      "pm_id": "BRS1-FM2-PM6",
-      "id": "BRS1-FM2-PM6-KCI-1",
-      "reason": "Established applicability retained; source has no explicit relationship-type label."
-    },
-    {
       "kind": "unpresented-admitted-atom",
       "pm_id": "BRS1-FM4-PM9",
       "id": "PM9-DIT-2"

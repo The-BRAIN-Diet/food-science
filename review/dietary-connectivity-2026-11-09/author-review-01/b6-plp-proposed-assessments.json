@@ -1,0 +1,1120 @@
+{
+  "proposal_status": "awaiting-author-approval",
+  "canonical_write_performed": false,
+  "shared_conversion_source": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
+  "shared_conversion_source_sha256": "1d74ea35b6556b074d106024f44db37bde79b17bdb584a6cf0a385933b1020f7",
+  "source_access": {
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC2204131/": "Primary full text inspected this review; human PDXK kinetics/structure",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/": "Primary full text inspected this review; recombinant human PNPO",
+    "https://pubmed.ncbi.nlm.nih.gov/1995788/": "Abstract retrieved; no full methods verification claimed",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3077887/": "Primary methods/results inspected; preserve null total-transsulfuration result",
+    "original_PM_citations": "Preserved from canonical records; Kennedy/Di Salvo are reviews; Spector animal transport. No fresh full-text verification claimed for all original citations."
+  },
+  "records": [
+    {
+      "pm": "BRS1-FM1-PM3",
+      "source_file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+      "original_atom": {
+        "atom_id": "PM3-DIT-3",
+        "dietary_input": true,
+        "dietary_input_note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+        "input": "Vitamin B6",
+        "input_type": "cofactor precursor",
+        "biological_role": "Dietary route to PLP, the active cofactor for aromatic L-amino-acid decarboxylase. This is not an independent dopamine-synthesis cofactor",
+        "evidence_source": {
+          "finding_ids": [
+            "PM3-F1"
+          ],
+          "citation_keys": [
+            "kennedy_b_2016",
+            "spector_vitamin_1978"
+          ]
+        },
+        "evidence_limitation": "Dietary B6 can supply PLP precursors, including vitamers that enter the central nervous system, but increasing B6 intake has not been shown to increase human brain dopamine synthesis."
+      },
+      "original_overlay": {
+        "atom_id": "PM3-DIT-3",
+        "requirement_classification": "derived",
+        "relationship_mode": "capacity-requirement",
+        "derived_target": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+        "derived_target_atom_id": "PM3-DIT-2",
+        "relationship_layer": "dietary-requirement",
+        "dietary_addressability": "precursor-mediated",
+        "claim_ceiling": "dietary-provision",
+        "permitted_wording": "Vitamin B6 is a Derived Dietary Requirement because dietary B6 vitamers are converted to PLP, the Direct cofactor requirement for aromatic L-amino-acid decarboxylase. It is the dietary route to PLP, not a second independent dopamine cofactor. This does not establish that increasing B6 intake increases dopamine synthesis or improves cognition or ADHD.",
+        "evidence_limitation": "Dietary B6 can supply PLP precursors, including vitamers that enter the central nervous system, but increasing B6 intake has not been shown to increase human brain dopamine synthesis."
+      },
+      "proposal_status": "awaiting-author-approval",
+      "proposed_dietary_input_assessment": {
+        "atom_id": "PM3-DIT-3",
+        "status": "admitted",
+        "type": "A",
+        "classification": "derived",
+        "operation": "Maintain appropriately regulated dopamine synthesis, storage, release, receptor signalling, reuptake and metabolism across changing functional demand.",
+        "canonical_substance_id": "vitamin-b6",
+        "active_target_id": "pyridoxal-5-phosphate",
+        "record_origin": "PROPOSED traceability completion of an existing dietary_input:true and Derived overlay. Not a new admission, SEC assessment or approved integration.",
+        "functional_dependency": {
+          "status": "established",
+          "statement": "PLP supports aromatic L-amino-acid decarboxylase within the receiving PM. This is cofactor provision, not demonstrated increased neurotransmitter synthesis with extra B6.",
+          "sources": [
+            "docs/papers/BRAIN-Diet-References#kennedy_b_2016",
+            "docs/papers/BRAIN-Diet-References#spector_vitamin_1978"
+          ]
+        },
+        "dietary_supply": {
+          "status": "established",
+          "statement": "Oral B6 can supply the salvage pathway; human tracer evidence distinguishes incomplete pyridoxine-glucoside utilisation from free pyridoxine. No neuronal PLP occupancy, food-specific conversion yield or clinical effect is inferred.",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/1995788/",
+            "docs/papers/BRAIN-Diet-References#kennedy_b_2016",
+            "docs/papers/BRAIN-Diet-References#spector_vitamin_1978"
+          ]
+        },
+        "conversion_pathway": [
+          {
+            "from": "vitamin-b6",
+            "to": "pyridoxal-5-phosphate",
+            "kind": "alternative-vitamer-routes",
+            "process": "Vitamer-specific endogenous activation; alternative ordered routes, not one chemical reaction",
+            "dependencies": [
+              "B6 absorption and availability",
+              "Functional PDXK",
+              "PNPO and FMN for PNP/PMP routes"
+            ],
+            "limitations": "Alternative routes distinguish PL phosphorylation from PN/PM phosphorylation followed by oxidation. Total food vitamin B6 does not identify vitamer proportions, effective brain exposure or a predictable PLP yield.",
+            "evidence": {
+              "statement": "Human PDXK and PNPO enzymology supports distinct substrate-specific activation routes to the same canonical PLP target.",
+              "sources": [
+                "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/"
+              ]
+            },
+            "entities": {
+              "CHEBI:17310": {
+                "name": "Pyridoxal",
+                "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+              },
+              "CHEBI:16709": {
+                "name": "Pyridoxine",
+                "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+              },
+              "CHEBI:57761": {
+                "name": "Pyridoxamine",
+                "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+              },
+              "CHEBI:58589": {
+                "name": "Pyridoxine 5-prime phosphate (PNP)",
+                "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+              },
+              "CHEBI:58451": {
+                "name": "Pyridoxamine 5-prime phosphate (PMP)",
+                "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+              }
+            },
+            "substrates": [
+              "CHEBI:17310",
+              "CHEBI:16709",
+              "CHEBI:57761"
+            ],
+            "routes": [
+              {
+                "substrate": "CHEBI:17310",
+                "steps": [
+                  {
+                    "from": "CHEBI:17310",
+                    "to": "pyridoxal-5-phosphate",
+                    "process": "ATP-dependent vitamer phosphorylation",
+                    "enzyme": {
+                      "name": "PDXK",
+                      "uniprot": "O00764",
+                      "entry_version": 219,
+                      "retrieved": "2026-10-24"
+                    },
+                    "reaction_id": "RHEA:10224",
+                    "dependencies": [
+                      "Functional PDXK",
+                      "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                    ],
+                    "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                    "evidence": {
+                      "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                      "sources": [
+                        "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                        "https://www.uniprot.org/uniprotkb/O00764/entry",
+                        "https://www.rhea-db.org/rhea/10224"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "substrate": "CHEBI:16709",
+                "steps": [
+                  {
+                    "from": "CHEBI:16709",
+                    "to": "CHEBI:58589",
+                    "process": "ATP-dependent vitamer phosphorylation",
+                    "enzyme": {
+                      "name": "PDXK",
+                      "uniprot": "O00764",
+                      "entry_version": 219,
+                      "retrieved": "2026-10-24"
+                    },
+                    "reaction_id": "RHEA:25108",
+                    "dependencies": [
+                      "Functional PDXK",
+                      "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                    ],
+                    "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                    "evidence": {
+                      "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                      "sources": [
+                        "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                        "https://www.uniprot.org/uniprotkb/O00764/entry",
+                        "https://www.rhea-db.org/rhea/25108"
+                      ]
+                    }
+                  },
+                  {
+                    "from": "CHEBI:58589",
+                    "to": "pyridoxal-5-phosphate",
+                    "process": "FMN-dependent oxidation to PLP",
+                    "enzyme": {
+                      "name": "PNPO",
+                      "uniprot": "Q9NVS9",
+                      "entry_version": 211,
+                      "retrieved": "2026-10-24"
+                    },
+                    "reaction_id": "RHEA:15149",
+                    "dependencies": [
+                      "Functional PNPO",
+                      "Enzyme-bound FMN",
+                      "Molecular oxygen"
+                    ],
+                    "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                    "evidence": {
+                      "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                      "sources": [
+                        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                        "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                        "https://www.rhea-db.org/rhea/15149"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "substrate": "CHEBI:57761",
+                "steps": [
+                  {
+                    "from": "CHEBI:57761",
+                    "to": "CHEBI:58451",
+                    "process": "ATP-dependent vitamer phosphorylation",
+                    "enzyme": {
+                      "name": "PDXK",
+                      "uniprot": "O00764",
+                      "entry_version": 219,
+                      "retrieved": "2026-10-24"
+                    },
+                    "reaction_id": "RHEA:25104",
+                    "dependencies": [
+                      "Functional PDXK",
+                      "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                    ],
+                    "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                    "evidence": {
+                      "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                      "sources": [
+                        "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                        "https://www.uniprot.org/uniprotkb/O00764/entry",
+                        "https://www.rhea-db.org/rhea/25104"
+                      ]
+                    }
+                  },
+                  {
+                    "from": "CHEBI:58451",
+                    "to": "pyridoxal-5-phosphate",
+                    "process": "FMN-dependent oxidation to PLP",
+                    "enzyme": {
+                      "name": "PNPO",
+                      "uniprot": "Q9NVS9",
+                      "entry_version": 211,
+                      "retrieved": "2026-10-24"
+                    },
+                    "reaction_id": "RHEA:15817",
+                    "dependencies": [
+                      "Functional PNPO",
+                      "Enzyme-bound FMN",
+                      "Molecular oxygen"
+                    ],
+                    "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                    "evidence": {
+                      "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                      "sources": [
+                        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                        "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                        "https://www.rhea-db.org/rhea/15817"
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "provenance": [
+          "Original six atoms, historical admission, Derived overlay, PM mission and existing SEC remain unchanged.",
+          "Preserved original citation: kennedy_b_2016",
+          "Preserved original citation: spector_vitamin_1978",
+          "Shared human PDXK/PNPO biochemical routes reused from PM9 with explicit source provenance; PM9 functional dependency, GAD claims and confidence not copied."
+        ],
+        "limitations": [
+          "Dietary B6 can supply PLP precursors, including vitamers that enter the central nervous system, but increasing B6 intake has not been shown to increase human brain dopamine synthesis.",
+          "Dietary B6 can supply PLP precursors, including vitamers that enter the central nervous system, but increasing B6 intake has not been shown to increase human brain dopamine synthesis.",
+          "Total food B6 does not establish vitamer proportions or a fixed conversion yield. Plant PN-glucoside requires hydrolysis and has incomplete utilisation. Circulating or rabbit-brain observations are not human neurotransmitter synthesis or ADHD outcomes.",
+          "Spector 1978 transport experiments were in rabbits; do not describe them as measured human brain target engagement."
+        ]
+      },
+      "schema_validation": {
+        "status": "admitted",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": []
+      }
+    },
+    {
+      "pm": "BRS1-FM1-PM4",
+      "source_file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
+      "original_atom": {
+        "atom_id": "PM4-DIT-3",
+        "dietary_input": true,
+        "dietary_input_note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+        "input": "Vitamin B6",
+        "input_type": "cofactor precursor",
+        "biological_role": "Provides dietary B6 vitamers that are converted to PLP",
+        "evidence_source": {
+          "finding_ids": [
+            "PM4-F2"
+          ],
+          "citation_keys": [
+            "kennedy_b_2016",
+            "spector_vitamin_1978"
+          ]
+        },
+        "evidence_limitation": "Dietary B6 can supply PLP precursors, including vitamers that enter the central nervous system, but increasing B6 intake has not been shown to increase human brain noradrenaline synthesis."
+      },
+      "original_overlay": {
+        "atom_id": "PM4-DIT-3",
+        "requirement_classification": "derived",
+        "derived_target": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+        "derived_target_atom_id": "PM4-DIT-2",
+        "relationship_layer": "dietary-requirement",
+        "dietary_addressability": "precursor-mediated",
+        "claim_ceiling": "dietary-provision",
+        "permitted_wording": "Vitamin B6 is a Derived Dietary Requirement because dietary B6 vitamers are converted to PLP. This does not establish that increasing B6 intake increases noradrenaline synthesis or improves attention.",
+        "evidence_limitation": "Dietary B6 can supply PLP precursors, including vitamers that enter the central nervous system, but increasing B6 intake has not been shown to increase human brain noradrenaline synthesis."
+      },
+      "proposal_status": "awaiting-author-approval",
+      "proposed_dietary_input_assessment": {
+        "atom_id": "PM4-DIT-3",
+        "status": "admitted",
+        "type": "A",
+        "classification": "derived",
+        "operation": "Support noradrenergic alertness and executive control so attention and arousal stay appropriately engaged.",
+        "canonical_substance_id": "vitamin-b6",
+        "active_target_id": "pyridoxal-5-phosphate",
+        "record_origin": "PROPOSED traceability completion of an existing dietary_input:true and Derived overlay. Not a new admission, SEC assessment or approved integration.",
+        "functional_dependency": {
+          "status": "established",
+          "statement": "PLP supports aromatic L-amino-acid decarboxylase upstream of noradrenaline synthesis. It is not the copper-dependent dopamine-beta-hydroxylase cofactor and does not show an attention benefit.",
+          "sources": [
+            "docs/papers/BRAIN-Diet-References#kennedy_b_2016",
+            "docs/papers/BRAIN-Diet-References#spector_vitamin_1978"
+          ]
+        },
+        "dietary_supply": {
+          "status": "established",
+          "statement": "Oral B6 can supply the salvage pathway; human tracer evidence distinguishes incomplete pyridoxine-glucoside utilisation from free pyridoxine. No neuronal PLP occupancy, food-specific conversion yield or clinical effect is inferred.",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/1995788/",
+            "docs/papers/BRAIN-Diet-References#kennedy_b_2016",
+            "docs/papers/BRAIN-Diet-References#spector_vitamin_1978"
+          ]
+        },
+        "conversion_pathway": [
+          {
+            "from": "vitamin-b6",
+            "to": "pyridoxal-5-phosphate",
+            "kind": "alternative-vitamer-routes",
+            "process": "Vitamer-specific endogenous activation; alternative ordered routes, not one chemical reaction",
+            "dependencies": [
+              "B6 absorption and availability",
+              "Functional PDXK",
+              "PNPO and FMN for PNP/PMP routes"
+            ],
+            "limitations": "Alternative routes distinguish PL phosphorylation from PN/PM phosphorylation followed by oxidation. Total food vitamin B6 does not identify vitamer proportions, effective brain exposure or a predictable PLP yield.",
+            "evidence": {
+              "statement": "Human PDXK and PNPO enzymology supports distinct substrate-specific activation routes to the same canonical PLP target.",
+              "sources": [
+                "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/"
+              ]
+            },
+            "entities": {
+              "CHEBI:17310": {
+                "name": "Pyridoxal",
+                "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+              },
+              "CHEBI:16709": {
+                "name": "Pyridoxine",
+                "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+              },
+              "CHEBI:57761": {
+                "name": "Pyridoxamine",
+                "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+              },
+              "CHEBI:58589": {
+                "name": "Pyridoxine 5-prime phosphate (PNP)",
+                "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+              },
+              "CHEBI:58451": {
+                "name": "Pyridoxamine 5-prime phosphate (PMP)",
+                "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+              }
+            },
+            "substrates": [
+              "CHEBI:17310",
+              "CHEBI:16709",
+              "CHEBI:57761"
+            ],
+            "routes": [
+              {
+                "substrate": "CHEBI:17310",
+                "steps": [
+                  {
+                    "from": "CHEBI:17310",
+                    "to": "pyridoxal-5-phosphate",
+                    "process": "ATP-dependent vitamer phosphorylation",
+                    "enzyme": {
+                      "name": "PDXK",
+                      "uniprot": "O00764",
+                      "entry_version": 219,
+                      "retrieved": "2026-10-24"
+                    },
+                    "reaction_id": "RHEA:10224",
+                    "dependencies": [
+                      "Functional PDXK",
+                      "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                    ],
+                    "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                    "evidence": {
+                      "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                      "sources": [
+                        "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                        "https://www.uniprot.org/uniprotkb/O00764/entry",
+                        "https://www.rhea-db.org/rhea/10224"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "substrate": "CHEBI:16709",
+                "steps": [
+                  {
+                    "from": "CHEBI:16709",
+                    "to": "CHEBI:58589",
+                    "process": "ATP-dependent vitamer phosphorylation",
+                    "enzyme": {
+                      "name": "PDXK",
+                      "uniprot": "O00764",
+                      "entry_version": 219,
+                      "retrieved": "2026-10-24"
+                    },
+                    "reaction_id": "RHEA:25108",
+                    "dependencies": [
+                      "Functional PDXK",
+                      "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                    ],
+                    "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                    "evidence": {
+                      "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                      "sources": [
+                        "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                        "https://www.uniprot.org/uniprotkb/O00764/entry",
+                        "https://www.rhea-db.org/rhea/25108"
+                      ]
+                    }
+                  },
+                  {
+                    "from": "CHEBI:58589",
+                    "to": "pyridoxal-5-phosphate",
+                    "process": "FMN-dependent oxidation to PLP",
+                    "enzyme": {
+                      "name": "PNPO",
+                      "uniprot": "Q9NVS9",
+                      "entry_version": 211,
+                      "retrieved": "2026-10-24"
+                    },
+                    "reaction_id": "RHEA:15149",
+                    "dependencies": [
+                      "Functional PNPO",
+                      "Enzyme-bound FMN",
+                      "Molecular oxygen"
+                    ],
+                    "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                    "evidence": {
+                      "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                      "sources": [
+                        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                        "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                        "https://www.rhea-db.org/rhea/15149"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "substrate": "CHEBI:57761",
+                "steps": [
+                  {
+                    "from": "CHEBI:57761",
+                    "to": "CHEBI:58451",
+                    "process": "ATP-dependent vitamer phosphorylation",
+                    "enzyme": {
+                      "name": "PDXK",
+                      "uniprot": "O00764",
+                      "entry_version": 219,
+                      "retrieved": "2026-10-24"
+                    },
+                    "reaction_id": "RHEA:25104",
+                    "dependencies": [
+                      "Functional PDXK",
+                      "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                    ],
+                    "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                    "evidence": {
+                      "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                      "sources": [
+                        "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                        "https://www.uniprot.org/uniprotkb/O00764/entry",
+                        "https://www.rhea-db.org/rhea/25104"
+                      ]
+                    }
+                  },
+                  {
+                    "from": "CHEBI:58451",
+                    "to": "pyridoxal-5-phosphate",
+                    "process": "FMN-dependent oxidation to PLP",
+                    "enzyme": {
+                      "name": "PNPO",
+                      "uniprot": "Q9NVS9",
+                      "entry_version": 211,
+                      "retrieved": "2026-10-24"
+                    },
+                    "reaction_id": "RHEA:15817",
+                    "dependencies": [
+                      "Functional PNPO",
+                      "Enzyme-bound FMN",
+                      "Molecular oxygen"
+                    ],
+                    "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                    "evidence": {
+                      "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                      "sources": [
+                        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                        "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                        "https://www.rhea-db.org/rhea/15817"
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "provenance": [
+          "Original six atoms, historical admission, Derived overlay, PM mission and existing SEC remain unchanged.",
+          "Preserved original citation: kennedy_b_2016",
+          "Preserved original citation: spector_vitamin_1978",
+          "Shared human PDXK/PNPO biochemical routes reused from PM9 with explicit source provenance; PM9 functional dependency, GAD claims and confidence not copied."
+        ],
+        "limitations": [
+          "Dietary B6 can supply PLP precursors, including vitamers that enter the central nervous system, but increasing B6 intake has not been shown to increase human brain noradrenaline synthesis.",
+          "Dietary B6 can supply PLP precursors, including vitamers that enter the central nervous system, but increasing B6 intake has not been shown to increase human brain noradrenaline synthesis.",
+          "Total food B6 does not establish vitamer proportions or a fixed conversion yield. Plant PN-glucoside requires hydrolysis and has incomplete utilisation. Circulating or rabbit-brain observations are not human neurotransmitter synthesis or ADHD outcomes.",
+          "Spector 1978 transport experiments were in rabbits; do not describe them as measured human brain target engagement."
+        ]
+      },
+      "schema_validation": {
+        "status": "admitted",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": []
+      }
+    },
+    {
+      "pm": "BRS1-FM1-PM5",
+      "source_file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+      "original_atom": {
+        "atom_id": "PM5-DIT-4",
+        "dietary_input": true,
+        "dietary_input_note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+        "input": "Vitamin B6",
+        "input_type": "cofactor precursor",
+        "biological_role": "Provides dietary B6 vitamers that are converted to PLP",
+        "evidence_source": {
+          "finding_ids": [
+            "PM5-F2"
+          ],
+          "citation_keys": [
+            "kennedy_b_2016",
+            "spector_vitamin_1978"
+          ]
+        },
+        "evidence_limitation": "Dietary B6 can supply PLP precursors, including vitamers that enter the central nervous system, but increasing B6 intake has not been shown to increase human brain serotonin synthesis."
+      },
+      "original_overlay": {
+        "atom_id": "PM5-DIT-4",
+        "requirement_classification": "derived",
+        "relationship_mode": "capacity-requirement",
+        "derived_target": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+        "derived_target_atom_id": "PM5-DIT-3",
+        "relationship_layer": "dietary-requirement",
+        "dietary_addressability": "precursor-mediated",
+        "claim_ceiling": "dietary-provision",
+        "permitted_wording": "Vitamin B6 is a Derived Dietary Requirement because dietary B6 vitamers are converted to PLP. This does not establish that increasing B6 intake increases serotonin synthesis or improves mood, sleep or ADHD.",
+        "evidence_limitation": "Dietary B6 can supply PLP precursors, including vitamers that enter the central nervous system, but increasing B6 intake has not been shown to increase human brain serotonin synthesis."
+      },
+      "proposal_status": "awaiting-author-approval",
+      "proposed_dietary_input_assessment": {
+        "atom_id": "PM5-DIT-4",
+        "status": "admitted",
+        "type": "A",
+        "classification": "derived",
+        "operation": "Support serotonergic signalling so mood stability, inhibition, and behavioural regulation remain well grounded.",
+        "canonical_substance_id": "vitamin-b6",
+        "active_target_id": "pyridoxal-5-phosphate",
+        "record_origin": "PROPOSED traceability completion of an existing dietary_input:true and Derived overlay. Not a new admission, SEC assessment or approved integration.",
+        "functional_dependency": {
+          "status": "established",
+          "statement": "PLP supports aromatic L-amino-acid decarboxylase within the receiving PM. This is cofactor provision, not demonstrated increased neurotransmitter synthesis with extra B6.",
+          "sources": [
+            "docs/papers/BRAIN-Diet-References#kennedy_b_2016",
+            "docs/papers/BRAIN-Diet-References#spector_vitamin_1978"
+          ]
+        },
+        "dietary_supply": {
+          "status": "established",
+          "statement": "Oral B6 can supply the salvage pathway; human tracer evidence distinguishes incomplete pyridoxine-glucoside utilisation from free pyridoxine. No neuronal PLP occupancy, food-specific conversion yield or clinical effect is inferred.",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/1995788/",
+            "docs/papers/BRAIN-Diet-References#kennedy_b_2016",
+            "docs/papers/BRAIN-Diet-References#spector_vitamin_1978"
+          ]
+        },
+        "conversion_pathway": [
+          {
+            "from": "vitamin-b6",
+            "to": "pyridoxal-5-phosphate",
+            "kind": "alternative-vitamer-routes",
+            "process": "Vitamer-specific endogenous activation; alternative ordered routes, not one chemical reaction",
+            "dependencies": [
+              "B6 absorption and availability",
+              "Functional PDXK",
+              "PNPO and FMN for PNP/PMP routes"
+            ],
+            "limitations": "Alternative routes distinguish PL phosphorylation from PN/PM phosphorylation followed by oxidation. Total food vitamin B6 does not identify vitamer proportions, effective brain exposure or a predictable PLP yield.",
+            "evidence": {
+              "statement": "Human PDXK and PNPO enzymology supports distinct substrate-specific activation routes to the same canonical PLP target.",
+              "sources": [
+                "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/"
+              ]
+            },
+            "entities": {
+              "CHEBI:17310": {
+                "name": "Pyridoxal",
+                "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+              },
+              "CHEBI:16709": {
+                "name": "Pyridoxine",
+                "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+              },
+              "CHEBI:57761": {
+                "name": "Pyridoxamine",
+                "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+              },
+              "CHEBI:58589": {
+                "name": "Pyridoxine 5-prime phosphate (PNP)",
+                "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+              },
+              "CHEBI:58451": {
+                "name": "Pyridoxamine 5-prime phosphate (PMP)",
+                "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+              }
+            },
+            "substrates": [
+              "CHEBI:17310",
+              "CHEBI:16709",
+              "CHEBI:57761"
+            ],
+            "routes": [
+              {
+                "substrate": "CHEBI:17310",
+                "steps": [
+                  {
+                    "from": "CHEBI:17310",
+                    "to": "pyridoxal-5-phosphate",
+                    "process": "ATP-dependent vitamer phosphorylation",
+                    "enzyme": {
+                      "name": "PDXK",
+                      "uniprot": "O00764",
+                      "entry_version": 219,
+                      "retrieved": "2026-10-24"
+                    },
+                    "reaction_id": "RHEA:10224",
+                    "dependencies": [
+                      "Functional PDXK",
+                      "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                    ],
+                    "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                    "evidence": {
+                      "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                      "sources": [
+                        "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                        "https://www.uniprot.org/uniprotkb/O00764/entry",
+                        "https://www.rhea-db.org/rhea/10224"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "substrate": "CHEBI:16709",
+                "steps": [
+                  {
+                    "from": "CHEBI:16709",
+                    "to": "CHEBI:58589",
+                    "process": "ATP-dependent vitamer phosphorylation",
+                    "enzyme": {
+                      "name": "PDXK",
+                      "uniprot": "O00764",
+                      "entry_version": 219,
+                      "retrieved": "2026-10-24"
+                    },
+                    "reaction_id": "RHEA:25108",
+                    "dependencies": [
+                      "Functional PDXK",
+                      "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                    ],
+                    "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                    "evidence": {
+                      "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                      "sources": [
+                        "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                        "https://www.uniprot.org/uniprotkb/O00764/entry",
+                        "https://www.rhea-db.org/rhea/25108"
+                      ]
+                    }
+                  },
+                  {
+                    "from": "CHEBI:58589",
+                    "to": "pyridoxal-5-phosphate",
+                    "process": "FMN-dependent oxidation to PLP",
+                    "enzyme": {
+                      "name": "PNPO",
+                      "uniprot": "Q9NVS9",
+                      "entry_version": 211,
+                      "retrieved": "2026-10-24"
+                    },
+                    "reaction_id": "RHEA:15149",
+                    "dependencies": [
+                      "Functional PNPO",
+                      "Enzyme-bound FMN",
+                      "Molecular oxygen"
+                    ],
+                    "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                    "evidence": {
+                      "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                      "sources": [
+                        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                        "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                        "https://www.rhea-db.org/rhea/15149"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "substrate": "CHEBI:57761",
+                "steps": [
+                  {
+                    "from": "CHEBI:57761",
+                    "to": "CHEBI:58451",
+                    "process": "ATP-dependent vitamer phosphorylation",
+                    "enzyme": {
+                      "name": "PDXK",
+                      "uniprot": "O00764",
+                      "entry_version": 219,
+                      "retrieved": "2026-10-24"
+                    },
+                    "reaction_id": "RHEA:25104",
+                    "dependencies": [
+                      "Functional PDXK",
+                      "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                    ],
+                    "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                    "evidence": {
+                      "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                      "sources": [
+                        "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                        "https://www.uniprot.org/uniprotkb/O00764/entry",
+                        "https://www.rhea-db.org/rhea/25104"
+                      ]
+                    }
+                  },
+                  {
+                    "from": "CHEBI:58451",
+                    "to": "pyridoxal-5-phosphate",
+                    "process": "FMN-dependent oxidation to PLP",
+                    "enzyme": {
+                      "name": "PNPO",
+                      "uniprot": "Q9NVS9",
+                      "entry_version": 211,
+                      "retrieved": "2026-10-24"
+                    },
+                    "reaction_id": "RHEA:15817",
+                    "dependencies": [
+                      "Functional PNPO",
+                      "Enzyme-bound FMN",
+                      "Molecular oxygen"
+                    ],
+                    "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                    "evidence": {
+                      "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                      "sources": [
+                        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                        "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                        "https://www.rhea-db.org/rhea/15817"
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "provenance": [
+          "Original six atoms, historical admission, Derived overlay, PM mission and existing SEC remain unchanged.",
+          "Preserved original citation: kennedy_b_2016",
+          "Preserved original citation: spector_vitamin_1978",
+          "Shared human PDXK/PNPO biochemical routes reused from PM9 with explicit source provenance; PM9 functional dependency, GAD claims and confidence not copied."
+        ],
+        "limitations": [
+          "Dietary B6 can supply PLP precursors, including vitamers that enter the central nervous system, but increasing B6 intake has not been shown to increase human brain serotonin synthesis.",
+          "Dietary B6 can supply PLP precursors, including vitamers that enter the central nervous system, but increasing B6 intake has not been shown to increase human brain serotonin synthesis.",
+          "Total food B6 does not establish vitamer proportions or a fixed conversion yield. Plant PN-glucoside requires hydrolysis and has incomplete utilisation. Circulating or rabbit-brain observations are not human neurotransmitter synthesis or ADHD outcomes.",
+          "Spector 1978 transport experiments were in rabbits; do not describe them as measured human brain target engagement."
+        ]
+      },
+      "schema_validation": {
+        "status": "admitted",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": []
+      }
+    },
+    {
+      "pm": "BRS2-FM2-PM5",
+      "source_file": "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx",
+      "original_atom": {
+        "atom_id": "PM5-DIT-2",
+        "dietary_input": true,
+        "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "input": "Vitamin B6",
+        "input_type": "cofactor precursor",
+        "biological_role": "Food source of the pyridoxal 5'-phosphate cofactor used by cystathionine beta-synthase and cystathionine gamma-lyase, through the vitamin B6 salvage pathway.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM5-F1",
+            "PM5-IC1",
+            "PM5-F5"
+          ],
+          "citation_keys": [
+            "disalvo_plp_availability_2012",
+            "belew_cbs_kinetics_2009",
+            "zhu_cgl_kinetics_2008",
+            "lamers_vitamin_b6_methionine_cycle_2011"
+          ]
+        },
+        "evidence_limitation": "Salvage of food vitamin B6 to pyridoxal 5'-phosphate does not show that higher vitamin B6 intake increases cystathionine beta-synthase or cystathionine gamma-lyase flux. Moderate B6 restriction changed cystathionine handling but did not significantly reduce total transsulfuration in the assessed human tracer study."
+      },
+      "original_overlay": {
+        "atom_id": "PM5-DIT-2",
+        "requirement_classification": "derived",
+        "derived_target": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+        "derived_target_atom_id": "PM5-DIT-1",
+        "relationship_mode": "capacity-requirement",
+        "relationship_layer": "dietary-requirement",
+        "dietary_addressability": "direct",
+        "claim_ceiling": "biological-dependency",
+        "permitted_wording": "Vitamin B6 from food is salvaged to pyridoxal 5'-phosphate. That provision relationship does not show that higher vitamin B6 intake increases transsulfuration flux.",
+        "evidence_limitation": "Salvage of food vitamin B6 to pyridoxal 5'-phosphate does not show that higher vitamin B6 intake increases cystathionine beta-synthase or cystathionine gamma-lyase flux. Moderate B6 restriction changed cystathionine handling but did not significantly reduce total transsulfuration in the assessed human tracer study."
+      },
+      "proposal_status": "awaiting-author-approval",
+      "proposed_dietary_input_assessment": {
+        "atom_id": "PM5-DIT-2",
+        "status": "admitted",
+        "type": "A",
+        "classification": "derived",
+        "operation": "Divert homocysteine toward cysteine so methylation demand is balanced against sulfur amino-acid and redox needs.",
+        "canonical_substance_id": "vitamin-b6",
+        "active_target_id": "pyridoxal-5-phosphate",
+        "record_origin": "PROPOSED traceability completion of an existing dietary_input:true and Derived overlay. Not a new admission, SEC assessment or approved integration.",
+        "functional_dependency": {
+          "status": "established",
+          "statement": "PLP supplies the cofactor used by CBS and CGL in the receiving transsulfuration operation; dietary B6 salvages to PLP. This is capacity, not evidence that extra intake increases flux.",
+          "sources": [
+            "docs/papers/BRAIN-Diet-References#disalvo_plp_availability_2012",
+            "docs/papers/BRAIN-Diet-References#belew_cbs_kinetics_2009",
+            "docs/papers/BRAIN-Diet-References#zhu_cgl_kinetics_2008",
+            "docs/papers/BRAIN-Diet-References#lamers_vitamin_b6_methionine_cycle_2011"
+          ]
+        },
+        "dietary_supply": {
+          "status": "established",
+          "statement": "Oral B6 can supply the salvage pathway; human tracer evidence distinguishes incomplete pyridoxine-glucoside utilisation from free pyridoxine. No neuronal PLP occupancy, food-specific conversion yield or clinical effect is inferred.",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/1995788/",
+            "docs/papers/BRAIN-Diet-References#disalvo_plp_availability_2012",
+            "docs/papers/BRAIN-Diet-References#belew_cbs_kinetics_2009",
+            "docs/papers/BRAIN-Diet-References#zhu_cgl_kinetics_2008",
+            "docs/papers/BRAIN-Diet-References#lamers_vitamin_b6_methionine_cycle_2011"
+          ]
+        },
+        "conversion_pathway": [
+          {
+            "from": "vitamin-b6",
+            "to": "pyridoxal-5-phosphate",
+            "kind": "alternative-vitamer-routes",
+            "process": "Vitamer-specific endogenous activation; alternative ordered routes, not one chemical reaction",
+            "dependencies": [
+              "B6 absorption and availability",
+              "Functional PDXK",
+              "PNPO and FMN for PNP/PMP routes"
+            ],
+            "limitations": "Alternative routes distinguish PL phosphorylation from PN/PM phosphorylation followed by oxidation. Total food vitamin B6 does not identify vitamer proportions, effective brain exposure or a predictable PLP yield.",
+            "evidence": {
+              "statement": "Human PDXK and PNPO enzymology supports distinct substrate-specific activation routes to the same canonical PLP target.",
+              "sources": [
+                "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/"
+              ]
+            },
+            "entities": {
+              "CHEBI:17310": {
+                "name": "Pyridoxal",
+                "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+              },
+              "CHEBI:16709": {
+                "name": "Pyridoxine",
+                "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+              },
+              "CHEBI:57761": {
+                "name": "Pyridoxamine",
+                "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+              },
+              "CHEBI:58589": {
+                "name": "Pyridoxine 5-prime phosphate (PNP)",
+                "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+              },
+              "CHEBI:58451": {
+                "name": "Pyridoxamine 5-prime phosphate (PMP)",
+                "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+              }
+            },
+            "substrates": [
+              "CHEBI:17310",
+              "CHEBI:16709",
+              "CHEBI:57761"
+            ],
+            "routes": [
+              {
+                "substrate": "CHEBI:17310",
+                "steps": [
+                  {
+                    "from": "CHEBI:17310",
+                    "to": "pyridoxal-5-phosphate",
+                    "process": "ATP-dependent vitamer phosphorylation",
+                    "enzyme": {
+                      "name": "PDXK",
+                      "uniprot": "O00764",
+                      "entry_version": 219,
+                      "retrieved": "2026-10-24"
+                    },
+                    "reaction_id": "RHEA:10224",
+                    "dependencies": [
+                      "Functional PDXK",
+                      "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                    ],
+                    "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                    "evidence": {
+                      "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                      "sources": [
+                        "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                        "https://www.uniprot.org/uniprotkb/O00764/entry",
+                        "https://www.rhea-db.org/rhea/10224"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "substrate": "CHEBI:16709",
+                "steps": [
+                  {
+                    "from": "CHEBI:16709",
+                    "to": "CHEBI:58589",
+                    "process": "ATP-dependent vitamer phosphorylation",
+                    "enzyme": {
+                      "name": "PDXK",
+                      "uniprot": "O00764",
+                      "entry_version": 219,
+                      "retrieved": "2026-10-24"
+                    },
+                    "reaction_id": "RHEA:25108",
+                    "dependencies": [
+                      "Functional PDXK",
+                      "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                    ],
+                    "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                    "evidence": {
+                      "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                      "sources": [
+                        "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                        "https://www.uniprot.org/uniprotkb/O00764/entry",
+                        "https://www.rhea-db.org/rhea/25108"
+                      ]
+                    }
+                  },
+                  {
+                    "from": "CHEBI:58589",
+                    "to": "pyridoxal-5-phosphate",
+                    "process": "FMN-dependent oxidation to PLP",
+                    "enzyme": {
+                      "name": "PNPO",
+                      "uniprot": "Q9NVS9",
+                      "entry_version": 211,
+                      "retrieved": "2026-10-24"
+                    },
+                    "reaction_id": "RHEA:15149",
+                    "dependencies": [
+                      "Functional PNPO",
+                      "Enzyme-bound FMN",
+                      "Molecular oxygen"
+                    ],
+                    "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                    "evidence": {
+                      "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                      "sources": [
+                        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                        "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                        "https://www.rhea-db.org/rhea/15149"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "substrate": "CHEBI:57761",
+                "steps": [
+                  {
+                    "from": "CHEBI:57761",
+                    "to": "CHEBI:58451",
+                    "process": "ATP-dependent vitamer phosphorylation",
+                    "enzyme": {
+                      "name": "PDXK",
+                      "uniprot": "O00764",
+                      "entry_version": 219,
+                      "retrieved": "2026-10-24"
+                    },
+                    "reaction_id": "RHEA:25104",
+                    "dependencies": [
+                      "Functional PDXK",
+                      "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                    ],
+                    "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                    "evidence": {
+                      "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                      "sources": [
+                        "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                        "https://www.uniprot.org/uniprotkb/O00764/entry",
+                        "https://www.rhea-db.org/rhea/25104"
+                      ]
+                    }
+                  },
+                  {
+                    "from": "CHEBI:58451",
+                    "to": "pyridoxal-5-phosphate",
+                    "process": "FMN-dependent oxidation to PLP",
+                    "enzyme": {
+                      "name": "PNPO",
+                      "uniprot": "Q9NVS9",
+                      "entry_version": 211,
+                      "retrieved": "2026-10-24"
+                    },
+                    "reaction_id": "RHEA:15817",
+                    "dependencies": [
+                      "Functional PNPO",
+                      "Enzyme-bound FMN",
+                      "Molecular oxygen"
+                    ],
+                    "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                    "evidence": {
+                      "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                      "sources": [
+                        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                        "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                        "https://www.rhea-db.org/rhea/15817"
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "provenance": [
+          "Original six atoms, historical admission, Derived overlay, PM mission and existing SEC remain unchanged.",
+          "Preserved original citation: disalvo_plp_availability_2012",
+          "Preserved original citation: belew_cbs_kinetics_2009",
+          "Preserved original citation: zhu_cgl_kinetics_2008",
+          "Preserved original citation: lamers_vitamin_b6_methionine_cycle_2011",
+          "Shared human PDXK/PNPO biochemical routes reused from PM9 with explicit source provenance; PM9 functional dependency, GAD claims and confidence not copied."
+        ],
+        "limitations": [
+          "Salvage of food vitamin B6 to pyridoxal 5'-phosphate does not show that higher vitamin B6 intake increases cystathionine beta-synthase or cystathionine gamma-lyase flux. Moderate B6 restriction changed cystathionine handling but did not significantly reduce total transsulfuration in the assessed human tracer study.",
+          "Salvage of food vitamin B6 to pyridoxal 5'-phosphate does not show that higher vitamin B6 intake increases cystathionine beta-synthase or cystathionine gamma-lyase flux. Moderate B6 restriction changed cystathionine handling but did not significantly reduce total transsulfuration in the assessed human tracer study.",
+          "Total food B6 does not establish vitamer proportions or a fixed conversion yield. Plant PN-glucoside requires hydrolysis and has incomplete utilisation. Circulating or rabbit-brain observations are not human neurotransmitter synthesis or ADHD outcomes.",
+          "Lamers 2011: moderate restriction lowered plasma PLP and increased cystathionine fractional synthesis, but remethylation, transmethylation and total transsulfuration rates were not significantly altered. Preserve the null outcomes."
+        ]
+      },
+      "schema_validation": {
+        "status": "admitted",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": []
+      }
+    }
+  ]
+}

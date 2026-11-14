@@ -11,6 +11,7 @@ import {
   relatedViaLabel,
   relatedSubstanceRollup,
   relativeSourcePower,
+  constituentPathwayFoods,
 } from "../src/data/relatedSubstanceRelationships.mjs"
 import {selectQuantified} from "../src/data/inputSubstanceFoodSelection.mjs"
 
@@ -183,6 +184,43 @@ test("one new resistant-starch food generates butyrate everywhere and FOS/GOS st
   assert.deepEqual(fresh.ranked.map((row) => row.food_id), ["high", "low"])
   assert.equal(dry.ranked.length, 0)
   assert.equal(dry.unranked[0].food_id, "dry")
+})
+
+test("FOS/GOS constituent foods stay off the combined preparation", () => {
+  const candidates = [
+    "chicory-root",
+    "jerusalem-artichokes",
+    "garlic",
+    "onions",
+    "leeks",
+    "asparagus",
+    "bananas",
+    "wheat",
+    "peas",
+    "lentils",
+    "black-beans",
+    "kidney-beans",
+    "chickpeas",
+    "soy",
+  ].map(readFood)
+  const groups = constituentPathwayFoods(candidates, "fructo-galacto-oligosaccharides")
+  const byId = Object.fromEntries(groups.map((group) => [group.id, group.rows.map((row) => row.food_id).sort()]))
+  assert.deepEqual(byId["fos-oligofructose"], ["onions"])
+  assert.deepEqual(byId["inulin-type-fructans"], ["asparagus", "chicory-root", "garlic", "jerusalem-artichokes"])
+  assert.deepEqual(byId["galactosyl-oligosaccharides"], ["onions"])
+  assert.equal(groups.every((group) => group.rows.every((row) => row.direct_parent_containment === false)), true)
+  const onionFos = groups.find((group) => group.id === "fos-oligofructose").rows[0]
+  assert.match(onionFos.amount, /not assigned/i)
+  assert.equal(onionFos.material, "White onion")
+  const chicory = groups.find((group) => group.id === "inulin-type-fructans").rows.find((row) => row.food_id === "chicory-root")
+  assert.match(chicory.amount, /8\.40/)
+  assert.equal(chicory.constituent, "Fructans")
+  const fosInput = relatedFoodsForInput(
+    mapping.relationships.filter((row) => row.substance_id === "fructo-galacto-oligosaccharides"),
+    mapping.food_sources,
+  )
+  assert.deepEqual(fosInput, [])
+  assert.equal(relatedSubstancesForFood(readFood("chicory-root").frontMatter).some((row) => row.related_id === "fructo-galacto-oligosaccharides"), false)
 })
 
 test("ellagitannin foods supply related ellagic acid without an ellagic acid quantity", () => {

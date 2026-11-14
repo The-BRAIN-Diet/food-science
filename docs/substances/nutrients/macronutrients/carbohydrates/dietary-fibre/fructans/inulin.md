@@ -62,3 +62,9 @@ The mouse study prevented increased inner-colonic mucus penetrability on a Weste
 [2] Niness (1999). [Inulin and oligofructose: what are they?](/docs/papers/BRAIN-Diet-References#niness_inulin_oligofructose_1999). Describes oligofructose as the short-chain subgroup of inulin, with an upper bound of 10 rather than 8, so the cutoff is a convention.
 
 [3] Schroeder et al. (2018). [Bifidobacteria or Fiber Protects against Diet-Induced Microbiota-Mediated Colonic Mucus Deterioration](/docs/papers/BRAIN-Diet-References#schroeder_bifidobacteria_2018). In Western-diet mice, oligofructose-enriched inulin prevented increased inner-colonic mucus penetrability. Mucus growth was not restored, and combining it with B. longum NCC2705 did not preserve the penetrability effect.
+
+## Oligofructose-enriched inulin {#oligofructose-enriched-inulin-schroeder-2018}
+
+The mixture preserved mucus penetrability in Western-diet mice, not mucus growth. Combining it with NCC2705 did not preserve the penetrability effect; constituent efficacy cannot be inferred. [Original study](/docs/papers/BRAIN-Diet-References#schroeder_bifidobacteria_2018).
+
+This identity denotes the source-specific studied material. Manufacturer, batch, formulation proportions and analytical specifications must not be inferred from its name; details not established in the retained record remain unspecified. Sharing this documentation page does not make the material equivalent to the parent substance or its ordinary food sources.

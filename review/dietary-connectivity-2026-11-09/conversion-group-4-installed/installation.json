@@ -1,0 +1,521 @@
+{
+  "records": [
+    {
+      "relationship_id": "BRS2-FM1-PM3::PM3-DIT-5",
+      "pm": "BRS2-FM1-PM3",
+      "source_file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx",
+      "source_sha256": "12ac0125e4dc310b1fec4e4a72f8307c0710db43f91b39f3c52dd38055016ef1",
+      "priority_group": 3,
+      "proposal_status": "awaiting-author-approval",
+      "decision_required": "Decide whether to authorise a scoped dietary-protein class identity in a separate ontology task. Keep this conversion unresolved until an appropriate source identity exists; do not substitute an EAA total or equate protein grams with methionine.",
+      "original_atom": {
+        "atom_id": "PM3-DIT-5",
+        "dietary_input": true,
+        "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "input": "Dietary protein",
+        "input_type": "substrate provision",
+        "biological_role": "Provides methionine through protein digestion and amino-acid absorption; methionine is the direct amino-acid substrate for MAT-dependent SAMe synthesis.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM3-F1"
+          ],
+          "citation_keys": [
+            "fao_diaas_2013"
+          ]
+        },
+        "evidence_limitation": "Dietary protein provides digestible methionine, but this does not establish that increasing protein or methionine intake increases MAT-dependent SAMe synthesis in humans. DIAAS evaluates sulfur amino acids as methionine + cysteine."
+      },
+      "original_overlay": {
+        "atom_id": "PM3-DIT-5",
+        "requirement_classification": "derived",
+        "derived_target": "Methionine",
+        "derived_target_atom_id": "PM3-DIT-1",
+        "relationship_layer": "dietary-requirement",
+        "dietary_addressability": "direct",
+        "claim_ceiling": "dietary-provision",
+        "permitted_wording": "Dietary protein provides digestible methionine after digestion. This provision relationship does not establish that increasing protein intake increases MAT-dependent SAMe synthesis.",
+        "evidence_limitation": "Dietary protein provides digestible methionine, but this does not establish that increasing protein or methionine intake increases MAT-dependent SAMe synthesis in humans. DIAAS evaluates sulfur amino acids as methionine + cysteine."
+      },
+      "original_supporting_findings": [
+        {
+          "id": "PM3-F1",
+          "finding_label": "Biochemical provenance: MAT reaction",
+          "presentation": "mechanistic-basis",
+          "fm_rollup": true,
+          "finding_summary": "MAT-dependent SAMe synthesis directly requires methionine and ATP and uses active-site magnesium and potassium ions to support ATP-dependent catalysis.",
+          "finding_interpretation": "This establishes the biochemical reaction and its direct requirements. It does not establish that increasing dietary methionine, magnesium or potassium increases SAMe synthesis in adequately nourished humans; ATP is an intracellular biochemical substrate, not a dietary lever.",
+          "finding_statement": "MAT-dependent SAMe synthesis directly requires methionine and ATP and uses active-site magnesium and potassium ions to support ATP-dependent catalysis.",
+          "synthesised_evidence_confidence": "not-yet-scored",
+          "synthesis": "The MAT reaction and catalytic participants have curated provenance. Human MAT2A studies support conflicting ATP-first and rapid-equilibrium random substrate-binding models; no settled universal order is asserted. MAT2B stability is assessed separately in proposed F5.",
+          "synthesis_limitations": "The primary evidence uses purified recombinant protein and crystallised human enzyme rather than intact human physiology. Active-site ion requirements do not show that physiological magnesium or potassium availability ordinarily limits MAT activity. The studies do not establish a methionine intake-response relationship, a clinically meaningful reserve-capacity threshold, or a phenome outcome.",
+          "evidence_considered": [
+            {
+              "label": "Bailey et al. (2021)",
+              "citation_key": "bailey_human_mat2a_2021",
+              "href": "/docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021",
+              "data_level": "Cellular / Molecular",
+              "evidence_source": "bounded-external-search",
+              "directional_finding": "Purified human MAT2A followed an ordered ATP-first, methionine-second kinetic mechanism; MAT2B stabilised the enzyme without materially changing the tested catalytic parameters.",
+              "assessment": {
+                "study": "Purified recombinant human MAT2A steady-state kinetics, product/dead-end inhibition and isothermal titration calorimetry, with and without MAT2B.",
+                "population": "Purified human MAT2A/MAT2B proteins; no cells, animals or human participants.",
+                "result": "ATP bound before methionine; SAM was released before phosphate and pyrophosphate. MAT2B bound tightly and stabilised low-concentration MAT2A but did not significantly change the tested kinetic parameters.",
+                "effect_magnitude": "ATP Kd 80 ± 30 μM and Km 50 ± 10 μM; MAT2B Kd 6 ± 1 nM. No significant catalytic-parameter change under saturating MAT2B conditions.",
+                "evidence_summary": "Direct human-enzyme evidence for the ordered MAT2A reaction and distinction between catalytic activity and MAT2B-mediated stability.",
+                "limitations": "In-vitro purified-enzyme conditions do not establish in-vivo flux limitation, dietary responsiveness, tissue-specific regulation or phenome effects."
+              }
+            },
+            {
+              "label": "Murray et al. (2016)",
+              "citation_key": "murray_crystallography_2016",
+              "href": "/docs/papers/BRAIN-Diet-References#murray_crystallography_2016",
+              "data_level": "Cellular / Molecular",
+              "evidence_source": "bounded-external-search",
+              "directional_finding": "High-resolution human MATα2 structures captured substrates/products and active-site ion coordination across ATP-driven SAMe formation.",
+              "assessment": {
+                "study": "X-ray crystallography of human MATα2 with methionine, ATP analogues, SAMe, adenosine and phosphate-state ligands.",
+                "population": "Purified crystallised human MATα2 protein; no cells, animals or human participants.",
+                "result": "Structures captured methionine repositioning toward ATP C5′, SAMe/product states and phosphate-group coordination by magnesium and potassium ions.",
+                "effect_magnitude": "Structures ranged from 1.1 Å to 2.34 Å resolution; no physiological effect size applies.",
+                "evidence_summary": "Direct structural support for the reaction chemistry and catalytic-ion requirement of human MAT.",
+                "limitations": "Static ligand-bound structures establish catalytic geometry, not physiological nutrient limitation, in-vivo reaction rate, dietary dose response or clinical outcome."
+              }
+            }
+          ],
+          "connected_supportive_evidence": [
+            {
+              "label": "Chiang et al. (1996)",
+              "citation_key": "chiang_s-adenosylmethionine_1996",
+              "href": "/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996",
+              "data_level": "Mechanistic",
+              "why_relevant": "Foundational review establishes SAMe as a major methyl donor and places MAT synthesis upstream of transmethylation.",
+              "why_excluded": "It is a broad methylation review and does not independently quantify human MAT kinetics, active-site ion requirements or dietary control of synthesis flux."
+            },
+            {
+              "label": "Corrillero Bravo et al. (2022)",
+              "citation_key": "corrillero_bravo_analysis_2022",
+              "href": "/docs/papers/BRAIN-Diet-References#corrillero_bravo_analysis_2022",
+              "data_level": "Human Mechanistic",
+              "why_relevant": "Measured circulating SAM, SAH and SAM:SAH after contrasting four-week dietary patterns in healthy adults.",
+              "why_excluded": "The biomarkers do not isolate MAT synthesis flux; group trajectories were similar, so the study does not establish a dietary lever for PM3."
+            }
+          ],
+          "sec_assessment_ref": {
+            "id": "same-pm3-f1-assessment-v1",
+            "version": 2,
+            "sha256": "2ab92745040cb0d76a604a306ddaf2e56c2d6352500bd3bee6224956b784df8f"
+          }
+        }
+      ],
+      "existing_assessment": null,
+      "proposed_dietary_input_assessment": {
+        "atom_id": "PM3-DIT-5",
+        "status": "unresolved",
+        "type": "A",
+        "classification": "derived",
+        "operation": "Maintain methionine adenosyltransferase capacity to convert methionine and ATP into SAMe, sustaining the methyl-donor pool used by downstream methyltransferases.",
+        "canonical_substance_id": null,
+        "active_target_id": "methionine",
+        "record_origin": "PROPOSAL ONLY: reconciliation of existing admitted Derived route; no new admission, SEC or publication permission.",
+        "functional_dependency": {
+          "status": "established",
+          "statement": "Provides methionine through protein digestion and amino-acid absorption; methionine is the direct amino-acid substrate for MAT-dependent SAMe synthesis.",
+          "sources": [
+            "docs/papers/BRAIN-Diet-References#fao_diaas_2013"
+          ]
+        },
+        "dietary_supply": {
+          "status": "established",
+          "statement": "Provides methionine through protein digestion and amino-acid absorption; methionine is the direct amino-acid substrate for MAT-dependent SAMe synthesis.",
+          "sources": [
+            "docs/papers/BRAIN-Diet-References#fao_diaas_2013"
+          ]
+        },
+        "conversion_pathway": [
+          {
+            "from": null,
+            "to": "methionine",
+            "process": "Protein digestion and amino-acid absorption provide methionine.",
+            "dependencies": [],
+            "limitations": "Dietary protein provides digestible methionine, but this does not establish that increasing protein or methionine intake increases MAT-dependent SAMe synthesis in humans. DIAAS evaluates sulfur amino acids as methionine + cysteine. The primary evidence uses purified recombinant protein and crystallised human enzyme rather than intact human physiology. Active-site ion requirements do not show that physiological magnesium or potassium availability ordinarily limits MAT activity. The studies do not establish a methionine intake-response relationship, a clinically meaningful reserve-capacity threshold, or a phenome outcome.",
+            "evidence": {
+              "statement": "Provides methionine through protein digestion and amino-acid absorption; methionine is the direct amino-acid substrate for MAT-dependent SAMe synthesis.",
+              "sources": [
+                "docs/papers/BRAIN-Diet-References#fao_diaas_2013"
+              ]
+            }
+          }
+        ],
+        "limitations": [
+          "Dietary protein provides digestible methionine, but this does not establish that increasing protein or methionine intake increases MAT-dependent SAMe synthesis in humans. DIAAS evaluates sulfur amino acids as methionine + cysteine.",
+          "The primary evidence uses purified recombinant protein and crystallised human enzyme rather than intact human physiology. Active-site ion requirements do not show that physiological magnesium or potassium availability ordinarily limits MAT activity. The studies do not establish a methionine intake-response relationship, a clinically meaningful reserve-capacity threshold, or a phenome outcome."
+        ],
+        "provenance": [
+          "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx",
+          "docs/papers/BRAIN-Diet-References#fao_diaas_2013"
+        ]
+      },
+      "publication_boundary": "No source hold or projection block released; no downstream quantity, efficiency, clinical benefit, new direct admission or KC/inventory reclassification.",
+      "source_access": "Canonical records and previously recorded appraisals inspected. No new original-paper full-text verification claimed.",
+      "schema_validation": {
+        "status": "unresolved",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": [
+          "canonical-identity-unresolved",
+          "conversion-identity-unresolved"
+        ]
+      }
+    },
+    {
+      "relationship_id": "BRS2-FM1-PM4::PM4-DIT-2",
+      "pm": "BRS2-FM1-PM4",
+      "source_file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx",
+      "source_sha256": "190486e48b28a39e95c0bc544d02bf3b5558f992edc2608cd73469e40dffe890",
+      "priority_group": 3,
+      "proposal_status": "awaiting-author-approval",
+      "decision_required": "Same source-identity decision as PM3, but retain this independent PM-specific assessment. Do not infer increased cycle flux.",
+      "original_atom": {
+        "atom_id": "PM4-DIT-2",
+        "dietary_input": true,
+        "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "input": "Dietary protein",
+        "input_type": "substrate provision",
+        "biological_role": "Provides digestible methionine, the amino acid that enters the cycle.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM4-F1"
+          ],
+          "citation_keys": [
+            "fao_diaas_2013",
+            "finkelstein_homocysteine_1998"
+          ]
+        },
+        "evidence_limitation": "Dietary protein supplies methionine. It does not show that eating more protein increases cycle rates. DIAAS scores sulfur amino acids as methionine plus cysteine."
+      },
+      "original_overlay": {
+        "atom_id": "PM4-DIT-2",
+        "requirement_classification": "derived",
+        "derived_target": "Methionine",
+        "derived_target_atom_id": "PM4-DIT-1",
+        "relationship_layer": "dietary-requirement",
+        "relationship_mode": "capacity-requirement",
+        "dietary_addressability": "direct",
+        "claim_ceiling": "dietary-provision",
+        "permitted_wording": "Dietary protein provides methionine for the cycle after digestion. This does not show that more protein increases cycle rates.",
+        "evidence_limitation": "Dietary protein supplies methionine. It does not show that eating more protein increases cycle rates. DIAAS scores sulfur amino acids as methionine plus cysteine."
+      },
+      "original_supporting_findings": [
+        {
+          "id": "PM4-F1",
+          "finding_label": "Homocysteine is split between remethylation and transsulfuration",
+          "presentation": "mechanistic-basis",
+          "fm_rollup": true,
+          "finding_summary": "Methionine becomes SAM, SAM donates a methyl group, and SAH is hydrolysed to homocysteine. Homocysteine is then either remethylated to methionine or sent into transsulfuration toward cysteine.",
+          "finding_interpretation": "This is the integrated route and the branch. It does not assign the MAT, remethylation or transsulfuration reactions to this mechanism, and it does not show that ordinary diet changes the rates.",
+          "finding_statement": "Methionine-cycle throughput runs from methionine to SAM, methyl transfer and SAH hydrolysis to homocysteine, after which homocysteine is distributed between remethylation and transsulfuration under the influence of SAM, SAH and methyl-tetrahydrofolate.",
+          "synthesised_evidence_confidence": "not-yet-scored",
+          "synthesis": "A methylation review establishes SAM as the methyl donor and SAH hydrolysis to adenosine and homocysteine, and it shows that blocking that hydrolysis can affect methylation of phospholipids, proteins, DNA, RNA and small molecules together. A pathway review then places regulation at the distribution of homocysteine between remethylation, which every tissue can perform, and transsulfuration to cystathionine, which is limited to liver, kidney, small intestine and pancreas, with SAM, SAH and methyl-tetrahydrofolate as effectors. A human tracer study uses that same partition, measuring postprandial remethylation, transmethylation and total transsulfuration as rates.",
+          "synthesis_limitations": "The pathway accounts are reviews. Transsulfuration is not present in every tissue. The human rate study was a 28-day vitamin B6 restriction in nine healthy young adults. It does not show that ordinary changes in methionine, folate, or B-vitamin intake change those rates. Individual enzyme reactions remain neighbouring mechanisms.",
+          "evidence_considered": [
+            {
+              "label": "Chiang et al. (1996)",
+              "citation_key": "chiang_s-adenosylmethionine_1996",
+              "href": "/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996",
+              "data_level": "Mechanistic",
+              "evidence_source": "repository-inherited",
+              "directional_finding": "SAM donates methyl groups; SAH formed by that transfer is hydrolysed to adenosine and homocysteine; blocking SAH hydrolysis can affect methylation across phospholipids, proteins, DNA, RNA and small molecules.",
+              "assessment": {
+                "study": "Narrative review of SAM-dependent methylation, SAH hydrolysis and downstream methyl acceptors.",
+                "population": "Review of biochemical and cellular literature; no new human cohort.",
+                "result": "SAM is the methyl donor. SAH is hydrolysed by SAH hydrolase to adenosine and homocysteine. Blocking that hydrolase can affect methylation of several classes of acceptor at once.",
+                "effect_magnitude": "No quantitative flux or concentration effect size.",
+                "evidence_summary": "Establishes methyl transfer and the SAH-to-homocysteine step as a shared route into many methylation reactions.",
+                "limitations": "Does not describe remethylation, transsulfuration or a measured SAM:SAH ratio, and does not test diet or cognition."
+              }
+            },
+            {
+              "label": "Finkelstein (1998)",
+              "citation_key": "finkelstein_homocysteine_1998",
+              "href": "/docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998",
+              "data_level": "Mechanistic",
+              "evidence_source": "bounded-external-search",
+              "directional_finding": "Homocysteine is distributed between tissue-wide remethylation and transsulfuration to cystathionine in liver, kidney, small intestine and pancreas; SAM, SAH and methyl-tetrahydrofolate are effectors of that distribution.",
+              "assessment": {
+                "study": "Review of mammalian methionine-cycle and transsulfuration pathways and their regulation.",
+                "population": "Mammalian pathway review; no new human experiment.",
+                "result": "Every tissue can synthesise SAM, use it for transmethylation, hydrolyse SAH and remethylate homocysteine. Transsulfuration catabolises homocysteine in liver, kidney, small intestine and pancreas. Regulation is the distribution of homocysteine between remethylation and conversion to cystathionine.",
+                "effect_magnitude": "No numeric rate or intake-response estimate.",
+                "evidence_summary": "Establishes the regulated branch between recycling and transsulfuration and names SAM, SAH and methyl-tetrahydrofolate as effectors.",
+                "limitations": "Review-level pathway evidence. It does not measure human rates, test ordinary diets, or show a cognitive or attention outcome."
+              }
+            },
+            {
+              "label": "Lamers et al. (2011)",
+              "citation_key": "lamers_vitamin_b6_methionine_cycle_2011",
+              "href": "/docs/papers/BRAIN-Diet-References#lamers_vitamin_b6_methionine_cycle_2011",
+              "data_level": "Human Mechanistic",
+              "exposure_context": "dietary",
+              "evidence_source": "bounded-external-search",
+              "directional_finding": "Human postprandial kinetics were quantified as remethylation, transmethylation and total transsulfuration rates, confirming that the branch is measurable as rates rather than as a single metabolite level.",
+              "assessment": {
+                "study": "Primed constant infusion of labelled methionine and leucine in the postprandial state, repeated after 28 days of dietary vitamin B6 restriction.",
+                "population": "Nine healthy adults (4 men, 5 women), aged 20–35 years.",
+                "result": "The protocol quantified remethylation, transmethylation and total transsulfuration. Mean rates were unchanged by the restriction.",
+                "effect_magnitude": "Plasma PLP fell from 49 ± 4 nmol/L to 19 ± 2 nmol/L. Mean cycle rates did not change. No rate delta is reported because the mean change was null.",
+                "evidence_summary": "Shows that human cycle throughput can be partitioned into measured rates.",
+                "limitations": "Small healthy-adult sample, 28-day restriction, postprandial state only, and large individual variation. Not a test of cognitive or attention outcomes."
+              }
+            }
+          ],
+          "connected_supportive_evidence": [
+            {
+              "label": "Kumar et al. (2017)",
+              "citation_key": "kumar_transsulfuration_2017",
+              "href": "/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017",
+              "data_level": "Mechanistic",
+              "why_relevant": "The repository record describes a review of transsulfuration from homocysteine toward cysteine and glutathione.",
+              "why_excluded": "That record does not establish remethylation or the regulated split between the two exits."
+            },
+            {
+              "label": "Aragão et al. (2024)",
+              "citation_key": "aragao_revitalising_2024",
+              "href": "/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024",
+              "data_level": "Mechanistic",
+              "why_relevant": "Riboflavin was listed beside this mechanism because vitamin B2 is a cofactor of a folate-cycle enzyme.",
+              "why_excluded": "The paper is a general riboflavin physiology review and does not test methionine-cycle throughput or the homocysteine split."
+            },
+            {
+              "label": "Fanti et al. (2026)",
+              "citation_key": "fanti_methionine_longevity_diet_2026",
+              "href": "/docs/papers/BRAIN-Diet-References#fanti_methionine_longevity_diet_2026",
+              "data_level": "Mixed",
+              "why_relevant": "Tests how little or how much methionine sits inside a low-amino-acid longevity diet.",
+              "why_excluded": "The mouse endpoints are frailty and metabolic signalling, and the human component is epidemiology rather than a methionine trial. Neither measures cycle branch rates or an attention or cognitive treatment effect."
+            },
+            {
+              "label": "Parkhitko et al. (2026)",
+              "citation_key": "parkhitko_methionine_restriction_mimetics_2026",
+              "href": "/docs/papers/BRAIN-Diet-References#parkhitko_methionine_restriction_mimetics_2026",
+              "data_level": "Mechanistic",
+              "why_relevant": "Reviews methionine restriction as an ageing intervention.",
+              "why_excluded": "It is an ageing and disease review, not a measurement of human cycle rates and not an ADHD treatment study."
+            }
+          ]
+        }
+      ],
+      "existing_assessment": null,
+      "proposed_dietary_input_assessment": {
+        "atom_id": "PM4-DIT-2",
+        "status": "unresolved",
+        "type": "A",
+        "classification": "derived",
+        "operation": "Maintain balanced methionine-cycle flux so methionine availability, SAM-dependent methylation, homocysteine recycling and transsulfuration remain coordinated across changing physiological demand.",
+        "canonical_substance_id": null,
+        "active_target_id": "methionine",
+        "record_origin": "PROPOSAL ONLY: reconciliation of existing admitted Derived route; no new admission, SEC or publication permission.",
+        "functional_dependency": {
+          "status": "established",
+          "statement": "Provides digestible methionine, the amino acid that enters the cycle.",
+          "sources": [
+            "docs/papers/BRAIN-Diet-References#fao_diaas_2013",
+            "docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998"
+          ]
+        },
+        "dietary_supply": {
+          "status": "established",
+          "statement": "Provides digestible methionine, the amino acid that enters the cycle.",
+          "sources": [
+            "docs/papers/BRAIN-Diet-References#fao_diaas_2013",
+            "docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998"
+          ]
+        },
+        "conversion_pathway": [
+          {
+            "from": null,
+            "to": "methionine",
+            "process": "Protein digestion and amino-acid absorption provide methionine to the methionine cycle.",
+            "dependencies": [],
+            "limitations": "Dietary protein supplies methionine. It does not show that eating more protein increases cycle rates. DIAAS scores sulfur amino acids as methionine plus cysteine. The pathway accounts are reviews. Transsulfuration is not present in every tissue. The human rate study was a 28-day vitamin B6 restriction in nine healthy young adults. It does not show that ordinary changes in methionine, folate, or B-vitamin intake change those rates. Individual enzyme reactions remain neighbouring mechanisms.",
+            "evidence": {
+              "statement": "Provides digestible methionine, the amino acid that enters the cycle.",
+              "sources": [
+                "docs/papers/BRAIN-Diet-References#fao_diaas_2013",
+                "docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998"
+              ]
+            }
+          }
+        ],
+        "limitations": [
+          "Dietary protein supplies methionine. It does not show that eating more protein increases cycle rates. DIAAS scores sulfur amino acids as methionine plus cysteine.",
+          "The pathway accounts are reviews. Transsulfuration is not present in every tissue. The human rate study was a 28-day vitamin B6 restriction in nine healthy young adults. It does not show that ordinary changes in methionine, folate, or B-vitamin intake change those rates. Individual enzyme reactions remain neighbouring mechanisms."
+        ],
+        "provenance": [
+          "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx",
+          "docs/papers/BRAIN-Diet-References#fao_diaas_2013",
+          "docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998"
+        ]
+      },
+      "publication_boundary": "No source hold or projection block released; no downstream quantity, efficiency, clinical benefit, new direct admission or KC/inventory reclassification.",
+      "source_access": "Canonical records and previously recorded appraisals inspected. No new original-paper full-text verification claimed.",
+      "schema_validation": {
+        "status": "unresolved",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": [
+          "canonical-identity-unresolved",
+          "conversion-identity-unresolved"
+        ]
+      }
+    },
+    {
+      "relationship_id": "BRS5-FM1-PM1::PM1-DIT-2",
+      "pm": "BRS5-FM1-PM1",
+      "source_file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+      "source_sha256": "deb2296bff243ba074c5d7f3d180db9a30e9910b8a82207ed893bc1747aa88f6",
+      "priority_group": 3,
+      "proposal_status": "awaiting-author-approval",
+      "decision_required": "Keep blocked pending a decision on the scoped fermentable-fibre source identity. Do not alias total fibre, resistant starch, pectin or FOS/GOS to the whole class. Any narrowing to a specific substrate needs separate admission review.",
+      "original_atom": {
+        "atom_id": "PM1-DIT-2",
+        "dietary_input": true,
+        "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "input": "Fermentable dietary fibre",
+        "input_type": "substrate provision",
+        "biological_role": "Provides fermentable carbohydrate to gut microbes for short-chain-fatty-acid, including butyrate, production upstream of epithelial barrier effects.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM1-F2"
+          ],
+          "citation_keys": [
+            "silva_role_2020"
+          ]
+        },
+        "evidence_limitation": "Production depends on fibre structure, dose and microbial ecology. Evidence for specific fibres must not be generalised to all fibre, and this relationship does not establish a universal intake threshold or response.",
+        "canonical_identity": {
+          "status": "missing-substance",
+          "severity": "MAJOR",
+          "intended_identity": "Fermentable dietary fibre",
+          "aliases_checked": [
+            "Fermentable dietary fibre"
+          ],
+          "checked_sources": [
+            "registry/substances.json",
+            "docs/substances/ (label/form/alias search)"
+          ],
+          "projection_status": "blocked"
+        }
+      },
+      "original_overlay": {
+        "atom_id": "PM1-DIT-2",
+        "relationship_layer": "dietary-requirement",
+        "relationship_mode": "capacity-requirement",
+        "claim_ceiling": "biological-dependency",
+        "dietary_addressability": "precursor-mediated",
+        "requirement_classification": "derived",
+        "derived_target": "Butyrate",
+        "derived_target_atom_id": "PM1-DIT-1"
+      },
+      "original_supporting_findings": [
+        {
+          "id": "PM1-F2",
+          "finding_label": "Butyrate can support epithelial tight-junction assembly",
+          "presentation": "mechanistic-basis",
+          "fm_rollup": false,
+          "finding_summary": "Microbial fermentation products, especially butyrate, can act directly on epithelial barrier biology.",
+          "finding_interpretation": "This supports a Direct butyrate relationship and a Derived fermentable-fibre provision relationship, with microbiota and fibre-specific limitations.",
+          "finding_statement": "Butyrate can function as an epithelial metabolic substrate and promote intestinal tight-junction assembly, while fermentable dietary fibre lies upstream as microbial substrate provision for short-chain-fatty-acid production.",
+          "synthesised_evidence_confidence": "not-yet-scored",
+          "synthesis": "In Caco-2 monolayers, physiological butyrate increased transepithelial resistance, reduced inulin permeability and accelerated tight-junction assembly alongside AMPK activation. A broader review links microbial fermentation of dietary substrates to short-chain-fatty-acid production and intestinal barrier effects.",
+          "synthesis_limitations": "The direct assembly experiment is an immortalised epithelial-cell model. Fibre-to-butyrate conversion varies by fibre structure and microbial ecology, and neither source establishes a universal human intake threshold, a generic effect of all fibre, or oral butyrate as necessary treatment.",
+          "evidence_considered": [
+            {
+              "label": "Peng et al. (2009)",
+              "citation_key": "peng_butyrate_2009",
+              "href": "/docs/papers/BRAIN-Diet-References#peng_butyrate_2009",
+              "data_level": "Mechanistic",
+              "evidence_source": "bounded-external-search",
+              "directional_finding": "Butyrate increased barrier resistance, reduced inulin permeability and accelerated tight-junction assembly in Caco-2 monolayers."
+            },
+            {
+              "label": "Silva et al. (2020)",
+              "citation_key": "silva_role_2020",
+              "href": "/docs/papers/BRAIN-Diet-References#silva_role_2020",
+              "data_level": "Mechanistic",
+              "evidence_source": "repository-inherited",
+              "directional_finding": "The review links microbial fermentation-derived short-chain fatty acids with epithelial barrier and gut-brain communication mechanisms."
+            }
+          ]
+        }
+      ],
+      "existing_assessment": null,
+      "proposed_dietary_input_assessment": {
+        "atom_id": "PM1-DIT-2",
+        "status": "unresolved",
+        "type": "A",
+        "classification": "derived",
+        "operation": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+        "canonical_substance_id": null,
+        "active_target_id": "butyrate",
+        "record_origin": "PROPOSAL ONLY: reconciliation of existing admitted Derived route; no new admission, SEC or publication permission.",
+        "functional_dependency": {
+          "status": "established",
+          "statement": "Provides fermentable carbohydrate to gut microbes for short-chain-fatty-acid, including butyrate, production upstream of epithelial barrier effects.",
+          "sources": [
+            "docs/papers/BRAIN-Diet-References#silva_role_2020"
+          ]
+        },
+        "dietary_supply": {
+          "status": "established",
+          "statement": "Provides fermentable carbohydrate to gut microbes for short-chain-fatty-acid, including butyrate, production upstream of epithelial barrier effects.",
+          "sources": [
+            "docs/papers/BRAIN-Diet-References#silva_role_2020"
+          ]
+        },
+        "conversion_pathway": [
+          {
+            "from": null,
+            "to": "butyrate",
+            "process": "Microbial fermentation of appropriate dietary substrates can generate butyrate.",
+            "dependencies": [
+              "Substrate-specific fermentability",
+              "Dose and microbial ecology"
+            ],
+            "limitations": "Production depends on fibre structure, dose and microbial ecology. Evidence for specific fibres must not be generalised to all fibre, and this relationship does not establish a universal intake threshold or response. The direct assembly experiment is an immortalised epithelial-cell model. Fibre-to-butyrate conversion varies by fibre structure and microbial ecology, and neither source establishes a universal human intake threshold, a generic effect of all fibre, or oral butyrate as necessary treatment.",
+            "evidence": {
+              "statement": "Provides fermentable carbohydrate to gut microbes for short-chain-fatty-acid, including butyrate, production upstream of epithelial barrier effects.",
+              "sources": [
+                "docs/papers/BRAIN-Diet-References#silva_role_2020"
+              ]
+            }
+          }
+        ],
+        "limitations": [
+          "Production depends on fibre structure, dose and microbial ecology. Evidence for specific fibres must not be generalised to all fibre, and this relationship does not establish a universal intake threshold or response.",
+          "The direct assembly experiment is an immortalised epithelial-cell model. Fibre-to-butyrate conversion varies by fibre structure and microbial ecology, and neither source establishes a universal human intake threshold, a generic effect of all fibre, or oral butyrate as necessary treatment."
+        ],
+        "provenance": [
+          "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+          "docs/papers/BRAIN-Diet-References#silva_role_2020"
+        ]
+      },
+      "publication_boundary": "No source hold or projection block released; no downstream quantity, efficiency, clinical benefit, new direct admission or KC/inventory reclassification.",
+      "source_access": "Canonical records and previously recorded appraisals inspected. No new original-paper full-text verification claimed.",
+      "schema_validation": {
+        "status": "unresolved",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": [
+          "canonical-identity-unresolved",
+          "conversion-identity-unresolved"
+        ]
+      }
+    }
+  ]
+}

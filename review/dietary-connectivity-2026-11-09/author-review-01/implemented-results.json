@@ -1,0 +1,736 @@
+{
+  "status": "author-approved; implemented locally; uncommitted",
+  "counts": {
+    "targets": 151,
+    "covered_targets": 112,
+    "connections": 960,
+    "foods": 70,
+    "ranked_substances": 28
+  },
+  "snapshot_id": "5ca08ea52696e966bbf61463278c614582f49a36a218a86092ef9f692c75aedc",
+  "approved_food_targets": [
+    {
+      "target": "BRS1-FM1-PM3|betaine",
+      "foods": [
+        {
+          "food": "quinoa",
+          "value": 630,
+          "unit": "mg",
+          "rank": 1,
+          "power": 100,
+          "source_record": "docs/foods/quinoa.md#nutrition_supplementary_sources/betaine_usda_review01_20035",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "wheat-germ",
+          "value": 410,
+          "unit": "mg",
+          "rank": 2,
+          "power": 65.07936507936508,
+          "source_record": "docs/foods/wheat-germ.md#nutrition_supplementary_sources/betaine_usda_review01_08084",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "beetroot",
+          "value": 130,
+          "unit": "mg",
+          "rank": 3,
+          "power": 20.634920634920633,
+          "source_record": "docs/foods/beetroot.md#nutrition_supplementary_sources/betaine_usda_review01_11080",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. 130 mg USDA Release 2 and the existing rounded 129 mg corrected Zeisel value are distinct source observations; choose the approved USDA observation explicitly for ranking, retain the older value in provenance and do not count twice. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "spinach",
+          "value": 120,
+          "unit": "mg",
+          "rank": 4,
+          "power": 19.047619047619047,
+          "source_record": "docs/foods/spinach.md#nutrition_supplementary_sources/betaine_usda_review01_11463",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "amaranth",
+          "value": 68,
+          "unit": "mg",
+          "rank": 5,
+          "power": 10.793650793650794,
+          "source_record": "docs/foods/amaranth.md#nutrition_supplementary_sources/betaine_usda_review01_20001",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        }
+      ]
+    },
+    {
+      "target": "BRS1-FM1-PM4|betaine",
+      "foods": [
+        {
+          "food": "quinoa",
+          "value": 630,
+          "unit": "mg",
+          "rank": 1,
+          "power": 100,
+          "source_record": "docs/foods/quinoa.md#nutrition_supplementary_sources/betaine_usda_review01_20035",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "wheat-germ",
+          "value": 410,
+          "unit": "mg",
+          "rank": 2,
+          "power": 65.07936507936508,
+          "source_record": "docs/foods/wheat-germ.md#nutrition_supplementary_sources/betaine_usda_review01_08084",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "beetroot",
+          "value": 130,
+          "unit": "mg",
+          "rank": 3,
+          "power": 20.634920634920633,
+          "source_record": "docs/foods/beetroot.md#nutrition_supplementary_sources/betaine_usda_review01_11080",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. 130 mg USDA Release 2 and the existing rounded 129 mg corrected Zeisel value are distinct source observations; choose the approved USDA observation explicitly for ranking, retain the older value in provenance and do not count twice. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "spinach",
+          "value": 120,
+          "unit": "mg",
+          "rank": 4,
+          "power": 19.047619047619047,
+          "source_record": "docs/foods/spinach.md#nutrition_supplementary_sources/betaine_usda_review01_11463",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "amaranth",
+          "value": 68,
+          "unit": "mg",
+          "rank": 5,
+          "power": 10.793650793650794,
+          "source_record": "docs/foods/amaranth.md#nutrition_supplementary_sources/betaine_usda_review01_20001",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        }
+      ]
+    },
+    {
+      "target": "BRS1-FM3-PM7|betaine",
+      "foods": [
+        {
+          "food": "quinoa",
+          "value": 630,
+          "unit": "mg",
+          "rank": 1,
+          "power": 100,
+          "source_record": "docs/foods/quinoa.md#nutrition_supplementary_sources/betaine_usda_review01_20035",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "wheat-germ",
+          "value": 410,
+          "unit": "mg",
+          "rank": 2,
+          "power": 65.07936507936508,
+          "source_record": "docs/foods/wheat-germ.md#nutrition_supplementary_sources/betaine_usda_review01_08084",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "beetroot",
+          "value": 130,
+          "unit": "mg",
+          "rank": 3,
+          "power": 20.634920634920633,
+          "source_record": "docs/foods/beetroot.md#nutrition_supplementary_sources/betaine_usda_review01_11080",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. 130 mg USDA Release 2 and the existing rounded 129 mg corrected Zeisel value are distinct source observations; choose the approved USDA observation explicitly for ranking, retain the older value in provenance and do not count twice. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "spinach",
+          "value": 120,
+          "unit": "mg",
+          "rank": 4,
+          "power": 19.047619047619047,
+          "source_record": "docs/foods/spinach.md#nutrition_supplementary_sources/betaine_usda_review01_11463",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "amaranth",
+          "value": 68,
+          "unit": "mg",
+          "rank": 5,
+          "power": 10.793650793650794,
+          "source_record": "docs/foods/amaranth.md#nutrition_supplementary_sources/betaine_usda_review01_20001",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        }
+      ]
+    },
+    {
+      "target": "BRS2-FM1-PM2|betaine",
+      "foods": [
+        {
+          "food": "quinoa",
+          "value": 630,
+          "unit": "mg",
+          "rank": 1,
+          "power": 100,
+          "source_record": "docs/foods/quinoa.md#nutrition_supplementary_sources/betaine_usda_review01_20035",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "wheat-germ",
+          "value": 410,
+          "unit": "mg",
+          "rank": 2,
+          "power": 65.07936507936508,
+          "source_record": "docs/foods/wheat-germ.md#nutrition_supplementary_sources/betaine_usda_review01_08084",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "beetroot",
+          "value": 130,
+          "unit": "mg",
+          "rank": 3,
+          "power": 20.634920634920633,
+          "source_record": "docs/foods/beetroot.md#nutrition_supplementary_sources/betaine_usda_review01_11080",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. 130 mg USDA Release 2 and the existing rounded 129 mg corrected Zeisel value are distinct source observations; choose the approved USDA observation explicitly for ranking, retain the older value in provenance and do not count twice. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "spinach",
+          "value": 120,
+          "unit": "mg",
+          "rank": 4,
+          "power": 19.047619047619047,
+          "source_record": "docs/foods/spinach.md#nutrition_supplementary_sources/betaine_usda_review01_11463",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "amaranth",
+          "value": 68,
+          "unit": "mg",
+          "rank": 5,
+          "power": 10.793650793650794,
+          "source_record": "docs/foods/amaranth.md#nutrition_supplementary_sources/betaine_usda_review01_20001",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        }
+      ]
+    },
+    {
+      "target": "BRS2-FM1-PM3|betaine",
+      "foods": [
+        {
+          "food": "quinoa",
+          "value": 630,
+          "unit": "mg",
+          "rank": 1,
+          "power": 100,
+          "source_record": "docs/foods/quinoa.md#nutrition_supplementary_sources/betaine_usda_review01_20035",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "wheat-germ",
+          "value": 410,
+          "unit": "mg",
+          "rank": 2,
+          "power": 65.07936507936508,
+          "source_record": "docs/foods/wheat-germ.md#nutrition_supplementary_sources/betaine_usda_review01_08084",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "beetroot",
+          "value": 130,
+          "unit": "mg",
+          "rank": 3,
+          "power": 20.634920634920633,
+          "source_record": "docs/foods/beetroot.md#nutrition_supplementary_sources/betaine_usda_review01_11080",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. 130 mg USDA Release 2 and the existing rounded 129 mg corrected Zeisel value are distinct source observations; choose the approved USDA observation explicitly for ranking, retain the older value in provenance and do not count twice. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "spinach",
+          "value": 120,
+          "unit": "mg",
+          "rank": 4,
+          "power": 19.047619047619047,
+          "source_record": "docs/foods/spinach.md#nutrition_supplementary_sources/betaine_usda_review01_11463",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "amaranth",
+          "value": 68,
+          "unit": "mg",
+          "rank": 5,
+          "power": 10.793650793650794,
+          "source_record": "docs/foods/amaranth.md#nutrition_supplementary_sources/betaine_usda_review01_20001",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        }
+      ]
+    },
+    {
+      "target": "BRS2-FM1-PM4|betaine",
+      "foods": [
+        {
+          "food": "quinoa",
+          "value": 630,
+          "unit": "mg",
+          "rank": 1,
+          "power": 100,
+          "source_record": "docs/foods/quinoa.md#nutrition_supplementary_sources/betaine_usda_review01_20035",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "wheat-germ",
+          "value": 410,
+          "unit": "mg",
+          "rank": 2,
+          "power": 65.07936507936508,
+          "source_record": "docs/foods/wheat-germ.md#nutrition_supplementary_sources/betaine_usda_review01_08084",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "beetroot",
+          "value": 130,
+          "unit": "mg",
+          "rank": 3,
+          "power": 20.634920634920633,
+          "source_record": "docs/foods/beetroot.md#nutrition_supplementary_sources/betaine_usda_review01_11080",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. 130 mg USDA Release 2 and the existing rounded 129 mg corrected Zeisel value are distinct source observations; choose the approved USDA observation explicitly for ranking, retain the older value in provenance and do not count twice. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "spinach",
+          "value": 120,
+          "unit": "mg",
+          "rank": 4,
+          "power": 19.047619047619047,
+          "source_record": "docs/foods/spinach.md#nutrition_supplementary_sources/betaine_usda_review01_11463",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "amaranth",
+          "value": 68,
+          "unit": "mg",
+          "rank": 5,
+          "power": 10.793650793650794,
+          "source_record": "docs/foods/amaranth.md#nutrition_supplementary_sources/betaine_usda_review01_20001",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        }
+      ]
+    },
+    {
+      "target": "BRS2-FM1-PM4|glycine",
+      "foods": [
+        {
+          "food": "pumpkin-seeds",
+          "value": 1.843,
+          "unit": "g",
+          "rank": 1,
+          "power": 100,
+          "source_record": "docs/foods/pumpkin-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170556",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "sunflower-seeds",
+          "value": 1.461,
+          "unit": "g",
+          "rank": 2,
+          "power": 79.27292457948997,
+          "source_record": "docs/foods/sunflower-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170562",
+          "source_note": "Derivation code absent; do not label as measured analytical data Reported data points: 26 Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "almonds",
+          "value": 1.429,
+          "unit": "g",
+          "rank": 3,
+          "power": 77.53662506782419,
+          "source_record": "docs/foods/almonds.md#nutrition_supplementary_sources/glycine_usda_review01_170567",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "beef",
+          "value": 1.262,
+          "unit": "g",
+          "rank": 4,
+          "power": 68.4753119913185,
+          "source_record": "docs/foods/beef.md#nutrition_supplementary_sources/glycine_usda_review01_171796",
+          "source_note": "Analytical data; derived by linear regression data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation AR: Analytical data; derived by linear regression Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "chicken",
+          "value": 1.223,
+          "unit": "g",
+          "rank": 5,
+          "power": 66.35919696147585,
+          "source_record": "docs/foods/chicken.md#nutrition_supplementary_sources/glycine_usda_review01_171447",
+          "source_note": "Derivation code absent; do not label as measured analytical data data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "salmon",
+          "value": 0.96,
+          "unit": "g",
+          "rank": 6,
+          "power": 52.08898534997287,
+          "source_record": "docs/foods/salmon.md#nutrition_supplementary_sources/glycine_usda_review01_175167",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "eggs",
+          "value": 0.432,
+          "unit": "g",
+          "rank": 7,
+          "power": 23.440043407487792,
+          "source_record": "docs/foods/eggs.md#nutrition_supplementary_sources/glycine_usda_review01_171287",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        }
+      ]
+    },
+    {
+      "target": "BRS2-FM2-PM6|glycine",
+      "foods": [
+        {
+          "food": "pumpkin-seeds",
+          "value": 1.843,
+          "unit": "g",
+          "rank": 1,
+          "power": 100,
+          "source_record": "docs/foods/pumpkin-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170556",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "sunflower-seeds",
+          "value": 1.461,
+          "unit": "g",
+          "rank": 2,
+          "power": 79.27292457948997,
+          "source_record": "docs/foods/sunflower-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170562",
+          "source_note": "Derivation code absent; do not label as measured analytical data Reported data points: 26 Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "almonds",
+          "value": 1.429,
+          "unit": "g",
+          "rank": 3,
+          "power": 77.53662506782419,
+          "source_record": "docs/foods/almonds.md#nutrition_supplementary_sources/glycine_usda_review01_170567",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "beef",
+          "value": 1.262,
+          "unit": "g",
+          "rank": 4,
+          "power": 68.4753119913185,
+          "source_record": "docs/foods/beef.md#nutrition_supplementary_sources/glycine_usda_review01_171796",
+          "source_note": "Analytical data; derived by linear regression data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation AR: Analytical data; derived by linear regression Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "chicken",
+          "value": 1.223,
+          "unit": "g",
+          "rank": 5,
+          "power": 66.35919696147585,
+          "source_record": "docs/foods/chicken.md#nutrition_supplementary_sources/glycine_usda_review01_171447",
+          "source_note": "Derivation code absent; do not label as measured analytical data data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "salmon",
+          "value": 0.96,
+          "unit": "g",
+          "rank": 6,
+          "power": 52.08898534997287,
+          "source_record": "docs/foods/salmon.md#nutrition_supplementary_sources/glycine_usda_review01_175167",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "eggs",
+          "value": 0.432,
+          "unit": "g",
+          "rank": 7,
+          "power": 23.440043407487792,
+          "source_record": "docs/foods/eggs.md#nutrition_supplementary_sources/glycine_usda_review01_171287",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        }
+      ]
+    },
+    {
+      "target": "BRS2-FM3-PM7|betaine",
+      "foods": [
+        {
+          "food": "quinoa",
+          "value": 630,
+          "unit": "mg",
+          "rank": 1,
+          "power": 100,
+          "source_record": "docs/foods/quinoa.md#nutrition_supplementary_sources/betaine_usda_review01_20035",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "wheat-germ",
+          "value": 410,
+          "unit": "mg",
+          "rank": 2,
+          "power": 65.07936507936508,
+          "source_record": "docs/foods/wheat-germ.md#nutrition_supplementary_sources/betaine_usda_review01_08084",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "beetroot",
+          "value": 130,
+          "unit": "mg",
+          "rank": 3,
+          "power": 20.634920634920633,
+          "source_record": "docs/foods/beetroot.md#nutrition_supplementary_sources/betaine_usda_review01_11080",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. 130 mg USDA Release 2 and the existing rounded 129 mg corrected Zeisel value are distinct source observations; choose the approved USDA observation explicitly for ranking, retain the older value in provenance and do not count twice. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "spinach",
+          "value": 120,
+          "unit": "mg",
+          "rank": 4,
+          "power": 19.047619047619047,
+          "source_record": "docs/foods/spinach.md#nutrition_supplementary_sources/betaine_usda_review01_11463",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Different material from the canonical base nutrient panel. Publish only as a separately labelled supplementary observation, not replacement of the raw/crude panel. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "amaranth",
+          "value": 68,
+          "unit": "mg",
+          "rank": 5,
+          "power": 10.793650793650794,
+          "source_record": "docs/foods/amaranth.md#nutrition_supplementary_sources/betaine_usda_review01_20001",
+          "source_note": "Single historical analytical dataset; retain sample context. Not a universal concentration. Printed confidence code applies to total choline only, NOT betaine. N is the row sample count; it does not establish national representativeness. Uncooked identity supported by matching NDB number in the USDA SR Legacy crosswalk. Do not claim the choline PDF itself specifies preparation. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        }
+      ]
+    },
+    {
+      "target": "BRS3-FM1-PM1|glycine",
+      "foods": [
+        {
+          "food": "pumpkin-seeds",
+          "value": 1.843,
+          "unit": "g",
+          "rank": 1,
+          "power": 100,
+          "source_record": "docs/foods/pumpkin-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170556",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "sunflower-seeds",
+          "value": 1.461,
+          "unit": "g",
+          "rank": 2,
+          "power": 79.27292457948997,
+          "source_record": "docs/foods/sunflower-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170562",
+          "source_note": "Derivation code absent; do not label as measured analytical data Reported data points: 26 Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "almonds",
+          "value": 1.429,
+          "unit": "g",
+          "rank": 3,
+          "power": 77.53662506782419,
+          "source_record": "docs/foods/almonds.md#nutrition_supplementary_sources/glycine_usda_review01_170567",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "beef",
+          "value": 1.262,
+          "unit": "g",
+          "rank": 4,
+          "power": 68.4753119913185,
+          "source_record": "docs/foods/beef.md#nutrition_supplementary_sources/glycine_usda_review01_171796",
+          "source_note": "Analytical data; derived by linear regression data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation AR: Analytical data; derived by linear regression Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "chicken",
+          "value": 1.223,
+          "unit": "g",
+          "rank": 5,
+          "power": 66.35919696147585,
+          "source_record": "docs/foods/chicken.md#nutrition_supplementary_sources/glycine_usda_review01_171447",
+          "source_note": "Derivation code absent; do not label as measured analytical data data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "salmon",
+          "value": 0.96,
+          "unit": "g",
+          "rank": 6,
+          "power": 52.08898534997287,
+          "source_record": "docs/foods/salmon.md#nutrition_supplementary_sources/glycine_usda_review01_175167",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "eggs",
+          "value": 0.432,
+          "unit": "g",
+          "rank": 7,
+          "power": 23.440043407487792,
+          "source_record": "docs/foods/eggs.md#nutrition_supplementary_sources/glycine_usda_review01_171287",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        }
+      ]
+    },
+    {
+      "target": "BRS3-FM1-PM2|glycine",
+      "foods": [
+        {
+          "food": "pumpkin-seeds",
+          "value": 1.843,
+          "unit": "g",
+          "rank": 1,
+          "power": 100,
+          "source_record": "docs/foods/pumpkin-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170556",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "sunflower-seeds",
+          "value": 1.461,
+          "unit": "g",
+          "rank": 2,
+          "power": 79.27292457948997,
+          "source_record": "docs/foods/sunflower-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170562",
+          "source_note": "Derivation code absent; do not label as measured analytical data Reported data points: 26 Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "almonds",
+          "value": 1.429,
+          "unit": "g",
+          "rank": 3,
+          "power": 77.53662506782419,
+          "source_record": "docs/foods/almonds.md#nutrition_supplementary_sources/glycine_usda_review01_170567",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "beef",
+          "value": 1.262,
+          "unit": "g",
+          "rank": 4,
+          "power": 68.4753119913185,
+          "source_record": "docs/foods/beef.md#nutrition_supplementary_sources/glycine_usda_review01_171796",
+          "source_note": "Analytical data; derived by linear regression data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation AR: Analytical data; derived by linear regression Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "chicken",
+          "value": 1.223,
+          "unit": "g",
+          "rank": 5,
+          "power": 66.35919696147585,
+          "source_record": "docs/foods/chicken.md#nutrition_supplementary_sources/glycine_usda_review01_171447",
+          "source_note": "Derivation code absent; do not label as measured analytical data data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "salmon",
+          "value": 0.96,
+          "unit": "g",
+          "rank": 6,
+          "power": 52.08898534997287,
+          "source_record": "docs/foods/salmon.md#nutrition_supplementary_sources/glycine_usda_review01_175167",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "eggs",
+          "value": 0.432,
+          "unit": "g",
+          "rank": 7,
+          "power": 23.440043407487792,
+          "source_record": "docs/foods/eggs.md#nutrition_supplementary_sources/glycine_usda_review01_171287",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        }
+      ]
+    },
+    {
+      "target": "BRS4-FM1-PM3|glycine",
+      "foods": [
+        {
+          "food": "pumpkin-seeds",
+          "value": 1.843,
+          "unit": "g",
+          "rank": 1,
+          "power": 100,
+          "source_record": "docs/foods/pumpkin-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170556",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "sunflower-seeds",
+          "value": 1.461,
+          "unit": "g",
+          "rank": 2,
+          "power": 79.27292457948997,
+          "source_record": "docs/foods/sunflower-seeds.md#nutrition_supplementary_sources/glycine_usda_review01_170562",
+          "source_note": "Derivation code absent; do not label as measured analytical data Reported data points: 26 Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "almonds",
+          "value": 1.429,
+          "unit": "g",
+          "rank": 3,
+          "power": 77.53662506782419,
+          "source_record": "docs/foods/almonds.md#nutrition_supplementary_sources/glycine_usda_review01_170567",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "beef",
+          "value": 1.262,
+          "unit": "g",
+          "rank": 4,
+          "power": 68.4753119913185,
+          "source_record": "docs/foods/beef.md#nutrition_supplementary_sources/glycine_usda_review01_171796",
+          "source_note": "Analytical data; derived by linear regression data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation AR: Analytical data; derived by linear regression Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "chicken",
+          "value": 1.223,
+          "unit": "g",
+          "rank": 5,
+          "power": 66.35919696147585,
+          "source_record": "docs/foods/chicken.md#nutrition_supplementary_sources/glycine_usda_review01_171447",
+          "source_note": "Derivation code absent; do not label as measured analytical data data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "salmon",
+          "value": 0.96,
+          "unit": "g",
+          "rank": 6,
+          "power": 52.08898534997287,
+          "source_record": "docs/foods/salmon.md#nutrition_supplementary_sources/glycine_usda_review01_175167",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        },
+        {
+          "food": "eggs",
+          "value": 0.432,
+          "unit": "g",
+          "rank": 7,
+          "power": 23.440043407487792,
+          "source_record": "docs/foods/eggs.md#nutrition_supplementary_sources/glycine_usda_review01_171287",
+          "source_note": "Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026. Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred."
+        }
+      ]
+    }
+  ],
+  "resolved_conversion_records": [
+    {
+      "pm": "BRS1-FM1-PM3",
+      "atom": "PM3-DIT-3",
+      "classification": "derived",
+      "target": "pyridoxal-5-phosphate",
+      "status": "admitted-derived-pathway"
+    },
+    {
+      "pm": "BRS1-FM1-PM4",
+      "atom": "PM4-DIT-3",
+      "classification": "derived",
+      "target": "pyridoxal-5-phosphate",
+      "status": "admitted-derived-pathway"
+    },
+    {
+      "pm": "BRS1-FM1-PM5",
+      "atom": "PM5-DIT-4",
+      "classification": "derived",
+      "target": "pyridoxal-5-phosphate",
+      "status": "admitted-derived-pathway"
+    },
+    {
+      "pm": "BRS2-FM2-PM5",
+      "atom": "PM5-DIT-2",
+      "classification": "derived",
+      "target": "pyridoxal-5-phosphate",
+      "status": "admitted-derived-pathway"
+    }
+  ],
+  "original_conversion_queue_remaining": 14,
+  "soy": "not approved; canonical record unchanged; no ranked glycine source",
+  "public_assets": "unchanged; no wheel build or deployment"
+}

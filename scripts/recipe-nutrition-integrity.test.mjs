@@ -774,7 +774,7 @@ test("walnut publishes USDA 18:3 as ALA under combined provenance", () => {
 
 test("soy cluster publishes USDA 18:3 as ALA from soybean-oil 1404, not the oil quantity", () => {
   const expected = [
-    {title: "Soy", ala: 1330, display: 1.33, fdc: "174270"},
+    {title: "Mature soybeans", ala: 1330, display: 1.33, fdc: "174270"},
     {title: "Tofu", ala: 582, display: 0.582, fdc: "172475"},
     {title: "Natto", ala: 734, display: 0.734, fdc: "172443"},
     {title: "Miso", ala: 405, display: 0.405, fdc: "172442"},
@@ -788,7 +788,7 @@ test("soy cluster publishes USDA 18:3 as ALA from soybean-oil 1404, not the oil 
     assert.ok(supp, `${row.title} states no combined-provenance ALA row`)
     assert.equal(supp.value, row.display, row.title)
     assert.equal(supp.unit, "g")
-    assert.equal(supp.source_note, `This value uses a documented composition interpretation. See ${row.title === "Soy" ? "FCIR-007" : "FCIR-018"}.`)
+    assert.equal(supp.source_note, `This value uses a documented composition interpretation. See ${row.fdc === "174270" ? "FCIR-007" : "FCIR-018"}.`)
     assert.equal(supp.exclude_from_recipe_sum, true)
     assert.equal(fm.nutrition_per_100g.ala_mg, row.ala, row.title)
     assert.equal(fm.nutrition_per_100g.pufa_18_3_unresolved_mg, undefined, row.title)

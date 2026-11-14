@@ -1,0 +1,12 @@
+{
+  "unique_pairs": 155,
+  "canonical_identities": 60,
+  "typed_non_substance_connections": 4,
+  "ranked_triples": 960,
+  "documented_triples": 200,
+  "five_children_no_food_inheritance": true,
+  "ranking_boundaries_pass": true,
+  "fresh_unranked_equals_generated": true,
+  "path_index_errors": [],
+  "pending_assessments": 14
+}

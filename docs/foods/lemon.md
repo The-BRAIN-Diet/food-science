@@ -54,6 +54,27 @@ main_image: /img/foods/lemon/lemon_medium.webp
 legacy_list_image: /img/foods/lemon/lemon_thumb.webp
 legacy_main_image: /img/foods/lemon/lemon_medium.webp
 nutrition_supplementary_sources:
+  - key: pectin_qual
+    label: Pectin
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    public_display: table
+    notes: >-
+      Recovered from Meyer lemon flavedo, albedo, membrane and juice sacs.
+      Not a per-100 g amount for lemons raw without peel.
+    source_note: >-
+      Braddock, Crandall and Kesterson (1976) recovered pectin from Meyer lemon
+      flavedo, albedo, membrane and juice sacs in the residue left after juice
+      extraction. Yield and jelly grade changed with maturity. USDA SR Legacy
+      (Lemons, raw, without peel; FDC 167746) reports total fibre 2.8 g/100 g
+      and does not quantify pectin. The Meyer lemon part yields are not
+      converted into a per-100 g pectin number for this record.
+    public_note: >-
+      Braddock et al. 1976 supports this qualitative constituent record for
+      Meyer lemon peel and internal tissues. See technical provenance for fruit
+      part.
+    evidence_status: supported
+    source_url: 'https://doi.org/10.1111/j.1365-2621.1976.tb01201.x'
   - key: eriocitrin_qual
     label: Eriocitrin
     status: Present — quantity not established
@@ -126,11 +147,35 @@ substance_relationships:
     evidence_material: lemon juice
     source_url: https://pubmed.ncbi.nlm.nih.gov/12769519/
     source_reference: '#food-source-2'
+  - substance: Pectin
+    substance_id: pectin
+    relationship: contains
+    description: >-
+      Braddock et al. (1976) recovered pectin from Meyer lemon flavedo, albedo,
+      membrane and juice sacs after juice extraction. USDA reports total fibre
+      for lemons raw without peel and does not give a per-100 g pectin amount.
+      This is not the purified citrus pectin used in defined-community
+      experiments.
+    requires_supplementary_key: pectin_qual
+    evidence_status: supported
+    evidence_source: Braddock et al. (1976)
+    evidence_material: >-
+      Meyer lemon flavedo, albedo, membrane and juice sacs recovered after
+      juice extraction
+    source_url: 'https://doi.org/10.1111/j.1365-2621.1976.tb01201.x'
+    citation_keys:
+      - braddock_meyer_lemon_pectin_1976
+    presence_status: presence_supported_amount_unavailable
+    chemical_form: Plant cell-wall pectin
+    food_delivery_notes: >-
+      Qualitative presence in Meyer lemon peel and internal tissues. No per-100
+      g pectin amount is established for lemons raw without peel. Juice alone
+      is not this peel-and-residue record.
 substance_review_candidates: []
 ---
 ## Overview
 
-Lemon provides vitamin C that enhances non-heme iron absorption and can be used to adjust pH in food preparation (e.g., bean soaking). Lemon also contains citrus flavanones, including eriocitrin (often misspelled in secondary sources) and hesperidin, which are studied for antioxidant and cardiometabolic relevance [1,2].
+Lemon provides vitamin C that enhances non-heme iron absorption and can be used to adjust pH in food preparation (e.g., bean soaking). Lemon also contains citrus flavanones, including eriocitrin (often misspelled in secondary sources) and hesperidin, which are studied for antioxidant and cardiometabolic relevance [1,2]. Meyer lemon peel and the tissues left after juice extraction contain pectin; this page does not give a per-100 g pectin amount for lemons raw without peel [4].
 
 ## Key Nutritional Highlights
 
@@ -187,3 +232,5 @@ Whole blended lemon recipes can be surprisingly palatable and functionally usefu
 <span id="food-source-3" />
 
 [3] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/167746/nutrients)
+
+[4] Braddock, Crandall & Kesterson (1976). [Pectin content of Meyer lemon](/docs/papers/BRAIN-Diet-References#braddock_meyer_lemon_pectin_1976). Pectin was recovered from Meyer lemon flavedo, albedo, membrane and juice sacs after juice extraction. Yield changed with maturity and is not a per-100 g amount for lemons raw without peel.

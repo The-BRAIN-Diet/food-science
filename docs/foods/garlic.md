@@ -76,6 +76,27 @@ nutrition_supplementary_sources:
     source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12150274/
     notes: fresh garlic after crushing or chopping
     source_reference: '#food-source-3'
+  - key: fructans_jovanovic
+    label: Fructans
+    value: 7.51
+    unit: g
+    basis: per 100 g fresh weight
+    amount_display: 7.51 ± 0.209 g per 100 g fresh weight
+    public_display: table
+    evidence_status: supported
+    source_url: https://doi.org/10.1080/10942912.2012.680221
+    evidence_material: Garlic
+    preparation_state: Fresh weight as reported. Cultivar, part and further preparation are not stated in the abstract.
+    source_note: >-
+      Jovanovic-Malinovska et al. 2014 reported garlic fructans at 7.51 ± 0.209 g
+      per 100 g fresh weight, separately from the fructooligosaccharide figures
+      in the same paper. Garlic was also in an oligosaccharide-rich cluster.
+      This fructan figure is not an oligofructose amount, not
+      galacto-oligosaccharides, and not the combined experimental preparation.
+    public_note: >-
+      Fructans, 7.51 ± 0.209 g per 100 g fresh weight. Not a fructooligosaccharide
+      amount and not a combined fructo-oligosaccharide plus galacto-oligosaccharide amount.
+    source_group: Jovanovic-Malinovska et al. 2014
 substance_relationships:
   - substance: Manganese
     relationship: contains
@@ -101,11 +122,30 @@ substance_relationships:
     evidence_material: fresh garlic after crushing or chopping
     source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12150274/
     source_reference: '#food-source-3'
+  - substance: Fructans
+    relationship: contains
+    requires_supplementary_key: fructans_jovanovic
+    description: >-
+      Jovanovic-Malinovska et al. 2014 reported fructans at 7.51 ± 0.209 g per
+      100 g fresh weight in garlic. The paper reports this separately from
+      fructooligosaccharides.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: Jovanovic-Malinovska et al. 2014
+    evidence_material: Garlic
+    preparation_state: Fresh weight as reported. Cultivar, part and further preparation are not stated in the abstract.
+    source_url: https://doi.org/10.1080/10942912.2012.680221
+    citation_keys:
+      - jovanovic_malinovska_food_oligosaccharides_2014
+    chemical_form: Fructans, reported separately from fructooligosaccharides
+    material_limitations: >-
+      Not oligofructose, not fructo-oligosaccharides as a separated amount, not
+      galacto-oligosaccharides, and not the combined experimental preparation.
 substance_review_candidates: []
 ---
 ## Overview
 
-Garlic provides allicin (when crushed), sulfur compounds for glutathione synthesis, and prebiotic fiber supporting gut health and antioxidant defenses. Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions) support NAD+ availability, glutathione synthesis, and mitochondrial health.
+Garlic provides allicin (when crushed), sulfur compounds for glutathione synthesis, and prebiotic fiber supporting gut health and antioxidant defenses. Jovanovic-Malinovska et al. measured **fructans** at 7.51 ± 0.209 g per 100 g fresh weight, reported separately from fructooligosaccharides [5]. Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions) support NAD+ availability, glutathione synthesis, and mitochondrial health.
 
 Within the BRAIN Diet framework, garlic is part of the allium family with prebiotic benefits.
 
@@ -149,3 +189,5 @@ Garlic contribute plant protein. Pair with complementary protein sources (e.g. g
 <span id="food-source-4" />
 
 [4] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/169230/nutrients)
+
+[5] Jovanovic-Malinovska et al. (2014). [Oligosaccharide profile in fruits and vegetables as sources of prebiotics and functional foods](/docs/papers/BRAIN-Diet-References#jovanovic_malinovska_food_oligosaccharides_2014). Garlic fructans were 7.51 ± 0.209 g per 100 g fresh weight, reported separately from fructooligosaccharides.

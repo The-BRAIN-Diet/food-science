@@ -1,0 +1,36 @@
+{
+  "authority": "Author EXEC — Implement approved Food Wheel evidence-ledger reconciliation, 9 November 2026",
+  "scope": "Relationship-specific qualified PM-network publication through the written evidence ledger only. Existing ordinary-food projection and ranking holds remain. No canonical admission or SEC changes.",
+  "relationships": [
+    {
+      "relationship_id": "BRS5-FM1-PM2::PM2-DIT-2",
+      "substance_id": "resistant-starch-type-2-zhang-2020",
+      "observed_endpoints": "Aged female mice, sixteen-week high-fat diet with the tested high-amylose RS2 material: lower serum/faecal LPS and increased colonic mucin.",
+      "limitations_and_nulls": "No human efficacy or ordinary-food equivalence; preserve null colon histology/length and cytokine findings. The 20% dietary material is not 20% pure RS2."
+    },
+    {
+      "relationship_id": "BRS5-FM1-PM3::PM3-DIT-1",
+      "substance_id": "oligofructose-enriched-inulin-schroeder-2018",
+      "observed_endpoints": "Orafti Synergi 1, 1% w/v drinking water during four weeks of Western-diet feeding in mice: preserved mucus penetrability.",
+      "limitations_and_nulls": "Not mucus growth or thickness improvement. Combined treatment did not retain the inulin-alone penetrability benefit. Exact batch composition not verified; no generic inulin or food equivalence."
+    },
+    {
+      "relationship_id": "BRS5-FM1-PM3::PM3-DIT-2",
+      "substance_id": "bifidobacterium-longum-ncc2705",
+      "observed_endpoints": "Exact NCC2705 strain in mouse drinking water: preserved mucus growth.",
+      "limitations_and_nulls": "Not penetrability or thickness improvement. No species/genus efficacy inheritance, food occurrence, human translation or ordinary-food dose."
+    },
+    {
+      "relationship_id": "BRS5-FM3-PM7::PM7-DIT-1",
+      "substance_id": "lacticaseibacillus-rhamnosus-jb-1",
+      "observed_endpoints": "Exact JB-1 strain: mouse GABA receptor-transcript and behavioural findings with vagal dependence.",
+      "limitations_and_nulls": "Preserve the healthy-human trial null for mood, anxiety/stress, sleep, HPA/inflammatory and cognitive outcomes. No generic probiotic efficacy. Exact mouse administered dose remains unverified."
+    },
+    {
+      "relationship_id": "BRS5-FM3-PM8::PM8-DIT-2",
+      "substance_id": "apple-pectin-sinha-2024",
+      "observed_endpoints": "Studied apple-pectin exposures in cultures and mice: altered microbial tryptophan-metabolite partitioning.",
+      "limitations_and_nulls": "Preserve culture reagent versus mouse diet distinctions, below-detection ILA/IPA in FMT, nonsignificant faecal tryptophan change and no serum tryptophan difference. No whole-apple equivalence or human neurotransmitter benefit."
+    }
+  ]
+}

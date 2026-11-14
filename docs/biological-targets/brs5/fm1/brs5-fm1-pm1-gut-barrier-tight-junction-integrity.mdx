@@ -47,6 +47,11 @@ dietary_input_traceability:
       projection_status: draft-only
     substance_id: butyrate
   - atom_id: PM1-DIT-2
+    source_identity:
+      kind: functional-substrate-class
+      pm_atom_id: BRS5-FM1-PM1::PM1-DIT-2
+      status: resolved
+      substance_applicability: not-applicable
     dietary_input: true
     dietary_input_note: >-
       Dietary applicability is already admitted in the Direct/Derived section. This does not establish
@@ -67,8 +72,7 @@ dietary_input_traceability:
       be generalised to all fibre, and this relationship does not establish a universal intake threshold or
       response.
     canonical_identity:
-      status: missing-substance
-      severity: MAJOR
+      status: not-applicable
       intended_identity: Fermentable dietary fibre
       aliases_checked:
         - Fermentable dietary fibre
@@ -176,6 +180,7 @@ dietary_input_traceability:
       efficacy.
     dietary_input_flags:
       - section-supply-contradiction
+    substance_id: glutamine
     input: Glutamine
     input_type: substrate
     biological_role: >-
@@ -199,15 +204,15 @@ dietary_input_traceability:
       asserting universal dietary limitation, benefit from extra intake, or equivalence to the supplemental
       exposure.
     canonical_identity:
-      status: missing-substance
-      severity: MAJOR
+      status: resolved
+      substance_id: glutamine
       intended_identity: Glutamine
       aliases_checked:
         - Glutamine
       checked_sources:
         - registry/substances.json
         - docs/substances/ (label/form/alias search)
-      projection_status: blocked
+      projection_status: qualified
   - atom_id: PM1-KC1-UPSTREAM-1
     dietary_input: true
     dietary_input_note: >-
@@ -1305,7 +1310,8 @@ pending_actions:
       rankings.
   - action_id: PM1-IDENTITY-6
     severity: MAJOR
-    status: pending
+    status: resolved
+    resolution: Canonical glutamine identity verified. Beef, eggs and tofu qualify for unranked occurrence in food protein. Combined Glx supplies no glutamine-specific quantity.
     input: Glutamine
     pm_id: BRS5-FM1-PM1
     section: 3.1.1
@@ -1788,6 +1794,124 @@ dietary_input_assessments:
       culture exposure is not a food dose. Selected clinical population and supplemental free glutamine.
       Neither ordinary-food equivalence nor benefit in healthy people, brain function or ADHD is established.
     review_source: system/reviews/deferred-stage2ab-2026-10-23/assessment-plan.json#BRS5-FM1-PM1
+  - atom_id: PM1-DIT-4
+    status: admitted
+    type: A
+    classification: derived
+    operation: Maintain epithelial tight junction integrity and selective permeability at the gut lining.
+    canonical_substance_id: vitamin-a
+    active_target_id: retinoic-acid
+    record_origin: >-
+      Author-approved Group 3 reconciliation of existing admitted Derived route, 9 November 2026; no new
+      admission, SEC or publication permission.
+    functional_dependency:
+      status: established
+      statement: >-
+        Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for
+        epithelial differentiation and barrier maintenance.
+      sources:
+        - docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019
+        - docs/papers/BRAIN-Diet-References#li_retinoid_junction_2017
+    dietary_supply:
+      status: established
+      statement: >-
+        Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for
+        epithelial differentiation and barrier maintenance.
+      sources:
+        - docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019
+        - docs/papers/BRAIN-Diet-References#li_retinoid_junction_2017
+    conversion_pathway:
+      - from: vitamin-a
+        to: retinoic-acid
+        process: >-
+          Form-dependent metabolism of dietary retinoids and provitamin A precursors supports retinoic-acid
+          formation.
+        dependencies: []
+        limitations: >-
+          Conversion and response depend on vitamin A form, status, absorption, and host context;
+          supplementation evidence is not a general dose-response claim for PM1. Cell experiments and
+          mechanistic synthesis do not define dietary thresholds or extra-intake benefit.
+        evidence:
+          statement: >-
+            Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for
+            epithelial differentiation and barrier maintenance.
+          sources:
+            - docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019
+            - docs/papers/BRAIN-Diet-References#li_retinoid_junction_2017
+    limitations:
+      - >-
+        Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation
+        evidence is not a general dose-response claim for PM1.
+      - Cell experiments and mechanistic synthesis do not define dietary thresholds or extra-intake benefit.
+      - >-
+        The retained opposing cell-model finding reports increased permeability; retinoic-acid formation is not
+        a universal barrier-tightening claim.
+    provenance:
+      - docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx
+      - docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019
+      - docs/papers/BRAIN-Diet-References#li_retinoid_junction_2017
+    projection_status: draft-only
+  - atom_id: PM1-DIT-2
+    status: unresolved
+    type: A
+    classification: derived
+    operation: Maintain epithelial tight junction integrity and selective permeability at the gut lining.
+    active_target_id: butyrate
+    record_origin: >-
+      Author-approved Group 4 reconciliation of existing admitted route; no new admission, SEC or publication
+      permission.
+    functional_dependency:
+      status: established
+      statement: >-
+        Provides fermentable carbohydrate to gut microbes for short-chain-fatty-acid, including butyrate,
+        production upstream of epithelial barrier effects.
+      sources:
+        - docs/papers/BRAIN-Diet-References#silva_role_2020
+    dietary_supply:
+      status: established
+      statement: >-
+        Provides fermentable carbohydrate to gut microbes for short-chain-fatty-acid, including butyrate,
+        production upstream of epithelial barrier effects.
+      sources:
+        - docs/papers/BRAIN-Diet-References#silva_role_2020
+    conversion_pathway:
+      - from: BRS5-FM1-PM1::PM1-DIT-2
+        to: butyrate
+        process: Microbial fermentation of appropriate dietary substrates can generate butyrate.
+        dependencies:
+          - Substrate-specific fermentability
+          - Dose and microbial ecology
+        limitations: >-
+          Production depends on fibre structure, dose and microbial ecology. Evidence for specific fibres must
+          not be generalised to all fibre, and this relationship does not establish a universal intake threshold
+          or response. The direct assembly experiment is an immortalised epithelial-cell model.
+          Fibre-to-butyrate conversion varies by fibre structure and microbial ecology, and neither source
+          establishes a universal human intake threshold, a generic effect of all fibre, or oral butyrate as
+          necessary treatment.
+        evidence:
+          statement: >-
+            Provides fermentable carbohydrate to gut microbes for short-chain-fatty-acid, including butyrate,
+            production upstream of epithelial barrier effects.
+          sources:
+            - docs/papers/BRAIN-Diet-References#silva_role_2020
+    limitations:
+      - >-
+        Production depends on fibre structure, dose and microbial ecology. Evidence for specific fibres must not
+        be generalised to all fibre, and this relationship does not establish a universal intake threshold or
+        response.
+      - >-
+        The direct assembly experiment is an immortalised epithelial-cell model. Fibre-to-butyrate conversion
+        varies by fibre structure and microbial ecology, and neither source establishes a universal human intake
+        threshold, a generic effect of all fibre, or oral butyrate as necessary treatment.
+      - >-
+        Conditional microbial production does not complete a food-to-butyrate-to-human-barrier pathway;
+        substrate-specific eligibility, yield and epithelial exposure remain unresolved.
+    provenance:
+      - docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx
+      - docs/papers/BRAIN-Diet-References#silva_role_2020
+    source_atom_id: BRS5-FM1-PM1::PM1-DIT-2
+    conversion_status: unresolved
+    projection_status: blocked
 scientific_hypotheses:
   - id: PM1-H1
     title: Resistant Starch–Derived Butyrate and Tight-Junction Regulation

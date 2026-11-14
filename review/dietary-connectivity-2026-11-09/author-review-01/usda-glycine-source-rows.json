@@ -1,0 +1,304 @@
+[
+  {
+    "food": {
+      "fdc_id": "170556",
+      "data_type": "sr_legacy_food",
+      "description": "Seeds, pumpkin and squash seed kernels, dried",
+      "food_category_id": "12",
+      "publication_date": "2019-04-01"
+    },
+    "measurement": {
+      "id": "1532882",
+      "fdc_id": "170556",
+      "nutrient_id": "1225",
+      "amount": "1.843",
+      "data_points": "0",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "nutrient": {
+      "id": "1225",
+      "name": "Glycine",
+      "unit_name": "G",
+      "nutrient_nbr": "516",
+      "rank": "17800.0"
+    },
+    "derivation": {
+      "id": "1",
+      "code": "A",
+      "description": "Analytical",
+      "source_id": "1"
+    },
+    "legacy": {
+      "fdc_id": "170556",
+      "NDB_number": "12014"
+    }
+  },
+  {
+    "food": {
+      "fdc_id": "170562",
+      "data_type": "sr_legacy_food",
+      "description": "Seeds, sunflower seed kernels, dried",
+      "food_category_id": "12",
+      "publication_date": "2019-04-01"
+    },
+    "measurement": {
+      "id": "1533390",
+      "fdc_id": "170562",
+      "nutrient_id": "1225",
+      "amount": "1.461",
+      "data_points": "26",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "nutrient": {
+      "id": "1225",
+      "name": "Glycine",
+      "unit_name": "G",
+      "nutrient_nbr": "516",
+      "rank": "17800.0"
+    },
+    "derivation": null,
+    "legacy": {
+      "fdc_id": "170562",
+      "NDB_number": "12036"
+    }
+  },
+  {
+    "food": {
+      "fdc_id": "170567",
+      "data_type": "sr_legacy_food",
+      "description": "Nuts, almonds",
+      "food_category_id": "12",
+      "publication_date": "2019-04-01"
+    },
+    "measurement": {
+      "id": "1533853",
+      "fdc_id": "170567",
+      "nutrient_id": "1225",
+      "amount": "1.429",
+      "data_points": "0",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "nutrient": {
+      "id": "1225",
+      "name": "Glycine",
+      "unit_name": "G",
+      "nutrient_nbr": "516",
+      "rank": "17800.0"
+    },
+    "derivation": {
+      "id": "1",
+      "code": "A",
+      "description": "Analytical",
+      "source_id": "1"
+    },
+    "legacy": {
+      "fdc_id": "170567",
+      "NDB_number": "12061"
+    }
+  },
+  {
+    "food": {
+      "fdc_id": "171287",
+      "data_type": "sr_legacy_food",
+      "description": "Egg, whole, raw, fresh",
+      "food_category_id": "1",
+      "publication_date": "2019-04-01"
+    },
+    "measurement": {
+      "id": "1597646",
+      "fdc_id": "171287",
+      "nutrient_id": "1225",
+      "amount": "0.432",
+      "data_points": "0",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "nutrient": {
+      "id": "1225",
+      "name": "Glycine",
+      "unit_name": "G",
+      "nutrient_nbr": "516",
+      "rank": "17800.0"
+    },
+    "derivation": {
+      "id": "1",
+      "code": "A",
+      "description": "Analytical",
+      "source_id": "1"
+    },
+    "legacy": {
+      "fdc_id": "171287",
+      "NDB_number": "1123"
+    }
+  },
+  {
+    "food": {
+      "fdc_id": "171447",
+      "data_type": "sr_legacy_food",
+      "description": "Chicken, broilers or fryers, meat and skin, raw",
+      "food_category_id": "5",
+      "publication_date": "2019-04-01"
+    },
+    "measurement": {
+      "id": "1610591",
+      "fdc_id": "171447",
+      "nutrient_id": "1225",
+      "amount": "1.223",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "nutrient": {
+      "id": "1225",
+      "name": "Glycine",
+      "unit_name": "G",
+      "nutrient_nbr": "516",
+      "rank": "17800.0"
+    },
+    "derivation": null,
+    "legacy": {
+      "fdc_id": "171447",
+      "NDB_number": "5006"
+    }
+  },
+  {
+    "food": {
+      "fdc_id": "171796",
+      "data_type": "sr_legacy_food",
+      "description": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "food_category_id": "13",
+      "publication_date": "2019-04-01"
+    },
+    "measurement": {
+      "id": "1641442",
+      "fdc_id": "171796",
+      "nutrient_id": "1225",
+      "amount": "1.262",
+      "data_points": "0",
+      "derivation_id": "3",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "nutrient": {
+      "id": "1225",
+      "name": "Glycine",
+      "unit_name": "G",
+      "nutrient_nbr": "516",
+      "rank": "17800.0"
+    },
+    "derivation": {
+      "id": "3",
+      "code": "AR",
+      "description": "Analytical data; derived by linear regression",
+      "source_id": "1"
+    },
+    "legacy": {
+      "fdc_id": "171796",
+      "NDB_number": "23567"
+    }
+  },
+  {
+    "food": {
+      "fdc_id": "174270",
+      "data_type": "sr_legacy_food",
+      "description": "Soybeans, mature seeds, raw",
+      "food_category_id": "16",
+      "publication_date": "2019-04-01"
+    },
+    "measurement": {
+      "id": "1845171",
+      "fdc_id": "174270",
+      "nutrient_id": "1225",
+      "amount": "1.88",
+      "data_points": "0",
+      "derivation_id": "16",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "nutrient": {
+      "id": "1225",
+      "name": "Glycine",
+      "unit_name": "G",
+      "nutrient_nbr": "516",
+      "rank": "17800.0"
+    },
+    "derivation": {
+      "id": "16",
+      "code": "BFSN",
+      "description": "Based on another form of the food or similar food; Concentration adjustment; Solids; Retention factors not used",
+      "source_id": "2"
+    },
+    "legacy": {
+      "fdc_id": "174270",
+      "NDB_number": "16108"
+    }
+  },
+  {
+    "food": {
+      "fdc_id": "175167",
+      "data_type": "sr_legacy_food",
+      "description": "Fish, salmon, Atlantic, farmed, raw",
+      "food_category_id": "15",
+      "publication_date": "2019-04-01"
+    },
+    "measurement": {
+      "id": "1918104",
+      "fdc_id": "175167",
+      "nutrient_id": "1225",
+      "amount": "0.96",
+      "data_points": "0",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "nutrient": {
+      "id": "1225",
+      "name": "Glycine",
+      "unit_name": "G",
+      "nutrient_nbr": "516",
+      "rank": "17800.0"
+    },
+    "derivation": {
+      "id": "1",
+      "code": "A",
+      "description": "Analytical",
+      "source_id": "1"
+    },
+    "legacy": {
+      "fdc_id": "175167",
+      "NDB_number": "15236"
+    }
+  }
+]

@@ -1,0 +1,274 @@
+[
+  {
+    "relationship_id": "BRS2-FM1-PM4::PM4-DIT-2",
+    "label": "Dietary protein",
+    "proposed_role": "source-class",
+    "status": "proposal-only; not canonical schema or identity registration",
+    "canonical_identity_id": null,
+    "existing_evidence_and_limitations": {
+      "kind": "admitted-input",
+      "relationship_id": "BRS2-FM1-PM4::PM4-DIT-2",
+      "classification": "derived",
+      "layer": "dietary-requirement",
+      "accounting": "A",
+      "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx#dietary_input_traceability/PM4-DIT-2",
+      "input": "Dietary protein",
+      "evidence": {
+        "finding_ids": [
+          "PM4-F1"
+        ],
+        "citation_keys": [
+          "fao_diaas_2013",
+          "finkelstein_homocysteine_1998"
+        ]
+      },
+      "limitations": "Dietary protein supplies methionine. It does not show that eating more protein increases cycle rates. DIAAS scores sulfur amino acids as methionine plus cysteine.",
+      "upstream": [],
+      "members": []
+    },
+    "preserve_projection_hold": true,
+    "ordinary_food_equivalence": false,
+    "new_admission": false
+  },
+  {
+    "relationship_id": "BRS5-FM1-PM1::PM1-DIT-2",
+    "label": "Fermentable dietary fibre",
+    "proposed_role": "heterogeneous-functional-class",
+    "status": "proposal-only; not canonical schema or identity registration",
+    "canonical_identity_id": null,
+    "existing_evidence_and_limitations": {
+      "kind": "admitted-input",
+      "relationship_id": "BRS5-FM1-PM1::PM1-DIT-2",
+      "classification": "derived",
+      "layer": "dietary-requirement",
+      "accounting": "A",
+      "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx#dietary_input_traceability/PM1-DIT-2",
+      "input": "Fermentable dietary fibre",
+      "evidence": {
+        "finding_ids": [
+          "PM1-F2"
+        ],
+        "citation_keys": [
+          "silva_role_2020"
+        ]
+      },
+      "limitations": "Production depends on fibre structure, dose and microbial ecology. Evidence for specific fibres must not be generalised to all fibre, and this relationship does not establish a universal intake threshold or response.",
+      "upstream": [],
+      "members": []
+    },
+    "preserve_projection_hold": true,
+    "ordinary_food_equivalence": false,
+    "new_admission": false
+  },
+  {
+    "relationship_id": "BRS5-FM1-PM2::PM2-DIT-2",
+    "label": "Type 2 resistant starch (tested aged-mouse exposure)",
+    "proposed_role": "preparation-specific-subtype",
+    "status": "proposal-only; not canonical schema or identity registration",
+    "canonical_identity_id": null,
+    "existing_evidence_and_limitations": {
+      "kind": "admitted-input",
+      "relationship_id": "BRS5-FM1-PM2::PM2-DIT-2",
+      "classification": "direct",
+      "layer": "dietary-requirement",
+      "accounting": "A",
+      "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx#dietary_input_traceability/PM2-DIT-2",
+      "input": "Type 2 resistant starch (tested aged-mouse exposure)",
+      "evidence": {
+        "finding_ids": [
+          "PM2-F4"
+        ],
+        "citation_keys": [
+          "zhang_rs2_endotoxin_2020"
+        ]
+      },
+      "limitations": "Sixteen-week mouse protocol; no human dose or equivalence to cooled potatoes, rice or green bananas. Measured metabolite changes do not prove SCFA mediation.",
+      "upstream": [],
+      "members": []
+    },
+    "preserve_projection_hold": true,
+    "ordinary_food_equivalence": false,
+    "new_admission": false
+  },
+  {
+    "relationship_id": "BRS5-FM1-PM2::PM2-DIT-3",
+    "label": "Fish-oil-containing meal (tested comparison)",
+    "proposed_role": "mixed-dietary-matrix",
+    "status": "proposal-only; not canonical schema or identity registration",
+    "canonical_identity_id": null,
+    "existing_evidence_and_limitations": {
+      "kind": "admitted-input",
+      "relationship_id": "BRS5-FM1-PM2::PM2-DIT-3",
+      "classification": "direct",
+      "layer": "dietary-requirement",
+      "accounting": "A",
+      "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx#dietary_input_traceability/PM2-DIT-3",
+      "input": "Fish-oil-containing meal (tested comparison)",
+      "evidence": {
+        "finding_ids": [
+          "PM2-F3"
+        ],
+        "citation_keys": [
+          "lyte_meal_endotoxin_2016"
+        ]
+      },
+      "limitations": "Acute comparison of entire meals with differing fatty-acid profiles. Differences from the lower-fat olive-oil control were not significant. No isolated DHA/EPA effect, cofactor status, chronic containment or inflammation benefit established.",
+      "upstream": [],
+      "members": []
+    },
+    "preserve_projection_hold": true,
+    "ordinary_food_equivalence": false,
+    "new_admission": false
+  },
+  {
+    "relationship_id": "BRS5-FM1-PM2::PM2-DIT-4",
+    "label": "Milk-fat physical structure (tested comparison)",
+    "proposed_role": "preparation-characteristic",
+    "status": "proposal-only; not canonical schema or identity registration",
+    "canonical_identity_id": null,
+    "existing_evidence_and_limitations": {
+      "kind": "admitted-input",
+      "relationship_id": "BRS5-FM1-PM2::PM2-DIT-4",
+      "classification": "direct",
+      "layer": "dietary-requirement",
+      "accounting": "A",
+      "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx#dietary_input_traceability/PM2-DIT-4",
+      "input": "Milk-fat physical structure (tested comparison)",
+      "evidence": {
+        "finding_ids": [
+          "PM2-F3"
+        ],
+        "citation_keys": [
+          "vors_emulsion_endotoxemia_2017"
+        ]
+      },
+      "limitations": "Eight normal-weight men did not show the same area difference. Physical emulsification is not equivalent to every emulsifier additive; no general avoidance rule or clinical benefit follows.",
+      "upstream": [],
+      "members": []
+    },
+    "preserve_projection_hold": true,
+    "ordinary_food_equivalence": false,
+    "new_admission": false
+  },
+  {
+    "relationship_id": "BRS5-FM1-PM3::PM3-DIT-1",
+    "label": "Oligofructose-enriched inulin",
+    "proposed_role": "defined-mixture",
+    "status": "proposal-only; not canonical schema or identity registration",
+    "canonical_identity_id": null,
+    "existing_evidence_and_limitations": {
+      "kind": "admitted-input",
+      "relationship_id": "BRS5-FM1-PM3::PM3-DIT-1",
+      "classification": "direct",
+      "layer": "dietary-requirement",
+      "accounting": "A",
+      "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx#dietary_input_traceability/PM3-DIT-1",
+      "input": "Oligofructose-enriched inulin",
+      "evidence": {
+        "finding_ids": [
+          "PM3-F1"
+        ],
+        "citation_keys": [
+          "schroeder_bifidobacteria_2018"
+        ]
+      },
+      "limitations": "A defined mouse exposure, not an indispensable nutrient or a human dose recommendation. The responsible microbial effector was not isolated; combining it with NCC2705 did not preserve the penetrability effect.",
+      "upstream": [],
+      "members": []
+    },
+    "preserve_projection_hold": true,
+    "ordinary_food_equivalence": false,
+    "new_admission": false
+  },
+  {
+    "relationship_id": "BRS5-FM1-PM3::PM3-DIT-2",
+    "label": "Bifidobacterium longum NCC2705",
+    "proposed_role": "exact-microbial-strain",
+    "status": "proposal-only; not canonical schema or identity registration",
+    "canonical_identity_id": null,
+    "existing_evidence_and_limitations": {
+      "kind": "admitted-input",
+      "relationship_id": "BRS5-FM1-PM3::PM3-DIT-2",
+      "classification": "direct",
+      "layer": "dietary-requirement",
+      "accounting": "A",
+      "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx#dietary_input_traceability/PM3-DIT-2",
+      "input": "Bifidobacterium longum NCC2705",
+      "evidence": {
+        "finding_ids": [
+          "PM3-F1"
+        ],
+        "citation_keys": [
+          "schroeder_bifidobacteria_2018"
+        ]
+      },
+      "limitations": "Strain-specific preclinical modulation does not establish a human dietary requirement, clinical benefit or equivalence to fermented foods. Penetrability and thickness were not restored by the strain.",
+      "upstream": [],
+      "members": []
+    },
+    "preserve_projection_hold": true,
+    "ordinary_food_equivalence": false,
+    "new_admission": false
+  },
+  {
+    "relationship_id": "BRS5-FM3-PM7::PM7-DIT-1",
+    "label": "Lactobacillus rhamnosus JB-1",
+    "proposed_role": "exact-microbial-strain",
+    "status": "proposal-only; not canonical schema or identity registration",
+    "canonical_identity_id": null,
+    "existing_evidence_and_limitations": {
+      "kind": "admitted-input",
+      "relationship_id": "BRS5-FM3-PM7::PM7-DIT-1",
+      "classification": "direct",
+      "layer": "dietary-requirement",
+      "accounting": "A",
+      "source_record": "docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx#dietary_input_traceability/PM7-DIT-1",
+      "input": "Lactobacillus rhamnosus JB-1",
+      "evidence": {
+        "finding_ids": [
+          "PM7-F1"
+        ],
+        "citation_keys": [
+          "bravo_ingestion_2011",
+          "kelly_jb1_translation_2017"
+        ]
+      },
+      "limitations": "The human placebo-controlled trial did not reproduce overall stress/cognitive benefit. No generic probiotic, fermented-food or nutritional-necessity claim.",
+      "upstream": [],
+      "members": []
+    },
+    "preserve_projection_hold": true,
+    "ordinary_food_equivalence": false,
+    "new_admission": false
+  },
+  {
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-2",
+    "label": "Apple pectin (studied preparation)",
+    "proposed_role": "studied-preparation",
+    "status": "proposal-only; not canonical schema or identity registration",
+    "canonical_identity_id": null,
+    "existing_evidence_and_limitations": {
+      "kind": "admitted-input",
+      "relationship_id": "BRS5-FM3-PM8::PM8-DIT-2",
+      "classification": "direct",
+      "layer": "dietary-requirement",
+      "accounting": "A",
+      "source_record": "docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx#dietary_input_traceability/PM8-DIT-2",
+      "input": "Apple pectin (studied preparation)",
+      "evidence": {
+        "finding_ids": [
+          "PM8-F1"
+        ],
+        "citation_keys": [
+          "sinha_dietary_2024"
+        ]
+      },
+      "limitations": "The experiment does not establish equivalence to all fibre or pectin foods, a human intake recommendation or brain neurotransmitter benefit.",
+      "upstream": [],
+      "members": []
+    },
+    "preserve_projection_hold": true,
+    "ordinary_food_equivalence": false,
+    "new_admission": false
+  }
+]

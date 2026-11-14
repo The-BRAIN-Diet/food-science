@@ -1,0 +1,223 @@
+{
+  "scope": "Proposal structural validation, not a new scientific appraisal or implementation",
+  "checks": [
+    {
+      "id": "BRS1-FM2-PM6::PM6-DIT-2",
+      "source_unchanged": true,
+      "original_evidence_and_limitations_retained": true,
+      "bibliography_keys_resolve": true,
+      "schema": {
+        "status": "admitted",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": []
+      }
+    },
+    {
+      "id": "BRS2-FM1-PM1::PM1-DIT-2",
+      "source_unchanged": true,
+      "original_evidence_and_limitations_retained": true,
+      "bibliography_keys_resolve": true,
+      "schema": {
+        "status": "unresolved",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": [
+          "canonical-input-identity-mismatch"
+        ]
+      }
+    },
+    {
+      "id": "BRS2-FM1-PM1::PM1-DIT-4",
+      "source_unchanged": true,
+      "original_evidence_and_limitations_retained": true,
+      "bibliography_keys_resolve": true,
+      "schema": {
+        "status": "unresolved",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": [
+          "canonical-input-identity-mismatch"
+        ]
+      }
+    },
+    {
+      "id": "BRS2-FM1-PM2::PM2-DIT-2",
+      "source_unchanged": true,
+      "original_evidence_and_limitations_retained": true,
+      "bibliography_keys_resolve": true,
+      "schema": {
+        "status": "admitted",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": []
+      }
+    },
+    {
+      "id": "BRS2-FM1-PM3::PM3-DIT-5",
+      "source_unchanged": true,
+      "original_evidence_and_limitations_retained": true,
+      "bibliography_keys_resolve": true,
+      "schema": {
+        "status": "unresolved",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": [
+          "canonical-identity-unresolved",
+          "conversion-identity-unresolved"
+        ]
+      }
+    },
+    {
+      "id": "BRS2-FM1-PM4::PM4-DIT-2",
+      "source_unchanged": true,
+      "original_evidence_and_limitations_retained": true,
+      "bibliography_keys_resolve": true,
+      "schema": {
+        "status": "unresolved",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": [
+          "canonical-identity-unresolved",
+          "conversion-identity-unresolved"
+        ]
+      }
+    },
+    {
+      "id": "BRS2-FM2-PM6::PM6-DIT-9",
+      "source_unchanged": true,
+      "original_evidence_and_limitations_retained": true,
+      "bibliography_keys_resolve": true,
+      "schema": {
+        "status": "admitted",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": []
+      }
+    },
+    {
+      "id": "BRS2-FM2-PM6::PM6-DIT-7",
+      "source_unchanged": true,
+      "original_evidence_and_limitations_retained": true,
+      "bibliography_keys_resolve": true,
+      "schema": {
+        "status": "admitted",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": []
+      }
+    },
+    {
+      "id": "BRS2-FM3-PM7::PM7-DIT-4",
+      "source_unchanged": true,
+      "original_evidence_and_limitations_retained": true,
+      "bibliography_keys_resolve": true,
+      "schema": {
+        "status": "admitted",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": []
+      }
+    },
+    {
+      "id": "BRS4-FM1-PM1::PM1-DIT-3",
+      "source_unchanged": true,
+      "original_evidence_and_limitations_retained": true,
+      "bibliography_keys_resolve": true,
+      "schema": {
+        "status": "unresolved",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": [
+          "canonical-input-identity-mismatch"
+        ]
+      }
+    },
+    {
+      "id": "BRS4-FM1-PM2::PM2-DIT-3",
+      "source_unchanged": true,
+      "original_evidence_and_limitations_retained": true,
+      "bibliography_keys_resolve": true,
+      "schema": {
+        "status": "admitted",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": []
+      }
+    },
+    {
+      "id": "BRS5-FM1-PM1::PM1-DIT-2",
+      "source_unchanged": true,
+      "original_evidence_and_limitations_retained": true,
+      "bibliography_keys_resolve": true,
+      "schema": {
+        "status": "unresolved",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": [
+          "canonical-identity-unresolved",
+          "conversion-identity-unresolved"
+        ]
+      }
+    },
+    {
+      "id": "BRS5-FM1-PM1::PM1-DIT-4",
+      "source_unchanged": true,
+      "original_evidence_and_limitations_retained": true,
+      "bibliography_keys_resolve": true,
+      "schema": {
+        "status": "admitted",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": []
+      }
+    },
+    {
+      "id": "BRS5-FM2-PM6::PM6-DIT-2",
+      "source_unchanged": true,
+      "original_evidence_and_limitations_retained": true,
+      "bibliography_keys_resolve": true,
+      "schema": {
+        "status": "admitted",
+        "eligibility": {
+          "eligible": true,
+          "state": "eligible-candidate"
+        },
+        "errors": []
+      }
+    }
+  ],
+  "summary": {
+    "records": 14,
+    "schema_pass": 8,
+    "expected_missing_identity": 3,
+    "existing_display_alias_mismatch": 3,
+    "canonical_source_files_unchanged": true
+  }
+}

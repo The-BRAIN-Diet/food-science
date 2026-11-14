@@ -21,6 +21,7 @@ overview_key_compounds:
   - Astaxanthin
   - Vitamin B12
 nutrition_per_100g:
+  tyrosine_g: 0.759
   linoleic_g: 0.9
   kcal: 208
   vitamin_b3_mg: 8.672
@@ -99,10 +100,50 @@ nutrition_supplementary_sources:
     unit: mg
     quantity_citation_pending: true
     source_reference: '#food-source-3'
+  - key: glycine_usda_review01_175167
+    label: Glycine
+    substance_id: glycine
+    value: 0.96
+    unit: g
+    basis: per 100 g edible portion
+    original_source_basis: per 100 g edible portion
+    evidence_material: Fish, salmon, Atlantic, farmed, raw
+    preparation_state: Fish, salmon, Atlantic, farmed, raw
+    source_url: https://fdc.nal.usda.gov/food-details/175167/nutrients
+    source_group: USDA SR Legacy April 2018; source-specific database value
+    source_note: >-
+      Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact
+      source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility
+      or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026.
+      Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.
+    material_limitations: >-
+      Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact
+      source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility
+      or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026.
+      Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: author-approved-review-01
+    fdc_id: 175167
+    food_nutrient_id: 1918104
+    source_derivation_id: A
+    source_data_points: 0
 main_image: /img/foods/salmon/salmon_medium.webp
 legacy_list_image: /img/foods/salmon/salmon_thumb.webp
 legacy_main_image: /img/foods/salmon/salmon_medium.webp
 substance_relationships:
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: "Fish, salmon, Atlantic, farmed, raw"
+    source_url: https://fdc.nal.usda.gov/food-details/175167/nutrients
+    description: "USDA reports 759 mg tyrosine per 100 g edible portion of the specified food."
+    material_limitations: "USDA SR Legacy (April 2018), food-nutrient row 1918101, nutrient 1218; Analytical. Data points: 0. Exact database food: Fish, salmon, Atlantic, farmed, raw. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
   - substance: Methionine
     relationship: contains
     description: >-
@@ -190,6 +231,7 @@ substance_relationships:
 substance_review_candidates: []
 nutrition_value_reviews:
   - title: 'Astaxanthin amount: citation attachment pending'
+    substance_id: astaxanthin
     section: Bioactive compounds
     correction_status: pending
     description: >-

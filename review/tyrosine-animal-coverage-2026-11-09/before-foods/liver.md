@@ -1,0 +1,279 @@
+---
+id: liver
+title: Liver
+sidebar_label: Liver
+description: Nutrient-dense organ meat with bioavailable B12, retinol, iron, and CoQ10
+tags:
+  - Food
+  - Liver
+  - Vitamin B12
+  - Vitamin A
+  - Iron
+  - Vitamin B9
+  - Choline
+  - CoQ10
+  - Creatine
+  - Cysteine
+public_display:
+  cystine_mg: internal-only
+list_image: /img/foods/liver/liver_thumb.webp
+nutrition_per_100g:
+  vitamin_a_rae_ug: 4968
+  vitamin_c_mg: 1.3
+  ala_mg: 7
+  calcium_mg: 5
+  potassium_mg: 313
+  zinc_mg: 4
+  selenium_ug: 39.7
+  vitamin_e_mg: 0.38
+  vitamin_b3_mg: 13.175
+  vitamin_b5_mg: 7.173
+  vitamin_b6_mg: 1.083
+  fat_g: 3.63
+  linoleic_g: 0.299
+  vitamin_b1_mg: 0.189
+  vitamin_b2_mg: 2.755
+  folate_ug: 290
+  vitamin_b12_ug: 59.3
+  vitamin_k_ug: 3.1
+  beta_carotene_ug: 232
+  protein_g: 20.36
+  cystine_mg: 376
+  iron_mg: 4.9
+  magnesium_mg: 18
+  phosphorus_mg: 387
+  sodium_mg: 69
+  copper_mg: 9.755
+  manganese_mg: 0.31
+  vitamin_d_ug: 1.2
+  carbs_g: 3.89
+  kcal: 135
+  choline_mg: 333.3
+  sat_fat_g: 1.233
+  omega3_mg: 7
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 7
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: Beef, variety meats and by-products, liver, raw
+  fdc_id: 169451
+  retrieval_method: SR Legacy bulk (April 2018)
+  basis: per 100 g edible portion
+  last_checked: '2026-08-15'
+protein_profile_note: Complete essential amino acid profile.
+main_image: /img/foods/liver/liver_medium.webp
+legacy_list_image: /img/foods/liver/liver_thumb.webp
+legacy_main_image: /img/foods/liver/liver_medium.webp
+nutrition_supplementary_sources:
+  - key: coq10_qual
+    label: CoQ10
+    status: Present — quantity not established
+    amount_display: Present
+    source_note: >-
+      Kulczynski et al. (2019), Characteristics of Selected Antioxidative and
+      Bioactive Compounds in Meat and Animal Origin Products. Table 7 identifies
+      individual CoQ10 in beef and pork liver; no representative generic liver
+      amount used.
+    public_note: Reported in beef and pork liver.
+    source_group: liver-coq
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/
+    notes: beef and pork liver
+    source_reference: '#food-source-3'
+  - key: creatine_qual
+    label: Creatine
+    status: Present — quantity not established
+    amount_display: Present
+    source_note: >-
+      Kulczynski et al. (2019), Characteristics of Selected Antioxidative and
+      Bioactive Compounds in Meat and Animal Origin Products. Table 7 separately
+      lists positive creatine for beef muscle, lamb, pork ham, beef liver and
+      tuna. No range assigned across different foods or cuts.
+    public_note: Contains creatine; amounts vary with the cut and cooking.
+    source_group: creatine
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/
+    notes: the named meat or fish tissue
+    source_reference: '#food-source-3'
+substance_relationships:
+  - substance: Cysteine
+    relationship: contains
+    description: >-
+      Cystine 376 mg per 100 g of Beef, variety meats and by-products, liver,
+      raw (FDC 169451). A 113 g (4 oz) portion is about 425 mg. Composition
+      only; not a glutathione-synthesis result.
+  - substance: Retinoic acid
+    relationship: dietary-precursor
+    input: Preformed vitamin A (retinol and retinyl esters)
+    process: Oxidation to retinal, then to retinoic acid
+    description: >-
+      Beef liver records 4,968 µg RAE vitamin A per 100 g, with 232 µg
+      beta-carotene. The dominant precursor is preformed vitamin A. The food is
+      not recorded as containing retinoic acid.
+    citation_keys:
+      - duester_retinoic_acid_2008
+      - harrison_vitamin_a_absorption_2012
+  - substance: Choline
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports choline in Beef, variety meats and
+      by-products, liver, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: liver|Choline
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Beef, variety meats and by-products, liver, raw
+    source_url: https://fdc.nal.usda.gov/food-details/169451/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Iron
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports iron in Beef, variety meats and by-products,
+      liver, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: liver|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Beef, variety meats and by-products, liver, raw
+    source_url: https://fdc.nal.usda.gov/food-details/169451/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Vitamin A
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin A as retinol activity equivalents in
+      Beef, variety meats and by-products, liver, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: liver|Vitamin A
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Beef, variety meats and by-products, liver, raw
+    source_url: https://fdc.nal.usda.gov/food-details/169451/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Vitamin B12
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B12 in Beef, variety meats and
+      by-products, liver, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: liver|Vitamin B12
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Beef, variety meats and by-products, liver, raw
+    source_url: https://fdc.nal.usda.gov/food-details/169451/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Vitamin B9
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports folate in Beef, variety meats and
+      by-products, liver, raw.  The recorded analyte is folate.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: liver|Vitamin B9
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Beef, variety meats and by-products, liver, raw
+    source_url: https://fdc.nal.usda.gov/food-details/169451/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: CoQ10
+    relationship: contains
+    description: Reported in beef and pork liver.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: liver|CoQ10
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Kulczynski et al. (2019), Characteristics of Selected Antioxidative and
+      Bioactive Compounds in Meat and Animal Origin Products
+    evidence_material: beef and pork liver
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/
+    source_reference: '#food-source-3'
+  - substance: Creatine
+    relationship: contains
+    description: Contains creatine; amounts vary with the cut and cooking.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: liver|Creatine
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Kulczynski et al. (2019), Characteristics of Selected Antioxidative and
+      Bioactive Compounds in Meat and Animal Origin Products
+    evidence_material: the named meat or fish tissue
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/
+    source_reference: '#food-source-3'
+substance_review_candidates: []
+---
+## Overview
+
+Liver is a highly nutrient-dense organ meat providing exceptionally high amounts of **vitamin B12**, **folate**, **retinol (vitamin A)**, **heme iron**, and **choline**. These nutrients support one‑carbon metabolism, red blood cell formation, and neurotransmitter-related pathways, making liver a potent “micronutrient booster” when used occasionally rather than daily [1].
+
+Within the BRAIN Diet framework, liver is typically treated as a periodic offal food that can help close nutrient gaps (especially B12, folate, and retinol) while keeping the overall diet plant-forward. Because liver is also a concentrated source of preformed vitamin A, portion size and frequency matter; gentle cooking and thoughtful sourcing help balance nutrient density with practical tolerability [1,2].
+
+## Key Nutritional Highlights
+
+- Highest iron among BRAIN Diet meat and organ pages (per 100 g).
+- Nutrient-dense source of complete protein plus highly bioavailable vitamins and minerals.
+- Typically richer than standard muscle meat in vitamin B12 and other micronutrients.
+- Contains no dietary fibre, so meals are usually more balanced with vegetables, legumes, or whole grains.
+- Nutrient concentrations can be very high, so portion size and frequency are useful practical levers.
+- Processing and cooking method still matter for overall dietary context.
+
+## Advanced Nutrition
+
+### Amino acids
+
+Liver supplies cystine, which contributes to cysteine availability. This raw beef liver contains **376 mg per 100 g**, about **425 mg in 113 g (4 oz)**. On that raw weight it is a relatively rich cystine source.
+
+Food-composition values are representative, not fixed. Variety, preparation and source can change the amount.
+
+## Food Context
+
+### Sourcing
+
+- Source from grass-fed/pasture-raised animals when possible for optimal nutrient profile
+
+### Preparation
+
+- Moderate consumption due to high vitamin A content (retinol can accumulate)
+- Gentle cooking preserves nutrients and prevents formation of advanced glycation end products (AGEs)
+- Important for vegan/vegetarian nutrient gap closure, though not suitable for vegetarians
+- Organ meats (heart, liver), oily fish (sardines, mackerel), beef are top sources for CoQ10
+
+### Essential Amino Acid Profile
+
+This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Liver" />
+
+<NutritionTable details={frontMatter} />
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
+## References
+
+[1] Latoch et al. (2024). [Edible offal as a valuable source of nutrients (review)](/docs/papers/BRAIN-Diet-References#latoch_edible_2024). These nutrients support one‑carbon metabolism, red blood cell formation, and neurotransmitter-related pathways, making liver a potent “micronutrient booster” when used occasionally rather than daily.
+
+[2] Crane et al. (2001). [Biochemical functions of coenzyme Q10 in mitochondria](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)
+
+<span id="food-source-3" />
+
+[3] [Kulczynski et al. (2019), Characteristics of Selected Antioxidative and Bioactive Compounds in Meat and Animal Origin Products](/docs/papers/BRAIN-Diet-References#food_composition_8249db9abe99)
+
+<span id="food-source-4" />
+
+[4] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/169451/nutrients)

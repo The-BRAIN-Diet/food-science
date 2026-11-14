@@ -10,6 +10,7 @@ Read [PROJECT-CONTEXT.md](PROJECT-CONTEXT.md) for architecture and authoritative
 
 ## Agreed PM schema and template changes
 
+- Follow the approved interface template. Before implementing a departure, show the author the current and proposed behaviour, identify the governing schema or instruction, and explain what readers would see differently. Discuss the template change and obtain explicit approval for that departure first. Approval for a data or feature change covers only the presentation changes explicitly agreed. Repairs that restore the agreed template can proceed under the existing instructions.
 - When proposing or implementing a PM schema, template or shared presentation change, explicitly remind the user which authoritative instructions need to change with it.
 - Once the change is agreed, update the applicable Stage 2A, Stage 2B, PM schema/template and shared presentation contract in the same work item. Preserve the scientific and historical boundaries of the approval.
 - In the completion message, confirm the instruction updates or name any that remain unresolved. Do not leave an agreed schema change documented only in the chat.
@@ -83,3 +84,8 @@ All the references in there are contained in the `static/bibtex/Brain-diet.bib` 
 ## Mandatory author approval for presentation changes
 
 Follow [system/presentation-change-control.md](system/presentation-change-control.md). Scientific data integration does not authorise public presentation. New substantive blocks require a proposal, representative rendered example, page-type/count scope, updated contract and explicit prior author approval. Run `npm run presentation:check`; never regenerate the baseline or invent an approval to bypass a failure. Both Dietary pathways technical panels are withdrawn across all page types; preserve their data without public projection. This rule supersedes earlier instructions permitting automatic pathway displays.
+
+
+## Canonical science and generated views
+
+Follow [canonical scientific projections](system/canonical-scientific-projections.md) for all future PM creation, revision, presentation generation and release. One current mission lives in PM frontmatter; projections derive it. Preserve historical assessments and canonical scientific decisions. Public explanatory prose may expand explanation but not conclusions. Run consistency tests and report conflicting source records before publication.

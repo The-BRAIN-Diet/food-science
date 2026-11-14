@@ -10,9 +10,7 @@
     "potassium_mg": 2480,
     "zinc_mg": 4.44,
     "selenium_ug": 45.8,
-    "vitamin_b6_mg": 0.618,
-    "ala_mg": 2860,
-    "omega3_mg": 2860
+    "vitamin_b6_mg": 0.618
   },
   "nutrition_source": {
     "database": "USDA FoodData Central",

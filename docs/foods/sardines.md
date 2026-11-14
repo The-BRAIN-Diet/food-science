@@ -17,6 +17,7 @@ tags:
   - Methionine
 list_image: /img/foods/sardines/sardines_thumb.webp
 nutrition_per_100g:
+  tyrosine_g: 0.831
   vitamin_e_mg: 2.04
   vitamin_k_ug: 2.6
   choline_mg: 75
@@ -87,6 +88,16 @@ nutrition_supplementary_sources:
     source_reference: '#food-source-4'
 protein_profile_note: Complete essential amino acid profile.
 substance_relationships:
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: "Fish, sardine, Atlantic, canned in oil, drained solids with bone"
+    source_url: https://fdc.nal.usda.gov/food-details/175139/nutrients
+    description: "USDA reports 831 mg tyrosine per 100 g edible portion of the specified food."
+    material_limitations: "USDA SR Legacy (April 2018), food-nutrient row 1915842, nutrient 1218; No derivation code supplied in this USDA row; not asserted to be an independent assay. Data points: 0. Exact database food: Fish, sardine, Atlantic, canned in oil, drained solids with bone. Amount applies per 100 g edible portion of this recorded material, not a different species, cut or preparation. Total food tyrosine is not free supplemental L-tyrosine, absorbed dose or clinical effect."
   - substance: Methionine
     relationship: contains
     description: >-

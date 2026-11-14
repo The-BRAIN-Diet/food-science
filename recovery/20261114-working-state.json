@@ -1,0 +1,2666 @@
+{
+  "source_path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/combined-local",
+  "source_head": "af13bec172b5938098a46f85c06523b8a20e90dc",
+  "source_branch": "",
+  "purpose": "Backup only. Not a release candidate. No regeneration or scientific approval inferred.",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 6601,
+      "sha256": "034d0ec9c277a086a12e98f3d02a2a97ed41367e0db2656e9f89ee440dc03d3f"
+    },
+    {
+      "path": "CURRENT-HANDOFF.md",
+      "bytes": 19844,
+      "sha256": "be466fd667ebd478e1c9b06663c135b53962ca981e9384e07b544a136e7653d6"
+    },
+    {
+      "path": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability.mdx",
+      "bytes": 26256,
+      "sha256": "ef0770d8d6535810cca92e9284c904d8267ff2f19bef1cdc734eb785fd11561c"
+    },
+    {
+      "path": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx",
+      "bytes": 47907,
+      "sha256": "285b2dd6a7a6029e02d34d1b5be27deed263148dc39d438566b784edda1bb770"
+    },
+    {
+      "path": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation.mdx",
+      "bytes": 35182,
+      "sha256": "22829d5754957e0a54d1a6198a283394dc9e93f3de47025419057f67cde58d2f"
+    },
+    {
+      "path": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation.mdx",
+      "bytes": 39132,
+      "sha256": "1721cec49d14d79082dd6954be360b6e3c2b0f42826f78ca061b3c9a14539667"
+    },
+    {
+      "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+      "bytes": 149256,
+      "sha256": "aae2d4bd3cbfe72cb295bf128fb69b9433a01cc9b62dfbb5e76d9e5a31f8d5e1"
+    },
+    {
+      "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+      "bytes": 227092,
+      "sha256": "214414dbed8d932b6cd39fa5ce05c48a6d7dfdea1ca284be0c6ce70b1051f456"
+    },
+    {
+      "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
+      "bytes": 176998,
+      "sha256": "33e1504e7427cc9eeb1156203239ab5c5547c28026b2046ae586066901134303"
+    },
+    {
+      "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+      "bytes": 123617,
+      "sha256": "58338261e3d498c17483a05c92800c8f1dc79b5dbac5ad668ea4571d86ded3f3"
+    },
+    {
+      "path": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
+      "bytes": 107504,
+      "sha256": "5132db16f97d7969b88a0d1c9fe49fdd746107f046b3aedc10b32e2b9ed50677"
+    },
+    {
+      "path": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+      "bytes": 98579,
+      "sha256": "d710cbc2d69ddba39be27602937c22165ba03dbac6d7be65bd5119b53cd4829f"
+    },
+    {
+      "path": "docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx",
+      "bytes": 47648,
+      "sha256": "d6c9c241069697ae5d16748b856844185a438bbaa554d84eef2f1ca971ec79af"
+    },
+    {
+      "path": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+      "bytes": 120274,
+      "sha256": "0939c7fb30ba61b96c7849257749635d06efef65239488255cd3dcae9fdf71c5"
+    },
+    {
+      "path": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+      "bytes": 129290,
+      "sha256": "b300db76f1239db92638a67161af24c0f1a7ef104cbe504bed06a4b4ba58a5ab"
+    },
+    {
+      "path": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx",
+      "bytes": 116385,
+      "sha256": "b18c1b554ece42396ddbee3b5e3a25b1a2d16675858e06426fa3f828a9102bd5"
+    },
+    {
+      "path": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx",
+      "bytes": 129519,
+      "sha256": "740bffb42dd6d290da80cc63f151e2b5142bb8757febfe9368d81498963ab4fb"
+    },
+    {
+      "path": "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx",
+      "bytes": 120194,
+      "sha256": "7101f5c60f6ac1f69b88ab13b8f4dd6b8a8c32dfdf140d5d901398f50171280f"
+    },
+    {
+      "path": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx",
+      "bytes": 104887,
+      "sha256": "df4361940b64e621e4986909458410645b77f566850d967a790cf963ff791365"
+    },
+    {
+      "path": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx",
+      "bytes": 118537,
+      "sha256": "3d0973aa62602e26ab4b5fc25a742a2f899b7a930642a7d10e42d9f1e236b918"
+    },
+    {
+      "path": "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
+      "bytes": 38637,
+      "sha256": "700be5276ccc16cdb47d8818790c2f61e3ba791f01da8f9695317f006e30090c"
+    },
+    {
+      "path": "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx",
+      "bytes": 66052,
+      "sha256": "dec1369ff10f2593c3e07251ea4639c8c571d0c3495e10d33c52eb293b1030b7"
+    },
+    {
+      "path": "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx",
+      "bytes": 90848,
+      "sha256": "fd7401afdfb87f49c730b30e384a9a5928bbd140cc6373f64197fe7e93f0fdbc"
+    },
+    {
+      "path": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx",
+      "bytes": 71884,
+      "sha256": "f04399ab9b341f72d9b6663e57f5a7668362412c86eddc165c269c0db247272d"
+    },
+    {
+      "path": "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx",
+      "bytes": 47437,
+      "sha256": "53ee73cbc2007e328c5f0bc73138cdd5bf9fd831d4e26c18f952a069ac9c26d6"
+    },
+    {
+      "path": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+      "bytes": 134844,
+      "sha256": "80a6a7c4bcfb731075629d01fed30ee2ed1653f67be05d078efce5bd8aba708d"
+    },
+    {
+      "path": "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx",
+      "bytes": 119546,
+      "sha256": "ad7253f700862af9ea092c7e4cce04657d176c22047728032e390345733b3c1b"
+    },
+    {
+      "path": "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx",
+      "bytes": 37393,
+      "sha256": "2cbd2f27e7542574398ab97cf82b1a5a92b769fb78e44917b24032ba5db40eb7"
+    },
+    {
+      "path": "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
+      "bytes": 90458,
+      "sha256": "817ac4583adac40a3787333dbaa06af28127805bbce3556013bfff755cae34fb"
+    },
+    {
+      "path": "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx",
+      "bytes": 50062,
+      "sha256": "d711743d3d76b1a785c3b215196efba726def2c229dbbeb03de1ae2fb521451e"
+    },
+    {
+      "path": "docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx",
+      "bytes": 44077,
+      "sha256": "6ab4926c7807882d893f6c646747a00e28034ec118c4a8606f6112cb294309c1"
+    },
+    {
+      "path": "docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx",
+      "bytes": 47650,
+      "sha256": "73f4413a36012bacadd624c8250707c655a306006511c54c8c78482a14cbce38"
+    },
+    {
+      "path": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx",
+      "bytes": 119350,
+      "sha256": "ca17cc443a5388e219441df297c18f6d624ffc8d2c4719315551e0e8365f1889"
+    },
+    {
+      "path": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+      "bytes": 80287,
+      "sha256": "acdf83bc8dc5e1b1d7ebf2403a9140bbeeb9bcab4b9292140de29174315dc6eb"
+    },
+    {
+      "path": "docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx",
+      "bytes": 37849,
+      "sha256": "ff54034338886ea5ff639051d28e492dd35455c2a9b9546a22c9f5720ebe49a0"
+    },
+    {
+      "path": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
+      "bytes": 522009,
+      "sha256": "2af4daef484c5633df08be1fb3e7f458420dc60ffe2f952c87be76b9e8221bae"
+    },
+    {
+      "path": "docs/biological-targets/mitochondrial-function-bioenergetics.md",
+      "bytes": 76748,
+      "sha256": "adaa250c3d21d2ea31e21b8a6d4d3c59a4552ae3c1b75e2894853e3a39f16fcc"
+    },
+    {
+      "path": "docs/foods/almonds.md",
+      "bytes": 13899,
+      "sha256": "a2aec6d86574d7e7de1261aeadaf1c3fb43ffd5a8fab0dfd2e4fb0d9eec8966d"
+    },
+    {
+      "path": "docs/foods/amaranth.md",
+      "bytes": 12663,
+      "sha256": "21aba26ce2e0df5a21f4dbce860964d83bc3bcbfb36dd55cf5e8d5afa0eedab1"
+    },
+    {
+      "path": "docs/foods/anchovies.md",
+      "bytes": 8708,
+      "sha256": "88ab7ba9da4cd20220944d5613db28d31c0aba72643cc8142735ce3a6c61ade3"
+    },
+    {
+      "path": "docs/foods/apples.md",
+      "bytes": 8496,
+      "sha256": "23e23adf8c3411d1af95cab4a3cf819844fa1891e54e7c076725f3636af43951"
+    },
+    {
+      "path": "docs/foods/beef.md",
+      "bytes": 23635,
+      "sha256": "5258f7e1e695e7c5706fbf74eef3874e0f79d15917d1efe4d9aa67badabea009"
+    },
+    {
+      "path": "docs/foods/beetroot.md",
+      "bytes": 11186,
+      "sha256": "0a381bdfd126b0290ec3eb089aed8c40f80ed1c16eef67bcb3cdd87a6939b3f6"
+    },
+    {
+      "path": "docs/foods/broccoli.md",
+      "bytes": 18455,
+      "sha256": "4da9b74ef464442d94f29dc6cd0aa0312cd12dd8945fe361c68044510e2d15bb"
+    },
+    {
+      "path": "docs/foods/butter.md",
+      "bytes": 6777,
+      "sha256": "13fb29ce5671d83e2673098ea1d0875ba0a719b83fd6581ad88794522c74b675"
+    },
+    {
+      "path": "docs/foods/chicken-liver.md",
+      "bytes": 8516,
+      "sha256": "fc539c8f83fe31fbbf18259645dd371e422a319fb0a6542527507997880e08f2"
+    },
+    {
+      "path": "docs/foods/chicken.md",
+      "bytes": 13884,
+      "sha256": "b8e59a2bf2361d22e92ae7a31adfb78d3d73bb96ebcc5357dbf9a8e1a7b0c007"
+    },
+    {
+      "path": "docs/foods/chicory-root.md",
+      "bytes": 10563,
+      "sha256": "4c4b88d0231be7c240b71b7df2175d8d13b8c6e7efa7dcc3f8f546c6d2dc23ed"
+    },
+    {
+      "path": "docs/foods/clams.md",
+      "bytes": 7835,
+      "sha256": "66fd6e8cca6f8a553a3a34311e060365d8e5002d309addd4e353584dfc702155"
+    },
+    {
+      "path": "docs/foods/cod.md",
+      "bytes": 5726,
+      "sha256": "7891c7e2721043edfa67a7044f60741d682e4526793b5b4919ce460e26aa6ada"
+    },
+    {
+      "path": "docs/foods/egg-yolks.md",
+      "bytes": 10830,
+      "sha256": "d3aa5b6e8768f7b2124efca961e7b208b98205ee0f1be747f1d7a411f660adcf"
+    },
+    {
+      "path": "docs/foods/eggs.md",
+      "bytes": 17835,
+      "sha256": "4806faeb229ad4ac7b7269e26681b85884b01314099a7b85c7d5ceeeb07d87d0"
+    },
+    {
+      "path": "docs/foods/garlic.md",
+      "bytes": 8024,
+      "sha256": "7e10b6429ea15273650692a8855af5ad60cbc2d3fc74ea1f58f32d6ca80a2eab"
+    },
+    {
+      "path": "docs/foods/ghee.md",
+      "bytes": 5820,
+      "sha256": "cd7643bd11f3fb7cc5e64753322ce08a3b32e177988d65b50b67dc8bbe05d2d6"
+    },
+    {
+      "path": "docs/foods/herring.md",
+      "bytes": 8004,
+      "sha256": "0206489be5cb1b1bd2690970263fc3bf67309330d6e3440990fe83ab8df66a12"
+    },
+    {
+      "path": "docs/foods/jerusalem-artichokes.md",
+      "bytes": 5489,
+      "sha256": "4498edf9546759b9299fe1e474f6df919d174f53bbb7eaa822d333489b3c45c3"
+    },
+    {
+      "path": "docs/foods/lamb.md",
+      "bytes": 9541,
+      "sha256": "be376ef4ae9596f1c9788e5e889741ad418eca25a3fb6a4a3b5a3f22df7ff00d"
+    },
+    {
+      "path": "docs/foods/lemon.md",
+      "bytes": 10283,
+      "sha256": "096e6ad6129c062830b19a1429f5f83ce83797f31242489722c4644a4908a27d"
+    },
+    {
+      "path": "docs/foods/liver.md",
+      "bytes": 12282,
+      "sha256": "959a17f22275326dd551edc3b28bb499194345a7eb7fea7481c14728c4442240"
+    },
+    {
+      "path": "docs/foods/mackerel.md",
+      "bytes": 11032,
+      "sha256": "975413f391d5fefc61ad11865e74e9a9bf9656e60de4678b0c7bc3d2e2d2826e"
+    },
+    {
+      "path": "docs/foods/milk.md",
+      "bytes": 16299,
+      "sha256": "01102d9148df2de883ed1d24e634ebaafe853484d51f880a8df4e011c27d6044"
+    },
+    {
+      "path": "docs/foods/mussels.md",
+      "bytes": 13159,
+      "sha256": "c85bbdcd75abf5e8b1bcb4f3fe10e3e6507265087de5377ce7b621d67f91403b"
+    },
+    {
+      "path": "docs/foods/onions.md",
+      "bytes": 10311,
+      "sha256": "88b971f6116711c787b8536eec57c6e00c12fc1afa9c42c1df6adf845930da6f"
+    },
+    {
+      "path": "docs/foods/oranges.md",
+      "bytes": 6645,
+      "sha256": "211d579d44bcb38e71eb8f9b86cc3e044a1ef11964486549db5a10f1a918cd32"
+    },
+    {
+      "path": "docs/foods/oysters.md",
+      "bytes": 13402,
+      "sha256": "0df7a0816bf66647532747c23705a4c6a8a43943c8f207fabee0409025719786"
+    },
+    {
+      "path": "docs/foods/pears.md",
+      "bytes": 4556,
+      "sha256": "ba37f26d80d63fd29d15a4eedb4ae3bf9c63c07ddab38eaa4ca876fb6aa9e216"
+    },
+    {
+      "path": "docs/foods/pork.md",
+      "bytes": 8636,
+      "sha256": "1f225a821defecb5509b3d78e3f16bff1fa63ebcc412ce68f86ca5a85e30c069"
+    },
+    {
+      "path": "docs/foods/pumpkin-seeds.md",
+      "bytes": 10587,
+      "sha256": "fd351c9ef1b247dded3628a465d6853dd2298ddc7c26c624580c302d3c5115a7"
+    },
+    {
+      "path": "docs/foods/quinoa.md",
+      "bytes": 15646,
+      "sha256": "02329bb617eb3289675cd658bb565329b8694929684b4b8c1ca74b08fdb33280"
+    },
+    {
+      "path": "docs/foods/salmon.md",
+      "bytes": 15885,
+      "sha256": "7385aeea8e89270ebe6159d0e0bad3adbd19cc2041c71e972e84046be2d3d308"
+    },
+    {
+      "path": "docs/foods/sardines.md",
+      "bytes": 15286,
+      "sha256": "e0219d49b4f509af59d4a3e7d784965ad5572569f63e5dbff9701a75a9d88728"
+    },
+    {
+      "path": "docs/foods/scallops.md",
+      "bytes": 9547,
+      "sha256": "e079585058798488cdec136d07c8a28ac820d3d4bf693483a2c7fda74015b3c2"
+    },
+    {
+      "path": "docs/foods/shrimp.md",
+      "bytes": 7540,
+      "sha256": "aad6d71d67587900b1c3a55d963c71bcbf86b1eac622f75914541d88021fedf1"
+    },
+    {
+      "path": "docs/foods/soy.md",
+      "bytes": 15162,
+      "sha256": "a4461f67ccf24af68c601903d777ef0ba50b2d27d9a55c39c1958a21fdb563eb"
+    },
+    {
+      "path": "docs/foods/spinach.md",
+      "bytes": 23562,
+      "sha256": "5b4b363958bf83088d9a648c0aa962c7b79be111638deaf1ae3c189395391f22"
+    },
+    {
+      "path": "docs/foods/sunflower-seeds.md",
+      "bytes": 13810,
+      "sha256": "e5303f2330c77a9fe292804822ac4f6b0f3c136742cb8877abd86731f0091db2"
+    },
+    {
+      "path": "docs/foods/tofu.md",
+      "bytes": 17143,
+      "sha256": "87e8cfaa31d591135b39f74e50878abee5926ec2b8800de7aa89311fc9d51035"
+    },
+    {
+      "path": "docs/foods/tuna.md",
+      "bytes": 13633,
+      "sha256": "a421063e38e6fb42d534a9cffbbdd6d18e151161277ed2d3ded8757548f5ec74"
+    },
+    {
+      "path": "docs/foods/turkey.md",
+      "bytes": 10003,
+      "sha256": "25005e0ae5eb6c804ff3adf6b8ea0a11f142e316ab04c66e253332b127a1e7bf"
+    },
+    {
+      "path": "docs/foods/vinegar-pickles.md",
+      "bytes": 12180,
+      "sha256": "f0484fa419fd475168c4951fe02d7620315f357ba8e62d7342c718c0bb881361"
+    },
+    {
+      "path": "docs/foods/vinegar.md",
+      "bytes": 4397,
+      "sha256": "f98d963b44b5a9a9cf5388d11e59374b8840122cb670ccc4c8249f93ff86c8e4"
+    },
+    {
+      "path": "docs/foods/wheat-germ.md",
+      "bytes": 12514,
+      "sha256": "934f7ae89343a9197579c1b1192651448e2ab4effb347bea89bae39db5bb415b"
+    },
+    {
+      "path": "docs/recipes/Dinner/turkey-wing-stew.md",
+      "bytes": 8356,
+      "sha256": "b24194ef5b28726f1c5f309572d180534dd064849b6826c8168fc2a5c665b24c"
+    },
+    {
+      "path": "docs/substances/bifidobacterium-longum.md",
+      "bytes": 894,
+      "sha256": "6d738dacc00379e57bea827be5654eecaa782297ab525df18823418e7ce19a30"
+    },
+    {
+      "path": "docs/substances/bioactive-compounds/acetic-acid.md",
+      "bytes": 5004,
+      "sha256": "74e0530050e8734a29911e4373e9c0321c5b4959dc55ad7a028f1f40b68761db"
+    },
+    {
+      "path": "docs/substances/bioactive-compounds/taurine.md",
+      "bytes": 21300,
+      "sha256": "616a434da62c855df4d802af82a87bfbbb969a46da37389c74b2939f2ebd71da"
+    },
+    {
+      "path": "docs/substances/lacticaseibacillus-rhamnosus.md",
+      "bytes": 1086,
+      "sha256": "413fe5b11d3242615b78e7cdf651539e805b407e92323f1ba3f2323038f0566b"
+    },
+    {
+      "path": "docs/substances/microbial-metabolites/scfas/acetate.md",
+      "bytes": 3227,
+      "sha256": "25a56f060fd2f03a01b5817a38f82ae084cbd71d8b6b2ff8da146b346d886c1b"
+    },
+    {
+      "path": "docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine.md",
+      "bytes": 4951,
+      "sha256": "628bd18867412050b1337c6be01acdfd198c2f80f36ce8bee0ffe5f2fd60ac09"
+    },
+    {
+      "path": "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/inulin.md",
+      "bytes": 5483,
+      "sha256": "011feaa29717836bfde592ba19925d1c7b5b09b00d6472693f60e8beabe9dce4"
+    },
+    {
+      "path": "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructo-galacto-oligosaccharides.md",
+      "bytes": 5419,
+      "sha256": "7c8530c4a26e1909413f27fdd0fc23add146b71b0dd14a434b02dddae547a5d5"
+    },
+    {
+      "path": "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin.md",
+      "bytes": 5356,
+      "sha256": "dfe76350b2754e2d7a0e93f4e8fa6bdc31eae53ca374b910e2fa5317efa21bdf"
+    },
+    {
+      "path": "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch.md",
+      "bytes": 5676,
+      "sha256": "3396c699def631f4311ddadffed98054ba1f940d6146de0bc2c0f76b0c57f853"
+    },
+    {
+      "path": "docs/system/food-composition-holding.md",
+      "bytes": 3387,
+      "sha256": "ada11b1c5a2d880a079752dae3758dd06a0c2089f6f4fa8ccf2096325c10e325"
+    },
+    {
+      "path": "docs/tags.yml",
+      "bytes": 47345,
+      "sha256": "df365fc2e99c5b78523418b68fea76ddd54beb8c72a18b77b3f5a4d532b6b890"
+    },
+    {
+      "path": "project-knowledge/handoffs/INDEX.md",
+      "bytes": 7257,
+      "sha256": "5008a903cbe1637c919d319a99d422d5463721f1d6dc30c8a53e6f2f06710589"
+    },
+    {
+      "path": "project-knowledge/handoffs/dietary-connectivity-2026-11-09.md",
+      "bytes": 16807,
+      "sha256": "7453aae43696f2a00921ead42debcb633abc39c8f56ac462b5b7555d8789ae7c"
+    },
+    {
+      "path": "registry/substances.json",
+      "bytes": 39417,
+      "sha256": "fc5856c917f5dbe76fcc44012685f34ff1ad7055c85b2cbd82ad9a36169318b8"
+    },
+    {
+      "path": "review/circadian-pm3-identity-review-2026-11-10/REPORT.md",
+      "bytes": 7851,
+      "sha256": "6d490615948ede7f8421cd09411871ca4830698e2ec68cd56d53e22c07ab2c09"
+    },
+    {
+      "path": "review/compact-pm-explorer-2026-11-09/CURSOR-PECTIN.md",
+      "bytes": 1635,
+      "sha256": "11c4b7f9f5fc322e3c913e6b7c9f248f85529c469f25fd87c5622ae52e703758"
+    },
+    {
+      "path": "review/compact-pm-explorer-2026-11-09/REPORT.md",
+      "bytes": 12729,
+      "sha256": "4f04f44e71d359da22cc759918024412db29a7ccae92232640ed0ff8799ce2e3"
+    },
+    {
+      "path": "review/compact-pm-explorer-2026-11-09/all-systems.png",
+      "bytes": 68673,
+      "sha256": "6ca56c376fa3c29b00c63fc3db06bd99c9fc303246b8151412f58d026a84de7b"
+    },
+    {
+      "path": "review/compact-pm-explorer-2026-11-09/butyrate-related.png",
+      "bytes": 84724,
+      "sha256": "659cf16ea21306a25ee6aca231fbe83a3bc5c6ac0151ccca1f4bfc547dff8d5a"
+    },
+    {
+      "path": "review/compact-pm-explorer-2026-11-09/citrus-pm4.png",
+      "bytes": 75500,
+      "sha256": "877e94557b4f684c100bcee61a607b24a2ee8a4d917634ef81698f733668aff6"
+    },
+    {
+      "path": "review/compact-pm-explorer-2026-11-09/desktop.png",
+      "bytes": 82738,
+      "sha256": "3fa95a58f9a998285a1972d4494cf6e96754d3daab89df8aa7c2a1f8ed69b195"
+    },
+    {
+      "path": "review/compact-pm-explorer-2026-11-09/inulin-refreshed.png",
+      "bytes": 92017,
+      "sha256": "165c7a706a06208db58ed3153946e2674c03343e682fd3aa79dec257057c52d1"
+    },
+    {
+      "path": "review/compact-pm-explorer-2026-11-09/mobile.png",
+      "bytes": 34841,
+      "sha256": "59d582a9a11d5955427eb23e58e856367b22c7aa6ddc54e4c573e79c1110bd2b"
+    },
+    {
+      "path": "review/compact-pm-explorer-2026-11-09/panel-below-brs.png",
+      "bytes": 113874,
+      "sha256": "7d2821b63e3bd2b14e3acf153fdd00b2a94d0433230286794f6d1f867e718dd4"
+    },
+    {
+      "path": "review/compact-pm-explorer-2026-11-09/pm4-recovered.png",
+      "bytes": 73197,
+      "sha256": "f78c142b57e4c9608297fc41ad37e945d8451727e6438637bd377f05f2d01bef"
+    },
+    {
+      "path": "review/compact-pm-explorer-2026-11-09/wheel-unranked.png",
+      "bytes": 66071,
+      "sha256": "010045a96042ab93b1cd11a3fe072f7eed44d47843a6bf690ba25317d663b840"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/FIRST-REVIEW-GROUPS.md",
+      "bytes": 8901,
+      "sha256": "2ce640f376318c1afab70c76286b6fccf96253d7c8f92d17178823a2103fab58"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/MAPPING-ISSUES.json",
+      "bytes": 5704,
+      "sha256": "19171fb071a292835b14986ece1eb7f95490c6ee7a25de9f5113e02ccc91b9c2"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/NON-RANKABLE.md",
+      "bytes": 2230,
+      "sha256": "e918ac6bd4a4552b14bacb3ce3efb00b3eaa818582e486d70120a5055c447cb6"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/REPORT.md",
+      "bytes": 13328,
+      "sha256": "0945beb6dea8cff2a54fb6267709a04a8830c3a7079faf9dcb2be5be2b483626"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/SOURCE-RECONCILIATION.json",
+      "bytes": 762058,
+      "sha256": "e81a61d9501b83ae80f6a2f77d693c5568141ff9429f9a8dd7ac75a7badb0824"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/SOURCE-RECONCILIATION.md",
+      "bytes": 13371,
+      "sha256": "49633bebba74cbc2fb1a44aa0c14526fe61d8f7a470cca563a4a427e57f7d569"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/SUBSTANCE-MATRIX.md",
+      "bytes": 18677,
+      "sha256": "c1b50c1519398fd36e7a7f92a90bf8f880ad76e423899727cfe0a171844bc053"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/TARGETS.md",
+      "bytes": 9841,
+      "sha256": "bfbb17ea25ffabea55231c28aefd756cdf241d1912016b4c83a31788766e3549"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/UNRANKED-43.md",
+      "bytes": 66820,
+      "sha256": "f9c49ed8fde7b1191fc7922f11c1472b655b3a1456e5ab0bcaedd37488a75c35"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/author-review-01/IMPLEMENTED.md",
+      "bytes": 3653,
+      "sha256": "5283ed27edde3e6a0730671f263463550ccb59303dfda2e3906712576d55289a"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/author-review-01/REVIEW.md",
+      "bytes": 11487,
+      "sha256": "a24a3da1c0d21644ad7638cd3cc042281360a9e92c150ba39eeb24ae541f0886"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/author-review-01/b6-plp-proposed-assessments.json",
+      "bytes": 58605,
+      "sha256": "d2c61333b9b4b588aef0ed14772abb04ea2602f6857c8139a7a62b9765ac4b30"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/author-review-01/conditional-ranking-impact.json",
+      "bytes": 5872,
+      "sha256": "c090a75ef9a23fa0489d3d8d246f0d0964249359f17d401085c127de38056691"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/author-review-01/implementation-before-hashes.json",
+      "bytes": 1797,
+      "sha256": "19ad39b4a6b920fd2d1fda97efa67af8d8cc8f8a3450397cb9d11ca06dee1cbf"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/author-review-01/implemented-results.json",
+      "bytes": 57660,
+      "sha256": "ebe438f92284a8aab0e7b06d2db8bace6dd68cb8e83b31b5158aebc3b29d79c9"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/author-review-01/source-verification.json",
+      "bytes": 41901,
+      "sha256": "8a0264a18fbbd202e8f15b567a9745b0812634dcc306af85b1db2c9d3bf7fe6b"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/author-review-01/usda-glycine-source-rows.json",
+      "bytes": 6857,
+      "sha256": "f29f36702695489f1790f94c5e36090e132ca676a52fc7bcc28a1a3afcf0ee24"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/author-review-02/REVIEW.md",
+      "bytes": 17057,
+      "sha256": "276228778e4685a7e5eae9bac922fb83a3843daac62448238c439da15f2d7f51"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/author-review-02/proposed-assessments.json",
+      "bytes": 181275,
+      "sha256": "9afc5b24766b997e4d75d379a05723647de91da0da9e9698ef4d4cc46a16a74a"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/author-review-02/validation.json",
+      "bytes": 5858,
+      "sha256": "cb1c5c721911b828cb881deb54fccd9f6a59bdfbb9e34cfa3890f84727230469"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/consolidated/REPORT.md",
+      "bytes": 16772,
+      "sha256": "ad5823de7a9390ca04ee95c30912e5659632ba2acabbeb98b42b7316919f2865"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/consolidated/approved-reconciliations.json",
+      "bytes": 1297,
+      "sha256": "1a29d511fa904e9054dc4491544cac6321b6c0dbc12d3c7c3529dda9c230dd66"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/consolidated/existing-extractor-issues.json",
+      "bytes": 4332,
+      "sha256": "beedee4649fc72009f6752fd4fe1bdcc44e90af4ca5cb1f62b4a89a7f26f27db"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/consolidated/extract.mjs",
+      "bytes": 7360,
+      "sha256": "fc33a7dfb9e8a4094459ba4557d658426595d37e4b4a677488338f7220a68b15"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/consolidated/kc-relationships.json",
+      "bytes": 226019,
+      "sha256": "2316521528bf5c9e2e39204eef70e73c52ea9127147e1d4ad5f9244f3fe2dc7a"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/consolidated/mapping-issues.json",
+      "bytes": 11073,
+      "sha256": "9dbe60701a743ffc19ca22622d0789b389a691a9f3a2077b0929a71301a1d283"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/consolidated/multiple-provenance.json",
+      "bytes": 1701,
+      "sha256": "cad826ecb71cc53c5d0088aae94105a81f83f7e7b02c54f4d47e70287c584b35"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/consolidated/non-substance-connections.json",
+      "bytes": 44276,
+      "sha256": "91b6054b7057a14b7c861e9a86500737e274d072578e614d6be66dcbdb49aa4d"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/consolidated/pending-conversions.json",
+      "bytes": 176630,
+      "sha256": "4c73999813e6e02b80dbf8232452456fe7ac091033449f62ef4ad31a32239ea0"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/consolidated/pm-inventory.json",
+      "bytes": 9311056,
+      "sha256": "8d5416e260212ab36bfa2a21ff637cd8384e1d4f438c8e8df673cacd36806b87"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/consolidated/pm-substance-pairs.json",
+      "bytes": 3393736,
+      "sha256": "a1c2f60a7a0a0fee076a5fc9295a8df911277beb833e382c133b14748887f75e"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/consolidated/publication-coverage/derived-routes.json",
+      "bytes": 112367,
+      "sha256": "71fbc32f35e17a9338a29a65efdaa0f0c60977113ea4804672b596335f908cc9"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/consolidated/publication-coverage/documented-connections.json",
+      "bytes": 493194,
+      "sha256": "3db235aab9985f92cc2c8c7ce4f6f2424d9d228c9587eef248719a96b853cbc7"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/consolidated/publication-coverage/extract.mjs",
+      "bytes": 8386,
+      "sha256": "3f18a05e19eb0724d8f82c66fdb23c735a7f2539f4c29f5aeb7f74d950eef488"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/consolidated/publication-coverage/substances.json",
+      "bytes": 5641775,
+      "sha256": "949a77c82095cd04d520e99c09c37a7e681c5ad143dc2d4aa4de1f0af2396ff1"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/consolidated/publication-coverage/summary.json",
+      "bytes": 23355,
+      "sha256": "4b4ee55a9252d9f59618d35ad16d32bd2ff3dd9ee3b5e34f96b8de9438cdd2ac"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/consolidated/publication-coverage/targets.json",
+      "bytes": 2400308,
+      "sha256": "43dbeb4343ec15147e2e34b5a67c7a48380d2e32214bdc06967b4021e6ccc98b"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/consolidated/summary.json",
+      "bytes": 1005,
+      "sha256": "9fe4246a0fc543ba19da4ea11dea3ff888794d720e041b83f4c15bb43df215a8"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/consolidated/validation.json",
+      "bytes": 329,
+      "sha256": "0e689a848beccd4239de3704db94cbdd286824db90660b38858a8dc91ff76b98"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/conversion-group-1-installed/REPORT.md",
+      "bytes": 1974,
+      "sha256": "3f640cb2dc9d928d3485e71b25c83391fc993d6384f2695931316671a363ae19"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/conversion-group-1-installed/before.json",
+      "bytes": 335028,
+      "sha256": "95e711e296a5ceef5584eac3caebe2ad3b5000d542360fda084c5093bc5e8f04"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/conversion-group-1-installed/installation.json",
+      "bytes": 45897,
+      "sha256": "b7e3af588d18b007bc8ee1054b5a256e2403185c7cac230de9f5e7b5f1bba231"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/conversion-group-2-installed/REPORT.md",
+      "bytes": 1390,
+      "sha256": "fb15e7aefaa6e4e0e5a0d670cc67a91374bd840a75a33a4cc79fdbbe7bab3d3c"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/conversion-group-2-installed/before.json",
+      "bytes": 181572,
+      "sha256": "893d316f4dae8e87054ced86786bd2a76ca65bf65196a2bc15420704b8c8b8be"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/conversion-group-2-installed/installation.json",
+      "bytes": 40687,
+      "sha256": "6efcd6a2c7dfdd7fb7dc0e8bb0aa8df2dff7a36ae2988c1a28ad29ec9bbad872"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/conversion-group-2-installed/registry-before.json",
+      "bytes": 38935,
+      "sha256": "c6a1291eef6758d9dbec251bd4901d047d87332c999d0c6026aeae3ee4b0363e"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/conversion-group-3-installed/REPORT.md",
+      "bytes": 2517,
+      "sha256": "391a7003d09887a475775e983c5050394e545aa6cf2361164bca363c792f6c9f"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/conversion-group-3-installed/before.json",
+      "bytes": 493172,
+      "sha256": "dce2b38bb665a90b5e34294331fe7481c50982e46738a440017c3239207b4ac0"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/conversion-group-3-installed/installation.json",
+      "bytes": 58095,
+      "sha256": "28f9b07f8c5f0427813fd6a9daa34c0337139ed8f41fe133e1a9d19aeabd820e"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/conversion-group-3-installed/validate.mjs",
+      "bytes": 3918,
+      "sha256": "d3b94a66ba3c76a5d0d34755f95a444e81987c5b0914d390e22534630f87e27a"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/conversion-group-3-installed/validation.json",
+      "bytes": 1676,
+      "sha256": "852b8e893bda26d2edf530dc4c1ed48eaffdb8b5805f41c618d1bd52635c24d6"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/conversion-group-4-installed/REPORT.md",
+      "bytes": 2478,
+      "sha256": "89dc8e71945ba4830e1a60a99b89a5bb4d7f6d00cda5e9daf3680addee297586"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/conversion-group-4-installed/before.json",
+      "bytes": 379383,
+      "sha256": "d0b7cb23b60ea56f474c751c8aae6d24826cb86cce4310800ac28703656c00e7"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/conversion-group-4-installed/final-status.json",
+      "bytes": 1661,
+      "sha256": "1d880b11bde4e311ff0f4dfead778b45868fe8aa240e548526d1af119fb44181"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/conversion-group-4-installed/installation.json",
+      "bytes": 37178,
+      "sha256": "f633d42dc3e09f75f8fad901229203b8334f4754d46739367db91d316c7d7712"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/coverage.json",
+      "bytes": 2348,
+      "sha256": "f2ab188903a6c6553cace01aea6556d8f139c2e59ea6a8d9db56747393aaefc4"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/derived-pathways.json",
+      "bytes": 1800421,
+      "sha256": "ffea8da6aa1b96590e919e96e13da3654b82d27f177c5cddff244c2dc74fa27a"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/evidence-ledger/REPORT.md",
+      "bytes": 4509,
+      "sha256": "2f3d5d99dd43568303af6f138855e5abd4d3b2b1254840c549e6451cd743a251"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/evidence-ledger/VIEW-RECOVERY.md",
+      "bytes": 4221,
+      "sha256": "cba47ec347070f7e21e5d50aa6334914105ab724c5e90919ac0208c753d854e7"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/evidence-ledger/before.json",
+      "bytes": 3903301,
+      "sha256": "d43968373ebdf5785b57e22bbfdc43e0362db35d3eff5cc91ffdb021ac024a67"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/evidence-ledger/dietary-governance.json",
+      "bytes": 268,
+      "sha256": "ea2e29b3c2e841c7498230ca7c6b7155c5cce1de7ff45bc2450150b9541f92fa"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/evidence-ledger/ledger-recovery.png",
+      "bytes": 73030,
+      "sha256": "c03b16f7f5d957b6c0972504d61d90bcce5116521ca29328efed7710112cacd7"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/evidence-ledger/recipe-recovery.png",
+      "bytes": 73649,
+      "sha256": "e6fe0f96ac3e19be09c95c0b42895ecd06deb31c685b3db1562437e9dc642c0b"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/evidence-ledger/wheel-recovery.png",
+      "bytes": 95005,
+      "sha256": "42c92f7656442317f219f2f1a46808c5f1284f286cc55ccaa9bf5f9f14c6ed33"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/exact-child-mapping/REPORT.md",
+      "bytes": 1256,
+      "sha256": "91502c682e4139b0b3fc99e0f7646c2ce9df3eee47910d1e4bfffecebb15b1c6"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/exact-child-mapping/before-pm-text.json",
+      "bytes": 254993,
+      "sha256": "3169a2e9bd410787f880d7c0c8ae303c88d4681ff8185502875fa2188cb8f884"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/exact-child-mapping/mappings.json",
+      "bytes": 661,
+      "sha256": "1bea19b24d982eab8604488ac0ab2de8a041da45ea4855b15c3fc00e58ead6e3"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/measured-unranked/BRS2-before.json",
+      "bytes": 4288561,
+      "sha256": "31eec0db10a438bd308c71c74fafe60341428ae756eb72fe59fea3510d939f97"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/measured-unranked/BRS5-before.json",
+      "bytes": 1869040,
+      "sha256": "5cd9021cd043d0c04a200e368f08b409c0529dcf4d8205185376fd416a0fc98d"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/measured-unranked/BRS6-before.json",
+      "bytes": 732941,
+      "sha256": "4d45d350bf600ddfcbb96761a9fa658a9f28eb62a74a7c1eb93454d1798756f2"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/measured-unranked/REPORT.md",
+      "bytes": 2221,
+      "sha256": "0c8128b671ad34067d25cfd5969b2af8ff973ef8fc78f5facbe1912670d0eec9"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/measured-unranked/visible.json",
+      "bytes": 45818,
+      "sha256": "c01e9cac9af13c882810ab0642e22dfcfb0d9b4bfb0d526ee48ed3e4b29bc4d1"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/non-substance-inputs/REPORT.md",
+      "bytes": 1927,
+      "sha256": "56263e339b54563bbe7f50730cbc0819e0f878d27a79716df277fad514619d44"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/non-substance-inputs/before.json",
+      "bytes": 383857,
+      "sha256": "e6fb8a8d0aa65003810dfd61314c13e18e51bfae6b84e745f0108c84895a0e6d"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/non-substance-inputs/connections.json",
+      "bytes": 44209,
+      "sha256": "9da947d4b0a9b26173db4b327e2b4dfd194668fd18cb43f08150f6bf13f49011"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/non-substance-inputs/rows.json",
+      "bytes": 456,
+      "sha256": "7020dfcd2667b16d410b945de1d302a669120db501f9d2bbac089b2fa164cef0"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-inventory/REPORT.md",
+      "bytes": 9594,
+      "sha256": "f9ebe60fba7e33debf640ccfee58e8060649f438962554c732ace2a3e0a871c7"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-inventory/existing-extractor-issues.json",
+      "bytes": 5999,
+      "sha256": "207561339a9c32776e322e0375c950a1a5e095216bc3b139aade01614a873d8b"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-inventory/extract.mjs",
+      "bytes": 6652,
+      "sha256": "ab05ddbe4aabb43efda30f12d4c1c4be514595df40b6a5b0db1df58d899cfa63"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-inventory/kc-relationships.json",
+      "bytes": 225678,
+      "sha256": "052df8732af6da175469ef2e2f44025e9d7433e0df0100dc3afbff9d5043740a"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-inventory/mapping-issues.json",
+      "bytes": 21339,
+      "sha256": "5f287e87fe3d20cdbdc8fd4694940df0fc0415958d955021b7f0a9fd67620582"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-inventory/multiple-provenance.json",
+      "bytes": 1422,
+      "sha256": "0c62c85767c9f3a0b1509f08324058fb6ead258075546caff0c4dceed5aaff22"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-inventory/pm-inventory.json",
+      "bytes": 9268595,
+      "sha256": "61233090838b782e122a9650a2cf4d8b7df7eaa7abfd27b0ef386bd3cfaaf229"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-inventory/pm-substance-pairs.json",
+      "bytes": 3286945,
+      "sha256": "6b55894a4d23552b43c81324c46bc77fbf7e8ccb0900beeb7850567e9d8148b4"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-inventory/summary.json",
+      "bytes": 426,
+      "sha256": "aa63c1e5ef67e30f53d50954d3015b471d8e19e7824a4240a7023df61e60dce7"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-inventory/validation.json",
+      "bytes": 364,
+      "sha256": "9b3ec2581e8f98b76c2af7de4bbab082aaad3d96d3f6120b86ec0f080156833a"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-reconciled/REPORT.md",
+      "bytes": 9038,
+      "sha256": "c7524a8430784a70f3d9011ff58bceeb597b29c92fc8f0c456ad20a53f4c2c23"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-reconciled/approved-reconciliations.json",
+      "bytes": 1297,
+      "sha256": "1a29d511fa904e9054dc4491544cac6321b6c0dbc12d3c7c3529dda9c230dd66"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-reconciled/existing-extractor-issues.json",
+      "bytes": 5776,
+      "sha256": "b3c964f58622ad3957e4a1cb2b23dcfb6eac89d2b04ebc05e0d9b1e32dac135f"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-reconciled/extract.mjs",
+      "bytes": 7330,
+      "sha256": "75a9509c3a238822e6dcb9c0f48ad729432d868cfbdff4744aac147856afae24"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-reconciled/identity-proposals.json",
+      "bytes": 10983,
+      "sha256": "1c1d598c2e25031d38545a7cfedb2e3f9d9930e2939cd05ad96ea511954c2e06"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-reconciled/kc-relationships.json",
+      "bytes": 226019,
+      "sha256": "2316521528bf5c9e2e39204eef70e73c52ea9127147e1d4ad5f9244f3fe2dc7a"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-reconciled/mapping-issues.json",
+      "bytes": 19341,
+      "sha256": "f63d184cc6c1faddc8d2e005f6f72f045c56d80af01c4bf4975c16e6291c8d48"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-reconciled/multiple-provenance.json",
+      "bytes": 1701,
+      "sha256": "cad826ecb71cc53c5d0088aae94105a81f83f7e7b02c54f4d47e70287c584b35"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-reconciled/pm-inventory.json",
+      "bytes": 9285889,
+      "sha256": "da215b48f0469b989dcc4df24b2c5a6ea164d9b710f1fe55320e1e03cb81f166"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-reconciled/pm-substance-pairs.json",
+      "bytes": 3388713,
+      "sha256": "e8139f0083d36c79a38ef4bcdd80d5b918da1b7c5abb46fc38c9c4bf4c69b277"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-reconciled/preservation-before.json",
+      "bytes": 130216,
+      "sha256": "a528a6caa3f39b34073f40827f66e73202ddb5c4cbf3d075461041bfc39991bc"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-reconciled/summary.json",
+      "bytes": 704,
+      "sha256": "96b45148e05454acca923d7b6c651a4d004c29f571e8b03c662262aa1e30ff2e"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-reconciled/validate.py",
+      "bytes": 3616,
+      "sha256": "1fc8571a0a49d528629de05538d3d147242f64cdadb4ec5c8227509cc9df2fd5"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-reconciled/validation.json",
+      "bytes": 682,
+      "sha256": "2331432c2513f89a33c798107f5653252e10be3fa778734ca7b2e99ed2a72963"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-reconciliation/REVIEW.md",
+      "bytes": 10081,
+      "sha256": "c7b88cb1f6e126f580f705badaacb22be2b89b4f721425ec6302cb4c76035407"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-reconciliation/evidence.json",
+      "bytes": 39518,
+      "sha256": "075cdd35d231ebf07a419e3cbebf7f6e269064a1e1ee76423ad1ac2ee54d13f0"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/pm-supply-reconciliation/validation.json",
+      "bytes": 212,
+      "sha256": "1ce74970af773bed4a3b72031ae9d0d60a31a770d6df814bdb361deab0cce812"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/post-child-inventory/REPORT.md",
+      "bytes": 6390,
+      "sha256": "c323c0df6d8e8a8096cc7972ff71438787e704b67789c23ada532ca5a36f0726"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/post-child-inventory/approved-reconciliations.json",
+      "bytes": 1297,
+      "sha256": "1a29d511fa904e9054dc4491544cac6321b6c0dbc12d3c7c3529dda9c230dd66"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/post-child-inventory/comparison.json",
+      "bytes": 2952,
+      "sha256": "d3a16cbb151e28f094db43002545ea060e8f8e1a17e9f78680f14f2f4abcc47c"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/post-child-inventory/existing-extractor-issues.json",
+      "bytes": 4863,
+      "sha256": "bc9de39313f3a5752531d4ca0af7999c04e29cdc50b28c9e4b7302b8f9ead1ad"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/post-child-inventory/extract.mjs",
+      "bytes": 7330,
+      "sha256": "75a9509c3a238822e6dcb9c0f48ad729432d868cfbdff4744aac147856afae24"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/post-child-inventory/kc-relationships.json",
+      "bytes": 226019,
+      "sha256": "2316521528bf5c9e2e39204eef70e73c52ea9127147e1d4ad5f9244f3fe2dc7a"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/post-child-inventory/mapping-issues.json",
+      "bytes": 14799,
+      "sha256": "582c0e6ec1dbc6b6764ea748fa5b0792de12a7f96e87156a5e4d5f030354d50d"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/post-child-inventory/multiple-provenance.json",
+      "bytes": 1701,
+      "sha256": "cad826ecb71cc53c5d0088aae94105a81f83f7e7b02c54f4d47e70287c584b35"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/post-child-inventory/pm-inventory.json",
+      "bytes": 9302649,
+      "sha256": "e60f9fe55ffc64c3c4cf7ab717a0e880b05c01e8b83adfb797a7b8b0e0b6faf1"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/post-child-inventory/pm-substance-pairs.json",
+      "bytes": 3416074,
+      "sha256": "160bd4a7fa65f1fcafee8b2d710dd20d6ef9ff38b78909aab632e26ded70a9b6"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/post-child-inventory/summary.json",
+      "bytes": 386,
+      "sha256": "c622ef990fa88693735463a58e629c8757d3bbcdbda2041618d494357f8d4e9f"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/post-child-inventory/verify.mjs",
+      "bytes": 4421,
+      "sha256": "ca5efca9b447ec7e167a420f4299f010946adc5cbf023b76682ae7de66fc2218"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/ranking-impact.json",
+      "bytes": 3502,
+      "sha256": "7e5e4243ed2eeec77fdb1872032ae948d52b435beeafd0bf4d4f6b303f58ab30"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/shared-documentation-extension/IMPLEMENTATION.md",
+      "bytes": 449,
+      "sha256": "99ec34ec7a1c3bf1983a8527b815db18011be7cf6de291b946994319d633b0f5"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/shared-documentation-extension/validation.json",
+      "bytes": 926,
+      "sha256": "11649f63cf4eddbdf6055f7bd0317b0f5a7f4cc0b5c90bcf21af6917b199cdd6"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/source-omissions/REPORT.md",
+      "bytes": 2259,
+      "sha256": "777414baec96d8a6574215b6bc9d06d7b9f6fbdbb0bc7af836dac65901c7db53"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/source-omissions/before.json",
+      "bytes": 52231,
+      "sha256": "4997eb7f2cea03bdf07efef838e319dd91f1eb742a961379fbf6697021ab5b81"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/source-omissions/page-verification/BRS3-before.json",
+      "bytes": 4030145,
+      "sha256": "98fd3d275158ca7fd98746476abd7bf4f32e1257a161c34e2ba3bf0b621ab667"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/source-omissions/page-verification/BRS5-before.json",
+      "bytes": 1858719,
+      "sha256": "2006d38d04688b784af69e739f7dcd1ec3cd7276ea913a28ae54e6577a86d123"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/source-omissions/page-verification/REPORT.md",
+      "bytes": 1912,
+      "sha256": "18467599542bbe84a0d6ac22c7e7a219ac2bd0d583af936c5943a8903f1b1a98"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/source-omissions/page-verification/dropdowns.html",
+      "bytes": 7598,
+      "sha256": "6aee1662d10e91d6f9c571886ffb72b1a66857f8a71f8dd358a17b95aad70edb"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/source-omissions/recovered.json",
+      "bytes": 537,
+      "sha256": "c5b0d121740db69839c90c6360f4d18372fc3f1213209fd011ab9c7c78db0744"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/substance-matrix.json",
+      "bytes": 4817321,
+      "sha256": "dadd53d911a06759b3f06ece14ce495aa1476181807ddc768541817a0b3fd466"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/target-reconciliation.json",
+      "bytes": 18290694,
+      "sha256": "33edcc2536c1be3ed0a9c6f3a17ebea7d0fd46347d5b7ddad4db7cae2be0bfa8"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/unpublished-composition.json",
+      "bytes": 1019517,
+      "sha256": "076c9eede44332fb4319255b0db35222232c565ff17641a63bc3b258a9484d6e"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/whole-framework-coverage/NEXT-DECISIONS.md",
+      "bytes": 4223,
+      "sha256": "7d917a7915c6a1f2f14b2581b03155ee7b112dd368d1ac267e156885638aeb10"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/whole-framework-coverage/REMAINING-GAPS.md",
+      "bytes": 12904,
+      "sha256": "b84acc5b2b5d632cfb9a6867b3ed60431f7c1a98d8353199e82693c7378cdec1"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/whole-framework-coverage/REPORT.md",
+      "bytes": 7415,
+      "sha256": "437fcf5f8fa2b173d2c6f27713acbfa4dbb9102cf9eacc3887c90d14b647fd44"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/whole-framework-coverage/SUBSTANCE-MATRIX.md",
+      "bytes": 4272,
+      "sha256": "5ce9b889d678f91d9e83048ab2608ab0288da149310b06ea952217c8190e7eb1"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/whole-framework-coverage/TARGET-MATRIX.md",
+      "bytes": 7400,
+      "sha256": "58b5e197bb57768b0ba96dc1dca037a7351b5f963af357a62ec6114971ee6434"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/whole-framework-coverage/derived-routes.json",
+      "bytes": 112367,
+      "sha256": "71fbc32f35e17a9338a29a65efdaa0f0c60977113ea4804672b596335f908cc9"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/whole-framework-coverage/documented-connections.json",
+      "bytes": 493194,
+      "sha256": "3db235aab9985f92cc2c8c7ce4f6f2424d9d228c9587eef248719a96b853cbc7"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/whole-framework-coverage/substances.json",
+      "bytes": 5641767,
+      "sha256": "79cedf8fb58385d80cfb6b0cea5eb24f20ffd24d704b5a1049c92c9162e7e23d"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/whole-framework-coverage/summary.json",
+      "bytes": 23355,
+      "sha256": "4b4ee55a9252d9f59618d35ad16d32bd2ff3dd9ee3b5e34f96b8de9438cdd2ac"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/whole-framework-coverage/targets.json",
+      "bytes": 2400308,
+      "sha256": "43dbeb4343ec15147e2e34b5a67c7a48380d2e32214bdc06967b4021e6ccc98b"
+    },
+    {
+      "path": "review/dietary-connectivity-2026-11-09/whole-framework-coverage/validation.json",
+      "bytes": 447,
+      "sha256": "653eed830c227e0b6730058cd20133d0af4eea3122769facf37ca4e118737649"
+    },
+    {
+      "path": "review/food-intelligence-2026-11-10/README.md",
+      "bytes": 3462,
+      "sha256": "682527b08b77030d4d80f77b3b2b13edc52aeca11253942773d8d3c8bd0a212d"
+    },
+    {
+      "path": "review/food-intelligence-2026-11-10/compact.png",
+      "bytes": 123800,
+      "sha256": "99fc218d1ee51d4e9d594b37b42d0c405a628a6cac52cc1ecb3a23e6fc352865"
+    },
+    {
+      "path": "review/food-intelligence-2026-11-10/desktop.png",
+      "bytes": 110024,
+      "sha256": "d5c31b1415c1d18bb59f2193690f033d9dc13a33988f88be34f6de4a8c7675c7"
+    },
+    {
+      "path": "review/food-intelligence-2026-11-10/labels-day.png",
+      "bytes": 172390,
+      "sha256": "014fd16846d7b2102e407c64f1565dd809218cf1f412851f60f4189b6fa836e6"
+    },
+    {
+      "path": "review/food-intelligence-2026-11-10/labels-night.png",
+      "bytes": 190733,
+      "sha256": "f3674d0f372d8bfde9c82bfa42c3230100492199df9ed8ca9d6b17254139607f"
+    },
+    {
+      "path": "review/food-intelligence-2026-11-10/wheel-contrast.png",
+      "bytes": 118343,
+      "sha256": "a81ea9177077fb0aa8edfdadded5ae816380a498f29856d22d57be440aac5ab1"
+    },
+    {
+      "path": "review/food-intelligence-2026-11-10/wheel-day.png",
+      "bytes": 128054,
+      "sha256": "1a9d99c6725c87dd3347bb36491483c34aa4cc6a11a266ccf203fe93499e5e19"
+    },
+    {
+      "path": "review/food-wheel-interactive-views-2026-11-09/REPORT.md",
+      "bytes": 7011,
+      "sha256": "65bd87c72657151453d4e94c817c92875e8389a3633aa90bbc520d871f459737"
+    },
+    {
+      "path": "review/food-wheel-interactive-views-2026-11-09/all-brs-off.png",
+      "bytes": 89336,
+      "sha256": "a0222ca1464629fbc0f9fea76735f4d4a43fc3aa0a805bf30920a34b2303ee80"
+    },
+    {
+      "path": "review/food-wheel-interactive-views-2026-11-09/before-data.json",
+      "bytes": 3273417,
+      "sha256": "c7f4c76b93dd8c65a0083ee15e6f11e005bac013bf6d48d836ae517ed0c20b11"
+    },
+    {
+      "path": "review/food-wheel-interactive-views-2026-11-09/before.html",
+      "bytes": 3524474,
+      "sha256": "57a46706d883cb4a4bfcb11dabaa277889e6f1c8b12315077fe5568f2ff96756"
+    },
+    {
+      "path": "review/food-wheel-interactive-views-2026-11-09/compare-brs3.png",
+      "bytes": 105324,
+      "sha256": "0cfb177137c3aa6aceae4d4ec9fe853ce7ae0f5aea6b812589c2673523fc2303"
+    },
+    {
+      "path": "review/food-wheel-interactive-views-2026-11-09/empty-brs-off.png",
+      "bytes": 107730,
+      "sha256": "7b5cce6f30cc78d22267fc4e6aeebd6177ed7a9e6eba94348ddb6cd8cd404440"
+    },
+    {
+      "path": "review/food-wheel-interactive-views-2026-11-09/independent-brs-off.png",
+      "bytes": 138461,
+      "sha256": "9ed8698c297d0b4abd6a824318abb664da20e7cc28ab2f6cc88664425f9c185e"
+    },
+    {
+      "path": "review/food-wheel-interactive-views-2026-11-09/rainbow-compare.png",
+      "bytes": 138454,
+      "sha256": "d2f1de92bd1ded3041e7ea5f6e23ff4bb0ee9f9731071214a7a6f98119e2babf"
+    },
+    {
+      "path": "review/intervention-food-substance-2026-11-06/proposal.md",
+      "bytes": 1725,
+      "sha256": "cd34958465a02e979e6f1cb0d6e8f2ddaf87e73791c08ac8f445a27b65abab53"
+    },
+    {
+      "path": "review/pm-food-source-visibility-2026-11-09/REVIEW.md",
+      "bytes": 4527,
+      "sha256": "0219464135194e4cfaa7d6c709929d1eece8eab21fea6df72123c002cbaa0f90"
+    },
+    {
+      "path": "review/pm-food-source-visibility-2026-11-09/counts.json",
+      "bytes": 51015,
+      "sha256": "326cdb598824048080a154de29eed92c096e11ce18989af9567818125d2ab989"
+    },
+    {
+      "path": "review/pm-food-source-visibility-2026-11-09/pm7-example.html",
+      "bytes": 12075,
+      "sha256": "36605ca67bde296f010ac4a5c36460a18616fe88dd436c0b154004034fe0bfe5"
+    },
+    {
+      "path": "review/pm10-localhost-navigation-2026-11-05/report.md",
+      "bytes": 244,
+      "sha256": "038bcf1138ee794224b04804378055a0e3f2b59446b8437b6ba069ab8417cbff"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/connections.json",
+      "bytes": 214213,
+      "sha256": "595762aaf8726770a748b593aaf9c518c0ce9784333087c3662d35f97b5618ec"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/five-source/explore/food-wheel/GAP-LEDGER.md",
+      "bytes": 6223,
+      "sha256": "fbd1fe7e86cb13315e3b9cb2e01ded1ea1203822b24180a5b48ce464d0c29a3f"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/five-source/explore/food-wheel/MULTI-TARGET-FOODS.md",
+      "bytes": 1013,
+      "sha256": "497d23f859ea6ffcd6afbaecbb36bbcc9b386436cc2958f9511ff36d1d8573d5"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/five-source/explore/food-wheel/TOP-FOODS.md",
+      "bytes": 115584,
+      "sha256": "f7e11ced51fcf1848ba152e87e0e540a1dc090180a94566a7aa99f44246f9d19"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/five-source/explore/food-wheel/about.html",
+      "bytes": 348,
+      "sha256": "d822ca19b71711451b65efde5ab2148a0b8049b96390c1c2ce66fcfaa1e1a594"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/five-source/explore/food-wheel/display-network.json",
+      "bytes": 6164276,
+      "sha256": "fca897ef26410a8df108149646b4145cc5d9b4ed8c77e2dbda8ca9226b4217c1"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/five-source/explore/food-wheel/display-network.svg",
+      "bytes": 247983,
+      "sha256": "26de5949c9c8c842144c979845a38c695995c38fe975829ab01ec520765b7a3c"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/five-source/explore/food-wheel/evidence-ledger.html",
+      "bytes": 1541551,
+      "sha256": "43ebd7e294f630936259b5db47dd587406cfc98ea7877be14b6b9f5de0507f71"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/five-source/explore/food-wheel/evidence-ledger.json",
+      "bytes": 8191763,
+      "sha256": "c9b4fa4262d5fb60e715c6329ff92d9ba904984f94455062ea1c4e176d548fc7"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/five-source/explore/food-wheel/food-wheel.svg",
+      "bytes": 233548,
+      "sha256": "ded5b60e9423beff55845103922046c0b0aa60d47973475098323b7ac6088e26"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/five-source/explore/food-wheel/index.html",
+      "bytes": 6408939,
+      "sha256": "bf77a6502d0ea1c96ba912d33fa37a8d9ad814e083327c9499963f8909b9925a"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/five-source/explore/food-wheel/interactive-views.mjs",
+      "bytes": 18973,
+      "sha256": "d9addbcf453397a260042a3b0b0594aa07de0a046043e5efe717a5b514316dc5"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/five-source/explore/food-wheel/ribbon-presentation.mjs",
+      "bytes": 938,
+      "sha256": "c8647cd11fb9d7d23bb98b8528737c9b3551580b609b7f02945838a3dbfa9a03"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/five-source/explore/food-wheel/selection-model.mjs",
+      "bytes": 3331,
+      "sha256": "64ac4c63265b4c87a9ad05d5249e4d952934bfa002f704a1f1ba212a77084c18"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/five-source/explore/pm-explorer/app.mjs",
+      "bytes": 10161,
+      "sha256": "b80cf5b38c2258d53ecedf6aab2122a84958c9e226f1c3d57cbf886af83be9c5"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/five-source/explore/pm-explorer/index.html",
+      "bytes": 1662,
+      "sha256": "6eb5f4832d52e7f44dc71d6ff14eb37d88617743ce977ec715afcd3a7c551d09"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/five-source/explore/pm-explorer/model.mjs",
+      "bytes": 2260,
+      "sha256": "b5071c663b228dcc7a496e019631886ebe80fe5f8136b7bd78c3ff59ee70114e"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/five-source/explore/pm-explorer/pm-sources.json",
+      "bytes": 9461431,
+      "sha256": "4b9eb4a9d9efeb178c1707d95d7c61d525988096a5aa23610b252cfe57779511"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/five-source/explore/pm-explorer/style.css",
+      "bytes": 3361,
+      "sha256": "0ce1771bd76ee9c09406bb22ba01a02f32b91e9831530b83310f337209d2fc14"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/five-source/explore/pm-explorer/titles.json",
+      "bytes": 3849,
+      "sha256": "458143e2d60c116a42cc47452a76eb5f033ab9a387c553339b1b3690bd7d209b"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/five-source/ranking.json",
+      "bytes": 4851560,
+      "sha256": "0534e18b84664d5da164ba2e5e2dc943e345ab83d5b6a509b2ecbdaf6e2e4a2b"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/explore/food-wheel/GAP-LEDGER.md",
+      "bytes": 6223,
+      "sha256": "fbd1fe7e86cb13315e3b9cb2e01ded1ea1203822b24180a5b48ce464d0c29a3f"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/explore/food-wheel/MULTI-TARGET-FOODS.md",
+      "bytes": 1013,
+      "sha256": "497d23f859ea6ffcd6afbaecbb36bbcc9b386436cc2958f9511ff36d1d8573d5"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/explore/food-wheel/TOP-FOODS.md",
+      "bytes": 115584,
+      "sha256": "f7e11ced51fcf1848ba152e87e0e540a1dc090180a94566a7aa99f44246f9d19"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/explore/food-wheel/about.html",
+      "bytes": 351,
+      "sha256": "377e23a7584fc3662881b910cc1f5cb11a976f1cc8c11e61cb4909a0c268d335"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/explore/food-wheel/display-network.json",
+      "bytes": 8856929,
+      "sha256": "e3fb4f56374e114837c6d448d32f85b1f30dd728ac743ca1bb2b9d10725148ba"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/explore/food-wheel/display-network.svg",
+      "bytes": 322402,
+      "sha256": "5daed98a70c1110bcf462f759f86e3846926f7c7b2caf2356c8d8abb08a2bf94"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/explore/food-wheel/evidence-ledger.html",
+      "bytes": 1497005,
+      "sha256": "5456903d825880886043740bb71c7c17205f9f0850b0ec45f8c54f4a62ae813a"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/explore/food-wheel/evidence-ledger.json",
+      "bytes": 7900725,
+      "sha256": "7d9815934134c1c8c16e02fc61851411ae72b3c54b19e2c20cd37f450a43e4a1"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/explore/food-wheel/food-wheel.svg",
+      "bytes": 233548,
+      "sha256": "ded5b60e9423beff55845103922046c0b0aa60d47973475098323b7ac6088e26"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/explore/food-wheel/index.html",
+      "bytes": 9101805,
+      "sha256": "d9026e3d31793eed3d54f3060050675a83b872f3fef1c81d6313acfaec1341ea"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/explore/food-wheel/interactive-views.mjs",
+      "bytes": 20018,
+      "sha256": "933c0ca90abbec005ece386968e8f18a99929b29464c416a0ea7d19f6b0bed8e"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/explore/food-wheel/ribbon-presentation.mjs",
+      "bytes": 938,
+      "sha256": "c8647cd11fb9d7d23bb98b8528737c9b3551580b609b7f02945838a3dbfa9a03"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/explore/food-wheel/selection-model.mjs",
+      "bytes": 3331,
+      "sha256": "64ac4c63265b4c87a9ad05d5249e4d952934bfa002f704a1f1ba212a77084c18"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/explore/pm-explorer/app.mjs",
+      "bytes": 10190,
+      "sha256": "96736e9d38b29114410f913485215cce82a16bc6f6e445e78bd5d08cd3201c30"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/explore/pm-explorer/food-records-v1.725c29e3794cee5d1b39c21960d452c3946f4da3d7340bafb610a363e1c03c08.json",
+      "bytes": 2518847,
+      "sha256": "725c29e3794cee5d1b39c21960d452c3946f4da3d7340bafb610a363e1c03c08"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/explore/pm-explorer/index.html",
+      "bytes": 1662,
+      "sha256": "6eb5f4832d52e7f44dc71d6ff14eb37d88617743ce977ec715afcd3a7c551d09"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/explore/pm-explorer/load-data.mjs",
+      "bytes": 505,
+      "sha256": "49aeb6add3dd81cbdffd6796439edfc100d30bffbed1d3b7f8723a44b7b8a93d"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/explore/pm-explorer/model.mjs",
+      "bytes": 2260,
+      "sha256": "b5071c663b228dcc7a496e019631886ebe80fe5f8136b7bd78c3ff59ee70114e"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/explore/pm-explorer/pm-sources.json",
+      "bytes": 7397766,
+      "sha256": "292501902e32ec73b8d3485c536f4a176baf501ae85f83913ecdad7a8385dbbf"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/explore/pm-explorer/style.css",
+      "bytes": 3361,
+      "sha256": "0ce1771bd76ee9c09406bb22ba01a02f32b91e9831530b83310f337209d2fc14"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/explore/pm-explorer/titles.json",
+      "bytes": 3849,
+      "sha256": "458143e2d60c116a42cc47452a76eb5f033ab9a387c553339b1b3690bd7d209b"
+    },
+    {
+      "path": "review/ranked-food-reconciliation/reference-pool/ranking.json",
+      "bytes": 6074725,
+      "sha256": "e52b8cdb0d5e9e711358aabcbb4fa8f25d71a06e4a06c072fb261f662e3cf940"
+    },
+    {
+      "path": "review/resistant-starch-power-2026-11-10/FOLLOW-UP.md",
+      "bytes": 6768,
+      "sha256": "f41f63ba3a6b79ecb91af06e0b43f5e2efa2e74205c5f0aab21354664a4dfff4"
+    },
+    {
+      "path": "review/resistant-starch-power-2026-11-10/REPORT.md",
+      "bytes": 3842,
+      "sha256": "7c6fe49c29c2c35c240e14a858d1ad9648591161ab4d0a83dcf59bebd04e8bf5"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/REPORT.md",
+      "bytes": 13370,
+      "sha256": "e23e5eaaf7153e43baf2b9afb68f1d7f9874b74778454b4417ebf26771e0cd2a"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-counts.json",
+      "bytes": 83,
+      "sha256": "06034eac824f3ddb1e50715484a6d693cb911c806acb9c50bf907dc3839defbb"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/anchovies.md",
+      "bytes": 7752,
+      "sha256": "fadeeaab16790e1c2fb66e368cd91390cac69984df3ae603dfd257e0249bd50e"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/beef.md",
+      "bytes": 21385,
+      "sha256": "d1775545e00f3a51c8dfb49de9abe2bde4c2f017b627527db4bf79881425672a"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/butter.md",
+      "bytes": 5890,
+      "sha256": "de894ccf01263a82c9d74b9bb4643f35fe7323cd0a55e23b612a5be5d489cbaf"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/chicken.md",
+      "bytes": 12942,
+      "sha256": "243d24fd229d33527cea65607be1f4e73643e5b3f562a1a65525775045fb25b0"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/clams.md",
+      "bytes": 6994,
+      "sha256": "9fed721ce67650364cef713c2ea6df0923992f6035f62d76113cd34af70df4b5"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/cod.md",
+      "bytes": 4830,
+      "sha256": "fc6866efe264d54724f6a72cdf6c0957597e0e8979b132f04c57dd5fd0e1831b"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/egg-yolks.md",
+      "bytes": 10015,
+      "sha256": "b27815bcb0a628bd40ab26c7e7978d3973f0fe80b088097cfdf921c783751026"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/eggs.md",
+      "bytes": 15726,
+      "sha256": "3620bac7b48b7479fecc47e12d13a6eda341982e8537280d69d7df4a2c6cb476"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/ghee.md",
+      "bytes": 4931,
+      "sha256": "75857db81206ce9195c6ced6ddd5d25b8d18df707cac784780798781531e8f65"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/herring.md",
+      "bytes": 7100,
+      "sha256": "37de11eb218e5b97c0367c4aa69fb53851358f01d31f2d38714ca50f37b1645d"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/lamb.md",
+      "bytes": 8659,
+      "sha256": "e65ffcd772a4f5070d4aba376dd3a00b33245cef63e48ffeaa180646b2e06994"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/liver.md",
+      "bytes": 11401,
+      "sha256": "a54242b54b6de7d103a9bd76f877bbde70a0a5a6d4126b691a55a0937283f8f5"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/mackerel.md",
+      "bytes": 10126,
+      "sha256": "7738157635f1f6cf35e44e53f4d7f3eed1abe379add5d6aa6dbdcbeb661679d7"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/milk.md",
+      "bytes": 15430,
+      "sha256": "82eb1fba789fb828c8b27b72da73174976aacb54f30fbfec814152a69d4c3e6d"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/mussels.md",
+      "bytes": 12257,
+      "sha256": "dee71eeddf068f630254e1d2cddd0531513357c082b1ad7b2a5edc755bb7f824"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/oysters.md",
+      "bytes": 12488,
+      "sha256": "faaf373b98d5aac2aeee93097e34918c42f69da5fbe3d4b4cafb71b1dd09b622"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/pork.md",
+      "bytes": 7682,
+      "sha256": "714d2551409929c4ab1b7f590f0c64517a360ffa72387967480eb6ee483fda6d"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/salmon.md",
+      "bytes": 15042,
+      "sha256": "72d133fe9a163b26e37f8f76096b41b0d311e0a4e2e8050eeac0a322102d678e"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/sardines.md",
+      "bytes": 14310,
+      "sha256": "738cc698237f3c99b05787a50fa7409ab72524dff691922e4459068f9c3e05f2"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/scallops.md",
+      "bytes": 8700,
+      "sha256": "ae9b3183f17d8b64d81f44c11613b8eb4abde076d85b178b8889a8b3951957b9"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/shrimp.md",
+      "bytes": 6379,
+      "sha256": "7b82c78c237ccf518f2a60c64e21d7f527310277d9e62692927f6ecc663924c4"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/tuna.md",
+      "bytes": 12723,
+      "sha256": "aef0920d382a255e76d26c2d6e7f9262f6daac128eb0d5f954ba0f09a96cb0f7"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-foods/turkey.md",
+      "bytes": 9095,
+      "sha256": "54fbd9f0fb0718a41f4ef30bd9fa76001584e55fecefeac6a0030dca2eeb6ca1"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/before-ranked.json",
+      "bytes": 4138975,
+      "sha256": "109d8616440f0d354be87e14f192ae0c6f2e67005c5b0316c0a982d6afd350ce"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/explorer.png",
+      "bytes": 81868,
+      "sha256": "05a04b3e97d5c87761a0ac105ca069ce94726f3c3e4297a973df62008ea202ae"
+    },
+    {
+      "path": "review/tyrosine-animal-coverage-2026-11-09/usda-audit.json",
+      "bytes": 61542,
+      "sha256": "32f12d1ede46940e1aa6b4f4d1a9f42a1f8241d33be95a6b9a7acce44f76ab6e"
+    },
+    {
+      "path": "scripts/approved-four-hypotheses.test.mjs",
+      "bytes": 3948,
+      "sha256": "4f3a2c5b1459b48ca7d5858ec2f33017a836193900c404f6020037606015ff41"
+    },
+    {
+      "path": "scripts/audit-dietary-connectivity.mjs",
+      "bytes": 9022,
+      "sha256": "a205e480c04e298f2828fb29992afddc43a6a53edc0122e9811a5c52b32ecf9c"
+    },
+    {
+      "path": "scripts/brs5-fm1-pm1-butyrate-pathway.test.mjs",
+      "bytes": 4937,
+      "sha256": "618b9f41118bcaf6e7fc73008385541b9ae8a245a8c6060d17f8f7a9a7d8027f"
+    },
+    {
+      "path": "scripts/butyrate-related-display.test.mjs",
+      "bytes": 1747,
+      "sha256": "0e0c2af4e94538ac48c90d7d88e15654497b7c5c8de6404a11fba6bcc84b5a34"
+    },
+    {
+      "path": "scripts/canonical-scientific-projections.test.mjs",
+      "bytes": 2151,
+      "sha256": "e6b28831d9d6302c824403cd9d7fa7fadb2a24c2ed7097745c3d4abf723f15ed"
+    },
+    {
+      "path": "scripts/citrus-pectin-integration.test.mjs",
+      "bytes": 2468,
+      "sha256": "9aa289bb58746fbbeadb4a24cbb78a61f83467f778da115087eed41938b2e098"
+    },
+    {
+      "path": "scripts/compact-pm-explorer.test.mjs",
+      "bytes": 4889,
+      "sha256": "0f375b7268d7c2dfe1f4e7d87df62be171da19f071b415642e3d1366200f78c7"
+    },
+    {
+      "path": "scripts/conversion-group1-installed.test.mjs",
+      "bytes": 3003,
+      "sha256": "9c6e2d843c8ad0d61e8e516bbedea507ce80a3be76f6904cbb46271369d2f30b"
+    },
+    {
+      "path": "scripts/conversion-group2-installed.test.mjs",
+      "bytes": 3715,
+      "sha256": "3e540d370afb686ad8d8e59a6c5feb79a7b0c2b8fbb9f6ddbdfb473c724c653f"
+    },
+    {
+      "path": "scripts/conversion-group3-installed.test.mjs",
+      "bytes": 907,
+      "sha256": "3e43a74be522006e1bfaa412681c3ad3af17f4fe6073f3020c7a3e292d5e9d70"
+    },
+    {
+      "path": "scripts/conversion-group4-installed.test.mjs",
+      "bytes": 2982,
+      "sha256": "30d747c5b69427620f194de5a676d7baba366ce89b4c8d5e0ba4ae54981ee9b1"
+    },
+    {
+      "path": "scripts/dietary-connectivity-reconciliation.test.mjs",
+      "bytes": 1956,
+      "sha256": "f2468275f0895128b0e121b73260ea72046bc3cc8d5c7822909773b304e7a0bf"
+    },
+    {
+      "path": "scripts/dietary-connectivity.test.mjs",
+      "bytes": 4018,
+      "sha256": "68d7fe92378b3743d6cd26c5ae36651847e47f017ef8f0ab0514be9b17b12b56"
+    },
+    {
+      "path": "scripts/dietary-review-groups.test.mjs",
+      "bytes": 3482,
+      "sha256": "6a334cd88f89220e278e182efebbd3fdd203719ff863c1a5db67e919ffde18fa"
+    },
+    {
+      "path": "scripts/exact-child-mapping.test.mjs",
+      "bytes": 2867,
+      "sha256": "b9809795257b7f265494e1319d15aa984f702f4aa997bdbd6f38de395a207b3b"
+    },
+    {
+      "path": "scripts/food-intelligence.test.mjs",
+      "bytes": 3695,
+      "sha256": "cc4da01cb2f7b510bb7ee26ca9014d99dc0827709113d670d898cd44192d6df8"
+    },
+    {
+      "path": "scripts/food-wheel-evidence-ledger.test.mjs",
+      "bytes": 2507,
+      "sha256": "1b02d75a0e8dd1be4db5a516fac458ea4da67015cad2e8563cd6e30231fefb7d"
+    },
+    {
+      "path": "scripts/food-wheel-navigation.test.mjs",
+      "bytes": 5201,
+      "sha256": "07dde1257afa06ae1aad8cb53b4e2cb6a08d24b13140c4bdbac2a22230dd8aee"
+    },
+    {
+      "path": "scripts/food-wheel-unranked.test.mjs",
+      "bytes": 2251,
+      "sha256": "573719659c2ba4a34aaebfb11fa60b29038cd58d743b217126884727a7f22fe9"
+    },
+    {
+      "path": "scripts/generate-food-strategy-rollup.mjs",
+      "bytes": 3723,
+      "sha256": "6c7164ed6885afaa1c94057bc54d3919631f84e3442ee53d7943212fbcd903e9"
+    },
+    {
+      "path": "scripts/generate-ranked-food-sources.mjs",
+      "bytes": 5024,
+      "sha256": "619ccb8e2f517d0a75f97243acc27e5730730492fa003dc6c86df199b9e7bbe4"
+    },
+    {
+      "path": "scripts/glutamine-composition.test.mjs",
+      "bytes": 1956,
+      "sha256": "7c5c10216cd0d173be583d38934431871ccfb142c52b60235961b71e6fa2c904"
+    },
+    {
+      "path": "scripts/input-substance-food.test.mjs",
+      "bytes": 47489,
+      "sha256": "7bfa36398005709264e7f0b22d325a9c5546deea63f9aae9355fe03d9cff0962"
+    },
+    {
+      "path": "scripts/intervention-food-substance.test.mjs",
+      "bytes": 3698,
+      "sha256": "697a1c9b69868b70fdb6683611e2e5506bb9c953ca903d7eb1b9a10ded495c98"
+    },
+    {
+      "path": "scripts/lib/dietary-input-governance.mjs",
+      "bytes": 5700,
+      "sha256": "c59266c5558cec9c12797cb21a7b64398fecd9bc8a67f9925e8860390d0568b1"
+    },
+    {
+      "path": "scripts/lib/food-page-validation.mjs",
+      "bytes": 12428,
+      "sha256": "956e462bfaee6661310709dd7e9ba1c0313fbecd0f65afdc1c89bccf6aa1d775"
+    },
+    {
+      "path": "scripts/lib/input-substance-food.mjs",
+      "bytes": 34255,
+      "sha256": "dd2d24ea894911f67aff0353b8d603477d5587db416c81aa7423b8612d19c444"
+    },
+    {
+      "path": "scripts/lib/intervention-food-substance.mjs",
+      "bytes": 3775,
+      "sha256": "bc411b3658d7c5d4fbbca7c87ed75ed7e9c2daf80284f265e9cc71325f1dbe98"
+    },
+    {
+      "path": "scripts/lib/scientific-hypotheses.mjs",
+      "bytes": 5506,
+      "sha256": "9f99a13110ccbe19d68e139ca807f2d4334f59003f2c4fa64268156400f32c35"
+    },
+    {
+      "path": "scripts/lib/substance-input-pages.mjs",
+      "bytes": 5810,
+      "sha256": "9a2fb67fb3104b3086c4fec7aa48ef5283221df6e54f3cf5c7ccbbd89fcbcd5d"
+    },
+    {
+      "path": "scripts/lib/urolithin-food-context.mjs",
+      "bytes": 1311,
+      "sha256": "00118a62e37543ab98ee4b080a09355723e75629ce7e7fa0187c3bd8d7f045a5"
+    },
+    {
+      "path": "scripts/lib/viewer-records.mjs",
+      "bytes": 790,
+      "sha256": "275a1a000d909faea59876377932af28aaf71b548e64ea9a02092bc12ecfe87e"
+    },
+    {
+      "path": "scripts/measured-unranked.test.mjs",
+      "bytes": 1780,
+      "sha256": "8f05ff6270949be16788bf19781cbf4f16a55aa22025085b7a84d62d9fca7a1b"
+    },
+    {
+      "path": "scripts/non-substance-inputs.test.mjs",
+      "bytes": 2794,
+      "sha256": "d7da56c2f5e728a4213a841dcddf047eb09cf423da1f7377900baef9592a4043"
+    },
+    {
+      "path": "scripts/out/soy.json",
+      "bytes": 521,
+      "sha256": "1844223bd77a9e19b9f6245a6b4aba37c3e76dbd59015c4da5c2c27d302edfce"
+    },
+    {
+      "path": "scripts/pectin-sulforaphane-sources.test.mjs",
+      "bytes": 2250,
+      "sha256": "e7da58732d355520f059804f9592bdf352399b9a5316d8b0bcb31fff36a9f92b"
+    },
+    {
+      "path": "scripts/pm-documented-food-sources.test.mjs",
+      "bytes": 9757,
+      "sha256": "7ddf3737d98e9fe5bd5278e36d2d752476a9cce5e6beb9a7fddd94f58010315f"
+    },
+    {
+      "path": "scripts/pm4-resistant-starch.test.mjs",
+      "bytes": 1221,
+      "sha256": "ab7c2fa4484b8ea420e84688247fdef4e639425a6345f9f970a44691f48f624e"
+    },
+    {
+      "path": "scripts/recipe-nutrition-integrity.test.mjs",
+      "bytes": 64122,
+      "sha256": "b6145ab1e903aad31532046f53357870e1a0463abf6e24c2ca7c24dfaf9aff02"
+    },
+    {
+      "path": "scripts/reconcile-dietary-connectivity.mjs",
+      "bytes": 7812,
+      "sha256": "a30b984f4fa5002463d795aaf6b1fba4521ebe69bec2ba5e717479472ac1f689"
+    },
+    {
+      "path": "scripts/reconcile-tyrosine-sources.mjs",
+      "bytes": 3868,
+      "sha256": "a344133e30277b9285c9cf960d6615792146ae37d8b7a2ee223651e73a44777b"
+    },
+    {
+      "path": "scripts/reference-pool-preview.test.mjs",
+      "bytes": 2300,
+      "sha256": "776fb0e8a26ae7215f9ef26ee46315e57f3cfd793265683b4e9fc97e1e25eaff"
+    },
+    {
+      "path": "scripts/refresh-approved-source-omissions.mjs",
+      "bytes": 1766,
+      "sha256": "4387b6676cd820dab537f67365d03946f90d3d87049ac53cf5eb0a78e38c83a0"
+    },
+    {
+      "path": "scripts/refresh-measured-unranked-sources.mjs",
+      "bytes": 1014,
+      "sha256": "2154e92a457df2b8b74df50e234f3d96e2b01d4f97468a41c440d0202c7d90a1"
+    },
+    {
+      "path": "scripts/related-substance-associations.test.mjs",
+      "bytes": 12254,
+      "sha256": "7fabd39539e95c625841b891cb71871922bfcda31c27ec009098511555dc4f1a"
+    },
+    {
+      "path": "scripts/release-projection-audit.mjs",
+      "bytes": 3933,
+      "sha256": "fe34c0a877f5f73adff7e71d3fb1c98ac8ca76157242c3d4bd602c5f1325de63"
+    },
+    {
+      "path": "scripts/release-readiness.py",
+      "bytes": 5698,
+      "sha256": "e5514b8798ae45cfe8f218eb4b2d33f13d4f15090bc13e503696ea04bf8d535e"
+    },
+    {
+      "path": "scripts/report-pm-food-source-visibility.mjs",
+      "bytes": 3732,
+      "sha256": "18680222e16e8654783a25399fb168eff5248288269c01af0e273640e37f9257"
+    },
+    {
+      "path": "scripts/review01-implementation.test.mjs",
+      "bytes": 5605,
+      "sha256": "80f9d2a3d9f3b577f829a4ff5c9ff2f8368e1279b6ec53a7a63855562dc01a17"
+    },
+    {
+      "path": "scripts/scfa-related-display.test.mjs",
+      "bytes": 1090,
+      "sha256": "2bdb7fec7a34d5a4f6a5768e557e56f6c09ecf56cf63ee98627142f69ef376d6"
+    },
+    {
+      "path": "scripts/shared-documentation-extension.test.mjs",
+      "bytes": 1628,
+      "sha256": "5b414d3bae99212fc43f0b545cabd426d42173761c8a64bd1b3524106b9ebd77"
+    },
+    {
+      "path": "scripts/tyrosine-animal-coverage.test.mjs",
+      "bytes": 5145,
+      "sha256": "fd5f65e478e79ec3a4d535264011627d06f78ff2752681b394106993b270ca89"
+    },
+    {
+      "path": "scripts/usda-map.json",
+      "bytes": 1061,
+      "sha256": "3b7c40e2eaf0daafebef1da24c4c250db48d192db8df6af2b80c38ed90bae6cc"
+    },
+    {
+      "path": "src/components/CanonicalPmMission.tsx",
+      "bytes": 418,
+      "sha256": "ef3bea12958d2a9040f7133290ca173404d0ebf1355ad50ca9386025ec7ac530"
+    },
+    {
+      "path": "src/components/NutritionTable.tsx",
+      "bytes": 29856,
+      "sha256": "e076a191b015b834edf3f75b3ea84acb5710842f97ed07e61f3c71e23dde4e6d"
+    },
+    {
+      "path": "src/components/PilotInterventionDisclosure.tsx",
+      "bytes": 1372,
+      "sha256": "77ddc0d48292edc96603c3f4d1724c6b87fd0662a6d3ff9bfc78daf092a86aa0"
+    },
+    {
+      "path": "src/components/PmDietaryLeverEnhancer.tsx",
+      "bytes": 18564,
+      "sha256": "2702f4d963731bdb0c8de92397c608d3d16e43a87bf58d64bb3198447b066e27"
+    },
+    {
+      "path": "src/css/custom.css",
+      "bytes": 49916,
+      "sha256": "4ee92477c58fe20b56a8a2d7bc04fa10a01b26ef958a84f622ab8552f2ae442b"
+    },
+    {
+      "path": "src/data/brs-xInputMapping.generated.json",
+      "bytes": 1018320,
+      "sha256": "2e9310ddb35f71562da5c985a92c0d38bc2802bae6ef859485381adb1bdbe97e"
+    },
+    {
+      "path": "src/data/brs1InputMapping.generated.json",
+      "bytes": 7629214,
+      "sha256": "368b3e29a02a2b48c776f0383ec0a755b7c9f60a3fe078b19ba5b4f4aa058708"
+    },
+    {
+      "path": "src/data/brs2InputMapping.generated.json",
+      "bytes": 5292863,
+      "sha256": "2f58839ca7cb8944c0bc1a861c69ee9ec6b6e370faaa1d14b9f78195d3aa0972"
+    },
+    {
+      "path": "src/data/brs3InputMapping.generated.json",
+      "bytes": 4130997,
+      "sha256": "bece2d2edcdb39816e578cf971ded77fda3f0a54f8857df2ee137deae4f87230"
+    },
+    {
+      "path": "src/data/brs4InputMapping.generated.json",
+      "bytes": 3955893,
+      "sha256": "5ee2527f93b5573acf4ff1d81fd1c32bfe9bba2c6f1211f17863587d56c5760c"
+    },
+    {
+      "path": "src/data/brs5InputMapping.generated.json",
+      "bytes": 2024748,
+      "sha256": "40b3b44f2f614ad179dd75d4efb259ac55119bfdc844057318ef1a039cd16d27"
+    },
+    {
+      "path": "src/data/brs6InputMapping.generated.json",
+      "bytes": 738211,
+      "sha256": "47905e0bdf8181e7bdd0d2005cba9f11253cc85d205dbdae5af71dda0a9cc290"
+    },
+    {
+      "path": "src/data/butyrateRelatedSources.mjs",
+      "bytes": 221,
+      "sha256": "c33e62d16d6f6f581ed7bd33185ab10b0320b2eb60ecf7e08e62da8a543d9a27"
+    },
+    {
+      "path": "src/data/documentedFoodSources.mjs",
+      "bytes": 8020,
+      "sha256": "e6f92ea3ac82353567e1cbd265b3c2f62d6813593ab20d2e804ab470e08e46b8"
+    },
+    {
+      "path": "src/data/foodStrategyRollup.generated.json",
+      "bytes": 1420788,
+      "sha256": "bf4caf1c9276c2ea3693182c81fed251302ec1a139f1189f410284ccea624eb7"
+    },
+    {
+      "path": "src/data/rankedFoodSources.generated.json",
+      "bytes": 5811718,
+      "sha256": "65acbc71274769b8bf828445a899d45cc503148ab905e93137b435153de290b8"
+    },
+    {
+      "path": "src/data/rankedFoodSources.mjs",
+      "bytes": 6594,
+      "sha256": "e3d99758faddf8ce6e82eca9c71a163ad444ca5c4d631a95cdb3191176912395"
+    },
+    {
+      "path": "src/data/relatedSubstanceRelationships.mjs",
+      "bytes": 18344,
+      "sha256": "008eca05da9368438bae788e3055911dcbc17cfc49ada445e958249c5ab6d393"
+    },
+    {
+      "path": "src/data/scfaRelatedSources.mjs",
+      "bytes": 1635,
+      "sha256": "569f5f2de01ac904a41ee905ae18cf966fd236d62f53ec8a9bf72ee4a8313dd6"
+    },
+    {
+      "path": "src/data/substance-input-pages.json",
+      "bytes": 21413,
+      "sha256": "9b905548666f3806f07ac212b775b3280f3368f6239db0b96fb731467c442613"
+    },
+    {
+      "path": "src/lib/aminoAcidProfileSources.mjs",
+      "bytes": 2494,
+      "sha256": "e23965027f01333fdbc7c35acddd7358b50a6aa1e154ea16eab0735dc9eaff9b"
+    },
+    {
+      "path": "src/lib/dietaryInputGovernance.mjs",
+      "bytes": 7290,
+      "sha256": "5d85e4aa709eee1f7d9a16c11daea35294c0cc279827b17a022c33cdf42b2498"
+    },
+    {
+      "path": "src/lib/dietaryPathways.mjs",
+      "bytes": 6121,
+      "sha256": "50c71774a80f874d9df21fbde86e68ec03fdf3fcb17d8fffc42bd493ade26ee5"
+    },
+    {
+      "path": "src/lib/foodTargetTraceability.mjs",
+      "bytes": 16578,
+      "sha256": "d3d0d030eb56bc2e97362b1ab3330ea16946d3a9f485efdabd178433a32c4f32"
+    },
+    {
+      "path": "src/lib/interventionFoodSubstance.mjs",
+      "bytes": 5306,
+      "sha256": "94fb3dc7b33d29111782ce4fb6555ece2c0afd6a2ee7fcff7b1d11d87e942a15"
+    },
+    {
+      "path": "src/lib/interventionFoodSubstanceDisplay.mjs",
+      "bytes": 2805,
+      "sha256": "74e83152c17e55d552a420a57465c7dc799c389d0d1a89b32316a080c0afc44d"
+    },
+    {
+      "path": "src/lib/pmInputFoodDisclosure.ts",
+      "bytes": 24485,
+      "sha256": "ec3f6b7b5d87102455aa6671e6103b49f7295fdd40c9377537e64b2117e9d631"
+    },
+    {
+      "path": "src/theme/SubstanceFoods/index.tsx",
+      "bytes": 10351,
+      "sha256": "a99369efcdc01892db2e4237bf44169681fd9bdc35eac8508b707985f63ca44e"
+    },
+    {
+      "path": "static/bibtex/BRAIN-diet.bib",
+      "bytes": 1143876,
+      "sha256": "2815f1483cd08cad4dac749fd7ac4680069fed675ef8b8bc9ef75c7393bf5530"
+    },
+    {
+      "path": "static/explore/food-intelligence/app.mjs",
+      "bytes": 12175,
+      "sha256": "84d1cf84caa9b790c2b7fdb1187878251f31fca550739c65587c238d2ce2c5f6"
+    },
+    {
+      "path": "static/explore/food-intelligence/dahl-composition.json",
+      "bytes": 2037,
+      "sha256": "3047b0cf00944c2f71d87eccee04fca10482057f7f1b04c88878a049323f3ae8"
+    },
+    {
+      "path": "static/explore/food-intelligence/dahl-details.html",
+      "bytes": 2593,
+      "sha256": "00afe5a1ec785cb6a0cc1d737b3fb948c139d1dfed83c8fc0ede3ccdf7f3cff2"
+    },
+    {
+      "path": "static/explore/food-intelligence/dahl-notes.mjs",
+      "bytes": 491,
+      "sha256": "0c2acb5038250a1045ecf6f1b15054bcedaafe6e57f07e4f7ea32e38f78c0b53"
+    },
+    {
+      "path": "static/explore/food-intelligence/dahl-sources.mjs",
+      "bytes": 1487,
+      "sha256": "723ee6031604cd3e6eab1d7cbc7c3dd4f60fff31f1ab207a4e08b994d6bd3027"
+    },
+    {
+      "path": "static/explore/food-intelligence/dahl.html",
+      "bytes": 1043,
+      "sha256": "ebcff5bdfb97f54eb96d2bc017ae4a1a9293b0820d8a2d8feca7518ec84ad728"
+    },
+    {
+      "path": "static/explore/food-intelligence/dahl.json",
+      "bytes": 4646,
+      "sha256": "16b08e46d05db995ff2c2731c04a31f0b35fba6d5a5962c17ed605fe92b38bb7"
+    },
+    {
+      "path": "static/explore/food-intelligence/dahl.mjs",
+      "bytes": 5798,
+      "sha256": "c46dd9295d458b8051e4b52d4544a7c71e0dc6695a18c0df0c737c31fb663c84"
+    },
+    {
+      "path": "static/explore/food-intelligence/dahl.svg",
+      "bytes": 19927,
+      "sha256": "b11bf8d35977440bc4c94af87d0e0c306180ead7e7b367e2897fb9e6e4fe8ab7"
+    },
+    {
+      "path": "static/explore/food-intelligence/data.json",
+      "bytes": 7366321,
+      "sha256": "9ce7521e5f87955bb1915056940c9342962a6ee7eccb9d5b838503f32ae4ca07"
+    },
+    {
+      "path": "static/explore/food-intelligence/index.html",
+      "bytes": 4300,
+      "sha256": "b693b66efe9b193b30dc8b34b699f0788dec9895b1aa75d73ed708f883110fb5"
+    },
+    {
+      "path": "static/explore/food-intelligence/model.mjs",
+      "bytes": 4889,
+      "sha256": "42a6766306efe9a6ef9e1df3731ebf17937518bd78fc6b080b42e9f487d92b85"
+    },
+    {
+      "path": "static/explore/food-intelligence/style.css",
+      "bytes": 5249,
+      "sha256": "32b0107d7339986acd666b88739b6f8888e926fcc7370edd78ebc8810f307d25"
+    },
+    {
+      "path": "static/explore/food-wheel/display-network.json",
+      "bytes": 6848370,
+      "sha256": "a5ee67807fe1a8b128f732e0ee132d88e61c4bdb47cbeddbea8b43d2a2a0ec62"
+    },
+    {
+      "path": "static/explore/food-wheel/display-network.svg",
+      "bytes": 292843,
+      "sha256": "7ef386872bbe0ee894ad21ed5e7c74a25d36b13dbf6f4a333dcff896c1badebf"
+    },
+    {
+      "path": "static/explore/food-wheel/evidence-ledger.html",
+      "bytes": 341987,
+      "sha256": "18999a667b90d4203490c3cae707389a79cd898289f82da0b3937f4c91f094e5"
+    },
+    {
+      "path": "static/explore/food-wheel/evidence-ledger.json",
+      "bytes": 287176,
+      "sha256": "6ba8734689893ba7dda29c35caddaa9d2b953b629f6d05723e737d6e9904a719"
+    },
+    {
+      "path": "static/explore/food-wheel/index.html",
+      "bytes": 3518081,
+      "sha256": "7c9598b43b1c174814b5ba7dcd588888856d6c75978ba1ad459ec6e06d53fe56"
+    },
+    {
+      "path": "static/explore/food-wheel/interactive-views.mjs",
+      "bytes": 20018,
+      "sha256": "933c0ca90abbec005ece386968e8f18a99929b29464c416a0ea7d19f6b0bed8e"
+    },
+    {
+      "path": "static/explore/food-wheel/ribbon-presentation.mjs",
+      "bytes": 938,
+      "sha256": "c8647cd11fb9d7d23bb98b8528737c9b3551580b609b7f02945838a3dbfa9a03"
+    },
+    {
+      "path": "static/explore/food-wheel/selection-model.mjs",
+      "bytes": 3331,
+      "sha256": "64ac4c63265b4c87a9ad05d5249e4d952934bfa002f704a1f1ba212a77084c18"
+    },
+    {
+      "path": "static/explore/pm-explorer/app.mjs",
+      "bytes": 10190,
+      "sha256": "96736e9d38b29114410f913485215cce82a16bc6f6e445e78bd5d08cd3201c30"
+    },
+    {
+      "path": "static/explore/pm-explorer/food-records-v1.4becbef2e63b8754c65ea5916b2699b1c165a6425fe89ebec689acf8ac1ff514.json",
+      "bytes": 2509051,
+      "sha256": "4becbef2e63b8754c65ea5916b2699b1c165a6425fe89ebec689acf8ac1ff514"
+    },
+    {
+      "path": "static/explore/pm-explorer/index.html",
+      "bytes": 1662,
+      "sha256": "6eb5f4832d52e7f44dc71d6ff14eb37d88617743ce977ec715afcd3a7c551d09"
+    },
+    {
+      "path": "static/explore/pm-explorer/load-data.mjs",
+      "bytes": 505,
+      "sha256": "49aeb6add3dd81cbdffd6796439edfc100d30bffbed1d3b7f8723a44b7b8a93d"
+    },
+    {
+      "path": "static/explore/pm-explorer/model.mjs",
+      "bytes": 2260,
+      "sha256": "b5071c663b228dcc7a496e019631886ebe80fe5f8136b7bd78c3ff59ee70114e"
+    },
+    {
+      "path": "static/explore/pm-explorer/pm-sources.json",
+      "bytes": 7309427,
+      "sha256": "c56e92277bb3574ddb524eae2408b48a97d694a95f3e7b58334510469f6e520e"
+    },
+    {
+      "path": "static/explore/pm-explorer/style.css",
+      "bytes": 3361,
+      "sha256": "0ce1771bd76ee9c09406bb22ba01a02f32b91e9831530b83310f337209d2fc14"
+    },
+    {
+      "path": "static/explore/pm-explorer/titles.json",
+      "bytes": 3849,
+      "sha256": "458143e2d60c116a42cc47452a76eb5f033ab9a387c553339b1b3690bd7d209b"
+    },
+    {
+      "path": "static/img/foods/pears/pears_large.webp",
+      "bytes": 146568,
+      "sha256": "fe281dabcc758bcf6d6e3476bcf5c4c39a3e6353d6d59de44e748130e4d35cfb"
+    },
+    {
+      "path": "static/img/foods/pears/pears_medium.webp",
+      "bytes": 90138,
+      "sha256": "1e4522283255dbd27c4fb080eebf022add0816b99d24415b0447371dcc73d0ba"
+    },
+    {
+      "path": "static/img/foods/pears/pears_thumb.webp",
+      "bytes": 23424,
+      "sha256": "0462d168b8954bb723d786f56316b2c58229c359c0019d222424d7d095f0a562"
+    },
+    {
+      "path": "static/img/inchi/QTBSBXVTEAMEQO-UHFFFAOYSA-N.png",
+      "bytes": 988,
+      "sha256": "1578ae9927968ada162ea52ee90baeeab0646e690615be125d552346cc072ba7"
+    },
+    {
+      "path": "static/preview/approved-hypotheses/index.html",
+      "bytes": 21632,
+      "sha256": "d13fe25ca8cb85b404bef65c9916acee1e77d1cc807e2bc65be8a4444654c2bd"
+    },
+    {
+      "path": "system/INDEX.md",
+      "bytes": 3623,
+      "sha256": "30136b372929dfe705a4c3f0d7c79de96ad87dd403405f45afe6d30d5f292210"
+    },
+    {
+      "path": "system/canonical-scientific-projections.md",
+      "bytes": 5124,
+      "sha256": "261c84936320f92bb0cc1f2529f88e5a05552c86131ee2e8d22a3d8a782d4064"
+    },
+    {
+      "path": "system/dietary-input-identity-reconciliations.json",
+      "bytes": 5146,
+      "sha256": "d7afbeb789d77cb23adba4443f6b8cf5d34c3ed1f327d8ca758570ceba093f73"
+    },
+    {
+      "path": "system/dietary-input-traceability-contract.md",
+      "bytes": 217654,
+      "sha256": "a04a098037212ef1a2c8203a643c79655a585492130eabdddf59d97c1ca4b5a9"
+    },
+    {
+      "path": "system/food-intelligence-peer-review-prototype.md",
+      "bytes": 5551,
+      "sha256": "da9508fb28e2bd8fc9784c2b43f4d684dccc7fa6fd45474fc869d0bd2f287294"
+    },
+    {
+      "path": "system/food-strategy-rollup-schema.md",
+      "bytes": 5735,
+      "sha256": "627af2ff6bd6d36007cee14679c0770b7ab023acb989f332c5ef60aa7b3cd7c3"
+    },
+    {
+      "path": "system/food-wheel-evidence-publication.json",
+      "bytes": 2735,
+      "sha256": "76f0f1d56df7fe5a884d2fe9e5fdf522e5f803d4a501b40490717c8d219d523f"
+    },
+    {
+      "path": "system/framework-qc-schema.md",
+      "bytes": 9003,
+      "sha256": "8b9c09455fd1544f25f2d1a312389f5b7597baa00ebc75f59af6141ce3a50c37"
+    },
+    {
+      "path": "system/generated/brs-x-input-substance-food/food-to-inputs.md",
+      "bytes": 11626,
+      "sha256": "742d5cf6511d958a3cc32036612f27ebae9a8682f0fdb560157e8fa05ac9869f"
+    },
+    {
+      "path": "system/generated/brs-x-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 470052,
+      "sha256": "b7780a3a1b6cc14411347e38dc1465b1bd2fc9a9558a385ecf264963709f5cbd"
+    },
+    {
+      "path": "system/generated/brs-x-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 461452,
+      "sha256": "a47347f23629ed9e246c38dacfd916459afbd640e95942ae378b7ded9a7c527c"
+    },
+    {
+      "path": "system/generated/brs-x-input-substance-food/mapping.generated.json",
+      "bytes": 1188772,
+      "sha256": "12452a391dfba856f6a94781e5a1310b90033612630df421982bc158dc9e8f93"
+    },
+    {
+      "path": "system/generated/brs-x-input-substance-food/substance-index.md",
+      "bytes": 48232,
+      "sha256": "677cedfa4e39e678b94f7ec7f880b0de61d64f00604ecf3a7382156cd010119d"
+    },
+    {
+      "path": "system/generated/brs1-input-substance-food/food-to-inputs.md",
+      "bytes": 41685,
+      "sha256": "40756b4db8db3d31c79d994d1adb2b8d4b5fccca956225b90c71aa2c0c79579c"
+    },
+    {
+      "path": "system/generated/brs1-input-substance-food/gaps.generated.json",
+      "bytes": 9804,
+      "sha256": "429b03f78c982897131730acabeb21cbd330842089f712c9725780e613215535"
+    },
+    {
+      "path": "system/generated/brs1-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 3994744,
+      "sha256": "14c8e72e75a17c90b3845ca96e25e763d7333eec1c5635f1d337bfd65c027262"
+    },
+    {
+      "path": "system/generated/brs1-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 3926672,
+      "sha256": "0189e0b29b46ab477746563933e39e7bbff479fe9bcf5e0b99d478958c326fc3"
+    },
+    {
+      "path": "system/generated/brs1-input-substance-food/mapping.generated.json",
+      "bytes": 8854924,
+      "sha256": "9be818e7da02d0586cda6932acefb5e4f98bd0a2672b803ebdda0910be6d27db"
+    },
+    {
+      "path": "system/generated/brs1-input-substance-food/substance-index.md",
+      "bytes": 355090,
+      "sha256": "25f79f1319a94d3ed6359d9e9cc026fac24c2a0b941286d31ceca2e4a02e859b"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/food-to-inputs.md",
+      "bytes": 30510,
+      "sha256": "8c16edec447f2aac9875d1fac10c9345a54e2ed8f1e9ee111832f22384ccf92e"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/gaps.generated.json",
+      "bytes": 9004,
+      "sha256": "7c489e87125d1e599eb381e94190bd830140d243c8802e1cdc15f6f9333d6193"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 2585353,
+      "sha256": "ce71a452450a0a2fcdf028d5d89aabdcf3278771c2043aa0a23ded4784be057c"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 2544917,
+      "sha256": "182c5dc48abc02b683db90fee4fd72dc7674645556ca4b6fcb0192db26bc3b52"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/inventory.md",
+      "bytes": 20426,
+      "sha256": "706e45582aa4ddfb0bd508f9d4516da3f44cdf38171e52ab2cd47c942d4b2cd5"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/mapping.generated.json",
+      "bytes": 6026741,
+      "sha256": "1a0e2934294869af6bcbb995cf60e2a21747dd126b794f5e6c01b078df1a3139"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/substance-index.md",
+      "bytes": 252728,
+      "sha256": "48fecd1c8996dc97c9ca74a25d156f0c3e7f4229ad37abb1db928777efcf7b23"
+    },
+    {
+      "path": "system/generated/brs3-input-substance-food/food-to-inputs.md",
+      "bytes": 23635,
+      "sha256": "dedda5960243df2a611b30e05215470a87d290c4830324cfb1e3f6a5248e5f1e"
+    },
+    {
+      "path": "system/generated/brs3-input-substance-food/gaps.generated.json",
+      "bytes": 4332,
+      "sha256": "65db514eeb68d72616b3d9e0e5766e28d5027eaf866b1d027dac6cc82de54253"
+    },
+    {
+      "path": "system/generated/brs3-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 1601031,
+      "sha256": "1835bfdb1b4e61e718235d60685aaa8dddc0d9cd581de0f1d90cb7d9e52763a4"
+    },
+    {
+      "path": "system/generated/brs3-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 1573933,
+      "sha256": "6428a69cda1460dbbd328fa9086f09f1ded896c42b784743284847e45e4449bf"
+    },
+    {
+      "path": "system/generated/brs3-input-substance-food/mapping.generated.json",
+      "bytes": 4670786,
+      "sha256": "f1002eb2d6242161bd7e84be8703177ced05c3243db7b0a98bab93b7204ae6e1"
+    },
+    {
+      "path": "system/generated/brs3-input-substance-food/substance-index.md",
+      "bytes": 248909,
+      "sha256": "589068d38cffbd3edce4c5cf6ea3f9892c34e709ea34996ecca0c0ec3e0e4f0a"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/food-to-inputs.md",
+      "bytes": 21132,
+      "sha256": "f37717ea34eaeee9e9ca29df96f5049d23bbcb93d5281f912f1bf5b9fe66146e"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/gaps.generated.json",
+      "bytes": 7314,
+      "sha256": "4570ca0bec9a10dc67f05957fab24d3c22b8b375e4344e7611d0150cff4b55be"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 1689702,
+      "sha256": "5b5a49341485f757eac8267305ad62035c6824187bbccbd877c578de04c7d546"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 1661804,
+      "sha256": "df9ad78a50caec82bbfd8697b5ca4ed74e7a710d67910e027de8d8ad6bce9750"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/mapping.generated.json",
+      "bytes": 4527323,
+      "sha256": "7b6242486a6e47d2375cb02057d20a1b20193fd856f05a1fc432390441242877"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/substance-index.md",
+      "bytes": 172355,
+      "sha256": "875b2deb9119781217a43a693cce49eda7ee92eb04cbfed5c6c6a13cc3378ebf"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/food-to-inputs.md",
+      "bytes": 13916,
+      "sha256": "565d3ef4ff4a82ee1c31c5b903df26faac075ff223902b2f3077d64acf41b36e"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/gaps.generated.json",
+      "bytes": 9553,
+      "sha256": "b8f69b2a8e1800f480ca341bda9f948aadbaf153c4f4e24171c79680fc11bc32"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 736939,
+      "sha256": "2ba9b5d892731bcf5f472f49d79a994934b7659142c2f0f7128ebe5f58277288"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 726011,
+      "sha256": "7ab866989f3ca86b39d56293e083a281559f2c89a4a3a8df380e0482c2340e86"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/inventory.md",
+      "bytes": 15159,
+      "sha256": "8c2f5c2ba427ce3d1996319d1c59ac535bd6d94f72ae20f9943b14eca66c863b"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/mapping.generated.json",
+      "bytes": 2276070,
+      "sha256": "0a81456b6e3ecf4f8efc42b8fabe8d786022fa67b6102e1f4755929dca44bff5"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/substance-index.md",
+      "bytes": 106197,
+      "sha256": "cb87bf3a01bde47c2bdbd6ba14c0b46b6cacd55a51eb260f77b66a888f67f31d"
+    },
+    {
+      "path": "system/generated/brs6-input-substance-food/food-to-inputs.md",
+      "bytes": 8248,
+      "sha256": "95dd5d5a496cb26820366801306df6c6d9168ca8f6b8c61acfb78ef7721d1e76"
+    },
+    {
+      "path": "system/generated/brs6-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 168738,
+      "sha256": "44a92f45658d0200627e54772e3031257768c2374b3baf9792f3da1ec2fa85cc"
+    },
+    {
+      "path": "system/generated/brs6-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 165960,
+      "sha256": "8405a18a22b831a0382fa0f8f33ce3f68bd1442a7b64dcc87d644448d8f46d93"
+    },
+    {
+      "path": "system/generated/brs6-input-substance-food/mapping.generated.json",
+      "bytes": 817006,
+      "sha256": "034105d849b2a61795ab8a531ea5b7082b8aad77378857fd8394113b4c9bdbf9"
+    },
+    {
+      "path": "system/generated/brs6-input-substance-food/substance-index.md",
+      "bytes": 43184,
+      "sha256": "564a5b5cc4a8dbe58edf9334e0443145ff00017f456abd02c2a0fb3602b6ebea"
+    },
+    {
+      "path": "system/generated/food-strategy-rollup/rollup.generated.json",
+      "bytes": 1420788,
+      "sha256": "bf4caf1c9276c2ea3693182c81fed251302ec1a139f1189f410284ccea624eb7"
+    },
+    {
+      "path": "system/generated/related-substances/index.generated.json",
+      "bytes": 43217,
+      "sha256": "ac8283c994649d9c39cc91082c95f28a6c76e1cccebdf69c81a622ebb8805361"
+    },
+    {
+      "path": "system/input-substance-food-mapping.md",
+      "bytes": 28427,
+      "sha256": "74412f90c895078d763d5f392411e401864b87bd372bbf630d164d318da398fe"
+    },
+    {
+      "path": "system/presentation-change-approvals.json",
+      "bytes": 89108,
+      "sha256": "97d02153c30addcf1cd52d6df677d966cdf90c444cd4283590b52d84377455f2"
+    },
+    {
+      "path": "system/presentation-change-control.md",
+      "bytes": 5685,
+      "sha256": "58eeef7aaf6a7e91507e98dcc04dd5c50e66b215975503e09dfd416263a6df62"
+    },
+    {
+      "path": "system/primary-mechanism-schema.md",
+      "bytes": 131427,
+      "sha256": "a97fb960b4a01a85295143ca611aa0df264aa1d17722307552fdecc0f9045696"
+    },
+    {
+      "path": "system/ranked-food-publication-sources.json",
+      "bytes": 20187,
+      "sha256": "bee448387568d774e91dd06761ad55d0fa08fdc3e18e75507df39495c3147340"
+    },
+    {
+      "path": "system/scientific-finding-schema.md",
+      "bytes": 85285,
+      "sha256": "30043899a5829bedd79ecb50a7af6f447ade7cb422efef892e96845328897d31"
+    },
+    {
+      "path": "system/sop-lifestyle-six-atom-presentation.md",
+      "bytes": 18642,
+      "sha256": "1b758e6dc66029c94c263d62b7c9e8a35e9340af9e7830afef75560510153bbb"
+    },
+    {
+      "path": "system/substance-page-schema.md",
+      "bytes": 28703,
+      "sha256": "09528141ffa5b8db5c8dfd213a07e79265ad0d35f037fdc4c0bd4820f4702099"
+    },
+    {
+      "path": "system/templates/primary-mechanism-template.mdx",
+      "bytes": 12374,
+      "sha256": "16055199708fb74beb7ae6b6e33b60f4524552cb339e8155508d578a658678eb"
+    }
+  ],
+  "excluded": [
+    [
+      "review/dietary-connectivity-2026-11-09/evidence-ledger/broader-tests.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/dietary-connectivity-2026-11-09/evidence-ledger/focused-tests.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/dietary-connectivity-2026-11-09/evidence-ledger/production-build.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/dietary-connectivity-2026-11-09/evidence-ledger/recovery-build.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/dietary-connectivity-2026-11-09/evidence-ledger/recovery-tests.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/dietary-connectivity-2026-11-09/evidence-ledger/sec.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/food-wheel-interactive-views-2026-11-09/tests.log",
+      "machine configuration/log"
+    ],
+    [
+      "scripts/build-dahl-figure.mjs",
+      "regenerable build/cache"
+    ],
+    [
+      "scripts/build-dahl-view.mjs",
+      "regenerable build/cache"
+    ],
+    [
+      "scripts/build-food-intelligence.mjs",
+      "regenerable build/cache"
+    ],
+    [
+      "scripts/build-food-wheel-evidence-ledger.mjs",
+      "regenerable build/cache"
+    ],
+    [
+      "scripts/build-food-wheel-top-ten.mjs",
+      "regenerable build/cache"
+    ],
+    [
+      "scripts/build-food-wheel-unranked.mjs",
+      "regenerable build/cache"
+    ],
+    [
+      "scripts/build-pm-explorer-sources.mjs",
+      "regenerable build/cache"
+    ],
+    [
+      "scripts/build-reference-pool-preview.mjs",
+      "regenerable build/cache"
+    ]
+  ],
+  "lossless_compressed": []
+}

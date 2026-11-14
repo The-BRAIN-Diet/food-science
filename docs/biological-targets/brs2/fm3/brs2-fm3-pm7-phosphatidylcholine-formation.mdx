@@ -1760,6 +1760,56 @@ dietary_input_assessments:
       sufficient_coverage_rationale: >-
         Reused existing methionine composition and preparation records; no SAM content or food efficacy edge
         inferred.
+  - atom_id: PM7-DIT-4
+    status: admitted
+    type: A
+    classification: derived
+    operation: Maintain phosphatidylcholine formation through PEMT methylation and the choline-based Kennedy pathway.
+    canonical_substance_id: phosphatidylcholine
+    active_target_id: choline
+    record_origin: >-
+      Author-approved Group 3 reconciliation of existing admitted Derived route, 9 November 2026; no new
+      admission, SEC or publication permission.
+    functional_dependency:
+      status: established
+      statement: >-
+        Dietary phosphatidylcholine can provide choline for its methyl-donor provision relationship to
+        PEMT-dependent formation.
+      sources:
+        - docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023
+    dietary_supply:
+      status: established
+      statement: >-
+        Dietary phosphatidylcholine can provide choline for its methyl-donor provision relationship to
+        PEMT-dependent formation.
+      sources:
+        - docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023
+    conversion_pathway:
+      - from: phosphatidylcholine
+        to: choline
+        process: >-
+          Dietary phosphatidylcholine supplies choline through digestion/remodelling; the receiving PM records
+          methyl-derived labelling separately from intact-headgroup incorporation.
+        dependencies: []
+        limitations: >-
+          Plasma tracing does not measure absolute hepatic flux, intermediary SAM, ordinary-food equivalence or
+          benefit.
+        evidence:
+          statement: >-
+            Dietary phosphatidylcholine can provide choline for its methyl-donor provision relationship to
+            PEMT-dependent formation.
+          sources:
+            - docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023
+    limitations:
+      - >-
+        Plasma tracing does not measure absolute hepatic flux, intermediary SAM, ordinary-food equivalence or
+        benefit.
+      - >-
+        Preserve methyl-derived D3-PC versus intact-headgroup D9-PC labelling; neither establishes measured
+        intermediary SAM, absolute PEMT flux or a completed downstream methylation chain.
+    provenance:
+      - docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx
+      - docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img

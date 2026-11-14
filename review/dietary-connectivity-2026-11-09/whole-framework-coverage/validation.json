@@ -1,0 +1,14 @@
+{
+  "ranked_connections": 960,
+  "documented_connections": 200,
+  "documented_evidence_records_checked": 244,
+  "raw_records_not_resolved": [],
+  "restricted_raw_records": [],
+  "top_ten_and_threshold_pass": true,
+  "unranked_no_quantities_or_power_pass": true,
+  "focused_tests": {
+    "passed": 16,
+    "failed": 0
+  },
+  "limitations": "Source-field and focused regression validation; no browser or production build in this read-only audit."
+}

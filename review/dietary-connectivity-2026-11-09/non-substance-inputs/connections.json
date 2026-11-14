@@ -1,0 +1,791 @@
+[
+  {
+    "operation": "Maintain balanced methionine-cycle flux so methionine availability, SAM-dependent methylation, homocysteine recycling and transsulfuration remain coordinated across changing physiological demand.",
+    "historical_admission": true,
+    "source_identity": {
+      "kind": "source-class",
+      "pm_atom_id": "BRS2-FM1-PM4::PM4-DIT-2",
+      "status": "resolved",
+      "substance_applicability": "not-applicable"
+    },
+    "id": "BRS2-FM1-PM4::PM4-DIT-2",
+    "brs": "BRS2",
+    "fm": "BRS2(FM1)",
+    "pm": "BRS2-FM1-PM4",
+    "pm_page": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux",
+    "input": "Dietary protein",
+    "input_type": "substrate provision",
+    "relationship_type": {
+      "layer": "dietary-requirement",
+      "classification": "derived",
+      "mode": "capacity-requirement",
+      "addressability": "direct",
+      "claim_ceiling": "dietary-provision"
+    },
+    "biological_role": "Provides digestible methionine, the amino acid that enters the cycle.",
+    "dietary_input": true,
+    "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "dietary_input_flags": [],
+    "accounting": "A",
+    "accounting_label": "PM-owned dietary relationship",
+    "upstream": [],
+    "pool_references": [],
+    "members": [],
+    "substance_id": null,
+    "substance_page": null,
+    "identity_status": "resolved-pm-source-atom",
+    "network_activation": null,
+    "projection_status": null,
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx#dietary_input_traceability/PM4-DIT-2",
+    "evidence": {
+      "finding_ids": [
+        "PM4-F1"
+      ],
+      "citation_keys": [
+        "fao_diaas_2013",
+        "finkelstein_homocysteine_1998"
+      ]
+    },
+    "limitation": "Dietary protein supplies methionine. It does not show that eating more protein increases cycle rates. DIAAS scores sulfur amino acids as methionine plus cysteine.",
+    "derived_target_atom_id": "BRS2-FM1-PM4::PM4-DIT-1",
+    "derived_target": "Methionine",
+    "qualification": "resolved-pm-source-atom Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "presentations": [
+      {
+        "label": "Dietary protein",
+        "section": "3.1.1"
+      }
+    ],
+    "relationship_owner": "BRS2-FM1-PM4",
+    "canonical_supply_owner": [],
+    "scientific_admission": "admitted",
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "admission_errors": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "unresolved",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "food_targets": [],
+    "food_target_reconciliations": [],
+    "coverage_warnings": [
+      "Dietary protein: canonical substance identity unresolved.",
+      "Dietary protein → Methionine: conversion pathway reconciliation pending.",
+      "Dietary protein: Food ontology coverage unresolved."
+    ]
+  },
+  {
+    "operation": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+    "historical_admission": true,
+    "source_identity": {
+      "kind": "functional-substrate-class",
+      "pm_atom_id": "BRS5-FM1-PM1::PM1-DIT-2",
+      "status": "resolved",
+      "substance_applicability": "not-applicable"
+    },
+    "id": "BRS5-FM1-PM1::PM1-DIT-2",
+    "brs": "BRS5",
+    "fm": "BRS5(FM1)",
+    "pm": "BRS5-FM1-PM1",
+    "pm_page": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity",
+    "input": "Fermentable dietary fibre",
+    "input_type": "substrate provision",
+    "relationship_type": {
+      "layer": "dietary-requirement",
+      "classification": "derived",
+      "mode": "capacity-requirement",
+      "addressability": "precursor-mediated",
+      "claim_ceiling": "biological-dependency"
+    },
+    "biological_role": "Provides fermentable carbohydrate to gut microbes for short-chain-fatty-acid, including butyrate, production upstream of epithelial barrier effects.",
+    "dietary_input": true,
+    "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "dietary_input_flags": [],
+    "accounting": "A",
+    "accounting_label": "PM-owned dietary relationship",
+    "upstream": [],
+    "pool_references": [],
+    "members": [],
+    "substance_id": null,
+    "substance_page": null,
+    "identity_status": "resolved-pm-source-atom",
+    "network_activation": null,
+    "projection_status": "blocked",
+    "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx#dietary_input_traceability/PM1-DIT-2",
+    "evidence": {
+      "finding_ids": [
+        "PM1-F2"
+      ],
+      "citation_keys": [
+        "silva_role_2020"
+      ]
+    },
+    "limitation": "Production depends on fibre structure, dose and microbial ecology. Evidence for specific fibres must not be generalised to all fibre, and this relationship does not establish a universal intake threshold or response.",
+    "derived_target_atom_id": "BRS5-FM1-PM1::PM1-DIT-1",
+    "derived_target": "Butyrate",
+    "qualification": "resolved-pm-source-atom Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "presentations": [
+      {
+        "label": "Fermentable dietary fibre",
+        "section": "3.1.1"
+      }
+    ],
+    "relationship_owner": "BRS5-FM1-PM1",
+    "canonical_supply_owner": [],
+    "scientific_admission": "admitted",
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "admission_errors": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "unresolved",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "food_targets": [],
+    "food_target_reconciliations": [],
+    "coverage_warnings": [
+      "Fermentable dietary fibre: canonical substance identity unresolved.",
+      "Fermentable dietary fibre → Butyrate: conversion pathway reconciliation pending.",
+      "Fermentable dietary fibre: no canonical class identity. Upstream substrate foods are candidate sources, not approved butyrate-delivery targets."
+    ],
+    "upstream_candidates": {
+      "product_id": "BRS5-FM1-PM1::PM1-DIT-1",
+      "derived_ids": [
+        "BRS5-FM1-PM1::PM1-DIT-2"
+      ],
+      "inulin": {
+        "admitted": false,
+        "reason": "Inulin is not an admitted substrate of this PM. No canonical inulin food edge is joined, and the FOS/GOS record does not establish inulin alone."
+      },
+      "candidates": [
+        {
+          "relationship_id": "BRS5-FM1-PM1::PM1-KC1-UPSTREAM-1",
+          "substance_id": "fructo-galacto-oligosaccharides",
+          "label": "FOS/GOS",
+          "review_status": "no-canonical-food-source",
+          "limitation": "No canonical food source is recorded. The studied FOS/GOS preparation does not establish inulin alone, ordinary food portions, a butyrate-specific yield or tight-junction improvement. Its PM5 Capacity claim remains unresolved.",
+          "chain": {
+            "food_delivery": "absent",
+            "microbial_butyrate": "unresolved",
+            "ordinary_food_butyrate_yield": "unresolved",
+            "epithelial_exposure": "unresolved",
+            "tight_junction_engagement": "unresolved",
+            "butyrate_cellular_action": "established-experimental",
+            "pm1_capacity_admission": "withheld"
+          },
+          "foods": []
+        },
+        {
+          "relationship_id": "BRS5-FM1-PM1::PM1-KC1-UPSTREAM-2",
+          "substance_id": "pectin",
+          "label": "Pectin",
+          "review_status": "provisional-substrate-food",
+          "limitation": "Apple pectin composition is provisional. Purified-pectin cultures can raise acetate and butyrate together, and the profile is often acetate-rich. That does not establish a butyrate-specific yield, epithelial exposure or tight-junction engagement.",
+          "chain": {
+            "food_delivery": "provisional",
+            "microbial_butyrate": "conditional",
+            "ordinary_food_butyrate_yield": "unresolved",
+            "epithelial_exposure": "unresolved",
+            "tight_junction_engagement": "unresolved",
+            "butyrate_cellular_action": "established-experimental",
+            "pm1_capacity_admission": "withheld"
+          },
+          "foods": [
+            {
+              "id": "apples::pectin::apples raw with skin includes foods for usdas food distribution program::raw",
+              "substance_id": "pectin",
+              "food_id": "apples",
+              "food_title": "Apples",
+              "food_page": "/docs/foods/apples",
+              "food_record": "docs/foods/apples.md",
+              "material": "Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",
+              "preparation": "raw",
+              "species": null,
+              "product": null,
+              "edible_part": null,
+              "chemical_form": null,
+              "food_matrix": null,
+              "preparation_effects": null,
+              "absorption_evidence": null,
+              "observations": [],
+              "presence_records": [
+                {
+                  "key": "pectin_qual",
+                  "label": "Pectin",
+                  "status": "Present — quantity not established",
+                  "amount_display": "Present — quantity not established",
+                  "public_display": "table",
+                  "notes": "Soluble cell-wall polysaccharide; cultivar and extraction method vary.",
+                  "source_note": "Liu et al. 2023 isolated pectin from 13 apple cultivars (peel, flesh and core) as alcohol-insoluble, water-soluble and chelating-soluble fractions. Yields and structure varied widely by cultivar. USDA SR Legacy (Apples, raw, with skin; FDC 171688) reports total fibre 2.4 g/100 g and does not quantify pectin. Extracted-fraction yields are not converted into a USDA-style per-100 g number for this record.",
+                  "public_note": "Liu et al. 2023 supports this qualitative constituent record. See technical provenance for food form and measurement details.",
+                  "source_group": "Liu et al. 2023 supports this qualitative constituent record. See technical provenance for food form and measurement details.",
+                  "record": "docs/foods/apples.md#nutrition_supplementary_sources/pectin_qual",
+                  "evidence": "Liu et al. 2023 isolated pectin from 13 apple cultivars (peel, flesh and core) as alcohol-insoluble, water-soluble and chelating-soluble fractions. Yields and structure varied widely by cultivar. USDA SR Legacy (Apples, raw, with skin; FDC 171688) reports total fibre 2.4 g/100 g and does not quantify pectin. Extracted-fraction yields are not converted into a USDA-style per-100 g number for this record.",
+                  "source_url": null,
+                  "source_reference": null,
+                  "presence_status": "Present — quantity not established",
+                  "limitations": "Soluble cell-wall polysaccharide; cultivar and extraction method vary."
+                }
+              ],
+              "qualification": [],
+              "substance_title": "Pectin",
+              "mapping_status": "research-supported-provisional",
+              "delivery": "precursor-source",
+              "limitations": "Apple pectin composition is provisional. Purified-pectin cultures can raise acetate and butyrate together, and the profile is often acetate-rich. That does not establish a butyrate-specific yield, epithelial exposure or tight-junction engagement.",
+              "review_status": "provisional-substrate-food"
+            }
+          ]
+        },
+        {
+          "relationship_id": "BRS5-FM1-PM1::PM1-KC1-UPSTREAM-3",
+          "substance_id": "resistant-starch",
+          "label": "Resistant starch",
+          "review_status": "verified-substrate-food",
+          "limitation": "Defined RS2/RS3 preparations can support microbial utilisation and increased butyrate proportions in suitable communities. This reuses the approved BRS5-FM2-PM5 Type A/Direct substrate assessment. It does not transfer the resistant-potato-starch faecal response to ordinary foods, and it does not establish epithelial butyrate exposure or tight-junction engagement.",
+          "chain": {
+            "food_delivery": "established",
+            "microbial_butyrate": "conditional",
+            "ordinary_food_butyrate_yield": "unresolved",
+            "epithelial_exposure": "unresolved",
+            "tight_junction_engagement": "unresolved",
+            "butyrate_cellular_action": "established-experimental",
+            "pm1_capacity_admission": "withheld"
+          },
+          "foods": [
+            {
+              "id": "bananas::resistant-starch::cavendish and plantain bananas::green unripe cultivar and ripening state matter",
+              "substance_id": "resistant-starch",
+              "food_id": "bananas",
+              "food_title": "Bananas",
+              "food_page": "/docs/foods/bananas",
+              "food_record": "docs/foods/bananas.md",
+              "material": "Cavendish and plantain bananas",
+              "preparation": "Green/unripe; cultivar and ripening state matter",
+              "species": null,
+              "product": null,
+              "edible_part": null,
+              "chemical_form": null,
+              "food_matrix": null,
+              "preparation_effects": null,
+              "absorption_evidence": null,
+              "observations": [
+                {
+                  "key": "resistant_starch_qual",
+                  "label": "Resistant starch",
+                  "range": [
+                    2.7,
+                    25.3
+                  ],
+                  "unit": "g",
+                  "basis": "per 100 g fresh weight",
+                  "citation_mark": "asterisk",
+                  "source_reference": "#food-source-2",
+                  "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022",
+                  "evidence_material": "Cavendish and plantain bananas",
+                  "preparation_state": "Green/unripe; cultivar and ripening state matter",
+                  "public_display": "table",
+                  "source_note": "Gao et al. (2016) measured resistant starch in fresh Cavendish bananas from 18.1 to 2.7 g per 100 g and in plantain from 25.3 to 5.3 g per 100 g across five days of ripening. This row is that span.",
+                  "source_group": "Gao et al. 2016",
+                  "notes": "Fresh weight. Cavendish and plantain, mature green through day 5.",
+                  "value": null,
+                  "material": "Cavendish and plantain bananas",
+                  "preparation": "Green/unripe; cultivar and ripening state matter",
+                  "record": "docs/foods/bananas.md#nutrition_supplementary_sources/resistant_starch_qual",
+                  "source_record": "docs/foods/bananas.md#nutrition_supplementary_sources/resistant_starch_qual",
+                  "verified": true,
+                  "nutrition_value_reviews": [],
+                  "limitations": "Gao et al. (2016) measured resistant starch in fresh Cavendish bananas from 18.1 to 2.7 g per 100 g and in plantain from 25.3 to 5.3 g per 100 g across five days of ripening. This row is that span.",
+                  "id": "docs/foods/bananas.md#nutrition_supplementary_sources/resistant_starch_qual",
+                  "rank_eligible": false,
+                  "comparison_group": null,
+                  "low": 2700,
+                  "high": 25300,
+                  "display": "2.7–25.3 g"
+                }
+              ],
+              "presence_records": [
+                {
+                  "record": "docs/foods/bananas.md#substance_relationships/Resistant%20starch",
+                  "evidence": "Gao et al., Postharvest Biology and Technology 2016",
+                  "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022",
+                  "source_reference": null,
+                  "citation_keys": [],
+                  "relationship_type": "contains",
+                  "presence_status": "presence_supported_amount_unavailable",
+                  "limitations": "Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre."
+                },
+                {
+                  "key": "resistant_starch_qual",
+                  "label": "Resistant starch",
+                  "range": [
+                    2.7,
+                    25.3
+                  ],
+                  "unit": "g",
+                  "basis": "per 100 g fresh weight",
+                  "citation_mark": "asterisk",
+                  "source_reference": "#food-source-2",
+                  "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022",
+                  "evidence_material": "Cavendish and plantain bananas",
+                  "preparation_state": "Green/unripe; cultivar and ripening state matter",
+                  "public_display": "table",
+                  "source_note": "Gao et al. (2016) measured resistant starch in fresh Cavendish bananas from 18.1 to 2.7 g per 100 g and in plantain from 25.3 to 5.3 g per 100 g across five days of ripening. This row is that span.",
+                  "source_group": "Gao et al. 2016",
+                  "notes": "Fresh weight. Cavendish and plantain, mature green through day 5.",
+                  "record": "docs/foods/bananas.md#nutrition_supplementary_sources/resistant_starch_qual",
+                  "evidence": "Gao et al. (2016) measured resistant starch in fresh Cavendish bananas from 18.1 to 2.7 g per 100 g and in plantain from 25.3 to 5.3 g per 100 g across five days of ripening. This row is that span.",
+                  "presence_status": "qualitative",
+                  "limitations": "Fresh weight. Cavendish and plantain, mature green through day 5."
+                }
+              ],
+              "qualification": [],
+              "substance_title": "Resistant starch",
+              "mapping_status": "verified",
+              "delivery": "precursor-source",
+              "limitations": "Defined RS2/RS3 preparations can support microbial utilisation and increased butyrate proportions in suitable communities. This reuses the approved BRS5-FM2-PM5 Type A/Direct substrate assessment. It does not transfer the resistant-potato-starch faecal response to ordinary foods, and it does not establish epithelial butyrate exposure or tight-junction engagement.",
+              "review_status": "verified-substrate-food"
+            },
+            {
+              "id": "black-beans::resistant-starch::cooked black beans::cooked cooking duration and cooling protocol remain study specific",
+              "substance_id": "resistant-starch",
+              "food_id": "black-beans",
+              "food_title": "Black Beans",
+              "food_page": "/docs/foods/black-beans",
+              "food_record": "docs/foods/black-beans.md",
+              "material": "Cooked black beans",
+              "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+              "species": null,
+              "product": null,
+              "edible_part": null,
+              "chemical_form": null,
+              "food_matrix": null,
+              "preparation_effects": null,
+              "absorption_evidence": null,
+              "observations": [
+                {
+                  "key": "resistant_starch_qual",
+                  "label": "Resistant starch",
+                  "range": [
+                    3,
+                    5
+                  ],
+                  "unit": "g",
+                  "basis": "per 100 g dry weight",
+                  "citation_mark": "asterisk",
+                  "source_reference": "#food-source-4",
+                  "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+                  "evidence_material": "Cooked black beans",
+                  "preparation_state": "Cooked; cooking duration and cooling protocol remain study-specific",
+                  "public_display": "table",
+                  "source_note": "Fabbri, Schacht and Crosby (2016) report cooked black beans at about 3–5 g resistant starch per 100 g dry weight after the first 30 minutes of boiling. Raw beans in the same assay were about 31 g per 100 g dry weight.",
+                  "source_group": "Fabbri et al. 2016",
+                  "notes": "Dry weight of cooked beans. Not a fresh cooked weight.",
+                  "value": null,
+                  "material": "Cooked black beans",
+                  "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+                  "record": "docs/foods/black-beans.md#nutrition_supplementary_sources/resistant_starch_qual",
+                  "source_record": "docs/foods/black-beans.md#nutrition_supplementary_sources/resistant_starch_qual",
+                  "verified": true,
+                  "nutrition_value_reviews": [],
+                  "limitations": "Fabbri, Schacht and Crosby (2016) report cooked black beans at about 3–5 g resistant starch per 100 g dry weight after the first 30 minutes of boiling. Raw beans in the same assay were about 31 g per 100 g dry weight.",
+                  "id": "docs/foods/black-beans.md#nutrition_supplementary_sources/resistant_starch_qual",
+                  "rank_eligible": false,
+                  "comparison_group": null,
+                  "low": 3000,
+                  "high": 5000,
+                  "display": "3–5 g"
+                }
+              ],
+              "presence_records": [
+                {
+                  "record": "docs/foods/black-beans.md#substance_relationships/Resistant%20starch",
+                  "evidence": "Fabbri et al., NFS Journal 2016",
+                  "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+                  "source_reference": null,
+                  "citation_keys": [],
+                  "relationship_type": "contains",
+                  "presence_status": "presence_supported_amount_unavailable",
+                  "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+                },
+                {
+                  "key": "resistant_starch_qual",
+                  "label": "Resistant starch",
+                  "range": [
+                    3,
+                    5
+                  ],
+                  "unit": "g",
+                  "basis": "per 100 g dry weight",
+                  "citation_mark": "asterisk",
+                  "source_reference": "#food-source-4",
+                  "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+                  "evidence_material": "Cooked black beans",
+                  "preparation_state": "Cooked; cooking duration and cooling protocol remain study-specific",
+                  "public_display": "table",
+                  "source_note": "Fabbri, Schacht and Crosby (2016) report cooked black beans at about 3–5 g resistant starch per 100 g dry weight after the first 30 minutes of boiling. Raw beans in the same assay were about 31 g per 100 g dry weight.",
+                  "source_group": "Fabbri et al. 2016",
+                  "notes": "Dry weight of cooked beans. Not a fresh cooked weight.",
+                  "record": "docs/foods/black-beans.md#nutrition_supplementary_sources/resistant_starch_qual",
+                  "evidence": "Fabbri, Schacht and Crosby (2016) report cooked black beans at about 3–5 g resistant starch per 100 g dry weight after the first 30 minutes of boiling. Raw beans in the same assay were about 31 g per 100 g dry weight.",
+                  "presence_status": "qualitative",
+                  "limitations": "Dry weight of cooked beans. Not a fresh cooked weight."
+                }
+              ],
+              "qualification": [],
+              "substance_title": "Resistant starch",
+              "mapping_status": "verified",
+              "delivery": "precursor-source",
+              "limitations": "Defined RS2/RS3 preparations can support microbial utilisation and increased butyrate proportions in suitable communities. This reuses the approved BRS5-FM2-PM5 Type A/Direct substrate assessment. It does not transfer the resistant-potato-starch faecal response to ordinary foods, and it does not establish epithelial butyrate exposure or tight-junction engagement.",
+              "review_status": "verified-substrate-food"
+            },
+            {
+              "id": "chickpeas::resistant-starch::cooked chickpeas::cooked cooking duration and cooling protocol remain study specific",
+              "substance_id": "resistant-starch",
+              "food_id": "chickpeas",
+              "food_title": "Chickpeas",
+              "food_page": "/docs/foods/chickpeas",
+              "food_record": "docs/foods/chickpeas.md",
+              "material": "Cooked chickpeas",
+              "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+              "species": null,
+              "product": null,
+              "edible_part": null,
+              "chemical_form": null,
+              "food_matrix": null,
+              "preparation_effects": null,
+              "absorption_evidence": null,
+              "observations": [
+                {
+                  "key": "resistant_starch_qual",
+                  "label": "Resistant starch",
+                  "range": [
+                    3,
+                    5
+                  ],
+                  "unit": "g",
+                  "basis": "per 100 g dry weight",
+                  "citation_mark": "asterisk",
+                  "source_reference": "#food-source-1",
+                  "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+                  "evidence_material": "Cooked chickpeas",
+                  "preparation_state": "Cooked; cooking duration and cooling protocol remain study-specific",
+                  "public_display": "table",
+                  "source_note": "Fabbri, Schacht and Crosby (2016) report cooked chickpeas within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas in the same assay were 4.32 g per 100 g of the dried sample.",
+                  "source_group": "Fabbri et al. 2016",
+                  "notes": "Dry weight of cooked chickpeas. Not a fresh cooked weight.",
+                  "value": null,
+                  "material": "Cooked chickpeas",
+                  "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+                  "record": "docs/foods/chickpeas.md#nutrition_supplementary_sources/resistant_starch_qual",
+                  "source_record": "docs/foods/chickpeas.md#nutrition_supplementary_sources/resistant_starch_qual",
+                  "verified": true,
+                  "nutrition_value_reviews": [],
+                  "limitations": "Fabbri, Schacht and Crosby (2016) report cooked chickpeas within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas in the same assay were 4.32 g per 100 g of the dried sample.",
+                  "id": "docs/foods/chickpeas.md#nutrition_supplementary_sources/resistant_starch_qual",
+                  "rank_eligible": false,
+                  "comparison_group": null,
+                  "low": 3000,
+                  "high": 5000,
+                  "display": "3–5 g"
+                }
+              ],
+              "presence_records": [
+                {
+                  "record": "docs/foods/chickpeas.md#substance_relationships/Resistant%20starch",
+                  "evidence": "Fabbri et al., NFS Journal 2016",
+                  "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+                  "source_reference": null,
+                  "citation_keys": [],
+                  "relationship_type": "contains",
+                  "presence_status": "presence_supported_amount_unavailable",
+                  "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+                },
+                {
+                  "key": "resistant_starch_qual",
+                  "label": "Resistant starch",
+                  "range": [
+                    3,
+                    5
+                  ],
+                  "unit": "g",
+                  "basis": "per 100 g dry weight",
+                  "citation_mark": "asterisk",
+                  "source_reference": "#food-source-1",
+                  "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+                  "evidence_material": "Cooked chickpeas",
+                  "preparation_state": "Cooked; cooking duration and cooling protocol remain study-specific",
+                  "public_display": "table",
+                  "source_note": "Fabbri, Schacht and Crosby (2016) report cooked chickpeas within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas in the same assay were 4.32 g per 100 g of the dried sample.",
+                  "source_group": "Fabbri et al. 2016",
+                  "notes": "Dry weight of cooked chickpeas. Not a fresh cooked weight.",
+                  "record": "docs/foods/chickpeas.md#nutrition_supplementary_sources/resistant_starch_qual",
+                  "evidence": "Fabbri, Schacht and Crosby (2016) report cooked chickpeas within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas in the same assay were 4.32 g per 100 g of the dried sample.",
+                  "presence_status": "qualitative",
+                  "limitations": "Dry weight of cooked chickpeas. Not a fresh cooked weight."
+                }
+              ],
+              "qualification": [],
+              "substance_title": "Resistant starch",
+              "mapping_status": "verified",
+              "delivery": "precursor-source",
+              "limitations": "Defined RS2/RS3 preparations can support microbial utilisation and increased butyrate proportions in suitable communities. This reuses the approved BRS5-FM2-PM5 Type A/Direct substrate assessment. It does not transfer the resistant-potato-starch faecal response to ordinary foods, and it does not establish epithelial butyrate exposure or tight-junction engagement.",
+              "review_status": "verified-substrate-food"
+            },
+            {
+              "id": "potatoes::resistant-starch::yukon gold dark red norland and russet burbank potatoes::baked or boiled then chilled to 4 c distinguish reheated material",
+              "substance_id": "resistant-starch",
+              "food_id": "potatoes",
+              "food_title": "Potatoes",
+              "food_page": "/docs/foods/potatoes",
+              "food_record": "docs/foods/potatoes.md",
+              "material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+              "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+              "species": null,
+              "product": null,
+              "edible_part": null,
+              "chemical_form": null,
+              "food_matrix": null,
+              "preparation_effects": null,
+              "absorption_evidence": null,
+              "observations": [
+                {
+                  "key": "resistant_starch_qual",
+                  "label": "Resistant starch",
+                  "range": [
+                    2.2,
+                    5.4
+                  ],
+                  "unit": "g",
+                  "basis": "per 100 g, moisture-corrected",
+                  "citation_mark": "asterisk",
+                  "source_reference": "#food-source-3",
+                  "source_url": "https://doi.org/10.1016/j.foodchem.2016.03.120",
+                  "evidence_material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+                  "preparation_state": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+                  "public_display": "table",
+                  "source_note": "Raatz et al. (2016) Table 1 reports moisture-corrected resistant starch from 2.2 to 5.4 g per 100 g across Yukon Gold, Dark Red Norland and Russet Burbank potatoes, baked or boiled, served hot, chilled, or reheated.",
+                  "source_group": "Raatz et al. 2016",
+                  "notes": "Moisture-corrected. Baked or boiled; hot, chilled six days, or reheated.",
+                  "value": null,
+                  "material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+                  "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+                  "record": "docs/foods/potatoes.md#nutrition_supplementary_sources/resistant_starch_qual",
+                  "source_record": "docs/foods/potatoes.md#nutrition_supplementary_sources/resistant_starch_qual",
+                  "verified": true,
+                  "nutrition_value_reviews": [],
+                  "limitations": "Raatz et al. (2016) Table 1 reports moisture-corrected resistant starch from 2.2 to 5.4 g per 100 g across Yukon Gold, Dark Red Norland and Russet Burbank potatoes, baked or boiled, served hot, chilled, or reheated.",
+                  "id": "docs/foods/potatoes.md#nutrition_supplementary_sources/resistant_starch_qual",
+                  "rank_eligible": false,
+                  "comparison_group": null,
+                  "low": 2200,
+                  "high": 5400,
+                  "display": "2.2–5.4 g"
+                }
+              ],
+              "presence_records": [
+                {
+                  "record": "docs/foods/potatoes.md#substance_relationships/Resistant%20starch",
+                  "evidence": "Raatz et al., Food Chemistry 2016",
+                  "source_url": "https://pubmed.ncbi.nlm.nih.gov/27132853/",
+                  "source_reference": null,
+                  "citation_keys": [],
+                  "relationship_type": "contains",
+                  "presence_status": "presence_supported_amount_unavailable",
+                  "limitations": "Preparation and service temperature change the assay. A generic potato portion is not this result."
+                },
+                {
+                  "key": "resistant_starch_qual",
+                  "label": "Resistant starch",
+                  "range": [
+                    2.2,
+                    5.4
+                  ],
+                  "unit": "g",
+                  "basis": "per 100 g, moisture-corrected",
+                  "citation_mark": "asterisk",
+                  "source_reference": "#food-source-3",
+                  "source_url": "https://doi.org/10.1016/j.foodchem.2016.03.120",
+                  "evidence_material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+                  "preparation_state": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+                  "public_display": "table",
+                  "source_note": "Raatz et al. (2016) Table 1 reports moisture-corrected resistant starch from 2.2 to 5.4 g per 100 g across Yukon Gold, Dark Red Norland and Russet Burbank potatoes, baked or boiled, served hot, chilled, or reheated.",
+                  "source_group": "Raatz et al. 2016",
+                  "notes": "Moisture-corrected. Baked or boiled; hot, chilled six days, or reheated.",
+                  "record": "docs/foods/potatoes.md#nutrition_supplementary_sources/resistant_starch_qual",
+                  "evidence": "Raatz et al. (2016) Table 1 reports moisture-corrected resistant starch from 2.2 to 5.4 g per 100 g across Yukon Gold, Dark Red Norland and Russet Burbank potatoes, baked or boiled, served hot, chilled, or reheated.",
+                  "presence_status": "qualitative",
+                  "limitations": "Moisture-corrected. Baked or boiled; hot, chilled six days, or reheated."
+                }
+              ],
+              "qualification": [],
+              "substance_title": "Resistant starch",
+              "mapping_status": "verified",
+              "delivery": "precursor-source",
+              "limitations": "Defined RS2/RS3 preparations can support microbial utilisation and increased butyrate proportions in suitable communities. This reuses the approved BRS5-FM2-PM5 Type A/Direct substrate assessment. It does not transfer the resistant-potato-starch faecal response to ordinary foods, and it does not establish epithelial butyrate exposure or tight-junction engagement.",
+              "review_status": "verified-substrate-food"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "operation": "Limit host exposure to bacterial endotoxin and related inflammatory microbial products.",
+    "historical_admission": true,
+    "source_identity": {
+      "kind": "dietary-matrix",
+      "pm_atom_id": "BRS5-FM1-PM2::PM2-DIT-3",
+      "status": "resolved",
+      "substance_applicability": "not-applicable"
+    },
+    "id": "BRS5-FM1-PM2::PM2-DIT-3",
+    "brs": "BRS5",
+    "fm": "BRS5(FM1)",
+    "pm": "BRS5-FM1-PM2",
+    "pm_page": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment",
+    "input": "Fish-oil-containing meal (tested comparison)",
+    "input_type": "dietary matrix",
+    "relationship_type": {
+      "layer": "dietary-requirement",
+      "classification": "direct",
+      "mode": "state-regulation",
+      "addressability": "direct",
+      "claim_ceiling": "modulation-demonstrated"
+    },
+    "biological_role": "In twenty healthy adults, serum endotoxin was lower after the tested fish-oil-containing n-3 meal than after the tested coconut-oil-rich meal.",
+    "dietary_input": true,
+    "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "dietary_input_flags": [],
+    "accounting": "A",
+    "accounting_label": "PM-owned dietary relationship",
+    "upstream": [],
+    "pool_references": [],
+    "members": [],
+    "substance_id": null,
+    "substance_page": null,
+    "identity_status": "resolved-pm-source-atom",
+    "network_activation": null,
+    "projection_status": "blocked",
+    "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx#dietary_input_traceability/PM2-DIT-3",
+    "evidence": {
+      "finding_ids": [
+        "PM2-F3"
+      ],
+      "citation_keys": [
+        "lyte_meal_endotoxin_2016"
+      ]
+    },
+    "limitation": "Acute comparison of entire meals with differing fatty-acid profiles. Differences from the lower-fat olive-oil control were not significant. No isolated DHA/EPA effect, cofactor status, chronic containment or inflammation benefit established.",
+    "derived_target_atom_id": null,
+    "derived_target": null,
+    "qualification": "resolved-pm-source-atom Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "presentations": [
+      {
+        "label": "Fish-oil-containing meal (tested comparison)",
+        "section": "3.1.1"
+      }
+    ],
+    "relationship_owner": "BRS5-FM1-PM2",
+    "canonical_supply_owner": [],
+    "scientific_admission": "admitted",
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "admission_errors": [
+      "section-input-type-ineligible",
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "food_targets": [],
+    "food_target_reconciliations": [],
+    "coverage_warnings": [
+      "Fish-oil-containing meal (tested comparison): canonical substance identity unresolved.",
+      "Fish-oil-containing meal (tested comparison): Food ontology coverage unresolved."
+    ]
+  },
+  {
+    "operation": "Limit host exposure to bacterial endotoxin and related inflammatory microbial products.",
+    "historical_admission": true,
+    "source_identity": {
+      "kind": "preparation-characteristic",
+      "pm_atom_id": "BRS5-FM1-PM2::PM2-DIT-4",
+      "status": "resolved",
+      "substance_applicability": "not-applicable"
+    },
+    "id": "BRS5-FM1-PM2::PM2-DIT-4",
+    "brs": "BRS5",
+    "fm": "BRS5(FM1)",
+    "pm": "BRS5-FM1-PM2",
+    "pm_page": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment",
+    "input": "Milk-fat physical structure (tested comparison)",
+    "input_type": "preparation characteristic",
+    "relationship_type": {
+      "layer": "dietary-requirement",
+      "classification": "direct",
+      "mode": "state-regulation",
+      "addressability": "direct",
+      "claim_ceiling": "modulation-demonstrated"
+    },
+    "biological_role": "In eight obese men, the same 40 g milk-fat load as an emulsion produced a higher early chylomicron-LPS peak but a lower eight-hour plasma LPS area than a spread.",
+    "dietary_input": true,
+    "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "dietary_input_flags": [],
+    "accounting": "A",
+    "accounting_label": "PM-owned dietary relationship",
+    "upstream": [],
+    "pool_references": [],
+    "members": [],
+    "substance_id": null,
+    "substance_page": null,
+    "identity_status": "resolved-pm-source-atom",
+    "network_activation": null,
+    "projection_status": "blocked",
+    "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx#dietary_input_traceability/PM2-DIT-4",
+    "evidence": {
+      "finding_ids": [
+        "PM2-F3"
+      ],
+      "citation_keys": [
+        "vors_emulsion_endotoxemia_2017"
+      ]
+    },
+    "limitation": "Eight normal-weight men did not show the same area difference. Physical emulsification is not equivalent to every emulsifier additive; no general avoidance rule or clinical benefit follows.",
+    "derived_target_atom_id": null,
+    "derived_target": null,
+    "qualification": "resolved-pm-source-atom Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "presentations": [
+      {
+        "label": "Milk-fat physical structure (tested comparison)",
+        "section": "3.1.1"
+      }
+    ],
+    "relationship_owner": "BRS5-FM1-PM2",
+    "canonical_supply_owner": [],
+    "scientific_admission": "admitted",
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "admission_errors": [
+      "section-input-type-ineligible",
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "food_targets": [],
+    "food_target_reconciliations": [],
+    "coverage_warnings": [
+      "Milk-fat physical structure (tested comparison): canonical substance identity unresolved.",
+      "Milk-fat physical structure (tested comparison): Food ontology coverage unresolved."
+    ]
+  }
+]

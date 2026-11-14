@@ -23,7 +23,7 @@ Fructo-oligosaccharides are short chains of fructose. Within the inulin-type fru
 
 ### Food sources
 
-Chicory, onion, garlic, leek and Jerusalem artichoke store inulin-type fructans of mixed chain length [1,2]. Those foods are recorded on the fructan pages. A fructan measurement there is a measurement of the plant fructan, so the Foods list on this page stays limited to a preparation that contains both fructo-oligosaccharides and galacto-oligosaccharides.
+Chicory root, Jerusalem artichoke and garlic have measured fructans, reported separately from fructooligosaccharides. The edible asparagus spear has a measured inulin record, and short DP3 and DP4 oligosaccharides were absent from that spear. White onion is reported to contain both fructooligosaccharides and raffinose-family oligosaccharides, without a figure assigned to either class. Those are constituent records. A food appears as a direct source on this page only when it contains both fructo-oligosaccharides and galacto-oligosaccharides [1,2,4].
 
 ### Supplement versus food
 
@@ -67,3 +67,5 @@ The human study followed fructo-oligosaccharides and galacto-oligosaccharides gi
 [2] Kelly (2008). [Inulin-type prebiotics — a review: part 1](/docs/papers/BRAIN-Diet-References#kelly_inulin_type_prebiotics_2008). Records that fructooligosaccharides, oligofructose and inulin are used inconsistently, and that chicory extraction and sucrose synthesis yield different chain mixtures.
 
 [3] van Trijp et al. (2024). [Intraintestinal fermentation of fructo- and galacto-oligosaccharides and the fate of short-chain fatty acids in humans](/docs/papers/BRAIN-Diet-References#van_trijp_intraintestinal_2024). Human evidence for a combined fructo- and galacto-oligosaccharide preparation. The fermentation and short-chain fatty acid measurements stay with that preparation.
+
+[4] Jovanovic-Malinovska et al. (2014). [Oligosaccharide profile in fruits and vegetables as sources of prebiotics and functional foods](/docs/papers/BRAIN-Diet-References#jovanovic_malinovska_food_oligosaccharides_2014). Reports fructans in chicory root, Jerusalem artichoke and garlic, and names fructooligosaccharides together with raffinose-family oligosaccharides in white onion. The white-onion figure is not separated by class. None of these foods is the combined preparation in [3].

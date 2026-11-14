@@ -208,6 +208,38 @@ nutrition_amino_acid_profiles:
       USDA database composition, including source-specific analytical or calculated values. No
       amino-acid-specific digestibility correction; illustrative USDA household portion, not an
       intake recommendation. Missing values are not treated as zero.
+nutrition_supplementary_sources:
+  - key: glycine_usda_review01_170556
+    label: Glycine
+    substance_id: glycine
+    value: 1.843
+    unit: g
+    basis: per 100 g edible portion
+    original_source_basis: per 100 g edible portion
+    evidence_material: Seeds, pumpkin and squash seed kernels, dried
+    preparation_state: Seeds, pumpkin and squash seed kernels, dried
+    source_url: https://fdc.nal.usda.gov/food-details/170556/nutrients
+    source_group: USDA SR Legacy April 2018; source-specific database value
+    source_note: >-
+      Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact
+      source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility
+      or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026.
+      Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.
+    material_limitations: >-
+      Analytical data_points=0; sample count not reported, not evidence of zero concentration Preserve exact
+      source material; raw/dried preparation is not cooked-weight or dry-matter concentration. No digestibility
+      or clinical inference. USDA derivation A: Analytical Author-approved source attribution, 9 November 2026.
+      Food composition only; no digestibility, conversion yield, brain delivery or clinical effect inferred.
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: author-approved-review-01
+    fdc_id: 170556
+    food_nutrient_id: 1532882
+    source_derivation_id: A
+    source_data_points: 0
+
 ---
 ## Overview
 
