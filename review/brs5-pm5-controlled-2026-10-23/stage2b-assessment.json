@@ -1,0 +1,159 @@
+[
+  {
+    "input": "Resistant potato starch",
+    "type": "A",
+    "classification": "direct",
+    "canonical_id": "resistant-starch",
+    "historical_admission": "admitted",
+    "prospective_assessment": {
+      "status": "unresolved",
+      "eligibility": {
+        "eligible": true,
+        "state": "eligible-candidate"
+      },
+      "errors": [
+        "canonical-input-identity-mismatch"
+      ]
+    },
+    "draft_test_metadata": {
+      "atom_id": "PM5-DIT-1",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "canonical_substance_id": "resistant-starch",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "The identified carbohydrate supplies microbial fermentation capacity; not nutritional indispensability or a guaranteed increase in butyrate.",
+        "sources": [
+          "https://journals.asm.org/doi/10.1128/mbio.02566-18"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The specified input was administered experimentally or has separately supported qualitative food supply.",
+        "sources": [
+          "https://journals.asm.org/doi/10.1128/mbio.02566-18"
+        ]
+      },
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+          "docs/foods/apples.md",
+          "docs/foods/chicory-root.md",
+          "system/food-target-research.json"
+        ],
+        "targeted_searches": [
+          "review/brs5-pm5-controlled-2026-10-23/retrieval-log.json"
+        ]
+      }
+    },
+    "qualification": "Test metadata only; existing PM admissions have not been rewritten or newly approved."
+  },
+  {
+    "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
+    "type": "A",
+    "classification": "direct",
+    "canonical_id": "fructo-galacto-oligosaccharides",
+    "historical_admission": "admitted",
+    "prospective_assessment": {
+      "status": "unresolved",
+      "eligibility": {
+        "eligible": true,
+        "state": "eligible-candidate"
+      },
+      "errors": [
+        "canonical-input-identity-mismatch"
+      ]
+    },
+    "draft_test_metadata": {
+      "atom_id": "PM5-DIT-2",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "canonical_substance_id": "fructo-galacto-oligosaccharides",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "The identified carbohydrate supplies microbial fermentation capacity; not nutritional indispensability or a guaranteed increase in butyrate.",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10901090/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The specified input was administered experimentally or has separately supported qualitative food supply.",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10901090/"
+        ]
+      },
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+          "docs/foods/apples.md",
+          "docs/foods/chicory-root.md",
+          "system/food-target-research.json"
+        ],
+        "targeted_searches": [
+          "review/brs5-pm5-controlled-2026-10-23/retrieval-log.json"
+        ]
+      }
+    },
+    "qualification": "Test metadata only; existing PM admissions have not been rewritten or newly approved."
+  },
+  {
+    "input": "Pectin",
+    "type": "A",
+    "classification": "direct",
+    "canonical_id": "pectin",
+    "historical_admission": "admitted",
+    "prospective_assessment": {
+      "status": "admitted",
+      "eligibility": {
+        "eligible": true,
+        "state": "eligible-candidate"
+      },
+      "errors": []
+    },
+    "draft_test_metadata": {
+      "atom_id": "PM5-DIT-3",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "canonical_substance_id": "pectin",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "The identified carbohydrate supplies microbial fermentation capacity; not nutritional indispensability or a guaranteed increase in butyrate.",
+        "sources": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6004267/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The specified input was administered experimentally or has separately supported qualitative food supply.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/37327923/"
+        ]
+      },
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+          "docs/foods/apples.md",
+          "docs/foods/chicory-root.md",
+          "system/food-target-research.json"
+        ],
+        "targeted_searches": [
+          "review/brs5-pm5-controlled-2026-10-23/retrieval-log.json"
+        ]
+      }
+    },
+    "qualification": "Test metadata only; existing PM admissions have not been rewritten or newly approved."
+  }
+]

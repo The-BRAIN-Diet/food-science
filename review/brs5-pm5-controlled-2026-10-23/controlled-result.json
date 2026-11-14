@@ -1,0 +1,83 @@
+{
+  "baseline": "96b08913b917fffb8c96862ac4aab50a46a8d4fe",
+  "pm_id": "BRS5-FM2-PM5",
+  "title": "SCFA Production & Signalling",
+  "mission": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+  "stage2a": "bounded source adjudication complete; material issues recorded",
+  "stage2b": "controlled extraction run; current canonical PM is not cleared for rapid export",
+  "status": "BLOCK",
+  "checks": [
+    {
+      "id": "specific-input-food-exposure",
+      "pass": false,
+      "detail": "Generic resistant-starch composition must not be presented as supply of the specific potato-RS2 intervention.",
+      "affected_foods": [
+        "bananas",
+        "black-beans",
+        "chickpeas",
+        "potatoes"
+      ]
+    },
+    {
+      "id": "fos-gos-source-site-and-tracer",
+      "pass": false,
+      "detail": "The source assessment must preserve the sampled-site null and distinguish SCFA infusion from substrate conversion."
+    },
+    {
+      "id": "pectin-evidence-publication-type",
+      "pass": false,
+      "detail": "Pascale is review-level evidence, not independent primary cellular replication."
+    },
+    {
+      "id": "pectin-provisional-food-display",
+      "pass": true,
+      "detail": "Target-scoped food research recovers credible apple pectin composition without writing a canonical edge."
+    },
+    {
+      "id": "no-stale-rs-composition-queue",
+      "pass": true,
+      "detail": "Existing verified class-level edges remain recognised; trial matching is a different question."
+    },
+    {
+      "id": "inulin-not-auto-admitted",
+      "pass": true,
+      "detail": "A researched prospective input is not automatically admitted into the unchanged PM."
+    }
+  ],
+  "gate_results": [
+    {
+      "input": "Resistant potato starch",
+      "status": "unresolved",
+      "eligibility": {
+        "eligible": true,
+        "state": "eligible-candidate"
+      },
+      "errors": [
+        "canonical-input-identity-mismatch"
+      ]
+    },
+    {
+      "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
+      "status": "unresolved",
+      "eligibility": {
+        "eligible": true,
+        "state": "eligible-candidate"
+      },
+      "errors": [
+        "canonical-input-identity-mismatch"
+      ]
+    },
+    {
+      "input": "Pectin",
+      "status": "admitted",
+      "eligibility": {
+        "eligible": true,
+        "state": "eligible-candidate"
+      },
+      "errors": []
+    }
+  ],
+  "raw_rows": 6,
+  "screened_rows": 3,
+  "scope": "Scoped research/adjudication test only. Canonical decisions, PM source, food records, registry, governance and scores remain unchanged."
+}

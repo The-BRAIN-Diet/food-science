@@ -1,0 +1,153 @@
+{
+  "baseline": "96b08913b917fffb8c96862ac4aab50a46a8d4fe",
+  "retrieved": "2026-10-23",
+  "mode": "bounded scientific test; canonical decisions preserved",
+  "pm_id": "BRS5-FM2-PM5",
+  "title": "SCFA Production & Signalling",
+  "mission": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+  "identity_verdict": "confirmed: SCFAs include butyrate; no separate butyrate-only PM inferred",
+  "ownership": {
+    "PM5": "microbial substrate conversion into SCFAs and resulting SCFA actions",
+    "PM4": "upstream substrate-processing ecology and selection, not interchangeable with production output",
+    "PM1": "downstream epithelial barrier operation; not a dietary butyrate-production claim"
+  },
+  "propositions": [
+    {
+      "id": "P1",
+      "question": "Do defined fermentable substrates supply microbial SCFA-producing capacity?",
+      "decision": "supported conditionally",
+      "sources": [
+        "baxter_2019",
+        "boets_2015",
+        "bang_2018"
+      ],
+      "limits": "Substrate structure, donor ecology, degrader/producer cross-feeding and compartment matter; not every fibre raises faecal butyrate."
+    },
+    {
+      "id": "P2",
+      "question": "Do SCFAs engage host barrier/metabolic signalling?",
+      "decision": "supported in specified experimental systems",
+      "sources": [
+        "hoyles_2018",
+        "rose_2018"
+      ],
+      "limits": "Different acids, tissues and concentrations; no generic dietary or cognitive benefit."
+    },
+    {
+      "id": "P3",
+      "question": "Do these foods improve human brain function or ADHD through butyrate production?",
+      "decision": "unresolved; not established by reviewed corpus",
+      "sources": [
+        "steckler_2024",
+        "silva_2020"
+      ],
+      "limits": "No tested end-to-end dietary mediation. Do not use faecal concentrations or cell studies as clinical evidence."
+    }
+  ],
+  "evidence_inventory": [
+    {
+      "id": "baxter_2019",
+      "existing": true,
+      "url": "https://journals.asm.org/doi/10.1128/mbio.02566-18",
+      "type": "primary human intervention",
+      "decision": "Supports preparation-specific substrate provision; faecal endpoints, not brain efficacy. Potato RS2 increased faecal butyrate; maize RS2 and chicory inulin did not significantly increase that endpoint. Specialist degrader/producer associations constrain cross-feeding interpretation."
+    },
+    {
+      "id": "van_trijp_2024",
+      "existing": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10901090/",
+      "type": "primary human mechanistic",
+      "decision": "Site-specific constraints are essential: no detected distal-ileal fermentation; proximal-colon concentrations rose in one sampled person. Separately infused labelled SCFAs established host handling, not labelled FOS/GOS-to-butyrate conversion."
+    },
+    {
+      "id": "pascale_2022",
+      "existing": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9460662/",
+      "type": "systematic review of in-vitro studies",
+      "decision": "Mechanistic synthesis, not an independent primary fermentation experiment. Retain as synthesis; structure and donor constraints remain."
+    },
+    {
+      "id": "hoyles_2018",
+      "existing": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29562936/",
+      "type": "primary cell model",
+      "decision": "Propionate-related brain-endothelial mechanisms support downstream plausibility, not butyrate-specific dietary efficacy."
+    },
+    {
+      "id": "rose_2018",
+      "existing": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29391397/",
+      "type": "primary cell model",
+      "decision": "Butyrate altered mitochondrial responses in lymphoblastoid cells; concentration, redox state and cell phenotype matter. No human dietary or cognitive outcome."
+    },
+    {
+      "id": "steckler_2024",
+      "existing": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39184374/",
+      "type": "human observational",
+      "decision": "Keep contextual: faecal associations do not establish microbial production rate, causality or ADHD treatment efficacy."
+    },
+    {
+      "id": "silva_2020",
+      "existing": true,
+      "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2020.00025/full",
+      "type": "mechanistic review",
+      "decision": "Pathway context; not independent primary replication or proof of a food-to-brain effect."
+    },
+    {
+      "id": "boets_2015",
+      "existing": false,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26516911/",
+      "type": "primary human mechanistic",
+      "decision": "Twelve participants received inulin; isotope-dilution estimates support SCFA formation. Colonic output estimates depend on assumed systemic availability. This does not contradict a null faecal butyrate change or establish a brain effect."
+    },
+    {
+      "id": "bang_2018",
+      "existing": false,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6004267/",
+      "type": "primary in-vitro human-donor microbiota",
+      "decision": "Purified citrus pectin fermented in cultures from three donors with acetate/butyrate formation. Does not establish whole-apple or human brain effects."
+    },
+    {
+      "id": "liu_2023",
+      "existing": "food record bibliography",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37327923/",
+      "type": "primary food composition",
+      "decision": "Pectin isolation/characterisation across thirteen apple cultivars supports qualitative food supply; no total-fibre-to-pectin quantity conversion."
+    },
+    {
+      "id": "singh_2025",
+      "existing": false,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39988165/",
+      "type": "primary food composition/extraction",
+      "decision": "Chemical characterisation of extracted chicory-root inulin supports identity and source presence. Extraction yield/purity is not an edible-food concentration."
+    }
+  ],
+  "material_issues": [
+    {
+      "id": "SCI-1",
+      "kind": "input/exposure specificity",
+      "finding": "The named resistant-potato-starch lever receives generic resistant-starch food-class targets, including non-potato foods and a cooked/cooled material. Composition verification does not establish the tested potato-RS2 exposure.",
+      "sources": [
+        "baxter_2019"
+      ]
+    },
+    {
+      "id": "SCI-2",
+      "kind": "source interpretation",
+      "finding": "The FOS/GOS extraction omits intestinal-site null results and does not distinguish separately infused SCFA tracers from substrate-derived production. Its broad positive summary needs qualification, not blanket rejection of fermentation.",
+      "sources": [
+        "van_trijp_2024"
+      ]
+    },
+    {
+      "id": "SCI-3",
+      "kind": "evidence provenance",
+      "finding": "Pascale is a systematic review of in-vitro studies, not another primary cellular experiment.",
+      "sources": [
+        "pascale_2022"
+      ]
+    }
+  ],
+  "scoring": "No CC/SEC factors, scores or anchors assigned or altered."
+}

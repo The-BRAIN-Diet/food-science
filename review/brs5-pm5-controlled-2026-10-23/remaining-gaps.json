@@ -1,0 +1,38 @@
+[
+  {
+    "kind": "specific-input-identity",
+    "input": "Resistant potato starch",
+    "canonical_parent": "resistant-starch",
+    "gap": "A resolved parent class does not resolve the trial-specific input or establish ordinary-food equivalence.",
+    "disposition": "Reconcile scientific input granularity and exposure matching; keep verified class composition."
+  },
+  {
+    "kind": "formulation-identity",
+    "input": "FOS/GOS studied preparation",
+    "canonical_parent": "fructo-galacto-oligosaccharides",
+    "gap": "Generic combined record exists; exact assessed formulation and its distinct food supply are not resolved by a label alias.",
+    "disposition": "Keep historical admission traceable; no independent food equivalents fabricated."
+  },
+  {
+    "kind": "food-edge",
+    "input": "Pectin",
+    "food": "apples",
+    "mapping": "research-supported-provisional",
+    "gap": "Supported qualitative pectin supply, missing structured occurrence edge.",
+    "disposition": "Target-scoped repair proposal with primary composition citation; no canonical edge written."
+  },
+  {
+    "kind": "candidate-only-food-edge",
+    "input": "Inulin",
+    "food": "chicory-root",
+    "mapping": "research-supported-provisional",
+    "gap": "Prospective composition evidence exists; inulin is not currently admitted in PM5.",
+    "disposition": "Research register only; not an admitted PM roll-up or a promise of faecal butyrate increase."
+  },
+  {
+    "kind": "conditional-conversion",
+    "input": "Fermentable substrates \u2192 microbial SCFAs",
+    "gap": "Microbial degraders/producers, cross-feeding, intestinal compartment and uptake control the product pattern. No complete universal substrate-to-brain conversion chain was verified.",
+    "disposition": "No fabricated pathway steps or Derived downstream admission."
+  }
+]

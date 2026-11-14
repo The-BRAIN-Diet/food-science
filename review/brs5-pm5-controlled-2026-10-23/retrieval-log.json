@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-23",
+  "queries": [
+    {
+      "gap": "inulin not explicitly adjudicated in existing PM5 dietary list",
+      "query": "Boets 2015 inulin colonic fermentation stable isotope short chain fatty acid production humans butyrate",
+      "examined": [
+        "boets_2015",
+        "baxter_2019"
+      ],
+      "decision": "supported capacity candidate; null stool response is not proof of no production; no automatic admission"
+    },
+    {
+      "gap": "pectin evidence is a review and food join is empty",
+      "query": "The influence of in vitro pectin fermentation human fecal microbiome; Liu pectin thirteen apple cultivars 37327923",
+      "examined": [
+        "bang_2018",
+        "pascale_2022",
+        "liu_2023"
+      ],
+      "decision": "primary culture support and provisional apple supply; distinguish source and mechanism evidence"
+    },
+    {
+      "gap": "FOS/GOS anatomical and tracer interpretation",
+      "query": "van Trijp 2024 intraintestinal fermentation fructo galacto oligosaccharides 109208; distal ileum; proximal colon; labelled SCFA",
+      "examined": [
+        "van_trijp_2024"
+      ],
+      "decision": "qualify positive summary; do not infer isotope-traced substrate conversion"
+    },
+    {
+      "gap": "chicory inulin food composition link",
+      "query": "chicory root inulin extraction chemical characterisation primary 39988165",
+      "examined": [
+        "singh_2025"
+      ],
+      "decision": "prospective source with preparation/purity limitations; no quantities or canonical food edge"
+    }
+  ],
+  "stopping_rationale": "Existing seven-reference corpus plus four targeted primary checks resolve/park the specified input, endpoint and food-coverage questions. No survey of unrelated PMs or exhaustive literature search. Exact microbial chains and food-to-human effect equivalence remain explicit gaps."
+}

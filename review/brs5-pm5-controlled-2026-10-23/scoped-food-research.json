@@ -1,0 +1,38 @@
+[
+  {
+    "food_id": "apples",
+    "food_title": "Apples (studied cultivars)",
+    "food_page": "/docs/foods/apples",
+    "substance_id": "pectin",
+    "material": "Analytical cell-wall pectin fractions from the thirteen apple cultivars studied by Liu et al.",
+    "preparation": "Cultivar-specific extracted analytical fractions; not a standardised pectin dose",
+    "status": "research-supported-provisional",
+    "evidence": {
+      "statement": "The primary composition study isolated and characterised pectin from apple materials.",
+      "sources": [
+        "https://doi.org/10.1016/j.ijbiomac.2023.125410"
+      ],
+      "retrieved": "2026-10-23",
+      "kind": "primary-food-composition"
+    },
+    "limitations": "Qualitative supply only; retain cultivar, fraction and food-matrix variation. No per-100-g pectin amount inferred from total fibre; whole fruit is not purified citrus pectin."
+  },
+  {
+    "food_id": "chicory-root",
+    "food_title": "Chicory root (analytical source)",
+    "food_page": "/docs/foods/chicory-root",
+    "substance_id": "inulin",
+    "material": "Chicory root material used for inulin extraction and chemical characterisation",
+    "preparation": "Extracted/purified analytical inulin; whole-root and roasted preparations are not interchangeable",
+    "status": "research-supported-provisional",
+    "evidence": {
+      "statement": "Chicory-root extraction with chemical characterisation supports inulin presence.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/39988165/"
+      ],
+      "retrieved": "2026-10-23",
+      "kind": "primary-food-composition"
+    },
+    "limitations": "Extraction yield/purity is not edible-food inulin concentration. This prospective source does not add an admitted PM5 input."
+  }
+]

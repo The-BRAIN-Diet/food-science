@@ -1,0 +1,57 @@
+[
+  {
+    "input": "Resistant potato starch",
+    "existing_admission": "retained, not newly approved",
+    "relationship": "Type A Capacity",
+    "classification": "Direct to microbial production",
+    "canonical_parent": "resistant-starch",
+    "current_gate": "unresolved specific input-to-class binding",
+    "foods": "Four verified parent-class foods; no demonstrated supply of trial-specific potato RS2 material",
+    "manuscript_disposition": "Hold specific food targets pending input/exposure reconciliation"
+  },
+  {
+    "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
+    "existing_admission": "retained, not newly approved",
+    "relationship": "Type A Capacity",
+    "classification": "Direct to microbial production",
+    "canonical_parent": "fructo-galacto-oligosaccharides",
+    "current_gate": "input qualification/formulation binding requires reconciliation",
+    "foods": "No supported ordinary-food equivalent to the studied mixture found",
+    "manuscript_disposition": "Unresolved food delivery; do not split a mixture result into independent constituent claims"
+  },
+  {
+    "input": "Pectin",
+    "existing_admission": "retained; prospective Type A test gate supported",
+    "relationship": "Type A Capacity",
+    "classification": "Direct to microbial production",
+    "canonical_identity": "pectin",
+    "foods": "Apples from studied cultivars: research-supported provisional food supply",
+    "manuscript_disposition": "Usable conditional food-target row; no food dose, consistent butyrate response or brain benefit inferred"
+  },
+  {
+    "input": "Inulin",
+    "existing_admission": "not currently admitted in PM5; candidate only",
+    "relationship": "Type A Capacity candidate",
+    "classification": "Direct to microbial production; not automatically Derived just because fermentation occurs",
+    "canonical_identity": "inulin",
+    "foods": "Chicory root: prospective research-supported composition; exact study formulation/polymer distribution must be retained",
+    "manuscript_disposition": "Candidate research register; excluded from admitted-PM roll-up"
+  },
+  {
+    "input": "Acetate / propionate / butyrate",
+    "existing_admission": "biochemical products/inventory, dietary_input remains No",
+    "relationship": "Downstream Type B-like regulatory actions experimentally supported; no new dietary Type B admission",
+    "classification": "An active metabolite would be Direct to its receiving signalling operation; substrate-mediated provision would be Derived there",
+    "foods": "Precursor foods are not direct active-metabolite food sources",
+    "manuscript_disposition": "No independent oral requirement or clinical claim"
+  },
+  {
+    "input": "Unspecified fermentable fibre",
+    "existing_admission": "shared resource context; not a new generic PM-owned input",
+    "relationship": "Type A substrate-class candidate only at the supported level of definition",
+    "classification": "Direct to fermentation; conditional Derived route to a downstream metabolite mechanism",
+    "canonical_identity": "unresolved broad substrate-class boundary",
+    "foods": "Cannot infer individual fermentability or SCFA yield from total dietary fibre",
+    "manuscript_disposition": "Retain shared context and explicit identity gap"
+  }
+]
