@@ -1,0 +1,42 @@
+{
+  "status": "Not frozen; no global QC PASS claimed",
+  "failures": [
+    {
+      "suite": "scientific-hypotheses.test.mjs",
+      "test": "hypothesis validates, is unestablished and appears immediately before unchanged \u00a74.1 Finding projection",
+      "classification": "Historical global-Findings/placement expectation; individual registered hypothesis validation passes",
+      "action": "Reconcile checker/approved projection separately; do not rewrite scientific content"
+    },
+    {
+      "suite": "scientific-hypotheses.test.mjs",
+      "test": "all old structured PM9 scientific fields remain identical, and all other PM source bytes match their independently approved baselines",
+      "classification": "Historical PM9 baseline predates current scientific records",
+      "action": "Review baseline provenance; no automatic scientific rollback"
+    },
+    {
+      "suite": "brs5-pm1-hypothesis.test.mjs",
+      "test": "all previous PM1 scientific fields and original body are preserved exactly",
+      "classification": "Historical PM1 baseline mismatch",
+      "action": "Reconcile against current approved PM1 record separately"
+    },
+    {
+      "suite": "brs5-pm1-hypothesis.test.mjs",
+      "test": "hypothesis leaves causal extraction, food targets and manuscript decisions identical",
+      "classification": "Historical whole-output fixture includes intervening approved source changes",
+      "action": "Separate hypothesis-isolation invariant from superseded source snapshot"
+    },
+    {
+      "suite": "framework-qc.test.mjs",
+      "test": "generated public dataset stays public-safe",
+      "classification": "Suspended QC diagnostic expectation: expected2,actual0",
+      "action": "Preserve existing gate suspension and reconcile separately"
+    }
+  ],
+  "new_hypotheses": 9,
+  "individual_hypothesis_validation": "PASS",
+  "focused_integration_tests": {
+    "passed": 62,
+    "failed": 0
+  },
+  "no_new_scientific_decision_requested": true
+}

@@ -1,0 +1,158 @@
+{
+  "verified_commit": "6f7dc761e2548607c28d4bd1cccb937326eb6daf",
+  "deploy_id": "6af8a8554804e03e57266b8d",
+  "deploy_state": "ready",
+  "preview_url": "https://deploy-preview-244--food-science.netlify.app",
+  "pages": [
+    {
+      "route": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation/",
+      "status": 200,
+      "bytes": 69135,
+      "hypothesis_title_present": true,
+      "unestablished_present": true
+    },
+    {
+      "route": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer/",
+      "status": 200,
+      "bytes": 58009,
+      "hypothesis_title_present": true,
+      "unestablished_present": true
+    },
+    {
+      "route": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis/",
+      "status": 200,
+      "bytes": 80112,
+      "hypothesis_title_present": true,
+      "unestablished_present": true
+    },
+    {
+      "route": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity/",
+      "status": 200,
+      "bytes": 66966,
+      "hypothesis_title_present": true,
+      "unestablished_present": true
+    },
+    {
+      "route": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection/",
+      "status": 200,
+      "bytes": 96305,
+      "hypothesis_title_present": true,
+      "unestablished_present": true
+    },
+    {
+      "route": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling/",
+      "status": 200,
+      "bytes": 214525,
+      "hypothesis_title_present": true,
+      "unestablished_present": true
+    },
+    {
+      "route": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity/",
+      "status": 200,
+      "bytes": 54279,
+      "hypothesis_title_present": true,
+      "unestablished_present": true
+    },
+    {
+      "route": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation/",
+      "status": 200,
+      "bytes": 50831,
+      "hypothesis_title_present": true,
+      "unestablished_present": true
+    },
+    {
+      "route": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation/",
+      "status": 200,
+      "bytes": 54731,
+      "hypothesis_title_present": true,
+      "unestablished_present": true
+    },
+    {
+      "route": "/explore/food-wheel/",
+      "status": 200,
+      "bytes": 4922877
+    },
+    {
+      "route": "/explore/pm-explorer/",
+      "status": 200,
+      "bytes": 1663
+    },
+    {
+      "route": "/explore/food-intelligence/",
+      "status": 200,
+      "bytes": 4494
+    },
+    {
+      "route": "/explore/food-intelligence/dahl.html",
+      "status": 200,
+      "bytes": 1286
+    },
+    {
+      "route": "/docs/foods/brazil-nuts/",
+      "status": 200,
+      "bytes": 64926
+    },
+    {
+      "route": "/docs/foods/cloves/",
+      "status": 200,
+      "bytes": 64904
+    },
+    {
+      "route": "/docs/foods/capers/",
+      "status": 200,
+      "bytes": 68558
+    },
+    {
+      "route": "/docs/foods/chicken-liver/",
+      "status": 200,
+      "bytes": 91668
+    },
+    {
+      "route": "/docs/substances/bioactive-compounds/taurine/",
+      "status": 200,
+      "bytes": 67442
+    },
+    {
+      "route": "/docs/substances/bioactive-compounds/polyphenols/isoflavones/genistein/",
+      "status": 200,
+      "bytes": 49831
+    },
+    {
+      "route": "/docs/substances/nutrients/macronutrients/fatty-acids/phospholipids/phosphatidylethanolamine/",
+      "status": 200,
+      "bytes": 43771
+    },
+    {
+      "route": "/img/foods/brazil-nuts/brazil-nuts_thumb.webp",
+      "status": 200,
+      "bytes": 30690
+    },
+    {
+      "route": "/img/foods/cloves/cloves_thumb.webp",
+      "status": 200,
+      "bytes": 29844
+    }
+  ],
+  "datasets_and_navigation": [
+    {
+      "path": "explore/food-wheel/display-network.json",
+      "sha256": "6133f69db924f32cadcf1f715625c40b1ea38facd2d58645dc0740e8411edc6e",
+      "byte_equal_to_validated_candidate": true
+    },
+    {
+      "path": "explore/pm-explorer/pm-sources.json",
+      "sha256": "d6e527e9b1ca343c6306d88affffb0736a354efd7efb5650f948fd2aadec7e62",
+      "byte_equal_to_validated_candidate": true
+    },
+    {
+      "path": "explore/food-intelligence/data.json",
+      "sha256": "10f501508aaaab2f3a7c2793ddd7f932919b00fd88c96d51319bb3009a8428e7",
+      "byte_equal_to_validated_candidate": true
+    },
+    {
+      "path": "explore/pm-explorer/app.mjs",
+      "sha256": "5a84bff05a102afc1e707368a4f409651408cf01b8a374e309e267d24ff8d72d",
+      "byte_equal_to_validated_candidate": true
+    }
+  ]
+}

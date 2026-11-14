@@ -47,4 +47,4 @@ A complete Gold Standard PM is **proposed**, not an approved new template. Exist
 
 Current recovery/release actions: [single authoritative action register](../review/recovery-readiness-2026-11-14/ACTION-REGISTER.md). Historical handoffs are evidence; use this register for status, next action, approvals and closure checks.
 
-Current recovery integration: nine Unestablished hypotheses; approved984ranked/79foods/112-of-158 unchanged. See the [authoritative action register](../review/recovery-readiness-2026-11-14/ACTION-REGISTER.md) for integration ledger, preview evidence and freeze blockers. QC remains provisionally suspended; no merge/production authorised.
+Verified recovery preview: runtime6f7dc761e2548607c28d4bd1cccb937326eb6daf; nine Unestablished hypotheses;984ranked/79foods/112-of-158 unchanged. See the [authoritative action register](../review/recovery-readiness-2026-11-14/ACTION-REGISTER.md) for integration ledger, preview evidence and freeze blockers. QC remains provisionally suspended; no merge/production authorised.

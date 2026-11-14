@@ -14,10 +14,11 @@ Branch: `recovery/20261114-release-actions`; base `bc7e07285779a4ea5c86c1e1415fa
 
 ## File-level recovery ledger
 
-[file-integration-ledger.json](file-integration-ledger.json) records2,296 source/path observations across the preserved source/repair states, with source SHA/blob, candidate blob, disposition and reason. Historical blobs in PR244 ancestry are explicitly historical, not assumed scientifically equivalent. Earlier scientific alternatives, draft Stage2B pages and competing generated snapshots remain on their named backup branches; they do not overwrite the approved current canonical records. Earlier research/QA reports remain historical evidence, not parallel current action registers.
+[file-integration-ledger.json](file-integration-ledger.json) records2,368 source/path observations across the preserved source/repair states, with source SHA/blob, candidate blob, disposition and reason. Historical blobs in PR244 ancestry are explicitly historical, not assumed scientifically equivalent. Earlier scientific alternatives, draft Stage2B pages and competing generated snapshots remain on their named backup branches; they do not overwrite the approved current canonical records. Earlier research/QA reports remain historical evidence, not parallel current action registers.
 
 Disposition counts:
-- Intentionally excluded historical version: 385
+
+- Intentionally excluded historical version: 457
 - Included in release candidate: 515
 - Intentionally excluded historical artifact: 885
 - Intentionally excluded historical alternative: 174
@@ -45,3 +46,20 @@ Local production build passed (server1.88min,client7.81min), including existing 
 Proposed tag: `brain-reconciled-2026-11-14` (not created). Proposed freeze date:14November2026, conditional on complete preview verification and explicit disposition of remaining historical validation limitations. Deferred serving/spice/safety/maxima work remains D01–D05 in the authoritative action register.
 
 Browser verification found a pre-existing navigation escape: PM Explorer forced documentation links to production or localhost3181. Root-relative documentation and constituent-food links now retain the current preview/production origin; eight Explorer tests pass. No scientific record or layout changed.
+
+
+## Final verified preview — 14 November 2026
+
+Verified runtime commit: **6f7dc761e2548607c28d4bd1cccb937326eb6daf** (integrated source commit ce298de271391281dff5a7ddd0947fbb09e0fdf4 plus navigation correction).
+
+[PR244](https://github.com/The-BRAIN-Diet/food-science/pull/244) · [Food Wheel](https://deploy-preview-244--food-science.netlify.app/explore/food-wheel/) · [PM Explorer](https://deploy-preview-244--food-science.netlify.app/explore/pm-explorer/) · [Food Intelligence](https://deploy-preview-244--food-science.netlify.app/explore/food-intelligence/).
+
+Netlify deploy **6af8a8554804e03e57266b8d** is ready, exact commit confirmed; build/check duration6m37s. Deploy-preview and redirect checks pass. Header/page-diff checks are skipped, not passed. Twenty-two public routes pass, including all nine hypotheses, Brazil nuts/cloves/capers/chicken liver, taurine/genistein/PE, three viewers, recovered Dahl page and new-food images. All three downloaded viewer datasets and the navigation script are byte-identical to the validated local candidate ([receipt](public-preview-verification.json)).
+
+Sixty-two focused tests pass; three synthetic/actual hypothesis exclusion tests pass. All discovered mapping payloads are unchanged apart from cache timestamps ([mapping isolation](mapping-isolation.json)); nine hypotheses remain Unestablished. The existing §6.2 cross-BRS extractor returns zero in both trees; its equality check is not a claim that the whole framework has zero connections or a substitute for suspended global QC.
+
+Browser: desktop/mobile Food Intelligence controls and threshold switching; Wheel two-food Compare with BRS off and URL restoration; PM Explorer plant-before-animal choline sources (eight ranked), mobile details and same-origin documentation navigation. Public chicken-liver page shows betaine21mg/100g with its pan-fried qualification separately from raw FDC171060. Public androgen disclosure shows the exact stress rationale, linked question and explicitly Unestablished full chain. Existing dense diagrams require scrolling/zoom on small screens; no redesign was introduced.
+
+Remaining limitations are [recorded individually](remaining-validation-limitations.json): four historical PM1/PM9 fixture/global-Findings checks and one suspended QC expectation. No new scientific/source approval is requested. These are not silently marked passed. **NOT FROZEN; no merge or production deployment.** Proposed tag/date remain conditional. Documentation-only follow-up records this exact verified runtime and does not claim a newer runtime was tested.
+
+All fourteen named source/repair recovery refs remain on GitHub, including the original recorded commits in their ancestry; the separate reconciliation-evidence branch is retained. Original worktrees remain untouched. Local-only artefacts are disposable build/diagnostic outputs and the running local production preview at3198; recovered scientific/source work remains retrievable from the named GitHub branches.
