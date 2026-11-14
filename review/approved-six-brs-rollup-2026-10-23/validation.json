@@ -1,0 +1,14 @@
+{
+  "tests": 218,
+  "passed": 218,
+  "failed": 0,
+  "canonical_records_changed": false,
+  "historical_catalogue_reapproved": false,
+  "new_scientific_admissions": false,
+  "source_commit": "d3570391e7a6e3de40c57af784683cd13bd2370a",
+  "branch": "codex/deferred-stage2ab-enrichment",
+  "six_shards_reconstruct_export": true,
+  "unresolved_scientific_candidates_excluded": true,
+  "commit_or_push_performed": false,
+  "production_build": "Not needed for this data-only extraction; focused extraction, rendering, governance and preservation checks run."
+}

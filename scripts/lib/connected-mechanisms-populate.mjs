@@ -333,7 +333,8 @@ export function parseHubConnectedMechanisms(root) {
   return byFmId;
 }
 
-export function addLink(map, link, { hostKey, selfHref, crossBrsOnly }) {
+export function addLink(map, link, { hostKey, selfHref, crossBrsOnly, excludedHrefs }) {
+  if (excludedHrefs?.has(link.href)) return;
   const { label, href, connection } = link;
   if (!href || !label) return;
   if (selfHref && href === selfHref) return;

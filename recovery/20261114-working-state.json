@@ -1,0 +1,423 @@
+{
+  "source_path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/deferred-stage2ab",
+  "source_head": "d3570391e7a6e3de40c57af784683cd13bd2370a",
+  "source_branch": "codex/deferred-stage2ab-enrichment",
+  "purpose": "Backup only. Not a release candidate. No regeneration or scientific approval inferred.",
+  "files": [
+    {
+      "path": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+      "bytes": 47308,
+      "sha256": "1f3de03bd8c10ff328b95d34bb6c0def17e79386e7c257142c36ce1ef8a2fe9f"
+    },
+    {
+      "path": "review/approved-six-brs-rollup-2026-10-23/changes.json",
+      "bytes": 11976,
+      "sha256": "6348368741e22a788be1663873fec0e12e1aaaeff45666335c0ed37044286967"
+    },
+    {
+      "path": "review/approved-six-brs-rollup-2026-10-23/cross-brs-practices.json",
+      "bytes": 1978,
+      "sha256": "dd5ce92070c5da714e604822690ab31712f355529ce6c8a08ac4b7e217662ba1"
+    },
+    {
+      "path": "review/approved-six-brs-rollup-2026-10-23/dietary-inputs.csv",
+      "bytes": 608795,
+      "sha256": "48703c1efff070f14cd02035152a0bb74dba76e674ba2be611f3396d50b143c4"
+    },
+    {
+      "path": "review/approved-six-brs-rollup-2026-10-23/excluded-candidates.json",
+      "bytes": 15230,
+      "sha256": "0587c9a2ed742f54483a523d842c6135f90625e2dbfc62e19f48b69d1e7ac3e2"
+    },
+    {
+      "path": "review/approved-six-brs-rollup-2026-10-23/food-target-rollup.json",
+      "bytes": 535223,
+      "sha256": "4c08353595723f741cf0b76b9f3b17623f168b96eabf7e3aa1ef04665ad81808"
+    },
+    {
+      "path": "review/approved-six-brs-rollup-2026-10-23/manuscript-dietary-rollup.json",
+      "bytes": 1817670,
+      "sha256": "3f05ded9206ed7d67f6931ec1da18a5141abe02ba2ccd6978d8ed330af0f9b20"
+    },
+    {
+      "path": "review/approved-six-brs-rollup-2026-10-23/manuscript-rollup-brs1.json",
+      "bytes": 285413,
+      "sha256": "2a60699b5baa5eb7f289a668a810663689d0721a1d62c6aadb9c34cd633505a3"
+    },
+    {
+      "path": "review/approved-six-brs-rollup-2026-10-23/manuscript-rollup-brs2.json",
+      "bytes": 435158,
+      "sha256": "1bd8f51bd28ea0b72b601c99d467f2f127a84a416ff118cb2780d887ce9c4de5"
+    },
+    {
+      "path": "review/approved-six-brs-rollup-2026-10-23/manuscript-rollup-brs3.json",
+      "bytes": 579071,
+      "sha256": "0cd0a232660da27c66ada1f974601d101ec75fa6f08eecbc21a7a130fff2864f"
+    },
+    {
+      "path": "review/approved-six-brs-rollup-2026-10-23/manuscript-rollup-brs4.json",
+      "bytes": 366319,
+      "sha256": "358ca5ec0509ec72305587be5d7f89a1831ca542f7d517f72bdd284cea2594f2"
+    },
+    {
+      "path": "review/approved-six-brs-rollup-2026-10-23/manuscript-rollup-brs5.json",
+      "bytes": 137291,
+      "sha256": "61cdac3a0550e3a9dff538e9168bc3c4965f7cd947f8dd116ce87c6232051e4b"
+    },
+    {
+      "path": "review/approved-six-brs-rollup-2026-10-23/manuscript-rollup-brs6.json",
+      "bytes": 17439,
+      "sha256": "a86a1b313543c5ae32dc61e07629043636febc10a000df30dbd890f2c6f8cf21"
+    },
+    {
+      "path": "review/approved-six-brs-rollup-2026-10-23/optimisation-and-lifestyle.json",
+      "bytes": 51210,
+      "sha256": "99ddbfef3bcae85f118d68eeada78c318278f062ae4f69a2980f0e29c4145cb8"
+    },
+    {
+      "path": "review/approved-six-brs-rollup-2026-10-23/report.md",
+      "bytes": 3619,
+      "sha256": "bb7c200bc87d37f3a1ed5f27fa712333085ed63194e6982fc00a54c5662cf387"
+    },
+    {
+      "path": "review/approved-six-brs-rollup-2026-10-23/validation.json",
+      "bytes": 553,
+      "sha256": "ab978ae9694732c93bd42e5712ade0bca2a314bacc4909be698fd5dfc20f2282"
+    },
+    {
+      "path": "review/brs4-candidate-reconciliation-2026-10-23/before-files.json",
+      "bytes": 6375156,
+      "sha256": "595f0d0d8388796212aae315b941852ffd32db317f72563c7f9624b6447eb93c"
+    },
+    {
+      "path": "review/deferred-stage2ab-2026-10-23/baseline-bibliography.bib",
+      "bytes": 1052911,
+      "sha256": "9894ce185723d48c704cd229ea371dd3bd5822c77c5e250f8b934aa2655ac46c"
+    },
+    {
+      "path": "review/deferred-stage2ab-2026-10-23/client/scopes.json",
+      "bytes": 3988267,
+      "sha256": "18d187b070aff65548d754ad77bd3d0e52305b892d2436602ce236026e33ce9d"
+    },
+    {
+      "path": "review/deferred-stage2ab-2026-10-23/complete-baseline.json",
+      "bytes": 2346112,
+      "sha256": "c0a9b56aea88f61dd4baacbfb89599b2b1680111cab14c8fafb16e0411501bd2"
+    },
+    {
+      "path": "review/pm9-hypothesis-pilot-2026-10-23/canonical-before-sha256.json",
+      "bytes": 16863,
+      "sha256": "4e0323e70ae6e85a0bcde6814fe49b76503993aa1dc862282f746ed1f8360930"
+    },
+    {
+      "path": "review/pm9-hypothesis-pilot-2026-10-23/changed-file-manifest.json",
+      "bytes": 3100,
+      "sha256": "4607187ff55610483019a33d987f634cae5012eb4fd8b03f32f1c0a9dcff13f7"
+    },
+    {
+      "path": "review/pm9-hypothesis-pilot-2026-10-23/compilation.json",
+      "bytes": 73,
+      "sha256": "fe0c89697df01c772b0d026c7546b45fb01ee0d2becb820758d77316cbdd3583"
+    },
+    {
+      "path": "review/pm9-hypothesis-pilot-2026-10-23/hypothesis-record.json",
+      "bytes": 5830,
+      "sha256": "282412f8f3e93a168779623928c4a7ac72a154630d0f8a1166996cfca7b96b19"
+    },
+    {
+      "path": "review/pm9-hypothesis-pilot-2026-10-23/l-carnitine-identity-check.json",
+      "bytes": 209,
+      "sha256": "41673de23d774bda9e1c77bf19f0360c66cf37992871fe80e998940b1b1c1159"
+    },
+    {
+      "path": "review/pm9-hypothesis-pilot-2026-10-23/pm9-before.mdx",
+      "bytes": 36320,
+      "sha256": "1682c32fd221d71e77934847a58f0b6ec5d8a325a22a575f64b96c37d0c75293"
+    },
+    {
+      "path": "review/pm9-hypothesis-pilot-2026-10-23/primary-schema-before.md",
+      "bytes": 116715,
+      "sha256": "e38af6595007c0c29b2f4128430e72eb1533c43b6e5a61d104eb2ec92717404f"
+    },
+    {
+      "path": "review/pm9-hypothesis-pilot-2026-10-23/rendered-hypothesis.html",
+      "bytes": 5288,
+      "sha256": "86cb8755a9a6873221042d09bfe35557b54d2eec5d3e5e4e26473721bb80d601"
+    },
+    {
+      "path": "review/pm9-hypothesis-pilot-2026-10-23/rendered-pm9-example.html",
+      "bytes": 5894,
+      "sha256": "c4adb2191af88b9df26bb83f1431cef433b4db6d1171a433f04074cf8c69cd1b"
+    },
+    {
+      "path": "review/pm9-hypothesis-pilot-2026-10-23/report.md",
+      "bytes": 5015,
+      "sha256": "cccc33007ad3c8b9989ba7d79fcade62d79fb2fe024c91b8a528dee3d7a2e638"
+    },
+    {
+      "path": "review/pm9-hypothesis-pilot-2026-10-23/starting-status.txt",
+      "bytes": 1318,
+      "sha256": "d182540bc1077b93c09d355f1db4decf7b421586e57ed27dac455d03ad733370"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/brs1-baseline.json",
+      "bytes": 1860356,
+      "sha256": "d3a8dc67101b6920bc4f1baa454a6bf9c9814762c7b9707217d40c200fa6954f"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/brs2-baseline.json",
+      "bytes": 1333368,
+      "sha256": "8776b9ee68b57324f5081e2754487d9cfb20bdd3a58dc93e17f730fb0c57a882"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/manuscript-dietary-rollup.json",
+      "bytes": 1640558,
+      "sha256": "0dc40b08177dfb348b1fdae19fb55efb6f01a888bb4efa5e83ff90e6b9bddbdb"
+    },
+    {
+      "path": "scripts/approved-six-brs-rollup.test.mjs",
+      "bytes": 5320,
+      "sha256": "d8a5fb1c6260a67e16e81ba868e23adda12c00364bc0eef7012096fd2d9a9164"
+    },
+    {
+      "path": "scripts/brs4-carnitine-reconciliation.test.mjs",
+      "bytes": 5177,
+      "sha256": "36f1a4438907b2c501e639453ab28c449c64145a72533322900ac304a00d0160"
+    },
+    {
+      "path": "scripts/brs4-validation-repair.test.mjs",
+      "bytes": 2954,
+      "sha256": "ea9f1ad82bb8b447295dddbbd272158468960c2935a8758a026b5e20785c43ec"
+    },
+    {
+      "path": "scripts/deferred-stage2ab.test.mjs",
+      "bytes": 8851,
+      "sha256": "a1a7121316d7d677c4a6fc0d20d776486b79b5b805176cefa05833ae0a7e29ef"
+    },
+    {
+      "path": "scripts/generate-approved-six-brs-rollup.mjs",
+      "bytes": 17547,
+      "sha256": "0e7e8a7eba165b973035e12a53822c08caaf4ec99b4fdecd915cdea1ddbf1f49"
+    },
+    {
+      "path": "scripts/lib/connected-mechanisms-populate.mjs",
+      "bytes": 17895,
+      "sha256": "78d6ca4ea1762cb2997d95f2d41bc1551b717223c64d13c564336f53e3a0835b"
+    },
+    {
+      "path": "scripts/lib/cross-brs-mechanism-graph.mjs",
+      "bytes": 3832,
+      "sha256": "7dca50e9207262c9e53bf1a3de8a19e947e335e4c10ba0b2f7e8da1e73a4e38f"
+    },
+    {
+      "path": "scripts/lib/mechanism-page-validation.mjs",
+      "bytes": 58379,
+      "sha256": "68be316b302d28ce6531642a3a459d2d0ea5299091b9da9d69f0d8afa9531642"
+    },
+    {
+      "path": "scripts/lib/scientific-hypotheses.mjs",
+      "bytes": 5455,
+      "sha256": "8e7f04e4a835e06a67218797b3febe71ea84d0ad0697468c76a8943e516e66a1"
+    },
+    {
+      "path": "scripts/populate-connected-mechanisms.mjs",
+      "bytes": 6816,
+      "sha256": "a12d919cecd232ffb418e1e1a5ec5ab11da7697395bf188627f1144cd2fde492"
+    },
+    {
+      "path": "scripts/scientific-hypotheses.test.mjs",
+      "bytes": 9442,
+      "sha256": "897a1d2125a4f1ef64d31186ed0cb38d21fa5098be1fdf997d06954a01f89e1e"
+    },
+    {
+      "path": "scripts/sync-pm-scientific-hypotheses.mjs",
+      "bytes": 1380,
+      "sha256": "9834e61b15d30aeafe92bee49c20110c00fc7d54ad293f81a5e82d313c3f4e0c"
+    },
+    {
+      "path": "src/components/ScientificHypothesis.tsx",
+      "bytes": 2671,
+      "sha256": "367c47680e15158e14b37ee1b77ce2f36282f2523e286f121843f9f98ee2e85b"
+    },
+    {
+      "path": "src/data/brs1InputMapping.generated.json",
+      "bytes": 3768246,
+      "sha256": "dbcd84cdf4a009964ed780716e781d323dc11da52e6178f2d6cef7c7c8bac3cc"
+    },
+    {
+      "path": "src/data/brs2InputMapping.generated.json",
+      "bytes": 3390297,
+      "sha256": "9075d0c03eb4fd5a922e0c17edd3dc33c6f912cb61211a023e79d21781658e38"
+    },
+    {
+      "path": "src/data/brs3InputMapping.generated.json",
+      "bytes": 2511547,
+      "sha256": "c5386ed8fdde285ab4874b6514effa8b408726e2acd2cdf30ab4a7250ce7dfc9"
+    },
+    {
+      "path": "src/data/brs4InputMapping.generated.json",
+      "bytes": 1265752,
+      "sha256": "72b9a957e1e83192a629b0376ac83e76eb550699b642f8ea5b8c7845942537ad"
+    },
+    {
+      "path": "src/data/brs5InputMapping.generated.json",
+      "bytes": 1594466,
+      "sha256": "fd1f4404937acfc88fa604898dd519387d4392e1ba4f877c3f7e7b79b11299f0"
+    },
+    {
+      "path": "src/data/brs6InputMapping.generated.json",
+      "bytes": 595891,
+      "sha256": "3b79ad67e4c1c6de5d5b2a090a1421a0c7f98df2fe7f5d4a4ae046360ee1428f"
+    },
+    {
+      "path": "src/data/foodStrategyRollup.generated.json",
+      "bytes": 66236,
+      "sha256": "de3c0819ce6788ec2830d27c530e33d5755b714b4426dc85c8fab94610225242"
+    },
+    {
+      "path": "src/theme/MDXComponents/index.js",
+      "bytes": 3045,
+      "sha256": "bb0a22e68ffd483626d324ec261a79a252436b578725e831a8d2ae96f5b18f3c"
+    },
+    {
+      "path": "system/generated/brs1-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 2527964,
+      "sha256": "592345774fc1a47cd99b8a57957e70aae527d3e14fee9f7064709d408bccb34c"
+    },
+    {
+      "path": "system/generated/brs1-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 2487116,
+      "sha256": "6c8eed2a7050235185ca302fb9a3e1e40767a786bcf3c8d98ce573703f654dae"
+    },
+    {
+      "path": "system/generated/brs1-input-substance-food/mapping.generated.json",
+      "bytes": 4516319,
+      "sha256": "e094d3228d2e4c44751750dbc19e367623da422ccdf09a18975f24c7f49d8516"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 2408017,
+      "sha256": "0008e03c04650e05d22fdcbc37beb226d0a9c7bc7f3db2ce60b9e0aca6145e58"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 2374485,
+      "sha256": "3a283b8db88c953a04c28c2a0ede8f40758dd0615c2c3dde0d46761b9b20b5ec"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/mapping.generated.json",
+      "bytes": 4062855,
+      "sha256": "aa3a7264a2bf04c3766e3a228c14c42ccf8d3d0b99ff32ccfe43c10f57a27b18"
+    },
+    {
+      "path": "system/generated/brs3-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 1046745,
+      "sha256": "9189114865f4d7dae40efdf1a5c49cf2e2b75abd6c7de1ca243f3b7914bcce19"
+    },
+    {
+      "path": "system/generated/brs3-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 1031761,
+      "sha256": "7c7c09e0e1915492ded37f59b7e2a8f4f22fcafe224d6343938813fd518b5e44"
+    },
+    {
+      "path": "system/generated/brs3-input-substance-food/mapping.generated.json",
+      "bytes": 2867448,
+      "sha256": "0e805681ab81ed0132f65dd7d97c1350f4cba1cf9f1b1ccc03416cd7a0abfe6b"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 419917,
+      "sha256": "c4c6412f3dad3344c0470a518c1e0ddd377d6d3a30d3a085b17c25d595174703"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 413347,
+      "sha256": "8fee034550977318b09c5208a0abbcc95530a17b88c32063ae7e1df5d5b6256f"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/mapping.generated.json",
+      "bytes": 1420084,
+      "sha256": "58532d5c2844bb11ba98df0a90d780a13b4a8aa210fb7c3d70404886edd0a0c8"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 702920,
+      "sha256": "2a3567a8223ab8cf663673640e83cbbef7a8e839a3ac1c3b3007d5eab49f6cad"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 692494,
+      "sha256": "aef3c53fed38252e7e5a865ceb2e240190ef7036ee0c428590d6ec8f235977ea"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/mapping.generated.json",
+      "bytes": 1829359,
+      "sha256": "94c4fcf17018d5bdd181d10696c8a71f9f0941c1e66cc765845197202adf3641"
+    },
+    {
+      "path": "system/generated/brs6-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 141182,
+      "sha256": "8617a1ef166b3dde1940045c675fa019e7b070f443824d05abacc565a4652255"
+    },
+    {
+      "path": "system/generated/brs6-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 138908,
+      "sha256": "8420438da682b0a625dfe547dae366cc0ec53fc23168c1ad85a60bcbd892d0f2"
+    },
+    {
+      "path": "system/generated/brs6-input-substance-food/mapping.generated.json",
+      "bytes": 659701,
+      "sha256": "ec02832ee297893c59715904ae1882ff3ecbb5e9c293e4e4db08563ec9ca83e6"
+    },
+    {
+      "path": "system/generated/dietary-food-targets/manuscript-rollup.json",
+      "bytes": 1818420,
+      "sha256": "d4765506ab6274214b935fe8a6c44c178a68bc5e23cd16b4d1de74754d96521d"
+    },
+    {
+      "path": "system/primary-mechanism-schema.md",
+      "bytes": 117293,
+      "sha256": "a6ff6bf54975eca47828aceffc7897d7452e68342ed2debab0545506893c025f"
+    },
+    {
+      "path": "system/scientific-hypotheses-schema.md",
+      "bytes": 3576,
+      "sha256": "a093cfb2d8aebed35be6ac0cc0ebebf59c1c3a73fbcc7d8afceddc499b5accd4"
+    }
+  ],
+  "excluded": [
+    [
+      "review/approved-six-brs-rollup-2026-10-23/validation.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/pm9-hypothesis-pilot-2026-10-23/all-tests.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/pm9-hypothesis-pilot-2026-10-23/findings.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/pm9-hypothesis-pilot-2026-10-23/hypotheses.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/pm9-hypothesis-pilot-2026-10-23/mechanisms.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/pm9-hypothesis-pilot-2026-10-23/pilot-tests.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/pm9-hypothesis-pilot-2026-10-23/regressions.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/pm9-hypothesis-pilot-2026-10-23/sec.log",
+      "machine configuration/log"
+    ]
+  ],
+  "lossless_compressed": []
+}

@@ -92,6 +92,71 @@ lifestyle_priorities:
     dietary_input: false
     reader_description: The studied training increased muscle mitochondrial enzyme/protein and TFAM markers.
     description_finding_id: PM9-F1
+scientific_hypotheses:
+  - id: PM9-H1
+    title: Glucose Appearance and Mitochondrial Biogenesis
+    proposition: Postprandial glucose-appearance kinetics may influence mitochondrial biogenesis signalling.
+    source_pm: BRS6-FM1-PM1
+    target_pm: BRS4-FM4-PM9
+    proposed_direction: BRS6-FM1-PM1 → BRS4-FM4-PM9
+    status: Unestablished
+    rationale: Nutrient availability and metabolic signalling can influence mitochondrial adaptation pathways. Whether the rate of post-meal glucose appearance itself influences this signalling remains a testable question.
+    finding_links:
+      supporting: []
+      contradictory_or_null: []
+      contextual:
+        - pm_id: BRS4-FM4-PM9
+          finding_id: PM9-F1
+          href: '#pm9-f1'
+          explanation: 'The training study records muscle mitochondrial-content and regulatory markers, with unchanged total PGC-1alpha. It provides exercise/endpoint context, not a test of glucose-appearance mediation.'
+          label: SF1 — Interval training increases muscle mitochondrial-content markers
+        - pm_id: BRS6-FM1-PM1
+          finding_id: PM1-F4
+          href: /docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics#pm1-f4
+          explanation: 'Defined fibre studies measured changes in glucose appearance, including a null primary endpoint in one preparation. They did not measure mitochondrial biogenesis; this is measurement context, not direct support or contradiction of the hypothesis.'
+          label: SF4 — Defined fibre preparations affect appearance differently
+    evidence_sources:
+      - study_id: hill-carbohydrate-whey-2013
+        label: Hill et al. (2013) — Carbohydrate and whey protein co-ingestion
+        url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3577454/'
+        role: contextual
+        proposition: The carbohydrate–whey exercise study reported altered post-exercise PGC-1alpha mRNA expression.
+        limitations: The study did not establish measured glucose-appearance kinetics as the mediator or directly demonstrate mitochondrial formation.
+    limitations:
+      - Measured postprandial glucose appearance was not established as the mediator.
+      - Acute PGC-1alpha transcription is not direct evidence of mitochondrial formation.
+      - No causal dietary-to-brain or ADHD outcome is established.
+      - The linked Findings address different studies and endpoints; their combination does not establish the proposed causal chain.
+    alternative_explanations:
+      - Exercise stimulus and training history.
+      - 'Insulin responses, glycogen availability and total energy availability.'
+      - Protein/amino-acid exposure and nutrient composition independent of glucose-appearance rate.
+    required_evidence:
+      - Measure postprandial glucose-appearance kinetics using an appropriate tracer approach and prespecified rate/time-course endpoints.
+      - 'Link those measured kinetics to mitochondrial-biogenesis signalling and longitudinal mitochondrial-content/formation endpoints, with tissue and assay limitations explicit.'
+      - 'Control or separately assess exercise, insulin, glycogen, protein exposure and energy availability; test mediation rather than equating carbohydrate exposure with glucose appearance.'
+      - Replicate in the relevant population; brain or ADHD claims would require their own direct evidence.
+    historical_relationship:
+      page_pm: BRS4-FM4-PM9
+      linked_pm: BRS6-FM1-PM1
+      section: '5.2'
+      href: /docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics
+      original_statement: '- [BRS6-FM1-PM1 - Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — glucose Appearance Kinetics'
+      review_statement: '- [BRS6-FM1-PM1 - Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — Review boundary: glucose appearance describes substrate delivery, whereas this PM addresses mitochondrial biogenesis. The existing cross-system link is retained; a causal dietary-to-biogenesis relationship requires separate evidence and is not established by the link.'
+      original_context_statement: 'Because glucose appearance and feeding-state context affect adaptation signalling, this PM links outward to [BRS6-FM1-PM1 - Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics).'
+      reference_direction: BRS4-FM4-PM9 → BRS6-FM1-PM1
+      disposition: unestablished-contextual-hypothesis
+      original_explanation: glucose Appearance Kinetics
+      review_explanation: 'Review boundary: glucose appearance describes substrate delivery, whereas this PM addresses mitochondrial biogenesis. The existing cross-system link is retained; a causal dietary-to-biogenesis relationship requires separate evidence and is not established by the link.'
+      source_file: docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx
+      source_commit: d3570391e7a6e3de40c57af784683cd13bd2370a
+    provenance:
+      - Original PM9 cross-system reference and its title-only explanation are retained in the historical source record.
+      - The bounded BRS4 repair added a review boundary without establishing causation.
+      - 'User-approved pilot disposition on 23 October 2026: contextual hypothesis; no approved direct mechanistic dependency.'
+      - Historical page reference direction is PM9 → glucose appearance; the proposed biological direction is glucose appearance → PM9.
+      - 'No new Scientific Finding, dietary admission, Key Constraint, Phenome link or score is created.'
+    review_date: '2026-10-23'
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -276,11 +341,18 @@ This PM addresses mitochondrial density expansion — not acute electron transpo
 
 #### (Cross-BRS context)
 
-Because glucose appearance and feeding-state context affect adaptation signalling, this PM links outward to [BRS6-FM1-PM1 - Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics).
+A proposed influence of glucose-appearance kinetics on mitochondrial adaptation remains unestablished; see [SH1 — Glucose Appearance and Mitochondrial Biogenesis](#pm9-h1).
 
 </div>
 </div>
 </div>
+
+{/* scientific-hypotheses:start */}
+### Scientific Hypotheses
+
+<ScientificHypothesis hypothesis={{"id":"PM9-H1","title":"Glucose Appearance and Mitochondrial Biogenesis","proposition":"Postprandial glucose-appearance kinetics may influence mitochondrial biogenesis signalling.","source_pm":"BRS6-FM1-PM1","target_pm":"BRS4-FM4-PM9","proposed_direction":"BRS6-FM1-PM1 → BRS4-FM4-PM9","status":"Unestablished","rationale":"Nutrient availability and metabolic signalling can influence mitochondrial adaptation pathways. Whether the rate of post-meal glucose appearance itself influences this signalling remains a testable question.","finding_links":{"supporting":[],"contradictory_or_null":[],"contextual":[{"pm_id":"BRS4-FM4-PM9","finding_id":"PM9-F1","href":"#pm9-f1","explanation":"The training study records muscle mitochondrial-content and regulatory markers, with unchanged total PGC-1alpha. It provides exercise/endpoint context, not a test of glucose-appearance mediation.","label":"SF1 — Interval training increases muscle mitochondrial-content markers"},{"pm_id":"BRS6-FM1-PM1","finding_id":"PM1-F4","href":"/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics#pm1-f4","explanation":"Defined fibre studies measured changes in glucose appearance, including a null primary endpoint in one preparation. They did not measure mitochondrial biogenesis; this is measurement context, not direct support or contradiction of the hypothesis.","label":"SF4 — Defined fibre preparations affect appearance differently"}]},"evidence_sources":[{"study_id":"hill-carbohydrate-whey-2013","label":"Hill et al. (2013) — Carbohydrate and whey protein co-ingestion","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC3577454/","role":"contextual","proposition":"The carbohydrate–whey exercise study reported altered post-exercise PGC-1alpha mRNA expression.","limitations":"The study did not establish measured glucose-appearance kinetics as the mediator or directly demonstrate mitochondrial formation."}],"limitations":["Measured postprandial glucose appearance was not established as the mediator.","Acute PGC-1alpha transcription is not direct evidence of mitochondrial formation.","No causal dietary-to-brain or ADHD outcome is established.","The linked Findings address different studies and endpoints; their combination does not establish the proposed causal chain."],"alternative_explanations":["Exercise stimulus and training history.","Insulin responses, glycogen availability and total energy availability.","Protein/amino-acid exposure and nutrient composition independent of glucose-appearance rate."],"required_evidence":["Measure postprandial glucose-appearance kinetics using an appropriate tracer approach and prespecified rate/time-course endpoints.","Link those measured kinetics to mitochondrial-biogenesis signalling and longitudinal mitochondrial-content/formation endpoints, with tissue and assay limitations explicit.","Control or separately assess exercise, insulin, glycogen, protein exposure and energy availability; test mediation rather than equating carbohydrate exposure with glucose appearance.","Replicate in the relevant population; brain or ADHD claims would require their own direct evidence."],"historical_relationship":{"page_pm":"BRS4-FM4-PM9","linked_pm":"BRS6-FM1-PM1","section":"5.2","href":"/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics","original_statement":"- [BRS6-FM1-PM1 - Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — glucose Appearance Kinetics","review_statement":"- [BRS6-FM1-PM1 - Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — Review boundary: glucose appearance describes substrate delivery, whereas this PM addresses mitochondrial biogenesis. The existing cross-system link is retained; a causal dietary-to-biogenesis relationship requires separate evidence and is not established by the link.","original_context_statement":"Because glucose appearance and feeding-state context affect adaptation signalling, this PM links outward to [BRS6-FM1-PM1 - Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics).","reference_direction":"BRS4-FM4-PM9 → BRS6-FM1-PM1","disposition":"unestablished-contextual-hypothesis","original_explanation":"glucose Appearance Kinetics","review_explanation":"Review boundary: glucose appearance describes substrate delivery, whereas this PM addresses mitochondrial biogenesis. The existing cross-system link is retained; a causal dietary-to-biogenesis relationship requires separate evidence and is not established by the link.","source_file":"docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx","source_commit":"d3570391e7a6e3de40c57af784683cd13bd2370a"},"provenance":["Original PM9 cross-system reference and its title-only explanation are retained in the historical source record.","The bounded BRS4 repair added a review boundary without establishing causation.","User-approved pilot disposition on 23 October 2026: contextual hypothesis; no approved direct mechanistic dependency.","Historical page reference direction is PM9 → glucose appearance; the proposed biological direction is glucose appearance → PM9.","No new Scientific Finding, dietary admission, Key Constraint, Phenome link or score is created."],"review_date":"2026-10-23"}} />
+
+{/* scientific-hypotheses:end */}
 
 ### 4.1 Scientific Findings
 
@@ -362,7 +434,9 @@ Mitochondrial biogenesis is primarily training-driven. The evidence below highli
 
 Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
 
-- [BRS6-FM1-PM1 - Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — Review boundary: glucose appearance describes substrate delivery, whereas this PM addresses mitochondrial biogenesis. The existing cross-system link is retained; a causal dietary-to-biogenesis relationship requires separate evidence and is not established by the link.
+- None listed
+
+The historical glucose-appearance reference is retained as [SH1](#pm9-h1), an unestablished contextual hypothesis. Its proposed biological direction is BRS6-FM1-PM1 → BRS4-FM4-PM9; it is not an approved direct dependency.
 
 ### 5.3 Local BRS Mechanism Relationships
 

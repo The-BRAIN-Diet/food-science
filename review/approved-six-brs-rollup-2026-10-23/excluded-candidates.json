@@ -1,0 +1,446 @@
+[
+  {
+    "pm": "BRS1-FM1-PM1",
+    "atom_id": "PM1-DIT-1",
+    "input": "Indispensable amino-acid supply",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS1-FM1-PM1",
+    "atom_id": "PM1-DIT-5",
+    "input": "Tryptophan",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS1-FM1-PM2",
+    "atom_id": "PM2-DIT-3",
+    "input": "Meal carbohydrate-to-protein composition",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS1-FM1-PM3",
+    "atom_id": "PM3-DIT-1",
+    "input": "Iron",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS1-FM1-PM3",
+    "atom_id": "PM3-DIT-3",
+    "input": "Vitamin B6",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS1-FM1-PM3",
+    "atom_id": "PM3-DIT-5",
+    "input": "Tyrosine",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS1-FM1-PM4",
+    "atom_id": "PM4-DIT-1",
+    "input": "Iron",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS1-FM1-PM4",
+    "atom_id": "PM4-DIT-2",
+    "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+    "canonical_status": "unresolved",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS1-FM1-PM4",
+    "atom_id": "PM4-DIT-3",
+    "input": "Vitamin B6",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS1-FM1-PM4",
+    "atom_id": "PM4-DIT-4",
+    "input": "Copper",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS1-FM1-PM4",
+    "atom_id": "PM4-DIT-5",
+    "input": "Vitamin C (ascorbate)",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS1-FM1-PM5",
+    "atom_id": "PM5-DIT-1",
+    "input": "Tryptophan",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS1-FM1-PM5",
+    "atom_id": "PM5-DIT-5",
+    "input": "Iron",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS1-FM1-PM5",
+    "atom_id": "PM5-DIT-3",
+    "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+    "canonical_status": "unresolved",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS1-FM1-PM5",
+    "atom_id": "PM5-DIT-4",
+    "input": "Vitamin B6",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS1-FM5-PM12",
+    "atom_id": "PM12-DIT-1",
+    "input": "Choline",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS1-FM5-PM12",
+    "atom_id": "PM12-DIT-2",
+    "input": "Uridine",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS1-FM5-PM12",
+    "atom_id": "PM12-DIT-3",
+    "input": "Docosahexaenoic acid (DHA)",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "atom_id": "PM1-DIT-3",
+    "input": "Methylcobalamin",
+    "canonical_status": "unresolved",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS2-FM1-PM3",
+    "atom_id": "PM3-DIT-1",
+    "input": "Methionine",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "atom_id": "PM4-DIT-1",
+    "input": "Methionine",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "atom_id": "PM4-DIT-2",
+    "input": "Dietary protein",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "atom_id": "PM4-DIT-3",
+    "input": "Vitamin B9 (folate)",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "atom_id": "PM4-DIT-4",
+    "input": "Vitamin B12 (cobalamin)",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "atom_id": "PM4-DIT-5",
+    "input": "Vitamin B6",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "atom_id": "PM4-DIT-6",
+    "input": "Vitamin B2 (riboflavin)",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS2-FM2-PM5",
+    "atom_id": "PM5-DIT-1",
+    "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS2-FM2-PM5",
+    "atom_id": "PM5-DIT-2",
+    "input": "Vitamin B6",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS2-FM2-PM6",
+    "atom_id": "PM6-DIT-1",
+    "input": "Cysteine",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS2-FM2-PM6",
+    "atom_id": "PM6-DIT-2",
+    "input": "Glutamate",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS2-FM2-PM6",
+    "atom_id": "PM6-DIT-3",
+    "input": "Glycine",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS2-FM2-PM6",
+    "atom_id": "PM6-DIT-9",
+    "input": "Methionine",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS2-FM2-PM6",
+    "atom_id": "PM6-DIT-7",
+    "input": "N-acetylcysteine",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS2-FM3-PM7",
+    "atom_id": "PM7-DIT-3",
+    "input": "Choline",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS2-FM3-PM7",
+    "atom_id": "PM7-DIT-4",
+    "input": "Phosphatidylcholine",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS2-FM3-PM7",
+    "atom_id": "PM7-DIT-7",
+    "input": "Uridine",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS4-FM1-PM1",
+    "atom_id": "PM1-DIT-2",
+    "input": "Flavin mononucleotide (FMN)",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS4-FM1-PM2",
+    "atom_id": "PM2-DIT-3",
+    "input": "Tryptophan",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS5-FM1-PM1",
+    "atom_id": "PM1-DIT-1",
+    "input": "Butyrate",
+    "canonical_status": "unresolved",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS5-FM1-PM1",
+    "atom_id": "PM1-DIT-2",
+    "input": "Fermentable dietary fibre",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS5-FM1-PM1",
+    "atom_id": "PM1-DIT-3",
+    "input": "Retinoic acid",
+    "canonical_status": "unresolved",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS5-FM1-PM1",
+    "atom_id": "PM1-DIT-4",
+    "input": "Vitamin A",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS5-FM1-PM1",
+    "atom_id": "PM1-DIT-5",
+    "input": "Zinc",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS5-FM1-PM2",
+    "atom_id": "PM2-DIT-1",
+    "input": "Oligofructose",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS5-FM1-PM2",
+    "atom_id": "PM2-DIT-2",
+    "input": "Type 2 resistant starch (tested aged-mouse exposure)",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS5-FM1-PM2",
+    "atom_id": "PM2-DIT-3",
+    "input": "Fish-oil-containing meal (tested comparison)",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS5-FM1-PM2",
+    "atom_id": "PM2-DIT-4",
+    "input": "Milk-fat physical structure (tested comparison)",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS5-FM1-PM3",
+    "atom_id": "PM3-DIT-1",
+    "input": "Oligofructose-enriched inulin",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS5-FM1-PM3",
+    "atom_id": "PM3-DIT-2",
+    "input": "Bifidobacterium longum NCC2705",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS5-FM2-PM4",
+    "atom_id": "PM4-DIT-1",
+    "input": "Pea-fibre arabinan",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS5-FM2-PM4",
+    "atom_id": "PM4-DIT-2",
+    "input": "Citrus pectin",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS5-FM2-PM4",
+    "atom_id": "PM4-DIT-3",
+    "input": "Resistant starch (RS2/RS3)",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS5-FM2-PM5",
+    "atom_id": "PM5-DIT-2",
+    "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
+    "canonical_status": "unresolved",
+    "reason": "Unresolved scientific admission"
+  },
+  {
+    "pm": "BRS5-FM3-PM7",
+    "atom_id": "PM7-DIT-1",
+    "input": "Lactobacillus rhamnosus JB-1",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS5-FM3-PM7",
+    "atom_id": "PM7-DIT-2",
+    "input": "Glucose",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS5-FM3-PM8",
+    "atom_id": "PM8-DIT-1",
+    "input": "Tryptophan",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS5-FM3-PM8",
+    "atom_id": "PM8-DIT-2",
+    "input": "Apple pectin (studied preparation)",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS6-FM1-PM3",
+    "atom_id": "PM3-DIT-1",
+    "input": "Magnesium",
+    "canonical_status": "admitted",
+    "reason": "Outside the explicitly reviewed manuscript selection; no rejection inferred"
+  },
+  {
+    "pm": "BRS6-FM4-PM8",
+    "atom_id": "PM8-DIT-1",
+    "input": "Green Mediterranean dietary pattern",
+    "canonical_status": "admitted",
+    "reason": "Mission under architectural review"
+  },
+  {
+    "pm": "BRS4-FM3-PM8",
+    "input": "Oleic-/ALA-enriched meal versus palmitate-enriched meal",
+    "canonical_status": "unadmitted research candidate",
+    "reason": "Retain positive mechanism-specific research candidate. Retrieve full recipes, fatty-acid composition, carbohydrate/protein matching and preparation before implementing a reproducible SOP. Do not infer equivalent effects of fish, nuts, olive oil or ALA foods."
+  },
+  {
+    "pm": "BRS4-FM4-PM9",
+    "input": "Nicotinic acid (niacin)",
+    "canonical_status": "unadmitted research candidate",
+    "reason": "Promising formulation-specific research protocol. Hold general PM9 dietary admission: high-dose nicotinic acid is not total dietary B3, nicotinamide or protein, and response in NAD-deficient myopathy cannot establish food-level biogenesis or ADHD benefit. A supported complete conversion/active-target record and exposure assessment are needed."
+  },
+  {
+    "pm": "BRS4-FM4-PM9",
+    "input": "Nicotinamide riboside (NR)",
+    "canonical_status": "unadmitted research candidate",
+    "reason": "Hold admission and keep positive and null studies together. Resolve NR stereochemical/form identity, complete conversion tracing, and define a formulation/population-specific proposition before any new dietary admission. No ordinary-food mapping fabricated."
+  },
+  {
+    "pm": "BRS5-FM2-PM5",
+    "atom_id": "PM5-DIT-2",
+    "input": "Historical FOS/GOS mixture",
+    "canonical_status": "unresolved scientific admission",
+    "reason": "Corrected source interpretation did not support automatic readmission; retain provenance outside the approved roll-up."
+  },
+  {
+    "pm": "BRS5-FM2-PM5",
+    "input": "Inulin",
+    "canonical_status": "unadmitted candidate in this receiving PM",
+    "reason": "The separate inulin admission belongs to BRS5-FM2-PM4; no transfer to PM5."
+  }
+]

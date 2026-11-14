@@ -27,6 +27,7 @@ import FoodEffect from '../../components/FoodEffect';
 import PhenomeBibLinks from '../../components/PhenomeBibLinks';
 import PhenomeScoringKey from '../../components/PhenomeScoringKey';
 import ScientificFinding from '../../components/ScientificFinding';
+import ScientificHypothesis from '../../components/ScientificHypothesis';
 import EvidenceConfidenceIndicator from '../../components/EvidenceConfidenceIndicator';
 import EvidencePresentation from '../../components/EvidencePresentation';
 import PhenomeRegistry from '../PhenomeRegistry';
@@ -66,6 +67,7 @@ export default {
   PhenomeBibLinks,
   PhenomeScoringKey,
   ScientificFinding,
+  ScientificHypothesis,
   EvidenceConfidenceIndicator,
   EvidencePresentation,
   PhenomeRegistry,
