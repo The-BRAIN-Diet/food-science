@@ -1,0 +1,1184 @@
+[
+  {
+    "food": "anchovies",
+    "file": "docs/foods/anchovies.md",
+    "expected": "fadeeaab16790e1c2fb66e368cd91390cac69984df3ae603dfd257e0249bd50e",
+    "current": "88ab7ba9da4cd20220944d5613db28d31c0aba72643cc8142735ce3a6c61ade3",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/anchovies.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 28,
+    "ranked_substances": [
+      "dha-docosahexaenoic-acid",
+      "epa-eicosapentaenoic-acid",
+      "tyrosine",
+      "choline",
+      "sodium",
+      "selenium"
+    ]
+  },
+  {
+    "food": "apples",
+    "file": "docs/foods/apples.md",
+    "expected": "3af4592d7b569f22038cb3783b79fb338c873bc49e5949a091cb3d88cdc11ab9",
+    "current": "23e23adf8c3411d1af95cab4a3cf819844fa1891e54e7c076725f3636af43951",
+    "approved_bytes_found": true,
+    "approved_source": "../../work/brs4-pm4-pm5-reassessment/docs/foods/apples.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_supplementary_sources": [
+        "pectin_qual"
+      ],
+      "substance_relationships": [
+        "Pectin",
+        "pectin"
+      ]
+    },
+    "since_main": {
+      "nutrition_supplementary_sources": [
+        "pectin_qual"
+      ],
+      "substance_relationships": [
+        "Pectin",
+        "pectin"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 0,
+    "ranked_substances": []
+  },
+  {
+    "food": "beef",
+    "file": "docs/foods/beef.md",
+    "expected": "d1775545e00f3a51c8dfb49de9abe2bde4c2f017b627527db4bf79881425672a",
+    "current": "5258f7e1e695e7c5706fbf74eef3874e0f79d15917d1efe4d9aa67badabea009",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/beef.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "nutrition_supplementary_sources": [
+        "glutamine"
+      ],
+      "substance_relationships": [
+        "tyrosine",
+        "glutamine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "nutrition_supplementary_sources": [
+        "glutamine",
+        "glycine"
+      ],
+      "substance_relationships": [
+        "tyrosine",
+        "glutamine"
+      ],
+      "nutrition_value_reviews": [
+        "creatine",
+        "coq10"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 12,
+    "ranked_substances": [
+      "methionine",
+      "glycine"
+    ]
+  },
+  {
+    "food": "broccoli",
+    "file": "docs/foods/broccoli.md",
+    "expected": "b5e98fb4848a758a10057374063baa6ce15126dc70e7990b20408816ed81fc55",
+    "current": "4da9b74ef464442d94f29dc6cd0aa0312cd12dd8945fe361c68044510e2d15bb",
+    "approved_bytes_found": true,
+    "approved_source": "../../work/brs4-pm4-pm5-reassessment/docs/foods/broccoli.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_supplementary_sources": [
+        "sulforaphane_qual"
+      ],
+      "substance_relationships": [
+        "Sulforaphane"
+      ]
+    },
+    "since_main": {
+      "nutrition_supplementary_sources": [
+        "sulforaphane_qual"
+      ],
+      "substance_relationships": [
+        "Sulforaphane"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 2,
+    "ranked_substances": [
+      "vitamin-c"
+    ]
+  },
+  {
+    "food": "butter",
+    "file": "docs/foods/butter.md",
+    "expected": "de894ccf01263a82c9d74b9bb4643f35fe7323cd0a55e23b612a5be5d489cbaf",
+    "current": "13fb29ce5671d83e2673098ea1d0875ba0a719b83fd6581ad88794522c74b675",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/butter.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 1,
+    "ranked_substances": [
+      "vitamin-a"
+    ]
+  },
+  {
+    "food": "chicken",
+    "file": "docs/foods/chicken.md",
+    "expected": "243d24fd229d33527cea65607be1f4e73643e5b3f562a1a65525775045fb25b0",
+    "current": "b8e59a2bf2361d22e92ae7a31adfb78d3d73bb96ebcc5357dbf9a8e1a7b0c007",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/chicken.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ],
+      "nutrition_supplementary_sources": [
+        "glycine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 20,
+    "ranked_substances": [
+      "indispensable-amino-acids",
+      "tryptophan",
+      "phenylalanine",
+      "methionine",
+      "glycine"
+    ]
+  },
+  {
+    "food": "chicory-root",
+    "file": "docs/foods/chicory-root.md",
+    "expected": "f0d7c1dae2fe6fccff6490af79212dc9cb7f2f41ce039299eed7fc40e5dfffed",
+    "current": "4c4b88d0231be7c240b71b7df2175d8d13b8c6e7efa7dcc3f8f546c6d2dc23ed",
+    "approved_bytes_found": true,
+    "approved_source": "../../work/brain-diet-v1-quantitative/docs/foods/chicory-root.md",
+    "already_on_main": false,
+    "since_approved": {
+      "description": true,
+      "substance_relationships": [
+        "Fructans"
+      ],
+      "nutrition_supplementary_sources": [
+        "fructans_jovanovic"
+      ]
+    },
+    "since_main": {
+      "description": true,
+      "substance_relationships": [
+        "Fructans"
+      ],
+      "nutrition_supplementary_sources": [
+        "fructans_jovanovic"
+      ]
+    },
+    "body_diff_main": true,
+    "ranked_connections": 0,
+    "ranked_substances": []
+  },
+  {
+    "food": "clams",
+    "file": "docs/foods/clams.md",
+    "expected": "9fed721ce67650364cef713c2ea6df0923992f6035f62d76113cd34af70df4b5",
+    "current": "66fd6e8cca6f8a553a3a34311e060365d8e5002d309addd4e353584dfc702155",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/clams.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 2,
+    "ranked_substances": [
+      "vitamin-b12"
+    ]
+  },
+  {
+    "food": "cod",
+    "file": "docs/foods/cod.md",
+    "expected": "fc6866efe264d54724f6a72cdf6c0957597e0e8979b132f04c57dd5fd0e1831b",
+    "current": "7891c7e2721043edfa67a7044f60741d682e4526793b5b4919ce460e26aa6ada",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/cod.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 0,
+    "ranked_substances": []
+  },
+  {
+    "food": "egg-yolks",
+    "file": "docs/foods/egg-yolks.md",
+    "expected": "b27815bcb0a628bd40ab26c7e7978d3973f0fe80b088097cfdf921c783751026",
+    "current": "d3aa5b6e8768f7b2124efca961e7b208b98205ee0f1be747f1d7a411f660adcf",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/egg-yolks.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 21,
+    "ranked_substances": [
+      "choline",
+      "vitamin-b2",
+      "vitamin-b5",
+      "selenium"
+    ]
+  },
+  {
+    "food": "eggs",
+    "file": "docs/foods/eggs.md",
+    "expected": "3620bac7b48b7479fecc47e12d13a6eda341982e8537280d69d7df4a2c6cb476",
+    "current": "4806faeb229ad4ac7b7269e26681b85884b01314099a7b85c7d5ceeeb07d87d0",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/eggs.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine",
+        "glutamine"
+      ],
+      "nutrition_supplementary_sources": [
+        "glutamine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine",
+        "glutamine"
+      ],
+      "nutrition_supplementary_sources": [
+        "glutamine",
+        "glycine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 14,
+    "ranked_substances": [
+      "choline",
+      "glycine"
+    ]
+  },
+  {
+    "food": "garlic",
+    "file": "docs/foods/garlic.md",
+    "expected": "3ccb5b6828841fa20bba8ddf373f06df1bb102e5b4c6aea3589887b941e6dd8b",
+    "current": "7e10b6429ea15273650692a8855af5ad60cbc2d3fc74ea1f58f32d6ca80a2eab",
+    "approved_bytes_found": true,
+    "approved_source": "../../work/brain-diet-v1-quantitative/docs/foods/garlic.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_supplementary_sources": [
+        "fructans_jovanovic"
+      ],
+      "substance_relationships": [
+        "Fructans"
+      ]
+    },
+    "since_main": {
+      "nutrition_supplementary_sources": [
+        "fructans_jovanovic"
+      ],
+      "substance_relationships": [
+        "Fructans"
+      ]
+    },
+    "body_diff_main": true,
+    "ranked_connections": 6,
+    "ranked_substances": [
+      "vitamin-b6"
+    ]
+  },
+  {
+    "food": "ghee",
+    "file": "docs/foods/ghee.md",
+    "expected": "75857db81206ce9195c6ced6ddd5d25b8d18df707cac784780798781531e8f65",
+    "current": "cd7643bd11f3fb7cc5e64753322ce08a3b32e177988d65b50b67dc8bbe05d2d6",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/ghee.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 1,
+    "ranked_substances": [
+      "vitamin-a"
+    ]
+  },
+  {
+    "food": "herring",
+    "file": "docs/foods/herring.md",
+    "expected": "37de11eb218e5b97c0367c4aa69fb53851358f01d31f2d38714ca50f37b1645d",
+    "current": "0206489be5cb1b1bd2690970263fc3bf67309330d6e3440990fe83ab8df66a12",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/herring.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 10,
+    "ranked_substances": [
+      "dha-docosahexaenoic-acid",
+      "epa-eicosapentaenoic-acid",
+      "vitamin-b12"
+    ]
+  },
+  {
+    "food": "jerusalem-artichokes",
+    "file": "docs/foods/jerusalem-artichokes.md",
+    "expected": "96ed5ba5d34836168a9f2320a56ed959804baa6849623d96c18a940a3e2725fd",
+    "current": "4498edf9546759b9299fe1e474f6df919d174f53bbb7eaa822d333489b3c45c3",
+    "approved_bytes_found": true,
+    "approved_source": "../../work/brain-diet-v1-quantitative/docs/foods/jerusalem-artichokes.md",
+    "already_on_main": false,
+    "since_approved": {
+      "description": true,
+      "substance_relationships": [
+        "Fructans"
+      ],
+      "nutrition_supplementary_sources": [
+        "fructans_jovanovic"
+      ]
+    },
+    "since_main": {
+      "description": true,
+      "substance_relationships": [
+        "Fructans"
+      ],
+      "nutrition_supplementary_sources": [
+        "fructans_jovanovic"
+      ]
+    },
+    "body_diff_main": true,
+    "ranked_connections": 0,
+    "ranked_substances": []
+  },
+  {
+    "food": "lamb",
+    "file": "docs/foods/lamb.md",
+    "expected": "e65ffcd772a4f5070d4aba376dd3a00b33245cef63e48ffeaa180646b2e06994",
+    "current": "be376ef4ae9596f1c9788e5e889741ad418eca25a3fb6a4a3b5a3f22df7ff00d",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/lamb.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 0,
+    "ranked_substances": []
+  },
+  {
+    "food": "lemon",
+    "file": "docs/foods/lemon.md",
+    "expected": "3b0712b7f965b0aad6a1cadceaf81618cc8605660291de5fd68ef4500dc676f1",
+    "current": "096e6ad6129c062830b19a1429f5f83ce83797f31242489722c4644a4908a27d",
+    "approved_bytes_found": true,
+    "approved_source": "../../work/brain-diet-v1-quantitative/docs/foods/lemon.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_supplementary_sources": [
+        "pectin_qual"
+      ],
+      "substance_relationships": [
+        "pectin"
+      ]
+    },
+    "since_main": {
+      "nutrition_supplementary_sources": [
+        "pectin_qual"
+      ],
+      "substance_relationships": [
+        "pectin"
+      ]
+    },
+    "body_diff_main": true,
+    "ranked_connections": 2,
+    "ranked_substances": [
+      "vitamin-c"
+    ]
+  },
+  {
+    "food": "liver",
+    "file": "docs/foods/liver.md",
+    "expected": "a54242b54b6de7d103a9bd76f877bbde70a0a5a6d4126b691a55a0937283f8f5",
+    "current": "959a17f22275326dd551edc3b28bb499194345a7eb7fea7481c14728c4442240",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/liver.md",
+    "already_on_main": false,
+    "since_approved": {
+      "title": true,
+      "sidebar_label": true,
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "since_main": {
+      "title": true,
+      "sidebar_label": true,
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 43,
+    "ranked_substances": [
+      "tyrosine",
+      "choline",
+      "vitamin-b2",
+      "vitamin-b6",
+      "vitamin-b9",
+      "copper",
+      "vitamin-b5",
+      "vitamin-b12",
+      "vitamin-a"
+    ]
+  },
+  {
+    "food": "mackerel",
+    "file": "docs/foods/mackerel.md",
+    "expected": "7738157635f1f6cf35e44e53f4d7f3eed1abe379add5d6aa6dbdcbeb661679d7",
+    "current": "975413f391d5fefc61ad11865e74e9a9bf9656e60de4678b0c7bc3d2e2d2826e",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/mackerel.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 10,
+    "ranked_substances": [
+      "dha-docosahexaenoic-acid",
+      "epa-eicosapentaenoic-acid",
+      "vitamin-b12"
+    ]
+  },
+  {
+    "food": "milk",
+    "file": "docs/foods/milk.md",
+    "expected": "82eb1fba789fb828c8b27b72da73174976aacb54f30fbfec814152a69d4c3e6d",
+    "current": "01102d9148df2de883ed1d24e634ebaafe853484d51f880a8df4e011c27d6044",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/milk.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 0,
+    "ranked_substances": []
+  },
+  {
+    "food": "mussels",
+    "file": "docs/foods/mussels.md",
+    "expected": "dee71eeddf068f630254e1d2cddd0531513357c082b1ad7b2a5edc755bb7f824",
+    "current": "c85bbdcd75abf5e8b1bcb4f3fe10e3e6507265087de5377ce7b621d67f91403b",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/mussels.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 28,
+    "ranked_substances": [
+      "dha-docosahexaenoic-acid",
+      "epa-eicosapentaenoic-acid",
+      "indispensable-amino-acids",
+      "tryptophan",
+      "phenylalanine",
+      "vitamin-b12",
+      "methionine",
+      "selenium"
+    ]
+  },
+  {
+    "food": "onions",
+    "file": "docs/foods/onions.md",
+    "expected": "0f8042a9a0e2f4168988886a2507af33f249105e14587818861b50a6e1b85c4f",
+    "current": "88b971f6116711c787b8536eec57c6e00c12fc1afa9c42c1df6adf845930da6f",
+    "approved_bytes_found": true,
+    "approved_source": "../../work/brain-diet-v1-quantitative/docs/foods/onions.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_supplementary_sources": [
+        "fos_white_onion_qual",
+        "rfo_white_onion_qual"
+      ],
+      "substance_relationships": [
+        "Fructo-oligosaccharides",
+        "Raffinose-family oligosaccharides"
+      ]
+    },
+    "since_main": {
+      "nutrition_supplementary_sources": [
+        "fos_white_onion_qual",
+        "rfo_white_onion_qual"
+      ],
+      "substance_relationships": [
+        "Fructo-oligosaccharides",
+        "Raffinose-family oligosaccharides"
+      ]
+    },
+    "body_diff_main": true,
+    "ranked_connections": 0,
+    "ranked_substances": []
+  },
+  {
+    "food": "oranges",
+    "file": "docs/foods/oranges.md",
+    "expected": "172eeaaf5c6308690f9a7145f7057f09c86a72d33be59bea23e00bf9f0bd8b15",
+    "current": "211d579d44bcb38e71eb8f9b86cc3e044a1ef11964486549db5a10f1a918cd32",
+    "approved_bytes_found": true,
+    "approved_source": "../../work/brain-diet-v1-quantitative/docs/foods/oranges.md",
+    "already_on_main": false,
+    "since_approved": {
+      "substance_relationships": [
+        "pectin"
+      ],
+      "nutrition_supplementary_sources": [
+        "pectin_qual"
+      ]
+    },
+    "since_main": {
+      "substance_relationships": [
+        "pectin"
+      ],
+      "nutrition_supplementary_sources": [
+        "pectin_qual"
+      ]
+    },
+    "body_diff_main": true,
+    "ranked_connections": 2,
+    "ranked_substances": [
+      "vitamin-c"
+    ]
+  },
+  {
+    "food": "oysters",
+    "file": "docs/foods/oysters.md",
+    "expected": "faaf373b98d5aac2aeee93097e34918c42f69da5fbe3d4b4cafb71b1dd09b622",
+    "current": "0df7a0816bf66647532747c23705a4c6a8a43943c8f207fabee0409025719786",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/oysters.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 12,
+    "ranked_substances": [
+      "zinc",
+      "epa-eicosapentaenoic-acid",
+      "copper",
+      "vitamin-b12"
+    ]
+  },
+  {
+    "food": "pork",
+    "file": "docs/foods/pork.md",
+    "expected": "714d2551409929c4ab1b7f590f0c64517a360ffa72387967480eb6ee483fda6d",
+    "current": "1f225a821defecb5509b3d78e3f16bff1fa63ebcc412ce68f86ca5a85e30c069",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/pork.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 0,
+    "ranked_substances": []
+  },
+  {
+    "food": "salmon",
+    "file": "docs/foods/salmon.md",
+    "expected": "72d133fe9a163b26e37f8f76096b41b0d311e0a4e2e8050eeac0a322102d678e",
+    "current": "7385aeea8e89270ebe6159d0e0bad3adbd19cc2041c71e972e84046be2d3d308",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/salmon.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "nutrition_supplementary_sources": [
+        "glycine"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ],
+      "nutrition_value_reviews": [
+        "astaxanthin"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 36,
+    "ranked_substances": [
+      "dha-docosahexaenoic-acid",
+      "epa-eicosapentaenoic-acid",
+      "indispensable-amino-acids",
+      "tryptophan",
+      "tyrosine",
+      "phenylalanine",
+      "methionine",
+      "glycine",
+      "vitamin-e"
+    ]
+  },
+  {
+    "food": "sardines",
+    "file": "docs/foods/sardines.md",
+    "expected": "738cc698237f3c99b05787a50fa7409ab72524dff691922e4459068f9c3e05f2",
+    "current": "e0219d49b4f509af59d4a3e7d784965ad5572569f63e5dbff9701a75a9d88728",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/sardines.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 33,
+    "ranked_substances": [
+      "dha-docosahexaenoic-acid",
+      "epa-eicosapentaenoic-acid",
+      "indispensable-amino-acids",
+      "tryptophan",
+      "tyrosine",
+      "phenylalanine",
+      "vitamin-b12",
+      "methionine",
+      "selenium"
+    ]
+  },
+  {
+    "food": "scallops",
+    "file": "docs/foods/scallops.md",
+    "expected": "ae9b3183f17d8b64d81f44c11613b8eb4abde076d85b178b8889a8b3951957b9",
+    "current": "e079585058798488cdec136d07c8a28ac820d3d4bf693483a2c7fda74015b3c2",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/scallops.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 0,
+    "ranked_substances": []
+  },
+  {
+    "food": "shrimp",
+    "file": "docs/foods/shrimp.md",
+    "expected": "7b82c78c237ccf518f2a60c64e21d7f527310277d9e62692927f6ecc663924c4",
+    "current": "aad6d71d67587900b1c3a55d963c71bcbf86b1eac622f75914541d88021fedf1",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/shrimp.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "nutrition_supplementary_sources": [
+        "betaine_mg"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "nutrition_supplementary_sources": [
+        "betaine_mg"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 0,
+    "ranked_substances": []
+  },
+  {
+    "food": "soy",
+    "file": "docs/foods/soy.md",
+    "expected": "6cd65fca5b094d14ea8575d1666a1ae884ca0723a3586471ebe414ea7580fb87",
+    "current": "a4461f67ccf24af68c601903d777ef0ba50b2d27d9a55c39c1958a21fdb563eb",
+    "approved_bytes_found": true,
+    "approved_source": "../../work/brs4-pm4-pm5-reassessment/docs/foods/soy.md",
+    "already_on_main": false,
+    "since_approved": {
+      "title": true,
+      "sidebar_label": true,
+      "composition_forms": true
+    },
+    "since_main": {
+      "title": true,
+      "sidebar_label": true,
+      "composition_forms": true
+    },
+    "body_diff_main": true,
+    "ranked_connections": 58,
+    "ranked_substances": [
+      "zinc",
+      "tryptophan",
+      "tyrosine",
+      "choline",
+      "iron",
+      "magnesium",
+      "vitamin-b2",
+      "vitamin-b9",
+      "copper",
+      "potassium",
+      "linoleic-acid"
+    ]
+  },
+  {
+    "food": "spinach",
+    "file": "docs/foods/spinach.md",
+    "expected": "268ed8bebcec5e01a17ced4915ff2a628772189b21fdf76a8223280c8b029dbd",
+    "current": "5b4b363958bf83088d9a648c0aa962c7b79be111638deaf1ae3c189395391f22",
+    "approved_bytes_found": true,
+    "approved_source": "../../work/food-wheel-top-ten/docs/foods/spinach.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_supplementary_sources": [
+        "betaine_qual"
+      ]
+    },
+    "since_main": {
+      "nutrition_supplementary_sources": [
+        "betaine_qual",
+        "betaine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 7,
+    "ranked_substances": [
+      "betaine"
+    ]
+  },
+  {
+    "food": "tofu",
+    "file": "docs/foods/tofu.md",
+    "expected": "4001055ff5ef34d5fea9dc4a5c1eb66c2dbf3cf83273ad6f21b3f61e220b4bf8",
+    "current": "87e8cfaa31d591135b39f74e50878abee5926ec2b8800de7aa89311fc9d51035",
+    "approved_bytes_found": true,
+    "approved_source": "../../work/food-wheel-publication/docs/foods/tofu.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_supplementary_sources": [
+        "glutamine"
+      ],
+      "substance_relationships": [
+        "glutamine"
+      ]
+    },
+    "since_main": {
+      "nutrition_supplementary_sources": [
+        "glutamine"
+      ],
+      "substance_relationships": [
+        "glutamine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 10,
+    "ranked_substances": [
+      "tryptophan",
+      "tyrosine"
+    ]
+  },
+  {
+    "food": "tuna",
+    "file": "docs/foods/tuna.md",
+    "expected": "aef0920d382a255e76d26c2d6e7f9262f6daac128eb0d5f954ba0f09a96cb0f7",
+    "current": "a421063e38e6fb42d534a9cffbbdd6d18e151161277ed2d3ded8757548f5ec74",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/tuna.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 24,
+    "ranked_substances": [
+      "dha-docosahexaenoic-acid",
+      "epa-eicosapentaenoic-acid",
+      "indispensable-amino-acids",
+      "tyrosine",
+      "vitamin-b12",
+      "methionine",
+      "vitamin-a"
+    ]
+  },
+  {
+    "food": "turkey",
+    "file": "docs/foods/turkey.md",
+    "expected": "54fbd9f0fb0718a41f4ef30bd9fa76001584e55fecefeac6a0030dca2eeb6ca1",
+    "current": "25005e0ae5eb6c804ff3adf6b8ea0a11f142e316ab04c66e253332b127a1e7bf",
+    "approved_bytes_found": true,
+    "approved_source": "review/tyrosine-animal-coverage-2026-11-09/before-foods/turkey.md",
+    "already_on_main": false,
+    "since_approved": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "since_main": {
+      "nutrition_per_100g": [
+        "tyrosine_g"
+      ],
+      "substance_relationships": [
+        "tyrosine"
+      ]
+    },
+    "body_diff_main": false,
+    "ranked_connections": 15,
+    "ranked_substances": [
+      "indispensable-amino-acids",
+      "tryptophan",
+      "phenylalanine",
+      "methionine"
+    ]
+  },
+  {
+    "food": "vinegar-pickles",
+    "file": "docs/foods/vinegar-pickles.md",
+    "expected": "41f89224630613cc5d487699976db9bf56d7a2d78267142b21491b6bfba19627",
+    "current": "f0484fa419fd475168c4951fe02d7620315f357ba8e62d7342c718c0bb881361",
+    "approved_bytes_found": true,
+    "approved_source": "../../work/brain-diet-v1-quantitative/docs/foods/vinegar-pickles.md",
+    "already_on_main": false,
+    "since_approved": {
+      "tags": [
+        "Acetic Acid"
+      ],
+      "substance_relationships": [
+        "acetic-acid"
+      ],
+      "nutrition_supplementary_sources": [
+        "acetic_acid_qual"
+      ]
+    },
+    "since_main": {
+      "tags": [
+        "Acetic Acid"
+      ],
+      "substance_relationships": [
+        "acetic-acid"
+      ],
+      "nutrition_supplementary_sources": [
+        "acetic_acid_qual"
+      ]
+    },
+    "body_diff_main": true,
+    "ranked_connections": 3,
+    "ranked_substances": [
+      "sodium"
+    ]
+  },
+  {
+    "food": "vinegar",
+    "file": "docs/foods/vinegar.md",
+    "expected": "80e0da4aa3778295f12d721d2db2a47c1deea10906b419a97c62fb5c1ca0f935",
+    "current": "f98d963b44b5a9a9cf5388d11e59374b8840122cb670ccc4c8249f93ff86c8e4",
+    "approved_bytes_found": true,
+    "approved_source": "../../work/brain-diet-v1-quantitative/docs/foods/vinegar.md",
+    "already_on_main": false,
+    "since_approved": {
+      "tags": [
+        "Acetic Acid"
+      ],
+      "nutrition_supplementary_sources": [
+        "acetic_acid_qual"
+      ],
+      "substance_relationships": [
+        "acetic-acid"
+      ]
+    },
+    "since_main": {
+      "tags": [
+        "Acetic Acid"
+      ],
+      "nutrition_supplementary_sources": [
+        "acetic_acid_qual"
+      ],
+      "substance_relationships": [
+        "acetic-acid"
+      ]
+    },
+    "body_diff_main": true,
+    "ranked_connections": 0,
+    "ranked_substances": []
+  }
+]

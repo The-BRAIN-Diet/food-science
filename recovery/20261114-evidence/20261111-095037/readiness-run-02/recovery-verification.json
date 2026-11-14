@@ -1,0 +1,18 @@
+{
+  "codex": {
+    "archived_files": 1427,
+    "content_differences": [],
+    "archive_digest": "3bb8eb5d97705e4da5e2e242bc4330ec17b3e3a0a88d80cc10b04ea11c886b1b",
+    "same_head": true,
+    "same_status": true,
+    "same_patch": true
+  },
+  "cursor": {
+    "archived_files": 66,
+    "content_differences": [],
+    "archive_digest": "c1209b1eadadeaf3dfa056a5425a036747f78d78aec2f80efb419a9ca0e4de55",
+    "same_head": true,
+    "same_status": true,
+    "same_patch": true
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "original_archive_sha256": "c1209b1eadadeaf3dfa056a5425a036747f78d78aec2f80efb419a9ca0e4de55",
+  "retained_members": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "1fb55ee3e72ce956c761eb325bf77f483b4b68eedd1ac23e9b373459f8f27092"
+    },
+    {
+      "path": "CURRENT-HANDOFF.md",
+      "sha256": "89bb1d3291035de97c346c5e0cb0620f3ebea8a36e00510ba8c465fbd95b93c9"
+    },
+    {
+      "path": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability.mdx",
+      "sha256": "ef0770d8d6535810cca92e9284c904d8267ff2f19bef1cdc734eb785fd11561c"
+    },
+    {
+      "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+      "sha256": "aae2d4bd3cbfe72cb295bf128fb69b9433a01cc9b62dfbb5e76d9e5a31f8d5e1"
+    },
+    {
+      "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+      "sha256": "ec8bfab09563997c45115433a2f5055d266bbe86bec0742a62df7d40b404bf6d"
+    },
+    {
+      "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
+      "sha256": "6eb0bdcea2beb47bd19a8230510d23e18a694ddbbc2188c4a14c28b7cc721c08"
+    },
+    {
+      "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+      "sha256": "2f0d0eea68f0d76e64be433ca29ac0f653f60e87cf9a89833ca4af4bd5f00903"
+    },
+    {
+      "path": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+      "sha256": "d710cbc2d69ddba39be27602937c22165ba03dbac6d7be65bd5119b53cd4829f"
+    },
+    {
+      "path": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+      "sha256": "7dfde88cdfc77b53e16b52f8e82a898eefcc1874a0efc4c92197b2c15f013b5c"
+    },
+    {
+      "path": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+      "sha256": "27e1b4e4b1ac94b3545a7ef58189b1c90c5bd0f3bbdcb22f86f9fd0090e9edd6"
+    },
+    {
+      "path": "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
+      "sha256": "700be5276ccc16cdb47d8818790c2f61e3ba791f01da8f9695317f006e30090c"
+    },
+    {
+      "path": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx",
+      "sha256": "638976b0816ead8808a81233cb5e993f1be8bb6c3f998acae3b57c9b173c08b1"
+    },
+    {
+      "path": "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx",
+      "sha256": "53ee73cbc2007e328c5f0bc73138cdd5bf9fd831d4e26c18f952a069ac9c26d6"
+    },
+    {
+      "path": "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
+      "sha256": "497566d533610ebcddbfa2ab24c0383757fe4f1da29795ab0382a1f2362d6c3c"
+    },
+    {
+      "path": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx",
+      "sha256": "ca17cc443a5388e219441df297c18f6d624ffc8d2c4719315551e0e8365f1889"
+    },
+    {
+      "path": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+      "sha256": "acdf83bc8dc5e1b1d7ebf2403a9140bbeeb9bcab4b9292140de29174315dc6eb"
+    },
+    {
+      "path": "docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx",
+      "sha256": "ff54034338886ea5ff639051d28e492dd35455c2a9b9546a22c9f5720ebe49a0"
+    },
+    {
+      "path": "docs/biological-targets/mitochondrial-function-bioenergetics.md",
+      "sha256": "adaa250c3d21d2ea31e21b8a6d4d3c59a4552ae3c1b75e2894853e3a39f16fcc"
+    },
+    {
+      "path": "docs/foods/apples.md",
+      "sha256": "e65f1e0bdaaeac0029d2d4c92e042d2bfb5f5901d1dc1c43f67372b0165ce54b"
+    },
+    {
+      "path": "docs/foods/lemon.md",
+      "sha256": "096e6ad6129c062830b19a1429f5f83ce83797f31242489722c4644a4908a27d"
+    },
+    {
+      "path": "docs/foods/oranges.md",
+      "sha256": "211d579d44bcb38e71eb8f9b86cc3e044a1ef11964486549db5a10f1a918cd32"
+    },
+    {
+      "path": "docs/foods/pears.md",
+      "sha256": "ba37f26d80d63fd29d15a4eedb4ae3bf9c63c07ddab38eaa4ca876fb6aa9e216"
+    },
+    {
+      "path": "docs/foods/vinegar-pickles.md",
+      "sha256": "f0484fa419fd475168c4951fe02d7620315f357ba8e62d7342c718c0bb881361"
+    },
+    {
+      "path": "docs/foods/vinegar.md",
+      "sha256": "f98d963b44b5a9a9cf5388d11e59374b8840122cb670ccc4c8249f93ff86c8e4"
+    },
+    {
+      "path": "docs/recipes/Dinner/turkey-wing-stew.md",
+      "sha256": "5e490183846d70ca3566c3e353b6cc2201c706de4fd21c6c58e106d276ed3e95"
+    },
+    {
+      "path": "docs/substances/bioactive-compounds/acetic-acid.md",
+      "sha256": "74e0530050e8734a29911e4373e9c0321c5b4959dc55ad7a028f1f40b68761db"
+    },
+    {
+      "path": "docs/substances/microbial-metabolites/scfas/acetate.md",
+      "sha256": "25a56f060fd2f03a01b5817a38f82ae084cbd71d8b6b2ff8da146b346d886c1b"
+    },
+    {
+      "path": "docs/tags.yml",
+      "sha256": "b7885dc5acc9930d8e36d073bd819149dc0609e747a0ed01a18223929f338e2a"
+    },
+    {
+      "path": "project-knowledge/handoffs/INDEX.md",
+      "sha256": "6f4d1db6032db1ead0a1e86107bd964e79c65a8fa830015ec46a964af48be232"
+    },
+    {
+      "path": "registry/substances.json",
+      "sha256": "dbb273d4f23b40af35134da221ffe73e814fea4e42a56d69224efc5a8499cabb"
+    },
+    {
+      "path": "review/circadian-pm3-identity-review-2026-11-10/REPORT.md",
+      "sha256": "6d490615948ede7f8421cd09411871ca4830698e2ec68cd56d53e22c07ab2c09"
+    },
+    {
+      "path": "review/intervention-food-substance-2026-11-06/proposal.md",
+      "sha256": "cd34958465a02e979e6f1cb0d6e8f2ddaf87e73791c08ac8f445a27b65abab53"
+    },
+    {
+      "path": "review/pm10-localhost-navigation-2026-11-05/report.md",
+      "sha256": "038bcf1138ee794224b04804378055a0e3f2b59446b8437b6ba069ab8417cbff"
+    },
+    {
+      "path": "scripts/canonical-scientific-projections.test.mjs",
+      "sha256": "21c73d5780363b853fb65e6f25e0c71d99e1c962d94b7713ab3905bf178d51f5"
+    },
+    {
+      "path": "scripts/compact-pm-explorer.test.mjs",
+      "sha256": "140083788cd63cc8d7a2d56ae8c1bef7914fb43d25a9e37eac4d26744a7a729c"
+    },
+    {
+      "path": "scripts/generate-food-strategy-rollup.mjs",
+      "sha256": "6c7164ed6885afaa1c94057bc54d3919631f84e3442ee53d7943212fbcd903e9"
+    },
+    {
+      "path": "scripts/intervention-food-substance.test.mjs",
+      "sha256": "697a1c9b69868b70fdb6683611e2e5506bb9c953ca903d7eb1b9a10ded495c98"
+    },
+    {
+      "path": "scripts/lib/intervention-food-substance.mjs",
+      "sha256": "bc411b3658d7c5d4fbbca7c87ed75ed7e9c2daf80284f265e9cc71325f1dbe98"
+    },
+    {
+      "path": "scripts/tyrosine-animal-coverage.test.mjs",
+      "sha256": "3898155a01b81fd416be435ad76e5b29683be2e7297e4d627b490b626b947d05"
+    },
+    {
+      "path": "scripts/usda-map.json",
+      "sha256": "53dcce69cfca5d52d28838641939e0bd7f532fc3f89fad6a6f20d1a2e0b725b8"
+    },
+    {
+      "path": "src/components/CanonicalPmMission.tsx",
+      "sha256": "ef3bea12958d2a9040f7133290ca173404d0ebf1355ad50ca9386025ec7ac530"
+    },
+    {
+      "path": "src/components/NutritionTable.tsx",
+      "sha256": "54aad23e28d5d9f99424951ff87cf01179dd22a1c45150ee86c6ca2fc2401363"
+    },
+    {
+      "path": "src/components/PilotInterventionDisclosure.tsx",
+      "sha256": "77ddc0d48292edc96603c3f4d1724c6b87fd0662a6d3ff9bfc78daf092a86aa0"
+    },
+    {
+      "path": "src/components/PmDietaryLeverEnhancer.tsx",
+      "sha256": "2702f4d963731bdb0c8de92397c608d3d16e43a87bf58d64bb3198447b066e27"
+    },
+    {
+      "path": "src/data/substance-input-pages.json",
+      "sha256": "9b905548666f3806f07ac212b775b3280f3368f6239db0b96fb731467c442613"
+    },
+    {
+      "path": "src/lib/interventionFoodSubstance.mjs",
+      "sha256": "94fb3dc7b33d29111782ce4fb6555ece2c0afd6a2ee7fcff7b1d11d87e942a15"
+    },
+    {
+      "path": "src/lib/interventionFoodSubstanceDisplay.mjs",
+      "sha256": "74e83152c17e55d552a420a57465c7dc799c389d0d1a89b32316a080c0afc44d"
+    },
+    {
+      "path": "static/bibtex/BRAIN-diet.bib",
+      "sha256": "187149029003465142119a4f56122d38df9dfaa964e117efed3cb1c34847022b"
+    },
+    {
+      "path": "static/explore/pm-explorer/pm-sources.json",
+      "sha256": "9885ed0eb86970927fae1246452bbde1e8b809c409771c024a7d1e069c7eea78"
+    },
+    {
+      "path": "static/explore/pm-explorer/titles.json",
+      "sha256": "458143e2d60c116a42cc47452a76eb5f033ab9a387c553339b1b3690bd7d209b"
+    },
+    {
+      "path": "static/img/foods/pears/pears_large.webp",
+      "sha256": "fe281dabcc758bcf6d6e3476bcf5c4c39a3e6353d6d59de44e748130e4d35cfb"
+    },
+    {
+      "path": "static/img/foods/pears/pears_medium.webp",
+      "sha256": "1e4522283255dbd27c4fb080eebf022add0816b99d24415b0447371dcc73d0ba"
+    },
+    {
+      "path": "static/img/foods/pears/pears_thumb.webp",
+      "sha256": "0462d168b8954bb723d786f56316b2c58229c359c0019d222424d7d095f0a562"
+    },
+    {
+      "path": "static/img/inchi/QTBSBXVTEAMEQO-UHFFFAOYSA-N.png",
+      "sha256": "1578ae9927968ada162ea52ee90baeeab0646e690615be125d552346cc072ba7"
+    },
+    {
+      "path": "system/INDEX.md",
+      "sha256": "30136b372929dfe705a4c3f0d7c79de96ad87dd403405f45afe6d30d5f292210"
+    },
+    {
+      "path": "system/canonical-scientific-projections.md",
+      "sha256": "261c84936320f92bb0cc1f2529f88e5a05552c86131ee2e8d22a3d8a782d4064"
+    },
+    {
+      "path": "system/dietary-input-traceability-contract.md",
+      "sha256": "c8caf42896c619a09a4faed45353689563ec14ab5929734994b3b376f39d3db5"
+    },
+    {
+      "path": "system/food-strategy-rollup-schema.md",
+      "sha256": "627af2ff6bd6d36007cee14679c0770b7ab023acb989f332c5ef60aa7b3cd7c3"
+    },
+    {
+      "path": "system/framework-qc-schema.md",
+      "sha256": "8b9c09455fd1544f25f2d1a312389f5b7597baa00ebc75f59af6141ce3a50c37"
+    },
+    {
+      "path": "system/presentation-change-approvals.json",
+      "sha256": "bb1b526f7bdbdd06912a1bab07ba8b6a42b60f5b2b028ef1f167f3af3b2714d7"
+    },
+    {
+      "path": "system/presentation-change-control.md",
+      "sha256": "ca17ae9118d3074ffd7e928424d5a0df6cda20a7555e4af72e43503fd8fc86d4"
+    },
+    {
+      "path": "system/primary-mechanism-schema.md",
+      "sha256": "a97fb960b4a01a85295143ca611aa0df264aa1d17722307552fdecc0f9045696"
+    },
+    {
+      "path": "system/scientific-finding-schema.md",
+      "sha256": "ab0f5297aeb5a585bdeb8c09592c88e77e13e2d5539ff680b6957ae5409a4336"
+    },
+    {
+      "path": "system/sop-lifestyle-six-atom-presentation.md",
+      "sha256": "1b758e6dc66029c94c263d62b7c9e8a35e9340af9e7830afef75560510153bbb"
+    },
+    {
+      "path": "system/templates/primary-mechanism-template.mdx",
+      "sha256": "16055199708fb74beb7ae6b6e33b60f4524552cb339e8155508d578a658678eb"
+    }
+  ]
+}

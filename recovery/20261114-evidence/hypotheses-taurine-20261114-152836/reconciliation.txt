@@ -1,0 +1,23 @@
+Local reconciliation — 14 November 2026
+
+Cursor source commit 9d9159d8. Candidate base af13bec1.
+Three-way reconciliation used common ancestor ca3183b1bdeb32a0d552d63219ceac5022111225.
+All original differing file versions and merge bases are preserved in this recovery folder.
+No textual conflicts occurred. PM9 and BRS5 PM1 were already identical.
+PM8 includes Cursor's broader PM revision together with its Urolithin A hypothesis.
+ECS PM3 includes the genistein hypothesis. The BRS-X hypothesis-ID validator correction was required and integrated.
+Taurine remains a substance-page rewrite only. BRS1-FM4-PM11 has no taurine entry.
+
+Validation passed for all four hypothesis records, all four PM MDX compilations and the taurine MDX compilation.
+Verified PM11 contains no taurine entry.
+No production build or viewer snapshot regeneration was performed.
+Port 3000 continues serving Cursor's checkout. Port 3191 serves static candidate assets and does not render PM documents.
+Both original worktrees remain intact. Candidate edits are local and uncommitted.
+
+Files
+docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx — identical to Cursor
+docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx — identical to Cursor
+docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx — identical to Cursor
+docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation.mdx — identical to Cursor
+docs/substances/bioactive-compounds/taurine.md — identical to Cursor
+scripts/lib/scientific-hypotheses.mjs — identical to Cursor

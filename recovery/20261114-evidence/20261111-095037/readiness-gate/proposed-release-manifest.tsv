@@ -1,0 +1,482 @@
+Git change	Path(s)	Release surface	Disposition
+M	.gitignore	Project documentation or configuration	Review scope before promotion
+M	AGENTS.md	Project documentation or configuration	Review scope before promotion
+M	CURRENT-HANDOFF.md	Project documentation or configuration	Review scope before promotion
+M	docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx	Canonical biology pages	Review scope before promotion
+M	docs/biological-targets/mitochondrial-function-bioenergetics.md	Canonical biology pages	Review scope before promotion
+M	docs/foods/almonds.md	Public food composition	Review scope before promotion
+M	docs/foods/amaranth.md	Public food composition	Review scope before promotion
+M	docs/foods/anchovies.md	Public food composition	Review scope before promotion
+M	docs/foods/apples.md	Public food composition	Review scope before promotion
+M	docs/foods/beef.md	Public food composition	Review scope before promotion
+M	docs/foods/beetroot.md	Public food composition	Review scope before promotion
+M	docs/foods/broccoli.md	Public food composition	Review scope before promotion
+M	docs/foods/butter.md	Public food composition	Review scope before promotion
+M	docs/foods/chicken.md	Public food composition	Review scope before promotion
+M	docs/foods/chicory-root.md	Public food composition	Review scope before promotion
+M	docs/foods/clams.md	Public food composition	Review scope before promotion
+M	docs/foods/cod.md	Public food composition	Review scope before promotion
+M	docs/foods/egg-yolks.md	Public food composition	Review scope before promotion
+M	docs/foods/eggs.md	Public food composition	Review scope before promotion
+M	docs/foods/garlic.md	Public food composition	Review scope before promotion
+M	docs/foods/ghee.md	Public food composition	Review scope before promotion
+M	docs/foods/herring.md	Public food composition	Review scope before promotion
+M	docs/foods/jerusalem-artichokes.md	Public food composition	Review scope before promotion
+M	docs/foods/lamb.md	Public food composition	Review scope before promotion
+M	docs/foods/lemon.md	Public food composition	Review scope before promotion
+M	docs/foods/liver.md	Public food composition	Review scope before promotion
+M	docs/foods/lupin-beans.md	Public food composition	Review scope before promotion
+M	docs/foods/lupins.md	Public food composition	Review scope before promotion
+M	docs/foods/mackerel.md	Public food composition	Review scope before promotion
+M	docs/foods/milk.md	Public food composition	Review scope before promotion
+M	docs/foods/mussels.md	Public food composition	Review scope before promotion
+M	docs/foods/onions.md	Public food composition	Review scope before promotion
+M	docs/foods/oranges.md	Public food composition	Review scope before promotion
+M	docs/foods/oysters.md	Public food composition	Review scope before promotion
+A	docs/foods/pears.md	Public food composition	Review scope before promotion
+M	docs/foods/pork.md	Public food composition	Review scope before promotion
+M	docs/foods/pumpkin-seeds.md	Public food composition	Review scope before promotion
+M	docs/foods/quinoa.md	Public food composition	Review scope before promotion
+M	docs/foods/salmon.md	Public food composition	Review scope before promotion
+M	docs/foods/sardines.md	Public food composition	Review scope before promotion
+M	docs/foods/scallops.md	Public food composition	Review scope before promotion
+M	docs/foods/shrimp.md	Public food composition	Review scope before promotion
+M	docs/foods/spinach.md	Public food composition	Review scope before promotion
+M	docs/foods/sunflower-seeds.md	Public food composition	Review scope before promotion
+M	docs/foods/tuna.md	Public food composition	Review scope before promotion
+M	docs/foods/turkey.md	Public food composition	Review scope before promotion
+M	docs/foods/vinegar-pickles.md	Public food composition	Review scope before promotion
+M	docs/foods/vinegar.md	Public food composition	Review scope before promotion
+M	docs/foods/wheat-germ.md	Public food composition	Review scope before promotion
+M	docs/recipes/Dinner/turkey-wing-stew.md	Public recipes	Review scope before promotion
+A	docs/substances/bifidobacterium-longum.md	Public substance documentation	Review scope before promotion
+A	docs/substances/bioactive-compounds/acetic-acid.md	Public substance documentation	Review scope before promotion
+A	docs/substances/lacticaseibacillus-rhamnosus.md	Public substance documentation	Review scope before promotion
+M	docs/substances/microbial-metabolites/scfas/acetate.md	Public substance documentation	Review scope before promotion
+M	docs/substances/nutrients/macronutrients/amino-acids/conditionals/arginine.md	Public substance documentation	Review scope before promotion
+M	docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/inulin.md	Public substance documentation	Review scope before promotion
+M	docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructo-galacto-oligosaccharides.md	Public substance documentation	Review scope before promotion
+M	docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin.md	Public substance documentation	Review scope before promotion
+M	docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch.md	Public substance documentation	Review scope before promotion
+M	docs/tags.yml	Public documentation	Review scope before promotion
+M	docusaurus.config.ts	Site build configuration	Review scope before promotion
+M	netlify.toml	Production publication configuration	Review scope before promotion
+M	project-knowledge/handoffs/INDEX.md	Project documentation or configuration	Review scope before promotion
+A	project-knowledge/handoffs/dietary-connectivity-2026-11-09.md	Project documentation or configuration	Review scope before promotion
+A	registry/food-aliases.json	Canonical identities	Review scope before promotion
+M	registry/substances.json	Canonical identities	Review scope before promotion
+A	review/circadian-pm3-identity-review-2026-11-10/REPORT.md	Review or research material	Review scope before promotion
+A	review/compact-pm-explorer-2026-11-09/CURSOR-PECTIN.md	Review or research material	Review scope before promotion
+A	review/compact-pm-explorer-2026-11-09/REPORT.md	Review or research material	Review scope before promotion
+A	review/compact-pm-explorer-2026-11-09/all-systems.png	Review or research material	Review scope before promotion
+A	review/compact-pm-explorer-2026-11-09/butyrate-related.png	Review or research material	Review scope before promotion
+A	review/compact-pm-explorer-2026-11-09/citrus-pm4.png	Review or research material	Review scope before promotion
+A	review/compact-pm-explorer-2026-11-09/desktop.png	Review or research material	Review scope before promotion
+A	review/compact-pm-explorer-2026-11-09/inulin-refreshed.png	Review or research material	Review scope before promotion
+A	review/compact-pm-explorer-2026-11-09/mobile.png	Review or research material	Review scope before promotion
+A	review/compact-pm-explorer-2026-11-09/panel-below-brs.png	Review or research material	Review scope before promotion
+A	review/compact-pm-explorer-2026-11-09/pm4-recovered.png	Review or research material	Review scope before promotion
+A	review/compact-pm-explorer-2026-11-09/wheel-unranked.png	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/FIRST-REVIEW-GROUPS.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/MAPPING-ISSUES.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/NON-RANKABLE.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/REPORT.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/SOURCE-RECONCILIATION.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/SOURCE-RECONCILIATION.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/SUBSTANCE-MATRIX.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/TARGETS.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/UNRANKED-43.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/author-review-01/IMPLEMENTED.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/author-review-01/REVIEW.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/author-review-01/b6-plp-proposed-assessments.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/author-review-01/conditional-ranking-impact.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/author-review-01/implementation-before-hashes.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/author-review-01/implemented-results.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/author-review-01/source-verification.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/author-review-01/usda-glycine-source-rows.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/author-review-02/REVIEW.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/author-review-02/proposed-assessments.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/author-review-02/validation.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/consolidated/REPORT.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/consolidated/approved-reconciliations.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/consolidated/existing-extractor-issues.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/consolidated/extract.mjs	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/consolidated/kc-relationships.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/consolidated/mapping-issues.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/consolidated/multiple-provenance.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/consolidated/non-substance-connections.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/consolidated/pending-conversions.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/consolidated/pm-inventory.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/consolidated/pm-substance-pairs.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/consolidated/publication-coverage/derived-routes.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/consolidated/publication-coverage/documented-connections.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/consolidated/publication-coverage/extract.mjs	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/consolidated/publication-coverage/substances.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/consolidated/publication-coverage/summary.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/consolidated/publication-coverage/targets.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/consolidated/summary.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/consolidated/validation.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/conversion-group-1-installed/REPORT.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/conversion-group-1-installed/before.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/conversion-group-1-installed/installation.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/conversion-group-2-installed/REPORT.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/conversion-group-2-installed/before.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/conversion-group-2-installed/installation.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/conversion-group-2-installed/registry-before.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/conversion-group-3-installed/REPORT.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/conversion-group-3-installed/before.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/conversion-group-3-installed/installation.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/conversion-group-3-installed/validate.mjs	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/conversion-group-3-installed/validation.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/conversion-group-4-installed/REPORT.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/conversion-group-4-installed/before.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/conversion-group-4-installed/final-status.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/conversion-group-4-installed/installation.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/coverage.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/derived-pathways.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/evidence-ledger/REPORT.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/evidence-ledger/VIEW-RECOVERY.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/evidence-ledger/before.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/evidence-ledger/broader-tests.log	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/evidence-ledger/dietary-governance.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/evidence-ledger/focused-tests.log	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/evidence-ledger/ledger-recovery.png	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/evidence-ledger/production-build.log	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/evidence-ledger/recipe-recovery.png	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/evidence-ledger/recovery-build.log	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/evidence-ledger/recovery-tests.log	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/evidence-ledger/sec.log	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/evidence-ledger/wheel-recovery.png	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/exact-child-mapping/REPORT.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/exact-child-mapping/before-pm-text.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/exact-child-mapping/mappings.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/measured-unranked/BRS2-before.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/measured-unranked/BRS5-before.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/measured-unranked/BRS6-before.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/measured-unranked/REPORT.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/measured-unranked/visible.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/non-substance-inputs/REPORT.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/non-substance-inputs/before.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/non-substance-inputs/connections.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/non-substance-inputs/rows.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-inventory/REPORT.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-inventory/existing-extractor-issues.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-inventory/extract.mjs	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-inventory/kc-relationships.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-inventory/mapping-issues.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-inventory/multiple-provenance.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-inventory/pm-inventory.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-inventory/pm-substance-pairs.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-inventory/summary.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-inventory/validation.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-reconciled/REPORT.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-reconciled/approved-reconciliations.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-reconciled/existing-extractor-issues.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-reconciled/extract.mjs	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-reconciled/identity-proposals.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-reconciled/kc-relationships.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-reconciled/mapping-issues.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-reconciled/multiple-provenance.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-reconciled/pm-inventory.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-reconciled/pm-substance-pairs.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-reconciled/preservation-before.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-reconciled/summary.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-reconciled/validate.py	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-reconciled/validation.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-reconciliation/REVIEW.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-reconciliation/evidence.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/pm-supply-reconciliation/validation.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/post-child-inventory/REPORT.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/post-child-inventory/approved-reconciliations.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/post-child-inventory/comparison.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/post-child-inventory/existing-extractor-issues.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/post-child-inventory/extract.mjs	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/post-child-inventory/kc-relationships.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/post-child-inventory/mapping-issues.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/post-child-inventory/multiple-provenance.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/post-child-inventory/pm-inventory.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/post-child-inventory/pm-substance-pairs.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/post-child-inventory/summary.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/post-child-inventory/verify.mjs	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/ranking-impact.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/shared-documentation-extension/IMPLEMENTATION.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/shared-documentation-extension/validation.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/source-omissions/REPORT.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/source-omissions/before.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/source-omissions/page-verification/BRS3-before.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/source-omissions/page-verification/BRS5-before.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/source-omissions/page-verification/REPORT.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/source-omissions/page-verification/dropdowns.html	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/source-omissions/recovered.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/substance-matrix.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/target-reconciliation.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/unpublished-composition.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/whole-framework-coverage/NEXT-DECISIONS.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/whole-framework-coverage/REMAINING-GAPS.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/whole-framework-coverage/REPORT.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/whole-framework-coverage/SUBSTANCE-MATRIX.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/whole-framework-coverage/TARGET-MATRIX.md	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/whole-framework-coverage/derived-routes.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/whole-framework-coverage/documented-connections.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/whole-framework-coverage/substances.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/whole-framework-coverage/summary.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/whole-framework-coverage/targets.json	Review or research material	Review scope before promotion
+A	review/dietary-connectivity-2026-11-09/whole-framework-coverage/validation.json	Review or research material	Review scope before promotion
+A	review/food-intelligence-2026-11-10/README.md	Review or research material	Review scope before promotion
+A	review/food-intelligence-2026-11-10/compact.png	Review or research material	Review scope before promotion
+A	review/food-intelligence-2026-11-10/desktop.png	Review or research material	Review scope before promotion
+A	review/food-intelligence-2026-11-10/labels-day.png	Review or research material	Review scope before promotion
+A	review/food-intelligence-2026-11-10/labels-night.png	Review or research material	Review scope before promotion
+A	review/food-intelligence-2026-11-10/wheel-contrast.png	Review or research material	Review scope before promotion
+A	review/food-intelligence-2026-11-10/wheel-day.png	Review or research material	Review scope before promotion
+A	review/food-wheel-interactive-views-2026-11-09/REPORT.md	Review or research material	Review scope before promotion
+A	review/food-wheel-interactive-views-2026-11-09/all-brs-off.png	Review or research material	Review scope before promotion
+A	review/food-wheel-interactive-views-2026-11-09/before-data.json	Review or research material	Review scope before promotion
+A	review/food-wheel-interactive-views-2026-11-09/before.html	Review or research material	Review scope before promotion
+A	review/food-wheel-interactive-views-2026-11-09/compare-brs3.png	Review or research material	Review scope before promotion
+A	review/food-wheel-interactive-views-2026-11-09/empty-brs-off.png	Review or research material	Review scope before promotion
+A	review/food-wheel-interactive-views-2026-11-09/independent-brs-off.png	Review or research material	Review scope before promotion
+A	review/food-wheel-interactive-views-2026-11-09/rainbow-compare.png	Review or research material	Review scope before promotion
+A	review/food-wheel-interactive-views-2026-11-09/tests.log	Review or research material	Review scope before promotion
+A	review/food-wheel-top-ten-2026-11-09/PHASE-1-PREVIEW-HANDOFF.md	Review or research material	Review scope before promotion
+A	review/food-wheel-top-ten-2026-11-09/SHARED-REFERENCE-FOOD-IDENTITIES.md	Review or research material	Review scope before promotion
+A	review/food-wheel-top-ten-2026-11-09/TOP-TEN-COVERAGE-RECONCILIATION.md	Review or research material	Review scope before promotion
+A	review/food-wheel-top-ten-2026-11-09/canonical-inputs.json.gz	Review or research material	Review scope before promotion
+A	review/food-wheel-top-ten-2026-11-09/comparison.json	Review or research material	Review scope before promotion
+A	review/food-wheel-top-ten-2026-11-09/lupin-identity/lupin-beans.before.md	Review or research material	Review scope before promotion
+A	review/food-wheel-top-ten-2026-11-09/lupin-identity/lupins.before.md	Review or research material	Review scope before promotion
+A	review/food-wheel-top-ten-2026-11-09/pm-selection-audit.json	Review or research material	Review scope before promotion
+A	review/food-wheel-top-ten-2026-11-09/pm-source-audit.json	Review or research material	Review scope before promotion
+A	review/food-wheel-top-ten-2026-11-09/reconciliation/RECONCILIATION.md	Review or research material	Review scope before promotion
+A	review/food-wheel-top-ten-2026-11-09/reconciliation/SHARED-SELECTOR-PROPOSAL.md	Review or research material	Review scope before promotion
+A	review/food-wheel-top-ten-2026-11-09/reconciliation/complete-source-diff.patch	Review or research material	Review scope before promotion
+A	review/food-wheel-top-ten-2026-11-09/reconciliation/records.json	Review or research material	Review scope before promotion
+A	review/food-wheel-top-ten-2026-11-09/reconciliation/validation.json	Review or research material	Review scope before promotion
+A	review/food-wheel-top-ten-2026-11-09/release-validation-baseline.json	Review or research material	Review scope before promotion
+A	review/food-wheel-top-ten-2026-11-09/report.md	Review or research material	Review scope before promotion
+A	review/food-wheel-top-ten-2026-11-09/shared-reference-attribution-impact.json	Review or research material	Review scope before promotion
+A	review/food-wheel-top-ten-2026-11-09/shared-reference-ranking-impact.json	Review or research material	Review scope before promotion
+A	review/food-wheel-top-ten-2026-11-09/substance-layout.svg	Review or research material	Review scope before promotion
+A	review/food-wheel-top-ten-2026-11-09/top-ten-reconciliation.json	Review or research material	Review scope before promotion
+A	review/intervention-food-substance-2026-11-06/proposal.md	Review or research material	Review scope before promotion
+A	review/pm-food-source-visibility-2026-11-09/REVIEW.md	Review or research material	Review scope before promotion
+A	review/pm-food-source-visibility-2026-11-09/counts.json	Review or research material	Review scope before promotion
+A	review/pm-food-source-visibility-2026-11-09/pm7-example.html	Review or research material	Review scope before promotion
+A	review/pm10-localhost-navigation-2026-11-05/report.md	Review or research material	Review scope before promotion
+A	review/resistant-starch-power-2026-11-10/FOLLOW-UP.md	Review or research material	Review scope before promotion
+A	review/resistant-starch-power-2026-11-10/REPORT.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/REPORT.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-counts.json	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/anchovies.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/beef.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/butter.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/chicken.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/clams.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/cod.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/egg-yolks.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/eggs.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/ghee.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/herring.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/lamb.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/liver.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/mackerel.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/milk.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/mussels.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/oysters.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/pork.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/salmon.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/sardines.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/scallops.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/shrimp.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/tuna.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-foods/turkey.md	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/before-ranked.json	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/explorer.png	Review or research material	Review scope before promotion
+A	review/tyrosine-animal-coverage-2026-11-09/usda-audit.json	Review or research material	Review scope before promotion
+A	scripts/audit-dietary-connectivity.mjs	Code, generators or tests	Review scope before promotion
+M	scripts/brs5-fm1-pm1-butyrate-pathway.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/build-food-intelligence.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/build-food-wheel-evidence-ledger.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/build-food-wheel-top-ten.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/build-food-wheel-unranked.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/build-pm-explorer-sources.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/butyrate-related-display.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/canonical-scientific-projections.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/citrus-pectin-integration.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/compact-pm-explorer.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/conversion-group1-installed.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/conversion-group2-installed.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/conversion-group3-installed.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/conversion-group4-installed.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/dietary-connectivity-reconciliation.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/dietary-connectivity.test.mjs	Code, generators or tests	Review scope before promotion
+M	scripts/dietary-lever-traceability.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/dietary-review-groups.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/exact-child-mapping.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/food-intelligence.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/food-wheel-evidence-ledger.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/food-wheel-navigation.test.mjs	Code, generators or tests	Review scope before promotion
+M	scripts/food-wheel-publication.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/food-wheel-unranked.test.mjs	Code, generators or tests	Review scope before promotion
+M	scripts/generate-all-input-mappings.mjs	Code, generators or tests	Review scope before promotion
+M	scripts/generate-food-strategy-rollup.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/generate-ranked-food-sources.mjs	Code, generators or tests	Review scope before promotion
+M	scripts/input-substance-food.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/intervention-food-substance.test.mjs	Code, generators or tests	Review scope before promotion
+M	scripts/lib/dietary-input-governance.mjs	Code, generators or tests	Review scope before promotion
+M	scripts/lib/food-page-validation.mjs	Code, generators or tests	Review scope before promotion
+M	scripts/lib/food-wheel-power.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/lib/food-wheel-render.mjs	Code, generators or tests	Review scope before promotion
+M	scripts/lib/input-substance-food.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/lib/intervention-food-substance.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/lib/shared-reference-attribution.mjs	Code, generators or tests	Review scope before promotion
+M	scripts/lib/substance-input-pages.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/measured-unranked.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/non-substance-inputs.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/pectin-sulforaphane-sources.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/pm-documented-food-sources.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/pm4-resistant-starch.test.mjs	Code, generators or tests	Review scope before promotion
+M	scripts/publish-food-wheel.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/reconcile-dietary-connectivity.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/reconcile-food-wheel-top-ten.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/reconcile-tyrosine-sources.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/refresh-approved-source-omissions.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/refresh-measured-unranked-sources.mjs	Code, generators or tests	Review scope before promotion
+M	scripts/related-substance-associations.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/release-projection-audit.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/release-readiness.py	Code, generators or tests	Review scope before promotion
+A	scripts/report-pm-food-source-visibility.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/review01-implementation.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/scfa-related-display.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/shared-documentation-extension.test.mjs	Code, generators or tests	Review scope before promotion
+A	scripts/templates/food-wheel-substance-layout.svg	Code, generators or tests	Review scope before promotion
+A	scripts/tyrosine-animal-coverage.test.mjs	Code, generators or tests	Review scope before promotion
+M	scripts/usda-map.json	Code, generators or tests	Review scope before promotion
+A	src/components/CanonicalPmMission.tsx	Shared renderer or data logic	Review scope before promotion
+M	src/components/NutritionTable.tsx	Shared renderer or data logic	Review scope before promotion
+M	src/components/PilotInterventionDisclosure.tsx	Shared renderer or data logic	Review scope before promotion
+M	src/components/PmDietaryLeverEnhancer.tsx	Shared renderer or data logic	Review scope before promotion
+A	src/data/butyrateRelatedSources.mjs	Shared renderer or data logic	Review scope before promotion
+A	src/data/documentedFoodSources.mjs	Shared renderer or data logic	Review scope before promotion
+A	src/data/rankedFoodSources.mjs	Shared renderer or data logic	Review scope before promotion
+M	src/data/relatedSubstanceRelationships.mjs	Shared renderer or data logic	Review scope before promotion
+A	src/data/scfaRelatedSources.mjs	Shared renderer or data logic	Review scope before promotion
+M	src/data/substance-input-pages.json	Shared renderer or data logic	Review scope before promotion
+A	src/lib/aminoAcidProfileSources.mjs	Shared renderer or data logic	Review scope before promotion
+M	src/lib/dietaryInputGovernance.mjs	Shared renderer or data logic	Review scope before promotion
+M	src/lib/dietaryPathways.mjs	Shared renderer or data logic	Review scope before promotion
+M	src/lib/foodTargetTraceability.mjs	Shared renderer or data logic	Review scope before promotion
+A	src/lib/interventionFoodSubstance.mjs	Shared renderer or data logic	Review scope before promotion
+A	src/lib/interventionFoodSubstanceDisplay.mjs	Shared renderer or data logic	Review scope before promotion
+M	src/lib/pmInputFoodDisclosure.ts	Shared renderer or data logic	Review scope before promotion
+M	src/theme/SubstanceFoods/index.tsx	Shared renderer or data logic	Review scope before promotion
+M	static/bibtex/BRAIN-diet.bib	Published static asset	Review scope before promotion
+A	static/explore/food-intelligence/app.mjs	Public food intelligence prototype	Review scope before promotion
+A	static/explore/food-intelligence/data.json	Public food intelligence prototype	Review scope before promotion
+A	static/explore/food-intelligence/index.html	Public food intelligence prototype	Review scope before promotion
+A	static/explore/food-intelligence/model.mjs	Public food intelligence prototype	Review scope before promotion
+A	static/explore/food-intelligence/style.css	Public food intelligence prototype	Review scope before promotion
+M	static/explore/food-wheel/GAP-LEDGER.md	Public Food Wheel	Review scope before promotion
+M	static/explore/food-wheel/MULTI-TARGET-FOODS.md	Public Food Wheel	Review scope before promotion
+M	static/explore/food-wheel/TOP-FOODS.md	Public Food Wheel	Review scope before promotion
+M	static/explore/food-wheel/about.html	Public Food Wheel	Review scope before promotion
+A	static/explore/food-wheel/display-network.json	Public Food Wheel	Review scope before promotion
+A	static/explore/food-wheel/display-network.svg	Public Food Wheel	Review scope before promotion
+A	static/explore/food-wheel/evidence-ledger.html	Public Food Wheel	Review scope before promotion
+A	static/explore/food-wheel/evidence-ledger.json	Public Food Wheel	Review scope before promotion
+M	static/explore/food-wheel/food-wheel.svg	Public Food Wheel	Review scope before promotion
+M	static/explore/food-wheel/index.html	Public Food Wheel	Review scope before promotion
+A	static/explore/food-wheel/interactive-views.mjs	Public Food Wheel	Review scope before promotion
+A	static/explore/food-wheel/ribbon-presentation.mjs	Public Food Wheel	Review scope before promotion
+A	static/explore/food-wheel/selection-model.mjs	Public Food Wheel	Review scope before promotion
+A	static/explore/pm-explorer/app.mjs	Public PM Explorer	Review scope before promotion
+A	static/explore/pm-explorer/index.html	Public PM Explorer	Review scope before promotion
+A	static/explore/pm-explorer/model.mjs	Public PM Explorer	Review scope before promotion
+A	static/explore/pm-explorer/pm-sources.json	Public PM Explorer	Review scope before promotion
+A	static/explore/pm-explorer/style.css	Public PM Explorer	Review scope before promotion
+A	static/explore/pm-explorer/titles.json	Public PM Explorer	Review scope before promotion
+A	static/img/foods/pears/pears_large.webp	Published static asset	Review scope before promotion
+A	static/img/foods/pears/pears_medium.webp	Published static asset	Review scope before promotion
+A	static/img/foods/pears/pears_thumb.webp	Published static asset	Review scope before promotion
+A	static/img/inchi/QTBSBXVTEAMEQO-UHFFFAOYSA-N.png	Published static asset	Review scope before promotion
+M	system/INDEX.md	Governance	Review scope before promotion
+A	system/canonical-scientific-projections.md	Governance	Review scope before promotion
+A	system/dietary-input-identity-reconciliations.json	Governance	Review scope before promotion
+M	system/dietary-input-traceability-contract.md	Governance	Review scope before promotion
+A	system/food-intelligence-peer-review-prototype.md	Governance	Review scope before promotion
+M	system/food-strategy-rollup-schema.md	Governance	Review scope before promotion
+M	system/food-substance-recovery-evidence.json	Governance	Review scope before promotion
+A	system/food-wheel-evidence-publication.json	Governance	Review scope before promotion
+M	system/food-wheel-presentation-contract.md	Governance	Review scope before promotion
+M	system/framework-qc-schema.md	Governance	Review scope before promotion
+M	system/generated/brs-x-input-substance-food/food-to-inputs.md	Generated projections	Review scope before promotion
+M	system/generated/brs-x-input-substance-food/substance-index.md	Generated projections	Review scope before promotion
+M	system/generated/brs1-input-substance-food/food-to-inputs.md	Generated projections	Review scope before promotion
+M	system/generated/brs1-input-substance-food/gaps.generated.json	Generated projections	Review scope before promotion
+M	system/generated/brs1-input-substance-food/substance-index.md	Generated projections	Review scope before promotion
+M	system/generated/brs2-input-substance-food/food-to-inputs.md	Generated projections	Review scope before promotion
+M	system/generated/brs2-input-substance-food/gaps.generated.json	Generated projections	Review scope before promotion
+M	system/generated/brs2-input-substance-food/inventory.md	Generated projections	Review scope before promotion
+M	system/generated/brs2-input-substance-food/substance-index.md	Generated projections	Review scope before promotion
+M	system/generated/brs3-input-substance-food/food-to-inputs.md	Generated projections	Review scope before promotion
+M	system/generated/brs3-input-substance-food/gaps.generated.json	Generated projections	Review scope before promotion
+M	system/generated/brs3-input-substance-food/substance-index.md	Generated projections	Review scope before promotion
+M	system/generated/brs4-input-substance-food/food-to-inputs.md	Generated projections	Review scope before promotion
+M	system/generated/brs4-input-substance-food/gaps.generated.json	Generated projections	Review scope before promotion
+M	system/generated/brs4-input-substance-food/substance-index.md	Generated projections	Review scope before promotion
+M	system/generated/brs5-input-substance-food/food-to-inputs.md	Generated projections	Review scope before promotion
+M	system/generated/brs5-input-substance-food/gaps.generated.json	Generated projections	Review scope before promotion
+M	system/generated/brs5-input-substance-food/inventory.md	Generated projections	Review scope before promotion
+M	system/generated/brs5-input-substance-food/substance-index.md	Generated projections	Review scope before promotion
+M	system/generated/brs6-input-substance-food/food-to-inputs.md	Generated projections	Review scope before promotion
+M	system/generated/brs6-input-substance-food/substance-index.md	Generated projections	Review scope before promotion
+M	system/generated/dietary-food-targets/cursor-repair-queue.json	Generated projections	Review scope before promotion
+M	system/generated/dietary-food-targets/cursor-repair-summary.md	Generated projections	Review scope before promotion
+M	system/generated/dietary-food-targets/manuscript-rollup-brs-x.json	Generated projections	Review scope before promotion
+M	system/generated/dietary-food-targets/manuscript-rollup-brs1.json	Generated projections	Review scope before promotion
+M	system/generated/dietary-food-targets/manuscript-rollup-brs2.json	Generated projections	Review scope before promotion
+M	system/generated/dietary-food-targets/manuscript-rollup-brs3.json	Generated projections	Review scope before promotion
+M	system/generated/dietary-food-targets/manuscript-rollup-brs4.json	Generated projections	Review scope before promotion
+M	system/generated/dietary-food-targets/manuscript-rollup-brs5.json	Generated projections	Review scope before promotion
+M	system/generated/dietary-food-targets/manuscript-rollup-brs6.json	Generated projections	Review scope before promotion
+M	system/generated/dietary-food-targets/material-equivalence-reviews.json	Generated projections	Review scope before promotion
+M	system/generated/dietary-pathways/pathways.generated.json	Generated projections	Review scope before promotion
+M	system/generated/food-strategy-rollup/rollup.generated.json	Generated projections	Review scope before promotion
+M	system/input-substance-food-mapping.md	Governance	Review scope before promotion
+M	system/presentation-change-approvals.json	Governance	Review scope before promotion
+M	system/presentation-change-control.md	Governance	Review scope before promotion
+M	system/primary-mechanism-schema.md	Governance	Review scope before promotion
+A	system/ranked-food-publication-sources.json	Governance	Review scope before promotion
+A	system/ranked-food-source-policy.json	Governance	Review scope before promotion
+M	system/scientific-finding-schema.md	Governance	Review scope before promotion
+M	system/sop-lifestyle-six-atom-presentation.md	Governance	Review scope before promotion
+M	system/substance-page-schema.md	Governance	Review scope before promotion
+M	system/templates/primary-mechanism-template.mdx	Governance	Review scope before promotion

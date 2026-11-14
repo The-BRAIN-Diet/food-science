@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Explorer",
+    "url": "http://127.0.0.1:3180/explore/pm-explorer/?brs=BRS5&pm=BRS5-FM1-PM1&sub=glutamine",
+    "title": "BRAIN · Biology Explorer",
+    "found": true,
+    "links": [],
+    "text": "BRAIN Biology Explorer\nOverview\nBRS5 / BRS5-FM1-PM1 / Glutamine\nStart from food…\nAlgal Oil\nAlmonds\nAmaranth\nAnchovies\nApples\nAspar"
+  },
+  {
+    "name": "Wheel",
+    "url": "http://127.0.0.1:3180/explore/food-wheel/?substance=glutamine",
+    "title": "BRAIN Food Wheel",
+    "found": true,
+    "links": [],
+    "text": "Food and experimental evidence ledger\nBRAIN Food Wheel — Food → Substance → BRS/BRS-X\n Multiple Selection\nSelect food…\nAmaranth · "
+  }
+]

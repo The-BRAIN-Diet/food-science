@@ -1,0 +1,12 @@
+docs/foods/beef.md
+docs/foods/eggs.md
+docs/foods/tofu.md
+docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine.md
+src/components/NutritionTable.tsx
+src/theme/SubstanceFoods/index.tsx
+src/data/documentedFoodSources.mjs
+src/lib/pmInputFoodDisclosure.ts
+scripts/build-food-wheel-unranked.mjs
+scripts/build-pm-explorer-sources.mjs
+scripts/glutamine-composition.test.mjs
+scripts/release-projection-audit.mjs

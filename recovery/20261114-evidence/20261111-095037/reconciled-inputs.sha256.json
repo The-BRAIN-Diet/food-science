@@ -1,0 +1,17 @@
+{
+  "CURRENT-HANDOFF.md": "be466fd667ebd478e1c9b06663c135b53962ca981e9384e07b544a136e7653d6",
+  "PROJECT-CONTEXT.md": "8e3ffe8fc912ac0019ddbf0a58bee3ab2dee7f6b0f0ebca492f682780b94e50f",
+  "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx": "eadafb52ad975063d15e64dada2283c8df0ea8f035229e4ea754a2c0c51f6c0a",
+  "docs/foods/pears.md": "ba37f26d80d63fd29d15a4eedb4ae3bf9c63c07ddab38eaa4ca876fb6aa9e216",
+  "project-knowledge/PROJECT-CONTEXT.md": "c110acbffc8060288a631c541b0a5eb5c1cfaa3d6a15ad6d9608aa14d81ddda6",
+  "project-knowledge/handoffs/INDEX.md": "74906d654f64e66397a43385f84481234ebcd0b111bc928f0fbce9e16b82ba0c",
+  "review/circadian-pm3-identity-review-2026-11-10/REPORT.md": "6d490615948ede7f8421cd09411871ca4830698e2ec68cd56d53e22c07ab2c09",
+  "scripts/compact-pm-explorer.test.mjs": "3ab40ab7dd558aeb84e6240320de27a080e238c088baf5a2cb769ed0de938473",
+  "scripts/cross-brs-dietary-recovery.test.mjs": "0b73e7aa67b0f2327dc04b4bda37acc08683063a4a982ac87c696302706c219a",
+  "static/explore/pm-explorer/pm-sources.json": "647eb350befd84afbb8338c446d03c33ee9991328916124ac16d983aa2d70213",
+  "system/dietary-input-governance-v2.md": "21ae1c5ea48e92ace38fd9e19af11b67eff66e087de1b1b2bbdf13f10879121c",
+  "system/dietary-input-traceability-contract.md": "a04a098037212ef1a2c8203a643c79655a585492130eabdddf59d97c1ca4b5a9",
+  "system/presentation-change-approvals.json": "13ec125917c592dc4b63eda2584a2a71d3d19c44766cc21b60376061dd91d297",
+  "system/primary-mechanism-schema.md": "a97fb960b4a01a85295143ca611aa0df264aa1d17722307552fdecc0f9045696",
+  "system/scientific-finding-schema.md": "30043899a5829bedd79ecb50a7af6f447ade7cb422efef892e96845328897d31"
+}

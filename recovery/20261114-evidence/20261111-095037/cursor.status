@@ -1,0 +1,66 @@
+ M AGENTS.md
+ M CURRENT-HANDOFF.md
+ M docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability.mdx
+ M docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx
+ M docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx
+ M docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx
+ M docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx
+ M docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx
+ M docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx
+ M docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx
+ M docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx
+ M docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx
+ M docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx
+ M docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx
+ M docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx
+ M docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx
+ M docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx
+ M docs/biological-targets/mitochondrial-function-bioenergetics.md
+ M docs/foods/apples.md
+ M docs/foods/lemon.md
+ M docs/foods/oranges.md
+ M docs/foods/vinegar-pickles.md
+ M docs/foods/vinegar.md
+ M docs/recipes/Dinner/turkey-wing-stew.md
+ M docs/substances/microbial-metabolites/scfas/acetate.md
+ M docs/tags.yml
+ M project-knowledge/handoffs/INDEX.md
+ M registry/substances.json
+ M scripts/generate-food-strategy-rollup.mjs
+ M scripts/usda-map.json
+ M src/components/NutritionTable.tsx
+ M src/components/PilotInterventionDisclosure.tsx
+ M src/components/PmDietaryLeverEnhancer.tsx
+ M src/data/substance-input-pages.json
+ M static/bibtex/BRAIN-diet.bib
+ M system/INDEX.md
+ M system/dietary-input-traceability-contract.md
+ M system/food-strategy-rollup-schema.md
+ M system/framework-qc-schema.md
+ M system/presentation-change-approvals.json
+ M system/presentation-change-control.md
+ M system/primary-mechanism-schema.md
+ M system/scientific-finding-schema.md
+ M system/sop-lifestyle-six-atom-presentation.md
+ M system/templates/primary-mechanism-template.mdx
+?? docs/foods/pears.md
+?? docs/substances/bioactive-compounds/acetic-acid.md
+?? review/circadian-pm3-identity-review-2026-11-10/REPORT.md
+?? review/intervention-food-substance-2026-11-06/proposal.md
+?? review/pm10-localhost-navigation-2026-11-05/report.md
+?? scripts/build-pm-explorer-sources.mjs
+?? scripts/canonical-scientific-projections.test.mjs
+?? scripts/compact-pm-explorer.test.mjs
+?? scripts/intervention-food-substance.test.mjs
+?? scripts/lib/intervention-food-substance.mjs
+?? scripts/tyrosine-animal-coverage.test.mjs
+?? src/components/CanonicalPmMission.tsx
+?? src/lib/interventionFoodSubstance.mjs
+?? src/lib/interventionFoodSubstanceDisplay.mjs
+?? static/explore/pm-explorer/pm-sources.json
+?? static/explore/pm-explorer/titles.json
+?? static/img/foods/pears/pears_large.webp
+?? static/img/foods/pears/pears_medium.webp
+?? static/img/foods/pears/pears_thumb.webp
+?? static/img/inchi/QTBSBXVTEAMEQO-UHFFFAOYSA-N.png
+?? system/canonical-scientific-projections.md

@@ -1,0 +1,1010 @@
+{
+  "files": [
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+      "sha256": "aae2d4bd3cbfe72cb295bf128fb69b9433a01cc9b62dfbb5e76d9e5a31f8d5e1",
+      "bytes": 149256
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+      "sha256": "214414dbed8d932b6cd39fa5ce05c48a6d7dfdea1ca284be0c6ce70b1051f456",
+      "bytes": 227092
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
+      "sha256": "33e1504e7427cc9eeb1156203239ab5c5547c28026b2046ae586066901134303",
+      "bytes": 176998
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+      "sha256": "58338261e3d498c17483a05c92800c8f1dc79b5dbac5ad668ea4571d86ded3f3",
+      "bytes": 123617
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+      "sha256": "d710cbc2d69ddba39be27602937c22165ba03dbac6d7be65bd5119b53cd4829f",
+      "bytes": 98579
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+      "sha256": "0939c7fb30ba61b96c7849257749635d06efef65239488255cd3dcae9fdf71c5",
+      "bytes": 120274
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+      "sha256": "b300db76f1239db92638a67161af24c0f1a7ef104cbe504bed06a4b4ba58a5ab",
+      "bytes": 129290
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
+      "sha256": "700be5276ccc16cdb47d8818790c2f61e3ba791f01da8f9695317f006e30090c",
+      "bytes": 38637
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx",
+      "sha256": "638976b0816ead8808a81233cb5e993f1be8bb6c3f998acae3b57c9b173c08b1",
+      "bytes": 63952
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx",
+      "sha256": "53ee73cbc2007e328c5f0bc73138cdd5bf9fd831d4e26c18f952a069ac9c26d6",
+      "bytes": 47437
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx",
+      "sha256": "ca17cc443a5388e219441df297c18f6d624ffc8d2c4719315551e0e8365f1889",
+      "bytes": 119350
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+      "sha256": "acdf83bc8dc5e1b1d7ebf2403a9140bbeeb9bcab4b9292140de29174315dc6eb",
+      "bytes": 80287
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx",
+      "sha256": "ff54034338886ea5ff639051d28e492dd35455c2a9b9546a22c9f5720ebe49a0",
+      "bytes": 37849
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/docs/biological-targets/mitochondrial-function-bioenergetics.md",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/docs/biological-targets/mitochondrial-function-bioenergetics.md",
+      "sha256": "adaa250c3d21d2ea31e21b8a6d4d3c59a4552ae3c1b75e2894853e3a39f16fcc",
+      "bytes": 76748
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/docs/foods/apples.md",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/docs/foods/apples.md",
+      "sha256": "23e23adf8c3411d1af95cab4a3cf819844fa1891e54e7c076725f3636af43951",
+      "bytes": 8496
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/docs/foods/vinegar-pickles.md",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/docs/foods/vinegar-pickles.md",
+      "sha256": "f0484fa419fd475168c4951fe02d7620315f357ba8e62d7342c718c0bb881361",
+      "bytes": 12180
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/docs/foods/vinegar.md",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/docs/foods/vinegar.md",
+      "sha256": "f98d963b44b5a9a9cf5388d11e59374b8840122cb670ccc4c8249f93ff86c8e4",
+      "bytes": 4397
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/docs/recipes/Dinner/turkey-wing-stew.md",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/docs/recipes/Dinner/turkey-wing-stew.md",
+      "sha256": "5e490183846d70ca3566c3e353b6cc2201c706de4fd21c6c58e106d276ed3e95",
+      "bytes": 8356
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/docs/substances/bioactive-compounds/acetic-acid.md",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/docs/substances/bioactive-compounds/acetic-acid.md",
+      "sha256": "74e0530050e8734a29911e4373e9c0321c5b4959dc55ad7a028f1f40b68761db",
+      "bytes": 5004
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/docs/substances/microbial-metabolites/scfas/acetate.md",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/docs/substances/microbial-metabolites/scfas/acetate.md",
+      "sha256": "25a56f060fd2f03a01b5817a38f82ae084cbd71d8b6b2ff8da146b346d886c1b",
+      "bytes": 3227
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/docs/tags.yml",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/docs/tags.yml",
+      "sha256": "b7885dc5acc9930d8e36d073bd819149dc0609e747a0ed01a18223929f338e2a",
+      "bytes": 47209
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/registry/substances.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/registry/substances.json",
+      "sha256": "fc5856c917f5dbe76fcc44012685f34ff1ad7055c85b2cbd82ad9a36169318b8",
+      "bytes": 39417
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/review/intervention-food-substance-2026-11-06/proposal.md",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/review/intervention-food-substance-2026-11-06/proposal.md",
+      "sha256": "cd34958465a02e979e6f1cb0d6e8f2ddaf87e73791c08ac8f445a27b65abab53",
+      "bytes": 1725
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/review/pm10-localhost-navigation-2026-11-05/report.md",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/review/pm10-localhost-navigation-2026-11-05/report.md",
+      "sha256": "038bcf1138ee794224b04804378055a0e3f2b59446b8437b6ba069ab8417cbff",
+      "bytes": 244
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/scripts/generate-food-strategy-rollup.mjs",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/scripts/generate-food-strategy-rollup.mjs",
+      "sha256": "6c7164ed6885afaa1c94057bc54d3919631f84e3442ee53d7943212fbcd903e9",
+      "bytes": 3723
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/scripts/intervention-food-substance.test.mjs",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/scripts/intervention-food-substance.test.mjs",
+      "sha256": "697a1c9b69868b70fdb6683611e2e5506bb9c953ca903d7eb1b9a10ded495c98",
+      "bytes": 3698
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/scripts/lib/intervention-food-substance.mjs",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/scripts/lib/intervention-food-substance.mjs",
+      "sha256": "bc411b3658d7c5d4fbbca7c87ed75ed7e9c2daf80284f265e9cc71325f1dbe98",
+      "bytes": 3775
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/src/components/NutritionTable.tsx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/src/components/NutritionTable.tsx",
+      "sha256": "54aad23e28d5d9f99424951ff87cf01179dd22a1c45150ee86c6ca2fc2401363",
+      "bytes": 29496
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/src/components/PilotInterventionDisclosure.tsx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/src/components/PilotInterventionDisclosure.tsx",
+      "sha256": "77ddc0d48292edc96603c3f4d1724c6b87fd0662a6d3ff9bfc78daf092a86aa0",
+      "bytes": 1372
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/src/components/PmDietaryLeverEnhancer.tsx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/src/components/PmDietaryLeverEnhancer.tsx",
+      "sha256": "2702f4d963731bdb0c8de92397c608d3d16e43a87bf58d64bb3198447b066e27",
+      "bytes": 18564
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/src/data/substance-input-pages.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/src/data/substance-input-pages.json",
+      "sha256": "9b905548666f3806f07ac212b775b3280f3368f6239db0b96fb731467c442613",
+      "bytes": 21413
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/src/lib/interventionFoodSubstance.mjs",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/src/lib/interventionFoodSubstance.mjs",
+      "sha256": "94fb3dc7b33d29111782ce4fb6555ece2c0afd6a2ee7fcff7b1d11d87e942a15",
+      "bytes": 5306
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/src/lib/interventionFoodSubstanceDisplay.mjs",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/src/lib/interventionFoodSubstanceDisplay.mjs",
+      "sha256": "74e83152c17e55d552a420a57465c7dc799c389d0d1a89b32316a080c0afc44d",
+      "bytes": 2805
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/static/bibtex/BRAIN-diet.bib",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/static/bibtex/BRAIN-diet.bib",
+      "sha256": "187149029003465142119a4f56122d38df9dfaa964e117efed3cb1c34847022b",
+      "bytes": 1143055
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/static/img/inchi/QTBSBXVTEAMEQO-UHFFFAOYSA-N.png",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/static/img/inchi/QTBSBXVTEAMEQO-UHFFFAOYSA-N.png",
+      "sha256": "1578ae9927968ada162ea52ee90baeeab0646e690615be125d552346cc072ba7",
+      "bytes": 988
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/system/food-strategy-rollup-schema.md",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/system/food-strategy-rollup-schema.md",
+      "sha256": "627af2ff6bd6d36007cee14679c0770b7ab023acb989f332c5ef60aa7b3cd7c3",
+      "bytes": 5735
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/system/sop-lifestyle-six-atom-presentation.md",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/system/sop-lifestyle-six-atom-presentation.md",
+      "sha256": "1b758e6dc66029c94c263d62b7c9e8a35e9340af9e7830afef75560510153bbb",
+      "bytes": 18642
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/candidate-overlay/system/templates/primary-mechanism-template.mdx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/candidate-overlay/system/templates/primary-mechanism-template.mdx",
+      "sha256": "16055199708fb74beb7ae6b6e33b60f4524552cb339e8155508d578a658678eb",
+      "bytes": 12374
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/codex.head",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/codex.head",
+      "sha256": "807e555e0d62ae1ed0f54e3aae60f0aa5e4a471a9f0f27ae68ba4957d960a2ed",
+      "bytes": 41
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/codex.patch",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/codex.patch",
+      "sha256": "af9fbd305a1fddc7a468e3e8c30c28a733690793a8ae6a550573d0d9231bacf1",
+      "bytes": 7384530
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/codex.status",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/codex.status",
+      "sha256": "7277b343fa2ad85a7a4a6f525021054fb2211347c58736ba6ffe0ac1b24c2237",
+      "bytes": 151724
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/codex.source-only.tar.gz",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/codex.tar.gz",
+      "sha256": "8bc66f1302c70cb87433922ac23a047eeb78342ce06a7d46b6cfe8fcd0fe79d7",
+      "bytes": 15482612
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/codex.tar.gz.members.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/codex.tar.gz",
+      "sha256": "82835c11125cc00c96e3e4a35e6373949254b9d75acd890890747194539ba59d",
+      "bytes": 61778
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/cursor.head",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/cursor.head",
+      "sha256": "4df2c70c47510a05ebc05ec5f04ee5c64d2e7e75bf3a5b08d97e8149ef529b94",
+      "bytes": 41
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/cursor.patch",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/cursor.patch",
+      "sha256": "aa66106169cb5c8febf8f82c80bbce3665e4f0d28ddbd3104c165a82b6ae3145",
+      "bytes": 108702
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/cursor.status",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/cursor.status",
+      "sha256": "3d1a34c7fb02b15578a9a254f1e04bf248dc37e6afb9903b93fb9b7a7370f3e5",
+      "bytes": 3456
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/cursor.source-only.tar.gz",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/cursor.tar.gz",
+      "sha256": "9e1c8a122921f86a6f6b77587dff2405823b77773903664faacab5182b8737e9",
+      "bytes": 1672726
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/cursor.tar.gz.members.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/cursor.tar.gz",
+      "sha256": "c2295f1ba6d35e92d72f98572934db8ed175b477d3f536d51710df895f411ec2",
+      "bytes": 10692
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/glutamine-local/browser-final.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/glutamine-local/browser-final.json",
+      "sha256": "deb1eae58fd91fdccdc2b5e6e8a483e53d730005554eed5b253fe4a9d1cab35a",
+      "bytes": 698
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/glutamine-local/browser.cjs",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/glutamine-local/browser.cjs",
+      "sha256": "0edbc11af4bd96929f46e8e0641f4e7c607a600a8e81749874bb7f1046597ae4",
+      "bytes": 2035
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/glutamine-local/browser.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/glutamine-local/browser.json",
+      "sha256": "323d53666fe45be4d4ce690d346af86a5b0b4e06984c3d6bca011f9cbce3e919",
+      "bytes": 4872
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/glutamine-local/edge-delta.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/glutamine-local/edge-delta.json",
+      "sha256": "1043a23ddd65361812f05c6ceb7f0b9d79bdfa0d0c20b13bcd0ea87ec81282ea",
+      "bytes": 3196
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/glutamine-local/explorer-before.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/glutamine-local/explorer-before.json",
+      "sha256": "647eb350befd84afbb8338c446d03c33ee9991328916124ac16d983aa2d70213",
+      "bytes": 10523650
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/glutamine-local/implementation.md",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/glutamine-local/implementation.md",
+      "sha256": "1bb269437a1912aadda4c9dfa736abcd0f96acc552801e7275cb1bc0d7b573ac",
+      "bytes": 6892
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/glutamine-local/source-files.txt",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/glutamine-local/source-files.txt",
+      "sha256": "43898a33e6223d2bb0ac3a78eb82311ddae6c8f3a0cb9803818a5fb7cc063758",
+      "bytes": 425
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/glutamine-local/wheel-before.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/glutamine-local/wheel-before.json",
+      "sha256": "1056bb1ccb2912274af575dafc68728fb5df566f4ff3e3f2c99e47f71616d7bb",
+      "bytes": 6925296
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/heap6-location.txt",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/heap6-location.txt",
+      "sha256": "f3b73fd02c0cf20b7546004cc1b597dc6bef61e7f3a36abdb665160121770bbd",
+      "bytes": 68
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/local-build-location.txt",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/local-build-location.txt",
+      "sha256": "9411e150345f11563a677e6977fe3bd93ccd431986408c61b2927e213468571d",
+      "bytes": 79
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/netlify6-location.txt",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/netlify6-location.txt",
+      "sha256": "72ad4dd6d314387aaa582fdaf1ff1acce96b4ff815b779925c06cd7921dfd852",
+      "bytes": 77
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/overlap.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/overlap.json",
+      "sha256": "20dddebc861331992918ecd8308b7e3fe0581d89368d323a1e6a65edce52a289",
+      "bytes": 3132
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-approved-162717/baseline.txt",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-approved-162717/baseline.txt",
+      "sha256": "1bbd035370bc319d992627ce251e9931da03c734fd274448d0170d780e3b3934",
+      "bytes": 41
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-approved-162717/checks.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-approved-162717/checks.json",
+      "sha256": "20aa2dc10c6086f7aa7e8e8412300e7a677cd639f405382cba1a5605dd6d9a3d",
+      "bytes": 1045
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-approved-162717/reconciled-paths.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-approved-162717/reconciled-paths.json",
+      "sha256": "86d73af1fc52719f01367774f1a00a04ce05333dec68e4abde1048b5c6370011",
+      "bytes": 825
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-approved-162717/release-readiness.md",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-approved-162717/release-readiness.md",
+      "sha256": "8b79eb980b1648d6f6eac14ecb08f0c053915c93776e8e9c62cbbe8125ec10c1",
+      "bytes": 1378
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-approved-162717/scientific-review.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-approved-162717/scientific-review.json",
+      "sha256": "cb05b7a72e5c06e9167c06246dcf12f28056de512abaae98f26e02761384e349",
+      "bytes": 7506
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-approved-162717/scopes.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-approved-162717/scopes.json",
+      "sha256": "af933f7338a454a84aff5d3e22cdef2ca4903ef062b4fa06c6daac7b417b47ed",
+      "bytes": 3778
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-approved-162717/snapshot-mismatches.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-approved-162717/snapshot-mismatches.json",
+      "sha256": "40677180ae40c9d286281a29b25a513a0fcfbde0f6ec4bf464282ae1556257d4",
+      "bytes": 38
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-approved-162717.stdout",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-approved-162717.stdout",
+      "sha256": "d9edf347fbfedf5ae30770dfa0f49753c1b2adf0dd3b50db96a5c6755ccda655",
+      "bytes": 149
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-four-presentations/baseline.txt",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-four-presentations/baseline.txt",
+      "sha256": "1bbd035370bc319d992627ce251e9931da03c734fd274448d0170d780e3b3934",
+      "bytes": 41
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-four-presentations/checks.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-four-presentations/checks.json",
+      "sha256": "31bf72990e6fccf90e264943ae93cd3eb4013c267d8dc47c87678e53e88b5af2",
+      "bytes": 1045
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-four-presentations/reconciled-paths.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-four-presentations/reconciled-paths.json",
+      "sha256": "661922e958437344d85dc203163b9d65183c707a4c4247298be1d37f24893ada",
+      "bytes": 918
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-four-presentations/release-readiness.md",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-four-presentations/release-readiness.md",
+      "sha256": "509f03bee16f2e44bcd60e657ffa3c36598c6ef8f53eda2a9c699aed5d9157cd",
+      "bytes": 1084
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-four-presentations/scientific-review.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-four-presentations/scientific-review.json",
+      "sha256": "cb05b7a72e5c06e9167c06246dcf12f28056de512abaae98f26e02761384e349",
+      "bytes": 7506
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-four-presentations/scopes.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-four-presentations/scopes.json",
+      "sha256": "af933f7338a454a84aff5d3e22cdef2ca4903ef062b4fa06c6daac7b417b47ed",
+      "bytes": 3778
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-four-presentations/snapshot-mismatches.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-four-presentations/snapshot-mismatches.json",
+      "sha256": "40677180ae40c9d286281a29b25a513a0fcfbde0f6ec4bf464282ae1556257d4",
+      "bytes": 38
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-four-presentations/viewer-checksums.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-four-presentations/viewer-checksums.json",
+      "sha256": "bd58585cd3cf5457bac7130e4448b369df000cce03b8b5d5577bb718167e704c",
+      "bytes": 2306
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-four-presentations.before",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-four-presentations.before",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-four-presentations.stdout",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-four-presentations.stdout",
+      "sha256": "c5a42d2b76c2db4a2d5fd9135e1240d78b9e9991386313c5fb1c28881239648c",
+      "bytes": 152
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-gate/baseline.txt",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-gate/baseline.txt",
+      "sha256": "1bbd035370bc319d992627ce251e9931da03c734fd274448d0170d780e3b3934",
+      "bytes": 41
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-gate/checks.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-gate/checks.json",
+      "sha256": "80d4a7ae3cab51e287646f1d6412767eb0b25dddf6d27c694dbe0ce4ff8bd59a",
+      "bytes": 1045
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-gate/proposed-release-manifest.tsv",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-gate/proposed-release-manifest.tsv",
+      "sha256": "5becb4ff25b2b3be3d3ed356b895f600328c0d70f855cfc0aa8ee911781da5c7",
+      "bytes": 56149
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-gate/reconciled-paths.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-gate/reconciled-paths.json",
+      "sha256": "3ff353f908482c6386a054a5c6815410f4cf433570c91c638b1eeea2af9fdda2",
+      "bytes": 773
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-gate/scientific-review.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-gate/scientific-review.json",
+      "sha256": "6c810726d71c0c475da0fed379069bc6b99c1d3713d5cbd5ee9a97c35d5c4c2d",
+      "bytes": 7332
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-gate/scope-display.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-gate/scope-display.json",
+      "sha256": "55decdd370a603bffe2202d13fa10690fe8faf7d10942c1cfa054feac44f3ceb",
+      "bytes": 310
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-gate/scopes.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-gate/scopes.json",
+      "sha256": "af933f7338a454a84aff5d3e22cdef2ca4903ef062b4fa06c6daac7b417b47ed",
+      "bytes": 3778
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-gate/snapshot-mismatches.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-gate/snapshot-mismatches.json",
+      "sha256": "29ecda413088976f94972b0480bd644a08f8592449cc530ad67420e27f6a0f7b",
+      "bytes": 19664
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-gate.stdout",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-gate.stdout",
+      "sha256": "27e1cba34e87c890798d0c806faf288cfdec3427237a62efd814d8a5a28ce3c5",
+      "bytes": 138
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-run-01/baseline.txt",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-run-01/baseline.txt",
+      "sha256": "1bbd035370bc319d992627ce251e9931da03c734fd274448d0170d780e3b3934",
+      "bytes": 41
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-run-01.stdout",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-run-01.stdout",
+      "sha256": "7d91d9f180257c54cb790588dd2024a6693a53974c97f0a9b03b76922128d74a",
+      "bytes": 773
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-run-02/baseline.txt",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-run-02/baseline.txt",
+      "sha256": "1bbd035370bc319d992627ce251e9931da03c734fd274448d0170d780e3b3934",
+      "bytes": 41
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-run-02/checks.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-run-02/checks.json",
+      "sha256": "aa64459dab97ce84b89c28d316a85853ba47873d86d6dd2d46c33221c2eafa36",
+      "bytes": 1020
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-run-02/recovery-verification.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-run-02/recovery-verification.json",
+      "sha256": "030c06f7c1ac29480ca4177797c1fdd3c64fbae15616042cca6450b75b74839a",
+      "bytes": 477
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-run-02/scientific-review.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-run-02/scientific-review.json",
+      "sha256": "6c810726d71c0c475da0fed379069bc6b99c1d3713d5cbd5ee9a97c35d5c4c2d",
+      "bytes": 7332
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-run-02/scopes.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-run-02/scopes.json",
+      "sha256": "af933f7338a454a84aff5d3e22cdef2ca4903ef062b4fa06c6daac7b417b47ed",
+      "bytes": 3778
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-run-02/snapshot-mismatches.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-run-02/snapshot-mismatches.json",
+      "sha256": "29ecda413088976f94972b0480bd644a08f8592449cc530ad67420e27f6a0f7b",
+      "bytes": 19664
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-run-02.stdout",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-run-02.stdout",
+      "sha256": "061e1790f3d432e8d3db818632524f33d45b4b695f57f38df45af955d38069b5",
+      "bytes": 140
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-top-ten-162351/baseline.txt",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-top-ten-162351/baseline.txt",
+      "sha256": "1bbd035370bc319d992627ce251e9931da03c734fd274448d0170d780e3b3934",
+      "bytes": 41
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-top-ten-162351/checks.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-top-ten-162351/checks.json",
+      "sha256": "5fc3c6d3024715b865f1b5f77db8b040e4b7c36dfe3a6f5e1d0915a3701a6c0d",
+      "bytes": 1045
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-top-ten-162351/publication-source-review.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-top-ten-162351/publication-source-review.json",
+      "sha256": "9ec34030b67ac24f9fe71ae5607d2e6c7229170c3e6e1380da3f7cc5bb6516cf",
+      "bytes": 31967
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-top-ten-162351/reconciled-paths.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-top-ten-162351/reconciled-paths.json",
+      "sha256": "86d73af1fc52719f01367774f1a00a04ce05333dec68e4abde1048b5c6370011",
+      "bytes": 825
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-top-ten-162351/release-readiness.md",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-top-ten-162351/release-readiness.md",
+      "sha256": "7ffe970dfa675e6e76870da26c9eca88284ddc26db3b4f407cebd3052223d06e",
+      "bytes": 3008
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-top-ten-162351/scientific-review.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-top-ten-162351/scientific-review.json",
+      "sha256": "cb05b7a72e5c06e9167c06246dcf12f28056de512abaae98f26e02761384e349",
+      "bytes": 7506
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-top-ten-162351/scopes.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-top-ten-162351/scopes.json",
+      "sha256": "af933f7338a454a84aff5d3e22cdef2ca4903ef062b4fa06c6daac7b417b47ed",
+      "bytes": 3778
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-top-ten-162351/snapshot-mismatches.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-top-ten-162351/snapshot-mismatches.json",
+      "sha256": "145c90b0bb23a49bab76d7a9d3cbfc04d4893815b9548917834e9fb18f61cb98",
+      "bytes": 22599
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/readiness-top-ten-162351.stdout",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/readiness-top-ten-162351.stdout",
+      "sha256": "d9b88fd6b9828123ca2decf4979e1f375624813b6f60c0d3af0b19e46375dcee",
+      "bytes": 148
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/reconciled-inputs.sha256.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/reconciled-inputs.sha256.json",
+      "sha256": "816cc2446762ec915621f8b947e66ed352773deba114685c990d4d1aca844319",
+      "bytes": 1714
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/reconciliation.md",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/reconciliation.md",
+      "sha256": "dffa15ee309fb5f35f137460ae726190c7592cc0158ce391c7d007a1ff88dc90",
+      "bytes": 2008
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/release-readiness.md",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/release-readiness.md",
+      "sha256": "8c7779bfdedeb6390bdf4e1dfdc1b99b1306b6a255d5ca2c898ea5c3f78b95b6",
+      "bytes": 7889
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/shared-viewer-equivalence.md",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/shared-viewer-equivalence.md",
+      "sha256": "88bfcc173beea322a5693b9704e30fa8a5b40dbbee17e570e53956b847ce6853",
+      "bytes": 1761
+    },
+    {
+      "path": "recovery/20261114-evidence/20261111-095037/sync-plan.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/20261111-095037/sync-plan.json",
+      "sha256": "c12839a3a9d1a27ab458832f2a109f8540d6a13dcfa7a2c5d0dfdfebe7bf9fea",
+      "bytes": 9004
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/1/base",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/1/base",
+      "sha256": "fec2ba1d38dabc7b2a034f4e9ffe7ec2ad1079547a2ff95086b91d0a4b53fb7a",
+      "bytes": 426632
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/1/candidate",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/1/candidate",
+      "sha256": "fec2ba1d38dabc7b2a034f4e9ffe7ec2ad1079547a2ff95086b91d0a4b53fb7a",
+      "bytes": 426632
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/1/cursor",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/1/cursor",
+      "sha256": "2af4daef484c5633df08be1fb3e7f458420dc60ffe2f952c87be76b9e8221bae",
+      "bytes": 522009
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/1/merged",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/1/merged",
+      "sha256": "2af4daef484c5633df08be1fb3e7f458420dc60ffe2f952c87be76b9e8221bae",
+      "bytes": 522009
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/3/base",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/3/base",
+      "sha256": "35a5cb08694f8947a2b4f01f027e68d3b7da609edeb93f208eebecbcfd944860",
+      "bytes": 26230
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/3/candidate",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/3/candidate",
+      "sha256": "35a5cb08694f8947a2b4f01f027e68d3b7da609edeb93f208eebecbcfd944860",
+      "bytes": 26230
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/3/cursor",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/3/cursor",
+      "sha256": "22829d5754957e0a54d1a6198a283394dc9e93f3de47025419057f67cde58d2f",
+      "bytes": 35182
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/3/merged",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/3/merged",
+      "sha256": "22829d5754957e0a54d1a6198a283394dc9e93f3de47025419057f67cde58d2f",
+      "bytes": 35182
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/4/base",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/4/base",
+      "sha256": "43e182aff52905950587855de1427e34c3c37d82d69b30aedba0bd44fdf411c8",
+      "bytes": 2730
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/4/candidate",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/4/candidate",
+      "sha256": "43e182aff52905950587855de1427e34c3c37d82d69b30aedba0bd44fdf411c8",
+      "bytes": 2730
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/4/cursor",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/4/cursor",
+      "sha256": "616a434da62c855df4d802af82a87bfbbb969a46da37389c74b2939f2ebd71da",
+      "bytes": 21300
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/4/merged",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/4/merged",
+      "sha256": "616a434da62c855df4d802af82a87bfbbb969a46da37389c74b2939f2ebd71da",
+      "bytes": 21300
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/approved-four-install/PM1-H1-BRS-X_ECS-PM1_.mdx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/approved-four-install/PM1-H1-BRS-X_ECS-PM1_.mdx",
+      "sha256": "8ef5398f2c4a554c1e3198a7e2bb539acaf20778a70206b74edbc60d0f5f1343",
+      "bytes": 39685
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/approved-four-install/PM3-H1-BRS4-FM1-PM3.mdx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/approved-four-install/PM3-H1-BRS4-FM1-PM3.mdx",
+      "sha256": "638976b0816ead8808a81233cb5e993f1be8bb6c3f998acae3b57c9b173c08b1",
+      "bytes": 63952
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/approved-four-install/PM4-H1-BRS5-FM2-PM4.mdx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/approved-four-install/PM4-H1-BRS5-FM2-PM4.mdx",
+      "sha256": "eadafb52ad975063d15e64dada2283c8df0ea8f035229e4ea754a2c0c51f6c0a",
+      "bytes": 80498
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/approved-four-install/PM6-H1-BRS-X_Hormones-PM6_.mdx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/approved-four-install/PM6-H1-BRS-X_Hormones-PM6_.mdx",
+      "sha256": "f50def7504a376268a4204f21a17f1df9477baeffdf84a35a4c2423acd2867ad",
+      "bytes": 28734
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/approved-four-install/manifest.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/approved-four-install/manifest.json",
+      "sha256": "3e193b663218a46c62ae2798f83b08bb07671e5b37679bcf73b5ff8a654846f0",
+      "bytes": 1656
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/approved-four-install/results.md",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/approved-four-install/results.md",
+      "sha256": "8a74ee65f5ff1f0e435f2f707f9e9d882c2e1da6cd174e8aff9453e2fe209497",
+      "bytes": 2082
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/files.json",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/files.json",
+      "sha256": "c3272de3b5762c077921ccbb06fa0738c1aee81aafd95817bbec1ba93acd8c1c",
+      "bytes": 438
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/food-classification-before.mjs",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/food-classification-before.mjs",
+      "sha256": "235ff67f9683717bff3dbc8ccfc7dd5fca0c22aa0848e823c37d13084f55ce73",
+      "bytes": 7796
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/pm11-before.mdx",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/pm11-before.mdx",
+      "sha256": "cfc7aded08fd00d601327d6d3a64d7f53ea18a4dd3f726b676a0c733cea7b21e",
+      "bytes": 39482
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/reconciliation.txt",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/reconciliation.txt",
+      "sha256": "e29c58c6ac83aa35b31fd0962bfba33e32243d3942f569410aa7028e936a2a12",
+      "bytes": 1661
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/ten-candidate-hypothesis-appraisal.md",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/ten-candidate-hypothesis-appraisal.md",
+      "sha256": "e40d2b94265a70853347774a5aad119c2e3758e6b18c73aecd84ab46551b4b3a",
+      "bytes": 58526
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/validator/base",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/validator/base",
+      "sha256": "8e7f04e4a835e06a67218797b3febe71ea84d0ad0697468c76a8943e516e66a1",
+      "bytes": 5455
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/validator/candidate",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/validator/candidate",
+      "sha256": "8e7f04e4a835e06a67218797b3febe71ea84d0ad0697468c76a8943e516e66a1",
+      "bytes": 5455
+    },
+    {
+      "path": "recovery/20261114-evidence/hypotheses-taurine-20261114-152836/validator/cursor",
+      "origin": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/hypotheses-taurine-20261114-152836/validator/cursor",
+      "sha256": "9f99a13110ccbe19d68e139ca807f2d4334f59003f2c4fa64268156400f32c35",
+      "bytes": 5506
+    },
+    {
+      "path": "recovery/20261114-evidence/recovery-checkouts.json",
+      "origin": "/tmp/recovery-checkouts.json",
+      "sha256": "a1bc6548619b1d4ae4e27690719ebed9bee3bfaac1951d69900ddcaa6ec436a5",
+      "bytes": 1049907
+    },
+    {
+      "path": "recovery/20261114-evidence/backup-plan.json",
+      "origin": "/tmp/backup-plan.json",
+      "sha256": "61a313afd172aeb0283a2643d92a4c762553632b61f26fbbe4551ae0e17a69a7",
+      "bytes": 2873150
+    },
+    {
+      "path": "recovery/20261114-evidence/backup-commits.json",
+      "origin": "/tmp/backup-commits.json",
+      "sha256": "7ec760b938ca1a5a00a0f3f3a1f6af806eccf1153a09fb9589184eb599f197de",
+      "bytes": 4410
+    },
+    {
+      "path": "recovery/20261114-evidence/pr243-content-comparison.json",
+      "origin": "/tmp/pr243-content-comparison.json",
+      "sha256": "d188dd27471f0e12553d8f1076f94cd84665a43a4c39f3ee5e58fcc6856ac906",
+      "bytes": 20216
+    },
+    {
+      "path": "recovery/20261114-evidence/startup-before.json",
+      "origin": "/tmp/startup-before.json",
+      "sha256": "bfc3fe7006c9618c057c6bef397a2a06d79f2f0fc96d14c2cfc16795dd1954f6",
+      "bytes": 1776
+    }
+  ],
+  "excluded_logs": [
+    "20261111-095037/apple-grouping-tests.log",
+    "20261111-095037/combined-tests.log",
+    "20261111-095037/glutamine-local/bib.log",
+    "20261111-095037/glutamine-local/build.log",
+    "20261111-095037/glutamine-local/chrome.log",
+    "20261111-095037/glutamine-local/dev.log",
+    "20261111-095037/glutamine-local/final-tests.log",
+    "20261111-095037/glutamine-local/focused.log",
+    "20261111-095037/glutamine-local/mapper.log",
+    "20261111-095037/glutamine-local/nutrition.log",
+    "20261111-095037/glutamine-local/sec.log",
+    "20261111-095037/glutamine-local/wheel.log",
+    "20261111-095037/heap6-production.log",
+    "20261111-095037/occurrence-tests.log",
+    "20261111-095037/readiness-approved-162717/bib-validate.log",
+    "20261111-095037/readiness-approved-162717/build.log",
+    "20261111-095037/readiness-approved-162717/corrected-candidate.log",
+    "20261111-095037/readiness-approved-162717/dietary-inputs-check.log",
+    "20261111-095037/readiness-approved-162717/explorer.log",
+    "20261111-095037/readiness-approved-162717/findings-check.log",
+    "20261111-095037/readiness-approved-162717/focused.log",
+    "20261111-095037/readiness-approved-162717/generate-BRS-X.log",
+    "20261111-095037/readiness-approved-162717/generate-BRS1.log",
+    "20261111-095037/readiness-approved-162717/generate-BRS2.log",
+    "20261111-095037/readiness-approved-162717/generate-BRS3.log",
+    "20261111-095037/readiness-approved-162717/generate-BRS4.log",
+    "20261111-095037/readiness-approved-162717/generate-BRS5.log",
+    "20261111-095037/readiness-approved-162717/generate-BRS6.log",
+    "20261111-095037/readiness-approved-162717/generated-drift.log",
+    "20261111-095037/readiness-approved-162717/ledger-and-protocols.log",
+    "20261111-095037/readiness-approved-162717/manifest.log",
+    "20261111-095037/readiness-approved-162717/mechanisms-validate.log",
+    "20261111-095037/readiness-approved-162717/nutrition-validate.log",
+    "20261111-095037/readiness-approved-162717/presentation-check.log",
+    "20261111-095037/readiness-approved-162717/projection-audit.log",
+    "20261111-095037/readiness-approved-162717/publication-diff.log",
+    "20261111-095037/readiness-approved-162717/ranked-provenance.log",
+    "20261111-095037/readiness-approved-162717/sec-check.log",
+    "20261111-095037/readiness-approved-162717/substance-validate.log",
+    "20261111-095037/readiness-approved-162717/test-composition-provenance.log",
+    "20261111-095037/readiness-approved-162717/test-input-substance-food.log",
+    "20261111-095037/readiness-approved-162717/test-recipe-nutrition.log",
+    "20261111-095037/readiness-approved-162717/test-substance-schema.log",
+    "20261111-095037/readiness-four-presentations/bib-validate.log",
+    "20261111-095037/readiness-four-presentations/build.log",
+    "20261111-095037/readiness-four-presentations/dietary-inputs-check.log",
+    "20261111-095037/readiness-four-presentations/explorer.log",
+    "20261111-095037/readiness-four-presentations/findings-check.log",
+    "20261111-095037/readiness-four-presentations/focused.log",
+    "20261111-095037/readiness-four-presentations/generate-BRS-X.log",
+    "20261111-095037/readiness-four-presentations/generate-BRS1.log",
+    "20261111-095037/readiness-four-presentations/generate-BRS2.log",
+    "20261111-095037/readiness-four-presentations/generate-BRS3.log",
+    "20261111-095037/readiness-four-presentations/generate-BRS4.log",
+    "20261111-095037/readiness-four-presentations/generate-BRS5.log",
+    "20261111-095037/readiness-four-presentations/generate-BRS6.log",
+    "20261111-095037/readiness-four-presentations/generated-drift.log",
+    "20261111-095037/readiness-four-presentations/ledger-and-protocols.log",
+    "20261111-095037/readiness-four-presentations/manifest.log",
+    "20261111-095037/readiness-four-presentations/mechanisms-validate.log",
+    "20261111-095037/readiness-four-presentations/nutrition-validate.log",
+    "20261111-095037/readiness-four-presentations/presentation-check.log",
+    "20261111-095037/readiness-four-presentations/projection-audit.log",
+    "20261111-095037/readiness-four-presentations/publication-diff.log",
+    "20261111-095037/readiness-four-presentations/ranked-provenance.log",
+    "20261111-095037/readiness-four-presentations/representative-regressions.log",
+    "20261111-095037/readiness-four-presentations/sec-check.log",
+    "20261111-095037/readiness-four-presentations/substance-validate.log",
+    "20261111-095037/readiness-four-presentations/test-composition-provenance.log",
+    "20261111-095037/readiness-four-presentations/test-input-substance-food.log",
+    "20261111-095037/readiness-four-presentations/test-recipe-nutrition.log",
+    "20261111-095037/readiness-four-presentations/test-substance-schema.log",
+    "20261111-095037/readiness-gate/bib-validate.log",
+    "20261111-095037/readiness-gate/build.log",
+    "20261111-095037/readiness-gate/dietary-inputs-check.log",
+    "20261111-095037/readiness-gate/explorer.log",
+    "20261111-095037/readiness-gate/findings-check.log",
+    "20261111-095037/readiness-gate/focused.log",
+    "20261111-095037/readiness-gate/generate-BRS-X.log",
+    "20261111-095037/readiness-gate/generate-BRS1.log",
+    "20261111-095037/readiness-gate/generate-BRS2.log",
+    "20261111-095037/readiness-gate/generate-BRS3.log",
+    "20261111-095037/readiness-gate/generate-BRS4.log",
+    "20261111-095037/readiness-gate/generate-BRS5.log",
+    "20261111-095037/readiness-gate/generate-BRS6.log",
+    "20261111-095037/readiness-gate/generated-drift.log",
+    "20261111-095037/readiness-gate/ledger-and-protocols.log",
+    "20261111-095037/readiness-gate/manifest.log",
+    "20261111-095037/readiness-gate/mechanisms-validate.log",
+    "20261111-095037/readiness-gate/nutrition-validate.log",
+    "20261111-095037/readiness-gate/presentation-check.log",
+    "20261111-095037/readiness-gate/projection-audit.log",
+    "20261111-095037/readiness-gate/publication-diff.log",
+    "20261111-095037/readiness-gate/ranked-provenance.log",
+    "20261111-095037/readiness-gate/sec-check.log",
+    "20261111-095037/readiness-gate/substance-validate.log",
+    "20261111-095037/readiness-gate/test-composition-provenance.log",
+    "20261111-095037/readiness-gate/test-input-substance-food.log",
+    "20261111-095037/readiness-gate/test-recipe-nutrition.log",
+    "20261111-095037/readiness-gate/test-substance-schema.log",
+    "20261111-095037/readiness-run-02/bib-validate.log",
+    "20261111-095037/readiness-run-02/build.log",
+    "20261111-095037/readiness-run-02/dietary-inputs-check.log",
+    "20261111-095037/readiness-run-02/explorer.log",
+    "20261111-095037/readiness-run-02/findings-check.log",
+    "20261111-095037/readiness-run-02/focused.log",
+    "20261111-095037/readiness-run-02/generate-BRS-X.log",
+    "20261111-095037/readiness-run-02/generate-BRS1.log",
+    "20261111-095037/readiness-run-02/generate-BRS2.log",
+    "20261111-095037/readiness-run-02/generate-BRS3.log",
+    "20261111-095037/readiness-run-02/generate-BRS4.log",
+    "20261111-095037/readiness-run-02/generate-BRS5.log",
+    "20261111-095037/readiness-run-02/generate-BRS6.log",
+    "20261111-095037/readiness-run-02/generated-drift.log",
+    "20261111-095037/readiness-run-02/ledger-and-protocols.log",
+    "20261111-095037/readiness-run-02/manifest.log",
+    "20261111-095037/readiness-run-02/mechanisms-validate.log",
+    "20261111-095037/readiness-run-02/nutrition-validate.log",
+    "20261111-095037/readiness-run-02/presentation-check.log",
+    "20261111-095037/readiness-run-02/projection-audit.log",
+    "20261111-095037/readiness-run-02/publication-diff.log",
+    "20261111-095037/readiness-run-02/ranked-provenance.log",
+    "20261111-095037/readiness-run-02/sec-check.log",
+    "20261111-095037/readiness-run-02/substance-validate.log",
+    "20261111-095037/readiness-run-02/test-composition-provenance.log",
+    "20261111-095037/readiness-run-02/test-input-substance-food.log",
+    "20261111-095037/readiness-run-02/test-recipe-nutrition.log",
+    "20261111-095037/readiness-run-02/test-substance-schema.log",
+    "20261111-095037/readiness-top-ten-162351/bib-validate.log",
+    "20261111-095037/readiness-top-ten-162351/build.log",
+    "20261111-095037/readiness-top-ten-162351/corrected-candidate.log",
+    "20261111-095037/readiness-top-ten-162351/dietary-inputs-check.log",
+    "20261111-095037/readiness-top-ten-162351/explorer.log",
+    "20261111-095037/readiness-top-ten-162351/findings-check.log",
+    "20261111-095037/readiness-top-ten-162351/focused.log",
+    "20261111-095037/readiness-top-ten-162351/generate-BRS-X.log",
+    "20261111-095037/readiness-top-ten-162351/generate-BRS1.log",
+    "20261111-095037/readiness-top-ten-162351/generate-BRS2.log",
+    "20261111-095037/readiness-top-ten-162351/generate-BRS3.log",
+    "20261111-095037/readiness-top-ten-162351/generate-BRS4.log",
+    "20261111-095037/readiness-top-ten-162351/generate-BRS5.log",
+    "20261111-095037/readiness-top-ten-162351/generate-BRS6.log",
+    "20261111-095037/readiness-top-ten-162351/generated-drift.log",
+    "20261111-095037/readiness-top-ten-162351/ledger-and-protocols.log",
+    "20261111-095037/readiness-top-ten-162351/manifest.log",
+    "20261111-095037/readiness-top-ten-162351/mechanisms-validate.log",
+    "20261111-095037/readiness-top-ten-162351/nutrition-validate.log",
+    "20261111-095037/readiness-top-ten-162351/presentation-check.log",
+    "20261111-095037/readiness-top-ten-162351/projection-audit.log",
+    "20261111-095037/readiness-top-ten-162351/publication-diff.log",
+    "20261111-095037/readiness-top-ten-162351/ranked-provenance.log",
+    "20261111-095037/readiness-top-ten-162351/sec-check.log",
+    "20261111-095037/readiness-top-ten-162351/substance-validate.log",
+    "20261111-095037/readiness-top-ten-162351/test-composition-provenance.log",
+    "20261111-095037/readiness-top-ten-162351/test-input-substance-food.log",
+    "20261111-095037/readiness-top-ten-162351/test-recipe-nutrition.log",
+    "20261111-095037/readiness-top-ten-162351/test-substance-schema.log",
+    "20261111-095037/safe-local-production.log"
+  ]
+}

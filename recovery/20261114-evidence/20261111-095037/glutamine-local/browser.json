@@ -1,0 +1,95 @@
+[
+  {
+    "name": "Explorer",
+    "url": "http://127.0.0.1:3180/explore/pm-explorer/?brs=BRS5&pm=BRS5-FM1-PM1&sub=glutamine",
+    "title": "BRAIN · Biology Explorer",
+    "found": true,
+    "links": [],
+    "text": "BRAIN Biology Explorer\nOverview\nBRS5 / BRS5-FM1-PM1 / Glutamine\nStart from food…\nAlgal Oil\nAlmonds\nAmaranth\nAnchovies\nApples\nAspar"
+  },
+  {
+    "name": "Wheel",
+    "url": "http://127.0.0.1:3180/explore/food-wheel/?substance=glutamine",
+    "title": "BRAIN Food Wheel",
+    "found": false,
+    "links": [],
+    "text": "Food and experimental evidence ledger\nBRAIN Food Wheel — Food → Substance → BRS/BRS-X\n Multiple Selection\nSelect food…\nAmaranth · "
+  },
+  {
+    "name": "Eggs",
+    "url": "http://127.0.0.1:3181/docs/foods/eggs/",
+    "title": "Eggs | The BRAIN Diet",
+    "found": true,
+    "links": [
+      "/docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine/",
+      "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity/",
+      "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/foods/eggs.md"
+    ],
+    "text": "Skip to main content\nThe BRAIN Diet\n⌘\nK\nAbout Us\nEditorial Team\nAdvisory Board\nFoodsEggs\nOn this page\nNutritional Highlights\nAdvan"
+  },
+  {
+    "name": "Beef",
+    "url": "http://127.0.0.1:3181/docs/foods/beef/",
+    "title": "Beef | The BRAIN Diet",
+    "found": true,
+    "links": [
+      "/docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine/",
+      "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity/",
+      "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/foods/beef.md"
+    ],
+    "text": "Skip to main content\nThe BRAIN Diet\n⌘\nK\nAbout Us\nEditorial Team\nAdvisory Board\nFoodsBeef\nOn this page\nNutritional Highlights\nAdvan"
+  },
+  {
+    "name": "Tofu",
+    "url": "http://127.0.0.1:3181/docs/foods/tofu/",
+    "title": "Tofu | The BRAIN Diet",
+    "found": true,
+    "links": [
+      "/docs/foods/beef/",
+      "/docs/foods/eggs/",
+      "/docs/foods/tofu/",
+      "/docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine/",
+      "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity/",
+      "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/foods/tofu.md"
+    ],
+    "text": "Skip to main content\nThe BRAIN Diet\n⌘\nK\nAbout Us\nEditorial Team\nAdvisory Board\nFoodsTofu\nOn this page\nNutritional Highlights\nAdvan"
+  },
+  {
+    "name": "Glutamine",
+    "url": "http://127.0.0.1:3181/docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine/",
+    "title": "Glutamine | The BRAIN Diet",
+    "found": true,
+    "links": [
+      "/docs/foods/beef/",
+      "/docs/foods/eggs/",
+      "/docs/foods/tofu/",
+      "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity/",
+      "/docs/papers/BRAIN-Diet-References/#zhou_glutamine_piibs_2019",
+      "/docs/tags/glutamine/",
+      "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine.md"
+    ],
+    "text": "Skip to main content\nThe BRAIN Diet\n⌘\nK\nAbout Us\nEditorial Team\nAdvisory Board\nSubstancesA–ZGGlutamine\nOn this page\nNutritional Hi"
+  },
+  {
+    "name": "PM1",
+    "url": "http://127.0.0.1:3181/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity/",
+    "title": "Gut Barrier / Tight Junction Integrity | The BRAIN Diet",
+    "found": true,
+    "links": [
+      "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity/",
+      "https://thebraindiet.org/docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine",
+      "/docs/foods/beef",
+      "/docs/foods/eggs",
+      "/docs/foods/tofu",
+      "/docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine",
+      "#sec-brs5-fm1-pm1-pm1-sop-glutamine-1-assessment-v1",
+      "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity#pm1-f2",
+      "?review=0#pm1-sop-glutamine-1",
+      "/docs/papers/BRAIN-Diet-References#zhou_glutamine_piibs_2019",
+      "/docs/papers/BRAIN-Diet-References/#zhou_glutamine_piibs_2019",
+      "/docs/papers/BRAIN-Diet-References/#li_glutamine_junction_pi3k_2009",
+      "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx"
+    ],
+    "text": "Skip to main content\nThe BRAIN Diet\n⌘\nK\nAbout Us\nEditorial Team\nAdvisory Board\nBiological Regulatory SystemsBRS5 - Gut-Brain Axis "
+  }
+]

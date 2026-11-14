@@ -1,0 +1,1968 @@
+# Tags for BRAIN Diet Documentation
+# This file defines all tags used across the documentation
+
+ADHD:
+  label: ADHD
+  permalink: /adhd
+  description: Attention deficit hyperactivity disorder
+
+ALA:
+  label: ALA (Alpha-Linolenic Acid)
+  permalink: /ala-alpha-linolenic-acid
+  description: Essential omega-3 precursor
+
+Algal Oil:
+  label: Algal Oil
+  permalink: /algal-oil
+  description: Vegan DHA source from microalgae
+
+Alzheimer's Disease:
+  label: Alzheimer's Disease
+  permalink: /alzheimer's-disease
+  description: Alzheimer's disease
+
+Amino Acid:
+  label: Amino Acid
+  permalink: /amino-acid
+  description: Essential and non-essential amino acids
+
+Anxiety & GAD:
+  label: Anxiety & GAD
+  permalink: /anxiety-gad
+  description: Anxiety and General Anxiety Disorder
+
+Arachidonic Acid:
+  label: Arachidonic Acid
+  permalink: /arachidonic-acid
+  description: Omega-6 PUFA
+
+Area:
+  label: Area
+  permalink: /area
+  description: Top-level documentation areas
+
+Aubergine:
+  label: Aubergine
+  permalink: /aubergine
+  description: Vegetable (eggplant) used in side dishes and mains
+
+Berberine:
+  label: Berberine
+  permalink: /berberine
+  description: Polyphenolic alkaloid
+
+BH4:
+  label: BH4
+  permalink: /bh4
+  description: Tetrahydrobiopterin; endogenous cofactor for aromatic-amino-acid hydroxylases and nitric-oxide synthases
+
+Beta-Glucans:
+  label: Beta-Glucans
+  permalink: /beta-glucans
+  description: Polysaccharides with immune-modulating properties
+
+Beta-Carotene:
+  label: β-Carotene
+  permalink: /beta-carotene
+  description: Vitamin A precursor; supports immune regulation and neuronal development
+
+Biological Target:
+  label: Biological Target
+  permalink: /biological-target
+  description: Key biological systems targeted by the BRAIN Diet
+
+Bipolar:
+  label: Bipolar
+  permalink: /bipolar
+  description: Bipolar disorder
+
+Calcium:
+  label: Calcium
+  permalink: /calcium
+  description: Essential mineral
+
+Carotenoid:
+  label: Carotenoid
+  permalink: /carotenoid
+  description: Carotenoid compounds with antioxidant and neuroprotective properties
+
+Carotenoids:
+  label: Carotenoids
+  permalink: /carotenoids
+  description: Plant pigments with antioxidant properties
+
+Choline:
+  label: Choline
+  permalink: /choline
+  description: Essential nutrient
+
+Betaine:
+  label: Betaine
+  permalink: /betaine
+  description: Trimethylglycine from food and from choline oxidation; methyl donor for BHMT
+
+CoQ10:
+  label: CoQ10
+  permalink: /coq10
+  description: Coenzyme Q10
+
+Boron:
+  label: Boron
+  permalink: /boron
+  description: Ultratrace mineral; bone and hormone metabolism
+
+Chromium:
+  label: Chromium
+  permalink: /chromium
+  description: Essential trace mineral; insulin and glucose handling
+
+Copper:
+  label: Copper
+  permalink: /copper
+  description: Essential trace mineral
+
+Creatine:
+  label: Creatine
+  permalink: /creatine
+  description: Amino acid derivative
+
+Cysteine:
+  label: Cysteine
+  permalink: /cysteine
+  description: Sulfur amino acid the body can make from methionine; food tables report the disulfide as cystine
+
+Curcumin:
+  label: Curcumin
+  permalink: /curcumin
+  description: Turmeric compound
+
+Depression & MDD:
+  label: Depression & MDD
+  permalink: /depression-mdd
+  description: Depression and Major Depressive Disorder
+
+EGCG:
+  label: EGCG
+  permalink: /egcg
+  description: Green tea catechin
+
+Cross-System Regulation:
+  label: Cross-System Regulation
+  permalink: /cross-system-regulation
+  description: Cross-system biological regulatory networks (BRS-X)
+
+Endocannabinoid System:
+  label: Endocannabinoid System
+  permalink: /endocannabinoid-system
+  description: Endocannabinoid system modulation
+
+Endogenous Cofactor:
+  label: Endogenous Cofactor
+  permalink: /endogenous-cofactor
+  description: Endogenously synthesised metabolic cofactors that are not dietary vitamins
+
+Endogenous Redox Compound:
+  label: Endogenous Redox Compound
+  permalink: /endogenous-redox-compound
+  description: Endogenously synthesised redox compounds whose availability is nutritionally and therapeutically relevant
+
+Essential Amino Acid:
+  label: Essential Amino Acid
+  permalink: /essential-amino-acid
+  description: Essential amino acids that must be obtained from diet
+
+Essential Amino Acids:
+  label: Essential Amino Acids
+  permalink: /essential-amino-acids
+  description: The nine essential amino acids
+
+Fatty Acid:
+  label: Fatty Acid
+  permalink: /fatty-acid
+  description: Essential fatty acids for brain health
+
+Flavonoid:
+  label: Flavonoid
+  permalink: /flavonoid
+  description: Flavonoid compounds, a subclass of polyphenols
+
+Food:
+  label: Food
+  permalink: /food
+  description: Brain-healthy foods in the BRAIN Diet
+
+Vegan Specialities:
+  label: Vegan Specialities
+  permalink: /vegan-specialities
+  description: Vegan-focused specialty foods and products in the BRAIN Diet
+
+Condiments:
+  label: Condiments
+  permalink: /condiments
+  description: Condiments, sauces, and flavour enhancers in the BRAIN Diet
+
+Arginine:
+  label: Arginine
+  permalink: /arginine
+  description: Conditionally essential amino acid; precursor for creatine and nitric oxide synthesis
+
+Genistein:
+  label: Genistein
+  permalink: /genistein
+  description: Soy isoflavone
+
+Glycine:
+  label: Glycine
+  permalink: /glycine
+  description: Nonessential amino acid; inhibitory neurotransmitter; supports sleep, gut barrier repair, and glutathione production
+
+GSH:
+  label: GSH
+  permalink: /gsh
+  description: Reduced glutathione; endogenous tripeptide redox buffer
+
+Glutathione:
+  label: Glutathione
+  permalink: /glutathione
+  description: Endogenous γ-glutamyl-cysteinyl-glycine tripeptide; GSH/GSSG redox resource pool
+
+Gut Microbiome:
+  label: Gut Microbiome
+  permalink: /gut-microbiome
+  description: Gut microbiome and gut-brain axis
+
+Histidine:
+  label: Histidine
+  permalink: /histidine
+  description: Essential amino acid
+
+Hormonal Response:
+  label: Hormonal Response
+  permalink: /hormonal-response
+  description: Hormonal response and endocrine balance
+
+Hydroxytyrosol:
+  label: Hydroxytyrosol
+  permalink: /hydroxytyrosol
+  description: Olive polyphenol
+
+Inflammation:
+  label: Inflammation
+  permalink: /inflammation
+  description: Chronic inflammation and neuroinflammation
+
+Insulin Response:
+  label: Insulin Response
+  permalink: /insulin-response
+  description: Glucose metabolism and insulin sensitivity
+
+Iodine:
+  label: Iodine
+  permalink: /iodine
+  description: Essential trace mineral
+
+Iron:
+  label: Iron
+  permalink: /iron
+  description: Essential mineral
+
+Isoleucine:
+  label: Isoleucine
+  permalink: /isoleucine
+  description: Essential amino acid
+
+Leucine:
+  label: Leucine
+  permalink: /leucine
+  description: Essential amino acid
+
+Linoleic Acid:
+  label: Linoleic Acid
+  permalink: /linoleic-acid
+  description: Essential omega-6 fatty acid
+
+Lipid:
+  label: Lipid
+  permalink: /lipid
+  description: Lipid bioactives and lipid-related compounds
+
+L-Theanine:
+  label: L-Theanine
+  permalink: /l-theanine
+  description: Green tea amino acid
+
+L-DOPA:
+  label: L-DOPA
+  permalink: /l-dopa
+  description: Direct precursor to dopamine; supports neurotransmitter synthesis
+
+Lutein:
+  label: Lutein
+  permalink: /lutein
+  description: Neuroprotective carotenoid; accumulates in neural tissues and retina
+
+Lycopene:
+  label: Lycopene
+  permalink: /lycopene
+  description: Neuroprotective carotenoid found in tomatoes
+
+Lysine:
+  label: Lysine
+  permalink: /lysine
+  description: Essential amino acid
+
+Magnesium:
+  label: Magnesium
+  permalink: /magnesium
+  description: Essential mineral
+
+Manganese:
+  label: Manganese
+  permalink: /manganese
+  description: Essential trace mineral
+
+Metabolic Response Target:
+  label: Metabolic Response Target
+  permalink: /metabolic-response-target
+  description: Metabolic response systems addressed by the BRAIN Diet
+
+Methionine:
+  label: Methionine
+  permalink: /methionine
+  description: Essential amino acid
+
+Methylation:
+  label: Methylation
+  permalink: /methylation
+  description: DNA methylation and one-carbon metabolism
+
+Mitochondrial Support:
+  label: Mitochondrial Support
+  permalink: /mitochondrial-support
+  description: Mitochondrial function and energy production
+
+MCT:
+  label: MCT
+  permalink: /mct
+  description: Medium-chain triglycerides used for rapid ketone-based brain energy
+
+Mineral:
+  label: Mineral
+  permalink: /mineral
+  description: Essential minerals and trace elements
+
+Neurochemical Balance:
+  label: Neurochemical Balance
+  permalink: /neurochemical-balance
+  description: Neurotransmitter synthesis and balance
+
+Nonessential Amino Acid:
+  label: Nonessential Amino Acid
+  permalink: /nonessential-amino-acid
+  description: Nonessential amino acids that can be synthesized by the body
+
+Nutrient:
+  label: Nutrient
+  permalink: /nutrient
+  description: Essential nutrients for brain health
+
+Flavin mononucleotide:
+  label: Flavin mononucleotide
+  permalink: /flavin-mononucleotide
+  description: Riboflavin-derived cofactor used by respiratory complex I
+
+Oleic Acid:
+  label: Oleic Acid
+  permalink: /oleic-acid
+  description: Principal dietary monounsaturated fatty acid (18:1 n-9); not synonymous with MUFA or omega-9
+
+Omega-3 Fatty Acids:
+  label: Omega-3 Fatty Acids
+  permalink: /omega-3
+  description: Essential omega-3 fatty acids
+
+Oxidative Stress:
+  label: Oxidative Stress
+  permalink: /oxidative-stress
+  description: Oxidative stress and antioxidant defense
+
+Phenylalanine:
+  label: Phenylalanine
+  permalink: /phenylalanine
+  description: Essential amino acid
+
+Phosphatidylcholine:
+  label: Phosphatidylcholine
+  permalink: /phosphatidylcholine
+  description: Brain phospholipid
+
+Phosphatidylethanolamine:
+  label: Phosphatidylethanolamine
+  permalink: /phosphatidylethanolamine
+  description: Brain phospholipid
+
+Phosphatidylserine:
+  label: Phosphatidylserine
+  permalink: /phosphatidylserine
+  description: Brain phospholipid
+
+Phosphorus:
+  label: Phosphorus
+  permalink: /phosphorus
+  description: Macromineral; biologically active as phosphate (PO₄³⁻) in ATP, phospholipids, and nucleic acids
+
+Phospholipid:
+  label: Phospholipid
+  permalink: /phospholipid
+  description: Brain phospholipids for membrane structure and function
+
+Polyphenol:
+  label: Polyphenol
+  permalink: /polyphenol
+  description: Plant polyphenols with antioxidant and neuroprotective properties
+
+Anthocyanidin:
+  label: Anthocyanidin
+  permalink: /anthocyanidin
+  description: Anthocyanin aglycone backbone (flavonoid subclass)
+
+Anthocyanins:
+  label: Anthocyanins
+  permalink: /anthocyanins
+  description: Glycosylated flavonoid pigments; family-level evidence from foods, extracts, or named glycosides
+
+Cyanidin:
+  label: Cyanidin
+  permalink: /cyanidin
+  description: Anthocyanidin parent compound and its common dietary glycoside, cyanidin-3-glucoside (C3G)
+
+Delphinidin:
+  label: Delphinidin
+  permalink: /delphinidin
+  description: Anthocyanidin parent compound; occurs in foods predominantly as glycosylated anthocyanins
+
+Malvidin:
+  label: Malvidin
+  permalink: /malvidin
+  description: Anthocyanidin parent compound; occurs in foods predominantly as glycosylated derivatives
+
+Pelargonidin:
+  label: Pelargonidin
+  permalink: /pelargonidin
+  description: Anthocyanidin parent compound; occurs in foods predominantly as glycosides; dominant strawberry backbone
+
+Peonidin:
+  label: Peonidin
+  permalink: /peonidin
+  description: Anthocyanidin parent compound; occurs in foods predominantly as methylated anthocyanin glycosides
+
+Petunidin:
+  label: Petunidin
+  permalink: /petunidin
+  description: Anthocyanidin parent compound; occurs in foods predominantly as glycosylated anthocyanins
+
+Polysaccharides:
+  label: Polysaccharides
+  permalink: /polysaccharides
+  description: Complex carbohydrates with immune-modulating and gut microbiome supporting properties
+
+Potassium:
+  label: Potassium
+  permalink: /potassium
+  description: Essential mineral
+
+Quercetin:
+  label: Quercetin
+  permalink: /quercetin
+  description: Flavonoid antioxidant
+
+Saffron:
+  label: Saffron
+  permalink: /saffron
+  description: Culinary spice (Crocus sativus stigmas)
+
+SCFAs:
+  label: SCFAs
+  permalink: /scfas
+  description: Short-chain fatty acids
+
+Selenium:
+  label: Selenium
+  permalink: /selenium
+  description: Essential trace mineral
+
+Sapropterin:
+  label: Sapropterin
+  permalink: /sapropterin
+  description: Pharmaceutical tetrahydrobiopterin (sapropterin dihydrochloride)
+
+Sodium:
+  label: Sodium
+  permalink: /sodium
+  description: Essential mineral
+
+Stress Response:
+  label: Stress Response
+  permalink: /stress-response
+  description: Stress response and HPA axis regulation
+
+Taurine:
+  label: Taurine
+  permalink: /taurine
+  description: Amino acid derivative
+
+Tetrahydrobiopterin:
+  label: Tetrahydrobiopterin
+  permalink: /tetrahydrobiopterin
+  description: Endogenous BH4 cofactor for monoamine synthesis and nitric-oxide synthases
+
+Terpene:
+  label: Terpene
+  permalink: /terpene
+  description: Terpene compounds with various biological activities
+
+Therapeutic Area:
+  label: Therapeutic Area
+  permalink: /therapeutic-area
+  description: Therapeutic applications and conditions supported by the BRAIN Diet
+
+Threonine:
+  label: Threonine
+  permalink: /threonine
+  description: Essential amino acid
+
+Thiamine:
+  label: Thiamine
+  permalink: /thiamine
+  description: Vitamin B1; essential for mitochondrial glucose metabolism
+
+Tryptophan:
+  label: Tryptophan
+  permalink: /tryptophan
+  description: Essential amino acid
+
+Tyrosine:
+  label: Tyrosine
+  permalink: /tyrosine
+  description: Amino acid
+
+Urolithin A:
+  label: Urolithin A
+  permalink: /urolithin-a
+  description: Ellagitannin metabolite
+
+Valine:
+  label: Valine
+  permalink: /valine
+  description: Essential amino acid
+
+Vegan:
+  label: Vegan
+  permalink: /vegan
+  description: Vegan-friendly foods (no animal products)
+
+Vegetarian:
+  label: Vegetarian
+  permalink: /vegetarian
+  description: Vegetarian-friendly foods (includes eggs and dairy, excludes meat and fish)
+
+Vitamin:
+  label: Vitamin
+  permalink: /vitamin
+  description: Essential vitamins for brain health
+
+Vitamin A:
+  label: Vitamin A
+  permalink: /vitamin-a
+  description: Essential vitamin
+
+Retinoic acid:
+  label: Retinoic acid
+  permalink: /retinoic-acid
+  description: All-trans-retinoic acid formed from dietary vitamin A precursors
+
+Vitamin B1:
+  label: Vitamin B1
+  permalink: /vitamin-b1
+  description: Essential vitamin
+
+Vitamin B12:
+  label: Vitamin B12
+  permalink: /vitamin-b12
+  description: Essential vitamin
+
+Vitamin B2:
+  label: Vitamin B2
+  permalink: /vitamin-b2
+  description: Essential vitamin
+
+Vitamin B3:
+  label: Vitamin B3
+  permalink: /vitamin-b3
+  description: Essential vitamin
+
+Vitamin B5:
+  label: Vitamin B5
+  permalink: /vitamin-b5
+  description: Essential vitamin
+
+Vitamin B6:
+  label: Vitamin B6
+  permalink: /vitamin-b6
+  description: Essential vitamin
+
+Vitamin B9:
+  label: Vitamin B9
+  permalink: /vitamin-b9
+  description: Essential vitamin
+
+Vitamin C:
+  label: Vitamin C
+  permalink: /vitamin-c
+  description: Essential vitamin
+
+Vitamin D:
+  label: Vitamin D
+  permalink: /vitamin-d
+  description: Essential vitamin
+
+Vitamin E:
+  label: Vitamin E
+  permalink: /vitamin-e
+  description: Essential vitamin
+
+Vitamin K:
+  label: Vitamin K
+  permalink: /vitamin-k
+  description: Essential fat-soluble vitamin for blood clotting and bone health
+
+Vitamin K2:
+  label: Vitamin K2
+  permalink: /vitamin-k2
+  description: Essential vitamin
+
+Zeaxanthin:
+  label: Zeaxanthin
+  permalink: /zeaxanthin
+  description: Neuroprotective carotenoid; accumulates in neural tissues and retina
+
+Zinc:
+  label: Zinc
+  permalink: /zinc
+  description: Essential trace mineral
+
+# Food tags
+Almonds:
+  label: Almonds
+  permalink: /almonds
+  description: Tree nut rich in healthy fats and vitamin E
+
+Amaranth:
+  label: Amaranth
+  permalink: /amaranth
+  description: Ancient grain with complete protein
+
+Anchovies:
+  label: Anchovies
+  permalink: /anchovies
+  description: Small oily fish, typically canned and drained, providing EPA, DHA and niacin
+
+Apples:
+  label: Apples
+  permalink: /apples
+  description: Fruit rich in fiber and polyphenols
+
+Asparagus:
+  label: Asparagus
+  permalink: /asparagus
+  description: Vegetable rich in folate and prebiotic fiber
+
+Avocado Oil:
+  label: Avocado Oil
+  permalink: /avocado-oil
+  description: MUFA-rich oil with vitamin E and lutein
+
+Avocado:
+  label: Avocado
+  permalink: /avocado
+  description: Fruit rich in monounsaturated fats and fiber
+
+Bananas:
+  label: Bananas
+  permalink: /bananas
+  description: Fruit rich in potassium and resistant starch
+
+Barley:
+  label: Barley
+  permalink: /barley
+  description: Whole grain with beta-glucan fiber
+
+Beef:
+  label: Beef
+  permalink: /beef
+  description: Red meat providing complete protein and iron
+
+Bell Peppers:
+  label: Bell Peppers
+  permalink: /bell-peppers
+  description: Vegetable rich in vitamin C and carotenoids
+
+Berries:
+  label: Berries
+  permalink: /berries
+  description: Fruits rich in polyphenols and antioxidants
+
+Black Beans:
+  label: Black Beans
+  permalink: /black-beans
+  description: Legume rich in protein, fiber, and minerals
+
+Black Goji:
+  label: Black Goji
+  permalink: /black-goji
+  description: Berry rich in antioxidants
+
+Black Pepper:
+  label: Black Pepper
+  permalink: /black-pepper
+  description: Spice containing piperine
+
+Black Tea:
+  label: Black Tea
+  permalink: /black-tea
+  description: Tea rich in polyphenols
+
+Blueberries:
+  label: Blueberries
+  permalink: /blueberries
+  description: Berry rich in anthocyanins and antioxidants
+
+Broccoli:
+  label: Broccoli
+  permalink: /broccoli
+  description: Cruciferous vegetable rich in sulforaphane
+
+Brussels Sprouts:
+  label: Brussels Sprouts
+  permalink: /brussels-sprouts
+  description: Cruciferous vegetable rich in glucosinolates
+
+Buckwheat:
+  label: Buckwheat
+  permalink: /buckwheat
+  description: Pseudocereal with complete protein
+
+Butter:
+  label: Butter
+  permalink: /butter
+  description: Dairy fat rich in butyrate
+
+Cabbage:
+  label: Cabbage
+  permalink: /cabbage
+  description: Cruciferous vegetable rich in glucosinolates
+
+Capers:
+  label: Capers
+  permalink: /capers
+  description: Flower buds rich in quercetin
+
+Carrots:
+  label: Carrots
+  permalink: /carrots
+  description: Root vegetable rich in beta-carotene
+
+Cashews:
+  label: Cashews
+  permalink: /cashews
+  description: Tree nut rich in healthy fats and minerals
+
+Cauliflower:
+  label: Cauliflower
+  permalink: /cauliflower
+  description: Cruciferous vegetable rich in glucosinolates
+
+Chamomile Tea:
+  label: Chamomile Tea
+  permalink: /chamomile-tea
+  description: Herbal tea with calming properties
+
+Cheese:
+  label: Cheese
+  permalink: /cheese
+  description: Fermented dairy product rich in protein and calcium
+
+Cherries:
+  label: Cherries
+  permalink: /cherries
+  description: Fruit rich in anthocyanins and melatonin
+
+Chia Seeds:
+  label: Chia Seeds
+  permalink: /chia-seeds
+  description: Seeds rich in omega-3 and fiber
+
+Chicken:
+  label: Chicken
+  permalink: /chicken
+  description: Poultry providing complete protein
+
+Chickpeas:
+  label: Chickpeas
+  permalink: /chickpeas
+  description: Legume rich in protein, fiber, and minerals
+
+Chicory Root:
+  label: Chicory Root
+  permalink: /chicory-root
+  description: Root vegetable rich in inulin prebiotic fiber
+
+Chlorella:
+  label: Chlorella
+  permalink: /chlorella
+  description: Algae with bioavailable vitamin B12
+
+Cilantro:
+  label: Cilantro
+  permalink: /cilantro
+  description: Herb with detoxifying properties
+
+Cinnamon:
+  label: Cinnamon
+  permalink: /cinnamon
+  description: Spice supporting glycemic control
+
+Citrus:
+  label: Citrus
+  permalink: /citrus
+  description: Fruits rich in vitamin C
+
+Clams:
+  label: Clams
+  permalink: /clams
+  description: Shellfish rich in vitamin B12 and iron
+
+Cockles:
+  label: Cockles
+  permalink: /cockles
+  description: Bivalve shellfish providing B12, iron, zinc, selenium, and marine taurine
+
+Cocoa:
+  label: Cocoa
+  permalink: /cocoa
+  description: Source of flavanols and polyphenols
+
+Coconut Oil:
+  label: Coconut Oil
+  permalink: /coconut-oil
+  description: Oil rich in medium-chain triglycerides
+
+Cacao:
+  label: Cacao
+  permalink: /cacao
+  description: Cacao beans, nibs, and bitter chocolate applications for polyphenol support
+
+Cod:
+  label: Cod
+  permalink: /cod
+  description: White fish providing lean protein
+
+Coffee:
+  label: Coffee
+  permalink: /coffee
+  description: Beverage containing caffeine and polyphenols
+
+Corn:
+  label: Corn
+  permalink: /corn
+  description: Grain rich in fiber and carotenoids
+
+Cordyceps Mushroom:
+  label: Cordyceps Mushroom
+  permalink: /cordyceps-mushroom
+  description: Medicinal mushroom supporting energy and mitochondrial function
+
+Crab:
+  label: Crab
+  permalink: /crab
+  description: Shellfish rich in zinc and selenium
+
+Cranberries:
+  label: Cranberries
+  permalink: /cranberries
+  description: Berry rich in polyphenols and proanthocyanidins
+
+Cucumber:
+  label: Cucumber
+  permalink: /cucumber
+  description: Vegetable containing NMN
+
+Dairy:
+  label: Dairy
+  permalink: /dairy
+  description: Dairy products providing protein and calcium
+
+Dandelion Greens:
+  label: Dandelion Greens
+  permalink: /dandelion-greens
+  description: Leafy green rich in vitamins and minerals
+
+Dark Chocolate:
+  label: Dark Chocolate
+  permalink: /dark-chocolate
+  description: Chocolate rich in cocoa flavanols
+
+Dark-Meat Poultry:
+  label: Dark-Meat Poultry
+  permalink: /dark-meat-poultry
+  description: Poultry with higher iron content
+
+Duck Fat:
+  label: Duck Fat
+  permalink: /duck-fat
+  description: Cooking fat with monounsaturated fats
+
+Duckweed:
+  label: Duckweed
+  permalink: /duckweed
+  description: Aquatic plant with bioavailable iron and B12
+
+Edamame:
+  label: Edamame
+  permalink: /edamame
+  description: Young soybeans rich in NMN and protein
+
+Egg Yolks:
+  label: Egg Yolks
+  permalink: /egg-yolks
+  description: Egg yolks rich in choline and lutein
+
+Eggs:
+  label: Eggs
+  permalink: /eggs
+  description: Complete protein source with choline
+
+Extra Virgin Olive Oil:
+  label: Extra Virgin Olive Oil
+  permalink: /extra-virgin-olive-oil
+  description: Highest quality olive oil with polyphenols
+
+Fermented Hot Sauce:
+  label: Fermented Hot Sauce
+  permalink: /fermented-hot-sauce
+  description: Fermented chilli-based condiment
+
+Fermented Vegetables:
+  label: Fermented Vegetables
+  permalink: /fermented-vegetables
+  description: Vegetables preserved through fermentation
+
+Fibre:
+  label: Fibre
+  permalink: /fibre
+  description: Dietary fibre for microbiome and metabolic health
+
+Flax Seeds:
+  label: Flax Seeds
+  permalink: /flax-seeds
+  description: Seeds rich in ALA omega-3 and lignans
+
+Fortified Plant Milks:
+  label: Fortified Plant Milks
+  permalink: /fortified-plant-milks
+  description: Plant-based milks with added nutrients
+
+Garlic:
+  label: Garlic
+  permalink: /garlic
+  description: Bulb vegetable with allicin and sulfur compounds
+
+Ghee:
+  label: Ghee
+  permalink: /ghee
+  description: Clarified butter with butyrate
+
+Ginger:
+  label: Ginger
+  permalink: /ginger
+  description: Root spice with anti-inflammatory properties
+
+Grapes:
+  label: Grapes
+  permalink: /grapes
+  description: Fruit rich in resveratrol and polyphenols
+
+Grass-Fed Butter:
+  label: Grass-Fed Butter
+  permalink: /grass-fed-butter
+  description: Butter from grass-fed cows with higher omega-3
+
+Green Tea:
+  label: Green Tea
+  permalink: /green-tea
+  description: Tea rich in EGCG and L-theanine
+
+Heart:
+  label: Heart
+  permalink: /heart
+  description: Organ meat rich in CoQ10 and B vitamins
+
+Herring:
+  label: Herring
+  permalink: /herring
+  description: Fatty fish rich in omega-3
+
+Jerusalem Artichokes:
+  label: Jerusalem Artichokes
+  permalink: /jerusalem-artichokes
+  description: Root vegetable rich in inulin prebiotic fiber
+
+Kale:
+  label: Kale
+  permalink: /kale
+  description: Leafy green rich in vitamins and glucosinolates
+
+Kaempferol:
+  label: Kaempferol
+  permalink: /kaempferol
+  description: Dietary flavonol in leafy greens, herbs, tea and some fruits
+
+Kefir:
+  label: Kefir
+  permalink: /kefir
+  description: Fermented dairy drink with probiotics
+
+Kidney Beans:
+  label: Kidney Beans
+  permalink: /kidney-beans
+  description: Legume rich in protein, fiber, and minerals
+
+Kidney:
+  label: Kidney
+  permalink: /kidney
+  description: Organ meat rich in B vitamins and minerals
+
+Kimchi:
+  label: Kimchi
+  permalink: /kimchi
+  description: Fermented Korean vegetable dish
+
+Kombucha:
+  label: Kombucha
+  permalink: /kombucha
+  description: Fermented tea beverage
+
+Lamb:
+  label: Lamb
+  permalink: /lamb
+  description: Red meat providing complete protein
+
+Leeks:
+  label: Leeks
+  permalink: /leeks
+  description: Allium vegetable rich in prebiotic fiber
+
+Lemon Balm Tea:
+  label: Lemon Balm Tea
+  permalink: /lemon-balm-tea
+  description: Herbal tea with calming properties
+
+Lemon:
+  label: Lemon
+  permalink: /lemon
+  description: Citrus fruit rich in vitamin C
+
+Lion's Mane Mushroom:
+  label: Lion's Mane Mushroom
+  permalink: /lions-mane-mushroom
+  description: Medicinal mushroom with bioactive compounds supporting nerve health
+
+Lentils:
+  label: Lentils
+  permalink: /lentils
+  description: Legume rich in protein, fiber, and folate
+
+Liver:
+  label: Liver
+  permalink: /liver
+  description: Organ meat rich in B vitamins, iron, and vitamin A
+
+Lumpfish Roe:
+  label: Lumpfish Roe
+  permalink: /lumpfish-roe
+  description: Budget salted lumpfish caviar; lower omega-3 than salmonid roe
+
+Lupins:
+  label: Lupins
+  permalink: /lupins
+  description: Legume rich in protein and fiber
+
+Mackerel:
+  label: Mackerel
+  permalink: /mackerel
+  description: Fatty fish rich in omega-3
+
+Maitake Mushroom:
+  label: Maitake Mushroom
+  permalink: /maitake-mushroom
+  description: Medicinal mushroom rich in beta-glucans supporting immune function
+
+Mankai:
+  label: Mankai
+  permalink: /mankai
+  description: Duckweed with bioavailable iron and B12
+
+MCT Oil:
+  label: MCT Oil
+  permalink: /mct-oil
+  description: Concentrated medium-chain triglycerides
+
+Milk:
+  label: Milk
+  permalink: /milk
+  description: Dairy beverage providing protein and calcium
+
+Miso:
+  label: Miso
+  permalink: /miso
+  description: Fermented soybean paste
+
+Mucuna Beans:
+  label: Mucuna Beans
+  permalink: /mucuna-beans
+  description: Legume rich in L-DOPA
+
+Mushrooms:
+  label: Mushrooms
+  permalink: /mushrooms
+  description: Fungi rich in B vitamins and ergosterol
+
+White Button Mushroom:
+  label: White Button Mushroom
+  permalink: /white-button-mushroom
+  description: Agaricus bisporus — white/button, cremini, chestnut (UK), portobello
+
+Natto:
+  label: Natto
+  permalink: /natto
+  description: Fermented soybeans rich in vitamin K2
+
+Nori:
+  label: Nori
+  permalink: /nori
+  description: Seaweed with trace creatine and iodine
+
+Nutritional Yeast:
+  label: Nutritional Yeast
+  permalink: /nutritional-yeast
+  description: Fortified yeast with B vitamins
+
+Oats:
+  label: Oats
+  permalink: /oats
+  description: Whole grain rich in beta-glucan fiber
+
+Olive Oil:
+  label: Olive Oil
+  permalink: /olive-oil
+  description: Oil rich in monounsaturated fats and polyphenols
+
+Olive Oil (Early Harvest):
+  label: Olive Oil (Early Harvest)
+  permalink: /olive-oil-early-harvest
+  description: Premium extra virgin olive oil with enhanced CoQ10, oleuropein, and polyphenol content
+
+Olives:
+  label: Olives
+  permalink: /olives
+  description: Fruit rich in monounsaturated fats
+
+Oleuropein:
+  label: Oleuropein
+  permalink: /oleuropein
+  description: Major polyphenol in olive oil; supports mitochondrial function and neuroprotective effects
+
+Onions:
+  label: Onions
+  permalink: /onions
+  description: Allium vegetable with quercetin
+
+Oyster Mushroom:
+  label: Oyster Mushroom
+  permalink: /oyster-mushroom
+  description: Culinary mushroom rich in beta-glucans and B vitamins
+
+Oranges:
+  label: Oranges
+  permalink: /oranges
+  description: Citrus fruit rich in vitamin C
+
+Oregano:
+  label: Oregano
+  permalink: /oregano
+  description: Herb with antimicrobial properties
+
+Oysters:
+  label: Oysters
+  permalink: /oysters
+  description: Highest zinc content; unique source of phospholipid-bound omega-3s; accepted by some vegans (ostroveganism)
+
+Mussels:
+  label: Mussels
+  permalink: /mussels
+  description: Nutrient-dense bivalve providing phospholipid-bound omega-3s; accepted by some vegans (ostroveganism)
+
+Parmesan Cheese:
+  label: Parmesan Cheese
+  permalink: /parmesan-cheese
+  description: Aged cheese rich in protein and calcium
+
+Parsley:
+  label: Parsley
+  permalink: /parsley
+  description: Herb that reduces cholesterol oxidation products
+
+Peanuts:
+  label: Peanuts
+  permalink: /peanuts
+  description: Legume rich in protein and resveratrol
+
+Pears:
+  label: Pears
+  permalink: /pears
+  description: Whole fruit providing fibre, natural sugars and pectin
+
+Peas:
+  label: Peas
+  permalink: /peas
+  description: Legume rich in protein and fiber
+
+Peppermint:
+  label: Peppermint
+  permalink: /peppermint
+  description: Herbal tea supporting mental clarity
+
+Psyllium Husk:
+  label: Psyllium Husk
+  permalink: /psyllium-husk
+  description: Concentrated soluble fibre (viscous) for meal-level buffering
+
+Vinegar Pickles:
+  label: Vinegar Pickles
+  permalink: /vinegar-pickles
+  description: Acid preservation in vinegar brine — distinct from lacto-fermented vegetables
+
+Pistachios:
+  label: Pistachios
+  permalink: /pistachios
+  description: Tree nut rich in healthy fats and antioxidants
+
+Pomegranates:
+  label: Pomegranates
+  permalink: /pomegranates
+  description: Fruit rich in polyphenols and punicalagins
+
+Pork:
+  label: Pork
+  permalink: /pork
+  description: Meat providing complete protein
+
+Potatoes:
+  label: Potatoes
+  permalink: /potatoes
+  description: Starchy vegetable rich in potassium
+
+Pumpkin Seeds:
+  label: Pumpkin Seeds
+  permalink: /pumpkin-seeds
+  description: Seeds rich in zinc and magnesium
+
+Quinoa:
+  label: Quinoa
+  permalink: /quinoa
+  description: Pseudocereal with complete protein
+
+Radicchio:
+  label: Radicchio
+  permalink: /radicchio
+  description: Bitter red chicory leaf providing lutein and vitamin K
+
+Raspberries:
+  label: Raspberries
+  permalink: /raspberries
+  description: Berry rich in polyphenols and fiber
+
+Reishi Mushroom:
+  label: Reishi Mushroom
+  permalink: /reishi-mushroom
+  description: Medicinal mushroom supporting vitality and stress modulation
+
+Reduced Glutathione:
+  label: Reduced Glutathione
+  permalink: /reduced-glutathione
+  description: Reduced form of glutathione (GSH); not a synonym for oxidised glutathione (GSSG)
+
+Rice:
+  label: Rice
+  permalink: /rice
+  description: Grain providing carbohydrates
+
+Romaine Lettuce:
+  label: Romaine Lettuce
+  permalink: /romaine-lettuce
+  description: Crisp salad lettuce providing vitamin K, folate and carotenoids
+
+Rosemary:
+  label: Rosemary
+  permalink: /rosemary
+  description: Herb supporting focus and cognition
+
+Sage:
+  label: Sage
+  permalink: /sage
+  description: Herb supporting memory and cognition
+
+Salmon Roe:
+  label: Salmon Roe
+  permalink: /salmon-roe
+  description: Fish eggs rich in omega-3 and astaxanthin
+
+Salmon:
+  label: Salmon
+  permalink: /salmon
+  description: Fatty fish rich in omega-3 and astaxanthin
+
+Sardines:
+  label: Sardines
+  permalink: /sardines
+  description: Small fatty fish rich in omega-3
+
+Sauerkraut:
+  label: Sauerkraut
+  permalink: /sauerkraut
+  description: Fermented cabbage
+
+Scallops:
+  label: Scallops
+  permalink: /scallops
+  description: Shellfish providing lean protein
+
+Seaweed:
+  label: Seaweed
+  permalink: /seaweed
+  description: Marine algae rich in minerals
+
+Sesame Seeds:
+  label: Sesame Seeds
+  permalink: /sesame-seeds
+  description: Whole sesame seed with unsaturated fat, minerals and lignans
+
+Shiitake Mushroom:
+  label: Shiitake Mushroom
+  permalink: /shiitake-mushroom
+  description: Culinary and medicinal mushroom rich in beta-glucans and umami flavor
+
+Shrimp:
+  label: Shrimp
+  permalink: /shrimp
+  description: Shellfish providing protein and selenium
+
+Sourdough Bread:
+  label: Sourdough Bread
+  permalink: /sourdough-bread
+  description: Fermented bread with improved digestibility
+
+Soy Lecithin:
+  label: Soy Lecithin
+  permalink: /soy-lecithin
+  description: Concentrated choline source
+
+Soy:
+  label: Soy
+  permalink: /soy
+  description: Legume with complete protein and isoflavones
+
+Spelt:
+  label: Spelt
+  permalink: /spelt
+  description: Ancient wheat with high asparagine
+
+Spinach:
+  label: Spinach
+  permalink: /spinach
+  description: Leafy green rich in folate and iron
+
+Spirulina:
+  label: Spirulina
+  permalink: /spirulina
+  description: Algae with protein and antioxidants
+
+Strawberries:
+  label: Strawberries
+  permalink: /strawberries
+  description: Berry rich in vitamin C and polyphenols
+
+Sunflower Lecithin:
+  label: Sunflower Lecithin
+  permalink: /sunflower-lecithin
+  description: Soy-free choline source
+
+Sunflower Seeds:
+  label: Sunflower Seeds
+  permalink: /sunflower-seeds
+  description: Seeds rich in vitamin E and selenium
+
+Swiss Chard:
+  label: Swiss Chard
+  permalink: /swiss-chard
+  description: Leafy green rich in vitamins and beta-carotene
+
+Tahini:
+  label: Tahini
+  permalink: /tahini
+  description: Ground sesame-seed paste; composition depends on hull and roast
+
+Tart Cherry:
+  label: Tart Cherry
+  permalink: /tart-cherry
+  description: Cherry rich in anthocyanins and melatonin
+
+Tempeh:
+  label: Tempeh
+  permalink: /tempeh
+  description: Fermented soybeans with complete protein
+
+Tofu:
+  label: Tofu
+  permalink: /tofu
+  description: Soybean curd with complete protein
+
+Tomatoes:
+  label: Tomatoes
+  permalink: /tomatoes
+  description: Fruit rich in lycopene and vitamin C
+
+Tuna:
+  label: Tuna
+  permalink: /tuna
+  description: Fish providing lean protein and omega-3
+
+Trout Roe:
+  label: Trout Roe
+  permalink: /trout-roe
+  description: Rainbow trout eggs; phospholipid omega-3s; mid-tier roe
+
+Turkey:
+  label: Turkey
+  permalink: /turkey
+  description: Poultry providing complete protein
+
+Turkey Tail Mushroom:
+  label: Turkey Tail Mushroom
+  permalink: /turkey-tail-mushroom
+  description: Medicinal mushroom rich in polysaccharides supporting immune function
+
+Sweet Potatoes:
+  label: Sweet Potatoes
+  permalink: /sweet-potatoes
+  description: Orange-fleshed root vegetable rich in beta-carotene and fibre
+
+Turmeric Milk:
+  label: Turmeric Milk
+  permalink: /turmeric-milk
+  description: Beverage combining turmeric with milk
+
+Turmeric:
+  label: Turmeric
+  permalink: /turmeric
+  description: Spice containing curcumin
+
+Vinegar:
+  label: Vinegar
+  permalink: /vinegar
+  description: Fermented liquid supporting glucose regulation
+
+Walnuts:
+  label: Walnuts
+  permalink: /walnuts
+  description: Tree nut rich in ALA omega-3
+
+Wasabi:
+  label: Wasabi
+  permalink: /wasabi
+  description: Pungent green condiment traditionally served with sushi
+
+Watercress:
+  label: Watercress
+  permalink: /watercress
+  description: Peppery brassica salad leaf providing vitamin C, vitamin K and carotenoids
+
+Wheat Germ:
+  label: Wheat Germ
+  permalink: /wheat-germ
+  description: Nutrient-dense part of wheat grain
+
+Wheat:
+  label: Wheat
+  permalink: /wheat
+  description: Grain providing carbohydrates and protein
+
+Whey Protein:
+  label: Whey Protein
+  permalink: /whey-protein
+  description: Complete protein from dairy
+
+Whole Grains:
+  label: Whole Grains
+  permalink: /whole-grains
+  description: Grains with intact bran and germ
+
+Yogurt:
+  label: Yogurt
+  permalink: /yogurt
+  description: Fermented dairy with probiotics
+
+# Substance tags
+Substance:
+  label: Substance
+  permalink: /substance
+  description: Bioactive substances and nutrients
+
+Sulforaphane:
+  label: Sulforaphane
+  permalink: /sulforaphane
+  description: Isothiocyanate compound from cruciferous vegetables
+
+Astaxanthin:
+  label: Astaxanthin
+  permalink: /astaxanthin
+  description: Xanthophyll carotenoid in salmon and related marine foods; BRS3 redox and BRS4 mitochondrial membrane support
+
+Carbohydrate:
+  label: Carbohydrate
+  permalink: /carbohydrate
+  description: Carbohydrate nutrients, including dietary fibre
+
+Dietary Fibre:
+  label: Dietary Fibre
+  permalink: /dietary-fibre
+  description: Carbohydrates that resist digestion in the small intestine
+
+Fructan:
+  label: Fructan
+  permalink: /fructan
+  description: Fructose polymers, including inulin-type fructans
+
+Oligofructose:
+  label: Oligofructose
+  permalink: /oligofructose
+  description: Short-chain inulin-type fructan mixture, not a synonym for every use of FOS
+
+Lignan:
+  label: Lignan
+  permalink: /lignan
+  description: Plant phenolic dimers, including the characteristic sesame lignans
+
+Sesamin:
+  label: Sesamin
+  permalink: /sesamin
+  description: Principal sesame lignan; preliminary cardiometabolic trials and incomplete translation
+
+Sesamolin:
+  label: Sesamolin
+  permalink: /sesamolin
+  description: Sesame lignan with almost entirely preclinical evidence
+
+Inflammation & Oxidative Stress:
+  label: Inflammation & Oxidative Stress
+  permalink: /inflammation-oxidative-stress
+  description: BRS3 hub — inflammatory signalling and oxidative balance
+
+Neurotransmitter Regulation:
+  label: Neurotransmitter Regulation
+  permalink: /neurotransmitter-regulation
+  description: BRS1 hub — neurotransmitter synthesis, signalling and balance
+
+Methylation & One-Carbon Metabolism:
+  label: Methylation & One-Carbon Metabolism
+  permalink: /methylation-one-carbon-metabolism
+  description: BRS2 hub — one-carbon metabolism and methylation-related pathways
+
+Mitochondrial Function & Bioenergetics:
+  label: Mitochondrial Function & Bioenergetics
+  permalink: /mitochondrial-function-bioenergetics
+  description: BRS4 hub — mitochondrial function and cellular energy
+
+Gut-Brain Axis & Enteric Nervous System:
+  label: Gut-Brain Axis & Enteric Nervous System
+  permalink: /gut-brain-axis-enteric-nervous-system
+  description: BRS5 hub — gut barrier, microbial signalling and enteric pathways
+
+Metabolic & Neuroendocrine Regulation:
+  label: Metabolic & Neuroendocrine Regulation
+  permalink: /metabolic-neuroendocrine-regulation
+  description: BRS6 hub — metabolic flexibility and neuroendocrine regulation
+
+# Additional substance category tags
+Pufa:
+  label: PUFA
+  permalink: /pufa
+  description: Polyunsaturated fatty acid
+
+Saturated-Fat:
+  label: Saturated Fat
+  permalink: /saturated-fat
+  description: Saturated fatty acids
+
+Macro Mineral:
+  label: Macro Mineral
+  permalink: /macro-mineral
+  description: Essential minerals needed in larger amounts
+
+Trace Mineral:
+  label: Trace Mineral
+  permalink: /trace-mineral
+  description: Essential minerals needed in trace amounts
+
+Alkaloid:
+  label: Alkaloid
+  permalink: /alkaloid
+  description: Nitrogen-containing bioactive compounds
+
+Choline-Methylation:
+  label: Choline & Methylation
+  permalink: /choline-methylation
+  description: Molecules involved in choline metabolism and methylation pathways
+
+Lipid-Based:
+  label: Lipid-Based
+  permalink: /lipid-based
+  description: Bioactive compounds that are lipid-based
+
+Secondary-Metabolite:
+  label: Secondary Metabolite
+  permalink: /secondary-metabolite
+  description: Microbiome-derived metabolites from plant compounds
+
+Flavan-3-ol:
+  label: Flavan-3-ol
+  permalink: /flavan-3-ol
+  description: Type of flavonoid polyphenol
+
+Flavonol:
+  label: Flavonol
+  permalink: /flavonol
+  description: Type of flavonoid polyphenol
+
+Isoflavone:
+  label: Isoflavone
+  permalink: /isoflavone
+  description: Type of flavonoid polyphenol found primarily in soy
+
+Phenolic-Acid:
+  label: Phenolic Acid
+  permalink: /phenolic-acid
+  description: Type of polyphenol with antioxidant properties
+
+Secoiridoid:
+  label: Secoiridoid
+  permalink: /secoiridoid
+  description: Type of polyphenol found in olive oil
+
+DHA:
+  label: DHA (Docosahexaenoic Acid)
+  permalink: /dha
+  description: Omega-3 fatty acid critical for brain health
+
+EPA:
+  label: EPA (Eicosapentaenoic Acid)
+  permalink: /epa
+  description: Omega-3 fatty acid with anti-inflammatory properties
+
+DPA:
+  label: DPA (Docosapentaenoic Acid)
+  permalink: /dpa
+  description: Omega-3 fatty acid intermediate between EPA and DHA
+
+Omega-6 Fatty Acids:
+  label: Omega-6 Fatty Acids
+  permalink: /omega-6-fatty-acids
+  description: Polyunsaturated fatty acids including linoleic and arachidonic acid
+
+Cinnamaldehyde:
+  label: Cinnamaldehyde
+  permalink: /cinnamaldehyde
+  description: Key aromatic compound in cinnamon
+
+Caprylic Triglyceride:
+  label: Caprylic Triglyceride
+  permalink: /caprylic-triglyceride
+  description: Medium-chain triglyceride (C8)
+
+Capric Triglyceride:
+  label: Capric Triglyceride
+  permalink: /capric-triglyceride
+  description: Medium-chain triglyceride (C10)
+
+Caproic Triglyceride:
+  label: Caproic Triglyceride
+  permalink: /caproic-triglyceride
+  description: Medium-chain triglyceride (C6)
+
+Tyrosol:
+  label: Tyrosol
+  permalink: /tyrosol
+  description: Phenolic compound in olive oil
+
+Oleocanthal:
+  label: Oleocanthal
+  permalink: /oleocanthal
+  description: Secoiridoid polyphenol in olive oil with anti-inflammatory effects
+
+Oleacein:
+  label: Oleacein
+  permalink: /oleacein
+  description: Secoiridoid polyphenol in olive oil
+
+Acetate:
+  label: Acetate
+  permalink: /acetate
+  description: Short-chain fatty acid (SCFA)
+
+Acetic Acid:
+  label: Acetic Acid
+  permalink: /acetic-acid
+  description: Characteristic acid of vinegar, distinct from microbial acetate.
+
+Butyrate:
+  label: Butyrate
+  permalink: /butyrate
+  description: Short-chain fatty acid (SCFA) critical for gut health
+
+Propionate:
+  label: Propionate
+  permalink: /propionate
+  description: Short-chain fatty acid (SCFA)
+
+# Recipe tags
+Recipe:
+  label: Recipe
+  permalink: /recipe
+  description: Recipes for the BRAIN Diet
+
+Breakfast:
+  label: Breakfast
+  permalink: /breakfast
+  description: Breakfast recipes
+
+Lunch:
+  label: Lunch
+  permalink: /lunch
+  description: Lunch recipes
+
+Dinner:
+  label: Dinner
+  permalink: /dinner
+  description: Dinner recipes
+
+Drinks:
+  label: Drinks
+  permalink: /drinks
+  description: Beverage recipes
+
+Snacks:
+  label: Snacks
+  permalink: /snacks
+  description: Small-format and portable recipes between meals
+
+Side Dish:
+  label: Side Dish
+  permalink: /side-dish
+  description: Side dish recipes
+
+# Recipe characteristic tags
+functional food:
+  label: Functional Food
+  permalink: /functional-food
+  description: Foods designed with specific health benefits
+
+cereal:
+  label: Cereal
+  permalink: /cereal
+  description: Cereal-style breakfast foods
+
+brain diet:
+  label: Brain Diet
+  permalink: /brain-diet
+  description: BRAIN Diet compliant recipes
+
+low sugar:
+  label: Low Sugar
+  permalink: /low-sugar
+  description: Low sugar recipes
+
+high protein:
+  label: High Protein
+  permalink: /high-protein
+  description: High protein recipes
+
+fermented:
+  label: Fermented
+  permalink: /fermented
+  description: Fermented foods and beverages
+
+gut-brain-axis:
+  label: Gut-Brain Axis
+  permalink: /gut-brain-axis
+  description: Foods supporting gut-brain axis communication
+
+SCFA:
+  label: SCFA
+  permalink: /scfa
+  description: Short-chain fatty acids
+
+postbiotics:
+  label: Postbiotics
+  permalink: /postbiotics
+  description: Postbiotic compounds from fermentation
+
+hydration:
+  label: Hydration
+  permalink: /hydration
+  description: Hydrating beverages and foods
+
+traditional-food:
+  label: Traditional Food
+  permalink: /traditional-food
+  description: Traditional and heritage food preparations
+
+low-alcohol:
+  label: Low Alcohol
+  permalink: /low-alcohol
+  description: Low alcohol beverages
+
+brain-diet:
+  label: Brain Diet
+  permalink: /brain-diet-alt
+  description: BRAIN Diet approach
+
+Rocket:
+  label: Rocket
+  permalink: /rocket
+  description: Arugula/rocket leafy green
+
+Beets:
+  label: Beets
+  permalink: /beets
+  description: Root vegetable rich in nitrates and betalains
+
+Beetroot:
+  label: Beetroot
+  permalink: /beetroot
+  description: Root vegetable rich in nitrates and betalains
+
+Nitrate:
+  label: Nitrate
+  permalink: /nitrate
+  description: Dietary nitrate that converts to nitric oxide, supporting vascular function and mitochondrial efficiency
+
+# Substance category tags
+Bioactive:
+  label: Bioactive
+  permalink: /bioactive
+  description: Bioactive substances with health-promoting properties
+
+Metabolite:
+  label: Metabolite
+  permalink: /metabolite
+  description: Metabolites produced by the body or gut microbiome
+
+# Additional tags
+Probiotics:
+  label: Probiotics
+  permalink: /probiotics
+  description: Beneficial bacteria and fermented foods
+
+Anti-inflammatory:
+  label: Anti-inflammatory
+  permalink: /anti-inflammatory
+  description: Foods and compounds with anti-inflammatory properties
+
+Circadian Rhythm:
+  label: Circadian Rhythm
+  permalink: /circadian-rhythm
+  description: Foods and practices supporting circadian rhythm regulation
+
+Polyphenols:
+  label: Polyphenols
+  permalink: /polyphenols
+  description: Plant polyphenols with antioxidant and neuroprotective properties
+
+Spermidine:
+  label: Spermidine
+  permalink: /spermidine
+  description: Dietary and endogenous polyamine with experimental cellular-maintenance evidence
+
+L-Carnitine:
+  label: L-Carnitine
+  permalink: /l-carnitine
+  description: Carnitine stereoisomer participating in mitochondrial fatty-acyl transport
+
+Flavin adenine dinucleotide:
+  label: Flavin adenine dinucleotide (FAD)
+  permalink: /flavin-adenine-dinucleotide
+  description: Riboflavin-derived flavin cofactor; food precursor supply is distinct from direct FAD content.
+
+Nicotinamide riboside:
+  label: Nicotinamide riboside
+  permalink: /nicotinamide-riboside
+  description: A defined dietary NAD precursor; natural occurrence is distinct from supplemental efficacy.
+
+Nicotinamide mononucleotide:
+  label: Nicotinamide mononucleotide
+  permalink: /nicotinamide-mononucleotide
+  description: Oxidised beta-NMN intermediate in NAD salvage; not an independently admitted dietary input.
+
+NAD plus:
+  label: NAD+ (oxidised nicotinamide adenine dinucleotide)
+  permalink: /nad-plus
+  description: Oxidised NAD cofactor target; compartment-specific delivery is distinct from blood precursor responses.
+
+Indispensable amino acids:
+  label: Indispensable amino acids
+  permalink: /indispensable-amino-acids
+  description: The defined nine-amino-acid dietary class, not a requirement for complete coverage at every meal.
+
+Octanoate:
+  label: Octanoate
+  permalink: /octanoate
+  description: Biochemical conversion identity; not an independent dietary admission.
+
+Acetyl-CoA:
+  label: Acetyl-CoA
+  permalink: /acetyl-coa
+  description: Biochemical conversion identity; not an independent dietary admission.
+
+Acetoacetate:
+  label: Acetoacetate
+  permalink: /acetoacetate
+  description: Biochemical conversion identity; not an independent dietary admission.
+
+Guanidinoacetate:
+  label: Guanidinoacetate
+  permalink: /guanidinoacetate
+  description: >-
+    Endogenous intermediate of creatine synthesis, not an independent dietary
+    admission.
+
+S-adenosylmethionine:
+  label: S-adenosylmethionine
+  permalink: /s-adenosylmethionine
+  description: Intracellular methyl donor; no independent dietary admission.
+
+Phytate:
+  label: Phytate
+  description: Phytic acid and its phytate forms; composition does not imply mineral absorption.
+Oxalate:
+  label: Oxalate
+  description: Oxalate forms, food occurrence and qualified mineral interactions.

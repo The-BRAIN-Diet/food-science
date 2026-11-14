@@ -1,0 +1,186 @@
+---
+id: vinegar-pickles
+title: Vinegar Pickles
+sidebar_label: Vinegar Pickles
+description: >-
+  Acid preservation in vinegar brine — acetic acid exposure, shelf stability,
+  and distinct biology from lacto-fermented vegetables
+tags:
+  - Food
+  - Vinegar Pickles
+  - Vegan
+  - Vegetarian
+  - Sodium
+  - Acetic Acid
+list_image: /img/foods/vinegar-pickles/vinegar-pickles_thumb.webp
+nutrition_per_100g:
+  vitamin_e_mg: 0.03
+  lutein_zeaxanthin_ug: 28
+  folate_ug: 8
+  sodium_mg: 809
+  vitamin_a_rae_ug: 6
+  beta_carotene_ug: 53
+  sugar_g: 1.07
+  calcium_mg: 57
+  potassium_mg: 117
+  zinc_mg: 0.1
+  vitamin_b3_mg: 0.109
+  vitamin_b5_mg: 0.201
+  vitamin_b6_mg: 0.035
+  linoleic_g: 0.052
+  fat_g: 0.3
+  carbs_g: 2.41
+  protein_g: 0.5
+  fibre_g: 1
+  iron_mg: 0.26
+  magnesium_mg: 7
+  phosphorus_mg: 16
+  vitamin_c_mg: 2.3
+  copper_mg: 0.028
+  manganese_mg: 0.062
+  sat_fat_g: 0.079
+  vitamin_k_ug: 17.3
+  vitamin_b1_mg: 0.045
+  vitamin_b2_mg: 0.057
+  choline_mg: 3.4
+  kcal: 12
+  pufa_18_3_unresolved_mg: 70
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: 'Pickles, cucumber, dill or kosher dill'
+  fdc_id: 168558
+  retrieval_method: SR Legacy bulk (April 2018)
+  basis: per 100 g edible portion
+  last_checked: '2026-08-15'
+main_image: /img/foods/vinegar-pickles/vinegar-pickles_medium.webp
+legacy_list_image: /img/foods/vinegar-pickles/vinegar-pickles_thumb.webp
+legacy_main_image: /img/foods/vinegar-pickles/vinegar-pickles_medium.webp
+nutrition_supplementary_sources:
+  - key: acetic_acid_qual
+    label: Acetic acid
+    status: Present — quantity not established
+    amount_display: Present
+    notes: From the vinegar brine. Not reported by the USDA dill-pickle panel.
+    source_note: >-
+      Vinegar pickles are acidified in a vinegar brine. FDA CPG Sec 525.825
+      identifies acetic acid as the acid of cider vinegar, at a labeling figure
+      of 4 g per 100 mL for the vinegar itself. USDA FDC 168558 (Pickles,
+      cucumber, dill or kosher dill) does not report acetic acid in the edible
+      portion, so no pickle quantity is stored.
+    source_url: >-
+      https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525825-vinegar-definitions-adulteration-vinegar-eels
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+substance_relationships:
+  - substance: Sodium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports sodium in Pickles, cucumber, dill or kosher
+      dill.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: vinegar-pickles|Sodium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Pickles, cucumber, dill or kosher dill'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168558/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Acetic Acid
+    substance_id: acetic-acid
+    relationship: contains
+    description: >-
+      The functional acid is acetic acid from the vinegar brine. The USDA
+      dill-pickle record does not report an edible-portion amount.
+    requires_supplementary_key: acetic_acid_qual
+    evidence_status: supported
+    evidence_source: FDA CPG Sec 525.825 (March 1995), applied to the vinegar brine
+    evidence_material: Vinegar brine used for vinegar pickles
+    source_url: >-
+      https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525825-vinegar-definitions-adulteration-vinegar-eels
+    presence_status: presence_supported_amount_unavailable
+substance_review_candidates: []
+---
+## Overview
+
+**Vinegar pickles** are plant foods preserved by **acidification in a vinegar-based brine** rather than by extended **lacto-fermentation**. The BRAIN Diet treats them as a distinct category from [Fermented Vegetables](./fermented-vegetables.md) (sauerkraut, kimchi, and similar), which rely on salt, lactic acid bacteria, and often deliver live cultures and fermentation-derived metabolites. This page describes the **preservation chemistry and plausible biological relevance of vinegar pickling** — not specific vegetable types or recipes.
+
+For acetic acid as a condiment or meal modifier, see also [Vinegar](./vinegar.md).
+
+### Acid preservation using vinegar
+
+Preservation depends on lowering the pH of the food matrix with **acetic acid** from vinegar (often combined with salt and sometimes sugar). At sufficiently low pH, growth of spoilage organisms and pathogens is suppressed, allowing stable storage at ambient or refrigerated temperatures after processing. Commercial products are frequently **heat-processed or pasteurized**, which further limits microbial activity.
+
+### Minimal microbial fermentation
+
+Unlike lacto-fermented vegetables, vinegar pickles are **not primarily a probiotic food**. Any brief fermentation before acidification is secondary to the **added acid** that defines the product. Pasteurized shelf-stable jars in particular should be assumed to carry **little or no live fermentative flora**, in contrast to unpasteurized sauerkraut or kimchi discussed on [Fermented Vegetables](./fermented-vegetables.md).
+
+### Acetic acid exposure
+
+The functional acid in vinegar pickles is **[acetic acid](/docs/substances/bioactive-compounds/acetic-acid)**. When consumed, acetic acid from the brine and absorbed pickle matrix contributes to **dietary acetic acid load** at the meal level. The USDA dill-pickle record does not report that amount [4]. This is mechanistically distinct from the **lactic acid** and microbial metabolites produced during vegetable fermentation, though both pathways lower pH and alter flavour.
+
+### Shelf-life extension
+
+Acidification extends shelf-life by creating an environment unfavourable to most bacteria and moulds. Refrigeration after opening remains important for quality and safety, especially for reduced-salt or lightly acidified home preparations.
+
+### Texture and flavour changes
+
+Acid and salt alter **cell structure and water activity**, producing the characteristic crisp-tart profile of vinegar-brined products. Heat processing, brine strength, and storage time further change texture (softening) and perceived acidity. These are culinary and matrix effects rather than neuroactive endpoints in themselves, but they influence how pickles are used — typically as **condiments or small sides**, not bulk vegetable servings.
+
+## Potential Biological Relevance
+
+### Acetic acid and glycaemic response
+
+Acetic acid from vinegar has been studied as a **meal-level modifier of glucose appearance**. In people with insulin resistance or type 2 diabetes, vinegar taken with a high-carbohydrate meal improved insulin sensitivity and reduced post-prandial glycaemia [Johnston et al. 2004](/docs/papers/BRAIN-Diet-References#johnston_2004_14694010). That evidence underpins BRAIN Diet glycaemic strategies that include vinegar and acidic foods alongside protein, fibre, and meal sequencing — see [BRS6-FM1-PM1 Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) and [BRS6(FM1) Glycaemic–Insulin Stability](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability).
+
+Vinegar pickles deliver acetic acid **within the food matrix and brine**, so portion size, brine consumption, and total meal composition determine exposure. In vitro work on apple vinegar also reports **α-glucosidase and α-amylase inhibition** and polyphenol-associated antioxidant activity [Ousaaid et al. 2022](/docs/papers/BRAIN-Diet-References#ousaaid_nutritional_2022); extrapolation to whole pickle products should be cautious because brine composition and processing differ.
+
+### Reduced fermentation-derived metabolites compared with fermented vegetables
+
+Lacto-fermented vegetables can contribute **live microbes, organic acids, and downstream gut-derived metabolites** (including short-chain fatty acids such as butyrate and acetate produced from fibre fermentation in the colon) that are central to the BRAIN Diet’s fermented-food strategy. Wastyk et al. 2021 is fermented-food dietary-pattern evidence, not a vinegar-pickle trial [Wastyk et al. 2021](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021).
+
+**Vinegar pickles should not be substituted for fermented vegetables** when the goal is probiotic exposure, GABA-associated fermentation pathways, or broad fermentation-derived postbiotic support. They may still contribute **dietary acetic acid** at the meal, but not the same live-culture or extended fermentation metabolite profile as sauerkraut, kimchi, or kefir.
+
+### Potential sodium burden depending on preparation
+
+Commercial dill-style vinegar pickles are often **high in sodium** (illustrative USDA record: ~809 mg sodium per 100 g for “pickles, cucumber, dill or kosher dill”). Salt is used for flavour, texture, and preservation alongside acid. For people monitoring blood pressure or total sodium intake, **portion size, rinsing, and label comparison** (including reduced-sodium products) matter more than for fresh vegetables. Sweet pickle styles add **sugar** as well as salt, shifting the metabolic context of the meal.
+
+### Preservation of some phytochemicals
+
+Acidification and reduced pH can **slow oxidative degradation** of some plant compounds compared with unprocessed produce, though heat processing and long storage may still reduce heat-sensitive vitamins. Polyphenols and other phytochemicals from the starting plant material may persist in the edible portion and brine to varying degrees depending on processing time, temperature, and acidity. Vinegar itself can carry **polyphenols** (especially in less-refined vinegars) [Ousaaid et al. 2022](/docs/papers/BRAIN-Diet-References#ousaaid_nutritional_2022). Quantitative phytochemical retention is product-specific; the nutrition table above reflects a common commercial proxy, not all pickle styles.
+
+## Food Context
+
+### Synergies
+
+- Use as a **low-volume acidic condiment** within meals that already include protein, fibre, and diverse plants — consistent with glycaemic-modulation patterns that pair vinegar with carbohydrate-containing foods [Johnston et al. 2004](/docs/papers/BRAIN-Diet-References#johnston_2004_14694010)
+- Combine with [Fermented Vegetables](./fermented-vegetables.md) in the diet when both **acetic acid at the meal** and **lacto-fermentation benefits** are desired — they are complementary categories, not interchangeable
+
+### Sourcing
+
+- Prefer labels with transparent brine ingredients (vinegar type, salt, added sugar)
+- Choose reduced-sodium varieties when sodium intake is a priority
+
+### Preparation
+
+- Rinse or drain if sodium is a concern
+- Refrigerate after opening
+- Do not assume unpasteurized probiotic content unless explicitly labelled and handled accordingly
+
+## Recipes
+
+<FoodRecipes tag="Vinegar Pickles" />
+
+<NutritionTable details={frontMatter} />
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
+## References
+
+[1] Johnston et al. (2004). [Vinegar improves insulin sensitivity to a high-carbohydrate meal in subjects with insulin resistance or type 2 diabetes.](/docs/papers/BRAIN-Diet-References#johnston_2004_14694010). Vinegar improves insulin sensitivity to a high-carbohydrate meal.
+
+[2] Ousaaid et al. (2022). [The Nutritional and Antioxidant Potential of Artisanal and Industrial Apple Vinegars and Their Ability to Inhibit Key Enzymes Related to Type 2 Diabetes In Vitro](/docs/papers/BRAIN-Diet-References#ousaaid_nutritional_2022). Apple vinegar polyphenols, antioxidant activity, and in vitro α-glucosidase/α-amylase inhibition.
+
+[3] Wastyk et al. (2021). [Gut-microbiota-targeted diets modulate human immune status](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021). Gut microbiota–targeted diets and fermented-food context.
+
+[4] U.S. Food and Drug Administration (1995). [CPG Sec 525.825 Vinegar, Definitions - Adulteration with Vinegar Eels](/docs/papers/BRAIN-Diet-References#fda_cpg_525_825_vinegar_1995). Acetic acid is the acid of cider vinegar. The 4 g/100 mL figure applies to the vinegar, not to a measured pickle portion.

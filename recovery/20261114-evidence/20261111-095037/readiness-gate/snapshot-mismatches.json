@@ -1,0 +1,401 @@
+{
+  "approved": [
+    {
+      "file": "docs/foods/anchovies.md",
+      "expected": "fadeeaab16790e1c2fb66e368cd91390cac69984df3ae603dfd257e0249bd50e",
+      "actual": "88ab7ba9da4cd20220944d5613db28d31c0aba72643cc8142735ce3a6c61ade3"
+    },
+    {
+      "file": "docs/foods/apples.md",
+      "expected": "3af4592d7b569f22038cb3783b79fb338c873bc49e5949a091cb3d88cdc11ab9",
+      "actual": "23e23adf8c3411d1af95cab4a3cf819844fa1891e54e7c076725f3636af43951"
+    },
+    {
+      "file": "docs/foods/beef.md",
+      "expected": "d1775545e00f3a51c8dfb49de9abe2bde4c2f017b627527db4bf79881425672a",
+      "actual": "55e797e81ebd75873583d905c1466e0bf59320c967f5fa973abe981a73729263"
+    },
+    {
+      "file": "docs/foods/broccoli.md",
+      "expected": "b5e98fb4848a758a10057374063baa6ce15126dc70e7990b20408816ed81fc55",
+      "actual": "653420a142a8c814237c821fe2db3e8639878df331ab59df21fd2df00d4fa4ab"
+    },
+    {
+      "file": "docs/foods/butter.md",
+      "expected": "de894ccf01263a82c9d74b9bb4643f35fe7323cd0a55e23b612a5be5d489cbaf",
+      "actual": "13fb29ce5671d83e2673098ea1d0875ba0a719b83fd6581ad88794522c74b675"
+    },
+    {
+      "file": "docs/foods/chicken.md",
+      "expected": "243d24fd229d33527cea65607be1f4e73643e5b3f562a1a65525775045fb25b0",
+      "actual": "b8e59a2bf2361d22e92ae7a31adfb78d3d73bb96ebcc5357dbf9a8e1a7b0c007"
+    },
+    {
+      "file": "docs/foods/chicory-root.md",
+      "expected": "f0d7c1dae2fe6fccff6490af79212dc9cb7f2f41ce039299eed7fc40e5dfffed",
+      "actual": "4c4b88d0231be7c240b71b7df2175d8d13b8c6e7efa7dcc3f8f546c6d2dc23ed"
+    },
+    {
+      "file": "docs/foods/clams.md",
+      "expected": "9fed721ce67650364cef713c2ea6df0923992f6035f62d76113cd34af70df4b5",
+      "actual": "66fd6e8cca6f8a553a3a34311e060365d8e5002d309addd4e353584dfc702155"
+    },
+    {
+      "file": "docs/foods/cod.md",
+      "expected": "fc6866efe264d54724f6a72cdf6c0957597e0e8979b132f04c57dd5fd0e1831b",
+      "actual": "7891c7e2721043edfa67a7044f60741d682e4526793b5b4919ce460e26aa6ada"
+    },
+    {
+      "file": "docs/foods/egg-yolks.md",
+      "expected": "b27815bcb0a628bd40ab26c7e7978d3973f0fe80b088097cfdf921c783751026",
+      "actual": "d3aa5b6e8768f7b2124efca961e7b208b98205ee0f1be747f1d7a411f660adcf"
+    },
+    {
+      "file": "docs/foods/eggs.md",
+      "expected": "3620bac7b48b7479fecc47e12d13a6eda341982e8537280d69d7df4a2c6cb476",
+      "actual": "275e4e53746028dc03046d830720a2a9ecb9523b307541640398e0d06db60ba9"
+    },
+    {
+      "file": "docs/foods/garlic.md",
+      "expected": "3ccb5b6828841fa20bba8ddf373f06df1bb102e5b4c6aea3589887b941e6dd8b",
+      "actual": "7e10b6429ea15273650692a8855af5ad60cbc2d3fc74ea1f58f32d6ca80a2eab"
+    },
+    {
+      "file": "docs/foods/ghee.md",
+      "expected": "75857db81206ce9195c6ced6ddd5d25b8d18df707cac784780798781531e8f65",
+      "actual": "cd7643bd11f3fb7cc5e64753322ce08a3b32e177988d65b50b67dc8bbe05d2d6"
+    },
+    {
+      "file": "docs/foods/herring.md",
+      "expected": "37de11eb218e5b97c0367c4aa69fb53851358f01d31f2d38714ca50f37b1645d",
+      "actual": "0206489be5cb1b1bd2690970263fc3bf67309330d6e3440990fe83ab8df66a12"
+    },
+    {
+      "file": "docs/foods/jerusalem-artichokes.md",
+      "expected": "96ed5ba5d34836168a9f2320a56ed959804baa6849623d96c18a940a3e2725fd",
+      "actual": "4498edf9546759b9299fe1e474f6df919d174f53bbb7eaa822d333489b3c45c3"
+    },
+    {
+      "file": "docs/foods/lamb.md",
+      "expected": "e65ffcd772a4f5070d4aba376dd3a00b33245cef63e48ffeaa180646b2e06994",
+      "actual": "be376ef4ae9596f1c9788e5e889741ad418eca25a3fb6a4a3b5a3f22df7ff00d"
+    },
+    {
+      "file": "docs/foods/lemon.md",
+      "expected": "3b0712b7f965b0aad6a1cadceaf81618cc8605660291de5fd68ef4500dc676f1",
+      "actual": "096e6ad6129c062830b19a1429f5f83ce83797f31242489722c4644a4908a27d"
+    },
+    {
+      "file": "docs/foods/liver.md",
+      "expected": "a54242b54b6de7d103a9bd76f877bbde70a0a5a6d4126b691a55a0937283f8f5",
+      "actual": "58f80daa4dd3b08a0ff4632604d9d9fce2c13831ac4059dd3b4bd0057781eb52"
+    },
+    {
+      "file": "docs/foods/mackerel.md",
+      "expected": "7738157635f1f6cf35e44e53f4d7f3eed1abe379add5d6aa6dbdcbeb661679d7",
+      "actual": "975413f391d5fefc61ad11865e74e9a9bf9656e60de4678b0c7bc3d2e2d2826e"
+    },
+    {
+      "file": "docs/foods/milk.md",
+      "expected": "82eb1fba789fb828c8b27b72da73174976aacb54f30fbfec814152a69d4c3e6d",
+      "actual": "01102d9148df2de883ed1d24e634ebaafe853484d51f880a8df4e011c27d6044"
+    },
+    {
+      "file": "docs/foods/mussels.md",
+      "expected": "dee71eeddf068f630254e1d2cddd0531513357c082b1ad7b2a5edc755bb7f824",
+      "actual": "c85bbdcd75abf5e8b1bcb4f3fe10e3e6507265087de5377ce7b621d67f91403b"
+    },
+    {
+      "file": "docs/foods/onions.md",
+      "expected": "0f8042a9a0e2f4168988886a2507af33f249105e14587818861b50a6e1b85c4f",
+      "actual": "88b971f6116711c787b8536eec57c6e00c12fc1afa9c42c1df6adf845930da6f"
+    },
+    {
+      "file": "docs/foods/oranges.md",
+      "expected": "172eeaaf5c6308690f9a7145f7057f09c86a72d33be59bea23e00bf9f0bd8b15",
+      "actual": "211d579d44bcb38e71eb8f9b86cc3e044a1ef11964486549db5a10f1a918cd32"
+    },
+    {
+      "file": "docs/foods/oysters.md",
+      "expected": "faaf373b98d5aac2aeee93097e34918c42f69da5fbe3d4b4cafb71b1dd09b622",
+      "actual": "0df7a0816bf66647532747c23705a4c6a8a43943c8f207fabee0409025719786"
+    },
+    {
+      "file": "docs/foods/pork.md",
+      "expected": "714d2551409929c4ab1b7f590f0c64517a360ffa72387967480eb6ee483fda6d",
+      "actual": "1f225a821defecb5509b3d78e3f16bff1fa63ebcc412ce68f86ca5a85e30c069"
+    },
+    {
+      "file": "docs/foods/salmon.md",
+      "expected": "72d133fe9a163b26e37f8f76096b41b0d311e0a4e2e8050eeac0a322102d678e",
+      "actual": "7385aeea8e89270ebe6159d0e0bad3adbd19cc2041c71e972e84046be2d3d308"
+    },
+    {
+      "file": "docs/foods/sardines.md",
+      "expected": "738cc698237f3c99b05787a50fa7409ab72524dff691922e4459068f9c3e05f2",
+      "actual": "e0219d49b4f509af59d4a3e7d784965ad5572569f63e5dbff9701a75a9d88728"
+    },
+    {
+      "file": "docs/foods/scallops.md",
+      "expected": "ae9b3183f17d8b64d81f44c11613b8eb4abde076d85b178b8889a8b3951957b9",
+      "actual": "e079585058798488cdec136d07c8a28ac820d3d4bf693483a2c7fda74015b3c2"
+    },
+    {
+      "file": "docs/foods/shrimp.md",
+      "expected": "7b82c78c237ccf518f2a60c64e21d7f527310277d9e62692927f6ecc663924c4",
+      "actual": "56ca1fe925d4fbb9afb65feb42c32b3d83ca657fc5386bccdb97fd9f306c6a93"
+    },
+    {
+      "file": "docs/foods/tuna.md",
+      "expected": "aef0920d382a255e76d26c2d6e7f9262f6daac128eb0d5f954ba0f09a96cb0f7",
+      "actual": "a421063e38e6fb42d534a9cffbbdd6d18e151161277ed2d3ded8757548f5ec74"
+    },
+    {
+      "file": "docs/foods/turkey.md",
+      "expected": "54fbd9f0fb0718a41f4ef30bd9fa76001584e55fecefeac6a0030dca2eeb6ca1",
+      "actual": "25005e0ae5eb6c804ff3adf6b8ea0a11f142e316ab04c66e253332b127a1e7bf"
+    },
+    {
+      "file": "docs/foods/vinegar-pickles.md",
+      "expected": "41f89224630613cc5d487699976db9bf56d7a2d78267142b21491b6bfba19627",
+      "actual": "f0484fa419fd475168c4951fe02d7620315f357ba8e62d7342c718c0bb881361"
+    },
+    {
+      "file": "docs/foods/vinegar.md",
+      "expected": "80e0da4aa3778295f12d721d2db2a47c1deea10906b419a97c62fb5c1ca0f935",
+      "actual": "f98d963b44b5a9a9cf5388d11e59374b8840122cb670ccc4c8249f93ff86c8e4"
+    }
+  ],
+  "snapshot": [
+    {
+      "file": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability.mdx",
+      "expected": "654943bf50d12bac9dd94ddb344fcb6beacb6161d7f4cd5ba5ef9c94aa439217",
+      "actual": "ef0770d8d6535810cca92e9284c904d8267ff2f19bef1cdc734eb785fd11561c"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+      "expected": "ce196d266c03ee4479fd6677470343235a9b075704dddfb42a4440071c4a93cc",
+      "actual": "aae2d4bd3cbfe72cb295bf128fb69b9433a01cc9b62dfbb5e76d9e5a31f8d5e1"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+      "expected": "dd3dd3939e3bac827e790bd9c14f11f1f60b57f6ff5460d4b9f6445fedfba37f",
+      "actual": "214414dbed8d932b6cd39fa5ce05c48a6d7dfdea1ca284be0c6ce70b1051f456"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
+      "expected": "e48ae4efef08e1b105808847beb3101c942a59449a97beb2772e9cd541c8c9d3",
+      "actual": "33e1504e7427cc9eeb1156203239ab5c5547c28026b2046ae586066901134303"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+      "expected": "2d12b67727ca01bac00e63ce904ec2248d0ba29ca01ba5a4bb158e52b82a2079",
+      "actual": "58338261e3d498c17483a05c92800c8f1dc79b5dbac5ad668ea4571d86ded3f3"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
+      "expected": "7945e915f57b19cd1749b280c5bd9c648c493583120719ecfec304a9101cc08a",
+      "actual": "3f16ca472a7322ffe5a91789004a017e1b37a41fe58ef47a6b267486feb66ba0"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+      "expected": "d50097c5ae65a3f6c21f869cbb5885f396b7c8cb347aaf95d3116dc9578f94b6",
+      "actual": "d710cbc2d69ddba39be27602937c22165ba03dbac6d7be65bd5119b53cd4829f"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+      "expected": "afeea6ae0840eedc688fa9d2d55d85c260a464bc98b1bc31d7f8e6429809674c",
+      "actual": "0939c7fb30ba61b96c7849257749635d06efef65239488255cd3dcae9fdf71c5"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+      "expected": "f79eda4ae11ad96d59a39f0a3eb9b47e36704e27357d8fd26d4ec5fec030c325",
+      "actual": "b300db76f1239db92638a67161af24c0f1a7ef104cbe504bed06a4b4ba58a5ab"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx",
+      "expected": "12ac0125e4dc310b1fec4e4a72f8307c0710db43f91b39f3c52dd38055016ef1",
+      "actual": "b18c1b554ece42396ddbee3b5e3a25b1a2d16675858e06426fa3f828a9102bd5"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx",
+      "expected": "190486e48b28a39e95c0bc544d02bf3b5558f992edc2608cd73469e40dffe890",
+      "actual": "740bffb42dd6d290da80cc63f151e2b5142bb8757febfe9368d81498963ab4fb"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx",
+      "expected": "a0f685407940c16eac3610521fa479af02e6e7ad94539719388d7545fc078d0c",
+      "actual": "df4361940b64e621e4986909458410645b77f566850d967a790cf963ff791365"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx",
+      "expected": "317e3d09fb31404e1adb0fde22baab7f982a7b2b1530f22a6ccfaa19a5d5b701",
+      "actual": "3d0973aa62602e26ab4b5fc25a742a2f899b7a930642a7d10e42d9f1e236b918"
+    },
+    {
+      "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
+      "expected": "c75a91b7cc73a7874b5e6fde9a839eee0de456d7ee8059b83ced8bc4f8e7fa55",
+      "actual": "700be5276ccc16cdb47d8818790c2f61e3ba791f01da8f9695317f006e30090c"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx",
+      "expected": "3225502d5bb706243fa07b571917d83be0d1c6e17a1e732c7d826ad6cdbe0e7d",
+      "actual": "dec1369ff10f2593c3e07251ea4639c8c571d0c3495e10d33c52eb293b1030b7"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx",
+      "expected": "12f4d64a612c3a073cebd7430d0628cd9187ddbd713a1659155ea5708051c93d",
+      "actual": "fd7401afdfb87f49c730b30e384a9a5928bbd140cc6373f64197fe7e93f0fdbc"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx",
+      "expected": "5c10b2000eed11a5d4b375946c3e4c87c7190b0ff7f6284d772e0542cc4fcdba",
+      "actual": "638976b0816ead8808a81233cb5e993f1be8bb6c3f998acae3b57c9b173c08b1"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx",
+      "expected": "564c8d2f801d08052271d62e74a0b1428e58a3dda7104cea8dc2dd0852cf377c",
+      "actual": "53ee73cbc2007e328c5f0bc73138cdd5bf9fd831d4e26c18f952a069ac9c26d6"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+      "expected": "deb2296bff243ba074c5d7f3d180db9a30e9910b8a82207ed893bc1747aa88f6",
+      "actual": "80a6a7c4bcfb731075629d01fed30ee2ed1653f67be05d078efce5bd8aba708d"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx",
+      "expected": "ccb994b14bc07f0e94176fb91c35f55aa17ea2b1b299e3f00c2f41aecdb4511c",
+      "actual": "ad7253f700862af9ea092c7e4cce04657d176c22047728032e390345733b3c1b"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx",
+      "expected": "0827e6073f91529251d3ee6702a1b820eee179894114e4ca8f70587d1beec1dc",
+      "actual": "2cbd2f27e7542574398ab97cf82b1a5a92b769fb78e44917b24032ba5db40eb7"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
+      "expected": "a3e68da4d5c5aa84b9bbd3b8d42bd20f64f17ee7875a819c018dd2e18bb5240d",
+      "actual": "eadafb52ad975063d15e64dada2283c8df0ea8f035229e4ea754a2c0c51f6c0a"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx",
+      "expected": "ed260528ab624daf6b0a55d05b2dc96dfc0e05c125c242922c0a9b7dc7bfed3b",
+      "actual": "534793426b02c38bc489f93670aadac69ed098d60c1179560f16131863824eda"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx",
+      "expected": "7a80c484c383b78ea12a1a8de58a21554fbb480237516a49415c2342e686f68f",
+      "actual": "6ab4926c7807882d893f6c646747a00e28034ec118c4a8606f6112cb294309c1"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx",
+      "expected": "b34e60dfe6d677ce1b341600792d505b9ea9e722a389cf26cfa6ab95cfc6ff1e",
+      "actual": "73f4413a36012bacadd624c8250707c655a306006511c54c8c78482a14cbce38"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx",
+      "expected": "a15dfc2a4c424349bc18588ccbdef94e2334ce7c8fd5053666525c7bd91e8289",
+      "actual": "ca17cc443a5388e219441df297c18f6d624ffc8d2c4719315551e0e8365f1889"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+      "expected": "7822825548211ce1a67115ca316293ea244ba550718a4f0405028d9c2dc4cab2",
+      "actual": "acdf83bc8dc5e1b1d7ebf2403a9140bbeeb9bcab4b9292140de29174315dc6eb"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx",
+      "expected": "893969c8f9dfb3d0bf49f77c609c1ffbf7f1deb860c999a35b333357c5f017db",
+      "actual": "ff54034338886ea5ff639051d28e492dd35455c2a9b9546a22c9f5720ebe49a0"
+    },
+    {
+      "file": "docs/foods/apples.md",
+      "expected": "3af4592d7b569f22038cb3783b79fb338c873bc49e5949a091cb3d88cdc11ab9",
+      "actual": "23e23adf8c3411d1af95cab4a3cf819844fa1891e54e7c076725f3636af43951"
+    },
+    {
+      "file": "docs/foods/broccoli.md",
+      "expected": "b5e98fb4848a758a10057374063baa6ce15126dc70e7990b20408816ed81fc55",
+      "actual": "653420a142a8c814237c821fe2db3e8639878df331ab59df21fd2df00d4fa4ab"
+    },
+    {
+      "file": "docs/foods/chicory-root.md",
+      "expected": "f0d7c1dae2fe6fccff6490af79212dc9cb7f2f41ce039299eed7fc40e5dfffed",
+      "actual": "4c4b88d0231be7c240b71b7df2175d8d13b8c6e7efa7dcc3f8f546c6d2dc23ed"
+    },
+    {
+      "file": "docs/foods/garlic.md",
+      "expected": "3ccb5b6828841fa20bba8ddf373f06df1bb102e5b4c6aea3589887b941e6dd8b",
+      "actual": "7e10b6429ea15273650692a8855af5ad60cbc2d3fc74ea1f58f32d6ca80a2eab"
+    },
+    {
+      "file": "docs/foods/jerusalem-artichokes.md",
+      "expected": "96ed5ba5d34836168a9f2320a56ed959804baa6849623d96c18a940a3e2725fd",
+      "actual": "4498edf9546759b9299fe1e474f6df919d174f53bbb7eaa822d333489b3c45c3"
+    },
+    {
+      "file": "docs/foods/lemon.md",
+      "expected": "3b0712b7f965b0aad6a1cadceaf81618cc8605660291de5fd68ef4500dc676f1",
+      "actual": "096e6ad6129c062830b19a1429f5f83ce83797f31242489722c4644a4908a27d"
+    },
+    {
+      "file": "docs/foods/onions.md",
+      "expected": "0f8042a9a0e2f4168988886a2507af33f249105e14587818861b50a6e1b85c4f",
+      "actual": "88b971f6116711c787b8536eec57c6e00c12fc1afa9c42c1df6adf845930da6f"
+    },
+    {
+      "file": "docs/foods/oranges.md",
+      "expected": "172eeaaf5c6308690f9a7145f7057f09c86a72d33be59bea23e00bf9f0bd8b15",
+      "actual": "211d579d44bcb38e71eb8f9b86cc3e044a1ef11964486549db5a10f1a918cd32"
+    },
+    {
+      "file": "docs/foods/vinegar-pickles.md",
+      "expected": "41f89224630613cc5d487699976db9bf56d7a2d78267142b21491b6bfba19627",
+      "actual": "f0484fa419fd475168c4951fe02d7620315f357ba8e62d7342c718c0bb881361"
+    },
+    {
+      "file": "docs/foods/vinegar.md",
+      "expected": "80e0da4aa3778295f12d721d2db2a47c1deea10906b419a97c62fb5c1ca0f935",
+      "actual": "f98d963b44b5a9a9cf5388d11e59374b8840122cb670ccc4c8249f93ff86c8e4"
+    },
+    {
+      "file": "docs/substances/microbial-metabolites/scfas/acetate.md",
+      "expected": "f5ce59482562666c8e166bb1f9c86e411bec158a032bcc422fc1cdf9dcf18f2d",
+      "actual": "25a56f060fd2f03a01b5817a38f82ae084cbd71d8b6b2ff8da146b346d886c1b"
+    },
+    {
+      "file": "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/inulin.md",
+      "expected": "9eb9f88d4b9ed607c524b532bfa5d3a9c2135c78fc103e2521e8adf4f2d028d7",
+      "actual": "011feaa29717836bfde592ba19925d1c7b5b09b00d6472693f60e8beabe9dce4"
+    },
+    {
+      "file": "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructo-galacto-oligosaccharides.md",
+      "expected": "f91e19dc81bb7eb3570a75aadd4debcdaec5cc279bcd327e499fce5fcdec0e19",
+      "actual": "7c8530c4a26e1909413f27fdd0fc23add146b71b0dd14a434b02dddae547a5d5"
+    },
+    {
+      "file": "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin.md",
+      "expected": "b890013fcb30f368d047a5a02ca41ac6a0a645a41fce70c5292feeae17c89b9f",
+      "actual": "dfe76350b2754e2d7a0e93f4e8fa6bdc31eae53ca374b910e2fa5317efa21bdf"
+    },
+    {
+      "file": "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch.md",
+      "expected": "00c8ef67dad22e0e68adf905def7d9380ff17326df714437aebd95953cbb629e",
+      "actual": "3396c699def631f4311ddadffed98054ba1f940d6146de0bc2c0f76b0c57f853"
+    },
+    {
+      "file": "registry/substances.json",
+      "expected": "40dba69ca7294add363ae8d5d8234a727fe5353faef595eca395bb77cab60c0f",
+      "actual": "fc5856c917f5dbe76fcc44012685f34ff1ad7055c85b2cbd82ad9a36169318b8"
+    },
+    {
+      "file": "scripts/lib/input-substance-food.mjs",
+      "expected": "b9e0f5a3d7a4d8bd09a35bf81a9e90ab4ba0879325fd3e9470288a9c1122b2d7",
+      "actual": "dd2d24ea894911f67aff0353b8d603477d5587db416c81aa7423b8612d19c444"
+    },
+    {
+      "file": "src/data/relatedSubstanceRelationships.mjs",
+      "expected": "50b5155250c5ff2d019b27d372a3878e9ba2cb8eaf5710d96fc067359ccb5464",
+      "actual": "008eca05da9368438bae788e3055911dcbc17cfc49ada445e958249c5ab6d393"
+    }
+  ]
+}

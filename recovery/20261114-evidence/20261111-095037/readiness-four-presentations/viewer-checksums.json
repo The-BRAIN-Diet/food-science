@@ -1,0 +1,22 @@
+{
+  "src/data/rankedFoodSources.generated.json": "65acbc71274769b8bf828445a899d45cc503148ab905e93137b435153de290b8",
+  "static/explore/food-wheel/GAP-LEDGER.md": "fbd1fe7e86cb13315e3b9cb2e01ded1ea1203822b24180a5b48ce464d0c29a3f",
+  "static/explore/food-wheel/display-network.json": "96c93bb6419a03cc87910149ce9f2a9c29aa193ec4ebd82f9cbed3c69ca08bc8",
+  "static/explore/food-wheel/index.html": "7c9598b43b1c174814b5ba7dcd588888856d6c75978ba1ad459ec6e06d53fe56",
+  "static/explore/food-wheel/food-wheel.svg": "ded5b60e9423beff55845103922046c0b0aa60d47973475098323b7ac6088e26",
+  "static/explore/food-wheel/MULTI-TARGET-FOODS.md": "497d23f859ea6ffcd6afbaecbb36bbcc9b386436cc2958f9511ff36d1d8573d5",
+  "static/explore/food-wheel/about.html": "3723b3f690c73fc0538feb4c930e12ac6bdaea12d7ca94683815b31376e363da",
+  "static/explore/food-wheel/display-network.svg": "7ef386872bbe0ee894ad21ed5e7c74a25d36b13dbf6f4a333dcff896c1badebf",
+  "static/explore/food-wheel/ribbon-presentation.mjs": "c8647cd11fb9d7d23bb98b8528737c9b3551580b609b7f02945838a3dbfa9a03",
+  "static/explore/food-wheel/TOP-FOODS.md": "f7e11ced51fcf1848ba152e87e0e540a1dc090180a94566a7aa99f44246f9d19",
+  "static/explore/food-wheel/evidence-ledger.json": "6ba8734689893ba7dda29c35caddaa9d2b953b629f6d05723e737d6e9904a719",
+  "static/explore/food-wheel/selection-model.mjs": "64ac4c63265b4c87a9ad05d5249e4d952934bfa002f704a1f1ba212a77084c18",
+  "static/explore/food-wheel/interactive-views.mjs": "d9addbcf453397a260042a3b0b0594aa07de0a046043e5efe717a5b514316dc5",
+  "static/explore/food-wheel/evidence-ledger.html": "18999a667b90d4203490c3cae707389a79cd898289f82da0b3937f4c91f094e5",
+  "static/explore/pm-explorer/index.html": "6eb5f4832d52e7f44dc71d6ff14eb37d88617743ce977ec715afcd3a7c551d09",
+  "static/explore/pm-explorer/pm-sources.json": "5c264ff1eabfdf0fa93aa11ca8dd00dfca57b1c1e4faee6634a5fc80904cd87d",
+  "static/explore/pm-explorer/titles.json": "458143e2d60c116a42cc47452a76eb5f033ab9a387c553339b1b3690bd7d209b",
+  "static/explore/pm-explorer/style.css": "0ce1771bd76ee9c09406bb22ba01a02f32b91e9831530b83310f337209d2fc14",
+  "static/explore/pm-explorer/app.mjs": "b80cf5b38c2258d53ecedf6aab2122a84958c9e226f1c3d57cbf886af83be9c5",
+  "static/explore/pm-explorer/model.mjs": "b5071c663b228dcc7a496e019631886ebe80fe5f8136b7bd78c3ff59ee70114e"
+}

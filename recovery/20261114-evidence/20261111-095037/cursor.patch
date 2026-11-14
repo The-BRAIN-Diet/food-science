@@ -1,0 +1,1435 @@
+diff --git a/AGENTS.md b/AGENTS.md
+index 9dbb296b..b183ddad 100644
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -83,3 +83,8 @@ All the references in there are contained in the `static/bibtex/Brain-diet.bib`
+ ## Mandatory author approval for presentation changes
+ 
+ Follow [system/presentation-change-control.md](system/presentation-change-control.md). Scientific data integration does not authorise public presentation. New substantive blocks require a proposal, representative rendered example, page-type/count scope, updated contract and explicit prior author approval. Run `npm run presentation:check`; never regenerate the baseline or invent an approval to bypass a failure. Both Dietary pathways technical panels are withdrawn across all page types; preserve their data without public projection. This rule supersedes earlier instructions permitting automatic pathway displays.
++
++
++## Canonical science and generated views
++
++Follow [canonical scientific projections](system/canonical-scientific-projections.md) for all future PM creation, revision, presentation generation and release. One current mission lives in PM frontmatter; projections derive it. Preserve historical assessments and canonical scientific decisions. Public explanatory prose may expand explanation but not conclusions. Run consistency tests and report conflicting source records before publication.
+diff --git a/CURRENT-HANDOFF.md b/CURRENT-HANDOFF.md
+index 48cbc79f..aff35789 100644
+--- a/CURRENT-HANDOFF.md
++++ b/CURRENT-HANDOFF.md
+@@ -118,3 +118,13 @@ Targeted follow-up completed without retrieval or rescoring: [boundary proposal]
+ ### Phytate and oxalate — 5 November 2026
+ 
+ Created two canonical substance pages in existing Bioactive taxonomy; registered aliases/forms, linked existing Functional Properties, repaired amaranth qualitative identities and added three evidence-qualified food edges (amaranth ×2, spinach oxalate). [Report](review/phytate-oxalate-2026-11-05/report.md) records source-access limits and tests. 9/9 schema tests, substance and presentation checks pass; no new PM admissions/scores and all task-start PM/SEC hashes unchanged. Local only on review/brs5-pm4-sec-assessment at f1607fe5; no commit/push/deployment. Amaranth methods and comparable quantities remain unverified; no numeric composition added.
++
++### 10 November 2026 — canonical scientific projections adopted locally
++
++Checkout `/Users/paulhouston/Food Science/food-science`, branch `review/brs-x-hormones-pm7-circadian-pm3-2026-11-06`, HEAD `f8510da0`. Scoped transfer from the uncommitted Codex worktree `/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/food-wheel-top-ten`, branch `audit/dietary-connectivity-2026-11-09`, HEAD `af13bec1`. Not committed, pushed, merged or deployed.
++
++Author-approved contract: [system/canonical-scientific-projections.md](system/canonical-scientific-projections.md), linked from the PM schema and template, Stage 2A, Stage 2B, presentation change control, framework QC, the system index and AGENTS.md. Melatonin PM3 current mission is the approved precursor-and-enzyme sentence. The visible Mission uses CanonicalPmMission. The 6 November historical assessment mission remains the previous record. Public dietary prose keeps the depletion finding and the absence of an established benefit from additional intake. PM3-DIT-1 stays unresolved, with dietary input unset. The missing serotonin, N-acetylserotonin and melatonin identities remain an internal gap. No new identities, contextual food edges, admissions or SEC changes.
++
++Concurrent uncommitted intervention food/substance work in this checkout was left in place. The 9 November dietary-connectivity amendments, food-wheel ledger, ranked-food snapshot and tyrosine animal-coverage food edits stay in the Codex worktree. Explorer missions here are derived from canonical PM frontmatter; ranked and documented food layers were not regenerated because those selectors are absent. Sixty-six Explorer missions already matched this checkout. PM3 was the only difference, and this transfer applies the approved mission. The MDX template file was not edited: its existing exact-hash approval is for the 6 November food/substance comment. The Mission rendering instruction is in the PM schema template section. Review: [review/circadian-pm3-identity-review-2026-11-10/REPORT.md](review/circadian-pm3-identity-review-2026-11-10/REPORT.md).
++
++Validation on this checkout: 3/3 canonical projection tests pass, including mission equality for all 67 Explorer PM records, PM3 frontmatter rendering, and the unresolved PM3 food boundary. The compact Explorer and tyrosine coverage files do not load here; their food-wheel and ranked-source modules were not transferred. Re-run on the Codex worktree: 14/14 pass. No production build or browser publication check. Presentation gate accepts the new Mission component and the PM3 page. Remaining presentation failures were already outside this transfer.
+diff --git a/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability.mdx b/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability.mdx
+index bcd13a8f..b44427b2 100644
+--- a/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability.mdx
++++ b/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability.mdx
+@@ -1,7 +1,7 @@
+ ---
+ title: Melatonin Biosynthesis & Availability
+ pm_id: BRS-X(Circadian-FM1-PM3)
+-mission: Sustain melatonin biosynthetic capacity from serotonin through AANAT-mediated acetylation and ASMT-mediated methylation. The operation is the formation of melatonin. It is distinct from light-driven circadian secretion and from melatonin receptor signalling. A change in biosynthetic capacity is not a sleep or ADHD outcome.
++mission: Support the body's capacity to synthesise melatonin from serotonin through the availability of essential precursors and the activity of its biosynthetic enzymes.
+ parent_fm: BRS-X(Circadian-FM1)
+ parent_brs: BRS-X(Circadian)
+ summary: 'Pineal melatonin is formed from serotonin. AANAT acetylates serotonin to N-acetylserotonin using acetyl-CoA. ASMT methylates N-acetylserotonin to melatonin using S-adenosylmethionine. Acute tryptophan depletion lowered nocturnal melatonin secretion in eight healthy volunteers. That supports precursor availability as a constraint. It does not show that extra dietary tryptophan, better sleep or an ADHD outcome follows.'
+@@ -277,6 +277,8 @@ stage2ab_assessment_history:
+       mission: Sustain melatonin biosynthetic capacity from serotonin through AANAT acetylation and ASMT methylation.
+ ---
+ 
++import CanonicalPmMission from '@site/src/components/CanonicalPmMission';
++
+ <p class="brs-pm-thumbnail-wrap"><img src="/img/biological-targets/brs-x-circadian-portrait-thumbnail.jpg" alt="BRS-X(Circadian)" class="brs-pm-thumbnail" /></p>
+ 
+ ## BRS-X-Circadian-1-3 - Melatonin Biosynthesis & Availability
+@@ -285,7 +287,7 @@ stage2ab_assessment_history:
+ 
+ ### Mission
+ 
+-Sustain melatonin biosynthetic capacity from serotonin through AANAT-mediated acetylation and ASMT-mediated methylation. The operation is the formation of melatonin. It is distinct from light-driven circadian secretion and from melatonin receptor signalling. A change in biosynthetic capacity is not a sleep or ADHD outcome.
++<CanonicalPmMission />
+ 
+ ### Overview
+ 
+@@ -317,7 +319,7 @@ In eight healthy volunteers, acute tryptophan depletion lowered nocturnal melato
+ </button>
+ <div class="brs-fm-hub-panel" hidden>
+ 
+-- Tryptophan — PM-specific precursor relationship. Dietary input = Unset. Severe depletion lowered nocturnal melatonin. Extra intake is not established. The derived gate stays unresolved because serotonin, N-acetylserotonin and melatonin have no canonical substance identities. BRS1 admission is not copied.
++- Tryptophan is a dietary precursor in the pathway leading to melatonin. Severe depletion lowered nocturnal melatonin, but benefit from additional intake is not established. A dietary recommendation for this mechanism has not been established; documented tryptophan in foods does not by itself establish a melatonin-raising effect.
+ 
+ </div>
+ </div>
+diff --git a/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx b/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx
+index 73c43fb7..c084bb21 100644
+--- a/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx
++++ b/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx
+@@ -1083,6 +1083,8 @@ kc_adjudication_history:
+     review_record: system/kc-unresolved-decisions-reconciliation.md
+ system_optimisation_practices:
+   - atom_id: PM1-SOP-DEFERRED-1
++    food_ids:
++      - beef
+     sec_status: Provisionally assessed
+     input: Minced rather than intact beef in the tested older-adult meal
+     input_type: food preparation/delivery practice
+diff --git a/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx b/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx
+index 34f20bb5..cadcfd87 100644
+--- a/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx
++++ b/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx
+@@ -476,6 +476,9 @@ dietary_lever_presentations:
+     presentation_section: 3.1.1
+ system_optimisation_practices:
+   - atom_id: PM3-SOP-1
++    substance_ids:
++      - iron
++      - vitamin-c
+     sec_assessed_proposition: "Ascorbate added to the tested inhibitor-containing meal increases non-haem iron absorption; this is an upstream supply proposition, not a dopamine outcome."
+     sec_assessment_ref:
+       id: brs1-pm3-sop-1-intervention-assessment
+@@ -501,6 +504,8 @@ system_optimisation_practices:
+       iron status or any change in dopamine biology or function.
+     claim_ceiling: dietary-provision
+   - atom_id: PM3-SOP-2
++    substance_ids:
++      - phytate
+     sec_assessed_proposition: "Verified phytase dephytinisation increased iron absorption from the tested water-reconstituted cereal porridges, with material-specific exceptions."
+     sec_assessment_ref:
+       id: brs1-pm3-sop-2-intervention-assessment
+@@ -579,6 +584,10 @@ system_optimisation_practices:
+       reflects altered receptor availability or endogenous dopamine occupancy.
+     claim_ceiling: acute-human-mechanistic
+   - atom_id: PM3-SOP-TEA-TIMING-1
++    food_ids:
++      - black-tea
++    substance_ids:
++      - iron
+     sec_assessed_proposition: "In the tested porridge/black-tea protocol, iron absorption was higher when tea was consumed one hour after rather than with the meal."
+     sec_assessment_ref:
+       id: brs1-pm3-sop-tea-timing-1-intervention-assessment
+diff --git a/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx b/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx
+index d802bf93..cdb78c36 100644
+--- a/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx
++++ b/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx
+@@ -1841,8 +1841,8 @@ dietary_input_assessments:
+         - docs/foods/almonds.md
+         - docs/foods/pumpkin-seeds.md
+ system_optimisation_practices:
+-  - {"atom_id":"PM4-SOP-PHYTASE-1","dietary_input":true,"optimisation_category":"food_prep","food_strategy_scope":"food-preparation","food_strategy_id":"food-strategy-c8d6c2de9a7c","input":"Use validated phytate-reducing preparation methods for high-phytate cereals","input_type":"food preparation/delivery practice","biological_role":"Improved non-haem iron absorption from responsive water-reconstituted cereal matrices supports upstream iron provision for the shared iron-dependent tyrosine-hydroxylase step in noradrenaline synthesis.","evidence_source":{"finding_ids":["PM4-F2"],"citation_keys":["hurrell_phytic_2003"]},"evidence_limitation":"Small human isotope-absorption studies; results depended on the cereal, tannins and reconstitution medium. No human brain iron, noradrenaline, attention or clinical endpoint. This does not establish an ordinary household soaking method.","claim_ceiling":"dietary-provision"}
+-  - {"atom_id":"PM4-SOP-TEA-TIMING-1","dietary_input":true,"optimisation_category":"food_prep","input":"Black tea one hour after rather than with an iron-containing porridge meal","input_type":"food preparation/delivery practice","biological_role":"Higher measured non-haem iron absorption supports upstream iron provision for the shared iron-dependent tyrosine-hydroxylase step in noradrenaline synthesis.","evidence_source":{"finding_ids":["PM4-F2"],"citation_keys":["ahmad_fuzi_tea_timing_2017"]},"evidence_limitation":"Twelve iron-replete premenopausal women; fixed nonrandomised sequence, specific porridge and black-tea preparation. No brain iron, noradrenaline, attention or long-term iron-status endpoint. Do not generalise to coffee, green tea or an optimal timing interval.","claim_ceiling":"dietary-provision"}
++  - {"atom_id":"PM4-SOP-PHYTASE-1","dietary_input":true,"optimisation_category":"food_prep","food_strategy_scope":"food-preparation","food_strategy_id":"food-strategy-c8d6c2de9a7c","input":"Use validated phytate-reducing preparation methods for high-phytate cereals","input_type":"food preparation/delivery practice","biological_role":"Improved non-haem iron absorption from responsive water-reconstituted cereal matrices supports upstream iron provision for the shared iron-dependent tyrosine-hydroxylase step in noradrenaline synthesis.","evidence_source":{"finding_ids":["PM4-F2"],"citation_keys":["hurrell_phytic_2003"]},"evidence_limitation":"Small human isotope-absorption studies; results depended on the cereal, tannins and reconstitution medium. No human brain iron, noradrenaline, attention or clinical endpoint. This does not establish an ordinary household soaking method.","claim_ceiling":"dietary-provision","substance_ids":["phytate"]}
++  - {"atom_id":"PM4-SOP-TEA-TIMING-1","dietary_input":true,"optimisation_category":"food_prep","input":"Black tea one hour after rather than with an iron-containing porridge meal","input_type":"food preparation/delivery practice","biological_role":"Higher measured non-haem iron absorption supports upstream iron provision for the shared iron-dependent tyrosine-hydroxylase step in noradrenaline synthesis.","evidence_source":{"finding_ids":["PM4-F2"],"citation_keys":["ahmad_fuzi_tea_timing_2017"]},"evidence_limitation":"Twelve iron-replete premenopausal women; fixed nonrandomised sequence, specific porridge and black-tea preparation. No brain iron, noradrenaline, attention or long-term iron-status endpoint. Do not generalise to coffee, green tea or an optimal timing interval.","claim_ceiling":"dietary-provision","food_ids":["black-tea"],"substance_ids":["iron"]}
+ ---
+ 
+ import PilotInterventionDisclosure from "@site/src/components/PilotInterventionDisclosure";
+diff --git a/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx b/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx
+index 9f659d1c..8408a247 100644
+--- a/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx
++++ b/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx
+@@ -831,6 +831,8 @@ system_optimisation_practices:
+       The tested protocol used 10,000 lux white light for 30 minutes at 07:00 on five mornings; it changed a
+       regional transporter-binding endpoint in winter, not fall.
+   - atom_id: PM5-SOP-PHYTASE-1
++    substance_ids:
++      - phytate
+     dietary_input: true
+     optimisation_category: food_prep
+     food_strategy_scope: food-preparation
+@@ -851,6 +853,10 @@ system_optimisation_practices:
+       household soaking method.
+     claim_ceiling: dietary-provision
+   - atom_id: PM5-SOP-TEA-TIMING-1
++    food_ids:
++      - black-tea
++    substance_ids:
++      - iron
+     dietary_input: true
+     optimisation_category: food_prep
+     input: Black tea one hour after rather than with an iron-containing porridge meal
+diff --git a/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx b/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx
+index 6e1afba2..0c42788a 100644
+--- a/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx
++++ b/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx
+@@ -1190,6 +1190,8 @@ evidence_gaps:
+     review_date: '2026-10-26'
+ system_optimisation_practices:
+   - atom_id: PM7-SOP-DHA-1
++    substance_ids:
++      - dha-docosahexaenoic-acid
+     sec_status: Not yet assessed
+     input: Defined DHA supplementation in older adults with low baseline DHA intake
+     input_type: defined dietary exposure
+@@ -1211,6 +1213,9 @@ system_optimisation_practices:
+       The trial used five 400 mg DHA capsules daily, three with breakfast and two with the evening meal; this
+       studied protocol is not a general preventive-dose recommendation.
+   - atom_id: PM7-SOP-FISH-CAPSULES-1
++    food_ids:
++      - tuna
++      - salmon
+     input: Tested fish-meal versus fish-oil capsule regimens over 16 weeks
+     input_type: dietary protocol
+     biological_role: >-
+diff --git a/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx b/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx
+index bf0561cb..8bc321d2 100644
+--- a/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx
++++ b/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx
+@@ -703,6 +703,11 @@ dietary_input_assessments:
+             - 'https://www.rhea-db.org/rhea/17237'
+ system_optimisation_practices:
+   - atom_id: PM1-SOP-FOLATE-STEAM-1
++    food_ids:
++      - spinach
++      - broccoli
++    substance_ids:
++      - vitamin-b9
+     input: Steam spinach or broccoli rather than boiling in the tested conditions
+     input_type: food preparation/delivery practice
+     optimisation_category: food_prep
+@@ -717,6 +722,10 @@ system_optimisation_practices:
+     dietary_input: true
+     sec_status: Not yet assessed
+   - atom_id: PM1-SOP-NORI-B12-1
++    food_ids:
++      - nori
++    substance_ids:
++      - vitamin-b12
+     input: Tested roasted-nori daily protocol
+     input_type: dietary protocol
+     optimisation_category: dietary_protocols
+diff --git a/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx b/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx
+index 08bfc3ad..979cf306 100644
+--- a/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx
++++ b/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx
+@@ -1283,6 +1283,8 @@ kc_adjudication_history:
+ sidebar_label: BRS2-1-2 — Betaine/BHMT Remethylation
+ system_optimisation_practices:
+   - atom_id: PM2-SOP-MALTED-OATS-1
++    food_ids:
++      - oats
+     input: Tested malted and soaked oat porridge
+     input_type: food preparation/delivery practice
+     optimisation_category: food_prep
+diff --git a/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx b/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx
+index 2539d07b..46f61c9b 100644
+--- a/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx
++++ b/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx
+@@ -206,6 +206,8 @@ dietary_lever_presentations:
+     presentation_section: 3.1.1
+ system_optimisation_practices:
+   - atom_id: PM3-SOP-1
++    food_ids:
++      - broccoli-sprouts
+     food_strategy_scope: food-preparation
+     food_strategy_id: food-strategy-bec27b284d44
+     optimisation_category: food_prep
+diff --git a/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx b/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx
+index fd1f19a2..7fbf1836 100644
+--- a/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx
++++ b/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx
+@@ -231,6 +231,10 @@ dietary_lever_presentations:
+     presentation_section: 3.1.1
+ system_optimisation_practices:
+   - atom_id: PM3-SOP-1
++    food_ids:
++      - pork
++    substance_ids:
++      - creatine
+     food_strategy_scope: food-preparation
+     food_strategy_id: food-strategy-d77d8db065cc
+     optimisation_category: food_prep
+@@ -250,6 +254,8 @@ system_optimisation_practices:
+       target engagement.
+     claim_ceiling: food-composition
+   - atom_id: PM3-SOP-2
++    substance_ids:
++      - creatine
+     food_strategy_scope: supplementation
+     food_strategy_id: food-strategy-d01445d73fbe
+     optimisation_category: conditional_supplementation
+diff --git a/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx b/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx
+index 5670a91f..051e34d3 100644
+--- a/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx
++++ b/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx
+@@ -134,6 +134,8 @@ scientific_findings:
+       - 'Reaction identity, experimental enzyme function, food composition and supplemental interventions support different links; none implies clinical efficacy.'
+ system_optimisation_practices:
+   - atom_id: PM6-SOP-DEFERRED-1
++    substance_ids:
++      - l-carnitine
+     input: Experimental carnitine/carbohydrate loading protocol
+     input_type: defined dietary exposure
+     biological_role: The tested 24-week exposure increased muscle carnitine and changed exercise-dependent fuel handling.
+diff --git a/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx b/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx
+index 07f73df5..1f1af96f 100644
+--- a/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx
++++ b/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx
+@@ -271,17 +271,20 @@ dietary_input_traceability:
+         - PM4-F1
+       citation_keys:
+         - patnode_interspecies_2019
+-    evidence_limitation: 'Defined-community mouse experiments and glycan assays do not establish equivalence across all pectins, a human intake target or beneficial host outcomes.'
++    evidence_limitation: 'Defined-community mouse experiments and glycan assays do not establish equivalence across all pectins, a human intake target or beneficial host outcomes. The studied citrus-pectin preparation is not whole orange or lemon, and it is not the apple-pectin record.'
+     canonical_identity:
+-      status: missing-substance
+-      severity: MAJOR
+-      intended_identity: Citrus pectin
++      status: resolved
++      substance_id: pectin
++      substance_href: /docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin
++      verified_against:
++        - registry/substances.json
++        - docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin.md
+       aliases_checked:
+         - Citrus pectin
+-      checked_sources:
+-        - registry/substances.json
+-        - docs/substances/ (label/form/alias search)
+-      projection_status: blocked
++        - Pectin
++      identity_scope: Canonical pectin class. The PM claim stays with the studied citrus-pectin preparation. Orange and lemon pages do not document pectin occurrence, so no citrus food edge is attached.
++      projection_status: resolved
++    substance_id: pectin
+   - atom_id: PM4-DIT-3
+     dietary_input: true
+     dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
+@@ -440,14 +443,17 @@ pending_actions:
+     resolved_date: '2026-10-09'
+   - action_id: PM4-IDENTITY-2
+     severity: MAJOR
+-    status: pending
++    status: resolved
+     input: Citrus pectin
+     pm_id: BRS5-FM2-PM4
+     section: 3.1.1
+     relationship_type: pm-specific-input
+     aliases_checked:
+       - Citrus pectin
++      - Pectin
+     action: Resolve the precise substance/form or experimental preparation/strain through canonical registration and page identity repair; preserve this scientific decision while blocking unreliable projections. Then assess source-backed food composition and approved source records separately; do not fabricate food rankings.
++    resolution: 'Verified the existing pectin registry ID and the Citrus pectin alias on the pectin page, 2026-11-09. Orange and lemon pages do not document pectin, so no citrus food relationship was added. The studied preparation stays distinct from whole citrus fruit and from apple pectin.'
++    resolved_date: '2026-11-09'
+   - action_id: PM4-IDENTITY-3
+     severity: MAJOR
+     status: pending
+diff --git a/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx b/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx
+index c6ecf0f7..21ee07d6 100644
+--- a/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx
++++ b/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx
+@@ -977,6 +977,10 @@ system_optimisation_practices:
+   - atom_id: PM1-SOP-10
+     food_strategy_scope: dietary-protocol
+     food_strategy_id: food-strategy-a312af25728a
++    food_ids:
++      - vinegar
++    substance_ids:
++      - acetic-acid
+     input: Vinegar with the studied starchy meal
+     input_type: acid-containing meal protocol
+     biological_role: >-
+diff --git a/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx b/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx
+index c534ee9d..6620ae64 100644
+--- a/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx
++++ b/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx
+@@ -428,6 +428,8 @@ system_optimisation_practices:
+       In adults with obesity and insulin resistance without diabetes, approximately 5% diet-induced weight
+       loss improved clamp-measured insulin sensitivity compared with weight maintenance.
+   - atom_id: PM3-SOP-DEFERRED-1
++    substance_ids:
++      - arginine
+     input: Conditional oral arginine supplementation in the tested type-2-diabetes protocol
+     input_type: conditional supplementation
+     biological_role: The studied 9 g/day exposure improved clamp-measured glucose disposal in a small clinical comparison.
+diff --git a/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx b/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx
+index bceae5fa..70b409d2 100644
+--- a/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx
++++ b/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx
+@@ -143,6 +143,9 @@ system_optimisation_practices:
+     reader_description: 'The tested breathing pace increased during-session RMSSD, a cardiac vagal-associated measure.'
+     description_finding_id: PM7-F1
+   - atom_id: PM7-SOP-2
++    substance_ids:
++      - epa-eicosapentaenoic-acid
++      - dha-docosahexaenoic-acid
+     food_strategy_scope: supplementation
+     food_strategy_id: food-strategy-07783aa4511c
+     input: EPA+DHA supplementation (studied combined formulation)
+diff --git a/docs/biological-targets/mitochondrial-function-bioenergetics.md b/docs/biological-targets/mitochondrial-function-bioenergetics.md
+index 414073ee..db7c606a 100644
+--- a/docs/biological-targets/mitochondrial-function-bioenergetics.md
++++ b/docs/biological-targets/mitochondrial-function-bioenergetics.md
+@@ -91,6 +91,7 @@ hide_title: true
+   <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function">BRS4-FM1-PM1 — Electron Transport Chain Function</a></li>
+   <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism">BRS4-FM1-PM2 — NAD⁺ Metabolism</a></li>
+   <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer">BRS4-FM1-PM3 — Creatine–Phosphocreatine Energy Buffering</a></li>
++  <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability">BRS4-FM1-PM10 — Coenzyme Q Biosynthesis &amp; Pool Availability</a></li>
+ </ul>
+ <div class="brs-fm-hub-panel" hidden>
+ 
+@@ -558,6 +559,7 @@ Cellular bioenergetics, mitochondrial resilience, substrate flexibility, and ada
+   <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function">BRS4-FM1-PM1 — Electron Transport Chain Function</a></li>
+   <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism">BRS4-FM1-PM2 — NAD⁺ Metabolism</a></li>
+   <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer">BRS4-FM1-PM3 — Creatine–Phosphocreatine Energy Buffering</a></li>
++  <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability">BRS4-FM1-PM10 — Coenzyme Q Biosynthesis &amp; Pool Availability</a></li>
+ </ul>
+ <div class="brs-fm-hub-panel" hidden>
+ 
+diff --git a/docs/foods/apples.md b/docs/foods/apples.md
+index 7c161105..67363197 100644
+--- a/docs/foods/apples.md
++++ b/docs/foods/apples.md
+@@ -120,6 +120,28 @@ substance_relationships:
+     evidence_material: 'Apples, raw, with skin; NDB 09003'
+     source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+     presence_status: presence_supported_amount_unavailable
++  - substance: Pectin
++    substance_id: pectin
++    relationship: contains
++    description: >-
++      Liu et al. (2023) isolated pectin from thirteen apple cultivars. USDA
++      reports total fibre and does not give a per-100 g pectin amount. Whole
++      fruit is not purified citrus pectin and is not the tested apple-pectin
++      preparation.
++    requires_supplementary_key: pectin_qual
++    evidence_status: supported
++    evidence_source: Liu et al. (2023)
++    evidence_material: >-
++      Peel, flesh and core from thirteen apple cultivars, extracted as
++      analytical fractions
++    source_url: 'https://doi.org/10.1016/j.ijbiomac.2023.125410'
++    citation_keys:
++      - liu_apple_pectin_2023
++    presence_status: presence_supported_amount_unavailable
++    chemical_form: Plant cell-wall pectin
++    food_delivery_notes: >-
++      Qualitative presence in apple cell walls. No per-100 g pectin amount is
++      established. This is not a standardised pectin dose.
+ substance_review_candidates: []
+ ---
+ ## Overview
+diff --git a/docs/foods/lemon.md b/docs/foods/lemon.md
+index b2c7ec8d..b90edb95 100644
+--- a/docs/foods/lemon.md
++++ b/docs/foods/lemon.md
+@@ -54,6 +54,27 @@ main_image: /img/foods/lemon/lemon_medium.webp
+ legacy_list_image: /img/foods/lemon/lemon_thumb.webp
+ legacy_main_image: /img/foods/lemon/lemon_medium.webp
+ nutrition_supplementary_sources:
++  - key: pectin_qual
++    label: Pectin
++    status: Present — quantity not established
++    amount_display: Present — quantity not established
++    public_display: table
++    notes: >-
++      Recovered from Meyer lemon flavedo, albedo, membrane and juice sacs.
++      Not a per-100 g amount for lemons raw without peel.
++    source_note: >-
++      Braddock, Crandall and Kesterson (1976) recovered pectin from Meyer lemon
++      flavedo, albedo, membrane and juice sacs in the residue left after juice
++      extraction. Yield and jelly grade changed with maturity. USDA SR Legacy
++      (Lemons, raw, without peel; FDC 167746) reports total fibre 2.8 g/100 g
++      and does not quantify pectin. The Meyer lemon part yields are not
++      converted into a per-100 g pectin number for this record.
++    public_note: >-
++      Braddock et al. 1976 supports this qualitative constituent record for
++      Meyer lemon peel and internal tissues. See technical provenance for fruit
++      part.
++    evidence_status: supported
++    source_url: 'https://doi.org/10.1111/j.1365-2621.1976.tb01201.x'
+   - key: eriocitrin_qual
+     label: Eriocitrin
+     status: Present — quantity not established
+@@ -126,11 +147,35 @@ substance_relationships:
+     evidence_material: lemon juice
+     source_url: https://pubmed.ncbi.nlm.nih.gov/12769519/
+     source_reference: '#food-source-2'
++  - substance: Pectin
++    substance_id: pectin
++    relationship: contains
++    description: >-
++      Braddock et al. (1976) recovered pectin from Meyer lemon flavedo, albedo,
++      membrane and juice sacs after juice extraction. USDA reports total fibre
++      for lemons raw without peel and does not give a per-100 g pectin amount.
++      This is not the purified citrus pectin used in defined-community
++      experiments.
++    requires_supplementary_key: pectin_qual
++    evidence_status: supported
++    evidence_source: Braddock et al. (1976)
++    evidence_material: >-
++      Meyer lemon flavedo, albedo, membrane and juice sacs recovered after
++      juice extraction
++    source_url: 'https://doi.org/10.1111/j.1365-2621.1976.tb01201.x'
++    citation_keys:
++      - braddock_meyer_lemon_pectin_1976
++    presence_status: presence_supported_amount_unavailable
++    chemical_form: Plant cell-wall pectin
++    food_delivery_notes: >-
++      Qualitative presence in Meyer lemon peel and internal tissues. No per-100
++      g pectin amount is established for lemons raw without peel. Juice alone
++      is not this peel-and-residue record.
+ substance_review_candidates: []
+ ---
+ ## Overview
+ 
+-Lemon provides vitamin C that enhances non-heme iron absorption and can be used to adjust pH in food preparation (e.g., bean soaking). Lemon also contains citrus flavanones, including eriocitrin (often misspelled in secondary sources) and hesperidin, which are studied for antioxidant and cardiometabolic relevance [1,2].
++Lemon provides vitamin C that enhances non-heme iron absorption and can be used to adjust pH in food preparation (e.g., bean soaking). Lemon also contains citrus flavanones, including eriocitrin (often misspelled in secondary sources) and hesperidin, which are studied for antioxidant and cardiometabolic relevance [1,2]. Meyer lemon peel and the tissues left after juice extraction contain pectin; this page does not give a per-100 g pectin amount for lemons raw without peel [4].
+ 
+ ## Key Nutritional Highlights
+ 
+@@ -187,3 +232,5 @@ Whole blended lemon recipes can be surprisingly palatable and functionally usefu
+ <span id="food-source-3" />
+ 
+ [3] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/167746/nutrients)
++
++[4] Braddock, Crandall & Kesterson (1976). [Pectin content of Meyer lemon](/docs/papers/BRAIN-Diet-References#braddock_meyer_lemon_pectin_1976). Pectin was recovered from Meyer lemon flavedo, albedo, membrane and juice sacs after juice extraction. Yield changed with maturity and is not a per-100 g amount for lemons raw without peel.
+diff --git a/docs/foods/oranges.md b/docs/foods/oranges.md
+index 88aa2e0e..549d7e49 100644
+--- a/docs/foods/oranges.md
++++ b/docs/foods/oranges.md
+@@ -52,6 +52,28 @@ nutrition_source:
+ main_image: /img/foods/oranges/oranges_medium.webp
+ legacy_list_image: /img/foods/oranges/oranges_thumb.webp
+ legacy_main_image: /img/foods/oranges/oranges_medium.webp
++nutrition_supplementary_sources:
++  - key: pectin_qual
++    label: Pectin
++    status: Present — quantity not established
++    amount_display: Present — quantity not established
++    public_display: table
++    notes: >-
++      Measured in peel, albedo, pulp and juice of several ripe orange cultivars.
++      Part and cultivar vary. Not a single per-100 g amount for this page.
++    source_note: >-
++      Ywassaki and Canniatti-Brazaca (2011) quantified total and soluble pectin
++      in peel, albedo, pulp and juice of ripe pêra, Valência, Lima, Natal and
++      Bahia oranges. Amounts differed by part, cultivar and fruit size. USDA SR
++      Legacy (Oranges, raw, all commercial varieties; FDC 169097) reports total
++      fibre 2.4 g/100 g and does not quantify pectin. Those part-specific
++      measurements are not converted into one per-100 g pectin number for this
++      record.
++    public_note: >-
++      Ywassaki and Canniatti-Brazaca 2011 supports this qualitative constituent
++      record. See technical provenance for fruit part and cultivar.
++    evidence_status: supported
++    source_url: 'https://doi.org/10.1590/s0101-20612011000200007'
+ substance_relationships:
+   - substance: Vitamin B9
+     relationship: contains
+@@ -77,11 +99,33 @@ substance_relationships:
+     evidence_material: 'Oranges, raw, all commercial varieties'
+     source_url: 'https://fdc.nal.usda.gov/food-details/169097/nutrients'
+     presence_status: presence_and_amount_supported
++  - substance: Pectin
++    substance_id: pectin
++    relationship: contains
++    description: >-
++      Ywassaki and Canniatti-Brazaca (2011) measured pectin in peel, albedo,
++      pulp and juice of several ripe orange cultivars. USDA reports total fibre
++      and does not give a per-100 g pectin amount. Whole fruit and juice are
++      not the purified citrus pectin used in defined-community experiments.
++    requires_supplementary_key: pectin_qual
++    evidence_status: supported
++    evidence_source: Ywassaki and Canniatti-Brazaca (2011)
++    evidence_material: >-
++      Peel, albedo, pulp and juice of ripe pêra, Valência, Lima, Natal and
++      Bahia oranges
++    source_url: 'https://doi.org/10.1590/s0101-20612011000200007'
++    citation_keys:
++      - ywassaki_citrus_pectin_2011
++    presence_status: presence_supported_amount_unavailable
++    chemical_form: Plant cell-wall pectin
++    food_delivery_notes: >-
++      Qualitative presence in the studied orange parts. No single per-100 g
++      pectin amount is established. Peel and albedo are richer than juice.
+ substance_review_candidates: []
+ ---
+ ## Overview
+ 
+-Oranges provide high vitamin C content that enhances non-heme iron absorption when paired with iron-rich plant foods.
++Oranges provide high vitamin C content that enhances non-heme iron absorption when paired with iron-rich plant foods. The studied cultivars also contain pectin in peel, albedo, pulp and juice; the amount depends on the part and cultivar, and this page does not give one per-100 g pectin figure [3].
+ 
+ Within the BRAIN Diet framework, pairing plant-based iron sources with citrus enhances iron absorption, and eating beans with vitamin C-rich foods (e.g., tomatoes, peppers, citrus) improves iron bioavailability.
+ 
+@@ -112,3 +156,5 @@ Within the BRAIN Diet framework, pairing plant-based iron sources with citrus en
+ [1] Flavanone-rich orange juice interventions are associated with cognitive performance endpoints. Kean et al. 2015. [The effects of flavanone-rich citrus juice on cognitive function and cerebral blood flow: an acute and chronic randomized controlled trial in healthy older adults](/docs/papers/BRAIN-Diet-References#kean_flavanone-rich_orange_juice_cognition_2015)
+ 
+ [2] Hallberg et al. (1989). [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989). Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food.
++
++[3] Ywassaki & Canniatti-Brazaca (2011). [Ascorbic acid and pectin in different sizes and parts of citric fruits](/docs/papers/BRAIN-Diet-References#ywassaki_citrus_pectin_2011). Total and soluble pectin were measured in peel, albedo, pulp and juice of ripe pêra, Valência, Lima, Natal and Bahia oranges. Amounts varied by part, cultivar and size and are not one per-100 g pectin figure for this page.
+diff --git a/docs/foods/vinegar-pickles.md b/docs/foods/vinegar-pickles.md
+index 4ae452bb..7f15dfc0 100644
+--- a/docs/foods/vinegar-pickles.md
++++ b/docs/foods/vinegar-pickles.md
+@@ -11,6 +11,7 @@ tags:
+   - Vegan
+   - Vegetarian
+   - Sodium
++  - Acetic Acid
+ list_image: /img/foods/vinegar-pickles/vinegar-pickles_thumb.webp
+ nutrition_per_100g:
+   vitamin_e_mg: 0.03
+@@ -54,6 +55,22 @@ nutrition_source:
+ main_image: /img/foods/vinegar-pickles/vinegar-pickles_medium.webp
+ legacy_list_image: /img/foods/vinegar-pickles/vinegar-pickles_thumb.webp
+ legacy_main_image: /img/foods/vinegar-pickles/vinegar-pickles_medium.webp
++nutrition_supplementary_sources:
++  - key: acetic_acid_qual
++    label: Acetic acid
++    status: Present — quantity not established
++    amount_display: Present
++    notes: From the vinegar brine. Not reported by the USDA dill-pickle panel.
++    source_note: >-
++      Vinegar pickles are acidified in a vinegar brine. FDA CPG Sec 525.825
++      identifies acetic acid as the acid of cider vinegar, at a labeling figure
++      of 4 g per 100 mL for the vinegar itself. USDA FDC 168558 (Pickles,
++      cucumber, dill or kosher dill) does not report acetic acid in the edible
++      portion, so no pickle quantity is stored.
++    source_url: >-
++      https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525825-vinegar-definitions-adulteration-vinegar-eels
++    evidence_status: supported
++    presence_status: presence_supported_amount_unavailable
+ substance_relationships:
+   - substance: Sodium
+     relationship: contains
+@@ -67,6 +84,19 @@ substance_relationships:
+     evidence_material: 'Pickles, cucumber, dill or kosher dill'
+     source_url: 'https://fdc.nal.usda.gov/food-details/168558/nutrients'
+     presence_status: presence_and_amount_supported
++  - substance: Acetic Acid
++    substance_id: acetic-acid
++    relationship: contains
++    description: >-
++      The functional acid is acetic acid from the vinegar brine. The USDA
++      dill-pickle record does not report an edible-portion amount.
++    requires_supplementary_key: acetic_acid_qual
++    evidence_status: supported
++    evidence_source: FDA CPG Sec 525.825 (March 1995), applied to the vinegar brine
++    evidence_material: Vinegar brine used for vinegar pickles
++    source_url: >-
++      https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525825-vinegar-definitions-adulteration-vinegar-eels
++    presence_status: presence_supported_amount_unavailable
+ substance_review_candidates: []
+ ---
+ ## Overview
+@@ -85,7 +115,7 @@ Unlike lacto-fermented vegetables, vinegar pickles are **not primarily a probiot
+ 
+ ### Acetic acid exposure
+ 
+-The functional acid in vinegar pickles is **acetic acid**. When consumed, acetic acid from the brine and absorbed pickle matrix contributes to **dietary acetic acid load** at the meal level. This is mechanistically distinct from the **lactic acid** and microbial metabolites produced during vegetable fermentation, though both pathways lower pH and alter flavour.
++The functional acid in vinegar pickles is **[acetic acid](/docs/substances/bioactive-compounds/acetic-acid)**. When consumed, acetic acid from the brine and absorbed pickle matrix contributes to **dietary acetic acid load** at the meal level. The USDA dill-pickle record does not report that amount [4]. This is mechanistically distinct from the **lactic acid** and microbial metabolites produced during vegetable fermentation, though both pathways lower pH and alter flavour.
+ 
+ ### Shelf-life extension
+ 
+@@ -152,3 +182,5 @@ Acidification and reduced pH can **slow oxidative degradation** of some plant co
+ [2] Ousaaid et al. (2022). [The Nutritional and Antioxidant Potential of Artisanal and Industrial Apple Vinegars and Their Ability to Inhibit Key Enzymes Related to Type 2 Diabetes In Vitro](/docs/papers/BRAIN-Diet-References#ousaaid_nutritional_2022). Apple vinegar polyphenols, antioxidant activity, and in vitro α-glucosidase/α-amylase inhibition.
+ 
+ [3] Wastyk et al. (2021). [Gut-microbiota-targeted diets modulate human immune status](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021). Gut microbiota–targeted diets and fermented-food context.
++
++[4] U.S. Food and Drug Administration (1995). [CPG Sec 525.825 Vinegar, Definitions - Adulteration with Vinegar Eels](/docs/papers/BRAIN-Diet-References#fda_cpg_525_825_vinegar_1995). Acetic acid is the acid of cider vinegar. The 4 g/100 mL figure applies to the vinegar, not to a measured pickle portion.
+diff --git a/docs/foods/vinegar.md b/docs/foods/vinegar.md
+index dfccc0a4..c07a402a 100644
+--- a/docs/foods/vinegar.md
++++ b/docs/foods/vinegar.md
+@@ -8,6 +8,7 @@ tags:
+   - Vinegar
+   - Vegan
+   - Vegetarian
++  - Acetic Acid
+ list_image: /img/foods/vinegar/vinegar_thumb.webp
+ nutrition_per_100g:
+   zinc_mg: 0.04
+@@ -33,10 +34,40 @@ nutrition_source:
+ main_image: /img/foods/vinegar/vinegar_medium.webp
+ legacy_list_image: /img/foods/vinegar/vinegar_thumb.webp
+ legacy_main_image: /img/foods/vinegar/vinegar_medium.webp
++nutrition_supplementary_sources:
++  - key: acetic_acid_qual
++    label: Acetic acid
++    status: Present — quantity not established
++    amount_display: Present
++    notes: Defining acid of cider vinegar. The 4 g/100 mL figure is labeling guidance, not this USDA record.
++    source_note: >-
++      FDA CPG Sec 525.825 (March 1995) says no vinegar standard of identity has
++      been set under the FD&C Act, and that cider vinegar should contain 4 g
++      acetic acid per 100 mL at 20 °C. That is not a measured amount for USDA
++      FDC 173469 (Vinegar, cider), and it is not stored as a per-100 g value.
++    source_url: >-
++      https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525825-vinegar-definitions-adulteration-vinegar-eels
++    evidence_status: supported
++    presence_status: presence_supported_amount_unavailable
++substance_relationships:
++  - substance: Acetic Acid
++    substance_id: acetic-acid
++    relationship: contains
++    description: >-
++      Acetic acid is the characteristic acid of cider vinegar. FDA labeling
++      guidance gives a 4 g/100 mL class figure. USDA FDC 173469 does not report
++      a measured per-100 g amount.
++    requires_supplementary_key: acetic_acid_qual
++    evidence_status: supported
++    evidence_source: FDA CPG Sec 525.825 (March 1995)
++    evidence_material: Vinegar, cider vinegar, apple vinegar
++    source_url: >-
++      https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525825-vinegar-definitions-adulteration-vinegar-eels
++    presence_status: presence_supported_amount_unavailable
+ ---
+ ## Overview
+ 
+-Vinegar, particularly apple cider vinegar, supports glucose regulation and can be used in bean soaking to optimize pH for phytase enzyme activity.
++Vinegar, particularly apple cider vinegar, supports glucose regulation and can be used in bean soaking to optimize pH for phytase enzyme activity. Its characteristic acid is [acetic acid](/docs/substances/bioactive-compounds/acetic-acid). The USDA panel on this page does not report a measured acetic acid quantity [3]. The studied comparison, vinegar with a starchy meal, is recorded on [BRS6-FM1-PM1 Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics#pm1-f6).
+ 
+ Within the BRAIN Diet framework, glucose regulation strategies include low-GI carbs, vinegar, berberine, cinnamon, protein + fibre pairing, and meal sequencing (veg → protein → carb).
+ 
+@@ -64,3 +95,5 @@ Within the BRAIN Diet framework, glucose regulation strategies include low-GI ca
+ [1] Vinegar with meals improves post-prandial glycaemia and insulin sensitivity in human trials. Johnston et al. 2004. [Vinegar improves insulin sensitivity to a high-carbohydrate meal in subjects with insulin resistance or type 2 diabetes.](/docs/papers/BRAIN-Diet-References#johnston_2004_14694010)
+ 
+ [2] Meal composition and glycaemic load modulate cognitive energy availability. Afaghi et al. 2007. [High-glycemic-index carbohydrate meals shorten sleep onset](/docs/papers/BRAIN-Diet-References#afaghi_high-glycemic-index_2007)
++
++[3] U.S. Food and Drug Administration (1995). [CPG Sec 525.825 Vinegar, Definitions - Adulteration with Vinegar Eels](/docs/papers/BRAIN-Diet-References#fda_cpg_525_825_vinegar_1995). Cider vinegar labeling guidance of 4 g acetic acid per 100 mL. Not a measured amount for USDA FDC 173469.
+diff --git a/docs/recipes/Dinner/turkey-wing-stew.md b/docs/recipes/Dinner/turkey-wing-stew.md
+index dbb27b90..ff82756f 100644
+--- a/docs/recipes/Dinner/turkey-wing-stew.md
++++ b/docs/recipes/Dinner/turkey-wing-stew.md
+@@ -159,7 +159,7 @@ This deeply nourishing stew is made from **slow-cooked turkey wings**, releasing
+ - 2 **carrots**, diced
+ - 2 **celery sticks**, chopped
+ - 3 cloves **garlic**, minced
+-- 1 tbsp **apple cider vinegar** (helps extract minerals from bones)
++- 1 tbsp **apple cider vinegar** (helps extract calcium from the bone into the edible portion) [1]
+ - 2 tbsp (30 ml) **olive oil**
+ - 1 tsp **turmeric** (optional)
+ - 1 tsp (5 ml) **thyme** or **rosemary**
+@@ -197,3 +197,7 @@ The pot is divided into three servings. The recipe does not state a number, so t
+ ## Explore the foods and substances
+ 
+ <RecipeFoods details={frontMatter} />
++
++## References
++
++[1] Fukaya et al. (1999). [Effect of Cooking with Vinegar on Calcium, Magnesium and Phosphorus Solubilization from Food](/docs/papers/BRAIN-Diet-References#fukaya_vinegar_cooking_minerals_1999). Boiling chicken meat with the wing bone in vinegar raised calcium in the edible portion above the water-cooked comparison. The tested vinegars were grain vinegar and white wine vinegar, not this apple-cider quantity, and magnesium did not increase in the same way.
+diff --git a/docs/substances/microbial-metabolites/scfas/acetate.md b/docs/substances/microbial-metabolites/scfas/acetate.md
+index 24b28c22..6fded4f3 100644
+--- a/docs/substances/microbial-metabolites/scfas/acetate.md
++++ b/docs/substances/microbial-metabolites/scfas/acetate.md
+@@ -19,7 +19,7 @@ inchi_image: /img/inchi/QTBSBXVTEAMEQO-UHFFFAOYSA-M.png
+ 
+ ## Overview
+ 
+-Acetate is a short-chain fatty acid produced during microbial fermentation of dietary fibre and resistant starch. This page distinguishes the metabolite from the dietary substrates supporting its formation. SCFA research provides a biological context for gut–brain communication, but findings for the class are not automatically findings for acetate alone [1].
++Acetate is a short-chain fatty acid produced during microbial fermentation of dietary fibre and resistant starch. This page distinguishes the metabolite from the dietary substrates supporting its formation. Dietary vinegar acetic acid is a separate food constituent, recorded on [Acetic acid](/docs/substances/bioactive-compounds/acetic-acid). SCFA research provides a biological context for gut–brain communication, but findings for the class are not automatically findings for acetate alone [1].
+ 
+ An observational study reported lower faecal acetic acid in children and adolescents with ADHD than in controls [2]. This is a measured association, not evidence that low acetate causes ADHD or that increasing it treats symptoms. It also does not measure acetate exposure in the brain.
+ 
+diff --git a/docs/tags.yml b/docs/tags.yml
+index 6207726c..9f9e10c5 100644
+--- a/docs/tags.yml
++++ b/docs/tags.yml
+@@ -1227,6 +1227,11 @@ Peanuts:
+   permalink: /peanuts
+   description: Legume rich in protein and resveratrol
+ 
++Pears:
++  label: Pears
++  permalink: /pears
++  description: Whole fruit providing fibre, natural sugars and pectin
++
+ Peas:
+   label: Peas
+   permalink: /peas
+@@ -1724,6 +1729,11 @@ Acetate:
+   permalink: /acetate
+   description: Short-chain fatty acid (SCFA)
+ 
++Acetic Acid:
++  label: Acetic Acid
++  permalink: /acetic-acid
++  description: Characteristic acid of vinegar, distinct from microbial acetate.
++
+ Butyrate:
+   label: Butyrate
+   permalink: /butyrate
+diff --git a/project-knowledge/handoffs/INDEX.md b/project-knowledge/handoffs/INDEX.md
+index bc60a23d..3d344d01 100644
+--- a/project-knowledge/handoffs/INDEX.md
++++ b/project-knowledge/handoffs/INDEX.md
+@@ -26,3 +26,5 @@ Author selected PM1 as the first complete-reference workstream, using PM8 tabs a
+ - **CoQ biosynthesis PM (local-only):** [handoff](coq-pm-2026-11-05.md). Authorised PM10 implementation; provisional appraisal and remaining source-access limits recorded.
+ 
+ - **Three approved priority SOPs (local implementation):** [handoff](priority-sops-2026-11-05.md). Wastyk/Baxter/Sutton admitted; Shukla/Reynolds deferred. Independent provisional SEC retained.
++
++- **Canonical scientific projections — 10 November 2026, local adoption:** [contract](../../system/canonical-scientific-projections.md) and [PM3 review](../../review/circadian-pm3-identity-review-2026-11-10/REPORT.md). One current mission in PM frontmatter; Melatonin PM3 visible Mission reads that field. Historical assessment and unresolved dietary admission retained. No commit, push or deployment.
+diff --git a/registry/substances.json b/registry/substances.json
+index 6445fb6d..837c9c2a 100644
+--- a/registry/substances.json
++++ b/registry/substances.json
+@@ -849,6 +849,19 @@
+     "inchikey": "",
+     "list_image": ""
+   },
++  "acetic-acid": {
++    "path": "bioactive-compounds/acetic-acid.md",
++    "tags": [
++      "bioactive"
++    ],
++    "title": "Acetic acid",
++    "aliases": [
++      "Acetic Acid",
++      "Ethanoic acid"
++    ],
++    "inchikey": "QTBSBXVTEAMEQO-UHFFFAOYSA-N",
++    "list_image": "/img/inchi/QTBSBXVTEAMEQO-UHFFFAOYSA-N.png"
++  },
+   "scfas": {
+     "path": "microbial-metabolites/scfas/scfas.md",
+     "tags": [
+diff --git a/scripts/generate-food-strategy-rollup.mjs b/scripts/generate-food-strategy-rollup.mjs
+index df75f977..b1b9ff71 100644
+--- a/scripts/generate-food-strategy-rollup.mjs
++++ b/scripts/generate-food-strategy-rollup.mjs
+@@ -1,6 +1,7 @@
+ import fs from 'node:fs';
+ import path from 'node:path';
+ import matter from 'gray-matter';
++import {buildInterventionFoodSubstance} from './lib/intervention-food-substance.mjs';
+ const root=process.cwd();
+ const walk=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(dir,e.name)):[path.join(dir,e.name)]);
+ const validScopes=new Set(['food-preparation','dietary-protocol','supplementation','mixed-food-and-timing','mixed-food-and-behaviour']);
+@@ -20,6 +21,7 @@ for(const scope of ['brs1','brs2','brs3','brs4','brs5','brs6','brs-x']) for(cons
+  }
+ }
+ const data={schema_version:1,scope:'All canonical PMs: BRS1–6 and Cross-BRS',strategies:[...strategies.values()],relationships,gaps,summary:{strategies:strategies.size,relationships:relationships.length,pms:new Set(relationships.map(r=>r.pm)).size,brs:[...new Set(relationships.map(r=>r.brs))]}};
++data.intervention_mapping = buildInterventionFoodSubstance(root);
+ fs.writeFileSync(path.join(root,'src/data/foodStrategyRollup.generated.json'),JSON.stringify(data,null,2)+'\n');
+ fs.mkdirSync(path.join(root,'system/generated/food-strategy-rollup'),{recursive:true});
+ fs.writeFileSync(path.join(root,'system/generated/food-strategy-rollup/rollup.generated.json'),JSON.stringify(data,null,2)+'\n');
+diff --git a/scripts/usda-map.json b/scripts/usda-map.json
+index ceca617e..fa9fda84 100644
+--- a/scripts/usda-map.json
++++ b/scripts/usda-map.json
+@@ -12,6 +12,7 @@
+   "almonds": "Nuts, almonds",
+   "amaranth": "Amaranth grain, uncooked",
+   "apples": "Apples, raw, with skin",
++  "pears": "Pears, raw",
+   "asparagus": "Asparagus, raw",
+   "aubergine": "Eggplant, raw",
+   "avocado": "Avocados, raw, all commercial varieties",
+diff --git a/src/components/NutritionTable.tsx b/src/components/NutritionTable.tsx
+index 983440fd..2678fcf6 100644
+--- a/src/components/NutritionTable.tsx
++++ b/src/components/NutritionTable.tsx
+@@ -243,8 +243,18 @@ export default function NutritionTable({details, view = "highlights"}: Nutrition
+     }
+     const isNull = raw === null
+     const value = typeof raw === "number" ? raw : null
++    const decimals =
++      details.micronutrient_table === "complete" &&
++      (MICRONUTRIENT_KEYS as readonly string[]).includes(key) &&
++      value !== null &&
++      value > 0 &&
++      roundTo(value, 1) === 0
++        ? roundTo(value, 2) === 0
++          ? 3
++          : 2
++        : 1
+     const displayAmount =
+-      value === null ? (isNull ? "—" : "") : `${roundTo(value, 1)} ${meta.unit}`.trim()
++      value === null ? (isNull ? "—" : "") : `${roundTo(value, decimals)} ${meta.unit}`.trim()
+ 
+     let percentDisplay = "—"
+     const rda = RDA_VALUES[key]
+@@ -499,6 +509,25 @@ export default function NutritionTable({details, view = "highlights"}: Nutrition
+         </>
+       )}
+ 
++      {details.micronutrient_table === "complete" && advancedMicroRows.length > 0 && (
++        <>
++          <h3>Vitamins and minerals</h3>
++          <p style={{fontSize: "0.9em", color: "var(--ifm-font-color-base)", marginTop: "0.5rem"}}>
++            {ADVANCED_NUTRITION_CAPTION} No entry here supplies 10% of an adult reference intake per 100 g.
++          </p>
++          <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
++            <thead>
++              <tr>
++                <th style={thStyle}>Nutrient</th>
++                <th style={thStyle}>Amount per 100 g</th>
++                <th style={thStyle}>% reference intake per 100 g</th>
++              </tr>
++            </thead>
++            <tbody>{advancedMicroRows}</tbody>
++          </table>
++        </>
++      )}
++
+       {(advancedMicroRows.length > 0 || formObservations.length > 0) && view === "highlights" && (
+         <AdvancedNutrition tabOnly>{advancedContent}</AdvancedNutrition>
+       )}
+diff --git a/src/components/PilotInterventionDisclosure.tsx b/src/components/PilotInterventionDisclosure.tsx
+index 62f68e07..69c3e68f 100644
+--- a/src/components/PilotInterventionDisclosure.tsx
++++ b/src/components/PilotInterventionDisclosure.tsx
+@@ -1,13 +1,21 @@
+ import React, {useState} from 'react';
++import {useDoc} from '@docusaurus/plugin-content-docs/client';
++import rollup from '../data/foodStrategyRollup.generated.json';
++import {interventionMappingForId} from '../lib/interventionFoodSubstance.mjs';
++import {renderInterventionLinks} from '../lib/interventionFoodSubstanceDisplay.mjs';
+ 
+ /** Author-approved two-PM pilot; uses the dietary-input trigger typography. */
+ export default function PilotInterventionDisclosure({id, title, mechanism, children}: {
+   id: string; title: string; mechanism?: string; children: React.ReactNode;
+ }) {
+   const [open, setOpen] = useState(false);
++  const {frontMatter} = useDoc();
++  const mapping = interventionMappingForId(rollup.intervention_mapping.records.filter(record => record.pm === frontMatter.pm_id), id);
++  const links = renderInterventionLinks(mapping);
+   return <div id={id} style={{margin: '0.5rem 0 1rem'}}>
+     <button type="button" className="brs-dietary-lever-trigger"
+       aria-expanded={open} aria-controls={`${id}-atoms`} onClick={() => setOpen(!open)}><span aria-hidden="true" style={{color: "var(--ifm-font-color-base)"}}>{open ? "▾" : "▸"}</span>{" "}{title}</button>
++    {links && <div dangerouslySetInnerHTML={{__html: links}} />}
+     {mechanism && <div><em>Mechanism: {mechanism}</em></div>}
+     <div id={`${id}-atoms`} hidden={!open}>{children}</div>
+   </div>;
+diff --git a/src/components/PmDietaryLeverEnhancer.tsx b/src/components/PmDietaryLeverEnhancer.tsx
+index f026892d..cd2489ab 100644
+--- a/src/components/PmDietaryLeverEnhancer.tsx
++++ b/src/components/PmDietaryLeverEnhancer.tsx
+@@ -1,3 +1,5 @@
++import interventionRollup from '../data/foodStrategyRollup.generated.json';
++import {attachInterventionLinks} from '../lib/interventionFoodSubstanceDisplay.mjs';
+ import {renderDietaryConfidence} from "@site/src/lib/dietaryConfidence.mjs";
+ import React, { useEffect } from "react";
+ import { usePluginData } from "@docusaurus/useGlobalData";
+@@ -443,7 +445,8 @@ export default function PmDietaryLeverEnhancer({ frontMatter }: Props): React.Re
+       }
+     });
+ 
+-    return () => document.removeEventListener("click", onDocClick);
++    const removeInterventionLinks = attachInterventionLinks(root, interventionRollup.intervention_mapping.records.filter(record => record.pm === frontMatter.pm_id));
++    return () => { removeInterventionLinks(); document.removeEventListener("click", onDocClick); };
+   }, [frontMatter, canonicalPmUrl, inputFoodData]);
+ 
+   return null;
+diff --git a/src/data/substance-input-pages.json b/src/data/substance-input-pages.json
+index 53e397e0..c73a86c6 100644
+--- a/src/data/substance-input-pages.json
++++ b/src/data/substance-input-pages.json
+@@ -2,6 +2,7 @@
+   "5 methyltetrahydrofolate": "/docs/substances/nutrients/micronutrients/vitamins/5-methyltetrahydrofolate",
+   "aa": "/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-6/arachidonic-acid",
+   "acetate": "/docs/substances/microbial-metabolites/scfas/acetate",
++  "acetic acid": "/docs/substances/bioactive-compounds/acetic-acid",
+   "ala": "/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/ala-alpha-linolenic-acid",
+   "ala alpha linolenic acid": "/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/ala-alpha-linolenic-acid",
+   "ala n 3": "/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/ala-alpha-linolenic-acid",
+diff --git a/static/bibtex/BRAIN-diet.bib b/static/bibtex/BRAIN-diet.bib
+index 8f57515c..34cbfb27 100644
+--- a/static/bibtex/BRAIN-diet.bib
++++ b/static/bibtex/BRAIN-diet.bib
+@@ -15613,6 +15613,27 @@ CONCLUSIONS: Typically in Western populations, daily supplementation with both 0
+  url = {https://doi.org/10.1186/1471-230X-7-46}
+ }
+ 
++@article{fukaya_vinegar_cooking_minerals_1999,
++  title = {Effect of Cooking with Vinegar on Calcium, Magnesium and Phosphorus Solubilization from Food},
++  author = {Fukaya, Masahiro and Yamada, Emiko and Takasu, Ayako and Tsukamoto, Yoshinori and Furukawa, Yuji},
++  journal = {Nippon Shokuhin Kagaku Kogaku Kaishi},
++  year = {1999},
++  volume = {46},
++  number = {2},
++  pages = {94--98},
++  doi = {10.3136/nskkk.46.94},
++  url = {https://doi.org/10.3136/nskkk.46.94},
++}
++
++@misc{fda_cpg_525_825_vinegar_1995,
++  title = {CPG Sec 525.825 Vinegar, Definitions - Adulteration with Vinegar Eels},
++  author = {{U.S. Food and Drug Administration}},
++  year = {1995},
++  howpublished = {FDA Compliance Policy Guide},
++  url = {https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525825-vinegar-definitions-adulteration-vinegar-eels},
++  note = {Issued March 1995. No vinegar standard of identity has been established under the FD&C Act. Labeling guidance says cider vinegar should contain 4 grams of acetic acid per 100 mL at 20 C. This is not a measured value for a USDA food record.}
++}
++
+ @article{whelehan_mycoprotein_kinetics_2024,
+  title = {The addition of mycoprotein to a mixed-meal impacts postprandial glucose kinetics without altering blood glucose concentrations: a randomised controlled trial},
+  author = {Whelehan, Gráinne and West, Sam and Abdelrahman, Doaa R. and others},
+@@ -17547,6 +17568,50 @@ CONCLUSIONS: Typically in Western populations, daily supplementation with both 0
+  url = {https://fdc.nal.usda.gov/download-datasets/}
+ }
+ 
++@article{miura_bartlett_pear_pectin_1963,
++ title = {Quality of pectin in pears, with special reference to the changes during maturation and subsequent after-ripening in Bartlett pears},
++ author = {Miura, H. and Haginuma, S. and Mizuta, M.},
++ journal = {Journal of the Japanese Society for Horticultural Science},
++ year = {1963},
++ volume = {32},
++ number = {1},
++ pages = {27--36},
++ doi = {10.2503/jjshs.32.27},
++ url = {https://doi.org/10.2503/jjshs.32.27}
++}
++
++@article{ywassaki_citrus_pectin_2011,
++ title = {Ascorbic acid and pectin in different sizes and parts of citric fruits},
++ author = {Ywassaki, Larissa Akemi and Canniatti-Brazaca, Solange Guidolin},
++ journal = {Ci{\^e}ncia e Tecnologia de Alimentos},
++ year = {2011},
++ volume = {31},
++ number = {2},
++ pages = {319--326},
++ doi = {10.1590/s0101-20612011000200007},
++ url = {https://doi.org/10.1590/s0101-20612011000200007}
++}
++
++@article{braddock_meyer_lemon_pectin_1976,
++ title = {Pectin content of Meyer lemon},
++ author = {Braddock, R. J. and Crandall, P. G. and Kesterson, J. W.},
++ journal = {Journal of Food Science},
++ year = {1976},
++ volume = {41},
++ number = {6},
++ pages = {1486},
++ doi = {10.1111/j.1365-2621.1976.tb01201.x},
++ url = {https://doi.org/10.1111/j.1365-2621.1976.tb01201.x}
++}
++
++@misc{usda_pears_raw_sr_legacy_2019,
++ title = {Pears, raw},
++ author = {{USDA Agricultural Research Service}},
++ year = {2019},
++ howpublished = {FoodData Central, SR Legacy, FDC 169118},
++ url = {https://fdc.nal.usda.gov/food-details/169118/nutrients}
++}
++
+ @article{stanford_plant_diversity_ckd_2025,
+  title = {High-Diversity Plant-Based Diet and Gut Microbiome, Plasma Metabolome, and Symptoms in Adults with CKD},
+  author = {Stanford, Jordan and Stefoska-Needham, Anita and Jiang, Xiaotao and McWhinney, Brett and Cheikh Hassan, Hicham I. and El-Omar, Emad and Charlton, Karen and Lambert, Kelly},
+diff --git a/system/INDEX.md b/system/INDEX.md
+index db1c8ee9..cdcc42b4 100644
+--- a/system/INDEX.md
++++ b/system/INDEX.md
+@@ -4,6 +4,7 @@ Start with [project orientation](../project-knowledge/START-HERE.md). This is a
+ 
+ | Task | Authoritative contracts / templates |
+ |---|---|
++| Scientific ownership and projection consistency | [Canonical projections and five checkpoints](canonical-scientific-projections.md) |
+ | Scientific discovery and propositions | [Stage 2A](scientific-finding-schema.md); [scientific hypotheses](scientific-hypotheses-schema.md) |
+ | Dietary applicability, admissions and food traceability | [Stage 2B](dietary-input-traceability-contract.md); [admission governance](dietary-input-governance-v2.md) |
+ | PM structure, mission and intervention placement | [PM schema](primary-mechanism-schema.md) |
+diff --git a/system/dietary-input-traceability-contract.md b/system/dietary-input-traceability-contract.md
+index 6075f496..82041f13 100644
+--- a/system/dietary-input-traceability-contract.md
++++ b/system/dietary-input-traceability-contract.md
+@@ -2892,3 +2892,13 @@ This supersedes earlier lesson-placement amendments above. Place each existing S
+ ## Approved independent intervention evidence pathway — 5 November 2026
+ 
+ For SOPs and Lifestyle Levers, a new Scientific Finding is not required when the exact intervention–outcome proposition has independent primary references in the PM bibliography, separately recorded measured effect and PM relevance, full MoA/status, typed limitations and a valid pinned intervention-specific SEC assessment. Admission remains a separate adjudication. The validator must resolve the assessment to this PM and intervention and validate its content/hash; no Finding score may be inherited. Existing Finding links, when supplied, must remain valid. An incomplete independent record fails validation; this exception does not apply to dietary-input substance admission or allow unsupported claims. Author explicitly approved this clarification during release reconciliation. No new public presentation or numerical scoring rule.
++
++
++## Intervention food/substance presentation — author-approved 6 November 2026
++
++Apply [SOP/Lifestyle food–substance joins](sop-lifestyle-six-atom-presentation.md#approved-soplifestyle-foodsubstance-joins--6-november-2026). Stage 2A distinguishes documented composition, tested protocol, biological relationship and unconfirmed mediator; Stage 2B records supported canonical identities and derives the links below intervention titles. These are presentation metadata, not a seventh atom or new admission. Keep all six atoms, preparation/comparator limits and independent SEC provenance; omit unsupported food connections for patterns and behaviours. PM rendering and chord extraction consume one generated mapping, with composition/context edge types rather than inferred efficacy.
++
++
++## Canonical scientific projections — approved 10 November 2026
++
++Apply [Canonical scientific truth and presentation consistency](canonical-scientific-projections.md), including its five scientific, automated, release and publication checkpoints. Current mission comes from PM frontmatter; explanatory prose must not strengthen the canonical science. Preserve authoritative admissions, limitations and SEC history. Report conflicts with provenance instead of selecting the newest text.
+diff --git a/system/food-strategy-rollup-schema.md b/system/food-strategy-rollup-schema.md
+index 27d4a3d7..56e9b3df 100644
+--- a/system/food-strategy-rollup-schema.md
++++ b/system/food-strategy-rollup-schema.md
+@@ -25,3 +25,16 @@ Food preparation strategies can qualify delivery or retention without becoming a
+ The initial rollup contains only currently admitted PM SOPs tagged after reading their accepted records. Pure breathing/meditation records remain outside the food rollup; food-related mindfulness and combined meal/sleep schedules are explicitly mixed. BRS2 has no admitted food-related SOP records in this collection; do not invent examples. KC emerging supports and narrative optimisation candidates need their own existing admission workflow before inclusion.
+ 
+ Review page: `/docs/system/food-strategy-rollup`. The page and data are generated/reproducible and hidden from navigation; PM records remain the only editable scientific authority.
++
++
++## Approved SOP/Lifestyle food–substance joins — 6 November 2026
++
++Author approved PM intervention-level food/substance links and reuse by the chord extractor. This does not admit an intervention, alter SEC or establish a causal mediator. Reuse canonical `food_ids`, `substance_ids`, ontology entries and exact existing six-atom links. Add only identity metadata supported by the recorded exposure; preserve preparation, comparator and limitations. Never mine unrelated Findings, outcome prose or pattern names for ingredients. Named patterns without explicit constituent identities remain unmapped. Behavioural interventions need no food/substance mapping.
++
++Generate the shared `intervention_mapping` in the existing food-strategy roll-up with `npm run mappings:food-strategies`. It inventories both SOPs and Lifestyle Levers, including Cross-BRS, independently of food-strategy scope. Explicitly rejected/deferred/candidate records are excluded; existing canonical arrays are retained as historical admissions, not newly adjudicated. A false dietary-input flag does not reject a Lifestyle Lever.
++
++Render documented identity links directly beneath the intervention title, using existing dietary-lever/source CSS. Preserve direct six-atom expansion and separate optional Mechanism summary. Composition-only sources are labelled separately; no seventh atom, new score, clinical claim, food-equivalence assumption or technical pathway panel. Missing mappings produce no public placeholder. Existing contextual material roles (e.g. potatoes versus extracted RS2) remain visible.
++
++The chord consumer uses the very same generated records/typed edges: PM-to-intervention, named identity, documented composition and intervention-context-to-BRS. These edges are not dietary-input admissions or therapeutic-effect assertions. Keep composition provenance and original PM/SOP identifiers. A pattern is not expanded into foods without recorded constituent evidence.
++
++Validation: `node --test scripts/intervention-food-substance.test.mjs`, existing dietary/Findings/SEC checks, `npm run presentation:check`, and representative browser inspection. Counts distinguish complete recorded food–substance pairs, partial identity-only mapping and unmapped records (including behaviour where a mapping is unnecessary). This is mapping completeness, not evidence confidence.
+diff --git a/system/framework-qc-schema.md b/system/framework-qc-schema.md
+index f18b3d59..1bf6fa5b 100644
+--- a/system/framework-qc-schema.md
++++ b/system/framework-qc-schema.md
+@@ -169,3 +169,8 @@ Recipes: meal-category folder before letter. BRS / FM / PM / KC: BRS hierarchy (
+ ## Working rule
+ 
+ See `.cursor/rules/framework-qc.mdc`. Log outside the active batch; do not fix unless the exception criteria apply.
++
++
++## Canonical scientific projections — approved 10 November 2026
++
++Apply [Canonical scientific truth and presentation consistency](canonical-scientific-projections.md), including its five scientific, automated, release and publication checkpoints. Current mission comes from PM frontmatter; explanatory prose must not strengthen the canonical science. Preserve authoritative admissions, limitations and SEC history. Report conflicts with provenance instead of selecting the newest text.
+diff --git a/system/presentation-change-approvals.json b/system/presentation-change-approvals.json
+index 44eca03c..b5356c83 100644
+--- a/system/presentation-change-approvals.json
++++ b/system/presentation-change-approvals.json
+@@ -152,7 +152,7 @@
+   {
+     "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+     "sha256": "b786a0d6a6d790e4eb04f52ae7356bb91aa6cd0a4cdf89573e3a7accdc3d485a",
+-    "author_approval": "Owner requested matching §1.1 CSS and Roasted Nori title",
++    "author_approval": "Owner requested matching \u00a71.1 CSS and Roasted Nori title",
+     "approval_source": "Current chat, 3 November 2026",
+     "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+     "contract": "system/sop-lifestyle-six-atom-presentation.md",
+@@ -162,32 +162,32 @@
+   {
+     "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+     "sha256": "72fea76faf71d5e84114054142ded4aca0da0910db7c540db8f37717f8cf18ea",
+-    "author_approval": "Owner requested consistent §1.1 CSS across updated rollout PMs",
++    "author_approval": "Owner requested consistent \u00a71.1 CSS across updated rollout PMs",
+     "approval_source": "Current chat: not seeing it here; did you change all the PMs you did?",
+     "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+     "contract": "system/sop-lifestyle-six-atom-presentation.md",
+     "example": "review/sequential-pm-interventions-2026-11-02/brs2-pm1-category-correction.png",
+-    "scope": "Replace generic category details wrappers with existing §1.1 disclosure markup; retain all scientific content"
++    "scope": "Replace generic category details wrappers with existing \u00a71.1 disclosure markup; retain all scientific content"
+   },
+   {
+     "file": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+     "sha256": "8b801079e0abae53bc6ea0494b57acd25d4f030248a16af298047412897eb581",
+-    "author_approval": "Owner requested consistent §1.1 CSS across updated rollout PMs",
++    "author_approval": "Owner requested consistent \u00a71.1 CSS across updated rollout PMs",
+     "approval_source": "Current chat: not seeing it here; did you change all the PMs you did?",
+     "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+     "contract": "system/sop-lifestyle-six-atom-presentation.md",
+     "example": "review/sequential-pm-interventions-2026-11-02/brs2-pm1-category-correction.png",
+-    "scope": "Replace generic category details wrappers with existing §1.1 disclosure markup; retain all scientific content"
++    "scope": "Replace generic category details wrappers with existing \u00a71.1 disclosure markup; retain all scientific content"
+   },
+   {
+     "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+     "sha256": "b44235a6f295cf25cb754dfc5a3d3e4fc1ccbd1fd3459905e71db98a1942c74c",
+-    "author_approval": "Owner requested consistent §1.1 CSS across updated rollout PMs",
++    "author_approval": "Owner requested consistent \u00a71.1 CSS across updated rollout PMs",
+     "approval_source": "Current chat: not seeing it here; did you change all the PMs you did?",
+     "proposal": "system/sop-lifestyle-six-atom-presentation.md",
+     "contract": "system/sop-lifestyle-six-atom-presentation.md",
+     "example": "review/sequential-pm-interventions-2026-11-02/brs2-pm1-category-correction.png",
+-    "scope": "Replace generic category details wrappers with existing §1.1 disclosure markup; retain all scientific content"
++    "scope": "Replace generic category details wrappers with existing \u00a71.1 disclosure markup; retain all scientific content"
+   },
+   {
+     "file": "src/components/PmDietaryLeverEnhancer.tsx",
+@@ -377,7 +377,7 @@
+     "proposal": "review/pm1-reference-completion-2026-11-03/lesson-placement.md",
+     "contract": "system/primary-mechanism-schema.md",
+     "example": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
+-    "scope": "PM1 lesson moved above §4.1 outside the Scientific Findings parent; unchanged science and styling."
++    "scope": "PM1 lesson moved above \u00a74.1 outside the Scientific Findings parent; unchanged science and styling."
+   },
+   {
+     "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+@@ -413,7 +413,7 @@
+     "file": "docs/substances/bioactive-compounds/phytate.md",
+     "sha256": "675caed689a7b964f986aea264a46f78cf183842834176d54304990ebc8b256e",
+     "author_approval": "Owner: otherwise create one substance page for each, following system/substance-page-schema.md; use existing taxonomy and templates.",
+-    "approval_source": "Current chat CODEX — Canonical Phytate and Oxalate Substance Pages, 5 November 2026",
++    "approval_source": "Current chat CODEX \u2014 Canonical Phytate and Oxalate Substance Pages, 5 November 2026",
+     "proposal": "review/phytate-oxalate-2026-11-05/report.md",
+     "contract": "system/substance-page-schema.md",
+     "example": "docs/substances/bioactive-compounds/phytate.md",
+@@ -423,7 +423,7 @@
+     "file": "docs/substances/bioactive-compounds/oxalate.md",
+     "sha256": "bf1d535b5924eeee833a65b0902bda2db3cdb309028ca988b861d9713f2df80d",
+     "author_approval": "Owner: otherwise create one substance page for each, following system/substance-page-schema.md; use existing taxonomy and templates.",
+-    "approval_source": "Current chat CODEX — Canonical Phytate and Oxalate Substance Pages, 5 November 2026",
++    "approval_source": "Current chat CODEX \u2014 Canonical Phytate and Oxalate Substance Pages, 5 November 2026",
+     "proposal": "review/phytate-oxalate-2026-11-05/report.md",
+     "contract": "system/substance-page-schema.md",
+     "example": "docs/substances/bioactive-compounds/oxalate.md",
+@@ -433,7 +433,7 @@
+     "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx",
+     "sha256": "e96b3996c4b40fd03c5aa1df821697dbe33168455d13fa6b344c3377bab6bfa5",
+     "author_approval": "Owner explicitly authorised a new Coenzyme Q PM after canonical placement and non-duplication checks, implemented under existing Stage 2A/2B and presentation conventions.",
+-    "approval_source": "Current chat: CODEX EXEC — BRS4 Coenzyme Q Biosynthesis & Pool Availability, 5 November 2026.",
++    "approval_source": "Current chat: CODEX EXEC \u2014 BRS4 Coenzyme Q Biosynthesis & Pool Availability, 5 November 2026.",
+     "proposal": "review/coq-pm-2026-11-05/report.md",
+     "contract": "system/primary-mechanism-schema.md",
+     "example": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx",
+@@ -447,7 +447,7 @@
+     "proposal": "review/priority-intervention-appraisal-2026-11-04/integration-report.md",
+     "contract": "system/sop-lifestyle-six-atom-presentation.md",
+     "example": "docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx",
+-    "scope": "Three named PMs only; existing §3.2 disclosure and Section4 EvidenceAudit, no new shared component or wider grouping rollout."
++    "scope": "Three named PMs only; existing \u00a73.2 disclosure and Section4 EvidenceAudit, no new shared component or wider grouping rollout."
+   },
+   {
+     "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+@@ -457,7 +457,7 @@
+     "proposal": "review/priority-intervention-appraisal-2026-11-04/integration-report.md",
+     "contract": "system/sop-lifestyle-six-atom-presentation.md",
+     "example": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+-    "scope": "Three named PMs only; existing §3.2 disclosure and Section4 EvidenceAudit, no new shared component or wider grouping rollout."
++    "scope": "Three named PMs only; existing \u00a73.2 disclosure and Section4 EvidenceAudit, no new shared component or wider grouping rollout."
+   },
+   {
+     "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+@@ -467,7 +467,7 @@
+     "proposal": "review/priority-intervention-appraisal-2026-11-04/integration-report.md",
+     "contract": "system/sop-lifestyle-six-atom-presentation.md",
+     "example": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+-    "scope": "Three named PMs only; existing §3.2 disclosure and Section4 EvidenceAudit, no new shared component or wider grouping rollout."
++    "scope": "Three named PMs only; existing \u00a73.2 disclosure and Section4 EvidenceAudit, no new shared component or wider grouping rollout."
+   },
+   {
+     "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+@@ -503,7 +503,7 @@
+     "file": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
+     "sha256": "1f53d8b8f5e819d067b0ea35e2d3cc122a29997a84537269fdb096a2582e9382",
+     "author_approval": "Author explicitly requested integration of every scientifically eligible Batch 2 intervention using existing six-atom SOP presentation and independent Section 4 SEC.",
+-    "approval_source": "Conversation: CODEX — Batch 2 Integration and Resolution, 5 November 2026",
++    "approval_source": "Conversation: CODEX \u2014 Batch 2 Integration and Resolution, 5 November 2026",
+     "proposal": "review/priority-intervention-appraisal-batch2-2026-11-05/integration-report.md",
+     "contract": "system/sop-lifestyle-six-atom-presentation.md",
+     "example": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
+@@ -513,7 +513,7 @@
+     "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+     "sha256": "12121705238fb8d7cb22d13ebcb513dbd998a9ca5f212d05ff87d5384d19354e",
+     "author_approval": "Author explicitly requested integration of every scientifically eligible Batch 2 intervention using existing six-atom SOP presentation and independent Section 4 SEC.",
+-    "approval_source": "Conversation: CODEX — Batch 2 Integration and Resolution, 5 November 2026",
++    "approval_source": "Conversation: CODEX \u2014 Batch 2 Integration and Resolution, 5 November 2026",
+     "proposal": "review/priority-intervention-appraisal-batch2-2026-11-05/integration-report.md",
+     "contract": "system/sop-lifestyle-six-atom-presentation.md",
+     "example": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+@@ -523,7 +523,7 @@
+     "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+     "sha256": "2fbaa549d4ae1d52f62f325ce886c9d1138bc505494dc246074920cd6e0ccb72",
+     "author_approval": "Author explicitly requested integration of every scientifically eligible Batch 2 intervention using existing six-atom SOP presentation and independent Section 4 SEC.",
+-    "approval_source": "Conversation: CODEX — Batch 2 Integration and Resolution, 5 November 2026",
++    "approval_source": "Conversation: CODEX \u2014 Batch 2 Integration and Resolution, 5 November 2026",
+     "proposal": "review/priority-intervention-appraisal-batch2-2026-11-05/integration-report.md",
+     "contract": "system/sop-lifestyle-six-atom-presentation.md",
+     "example": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+@@ -533,7 +533,7 @@
+     "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx",
+     "sha256": "83b524d18b0a8abb38e28a46bf6c8feb3d6ad05a38a0fa16a65649db950d9403",
+     "author_approval": "Author explicitly requested integration of every scientifically eligible Batch 2 intervention using existing six-atom SOP presentation and independent Section 4 SEC.",
+-    "approval_source": "Conversation: CODEX — Batch 2 Integration and Resolution, 5 November 2026",
++    "approval_source": "Conversation: CODEX \u2014 Batch 2 Integration and Resolution, 5 November 2026",
+     "proposal": "review/priority-intervention-appraisal-batch2-2026-11-05/integration-report.md",
+     "contract": "system/sop-lifestyle-six-atom-presentation.md",
+     "example": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx",
+@@ -543,7 +543,7 @@
+     "file": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+     "sha256": "d4d03432ea773731f03245d17b395b61bf2fe036cca72da6cf915e017bc102dd",
+     "author_approval": "Author explicitly requested integration of every scientifically eligible Batch 2 intervention using existing six-atom SOP presentation and independent Section 4 SEC.",
+-    "approval_source": "Conversation: CODEX — Batch 2 Integration and Resolution, 5 November 2026",
++    "approval_source": "Conversation: CODEX \u2014 Batch 2 Integration and Resolution, 5 November 2026",
+     "proposal": "review/priority-intervention-appraisal-batch2-2026-11-05/integration-report.md",
+     "contract": "system/sop-lifestyle-six-atom-presentation.md",
+     "example": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+@@ -603,7 +603,7 @@
+     "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+     "sha256": "f087c227eea9699abfc525d2735f9ba2aa5ef3fc94acad428d3467238ababa9a",
+     "author_approval": "Explicit author decision: relocate LAT1 DIT-3 to Section 3.2 using existing SOP six atoms.",
+-    "approval_source": "Current conversation — Approved LAT1 DIT-3 Relocation, 5 November 2026",
++    "approval_source": "Current conversation \u2014 Approved LAT1 DIT-3 Relocation, 5 November 2026",
+     "proposal": "review/lat1-sop-relocation-2026-11-05/report.md",
+     "contract": "system/sop-lifestyle-six-atom-presentation.md",
+     "example": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+@@ -708,5 +708,65 @@
+     "contract": "system/brs-citation-reference-standard.md",
+     "example": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+     "scope": "Approved LAT1 relocation with canonical linked reference labels; no scientific change."
++  },
++  {
++    "file": "docs/biological-targets/mitochondrial-function-bioenergetics.md",
++    "sha256": "8ecc817ba5ad6ea997e6394d8ad14eaa76e8e43f4897aac748200ba9c0a409e2",
++    "author_approval": "Author requested missing PM10 navigation repair in this localhost BRS4 view.",
++    "approval_source": "5 November2026: still do not see PM10 in this view; original CoQ integration index-update approval.",
++    "proposal": "review/pm10-localhost-navigation-2026-11-05/report.md",
++    "contract": "system/brs-page-schema.md",
++    "example": "docs/biological-targets/mitochondrial-function-bioenergetics.md",
++    "scope": "Two links in existing BRS4 mechanism lists only."
++  },
++  {
++    "file": "src/components/PilotInterventionDisclosure.tsx",
++    "sha256": "77ddc0d48292edc96603c3f4d1724c6b87fd0662a6d3ff9bfc78daf092a86aa0",
++    "author_approval": "Author approval: PM presentation and derived mapping implementation \u2014 6 November 2026",
++    "approval_source": "Current author instruction: CODEX EXEC \u2014 PM SOP & Lifestyle Food\u2013Substance Integration",
++    "proposal": "review/intervention-food-substance-2026-11-06/proposal.md",
++    "contract": "system/sop-lifestyle-six-atom-presentation.md",
++    "example": "review/intervention-food-substance-2026-11-06/proposal.md",
++    "scope": "PM SOP/Lifestyle title-adjacent canonical identity/composition links only; no dietary admissions, scores or other page types"
++  },
++  {
++    "file": "src/components/PmDietaryLeverEnhancer.tsx",
++    "sha256": "2702f4d963731bdb0c8de92397c608d3d16e43a87bf58d64bb3198447b066e27",
++    "author_approval": "Author approval: PM presentation and derived mapping implementation \u2014 6 November 2026",
++    "approval_source": "Current author instruction: CODEX EXEC \u2014 PM SOP & Lifestyle Food\u2013Substance Integration",
++    "proposal": "review/intervention-food-substance-2026-11-06/proposal.md",
++    "contract": "system/sop-lifestyle-six-atom-presentation.md",
++    "example": "review/intervention-food-substance-2026-11-06/proposal.md",
++    "scope": "PM SOP/Lifestyle title-adjacent canonical identity/composition links only; no dietary admissions, scores or other page types"
++  },
++  {
++    "file": "system/templates/primary-mechanism-template.mdx",
++    "sha256": "16055199708fb74beb7ae6b6e33b60f4524552cb339e8155508d578a658678eb",
++    "author_approval": "Author approval: PM presentation and derived mapping implementation \u2014 6 November 2026",
++    "approval_source": "Current author instruction: CODEX EXEC \u2014 PM SOP & Lifestyle Food\u2013Substance Integration",
++    "proposal": "review/intervention-food-substance-2026-11-06/proposal.md",
++    "contract": "system/sop-lifestyle-six-atom-presentation.md",
++    "example": "review/intervention-food-substance-2026-11-06/proposal.md",
++    "scope": "PM SOP/Lifestyle title-adjacent canonical identity/composition links only; no dietary admissions, scores or other page types"
++  },
++  {
++    "file": "src/components/CanonicalPmMission.tsx",
++    "sha256": "ef3bea12958d2a9040f7133290ca173404d0ebf1355ad50ca9386025ec7ac530",
++    "author_approval": "Author approved canonical scientific projections and the Melatonin PM3 frontmatter Mission renderer, 10 November 2026.",
++    "approval_source": "Cursor instruction, 10 November 2026: Adopt Canonical Scientific Truth and Presentation Consistency; preserve the Melatonin PM3 implementation. No new admission, SEC change, commit or deployment.",
++    "proposal": "review/circadian-pm3-identity-review-2026-11-10/REPORT.md",
++    "contract": "system/canonical-scientific-projections.md",
++    "example": "review/circadian-pm3-identity-review-2026-11-10/REPORT.md",
++    "scope": "One component that renders the current PM frontmatter mission. No second mission sentence, new section, admission or food edge."
++  },
++  {
++    "file": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability.mdx",
++    "sha256": "bcb6db9e6bb695e02f6ce9cebd5e8771b8caeda895f3fc92a01c0b3199fa1cfa",
++    "author_approval": "Author approved canonical scientific projections and the Melatonin PM3 frontmatter Mission renderer, 10 November 2026.",
++    "approval_source": "Cursor instruction, 10 November 2026: Adopt Canonical Scientific Truth and Presentation Consistency; preserve the Melatonin PM3 implementation. No new admission, SEC change, commit or deployment.",
++    "proposal": "review/circadian-pm3-identity-review-2026-11-10/REPORT.md",
++    "contract": "system/canonical-scientific-projections.md",
++    "example": "review/circadian-pm3-identity-review-2026-11-10/REPORT.md",
++    "scope": "PM3 visible Mission element reads canonical frontmatter. Historical assessment, unresolved dietary admission and missing-identity gap retained. No contextual food activation."
+   }
+ ]
+diff --git a/system/presentation-change-control.md b/system/presentation-change-control.md
+index 28b26341..8929bf55 100644
+--- a/system/presentation-change-control.md
++++ b/system/presentation-change-control.md
+@@ -23,3 +23,8 @@ Both Dietary pathways technical panel types are withdrawn on ALL pages by explic
+ ## Authorised nested pathway-disclosure removal — 3 November 2026
+ 
+ Owner instruction: “Delete Unauthorised Dietary Pathway Disclosure.” Remove the generated `Dietary pathway evidence` / `.pm-input-pathway-evidence` block from all PM six-atom disclosures, including PM9 vitamin B6. Remove its exclusive renderer argument and ontology-projection subscription. This is a shared presentation removal only: keep pathway records, six atoms, Dietary Confidence, ontology links and approved food sources unchanged. No replacement is authorised. Representative expected result: PM9 vitamin B6 opens its existing six atoms and food disclosures without a nested pathway-evidence heading. The presentation baseline is not regenerated.
++
++
++## Canonical scientific projections — approved 10 November 2026
++
++Apply [Canonical scientific truth and presentation consistency](canonical-scientific-projections.md), including its five scientific, automated, release and publication checkpoints. Current mission comes from PM frontmatter; explanatory prose must not strengthen the canonical science. Preserve authoritative admissions, limitations and SEC history. Report conflicts with provenance instead of selecting the newest text.
+diff --git a/system/primary-mechanism-schema.md b/system/primary-mechanism-schema.md
+index 2b1d0867..4c848101 100644
+--- a/system/primary-mechanism-schema.md
++++ b/system/primary-mechanism-schema.md
+@@ -292,12 +292,15 @@ Validators: `validatePublishedPmConnectionExplanations` in
+ ## 1. Mission & Overview
+ 
+ ### Mission
+-[1–2 lines — biological ambition]
++
++<CanonicalPmMission />
+ 
+ ### Overview
+ [~65–75 words — orientation paragraph + normally 3 useful scannable bullets; adapt when evidence does not support all three]
+ ```
+ 
++The visible Mission reads frontmatter `mission` through `CanonicalPmMission`. Import `@site/src/components/CanonicalPmMission`. Do not author a second mission sentence. Historical assessment operation text stays in its own record. See [canonical scientific projections](canonical-scientific-projections.md).
++
+ | Subsection | Role | Rules |
+ |------------|------|--------|
+ | **Mission** | Biological ambition — what capability this PM maintains or supports | 1–2 lines; functional biological capacity; **no** nutrients, foods, interventions, biomarkers, or title paraphrase |
+@@ -325,7 +328,7 @@ Paragraph and bullet claims require readable, claim-local numbered bibliography
+ 
+ | Field | Maps to | Notes |
+ |-------|---------|--------|
+-| `mission` | `### Mission` | Required on Profile A PMs |
++| `mission` | `### Mission` | Required on Profile A PMs. This field is the only current mission. Revised MDX pages render it with CanonicalPmMission. |
+ | `summary` | Overview opening paragraph | Bullets are body-only |
+ 
+ **Good Mission examples:**
+@@ -1519,3 +1522,13 @@ This supersedes earlier lesson-placement amendments above. Place each existing S
+ ## Approved independent intervention evidence pathway — 5 November 2026
+ 
+ For SOPs and Lifestyle Levers, a new Scientific Finding is not required when the exact intervention–outcome proposition has independent primary references in the PM bibliography, separately recorded measured effect and PM relevance, full MoA/status, typed limitations and a valid pinned intervention-specific SEC assessment. Admission remains a separate adjudication. The validator must resolve the assessment to this PM and intervention and validate its content/hash; no Finding score may be inherited. Existing Finding links, when supplied, must remain valid. An incomplete independent record fails validation; this exception does not apply to dietary-input substance admission or allow unsupported claims. Author explicitly approved this clarification during release reconciliation. No new public presentation or numerical scoring rule.
++
++
++## Intervention food/substance presentation — author-approved 6 November 2026
++
++Apply [SOP/Lifestyle food–substance joins](sop-lifestyle-six-atom-presentation.md#approved-soplifestyle-foodsubstance-joins--6-november-2026). Stage 2A distinguishes documented composition, tested protocol, biological relationship and unconfirmed mediator; Stage 2B records supported canonical identities and derives the links below intervention titles. These are presentation metadata, not a seventh atom or new admission. Keep all six atoms, preparation/comparator limits and independent SEC provenance; omit unsupported food connections for patterns and behaviours. PM rendering and chord extraction consume one generated mapping, with composition/context edge types rather than inferred efficacy.
++
++
++## Canonical scientific projections — approved 10 November 2026
++
++Apply [Canonical scientific truth and presentation consistency](canonical-scientific-projections.md), including its five scientific, automated, release and publication checkpoints. Current mission comes from PM frontmatter; explanatory prose must not strengthen the canonical science. Preserve authoritative admissions, limitations and SEC history. Report conflicts with provenance instead of selecting the newest text.
+diff --git a/system/scientific-finding-schema.md b/system/scientific-finding-schema.md
+index 5532a505..6a5183da 100644
+--- a/system/scientific-finding-schema.md
++++ b/system/scientific-finding-schema.md
+@@ -317,6 +317,8 @@ infer modulation from dependency alone.
+ 
+ **Functional translation:** For both SOP and lifestyle candidates, distinguish biochemical or molecular target engagement, physiological effects, functional or behavioural outcomes, and clinical outcomes. These describe claim scope, not a new evidence score or admission hierarchy. Where neurologically relevant, investigate measured attention, cognitive energy, fatigue, executive function, emotional regulation, sleep/arousal or other canonical phenome outcomes. Record relevant ADHD evidence or its absence without requiring direct ADHD or cognitive outcomes to establish a supported biochemical dependency. Do not infer functional or clinical benefit from a biological endpoint alone.
+ 
++**Evidence-qualified inclusion — author-approved 6 November 2026.** The default posture is to identify the strongest defensible biological relationship, then qualify its limitations. Do not exclude a dietary or lifestyle intervention merely because effects on downstream neural signalling, ADHD symptoms or clinical outcomes have not been demonstrated. Where an intervention produces a measured proximal biological effect relevant to the framework: state precisely what changed and under which experimental conditions; assign the PM biological function and intervention class supported by that measurement; include the relationship at that level, subject to the existing biological-dependency, dietary-provision, intervention-evidence and SEC gates; and state limitations on causality, dose, population, duration, tissue specificity and downstream efficacy. Do not manufacture a mechanism, assume a beneficial direction, or extrapolate beyond the measured outcome. If no existing PM owns the demonstrated function, flag a potential PM scope extension rather than discarding the evidence. A missing downstream result limits the claim. It does not erase the measured segment. The governing question is which part of the pathway has been demonstrated, and where that part belongs.
++
+ For principal intervention evidence, retain design and sample size, population and baseline health or metabolic status, exact intervention and comparator, dose/intensity, exposure duration and timing, endpoint and measurement method, effect estimate and uncertainty where available, null findings, safety limitations and generalisation limits. State whether biological and functional outcomes were measured together, whether their relationship was tested, and whether the evidence supports an intervention effect, association or an inferred link. Joint metabolic and cognitive measurement alone does not establish mediation. Do not transfer results automatically between clinical, metabolically impaired, healthy or ADHD populations. Use the existing phenome review process for candidate mappings; this assessment does not assign final phenome confidence or confer scientific admission.
+ 
+ **Research hypotheses:** An unresolved but biologically supported question may be recorded as a labelled research hypothesis in the Stage 2A report. Identify its rationale, supporting and conflicting evidence, unverified causal steps, testable prediction, relevant outcome, major confounders and evidence needed for adjudication. A hypothesis does not admit a Dietary Requirement, SOP, lifestyle lever, KC relationship or phenome benefit. Preserve Stage 2B admission thresholds and six-atom governance; neither functional outcomes nor hypotheses bypass existing adjudication.
+@@ -775,3 +777,13 @@ Scientific Lessons remain permitted. Use the approved GAD lesson disclosure (`sc
+ ### Authoritative Scientific Lesson placement — 4 November 2026
+ 
+ This supersedes earlier lesson-placement amendments above. Place each existing Scientific Lesson **at the end of the Section 4 Summary**, immediately after its summary prose and before mechanistic-detail or Scientific Findings disclosures. Lessons are separate sibling dropdowns, never children of the Scientific Findings parent or an individual Finding, and never appended after References. Reuse the GAD lesson CSS, book icon, concise title and initially collapsed behaviour. Preserve lesson identity, content and supporting Finding links; do not assign a new score or create a Finding. Keep the lesson outside the generated §4.1 block so regeneration cannot move or erase it. This instruction applies to existing lessons; do not invent lessons to populate every PM. Checked canonical PMs: PM1 and GAD/PM9 contain actual lesson disclosures; other authored-lesson markers alone are not lessons.
++
++
++## Intervention food/substance presentation — author-approved 6 November 2026
++
++Apply [SOP/Lifestyle food–substance joins](sop-lifestyle-six-atom-presentation.md#approved-soplifestyle-foodsubstance-joins--6-november-2026). Stage 2A distinguishes documented composition, tested protocol, biological relationship and unconfirmed mediator; Stage 2B records supported canonical identities and derives the links below intervention titles. These are presentation metadata, not a seventh atom or new admission. Keep all six atoms, preparation/comparator limits and independent SEC provenance; omit unsupported food connections for patterns and behaviours. PM rendering and chord extraction consume one generated mapping, with composition/context edge types rather than inferred efficacy.
++
++
++## Canonical scientific projections — approved 10 November 2026
++
++Apply [Canonical scientific truth and presentation consistency](canonical-scientific-projections.md), including its five scientific, automated, release and publication checkpoints. Current mission comes from PM frontmatter; explanatory prose must not strengthen the canonical science. Preserve authoritative admissions, limitations and SEC history. Report conflicts with provenance instead of selecting the newest text.
+diff --git a/system/sop-lifestyle-six-atom-presentation.md b/system/sop-lifestyle-six-atom-presentation.md
+index e012d9ea..799e5c4a 100644
+--- a/system/sop-lifestyle-six-atom-presentation.md
++++ b/system/sop-lifestyle-six-atom-presentation.md
+@@ -106,3 +106,16 @@ This supersedes earlier lesson-placement amendments above. Place each existing S
+ ## Approved independent intervention evidence pathway — 5 November 2026
+ 
+ For SOPs and Lifestyle Levers, a new Scientific Finding is not required when the exact intervention–outcome proposition has independent primary references in the PM bibliography, separately recorded measured effect and PM relevance, full MoA/status, typed limitations and a valid pinned intervention-specific SEC assessment. Admission remains a separate adjudication. The validator must resolve the assessment to this PM and intervention and validate its content/hash; no Finding score may be inherited. Existing Finding links, when supplied, must remain valid. An incomplete independent record fails validation; this exception does not apply to dietary-input substance admission or allow unsupported claims. Author explicitly approved this clarification during release reconciliation. No new public presentation or numerical scoring rule.
++
++
++## Approved SOP/Lifestyle food–substance joins — 6 November 2026
++
++Author approved PM intervention-level food/substance links and reuse by the chord extractor. This does not admit an intervention, alter SEC or establish a causal mediator. Reuse canonical `food_ids`, `substance_ids`, ontology entries and exact existing six-atom links. Add only identity metadata supported by the recorded exposure; preserve preparation, comparator and limitations. Never mine unrelated Findings, outcome prose or pattern names for ingredients. Named patterns without explicit constituent identities remain unmapped. Behavioural interventions need no food/substance mapping.
++
++Generate the shared `intervention_mapping` in the existing food-strategy roll-up with `npm run mappings:food-strategies`. It inventories both SOPs and Lifestyle Levers, including Cross-BRS, independently of food-strategy scope. Explicitly rejected/deferred/candidate records are excluded; existing canonical arrays are retained as historical admissions, not newly adjudicated. A false dietary-input flag does not reject a Lifestyle Lever.
++
++Render documented identity links directly beneath the intervention title, using existing dietary-lever/source CSS. Preserve direct six-atom expansion and separate optional Mechanism summary. Composition-only sources are labelled separately; no seventh atom, new score, clinical claim, food-equivalence assumption or technical pathway panel. Missing mappings produce no public placeholder. Existing contextual material roles (e.g. potatoes versus extracted RS2) remain visible.
++
++The chord consumer uses the very same generated records/typed edges: PM-to-intervention, named identity, documented composition and intervention-context-to-BRS. These edges are not dietary-input admissions or therapeutic-effect assertions. Keep composition provenance and original PM/SOP identifiers. A pattern is not expanded into foods without recorded constituent evidence.
++
++Validation: `node --test scripts/intervention-food-substance.test.mjs`, existing dietary/Findings/SEC checks, `npm run presentation:check`, and representative browser inspection. Counts distinguish complete recorded food–substance pairs, partial identity-only mapping and unmapped records (including behaviour where a mapping is unnecessary). This is mapping completeness, not evidence confidence.
+diff --git a/system/templates/primary-mechanism-template.mdx b/system/templates/primary-mechanism-template.mdx
+index 8872b4af..8d2c1d12 100644
+--- a/system/templates/primary-mechanism-template.mdx
++++ b/system/templates/primary-mechanism-template.mdx
+@@ -39,6 +39,11 @@ hide_title: true
+ ---
+ 
+ <!--
++  SOP/Lifestyle identity links (author-approved 6 November 2026): use canonical food_ids/substance_ids
++  and ontology records; generate mappings with npm run mappings:food-strategies. Render beneath
++  the intervention title via existing components, never duplicate food lists here. Preserve six
++  atoms and optional Mechanism; omit unestablished pattern/behaviour mappings. See
++  system/sop-lifestyle-six-atom-presentation.md.
+   Profile A (extended): see system/primary-mechanism-schema.md — §5 canonical structure on BRS1-FM1-PM1.
+   Profile B (compact): Mechanistic Basis becomes ## 3; renumber following sections.
+ -->
