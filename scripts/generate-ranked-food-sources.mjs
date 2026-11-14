@@ -1,3 +1,4 @@
+import {partitionPublicationSources} from './lib/ranked-publication-sources.mjs';
 import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import matter from 'gray-matter';
 import {attributeSharedReferencePanels} from './lib/shared-reference-attribution.mjs';
 import {buildInputSubstanceFood} from './lib/input-substance-food.mjs';
@@ -13,8 +14,10 @@ const sources=[...new Map(maps.flatMap(m=>m.food_sources).map(s=>[s.id,s])).valu
 const relationships=maps.flatMap(m=>m.relationships),foodDocs=fs.readdirSync('docs/foods').filter(f=>/\.mdx?$/.test(f)).sort().map(f=>({file:'docs/foods/'+f,...matter(fs.readFileSync('docs/foods/'+f,'utf8'))}));
 const panelGroups=new Map();for(const f of foodDocs){if(f.data.retired_identity)continue;const n=f.data.nutrition_source;if(n?.fdc_id){const key=[n.database,n.fdc_id,n.food_name,n.basis].join('|');if(!panelGroups.has(key))panelGroups.set(key,[]);panelGroups.get(key).push(f.data.id||path.basename(f.file,'.md'));}}
 const duplicatePanels=[...panelGroups].filter(([k,ids])=>ids.length>1).map(([source,food_ids])=>({source,food_ids,reason:'Shared reference panel reused by distinct food preparations; not independent preparation-specific measurements.'}));
-const rankingSources=attributeSharedReferencePanels(sources,duplicatePanels,policy);
-const sourceFiles=[...new Set([...maps.flatMap(m=>m.source_records),...foodDocs.map(f=>f.file),'system/ranked-food-source-policy.json','system/ranked-food-publication-sources.json','scripts/lib/shared-reference-attribution.mjs','scripts/lib/input-substance-food.mjs','src/data/relatedSubstanceRelationships.mjs','scripts/generate-ranked-food-sources.mjs','src/data/rankedFoodSources.mjs','src/lib/aminoAcidProfileSources.mjs','src/lib/aggregateFoodComposition.mjs'])].sort();
+const publication=partitionPublicationSources(sources,approved);
+for(const d of publication.excluded) console.warn(`[ranked sources] ${d.food_id}: ${d.reason}. ${d.action}`);
+const rankingSources=attributeSharedReferencePanels(review?sources:publication.eligible,duplicatePanels,policy);
+const sourceFiles=[...new Set([...maps.flatMap(m=>m.source_records),...foodDocs.map(f=>f.file),'system/ranked-food-source-policy.json','system/ranked-food-publication-sources.json','scripts/lib/shared-reference-attribution.mjs','scripts/lib/ranked-publication-sources.mjs','scripts/lib/input-substance-food.mjs','src/data/relatedSubstanceRelationships.mjs','scripts/generate-ranked-food-sources.mjs','src/data/rankedFoodSources.mjs','src/lib/aminoAcidProfileSources.mjs','src/lib/aggregateFoodComposition.mjs'])].sort();
 const source_hashes=Object.fromEntries(sourceFiles.filter(f=>fs.existsSync(f)).map(f=>[f,hash(fs.readFileSync(f))]));
 const snapshot_id=hash(JSON.stringify({source_hashes,policy:RANKED_FOOD_POLICY})),targets=[];
 for(const target_id of [...new Set(relationships.filter(r=>r.dietary_input===true&&r.substance_id).map(r=>r.pm+'|'+r.substance_id))].sort()){
@@ -24,7 +27,7 @@ for(const target_id of [...new Set(relationships.filter(r=>r.dietary_input===tru
  targets.push({target_id,pm_id:r.pm,pm_page:r.pm_page,substance_id:r.substance_id,brs:r.brs,relationship_ids:rs.map(r=>r.id).sort(),limitations:rs.map(r=>r.limitation).filter(Boolean),status:'admitted',ranking_status:hold?'held':selected.length?'ranked':'unranked',hold:hold?.reason||null,selected,comparisons:result.comparisons,excluded:result.excluded});
 }
 const counts={targets:targets.length,covered_targets:targets.filter(t=>t.selected.length).length,connections:targets.reduce((n,t)=>n+t.selected.length,0),foods:new Set(targets.flatMap(t=>t.selected.map(s=>s.food_id))).size};
-const snapshot={snapshot_id,policy:RANKED_FOOD_POLICY,approved_source_baseline:approved.baseline_commit,source_hashes,counts,duplicate_panels:duplicatePanels,shared_reference_attributions:policy.shared_reference_attributions,identity_holds:policy.identity_holds,targets};
+const snapshot={publication_exclusions:publication.excluded,snapshot_id,policy:RANKED_FOOD_POLICY,approved_source_baseline:approved.baseline_commit,source_hashes,counts,duplicate_panels:duplicatePanels,shared_reference_attributions:policy.shared_reference_attributions,identity_holds:policy.identity_holds,targets};
 if(review){
  fs.mkdirSync(reviewDir,{recursive:true});
  fs.writeFileSync(reviewDir+'/ranking.json',JSON.stringify({...snapshot,review_only:true,pendingSources},null,2)+'\n');

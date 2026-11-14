@@ -1,0 +1,199 @@
+TAP version 13
+# Subtest: network retains eight BRS5 PMs and all five qualified experimental relationships
+ok 1 - network retains eight BRS5 PMs and all five qualified experimental relationships
+  ---
+  duration_ms: 1.905791
+  ...
+# Subtest: ranked observations are preserved without new selection
+ok 2 - ranked observations are preserved without new selection
+  ---
+  duration_ms: 11.583792
+  ...
+# Subtest: unranked records retain provenance; children inherit no food edges
+ok 3 - unranked records retain provenance; children inherit no food edges
+  ---
+  duration_ms: 1.758875
+  ...
+# Subtest: PM4 uses PM dropdown sources: asparagus/inulin and peas/arabinan; restrictions remain
+ok 4 - PM4 uses PM dropdown sources: asparagus/inulin and peas/arabinan; restrictions remain
+  ---
+  duration_ms: 69.25425
+  ...
+# Subtest: all nine systems expose the 67 current canonical PMs without altering BRS5 foods
+ok 5 - all nine systems expose the 67 current canonical PMs without altering BRS5 foods
+  ---
+  duration_ms: 103.094167
+  ...
+# Subtest: food presentation is plant-first then animal, retaining descending ranked values
+ok 6 - food presentation is plant-first then animal, retaining descending ranked values
+  ---
+  duration_ms: 52.047958
+  ...
+# Subtest: lamb creatine is grouped as animal in the shared helper and Explorer
+ok 7 - lamb creatine is grouped as animal in the shared helper and Explorer
+  ---
+  duration_ms: 58.678292
+  ...
+# Subtest: PC restores exactly six evidence-qualified occurrences without ranks or quantities
+ok 8 - PC restores exactly six evidence-qualified occurrences without ranks or quantities
+  ---
+  duration_ms: 23.143958
+  ...
+# Subtest: uridine retains free-form distinction, delivery limits and original reference
+ok 9 - uridine retains free-form distinction, delivery limits and original reference
+  ---
+  duration_ms: 0.362917
+  ...
+# Subtest: qualitative choline coexists with eight unchanged ranked sources
+not ok 10 - qualitative choline coexists with eight unchanged ranked sources
+  ---
+  duration_ms: 1.161083
+  location: 'file:///private/tmp/brain-startup-verification-20261114/scripts/pm-documented-food-sources.test.mjs:23:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    7 !== 8
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 8
+  actual: 7
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///private/tmp/brain-startup-verification-20261114/scripts/pm-documented-food-sources.test.mjs:23:118)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: methionine retains ten; approved local betaine ranks coexist with qualitative shrimp
+not ok 11 - methionine retains ten; approved local betaine ranks coexist with qualitative shrimp
+  ---
+  duration_ms: 2.135875
+  location: 'file:///private/tmp/brain-startup-verification-20261114/scripts/pm-documented-food-sources.test.mjs:24:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+    + []
+    - [
+    -   'shrimp'
+    - ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'shrimp'
+  actual:
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///private/tmp/brain-startup-verification-20261114/scripts/pm-documented-food-sources.test.mjs:24:338)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: no biochemical participant or unadmitted route creates qualitative food admission
+ok 12 - no biochemical participant or unadmitted route creates qualitative food admission
+  ---
+  duration_ms: 0.156375
+  ...
+# Subtest: blocked targets, internal-only duplicate records, quantities and unsupported assertions remain excluded
+ok 13 - blocked targets, internal-only duplicate records, quantities and unsupported assertions remain excluded
+  ---
+  duration_ms: 0.460333
+  ...
+# Subtest: identity-based grouping ignores misleading analytical prose
+ok 14 - identity-based grouping ignores misleading analytical prose
+  ---
+  duration_ms: 0.121209
+  ...
+# Subtest: deduplication retains provenance and excludes ranked food pairs
+ok 15 - deduplication retains provenance and excludes ranked food pairs
+  ---
+  duration_ms: 1.404583
+  ...
+# Subtest: all scopes keep qualitative connections separate from ranked snapshot without mutation
+not ok 16 - all scopes keep qualitative connections separate from ranked snapshot without mutation
+  ---
+  duration_ms: 238.543458
+  location: 'file:///private/tmp/brain-startup-verification-20261114/scripts/pm-documented-food-sources.test.mjs:29:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    206 !== 204
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 204
+  actual: 206
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///private/tmp/brain-startup-verification-20261114/scripts/pm-documented-food-sources.test.mjs:43:55)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: preparation-dependent sulforaphane renders its qualified label
+ok 17 - preparation-dependent sulforaphane renders its qualified label
+  ---
+  duration_ms: 0.387709
+  ...
+# Subtest: refreshed PM dropdowns recover four exact sources with provenance and preparation
+not ok 18 - refreshed PM dropdowns recover four exact sources with provenance and preparation
+  ---
+  duration_ms: 32.003167
+  location: 'file:///private/tmp/brain-startup-verification-20261114/scripts/pm-documented-food-sources.test.mjs:48:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+        'apples',
+    +   'lemon',
+    +   'oranges',
+    +   'pears'
+      ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'apples'
+  actual:
+    0: 'apples'
+    1: 'lemon'
+    2: 'oranges'
+    3: 'pears'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///private/tmp/brain-startup-verification-20261114/scripts/pm-documented-food-sources.test.mjs:51:260)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: measured unranked renderer retains bases, calculation, variability and holds
+ok 19 - measured unranked renderer retains bases, calculation, variability and holds
+  ---
+  duration_ms: 40.152625
+  ...
+1..19
+# tests 19
+# suites 0
+# pass 15
+# fail 4
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 982.795541

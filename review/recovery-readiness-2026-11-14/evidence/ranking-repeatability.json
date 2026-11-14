@@ -1,0 +1,7 @@
+{
+  "exit_code": 0,
+  "before_sha256": "76e664fd09980ae11a3d1267c848d343dc9f1caf228ad9dad52ecac7f8a7f65a",
+  "after_sha256": "76e664fd09980ae11a3d1267c848d343dc9f1caf228ad9dad52ecac7f8a7f65a",
+  "identical": true,
+  "scope": "Guarded diagnostic snapshot only; final approved publication set unresolved"
+}

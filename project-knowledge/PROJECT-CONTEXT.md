@@ -44,3 +44,5 @@ SEC evaluates the exact scientific or intervention proposition using existing D/
 The paper needs traceable, qualified intervention examples and food roll-ups; appearance counts are not effectiveness scores. Reuse the Section 6 register, but reconcile stale status text before manuscript use. Training explains the framework without changing its scientific records. Training/QA remains local-only and untracked under [INTERNAL-DOCS.md](../INTERNAL-DOCS.md). Existing drafts are not approved public course content.
 
 A complete Gold Standard PM is **proposed**, not an approved new template. Existing approved references are PM1's Section 4 Finding layout and PM8's evidence tabs, within their documented scopes. LAT1 remains incomplete; see [decisions](DECISIONS.md) and [handoffs](handoffs/INDEX.md).
+
+Active recovery and release issues: [authoritative action register](../review/recovery-readiness-2026-11-14/ACTION-REGISTER.md). Historical reports remain evidence; current status and closure criteria live in this register.
