@@ -1,0 +1,105 @@
+diff --git a/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx b/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx
+index 18554ac9..2793c0fe 100644
+--- a/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx
++++ b/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx
+@@ -246,6 +246,86 @@ dietary_input_assessments:
+       sources:
+         - docs/foods/almonds.md
+         - docs/foods/pumpkin-seeds.md
++scientific_hypotheses:
++  - id: PM11-H1
++    title: Taurine Availability and Excitotoxic Calcium Stress
++    status: Unestablished
++    proposition: >-
++      Greater taurine availability at neural target sites may limit glutamate-induced calcium overload and
++      downstream cellular injury. Whether dietary or supplemental taurine produces sufficient target-site
++      exposure to influence this process in humans remains unresolved.
++    proposed_direction: Taurine availability → glutamate-induced calcium overload and excitotoxic injury
++    rationale: >-
++      The canonical taurine review describes preclinical inhibitory signalling, calcium regulation and
++      mitochondrial protection. Reduced glutamate-induced calcium influx and injury in experimental neurons
++      motivate testing this relationship within PM11.
++    finding_links:
++      supporting: []
++      contradictory_or_null: []
++      contextual:
++        - pm_id: BRS1-FM4-PM11
++          finding_id: PM11-F1
++          href: '#pm11-f1'
++          label: Excessive receptor stimulation can produce excitotoxic energy stress
++          explanation: Establishes the injury context. Taurine was not the protective intervention in this Finding.
++    evidence_sources:
++      - study_id: md_jakaria_a_taurine_nodate
++        label: Jakaria et al. (2019)
++        url: https://www.sciencedirect.com/science/article/pii/S2213231719301971
++        role: contextual
++        proposition: >-
++          Reviews experimental taurine effects on inhibitory signalling, glutamate-induced calcium influx and
++          neuronal injury.
++        limitations: >-
++          Secondary synthesis of cell and animal studies. Primary-study concentrations and exposure conditions
++          require verification.
++      - study_id: jangra_emergence_2024
++        label: Jangra et al. (2024)
++        url: https://doi.org/10.4103/1673-5374.374139
++        role: contextual
++        proposition: Reviews inhibitory, calcium-modulating and mitochondrial actions in experimental neurology.
++        limitations: >-
++          Potentially overlapping preclinical literature; review citations do not establish independent
++          replication.
++    limitations:
++      - Experimental concentrations, preparations and exposure conditions require primary-study verification.
++      - >-
++        Dietary intake, absorption and neural target-site exposure remain unresolved. Food composition
++        establishes no effective neural dose.
++      - >-
++        Preserve distinctions between receptor systems and models; reported GABA-A, GABA-B and
++        glycine-receptor actions cannot be treated as one established pathway.
++      - >-
++        The canonical page reports overall null or inconsistent human cognitive findings in Cao (2025) and
++        Moore (2026). Those endpoints do not directly test excitotoxic calcium regulation.
++      - >-
++        The adjunctive psychosis trial reported symptom findings with a null cognitive outcome. Medication
++        context and supplemental exposure limit transfer to ordinary diet and do not establish the proposed
++        mechanism.
++      - PM11-F2 concerns magnesium protection and supplies no taurine-specific support.
++      - >-
++        No dietary dose, clinical benefit, food ranking or dietary admission is established by this
++        hypothesis.
++    alternative_explanations:
++      - >-
++        Osmoregulation, mitochondrial effects and other cellular actions could contribute to experimental
++        protection.
++      - Experimental protection may depend on exposure conditions that oral intake does not reproduce.
++    required_evidence:
++      - >-
++        Verify original experimental preparations, concentrations, controls and measured calcium/injury
++        endpoints.
++      - Establish matched oral exposure and neural target engagement.
++      - Test which receptor, exchanger or mitochondrial mechanism mediates any protection.
++    provenance:
++      - >-
++        Author-approved hypothesis installation on 14 November 2026 from the rewritten canonical taurine page
++        and the reviewed PM11-H1 proposal.
++      - >-
++        Human evidence qualifications are retained from the taurine page; no new scientific appraisal or
++        dietary admission accompanies registration.
++    review_date: '2026-11-14'
++
+ ---
+ 
+ <p class="brs-pm-thumbnail-wrap">
+@@ -395,6 +475,13 @@ Buffering capacity can sit beside inflammatory, energetic and glycaemic context.
+ </div>
+ </div>
+ 
++{/* scientific-hypotheses:start */}
++### Scientific Hypotheses
++
++<ScientificHypothesis hypothesis={{"id":"PM11-H1","title":"Taurine Availability and Excitotoxic Calcium Stress","status":"Unestablished","proposition":"Greater taurine availability at neural target sites may limit glutamate-induced calcium overload and downstream cellular injury. Whether dietary or supplemental taurine produces sufficient target-site exposure to influence this process in humans remains unresolved.","proposed_direction":"Taurine availability → glutamate-induced calcium overload and excitotoxic injury","rationale":"The canonical taurine review describes preclinical inhibitory signalling, calcium regulation and mitochondrial protection. Reduced glutamate-induced calcium influx and injury in experimental neurons motivate testing this relationship within PM11.","finding_links":{"supporting":[],"contradictory_or_null":[],"contextual":[{"pm_id":"BRS1-FM4-PM11","finding_id":"PM11-F1","href":"#pm11-f1","label":"Excessive receptor stimulation can produce excitotoxic energy stress","explanation":"Establishes the injury context. Taurine was not the protective intervention in this Finding."}]},"evidence_sources":[{"study_id":"md_jakaria_a_taurine_nodate","label":"Jakaria et al. (2019)","url":"https://www.sciencedirect.com/science/article/pii/S2213231719301971","role":"contextual","proposition":"Reviews experimental taurine effects on inhibitory signalling, glutamate-induced calcium influx and neuronal injury.","limitations":"Secondary synthesis of cell and animal studies. Primary-study concentrations and exposure conditions require verification."},{"study_id":"jangra_emergence_2024","label":"Jangra et al. (2024)","url":"https://doi.org/10.4103/1673-5374.374139","role":"contextual","proposition":"Reviews inhibitory, calcium-modulating and mitochondrial actions in experimental neurology.","limitations":"Potentially overlapping preclinical literature; review citations do not establish independent replication."}],"limitations":["Experimental concentrations, preparations and exposure conditions require primary-study verification.","Dietary intake, absorption and neural target-site exposure remain unresolved. Food composition establishes no effective neural dose.","Preserve distinctions between receptor systems and models; reported GABA-A, GABA-B and glycine-receptor actions cannot be treated as one established pathway.","The canonical page reports overall null or inconsistent human cognitive findings in Cao (2025) and Moore (2026). Those endpoints do not directly test excitotoxic calcium regulation.","The adjunctive psychosis trial reported symptom findings with a null cognitive outcome. Medication context and supplemental exposure limit transfer to ordinary diet and do not establish the proposed mechanism.","PM11-F2 concerns magnesium protection and supplies no taurine-specific support.","No dietary dose, clinical benefit, food ranking or dietary admission is established by this hypothesis."],"alternative_explanations":["Osmoregulation, mitochondrial effects and other cellular actions could contribute to experimental protection.","Experimental protection may depend on exposure conditions that oral intake does not reproduce."],"required_evidence":["Verify original experimental preparations, concentrations, controls and measured calcium/injury endpoints.","Establish matched oral exposure and neural target engagement.","Test which receptor, exchanger or mitochondrial mechanism mediates any protection."],"provenance":["Author-approved hypothesis installation on 14 November 2026 from the rewritten canonical taurine page and the reviewed PM11-H1 proposal.","Human evidence qualifications are retained from the taurine page; no new scientific appraisal or dietary admission accompanies registration."],"review_date":"2026-11-14"}} />
++
++{/* scientific-hypotheses:end */}
++
+ ### 4.1 Scientific Findings
+ 
+ #### Summary

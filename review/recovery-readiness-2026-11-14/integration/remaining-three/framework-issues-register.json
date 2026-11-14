@@ -1,0 +1,3211 @@
+{
+  "version": 1,
+  "updated": "2026-11-12",
+  "issues": [
+    {
+      "id": "FW001",
+      "title": "Wastyk evidence use and mapping",
+      "visibility": "public",
+      "public_title": "Wastyk trial description on the gut–brain microbial ecology page",
+      "public_findings": [
+        "The BRS5 summary conflates the fermented-food and high-fibre intervention arms.",
+        "The trial is incorrectly described as controlled feeding.",
+        "The distinctive intervention findings are obscured.",
+        "Its direct immune/inflammatory findings are not represented or cross-linked appropriately within BRS3."
+      ],
+      "findings": [
+        "The BRS5 summary conflates the fermented-food and high-fibre intervention arms.",
+        "The trial is incorrectly described as controlled feeding.",
+        "The distinctive intervention findings are obscured.",
+        "Its direct immune/inflammatory findings are not represented or cross-linked appropriately within BRS3.",
+        "The evidence classification problem connects to FW002."
+      ],
+      "required_action": "Rewrite Wastyk attribution on BRS5-FM2-PM4 §5.1 Evidence Highlights so fermented-food and high-fibre arms stay distinct, drop the controlled-feeding label, surface the arm-specific findings, and add an appropriate BRS3 cross-link for the immune/inflammatory results. Do not treat this as an evidence-grading rerun (FW002).",
+      "status": "open",
+      "correction_status": "pending",
+      "review_method": "expert",
+      "public_reviewer": "Framework editorial review",
+      "reviewed_date": "2026-09-14",
+      "affected_section": "§5.1 Evidence Highlights",
+      "public_description": "The published Wastyk trial description mixes intervention arms and mislabels the study design.",
+      "public_decision": "The trial description still needs correction.",
+      "decision": "Keep as an accepted open correction until the BRS5-FM2-PM4 evidence highlight is rewritten.",
+      "rationale": "The public findings are accepted; the page text has not been verified as corrected.",
+      "priority": "high",
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS5-FM2-PM4",
+          "inflammation-oxidative-stress"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
+          "docs/biological-targets/inflammation-oxidative-stress.md"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection/#51-evidence-highlights"
+      },
+      "affected": "BRS5-FM2-PM4 §5.1 Evidence Highlights; BRS3 hub (missing immune/inflammatory cross-link)"
+    },
+    {
+      "id": "FW002",
+      "title": "Evidence grading lacks discrimination",
+      "visibility": "internal",
+      "findings": [
+        "Too much evidence defaults to Low–Medium.",
+        "“Mechanistic” collapses preclinical, observational human, human mechanistic and randomized human research.",
+        "Study quality and claim-reference directness are not adequately separated.",
+        "The same problem has appeared in phenome evidence.",
+        "Evidence grading requires a later systematic rerun."
+      ],
+      "required_action": "Design a later systematic evidence-grading rerun that separates study design, quality, and claim–reference directness. Do not retag every page in this Phase 0 inventory.",
+      "status": "deferred",
+      "correction_status": "pending",
+      "review_method": "expert",
+      "reviewed_date": "2026-09-14",
+      "affected_section": "Framework evidence grading",
+      "decision": "Defer a systematic evidence-grading rerun.",
+      "rationale": "The grading problem is framework-wide and is not a page-level correction.",
+      "priority": "high",
+      "scope": {
+        "kind": "framework-wide",
+        "page_ids": [],
+        "page_paths": [],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": null
+      },
+      "affected": "Framework-wide (PM/FM evidence highlights, phenome evidence). Connected from FW001 finding 5."
+    },
+    {
+      "id": "FW003",
+      "title": "Alpha diversity treated as a universal positive target",
+      "visibility": "public",
+      "public_title": "Alpha diversity treated as a universal health target",
+      "public_findings": [
+        "BRS5-FM2-PM4 presents increased alpha diversity as an inherently desirable effect.",
+        "Higher alpha diversity is not universally synonymous with health.",
+        "The Wastyk high-fibre arm did not increase microbial diversity.",
+        "ADHD observational evidence does not establish causality or dietary modifiability."
+      ],
+      "findings": [
+        "BRS5-FM2-PM4 presents increased alpha diversity as an inherently desirable effect.",
+        "Higher alpha diversity is not universally synonymous with health.",
+        "The Wastyk high-fibre arm did not increase microbial diversity.",
+        "ADHD observational evidence does not establish causality or dietary modifiability."
+      ],
+      "required_action": "Qualify alpha-diversity language on BRS5-FM2-PM4 (mission/effects/evidence) so diversity is not a universal health target, and stop reading ADHD observational diversity differences as dietary modifiability.",
+      "status": "open",
+      "correction_status": "pending",
+      "review_method": "expert",
+      "public_reviewer": "Framework editorial review",
+      "reviewed_date": "2026-09-14",
+      "affected_section": "Mission, primary effects, and §5.1",
+      "public_description": "Higher alpha diversity is presented as an inherently desirable effect.",
+      "public_decision": "Diversity language still needs qualification.",
+      "decision": "Keep as an accepted open correction until diversity is no longer treated as a universal health target.",
+      "rationale": "The public findings are accepted; the page text has not been verified as corrected.",
+      "priority": "high",
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS5-FM2-PM4"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection"
+      },
+      "affected": "BRS5-FM2-PM4 (mission, primary effects, phenome rationale, §5.1)"
+    },
+    {
+      "id": "FW004",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "Tyrosine is not an indispensable amino-acid Dietary Requirement",
+      "visibility": "public",
+      "public_title": "Tyrosine is not an indispensable dietary requirement",
+      "public_description": "Tyrosine stays in the cofactor and substrate inventory. It is not an indispensable amino-acid requirement.",
+      "public_decision": "Keep tyrosine in §4.1.2 only.",
+      "public_findings": [
+        "Tyrosine stays in the cofactor and substrate inventory. It is not an indispensable amino-acid requirement."
+      ],
+      "public_evidence": [
+        "Matthews 2007",
+        "Aquili 2020"
+      ],
+      "findings": [
+        "Tyrosine is normally formed from phenylalanine and is not an IAA.",
+        "Matthews 2007 supports conditional indispensability only when phenylalanine is limited."
+      ],
+      "decision": "Demote tyrosine from Direct Dietary Requirement to §4.1.2 substrate inventory.",
+      "rationale": "An IAA listing would misclassify a dispensable catecholamine precursor.",
+      "required_action": "Do not restore tyrosine to §4.1.1.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "reviewed_date": "2026-09-29",
+      "affected_section": "§4.1.2 Cofactors and Substrates",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-29",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+            "includes": [
+              "<strong>3.1.2 Cofactors and Substrates</strong>",
+              "- Tyrosine"
+            ],
+            "excludes": [
+              "indispensable amino acid this PM"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM1"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "4.1.2"
+      },
+      "affected": "BRS1-FM1-PM1 §4.1.2"
+    },
+    {
+      "id": "FW005",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "Same-meal complementary pairing is not a Dietary Requirement",
+      "visibility": "public",
+      "public_title": "Same-meal protein pairing is not required",
+      "public_description": "Complementary plant-protein pairing at each meal is not a dietary requirement of this mechanism.",
+      "public_decision": "Do not list same-meal pairing in §4.1.1.",
+      "public_findings": [
+        "Complementary plant-protein pairing at each meal is not a dietary requirement of this mechanism."
+      ],
+      "public_evidence": [
+        "Marsh 2013",
+        "Mariotti 2019"
+      ],
+      "findings": [
+        "Marsh 2013 and Mariotti 2019 support variety across the diet, not a same-meal pairing rule."
+      ],
+      "decision": "Do not admit complementary plant-protein pairing as a Dietary Requirement.",
+      "rationale": "The cited vegetarian and DIAAS literature does not establish a same-meal completeness requirement.",
+      "required_action": "Do not restore pairing copy to §4.1.1.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "reviewed_date": "2026-09-29",
+      "affected_section": "§4.1.1 Direct and/or Derived Dietary Requirements",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-29",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+            "excludes": [
+              "Complementary plant-protein pairing"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM1"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "4.1.1"
+      },
+      "affected": "BRS1-FM1-PM1 §4.1.1"
+    },
+    {
+      "id": "FW006",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "Tryptophan is not reprinted as a cofactor",
+      "visibility": "public",
+      "public_title": "Tryptophan is not repeated as a cofactor",
+      "public_description": "Tryptophan is already a direct substrate and is not repeated in the cofactor and substrate list.",
+      "public_decision": "Keep tryptophan in §4.1.1 only.",
+      "public_findings": [
+        "Tryptophan is already a direct substrate and is not repeated in the cofactor and substrate list."
+      ],
+      "public_evidence": [
+        "Mariotti 2019",
+        "Aquili 2020"
+      ],
+      "findings": [
+        "Same-role reprint of the Direct tryptophan substrate into §4.1.2 is a true duplicate."
+      ],
+      "decision": "Do not list tryptophan in §4.1.2.",
+      "rationale": "A cofactor or substrate that plays the same role as a Dietary Requirement is not reprinted.",
+      "required_action": "Do not restore tryptophan to §4.1.2.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "reviewed_date": "2026-09-29",
+      "affected_section": "§4.1.2 Cofactors and Substrates",
+      "priority": "medium",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-29",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+            "includes": [
+              "<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>",
+              "- Tryptophan"
+            ],
+            "between": [
+              "<strong>3.1.2 Cofactors and Substrates</strong>",
+              "<strong>3.1.3 Key Constraints</strong>"
+            ],
+            "range_includes": [
+              "- Tyrosine"
+            ],
+            "range_excludes": [
+              "Tryptophan"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM1"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "4.1.2"
+      },
+      "affected": "BRS1-FM1-PM1 §4.1.2"
+    },
+    {
+      "id": "FW007",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM1 empty-mapping lock superseded by completed Type D quality mapping",
+      "visibility": "internal",
+      "public_title": "Key Constraint mapping was later completed",
+      "public_description": "An earlier empty-mapping correction was replaced by the completed Type D quality-arm mapping.",
+      "public_decision": "See FW008.",
+      "public_findings": [
+        "The earlier empty-mapping lock is not a permanent scientific requirement."
+      ],
+      "findings": [
+        "FW007 originally locked an empty §3.1.3 mapping.",
+        "Completed Type D quality-arm mapping is recorded in FW008."
+      ],
+      "decision": "Do not treat the prior empty mapping as a permanent requirement.",
+      "rationale": "Unassessed and candidate status did not complete the Type D assessment.",
+      "required_action": "Use FW008 for the current Type D result.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "reviewed_date": "2026-09-29",
+      "affected_section": "§4.1.3 Key Constraints",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-29",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+            "includes": [
+              "brs-kc-title-link",
+              "circulating amino-acid pool"
+            ],
+            "excludes": [
+              "Amino-acid quality of the shared precursor pool"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM1"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "4.1.3"
+      },
+      "affected": "BRS1-FM1-PM1 §4.1.3"
+    },
+    {
+      "id": "FW008",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM1 Type D: quality arm published; competitive arm does not apply",
+      "visibility": "public",
+      "public_title": "This mechanism keeps the circulating amino-acid pool available",
+      "public_description": "Meals have to supply the indispensable amino acids this mechanism keeps available. That is about the circulating pool, not competition for entry into the brain.",
+      "public_decision": "Publish the Key Constraint title for the quality arm only.",
+      "public_findings": [
+        "This mechanism governs the circulating indispensable-amino-acid pool.",
+        "Brain-entry competition is a different process."
+      ],
+      "public_evidence": [
+        "Mariotti 2019",
+        "Moughan 2024",
+        "Fernstrom 2013"
+      ],
+      "findings": [
+        "Quality arm established / governs.",
+        "Competitive arm evidence-supported-non-application for circulating-pool capacity.",
+        "Overlap with §3.1.1 inputs is not a rejection criterion."
+      ],
+      "decision": "Publish the KC title and a plain-language pool sentence. Do not inherit KC food lists.",
+      "rationale": "Type D governs mode is met for the named quality pool. LAT1 competition is not this mechanism’s governed capacity.",
+      "required_action": "Keep the published quality mapping unless later evidence changes Type D.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "reviewed_date": "2026-09-29",
+      "affected_section": "§3.1.3 Key Constraints",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-30",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+            "includes": [
+              "brs-kc-title-link",
+              "applicability_mode: governs",
+              "circulating amino-acid pool"
+            ],
+            "excludes": [
+              "not inherited as PM"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM1"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "4.1.3"
+      },
+      "affected": "BRS1-FM1-PM1 §4.1.3; KC-CC-BRS1-FM1-PM1-01"
+    },
+    {
+      "id": "FW009",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "Competitive LAT1 balance is not a PM1 relationship",
+      "visibility": "public",
+      "public_title": "Competitive transport is outside this mechanism",
+      "public_description": "Blood–brain barrier competition among large neutral amino acids is not this mechanism’s Key Constraint relationship.",
+      "public_decision": "Keep competitive balance on the transport mechanism.",
+      "public_findings": [
+        "Blood–brain barrier competition among large neutral amino acids is not this mechanism’s Key Constraint relationship."
+      ],
+      "public_evidence": [
+        "Fernstrom 2013"
+      ],
+      "findings": [
+        "Fernstrom 2013 and the Mechanistic Basis assign LAT1/LNAA competition to PM2."
+      ],
+      "decision": "Do not treat competitive LAT1 balance as a PM1 Key Constraint relationship.",
+      "rationale": "KC1’s competitive-balance arm is distinct from amino-acid quality and is owned by PM2.",
+      "required_action": "Do not add LAT1 competitive-balance copy to PM1 §4.1.3.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "reviewed_date": "2026-09-29",
+      "affected_section": "§5 Mechanistic Basis / §4.1.3",
+      "priority": "medium",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-29",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+            "includes": [
+              "Competitive transport of amino acids across the blood–brain barrier",
+              "BRS1-FM1-PM2"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM1"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "5"
+      },
+      "affected": "BRS1-FM1-PM1 mechanistic boundary"
+    },
+    {
+      "id": "FW010",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "Meal carbohydrate-to-protein composition is a Direct state-regulation Dietary Requirement",
+      "visibility": "public",
+      "public_title": "Meal carbohydrate-to-protein composition is a dietary target",
+      "public_description": "Ordinary meals that change the carbohydrate-to-protein ratio shift plasma tryptophan and tyrosine ratios at LAT1.",
+      "public_decision": "List meal carbohydrate-to-protein composition in §3.1.1.",
+      "public_findings": [
+        "Ordinary meals that change the carbohydrate-to-protein ratio shift plasma tryptophan and tyrosine ratios at LAT1."
+      ],
+      "public_evidence": [
+        "Ashley 1985",
+        "Wurtman 2003",
+        "Fernstrom 2013"
+      ],
+      "findings": [
+        "Type B state-regulation is established at the plasma LNAA-ratio level.",
+        "The relationship is not a requirement to eat more tyrosine or tryptophan."
+      ],
+      "decision": "Admit PM2-DIT-3 as Direct state-regulation with claim ceiling modulation-demonstrated.",
+      "rationale": "The amended Dietary Requirements contract admits evidence-supported regulation of the PM-governed state.",
+      "required_action": "Keep the meal-composition atom in §3.1.1. Do not move it to SOP.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "reviewed_date": "2026-09-29",
+      "affected_section": "§3.1.1 Direct and/or Derived Dietary Requirements",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-29",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+            "includes": [
+              "<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>",
+              "- Meal carbohydrate-to-protein composition",
+              "relationship_mode: state-regulation"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM2"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1.1"
+      },
+      "affected": "BRS1-FM1-PM2 §3.1.1"
+    },
+    {
+      "id": "FW011",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "Tyrosine and tryptophan remain cargo substrates, not intake requirements",
+      "visibility": "public",
+      "public_title": "Tyrosine and tryptophan are not eat-more targets",
+      "public_description": "Tyrosine and tryptophan stay in the cargo-substrate inventory. They are not listed as intake-increase Dietary Requirements.",
+      "public_decision": "Keep tyrosine and tryptophan in §3.1.2 only.",
+      "public_findings": [
+        "Tyrosine and tryptophan stay in the cargo-substrate inventory. They are not listed as intake-increase Dietary Requirements."
+      ],
+      "public_evidence": [
+        "Fernstrom 2013"
+      ],
+      "findings": [
+        "Same-role reprint into §3.1.1 would mis-state cargo biology as a requirement to eat more of either amino acid."
+      ],
+      "decision": "Do not add tyrosine or tryptophan to §3.1.1.",
+      "rationale": "The essential dietary target of this PM is meal competitive balance, not precursor loading.",
+      "required_action": "Do not restore tyrosine or tryptophan to §3.1.1.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "reviewed_date": "2026-09-29",
+      "affected_section": "§3.1.2 Cofactors and Substrates",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-29",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+            "between": [
+              "<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>",
+              "<strong>3.1.2 Cofactors and Substrates</strong>"
+            ],
+            "range_includes": [
+              "- Meal carbohydrate-to-protein composition"
+            ],
+            "range_excludes": [
+              "- Tyrosine",
+              "- Tryptophan"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM2"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1.2"
+      },
+      "affected": "BRS1-FM1-PM2 §3.1.2"
+    },
+    {
+      "id": "FW012",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "KC1 competitive-balance arm maps to this PM",
+      "visibility": "public",
+      "public_title": "Competitive balance is the Key Constraint relationship",
+      "public_description": "This mechanism maps to the competitive-balance arm of the shared amino-acid constraint.",
+      "public_decision": "Publish the Key Constraint title with competitive-balance relevance only.",
+      "public_findings": [
+        "This mechanism maps to the competitive-balance arm of the shared amino-acid constraint."
+      ],
+      "public_evidence": [
+        "Fernstrom 2013",
+        "Ashley 1985",
+        "Wurtman 2003"
+      ],
+      "findings": [
+        "Public mapping is title plus relevance. Constituent and food-source lists are not inherited."
+      ],
+      "decision": "Keep BRS1-FM1-PM2-KCR-1 without constituent_relationships.",
+      "rationale": "The KC page assigns LAT1 competitive regulation to this PM and quality to the shared precursor pool.",
+      "required_action": "Do not copy KC1 food-source or quality-arm lists onto this PM.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "reviewed_date": "2026-09-29",
+      "affected_section": "§3.1.3 Key Constraints",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-29",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+            "includes": [
+              "brs-kc-title-link",
+              "Large neutral amino acids share one route into the brain."
+            ],
+            "excludes": [
+              "← eggs",
+              "Complete essential amino-acid supply"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM2"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1.3"
+      },
+      "affected": "BRS1-FM1-PM2 §3.1.3"
+    },
+    {
+      "id": "FW013",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "Iron, PLP and vitamin B6 are capacity Dietary Requirements",
+      "visibility": "public",
+      "public_title": "Iron, PLP and vitamin B6 remain synthesis-capacity requirements",
+      "public_description": "Iron and PLP are Direct cofactor requirements for dopamine synthesis capacity. Vitamin B6 is the Derived dietary route to PLP.",
+      "public_decision": "Keep these three items in §3.1.1. Do not treat them as intake-responsive dopamine levers.",
+      "public_findings": [
+        "Iron and PLP are Direct cofactor requirements for dopamine synthesis capacity. Vitamin B6 is the Derived dietary route to PLP."
+      ],
+      "public_evidence": [
+        "Erikson 2000",
+        "Beard 2003",
+        "Kennedy 2016",
+        "Spector 1978"
+      ],
+      "findings": [
+        "The amended contract classifies these as capacity-requirement, not state-regulation.",
+        "Addressability remains not-established for iron and PLP."
+      ],
+      "decision": "Set relationship_mode capacity-requirement on PM3-DIT-1, PM3-DIT-2 and PM3-DIT-3.",
+      "rationale": "These inputs enable synthesis capacity. They do not demonstrate regulation of dopamine signalling by ordinary diet.",
+      "required_action": "Do not relabel these atoms as state-regulation.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "reviewed_date": "2026-09-29",
+      "affected_section": "§3.1.1 Direct and/or Derived Dietary Requirements",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-29",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+            "includes": [
+              "relationship_mode: capacity-requirement",
+              "- Iron",
+              "- Pyridoxal-5′-phosphate (PLP)",
+              "- Vitamin B6"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM3"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1.1"
+      },
+      "affected": "BRS1-FM1-PM3 §3.1.1"
+    },
+    {
+      "id": "FW014",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "Iron and PLP are not reprinted as inventory cofactors",
+      "visibility": "public",
+      "public_title": "Iron and PLP are not repeated as inventory items",
+      "public_description": "Iron and PLP stay as Direct cofactor requirements. They are not repeated in the cofactor inventory.",
+      "public_decision": "Keep only tetrahydrobiopterin in §3.1.2.",
+      "public_findings": [
+        "Iron and PLP stay as Direct cofactor requirements. They are not repeated in the cofactor inventory."
+      ],
+      "public_evidence": [
+        "Fanet 2021"
+      ],
+      "findings": [
+        "Same input, type and role in §3.1.1 and §3.1.2 is a true duplicate."
+      ],
+      "decision": "Remove Iron and PLP presentations from §3.1.2.",
+      "rationale": "The contract forbids reprinting the same cofactor role once it is a Direct Dietary Requirement.",
+      "required_action": "Do not restore Iron or PLP bullets to §3.1.2.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "reviewed_date": "2026-09-29",
+      "affected_section": "§3.1.2 Cofactors and Substrates",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-29",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+            "between": [
+              "<strong>3.1.2 Cofactors and Substrates</strong>",
+              "<strong>3.1.3 Key Constraints</strong>"
+            ],
+            "range_includes": [
+              "- Tetrahydrobiopterin (BH4)"
+            ],
+            "range_excludes": [
+              "- Iron",
+              "- Pyridoxal-5′-phosphate (PLP)"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM3"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1.2"
+      },
+      "affected": "BRS1-FM1-PM3 §3.1.2"
+    },
+    {
+      "id": "FW015",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "No Key Constraint mapping is published on PM3",
+      "visibility": "public",
+      "public_title": "No Key Constraint mapping is established",
+      "public_description": "This page does not publish a Key Constraint mapping. Amino-acid quality and LAT1 competition belong on the upstream mechanisms.",
+      "public_decision": "Use the empty mapping state in §3.1.3.",
+      "public_findings": [
+        "This page does not publish a Key Constraint mapping. Amino-acid quality and LAT1 competition belong on the upstream mechanisms."
+      ],
+      "findings": [
+        "Public §3.1.3 is No mapping established.",
+        "Dietary-protocol SOP records failed the type-B high-bar as Dietary Requirements."
+      ],
+      "decision": "Do not publish a KC title or constituent list on this PM.",
+      "rationale": "KC1 quality and competitive-balance arms are not this PM’s relationships.",
+      "required_action": "Keep public §3.1.3 as No mapping established.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "reviewed_date": "2026-09-29",
+      "affected_section": "§3.1.3 Key Constraints",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-29",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+            "includes": [
+              "No mapping established."
+            ],
+            "excludes": [
+              "brs-kc-title-link",
+              "No PM-specific Key Constraint membership"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM3"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1.3"
+      },
+      "affected": "BRS1-FM1-PM3 §3.1.3"
+    },
+    {
+      "id": "FW016",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "Tyrosine is a local synthesis substrate, not an upstream-only item",
+      "visibility": "public",
+      "public_title": "Tyrosine is a required synthesis substrate on this page",
+      "public_description": "Earlier review treated tyrosine as belonging only to precursor-pool and transport pages. Those pages assess supply and LAT1 competition. This page converts tyrosine to L-DOPA.",
+      "public_decision": "List tyrosine in §3.1.1 as a Direct substrate requirement. Keep the supply assessment on the amino-acid availability page and competitive transport on the LAT1 page.",
+      "public_findings": [
+        "Earlier review treated tyrosine as belonging only to precursor-pool and transport pages. Those pages assess supply and LAT1 competition. This page converts tyrosine to L-DOPA."
+      ],
+      "public_evidence": [
+        "Fanet 2021"
+      ],
+      "findings": [
+        "Stage 2A/2B conflated upstream ownership with the local hydroxylase substrate.",
+        "Meal LNAA composition remains the LAT1 page’s relationship, not this page’s Dietary Requirement.",
+        "Claim ceiling remains biological-dependency. Local listing does not create a second independent nutritional need."
+      ],
+      "decision": "Admit PM3-DIT-5 as Direct substrate capacity-requirement at biological-dependency. Do not copy PM1’s pool assessment or PM2’s meal-composition atom.",
+      "rationale": "A related-PM link does not state or substantiate the local reaction-level claim. Cofactors were already admitted on biological-dependency evidence; a necessary substrate is admitted on the same ceiling.",
+      "required_action": "Keep tyrosine in §3.1.1. Do not treat the correction as expert or source-complete review.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2B correction",
+      "reviewed_date": "2026-09-30",
+      "affected_section": "§3.1.1 Direct and/or Derived Dietary Requirements",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-30",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+            "includes": [
+              "atom_id: PM3-DIT-5",
+              "input: Tyrosine",
+              "Tyrosine is the substrate for conversion to L-DOPA in dopamine synthesis"
+            ],
+            "between": [
+              "<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>",
+              "<strong>3.1.2 Cofactors and Substrates</strong>"
+            ],
+            "range_includes": [
+              "- Tyrosine"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM3"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1.1"
+      },
+      "affected": "BRS1-FM1-PM3 §3.1.1"
+    },
+    {
+      "id": "FW017",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM3 mission-coverage dietary candidates beyond synthesis remain unresolved",
+      "visibility": "public",
+      "public_title": "Later review of storage, release, receptor, reuptake and metabolism dietary candidates",
+      "public_description": "Dopaminergic regulation includes synthesis, storage, release, receptor signalling, reuptake and metabolism. Current Dietary Requirements mainly address synthesis. Whether other stages have specific dietary dependencies still needs assessment.",
+      "public_decision": "Deferred — evidence assessment pending. These routes are unresolved, not rejected, and are not admitted as Dietary Requirements.",
+      "public_findings": [
+        "Current Dietary Requirements mainly address dopamine synthesis.",
+        "MAO (FAD / riboflavin), COMT (SAM / magnesium, including BRS2 connections), and any storage, release, receptor or reuptake dietary dependencies remain to be assessed.",
+        "Identification of these candidates does not admit them as Dietary Requirements."
+      ],
+      "public_evidence": [],
+      "findings": [
+        "Mission covers synthesis, storage, release, receptor signalling, reuptake and metabolism; admitted DRs are synthesis-focused.",
+        "MAO FAD/riboflavin and COMT SAM/magnesium (BRS2) were not established as dietary routes in the existing corpus.",
+        "Record as unresolved, not as evidence-supported rejections. Do not admit on identification alone.",
+        "Parked as CC-BRS1-FM1-PM3-01 in system/mechanism-change-control-queue.md."
+      ],
+      "decision": "Defer mission-coverage assessment beyond synthesis. Keep public dietary entries unchanged in this pass.",
+      "rationale": "The existing corpus did not establish these dietary routes. Targeted retrieval is required when the item is resumed. Preserve tyrosine, BH4, relationship descriptions and audience improvements.",
+      "required_action": "Resume with targeted source retrieval. For each candidate distinguish biochemical necessity, dietary provision, demonstrated dietary modulation and functional or clinical benefit, and whether the relationship belongs on PM3 or as an explained connection to another mechanism.",
+      "status": "deferred",
+      "correction_status": "pending",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2B deferral",
+      "reviewed_date": "2026-09-30",
+      "affected_section": "§3.1 Dietary Requirements — mission coverage beyond synthesis",
+      "priority": "medium",
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM3"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1"
+      },
+      "affected": "BRS1-FM1-PM3 mission coverage beyond synthesis"
+    },
+    {
+      "id": "FW018",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM4 dopamine β-hydroxylase copper and ascorbate assessed and admitted at biological-dependency",
+      "visibility": "public",
+      "public_title": "Copper and vitamin C are required for converting dopamine to noradrenaline",
+      "public_description": "Dopamine β-hydroxylase converts dopamine to noradrenaline and needs copper and vitamin C (ascorbate). That is a biological requirement. Extra copper or vitamin C has not been shown to raise brain noradrenaline or improve attention when status is already adequate.",
+      "public_decision": "List copper and vitamin C as Direct cofactor requirements. This does not establish a noradrenaline dose or an attention treatment.",
+      "public_findings": [
+        "Dopamine β-hydroxylase converts dopamine to noradrenaline and requires copper and ascorbate.",
+        "Genetic copper-trafficking disease and high-dose intravenous vitamin C in septic shock are not ordinary-diet evidence.",
+        "Page-level dietary addressability remains unestablished."
+      ],
+      "public_evidence": [
+        "Goldstein and Eisenhofer 2026",
+        "Vendelboe 2016"
+      ],
+      "findings": [
+        "Focused Stage 2A follow-up authored PM4-F4 during the Stage 2B rerun.",
+        "Copper admitted as PM4-DIT-4; vitamin C (ascorbate) as PM4-DIT-5; both Direct capacity-requirements at biological-dependency.",
+        "Ordinary-diet modulation and functional benefit remain not established."
+      ],
+      "decision": "Admit copper and vitamin C as Direct Dietary Requirements at biological-dependency. Do not treat as noradrenaline levers.",
+      "rationale": "Biochemical necessity is supported. Dietary provision as a controllable lever, demonstrated modulation and clinical benefit are separate unsupported claims.",
+      "required_action": "Keep the two atoms in §3.1.1. Do not treat the correction as expert or source-complete review.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "reviewed_date": "2026-09-30",
+      "affected_section": "§3.1.1 Direct and/or Derived Dietary Requirements",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-30",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
+            "includes": [
+              "atom_id: PM4-DIT-4",
+              "input: Copper",
+              "atom_id: PM4-DIT-5",
+              "id: PM4-F4"
+            ],
+            "between": [
+              "<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>",
+              "<strong>3.1.2 Cofactors and Substrates</strong>"
+            ],
+            "range_includes": [
+              "- Copper",
+              "- Vitamin C (ascorbate)"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM4"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1.1"
+      },
+      "affected": "BRS1-FM1-PM4 §3.1.1 copper and vitamin C"
+    },
+    {
+      "id": "FW019",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM4 §3.1.3 KC1 arms assessed; no PM↔iKC mapping established",
+      "visibility": "public",
+      "public_title": "No Key Constraint mapping is established",
+      "public_description": "Amino-acid quality and LAT1 competition affect how tyrosine reaches this pathway, but they are assessed on the supply and transport mechanisms. This page does not publish a Key Constraint mapping.",
+      "public_decision": "Use the empty mapping state in §3.1.3.",
+      "public_findings": [
+        "Amino-acid quality and precursor availability are assessed on the amino-acid supply mechanism.",
+        "Competitive balance at LAT1 is assessed on the transport mechanism.",
+        "Neither arm is published as a Key Constraint mapping on this page."
+      ],
+      "public_evidence": [
+        "Fernstrom 2013"
+      ],
+      "findings": [
+        "Quality arm: PM4-F2 treats tyrosine as pathway starting material; circulating pool quality is explained through PM1. No FAO/DIAAS or Mariotti-type protein-quality evidence is a PM4 constraint relationship.",
+        "Competitive arm: PM4-IC1 and Fernstrom 2013 locate LAT1 LNAA competition on PM2. Transport bias is an upstream presentation step, not noradrenergic signalling.",
+        "Prior public copy used Dietary Requirement inheritance language as if that were the KC decision. Requirement admission and KC mapping are separate assessments.",
+        "Public §3.1.3 is No mapping established. key_constraints and pm_kc_relationships are absent.",
+        "Supported PM1 and PM2 explanations remain in §5.3."
+      ],
+      "decision": "Do not publish a KC title or constituent list on this PM. Do not treat upstream biological relevance as membership.",
+      "rationale": "Each KC1 arm was tested for a qualifying PM4 constraint relationship. Both are upstream dependencies explained through PM1 or PM2. Upstream ownership neither automatically excludes membership nor establishes it; on this evidence neither arm qualifies.",
+      "required_action": "Keep public §3.1.3 as No mapping established. Keep §5.3 PM1/PM2 explanations. Do not reopen a PM4 quality-arm candidate; that residual sits on PM1 (KC-CC-BRS1-FM1-PM1-01).",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "reviewed_date": "2026-09-30",
+      "affected_section": "§3.1.3 Key Constraints",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-30",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
+            "includes": [
+              "No mapping established."
+            ],
+            "excludes": [
+              "brs-kc-title-link",
+              "not inherited as Dietary Requirements",
+              "key_constraints:"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM4"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1.3"
+      },
+      "affected": "BRS1-FM1-PM4 §3.1.3; KC1 two-arm membership"
+    },
+    {
+      "id": "FW020",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM5 Scientific Findings authored including tryptophan hydroxylase",
+      "visibility": "public",
+      "public_title": "Serotonin is made from tryptophan in two enzyme steps",
+      "public_description": "Tryptophan hydroxylase converts tryptophan to 5-hydroxytryptophan and needs iron and tetrahydrobiopterin. A second enzyme then uses vitamin B6 (as PLP) to make serotonin. That is biological chemistry, not a mood or ADHD treatment.",
+      "public_decision": "Keep synthesis chemistry separate from dietary dosing and from meal-level amino-acid transport.",
+      "public_findings": [
+        "Serotonin helps set mood stability, inhibition and behavioural regulation.",
+        "The first synthesis step needs iron and tetrahydrobiopterin; the second needs PLP.",
+        "Competitive amino-acid transport is an earlier step, not serotonin signalling."
+      ],
+      "public_evidence": [
+        "Fitzpatrick 1999",
+        "Walther 2003",
+        "Fanet 2021",
+        "Berger 2009",
+        "Shaw 2014"
+      ],
+      "findings": [
+        "Stage 2A authored PM5-F1, PM5-F2, PM5-F4, PM5-F3 and PM5-IC1.",
+        "The omitted tryptophan-hydroxylase step was assessed by targeted retrieval.",
+        "Saffron trials and inflammation connectivity were kept as wrong-construct connected evidence."
+      ],
+      "decision": "Publish Scientific Findings. Do not treat schema validation as scientific completion.",
+      "rationale": "Mission and Overview require synthesis and signalling. The inherited corpus did not establish TPH chemistry.",
+      "required_action": "Keep the Findings. Dietary admission is a separate Stage 2B decision.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2A review",
+      "reviewed_date": "2026-09-30",
+      "affected_section": "§4.1 Scientific Findings",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-30",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+            "includes": [
+              "id: PM5-F1",
+              "id: PM5-F2",
+              "id: PM5-F4",
+              "id: PM5-IC1"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM5"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "4.1"
+      },
+      "affected": "BRS1-FM1-PM5 Scientific Findings"
+    },
+    {
+      "id": "FW021",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM5 Dietary Requirements reclassified after TPH assessment",
+      "visibility": "public",
+      "public_title": "Tryptophan, iron and vitamin B6 are synthesis requirements, not serotonin doses",
+      "public_description": "Tryptophan is the starting material. Iron and PLP are cofactors. Vitamin B6 is the dietary route to PLP. Tetrahydrobiopterin is made in the body. Extra intake has not been shown to raise brain serotonin or improve mood when status is already adequate.",
+      "public_decision": "List tryptophan, iron, PLP and vitamin B6 as Dietary Requirements. Keep tetrahydrobiopterin as an endogenous cofactor. Do not list dietary protein on this mechanism.",
+      "public_findings": [
+        "Tryptophan is required as the serotonin starting material.",
+        "Iron and PLP are required enzyme helpers.",
+        "Dietary protein is not a separate serotonin requirement beyond the amino-acid supply mechanism."
+      ],
+      "public_evidence": [
+        "Fitzpatrick 1999",
+        "Kennedy 2016"
+      ],
+      "findings": [
+        "Removed PM5-DIT-2 Dietary protein.",
+        "Admitted PM5-DIT-5 Iron at biological-dependency.",
+        "Placed BH4 as PM5-DIT-6 biochemical-requirement in §3.1.2.",
+        "Tryptophan kept as Direct substrate with Supply: PM1.",
+        "Same-role reprint of tryptophan and PLP in §3.1.2 was removed."
+      ],
+      "decision": "Admit synthesis-path atoms at the stated claim ceilings. Do not treat as serotonin levers.",
+      "rationale": "Biochemical necessity is supported. Demonstrated modulation and functional benefit remain not established.",
+      "required_action": "Keep the classified atoms. Do not restore dietary protein.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "reviewed_date": "2026-09-30",
+      "affected_section": "§3.1.1 Direct and/or Derived Dietary Requirements",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-30",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+            "includes": [
+              "atom_id: PM5-DIT-5",
+              "atom_id: PM5-DIT-6",
+              "atom_id: PM5-DIT-1"
+            ],
+            "excludes": [
+              "atom_id: PM5-DIT-2"
+            ],
+            "between": [
+              "<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>",
+              "<strong>3.1.2 Cofactors and Substrates</strong>"
+            ],
+            "range_includes": [
+              "- Tryptophan",
+              "- Iron"
+            ],
+            "range_excludes": [
+              "- Dietary protein"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM5"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1.1"
+      },
+      "affected": "BRS1-FM1-PM5 §3.1 Dietary Requirements"
+    },
+    {
+      "id": "FW022",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM5 §3.1.3 KC1 arms assessed; superseded empty-mapping lock",
+      "visibility": "internal",
+      "public_title": "Key Constraint mapping was later completed",
+      "public_description": "An earlier empty-mapping correction was replaced by the completed Type D assessment.",
+      "public_decision": "See FW034.",
+      "public_findings": [
+        "The earlier empty-mapping lock is not a permanent scientific requirement."
+      ],
+      "public_evidence": [
+        "Fernstrom 2013"
+      ],
+      "findings": [
+        "FW022 originally locked an empty §3.1.3 mapping.",
+        "Completed Type D assessment is recorded in FW034."
+      ],
+      "decision": "Do not treat the prior empty mapping as a permanent requirement.",
+      "rationale": "Unassessed corrected a prior disposition; it did not complete reassessment.",
+      "required_action": "Use FW034 for the current Type D result.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "reviewed_date": "2026-09-30",
+      "affected_section": "§3.1.3 Key Constraints",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-30",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+            "includes": [
+              "brs-kc-title-link",
+              "applicability_mode: constrained-by"
+            ],
+            "excludes": [
+              "not inherited as PM5 Dietary Requirements"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM5"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1.3"
+      },
+      "affected": "BRS1-FM1-PM5 §3.1.3; KC1 two-arm membership"
+    },
+    {
+      "id": "FW023",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM5 later-stage dietary candidates deferred",
+      "visibility": "public",
+      "public_title": "Later serotonin-handling steps are not yet assessed as diet",
+      "public_description": "How serotonin is stored, released, taken back up and broken down is part of the signalling story. Whether those later steps have their own ordinary-diet requirements has not been finished.",
+      "public_decision": "Do not add dietary entries for those later steps until they are assessed.",
+      "public_findings": [
+        "Synthesis-path requirements are listed.",
+        "Reuptake and breakdown have not been classified as Dietary Requirements."
+      ],
+      "findings": [
+        "Parked MAO, SERT and related later-stage dietary candidates as unresolved, not rejected.",
+        "Recorded as CC-BRS1-FM1-PM5-01."
+      ],
+      "decision": "Defer later-stage dietary assessment. Do not treat missing assessment as a negative finding.",
+      "rationale": "PM5-F4 establishes signalling stages at review level. Dietary routes for those stages were not adjudicated.",
+      "required_action": "Keep the deferred register item. Do not change public synthesis-path Dietary Requirements.",
+      "status": "deferred",
+      "correction_status": "pending",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2B deferral",
+      "reviewed_date": "2026-09-30",
+      "affected_section": "§3.1 Dietary Requirements — later stages beyond synthesis",
+      "priority": "medium",
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM5"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1"
+      },
+      "affected": "BRS1-FM1-PM5 later-stage dietary candidates"
+    },
+    {
+      "id": "FW024",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM3 KC1 Type D assessment completed; no published mapping",
+      "visibility": "public",
+      "public_title": "No Key Constraint mapping is established",
+      "public_description": "Assessment of the shared amino-acid quality and LAT1-balance states is complete. Ordinary protein-driven LAT1 imbalance is not shown to constrain dopamine formation, and protein-quality scores do not decide dopaminergic capacity.",
+      "public_decision": "Keep the empty mapping state in §3.1.3.",
+      "public_findings": [
+        "Tyrosine is required to make dopamine.",
+        "Ordinary protein-driven LAT1 change has minimal catecholamine effects.",
+        "Protein-quality scores do not decide dopamine capacity."
+      ],
+      "public_evidence": [
+        "Fanet 2021",
+        "Fernstrom 2013",
+        "FAO 2013",
+        "Mariotti 2019"
+      ],
+      "findings": [
+        "Quality arm: unresolved after DIAAS/Mariotti review.",
+        "Competitive arm: evidence-supported-non-application for ordinary meal LNAA balance.",
+        "Dietary Requirements and Findings were not reopened."
+      ],
+      "decision": "Do not publish a KC title. Do not treat unresolved as a negative finding.",
+      "rationale": "Completed Type D assessment; empty public mapping follows the dispositions, not an unassessed lock.",
+      "required_action": "Keep public §3.1.3 as No mapping established. unless a later pass meets Type D.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Type D KC reassessment",
+      "reviewed_date": "2026-09-30",
+      "affected_section": "§3.1.3 Key Constraints",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-30",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+            "includes": [
+              "No mapping established.",
+              "arm_id: amino-acid-quality",
+              "disposition: unresolved"
+            ],
+            "excludes": [
+              "brs-kc-title-link",
+              "key_constraints:"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM3"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1.3"
+      },
+      "affected": "BRS1-FM1-PM3 §3.1.3 Type D reassessment"
+    },
+    {
+      "id": "FW025",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM4 KC1 Type D assessment completed; no published mapping",
+      "visibility": "public",
+      "public_title": "No Key Constraint mapping is established",
+      "public_description": "Assessment of the shared amino-acid quality and LAT1-balance states is complete. Ordinary protein-driven LAT1 imbalance is not shown to constrain noradrenaline formation, and protein-quality scores do not decide noradrenergic capacity.",
+      "public_decision": "Keep the empty mapping state in §3.1.3.",
+      "public_findings": [
+        "Tyrosine is the starting material for noradrenaline.",
+        "Ordinary protein-driven LAT1 change has minimal catecholamine effects.",
+        "Protein-quality scores do not decide noradrenaline capacity."
+      ],
+      "public_evidence": [
+        "Fernstrom 2013",
+        "FAO 2013",
+        "Mariotti 2019"
+      ],
+      "findings": [
+        "Quality arm: unresolved after DIAAS/Mariotti review.",
+        "Competitive arm: evidence-supported-non-application for ordinary meal LNAA balance.",
+        "Findings and Dietary Requirements were preserved."
+      ],
+      "decision": "Keep public §3.1.3 as No mapping established.",
+      "rationale": "Completed Type D assessment; empty public mapping follows the dispositions, not an unassessed lock.",
+      "required_action": "Keep the empty mapping unless a later pass meets Type D.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Type D KC reassessment",
+      "reviewed_date": "2026-09-30",
+      "affected_section": "§3.1.3 Key Constraints",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-30",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
+            "includes": [
+              "No mapping established.",
+              "disposition: unresolved"
+            ],
+            "excludes": [
+              "brs-kc-title-link",
+              "key_constraints:"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM4"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1.3"
+      },
+      "affected": "BRS1-FM1-PM4 §3.1.3 Type D reassessment"
+    },
+    {
+      "id": "FW026",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM5 KC1 Type D assessment completed; LAT1 imbalance maps as constrained-by",
+      "visibility": "public",
+      "public_title": "Tryptophan competes with other large neutral amino acids for brain entry",
+      "public_description": "Ordinary protein-driven large-neutral-amino-acid competition can change brain tryptophan uptake and serotonin synthesis. That is a formation-capacity constraint, not a mood, sleep or ADHD rule. Protein-quality scores do not decide serotonergic capacity.",
+      "public_decision": "Publish the Key Constraint title for the competitive arm only.",
+      "public_findings": [
+        "Tryptophan is the starting material for serotonin.",
+        "Ordinary protein-driven LAT1 change produces large variation in tryptophan uptake and serotonin synthesis.",
+        "Protein-quality scores do not decide serotonin capacity."
+      ],
+      "public_evidence": [
+        "Fitzpatrick 1999",
+        "Fernstrom 2013",
+        "FAO 2013",
+        "Mariotti 2019"
+      ],
+      "findings": [
+        "Quality arm: unresolved after DIAAS/Mariotti review.",
+        "Competitive arm: established / constrained-by for serotonin-formation capacity.",
+        "Findings and Dietary Requirements were preserved."
+      ],
+      "decision": "Publish the KC title and one relevance sentence. Do not inherit KC food lists.",
+      "rationale": "Fernstrom 2013 demonstrates the named competitive state can constrain a defining capacity this mechanism governs.",
+      "required_action": "Keep the published competitive mapping unless later evidence changes Type D.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Type D KC reassessment",
+      "reviewed_date": "2026-09-30",
+      "affected_section": "§3.1.3 Key Constraints",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-30",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+            "includes": [
+              "brs-kc-title-link",
+              "applicability_mode: constrained-by",
+              "availability for serotonin synthesis",
+              "disposition: unresolved"
+            ],
+            "excludes": [
+              "not inherited as Dietary Requirements"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM5"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1.3"
+      },
+      "affected": "BRS1-FM1-PM5 §3.1.3 Type D reassessment"
+    },
+    {
+      "id": "FW027",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM2 KC1 quality arm flagged for Type D retest",
+      "visibility": "public",
+      "public_title": "LAT1 competitive balance stays mapped; amino-acid quality is not yet retested",
+      "public_description": "This mechanism still maps to the shared constraint because it governs competitive amino-acid balance at LAT1. Whether amino-acid quality also constrains that transport capacity has not been retested under the updated rule.",
+      "public_decision": "Keep the competitive-balance mapping. Do not treat quality as excluded because another mechanism assesses the pool.",
+      "public_findings": [
+        "Competitive LAT1 balance is the state this mechanism governs.",
+        "Amino-acid quality has not been retested under the updated shared-constraint rule."
+      ],
+      "public_evidence": [
+        "Fernstrom 2013"
+      ],
+      "findings": [
+        "Competitive arm remains established in governs mode.",
+        "Quality arm recorded as unassessed. KC-CC-BRS1-FM1-PM2-02 pending.",
+        "Dietary Requirements were not reopened."
+      ],
+      "decision": "Flag the quality arm for the same Type D test. Do not pre-exclude it by ownership.",
+      "rationale": "The previous ‘not this PM’ quality rationale used assessment ownership, which the revised rule does not allow as a decision.",
+      "required_action": "Retest the quality arm under Type D in a later pass. Keep the competitive mapping.",
+      "status": "deferred",
+      "correction_status": "pending",
+      "review_method": "automated",
+      "public_reviewer": "Automated Type D KC flag",
+      "reviewed_date": "2026-09-30",
+      "affected_section": "§3.1.3 Key Constraints",
+      "priority": "medium",
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM2"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1.3"
+      },
+      "affected": "BRS1-FM1-PM2 KC1 quality-arm retest flag"
+    },
+    {
+      "id": "FW028",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM6 amended Stage 2A/2B: synthesis dependencies and BRS2(KC1) reassessed",
+      "visibility": "public",
+      "public_title": "Acetylcholine synthesis inputs and shared one-carbon constraint corrected",
+      "public_description": "Acetylcholine synthesis uses choline and acetyl-CoA after choline enters cholinergic nerve endings. Phosphatidylcholine can provide choline, and vitamin B5 supports the coenzyme A route to acetyl-CoA. One-carbon impairment can constrain the shared choline resource, but extra intake has not been shown here to raise human brain acetylcholine.",
+      "public_decision": "Keep choline as the Direct substrate, list phosphatidylcholine as its Derived provision route, list acetyl-CoA and its vitamin B5 precursor in the biochemical inventory, and map BRS2(KC1) without copying its nutrient or food list.",
+      "public_findings": [
+        "Choline transport and the choline-acetyl-CoA reaction are the defining synthesis steps.",
+        "Phosphatidylcholine provides choline; vitamin B5 supports acetyl-CoA provision through coenzyme A.",
+        "Animal models support a constrained relationship between one-carbon status and the brain choline-acetylcholine resource."
+      ],
+      "public_evidence": [
+        "ojiakor_choline_transporter_2020",
+        "oda_choline_1999",
+        "bockmann_choline_supplements_2023",
+        "rivera_calimlim_pantothenic_1988",
+        "chan_folate_acetylcholine_2008",
+        "crivello_folate_choline_2010",
+        "jadavji_mtrr_choline_2014",
+        "jope_choline_acetylcoa_1979",
+        "inazu_choline_transporters_2019",
+        "szutowicz_thiamine_acetylcoa_2010"
+      ],
+      "findings": [
+        "The prior rerun omitted high-affinity choline transport and did not adjudicate the acetyl-CoA/pantothenate provision chain.",
+        "The amended follow-up separates blood-brain choline delivery from terminal CHT uptake and covers compartmented cytosolic acetyl-CoA supply.",
+        "Thiamine was screened but not admitted: the available severe-deficiency study changed acetyl-CoA distribution and acetylcholine release, not ChAT activity or measured synthesis flux.",
+        "Acetyl-CoA is admitted as a biochemical substrate; phosphatidylcholine is a Derived choline-provision route and vitamin B5 is a biochemical cofactor precursor.",
+        "B12, folate and betaine remain outside the PM dietary inventory because they are not ChAT substrates or cofactors.",
+        "BRS2(KC1) is established as constrained-by through a cited mechanistic chain; its constituents and foods are not inherited."
+      ],
+      "decision": "Publish the amended Stage 2A/2B result with four traceability atoms and the evidence-bounded BRS2(KC1) mapping.",
+      "rationale": "Reaction identity, human provision evidence, preclinical depletion/rescue evidence and a multi-study one-carbon chain establish the dependencies while keeping intake-response and benefit claims unestablished.",
+      "required_action": "Preserve the choline/phosphatidylcholine Direct/Derived labels, biochemical acetyl-CoA and B5 entries, constrained-by KC mapping, and dietary-provision claim ceiling.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2A/2B review",
+      "reviewed_date": "2026-09-30",
+      "affected_section": "§3.1 Dietary Requirements",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-30",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
+            "includes": [
+              "atom_id: PM6-DIT-2",
+              "atom_id: PM6-DIT-3",
+              "atom_id: PM6-DIT-4",
+              "disposition: established",
+              "applicability_mode: constrained-by"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM2-PM6"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1"
+      },
+      "affected": "BRS1-FM2-PM6 Stage 2A/2B"
+    },
+    {
+      "id": "FW029",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM7 Stage 2A/2B: DHA admitted; BRS2(KC1) unassessed",
+      "visibility": "public",
+      "public_title": "Dietary and Key Constraint decisions recorded",
+      "public_description": "DHA is the fat incorporated into neuronal membranes. A shared one-carbon mapping is not established.",
+      "public_decision": "Keep DHA as a dietary provision relationship. Keep the empty Key Constraint state.",
+      "public_findings": [
+        "DHA is incorporated into neuronal membranes.",
+        "Phospholipid form can change delivery. One-carbon membership is not established."
+      ],
+      "public_evidence": [
+        "patrick_role_2019"
+      ],
+      "findings": [
+        "PM7 Stage 2A/2B: DHA admitted; BRS2(KC1) unassessed",
+        "Public empty Key Constraint copy is No mapping established."
+      ],
+      "decision": "Publish the Stage 2B result. Do not force a Key Constraint title.",
+      "rationale": "Type D and independent Dietary Requirement adjudication.",
+      "required_action": "Keep public §3.1.3 as No mapping established. unless a later pass meets Type D.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2A/2B review",
+      "reviewed_date": "2026-09-30",
+      "affected_section": "§3.1 Dietary Requirements",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-30",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+            "includes": [
+              "No mapping established."
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM3-PM7"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1"
+      },
+      "affected": "BRS1-FM3-PM7 Stage 2A/2B"
+    },
+    {
+      "id": "FW030",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM8 Stage 2A/2B: no dietary mapping; KC1 unassessed",
+      "visibility": "public",
+      "public_title": "Dietary and Key Constraint decisions recorded",
+      "public_description": "This page holds the match between glutamate drive and GABA restraint. No ordinary-diet requirement or Key Constraint mapping is established.",
+      "public_decision": "Keep the empty dietary and Key Constraint states.",
+      "public_findings": [
+        "Network balance is a circuit property.",
+        "Concentration imaging is not synthesis or clearance."
+      ],
+      "public_evidence": [
+        "mamiya_precision_2021"
+      ],
+      "findings": [
+        "PM8 Stage 2A/2B: no dietary mapping; KC1 unassessed",
+        "Public empty Key Constraint copy is No mapping established."
+      ],
+      "decision": "Publish the Stage 2B result. Do not force a Key Constraint title.",
+      "rationale": "Type D and independent Dietary Requirement adjudication.",
+      "required_action": "Keep public §3.1.3 as No mapping established. unless a later pass meets Type D.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2A/2B review",
+      "reviewed_date": "2026-09-30",
+      "affected_section": "§3.1 Dietary Requirements",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-30",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance.mdx",
+            "includes": [
+              "No mapping established."
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM4-PM8"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1"
+      },
+      "affected": "BRS1-FM4-PM8 Stage 2A/2B"
+    },
+    {
+      "id": "FW031",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM9 Type D: KC1 unassessed; Findings and diet preserved",
+      "visibility": "public",
+      "public_title": "Dietary and Key Constraint decisions recorded",
+      "public_description": "Glutamate is the starting material for GABA. That is not enough to publish a shared amino-acid constraint on this page.",
+      "public_decision": "Keep the empty Key Constraint state. Do not reopen Findings or Dietary Requirements.",
+      "public_findings": [
+        "Glutamate is the GABA starting material.",
+        "Delivery plus substrate necessity does not establish the shared-constraint mapping."
+      ],
+      "public_evidence": [
+        "martin_regulation_1993"
+      ],
+      "findings": [
+        "PM9 Type D: KC1 unassessed; Findings and diet preserved",
+        "Public empty Key Constraint copy is No mapping established."
+      ],
+      "decision": "Publish the Stage 2B result. Do not force a Key Constraint title.",
+      "rationale": "Type D and independent Dietary Requirement adjudication.",
+      "required_action": "Keep public §3.1.3 as No mapping established. unless a later pass meets Type D.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2A/2B review",
+      "reviewed_date": "2026-09-30",
+      "affected_section": "§3.1 Dietary Requirements",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-30",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
+            "includes": [
+              "No mapping established."
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM4-PM9"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1"
+      },
+      "affected": "BRS1-FM4-PM9 Stage 2A/2B"
+    },
+    {
+      "id": "FW032",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM10 Stage 2A/2B: no dietary mapping; KC1 unassessed",
+      "visibility": "public",
+      "public_title": "Dietary and Key Constraint decisions recorded",
+      "public_description": "This page is uptake and recycling of glutamate after signalling. No ordinary-diet requirement or Key Constraint mapping is established.",
+      "public_decision": "Keep the empty dietary and Key Constraint states.",
+      "public_findings": [
+        "Uptake and recycling end excitatory signalling.",
+        "Spectroscopy of glutamate/glutamine is not clearance flux."
+      ],
+      "public_evidence": [
+        "zhou_glutamate_2014"
+      ],
+      "findings": [
+        "PM10 Stage 2A/2B: no dietary mapping; KC1 unassessed",
+        "Public empty Key Constraint copy is No mapping established."
+      ],
+      "decision": "Publish the Stage 2B result. Do not force a Key Constraint title.",
+      "rationale": "Type D and independent Dietary Requirement adjudication.",
+      "required_action": "Keep public §3.1.3 as No mapping established. unless a later pass meets Type D.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2A/2B review",
+      "reviewed_date": "2026-09-30",
+      "affected_section": "§3.1 Dietary Requirements",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-30",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling.mdx",
+            "includes": [
+              "No mapping established."
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM4-PM10"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1"
+      },
+      "affected": "BRS1-FM4-PM10 Stage 2A/2B"
+    },
+    {
+      "id": "FW033",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM11 Stage 2A/2B: no dietary mapping; KC1 unassessed",
+      "visibility": "public",
+      "public_title": "Dietary and Key Constraint decisions recorded",
+      "public_description": "This page buffers injury-level excitatory pressure. Preclinical magnesium sulfate is not a food-magnesium requirement. No Key Constraint mapping is established.",
+      "public_decision": "Keep the empty dietary and Key Constraint states.",
+      "public_findings": [
+        "Excess glutamate-receptor stimulation can injure energy handling in a preclinical model.",
+        "That model is not ordinary dietary magnesium."
+      ],
+      "public_evidence": [
+        "clerc_magnesium_2013"
+      ],
+      "findings": [
+        "PM11 Stage 2A/2B: no dietary mapping; KC1 unassessed",
+        "Public empty Key Constraint copy is No mapping established."
+      ],
+      "decision": "Publish the Stage 2B result. Do not force a Key Constraint title.",
+      "rationale": "Type D and independent Dietary Requirement adjudication.",
+      "required_action": "Keep public §3.1.3 as No mapping established. unless a later pass meets Type D.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Stage 2A/2B review",
+      "reviewed_date": "2026-09-30",
+      "affected_section": "§3.1 Dietary Requirements",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-30",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx",
+            "includes": [
+              "No mapping established."
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM4-PM11"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1"
+      },
+      "affected": "BRS1-FM4-PM11 Stage 2A/2B"
+    },
+    {
+      "id": "FW034",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM3–PM5 Type D KC1 assessment completed",
+      "visibility": "public",
+      "public_title": "Shared amino-acid constraint assessment completed",
+      "public_description": "The shared amino-acid quality and LAT1-balance states were assessed for dopamine, noradrenaline and serotonin regulation. Only serotonin-formation capacity has a published Key Constraint mapping.",
+      "public_decision": "Keep empty mappings on the catecholamine pages. Keep the serotonin formation mapping.",
+      "public_findings": [
+        "Protein-quality scores do not decide monoamine capacity.",
+        "Ordinary protein-driven LAT1 change has minimal catecholamine effects.",
+        "Ordinary protein-driven LAT1 change can constrain serotonin formation."
+      ],
+      "public_evidence": [
+        "Fernstrom 2013",
+        "FAO 2013",
+        "Mariotti 2019"
+      ],
+      "findings": [
+        "Unassessed was a prior disposition correction, not a completed reassessment.",
+        "Quality arms on PM3–PM5 are unresolved after targeted DIAAS/Mariotti review.",
+        "Competitive arms: PM3 and PM4 evidence-supported-non-application; PM5 established / constrained-by.",
+        "Findings and Dietary Requirements were not reopened."
+      ],
+      "decision": "Publish only the PM5 competitive mapping. Do not inherit KC food lists.",
+      "rationale": "Type D requires a demonstrated constraint on the named PM’s governed capacity, not precursor delivery plus substrate necessity.",
+      "required_action": "Keep the recorded dispositions until new evidence changes the Type D result.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Automated Type D KC reassessment",
+      "reviewed_date": "2026-09-30",
+      "affected_section": "§3.1.3 Key Constraints",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-30",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+            "includes": [
+              "applicability_proposition:",
+              "No mapping established."
+            ],
+            "excludes": [
+              "brs-kc-title-link",
+              "key_constraints:"
+            ]
+          },
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
+            "includes": [
+              "applicability_proposition:",
+              "No mapping established."
+            ],
+            "excludes": [
+              "brs-kc-title-link",
+              "key_constraints:"
+            ]
+          },
+          {
+            "path": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+            "includes": [
+              "applicability_proposition:",
+              "brs-kc-title-link",
+              "applicability_mode: constrained-by"
+            ],
+            "excludes": [
+              "not inherited as Dietary Requirements"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM1-PM3",
+          "BRS1-FM1-PM4",
+          "BRS1-FM1-PM5"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
+          "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1.3"
+      },
+      "affected": "BRS1-FM1-PM3/PM4/PM5 §3.1.3 Type D completion"
+    },
+    {
+      "id": "FW035",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "KC1 Emerging Biological Supports used the Core Nutritional Requirements threshold",
+      "visibility": "public",
+      "public_title": "Emerging methyl-resource supports reassessed",
+      "public_description": "The former wording rejected candidates for not being indispensable nutrients, although §4 asks whether an intervention can support the pool or related regulatory capacity under defined conditions.",
+      "public_decision": "Prioritise SAMe conditionally and riboflavin narrowly for MTHFR 677TT; retain creatine as an emerging demand-reduction support while leaving downstream methyl redistribution and benefit unresolved.",
+      "public_findings": [
+        "SAMe increases circulating SAM exposure but does not restore dietary donor inputs or establish general tissue methylation benefit.",
+        "Creatine suppresses endogenous creatine synthesis, but human evidence does not show redistribution of spared methyl resources or a methyl-sparing functional benefit.",
+        "Riboflavin increased plasma SAM in a small MTHFR 677TT intervention, supporting genotype-conditioned assessment rather than a general recommendation.",
+        "Each retained support has a five-field traceability disclosure while remaining separate from Core Nutritional Requirements."
+      ],
+      "public_evidence": [
+        "peters_creatine_2015",
+        "stead_creatine_2001",
+        "loehrer_same_1997",
+        "yang_same_2009",
+        "mischoulon_same_2012",
+        "goren_same_2004",
+        "sharma_same_2017",
+        "rooney_riboflavin_2020"
+      ],
+      "findings": [
+        "The former indispensability wording applied the §2 admission threshold to §4 candidates.",
+        "Direct resource delivery, reduced demand, biomarker change and functional benefit must be reported separately.",
+        "Emerging supports require five-field support atoms for consistent traceability without acquiring iKC constituent membership.",
+        "No Core Nutritional Requirement or PM mapping was changed in this pass."
+      ],
+      "decision": "Replace the generic §4 paragraph with source-led candidate disclosures that distinguish demonstrated creatine demand reduction from unresolved downstream methyl redistribution and benefit.",
+      "rationale": "Emerging Biological Supports are assessed for condition-specific support of the KC resource or capacity, not for status as shared indispensable nutrients.",
+      "required_action": "Keep §4 support atoms separate from §2, preserve their five-field disclosures and retain the stated evidence boundaries until direct human flux or functional evidence changes them.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Targeted KC evidence reassessment",
+      "reviewed_date": "2026-09-30",
+      "affected_section": "§4 Emerging Biological Supports",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-30",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool.mdx",
+            "includes": [
+              "kc_emerging_support_traceability:",
+              "kc_emerging_support_presentations:",
+              "SAMe-directed supplementation",
+              "Creatine supplementation as a methyl-demand modifier",
+              "Riboflavin for MTHFR 677TT-linked capacity",
+              "brs-emerging-support-title-trigger"
+            ],
+            "excludes": [
+              "not established as shared indispensable dietary requirements for the methyl donor pool"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS2-KC1"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "4"
+      },
+      "affected": "BRS2(KC1) §4 Emerging Biological Supports"
+    },
+    {
+      "id": "FW036",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM2 Type D rerun imposed an unnecessary tissue-flux threshold",
+      "visibility": "public",
+      "public_title": "Betaine-dependent remethylation constraint reassessed",
+      "public_description": "The previous review left the methyl-donor-pool relationship unresolved because no single study directly measured tissue BHMT flux. The current evidence standard also permits a supported mechanistic chain.",
+      "public_decision": "Map the Methyl Donor Pool to Betaine/BHMT Remethylation, with the claim limited to constrained remethylation reserve under demonstrated donor inadequacy.",
+      "public_findings": [
+        "Controlled choline depletion lowered plasma betaine and reduced post-load homocysteine-handling reserve in clinically depleted participants.",
+        "The response returned to baseline after choline repletion while folate remained adequate.",
+        "Rat studies add hepatic-betaine rescue and specific BHMT-inhibition evidence in the same pathway direction.",
+        "The evidence does not directly measure tissue BHMT flux or show a benefit from intake above adequacy.",
+        "Vitamin B12 remains outside canonical methyl-donor-pool membership, and the methionine–cysteine pool is not mapped to this mechanism."
+      ],
+      "public_evidence": [
+        "da_costa_choline_2005",
+        "evans_betaine_2002",
+        "liu_betaine_folate_2012",
+        "park_methionine_bhmt_1999",
+        "setoue_choline_deprivation_2008",
+        "strakova_bhmt_inhibition_2011"
+      ],
+      "findings": [
+        "The earlier decision used stale KC membership and duplicated Betaine across public subsections.",
+        "The latest rerun corrected those issues but treated direct tissue BHMT flux as mandatory for Type D.",
+        "The combined human depletion–repletion, rat hepatic-betaine rescue, specific BHMT inhibition and reaction evidence establishes the betaine/choline arm.",
+        "The indirect folate arm remains unresolved; BRS2(KC2) is evidence-supported non-application."
+      ],
+      "decision": "Publish BRS2(KC1) as a constrained-by relationship for PM2 through the betaine/choline arm.",
+      "rationale": "Type D permits a supported upstream chain. Constituent membership and substrate necessity were not treated as sufficient, but one end-to-end tissue-flux assay is not mandatory.",
+      "required_action": "Preserve the bounded public explanation and do not promote the relationship to supplementation benefit, tissue-flux demonstration or cognitive outcome.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Targeted Stage 2A/2B evidence reassessment",
+      "reviewed_date": "2026-09-30",
+      "affected_section": "§3.1.3 Key Constraints",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-09-30",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+            "includes": [
+              "BRS2-FM1-PM2-KCR-1",
+              "disposition: established",
+              "PM2-F5",
+              "brs-kc-title-link",
+              "BRS2-KC1-KIT-2",
+              "BRS2-KC1-KIT-3"
+            ],
+            "excludes": [
+              "No mapping established."
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS2-FM1-PM2"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1.3"
+      },
+      "affected": "BRS2-FM1-PM2 Stage 2A/2B and §3.1.3 Key Constraints"
+    },
+    {
+      "id": "FW037",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "Conditional methyl-donor constraint established",
+      "visibility": "public",
+      "public_title": "Conditional methyl-donor constraint established",
+      "public_description": "Focused PM7 Stage 2A/2B reassessment.",
+      "public_decision": "One-carbon donor inadequacy or imbalance can constrain hepatic PEMT-dependent phosphatidylcholine formation in demonstrated animal contexts.",
+      "public_findings": [
+        "Folate restriction reduced hepatic methyl incorporation into phosphatidylcholine in female mice.",
+        "Betaine restored impaired methylation in ethanol-fed rats.",
+        "These findings do not establish universal limitation or benefit above adequacy."
+      ],
+      "public_evidence": [
+        "chew_folate_choline_2011",
+        "kharbanda_betaine_pemt_2007"
+      ],
+      "findings": [
+        "Establish KC1 conditionally; no absolute-flux or human-trial gate.",
+        "KC1 relationship and three individually vetted constituent disclosures implemented using the shared dropdown; KC2 remains audit-only. Scientific classifications unchanged.",
+        "2026-10-02 presentation clarification: individually named Folate/Betaine/Choline triggers with separate KC1 provenance links; preview/pinning/keyboard dismissal verified, scientific records unchanged."
+      ],
+      "decision": "Establish KC1 conditionally; no absolute-flux or human-trial gate.",
+      "rationale": "Supported upstream chains assessed against the unchanged mission; measured endpoints and remaining inference kept separate.",
+      "required_action": "Retain the bounded scientific claims and separately resolve the recorded KC2 and phenome follow-ups.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Targeted Stage 2A/2B source reassessment",
+      "reviewed_date": "2026-10-02",
+      "affected_section": "§3.1.3; PM7-F5",
+      "priority": "medium",
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS2-FM3-PM7"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": null
+      },
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-10-02",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx",
+            "includes": [
+              "applicability_mode: constrained-by",
+              "presentation_label: Methyl Donor Pool",
+              "applicability_label: Conditional applicability",
+              "PM7-DIT-5",
+              "PM7-DIT-6",
+              "description_finding_id: PM7-F5",
+              "origin_label: \"KC1: Methyl Donor Pool\""
+            ],
+            "between": [
+              "<strong>3.1.3 Key Constraints</strong>",
+              "<strong>3.2 System Optimisation Practices</strong>"
+            ],
+            "range_excludes": [
+              "KC2",
+              "unresolved",
+              "Methionine–Cysteine",
+              "Established mapping",
+              "Independently supported input relationships",
+              "- Methyl Donor Pool"
+            ],
+            "range_includes": [
+              "- Folate",
+              "- Betaine",
+              "- Choline"
+            ]
+          },
+          {
+            "path": "system/dietary-input-traceability-contract.md",
+            "includes": [
+              "PM7-KC-REFERENCE:records",
+              "PM7-KC-REFERENCE:projection"
+            ]
+          },
+          {
+            "path": "scripts/pm7-kc-reference.test.mjs",
+            "includes": [
+              "minimum Stage 2B integration example matches live records"
+            ]
+          }
+        ],
+        "verification_results": {
+          "tests": "64 tests passed including documented-example execution, shared pointer/touch handler event tests and PM3 interaction regression.",
+          "browser": "Three compact input triggers and separate KC1 tags; focus preview, Enter/Space pinning, click/reclick, Escape focus return without reopening, origin Tab/Enter navigation and five-field ordering verified. Pointer/touch coverage is event-fixture testing, not a physical touch-device run.",
+          "build": "Production build passed using writable workspace output.",
+          "remaining_gap": "Published PM7 F5/F7 deployment remains outstanding; full canonical research links await that deployment."
+        }
+      }
+    },
+    {
+      "id": "FW038",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "Sulfur-amino-acid applicability remains unresolved",
+      "visibility": "public",
+      "public_title": "Sulfur-amino-acid applicability remains unresolved",
+      "public_description": "Focused PM7 Stage 2A/2B reassessment.",
+      "public_decision": "The Methionine–Cysteine Pool relationship remains unresolved.",
+      "public_findings": [
+        "Dietary methionine studies measured SAM and phospholipid composition; genetic SAM-synthesis impairment supplies additional context.",
+        "Attribution of inadequate dietary pool availability to constrained PEMT capacity remains insufficiently resolved."
+      ],
+      "public_evidence": [
+        "sugiyama_methionine_pe_1998",
+        "shimada_methionine_desaturase_2003",
+        "cano_mat1a_vldl_2011"
+      ],
+      "findings": [
+        "Retain KC2 unresolved with the dietary exposure-to-capacity inference recorded."
+      ],
+      "decision": "Retain KC2 unresolved with the dietary exposure-to-capacity inference recorded.",
+      "rationale": "Supported upstream chains assessed against the unchanged mission; measured endpoints and remaining inference kept separate.",
+      "required_action": "Resolve the remaining dietary exposure-to-capacity question; do not treat unresolved as non-application.",
+      "status": "deferred",
+      "correction_status": "accepted",
+      "review_method": "automated",
+      "public_reviewer": "Targeted Stage 2A/2B source reassessment",
+      "reviewed_date": "2026-10-01",
+      "affected_section": "§3.1.3; PM7-F6",
+      "priority": "medium",
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS2-FM3-PM7"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": null
+      }
+    },
+    {
+      "id": "FW039",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "Dietary provision roles corrected",
+      "visibility": "public",
+      "public_title": "Dietary provision roles corrected",
+      "public_description": "Focused PM7 Stage 2A/2B reassessment.",
+      "public_decision": "Choline remains Direct and phosphatidylcholine remains Derived provision of choline, through methyl-group provision to the PEMT route.",
+      "public_findings": [
+        "The Böckmann Results subsection D3-PC from the PEMT pathway reports delayed plasma D3-PC after all four labelled inputs (Figure S5B), including choline chloride and POPC.",
+        "D3-PC methyl labelling is distinct from intact or remodelled D9-PC. Methionine/SAM intermediates and hepatic flux were not directly measured.",
+        "Provision does not establish indispensable dependence, enhanced activity or cognitive benefit."
+      ],
+      "public_evidence": [
+        "bockmann_choline_supplements_2023"
+      ],
+      "findings": [
+        "Retain Direct Choline and Derived Phosphatidylcholine to Choline through methyl-donor provision, not Kennedy-pathway support."
+      ],
+      "decision": "Retain Direct Choline and Derived Phosphatidylcholine to Choline through methyl-donor provision, not Kennedy-pathway support.",
+      "rationale": "Supported upstream chains assessed against the unchanged mission; measured endpoints and remaining inference kept separate.",
+      "required_action": "Retain the bounded scientific claims and separately resolve the recorded KC2 and phenome follow-ups.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Targeted Stage 2A/2B source reassessment",
+      "reviewed_date": "2026-10-01",
+      "affected_section": "§3.1.1; PM7-F7",
+      "priority": "medium",
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS2-FM3-PM7"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": null
+      },
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-10-01",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx",
+            "includes": [
+              "PM7-F7",
+              "m/z 187",
+              "methyl-donor provision"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "FW040",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM7/FM3 presentation reconciled",
+      "visibility": "public",
+      "public_title": "PM7/FM3 presentation reconciled",
+      "public_description": "Focused PM7 Stage 2A/2B reassessment.",
+      "public_decision": "The parent mechanism now carries the conditional methyl-donor constraint established for its child mechanism.",
+      "public_findings": [
+        "The Methionine–Cysteine Pool is not published as established.",
+        "Mechanistic evidence highlights now distinguish hepatic methylation from downstream cognitive outcomes."
+      ],
+      "public_evidence": [
+        "chew_folate_choline_2011"
+      ],
+      "findings": [
+        "Derive FM3 KC1 only, regenerate mechanistic Findings and use the canonical PM headings."
+      ],
+      "decision": "Derive FM3 KC1 only, regenerate mechanistic Findings and use the canonical PM headings.",
+      "rationale": "Supported upstream chains assessed against the unchanged mission; measured endpoints and remaining inference kept separate.",
+      "required_action": "Retain the bounded scientific claims and separately resolve the recorded KC2 and phenome follow-ups.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Targeted Stage 2A/2B source reassessment",
+      "reviewed_date": "2026-10-01",
+      "affected_section": "PM7 layout; FM3 §4",
+      "priority": "medium",
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS2-FM3-PM7",
+          "BRS2(FM3)"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx",
+          "docs/biological-targets/brs2/fm3/brs2-fm3-methylation-membrane-coupling.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": null
+      },
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-10-01",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx",
+            "includes": [
+              "## 3. Levers",
+              "PM7-F5"
+            ]
+          },
+          {
+            "path": "docs/biological-targets/brs2/fm3/brs2-fm3-methylation-membrane-coupling.mdx",
+            "includes": [
+              "4.3 Suboptimal Function & Its Effects",
+              "Donor insufficiency can constrain hepatic methylation"
+            ],
+            "between": [
+              "Supporting Key Constraint Pools",
+              "### 4.1"
+            ],
+            "range_excludes": [
+              "BRS2(KC2)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "FW041",
+      "register_surface": "pm-tab",
+      "title": "PM7 and FM3 phenome reassessment follow-up",
+      "visibility": "internal",
+      "findings": [
+        "Legacy phenome and functional-outcome claims and ratings were not reassessed in this four-decision correction."
+      ],
+      "required_action": "Separately reassess phenome/outcome evidence against the preserved mission; do not treat provision or KC admission as cognitive benefit.",
+      "status": "deferred",
+      "priority": "medium",
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS2-FM3-PM7",
+          "BRS2(FM3)"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx",
+          "docs/biological-targets/brs2/fm3/brs2-fm3-methylation-membrane-coupling.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": null
+      }
+    },
+    {
+      "id": "FW042",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "Separate evidence qualification and principal-route placement",
+      "visibility": "internal",
+      "decision": "Preserve PM7 Diet-Supported qualification; principal-route selection not established; retain all three lever groups in section 3.",
+      "rationale": "F5 supports conditional dietary influence but does not establish comparative principal prominence. Missing admitted competitors is not evidence of primacy. No ranking or equal dominance inferred.",
+      "required_action": "Separated implementation and exact Stage 2B/schema examples applied. Complete live browser/build verification; independently assess relevance, directness and extent before any later promotion.",
+      "status": "deferred",
+      "correction_status": "pending",
+      "review_method": "automated",
+      "reviewed_date": "2026-10-02",
+      "affected_section": "§1 Mission through Overview; §3 canonical lever groups",
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS2-FM3-PM7"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": null
+      },
+      "implementation": {
+        "verified": false,
+        "method": "automated",
+        "checks": [
+          "78 live targeted tests passed",
+          "Original PM7 scientific records and F5 route evidence preserved",
+          "Exact documented records and placement function execute in tests",
+          "Browser/build completion pending"
+        ]
+      },
+      "draft_verification": "78 live tests pass for separated qualification/selection, actual PM7 placement and executable examples. Browser refresh timed out; no production-build pass claimed for this revision."
+    },
+    {
+      "id": "CC-BRS1-FM4-PM8-RETIRE-20261005",
+      "record_kind": "correction",
+      "register_surface": "framework",
+      "title": "Retire PM8 and bound FM4 integration",
+      "visibility": "public",
+      "public_title": "FM4 now distinguishes its covered processes from the integrated state",
+      "public_findings": [
+        "PM8 repeated the integrated FM state rather than a distinct child process.",
+        "Receptor/synaptic regulation remains outside the retained PM coverage."
+      ],
+      "findings": [
+        "PM8 integrated-state ownership duplicated FM4; evidence preserved without automatic admission transfer."
+      ],
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Project-owner accepted correction; Codex implementation",
+      "reviewed_date": "2026-10-05",
+      "resolved_date": "2026-10-05",
+      "decision": "Retire PM8 without replacement; preserve PM9/10/11 ownership and archive provenance.",
+      "public_decision": "PM8 is retired; FM4 retains useful integration evidence and an explicit coverage boundary.",
+      "rationale": "Accepted project-owner decision following Stage 2A scientific and coverage reassessment.",
+      "required_action": "Keep the retired identifier out of active PM registries; retain its source archive and redirect.",
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS1-FM4",
+          "BRS1-FM4-PM8"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "1, 4"
+      },
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-10-05",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation.mdx",
+            "includes": [
+              "### Objective",
+              "Receptor/synaptic regulation remains outside the retained PM coverage"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "CC-BRS5-FM1-PM3-SCOPE-20261005",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "Narrow scope to Microbial Barrier–Immune Interface Support",
+      "visibility": "public",
+      "public_title": "Biological scope clarified",
+      "public_description": "The page now distinguishes its biological job from adjacent microbial processes.",
+      "public_decision": "Use the revised mission and evidence boundaries; preserve separate dietary and phenome assessments.",
+      "findings": [
+        "Legacy ecological-support claims overlapped the neighbouring PM and exceeded the cited evidence."
+      ],
+      "decision": "Implement accepted scope, structured Findings, bounded Overview and remove repeated PM KC disclosures.",
+      "rationale": "Defined microbial host-interface actions and community substrate processing have distinct experimental endpoints.",
+      "required_action": "Review parent integration, FM-level KC relevance, Stage 2B and phenomes separately.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Project-owner accepted scope; implementation checks",
+      "reviewed_date": "2026-10-05",
+      "affected_section": "§1, §2, §3.1.3, §4, §5, §8",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-10-05",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx",
+            "includes": [
+              "title: Microbial Barrier–Immune Interface Support",
+              "Support intestinal mucus maintenance",
+              "No mapping established.",
+              "scientific_findings:"
+            ],
+            "excludes": [
+              "data-kc-id="
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS5-FM1-PM3"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "scope"
+      },
+      "affected": "BRS5-FM1-PM3 scope and evidence"
+    },
+    {
+      "id": "CC-BRS5-FM2-PM4-SCOPE-20261005",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "Narrow scope to Microbial Substrate-Processing Selection & Adaptation",
+      "visibility": "public",
+      "public_title": "Biological scope clarified",
+      "public_description": "The page now distinguishes its biological job from adjacent microbial processes.",
+      "public_decision": "Use the revised mission and evidence boundaries; preserve separate dietary and phenome assessments.",
+      "findings": [
+        "Legacy ecological-support claims overlapped the neighbouring PM and exceeded the cited evidence."
+      ],
+      "decision": "Implement accepted scope, structured Findings, bounded Overview and remove repeated PM KC disclosures.",
+      "rationale": "Defined microbial host-interface actions and community substrate processing have distinct experimental endpoints.",
+      "required_action": "Review parent integration, FM-level KC relevance, Stage 2B and phenomes separately.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Project-owner accepted scope; implementation checks",
+      "reviewed_date": "2026-10-05",
+      "affected_section": "§1, §2, §3.1.3, §4, §5, §8",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-10-05",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
+            "includes": [
+              "title: Microbial Substrate-Processing Selection & Adaptation",
+              "Adjust community substrate-processing capacity",
+              "No mapping established.",
+              "scientific_findings:"
+            ],
+            "excludes": [
+              "data-kc-id="
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS5-FM2-PM4"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "scope"
+      },
+      "affected": "BRS5-FM2-PM4 scope and evidence"
+    },
+    {
+      "id": "CC-BRS5-FM1-PM3-STAGE2B-20261005",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "Reassess levers against revised microbial scope",
+      "visibility": "public",
+      "public_title": "Dietary relationships assessed against the revised mechanism",
+      "public_description": "Defined mucus effects now have exact strain/preparation identities and experimental boundaries.",
+      "public_decision": "Retain bounded input disclosures; remove unsupported generic lists and preserve unresolved assessments.",
+      "findings": [
+        "Legacy lists did not establish each relationship under the revised biological job."
+      ],
+      "decision": "Apply scope-specific Stage 2B and preserve separate phenome and parent-FM review.",
+      "rationale": "Specific intervention or provision evidence is distinct from nutritional necessity, generic diversity and clinical benefit.",
+      "required_action": "Retain unresolved human translation, parent-FM KC and phenome follow-ups; restart the old port-3000 server to load the current layout.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Evidence review and local implementation checks",
+      "reviewed_date": "2026-10-05",
+      "affected_section": "§1, §3, §4.1, §8",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated and browser",
+        "verified_date": "2026-10-05",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx",
+            "includes": [
+              "dietary_input_traceability:",
+              "intervention_dominance: Diet-Supported",
+              "No mapping established."
+            ],
+            "excludes": [
+              "←"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS5-FM1-PM3"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "Stage 2B"
+      },
+      "affected": "BRS5-FM1-PM3 Stage 2B levers"
+    },
+    {
+      "id": "CC-BRS5-FM2-PM4-STAGE2B-20261005",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "Reassess levers against revised microbial scope",
+      "visibility": "public",
+      "public_title": "Dietary relationships assessed against the revised mechanism",
+      "public_description": "Substrate-processing relationships now have specific inputs, evidence and boundaries.",
+      "public_decision": "Retain bounded input disclosures; remove unsupported generic lists and preserve unresolved assessments.",
+      "findings": [
+        "Legacy lists did not establish each relationship under the revised biological job."
+      ],
+      "decision": "Apply scope-specific Stage 2B and preserve separate phenome and parent-FM review.",
+      "rationale": "Specific intervention or provision evidence is distinct from nutritional necessity, generic diversity and clinical benefit.",
+      "required_action": "Retain unresolved human translation, parent-FM KC and phenome follow-ups; restart the old port-3000 server to load the current layout.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Evidence review and local implementation checks",
+      "reviewed_date": "2026-10-05",
+      "affected_section": "§1, §3, §4.1, §8",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated and browser",
+        "verified_date": "2026-10-05",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
+            "includes": [
+              "dietary_input_traceability:",
+              "intervention_dominance: Diet-Supported",
+              "No mapping established."
+            ],
+            "excludes": [
+              "←"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS5-FM2-PM4"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "Stage 2B"
+      },
+      "affected": "BRS5-FM2-PM4 Stage 2B levers"
+    },
+    {
+      "id": "CC-BRS5-FM1-PM3-OVERVIEW-20261005",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "Restore a useful purpose-and-benefits Overview",
+      "visibility": "public",
+      "public_title": "Overview clarified for practical learning",
+      "public_description": "The opening now explains the function’s health significance and practical evidence limits; technical boundaries sit in Mechanistic Basis.",
+      "public_decision": "Use Benefits, Implementation Notes and Biological Relevance as adaptable Overview roles.",
+      "findings": [
+        "The governing PM schema required technical boundary bullets and the prose guide retained an obsolete broad ecological example."
+      ],
+      "decision": "Reconcile both authoring instructions and the PM3 example; preserve scientific and lever decisions.",
+      "rationale": "Training readers need purpose, health significance and usable support before detailed evidence appraisal.",
+      "required_action": "Apply the adaptive default in future PM assessments; do not pad unsupported benefit or implementation claims.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Evidence review and local implementation checks",
+      "reviewed_date": "2026-10-05",
+      "affected_section": "§1 Overview and §4 boundaries; governing authoring guidance",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "automated",
+        "verified_date": "2026-10-05",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx",
+            "includes": [
+              "**Benefits:**",
+              "**Implementation Notes:**",
+              "**Biological Relevance:**",
+              "### Mechanism boundary",
+              "### Measurement boundaries"
+            ],
+            "excludes": [
+              "- **Measurement boundary:**"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS5-FM1-PM3"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "Overview"
+      },
+      "affected": "PM3 Overview and PM-wide authoring guidance"
+    },
+    {
+      "id": "FW043",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "Broccoli sprout homogenate is a food preparation, not a supplement",
+      "visibility": "public",
+      "public_title": "Broccoli sprout homogenate is a food preparation",
+      "public_description": "The admitted practice is a three-day broccoli sprout homogenate prepared with added myrosinase. It is not an ordinary broccoli serving and not a sulforaphane capsule.",
+      "public_decision": "Admit the homogenate under Food Preparation and Delivery. Do not admit a sulforaphane supplement.",
+      "public_findings": [
+        "Riedl 2009 gave healthy adults a broccoli sprout homogenate once a day for three days. The sprouts were blended with water, mixed with daikon sprouts, and held at 37°C so myrosinase could finish forming sulforaphane.",
+        "Nasal-cell RNA for phase II enzymes rose. Alfalfa sprout homogenate did not. Nrf2 protein and brain endpoints were not measured.",
+        "Wise 2016 gave people with COPD capsules of sulforaphane extracted from broccoli sprouts for four weeks. Lung Nrf2 target-gene expression did not rise."
+      ],
+      "public_evidence": [
+        "Riedl, Saxon and Diaz-Sanchez 2009",
+        "Wise et al. 2016",
+        "Houghton et al. 2016",
+        "Costa et al. 2026"
+      ],
+      "findings": [
+        "The previous conditional-supplementation entry blended the homogenate, isolated oral doses, and sulforaphane-yielding supplements.",
+        "Houghton cites the Riedl homogenate for the airway gene result and only calculates that a myrosinase-active powder might match that dose.",
+        "The Wise capsule trial is a null on lung target-gene expression. It does not erase the homogenate result, and the homogenate result does not erase the null."
+      ],
+      "decision": "Replace PM3-SOP-1 with the myrosinase-completed broccoli sprout homogenate under food_prep. Do not admit a supplement.",
+      "rationale": "Source check of the methods, not expert review. The tested food formulation is the homogenate. The tested capsule formulation did not raise the lung gene endpoint.",
+      "required_action": "Do not restore oral broccoli-derived sulforaphane as a supplement, and do not turn the three-day homogenate into an ordinary crucifer pattern.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "public_reviewer": "Source check, not expert review",
+      "reviewed_date": "2026-10-05",
+      "affected_section": "System Optimisation Practices",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "source check and page validation",
+        "verified_date": "2026-10-05",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
+            "includes": [
+              "optimisation_category: food_prep",
+              "Myrosinase-completed broccoli sprout homogenate",
+              "riedl_sulforaphane_airway_2009",
+              "wise_sulforaphane_copd_2016"
+            ],
+            "excludes": [
+              "Oral broccoli-derived sulforaphane",
+              "conditional_supplementation"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS3-FM2-PM3"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.2"
+      },
+      "affected": "BRS3-FM2-PM3 System Optimisation Practices"
+    },
+    {
+      "id": "FW044",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "Vitamin C does not constrain Nrf2 activation on this page",
+      "visibility": "public",
+      "public_title": "Vitamin C is not a constraint on this activation step",
+      "public_description": "Vitamin C stays a direct antioxidant in the sources. It is not shown to constrain Nrf2 activation. Zinc and selenium are cofactors of downstream enzymes, not of the switch.",
+      "public_decision": "Remove the vitamin C key-constraint disclosure. Do not admit zinc or selenium as requirements of Nrf2 activation.",
+      "public_findings": [
+        "Verlaet lists vitamin C as a water-soluble non-enzymatic antioxidant.",
+        "Houghton reports ascorbic acid as a much weaker NQO1 inducer than sulforaphane, and treats ascorbate as a direct antioxidant used up in the reaction.",
+        "Verlaet places zinc on copper-zinc superoxide dismutase and selenium on glutathione peroxidase."
+      ],
+      "public_evidence": [
+        "Verlaet et al. 2018",
+        "Houghton et al. 2016"
+      ],
+      "findings": [
+        "General antioxidant relevance is not evidence that vitamin C availability constrains this activation step.",
+        "The 2019 zinc and selenium chapter was not retrieved in full, so it is not used as a new admission."
+      ],
+      "decision": "Withdraw the vitamin C KC disclosure. Leave zinc and selenium out of cofactors and dietary requirements.",
+      "rationale": "Source check, not expert review. Empty requirement fields remain appropriate. They do not block the food-preparation practice.",
+      "required_action": "Do not restore vitamin C as a constraint on this activation step unless a source shows that its availability limits the switch.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "public_reviewer": "Source check, not expert review",
+      "reviewed_date": "2026-10-05",
+      "affected_section": "Key Constraints",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "source check and page validation",
+        "verified_date": "2026-10-05",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
+            "includes": [
+              "evidence-supported-non-application",
+              "No mapping established."
+            ],
+            "excludes": [
+              "pm_atom_id: PM3-DIT-1",
+              "- Vitamin C"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS3-FM2-PM3"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "3.1.3"
+      },
+      "affected": "BRS3-FM2-PM3 Key Constraints"
+    },
+    {
+      "id": "FW045",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "Diet-Dominant and the repeated-exposure claim are not supported",
+      "visibility": "public",
+      "public_title": "Diet is not established as the principal route",
+      "public_description": "A food preparation changed nasal defence-gene RNA. That does not make diet the principal route. The sources do not show that repeated exposure matters more than a single dose.",
+      "public_decision": "Use Diet-Supported. Place the admitted food-preparation practice at 1.1, because no direct dietary requirement is established. Remove the repeated-exposure claim.",
+      "public_findings": [
+        "Houghton says phase II enzymes can last for days, so induction need not be continuous. It does not compare repeated exposure with a single dose.",
+        "The only admitted intervention effect is the three-day homogenate. Absence of another admitted route does not establish dietary dominance."
+      ],
+      "public_evidence": [
+        "Houghton et al. 2016",
+        "Riedl, Saxon and Diaz-Sanchez 2009"
+      ],
+      "findings": [
+        "The previous Overview and finding said repeated exposure was more meaningful than a single dose. That sentence is not in Houghton.",
+        "The dominance contract requires a separate principal-route decision. A dietary inducer alone does not establish it."
+      ],
+      "decision": "Set intervention dominance to Diet-Supported. Place the admitted food-preparation practice at 1.1 because no direct dietary requirement is established.",
+      "rationale": "Source check, not expert review. Diet-Supported is kept. The homogenate is the only admitted lever, so it occupies section 1.1. That placement does not make diet dominant.",
+      "required_action": "Do not restore Diet-Dominant or the repeated-exposure sentence without a source that compares repeated and single exposure.",
+      "status": "resolved",
+      "correction_status": "applied",
+      "public_reviewer": "Source check, not expert review",
+      "reviewed_date": "2026-10-05",
+      "affected_section": "Intervention Dominance and Overview",
+      "priority": "high",
+      "implementation": {
+        "verified": true,
+        "method": "source check and page validation",
+        "verified_date": "2026-10-05",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
+            "includes": [
+              "intervention_dominance: Diet-Supported",
+              "disposition: established",
+              "The sources do not compare repeated exposure with a single dose"
+            ],
+            "excludes": [
+              "more meaningful with repeated exposure",
+              "intervention_dominance: Diet-Dominant"
+            ]
+          }
+        ]
+      },
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS3-FM2-PM3"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": "1"
+      },
+      "affected": "BRS3-FM2-PM3 dominance and Overview"
+    },
+    {
+      "id": "FW046",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "title": "PM7 now distinguishes PEMT from Kennedy-pathway PC formation",
+      "visibility": "public",
+      "public_title": "Kennedy-pathway precursor evidence added",
+      "public_description": "Uridine can contribute to nucleotide precursors for PC formation; it is not a PEMT substrate or an established cognition intervention.",
+      "public_decision": "Retain PEMT and add the separately bounded Kennedy route. Resolve missing substance identities before substance or food projection.",
+      "public_findings": [
+        "Rat-slice CDP-choline formation and oral-UMP gerbil precursor responses support provision; human MRS is a precursor-pool measurement."
+      ],
+      "public_evidence": [
+        "Ulus et al. (2006)",
+        "Cansev et al. (2005)",
+        "Agarwal et al. (2010)"
+      ],
+      "findings": [
+        "PM7-F8 assessed separately from PEMT Findings.",
+        "Uridine, CTP and DAG lack verified canonical identities."
+      ],
+      "decision": "Scope expanded with user authorisation; retain existing PEMT/KC/phenome decisions. Scientific implementation applied; identity repair remains pending.",
+      "rationale": "Kennedy PC formation is a distinct route within the PC-formation job. Precursor provision does not establish indispensable dietary dependence or benefit.",
+      "required_action": "Resolve canonical uridine, CTP and DAG identities using PM7 pending_actions; assess food provision only after resolution.",
+      "status": "open",
+      "correction_status": "applied",
+      "review_method": "automated",
+      "public_reviewer": "Stage 2A/2B focused assessment",
+      "reviewed_date": "2026-10-08",
+      "affected_section": "Mission, Overview, §3.1.1/§3.1.2 and §4",
+      "priority": "high",
+      "affected": "BRS2-FM3-PM7",
+      "severity": "MAJOR",
+      "report_path": "system/brs2-fm3-pm7-kennedy-uridine-assessment.md",
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS2-FM3-PM7"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": null
+      },
+      "implementation": {
+        "verified": true,
+        "method": "Focused schema, shared Finding freshness, MDX and browser checks; canonical identities remain pending.",
+        "verified_date": "2026-10-08",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx",
+            "includes": [
+              "PM7-F8",
+              "PM7-DIT-7",
+              "missing-substance"
+            ],
+            "excludes": []
+          }
+        ]
+      }
+    },
+    {
+      "id": "FW047",
+      "title": "Therapeutic Area (ADHD) evidence claims for cortisol records misstate direction and demonstration type",
+      "visibility": "internal",
+      "findings": [
+        "EC000161 (Chang 2021) says \"altered\" basal and morning cortisol; the source finding is specifically lower morning cortisol with no afternoon difference (Pilot 1 defect 1).",
+        "EC000162 (Chang 2020) and EC000164 (Lane 2010) are coded demonstration: symptom-improvement; both are cross-sectional case-control studies with no intervention.",
+        "EC000164 lists Lane 2010 as supportive for PM4 cortisol; its cortisol results were null and its only significant result was electrodermal (PM6 biology).",
+        "The records project onto BRS6-FM2-PM4, BRS6-FM3-PM6 and BRS6-FM4-PM9 via the Therapeutic Area evidence section, sourced from the BRS6 hub page."
+      ],
+      "required_action": "Re-adjudicate EC000161-EC000164 against the PM4-F7 synthesis and Pilot 1 record: preserve direction (lower), recode demonstration as association, and route Lane 2010 to PM6. Do not edit study facts on PM pages.",
+      "status": "open",
+      "correction_status": "pending",
+      "review_method": "automated",
+      "reviewed_date": "2026-11-12",
+      "affected_section": "Therapeutic Area evidence (src/data/therapeutic-area-evidence.json)",
+      "decision": "Log only; outside the PM4 Stage 2A/2B batch because the register is shared across pages.",
+      "rationale": "The Therapeutic Area register is a shared canonical source spanning several PMs and the BRS6 hub; correcting it is a separate adjudication.",
+      "priority": "medium",
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS6-FM2-PM4",
+          "BRS6-FM3-PM6",
+          "BRS6-FM4-PM9",
+          "metabolic-neuroendocrine-stress"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx",
+          "docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx",
+          "docs/biological-targets/metabolic-neuroendocrine-stress.md"
+        ],
+        "page_types": [],
+        "letters": [],
+        "brs_hierarchy": [],
+        "subsection": null
+      },
+      "affected": "src/data/therapeutic-area-evidence.json EC000161-EC000164"
+    }
+  ]
+}

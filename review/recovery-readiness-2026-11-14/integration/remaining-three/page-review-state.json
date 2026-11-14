@@ -1,0 +1,288 @@
+{
+  "version": 1,
+  "updated": "2026-11-12",
+  "pages": {
+    "BRS1-FM1-PM3": {
+      "review_status": "unreviewed",
+      "review_method": "automated",
+      "rerun_required": true,
+      "last_checked": "2026-09-30",
+      "checked_by": "stage-2b-automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "review_scope": "Dietary Requirements classification on this page. This is not source verification or expert review.",
+      "accepted_limitations": [],
+      "linked_framework_issue_ids": [
+        "FW013",
+        "FW014",
+        "FW015",
+        "FW016",
+        "FW017",
+        "FW024",
+        "FW034"
+      ]
+    },
+    "BRS1-FM1-PM5": {
+      "review_status": "unreviewed",
+      "review_method": "automated",
+      "rerun_required": true,
+      "last_checked": "2026-09-30",
+      "checked_by": "stage-2b-automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "review_scope": "Dietary Requirements classification on this page. This is not source verification or expert review.",
+      "accepted_limitations": [],
+      "linked_framework_issue_ids": [
+        "FW020",
+        "FW021",
+        "FW022",
+        "FW023",
+        "FW026",
+        "FW034"
+      ]
+    },
+    "BRS1-FM1-PM4": {
+      "review_status": "unreviewed",
+      "review_method": "automated",
+      "rerun_required": true,
+      "last_checked": "2026-09-30",
+      "checked_by": "stage-2b-automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "review_scope": "Dietary Requirements classification on this page. This is not source verification or expert review.",
+      "accepted_limitations": [],
+      "linked_framework_issue_ids": [
+        "FW018",
+        "FW019",
+        "FW025",
+        "FW034"
+      ]
+    },
+    "BRS1-FM1-PM2": {
+      "review_status": "unreviewed",
+      "review_method": "automated",
+      "rerun_required": true,
+      "last_checked": "2026-09-29",
+      "checked_by": "stage-2b-automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "review_scope": "Dietary Requirements classification on this page. This is not source verification or expert review.",
+      "accepted_limitations": [],
+      "linked_framework_issue_ids": [
+        "FW010",
+        "FW011",
+        "FW012",
+        "FW027"
+      ]
+    },
+    "BRS1-FM1-PM1": {
+      "review_status": "unreviewed",
+      "review_method": "automated",
+      "rerun_required": true,
+      "last_checked": "2026-09-29",
+      "checked_by": "stage-2b-automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "review_scope": "Dietary Requirements classification on this page. This is not source verification or expert review.",
+      "accepted_limitations": [],
+      "linked_framework_issue_ids": [
+        "FW004",
+        "FW005",
+        "FW006",
+        "FW007",
+        "FW008",
+        "FW009"
+      ]
+    },
+    "BRS5-FM2-PM4": {
+      "review_status": "issues_logged",
+      "last_checked": "2026-09-14",
+      "checked_by": "framework-qc-seed",
+      "public_reviewer": "Framework editorial review",
+      "review_scope": "Published evidence mapping and attribution on this page.",
+      "accepted_limitations": [],
+      "linked_framework_issue_ids": [
+        "FW001",
+        "FW003"
+      ]
+    },
+    "inflammation-oxidative-stress": {
+      "review_status": "issues_logged",
+      "last_checked": "2026-09-14",
+      "checked_by": "framework-qc-seed",
+      "public_reviewer": "Framework editorial review",
+      "review_scope": "Published evidence mapping and attribution on this page.",
+      "accepted_limitations": [],
+      "linked_framework_issue_ids": [
+        "FW001"
+      ]
+    },
+    "BRS1-FM2-PM6": {
+      "review_status": "issues_logged",
+      "review_method": "automated",
+      "rerun_required": false,
+      "last_checked": "2026-09-30",
+      "checked_by": "independent-stage-2a-2b-rerun",
+      "public_reviewer": "Independent Stage 2A/2B evidence review",
+      "review_scope": "Foundational synthesis chemistry, Dietary Requirements, biochemical participants, intervention dominance, connections and complete Key Constraint applicability. Sources were checked; this is not expert peer review.",
+      "accepted_limitations": [
+        "No direct human ordinary-diet study establishes increased brain acetylcholine synthesis or cognitive benefit.",
+        "Pantothenate modulation evidence is preclinical and involves chronic ethanol-associated severe depletion.",
+        "One-carbon applicability is supported by a preclinical mechanistic chain rather than a direct human synthesis-flux assay."
+      ],
+      "linked_framework_issue_ids": [
+        "FW028"
+      ]
+    },
+    "BRS1-FM3-PM7": {
+      "review_status": "unreviewed",
+      "review_method": "automated",
+      "rerun_required": true,
+      "last_checked": "2026-09-30",
+      "checked_by": "stage-2b-automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "review_scope": "Dietary Requirements classification on this page. This is not source verification or expert review.",
+      "accepted_limitations": [],
+      "linked_framework_issue_ids": [
+        "FW029"
+      ]
+    },
+    "BRS1-FM4-PM8": {
+      "review_status": "unreviewed",
+      "review_method": "automated",
+      "rerun_required": true,
+      "last_checked": "2026-09-30",
+      "checked_by": "stage-2b-automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "review_scope": "Dietary Requirements classification on this page. This is not source verification or expert review.",
+      "accepted_limitations": [],
+      "linked_framework_issue_ids": [
+        "FW030"
+      ]
+    },
+    "BRS1-FM4-PM9": {
+      "review_status": "unreviewed",
+      "review_method": "automated",
+      "rerun_required": true,
+      "last_checked": "2026-09-30",
+      "checked_by": "stage-2b-automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "review_scope": "Dietary Requirements classification on this page. This is not source verification or expert review.",
+      "accepted_limitations": [],
+      "linked_framework_issue_ids": [
+        "FW031"
+      ]
+    },
+    "BRS1-FM4-PM10": {
+      "review_status": "unreviewed",
+      "review_method": "automated",
+      "rerun_required": true,
+      "last_checked": "2026-09-30",
+      "checked_by": "stage-2b-automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "review_scope": "Dietary Requirements classification on this page. This is not source verification or expert review.",
+      "accepted_limitations": [],
+      "linked_framework_issue_ids": [
+        "FW032"
+      ]
+    },
+    "BRS1-FM4-PM11": {
+      "review_status": "unreviewed",
+      "review_method": "automated",
+      "rerun_required": true,
+      "last_checked": "2026-09-30",
+      "checked_by": "stage-2b-automated",
+      "public_reviewer": "Automated Stage 2B review",
+      "review_scope": "Dietary Requirements classification on this page. This is not source verification or expert review.",
+      "accepted_limitations": [],
+      "linked_framework_issue_ids": [
+        "FW033"
+      ]
+    },
+    "BRS2-KC1": {
+      "review_status": "source_checked",
+      "review_method": "automated",
+      "rerun_required": false,
+      "last_checked": "2026-09-30",
+      "checked_by": "targeted-kc-emerging-supports-review",
+      "public_reviewer": "Targeted KC evidence reassessment",
+      "review_scope": "§4 Emerging Biological Supports: creatine, SAMe and named methyl-cycle adjuncts. Core Nutritional Requirements and PM mappings were not reopened.",
+      "accepted_limitations": [
+        "Creatine suppression of endogenous synthesis has not been shown to redistribute methyl resources to other pathways in humans.",
+        "SAMe plasma exposure does not establish intracellular or tissue-specific methylation benefit, and long-term safety evidence is limited.",
+        "The riboflavin SAM response is based on a small MTHFR 677TT genotype-selected intervention."
+      ],
+      "linked_framework_issue_ids": [
+        "FW035"
+      ]
+    },
+    "BRS2-FM3-PM7": {
+      "review_status": "source_checked",
+      "review_method": "automated",
+      "rerun_required": true,
+      "last_checked": "2026-10-02",
+      "checked_by": "targeted-pm7-stage2a-2b",
+      "public_reviewer": "Targeted Stage 2A/2B source reassessment",
+      "review_scope": "Four decisions: KC1/KC2 applicability and Choline/Phosphatidylcholine provision. Not expert or phenome review. KC1/constituent disclosure implementation, documented-example execution and browser verification completed; KC2 and phenome follow-ups remain open. Clarified input-trigger/origin-tag presentation and shared interaction verification completed; scientific records unchanged. Evidence qualification/independent principal selection implemented: Diet-Supported retained, PM7 principal selection not established. 78 live tests passed; existing scientific records preserved. Browser/build verification remains pending.",
+      "accepted_limitations": [
+        "Conditional animal evidence; tracer enrichment is not absolute flux. No universal donor limitation, human intake target or cognitive benefit is established.",
+        "No human trial, numeric deficiency threshold or single end-to-end assay is required. Indirect dietary outcomes and genetic perturbation do not yet resolve exposure attribution.",
+        "Plasma tracing does not measure absolute hepatic flux, intermediary SAM, ordinary-food equivalence or benefit."
+      ],
+      "linked_framework_issue_ids": [
+        "FW037",
+        "FW038",
+        "FW039",
+        "FW040",
+        "FW041",
+        "FW042"
+      ]
+    },
+    "BRS3-FM2-PM3": {
+      "review_status": "source_checked",
+      "last_checked": "2026-10-05",
+      "public_reviewer": "Source check, not expert review",
+      "review_scope": "Source check of Houghton 2016, Verlaet 2018, Costa 2026, Riedl 2009, and Wise 2016 for food versus supplement classification, vitamin C, zinc, selenium, dominance, and the repeated-exposure sentence. The 2019 Mocchegiani and Malavolta chapter was not retrieved in full. This is not expert review.",
+      "accepted_limitations": [
+        "The admitted practice is a three-day myrosinase-completed broccoli sprout homogenate and nasal enzyme RNA, not brain Nrf2 or an ordinary broccoli serving.",
+        "A four-week broccoli-sprout extract capsule did not raise lung Nrf2 target-gene expression in COPD."
+      ],
+      "linked_framework_issue_ids": [
+        "FW043",
+        "FW044",
+        "FW045"
+      ]
+    },
+    "BRS2(FM3)": {
+      "review_status": "issues_logged",
+      "last_checked": "2026-10-01",
+      "review_method": "automated",
+      "review_scope": "PM-derived KC mapping and mechanistic evidence presentation; outcome reassessment deferred.",
+      "linked_framework_issue_ids": [
+        "FW040",
+        "FW041"
+      ]
+    },
+    "BRS6-FM2-PM4": {
+      "review_status": "issues_logged",
+      "review_method": "automated",
+      "rerun_required": false,
+      "last_checked": "2026-11-12",
+      "checked_by": "stage-2ab-automated",
+      "public_reviewer": "Automated Stage 2A/2B review",
+      "review_scope": "Therapeutic Area evidence projection only.",
+      "accepted_limitations": [],
+      "linked_framework_issue_ids": [
+        "FW047"
+      ]
+    },
+    "metabolic-neuroendocrine-stress": {
+      "review_status": "issues_logged",
+      "review_method": "automated",
+      "rerun_required": false,
+      "last_checked": "2026-11-12",
+      "checked_by": "stage-2ab-automated",
+      "public_reviewer": "Automated Stage 2A/2B review",
+      "review_scope": "Therapeutic Area evidence projection only.",
+      "accepted_limitations": [],
+      "linked_framework_issue_ids": [
+        "FW047"
+      ]
+    }
+  }
+}

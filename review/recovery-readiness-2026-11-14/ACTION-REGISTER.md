@@ -120,3 +120,11 @@ Integrated implementation `ce298de271391281dff5a7ddd0947fbb09e0fdf4` pushed to d
 ## Final integrated preview evidence
 
 Runtime **6f7dc761e2548607c28d4bd1cccb937326eb6daf** verified in Netlify deploy6af8a8554804e03e57266b8d. [Complete evidence and remaining limitations](integration/README.md#final-verified-preview--14-november-2026).22public routes pass; all3viewer datasets match candidate bytes.984ranked/79foods/112-of-158 unchanged; manifest unchanged, integrated snapshot682e4da0617af57788a83135d36947f31658dbe3d5b8c1ae6cc60245d66056c7. All9hypotheses present and Unestablished;62focused tests pass. T05b/c/d fixtures reconciled with documented identity-level accounting; T07historical fixtures/suspended-QC limitations remain. Proposed tag `brain-reconciled-2026-11-14`; proposed freeze14November2026 is conditional, not executed. No production recommendation or renewed source approval request.
+
+### Five-check follow-up — local, 14 November
+
+See [five-check reconciliation](integration/five-check-reconciliation.md) for the authoritative dispositions of the five remaining validation limitations: three corrected test scopes/baselines, two retained failures. Affected suites24/26; isolation8/8. PM9 unrelated historical page pins require individual provenance; QC missing register/state must not be interpreted as issue closure. Approved manifest/snapshot and scientific records unchanged. No global PASS, gate restoration or freeze; no commit/push in this follow-up.
+
+### Remaining three investigations — recovery branch preservation
+
+[Scoped dispositions and exact provenance](integration/remaining-three/README.md):69 historical mismatches accounted for (64 approved1841 bytes,5 approved hypothesis additions); no hash reset. Cursor's Git-ignored QC register/state recovered into evidence archive; in-memory generation reproduces PM4's two historical issues, but activation/publication remains pending adjudication reconciliation. ECS PM3 failure is exact genistein hyperlink versus plain-text projection, with identical scientific wording/ratings.34/36 checks pass; two old assertions deliberately retained failing. QC remains suspended; no scientific edits, active dataset generation, merge, production deployment or freeze. Next actions and approval boundaries are in that single scoped report.

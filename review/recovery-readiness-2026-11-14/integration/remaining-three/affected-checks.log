@@ -1,0 +1,230 @@
+TAP version 13
+# Subtest: BRS5-FM2-PM4 approved hypothesis, unchanged science and original body
+ok 1 - BRS5-FM2-PM4 approved hypothesis, unchanged science and original body
+  ---
+  duration_ms: 209.272875
+  ...
+# Subtest: BRS4-FM1-PM3 approved hypothesis, unchanged science and original body
+ok 2 - BRS4-FM1-PM3 approved hypothesis, unchanged science and original body
+  ---
+  duration_ms: 48.00525
+  ...
+# Subtest: BRS-X(ECS-PM1) approved hypothesis, unchanged science and original body
+ok 3 - BRS-X(ECS-PM1) approved hypothesis, unchanged science and original body
+  ---
+  duration_ms: 39.506166
+  ...
+# Subtest: BRS-X(Hormones-PM6) approved hypothesis, unchanged science and original body
+ok 4 - BRS-X(Hormones-PM6) approved hypothesis, unchanged science and original body
+  ---
+  duration_ms: 38.47225
+  ...
+# Subtest: all four PM pages compile using the existing layout
+ok 5 - all four PM pages compile using the existing layout
+  ---
+  duration_ms: 541.5745
+  ...
+# Subtest: approved PE and androgen boundaries remain explicit
+ok 6 - approved PE and androgen boundaries remain explicit
+  ---
+  duration_ms: 0.800417
+  ...
+# (node:45703) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: canonical hypothesis uses existing schema, correct direction and immediate placement
+ok 7 - canonical hypothesis uses existing schema, correct direction and immediate placement
+  ---
+  duration_ms: 153.22125
+  ...
+# Subtest: reviewed evidence and five links survive without conflating different endpoints
+ok 8 - reviewed evidence and five links survive without conflating different endpoints
+  ---
+  duration_ms: 0.378292
+  ...
+# Subtest: all previous PM1 scientific fields and original body are preserved exactly
+ok 9 - all previous PM1 scientific fields and original body are preserved exactly
+  ---
+  duration_ms: 2.574541
+  ...
+# Subtest: actual hypothesis component renders visible Unestablished status before unchanged Findings
+ok 10 - actual hypothesis component renders visible Unestablished status before unchanged Findings
+  ---
+  duration_ms: 76.295917
+  ...
+# Subtest: complete PM1 MDX compiles through the existing Docusaurus layout pipeline
+ok 11 - complete PM1 MDX compiles through the existing Docusaurus layout pipeline
+  ---
+  duration_ms: 296.777958
+  ...
+# Subtest: hypothesis leaves causal extraction, food targets and manuscript decisions identical
+ok 12 - hypothesis leaves causal extraction, food targets and manuscript decisions identical
+  ---
+  duration_ms: 275.634708
+  ...
+# Subtest: food, recipe, PM, KC, phenome and hub classification
+ok 13 - food, recipe, PM, KC, phenome and hub classification
+  ---
+  duration_ms: 1.222083
+  ...
+# Subtest: letters and site paths
+ok 14 - letters and site paths
+  ---
+  duration_ms: 0.498042
+  ...
+# Subtest: page ids prefer mechanism identifiers
+ok 15 - page ids prefer mechanism identifiers
+  ---
+  duration_ms: 0.087333
+  ...
+# Subtest: public dataset excludes internal issues and private fields
+ok 16 - public dataset excludes internal issues and private fields
+  ---
+  duration_ms: 2.125333
+  ...
+# Subtest: public Review & Corrections UI is shared layout, not per-page content
+ok 17 - public Review & Corrections UI is shared layout, not per-page content
+  ---
+  duration_ms: 3.499291
+  ...
+# Subtest: framework-wide issues are not copied onto every register row
+ok 18 - framework-wide issues are not copied onto every register row
+  ---
+  duration_ms: 0.174875
+  ...
+# Subtest: generated public dataset stays public-safe
+not ok 19 - generated public dataset stays public-safe
+  ---
+  duration_ms: 5.310459
+  location: 'file:///private/tmp/brain-startup-verification-20261114/scripts/framework-qc.test.mjs:243:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    0 !== 2
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 2
+  actual: 0
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///private/tmp/brain-startup-verification-20261114/scripts/framework-qc.test.mjs:255:10)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: PM1 rerun records stay valid and off the framework register
+ok 20 - PM1 rerun records stay valid and off the framework register
+  ---
+  duration_ms: 0.406291
+  ...
+# Subtest: central register dataset lists every issue while the public dataset stays filtered
+ok 21 - central register dataset lists every issue while the public dataset stays filtered
+  ---
+  duration_ms: 0.142625
+  ...
+# Subtest: PM open issues stay page-specific and off the framework register
+ok 22 - PM open issues stay page-specific and off the framework register
+  ---
+  duration_ms: 2.0155
+  ...
+# Subtest: all nine approved recovered hypotheses retain exact identities and Unestablished status
+ok 23 - all nine approved recovered hypotheses retain exact identities and Unestablished status
+  ---
+  duration_ms: 615.947125
+  ...
+# Subtest: hypothesis recovery does not change any approved ranked selection or observation
+ok 24 - hypothesis recovery does not change any approved ranked selection or observation
+  ---
+  duration_ms: 40.963667
+  ...
+# Subtest: recovered ignored QC inputs explain the historical PM4 count without publishing or closing issues
+ok 25 - recovered ignored QC inputs explain the historical PM4 count without publishing or closing issues
+  ---
+  duration_ms: 403.855125
+  ...
+# Subtest: ECS PM3 projection discrepancy is precisely a canonical genistein hyperlink, not changed scientific text
+ok 26 - ECS PM3 projection discrepancy is precisely a canonical genistein hyperlink, not changed scientific text
+  ---
+  duration_ms: 1.94025
+  ...
+# (node:45707) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: hypothesis validates, is unestablished and appears immediately before unchanged §4.1 Finding projection
+ok 27 - hypothesis validates, is unestablished and appears immediately before unchanged §4.1 Finding projection
+  ---
+  duration_ms: 1272.248041
+  ...
+# Subtest: all old structured PM9 scientific fields remain identical, and all other PM source bytes match their independently approved baselines
+not ok 28 - all old structured PM9 scientific fields remain identical, and all other PM source bytes match their independently approved baselines
+  ---
+  duration_ms: 2.627542
+  location: 'file:///private/tmp/brain-startup-verification-20261114/scripts/scientific-hypotheses.test.mjs:7:1'
+  failureType: 'testCodeFailure'
+  error: 'docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: '802dc23f2b67a192aac6c17a1d88809579c71b25acbbeb0f66f79d573225eb51'
+  actual: '92c246a8af7676f6e683ea177a6d0f0a2a9d8b38ee12b480d07dd6ba3d5d1c63'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///private/tmp/brain-startup-verification-20261114/scripts/scientific-hypotheses.test.mjs:7:527)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async startSubtest (node:internal/test_runner/harness:216:3)
+  ...
+# Subtest: original reference direction, source commit, explanations and page record are traceable
+ok 29 - original reference direction, source commit, explanations and page record are traceable
+  ---
+  duration_ms: 0.088917
+  ...
+# Subtest: direct support, null/contradictory evidence and context are not conflated; no invented SF or score
+ok 30 - direct support, null/contradictory evidence and context are not conflated; no invented SF or score
+  ---
+  duration_ms: 0.228208
+  ...
+# Subtest: empty PMs render no hypothesis section; invalid statuses, directions, dangling Findings and score injection fail closed
+ok 31 - empty PMs render no hypothesis section; invalid statuses, directions, dangling Findings and score injection fail closed
+  ---
+  duration_ms: 166.354042
+  ...
+# Subtest: Supported does not admit a causal edge; actual graph and synthetic canonical §6.2 extraction remain protected
+ok 32 - Supported does not admit a causal edge; actual graph and synthetic canonical §6.2 extraction remain protected
+  ---
+  duration_ms: 36.75325
+  ...
+# Subtest: automatic link collection rejects the hypothesis-only href while retaining an unrelated relationship
+ok 33 - automatic link collection rejects the hypothesis-only href while retaining an unrelated relationship
+  ---
+  duration_ms: 0.227667
+  ...
+# Subtest: hypotheses do not enter input mappings or current approved manuscript exports
+ok 34 - hypotheses do not enter input mappings or current approved manuscript exports
+  ---
+  duration_ms: 159.573625
+  ...
+# Subtest: real component renders a compact native disclosure with visible status and no SEC/admission control
+ok 35 - real component renders a compact native disclosure with visible status and no SEC/admission control
+  ---
+  duration_ms: 68.416083
+  ...
+# Subtest: complete PM9 MDX compiles with the existing layout plugin and preserves the Scientific Findings anchor
+ok 36 - complete PM9 MDX compiles with the existing layout plugin and preserves the Scientific Findings anchor
+  ---
+  duration_ms: 228.598208
+  ...
+1..36
+# tests 36
+# suites 0
+# pass 34
+# fail 2
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2563.280042

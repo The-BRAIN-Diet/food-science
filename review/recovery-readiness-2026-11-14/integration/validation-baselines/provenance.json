@@ -1,0 +1,15 @@
+{
+  "source_commit": "1841b3362cc960aad746bada35c3ec4f8a88c426",
+  "basis": "User explicitly instructed preserving verified implementation 1841. Both PM files are byte-identical to that approved implementation and to current integrated runtime. Historical pilot fixtures remain untouched.",
+  "files": [
+    {
+      "file": "pm9-approved.mdx",
+      "sha256": "dcbdbda7645916130bb9683b334667cb8f47d8092a0246472f774ff0dac6f39c"
+    },
+    {
+      "file": "pm1-approved.mdx",
+      "sha256": "80a6a7c4bcfb731075629d01fed30ee2ed1653f67be05d078efce5bd8aba708d"
+    }
+  ],
+  "scope": "Test fixtures only. Not new approval of scientific content or QC restoration."
+}

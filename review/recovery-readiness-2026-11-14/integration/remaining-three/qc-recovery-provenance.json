@@ -1,0 +1,16 @@
+[
+  {
+    "source": "/Users/paulhouston/Food Science/food-science/system/framework-qc/framework-issues-register.json",
+    "sha256": "e469278f071004d81d1046ec609e94da0ae3c2e9f4bb67ae6a13baa5693f38a1",
+    "destination": "review/recovery-readiness-2026-11-14/integration/remaining-three/framework-issues-register.json",
+    "reason_missing": "Git ignored by /system/framework-qc/*; never tracked on integrated branch",
+    "activation": "Recovery archive only; not installed into active QC inputs or generated public data"
+  },
+  {
+    "source": "/Users/paulhouston/Food Science/food-science/system/framework-qc/page-review-state.json",
+    "sha256": "4f707352441b9c29f3bf3c86e5237749f84db9681e9388c793acdf2b5cb29ded",
+    "destination": "review/recovery-readiness-2026-11-14/integration/remaining-three/page-review-state.json",
+    "reason_missing": "Git ignored by /system/framework-qc/*; never tracked on integrated branch",
+    "activation": "Recovery archive only; not installed into active QC inputs or generated public data"
+  }
+]
