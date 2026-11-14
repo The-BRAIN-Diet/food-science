@@ -9,7 +9,7 @@ Backup, not publication approval. Original checkouts and indexes retained. No re
 - Main/PR merge base: `8415b0cead710ead990a8c0c8f2a42441ff844f6`; main-only 1 commit, PR-only 4 commits. PR is not based on the latest main tip.
 - Cursor startup commit `9d9159d865dc830555e6451a24af02deea8eb3f7` was local-only; now an ancestor of the Cursor backup.
 - Local preview PID 14154: Python http.server, 127.0.0.1:3191; working directory `/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/combined-local/static`. Static assets only, not a complete Docusaurus PM server.
-- Candidate remains detached at `af13bec172b5938098a46f85c06523b8a20e90dc`; backup refs do not move its HEAD. At entry: 243 collapsed status entries / 504 individual paths; after authorised startup fix: 246 collapsed entries. This intentionally remains dirty; backups were created using separate indexes without resetting/staging the original index.
+- Candidate remains detached at `af13bec172b5938098a46f85c06523b8a20e90dc`; backup refs do not move its HEAD. At entry: 243 collapsed status entries / 504 individual paths; after authorised startup and renderer fixes: 249 collapsed entries. This intentionally remains dirty; backups were created using separate indexes without resetting/staging the original index.
 
 ## Source checkout inventory
 
@@ -59,7 +59,7 @@ Each source-state commit contains `recovery/20261114-working-state.json` with or
 | Recovery branch | Full pushed commit |
 |---|---|
 | [recovery/20261114-rapid-stage2ab](https://github.com/The-BRAIN-Diet/food-science/tree/recovery/20261114-rapid-stage2ab) | `eb67615caf314c4d537c1bc2add69c02ff776fd7` |
-| [recovery/20261114-combined-local](https://github.com/The-BRAIN-Diet/food-science/tree/recovery/20261114-combined-local) | `2109bb5ad1d836c2898334a6dd94444a16cabe21` |
+| [recovery/20261114-combined-local](https://github.com/The-BRAIN-Diet/food-science/tree/recovery/20261114-combined-local) | `c9730cc2d0b9a7ca8f518c05bfc410e7cfe4194d` |
 | [recovery/20261114-brain-diet-v1-quantitative](https://github.com/The-BRAIN-Diet/food-science/tree/recovery/20261114-brain-diet-v1-quantitative) | `95ea448716a9da82e6b425423935c90121753274` |
 | [recovery/20261114-brs4-pm4-pm5-reassessment](https://github.com/The-BRAIN-Diet/food-science/tree/recovery/20261114-brs4-pm4-pm5-reassessment) | `ec7c3e7a3bb591e4d27313797cd705a50851143b` |
 | [recovery/20261114-brs5-kc2-focused-reassessment](https://github.com/The-BRAIN-Diet/food-science/tree/recovery/20261114-brs5-kc2-focused-reassessment) | `37ab37ab3d5c273d82422648462d58859c83b2da` |
@@ -71,6 +71,7 @@ Each source-state commit contains `recovery/20261114-working-state.json` with or
 | [recovery/20261114-release-reviewed-framework](https://github.com/The-BRAIN-Diet/food-science/tree/recovery/20261114-release-reviewed-framework) | `d29526e063630016a42d864ce138444ab53dc2ac` |
 | [recovery/20261114-food-science](https://github.com/The-BRAIN-Diet/food-science/tree/recovery/20261114-food-science) | `6a79296bfd94d9b128b15d1a81265095345cd2b9` |
 | [recovery/20261114-brs5-scfa-controlled-test](https://github.com/The-BRAIN-Diet/food-science/tree/recovery/20261114-brs5-scfa-controlled-test) | `1f217713b37f4e76b9349892afa72e7d5da1c3f0` |
+| [recovery/20261114-wheel-renderer-repair](https://github.com/The-BRAIN-Diet/food-science/tree/recovery/20261114-wheel-renderer-repair) | `bbac659eba841c72c008d662708588c6716791f8` |
 
 ## Focused validation and preserved blockers
 
@@ -87,14 +88,14 @@ Each source-state commit contains `recovery/20261114-working-state.json` with or
 First missing SVG inventory key: **quercetin**; second latent key: **genistein**. Both canonical registry identities exist; no alias mismatch.
 Main f0845f3a has 68 SVG nodes / 76 embedded inventory records and no missing SVG identities. Food commit 97335940 adds the two layout nodes (70 total) without adding them to index.html embedded DATA.network.inventory (still 76). PR head and startup commit retain that mismatch.
 build-food-wheel-top-ten.mjs reads embedded DATA from index.html. build-food-wheel-unranked.mjs separately adds quercetin/genistein as composition-only nodes to display-network.json (78 records) with existing Distinctive display metadata. The ranked renderer receives the older inventory and unconditionally reads s.category for every SVG entity.
-Classification: inconsistent generated/embedded input layers plus missing renderer validation; not missing canonical biology or a need for new admissions. Smallest prospective repair is to make the renderer explicitly handle template-only composition nodes using the existing qualified display inventory/metadata, with named validation for absent metadata, preserving ranked output and composition-only status. Do not silently remove nodes or fabricate categories. Diagnosis only in this task; repair awaits separate scope.
+Classification: inconsistent generated/embedded input layers plus missing renderer validation; not missing canonical biology or a need for new admissions. Smallest prospective repair is to make the renderer explicitly handle template-only composition nodes using the existing qualified display inventory/metadata, with named validation for absent metadata, preserving ranked output and composition-only status. Do not silently remove nodes or fabricate categories. This diagnosis was preserved before the subsequently authorised repair described below.
 
 ## QC suspension and publication boundaries
 
 The cross-framework hypothesis/QC release gate remains provisionally suspended as directed, pending separate scientific reconciliation and validation. Its code, historical decisions and diagnostics are preserved. Gate code and publication-pin bytes match their respective source snapshots. No gate re-enabled and no content edited to satisfy its assumptions.
 Unavailable: a trustworthy cross-framework QC release-blocking verdict; a completed production build; HTTP/browser verification of the bounded new dev-server run. Focused tests are not a substitute for these.
 Suspension is not admission approval, rejection of a substance, promotion of held evidence, or permission to create accepted graph edges. Admissions remain PM-role/context-specific.
-Outstanding publication decisions: reconcile differing candidate/PR source versions; review capers publication pin separately; repair the identified layout/inventory pipeline mismatch; classify residual stale fixtures versus genuine discrepancies; validate the suspended QC gate separately before restoring release blocking.
+Outstanding publication decisions: reconcile differing candidate/PR source versions; review capers publication pin separately; review the separately backed-up renderer repair and ranking delta; classify residual stale fixtures versus genuine discrepancies; validate the suspended QC gate separately before restoring release blocking.
 
 ## Intentional local-only exclusions
 
@@ -105,3 +106,21 @@ Original sources were content-verified against backup Git blobs. The backup is n
 ## Reproduction
 
 Fetch the named recovery branch; inspect recovery/20261114-working-state.json and compare blobs/hashes. Use the historical source commit in that manifest for original context. Do not run generators before comparing archived outputs. Decompress .json.gz historical snapshots losslessly when needed. Local preview remains http://127.0.0.1:3191/explore/food-wheel/.
+
+## Subsequently authorised pipeline repair — verified
+
+The author approved repair after the initial diagnosis. Shared template validation now names missing inventory IDs, missing existing category metadata and missing food-link positions. It does not invent a category. The two composition-only layout groups are explicitly marked in the Cursor template. Ranked rendering omits only explicitly marked, unreferenced layout-only nodes absent from that view’s inventory; any actual relationship to a missing identity still fails by name. Combined rendering retains both nodes using the existing unranked inventory. No canonical identity is deleted.
+
+- `recovery/20261114-wheel-renderer-repair` is based on the preserved Cursor state. It contains the exact 70-node template repair, code/tests, and isolated generated results under `recovery/20261114-renderer-repair/`, not as active publication outputs.
+- The shared validation/caller fix is also applied locally and backed up on the candidate branch. Its existing 68-node template is retained; no new scientific node was imported into the older candidate.
+- Combined generation now validates before writing JSON/SVG, avoiding a half-written output on validation failure.
+- Renderer tests: 8/8 on both candidate and isolated Cursor data. Combined candidate suite: 16/16 (renderer, startup, four hypotheses); hypothesis sync 0 problems.
+- Production regeneration and the documented-unranked generator both complete in the isolated Cursor-derived copy. This is generation validation, not a complete production build or browser sign-off.
+- Snapshot bytes unchanged: saved ranked snapshot remains 984 edges, 79 foods, 112/158 covered targets. Comparing with the frozen embedded wheel (1,015 edges): 20 added, 51 removed, 56 shared edges with changed rank/power/observation. The complete edge IDs are attached. This existing divergence is not approved for publication by fixing rendering.
+- Quercetin/genistein: zero ranked edges; 11 composition-only associations remain unranked with no RSP/rank. Existing metadata is reused, not fabricated.
+- All 35 backed-up candidate static files were checked byte-for-byte unchanged. No preview snapshot replaced. Cursor original worktree remains unchanged.
+- Cross-framework QC gate remains suspended. No gate, admission, SEC, canonical quantities or publication pins were changed by this repair.
+
+## Remote verification
+
+All 14 source/repair recovery refs resolve to their recorded full SHAs. The evidence/report branch is additional. Both Brazil nuts and cloves pages, medium/thumb WebP images, original PNGs and mapping records were verified in the remote-named Cursor backup commit. GitHub main and PR #243 remain exactly at their initial SHAs. No PR was opened/updated, merged or deployed.

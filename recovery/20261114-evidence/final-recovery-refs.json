@@ -4,15 +4,17 @@
     "branch": "recovery/20261114-rapid-stage2ab",
     "commit": "eb67615caf314c4d537c1bc2add69c02ff776fd7",
     "files": 163,
-    "compressed": []
+    "compressed": [],
+    "verified_remote": "eb67615caf314c4d537c1bc2add69c02ff776fd7"
   },
   {
     "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/combined-local",
     "branch": "recovery/20261114-combined-local",
-    "commit": "2109bb5ad1d836c2898334a6dd94444a16cabe21",
+    "commit": "c9730cc2d0b9a7ca8f518c05bfc410e7cfe4194d",
     "files": 519,
     "compressed": [],
-    "snapshot_commit": "2c258e0ed4a005697beb4ea56e3fe47a3289bf13"
+    "snapshot_commit": "2c258e0ed4a005697beb4ea56e3fe47a3289bf13",
+    "verified_remote": "c9730cc2d0b9a7ca8f518c05bfc410e7cfe4194d"
   },
   {
     "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brain-diet-v1-quantitative",
@@ -48,76 +50,94 @@
         "bytes": 98253564,
         "compressed_bytes": 6261868
       }
-    ]
+    ],
+    "verified_remote": "95ea448716a9da82e6b425423935c90121753274"
   },
   {
     "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brs4-pm4-pm5-reassessment",
     "branch": "recovery/20261114-brs4-pm4-pm5-reassessment",
     "commit": "ec7c3e7a3bb591e4d27313797cd705a50851143b",
     "files": 60,
-    "compressed": []
+    "compressed": [],
+    "verified_remote": "ec7c3e7a3bb591e4d27313797cd705a50851143b"
   },
   {
     "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brs5-kc2-focused-reassessment",
     "branch": "recovery/20261114-brs5-kc2-focused-reassessment",
     "commit": "37ab37ab3d5c273d82422648462d58859c83b2da",
     "files": 76,
-    "compressed": []
+    "compressed": [],
+    "verified_remote": "37ab37ab3d5c273d82422648462d58859c83b2da"
   },
   {
     "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/deferred-stage2ab",
     "branch": "recovery/20261114-deferred-stage2ab",
     "commit": "bbee350b2d17f48f11b65f3dc1c5ef74cb1020d1",
     "files": 76,
-    "compressed": []
+    "compressed": [],
+    "verified_remote": "bbee350b2d17f48f11b65f3dc1c5ef74cb1020d1"
   },
   {
     "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/food-wheel-publication",
     "branch": "recovery/20261114-food-wheel-publication",
     "commit": "0ba9e424f01282b4c548bb8e306e6832312f2073",
     "files": 146,
-    "compressed": []
+    "compressed": [],
+    "verified_remote": "0ba9e424f01282b4c548bb8e306e6832312f2073"
   },
   {
     "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/food-wheel-top-ten",
     "branch": "recovery/20261114-food-wheel-top-ten",
     "commit": "f4d0704eb3b24892d0dc6d84399984db018e7211",
     "files": 391,
-    "compressed": []
+    "compressed": [],
+    "verified_remote": "f4d0704eb3b24892d0dc6d84399984db018e7211"
   },
   {
     "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/food-wheel-top-ten-amino",
     "branch": "recovery/20261114-food-wheel-top-ten-amino",
     "commit": "cb03e4498bb5742ba5f3f6d37b878011b942b1a0",
     "files": 2,
-    "compressed": []
+    "compressed": [],
+    "verified_remote": "cb03e4498bb5742ba5f3f6d37b878011b942b1a0"
   },
   {
     "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/recipe-matrix-preview",
     "branch": "recovery/20261114-recipe-matrix-preview",
     "commit": "079d484bb017ff70359c288cab423900cf71eb93",
     "files": 15,
-    "compressed": []
+    "compressed": [],
+    "verified_remote": "079d484bb017ff70359c288cab423900cf71eb93"
   },
   {
     "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework",
     "branch": "recovery/20261114-release-reviewed-framework",
     "commit": "d29526e063630016a42d864ce138444ab53dc2ac",
     "files": 56,
-    "compressed": []
+    "compressed": [],
+    "verified_remote": "d29526e063630016a42d864ce138444ab53dc2ac"
   },
   {
     "path": "/Users/paulhouston/Food Science/food-science",
     "branch": "recovery/20261114-food-science",
     "commit": "6a79296bfd94d9b128b15d1a81265095345cd2b9",
     "files": 48,
-    "compressed": []
+    "compressed": [],
+    "verified_remote": "6a79296bfd94d9b128b15d1a81265095345cd2b9"
   },
   {
     "path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brs5-scfa-controlled-test",
     "branch": "recovery/20261114-brs5-scfa-controlled-test",
     "commit": "1f217713b37f4e76b9349892afa72e7d5da1c3f0",
     "files": 49,
-    "compressed": []
+    "compressed": [],
+    "verified_remote": "1f217713b37f4e76b9349892afa72e7d5da1c3f0"
+  },
+  {
+    "path": "/tmp/brain-startup-verification-20261114",
+    "branch": "recovery/20261114-wheel-renderer-repair",
+    "commit": "bbac659eba841c72c008d662708588c6716791f8",
+    "parent": "6a79296bfd94d9b128b15d1a81265095345cd2b9",
+    "verified_remote": "bbac659eba841c72c008d662708588c6716791f8"
   }
 ]
