@@ -1,0 +1,20 @@
+{
+  "source_path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/food-wheel-top-ten-amino",
+  "source_head": "4be84e79bb22ed3dda660e5b81e5381feffc22d1",
+  "source_branch": "experiment/food-wheel-top-ten-2026-11-09",
+  "purpose": "Backup only. Not a release candidate. No regeneration or scientific approval inferred.",
+  "files": [
+    {
+      "path": "src/data/rankedFoodSources.generated.json",
+      "bytes": 5303677,
+      "sha256": "0ba207ceda6b3078125bb951f0022f7401f2913fed0523b3c5284fcc03ea59cc"
+    },
+    {
+      "path": "system/generated/ranked-food-sources/diagnostics.generated.json",
+      "bytes": 5303677,
+      "sha256": "0ba207ceda6b3078125bb951f0022f7401f2913fed0523b3c5284fcc03ea59cc"
+    }
+  ],
+  "excluded": [],
+  "lossless_compressed": []
+}
