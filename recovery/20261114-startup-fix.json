@@ -1,0 +1,19 @@
+{
+  "parent": "2c258e0ed4a005697beb4ea56e3fe47a3289bf13",
+  "files": [
+    {
+      "path": "package.json",
+      "sha256": "e5a249f5be2fb8480918e4513ac62cc2aeb7065b177a75236fad7e0d381df15c"
+    },
+    {
+      "path": "scripts/generate-all-input-mappings.mjs",
+      "sha256": "d2e0587cf55f29cdc68a7faef296c51342f274f16e438666403973446698eee6"
+    },
+    {
+      "path": "scripts/startup-ranking-preservation.test.mjs",
+      "sha256": "655366069ecf3b5c61e59acf6558d9171b84401cc293ac77885ef54d1268b28a"
+    }
+  ],
+  "tests": "2/2; Cursor runtime startup keeps 15 ranked/wheel files unchanged; production regeneration separately fails at renderer missing inventory category",
+  "scope": "Startup only. No gate or science change."
+}
