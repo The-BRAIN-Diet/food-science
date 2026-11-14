@@ -2,6 +2,8 @@ import React, {useMemo} from "react"
 import Link from "@docusaurus/Link"
 import {useHistory, useLocation} from "@docusaurus/router"
 import {
+  PUBLIC_QC_HISTORY_INCOMPLETE,
+  PUBLIC_QC_HISTORY_DISCLOSURE,
   frameworkQcRegister,
   reviewStatusLabel,
   type PublicIssue,
@@ -108,6 +110,7 @@ export default function FrameworkReviewRegister(): React.ReactNode {
 
   return (
     <div className={styles.register}>
+      {PUBLIC_QC_HISTORY_INCOMPLETE ? <p role="note">{PUBLIC_QC_HISTORY_DISCLOSURE}</p> : null}
       <div className={styles.controls}>
         <input
           type="search"
@@ -173,10 +176,10 @@ export default function FrameworkReviewRegister(): React.ReactNode {
       </div>
 
       <p className={styles.meta}>
-        {issues.length} {issues.length === 1 ? "issue" : "issues"}
+        {PUBLIC_QC_HISTORY_INCOMPLETE ? "Available review entries: " : ""}{issues.length} {PUBLIC_QC_HISTORY_INCOMPLETE ? "(history incomplete)" : issues.length === 1 ? "issue" : "issues"}
       </p>
 
-      {issues.length === 0 ? <p>No issues match these filters.</p> : null}
+      {issues.length === 0 && !PUBLIC_QC_HISTORY_INCOMPLETE ? <p>No issues match these filters.</p> : null}
 
       {issues.map((issue) => (
         <article className={styles.issueCard} key={issue.id} id={issue.id}>

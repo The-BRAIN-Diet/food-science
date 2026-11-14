@@ -2,6 +2,8 @@ import React, {type ReactNode} from "react"
 import Link from "@docusaurus/Link"
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 import {
+  PUBLIC_QC_HISTORY_INCOMPLETE,
+  PUBLIC_QC_HISTORY_DISCLOSURE,
   UNREVIEWED_CORRECTIONS_COPY,
   UNREVIEWED_STATUS_COPY,
   frameworkQcPublic,
@@ -58,9 +60,10 @@ export default function PageReviewPanel({
       aria-labelledby="review-corrections-tab"
     >
       <h2 tabIndex={-1}>Review &amp; Corrections</h2>
+      {PUBLIC_QC_HISTORY_INCOMPLETE ? <p role="note">{PUBLIC_QC_HISTORY_DISCLOSURE}</p> : null}
       <dl>
         <dt>Evidence review status</dt>
-        <dd>{reviewStatusLabel(page?.review_status)}</dd>
+        <dd>{PUBLIC_QC_HISTORY_INCOMPLETE && !page?.last_checked ? "Review history unavailable / incomplete" : reviewStatusLabel(page?.review_status)}</dd>
         <dt>Last checked</dt>
         <dd>{page?.last_checked || "Not recorded"}</dd>
         <dt>Review method</dt>
@@ -96,7 +99,7 @@ export default function PageReviewPanel({
             )}
           </section>
         </>
-      ) : (
+      ) : PUBLIC_QC_HISTORY_INCOMPLETE ? null : (
         <div className={styles.unreviewed}>
           <p>{UNREVIEWED_STATUS_COPY}</p>
           <p>{UNREVIEWED_CORRECTIONS_COPY}</p>
