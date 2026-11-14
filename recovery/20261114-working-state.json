@@ -1,0 +1,315 @@
+{
+  "source_path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brs4-pm4-pm5-reassessment",
+  "source_head": "a850e10126ad5c4bd290439fbcc72c2eae07f6a7",
+  "source_branch": "codex/brs4-pm4-pm5-reassessment",
+  "purpose": "Backup only. Not a release candidate. No regeneration or scientific approval inferred.",
+  "files": [
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec-followup/retrieval-connectors.json",
+      "bytes": 22973,
+      "sha256": "c541f533189b392fa5388fe35f5170756fde5a21747041b44e10427370f27022"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec-followup/sources/bell2007.txt",
+      "bytes": 32935,
+      "sha256": "61e2a4e95251d5c19184bd25f322afe844f34c0637332470dd9d97df96b1c3c2"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec-followup/sources/bell2007.xml",
+      "bytes": 97509,
+      "sha256": "1b00c1d36438171dcbf92d1006e1d696f9b6a8e45742ed994fc50d90ac975a47"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec-followup/sources/oliveira-figure13.response.html",
+      "bytes": 3038,
+      "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec-followup/sources/yamamoto1990.html",
+      "bytes": 75062,
+      "sha256": "77e8ff6790a2315bf13a4164866e25200e8fa79197ef9074b4993801790c5a0e"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/acuteexercise2017.txt",
+      "bytes": 41526,
+      "sha256": "8a032e07faf19f01694ea4068fc681efb5d2bfa2a102bda276926405bd2195a2"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/acuteexercise2017.xml",
+      "bytes": 150236,
+      "sha256": "d0ec42c0f533059b84adc5aee05a34c1389ef31b01517ecf9615b065b5e841a8"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/anderson2009.html",
+      "bytes": 249061,
+      "sha256": "1733d55c23e042fb6cf61d27e74ee72f8b96828ce065f3a615eafe68c121a329"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/anderson2009.txt",
+      "bytes": 77911,
+      "sha256": "d0428eea79d395d800df3dec4c63b3e7a147f6e21e012849fb3a58136c082f67"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/azuma2022.txt",
+      "bytes": 43804,
+      "sha256": "0d6701b5ebc57f79672efd16e8748d2d0b2b323ea6a24c8c78c9530e5ca1f876"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/azuma2022.xml",
+      "bytes": 115807,
+      "sha256": "fae911c959155236095b2a194c5acede92e393a924e6db6d02ddc806ef128a7f"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/brand2016.html",
+      "bytes": 214152,
+      "sha256": "32d84c0dbbd02d4b03ed26bf1e76f864a5da21d794f96348a7f148d82195d409"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/brand2016.txt",
+      "bytes": 62760,
+      "sha256": "4e23501cca9f8833cf445953507e5e2011b9a8c5f27b8782f0980e184ff80085"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/chouchani2014.txt",
+      "bytes": 52127,
+      "sha256": "76ce2b93b9d45d7b0dece97ef3c2f4702ae220b222416524b533bc4fbb6e6258"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/chouchani2014.xml",
+      "bytes": 139158,
+      "sha256": "355834d54e8119e09b0e41dc41239abec01effb197c5224c901b0971b41e7995"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/ganini2018.html",
+      "bytes": 270832,
+      "sha256": "eb945abbab089f538aacffc6967938b534e0828bb03a278985069cb90494edc2"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/ganini2018.txt",
+      "bytes": 92801,
+      "sha256": "533746d4edf87125547159eac917a3b2cc9f7a9a99d5370dd9903dca719d8f9a"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/gram2015.html",
+      "bytes": 231225,
+      "sha256": "e152e5e3f461238de484a4dad846497b0453e2fcc2e7c4156f631785dd3f1f65"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/gram2015.txt",
+      "bytes": 69445,
+      "sha256": "ca1443cd433221c73b705f68329d5e4b5050165db9e2604e34bfa164b882cfcd"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/herbst2014.html",
+      "bytes": 189935,
+      "sha256": "1b053b27d28fb5bdb0f8f72ee2c9d794ed54d007f6c6fcd5d7c722ff4ffbc845"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/herbst2014.txt",
+      "bytes": 51211,
+      "sha256": "c750f9dead2b8617aaa95ce3a7283a799bee0d96bab69c0f2b3a36ab72a7b20b"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/maalouf2007.html",
+      "bytes": 197139,
+      "sha256": "9c769c98fafe172a041088129b4da6a4b997c891e2996ea90aebd847d72de74c"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/maalouf2007.txt",
+      "bytes": 53649,
+      "sha256": "f26ea000c72549cf634c6cbb07976b41070cb3d8ad88e2555e3b37635ba6e438"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/rafique2001.html",
+      "bytes": 138569,
+      "sha256": "f2eb5e0e78ed671ee4589549ddc246d9fe3982aae1a8bd2a185c27ddf224383f"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/rafique2001.txt",
+      "bytes": 14160,
+      "sha256": "eb67f4e9af7f225dd53152aebe47edd56c8a044461e62ed616aa6fdad2223e1b"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/shi2022.txt",
+      "bytes": 87513,
+      "sha256": "1441b1bf5d696155f9c5656f3903ae9c907de30ac3cfa9c4788bca2bf2c8a9c8"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/shi2022.xml",
+      "bytes": 174762,
+      "sha256": "a2f37db9e24a91aabf7e9ae8d70494eb1a90204f76505f98396d11d086c1d361"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/wang2021.html",
+      "bytes": 276512,
+      "sha256": "0aa5da5918379ce4dbdc06af2f81c6d2da6a1c238b942d5b16e8d8c5ee27bb0f"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/wang2021.txt",
+      "bytes": 106821,
+      "sha256": "971c0cec76500cc9b26d22269712487aeb0e30579b2c02cf0e35d8aa2782e4f3"
+    },
+    {
+      "path": "scripts/out/framework-qc/framework-qc-public.json",
+      "bytes": 269011,
+      "sha256": "0c2f0dcf9c3871795477bea42cf424778890fb04f94ceef4e182184b98db4b59"
+    },
+    {
+      "path": "scripts/out/framework-qc/page-review-register.json",
+      "bytes": 334241,
+      "sha256": "11517d091b854ab99fd59f19e18450c6cad205c193a58c5a5ead637cb581e1d6"
+    },
+    {
+      "path": "scripts/out/framework-qc/page-review-report.md",
+      "bytes": 6917,
+      "sha256": "89464e3b1a53e9420c38948e2336c9d6579c0ce9bc7c4f4a47f2484ff1cc6184"
+    },
+    {
+      "path": "scripts/out/framework-qc/review-queue.html",
+      "bytes": 357953,
+      "sha256": "c4aea50fd3f235d5b3cc1213f105b37d8ee960c9a801db2751eda484ffd9bd21"
+    },
+    {
+      "path": "src/data/brs1InputMapping.generated.json",
+      "bytes": 3768246,
+      "sha256": "f29419e01f5224b042b8aae0829f79aad6288056bc0db76e4efd755726506d51"
+    },
+    {
+      "path": "src/data/brs2InputMapping.generated.json",
+      "bytes": 3390297,
+      "sha256": "2794215c3f29d025be68c3b2284fba4f2febea0a911ade07ad789117ec89a2c1"
+    },
+    {
+      "path": "src/data/brs3InputMapping.generated.json",
+      "bytes": 2511547,
+      "sha256": "c2397cba745974571b52f04aa0e2ac7331b25d55c2672af8be8ceaecc41b16e7"
+    },
+    {
+      "path": "src/data/brs4InputMapping.generated.json",
+      "bytes": 2743781,
+      "sha256": "b12a9bab35167c8e50db33ea31a3d436c979661787aab213dc4e47f373373735"
+    },
+    {
+      "path": "src/data/brs5InputMapping.generated.json",
+      "bytes": 1594466,
+      "sha256": "08bc1e2fd37a0b09cd0573b3f2e7766a0042564cfb96ae6b9ce9ad2e3c67f700"
+    },
+    {
+      "path": "src/data/brs6InputMapping.generated.json",
+      "bytes": 595891,
+      "sha256": "658fced6e6234569f2b160c4706e77b7fee6cc63f8d0be9d8f8121f3ef05e188"
+    },
+    {
+      "path": "src/data/foodStrategyRollup.generated.json",
+      "bytes": 66236,
+      "sha256": "de3c0819ce6788ec2830d27c530e33d5755b714b4426dc85c8fab94610225242"
+    },
+    {
+      "path": "src/data/framework-qc-public.generated.json",
+      "bytes": 269011,
+      "sha256": "0c2f0dcf9c3871795477bea42cf424778890fb04f94ceef4e182184b98db4b59"
+    },
+    {
+      "path": "system/generated/brs1-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 2527964,
+      "sha256": "592345774fc1a47cd99b8a57957e70aae527d3e14fee9f7064709d408bccb34c"
+    },
+    {
+      "path": "system/generated/brs1-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 2487116,
+      "sha256": "6c8eed2a7050235185ca302fb9a3e1e40767a786bcf3c8d98ce573703f654dae"
+    },
+    {
+      "path": "system/generated/brs1-input-substance-food/mapping.generated.json",
+      "bytes": 4516319,
+      "sha256": "c8952d808869996a477c595d5149e4fa1d0bfee730194d1afe853f48594e8d80"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 2408017,
+      "sha256": "0008e03c04650e05d22fdcbc37beb226d0a9c7bc7f3db2ce60b9e0aca6145e58"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 2374485,
+      "sha256": "3a283b8db88c953a04c28c2a0ede8f40758dd0615c2c3dde0d46761b9b20b5ec"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/mapping.generated.json",
+      "bytes": 4062855,
+      "sha256": "f9675a842d023d1bef4c4542d739c71042226c137ca4767b5d84af57cc79cd0e"
+    },
+    {
+      "path": "system/generated/brs3-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 1046745,
+      "sha256": "9189114865f4d7dae40efdf1a5c49cf2e2b75abd6c7de1ca243f3b7914bcce19"
+    },
+    {
+      "path": "system/generated/brs3-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 1031761,
+      "sha256": "7c7c09e0e1915492ded37f59b7e2a8f4f22fcafe224d6343938813fd518b5e44"
+    },
+    {
+      "path": "system/generated/brs3-input-substance-food/mapping.generated.json",
+      "bytes": 2867448,
+      "sha256": "0ebe60609d905e4ab02c29fc5bcdf22d64aa2fdf87fba9db0ad3ab737a13cae7"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 1419927,
+      "sha256": "36885aaa34e274ecdbe9a6bb01f3a1e34d3bfd2a46172fa3ca5dbb52a9c31e8b"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 1399179,
+      "sha256": "ee9171bf250923f5e61ac98f3cdd7460f57afb42ef30e8da080486c2d17d9024"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/mapping.generated.json",
+      "bytes": 3215348,
+      "sha256": "613e7746fd5a317ba0f3ae96922a9a230aee3933e7f34d9d0058083b34a5b838"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 702920,
+      "sha256": "2a3567a8223ab8cf663673640e83cbbef7a8e839a3ac1c3b3007d5eab49f6cad"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 692494,
+      "sha256": "aef3c53fed38252e7e5a865ceb2e240190ef7036ee0c428590d6ec8f235977ea"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/mapping.generated.json",
+      "bytes": 1829359,
+      "sha256": "468ddbec97bd3a2b07f6ab8e74179b5b18b16c6287df44e61bac664edb177df6"
+    },
+    {
+      "path": "system/generated/brs6-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 141182,
+      "sha256": "8617a1ef166b3dde1940045c675fa019e7b070f443824d05abacc565a4652255"
+    },
+    {
+      "path": "system/generated/brs6-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 138908,
+      "sha256": "8420438da682b0a625dfe547dae366cc0ec53fc23168c1ad85a60bcbd892d0f2"
+    },
+    {
+      "path": "system/generated/brs6-input-substance-food/mapping.generated.json",
+      "bytes": 659701,
+      "sha256": "a9fe29ec73a14faff2367e5e3d850c55bf5c290a6c60a5d14e19a3353f7639b9"
+    },
+    {
+      "path": "system/generated/dietary-food-targets/manuscript-rollup.json",
+      "bytes": 1896716,
+      "sha256": "c646c8dbcfda0e4e7deba0b4a789e8356df42ba4581bd238d79de1569d109148"
+    }
+  ],
+  "excluded": [
+    [
+      "review/brs4-pm4-pm5-2026-10-23/preview.log",
+      "machine configuration/log"
+    ]
+  ],
+  "lossless_compressed": []
+}

@@ -1,0 +1,422 @@
+{
+  "metadata": [
+    {
+      "total": 4,
+      "count": 4,
+      "query": "",
+      "limit": 4,
+      "offset": 0,
+      "hits": [
+        {
+          "doi": "10.1016/j.cmet.2005.05.001",
+          "title": "Mitochondrial complex III is required for hypoxia-induced ROS production and cellular oxygen sensing",
+          "authors": [
+            {
+              "authorName": "Robert D. Guzy"
+            },
+            {
+              "authorName": "Beatrice E. Hoyos"
+            },
+            {
+              "authorName": "Emmanuel Robin"
+            }
+          ],
+          "journal": "cell metabolism",
+          "publisher": "Elsevier BV",
+          "abstract": "Multicellular organisms initiate adaptive responses when oxygen (O(2)) availability decreases, but the underlying mechanism of O(2) sensing remains elusive. We find that functionality of complex III of the mitochondrial electron transport chain (ETC) is required for the hypoxic stabilization of HIF-...",
+          "year": 2005,
+          "date": "2005-06-01",
+          "volume": "1",
+          "issue": "6",
+          "page": "401-408",
+          "tally": {
+            "total": 1308,
+            "supporting": 53,
+            "contrasting": 4,
+            "mentioning": 1241,
+            "citingPublications": 1562
+          },
+          "citations": [
+            {
+              "sourceDoi": "10.1016/j.cmet.2005.05.001",
+              "targetDoi": "10.1038/20459",
+              "section": "introduction",
+              "type": "mentioning"
+            },
+            {
+              "sourceDoi": "10.1016/j.cmet.2005.05.001",
+              "targetDoi": "10.1073/pnas.94.11.5667",
+              "section": "introduction",
+              "type": "mentioning"
+            },
+            {
+              "sourceDoi": "10.1016/j.cmet.2005.05.001",
+              "targetDoi": "10.1074/jbc.c100177200",
+              "section": "introduction",
+              "type": "mentioning"
+            }
+          ],
+          "isOa": true,
+          "contentDenied": true,
+          "access": {
+            "url": "https://ct.prod.getft.io/c2NpdGUsZWxzZXZpZXIsTVRBdU1UQXhOaTlxTG1OdFpYUXVNakF3TlM0d05TNHdNREUsTURoaE5qazNZell0TTJKaFlTMDBabUkxTFRnelpHUXRPREUyT1RGbVptSmpOR1ZtLGh0dHBzOi8vd3d3LnNjaWVuY2VkaXJlY3QuY29tL3NjaWVuY2UvYXJ0aWNsZS9waWkvUzE1NTA0MTMxMDUwMDEzOTc_cGVzPXZvcg.3lOkNvXs4HsumiWdKdGPQtIffUFfjwpNPd8EDhiPYOM",
+            "source": "get_ftr",
+            "accessType": "publisher",
+            "contentType": "pdf",
+            "description": "View PDF"
+          },
+          "url": "https://ct.prod.getft.io/c2NpdGUsZWxzZXZpZXIsTVRBdU1UQXhOaTlxTG1OdFpYUXVNakF3TlM0d05TNHdNREUsTURoaE5qazNZell0TTJKaFlTMDBabUkxTFRnelpHUXRPREUyT1RGbVptSmpOR1ZtLGh0dHBzOi8vd3d3LnNjaWVuY2VkaXJlY3QuY29tL3NjaWVuY2UvYXJ0aWNsZS9waWkvUzE1NTA0MTMxMDUwMDEzOTc_cGVzPXZvcg.3lOkNvXs4HsumiWdKdGPQtIffUFfjwpNPd8EDhiPYOM"
+        },
+        {
+          "doi": "10.1113/jphysiol.2013.267336",
+          "title": "Omega‐3 supplementation alters mitochondrial membrane composition and respiration kinetics in human skeletal muscle",
+          "authors": [
+            {
+              "authorName": "Eric A.F. Herbst"
+            },
+            {
+              "authorName": "Sabina Paglialunga"
+            },
+            {
+              "authorName": "Christopher Gerling"
+            }
+          ],
+          "journal": "the journal of physiology",
+          "publisher": "Wiley",
+          "abstract": "Key pointsr Following fish oil supplementation, omega-3 fatty acids are incorporated into cellular membranes, which may affect lipid-protein interactions and therefore the function of embedded proteins.r As the components of the electron transport chain required for oxidative phosphorylation are con...",
+          "year": 2014,
+          "date": "2014-02-13",
+          "volume": "592",
+          "issue": "6",
+          "page": "1341-1352",
+          "tally": {
+            "total": 182,
+            "supporting": 13,
+            "contrasting": 4,
+            "mentioning": 160,
+            "citingPublications": 182
+          },
+          "citations": [
+            {
+              "sourceDoi": "10.1113/jphysiol.2013.267336",
+              "targetDoi": "10.1007/s11745-004-1317-0",
+              "snippet": "Within muscle, the transport of both carbohydrate and fatty acids across membrane bilayers represents a key regulatory step influencing fuel selection and overall metabolism. Omega-3 supplementation, particularly with fish oils enriched with eicosapentaenoic acid (EPA; 20:5n-3) and DHA (docosahexanoic acid; 22:6n-3), results in significant incorporation of polyunsaturated fatty acids (PUFAs) into numerous membrane phospholipid species within whole skeletal muscle (Yamaoka et al 1988;Andersson et al 2002;Owen et al 2004;Dangardt et al 2012).",
+              "section": "introduction",
+              "type": "mentioning"
+            },
+            {
+              "sourceDoi": "10.1113/jphysiol.2013.267336",
+              "targetDoi": "10.1007/s11745-004-1317-0",
+              "snippet": "It is well established that altering fatty acid composition of the diet can effect membrane composition in both rodent heart (Charnock et al 1986) and skeletal muscle (Owen et al 2004), and utilizing various dosages and time frames, omega-3 PUFA supplementation has also been shown to result in omega-3 accumulation in whole muscle membranes from human tissue (Andersson et al 2002;Stark et al 2002;Dangardt et al 2012;Smith et al 2013). Here we show that fish oil supplementation results in robust incorporation of omega-3 PUFAs into human muscle mitochondrial membranes and displaces omega-6 PUFAs from some phospholipid species, supporting previous work conducted in rat heart (Khairallah et al 2012) and liver (Pehowich, 1999).",
+              "section": "discussion",
+              "type": "mentioning"
+            },
+            {
+              "sourceDoi": "10.1113/jphysiol.2013.267336",
+              "targetDoi": "10.1007/s11745-004-1317-0",
+              "snippet": ") and skeletal muscle (Owen et al . ), and utilizing various dosages and time frames, omega‐3 PUFA supplementation has also been shown to result in omega‐3 accumulation in whole muscle membranes from human tissue (Andersson et al . ; Stark et al .",
+              "section": "discussion",
+              "type": "mentioning"
+            }
+          ],
+          "isOa": true,
+          "contentDenied": false,
+          "access": {
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3961091",
+            "source": "oa_url",
+            "accessType": "open",
+            "contentType": "pdf",
+            "description": "View PDF"
+          },
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3961091"
+        },
+        {
+          "doi": "10.1007/s12035-017-0684-2",
+          "title": "Sulforaphane Promotes Mitochondrial Protection in SH-SY5Y Cells Exposed to Hydrogen Peroxide by an Nrf2-Dependent Mechanism",
+          "authors": [
+            {
+              "authorName": "Marcos Roberto de Oliveira"
+            },
+            {
+              "authorName": "Flávia Bittencourt Brasil"
+            },
+            {
+              "authorName": "Cristina Ribas Fürstenau"
+            }
+          ],
+          "journal": "molecular neurobiology",
+          "publisher": "Springer Science and Business Media LLC",
+          "abstract": "Sulforaphane (SFN; CHNOS) is an isothiocyanate found in cruciferous vegetables, such as broccoli, kale, and radish. SFN exhibits antioxidant, anti-apoptotic, anti-tumor, and anti-inflammatory activities in different cell types. However, it was not previously demonstrated whether and how this natural...",
+          "year": 2017,
+          "date": "2017-07-20",
+          "volume": "55",
+          "issue": "6",
+          "page": "4777-4787",
+          "tally": {
+            "total": 29,
+            "supporting": 4,
+            "contrasting": 0,
+            "mentioning": 25,
+            "citingPublications": 50
+          },
+          "isOa": false,
+          "contentDenied": true,
+          "access": {
+            "url": "https://doi.org/10.1007/s12035-017-0684-2",
+            "source": "publisher_version_of_record",
+            "accessType": "publisher",
+            "contentType": "redirect",
+            "description": "Get access via publisher"
+          },
+          "url": "https://doi.org/10.1007/s12035-017-0684-2"
+        },
+        {
+          "doi": "10.1016/0014-5793(91)80720-n",
+          "title": "Inhibition of lipid peroxidation by ubiquinol in submitochondrial particles in the absence of vitamin E",
+          "authors": [
+            {
+              "authorName": "Patrik Forsmark-Andrée"
+            },
+            {
+              "authorName": "Fredrik O. Åberg"
+            },
+            {
+              "authorName": "Birgitta Norling"
+            }
+          ],
+          "journal": "febs letters",
+          "publisher": "Wiley",
+          "abstract": "The relationship between the antioxidant effects of reduced coenzyme Q,, (ubiquinol, UQH,) and vitamin E (or-tocopherol) was investigated in beef heart submitochondeial particles in which lipid peroxidation was initiated by incubation with ancorbatei-AD&amp;Fe'+.These effects were examined after ext...",
+          "year": 1991,
+          "date": "1991-07-08",
+          "volume": "285",
+          "issue": "1",
+          "page": "39-43",
+          "tally": {
+            "total": 49,
+            "supporting": 3,
+            "contrasting": 0,
+            "mentioning": 46,
+            "citingPublications": 121
+          },
+          "isOa": true,
+          "contentDenied": true,
+          "access": {
+            "url": "https://ct.prod.getft.io/c2NpdGUsd2lsZXksTVRBdU1UQXhOaTh3TURFMExUVTNPVE1vT1RFcE9EQTNNakF0YmcsT0dJeFpHSmpNRE10TWpnMFl5MDBNVFZtTFRrd05qZ3RZMkZpTnpObVpqaG1PREU1LGh0dHBzOi8vZmVicy5vbmxpbmVsaWJyYXJ5LndpbGV5LmNvbS9kb2kvcGRmLzEwLjEwMTYvMDAxNC01NzkzJTI4OTElMjk4MDcyMC1O.GvNC8oE7h0alA9LzvLeYyxDRmhax082madfXHwVvx2I",
+            "source": "get_ftr",
+            "accessType": "publisher",
+            "contentType": "pdf",
+            "description": "View PDF"
+          },
+          "url": "https://ct.prod.getft.io/c2NpdGUsd2lsZXksTVRBdU1UQXhOaTh3TURFMExUVTNPVE1vT1RFcE9EQTNNakF0YmcsT0dJeFpHSmpNRE10TWpnMFl5MDBNVFZtTFRrd05qZ3RZMkZpTnpObVpqaG1PREU1LGh0dHBzOi8vZmVicy5vbmxpbmVsaWJyYXJ5LndpbGV5LmNvbS9kb2kvcGRmLzEwLjEwMTYvMDAxNC01NzkzJTI4OTElMjk4MDcyMC1O.GvNC8oE7h0alA9LzvLeYyxDRmhax082madfXHwVvx2I"
+        }
+      ],
+      "hint": "To get full details for a paper, call this tool again with its DOI in the `dois` parameter. Use `term` to search within the paper."
+    }
+  ],
+  "guzy": [
+    {
+      "doi": "10.1016/j.cmet.2005.05.001",
+      "title": "Mitochondrial complex III is required for hypoxia-induced ROS production and cellular oxygen sensing",
+      "source": "abstract",
+      "text": "Multicellular organisms initiate adaptive responses when oxygen (O(2)) availability decreases, but the underlying mechanism of O(2) sensing remains elusive. We find that functionality of complex III of the mitochondrial electron transport chain (ETC) is required for the hypoxic stabilization of HIF-1 alpha and HIF-2 alpha and that an increase in reactive oxygen species (ROS) links this complex to HIF-alpha stabilization. Using RNAi to suppress expression of the Rieske iron-sulfur protein of complex III, hypoxia-induced HIF-1 alpha stabilization is attenuated, and ROS production, measured using a novel ROS-sensitive FRET probe, is decreased. These results demonstrate that mitochondria function as O(2) sensors and signal hypoxic HIF-1 alpha and HIF-2 alpha stabilization by releasing ROS to the cytosol.",
+      "offset": 0,
+      "returnedChars": 811,
+      "totalChars": 811,
+      "hasMore": false,
+      "contentDenied": true,
+      "link": "https://doi.org/10.1016/j.cmet.2005.05.001",
+      "message": "Full text is access-restricted for this paper; showing the abstract instead. `link` is where the user reads the paper itself — don't treat this abstract as the paper."
+    }
+  ],
+  "oliveira": [
+    {
+      "doi": "10.1007/s12035-017-0684-2",
+      "title": "Sulforaphane Promotes Mitochondrial Protection in SH-SY5Y Cells Exposed to Hydrogen Peroxide by an Nrf2-Dependent Mechanism",
+      "source": "abstract",
+      "text": "Sulforaphane (SFN; CHNOS) is an isothiocyanate found in cruciferous vegetables, such as broccoli, kale, and radish. SFN exhibits antioxidant, anti-apoptotic, anti-tumor, and anti-inflammatory activities in different cell types. However, it was not previously demonstrated whether and how this natural compound would exert mitochondrial protection experimentally. Therefore, we investigated here the effects of a pretreatment (for 30 min) with SFN at 5 μM on mitochondria obtained from human neuroblastoma SH-SY5Y cells exposed to hydrogen peroxide (HO) at 300 μM for 24 h. We found that SFN prevented loss of viability in HO-treated SH-SY5Y cells. Furthermore, SFN decreased lipid peroxidation, protein carbonylation, and protein nitration in mitochondrial membranes of HO-exposed cells. Importantly, SFN enhanced the levels of both cellular and mitochondrial glutathione (GSH). SFN also suppressed the HO-mediated inhibition of mitochondrial components involved in the maintenance of the bioenergetics state, such as aconitase, α-ketoglutarate dehydrogenase, and succinate dehydrogenase, as well as complexes I and V. Consequently, SFN prevented the decline induced by HO on the levels of ATP in SH-SY5Y cells. Silencing of the nuclear factor erythroid 2-related factor 2 (Nrf2) transcription factor by using small interfering RNA (siRNA) abolished the mitochondrial and cellular protection elicited by SFN. Therefore, SFN abrogated the HO-induced mitochondrial impairment by an Nrf2-dependent manner.",
+      "offset": 0,
+      "returnedChars": 1502,
+      "totalChars": 1502,
+      "hasMore": false,
+      "contentDenied": true,
+      "link": "https://doi.org/10.1007/s12035-017-0684-2",
+      "message": "Full text is access-restricted for this paper; showing the abstract instead. `link` is where the user reads the paper itself — don't treat this abstract as the paper."
+    }
+  ],
+  "forsmark": [
+    {
+      "doi": "10.1016/0014-5793(91)80720-n",
+      "title": "Inhibition of lipid peroxidation by ubiquinol in submitochondrial particles in the absence of vitamin E",
+      "source": "abstract",
+      "text": "The relationship between the antioxidant effects of reduced coenzyme Q,, (ubiquinol, UQH,) and vitamin E (or-tocopherol) was investigated in beef heart submitochondeial particles in which lipid peroxidation was initiated by incubation with ancorbatei-AD&amp;Fe'+.These effects were examined after extraction of coenzyme Q,, @Q-IO) and vitamin E from the particles and reincorporation of the same components alone or in combination. The results show that UQH, efficiently inhibits lipid peroxidation even when vitamin E is absent. It is concluded that UQH2 can inhibit lipid peroxidation directly, without the mediation of vitamin E.",
+      "offset": 0,
+      "returnedChars": 632,
+      "totalChars": 632,
+      "hasMore": false,
+      "contentDenied": true,
+      "link": "https://doi.org/10.1016/0014-5793(91)80720-n",
+      "message": "Full text is access-restricted for this paper; showing the abstract instead. `link` is where the user reads the paper itself — don't treat this abstract as the paper."
+    }
+  ],
+  "bell": [
+    {
+      "total": 1,
+      "count": 1,
+      "query": "",
+      "limit": 1,
+      "offset": 0,
+      "hits": [
+        {
+          "doi": "10.1083/jcb.200609074",
+          "title": "The Qo site of the mitochondrial complex III is required for the transduction of hypoxic signaling via reactive oxygen species production",
+          "authors": [
+            {
+              "authorName": "Eric L. Bell"
+            },
+            {
+              "authorName": "Tatyana A. Klimova"
+            },
+            {
+              "authorName": "James Eisenbart"
+            }
+          ],
+          "journal": "journal of cell biology",
+          "publisher": "Rockefeller University Press",
+          "abstract": "Mammalian cells increase transcription of genes for adaptation to hypoxia through the stabilization of hypoxia-inducible factor 1α (HIF-1α) protein. How cells transduce hypoxic signals to stabilize the HIF-1α protein remains unresolved. We demonstrate that cells deficient in the complex III subunit ...",
+          "year": 2007,
+          "date": "2007-06-11",
+          "volume": "177",
+          "issue": "6",
+          "page": "1029-1036",
+          "tally": {
+            "total": 469,
+            "supporting": 14,
+            "contrasting": 4,
+            "mentioning": 448,
+            "citingPublications": 585
+          },
+          "citations": [
+            {
+              "sourceDoi": "10.1083/jcb.200609074",
+              "targetDoi": "10.1016/0003-9861(82)90518-5",
+              "section": "introduction",
+              "type": "mentioning"
+            },
+            {
+              "sourceDoi": "10.1083/jcb.200609074",
+              "targetDoi": "10.1016/0003-9861(85)90293-0",
+              "section": "introduction",
+              "type": "mentioning"
+            },
+            {
+              "sourceDoi": "10.1083/jcb.200609074",
+              "targetDoi": "10.1016/j.cell.2004.08.025",
+              "section": "discussion",
+              "type": "mentioning"
+            }
+          ],
+          "isOa": true,
+          "contentDenied": true,
+          "access": {
+            "url": "https://rupress.org/jcb/article-pdf/177/6/1029/1330882/jcb_200609074.pdf",
+            "source": "oa_url",
+            "accessType": "open",
+            "contentType": "pdf",
+            "description": "View PDF"
+          },
+          "url": "https://rupress.org/jcb/article-pdf/177/6/1029/1330882/jcb_200609074.pdf"
+        }
+      ],
+      "hint": "To get full details for a paper, call this tool again with its DOI in the `dois` parameter. Use `term` to search within the paper."
+    }
+  ],
+  "frei": [
+    {
+      "total": 1,
+      "count": 1,
+      "query": "",
+      "limit": 1,
+      "offset": 0,
+      "hits": [
+        {
+          "doi": "10.1073/pnas.87.12.4879",
+          "title": "Ubiquinol-10 is an effective lipid-soluble antioxidant at physiological concentrations.",
+          "authors": [
+            {
+              "authorName": "Balz B. Frei"
+            },
+            {
+              "authorName": "M C Kim"
+            },
+            {
+              "authorName": "B N Ames"
+            }
+          ],
+          "journal": "proceedings of the national academy of sciences",
+          "publisher": "National Academy of Sciences",
+          "abstract": "ABSTRACTIt is well known that ubiquinone-10 (coenzyme Q1o, ubiquinone 50) acts as an electron carrier of the respiratory chain in mitochondria. In this paper we show that ubiquinol-10, the reduced form of ubiquinone-10, also efficiently scavenges free radicals generated chemically within liposomal m...",
+          "year": 1990,
+          "date": "1990-06-01",
+          "volume": "87",
+          "issue": "12",
+          "page": "4879-4883",
+          "tally": {
+            "total": 302,
+            "supporting": 8,
+            "contrasting": 1,
+            "mentioning": 287,
+            "citingPublications": 604
+          },
+          "citations": [
+            {
+              "sourceDoi": "10.1073/pnas.87.12.4879",
+              "targetDoi": "10.1016/0005-2760(89)90293-2",
+              "snippet": "HPLC was used to determine PtdCho hydroperoxides, with detection at 234 nm (22 tion (24). Ubiquinone-10 and ubiquinol-10 were measured by HPLC with UV and chemiluminescence detection (25).",
+              "section": "",
+              "type": "mentioning"
+            },
+            {
+              "sourceDoi": "10.1073/pnas.87.12.4879",
+              "targetDoi": "10.1016/0003-2697(88)90369-7",
+              "snippet": "HPLC was used to determine PtdCho hydroperoxides, with detection at 234 nm (22 tion (24). Ubiquinone-10 and ubiquinol-10 were measured by HPLC with UV and chemiluminescence detection (25). Briefly, 100 ul of the methanol/tert-butyl alcohol solution was subjected to reversed-phase HPLC.",
+              "section": "",
+              "type": "mentioning"
+            },
+            {
+              "sourceDoi": "10.1073/pnas.87.12.4879",
+              "targetDoi": "10.1042/bj2220463",
+              "snippet": "Q1T+ 02-Q1o+°2 [5] The superoxide radicals (0°-) formed in these reactions can further oxidize ubiquinol-10 (19): Q10H2 + O°-i + H202. [6] Reactions 1 and 3 are radical-trapping (i.e., antiperoxidative) reactions, whereas in reactions 4-6 ubiquinol-10 is \"wasted.\"",
+              "section": "discussion",
+              "type": "mentioning"
+            }
+          ],
+          "isOa": true,
+          "contentDenied": false,
+          "access": {
+            "url": "https://ct.prod.getft.io/c2NpdGUscG5hcyxNVEF1TVRBM015OXdibUZ6TGpnM0xqRXlMalE0TnprLFpXVTFaak5pWlRrdE56ZGhaaTAwT1RjeUxUZ3lPV0l0TkdNNU5HUTJNRE5rWXpBeixodHRwczovL3d3dy5wbmFzLm9yZy9kb2kvZXBkZi8xMC4xMDczL3BuYXMuODcuMTIuNDg3OT9zcmM9Z2V0ZnRy.b1geJOvmdaxf-7ZaBJQuHG0FtJ_ovNwOkXVFRdm1Tao",
+            "source": "get_ftr",
+            "accessType": "publisher",
+            "contentType": "pdf",
+            "description": "View PDF"
+          },
+          "url": "https://ct.prod.getft.io/c2NpdGUscG5hcyxNVEF1TVRBM015OXdibUZ6TGpnM0xqRXlMalE0TnprLFpXVTFaak5pWlRrdE56ZGhaaTAwT1RjeUxUZ3lPV0l0TkdNNU5HUTJNRE5rWXpBeixodHRwczovL3d3dy5wbmFzLm9yZy9kb2kvZXBkZi8xMC4xMDczL3BuYXMuODcuMTIuNDg3OT9zcmM9Z2V0ZnRy.b1geJOvmdaxf-7ZaBJQuHG0FtJ_ovNwOkXVFRdm1Tao"
+        }
+      ],
+      "hint": "To get full details for a paper, call this tool again with its DOI in the `dois` parameter. Use `term` to search within the paper."
+    }
+  ],
+  "yamamoto": [
+    {
+      "doi": "10.3177/jnsv.36.505",
+      "title": "Antioxidant activity of ubiquinol in solution and phosphatidylcholine liposome.",
+      "source": "fulltext",
+      "text": "Note added in proof\n\nAfter we submitted this paper, two papers on antioxidant activity of ubiquinol came out; Kagan, V. E., Serbinova, E. A., Koynova, G. M., Kitanova, S. A., Tyurin, V. A., Stoytchev, T. S., Quinn, P. J., and Packer, L. (1990): Antioxidant action of ubiquinol homologues with different isoprenoid chain length in biomembranes. Free Rad. Biol. Med., 9, 117-126, and Frei, B., Kim, M. C., and Ames, B. N. (1990): Ubiquinol-10 is an effective lipid-soluble antioxidant at physiological concentrations. Proc. Natl. Acad. Sci. USA, 87, 4879-4883. We also learned that Dr. R.\n\nStocker et al. found antioxidant activity of ubiquinol (Proc. Natl . Acad. Sci. USA, in press).",
+      "offset": 0,
+      "returnedChars": 683,
+      "totalChars": 683,
+      "hasMore": false,
+      "contentDenied": false
+    }
+  ]
+}
