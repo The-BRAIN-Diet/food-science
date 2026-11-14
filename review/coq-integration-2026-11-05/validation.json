@@ -1,0 +1,15 @@
+[
+  "beef: food/link PASS",
+  "early-harvest-olive-oil: food/link PASS",
+  "extra-virgin-olive-oil: food/link PASS",
+  "heart: food/link PASS",
+  "liver: food/link PASS",
+  "mackerel: food/link PASS",
+  "olive-oil: food/link PASS",
+  "pistachios: food/link PASS",
+  "sardines: food/link PASS",
+  "docs/substances/bioactive-compounds/lipid-based/coq10.md: MDX PASS",
+  "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx: MDX PASS",
+  "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx: MDX PASS",
+  "All pinned SEC and chord files byte-identical"
+]

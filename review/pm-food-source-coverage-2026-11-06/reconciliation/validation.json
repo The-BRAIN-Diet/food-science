@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "checks": 1956,
+  "scope": "37-target reconciliation; immutable scientific files; scoped beef holds; exact PC analytical basis; ranking exclusions; provenance and deduplication",
+  "candidate_edges": 593
+}

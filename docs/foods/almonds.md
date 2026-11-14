@@ -1,4 +1,131 @@
 ---
+nutrition_supplementary_sources:
+  - key: glycine_recovered_fdc_170567
+    label: Glycine
+    substance_id: glycine
+    value: 1.429
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Nuts, almonds
+    preparation_state: as described in source
+    source_url: https://fdc.nal.usda.gov/food-details/170567/nutrients
+    source_reference: '#food-source-8'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+    fdc_id: 170567
+    food_nutrient_id: 1533853
+    source_derivation_id: A
+    source_data_points: 0
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: serine_recovered_fdc_170567
+    label: Serine
+    substance_id: serine
+    value: 0.912
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Nuts, almonds
+    preparation_state: as described in source
+    source_url: https://fdc.nal.usda.gov/food-details/170567/nutrients
+    source_reference: '#food-source-8'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+    fdc_id: 170567
+    food_nutrient_id: 1533901
+    source_derivation_id: A
+    source_data_points: 0
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: arginine_recovered_fdc_170567
+    label: Arginine
+    substance_id: arginine
+    value: 2.465
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Nuts, almonds
+    preparation_state: as described in source
+    source_url: https://fdc.nal.usda.gov/food-details/170567/nutrients
+    source_reference: '#food-source-8'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+    fdc_id: 170567
+    food_nutrient_id: 1533898
+    source_derivation_id: A
+    source_data_points: 0
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tyrosine_recovered_fdc_170567
+    label: Tyrosine
+    substance_id: tyrosine
+    value: 0.45
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Nuts, almonds
+    preparation_state: as described in source
+    source_url: https://fdc.nal.usda.gov/food-details/170567/nutrients
+    source_reference: '#food-source-8'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+    fdc_id: 170567
+    food_nutrient_id: 1533850
+    source_derivation_id: A
+    source_data_points: 0
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: phenylalanine_recovered_fdc_170567
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 1.132
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Nuts, almonds
+    preparation_state: as described in source
+    source_url: https://fdc.nal.usda.gov/food-details/170567/nutrients
+    source_reference: '#food-source-7'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 170567
+    food_nutrient_id: '1533849'
+    source_derivation_id: '1'
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tryptophan_recovered_fdc_170567
+    label: Tryptophan
+    substance_id: tryptophan
+    value: 0.211
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Nuts, almonds
+    preparation_state: as described in source
+    source_url: https://fdc.nal.usda.gov/food-details/170567/nutrients
+    source_reference: '#food-source-7'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 170567
+    food_nutrient_id: '1533846'
+    source_derivation_id: '1'
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
 id: almonds
 title: Almonds
 sidebar_label: Almonds
@@ -68,6 +195,102 @@ main_image: /img/foods/almonds/almonds_medium.webp
 legacy_list_image: /img/foods/almonds/almonds_thumb.webp
 legacy_main_image: /img/foods/almonds/almonds_medium.webp
 substance_relationships:
+  - substance: Glycine
+    substance_id: glycine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/170567/nutrients
+    source_reference: '#food-source-8'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Nuts, almonds
+    preparation_state: as described in source
+    requires_supplementary_key: glycine_recovered_fdc_170567
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+  - substance: Serine
+    substance_id: serine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/170567/nutrients
+    source_reference: '#food-source-8'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Nuts, almonds
+    preparation_state: as described in source
+    requires_supplementary_key: serine_recovered_fdc_170567
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+  - substance: Arginine
+    substance_id: arginine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/170567/nutrients
+    source_reference: '#food-source-8'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Nuts, almonds
+    preparation_state: as described in source
+    requires_supplementary_key: arginine_recovered_fdc_170567
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/170567/nutrients
+    source_reference: '#food-source-8'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Nuts, almonds
+    preparation_state: as described in source
+    requires_supplementary_key: tyrosine_recovered_fdc_170567
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/170567/nutrients
+    source_reference: '#food-source-7'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Nuts, almonds
+    preparation_state: as described in source
+    requires_supplementary_key: phenylalanine_recovered_fdc_170567
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: Tryptophan
+    substance_id: tryptophan
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/170567/nutrients
+    source_reference: '#food-source-7'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Nuts, almonds
+    preparation_state: as described in source
+    requires_supplementary_key: tryptophan_recovered_fdc_170567
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
   - substance: Linoleic Acid
     relationship: contains
     description: 'USDA FoodData Central reports linoleic acid in Nuts, almonds.'
@@ -294,3 +517,11 @@ Pair with legumes to improve lysine coverage. Grains are typically lysine-limite
 [5] Kumari et al. (2020). [Does ‘activating’ nuts affect nutrient bioavailability?](/docs/papers/BRAIN-Diet-References#kumari_activating_nuts_2020). Soaking whole and chopped almonds changed phytate by only −12% to +10%, lowered mineral concentrations especially in chopped nuts, and did not improve phytate:mineral molar ratios.
 
 [6] Taylor et al. (2018). [The effects of ‘activating’ almonds on consumer acceptance and gastrointestinal tolerance](/docs/papers/BRAIN-Diet-References#taylor_activating_almonds_2018). 30 g/day soaked almonds did not improve gastrointestinal tolerance or acceptance; whole soaked almonds had higher phytate than unsoaked (563 vs 531 mg/100 g).
+
+<span id="food-source-7" />
+
+[7] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 170567: Nuts, almonds. These observations retain their own preparation state.
+
+<span id="food-source-8" />
+
+[8] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 170567: Nuts, almonds. These observations retain their own preparation state.

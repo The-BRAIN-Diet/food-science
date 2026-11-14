@@ -1,0 +1,324 @@
+---
+nutrition_supplementary_sources:
+  - key: l_carnitine_furusho_2026_mg
+    label: L-Carnitine
+    substance_id: l-carnitine
+    value: 0.32
+    unit: mg
+    basis: per 100 g food
+    preparation_state: as purchased
+    evidence_material: Cheddar cheese purchased at a local grocery store
+    chemical_form: free L-carnitine
+    uncertainty:
+      type: SE
+      value: 0.04
+      'n': 3
+      replicate_type: repeated extraction
+    source_url: https://doi.org/10.5702/massspectrometry.A0191
+    source_reference: '#food-source-3'
+    source_note: >-
+      Single grocery-source preparation; mean ± SE from three extraction determinations, not three independent
+      population samples. Chiral LC-MS/MS measured free L-carnitine with water extraction intended to avoid
+      release from acylcarnitines. Not total acylcarnitine, a universal food value, cooked-food retention, or
+      evidence of mitochondrial benefit.
+    public_note: Source-specific measured free L-carnitine; preparation and analytical limitations retained.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    rank_eligible: true
+    comparison_group: free-l-carnitine::furusho-2026::per-100g-food
+    nutrition_panel_eligible: true
+id: cheddar-cheese
+title: Cheddar Cheese
+sidebar_label: Cheddar Cheese
+description: 'Hard cow’s-milk cheese rich in protein, calcium, and vitamin B12'
+tags:
+  - Food
+  - Cheddar Cheese
+  - Vegetarian
+  - Calcium
+  - Vitamin B12
+  - Zinc
+  - Selenium
+  - Tyrosine
+list_image: /img/foods/cheddar-cheese/cheddar-cheese_thumb.webp
+protein_profile_note: Complete essential amino acid profile (animal dairy).
+nutrition_per_100g:
+  caproic_g: 0.539
+  capric_g: 0.82
+  linoleic_g: 0.791
+  calcium_mg: 710
+  potassium_mg: 76
+  zinc_mg: 3.64
+  carbs_g: 3.37
+  kcal: 403
+  caprylic_g: 0.337
+  dha_mg: 1
+  ala_mg: 108
+  protein_g: 22.87
+  phosphorus_mg: 455
+  copper_mg: 0.03
+  vitamin_a_rae_ug: 337
+  vitamin_b3_mg: 0.059
+  vitamin_b5_mg: 0.41
+  vitamin_b6_mg: 0.066
+  fat_g: 33.31
+  sugar_g: 0.48
+  selenium_ug: 28.5
+  vitamin_e_mg: 0.71
+  sat_fat_g: 18.867
+  vitamin_b1_mg: 0.029
+  vitamin_b2_mg: 0.428
+  folate_ug: 27
+  vitamin_b12_ug: 1.1
+  epa_mg: 10
+  vitamin_k_ug: 2.4
+  tyrosine_g: 1.108
+  beta_carotene_ug: 85
+  manganese_mg: 0.027
+  sodium_mg: 653
+  iron_mg: 0.14
+  magnesium_mg: 27
+  vitamin_d_ug: 0.6
+  choline_mg: 16.5
+  omega3_mg: 137
+omega3_components:
+  - nutrient: dha_mg
+    identity: '22:6 n-3 (DHA)'
+    amount_mg: 1
+  - nutrient: epa_mg
+    identity: '20:5 n-3 (EPA)'
+    amount_mg: 10
+  - nutrient: dpa_mg
+    identity: '22:5 n-3 (DPA)'
+    amount_mg: 17
+  - nutrient: ala_mg
+    identity: '18:3 n-3 (ALA)'
+    amount_mg: 108
+  - nutrient: n3_20_3_mg
+    identity: '20:3 n-3'
+    amount_mg: 1
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: 'Cheese, cheddar (Includes foods for USDA''s Food Distribution Program)'
+  fdc_id: 173414
+  retrieval_method: SR Legacy bulk (April 2018)
+  basis: per 100 g edible portion
+  last_checked: '2026-08-15'
+main_image: /img/foods/cheddar-cheese/cheddar-cheese_medium.webp
+legacy_list_image: /img/foods/cheddar-cheese/cheddar-cheese_thumb.webp
+legacy_main_image: /img/foods/cheddar-cheese/cheddar-cheese_medium.webp
+substance_relationships:
+  - substance: L-Carnitine
+    substance_id: l-carnitine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: Furusho et al. (2026), Table 3 and methods §2.2.1
+    source_url: https://doi.org/10.5702/massspectrometry.A0191
+    source_reference: '#food-source-3'
+    citation_keys:
+      - furusho_carnitine_food_2026
+    evidence_material: Cheddar cheese purchased at a local grocery store
+    preparation_state: as purchased
+    chemical_form: free L-carnitine
+    requires_supplementary_key: l_carnitine_furusho_2026_mg
+    material_limitations: >-
+      Single grocery-source preparation; mean ± SE from three extraction determinations, not three independent
+      population samples. Chiral LC-MS/MS measured free L-carnitine with water extraction intended to avoid
+      release from acylcarnitines. Not total acylcarnitine, a universal food value, cooked-food retention, or
+      evidence of mitochondrial benefit.
+  - substance: Tyrosine
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports tyrosine in Cheese, cheddar (Includes foods
+      for USDA's Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cheddar-cheese|Tyrosine
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Cheese, cheddar (Includes foods for USDA''s Food Distribution Program)'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173414/nutrients'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Calcium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports calcium in Cheese, cheddar (Includes foods
+      for USDA's Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cheddar-cheese|Calcium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Cheese, cheddar (Includes foods for USDA''s Food Distribution Program)'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173414/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Selenium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports selenium in Cheese, cheddar (Includes foods
+      for USDA's Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cheddar-cheese|Selenium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Cheese, cheddar (Includes foods for USDA''s Food Distribution Program)'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173414/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zinc
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports zinc in Cheese, cheddar (Includes foods for
+      USDA's Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cheddar-cheese|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Cheese, cheddar (Includes foods for USDA''s Food Distribution Program)'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173414/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B12
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B12 in Cheese, cheddar (Includes
+      foods for USDA's Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cheddar-cheese|Vitamin B12
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Cheese, cheddar (Includes foods for USDA''s Food Distribution Program)'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173414/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-173414
+    material: Cheese, cheddar (Includes foods for USDA's Food Distribution Program)
+    preparation: cheddar
+    food_group: animal
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 173414
+      source_url: https://fdc.nal.usda.gov/food-details/173414/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 22.87
+    protein_source_row_id: "1776820"
+    amino_acids:
+      histidine:
+        value: 0.547
+        source_row_id: "1776854"
+        nutrient_id: "1221"
+        data_points: 0
+        derivation_id: "1"
+      isoleucine:
+        value: 1.206
+        source_row_id: "1776848"
+        nutrient_id: "1212"
+        data_points: 0
+        derivation_id: "1"
+      leucine:
+        value: 1.939
+        source_row_id: "1776849"
+        nutrient_id: "1213"
+        data_points: 0
+        derivation_id: "1"
+      lysine:
+        value: 1.025
+        source_row_id: "1776850"
+        nutrient_id: "1214"
+        data_points: 0
+        derivation_id: "1"
+      methionine:
+        value: 0.547
+        source_row_id: "1776885"
+        nutrient_id: "1215"
+        data_points: 0
+        derivation_id: "1"
+      phenylalanine:
+        value: 1.074
+        source_row_id: "1776886"
+        nutrient_id: "1217"
+        data_points: 0
+        derivation_id: "1"
+      threonine:
+        value: 1.044
+        source_row_id: "1776884"
+        nutrient_id: "1211"
+        data_points: 0
+        derivation_id: "1"
+      tryptophan:
+        value: 0.547
+        source_row_id: "1776883"
+        nutrient_id: "1210"
+        data_points: 0
+        derivation_id: "1"
+      valine:
+        value: 1.404
+        source_row_id: "1776852"
+        nutrient_id: "1219"
+        data_points: 0
+        derivation_id: "1"
+    portion:
+      label: 1 oz
+      source_row_id: "92470"
+      source_grams: 28.35
+      multiplier: 1
+    limitations: >-
+      USDA database composition, including source-specific analytical or calculated values. No
+      amino-acid-specific digestibility correction; illustrative USDA household portion, not an
+      intake recommendation. Missing values are not treated as zero.
+---
+## Overview
+
+Cheddar cheese provides **complete protein**, **calcium**, **vitamin B12**, and **zinc** in a fermented dairy matrix [1]. Fermented dairy foods contribute live and postbiotic bacterial metabolites relevant to gut microbiota patterns [2].
+
+Within the BRAIN Diet framework, cheddar is a nutrient-dense dairy protein used in modest portions; saturated fat and sodium content warrant portion awareness
+
+## Key Nutritional Highlights
+
+- Complete animal protein with calcium and vitamin B12 [1].
+- Fermented dairy matrix with microbiota-modulating interest [2].
+- Energy-dense; typical portions are 30–40 g, not 100 g.
+- Aged varieties are lower lactose; sodium varies by product.
+
+## Food Context
+
+### Synergies
+
+- Pairs with **whole grains or beans** for varied amino acid patterns and sustained meals.
+- With **vegetables or salad**, adds protein and fat that can support satisfaction and micronutrient absorption from mixed meals.
+- As a fermented matrix, aged cheddar may deliver viable microbial populations more effectively than low-buffer liquid matrices in some conditions ([Leeuwendaal et al., 2021](/docs/papers/BRAIN-Diet-References#leeuwendaal_potential_2021); [Karimi et al., 2011](/docs/papers/BRAIN-Diet-References#karimi_viability_2011)).
+
+### Sourcing
+
+- **Aged cheddar** and traditional styles differ in flavour, salt, and sometimes fat; read labels for sodium and % milk fat if you need to limit those.
+- **Colour** (natural annatto vs. white) does not change the core protein–mineral profile materially; it is mostly cosmetic.
+
+### Preparation
+
+- **Grate or slice** for controlled portions; melting in sauces changes texture, not the basic nutrient list.
+- **Storage**: wrap tightly and refrigerate; surface mould on hard cheese is often trimmable, but follow food-safety guidance for your region.
+
+### Essential Amino Acid Profile
+
+Animal cheese provides a **complete** essential amino acid profile with high digestibility; cheddar is often used as a **protein contributor** in small amounts rather than as the main protein of a meal.
+
+## Recipes
+
+<FoodRecipes tag="Cheddar Cheese" />
+
+<NutritionTable details={frontMatter} />
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
+## References
+
+[1] Complete animal protein with calcium and vitamin B12. Leeuwendaal & Stanton 2021. [The potential of non-starter lactic acid bacteria from Cheddar cheese to colonise the gut](/docs/papers/BRAIN-Diet-References#leeuwendaal_potential_2021)
+
+[2] Fermented dairy matrix with microbiota-modulating interest. Karimi & Mortazavian 2011. [Viability of probiotic microorganisms in cheese during production and storage: a review](/docs/papers/BRAIN-Diet-References#karimi_viability_2011)
+
+<span id="food-source-3" />
+
+[3] Furusho et al. (2026). [Enantioselective Determination of Carnitine Enantiomers in Food and Supplement Samples by Chiral Liquid Chromatography-Tandem Mass Spectrometry](/docs/papers/BRAIN-Diet-References#furusho_carnitine_food_2026). Table 3: source-specific free L-carnitine; repeated-extraction uncertainty, not a dietary intervention.

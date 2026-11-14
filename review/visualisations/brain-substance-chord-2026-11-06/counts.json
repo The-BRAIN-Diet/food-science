@@ -1,0 +1,14 @@
+{
+  "before": {
+    "display": 55,
+    "drawn_pairs": 96
+  },
+  "after": {
+    "pm_count": 65,
+    "display": 68,
+    "pairs": 121,
+    "brs_x_pairs": 5,
+    "interventions": 87,
+    "substance_free_interventions": 64
+  }
+}

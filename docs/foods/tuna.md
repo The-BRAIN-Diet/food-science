@@ -68,6 +68,38 @@ nutrition_source:
   last_checked: '2026-08-15'
 protein_profile_note: Complete essential amino acid profile.
 substance_relationships:
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/173709/nutrients
+    source_reference: '#food-source-4'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Fish, tuna, light, canned in water, drained solids (Includes foods for USDA's Food Distribution Program)
+    preparation_state: canned
+    requires_supplementary_key: phenylalanine_recovered_fdc_173709
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: Tryptophan
+    substance_id: tryptophan
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/173709/nutrients
+    source_reference: '#food-source-4'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Fish, tuna, light, canned in water, drained solids (Includes foods for USDA's Food Distribution Program)
+    preparation_state: canned
+    requires_supplementary_key: tryptophan_recovered_fdc_173709
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
   - substance: Methionine
     relationship: contains
     description: >-
@@ -162,6 +194,48 @@ main_image: /img/foods/tuna/tuna_medium.webp
 legacy_list_image: /img/foods/tuna/tuna_thumb.webp
 legacy_main_image: /img/foods/tuna/tuna_medium.webp
 nutrition_supplementary_sources:
+  - key: phenylalanine_recovered_fdc_173709
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 0.727
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, tuna, light, canned in water, drained solids (Includes foods for USDA's Food Distribution Program)
+    preparation_state: canned
+    source_url: https://fdc.nal.usda.gov/food-details/173709/nutrients
+    source_reference: '#food-source-4'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 173709
+    food_nutrient_id: '1800300'
+    source_derivation_id: '1'
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tryptophan_recovered_fdc_173709
+    label: Tryptophan
+    substance_id: tryptophan
+    value: 0.209
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, tuna, light, canned in water, drained solids (Includes foods for USDA's Food Distribution Program)
+    preparation_state: canned
+    source_url: https://fdc.nal.usda.gov/food-details/173709/nutrients
+    source_reference: '#food-source-4'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 173709
+    food_nutrient_id: '1800297'
+    source_derivation_id: '1'
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
   - key: creatine_qual
     label: Creatine
     status: Present — quantity not established
@@ -323,3 +397,7 @@ This food provides a **complete essential amino acid profile** typical of animal
 <span id="food-source-3" />
 
 [3] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/173706/nutrients)
+
+<span id="food-source-4" />
+
+[4] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 173709: Fish, tuna, light, canned in water, drained solids (Includes foods for USDA's Food Distribution Program). These observations retain their own preparation state.

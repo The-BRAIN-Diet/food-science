@@ -1,0 +1,12 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';import {createHash} from 'node:crypto';
+const dir=new URL('.',import.meta.url),load=n=>JSON.parse(fs.readFileSync(new URL(n,dir))),d=load('network.json'),old=JSON.parse(fs.readFileSync(new URL('../brain-substance-chord-2026-11-05/network.json',dir)));let assertions=0;const check=(v,m)=>{assert.ok(v,m);assertions++;};
+check(new Set(d.inventory.map(s=>s.id)).size===d.inventory.length,'canonical nodes unique');
+for(const e of d.connections){check(d.pm_inventory.some(p=>e.records.some(r=>r.pm===p.id)),'existing PM ownership');check(e.records.every(r=>r.source&&r.id&&r.evidence),'source and evidence retained');check(e.records.every(r=>r.eligible),'eligibility explicit');}
+for(const e of old.connections.filter(e=>e.status==='Admitted'&&/^BRS\d$/.test(e.brs)))check(d.connections.some(n=>n.substance===e.substance&&n.brs===e.brs&&n.status==='Admitted'),'preserve admitted '+e.substance+' '+e.brs);
+check(d.inventory.find(s=>s.id==='coq10')?.inclusion==='included','CoQ10 regression');check(d.composition.filter(e=>e.substance_id==='coq10').length>=9,'CoQ occurrence independent of admission');
+check(d.groups.length===3&&d.groups.reduce((n,g)=>n+g.pms.length,0)===13,'complete BRS-X inventory');check(d.interventions.some(r=>r.brs==='BRS-X/circadian'&&!r.identities.length),'substance-free circadian');
+check(!d.connections.some(e=>e.brs==='BRS-X/circadian'),'no invented circadian substances');check(d.inventory.find(s=>s.id==='acetyl-coa').decision==='Upstream representation','intermediate not standalone target');
+check(d.inventory.find(s=>s.id==='urolithin-a').decision==='Candidate','urolithin candidate scope');check(!d.connections.some(e=>e.substance==='urolithin-a'&&e.brs==='BRS4'),'no forced mitophagy owner');
+for(const [f,h]of Object.entries(d.hashes))check(createHash('sha256').update(fs.readFileSync(f)).digest('hex')===h,'source unchanged '+f);
+const html=fs.readFileSync(new URL('brain-chord.html',dir),'utf8');for(const g of d.groups)check(html.includes('data-system="'+g.id+'"'),'inner arc '+g.id);for(const c of ['#084df5','#07da79','#f00802','#f7c201','#b4f207','#f17e02'])check(html.includes(c),'colour preserved');
+const result={status:'PASS',assertions,source_head:d.source.head,scope:'read-only canonical provenance, original admitted pairs, CoQ, BRS-X, no scientific writes'};fs.writeFileSync(new URL('validation.json',dir),JSON.stringify(result,null,2));console.log(result);

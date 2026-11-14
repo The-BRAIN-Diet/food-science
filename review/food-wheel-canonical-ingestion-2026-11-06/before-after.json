@@ -1,0 +1,34 @@
+{
+  "previous_unqualified_top_five": {
+    "selected_foods": 65,
+    "food_substance_pm_edges": 589,
+    "unique_pm_substance_targets": 119
+  },
+  "power_qualified": {
+    "selected_foods": 57,
+    "food_substance_pm_edges": 579,
+    "unique_pm_substance_targets": 119
+  },
+  "removed_foods": [
+    "black-beans",
+    "brussels-sprouts",
+    "garlic",
+    "kidney-beans",
+    "lentils",
+    "miso",
+    "nori",
+    "nutritional-yeast",
+    "oregano",
+    "salmon-roe",
+    "sesame-seeds",
+    "sweet-potatoes",
+    "tahini"
+  ],
+  "added_foods": [
+    "clams",
+    "coconut-oil",
+    "edamame",
+    "sauerkraut",
+    "spelt"
+  ]
+}

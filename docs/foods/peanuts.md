@@ -1,4 +1,47 @@
 ---
+nutrition_supplementary_sources:
+  - key: phenylalanine_recovered_fdc_173806
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 1.227
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Peanuts, all types, dry-roasted, without salt
+    preparation_state: roasted
+    source_url: https://fdc.nal.usda.gov/food-details/173806/nutrients
+    source_reference: '#food-source-1'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 173806
+    food_nutrient_id: '1806610'
+    source_derivation_id: ''
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tryptophan_recovered_fdc_173806
+    label: Tryptophan
+    substance_id: tryptophan
+    value: 0.23
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Peanuts, all types, dry-roasted, without salt
+    preparation_state: roasted
+    source_url: https://fdc.nal.usda.gov/food-details/173806/nutrients
+    source_reference: '#food-source-1'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 173806
+    food_nutrient_id: '1806607'
+    source_derivation_id: ''
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
 id: peanuts
 title: Peanuts
 sidebar_label: Peanuts
@@ -62,6 +105,38 @@ main_image: /img/foods/peanuts/peanuts_medium.webp
 legacy_list_image: /img/foods/peanuts/peanuts_thumb.webp
 legacy_main_image: /img/foods/peanuts/peanuts_medium.webp
 substance_relationships:
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/173806/nutrients
+    source_reference: '#food-source-1'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Peanuts, all types, dry-roasted, without salt
+    preparation_state: roasted
+    requires_supplementary_key: phenylalanine_recovered_fdc_173806
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: Tryptophan
+    substance_id: tryptophan
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/173806/nutrients
+    source_reference: '#food-source-1'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Peanuts, all types, dry-roasted, without salt
+    preparation_state: roasted
+    requires_supplementary_key: tryptophan_recovered_fdc_173806
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
   - substance: Linoleic Acid
     relationship: contains
     description: 'USDA FoodData Central reports linoleic acid in Peanuts, all types, raw.'
@@ -295,3 +370,7 @@ Peanuts are rich in lysine but relatively low in sulfur-containing amino acids. 
 
 ## References
 
+
+<span id="food-source-1" />
+
+[1] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 173806: Peanuts, all types, dry-roasted, without salt. These observations retain their own preparation state.

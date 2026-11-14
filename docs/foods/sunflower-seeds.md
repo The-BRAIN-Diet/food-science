@@ -68,6 +68,132 @@ main_image: /img/foods/sunflower-seeds/sunflower-seeds_medium.webp
 legacy_list_image: /img/foods/sunflower-seeds/sunflower-seeds_thumb.webp
 legacy_main_image: /img/foods/sunflower-seeds/sunflower-seeds_medium.webp
 nutrition_supplementary_sources:
+  - key: glycine_recovered_fdc_170562
+    label: Glycine
+    substance_id: glycine
+    value: 1.461
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Seeds, sunflower seed kernels, dried
+    preparation_state: dried
+    source_url: https://fdc.nal.usda.gov/food-details/170562/nutrients
+    source_reference: '#food-source-5'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier not reported, data points 26. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+    fdc_id: 170562
+    food_nutrient_id: 1533390
+    source_derivation_id: not reported
+    source_data_points: 26
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: serine_recovered_fdc_170562
+    label: Serine
+    substance_id: serine
+    value: 1.075
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Seeds, sunflower seed kernels, dried
+    preparation_state: dried
+    source_url: https://fdc.nal.usda.gov/food-details/170562/nutrients
+    source_reference: '#food-source-5'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier not reported, data points 26. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+    fdc_id: 170562
+    food_nutrient_id: 1533444
+    source_derivation_id: not reported
+    source_data_points: 26
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: arginine_recovered_fdc_170562
+    label: Arginine
+    substance_id: arginine
+    value: 2.403
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Seeds, sunflower seed kernels, dried
+    preparation_state: dried
+    source_url: https://fdc.nal.usda.gov/food-details/170562/nutrients
+    source_reference: '#food-source-5'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier not reported, data points 35. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+    fdc_id: 170562
+    food_nutrient_id: 1533441
+    source_derivation_id: not reported
+    source_data_points: 35
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tyrosine_recovered_fdc_170562
+    label: Tyrosine
+    substance_id: tyrosine
+    value: 0.666
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Seeds, sunflower seed kernels, dried
+    preparation_state: dried
+    source_url: https://fdc.nal.usda.gov/food-details/170562/nutrients
+    source_reference: '#food-source-5'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier not reported, data points 31. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+    fdc_id: 170562
+    food_nutrient_id: 1533387
+    source_derivation_id: not reported
+    source_data_points: 31
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: phenylalanine_recovered_fdc_170562
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 1.169
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Seeds, sunflower seed kernels, dried
+    preparation_state: dried
+    source_url: https://fdc.nal.usda.gov/food-details/170562/nutrients
+    source_reference: '#food-source-4'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 40. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 170562
+    food_nutrient_id: '1533386'
+    source_derivation_id: ''
+    source_data_points: '40'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tryptophan_recovered_fdc_170562
+    label: Tryptophan
+    substance_id: tryptophan
+    value: 0.348
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Seeds, sunflower seed kernels, dried
+    preparation_state: dried
+    source_url: https://fdc.nal.usda.gov/food-details/170562/nutrients
+    source_reference: '#food-source-4'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 25. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 170562
+    food_nutrient_id: '1533383'
+    source_derivation_id: ''
+    source_data_points: '25'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
   - key: spermidine_qual
     label: Spermidine
     status: Present — quantity not established
@@ -86,6 +212,102 @@ nutrition_supplementary_sources:
       technical provenance for food form and measurement details.
     source_url: 'https://doi.org/10.3390/foods10081752'
 substance_relationships:
+  - substance: Glycine
+    substance_id: glycine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/170562/nutrients
+    source_reference: '#food-source-5'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Seeds, sunflower seed kernels, dried
+    preparation_state: dried
+    requires_supplementary_key: glycine_recovered_fdc_170562
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier not reported, data points 26. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+  - substance: Serine
+    substance_id: serine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/170562/nutrients
+    source_reference: '#food-source-5'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Seeds, sunflower seed kernels, dried
+    preparation_state: dried
+    requires_supplementary_key: serine_recovered_fdc_170562
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier not reported, data points 26. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+  - substance: Arginine
+    substance_id: arginine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/170562/nutrients
+    source_reference: '#food-source-5'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Seeds, sunflower seed kernels, dried
+    preparation_state: dried
+    requires_supplementary_key: arginine_recovered_fdc_170562
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier not reported, data points 35. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/170562/nutrients
+    source_reference: '#food-source-5'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Seeds, sunflower seed kernels, dried
+    preparation_state: dried
+    requires_supplementary_key: tyrosine_recovered_fdc_170562
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier not reported, data points 31. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/170562/nutrients
+    source_reference: '#food-source-4'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Seeds, sunflower seed kernels, dried
+    preparation_state: dried
+    requires_supplementary_key: phenylalanine_recovered_fdc_170562
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 40. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: Tryptophan
+    substance_id: tryptophan
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/170562/nutrients
+    source_reference: '#food-source-4'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Seeds, sunflower seed kernels, dried
+    preparation_state: dried
+    requires_supplementary_key: tryptophan_recovered_fdc_170562
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 25. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
   - substance: Spermidine
     relationship: contains
     description: >-
@@ -320,3 +542,11 @@ Pair with legumes or grains to complete essential amino acid coverage.
 [2] Derbyshire & Maes (2023). [Choline as a practical nutrient target in dietary patterns](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
 
 [3] Muñoz-Esparza et al. (2021). [Occurrence of Polyamines in Foods and the Influence of Cooking Processes](/docs/papers/BRAIN-Diet-References#munoz_esparza_food_polyamines_2021). Analytical evidence for spermidine occurrence; food type and preparation affect composition.
+
+<span id="food-source-4" />
+
+[4] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 170562: Seeds, sunflower seed kernels, dried. These observations retain their own preparation state.
+
+<span id="food-source-5" />
+
+[5] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 170562: Seeds, sunflower seed kernels, dried. These observations retain their own preparation state.

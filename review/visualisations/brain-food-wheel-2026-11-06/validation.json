@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "assertions": 6768,
+  "counts": {
+    "before": {
+      "direct_substances": 49,
+      "quantified_substances": 32,
+      "direct_pairs": 2346
+    },
+    "after_proposals": {
+      "direct_substances": 54,
+      "quantified_substances": 39,
+      "direct_pairs": 2364
+    },
+    "displayed_foods": 90,
+    "food_substance_pairs": 1768,
+    "existing_pairs": 1750,
+    "proposed_only_pairs": 18,
+    "substance_brs_pairs": 121
+  },
+  "original_substance_system_connections_unchanged": true,
+  "primary_and_used_supplemental_hashes_unchanged": true,
+  "unconsumed_supplemental_snapshot_drift": [
+    "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs-x/circadian/circadian-rhythm-regulation.md",
+    "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx",
+    "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation.mdx",
+    "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-zeitgeber-entrainment.mdx",
+    "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-fm1-reproductive-hormone-balance-and-neurocognitive-regulation.mdx",
+    "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability.mdx",
+    "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation.mdx",
+    "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs-x/hormones/hormone-signalling-regulation.md",
+    "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+    "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx"
+  ]
+}

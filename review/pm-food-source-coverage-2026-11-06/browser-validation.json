@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "labelChecks": [
+    {
+      "variant": "approved",
+      "verifiedLabels": 50,
+      "status": "50 foods · 467 food–substance–PM edges · 98 distinct substance–PM pairs · 25 substances · 36 PMs · 8 systems. Local research pass; unresolved targets remain in the evidence ledger."
+    },
+    {
+      "variant": "candidate",
+      "verifiedLabels": 62,
+      "status": "62 foods · 588 food–substance–PM edges · 119 distinct substance–PM pairs · 33 substances · 41 PMs · 8 systems. Local research pass; unresolved targets remain in the evidence ledger."
+    }
+  ],
+  "selectionChecks": [
+    {
+      "selection": "candidate BRS6",
+      "status": "10 foods · 10 food–substance–PM edges · 2 distinct substance–PM pairs · 2 substances · 2 PMs · 1 systems. Local research pass; unresolved targets remain in the evidence ledger."
+    },
+    {
+      "selection": "candidate Hormones keyboard",
+      "status": "5 foods · 5 food–substance–PM edges · 1 distinct substance–PM pairs · 1 substances · 1 PMs · 1 systems. Local research pass; unresolved targets remain in the evidence ledger."
+    },
+    {
+      "selection": "candidate spinach expanded",
+      "status": "1 foods · 11 food–substance–PM edges · 11 distinct substance–PM pairs · 3 substances · 11 PMs · 3 systems. Local research pass; unresolved targets remain in the evidence ledger.",
+      "detail": "spinach → Betaine · BRS1-FM1-PM3\n\n120 mg per 100 g food; Spinach, frozen, chopped or leaf, unprepared; NDB 11463; frozen, unprepared.\n\nsource-qualified observation; method retained in provenance. Rank 4 within betaine::USDA-release2::food-mass. Within recorded comparable group only\n\nSource-specific Release 2 assay (3 samples); not a universal value or a cooked-food equivalent. Release 2 corrected earlier betaine overestimation. Choline confidence codes do not grade betaine. Preserve the specified material; no bioavailability or clinical efficacy inferred.\nThis is peripheral BHMT supply, not neuronal BHMT activity or measured delivery into neural SAM. Dietary methionine and folate remethylation provide alternatives. Homocysteine lowering does not establish regional clearance, a limiting constraint or benefit from extra intake.\nSource-specific Release 2 assay (3 samples); not a universal value or a cooked-food equivalent. Release 2 corrected earlier betaine overestimation. Choline confidence codes do not grade betaine. Preserve the specified material; no bioavailability or clinical efficacy inferred.\n\nOriginal source\n#food-source-7\ndocs/foods/spinach.md#nutrition_supplementary_sources/betaine_usda_release2_11463\n\nspinach|betaine|BRS1-FM1-PM3\nBRS1-FM1-PM3::BRS1-PM3-KC1-DONOR-2"
+    },
+    {
+      "selection": "candidate glycine",
+      "status": "5 foods · 25 food–substance–PM edges · 5 distinct substance–PM pairs · 1 substances · 5 PMs · 3 systems. Local research pass; unresolved targets remain in the evidence ledger."
+    }
+  ],
+  "checks": [
+    "candidate toggle",
+    "reset",
+    "all visible food scores",
+    "BRS6 receiving-PM selection",
+    "Hormones keyboard selection",
+    "food details and source limitations",
+    "substance selection"
+  ]
+}

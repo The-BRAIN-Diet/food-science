@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "status": "pending-appraisal",
+  "scope": "Independent clinical proposition; review-stage record, not PM10 Finding or admitted intervention",
+  "source": "10.2174/1871527320666211124093345",
+  "registry": "NCT04216186",
+  "proposition": "Adjunctive CoQ10 versus placebo with continuing atomoxetine lowers parent-rated CPRS-48 total score at six months in the studied children with persistent symptoms.",
+  "factors": {
+    "D": {
+      "value": 2,
+      "status": "scored",
+      "reason": "Direct human clinical rating outcome"
+    },
+    "B": {
+      "value": null,
+      "status": "pending",
+      "issue": "CLINICAL-COQ-ADHD-B1"
+    },
+    "P": {
+      "value": null,
+      "status": "pending",
+      "issue": "CLINICAL-COQ-ADHD-P1"
+    },
+    "R": {
+      "value": 0,
+      "status": "scored",
+      "reason": "One independent dataset established in reviewed corpus"
+    }
+  },
+  "total": null,
+  "assessmentIssues": [
+    {
+      "id": "CLINICAL-COQ-ADHD-B1",
+      "status": "pending",
+      "action": "Reconcile final paper/protocol and registry endpoint, enrolment, allocation and dose/formulation reporting",
+      "attempts": [
+        "Author-proof full methods inspected",
+        "PubMed abstract inspected",
+        "ClinicalTrials.gov API inspected"
+      ]
+    },
+    {
+      "id": "CLINICAL-COQ-ADHD-P1",
+      "status": "pending",
+      "action": "Verify corrected tables, analysis population and uncertainty for prespecified six-month endpoint",
+      "attempts": [
+        "All author-proof outcome tables inspected; discrepancies documented"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-11-05",
+      "action": "Independent appraisal; no inherited scores or numerical total. Clinical presentation authorised, scientific completion pending."
+    }
+  ]
+}

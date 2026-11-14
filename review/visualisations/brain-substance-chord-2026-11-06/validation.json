@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "assertions": 1449,
+  "source_head": "521036b1d6c212e58c660f0f985e47617a71a716",
+  "scope": "read-only canonical provenance, original admitted pairs, CoQ, BRS-X, no scientific writes"
+}

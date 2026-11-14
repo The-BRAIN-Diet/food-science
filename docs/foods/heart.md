@@ -71,6 +71,7 @@ nutrition_supplementary_sources:
     evidence_status: supported
     source_url: 'https://pubmed.ncbi.nlm.nih.gov/10775376/'
     notes: Beef heart tissue
+    source_reference: '#food-source-3'
 protein_profile_note: Complete essential amino acid profile.
 substance_relationships:
   - substance: Iron
@@ -97,6 +98,7 @@ substance_relationships:
     evidence_material: Beef heart tissue
     source_url: 'https://pubmed.ncbi.nlm.nih.gov/10775376/'
     presence_status: presence_supported_amount_unavailable
+    source_reference: '#food-source-3'
 substance_review_candidates: []
 ---
 ## Overview
@@ -147,3 +149,7 @@ This food provides a complete essential amino acid profile typical of animal pro
 [1] Heart is an organ meat often highlighted for its CoQ10 content, supporting mitochondrial electron transport and antioxidant function. Crane et al. 2001. [Biochemical functions of coenzyme Q10 in mitochondria](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)
 
 [2] Reviews of edible offal note that different organs concentrate different nutrients; in practice, heart is typically used as an occasional rotational offal food rather than a daily staple. Latoch & Stasiak 2024. [Edible offal as a valuable source of nutrients (review)](/docs/papers/BRAIN-Diet-References#latoch_edible_2024)
+
+<span id="food-source-3" />
+
+[3] Mattila et al. (2000). [Comparison of in-line connected diode array and electrochemical detectors in the high-performance liquid chromatographic analysis of coenzymes Q9 and Q10 in food materials](/docs/papers/BRAIN-Diet-References#food_composition_d3a572997731). Primary analytical evidence for beef-heart occurrence; no preparation-specific quantity assigned.

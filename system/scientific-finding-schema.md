@@ -775,3 +775,13 @@ Scientific Lessons remain permitted. Use the approved GAD lesson disclosure (`sc
 ### Authoritative Scientific Lesson placement — 4 November 2026
 
 This supersedes earlier lesson-placement amendments above. Place each existing Scientific Lesson **at the end of the Section 4 Summary**, immediately after its summary prose and before mechanistic-detail or Scientific Findings disclosures. Lessons are separate sibling dropdowns, never children of the Scientific Findings parent or an individual Finding, and never appended after References. Reuse the GAD lesson CSS, book icon, concise title and initially collapsed behaviour. Preserve lesson identity, content and supporting Finding links; do not assign a new score or create a Finding. Keep the lesson outside the generated §4.1 block so regeneration cannot move or erase it. This instruction applies to existing lessons; do not invent lessons to populate every PM. Checked canonical PMs: PM1 and GAD/PM9 contain actual lesson disclosures; other authored-lesson markers alone are not lessons.
+
+
+## Intervention food/substance presentation — author-approved 6 November 2026
+
+Apply [SOP/Lifestyle food–substance joins](sop-lifestyle-six-atom-presentation.md#approved-soplifestyle-foodsubstance-joins--6-november-2026). Stage 2A distinguishes documented composition, tested protocol, biological relationship and unconfirmed mediator; Stage 2B records supported canonical identities and derives the links below intervention titles. These are presentation metadata, not a seventh atom or new admission. Keep all six atoms, preparation/comparator limits and independent SEC provenance; omit unsupported food connections for patterns and behaviours. PM rendering and chord extraction consume one generated mapping, with composition/context edge types rather than inferred efficacy.
+
+
+### Food-source selection clarification — author decision, 6 November 2026
+
+Apply the [author-approved top-five food-source selection rule](input-substance-food-mapping.md#author-approved-top-five-food-source-selection--6-november-2026). Stage 2A verifies composition and comparability; Stage 2B promotes up to five highest supported comparable food values for each eligible dietary substance while preserving existing admission, preparation, provenance and limitations. This does not establish intervention efficacy or authorise new PM dietary inputs.

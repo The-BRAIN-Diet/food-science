@@ -17,7 +17,7 @@ const section = v => String(v || '').replace(/^1\.1\./, '3.1.');
 const walk = dir => fs.existsSync(dir) ? fs.readdirSync(dir, { withFileTypes: true }).flatMap(e => e.isDirectory() ? walk(path.join(dir, e.name)) : [path.join(dir, e.name)]).filter(p => /\.mdx?$/.test(p)) : [];
 const unique = a => [...new Set(a)];
 export function amountDisplay(o) { return o?.value != null ? `${o.value} ${o.unit}` : o?.range ? `${o.range[0]}–${o.range[1]} ${o.unit}` : 'value not known'; }
-export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
+export function buildInputSubstanceFood(root, { brs = 'BRS1', foodSubstanceIds = [] } = {}) {
     if (!/^(BRS[1-6]|BRS-X)$/.test(brs)) throw new Error('Mapping scope must be BRS1–6 or BRS-X');
     const scope = brs.toLowerCase();
     const reads = new Set(), gaps = [], conflicts = [];
@@ -165,7 +165,7 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
     const foodSources = [], patternCandidates = [];
     // Food composition is ontology-owned. Build sources for every resolved
     // mapped substance; dietary_input only governs dietary admission/roll-up.
-    const needed = new Set(relationships.map(r => r.substance_id).filter(Boolean));
+    const needed = new Set([...relationships.map(r => r.substance_id).filter(Boolean), ...foodSubstanceIds.filter(id => substances[id])]);
     for (const f of walk(path.join(root, 'docs/foods'))) {
         const doc = load(path.relative(root, f)), d = doc.data, foodId = d.id || path.basename(f).replace(/\.mdx?$/, ''), page = '/docs/' + doc.file.replace(/^docs\//, '').replace(/\.mdx?$/, ''), validPanel = checkExactFoodMatch(d, foodId).length === 0 && d.composition_status !== 'withdrawn', src = d.nutrition_source;
         const heldSubstances = new Set((d.nutrition_value_reviews || []).filter(r => r.exclude_from_food_lists === true).map(r => r.substance_id));
@@ -174,7 +174,7 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
         const entries = new Map();
         function entry(id, material, preparation) { const key = foodId + '::' + id + '::' + normalize(material || 'unspecified') + '::' + normalize(preparation || 'unspecified'); if (!entries.has(key))
             entries.set(key, { id: key, substance_id: id, food_id: foodId, food_title: d.title || foodId, food_page: page, food_record: doc.file, material: material || null, preparation: preparation || null, species: d.food_identity?.species || null, product: d.food_identity?.product || null, edible_part: d.food_identity?.edible_part || null, chemical_form: null, food_matrix: null, preparation_effects: null, absorption_evidence: null, observations: [], presence_records: [], qualification: [] }); return entries.get(key); }
-        const material = src?.food_name || d.food_identity?.material || d.title, prep = d.preparation_state || d.food_identity?.preparation || (/\b(raw|uncooked|cooked|dried|roasted|boiled|oil)\b/i.exec(src?.food_name || '')?.[1] || null);
+        const material = src?.food_name || d.food_identity?.material || d.title, prep = d.preparation_state || d.food_identity?.preparation || (/\b(raw|uncooked|cooked|dried|roasted|boiled|salted|smoked|canned|frozen|oil)\b/i.exec(src?.food_name || '')?.[1] || null);
         for (const edge of canonicalContainsRelationships(d)) {
             const ident = identity(edge.substance, edge.substance_id);
             if (!ident.id || !needed.has(ident.id) || heldSubstances.has(ident.id) || substances[ident.id]?.identity_type === 'defined-substrate-class')

@@ -1,0 +1,67 @@
+[
+  {
+    "food_id": "beef",
+    "substance_id": "l-carnitine",
+    "value": 45.58,
+    "se": 4.94,
+    "unit": "mg",
+    "basis": "per 100 g food",
+    "material": "Ground beef purchased in Japan",
+    "preparation": "ground, as purchased",
+    "source": "https://doi.org/10.5702/massspectrometry.A0191",
+    "source_record": "docs/foods/beef.md#nutrition_supplementary_sources/l_carnitine_furusho_2026_mg",
+    "limitation": "Single grocery-source preparation; mean ± SE from three extraction determinations, not three independent population samples. Chiral LC-MS/MS measured free L-carnitine with water extraction intended to avoid release from acylcarnitines. Not total acylcarnitine, a universal food value, cooked-food retention, or evidence of mitochondrial benefit."
+  },
+  {
+    "food_id": "pork",
+    "substance_id": "l-carnitine",
+    "value": 12.76,
+    "se": 1.09,
+    "unit": "mg",
+    "basis": "per 100 g food",
+    "material": "Ground pork purchased in Japan",
+    "preparation": "ground, as purchased",
+    "source": "https://doi.org/10.5702/massspectrometry.A0191",
+    "source_record": "docs/foods/pork.md#nutrition_supplementary_sources/l_carnitine_furusho_2026_mg",
+    "limitation": "Single grocery-source preparation; mean ± SE from three extraction determinations, not three independent population samples. Chiral LC-MS/MS measured free L-carnitine with water extraction intended to avoid release from acylcarnitines. Not total acylcarnitine, a universal food value, cooked-food retention, or evidence of mitochondrial benefit."
+  },
+  {
+    "food_id": "chicken",
+    "substance_id": "l-carnitine",
+    "value": 3.83,
+    "se": 0.31,
+    "unit": "mg",
+    "basis": "per 100 g food",
+    "material": "Ground chicken purchased in Japan",
+    "preparation": "ground, as purchased",
+    "source": "https://doi.org/10.5702/massspectrometry.A0191",
+    "source_record": "docs/foods/chicken.md#nutrition_supplementary_sources/l_carnitine_furusho_2026_mg",
+    "limitation": "Single grocery-source preparation; mean ± SE from three extraction determinations, not three independent population samples. Chiral LC-MS/MS measured free L-carnitine with water extraction intended to avoid release from acylcarnitines. Not total acylcarnitine, a universal food value, cooked-food retention, or evidence of mitochondrial benefit."
+  },
+  {
+    "food_id": "cheddar-cheese",
+    "substance_id": "l-carnitine",
+    "value": 0.32,
+    "se": 0.04,
+    "unit": "mg",
+    "basis": "per 100 g food",
+    "material": "Cheddar cheese purchased at a local grocery store",
+    "preparation": "as purchased",
+    "source": "https://doi.org/10.5702/massspectrometry.A0191",
+    "source_record": "docs/foods/cheddar-cheese.md#nutrition_supplementary_sources/l_carnitine_furusho_2026_mg",
+    "limitation": "Single grocery-source preparation; mean ± SE from three extraction determinations, not three independent population samples. Chiral LC-MS/MS measured free L-carnitine with water extraction intended to avoid release from acylcarnitines. Not total acylcarnitine, a universal food value, cooked-food retention, or evidence of mitochondrial benefit."
+  },
+  {
+    "food_id": "miso",
+    "substance_id": "l-carnitine",
+    "value": 0.22,
+    "se": 0.02,
+    "unit": "mg",
+    "basis": "per 100 g food",
+    "material": "Miso purchased at a local grocery store",
+    "preparation": "fermented paste, as purchased",
+    "source": "https://doi.org/10.5702/massspectrometry.A0191",
+    "source_record": "docs/foods/miso.md#nutrition_supplementary_sources/l_carnitine_furusho_2026_mg",
+    "limitation": "Single grocery-source preparation; mean ± SE from three extraction determinations, not three independent population samples. Chiral LC-MS/MS measured free L-carnitine with water extraction intended to avoid release from acylcarnitines. Not total acylcarnitine, a universal food value, cooked-food retention, or evidence of mitochondrial benefit."
+  }
+]

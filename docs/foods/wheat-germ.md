@@ -54,6 +54,24 @@ main_image_source:
 legacy_list_image: /img/foods/wheat-germ/wheat-germ_thumb.webp
 legacy_main_image: /img/foods/wheat-germ/wheat-germ_medium.webp
 nutrition_supplementary_sources:
+  - key: betaine_usda_release2_08084
+    label: Betaine
+    substance_id: betaine
+    value: 410
+    unit: mg
+    basis: per 100 g food
+    evidence_material: Wheat germ, toasted, plain; NDB 08084
+    preparation_state: toasted
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf
+    source_reference: '#food-source-7'
+    source_note: >-
+      Source-specific Release 2 assay (2 samples); not a universal value or a cooked-food equivalent. Release 2
+      corrected earlier betaine overestimation. Choline confidence codes do not grade betaine. Preserve the
+      specified material; no bioavailability or clinical efficacy inferred.
+    rank_eligible: true
+    comparison_group: betaine::USDA-release2::food-mass
+    composition_review_status: research-qualified-local
+    sample_count: 2
   - key: vitamin_e_qual
     label: Vitamin E
     status: Present — quantity not established
@@ -139,6 +157,22 @@ complementary_pairings: >-
   Lentils, chickpeas, or other legumes for complete essential amino acid
   profile.
 substance_relationships:
+  - substance: Betaine
+    substance_id: betaine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf
+    source_reference: '#food-source-7'
+    citation_keys:
+      - patterson_choline_2008
+    evidence_material: Wheat germ, toasted, plain; NDB 08084
+    preparation_state: toasted
+    requires_supplementary_key: betaine_usda_release2_08084
+    material_limitations: >-
+      Source-specific Release 2 assay (2 samples); not a universal value or a cooked-food equivalent. Release 2
+      corrected earlier betaine overestimation. Choline confidence codes do not grade betaine. Preserve the
+      specified material; no bioavailability or clinical efficacy inferred.
   - substance: Spermidine
     relationship: contains
     description: >-
@@ -251,3 +285,7 @@ Grains such as wheat germ are relatively higher in methionine but lysine-limited
 <span id="food-source-6" />
 
 [6] Zeisel et al. (2003). [Concentrations of Choline-Containing Compounds and Betaine in Common Foods](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003). Table 1, corrected by the [erratum](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003_erratum), reports 1,394.99 mg betaine per 100 g of toasted wheat germ, NDB 08084. USDA Release 2 later reports 410 mg per 100 g for that toasted form. The other nutrients on this page are crude wheat germ.
+
+<span id="food-source-7" />
+
+[7] Patterson et al. (2008). [USDA Database for the Choline Content of Common Foods, Release 2](/docs/papers/BRAIN-Diet-References#patterson_choline_2008). Betaine, NDB 08084; source-specific food measurement and preparation, separate from the general nutrient panel.

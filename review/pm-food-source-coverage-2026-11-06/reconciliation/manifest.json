@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-06T17:12:45.550521+00:00",
+  "status": "Reconciled locally; author review pending; no commit/push/deploy",
+  "original_incomplete_targets": 37,
+  "completed": 3,
+  "non_rankable_ordinary_food_targets": 10,
+  "unresolved": 24,
+  "unresolved_partial": 2,
+  "unresolved_no_selection": 22,
+  "candidate_edges": 593,
+  "scope_preserved": 151,
+  "ordinary_food_ranking_denominator": 141,
+  "canonical_edits": [
+    "docs/foods/beef.md: nutrient_key on two pre-existing pending amount reviews only"
+  ],
+  "local_extraction": "pc-source-observations.json",
+  "scientific_changes": [],
+  "validation": "validation.json",
+  "report": "FINAL-RECONCILIATION.md",
+  "browser_validation": "not rerun: browser reconnection unavailable"
+}

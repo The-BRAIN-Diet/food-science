@@ -241,3 +241,30 @@ Preparation/form cells, including the separator (for example `- dried`), also sh
 The approved compact food grid applies to all canonical PMs across BRS1–BRS6 through the shared `PmDietaryLeverEnhancer` and `attachInputFoodDisclosure`, including canonical section aliases §1.1.1–1.1.3 / §3.1.1–3.1.3. It is not restricted to the BRS3 PM4 visual acceptance example or the historical four-PM pilot. Reuse available authoritative structured mappings; do not manufacture food rows for pages without eligible mappings or admissions.
 
 Final offsets: category hyphens share a fixed right edge with `padding-right: calc(0.5rem + 1ch)`; food names shift `left: -1ch`; the complete amount and preparation cells both shift `left: -2ch`. Preserve aligned values, units and measurement bases, wrapped long food names, first-food previews, provisional icons and warnings. No per-PM scientific migration is required to receive the shared stylesheet.
+
+
+## Author-approved top-five food-source selection — 6 November 2026
+
+For an eligible PM dietary substance, promote up to five canonical foods with the highest supported nutritional composition values, rather than alphabetically filling a display. This is a composition-selection rule, not a new dietary admission, efficacy ranking or intake recommendation. It supersedes the older display-only shortlist convention for the PM-qualified Food Wheel research pass.
+
+Stage 2A verifies the original food/analyte identity, value, unit, denominator, edible material, preparation, analytical or database derivation, uncertainty and source. Stage 2B reuses that evidence and existing PM admission to select the five highest comparable values. Keep preparation visible. Use concentrations per 100 g only where the recorded basis permits; do not convert volume, dry matter, choline-moiety or protein denominators without a documented basis. Do not use estimated values as measured ones, invent serving sizes, split combined analytes, infer downstream yields, or pad incomplete lists with unknown quantities. Incompatible forms/bases remain separate with a stated selection limitation; overlapping uncertainty does not establish a precise rank. A dried food sold and eaten in that state can be compared per 100 g of that edible product, with its actual serving limitation visible. This is distinct from an analytical dry-matter denominator for a moist food, which requires a documented moisture conversion.
+
+Preserve older selections and their provenance; document any replacement. Existing accepted composition and newly researched composition remain distinguishable in the approved versus candidate network comparison. The same selection algorithm applies to both. Retain a stable food–substance–PM edge, with aliases/citations deduplicated; food score counts distinct qualified substance–PM pairs, not efficacy, nutrient density or adequacy. A presence-only or endogenous biochemical relationship cannot acquire qualified top-five status from graph reach alone.
+
+Author scope clarification includes BRS-X Circadian PM3 and Hormones PM7 as canonical PMs for this audit. Separate worktrees and source revisions must remain explicit; this does not authorise silently merging concurrent edits. The current task authorises local evidence-backed composition backfills and local visualisation, not publication.
+
+## Food Wheel selection contract — author confirmation, 6 November 2026
+
+This wheel-specific selection does not change PM admissions or the PM dropdown's composition records. The canonical food nutritional tables and structured records remain the sole internal composition authority. The previous all-food wheel proposal is superseded.
+
+For each existing PM–substance target, Relative Source Power = verified comparable food concentration / highest verified comparable concentration × 100. Reuse `relativeSourcePower` in `src/data/relatedSubstanceRelationships.mjs`; retain the provisional ≥10% threshold, with no additional significance bands. Select at most five qualifying distinct foods, without padding. Require at least two distinct comparable foods. Preserve chemical identity, preparation comparison groups, units and basis; exclude incompatible ranges. Single-source, presence-only, excluded and unresolved records remain in diagnostic reporting, not ranked wheel food nodes. No value or scientific classification is changed to satisfy selection.
+
+Overall coverage counts unique qualified PM–substance pairs, not summed food edges or repeated citations. The implementation and detailed validation are recorded in `review/food-wheel-canonical-ingestion-2026-11-06/REPORT.md`. This is local implementation authority, not permission to deploy or broaden scientific admissions.
+
+### Comparability correction — author approval, 6 November 2026
+
+For Food Wheel ranking, raw, cooked, salted, canned, roasted and other ordinary edible preparations may compete when the chemical substance, analytical definition, units and denominator are compatible. Do not create separate comparison pools solely from preparation labels. Preparation, species, sodium and limitations remain source metadata. This supersedes the earlier requirement to retain preparation-specific comparison partitions, not the requirement to preserve preparation information.
+
+Keep genuinely different chemical forms, dry-weight versus edible-weight bases, volume versus mass without a supported conversion, and specialised analytical groups separate. No value, admission, formula, provisional threshold or five-food cap changes. Salted MEXT chum-salmon roe DHA/EPA compete with compatible edible-food concentrations. Serving sizes, sodium balance and recipe formulation are separate assessments.
+
+Local implementation and the complete 151-target ledger: `review/food-wheel-151-target-reconciliation-2026-11-06/`. Source-table and gap-report generation: `scripts/reconcile-food-wheel-targets.mjs`. No production rollout is authorised by this note.

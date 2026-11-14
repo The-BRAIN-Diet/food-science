@@ -1,0 +1,4086 @@
+[
+  {
+    "kind": "unpresented-admitted-atom",
+    "pm_id": "BRS1-FM1-PM3",
+    "id": "PM3-DIT-2",
+    "scope": "BRS1"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS1-FM1-PM3::PM3-DIT-2",
+    "reason": "Direct-section admission conflicts with the explicit limitation excluding dietary PLP provision. B6 precursor supply remains a separate accepted relationship.",
+    "flags": [
+      "section-supply-contradiction"
+    ],
+    "scope": "BRS1"
+  },
+  {
+    "kind": "unpresented-admitted-atom",
+    "pm_id": "BRS1-FM1-PM3",
+    "id": "PM3-DIT-RECOVERY-FAD",
+    "scope": "BRS1"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS1-FM1-PM4::PM4-DIT-2",
+    "reason": "Direct-section admission conflicts with the explicit limitation excluding dietary PLP provision. B6 precursor supply remains a separate accepted relationship.",
+    "flags": [
+      "section-supply-contradiction"
+    ],
+    "scope": "BRS1"
+  },
+  {
+    "kind": "unpresented-admitted-atom",
+    "pm_id": "BRS1-FM1-PM4",
+    "id": "PM4-DIT-RECOVERY-FAD",
+    "scope": "BRS1"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS1-FM1-PM5::PM5-DIT-3",
+    "reason": "Direct-section admission conflicts with the explicit limitation excluding dietary PLP provision. B6 precursor supply remains a separate accepted relationship.",
+    "flags": [
+      "section-supply-contradiction"
+    ],
+    "scope": "BRS1"
+  },
+  {
+    "kind": "unpresented-admitted-atom",
+    "pm_id": "BRS1-FM1-PM5",
+    "id": "PM5-DIT-RECOVERY-FAD",
+    "scope": "BRS1"
+  },
+  {
+    "kind": "constituent-relationship-type-missing",
+    "pm_id": "BRS1-FM2-PM6",
+    "id": "BRS1-FM2-PM6-KCI-1",
+    "reason": "Established applicability retained; source has no explicit relationship-type label.",
+    "scope": "BRS1"
+  },
+  {
+    "kind": "unpresented-admitted-atom",
+    "pm_id": "BRS1-FM4-PM9",
+    "id": "PM9-DIT-2",
+    "scope": "BRS1"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS1-FM4-PM9::PM9-DIT-2",
+    "reason": "Direct-section admission conflicts with the explicit limitation excluding dietary PLP provision. B6 precursor supply remains a separate accepted relationship.",
+    "flags": [
+      "section-supply-contradiction"
+    ],
+    "scope": "BRS1"
+  },
+  {
+    "kind": "specialist-specification-not-joined",
+    "food_id": "algal-oil",
+    "record": "docs/foods/algal-oil.md",
+    "reason": "Authorised specification schema needs a material-specific adapter; no generic amount inferred.",
+    "scope": "BRS1"
+  },
+  {
+    "kind": "composition-observation-held",
+    "food_id": "quinoa",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "record": "docs/foods/quinoa.md#nutrition_value_reviews",
+    "reason": "DHA observation: independent confirmation unresolved",
+    "scope": "BRS1"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS2-FM1-PM1::PM1-DIT-3",
+    "reason": "Direct reaction-cofactor classification is retained, but the accepted overlay states that dietary cobalamin is processed to methylcobalamin and methylcobalamin is not an independent intake target. Dietary admission and this supply limitation require reconciliation; do not count it as a second supply alongside vitamin B12.",
+    "flags": [
+      "section-supply-contradiction"
+    ],
+    "scope": "BRS2"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS2-FM1-PM1",
+    "id": "PM1-DIT-5",
+    "input": "Homocysteine",
+    "status": "unresolved-identity",
+    "scope": "BRS2"
+  },
+  {
+    "kind": "unpresented-admitted-atom",
+    "pm_id": "BRS2-FM1-PM1",
+    "id": "PM1-DIT-RECOVERY-FAD",
+    "scope": "BRS2"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS2-FM1-PM2",
+    "id": "PM2-DIT-3",
+    "input": "Homocysteine",
+    "status": "unresolved-identity",
+    "scope": "BRS2"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS2-FM1-PM3",
+    "id": "PM3-DIT-2",
+    "input": "ATP",
+    "status": "unresolved-identity",
+    "scope": "BRS2"
+  },
+  {
+    "kind": "unpresented-admitted-atom",
+    "pm_id": "BRS2-FM1-PM3",
+    "id": "PM3-DIT-5",
+    "scope": "BRS2"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS2-FM1-PM3",
+    "id": "PM3-DIT-5",
+    "input": "Dietary protein",
+    "status": "unresolved-identity",
+    "scope": "BRS2"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS2-FM1-PM4",
+    "id": "PM4-DIT-2",
+    "input": "Dietary protein",
+    "status": "unresolved-identity",
+    "scope": "BRS2"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS2-FM2-PM5",
+    "id": "PM5-DIT-3",
+    "input": "Homocysteine",
+    "status": "unresolved-identity",
+    "scope": "BRS2"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS2-FM2-PM5",
+    "id": "PM5-DIT-5",
+    "input": "Cystathionine",
+    "status": "unresolved-identity",
+    "scope": "BRS2"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS2-FM2-PM6",
+    "id": "PM6-DIT-4",
+    "input": "ATP",
+    "status": "unresolved-identity",
+    "scope": "BRS2"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS2-FM3-PM7",
+    "id": "PM7-DIT-8",
+    "input": "Cytidine triphosphate (CTP)",
+    "status": "unresolved-identity",
+    "scope": "BRS2"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS2-FM3-PM7",
+    "id": "PM7-DIT-9",
+    "input": "Diacylglycerol (DAG)",
+    "status": "unresolved-identity",
+    "scope": "BRS2"
+  },
+  {
+    "kind": "specialist-specification-not-joined",
+    "food_id": "algal-oil",
+    "record": "docs/foods/algal-oil.md",
+    "reason": "Authorised specification schema needs a material-specific adapter; no generic amount inferred.",
+    "scope": "BRS2"
+  },
+  {
+    "kind": "composition-observation-held",
+    "food_id": "quinoa",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "record": "docs/foods/quinoa.md#nutrition_value_reviews",
+    "reason": "DHA observation: independent confirmation unresolved",
+    "scope": "BRS2"
+  },
+  {
+    "kind": "upstream-supply-relationship-unresolved",
+    "relationship_id": "BRS2-FM2-PM6::PM6-DIT-1",
+    "upstream_pm": "BRS2-FM2-PM5",
+    "scope": "BRS2"
+  },
+  {
+    "kind": "upstream-supply-relationship-unresolved",
+    "relationship_id": "BRS2-FM3-PM7::PM7-DIT-2",
+    "upstream_pm": "BRS2-FM1-PM3",
+    "scope": "BRS2"
+  },
+  {
+    "kind": "mapping-gap",
+    "relationship_id": "BRS2-FM1-PM3::PM3-DIT-5",
+    "input": "Dietary protein",
+    "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred.",
+    "scope": "BRS2"
+  },
+  {
+    "kind": "mapping-gap",
+    "relationship_id": "BRS2-FM1-PM4::PM4-DIT-2",
+    "input": "Dietary protein",
+    "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred.",
+    "scope": "BRS2"
+  },
+  {
+    "kind": "mapping-gap",
+    "relationship_id": "BRS2-FM2-PM6::PM6-DIT-7",
+    "input": "N-acetylcysteine",
+    "reason": "No supported canonical food-source record found.",
+    "scope": "BRS2"
+  },
+  {
+    "kind": "unpresented-admitted-atom",
+    "pm_id": "BRS3-FM2-PM6",
+    "id": "PM6-DIT-4",
+    "scope": "BRS3"
+  },
+  {
+    "kind": "specialist-specification-not-joined",
+    "food_id": "algal-oil",
+    "record": "docs/foods/algal-oil.md",
+    "reason": "Authorised specification schema needs a material-specific adapter; no generic amount inferred.",
+    "scope": "BRS3"
+  },
+  {
+    "kind": "composition-observation-held",
+    "food_id": "quinoa",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "record": "docs/foods/quinoa.md#nutrition_value_reviews",
+    "reason": "DHA observation: independent confirmation unresolved",
+    "scope": "BRS3"
+  },
+  {
+    "kind": "mapping-gap",
+    "relationship_id": "BRS3-FM1-PM2::PM2-DIT-RECOVERY-OLIGOFRUCTOSE",
+    "input": "Oligofructose",
+    "reason": "No supported canonical food-source record found.",
+    "scope": "BRS3"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS4-FM1-PM1",
+    "id": "PM1-DIT-4",
+    "input": "Ubiquinone",
+    "status": "unresolved-identity",
+    "scope": "BRS4"
+  },
+  {
+    "kind": "unpresented-admitted-atom",
+    "pm_id": "BRS4-FM1-PM10",
+    "id": "PM10-DIT-5",
+    "scope": "BRS4"
+  },
+  {
+    "kind": "unpresented-admitted-atom",
+    "pm_id": "BRS4-FM1-PM10",
+    "id": "PM10-DIT-6",
+    "scope": "BRS4"
+  },
+  {
+    "kind": "unpresented-admitted-atom",
+    "pm_id": "BRS4-FM1-PM10",
+    "id": "PM10-DIT-7",
+    "scope": "BRS4"
+  },
+  {
+    "kind": "unpresented-admitted-atom",
+    "pm_id": "BRS4-FM1-PM2",
+    "id": "PM2-DIT-RECOVERY-NAD-PLUS",
+    "scope": "BRS4"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS4-FM2-PM4::PM4-LEGACY-MN",
+    "reason": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ],
+    "scope": "BRS4"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS4-FM2-PM4::PM4-LEGACY-SE",
+    "reason": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ],
+    "scope": "BRS4"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS4-FM2-PM4::PM4-LEGACY-CU",
+    "reason": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ],
+    "scope": "BRS4"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS4-FM2-PM4::PM4-LEGACY-ZN",
+    "reason": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ],
+    "scope": "BRS4"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS4-FM2-PM5::PM5-BIO-Q",
+    "reason": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ],
+    "scope": "BRS4"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS4-FM2-PM5::PM5-BIO-GSH",
+    "reason": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ],
+    "scope": "BRS4"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS4-FM2-PM5::PM5-LEGACY-SE",
+    "reason": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ],
+    "scope": "BRS4"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS4-FM2-PM5::PM5-LEGACY-MG",
+    "reason": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ],
+    "scope": "BRS4"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS4-FM3-PM6::PM6-DEFERRED-BIO-1",
+    "reason": "Reaction/fuel context only; the separate protocol is not an ordinary-food requirement.",
+    "flags": [
+      "canonical-identity-unresolved",
+      "dietary-supply-review"
+    ],
+    "scope": "BRS4"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS4-FM3-PM7",
+    "id": "PM7-DEFERRED-BIO-2",
+    "input": "Beta-hydroxybutyrate",
+    "status": "unresolved-identity",
+    "scope": "BRS4"
+  },
+  {
+    "kind": "no-structured-admissions",
+    "pm_id": "BRS4-FM3-PM8",
+    "reason": "No structured accepted dietary inputs; narrative mentions are not admissions.",
+    "scope": "BRS4"
+  },
+  {
+    "kind": "no-structured-admissions",
+    "pm_id": "BRS4-FM4-PM9",
+    "reason": "No structured accepted dietary inputs; narrative mentions are not admissions.",
+    "scope": "BRS4"
+  },
+  {
+    "kind": "specialist-specification-not-joined",
+    "food_id": "algal-oil",
+    "record": "docs/foods/algal-oil.md",
+    "reason": "Authorised specification schema needs a material-specific adapter; no generic amount inferred.",
+    "scope": "BRS4"
+  },
+  {
+    "kind": "composition-observation-held",
+    "food_id": "quinoa",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "record": "docs/foods/quinoa.md#nutrition_value_reviews",
+    "reason": "DHA observation: independent confirmation unresolved",
+    "scope": "BRS4"
+  },
+  {
+    "kind": "mapping-gap",
+    "relationship_id": "BRS4-FM1-PM2::PM2-DIT-1",
+    "input": "Nicotinamide (a form of vitamin B3)",
+    "reason": "No supported canonical food-source record found.",
+    "scope": "BRS4"
+  },
+  {
+    "kind": "mapping-gap",
+    "relationship_id": "BRS4-FM1-PM2::PM2-DIT-2",
+    "input": "Nicotinic acid (a form of vitamin B3)",
+    "reason": "No supported canonical food-source record found.",
+    "scope": "BRS4"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS5-FM1-PM1::PM1-DIT-1",
+    "reason": "Direct-section admission conflicts with the accepted limitation excluding an established general oral/dietary lever. The microbial, active-metabolite or selected supplementation context is preserved; applicability requires resolution.",
+    "flags": [
+      "section-supply-contradiction"
+    ],
+    "scope": "BRS5"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS5-FM1-PM1",
+    "id": "PM1-DIT-2",
+    "input": "Fermentable dietary fibre",
+    "status": "unresolved-identity",
+    "scope": "BRS5"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS5-FM1-PM1::PM1-DIT-3",
+    "reason": "Direct-section admission conflicts with the accepted limitation excluding an established general oral/dietary lever. The microbial, active-metabolite or selected supplementation context is preserved; applicability requires resolution.",
+    "flags": [
+      "section-supply-contradiction"
+    ],
+    "scope": "BRS5"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS5-FM1-PM2",
+    "id": "PM2-DIT-2",
+    "input": "Type 2 resistant starch (tested aged-mouse exposure)",
+    "status": "unresolved-identity",
+    "scope": "BRS5"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS5-FM1-PM2",
+    "id": "PM2-DIT-4",
+    "input": "Milk-fat physical structure (tested comparison)",
+    "status": "unresolved-identity",
+    "scope": "BRS5"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS5-FM1-PM3",
+    "id": "PM3-DIT-1",
+    "input": "Oligofructose-enriched inulin",
+    "status": "unresolved-identity",
+    "scope": "BRS5"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS5-FM1-PM3",
+    "id": "PM3-DIT-2",
+    "input": "Bifidobacterium longum NCC2705",
+    "status": "unresolved-identity",
+    "scope": "BRS5"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS5-FM3-PM7",
+    "id": "PM7-DIT-1",
+    "input": "Lactobacillus rhamnosus JB-1",
+    "status": "unresolved-identity",
+    "scope": "BRS5"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS5-FM3-PM8",
+    "id": "PM8-DIT-2",
+    "input": "Apple pectin (studied preparation)",
+    "status": "unresolved-identity",
+    "scope": "BRS5"
+  },
+  {
+    "kind": "specialist-specification-not-joined",
+    "food_id": "algal-oil",
+    "record": "docs/foods/algal-oil.md",
+    "reason": "Authorised specification schema needs a material-specific adapter; no generic amount inferred.",
+    "scope": "BRS5"
+  },
+  {
+    "kind": "composition-observation-held",
+    "food_id": "quinoa",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "record": "docs/foods/quinoa.md#nutrition_value_reviews",
+    "reason": "DHA observation: independent confirmation unresolved",
+    "scope": "BRS5"
+  },
+  {
+    "kind": "mapping-gap",
+    "relationship_id": "BRS5-FM1-PM1::PM1-DIT-2",
+    "input": "Fermentable dietary fibre",
+    "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred.",
+    "scope": "BRS5"
+  },
+  {
+    "kind": "mapping-gap",
+    "relationship_id": "BRS5-FM1-PM1::PM1-KC1-UPSTREAM-1",
+    "input": "FOS/GOS",
+    "reason": "No supported canonical food-source record found.",
+    "scope": "BRS5"
+  },
+  {
+    "kind": "mapping-gap",
+    "relationship_id": "BRS5-FM1-PM2::PM2-DIT-1",
+    "input": "Oligofructose",
+    "reason": "No supported canonical food-source record found.",
+    "scope": "BRS5"
+  },
+  {
+    "kind": "mapping-gap",
+    "relationship_id": "BRS5-FM1-PM2::PM2-DIT-2",
+    "input": "Type 2 resistant starch (tested aged-mouse exposure)",
+    "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred.",
+    "scope": "BRS5"
+  },
+  {
+    "kind": "mapping-gap",
+    "relationship_id": "BRS5-FM1-PM2::PM2-DIT-3",
+    "input": "Fish-oil-containing meal (tested comparison)",
+    "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred.",
+    "scope": "BRS5"
+  },
+  {
+    "kind": "mapping-gap",
+    "relationship_id": "BRS5-FM1-PM2::PM2-DIT-4",
+    "input": "Milk-fat physical structure (tested comparison)",
+    "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred.",
+    "scope": "BRS5"
+  },
+  {
+    "kind": "mapping-gap",
+    "relationship_id": "BRS5-FM1-PM3::PM3-DIT-1",
+    "input": "Oligofructose-enriched inulin",
+    "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred.",
+    "scope": "BRS5"
+  },
+  {
+    "kind": "mapping-gap",
+    "relationship_id": "BRS5-FM1-PM3::PM3-DIT-2",
+    "input": "Bifidobacterium longum NCC2705",
+    "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred.",
+    "scope": "BRS5"
+  },
+  {
+    "kind": "mapping-gap",
+    "relationship_id": "BRS5-FM2-PM5::PM5-DIT-2",
+    "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
+    "reason": "No supported canonical food-source record found.",
+    "scope": "BRS5"
+  },
+  {
+    "kind": "mapping-gap",
+    "relationship_id": "BRS5-FM3-PM7::PM7-DIT-1",
+    "input": "Lactobacillus rhamnosus JB-1",
+    "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred.",
+    "scope": "BRS5"
+  },
+  {
+    "kind": "mapping-gap",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-2",
+    "input": "Apple pectin (studied preparation)",
+    "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred.",
+    "scope": "BRS5"
+  },
+  {
+    "kind": "no-structured-admissions",
+    "pm_id": "BRS6-FM1-PM1",
+    "reason": "No structured accepted dietary inputs; narrative mentions are not admissions.",
+    "scope": "BRS6"
+  },
+  {
+    "kind": "no-structured-admissions",
+    "pm_id": "BRS6-FM1-PM2",
+    "reason": "No structured accepted dietary inputs; narrative mentions are not admissions.",
+    "scope": "BRS6"
+  },
+  {
+    "kind": "no-structured-admissions",
+    "pm_id": "BRS6-FM2-PM4",
+    "reason": "No structured accepted dietary inputs; narrative mentions are not admissions.",
+    "scope": "BRS6"
+  },
+  {
+    "kind": "no-structured-admissions",
+    "pm_id": "BRS6-FM3-PM6",
+    "reason": "No structured accepted dietary inputs; narrative mentions are not admissions.",
+    "scope": "BRS6"
+  },
+  {
+    "kind": "no-structured-admissions",
+    "pm_id": "BRS6-FM3-PM7",
+    "reason": "No structured accepted dietary inputs; narrative mentions are not admissions.",
+    "scope": "BRS6"
+  },
+  {
+    "kind": "no-structured-admissions",
+    "pm_id": "BRS6-FM4-PM9",
+    "reason": "No structured accepted dietary inputs; narrative mentions are not admissions.",
+    "scope": "BRS6"
+  },
+  {
+    "kind": "specialist-specification-not-joined",
+    "food_id": "algal-oil",
+    "record": "docs/foods/algal-oil.md",
+    "reason": "Authorised specification schema needs a material-specific adapter; no generic amount inferred.",
+    "scope": "BRS6"
+  },
+  {
+    "kind": "composition-observation-held",
+    "food_id": "quinoa",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "record": "docs/foods/quinoa.md#nutrition_value_reviews",
+    "reason": "DHA observation: independent confirmation unresolved",
+    "scope": "BRS6"
+  },
+  {
+    "kind": "no-structured-admissions",
+    "pm_id": "BRS-X(Circadian-FM1-PM1)",
+    "reason": "No structured accepted dietary inputs; narrative mentions are not admissions.",
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "no-structured-admissions",
+    "pm_id": "BRS-X(Circadian-FM1-PM2)",
+    "reason": "No structured accepted dietary inputs; narrative mentions are not admissions.",
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS-X(ECS-PM1)::PM1-DIT-1",
+    "reason": "Dietary supply decision unset",
+    "flags": [],
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS-X(ECS-PM1)",
+    "id": "PM1-DIT-1",
+    "input": "N-acyl phosphatidylethanolamines (NAPEs)",
+    "status": "unresolved-identity",
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS-X(ECS-PM1)::PM1-DIT-2",
+    "reason": "Dietary supply decision unset",
+    "flags": [],
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS-X(ECS-PM3)::PM3-DIT-1",
+    "reason": "Dietary supply decision unset",
+    "flags": [],
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS-X(ECS-PM3)",
+    "id": "PM3-DIT-1",
+    "input": "Anandamide (AEA)",
+    "status": "unresolved-identity",
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS-X(ECS-PM4)::PM4-DIT-1",
+    "reason": "Dietary supply decision unset",
+    "flags": [],
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS-X(ECS-PM4)",
+    "id": "PM4-DIT-1",
+    "input": "2-Arachidonoylglycerol (2-AG)",
+    "status": "unresolved-identity",
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "no-structured-admissions",
+    "pm_id": "BRS-X(ECS-PM5)",
+    "reason": "No structured accepted dietary inputs; narrative mentions are not admissions.",
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "no-structured-admissions",
+    "pm_id": "BRS-X(Hormones-PM1)",
+    "reason": "No structured accepted dietary inputs; narrative mentions are not admissions.",
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS-X(Hormones-PM2)::PM2-DIT-1",
+    "reason": "Dietary supply decision unset",
+    "flags": [],
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS-X(Hormones-PM2)",
+    "id": "PM2-DIT-1",
+    "input": "Estrogen glucuronides",
+    "status": "unresolved-identity",
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS-X(Hormones-PM3)::PM3-DIT-1",
+    "reason": "Dietary supply decision unset",
+    "flags": [],
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS-X(Hormones-PM3)",
+    "id": "PM3-DIT-1",
+    "input": "3α,5α-Tetrahydrodeoxycorticosterone (THDOC)",
+    "status": "unresolved-identity",
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS-X(Hormones-PM3)::PM3-DIT-2",
+    "reason": "Dietary supply decision unset",
+    "flags": [],
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS-X(Hormones-PM3)",
+    "id": "PM3-DIT-2",
+    "input": "Molecular hydrogen (H₂)",
+    "status": "unresolved-identity",
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "no-structured-admissions",
+    "pm_id": "BRS-X(Hormones-PM4)",
+    "reason": "No structured accepted dietary inputs; narrative mentions are not admissions.",
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS-X(Hormones-PM5)::PM5-DIT-1",
+    "reason": "Dietary supply decision unset",
+    "flags": [],
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "dietary-input-unset",
+    "relationship_id": "BRS-X(Hormones-PM6)::PM6-DIT-1",
+    "reason": "Dietary supply decision unset",
+    "flags": [],
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "substance-identity",
+    "pm_id": "BRS-X(Hormones-PM6)",
+    "id": "PM6-DIT-1",
+    "input": "Androgen glucuronides",
+    "status": "unresolved-identity",
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "specialist-specification-not-joined",
+    "food_id": "algal-oil",
+    "record": "docs/foods/algal-oil.md",
+    "reason": "Authorised specification schema needs a material-specific adapter; no generic amount inferred.",
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "composition-observation-held",
+    "food_id": "quinoa",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "record": "docs/foods/quinoa.md#nutrition_value_reviews",
+    "reason": "DHA observation: independent confirmation unresolved",
+    "scope": "BRS-X"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "almonds",
+    "substance": "linoleic-acid",
+    "material": "Nuts, almonds"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "almonds",
+    "substance": "magnesium",
+    "material": "Nuts, almonds"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "almonds",
+    "substance": "copper",
+    "material": "Nuts, almonds"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "almonds",
+    "substance": "iron",
+    "material": "Nuts, almonds"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "almonds",
+    "substance": "manganese",
+    "material": "Nuts, almonds"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "almonds",
+    "substance": "vitamin-b2",
+    "material": "Nuts, almonds"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "almonds",
+    "substance": "vitamin-e",
+    "material": "Nuts, almonds"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "almonds",
+    "substance": "choline",
+    "material": "Nuts, almonds"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "almonds",
+    "substance": "vitamin-b9",
+    "material": "Nuts, almonds"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "almonds",
+    "substance": "vitamin-b5",
+    "material": "Nuts, almonds"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "almonds",
+    "substance": "vitamin-b6",
+    "material": "Nuts, almonds"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "almonds",
+    "substance": "potassium",
+    "material": "Nuts, almonds"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "almonds",
+    "substance": "zinc",
+    "material": "Nuts, almonds"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "almonds",
+    "substance": "selenium",
+    "material": "Nuts, almonds"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "almonds",
+    "substance": "sodium",
+    "material": "Nuts, almonds"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "barley",
+    "substance": "magnesium",
+    "material": "Barley, hulled"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "barley",
+    "substance": "selenium",
+    "material": "Barley, hulled"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "barley",
+    "substance": "vitamin-a",
+    "material": "Barley, hulled"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "barley",
+    "substance": "vitamin-b2",
+    "material": "Barley, hulled"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "barley",
+    "substance": "vitamin-b9",
+    "material": "Barley, hulled"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "barley",
+    "substance": "iron",
+    "material": "Barley, hulled"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "barley",
+    "substance": "sodium",
+    "material": "Barley, hulled"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "barley",
+    "substance": "copper",
+    "material": "Barley, hulled"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "barley",
+    "substance": "manganese",
+    "material": "Barley, hulled"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "barley",
+    "substance": "linoleic-acid",
+    "material": "Barley, hulled"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "barley",
+    "substance": "vitamin-b5",
+    "material": "Barley, hulled"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "barley",
+    "substance": "vitamin-b6",
+    "material": "Barley, hulled"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "barley",
+    "substance": "potassium",
+    "material": "Barley, hulled"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "barley",
+    "substance": "zinc",
+    "material": "Barley, hulled"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "barley",
+    "substance": "vitamin-e",
+    "material": "Barley, hulled"
+  },
+  {
+    "kind": "canonical-unverified-observation-retained",
+    "food": "beef",
+    "substance": "creatine"
+  },
+  {
+    "kind": "canonical-unverified-observation-retained",
+    "food": "beef",
+    "substance": "coq10"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "black-pepper",
+    "substance": "iron",
+    "material": "Spices, pepper, black"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "black-pepper",
+    "substance": "magnesium",
+    "material": "Spices, pepper, black"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "black-pepper",
+    "substance": "potassium",
+    "material": "Spices, pepper, black"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "black-pepper",
+    "substance": "zinc",
+    "material": "Spices, pepper, black"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "black-pepper",
+    "substance": "copper",
+    "material": "Spices, pepper, black"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "black-pepper",
+    "substance": "selenium",
+    "material": "Spices, pepper, black"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "black-pepper",
+    "substance": "vitamin-b6",
+    "material": "Spices, pepper, black"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "black-pepper",
+    "substance": "vitamin-b9",
+    "material": "Spices, pepper, black"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "black-pepper",
+    "substance": "choline",
+    "material": "Spices, pepper, black"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "black-tea",
+    "substance": "manganese",
+    "material": "Beverages, tea, black, brewed, prepared with tap water"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "black-tea",
+    "substance": "linoleic-acid",
+    "material": "Beverages, tea, black, brewed, prepared with tap water"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "black-tea",
+    "substance": "choline",
+    "material": "Beverages, tea, black, brewed, prepared with tap water"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "black-tea",
+    "substance": "iron",
+    "material": "Beverages, tea, black, brewed, prepared with tap water"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "black-tea",
+    "substance": "magnesium",
+    "material": "Beverages, tea, black, brewed, prepared with tap water"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "black-tea",
+    "substance": "sodium",
+    "material": "Beverages, tea, black, brewed, prepared with tap water"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "black-tea",
+    "substance": "copper",
+    "material": "Beverages, tea, black, brewed, prepared with tap water"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "black-tea",
+    "substance": "vitamin-b2",
+    "material": "Beverages, tea, black, brewed, prepared with tap water"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "black-tea",
+    "substance": "vitamin-b9",
+    "material": "Beverages, tea, black, brewed, prepared with tap water"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "black-tea",
+    "substance": "potassium",
+    "material": "Beverages, tea, black, brewed, prepared with tap water"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "black-tea",
+    "substance": "zinc",
+    "material": "Beverages, tea, black, brewed, prepared with tap water"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "black-tea",
+    "substance": "vitamin-b5",
+    "material": "Beverages, tea, black, brewed, prepared with tap water"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "buckwheat",
+    "substance": "magnesium",
+    "material": "Buckwheat"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "buckwheat",
+    "substance": "potassium",
+    "material": "Buckwheat"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "buckwheat",
+    "substance": "zinc",
+    "material": "Buckwheat"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "buckwheat",
+    "substance": "vitamin-b5",
+    "material": "Buckwheat"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "buckwheat",
+    "substance": "vitamin-b6",
+    "material": "Buckwheat"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "buckwheat",
+    "substance": "linoleic-acid",
+    "material": "Buckwheat"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "buckwheat",
+    "substance": "iron",
+    "material": "Buckwheat"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "buckwheat",
+    "substance": "sodium",
+    "material": "Buckwheat"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "buckwheat",
+    "substance": "copper",
+    "material": "Buckwheat"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "buckwheat",
+    "substance": "manganese",
+    "material": "Buckwheat"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "buckwheat",
+    "substance": "vitamin-b2",
+    "material": "Buckwheat"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "buckwheat",
+    "substance": "vitamin-b9",
+    "material": "Buckwheat"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "buckwheat",
+    "substance": "selenium",
+    "material": "Buckwheat"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "butter",
+    "substance": "vitamin-a",
+    "material": "Butter, without salt"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "butter",
+    "substance": "vitamin-e",
+    "material": "Butter, without salt"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "butter",
+    "substance": "magnesium",
+    "material": "Butter, without salt"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "butter",
+    "substance": "linoleic-acid",
+    "material": "Butter, without salt"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "butter",
+    "substance": "vitamin-b9",
+    "material": "Butter, without salt"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "butter",
+    "substance": "vitamin-b6",
+    "material": "Butter, without salt"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "butter",
+    "substance": "choline",
+    "material": "Butter, without salt"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "butter",
+    "substance": "iron",
+    "material": "Butter, without salt"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "butter",
+    "substance": "vitamin-b12",
+    "material": "Butter, without salt"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "butter",
+    "substance": "potassium",
+    "material": "Butter, without salt"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "butter",
+    "substance": "zinc",
+    "material": "Butter, without salt"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "butter",
+    "substance": "vitamin-b5",
+    "material": "Butter, without salt"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "butter",
+    "substance": "vitamin-b2",
+    "material": "Butter, without salt"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "butter",
+    "substance": "sodium",
+    "material": "Butter, without salt"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "butter",
+    "substance": "copper",
+    "material": "Butter, without salt"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "butter",
+    "substance": "manganese",
+    "material": "Butter, without salt"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "butter",
+    "substance": "selenium",
+    "material": "Butter, without salt"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cacao-powder",
+    "substance": "magnesium",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cacao-powder",
+    "substance": "iron",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cacao-powder",
+    "substance": "zinc",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cacao-powder",
+    "substance": "vitamin-e",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cacao-powder",
+    "substance": "sodium",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cacao-powder",
+    "substance": "copper",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cacao-powder",
+    "substance": "manganese",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cacao-powder",
+    "substance": "vitamin-b2",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cacao-powder",
+    "substance": "vitamin-b9",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cacao-powder",
+    "substance": "vitamin-b5",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cacao-powder",
+    "substance": "vitamin-b6",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cacao-powder",
+    "substance": "potassium",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cacao-powder",
+    "substance": "linoleic-acid",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cacao-powder",
+    "substance": "selenium",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cacao-powder",
+    "substance": "choline",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cacao-powder",
+    "substance": "epicatechin",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "canonical-unverified-observation-retained",
+    "food": "cacao-powder",
+    "substance": "epicatechin"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "chamomile-tea",
+    "substance": "iron",
+    "material": "Beverages, tea, herb, brewed, chamomile"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "chamomile-tea",
+    "substance": "magnesium",
+    "material": "Beverages, tea, herb, brewed, chamomile"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "chamomile-tea",
+    "substance": "potassium",
+    "material": "Beverages, tea, herb, brewed, chamomile"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "chamomile-tea",
+    "substance": "zinc",
+    "material": "Beverages, tea, herb, brewed, chamomile"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "chamomile-tea",
+    "substance": "vitamin-b9",
+    "material": "Beverages, tea, herb, brewed, chamomile"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cheddar-cheese",
+    "substance": "tyrosine",
+    "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cheddar-cheese",
+    "substance": "selenium",
+    "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cheddar-cheese",
+    "substance": "zinc",
+    "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cheddar-cheese",
+    "substance": "vitamin-b12",
+    "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cheddar-cheese",
+    "substance": "linoleic-acid",
+    "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cheddar-cheese",
+    "substance": "potassium",
+    "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cheddar-cheese",
+    "substance": "dha-docosahexaenoic-acid",
+    "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cheddar-cheese",
+    "substance": "copper",
+    "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cheddar-cheese",
+    "substance": "vitamin-a",
+    "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cheddar-cheese",
+    "substance": "vitamin-b5",
+    "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cheddar-cheese",
+    "substance": "vitamin-b6",
+    "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cheddar-cheese",
+    "substance": "vitamin-e",
+    "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cheddar-cheese",
+    "substance": "vitamin-b2",
+    "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cheddar-cheese",
+    "substance": "vitamin-b9",
+    "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cheddar-cheese",
+    "substance": "epa-eicosapentaenoic-acid",
+    "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cheddar-cheese",
+    "substance": "manganese",
+    "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cheddar-cheese",
+    "substance": "sodium",
+    "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cheddar-cheese",
+    "substance": "iron",
+    "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cheddar-cheese",
+    "substance": "magnesium",
+    "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cheddar-cheese",
+    "substance": "choline",
+    "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "chlorella",
+    "substance": "iron",
+    "material": "CHLORELLA POWDER"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "chlorella",
+    "substance": "vitamin-b12",
+    "material": "CHLORELLA POWDER"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cinnamon",
+    "substance": "vitamin-b5",
+    "material": "Spices, cinnamon, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cinnamon",
+    "substance": "vitamin-b6",
+    "material": "Spices, cinnamon, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cinnamon",
+    "substance": "selenium",
+    "material": "Spices, cinnamon, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cinnamon",
+    "substance": "vitamin-b9",
+    "material": "Spices, cinnamon, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cinnamon",
+    "substance": "iron",
+    "material": "Spices, cinnamon, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cinnamon",
+    "substance": "magnesium",
+    "material": "Spices, cinnamon, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cinnamon",
+    "substance": "copper",
+    "material": "Spices, cinnamon, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cinnamon",
+    "substance": "manganese",
+    "material": "Spices, cinnamon, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cinnamon",
+    "substance": "choline",
+    "material": "Spices, cinnamon, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cinnamon",
+    "substance": "vitamin-b2",
+    "material": "Spices, cinnamon, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cinnamon",
+    "substance": "vitamin-a",
+    "material": "Spices, cinnamon, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cinnamon",
+    "substance": "vitamin-c",
+    "material": "Spices, cinnamon, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cinnamon",
+    "substance": "sodium",
+    "material": "Spices, cinnamon, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cinnamon",
+    "substance": "linoleic-acid",
+    "material": "Spices, cinnamon, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cinnamon",
+    "substance": "potassium",
+    "material": "Spices, cinnamon, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cinnamon",
+    "substance": "zinc",
+    "material": "Spices, cinnamon, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cinnamon",
+    "substance": "vitamin-e",
+    "material": "Spices, cinnamon, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cocoa",
+    "substance": "magnesium",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cocoa",
+    "substance": "iron",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cocoa",
+    "substance": "zinc",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cocoa",
+    "substance": "vitamin-e",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cocoa",
+    "substance": "sodium",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cocoa",
+    "substance": "copper",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cocoa",
+    "substance": "manganese",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cocoa",
+    "substance": "vitamin-b2",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cocoa",
+    "substance": "vitamin-b9",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cocoa",
+    "substance": "vitamin-b5",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cocoa",
+    "substance": "vitamin-b6",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cocoa",
+    "substance": "potassium",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cocoa",
+    "substance": "linoleic-acid",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cocoa",
+    "substance": "selenium",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cocoa",
+    "substance": "choline",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "cocoa",
+    "substance": "epicatechin",
+    "material": "Cocoa, dry powder, unsweetened"
+  },
+  {
+    "kind": "canonical-unverified-observation-retained",
+    "food": "cocoa",
+    "substance": "epicatechin"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "coffee",
+    "substance": "iron",
+    "material": "Beverages, coffee, brewed, breakfast blend"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "coffee",
+    "substance": "magnesium",
+    "material": "Beverages, coffee, brewed, breakfast blend"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "coffee",
+    "substance": "sodium",
+    "material": "Beverages, coffee, brewed, breakfast blend"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "coffee",
+    "substance": "copper",
+    "material": "Beverages, coffee, brewed, breakfast blend"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "coffee",
+    "substance": "manganese",
+    "material": "Beverages, coffee, brewed, breakfast blend"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "coffee",
+    "substance": "potassium",
+    "material": "Beverages, coffee, brewed, breakfast blend"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "coffee",
+    "substance": "zinc",
+    "material": "Beverages, coffee, brewed, breakfast blend"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "dark-chocolate",
+    "substance": "magnesium",
+    "material": "Chocolate, dark, 70-85% cacao solids"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "dark-chocolate",
+    "substance": "iron",
+    "material": "Chocolate, dark, 70-85% cacao solids"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "dark-chocolate",
+    "substance": "zinc",
+    "material": "Chocolate, dark, 70-85% cacao solids"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "dark-chocolate",
+    "substance": "vitamin-a",
+    "material": "Chocolate, dark, 70-85% cacao solids"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "dark-chocolate",
+    "substance": "vitamin-e",
+    "material": "Chocolate, dark, 70-85% cacao solids"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "dark-chocolate",
+    "substance": "linoleic-acid",
+    "material": "Chocolate, dark, 70-85% cacao solids"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "dark-chocolate",
+    "substance": "vitamin-b5",
+    "material": "Chocolate, dark, 70-85% cacao solids"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "dark-chocolate",
+    "substance": "vitamin-b6",
+    "material": "Chocolate, dark, 70-85% cacao solids"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "dark-chocolate",
+    "substance": "potassium",
+    "material": "Chocolate, dark, 70-85% cacao solids"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "dark-chocolate",
+    "substance": "selenium",
+    "material": "Chocolate, dark, 70-85% cacao solids"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "dark-chocolate",
+    "substance": "vitamin-b2",
+    "material": "Chocolate, dark, 70-85% cacao solids"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "dark-chocolate",
+    "substance": "vitamin-b12",
+    "material": "Chocolate, dark, 70-85% cacao solids"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "dark-chocolate",
+    "substance": "sodium",
+    "material": "Chocolate, dark, 70-85% cacao solids"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "dark-chocolate",
+    "substance": "copper",
+    "material": "Chocolate, dark, 70-85% cacao solids"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "dark-chocolate",
+    "substance": "manganese",
+    "material": "Chocolate, dark, 70-85% cacao solids"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "dark-chocolate",
+    "substance": "epicatechin",
+    "material": "Chocolate, dark, 70-85% cacao solids"
+  },
+  {
+    "kind": "canonical-unverified-observation-retained",
+    "food": "dark-chocolate",
+    "substance": "epicatechin"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "duck-fat",
+    "substance": "choline",
+    "material": "Rendered duck fat (Fat, duck)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "duck-fat",
+    "substance": "vitamin-e",
+    "material": "Rendered duck fat (Fat, duck)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "duck-fat",
+    "substance": "selenium",
+    "material": "Rendered duck fat (Fat, duck)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "fermented-hot-sauce",
+    "substance": "iron",
+    "material": "Sauce, ready-to-serve, pepper, TABASCO"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "fermented-hot-sauce",
+    "substance": "magnesium",
+    "material": "Sauce, ready-to-serve, pepper, TABASCO"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "fermented-hot-sauce",
+    "substance": "potassium",
+    "material": "Sauce, ready-to-serve, pepper, TABASCO"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "fermented-hot-sauce",
+    "substance": "sodium",
+    "material": "Sauce, ready-to-serve, pepper, TABASCO"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "fermented-hot-sauce",
+    "substance": "zinc",
+    "material": "Sauce, ready-to-serve, pepper, TABASCO"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "fermented-hot-sauce",
+    "substance": "selenium",
+    "material": "Sauce, ready-to-serve, pepper, TABASCO"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "fermented-hot-sauce",
+    "substance": "copper",
+    "material": "Sauce, ready-to-serve, pepper, TABASCO"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "fermented-hot-sauce",
+    "substance": "manganese",
+    "material": "Sauce, ready-to-serve, pepper, TABASCO"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "fermented-hot-sauce",
+    "substance": "vitamin-a",
+    "material": "Sauce, ready-to-serve, pepper, TABASCO"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "fermented-hot-sauce",
+    "substance": "vitamin-b2",
+    "material": "Sauce, ready-to-serve, pepper, TABASCO"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "fermented-hot-sauce",
+    "substance": "vitamin-b6",
+    "material": "Sauce, ready-to-serve, pepper, TABASCO"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "fermented-hot-sauce",
+    "substance": "vitamin-c",
+    "material": "Sauce, ready-to-serve, pepper, TABASCO"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "fermented-hot-sauce",
+    "substance": "vitamin-e",
+    "material": "Sauce, ready-to-serve, pepper, TABASCO"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "fermented-hot-sauce",
+    "substance": "vitamin-b9",
+    "material": "Sauce, ready-to-serve, pepper, TABASCO"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "fermented-hot-sauce",
+    "substance": "linoleic-acid",
+    "material": "Sauce, ready-to-serve, pepper, TABASCO"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "flax-seeds",
+    "substance": "linoleic-acid",
+    "material": "Seeds, flaxseed"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "flax-seeds",
+    "substance": "magnesium",
+    "material": "Seeds, flaxseed"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "flax-seeds",
+    "substance": "manganese",
+    "material": "Seeds, flaxseed"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "flax-seeds",
+    "substance": "vitamin-b5",
+    "material": "Seeds, flaxseed"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "flax-seeds",
+    "substance": "vitamin-b6",
+    "material": "Seeds, flaxseed"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "flax-seeds",
+    "substance": "potassium",
+    "material": "Seeds, flaxseed"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "flax-seeds",
+    "substance": "zinc",
+    "material": "Seeds, flaxseed"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "flax-seeds",
+    "substance": "selenium",
+    "material": "Seeds, flaxseed"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "flax-seeds",
+    "substance": "vitamin-e",
+    "material": "Seeds, flaxseed"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "flax-seeds",
+    "substance": "iron",
+    "material": "Seeds, flaxseed"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "flax-seeds",
+    "substance": "sodium",
+    "material": "Seeds, flaxseed"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "flax-seeds",
+    "substance": "copper",
+    "material": "Seeds, flaxseed"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "flax-seeds",
+    "substance": "vitamin-c",
+    "material": "Seeds, flaxseed"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "flax-seeds",
+    "substance": "vitamin-b2",
+    "material": "Seeds, flaxseed"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "flax-seeds",
+    "substance": "vitamin-b9",
+    "material": "Seeds, flaxseed"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "flax-seeds",
+    "substance": "choline",
+    "material": "Seeds, flaxseed"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "greek-yogurt",
+    "substance": "magnesium",
+    "material": "Yogurt, Greek, plain, whole milk"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "greek-yogurt",
+    "substance": "potassium",
+    "material": "Yogurt, Greek, plain, whole milk"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "greek-yogurt",
+    "substance": "zinc",
+    "material": "Yogurt, Greek, plain, whole milk"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "greek-yogurt",
+    "substance": "sodium",
+    "material": "Yogurt, Greek, plain, whole milk"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "greek-yogurt",
+    "substance": "copper",
+    "material": "Yogurt, Greek, plain, whole milk"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "greek-yogurt",
+    "substance": "manganese",
+    "material": "Yogurt, Greek, plain, whole milk"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "greek-yogurt",
+    "substance": "vitamin-a",
+    "material": "Yogurt, Greek, plain, whole milk"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "greek-yogurt",
+    "substance": "vitamin-b2",
+    "material": "Yogurt, Greek, plain, whole milk"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "greek-yogurt",
+    "substance": "vitamin-b9",
+    "material": "Yogurt, Greek, plain, whole milk"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "greek-yogurt",
+    "substance": "vitamin-b12",
+    "material": "Yogurt, Greek, plain, whole milk"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "greek-yogurt",
+    "substance": "selenium",
+    "material": "Yogurt, Greek, plain, whole milk"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "greek-yogurt",
+    "substance": "vitamin-e",
+    "material": "Yogurt, Greek, plain, whole milk"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "greek-yogurt",
+    "substance": "vitamin-b5",
+    "material": "Yogurt, Greek, plain, whole milk"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "greek-yogurt",
+    "substance": "vitamin-b6",
+    "material": "Yogurt, Greek, plain, whole milk"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "greek-yogurt",
+    "substance": "choline",
+    "material": "Yogurt, Greek, plain, whole milk"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "greek-yogurt",
+    "substance": "linoleic-acid",
+    "material": "Yogurt, Greek, plain, whole milk"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "greek-yogurt",
+    "substance": "dha-docosahexaenoic-acid",
+    "material": "Yogurt, Greek, plain, whole milk"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "green-tea",
+    "substance": "potassium",
+    "material": "Beverages, tea, green, brewed, regular"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "green-tea",
+    "substance": "manganese",
+    "material": "Beverages, tea, green, brewed, regular"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "green-tea",
+    "substance": "zinc",
+    "material": "Beverages, tea, green, brewed, regular"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "green-tea",
+    "substance": "vitamin-b6",
+    "material": "Beverages, tea, green, brewed, regular"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "green-tea",
+    "substance": "iron",
+    "material": "Beverages, tea, green, brewed, regular"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "green-tea",
+    "substance": "magnesium",
+    "material": "Beverages, tea, green, brewed, regular"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "green-tea",
+    "substance": "sodium",
+    "material": "Beverages, tea, green, brewed, regular"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "green-tea",
+    "substance": "copper",
+    "material": "Beverages, tea, green, brewed, regular"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "green-tea",
+    "substance": "vitamin-b2",
+    "material": "Beverages, tea, green, brewed, regular"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kefir",
+    "substance": "iron",
+    "material": "Kefir, lowfat, plain, LIFEWAY"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kefir",
+    "substance": "magnesium",
+    "material": "Kefir, lowfat, plain, LIFEWAY"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kefir",
+    "substance": "sodium",
+    "material": "Kefir, lowfat, plain, LIFEWAY"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kefir",
+    "substance": "copper",
+    "material": "Kefir, lowfat, plain, LIFEWAY"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kefir",
+    "substance": "manganese",
+    "material": "Kefir, lowfat, plain, LIFEWAY"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kefir",
+    "substance": "vitamin-a",
+    "material": "Kefir, lowfat, plain, LIFEWAY"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kefir",
+    "substance": "vitamin-c",
+    "material": "Kefir, lowfat, plain, LIFEWAY"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kefir",
+    "substance": "vitamin-b2",
+    "material": "Kefir, lowfat, plain, LIFEWAY"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kefir",
+    "substance": "vitamin-b9",
+    "material": "Kefir, lowfat, plain, LIFEWAY"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kefir",
+    "substance": "vitamin-b12",
+    "material": "Kefir, lowfat, plain, LIFEWAY"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kefir",
+    "substance": "linoleic-acid",
+    "material": "Kefir, lowfat, plain, LIFEWAY"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kefir",
+    "substance": "potassium",
+    "material": "Kefir, lowfat, plain, LIFEWAY"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kefir",
+    "substance": "zinc",
+    "material": "Kefir, lowfat, plain, LIFEWAY"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kefir",
+    "substance": "selenium",
+    "material": "Kefir, lowfat, plain, LIFEWAY"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kefir",
+    "substance": "vitamin-e",
+    "material": "Kefir, lowfat, plain, LIFEWAY"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kefir",
+    "substance": "vitamin-b5",
+    "material": "Kefir, lowfat, plain, LIFEWAY"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kefir",
+    "substance": "vitamin-b6",
+    "material": "Kefir, lowfat, plain, LIFEWAY"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kefir",
+    "substance": "choline",
+    "material": "Kefir, lowfat, plain, LIFEWAY"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kimchi",
+    "substance": "potassium",
+    "material": "Cabbage, kimchi"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kimchi",
+    "substance": "zinc",
+    "material": "Cabbage, kimchi"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kimchi",
+    "substance": "selenium",
+    "material": "Cabbage, kimchi"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kimchi",
+    "substance": "vitamin-e",
+    "material": "Cabbage, kimchi"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kimchi",
+    "substance": "vitamin-b6",
+    "material": "Cabbage, kimchi"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kimchi",
+    "substance": "choline",
+    "material": "Cabbage, kimchi"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kimchi",
+    "substance": "linoleic-acid",
+    "material": "Cabbage, kimchi"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kimchi",
+    "substance": "iron",
+    "material": "Cabbage, kimchi"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kimchi",
+    "substance": "magnesium",
+    "material": "Cabbage, kimchi"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kimchi",
+    "substance": "sodium",
+    "material": "Cabbage, kimchi"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kimchi",
+    "substance": "copper",
+    "material": "Cabbage, kimchi"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kimchi",
+    "substance": "vitamin-a",
+    "material": "Cabbage, kimchi"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kimchi",
+    "substance": "vitamin-b2",
+    "material": "Cabbage, kimchi"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "kimchi",
+    "substance": "vitamin-b9",
+    "material": "Cabbage, kimchi"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "lions-mane-mushroom",
+    "substance": "iron",
+    "material": "Mushroom, lion's mane"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "lions-mane-mushroom",
+    "substance": "magnesium",
+    "material": "Mushroom, lion's mane"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "lions-mane-mushroom",
+    "substance": "potassium",
+    "material": "Mushroom, lion's mane"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "lions-mane-mushroom",
+    "substance": "zinc",
+    "material": "Mushroom, lion's mane"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "lions-mane-mushroom",
+    "substance": "selenium",
+    "material": "Mushroom, lion's mane"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "lions-mane-mushroom",
+    "substance": "vitamin-b6",
+    "material": "Mushroom, lion's mane"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "lions-mane-mushroom",
+    "substance": "vitamin-b9",
+    "material": "Mushroom, lion's mane"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "milk",
+    "substance": "magnesium",
+    "material": "Milk, whole, 3.25% milkfat, with added vitamin D"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "milk",
+    "substance": "potassium",
+    "material": "Milk, whole, 3.25% milkfat, with added vitamin D"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "milk",
+    "substance": "zinc",
+    "material": "Milk, whole, 3.25% milkfat, with added vitamin D"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "milk",
+    "substance": "vitamin-b12",
+    "material": "Milk, whole, 3.25% milkfat, with added vitamin D"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "milk",
+    "substance": "vitamin-b2",
+    "material": "Milk, whole, 3.25% milkfat, with added vitamin D"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "milk",
+    "substance": "vitamin-b5",
+    "material": "Milk, whole, 3.25% milkfat, with added vitamin D"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "milk",
+    "substance": "vitamin-a",
+    "material": "Milk, whole, 3.25% milkfat, with added vitamin D"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "milk",
+    "substance": "linoleic-acid",
+    "material": "Milk, whole, 3.25% milkfat, with added vitamin D"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "milk",
+    "substance": "selenium",
+    "material": "Milk, whole, 3.25% milkfat, with added vitamin D"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "milk",
+    "substance": "choline",
+    "material": "Milk, whole, 3.25% milkfat, with added vitamin D"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "milk",
+    "substance": "vitamin-b9",
+    "material": "Milk, whole, 3.25% milkfat, with added vitamin D"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "milk",
+    "substance": "iron",
+    "material": "Milk, whole, 3.25% milkfat, with added vitamin D"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "milk",
+    "substance": "sodium",
+    "material": "Milk, whole, 3.25% milkfat, with added vitamin D"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "milk",
+    "substance": "copper",
+    "material": "Milk, whole, 3.25% milkfat, with added vitamin D"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "milk",
+    "substance": "manganese",
+    "material": "Milk, whole, 3.25% milkfat, with added vitamin D"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "milk",
+    "substance": "vitamin-b6",
+    "material": "Milk, whole, 3.25% milkfat, with added vitamin D"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "milk",
+    "substance": "vitamin-e",
+    "material": "Milk, whole, 3.25% milkfat, with added vitamin D"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "miso",
+    "substance": "sodium",
+    "material": "Miso"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "miso",
+    "substance": "vitamin-e",
+    "material": "Miso"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "miso",
+    "substance": "choline",
+    "material": "Miso"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "miso",
+    "substance": "vitamin-a",
+    "material": "Miso"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "miso",
+    "substance": "linoleic-acid",
+    "material": "Miso"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "miso",
+    "substance": "vitamin-b2",
+    "material": "Miso"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "miso",
+    "substance": "vitamin-b9",
+    "material": "Miso"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "miso",
+    "substance": "vitamin-b12",
+    "material": "Miso"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "miso",
+    "substance": "iron",
+    "material": "Miso"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "miso",
+    "substance": "magnesium",
+    "material": "Miso"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "miso",
+    "substance": "copper",
+    "material": "Miso"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "miso",
+    "substance": "manganese",
+    "material": "Miso"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "miso",
+    "substance": "vitamin-b5",
+    "material": "Miso"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "miso",
+    "substance": "vitamin-b6",
+    "material": "Miso"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "miso",
+    "substance": "potassium",
+    "material": "Miso"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "miso",
+    "substance": "zinc",
+    "material": "Miso"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "miso",
+    "substance": "selenium",
+    "material": "Miso"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "natto",
+    "substance": "vitamin-e",
+    "material": "Natto"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "natto",
+    "substance": "choline",
+    "material": "Natto"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "natto",
+    "substance": "iron",
+    "material": "Natto"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "natto",
+    "substance": "magnesium",
+    "material": "Natto"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "natto",
+    "substance": "sodium",
+    "material": "Natto"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "natto",
+    "substance": "copper",
+    "material": "Natto"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "natto",
+    "substance": "manganese",
+    "material": "Natto"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "natto",
+    "substance": "vitamin-c",
+    "material": "Natto"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "natto",
+    "substance": "vitamin-b2",
+    "material": "Natto"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "natto",
+    "substance": "vitamin-b9",
+    "material": "Natto"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "natto",
+    "substance": "potassium",
+    "material": "Natto"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "natto",
+    "substance": "zinc",
+    "material": "Natto"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "natto",
+    "substance": "linoleic-acid",
+    "material": "Natto"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "natto",
+    "substance": "vitamin-b5",
+    "material": "Natto"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "natto",
+    "substance": "vitamin-b6",
+    "material": "Natto"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "natto",
+    "substance": "selenium",
+    "material": "Natto"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "oats",
+    "substance": "magnesium",
+    "material": "Oats (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "oats",
+    "substance": "copper",
+    "material": "Oats (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "oats",
+    "substance": "iron",
+    "material": "Oats (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "oats",
+    "substance": "zinc",
+    "material": "Oats (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "oats",
+    "substance": "sodium",
+    "material": "Oats (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "oats",
+    "substance": "manganese",
+    "material": "Oats (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "oats",
+    "substance": "vitamin-b2",
+    "material": "Oats (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "oats",
+    "substance": "vitamin-b9",
+    "material": "Oats (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "oats",
+    "substance": "potassium",
+    "material": "Oats (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "oats",
+    "substance": "vitamin-b5",
+    "material": "Oats (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "oats",
+    "substance": "linoleic-acid",
+    "material": "Oats (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "oats",
+    "substance": "vitamin-b6",
+    "material": "Oats (Includes foods for USDA's Food Distribution Program)"
+  },
+  {
+    "kind": "multiple-observations-review-comparability",
+    "food": "oysters",
+    "substance": "dha-docosahexaenoic-acid",
+    "records": [
+      "docs/foods/oysters.md#nutrition_per_100g/dha_mg",
+      "docs/foods/oysters.md#nutrition_supplementary_sources/dha_mg"
+    ]
+  },
+  {
+    "kind": "multiple-observations-review-comparability",
+    "food": "oysters",
+    "substance": "epa-eicosapentaenoic-acid",
+    "records": [
+      "docs/foods/oysters.md#nutrition_per_100g/epa_mg",
+      "docs/foods/oysters.md#nutrition_supplementary_sources/epa_mg"
+    ]
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parmesan-cheese",
+    "substance": "tyrosine",
+    "material": "Cheese, parmesan, hard"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parmesan-cheese",
+    "substance": "choline",
+    "material": "Cheese, parmesan, hard"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parmesan-cheese",
+    "substance": "vitamin-e",
+    "material": "Cheese, parmesan, hard"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parmesan-cheese",
+    "substance": "vitamin-a",
+    "material": "Cheese, parmesan, hard"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parmesan-cheese",
+    "substance": "sodium",
+    "material": "Cheese, parmesan, hard"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parmesan-cheese",
+    "substance": "copper",
+    "material": "Cheese, parmesan, hard"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parmesan-cheese",
+    "substance": "manganese",
+    "material": "Cheese, parmesan, hard"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parmesan-cheese",
+    "substance": "vitamin-b2",
+    "material": "Cheese, parmesan, hard"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parmesan-cheese",
+    "substance": "vitamin-b9",
+    "material": "Cheese, parmesan, hard"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parmesan-cheese",
+    "substance": "vitamin-b12",
+    "material": "Cheese, parmesan, hard"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parmesan-cheese",
+    "substance": "iron",
+    "material": "Cheese, parmesan, hard"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parmesan-cheese",
+    "substance": "magnesium",
+    "material": "Cheese, parmesan, hard"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parmesan-cheese",
+    "substance": "potassium",
+    "material": "Cheese, parmesan, hard"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parmesan-cheese",
+    "substance": "zinc",
+    "material": "Cheese, parmesan, hard"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parmesan-cheese",
+    "substance": "vitamin-b5",
+    "material": "Cheese, parmesan, hard"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parmesan-cheese",
+    "substance": "vitamin-b6",
+    "material": "Cheese, parmesan, hard"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parmesan-cheese",
+    "substance": "linoleic-acid",
+    "material": "Cheese, parmesan, hard"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parmesan-cheese",
+    "substance": "selenium",
+    "material": "Cheese, parmesan, hard"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parsley",
+    "substance": "vitamin-b9",
+    "material": "Parsley, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parsley",
+    "substance": "vitamin-c",
+    "material": "Parsley, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parsley",
+    "substance": "choline",
+    "material": "Parsley, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parsley",
+    "substance": "vitamin-e",
+    "material": "Parsley, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parsley",
+    "substance": "vitamin-a",
+    "material": "Parsley, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parsley",
+    "substance": "potassium",
+    "material": "Parsley, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parsley",
+    "substance": "zinc",
+    "material": "Parsley, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parsley",
+    "substance": "linoleic-acid",
+    "material": "Parsley, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parsley",
+    "substance": "vitamin-b5",
+    "material": "Parsley, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parsley",
+    "substance": "vitamin-b6",
+    "material": "Parsley, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parsley",
+    "substance": "iron",
+    "material": "Parsley, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parsley",
+    "substance": "magnesium",
+    "material": "Parsley, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parsley",
+    "substance": "sodium",
+    "material": "Parsley, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parsley",
+    "substance": "copper",
+    "material": "Parsley, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parsley",
+    "substance": "manganese",
+    "material": "Parsley, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parsley",
+    "substance": "vitamin-b2",
+    "material": "Parsley, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "parsley",
+    "substance": "selenium",
+    "material": "Parsley, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "peppermint",
+    "substance": "iron",
+    "material": "Peppermint, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "peppermint",
+    "substance": "magnesium",
+    "material": "Peppermint, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "peppermint",
+    "substance": "sodium",
+    "material": "Peppermint, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "peppermint",
+    "substance": "copper",
+    "material": "Peppermint, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "peppermint",
+    "substance": "manganese",
+    "material": "Peppermint, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "peppermint",
+    "substance": "vitamin-c",
+    "material": "Peppermint, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "peppermint",
+    "substance": "vitamin-b2",
+    "material": "Peppermint, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "peppermint",
+    "substance": "vitamin-b9",
+    "material": "Peppermint, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "peppermint",
+    "substance": "linoleic-acid",
+    "material": "Peppermint, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "peppermint",
+    "substance": "vitamin-b5",
+    "material": "Peppermint, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "peppermint",
+    "substance": "vitamin-b6",
+    "material": "Peppermint, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "peppermint",
+    "substance": "potassium",
+    "material": "Peppermint, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "peppermint",
+    "substance": "zinc",
+    "material": "Peppermint, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "peppermint",
+    "substance": "vitamin-a",
+    "material": "Peppermint, fresh"
+  },
+  {
+    "kind": "canonical-unverified-observation-retained",
+    "food": "quinoa",
+    "substance": "betaine"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "rosemary",
+    "substance": "vitamin-b5",
+    "material": "Rosemary, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "rosemary",
+    "substance": "vitamin-b6",
+    "material": "Rosemary, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "rosemary",
+    "substance": "linoleic-acid",
+    "material": "Rosemary, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "rosemary",
+    "substance": "potassium",
+    "material": "Rosemary, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "rosemary",
+    "substance": "zinc",
+    "material": "Rosemary, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "rosemary",
+    "substance": "iron",
+    "material": "Rosemary, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "rosemary",
+    "substance": "magnesium",
+    "material": "Rosemary, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "rosemary",
+    "substance": "sodium",
+    "material": "Rosemary, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "rosemary",
+    "substance": "copper",
+    "material": "Rosemary, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "rosemary",
+    "substance": "manganese",
+    "material": "Rosemary, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "rosemary",
+    "substance": "vitamin-b2",
+    "material": "Rosemary, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "rosemary",
+    "substance": "vitamin-b9",
+    "material": "Rosemary, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "rosemary",
+    "substance": "vitamin-c",
+    "material": "Rosemary, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "rosemary",
+    "substance": "vitamin-a",
+    "material": "Rosemary, fresh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "saffron",
+    "substance": "iron",
+    "material": "Spices, saffron"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "saffron",
+    "substance": "magnesium",
+    "material": "Spices, saffron"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "saffron",
+    "substance": "potassium",
+    "material": "Spices, saffron"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "saffron",
+    "substance": "zinc",
+    "material": "Spices, saffron"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "saffron",
+    "substance": "selenium",
+    "material": "Spices, saffron"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "saffron",
+    "substance": "vitamin-b6",
+    "material": "Spices, saffron"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "saffron",
+    "substance": "vitamin-b9",
+    "material": "Spices, saffron"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "sage",
+    "substance": "iron",
+    "material": "Spices, sage, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "sage",
+    "substance": "magnesium",
+    "material": "Spices, sage, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "sage",
+    "substance": "potassium",
+    "material": "Spices, sage, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "sage",
+    "substance": "zinc",
+    "material": "Spices, sage, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "sage",
+    "substance": "selenium",
+    "material": "Spices, sage, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "sage",
+    "substance": "vitamin-b6",
+    "material": "Spices, sage, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "sage",
+    "substance": "vitamin-b9",
+    "material": "Spices, sage, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "sage",
+    "substance": "choline",
+    "material": "Spices, sage, ground"
+  },
+  {
+    "kind": "canonical-unverified-observation-retained",
+    "food": "salmon",
+    "substance": "arginine"
+  },
+  {
+    "kind": "canonical-unverified-observation-retained",
+    "food": "salmon",
+    "substance": "tyrosine"
+  },
+  {
+    "kind": "canonical-unverified-observation-retained",
+    "food": "salmon",
+    "substance": "phenylalanine"
+  },
+  {
+    "kind": "canonical-unverified-observation-retained",
+    "food": "salmon",
+    "substance": "tryptophan"
+  },
+  {
+    "kind": "canonical-unverified-observation-retained",
+    "food": "salmon",
+    "substance": "glycine"
+  },
+  {
+    "kind": "canonical-unverified-observation-retained",
+    "food": "salmon",
+    "substance": "serine"
+  },
+  {
+    "kind": "canonical-unverified-observation-retained",
+    "food": "salmon",
+    "substance": "phenylalanine"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "tempeh",
+    "substance": "tyrosine",
+    "material": "Tempeh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "tempeh",
+    "substance": "linoleic-acid",
+    "material": "Tempeh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "tempeh",
+    "substance": "magnesium",
+    "material": "Tempeh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "tempeh",
+    "substance": "copper",
+    "material": "Tempeh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "tempeh",
+    "substance": "iron",
+    "material": "Tempeh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "tempeh",
+    "substance": "manganese",
+    "material": "Tempeh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "tempeh",
+    "substance": "vitamin-b12",
+    "material": "Tempeh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "tempeh",
+    "substance": "sodium",
+    "material": "Tempeh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "tempeh",
+    "substance": "vitamin-b2",
+    "material": "Tempeh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "tempeh",
+    "substance": "vitamin-b9",
+    "material": "Tempeh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "tempeh",
+    "substance": "potassium",
+    "material": "Tempeh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "tempeh",
+    "substance": "zinc",
+    "material": "Tempeh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "tempeh",
+    "substance": "vitamin-b5",
+    "material": "Tempeh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "tempeh",
+    "substance": "vitamin-b6",
+    "material": "Tempeh"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "turmeric",
+    "substance": "vitamin-b5",
+    "material": "Spices, turmeric, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "turmeric",
+    "substance": "potassium",
+    "material": "Spices, turmeric, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "turmeric",
+    "substance": "zinc",
+    "material": "Spices, turmeric, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "turmeric",
+    "substance": "selenium",
+    "material": "Spices, turmeric, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "turmeric",
+    "substance": "linoleic-acid",
+    "material": "Spices, turmeric, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "turmeric",
+    "substance": "iron",
+    "material": "Spices, turmeric, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "turmeric",
+    "substance": "magnesium",
+    "material": "Spices, turmeric, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "turmeric",
+    "substance": "sodium",
+    "material": "Spices, turmeric, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "turmeric",
+    "substance": "copper",
+    "material": "Spices, turmeric, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "turmeric",
+    "substance": "manganese",
+    "material": "Spices, turmeric, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "turmeric",
+    "substance": "vitamin-c",
+    "material": "Spices, turmeric, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "turmeric",
+    "substance": "vitamin-b2",
+    "material": "Spices, turmeric, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "turmeric",
+    "substance": "vitamin-b9",
+    "material": "Spices, turmeric, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "turmeric",
+    "substance": "vitamin-e",
+    "material": "Spices, turmeric, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "turmeric",
+    "substance": "vitamin-b6",
+    "material": "Spices, turmeric, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "turmeric",
+    "substance": "choline",
+    "material": "Spices, turmeric, ground"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar-pickles",
+    "substance": "sodium",
+    "material": "Pickles, cucumber, dill or kosher dill"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar-pickles",
+    "substance": "vitamin-e",
+    "material": "Pickles, cucumber, dill or kosher dill"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar-pickles",
+    "substance": "vitamin-b9",
+    "material": "Pickles, cucumber, dill or kosher dill"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar-pickles",
+    "substance": "vitamin-a",
+    "material": "Pickles, cucumber, dill or kosher dill"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar-pickles",
+    "substance": "potassium",
+    "material": "Pickles, cucumber, dill or kosher dill"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar-pickles",
+    "substance": "zinc",
+    "material": "Pickles, cucumber, dill or kosher dill"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar-pickles",
+    "substance": "vitamin-b5",
+    "material": "Pickles, cucumber, dill or kosher dill"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar-pickles",
+    "substance": "vitamin-b6",
+    "material": "Pickles, cucumber, dill or kosher dill"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar-pickles",
+    "substance": "linoleic-acid",
+    "material": "Pickles, cucumber, dill or kosher dill"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar-pickles",
+    "substance": "iron",
+    "material": "Pickles, cucumber, dill or kosher dill"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar-pickles",
+    "substance": "magnesium",
+    "material": "Pickles, cucumber, dill or kosher dill"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar-pickles",
+    "substance": "vitamin-c",
+    "material": "Pickles, cucumber, dill or kosher dill"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar-pickles",
+    "substance": "copper",
+    "material": "Pickles, cucumber, dill or kosher dill"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar-pickles",
+    "substance": "manganese",
+    "material": "Pickles, cucumber, dill or kosher dill"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar-pickles",
+    "substance": "vitamin-b2",
+    "material": "Pickles, cucumber, dill or kosher dill"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar-pickles",
+    "substance": "choline",
+    "material": "Pickles, cucumber, dill or kosher dill"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar",
+    "substance": "zinc",
+    "material": "Vinegar, cider"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar",
+    "substance": "copper",
+    "material": "Vinegar, cider"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar",
+    "substance": "manganese",
+    "material": "Vinegar, cider"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar",
+    "substance": "magnesium",
+    "material": "Vinegar, cider"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar",
+    "substance": "potassium",
+    "material": "Vinegar, cider"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar",
+    "substance": "sodium",
+    "material": "Vinegar, cider"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar",
+    "substance": "iron",
+    "material": "Vinegar, cider"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "vinegar",
+    "substance": "selenium",
+    "material": "Vinegar, cider"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "walnuts",
+    "substance": "linoleic-acid",
+    "material": "Nuts, walnuts, english"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "walnuts",
+    "substance": "magnesium",
+    "material": "Nuts, walnuts, english"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "walnuts",
+    "substance": "copper",
+    "material": "Nuts, walnuts, english"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "walnuts",
+    "substance": "manganese",
+    "material": "Nuts, walnuts, english"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "walnuts",
+    "substance": "vitamin-e",
+    "material": "Nuts, walnuts, english"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "walnuts",
+    "substance": "choline",
+    "material": "Nuts, walnuts, english"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "walnuts",
+    "substance": "selenium",
+    "material": "Nuts, walnuts, english"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "walnuts",
+    "substance": "vitamin-a",
+    "material": "Nuts, walnuts, english"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "walnuts",
+    "substance": "iron",
+    "material": "Nuts, walnuts, english"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "walnuts",
+    "substance": "sodium",
+    "material": "Nuts, walnuts, english"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "walnuts",
+    "substance": "vitamin-c",
+    "material": "Nuts, walnuts, english"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "walnuts",
+    "substance": "vitamin-b2",
+    "material": "Nuts, walnuts, english"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "walnuts",
+    "substance": "vitamin-b9",
+    "material": "Nuts, walnuts, english"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "walnuts",
+    "substance": "vitamin-b5",
+    "material": "Nuts, walnuts, english"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "walnuts",
+    "substance": "vitamin-b6",
+    "material": "Nuts, walnuts, english"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "walnuts",
+    "substance": "potassium",
+    "material": "Nuts, walnuts, english"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "walnuts",
+    "substance": "zinc",
+    "material": "Nuts, walnuts, english"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat-germ",
+    "substance": "vitamin-b2",
+    "material": "Wheat germ, crude"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat-germ",
+    "substance": "vitamin-b9",
+    "material": "Wheat germ, crude"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat-germ",
+    "substance": "iron",
+    "material": "Wheat germ, crude"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat-germ",
+    "substance": "magnesium",
+    "material": "Wheat germ, crude"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat-germ",
+    "substance": "sodium",
+    "material": "Wheat germ, crude"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat-germ",
+    "substance": "copper",
+    "material": "Wheat germ, crude"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat-germ",
+    "substance": "manganese",
+    "material": "Wheat germ, crude"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat-germ",
+    "substance": "potassium",
+    "material": "Wheat germ, crude"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat-germ",
+    "substance": "zinc",
+    "material": "Wheat germ, crude"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat-germ",
+    "substance": "vitamin-b5",
+    "material": "Wheat germ, crude"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat-germ",
+    "substance": "vitamin-b6",
+    "material": "Wheat germ, crude"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat-germ",
+    "substance": "linoleic-acid",
+    "material": "Wheat germ, crude"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat-germ",
+    "substance": "selenium",
+    "material": "Wheat germ, crude"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat",
+    "substance": "magnesium",
+    "material": "Wheat, hard red winter"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat",
+    "substance": "iron",
+    "material": "Wheat, hard red winter"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat",
+    "substance": "zinc",
+    "material": "Wheat, hard red winter"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat",
+    "substance": "choline",
+    "material": "Wheat, hard red winter"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat",
+    "substance": "vitamin-e",
+    "material": "Wheat, hard red winter"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat",
+    "substance": "vitamin-b2",
+    "material": "Wheat, hard red winter"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat",
+    "substance": "vitamin-b9",
+    "material": "Wheat, hard red winter"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat",
+    "substance": "sodium",
+    "material": "Wheat, hard red winter"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat",
+    "substance": "copper",
+    "material": "Wheat, hard red winter"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat",
+    "substance": "manganese",
+    "material": "Wheat, hard red winter"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat",
+    "substance": "potassium",
+    "material": "Wheat, hard red winter"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat",
+    "substance": "vitamin-b5",
+    "material": "Wheat, hard red winter"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat",
+    "substance": "vitamin-b6",
+    "material": "Wheat, hard red winter"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat",
+    "substance": "linoleic-acid",
+    "material": "Wheat, hard red winter"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "wheat",
+    "substance": "selenium",
+    "material": "Wheat, hard red winter"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "whey-protein",
+    "substance": "iron",
+    "material": "Beverages, Protein powder whey based"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "whey-protein",
+    "substance": "magnesium",
+    "material": "Beverages, Protein powder whey based"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "whey-protein",
+    "substance": "sodium",
+    "material": "Beverages, Protein powder whey based"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "whey-protein",
+    "substance": "copper",
+    "material": "Beverages, Protein powder whey based"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "whey-protein",
+    "substance": "vitamin-b2",
+    "material": "Beverages, Protein powder whey based"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "whey-protein",
+    "substance": "vitamin-b9",
+    "material": "Beverages, Protein powder whey based"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "whey-protein",
+    "substance": "vitamin-b12",
+    "material": "Beverages, Protein powder whey based"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "whey-protein",
+    "substance": "potassium",
+    "material": "Beverages, Protein powder whey based"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "whey-protein",
+    "substance": "zinc",
+    "material": "Beverages, Protein powder whey based"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "whey-protein",
+    "substance": "selenium",
+    "material": "Beverages, Protein powder whey based"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "whey-protein",
+    "substance": "vitamin-b5",
+    "material": "Beverages, Protein powder whey based"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "whey-protein",
+    "substance": "vitamin-b6",
+    "material": "Beverages, Protein powder whey based"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "whey-protein",
+    "substance": "choline",
+    "material": "Beverages, Protein powder whey based"
+  },
+  {
+    "kind": "missing-structured-preparation",
+    "food": "whey-protein",
+    "substance": "linoleic-acid",
+    "material": "Beverages, Protein powder whey based"
+  }
+]

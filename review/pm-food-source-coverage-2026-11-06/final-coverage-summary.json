@@ -1,0 +1,16 @@
+{
+  "pms": 67,
+  "eligible_pairs": 151,
+  "eligible_substances": 55,
+  "pms_with_eligible_inputs": 45,
+  "baseline_full_five": 87,
+  "baseline_any_quantitative": 98,
+  "candidate_full_five": 114,
+  "candidate_partial": 5,
+  "candidate_unresolved": 32,
+  "candidate_any_quantitative": 119,
+  "baseline_edges": 467,
+  "candidate_edges": 588,
+  "new_observations": 91,
+  "qualified_existing": 7
+}

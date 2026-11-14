@@ -26,6 +26,17 @@ nutrition_source:
 main_image: /img/foods/olive-oil/olive-oil_medium.webp
 legacy_list_image: /img/foods/olive-oil/olive-oil_thumb.webp
 legacy_main_image: /img/foods/olive-oil/olive-oil_medium.webp
+substance_relationships:
+  - substance: CoQ10
+    relationship: contains
+    description: CoQ10 was measured separately from CoQ9 in tested commercial refined olive oils.
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Žmitek et al. (2014); methods and results inspected through Scite, 5 November 2026.
+    evidence_material: Two commercial refined olive-oil samples; not a measurement of this page's branded USDA product or heated oil.
+    source_url: https://doi.org/10.1021/jf5002167
+    source_reference: '#food-source-3'
+    limitations: The study reported 54 ± 10 mg/L for this two-sample group. No generic per-100-g value, native ubiquinol fraction, tissue delivery or clinical benefit is inferred.
 ---
 ## Overview
 
@@ -61,3 +72,7 @@ Within the BRAIN Diet framework, for brain health benefits, extra virgin olive o
 [1] Extra-virgin olive oil polyphenols contribute cardiovascular and anti-inflammatory effects beyond fatty acids alone. Schwingshackl et al. 2017. [Olive oil in the prevention and management of type 2 diabetes mellitus: a systematic review and meta-analysis of cohort studies and intervention trials](/docs/papers/BRAIN-Diet-References#schwingshackl_olive_2017)
 
 [2] Olive oil polyphenols at sufficient dose are associated with LDL oxidation protection in regulatory reviews. EFSA Panel on Dietetic Products & Allergies (NDA) 2011. [Scientific Opinion on the substantiation of health claims related to polyphenols in olive oil and protection of LDL particles from oxidative damage pursuant to Article 13(1) of Regulation (EC) No 1924/2006](/docs/papers/BRAIN-Diet-References#efsa_polyphenols_olive_2011)
+
+<span id="food-source-3" />
+
+[3] Žmitek et al. (2014). [Factors Influencing the Contents of Coenzyme Q10 and Q9 in Olive Oils](/docs/papers/BRAIN-Diet-References#zmitek_factors_2014). Separate chromatographic measurements of CoQ10 and CoQ9; oil type, cultivar and maturity matter.

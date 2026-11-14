@@ -84,6 +84,9 @@ nutrition_supplementary_sources:
       Ottaviani et al. 2023 supports this qualitative constituent record. See technical provenance
       for food form and measurement details.
   - key: glucose_sr_173944
+    rank_eligible: true
+    comparison_group: glucose::SR-legacy::food-mass
+    composition_review_status: research-qualified-local
     label: Glucose
     substance_id: glucose
     value: 4.98

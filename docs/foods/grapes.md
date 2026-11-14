@@ -141,6 +141,9 @@ nutrition_supplementary_sources:
     evidence_status: supported
     source_url: https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf
   - key: glucose_sr_174683
+    rank_eligible: true
+    comparison_group: glucose::SR-legacy::food-mass
+    composition_review_status: research-qualified-local
     label: Glucose
     substance_id: glucose
     value: 7.2

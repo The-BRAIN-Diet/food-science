@@ -1,0 +1,82 @@
+[
+  {
+    "name": "dietary",
+    "command": "node scripts/check-dietary-input-governance.mjs",
+    "exit": 0,
+    "duration_ms": 524,
+    "summary": [
+      "{",
+      "  \"checked\": 65,",
+      "  \"issues\": []",
+      "}"
+    ]
+  },
+  {
+    "name": "findings",
+    "command": "node scripts/sync-pm-scientific-findings.mjs --check",
+    "exit": 0,
+    "duration_ms": 1234,
+    "summary": [
+      "Scientific Findings check: 65 PM page(s) checked, 0 problem(s)"
+    ]
+  },
+  {
+    "name": "sec",
+    "command": "node scripts/check-sec-assessments.mjs",
+    "exit": 0,
+    "duration_ms": 638,
+    "summary": [
+      "SEC registry, immutable history and canonical references valid (139 snapshots)."
+    ]
+  },
+  {
+    "name": "bibliography",
+    "command": "node scripts/validate-bib-citation-keys.mjs",
+    "exit": 0,
+    "duration_ms": 395,
+    "summary": [
+      "All 1037 cited keys are present in the BRAIN Diet bibliography (1479 total entries)."
+    ]
+  },
+  {
+    "name": "presentation",
+    "command": "node scripts/check-presentation-contract.mjs",
+    "exit": 0,
+    "duration_ms": 391,
+    "summary": [
+      "Presentation contract: 691 protected files; no unapproved structural changes."
+    ]
+  },
+  {
+    "name": "integrity",
+    "command": "node review/pm-food-source-coverage-2026-11-06/validate-final.mjs",
+    "exit": 0,
+    "duration_ms": 595,
+    "summary": [
+      "    'docs/foods/tofu.md',",
+      "    'docs/foods/tuna.md',",
+      "    'docs/foods/turkey.md',",
+      "    'docs/foods/wheat-germ.md'",
+      "  ],",
+      "  approved_edges: 467,",
+      "  candidate_edges: 588",
+      "}"
+    ]
+  },
+  {
+    "name": "focused",
+    "command": "node --test scripts/presentation-contract.test.mjs scripts/usda-nutrient-extract.test.mjs scripts/food-citation-integrity.test.mjs",
+    "exit": 0,
+    "duration_ms": 283,
+    "summary": [
+      "# tests 20",
+      "# suites 0",
+      "# pass 20",
+      "# fail 0",
+      "# cancelled 0",
+      "# skipped 0",
+      "# todo 0",
+      "# duration_ms 212.206083"
+    ]
+  }
+]

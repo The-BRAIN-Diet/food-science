@@ -95,6 +95,66 @@ main_image: /img/foods/quinoa/quinoa_medium.webp
 legacy_list_image: /img/foods/quinoa/quinoa_thumb.webp
 legacy_main_image: /img/foods/quinoa/quinoa_medium.webp
 nutrition_supplementary_sources:
+  - key: phenylalanine_recovered_fdc_168917
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 0.185
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Quinoa, cooked
+    preparation_state: cooked
+    source_url: https://fdc.nal.usda.gov/food-details/168917/nutrients
+    source_reference: '#food-source-4'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 168917
+    food_nutrient_id: '1398941'
+    source_derivation_id: '1'
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tryptophan_recovered_fdc_168917
+    label: Tryptophan
+    substance_id: tryptophan
+    value: 0.052
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Quinoa, cooked
+    preparation_state: cooked
+    source_url: https://fdc.nal.usda.gov/food-details/168917/nutrients
+    source_reference: '#food-source-4'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 168917
+    food_nutrient_id: '1398938'
+    source_derivation_id: '1'
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: betaine_usda_release2_20035
+    label: Betaine
+    substance_id: betaine
+    value: 630
+    unit: mg
+    basis: per 100 g food
+    evidence_material: Quinoa; NDB 20035; preparation not specified in source table
+    preparation_state: unspecified
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf
+    source_reference: '#food-source-3'
+    source_note: >-
+      Source-specific Release 2 assay (1 sample); not a universal value or a cooked-food equivalent. Release 2
+      corrected earlier betaine overestimation. Choline confidence codes do not grade betaine. Preserve the
+      specified material; no bioavailability or clinical efficacy inferred.
+    rank_eligible: true
+    comparison_group: betaine::USDA-release2::food-mass
+    composition_review_status: research-qualified-local
+    sample_count: 1
   - key: betaine_mg
     label: Betaine
     value: 630
@@ -113,6 +173,54 @@ nutrition_supplementary_sources:
       Patterson et al. (2008) supports this source-specific measurement. See
       technical provenance for food form and measurement details.
 substance_relationships:
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/168917/nutrients
+    source_reference: '#food-source-4'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Quinoa, cooked
+    preparation_state: cooked
+    requires_supplementary_key: phenylalanine_recovered_fdc_168917
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: Tryptophan
+    substance_id: tryptophan
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/168917/nutrients
+    source_reference: '#food-source-4'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Quinoa, cooked
+    preparation_state: cooked
+    requires_supplementary_key: tryptophan_recovered_fdc_168917
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: Betaine
+    substance_id: betaine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf
+    source_reference: '#food-source-3'
+    citation_keys:
+      - patterson_choline_2008
+    evidence_material: Quinoa; NDB 20035; preparation not specified in source table
+    preparation_state: unspecified
+    requires_supplementary_key: betaine_usda_release2_20035
+    material_limitations: >-
+      Source-specific Release 2 assay (1 sample); not a universal value or a cooked-food equivalent. Release 2
+      corrected earlier betaine overestimation. Choline confidence codes do not grade betaine. Preserve the
+      specified material; no bioavailability or clinical efficacy inferred.
   - substance: Betaine
     relationship: contains
     description: >-
@@ -359,3 +467,11 @@ Combine quinoa with legumes (e.g. lentils, chickpeas, beans) to support a more r
 [1] FAO (2013). [Protein quality evaluation framework (DIAAS)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
 
 [2] Mariotti & Gardner (2019). [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Within the BRAIN Diet framework, quinoa works well as a rotating whole-grain/pseudograin option that supports mineral intake, fibre intake, and overall diet diversity.
+
+<span id="food-source-3" />
+
+[3] Patterson et al. (2008). [USDA Database for the Choline Content of Common Foods, Release 2](/docs/papers/BRAIN-Diet-References#patterson_choline_2008). Betaine, NDB 20035; source-specific food measurement and preparation, separate from the general nutrient panel.
+
+<span id="food-source-4" />
+
+[4] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 168917: Quinoa, cooked. These observations retain their own preparation state.

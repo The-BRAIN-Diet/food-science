@@ -1,4 +1,47 @@
 ---
+nutrition_supplementary_sources:
+  - key: phenylalanine_recovered_fdc_171265
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 0.163
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Milk, whole, 3.25% milkfat, with added vitamin D
+    preparation_state: as described in source
+    source_url: https://fdc.nal.usda.gov/food-details/171265/nutrients
+    source_reference: '#food-source-3'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 171265
+    food_nutrient_id: '1595698'
+    source_derivation_id: '1'
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tryptophan_recovered_fdc_171265
+    label: Tryptophan
+    substance_id: tryptophan
+    value: 0.04
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Milk, whole, 3.25% milkfat, with added vitamin D
+    preparation_state: as described in source
+    source_url: https://fdc.nal.usda.gov/food-details/171265/nutrients
+    source_reference: '#food-source-3'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 171265
+    food_nutrient_id: '1595695'
+    source_derivation_id: '1'
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
 id: milk
 title: Milk
 sidebar_label: Milk
@@ -68,6 +111,38 @@ main_image: /img/foods/milk/milk_medium.webp
 legacy_list_image: /img/foods/milk/milk_thumb.webp
 legacy_main_image: /img/foods/milk/milk_medium.webp
 substance_relationships:
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/171265/nutrients
+    source_reference: '#food-source-3'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Milk, whole, 3.25% milkfat, with added vitamin D
+    preparation_state: as described in source
+    requires_supplementary_key: phenylalanine_recovered_fdc_171265
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: Tryptophan
+    substance_id: tryptophan
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/171265/nutrients
+    source_reference: '#food-source-3'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Milk, whole, 3.25% milkfat, with added vitamin D
+    preparation_state: as described in source
+    requires_supplementary_key: tryptophan_recovered_fdc_171265
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
   - substance: Calcium
     relationship: contains
     description: USDA FoodData Central reports calcium in Milk, whole, 3.25% milkfat, with added vitamin D.
@@ -367,3 +442,7 @@ Milk protein provides all essential amino acids and is used as a high-quality re
 [1] FAO (2013). [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013). Protein-quality framework and reference data supporting milk protein as a complete, highly digestible protein source. <span id="food-source-1"></span>
 
 [2] Trammell et al. (2016). [Nicotinamide Riboside Is a Major NAD+ Precursor Vitamin in Cow Milk](/docs/papers/BRAIN-Diet-References#trammell_nr_milk_2016). Primary LC-MS/MS occurrence evidence; no concentration is extrapolated to the USDA whole-milk material or an effective food dose. <span id="food-source-2"></span>
+
+<span id="food-source-3" />
+
+[3] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 171265: Milk, whole, 3.25% milkfat, with added vitamin D. These observations retain their own preparation state.

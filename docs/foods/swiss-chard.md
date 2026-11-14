@@ -63,6 +63,9 @@ legacy_list_image: /img/foods/swiss-chard/swiss-chard_thumb.webp
 legacy_main_image: /img/foods/swiss-chard/swiss-chard_medium.webp
 nutrition_supplementary_sources:
   - key: 5_mthf_wang_2010
+    rank_eligible: true
+    comparison_group: 5-mthf-monoglutamate-equivalents::wang-2010::fresh-mass
+    composition_review_status: research-qualified-local
     label: 5-Methyltetrahydrofolate
     substance_id: 5-methyltetrahydrofolate
     value: 242

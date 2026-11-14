@@ -1,4 +1,131 @@
 ---
+nutrition_supplementary_sources:
+  - key: glycine_recovered_fdc_170556
+    label: Glycine
+    substance_id: glycine
+    value: 1.843
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Seeds, pumpkin and squash seed kernels, dried
+    preparation_state: dried
+    source_url: https://fdc.nal.usda.gov/food-details/170556/nutrients
+    source_reference: '#food-source-3'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+    fdc_id: 170556
+    food_nutrient_id: 1532882
+    source_derivation_id: A
+    source_data_points: 0
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: serine_recovered_fdc_170556
+    label: Serine
+    substance_id: serine
+    value: 1.673
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Seeds, pumpkin and squash seed kernels, dried
+    preparation_state: dried
+    source_url: https://fdc.nal.usda.gov/food-details/170556/nutrients
+    source_reference: '#food-source-3'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+    fdc_id: 170556
+    food_nutrient_id: 1532869
+    source_derivation_id: A
+    source_data_points: 0
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: arginine_recovered_fdc_170556
+    label: Arginine
+    substance_id: arginine
+    value: 5.353
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Seeds, pumpkin and squash seed kernels, dried
+    preparation_state: dried
+    source_url: https://fdc.nal.usda.gov/food-details/170556/nutrients
+    source_reference: '#food-source-3'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+    fdc_id: 170556
+    food_nutrient_id: 1532866
+    source_derivation_id: A
+    source_data_points: 0
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tyrosine_recovered_fdc_170556
+    label: Tyrosine
+    substance_id: tyrosine
+    value: 1.093
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Seeds, pumpkin and squash seed kernels, dried
+    preparation_state: dried
+    source_url: https://fdc.nal.usda.gov/food-details/170556/nutrients
+    source_reference: '#food-source-3'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+    fdc_id: 170556
+    food_nutrient_id: 1532879
+    source_derivation_id: A
+    source_data_points: 0
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: phenylalanine_recovered_fdc_170556
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 1.733
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Seeds, pumpkin and squash seed kernels, dried
+    preparation_state: dried
+    source_url: https://fdc.nal.usda.gov/food-details/170556/nutrients
+    source_reference: '#food-source-2'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 170556
+    food_nutrient_id: '1532878'
+    source_derivation_id: '1'
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tryptophan_recovered_fdc_170556
+    label: Tryptophan
+    substance_id: tryptophan
+    value: 0.576
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Seeds, pumpkin and squash seed kernels, dried
+    preparation_state: dried
+    source_url: https://fdc.nal.usda.gov/food-details/170556/nutrients
+    source_reference: '#food-source-2'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 170556
+    food_nutrient_id: '1532875'
+    source_derivation_id: '1'
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
 id: pumpkin-seeds
 title: Pumpkin Seeds
 sidebar_label: Pumpkin Seeds
@@ -68,6 +195,102 @@ main_image: /img/foods/pumpkin-seeds/pumpkin-seeds_medium.webp
 legacy_list_image: /img/foods/pumpkin-seeds/pumpkin-seeds_thumb.webp
 legacy_main_image: /img/foods/pumpkin-seeds/pumpkin-seeds_medium.webp
 substance_relationships:
+  - substance: Glycine
+    substance_id: glycine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/170556/nutrients
+    source_reference: '#food-source-3'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Seeds, pumpkin and squash seed kernels, dried
+    preparation_state: dried
+    requires_supplementary_key: glycine_recovered_fdc_170556
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+  - substance: Serine
+    substance_id: serine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/170556/nutrients
+    source_reference: '#food-source-3'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Seeds, pumpkin and squash seed kernels, dried
+    preparation_state: dried
+    requires_supplementary_key: serine_recovered_fdc_170556
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+  - substance: Arginine
+    substance_id: arginine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/170556/nutrients
+    source_reference: '#food-source-3'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Seeds, pumpkin and squash seed kernels, dried
+    preparation_state: dried
+    requires_supplementary_key: arginine_recovered_fdc_170556
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/170556/nutrients
+    source_reference: '#food-source-3'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Seeds, pumpkin and squash seed kernels, dried
+    preparation_state: dried
+    requires_supplementary_key: tyrosine_recovered_fdc_170556
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/170556/nutrients
+    source_reference: '#food-source-2'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Seeds, pumpkin and squash seed kernels, dried
+    preparation_state: dried
+    requires_supplementary_key: phenylalanine_recovered_fdc_170556
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: Tryptophan
+    substance_id: tryptophan
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/170556/nutrients
+    source_reference: '#food-source-2'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Seeds, pumpkin and squash seed kernels, dried
+    preparation_state: dried
+    requires_supplementary_key: tryptophan_recovered_fdc_170556
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
   - substance: Tyrosine
     relationship: contains
     description: >-
@@ -262,3 +485,11 @@ Pumpkin seeds are notable for tryptophan and leucine but relatively low in lysin
 ## References
 
 [1] Mariotti & Gardner (2019). [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+
+<span id="food-source-2" />
+
+[2] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 170556: Seeds, pumpkin and squash seed kernels, dried. These observations retain their own preparation state.
+
+<span id="food-source-3" />
+
+[3] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 170556: Seeds, pumpkin and squash seed kernels, dried. These observations retain their own preparation state.

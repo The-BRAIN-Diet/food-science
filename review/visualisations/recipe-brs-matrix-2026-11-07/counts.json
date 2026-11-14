@@ -1,0 +1,20 @@
+{
+  "foods": 5,
+  "connected_foods": 4,
+  "substances": 8,
+  "food_substance_edges": 14,
+  "pm_relationships": 35,
+  "distinct_pms": 21,
+  "systems": 6,
+  "substance_ids": [
+    "vitamin-b2",
+    "vitamin-b6",
+    "magnesium",
+    "iron",
+    "potassium",
+    "manganese",
+    "linoleic-acid",
+    "tryptophan"
+  ],
+  "excluded": 85
+}

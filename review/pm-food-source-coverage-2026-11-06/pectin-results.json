@@ -1,0 +1,74 @@
+[
+  {
+    "food_id": "apples",
+    "substance_id": "pectin",
+    "value": 0.51778,
+    "unit": "g",
+    "basis": "per 100 g source edible material",
+    "source": "https://doi.org/10.4081/ijas.2005.49",
+    "calculation": {
+      "expression": "g/kg DM × dry matter percent / 1000",
+      "output": "g/100 g edible material"
+    },
+    "original": {
+      "value": 34.29,
+      "sd": 0.87,
+      "unit": "g/kg dry matter",
+      "dry_matter_percent": 15.1
+    }
+  },
+  {
+    "food_id": "carrots",
+    "substance_id": "pectin",
+    "value": 0.3049,
+    "unit": "g",
+    "basis": "per 100 g source edible material",
+    "source": "https://doi.org/10.4081/ijas.2005.49",
+    "calculation": {
+      "expression": "g/kg DM × dry matter percent / 1000",
+      "output": "g/100 g edible material"
+    },
+    "original": {
+      "value": 31.76,
+      "sd": 1.57,
+      "unit": "g/kg dry matter",
+      "dry_matter_percent": 9.6
+    }
+  },
+  {
+    "food_id": "spinach",
+    "substance_id": "pectin",
+    "value": 0.38167,
+    "unit": "g",
+    "basis": "per 100 g source edible material",
+    "source": "https://doi.org/10.4081/ijas.2005.49",
+    "calculation": {
+      "expression": "g/kg DM × dry matter percent / 1000",
+      "output": "g/100 g edible material"
+    },
+    "original": {
+      "value": 33.48,
+      "sd": 0.26,
+      "unit": "g/kg dry matter",
+      "dry_matter_percent": 11.4
+    }
+  },
+  {
+    "food_id": "potatoes",
+    "substance_id": "pectin",
+    "value": 0.18067,
+    "unit": "g",
+    "basis": "per 100 g source edible material",
+    "source": "https://doi.org/10.4081/ijas.2005.49",
+    "calculation": {
+      "expression": "g/kg DM × dry matter percent / 1000",
+      "output": "g/100 g edible material"
+    },
+    "original": {
+      "value": 9.61,
+      "sd": 0.21,
+      "unit": "g/kg dry matter",
+      "dry_matter_percent": 18.8
+    }
+  }
+]

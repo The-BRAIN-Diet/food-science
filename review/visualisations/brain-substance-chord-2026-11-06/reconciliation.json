@@ -1,0 +1,292 @@
+[
+  {
+    "id": "acetate",
+    "decision": "Display",
+    "displayed": true,
+    "reason": "Recorded resistant-starch microbial-production relation joins the existing PM5 substrate and product records. Not an acetate dietary admission.",
+    "source_ids": [
+      "BRS5-FM2-PM5::PM5-DIT-4",
+      "resistant-starch-acetate"
+    ],
+    "sources": [
+      "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx#dietary_input_traceability/PM5-DIT-4",
+      "src/data/relatedSubstanceRelationships.mjs#resistant-starch-acetate"
+    ]
+  },
+  {
+    "id": "acetoacetate",
+    "decision": "Display",
+    "displayed": true,
+    "reason": "Terminal target of the recorded caprylic-triglyceride conversion chain in ketone utilisation. Not food acetoacetate or guaranteed cerebral uptake.",
+    "source_ids": [
+      "BRS4-FM3-PM7::PM7-DEFERRED-BIO-1",
+      "BRS4-FM3-PM7::PM7-DIT-RECOVERY-CAPRYLIC-TRIGLYCERIDE:BRS4-FM3-PM7::PM7-DIT-RECOVERY-CAPRYLIC-TRIGLYCERIDE:conversion:0>BRS4-FM3-PM7::PM7-DIT-RECOVERY-CAPRYLIC-TRIGLYCERIDE:conversion:1>BRS4-FM3-PM7::PM7-DIT-RECOVERY-CAPRYLIC-TRIGLYCERIDE:conversion:2"
+    ],
+    "sources": [
+      "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx#dietary_input_traceability/PM7-DEFERRED-BIO-1",
+      "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx#dietary_input_traceability/PM7-DIT-RECOVERY-CAPRYLIC-TRIGLYCERIDE"
+    ]
+  },
+  {
+    "id": "acetyl-coa",
+    "decision": "Upstream representation",
+    "displayed": false,
+    "reason": "Intermediate of the caprylic-triglyceride conversion chain. Retained in pathway details; no separate node.",
+    "source_ids": [
+      "BRS1-FM2-PM6::PM6-DIT-3"
+    ],
+    "sources": [
+      "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx#dietary_input_traceability/PM6-DIT-3"
+    ]
+  },
+  {
+    "id": "butyrate",
+    "decision": "Display",
+    "displayed": true,
+    "reason": "Scoped resistant-starch pathways and PM5 product record; retain faecal-concentration versus production-flux distinction.",
+    "source_ids": [
+      "BRS5-FM1-PM1::PM1-DIT-1",
+      "BRS5-FM2-PM5::PM5-DIT-6",
+      "BRS5-FM2-PM4::PM4-DIT-3:RS-MICROBIAL-BUTYRATE",
+      "BRS5-FM2-PM5::PM5-DIT-1:RS-MICROBIAL-BUTYRATE",
+      "BRS6-FM1-PM3::PM3-DIT-RECOVERY-RESISTANT-STARCH:RS-MICROBIAL-BUTYRATE",
+      "resistant-starch-butyrate",
+      "resistant-starch-butyrate",
+      "resistant-starch-butyrate",
+      "resistant-starch-butyrate",
+      "resistant-starch-butyrate"
+    ],
+    "sources": [
+      "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx#dietary_input_traceability/PM1-DIT-1",
+      "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx#dietary_input_traceability/PM5-DIT-6",
+      "/docs/substances/microbial-metabolites/scfas/butyrate",
+      "/docs/substances/microbial-metabolites/scfas/butyrate",
+      "/docs/substances/microbial-metabolites/scfas/butyrate",
+      "src/data/relatedSubstanceRelationships.mjs#resistant-starch-butyrate",
+      "src/data/relatedSubstanceRelationships.mjs#resistant-starch-butyrate",
+      "src/data/relatedSubstanceRelationships.mjs#resistant-starch-butyrate",
+      "src/data/relatedSubstanceRelationships.mjs#resistant-starch-butyrate",
+      "src/data/relatedSubstanceRelationships.mjs#resistant-starch-butyrate"
+    ]
+  },
+  {
+    "id": "flavin-adenine-dinucleotide",
+    "decision": "Display",
+    "displayed": true,
+    "reason": "Shown as an explicitly scoped derived target of riboflavin conversion, not an independent dietary input. Riboflavin remains its dietary representation.",
+    "source_ids": [
+      "BRS1-FM1-PM3::PM3-DIT-RECOVERY-FAD",
+      "BRS1-FM1-PM4::PM4-DIT-RECOVERY-FAD",
+      "BRS1-FM1-PM5::PM5-DIT-RECOVERY-FAD",
+      "BRS2-FM1-PM1::PM1-DIT-RECOVERY-FAD",
+      "BRS3-FM2-PM6::PM6-DIT-4",
+      "BRS4-FM1-PM10::PM10-DIT-7",
+      "BRS1-FM1-PM3::PM3-DIT-RECOVERY-VITAMIN-B2:BRS1-FM1-PM3::PM3-DIT-RECOVERY-VITAMIN-B2:conversion:0>BRS1-FM1-PM3::PM3-DIT-RECOVERY-VITAMIN-B2:conversion:1",
+      "BRS1-FM1-PM4::PM4-DIT-RECOVERY-VITAMIN-B2:BRS1-FM1-PM4::PM4-DIT-RECOVERY-VITAMIN-B2:conversion:0>BRS1-FM1-PM4::PM4-DIT-RECOVERY-VITAMIN-B2:conversion:1",
+      "BRS1-FM1-PM5::PM5-DIT-RECOVERY-VITAMIN-B2:BRS1-FM1-PM5::PM5-DIT-RECOVERY-VITAMIN-B2:conversion:0>BRS1-FM1-PM5::PM5-DIT-RECOVERY-VITAMIN-B2:conversion:1",
+      "BRS2-FM1-PM1::PM1-DIT-RECOVERY-VITAMIN-B2:BRS2-FM1-PM1::PM1-DIT-RECOVERY-VITAMIN-B2:conversion:0>BRS2-FM1-PM1::PM1-DIT-RECOVERY-VITAMIN-B2:conversion:1",
+      "BRS3-FM2-PM6::PM6-DIT-3:BRS3-FM2-PM6::PM6-DIT-3:conversion:0>BRS3-FM2-PM6::PM6-DIT-3:conversion:1",
+      "BRS4-FM1-PM10::PM10-DIT-3:BRS4-FM1-PM10::PM10-DIT-3:conversion:0>BRS4-FM1-PM10::PM10-DIT-3:conversion:1"
+    ],
+    "sources": [
+      "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-FAD",
+      "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-DIT-RECOVERY-FAD",
+      "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-RECOVERY-FAD",
+      "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx#dietary_input_traceability/PM1-DIT-RECOVERY-FAD",
+      "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx#dietary_input_traceability/PM6-DIT-4",
+      "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-7",
+      "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-VITAMIN-B2",
+      "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-DIT-RECOVERY-VITAMIN-B2",
+      "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-RECOVERY-VITAMIN-B2",
+      "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx#dietary_input_traceability/PM1-DIT-RECOVERY-VITAMIN-B2",
+      "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx#dietary_input_traceability/PM6-DIT-3",
+      "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-3"
+    ]
+  },
+  {
+    "id": "glutathione",
+    "decision": "Exclude",
+    "displayed": false,
+    "reason": "Existing endogenous substrate/pool records alone do not provide a structured specific intervention edge. No node added from general antioxidant relevance.",
+    "source_ids": [
+      "BRS3-FM2-PM4::PM4-DIT-5",
+      "BRS4-FM2-PM5::PM5-BIO-GSH"
+    ],
+    "sources": [
+      "docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx#dietary_input_traceability/PM4-DIT-5",
+      "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx#dietary_input_traceability/PM5-BIO-GSH"
+    ]
+  },
+  {
+    "id": "methylcobalamin",
+    "decision": "Upstream representation",
+    "displayed": false,
+    "reason": "Shares the canonical B12 page; represented upstream through B12 rather than double-counted as an independent source.",
+    "source_ids": [
+      "BRS2-FM1-PM1::PM1-DIT-3"
+    ],
+    "sources": [
+      "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx#dietary_input_traceability/PM1-DIT-3"
+    ]
+  },
+  {
+    "id": "nad-plus",
+    "decision": "Display",
+    "displayed": true,
+    "reason": "Explicit nicotinamide-riboside conversion target in NAD regeneration; not an independent oral NAD+ admission.",
+    "source_ids": [
+      "BRS4-FM1-PM2::PM2-DIT-RECOVERY-NAD-PLUS",
+      "BRS4-FM1-PM2::PM2-DIT-RECOVERY-NICOTINAMIDE-RIBOSIDE:BRS4-FM1-PM2::PM2-DIT-RECOVERY-NICOTINAMIDE-RIBOSIDE:conversion:0>BRS4-FM1-PM2::PM2-DIT-RECOVERY-NICOTINAMIDE-RIBOSIDE:conversion:1"
+    ],
+    "sources": [
+      "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx#dietary_input_traceability/PM2-DIT-RECOVERY-NAD-PLUS",
+      "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx#dietary_input_traceability/PM2-DIT-RECOVERY-NICOTINAMIDE-RIBOSIDE"
+    ]
+  },
+  {
+    "id": "phosphatidylethanolamine",
+    "decision": "Exclude",
+    "displayed": false,
+    "reason": "PEMT/NAPE biochemical participation is recorded; a specific qualifying intervention relationship is not established by these records.",
+    "source_ids": [
+      "BRS2-FM3-PM7::PM7-DIT-1",
+      "BRS-X(ECS-PM1)::PM1-DIT-2"
+    ],
+    "sources": [
+      "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-1",
+      "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx#dietary_input_traceability/PM1-DIT-2"
+    ]
+  },
+  {
+    "id": "propionate",
+    "decision": "Display",
+    "displayed": true,
+    "reason": "Recorded resistant-starch microbial-production relation within PM5; no fixed yield or independent oral requirement.",
+    "source_ids": [
+      "BRS5-FM2-PM5::PM5-DIT-5",
+      "resistant-starch-propionate"
+    ],
+    "sources": [
+      "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx#dietary_input_traceability/PM5-DIT-5",
+      "src/data/relatedSubstanceRelationships.mjs#resistant-starch-propionate"
+    ]
+  },
+  {
+    "id": "retinoic-acid",
+    "decision": "Display",
+    "displayed": true,
+    "reason": "Explicit vitamin-A-related precursor formation joined to the existing barrier PM record; food vitamin A is not retinoic-acid content.",
+    "source_ids": [
+      "BRS5-FM1-PM1::PM1-DIT-3",
+      "vitamin-a-retinoic-acid"
+    ],
+    "sources": [
+      "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx#dietary_input_traceability/PM1-DIT-3",
+      "src/data/relatedSubstanceRelationships.mjs#vitamin-a-retinoic-acid"
+    ]
+  },
+  {
+    "id": "s-adenosylmethionine",
+    "decision": "Display",
+    "displayed": true,
+    "reason": "Recorded methionine conversion target; displayed for traceability while dietary provision remains upstream. No SAM supplementation admission.",
+    "source_ids": [
+      "BRS2-FM3-PM7::PM7-DIT-2",
+      "BRS4-FM1-PM10::PM10-DIT-6",
+      "BRS4-FM1-PM3::PM3-DIT-4",
+      "BRS2-FM3-PM7::PM7-DIT-RECOVERY-METHIONINE:BRS2-FM3-PM7::PM7-DIT-RECOVERY-METHIONINE:conversion:0",
+      "BRS4-FM1-PM10::PM10-DIT-2:BRS4-FM1-PM10::PM10-DIT-2:conversion:0",
+      "BRS4-FM1-PM3::PM3-DIT-RECOVERY-METHIONINE:BRS4-FM1-PM3::PM3-DIT-RECOVERY-METHIONINE:conversion:0"
+    ],
+    "sources": [
+      "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-2",
+      "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-6",
+      "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx#dietary_input_traceability/PM3-DIT-4",
+      "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-RECOVERY-METHIONINE",
+      "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-2",
+      "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-METHIONINE"
+    ]
+  },
+  {
+    "id": "tetrahydrobiopterin",
+    "decision": "Exclude",
+    "displayed": false,
+    "reason": "TH/TPH cofactor participation alone is insufficient; no specific recorded dietary/SOP target edge established.",
+    "source_ids": [
+      "BRS1-FM1-PM3::PM3-DIT-4",
+      "BRS1-FM1-PM5::PM5-DIT-6"
+    ],
+    "sources": [
+      "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-4",
+      "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-6"
+    ]
+  },
+  {
+    "id": "urolithin-a",
+    "decision": "Candidate",
+    "displayed": true,
+    "reason": "Explicit authored substance-page evidence table identifies BRS5-FM2-PM6 microbial biotransformation. Candidate/context only. Separate BRS4 supplement proposal remains deferred for ownership.",
+    "source_ids": [
+      "urolithin-a::BRS5-FM2-PM6::authored-table"
+    ],
+    "sources": [
+      "docs/substances/microbial-metabolites/secondary-plant-conversions/urolithin-a.md"
+    ]
+  },
+  {
+    "id": "sulforaphane",
+    "decision": "Display",
+    "displayed": true,
+    "reason": "Existing admitted BRS3-FM2-PM3 identity and relationship preserved, including exposure-specific limitations.",
+    "source_ids": [
+      "BRS3-FM2-PM3::PM3-DIT-1"
+    ],
+    "sources": [
+      "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx#dietary_input_traceability/PM3-DIT-1"
+    ]
+  },
+  {
+    "id": "acetic-acid",
+    "decision": "Display",
+    "displayed": true,
+    "reason": "Explicit vinegar SOP identity and measured food occurrence from supplemental localhost checkout. Does not isolate acetic acid as the mediator. Distinct from the canonical microbial acetate node.",
+    "source_ids": [
+      "BRS6-FM1-PM1::PM1-SOP-10",
+      "BRS6-FM1-PM1::PM1-SOP-10"
+    ],
+    "sources": [
+      "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx#system_optimisation_practices/PM1-SOP-10",
+      "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx#system_optimisation_practices/PM1-SOP-10"
+    ]
+  },
+  {
+    "id": "coq10",
+    "decision": "Display",
+    "displayed": true,
+    "reason": "Regression: one canonical CoQ10 node; nine independent food-occurrence records; contextual BRS4 roles and precursor pathway retained.",
+    "source_ids": [
+      "BRS4-FM1-PM10::PM10-DIT-5",
+      "BRS4-FM2-PM5::PM5-BIO-Q",
+      "BRS4-FM1-PM10::PM10-DIT-1:BRS4-FM1-PM10::PM10-DIT-1:conversion:0"
+    ],
+    "sources": [
+      "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-5",
+      "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx#dietary_input_traceability/PM5-BIO-Q",
+      "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-1"
+    ]
+  },
+  {
+    "id": "glucoraphanin",
+    "decision": "Candidate",
+    "displayed": false,
+    "reason": "Broccoli and broccoli-sprout pages document precursor occurrence/conversion, but neither inspected registry resolves a canonical glucoraphanin identity or explicit PM intervention identity. Retained as a mapping gap; no synthetic identity or new admission created.",
+    "source_ids": [
+      "broccoli",
+      "broccoli-sprouts"
+    ],
+    "sources": [
+      "docs/foods/broccoli.md",
+      "docs/foods/broccoli-sprouts.md"
+    ]
+  }
+]

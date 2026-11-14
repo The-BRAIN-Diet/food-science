@@ -1,0 +1,106 @@
+ M docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx
+ M docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx
+ M docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx
+ M docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx
+ M docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx
+ M docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx
+ M docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx
+ M docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx
+ M docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx
+ M docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx
+ M docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx
+ M docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx
+ M docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx
+ M docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx
+ M docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx
+ M docs/biological-targets/mitochondrial-function-bioenergetics.md
+ M docs/foods/almonds.md
+ M docs/foods/amaranth.md
+ M docs/foods/apples.md
+ M docs/foods/bananas.md
+ M docs/foods/beef.md
+ M docs/foods/beetroot.md
+ M docs/foods/broccoli.md
+ M docs/foods/carrots.md
+ M docs/foods/cauliflower.md
+ M docs/foods/cheddar-cheese.md
+ M docs/foods/chicken.md
+ M docs/foods/chickpeas.md
+ M docs/foods/early-harvest-olive-oil.md
+ M docs/foods/eggs.md
+ M docs/foods/extra-virgin-olive-oil.md
+ M docs/foods/grapes.md
+ M docs/foods/heart.md
+ M docs/foods/kale.md
+ M docs/foods/kidney-beans.md
+ M docs/foods/lentils.md
+ M docs/foods/milk.md
+ M docs/foods/miso.md
+ M docs/foods/mussels.md
+ M docs/foods/oats.md
+ M docs/foods/olive-oil.md
+ M docs/foods/peanuts.md
+ M docs/foods/pistachios.md
+ M docs/foods/pork.md
+ M docs/foods/potatoes.md
+ M docs/foods/pumpkin-seeds.md
+ M docs/foods/quinoa.md
+ M docs/foods/salmon.md
+ M docs/foods/sardines.md
+ M docs/foods/soy.md
+ M docs/foods/spinach.md
+ M docs/foods/sunflower-seeds.md
+ M docs/foods/swiss-chard.md
+ M docs/foods/tofu.md
+ M docs/foods/tuna.md
+ M docs/foods/turkey.md
+ M docs/foods/wheat-germ.md
+ M docs/substances/bioactive-compounds/lipid-based/coq10.md
+ M project-knowledge/handoffs/INDEX.md
+ M project-knowledge/handoffs/coq-pm-2026-11-05.md
+ M project-knowledge/handoffs/release-2026-11-05.md
+ M review/release-2026-11-05/release-manifest.md
+ M scripts/check-sec-assessments.mjs
+ M scripts/generate-food-strategy-rollup.mjs
+ M scripts/input-substance-food.test.mjs
+ M scripts/lib/input-substance-food.mjs
+ M scripts/lib/scientific-findings-gate.mjs
+ M src/components/PilotInterventionDisclosure.tsx
+ M src/components/PmDietaryLeverEnhancer.tsx
+ M static/bibtex/BRAIN-diet.bib
+ M system/dietary-input-traceability-contract.md
+ M system/food-strategy-rollup-schema.md
+ M system/generated/food-strategy-rollup/rollup.generated.json
+ M system/input-substance-food-mapping.md
+ M system/pm-evidence-tabs-contract.md
+ M system/presentation-change-approvals.json
+ M system/primary-mechanism-schema.md
+ M system/scientific-finding-schema.md
+ M system/sop-lifestyle-six-atom-presentation.md
+ M system/templates/primary-mechanism-template.mdx
+?? build-validation/
+?? project-knowledge/handoffs/adhd-chord-coverage-2026-11-06.md
+?? project-knowledge/handoffs/food-wheel-2026-11-06.md
+?? project-knowledge/handoffs/intervention-food-substance-2026-11-06.md
+?? project-knowledge/handoffs/pm-food-source-coverage-2026-11-06.md
+?? review/coq-adhd-clinical-2026-11-05/
+?? review/coq-dietary-gate-2026-11-05/
+?? review/coq-food-provision-2026-11-05/
+?? review/coq-integration-2026-11-05/
+?? review/coq-principle-provenance-2026-11-05/
+?? review/food-wheel-151-target-reconciliation-2026-11-06/
+?? review/food-wheel-canonical-ingestion-2026-11-06/
+?? review/food-wheel-comparison-proposal-2026-11-06/
+?? review/intervention-food-substance-2026-11-06/
+?? review/pm-food-source-coverage-2026-11-06/
+?? review/release-2026-11-05/publication-verification.json
+?? review/training-foundations-2026-11-03/
+?? review/visualisations/
+?? scripts/coq-principle-provenance.test.mjs
+?? scripts/export-food-wheel-canonical.mjs
+?? scripts/food-wheel-canonical.test.mjs
+?? scripts/intervention-food-substance.test.mjs
+?? scripts/lib/food-wheel-power.mjs
+?? scripts/lib/intervention-food-substance.mjs
+?? src/lib/interventionFoodSubstance.mjs
+?? src/lib/interventionFoodSubstanceDisplay.mjs

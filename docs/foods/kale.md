@@ -94,6 +94,9 @@ nutrition_supplementary_sources:
     source_note: >-
       Table 1 reports 67.02 ± 41.63 µg/100 g fresh matter for 5-MTHF. Preserve the reported variability separately; it is not a min–max range. Do not combine this sample with the 2010 measurement.
   - key: 5_mthf_wang_2010
+    rank_eligible: true
+    comparison_group: 5-mthf-monoglutamate-equivalents::wang-2010::fresh-mass
+    composition_review_status: research-qualified-local
     label: 5-Methyltetrahydrofolate
     substance_id: 5-methyltetrahydrofolate
     value: 54

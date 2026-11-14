@@ -1,0 +1,17 @@
+{
+  "review/pm-food-source-coverage-2026-11-06/food_composition_research_log.csv": "3ad4c2eaffcc8706edf9504cb0c2a0057acd5f4c42c634bb324dd4afc1af4cbb",
+  "review/pm-food-source-coverage-2026-11-06/pm_substance_inventory.csv": "f702bbf9c2cc40b8545a842e88499977c7aab7a62a88c67571c1f77d3effb0b6",
+  "review/pm-food-source-coverage-2026-11-06/qualified_food_substance_pm_edges.csv": "a0a6c643a5b6206ffb70d3e3a566b912a745d37dfc7af3ee7a265787b3fb5f2c",
+  "review/pm-food-source-coverage-2026-11-06/pm_substance_top_five_sources.csv": "a0a6c643a5b6206ffb70d3e3a566b912a745d37dfc7af3ee7a265787b3fb5f2c",
+  "review/pm-food-source-coverage-2026-11-06/target-research-decisions.csv": "125d6c29714c269dfe36f435dff02d44fe0c9045e87b3bea97c4ed820913e2d0",
+  "review/pm-food-source-coverage-2026-11-06/food_network_aggregation.csv": "811981df299ada79ab4e9693a8af61644b7c8841c03a036d8c332c08493dc7bf",
+  "review/pm-food-source-coverage-2026-11-06/pm_food_vocabulary_gap_report.md": "7ab1f5cfa848ad96e447fd7f8993de8c42fc0368528d8e3ad63b933fa9285e7d",
+  "review/pm-food-source-coverage-2026-11-06/ontology_backfill_changelog.md": "7b64577b1a05148aa601112b1cb61d17501c8fcc5335b824f49e64fd7d5a62c7",
+  "review/pm-food-source-coverage-2026-11-06/CURRENT-WORK.md": "96c79710df5393417eb5c78b033463af2fc8b7d2ab4f7421c924dc822d139e4f",
+  "review/pm-food-source-coverage-2026-11-06/food_wheel_before_after.md": "b8d24ce6d3e7b8d973a163b0c1084371ff0f3e70d4b12b5c13179c53ce2ae84f",
+  "review/pm-food-source-coverage-2026-11-06/README.md": "489c52fa256ec1d83c59ba306b48c3955f5afabdbc46cd8b01c6b394ae9925b7",
+  "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md": "71d63f00945a96dc3125244684ca4afcf1fd1459f02df6f6a2b892215a37ea95",
+  "review/pm-food-source-coverage-2026-11-06/manuscript_food_network_rollup.md": "4cbe77b94e616b65f381791947bcbef2deec54859f62fb70ec323d5b62e0e9c1",
+  "review/pm-food-source-coverage-2026-11-06/validation_report.md": "11b2fd22bc5a5623380cd73799d209fe7e49b5cc243ead35f8070dee7334128c",
+  "review/pm-food-source-coverage-2026-11-06/qualified-network.checkpoint.json": "ac9108e7dfa6748ec2f79bddb2a01e412815fbe60dbec95a28bdb5e2da1b2423"
+}

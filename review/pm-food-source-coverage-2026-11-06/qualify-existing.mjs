@@ -1,0 +1,21 @@
+import fs from 'node:fs';import matter from 'gray-matter';import yaml from 'js-yaml';
+const dir='review/pm-food-source-coverage-2026-11-06';const log=[];
+function backup(food,t){const p=`${dir}/before/${food}-before-qualification.md`;if(!fs.existsSync(p))fs.writeFileSync(p,t);}
+for(const food of ['broccoli','cauliflower','kale','spinach','swiss-chard']){
+ const file=`docs/foods/${food}.md`,t=fs.readFileSync(file,'utf8');const d=matter(t).data,row=d.nutrition_supplementary_sources.find(r=>r.key==='5_mthf_wang_2010');if(!row)throw Error(food);
+ if(row.rank_eligible)continue;backup(food,t);
+ if(Math.abs(row.value-row.original_observation.value*459.5*.0001)>.51)throw Error('Calculation mismatch');
+ const changed=t.replace('  - key: 5_mthf_wang_2010\n','  - key: 5_mthf_wang_2010\n    rank_eligible: true\n    comparison_group: 5-mthf-monoglutamate-equivalents::wang-2010::fresh-mass\n    composition_review_status: research-qualified-local\n');matter(changed);fs.writeFileSync(file,changed);log.push({food_id:food,substance_id:'5-methyltetrahydrofolate',action:'Qualified existing calculated observation within the same assay group; original molar observation and conversion unchanged',source:'https://doi.org/10.1016/j.jchromb.2010.08.043',value:row.value,unit:row.unit,basis:row.basis});
+}
+const source='https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf';
+for(const [food,value,ndb,n,material,prep]of [['quinoa',630,'20035',1,'Quinoa; NDB 20035; preparation not specified in source table','unspecified'],['wheat-germ',410,'08084',2,'Wheat germ, toasted, plain; NDB 08084','toasted'],['beetroot',130,'11080',1,'Beets, raw; NDB 11080','raw'],['amaranth',68,'20001',1,'Amaranth; NDB 20001; preparation not specified in source table','unspecified']]){
+ const file=`docs/foods/${food}.md`,t=fs.readFileSync(file,'utf8'),d=matter(t).data,key='betaine_usda_release2_'+ndb;if(d.nutrition_supplementary_sources?.some(r=>r.key===key))continue;backup(food,t);
+ const ref=Math.max(0,...[...t.matchAll(/^\[(\d+)\]/gm)].map(m=>+m[1]))+1;
+ const note=`Source-specific Release 2 assay (${n} sample${n>1?'s':''}); not a universal value or a cooked-food equivalent. Release 2 corrected earlier betaine overestimation. Choline confidence codes do not grade betaine. Preserve the specified material; no bioavailability or clinical efficacy inferred.`;
+ const row={key,label:'Betaine',substance_id:'betaine',value,unit:'mg',basis:'per 100 g food',evidence_material:material,preparation_state:prep,source_url:source,source_reference:`#food-source-${ref}`,source_note:note,rank_eligible:true,comparison_group:'betaine::USDA-release2::food-mass',composition_review_status:'research-qualified-local',sample_count:n};
+ const rel={substance:'Betaine',substance_id:'betaine',relationship:'contains',evidence_status:'supported',presence_status:'presence_and_amount_supported',source_url:source,source_reference:`#food-source-${ref}`,citation_keys:['patterson_choline_2008'],evidence_material:material,preparation_state:prep,requires_supplementary_key:key,material_limitations:note};
+ let updated=t;for(const [field,values]of [['nutrition_supplementary_sources',[row]],['substance_relationships',[rel]]]){const block=yaml.dump(values,{lineWidth:110,noRefs:true}).trimEnd().split('\n').map(s=>'  '+s).join('\n')+'\n';if(new RegExp(`^${field}:\\s*$`,'m').test(updated))updated=updated.replace(new RegExp(`^${field}:\\s*\\n`,'m'),`${field}:\n${block}`);else updated=updated.replace(/^---\n/,`---\n${field}:\n${block}`);}
+ updated+=`\n<span id="food-source-${ref}" />\n\n[${ref}] Patterson et al. (2008). [USDA Database for the Choline Content of Common Foods, Release 2](/docs/papers/BRAIN-Diet-References#patterson_choline_2008). Betaine, NDB ${ndb}; source-specific food measurement and preparation, separate from the general nutrient panel.\n`;
+ matter(updated);fs.writeFileSync(file,updated);log.push({food_id:food,substance_id:'betaine',action:'Added source-specific corrected USDA Release 2 measurement; older provenance preserved',source,value,unit:'mg',basis:row.basis,material,preparation:prep});
+}
+fs.writeFileSync(dir+'/qualification-results.json',JSON.stringify(log,null,2));console.log(log.length,'records qualified/backfilled');

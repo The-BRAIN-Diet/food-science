@@ -1,0 +1,187 @@
+{
+  "branch": "review/brs5-pm4-sec-assessment",
+  "head": "521036b1d6c212e58c660f0f985e47617a71a716",
+  "pm_count": 67,
+  "relationship_rows": 242,
+  "dietary_yes_rows": 161,
+  "resolved_eligible_pairs": 151,
+  "source_snapshot_sha256": {
+    "BRS4.snapshot.json": "4148fb320bfb498ab4dfcfa5d53417aa8b90752504a2e34b2f553752c72a6949",
+    "BRS3.snapshot.json": "c58cf074c4830876239e09e9703afb850908f85ab05bb362e7b1464df4ae053f",
+    "BRS2.snapshot.json": "b39b06f0297db7ebd93c3224da22a4fc894ce7ca1bd278dc7ea302702b976c46",
+    "BRS6.snapshot.json": "6d3387f6e6d826c7e42d542772d534e846b1a2aff8107f2f88f1ade91e453f8d",
+    "BRS1.snapshot.json": "0cc16b356c4f83167e44bc85fce9c049726999d1927b4bca679f4b8758995f25",
+    "BRS5.snapshot.json": "7d5ce539452fcba45127fce56ce3b7a38f3e7ef1331bf93e6c0edb2be8dd8850",
+    "BRS-X.snapshot.json": "d4bbe7a6b7ece21d9cfc2a1037f74e36a4d9f89f9e758425825308c7d6a42deb"
+  },
+  "status": "LOCAL RELATIONSHIP-FIRST RECONCILIATION COMPLETE; 3 resolved, 10 ordinary-food non-rankable, 24 unresolved; author review pending",
+  "scope_decision": "Author approved inclusion of Circadian PM3 and Hormones PM7; source worktrees remain separate",
+  "selection_decision": "Author approved the top-five highest supported comparable food composition values for every eligible substance list under Stage 2A/2B. Dried edible products are distinct from analytical dry-matter denominators.",
+  "local_preview": "http://127.0.0.1:3162/food-wheel.html",
+  "backfills": 91,
+  "validation": {
+    "focused_commands": [
+      {
+        "name": "dietary",
+        "command": "node scripts/check-dietary-input-governance.mjs",
+        "exit": 0,
+        "duration_ms": 524,
+        "summary": [
+          "{",
+          "  \"checked\": 65,",
+          "  \"issues\": []",
+          "}"
+        ]
+      },
+      {
+        "name": "findings",
+        "command": "node scripts/sync-pm-scientific-findings.mjs --check",
+        "exit": 0,
+        "duration_ms": 1234,
+        "summary": [
+          "Scientific Findings check: 65 PM page(s) checked, 0 problem(s)"
+        ]
+      },
+      {
+        "name": "sec",
+        "command": "node scripts/check-sec-assessments.mjs",
+        "exit": 0,
+        "duration_ms": 638,
+        "summary": [
+          "SEC registry, immutable history and canonical references valid (139 snapshots)."
+        ]
+      },
+      {
+        "name": "bibliography",
+        "command": "node scripts/validate-bib-citation-keys.mjs",
+        "exit": 0,
+        "duration_ms": 395,
+        "summary": [
+          "All 1037 cited keys are present in the BRAIN Diet bibliography (1479 total entries)."
+        ]
+      },
+      {
+        "name": "presentation",
+        "command": "node scripts/check-presentation-contract.mjs",
+        "exit": 0,
+        "duration_ms": 391,
+        "summary": [
+          "Presentation contract: 691 protected files; no unapproved structural changes."
+        ]
+      },
+      {
+        "name": "integrity",
+        "command": "node review/pm-food-source-coverage-2026-11-06/validate-final.mjs",
+        "exit": 0,
+        "duration_ms": 595,
+        "summary": [
+          "    'docs/foods/tofu.md',",
+          "    'docs/foods/tuna.md',",
+          "    'docs/foods/turkey.md',",
+          "    'docs/foods/wheat-germ.md'",
+          "  ],",
+          "  approved_edges: 467,",
+          "  candidate_edges: 588",
+          "}"
+        ]
+      },
+      {
+        "name": "focused",
+        "command": "node --test scripts/presentation-contract.test.mjs scripts/usda-nutrient-extract.test.mjs scripts/food-citation-integrity.test.mjs",
+        "exit": 0,
+        "duration_ms": 283,
+        "summary": [
+          "# tests 20",
+          "# suites 0",
+          "# pass 20",
+          "# fail 0",
+          "# cancelled 0",
+          "# skipped 0",
+          "# todo 0",
+          "# duration_ms 212.206083"
+        ]
+      }
+    ],
+    "integrity": {
+      "status": "PASS",
+      "checks": 6897,
+      "foods": 36,
+      "new_observations": 91,
+      "qualified_existing": 7,
+      "citation_structure_files": [
+        "docs/foods/almonds.md",
+        "docs/foods/amaranth.md",
+        "docs/foods/apples.md",
+        "docs/foods/beef.md",
+        "docs/foods/beetroot.md",
+        "docs/foods/carrots.md",
+        "docs/foods/cheddar-cheese.md",
+        "docs/foods/chicken.md",
+        "docs/foods/chickpeas.md",
+        "docs/foods/eggs.md",
+        "docs/foods/kidney-beans.md",
+        "docs/foods/lentils.md",
+        "docs/foods/milk.md",
+        "docs/foods/miso.md",
+        "docs/foods/mussels.md",
+        "docs/foods/oats.md",
+        "docs/foods/peanuts.md",
+        "docs/foods/pork.md",
+        "docs/foods/potatoes.md",
+        "docs/foods/pumpkin-seeds.md",
+        "docs/foods/quinoa.md",
+        "docs/foods/salmon.md",
+        "docs/foods/sardines.md",
+        "docs/foods/soy.md",
+        "docs/foods/spinach.md",
+        "docs/foods/sunflower-seeds.md",
+        "docs/foods/tofu.md",
+        "docs/foods/tuna.md",
+        "docs/foods/turkey.md",
+        "docs/foods/wheat-germ.md"
+      ],
+      "approved_edges": 467,
+      "candidate_edges": 588
+    },
+    "render": {
+      "status": "PASS",
+      "compiled_food_documents": 36,
+      "source_anchors": 91,
+      "unchanged_canonical_relationships": 239,
+      "allowed_generated_differences": [
+        "food_targets",
+        "coverage_warnings",
+        "food_target_mapping",
+        "food_target_reconciliations",
+        "ontology_connections",
+        "upstream_candidates"
+      ],
+      "scope": "MDX syntax compilation; scientific relationship preservation; not full production build"
+    },
+    "browser": "browser-validation.json",
+    "broader_comparison": "baseline-comparison.json"
+  },
+  "research_access": "Scite monthly limit exhausted until 2026-11-23; using saved retrievals and accessible original sources",
+  "working_network": "qualified-network.checkpoint.json",
+  "existing_observations_qualified": 7,
+  "food_pages": 36,
+  "coverage": {
+    "pms": 67,
+    "eligible_pairs": 151,
+    "eligible_substances": 55,
+    "pms_with_eligible_inputs": 45,
+    "baseline_full_five": 87,
+    "baseline_any_quantitative": 98,
+    "candidate_full_five": 114,
+    "candidate_partial": 5,
+    "candidate_unresolved": 32,
+    "candidate_any_quantitative": 119,
+    "baseline_edges": 467,
+    "candidate_edges": 588,
+    "new_observations": 91,
+    "qualified_existing": 7
+  },
+  "last_updated": "2026-11-06T15:09:02.544969+00:00",
+  "latest_reconciliation": "reconciliation/manifest.json",
+  "latest_report": "reconciliation/FINAL-RECONCILIATION.md"
+}

@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
+import {buildInterventionFoodSubstance} from './lib/intervention-food-substance.mjs';
 const root=process.cwd();
 const walk=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(dir,e.name)):[path.join(dir,e.name)]);
 const validScopes=new Set(['food-preparation','dietary-protocol','supplementation','mixed-food-and-timing','mixed-food-and-behaviour']);
@@ -20,6 +21,7 @@ for(const scope of ['brs1','brs2','brs3','brs4','brs5','brs6','brs-x']) for(cons
  }
 }
 const data={schema_version:1,scope:'All canonical PMs: BRS1–6 and Cross-BRS',strategies:[...strategies.values()],relationships,gaps,summary:{strategies:strategies.size,relationships:relationships.length,pms:new Set(relationships.map(r=>r.pm)).size,brs:[...new Set(relationships.map(r=>r.brs))]}};
+data.intervention_mapping = buildInterventionFoodSubstance(root);
 fs.writeFileSync(path.join(root,'src/data/foodStrategyRollup.generated.json'),JSON.stringify(data,null,2)+'\n');
 fs.mkdirSync(path.join(root,'system/generated/food-strategy-rollup'),{recursive:true});
 fs.writeFileSync(path.join(root,'system/generated/food-strategy-rollup/rollup.generated.json'),JSON.stringify(data,null,2)+'\n');

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "checks": 4775,
+  "scope": "Checkpoint integrity and five carnitine backfill preservation checks; not full scientific completeness or publication approval",
+  "approved_edges": 467,
+  "candidate_edges": 495
+}

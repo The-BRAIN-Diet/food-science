@@ -59,6 +59,24 @@ main_image: /img/foods/beetroot/beetroot_medium.webp
 legacy_list_image: /img/foods/beetroot/beetroot_thumb.webp
 legacy_main_image: /img/foods/beetroot/beetroot_medium.webp
 nutrition_supplementary_sources:
+  - key: betaine_usda_release2_11080
+    label: Betaine
+    substance_id: betaine
+    value: 130
+    unit: mg
+    basis: per 100 g food
+    evidence_material: Beets, raw; NDB 11080
+    preparation_state: raw
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf
+    source_reference: '#food-source-5'
+    source_note: >-
+      Source-specific Release 2 assay (1 sample); not a universal value or a cooked-food equivalent. Release 2
+      corrected earlier betaine overestimation. Choline confidence codes do not grade betaine. Preserve the
+      specified material; no bioavailability or clinical efficacy inferred.
+    rank_eligible: true
+    comparison_group: betaine::USDA-release2::food-mass
+    composition_review_status: research-qualified-local
+    sample_count: 1
   - key: nitrate_qual
     label: Nitrate
     status: Present — quantity not established
@@ -108,6 +126,22 @@ nutrition_supplementary_sources:
       cross-food ranking is inferred.
     source_group: Zeisel et al. (2003) Table 1, erratum-corrected, NDB 11080
 substance_relationships:
+  - substance: Betaine
+    substance_id: betaine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf
+    source_reference: '#food-source-5'
+    citation_keys:
+      - patterson_choline_2008
+    evidence_material: Beets, raw; NDB 11080
+    preparation_state: raw
+    requires_supplementary_key: betaine_usda_release2_11080
+    material_limitations: >-
+      Source-specific Release 2 assay (1 sample); not a universal value or a cooked-food equivalent. Release 2
+      corrected earlier betaine overestimation. Choline confidence codes do not grade betaine. Preserve the
+      specified material; no bioavailability or clinical efficacy inferred.
   - substance: Betaine
     relationship: contains
     description: >-
@@ -231,3 +265,7 @@ Use beetroot as a whole vegetable rather than treating it as equivalent to a con
 <span id="food-source-4" />
 
 [4] Zeisel et al. (2003). [Concentrations of Choline-Containing Compounds and Betaine in Common Foods](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003). Table 1, corrected by the [erratum](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003_erratum), reports **128.63 mg betaine per 100 g of raw beets**, NDB 11080, shown as 129 mg. Canned beets in that table are 333.69 mg per 100 g. USDA Release 2 reports 130 mg per 100 g for the same raw NDB. This is separate from the main nutrient panel.
+
+<span id="food-source-5" />
+
+[5] Patterson et al. (2008). [USDA Database for the Choline Content of Common Foods, Release 2](/docs/papers/BRAIN-Diet-References#patterson_choline_2008). Betaine, NDB 11080; source-specific food measurement and preparation, separate from the general nutrient panel.

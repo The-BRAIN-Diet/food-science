@@ -67,6 +67,24 @@ main_image: /img/foods/amaranth/amaranth_medium.webp
 legacy_list_image: /img/foods/amaranth/amaranth_thumb.webp
 legacy_main_image: /img/foods/amaranth/amaranth_medium.webp
 nutrition_supplementary_sources:
+  - key: betaine_usda_release2_20001
+    label: Betaine
+    substance_id: betaine
+    value: 68
+    unit: mg
+    basis: per 100 g food
+    evidence_material: Amaranth; NDB 20001; preparation not specified in source table
+    preparation_state: unspecified
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf
+    source_reference: '#food-source-4'
+    source_note: >-
+      Source-specific Release 2 assay (1 sample); not a universal value or a cooked-food equivalent. Release 2
+      corrected earlier betaine overestimation. Choline confidence codes do not grade betaine. Preserve the
+      specified material; no bioavailability or clinical efficacy inferred.
+    rank_eligible: true
+    comparison_group: betaine::USDA-release2::food-mass
+    composition_review_status: research-qualified-local
+    sample_count: 1
   - key: phytate_qual
     substance_id: phytate
     evidence_status: supported
@@ -114,6 +132,22 @@ nutrition_supplementary_sources:
       Hejazi et al. 2016 supports this qualitative constituent record. See
       technical provenance for food form and measurement details.
 substance_relationships:
+  - substance: Betaine
+    substance_id: betaine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf
+    source_reference: '#food-source-4'
+    citation_keys:
+      - patterson_choline_2008
+    evidence_material: Amaranth; NDB 20001; preparation not specified in source table
+    preparation_state: unspecified
+    requires_supplementary_key: betaine_usda_release2_20001
+    material_limitations: >-
+      Source-specific Release 2 assay (1 sample); not a universal value or a cooked-food equivalent. Release 2
+      corrected earlier betaine overestimation. Choline confidence codes do not grade betaine. Preserve the
+      specified material; no bioavailability or clinical efficacy inferred.
   - substance: Phytate
     substance_id: phytate
     relationship: contains
@@ -212,3 +246,7 @@ Amaranth does not need legumes as a lysine rescue in the way ordinary cereal pro
 [2] Jan et al. (2023). [Amaranth and quinoa as potential nutraceuticals: A review of anti-nutritional factors, health benefits and their applications in food, medicinal and cosmetic sectors](/docs/papers/BRAIN-Diet-References#jan_amaranth_quinoa_2023). Review of amaranth-grain antinutritional factors, including seed phytic acid of 2.9–7.9 g/kg; germination, fermentation and cooking can reduce some antinutrients, and nitrate findings for leaves are not grain composition.
 
 [3] Hejazi et al. (2016). [Improvement of the in vitro protein digestibility of amaranth grain through optimization of the malting process](/docs/papers/BRAIN-Diet-References#hejazi_amaranth_malting_2016). Optimized germination reduced phytic acid by about 30% and oxalate by about 38% in amaranth grain and improved in-vitro protein digestibility; tannin increased, so processing is not uniformly beneficial.
+
+<span id="food-source-4" />
+
+[4] Patterson et al. (2008). [USDA Database for the Choline Content of Common Foods, Release 2](/docs/papers/BRAIN-Diet-References#patterson_choline_2008). Betaine, NDB 20001; source-specific food measurement and preparation, separate from the general nutrient panel.

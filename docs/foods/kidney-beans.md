@@ -1,4 +1,47 @@
 ---
+nutrition_supplementary_sources:
+  - key: phenylalanine_recovered_fdc_175194
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 0.469
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Beans, kidney, red, mature seeds, cooked, boiled, without salt
+    preparation_state: cooked
+    source_url: https://fdc.nal.usda.gov/food-details/175194/nutrients
+    source_reference: '#food-source-1'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 175194
+    food_nutrient_id: '1920457'
+    source_derivation_id: ''
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tryptophan_recovered_fdc_175194
+    label: Tryptophan
+    substance_id: tryptophan
+    value: 0.103
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Beans, kidney, red, mature seeds, cooked, boiled, without salt
+    preparation_state: cooked
+    source_url: https://fdc.nal.usda.gov/food-details/175194/nutrients
+    source_reference: '#food-source-1'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 175194
+    food_nutrient_id: '1920454'
+    source_derivation_id: ''
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
 id: kidney-beans
 title: Kidney Beans
 sidebar_label: Kidney Beans
@@ -56,6 +99,38 @@ main_image: /img/foods/kidney-beans/kidney-beans_medium.webp
 legacy_list_image: /img/foods/kidney-beans/kidney-beans_thumb.webp
 legacy_main_image: /img/foods/kidney-beans/kidney-beans_medium.webp
 substance_relationships:
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/175194/nutrients
+    source_reference: '#food-source-1'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Beans, kidney, red, mature seeds, cooked, boiled, without salt
+    preparation_state: cooked
+    requires_supplementary_key: phenylalanine_recovered_fdc_175194
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: Tryptophan
+    substance_id: tryptophan
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/175194/nutrients
+    source_reference: '#food-source-1'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Beans, kidney, red, mature seeds, cooked, boiled, without salt
+    preparation_state: cooked
+    requires_supplementary_key: tryptophan_recovered_fdc_175194
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
   - substance: Magnesium
     relationship: contains
     description: >-
@@ -220,3 +295,7 @@ Kidney Beans are rich in lysine but relatively low in sulfur-containing amino ac
 
 ## References
 
+
+<span id="food-source-1" />
+
+[1] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 175194: Beans, kidney, red, mature seeds, cooked, boiled, without salt. These observations retain their own preparation state.

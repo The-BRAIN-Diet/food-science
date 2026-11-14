@@ -1,0 +1,13 @@
+{
+  "checks": 402,
+  "result": "PASS",
+  "inventory": 69,
+  "connections": 118,
+  "gapsByReason": {
+    "pool": 16,
+    "unresolved admission or missing evidence": 7,
+    "unresolved-identity": 26,
+    "dietary matrix": 1,
+    "SOP has no explicit substance identities; no inference from food or endpoint text": 43
+  }
+}

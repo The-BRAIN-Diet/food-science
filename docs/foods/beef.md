@@ -74,6 +74,225 @@ nutrition_source:
   last_checked: '2026-08-15'
   source_reference: '#food-source-6'
 nutrition_supplementary_sources:
+  - key: arginine_recovered_fdc_171796
+    label: Arginine
+    substance_id: arginine
+    value: 1.21
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
+    source_reference: '#food-source-9'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier AR, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+    fdc_id: 171796
+    food_nutrient_id: 1641413
+    source_derivation_id: AR
+    source_data_points: 0
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tyrosine_recovered_fdc_171796
+    label: Tyrosine
+    substance_id: tyrosine
+    value: 0.572
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
+    source_reference: '#food-source-9'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier AR, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+    fdc_id: 171796
+    food_nutrient_id: 1641439
+    source_derivation_id: AR
+    source_data_points: 0
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: phenylalanine_recovered_fdc_174032
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 0.725
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Beef, ground, 85% lean meat / 15% fat, patty, cooked, broiled
+    preparation_state: cooked
+    source_url: https://fdc.nal.usda.gov/food-details/174032/nutrients
+    source_reference: '#food-source-8'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier 3, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 174032
+    food_nutrient_id: '1826066'
+    source_derivation_id: '3'
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tryptophan_recovered_fdc_174032
+    label: Tryptophan
+    substance_id: tryptophan
+    value: 0.094
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Beef, ground, 85% lean meat / 15% fat, patty, cooked, broiled
+    preparation_state: cooked
+    source_url: https://fdc.nal.usda.gov/food-details/174032/nutrients
+    source_reference: '#food-source-8'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier 3, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 174032
+    food_nutrient_id: '1826063'
+    source_derivation_id: '3'
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: l_carnitine_furusho_2026_mg
+    label: L-Carnitine
+    substance_id: l-carnitine
+    value: 45.58
+    unit: mg
+    basis: per 100 g food
+    preparation_state: ground, as purchased
+    evidence_material: Ground beef purchased in Japan
+    chemical_form: free L-carnitine
+    uncertainty:
+      type: SE
+      value: 4.94
+      'n': 3
+      replicate_type: repeated extraction
+    source_url: https://doi.org/10.5702/massspectrometry.A0191
+    source_reference: '#food-source-7'
+    source_note: >-
+      Single grocery-source preparation; mean ± SE from three extraction determinations, not three independent
+      population samples. Chiral LC-MS/MS measured free L-carnitine with water extraction intended to avoid
+      release from acylcarnitines. Not total acylcarnitine, a universal food value, cooked-food retention, or
+      evidence of mitochondrial benefit.
+    public_note: Source-specific measured free L-carnitine; preparation and analytical limitations retained.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    rank_eligible: true
+    comparison_group: free-l-carnitine::furusho-2026::per-100g-food
+    nutrition_panel_eligible: true
+  - key: glycine_fdc_171796_g
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+    label: Glycine
+    substance_id: glycine
+    value: 1.262
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
+    source_reference: '#food-source-6'
+    source_note: >-
+      Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program). USDA
+      derivation: Analytical data; derived by linear regression. Raw-food composition does not establish
+      cooked-food retention, digestibility, brain delivery or intervention efficacy.
+    public_note: Raw-food composition; USDA database value; derivation qualified in source record.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    nutrition_panel_eligible: true
+    source_group: USDA SR Legacy 171796
+    food_nutrient_id: 1641442
+    food_nutrient_derivation:
+      id: 3
+      code: AR
+      description: Analytical data; derived by linear regression
+      foodNutrientSource:
+        id: 1
+        code: '1'
+        description: Analytical or derived from analytical
+    data_points: 0
+    limitations: >-
+      Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program). USDA
+      derivation: Analytical data; derived by linear regression. Raw-food composition does not establish
+      cooked-food retention, digestibility, brain delivery or intervention efficacy.
+  - key: serine_fdc_171796_g
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+    label: Serine
+    substance_id: serine
+    value: 0.744
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
+    source_reference: '#food-source-6'
+    source_note: >-
+      Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program). USDA
+      derivation: Analytical data; derived by linear regression. Raw-food composition does not establish
+      cooked-food retention, digestibility, brain delivery or intervention efficacy.
+    public_note: Raw-food composition; USDA database value; derivation qualified in source record.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    nutrition_panel_eligible: true
+    source_group: USDA SR Legacy 171796
+    food_nutrient_id: 1641416
+    food_nutrient_derivation:
+      id: 3
+      code: AR
+      description: Analytical data; derived by linear regression
+      foodNutrientSource:
+        id: 1
+        code: '1'
+        description: Analytical or derived from analytical
+    data_points: 0
+    limitations: >-
+      Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program). USDA
+      derivation: Analytical data; derived by linear regression. Raw-food composition does not establish
+      cooked-food retention, digestibility, brain delivery or intervention efficacy.
+  - key: phenylalanine_fdc_171796_g
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 0.725
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
+    source_reference: '#food-source-6'
+    source_note: >-
+      Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program). USDA
+      derivation: Analytical data; derived by linear regression. Raw-food composition does not establish
+      cooked-food retention, digestibility, brain delivery or intervention efficacy.
+    public_note: Raw-food composition; USDA database value; derivation qualified in source record.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    nutrition_panel_eligible: true
+    source_group: USDA SR Legacy 171796
+    food_nutrient_id: 1641438
+    food_nutrient_derivation:
+      id: 3
+      code: AR
+      description: Analytical data; derived by linear regression
+      foodNutrientSource:
+        id: 1
+        code: '1'
+        description: Analytical or derived from analytical
+    data_points: 0
+    limitations: >-
+      Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program). USDA
+      derivation: Analytical data; derived by linear regression. Raw-food composition does not establish
+      cooked-food retention, digestibility, brain delivery or intervention efficacy.
   - key: creatine_mg
     label: Creatine
     notes: >-
@@ -140,6 +359,127 @@ main_image: /img/foods/beef/beef_medium.webp
 legacy_list_image: /img/foods/beef/beef_thumb.webp
 legacy_main_image: /img/foods/beef/beef_medium.webp
 substance_relationships:
+  - substance: Arginine
+    substance_id: arginine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
+    source_reference: '#food-source-9'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)
+    preparation_state: raw
+    requires_supplementary_key: arginine_recovered_fdc_171796
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier AR, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
+    source_reference: '#food-source-9'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)
+    preparation_state: raw
+    requires_supplementary_key: tyrosine_recovered_fdc_171796
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier AR, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/174032/nutrients
+    source_reference: '#food-source-8'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Beef, ground, 85% lean meat / 15% fat, patty, cooked, broiled
+    preparation_state: cooked
+    requires_supplementary_key: phenylalanine_recovered_fdc_174032
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier 3, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: Tryptophan
+    substance_id: tryptophan
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/174032/nutrients
+    source_reference: '#food-source-8'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Beef, ground, 85% lean meat / 15% fat, patty, cooked, broiled
+    preparation_state: cooked
+    requires_supplementary_key: tryptophan_recovered_fdc_174032
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier 3, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: L-Carnitine
+    substance_id: l-carnitine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: Furusho et al. (2026), Table 3 and methods §2.2.1
+    source_url: https://doi.org/10.5702/massspectrometry.A0191
+    source_reference: '#food-source-7'
+    citation_keys:
+      - furusho_carnitine_food_2026
+    evidence_material: Ground beef purchased in Japan
+    preparation_state: ground, as purchased
+    chemical_form: free L-carnitine
+    requires_supplementary_key: l_carnitine_furusho_2026_mg
+    material_limitations: >-
+      Single grocery-source preparation; mean ± SE from three extraction determinations, not three independent
+      population samples. Chiral LC-MS/MS measured free L-carnitine with water extraction intended to avoid
+      release from acylcarnitines. Not total acylcarnitine, a universal food value, cooked-food retention, or
+      evidence of mitochondrial benefit.
+  - substance: Glycine
+    substance_id: glycine
+    relationship: contains
+    description: USDA FoodData Central records glycine in this exact raw food. No dietary intervention efficacy inferred.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy 171796
+    evidence_material: Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
+    source_reference: '#food-source-6'
+    requires_supplementary_key: glycine_fdc_171796_g
+  - substance: Serine
+    substance_id: serine
+    relationship: contains
+    description: USDA FoodData Central records serine in this exact raw food. No dietary intervention efficacy inferred.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy 171796
+    evidence_material: Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
+    source_reference: '#food-source-6'
+    requires_supplementary_key: serine_fdc_171796_g
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    description: >-
+      USDA FoodData Central records phenylalanine in this exact raw food. No dietary intervention efficacy
+      inferred.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy 171796
+    evidence_material: Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
+    source_reference: '#food-source-6'
+    requires_supplementary_key: phenylalanine_fdc_171796_g
   - substance: Phosphorus
     relationship: contains
     description: >-
@@ -315,6 +655,7 @@ substance_relationships:
 substance_review_candidates: []
 nutrition_value_reviews:
   - title: 'Creatine amount: citation attachment pending'
+    nutrient_key: creatine_mg
     section: Bioactive compounds
     correction_status: pending
     description: >
@@ -328,6 +669,7 @@ nutrition_value_reviews:
       preparation and denominator. Presence citations do not independently
       verify this amount.
   - title: 'CoQ10 amount: preparation and citation check pending'
+    nutrient_key: coq10_mg
     section: Bioactive compounds
     correction_status: pending
     description: >-
@@ -472,3 +814,15 @@ Beef provides the essential amino acids expected from an animal muscle protein.
 <span id="food-source-6" />
 
 [6] USDA (2018). [FoodData Central: Beef, ground, 85% lean meat / 15% fat, raw (FDC 171796)](https://fdc.nal.usda.gov/food-details/171796/nutrients). Composition baseline for raw ground beef containing 15% fat; the bioactive estimates use separate sources.
+
+<span id="food-source-7" />
+
+[7] Furusho et al. (2026). [Enantioselective Determination of Carnitine Enantiomers in Food and Supplement Samples by Chiral Liquid Chromatography-Tandem Mass Spectrometry](/docs/papers/BRAIN-Diet-References#furusho_carnitine_food_2026). Table 3: source-specific free L-carnitine; repeated-extraction uncertainty, not a dietary intervention.
+
+<span id="food-source-8" />
+
+[8] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 174032: Beef, ground, 85% lean meat / 15% fat, patty, cooked, broiled. These observations retain their own preparation state.
+
+<span id="food-source-9" />
+
+[9] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 171796: Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program). These observations retain their own preparation state.

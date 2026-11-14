@@ -155,7 +155,7 @@ nutrition_supplementary_sources:
     presence_status: presence_supported_amount_unavailable
     source_url: https://dirros.openscience.si/Dokument.php?id=36758&lang=eng
     notes: extra virgin olive oil
-    source_reference: '#food-source-2'
+    source_reference: '#food-source-3'
 substance_relationships:
   - substance: Hydroxytyrosol
     relationship: contains
@@ -233,7 +233,7 @@ substance_relationships:
       Fortification Strategies
     evidence_material: extra virgin olive oil
     source_url: https://dirros.openscience.si/Dokument.php?id=36758&lang=eng
-    source_reference: '#food-source-2'
+    source_reference: '#food-source-3'
 substance_review_candidates:
   - Oleuropein
 ---
@@ -269,3 +269,7 @@ Early-harvest extra virgin olive oil is made from olives picked earlier in the s
 <span id="food-source-2" />
 
 [2] [Pravst, Zmitek and Zmitek (2010), Coenzyme Q10 Contents in Foods and Fortification Strategies](/docs/papers/BRAIN-Diet-References#food_composition_909fffb6dabb)
+
+<span id="food-source-3" />
+
+[3] Žmitek et al. (2014). [Factors Influencing the Contents of Coenzyme Q10 and Q9 in Olive Oils](/docs/papers/BRAIN-Diet-References#zmitek_factors_2014). Maturity studied in Istrska belica and Leccino; no universal early-harvest concentration.

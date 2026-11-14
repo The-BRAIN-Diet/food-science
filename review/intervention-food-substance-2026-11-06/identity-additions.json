@@ -1,0 +1,244 @@
+[
+  {
+    "pm": "BRS1-FM1-PM1",
+    "atom_id": "PM1-SOP-DEFERRED-1",
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+    "added": {
+      "food_ids": [
+        "beef"
+      ]
+    },
+    "input": "Minced rather than intact beef in the tested older-adult meal"
+  },
+  {
+    "pm": "BRS1-FM1-PM3",
+    "atom_id": "PM3-SOP-1",
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+    "added": {
+      "substance_ids": [
+        "iron",
+        "vitamin-c"
+      ]
+    },
+    "input": "Pair non-haem iron-containing meals with an ascorbic-acid source"
+  },
+  {
+    "pm": "BRS1-FM1-PM3",
+    "atom_id": "PM3-SOP-2",
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+    "added": {
+      "substance_ids": [
+        "phytate"
+      ]
+    },
+    "input": "Use validated phytate-reducing preparation methods for high-phytate cereals"
+  },
+  {
+    "pm": "BRS1-FM1-PM3",
+    "atom_id": "PM3-SOP-TEA-TIMING-1",
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+    "added": {
+      "food_ids": [
+        "black-tea"
+      ],
+      "substance_ids": [
+        "iron"
+      ]
+    },
+    "input": "Black tea one hour after rather than with an iron-containing porridge meal"
+  },
+  {
+    "pm": "BRS1-FM1-PM4",
+    "atom_id": "PM4-SOP-PHYTASE-1",
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
+    "added": {
+      "substance_ids": [
+        "phytate"
+      ]
+    },
+    "input": "Use validated phytate-reducing preparation methods for high-phytate cereals"
+  },
+  {
+    "pm": "BRS1-FM1-PM4",
+    "atom_id": "PM4-SOP-TEA-TIMING-1",
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
+    "added": {
+      "food_ids": [
+        "black-tea"
+      ],
+      "substance_ids": [
+        "iron"
+      ]
+    },
+    "input": "Black tea one hour after rather than with an iron-containing porridge meal"
+  },
+  {
+    "pm": "BRS1-FM1-PM5",
+    "atom_id": "PM5-SOP-PHYTASE-1",
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+    "added": {
+      "substance_ids": [
+        "phytate"
+      ]
+    },
+    "input": "Use validated phytate-reducing preparation methods for high-phytate cereals"
+  },
+  {
+    "pm": "BRS1-FM1-PM5",
+    "atom_id": "PM5-SOP-TEA-TIMING-1",
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+    "added": {
+      "food_ids": [
+        "black-tea"
+      ],
+      "substance_ids": [
+        "iron"
+      ]
+    },
+    "input": "Black tea one hour after rather than with an iron-containing porridge meal"
+  },
+  {
+    "pm": "BRS1-FM3-PM7",
+    "atom_id": "PM7-SOP-DHA-1",
+    "file": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+    "added": {
+      "substance_ids": [
+        "dha-docosahexaenoic-acid"
+      ]
+    },
+    "input": "Defined DHA supplementation in older adults with low baseline DHA intake"
+  },
+  {
+    "pm": "BRS1-FM3-PM7",
+    "atom_id": "PM7-SOP-FISH-CAPSULES-1",
+    "file": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+    "added": {
+      "food_ids": [
+        "tuna",
+        "salmon"
+      ]
+    },
+    "input": "Tested fish-meal versus fish-oil capsule regimens over 16 weeks"
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "atom_id": "PM1-SOP-FOLATE-STEAM-1",
+    "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+    "added": {
+      "food_ids": [
+        "spinach",
+        "broccoli"
+      ],
+      "substance_ids": [
+        "vitamin-b9"
+      ]
+    },
+    "input": "Steam spinach or broccoli rather than boiling in the tested conditions"
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "atom_id": "PM1-SOP-NORI-B12-1",
+    "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+    "added": {
+      "food_ids": [
+        "nori"
+      ],
+      "substance_ids": [
+        "vitamin-b12"
+      ]
+    },
+    "input": "Tested roasted-nori daily protocol"
+  },
+  {
+    "pm": "BRS2-FM1-PM2",
+    "atom_id": "PM2-SOP-MALTED-OATS-1",
+    "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+    "added": {
+      "food_ids": [
+        "oats"
+      ]
+    },
+    "input": "Tested malted and soaked oat porridge"
+  },
+  {
+    "pm": "BRS3-FM2-PM3",
+    "atom_id": "PM3-SOP-1",
+    "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
+    "added": {
+      "food_ids": [
+        "broccoli-sprouts"
+      ]
+    },
+    "input": "Myrosinase-completed broccoli sprout homogenate"
+  },
+  {
+    "pm": "BRS4-FM1-PM3",
+    "atom_id": "PM3-SOP-1",
+    "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx",
+    "added": {
+      "food_ids": [
+        "pork"
+      ],
+      "substance_ids": [
+        "creatine"
+      ]
+    },
+    "input": "Limit unnecessary cumulative heat exposure when retaining creatine in pork products"
+  },
+  {
+    "pm": "BRS4-FM1-PM3",
+    "atom_id": "PM3-SOP-2",
+    "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx",
+    "added": {
+      "substance_ids": [
+        "creatine"
+      ]
+    },
+    "input": "Consider creatine monohydrate only in defined low-intake or high-demand contexts"
+  },
+  {
+    "pm": "BRS4-FM3-PM6",
+    "atom_id": "PM6-SOP-DEFERRED-1",
+    "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx",
+    "added": {
+      "substance_ids": [
+        "l-carnitine"
+      ]
+    },
+    "input": "Experimental carnitine/carbohydrate loading protocol"
+  },
+  {
+    "pm": "BRS6-FM1-PM1",
+    "atom_id": "PM1-SOP-10",
+    "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx",
+    "added": {
+      "food_ids": [
+        "vinegar"
+      ]
+    },
+    "input": "Vinegar with the studied starchy meal"
+  },
+  {
+    "pm": "BRS6-FM1-PM3",
+    "atom_id": "PM3-SOP-DEFERRED-1",
+    "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+    "added": {
+      "substance_ids": [
+        "arginine"
+      ]
+    },
+    "input": "Conditional oral arginine supplementation in the tested type-2-diabetes protocol"
+  },
+  {
+    "pm": "BRS6-FM3-PM7",
+    "atom_id": "PM7-SOP-2",
+    "file": "docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx",
+    "added": {
+      "substance_ids": [
+        "epa-eicosapentaenoic-acid",
+        "dha-docosahexaenoic-acid"
+      ]
+    },
+    "input": "EPA+DHA supplementation (studied combined formulation)"
+  }
+]

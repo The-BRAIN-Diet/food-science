@@ -1,0 +1,13 @@
+[
+  {
+    "food_id": "spinach",
+    "substance_id": "betaine",
+    "action": "Added source-specific corrected USDA Release 2 measurement; older provenance preserved",
+    "source": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+    "value": 120,
+    "unit": "mg",
+    "basis": "per 100 g food",
+    "material": "Spinach, frozen, chopped or leaf, unprepared; NDB 11463",
+    "preparation": "frozen, unprepared"
+  }
+]

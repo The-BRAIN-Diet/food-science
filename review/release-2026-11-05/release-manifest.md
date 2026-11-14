@@ -38,3 +38,7 @@ Obsolete fixtures were updated only for subsequently authorised changes: PM1 add
 ## Publication
 
 Commit, push, PR and normal merge are authorised after gates pass. Record exact release/merge/deployed commits and live CoQ inspection in the publication handoff. Do not bypass protections, claim production repaired before deploy verification, or include excluded drafts.
+
+## Post-publication verification — local addendum
+
+Released521036b1 via PR232; merged/deployed a00d6b0d. Netlify production6aec906735189faa3b9b113d verified Published. See `publication-verification.json` and release handoff. Live CoQ inspection found an explicit Principle provenance warning missed by the earlier gates; author review needed, no post-release scientific edit made. These verification additions remain local-only.

@@ -9,6 +9,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
+import {scientificPrincipleErrors} from "../../src/lib/scientificPrinciples.mjs";
 import {transparencyErrors} from "../../src/lib/scientificTransparency.mjs";
 import { listMechanismMdxFiles } from "./mechanism-page-validation.mjs";
 import {
@@ -73,9 +74,10 @@ export function checkScientificFindings(rootDir) {
 
   for (const filePath of listMechanismMdxFiles(rootDir, "pm")) {
     const { data, content } = matter(fs.readFileSync(filePath, "utf8"));
+    const label = String(data.pm_id || path.relative(rootDir, filePath));
+    issues.push(...scientificPrincipleErrors(data).map(message => ({code: "scientific_principle_invalid", message: `${label}: ${message}`})));
     if (!hasScientificFindings(data)) continue;
     checked += 1;
-    const label = String(data.pm_id || path.relative(rootDir, filePath));
 
     issues.push(...validateScientificFindings(data, [], { entityLabel: label }));
     if (data.open_issues_policy === "evidence-gaps-only") {

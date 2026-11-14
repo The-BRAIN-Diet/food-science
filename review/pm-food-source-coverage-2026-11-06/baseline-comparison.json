@@ -1,0 +1,45 @@
+{
+  "definition": "Same current code and concurrent PM work; restore earliest saved pre-task food documents only. Not a historical main comparison.",
+  "results": [
+    {
+      "label": "mapper",
+      "variant": "pre-task-foods",
+      "exit": 1,
+      "failures": [
+        "not ok 9 - meal pattern remains a pattern with candidate ingredient source pointers, no nutrient substitute",
+        "not ok 12 - sixth field gates PM lists independently of accounting and preserves unresolved decisions",
+        "not ok 26 - rollout records every accepted atom decision and retains evidence and precursor distinctions",
+        "not ok 27 - food strategy rollup preserves independently admitted SOP science and separate intervention scopes"
+      ]
+    },
+    {
+      "label": "mapper",
+      "variant": "current",
+      "exit": 1,
+      "failures": [
+        "not ok 9 - meal pattern remains a pattern with candidate ingredient source pointers, no nutrient substitute",
+        "not ok 12 - sixth field gates PM lists independently of accounting and preserves unresolved decisions",
+        "not ok 26 - rollout records every accepted atom decision and retains evidence and precursor distinctions",
+        "not ok 27 - food strategy rollup preserves independently admitted SOP science and separate intervention scopes"
+      ]
+    },
+    {
+      "label": "nutrition",
+      "variant": "pre-task-foods",
+      "exit": 1,
+      "failures": [
+        "FAIL: public table rows missing value or source support (3 page(s)):",
+        "FAIL: qualitative presence claims lacking food-specific evidence (3 page(s)):"
+      ]
+    },
+    {
+      "label": "nutrition",
+      "variant": "current",
+      "exit": 1,
+      "failures": [
+        "FAIL: public table rows missing value or source support (3 page(s)):",
+        "FAIL: qualitative presence claims lacking food-specific evidence (3 page(s)):"
+      ]
+    }
+  ]
+}

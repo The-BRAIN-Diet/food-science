@@ -2892,3 +2892,13 @@ This supersedes earlier lesson-placement amendments above. Place each existing S
 ## Approved independent intervention evidence pathway — 5 November 2026
 
 For SOPs and Lifestyle Levers, a new Scientific Finding is not required when the exact intervention–outcome proposition has independent primary references in the PM bibliography, separately recorded measured effect and PM relevance, full MoA/status, typed limitations and a valid pinned intervention-specific SEC assessment. Admission remains a separate adjudication. The validator must resolve the assessment to this PM and intervention and validate its content/hash; no Finding score may be inherited. Existing Finding links, when supplied, must remain valid. An incomplete independent record fails validation; this exception does not apply to dietary-input substance admission or allow unsupported claims. Author explicitly approved this clarification during release reconciliation. No new public presentation or numerical scoring rule.
+
+
+## Intervention food/substance presentation — author-approved 6 November 2026
+
+Apply [SOP/Lifestyle food–substance joins](sop-lifestyle-six-atom-presentation.md#approved-soplifestyle-foodsubstance-joins--6-november-2026). Stage 2A distinguishes documented composition, tested protocol, biological relationship and unconfirmed mediator; Stage 2B records supported canonical identities and derives the links below intervention titles. These are presentation metadata, not a seventh atom or new admission. Keep all six atoms, preparation/comparator limits and independent SEC provenance; omit unsupported food connections for patterns and behaviours. PM rendering and chord extraction consume one generated mapping, with composition/context edge types rather than inferred efficacy.
+
+
+### Food-source selection clarification — author decision, 6 November 2026
+
+Apply the [author-approved top-five food-source selection rule](input-substance-food-mapping.md#author-approved-top-five-food-source-selection--6-november-2026). Stage 2A verifies composition and comparability; Stage 2B promotes up to five highest supported comparable food values for each eligible dietary substance while preserving existing admission, preparation, provenance and limitations. This does not establish intervention efficacy or authorise new PM dietary inputs.

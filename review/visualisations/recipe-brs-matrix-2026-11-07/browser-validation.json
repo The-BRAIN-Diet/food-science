@@ -1,0 +1,27 @@
+{
+  "preview": "http://127.0.0.1:3163/",
+  "desktop_viewport": [
+    1440,
+    1000
+  ],
+  "mobile_viewport": [
+    390,
+    844
+  ],
+  "mobile_scroll_width": 390,
+  "mobile_client_width": 390,
+  "keyboard_selection": "pass",
+  "food_selection": "pass",
+  "substance_selection": "pass",
+  "system_selection": "pass",
+  "reset": "pass",
+  "missing_food_identity_disclosure": "pass",
+  "source_disclosure": "spinach magnesium 79 mg/100g; 23.7 mg from 30g",
+  "BRS6_selection": {
+    "foods": 3,
+    "substances": 1,
+    "PMs": 1
+  },
+  "console_errors": [],
+  "note": "One mouse action timed out during compilation; unchanged browser state checked and final disclosure verified with keyboard."
+}

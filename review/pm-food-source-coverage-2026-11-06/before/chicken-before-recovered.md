@@ -1,0 +1,481 @@
+---
+nutrition_supplementary_sources:
+  - key: l_carnitine_furusho_2026_mg
+    label: L-Carnitine
+    substance_id: l-carnitine
+    value: 3.83
+    unit: mg
+    basis: per 100 g food
+    preparation_state: ground, as purchased
+    evidence_material: Ground chicken purchased in Japan
+    chemical_form: free L-carnitine
+    uncertainty:
+      type: SE
+      value: 0.31
+      'n': 3
+      replicate_type: repeated extraction
+    source_url: https://doi.org/10.5702/massspectrometry.A0191
+    source_reference: '#food-source-3'
+    source_note: >-
+      Single grocery-source preparation; mean ± SE from three extraction determinations, not three independent
+      population samples. Chiral LC-MS/MS measured free L-carnitine with water extraction intended to avoid
+      release from acylcarnitines. Not total acylcarnitine, a universal food value, cooked-food retention, or
+      evidence of mitochondrial benefit.
+    public_note: Source-specific measured free L-carnitine; preparation and analytical limitations retained.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    rank_eligible: true
+    comparison_group: free-l-carnitine::furusho-2026::per-100g-food
+    nutrition_panel_eligible: true
+  - key: glycine_fdc_171447_g
+    label: Glycine
+    substance_id: glycine
+    value: 1.223
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Chicken, broilers or fryers, meat and skin, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    source_reference: '#food-source-2'
+    source_note: >-
+      Chicken, broilers or fryers, meat and skin, raw. USDA derivation: Derivation method not reported in this
+      API record. Raw-food composition does not establish cooked-food retention, digestibility, brain delivery
+      or intervention efficacy.
+    public_note: Raw-food composition; USDA database value; derivation qualified in source record.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    nutrition_panel_eligible: true
+    source_group: USDA SR Legacy 171447
+    food_nutrient_id: 1610591
+    food_nutrient_derivation: null
+    data_points: 0
+    limitations: >-
+      Chicken, broilers or fryers, meat and skin, raw. USDA derivation: Derivation method not reported in this
+      API record. Raw-food composition does not establish cooked-food retention, digestibility, brain delivery
+      or intervention efficacy.
+  - key: serine_fdc_171447_g
+    label: Serine
+    substance_id: serine
+    value: 0.657
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Chicken, broilers or fryers, meat and skin, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    source_reference: '#food-source-2'
+    source_note: >-
+      Chicken, broilers or fryers, meat and skin, raw. USDA derivation: Derivation method not reported in this
+      API record. Raw-food composition does not establish cooked-food retention, digestibility, brain delivery
+      or intervention efficacy.
+    public_note: Raw-food composition; USDA database value; derivation qualified in source record.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    nutrition_panel_eligible: true
+    source_group: USDA SR Legacy 171447
+    food_nutrient_id: 1610583
+    food_nutrient_derivation: null
+    data_points: 0
+    limitations: >-
+      Chicken, broilers or fryers, meat and skin, raw. USDA derivation: Derivation method not reported in this
+      API record. Raw-food composition does not establish cooked-food retention, digestibility, brain delivery
+      or intervention efficacy.
+  - key: phenylalanine_fdc_171447_g
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 0.721
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Chicken, broilers or fryers, meat and skin, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    source_reference: '#food-source-2'
+    source_note: >-
+      Chicken, broilers or fryers, meat and skin, raw. USDA derivation: Derivation method not reported in this
+      API record. Raw-food composition does not establish cooked-food retention, digestibility, brain delivery
+      or intervention efficacy.
+    public_note: Raw-food composition; USDA database value; derivation qualified in source record.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    nutrition_panel_eligible: true
+    source_group: USDA SR Legacy 171447
+    food_nutrient_id: 1610587
+    food_nutrient_derivation: null
+    data_points: 0
+    limitations: >-
+      Chicken, broilers or fryers, meat and skin, raw. USDA derivation: Derivation method not reported in this
+      API record. Raw-food composition does not establish cooked-food retention, digestibility, brain delivery
+      or intervention efficacy.
+id: chicken
+title: Chicken
+sidebar_label: Chicken
+description: 'Niacin, zinc, and tryptophan'
+tags:
+  - Food
+  - Chicken
+  - Vitamin B3
+  - Vitamin B6
+  - Vitamin B12
+  - Phosphorus
+  - Selenium
+  - Zinc
+  - Iron
+  - Cysteine
+  - Methionine
+list_image: /img/foods/chicken/chicken_thumb.webp
+public_display:
+  cystine_mg: internal-only
+protein_profile_note: Complete essential amino acid profile.
+nutrition_per_100g:
+  choline_mg: 59.7
+  selenium_ug: 14.4
+  iron_mg: 0.9
+  magnesium_mg: 20
+  phosphorus_mg: 147
+  sodium_mg: 70
+  copper_mg: 0.048
+  manganese_mg: 0.019
+  vitamin_b1_mg: 0.06
+  vitamin_b2_mg: 0.12
+  folate_ug: 6
+  vitamin_b12_ug: 0.31
+  sat_fat_g: 4.31
+  dha_mg: 30
+  epa_mg: 10
+  protein_g: 18.6
+  methionine_g: 0.493
+  cystine_mg: 249
+  fat_g: 15.06
+  kcal: 215
+  calcium_mg: 11
+  potassium_mg: 189
+  zinc_mg: 1.31
+  vitamin_b3_mg: 6.801
+  vitamin_b5_mg: 0.91
+  vitamin_b6_mg: 0.35
+  linoleic_g: 2.88
+  vitamin_d_ug: 0.2
+  vitamin_a_rae_ug: 41
+  vitamin_c_mg: 1.6
+  vitamin_e_mg: 0.3
+  vitamin_k_ug: 1.5
+  omega3_mg: 50
+  pufa_18_3_unresolved_mg: 140
+omega3_components:
+  - nutrient: dha_mg
+    identity: '22:6 n-3 (DHA)'
+    amount_mg: 30
+  - nutrient: epa_mg
+    identity: '20:5 n-3 (EPA)'
+    amount_mg: 10
+  - nutrient: dpa_mg
+    identity: '22:5 n-3 (DPA)'
+    amount_mg: 10
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: 'Chicken, broilers or fryers, meat and skin, raw'
+  fdc_id: 171447
+  retrieval_method: SR Legacy bulk (April 2018)
+  basis: per 100 g edible portion
+  last_checked: '2026-08-15'
+substance_relationships:
+  - substance: L-Carnitine
+    substance_id: l-carnitine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: Furusho et al. (2026), Table 3 and methods §2.2.1
+    source_url: https://doi.org/10.5702/massspectrometry.A0191
+    source_reference: '#food-source-3'
+    citation_keys:
+      - furusho_carnitine_food_2026
+    evidence_material: Ground chicken purchased in Japan
+    preparation_state: ground, as purchased
+    chemical_form: free L-carnitine
+    requires_supplementary_key: l_carnitine_furusho_2026_mg
+    material_limitations: >-
+      Single grocery-source preparation; mean ± SE from three extraction determinations, not three independent
+      population samples. Chiral LC-MS/MS measured free L-carnitine with water extraction intended to avoid
+      release from acylcarnitines. Not total acylcarnitine, a universal food value, cooked-food retention, or
+      evidence of mitochondrial benefit.
+  - substance: Glycine
+    substance_id: glycine
+    relationship: contains
+    description: USDA FoodData Central records glycine in this exact raw food. No dietary intervention efficacy inferred.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy 171447
+    evidence_material: Chicken, broilers or fryers, meat and skin, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    source_reference: '#food-source-2'
+    requires_supplementary_key: glycine_fdc_171447_g
+  - substance: Serine
+    substance_id: serine
+    relationship: contains
+    description: USDA FoodData Central records serine in this exact raw food. No dietary intervention efficacy inferred.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy 171447
+    evidence_material: Chicken, broilers or fryers, meat and skin, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    source_reference: '#food-source-2'
+    requires_supplementary_key: serine_fdc_171447_g
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    description: >-
+      USDA FoodData Central records phenylalanine in this exact raw food. No dietary intervention efficacy
+      inferred.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy 171447
+    evidence_material: Chicken, broilers or fryers, meat and skin, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    source_reference: '#food-source-2'
+    requires_supplementary_key: phenylalanine_fdc_171447_g
+  - substance: Methionine
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports methionine 0.493 g per 100 g in Chicken,
+      broilers or fryers, meat and skin, raw (FDC 171447). Composition only;
+      this does not establish a PM-specific dietary efficacy claim.
+    evidence_status: supported
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Chicken, broilers or fryers, meat and skin, raw
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    presence_status: presence_and_amount_supported
+  - substance: Cysteine
+    relationship: contains
+    description: >-
+      Cystine 249 mg per 100 g of Chicken, broilers or fryers, meat and skin,
+      raw (FDC 171447). A 113 g (4 oz) portion is about 281 mg. Composition
+      only; not a glutathione-synthesis result.
+  - substance: Phosphorus
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports phosphorus in Chicken, broilers or fryers,
+      meat and skin, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chicken|Phosphorus
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chicken, broilers or fryers, meat and skin, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171447/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Iron
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports iron in Chicken, broilers or fryers, meat
+      and skin, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chicken|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chicken, broilers or fryers, meat and skin, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171447/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Selenium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports selenium in Chicken, broilers or fryers,
+      meat and skin, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chicken|Selenium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chicken, broilers or fryers, meat and skin, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171447/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zinc
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports zinc in Chicken, broilers or fryers, meat
+      and skin, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chicken|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chicken, broilers or fryers, meat and skin, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171447/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B12
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B12 in Chicken, broilers or fryers,
+      meat and skin, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chicken|Vitamin B12
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chicken, broilers or fryers, meat and skin, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171447/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B3
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B3 in Chicken, broilers or fryers,
+      meat and skin, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chicken|Vitamin B3
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chicken, broilers or fryers, meat and skin, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171447/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B6
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B6 in Chicken, broilers or fryers,
+      meat and skin, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chicken|Vitamin B6
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chicken, broilers or fryers, meat and skin, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171447/nutrients'
+    presence_status: presence_and_amount_supported
+main_image: /img/foods/chicken/chicken_medium.webp
+legacy_list_image: /img/foods/chicken/chicken_thumb.webp
+legacy_main_image: /img/foods/chicken/chicken_medium.webp
+substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-171477
+    material: Chicken, broilers or fryers, breast, meat only, cooked, roasted
+    preparation: cooked
+    food_group: animal
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 171477
+      source_url: https://fdc.nal.usda.gov/food-details/171477/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 31.02
+    protein_source_row_id: "1613048"
+    amino_acids:
+      histidine:
+        value: 0.963
+        source_row_id: "1613034"
+        nutrient_id: "1221"
+        data_points: 0
+        derivation_id: null
+      isoleucine:
+        value: 1.638
+        source_row_id: "1613028"
+        nutrient_id: "1212"
+        data_points: 0
+        derivation_id: null
+      leucine:
+        value: 2.328
+        source_row_id: "1613029"
+        nutrient_id: "1213"
+        data_points: 0
+        derivation_id: null
+      lysine:
+        value: 2.635
+        source_row_id: "1613030"
+        nutrient_id: "1214"
+        data_points: 0
+        derivation_id: null
+      methionine:
+        value: 0.859
+        source_row_id: "1613059"
+        nutrient_id: "1215"
+        data_points: 0
+        derivation_id: null
+      phenylalanine:
+        value: 1.231
+        source_row_id: "1613060"
+        nutrient_id: "1217"
+        data_points: 0
+        derivation_id: null
+      threonine:
+        value: 1.31
+        source_row_id: "1613058"
+        nutrient_id: "1211"
+        data_points: 0
+        derivation_id: null
+      tryptophan:
+        value: 0.362
+        source_row_id: "1613057"
+        nutrient_id: "1210"
+        data_points: 0
+        derivation_id: null
+      valine:
+        value: 1.539
+        source_row_id: "1613032"
+        nutrient_id: "1219"
+        data_points: 0
+        derivation_id: null
+    portion:
+      label: 0.5 breast, bone and skin removed
+      source_row_id: "88819"
+      source_grams: 86
+      multiplier: 1
+    limitations: >-
+      USDA database composition, including source-specific analytical or calculated values. No
+      amino-acid-specific digestibility correction; illustrative USDA household portion, not an
+      intake recommendation. Missing values are not treated as zero.
+---
+## Overview
+
+Chicken provides **niacin (vitamin B3)** for NAD⁺ synthesis, **zinc**, and amino acids including **tryptophan**, supporting neurotransmitter synthesis and mitochondrial function. Niacin feeds NAD⁺ salvage pathways relevant to ATP production and cognitive energy metabolism.
+
+Within the BRAIN Diet framework, chicken is a flexible protein base. Large-neutral-amino-acid balance in mixed meals affects tryptophan brain uptake; this is meal-pattern evidence, not a chicken feeding trial [1]. Pair with fibre- and polyphenol-rich plants; gentler cooking helps preserve B vitamins.
+
+## Key Nutritional Highlights
+
+- Complete, highly digestible animal protein with niacin and zinc.
+- Tryptophan source; LNAA competition in mixed meals affects serotonin-pathway routing (meal-pattern evidence) [1].
+- Lower heme-iron density than red meat; lower saturated fat when skin limited.
+- Processing level matters: minimally processed cuts differ from cured/deli products.
+
+## Advanced Nutrition
+
+### Amino acids
+
+Chicken supplies cystine, which contributes to cysteine availability. This raw meat and skin contains **249 mg per 100 g**, about **281 mg in 113 g (4 oz)**. On that raw weight it is a relatively rich cystine source.
+
+Food-composition values are representative, not fixed. Variety, preparation and source can change the amount.
+
+## Food Context
+
+### Synergies
+
+- Part of diverse protein strategy
+- Protein-rich breakfasts support dopamine synthesis; pair with anti-inflammatory nutrients to protect DMN switching
+
+### Preparation
+
+- Best prepared with gentle cooking to preserve nutrients and prevent formation of advanced glycation end products (AGEs)
+- Dark meat provides more taurine, which regulates calcium signaling, antioxidant defense, and neurotransmission
+- Supports NAD+ and neurotransmitter synthesis
+
+### Essential Amino Acid Profile
+
+This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Chicken" />
+
+<NutritionTable details={frontMatter} />
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
+## References
+
+[1] Fernstrom et al. (2013). [Large neutral amino acids: dietary effects on brain neurochemistry and function](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013). Meal-pattern evidence: large-neutral-amino-acid balance affects tryptophan uptake into the brain; not a chicken feeding trial.
+
+<span id="food-source-2" />
+
+[2] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). Chicken, broilers or fryers, meat and skin, raw; FDC 171447. Raw edible-portion values with source-specific derivation retained.
+
+<span id="food-source-3" />
+
+[3] Furusho et al. (2026). [Enantioselective Determination of Carnitine Enantiomers in Food and Supplement Samples by Chiral Liquid Chromatography-Tandem Mass Spectrometry](/docs/papers/BRAIN-Diet-References#furusho_carnitine_food_2026). Table 3: source-specific free L-carnitine; repeated-extraction uncertainty, not a dietary intervention.

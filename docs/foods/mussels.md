@@ -72,6 +72,48 @@ main_image: /img/foods/mussels/mussels_medium.webp
 legacy_list_image: /img/foods/mussels/mussels_thumb.webp
 legacy_main_image: /img/foods/mussels/mussels_medium.webp
 nutrition_supplementary_sources:
+  - key: phenylalanine_recovered_fdc_174217
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 0.853
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Mollusks, mussel, blue, cooked, moist heat
+    preparation_state: cooked
+    source_url: https://fdc.nal.usda.gov/food-details/174217/nutrients
+    source_reference: '#food-source-4'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 174217
+    food_nutrient_id: '1841095'
+    source_derivation_id: ''
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tryptophan_recovered_fdc_174217
+    label: Tryptophan
+    substance_id: tryptophan
+    value: 0.267
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Mollusks, mussel, blue, cooked, moist heat
+    preparation_state: cooked
+    source_url: https://fdc.nal.usda.gov/food-details/174217/nutrients
+    source_reference: '#food-source-4'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 174217
+    food_nutrient_id: '1841092'
+    source_derivation_id: ''
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
   - key: phosphatidylcholine_qual
     label: Phosphatidylcholine
     status: Present — quantity not established
@@ -90,6 +132,38 @@ nutrition_supplementary_sources:
     notes: Mytilus mussel edible tissue
     source_reference: '#food-source-2'
 substance_relationships:
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/174217/nutrients
+    source_reference: '#food-source-4'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Mollusks, mussel, blue, cooked, moist heat
+    preparation_state: cooked
+    requires_supplementary_key: phenylalanine_recovered_fdc_174217
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: Tryptophan
+    substance_id: tryptophan
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/174217/nutrients
+    source_reference: '#food-source-4'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Mollusks, mussel, blue, cooked, moist heat
+    preparation_state: cooked
+    requires_supplementary_key: tryptophan_recovered_fdc_174217
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
   - substance: DHA
     relationship: contains
     description: USDA FoodData Central reports DHA in Mollusks, mussel, blue, raw.
@@ -313,3 +387,7 @@ This food provides a **complete essential amino acid profile** typical of animal
 <span id="food-source-3" />
 
 [3] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/174216/nutrients)
+
+<span id="food-source-4" />
+
+[4] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 174217: Mollusks, mussel, blue, cooked, moist heat. These observations retain their own preparation state.

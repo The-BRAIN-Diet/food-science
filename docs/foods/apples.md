@@ -54,6 +54,31 @@ main_image: /img/foods/apples/apples_medium.webp
 legacy_list_image: /img/foods/apples/apples_thumb.webp
 legacy_main_image: /img/foods/apples/apples_medium.webp
 nutrition_supplementary_sources:
+  - key: pectic_substances_bailoni_2005
+    label: Pectin
+    substance_id: pectin
+    value: 0.51778
+    unit: g
+    basis: per 100 g source edible material
+    evidence_material: Apple, with peel; peduncle and seeds removed
+    preparation_state: fresh food; laboratory drying for analysis
+    chemical_form: Total pectic substances (HM, LM and protopectin)
+    original_observation:
+      value: 34.29
+      sd: 0.87
+      unit: g/kg dry matter
+      dry_matter_percent: 15.1
+    calculation:
+      expression: g/kg DM × dry matter percent / 1000
+      output: g/100 g edible material
+    source_url: https://doi.org/10.4081/ijas.2005.49
+    source_reference: '#food-source-6'
+    source_note: >-
+      Calculated using same-sample moisture. Analytical fractions are not equivalent to purified intervention
+      pectin; cultivar, ripeness and method limit generalisation.
+    rank_eligible: true
+    comparison_group: total-pectic-substances::bailoni-2005::fresh-mass
+    composition_review_status: research-qualified-local
   - key: quercetin_qual
     label: Quercetin
     status: Present — quantity not established
@@ -93,6 +118,21 @@ nutrition_supplementary_sources:
       Liu et al. 2023 supports this qualitative constituent record. See
       technical provenance for food form and measurement details.
 substance_relationships:
+  - substance: Pectin
+    substance_id: pectin
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_material: Apple, with peel; peduncle and seeds removed
+    preparation_state: fresh food; laboratory drying for analysis
+    source_url: https://doi.org/10.4081/ijas.2005.49
+    source_reference: '#food-source-6'
+    citation_keys:
+      - bailoni_pectins_2005
+    requires_supplementary_key: pectic_substances_bailoni_2005
+    material_limitations: >-
+      Calculated using same-sample moisture. Analytical fractions are not equivalent to purified intervention
+      pectin; cultivar, ripeness and method limit generalisation.
   - substance: Vitamin C
     relationship: contains
     description: >-
@@ -160,3 +200,7 @@ Within the BRAIN Diet, apples are best eaten as whole fruit rather than juice. L
 [3] Neveu & Perez-Jimenez (2010). [Phenol-Explorer: an online comprehensive database on polyphenol contents in foods](/docs/papers/BRAIN-Diet-References#neveu_phenol-explorer_2010). Phenol-Explorer reports quercetin and related flavonols in apples, with higher values in peel than in flesh.
 
 [5] Liu et al. (2023). [A wide diversity exists in pectin structure from thirteen apple cultivars](/docs/papers/BRAIN-Diet-References#liu_apple_pectin_2023). Isolated pectin from 13 apple cultivars as alcohol-insoluble, water-soluble and chelating-soluble fractions; yields varied by cultivar and are not a USDA per-100 g pectin quantity, nor the 2.4 g total fibre on this page.
+
+<span id="food-source-6" />
+
+[6] Bailoni et al. (2005). [Quanti-qualitative evaluation of pectins in the dietary fibre of 24 foods](/docs/papers/BRAIN-Diet-References#bailoni_pectins_2005). Tables 2 and 4; moisture-based calculation, not an intervention result.

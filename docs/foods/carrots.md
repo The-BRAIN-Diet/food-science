@@ -1,4 +1,30 @@
 ---
+nutrition_supplementary_sources:
+  - key: pectic_substances_bailoni_2005
+    label: Pectin
+    substance_id: pectin
+    value: 0.3049
+    unit: g
+    basis: per 100 g source edible material
+    evidence_material: Carrot, raw, peeled
+    preparation_state: fresh food; laboratory drying for analysis
+    chemical_form: Total pectic substances (HM, LM and protopectin)
+    original_observation:
+      value: 31.76
+      sd: 1.57
+      unit: g/kg dry matter
+      dry_matter_percent: 9.6
+    calculation:
+      expression: g/kg DM × dry matter percent / 1000
+      output: g/100 g edible material
+    source_url: https://doi.org/10.4081/ijas.2005.49
+    source_reference: '#food-source-4'
+    source_note: >-
+      Calculated using same-sample moisture. Analytical fractions are not equivalent to purified intervention
+      pectin; cultivar, ripeness and method limit generalisation.
+    rank_eligible: true
+    comparison_group: total-pectic-substances::bailoni-2005::fresh-mass
+    composition_review_status: research-qualified-local
 id: carrots
 title: Carrots
 sidebar_label: Carrots
@@ -56,6 +82,21 @@ main_image: /img/foods/carrots/carrots_medium.webp
 legacy_list_image: /img/foods/carrots/carrots_thumb.webp
 legacy_main_image: /img/foods/carrots/carrots_medium.webp
 substance_relationships:
+  - substance: Pectin
+    substance_id: pectin
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_material: Carrot, raw, peeled
+    preparation_state: fresh food; laboratory drying for analysis
+    source_url: https://doi.org/10.4081/ijas.2005.49
+    source_reference: '#food-source-4'
+    citation_keys:
+      - bailoni_pectins_2005
+    requires_supplementary_key: pectic_substances_bailoni_2005
+    material_limitations: >-
+      Calculated using same-sample moisture. Analytical fractions are not equivalent to purified intervention
+      pectin; cultivar, ripeness and method limit generalisation.
   - substance: Retinoic acid
     relationship: dietary-precursor
     input: Beta-carotene
@@ -131,3 +172,7 @@ Within the BRAIN Diet framework, carrots are a carotenoid vegetable best used wi
 [2] Brown et al. (2004). [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004). Meal-pairing evidence: fat in salad dressings increased carotenoid bioavailability; not a carrot-only trial.
 
 [3] Johnson et al. (2014). [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014). Constituent-level lutein and zeaxanthin review; not a carrot feeding trial.
+
+<span id="food-source-4" />
+
+[4] Bailoni et al. (2005). [Quanti-qualitative evaluation of pectins in the dietary fibre of 24 foods](/docs/papers/BRAIN-Diet-References#bailoni_pectins_2005). Tables 2 and 4; moisture-based calculation, not an intervention result.

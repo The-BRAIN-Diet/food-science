@@ -63,7 +63,7 @@ nutrition_supplementary_sources:
     source_note: >-
       Nano-Liquid Chromatography for Coenzyme Q10 in Pistachio Samples (2023).
       Primary Table 2 measures individual CoQ10 in six named pistachio samples.
-    public_note: Reported in pistachio kernels.
+    public_note: Six named pistachio samples contained 10.21–42.16 µg/g CoQ10; not a generic roasted-kernel value.
     source_group: pistachio-coq
     public_display: table
     omit_substance_card: false

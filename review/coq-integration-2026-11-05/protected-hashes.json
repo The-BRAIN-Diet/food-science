@@ -1,0 +1,22 @@
+{
+  "system/sec-assessments/registry.json": "1bfe4b554eca837a20f988488debc384cfdfe01fc32555efb7279e3427bac478",
+  "system/sec-assessments/integration-history.json": "4dca43983919c84a3e2cbd478392f382acc87dfbedf796a1e439d2f5e25d29c3",
+  "system/sec-assessments/README.md": "a517b217f0932ca2d2ad4abd5d9e6bac4819f001290c48d36a16b33b3994efd0",
+  "system/sec-assessments/history/gaba-before-v1.mdx": "e11e2ddbfb1c45702232b869e31cbb847f759e95504bcb734fcdc21fea141dd4",
+  "system/sec-assessments/history/pm1-before-local-integration.mdx": "1e2da99757336aa62052a809c3af90c123cb938281c0c127f36a632f3d0b38c4",
+  "system/sec-assessments/history/glycaemic-variability-before-v1.mdx": "b04167e2a66985b0ebe05472a0d06879847cdc98749054c6e21b96dd7cb71bd4",
+  "system/sec-assessments/history/same-synthesis-before-v1.mdx": "f0705b91335f890b46f1c9794e39360a35c2bcaee4fc3b6a96a58ddcbb33bc28",
+  "review/visualisations/brain-substance-chord-2026-11-05/validate.mjs": "7f2c4c79c8d08fb873dbc563351ca7a9bb5d1a9335f9c57630665e81eb6a6a1d",
+  "review/visualisations/brain-substance-chord-2026-11-05/source-hashes.json": "af9114abcd95e16c3afc73b7c549566bdefffabfd201b68b0813745a404034b0",
+  "review/visualisations/brain-substance-chord-2026-11-05/substance-brs-connections.csv": "9d5193d671d8c07045bcdd2dc8148d674aa5653675ef502991afd8ca8c38151e",
+  "review/visualisations/brain-substance-chord-2026-11-05/interaction.js": "257f905c116019fe64b629eee7549e00a623282496e92680996eb6a622f53c82",
+  "review/visualisations/brain-substance-chord-2026-11-05/brain-chord.svg": "cf45b7b5697309844f4f6ed9dbd745d221f1b4132f881c35e853ba8085cac800",
+  "review/visualisations/brain-substance-chord-2026-11-05/full-diagram.png": "301c3bcc252b8e6b365f9e29f0fc640d2dde3bddfdf6713c92e9832c08c96331",
+  "review/visualisations/brain-substance-chord-2026-11-05/audit-summary.md": "e642bd2c7897978fb0e4de7a3ca4d151c7ca76eb6774445c70d858f07b99fe7d",
+  "review/visualisations/brain-substance-chord-2026-11-05/substance-inventory.csv": "1b8218467311e46068876d1305f37540f0c562b7914d8daba0c163cbb283a4dd",
+  "review/visualisations/brain-substance-chord-2026-11-05/brain-chord.html": "76d141edb14b1c701f603bba30483c5470ac09a422126c7c3f7ca674cd3536d6",
+  "review/visualisations/brain-substance-chord-2026-11-05/build.mjs": "0f5034c7453692bd1ea13508c672b7ada51f4ea0b895645c61946e4f04e37f80",
+  "review/visualisations/brain-substance-chord-2026-11-05/validation.json": "e9b56e90b61e8f898a01fd53e07faaf271e181a37aa7d959bbf843c726936d6e",
+  "review/visualisations/brain-substance-chord-2026-11-05/network.json": "9e1d7b47eda07a352e700b72d62426a2a7c6d65749a37eea986b05dd434b96b4",
+  "review/visualisations/brain-substance-chord-2026-11-05/selected-dha.png": "d8f3c72b3fae0d374b821fd425632e5f2d75b2d90875d765d1fa6fa20278247f"
+}

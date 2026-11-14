@@ -65,6 +65,33 @@ main_image: /img/foods/miso/miso_medium.webp
 legacy_list_image: /img/foods/miso/miso_thumb.webp
 legacy_main_image: /img/foods/miso/miso_medium.webp
 nutrition_supplementary_sources:
+  - key: l_carnitine_furusho_2026_mg
+    label: L-Carnitine
+    substance_id: l-carnitine
+    value: 0.22
+    unit: mg
+    basis: per 100 g food
+    preparation_state: fermented paste, as purchased
+    evidence_material: Miso purchased at a local grocery store
+    chemical_form: free L-carnitine
+    uncertainty:
+      type: SE
+      value: 0.02
+      'n': 3
+      replicate_type: repeated extraction
+    source_url: https://doi.org/10.5702/massspectrometry.A0191
+    source_reference: '#food-source-3'
+    source_note: >-
+      Single grocery-source preparation; mean ± SE from three extraction determinations, not three independent
+      population samples. Chiral LC-MS/MS measured free L-carnitine with water extraction intended to avoid
+      release from acylcarnitines. Not total acylcarnitine, a universal food value, cooked-food retention, or
+      evidence of mitochondrial benefit.
+    public_note: Source-specific measured free L-carnitine; preparation and analytical limitations retained.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    rank_eligible: true
+    comparison_group: free-l-carnitine::furusho-2026::per-100g-food
+    nutrition_panel_eligible: true
   - key: ala_interpreted
     label: 'Alpha-linolenic acid (ALA; 18:3 n-3)'
     value: 0.405
@@ -77,6 +104,25 @@ nutrition_supplementary_sources:
     public_note: This value uses a documented composition interpretation.
     source_group: This value uses a documented composition interpretation.
 substance_relationships:
+  - substance: L-Carnitine
+    substance_id: l-carnitine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: Furusho et al. (2026), Table 3 and methods §2.2.1
+    source_url: https://doi.org/10.5702/massspectrometry.A0191
+    source_reference: '#food-source-3'
+    citation_keys:
+      - furusho_carnitine_food_2026
+    evidence_material: Miso purchased at a local grocery store
+    preparation_state: fermented paste, as purchased
+    chemical_form: free L-carnitine
+    requires_supplementary_key: l_carnitine_furusho_2026_mg
+    material_limitations: >-
+      Single grocery-source preparation; mean ± SE from three extraction determinations, not three independent
+      population samples. Chiral LC-MS/MS measured free L-carnitine with water extraction intended to avoid
+      release from acylcarnitines. Not total acylcarnitine, a universal food value, cooked-food retention, or
+      evidence of mitochondrial benefit.
   - substance: Sodium
     relationship: contains
     description: USDA FoodData Central reports sodium in Miso.
@@ -129,3 +175,7 @@ Miso provide a relatively complete plant protein (higher in lysine than most gra
 [1] Fermented soy products such as miso modulate gut–brain signalling through microbiota pathways. Bravo et al. 2011. [Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011)
 
 [2] Traditional fermented soy pastes deliver live microbes and fermentation-derived metabolites. Jakobi et al. 2024. [The gut-microbiome in adult Attention-deficit/hyperactivity disorder - A Meta-analysis](/docs/papers/BRAIN-Diet-References#jakobi_gut-microbiome_2024)
+
+<span id="food-source-3" />
+
+[3] Furusho et al. (2026). [Enantioselective Determination of Carnitine Enantiomers in Food and Supplement Samples by Chiral Liquid Chromatography-Tandem Mass Spectrometry](/docs/papers/BRAIN-Diet-References#furusho_carnitine_food_2026). Table 3: source-specific free L-carnitine; repeated-extraction uncertainty, not a dietary intervention.

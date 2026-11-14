@@ -53,6 +53,25 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
 substance_relationships:
+  - substance: L-Carnitine
+    substance_id: l-carnitine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: Furusho et al. (2026), Table 3 and methods §2.2.1
+    source_url: https://doi.org/10.5702/massspectrometry.A0191
+    source_reference: '#food-source-5'
+    citation_keys:
+      - furusho_carnitine_food_2026
+    evidence_material: Ground pork purchased in Japan
+    preparation_state: ground, as purchased
+    chemical_form: free L-carnitine
+    requires_supplementary_key: l_carnitine_furusho_2026_mg
+    material_limitations: >-
+      Single grocery-source preparation; mean ± SE from three extraction determinations, not three independent
+      population samples. Chiral LC-MS/MS measured free L-carnitine with water extraction intended to avoid
+      release from acylcarnitines. Not total acylcarnitine, a universal food value, cooked-food retention, or
+      evidence of mitochondrial benefit.
   - substance: Cysteine
     relationship: contains
     description: >-
@@ -102,6 +121,33 @@ main_image: /img/foods/pork/pork_medium.webp
 legacy_list_image: /img/foods/pork/pork_thumb.webp
 legacy_main_image: /img/foods/pork/pork_medium.webp
 nutrition_supplementary_sources:
+  - key: l_carnitine_furusho_2026_mg
+    label: L-Carnitine
+    substance_id: l-carnitine
+    value: 12.76
+    unit: mg
+    basis: per 100 g food
+    preparation_state: ground, as purchased
+    evidence_material: Ground pork purchased in Japan
+    chemical_form: free L-carnitine
+    uncertainty:
+      type: SE
+      value: 1.09
+      'n': 3
+      replicate_type: repeated extraction
+    source_url: https://doi.org/10.5702/massspectrometry.A0191
+    source_reference: '#food-source-5'
+    source_note: >-
+      Single grocery-source preparation; mean ± SE from three extraction determinations, not three independent
+      population samples. Chiral LC-MS/MS measured free L-carnitine with water extraction intended to avoid
+      release from acylcarnitines. Not total acylcarnitine, a universal food value, cooked-food retention, or
+      evidence of mitochondrial benefit.
+    public_note: Source-specific measured free L-carnitine; preparation and analytical limitations retained.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    rank_eligible: true
+    comparison_group: free-l-carnitine::furusho-2026::per-100g-food
+    nutrition_panel_eligible: true
   - key: creatine_qual
     label: Creatine
     status: Present — quantity not established
@@ -187,3 +233,7 @@ This food provides a complete essential amino acid profile typical of animal pro
 <span id="food-source-4" />
 
 [4] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/167818/nutrients)
+
+<span id="food-source-5" />
+
+[5] Furusho et al. (2026). [Enantioselective Determination of Carnitine Enantiomers in Food and Supplement Samples by Chiral Liquid Chromatography-Tandem Mass Spectrometry](/docs/papers/BRAIN-Diet-References#furusho_carnitine_food_2026). Table 3: source-specific free L-carnitine; repeated-extraction uncertainty, not a dietary intervention.

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "compiled_food_documents": 36,
+  "source_anchors": 91,
+  "unchanged_canonical_relationships": 239,
+  "allowed_generated_differences": [
+    "food_targets",
+    "coverage_warnings",
+    "food_target_mapping",
+    "food_target_reconciliations",
+    "ontology_connections",
+    "upstream_candidates"
+  ],
+  "scope": "MDX syntax compilation; scientific relationship preservation; not full production build"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "prepared-not-published",
+  "authorisation": "9 November 2026: publish existing recipe prototype at hidden URL, no site build",
+  "route": "/preview/recipe-brs-matrix/",
+  "live_deploy_observed": "6aeef31dd34c8e26b38f236b",
+  "live_commit_observed": "2efc9c82b42128d81e1039d7244651b591c3e11d",
+  "files": {
+    "preview/recipe-brs-matrix/index.html": "81645e2717dc5bde391590834df0a1822a17f97eb040c0a9a8fbbe4aa0183794",
+    "preview/recipe-brs-matrix/network.json": "c0303d769db299b8fa3597f756dfab1362e9283aa98b34ffac5736418031ba53"
+  },
+  "blocker": "Netlify authenticated publishing session unavailable",
+  "deployment_rule": "Re-read latest published deploy; preserve all existing files, redirects, headers, functions and configuration; add only these two files; validate draft before publish; do not upload additions folder as the complete site."
+}

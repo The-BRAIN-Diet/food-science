@@ -74,6 +74,49 @@ main_image: /img/foods/spinach/spinach_medium.webp
 legacy_list_image: /img/foods/spinach/spinach_thumb.webp
 legacy_main_image: /img/foods/spinach/spinach_medium.webp
 nutrition_supplementary_sources:
+  - key: betaine_usda_release2_11463
+    label: Betaine
+    substance_id: betaine
+    value: 120
+    unit: mg
+    basis: per 100 g food
+    evidence_material: Spinach, frozen, chopped or leaf, unprepared; NDB 11463
+    preparation_state: frozen, unprepared
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf
+    source_reference: '#food-source-7'
+    source_note: >-
+      Source-specific Release 2 assay (3 samples); not a universal value or a cooked-food equivalent. Release 2
+      corrected earlier betaine overestimation. Choline confidence codes do not grade betaine. Preserve the
+      specified material; no bioavailability or clinical efficacy inferred.
+    rank_eligible: true
+    comparison_group: betaine::USDA-release2::food-mass
+    composition_review_status: research-qualified-local
+    sample_count: 3
+  - key: pectic_substances_bailoni_2005
+    label: Pectin
+    substance_id: pectin
+    value: 0.38167
+    unit: g
+    basis: per 100 g source edible material
+    evidence_material: Spinach, root removed
+    preparation_state: fresh food; laboratory drying for analysis
+    chemical_form: Total pectic substances (HM, LM and protopectin)
+    original_observation:
+      value: 33.48
+      sd: 0.26
+      unit: g/kg dry matter
+      dry_matter_percent: 11.4
+    calculation:
+      expression: g/kg DM × dry matter percent / 1000
+      output: g/100 g edible material
+    source_url: https://doi.org/10.4081/ijas.2005.49
+    source_reference: '#food-source-6'
+    source_note: >-
+      Calculated using same-sample moisture. Analytical fractions are not equivalent to purified intervention
+      pectin; cultivar, ripeness and method limit generalisation.
+    rank_eligible: true
+    comparison_group: total-pectic-substances::bailoni-2005::fresh-mass
+    composition_review_status: research-qualified-local
   - key: 5_mthf_independent_observation
     label: 5-Methyltetrahydrofolate
     substance_id: 5-methyltetrahydrofolate
@@ -87,6 +130,9 @@ nutrition_supplementary_sources:
     source_note: >-
       Table 1 reports this form-specific concentration. Preparation is not resolved from the accessible table; do not equate this sample with the 2010 raw material.
   - key: 5_mthf_wang_2010
+    rank_eligible: true
+    comparison_group: 5-mthf-monoglutamate-equivalents::wang-2010::fresh-mass
+    composition_review_status: research-qualified-local
     label: 5-Methyltetrahydrofolate
     substance_id: 5-methyltetrahydrofolate
     value: 288
@@ -150,6 +196,37 @@ nutrition_supplementary_sources:
       not this panel. USDA Release 2 reports 110–130 mg per 100 g for frozen
       spinach.
 substance_relationships:
+  - substance: Betaine
+    substance_id: betaine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf
+    source_reference: '#food-source-7'
+    citation_keys:
+      - patterson_choline_2008
+    evidence_material: Spinach, frozen, chopped or leaf, unprepared; NDB 11463
+    preparation_state: frozen, unprepared
+    requires_supplementary_key: betaine_usda_release2_11463
+    material_limitations: >-
+      Source-specific Release 2 assay (3 samples); not a universal value or a cooked-food equivalent. Release 2
+      corrected earlier betaine overestimation. Choline confidence codes do not grade betaine. Preserve the
+      specified material; no bioavailability or clinical efficacy inferred.
+  - substance: Pectin
+    substance_id: pectin
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_material: Spinach, root removed
+    preparation_state: fresh food; laboratory drying for analysis
+    source_url: https://doi.org/10.4081/ijas.2005.49
+    source_reference: '#food-source-6'
+    citation_keys:
+      - bailoni_pectins_2005
+    requires_supplementary_key: pectic_substances_bailoni_2005
+    material_limitations: >-
+      Calculated using same-sample moisture. Analytical fractions are not equivalent to purified intervention
+      pectin; cultivar, ripeness and method limit generalisation.
   - substance: Oxalate
     substance_id: oxalate
     relationship: contains
@@ -440,3 +517,11 @@ Spinach is also one of the richest dietary sources of oxalate. While most indivi
 <span id="food-source-5" />
 
 [5] Zeisel et al. (2003). [Concentrations of Choline-Containing Compounds and Betaine in Common Foods](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003). Table 1, corrected by the [erratum](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003_erratum), reports 674.52 mg betaine per 100 g of raw spinach and 725.41 mg per 100 g of cooked spinach. The nutrition row uses the raw value. USDA Release 2 later reports 110–130 mg per 100 g for frozen spinach.
+
+<span id="food-source-6" />
+
+[6] Bailoni et al. (2005). [Quanti-qualitative evaluation of pectins in the dietary fibre of 24 foods](/docs/papers/BRAIN-Diet-References#bailoni_pectins_2005). Tables 2 and 4; moisture-based calculation, not an intervention result.
+
+<span id="food-source-7" />
+
+[7] Patterson et al. (2008). [USDA Database for the Choline Content of Common Foods, Release 2](/docs/papers/BRAIN-Diet-References#patterson_choline_2008). Betaine, NDB 11463; source-specific food measurement and preparation, separate from the general nutrient panel.

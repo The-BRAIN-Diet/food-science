@@ -1,0 +1,91 @@
+[
+  {
+    "food_id": "broccoli",
+    "substance_id": "5-methyltetrahydrofolate",
+    "action": "Qualified existing calculated observation within the same assay group; original molar observation and conversion unchanged",
+    "source": "https://doi.org/10.1016/j.jchromb.2010.08.043",
+    "value": 101,
+    "unit": "µg",
+    "basis": "per 100 g fresh edible material"
+  },
+  {
+    "food_id": "cauliflower",
+    "substance_id": "5-methyltetrahydrofolate",
+    "action": "Qualified existing calculated observation within the same assay group; original molar observation and conversion unchanged",
+    "source": "https://doi.org/10.1016/j.jchromb.2010.08.043",
+    "value": 92,
+    "unit": "µg",
+    "basis": "per 100 g fresh edible material"
+  },
+  {
+    "food_id": "kale",
+    "substance_id": "5-methyltetrahydrofolate",
+    "action": "Qualified existing calculated observation within the same assay group; original molar observation and conversion unchanged",
+    "source": "https://doi.org/10.1016/j.jchromb.2010.08.043",
+    "value": 54,
+    "unit": "µg",
+    "basis": "per 100 g fresh edible material"
+  },
+  {
+    "food_id": "spinach",
+    "substance_id": "5-methyltetrahydrofolate",
+    "action": "Qualified existing calculated observation within the same assay group; original molar observation and conversion unchanged",
+    "source": "https://doi.org/10.1016/j.jchromb.2010.08.043",
+    "value": 288,
+    "unit": "µg",
+    "basis": "per 100 g fresh edible material"
+  },
+  {
+    "food_id": "swiss-chard",
+    "substance_id": "5-methyltetrahydrofolate",
+    "action": "Qualified existing calculated observation within the same assay group; original molar observation and conversion unchanged",
+    "source": "https://doi.org/10.1016/j.jchromb.2010.08.043",
+    "value": 242,
+    "unit": "µg",
+    "basis": "per 100 g fresh edible material"
+  },
+  {
+    "food_id": "quinoa",
+    "substance_id": "betaine",
+    "action": "Added source-specific corrected USDA Release 2 measurement; older provenance preserved",
+    "source": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+    "value": 630,
+    "unit": "mg",
+    "basis": "per 100 g food",
+    "material": "Quinoa; NDB 20035; preparation not specified in source table",
+    "preparation": "unspecified"
+  },
+  {
+    "food_id": "wheat-germ",
+    "substance_id": "betaine",
+    "action": "Added source-specific corrected USDA Release 2 measurement; older provenance preserved",
+    "source": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+    "value": 410,
+    "unit": "mg",
+    "basis": "per 100 g food",
+    "material": "Wheat germ, toasted, plain; NDB 08084",
+    "preparation": "toasted"
+  },
+  {
+    "food_id": "beetroot",
+    "substance_id": "betaine",
+    "action": "Added source-specific corrected USDA Release 2 measurement; older provenance preserved",
+    "source": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+    "value": 130,
+    "unit": "mg",
+    "basis": "per 100 g food",
+    "material": "Beets, raw; NDB 11080",
+    "preparation": "raw"
+  },
+  {
+    "food_id": "amaranth",
+    "substance_id": "betaine",
+    "action": "Added source-specific corrected USDA Release 2 measurement; older provenance preserved",
+    "source": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+    "value": 68,
+    "unit": "mg",
+    "basis": "per 100 g food",
+    "material": "Amaranth; NDB 20001; preparation not specified in source table",
+    "preparation": "unspecified"
+  }
+]

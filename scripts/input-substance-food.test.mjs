@@ -143,7 +143,7 @@ test('quinoa DHA hold preserves the source observation and suppresses lists with
 
 test('all preparations include dried and raw observations without cross-state ranking', () => {
  const sources=d.food_sources.filter(f=>f.substance_id==='tryptophan');
- const all=selectQuantified(sources);
+ const all=selectQuantified(sources,sources.length);
  assert.ok(all.sources.some(f=>f.preparation==='dried'));
  assert.ok(all.sources.some(f=>f.preparation==='raw'));
  assert.equal(all.ranked,false);
@@ -435,7 +435,9 @@ test('B3 forms resolve independently with shared documentation and no invented f
   assert.ok(r.substance_page.endsWith('#'+r.substance_id));
   assert.ok(r.presentations.every(p=>p.section==='3.1.1'));
  }
- assert.equal(b.food_sources.filter(f=>f.substance_id==='tryptophan').length,3);
+ // Source coverage may grow; B3 identity resolution must preserve the actual Trp inventory.
+ assert.deepEqual(b.food_sources.filter(f=>f.substance_id==='tryptophan').map(f=>f.id).sort(),
+  d.food_sources.filter(f=>f.substance_id==='tryptophan').map(f=>f.id).sort());
  const forms=readRegisteredSubstanceForms(root);
  for(const id of ['nicotinamide','nicotinic-acid']){
   assert.equal(forms.get(id).parent_substance_id,'vitamin-b3');

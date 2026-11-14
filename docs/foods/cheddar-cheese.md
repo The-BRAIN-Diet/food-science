@@ -1,4 +1,74 @@
 ---
+nutrition_supplementary_sources:
+  - key: phenylalanine_recovered_fdc_173414
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 1.074
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Cheese, cheddar (Includes foods for USDA's Food Distribution Program)
+    preparation_state: as described in source
+    source_url: https://fdc.nal.usda.gov/food-details/173414/nutrients
+    source_reference: '#food-source-4'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 173414
+    food_nutrient_id: '1776886'
+    source_derivation_id: '1'
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tryptophan_recovered_fdc_173414
+    label: Tryptophan
+    substance_id: tryptophan
+    value: 0.547
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Cheese, cheddar (Includes foods for USDA's Food Distribution Program)
+    preparation_state: as described in source
+    source_url: https://fdc.nal.usda.gov/food-details/173414/nutrients
+    source_reference: '#food-source-4'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 173414
+    food_nutrient_id: '1776883'
+    source_derivation_id: '1'
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: l_carnitine_furusho_2026_mg
+    label: L-Carnitine
+    substance_id: l-carnitine
+    value: 0.32
+    unit: mg
+    basis: per 100 g food
+    preparation_state: as purchased
+    evidence_material: Cheddar cheese purchased at a local grocery store
+    chemical_form: free L-carnitine
+    uncertainty:
+      type: SE
+      value: 0.04
+      'n': 3
+      replicate_type: repeated extraction
+    source_url: https://doi.org/10.5702/massspectrometry.A0191
+    source_reference: '#food-source-3'
+    source_note: >-
+      Single grocery-source preparation; mean ± SE from three extraction determinations, not three independent
+      population samples. Chiral LC-MS/MS measured free L-carnitine with water extraction intended to avoid
+      release from acylcarnitines. Not total acylcarnitine, a universal food value, cooked-food retention, or
+      evidence of mitochondrial benefit.
+    public_note: Source-specific measured free L-carnitine; preparation and analytical limitations retained.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    rank_eligible: true
+    comparison_group: free-l-carnitine::furusho-2026::per-100g-food
+    nutrition_panel_eligible: true
 id: cheddar-cheese
 title: Cheddar Cheese
 sidebar_label: Cheddar Cheese
@@ -80,6 +150,57 @@ main_image: /img/foods/cheddar-cheese/cheddar-cheese_medium.webp
 legacy_list_image: /img/foods/cheddar-cheese/cheddar-cheese_thumb.webp
 legacy_main_image: /img/foods/cheddar-cheese/cheddar-cheese_medium.webp
 substance_relationships:
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/173414/nutrients
+    source_reference: '#food-source-4'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Cheese, cheddar (Includes foods for USDA's Food Distribution Program)
+    preparation_state: as described in source
+    requires_supplementary_key: phenylalanine_recovered_fdc_173414
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: Tryptophan
+    substance_id: tryptophan
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/173414/nutrients
+    source_reference: '#food-source-4'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Cheese, cheddar (Includes foods for USDA's Food Distribution Program)
+    preparation_state: as described in source
+    requires_supplementary_key: tryptophan_recovered_fdc_173414
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: L-Carnitine
+    substance_id: l-carnitine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: Furusho et al. (2026), Table 3 and methods §2.2.1
+    source_url: https://doi.org/10.5702/massspectrometry.A0191
+    source_reference: '#food-source-3'
+    citation_keys:
+      - furusho_carnitine_food_2026
+    evidence_material: Cheddar cheese purchased at a local grocery store
+    preparation_state: as purchased
+    chemical_form: free L-carnitine
+    requires_supplementary_key: l_carnitine_furusho_2026_mg
+    material_limitations: >-
+      Single grocery-source preparation; mean ± SE from three extraction determinations, not three independent
+      population samples. Chiral LC-MS/MS measured free L-carnitine with water extraction intended to avoid
+      release from acylcarnitines. Not total acylcarnitine, a universal food value, cooked-food retention, or
+      evidence of mitochondrial benefit.
   - substance: Tyrosine
     relationship: contains
     description: >-
@@ -271,3 +392,11 @@ Animal cheese provides a **complete** essential amino acid profile with high dig
 [1] Complete animal protein with calcium and vitamin B12. Leeuwendaal & Stanton 2021. [The potential of non-starter lactic acid bacteria from Cheddar cheese to colonise the gut](/docs/papers/BRAIN-Diet-References#leeuwendaal_potential_2021)
 
 [2] Fermented dairy matrix with microbiota-modulating interest. Karimi & Mortazavian 2011. [Viability of probiotic microorganisms in cheese during production and storage: a review](/docs/papers/BRAIN-Diet-References#karimi_viability_2011)
+
+<span id="food-source-3" />
+
+[3] Furusho et al. (2026). [Enantioselective Determination of Carnitine Enantiomers in Food and Supplement Samples by Chiral Liquid Chromatography-Tandem Mass Spectrometry](/docs/papers/BRAIN-Diet-References#furusho_carnitine_food_2026). Table 3: source-specific free L-carnitine; repeated-extraction uncertainty, not a dietary intervention.
+
+<span id="food-source-4" />
+
+[4] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 173414: Cheese, cheddar (Includes foods for USDA's Food Distribution Program). These observations retain their own preparation state.

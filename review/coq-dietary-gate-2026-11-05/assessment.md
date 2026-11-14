@@ -1,0 +1,15 @@
+# CoQ10 B/D reassessment — 5 November 2026
+
+Scope: conditional author request to admit direct dietary provision only if the current gate is satisfied. No efficacy requirement invented. No PM, food, SEC or diagram changes.
+
+Primary verification: Dohlmann 2022, DOI10.3390/antiox11091698, full primary BioC text PMC9495827; 37 randomised simvastatin-treated adults,35 in reported table. PharmaNord capsules,2×200mg/day with a meal for8weeks; matched soybean-oil placebo. Plasma CoQ10 rose545±46 to2627±405 nmol/L (reported table mean±SEM); placebo468±41 to518±59. Muscle CoQ and respiration did not improve detectably. HPLC muscle assay measured ubiquinone, not reduced ubiquinol. Do not infer complete total redox-pool absence from that assay. Capsule exposure cannot supply an ordinary-food dose equivalence.
+
+Cooke2008, DOI10.1186/1550-2783-5-8, primary abstract/full-source record PMC2315638:41 trained/untrained adults; fast-melt100mg twice/day for14days versus dextrose placebo. Plasma increased(p<0.001); acute muscle comparison p=.098. This independently supports oral systemic exposure, not ordinary-food mitochondrial delivery. No unverified numeric plasma concentration copied.
+
+B/D application: system/dietary-input-traceability-contract.md §2.0 explicitly requires B and D for the same dependency pathway; rule3 requires a dietary pathway connected to the defined biochemical dependency, rule4 excludes any requirement for extra-intake biochemical/clinical benefit, rule7 requires consideration of transport/tissue availability. dietary-input-governance-v2.md Type A repeats the same-dependency gate.
+
+B: CoQ is an established endogenous carrier/product and functional pool relevant to PM10. Direct oral CoQ is not shown here to be a substrate of endogenous biosynthesis. D: food occurrence and oral delivery into circulating CoQ are established. D for the PM10 receiving cellular/mitochondrial pool remains unresolved in this reviewed evidence. This is a compartment/pathway issue, not a demand for greater respiration, symptom improvement, a minimum effect size or proof of extra-intake benefit. A null tissue change does not prove no contribution; plasma change does not establish that contribution either.
+
+Disposition: accept the supplied dietary-provision paragraph as a defensible general exposure statement. Do not change PM10-DIT-5 to an admitted Type A direct requirement from these studies alone. Do not expand PM10 to generic plasma pharmacokinetics. Preserve food links. A supported route to the relevant pool (including evidence in an appropriately bounded deficiency context) could justify later admission without clinical-benefit evidence.
+
+Governance correction: the later dietary-input-traceability-contract.md clarification near line2766 explicitly permits composition context for No/Unset records, whereas substance-page-schema.md retains the older instruction suppressing their food lists. Prior claims that every contract forbids contextual food presentation were too categorical. This conflict should be reconciled separately; it is not justification to convert dietary_input to true to unlock UI. No schema changed in this task.

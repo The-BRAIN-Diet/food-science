@@ -1,0 +1,1149 @@
+[
+  {
+    "pm_id": "BRS1-FM2-PM6",
+    "substance_id": "phosphatidylcholine",
+    "disposition": "completed",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Both PMs explicitly own choline provision from PC. Ranking measured PC-derived choline moiety is appropriate to that relationship, with original units explicit. Do not require an invented intact-PC molecular mass.",
+    "next_action": "Five highest verified foods in the extracted seven-food source pool; separate analytical basis, no conversion or total-choline substitution.",
+    "canonical_records": [
+      "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx#dietary_input_traceability/PM6-DIT-2"
+    ],
+    "canonical_input": [
+      "Phosphatidylcholine"
+    ],
+    "biological_role": [
+      "Dietary choline-containing phospholipid that is digested and remodelled, producing circulating choline as one route to the direct choline substrate"
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "derived",
+        "mode": "capacity-requirement",
+        "addressability": "precursor-mediated",
+        "claim_ceiling": "dietary-provision"
+      }
+    ],
+    "canonical_limitations": [
+      "Human tracer evidence establishes phosphatidylcholine as a choline-provision route; it does not show delivery to cholinergic terminals or increased brain acetylcholine synthesis."
+    ],
+    "prior_research_source": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf"
+  },
+  {
+    "pm_id": "BRS1-FM5-PM12",
+    "substance_id": "uridine",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Retrieved dairy studies distinguish nucleosides, nucleotides and RNA; accessible material did not verify comparable food-specific free-uridine concentrations.",
+    "next_action": "Verify original quantitative tables and preparation; do not substitute UMP or RNA.",
+    "canonical_records": [
+      "docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx#dietary_input_traceability/PM12-DIT-2"
+    ],
+    "canonical_input": [
+      "Uridine"
+    ],
+    "biological_role": [
+      "Uridine can supply CTP used in CDP-choline and phosphatidylcholine formation, contributing membrane precursors for structural assembly."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "capacity-requirement",
+        "addressability": "direct",
+        "claim_ceiling": "dietary-provision"
+      }
+    ],
+    "canonical_limitations": [
+      "Endogenous nucleotide synthesis and salvage also contribute. UMP alone did not significantly increase gerbil spine density; that null structural result does not erase the precursor role. No ordinary-food dose or human structural benefit is established."
+    ],
+    "prior_research_source": "https://doi.org/10.3168/jds.S0022-0302(84)81361-2"
+  },
+  {
+    "pm_id": "BRS2-FM2-PM5",
+    "substance_id": "pyridoxal-5-phosphate",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Original vitamer-specific assay literature located; complete food-form quantitative tables not verified. Total B6/B2 is not PLP/FMN. The biological cofactor record must not automatically inherit the precursor vitamin food quantities. Clarification of an upstream provision mapping is a separate proposal, not a missing-data substitution.",
+    "next_action": "Retrieve original food-specific tables; preserve form identity and processing.",
+    "canonical_records": [
+      "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx#dietary_input_traceability/PM5-DIT-1"
+    ],
+    "canonical_input": [
+      "Pyridoxal 5\u2032-phosphate (PLP; active vitamin B6 cofactor)"
+    ],
+    "biological_role": [
+      "Active cofactor required by cystathionine beta-synthase and cystathionine gamma-lyase for the homocysteine-to-cysteine conversion."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "capacity-requirement",
+        "addressability": "precursor-mediated",
+        "claim_ceiling": "biological-dependency"
+      }
+    ],
+    "canonical_limitations": [
+      "Purified-enzyme dependence on pyridoxal 5'-phosphate does not show that raising vitamin B6 intake increases cysteine formation in people. Moderate B6 restriction changed cystathionine handling but did not significantly reduce total transsulfuration in the assessed human tracer study."
+    ],
+    "prior_research_source": "https://pubmed.ncbi.nlm.nih.gov/28420530/"
+  },
+  {
+    "pm_id": "BRS2-FM2-PM6",
+    "substance_id": "cysteine",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Canonical role does not impose a free-amino-acid-only food requirement. Earlier free-only wording was too restrictive. Protein-bound evidence may be relevant, but assays and delivery evidence still need verification; cystine is not silently renamed cysteine and hydrolytic Glx is not split.",
+    "next_action": "Resolve form-specific food measurements against this provision relationship; preserve estimates as estimates. No new precursor admission is made.",
+    "canonical_records": [
+      "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx#dietary_input_traceability/PM6-DIT-1"
+    ],
+    "canonical_input": [
+      "Cysteine"
+    ],
+    "biological_role": [
+      "Sulfur-amino-acid substrate joined to glutamate in the first ATP-dependent step of glutathione assembly."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "capacity-requirement",
+        "addressability": "direct",
+        "claim_ceiling": "biological-dependency"
+      }
+    ],
+    "canonical_limitations": [
+      "Cysteine is the substrate of the first assembly step. A formula that removed methionine and cysteine together slowed whole-blood synthesis, and that formula also removed methionine. When methionine intake stayed adequate, removing cysteine did not lower red-cell synthesis in young men. This does not show that eating more cysteine, once intake is adequate, raises glutathione synthesis."
+    ],
+    "prior_research_source": "https://doi.org/10.1002/fsn3.473"
+  },
+  {
+    "pm_id": "BRS2-FM2-PM6",
+    "substance_id": "glutamate",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Canonical role does not impose a free-amino-acid-only food requirement. Earlier free-only wording was too restrictive. Protein-bound evidence may be relevant, but assays and delivery evidence still need verification; cystine is not silently renamed cysteine and hydrolytic Glx is not split.",
+    "next_action": "Resolve form-specific food measurements against this provision relationship; preserve estimates as estimates. No new precursor admission is made.",
+    "canonical_records": [
+      "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx#dietary_input_traceability/PM6-DIT-2"
+    ],
+    "canonical_input": [
+      "Glutamate"
+    ],
+    "biological_role": [
+      "Amino-acid substrate joined to cysteine in the first ATP-dependent step of glutathione assembly."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "capacity-requirement",
+        "addressability": "direct",
+        "claim_ceiling": "biological-dependency"
+      }
+    ],
+    "canonical_limitations": [
+      "No human study in this assessment showed that changing dietary glutamate changes glutathione synthesis."
+    ],
+    "prior_research_source": "https://doi.org/10.1038/ejcn.2009.110"
+  },
+  {
+    "pm_id": "BRS2-FM2-PM6",
+    "substance_id": "n-acetylcysteine",
+    "disposition": "legitimately non-rankable for the recorded ordinary-food relationship",
+    "ordinary_food_rank_eligible": false,
+    "previous_selected_foods": 0,
+    "reason": "The admitted exposure is supplemental NAC combined with glycine. Ordinary-food ranking is not appropriate to this protocol; retain the admission and trial limitations.",
+    "next_action": "Retain source/protocol evidence without ordinary-food top-five requirement.",
+    "canonical_records": [
+      "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx#dietary_input_traceability/PM6-DIT-7"
+    ],
+    "canonical_input": [
+      "N-acetylcysteine"
+    ],
+    "biological_role": [
+      "Supplemental cysteine precursor given with glycine to older adults, in whom erythrocyte glutathione synthesis increased."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "derived",
+        "mode": "capacity-requirement",
+        "addressability": "precursor-mediated",
+        "claim_ceiling": "modulation-demonstrated"
+      }
+    ],
+    "canonical_limitations": [
+      "The synthesis increase was measured in older adults given this precursor together with glycine. It does not show an effect of N-acetylcysteine alone, of ordinary foods, or of supplementation outside that group, and it is not a neuronal or clinical result."
+    ],
+    "prior_research_source": "https://www.rivm.nl/bibliotheek/rapporten/2024-0086.pdf"
+  },
+  {
+    "pm_id": "BRS2-FM3-PM7",
+    "substance_id": "phosphatidylcholine",
+    "disposition": "completed",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Both PMs explicitly own choline provision from PC. Ranking measured PC-derived choline moiety is appropriate to that relationship, with original units explicit. Do not require an invented intact-PC molecular mass.",
+    "next_action": "Five highest verified foods in the extracted seven-food source pool; separate analytical basis, no conversion or total-choline substitution.",
+    "canonical_records": [
+      "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-4"
+    ],
+    "canonical_input": [
+      "Phosphatidylcholine"
+    ],
+    "biological_role": [
+      "Dietary phosphatidylcholine can provide choline for its methyl-donor provision relationship to PEMT-dependent formation."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "derived",
+        "mode": "capacity-requirement",
+        "addressability": "direct",
+        "claim_ceiling": "dietary-provision"
+      }
+    ],
+    "canonical_limitations": [
+      "Plasma tracing does not measure absolute hepatic flux, intermediary SAM, ordinary-food equivalence or benefit."
+    ],
+    "prior_research_source": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf"
+  },
+  {
+    "pm_id": "BRS2-FM3-PM7",
+    "substance_id": "uridine",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Retrieved dairy studies distinguish nucleosides, nucleotides and RNA; accessible material did not verify comparable food-specific free-uridine concentrations.",
+    "next_action": "Verify original quantitative tables and preparation; do not substitute UMP or RNA.",
+    "canonical_records": [
+      "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-7"
+    ],
+    "canonical_input": [
+      "Uridine"
+    ],
+    "biological_role": [
+      "Uridine can be converted through nucleotide metabolism into CTP, which helps form the CDP-choline used to build phosphatidylcholine."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "capacity-requirement",
+        "addressability": "direct",
+        "claim_ceiling": "dietary-provision"
+      }
+    ],
+    "canonical_limitations": [
+      "Uridine is a supported precursor source, not an indispensable dietary requirement: endogenous nucleotide synthesis and salvage also supply CTP. Rat-slice and oral-UMP gerbil results do not establish an ordinary-food dose, increased human PC flux or cognitive benefit; human MRS measures precursor pools."
+    ],
+    "prior_research_source": "https://doi.org/10.3168/jds.S0022-0302(84)81361-2"
+  },
+  {
+    "pm_id": "BRS3-FM1-PM1",
+    "substance_id": "cysteine",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Canonical role does not impose a free-amino-acid-only food requirement. Earlier free-only wording was too restrictive. Protein-bound evidence may be relevant, but assays and delivery evidence still need verification; cystine is not silently renamed cysteine and hydrolytic Glx is not split.",
+    "next_action": "Resolve form-specific food measurements against this provision relationship; preserve estimates as estimates. No new precursor admission is made.",
+    "canonical_records": [
+      "docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx#dietary_input_traceability/PM1-KC1-UPSTREAM-1"
+    ],
+    "canonical_input": [
+      "Cysteine"
+    ],
+    "biological_role": [
+      "Cysteine supplies a constituent of glutathione. Glutathione participates in the redox regulation of NF-\u03baB kinase activity and DNA binding; this is upstream resource supply, not a direct NF-\u03baB reaction substrate."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "kc-relevance",
+        "classification": null,
+        "mode": null,
+        "addressability": null,
+        "claim_ceiling": "biological-dependency"
+      }
+    ],
+    "canonical_limitations": [
+      "This is supported upstream supply, not a demonstrated dietary constraint on NF-\u03baB. Human precursor supplementation measured red-cell glutathione, not NF-\u03baB; cysteine was supplied as N-acetylcysteine together with glycine. Cellular redox studies show context-dependent effects, including inhibition after glutathione depletion or increased extracellular cysteine. Neither individual dietary limitation, brain transfer nor benefit from additional intake is established."
+    ],
+    "prior_research_source": "https://doi.org/10.1002/fsn3.473"
+  },
+  {
+    "pm_id": "BRS3-FM1-PM2",
+    "substance_id": "cysteine",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Canonical role does not impose a free-amino-acid-only food requirement. Earlier free-only wording was too restrictive. Protein-bound evidence may be relevant, but assays and delivery evidence still need verification; cystine is not silently renamed cysteine and hydrolytic Glx is not split.",
+    "next_action": "Resolve form-specific food measurements against this provision relationship; preserve estimates as estimates. No new precursor admission is made.",
+    "canonical_records": [
+      "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx#dietary_input_traceability/PM2-KC1-UPSTREAM-1"
+    ],
+    "canonical_input": [
+      "Cysteine"
+    ],
+    "biological_role": [
+      "Cysteine supplies a constituent of glutathione used in epithelial redox protection. Glutathione prevented oxidant-induced paracellular permeability in a cell model; this supports upstream supply to a barrier-protection route, not a proven dietary reduction in endotoxin spillover."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "kc-relevance",
+        "classification": null,
+        "mode": null,
+        "addressability": null,
+        "claim_ceiling": "biological-dependency"
+      }
+    ],
+    "canonical_limitations": [
+      "Supported upstream supply through glutathione-dependent epithelial redox protection, not an established dietary constraint on endotoxin spillover. Human precursor tracing measured red-cell glutathione after combined glycine and N-acetylcysteine; epithelial experiments measured oxidant-induced paracellular permeability. In Salmonella-infected rats, glutathione depletion did not increase permeability or bacterial translocation. Neither intestinal precursor inadequacy, individual constituent limitation, human LPS reduction nor benefit from additional intake is established."
+    ],
+    "prior_research_source": "https://doi.org/10.1002/fsn3.473"
+  },
+  {
+    "pm_id": "BRS3-FM1-PM2",
+    "substance_id": "oligofructose",
+    "disposition": "legitimately non-rankable for the recorded ordinary-food relationship",
+    "ordinary_food_rank_eligible": false,
+    "previous_selected_foods": 0,
+    "reason": "Both PM records own a defined experimental oligofructose exposure and explicitly disclaim ordinary-food equivalence. Do not rank food fructans as equivalent to that exposure.",
+    "next_action": "Retain source/protocol evidence without ordinary-food top-five requirement.",
+    "canonical_records": [
+      "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx#dietary_input_traceability/PM2-DIT-RECOVERY-OLIGOFRUCTOSE"
+    ],
+    "canonical_input": [
+      "Oligofructose"
+    ],
+    "biological_role": [
+      "The tested oral oligofructose exposure modulated gut-barrier/endotoxin-related inflammatory state in obese mice through a GLP-2-sensitive route."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "state-regulation",
+        "addressability": "direct",
+        "claim_ceiling": "modulation-demonstrated"
+      }
+    ],
+    "canonical_limitations": [
+      "Defined 10% w/w mouse feeding is not a human dose or an ordinary-food effect. This is state regulation, not indispensability. Oligofructose is not chemically converted into GLP-2; no isolated butyrate mediation, generic fibre effect or brain benefit is established."
+    ],
+    "prior_research_source": "https://doi.org/10.1016/j.jfca.2010.12.001"
+  },
+  {
+    "pm_id": "BRS3-FM2-PM3",
+    "substance_id": "sulforaphane",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Sprout studies use enriched extracts, dry-weight assays or glucoraphanin-rich preparations. Glucoraphanin mass is not sulforaphane yield, and food processing changes conversion.",
+    "next_action": "Obtain matched edible-food sulforaphane measurements; do not infer efficacy or conversion yield.",
+    "canonical_records": [
+      "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx#dietary_input_traceability/PM3-DIT-1"
+    ],
+    "canonical_input": [
+      "Sulforaphane"
+    ],
+    "biological_role": [
+      "Modulates KEAP1-mediated control of Nrf2, promoting antioxidant-response gene transcription. Human dietary exposure increased Nrf2-associated phase II enzyme RNA in nasal lavage cells."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "state-regulation",
+        "addressability": "direct",
+        "claim_ceiling": "modulation-demonstrated"
+      }
+    ],
+    "canonical_limitations": [
+      "Human target engagement varies by formulation, tissue and population. The positive study used a myrosinase-completed broccoli sprout homogenate for three days in healthy nonsmokers and measured nasal phase II enzyme RNA, not Nrf2 protein or nuclear translocation. Extract capsules did not increase lung target-gene expression in COPD. An ordinary broccoli meal, direct activation of Nrf2 in the human brain and clinical ADHD benefit remain unestablished. Sulforaphane is not an essential nutrient."
+    ],
+    "prior_research_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9266238/ ; https://doi.org/10.1371/journal.pone.0140963"
+  },
+  {
+    "pm_id": "BRS4-FM1-PM1",
+    "substance_id": "flavin-mononucleotide",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Original vitamer-specific assay literature located; complete food-form quantitative tables not verified. Total B6/B2 is not PLP/FMN. The biological cofactor record must not automatically inherit the precursor vitamin food quantities. Clarification of an upstream provision mapping is a separate proposal, not a missing-data substitution.",
+    "next_action": "Retrieve original food-specific tables; preserve form identity and processing.",
+    "canonical_records": [
+      "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx#dietary_input_traceability/PM1-DIT-2"
+    ],
+    "canonical_input": [
+      "Flavin mononucleotide (FMN)"
+    ],
+    "biological_role": [
+      "Flavin mononucleotide (FMN) accepts electrons from NADH at the start of complex I."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "capacity-requirement",
+        "addressability": "direct",
+        "claim_ceiling": "biological-dependency"
+      }
+    ],
+    "canonical_limitations": [
+      "The review identifies the cofactor. It does not show that flavin mononucleotide (FMN) supply limits complex I in ordinary life, or that raising intake increases electron transport."
+    ],
+    "prior_research_source": "https://pubmed.ncbi.nlm.nih.gov/28420530/"
+  },
+  {
+    "pm_id": "BRS4-FM1-PM2",
+    "substance_id": "nicotinamide",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Form-specific HPLC study located; accessible abstract gives meat/fish ranges, not verified individual food values. Hydrolysed total niacin may alter chemical form.",
+    "next_action": "Verify original individual food table; no midpoint or total-niacin substitution.",
+    "canonical_records": [
+      "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx#dietary_input_traceability/PM2-DIT-1"
+    ],
+    "canonical_input": [
+      "Nicotinamide (a form of vitamin B3)"
+    ],
+    "biological_role": [
+      "Nicotinamide is the salvage substrate that NAMPT recycles toward NAD\u207a."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "capacity-requirement",
+        "addressability": "direct",
+        "claim_ceiling": "biological-dependency"
+      }
+    ],
+    "canonical_limitations": [
+      "The review identifies the salvage substrate. It does not show that eating more nicotinamide, once intake is adequate, raises NAD\u207a. The myopathy niacin study used nicotinic acid at pharmacological doses."
+    ],
+    "prior_research_source": "https://doi.org/10.4327/jsnfs1949.35.121"
+  },
+  {
+    "pm_id": "BRS4-FM1-PM2",
+    "substance_id": "nicotinamide-riboside",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Existing milk research is informative in its original micromoles/L basis. Requiring conversion to 100g is unnecessary for displaying evidence; however, generic whole milk is not the tested skim preparation, and a comparable multi-food ranking is not established.",
+    "next_action": "Retain exact skim-milk observation in source evidence; resolve canonical preparation mapping and compare only like denominators. Do not manufacture density.",
+    "canonical_records": [
+      "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx#dietary_input_traceability/PM2-DIT-RECOVERY-NICOTINAMIDE-RIBOSIDE"
+    ],
+    "canonical_input": [
+      "Nicotinamide riboside"
+    ],
+    "biological_role": [
+      "Dietary nicotinamide riboside can supply the NAD precursor pool through supported salvage reactions, sustaining NAD-availability capacity."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "derived",
+        "mode": "capacity-requirement",
+        "addressability": "precursor-mediated",
+        "claim_ceiling": "biological-dependency"
+      }
+    ],
+    "canonical_limitations": [
+      "Supplemental NR chloride at 100\u20131000 mg is not an effective milk dose. Blood responses do not establish neuronal or mitochondrial NAD delivery, redox flux, superiority to adequate niacin or clinical benefit. Intestinal metabolism and tissue salvage can differ from the displayed intracellular NRK route; other NAD precursors remain alternatives."
+    ],
+    "prior_research_source": "https://doi.org/10.3945/jn.116.230078"
+  },
+  {
+    "pm_id": "BRS4-FM1-PM2",
+    "substance_id": "nicotinic-acid",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Form-specific HPLC study located; accessible abstract gives meat/fish ranges, not verified individual food values. Hydrolysed total niacin may alter chemical form.",
+    "next_action": "Verify original individual food table; no midpoint or total-niacin substitution.",
+    "canonical_records": [
+      "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx#dietary_input_traceability/PM2-DIT-2"
+    ],
+    "canonical_input": [
+      "Nicotinic acid (a form of vitamin B3)"
+    ],
+    "biological_role": [
+      "Nicotinic acid is the Preiss\u2013Handler substrate that cells convert toward NAD\u207a."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "capacity-requirement",
+        "addressability": "direct",
+        "claim_ceiling": "biological-dependency"
+      }
+    ],
+    "canonical_limitations": [
+      "In five adults with mitochondrial myopathy, niacin at 750\u20131,000 mg/day raised blood NAD\u207a and brought muscle NAD\u207a to the control level. That is medical dosing in a deficiency disease, not a result for adequate everyday intake, and attention was not measured."
+    ],
+    "prior_research_source": "https://doi.org/10.4327/jsnfs1949.35.121"
+  },
+  {
+    "pm_id": "BRS4-FM1-PM3",
+    "substance_id": "creatine",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Existing beef figure is an estimate. Original meat study identified through a secondary regulatory compilation; exact raw/cooked source tables not fully verified.",
+    "next_action": "Retrieve original source table; do not upgrade estimated beef concentration or apply raw values to cooked meat.",
+    "canonical_records": [
+      "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx#dietary_input_traceability/PM3-DIT-1"
+    ],
+    "canonical_input": [
+      "Creatine"
+    ],
+    "biological_role": [
+      "Creatine accepts and donates phosphate through the reversible creatine-kinase reaction, forming the phosphocreatine reserve used for rapid ATP buffering."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": null,
+        "addressability": "direct",
+        "claim_ceiling": "modulation-demonstrated"
+      }
+    ],
+    "canonical_limitations": [
+      "The brain also synthesises creatine, and exogenous exposure produces smaller and less consistent cerebral responses than skeletal-muscle responses."
+    ],
+    "prior_research_source": "https://doi.org/10.1016/j.meatsci.2006.03.015"
+  },
+  {
+    "pm_id": "BRS4-FM3-PM6",
+    "substance_id": "l-carnitine",
+    "disposition": "completed",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 4,
+    "reason": "Unscoped pending creatine/CoQ reviews incorrectly held all beef supplementary observations. Add their existing row keys, preserving both pending decisions. Independently sourced free-L-carnitine now qualifies.",
+    "next_action": "Rank five source-specific foods; retain original preparation and repeated-extraction uncertainty.",
+    "canonical_records": [
+      "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx#dietary_input_traceability/PM6-DIT-CARNITINE-1"
+    ],
+    "canonical_input": [
+      "L-Carnitine"
+    ],
+    "biological_role": [
+      "L-carnitine accepts and releases fatty-acyl groups in the mitochondrial shuttle, sustaining long-chain fatty-acid entry for oxidation. Dietary L-carnitine supplies this same circulating substrate alongside endogenous synthesis."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "capacity-requirement",
+        "addressability": "direct",
+        "claim_ceiling": "dietary-provision"
+      }
+    ],
+    "canonical_limitations": [
+      "Functional dependency and food composition support Capacity, not a need to increase intake. Endogenous synthesis, tissue uptake and conservation also sustain the pool. The existing extracted carnitine/carbohydrate intervention is formulation-specific; meat or dairy effects on transport flux, brain function or ADHD are not established."
+    ],
+    "prior_research_source": "https://doi.org/10.5702/massspectrometry.A0191"
+  },
+  {
+    "pm_id": "BRS4-FM3-PM7",
+    "substance_id": "caprylic-triglyceride",
+    "disposition": "legitimately non-rankable for the recorded ordinary-food relationship",
+    "ordinary_food_rank_eligible": false,
+    "previous_selected_foods": 0,
+    "reason": "The admitted defined C8/C10/tricaprylin protocol explicitly excludes ordinary coconut-oil equivalence. No ordinary-food ranking for this exposure.",
+    "next_action": "Retain source/protocol evidence without ordinary-food top-five requirement.",
+    "canonical_records": [
+      "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx#dietary_input_traceability/PM7-DIT-RECOVERY-CAPRYLIC-TRIGLYCERIDE"
+    ],
+    "canonical_input": [
+      "Caprylic Triglyceride"
+    ],
+    "biological_role": [
+      "Defined dietary caprylic triglyceride can supply hepatic ketone production and cerebral ketone-fuel availability for this ketone-utilisation operation."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "derived",
+        "mode": "capacity-requirement",
+        "addressability": "precursor-mediated",
+        "claim_ceiling": "biological-dependency"
+      }
+    ],
+    "canonical_limitations": [
+      "Uncontrolled sequential exposure: C8/C10 mixture (n=11) then 95% tricaprylin (n=6), 30 g/day for one month each. No claim of isolated C8 superiority, cognitive efficacy, healthy-person requirement or ordinary coconut-oil equivalence. PET uptake/metabolism is not a direct cellular ATP assay; no food-effective dose or fixed conversion yield is inferred."
+    ],
+    "prior_research_source": "https://chemical.kao.com/en/products/B0001701_en/"
+  },
+  {
+    "pm_id": "BRS5-FM1-PM1",
+    "substance_id": "fructo-galacto-oligosaccharides",
+    "disposition": "legitimately non-rankable for the recorded ordinary-food relationship",
+    "ordinary_food_rank_eligible": false,
+    "previous_selected_foods": 0,
+    "reason": "The record owns the tested combined preparation, not individual native FOS/GOS. Ordinary-food ranking would substitute constituents for the mixture. The pre-existing admission-review flag remains unchanged.",
+    "next_action": "Retain source/protocol evidence without ordinary-food top-five requirement.",
+    "canonical_records": [
+      "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx#dietary_input_traceability/PM1-KC1-UPSTREAM-1"
+    ],
+    "canonical_input": [
+      "FOS/GOS"
+    ],
+    "biological_role": [
+      "The tested FOS/GOS preparation supplies microbial fermentation substrates upstream of epithelial barrier biology."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "kc-relevance",
+        "classification": null,
+        "mode": null,
+        "addressability": null,
+        "claim_ceiling": "dietary-provision"
+      }
+    ],
+    "canonical_limitations": [
+      "Controlled human FOS/GOS fermentation does not establish the effects of inulin alone, individual FOS or GOS, ordinary food portions, or human tight-junction improvement."
+    ],
+    "prior_research_source": "https://doi.org/10.1016/j.jfca.2010.12.001"
+  },
+  {
+    "pm_id": "BRS5-FM1-PM1",
+    "substance_id": "glutamine",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Canonical role does not impose a free-amino-acid-only food requirement. Earlier free-only wording was too restrictive. Protein-bound evidence may be relevant, but assays and delivery evidence still need verification; cystine is not silently renamed cysteine and hydrolytic Glx is not split.",
+    "next_action": "Resolve form-specific food measurements against this provision relationship; preserve estimates as estimates. No new precursor admission is made.",
+    "canonical_records": [
+      "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx#dietary_input_traceability/PM1-DIT-6"
+    ],
+    "canonical_input": [
+      "Glutamine"
+    ],
+    "biological_role": [
+      "Enterocyte metabolic substrate supporting epithelial proliferation, repair, and tight-junction protein maintenance."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "capacity-requirement",
+        "addressability": "direct",
+        "claim_ceiling": "biological-dependency"
+      }
+    ],
+    "canonical_limitations": [
+      "Glutamine is supplied substantially from endogenous and systemic pools and becomes conditionally indispensable under stress; adult supplementation trials show no overall permeability benefit, so dietary protein or glutamine provision is not established as a general PM1 lever. A separate postinfectious IBS trial supports a selected supplementation response; this does not establish general need. The new Capacity assessment admits supply to junction-supporting cellular capacity, without asserting universal dietary limitation, benefit from extra intake, or equivalence to the supplemental exposure."
+    ],
+    "prior_research_source": "https://doi.org/10.1038/ejcn.2009.110"
+  },
+  {
+    "pm_id": "BRS5-FM1-PM1",
+    "substance_id": "pectin",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 4,
+    "reason": "Four matched food observations were calculated from total pectic substances and same-study dry matter. Assay includes high/low methoxyl pectin and protopectin; it is not purified pectin equivalence.",
+    "next_action": "Additional canonical food with matched assay and moisture required for a fifth source.",
+    "canonical_records": [
+      "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx#dietary_input_traceability/PM1-KC1-UPSTREAM-2"
+    ],
+    "canonical_input": [
+      "Pectin"
+    ],
+    "biological_role": [
+      "Pectin provides microbial fermentation substrate that contributes short-chain fatty acids upstream of epithelial barrier biology."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "kc-relevance",
+        "classification": null,
+        "mode": null,
+        "addressability": null,
+        "claim_ceiling": "dietary-provision"
+      }
+    ],
+    "canonical_limitations": [
+      "Human-faecal culture evidence is preparation-dependent and predominantly acetate-generating; it does not establish a uniform butyrate yield or human tight-junction benefit. Apple and citrus preparations are not interchangeable."
+    ],
+    "prior_research_source": "https://doi.org/10.4081/ijas.2005.49"
+  },
+  {
+    "pm_id": "BRS5-FM1-PM1",
+    "substance_id": "resistant-starch",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Potato research distinguishes cultivar, boiling/baking, chilling and reheating. Comparable quantitative source tables were not verified; RS2 extract cannot stand in for whole potato.",
+    "next_action": "Verify original preparation-specific tables and assay; no generic resistant-starch amount.",
+    "canonical_records": [
+      "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx#dietary_input_traceability/PM1-KC1-UPSTREAM-3"
+    ],
+    "canonical_input": [
+      "Resistant starch"
+    ],
+    "biological_role": [
+      "Resistant starch supplies colonic microbes whose fermentation products contribute upstream to epithelial barrier biology."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "kc-relevance",
+        "classification": null,
+        "mode": null,
+        "addressability": null,
+        "claim_ceiling": "dietary-provision"
+      }
+    ],
+    "canonical_limitations": [
+      "Response varies with starch type, preparation, dose and microbiota. Faecal short-chain fatty acids do not measure epithelial delivery or establish human tight-junction improvement; resistant potato starch results do not establish effects for every RS2 or RS3 preparation."
+    ],
+    "prior_research_source": "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+  },
+  {
+    "pm_id": "BRS5-FM1-PM2",
+    "substance_id": "oligofructose",
+    "disposition": "legitimately non-rankable for the recorded ordinary-food relationship",
+    "ordinary_food_rank_eligible": false,
+    "previous_selected_foods": 0,
+    "reason": "Both PM records own a defined experimental oligofructose exposure and explicitly disclaim ordinary-food equivalence. Do not rank food fructans as equivalent to that exposure.",
+    "next_action": "Retain source/protocol evidence without ordinary-food top-five requirement.",
+    "canonical_records": [
+      "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx#dietary_input_traceability/PM2-DIT-1"
+    ],
+    "canonical_input": [
+      "Oligofructose"
+    ],
+    "biological_role": [
+      "Oligofructose lowered plasma LPS in adults with overweight/obesity; separate obese-mouse experiments support a GLP-2-sensitive barrier route."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "state-regulation",
+        "addressability": "direct",
+        "claim_ceiling": "modulation-demonstrated"
+      }
+    ],
+    "canonical_limitations": [
+      "The human result used 21 g/day for 12 weeks in 37 adults; it does not establish nutritional necessity, clinical benefit or equivalent effects from every food or fibre."
+    ],
+    "prior_research_source": "https://doi.org/10.1016/j.jfca.2010.12.001"
+  },
+  {
+    "pm_id": "BRS5-FM2-PM4",
+    "substance_id": "arabinan",
+    "disposition": "legitimately non-rankable for the recorded ordinary-food relationship",
+    "ordinary_food_rank_eligible": false,
+    "previous_selected_foods": 0,
+    "reason": "Canonical input is pea-fibre arabinan in the tested preparation. Apple cell-wall arabinan cannot stand in for this material.",
+    "next_action": "Only preparation-matched pea-fibre composition may support the existing record. Broader food equivalence would need separate scientific review.",
+    "canonical_records": [
+      "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx#dietary_input_traceability/PM4-DIT-1"
+    ],
+    "canonical_input": [
+      "Pea-fibre arabinan"
+    ],
+    "biological_role": [
+      "Arabinan in the studied pea-fibre preparation supplies a glycan resource whose utilisation depends on microbial utilisation machinery and competition."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "capacity-requirement",
+        "addressability": "direct",
+        "claim_ceiling": "biological-dependency"
+      }
+    ],
+    "canonical_limitations": [
+      "Defined human-derived communities in mice; the food matrix and competitors affect access. No universal human response, optimal dose or host benefit is established."
+    ],
+    "prior_research_source": "https://doi.org/10.3389/fpls.2018.01451"
+  },
+  {
+    "pm_id": "BRS5-FM2-PM4",
+    "substance_id": "inulin",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Primary Thai-food measurements concern total inulin-type fructans, including shorter chains. They do not resolve long-chain canonical inulin, commercial oligofructose or the combined FOS/GOS identity. Existing asparagus dry-matter observation lacks a matched conversion basis.",
+    "next_action": "Obtain degree-of-polymerisation/form-specific concentrations and matched food moisture where required.",
+    "canonical_records": [
+      "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx#dietary_input_traceability/PM4-DIT-DEFERRED-1"
+    ],
+    "canonical_input": [
+      "Inulin"
+    ],
+    "biological_role": [
+      "Inulin supplies beta-(2,1)-linked fructan substrate to microbes with the corresponding utilisation machinery, supporting this glycan-processing capacity."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "capacity-requirement",
+        "addressability": "direct",
+        "claim_ceiling": "dietary-provision"
+      }
+    ],
+    "canonical_limitations": [
+      "Utilisation genes, chain length, alternative substrates and resident organisms constrain the response. A supplied inulin substrate is not an indispensable intake, a guaranteed abundance shift, butyrate yield, mucus effect or clinical benefit."
+    ],
+    "prior_research_source": "https://doi.org/10.1016/j.jfca.2010.12.001"
+  },
+  {
+    "pm_id": "BRS5-FM2-PM4",
+    "substance_id": "pectin",
+    "disposition": "legitimately non-rankable for the recorded ordinary-food relationship",
+    "ordinary_food_rank_eligible": false,
+    "previous_selected_foods": 4,
+    "reason": "Canonical input is specifically citrus pectin. Four general-food total-pectic measurements do not establish the admitted citrus material.",
+    "next_action": "Remove these four edges from the local qualified ranking; retain original food observations and PM admission.",
+    "canonical_records": [
+      "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx#dietary_input_traceability/PM4-DIT-2"
+    ],
+    "canonical_input": [
+      "Citrus pectin"
+    ],
+    "biological_role": [
+      "The studied citrus pectin supplies glycans for microbial utilisation; community context and expression of utilisation machinery alter processing."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "capacity-requirement",
+        "addressability": "direct",
+        "claim_ceiling": "biological-dependency"
+      }
+    ],
+    "canonical_limitations": [
+      "Defined-community mouse experiments and glycan assays do not establish equivalence across all pectins, a human intake target or beneficial host outcomes."
+    ],
+    "prior_research_source": "https://doi.org/10.4081/ijas.2005.49"
+  },
+  {
+    "pm_id": "BRS5-FM2-PM4",
+    "substance_id": "resistant-starch",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Potato research distinguishes cultivar, boiling/baking, chilling and reheating. Comparable quantitative source tables were not verified; RS2 extract cannot stand in for whole potato.",
+    "next_action": "Verify original preparation-specific tables and assay; no generic resistant-starch amount.",
+    "canonical_records": [
+      "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx#dietary_input_traceability/PM4-DIT-3"
+    ],
+    "canonical_input": [
+      "Resistant starch (RS2/RS3)"
+    ],
+    "biological_role": [
+      "These resistant starch forms provide substrates for specialist microbial degradation and cross-feeding; adding Ruminococcus bromii enhanced RS3 fermentation in one donor\u2019s faecal community in vitro."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "capacity-requirement",
+        "addressability": "direct",
+        "claim_ceiling": "biological-dependency"
+      }
+    ],
+    "canonical_limitations": [
+      "Cultures and one donor\u2019s faecal rescue do not establish oral R. bromii efficacy, uniform human processing, equivalence to RS4 or clinical benefit."
+    ],
+    "prior_research_source": "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+  },
+  {
+    "pm_id": "BRS5-FM2-PM5",
+    "substance_id": "fructo-galacto-oligosaccharides",
+    "disposition": "legitimately non-rankable for the recorded ordinary-food relationship",
+    "ordinary_food_rank_eligible": false,
+    "previous_selected_foods": 0,
+    "reason": "The record owns the tested combined preparation, not individual native FOS/GOS. Ordinary-food ranking would substitute constituents for the mixture. The pre-existing admission-review flag remains unchanged.",
+    "next_action": "Retain source/protocol evidence without ordinary-food top-five requirement.",
+    "canonical_records": [
+      "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx#dietary_input_traceability/PM5-DIT-2"
+    ],
+    "canonical_input": [
+      "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)"
+    ],
+    "biological_role": [
+      "The studied FOS/GOS mixture is a candidate microbial carbohydrate substrate; the corrected study does not sufficiently establish the existing PM-specific Capacity admission."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "capacity-requirement",
+        "addressability": "direct",
+        "claim_ceiling": "biological-dependency"
+      }
+    ],
+    "canonical_limitations": [
+      "Requiring review: distinguish the studied mixture from individual FOS/GOS constituents, substrate utilisation from measured SCFA production, and SCFAs generally from butyrate. Ileal observations do not establish colonic absence; separate SCFA infusion and modelled estimates do not directly trace substrate conversion."
+    ],
+    "prior_research_source": "https://doi.org/10.1016/j.jfca.2010.12.001"
+  },
+  {
+    "pm_id": "BRS5-FM2-PM5",
+    "substance_id": "inulin",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Primary Thai-food measurements concern total inulin-type fructans, including shorter chains. They do not resolve long-chain canonical inulin, commercial oligofructose or the combined FOS/GOS identity. Existing asparagus dry-matter observation lacks a matched conversion basis.",
+    "next_action": "Obtain degree-of-polymerisation/form-specific concentrations and matched food moisture where required.",
+    "canonical_records": [
+      "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx#dietary_input_traceability/PM5-DIT-RECOVERY-INULIN"
+    ],
+    "canonical_input": [
+      "Inulin"
+    ],
+    "biological_role": [
+      "Inulin supplies fermentable carbohydrate for SCFA-producing microbial capacity; product distribution depends on community and culture or host conditions."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "capacity-requirement",
+        "addressability": "direct",
+        "claim_ceiling": "biological-dependency"
+      }
+    ],
+    "canonical_limitations": [
+      "Culture conditions and community composition constrain production. Human inulin tracer estimates depend on assumed systemic availability; the human chicory-inulin trial did not significantly increase faecal butyrate. No fixed food yield, intake target or brain benefit is established."
+    ],
+    "prior_research_source": "https://doi.org/10.1016/j.jfca.2010.12.001"
+  },
+  {
+    "pm_id": "BRS5-FM2-PM5",
+    "substance_id": "pectin",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 4,
+    "reason": "Four matched food observations were calculated from total pectic substances and same-study dry matter. Assay includes high/low methoxyl pectin and protopectin; it is not purified pectin equivalence.",
+    "next_action": "Additional canonical food with matched assay and moisture required for a fifth source.",
+    "canonical_records": [
+      "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx#dietary_input_traceability/PM5-DIT-3"
+    ],
+    "canonical_input": [
+      "Pectin"
+    ],
+    "biological_role": [
+      "Fermentable polysaccharide supplying microbial SCFA production in human-microbiota culture experiments."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "capacity-requirement",
+        "addressability": "direct",
+        "claim_ceiling": "biological-dependency"
+      }
+    ],
+    "canonical_limitations": [
+      "Pectin structure, purified preparation, donor community and enriched culture medium affect interpretation. Pascale is secondary synthesis; Bang is bounded primary culture evidence. Whole apples are not equivalent to the tested citrus preparation; no human brain or clinical benefit is established."
+    ],
+    "prior_research_source": "https://doi.org/10.4081/ijas.2005.49"
+  },
+  {
+    "pm_id": "BRS5-FM2-PM5",
+    "substance_id": "resistant-starch",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Potato research distinguishes cultivar, boiling/baking, chilling and reheating. Comparable quantitative source tables were not verified; RS2 extract cannot stand in for whole potato.",
+    "next_action": "Verify original preparation-specific tables and assay; no generic resistant-starch amount.",
+    "canonical_records": [
+      "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx#dietary_input_traceability/PM5-DIT-1"
+    ],
+    "canonical_input": [
+      "Resistant starch"
+    ],
+    "biological_role": [
+      "Resistant starch reaching the colon supplies fermentable carbohydrate to microbial communities capable of its utilisation, supporting SCFA-production capacity."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "capacity-requirement",
+        "addressability": "direct",
+        "claim_ceiling": "biological-dependency"
+      }
+    ],
+    "canonical_limitations": [
+      "Utilisation and product distribution depend on starch structure, processing, accessibility, primary degraders and cross-feeding partners. Evidence for one formulation does not establish an equivalent butyrate response from another preparation or whole food. No predictable yield, intake target or brain benefit is established."
+    ],
+    "prior_research_source": "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+  },
+  {
+    "pm_id": "BRS5-FM2-PM6",
+    "substance_id": "ellagic-acid",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Original research uses freeze-dried material and hydrolysis/derivative endpoints. Free ellagic acid, hydrolysable ellagitannins and total ellagic-acid equivalents are not interchangeable.",
+    "next_action": "Retrieve preparation/form-specific quantitative tables and matched moisture; preserve existing occurrence.",
+    "canonical_records": [
+      "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx#dietary_input_traceability/PM6-DIT-1"
+    ],
+    "canonical_input": [
+      "Ellagic acid"
+    ],
+    "biological_role": [
+      "Immediate microbial substrate for the assessed urolithin-generation pathway."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "capacity-requirement",
+        "addressability": "direct",
+        "claim_ceiling": "biological-dependency"
+      }
+    ],
+    "canonical_limitations": [
+      "Conversion depends on microbial community and may stop at intermediates. This does not imply universal conversion, increased mitochondrial function or benefit."
+    ],
+    "prior_research_source": "https://doi.org/10.1016/0889-1575(89)90005-7"
+  },
+  {
+    "pm_id": "BRS5-FM2-PM6",
+    "substance_id": "ellagitannins",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "Original research uses freeze-dried material and hydrolysis/derivative endpoints. Free ellagic acid, hydrolysable ellagitannins and total ellagic-acid equivalents are not interchangeable.",
+    "next_action": "Retrieve preparation/form-specific quantitative tables and matched moisture; preserve existing occurrence.",
+    "canonical_records": [
+      "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx#dietary_input_traceability/PM6-DIT-2"
+    ],
+    "canonical_input": [
+      "Ellagitannins"
+    ],
+    "biological_role": [
+      "Hydrolysis releases ellagic acid upstream of microbial urolithin formation."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "derived",
+        "mode": "capacity-requirement",
+        "addressability": "precursor-mediated",
+        "claim_ceiling": "biological-dependency"
+      }
+    ],
+    "canonical_limitations": [
+      "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies."
+    ],
+    "prior_research_source": "https://doi.org/10.1016/0889-1575(89)90005-7"
+  },
+  {
+    "pm_id": "BRS5-FM2-PM6",
+    "substance_id": "epicatechin",
+    "disposition": "unresolved research gap",
+    "ordinary_food_rank_eligible": true,
+    "previous_selected_foods": 0,
+    "reason": "PM owns epicatechin provision rather than one cocoa formulation. The limitation is food preparation identity, not a need for intact cocoa to duplicate a clinical protocol.",
+    "next_action": "Verify source-specific nonalkalised cocoa mapping and other same-analyte foods; do not relabel raw cacao or extrapolate to other catechins.",
+    "canonical_records": [
+      "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx#dietary_input_traceability/PM6-DIT-RECOVERY-EPICATECHIN"
+    ],
+    "canonical_input": [
+      "Epicatechin"
+    ],
+    "biological_role": [
+      "Epicatechin supplies a defined microbial substrate for phenolic ring-fission and valerolactone-generation capacity."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "capacity-requirement",
+        "addressability": "direct",
+        "claim_ceiling": "biological-dependency"
+      }
+    ],
+    "canonical_limitations": [
+      "Donor cultures do not establish a predictable whole-food conversion yield, mitochondrial effect or clinical benefit. Human apple-extract evidence involves mixed monomeric catechins, not isolated epicatechin efficacy. Do not generalise to EGCG or all procyanidins."
+    ],
+    "prior_research_source": "USDA Flavonoid Release 3.3, NDB19165, saved prior retrieval"
+  },
+  {
+    "pm_id": "BRS5-FM3-PM7",
+    "substance_id": "glucose",
+    "disposition": "legitimately non-rankable for the recorded ordinary-food relationship",
+    "ordinary_food_rank_eligible": false,
+    "previous_selected_foods": 2,
+    "reason": "PM owns a luminal glucose sensory stimulus in a mouse circuit, not a nutritional requirement. Highest-glucose foods are not an evidence-based optimisation ranking.",
+    "next_action": "Keep two food observations; omit the target from nutritional top-five completeness and scoring. Admission unchanged.",
+    "canonical_records": [
+      "docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx#dietary_input_traceability/PM7-DIT-2"
+    ],
+    "canonical_input": [
+      "Glucose"
+    ],
+    "biological_role": [
+      "Luminal glucose acted as a sensory stimulus in the tested mouse neuropod\u2013vagal circuit."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "state-regulation",
+        "addressability": "direct",
+        "claim_ceiling": "modulation-demonstrated"
+      }
+    ],
+    "canonical_limitations": [
+      "Experimental neural response is not an optimal intake, an inadequacy threshold or benefit from more sugar."
+    ],
+    "prior_research_source": "Existing bananas/grapes source observations retained in qualified-network.checkpoint.json"
+  },
+  {
+    "pm_id": "BRS6-FM1-PM3",
+    "substance_id": "resistant-starch",
+    "disposition": "legitimately non-rankable for the recorded ordinary-food relationship",
+    "ordinary_food_rank_eligible": false,
+    "previous_selected_foods": 0,
+    "reason": "PM owns protocol-specific resistant-starch modulation, with positive and null trial results. Food concentration cannot establish tested formulation or effective dose.",
+    "next_action": "Retain supplemental protocol; food composition may remain contextual but not an equivalent top-five intervention list.",
+    "canonical_records": [
+      "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-RESISTANT-STARCH"
+    ],
+    "canonical_input": [
+      "Resistant starch"
+    ],
+    "biological_role": [
+      "Defined oral resistant-starch supplementation modulated clamp-measured insulin sensitivity and post-meal forearm glucose clearance in a small human study."
+    ],
+    "canonical_classification": [
+      {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "state-regulation",
+        "addressability": "direct",
+        "claim_ceiling": "modulation-demonstrated"
+      }
+    ],
+    "canonical_limitations": [
+      "Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference."
+    ],
+    "prior_research_source": "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+  }
+]

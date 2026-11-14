@@ -63,6 +63,52 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
 nutrition_supplementary_sources:
+  - key: phenylalanine_recovered_fdc_173905
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 0.142
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: >-
+      Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving),
+      without salt
+    preparation_state: cooked
+    source_url: https://fdc.nal.usda.gov/food-details/173905/nutrients
+    source_reference: '#food-source-4'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 173905
+    food_nutrient_id: '1815092'
+    source_derivation_id: '1'
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tryptophan_recovered_fdc_173905
+    label: Tryptophan
+    substance_id: tryptophan
+    value: 0.04
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: >-
+      Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving),
+      without salt
+    preparation_state: cooked
+    source_url: https://fdc.nal.usda.gov/food-details/173905/nutrients
+    source_reference: '#food-source-4'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 173905
+    food_nutrient_id: '1815089'
+    source_derivation_id: '1'
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
   - key: cystine_cooked_mg
     label: Cystine (cooked oatmeal)
     value: 97
@@ -108,6 +154,42 @@ nutrition_functional_metrics:
       Avenanthramides and other oat phenolics are not standard USDA panel rows;
       qualitative only here.
 substance_relationships:
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/173905/nutrients
+    source_reference: '#food-source-4'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: >-
+      Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving),
+      without salt
+    preparation_state: cooked
+    requires_supplementary_key: phenylalanine_recovered_fdc_173905
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: Tryptophan
+    substance_id: tryptophan
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/173905/nutrients
+    source_reference: '#food-source-4'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: >-
+      Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving),
+      without salt
+    preparation_state: cooked
+    requires_supplementary_key: tryptophan_recovered_fdc_173905
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier 1, data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
   - substance: Cysteine
     relationship: contains
     description: >-
@@ -310,3 +392,7 @@ Oats contribute plant protein. Lysine is the lowest ratio to the 2013 pattern; c
 [2] Mariotti and Gardner (2019). [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Lysine is proportionally low in grains, and methionine plus cysteine are proportionally slightly low in legumes. The review treats “complete” and “incomplete” as misleading and finds no requirement to combine complementary proteins in the same meal when intake is varied across the day. Not an oat digestibility trial.
 
 [3] Sean Davies (2018). [Oatmeal Effect on N-acyl-phosphatidylethanolamines](/docs/papers/BRAIN-Diet-References#sean_davies_oatmeal_2018). Trial registration proposing that one oatmeal meal would raise serum NAPE and NAE. This page does not use it as evidence of an oat effect.
+
+<span id="food-source-4" />
+
+[4] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 173905: Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving), without salt. These observations retain their own preparation state.

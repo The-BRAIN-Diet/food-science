@@ -67,6 +67,48 @@ main_image: /img/foods/sardines/sardines_medium.webp
 legacy_list_image: /img/foods/sardines/sardines_thumb.webp
 legacy_main_image: /img/foods/sardines/sardines_medium.webp
 nutrition_supplementary_sources:
+  - key: phenylalanine_recovered_fdc_175139
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 0.961
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, sardine, Atlantic, canned in oil, drained solids with bone
+    preparation_state: canned
+    source_url: https://fdc.nal.usda.gov/food-details/175139/nutrients
+    source_reference: '#food-source-6'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 175139
+    food_nutrient_id: '1915841'
+    source_derivation_id: ''
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tryptophan_recovered_fdc_175139
+    label: Tryptophan
+    substance_id: tryptophan
+    value: 0.276
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, sardine, Atlantic, canned in oil, drained solids with bone
+    preparation_state: canned
+    source_url: https://fdc.nal.usda.gov/food-details/175139/nutrients
+    source_reference: '#food-source-6'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 175139
+    food_nutrient_id: '1915838'
+    source_derivation_id: ''
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
   - key: coq10_qual
     label: CoQ10
     status: Present — quantity not established
@@ -87,6 +129,38 @@ nutrition_supplementary_sources:
     source_reference: '#food-source-4'
 protein_profile_note: Complete essential amino acid profile.
 substance_relationships:
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/175139/nutrients
+    source_reference: '#food-source-6'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Fish, sardine, Atlantic, canned in oil, drained solids with bone
+    preparation_state: canned
+    requires_supplementary_key: phenylalanine_recovered_fdc_175139
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: Tryptophan
+    substance_id: tryptophan
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/175139/nutrients
+    source_reference: '#food-source-6'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Fish, sardine, Atlantic, canned in oil, drained solids with bone
+    preparation_state: canned
+    requires_supplementary_key: tryptophan_recovered_fdc_175139
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
   - substance: Methionine
     relationship: contains
     description: >-
@@ -341,3 +415,7 @@ This food provides a complete essential amino acid profile typical of animal pro
 <span id="food-source-5" />
 
 [5] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/175139/nutrients)
+
+<span id="food-source-6" />
+
+[6] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 175139: Fish, sardine, Atlantic, canned in oil, drained solids with bone. These observations retain their own preparation state.

@@ -1,4 +1,191 @@
 ---
+nutrition_supplementary_sources:
+  - key: arginine_recovered_fdc_171287
+    label: Arginine
+    substance_id: arginine
+    value: 0.82
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Egg, whole, raw, fresh
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171287/nutrients
+    source_reference: '#food-source-8'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+    fdc_id: 171287
+    food_nutrient_id: 1597635
+    source_derivation_id: A
+    source_data_points: 0
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tyrosine_recovered_fdc_171287
+    label: Tyrosine
+    substance_id: tyrosine
+    value: 0.499
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Egg, whole, raw, fresh
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171287/nutrients
+    source_reference: '#food-source-8'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+    fdc_id: 171287
+    food_nutrient_id: 1597643
+    source_derivation_id: A
+    source_data_points: 0
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: phenylalanine_recovered_fdc_173424
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 0.668
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Egg, whole, cooked, hard-boiled
+    preparation_state: cooked
+    source_url: https://fdc.nal.usda.gov/food-details/173424/nutrients
+    source_reference: '#food-source-7'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 173424
+    food_nutrient_id: '1777871'
+    source_derivation_id: ''
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tryptophan_recovered_fdc_173424
+    label: Tryptophan
+    substance_id: tryptophan
+    value: 0.153
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Egg, whole, cooked, hard-boiled
+    preparation_state: cooked
+    source_url: https://fdc.nal.usda.gov/food-details/173424/nutrients
+    source_reference: '#food-source-7'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 173424
+    food_nutrient_id: '1777868'
+    source_derivation_id: ''
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: glycine_fdc_171287_g
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+    label: Glycine
+    substance_id: glycine
+    value: 0.432
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Egg, whole, raw, fresh
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171287/nutrients
+    source_reference: '#food-source-6'
+    source_note: >-
+      Egg, whole, raw, fresh. USDA derivation: Analytical. Raw-food composition does not establish cooked-food
+      retention, digestibility, brain delivery or intervention efficacy.
+    public_note: Raw-food composition; USDA analytical value.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    nutrition_panel_eligible: true
+    source_group: USDA SR Legacy 171287
+    food_nutrient_id: 1597646
+    food_nutrient_derivation:
+      id: 1
+      code: A
+      description: Analytical
+      foodNutrientSource:
+        id: 1
+        code: '1'
+        description: Analytical or derived from analytical
+    data_points: 0
+    limitations: >-
+      Egg, whole, raw, fresh. USDA derivation: Analytical. Raw-food composition does not establish cooked-food
+      retention, digestibility, brain delivery or intervention efficacy.
+  - key: serine_fdc_171287_g
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+    label: Serine
+    substance_id: serine
+    value: 0.971
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Egg, whole, raw, fresh
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171287/nutrients
+    source_reference: '#food-source-6'
+    source_note: >-
+      Egg, whole, raw, fresh. USDA derivation: Analytical. Raw-food composition does not establish cooked-food
+      retention, digestibility, brain delivery or intervention efficacy.
+    public_note: Raw-food composition; USDA analytical value.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    nutrition_panel_eligible: true
+    source_group: USDA SR Legacy 171287
+    food_nutrient_id: 1597638
+    food_nutrient_derivation:
+      id: 1
+      code: A
+      description: Analytical
+      foodNutrientSource:
+        id: 1
+        code: '1'
+        description: Analytical or derived from analytical
+    data_points: 0
+    limitations: >-
+      Egg, whole, raw, fresh. USDA derivation: Analytical. Raw-food composition does not establish cooked-food
+      retention, digestibility, brain delivery or intervention efficacy.
+  - key: phenylalanine_fdc_171287_g
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 0.68
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Egg, whole, raw, fresh
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171287/nutrients
+    source_reference: '#food-source-6'
+    source_note: >-
+      Egg, whole, raw, fresh. USDA derivation: Analytical. Raw-food composition does not establish cooked-food
+      retention, digestibility, brain delivery or intervention efficacy.
+    public_note: Raw-food composition; USDA analytical value.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    nutrition_panel_eligible: true
+    source_group: USDA SR Legacy 171287
+    food_nutrient_id: 1597642
+    food_nutrient_derivation:
+      id: 1
+      code: A
+      description: Analytical
+      foodNutrientSource:
+        id: 1
+        code: '1'
+        description: Analytical or derived from analytical
+    data_points: 0
+    limitations: >-
+      Egg, whole, raw, fresh. USDA derivation: Analytical. Raw-food composition does not establish cooked-food
+      retention, digestibility, brain delivery or intervention efficacy.
 id: eggs
 title: Eggs
 sidebar_label: Eggs
@@ -79,6 +266,108 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
 substance_relationships:
+  - substance: Arginine
+    substance_id: arginine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/171287/nutrients
+    source_reference: '#food-source-8'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Egg, whole, raw, fresh
+    preparation_state: raw
+    requires_supplementary_key: arginine_recovered_fdc_171287
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/171287/nutrients
+    source_reference: '#food-source-8'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Egg, whole, raw, fresh
+    preparation_state: raw
+    requires_supplementary_key: tyrosine_recovered_fdc_171287
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/173424/nutrients
+    source_reference: '#food-source-7'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Egg, whole, cooked, hard-boiled
+    preparation_state: cooked
+    requires_supplementary_key: phenylalanine_recovered_fdc_173424
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: Tryptophan
+    substance_id: tryptophan
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/173424/nutrients
+    source_reference: '#food-source-7'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Egg, whole, cooked, hard-boiled
+    preparation_state: cooked
+    requires_supplementary_key: tryptophan_recovered_fdc_173424
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: Glycine
+    substance_id: glycine
+    relationship: contains
+    description: USDA FoodData Central records glycine in this exact raw food. No dietary intervention efficacy inferred.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy 171287
+    evidence_material: Egg, whole, raw, fresh
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171287/nutrients
+    source_reference: '#food-source-6'
+    requires_supplementary_key: glycine_fdc_171287_g
+  - substance: Serine
+    substance_id: serine
+    relationship: contains
+    description: USDA FoodData Central records serine in this exact raw food. No dietary intervention efficacy inferred.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy 171287
+    evidence_material: Egg, whole, raw, fresh
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171287/nutrients
+    source_reference: '#food-source-6'
+    requires_supplementary_key: serine_fdc_171287_g
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    description: >-
+      USDA FoodData Central records phenylalanine in this exact raw food. No dietary intervention efficacy
+      inferred.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy 171287
+    evidence_material: Egg, whole, raw, fresh
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171287/nutrients
+    source_reference: '#food-source-6'
+    requires_supplementary_key: phenylalanine_fdc_171287_g
   - substance: Methionine
     relationship: contains
     description: >-
@@ -331,3 +620,15 @@ This food provides a complete essential amino acid profile typical of animal pro
 [4] Kim et al. (2015). [Effects of egg consumption on carotenoid absorption from co-consumed, raw vegetables](/docs/papers/BRAIN-Diet-References#kim_egg_carotenoid_2015). Randomized crossover in 16 healthy young men: the same raw salad (100 g tomatoes, 62 g carrots, 70 g baby spinach, 25 g romaine, 5 g Chinese wolfberry; all with 3 g canola oil) plus 150 g scrambled whole eggs (~3 eggs) increased TRL carotenoid AUC versus no egg — lutein and zeaxanthin 4- to 5-fold; α-carotene, β-carotene and lycopene 3- to 8-fold. The ~1.5-egg meal did not significantly raise total carotenoid AUC versus control. The authors cite yolk phospholipids as well as total yolk lipid as promoters of intestinal micellarization; the trial did not isolate phospholipids from triglycerides, and arugula was not tested.
 
 [5] Eisenhauer et al. (2017). [Lutein and Zeaxanthin—Food Sources, Bioavailability and Dietary Variety in Age-Related Macular Degeneration Protection](/docs/papers/BRAIN-Diet-References#eisenhauer_lutein_zeaxanthin_2017). Table 4 reports 279 µg trans-zeaxanthin and 288 µg trans-lutein per 100 g in the raw whole egg measured by Perry et al. (2009).
+
+<span id="food-source-6" />
+
+[6] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). Egg, whole, raw, fresh; FDC 171287. Raw edible-portion values with source-specific derivation retained.
+
+<span id="food-source-7" />
+
+[7] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 173424: Egg, whole, cooked, hard-boiled. These observations retain their own preparation state.
+
+<span id="food-source-8" />
+
+[8] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 171287: Egg, whole, raw, fresh. These observations retain their own preparation state.

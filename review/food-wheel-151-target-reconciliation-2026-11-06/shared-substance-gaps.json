@@ -1,0 +1,246 @@
+[
+  {
+    "substance": "phosphatidylcholine",
+    "targets": [
+      "BRS1-FM2-PM6|phosphatidylcholine",
+      "BRS2-FM3-PM7|phosphatidylcholine"
+    ],
+    "categories": [
+      "compositional",
+      "mapping-related"
+    ],
+    "explanation": "Food occurrence is documented but no verified PC-mass quantity is exposed by the canonical mapper. Choline or PC-derived choline mass must not be substituted for PC mass."
+  },
+  {
+    "substance": "uridine",
+    "targets": [
+      "BRS1-FM5-PM12|uridine",
+      "BRS2-FM3-PM7|uridine"
+    ],
+    "categories": [
+      "compositional"
+    ],
+    "explanation": "Milk occurrence is qualitative; no verified comparable uridine amounts in the canonical source rows."
+  },
+  {
+    "substance": "pyridoxal-5-phosphate",
+    "targets": [
+      "BRS2-FM2-PM5|pyridoxal-5-phosphate"
+    ],
+    "categories": [
+      "compositional"
+    ],
+    "explanation": "Native PLP occurrence in milk is qualitative. Total B6 is not a PLP concentration."
+  },
+  {
+    "substance": "cysteine",
+    "targets": [
+      "BRS2-FM2-PM6|cysteine",
+      "BRS3-FM1-PM1|cysteine",
+      "BRS3-FM1-PM2|cysteine"
+    ],
+    "categories": [
+      "compositional"
+    ],
+    "explanation": "Documented food protein occurrence is qualitative; total cystine/hydrolysed sulphur-amino-acid values are not silently relabelled cysteine."
+  },
+  {
+    "substance": "glutamate",
+    "targets": [
+      "BRS2-FM2-PM6|glutamate"
+    ],
+    "categories": [
+      "compositional"
+    ],
+    "explanation": "Existing source relationship is qualitative; no verified exact-analyte quantitative source row. Glx or combined hydrolysis values are not substituted."
+  },
+  {
+    "substance": "n-acetylcysteine",
+    "targets": [
+      "BRS2-FM2-PM6|n-acetylcysteine"
+    ],
+    "categories": [
+      "scientific",
+      "selection-related"
+    ],
+    "explanation": "Canonical food-delivery assessment specifies supplemental NAC and no verified ordinary-food source. Protein cysteine/cystine is not NAC; preserve admission without inventing food equivalence."
+  },
+  {
+    "substance": "oligofructose",
+    "targets": [
+      "BRS3-FM1-PM2|oligofructose",
+      "BRS5-FM1-PM2|oligofructose"
+    ],
+    "categories": [
+      "scientific",
+      "selection-related"
+    ],
+    "explanation": "Canonical assessment identifies a defined inulin-hydrolysate exposure; native food fructans do not establish the same mixture. No matching ordinary-food quantities."
+  },
+  {
+    "substance": "sulforaphane",
+    "targets": [
+      "BRS3-FM2-PM3|sulforaphane"
+    ],
+    "categories": [
+      "compositional",
+      "mapping-related"
+    ],
+    "explanation": "Broccoli/sprout relationships are qualitative. Precursor glucoraphanin, potential sulforaphane yield and observed sulforaphane concentration are not interchangeable."
+  },
+  {
+    "substance": "flavin-mononucleotide",
+    "targets": [
+      "BRS4-FM1-PM1|flavin-mononucleotide"
+    ],
+    "categories": [
+      "compositional"
+    ],
+    "explanation": "Milk native-FMN occurrence is qualitative; total riboflavin is not measured FMN."
+  },
+  {
+    "substance": "nicotinamide",
+    "targets": [
+      "BRS4-FM1-PM2|nicotinamide"
+    ],
+    "categories": [
+      "mapping-related",
+      "compositional"
+    ],
+    "explanation": "Existing PM warnings identify chicken and chickpea analytical materials with food-ontology links pending; canonical food-source mapper has no matching quantitative rows. Total niacin does not resolve the vitamer."
+  },
+  {
+    "substance": "nicotinic-acid",
+    "targets": [
+      "BRS4-FM1-PM2|nicotinic-acid"
+    ],
+    "categories": [
+      "mapping-related",
+      "compositional"
+    ],
+    "explanation": "Existing PM warnings identify chicken and chickpea analytical materials with food-ontology links pending; no matching canonical quantitative rows. Total niacin is not nicotinic acid."
+  },
+  {
+    "substance": "nicotinamide-riboside",
+    "targets": [
+      "BRS4-FM1-PM2|nicotinamide-riboside"
+    ],
+    "categories": [
+      "compositional"
+    ],
+    "explanation": "Milk occurrence is documented without a verified food-matched quantity."
+  },
+  {
+    "substance": "creatine",
+    "targets": [
+      "BRS4-FM1-PM3|creatine"
+    ],
+    "categories": [
+      "compositional",
+      "mapping-related"
+    ],
+    "explanation": "Several qualitative food records; beef 400 mg is explicitly approximate/unverified with material-equivalence limits, not a verified ranking value."
+  },
+  {
+    "substance": "caprylic-triglyceride",
+    "targets": [
+      "BRS4-FM3-PM7|caprylic-triglyceride"
+    ],
+    "categories": [
+      "compositional",
+      "scientific"
+    ],
+    "explanation": "MCT-oil relationship is qualitative and formulation-specific. Total MCT, free C8 or coconut oil cannot replace the defined triglyceride concentration."
+  },
+  {
+    "substance": "glutamine",
+    "targets": [
+      "BRS5-FM1-PM1|glutamine"
+    ],
+    "categories": [
+      "compositional"
+    ],
+    "explanation": "Protein-bound occurrence is qualitative. No verified specific glutamine concentrations; do not substitute glutamate/Glx."
+  },
+  {
+    "substance": "fructo-galacto-oligosaccharides",
+    "targets": [
+      "BRS5-FM1-PM1|fructo-galacto-oligosaccharides",
+      "BRS5-FM2-PM5|fructo-galacto-oligosaccharides"
+    ],
+    "categories": [
+      "scientific",
+      "mapping-related"
+    ],
+    "explanation": "The PM record concerns a studied FOS/GOS mixture, not a universal food analyte. No matching canonical food source. BRS5 PM5 additionally carries an existing scientific-admission review warning, preserved without adjudication."
+  },
+  {
+    "substance": "resistant-starch",
+    "targets": [
+      "BRS5-FM1-PM1|resistant-starch",
+      "BRS5-FM2-PM4|resistant-starch",
+      "BRS5-FM2-PM5|resistant-starch",
+      "BRS6-FM1-PM3|resistant-starch"
+    ],
+    "categories": [
+      "selection-related",
+      "compositional"
+    ],
+    "explanation": "Verified ranges are retained for bananas, beans, chickpeas and potatoes, but the contract does not rank ranges. Fresh-, dry- and moisture-corrected bases are distinct; no midpoint or denominator conversion."
+  },
+  {
+    "substance": "arabinan",
+    "targets": [
+      "BRS5-FM2-PM4|arabinan"
+    ],
+    "categories": [
+      "compositional"
+    ],
+    "explanation": "Pea occurrence is qualitative. No comparable quantitative arabinan concentration."
+  },
+  {
+    "substance": "inulin",
+    "targets": [
+      "BRS5-FM2-PM4|inulin",
+      "BRS5-FM2-PM5|inulin"
+    ],
+    "categories": [
+      "mapping-related",
+      "selection-related"
+    ],
+    "explanation": "One verified asparagus-spear amount: 1.30 g/100 g dry matter. No authorised comparable pool, no second quantitative source, and no fresh-weight conversion. PM4 also records pending chicory/Jerusalem-artichoke ontology links."
+  },
+  {
+    "substance": "ellagic-acid",
+    "targets": [
+      "BRS5-FM2-PM6|ellagic-acid"
+    ],
+    "categories": [
+      "selection-related",
+      "compositional"
+    ],
+    "explanation": "One verified pomegranate-juice value, 3.79 mg/100 mL. Volume is not food mass; no second comparable quantitative source."
+  },
+  {
+    "substance": "ellagitannins",
+    "targets": [
+      "BRS5-FM2-PM6|ellagitannins"
+    ],
+    "categories": [
+      "selection-related",
+      "compositional"
+    ],
+    "explanation": "Pomegranate juice has 156.17 mg/100 mL gallagyl-type tannins, while walnuts are presence-only. No second compatible quantified pool; preserve tannin analytical definition and volume basis."
+  },
+  {
+    "substance": "epicatechin",
+    "targets": [
+      "BRS5-FM2-PM6|epicatechin"
+    ],
+    "categories": [
+      "compositional",
+      "mapping-related"
+    ],
+    "explanation": "Canonical cacao/cocoa/chocolate values are representative or approximate/unverified and have material-context limitations; not verified ranking inputs."
+  }
+]

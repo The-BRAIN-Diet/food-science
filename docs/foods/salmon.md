@@ -75,6 +75,192 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
 nutrition_supplementary_sources:
+  - key: arginine_recovered_fdc_175167
+    label: Arginine
+    substance_id: arginine
+    value: 1.221
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, salmon, Atlantic, farmed, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/175167/nutrients
+    source_reference: '#food-source-6'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+    fdc_id: 175167
+    food_nutrient_id: 1918063
+    source_derivation_id: A
+    source_data_points: 0
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tyrosine_recovered_fdc_175167
+    label: Tyrosine
+    substance_id: tyrosine
+    value: 0.759
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, salmon, Atlantic, farmed, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/175167/nutrients
+    source_reference: '#food-source-6'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+    fdc_id: 175167
+    food_nutrient_id: 1918101
+    source_derivation_id: A
+    source_data_points: 0
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: phenylalanine_recovered_fdc_175168
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 0.863
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, salmon, Atlantic, farmed, cooked, dry heat
+    preparation_state: cooked
+    source_url: https://fdc.nal.usda.gov/food-details/175168/nutrients
+    source_reference: '#food-source-5'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 175168
+    food_nutrient_id: '1918234'
+    source_derivation_id: ''
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tryptophan_recovered_fdc_175168
+    label: Tryptophan
+    substance_id: tryptophan
+    value: 0.248
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, salmon, Atlantic, farmed, cooked, dry heat
+    preparation_state: cooked
+    source_url: https://fdc.nal.usda.gov/food-details/175168/nutrients
+    source_reference: '#food-source-5'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 175168
+    food_nutrient_id: '1918231'
+    source_derivation_id: ''
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: glycine_fdc_175167_g
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+    label: Glycine
+    substance_id: glycine
+    value: 0.96
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, salmon, Atlantic, farmed, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/175167/nutrients
+    source_reference: '#food-source-4'
+    source_note: >-
+      Fish, salmon, Atlantic, farmed, raw. USDA derivation: Analytical. Raw-food composition does not establish
+      cooked-food retention, digestibility, brain delivery or intervention efficacy.
+    public_note: Raw-food composition; USDA analytical value.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    nutrition_panel_eligible: true
+    source_group: USDA SR Legacy 175167
+    food_nutrient_id: 1918104
+    food_nutrient_derivation:
+      id: 1
+      code: A
+      description: Analytical
+      foodNutrientSource:
+        id: 1
+        code: '1'
+        description: Analytical or derived from analytical
+    data_points: 0
+    limitations: >-
+      Fish, salmon, Atlantic, farmed, raw. USDA derivation: Analytical. Raw-food composition does not establish
+      cooked-food retention, digestibility, brain delivery or intervention efficacy.
+  - key: serine_fdc_175167_g
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+    label: Serine
+    substance_id: serine
+    value: 0.896
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, salmon, Atlantic, farmed, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/175167/nutrients
+    source_reference: '#food-source-4'
+    source_note: >-
+      Fish, salmon, Atlantic, farmed, raw. USDA derivation: Analytical. Raw-food composition does not establish
+      cooked-food retention, digestibility, brain delivery or intervention efficacy.
+    public_note: Raw-food composition; USDA analytical value.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    nutrition_panel_eligible: true
+    source_group: USDA SR Legacy 175167
+    food_nutrient_id: 1918066
+    food_nutrient_derivation:
+      id: 1
+      code: A
+      description: Analytical
+      foodNutrientSource:
+        id: 1
+        code: '1'
+        description: Analytical or derived from analytical
+    data_points: 0
+    limitations: >-
+      Fish, salmon, Atlantic, farmed, raw. USDA derivation: Analytical. Raw-food composition does not establish
+      cooked-food retention, digestibility, brain delivery or intervention efficacy.
+  - key: phenylalanine_fdc_175167_g
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 0.845
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, salmon, Atlantic, farmed, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/175167/nutrients
+    source_reference: '#food-source-4'
+    source_note: >-
+      Fish, salmon, Atlantic, farmed, raw. USDA derivation: Analytical. Raw-food composition does not establish
+      cooked-food retention, digestibility, brain delivery or intervention efficacy.
+    public_note: Raw-food composition; USDA analytical value.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    nutrition_panel_eligible: true
+    source_group: USDA SR Legacy 175167
+    food_nutrient_id: 1918100
+    food_nutrient_derivation:
+      id: 1
+      code: A
+      description: Analytical
+      foodNutrientSource:
+        id: 1
+        code: '1'
+        description: Analytical or derived from analytical
+    data_points: 0
+    limitations: >-
+      Fish, salmon, Atlantic, farmed, raw. USDA derivation: Analytical. Raw-food composition does not establish
+      cooked-food retention, digestibility, brain delivery or intervention efficacy.
   - key: astaxanthin_mg
     label: Astaxanthin
     notes: >-
@@ -103,6 +289,108 @@ main_image: /img/foods/salmon/salmon_medium.webp
 legacy_list_image: /img/foods/salmon/salmon_thumb.webp
 legacy_main_image: /img/foods/salmon/salmon_medium.webp
 substance_relationships:
+  - substance: Arginine
+    substance_id: arginine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/175167/nutrients
+    source_reference: '#food-source-6'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Fish, salmon, Atlantic, farmed, raw
+    preparation_state: raw
+    requires_supplementary_key: arginine_recovered_fdc_175167
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/175167/nutrients
+    source_reference: '#food-source-6'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Fish, salmon, Atlantic, farmed, raw
+    preparation_state: raw
+    requires_supplementary_key: tyrosine_recovered_fdc_175167
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier A, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/175168/nutrients
+    source_reference: '#food-source-5'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Fish, salmon, Atlantic, farmed, cooked, dry heat
+    preparation_state: cooked
+    requires_supplementary_key: phenylalanine_recovered_fdc_175168
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: Tryptophan
+    substance_id: tryptophan
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/175168/nutrients
+    source_reference: '#food-source-5'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Fish, salmon, Atlantic, farmed, cooked, dry heat
+    preparation_state: cooked
+    requires_supplementary_key: tryptophan_recovered_fdc_175168
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: Glycine
+    substance_id: glycine
+    relationship: contains
+    description: USDA FoodData Central records glycine in this exact raw food. No dietary intervention efficacy inferred.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy 175167
+    evidence_material: Fish, salmon, Atlantic, farmed, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/175167/nutrients
+    source_reference: '#food-source-4'
+    requires_supplementary_key: glycine_fdc_175167_g
+  - substance: Serine
+    substance_id: serine
+    relationship: contains
+    description: USDA FoodData Central records serine in this exact raw food. No dietary intervention efficacy inferred.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy 175167
+    evidence_material: Fish, salmon, Atlantic, farmed, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/175167/nutrients
+    source_reference: '#food-source-4'
+    requires_supplementary_key: serine_fdc_175167_g
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    description: >-
+      USDA FoodData Central records phenylalanine in this exact raw food. No dietary intervention efficacy
+      inferred.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy 175167
+    evidence_material: Fish, salmon, Atlantic, farmed, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/175167/nutrients
+    source_reference: '#food-source-4'
+    requires_supplementary_key: phenylalanine_fdc_175167_g
   - substance: Methionine
     relationship: contains
     description: >-
@@ -336,3 +624,11 @@ This food provides a complete essential amino acid profile typical of animal pro
 <span id="food-source-4" />
 
 [4] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/175167/nutrients)
+
+<span id="food-source-5" />
+
+[5] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 175168: Fish, salmon, Atlantic, farmed, cooked, dry heat. These observations retain their own preparation state.
+
+<span id="food-source-6" />
+
+[6] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 175167: Fish, salmon, Atlantic, farmed, raw. These observations retain their own preparation state.

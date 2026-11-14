@@ -708,5 +708,445 @@
     "contract": "system/brs-citation-reference-standard.md",
     "example": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
     "scope": "Approved LAT1 relocation with canonical linked reference labels; no scientific change."
+  },
+  {
+    "file": "docs/biological-targets/mitochondrial-function-bioenergetics.md",
+    "sha256": "8ecc817ba5ad6ea997e6394d8ad14eaa76e8e43f4897aac748200ba9c0a409e2",
+    "author_approval": "Original CoQ PM implementation authorised relevant index updates using existing generators.",
+    "approval_source": "CODEX EXEC — BRS4 Coenzyme Q Biosynthesis & Pool Availability, implementation requirement 8; current report of missing PM10 in BRS4 overview.",
+    "proposal": "review/coq-principle-provenance-2026-11-05/hub-repair.md",
+    "contract": "system/brs-page-schema.md",
+    "example": "docs/biological-targets/mitochondrial-function-bioenergetics.md",
+    "scope": "Restore existing PM10 navigation in the two existing BRS4 generated mechanism lists; no new presentation structure."
+  },
+  {
+    "file": "docs/foods/olive-oil.md",
+    "sha256": "20485d8fa0944d485f2bc3e33df0b195668ba3ce3b3000d88a49937736923984",
+    "author_approval": "Author explicitly requested CoQ10 food-substance additions where missing and original-reference research.",
+    "approval_source": "CoQ10 — priority investigation, 5 November 2026: add if not already present on the olive oil page as a substance and bioactive.",
+    "proposal": "review/coq-food-provision-2026-11-05/report.md",
+    "contract": "system/food-page-schema.md",
+    "example": "docs/foods/olive-oil.md",
+    "scope": "Existing food substance relationships and References only; no new presentation component or PM admission."
+  },
+  {
+    "file": "docs/foods/extra-virgin-olive-oil.md",
+    "sha256": "206d43a998f899edaee1c2d95e5fb21d4f2e273271dd18872d3c09c187f447c9",
+    "author_approval": "Author explicitly requested CoQ10 food-substance additions where missing and original-reference research.",
+    "approval_source": "CoQ10 — priority investigation, 5 November 2026: add if not already present on the olive oil page as a substance and bioactive.",
+    "proposal": "review/coq-food-provision-2026-11-05/report.md",
+    "contract": "system/food-page-schema.md",
+    "example": "docs/foods/extra-virgin-olive-oil.md",
+    "scope": "Existing food substance relationships and References only; no new presentation component or PM admission."
+  },
+  {
+    "file": "docs/foods/heart.md",
+    "sha256": "53c972a17402c9035f67815a3df1962c6ae08cd88bd3131449c5374ff34bfef0",
+    "author_approval": "Author approved targeted CoQ10 food, substance and PM integration, 5 November 2026.",
+    "approval_source": "CODEX EXEC — CoQ10 Food, Substance & PM Integration; sections 2–4",
+    "proposal": "review/coq-integration-2026-11-05/report.md",
+    "contract": "system/substance-page-schema.md",
+    "example": "docs/foods/heart.md",
+    "scope": "Existing food/substance structures, references and PM overview navigation only. No new panels, admissions or scores."
+  },
+  {
+    "file": "docs/foods/early-harvest-olive-oil.md",
+    "sha256": "f2a9ef3f3bc83daaabf7687c45a38a321fa1539515d449f95b79108b8d177142",
+    "author_approval": "Author approved targeted CoQ10 food, substance and PM integration, 5 November 2026.",
+    "approval_source": "CODEX EXEC — CoQ10 Food, Substance & PM Integration; sections 2–4",
+    "proposal": "review/coq-integration-2026-11-05/report.md",
+    "contract": "system/substance-page-schema.md",
+    "example": "docs/foods/early-harvest-olive-oil.md",
+    "scope": "Existing food/substance structures, references and PM overview navigation only. No new panels, admissions or scores."
+  },
+  {
+    "file": "docs/foods/pistachios.md",
+    "sha256": "fbbd6adce3658442d5db11a632579f2d05a4fe6749797cbc30b33d16527d978f",
+    "author_approval": "Author approved targeted CoQ10 food, substance and PM integration, 5 November 2026.",
+    "approval_source": "CODEX EXEC — CoQ10 Food, Substance & PM Integration; sections 2–4",
+    "proposal": "review/coq-integration-2026-11-05/report.md",
+    "contract": "system/substance-page-schema.md",
+    "example": "docs/foods/pistachios.md",
+    "scope": "Existing food/substance structures, references and PM overview navigation only. No new panels, admissions or scores."
+  },
+  {
+    "file": "docs/substances/bioactive-compounds/lipid-based/coq10.md",
+    "sha256": "3da7a22dd0d592dccee3c4e7c32430542411e8ad22ce0403c4a193010e558ac2",
+    "author_approval": "Author approved targeted CoQ10 food, substance and PM integration, 5 November 2026.",
+    "approval_source": "CODEX EXEC — CoQ10 Food, Substance & PM Integration; sections 2–4",
+    "proposal": "review/coq-integration-2026-11-05/report.md",
+    "contract": "system/substance-page-schema.md",
+    "example": "docs/substances/bioactive-compounds/lipid-based/coq10.md",
+    "scope": "Existing food/substance structures, references and PM overview navigation only. No new panels, admissions or scores."
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx",
+    "sha256": "9d92082e726a8f6e3316c4670f208f21e648b74b34d958de72e5145dbcb24d56",
+    "author_approval": "Author approved targeted CoQ10 food, substance and PM integration, 5 November 2026.",
+    "approval_source": "CODEX EXEC — CoQ10 Food, Substance & PM Integration; sections 2–4",
+    "proposal": "review/coq-integration-2026-11-05/report.md",
+    "contract": "system/substance-page-schema.md",
+    "example": "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx",
+    "scope": "Existing food/substance structures, references and PM overview navigation only. No new panels, admissions or scores."
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx",
+    "sha256": "e96b3996c4b40fd03c5aa1df821697dbe33168455d13fa6b344c3377bab6bfa5",
+    "author_approval": "Author approved targeted CoQ10 food, substance and PM integration, 5 November 2026.",
+    "approval_source": "CODEX EXEC — CoQ10 Food, Substance & PM Integration; sections 2–4",
+    "proposal": "review/coq-integration-2026-11-05/report.md",
+    "contract": "system/substance-page-schema.md",
+    "example": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx",
+    "scope": "Existing food/substance structures, references and PM overview navigation only. No new panels, admissions or scores."
+  },
+  {
+    "file": "docs/substances/bioactive-compounds/lipid-based/coq10.md",
+    "sha256": "161ec9796fb03e009ae2b59382cb72ce5255bd3ce426cb382b3343272e7239d2",
+    "author_approval": "Author explicitly approved bounded ADHD substance presentation and linked PM10 summary.",
+    "approval_source": "5 November 2026: complete independent clinical SEC appraisal and add bounded ADHD evidence; no commit/push.",
+    "proposal": "review/coq-adhd-clinical-2026-11-05/report.md",
+    "contract": "system/substance-page-schema.md",
+    "example": "docs/substances/bioactive-compounds/lipid-based/coq10.md",
+    "scope": "Existing TherapeuticAreaResearch and Collapse; clinical context only, no new admissions or numerical SEC."
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx",
+    "sha256": "e96b3996c4b40fd03c5aa1df821697dbe33168455d13fa6b344c3377bab6bfa5",
+    "author_approval": "Author explicitly approved bounded ADHD substance presentation and linked PM10 summary.",
+    "approval_source": "5 November 2026: complete independent clinical SEC appraisal and add bounded ADHD evidence; no commit/push.",
+    "proposal": "review/coq-adhd-clinical-2026-11-05/report.md",
+    "contract": "system/substance-page-schema.md",
+    "example": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx",
+    "scope": "Existing TherapeuticAreaResearch and Collapse; clinical context only, no new admissions or numerical SEC."
+  },
+  {
+    "file": "src/components/PilotInterventionDisclosure.tsx",
+    "sha256": "77ddc0d48292edc96603c3f4d1724c6b87fd0662a6d3ff9bfc78daf092a86aa0",
+    "author_approval": "Author approval: PM presentation and derived mapping implementation — 6 November 2026",
+    "approval_source": "Current author instruction: CODEX EXEC — PM SOP & Lifestyle Food–Substance Integration",
+    "proposal": "review/intervention-food-substance-2026-11-06/proposal.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/intervention-food-substance-2026-11-06/proposal.md",
+    "scope": "PM SOP/Lifestyle title-adjacent canonical identity/composition links only; no dietary admissions, scores or other page types"
+  },
+  {
+    "file": "src/components/PmDietaryLeverEnhancer.tsx",
+    "sha256": "2702f4d963731bdb0c8de92397c608d3d16e43a87bf58d64bb3198447b066e27",
+    "author_approval": "Author approval: PM presentation and derived mapping implementation — 6 November 2026",
+    "approval_source": "Current author instruction: CODEX EXEC — PM SOP & Lifestyle Food–Substance Integration",
+    "proposal": "review/intervention-food-substance-2026-11-06/proposal.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/intervention-food-substance-2026-11-06/proposal.md",
+    "scope": "PM SOP/Lifestyle title-adjacent canonical identity/composition links only; no dietary admissions, scores or other page types"
+  },
+  {
+    "file": "system/templates/primary-mechanism-template.mdx",
+    "sha256": "16055199708fb74beb7ae6b6e33b60f4524552cb339e8155508d578a658678eb",
+    "author_approval": "Author approval: PM presentation and derived mapping implementation — 6 November 2026",
+    "approval_source": "Current author instruction: CODEX EXEC — PM SOP & Lifestyle Food–Substance Integration",
+    "proposal": "review/intervention-food-substance-2026-11-06/proposal.md",
+    "contract": "system/sop-lifestyle-six-atom-presentation.md",
+    "example": "review/intervention-food-substance-2026-11-06/proposal.md",
+    "scope": "PM SOP/Lifestyle title-adjacent canonical identity/composition links only; no dietary admissions, scores or other page types"
+  },
+  {
+    "file": "docs/foods/almonds.md",
+    "sha256": "d527ddff54436f90571861a71df9fe51b86365e253ab44494008c50d659612e0",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/almonds.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/amaranth.md",
+    "sha256": "ef64d497f0f9aca2869993ffaade5c5591e7453f5e09788723ba65594c58516a",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/amaranth.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/apples.md",
+    "sha256": "ac03359b3862829c067baecb05bf076efe538f9d030bf2857290b513c221dc45",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/apples.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/beef.md",
+    "sha256": "89bdb24a50b8369880743b4ac4cc1904a2207ef231dc75360b35514229381609",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/beef.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/beetroot.md",
+    "sha256": "10fc7a1b361c9858a79dab2f5baef1bcb2201b7aab18e27b7aa9049e600ab66c",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/beetroot.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/carrots.md",
+    "sha256": "6b1d1387ade4a60560315fc4f56a395b0db7a9792db0f90e8991da1e095e2793",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/carrots.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/cheddar-cheese.md",
+    "sha256": "fb5ed94a36c80fd8b329989f21b69bd30080e91c0179a31c5da7ebfb3def01b9",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/cheddar-cheese.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/chicken.md",
+    "sha256": "61aa30d5bc967c57ae639471dce20936879d4f3efbf3e1e2b48f9fb15cbeee3e",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/chicken.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/chickpeas.md",
+    "sha256": "39fa5a12ef09a6a6ee087bef56eee74c70e66b5c5e3cbe12a4db0be8ac486dd1",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/chickpeas.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/eggs.md",
+    "sha256": "04b9c8d57be2c7c9710d8890feded9b91c5668e4ea341288291875b9b32e3c05",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/eggs.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/kidney-beans.md",
+    "sha256": "dab44e54a1ba7f83c0b54a5dc4a239745977e67343c81da2723f5c9ec42d240a",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/kidney-beans.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/lentils.md",
+    "sha256": "677a9a5fb78e06c31e88ee220e99cf3861807b47fd2f93f68ced075a4bfdbd1a",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/lentils.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/milk.md",
+    "sha256": "ce82dd5ffdaba2e8ac3f95986ebe8a2e5ba2fbc15e33e8f1e3d32513c21b3e83",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/milk.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/miso.md",
+    "sha256": "fbb652d1969f179ef31c30dd760459712ff23d95e2a6e81964a6b3867cddc2fa",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/miso.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/mussels.md",
+    "sha256": "43545602427a21e7b2e37fd78c89931619a1fd39edc851c725cb8c3240ac2165",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/mussels.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/oats.md",
+    "sha256": "b2372b64e54098abab379a1e9302052f931fa1383ac0bad6c103de7ebf6d93d0",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/oats.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/peanuts.md",
+    "sha256": "b46968fcfc21d0299b4fb4bb9c8ac39ca00767363cc3e687ea2077970f538638",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/peanuts.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/pork.md",
+    "sha256": "7d40150be3b077a2b00f08d1a05a6e06cf68661828a99bb50be541a1d92bd7ae",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/pork.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/potatoes.md",
+    "sha256": "f60d2e375ca81739efdf97a2aebb553d33f054c8dcf55eea6f85803e55a95e26",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/potatoes.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/pumpkin-seeds.md",
+    "sha256": "66aa857bbdade8a2720a0cffabc2d99dd83b9fb6371b8c320b5ceb6c45fb5535",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/pumpkin-seeds.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/quinoa.md",
+    "sha256": "3985ea3f3055a9b7c3eb2fd11bd4af727528068f84c621c03049419b893a4129",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/quinoa.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/salmon.md",
+    "sha256": "f25a9174a1b22f3135dd5e47ff082ed8c623e3e8a035de2786b4c381fcb65d92",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/salmon.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/sardines.md",
+    "sha256": "15d599d3d5655abd3f4a357fa399fbb67d0367f5311d0835654333420e2d7065",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/sardines.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/soy.md",
+    "sha256": "4e911eaebaba0cecf92aae5c835d6369f33727fc061fb30a303ad137f7610be0",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/soy.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/spinach.md",
+    "sha256": "5bc5873ffb4cafdcf5f6038a0fc9ec116f5ce8251b3970172adb9ca81f423de7",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/spinach.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/sunflower-seeds.md",
+    "sha256": "4552f95c40b7ae73ed4c23f2d7a28b8d5ea1f3ed99782c1870aa30fee7585385",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/sunflower-seeds.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/tofu.md",
+    "sha256": "1b3f3e22d8634f44efb2d875ea2fcbc9b572d31d8876369aa98af17e52846c24",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/tofu.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/tuna.md",
+    "sha256": "80632270703abf73e7563c1f043cc1a059801c0702ffbbbb7f358ded38d3d83d",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/tuna.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/turkey.md",
+    "sha256": "582c4db36762599aeb9f8320f9ad94ae4dd932188719899a62a323f2835ec0cc",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/turkey.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
+  },
+  {
+    "file": "docs/foods/wheat-germ.md",
+    "sha256": "b1c7ebbfc0f8b8dff99701b87915d9316c05ac2dfd02b2805f83cb2836f99d52",
+    "author_approval": "Author-approved food-composition backfill and source-reference repair; existing citation presentation only.",
+    "approval_source": "6 November 2026: Complete PM Food-Source Coverage instruction and continue/finish research and validation; no commit or push.",
+    "proposal": "review/pm-food-source-coverage-2026-11-06/citation-repair-scope.md",
+    "contract": "system/presentation-change-control.md",
+    "example": "docs/foods/wheat-germ.md",
+    "scope": "Append existing-format source citation anchors only; no new sections or components. Verified against pre-task food snapshots."
   }
 ]

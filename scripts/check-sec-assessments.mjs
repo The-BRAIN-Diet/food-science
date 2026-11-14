@@ -3,6 +3,7 @@ import {execFileSync} from 'node:child_process';
 import {loadSecRegistry,validateSecRegistry,resolveSecAssessment,resolveInterventionSecAssessment} from './lib/sec-assessments.mjs';
 import {listMechanismMdxFiles} from './lib/mechanism-page-validation.mjs';
 import matter from 'gray-matter';
+import {scientificPrincipleErrors} from '../src/lib/scientificPrinciples.mjs';
 const registry=loadSecRegistry();
 const requestedBaseline=process.argv[2] || process.env.SEC_BASE_REF;
 if(registry.assessments?.length && !requestedBaseline)throw new Error('SEC_BASE_REF or an explicit published base ref is required to protect nonempty SEC history');
@@ -12,6 +13,7 @@ const previous=baselineFiles?JSON.parse(execFileSync('git',['show',baseline+':sy
 const errors=validateSecRegistry(registry,{previous}), used=new Map();
 for(const file of listMechanismMdxFiles(process.cwd(),'pm')) {
   const data=matter(fs.readFileSync(file,'utf8')).data;
+  errors.push(...scientificPrincipleErrors(data).map(message=>({code:'scientific_principle_invalid',message:file+': '+message})));
   for(const intervention of [...(data.system_optimisation_practices || []),...(data.lifestyle_priorities || [])]) {
     const result=resolveInterventionSecAssessment(registry,{pmId:data.pm_id,intervention});
     errors.push(...result.errors.map(e=>({...e,message:file+': '+e.message})));

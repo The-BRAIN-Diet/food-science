@@ -1,0 +1,471 @@
+[
+  {
+    "pm_id": "BRS-X(Circadian-FM1-PM1)",
+    "record": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx",
+    "accepted_relationships": 0,
+    "structured_atoms": 0,
+    "brs": "BRS-X"
+  },
+  {
+    "pm_id": "BRS-X(Circadian-FM1-PM2)",
+    "record": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation.mdx",
+    "accepted_relationships": 0,
+    "structured_atoms": 0,
+    "brs": "BRS-X"
+  },
+  {
+    "pm_id": "BRS-X(ECS-PM1)",
+    "record": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx",
+    "accepted_relationships": 3,
+    "structured_atoms": 3,
+    "brs": "BRS-X"
+  },
+  {
+    "pm_id": "BRS-X(ECS-PM2)",
+    "record": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx",
+    "accepted_relationships": 2,
+    "structured_atoms": 2,
+    "brs": "BRS-X"
+  },
+  {
+    "pm_id": "BRS-X(ECS-PM3)",
+    "record": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation.mdx",
+    "accepted_relationships": 1,
+    "structured_atoms": 1,
+    "brs": "BRS-X"
+  },
+  {
+    "pm_id": "BRS-X(ECS-PM4)",
+    "record": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation.mdx",
+    "accepted_relationships": 1,
+    "structured_atoms": 1,
+    "brs": "BRS-X"
+  },
+  {
+    "pm_id": "BRS-X(ECS-PM5)",
+    "record": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity.mdx",
+    "accepted_relationships": 0,
+    "structured_atoms": 0,
+    "brs": "BRS-X"
+  },
+  {
+    "pm_id": "BRS-X(Hormones-PM1)",
+    "record": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability.mdx",
+    "accepted_relationships": 0,
+    "structured_atoms": 0,
+    "brs": "BRS-X"
+  },
+  {
+    "pm_id": "BRS-X(Hormones-PM2)",
+    "record": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation.mdx",
+    "accepted_relationships": 1,
+    "structured_atoms": 1,
+    "brs": "BRS-X"
+  },
+  {
+    "pm_id": "BRS-X(Hormones-PM3)",
+    "record": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism.mdx",
+    "accepted_relationships": 2,
+    "structured_atoms": 2,
+    "brs": "BRS-X"
+  },
+  {
+    "pm_id": "BRS-X(Hormones-PM4)",
+    "record": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration.mdx",
+    "accepted_relationships": 0,
+    "structured_atoms": 0,
+    "brs": "BRS-X"
+  },
+  {
+    "pm_id": "BRS-X(Hormones-PM5)",
+    "record": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability.mdx",
+    "accepted_relationships": 2,
+    "structured_atoms": 2,
+    "brs": "BRS-X"
+  },
+  {
+    "pm_id": "BRS-X(Hormones-PM6)",
+    "record": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation.mdx",
+    "accepted_relationships": 1,
+    "structured_atoms": 1,
+    "brs": "BRS-X"
+  },
+  {
+    "pm_id": "BRS1-FM1-PM1",
+    "record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+    "accepted_relationships": 3,
+    "structured_atoms": 3,
+    "brs": "BRS1"
+  },
+  {
+    "pm_id": "BRS1-FM1-PM2",
+    "record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+    "accepted_relationships": 2,
+    "structured_atoms": 2,
+    "brs": "BRS1"
+  },
+  {
+    "pm_id": "BRS1-FM1-PM3",
+    "record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+    "accepted_relationships": 14,
+    "structured_atoms": 12,
+    "brs": "BRS1"
+  },
+  {
+    "pm_id": "BRS1-FM1-PM4",
+    "record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
+    "accepted_relationships": 15,
+    "structured_atoms": 13,
+    "brs": "BRS1"
+  },
+  {
+    "pm_id": "BRS1-FM1-PM5",
+    "record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+    "accepted_relationships": 7,
+    "structured_atoms": 7,
+    "brs": "BRS1"
+  },
+  {
+    "pm_id": "BRS1-FM2-PM6",
+    "record": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
+    "accepted_relationships": 6,
+    "structured_atoms": 6,
+    "brs": "BRS1"
+  },
+  {
+    "pm_id": "BRS1-FM3-PM7",
+    "record": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+    "accepted_relationships": 6,
+    "structured_atoms": 5,
+    "brs": "BRS1"
+  },
+  {
+    "pm_id": "BRS1-FM4-PM10",
+    "record": "docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling.mdx",
+    "accepted_relationships": 2,
+    "structured_atoms": 2,
+    "brs": "BRS1"
+  },
+  {
+    "pm_id": "BRS1-FM4-PM11",
+    "record": "docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx",
+    "accepted_relationships": 1,
+    "structured_atoms": 1,
+    "brs": "BRS1"
+  },
+  {
+    "pm_id": "BRS1-FM4-PM9",
+    "record": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
+    "accepted_relationships": 3,
+    "structured_atoms": 3,
+    "brs": "BRS1"
+  },
+  {
+    "pm_id": "BRS1-FM5-PM12",
+    "record": "docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx",
+    "accepted_relationships": 3,
+    "structured_atoms": 3,
+    "brs": "BRS1"
+  },
+  {
+    "pm_id": "BRS2-FM1-PM1",
+    "record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+    "accepted_relationships": 7,
+    "structured_atoms": 7,
+    "brs": "BRS2"
+  },
+  {
+    "pm_id": "BRS2-FM1-PM2",
+    "record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+    "accepted_relationships": 4,
+    "structured_atoms": 4,
+    "brs": "BRS2"
+  },
+  {
+    "pm_id": "BRS2-FM1-PM3",
+    "record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx",
+    "accepted_relationships": 9,
+    "structured_atoms": 8,
+    "brs": "BRS2"
+  },
+  {
+    "pm_id": "BRS2-FM1-PM4",
+    "record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx",
+    "accepted_relationships": 10,
+    "structured_atoms": 9,
+    "brs": "BRS2"
+  },
+  {
+    "pm_id": "BRS2-FM2-PM5",
+    "record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx",
+    "accepted_relationships": 8,
+    "structured_atoms": 6,
+    "brs": "BRS2"
+  },
+  {
+    "pm_id": "BRS2-FM2-PM6",
+    "record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx",
+    "accepted_relationships": 7,
+    "structured_atoms": 7,
+    "brs": "BRS2"
+  },
+  {
+    "pm_id": "BRS2-FM3-PM7",
+    "record": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx",
+    "accepted_relationships": 12,
+    "structured_atoms": 11,
+    "brs": "BRS2"
+  },
+  {
+    "pm_id": "BRS3-FM1-PM1",
+    "record": "docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx",
+    "accepted_relationships": 4,
+    "structured_atoms": 3,
+    "brs": "BRS3"
+  },
+  {
+    "pm_id": "BRS3-FM1-PM2",
+    "record": "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx",
+    "accepted_relationships": 4,
+    "structured_atoms": 3,
+    "brs": "BRS3"
+  },
+  {
+    "pm_id": "BRS3-FM2-PM3",
+    "record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
+    "accepted_relationships": 1,
+    "structured_atoms": 1,
+    "brs": "BRS3"
+  },
+  {
+    "pm_id": "BRS3-FM2-PM4",
+    "record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx",
+    "accepted_relationships": 6,
+    "structured_atoms": 6,
+    "brs": "BRS3"
+  },
+  {
+    "pm_id": "BRS3-FM2-PM5",
+    "record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx",
+    "accepted_relationships": 2,
+    "structured_atoms": 2,
+    "brs": "BRS3"
+  },
+  {
+    "pm_id": "BRS3-FM2-PM6",
+    "record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx",
+    "accepted_relationships": 5,
+    "structured_atoms": 5,
+    "brs": "BRS3"
+  },
+  {
+    "pm_id": "BRS3-FM3-PM7",
+    "record": "docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx",
+    "accepted_relationships": 1,
+    "structured_atoms": 1,
+    "brs": "BRS3"
+  },
+  {
+    "pm_id": "BRS3-FM3-PM8",
+    "record": "docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx",
+    "accepted_relationships": 2,
+    "structured_atoms": 2,
+    "brs": "BRS3"
+  },
+  {
+    "pm_id": "BRS4-FM1-PM1",
+    "record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx",
+    "accepted_relationships": 5,
+    "structured_atoms": 5,
+    "brs": "BRS4"
+  },
+  {
+    "pm_id": "BRS4-FM1-PM10",
+    "record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx",
+    "accepted_relationships": 7,
+    "structured_atoms": 7,
+    "brs": "BRS4"
+  },
+  {
+    "pm_id": "BRS4-FM1-PM2",
+    "record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx",
+    "accepted_relationships": 5,
+    "structured_atoms": 5,
+    "brs": "BRS4"
+  },
+  {
+    "pm_id": "BRS4-FM1-PM3",
+    "record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx",
+    "accepted_relationships": 5,
+    "structured_atoms": 5,
+    "brs": "BRS4"
+  },
+  {
+    "pm_id": "BRS4-FM2-PM4",
+    "record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx",
+    "accepted_relationships": 4,
+    "structured_atoms": 4,
+    "brs": "BRS4"
+  },
+  {
+    "pm_id": "BRS4-FM2-PM5",
+    "record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx",
+    "accepted_relationships": 6,
+    "structured_atoms": 6,
+    "brs": "BRS4"
+  },
+  {
+    "pm_id": "BRS4-FM3-PM6",
+    "record": "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx",
+    "accepted_relationships": 2,
+    "structured_atoms": 2,
+    "brs": "BRS4"
+  },
+  {
+    "pm_id": "BRS4-FM3-PM7",
+    "record": "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx",
+    "accepted_relationships": 3,
+    "structured_atoms": 3,
+    "brs": "BRS4"
+  },
+  {
+    "pm_id": "BRS4-FM3-PM8",
+    "record": "docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx",
+    "accepted_relationships": 0,
+    "structured_atoms": 0,
+    "brs": "BRS4"
+  },
+  {
+    "pm_id": "BRS4-FM4-PM9",
+    "record": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+    "accepted_relationships": 0,
+    "structured_atoms": 0,
+    "brs": "BRS4"
+  },
+  {
+    "pm_id": "BRS5-FM1-PM1",
+    "record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+    "accepted_relationships": 10,
+    "structured_atoms": 9,
+    "brs": "BRS5"
+  },
+  {
+    "pm_id": "BRS5-FM1-PM2",
+    "record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx",
+    "accepted_relationships": 6,
+    "structured_atoms": 6,
+    "brs": "BRS5"
+  },
+  {
+    "pm_id": "BRS5-FM1-PM3",
+    "record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx",
+    "accepted_relationships": 2,
+    "structured_atoms": 2,
+    "brs": "BRS5"
+  },
+  {
+    "pm_id": "BRS5-FM2-PM4",
+    "record": "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
+    "accepted_relationships": 5,
+    "structured_atoms": 4,
+    "brs": "BRS5"
+  },
+  {
+    "pm_id": "BRS5-FM2-PM5",
+    "record": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+    "accepted_relationships": 8,
+    "structured_atoms": 7,
+    "brs": "BRS5"
+  },
+  {
+    "pm_id": "BRS5-FM2-PM6",
+    "record": "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx",
+    "accepted_relationships": 3,
+    "structured_atoms": 3,
+    "brs": "BRS5"
+  },
+  {
+    "pm_id": "BRS5-FM3-PM7",
+    "record": "docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx",
+    "accepted_relationships": 4,
+    "structured_atoms": 4,
+    "brs": "BRS5"
+  },
+  {
+    "pm_id": "BRS5-FM3-PM8",
+    "record": "docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx",
+    "accepted_relationships": 4,
+    "structured_atoms": 3,
+    "brs": "BRS5"
+  },
+  {
+    "pm_id": "BRS6-FM1-PM1",
+    "record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx",
+    "accepted_relationships": 0,
+    "structured_atoms": 0,
+    "brs": "BRS6"
+  },
+  {
+    "pm_id": "BRS6-FM1-PM2",
+    "record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx",
+    "accepted_relationships": 0,
+    "structured_atoms": 0,
+    "brs": "BRS6"
+  },
+  {
+    "pm_id": "BRS6-FM1-PM3",
+    "record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+    "accepted_relationships": 2,
+    "structured_atoms": 2,
+    "brs": "BRS6"
+  },
+  {
+    "pm_id": "BRS6-FM2-PM4",
+    "record": "docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx",
+    "accepted_relationships": 0,
+    "structured_atoms": 0,
+    "brs": "BRS6"
+  },
+  {
+    "pm_id": "BRS6-FM3-PM6",
+    "record": "docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx",
+    "accepted_relationships": 0,
+    "structured_atoms": 0,
+    "brs": "BRS6"
+  },
+  {
+    "pm_id": "BRS6-FM3-PM7",
+    "record": "docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx",
+    "accepted_relationships": 0,
+    "structured_atoms": 0,
+    "brs": "BRS6"
+  },
+  {
+    "pm_id": "BRS6-FM4-PM8",
+    "record": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
+    "accepted_relationships": 1,
+    "structured_atoms": 1,
+    "brs": "BRS6"
+  },
+  {
+    "pm_id": "BRS6-FM4-PM9",
+    "record": "docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation.mdx",
+    "accepted_relationships": 0,
+    "structured_atoms": 0,
+    "brs": "BRS6"
+  },
+  {
+    "pm_id": "BRS-X(Circadian-FM1-PM3)",
+    "record": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm3-melatonin-biosynthesis-and-availability.mdx",
+    "accepted_relationships": 3,
+    "structured_atoms": 3,
+    "brs": "BRS-X"
+  },
+  {
+    "pm_id": "BRS-X(Hormones-PM7)",
+    "record": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm7-circulating-sex-hormone-availability.mdx",
+    "accepted_relationships": 0,
+    "structured_atoms": 0,
+    "brs": "BRS-X"
+  }
+]

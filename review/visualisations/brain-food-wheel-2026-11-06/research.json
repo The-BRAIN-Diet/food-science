@@ -1,0 +1,544 @@
+{
+  "date": "2026-11-06",
+  "scope": "Targeted source verification; no canonical edits or admissions",
+  "proposals": [
+    {
+      "food_id": "milk",
+      "substance_id": "nicotinamide-riboside",
+      "value": 3.1,
+      "uncertainty": "\u00b11.6",
+      "unit": "\u00b5mol/L",
+      "basis": "per litre",
+      "preparation": "Commercial conventional skim milk; four brands",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6879052/",
+      "method": "LC-MS/MS with isotope dilution, Table 3",
+      "limitation": "Sample-specific mean; organic samples differed. Not the whole-milk nutrition panel. No density conversion or supplement-dose equivalence.",
+      "status": "Proposed",
+      "access": "Full text methods/results inspected"
+    },
+    {
+      "food_id": "milk",
+      "substance_id": "nicotinamide",
+      "value": 5.2,
+      "uncertainty": "\u00b13.4",
+      "unit": "\u00b5mol/L",
+      "basis": "per litre",
+      "preparation": "Commercial conventional skim milk; four brands",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6879052/",
+      "method": "LC-MS/MS with isotope dilution, Table 3",
+      "limitation": "Specific B3 form; not total niacin. NAD+ and nicotinic acid were not quantifiable in these samples.",
+      "status": "Proposed",
+      "access": "Full text methods/results inspected"
+    },
+    {
+      "food_id": "cocoa",
+      "substance_id": "epicatechin",
+      "value": 196.43,
+      "range": [
+        158,
+        258
+      ],
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "preparation": "Dry unsweetened cocoa powder, not alkali-treated",
+      "source": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Flav/Flav3.3.pdf",
+      "method": "USDA flavonoid database 3.3, NDB 19165; 13 observations; (-)-epicatechin",
+      "limitation": "Compilation mean and range, not a universal product value. Alkali-treated powder has a separate profile. No serving assumed.",
+      "status": "Proposed",
+      "access": "Original USDA table inspected, PDF page 114"
+    },
+    {
+      "food_id": "pistachios",
+      "substance_id": "coq10",
+      "range": [
+        10.21,
+        42.16
+      ],
+      "unit": "\u00b5g/g",
+      "basis": "per g analysed kernels",
+      "preparation": "Six named pistachio samples, Turkish Pistachio Research Institute",
+      "source": "https://doi.org/10.3390/molecules28031423",
+      "method": "Nano-liquid chromatography; Table 2 six samples",
+      "limitation": "Range across samples, not all pistachios or roasted preparations. No universal point value; no serving assumed.",
+      "status": "Proposed",
+      "access": "Original-paper Table 2 retrieved in indexed PDF; publisher/PMC HTML blocked during this check"
+    },
+    {
+      "food_id": "oats",
+      "substance_id": "phytate",
+      "preparation": "Oats in tested malting/soaking protocol",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/8958002/",
+      "method": "Larsson et al. 1996 controlled meal study; original abstract",
+      "limitation": "Presence and protocol-specific reduction supported; no generic per-100-g concentration extracted. Absorption effects do not establish uniform effects for all oat preparations.",
+      "status": "Proposed",
+      "access": "Abstract only; no numeric composition backfill"
+    },
+    {
+      "food_id": "beef",
+      "substance_id": "l-carnitine",
+      "range": [
+        42,
+        122
+      ],
+      "unit": "mg",
+      "basis": "per 3 oz cooked steak serving",
+      "preparation": "Cooked beef steak",
+      "source": "https://ods.od.nih.gov/factsheets/Carnitine-HealthProfessional/",
+      "method": "NIH ODS official food table, approximate values compiled from small studies",
+      "limitation": "Estimate, not a newly verified original analytical measurement. Specific cooked steak differs from the canonical raw-ground-beef nutrition panel. Not concentration-ranked.",
+      "status": "Proposed",
+      "estimated": true,
+      "serving": "3 oz cooked steak",
+      "access": "Official table inspected; original study-level ranges not fully retrieved"
+    },
+    {
+      "food_id": "beef",
+      "substance_id": "phenylalanine",
+      "value": 0.725,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "preparation": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "source": "https://fdc.nal.usda.gov/food-details/171796/nutrients",
+      "method": "USDA SR Legacy food nutrient record 1217",
+      "limitation": "Total food amino-acid composition, not free circulating amino acids, digestibility, brain delivery or clinical efficacy. Raw food basis; no cooked-serving conversion.",
+      "status": "Proposed",
+      "access": "Official USDA API record retrieved 6 November 2026",
+      "derivation": {
+        "id": 3,
+        "code": "AR",
+        "description": "Analytical data; derived by linear regression",
+        "foodNutrientSource": {
+          "id": 1,
+          "code": "1",
+          "description": "Analytical or derived from analytical"
+        }
+      },
+      "comparison_group": "USDA-SR-raw-total-amino-acid",
+      "rank_eligible": true
+    },
+    {
+      "food_id": "beef",
+      "substance_id": "glycine",
+      "value": 1.262,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "preparation": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "source": "https://fdc.nal.usda.gov/food-details/171796/nutrients",
+      "method": "USDA SR Legacy food nutrient record 1225",
+      "limitation": "Total food amino-acid composition, not free circulating amino acids, digestibility, brain delivery or clinical efficacy. Raw food basis; no cooked-serving conversion.",
+      "status": "Proposed",
+      "access": "Official USDA API record retrieved 6 November 2026",
+      "derivation": {
+        "id": 3,
+        "code": "AR",
+        "description": "Analytical data; derived by linear regression",
+        "foodNutrientSource": {
+          "id": 1,
+          "code": "1",
+          "description": "Analytical or derived from analytical"
+        }
+      },
+      "comparison_group": "USDA-SR-raw-total-amino-acid",
+      "rank_eligible": true
+    },
+    {
+      "food_id": "beef",
+      "substance_id": "serine",
+      "value": 0.744,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "preparation": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "source": "https://fdc.nal.usda.gov/food-details/171796/nutrients",
+      "method": "USDA SR Legacy food nutrient record 1227",
+      "limitation": "Total food amino-acid composition, not free circulating amino acids, digestibility, brain delivery or clinical efficacy. Raw food basis; no cooked-serving conversion.",
+      "status": "Proposed",
+      "access": "Official USDA API record retrieved 6 November 2026",
+      "derivation": {
+        "id": 3,
+        "code": "AR",
+        "description": "Analytical data; derived by linear regression",
+        "foodNutrientSource": {
+          "id": 1,
+          "code": "1",
+          "description": "Analytical or derived from analytical"
+        }
+      },
+      "comparison_group": "USDA-SR-raw-total-amino-acid",
+      "rank_eligible": true
+    },
+    {
+      "food_id": "eggs",
+      "substance_id": "phenylalanine",
+      "value": 0.68,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "preparation": "Egg, whole, raw, fresh",
+      "source": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+      "method": "USDA SR Legacy food nutrient record 1217",
+      "limitation": "Total food amino-acid composition, not free circulating amino acids, digestibility, brain delivery or clinical efficacy. Raw food basis; no cooked-serving conversion.",
+      "status": "Proposed",
+      "access": "Official USDA API record retrieved 6 November 2026",
+      "derivation": {
+        "id": 1,
+        "code": "A",
+        "description": "Analytical",
+        "foodNutrientSource": {
+          "id": 1,
+          "code": "1",
+          "description": "Analytical or derived from analytical"
+        }
+      },
+      "comparison_group": "USDA-SR-raw-total-amino-acid",
+      "rank_eligible": true
+    },
+    {
+      "food_id": "eggs",
+      "substance_id": "glycine",
+      "value": 0.432,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "preparation": "Egg, whole, raw, fresh",
+      "source": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+      "method": "USDA SR Legacy food nutrient record 1225",
+      "limitation": "Total food amino-acid composition, not free circulating amino acids, digestibility, brain delivery or clinical efficacy. Raw food basis; no cooked-serving conversion.",
+      "status": "Proposed",
+      "access": "Official USDA API record retrieved 6 November 2026",
+      "derivation": {
+        "id": 1,
+        "code": "A",
+        "description": "Analytical",
+        "foodNutrientSource": {
+          "id": 1,
+          "code": "1",
+          "description": "Analytical or derived from analytical"
+        }
+      },
+      "comparison_group": "USDA-SR-raw-total-amino-acid",
+      "rank_eligible": true
+    },
+    {
+      "food_id": "eggs",
+      "substance_id": "serine",
+      "value": 0.971,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "preparation": "Egg, whole, raw, fresh",
+      "source": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+      "method": "USDA SR Legacy food nutrient record 1227",
+      "limitation": "Total food amino-acid composition, not free circulating amino acids, digestibility, brain delivery or clinical efficacy. Raw food basis; no cooked-serving conversion.",
+      "status": "Proposed",
+      "access": "Official USDA API record retrieved 6 November 2026",
+      "derivation": {
+        "id": 1,
+        "code": "A",
+        "description": "Analytical",
+        "foodNutrientSource": {
+          "id": 1,
+          "code": "1",
+          "description": "Analytical or derived from analytical"
+        }
+      },
+      "comparison_group": "USDA-SR-raw-total-amino-acid",
+      "rank_eligible": true
+    },
+    {
+      "food_id": "salmon",
+      "substance_id": "phenylalanine",
+      "value": 0.845,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "preparation": "Fish, salmon, Atlantic, farmed, raw",
+      "source": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
+      "method": "USDA SR Legacy food nutrient record 1217",
+      "limitation": "Total food amino-acid composition, not free circulating amino acids, digestibility, brain delivery or clinical efficacy. Raw food basis; no cooked-serving conversion.",
+      "status": "Proposed",
+      "access": "Official USDA API record retrieved 6 November 2026",
+      "derivation": {
+        "id": 1,
+        "code": "A",
+        "description": "Analytical",
+        "foodNutrientSource": {
+          "id": 1,
+          "code": "1",
+          "description": "Analytical or derived from analytical"
+        }
+      },
+      "comparison_group": "USDA-SR-raw-total-amino-acid",
+      "rank_eligible": true
+    },
+    {
+      "food_id": "salmon",
+      "substance_id": "glycine",
+      "value": 0.96,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "preparation": "Fish, salmon, Atlantic, farmed, raw",
+      "source": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
+      "method": "USDA SR Legacy food nutrient record 1225",
+      "limitation": "Total food amino-acid composition, not free circulating amino acids, digestibility, brain delivery or clinical efficacy. Raw food basis; no cooked-serving conversion.",
+      "status": "Proposed",
+      "access": "Official USDA API record retrieved 6 November 2026",
+      "derivation": {
+        "id": 1,
+        "code": "A",
+        "description": "Analytical",
+        "foodNutrientSource": {
+          "id": 1,
+          "code": "1",
+          "description": "Analytical or derived from analytical"
+        }
+      },
+      "comparison_group": "USDA-SR-raw-total-amino-acid",
+      "rank_eligible": true
+    },
+    {
+      "food_id": "salmon",
+      "substance_id": "serine",
+      "value": 0.896,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "preparation": "Fish, salmon, Atlantic, farmed, raw",
+      "source": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
+      "method": "USDA SR Legacy food nutrient record 1227",
+      "limitation": "Total food amino-acid composition, not free circulating amino acids, digestibility, brain delivery or clinical efficacy. Raw food basis; no cooked-serving conversion.",
+      "status": "Proposed",
+      "access": "Official USDA API record retrieved 6 November 2026",
+      "derivation": {
+        "id": 1,
+        "code": "A",
+        "description": "Analytical",
+        "foodNutrientSource": {
+          "id": 1,
+          "code": "1",
+          "description": "Analytical or derived from analytical"
+        }
+      },
+      "comparison_group": "USDA-SR-raw-total-amino-acid",
+      "rank_eligible": true
+    },
+    {
+      "food_id": "chicken",
+      "substance_id": "phenylalanine",
+      "value": 0.721,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "preparation": "Chicken, broilers or fryers, meat and skin, raw",
+      "source": "https://fdc.nal.usda.gov/food-details/171447/nutrients",
+      "method": "USDA SR Legacy food nutrient record 1217",
+      "limitation": "Total food amino-acid composition, not free circulating amino acids, digestibility, brain delivery or clinical efficacy. Raw food basis; no cooked-serving conversion.",
+      "status": "Proposed",
+      "access": "Official USDA API record retrieved 6 November 2026",
+      "derivation": null,
+      "comparison_group": "USDA-SR-raw-total-amino-acid",
+      "rank_eligible": true
+    },
+    {
+      "food_id": "chicken",
+      "substance_id": "glycine",
+      "value": 1.223,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "preparation": "Chicken, broilers or fryers, meat and skin, raw",
+      "source": "https://fdc.nal.usda.gov/food-details/171447/nutrients",
+      "method": "USDA SR Legacy food nutrient record 1225",
+      "limitation": "Total food amino-acid composition, not free circulating amino acids, digestibility, brain delivery or clinical efficacy. Raw food basis; no cooked-serving conversion.",
+      "status": "Proposed",
+      "access": "Official USDA API record retrieved 6 November 2026",
+      "derivation": null,
+      "comparison_group": "USDA-SR-raw-total-amino-acid",
+      "rank_eligible": true
+    },
+    {
+      "food_id": "chicken",
+      "substance_id": "serine",
+      "value": 0.657,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "preparation": "Chicken, broilers or fryers, meat and skin, raw",
+      "source": "https://fdc.nal.usda.gov/food-details/171447/nutrients",
+      "method": "USDA SR Legacy food nutrient record 1227",
+      "limitation": "Total food amino-acid composition, not free circulating amino acids, digestibility, brain delivery or clinical efficacy. Raw food basis; no cooked-serving conversion.",
+      "status": "Proposed",
+      "access": "Official USDA API record retrieved 6 November 2026",
+      "derivation": null,
+      "comparison_group": "USDA-SR-raw-total-amino-acid",
+      "rank_eligible": true
+    },
+    {
+      "food_id": "soy",
+      "substance_id": "phenylalanine",
+      "value": 2.122,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "preparation": "Soybeans, mature seeds, raw",
+      "source": "https://fdc.nal.usda.gov/food-details/174270/nutrients",
+      "method": "USDA SR Legacy food nutrient record 1217",
+      "limitation": "Total food amino-acid composition, not free circulating amino acids, digestibility, brain delivery or clinical efficacy. Raw food basis; no cooked-serving conversion.",
+      "status": "Proposed",
+      "access": "Official USDA API record retrieved 6 November 2026",
+      "derivation": {
+        "id": 16,
+        "code": "BFSN",
+        "description": "Based on another form of the food or similar food; Concentration adjustment; Solids; Retention factors not used",
+        "foodNutrientSource": {
+          "id": 2,
+          "code": "4",
+          "description": "Calculated or imputed"
+        }
+      },
+      "comparison_group": "USDA-SR-raw-total-amino-acid",
+      "rank_eligible": true
+    },
+    {
+      "food_id": "soy",
+      "substance_id": "glycine",
+      "value": 1.88,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "preparation": "Soybeans, mature seeds, raw",
+      "source": "https://fdc.nal.usda.gov/food-details/174270/nutrients",
+      "method": "USDA SR Legacy food nutrient record 1225",
+      "limitation": "Total food amino-acid composition, not free circulating amino acids, digestibility, brain delivery or clinical efficacy. Raw food basis; no cooked-serving conversion.",
+      "status": "Proposed",
+      "access": "Official USDA API record retrieved 6 November 2026",
+      "derivation": {
+        "id": 16,
+        "code": "BFSN",
+        "description": "Based on another form of the food or similar food; Concentration adjustment; Solids; Retention factors not used",
+        "foodNutrientSource": {
+          "id": 2,
+          "code": "4",
+          "description": "Calculated or imputed"
+        }
+      },
+      "comparison_group": "USDA-SR-raw-total-amino-acid",
+      "rank_eligible": true
+    },
+    {
+      "food_id": "soy",
+      "substance_id": "serine",
+      "value": 2.357,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "preparation": "Soybeans, mature seeds, raw",
+      "source": "https://fdc.nal.usda.gov/food-details/174270/nutrients",
+      "method": "USDA SR Legacy food nutrient record 1227",
+      "limitation": "Total food amino-acid composition, not free circulating amino acids, digestibility, brain delivery or clinical efficacy. Raw food basis; no cooked-serving conversion.",
+      "status": "Proposed",
+      "access": "Official USDA API record retrieved 6 November 2026",
+      "derivation": {
+        "id": 16,
+        "code": "BFSN",
+        "description": "Based on another form of the food or similar food; Concentration adjustment; Solids; Retention factors not used",
+        "foodNutrientSource": {
+          "id": 2,
+          "code": "4",
+          "description": "Calculated or imputed"
+        }
+      },
+      "comparison_group": "USDA-SR-raw-total-amino-acid",
+      "rank_eligible": true
+    }
+  ],
+  "searches": [
+    {
+      "substances": [
+        "coq10"
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/24650117/",
+      "finding": "Olive-oil HPLC study confirmed. Existing mg/L sample means retained in canonical supplementary records; no mass-density conversion. Pistachio sample range proposed separately."
+    },
+    {
+      "substances": [
+        "creatine"
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/22060873/",
+      "finding": "Purchas et al. measured cooked/uncooked beef and lamb; original numerical table not retrieved. No fabricated universal meat value."
+    },
+    {
+      "substances": [
+        "l-carnitine"
+      ],
+      "source": "https://www.sciencedirect.com/science/article/pii/S0308814603004886",
+      "finding": "Demarquoy original radioisotopic food analysis located; exact food-specific table unavailable. NIH serving estimate remains explicitly estimated."
+    },
+    {
+      "substances": [
+        "betaine",
+        "phosphatidylcholine"
+      ],
+      "source": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+      "finding": "USDA release 2 contains betaine and choline moieties. Phosphatidylcholine column is choline contributed by phosphatidylcholine, not phosphatidylcholine molecular mass. No relabelling as PC mg. Exact food/state joins require further reconciliation."
+    },
+    {
+      "substances": [
+        "epicatechin"
+      ],
+      "source": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Flav/Flav3.3.pdf",
+      "finding": "USDA NDB 19165 cocoa quantified; proposed record retains processing and analytical form."
+    },
+    {
+      "substances": [
+        "nicotinamide-riboside",
+        "nicotinamide",
+        "nicotinic-acid",
+        "nad-plus"
+      ],
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6879052/",
+      "finding": "NR and nicotinamide measured in skim milk; nicotinic acid and NAD+ not quantifiable. Do not substitute total niacin or infer NAD+ occurrence."
+    },
+    {
+      "substances": [
+        "cysteine",
+        "glutamine",
+        "glutamate",
+        "glycine",
+        "phenylalanine",
+        "serine"
+      ],
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3249386/",
+      "finding": "Original amino-acid database evaluation distinguishes sequence-derived estimates from hydrolysis measurements, which conflate glutamine/glutamate and cystine/cysteine. Exact canonical food, amino-acid form and analytical joins remain unresolved."
+    },
+    {
+      "substances": [
+        "inulin",
+        "oligofructose",
+        "fructo-galacto-oligosaccharides"
+      ],
+      "source": "https://academic.oup.com/ijfst/article/44/5/947/7864784",
+      "finding": "Original dehydrated garlic/onion FOS storage study located. Dry solids and chain-length definitions cannot be equated with raw-food values or a combined FOS/GOS protocol. No numerical backfill."
+    },
+    {
+      "substances": [
+        "phytate"
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/8958002/",
+      "finding": "Tested oat malting/soaking supports a bounded presence/protocol proposal, not a generic quantity."
+    },
+    {
+      "substances": [
+        "5-methyltetrahydrofolate"
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/12698226/",
+      "finding": "Original isotope-dilution HPLC/MS/MS study located. Vitamer-specific methods support keeping total folate separate; no missing numerical table invented."
+    },
+    {
+      "substances": [
+        "uridine",
+        "arabinan",
+        "pectin"
+      ],
+      "source": null,
+      "finding": "Targeted food/nucleoside and cell-wall composition searches did not yield a verified new exact-food numerical mapping in this pass. Existing qualified records retained; no totals or dry-extract yields relabelled as food concentrations."
+    },
+    {
+      "substances": [
+        "glycine",
+        "serine",
+        "phenylalanine"
+      ],
+      "source": "https://fdc.nal.usda.gov/",
+      "finding": "Five exact canonical food identities verified against USDA API descriptions and IDs; fifteen amino-acid composition mappings proposed. No substitution of free amino-acid concentrations or cooked state."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "BLOCKED",
+  "http_preview": "http://127.0.0.1:3160/food-wheel.html",
+  "http_check": "200; HTML served",
+  "attempts": [
+    "In-app browser attachment timed out",
+    "Chrome browser reported debugger unattached",
+    "Native Chrome inspection reported computer-use permissions not granted"
+  ],
+  "screenshots": [],
+  "interaction_checks": "Not completed; do not claim visual or keyboard verification",
+  "remaining": [
+    "Inspect overview and selected food/substance/BRS-X states",
+    "Verify proposal toggle, keyboard selection and SVG export",
+    "Capture screenshots"
+  ]
+}

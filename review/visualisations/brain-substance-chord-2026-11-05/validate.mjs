@@ -1,0 +1,8 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';import {createHash} from 'node:crypto';import {csvParse} from 'd3';
+const dir=new URL('./',import.meta.url),read=f=>fs.readFileSync(new URL(f,dir),'utf8'),d=JSON.parse(read('network.json'));let checks=0;const check=(v,m)=>{assert(v,m);checks++};
+check(new Set(d.inventory.map(s=>s.id)).size===d.inventory.length,'unique canonical identities');
+for(const s of d.inventory){const n=new Set(d.records.filter(r=>r.substance===s.id&&r.status==='Admitted'&&d.systems.includes(r.brs)).map(r=>r.brs)).size;check(s.reach===n&&s.pairs===n*(n-1)/2,'reach and pairs');if(s.inclusion==='included')check(fs.existsSync('docs/'+s.page.split('#')[0].replace('/docs/','')+'.md')||fs.existsSync('docs/'+s.page.split('#')[0].replace('/docs/','')+'.mdx'),'canonical page exists');}
+for(const e of d.connections){check(e.records.length>0&&e.records.every(r=>r.status!=='Unresolved'),'provenance');if(e.status==='Admitted')check(e.records.some(r=>r.status==='Admitted'&&r.route==='dietary-input'),'no SOP inheritance');}
+check(csvParse(read('substance-inventory.csv')).length===d.inventory.length,'inventory CSV');check(csvParse(read('substance-brs-connections.csv')).length===d.connections.length,'connection CSV');
+for(const [f,h] of Object.entries(JSON.parse(read('source-hashes.json'))))check(createHash('sha256').update(fs.readFileSync(f)).digest('hex')===h,'source unchanged: '+f);
+const report={checks,result:'PASS',inventory:d.inventory.length,connections:d.connections.length,gapsByReason:d.gaps.reduce((a,g)=>(a[g.reason]=(a[g.reason]||0)+1,a),{})};fs.writeFileSync(new URL('validation.json',dir),JSON.stringify(report,null,2));console.log(report);

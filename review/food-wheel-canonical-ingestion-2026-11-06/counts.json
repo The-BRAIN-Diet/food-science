@@ -1,0 +1,10 @@
+{
+  "foods": 174,
+  "mapped_foods": 163,
+  "food_substance_pairs": 2422,
+  "exploratory_pm_edges": 11284,
+  "ranked_pm_edges": 586,
+  "selected_foods": 64,
+  "qualified_targets": 119,
+  "eligible_targets": 151
+}

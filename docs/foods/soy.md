@@ -75,6 +75,162 @@ main_image: /img/foods/soy/soy_large.webp
 legacy_list_image: /img/foods/soy/soy_thumb.webp
 legacy_main_image: /img/foods/soy/soy_large.webp
 nutrition_supplementary_sources:
+  - key: arginine_recovered_fdc_174270
+    label: Arginine
+    substance_id: arginine
+    value: 3.153
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Soybeans, mature seeds, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/174270/nutrients
+    source_reference: '#food-source-8'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier BFSN, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+    fdc_id: 174270
+    food_nutrient_id: 1845153
+    source_derivation_id: BFSN
+    source_data_points: 0
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tyrosine_recovered_fdc_174270
+    label: Tyrosine
+    substance_id: tyrosine
+    value: 1.539
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Soybeans, mature seeds, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/174270/nutrients
+    source_reference: '#food-source-8'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier BFSN, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+    fdc_id: 174270
+    food_nutrient_id: 1845168
+    source_derivation_id: BFSN
+    source_data_points: 0
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: glycine_fdc_174270_g
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+    label: Glycine
+    substance_id: glycine
+    value: 1.88
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Soybeans, mature seeds, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/174270/nutrients
+    source_reference: '#food-source-7'
+    source_note: >-
+      Soybeans, mature seeds, raw. USDA derivation: Based on another form of the food or similar food;
+      Concentration adjustment; Solids; Retention factors not used. Raw-food composition does not establish
+      cooked-food retention, digestibility, brain delivery or intervention efficacy.
+    public_note: Raw-food composition; USDA database value; derivation qualified in source record.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    nutrition_panel_eligible: true
+    source_group: USDA SR Legacy 174270
+    food_nutrient_id: 1845171
+    food_nutrient_derivation:
+      id: 16
+      code: BFSN
+      description: >-
+        Based on another form of the food or similar food; Concentration adjustment; Solids; Retention factors
+        not used
+      foodNutrientSource:
+        id: 2
+        code: '4'
+        description: Calculated or imputed
+    data_points: 0
+    limitations: >-
+      Soybeans, mature seeds, raw. USDA derivation: Based on another form of the food or similar food;
+      Concentration adjustment; Solids; Retention factors not used. Raw-food composition does not establish
+      cooked-food retention, digestibility, brain delivery or intervention efficacy.
+  - key: serine_fdc_174270_g
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+    label: Serine
+    substance_id: serine
+    value: 2.357
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Soybeans, mature seeds, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/174270/nutrients
+    source_reference: '#food-source-7'
+    source_note: >-
+      Soybeans, mature seeds, raw. USDA derivation: Based on another form of the food or similar food;
+      Concentration adjustment; Solids; Retention factors not used. Raw-food composition does not establish
+      cooked-food retention, digestibility, brain delivery or intervention efficacy.
+    public_note: Raw-food composition; USDA database value; derivation qualified in source record.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    nutrition_panel_eligible: true
+    source_group: USDA SR Legacy 174270
+    food_nutrient_id: 1845156
+    food_nutrient_derivation:
+      id: 16
+      code: BFSN
+      description: >-
+        Based on another form of the food or similar food; Concentration adjustment; Solids; Retention factors
+        not used
+      foodNutrientSource:
+        id: 2
+        code: '4'
+        description: Calculated or imputed
+    data_points: 0
+    limitations: >-
+      Soybeans, mature seeds, raw. USDA derivation: Based on another form of the food or similar food;
+      Concentration adjustment; Solids; Retention factors not used. Raw-food composition does not establish
+      cooked-food retention, digestibility, brain delivery or intervention efficacy.
+  - key: phenylalanine_fdc_174270_g
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 2.122
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Soybeans, mature seeds, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/174270/nutrients
+    source_reference: '#food-source-7'
+    source_note: >-
+      Soybeans, mature seeds, raw. USDA derivation: Based on another form of the food or similar food;
+      Concentration adjustment; Solids; Retention factors not used. Raw-food composition does not establish
+      cooked-food retention, digestibility, brain delivery or intervention efficacy.
+    public_note: Raw-food composition; USDA database value; derivation qualified in source record.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    nutrition_panel_eligible: true
+    source_group: USDA SR Legacy 174270
+    food_nutrient_id: 1845167
+    food_nutrient_derivation:
+      id: 16
+      code: BFSN
+      description: >-
+        Based on another form of the food or similar food; Concentration adjustment; Solids; Retention factors
+        not used
+      foodNutrientSource:
+        id: 2
+        code: '4'
+        description: Calculated or imputed
+    data_points: 0
+    limitations: >-
+      Soybeans, mature seeds, raw. USDA derivation: Based on another form of the food or similar food;
+      Concentration adjustment; Solids; Retention factors not used. Raw-food composition does not establish
+      cooked-food retention, digestibility, brain delivery or intervention efficacy.
   - key: ala_interpreted
     label: Alpha-linolenic acid (ALA; 18:3 n-3)
     value: 1.33
@@ -142,6 +298,76 @@ nutrition_supplementary_sources:
     source_url: https://doi.org/10.3390/foods10081752
     source_reference: '#food-source-6'
 substance_relationships:
+  - substance: Arginine
+    substance_id: arginine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/174270/nutrients
+    source_reference: '#food-source-8'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Soybeans, mature seeds, raw
+    preparation_state: raw
+    requires_supplementary_key: arginine_recovered_fdc_174270
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier BFSN, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/174270/nutrients
+    source_reference: '#food-source-8'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Soybeans, mature seeds, raw
+    preparation_state: raw
+    requires_supplementary_key: tyrosine_recovered_fdc_174270
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier BFSN, data points not reported. Full
+      source description defines preparation, not the generic page nutrient panel. No digestibility, brain
+      uptake or clinical benefit inferred.
+  - substance: Glycine
+    substance_id: glycine
+    relationship: contains
+    description: USDA FoodData Central records glycine in this exact raw food. No dietary intervention efficacy inferred.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy 174270
+    evidence_material: Soybeans, mature seeds, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/174270/nutrients
+    source_reference: '#food-source-7'
+    requires_supplementary_key: glycine_fdc_174270_g
+  - substance: Serine
+    substance_id: serine
+    relationship: contains
+    description: USDA FoodData Central records serine in this exact raw food. No dietary intervention efficacy inferred.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy 174270
+    evidence_material: Soybeans, mature seeds, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/174270/nutrients
+    source_reference: '#food-source-7'
+    requires_supplementary_key: serine_fdc_174270_g
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    description: >-
+      USDA FoodData Central records phenylalanine in this exact raw food. No dietary intervention efficacy
+      inferred.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy 174270
+    evidence_material: Soybeans, mature seeds, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/174270/nutrients
+    source_reference: '#food-source-7'
+    requires_supplementary_key: phenylalanine_fdc_174270_g
   - substance: Spermidine
     relationship: contains
     description: >-
@@ -310,3 +536,7 @@ Soy provide a relatively complete plant protein (higher in lysine than most grai
 <span id="food-source-7" />
 
 [7] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/174270/nutrients)
+
+<span id="food-source-8" />
+
+[8] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 174270: Soybeans, mature seeds, raw. These observations retain their own preparation state.

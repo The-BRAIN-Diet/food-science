@@ -26,3 +26,13 @@ Author selected PM1 as the first complete-reference workstream, using PM8 tabs a
 - **CoQ biosynthesis PM (local-only):** [handoff](coq-pm-2026-11-05.md). Authorised PM10 implementation; provisional appraisal and remaining source-access limits recorded.
 
 - **Three approved priority SOPs (local implementation):** [handoff](priority-sops-2026-11-05.md). Wastyk/Baxter/Sutton admitted; Shukla/Reynolds deferred. Independent provisional SEC retained.
+
+- **SOP/Lifestyle food–substance integration — 6 November 2026, local-only:** [handoff](intervention-food-substance-2026-11-06.md). Shared generated joins, PM links and chord-ready edges; 87-record inventory, unresolved identities retained. Scientific/preview checkout distinction is material.
+
+- [ADHD chord coverage and BRS-X — 6 November 2026](adhd-chord-coverage-2026-11-06.md): local-only extractor/diagram review; no scientific edits or publication.
+
+- [Integrated food wheel — 6 November 2026](food-wheel-2026-11-06.md): local preview with actual food–substance connections; research backfills proposed only; browser verification outstanding.
+
+- [PM food-source coverage and qualified wheel — 6 November 2026](pm-food-source-coverage-2026-11-06.md): 67-PM pass, local research selections, unresolved source limits and validation status.
+
+- [Recipe BRS matrix prototype — 7 November 2026](recipe-brs-matrix-2026-11-07.md): isolated local recipe traceability proposal; no canonical rollout.

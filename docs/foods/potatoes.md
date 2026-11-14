@@ -53,6 +53,31 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
 nutrition_supplementary_sources:
+  - key: pectic_substances_bailoni_2005
+    label: Pectin
+    substance_id: pectin
+    value: 0.18067
+    unit: g
+    basis: per 100 g source edible material
+    evidence_material: Potato, with peel; buds removed
+    preparation_state: fresh food; laboratory drying for analysis
+    chemical_form: Total pectic substances (HM, LM and protopectin)
+    original_observation:
+      value: 9.61
+      sd: 0.21
+      unit: g/kg dry matter
+      dry_matter_percent: 18.8
+    calculation:
+      expression: g/kg DM × dry matter percent / 1000
+      output: g/100 g edible material
+    source_url: https://doi.org/10.4081/ijas.2005.49
+    source_reference: '#food-source-4'
+    source_note: >-
+      Calculated using same-sample moisture. Analytical fractions are not equivalent to purified intervention
+      pectin; cultivar, ripeness and method limit generalisation.
+    rank_eligible: true
+    comparison_group: total-pectic-substances::bailoni-2005::fresh-mass
+    composition_review_status: research-qualified-local
   - key: resistant_starch_qual
     label: Resistant starch
     range: [2.2, 5.4]
@@ -74,6 +99,21 @@ main_image: /img/foods/potatoes/potatoes_medium.webp
 legacy_list_image: /img/foods/potatoes/potatoes_thumb.webp
 legacy_main_image: /img/foods/potatoes/potatoes_medium.webp
 substance_relationships:
+  - substance: Pectin
+    substance_id: pectin
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_material: Potato, with peel; buds removed
+    preparation_state: fresh food; laboratory drying for analysis
+    source_url: https://doi.org/10.4081/ijas.2005.49
+    source_reference: '#food-source-4'
+    citation_keys:
+      - bailoni_pectins_2005
+    requires_supplementary_key: pectic_substances_bailoni_2005
+    material_limitations: >-
+      Calculated using same-sample moisture. Analytical fractions are not equivalent to purified intervention
+      pectin; cultivar, ripeness and method limit generalisation.
   - substance: Potassium
     relationship: contains
     description: 'USDA FoodData Central reports potassium in Potatoes, flesh and skin, raw.'
@@ -157,3 +197,7 @@ In practical terms, potatoes can serve both glycaemic stability and polyphenol d
 [2] Resistant starch fermentation produces short-chain fatty acids relevant to gut–brain signalling. Fan et al. 2019. [SCFA producing bacteria shape the subtype of ADHD in children](/docs/papers/BRAIN-Diet-References#fan_scfa_2019)
 
 [3] <span id="food-source-3" />Raatz et al. (2016). [Resistant starch analysis of commonly consumed potatoes: Content varies by cooking method and service temperature but not by variety](https://doi.org/10.1016/j.foodchem.2016.03.120). Moisture-corrected resistant starch was 2.2–5.4 g per 100 g across the baked and boiled, hot, chilled, and reheated potatoes tested.
+
+<span id="food-source-4" />
+
+[4] Bailoni et al. (2005). [Quanti-qualitative evaluation of pectins in the dietary fibre of 24 foods](/docs/papers/BRAIN-Diet-References#bailoni_pectins_2005). Tables 2 and 4; moisture-based calculation, not an intervention result.

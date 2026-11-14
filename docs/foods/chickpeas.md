@@ -61,6 +61,48 @@ amino_acid_strengths: Lysine-rich relative to grains.
 limiting_amino_acids: Lower in methionine and cysteine (DIAAS ~65–70).
 complementary_pairings: 'Rice, oats, barley, or other grains to complete essential amino acid profile.'
 nutrition_supplementary_sources:
+  - key: phenylalanine_recovered_fdc_173757
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 0.475
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt
+    preparation_state: cooked
+    source_url: https://fdc.nal.usda.gov/food-details/173757/nutrients
+    source_reference: '#food-source-2'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 173757
+    food_nutrient_id: '1804196'
+    source_derivation_id: ''
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tryptophan_recovered_fdc_173757
+    label: Tryptophan
+    substance_id: tryptophan
+    value: 0.085
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt
+    preparation_state: cooked
+    source_url: https://fdc.nal.usda.gov/food-details/173757/nutrients
+    source_reference: '#food-source-2'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 173757
+    food_nutrient_id: '1804193'
+    source_derivation_id: ''
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
   - key: resistant_starch_qual
     label: Resistant starch
     range: [3, 5]
@@ -82,6 +124,38 @@ main_image: /img/foods/chickpeas/chickpeas_medium.webp
 legacy_list_image: /img/foods/chickpeas/chickpeas_thumb.webp
 legacy_main_image: /img/foods/chickpeas/chickpeas_medium.webp
 substance_relationships:
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/173757/nutrients
+    source_reference: '#food-source-2'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt
+    preparation_state: cooked
+    requires_supplementary_key: phenylalanine_recovered_fdc_173757
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: Tryptophan
+    substance_id: tryptophan
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/173757/nutrients
+    source_reference: '#food-source-2'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt
+    preparation_state: cooked
+    requires_supplementary_key: tryptophan_recovered_fdc_173757
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
   - substance: Magnesium
     relationship: contains
     description: >-
@@ -348,3 +422,7 @@ Chickpeas are rich in lysine but relatively low in sulfur-containing amino acids
 ## References
 
 [1] <span id="food-source-1" />Fabbri, Schacht and Crosby (2016). [Evaluation of resistant starch content of cooked black beans, pinto beans, and chickpeas](https://doi.org/10.1016/j.nfs.2016.02.002). Cooked chickpeas stayed within about 3–5 g resistant starch per 100 g dry weight. Canned chickpeas were 4.32 g per 100 g of the dried sample.
+
+<span id="food-source-2" />
+
+[2] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 173757: Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt. These observations retain their own preparation state.

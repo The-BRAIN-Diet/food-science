@@ -1,0 +1,18 @@
+import fs from 'node:fs';import {pathToFileURL} from 'node:url';
+const root=process.cwd(),read=p=>JSON.parse(fs.readFileSync(p));
+const d=read('review/visualisations/brain-food-wheel-pm-qualified-2026-11-06/food-network.json'),prior=read('review/food-wheel-canonical-ingestion-2026-11-06/power-selection-audit.json');
+const {buildInputSubstanceFood}=await import(pathToFileURL(root+'/scripts/lib/input-substance-food.mjs'));
+const sources=buildInputSubstanceFood(root,{brs:'BRS1',foodSubstanceIds:d.network.inventory.filter(x=>x.inclusion==='included').map(x=>x.id)}).food_sources;
+let code=fs.readFileSync('scripts/lib/food-wheel-power.mjs','utf8').replace('../../src/data/relatedSubstanceRelationships.mjs',pathToFileURL(root+'/src/data/relatedSubstanceRelationships.mjs').href);
+code=code.replace('[o.comparison_group,o.chemical_form',"[/^edible::/.test(o.comparison_group) ? 'edible-mass' : o.comparison_group,o.chemical_form");
+const {selectFoodWheelSources}=await import('data:text/javascript;base64,'+Buffer.from(code).toString('base64'));
+const results=prior.map(t=>({target:t.target,...selectFoodWheelSources(sources.filter(s=>s.substance_id===t.target.split('|')[1]))}));
+const edges=ts=>ts.flatMap(t=>t.selected.map(s=>({target:t.target,food:s.food_id,power:s.relative_power,observation:s.observation})));
+const before=edges(prior),after=edges(results),key=e=>e.target+'|'+e.food;
+const old=new Set(before.map(key)),next=new Set(after.map(key));
+const summary=es=>({foods:new Set(es.map(e=>e.food)).size,connections:es.length,targets:new Set(es.map(e=>e.target)).size});
+const gained=after.filter(e=>!old.has(key(e))),lost=before.filter(e=>!next.has(key(e)));
+const solelyFragmented=gained.filter(e=>prior.find(t=>t.target===e.target).excluded.some(x=>x.food_id===e.food&&x.reason.startsWith('Single-source')));
+const data={scope:'Read-only simulation: remove ordinary edible preparation labels from grouping; retain all source values, metadata, chemical forms, denominators and specialised analytical groups. No wheel regeneration.',before:summary(before),proposed:summary(after),gained,lost,solelyFragmented,results};
+fs.mkdirSync('review/food-wheel-comparison-proposal-2026-11-06',{recursive:true});fs.writeFileSync('review/food-wheel-comparison-proposal-2026-11-06/comparison.json',JSON.stringify(data,null,2));
+console.log(JSON.stringify({before:data.before,proposed:data.proposed,gained:gained.length,lost:lost.length,solelyFragmented:solelyFragmented.length,affectedFoods:[...new Set(solelyFragmented.map(e=>e.food))],roe:after.filter(e=>e.food==='salmon-roe').map(e=>({target:e.target,power:e.power})),dha:results.find(t=>t.target.endsWith('|dha-docosahexaenoic-acid')).selected.map(s=>[s.food_id,s.observation.value,s.relative_power]),epa:results.find(t=>t.target.endsWith('|epa-eicosapentaenoic-acid')).selected.map(s=>[s.food_id,s.observation.value,s.relative_power])},null,2));

@@ -65,6 +65,48 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
 nutrition_supplementary_sources:
+  - key: phenylalanine_recovered_fdc_172421
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 0.445
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Lentils, mature seeds, cooked, boiled, without salt
+    preparation_state: cooked
+    source_url: https://fdc.nal.usda.gov/food-details/172421/nutrients
+    source_reference: '#food-source-7'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 172421
+    food_nutrient_id: '1693824'
+    source_derivation_id: ''
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tryptophan_recovered_fdc_172421
+    label: Tryptophan
+    substance_id: tryptophan
+    value: 0.081
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Lentils, mature seeds, cooked, boiled, without salt
+    preparation_state: cooked
+    source_url: https://fdc.nal.usda.gov/food-details/172421/nutrients
+    source_reference: '#food-source-7'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 172421
+    food_nutrient_id: '1693821'
+    source_derivation_id: ''
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
   - key: cystine_cooked_mg
     label: 'Cystine (cooked, boiled)'
     value: 118
@@ -85,6 +127,38 @@ nutrition_supplementary_sources:
       FDC 1724 supports this source-specific measurement. See technical
       provenance for food form and measurement details.
 substance_relationships:
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/172421/nutrients
+    source_reference: '#food-source-7'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Lentils, mature seeds, cooked, boiled, without salt
+    preparation_state: cooked
+    requires_supplementary_key: phenylalanine_recovered_fdc_172421
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: Tryptophan
+    substance_id: tryptophan
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/172421/nutrients
+    source_reference: '#food-source-7'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Lentils, mature seeds, cooked, boiled, without salt
+    preparation_state: cooked
+    requires_supplementary_key: tryptophan_recovered_fdc_172421
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
   - substance: Cysteine
     relationship: contains
     description: >-
@@ -300,3 +374,7 @@ Lentils contribute plant protein, with lysine relatively abundant compared with 
 [5] Vidal-Valverde et al. (1994). [Effect of processing on some antinutritional factors of lentils](/docs/papers/BRAIN-Diet-References#vidal_valverde_lentils_antinutrients_1994). Soaking lowered phytic acid without changing trypsin-inhibitor activity, and tannins and catechins rose. Cooking presoaked seeds removed trypsin-inhibitor activity and reduced phytic acid further; tannins and catechins increased. Six-day germination greatly reduced trypsin inhibitor and phytic acid. Effects varied by variety. Iron absorption was not measured.
 
 [6] Vidal-Valverde et al. (1992). [Effect of Processing on the Soluble Carbohydrate Content of Lentils](/docs/papers/BRAIN-Diet-References#vidal_valverde_lentils_carbohydrate_1992). A 9-hour soak reduced α-galactosides by 45–100%, and only 1–10% of those losses were recovered in the soak water. Cooking the soaked lentils changed α-galactoside content only slightly.
+
+<span id="food-source-7" />
+
+[7] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 172421: Lentils, mature seeds, cooked, boiled, without salt. These observations retain their own preparation state.

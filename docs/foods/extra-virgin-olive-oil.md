@@ -203,13 +203,13 @@ substance_relationships:
   relationship: contains
   description: HPLC analysis identified CoQ10 in fresh extra-virgin olive oils; cultivar and maturity affected measured content.
   evidence_status: supported
-  evidence_source: Žmitek et al. (2014), DOI 10.1021/jf5002167; primary abstract verified 5 November 2026.
+  evidence_source: Žmitek et al. (2014), DOI 10.1021/jf5002167; methods and results inspected through Scite, 5 November 2026.
   evidence_material: Fresh extra-virgin olive oils from the tested cultivars and maturity stages; not every bottled or heated
     preparation.
   source_url: https://doi.org/10.1021/jf5002167
   presence_status: presence_supported_amount_unestablished
-  limitations: Qualitative occurrence only; no concentration copied from inaccessible tables, no conversion of CoQ9 into CoQ10,
-    no intact ubiquinol claim and no mitochondrial delivery inferred.
+  source_reference: '#food-source-5'
+  limitations: Commercial extra-virgin blends averaged 56 ± 4 mg/L in seven samples; fresh/fresh-frozen monocultivar oils averaged 52 ± 17 mg/L in 79 samples. These sample-group values are not a universal per-100-g composition, a native ubiquinol fraction or evidence of mitochondrial delivery.
 substance_review_candidates:
 - Oleuropein
 nutrition_value_reviews:
@@ -280,3 +280,7 @@ Extra virgin olive oil is a culinary oil rich in oleic acid. It contains phenoli
 <span id="food-source-4" />
 
 [4] [Bendini et al. (2007), Phenolic Molecules in Virgin Olive Oils](/docs/papers/BRAIN-Diet-References#food_composition_2751bd2d180f)
+
+<span id="food-source-5" />
+
+[5] Žmitek et al. (2014). [Factors Influencing the Contents of Coenzyme Q10 and Q9 in Olive Oils](/docs/papers/BRAIN-Diet-References#zmitek_factors_2014). CoQ10 and CoQ9 measured separately; cultivar and maturity affect content.

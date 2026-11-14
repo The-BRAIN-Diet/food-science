@@ -1,4 +1,203 @@
 ---
+nutrition_supplementary_sources:
+  - key: arginine_recovered_fdc_171447
+    label: Arginine
+    substance_id: arginine
+    value: 1.169
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Chicken, broilers or fryers, meat and skin, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    source_reference: '#food-source-5'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier not reported, data points not
+      reported. Full source description defines preparation, not the generic page nutrient panel. No
+      digestibility, brain uptake or clinical benefit inferred.
+    fdc_id: 171447
+    food_nutrient_id: 1610580
+    source_derivation_id: not reported
+    source_data_points: 0
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tyrosine_recovered_fdc_171447
+    label: Tyrosine
+    substance_id: tyrosine
+    value: 0.597
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Chicken, broilers or fryers, meat and skin, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    source_reference: '#food-source-5'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier not reported, data points not
+      reported. Full source description defines preparation, not the generic page nutrient panel. No
+      digestibility, brain uptake or clinical benefit inferred.
+    fdc_id: 171447
+    food_nutrient_id: 1610588
+    source_derivation_id: not reported
+    source_data_points: 0
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: phenylalanine_recovered_fdc_171477
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 1.231
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Chicken, broilers or fryers, breast, meat only, cooked, roasted
+    preparation_state: cooked
+    source_url: https://fdc.nal.usda.gov/food-details/171477/nutrients
+    source_reference: '#food-source-4'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 171477
+    food_nutrient_id: '1613060'
+    source_derivation_id: ''
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: tryptophan_recovered_fdc_171477
+    label: Tryptophan
+    substance_id: tryptophan
+    value: 0.362
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Chicken, broilers or fryers, breast, meat only, cooked, roasted
+    preparation_state: cooked
+    source_url: https://fdc.nal.usda.gov/food-details/171477/nutrients
+    source_reference: '#food-source-4'
+    source_note: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+    fdc_id: 171477
+    food_nutrient_id: '1613057'
+    source_derivation_id: ''
+    source_data_points: '0'
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+  - key: l_carnitine_furusho_2026_mg
+    label: L-Carnitine
+    substance_id: l-carnitine
+    value: 3.83
+    unit: mg
+    basis: per 100 g food
+    preparation_state: ground, as purchased
+    evidence_material: Ground chicken purchased in Japan
+    chemical_form: free L-carnitine
+    uncertainty:
+      type: SE
+      value: 0.31
+      'n': 3
+      replicate_type: repeated extraction
+    source_url: https://doi.org/10.5702/massspectrometry.A0191
+    source_reference: '#food-source-3'
+    source_note: >-
+      Single grocery-source preparation; mean ± SE from three extraction determinations, not three independent
+      population samples. Chiral LC-MS/MS measured free L-carnitine with water extraction intended to avoid
+      release from acylcarnitines. Not total acylcarnitine, a universal food value, cooked-food retention, or
+      evidence of mitochondrial benefit.
+    public_note: Source-specific measured free L-carnitine; preparation and analytical limitations retained.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    rank_eligible: true
+    comparison_group: free-l-carnitine::furusho-2026::per-100g-food
+    nutrition_panel_eligible: true
+  - key: glycine_fdc_171447_g
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+    label: Glycine
+    substance_id: glycine
+    value: 1.223
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Chicken, broilers or fryers, meat and skin, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    source_reference: '#food-source-2'
+    source_note: >-
+      Chicken, broilers or fryers, meat and skin, raw. USDA derivation: Derivation method not reported in this
+      API record. Raw-food composition does not establish cooked-food retention, digestibility, brain delivery
+      or intervention efficacy.
+    public_note: Raw-food composition; USDA database value; derivation qualified in source record.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    nutrition_panel_eligible: true
+    source_group: USDA SR Legacy 171447
+    food_nutrient_id: 1610591
+    food_nutrient_derivation: null
+    data_points: 0
+    limitations: >-
+      Chicken, broilers or fryers, meat and skin, raw. USDA derivation: Derivation method not reported in this
+      API record. Raw-food composition does not establish cooked-food retention, digestibility, brain delivery
+      or intervention efficacy.
+  - key: serine_fdc_171447_g
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+    label: Serine
+    substance_id: serine
+    value: 0.657
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Chicken, broilers or fryers, meat and skin, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    source_reference: '#food-source-2'
+    source_note: >-
+      Chicken, broilers or fryers, meat and skin, raw. USDA derivation: Derivation method not reported in this
+      API record. Raw-food composition does not establish cooked-food retention, digestibility, brain delivery
+      or intervention efficacy.
+    public_note: Raw-food composition; USDA database value; derivation qualified in source record.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    nutrition_panel_eligible: true
+    source_group: USDA SR Legacy 171447
+    food_nutrient_id: 1610583
+    food_nutrient_derivation: null
+    data_points: 0
+    limitations: >-
+      Chicken, broilers or fryers, meat and skin, raw. USDA derivation: Derivation method not reported in this
+      API record. Raw-food composition does not establish cooked-food retention, digestibility, brain delivery
+      or intervention efficacy.
+  - key: phenylalanine_fdc_171447_g
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    composition_review_status: research-qualified-local
+    label: Phenylalanine
+    substance_id: phenylalanine
+    value: 0.721
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Chicken, broilers or fryers, meat and skin, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    source_reference: '#food-source-2'
+    source_note: >-
+      Chicken, broilers or fryers, meat and skin, raw. USDA derivation: Derivation method not reported in this
+      API record. Raw-food composition does not establish cooked-food retention, digestibility, brain delivery
+      or intervention efficacy.
+    public_note: Raw-food composition; USDA database value; derivation qualified in source record.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    nutrition_panel_eligible: true
+    source_group: USDA SR Legacy 171447
+    food_nutrient_id: 1610587
+    food_nutrient_derivation: null
+    data_points: 0
+    limitations: >-
+      Chicken, broilers or fryers, meat and skin, raw. USDA derivation: Derivation method not reported in this
+      API record. Raw-food composition does not establish cooked-food retention, digestibility, brain delivery
+      or intervention efficacy.
 id: chicken
 title: Chicken
 sidebar_label: Chicken
@@ -72,6 +271,127 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
 substance_relationships:
+  - substance: Arginine
+    substance_id: arginine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    source_reference: '#food-source-5'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Chicken, broilers or fryers, meat and skin, raw
+    preparation_state: raw
+    requires_supplementary_key: arginine_recovered_fdc_171447
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier not reported, data points not
+      reported. Full source description defines preparation, not the generic page nutrient panel. No
+      digestibility, brain uptake or clinical benefit inferred.
+  - substance: Tyrosine
+    substance_id: tyrosine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    source_reference: '#food-source-5'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Chicken, broilers or fryers, meat and skin, raw
+    preparation_state: raw
+    requires_supplementary_key: tyrosine_recovered_fdc_171447
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier not reported, data points not
+      reported. Full source description defines preparation, not the generic page nutrient panel. No
+      digestibility, brain uptake or clinical benefit inferred.
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/171477/nutrients
+    source_reference: '#food-source-4'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Chicken, broilers or fryers, breast, meat only, cooked, roasted
+    preparation_state: cooked
+    requires_supplementary_key: phenylalanine_recovered_fdc_171477
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: Tryptophan
+    substance_id: tryptophan
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: https://fdc.nal.usda.gov/food-details/171477/nutrients
+    source_reference: '#food-source-4'
+    citation_keys:
+      - usda_sr_foodless_targets_2018
+    evidence_material: Chicken, broilers or fryers, breast, meat only, cooked, roasted
+    preparation_state: cooked
+    requires_supplementary_key: tryptophan_recovered_fdc_171477
+    material_limitations: >-
+      USDA SR Legacy source-specific database value; derivation identifier , data points 0. Full source
+      description defines preparation, not the generic page nutrient panel. No digestibility, brain uptake or
+      clinical benefit inferred.
+  - substance: L-Carnitine
+    substance_id: l-carnitine
+    relationship: contains
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: Furusho et al. (2026), Table 3 and methods §2.2.1
+    source_url: https://doi.org/10.5702/massspectrometry.A0191
+    source_reference: '#food-source-3'
+    citation_keys:
+      - furusho_carnitine_food_2026
+    evidence_material: Ground chicken purchased in Japan
+    preparation_state: ground, as purchased
+    chemical_form: free L-carnitine
+    requires_supplementary_key: l_carnitine_furusho_2026_mg
+    material_limitations: >-
+      Single grocery-source preparation; mean ± SE from three extraction determinations, not three independent
+      population samples. Chiral LC-MS/MS measured free L-carnitine with water extraction intended to avoid
+      release from acylcarnitines. Not total acylcarnitine, a universal food value, cooked-food retention, or
+      evidence of mitochondrial benefit.
+  - substance: Glycine
+    substance_id: glycine
+    relationship: contains
+    description: USDA FoodData Central records glycine in this exact raw food. No dietary intervention efficacy inferred.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy 171447
+    evidence_material: Chicken, broilers or fryers, meat and skin, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    source_reference: '#food-source-2'
+    requires_supplementary_key: glycine_fdc_171447_g
+  - substance: Serine
+    substance_id: serine
+    relationship: contains
+    description: USDA FoodData Central records serine in this exact raw food. No dietary intervention efficacy inferred.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy 171447
+    evidence_material: Chicken, broilers or fryers, meat and skin, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    source_reference: '#food-source-2'
+    requires_supplementary_key: serine_fdc_171447_g
+  - substance: Phenylalanine
+    substance_id: phenylalanine
+    relationship: contains
+    description: >-
+      USDA FoodData Central records phenylalanine in this exact raw food. No dietary intervention efficacy
+      inferred.
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: USDA SR Legacy 171447
+    evidence_material: Chicken, broilers or fryers, meat and skin, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    source_reference: '#food-source-2'
+    requires_supplementary_key: phenylalanine_fdc_171447_g
   - substance: Methionine
     relationship: contains
     description: >-
@@ -308,3 +628,19 @@ This food provides a complete essential amino acid profile typical of animal pro
 ## References
 
 [1] Fernstrom et al. (2013). [Large neutral amino acids: dietary effects on brain neurochemistry and function](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013). Meal-pattern evidence: large-neutral-amino-acid balance affects tryptophan uptake into the brain; not a chicken feeding trial.
+
+<span id="food-source-2" />
+
+[2] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). Chicken, broilers or fryers, meat and skin, raw; FDC 171447. Raw edible-portion values with source-specific derivation retained.
+
+<span id="food-source-3" />
+
+[3] Furusho et al. (2026). [Enantioselective Determination of Carnitine Enantiomers in Food and Supplement Samples by Chiral Liquid Chromatography-Tandem Mass Spectrometry](/docs/papers/BRAIN-Diet-References#furusho_carnitine_food_2026). Table 3: source-specific free L-carnitine; repeated-extraction uncertainty, not a dietary intervention.
+
+<span id="food-source-4" />
+
+[4] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 171477: Chicken, broilers or fryers, breast, meat only, cooked, roasted. These observations retain their own preparation state.
+
+<span id="food-source-5" />
+
+[5] USDA Agricultural Research Service (2018). [FoodData Central SR Legacy: source-specific amino-acid composition](/docs/papers/BRAIN-Diet-References#usda_sr_foodless_targets_2018). FDC 171447: Chicken, broilers or fryers, meat and skin, raw. These observations retain their own preparation state.
