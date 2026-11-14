@@ -46,3 +46,5 @@ The paper needs traceable, qualified intervention examples and food roll-ups; ap
 A complete Gold Standard PM is **proposed**, not an approved new template. Existing approved references are PM1's Section 4 Finding layout and PM8's evidence tabs, within their documented scopes. LAT1 remains incomplete; see [decisions](DECISIONS.md) and [handoffs](handoffs/INDEX.md).
 
 Current recovery/release actions: [single authoritative action register](../review/recovery-readiness-2026-11-14/ACTION-REGISTER.md). Historical handoffs are evidence; use this register for status, next action, approvals and closure checks.
+
+Current recovery integration: nine Unestablished hypotheses; approved984ranked/79foods/112-of-158 unchanged. See the [authoritative action register](../review/recovery-readiness-2026-11-14/ACTION-REGISTER.md) for integration ledger, preview evidence and freeze blockers. QC remains provisionally suspended; no merge/production authorised.

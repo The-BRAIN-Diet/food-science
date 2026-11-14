@@ -417,21 +417,14 @@
       "page_type": "PM",
       "letter": "A",
       "review_status": "unreviewed",
-      "last_checked": "2026-09-29",
-      "checked_by": "stage-2b-automated",
-      "review_scope": "Dietary Requirements classification on this page. This is not source verification or expert review.",
-      "review_method": "automated",
-      "rerun_required": true,
-      "public_reviewer": "Automated Stage 2B review",
+      "last_checked": null,
+      "checked_by": null,
+      "review_scope": null,
+      "review_method": null,
+      "rerun_required": false,
+      "public_reviewer": null,
       "accepted_limitations": [],
-      "linked_framework_issue_ids": [
-        "FW004",
-        "FW005",
-        "FW006",
-        "FW007",
-        "FW008",
-        "FW009"
-      ],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation"
     },
     {
@@ -441,19 +434,14 @@
       "page_type": "PM",
       "letter": "L",
       "review_status": "unreviewed",
-      "last_checked": "2026-09-29",
-      "checked_by": "stage-2b-automated",
-      "review_scope": "Dietary Requirements classification on this page. This is not source verification or expert review.",
-      "review_method": "automated",
-      "rerun_required": true,
-      "public_reviewer": "Automated Stage 2B review",
+      "last_checked": null,
+      "checked_by": null,
+      "review_scope": null,
+      "review_method": null,
+      "rerun_required": false,
+      "public_reviewer": null,
       "accepted_limitations": [],
-      "linked_framework_issue_ids": [
-        "FW010",
-        "FW011",
-        "FW012",
-        "FW027"
-      ],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation"
     },
     {
@@ -463,22 +451,14 @@
       "page_type": "PM",
       "letter": "D",
       "review_status": "unreviewed",
-      "last_checked": "2026-09-30",
-      "checked_by": "stage-2b-automated",
-      "review_scope": "Dietary Requirements classification on this page. This is not source verification or expert review.",
-      "review_method": "automated",
-      "rerun_required": true,
-      "public_reviewer": "Automated Stage 2B review",
+      "last_checked": null,
+      "checked_by": null,
+      "review_scope": null,
+      "review_method": null,
+      "rerun_required": false,
+      "public_reviewer": null,
       "accepted_limitations": [],
-      "linked_framework_issue_ids": [
-        "FW013",
-        "FW014",
-        "FW015",
-        "FW016",
-        "FW017",
-        "FW024",
-        "FW034"
-      ],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation"
     },
     {
@@ -488,19 +468,14 @@
       "page_type": "PM",
       "letter": "N",
       "review_status": "unreviewed",
-      "last_checked": "2026-09-30",
-      "checked_by": "stage-2b-automated",
-      "review_scope": "Dietary Requirements classification on this page. This is not source verification or expert review.",
-      "review_method": "automated",
-      "rerun_required": true,
-      "public_reviewer": "Automated Stage 2B review",
+      "last_checked": null,
+      "checked_by": null,
+      "review_scope": null,
+      "review_method": null,
+      "rerun_required": false,
+      "public_reviewer": null,
       "accepted_limitations": [],
-      "linked_framework_issue_ids": [
-        "FW018",
-        "FW019",
-        "FW025",
-        "FW034"
-      ],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation"
     },
     {
@@ -510,21 +485,14 @@
       "page_type": "PM",
       "letter": "S",
       "review_status": "unreviewed",
-      "last_checked": "2026-09-30",
-      "checked_by": "stage-2b-automated",
-      "review_scope": "Dietary Requirements classification on this page. This is not source verification or expert review.",
-      "review_method": "automated",
-      "rerun_required": true,
-      "public_reviewer": "Automated Stage 2B review",
+      "last_checked": null,
+      "checked_by": null,
+      "review_scope": null,
+      "review_method": null,
+      "rerun_required": false,
+      "public_reviewer": null,
       "accepted_limitations": [],
-      "linked_framework_issue_ids": [
-        "FW020",
-        "FW021",
-        "FW022",
-        "FW023",
-        "FW026",
-        "FW034"
-      ],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation"
     },
     {
@@ -550,21 +518,15 @@
       "title": "Acetylcholine Synthesis Support",
       "page_type": "PM",
       "letter": "A",
-      "review_status": "issues_logged",
-      "last_checked": "2026-09-30",
-      "checked_by": "independent-stage-2a-2b-rerun",
-      "review_scope": "Foundational synthesis chemistry, Dietary Requirements, biochemical participants, intervention dominance, connections and complete Key Constraint applicability. Sources were checked; this is not expert peer review.",
-      "review_method": "automated",
+      "review_status": "unreviewed",
+      "last_checked": null,
+      "checked_by": null,
+      "review_scope": null,
+      "review_method": null,
       "rerun_required": false,
-      "public_reviewer": "Independent Stage 2A/2B evidence review",
-      "accepted_limitations": [
-        "No direct human ordinary-diet study establishes increased brain acetylcholine synthesis or cognitive benefit.",
-        "Pantothenate modulation evidence is preclinical and involves chronic ethanol-associated severe depletion.",
-        "One-carbon applicability is supported by a preclinical mechanistic chain rather than a direct human synthesis-flux assay."
-      ],
-      "linked_framework_issue_ids": [
-        "FW028"
-      ],
+      "public_reviewer": null,
+      "accepted_limitations": [],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support"
     },
     {
@@ -591,16 +553,14 @@
       "page_type": "PM",
       "letter": "N",
       "review_status": "unreviewed",
-      "last_checked": "2026-09-30",
-      "checked_by": "stage-2b-automated",
-      "review_scope": "Dietary Requirements classification on this page. This is not source verification or expert review.",
-      "review_method": "automated",
-      "rerun_required": true,
-      "public_reviewer": "Automated Stage 2B review",
+      "last_checked": null,
+      "checked_by": null,
+      "review_scope": null,
+      "review_method": null,
+      "rerun_required": false,
+      "public_reviewer": null,
       "accepted_limitations": [],
-      "linked_framework_issue_ids": [
-        "FW029"
-      ],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation"
     },
     {
@@ -617,9 +577,7 @@
       "rerun_required": false,
       "public_reviewer": null,
       "accepted_limitations": [],
-      "linked_framework_issue_ids": [
-        "CC-BRS1-FM4-PM8-RETIRE-20261005"
-      ],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation"
     },
     {
@@ -629,16 +587,14 @@
       "page_type": "PM",
       "letter": "G",
       "review_status": "unreviewed",
-      "last_checked": "2026-09-30",
-      "checked_by": "stage-2b-automated",
-      "review_scope": "Dietary Requirements classification on this page. This is not source verification or expert review.",
-      "review_method": "automated",
-      "rerun_required": true,
-      "public_reviewer": "Automated Stage 2B review",
+      "last_checked": null,
+      "checked_by": null,
+      "review_scope": null,
+      "review_method": null,
+      "rerun_required": false,
+      "public_reviewer": null,
       "accepted_limitations": [],
-      "linked_framework_issue_ids": [
-        "FW032"
-      ],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling"
     },
     {
@@ -648,16 +604,14 @@
       "page_type": "PM",
       "letter": "E",
       "review_status": "unreviewed",
-      "last_checked": "2026-09-30",
-      "checked_by": "stage-2b-automated",
-      "review_scope": "Dietary Requirements classification on this page. This is not source verification or expert review.",
-      "review_method": "automated",
-      "rerun_required": true,
-      "public_reviewer": "Automated Stage 2B review",
+      "last_checked": null,
+      "checked_by": null,
+      "review_scope": null,
+      "review_method": null,
+      "rerun_required": false,
+      "public_reviewer": null,
       "accepted_limitations": [],
-      "linked_framework_issue_ids": [
-        "FW033"
-      ],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation"
     },
     {
@@ -667,16 +621,14 @@
       "page_type": "PM",
       "letter": "G",
       "review_status": "unreviewed",
-      "last_checked": "2026-09-30",
-      "checked_by": "stage-2b-automated",
-      "review_scope": "Dietary Requirements classification on this page. This is not source verification or expert review.",
-      "review_method": "automated",
-      "rerun_required": true,
-      "public_reviewer": "Automated Stage 2B review",
+      "last_checked": null,
+      "checked_by": null,
+      "review_scope": null,
+      "review_method": null,
+      "rerun_required": false,
+      "public_reviewer": null,
       "accepted_limitations": [],
-      "linked_framework_issue_ids": [
-        "FW031"
-      ],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity"
     },
     {
@@ -829,9 +781,7 @@
       "rerun_required": false,
       "public_reviewer": null,
       "accepted_limitations": [],
-      "linked_framework_issue_ids": [
-        "FW036"
-      ],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation"
     },
     {
@@ -933,10 +883,7 @@
       "rerun_required": false,
       "public_reviewer": null,
       "accepted_limitations": [],
-      "linked_framework_issue_ids": [
-        "FW040",
-        "FW041"
-      ],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/brs2/fm3/brs2-fm3-methylation-membrane-coupling"
     },
     {
@@ -945,27 +892,15 @@
       "title": "Phosphatidylcholine Formation",
       "page_type": "PM",
       "letter": "P",
-      "review_status": "source_checked",
-      "last_checked": "2026-10-02",
-      "checked_by": "targeted-pm7-stage2a-2b",
-      "review_scope": "Four decisions: KC1/KC2 applicability and Choline/Phosphatidylcholine provision. Not expert or phenome review. KC1/constituent disclosure implementation, documented-example execution and browser verification completed; KC2 and phenome follow-ups remain open. Clarified input-trigger/origin-tag presentation and shared interaction verification completed; scientific records unchanged. Evidence qualification/independent principal selection implemented: Diet-Supported retained, PM7 principal selection not established. 78 live tests passed; existing scientific records preserved. Browser/build verification remains pending.",
-      "review_method": "automated",
-      "rerun_required": true,
-      "public_reviewer": "Targeted Stage 2A/2B source reassessment",
-      "accepted_limitations": [
-        "Conditional animal evidence; tracer enrichment is not absolute flux. No universal donor limitation, human intake target or cognitive benefit is established.",
-        "No human trial, numeric deficiency threshold or single end-to-end assay is required. Indirect dietary outcomes and genetic perturbation do not yet resolve exposure attribution.",
-        "Plasma tracing does not measure absolute hepatic flux, intermediary SAM, ordinary-food equivalence or benefit."
-      ],
-      "linked_framework_issue_ids": [
-        "FW037",
-        "FW038",
-        "FW039",
-        "FW040",
-        "FW041",
-        "FW042",
-        "FW046"
-      ],
+      "review_status": "unreviewed",
+      "last_checked": null,
+      "checked_by": null,
+      "review_scope": null,
+      "review_method": null,
+      "rerun_required": false,
+      "public_reviewer": null,
+      "accepted_limitations": [],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation"
     },
     {
@@ -974,21 +909,15 @@
       "title": "Methyl Donor Pool",
       "page_type": "KC",
       "letter": "M",
-      "review_status": "source_checked",
-      "last_checked": "2026-09-30",
-      "checked_by": "targeted-kc-emerging-supports-review",
-      "review_scope": "§4 Emerging Biological Supports: creatine, SAMe and named methyl-cycle adjuncts. Core Nutritional Requirements and PM mappings were not reopened.",
-      "review_method": "automated",
+      "review_status": "unreviewed",
+      "last_checked": null,
+      "checked_by": null,
+      "review_scope": null,
+      "review_method": null,
       "rerun_required": false,
-      "public_reviewer": "Targeted KC evidence reassessment",
-      "accepted_limitations": [
-        "Creatine suppression of endogenous synthesis has not been shown to redistribute methyl resources to other pathways in humans.",
-        "SAMe plasma exposure does not establish intracellular or tissue-specific methylation benefit, and long-term safety evidence is limited.",
-        "The riboflavin SAM response is based on a small MTHFR 677TT genotype-selected intervention."
-      ],
-      "linked_framework_issue_ids": [
-        "FW035"
-      ],
+      "public_reviewer": null,
+      "accepted_limitations": [],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool"
     },
     {
@@ -1099,22 +1028,15 @@
       "title": "Nrf2-Mediated Cellular Defence Regulation",
       "page_type": "PM",
       "letter": "N",
-      "review_status": "source_checked",
-      "last_checked": "2026-10-05",
+      "review_status": "unreviewed",
+      "last_checked": null,
       "checked_by": null,
-      "review_scope": "Source check of Houghton 2016, Verlaet 2018, Costa 2026, Riedl 2009, and Wise 2016 for food versus supplement classification, vitamin C, zinc, selenium, dominance, and the repeated-exposure sentence. The 2019 Mocchegiani and Malavolta chapter was not retrieved in full. This is not expert review.",
+      "review_scope": null,
       "review_method": null,
       "rerun_required": false,
-      "public_reviewer": "Source check, not expert review",
-      "accepted_limitations": [
-        "The admitted practice is a three-day myrosinase-completed broccoli sprout homogenate and nasal enzyme RNA, not brain Nrf2 or an ordinary broccoli serving.",
-        "A four-week broccoli-sprout extract capsule did not raise lung Nrf2 target-gene expression in COPD."
-      ],
-      "linked_framework_issue_ids": [
-        "FW043",
-        "FW044",
-        "FW045"
-      ],
+      "public_reviewer": null,
+      "accepted_limitations": [],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation"
     },
     {
@@ -1573,11 +1495,7 @@
       "rerun_required": false,
       "public_reviewer": null,
       "accepted_limitations": [],
-      "linked_framework_issue_ids": [
-        "CC-BRS5-FM1-PM3-OVERVIEW-20261005",
-        "CC-BRS5-FM1-PM3-SCOPE-20261005",
-        "CC-BRS5-FM1-PM3-STAGE2B-20261005"
-      ],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support"
     },
     {
@@ -1603,20 +1521,15 @@
       "title": "Microbial Substrate-Processing Selection & Adaptation",
       "page_type": "PM",
       "letter": "M",
-      "review_status": "issues_logged",
-      "last_checked": "2026-09-14",
-      "checked_by": "framework-qc-seed",
-      "review_scope": "Published evidence mapping and attribution on this page.",
+      "review_status": "unreviewed",
+      "last_checked": null,
+      "checked_by": null,
+      "review_scope": null,
       "review_method": null,
       "rerun_required": false,
-      "public_reviewer": "Framework editorial review",
+      "public_reviewer": null,
       "accepted_limitations": [],
-      "linked_framework_issue_ids": [
-        "CC-BRS5-FM2-PM4-SCOPE-20261005",
-        "CC-BRS5-FM2-PM4-STAGE2B-20261005",
-        "FW001",
-        "FW003"
-      ],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection"
     },
     {
@@ -1829,17 +1742,15 @@
       "title": "Cortisol Rhythm Regulation",
       "page_type": "PM",
       "letter": "C",
-      "review_status": "issues_logged",
-      "last_checked": "2026-11-12",
-      "checked_by": "stage-2ab-automated",
-      "review_scope": "Therapeutic Area evidence projection only.",
-      "review_method": "automated",
+      "review_status": "unreviewed",
+      "last_checked": null,
+      "checked_by": null,
+      "review_scope": null,
+      "review_method": null,
       "rerun_required": false,
-      "public_reviewer": "Automated Stage 2A/2B review",
+      "public_reviewer": null,
       "accepted_limitations": [],
-      "linked_framework_issue_ids": [
-        "FW047"
-      ],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation"
     },
     {
@@ -1890,9 +1801,7 @@
       "rerun_required": false,
       "public_reviewer": null,
       "accepted_limitations": [],
-      "linked_framework_issue_ids": [
-        "FW047"
-      ],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery"
     },
     {
@@ -1943,9 +1852,7 @@
       "rerun_required": false,
       "public_reviewer": null,
       "accepted_limitations": [],
-      "linked_framework_issue_ids": [
-        "FW047"
-      ],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation"
     },
     {
@@ -2243,17 +2150,15 @@
       "title": "BRS3 - Inflammation & Oxidative Stress",
       "page_type": "BRS",
       "letter": "B",
-      "review_status": "issues_logged",
-      "last_checked": "2026-09-14",
-      "checked_by": "framework-qc-seed",
-      "review_scope": "Published evidence mapping and attribution on this page.",
+      "review_status": "unreviewed",
+      "last_checked": null,
+      "checked_by": null,
+      "review_scope": null,
       "review_method": null,
       "rerun_required": false,
-      "public_reviewer": "Framework editorial review",
+      "public_reviewer": null,
       "accepted_limitations": [],
-      "linked_framework_issue_ids": [
-        "FW001"
-      ],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/inflammation-oxidative-stress"
     },
     {
@@ -2262,17 +2167,15 @@
       "title": "BRS6 - Metabolic & Neuroendocrine Regulation",
       "page_type": "BRS",
       "letter": "B",
-      "review_status": "issues_logged",
-      "last_checked": "2026-11-12",
-      "checked_by": "stage-2ab-automated",
-      "review_scope": "Therapeutic Area evidence projection only.",
-      "review_method": "automated",
+      "review_status": "unreviewed",
+      "last_checked": null,
+      "checked_by": null,
+      "review_scope": null,
+      "review_method": null,
       "rerun_required": false,
-      "public_reviewer": "Automated Stage 2A/2B review",
+      "public_reviewer": null,
       "accepted_limitations": [],
-      "linked_framework_issue_ids": [
-        "FW047"
-      ],
+      "linked_framework_issue_ids": [],
       "site_path": "/docs/biological-targets/metabolic-neuroendocrine-stress"
     },
     {
@@ -2359,23 +2262,6 @@
       "accepted_limitations": [],
       "linked_framework_issue_ids": [],
       "site_path": "/docs/dietary-foundations/digestion-microbiome/gut-brain-axis"
-    },
-    {
-      "page_id": "framework-review-and-corrections",
-      "path": "docs/dietary-foundations/framework-review-and-corrections.mdx",
-      "title": "Framework Review & Corrections",
-      "page_type": "Framework/methodology",
-      "letter": "F",
-      "review_status": "unreviewed",
-      "last_checked": null,
-      "checked_by": null,
-      "review_scope": null,
-      "review_method": null,
-      "rerun_required": false,
-      "public_reviewer": null,
-      "accepted_limitations": [],
-      "linked_framework_issue_ids": [],
-      "site_path": "/docs/dietary-foundations/framework-review-and-corrections"
     },
     {
       "page_id": "dietary-foundations",
@@ -10009,23 +9895,6 @@
       "accepted_limitations": [],
       "linked_framework_issue_ids": [],
       "site_path": "/docs/therapeutic-areas/postnatal-depression"
-    },
-    {
-      "page_id": "from-primary-mechanisms-to-brs-dietary-guidance",
-      "path": "docs/training/from-primary-mechanisms-to-brs-dietary-guidance.md",
-      "title": "From Primary Mechanisms to BRS Dietary Guidance",
-      "page_type": "Framework/methodology",
-      "letter": "F",
-      "review_status": "unreviewed",
-      "last_checked": null,
-      "checked_by": null,
-      "review_scope": null,
-      "review_method": null,
-      "rerun_required": false,
-      "public_reviewer": null,
-      "accepted_limitations": [],
-      "linked_framework_issue_ids": [],
-      "site_path": "/docs/training/from-primary-mechanisms-to-brs-dietary-guidance"
     }
   ]
 }

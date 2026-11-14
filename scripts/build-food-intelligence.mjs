@@ -10,7 +10,7 @@ const foods=foodIds.map(id=>{const path='docs/foods/'+id+'.md';const f=fs.exists
 return {id,title:f.title||id,page:'/docs/foods/'+id,group:(f.tags||[]).some(t=>/^vegan$/i.test(t))?'plant':isCanonicalAnimalSource({food_id:id})?'animal':'plant',source:f.nutrition_source||null,tags:f.tags||[],serving:null};});
 const ids=[...new Set(source.relationships.map(r=>r.substance_id).filter(Boolean))];
 const substances=ids.map(id=>{const r=registry[id]||{};return {id,name:source.identities[id]?.name||id,page:source.identities[id]?.page,tags:r.tags||[],systems:wheel.network.connections.filter(c=>c.substance===id).map(c=>c.brs)};});
-const data={generated_at:new Date().toISOString(),canonical_snapshot:source.snapshot,source_file:file,source_sha256:crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex'),pms:source.pms,systems:source.systems,foods,substances,relationships:source.relationships,records:source.foods,shortlist_exclusions:[],overlaps:[
+const data={canonical_snapshot:source.snapshot,source_file:file,source_sha256:crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex'),pms:source.pms,systems:source.systems,foods,substances,relationships:source.relationships,records:source.foods,shortlist_exclusions:[],overlaps:[
 {foods:['eggs','egg-yolks'],type:'whole / part',action:'Whole egg and yolk have separate composition panels. Each selection uses its own measured food form.'},
 {foods:['soy','edamame','tofu','tempeh','soy-lecithin'],type:'same crop, different preparations / fractions',action:'Retain exact food identities; do not sum as independent dietary variety.'},
 {foods:['sesame-seeds','tahini'],type:'seed / processed paste',action:'Retain distinct observations; flag recipe overlap.'},

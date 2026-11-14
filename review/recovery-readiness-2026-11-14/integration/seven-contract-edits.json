@@ -1,0 +1,58 @@
+[
+  {
+    "path": "system/dietary-input-traceability-contract.md",
+    "source_commit": "37adc6b180f27a946688ee0274d5f2c16e9ec012",
+    "added_lines": [
+      "Use `dietary_input === true` to determine PM-specific dietary admission, roll-up eligibility and admitted dietary-source records. Do not use `dietary_input: false` or `null` to suppress, remove or invalidate independently verified food\u2013substance composition relationships. No and unset entries may display food-composition context where the canonical food ontology supports it, but that display must be clearly distinguished from PM-specific dietary efficacy or a Dietary Requirement. A hypothesis candidate in section 3.1.1 uses that display for its canonical food ontology. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship."
+    ],
+    "all_recovered_wording_retained": true
+  },
+  {
+    "path": "system/food-page-schema.md",
+    "source_commit": "37adc6b180f27a946688ee0274d5f2c16e9ec012",
+    "added_lines": [
+      "Generate PM-input substance\u2013food lists only for `dietary_input === true`. Keep No and unset entries visible as biological context; suppress their admitted food lists without removing canonical food composition records. A hypothesis candidate in section 3.1.1 may show the canonical food ontology under that entry as composition context. That display is not a Dietary Requirement or a ranked source. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship. SOPs/lifestyle are outside this PM dietary-input migration."
+    ],
+    "all_recovered_wording_retained": true
+  },
+  {
+    "path": "system/input-substance-food-mapping.md",
+    "source_commit": "37adc6b180f27a946688ee0274d5f2c16e9ec012",
+    "added_lines": [
+      "Generate PM-input substance\u2013food lists only for `dietary_input === true`. Keep No and unset entries visible as biological context; suppress their admitted food lists without removing canonical food composition records. A hypothesis candidate in section 3.1.1 may show the canonical food ontology under that entry as composition context. That display is not a Dietary Requirement or a ranked source. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship. SOPs/lifestyle are outside this PM dietary-input migration."
+    ],
+    "all_recovered_wording_retained": true
+  },
+  {
+    "path": "system/primary-mechanism-schema.md",
+    "source_commit": "37adc6b180f27a946688ee0274d5f2c16e9ec012",
+    "added_lines": [
+      "Use `dietary_input === true` to determine PM-specific dietary admission, roll-up eligibility and admitted dietary-source records. Do not use `dietary_input: false` or `null` to suppress, remove or invalidate independently verified food\u2013substance composition relationships. No and unset entries may display food-composition context where the canonical food ontology supports it, but that display must be clearly distinguished from PM-specific dietary efficacy or a Dietary Requirement. A hypothesis candidate in section 3.1.1 uses that display for its canonical food ontology. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship. SOP/lifestyle records also carry `dietary_input`; their category remains SOP/lifestyle and a Yes value does not migrate them into Dietary Requirements."
+    ],
+    "all_recovered_wording_retained": true
+  },
+  {
+    "path": "system/scientific-finding-schema.md",
+    "source_commit": "37adc6b180f27a946688ee0274d5f2c16e9ec012",
+    "added_lines": [
+      "Generate PM-input substance\u2013food lists only for `dietary_input === true`. Keep No and unset entries visible as biological context; suppress their admitted food lists without removing canonical food composition records. A hypothesis candidate in section 3.1.1 may show the canonical food ontology under that entry as composition context. That display is not a Dietary Requirement or a ranked source. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship. SOP and lifestyle records also carry the same sixth field where evidence-qualified, but their category remains SOP/lifestyle; a Yes value never migrates them into Dietary Requirements."
+    ],
+    "all_recovered_wording_retained": true
+  },
+  {
+    "path": "system/substance-food-mapping-format.md",
+    "source_commit": "37adc6b180f27a946688ee0274d5f2c16e9ec012",
+    "added_lines": [
+      "Generate PM-input substance\u2013food lists only for `dietary_input === true`. Keep No and unset entries visible as biological context; suppress their admitted food lists without removing canonical food composition records. A hypothesis candidate in section 3.1.1 may show the canonical food ontology under that entry as composition context. That display is not a Dietary Requirement or a ranked source. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship. SOPs/lifestyle are outside this PM dietary-input migration."
+    ],
+    "all_recovered_wording_retained": true
+  },
+  {
+    "path": "system/substance-page-schema.md",
+    "source_commit": "37adc6b180f27a946688ee0274d5f2c16e9ec012",
+    "added_lines": [
+      "Generate PM-input substance\u2013food lists only for `dietary_input === true`. Keep No and unset entries visible as biological context; suppress their admitted food lists without removing canonical food composition records. A hypothesis candidate in section 3.1.1 may show the canonical food ontology under that entry as composition context. That display is not a Dietary Requirement or a ranked source. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship. SOPs/lifestyle are outside this PM dietary-input migration."
+    ],
+    "all_recovered_wording_retained": true
+  }
+]

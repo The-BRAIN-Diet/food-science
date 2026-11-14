@@ -205,6 +205,8 @@ function renderCompactFoodSourceItem(source: any): string {
 ```
 
 
+Preserve the approved category wording and layout when updating food evidence or ranking. For proposed changes to PM labels, grouping, or disclosure behaviour, follow the author-review process in [AGENTS.md](../AGENTS.md#agreed-pm-schema-and-template-changes).
+
 Category labels use the same fixed width so their trailing hyphens align, with separation before the first food:
 
 ```css

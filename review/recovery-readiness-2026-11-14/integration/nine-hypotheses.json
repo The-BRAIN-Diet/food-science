@@ -1,0 +1,65 @@
+[
+  {
+    "pm": "BRS1-FM4-PM11",
+    "id": "PM11-H1",
+    "status": "Unestablished",
+    "title": "Taurine Availability and Excitotoxic Calcium Stress",
+    "path": "docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx"
+  },
+  {
+    "pm": "BRS4-FM1-PM3",
+    "id": "PM3-H1",
+    "status": "Unestablished",
+    "title": "Additional Arginine Supply and Cerebral Creatine Availability",
+    "path": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx"
+  },
+  {
+    "pm": "BRS4-FM4-PM9",
+    "id": "PM9-H1",
+    "status": "Unestablished",
+    "title": "Glucose Appearance and Mitochondrial Biogenesis",
+    "path": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx"
+  },
+  {
+    "pm": "BRS5-FM1-PM1",
+    "id": "PM1-H1",
+    "status": "Unestablished",
+    "title": "Resistant Starch–Derived Butyrate and Tight-Junction Regulation",
+    "path": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx"
+  },
+  {
+    "pm": "BRS5-FM2-PM4",
+    "id": "PM4-H1",
+    "status": "Unestablished",
+    "title": "Plant-Substrate Variety and Microbial Processing Capacity",
+    "path": "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx"
+  },
+  {
+    "pm": "BRS6-FM4-PM8",
+    "id": "PM8-H1",
+    "status": "Unestablished",
+    "title": "Ellagitannin-Derived Urolithin A and Adipose Endocrine Regulation",
+    "path": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx"
+  },
+  {
+    "pm": "BRS-X(ECS-PM1)",
+    "id": "PM1-H1",
+    "status": "Unestablished",
+    "title": "Dietary Phosphatidylethanolamine and Neural NAPE/NAE Precursor Supply",
+    "path": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx"
+  },
+  {
+    "pm": "BRS-X(ECS-PM3)",
+    "id": "PM3-H1",
+    "status": "Unestablished",
+    "title": "Dietary genistein and FAAH-mediated anandamide preservation",
+    "path": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation.mdx"
+  },
+  {
+    "pm": "BRS-X(Hormones-PM6)",
+    "id": "PM6-H1",
+    "status": "Unestablished",
+    "title": "Microbial Androgen Deconjugation and Systemic Re-exposure",
+    "path": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation.mdx"
+  }
+]

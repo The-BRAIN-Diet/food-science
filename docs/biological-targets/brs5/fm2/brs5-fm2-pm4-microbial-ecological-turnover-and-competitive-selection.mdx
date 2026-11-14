@@ -620,6 +620,105 @@ evidence_gaps:
       - stanford_plant_diversity_ckd_2025
       - creedon_biome_2026
     review_date: '2026-11-02'
+scientific_hypotheses:
+  - id: PM4-H1
+    title: Plant-Substrate Variety and Microbial Processing Capacity
+    status: Unestablished
+    proposition: >-
+      At matched total fermentable-substrate intake, a defined increase in plant-substrate variety increases
+      the breadth of microbial processing of a prespecified glycan panel in the tested population. Changes in
+      functional community composition, including but not necessarily greater microbial richness, may mediate
+      this response.
+    proposed_direction: Plant-substrate variety → microbial substrate-processing breadth
+    rationale: >-
+      Defined-community experiments support substrate- and organism-specific processing, while human dietary
+      studies motivate testing plant-substrate variety. Community richness is a candidate mediator, not a
+      validated surrogate for processing capacity.
+    finding_links:
+      supporting: []
+      contradictory_or_null: []
+      contextual:
+        - pm_id: BRS5-FM2-PM4
+          finding_id: PM4-F1
+          href: '#pm4-f1'
+          explanation: Provides bounded pathway context; does not establish the complete hypothesis.
+        - pm_id: BRS5-FM2-PM4
+          finding_id: PM4-F2
+          href: '#pm4-f2'
+          explanation: Provides bounded pathway context; does not establish the complete hypothesis.
+    evidence_sources:
+      - study_id: patnode-2019
+        label: Patnode et al. (2019)
+        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6760872/
+        role: contextual
+        proposition: Defined community membership, competition and glycan exposure influence processing.
+        limitations: Gnotobiotic mouse experiments; not a general causal plant-variety or richness benefit in humans.
+      - study_id: mcdonald-2018
+        label: McDonald et al. (2018)
+        url: https://journals.asm.org/doi/full/10.1128/msystems.00031-18
+        role: contextual
+        proposition: Plant-variety categories were associated with microbiome measures.
+        limitations: Observational self-reported diet; no causal processing-flux or optimal threshold result.
+      - study_id: wastyk-2021
+        label: Wastyk et al. (2021)
+        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9020749/
+        role: contextual
+        proposition: >-
+          Human fibre and fermented-food interventions separate functional potential, diversity and immune
+          outcomes.
+        limitations: Gene abundance is not utilisation flux; no demonstrated richness mediation.
+      - study_id: stanford-2025
+        label: Stanford et al. (2025)
+        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12097182/
+        role: contextual
+        proposition: A CKD crossover tested higher versus lower plant variety.
+        limitations: Population-specific and composition-confounded; no consistent overall uremic-toxin reduction.
+      - study_id: creedon-2026
+        label: Creedon et al. (2026)
+        url: https://pubmed.ncbi.nlm.nih.gov/42423005/
+        role: contextual
+        proposition: >-
+          A mixed-plant product changed composition and some symptoms, without significant between-group
+          microbiome health-rank differences.
+        limitations: >-
+          Product-specific; no demonstrated processing breadth or plant-count effect. Full-text richness
+          detail was not independently reverified.
+    limitations:
+      - >-
+        Plant count does not specify substrate chemistry, portions or preparation; matching fibre grams does
+        not match chemistry.
+      - >-
+        CAZyme abundance, stool metabolite concentrations and microbial richness do not measure utilisation
+        flux.
+      - >-
+        Greater richness need not improve processing; functional replacement, redundancy and competition may
+        alter outcomes.
+      - >-
+        No universal 30-plants threshold, barrier effect, cognitive benefit or clinical efficacy is
+        established.
+      - Studies of different diets and populations do not establish the complete causal chain.
+    alternative_explanations:
+      - Specific substrate chemistry or degrader abundance rather than richness may explain processing.
+      - Transit, microbial biomass, adherence and food preparation may explain apparent differences.
+    required_evidence:
+      - >-
+        Compare characterised dietary patterns at matched fermentable-substrate intake and energy, measuring a
+        prespecified glycan-utilisation panel.
+      - >-
+        Measure community composition, enzyme activity and actual processing separately; distinguish ex-vivo
+        capacity from in-vivo flux.
+      - >-
+        A precise processing null despite verified exposure counts against the intervention proposition;
+        processing gains without richness gains count against richness mediation, not necessarily the
+        intervention.
+    provenance:
+      - >-
+        Author-approved bounded hypothesis following the ten-candidate appraisal and individual review on 14
+        November 2026.
+      - >-
+        Approval registers the proposition only. No dietary admissions, SEC, publication gates, food mappings,
+        rankings or accepted graph edges change.
+    review_date: '2026-11-14'
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -806,6 +905,13 @@ This PM contributes its specific process to its parent FM. Shared inputs do not 
 </div>
 </div>
 </div>
+
+{/* scientific-hypotheses:start */}
+### Scientific Hypotheses
+
+<ScientificHypothesis hypothesis={{"id":"PM4-H1","title":"Plant-Substrate Variety and Microbial Processing Capacity","status":"Unestablished","proposition":"At matched total fermentable-substrate intake, a defined increase in plant-substrate variety increases the breadth of microbial processing of a prespecified glycan panel in the tested population. Changes in functional community composition, including but not necessarily greater microbial richness, may mediate this response.","proposed_direction":"Plant-substrate variety → microbial substrate-processing breadth","rationale":"Defined-community experiments support substrate- and organism-specific processing, while human dietary studies motivate testing plant-substrate variety. Community richness is a candidate mediator, not a validated surrogate for processing capacity.","finding_links":{"supporting":[],"contradictory_or_null":[],"contextual":[{"pm_id":"BRS5-FM2-PM4","finding_id":"PM4-F1","href":"#pm4-f1","explanation":"Provides bounded pathway context; does not establish the complete hypothesis."},{"pm_id":"BRS5-FM2-PM4","finding_id":"PM4-F2","href":"#pm4-f2","explanation":"Provides bounded pathway context; does not establish the complete hypothesis."}]},"evidence_sources":[{"study_id":"patnode-2019","label":"Patnode et al. (2019)","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC6760872/","role":"contextual","proposition":"Defined community membership, competition and glycan exposure influence processing.","limitations":"Gnotobiotic mouse experiments; not a general causal plant-variety or richness benefit in humans."},{"study_id":"mcdonald-2018","label":"McDonald et al. (2018)","url":"https://journals.asm.org/doi/full/10.1128/msystems.00031-18","role":"contextual","proposition":"Plant-variety categories were associated with microbiome measures.","limitations":"Observational self-reported diet; no causal processing-flux or optimal threshold result."},{"study_id":"wastyk-2021","label":"Wastyk et al. (2021)","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC9020749/","role":"contextual","proposition":"Human fibre and fermented-food interventions separate functional potential, diversity and immune outcomes.","limitations":"Gene abundance is not utilisation flux; no demonstrated richness mediation."},{"study_id":"stanford-2025","label":"Stanford et al. (2025)","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC12097182/","role":"contextual","proposition":"A CKD crossover tested higher versus lower plant variety.","limitations":"Population-specific and composition-confounded; no consistent overall uremic-toxin reduction."},{"study_id":"creedon-2026","label":"Creedon et al. (2026)","url":"https://pubmed.ncbi.nlm.nih.gov/42423005/","role":"contextual","proposition":"A mixed-plant product changed composition and some symptoms, without significant between-group microbiome health-rank differences.","limitations":"Product-specific; no demonstrated processing breadth or plant-count effect. Full-text richness detail was not independently reverified."}],"limitations":["Plant count does not specify substrate chemistry, portions or preparation; matching fibre grams does not match chemistry.","CAZyme abundance, stool metabolite concentrations and microbial richness do not measure utilisation flux.","Greater richness need not improve processing; functional replacement, redundancy and competition may alter outcomes.","No universal 30-plants threshold, barrier effect, cognitive benefit or clinical efficacy is established.","Studies of different diets and populations do not establish the complete causal chain."],"alternative_explanations":["Specific substrate chemistry or degrader abundance rather than richness may explain processing.","Transit, microbial biomass, adherence and food preparation may explain apparent differences."],"required_evidence":["Compare characterised dietary patterns at matched fermentable-substrate intake and energy, measuring a prespecified glycan-utilisation panel.","Measure community composition, enzyme activity and actual processing separately; distinguish ex-vivo capacity from in-vivo flux.","A precise processing null despite verified exposure counts against the intervention proposition; processing gains without richness gains count against richness mediation, not necessarily the intervention."],"provenance":["Author-approved bounded hypothesis following the ten-candidate appraisal and individual review on 14 November 2026.","Approval registers the proposition only. No dietary admissions, SEC, publication gates, food mappings, rankings or accepted graph edges change."],"review_date":"2026-11-14"}} />
+
+{/* scientific-hypotheses:end */}
 
 ### 4.1 Scientific Findings
 

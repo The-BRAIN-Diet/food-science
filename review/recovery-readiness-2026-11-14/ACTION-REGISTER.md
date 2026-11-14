@@ -1,5 +1,7 @@
 # Recovery and release action register
 
+**Integration follow-up,14November2026:** Nine hypotheses and recovered Dahl prototype are now in the isolated PR244 integration copy. Approved manifest unchanged;984/79/112-of-158 selections unchanged. [File-level integration and validation evidence](integration/README.md). Source alternatives remain explicitly accounted for in the ledger. Build/public-preview verification pending; QC suspension retained; NOT FROZEN. Earlier completed publication-approval checkpoints below are preserved as history.
+
 **Current follow-up status:** All four source-publication decisions are approved and applied. Manifest/snapshot update commit `c1dafcb7f865853e324f969b928c745ab3ca6bf2`; verified final implementation `1841b3362cc960aad746bada35c3ec4f8a88c426`. Netlify preview is ready with984 ranked connections,79 ranked foods and112/158 covered targets. The earlier1005 snapshot and pending-approval wording below describe historical checkpoints. Remaining work: three regression fixture/count issues, full recovery-tree integration and deferred global review; no renewed source approval needed.
 
 Authoritative active issue register, 14 November 2026. Historical recovery reports remain evidence, not competing current queues. No production release is recommended; the technical preview is verified. Recovery branches preserve differing source states; they are not one reconciled release tree.

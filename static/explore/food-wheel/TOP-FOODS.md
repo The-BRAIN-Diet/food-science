@@ -1,6 +1,6 @@
 # Shared PM/Wheel ranked sources
 
-Snapshot: 5fbbd35186f7164654d408f5d74619d6d02216fa6e8d90d18e996ab2bd3f08f1
+Snapshot: 682e4da0617af57788a83135d36947f31658dbe3d5b8c1ae6cc60245d66056c7
 
 Provisional source power ≥10%; up to ten; no padding. Original quantities, states and sources retained.
 
