@@ -3,7 +3,7 @@
   "failures": [
     {
       "suite": "scientific-hypotheses.test.mjs",
-      "test": "hypothesis validates, is unestablished and appears immediately before unchanged §4.1 Finding projection",
+      "test": "hypothesis validates, is unestablished and appears immediately before unchanged \u00a74.1 Finding projection",
       "classification": "Historical global-Findings/placement expectation; individual registered hypothesis validation passes",
       "action": "Reconcile checker/approved projection separately; do not rewrite scientific content"
     },
@@ -74,5 +74,27 @@
       "PASS: same-current-record hypothesis removal leaves extraction unchanged",
       "REVIEW REQUIRED: expected two QC issues versus zero; missing register/state fallback is not issue resolution"
     ]
+  },
+  "technical_contract_checkpoint": {
+    "report": "technical-contract-repair/README.md",
+    "current_suite": {
+      "pass": 26,
+      "fail": 0
+    },
+    "historical_suite_against_current_candidate": {
+      "pass": 0,
+      "fail": 1
+    },
+    "public_qc_suite": {
+      "pass": 9,
+      "fail": 1
+    },
+    "global_findings": {
+      "pass": true,
+      "checked": 67
+    },
+    "qc_suspended": true,
+    "global_qc_pass": false,
+    "freeze": false
   }
 }

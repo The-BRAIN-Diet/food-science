@@ -50,3 +50,5 @@ Current recovery/release actions: [single authoritative action register](../revi
 Verified recovery preview: runtime6f7dc761e2548607c28d4bd1cccb937326eb6daf; nine Unestablished hypotheses;984ranked/79foods/112-of-158 unchanged. See the [authoritative action register](../review/recovery-readiness-2026-11-14/ACTION-REGISTER.md) for integration ledger, preview evidence and freeze blockers. QC remains provisionally suspended; no merge/production authorised.
 
 Validation follow-up: historical hashes explained; ignored QC inputs recovered as evidence only; ECS PM3 hyperlink/projection mismatch isolated.34/36 checks pass with two assertions retained failing. See the authoritative action register above; QC remains suspended and no freeze is declared.
+
+Technical recovery checkpoint: current provenance/hypothesis contracts26/26 and global Findings67/67 pass; historical pins retained separately, public-QC missing-input expectation still unresolved. No runtime-output change or rebuild. See the authoritative action register; no global QC PASS or freeze.

@@ -20,13 +20,16 @@ test('recovered ignored QC inputs explain the historical PM4 count without publi
  // No writes: archived historical adjudications do not activate the suspended gate.
 });
 
-test('ECS PM3 projection discrepancy is precisely a canonical genistein hyperlink, not changed scientific text',()=>{
+test('ECS PM3 renders its exact canonical genistein link with strict scientific freshness',()=>{
  const file='docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation.mdx';
  const p=matter(fs.readFileSync(file,'utf8'));
  const actual=p.content.slice(p.content.indexOf('## 7. Phenome Connections'),p.content.indexOf('## 8. References')).trim();
  const expected=renderPmPhenomeSectionBody(p.data.phenome_relationships,{sectionNum:7,findingData:p.data}).trim();
  const link='[genistein](/docs/substances/bioactive-compounds/polyphenols/isoflavones/genistein)';
  assert.equal(actual.split(link).length,2);
- assert.equal(actual.replace(link,'genistein'),expected);
- assert.notEqual(actual,expected); // Preserve the unresolved strict freshness diagnostic.
+ assert.equal(actual,expected);
+ const changed=structuredClone(p.data);changed.phenome_relationships[0].rationale += ' Unsupported added claim.';
+ assert.notEqual(actual,renderPmPhenomeSectionBody(changed.phenome_relationships,{sectionNum:7,findingData:changed}).trim());
+ assert.notEqual(actual.replace('Low–Medium','High'),expected);
+ assert.notEqual(actual.replace(link,'[genistein](/docs/not-canonical)'),expected);
 });

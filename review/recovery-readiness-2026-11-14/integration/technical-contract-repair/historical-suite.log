@@ -1,0 +1,29 @@
+TAP version 13
+# Subtest: all old structured PM9 scientific fields remain identical, and all other PM source bytes match their independently approved baselines
+not ok 1 - all old structured PM9 scientific fields remain identical, and all other PM source bytes match their independently approved baselines
+  ---
+  duration_ms: 2.66625
+  location: 'file:///private/tmp/brain-startup-verification-20261114/scripts/scientific-hypotheses.historical.test.mjs:6:1'
+  failureType: 'testCodeFailure'
+  error: 'docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: '802dc23f2b67a192aac6c17a1d88809579c71b25acbbeb0f66f79d573225eb51'
+  actual: '92c246a8af7676f6e683ea177a6d0f0a2a9d8b38ee12b480d07dd6ba3d5d1c63'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///private/tmp/brain-startup-verification-20261114/scripts/scientific-hypotheses.historical.test.mjs:6:527)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.start (node:internal/test_runner/test:542:17)
+    startSubtest (node:internal/test_runner/harness:216:17)
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 0
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 65.887958

@@ -1,0 +1,144 @@
+TAP version 13
+# Subtest: BRS5-FM2-PM4 approved hypothesis, unchanged science and original body
+ok 1 - BRS5-FM2-PM4 approved hypothesis, unchanged science and original body
+  ---
+  duration_ms: 275.127708
+  ...
+# Subtest: BRS4-FM1-PM3 approved hypothesis, unchanged science and original body
+ok 2 - BRS4-FM1-PM3 approved hypothesis, unchanged science and original body
+  ---
+  duration_ms: 270.879875
+  ...
+# Subtest: BRS-X(ECS-PM1) approved hypothesis, unchanged science and original body
+ok 3 - BRS-X(ECS-PM1) approved hypothesis, unchanged science and original body
+  ---
+  duration_ms: 57.460958
+  ...
+# Subtest: BRS-X(Hormones-PM6) approved hypothesis, unchanged science and original body
+ok 4 - BRS-X(Hormones-PM6) approved hypothesis, unchanged science and original body
+  ---
+  duration_ms: 62.304292
+  ...
+# Subtest: all four PM pages compile using the existing layout
+ok 5 - all four PM pages compile using the existing layout
+  ---
+  duration_ms: 488.453375
+  ...
+# Subtest: approved PE and androgen boundaries remain explicit
+ok 6 - approved PE and androgen boundaries remain explicit
+  ---
+  duration_ms: 1.137625
+  ...
+# (node:46438) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: canonical hypothesis uses existing schema, correct direction and immediate placement
+ok 7 - canonical hypothesis uses existing schema, correct direction and immediate placement
+  ---
+  duration_ms: 168.527792
+  ...
+# Subtest: reviewed evidence and five links survive without conflating different endpoints
+ok 8 - reviewed evidence and five links survive without conflating different endpoints
+  ---
+  duration_ms: 0.389375
+  ...
+# Subtest: all previous PM1 scientific fields and original body are preserved exactly
+ok 9 - all previous PM1 scientific fields and original body are preserved exactly
+  ---
+  duration_ms: 1.650166
+  ...
+# Subtest: actual hypothesis component renders visible Unestablished status before unchanged Findings
+ok 10 - actual hypothesis component renders visible Unestablished status before unchanged Findings
+  ---
+  duration_ms: 73.974167
+  ...
+# Subtest: complete PM1 MDX compiles through the existing Docusaurus layout pipeline
+ok 11 - complete PM1 MDX compiles through the existing Docusaurus layout pipeline
+  ---
+  duration_ms: 307.748458
+  ...
+# Subtest: hypothesis leaves causal extraction, food targets and manuscript decisions identical
+ok 12 - hypothesis leaves causal extraction, food targets and manuscript decisions identical
+  ---
+  duration_ms: 286.336625
+  ...
+# Subtest: all nine approved recovered hypotheses retain exact identities and Unestablished status
+ok 13 - all nine approved recovered hypotheses retain exact identities and Unestablished status
+  ---
+  duration_ms: 991.575834
+  ...
+# Subtest: hypothesis recovery does not change any approved ranked selection or observation
+ok 14 - hypothesis recovery does not change any approved ranked selection or observation
+  ---
+  duration_ms: 36.689167
+  ...
+# Subtest: recovered ignored QC inputs explain the historical PM4 count without publishing or closing issues
+ok 15 - recovered ignored QC inputs explain the historical PM4 count without publishing or closing issues
+  ---
+  duration_ms: 591.437958
+  ...
+# Subtest: ECS PM3 renders its exact canonical genistein link with strict scientific freshness
+ok 16 - ECS PM3 renders its exact canonical genistein link with strict scientific freshness
+  ---
+  duration_ms: 4.181791
+  ...
+# (node:46441) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: hypothesis validates, is unestablished and appears immediately before unchanged §4.1 Finding projection
+ok 17 - hypothesis validates, is unestablished and appears immediately before unchanged §4.1 Finding projection
+  ---
+  duration_ms: 1516.676875
+  ...
+# Subtest: current approved candidate retains provenance-pinned scientific pages and approved hypothesis additions
+ok 18 - current approved candidate retains provenance-pinned scientific pages and approved hypothesis additions
+  ---
+  duration_ms: 9.134291
+  ...
+# Subtest: original reference direction, source commit, explanations and page record are traceable
+ok 19 - original reference direction, source commit, explanations and page record are traceable
+  ---
+  duration_ms: 0.134833
+  ...
+# Subtest: direct support, null/contradictory evidence and context are not conflated; no invented SF or score
+ok 20 - direct support, null/contradictory evidence and context are not conflated; no invented SF or score
+  ---
+  duration_ms: 0.285875
+  ...
+# Subtest: empty PMs render no hypothesis section; invalid statuses, directions, dangling Findings and score injection fail closed
+ok 21 - empty PMs render no hypothesis section; invalid statuses, directions, dangling Findings and score injection fail closed
+  ---
+  duration_ms: 162.408209
+  ...
+# Subtest: Supported does not admit a causal edge; actual graph and synthetic canonical §6.2 extraction remain protected
+ok 22 - Supported does not admit a causal edge; actual graph and synthetic canonical §6.2 extraction remain protected
+  ---
+  duration_ms: 38.562709
+  ...
+# Subtest: automatic link collection rejects the hypothesis-only href while retaining an unrelated relationship
+ok 23 - automatic link collection rejects the hypothesis-only href while retaining an unrelated relationship
+  ---
+  duration_ms: 0.264333
+  ...
+# Subtest: hypotheses do not enter input mappings or current approved manuscript exports
+ok 24 - hypotheses do not enter input mappings or current approved manuscript exports
+  ---
+  duration_ms: 160.558333
+  ...
+# Subtest: real component renders a compact native disclosure with visible status and no SEC/admission control
+ok 25 - real component renders a compact native disclosure with visible status and no SEC/admission control
+  ---
+  duration_ms: 58.517542
+  ...
+# Subtest: complete PM9 MDX compiles with the existing layout plugin and preserves the Scientific Findings anchor
+ok 26 - complete PM9 MDX compiles with the existing layout plugin and preserves the Scientific Findings anchor
+  ---
+  duration_ms: 229.746792
+  ...
+1..26
+# tests 26
+# suites 0
+# pass 26
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2906.588208
