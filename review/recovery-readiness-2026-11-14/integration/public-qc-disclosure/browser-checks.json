@@ -1,0 +1,29 @@
+{
+  "runtime": "9402186a0e9e10ac4136d4c701ed3afd8d791f1b",
+  "deploy": "6af8cf648d79fc5d557264c5",
+  "pm": "BRS5-FM2-PM4",
+  "desktop": {
+    "noticeVisible": true,
+    "historyUnavailableLabel": true,
+    "nestedReviewRecordsAccessible": true,
+    "noticeCountWhenExpanded": 1
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "noticeReadable": true,
+    "noNoticeClipping": true
+  },
+  "viewportReset": true,
+  "foodPage": {
+    "food": "eggs",
+    "navigationWorks": true,
+    "publicReviewTabExposed": false,
+    "note": "Existing public nutrition tabs preserved; no new review tab added. Shared review-panel rendering covered by unit tests."
+  },
+  "register": "Existing exposure rules unchanged; component verified by rendered tests, not newly published.",
+  "productionUnchanged": {
+    "deploy": "6af5e82e2ee5b7f0e5fd9bb9",
+    "commit": "f0845f3a29e078bc63f613e8baec6b889e716285"
+  }
+}

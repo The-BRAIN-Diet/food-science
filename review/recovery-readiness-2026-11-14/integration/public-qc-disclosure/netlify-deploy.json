@@ -1,0 +1,13 @@
+{
+  "id": "6af8cf648d79fc5d557264c5",
+  "site_id": "a2fa2bed-681c-4abf-89a3-6b222ee14e90",
+  "state": "ready",
+  "commit_ref": "9402186a0e9e10ac4136d4c701ed3afd8d791f1b",
+  "context": "deploy-preview",
+  "branch": "recovery/20261114-release-actions",
+  "build_id": "6af8cf648d79fc5d557264c3",
+  "deploy_time": 368,
+  "created_at": "2026-11-14T21:15:16.731Z",
+  "updated_at": "2026-11-14T21:25:04.894Z",
+  "error_message": null
+}
