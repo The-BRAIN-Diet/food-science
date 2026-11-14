@@ -202,7 +202,3 @@
 
 [context.production.environment]
   NODE_OPTIONS = "--max-old-space-size=6144"
-
-# Recovery review only: use the controlled local verification heap.
-[context.deploy-preview.environment]
-  NODE_OPTIONS = "--max-old-space-size=6144"
