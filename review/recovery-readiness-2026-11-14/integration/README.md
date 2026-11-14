@@ -40,6 +40,8 @@ Repeated full generation produces byte-identical ranked, Wheel, Explorer and man
 
 Wider historical suites retain four PM1/PM9 fixture/global-Findings failures and one suspended QC public-diagnostic expectation (expected2,actual0). These are not labelled a global PASS; no scientific content was rewritten. An initial PM1 run lacked Git context in the export and was rerun with the actual shared Git directory; that environment error is not a content failure.
 
-Production build and public-preview inspection remain pending at this checkpoint. Cross-framework QC remains provisionally suspended; dietary and SEC prechecks remain enabled. No frozen/release-ready declaration.
+Local production build passed (server1.88min,client7.81min), including existing scientific prechecks. Actual npm start compiled successfully and served HTTP200; all14 ranked/Wheel files checked remained byte-identical. Public-preview inspection remains pending. Cross-framework QC remains provisionally suspended; dietary and SEC prechecks remain enabled. No frozen/release-ready declaration.
 
 Proposed tag: `brain-reconciled-2026-11-14` (not created). Proposed freeze date:14November2026, conditional on complete preview verification and explicit disposition of remaining historical validation limitations. Deferred serving/spice/safety/maxima work remains D01–D05 in the authoritative action register.
+
+Browser verification found a pre-existing navigation escape: PM Explorer forced documentation links to production or localhost3181. Root-relative documentation and constituent-food links now retain the current preview/production origin; eight Explorer tests pass. No scientific record or layout changed.

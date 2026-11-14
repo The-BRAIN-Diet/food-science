@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:3197/explore/food-wheel/",
+  "http_status": 200,
+  "compiled": true,
+  "hashes_before": {
+    "src/data/rankedFoodSources.generated.json": "1be671e829575688e75d22f01e6a0586dd986681a4953cbff64221e968030d00",
+    "static/explore/food-wheel/GAP-LEDGER.md": "9780b0bbb055a21ea546f37a9da4ffabf938b3d22bc5861c6a5cd90a2dfecea1",
+    "static/explore/food-wheel/display-network.json": "6133f69db924f32cadcf1f715625c40b1ea38facd2d58645dc0740e8411edc6e",
+    "static/explore/food-wheel/index.html": "dba9ef5503524c09b3bd3fe87cf49ec1a9d6fdff79d37db4d12206411b85f031",
+    "static/explore/food-wheel/food-wheel.svg": "9a063e871dbb11776946e7ddbc74934b62df1408c908a5d7eb9319114787f0ba",
+    "static/explore/food-wheel/MULTI-TARGET-FOODS.md": "98c74c5a955af2b57b132571627ed2b6fd2302a7e7d2ef3ba2bf92a04c5128a4",
+    "static/explore/food-wheel/about.html": "ae6d33d6b035235b2e2978b91a68a75e1ced7ee117b0b9dd1396ac0aaa92bbe3",
+    "static/explore/food-wheel/display-network.svg": "fcbeaeb6d0a4d3bbb5496687b3c9bd1c0d959a009323b26733a6a48f5cadc3bb",
+    "static/explore/food-wheel/ribbon-presentation.mjs": "4e5581726cf179752a6224487be01db979b897d8b4b54fd45e8a8b198bd108e5",
+    "static/explore/food-wheel/TOP-FOODS.md": "81bd9102fc0fd735447bfb9e21c2d1f164d7b9f4f360a135bf815171bd12238c",
+    "static/explore/food-wheel/evidence-ledger.json": "fc91a75e03a3c09dec2777521e325a99a7826375828a02b0efce52c24a1905db",
+    "static/explore/food-wheel/selection-model.mjs": "64ac4c63265b4c87a9ad05d5249e4d952934bfa002f704a1f1ba212a77084c18",
+    "static/explore/food-wheel/interactive-views.mjs": "739f65951c26eee308315b9c7ba8ea01cc0bbd4f6e344c2b5488d700ca239c6b",
+    "static/explore/food-wheel/evidence-ledger.html": "dc7a01a81e42277949f2d08addf2afcedec9f196969dc0f24217791023d07fb7"
+  },
+  "hashes_after": {
+    "src/data/rankedFoodSources.generated.json": "1be671e829575688e75d22f01e6a0586dd986681a4953cbff64221e968030d00",
+    "static/explore/food-wheel/GAP-LEDGER.md": "9780b0bbb055a21ea546f37a9da4ffabf938b3d22bc5861c6a5cd90a2dfecea1",
+    "static/explore/food-wheel/display-network.json": "6133f69db924f32cadcf1f715625c40b1ea38facd2d58645dc0740e8411edc6e",
+    "static/explore/food-wheel/index.html": "dba9ef5503524c09b3bd3fe87cf49ec1a9d6fdff79d37db4d12206411b85f031",
+    "static/explore/food-wheel/food-wheel.svg": "9a063e871dbb11776946e7ddbc74934b62df1408c908a5d7eb9319114787f0ba",
+    "static/explore/food-wheel/MULTI-TARGET-FOODS.md": "98c74c5a955af2b57b132571627ed2b6fd2302a7e7d2ef3ba2bf92a04c5128a4",
+    "static/explore/food-wheel/about.html": "ae6d33d6b035235b2e2978b91a68a75e1ced7ee117b0b9dd1396ac0aaa92bbe3",
+    "static/explore/food-wheel/display-network.svg": "fcbeaeb6d0a4d3bbb5496687b3c9bd1c0d959a009323b26733a6a48f5cadc3bb",
+    "static/explore/food-wheel/ribbon-presentation.mjs": "4e5581726cf179752a6224487be01db979b897d8b4b54fd45e8a8b198bd108e5",
+    "static/explore/food-wheel/TOP-FOODS.md": "81bd9102fc0fd735447bfb9e21c2d1f164d7b9f4f360a135bf815171bd12238c",
+    "static/explore/food-wheel/evidence-ledger.json": "fc91a75e03a3c09dec2777521e325a99a7826375828a02b0efce52c24a1905db",
+    "static/explore/food-wheel/selection-model.mjs": "64ac4c63265b4c87a9ad05d5249e4d952934bfa002f704a1f1ba212a77084c18",
+    "static/explore/food-wheel/interactive-views.mjs": "739f65951c26eee308315b9c7ba8ea01cc0bbd4f6e344c2b5488d700ca239c6b",
+    "static/explore/food-wheel/evidence-ledger.html": "dc7a01a81e42277949f2d08addf2afcedec9f196969dc0f24217791023d07fb7"
+  },
+  "changed": []
+}

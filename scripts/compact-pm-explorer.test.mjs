@@ -44,3 +44,5 @@ test('lamb creatine is grouped as animal in the shared helper and Explorer',asyn
  assert(sources.foods.filter(f=>f.pm==='BRS2-FM1-PM1'&&f.substance==='vitamin-b12'&&f.food==='herring').every(f=>f.food_group==='animal'));
  assert(sources.foods.filter(f=>f.pm==='BRS2-FM1-PM1'&&f.substance==='vitamin-b2'&&f.food==='heart').every(f=>f.food_group==='animal'));
 });
+
+test('canonical documentation links stay on the current preview or production origin',()=>{const source=fs.readFileSync('static/explore/pm-explorer/app.mjs','utf8');assert.doesNotMatch(source,/http:\/\/127\.0\.0\.1:3181|https:\/\/thebraindiet\.org/);assert.match(source,/href="\/docs\/foods\//);});
