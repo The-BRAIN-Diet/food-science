@@ -1,0 +1,60 @@
+TAP version 13
+# Subtest: three-PM integration manifest and immutable source archives match baseline bytes and hashes
+ok 1 - three-PM integration manifest and immutable source archives match baseline bytes and hashes
+  ---
+  duration_ms: 74.459125
+  ...
+# Subtest: all accepted propositions are pinned; every earlier pilot snapshot and score is retained
+ok 2 - all accepted propositions are pinned; every earlier pilot snapshot and score is retained # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.071166
+  ...
+# Subtest: approved integration preserved original science and dietary decisions; current records validate independently
+ok 3 - approved integration preserved original science and dietary decisions; current records validate independently # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.0575
+  ...
+# Subtest: GABA approved corrections and conditional scores survive; lesson remains byte-identical beside F1
+ok 4 - GABA approved corrections and conditional scores survive; lesson remains byte-identical beside F1 # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.0495
+  ...
+# Subtest: glycaemic protocols have immutable identities, exact six atoms and bounded Finding links
+ok 5 - glycaemic protocols have immutable identities, exact six atoms and bounded Finding links # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.167083
+  ...
+# Subtest: food-strategy projection removes only retired PM2 relationship; PM1 and other PMs are byte-equivalent data
+ok 6 - food-strategy projection removes only retired PM2 relationship; PM1 and other PMs are byte-equivalent data # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.044791
+  ...
+# Subtest: SAMe chemistry is unscored provenance, kinetic disagreement retained, F5 model-bounded 5/8
+ok 7 - SAMe chemistry is unscored provenance, kinetic disagreement retained, F5 model-bounded 5/8 # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.046042
+  ...
+# Subtest: all three canonical MDX pages compile with only canonical components and consistent numbered references
+ok 8 - all three canonical MDX pages compile with only canonical components and consistent numbered references # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.048541
+  ...
+# Subtest: verified curated records and canonical audit reuse local anchors and standard disclosure behavior
+ok 9 - verified curated records and canonical audit reuse local anchors and standard disclosure behavior # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.155708
+  ...
+# Subtest: reference sync preserves the explicit local annex without relaxing numbered-reference integrity
+ok 10 - reference sync preserves the explicit local annex without relaxing numbered-reference integrity # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.066834
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 9
+# todo 0
+# duration_ms 415.833334

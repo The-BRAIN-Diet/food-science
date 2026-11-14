@@ -1,0 +1,70 @@
+TAP version 13
+# Subtest: complete provisional SEC requires defensible factors, not human approval
+ok 1 - complete provisional SEC requires defensible factors, not human approval # SKIP test name does not match pattern
+  ---
+  duration_ms: 1.197
+  ...
+# Subtest: GABA conditional scores retain formal unknowns and cannot be silently promoted
+ok 2 - GABA conditional scores retain formal unknowns and cannot be silently promoted # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.082459
+  ...
+# Subtest: Not scored, assessed zero and D0 are distinct; existing ceilings compose
+ok 3 - Not scored, assessed zero and D0 are distinct; existing ceilings compose # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.059042
+  ...
+# Subtest: scientific review requires qualified identified human acceptance of the exact version
+ok 4 - scientific review requires qualified identified human acceptance of the exact version # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.10425
+  ...
+# Subtest: references pin exact PM, Finding, proposition, version and content, never latest
+ok 5 - references pin exact PM, Finding, proposition, version and content, never latest # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.064458
+  ...
+# Subtest: immutable append-only snapshots reject edits, deletion, backfill, duplicate identity and hash changes
+ok 6 - immutable append-only snapshots reject edits, deletion, backfill, duplicate identity and hash changes # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.049459
+  ...
+# Subtest: factor, evidence-role, limitation, version, scope and provenance requirements fail closed
+ok 7 - factor, evidence-role, limitation, version, scope and provenance requirements fail closed # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.171667
+  ...
+# Subtest: legacy scientific finding validation and generated markup stay unchanged without a reference
+ok 8 - legacy scientific finding validation and generated markup stay unchanged without a reference # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.054792
+  ...
+# Subtest: legacy Finding evidence HTML is unchanged except the approved derived SF title prefix
+ok 9 - legacy Finding evidence HTML is unchanged except the approved derived SF title prefix
+  ---
+  duration_ms: 135.479333
+  ...
+# Subtest: reference renderer reuses indicator and audit, exposes pinned history and preserves review record
+ok 10 - reference renderer reuses indicator and audit, exposes pinned history and preserves review record # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.22275
+  ...
+# Subtest: publication gate is installed and approved production registry validates
+ok 11 - publication gate is installed and approved production registry validates # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.101333
+  ...
+# Subtest: actual shared audit renders canonical factor states and closed version anchors without invented review
+ok 12 - actual shared audit renders canonical factor states and closed version anchors without invented review # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.063334
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 11
+# todo 0
+# duration_ms 822.411583

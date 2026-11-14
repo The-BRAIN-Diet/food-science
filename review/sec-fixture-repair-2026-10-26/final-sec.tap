@@ -1,0 +1,124 @@
+
+> temp-docusaurus@0.0.0 test:sec-integration
+> node --test scripts/sec-assessment-integration.test.mjs scripts/sec-canonical-integration.test.mjs
+
+TAP version 13
+# Subtest: complete provisional SEC requires defensible factors, not human approval
+ok 1 - complete provisional SEC requires defensible factors, not human approval
+  ---
+  duration_ms: 13.108
+  ...
+# Subtest: GABA conditional scores retain formal unknowns and cannot be silently promoted
+ok 2 - GABA conditional scores retain formal unknowns and cannot be silently promoted
+  ---
+  duration_ms: 9.751041
+  ...
+# Subtest: Not scored, assessed zero and D0 are distinct; existing ceilings compose
+ok 3 - Not scored, assessed zero and D0 are distinct; existing ceilings compose
+  ---
+  duration_ms: 16.168875
+  ...
+# Subtest: scientific review requires qualified identified human acceptance of the exact version
+ok 4 - scientific review requires qualified identified human acceptance of the exact version
+  ---
+  duration_ms: 3.546042
+  ...
+# Subtest: references pin exact PM, Finding, proposition, version and content, never latest
+ok 5 - references pin exact PM, Finding, proposition, version and content, never latest
+  ---
+  duration_ms: 2.123
+  ...
+# Subtest: immutable append-only snapshots reject edits, deletion, backfill, duplicate identity and hash changes
+ok 6 - immutable append-only snapshots reject edits, deletion, backfill, duplicate identity and hash changes
+  ---
+  duration_ms: 16.237333
+  ...
+# Subtest: factor, evidence-role, limitation, version, scope and provenance requirements fail closed
+ok 7 - factor, evidence-role, limitation, version, scope and provenance requirements fail closed
+  ---
+  duration_ms: 12.747416
+  ...
+# Subtest: legacy scientific finding validation and generated markup stay unchanged without a reference
+ok 8 - legacy scientific finding validation and generated markup stay unchanged without a reference
+  ---
+  duration_ms: 266.861792
+  ...
+# Subtest: legacy Finding evidence HTML is unchanged except the approved derived SF title prefix
+ok 9 - legacy Finding evidence HTML is unchanged except the approved derived SF title prefix
+  ---
+  duration_ms: 204.55675
+  ...
+# Subtest: reference renderer reuses indicator and audit, exposes pinned history and preserves review record
+ok 10 - reference renderer reuses indicator and audit, exposes pinned history and preserves review record
+  ---
+  duration_ms: 45.301333
+  ...
+# Subtest: publication gate is installed and approved production registry validates
+ok 11 - publication gate is installed and approved production registry validates
+  ---
+  duration_ms: 37.240417
+  ...
+# Subtest: actual shared audit renders canonical factor states and closed version anchors without invented review
+ok 12 - actual shared audit renders canonical factor states and closed version anchors without invented review
+  ---
+  duration_ms: 82.658708
+  ...
+# Subtest: three-PM integration manifest and immutable source archives match baseline bytes and hashes
+ok 13 - three-PM integration manifest and immutable source archives match baseline bytes and hashes
+  ---
+  duration_ms: 114.997458
+  ...
+# Subtest: all accepted propositions are pinned; every earlier pilot snapshot and score is retained
+ok 14 - all accepted propositions are pinned; every earlier pilot snapshot and score is retained
+  ---
+  duration_ms: 89.011209
+  ...
+# Subtest: approved integration preserved original science and dietary decisions; current records validate independently
+ok 15 - approved integration preserved original science and dietary decisions; current records validate independently
+  ---
+  duration_ms: 1008.9195
+  ...
+# Subtest: GABA approved corrections and conditional scores survive; lesson remains byte-identical beside F1
+ok 16 - GABA approved corrections and conditional scores survive; lesson remains byte-identical beside F1
+  ---
+  duration_ms: 0.750209
+  ...
+# Subtest: glycaemic protocols have immutable identities, exact six atoms and bounded Finding links
+ok 17 - glycaemic protocols have immutable identities, exact six atoms and bounded Finding links
+  ---
+  duration_ms: 3.935
+  ...
+# Subtest: food-strategy projection removes only retired PM2 relationship; PM1 and other PMs are byte-equivalent data
+ok 18 - food-strategy projection removes only retired PM2 relationship; PM1 and other PMs are byte-equivalent data
+  ---
+  duration_ms: 24.602292
+  ...
+# Subtest: SAMe chemistry is unscored provenance, kinetic disagreement retained, F5 model-bounded 5/8
+ok 19 - SAMe chemistry is unscored provenance, kinetic disagreement retained, F5 model-bounded 5/8
+  ---
+  duration_ms: 4.297208
+  ...
+# Subtest: all three canonical MDX pages compile with only canonical components and consistent numbered references
+ok 20 - all three canonical MDX pages compile with only canonical components and consistent numbered references
+  ---
+  duration_ms: 1229.543709
+  ...
+# Subtest: verified curated records and canonical audit reuse local anchors and standard disclosure behavior
+ok 21 - verified curated records and canonical audit reuse local anchors and standard disclosure behavior
+  ---
+  duration_ms: 235.518208
+  ...
+# Subtest: reference sync preserves the explicit local annex without relaxing numbered-reference integrity
+ok 22 - reference sync preserves the explicit local annex without relaxing numbered-reference integrity
+  ---
+  duration_ms: 2.071125
+  ...
+1..22
+# tests 22
+# suites 0
+# pass 22
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3180.433958

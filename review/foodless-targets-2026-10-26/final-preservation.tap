@@ -1,0 +1,80 @@
+TAP version 13
+# Subtest: 20 complete same-record EAA profiles: 10 plant and 10 animal
+ok 1 - 20 complete same-record EAA profiles: 10 plant and 10 animal
+  ---
+  duration_ms: 2.4225
+  ...
+# Subtest: all amino-acid and protein quantities match the retrieved USDA rows exactly
+ok 2 - all amino-acid and protein quantities match the retrieved USDA rows exactly
+  ---
+  duration_ms: 1.460416
+  ...
+# Subtest: missing constituents, incompatible basis, false source or missing portion never become zero or a source
+ok 3 - missing constituents, incompatible basis, false source or missing portion never become zero or a source
+  ---
+  duration_ms: 0.843417
+  ...
+# Subtest: aggregate cannot be inferred from total protein or a synthetic contains edge
+ok 4 - aggregate cannot be inferred from total protein or a synthetic contains edge
+  ---
+  duration_ms: 0.135333
+  ...
+# Subtest: PM1 aggregate sources retain separate evidence and existing admission
+ok 5 - PM1 aggregate sources retain separate evidence and existing admission
+  ---
+  duration_ms: 0.168458
+  ...
+# Subtest: eight formerly foodless targets now have source-qualified direct composition
+ok 6 - eight formerly foodless targets now have source-qualified direct composition
+  ---
+  duration_ms: 0.420125
+  ...
+# Subtest: NAC and exact oligofructose preparation retain admissions without invented foods
+ok 7 - NAC and exact oligofructose preparation retain admissions without invented foods
+  ---
+  duration_ms: 0.438625
+  ...
+# Subtest: chemical forms and qualitative uncertainty survive the projection
+ok 8 - chemical forms and qualitative uncertainty survive the projection
+  ---
+  duration_ms: 0.441833
+  ...
+# Subtest: glucose comes from the specific nutrient rather than total sugars
+ok 9 - glucose comes from the specific nutrient rather than total sugars
+  ---
+  duration_ms: 0.428875
+  ...
+# Subtest: same 51 admitted identities; food coverage changes independently
+ok 10 - same 51 admitted identities; food coverage changes independently
+  ---
+  duration_ms: 1.846166
+  ...
+# Subtest: all protected PM, KC and SEC files remain byte-for-byte unchanged
+ok 11 - all protected PM, KC and SEC files remain byte-for-byte unchanged
+  ---
+  duration_ms: 25.555417
+  ...
+# Subtest: reciprocal food projection uses admitted records and preserves composition versus intervention
+ok 12 - reciprocal food projection uses admitted records and preserves composition versus intervention
+  ---
+  duration_ms: 7.475333
+  ...
+# Subtest: shared TSX projections parse without syntax regressions
+ok 13 - shared TSX projections parse without syntax regressions
+  ---
+  duration_ms: 339.42525
+  ...
+# Subtest: compact aggregate totals fit the canonical column without changing underlying amino-acid values
+ok 14 - compact aggregate totals fit the canonical column without changing underlying amino-acid values
+  ---
+  duration_ms: 21.442125
+  ...
+1..14
+# tests 14
+# suites 0
+# pass 14
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1530.15825

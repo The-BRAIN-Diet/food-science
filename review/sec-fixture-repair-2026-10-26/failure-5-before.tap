@@ -1,0 +1,179 @@
+TAP version 13
+# Subtest: exactly three canonical PMs changed; source archives match baseline bytes and hashes
+not ok 1 - exactly three canonical PMs changed; source archives match baseline bytes and hashes
+  ---
+  duration_ms: 36.805708
+  location: 'file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-canonical-integration.test.mjs:21:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+    +   'docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx',
+    +   'docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation.mdx',
+    +   'docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx',
+    +   'docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx',
+    +   'docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation.mdx',
+    +   'docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation.mdx',
+    +   'docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity.mdx',
+    +   'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability.mdx',
+    +   'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation.mdx',
+    +   'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism.mdx',
+    +   'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration.mdx',
+    +   'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability.mdx',
+    +   'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation.mdx',
+    +   'docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx',
+    +   'docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx',
+    +   'docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx',
+    +   'docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx',
+    +   'docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx',
+    +   'docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx',
+    +   'docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling.mdx',
+    +   'docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx',
+    +   'docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx',
+    +   'docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx',
+    +   'docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx',
+    +   'docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx',
+    +   'docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx',
+    +   'docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx',
+    +   'docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx',
+    +   'docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx',
+    +   'docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx',
+    +   'docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx',
+    +   'docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx',
+    +   'docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx',
+    +   'docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx',
+    +   'docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx',
+    +   'docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx',
+    +   'docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx',
+    +   'docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx',
+    +   'docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx',
+    +   'docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx',
+    +   'docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx',
+    +   'docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx',
+    +   'docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx',
+    +   'docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx',
+    +   'docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx',
+    +   'docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx',
+    +   'docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx'
+    -   'docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx',
+    -   'docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx',
+    -   'docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx'
+      ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx'
+    1: 'docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx'
+    2: 'docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx'
+  actual:
+    0: 'docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx'
+    1: 'docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation.mdx'
+    2: 'docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx'
+    3: 'docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx'
+    4: 'docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation.mdx'
+    5: 'docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation.mdx'
+    6: 'docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity.mdx'
+    7: 'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability.mdx'
+    8: 'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation.mdx'
+    9: 'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism.mdx'
+    10: 'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration.mdx'
+    11: 'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability.mdx'
+    12: 'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation.mdx'
+    13: 'docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx'
+    14: 'docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx'
+    15: 'docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx'
+    16: 'docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx'
+    17: 'docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx'
+    18: 'docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx'
+    19: 'docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling.mdx'
+    20: 'docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx'
+    21: 'docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx'
+    22: 'docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx'
+    23: 'docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx'
+    24: 'docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx'
+    25: 'docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx'
+    26: 'docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx'
+    27: 'docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx'
+    28: 'docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx'
+    29: 'docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx'
+    30: 'docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx'
+    31: 'docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx'
+    32: 'docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx'
+    33: 'docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx'
+    34: 'docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx'
+    35: 'docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx'
+    36: 'docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx'
+    37: 'docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx'
+    38: 'docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx'
+    39: 'docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx'
+    40: 'docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx'
+    41: 'docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx'
+    42: 'docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx'
+    43: 'docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx'
+    44: 'docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx'
+    45: 'docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx'
+    46: 'docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-canonical-integration.test.mjs:23:10)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.start (node:internal/test_runner/test:542:17)
+    startSubtest (node:internal/test_runner/harness:216:17)
+  ...
+# Subtest: all accepted propositions are pinned; every earlier pilot snapshot and score is retained
+ok 2 - all accepted propositions are pinned; every earlier pilot snapshot and score is retained # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.15475
+  ...
+# Subtest: canonical science, dietary atoms, KC decisions, food composition and old references are preserved as approved
+ok 3 - canonical science, dietary atoms, KC decisions, food composition and old references are preserved as approved # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.05475
+  ...
+# Subtest: GABA approved corrections and conditional scores survive; lesson remains byte-identical beside F1
+ok 4 - GABA approved corrections and conditional scores survive; lesson remains byte-identical beside F1 # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.049958
+  ...
+# Subtest: glycaemic protocols have immutable identities, exact six atoms and bounded Finding links
+ok 5 - glycaemic protocols have immutable identities, exact six atoms and bounded Finding links # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.053875
+  ...
+# Subtest: food-strategy projection removes only retired PM2 relationship; PM1 and other PMs are byte-equivalent data
+ok 6 - food-strategy projection removes only retired PM2 relationship; PM1 and other PMs are byte-equivalent data # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.044875
+  ...
+# Subtest: SAMe chemistry is unscored provenance, kinetic disagreement retained, F5 model-bounded 5/8
+ok 7 - SAMe chemistry is unscored provenance, kinetic disagreement retained, F5 model-bounded 5/8 # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.045458
+  ...
+# Subtest: all three canonical MDX pages compile with only canonical components and consistent numbered references
+ok 8 - all three canonical MDX pages compile with only canonical components and consistent numbered references # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.047667
+  ...
+# Subtest: verified curated records and canonical audit reuse local anchors and standard disclosure behavior
+ok 9 - verified curated records and canonical audit reuse local anchors and standard disclosure behavior # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.159458
+  ...
+# Subtest: reference sync preserves the explicit local annex without relaxing numbered-reference integrity
+ok 10 - reference sync preserves the explicit local annex without relaxing numbered-reference integrity # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.168916
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 0
+# fail 1
+# cancelled 0
+# skipped 9
+# todo 0
+# duration_ms 339.989667

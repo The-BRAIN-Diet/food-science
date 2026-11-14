@@ -1,0 +1,90 @@
+TAP version 13
+# Subtest: complete provisional SEC requires defensible factors, not human approval
+ok 1 - complete provisional SEC requires defensible factors, not human approval # SKIP test name does not match pattern
+  ---
+  duration_ms: 1.072167
+  ...
+# Subtest: GABA conditional scores retain formal unknowns and cannot be silently promoted
+ok 2 - GABA conditional scores retain formal unknowns and cannot be silently promoted # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.063417
+  ...
+# Subtest: Not scored, assessed zero and D0 are distinct; existing ceilings compose
+ok 3 - Not scored, assessed zero and D0 are distinct; existing ceilings compose # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.050125
+  ...
+# Subtest: scientific review requires qualified identified human acceptance of the exact version
+ok 4 - scientific review requires qualified identified human acceptance of the exact version # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.053834
+  ...
+# Subtest: references pin exact PM, Finding, proposition, version and content, never latest
+ok 5 - references pin exact PM, Finding, proposition, version and content, never latest # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.054291
+  ...
+# Subtest: immutable append-only snapshots reject edits, deletion, backfill, duplicate identity and hash changes
+ok 6 - immutable append-only snapshots reject edits, deletion, backfill, duplicate identity and hash changes # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.041584
+  ...
+# Subtest: factor, evidence-role, limitation, version, scope and provenance requirements fail closed
+ok 7 - factor, evidence-role, limitation, version, scope and provenance requirements fail closed # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.161333
+  ...
+# Subtest: legacy scientific finding validation and generated markup stay unchanged without a reference
+ok 8 - legacy scientific finding validation and generated markup stay unchanged without a reference # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.050625
+  ...
+# Subtest: legacy Finding evidence HTML is unchanged except the approved derived SF title prefix
+ok 9 - legacy Finding evidence HTML is unchanged except the approved derived SF title prefix # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.154708
+  ...
+# Subtest: reference renderer reuses indicator and audit, exposes pinned history and preserves review record
+ok 10 - reference renderer reuses indicator and audit, exposes pinned history and preserves review record # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.262708
+  ...
+# Subtest: publication gate is installed and approved production registry validates
+not ok 11 - publication gate is installed and approved production registry validates
+  ---
+  duration_ms: 30.009208
+  location: 'file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs:157:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    The expression evaluated to a falsy value:
+    
+      assert.ok(pkg.scripts.prebuild.startsWith('node scripts/check-sec-assessments.mjs &&'))
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs:160:10)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: actual shared audit renders canonical factor states and closed version anchors without invented review
+ok 12 - actual shared audit renders canonical factor states and closed version anchors without invented review # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.076417
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 0
+# fail 1
+# cancelled 0
+# skipped 11
+# todo 0
+# duration_ms 352.591541

@@ -1,0 +1,669 @@
+TAP version 13
+# Subtest: complete provisional SEC requires defensible factors, not human approval
+ok 1 - complete provisional SEC requires defensible factors, not human approval
+  ---
+  duration_ms: 11.445541
+  ...
+# Subtest: GABA conditional scores retain formal unknowns and cannot be silently promoted
+ok 2 - GABA conditional scores retain formal unknowns and cannot be silently promoted
+  ---
+  duration_ms: 3.147083
+  ...
+# Subtest: Not scored, assessed zero and D0 are distinct; existing ceilings compose
+ok 3 - Not scored, assessed zero and D0 are distinct; existing ceilings compose
+  ---
+  duration_ms: 2.28275
+  ...
+# Subtest: scientific review requires qualified identified human acceptance of the exact version
+ok 4 - scientific review requires qualified identified human acceptance of the exact version
+  ---
+  duration_ms: 0.75175
+  ...
+# Subtest: references pin exact PM, Finding, proposition, version and content, never latest
+ok 5 - references pin exact PM, Finding, proposition, version and content, never latest
+  ---
+  duration_ms: 0.918084
+  ...
+# Subtest: immutable append-only snapshots reject edits, deletion, backfill, duplicate identity and hash changes
+ok 6 - immutable append-only snapshots reject edits, deletion, backfill, duplicate identity and hash changes
+  ---
+  duration_ms: 1.660209
+  ...
+# Subtest: factor, evidence-role, limitation, version, scope and provenance requirements fail closed
+ok 7 - factor, evidence-role, limitation, version, scope and provenance requirements fail closed
+  ---
+  duration_ms: 6.783708
+  ...
+# Subtest: legacy scientific finding validation and generated markup stay unchanged without a reference
+ok 8 - legacy scientific finding validation and generated markup stay unchanged without a reference
+  ---
+  duration_ms: 49.879709
+  ...
+# Subtest: legacy Finding evidence HTML is unchanged except the approved derived SF title prefix
+not ok 9 - legacy Finding evidence HTML is unchanged except the approved derived SF title prefix
+  ---
+  duration_ms: 251.978292
+  location: 'file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs:122:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Cannot find module '../lib/scientificPrinciples.mjs'
+    Require stack:
+    - /Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs
+  code: 'MODULE_NOT_FOUND'
+  stack: |-
+    Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    Module._load (node:internal/modules/cjs/loader:985:27)
+    Module.require (node:internal/modules/cjs/loader:1235:19)
+    require (node:internal/modules/helpers:176:18)
+    file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs:118:126
+    eval (eval at component (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs:118:26), <anonymous>:30:36)
+    component (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs:118:71)
+    TestContext.<anonymous> (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs:124:13)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+  ...
+# Subtest: reference renderer reuses indicator and audit, exposes pinned history and preserves review record
+not ok 10 - reference renderer reuses indicator and audit, exposes pinned history and preserves review record
+  ---
+  duration_ms: 79.607792
+  location: 'file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs:134:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Cannot find module '../../lib/scientificPrinciples.mjs'
+    Require stack:
+    - /Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs
+  code: 'MODULE_NOT_FOUND'
+  stack: |-
+    Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    Module._load (node:internal/modules/cjs/loader:985:27)
+    Module.require (node:internal/modules/cjs/loader:1235:19)
+    require (node:internal/modules/helpers:176:18)
+    file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs:118:126
+    eval (eval at component (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs:118:26), <anonymous>:11:36)
+    component (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs:118:71)
+    TestContext.<anonymous> (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs:138:16)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+  ...
+# Subtest: publication gate is installed and approved production registry validates
+not ok 11 - publication gate is installed and approved production registry validates
+  ---
+  duration_ms: 74.546542
+  location: 'file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs:157:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    The expression evaluated to a falsy value:
+    
+      assert.ok(pkg.scripts.prebuild.startsWith('node scripts/check-sec-assessments.mjs &&'))
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs:160:10)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: actual shared audit renders canonical factor states and closed version anchors without invented review
+not ok 12 - actual shared audit renders canonical factor states and closed version anchors without invented review
+  ---
+  duration_ms: 96.031667
+  location: 'file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs:165:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Cannot find module '../Stage2Review'
+    Require stack:
+    - /Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs
+  code: 'MODULE_NOT_FOUND'
+  stack: |-
+    Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    Module._load (node:internal/modules/cjs/loader:985:27)
+    Module.require (node:internal/modules/cjs/loader:1235:19)
+    require (node:internal/modules/helpers:176:18)
+    file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs:118:126
+    eval (eval at component (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs:118:26), <anonymous>:33:24)
+    component (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs:118:71)
+    TestContext.<anonymous> (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-assessment-integration.test.mjs:169:15)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+  ...
+# Subtest: exactly three canonical PMs changed; source archives match baseline bytes and hashes
+not ok 13 - exactly three canonical PMs changed; source archives match baseline bytes and hashes
+  ---
+  duration_ms: 89.56275
+  location: 'file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-canonical-integration.test.mjs:21:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+    +   'docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx',
+    +   'docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation.mdx',
+    +   'docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx',
+    +   'docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx',
+    +   'docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation.mdx',
+    +   'docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation.mdx',
+    +   'docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity.mdx',
+    +   'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability.mdx',
+    +   'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation.mdx',
+    +   'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism.mdx',
+    +   'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration.mdx',
+    +   'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability.mdx',
+    +   'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation.mdx',
+    +   'docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx',
+    +   'docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx',
+    +   'docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx',
+    +   'docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx',
+    +   'docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx',
+    +   'docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx',
+    +   'docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling.mdx',
+    +   'docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx',
+    +   'docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx',
+    +   'docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx',
+    +   'docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx',
+    +   'docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx',
+    +   'docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx',
+    +   'docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx',
+    +   'docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx',
+    +   'docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx',
+    +   'docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx',
+    +   'docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx',
+    +   'docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx',
+    +   'docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx',
+    +   'docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx',
+    +   'docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx',
+    +   'docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx',
+    +   'docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx',
+    +   'docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx',
+    +   'docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx',
+    +   'docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx',
+    +   'docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx',
+    +   'docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx',
+    +   'docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx',
+    +   'docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx',
+    +   'docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx',
+    +   'docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx',
+    +   'docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx'
+    -   'docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx',
+    -   'docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx',
+    -   'docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx'
+      ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx'
+    1: 'docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx'
+    2: 'docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx'
+  actual:
+    0: 'docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx'
+    1: 'docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation.mdx'
+    2: 'docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx'
+    3: 'docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx'
+    4: 'docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation.mdx'
+    5: 'docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation.mdx'
+    6: 'docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity.mdx'
+    7: 'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability.mdx'
+    8: 'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation.mdx'
+    9: 'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism.mdx'
+    10: 'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration.mdx'
+    11: 'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability.mdx'
+    12: 'docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation.mdx'
+    13: 'docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx'
+    14: 'docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx'
+    15: 'docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx'
+    16: 'docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx'
+    17: 'docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx'
+    18: 'docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx'
+    19: 'docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling.mdx'
+    20: 'docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx'
+    21: 'docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx'
+    22: 'docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx'
+    23: 'docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx'
+    24: 'docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx'
+    25: 'docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx'
+    26: 'docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx'
+    27: 'docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx'
+    28: 'docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx'
+    29: 'docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx'
+    30: 'docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx'
+    31: 'docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx'
+    32: 'docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx'
+    33: 'docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx'
+    34: 'docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx'
+    35: 'docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx'
+    36: 'docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx'
+    37: 'docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx'
+    38: 'docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx'
+    39: 'docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx'
+    40: 'docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx'
+    41: 'docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx'
+    42: 'docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx'
+    43: 'docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx'
+    44: 'docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx'
+    45: 'docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx'
+    46: 'docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-canonical-integration.test.mjs:23:10)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.start (node:internal/test_runner/test:542:17)
+    startSubtest (node:internal/test_runner/harness:216:17)
+  ...
+# Subtest: all accepted propositions are pinned; every earlier pilot snapshot and score is retained
+ok 14 - all accepted propositions are pinned; every earlier pilot snapshot and score is retained
+  ---
+  duration_ms: 76.156042
+  ...
+# Subtest: canonical science, dietary atoms, KC decisions, food composition and old references are preserved as approved
+not ok 15 - canonical science, dietary atoms, KC decisions, food composition and old references are preserved as approved
+  ---
+  duration_ms: 550.264417
+  location: 'file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-canonical-integration.test.mjs:54:1'
+  failureType: 'testCodeFailure'
+  error: 'BRS2-FM1-PM3:dietary_input_traceability'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0:
+      atom_id: 'PM3-DIT-1'
+      dietary_input: true
+      dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
+      input: 'Methionine'
+      input_type: 'substrate'
+      biological_role: 'Direct amino-acid substrate for MAT-dependent SAMe formation'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F1'
+        citation_keys:
+          0: 'bailey_human_mat2a_2021'
+          1: 'murray_crystallography_2016'
+      evidence_limitation: 'No ordinary-diet human dose-response demonstrating increased MAT-dependent SAMe synthesis was identified.'
+    1:
+      atom_id: 'PM3-DIT-2'
+      dietary_input: false
+      dietary_input_note: 'This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.'
+      input: 'ATP'
+      input_type: 'substrate'
+      biological_role: 'Direct adenine-nucleotide substrate for MAT-dependent SAMe formation'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F1'
+        citation_keys:
+          0: 'bailey_human_mat2a_2021'
+          1: 'murray_crystallography_2016'
+      evidence_limitation: 'Diet does not supply ATP to MAT; no dietary ATP lever for SAMe synthesis is established.'
+    2:
+      atom_id: 'PM3-DIT-3'
+      dietary_input: false
+      dietary_input_note: 'This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.'
+      input: 'Magnesium ions (Mg²⁺)'
+      input_type: 'catalytic ion'
+      biological_role: 'Active-site metal ion coordinating ATP-derived phosphate groups during MAT catalysis'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F1'
+        citation_keys:
+          0: 'murray_crystallography_2016'
+      evidence_limitation: 'No ordinary-diet human evidence demonstrates magnesium-responsive MAT flux.'
+    3:
+      atom_id: 'PM3-DIT-4'
+      dietary_input: false
+      dietary_input_note: 'This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.'
+      input: 'Potassium ions (K⁺)'
+      input_type: 'catalytic ion'
+      biological_role: 'Active-site metal ion positioning ATP-derived phosphoryl groups during MAT catalysis'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F1'
+        citation_keys:
+          0: 'murray_crystallography_2016'
+      evidence_limitation: 'No ordinary-diet human evidence demonstrates potassium-responsive MAT flux.'
+    4:
+      atom_id: 'PM3-DIT-5'
+      dietary_input: true
+      dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
+      input: 'Dietary protein'
+      input_type: 'substrate provision'
+      biological_role: 'Provides methionine through protein digestion and amino-acid absorption; methionine is the direct amino-acid substrate for MAT-dependent SAMe synthesis.'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F1'
+        citation_keys:
+          0: 'fao_diaas_2013'
+      evidence_limitation: 'Dietary protein provides digestible methionine, but this does not establish that increasing protein or methionine intake increases MAT-dependent SAMe synthesis in humans. DIAAS evaluates sulfur amino acids as methionine + cysteine.'
+    5:
+      atom_id: 'PM3-KC1-UPSTREAM-1'
+      dietary_input: true
+      dietary_input_note: 'Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.'
+      input: 'Vitamin B9 (folate)'
+      input_type: 'supported upstream supply'
+      biological_role: 'Folate supplies 5-methyltetrahydrofolate to [PM1 — Folate/B12-dependent remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), regenerating methionine that PM3 can use to form SAMe.'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F4'
+          1: 'PM3-F1'
+        citation_keys:
+          0: 'froese_vitamin_2019'
+          1: 'obeid_metabolic_2013'
+      evidence_limitation: 'This is upstream methionine supply, not a MAT substrate or cofactor. The route depends on functional vitamin B12-dependent methionine synthase; alternative methionine supply and tissue context affect its contribution. Increased MAT flux or benefit from extra folate in replete individuals is not established.'
+      substance_id: 'vitamin-b9'
+      canonical_identity:
+        status: 'resolved'
+        substance_id: 'vitamin-b9'
+        substance_href: '/docs/substances/nutrients/micronutrients/vitamins/vitamin-b9'
+        verified_against:
+          0: 'registry/substances.json'
+          1: 'docs/substances/nutrients/micronutrients/vitamins/vitamin-b9.md'
+      kc_id: 'BRS2(KC1)'
+      ikc_id: 'BRS2-KC1-KIT-1'
+      relationship_type: 'supported-upstream-supply'
+      upstream_pm_relationships:
+        0:
+          relationship_label: 'Supply'
+          pm_short_id: 'PM1'
+          pm_id: 'BRS2-FM1-PM1'
+          href: '/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation'
+    6:
+      atom_id: 'PM3-KC1-UPSTREAM-2'
+      dietary_input: true
+      dietary_input_note: 'Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.'
+      input: 'Betaine'
+      input_type: 'supported upstream supply'
+      biological_role: 'Betaine donates a methyl group through [PM2 — Betaine/BHMT remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) to regenerate methionine used by PM3.'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F4'
+          1: 'PM3-F1'
+        citation_keys:
+          0: 'obeid_metabolic_2013'
+          1: 'evans_betaine_2002'
+      evidence_limitation: 'BHMT activity is concentrated mainly in liver and kidney; this is not local BHMT activity in every tissue. Folate-dependent remethylation and dietary methionine provide alternative supply. Homocysteine lowering does not establish increased MAT flux, increased SAMe availability or benefit from extra intake in replete individuals.'
+      substance_id: 'betaine'
+      canonical_identity:
+        status: 'resolved'
+        substance_id: 'betaine'
+        substance_href: '/docs/substances/bioactive-compounds/choline-methylation/betaine'
+        verified_against:
+          0: 'registry/substances.json'
+          1: 'docs/substances/bioactive-compounds/choline-methylation/betaine.md'
+        aliases_checked:
+          0: 'Betaine'
+          1: 'Glycine betaine'
+          2: 'Trimethylglycine'
+          3: 'TMG'
+        identity_scope: 'Glycine betaine (trimethylglycine), not other betaine compounds.'
+      kc_id: 'BRS2(KC1)'
+      ikc_id: 'BRS2-KC1-KIT-3'
+      relationship_type: 'supported-upstream-supply'
+      upstream_pm_relationships:
+        0:
+          relationship_label: 'Supply'
+          pm_short_id: 'PM2'
+          pm_id: 'BRS2-FM1-PM2'
+          href: '/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation'
+    7:
+      atom_id: 'PM3-KC1-UPSTREAM-3'
+      dietary_input: true
+      dietary_input_note: 'Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.'
+      input: 'Choline'
+      input_type: 'supported upstream supply'
+      biological_role: 'Choline can be oxidised to betaine, supplying methyl groups through [PM2 — Betaine/BHMT remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) for methionine regeneration upstream of PM3.'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F4'
+          1: 'PM3-F1'
+        citation_keys:
+          0: 'obeid_metabolic_2013'
+          1: 'salvi_choline_2013'
+      evidence_limitation: 'Only the choline-to-betaine methyl-supply route is admitted here, not choline membrane or neurotransmitter roles. Oxidation, predominantly hepatic/renal BHMT activity and alternative supply constrain interpretation. Increased MAT flux, increased SAMe availability or benefit from additional choline in replete individuals is not established.'
+      substance_id: 'choline'
+      canonical_identity:
+        status: 'resolved'
+        substance_id: 'choline'
+        substance_href: '/docs/substances/bioactive-compounds/choline-methylation/choline'
+        verified_against:
+          0: 'registry/substances.json'
+          1: 'docs/substances/bioactive-compounds/choline-methylation/choline.md'
+      kc_id: 'BRS2(KC1)'
+      ikc_id: 'BRS2-KC1-KIT-2'
+      relationship_type: 'supported-upstream-supply'
+      upstream_pm_relationships:
+        0:
+          relationship_label: 'Supply'
+          pm_short_id: 'PM2'
+          pm_id: 'BRS2-FM1-PM2'
+          href: '/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation'
+  actual:
+    0:
+      atom_id: 'PM3-DIT-1'
+      dietary_input: true
+      dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
+      input: 'Methionine'
+      input_type: 'substrate'
+      biological_role: 'Direct amino-acid substrate for MAT-dependent SAMe formation'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F1'
+        citation_keys:
+          0: 'bailey_human_mat2a_2021'
+          1: 'murray_crystallography_2016'
+      evidence_limitation: 'No ordinary-diet human dose-response demonstrating increased MAT-dependent SAMe synthesis was identified.'
+    1:
+      atom_id: 'PM3-DIT-2'
+      dietary_input: false
+      dietary_input_note: 'This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.'
+      input: 'ATP'
+      input_type: 'substrate'
+      biological_role: 'Direct adenine-nucleotide substrate for MAT-dependent SAMe formation'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F1'
+        citation_keys:
+          0: 'bailey_human_mat2a_2021'
+          1: 'murray_crystallography_2016'
+      evidence_limitation: 'Diet does not supply ATP to MAT; no dietary ATP lever for SAMe synthesis is established.'
+    2:
+      atom_id: 'PM3-DIT-3'
+      dietary_input: true
+      dietary_input_note: '2026-10-26 recovery: admitted Type A capacity under the functional-dependency and dietary-supply gate. The original biochemical-only record and its rationale are preserved in the recovery history. No additional-intake efficacy is asserted.'
+      input: 'Magnesium'
+      input_type: 'catalytic ion'
+      biological_role: 'Active-site metal ion coordinating ATP-derived phosphate groups during MAT catalysis'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F1'
+        citation_keys:
+          0: 'murray_crystallography_2016'
+      evidence_limitation: 'Human MAT structural and enzymological evidence establishes catalytic capacity. Ordinary food supply is distinct from measured MAT flux; no benefit from additional magnesium in replete people or universal methylation increase is asserted.'
+      substance_id: 'magnesium'
+    3:
+      atom_id: 'PM3-DIT-4'
+      dietary_input: true
+      dietary_input_note: '2026-10-26 recovery: admitted Type A capacity under the functional-dependency and dietary-supply gate. The original biochemical-only record and its rationale are preserved in the recovery history. No additional-intake efficacy is asserted.'
+      input: 'Potassium'
+      input_type: 'catalytic ion'
+      biological_role: 'Active-site metal ion positioning ATP-derived phosphoryl groups during MAT catalysis'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F1'
+        citation_keys:
+          0: 'murray_crystallography_2016'
+      evidence_limitation: 'Human MAT structures establish the specific ion relationship. Physiological potassium homeostasis and tissue uptake intervene; no claim that extra dietary potassium raises SAM flux or improves methylation is established.'
+      substance_id: 'potassium'
+    4:
+      atom_id: 'PM3-DIT-5'
+      dietary_input: true
+      dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
+      input: 'Dietary protein'
+      input_type: 'substrate provision'
+      biological_role: 'Provides methionine through protein digestion and amino-acid absorption; methionine is the direct amino-acid substrate for MAT-dependent SAMe synthesis.'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F1'
+        citation_keys:
+          0: 'fao_diaas_2013'
+      evidence_limitation: 'Dietary protein provides digestible methionine, but this does not establish that increasing protein or methionine intake increases MAT-dependent SAMe synthesis in humans. DIAAS evaluates sulfur amino acids as methionine + cysteine.'
+    5:
+      atom_id: 'PM3-KC1-UPSTREAM-1'
+      dietary_input: true
+      dietary_input_note: 'Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.'
+      input: 'Vitamin B9 (folate)'
+      input_type: 'supported upstream supply'
+      biological_role: 'Folate supplies 5-methyltetrahydrofolate to [PM1 — Folate/B12-dependent remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), regenerating methionine that PM3 can use to form SAMe.'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F4'
+          1: 'PM3-F1'
+        citation_keys:
+          0: 'froese_vitamin_2019'
+          1: 'obeid_metabolic_2013'
+      evidence_limitation: 'This is upstream methionine supply, not a MAT substrate or cofactor. The route depends on functional vitamin B12-dependent methionine synthase; alternative methionine supply and tissue context affect its contribution. Increased MAT flux or benefit from extra folate in replete individuals is not established.'
+      substance_id: 'vitamin-b9'
+      canonical_identity:
+        status: 'resolved'
+        substance_id: 'vitamin-b9'
+        substance_href: '/docs/substances/nutrients/micronutrients/vitamins/vitamin-b9'
+        verified_against:
+          0: 'registry/substances.json'
+          1: 'docs/substances/nutrients/micronutrients/vitamins/vitamin-b9.md'
+      kc_id: 'BRS2(KC1)'
+      ikc_id: 'BRS2-KC1-KIT-1'
+      relationship_type: 'supported-upstream-supply'
+      upstream_pm_relationships:
+        0:
+          relationship_label: 'Supply'
+          pm_short_id: 'PM1'
+          pm_id: 'BRS2-FM1-PM1'
+          href: '/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation'
+    6:
+      atom_id: 'PM3-KC1-UPSTREAM-2'
+      dietary_input: true
+      dietary_input_note: 'Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.'
+      input: 'Betaine'
+      input_type: 'supported upstream supply'
+      biological_role: 'Betaine donates a methyl group through [PM2 — Betaine/BHMT remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) to regenerate methionine used by PM3.'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F4'
+          1: 'PM3-F1'
+        citation_keys:
+          0: 'obeid_metabolic_2013'
+          1: 'evans_betaine_2002'
+      evidence_limitation: 'BHMT activity is concentrated mainly in liver and kidney; this is not local BHMT activity in every tissue. Folate-dependent remethylation and dietary methionine provide alternative supply. Homocysteine lowering does not establish increased MAT flux, increased SAMe availability or benefit from extra intake in replete individuals.'
+      substance_id: 'betaine'
+      canonical_identity:
+        status: 'resolved'
+        substance_id: 'betaine'
+        substance_href: '/docs/substances/bioactive-compounds/choline-methylation/betaine'
+        verified_against:
+          0: 'registry/substances.json'
+          1: 'docs/substances/bioactive-compounds/choline-methylation/betaine.md'
+        aliases_checked:
+          0: 'Betaine'
+          1: 'Glycine betaine'
+          2: 'Trimethylglycine'
+          3: 'TMG'
+        identity_scope: 'Glycine betaine (trimethylglycine), not other betaine compounds.'
+      kc_id: 'BRS2(KC1)'
+      ikc_id: 'BRS2-KC1-KIT-3'
+      relationship_type: 'supported-upstream-supply'
+      upstream_pm_relationships:
+        0:
+          relationship_label: 'Supply'
+          pm_short_id: 'PM2'
+          pm_id: 'BRS2-FM1-PM2'
+          href: '/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation'
+    7:
+      atom_id: 'PM3-KC1-UPSTREAM-3'
+      dietary_input: true
+      dietary_input_note: 'Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.'
+      input: 'Choline'
+      input_type: 'supported upstream supply'
+      biological_role: 'Choline can be oxidised to betaine, supplying methyl groups through [PM2 — Betaine/BHMT remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) for methionine regeneration upstream of PM3.'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F4'
+          1: 'PM3-F1'
+        citation_keys:
+          0: 'obeid_metabolic_2013'
+          1: 'salvi_choline_2013'
+      evidence_limitation: 'Only the choline-to-betaine methyl-supply route is admitted here, not choline membrane or neurotransmitter roles. Oxidation, predominantly hepatic/renal BHMT activity and alternative supply constrain interpretation. Increased MAT flux, increased SAMe availability or benefit from additional choline in replete individuals is not established.'
+      substance_id: 'choline'
+      canonical_identity:
+        status: 'resolved'
+        substance_id: 'choline'
+        substance_href: '/docs/substances/bioactive-compounds/choline-methylation/choline'
+        verified_against:
+          0: 'registry/substances.json'
+          1: 'docs/substances/bioactive-compounds/choline-methylation/choline.md'
+      kc_id: 'BRS2(KC1)'
+      ikc_id: 'BRS2-KC1-KIT-2'
+      relationship_type: 'supported-upstream-supply'
+      upstream_pm_relationships:
+        0:
+          relationship_label: 'Supply'
+          pm_short_id: 'PM2'
+          pm_id: 'BRS2-FM1-PM2'
+          href: '/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-canonical-integration.test.mjs:56:220)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: GABA approved corrections and conditional scores survive; lesson remains byte-identical beside F1
+ok 16 - GABA approved corrections and conditional scores survive; lesson remains byte-identical beside F1
+  ---
+  duration_ms: 1.054
+  ...
+# Subtest: glycaemic protocols have immutable identities, exact six atoms and bounded Finding links
+ok 17 - glycaemic protocols have immutable identities, exact six atoms and bounded Finding links
+  ---
+  duration_ms: 5.050041
+  ...
+# Subtest: food-strategy projection removes only retired PM2 relationship; PM1 and other PMs are byte-equivalent data
+ok 18 - food-strategy projection removes only retired PM2 relationship; PM1 and other PMs are byte-equivalent data
+  ---
+  duration_ms: 32.786708
+  ...
+# Subtest: SAMe chemistry is unscored provenance, kinetic disagreement retained, F5 model-bounded 5/8
+ok 19 - SAMe chemistry is unscored provenance, kinetic disagreement retained, F5 model-bounded 5/8
+  ---
+  duration_ms: 8.368917
+  ...
+# Subtest: all three canonical MDX pages compile with only canonical components and consistent numbered references
+ok 20 - all three canonical MDX pages compile with only canonical components and consistent numbered references
+  ---
+  duration_ms: 1284.776833
+  ...
+# Subtest: verified curated records and canonical audit reuse local anchors and standard disclosure behavior
+ok 21 - verified curated records and canonical audit reuse local anchors and standard disclosure behavior
+  ---
+  duration_ms: 228.367417
+  ...
+# Subtest: reference sync preserves the explicit local annex without relaxing numbered-reference integrity
+ok 22 - reference sync preserves the explicit local annex without relaxing numbered-reference integrity
+  ---
+  duration_ms: 1.853333
+  ...
+1..22
+# tests 22
+# suites 0
+# pass 16
+# fail 6
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2677.964417

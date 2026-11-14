@@ -1,0 +1,416 @@
+TAP version 13
+# Subtest: exactly three canonical PMs changed; source archives match baseline bytes and hashes
+ok 1 - exactly three canonical PMs changed; source archives match baseline bytes and hashes # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.905541
+  ...
+# Subtest: all accepted propositions are pinned; every earlier pilot snapshot and score is retained
+ok 2 - all accepted propositions are pinned; every earlier pilot snapshot and score is retained # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.058
+  ...
+# Subtest: canonical science, dietary atoms, KC decisions, food composition and old references are preserved as approved
+not ok 3 - canonical science, dietary atoms, KC decisions, food composition and old references are preserved as approved
+  ---
+  duration_ms: 249.502542
+  location: 'file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-canonical-integration.test.mjs:54:1'
+  failureType: 'testCodeFailure'
+  error: 'BRS2-FM1-PM3:dietary_input_traceability'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0:
+      atom_id: 'PM3-DIT-1'
+      dietary_input: true
+      dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
+      input: 'Methionine'
+      input_type: 'substrate'
+      biological_role: 'Direct amino-acid substrate for MAT-dependent SAMe formation'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F1'
+        citation_keys:
+          0: 'bailey_human_mat2a_2021'
+          1: 'murray_crystallography_2016'
+      evidence_limitation: 'No ordinary-diet human dose-response demonstrating increased MAT-dependent SAMe synthesis was identified.'
+    1:
+      atom_id: 'PM3-DIT-2'
+      dietary_input: false
+      dietary_input_note: 'This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.'
+      input: 'ATP'
+      input_type: 'substrate'
+      biological_role: 'Direct adenine-nucleotide substrate for MAT-dependent SAMe formation'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F1'
+        citation_keys:
+          0: 'bailey_human_mat2a_2021'
+          1: 'murray_crystallography_2016'
+      evidence_limitation: 'Diet does not supply ATP to MAT; no dietary ATP lever for SAMe synthesis is established.'
+    2:
+      atom_id: 'PM3-DIT-3'
+      dietary_input: false
+      dietary_input_note: 'This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.'
+      input: 'Magnesium ions (Mg²⁺)'
+      input_type: 'catalytic ion'
+      biological_role: 'Active-site metal ion coordinating ATP-derived phosphate groups during MAT catalysis'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F1'
+        citation_keys:
+          0: 'murray_crystallography_2016'
+      evidence_limitation: 'No ordinary-diet human evidence demonstrates magnesium-responsive MAT flux.'
+    3:
+      atom_id: 'PM3-DIT-4'
+      dietary_input: false
+      dietary_input_note: 'This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.'
+      input: 'Potassium ions (K⁺)'
+      input_type: 'catalytic ion'
+      biological_role: 'Active-site metal ion positioning ATP-derived phosphoryl groups during MAT catalysis'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F1'
+        citation_keys:
+          0: 'murray_crystallography_2016'
+      evidence_limitation: 'No ordinary-diet human evidence demonstrates potassium-responsive MAT flux.'
+    4:
+      atom_id: 'PM3-DIT-5'
+      dietary_input: true
+      dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
+      input: 'Dietary protein'
+      input_type: 'substrate provision'
+      biological_role: 'Provides methionine through protein digestion and amino-acid absorption; methionine is the direct amino-acid substrate for MAT-dependent SAMe synthesis.'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F1'
+        citation_keys:
+          0: 'fao_diaas_2013'
+      evidence_limitation: 'Dietary protein provides digestible methionine, but this does not establish that increasing protein or methionine intake increases MAT-dependent SAMe synthesis in humans. DIAAS evaluates sulfur amino acids as methionine + cysteine.'
+    5:
+      atom_id: 'PM3-KC1-UPSTREAM-1'
+      dietary_input: true
+      dietary_input_note: 'Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.'
+      input: 'Vitamin B9 (folate)'
+      input_type: 'supported upstream supply'
+      biological_role: 'Folate supplies 5-methyltetrahydrofolate to [PM1 — Folate/B12-dependent remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), regenerating methionine that PM3 can use to form SAMe.'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F4'
+          1: 'PM3-F1'
+        citation_keys:
+          0: 'froese_vitamin_2019'
+          1: 'obeid_metabolic_2013'
+      evidence_limitation: 'This is upstream methionine supply, not a MAT substrate or cofactor. The route depends on functional vitamin B12-dependent methionine synthase; alternative methionine supply and tissue context affect its contribution. Increased MAT flux or benefit from extra folate in replete individuals is not established.'
+      substance_id: 'vitamin-b9'
+      canonical_identity:
+        status: 'resolved'
+        substance_id: 'vitamin-b9'
+        substance_href: '/docs/substances/nutrients/micronutrients/vitamins/vitamin-b9'
+        verified_against:
+          0: 'registry/substances.json'
+          1: 'docs/substances/nutrients/micronutrients/vitamins/vitamin-b9.md'
+      kc_id: 'BRS2(KC1)'
+      ikc_id: 'BRS2-KC1-KIT-1'
+      relationship_type: 'supported-upstream-supply'
+      upstream_pm_relationships:
+        0:
+          relationship_label: 'Supply'
+          pm_short_id: 'PM1'
+          pm_id: 'BRS2-FM1-PM1'
+          href: '/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation'
+    6:
+      atom_id: 'PM3-KC1-UPSTREAM-2'
+      dietary_input: true
+      dietary_input_note: 'Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.'
+      input: 'Betaine'
+      input_type: 'supported upstream supply'
+      biological_role: 'Betaine donates a methyl group through [PM2 — Betaine/BHMT remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) to regenerate methionine used by PM3.'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F4'
+          1: 'PM3-F1'
+        citation_keys:
+          0: 'obeid_metabolic_2013'
+          1: 'evans_betaine_2002'
+      evidence_limitation: 'BHMT activity is concentrated mainly in liver and kidney; this is not local BHMT activity in every tissue. Folate-dependent remethylation and dietary methionine provide alternative supply. Homocysteine lowering does not establish increased MAT flux, increased SAMe availability or benefit from extra intake in replete individuals.'
+      substance_id: 'betaine'
+      canonical_identity:
+        status: 'resolved'
+        substance_id: 'betaine'
+        substance_href: '/docs/substances/bioactive-compounds/choline-methylation/betaine'
+        verified_against:
+          0: 'registry/substances.json'
+          1: 'docs/substances/bioactive-compounds/choline-methylation/betaine.md'
+        aliases_checked:
+          0: 'Betaine'
+          1: 'Glycine betaine'
+          2: 'Trimethylglycine'
+          3: 'TMG'
+        identity_scope: 'Glycine betaine (trimethylglycine), not other betaine compounds.'
+      kc_id: 'BRS2(KC1)'
+      ikc_id: 'BRS2-KC1-KIT-3'
+      relationship_type: 'supported-upstream-supply'
+      upstream_pm_relationships:
+        0:
+          relationship_label: 'Supply'
+          pm_short_id: 'PM2'
+          pm_id: 'BRS2-FM1-PM2'
+          href: '/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation'
+    7:
+      atom_id: 'PM3-KC1-UPSTREAM-3'
+      dietary_input: true
+      dietary_input_note: 'Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.'
+      input: 'Choline'
+      input_type: 'supported upstream supply'
+      biological_role: 'Choline can be oxidised to betaine, supplying methyl groups through [PM2 — Betaine/BHMT remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) for methionine regeneration upstream of PM3.'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F4'
+          1: 'PM3-F1'
+        citation_keys:
+          0: 'obeid_metabolic_2013'
+          1: 'salvi_choline_2013'
+      evidence_limitation: 'Only the choline-to-betaine methyl-supply route is admitted here, not choline membrane or neurotransmitter roles. Oxidation, predominantly hepatic/renal BHMT activity and alternative supply constrain interpretation. Increased MAT flux, increased SAMe availability or benefit from additional choline in replete individuals is not established.'
+      substance_id: 'choline'
+      canonical_identity:
+        status: 'resolved'
+        substance_id: 'choline'
+        substance_href: '/docs/substances/bioactive-compounds/choline-methylation/choline'
+        verified_against:
+          0: 'registry/substances.json'
+          1: 'docs/substances/bioactive-compounds/choline-methylation/choline.md'
+      kc_id: 'BRS2(KC1)'
+      ikc_id: 'BRS2-KC1-KIT-2'
+      relationship_type: 'supported-upstream-supply'
+      upstream_pm_relationships:
+        0:
+          relationship_label: 'Supply'
+          pm_short_id: 'PM2'
+          pm_id: 'BRS2-FM1-PM2'
+          href: '/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation'
+  actual:
+    0:
+      atom_id: 'PM3-DIT-1'
+      dietary_input: true
+      dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
+      input: 'Methionine'
+      input_type: 'substrate'
+      biological_role: 'Direct amino-acid substrate for MAT-dependent SAMe formation'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F1'
+        citation_keys:
+          0: 'bailey_human_mat2a_2021'
+          1: 'murray_crystallography_2016'
+      evidence_limitation: 'No ordinary-diet human dose-response demonstrating increased MAT-dependent SAMe synthesis was identified.'
+    1:
+      atom_id: 'PM3-DIT-2'
+      dietary_input: false
+      dietary_input_note: 'This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.'
+      input: 'ATP'
+      input_type: 'substrate'
+      biological_role: 'Direct adenine-nucleotide substrate for MAT-dependent SAMe formation'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F1'
+        citation_keys:
+          0: 'bailey_human_mat2a_2021'
+          1: 'murray_crystallography_2016'
+      evidence_limitation: 'Diet does not supply ATP to MAT; no dietary ATP lever for SAMe synthesis is established.'
+    2:
+      atom_id: 'PM3-DIT-3'
+      dietary_input: true
+      dietary_input_note: '2026-10-26 recovery: admitted Type A capacity under the functional-dependency and dietary-supply gate. The original biochemical-only record and its rationale are preserved in the recovery history. No additional-intake efficacy is asserted.'
+      input: 'Magnesium'
+      input_type: 'catalytic ion'
+      biological_role: 'Active-site metal ion coordinating ATP-derived phosphate groups during MAT catalysis'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F1'
+        citation_keys:
+          0: 'murray_crystallography_2016'
+      evidence_limitation: 'Human MAT structural and enzymological evidence establishes catalytic capacity. Ordinary food supply is distinct from measured MAT flux; no benefit from additional magnesium in replete people or universal methylation increase is asserted.'
+      substance_id: 'magnesium'
+    3:
+      atom_id: 'PM3-DIT-4'
+      dietary_input: true
+      dietary_input_note: '2026-10-26 recovery: admitted Type A capacity under the functional-dependency and dietary-supply gate. The original biochemical-only record and its rationale are preserved in the recovery history. No additional-intake efficacy is asserted.'
+      input: 'Potassium'
+      input_type: 'catalytic ion'
+      biological_role: 'Active-site metal ion positioning ATP-derived phosphoryl groups during MAT catalysis'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F1'
+        citation_keys:
+          0: 'murray_crystallography_2016'
+      evidence_limitation: 'Human MAT structures establish the specific ion relationship. Physiological potassium homeostasis and tissue uptake intervene; no claim that extra dietary potassium raises SAM flux or improves methylation is established.'
+      substance_id: 'potassium'
+    4:
+      atom_id: 'PM3-DIT-5'
+      dietary_input: true
+      dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
+      input: 'Dietary protein'
+      input_type: 'substrate provision'
+      biological_role: 'Provides methionine through protein digestion and amino-acid absorption; methionine is the direct amino-acid substrate for MAT-dependent SAMe synthesis.'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F1'
+        citation_keys:
+          0: 'fao_diaas_2013'
+      evidence_limitation: 'Dietary protein provides digestible methionine, but this does not establish that increasing protein or methionine intake increases MAT-dependent SAMe synthesis in humans. DIAAS evaluates sulfur amino acids as methionine + cysteine.'
+    5:
+      atom_id: 'PM3-KC1-UPSTREAM-1'
+      dietary_input: true
+      dietary_input_note: 'Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.'
+      input: 'Vitamin B9 (folate)'
+      input_type: 'supported upstream supply'
+      biological_role: 'Folate supplies 5-methyltetrahydrofolate to [PM1 — Folate/B12-dependent remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), regenerating methionine that PM3 can use to form SAMe.'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F4'
+          1: 'PM3-F1'
+        citation_keys:
+          0: 'froese_vitamin_2019'
+          1: 'obeid_metabolic_2013'
+      evidence_limitation: 'This is upstream methionine supply, not a MAT substrate or cofactor. The route depends on functional vitamin B12-dependent methionine synthase; alternative methionine supply and tissue context affect its contribution. Increased MAT flux or benefit from extra folate in replete individuals is not established.'
+      substance_id: 'vitamin-b9'
+      canonical_identity:
+        status: 'resolved'
+        substance_id: 'vitamin-b9'
+        substance_href: '/docs/substances/nutrients/micronutrients/vitamins/vitamin-b9'
+        verified_against:
+          0: 'registry/substances.json'
+          1: 'docs/substances/nutrients/micronutrients/vitamins/vitamin-b9.md'
+      kc_id: 'BRS2(KC1)'
+      ikc_id: 'BRS2-KC1-KIT-1'
+      relationship_type: 'supported-upstream-supply'
+      upstream_pm_relationships:
+        0:
+          relationship_label: 'Supply'
+          pm_short_id: 'PM1'
+          pm_id: 'BRS2-FM1-PM1'
+          href: '/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation'
+    6:
+      atom_id: 'PM3-KC1-UPSTREAM-2'
+      dietary_input: true
+      dietary_input_note: 'Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.'
+      input: 'Betaine'
+      input_type: 'supported upstream supply'
+      biological_role: 'Betaine donates a methyl group through [PM2 — Betaine/BHMT remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) to regenerate methionine used by PM3.'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F4'
+          1: 'PM3-F1'
+        citation_keys:
+          0: 'obeid_metabolic_2013'
+          1: 'evans_betaine_2002'
+      evidence_limitation: 'BHMT activity is concentrated mainly in liver and kidney; this is not local BHMT activity in every tissue. Folate-dependent remethylation and dietary methionine provide alternative supply. Homocysteine lowering does not establish increased MAT flux, increased SAMe availability or benefit from extra intake in replete individuals.'
+      substance_id: 'betaine'
+      canonical_identity:
+        status: 'resolved'
+        substance_id: 'betaine'
+        substance_href: '/docs/substances/bioactive-compounds/choline-methylation/betaine'
+        verified_against:
+          0: 'registry/substances.json'
+          1: 'docs/substances/bioactive-compounds/choline-methylation/betaine.md'
+        aliases_checked:
+          0: 'Betaine'
+          1: 'Glycine betaine'
+          2: 'Trimethylglycine'
+          3: 'TMG'
+        identity_scope: 'Glycine betaine (trimethylglycine), not other betaine compounds.'
+      kc_id: 'BRS2(KC1)'
+      ikc_id: 'BRS2-KC1-KIT-3'
+      relationship_type: 'supported-upstream-supply'
+      upstream_pm_relationships:
+        0:
+          relationship_label: 'Supply'
+          pm_short_id: 'PM2'
+          pm_id: 'BRS2-FM1-PM2'
+          href: '/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation'
+    7:
+      atom_id: 'PM3-KC1-UPSTREAM-3'
+      dietary_input: true
+      dietary_input_note: 'Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.'
+      input: 'Choline'
+      input_type: 'supported upstream supply'
+      biological_role: 'Choline can be oxidised to betaine, supplying methyl groups through [PM2 — Betaine/BHMT remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) for methionine regeneration upstream of PM3.'
+      evidence_source:
+        finding_ids:
+          0: 'PM3-F4'
+          1: 'PM3-F1'
+        citation_keys:
+          0: 'obeid_metabolic_2013'
+          1: 'salvi_choline_2013'
+      evidence_limitation: 'Only the choline-to-betaine methyl-supply route is admitted here, not choline membrane or neurotransmitter roles. Oxidation, predominantly hepatic/renal BHMT activity and alternative supply constrain interpretation. Increased MAT flux, increased SAMe availability or benefit from additional choline in replete individuals is not established.'
+      substance_id: 'choline'
+      canonical_identity:
+        status: 'resolved'
+        substance_id: 'choline'
+        substance_href: '/docs/substances/bioactive-compounds/choline-methylation/choline'
+        verified_against:
+          0: 'registry/substances.json'
+          1: 'docs/substances/bioactive-compounds/choline-methylation/choline.md'
+      kc_id: 'BRS2(KC1)'
+      ikc_id: 'BRS2-KC1-KIT-2'
+      relationship_type: 'supported-upstream-supply'
+      upstream_pm_relationships:
+        0:
+          relationship_label: 'Supply'
+          pm_short_id: 'PM2'
+          pm_id: 'BRS2-FM1-PM2'
+          href: '/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework/scripts/sec-canonical-integration.test.mjs:56:220)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: GABA approved corrections and conditional scores survive; lesson remains byte-identical beside F1
+ok 4 - GABA approved corrections and conditional scores survive; lesson remains byte-identical beside F1 # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.096167
+  ...
+# Subtest: glycaemic protocols have immutable identities, exact six atoms and bounded Finding links
+ok 5 - glycaemic protocols have immutable identities, exact six atoms and bounded Finding links # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.06825
+  ...
+# Subtest: food-strategy projection removes only retired PM2 relationship; PM1 and other PMs are byte-equivalent data
+ok 6 - food-strategy projection removes only retired PM2 relationship; PM1 and other PMs are byte-equivalent data # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.048916
+  ...
+# Subtest: SAMe chemistry is unscored provenance, kinetic disagreement retained, F5 model-bounded 5/8
+ok 7 - SAMe chemistry is unscored provenance, kinetic disagreement retained, F5 model-bounded 5/8 # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.045917
+  ...
+# Subtest: all three canonical MDX pages compile with only canonical components and consistent numbered references
+ok 8 - all three canonical MDX pages compile with only canonical components and consistent numbered references # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.184208
+  ...
+# Subtest: verified curated records and canonical audit reuse local anchors and standard disclosure behavior
+ok 9 - verified curated records and canonical audit reuse local anchors and standard disclosure behavior # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.05375
+  ...
+# Subtest: reference sync preserves the explicit local annex without relaxing numbered-reference integrity
+ok 10 - reference sync preserves the explicit local annex without relaxing numbered-reference integrity # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.168333
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 0
+# fail 1
+# cancelled 0
+# skipped 9
+# todo 0
+# duration_ms 507.246542

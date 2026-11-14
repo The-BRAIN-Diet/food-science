@@ -1,0 +1,391 @@
+{
+  "source_path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/release-reviewed-framework",
+  "source_head": "11f4e450704b3144ab39b8ddb104bf5ca18d4bba",
+  "source_branch": "codex/dietary-recovery-canonical-release-2026-10-27",
+  "purpose": "Backup only. Not a release candidate. No regeneration or scientific approval inferred.",
+  "files": [
+    {
+      "path": "review/dietary-pathway-activation-2026-10-26/before/sec-registry.json",
+      "bytes": 1054685,
+      "sha256": "d0b297bbef6f3c0041663fa0cc481d9ada17a8d9b3691a8bcabedb4329220afe"
+    },
+    {
+      "path": "review/dietary-recovery-2026-10-26/continuation/production-build-final.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "review/foodless-targets-2026-10-26/final-preservation.tap",
+      "bytes": 2996,
+      "sha256": "ae3c5720b727b98aa3d4276ada68b27d38d3d5dfd29c3f1755d6b7878e19bac3"
+    },
+    {
+      "path": "review/pm8-dietary-recovery-2026-10-26/sources/PMC10513937.xml",
+      "bytes": 140454,
+      "sha256": "1182270c411f57ce8b1d117f7e41e302e5a140b0a1f134a097eee7a7b61b7861"
+    },
+    {
+      "path": "review/pm8-dietary-recovery-2026-10-26/sources/PMC10641331.xml",
+      "bytes": 174714,
+      "sha256": "61f8103ef6bd94e106693ddf17edb1ce4d585f9eae0ea16deae4a90cc16f29fd"
+    },
+    {
+      "path": "review/pm8-dietary-recovery-2026-10-26/sources/flax-primary.pdf",
+      "bytes": 986884,
+      "sha256": "af800d1796cc823c7031570e22cb81a07c5fc5577e6e9f74620a9dbfdcd86230"
+    },
+    {
+      "path": "review/pm8-dietary-recovery-2026-10-26/sources/rausch-review.pdf",
+      "bytes": 821470,
+      "sha256": "e8ffbc4362dca7e445c4d4b2323cfe04bb9997f215488be77d2426b562103dca"
+    },
+    {
+      "path": "review/sec-fixture-repair-2026-10-26/after-initial.tap",
+      "bytes": 5352,
+      "sha256": "7ff36599c97d3a8cd97f548b700c21aeaaafaebc697c50bf75eab13fab601406"
+    },
+    {
+      "path": "review/sec-fixture-repair-2026-10-26/before.exit",
+      "bytes": 2,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    {
+      "path": "review/sec-fixture-repair-2026-10-26/before.tap",
+      "bytes": 41800,
+      "sha256": "cae90093532fd3e81e1738c8f308e1a75438eff733d9c121338d1cd80c3636d4"
+    },
+    {
+      "path": "review/sec-fixture-repair-2026-10-26/failure-1-after.tap",
+      "bytes": 3284,
+      "sha256": "a05fe6edb88b6012e5ddef2b5cf49903f96250d715482554244397c4a65e8af4"
+    },
+    {
+      "path": "review/sec-fixture-repair-2026-10-26/failure-1-before.tap",
+      "bytes": 4758,
+      "sha256": "17d389ac9df536bda6599a1959d6ddeb9da42689900794e0af4f90575d369449"
+    },
+    {
+      "path": "review/sec-fixture-repair-2026-10-26/failure-2-after.tap",
+      "bytes": 3286,
+      "sha256": "9afab17a2d2c01a72703915809df69b825d4f1d1620d9aade915efbe29f31515"
+    },
+    {
+      "path": "review/sec-fixture-repair-2026-10-26/failure-2-before.tap",
+      "bytes": 4764,
+      "sha256": "0e861a79af710f9d3c2db1fa33a9c8d9e4ae98ed3bc4fa25e1ce35f20169cfbc"
+    },
+    {
+      "path": "review/sec-fixture-repair-2026-10-26/failure-3-after.tap",
+      "bytes": 3287,
+      "sha256": "73a78914295a052de7f11a9bae3decccf245615b7ed0bb963dc79178f1a23d9e"
+    },
+    {
+      "path": "review/sec-fixture-repair-2026-10-26/failure-3-before.tap",
+      "bytes": 4290,
+      "sha256": "71282852ab867d9e49959628e7d6ce97de8ca10cdfa17a30f513cc35980e26ad"
+    },
+    {
+      "path": "review/sec-fixture-repair-2026-10-26/failure-4-after.tap",
+      "bytes": 3284,
+      "sha256": "2c19edd10abf0ac3c774b80ad0af3d1233611493fc13c20e1e6667144751ff76"
+    },
+    {
+      "path": "review/sec-fixture-repair-2026-10-26/failure-4-before.tap",
+      "bytes": 4740,
+      "sha256": "6636abca1a7c3c7f2a2db49962d7644d1db5dfcc71dd41dd60ae03149319a388"
+    },
+    {
+      "path": "review/sec-fixture-repair-2026-10-26/failure-5-after.tap",
+      "bytes": 2967,
+      "sha256": "273e194a3d25dd755f9085e1c47eb745316cd32577dc41bc61b31ffaeb223608"
+    },
+    {
+      "path": "review/sec-fixture-repair-2026-10-26/failure-5-before.tap",
+      "bytes": 13565,
+      "sha256": "2e51bf0548de3f5ee93bcf62c44116006e5efa728eefad0d7d7fd88ed0817a13"
+    },
+    {
+      "path": "review/sec-fixture-repair-2026-10-26/failure-6-after.tap",
+      "bytes": 2972,
+      "sha256": "8dfb29652e0606ad90782897c24f1ae77fda2e2cc56ad35d8dec15296ea9e20a"
+    },
+    {
+      "path": "review/sec-fixture-repair-2026-10-26/failure-6-before.tap",
+      "bytes": 23389,
+      "sha256": "79398332d784f9a861c3c46f9ea667786806ac92e0f63cba04585bd881802a83"
+    },
+    {
+      "path": "review/sec-fixture-repair-2026-10-26/final-sec.tap",
+      "bytes": 5505,
+      "sha256": "e7c9efaf53df8478811020d49740f7522af50782e3961a5def3ceaa6af1e5239"
+    },
+    {
+      "path": "review/sec-fixture-repair-2026-10-26/recovery-178.tap",
+      "bytes": 35780,
+      "sha256": "be5d31665baf1292dd79d240bd58abb753eee8e64085b7857a5bc3083286a5f3"
+    },
+    {
+      "path": "review/sec-fixture-repair-2026-10-26/sec-broad-baseline.tap",
+      "bytes": 3261511,
+      "sha256": "185c3199b82d150a486aa717f59aba5ab490e5a50e0a349e6d5953c39ef24cf0"
+    },
+    {
+      "path": "review/sec-fixture-repair-2026-10-26/sec-full.tap",
+      "bytes": 3224608,
+      "sha256": "d7885afccee05aed1aa8208fefea3662bd87a27d9ba6a677897d2c047217a5b7"
+    },
+    {
+      "path": "src/data/brs-xInputMapping.generated.json",
+      "bytes": 990316,
+      "sha256": "198dda68156e2ce0b7147be3519835a14256bd82afcdd79a6d7972211175506a"
+    },
+    {
+      "path": "src/data/brs1InputMapping.generated.json",
+      "bytes": 6742571,
+      "sha256": "24946f07e602f837bc35f889e753756ef5fd64a88edc96664d058dfc0927e3de"
+    },
+    {
+      "path": "src/data/brs2InputMapping.generated.json",
+      "bytes": 4275848,
+      "sha256": "c5acf00cd72769bd0b9ac73cbbfad6df82209860c5ddf8b87b3a29cd86db6bb3"
+    },
+    {
+      "path": "src/data/brs3InputMapping.generated.json",
+      "bytes": 4028947,
+      "sha256": "bf88b31387d6d8ea1b659deb1fd4c2cbf5e9fade32ed99beb31c41a5d365a150"
+    },
+    {
+      "path": "src/data/brs4InputMapping.generated.json",
+      "bytes": 2959106,
+      "sha256": "594c867e8a9c6bc8636abfcd4e9a75b6fe767537b88890d3464c31e77189b3b4"
+    },
+    {
+      "path": "src/data/brs5InputMapping.generated.json",
+      "bytes": 1748776,
+      "sha256": "5162b1d5f8331f6148c7e97a5d10f82f12955c0fdb7882155174dd9bd8dbdd92"
+    },
+    {
+      "path": "src/data/brs6InputMapping.generated.json",
+      "bytes": 707578,
+      "sha256": "36b6cf33b7fe7458840cb2082787bb48d87599871ef9c9ac6d7640a6c72d7600"
+    },
+    {
+      "path": "src/data/foodStrategyRollup.generated.json",
+      "bytes": 60926,
+      "sha256": "505d0f0f329767ebbd8ba943d0ca5129cfca28ce1d673572c31f81f7c2a107ce"
+    },
+    {
+      "path": "system/generated/brs-x-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 462252,
+      "sha256": "bffc425507b70e56d73c8685ed0442e3dfdd5d3b25cb49733bebc9f09583b770"
+    },
+    {
+      "path": "system/generated/brs-x-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 453782,
+      "sha256": "d2e9806840cf271185eeb5603aab726140f9398914bef48452dbd7e07ed5c6ee"
+    },
+    {
+      "path": "system/generated/brs-x-input-substance-food/mapping.generated.json",
+      "bytes": 1157141,
+      "sha256": "85c1655d0c6c97016936a6b1788a6da9ded315e10d6e858d8cb49fa6f420a3ea"
+    },
+    {
+      "path": "system/generated/brs1-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 3829319,
+      "sha256": "74e3aa54a3dfcbb2eb4b1556785ce2e9b8bf9fdb75f53ba56310fd7c0c5bf344"
+    },
+    {
+      "path": "system/generated/brs1-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 3763625,
+      "sha256": "a6cb0cce98f8a51710234b6b968248e0c9f54d2fb072ca2fa4c30920f773008f"
+    },
+    {
+      "path": "system/generated/brs1-input-substance-food/mapping.generated.json",
+      "bytes": 7925954,
+      "sha256": "7d6a7592fbd4b18999f231379c4b1aaf11069c3826507617c258648801294ecd"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 2516869,
+      "sha256": "8b785a107edc8f0d2f18718d1af0b74d27a582de04531baf6293319bc0320715"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 2477409,
+      "sha256": "a9d8aa2a86c6934d5f7cad7f97ff10a05a202fc2399f03f3751fd2d4ea8a92c7"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/mapping.generated.json",
+      "bytes": 4989901,
+      "sha256": "8f6bc9141e1710a5259d4a8b25ce1baba448d703fccc73c8824475100343f0c1"
+    },
+    {
+      "path": "system/generated/brs3-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 1568577,
+      "sha256": "586a86a376875abde4164d3d97ebf809353fcdc1e5eaa7e8393891dc8c5b9d5a"
+    },
+    {
+      "path": "system/generated/brs3-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 1541923,
+      "sha256": "b4f08cb781f94bec09ed31954da2c6400334d3f8bad7620301412c97518673d0"
+    },
+    {
+      "path": "system/generated/brs3-input-substance-food/mapping.generated.json",
+      "bytes": 4557899,
+      "sha256": "8e51841331eacbf2dc6f799f928e4dbcec068b0046557ac84987c03a97d47c02"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 1423091,
+      "sha256": "686051de057f578352bd11db530be377d55d79f6e2cf089f4fbb736027e7f56d"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 1401395,
+      "sha256": "08b554f3c5e6b8c3c0a2a38086d2bfc10d17a996508d0a7d429478a77d1e17a2"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/mapping.generated.json",
+      "bytes": 3436881,
+      "sha256": "94b0bcc6078ad3fae3bf7ee26bf0190fd072bcffcd68cc3d97aae71eaa3f07df"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 717165,
+      "sha256": "b20b5e5d5e63c40cff33175cd1309d576a13421536c46fbf8f494a9ac6df1fea"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 706513,
+      "sha256": "73368fb696972926263ebc05e5964bfbbafb674f650a82fa7bd330ab9d620275"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/mapping.generated.json",
+      "bytes": 1990666,
+      "sha256": "6d9ac732e806c57b71e92e24e3beef19b7b21e703b3fd238ec64c7cdc6288823"
+    },
+    {
+      "path": "system/generated/brs6-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 168221,
+      "sha256": "ecac02179077d1174147bce854d6b4332c3ea97b84322cced5faccd5409ff183"
+    },
+    {
+      "path": "system/generated/brs6-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 165443,
+      "sha256": "71e16c69d70d93ab786478f3d5273eb7b67f53dd3293e29088e590564f34ceb2"
+    },
+    {
+      "path": "system/generated/brs6-input-substance-food/mapping.generated.json",
+      "bytes": 785520,
+      "sha256": "25068e7fee808ffd899fd1376b54f5c83df5039cc7ea0581f665298350ea2c72"
+    },
+    {
+      "path": "system/generated/dietary-food-targets/manuscript-rollup.json",
+      "bytes": 3716194,
+      "sha256": "4674f95453e0b5a3deb5cc55901ab0c94fcaa8f5a4860a0457c661823a5b14e7"
+    }
+  ],
+  "excluded": [
+    [
+      "review/dietary-recovery-2026-10-26/continuation/finding-consistency.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/dietary-recovery-2026-10-26/continuation/focused-validation.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/dietary-recovery-2026-10-26/continuation/generation.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/dietary-recovery-2026-10-26/continuation/legacy-sec-test-results.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/dietary-recovery-2026-10-26/continuation/preview.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/dietary-recovery-2026-10-26/continuation/production-build-final.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/dietary-recovery-2026-10-26/continuation/production-build.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/dietary-recovery-2026-10-26/continuation/recovery-tests.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/dietary-recovery-2026-10-26/continuation/sec-validation.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/foodless-targets-2026-10-26/bibliography-validation.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/foodless-targets-2026-10-26/extended-tests.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/foodless-targets-2026-10-26/findings.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/foodless-targets-2026-10-26/food-validation.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/foodless-targets-2026-10-26/generation.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/foodless-targets-2026-10-26/governance.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/foodless-targets-2026-10-26/local-server.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/foodless-targets-2026-10-26/production-build-attempt-1.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/foodless-targets-2026-10-26/production-build.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/foodless-targets-2026-10-26/recovery-tests.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/foodless-targets-2026-10-26/sec.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/foodless-targets-2026-10-26/substance-validation.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/foodless-targets-2026-10-26/targeted-tests.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/sec-fixture-repair-2026-10-26/finding-validation.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/sec-fixture-repair-2026-10-26/preservation-check.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/sec-fixture-repair-2026-10-26/sec-validation.log",
+      "machine configuration/log"
+    ]
+  ],
+  "lossless_compressed": []
+}
