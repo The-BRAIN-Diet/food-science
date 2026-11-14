@@ -1,0 +1,79 @@
+[
+  {
+    "route": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation/",
+    "status": 200,
+    "article_text_identical": true,
+    "headings": [
+      "BRS1-1-1 - Amino-Acid Availability & Prioritisation​",
+      "1. Mission & Overview + Dietary Levers​",
+      "2. Primary Biological Effects​",
+      "3. Intervention Levers​",
+      "4. Mechanistic Basis + Scientific Findings (SFs 6)​",
+      "5. BRS Pathways and Connections​",
+      "7. Phenome Connections​",
+      "8. References​",
+      "Therapeutic Area evidence"
+    ]
+  },
+  {
+    "route": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity/",
+    "status": 200,
+    "article_text_identical": true,
+    "headings": [
+      "BRS1-4-9 - GABA Synthesis Capacity​",
+      "1. Mission & Overview + Dietary Levers​",
+      "2. Primary Biological Effects​",
+      "3. Intervention Levers​",
+      "4. Mechanistic Basis + Scientific Findings (SFs 2)​",
+      "5. BRS Pathways and Connections​",
+      "7. Phenome Connections​",
+      "8. References​"
+    ]
+  },
+  {
+    "route": "/docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity/",
+    "status": 200,
+    "article_text_identical": true,
+    "headings": [
+      "BRS1-5-12 - Synaptic Structural Plasticity​",
+      "1. Mission & Overview​",
+      "2. Primary Biological Effects​",
+      "3. Intervention Levers​",
+      "4. Mechanistic Basis​",
+      "5. BRS Pathways and Connections​",
+      "7. Phenome Connections​",
+      "8. References​"
+    ]
+  },
+  {
+    "route": "/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation/",
+    "status": 200,
+    "article_text_identical": true,
+    "headings": [
+      "BRS2-3-7 - Phosphatidylcholine Formation​",
+      "1. Mission, Objective & Biological Context​",
+      "2. Primary Biological Effects​",
+      "3. Levers​",
+      "4. Mechanistic Basis​",
+      "5. BRS Pathways and Connections​",
+      "7. Phenome Connections​",
+      "8. References​",
+      "Therapeutic Area evidence"
+    ]
+  },
+  {
+    "route": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation/",
+    "status": 200,
+    "article_text_identical": true,
+    "headings": [
+      "BRS-X-ECS-1-3 - FAAH-Mediated Endocannabinoid Preservation​",
+      "1. Mission & Overview​",
+      "2. Primary Biological Effects​",
+      "3. Levers​",
+      "4. Mechanistic Basis​",
+      "5. BRS Pathways and Connections​",
+      "7. Phenome Connections​",
+      "8. References​"
+    ]
+  }
+]

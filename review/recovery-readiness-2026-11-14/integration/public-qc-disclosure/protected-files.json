@@ -1,0 +1,51 @@
+{
+  "baseline": "bca0a97f32acb36089833ec0d6c24c2618f22f69",
+  "files": [
+    {
+      "path": "system/ranked-food-publication-sources.json",
+      "unchanged": true,
+      "sha256": "ffd4d4c630f0692ef744819f669ff2eb15e629ac829654cb51da0c0b79d93458"
+    },
+    {
+      "path": "src/data/rankedFoodSources.generated.json",
+      "unchanged": true,
+      "sha256": "1be671e829575688e75d22f01e6a0586dd986681a4953cbff64221e968030d00"
+    },
+    {
+      "path": "package.json",
+      "unchanged": true,
+      "sha256": "7c5197b690cac9465dc02aece679badc8435b62512b612cca2bca4a0f3c801d4"
+    },
+    {
+      "path": "scripts/generate-framework-qc.mjs",
+      "unchanged": true,
+      "sha256": "17ae979269959089b3f2f4413d2ee613a3b5f677cba0d5d461d40afb37eda25d"
+    },
+    {
+      "path": "src/data/framework-qc-public.generated.json",
+      "unchanged": true,
+      "sha256": "8865f16edd090af5cfbdd59f09a5e1afcea172e452c4aaf770b2e523974d2780"
+    },
+    {
+      "path": "review/recovery-readiness-2026-11-14/integration/remaining-three/framework-issues-register.json",
+      "unchanged": true,
+      "sha256": "e469278f071004d81d1046ec609e94da0ae3c2e9f4bb67ae6a13baa5693f38a1"
+    },
+    {
+      "path": "review/recovery-readiness-2026-11-14/integration/remaining-three/cross-page-provenance.json",
+      "unchanged": true,
+      "sha256": "df2cfa52226d61204670f92a89c0e869d072c41f17c1fc8a74da836746de06ac"
+    },
+    {
+      "path": "review/recovery-readiness-2026-11-14/integration/remaining-three/page-review-state.json",
+      "unchanged": true,
+      "sha256": "4f707352441b9c29f3bf3c86e5237749f84db9681e9388c793acdf2b5cb29ded"
+    },
+    {
+      "path": "review/recovery-readiness-2026-11-14/integration/remaining-three/qc-recovery-provenance.json",
+      "unchanged": true,
+      "sha256": "61783b233232cdf28bc0649be839f845145295f7e0313b43373b23734d446cc1"
+    }
+  ],
+  "rankedViewerEquivalence": 984
+}

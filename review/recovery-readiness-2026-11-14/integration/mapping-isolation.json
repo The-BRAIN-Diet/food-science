@@ -1,0 +1,52 @@
+{
+  "baseline": "bc7e07285779a4ea5c86c1e1415fa529723aca1b",
+  "configuration": "src/data/inputMappingScopes.mjs",
+  "ignored_metadata": [
+    "source_revision filesystem-mtime cache marker"
+  ],
+  "discovered_scopes": [
+    {
+      "path": "src/data/brs1InputMapping.generated.json",
+      "scope": "BRS1",
+      "canonical_relationships_and_food_evidence_identical": true,
+      "pm_count": 11
+    },
+    {
+      "path": "src/data/brs2InputMapping.generated.json",
+      "scope": "BRS2",
+      "canonical_relationships_and_food_evidence_identical": true,
+      "pm_count": 7
+    },
+    {
+      "path": "src/data/brs3InputMapping.generated.json",
+      "scope": "BRS3",
+      "canonical_relationships_and_food_evidence_identical": true,
+      "pm_count": 8
+    },
+    {
+      "path": "src/data/brs4InputMapping.generated.json",
+      "scope": "BRS4",
+      "canonical_relationships_and_food_evidence_identical": true,
+      "pm_count": 10
+    },
+    {
+      "path": "src/data/brs5InputMapping.generated.json",
+      "scope": "BRS5",
+      "canonical_relationships_and_food_evidence_identical": true,
+      "pm_count": 8
+    },
+    {
+      "path": "src/data/brs6InputMapping.generated.json",
+      "scope": "BRS6",
+      "canonical_relationships_and_food_evidence_identical": true,
+      "pm_count": 8
+    },
+    {
+      "path": "src/data/brs-xInputMapping.generated.json",
+      "scope": "BRS-X",
+      "canonical_relationships_and_food_evidence_identical": true,
+      "pm_count": 15
+    }
+  ],
+  "pm_count": 67
+}

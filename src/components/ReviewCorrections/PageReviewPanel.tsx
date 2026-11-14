@@ -2,6 +2,8 @@ import React, {type ReactNode} from "react"
 import Link from "@docusaurus/Link"
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 import {
+  PUBLIC_QC_HISTORY_INCOMPLETE,
+  PUBLIC_QC_HISTORY_DISCLOSURE,
   UNREVIEWED_CORRECTIONS_COPY,
   UNREVIEWED_STATUS_COPY,
   frameworkQcPublic,
@@ -33,9 +35,11 @@ function CorrectionCard({item}: {item: PublicCorrection}) {
 export default function PageReviewPanel({
   page,
   panelId,
+  showHistoryDisclosure = true,
 }: {
   page: PublicPageRecord | null
   panelId: string
+  showHistoryDisclosure?: boolean
 }): ReactNode {
   const corrections = page?.corrections || []
   const hasCorrections = corrections.length > 0
@@ -58,9 +62,10 @@ export default function PageReviewPanel({
       aria-labelledby="review-corrections-tab"
     >
       <h2 tabIndex={-1}>Review &amp; Corrections</h2>
+      {PUBLIC_QC_HISTORY_INCOMPLETE && showHistoryDisclosure ? <p role="note">{PUBLIC_QC_HISTORY_DISCLOSURE}</p> : null}
       <dl>
         <dt>Evidence review status</dt>
-        <dd>{reviewStatusLabel(page?.review_status)}</dd>
+        <dd>{PUBLIC_QC_HISTORY_INCOMPLETE && !page?.last_checked ? "Review history unavailable / incomplete" : reviewStatusLabel(page?.review_status)}</dd>
         <dt>Last checked</dt>
         <dd>{page?.last_checked || "Not recorded"}</dd>
         <dt>Review method</dt>
@@ -78,7 +83,7 @@ export default function PageReviewPanel({
           <section>
             <h3>Unresolved decisions</h3>
             {unresolved.length === 0 ? (
-              <p>No pending or accepted decisions remain for this page.</p>
+              <p>{PUBLIC_QC_HISTORY_INCOMPLETE ? "No pending or accepted decisions appear in the available entries; review history remains incomplete." : "No pending or accepted decisions remain for this page."}</p>
             ) : (
               unresolved.map((item) => (
                 <CorrectionCard key={`${item.title}-${item.section || ""}`} item={item} />
@@ -96,7 +101,7 @@ export default function PageReviewPanel({
             )}
           </section>
         </>
-      ) : (
+      ) : PUBLIC_QC_HISTORY_INCOMPLETE ? null : (
         <div className={styles.unreviewed}>
           <p>{UNREVIEWED_STATUS_COPY}</p>
           <p>{UNREVIEWED_CORRECTIONS_COPY}</p>

@@ -1,0 +1,940 @@
+{
+  "source_commit": "1841b3362cc960aad746bada35c3ec4f8a88c426",
+  "contract": "system/phenome-relationship-schema.md: references-backed relationships; no invented Finding IDs",
+  "relationships": {
+    "BRS1-FM1-PM1::Focus / Attention Stability": {
+      "target_phenome": "Focus / Attention Stability",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "rationale": "Meal protein supplies circulating phenylalanine, and phenylalanine can be converted to tyrosine. Tyrosine and tryptophan are precursors later catecholamine and serotonin pathways can use. These studies do not measure attention.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Gorissen et al. (2020)",
+          "citation_key": "gorissen_phenylalanine_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#gorissen_phenylalanine_2020",
+          "data_level": "Human Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Matthews (2007)",
+          "citation_key": "matthews_phenylalanine_2007",
+          "href": "/docs/papers/BRAIN-Diet-References#matthews_phenylalanine_2007",
+          "data_level": "Mechanistic"
+        },
+        {
+          "index": 3,
+          "label": "Aquili (2020)",
+          "citation_key": "aquili_role_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#aquili_role_2020",
+          "data_level": "Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS1-FM1-PM1::Motivation / Drive": {
+      "target_phenome": "Motivation / Drive",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "rationale": "Phenylalanine from dietary protein can be converted to tyrosine, the dopamine precursor. That supply is not a measurement of motivation or drive, and it is not dopaminergic signalling.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Matthews (2007)",
+          "citation_key": "matthews_phenylalanine_2007",
+          "href": "/docs/papers/BRAIN-Diet-References#matthews_phenylalanine_2007",
+          "data_level": "Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Aquili (2020)",
+          "citation_key": "aquili_role_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#aquili_role_2020",
+          "data_level": "Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS1-FM1-PM1::Emotional Regulation": {
+      "target_phenome": "Emotional Regulation",
+      "relationship_type": "modulates",
+      "confidence": "low",
+      "evidence_level": "mechanistic",
+      "rationale": "Tryptophan is an indispensable amino acid and the serotonin precursor. Coverage of that amino acid is not a measurement of emotional regulation, and serotonin signalling is a later step.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Mariotti and Gardner (2019)",
+          "citation_key": "mariotti_dietary_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019",
+          "data_level": "Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Aquili (2020)",
+          "citation_key": "aquili_role_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#aquili_role_2020",
+          "data_level": "Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low"
+    },
+    "BRS3-FM1-PM1::Cognitive Clarity": {
+      "target_phenome": "Cognitive Clarity",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "rationale": "Polyphenol-rich dietary patterns and lower pro-inflammatory signalling pressure may support cognitive clarity context in ADHD-relevant populations without single-nutrient outcome claims.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Zelicha et al. (2022)",
+          "citation_key": "zelicha_effect_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#zelicha_effect_2022",
+          "data_level": "Human Outcome"
+        },
+        {
+          "index": 2,
+          "label": "Marsland et al. (2017)",
+          "citation_key": "marsland_systemic_2017",
+          "href": "/docs/papers/BRAIN-Diet-References#marsland_systemic_2017",
+          "data_level": "Human Mechanistic"
+        }
+      ],
+      "evidence_confidence": "medium"
+    },
+    "BRS3-FM1-PM1::Focus / Attention Stability": {
+      "target_phenome": "Focus / Attention Stability",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "rationale": "Postprandial and LPS-linked inflammatory signalling intersects ADHD metabolic overlap — pattern-based anti-inflammatory meals may modulate attention-relevant inflammatory tone rather than acute NF-κB pharmacology.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Batey et al. (2024)",
+          "citation_key": "batey_lipopolysaccharide_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024",
+          "data_level": "Human Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Brown et al. (2025)",
+          "citation_key": "brown_associations_2025",
+          "href": "/docs/papers/BRAIN-Diet-References#brown_associations_2025",
+          "data_level": "Human Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS3-FM1-PM1::Emotional Regulation": {
+      "target_phenome": "Emotional Regulation",
+      "relationship_type": "modulates",
+      "confidence": "low",
+      "evidence_level": "mechanistic",
+      "rationale": "Systemic inflammatory signalling may intersect affective regulation framing in neurodevelopmental contexts; this PM governs transcriptional inflammatory tone only—not downstream cytokine phenotypes.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Marsland et al. (2017)",
+          "citation_key": "marsland_systemic_2017",
+          "href": "/docs/papers/BRAIN-Diet-References#marsland_systemic_2017",
+          "data_level": "Human Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS3-FM1-PM1::Apprehensive Worry / Perseverative Thought": {
+      "target_phenome": "Apprehensive Worry / Perseverative Thought",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "rationale": "Systemic inflammation associates with default-mode network connectivity patterns linked to perseverative thought in translational anxiety/depression framing; NF-κB transcriptional tone is the mechanism boundary.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Marsland et al. (2017)",
+          "citation_key": "marsland_systemic_2017",
+          "href": "/docs/papers/BRAIN-Diet-References#marsland_systemic_2017",
+          "data_level": "Human Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Batey et al. (2024)",
+          "citation_key": "batey_lipopolysaccharide_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024",
+          "data_level": "Human Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS3-FM1-PM1::Pleasure & Interest Capacity": {
+      "target_phenome": "Pleasure & Interest Capacity",
+      "relationship_type": "modulates",
+      "confidence": "low",
+      "evidence_level": "mechanistic",
+      "rationale": "LPS-linked neurotransmission disruption intersects depressive mood biology in translational reviews; pro-inflammatory transcriptional tone may modulate this context without direct anhedonia-outcome claims.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Batey et al. (2024)",
+          "citation_key": "batey_lipopolysaccharide_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024",
+          "data_level": "Human Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS3-FM1-PM2::Focus / Attention Stability": {
+      "target_phenome": "Focus / Attention Stability",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "rationale": "Propionate protected an in vitro blood–brain barrier model. That is not endotoxin translocation, and it is not an attention result. Gut microbiota studies in children remain context for this spillover step.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Hoyles et al. (2018)",
+          "citation_key": "hoyles_microbiome-host_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018",
+          "data_level": "Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Jiang et al. (2018)",
+          "citation_key": "jiang_gut_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#jiang_gut_2018",
+          "data_level": "Human Study"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS3-FM1-PM2::Cognitive Clarity": {
+      "target_phenome": "Cognitive Clarity",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "rationale": "Butyrate and gut-barrier context may reduce neuroinflammation and support brain energy metabolism — translational links to cognitive clarity without direct ADHD treatment-efficacy claims.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Yunting Li et al. (2024)",
+          "citation_key": "li_sodium_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#li_sodium_2024",
+          "data_level": "Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Grüter et al. (2023)",
+          "citation_key": "gruter_propionate_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#gruter_propionate_2023",
+          "data_level": "Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS3-FM1-PM2::Emotional Regulation": {
+      "target_phenome": "Emotional Regulation",
+      "relationship_type": "modulates",
+      "confidence": "low",
+      "evidence_level": "mechanistic",
+      "rationale": "Low-grade endotoxemia and sustained systemic inflammation correlate with mood instability in translational framing; gut-derived load remains the boundary of this spillover step.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Mohammad & Thiemermann (2021)",
+          "citation_key": "mohammad_role_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#mohammad_role_2021",
+          "data_level": "Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low"
+    },
+    "BRS3-FM1-PM2::Apprehensive Worry / Perseverative Thought": {
+      "target_phenome": "Apprehensive Worry / Perseverative Thought",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "rationale": "Gut–brain microbiota signalling modulates central GABA receptor expression and anxiety-related behaviour in animal models; gut-derived inflammatory load may intersect apprehensive-worry biology in anxiety/depression comorbidity framing.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Bravo et al. (2011)",
+          "citation_key": "bravo_ingestion_2011",
+          "href": "/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011",
+          "data_level": "Animal Data"
+        },
+        {
+          "index": 2,
+          "label": "Mohammad & Thiemermann (2021)",
+          "citation_key": "mohammad_role_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#mohammad_role_2021",
+          "data_level": "Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS3-FM1-PM2::Social Engagement Capacity": {
+      "target_phenome": "Social Engagement Capacity",
+      "relationship_type": "indirect",
+      "confidence": "low",
+      "evidence_level": "mechanistic",
+      "rationale": "Gut–brain GABAergic modulation has been linked to reduced anxiety- and depression-related behaviour in preclinical models; social-engagement outcomes remain indirect translational inference for this gut-inflammatory PM.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Bravo et al. (2011)",
+          "citation_key": "bravo_ingestion_2011",
+          "href": "/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011",
+          "data_level": "Animal Data"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS3-FM2-PM3::Cognitive Clarity": {
+      "target_phenome": "Cognitive Clarity",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "rationale": "Verlaet reviews a rationale for dietary antioxidant treatment in ADHD. The human measurement is nasal defence-gene expression after a prepared sprout homogenate, not a cognitive result.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Verlaet et al. (2018)",
+          "citation_key": "verlaet_rationale_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#verlaet_rationale_2018",
+          "data_level": "Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Houghton et al. (2016)",
+          "citation_key": "houghton_sulforaphane_2016",
+          "href": "/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016",
+          "data_level": "Human Outcome"
+        }
+      ],
+      "evidence_confidence": "medium"
+    },
+    "BRS3-FM2-PM3::Focus / Attention Stability": {
+      "target_phenome": "Focus / Attention Stability",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "rationale": "The human exposure changed phase II enzyme RNA in nasal cells. It does not show that ordinary repeated eating changes attention, and the sources do not compare repeated exposure with a single dose.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Verlaet et al. (2018)",
+          "citation_key": "verlaet_rationale_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#verlaet_rationale_2018",
+          "data_level": "Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS3-FM2-PM3::Stress Resilience": {
+      "target_phenome": "Stress Resilience",
+      "relationship_type": "modulates",
+      "confidence": "low",
+      "evidence_level": "mechanistic",
+      "rationale": "Nrf2-dependent detoxification and antioxidant gene programmes may intersect stress-buffering redox context; direct ADHD stress-outcome evidence remains limited.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Mocchegiani & Malavolta (2019)",
+          "citation_key": "mocchegiani_role_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019",
+          "data_level": "Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low"
+    },
+    "BRS3-FM2-PM4::Focus / Attention Stability": {
+      "target_phenome": "Focus / Attention Stability",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "rationale": "Elevated oxidative stress indices and lipid-peroxidation markers in adult and paediatric ADHD cohorts may modulate attention-relevant redox burden when generation exceeds clearance.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Bulut et al. (2007)",
+          "citation_key": "bulut_malondialdehyde_2007",
+          "href": "/docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007",
+          "data_level": "Human Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Miniksar et al. (2023)",
+          "citation_key": "miniksar_effect_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#miniksar_effect_2023",
+          "data_level": "Human Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS3-FM2-PM4::Cognitive Clarity": {
+      "target_phenome": "Cognitive Clarity",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "rationale": "Thiol/disulfide shifts and DNA oxidation markers in ADHD adults support state-sensitive redox interpretation relevant to cognitive clarity without diagnostic claims.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Kurhan & Alp (2021)",
+          "citation_key": "kurhan_dynamic_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#kurhan_dynamic_2021",
+          "data_level": "Human Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Verlaet et al. (2019)",
+          "citation_key": "verlaet_oxidative_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019",
+          "data_level": "Human Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS3-FM2-PM4::Emotional Regulation": {
+      "target_phenome": "Emotional Regulation",
+      "relationship_type": "modulates",
+      "confidence": "low",
+      "evidence_level": "mechanistic",
+      "rationale": "Oxidative stress intersects neuroinflammatory cascades relevant to affective dysregulation framing; net redox balance is the mechanism boundary for this PM.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Verlaet et al. (2019)",
+          "citation_key": "verlaet_oxidative_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019",
+          "data_level": "Human Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS3-FM2-PM5::Cognitive Clarity": {
+      "target_phenome": "Cognitive Clarity",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "rationale": "One adult cohort had higher malondialdehyde. That marker is not a vitamin E result. Lutein is not the chain-breaking antioxidant in this membrane reaction.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Bulut et al. (2007)",
+          "citation_key": "bulut_malondialdehyde_2007",
+          "href": "/docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007",
+          "data_level": "Human Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Johnson (2014)",
+          "citation_key": "johnson_role_2014",
+          "href": "/docs/papers/BRAIN-Diet-References#johnson_role_2014",
+          "data_level": "Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS3-FM2-PM5::Focus / Attention Stability": {
+      "target_phenome": "Focus / Attention Stability",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "rationale": "Lipid-peroxidation burden tracks oxidative load in ADHD cohorts; food-state antioxidant coverage may modulate membrane protection relevant to sustained attention contexts.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Bulut et al. (2007)",
+          "citation_key": "bulut_malondialdehyde_2007",
+          "href": "/docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007",
+          "data_level": "Human Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS3-FM2-PM5::Emotional Regulation": {
+      "target_phenome": "Emotional Regulation",
+      "relationship_type": "modulates",
+      "confidence": "low",
+      "evidence_level": "mechanistic",
+      "rationale": "Oxidative membrane damage and mitochondrial overlap may intersect affective regulation in neurodevelopmental framing; scope remains lipid-peroxidation control only.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Solleiro-Villavicencio & Rivas-Arancibia (2018)",
+          "citation_key": "solleiro-villavicencio_effect_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#solleiro-villavicencio_effect_2018",
+          "data_level": "Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low"
+    },
+    "BRS3-FM2-PM6::Cognitive Clarity": {
+      "target_phenome": "Cognitive Clarity",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "rationale": "Synergistic antioxidant network regeneration may support cognitive clarity context in ADHD oxidative-load framing better than isolated megadose antioxidants.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Packer et al. (1997)",
+          "citation_key": "packer_vitamin_1997",
+          "href": "/docs/papers/BRAIN-Diet-References#packer_vitamin_1997",
+          "data_level": "Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Verlaet et al. (2019)",
+          "citation_key": "verlaet_oxidative_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019",
+          "data_level": "Human Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS3-FM2-PM6::Stress Resilience": {
+      "target_phenome": "Stress Resilience",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "rationale": "Compensatory glutathione elevation in ADHD may reflect network activity under oxidative burden; polyphenol–fibre patterns supporting urolithin A context may modulate stress-buffering redox resilience.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Verlaet et al. (2019)",
+          "citation_key": "verlaet_oxidative_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019",
+          "data_level": "Human Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Zelicha et al. (2022)",
+          "citation_key": "zelicha_effect_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#zelicha_effect_2022",
+          "data_level": "Human Outcome"
+        }
+      ],
+      "evidence_confidence": "medium"
+    },
+    "BRS3-FM2-PM6::Emotional Regulation": {
+      "target_phenome": "Emotional Regulation",
+      "relationship_type": "modulates",
+      "confidence": "low",
+      "evidence_level": "mechanistic",
+      "rationale": "Network antioxidant sufficiency may indirectly modulate affective context under chronic oxidative stress; high-dose single-nutrient supplementation shows inconsistent benefit.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Klein et al. (2011)",
+          "citation_key": "klein_vitamin_2011",
+          "href": "/docs/papers/BRAIN-Diet-References#klein_vitamin_2011",
+          "data_level": "Human Outcome"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS3-FM3-PM7::Focus / Attention Stability": {
+      "target_phenome": "Focus / Attention Stability",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "rationale": "Youth ADHD cohort work reported higher hs-CRP and IL-6 with lower TNF-α, BDNF and bedtime cortisol — a mixed peripheral immune–neuroendocrine pattern rather than uniform pro-inflammatory cytokine elevation; omega-3 interventions reshape resolution-phase cytokine responses.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Chang et al. (2020)",
+          "citation_key": "chang_cortisol_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#chang_cortisol_2020",
+          "data_level": "Human Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Ferguson et al. (2014)",
+          "citation_key": "ferguson_omega3_2014",
+          "href": "/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014",
+          "data_level": "Human Study"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS3-FM3-PM7::Cognitive Clarity": {
+      "target_phenome": "Cognitive Clarity",
+      "relationship_type": "modulates",
+      "confidence": "low",
+      "evidence_level": "mechanistic",
+      "rationale": "Postprandial inflammatory patterns in ADHD metabolic overlap may modulate cognitive clarity through cytokine-network context rather than single-mechanism claims.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Brown et al. (2025)",
+          "citation_key": "brown_associations_2025",
+          "href": "/docs/papers/BRAIN-Diet-References#brown_associations_2025",
+          "data_level": "Human Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS3-FM3-PM7::Apprehensive Worry / Perseverative Thought": {
+      "target_phenome": "Apprehensive Worry / Perseverative Thought",
+      "relationship_type": "modulates",
+      "confidence": "medium",
+      "evidence_level": "intervention",
+      "rationale": "Persistent inflammatory signalling through IL-6- and TNF-α-linked cytokine networks is a recognised contributor to anxious and perseverative cognition within neuroimmune framing (Slavich & Irwin, 2014; Marsland et al., 2017). Human omega-3 intervention reduced inflammatory markers and anxiety symptoms alongside resolution-phase cytokine remodelling (Kiecolt-Glaser et al., 2011; Ferguson et al., 2014). This PM governs cytokine-network tone — not omega-3 treatment — and attached anxiety outcomes require one inferential step to PH016 rather than direct perseverative-thought measurement.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Slavich & Irwin (2014)",
+          "citation_key": "slavich_stress_inflammation_2014",
+          "href": "/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014",
+          "data_level": "Human Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Marsland et al. (2017)",
+          "citation_key": "marsland_systemic_2017",
+          "href": "/docs/papers/BRAIN-Diet-References#marsland_systemic_2017",
+          "data_level": "Human Mechanistic"
+        },
+        {
+          "index": 3,
+          "label": "Kiecolt-Glaser et al. (2011)",
+          "citation_key": "kiecolt-glaser_omega-3_2011",
+          "href": "/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011",
+          "data_level": "Human Outcome"
+        },
+        {
+          "index": 4,
+          "label": "Ferguson et al. (2014)",
+          "citation_key": "ferguson_omega3_2014",
+          "href": "/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014",
+          "data_level": "Human Study"
+        }
+      ],
+      "evidence_confidence": "medium"
+    },
+    "BRS3-FM3-PM7::Pleasure & Interest Capacity": {
+      "target_phenome": "Pleasure & Interest Capacity",
+      "relationship_type": "modulates",
+      "confidence": "low",
+      "evidence_level": "mechanistic",
+      "rationale": "Mitochondrial dysfunction is a recurrent theme in depression pathophysiology reviews; cytokine-network inflammatory tone may intersect reward-related mitochondrial biology without a direct anhedonia measurement.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Song et al. (2023)",
+          "citation_key": "song_mitochondrial_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#song_mitochondrial_2023",
+          "data_level": "Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS3-FM3-PM8::Cognitive Clarity": {
+      "target_phenome": "Cognitive Clarity",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "rationale": "Specialized pro-resolving mediators actively terminate inflammation without suppressing immune surveillance — supporting cognitive clarity context through resolution-oriented lipid signalling.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Serhan & Petasis (2011)",
+          "citation_key": "serhan_resolvins_2011",
+          "href": "/docs/papers/BRAIN-Diet-References#serhan_resolvins_2011",
+          "data_level": "Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Ferguson et al. (2014)",
+          "citation_key": "ferguson_omega3_2014",
+          "href": "/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014",
+          "data_level": "Human Study"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS3-FM3-PM8::Emotional Regulation": {
+      "target_phenome": "Emotional Regulation",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "rationale": "Omega-3-derived resolution biology may modulate affective inflammatory context when EPA/DHA substrate and omega-6:omega-3 balance are adequate over habitual intake.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Ferguson et al. (2014)",
+          "citation_key": "ferguson_omega3_2014",
+          "href": "/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014",
+          "data_level": "Human Study"
+        },
+        {
+          "index": 2,
+          "label": "Simopoulos (2011)",
+          "citation_key": "simopoulos_evolutionary_2011",
+          "href": "/docs/papers/BRAIN-Diet-References#simopoulos_evolutionary_2011",
+          "data_level": "Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS3-FM3-PM8::Focus / Attention Stability": {
+      "target_phenome": "Focus / Attention Stability",
+      "relationship_type": "modulates",
+      "confidence": "low",
+      "evidence_level": "mechanistic",
+      "rationale": "Resolution-phase lipid mediator balance may intersect attention-relevant inflammatory tone; direct ADHD SPM outcome evidence remains limited.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Serhan & Petasis (2011)",
+          "citation_key": "serhan_resolvins_2011",
+          "href": "/docs/papers/BRAIN-Diet-References#serhan_resolvins_2011",
+          "data_level": "Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low"
+    },
+    "BRS3-FM3-PM8::Apprehensive Worry / Perseverative Thought": {
+      "target_phenome": "Apprehensive Worry / Perseverative Thought",
+      "relationship_type": "modulates",
+      "confidence": "medium",
+      "evidence_level": "intervention",
+      "rationale": "Persistent inflammatory signalling and impaired resolution-phase lipid mediator balance are recognised contributors to anxious perseverative cognition within neuroimmune framing (Slavich & Irwin, 2014; Marsland et al., 2017). SPM-oriented resolution biology and human omega-3 intervention reduced inflammatory markers and anxiety symptoms alongside cytokine remodelling (Kiecolt-Glaser et al., 2011; Ferguson et al., 2014). This PM governs eicosanoid–SPM balance — not omega-3 treatment — and attached anxiety outcomes require one inferential step to PH016 rather than direct perseverative-thought measurement.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Slavich & Irwin (2014)",
+          "citation_key": "slavich_stress_inflammation_2014",
+          "href": "/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014",
+          "data_level": "Human Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Marsland et al. (2017)",
+          "citation_key": "marsland_systemic_2017",
+          "href": "/docs/papers/BRAIN-Diet-References#marsland_systemic_2017",
+          "data_level": "Human Mechanistic"
+        },
+        {
+          "index": 3,
+          "label": "Kiecolt-Glaser et al. (2011)",
+          "citation_key": "kiecolt-glaser_omega-3_2011",
+          "href": "/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011",
+          "data_level": "Human Outcome"
+        },
+        {
+          "index": 4,
+          "label": "Ferguson et al. (2014)",
+          "citation_key": "ferguson_omega3_2014",
+          "href": "/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014",
+          "data_level": "Human Study"
+        }
+      ],
+      "evidence_confidence": "medium"
+    },
+    "BRS3-FM3-PM8::Pleasure & Interest Capacity": {
+      "target_phenome": "Pleasure & Interest Capacity",
+      "relationship_type": "modulates",
+      "confidence": "low",
+      "evidence_level": "mechanistic",
+      "rationale": "Resolution-phase eicosanoid balance may modulate inflammatory tone intersecting reward-processing and depressive biology in translational framing; Gruber et al. (2023) reviews insulin–dopamine reward disruption in depression as adjacent context.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Ferguson et al. (2014)",
+          "citation_key": "ferguson_omega3_2014",
+          "href": "/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014",
+          "data_level": "Human Study"
+        },
+        {
+          "index": 2,
+          "label": "Gruber et al. (2023)",
+          "citation_key": "gruber_impact_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#gruber_impact_2023",
+          "data_level": "Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low-medium"
+    },
+    "BRS4-FM2-PM4::Recovery Capacity": {
+      "target_phenome": "Recovery Capacity",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "observational",
+      "evidence_confidence": "low-medium",
+      "rationale": "Elevated glutathione and oxidative-stress markers in paediatric ADHD case–control work link mitochondrial ROS handling to redox recovery context; GSH is required for mitochondrial lactate metabolism and ROS neutralisation — this PM governs ROS production/control balance, not GSH synthesis (BRS2/BRS3).",
+      "references": [
+        {
+          "index": 1,
+          "label": "Verlaet et al. (2019)",
+          "citation_key": "verlaet_oxidative_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019",
+          "data_level": "Human Mechanistic"
+        }
+      ]
+    },
+    "BRS4-FM2-PM4::Stress Reactivity": {
+      "target_phenome": "Stress Reactivity",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "observational",
+      "evidence_confidence": "low-medium",
+      "rationale": "Oxidative-stress elevation in ADHD cohorts intersects stress-relevant redox tone — impaired ROS control may modulate allostatic load under repeated challenge without claiming oxidative stress causes ADHD.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Verlaet et al. (2019)",
+          "citation_key": "verlaet_oxidative_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019",
+          "data_level": "Human Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Öğütlü et al. (2022)",
+          "citation_key": "ogutlu_mitochondrial_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023",
+          "data_level": "Human Study"
+        }
+      ]
+    },
+    "BRS4-FM2-PM5::Recovery Capacity": {
+      "target_phenome": "Recovery Capacity",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "observational",
+      "evidence_confidence": "low-medium",
+      "rationale": "Integrated mitochondrial membrane protection and redox integrity preserve energetic output when oxidative stress is elevated in paediatric ADHD — convergent with Verlaet glutathione/oxidative-stress findings and ADHD mitophagy reviews.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Verlaet et al. (2019)",
+          "citation_key": "verlaet_oxidative_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019",
+          "data_level": "Human Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Almutairi et al. (2024)",
+          "citation_key": "almutairi_mitophagy_adhd_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#almutairi_mitophagy_adhd_2024",
+          "data_level": "Mechanistic"
+        }
+      ]
+    },
+    "BRS4-FM2-PM5::Stress Resilience": {
+      "target_phenome": "Stress Resilience",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "evidence_confidence": "low-medium",
+      "rationale": "Mitophagy and mitochondrial quality-control biology reviewed in ADHD contexts support redox-resilience framing when oxidative insult is recurrent — mechanism boundary is organelle integrity, not pharmacological antioxidant treatment claims.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Almutairi et al. (2024)",
+          "citation_key": "almutairi_mitophagy_adhd_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#almutairi_mitophagy_adhd_2024",
+          "data_level": "Mechanistic"
+        }
+      ]
+    },
+    "BRS4-FM3-PM6::Focus / Attention Stability": {
+      "target_phenome": "Focus / Attention Stability",
+      "relationship_type": "modulates",
+      "confidence": "medium",
+      "evidence_level": "intervention",
+      "evidence_confidence": "medium",
+      "rationale": "Controlled carnitine supplementation improved behavioural and functional outcomes in children with ADHD — the strongest direct ADHD intervention anchor in BRS4, mapping fatty-acid transport into mitochondria to attention-relevant outcomes without generalising beyond trial context.",
+      "references": [
+        {
+          "index": 1,
+          "label": "van Oudheusden & Scholte (2002)",
+          "citation_key": "van_oudheusden_efficacy_2002",
+          "href": "/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002",
+          "data_level": "Human Outcome"
+        }
+      ]
+    },
+    "BRS4-FM3-PM6::Cognitive Energy Stability": {
+      "target_phenome": "Cognitive Energy Stability",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "intervention",
+      "evidence_confidence": "low-medium",
+      "rationale": "Carnitine-dependent fat oxidation supports mitochondrial substrate delivery for ATP production — trial evidence in ADHD children links this transport node to functional improvement alongside behavioural endpoints.",
+      "references": [
+        {
+          "index": 1,
+          "label": "van Oudheusden & Scholte (2002)",
+          "citation_key": "van_oudheusden_efficacy_2002",
+          "href": "/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002",
+          "data_level": "Human Outcome"
+        }
+      ]
+    },
+    "BRS4-FM3-PM7::Cognitive Energy Stability": {
+      "target_phenome": "Cognitive Energy Stability",
+      "relationship_type": "indirect",
+      "confidence": "low",
+      "evidence_level": "mechanistic",
+      "evidence_confidence": "low",
+      "rationale": "ADHD mitochondrial dysfunction reviews describe substrate-flexibility strain when oxidative phosphorylation is impaired — ketone utilisation is an indirect alternative-fuel pathway node without ADHD ketone-intervention outcomes in the hub set.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Öğütlü et al. (2022)",
+          "citation_key": "ogutlu_mitochondrial_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023",
+          "data_level": "Human Study"
+        }
+      ]
+    },
+    "BRS4-FM3-PM8::Cognitive Energy Stability": {
+      "target_phenome": "Cognitive Energy Stability",
+      "relationship_type": "indirect",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "evidence_confidence": "low",
+      "rationale": "Narrative synthesis of ADHD mitochondrial biomarker and oxidative-stress literature supports fuel-switching flexibility as a modifiable bioenergetic context when respiration is compromised — direct ADHD fuel-switching outcome trials remain limited.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Öğütlü et al. (2022)",
+          "citation_key": "ogutlu_mitochondrial_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023",
+          "data_level": "Human Study"
+        }
+      ]
+    },
+    "BRS4-FM4-PM9::Recovery Capacity": {
+      "target_phenome": "Recovery Capacity",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "evidence_confidence": "low-medium",
+      "rationale": "ADHD mitophagy and mitochondrial quality-control reviews link biogenesis/adaptation biology to long-term energetic restoration after repeated metabolic demand — diet and training provide permissive substrate context; direct ADHD biogenesis-outcome trials remain sparse.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Almutairi et al. (2024)",
+          "citation_key": "almutairi_mitophagy_adhd_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#almutairi_mitophagy_adhd_2024",
+          "data_level": "Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Öğütlü et al. (2022)",
+          "citation_key": "ogutlu_mitochondrial_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023",
+          "data_level": "Human Study"
+        }
+      ]
+    }
+  }
+}

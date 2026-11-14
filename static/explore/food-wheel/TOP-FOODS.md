@@ -1,6 +1,6 @@
 # Shared PM/Wheel ranked sources
 
-Snapshot: 783919896d27b394d34cc3b2a2c0a58d4e2bccc6ca7ebe954d3327111b8fca8a
+Snapshot: 682e4da0617af57788a83135d36947f31658dbe3d5b8c1ae6cc60245d66056c7
 
 Provisional source power ≥10%; up to ten; no padding. Original quantities, states and sources retained.
 
@@ -119,12 +119,12 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS1-FM1-PM3|magnesium|cocoa|2|84.29054054054053|499 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg|
 |BRS1-FM1-PM3|magnesium|sage|3|72.2972972972973|428 mg per 100 g edible portion||docs/foods/sage.md#nutrition_per_100g/magnesium_mg|
 |BRS1-FM1-PM3|magnesium|flax-seeds|4|66.21621621621621|392 mg per 100 g edible portion||docs/foods/flax-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS1-FM1-PM3|magnesium|sesame-seeds|5|59.29054054054054|351 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS1-FM1-PM3|magnesium|chia-seeds|6|56.58783783783784|335 mg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS1-FM1-PM3|magnesium|sunflower-seeds|7|54.89864864864865|325 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS1-FM1-PM3|magnesium|cashews|8|49.32432432432432|292 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/magnesium_mg|
-|BRS1-FM1-PM3|magnesium|soy|9|47.2972972972973|280 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/magnesium_mg|
-|BRS1-FM1-PM3|magnesium|almonds|10|45.608108108108105|270 mg per 100 g edible portion||docs/foods/almonds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM3|magnesium|brazil-nuts|5|63.51351351351351|376 mg per 100 g edible portion|dried|docs/foods/brazil-nuts.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM3|magnesium|sesame-seeds|6|59.29054054054054|351 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM3|magnesium|chia-seeds|7|56.58783783783784|335 mg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM3|magnesium|sunflower-seeds|8|54.89864864864865|325 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM3|magnesium|cashews|9|49.32432432432432|292 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM3|magnesium|soy|10|47.2972972972973|280 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/magnesium_mg|
 |BRS1-FM1-PM3|phenylalanine|pumpkin-seeds|1|100|1.733 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170556/nutrients|
 |BRS1-FM1-PM3|phenylalanine|chicken|2|71.0328909405655|1.231 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171477/nutrients|
 |BRS1-FM1-PM3|phenylalanine|peanuts|3|70.80207732256203|1.227 g per 100 g edible portion|dry-roasted|https://fdc.nal.usda.gov/food-details/173806/nutrients|
@@ -196,8 +196,8 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS1-FM1-PM4|copper|cashews|6|22.501281394156837|2.195 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/copper_mg|
 |BRS1-FM1-PM4|copper|sunflower-seeds|7|18.452075858534084|1.8 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/copper_mg|
 |BRS1-FM1-PM4|copper|dark-chocolate|8|18.103536647872883|1.766 mg per 100 g edible portion||docs/foods/dark-chocolate.md#nutrition_per_100g/copper_mg|
-|BRS1-FM1-PM4|copper|soy|9|16.99641209636084|1.658 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/copper_mg|
-|BRS1-FM1-PM4|copper|tahini|10|16.504356740133264|1.61 mg per 100 g edible portion|roasted|docs/foods/tahini.md#nutrition_per_100g/copper_mg|
+|BRS1-FM1-PM4|copper|brazil-nuts|9|17.86776012301384|1.743 mg per 100 g edible portion|dried|docs/foods/brazil-nuts.md#nutrition_per_100g/copper_mg|
+|BRS1-FM1-PM4|copper|soy|10|16.99641209636084|1.658 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/copper_mg|
 |BRS1-FM1-PM4|iron|thyme|1|100|123.6 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/iron_mg|
 |BRS1-FM1-PM4|iron|turmeric|2|44.49838187702266|55 mg per 100 g edible portion||docs/foods/turmeric.md#nutrition_per_100g/iron_mg|
 |BRS1-FM1-PM4|iron|oregano|3|29.773462783171524|36.8 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/iron_mg|
@@ -211,12 +211,12 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS1-FM1-PM4|magnesium|cocoa|2|84.29054054054053|499 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg|
 |BRS1-FM1-PM4|magnesium|sage|3|72.2972972972973|428 mg per 100 g edible portion||docs/foods/sage.md#nutrition_per_100g/magnesium_mg|
 |BRS1-FM1-PM4|magnesium|flax-seeds|4|66.21621621621621|392 mg per 100 g edible portion||docs/foods/flax-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS1-FM1-PM4|magnesium|sesame-seeds|5|59.29054054054054|351 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS1-FM1-PM4|magnesium|chia-seeds|6|56.58783783783784|335 mg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS1-FM1-PM4|magnesium|sunflower-seeds|7|54.89864864864865|325 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS1-FM1-PM4|magnesium|cashews|8|49.32432432432432|292 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/magnesium_mg|
-|BRS1-FM1-PM4|magnesium|soy|9|47.2972972972973|280 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/magnesium_mg|
-|BRS1-FM1-PM4|magnesium|almonds|10|45.608108108108105|270 mg per 100 g edible portion||docs/foods/almonds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM4|magnesium|brazil-nuts|5|63.51351351351351|376 mg per 100 g edible portion|dried|docs/foods/brazil-nuts.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM4|magnesium|sesame-seeds|6|59.29054054054054|351 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM4|magnesium|chia-seeds|7|56.58783783783784|335 mg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM4|magnesium|sunflower-seeds|8|54.89864864864865|325 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM4|magnesium|cashews|9|49.32432432432432|292 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM1-PM4|magnesium|soy|10|47.2972972972973|280 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/magnesium_mg|
 |BRS1-FM1-PM4|phenylalanine|pumpkin-seeds|1|100|1.733 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170556/nutrients|
 |BRS1-FM1-PM4|phenylalanine|chicken|2|71.0328909405655|1.231 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171477/nutrients|
 |BRS1-FM1-PM4|phenylalanine|peanuts|3|70.80207732256203|1.227 g per 100 g edible portion|dry-roasted|https://fdc.nal.usda.gov/food-details/173806/nutrients|
@@ -419,12 +419,12 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS1-FM4-PM11|magnesium|cocoa|2|84.29054054054053|499 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg|
 |BRS1-FM4-PM11|magnesium|sage|3|72.2972972972973|428 mg per 100 g edible portion||docs/foods/sage.md#nutrition_per_100g/magnesium_mg|
 |BRS1-FM4-PM11|magnesium|flax-seeds|4|66.21621621621621|392 mg per 100 g edible portion||docs/foods/flax-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS1-FM4-PM11|magnesium|sesame-seeds|5|59.29054054054054|351 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS1-FM4-PM11|magnesium|chia-seeds|6|56.58783783783784|335 mg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS1-FM4-PM11|magnesium|sunflower-seeds|7|54.89864864864865|325 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS1-FM4-PM11|magnesium|cashews|8|49.32432432432432|292 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/magnesium_mg|
-|BRS1-FM4-PM11|magnesium|soy|9|47.2972972972973|280 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/magnesium_mg|
-|BRS1-FM4-PM11|magnesium|almonds|10|45.608108108108105|270 mg per 100 g edible portion||docs/foods/almonds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM4-PM11|magnesium|brazil-nuts|5|63.51351351351351|376 mg per 100 g edible portion|dried|docs/foods/brazil-nuts.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM4-PM11|magnesium|sesame-seeds|6|59.29054054054054|351 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM4-PM11|magnesium|chia-seeds|7|56.58783783783784|335 mg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM4-PM11|magnesium|sunflower-seeds|8|54.89864864864865|325 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM4-PM11|magnesium|cashews|9|49.32432432432432|292 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/magnesium_mg|
+|BRS1-FM4-PM11|magnesium|soy|10|47.2972972972973|280 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/magnesium_mg|
 |BRS1-FM4-PM9|vitamin-b6|sage|1|100|2.69 mg per 100 g edible portion||docs/foods/sage.md#nutrition_per_100g/vitamin_b6_mg|
 |BRS1-FM4-PM9|vitamin-b6|pistachios|2|63.19702602230484|1.7 mg per 100 g edible portion|raw|docs/foods/pistachios.md#nutrition_per_100g/vitamin_b6_mg|
 |BRS1-FM4-PM9|vitamin-b6|sunflower-seeds|3|50|1.345 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/vitamin_b6_mg|
@@ -521,12 +521,12 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS2-FM1-PM3|magnesium|cocoa|2|84.29054054054053|499 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg|
 |BRS2-FM1-PM3|magnesium|sage|3|72.2972972972973|428 mg per 100 g edible portion||docs/foods/sage.md#nutrition_per_100g/magnesium_mg|
 |BRS2-FM1-PM3|magnesium|flax-seeds|4|66.21621621621621|392 mg per 100 g edible portion||docs/foods/flax-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS2-FM1-PM3|magnesium|sesame-seeds|5|59.29054054054054|351 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS2-FM1-PM3|magnesium|chia-seeds|6|56.58783783783784|335 mg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS2-FM1-PM3|magnesium|sunflower-seeds|7|54.89864864864865|325 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS2-FM1-PM3|magnesium|cashews|8|49.32432432432432|292 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/magnesium_mg|
-|BRS2-FM1-PM3|magnesium|soy|9|47.2972972972973|280 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/magnesium_mg|
-|BRS2-FM1-PM3|magnesium|almonds|10|45.608108108108105|270 mg per 100 g edible portion||docs/foods/almonds.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM1-PM3|magnesium|brazil-nuts|5|63.51351351351351|376 mg per 100 g edible portion|dried|docs/foods/brazil-nuts.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM1-PM3|magnesium|sesame-seeds|6|59.29054054054054|351 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM1-PM3|magnesium|chia-seeds|7|56.58783783783784|335 mg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM1-PM3|magnesium|sunflower-seeds|8|54.89864864864865|325 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM1-PM3|magnesium|cashews|9|49.32432432432432|292 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM1-PM3|magnesium|soy|10|47.2972972972973|280 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/magnesium_mg|
 |BRS2-FM1-PM3|methionine|sardines|1|100|1.086 g per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/methionine_g|
 |BRS2-FM1-PM3|methionine|chicken|2|79.09760589318601|0.859 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171477/nutrients|
 |BRS2-FM1-PM3|methionine|turkey|3|64.9171270718232|0.705 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171496/nutrients|
@@ -658,12 +658,12 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS2-FM2-PM6|magnesium|cocoa|2|84.29054054054053|499 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg|
 |BRS2-FM2-PM6|magnesium|sage|3|72.2972972972973|428 mg per 100 g edible portion||docs/foods/sage.md#nutrition_per_100g/magnesium_mg|
 |BRS2-FM2-PM6|magnesium|flax-seeds|4|66.21621621621621|392 mg per 100 g edible portion||docs/foods/flax-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS2-FM2-PM6|magnesium|sesame-seeds|5|59.29054054054054|351 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS2-FM2-PM6|magnesium|chia-seeds|6|56.58783783783784|335 mg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS2-FM2-PM6|magnesium|sunflower-seeds|7|54.89864864864865|325 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS2-FM2-PM6|magnesium|cashews|8|49.32432432432432|292 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/magnesium_mg|
-|BRS2-FM2-PM6|magnesium|soy|9|47.2972972972973|280 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/magnesium_mg|
-|BRS2-FM2-PM6|magnesium|almonds|10|45.608108108108105|270 mg per 100 g edible portion||docs/foods/almonds.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM2-PM6|magnesium|brazil-nuts|5|63.51351351351351|376 mg per 100 g edible portion|dried|docs/foods/brazil-nuts.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM2-PM6|magnesium|sesame-seeds|6|59.29054054054054|351 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM2-PM6|magnesium|chia-seeds|7|56.58783783783784|335 mg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM2-PM6|magnesium|sunflower-seeds|8|54.89864864864865|325 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM2-PM6|magnesium|cashews|9|49.32432432432432|292 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/magnesium_mg|
+|BRS2-FM2-PM6|magnesium|soy|10|47.2972972972973|280 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/magnesium_mg|
 |BRS2-FM2-PM6|methionine|sardines|1|100|1.086 g per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/methionine_g|
 |BRS2-FM2-PM6|methionine|chicken|2|79.09760589318601|0.859 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171477/nutrients|
 |BRS2-FM2-PM6|methionine|turkey|3|64.9171270718232|0.705 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/171496/nutrients|
@@ -729,8 +729,8 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS3-FM2-PM4|copper|cashews|6|22.501281394156837|2.195 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/copper_mg|
 |BRS3-FM2-PM4|copper|sunflower-seeds|7|18.452075858534084|1.8 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/copper_mg|
 |BRS3-FM2-PM4|copper|dark-chocolate|8|18.103536647872883|1.766 mg per 100 g edible portion||docs/foods/dark-chocolate.md#nutrition_per_100g/copper_mg|
-|BRS3-FM2-PM4|copper|soy|9|16.99641209636084|1.658 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/copper_mg|
-|BRS3-FM2-PM4|copper|tahini|10|16.504356740133264|1.61 mg per 100 g edible portion|roasted|docs/foods/tahini.md#nutrition_per_100g/copper_mg|
+|BRS3-FM2-PM4|copper|brazil-nuts|9|17.86776012301384|1.743 mg per 100 g edible portion|dried|docs/foods/brazil-nuts.md#nutrition_per_100g/copper_mg|
+|BRS3-FM2-PM4|copper|soy|10|16.99641209636084|1.658 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/copper_mg|
 |BRS3-FM2-PM4|iron|thyme|1|100|123.6 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/iron_mg|
 |BRS3-FM2-PM4|iron|turmeric|2|44.49838187702266|55 mg per 100 g edible portion||docs/foods/turmeric.md#nutrition_per_100g/iron_mg|
 |BRS3-FM2-PM4|iron|oregano|3|29.773462783171524|36.8 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/iron_mg|
@@ -740,26 +740,12 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS3-FM2-PM4|iron|soy|7|12.702265372168284|15.7 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/iron_mg|
 |BRS3-FM2-PM4|iron|sesame-seeds|8|11.771844660194176|14.55 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/iron_mg|
 |BRS3-FM2-PM4|iron|cocoa|9|11.21359223300971|13.86 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/iron_mg|
-|BRS3-FM2-PM4|manganese|turmeric|1|100|19.8 mg per 100 g edible portion||docs/foods/turmeric.md#nutrition_per_100g/manganese_mg|
-|BRS3-FM2-PM4|manganese|cinnamon|2|88.21212121212122|17.466 mg per 100 g edible portion||docs/foods/cinnamon.md#nutrition_per_100g/manganese_mg|
-|BRS3-FM2-PM4|manganese|wheat-germ|3|67.17676767676768|13.301 mg per 100 g edible portion||docs/foods/wheat-germ.md#nutrition_per_100g/manganese_mg|
-|BRS3-FM2-PM4|manganese|thyme|4|39.73232323232323|7.867 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/manganese_mg|
-|BRS3-FM2-PM4|manganese|oats|5|24.82828282828283|4.916 mg per 100 g edible portion||docs/foods/oats.md#nutrition_per_100g/manganese_mg|
-|BRS3-FM2-PM4|manganese|pumpkin-seeds|6|22.944444444444446|4.543 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/manganese_mg|
-|BRS3-FM2-PM4|manganese|chickpeas|7|20.959595959595962|4.15 mg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/manganese_mg|
-|BRS3-FM2-PM4|manganese|wheat|8|20.126262626262626|3.985 mg per 100 g edible portion||docs/foods/wheat.md#nutrition_per_100g/manganese_mg|
-|BRS3-FM2-PM4|manganese|cocoa|9|19.37878787878788|3.837 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/manganese_mg|
-|BRS3-FM2-PM4|manganese|walnuts|10|17.242424242424242|3.414 mg per 100 g edible portion||docs/foods/walnuts.md#nutrition_per_100g/manganese_mg|
-|BRS3-FM2-PM4|selenium|kidney|1|100|141 µg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM4|selenium|wheat-germ|2|56.17021276595745|79.2 µg per 100 g edible portion||docs/foods/wheat-germ.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM4|selenium|wheat|3|50.1418439716312|70.7 µg per 100 g edible portion||docs/foods/wheat.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM4|selenium|anchovies|4|48.29787234042552|68.1 µg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM4|selenium|crab|5|42.574468085106375|60.03 µg per 100 g edible portion|frozen|docs/foods/crab.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM4|selenium|egg-yolks|6|39.716312056737586|56 µg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM4|selenium|chia-seeds|7|39.148936170212764|55.2 µg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM4|selenium|chicken-liver|8|38.72340425531915|54.6 µg per 100 g edible portion|raw|docs/foods/chicken-liver.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM4|selenium|sunflower-seeds|9|37.588652482269495|53 µg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM4|selenium|sardines|10|37.3758865248227|52.7 µg per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM4|manganese|cloves|1|100|60.13 mg per 100 g edible portion||docs/foods/cloves.md#nutrition_per_100g/manganese_mg|
+|BRS3-FM2-PM4|manganese|turmeric|2|32.928654581739565|19.8 mg per 100 g edible portion||docs/foods/turmeric.md#nutrition_per_100g/manganese_mg|
+|BRS3-FM2-PM4|manganese|cinnamon|3|29.04706469316481|17.466 mg per 100 g edible portion||docs/foods/cinnamon.md#nutrition_per_100g/manganese_mg|
+|BRS3-FM2-PM4|manganese|wheat-germ|4|22.120405787460502|13.301 mg per 100 g edible portion||docs/foods/wheat-germ.md#nutrition_per_100g/manganese_mg|
+|BRS3-FM2-PM4|manganese|thyme|5|13.083319474471978|7.867 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/manganese_mg|
+|BRS3-FM2-PM4|selenium|brazil-nuts|1|100|1917 µg per 100 g edible portion|dried|docs/foods/brazil-nuts.md#nutrition_per_100g/selenium_ug|
 |BRS3-FM2-PM4|zinc|oysters|1|100|39.3 mg per 100 g edible portion|raw|docs/foods/oysters.md#nutrition_per_100g/zinc_mg|
 |BRS3-FM2-PM4|zinc|wheat-germ|2|31.272264631043257|12.29 mg per 100 g edible portion||docs/foods/wheat-germ.md#nutrition_per_100g/zinc_mg|
 |BRS3-FM2-PM4|zinc|pumpkin-seeds|3|19.872773536895675|7.81 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/zinc_mg|
@@ -770,34 +756,18 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS3-FM2-PM4|zinc|sunflower-seeds|8|12.72264631043257|5 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/zinc_mg|
 |BRS3-FM2-PM4|zinc|soy|9|12.442748091603054|4.89 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/zinc_mg|
 |BRS3-FM2-PM4|zinc|lupins|10|12.086513994910943|4.75 mg per 100 g edible portion|raw|docs/foods/lupins.md#nutrition_per_100g/zinc_mg|
-|BRS3-FM2-PM5|selenium|kidney|1|100|141 µg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM5|selenium|wheat-germ|2|56.17021276595745|79.2 µg per 100 g edible portion||docs/foods/wheat-germ.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM5|selenium|wheat|3|50.1418439716312|70.7 µg per 100 g edible portion||docs/foods/wheat.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM5|selenium|anchovies|4|48.29787234042552|68.1 µg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM5|selenium|crab|5|42.574468085106375|60.03 µg per 100 g edible portion|frozen|docs/foods/crab.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM5|selenium|egg-yolks|6|39.716312056737586|56 µg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM5|selenium|chia-seeds|7|39.148936170212764|55.2 µg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM5|selenium|chicken-liver|8|38.72340425531915|54.6 µg per 100 g edible portion|raw|docs/foods/chicken-liver.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM5|selenium|sunflower-seeds|9|37.588652482269495|53 µg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM5|selenium|sardines|10|37.3758865248227|52.7 µg per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM5|selenium|brazil-nuts|1|100|1917 µg per 100 g edible portion|dried|docs/foods/brazil-nuts.md#nutrition_per_100g/selenium_ug|
 |BRS3-FM2-PM5|vitamin-e|sunflower-seeds|1|100|35.17 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/vitamin_e_mg|
 |BRS3-FM2-PM5|vitamin-e|almonds|2|72.87460904179697|25.63 mg per 100 g edible portion||docs/foods/almonds.md#nutrition_per_100g/vitamin_e_mg|
 |BRS3-FM2-PM5|vitamin-e|salmon-roe|3|25.874324708558426|9.1 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
-|BRS3-FM2-PM5|vitamin-e|peanuts|4|23.68495877168041|8.33 mg per 100 g edible portion|raw|docs/foods/peanuts.md#nutrition_per_100g/vitamin_e_mg|
-|BRS3-FM2-PM5|vitamin-e|thyme|5|21.26812624395792|7.48 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/vitamin_e_mg|
-|BRS3-FM2-PM5|vitamin-e|spirulina|6|14.216661927779356|5 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/vitamin_e_mg|
-|BRS3-FM2-PM5|vitamin-e|turmeric|7|12.595962468012509|4.43 mg per 100 g edible portion||docs/foods/turmeric.md#nutrition_per_100g/vitamin_e_mg|
-|BRS3-FM2-PM5|vitamin-e|salmon|8|10.093829968723343|3.55 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/vitamin_e_mg|
-|BRS3-FM2-PM6|selenium|kidney|1|100|141 µg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM6|selenium|wheat-germ|2|56.17021276595745|79.2 µg per 100 g edible portion||docs/foods/wheat-germ.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM6|selenium|wheat|3|50.1418439716312|70.7 µg per 100 g edible portion||docs/foods/wheat.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM6|selenium|anchovies|4|48.29787234042552|68.1 µg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM6|selenium|crab|5|42.574468085106375|60.03 µg per 100 g edible portion|frozen|docs/foods/crab.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM6|selenium|egg-yolks|6|39.716312056737586|56 µg per 100 g edible portion|raw|docs/foods/egg-yolks.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM6|selenium|chia-seeds|7|39.148936170212764|55.2 µg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM6|selenium|chicken-liver|8|38.72340425531915|54.6 µg per 100 g edible portion|raw|docs/foods/chicken-liver.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM6|selenium|sunflower-seeds|9|37.588652482269495|53 µg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/selenium_ug|
-|BRS3-FM2-PM6|selenium|sardines|10|37.3758865248227|52.7 µg per 100 g edible portion|canned|docs/foods/sardines.md#nutrition_per_100g/selenium_ug|
+|BRS3-FM2-PM5|vitamin-e|cloves|4|25.07819164060279|8.82 mg per 100 g edible portion||docs/foods/cloves.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM5|vitamin-e|peanuts|5|23.68495877168041|8.33 mg per 100 g edible portion|raw|docs/foods/peanuts.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM5|vitamin-e|thyme|6|21.26812624395792|7.48 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM5|vitamin-e|brazil-nuts|7|16.064827978390674|5.65 mg per 100 g edible portion|dried|docs/foods/brazil-nuts.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM5|vitamin-e|spirulina|8|14.216661927779356|5 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM5|vitamin-e|turmeric|9|12.595962468012509|4.43 mg per 100 g edible portion||docs/foods/turmeric.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM5|vitamin-e|salmon|10|10.093829968723343|3.55 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM6|selenium|brazil-nuts|1|100|1917 µg per 100 g edible portion|dried|docs/foods/brazil-nuts.md#nutrition_per_100g/selenium_ug|
 |BRS3-FM2-PM6|vitamin-b2|spirulina|1|100|3.67 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/vitamin_b2_mg|
 |BRS3-FM2-PM6|vitamin-b2|kidney|2|77.3841961852861|2.84 mg per 100 g edible portion|raw|docs/foods/kidney.md#nutrition_per_100g/vitamin_b2_mg|
 |BRS3-FM2-PM6|vitamin-b2|liver|3|75.06811989100818|2.755 mg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_b2_mg|
@@ -821,11 +791,13 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS3-FM2-PM6|vitamin-e|sunflower-seeds|1|100|35.17 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/vitamin_e_mg|
 |BRS3-FM2-PM6|vitamin-e|almonds|2|72.87460904179697|25.63 mg per 100 g edible portion||docs/foods/almonds.md#nutrition_per_100g/vitamin_e_mg|
 |BRS3-FM2-PM6|vitamin-e|salmon-roe|3|25.874324708558426|9.1 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
-|BRS3-FM2-PM6|vitamin-e|peanuts|4|23.68495877168041|8.33 mg per 100 g edible portion|raw|docs/foods/peanuts.md#nutrition_per_100g/vitamin_e_mg|
-|BRS3-FM2-PM6|vitamin-e|thyme|5|21.26812624395792|7.48 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/vitamin_e_mg|
-|BRS3-FM2-PM6|vitamin-e|spirulina|6|14.216661927779356|5 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/vitamin_e_mg|
-|BRS3-FM2-PM6|vitamin-e|turmeric|7|12.595962468012509|4.43 mg per 100 g edible portion||docs/foods/turmeric.md#nutrition_per_100g/vitamin_e_mg|
-|BRS3-FM2-PM6|vitamin-e|salmon|8|10.093829968723343|3.55 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM6|vitamin-e|cloves|4|25.07819164060279|8.82 mg per 100 g edible portion||docs/foods/cloves.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM6|vitamin-e|peanuts|5|23.68495877168041|8.33 mg per 100 g edible portion|raw|docs/foods/peanuts.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM6|vitamin-e|thyme|6|21.26812624395792|7.48 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM6|vitamin-e|brazil-nuts|7|16.064827978390674|5.65 mg per 100 g edible portion|dried|docs/foods/brazil-nuts.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM6|vitamin-e|spirulina|8|14.216661927779356|5 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM6|vitamin-e|turmeric|9|12.595962468012509|4.43 mg per 100 g edible portion||docs/foods/turmeric.md#nutrition_per_100g/vitamin_e_mg|
+|BRS3-FM2-PM6|vitamin-e|salmon|10|10.093829968723343|3.55 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/vitamin_e_mg|
 |BRS3-FM3-PM7|dha-docosahexaenoic-acid|salmon-roe|1|100|2000 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
 |BRS3-FM3-PM7|dha-docosahexaenoic-acid|mackerel|2|70.05|1401 mg per 100 g edible portion|raw|docs/foods/mackerel.md#nutrition_per_100g/dha_mg|
 |BRS3-FM3-PM7|dha-docosahexaenoic-acid|anchovies|3|64.60000000000001|1292 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/dha_mg|
@@ -898,8 +870,8 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS4-FM1-PM1|copper|cashews|6|22.501281394156837|2.195 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/copper_mg|
 |BRS4-FM1-PM1|copper|sunflower-seeds|7|18.452075858534084|1.8 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/copper_mg|
 |BRS4-FM1-PM1|copper|dark-chocolate|8|18.103536647872883|1.766 mg per 100 g edible portion||docs/foods/dark-chocolate.md#nutrition_per_100g/copper_mg|
-|BRS4-FM1-PM1|copper|soy|9|16.99641209636084|1.658 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/copper_mg|
-|BRS4-FM1-PM1|copper|tahini|10|16.504356740133264|1.61 mg per 100 g edible portion|roasted|docs/foods/tahini.md#nutrition_per_100g/copper_mg|
+|BRS4-FM1-PM1|copper|brazil-nuts|9|17.86776012301384|1.743 mg per 100 g edible portion|dried|docs/foods/brazil-nuts.md#nutrition_per_100g/copper_mg|
+|BRS4-FM1-PM1|copper|soy|10|16.99641209636084|1.658 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/copper_mg|
 |BRS4-FM1-PM1|iron|thyme|1|100|123.6 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/iron_mg|
 |BRS4-FM1-PM1|iron|turmeric|2|44.49838187702266|55 mg per 100 g edible portion||docs/foods/turmeric.md#nutrition_per_100g/iron_mg|
 |BRS4-FM1-PM1|iron|oregano|3|29.773462783171524|36.8 mg per 100 g edible portion|dried|docs/foods/oregano.md#nutrition_per_100g/iron_mg|
@@ -947,24 +919,21 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS4-FM1-PM3|methionine|mussels|8|49.447513812154696|0.537 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/174217/nutrients|
 |BRS4-FM1-PM3|methionine|sunflower-seeds|9|45.48802946593002|0.494 g per 100 g edible portion|dried|https://fdc.nal.usda.gov/food-details/170562/nutrients|
 |BRS4-FM1-PM3|methionine|beef|10|44.01473296500921|0.478 g per 100 g edible portion|cooked|https://fdc.nal.usda.gov/food-details/174032/nutrients|
-|BRS4-FM2-PM5|manganese|turmeric|1|100|19.8 mg per 100 g edible portion||docs/foods/turmeric.md#nutrition_per_100g/manganese_mg|
-|BRS4-FM2-PM5|manganese|cinnamon|2|88.21212121212122|17.466 mg per 100 g edible portion||docs/foods/cinnamon.md#nutrition_per_100g/manganese_mg|
-|BRS4-FM2-PM5|manganese|wheat-germ|3|67.17676767676768|13.301 mg per 100 g edible portion||docs/foods/wheat-germ.md#nutrition_per_100g/manganese_mg|
-|BRS4-FM2-PM5|manganese|thyme|4|39.73232323232323|7.867 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/manganese_mg|
-|BRS4-FM2-PM5|manganese|oats|5|24.82828282828283|4.916 mg per 100 g edible portion||docs/foods/oats.md#nutrition_per_100g/manganese_mg|
-|BRS4-FM2-PM5|manganese|pumpkin-seeds|6|22.944444444444446|4.543 mg per 100 g edible portion|dried|docs/foods/pumpkin-seeds.md#nutrition_per_100g/manganese_mg|
-|BRS4-FM2-PM5|manganese|chickpeas|7|20.959595959595962|4.15 mg per 100 g edible portion|raw|docs/foods/chickpeas.md#nutrition_per_100g/manganese_mg|
-|BRS4-FM2-PM5|manganese|wheat|8|20.126262626262626|3.985 mg per 100 g edible portion||docs/foods/wheat.md#nutrition_per_100g/manganese_mg|
-|BRS4-FM2-PM5|manganese|cocoa|9|19.37878787878788|3.837 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/manganese_mg|
-|BRS4-FM2-PM5|manganese|walnuts|10|17.242424242424242|3.414 mg per 100 g edible portion||docs/foods/walnuts.md#nutrition_per_100g/manganese_mg|
+|BRS4-FM2-PM5|manganese|cloves|1|100|60.13 mg per 100 g edible portion||docs/foods/cloves.md#nutrition_per_100g/manganese_mg|
+|BRS4-FM2-PM5|manganese|turmeric|2|32.928654581739565|19.8 mg per 100 g edible portion||docs/foods/turmeric.md#nutrition_per_100g/manganese_mg|
+|BRS4-FM2-PM5|manganese|cinnamon|3|29.04706469316481|17.466 mg per 100 g edible portion||docs/foods/cinnamon.md#nutrition_per_100g/manganese_mg|
+|BRS4-FM2-PM5|manganese|wheat-germ|4|22.120405787460502|13.301 mg per 100 g edible portion||docs/foods/wheat-germ.md#nutrition_per_100g/manganese_mg|
+|BRS4-FM2-PM5|manganese|thyme|5|13.083319474471978|7.867 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/manganese_mg|
 |BRS4-FM2-PM5|vitamin-e|sunflower-seeds|1|100|35.17 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/vitamin_e_mg|
 |BRS4-FM2-PM5|vitamin-e|almonds|2|72.87460904179697|25.63 mg per 100 g edible portion||docs/foods/almonds.md#nutrition_per_100g/vitamin_e_mg|
 |BRS4-FM2-PM5|vitamin-e|salmon-roe|3|25.874324708558426|9.1 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
-|BRS4-FM2-PM5|vitamin-e|peanuts|4|23.68495877168041|8.33 mg per 100 g edible portion|raw|docs/foods/peanuts.md#nutrition_per_100g/vitamin_e_mg|
-|BRS4-FM2-PM5|vitamin-e|thyme|5|21.26812624395792|7.48 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/vitamin_e_mg|
-|BRS4-FM2-PM5|vitamin-e|spirulina|6|14.216661927779356|5 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/vitamin_e_mg|
-|BRS4-FM2-PM5|vitamin-e|turmeric|7|12.595962468012509|4.43 mg per 100 g edible portion||docs/foods/turmeric.md#nutrition_per_100g/vitamin_e_mg|
-|BRS4-FM2-PM5|vitamin-e|salmon|8|10.093829968723343|3.55 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/vitamin_e_mg|
+|BRS4-FM2-PM5|vitamin-e|cloves|4|25.07819164060279|8.82 mg per 100 g edible portion||docs/foods/cloves.md#nutrition_per_100g/vitamin_e_mg|
+|BRS4-FM2-PM5|vitamin-e|peanuts|5|23.68495877168041|8.33 mg per 100 g edible portion|raw|docs/foods/peanuts.md#nutrition_per_100g/vitamin_e_mg|
+|BRS4-FM2-PM5|vitamin-e|thyme|6|21.26812624395792|7.48 mg per 100 g edible portion|dried|docs/foods/thyme.md#nutrition_per_100g/vitamin_e_mg|
+|BRS4-FM2-PM5|vitamin-e|brazil-nuts|7|16.064827978390674|5.65 mg per 100 g edible portion|dried|docs/foods/brazil-nuts.md#nutrition_per_100g/vitamin_e_mg|
+|BRS4-FM2-PM5|vitamin-e|spirulina|8|14.216661927779356|5 mg per 100 g edible portion|dried|docs/foods/spirulina.md#nutrition_per_100g/vitamin_e_mg|
+|BRS4-FM2-PM5|vitamin-e|turmeric|9|12.595962468012509|4.43 mg per 100 g edible portion||docs/foods/turmeric.md#nutrition_per_100g/vitamin_e_mg|
+|BRS4-FM2-PM5|vitamin-e|salmon|10|10.093829968723343|3.55 mg per 100 g edible portion|raw|docs/foods/salmon.md#nutrition_per_100g/vitamin_e_mg|
 |BRS5-FM1-PM1|vitamin-a|liver|1|100|4968 µg per 100 g edible portion|raw|docs/foods/liver.md#nutrition_per_100g/vitamin_a_rae_ug|
 |BRS5-FM1-PM1|vitamin-a|chicken-liver|2|66.34460547504027|3296 µg per 100 g edible portion|raw|docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_a_rae_ug|
 |BRS5-FM1-PM1|vitamin-a|ghee|3|16.908212560386474|840 µg per 100 g edible portion|oil|docs/foods/ghee.md#nutrition_per_100g/vitamin_a_rae_ug|
@@ -1007,12 +976,12 @@ Provisional source power ≥10%; up to ten; no padding. Original quantities, sta
 |BRS6-FM1-PM3|magnesium|cocoa|2|84.29054054054053|499 mg per 100 g edible portion|dry powder|docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg|
 |BRS6-FM1-PM3|magnesium|sage|3|72.2972972972973|428 mg per 100 g edible portion||docs/foods/sage.md#nutrition_per_100g/magnesium_mg|
 |BRS6-FM1-PM3|magnesium|flax-seeds|4|66.21621621621621|392 mg per 100 g edible portion||docs/foods/flax-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS6-FM1-PM3|magnesium|sesame-seeds|5|59.29054054054054|351 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS6-FM1-PM3|magnesium|chia-seeds|6|56.58783783783784|335 mg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS6-FM1-PM3|magnesium|sunflower-seeds|7|54.89864864864865|325 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg|
-|BRS6-FM1-PM3|magnesium|cashews|8|49.32432432432432|292 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/magnesium_mg|
-|BRS6-FM1-PM3|magnesium|soy|9|47.2972972972973|280 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/magnesium_mg|
-|BRS6-FM1-PM3|magnesium|almonds|10|45.608108108108105|270 mg per 100 g edible portion||docs/foods/almonds.md#nutrition_per_100g/magnesium_mg|
+|BRS6-FM1-PM3|magnesium|brazil-nuts|5|63.51351351351351|376 mg per 100 g edible portion|dried|docs/foods/brazil-nuts.md#nutrition_per_100g/magnesium_mg|
+|BRS6-FM1-PM3|magnesium|sesame-seeds|6|59.29054054054054|351 mg per 100 g edible portion|dried|docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS6-FM1-PM3|magnesium|chia-seeds|7|56.58783783783784|335 mg per 100 g edible portion|dried|docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS6-FM1-PM3|magnesium|sunflower-seeds|8|54.89864864864865|325 mg per 100 g edible portion|dried|docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg|
+|BRS6-FM1-PM3|magnesium|cashews|9|49.32432432432432|292 mg per 100 g edible portion|raw|docs/foods/cashews.md#nutrition_per_100g/magnesium_mg|
+|BRS6-FM1-PM3|magnesium|soy|10|47.2972972972973|280 mg per 100 g edible portion|raw|docs/foods/soy.md#nutrition_per_100g/magnesium_mg|
 |BRS6-FM4-PM8|dha-docosahexaenoic-acid|salmon-roe|1|100|2000 mg per 100 g edible portion|salted|https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7|
 |BRS6-FM4-PM8|dha-docosahexaenoic-acid|mackerel|2|70.05|1401 mg per 100 g edible portion|raw|docs/foods/mackerel.md#nutrition_per_100g/dha_mg|
 |BRS6-FM4-PM8|dha-docosahexaenoic-acid|anchovies|3|64.60000000000001|1292 mg per 100 g edible portion|canned|docs/foods/anchovies.md#nutrition_per_100g/dha_mg|

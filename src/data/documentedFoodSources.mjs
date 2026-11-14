@@ -90,9 +90,13 @@ export function documentedSourcesForRelationships(data, pm, relationships, ranke
  }
  return [...selected.values()].sort((a,b)=>a.food_title.localeCompare(b.food_title)||a.id.localeCompare(b.id));
 }
-/** Canonical food identity only: analytical prose may mention eggs in a plant food. */
+/** Exact food ids. A word search misfiles kidney beans, oyster mushroom and turkey tail as animal, and misses herring, heart, ghee and lumpfish roe. Material text is ignored. */
+const ANIMAL_FOOD_IDS = new Set([
+ 'anchovies','beef','butter','cheddar-cheese','chicken','chicken-liver','clams','cockles','cod','crab',
+ 'dark-meat-poultry','duck-fat','egg-yolks','eggs','ghee','grass-fed-butter','greek-yogurt','heart','herring',
+ 'kefir','kidney','lamb','liver','lumpfish-roe','mackerel','milk','mussels','oysters','parmesan-cheese',
+ 'pork','salmon','salmon-roe','sardines','scallops','shrimp','trout-roe','tuna','turkey','whey-protein',
+]);
 export function isCanonicalAnimalSource(source) {
- if (source.food_group) return source.food_group === 'animal';
- const identity = String(source.food_id || '').toLowerCase().replace(/-/g,' ');
- return /\b(anchovies|beef|butter|cheese|chicken|clams?|cockles?|cod|crab|duck|eggs?|fish|lamb|liver|kidney|mackerel|meat|milk|mussels?|oysters?|pork|poultry|salmon|sardines?|scallops?|seafood|shellfish|shrimp|trout|tuna|turkey|whey|yolks?|yogurt|kefir)\b/.test(identity);
+ return ANIMAL_FOOD_IDS.has(String(source.food_id || source.food || '').toLowerCase());
 }

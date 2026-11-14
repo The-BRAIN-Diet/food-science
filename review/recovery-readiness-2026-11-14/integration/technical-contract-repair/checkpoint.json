@@ -1,0 +1,25 @@
+{
+  "recovery_checkpoint_sha": "5c5b7592dad52a8dd436817fcb72da20ce32ba6b",
+  "parent": "c7cc6c593e93fd2c97893dca46737769019b47d8",
+  "branch": "recovery/20261114-release-actions",
+  "pr": 244,
+  "current_tests": "26/26",
+  "global_findings": "67 checked; 0 issues",
+  "ranked_counts": {
+    "connections": 984,
+    "foods": 79,
+    "covered_targets": 112,
+    "targets": 158
+  },
+  "qc_suspended": true,
+  "global_qc_pass": false,
+  "scientific_freeze": false,
+  "release_ready": false,
+  "runtime_output_changed": false,
+  "netlify_rebuild_required": false,
+  "remaining_limitations": [
+    "Historical pilot assertion intentionally fails against current candidate",
+    "Public QC expectation unresolved; archived inputs inactive",
+    "Four related Findings fixtures fail identically with baseline renderer"
+  ]
+}

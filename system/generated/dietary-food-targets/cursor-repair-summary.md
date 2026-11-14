@@ -18,6 +18,7 @@ Outstanding food-edge, material-equivalence, identity and conversion tasks. Mate
 | Spinach | 5-methyltetrahydrofolate | unspecified | BRS2-FM1-PM1 | pending-independent-verification |
 | Nori | vitamin-b9 | dried | BRS2-FM1-PM1, BRS2-FM1-PM4 | requires-material-equivalence-review |
 | Amaranth | betaine | uncooked (NDB crosswalk; not stated in the 2008 table) | BRS2-FM1-PM2 | pending-independent-verification |
+| Chicken Liver | betaine | pan-fried | BRS2-FM1-PM2 | pending-independent-verification |
 | Quinoa | betaine | uncooked (NDB crosswalk; not stated in the 2008 table) | BRS2-FM1-PM2 | requires-material-equivalence-review |
 | Shrimp | betaine | canned | BRS2-FM1-PM2 | pending-independent-verification |
 | Spinach | betaine | frozen, unprepared | BRS2-FM1-PM2 | requires-material-equivalence-review |

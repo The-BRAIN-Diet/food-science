@@ -14,6 +14,7 @@ import {
   REFERENCE_DATA_LEVELS,
 } from "./reference-data-levels.mjs";
 import path from "node:path";
+import fs from "node:fs";
 import { fileURLToPath } from "node:url";
 import { renderHubCollapsible } from "./hub-collapsible.mjs";
 import {
@@ -607,6 +608,19 @@ export function renderSmPhenPhenomeSectionBody(data, { sectionNum = 2 } = {}) {
   return lines.join("\n").trimEnd();
 }
 
+// Existing ECS PM3 projection links genistein; this is navigation, not an admission.
+// Keep the annotation scoped to that PM/phenome and resolve its URL canonically.
+function preserveApprovedSubstanceNavigation(text, rel, findingData) {
+  if (findingData?.pm_id !== "BRS-X(ECS-PM3)" || rel.target_phenome !== "Stress Resilience") return text;
+  const pages = JSON.parse(fs.readFileSync(new URL("../../src/data/substance-input-pages.json", import.meta.url), "utf8"));
+  const href = pages.genistein;
+  if (!href) throw new Error("Missing canonical substance page: genistein (ECS PM3 phenome projection)");
+  const link = `[genistein](${href})`;
+  if (text.includes(link)) return text;
+  // Exact existing phrase, not arbitrary markup stripping or claim rewriting.
+  return text.replace("such as genistein represent", `such as ${link} represent`);
+}
+
 export function renderPmPhenomeSectionBody(relationships = [], { sectionNum = 7, findingData = null } = {}) {
   const lines = [`## ${sectionNum}. ${PM_PHENOME_SECTION_TITLE}`, "", PHENOME_DISCLAIMER, "", PHENOME_SCORING_KEY_MARKUP];
   if (!relationships.length) {
@@ -628,7 +642,7 @@ export function renderPmPhenomeSectionBody(relationships = [], { sectionNum = 7,
       : String(rel.rationale || "").trim();
     const panelLines = [
       ...renderRelationshipRatingLines(rel, rel.references || []),
-      `- **Rationale:** ${rationaleText}`,
+      `- **Rationale:** ${preserveApprovedSubstanceNavigation(rationaleText, rel, findingData)}`,
     ];
     if (usesFindings) {
       const primaryBlock = renderRelationshipPrimaryFindings(rel, findingData);

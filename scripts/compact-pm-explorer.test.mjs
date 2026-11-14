@@ -2,7 +2,7 @@ import fs from 'node:fs';import test from 'node:test';import assert from 'node:a
 const html=fs.readFileSync('static/explore/food-wheel/index.html','utf8'),data=JSON.parse(html.split('<script>const DATA=')[1].split(';const $=')[0]),ledger=JSON.parse(fs.readFileSync('static/explore/food-wheel/evidence-ledger.json')),m=buildPilot(data,ledger);
 test('network retains eight BRS5 PMs and all five qualified experimental relationships',()=>{assert.equal(m.pms.filter(p=>p.group==='BRS5').length,8);assert.equal(m.relationships.filter(r=>r.child).length,5);assert(m.relationships.every(r=>m.pms.some(p=>p.id===r.pm)));});
 test('ranked observations are preserved without new selection',()=>{const original=data.canonicalNetworks.topFive.selections;assert.equal(m.foods.filter(f=>f.layer==='Ranked').length,original.length);for(const f of m.foods.filter(f=>f.layer==='Ranked'))assert.deepEqual(f.ranking_observation,original.find(e=>e.edge_id===f.edge_id).ranking_observation);});
-test('unranked records retain provenance; children inherit no food edges',()=>{assert.equal(m.foods.filter(f=>f.layer!=='Ranked').length,ledger.parents.length);assert(m.foods.every(f=>!ledger.children.some(c=>c.substance_id===f.substance)));assert(m.foods.some(f=>f.food==='apples'&&f.substance==='pectin'&&f.pm==='BRS5-FM1-PM1'));assert(!m.foods.some(f=>f.substance==='pectin'&&f.pm==='BRS5-FM2-PM4'));});
+test('unranked records retain provenance; children inherit no food edges',()=>{assert.equal(m.foods.filter(f=>f.layer!=='Ranked').length,ledger.parents.length);assert(m.foods.every(f=>!ledger.children.some(c=>c.substance_id===f.substance)));assert(m.foods.some(f=>f.food==='apples'&&f.substance==='pectin'&&f.pm==='BRS5-FM1-PM1'));assert.deepEqual(m.foods.filter(f=>f.substance==='pectin'&&f.pm==='BRS5-FM2-PM4').map(f=>f.food).sort(),['lemon','oranges']);});
 test('PM4 uses PM dropdown sources: asparagus/inulin and peas/arabinan; restrictions remain',()=>{const sources=JSON.parse(fs.readFileSync('static/explore/pm-explorer/pm-sources.json'));const pilot=buildPilot(data,ledger,sources),pm='BRS5-FM2-PM4',foods=pilot.foods.filter(f=>f.pm===pm);assert(foods.some(f=>f.food==='asparagus'&&f.substance==='inulin'&&f.observations[0].value===1.3&&f.observations[0].basis==='per 100 g dry matter'));assert(foods.some(f=>f.food==='peas'&&f.substance==='arabinan'));assert(!foods.some(f=>f.substance==='pectin'&&f.food==='apples'));assert(pilot.foods.every(f=>!ledger.children.some(c=>c.substance_id===f.substance)));});
 
 test('all nine systems expose the 67 current canonical PMs without altering BRS5 foods',()=>{
@@ -39,4 +39,10 @@ test('lamb creatine is grouped as animal in the shared helper and Explorer',asyn
  const sources=JSON.parse(fs.readFileSync('static/explore/pm-explorer/pm-sources.json'));
  const rows=sources.foods.filter(f=>f.food==='lamb'&&f.pm==='BRS4-FM1-PM3'&&f.substance==='creatine');
  assert(rows.length>0);assert(rows.every(f=>f.food_group==='animal'));
+ for(const id of ['herring','heart','ghee','lumpfish-roe'])assert(sources.foods.filter(f=>f.food===id).every(f=>f.food_group==='animal'),id);
+ for(const id of ['kidney-beans'])assert(sources.foods.filter(f=>f.food===id).every(f=>f.food_group==='plant'),id);
+ assert(sources.foods.filter(f=>f.pm==='BRS2-FM1-PM1'&&f.substance==='vitamin-b12'&&f.food==='herring').every(f=>f.food_group==='animal'));
+ assert(sources.foods.filter(f=>f.pm==='BRS2-FM1-PM1'&&f.substance==='vitamin-b2'&&f.food==='heart').every(f=>f.food_group==='animal'));
 });
+
+test('canonical documentation links stay on the current preview or production origin',()=>{const source=fs.readFileSync('static/explore/pm-explorer/app.mjs','utf8');assert.doesNotMatch(source,/http:\/\/127\.0\.0\.1:3181|https:\/\/thebraindiet\.org/);assert.match(source,/href="\/docs\/foods\//);});

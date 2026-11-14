@@ -1,0 +1,25 @@
+
+> temp-docusaurus@0.0.0 prebuild
+> npm run presentation:check && node scripts/check-dietary-input-governance.mjs && node scripts/check-sec-assessments.mjs && node scripts/generate-all-input-mappings.mjs && npm run qc:generate
+
+
+> temp-docusaurus@0.0.0 presentation:check
+> node scripts/check-presentation-contract.mjs
+
+Presentation gate is off by owner instruction, 12 November 2026. Dietary governance and SEC checks still run.
+{
+  "checked": 67,
+  "issues": []
+}
+file:///private/tmp/brain-startup-verification-20261114/scripts/check-sec-assessments.mjs:8
+if(registry.assessments?.length && !requestedBaseline)throw new Error('SEC_BASE_REF or an explicit published base ref is required to protect nonempty SEC history');
+                                                            ^
+
+Error: SEC_BASE_REF or an explicit published base ref is required to protect nonempty SEC history
+    at file:///private/tmp/brain-startup-verification-20261114/scripts/check-sec-assessments.mjs:8:61
+    at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+    at async loadESM (node:internal/process/esm_loader:28:7)
+    at async handleMainPromise (node:internal/modules/run_main:113:12)
+
+Node.js v20.11.0

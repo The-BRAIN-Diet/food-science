@@ -1,0 +1,100 @@
+[
+  {
+    "branch": "recovery/20261114-rapid-stage2ab",
+    "recorded_sha": "eb67615caf314c4d537c1bc2add69c02ff776fd7",
+    "current_remote_sha": "eb67615caf314c4d537c1bc2add69c02ff776fd7",
+    "preserved": true,
+    "recorded_state_is_ancestor_of_remote": true
+  },
+  {
+    "branch": "recovery/20261114-combined-local",
+    "recorded_sha": "c9730cc2d0b9a7ca8f518c05bfc410e7cfe4194d",
+    "current_remote_sha": "f3e7240c375045c0e8c1014f118f818fc1118e4f",
+    "preserved": true,
+    "recorded_state_is_ancestor_of_remote": true
+  },
+  {
+    "branch": "recovery/20261114-brain-diet-v1-quantitative",
+    "recorded_sha": "95ea448716a9da82e6b425423935c90121753274",
+    "current_remote_sha": "95ea448716a9da82e6b425423935c90121753274",
+    "preserved": true,
+    "recorded_state_is_ancestor_of_remote": true
+  },
+  {
+    "branch": "recovery/20261114-brs4-pm4-pm5-reassessment",
+    "recorded_sha": "ec7c3e7a3bb591e4d27313797cd705a50851143b",
+    "current_remote_sha": "ec7c3e7a3bb591e4d27313797cd705a50851143b",
+    "preserved": true,
+    "recorded_state_is_ancestor_of_remote": true
+  },
+  {
+    "branch": "recovery/20261114-brs5-kc2-focused-reassessment",
+    "recorded_sha": "37ab37ab3d5c273d82422648462d58859c83b2da",
+    "current_remote_sha": "37ab37ab3d5c273d82422648462d58859c83b2da",
+    "preserved": true,
+    "recorded_state_is_ancestor_of_remote": true
+  },
+  {
+    "branch": "recovery/20261114-deferred-stage2ab",
+    "recorded_sha": "bbee350b2d17f48f11b65f3dc1c5ef74cb1020d1",
+    "current_remote_sha": "bbee350b2d17f48f11b65f3dc1c5ef74cb1020d1",
+    "preserved": true,
+    "recorded_state_is_ancestor_of_remote": true
+  },
+  {
+    "branch": "recovery/20261114-food-wheel-publication",
+    "recorded_sha": "0ba9e424f01282b4c548bb8e306e6832312f2073",
+    "current_remote_sha": "0ba9e424f01282b4c548bb8e306e6832312f2073",
+    "preserved": true,
+    "recorded_state_is_ancestor_of_remote": true
+  },
+  {
+    "branch": "recovery/20261114-food-wheel-top-ten",
+    "recorded_sha": "f4d0704eb3b24892d0dc6d84399984db018e7211",
+    "current_remote_sha": "f4d0704eb3b24892d0dc6d84399984db018e7211",
+    "preserved": true,
+    "recorded_state_is_ancestor_of_remote": true
+  },
+  {
+    "branch": "recovery/20261114-food-wheel-top-ten-amino",
+    "recorded_sha": "cb03e4498bb5742ba5f3f6d37b878011b942b1a0",
+    "current_remote_sha": "cb03e4498bb5742ba5f3f6d37b878011b942b1a0",
+    "preserved": true,
+    "recorded_state_is_ancestor_of_remote": true
+  },
+  {
+    "branch": "recovery/20261114-recipe-matrix-preview",
+    "recorded_sha": "079d484bb017ff70359c288cab423900cf71eb93",
+    "current_remote_sha": "079d484bb017ff70359c288cab423900cf71eb93",
+    "preserved": true,
+    "recorded_state_is_ancestor_of_remote": true
+  },
+  {
+    "branch": "recovery/20261114-release-reviewed-framework",
+    "recorded_sha": "d29526e063630016a42d864ce138444ab53dc2ac",
+    "current_remote_sha": "d29526e063630016a42d864ce138444ab53dc2ac",
+    "preserved": true,
+    "recorded_state_is_ancestor_of_remote": true
+  },
+  {
+    "branch": "recovery/20261114-food-science",
+    "recorded_sha": "6a79296bfd94d9b128b15d1a81265095345cd2b9",
+    "current_remote_sha": "6a79296bfd94d9b128b15d1a81265095345cd2b9",
+    "preserved": true,
+    "recorded_state_is_ancestor_of_remote": true
+  },
+  {
+    "branch": "recovery/20261114-brs5-scfa-controlled-test",
+    "recorded_sha": "1f217713b37f4e76b9349892afa72e7d5da1c3f0",
+    "current_remote_sha": "1f217713b37f4e76b9349892afa72e7d5da1c3f0",
+    "preserved": true,
+    "recorded_state_is_ancestor_of_remote": true
+  },
+  {
+    "branch": "recovery/20261114-wheel-renderer-repair",
+    "recorded_sha": "bbac659eba841c72c008d662708588c6716791f8",
+    "current_remote_sha": "bbac659eba841c72c008d662708588c6716791f8",
+    "preserved": true,
+    "recorded_state_is_ancestor_of_remote": true
+  }
+]

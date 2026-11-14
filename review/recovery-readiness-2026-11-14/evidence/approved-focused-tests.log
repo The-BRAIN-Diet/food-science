@@ -1,0 +1,115 @@
+TAP version 13
+# Subtest: author-approved food records and snapshot use the same exact hashes
+ok 1 - author-approved food records and snapshot use the same exact hashes
+  ---
+  duration_ms: 1.599292
+  ...
+# Subtest: approved Brazil nuts, cloves and chicken liver compete without forced selection
+ok 2 - approved Brazil nuts, cloves and chicken liver compete without forced selection
+  ---
+  duration_ms: 1.899875
+  ...
+# Subtest: chicken liver raw panel and pan-fried betaine remain separate; below-threshold betaine is not ranked
+ok 3 - chicken liver raw panel and pan-fried betaine remain separate; below-threshold betaine is not ranked
+  ---
+  duration_ms: 7.36225
+  ...
+# Subtest: ranked Brazil-nut selenium has no contradictory unranked fallback
+ok 4 - ranked Brazil-nut selenium has no contradictory unranked fallback
+  ---
+  duration_ms: 64.2035
+  ...
+# Subtest: combined renderer names both missing identities instead of undefined.category
+ok 5 - combined renderer names both missing identities instead of undefined.category
+  ---
+  duration_ms: 1.715333
+  ...
+# Subtest: ranked view excludes explicitly unranked layout-only nodes without changing data or ranks
+ok 6 - ranked view excludes explicitly unranked layout-only nodes without changing data or ranks
+  ---
+  duration_ms: 0.4245
+  ...
+# Subtest: combined view preserves existing composition nodes, no ranking inference
+ok 7 - combined view preserves existing composition nodes, no ranking inference
+  ---
+  duration_ms: 0.310875
+  ...
+# Subtest: an unmarked missing ID is never silently omitted from ranked view
+ok 8 - an unmarked missing ID is never silently omitted from ranked view
+  ---
+  duration_ms: 0.113041
+  ...
+# Subtest: existing food or ranked links prevent dropping missing identity
+ok 9 - existing food or ranked links prevent dropping missing identity
+  ---
+  duration_ms: 0.127791
+  ...
+# Subtest: missing category is named and never invented
+ok 10 - missing category is named and never invented
+  ---
+  duration_ms: 0.100625
+  ...
+# Subtest: missing layout position for an actual food connection is named
+ok 11 - missing layout position for an actual food connection is named
+  ---
+  duration_ms: 0.116459
+  ...
+# Subtest: actual ranked and combined datasets render without mutating their scientific selections
+ok 12 - actual ranked and combined datasets render without mutating their scientific selections
+  ---
+  duration_ms: 235.077166
+  ...
+# Subtest: PE clinical claim matches posted results without erasing precursor biology
+ok 13 - PE clinical claim matches posted results without erasing precursor biology
+  ---
+  duration_ms: 2.202958
+  ...
+# Subtest: unlisted source cannot enter published ranking, and input evidence is untouched
+ok 14 - unlisted source cannot enter published ranking, and input evidence is untouched
+  ---
+  duration_ms: 1.454209
+  ...
+# Subtest: deduplicate diagnostics; no implicit approval through aliases or missing identity
+ok 15 - deduplicate diagnostics; no implicit approval through aliases or missing identity
+  ---
+  duration_ms: 10.237708
+  ...
+# Subtest: minimum two refers to independent comparable pool, not surviving selection
+ok 16 - minimum two refers to independent comparable pool, not surviving selection
+  ---
+  duration_ms: 0.985917
+  ...
+# Subtest: all viewer ranks and observations equal the canonical snapshot
+ok 17 - all viewer ranks and observations equal the canonical snapshot
+  ---
+  duration_ms: 1.501875
+  ...
+# Subtest: stale combined data cannot bypass publication filtering
+ok 18 - stale combined data cannot bypass publication filtering
+  ---
+  duration_ms: 2.578333
+  ...
+# Subtest: changed power is detected even when edge counts match
+ok 19 - changed power is detected even when edge counts match
+  ---
+  duration_ms: 1.4355
+  ...
+# Subtest: preview startup skips ranked writers but retains ordinary mapping steps
+ok 20 - preview startup skips ranked writers but retains ordinary mapping steps
+  ---
+  duration_ms: 1.868458
+  ...
+# Subtest: production generation retains both ranked writers and prebuild checks
+ok 21 - production generation retains both ranked writers and prebuild checks
+  ---
+  duration_ms: 0.876208
+  ...
+1..21
+# tests 21
+# suites 0
+# pass 21
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 473.026583

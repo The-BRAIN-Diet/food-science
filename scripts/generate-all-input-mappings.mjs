@@ -12,6 +12,8 @@ if(targets.status!==0)process.exit(targets.status||1);
 const pathways=spawnSync(process.execPath,["scripts/generate-dietary-pathways.mjs"],{stdio:"inherit"});
 if(pathways.status!==0)process.exit(pathways.status||1);
 
-for (const script of ['scripts/generate-ranked-food-sources.mjs','scripts/build-food-wheel-top-ten.mjs']) {
+// Local startup keeps the existing ranked snapshot and Food Wheel; regenerate them deliberately.
+if(process.argv.includes('--skip-ranked-food-wheel'))process.exit(0);
+for (const script of ['scripts/generate-ranked-food-sources.mjs','scripts/build-food-wheel-top-ten.mjs','scripts/build-pm-explorer-sources.mjs','scripts/build-food-wheel-unranked.mjs','scripts/build-food-intelligence.mjs','scripts/validate-ranked-viewer-sync.mjs']) {
  const r=spawnSync(process.execPath,[script],{stdio:'inherit'});if(r.status!==0)process.exit(r.status||1);
 }

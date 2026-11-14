@@ -1372,6 +1372,28 @@
     "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
   },
   {
+    "pm": "BRS-X(ECS-PM3)",
+    "id": "BRS-X(ECS-PM3)::PM3-DIT-2",
+    "input": "Genistein",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "versioned-assessment",
+    "issues": [
+      "dietary-input-not-admitted",
+      "mechanism_engagement-unresolved",
+      "dietary_exposure-unresolved"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "composition-context"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
     "pm": "BRS-X(Hormones-PM5)",
     "id": "BRS-X(Hormones-PM5)::PM5-DIT-1",
     "input": "Zinc",

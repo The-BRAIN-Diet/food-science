@@ -2,7 +2,7 @@
 id: capers
 title: Capers
 sidebar_label: Capers
-description: Highest quercetin content among common foods
+description: Commercial capers with a measured quercetin mean of 32.82 mg per 100 g
 tags:
   - Food
   - Capers
@@ -57,21 +57,26 @@ legacy_main_image: /img/foods/capers/capers_medium.webp
 nutrition_supplementary_sources:
   - key: quercetin_qual
     label: Quercetin
-    status: Present — quantity not established
-    amount_display: Present — quantity not established
+    value: 32.82
+    unit: mg
+    basis: per 100 g fresh weight
     source_note: >-
-      USDA flavonoid database Release 3.3 (2018); Printed page 16; Capers,
-      canned; NDB 02054. Positive mean in the named food row, not an assumed
-      association from database title. No free-aglycone mass inferred.
+      Inocencio et al. (2000), compiled in Phenol-Explorer (compound 291,
+      chromatography without hydrolysis, food 786). Seventeen commercial
+      Mediterranean caper samples. Mean 32.82 mg/100 g fresh weight, SD 35.04.
+      Quercetin 3-O-rutinoside is a separate compound on the same food record
+      and is not included. The USDA flavonoid Release 3.3 canned-capers row
+      (NDB 02054) is a glycoside or aglycone-equivalent panel and is not this
+      value.
     public_note: >-
-      USDA flavonoid database, Release 3.3; the studied food form is shown
-      beside each constituent. Glycoside-derived records do not establish
-      free-aglycone amounts.
-    source_group: USDA-flavonoid-3.3
-    notes: 'Capers, canned; NDB 02054 — glycosides / reported aglycone equivalents'
+      Commercial capers, chromatography without hydrolysis. Mean of 17 samples.
+      It is not the canned USDA flavonoid panel and not quercetin 3-O-rutinoside.
+    source_group: Phenol-Explorer chromatography
+    notes: Commercial capers; mean 32.82 mg/100 g fresh weight; n=17
     public_display: table
     evidence_status: supported
-    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    presence_status: presence_and_amount_supported
+    source_url: http://phenol-explorer.eu/contents/graph?compound_id=291&experimental_method_group_id=2&food_id=786&unit_type=weight
   - key: kaempferol_qual
     label: Kaempferol
     status: Present — quantity not established
@@ -104,29 +109,34 @@ substance_relationships:
   - substance: Quercetin
     relationship: contains
     description: >-
-      USDA’s flavonoid database identifies quercetin-derived glycosides in
-      capers, canned. A separate amount for this page is not established. This
-      does not establish free-aglycone content.
+      Phenol-Explorer chromatography, without hydrolysis, reports a mean of
+      32.82 mg quercetin per 100 g fresh weight in commercial Mediterranean
+      capers (17 samples; Inocencio et al. 2000). Quercetin 3-O-rutinoside is
+      recorded separately and is not included. The USDA flavonoid Release 3.3
+      canned-capers row remains a glycoside or aglycone-equivalent panel and
+      does not set this amount.
     recovery_origin: legacy-tag-migration
     evidence_status: supported
     recovery_audit: capers|Quercetin
-    evidence_source: USDA flavonoid database Release 3.3 (2018)
-    evidence_material: 'Capers, canned; NDB 02054'
-    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
-    presence_status: presence_supported_amount_unavailable
+    evidence_source: Inocencio et al. 2000, compiled in Phenol-Explorer
+    evidence_material: Commercial Mediterranean capers
+    preparation_state: Commercial capers
+    source_url: http://phenol-explorer.eu/contents/graph?compound_id=291&experimental_method_group_id=2&food_id=786&unit_type=weight
+    presence_status: presence_and_amount_supported
 substance_review_candidates: []
 ---
 ## Overview
 
-Capers are among the richest common food sources of **quercetin**, a flavonoid polyphenol studied for antioxidant and anti-inflammatory roles in diet-derived bioactive networks [1]. They are used as a condiment at small portions rather than as a bulk calorie source.
+Capers are a condiment. Chromatography without hydrolysis reports a mean of **32.82 mg quercetin per 100 g** fresh weight in commercial Mediterranean capers, from 17 samples [1] [2]. Quercetin 3-O-rutinoside is a separate compound on the same record and is not included.
 
-Within the BRAIN Diet framework, capers are a high-quercetin seasoning supporting polyphenol diversity; high-flavonoid dietary patterns have been associated with cognitive endpoints in controlled trials [2]. Pickled varieties can be high in sodium — rinsing may be appropriate.
+Within the BRAIN Diet framework, capers remain a seasoning. High-flavonoid dietary patterns have been associated with cognitive endpoints in controlled trials [3]. Pickled varieties can be high in sodium — rinsing may be appropriate.
 
 ## Key Nutritional Highlights
 
-- Among the highest quercetin concentrations per 100 g of common foods (condiment-use portions) [1].
-- Low energy density (~27 kcal per 100 g); practical intake is seasoning-scale.
-- Flavonoid-rich dietary patterns link to cognitive improvements in human trials [2].
+- Quercetin mean 32.82 mg per 100 g fresh weight in commercial capers (chromatography without hydrolysis; n=17) [1] [2].
+- This value is not the USDA canned-capers flavonoid panel and not quercetin 3-O-rutinoside.
+- Low energy density (23 kcal per 100 g); practical intake is seasoning-scale.
+- Flavonoid-rich dietary patterns link to cognitive improvements in human trials [3].
 - Rinse high-sodium pickled capers; buying jars preserved in extra virgin olive oil is an even better strategy; use as a polyphenol booster in Mediterranean-style dishes.
 
 ## Food Context
@@ -153,6 +163,8 @@ Within the BRAIN Diet framework, capers are a high-quercetin seasoning supportin
 
 ## References
 
-[1] Among the highest quercetin concentrations per 100 g of common foods (condiment-use portions). Boots & Haenen 2008. [Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)
+[1] Quercetin in commercial Mediterranean capers, mean 32.82 mg per 100 g fresh weight across 17 samples. Inocencio et al. 2000. [Flavonoid content of commercial capers produced in Mediterranean countries](/docs/papers/BRAIN-Diet-References#inocencio_flavonoid_2000)
 
-[2] Flavonoid-rich dietary patterns link to cognitive improvements in human trials. Neshatdoust & Saunders 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
+[2] Phenol-Explorer compilation of that chromatography record. Neveu et al. 2010. [Phenol-Explorer: an online comprehensive database on polyphenol contents in foods](/docs/papers/BRAIN-Diet-References#neveu_phenol-explorer_2010)
+
+[3] Flavonoid-rich dietary patterns link to cognitive improvements in human trials. Neshatdoust & Saunders 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)

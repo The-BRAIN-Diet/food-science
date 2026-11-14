@@ -1,0 +1,347 @@
+[
+  {
+    "file": "docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx",
+    "expected": "802dc23f2b67a192aac6c17a1d88809579c71b25acbbeb0f66f79d573225eb51",
+    "actual": "92c246a8af7676f6e683ea177a6d0f0a2a9d8b38ee12b480d07dd6ba3d5d1c63"
+  },
+  {
+    "file": "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx",
+    "expected": "06de0d260c058a6e5573b511fce99605d32c4cab9841265a31a4225ee3301cf5",
+    "actual": "32a65da584949dd397bb291576a7511ea3b07855fd3414462fb050de82ccc65f"
+  },
+  {
+    "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
+    "expected": "4adae3e941c25c67b01687aa5ba19f0298d88ac6905a36c51213b9d9ab2c2838",
+    "actual": "700be5276ccc16cdb47d8818790c2f61e3ba791f01da8f9695317f006e30090c"
+  },
+  {
+    "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx",
+    "expected": "35e847c00ed315ab08f4aa4161b70d1600173df8aeec5bf5e4f1c8b8e4731545",
+    "actual": "37d175be643abb53b0ee7e160c8f2a9b1bb127961f6e025ae377257fdcb16ee3"
+  },
+  {
+    "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx",
+    "expected": "83c20469509caad2ff205d089dd41c597181d69a2dc6b370e6130f382a578eaf",
+    "actual": "c1daa487e818f068ca8f64c314e20aa625b18db03ed83b90536fc1be9dadcee0"
+  },
+  {
+    "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx",
+    "expected": "8dba253098f97086a69e7d95747099ce8ef84f25f27a070d6aaf7d3e6182fb85",
+    "actual": "f3bef8b6dcec5193fcc2d8ea421e909289a53823a58a115c53009844a4b08b96"
+  },
+  {
+    "file": "docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx",
+    "expected": "687148b6097a156996b05a18b36fa8ea64ca611740ef3d583733639820e71aac",
+    "actual": "65d096f721c8d22b825b8fb4b73f8208b38144ec49f9386fbf461ab132e9ad59"
+  },
+  {
+    "file": "docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx",
+    "expected": "b30486011ab1527df085ff7031564ebe5f9b2501d331aab6e19569bb8e60b649",
+    "actual": "1648f41f7afc5180764caba98b55c2dea7530fe4e08b0e20242e2b7392623693"
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx",
+    "expected": "a9229d3bf45206d92945af350e212520379d4160b7b400a13300c824f88dca39",
+    "actual": "fd7401afdfb87f49c730b30e384a9a5928bbd140cc6373f64197fe7e93f0fdbc"
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx",
+    "expected": "a4cf21113daf960eb4de81b78cc6059f8cbdf9cce16160ddeb22fce004a4f353",
+    "actual": "f04399ab9b341f72d9b6663e57f5a7668362412c86eddc165c269c0db247272d"
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics.mdx",
+    "expected": "3a0972f2e5e63ac2adcbfe36c122d192039a0280dbca521fca7db3d8c6d51b2b",
+    "actual": "6174b03f677c682be5d828bf6ef101f1ac138f0405a0454e684cfdccfe1b1f3f"
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx",
+    "expected": "5682309803ae5e5b2e039c6199f9b31acd1b0e2ad77a3fda99d2119018224949",
+    "actual": "dec1369ff10f2593c3e07251ea4639c8c571d0c3495e10d33c52eb293b1030b7"
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx",
+    "expected": "2fa04d50c51d02d5ec7caf603af245d3b34c958268319c17ffa0cf85e23b1ea4",
+    "actual": "a080393588c2f623d0f5ed3ae5beac4ffe9da0181862a6f282bb9bc2e86998bb"
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx",
+    "expected": "ab4a07c306b10cee3af91dbe8f178cf3b4926fd41bbacb8fbda5fe75558b5e09",
+    "actual": "cab53887d746257c3567ec9423e19d1798e8f566aaca8e8bb7331e213ed8951d"
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx",
+    "expected": "e026f9c77b942394eb6e54b70fd6889c8886be522c76edec81463db71c85bc4e",
+    "actual": "5846252f636f8bca3895e35c38ba142f382612f73fdba702678c37b72ce62d81"
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx",
+    "expected": "cac55a224c633742491761f90dbccc8c04488f790811d318ce76d92e759bbe30",
+    "actual": "53ee73cbc2007e328c5f0bc73138cdd5bf9fd831d4e26c18f952a069ac9c26d6"
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx",
+    "expected": "06df56c5419c0e5f503d0c93bbdd3b31e5a697b16e5e774a951e825cba473e5d",
+    "actual": "d273daddcc7f71d89b9749e380e7e3671c7d7738cfaae2c474e820bcf7c75541"
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+    "expected": "1682c32fd221d71e77934847a58f0b6ec5d8a325a22a575f64b96c37d0c75293",
+    "actual": "dcbdbda7645916130bb9683b334667cb8f47d8092a0246472f774ff0dac6f39c"
+  },
+  {
+    "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx",
+    "expected": "d7c4ded305967785e83ab9e64bd368307df5a064298b4b9e57bcabc70e5a7b4c",
+    "actual": "2cbd2f27e7542574398ab97cf82b1a5a92b769fb78e44917b24032ba5db40eb7"
+  },
+  {
+    "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+    "expected": "78099d90cb6d8aa8a76ee61915a5de8f5ac2185702ab95bca783ad396e8623e1",
+    "actual": "80a6a7c4bcfb731075629d01fed30ee2ed1653f67be05d078efce5bd8aba708d"
+  },
+  {
+    "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx",
+    "expected": "451812f5ed0420cf1a6f9fd251d68d6268367f59986e428fdb4d7925501e8648",
+    "actual": "ad7253f700862af9ea092c7e4cce04657d176c22047728032e390345733b3c1b"
+  },
+  {
+    "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
+    "expected": "e616f0a15d1804c1c0f681e42baf05074f649729cc4c6504a79980ee0e6a82e9",
+    "actual": "16d7a48cff1101c481a5cc2bf24cfaca5f0d105348e702b1ede08f85a61a7901"
+  },
+  {
+    "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx",
+    "expected": "1224610aa81a0abe354a4845753d795c8e686448bb78b472e4bc2ffa47cf797b",
+    "actual": "d711743d3d76b1a785c3b215196efba726def2c229dbbeb03de1ae2fb521451e"
+  },
+  {
+    "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+    "expected": "97992ddca9ead79589db13f2e269f1240b266b7bccb637a3d7435bff7c38dba6",
+    "actual": "47bd18dce23033e56db030d088397d1a21046b7c92e95d231be1b9250b2cee5a"
+  },
+  {
+    "file": "docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx",
+    "expected": "8d075cf677e00ab2d2132c63c2d085d929c3edd5fdbed4f691bc257308d805f3",
+    "actual": "73f4413a36012bacadd624c8250707c655a306006511c54c8c78482a14cbce38"
+  },
+  {
+    "file": "docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx",
+    "expected": "0867d061d83c6d37aa16fec07a77d3491299254792421704ff400b8ead30169d",
+    "actual": "6ab4926c7807882d893f6c646747a00e28034ec118c4a8606f6112cb294309c1"
+  },
+  {
+    "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx",
+    "expected": "d6bd3d0349e805a8efa74b6f412706495a2850bb8b016385b7870766832eaccd",
+    "actual": "740bffb42dd6d290da80cc63f151e2b5142bb8757febfe9368d81498963ab4fb"
+  },
+  {
+    "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx",
+    "expected": "64b69cf41aac5bdf0c8d226cbdaf44c5f02bc72a23a3b9d301050c3cc18e1e9c",
+    "actual": "b18c1b554ece42396ddbee3b5e3a25b1a2d16675858e06426fa3f828a9102bd5"
+  },
+  {
+    "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+    "expected": "224aaf04b0a2a94a4f312744be6f9125783442d5210ba4fdb0177390efb21f85",
+    "actual": "b300db76f1239db92638a67161af24c0f1a7ef104cbe504bed06a4b4ba58a5ab"
+  },
+  {
+    "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+    "expected": "b1094d3dc5e075b938894476fcf45bc99f4c5532cd76f88139c86534f81dd716",
+    "actual": "0939c7fb30ba61b96c7849257749635d06efef65239488255cd3dcae9fdf71c5"
+  },
+  {
+    "file": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx",
+    "expected": "cf0953c576c18e4766dca439ca0169efefa6c85e21af7579af07361705c949ea",
+    "actual": "df4361940b64e621e4986909458410645b77f566850d967a790cf963ff791365"
+  },
+  {
+    "file": "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx",
+    "expected": "24da15c939a0e76d74d5bc19eae98a4c3d0a749f5f754af36fb568d9e670a5c2",
+    "actual": "7101f5c60f6ac1f69b88ab13b8f4dd6b8a8c32dfdf140d5d901398f50171280f"
+  },
+  {
+    "file": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx",
+    "expected": "a8f481ed83abd52c20b7f87686a0cc3ea06c4825b70c01378ff5ba63d200c0dd",
+    "actual": "3d0973aa62602e26ab4b5fc25a742a2f899b7a930642a7d10e42d9f1e236b918"
+  },
+  {
+    "file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity.mdx",
+    "expected": "d6429662922dee03782df696107f445ff20410e227da57b902d88fe02af4afb8",
+    "actual": "5fecb2e4952942b262f32e7b57fd49043f838b3b3d661ac60e3cb070a0804ee5"
+  },
+  {
+    "file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation.mdx",
+    "expected": "b52198bc2fc211aaf2a2b920c5886758e7799f13cb6ae08ab6fe99111a606e14",
+    "actual": "22829d5754957e0a54d1a6198a283394dc9e93f3de47025419057f67cde58d2f"
+  },
+  {
+    "file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx",
+    "expected": "71ff4a7727e992aa368976d6ae46865d344e781af1cffccfd15196126adc386f",
+    "actual": "285b2dd6a7a6029e02d34d1b5be27deed263148dc39d438566b784edda1bb770"
+  },
+  {
+    "file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation.mdx",
+    "expected": "0c54535cb46c7d04403b0c4c3661e11e159def8b60d8a0bede019b81464ea90a",
+    "actual": "27f910e2d748245886354439e35168288d9d3ee2cf06cd3e27fb56e127c6209b"
+  },
+  {
+    "file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx",
+    "expected": "eaabf9070dcdfa97d03bcbdefc943f90e35d2bbafac23bef9f1be3a94474b2be",
+    "actual": "1a9479c9349b112635889d2c0078dbfd108e543929c71c0efe7effea67565b7e"
+  },
+  {
+    "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-fm1-reproductive-hormone-balance-and-neurocognitive-regulation.mdx",
+    "expected": "e685ab0ffb3f3f7e308c6f94cadb293096f560b6f64271603a6285be1e3a5465",
+    "actual": "148d7e28d80aef80cd394d72ec9d34161ca87ce45209bd6eaee1849ee17ccbe7"
+  },
+  {
+    "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation.mdx",
+    "expected": "c687c6a4e40a3879755230bdfd91e837e3b1b4827a38b6549b393b56a06cc834",
+    "actual": "1721cec49d14d79082dd6954be360b6e3c2b0f42826f78ca061b3c9a14539667"
+  },
+  {
+    "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability.mdx",
+    "expected": "3e229dd1eefb3619aac766a11b48431142058684eb0fffad5129c1966fc03457",
+    "actual": "31e6aeb270d44200d9f23091300fd2975a7f1f008310df8b89c9cff955f1114e"
+  },
+  {
+    "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration.mdx",
+    "expected": "5d2863c1e17a06dac9cce816c2b349696de8dd7d0100caa46d7f54d382000df7",
+    "actual": "b331e697459abd7c63287300c224b6419e4f38c7f2c01fbb0a7cc1ab0ea3a8d1"
+  },
+  {
+    "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation.mdx",
+    "expected": "4d89f4bacf918f4191d3e3def4043e6f5c2c6c3e2faceeccbe15058cd0de1d6e",
+    "actual": "ee01e70a3c9243583da25147746bd7755daac44c546965fbd1dc5a484734ee3a"
+  },
+  {
+    "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability.mdx",
+    "expected": "dbb00b97dc768fe6a8e16f59d920e80bb94a5d2ecdda20b4dbf57538a598f791",
+    "actual": "c9f59b8b381800eb7f5347de7cd10b51eb5315d217c06e2f9ba5acdc60d57ba2"
+  },
+  {
+    "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism.mdx",
+    "expected": "859729c8fd7ebb9f01eed5f97773a05c421290f002229e9425abef957f433908",
+    "actual": "11278d7dec96298ca8eaf5c7a5e4ef45d967f6464fd1ff42299aaf7742fd710f"
+  },
+  {
+    "file": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation.mdx",
+    "expected": "752bea522006eec14d8d3f383db5ed51f3fc138b07050b163e2febe3a2fb9e57",
+    "actual": "20edbd1929076f70c8a1adda0b7410291d9431f29eabb14f1ba79842521e5b5c"
+  },
+  {
+    "file": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx",
+    "expected": "7df9f15421d76348ed026f70c591fb2ca9dfc75f934346fcf7c81955986746b8",
+    "actual": "fd68dcce0e68124be098ac4d203f2a518983838e130c8230449d353bd610540f"
+  },
+  {
+    "file": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-zeitgeber-entrainment.mdx",
+    "expected": "7b8c7a6e7a2bbbce5373f79c2c949869a9c4b0585aee8ab30ad6ab76e8459f1d",
+    "actual": "3af46ab7c7491d3bae41ea3728353915f9e3f57778fcb67b0316a420d7444b29"
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+    "expected": "d78b119b513833d38320b292511725fd19634a732a7bdfb9b2aff4f11ca0ba27",
+    "actual": "aae2d4bd3cbfe72cb295bf128fb69b9433a01cc9b62dfbb5e76d9e5a31f8d5e1"
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
+    "expected": "ecb49e2483a3c4a742fc43e809e06f1d612c86cbea11f566d47314e3b968c510",
+    "actual": "33e1504e7427cc9eeb1156203239ab5c5547c28026b2046ae586066901134303"
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+    "expected": "43a7ea00a011d3346007d32d27399cb80a91befefe4fb40931b68b7a4353c8f6",
+    "actual": "58338261e3d498c17483a05c92800c8f1dc79b5dbac5ad668ea4571d86ded3f3"
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+    "expected": "26d424c1c932fb7735a49181a2ea1e0a00d601158b303ff15c1a180009ef8d73",
+    "actual": "214414dbed8d932b6cd39fa5ce05c48a6d7dfdea1ca284be0c6ce70b1051f456"
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+    "expected": "099df03b5679a33ab12f75a8e0f0fd139f5f5d8f298fac6245608ee230bd4b61",
+    "actual": "9a2198bfaf94749601eb9fcf611cfcff17114c1724ec6eab2580350219be13d8"
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx",
+    "expected": "29a1ce60757e87d733fd6ffe374a2097087c2f6d83e65ea4695141badff1ea72",
+    "actual": "1ca68f74a578c0fab7f7fc95204f7ebc6d88dffe9e47e918f84f6adfd6fcdc7e"
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
+    "expected": "f660e0622fffd20192899dc7b487fd896745b6ba7d3ddc44fb07c5e4f3dd3213",
+    "actual": "5132db16f97d7969b88a0d1c9fe49fdd746107f046b3aedc10b32e2b9ed50677"
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+    "expected": "83f81276b97a22e5f92b274b9e5fd44fa763e3e9b271eb32da793173172767e7",
+    "actual": "d710cbc2d69ddba39be27602937c22165ba03dbac6d7be65bd5119b53cd4829f"
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
+    "expected": "bbc578fca21b7075b91cdb60b29bbb36b7bdcafc898bddebf710b152c7a93eb4",
+    "actual": "1d74ea35b6556b074d106024f44db37bde79b17bdb584a6cf0a385933b1020f7"
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx",
+    "expected": "7fd0b1544701979b365723929e21ead11a132dfb685ac0d566f06357378f904b",
+    "actual": "d6c9c241069697ae5d16748b856844185a438bbaa554d84eef2f1ca971ec79af"
+  },
+  {
+    "file": "docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling.mdx",
+    "expected": "8922944dd2d0bf6b187ece47431f9ff56132d7786d5092f4cdcf82363cd4f120",
+    "actual": "e90d876e35bccb8b1a4e9dec06c0e7c4c1caa3157968e83bc7fb224f710c8487"
+  },
+  {
+    "file": "docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability.mdx",
+    "expected": "0f8176dc0ff76f072d789a9df032eee7d6a28791ac58ded7cb9d6d659c10ef27",
+    "actual": "39a8eba3970ff17eb7b66557635867291a05f4afffe6ac419055dafbb266547d"
+  },
+  {
+    "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx",
+    "expected": "625a3deee2a5f68a6dabef42786cf4d93b5d8e457c95d2859f68638db6e56932",
+    "actual": "ca17cc443a5388e219441df297c18f6d624ffc8d2c4719315551e0e8365f1889"
+  },
+  {
+    "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+    "expected": "a14f7d2f3b884dbfb5fb178e63561381c3b1b373d8d3ab8e524ed44ef34b187c",
+    "actual": "acdf83bc8dc5e1b1d7ebf2403a9140bbeeb9bcab4b9292140de29174315dc6eb"
+  },
+  {
+    "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx",
+    "expected": "57f3d229003f9855dcf7d9ff29d97cadab4eff6de3f2654a9b60ef087f2fd0b4",
+    "actual": "de038f22df2f90360a6ebd078f1a78f7a652ebef4901909c60f62d782699962a"
+  },
+  {
+    "file": "docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx",
+    "expected": "2c8f0a6a0bb7a14e3b3cc5114bc4e3c15d1b46db44b7d0bd368b919e07886bb5",
+    "actual": "c3e316b5c5238688b18782cbdc4bc67eb5f307dcc2ae9883ccf2fdf36e8b3636"
+  },
+  {
+    "file": "docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx",
+    "expected": "1f141cb666eb11121855cbfdef5a864b283b22aaa79996155f6a102e4a086bcf",
+    "actual": "ff54034338886ea5ff639051d28e492dd35455c2a9b9546a22c9f5720ebe49a0"
+  },
+  {
+    "file": "docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx",
+    "expected": "46cdc622b985ff1a13d09939e9c8d60b43070bfd4c0ba7cd68cec98ce2f65a0e",
+    "actual": "6d45489b2cdb0836afc5c3705133f423d62f59f963e55e0398c139554f2c9483"
+  },
+  {
+    "file": "docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation.mdx",
+    "expected": "b10b85ac9c669a69c2ade7139c7dfc63f2bed9fbcde3f1ba9670c5e7952750f7",
+    "actual": "0dff2a81377c4d77ad71f38b28ff8639b38e2800a5eb6616adf551fb9618d040"
+  },
+  {
+    "file": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
+    "expected": "be218e888821b626e3f38dfd6151d3c74146f204c42a2085f7ba049fab5d494e",
+    "actual": "2af4daef484c5633df08be1fb3e7f458420dc60ffe2f952c87be76b9e8221bae"
+  },
+  {
+    "file": "docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation.mdx",
+    "expected": "c56563bad6b21fb8ce13d01664be6dfb21e18d25d015cc10b18682f03f6cd819",
+    "actual": "f06df2c6093bad013e12b04e4cedb6405f31917487dfa360e040f6f0371f3d6d"
+  }
+]

@@ -327,7 +327,7 @@ No means **no dietary supply relationship is admitted for this entry in this PM*
   dietary_input_note: Accepted dietary precursor route; no conversion yield inferred
 ```
 
-Generate PM-input substance–food lists only for `dietary_input === true`. Keep No and unset entries visible as biological context; suppress their food lists without removing canonical food composition records. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship. SOPs/lifestyle are outside this PM dietary-input migration.
+Generate PM-input substance–food lists only for `dietary_input === true`. Keep No and unset entries visible as biological context; suppress their admitted food lists without removing canonical food composition records. A hypothesis candidate in section 3.1.1 may show the canonical food ontology under that entry as composition context. That display is not a Dietary Requirement or a ranked source. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship. SOPs/lifestyle are outside this PM dietary-input migration.
 
 
 ### Structured formation pathways

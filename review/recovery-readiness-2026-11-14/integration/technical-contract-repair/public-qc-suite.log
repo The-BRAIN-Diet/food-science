@@ -1,0 +1,80 @@
+TAP version 13
+# Subtest: food, recipe, PM, KC, phenome and hub classification
+ok 1 - food, recipe, PM, KC, phenome and hub classification
+  ---
+  duration_ms: 0.914792
+  ...
+# Subtest: letters and site paths
+ok 2 - letters and site paths
+  ---
+  duration_ms: 0.210375
+  ...
+# Subtest: page ids prefer mechanism identifiers
+ok 3 - page ids prefer mechanism identifiers
+  ---
+  duration_ms: 0.075667
+  ...
+# Subtest: public dataset excludes internal issues and private fields
+ok 4 - public dataset excludes internal issues and private fields
+  ---
+  duration_ms: 0.962083
+  ...
+# Subtest: public Review & Corrections UI is shared layout, not per-page content
+ok 5 - public Review & Corrections UI is shared layout, not per-page content
+  ---
+  duration_ms: 1.672959
+  ...
+# Subtest: framework-wide issues are not copied onto every register row
+ok 6 - framework-wide issues are not copied onto every register row
+  ---
+  duration_ms: 0.128708
+  ...
+# Subtest: generated public dataset stays public-safe
+not ok 7 - generated public dataset stays public-safe
+  ---
+  duration_ms: 2.531458
+  location: 'file:///private/tmp/brain-startup-verification-20261114/scripts/framework-qc.test.mjs:243:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    0 !== 2
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 2
+  actual: 0
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///private/tmp/brain-startup-verification-20261114/scripts/framework-qc.test.mjs:255:10)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: PM1 rerun records stay valid and off the framework register
+ok 8 - PM1 rerun records stay valid and off the framework register
+  ---
+  duration_ms: 0.21875
+  ...
+# Subtest: central register dataset lists every issue while the public dataset stays filtered
+ok 9 - central register dataset lists every issue while the public dataset stays filtered
+  ---
+  duration_ms: 0.1175
+  ...
+# Subtest: PM open issues stay page-specific and off the framework register
+ok 10 - PM open issues stay page-specific and off the framework register
+  ---
+  duration_ms: 0.990542
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 9
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 67.389375

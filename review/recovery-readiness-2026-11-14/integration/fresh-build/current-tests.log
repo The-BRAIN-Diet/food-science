@@ -1,0 +1,334 @@
+TAP version 13
+# Subtest: BRS5-FM2-PM4 approved hypothesis, unchanged science and original body
+ok 1 - BRS5-FM2-PM4 approved hypothesis, unchanged science and original body
+  ---
+  duration_ms: 286.31375
+  ...
+# Subtest: BRS4-FM1-PM3 approved hypothesis, unchanged science and original body
+ok 2 - BRS4-FM1-PM3 approved hypothesis, unchanged science and original body
+  ---
+  duration_ms: 71.167541
+  ...
+# Subtest: BRS-X(ECS-PM1) approved hypothesis, unchanged science and original body
+ok 3 - BRS-X(ECS-PM1) approved hypothesis, unchanged science and original body
+  ---
+  duration_ms: 98.093209
+  ...
+# Subtest: BRS-X(Hormones-PM6) approved hypothesis, unchanged science and original body
+ok 4 - BRS-X(Hormones-PM6) approved hypothesis, unchanged science and original body
+  ---
+  duration_ms: 47.440667
+  ...
+# Subtest: all four PM pages compile using the existing layout
+ok 5 - all four PM pages compile using the existing layout
+  ---
+  duration_ms: 616.28575
+  ...
+# Subtest: approved PE and androgen boundaries remain explicit
+ok 6 - approved PE and androgen boundaries remain explicit
+  ---
+  duration_ms: 0.911916
+  ...
+# (node:47946) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: canonical hypothesis uses existing schema, correct direction and immediate placement
+ok 7 - canonical hypothesis uses existing schema, correct direction and immediate placement
+  ---
+  duration_ms: 230.114833
+  ...
+# Subtest: reviewed evidence and five links survive without conflating different endpoints
+ok 8 - reviewed evidence and five links survive without conflating different endpoints
+  ---
+  duration_ms: 0.386167
+  ...
+# Subtest: all previous PM1 scientific fields and original body are preserved exactly
+ok 9 - all previous PM1 scientific fields and original body are preserved exactly
+  ---
+  duration_ms: 1.666875
+  ...
+# Subtest: actual hypothesis component renders visible Unestablished status before unchanged Findings
+ok 10 - actual hypothesis component renders visible Unestablished status before unchanged Findings
+  ---
+  duration_ms: 87.244542
+  ...
+# Subtest: complete PM1 MDX compiles through the existing Docusaurus layout pipeline
+ok 11 - complete PM1 MDX compiles through the existing Docusaurus layout pipeline
+  ---
+  duration_ms: 303.010584
+  ...
+# Subtest: hypothesis leaves causal extraction, food targets and manuscript decisions identical
+ok 12 - hypothesis leaves causal extraction, food targets and manuscript decisions identical
+  ---
+  duration_ms: 281.208584
+  ...
+# Subtest: all viewer ranks and observations equal the canonical snapshot
+ok 13 - all viewer ranks and observations equal the canonical snapshot
+  ---
+  duration_ms: 0.989917
+  ...
+# Subtest: stale combined data cannot bypass publication filtering
+ok 14 - stale combined data cannot bypass publication filtering
+  ---
+  duration_ms: 2.242416
+  ...
+# Subtest: changed power is detected even when edge counts match
+ok 15 - changed power is detected even when edge counts match
+  ---
+  duration_ms: 1.285084
+  ...
+# Subtest: all nine approved recovered hypotheses retain exact identities and Unestablished status
+ok 16 - all nine approved recovered hypotheses retain exact identities and Unestablished status
+  ---
+  duration_ms: 845.699125
+  ...
+# Subtest: hypothesis recovery does not change any approved ranked selection or observation
+ok 17 - hypothesis recovery does not change any approved ranked selection or observation
+  ---
+  duration_ms: 107.362666
+  ...
+# Subtest: recovered ignored QC inputs explain the historical PM4 count without publishing or closing issues
+ok 18 - recovered ignored QC inputs explain the historical PM4 count without publishing or closing issues
+  ---
+  duration_ms: 637.987917
+  ...
+# Subtest: ECS PM3 renders its exact canonical genistein link with strict scientific freshness
+ok 19 - ECS PM3 renders its exact canonical genistein link with strict scientific freshness
+  ---
+  duration_ms: 1.763875
+  ...
+# Subtest: BRS1/BRS2 evidence summaries render from their durable source with valid local citation destinations
+ok 20 - BRS1/BRS2 evidence summaries render from their durable source with valid local citation destinations
+  ---
+  duration_ms: 773.358709
+  ...
+# Subtest: Findings-owned PM1 uses canonical synthesis while legacy PM/FM renderer headings remain stable
+ok 21 - Findings-owned PM1 uses canonical synthesis while legacy PM/FM renderer headings remain stable
+  ---
+  duration_ms: 7.595333
+  ...
+# Subtest: every Findings-owned PM satisfies the shared canonical model and freshness gate
+ok 22 - every Findings-owned PM satisfies the shared canonical model and freshness gate
+  ---
+  duration_ms: 2789.671125
+  ...
+# Subtest: Scientific Finding condition tags resolve to canonical Therapeutic Areas
+ok 23 - Scientific Finding condition tags resolve to canonical Therapeutic Areas
+  ---
+  duration_ms: 0.241459
+  ...
+# Subtest: FM roll-up has no declaration-order fallback
+ok 24 - FM roll-up has no declaration-order fallback
+  ---
+  duration_ms: 0.105917
+  ...
+# Subtest: FM synthesis retains reviewed child evidence without a declaration-order cap or copied dropdowns
+ok 25 - FM synthesis retains reviewed child evidence without a declaration-order cap or copied dropdowns
+  ---
+  duration_ms: 1.138291
+  ...
+# Subtest: legacy evidence generator cannot overwrite any Findings-owned PM
+ok 26 - legacy evidence generator cannot overwrite any Findings-owned PM
+  ---
+  duration_ms: 203.410167
+  ...
+# Subtest: legacy phenome generator cannot overwrite any Findings-owned PM
+ok 27 - legacy phenome generator cannot overwrite any Findings-owned PM
+  ---
+  duration_ms: 172.41525
+  ...
+# Subtest: PM9 Scientific Findings satisfy the canonical model
+ok 28 - PM9 Scientific Findings satisfy the canonical model
+  ---
+  duration_ms: 104.305
+  ...
+# Subtest: Scientific Finding evidence relationships preserve non-empty exposure context
+ok 29 - Scientific Finding evidence relationships preserve non-empty exposure context
+  ---
+  duration_ms: 191.5365
+  ...
+# Subtest: Synthesised Evidence Confidence remains unscored
+ok 30 - Synthesised Evidence Confidence remains unscored
+  ---
+  duration_ms: 0.941667
+  ...
+# Subtest: Findings are referenced by relationships, never duplicated into them
+ok 31 - Findings are referenced by relationships, never duplicated into them
+  ---
+  duration_ms: 0.961167
+  ...
+# Subtest: §4.1 body is generated from front matter and is fresh
+ok 32 - §4.1 body is generated from front matter and is fresh
+  ---
+  duration_ms: 1.088
+  ...
+# Subtest: retracted PM9 evidence cannot be reintroduced by the legacy seed
+ok 33 - retracted PM9 evidence cannot be reintroduced by the legacy seed
+  ---
+  duration_ms: 0.706709
+  ...
+# Subtest: magnesium is removed from PM9's synthesis boundary
+ok 34 - magnesium is removed from PM9's synthesis boundary
+  ---
+  duration_ms: 0.714625
+  ...
+# Subtest: FM4 roll-up no longer displays retracted PM9 evidence
+ok 35 - FM4 roll-up no longer displays retracted PM9 evidence
+  ---
+  duration_ms: 0.189041
+  ...
+# Subtest: phase-3 snapshot covers every live PM9 relationship
+ok 36 - phase-3 snapshot covers every live PM9 relationship
+  ---
+  duration_ms: 0.661
+  ...
+# Subtest: every Finding citation key resolves in the durable bibliography
+ok 37 - every Finding citation key resolves in the durable bibliography
+  ---
+  duration_ms: 9.2255
+  ...
+# Subtest: PM9 uses the canonical section order
+ok 38 - PM9 uses the canonical section order
+  ---
+  duration_ms: 1.158958
+  ...
+# Subtest: a study may be primary evidence in several Findings when the reuse is declared
+ok 39 - a study may be primary evidence in several Findings when the reuse is declared
+  ---
+  duration_ms: 93.841042
+  ...
+# Subtest: §7 renders relationship Findings as supporting evidence without IC or Related Findings
+ok 40 - §7 renders relationship Findings as supporting evidence without IC or Related Findings
+  ---
+  duration_ms: 1.301292
+  ...
+# Subtest: Abedrabbo evidence is preserved under PM9-F1 as connected supportive evidence
+ok 41 - Abedrabbo evidence is preserved under PM9-F1 as connected supportive evidence
+  ---
+  duration_ms: 0.913542
+  ...
+# Subtest: FM roll-up selection is explicit, not declaration order
+ok 42 - FM roll-up selection is explicit, not declaration order
+  ---
+  duration_ms: 1.044875
+  ...
+# Subtest: every Finding carries a compact label for reference rendering
+ok 43 - every Finding carries a compact label for reference rendering
+  ---
+  duration_ms: 0.691292
+  ...
+# Subtest: every Evidence Considered item carries a complete Individual Study Assessment
+ok 44 - every Evidence Considered item carries a complete Individual Study Assessment
+  ---
+  duration_ms: 0.735709
+  ...
+# Subtest: PM reference numbers are stable by citation_key
+ok 45 - PM reference numbers are stable by citation_key
+  ---
+  duration_ms: 0.757834
+  ...
+# Subtest: PM first-mention citations derive author, year, number and link from one reference record
+ok 46 - PM first-mention citations derive author, year, number and link from one reference record
+  ---
+  duration_ms: 0.054625
+  ...
+# Subtest: PM reference integrity rejects stale, unlinked and misnumbered rendered citations
+ok 47 - PM reference integrity rejects stale, unlinked and misnumbered rendered citations
+  ---
+  duration_ms: 0.550125
+  ...
+# Subtest: PM9 phenome Finding ids follow consecutive F sequence in presentation order
+ok 48 - PM9 phenome Finding ids follow consecutive F sequence in presentation order
+  ---
+  duration_ms: 0.648333
+  ...
+# Subtest: Stage 2A and Stage 2B instructions share the public audience and layer split
+ok 49 - Stage 2A and Stage 2B instructions share the public audience and layer split
+  ---
+  duration_ms: 3.131292
+  ...
+# Subtest: Stage 2A and Stage 2B instructions require targeted retrieval, not corpus-only stops
+ok 50 - Stage 2A and Stage 2B instructions require targeted retrieval, not corpus-only stops
+  ---
+  duration_ms: 4.8045
+  ...
+# Subtest: Stage 2A intervention discovery covers canonical routes without changing ownership
+ok 51 - Stage 2A intervention discovery covers canonical routes without changing ownership
+  ---
+  duration_ms: 0.254334
+  ...
+# Subtest: Stage 2A landscape reporting retains bounded searches and counter-evidence
+ok 52 - Stage 2A landscape reporting retains bounded searches and counter-evidence
+  ---
+  duration_ms: 0.220666
+  ...
+# Subtest: Stage 2A functional translation and hypotheses preserve admission and phenome gates
+ok 53 - Stage 2A functional translation and hypotheses preserve admission and phenome gates
+  ---
+  duration_ms: 0.269375
+  ...
+# Subtest: Stage 2A pages publish explained PM connections, not bare links
+ok 54 - Stage 2A pages publish explained PM connections, not bare links
+  ---
+  duration_ms: 1.378125
+  ...
+# (node:47952) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: hypothesis validates, is unestablished and appears immediately before unchanged §4.1 Finding projection
+ok 55 - hypothesis validates, is unestablished and appears immediately before unchanged §4.1 Finding projection
+  ---
+  duration_ms: 1365.223542
+  ...
+# Subtest: current approved candidate retains provenance-pinned scientific pages and approved hypothesis additions
+ok 56 - current approved candidate retains provenance-pinned scientific pages and approved hypothesis additions
+  ---
+  duration_ms: 8.673792
+  ...
+# Subtest: original reference direction, source commit, explanations and page record are traceable
+ok 57 - original reference direction, source commit, explanations and page record are traceable
+  ---
+  duration_ms: 0.13475
+  ...
+# Subtest: direct support, null/contradictory evidence and context are not conflated; no invented SF or score
+ok 58 - direct support, null/contradictory evidence and context are not conflated; no invented SF or score
+  ---
+  duration_ms: 0.244458
+  ...
+# Subtest: empty PMs render no hypothesis section; invalid statuses, directions, dangling Findings and score injection fail closed
+ok 59 - empty PMs render no hypothesis section; invalid statuses, directions, dangling Findings and score injection fail closed
+  ---
+  duration_ms: 166.478375
+  ...
+# Subtest: Supported does not admit a causal edge; actual graph and synthetic canonical §6.2 extraction remain protected
+ok 60 - Supported does not admit a causal edge; actual graph and synthetic canonical §6.2 extraction remain protected
+  ---
+  duration_ms: 41.97875
+  ...
+# Subtest: automatic link collection rejects the hypothesis-only href while retaining an unrelated relationship
+ok 61 - automatic link collection rejects the hypothesis-only href while retaining an unrelated relationship
+  ---
+  duration_ms: 0.249625
+  ...
+# Subtest: hypotheses do not enter input mappings or current approved manuscript exports
+ok 62 - hypotheses do not enter input mappings or current approved manuscript exports
+  ---
+  duration_ms: 159.254417
+  ...
+# Subtest: real component renders a compact native disclosure with visible status and no SEC/admission control
+ok 63 - real component renders a compact native disclosure with visible status and no SEC/admission control
+  ---
+  duration_ms: 64.117791
+  ...
+# Subtest: complete PM9 MDX compiles with the existing layout plugin and preserves the Scientific Findings anchor
+ok 64 - complete PM9 MDX compiles with the existing layout plugin and preserves the Scientific Findings anchor
+  ---
+  duration_ms: 238.134459
+  ...
+1..64
+# tests 64
+# suites 0
+# pass 64
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3765.022542

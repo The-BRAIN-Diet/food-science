@@ -1,4 +1,5 @@
 import test from "node:test";
+import {activeFindingNumber} from "../src/lib/scientificFindingPresentation.mjs";
 import assert from "node:assert/strict";
 import { spawnSync } from "node:child_process";
 import fs from "node:fs";
@@ -34,6 +35,7 @@ import {
   validatePmReferenceIntegrity,
 } from "./lib/pm-reference-index.mjs";
 
+const referenceBaselines = JSON.parse(fs.readFileSync('review/recovery-readiness-2026-11-14/integration/findings-contract-reconciliation/approved-reference-relationships.json')).relationships;
 const root = process.cwd();
 const PM9 = path.join(
   root,
@@ -56,7 +58,7 @@ function readPm8() {
 // Profile A accepts the established legacy heading and the approved dominance
 // presentation labels; the section identities and exact order remain fixed.
 function sectionIdentity(title) {
-  return title.replace('1 Mission & Overview + Dietary Levers','1 Mission & Overview').replace('3 Intervention Levers','3 Levers');
+  return title.replace(/^4 Mechanistic Basis \+ Scientific Findings(?: \(SFs \d+\))?$/, '4 Mechanistic Basis').replace('1 Mission, Objective & Biological Context','1 Mission & Overview').replace('1 Mission & Overview + Dietary Levers','1 Mission & Overview').replace('3 Intervention Levers','3 Levers');
 }
 
 function readFindingsPms() {
@@ -73,6 +75,8 @@ test("every Findings-owned PM satisfies the shared canonical model and freshness
 
   for (const { file, data, content } of pages) {
     const label = data.pm_id || path.relative(root, file);
+    const countedHeading=content.match(/^## 4\. Mechanistic Basis \+ Scientific Findings \(SFs (\d+)\)$/m);
+    if(countedHeading) assert.equal(Number(countedHeading[1]), headlineMechanisticFindings(data).filter(f=>activeFindingNumber(data,f.id)!==null).length, `${label}: exact canonical Finding count`);
     assert.deepEqual(validateScientificFindings(data, [], { entityLabel: label }), []);
     if (detectPmLayout(content) === PM_LAYOUT_CANONICAL) {
       const major = [...content.matchAll(/^## (\d+)\. (.+)$/gm)].map((m) => sectionIdentity(`${m[1]} ${m[2]}`));
@@ -116,10 +120,14 @@ test("every Findings-owned PM satisfies the shared canonical model and freshness
 
     const byId = findingsById(data);
     for (const rel of data.phenome_relationships || []) {
-      assert.ok(
-        Array.isArray(rel.scientific_findings),
-        `${label} ${rel.target_phenome} must reference Finding ids`,
-      );
+      if (!Array.isArray(rel.scientific_findings)) {
+        const baseline=referenceBaselines[`${label}::${rel.target_phenome}`];
+        assert.ok(baseline, `${label} ${rel.target_phenome}: unapproved missing Finding links`);
+        assert.deepEqual(rel, baseline, `${label} ${rel.target_phenome}: approved reference relationship changed`);
+        assert.ok(rel.references?.length, 'Reference-backed relationship requires evidence');
+        for (const ref of rel.references) assert.ok(ref.citation_key && ref.href?.endsWith('#'+ref.citation_key), 'Canonical citation destination required');
+        continue;
+      }
       assert.ok(
         rel.scientific_findings.every((id) => typeof id === "string" && byId.has(id)),
         `${label} ${rel.target_phenome} must reference declared Findings by id`,

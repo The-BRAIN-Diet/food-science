@@ -1,0 +1,104 @@
+diff --git a/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx b/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx
+index 3eb5416b..6bb87f8b 100644
+--- a/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx
++++ b/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx
+@@ -544,6 +544,85 @@ evidence_gaps:
+     citation_keys:
+       - cadas_nape_1997
+     review_date: '2026-10-26'
++scientific_hypotheses:
++  - id: PM1-H1
++    title: Dietary Phosphatidylethanolamine and Neural NAPE/NAE Precursor Supply
++    status: Unestablished
++    proposition: >-
++      Dietary phosphatidylethanolamine may contribute to neural NAPE precursor availability and subsequent
++      N-acylethanolamine formation. Whether this contribution is quantitatively meaningful under ordinary
++      dietary exposure remains unresolved.
++    proposed_direction: Dietary phosphatidylethanolamine → neural NAPE precursor availability → N-acylethanolamine formation
++    rationale: >-
++      Intracellular NAPE precursor biology provides a rationale for examining dietary contribution. Oral
++      delivery to the relevant neural pools and its quantitative importance are not established.
++    finding_links:
++      supporting: []
++      contradictory_or_null: []
++      contextual:
++        - pm_id: BRS-X(ECS-PM1)
++          finding_id: PM1-F1
++          href: '#pm1-f1'
++          explanation: Provides bounded pathway context; does not establish the complete hypothesis.
++    evidence_sources:
++      - study_id: cadas-1997
++        label: Cadas et al. (1997)
++        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6793739/
++        role: contextual
++        proposition: Rat brain and neuronal experiments support intracellular NAPE precursor biology.
++        limitations: Not dietary delivery to neural pools.
++      - study_id: lithander-2008
++        label: Lithander et al. (2008)
++        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2600636/
++        role: contextual
++        proposition: Oral PE-containing exposure did not improve satiety relative to lipid control.
++        limitations: Neural precursor supply was not measured; the behavioural null does not resolve incorporation.
++      - study_id: oatmeal-registration
++        label: Oatmeal trial registration NCT03468179
++        url: https://clinicaltrials.gov/study/NCT03468179
++        role: contextual
++        proposition: The saved citation describes a proposed oatmeal NAPE/NAE experiment.
++        limitations: Not verified results, not oat-bran equivalence or a PE-specific neural delivery result.
++    limitations:
++      - Digestion and remodelling may separate dietary atoms from the intact PE molecule.
++      - >-
++        Trace incorporation alone does not establish meaningful precursor supply, increased pool availability
++        or altered synthesis.
++      - >-
++        PE, NAPE and NAE molecular species must remain distinct; evidence for one does not generalise to all
++        NAEs or anandamide.
++      - Gut or plasma measurements do not establish neural supply.
++      - No increased endocannabinoid signalling, clinical benefit or ordinary-food equivalence is established.
++      - >-
++        The saved oatmeal trial citation describes a proposal, not verified doubled plasma levels; preserve
++        the source-page discrepancy for separate correction.
++      - >-
++        No animal model or arbitrarily selected PE species is part of the core proposition; no experiment is
++        authorised by registration.
++    alternative_explanations:
++      - Endogenous synthesis may dominate neural pools.
++      - Dietary-derived atoms may be recycled without a meaningful contribution to precursor availability.
++    required_evidence:
++      - >-
++        Characterise dietary exposure, digestion, absorption and remodelling and establish contribution to
++        relevant neural NAPE and specified NAE products.
++      - >-
++        Quantify contribution relative to endogenous synthesis and pool turnover; distinguish detectable trace
++        contribution from meaningful supply.
++      - >-
++        Isotope tracing, lipid measurements and controlled exposures are possible methods, not authorised
++        studies.
++      - >-
++        Negligible contribution despite verified exposure counts against meaningful supply under those
++        conditions without rejecting established PE biology.
++    provenance:
++      - >-
++        Author-approved bounded hypothesis following the ten-candidate appraisal and individual review on 14
++        November 2026.
++      - >-
++        Approval registers the proposition only. No dietary admissions, SEC, publication gates, food mappings,
++        rankings or accepted graph edges change.
++    review_date: '2026-11-14'
+ ---
+ 
+ <p class="brs-pm-thumbnail-wrap"><img src="/img/biological-targets/brs-x-ecs-portrait-thumbnail.jpg" alt="BRS-X(ECS)" class="brs-pm-thumbnail" /></p>
+@@ -652,6 +731,13 @@ N-arachidonoyl phosphatidylethanolamine and its biosynthetic pathway were identi
+ 
+ **Mechanism boundary:** Whether orally supplied PE/NAPE reaches the relevant neural precursor pool and changes its production; choline participation in other phospholipids does not resolve this link.
+ 
++{/* scientific-hypotheses:start */}
++### Scientific Hypotheses
++
++<ScientificHypothesis hypothesis={{"id":"PM1-H1","title":"Dietary Phosphatidylethanolamine and Neural NAPE/NAE Precursor Supply","status":"Unestablished","proposition":"Dietary phosphatidylethanolamine may contribute to neural NAPE precursor availability and subsequent N-acylethanolamine formation. Whether this contribution is quantitatively meaningful under ordinary dietary exposure remains unresolved.","proposed_direction":"Dietary phosphatidylethanolamine → neural NAPE precursor availability → N-acylethanolamine formation","rationale":"Intracellular NAPE precursor biology provides a rationale for examining dietary contribution. Oral delivery to the relevant neural pools and its quantitative importance are not established.","finding_links":{"supporting":[],"contradictory_or_null":[],"contextual":[{"pm_id":"BRS-X(ECS-PM1)","finding_id":"PM1-F1","href":"#pm1-f1","explanation":"Provides bounded pathway context; does not establish the complete hypothesis."}]},"evidence_sources":[{"study_id":"cadas-1997","label":"Cadas et al. (1997)","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC6793739/","role":"contextual","proposition":"Rat brain and neuronal experiments support intracellular NAPE precursor biology.","limitations":"Not dietary delivery to neural pools."},{"study_id":"lithander-2008","label":"Lithander et al. (2008)","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC2600636/","role":"contextual","proposition":"Oral PE-containing exposure did not improve satiety relative to lipid control.","limitations":"Neural precursor supply was not measured; the behavioural null does not resolve incorporation."},{"study_id":"oatmeal-registration","label":"Oatmeal trial registration NCT03468179","url":"https://clinicaltrials.gov/study/NCT03468179","role":"contextual","proposition":"The saved citation describes a proposed oatmeal NAPE/NAE experiment.","limitations":"Not verified results, not oat-bran equivalence or a PE-specific neural delivery result."}],"limitations":["Digestion and remodelling may separate dietary atoms from the intact PE molecule.","Trace incorporation alone does not establish meaningful precursor supply, increased pool availability or altered synthesis.","PE, NAPE and NAE molecular species must remain distinct; evidence for one does not generalise to all NAEs or anandamide.","Gut or plasma measurements do not establish neural supply.","No increased endocannabinoid signalling, clinical benefit or ordinary-food equivalence is established.","The saved oatmeal trial citation describes a proposal, not verified doubled plasma levels; preserve the source-page discrepancy for separate correction.","No animal model or arbitrarily selected PE species is part of the core proposition; no experiment is authorised by registration."],"alternative_explanations":["Endogenous synthesis may dominate neural pools.","Dietary-derived atoms may be recycled without a meaningful contribution to precursor availability."],"required_evidence":["Characterise dietary exposure, digestion, absorption and remodelling and establish contribution to relevant neural NAPE and specified NAE products.","Quantify contribution relative to endogenous synthesis and pool turnover; distinguish detectable trace contribution from meaningful supply.","Isotope tracing, lipid measurements and controlled exposures are possible methods, not authorised studies.","Negligible contribution despite verified exposure counts against meaningful supply under those conditions without rejecting established PE biology."],"provenance":["Author-approved bounded hypothesis following the ten-candidate appraisal and individual review on 14 November 2026.","Approval registers the proposition only. No dietary admissions, SEC, publication gates, food mappings, rankings or accepted graph edges change."],"review_date":"2026-11-14"}} />
++
++{/* scientific-hypotheses:end */}
++
+ ### 4.1 Scientific Findings
+ 
+ 

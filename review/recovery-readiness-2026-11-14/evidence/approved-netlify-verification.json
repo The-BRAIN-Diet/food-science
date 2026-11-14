@@ -1,0 +1,49 @@
+{
+  "commit": "1841b3362cc960aad746bada35c3ec4f8a88c426",
+  "deploy": "6af8a04b71cab8e8555ac6b8",
+  "checks": [
+    {
+      "path": "/explore/food-wheel/display-network.json",
+      "status": 200
+    },
+    {
+      "path": "/explore/pm-explorer/pm-sources.json",
+      "status": 200
+    },
+    {
+      "path": "/explore/food-intelligence/data.json",
+      "status": 200
+    },
+    {
+      "path": "/explore/food-wheel/",
+      "status": 200
+    },
+    {
+      "path": "/explore/pm-explorer/",
+      "status": 200
+    },
+    {
+      "path": "/explore/food-intelligence/",
+      "status": 200
+    },
+    {
+      "path": "/docs/foods/brazil-nuts/",
+      "status": 200
+    },
+    {
+      "path": "/docs/foods/cloves/",
+      "status": 200
+    },
+    {
+      "path": "/docs/foods/capers/",
+      "status": 200
+    },
+    {
+      "path": "/docs/foods/chicken-liver/",
+      "status": 200
+    }
+  ],
+  "ranked": 984,
+  "documented_unranked": 223,
+  "redundant_selenium_fallback": false
+}

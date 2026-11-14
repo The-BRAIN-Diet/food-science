@@ -1,0 +1,17 @@
+{
+  "first": {
+    "src/data/rankedFoodSources.generated.json": "1be671e829575688e75d22f01e6a0586dd986681a4953cbff64221e968030d00",
+    "system/ranked-food-publication-sources.json": "ffd4d4c630f0692ef744819f669ff2eb15e629ac829654cb51da0c0b79d93458",
+    "static/explore/food-wheel/display-network.json": "6133f69db924f32cadcf1f715625c40b1ea38facd2d58645dc0740e8411edc6e",
+    "static/explore/pm-explorer/pm-sources.json": "d6e527e9b1ca343c6306d88affffb0736a354efd7efb5650f948fd2aadec7e62",
+    "static/explore/food-intelligence/data.json": "10f501508aaaab2f3a7c2793ddd7f932919b00fd88c96d51319bb3009a8428e7"
+  },
+  "second": {
+    "src/data/rankedFoodSources.generated.json": "1be671e829575688e75d22f01e6a0586dd986681a4953cbff64221e968030d00",
+    "system/ranked-food-publication-sources.json": "ffd4d4c630f0692ef744819f669ff2eb15e629ac829654cb51da0c0b79d93458",
+    "static/explore/food-wheel/display-network.json": "6133f69db924f32cadcf1f715625c40b1ea38facd2d58645dc0740e8411edc6e",
+    "static/explore/pm-explorer/pm-sources.json": "d6e527e9b1ca343c6306d88affffb0736a354efd7efb5650f948fd2aadec7e62",
+    "static/explore/food-intelligence/data.json": "10f501508aaaab2f3a7c2793ddd7f932919b00fd88c96d51319bb3009a8428e7"
+  },
+  "identical": true
+}

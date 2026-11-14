@@ -1,0 +1,63 @@
+[
+  {
+    "food": "lentils",
+    "substance": "iron",
+    "value": 6.51,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "preparation": "Lentils, raw",
+    "source": "https://fdc.nal.usda.gov/food-details/172420/nutrients",
+    "record": "docs/foods/lentils.md#iron_mg"
+  },
+  {
+    "food": "lentils",
+    "substance": "vitamin-b9",
+    "value": 479,
+    "unit": "µg",
+    "basis": "per 100 g edible portion",
+    "preparation": "Lentils, raw",
+    "source": "https://fdc.nal.usda.gov/food-details/172420/nutrients",
+    "record": "docs/foods/lentils.md#folate_ug"
+  },
+  {
+    "food": "spinach",
+    "substance": "iron",
+    "value": 2.71,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "preparation": "Spinach, raw",
+    "source": "https://fdc.nal.usda.gov/food-details/168462/nutrients",
+    "record": "docs/foods/spinach.md#iron_mg"
+  },
+  {
+    "food": "spinach",
+    "substance": "magnesium",
+    "value": 79,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "preparation": "Spinach, raw",
+    "source": "https://fdc.nal.usda.gov/food-details/168462/nutrients",
+    "record": "docs/foods/spinach.md#magnesium_mg"
+  },
+  {
+    "food": "spinach",
+    "substance": "vitamin-b9",
+    "value": 194,
+    "unit": "µg",
+    "basis": "per 100 g edible portion",
+    "preparation": "Spinach, raw",
+    "source": "https://fdc.nal.usda.gov/food-details/168462/nutrients",
+    "record": "docs/foods/spinach.md#folate_ug"
+  },
+  {
+    "food": "spinach",
+    "substance": "betaine",
+    "value": 674.52,
+    "unit": "mg",
+    "basis": "per 100 g",
+    "preparation": "Spinach, raw",
+    "source": "https://doi.org/10.1093/jn/133.5.1302",
+    "record": "docs/foods/spinach.md#betaine_qual",
+    "limitation": "Zeisel et al. (2003) Table 1, corrected by the erratum, reports 674.52 mg betaine per 100 g in raw spinach and 725.41 mg per 100 g in cooked spinach. This row is the raw value, rounded. USDA Release 2 later reports 110–130 mg per 100 g for frozen spinach, a different preparation."
+  }
+]

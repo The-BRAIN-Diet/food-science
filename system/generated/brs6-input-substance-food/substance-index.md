@@ -15,7 +15,7 @@ Generated from the same authoritative records as the PM disclosures. The preview
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (145)</summary>
+<summary>All mapped food sources (147)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -35,6 +35,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Black Pepper](http://localhost:3000/docs/foods/black-pepper) | Spices, pepper, black | 171 mg (per 100 g edible portion) | docs/foods/black-pepper.md#nutrition_per_100g/magnesium_mg |
 | [Black Tea](http://localhost:3000/docs/foods/black-tea) | Beverages, tea, black, brewed, prepared with tap water | 3 mg (per 100 g edible portion) | docs/foods/black-tea.md#nutrition_per_100g/magnesium_mg |
 | [Blueberries](http://localhost:3000/docs/foods/blueberries) | Blueberries, raw — raw | 6 mg (per 100 g edible portion) | docs/foods/blueberries.md#nutrition_per_100g/magnesium_mg |
+| [Brazil Nuts](http://localhost:3000/docs/foods/brazil-nuts) | Nuts, brazilnuts, dried, unblanched — dried | 376 mg (per 100 g edible portion) | docs/foods/brazil-nuts.md#nutrition_per_100g/magnesium_mg |
 | [Broccoli Sprouts](http://localhost:3000/docs/foods/broccoli-sprouts) | Broccoli sprouts, raw (sprout material, not mature broccoli) — raw | Quantity not established | docs/foods/broccoli-sprouts.md#substance_relationships/Magnesium |
 | [Broccoli Sprouts](http://localhost:3000/docs/foods/broccoli-sprouts) | Broccoli sprouts, raw — raw | 29 mg (per 100 g edible portion) | docs/foods/broccoli-sprouts.md#nutrition_per_100g/magnesium_mg |
 | [Broccoli](http://localhost:3000/docs/foods/broccoli) | Broccoli, raw — raw | 21 mg (per 100 g edible portion) | docs/foods/broccoli.md#nutrition_per_100g/magnesium_mg; docs/foods/broccoli.md#substance_relationships/Magnesium |
@@ -58,6 +59,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cilantro](http://localhost:3000/docs/foods/cilantro) | Coriander (cilantro) leaves, raw — raw | 26 mg (per 100 g edible portion) | docs/foods/cilantro.md#nutrition_per_100g/magnesium_mg |
 | [Cinnamon](http://localhost:3000/docs/foods/cinnamon) | Spices, cinnamon, ground | 60 mg (per 100 g edible portion) | docs/foods/cinnamon.md#nutrition_per_100g/magnesium_mg |
 | [Clams](http://localhost:3000/docs/foods/clams) | Mollusks, clam, mixed species, raw — raw | 19 mg (per 100 g edible portion) | docs/foods/clams.md#nutrition_per_100g/magnesium_mg |
+| [Cloves](http://localhost:3000/docs/foods/cloves) | Spices, cloves, ground | 259 mg (per 100 g edible portion) | docs/foods/cloves.md#nutrition_per_100g/magnesium_mg |
 | [Cocoa](http://localhost:3000/docs/foods/cocoa) | Cocoa, dry powder, unsweetened — dry powder | 499 mg (per 100 g edible portion) | docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg; docs/foods/cocoa.md#substance_relationships/Magnesium |
 | [Cod](http://localhost:3000/docs/foods/cod) | Fish, cod, Atlantic, raw — raw | 32 mg (per 100 g edible portion) | docs/foods/cod.md#nutrition_per_100g/magnesium_mg |
 | [Coffee](http://localhost:3000/docs/foods/coffee) | Beverages, coffee, brewed, breakfast blend | 4 mg (per 100 g edible portion) | docs/foods/coffee.md#nutrition_per_100g/magnesium_mg |

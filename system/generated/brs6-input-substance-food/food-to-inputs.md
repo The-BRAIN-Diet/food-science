@@ -21,6 +21,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Black Pepper | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Black Tea | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Blueberries | 1 | magnesium | BRS6-FM1-PM3 |  |
+| Brazil Nuts | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Broccoli Sprouts | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Broccoli | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Brussels Sprouts | 1 | magnesium | BRS6-FM1-PM3 |  |
@@ -43,6 +44,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Cilantro | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Cinnamon | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Clams | 2 | dha-docosahexaenoic-acid; magnesium | BRS6-FM1-PM3; BRS6-FM4-PM8 |  |
+| Cloves | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Cockles | 1 | dha-docosahexaenoic-acid | BRS6-FM4-PM8 |  |
 | Cocoa | 1 | magnesium | BRS6-FM1-PM3 |  |
 | Cod | 2 | magnesium; dha-docosahexaenoic-acid | BRS6-FM1-PM3; BRS6-FM4-PM8 |  |

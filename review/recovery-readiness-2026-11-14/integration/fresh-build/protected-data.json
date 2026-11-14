@@ -1,0 +1,22 @@
+[
+  {
+    "file": "system/ranked-food-publication-sources.json",
+    "unchanged": true,
+    "sha256": "ffd4d4c630f0692ef744819f669ff2eb15e629ac829654cb51da0c0b79d93458"
+  },
+  {
+    "file": "src/data/rankedFoodSources.generated.json",
+    "unchanged": true,
+    "sha256": "1be671e829575688e75d22f01e6a0586dd986681a4953cbff64221e968030d00"
+  },
+  {
+    "file": "package.json",
+    "unchanged": true,
+    "sha256": "7c5197b690cac9465dc02aece679badc8435b62512b612cca2bca4a0f3c801d4"
+  },
+  {
+    "file": "src/data/framework-qc-public.generated.json",
+    "unchanged": true,
+    "sha256": "8865f16edd090af5cfbdd59f09a5e1afcea172e452c4aaf770b2e523974d2780"
+  }
+]

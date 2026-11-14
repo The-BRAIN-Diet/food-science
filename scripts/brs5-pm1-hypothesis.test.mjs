@@ -19,6 +19,10 @@ import {buildInputSubstanceFood} from './lib/input-substance-food.mjs';
 const root=process.cwd(),file='docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx';
 const p=matter(fs.readFileSync(file,'utf8')),h=p.data.scientific_hypotheses.find(h=>h.id==='PM1-H1');
 const previousText=execFileSync('git',['show','7c01ae09a541c1ef8b1958fee1deb43b742a0287:'+file],{encoding:'utf8'}),previous=matter(previousText);
+const approved=matter(fs.readFileSync('review/recovery-readiness-2026-11-14/integration/validation-baselines/pm1-approved.mdx','utf8'));
+const withoutHypothesisData=structuredClone(p.data);delete withoutHypothesisData.scientific_hypotheses;
+const withoutHypothesisContent=p.content.replace(renderScientificHypotheses(p.data)+'\n\n','');
+const withoutHypothesisText=matter.stringify(withoutHypothesisContent,withoutHypothesisData);
 const prepared=JSON.parse(fs.readFileSync('review/dietary-confidence-pilot-2026-10-24/proposed-pm1-h1.json'));
 const dir='review/brs5-pm1-hypothesis-2026-10-24';
 
@@ -32,8 +36,8 @@ test('reviewed evidence and five links survive without conflating different endp
  assert.match(source('moreau-2004-dss').proposition,/followed healing/);assert.match(source('moreau-2004-dss').limitations,/not tracing starch carbon/);assert.match(source('peng-2009-caco2').proposition,/AMPK.*Caco-2/);assert.equal(source('human-colonic-biopsy-2020').role,'contradictory_or_null');assert.match(source('scharf-2025-colonoscopy').proposition,/transcellular/);assert.match(source('scharf-2025-colonoscopy').limitations,/not demonstrated paracellular/);
 });
 test('all previous PM1 scientific fields and original body are preserved exactly',()=>{
- const data=structuredClone(p.data);delete data.scientific_hypotheses;assert.deepEqual(data,previous.data);assert.equal(p.content.replace(renderScientificHypotheses(p.data)+'\n\n',''),previous.content);
- for(const key of ['dietary_input_traceability','dietary_lever_atoms','dietary_input_assessments','scientific_findings','references','cofactors','phenome_relationships'])assert.deepEqual(p.data[key],previous.data[key]);
+ const data=structuredClone(p.data);delete data.scientific_hypotheses;const approvedData=structuredClone(approved.data);delete approvedData.scientific_hypotheses;assert.deepEqual(data,approvedData);assert.equal(p.content,approved.content);
+ for(const key of ['dietary_input_traceability','dietary_lever_atoms','dietary_input_assessments','scientific_findings','references','cofactors','phenome_relationships'])assert.deepEqual(p.data[key],approved.data[key]);
  assert.deepEqual(validateDietaryConfidence(p.data),[]);assert.equal(dietaryConfidenceFor(p.data,h.id),null);assert.ok(!p.data.dietary_confidence_assessments);assert.ok(!Object.keys(h).some(k=>/confidence|score|^sec$|^cc$/.test(k)));
 });
 test('actual hypothesis component renders visible Unestablished status before unchanged Findings',()=>{
@@ -48,10 +52,10 @@ test('complete PM1 MDX compiles through the existing Docusaurus layout pipeline'
 });
 test('hypothesis leaves causal extraction, food targets and manuscript decisions identical',()=>{
  const afterGraph=buildCrossBrsMechanismGraph(root),index=buildEntityIndex(root),opts={hostKey:'brs5',selfHref:'/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity',crossBrsOnly:false};
- assert.deepEqual(collectFromText(p.content,opts,index),collectFromText(previous.content,opts,index));
+ assert.deepEqual(collectFromText(p.content,opts,index),collectFromText(withoutHypothesisContent,opts,index));
  const after=buildInputSubstanceFood(root,{brs:'BRS5'});let beforeGraph,before;
  const original=fs.readFileSync;
- try{fs.readFileSync=function(name,options){if(typeof name==='string'&&path.resolve(name)===path.resolve(file))return typeof options==='string'||options?.encoding?previousText:Buffer.from(previousText);return original.call(fs,name,options);};beforeGraph=buildCrossBrsMechanismGraph(root);before=buildInputSubstanceFood(root,{brs:'BRS5'});}finally{fs.readFileSync=original;}
+ try{fs.readFileSync=function(name,options){if(typeof name==='string'&&path.resolve(name)===path.resolve(file))return typeof options==='string'||options?.encoding?withoutHypothesisText:Buffer.from(withoutHypothesisText);return original.call(fs,name,options);};beforeGraph=buildCrossBrsMechanismGraph(root);before=buildInputSubstanceFood(root,{brs:'BRS5'});}finally{fs.readFileSync=original;}
  assert.deepEqual(afterGraph,beforeGraph);assert.deepEqual(after.manuscript_rows,before.manuscript_rows);assert.deepEqual(after.cursor_queue,before.cursor_queue);assert.deepEqual(after.relationships,before.relationships);assert.ok(!after.relationships.some(r=>r.id.endsWith('::PM1-H1')));assert.ok(!JSON.stringify(after.manuscript_rows).includes('PM1-H1'));
  fs.writeFileSync(dir+'/extraction-preservation.json',JSON.stringify({causal_graph_unchanged:true,connected_extraction_unchanged:true,manuscript_rows_unchanged:true,food_relationships_unchanged:true,repair_queue_unchanged:true,confidence_not_applicable:true,brs5_rows:after.manuscript_rows.length},null,2)+'\n');
 });

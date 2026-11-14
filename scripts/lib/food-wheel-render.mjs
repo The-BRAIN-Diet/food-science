@@ -1,6 +1,8 @@
 // Existing Food Wheel SVG geometry, extracted without visual changes.
 import {ribbon,arc} from 'd3';
-export function renderFoodWheel(data,base){
+import {templateForFoodWheelView} from './food-wheel-template.mjs';
+export function renderFoodWheel(data,base,options={}){
+base=templateForFoodWheelView(data,base,options);
 const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const inner=base.split('<g transform="translate(720 720)">')[1].split('</g><text x="56" y="1338"')[0];const positions=new Map();for(const m of inner.matchAll(/<g class="entity" data-substance="([^"]+)"[\s\S]*?<text transform="translate\(([-\d.]+) ([-\d.]+)\)/g)){const s=data.network.inventory.find(s=>s.id===m[1]),x=+m[2],y=+m[3];positions.set(m[1],{angle:Math.atan2(x,-y),radius:Math.hypot(x,y)+(s.category==='Foundation'?10:-9)});}
 // Place foods near their connected targets. Each distinct documented target has
@@ -15,7 +17,7 @@ const svg=[`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2200 2200" widt
 // Reuse canonical system colours already rendered in the preserved network.
 const systemColors=new Map([...inner.matchAll(/class="link"[^>]*data-system="([^"]+)"[^>]*fill="(#[0-9a-fA-F]+)"/g)].map(m=>[m[1],m[2]]));
 const substanceFills=new Map();svg.push('<defs>');
-for(const pair of data.foodPairs){const id=pair.id;const systems=[...new Set(pair.qualified.filter(e=>e.network==='approved').map(e=>e.brs==='BRS-X'?'BRS-X/'+e.pm_id.match(/^BRS-X\(([^-]+)-/)[1].toLowerCase():e.brs))];const colors=systems.map(id=>{if(!systemColors.has(id))throw Error('Missing system colour '+id);return systemColors.get(id);});const gid='food-system-'+substanceFills.size;substanceFills.set(id,colors.length===1?colors[0]:`url(#${gid})`);if(colors.length>1)svg.push(`<linearGradient id="${gid}" x1="0%" y1="0%" x2="100%" y2="100%">${colors.map((c,i)=>`<stop offset="${100*i/colors.length}%" stop-color="${c}"/><stop offset="${100*(i+1)/colors.length}%" stop-color="${c}"/>`).join('')}</linearGradient>`);}
+for(const pair of data.foodPairs){const id=pair.id;const systems=[...new Set(pair.qualified.filter(e=>e.network==='approved').map(e=>e.brs==='BRS-X'?'BRS-X/'+e.pm_id.match(/^BRS-X\(([^-]+)-/)[1].toLowerCase():e.brs).filter(Boolean))];const colors=systems.map(id=>{if(!systemColors.has(id))throw Error('Missing system colour '+id);return systemColors.get(id);});const gid='food-system-'+substanceFills.size;if(!colors.length){substanceFills.set(id,'#9aa7bd');continue;}substanceFills.set(id,colors.length===1?colors[0]:`url(#${gid})`);if(colors.length>1)svg.push(`<linearGradient id="${gid}" x1="0%" y1="0%" x2="100%" y2="100%">${colors.map((c,i)=>`<stop offset="${100*i/colors.length}%" stop-color="${c}"/><stop offset="${100*(i+1)/colors.length}%" stop-color="${c}"/>`).join('')}</linearGradient>`);}
 svg.push('</defs>');
 for(const p of data.foodPairs){const a=foodpos.get(p.food),b=positions.get(p.substance);if(!b)throw Error('Missing substance position '+p.substance);const d=ribbon()({source:{startAngle:a.angle-.0018,endAngle:a.angle+.0018,radius:a.radius},target:{startAngle:b.angle-.004,endAngle:b.angle+.004,radius:b.radius}});svg.push(`<path class="food-link" data-food="${esc(p.food)}" data-substance="${esc(p.substance)}" data-proposed="${!p.existing}" d="${d}" fill="${substanceFills.get(p.id)}" fill-opacity=".12" ${!p.existing?'style="display:none"':''}/>`);}
 // Enlarge system labels only in this food-wheel preview.

@@ -1,0 +1,6 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {validateRankedViewerSync} from './validate-ranked-viewer-sync.mjs';
+const observation={value:1,unit:'mg',basis:'per100g'};
+function fixture(){const r={pm:'PM1',substance:'s',food:'approved',rank:1,relative_power:100,observations:[observation],layer:'Ranked'};return [{snapshot_id:'test',targets:[{pm_id:'PM1',substance_id:'s',selected:[{food_id:'approved',rank:1,relative_power:100,observation}]}]},{canonicalNetworks:{topFive:{selections:[{pm_id:'PM1',substance_id:'s',food_id:'approved',rank:1,relative_power:100,ranking_observation:observation}]}}},{foods:[r]},{records:[r]}];}
+test('all viewer ranks and observations equal the canonical snapshot',()=>assert.equal(validateRankedViewerSync(...fixture()),1));
+test('stale combined data cannot bypass publication filtering',()=>{const f=fixture();f[1].canonicalNetworks.topFive.selections[0].food_id='unlisted';assert.throws(()=>validateRankedViewerSync(...f),/Food Wheel.*PM1\|s\|unlisted.*Regenerate/);});
+test('changed power is detected even when edge counts match',()=>{const f=fixture();f[2].foods[0]={...f[2].foods[0],relative_power:99};assert.throws(()=>validateRankedViewerSync(...f),/PM Explorer.*approved/);});

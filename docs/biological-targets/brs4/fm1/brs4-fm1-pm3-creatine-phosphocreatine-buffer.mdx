@@ -886,6 +886,83 @@ dietary_input_assessments:
       sufficient_coverage_rationale: >-
         Reused existing methionine composition and preparation records; no SAM content or food efficacy edge
         inferred.
+scientific_hypotheses:
+  - id: PM3-H1
+    title: Additional Arginine Supply and Cerebral Creatine Availability
+    status: Unestablished
+    proposition: >-
+      In an adult experimental model with adequate background glycine and methionine supply, additional oral
+      arginine increases its contribution to cerebral creatine synthesis or delivery and increases cerebral
+      creatine availability compared with an isonitrogenous control.
+    proposed_direction: Additional oral arginine → cerebral creatine contribution and availability
+    rationale: >-
+      Renal precursor-production experiments motivate testing cerebral availability. Existing arginine,
+      glycine and methionine synthesis-capacity admissions do not establish benefit from additional intake.
+    finding_links:
+      supporting: []
+      contradictory_or_null: []
+      contextual:
+        - pm_id: BRS4-FM1-PM3
+          finding_id: PM3-F1
+          href: '#pm3-f1'
+          explanation: Provides bounded pathway context; does not establish the complete hypothesis.
+        - pm_id: BRS4-FM1-PM3
+          finding_id: PM3-F7
+          href: '#pm3-f7'
+          explanation: Provides bounded pathway context; does not establish the complete hypothesis.
+    evidence_sources:
+      - study_id: edison-2007
+        label: Edison et al. (2007)
+        url: https://pubmed.ncbi.nlm.nih.gov/17928413/
+        role: contextual
+        proposition: >-
+          Renal GAA production and acute rat arginine/citrulline responses provide precursor context; glycine
+          infusion was null.
+        limitations: Not an oral human brain experiment.
+      - study_id: asiriwardhana-2025
+        label: Asiriwardhana et al. (2025)
+        url: https://pubmed.ncbi.nlm.nih.gov/40998128/
+        role: contextual
+        proposition: Dietary methionine influences methyl allocation to products including creatine in neonatal piglets.
+        limitations: Hepatic neonatal context, not adult cerebral delivery.
+      - study_id: solis-2014
+        label: Solis et al. (2014)
+        url: https://doi.org/10.1017/S0007114513003802
+        role: contextual
+        proposition: Vegetarians and omnivores had similar measured brain total creatine despite intake differences.
+        limitations: Cross-sectional; not a direct precursor intervention or refutation of this hypothesis.
+    limitations:
+      - Renal GAA production and neonatal hepatic methyl incorporation are not cerebral delivery measurements.
+      - Arginine infusion is not oral exposure; glycine infusion did not produce the same response.
+      - AGAT feedback, methyl allocation and tissue transport constrain supply.
+      - >-
+        Brain isotope appearance does not distinguish local synthesis from peripheral synthesis and import;
+        greater labelling need not increase the total pool.
+      - No cognitive benefit, effective food dose or new dietary admission is established.
+      - The full 2025 piglet tracer protocol was not independently verified in this appraisal.
+    alternative_explanations:
+      - Peripheral synthesis may rise without greater brain uptake.
+      - >-
+        Turnover or replacement may change without increased pool availability; transport and baseline
+        sufficiency may govern response.
+    required_evidence:
+      - >-
+        Measure oral exposure, peripheral GAA/creatine production, region-specific brain incorporation and
+        total creatine/PCr with precursor-enrichment correction.
+      - >-
+        Support requires increased cerebral contribution and availability; greater labelling alone supports
+        turnover only.
+      - >-
+        A precise cerebral null despite verified exposure and a peripheral response counts against the bounded
+        proposition.
+    provenance:
+      - >-
+        Author-approved bounded hypothesis following the ten-candidate appraisal and individual review on 14
+        November 2026.
+      - >-
+        Approval registers the proposition only. No dietary admissions, SEC, publication gates, food mappings,
+        rankings or accepted graph edges change.
+    review_date: '2026-11-14'
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -1084,6 +1161,13 @@ This PM buffers short-timescale ATP demand; [BRS4-FM1-PM1 — Electron Transport
 </div>
 </div>
 </div>
+
+{/* scientific-hypotheses:start */}
+### Scientific Hypotheses
+
+<ScientificHypothesis hypothesis={{"id":"PM3-H1","title":"Additional Arginine Supply and Cerebral Creatine Availability","status":"Unestablished","proposition":"In an adult experimental model with adequate background glycine and methionine supply, additional oral arginine increases its contribution to cerebral creatine synthesis or delivery and increases cerebral creatine availability compared with an isonitrogenous control.","proposed_direction":"Additional oral arginine → cerebral creatine contribution and availability","rationale":"Renal precursor-production experiments motivate testing cerebral availability. Existing arginine, glycine and methionine synthesis-capacity admissions do not establish benefit from additional intake.","finding_links":{"supporting":[],"contradictory_or_null":[],"contextual":[{"pm_id":"BRS4-FM1-PM3","finding_id":"PM3-F1","href":"#pm3-f1","explanation":"Provides bounded pathway context; does not establish the complete hypothesis."},{"pm_id":"BRS4-FM1-PM3","finding_id":"PM3-F7","href":"#pm3-f7","explanation":"Provides bounded pathway context; does not establish the complete hypothesis."}]},"evidence_sources":[{"study_id":"edison-2007","label":"Edison et al. (2007)","url":"https://pubmed.ncbi.nlm.nih.gov/17928413/","role":"contextual","proposition":"Renal GAA production and acute rat arginine/citrulline responses provide precursor context; glycine infusion was null.","limitations":"Not an oral human brain experiment."},{"study_id":"asiriwardhana-2025","label":"Asiriwardhana et al. (2025)","url":"https://pubmed.ncbi.nlm.nih.gov/40998128/","role":"contextual","proposition":"Dietary methionine influences methyl allocation to products including creatine in neonatal piglets.","limitations":"Hepatic neonatal context, not adult cerebral delivery."},{"study_id":"solis-2014","label":"Solis et al. (2014)","url":"https://doi.org/10.1017/S0007114513003802","role":"contextual","proposition":"Vegetarians and omnivores had similar measured brain total creatine despite intake differences.","limitations":"Cross-sectional; not a direct precursor intervention or refutation of this hypothesis."}],"limitations":["Renal GAA production and neonatal hepatic methyl incorporation are not cerebral delivery measurements.","Arginine infusion is not oral exposure; glycine infusion did not produce the same response.","AGAT feedback, methyl allocation and tissue transport constrain supply.","Brain isotope appearance does not distinguish local synthesis from peripheral synthesis and import; greater labelling need not increase the total pool.","No cognitive benefit, effective food dose or new dietary admission is established.","The full 2025 piglet tracer protocol was not independently verified in this appraisal."],"alternative_explanations":["Peripheral synthesis may rise without greater brain uptake.","Turnover or replacement may change without increased pool availability; transport and baseline sufficiency may govern response."],"required_evidence":["Measure oral exposure, peripheral GAA/creatine production, region-specific brain incorporation and total creatine/PCr with precursor-enrichment correction.","Support requires increased cerebral contribution and availability; greater labelling alone supports turnover only.","A precise cerebral null despite verified exposure and a peripheral response counts against the bounded proposition."],"provenance":["Author-approved bounded hypothesis following the ten-candidate appraisal and individual review on 14 November 2026.","Approval registers the proposition only. No dietary admissions, SEC, publication gates, food mappings, rankings or accepted graph edges change."],"review_date":"2026-11-14"}} />
+
+{/* scientific-hypotheses:end */}
 
 ### 4.1 Scientific Findings
 

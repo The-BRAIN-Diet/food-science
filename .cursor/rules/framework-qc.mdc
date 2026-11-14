@@ -10,7 +10,7 @@ When a problem is discovered **outside** the active review batch:
 1. Record it in `system/framework-qc/framework-issues-register.json` (new `FWnnn` or a numbered finding on an existing issue).
 2. Link the affected page in that issue’s `scope` (`page_ids` / `page_paths`). Do **not** copy a framework-wide issue onto hundreds of page rows.
 3. In `system/framework-qc/page-review-state.json`, set that page’s `review_status` to `issues_logged` (or `recheck_required` if it was already reviewed) and add the issue ID to `linked_framework_issue_ids`.
-4. Run `npm run qc:generate`.
+4. Run `npm run qc:generate` (it also runs automatically before `npm start` and `npm run build`).
 5. **Do not fix the content.**
 
 Immediate correction is permitted only when:
@@ -21,4 +21,6 @@ Immediate correction is permitted only when:
 
 Do not add QC metadata to content-page front matter. Public Review & Corrections UI is generated from the existing registers (`npm run qc:generate`); do not create a second issues register or publish internal issues.
 
-The central QA register (`docs/dietary-foundations/framework-review-and-corrections.mdx`) and Training (`docs/training/**`) are local-only. They require `INCLUDE_INTERNAL_DOCS=true` and must not be committed. The per-page Review & Corrections tab is required on every PM. PM evidence-audit corrections (`register_surface: pm-tab`) stay on that tab and must not be added to the Framework Review & Corrections register.
+The central QA register (`docs/dietary-foundations/framework-review-and-corrections.mdx`) and Training (`docs/training/**`) are local-only. They require `INCLUDE_INTERNAL_DOCS=true` and must not be committed. The per-page Review & Corrections tab is required on every PM. PM evidence-audit corrections (`register_surface: pm-tab`) stay on that tab and must not be added to the public framework dataset (`src/data/framework-qc-public.generated.json`).
+
+Owner decision, 13 November 2026: the local-only central register lists **every** register issue, including PM-tab corrections and internal issues, each labelled with its surface and visibility. It reads `src/data/framework-qc-register.generated.json` (gitignored), which the build substitutes for an empty fallback only when `INCLUDE_INTERNAL_DOCS=true`. Never route internal issues through the public dataset, which is bundled into public PM tabs.

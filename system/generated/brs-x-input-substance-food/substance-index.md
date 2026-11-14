@@ -13,7 +13,7 @@ Generated from the same authoritative records as the PM disclosures. The preview
 Verified per-100 g observations, listed alphabetically. Preparations and measurement bases remain distinct; no common nutritional ranking is implied.
 
 <details>
-<summary>All mapped food sources (147)</summary>
+<summary>All mapped food sources (149)</summary>
 
 | Food + page | Material / preparation | Amount and measurement basis | Source-record reference |
 | --- | --- | --- | --- |
@@ -33,6 +33,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Black Pepper](http://localhost:3000/docs/foods/black-pepper) | Spices, pepper, black | 1.19 mg (per 100 g edible portion) | docs/foods/black-pepper.md#nutrition_per_100g/zinc_mg |
 | [Black Tea](http://localhost:3000/docs/foods/black-tea) | Beverages, tea, black, brewed, prepared with tap water | 0.02 mg (per 100 g edible portion) | docs/foods/black-tea.md#nutrition_per_100g/zinc_mg |
 | [Blueberries](http://localhost:3000/docs/foods/blueberries) | Blueberries, raw — raw | 0.16 mg (per 100 g edible portion) | docs/foods/blueberries.md#nutrition_per_100g/zinc_mg |
+| [Brazil Nuts](http://localhost:3000/docs/foods/brazil-nuts) | Nuts, brazilnuts, dried, unblanched — dried | 4.06 mg (per 100 g edible portion) | docs/foods/brazil-nuts.md#nutrition_per_100g/zinc_mg |
 | [Broccoli Sprouts](http://localhost:3000/docs/foods/broccoli-sprouts) | Broccoli sprouts, raw — raw | 0.5 mg (per 100 g edible portion) | docs/foods/broccoli-sprouts.md#nutrition_per_100g/zinc_mg |
 | [Broccoli](http://localhost:3000/docs/foods/broccoli) | Broccoli, raw — raw | 0.41 mg (per 100 g edible portion) | docs/foods/broccoli.md#nutrition_per_100g/zinc_mg; docs/foods/broccoli.md#substance_relationships/Zinc |
 | [Brussels Sprouts](http://localhost:3000/docs/foods/brussels-sprouts) | Brussels sprouts, raw — raw | 0.42 mg (per 100 g edible portion) | docs/foods/brussels-sprouts.md#nutrition_per_100g/zinc_mg |
@@ -55,6 +56,7 @@ Verified per-100 g observations, listed alphabetically. Preparations and measure
 | [Cilantro](http://localhost:3000/docs/foods/cilantro) | Coriander (cilantro) leaves, raw — raw | 0.5 mg (per 100 g edible portion) | docs/foods/cilantro.md#nutrition_per_100g/zinc_mg |
 | [Cinnamon](http://localhost:3000/docs/foods/cinnamon) | Spices, cinnamon, ground | 1.83 mg (per 100 g edible portion) | docs/foods/cinnamon.md#nutrition_per_100g/zinc_mg |
 | [Clams](http://localhost:3000/docs/foods/clams) | Mollusks, clam, mixed species, raw — raw | 0.51 mg (per 100 g edible portion) | docs/foods/clams.md#nutrition_per_100g/zinc_mg |
+| [Cloves](http://localhost:3000/docs/foods/cloves) | Spices, cloves, ground | 2.32 mg (per 100 g edible portion) | docs/foods/cloves.md#nutrition_per_100g/zinc_mg |
 | [Cockles](http://localhost:3000/docs/foods/cockles) | boiled Austrovenus stutchburyi cockles — raw | Quantity not established | docs/foods/cockles.md#substance_relationships/Zinc; docs/foods/cockles.md#nutrition_supplementary_sources/zinc_qual |
 | [Cocoa](http://localhost:3000/docs/foods/cocoa) | Cocoa, dry powder, unsweetened — dry powder | 6.81 mg (per 100 g edible portion) | docs/foods/cocoa.md#nutrition_per_100g/zinc_mg; docs/foods/cocoa.md#substance_relationships/Zinc |
 | [Coconut Oil](http://localhost:3000/docs/foods/coconut-oil) | Oil, coconut — Oil | 0.02 mg (per 100 g edible portion) | docs/foods/coconut-oil.md#nutrition_per_100g/zinc_mg |
@@ -247,6 +249,7 @@ Separate from dietary relationship filters.
 - BRS-X(ECS-PM1) — N-acyl phosphatidylethanolamines (NAPEs): Endogenous/biochemical dependency
 - BRS-X(ECS-PM1) — Phosphatidylethanolamine: Endogenous/biochemical dependency
 - BRS-X(ECS-PM3) — Anandamide (AEA): Endogenous/biochemical dependency
+- BRS-X(ECS-PM3) — Genistein: PM-owned dietary relationship
 - BRS-X(ECS-PM4) — 2-Arachidonoylglycerol (2-AG): Endogenous/biochemical dependency
 - BRS-X(Hormones-PM2) — Estrogen glucuronides: Endogenous/biochemical dependency
 - BRS-X(Hormones-PM3) — 3α,5α-Tetrahydrodeoxycorticosterone (THDOC): Endogenous/biochemical dependency

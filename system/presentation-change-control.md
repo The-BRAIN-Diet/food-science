@@ -47,3 +47,15 @@ No ranking, food-composition, scientific-admission or release authorisation is c
 Author instruction: restore `Plant-based -` and `Animal-based -`, then “we don't need this unranked heading, remove it from the template.” The shared dropdown does not prefix categories with `Ranked sources ·` and does not render `Documented, unranked sources`. The category column grid applies only to a summary that contains the category label, so an empty ranked row stays on the available line. Representative page: BRS1-FM5-PM12. No ranking, food-record or admission change.
 
 Author instruction, 12 November 2026: `edible portion` is not a public basis label, and `Measurement provenance` is not shown on any PM. Preparations such as `cooked` stay. Stored analytical bases are unchanged.
+
+
+## Temporary public review-history disclosure — approved 14 November 2026
+
+Author: “Yes, approve the temporary public-QC disclosure. Implement it, test and refresh the PR #244 preview. Preserve the archived issues and keep QC suspended; do not mark them closed. No merge or production deployment.”
+
+- Change/purpose: disclose incomplete review metadata instead of implying an empty register establishes clearance.
+- Placement/scope: existing shared Review & Corrections panel on every page where opened, the PM Evidence & Audit panel’s existing Correction status area, and the existing Framework Review & Corrections register where available. The nested PM review records do not repeat the outer notice. No new tab or scientific section. One notice per surface, no duplicated scientific content.
+- Exact example: “Public review-history reconciliation is incomplete. Missing review entries do not indicate scientific clearance or resolution of previously recorded issues.” Missing page metadata reads “Review history unavailable / incomplete”; an empty register reports available entries with an explicit incomplete-history qualification rather than “0 issues”.
+- Source: the archived issue register and page-review state remain inactive; the temporary presentation flag is not a scientific status or issue resolution. Existing available corrections remain displayed with their original statuses.
+- Governance: preserve the archived records, unresolved public-QC test expectation, current suspension and all admission/SEC/ranking decisions. Do not activate archived inputs or remove this disclosure automatically on file discovery. Removal requires separately validated public-history reconciliation.
+- This is a shared review-status presentation exception only. Stage 2A/2B scientific contracts, PM schema, missions and evidence templates remain unchanged. See [Framework QC contract](framework-qc-schema.md) and the [recovery action register](../review/recovery-readiness-2026-11-14/ACTION-REGISTER.md).

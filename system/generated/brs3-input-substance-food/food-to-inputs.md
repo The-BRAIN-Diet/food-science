@@ -22,6 +22,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Black Pepper | 4 | iron; magnesium; zinc; copper; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Black Tea | 5 | manganese; iron; magnesium; copper; vitamin-b2; zinc | BRS3-FM2-PM4; BRS3-FM2-PM6 |  |
 | Blueberries | 8 | manganese; vitamin-c; zinc; selenium; vitamin-e; vitamin-b2; iron; magnesium; copper | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
+| Brazil Nuts | 8 | selenium; iron; magnesium; zinc; copper; manganese; vitamin-c; vitamin-b2; vitamin-e | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Broccoli Sprouts | 4 | magnesium; iron; vitamin-c; sulforaphane; zinc | BRS3-FM2-PM3; BRS3-FM2-PM4; BRS3-FM2-PM6 |  |
 | Broccoli | 9 | magnesium; iron; manganese; zinc; vitamin-b2; vitamin-c; sulforaphane; selenium; vitamin-e; copper | BRS3-FM2-PM3; BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Brussels Sprouts | 8 | vitamin-c; iron; magnesium; copper; manganese; vitamin-b2; zinc; vitamin-e; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
@@ -45,6 +46,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Cilantro | 8 | copper; manganese; zinc; selenium; vitamin-c; iron; magnesium; vitamin-b2; vitamin-e | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Cinnamon | 8 | selenium; iron; magnesium; copper; manganese; vitamin-b2; vitamin-c; zinc; vitamin-e | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Clams | 9 | iron; zinc; selenium; vitamin-e; vitamin-b2; dha-docosahexaenoic-acid; epa-eicosapentaenoic-acid; magnesium; copper; manganese | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 |  |
+| Cloves | 7 | iron; magnesium; zinc; copper; manganese; selenium; vitamin-c; vitamin-e | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Cockles | 6 | iron; epa-eicosapentaenoic-acid; dha-docosahexaenoic-acid; selenium; zinc; vitamin-b2 | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6; BRS3-FM3-PM7; BRS3-FM3-PM8 |  |
 | Cocoa | 7 | magnesium; iron; zinc; vitamin-e; copper; manganese; vitamin-b2; selenium | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |
 | Coconut Oil | 3 | iron; vitamin-e; zinc | BRS3-FM2-PM4; BRS3-FM2-PM5; BRS3-FM2-PM6 |  |

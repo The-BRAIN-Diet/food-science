@@ -737,6 +737,11 @@ Blueberries:
   permalink: /blueberries
   description: Berry rich in anthocyanins and antioxidants
 
+Brazil Nuts:
+  label: Brazil Nuts
+  permalink: /brazil-nuts
+  description: Dried unblanched nuts with a high USDA selenium value
+
 Broccoli:
   label: Broccoli
   permalink: /broccoli
@@ -836,6 +841,11 @@ Cinnamon:
   label: Cinnamon
   permalink: /cinnamon
   description: Spice supporting glycemic control
+
+Cloves:
+  label: Cloves
+  permalink: /cloves
+  description: Dried flower buds with a measured quercetin value
 
 Citrus:
   label: Citrus

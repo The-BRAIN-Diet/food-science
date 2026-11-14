@@ -1,0 +1,6 @@
+// Historical pilot reproduction only. Run separately from current-candidate checks.
+// Pins and the historical assertion are deliberately preserved, not refreshed.
+import fs from 'node:fs';import test from 'node:test';import assert from 'node:assert/strict';import matter from 'gray-matter';import {createHash} from 'node:crypto';
+const dir='review/pm9-hypothesis-pilot-2026-10-23',file='docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx',read=p=>JSON.parse(fs.readFileSync(p)),p=matter(fs.readFileSync(file,'utf8')),hash=b=>createHash('sha256').update(b).digest('hex');
+const approved=matter(fs.readFileSync('review/recovery-readiness-2026-11-14/integration/validation-baselines/pm9-approved.mdx','utf8'));
+test('all old structured PM9 scientific fields remain identical, and all other PM source bytes match their independently approved baselines',()=>{const projected={...p.data};delete projected.scientific_hypotheses;const approvedData=structuredClone(approved.data);delete approvedData.scientific_hypotheses;assert.deepEqual(projected,approvedData);const hashes={...read(dir+'/canonical-before-sha256.json'),...read(dir+'/release-approved-pm-hashes.json').sha256};for(const [f,digest]of Object.entries(hashes))if(f!==file)assert.equal(hash(fs.readFileSync(f)),digest,f);});

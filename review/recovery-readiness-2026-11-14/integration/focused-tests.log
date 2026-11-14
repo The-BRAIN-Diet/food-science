@@ -1,0 +1,320 @@
+TAP version 13
+# Subtest: BRS5-FM2-PM4 approved hypothesis, unchanged science and original body
+ok 1 - BRS5-FM2-PM4 approved hypothesis, unchanged science and original body
+  ---
+  duration_ms: 632.544458
+  ...
+# Subtest: BRS4-FM1-PM3 approved hypothesis, unchanged science and original body
+ok 2 - BRS4-FM1-PM3 approved hypothesis, unchanged science and original body
+  ---
+  duration_ms: 117.528833
+  ...
+# Subtest: BRS-X(ECS-PM1) approved hypothesis, unchanged science and original body
+ok 3 - BRS-X(ECS-PM1) approved hypothesis, unchanged science and original body
+  ---
+  duration_ms: 98.67575
+  ...
+# Subtest: BRS-X(Hormones-PM6) approved hypothesis, unchanged science and original body
+ok 4 - BRS-X(Hormones-PM6) approved hypothesis, unchanged science and original body
+  ---
+  duration_ms: 86.418584
+  ...
+# Subtest: all four PM pages compile using the existing layout
+ok 5 - all four PM pages compile using the existing layout
+  ---
+  duration_ms: 786.877
+  ...
+# Subtest: approved PE and androgen boundaries remain explicit
+ok 6 - approved PE and androgen boundaries remain explicit
+  ---
+  duration_ms: 1.172959
+  ...
+# Subtest: author-approved food records and snapshot use the same exact hashes
+ok 7 - author-approved food records and snapshot use the same exact hashes
+  ---
+  duration_ms: 3.310875
+  ...
+# Subtest: approved Brazil nuts, cloves and chicken liver compete without forced selection
+ok 8 - approved Brazil nuts, cloves and chicken liver compete without forced selection
+  ---
+  duration_ms: 5.574958
+  ...
+# Subtest: chicken liver raw panel and pan-fried betaine remain separate; below-threshold betaine is not ranked
+ok 9 - chicken liver raw panel and pan-fried betaine remain separate; below-threshold betaine is not ranked
+  ---
+  duration_ms: 30.010209
+  ...
+# Subtest: ranked Brazil-nut selenium has no contradictory unranked fallback
+ok 10 - ranked Brazil-nut selenium has no contradictory unranked fallback
+  ---
+  duration_ms: 179.630375
+  ...
+# Subtest: every Explorer mission is the canonical current PM mission
+ok 11 - every Explorer mission is the canonical current PM mission
+  ---
+  duration_ms: 328.083542
+  ...
+# Subtest: PM3 Mission renders canonical frontmatter without a separate prose value
+ok 12 - PM3 Mission renders canonical frontmatter without a separate prose value
+  ---
+  duration_ms: 95.076292
+  ...
+# Subtest: unresolved PM3 remains unresolved across source and food projections
+ok 13 - unresolved PM3 remains unresolved across source and food projections
+  ---
+  duration_ms: 0.877167
+  ...
+# Subtest: network retains eight BRS5 PMs and all five qualified experimental relationships
+ok 14 - network retains eight BRS5 PMs and all five qualified experimental relationships
+  ---
+  duration_ms: 3.402292
+  ...
+# Subtest: ranked observations are preserved without new selection
+ok 15 - ranked observations are preserved without new selection
+  ---
+  duration_ms: 25.50375
+  ...
+# Subtest: unranked records retain provenance; children inherit no food edges
+ok 16 - unranked records retain provenance; children inherit no food edges
+  ---
+  duration_ms: 3.378042
+  ...
+# Subtest: PM4 uses PM dropdown sources: asparagus/inulin and peas/arabinan; restrictions remain
+ok 17 - PM4 uses PM dropdown sources: asparagus/inulin and peas/arabinan; restrictions remain
+  ---
+  duration_ms: 228.03475
+  ...
+# Subtest: all nine systems expose the 67 current canonical PMs without altering BRS5 foods
+ok 18 - all nine systems expose the 67 current canonical PMs without altering BRS5 foods
+  ---
+  duration_ms: 230.018833
+  ...
+# Subtest: food presentation is plant-first then animal, retaining descending ranked values
+ok 19 - food presentation is plant-first then animal, retaining descending ranked values
+  ---
+  duration_ms: 156.741084
+  ...
+# Subtest: lamb creatine is grouped as animal in the shared helper and Explorer
+ok 20 - lamb creatine is grouped as animal in the shared helper and Explorer
+  ---
+  duration_ms: 167.620083
+  ...
+# Subtest: canonical documentation links stay on the current preview or production origin
+ok 21 - canonical documentation links stay on the current preview or production origin
+  ---
+  duration_ms: 6.546125
+  ...
+# Subtest: thresholds preserve ranked eligibility, canonical triples and independent whole egg and yolk
+ok 22 - thresholds preserve ranked eligibility, canonical triples and independent whole egg and yolk
+  ---
+  duration_ms: 274.384708
+  ...
+# Subtest: default counts and plant-before-animal grouping
+ok 23 - default counts and plant-before-animal grouping
+  ---
+  duration_ms: 27.342708
+  ...
+# Subtest: BRS filter never introduces edges; expansion preserves default evidence
+ok 24 - BRS filter never introduces edges; expansion preserves default evidence
+  ---
+  duration_ms: 81.013375
+  ...
+# Subtest: deduplication retains every source observation
+ok 25 - deduplication retains every source observation
+  ---
+  duration_ms: 142.136167
+  ...
+# Subtest: serving conversion rejects dry matter, supporting relationships and invalid amounts
+ok 26 - serving conversion rejects dry matter, supporting relationships and invalid amounts
+  ---
+  duration_ms: 1.20975
+  ...
+# Subtest: raw whole egg and yolk retain distinct canonical observations and viewer links
+ok 27 - raw whole egg and yolk retain distinct canonical observations and viewer links
+  ---
+  duration_ms: 263.075041
+  ...
+# Subtest: ranked selections unchanged; unranked triples unique with no scores
+ok 28 - ranked selections unchanged; unranked triples unique with no scores
+  ---
+  duration_ms: 44.198833
+  ...
+# Subtest: PM4 omissions restored without releasing pectin or RS restrictions
+ok 29 - PM4 omissions restored without releasing pectin or RS restrictions
+  ---
+  duration_ms: 0.278958
+  ...
+# Subtest: no experimental child foods; new foods selectable with BRS off
+ok 30 - no experimental child foods; new foods selectable with BRS off
+  ---
+  duration_ms: 10.937083
+  ...
+# Subtest: BRS5 documented layer equals the shared PM Explorer layer
+ok 31 - BRS5 documented layer equals the shared PM Explorer layer
+  ---
+  duration_ms: 157.132792
+  ...
+# Subtest: PE clinical claim matches posted results without erasing precursor biology
+ok 32 - PE clinical claim matches posted results without erasing precursor biology
+  ---
+  duration_ms: 4.692917
+  ...
+# Subtest: PC restores exactly six evidence-qualified occurrences without ranks or quantities
+ok 33 - PC restores exactly six evidence-qualified occurrences without ranks or quantities
+  ---
+  duration_ms: 23.568791
+  ...
+# Subtest: uridine retains free-form distinction, delivery limits and original reference
+ok 34 - uridine retains free-form distinction, delivery limits and original reference
+  ---
+  duration_ms: 0.525333
+  ...
+# Subtest: qualitative choline coexists with eight unchanged ranked sources
+ok 35 - qualitative choline coexists with eight unchanged ranked sources
+  ---
+  duration_ms: 1.229042
+  ...
+# Subtest: methionine retains ten; approved betaine sources keep measured canned shrimp out of the presence-only layer
+ok 36 - methionine retains ten; approved betaine sources keep measured canned shrimp out of the presence-only layer
+  ---
+  duration_ms: 2.146709
+  ...
+# Subtest: no biochemical participant or unadmitted route creates qualitative food admission
+ok 37 - no biochemical participant or unadmitted route creates qualitative food admission
+  ---
+  duration_ms: 0.241833
+  ...
+# Subtest: blocked targets, internal-only duplicate records, quantities and unsupported assertions remain excluded
+ok 38 - blocked targets, internal-only duplicate records, quantities and unsupported assertions remain excluded
+  ---
+  duration_ms: 1.816083
+  ...
+# Subtest: identity-based grouping ignores misleading analytical prose
+ok 39 - identity-based grouping ignores misleading analytical prose
+  ---
+  duration_ms: 0.226375
+  ...
+# Subtest: deduplication retains provenance and excludes ranked food pairs
+ok 40 - deduplication retains provenance and excludes ranked food pairs
+  ---
+  duration_ms: 2.183709
+  ...
+# Subtest: all scopes keep qualitative connections separate from ranked snapshot without mutation
+ok 41 - all scopes keep qualitative connections separate from ranked snapshot without mutation
+  ---
+  duration_ms: 349.971208
+  ...
+# Subtest: preparation-dependent sulforaphane renders its qualified label
+ok 42 - preparation-dependent sulforaphane renders its qualified label
+  ---
+  duration_ms: 0.451791
+  ...
+# Subtest: refreshed PM dropdowns preserve approved pectin and sulforaphane sources with provenance and preparation
+ok 43 - refreshed PM dropdowns preserve approved pectin and sulforaphane sources with provenance and preparation
+  ---
+  duration_ms: 80.138584
+  ...
+# Subtest: measured unranked renderer retains bases, calculation, variability and holds
+ok 44 - measured unranked renderer retains bases, calculation, variability and holds
+  ---
+  duration_ms: 63.963334
+  ...
+# Subtest: unlisted source cannot enter published ranking, and input evidence is untouched
+ok 45 - unlisted source cannot enter published ranking, and input evidence is untouched
+  ---
+  duration_ms: 5.036667
+  ...
+# Subtest: deduplicate diagnostics; no implicit approval through aliases or missing identity
+ok 46 - deduplicate diagnostics; no implicit approval through aliases or missing identity
+  ---
+  duration_ms: 21.421958
+  ...
+# Subtest: minimum two refers to independent comparable pool, not surviving selection
+ok 47 - minimum two refers to independent comparable pool, not surviving selection
+  ---
+  duration_ms: 2.013625
+  ...
+# Subtest: all viewer ranks and observations equal the canonical snapshot
+ok 48 - all viewer ranks and observations equal the canonical snapshot
+  ---
+  duration_ms: 3.382875
+  ...
+# Subtest: stale combined data cannot bypass publication filtering
+ok 49 - stale combined data cannot bypass publication filtering
+  ---
+  duration_ms: 7.169
+  ...
+# Subtest: changed power is detected even when edge counts match
+ok 50 - changed power is detected even when edge counts match
+  ---
+  duration_ms: 10.944667
+  ...
+# Subtest: all nine approved recovered hypotheses retain exact identities and Unestablished status
+ok 51 - all nine approved recovered hypotheses retain exact identities and Unestablished status
+  ---
+  duration_ms: 1142.533958
+  ...
+# Subtest: hypothesis recovery does not change any approved ranked selection or observation
+ok 52 - hypothesis recovery does not change any approved ranked selection or observation
+  ---
+  duration_ms: 63.146958
+  ...
+# Subtest: a verified resistant-starch food becomes a related butyrate source
+ok 53 - a verified resistant-starch food becomes a related butyrate source
+  ---
+  duration_ms: 26.969
+  ...
+# Subtest: removing the intermediate relationship removes the derived association
+ok 54 - removing the intermediate relationship removes the derived association
+  ---
+  duration_ms: 1.295875
+  ...
+# Subtest: direct composition remains unchanged and generic fibre does not infer butyrate
+ok 55 - direct composition remains unchanged and generic fibre does not infer butyrate
+  ---
+  duration_ms: 0.456917
+  ...
+# Subtest: related sources stay out of quantitative ranking and manuscript butyrate rows
+ok 56 - related sources stay out of quantitative ranking and manuscript butyrate rows
+  ---
+  duration_ms: 3.947333
+  ...
+# Subtest: PM1 dietary admissions and six-atom records remain unchanged
+ok 57 - PM1 dietary admissions and six-atom records remain unchanged
+  ---
+  duration_ms: 30.637958
+  ...
+# Subtest: one new resistant-starch food generates butyrate everywhere and FOS/GOS stays unconnected
+ok 58 - one new resistant-starch food generates butyrate everywhere and FOS/GOS stays unconnected
+  ---
+  duration_ms: 3.528834
+  ...
+# Subtest: FOS/GOS constituent foods stay off the combined preparation
+ok 59 - FOS/GOS constituent foods stay off the combined preparation
+  ---
+  duration_ms: 31.245375
+  ...
+# Subtest: ellagitannin foods supply related ellagic acid without an ellagic acid quantity
+ok 60 - ellagitannin foods supply related ellagic acid without an ellagic acid quantity
+  ---
+  duration_ms: 28.12625
+  ...
+# Subtest: preview startup skips ranked writers but retains ordinary mapping steps
+ok 61 - preview startup skips ranked writers but retains ordinary mapping steps
+  ---
+  duration_ms: 5.148834
+  ...
+# Subtest: production generation retains both ranked writers and prebuild checks
+ok 62 - production generation retains both ranked writers and prebuild checks
+  ---
+  duration_ms: 2.267083
+  ...
+1..62
+# tests 62
+# suites 0
+# pass 62
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2296.880666

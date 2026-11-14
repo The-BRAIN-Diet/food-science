@@ -1,0 +1,50 @@
+TAP version 13
+# Subtest: BRS5-FM2-PM4 approved hypothesis, unchanged science and original body
+ok 1 - BRS5-FM2-PM4 approved hypothesis, unchanged science and original body
+  ---
+  duration_ms: 129.598083
+  ...
+# Subtest: BRS4-FM1-PM3 approved hypothesis, unchanged science and original body
+ok 2 - BRS4-FM1-PM3 approved hypothesis, unchanged science and original body
+  ---
+  duration_ms: 33.534208
+  ...
+# Subtest: BRS-X(ECS-PM1) approved hypothesis, unchanged science and original body
+ok 3 - BRS-X(ECS-PM1) approved hypothesis, unchanged science and original body
+  ---
+  duration_ms: 39.649333
+  ...
+# Subtest: BRS-X(Hormones-PM6) approved hypothesis, unchanged science and original body
+ok 4 - BRS-X(Hormones-PM6) approved hypothesis, unchanged science and original body
+  ---
+  duration_ms: 33.637666
+  ...
+# Subtest: all four PM pages compile using the existing layout
+ok 5 - all four PM pages compile using the existing layout
+  ---
+  duration_ms: 358.21
+  ...
+# Subtest: approved PE and androgen boundaries remain explicit
+ok 6 - approved PE and androgen boundaries remain explicit
+  ---
+  duration_ms: 0.848708
+  ...
+# Subtest: all nine approved recovered hypotheses retain exact identities and Unestablished status
+ok 7 - all nine approved recovered hypotheses retain exact identities and Unestablished status
+  ---
+  duration_ms: 419.222042
+  ...
+# Subtest: hypothesis recovery does not change any approved ranked selection or observation
+ok 8 - hypothesis recovery does not change any approved ranked selection or observation
+  ---
+  duration_ms: 28.400166
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 724.264083

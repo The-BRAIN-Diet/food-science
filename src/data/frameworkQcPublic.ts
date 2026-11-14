@@ -1,4 +1,5 @@
 import publicDataset from "./framework-qc-public.fallback.json"
+import registerDataset from "./framework-qc-register.fallback.json"
 
 export type PublicCorrection = {
   title: string
@@ -61,9 +62,26 @@ export type PublicQcDataset = {
 
 export const frameworkQcPublic = publicDataset as PublicQcDataset
 
+export type RegisterIssue = PublicIssue & {visibility: "public" | "internal"}
+
+/** Every register issue. Empty unless the build includes internal docs. */
+export const frameworkQcRegister = registerDataset as {
+  version: number
+  generated: string
+  issues: RegisterIssue[]
+}
+
 export const REVIEW_QUERY_PARAM = "review"
 export const ADVANCED_QUERY_PARAM = "advanced"
 export const THERAPEUTIC_QUERY_PARAM = "therapeutic"
+
+/** Author-approved temporary disclosure, 14 November 2026.
+ * Archived review inputs are not active. This is not issue closure or QC clearance.
+ * Remove only after a separately validated reconciliation of public review history.
+ */
+export const PUBLIC_QC_HISTORY_INCOMPLETE = true
+export const PUBLIC_QC_HISTORY_DISCLOSURE =
+  "Public review-history reconciliation is incomplete. Missing review entries do not indicate scientific clearance or resolution of previously recorded issues."
 
 export const UNREVIEWED_STATUS_COPY = "Evidence review status: Unreviewed."
 export const UNREVIEWED_CORRECTIONS_COPY =

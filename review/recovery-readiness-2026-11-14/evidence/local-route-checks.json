@@ -1,0 +1,26 @@
+[
+  {
+    "path": "/explore/food-wheel/",
+    "status": 200
+  },
+  {
+    "path": "/explore/pm-explorer/",
+    "status": 200
+  },
+  {
+    "path": "/explore/food-intelligence/",
+    "status": 200
+  },
+  {
+    "path": "/docs/foods/brazil-nuts/",
+    "status": 200
+  },
+  {
+    "path": "/docs/foods/cloves/",
+    "status": 200
+  },
+  {
+    "path": "/docs/substances/nutrients/macronutrients/fatty-acids/phospholipids/phosphatidylethanolamine/",
+    "status": 200
+  }
+]

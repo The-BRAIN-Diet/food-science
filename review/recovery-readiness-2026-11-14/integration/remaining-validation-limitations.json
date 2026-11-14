@@ -1,0 +1,100 @@
+{
+  "status": "Not frozen; no global QC PASS claimed",
+  "failures": [
+    {
+      "suite": "scientific-hypotheses.test.mjs",
+      "test": "hypothesis validates, is unestablished and appears immediately before unchanged \u00a74.1 Finding projection",
+      "classification": "Historical global-Findings/placement expectation; individual registered hypothesis validation passes",
+      "action": "Reconcile checker/approved projection separately; do not rewrite scientific content"
+    },
+    {
+      "suite": "scientific-hypotheses.test.mjs",
+      "test": "all old structured PM9 scientific fields remain identical, and all other PM source bytes match their independently approved baselines",
+      "classification": "Historical PM9 baseline predates current scientific records",
+      "action": "Review baseline provenance; no automatic scientific rollback"
+    },
+    {
+      "suite": "brs5-pm1-hypothesis.test.mjs",
+      "test": "all previous PM1 scientific fields and original body are preserved exactly",
+      "classification": "Historical PM1 baseline mismatch",
+      "action": "Reconcile against current approved PM1 record separately"
+    },
+    {
+      "suite": "brs5-pm1-hypothesis.test.mjs",
+      "test": "hypothesis leaves causal extraction, food targets and manuscript decisions identical",
+      "classification": "Historical whole-output fixture includes intervening approved source changes",
+      "action": "Separate hypothesis-isolation invariant from superseded source snapshot"
+    },
+    {
+      "suite": "framework-qc.test.mjs",
+      "test": "generated public dataset stays public-safe",
+      "classification": "Suspended QC diagnostic expectation: expected2,actual0",
+      "action": "Preserve existing gate suspension and reconcile separately"
+    }
+  ],
+  "new_hypotheses": 9,
+  "individual_hypothesis_validation": "PASS",
+  "focused_integration_tests": {
+    "passed": 62,
+    "failed": 0
+  },
+  "no_new_scientific_decision_requested": true,
+  "reconciliation": {
+    "date": "2026-11-14",
+    "report": "five-check-reconciliation.md",
+    "affected_suites": {
+      "passed": 24,
+      "failed": 2
+    },
+    "hypothesis_isolation_suites": {
+      "passed": 8,
+      "failed": 0
+    },
+    "protected_files": [
+      {
+        "file": "system/ranked-food-publication-sources.json",
+        "sha256": "ffd4d4c630f0692ef744819f669ff2eb15e629ac829654cb51da0c0b79d93458",
+        "unchanged_from_integrated_commit": true
+      },
+      {
+        "file": "src/data/rankedFoodSources.generated.json",
+        "sha256": "1be671e829575688e75d22f01e6a0586dd986681a4953cbff64221e968030d00",
+        "unchanged_from_integrated_commit": true
+      },
+      {
+        "file": "package.json",
+        "sha256": "7c5197b690cac9465dc02aece679badc8435b62512b612cca2bca4a0f3c801d4",
+        "unchanged_from_integrated_commit": true
+      }
+    ],
+    "dispositions": [
+      "PASS: PM9-specific Findings validation; unrelated ECS PM3 defect retained separately",
+      "REVIEW REQUIRED: PM9 fields match approved 1841; unrelated historical page hashes retained pending per-file provenance",
+      "PASS: PM1 exact approved 1841 baseline; original October baseline retained",
+      "PASS: same-current-record hypothesis removal leaves extraction unchanged",
+      "REVIEW REQUIRED: expected two QC issues versus zero; missing register/state fallback is not issue resolution"
+    ]
+  },
+  "technical_contract_checkpoint": {
+    "report": "technical-contract-repair/README.md",
+    "current_suite": {
+      "pass": 26,
+      "fail": 0
+    },
+    "historical_suite_against_current_candidate": {
+      "pass": 0,
+      "fail": 1
+    },
+    "public_qc_suite": {
+      "pass": 9,
+      "fail": 1
+    },
+    "global_findings": {
+      "pass": true,
+      "checked": 67
+    },
+    "qc_suspended": true,
+    "global_qc_pass": false,
+    "freeze": false
+  }
+}

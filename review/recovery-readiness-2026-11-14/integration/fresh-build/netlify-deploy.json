@@ -1,0 +1,15 @@
+{
+  "id": "6af8b9463f27637b149b3eb9",
+  "site_id": "a2fa2bed-681c-4abf-89a3-6b222ee14e90",
+  "state": "ready",
+  "commit_ref": "7c5743f817943ada3e7e749ef103d6d2f4061488",
+  "context": "deploy-preview",
+  "branch": "recovery/20261114-release-actions",
+  "build_id": "6af8b9463f27637b149b3eb7",
+  "deploy_time": 394,
+  "created_at": "2026-11-14T19:40:54.380Z",
+  "updated_at": "2026-11-14T19:47:40.586Z",
+  "error_message": null,
+  "deploy_ssl_url": "https://deploy-preview-244--food-science.netlify.app",
+  "commit_url": "https://github.com/The-BRAIN-Diet/food-science/commit/7c5743f817943ada3e7e749ef103d6d2f4061488"
+}

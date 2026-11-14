@@ -1,0 +1,267 @@
+{
+  "source_path": "/Users/paulhouston/Food Science/food-science",
+  "source_head": "9d9159d865dc830555e6451a24af02deea8eb3f7",
+  "source_branch": "feature/taurine-brazil-nuts-qc-register-2026-11-13",
+  "purpose": "Backup only. Not a release candidate. No regeneration or scientific approval inferred.",
+  "files": [
+    {
+      "path": "scripts/compact-pm-explorer.test.mjs",
+      "bytes": 5472,
+      "sha256": "e9d63913b86102620c0334fd51c6e1ff94e51c5891d11dd59551dfa3a68908ed"
+    },
+    {
+      "path": "scripts/out/framework-qc/framework-qc-public.json",
+      "bytes": 370760,
+      "sha256": "3c2ba2c4eb5f1fdb2daee739c92507ac87841cb4f0b05254bd13f83a19978b4e"
+    },
+    {
+      "path": "scripts/out/framework-qc/page-review-register.json",
+      "bytes": 338970,
+      "sha256": "b41db166c8f98ed7e89084b912a1bc66ed8be7bdb0d81c232327df277744b438"
+    },
+    {
+      "path": "scripts/out/framework-qc/page-review-report.md",
+      "bytes": 20049,
+      "sha256": "62cf017f47a256729af3691c6c63c1f77bec5d60c2dc8c021ffeb04577a7f350"
+    },
+    {
+      "path": "scripts/out/framework-qc/review-queue.html",
+      "bytes": 513196,
+      "sha256": "8a41489f5a6f66bb930e7ad4dec362db96a2a6968af3515adce156df18069c73"
+    },
+    {
+      "path": "scripts/pm-documented-food-sources.test.mjs",
+      "bytes": 10278,
+      "sha256": "c92538b46fa1af86c4567637322a0e09a8d9f7c3c665dbb5504a683ffc848d6e"
+    },
+    {
+      "path": "src/data/brs-xInputMapping.generated.json",
+      "bytes": 1049307,
+      "sha256": "c75b904056085fddb949798b17f608d4ba3f604826eed607d16b0da3bcd99e3e"
+    },
+    {
+      "path": "src/data/brs1InputMapping.generated.json",
+      "bytes": 7661254,
+      "sha256": "724be68a712a7b7b9ab5b6259dfd30c18fd7b3d536e9c6bc6769552f37b2babd"
+    },
+    {
+      "path": "src/data/brs2InputMapping.generated.json",
+      "bytes": 5294848,
+      "sha256": "8d5c7fee258e58b32ff6cf0d763ff396bb82fb9f2b03cd78df495435cef0f11c"
+    },
+    {
+      "path": "src/data/brs3InputMapping.generated.json",
+      "bytes": 4175777,
+      "sha256": "12bab8e4fc8637ecfebcb9c7638e66fa9682bf7555c2ef140b3aa1022df6e28d"
+    },
+    {
+      "path": "src/data/brs4InputMapping.generated.json",
+      "bytes": 3984101,
+      "sha256": "1921e0367ffc174b9ca86dd6e89032908c4140866b1eba41490bcf4d209b9694"
+    },
+    {
+      "path": "src/data/brs5InputMapping.generated.json",
+      "bytes": 2036573,
+      "sha256": "7db19fb25d1069e48fcd5ff506a8d6009a1148429ee36ab79fcbfba49715a0ea"
+    },
+    {
+      "path": "src/data/brs6InputMapping.generated.json",
+      "bytes": 788034,
+      "sha256": "d0736443d7e9c7a750a63594dc66008802fbab0ea9825399112a95bb3c7169ca"
+    },
+    {
+      "path": "src/data/foodStrategyRollup.generated.json",
+      "bytes": 1442398,
+      "sha256": "c659bdd34b598b37de595cadd26506a2890d7bfc0e2f01dab0afe87c23156be6"
+    },
+    {
+      "path": "src/data/framework-qc-public.generated.json",
+      "bytes": 370760,
+      "sha256": "3c2ba2c4eb5f1fdb2daee739c92507ac87841cb4f0b05254bd13f83a19978b4e"
+    },
+    {
+      "path": "src/data/rankedFoodSources.generated.json",
+      "bytes": 6046274,
+      "sha256": "8bb12308886213935da38de50e2bf3cf11a0e316c04ee380c7a2b2e13b636dc1"
+    },
+    {
+      "path": "static/img/foods/OrigOld/Broccoli Soup_ From Prep to Garnish.png",
+      "bytes": 2617900,
+      "sha256": "be6e2e2482b1c737f09465a5c2ad910af8b4d52ddde3513532114791ca540319"
+    },
+    {
+      "path": "static/img/foods/OrigOld/anchovies.png",
+      "bytes": 2213870,
+      "sha256": "2e6e04855a356df9ded2935a7a3442fc87d812201d8a25520052d6b7ae9c351a"
+    },
+    {
+      "path": "static/img/foods/OrigOld/brocolli soup.png",
+      "bytes": 2672939,
+      "sha256": "e5eef172a3e4d3fb0803429c103251e05d5489ad1c9809f9ea4d2fe565bc18bc"
+    },
+    {
+      "path": "static/img/foods/OrigOld/mixed-leaf-tahini-caesar-salad.png",
+      "bytes": 2394324,
+      "sha256": "6fcfddb03f160bf088cc9ce0bdf81aff894f83dd8e1b740ff74addfe42dab9f6"
+    },
+    {
+      "path": "static/img/foods/OrigOld/pears.png",
+      "bytes": 2178025,
+      "sha256": "e81a3d51d9a78d65d43ad9e66cadd7f76bef6a06249e7b8754d1ad538e47d953"
+    },
+    {
+      "path": "static/img/foods/OrigOld/radicchio.png",
+      "bytes": 2278059,
+      "sha256": "1f6c323213b973e2dcc3fcce508c54bc444815a8b4da01d02b91d641df282207"
+    },
+    {
+      "path": "static/img/foods/OrigOld/romaine lettuce.png",
+      "bytes": 2210408,
+      "sha256": "88e492fe43264d100b83ac6106971676de04ad0dd8432fe418861dcee425d003"
+    },
+    {
+      "path": "static/img/foods/originals/brazil nuts.png",
+      "bytes": 2621580,
+      "sha256": "1f6c190322a92328fe7fd7c78b91aafc111a22aca424f0826de7e193309760e3"
+    },
+    {
+      "path": "static/img/foods/originals/cloves.png",
+      "bytes": 2664694,
+      "sha256": "9805d876980c02114ec2d2d6e469a4fcbc37e9640f29456db2c3b1eac8fac6aa"
+    },
+    {
+      "path": "system/generated/brs-x-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 479593,
+      "sha256": "761a343f9120c0c9623bc77c9d5a083a847ffabfcfa87470be4594d306d42016"
+    },
+    {
+      "path": "system/generated/brs-x-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 470837,
+      "sha256": "5c2effa4c9801ebcb5db38b53311b78a613fbd1a3b566f05c4f06aaab52084db"
+    },
+    {
+      "path": "system/generated/brs-x-input-substance-food/mapping.generated.json",
+      "bytes": 1223084,
+      "sha256": "96883e9601b7be37707d8c217f830b00f3a36e7b2966e9f19151ea9003f945d8"
+    },
+    {
+      "path": "system/generated/brs1-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 4042632,
+      "sha256": "aea53e30759122d9d2018e262bd4f165aa08d6f33e6bfbb204cb64452a0c94d7"
+    },
+    {
+      "path": "system/generated/brs1-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 3973706,
+      "sha256": "aaeb2130e6bfae98ab2afd9787172f3727d11827540f2db1208afe9854944b97"
+    },
+    {
+      "path": "system/generated/brs1-input-substance-food/mapping.generated.json",
+      "bytes": 8901808,
+      "sha256": "7ea0ef4991bb335ba6cb8bedab5bfcfd3556a1ac5d05b3d6e8c60de18abfdf2b"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 2614012,
+      "sha256": "aefef3a755be1303da0e70148921190b7f65f668f67867aab00130b679efe91b"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 2573112,
+      "sha256": "ed408fb1ad790742da653c167b6124ae289c44d9f6c9d2e17e92ea6052426a17"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/mapping.generated.json",
+      "bytes": 6036695,
+      "sha256": "769cde900c5c75b97aa50ac044600126316ddb666d521ba7d8aae8dd4de9a689"
+    },
+    {
+      "path": "system/generated/brs3-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 1625778,
+      "sha256": "6b7f58d06f3f993ff4c5537468b69d16a476ba808496e0e4b6cf019a4120a985"
+    },
+    {
+      "path": "system/generated/brs3-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 1598246,
+      "sha256": "a6b2657bef7d1f8b1f966063781cebce9c8ceb1f0031b46e89853672a0be176e"
+    },
+    {
+      "path": "system/generated/brs3-input-substance-food/mapping.generated.json",
+      "bytes": 4723731,
+      "sha256": "83ad732904781367fba420e8236d6172d7e9e4cc547fdb8eb4b8ea515ed0183d"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 1713477,
+      "sha256": "d6c1defe9344d185f79bbb051bb4429896edcc94379bbb8982a6c7195edc23d7"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 1685195,
+      "sha256": "1f3708f50ce678c296f2328b08942fe533c236441ba3d139c7028595a0662bc3"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/mapping.generated.json",
+      "bytes": 4563374,
+      "sha256": "a62b5d31b4be2ae0270d3cf8ce94f5915da78d960b5b3c67125c75956cb79664"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 744153,
+      "sha256": "00cdaebf012078433e6305690dd1ba7decc9fba5dc2e35d968865805899e8cde"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 733123,
+      "sha256": "8ba69caac448a6b030c877c40932da3445eccc7a4d257bca94006e02ce95ef5a"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/mapping.generated.json",
+      "bytes": 2289707,
+      "sha256": "d5c3b1d535367ec535a0bbc056a33335b358f6bd6293afc3bf12b67ee9e32b10"
+    },
+    {
+      "path": "system/generated/brs6-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 173781,
+      "sha256": "265862585f74dbf71f3d128b424418d3441b18fe5f35f3e2df9090ba6aea307f"
+    },
+    {
+      "path": "system/generated/brs6-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 170913,
+      "sha256": "dbc1618760f9736f9b296aff203749384f41d571fec46901356d761d01d107c0"
+    },
+    {
+      "path": "system/generated/brs6-input-substance-food/mapping.generated.json",
+      "bytes": 868845,
+      "sha256": "4a28a61dcf7c80fe07639601404d560b19a0b4694b591dbd769d13475e0586b7"
+    },
+    {
+      "path": "system/generated/dietary-food-targets/manuscript-rollup.json",
+      "bytes": 5071829,
+      "sha256": "7bb97eeb3da2ce36cf1b94c4721022791c79754c0a57f6dc59a6a39d41af4171"
+    },
+    {
+      "path": "system/generated/ranked-food-sources/diagnostics.generated.json",
+      "bytes": 6046274,
+      "sha256": "8bb12308886213935da38de50e2bf3cf11a0e316c04ee380c7a2b2e13b636dc1"
+    }
+  ],
+  "excluded": [
+    [
+      "src/data/framework-qc-register.generated.json",
+      "explicit local-only Training/QA"
+    ],
+    [
+      "static/img/foods/.DS_Store",
+      "machine configuration/log"
+    ],
+    [
+      "static/img/foods/originals/.DS_Store",
+      "machine configuration/log"
+    ],
+    [
+      "static/img/foods/originals1/.DS_Store",
+      "machine configuration/log"
+    ]
+  ],
+  "lossless_compressed": []
+}

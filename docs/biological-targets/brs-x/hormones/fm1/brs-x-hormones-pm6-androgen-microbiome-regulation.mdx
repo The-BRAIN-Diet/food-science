@@ -324,6 +324,105 @@ evidence_gaps:
     citation_keys:
       - collden_microbial_androgens_2019
     review_date: '2026-10-26'
+scientific_hypotheses:
+  - id: PM6-H1
+    title: Microbial Androgen Deconjugation and Systemic Re-exposure
+    status: Unestablished
+    proposition: >-
+      Intestinal microbial deconjugation of host-derived androgen glucuronides may contribute to systemic
+      re-exposure to unconjugated androgens. The magnitude of this contribution and its influence on
+      circulating concentrations and tissue exposure remain unresolved.
+    proposed_direction: Microbial androgen deconjugation → systemic androgen re-exposure
+    rationale: >-
+      Experimental androgen-receptor studies provide a rationale for investigating whether
+      microbiome-dependent androgen exposure could influence stress-response regulation. They do not establish
+      that intestinal androgen processing changes neural receptor engagement, HPA responses or allostatic
+      adaptation.
+    finding_links:
+      supporting: []
+      contradictory_or_null: []
+      contextual:
+        - pm_id: BRS-X(Hormones-PM6)
+          finding_id: PM6-F1
+          href: '#pm6-f1'
+          explanation: Provides bounded pathway context; does not establish the complete hypothesis.
+    evidence_sources:
+      - study_id: collden-2019
+        label: Colldén et al. (2019)
+        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6962501/
+        role: contextual
+        proposition: >-
+          Microbiota affect intestinal androgen deconjugation; serum testosterone/DHT did not differ and some
+          tissue androgens were higher in germ-free mice.
+        limitations: >-
+          No traced systemic re-entry or stress endpoint; germ-free and human stool/serum comparisons are
+          distinct.
+      - study_id: chen-2014
+        label: Chen et al. (2014)
+        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4295784/
+        role: contextual
+        proposition: Testosterone/AR conditions affected anxiety-related measures and corticosterone profiles in mice.
+        limitations: >-
+          Constitutive AR loss; acute endocrine time course, not microbial exposure or allostatic adaptation.
+          No significant group-by-time interaction; capsule-length reporting inconsistent.
+      - study_id: chen-2021
+        label: Chen et al. (2021)
+        url: https://pubmed.ncbi.nlm.nih.gov/33785380/
+        role: contextual
+        proposition: Abstract reports region-specific cFos differences under testosterone treatment and AR disruption.
+        limitations: >-
+          Full methods unverified; marker differences do not establish regional causal mediation or microbial
+          hormone delivery.
+    limitations:
+      - The full gut → androgen → stress → allostasis chain remains explicitly Unestablished.
+      - >-
+        High faecal androgen concentrations do not demonstrate absorption or systemic flux; host synthesis,
+        clearance and feedback are alternatives.
+      - >-
+        Colldén reports serum testosterone/DHT nulls and higher androgen levels in some germ-free tissues,
+        opposing a simple positive systemic-supply model.
+      - >-
+        Testosterone, DHT and their conjugates are distinct; neither a net circulating increase nor benefit is
+        assumed.
+      - >-
+        Constitutive AR disruption confounds developmental effects with adult hormone action. The 2014
+        group-by-time interaction was not significant; apparent recovery differences require qualification.
+      - >-
+        The 2021 receptor paper full methods were inaccessible; its abstract is contextual only, not fully
+        appraised regional mechanistic support. cFos is not proof of causal regional mediation.
+      - >-
+        Anxiety-like behaviour, HPA activation, acute recovery and repeated-demand allostatic adaptation are
+        different outcomes.
+      - >-
+        BRS5 is process context; the owner remains BRS-X(Hormones-PM6). BRS6-FM2 relevance is contextual, not
+        an accepted PM edge. Allostasis is network-level.
+      - No dietary modulation, food connection, neural exposure or complete stress pathway is established.
+    alternative_explanations:
+      - Host endocrine compensation, synthesis and clearance can explain tissue differences.
+      - >-
+        Germ-free developmental effects and non-androgen microbial signals may affect stress independently of
+        re-entry.
+    required_evidence:
+      - >-
+        Establish microbially attributable absorption, hormone identity, exposure magnitude and disposition
+        separately from host synthesis.
+      - >-
+        Linked downstream question: If microbial androgen deconjugation contributes meaningfully to host
+        exposure, does that contribution alter androgen-receptor-dependent stress responses or recovery?
+      - >-
+        Resolve neural target engagement and receptor-dependent effects separately; repeated-demand recovery
+        and physiological costs are required for an allostatic claim.
+      - >-
+        Tracer and enzyme-specific perturbations are possible methods, not an authorised experiment; preserve
+        systemic-concentration nulls alongside any flux measurements.
+    provenance:
+      - >-
+        Author-approved bounded hypothesis following the ten-candidate appraisal and individual review on 14
+        November 2026.
+      - >-
+        Approval registers the proposition only. No dietary admissions, SEC, publication gates, food mappings,
+        rankings or accepted graph edges change.
+    review_date: '2026-11-14'
 ---
 
 <p class="brs-pm-thumbnail-wrap"><img src="/img/biological-targets/brs-x-hormones-portrait-thumbnail.jpg" alt="BRS-X(Hormones)" class="brs-pm-thumbnail" /></p>
@@ -426,6 +525,13 @@ No evidence-qualified Lifestyle Lever is currently established.
 Microbiota enabled distal intestinal androgen deconjugation; local free DHT was high.  Colldén et al. (2019) [[2]](#pm-ref-2)
 
 **Mechanism boundary:** The local-to-circulating androgen link and exposure-specific microbial control remain unresolved; reverse-direction hormone experiments do not close that gap.
+
+{/* scientific-hypotheses:start */}
+### Scientific Hypotheses
+
+<ScientificHypothesis hypothesis={{"id":"PM6-H1","title":"Microbial Androgen Deconjugation and Systemic Re-exposure","status":"Unestablished","proposition":"Intestinal microbial deconjugation of host-derived androgen glucuronides may contribute to systemic re-exposure to unconjugated androgens. The magnitude of this contribution and its influence on circulating concentrations and tissue exposure remain unresolved.","proposed_direction":"Microbial androgen deconjugation → systemic androgen re-exposure","rationale":"Experimental androgen-receptor studies provide a rationale for investigating whether microbiome-dependent androgen exposure could influence stress-response regulation. They do not establish that intestinal androgen processing changes neural receptor engagement, HPA responses or allostatic adaptation.","finding_links":{"supporting":[],"contradictory_or_null":[],"contextual":[{"pm_id":"BRS-X(Hormones-PM6)","finding_id":"PM6-F1","href":"#pm6-f1","explanation":"Provides bounded pathway context; does not establish the complete hypothesis."}]},"evidence_sources":[{"study_id":"collden-2019","label":"Colldén et al. (2019)","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC6962501/","role":"contextual","proposition":"Microbiota affect intestinal androgen deconjugation; serum testosterone/DHT did not differ and some tissue androgens were higher in germ-free mice.","limitations":"No traced systemic re-entry or stress endpoint; germ-free and human stool/serum comparisons are distinct."},{"study_id":"chen-2014","label":"Chen et al. (2014)","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC4295784/","role":"contextual","proposition":"Testosterone/AR conditions affected anxiety-related measures and corticosterone profiles in mice.","limitations":"Constitutive AR loss; acute endocrine time course, not microbial exposure or allostatic adaptation. No significant group-by-time interaction; capsule-length reporting inconsistent."},{"study_id":"chen-2021","label":"Chen et al. (2021)","url":"https://pubmed.ncbi.nlm.nih.gov/33785380/","role":"contextual","proposition":"Abstract reports region-specific cFos differences under testosterone treatment and AR disruption.","limitations":"Full methods unverified; marker differences do not establish regional causal mediation or microbial hormone delivery."}],"limitations":["The full gut → androgen → stress → allostasis chain remains explicitly Unestablished.","High faecal androgen concentrations do not demonstrate absorption or systemic flux; host synthesis, clearance and feedback are alternatives.","Colldén reports serum testosterone/DHT nulls and higher androgen levels in some germ-free tissues, opposing a simple positive systemic-supply model.","Testosterone, DHT and their conjugates are distinct; neither a net circulating increase nor benefit is assumed.","Constitutive AR disruption confounds developmental effects with adult hormone action. The 2014 group-by-time interaction was not significant; apparent recovery differences require qualification.","The 2021 receptor paper full methods were inaccessible; its abstract is contextual only, not fully appraised regional mechanistic support. cFos is not proof of causal regional mediation.","Anxiety-like behaviour, HPA activation, acute recovery and repeated-demand allostatic adaptation are different outcomes.","BRS5 is process context; the owner remains BRS-X(Hormones-PM6). BRS6-FM2 relevance is contextual, not an accepted PM edge. Allostasis is network-level.","No dietary modulation, food connection, neural exposure or complete stress pathway is established."],"alternative_explanations":["Host endocrine compensation, synthesis and clearance can explain tissue differences.","Germ-free developmental effects and non-androgen microbial signals may affect stress independently of re-entry."],"required_evidence":["Establish microbially attributable absorption, hormone identity, exposure magnitude and disposition separately from host synthesis.","Linked downstream question: If microbial androgen deconjugation contributes meaningfully to host exposure, does that contribution alter androgen-receptor-dependent stress responses or recovery?","Resolve neural target engagement and receptor-dependent effects separately; repeated-demand recovery and physiological costs are required for an allostatic claim.","Tracer and enzyme-specific perturbations are possible methods, not an authorised experiment; preserve systemic-concentration nulls alongside any flux measurements."],"provenance":["Author-approved bounded hypothesis following the ten-candidate appraisal and individual review on 14 November 2026.","Approval registers the proposition only. No dietary admissions, SEC, publication gates, food mappings, rankings or accepted graph edges change."],"review_date":"2026-11-14"}} />
+
+{/* scientific-hypotheses:end */}
 
 ### 4.1 Scientific Findings
 

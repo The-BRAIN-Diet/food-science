@@ -25,7 +25,8 @@ export function projectFoodTargets({relationships=[],substances={},research=[],f
   const scientificStatus=r.scientific_assessment?(r.scientific_assessment.conversion_status==='unresolved'&&r.scientific_assessment.projection_status==='blocked'&&r.historical_admission&&r.dietary_input===true?'admitted':admission.status):(r.historical_admission&&r.dietary_input===true?'admitted':'unresolved');
   const supplyId=r.scientific_assessment?.canonical_substance_id||r.substance_id;
   const targets=[];
-  if(scientificStatus==='admitted'&&supplyId&&identities[supplyId]) {
+  const compositionContext=scientificStatus!=='admitted'&&r.dietary_input===false&&r.relationship_type?.claim_ceiling==='hypothesis-candidate'&&supplyId&&identities[supplyId];
+  if((scientificStatus==='admitted'||compositionContext)&&supplyId&&identities[supplyId]) {
    const existing=foodSources.filter(f=>f.substance_id===supplyId);
    for(const f of existing) {
     const structured=structuredEvidence(f);
@@ -33,7 +34,7 @@ export function projectFoodTargets({relationships=[],substances={},research=[],f
     const provisional=(f.presence_records||[]).filter(visible).filter(e=>e.source_url&&e.evidence);
     const ev=structured.length?structured:[...compositional,...provisional];
     if(!ev.length)continue;
-    targets.push({...f,observations:(f.observations||[]).filter(visible),presence_records:(f.presence_records||[]).filter(visible),mapping_status:structured.length?'verified':'research-supported-provisional',relationship:f.relationship||'contains',evidence:ev,delivery:r.scientific_assessment?.classification==='derived'||r.relationship_type?.classification==='derived'?'precursor-source':'direct-input-source'});
+    targets.push({...f,observations:(f.observations||[]).filter(visible),presence_records:(f.presence_records||[]).filter(visible),mapping_status:structured.length?'verified':'research-supported-provisional',relationship:f.relationship||'contains',evidence:ev,delivery:compositionContext?'composition-context':r.scientific_assessment?.classification==='derived'||r.relationship_type?.classification==='derived'?'precursor-source':'direct-input-source',limitations:compositionContext?'Food-composition context for an unestablished hypothesis. Not a dietary requirement.':f.limitations});
    }
    for(const f of research.filter(f=>f.substance_id===supplyId&&f.status==='research-supported-provisional'&&(!f.pm_ids||f.pm_ids.includes(r.pm)))) {
     if(!f.food_id||!f.food_page||!f.preparation||!f.material||!evidencePresent(f.evidence)||!f.limitations)continue;
@@ -47,9 +48,10 @@ export function projectFoodTargets({relationships=[],substances={},research=[],f
   const derived=(r.scientific_assessment?.classification||r.relationship_type?.classification)==='derived';
   const conversionUnresolved=derived&&(r.scientific_assessment?.conversion_status==='unresolved'||!r.scientific_assessment?.conversion_pathway?.length||admission.errors.some(e=>/conversion|target|dependencies/.test(e)));
   if(conversionUnresolved)warnings.push(`${r.input} → ${r.derived_target||r.scientific_assessment?.active_target_id||'active target'}: conversion pathway reconciliation pending.`);
-  const ontologyConnections={identity:supplyId&&identities[supplyId]?'resolved':'unresolved',conversion:derived?(conversionUnresolved?'unresolved':'supported'):'not-applicable',food:foods.length?'supported':'unresolved'};
+  const ontologyConnections={identity:supplyId&&identities[supplyId]?'resolved':'unresolved',conversion:derived?(conversionUnresolved?'unresolved':'supported'):'not-applicable',food:foods.length?(foods.every(f=>f.delivery==='composition-context')?'composition-context':'supported'):'unresolved'};
   const foodDeliveryAssessment = identities[supplyId]?.food_delivery_assessment;
   if(!foods.length)warnings.push(foodDeliveryAssessment?.status === 'no-ordinary-food-source' ? `${r.input}: ${foodDeliveryAssessment.reason}` : r.substance_id==='butyrate'&&r.dietary_input!==true?'Butyrate: dietary admission unresolved. No approved food-delivery targets. Existing substrate foods are upstream candidates, not butyrate content.':`${r.input}: Food ontology coverage unresolved.`);
+  else if(foods.every(f=>f.delivery==='composition-context'))warnings.push(`${r.input}: canonical food ontology is composition context for an unestablished hypothesis. It is not a dietary requirement.`);
   for(const f of foods.filter(f=>f.mapping_status==='research-supported-provisional')) {
    const review=f.material_equivalence_status==='review-required';
    const missing=foodTargetCoverageWarning(f,identities[supplyId]?.title||r.input);

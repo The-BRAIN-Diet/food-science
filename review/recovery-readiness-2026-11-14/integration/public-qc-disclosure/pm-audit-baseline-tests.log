@@ -1,0 +1,561 @@
+TAP version 13
+# fatal: not a git repository (or any of the parent directories): .git
+# Subtest: complete provisional SEC requires defensible factors, not human approval
+ok 1 - complete provisional SEC requires defensible factors, not human approval
+  ---
+  duration_ms: 9.26325
+  ...
+# Subtest: GABA conditional scores retain formal unknowns and cannot be silently promoted
+ok 2 - GABA conditional scores retain formal unknowns and cannot be silently promoted
+  ---
+  duration_ms: 4.464875
+  ...
+# Subtest: Not scored, assessed zero and D0 are distinct; existing ceilings compose
+ok 3 - Not scored, assessed zero and D0 are distinct; existing ceilings compose
+  ---
+  duration_ms: 5.133709
+  ...
+# Subtest: scientific review requires qualified identified human acceptance of the exact version
+ok 4 - scientific review requires qualified identified human acceptance of the exact version
+  ---
+  duration_ms: 0.649917
+  ...
+# Subtest: references pin exact PM, Finding, proposition, version and content, never latest
+ok 5 - references pin exact PM, Finding, proposition, version and content, never latest
+  ---
+  duration_ms: 0.675833
+  ...
+# Subtest: immutable append-only snapshots reject edits, deletion, backfill, duplicate identity and hash changes
+ok 6 - immutable append-only snapshots reject edits, deletion, backfill, duplicate identity and hash changes
+  ---
+  duration_ms: 0.889583
+  ...
+# Subtest: factor, evidence-role, limitation, version, scope and provenance requirements fail closed
+ok 7 - factor, evidence-role, limitation, version, scope and provenance requirements fail closed
+  ---
+  duration_ms: 1.378208
+  ...
+# Subtest: legacy scientific finding validation and generated markup stay unchanged without a reference
+ok 8 - legacy scientific finding validation and generated markup stay unchanged without a reference
+  ---
+  duration_ms: 11.99125
+  ...
+# Subtest: legacy Finding evidence HTML is unchanged except the approved derived SF title prefix
+not ok 9 - legacy Finding evidence HTML is unchanged except the approved derived SF title prefix
+  ---
+  duration_ms: 19.072584
+  location: 'file:///private/tmp/brain-startup-verification-20261114/scripts/sec-assessment-integration.test.mjs:142:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Command failed: git show 98f7294088f1475c101cb0ff01ae11dc74d4af51:src/components/ScientificFinding.tsx
+    fatal: not a git repository (or any of the parent directories): .git
+
+  code: 'ERR_TEST_FAILURE'
+  stack: |-
+    checkExecSyncError (node:child_process:890:11)
+    execFileSync (node:child_process:926:15)
+    TestContext.<anonymous> (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-assessment-integration.test.mjs:145:23)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: reference renderer reuses indicator and audit, exposes pinned history and preserves review record
+ok 10 - reference renderer reuses indicator and audit, exposes pinned history and preserves review record
+  ---
+  duration_ms: 27.717833
+  ...
+# Subtest: publication gate is installed and approved production registry validates
+not ok 11 - publication gate is installed and approved production registry validates
+  ---
+  duration_ms: 22.203084
+  location: 'file:///private/tmp/brain-startup-verification-20261114/scripts/sec-assessment-integration.test.mjs:202:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+
+      [
+        'npm run presentation:check',
+        'node scripts/check-dietary-input-governance.mjs',
+        'node scripts/check-sec-assessments.mjs',
+        'node scripts/generate-all-input-mappings.mjs',
+    +   'npm run qc:generate'
+      ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'npm run presentation:check'
+    1: 'node scripts/check-dietary-input-governance.mjs'
+    2: 'node scripts/check-sec-assessments.mjs'
+    3: 'node scripts/generate-all-input-mappings.mjs'
+  actual:
+    0: 'npm run presentation:check'
+    1: 'node scripts/check-dietary-input-governance.mjs'
+    2: 'node scripts/check-sec-assessments.mjs'
+    3: 'node scripts/generate-all-input-mappings.mjs'
+    4: 'npm run qc:generate'
+  operator: 'deepStrictEqual'
+  stack: |-
+    assertPublicationGate (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-assessment-integration.test.mjs:193:10)
+    TestContext.<anonymous> (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-assessment-integration.test.mjs:205:3)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: actual shared audit renders canonical factor states and closed version anchors without invented review
+ok 12 - actual shared audit renders canonical factor states and closed version anchors without invented review
+  ---
+  duration_ms: 38.764
+  ...
+# Subtest: Finding confidence uses the same stacked default layout at every viewport
+ok 13 - Finding confidence uses the same stacked default layout at every viewport
+  ---
+  duration_ms: 2.390125
+  ...
+# Subtest: preview routing stays isolated and canonical audit requires an explicit assessment reference
+ok 14 - preview routing stays isolated and canonical audit requires an explicit assessment reference
+  ---
+  duration_ms: 0.840042
+  ...
+# Subtest: versioned audit preserves exact proposition, unresolved factors and source identities
+not ok 15 - versioned audit preserves exact proposition, unresolved factors and source identities
+  ---
+  duration_ms: 120.034375
+  location: 'file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:62:1'
+  failureType: 'testCodeFailure'
+  error: 'Unmapped test dependency: ../EvidenceGaps/Disclosure'
+  code: 'ERR_TEST_FAILURE'
+  stack: |-
+    require (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:16:11)
+    evalmachine.<anonymous>:30:36
+    Script.runInContext (node:vm:133:12)
+    Script.runInNewContext (node:vm:138:17)
+    Object.runInNewContext (node:vm:296:38)
+    loadComponent (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:12:6)
+    renderAudit (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:23:11)
+    TestContext.<anonymous> (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:69:13)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+  ...
+# Subtest: SF1 conditional reassessment preserves withdrawal history and formal unknowns
+not ok 16 - SF1 conditional reassessment preserves withdrawal history and formal unknowns
+  ---
+  duration_ms: 46.88625
+  location: 'file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:86:1'
+  failureType: 'testCodeFailure'
+  error: 'Unmapped test dependency: ../EvidenceGaps/Disclosure'
+  code: 'ERR_TEST_FAILURE'
+  stack: |-
+    require (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:16:11)
+    evalmachine.<anonymous>:30:36
+    Script.runInContext (node:vm:133:12)
+    Script.runInNewContext (node:vm:138:17)
+    Object.runInNewContext (node:vm:296:38)
+    loadComponent (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:12:6)
+    renderAudit (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:23:11)
+    TestContext.<anonymous> (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:104:16)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+  ...
+# Subtest: three status surfaces and original correction panel remain separate
+not ok 17 - three status surfaces and original correction panel remain separate
+  ---
+  duration_ms: 38.342958
+  location: 'file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:111:1'
+  failureType: 'testCodeFailure'
+  error: 'Unmapped test dependency: ../EvidenceGaps/Disclosure'
+  code: 'ERR_TEST_FAILURE'
+  stack: |-
+    require (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:16:11)
+    evalmachine.<anonymous>:30:36
+    Script.runInContext (node:vm:133:12)
+    Script.runInNewContext (node:vm:138:17)
+    Object.runInNewContext (node:vm:296:38)
+    loadComponent (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:12:6)
+    renderAudit (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:23:11)
+    TestContext.<anonymous> (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:119:13)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+  ...
+# Subtest: SF2 conditional score cannot masquerade as a formal SEC calculation
+ok 18 - SF2 conditional score cannot masquerade as a formal SEC calculation
+  ---
+  duration_ms: 0.177834
+  ...
+# Subtest: SF2 recovery retains species, access and independence limitations
+not ok 19 - SF2 recovery retains species, access and independence limitations
+  ---
+  duration_ms: 25.194209
+  location: 'file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:148:1'
+  failureType: 'testCodeFailure'
+  error: 'Unmapped test dependency: ../EvidenceGaps/Disclosure'
+  code: 'ERR_TEST_FAILURE'
+  stack: |-
+    require (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:16:11)
+    evalmachine.<anonymous>:30:36
+    Script.runInContext (node:vm:133:12)
+    Script.runInNewContext (node:vm:138:17)
+    Object.runInNewContext (node:vm:296:38)
+    loadComponent (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:12:6)
+    renderAudit (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:23:11)
+    TestContext.<anonymous> (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:163:13)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+  ...
+# Subtest: Codex provisional completion requires no human review; confidence and review status are independent
+ok 20 - Codex provisional completion requires no human review; confidence and review status are independent
+  ---
+  duration_ms: 0.328667
+  ...
+# Subtest: conditional or unresolved factors cannot become completed SEC by changing the status
+ok 21 - conditional or unresolved factors cannot become completed SEC by changing the status
+  ---
+  duration_ms: 0.207
+  ...
+# Subtest: scientifically reviewed SEC requires explicit qualified human review of the current version
+ok 22 - scientifically reviewed SEC requires explicit qualified human review of the current version
+  ---
+  duration_ms: 0.218834
+  ...
+# Subtest: reader-facing fixtures distinguish all four states without registering Findings
+not ok 23 - reader-facing fixtures distinguish all four states without registering Findings
+  ---
+  duration_ms: 25.056625
+  location: 'file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:222:1'
+  failureType: 'testCodeFailure'
+  error: 'Unmapped test dependency: ../EvidenceGaps/Disclosure'
+  code: 'ERR_TEST_FAILURE'
+  stack: |-
+    require (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:16:11)
+    evalmachine.<anonymous>:30:36
+    Script.runInContext (node:vm:133:12)
+    Script.runInNewContext (node:vm:138:17)
+    Object.runInNewContext (node:vm:296:38)
+    loadComponent (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:12:6)
+    renderAudit (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:23:11)
+    TestContext.<anonymous> (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:245:14)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+  ...
+# Subtest: rubric legend reuses standard disclosure and all eight canonical display levels
+not ok 24 - rubric legend reuses standard disclosure and all eight canonical display levels
+  ---
+  duration_ms: 1.908125
+  location: 'file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:253:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    The input did not match the regular expression /\?review=0#\$\{audit.findingId.toLowerCase\(\)\}/. Input:
+
+    "import EvidenceDisclosure from '../EvidenceGaps/Disclosure';\n" +
+      "import React, {useEffect, useRef} from 'react';\n" +
+      "import {useLocation} from '@docusaurus/router';\n" +
+      "import PageReviewPanel from '../ReviewCorrections/PageReviewPanel';\n" +
+      "import {findPublicPageRecord, frameworkQcPublic, type PublicPageRecord} from '../../data/frameworkQcPublic';\n" +
+      "import EvidenceConfidenceIndicator, {SEC_DISPLAY_LEVELS} from '../EvidenceConfidenceIndicator';\n" +
+      "import {initBrsFmHubDropdowns} from '../../client/brsFmHubDropdown';\n" +
+      "import {audit, sf2Audit} from './assessmentAudit.mjs';\n" +
+      "import {sameAudits} from './sameAudit.mjs';\n" +
+      "import v1Assessments from '../../../review/sec-integration/assessments.json';\n" +
+      "import {V1DecisionAudit} from './V1Preview';\n" +
+      "import {expandedGlycaemicAudits as glycaemicAudits} from './glycaemicStage2.mjs';\n" +
+      "import {GlycaemicStage2Audit} from './GlycaemicInterventionPreview';\n" +
+      "import {assessmentPresentation, evidenceReviewPresentation, correctionPresentation, secFactors, describeFactorScores} from './auditPresentation.mjs';\n" +
+      "import styles from './styles.module.css';\n" +
+      '\n' +
+      'export default function EvidenceAudit({panelId,assessmentRecords,assessmentPmId,assessmentPage,assessmentView=assessmentPresentation,recordAnchor=(r:any)=>r.id,scientificPrinciples,scientificFindings,scientificTransparency,showEvidenceReviewStatus=true,embedded=false,assessmentHeading}: {panelId:string;assessmentRecords?:any[];assessmentPmId?:string;assessmentPage?:PublicPageRecord|null;assessmentView?:(r:any)=>any;recordAnchor?:(r:any)=>string;scientificPrinciples?:React.ReactNode;scientificFindings?:React.ReactNode;scientificTransparency?:React.ReactNode;showEvidenceReviewStatus?:boolean;embedded?:boolean;assessmentHeading?:string}) {\n' +
+      '  const location = useLocation();\n' +
+      "  const v1Pm = location.pathname.includes('/sec-calibration/v1/') ? ({gaba:'BRS1-FM4-PM9','glycaemic-variability':'BRS6-FM1-PM2','same-synthesis':'BRS2-FM1-PM3'}[location.pathname.replace(/\\/$/,'').split('/').pop() || '']) : null;\n" +
+      "  const records = assessmentRecords ?? (v1Pm ? v1Assessments.filter(r => r.pmId === v1Pm) : location.pathname.replace(/\\/$/, '') === '/docs/system/sec-calibration/same-synthesis' ? sameAudits : location.pathname.replace(/\\/$/, '') === '/docs/system/sec-calibration/glycaemic-variability' ? glycaemicAudits : [audit, sf2Audit]);\n" +
+      '  const root = useRef<HTMLDivElement>(null);\n' +
+      '  useEffect(() => {\n' +
+      '    if (root.current) initBrsFmHubDropdowns(root.current);\n' +
+      '  }, []);\n' +
+      '  const page: PublicPageRecord | null = assessmentPage !== undefined ? assessmentPage : findPublicPageRecord({pageId: assessmentPmId || records[0]?.pmId});\n' +
+      '  return <div ref={root} id={panelId} role={embedded ? undefined : "tabpanel"} aria-labelledby={embedded ? undefined : "review-corrections-tab"}>\n' +
+      '    {!embedded && <>\n' +
+      '    <h2 tabIndex={-1}>Evidence &amp; Audit</h2>\n' +
+      '    <div id="sec-rubric-legend" className="brs-fm-hub-item brain-sf-disclosure" data-brs-fm-hub>\n' +
+      '      <div className="brs-fm-hub-shell">\n' +
+      '        <button type="button" className="brs-fm-hub-summary" aria-expanded="false">\n' +
+      '          <span className="brs-fm-hub-chevron" aria-hidden="true" />\n' +
+      '          <span className={styles.auditSummary}><strong>How evidence confidence is assessed</strong><span>Understand the 8-point Synthesised Evidence Confidence (SEC) score and review statuses</span></span>\n' +
+      '        </button>\n' +
+      '        <div className="brs-fm-hub-panel" hidden>\n' +
+      '          <p>Synthesised Evidence Confidence (SEC) describes how strongly the assessed body of research supports a specific scientific conclusion. It does not measure treatment effectiveness or the size of a biological effect.</p>\n' +
+      '          <h4>Eight-level confidence legend</h4>\n' +
+      '          <ul className={styles.confidenceLegend}>{SEC_DISPLAY_LEVELS.map(level => <li key={level.score}><EvidenceConfidenceIndicator score={level.score} srPrefix="Synthesised Evidence Confidence" /></li>)}</ul>\n' +
+      '          <h4>What contributes to the score?</h4>\n' +
+      '          <dl className={styles.factorLegend}>{Object.entries(secFactors).map(([key, factor]) => <React.Fragment key={key}><dt><strong>{key} — {factor.name}</strong></dt><dd>{factor.explanation}</dd></React.Fragment>)}</dl>\n' +
+      '          <p>Each factor contributes <strong>0–2 points</strong> to the total.</p>\n' +
+      '          <p><strong>SEC = Directness + Bias Protection + Precision + Replication</strong></p>\n' +
+      '          <p>Maximum score: <strong>8 points</strong>. The raw total may be subject to confidence ceilings where material scientific limitations apply.</p>\n' +
+      '          <h4>Assessment status</h4>\n' +
+      '          <ul>\n' +
+      '            <li><strong>Not scored:</strong> A complete defensible assessment is not yet available.</li>\n' +
+      '            <li><strong>Conditional estimate:</strong> Some factor judgements still require verification.</li>\n' +
+      '            <li><strong>Provisionally assessed:</strong> All four factors are defensibly assessed and documented; this does not imply human expert review.</li>\n' +
+      '            <li><strong>Scientifically reviewed:</strong> An identified qualified human reviewer has evaluated and accepted the assessment.</li>\n' +
+      '          </ul>\n' +
+      '          <h4>Interpreting the score</h4>\n' +
+      '          <ul>\n' +
+      '            <li>A low score does not automatically mean a finding is false.</li>\n' +
+      '            <li>A high score does not establish dietary or clinical effectiveness unless that is the exact proposition assessed.</li>\n' +
+      '            <li>SEC measures confidence in a conclusion, not its effect size.</li>\n' +
+      '            <li>Missing evidence must not automatically be scored zero.</li>\n' +
+      '            <li>The SEC rubric and caps remain under scientific calibration.</li>\n' +
+      '          </ul>\n' +
+      '          <p>Methodology under calibration</p>\n' +
+      '        </div>\n' +
+      '      </div>\n' +
+      '    </div>\n' +
+      '    {showEvidenceReviewStatus && <>\n' +
+      '      <h3>Evidence review status</h3>\n' +
+      '      <p>{evidenceReviewPresentation(page)}</p>\n' +
+      '    </>}\n' +
+      '    {records === glycaemicAudits && <GlycaemicStage2Audit />}\n' +
+      '    {v1Pm && <V1DecisionAudit />}\n' +
+      '    {scientificPrinciples}\n' +
+      '    </>}\n' +
+      '    {scientificFindings}\n' +
+      '    <h3>{assessmentHeading ?? (embedded ? "Historical assessment details" : "Scientific Finding assessments")}</h3>\n' +
+      '    {records.map(audit => {\n' +
+      "      const conditional = 'conditional' in audit ? audit.conditional : null;\n" +
+      '      const display = assessmentView(audit);\n' +
+      '      return <div key={recordAnchor(audit)} id={recordAnchor(audit)} className="brs-fm-hub-item brain-sf-disclosure" data-brs-fm-hub>\n' +
+      '      <div className="brs-fm-hub-shell">\n' +
+      '        <button type="button" className="brs-fm-hub-summary" aria-expanded="false">\n' +
+      '          <span className="brs-fm-hub-chevron" aria-hidden="true" />\n' +
+      '          <span className={styles.auditSummary} data-sec-assessment-status={display.status}>\n' +
+      '            <strong>{display.shortId} — {display.title}</strong>\n' +
+      '            <span>{display.score !== null ? <EvidenceConfidenceIndicator score={display.score} srPrefix={display.statusLabel} /> : display.readout}</span>\n' +
+      "            <span>{display.incomplete ? (display.incompleteReason || ('unscoredReason' in audit ? audit.unscoredReason : 'Assessment incomplete')) : display.statusLabel}</span>\n" +
+      '            {display.date && <time dateTime={display.date}>{display.date}</time>}\n' +
+      '          </span>\n' +
+      '        </button>\n' +
+      '        <div className="brs-fm-hub-panel" hidden>\n' +
+      '          <p><a href={`?review=0#${(audit.findingId || audit.interventionId).toLowerCase()}`}>{display.shortId} — {display.title}</a> · Assessment status: {display.statusLabel}</p>\n' +
+      '          <p>Synthesised Evidence Confidence (SEC) assessment</p>\n' +
+      '          <p><strong>Exact assessed proposition:</strong> {audit.proposition}</p>\n' +
+      '          <p><strong>Principal limitation:</strong> {audit.limitations[0]}</p>\n' +
+      "          <p>{audit.rawScore === null ? 'Formal raw and adjusted SEC totals remain uncalculated.' : audit.adjustedScore === null ? `Diagnostic raw total ${audit.rawScore}/8; no ordinal confidence applies to this claim.` : `Raw SEC ${audit.rawScore}/8; adjusted SEC ${audit.adjustedScore}/8.`} Assessment date: {audit.lastEvidenceAssessmentDate}. Record version {audit.recordVersion}.</p>\n" +
+      "          {'capRationale' in audit && <p>{audit.capRationale}</p>}\n" +
+      "          {'scopeNote' in audit && <p>{audit.scopeNote}</p>}\n" +
+      "          {conditional && <><p>{describeFactorScores(conditional.qualification.replace('Conditional SEC estimate — under calibration', display.statusLabel))} Conditional raw {conditional.rawScore}/8; {conditional.adjustedScore === null ? 'no ordinal confidence applies to this claim' : `adjusted ${conditional.adjustedScore}/8`}.</p><p>{describeFactorScores(conditional.caps)}</p></>}\n" +
+      '          <dl className={styles.factorLegend}>{Object.entries(audit.rationale).map(([factor, reason]) => {\n' +
+      '            const value = conditional ? conditional.factors[factor] : audit.factors[factor];\n' +
+      "            const state = audit.factorStates?.[factor] || (conditional ? conditional.statuses?.[factor] : value === null ? 'Unresolved' : 'Established');\n" +
+      "            return <React.Fragment key={factor}><dt><strong>{secFactors[factor].name} — {value === null ? (state === 'pending' ? 'Pending appraisal' : state === 'unassessable' ? 'Evidence Un-assessable' : 'Unresolved') : `${value}/2`}</strong> · {state}</dt><dd>{describeFactorScores(reason)}</dd></React.Fragment>;\n" +
+      '          })}</dl>\n' +
+      `          {audit.assessmentGaps?.length > 0 && <section aria-label="Assessment gaps"><h4>Assessment gaps</h4><p>These records track unfinished or unassessable appraisal, not missing scientific knowledge.</p>{audit.assessmentGaps.map((gap:any) => <EvidenceDisclosure key={gap.id} id={gap.id} label="Assessment gap" title={gap.dimensions.map((d:string)=>secFactors[d].name).join(' / ')} status={gap.status === 'pending' ? 'Pending appraisal' : gap.status === 'unassessable' ? 'Evidence Un-assessable' : 'Resolved'}>\n` +
+      "            <p><strong>Record ID:</strong> {gap.id} · <a href={'?review=0#'+(gap.findingId || gap.interventionId).toLowerCase()}>{gap.findingId || gap.interventionId}</a></p>\n" +
+      '            <p><strong>Reason:</strong> {gap.reason}</p>\n' +
+      '            <p><strong>Sources:</stro'... 4878 more characters
+
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+  actual: |-
+    import EvidenceDisclosure from '../EvidenceGaps/Disclosure';
+    import React, {useEffect, useRef} from 'react';
+    import {useLocation} from '@docusaurus/router';
+    import PageReviewPanel from '../ReviewCorrections/PageReviewPanel';
+    import {findPublicPageRecord, frameworkQcPublic, type PublicPageRecord} from '../../data/frameworkQcPublic';
+    import EvidenceConfidenceIndicator, {SEC_DISPLAY_LEVELS} from '../EvidenceConfidenceIndicator';
+    import {initBrsFmHubDropdowns} from '../../client/brsFmHubDropdown';
+    import {audit, sf2Audit} from './assessmentAudit.mjs';
+    import {sameAudits} from './sameAudit.mjs';
+    import v1Assessments from '../../../review/sec-integration/assessments.json';
+    import {V1DecisionAudit} from './V1Preview';
+    import {expandedGlycaemicAudits as glycaemicAudits} from './glycaemicStage2.mjs';
+    import {GlycaemicStage2Audit} from './GlycaemicInterventionPreview';
+    import {assessmentPresentation, evidenceReviewPresentation, correctionPresentation, secFactors, describeFactorScores} from './auditPresentation.mjs';
+    import styles from './styles.module.css';
+
+    export default function EvidenceAudit({panelId,assessmentRecords,assessmentPmId,assessmentPage,assessmentView=assessmentPresentation,recordAnchor=(r:any)=>r.id,scientificPrinciples,scientificFindings,scientificTransparency,showEvidenceReviewStatus=true,embedded=false,assessmentHeading}: {panelId:string;assessmentRecords?:any[];assessmentPmId?:string;assessmentPage?:PublicPageRecord|null;assessmentView?:(r:any)=>any;recordAnchor?:(r:any)=>string;scientificPrinciples?:React.ReactNode;scientificFindings?:React.ReactNode;scientificTransparency?:React.ReactNode;showEvidenceReviewStatus?:boolean;embedded?:boolean;assessmentHeading?:string}) {
+      const location = useLocation();
+      const v1Pm = location.pathname.includes('/sec-calibration/v1/') ? ({gaba:'BRS1-FM4-PM9','glycaemic-variability':'BRS6-FM1-PM2','same-synthesis':'BRS2-FM1-PM3'}[location.pathname.replace(/\/$/,'').split('/').pop() || '']) : null;
+      const records = assessmentRecords ?? (v1Pm ? v1Assessments.filter(r => r.pmId === v1Pm) : location.pathname.replace(/\/$/, '') === '/docs/system/sec-calibration/same-synthesis' ? sameAudits : location.pathname.replace(/\/$/, '') === '/docs/system/sec-calibration/glycaemic-variability' ? glycaemicAudits : [audit, sf2Audit]);
+      const root = useRef<HTMLDivElement>(null);
+      useEffect(() => {
+        if (root.current) initBrsFmHubDropdowns(root.current);
+      }, []);
+      const page: PublicPageRecord | null = assessmentPage !== undefined ? assessmentPage : findPublicPageRecord({pageId: assessmentPmId || records[0]?.pmId});
+      return <div ref={root} id={panelId} role={embedded ? undefined : "tabpanel"} aria-labelledby={embedded ? undefined : "review-corrections-tab"}>
+        {!embedded && <>
+        <h2 tabIndex={-1}>Evidence &amp; Audit</h2>
+        <div id="sec-rubric-legend" className="brs-fm-hub-item brain-sf-disclosure" data-brs-fm-hub>
+          <div className="brs-fm-hub-shell">
+            <button type="button" className="brs-fm-hub-summary" aria-expanded="false">
+              <span className="brs-fm-hub-chevron" aria-hidden="true" />
+              <span className={styles.auditSummary}><strong>How evidence confidence is assessed</strong><span>Understand the 8-point Synthesised Evidence Confidence (SEC) score and review statuses</span></span>
+            </button>
+            <div className="brs-fm-hub-panel" hidden>
+              <p>Synthesised Evidence Confidence (SEC) describes how strongly the assessed body of research supports a specific scientific conclusion. It does not measure treatment effectiveness or the size of a biological effect.</p>
+              <h4>Eight-level confidence legend</h4>
+              <ul className={styles.confidenceLegend}>{SEC_DISPLAY_LEVELS.map(level => <li key={level.score}><EvidenceConfidenceIndicator score={level.score} srPrefix="Synthesised Evidence Confidence" /></li>)}</ul>
+              <h4>What contributes to the score?</h4>
+              <dl className={styles.factorLegend}>{Object.entries(secFactors).map(([key, factor]) => <React.Fragment key={key}><dt><strong>{key} — {factor.name}</strong></dt><dd>{factor.explanation}</dd></React.Fragment>)}</dl>
+              <p>Each factor contributes <strong>0–2 points</strong> to the total.</p>
+              <p><strong>SEC = Directness + Bias Protection + Precision + Replication</strong></p>
+              <p>Maximum score: <strong>8 points</strong>. The raw total may be subject to confidence ceilings where material scientific limitations apply.</p>
+              <h4>Assessment status</h4>
+              <ul>
+                <li><strong>Not scored:</strong> A complete defensible assessment is not yet available.</li>
+                <li><strong>Conditional estimate:</strong> Some factor judgements still require verification.</li>
+                <li><strong>Provisionally assessed:</strong> All four factors are defensibly assessed and documented; this does not imply human expert review.</li>
+                <li><strong>Scientifically reviewed:</strong> An identified qualified human reviewer has evaluated and accepted the assessment.</li>
+              </ul>
+              <h4>Interpreting the score</h4>
+              <ul>
+                <li>A low score does not automatically mean a finding is false.</li>
+                <li>A high score does not establish dietary or clinical effectiveness unless that is the exact proposition assessed.</li>
+                <li>SEC measures confidence in a conclusion, not its effect size.</li>
+                <li>Missing evidence must not automatically be scored zero.</li>
+                <li>The SEC rubric and caps remain under scientific calibration.</li>
+              </ul>
+              <p>Methodology under calibration</p>
+            </div>
+          </div>
+        </div>
+        {showEvidenceReviewStatus && <>
+          <h3>Evidence review status</h3>
+          <p>{evidenceReviewPresentation(page)}</p>
+        </>}
+        {records === glycaemicAudits && <GlycaemicStage2Audit />}
+        {v1Pm && <V1DecisionAudit />}
+        {scientificPrinciples}
+        </>}
+        {scientificFindings}
+        <h3>{assessmentHeading ?? (embedded ? "Historical assessment details" : "Scientific Finding assessments")}</h3>
+        {records.map(audit => {
+          const conditional = 'conditional' in audit ? audit.conditional : null;
+          const display = assessmentView(audit);
+          return <div key={recordAnchor(audit)} id={recordAnchor(audit)} className="brs-fm-hub-item brain-sf-disclosure" data-brs-fm-hub>
+          <div className="brs-fm-hub-shell">
+            <button type="button" className="brs-fm-hub-summary" aria-expanded="false">
+              <span className="brs-fm-hub-chevron" aria-hidden="true" />
+              <span className={styles.auditSummary} data-sec-assessment-status={display.status}>
+                <strong>{display.shortId} — {display.title}</strong>
+                <span>{display.score !== null ? <EvidenceConfidenceIndicator score={display.score} srPrefix={display.statusLabel} /> : display.readout}</span>
+                <span>{display.incomplete ? (display.incompleteReason || ('unscoredReason' in audit ? audit.unscoredReason : 'Assessment incomplete')) : display.statusLabel}</span>
+                {display.date && <time dateTime={display.date}>{display.date}</time>}
+              </span>
+            </button>
+            <div className="brs-fm-hub-panel" hidden>
+              <p><a href={`?review=0#${(audit.findingId || audit.interventionId).toLowerCase()}`}>{display.shortId} — {display.title}</a> · Assessment status: {display.statusLabel}</p>
+              <p>Synthesised Evidence Confidence (SEC) assessment</p>
+              <p><strong>Exact assessed proposition:</strong> {audit.proposition}</p>
+              <p><strong>Principal limitation:</strong> {audit.limitations[0]}</p>
+              <p>{audit.rawScore === null ? 'Formal raw and adjusted SEC totals remain uncalculated.' : audit.adjustedScore === null ? `Diagnostic raw total ${audit.rawScore}/8; no ordinal confidence applies to this claim.` : `Raw SEC ${audit.rawScore}/8; adjusted SEC ${audit.adjustedScore}/8.`} Assessment date: {audit.lastEvidenceAssessmentDate}. Record version {audit.recordVersion}.</p>
+              {'capRationale' in audit && <p>{audit.capRationale}</p>}
+              {'scopeNote' in audit && <p>{audit.scopeNote}</p>}
+              {conditional && <><p>{describeFactorScores(conditional.qualification.replace('Conditional SEC estimate — under calibration', display.statusLabel))} Conditional raw {conditional.rawScore}/8; {conditional.adjustedScore === null ? 'no ordinal confidence applies to this claim' : `adjusted ${conditional.adjustedScore}/8`}.</p><p>{describeFactorScores(conditional.caps)}</p></>}
+              <dl className={styles.factorLegend}>{Object.entries(audit.rationale).map(([factor, reason]) => {
+                const value = conditional ? conditional.factors[factor] : audit.factors[factor];
+                const state = audit.factorStates?.[factor] || (conditional ? conditional.statuses?.[factor] : value === null ? 'Unresolved' : 'Established');
+                return <React.Fragment key={factor}><dt><strong>{secFactors[factor].name} — {value === null ? (state === 'pending' ? 'Pending appraisal' : state === 'unassessable' ? 'Evidence Un-assessable' : 'Unresolved') : `${value}/2`}</strong> · {state}</dt><dd>{describeFactorScores(reason)}</dd></React.Fragment>;
+              })}</dl>
+              {audit.assessmentGaps?.length > 0 && <section aria-label="Assessment gaps"><h4>Assessment gaps</h4><p>These records track unfinished or unassessable appraisal, not missing scientific knowledge.</p>{audit.assessmentGaps.map((gap:any) => <EvidenceDisclosure key={gap.id} id={gap.id} label="Assessment gap" title={gap.dimensions.map((d:string)=>secFactors[d].name).join(' / ')} status={gap.status === 'pending' ? 'Pending appraisal' : gap.status === 'unassessable' ? 'Evidence Un-assessable' : 'Resolved'}>
+                <p><strong>Record ID:</strong> {gap.id} · <a href={'?review=0#'+(gap.findingId || gap.interventionId).toLowerCase()}>{gap.findingId || gap.interventionId}</a></p>
+                <p><strong>Reason:</strong> {gap.reason}</p>
+                <p><strong>Sources:</strong> {gap.sources.map((source:string)=><a key={source} href={source.startsWith('10.')?'https://doi.org/'+source:'/docs/papers/BRAIN-Diet-References#'+source}>{source} </a>)}</p>
+                <ul>{gap.attempts.map((attempt:any,i:number)=><li key={i}>{attempt.date}: {attempt.action} — {attempt.outcome}</li>)}</ul>
+                <p><strong>Required action:</strong> {gap.resolutionAction}</p>
+                {gap.justification && <p><strong>Unassessable determination:</strong> {gap.justification}</p>}
+                {gap.resolution && <p><strong>Resolution:</strong> {gap.resolution}</p>}
+                {gap.evidenceGapIds?.map((id:string)=><p key={id}><a href={'?evidence-gaps=1#'+id.toLowerCase()}>Related Evidence Gap: {id}</a></p>)}
+                <ul>{gap.history.map((h:any,i:number)=><li key={i}>{h.date}: {h.decision}</li>)}</ul>
+              </EvidenceDisclosure>)}</section>}
+              <p>Unknown is not zero. Inaccessible methods or uncertainty do not justify zero for Bias Protection or Precision; incomplete replication retrieval does not justify zero for Replication. {conditional ? 'Formal SEC remains Not scored until all four judgements are defensible; conditional factors are not established scores.' : 'Completed factor judgements are provisional anchor assessments, not measured quantities or human scientific review.'}</p>
+              <p>Supporting synthesis: {audit.sources.supporting.map(key => <React.Fragment key={key}><a href={key.startsWith('stage2-ref-') ? `?review=0#${key}` : `/docs/papers/BRAIN-Diet-References#${key}`}>{key}</a>{' · '}</React.Fragment>)}</p>
+              <p>{audit.sources.contradictoryAssessment}</p>
+              <ul>{audit.sources.targetedChecks.map(source => <li key={source.doi}><a href={`https://doi.org/${source.doi}`}>{source.doi}</a> · {source.role} · {source.access}. {source.assessment}</li>)}</ul>
+              <p>Contextual evidence: {audit.sources.contextual.map(key => <React.Fragment key={key}><a href={`/docs/papers/BRAIN-Diet-References#${key}`}>{key}</a>{' · '}</React.Fragment>)}</p>
+              <ul>{audit.limitations.slice(1).map(reason => <li key={reason}>{reason}</li>)}</ul>
+              <ul>{audit.sources.retrievalLimited.map(source => <li key={source.url}><a href={source.url}>{source.doi || source.url}</a>: {source.limitation}</li>)}</ul>
+              <p>Assessment process: {audit.process}.</p>
+              {display.humanReview && <p>Human reviewer: {display.humanReview.reviewerIdentity}. Qualifications: {display.humanReview.qualifications}. Review date: {display.humanReview.reviewDate}. Decision: {display.humanReview.outcome}. Changes: {display.humanReview.changes}.</p>}
+              <p>Methodology: {audit.methodology.name}; version {audit.methodology.version || 'not recorded'}. Source: <code>{audit.methodology.source}</code></p>
+              {'recommendation' in audit && <p>{audit.recommendation}</p>}
+              {'stoppingRationale' in audit && <p>{audit.stoppingRationale}</p>}
+              <ul>{audit.history.map((item, index) => <li key={index}>{item.date}: {describeFactorScores(item.decision)}</li>)}</ul>
+              {'previousAssessments' in audit && audit.previousAssessments.map(previous => <div key={previous.recordVersion} id={assessmentRecords ? recordAnchor(previous) : undefined}>
+                <h4>Prior assessment version {previous.recordVersion}</h4>
+                <p>{previous.proposition}{previous.rawScore === null ? ('conditional' in previous && previous.conditional ? ` Conditional estimate: ${previous.conditional.adjustedScore}/8; formal totals not calculated.` : ' Formal totals not calculated.') : ` Raw ${previous.rawScore}/8; adjusted ${previous.adjustedScore}/8.`}</p>
+                <p>{previous.stoppingRationale}</p>
+                <ul>{previous.sources.retrievalLimited.map(source => <li key={source.url}><a href={source.url}>{source.doi}</a>: {source.limitation}</li>)}</ul>
+              </div>)}
+              <p>Original discussion link: not recorded. Research dialogue is supporting history, not the authoritative assessment.</p>
+            </div>
+          </div>
+        </div>;
+        })}
+        {!embedded && <>
+        {records.length === 0 && <p>No registry-backed SEC assessment is recorded for this PM. Existing unscored or legacy evidence remains unchanged.</p>}
+        <h3>Correction status</h3>
+        <p>{correctionPresentation(page)}</p>
+        {page && <div className="brs-fm-hub-item" data-brs-fm-hub><div className="brs-fm-hub-shell">
+          <button type="button" className="brs-fm-hub-summary" aria-expanded="false"><span className="brs-fm-hub-chevron" aria-hidden="true" /><strong>Review and correction records</strong></button>
+          <div className="brs-fm-hub-panel" hidden><PageReviewPanel page={page} panelId="preview-existing-corrections" /></div>
+        </div></div>}
+        <p><a href={frameworkQcPublic.register_path}>Public Framework Review &amp; Corrections register</a></p>
+        {scientificTransparency}
+        </>}
+      </div>;
+    }
+
+  operator: 'match'
+  stack: |-
+    TestContext.<anonymous> (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:278:10)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: review and correction fallbacks require explicit authoritative data
+ok 25 - review and correction fallbacks require explicit authoritative data
+  ---
+  duration_ms: 0.196375
+  ...
+# Subtest: SF and audit use the same short assessment labels without changing stored status
+not ok 26 - SF and audit use the same short assessment labels without changing stored status
+  ---
+  duration_ms: 22.359625
+  location: 'file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:298:1'
+  failureType: 'testCodeFailure'
+  error: 'Unmapped test dependency: ../EvidenceGaps/Disclosure'
+  code: 'ERR_TEST_FAILURE'
+  stack: |-
+    require (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:16:11)
+    evalmachine.<anonymous>:30:36
+    Script.runInContext (node:vm:133:12)
+    Script.runInNewContext (node:vm:138:17)
+    Object.runInNewContext (node:vm:296:38)
+    loadComponent (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:12:6)
+    renderAudit (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:23:11)
+    TestContext.<anonymous> (file:///private/tmp/brain-startup-verification-20261114/scripts/sec-evidence-audit.test.mjs:301:14)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+  ...
+# Subtest: status governance is shared while canonical confidence storage and evidence limitation wording stay unchanged
+ok 27 - status governance is shared while canonical confidence storage and evidence limitation wording stay unchanged
+  ---
+  duration_ms: 4.356834
+  ...
+1..27
+# tests 27
+# suites 0
+# pass 18
+# fail 9
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 597.730375

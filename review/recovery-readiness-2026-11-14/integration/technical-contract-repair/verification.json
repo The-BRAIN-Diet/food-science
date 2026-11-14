@@ -1,0 +1,44 @@
+{
+  "parent": "c7cc6c593e93fd2c97893dca46737769019b47d8",
+  "protected_files": [
+    {
+      "file": "system/ranked-food-publication-sources.json",
+      "sha256": "ffd4d4c630f0692ef744819f669ff2eb15e629ac829654cb51da0c0b79d93458",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/rankedFoodSources.generated.json",
+      "sha256": "1be671e829575688e75d22f01e6a0586dd986681a4953cbff64221e968030d00",
+      "unchanged": true
+    },
+    {
+      "file": "package.json",
+      "sha256": "7c5197b690cac9465dc02aece679badc8435b62512b612cca2bca4a0f3c801d4",
+      "unchanged": true
+    },
+    {
+      "file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation.mdx",
+      "sha256": "22829d5754957e0a54d1a6198a283394dc9e93f3de47025419057f67cde58d2f",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/framework-qc-public.generated.json",
+      "sha256": "8865f16edd090af5cfbdd59f09a5e1afcea172e452c4aaf770b2e523974d2780",
+      "unchanged": true
+    }
+  ],
+  "counts": {
+    "connections": 984,
+    "foods": 79,
+    "covered": 112,
+    "targets": 158
+  },
+  "selected_observations_sha256": "1a91631c0b100284494fe2886bec583bb8c05d37b23e1e4432a0e966e9f24ac7",
+  "global_findings": {
+    "ok": true,
+    "issues": [],
+    "checked": 67
+  },
+  "generated_metadata_difference": "None: no production dataset regenerated; only test/report artifacts changed",
+  "preview": "No public/runtime output change; existing exact runtime6f7dc761 remains the preview, no new build claimed"
+}

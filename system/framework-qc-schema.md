@@ -174,3 +174,8 @@ See `.cursor/rules/framework-qc.mdc`. Log outside the active batch; do not fix u
 ## Canonical scientific projections — approved 10 November 2026
 
 Apply [Canonical scientific truth and presentation consistency](canonical-scientific-projections.md), including its five scientific, automated, release and publication checkpoints. Current mission comes from PM frontmatter; explanatory prose must not strengthen the canonical science. Preserve authoritative admissions, limitations and SEC history. Report conflicts with provenance instead of selecting the newest text.
+
+
+## Temporary public-history limitation — 14 November 2026
+
+The author approved the [temporary public review-history disclosure](presentation-change-control.md#temporary-public-review-history-disclosure--approved-14-november-2026). Missing active register/state inputs mean unavailable or incomplete public history, not zero scientific issues, issue closure, or scientific clearance. Preserve archived inputs and their original statuses; they remain inactive. Keep the cross-framework QC gate suspended. The disclosure changes no scientific assessment or Stage 2A/2B contract. Existing public-QC historical expectations remain unresolved until separately reconciled and validated.

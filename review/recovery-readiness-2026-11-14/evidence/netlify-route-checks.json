@@ -1,0 +1,45 @@
+{
+  "commit": "0493dd1880d73116c29b35f95e01d8f4c1ca9522",
+  "deploy": "6af899440c615aaeee3e7b37",
+  "routes": [
+    {
+      "path": "/explore/food-wheel/",
+      "status": 200
+    },
+    {
+      "path": "/explore/pm-explorer/",
+      "status": 200
+    },
+    {
+      "path": "/explore/food-intelligence/",
+      "status": 200
+    },
+    {
+      "path": "/docs/foods/brazil-nuts/",
+      "status": 200
+    },
+    {
+      "path": "/docs/foods/cloves/",
+      "status": 200
+    },
+    {
+      "path": "/docs/substances/nutrients/macronutrients/fatty-acids/phospholipids/phosphatidylethanolamine/",
+      "status": 200
+    },
+    {
+      "path": "/explore/food-wheel/display-network.json",
+      "status": 200,
+      "json_parsed": true
+    },
+    {
+      "path": "/explore/pm-explorer/pm-sources.json",
+      "status": 200,
+      "json_parsed": true
+    },
+    {
+      "path": "/explore/food-intelligence/data.json",
+      "status": 200,
+      "json_parsed": true
+    }
+  ]
+}

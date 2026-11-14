@@ -66,6 +66,29 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-11-11'
+nutrition_supplementary_sources:
+  - key: betaine_mg
+    label: Betaine
+    substance_id: betaine
+    value: 21
+    unit: mg
+    basis: per 100 g edible portion
+    original_source_basis: per 100 g food
+    preparation_state: pan-fried
+    evidence_material: Chicken liver, pan-fried
+    measurement_kind: measured
+    public_display: table
+    exclude_from_recipe_sum: true
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+    ndb_id: '05661'
+    source_printed_page: 15
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf
+    source_group: USDA Database for the Choline Content of Common Foods, Release Two (2008)
+    source_note: Pan-fried chicken liver, NDB 05661, printed page 15. The USDA confidence code concerns total choline.
+    public_note: Pan-fried chicken liver. The main nutrient panel describes raw chicken liver.
 substance_relationships:
   - substance: Vitamin A
     relationship: contains
