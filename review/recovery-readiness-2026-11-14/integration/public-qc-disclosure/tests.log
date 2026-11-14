@@ -2,29 +2,34 @@ TAP version 13
 # Subtest: missing review history is disclosed, not represented as unreviewed or cleared
 ok 1 - missing review history is disclosed, not represented as unreviewed or cleared
   ---
-  duration_ms: 22.421667
+  duration_ms: 22.652083
   ...
 # Subtest: available pending history is retained, never silently closed by disclosure
 ok 2 - available pending history is retained, never silently closed by disclosure
   ---
-  duration_ms: 11.757375
+  duration_ms: 13.9655
   ...
 # Subtest: empty public register reports incomplete history, not zero known issues
 ok 3 - empty public register reports incomplete history, not zero known issues
   ---
-  duration_ms: 21.786709
+  duration_ms: 16.848791
   ...
 # Subtest: available register entries retain their existing pending/open status
 ok 4 - available register entries retain their existing pending/open status
   ---
-  duration_ms: 14.857834
+  duration_ms: 15.958375
   ...
-1..4
-# tests 4
+# Subtest: partial applied history cannot imply all outstanding decisions were resolved
+ok 5 - partial applied history cannot imply all outstanding decisions were resolved
+  ---
+  duration_ms: 9.714916
+  ...
+1..5
+# tests 5
 # suites 0
-# pass 4
+# pass 5
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 362.687625
+# duration_ms 446.240916

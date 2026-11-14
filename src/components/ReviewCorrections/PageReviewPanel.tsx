@@ -81,7 +81,7 @@ export default function PageReviewPanel({
           <section>
             <h3>Unresolved decisions</h3>
             {unresolved.length === 0 ? (
-              <p>No pending or accepted decisions remain for this page.</p>
+              <p>{PUBLIC_QC_HISTORY_INCOMPLETE ? "No pending or accepted decisions appear in the available entries; review history remains incomplete." : "No pending or accepted decisions remain for this page."}</p>
             ) : (
               unresolved.map((item) => (
                 <CorrectionCard key={`${item.title}-${item.section || ""}`} item={item} />

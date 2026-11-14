@@ -10,7 +10,7 @@ The explicit temporary presentation flag is independent of generator fallback da
 
 ## Focused verification
 
-- Actual React server-render tests: 4/4 pass (missing history, retained pending record, empty register, retained open register issue).
+- Actual React server-render tests: 5/5 pass (missing history, retained pending record, empty register, retained open register issue, and partial applied history never implying clearance).
 - Current hypothesis suite: 10/10 pass.
 - Three-viewer ranked equivalence: 984; manifest and ranked snapshot byte-identical to bca0a97f32acb36089833ec0d6c24c2618f22f69. Counts remain 984 connections, 79 foods, 112/158 targets.
 - Existing public-QC suite: 9/10, with the original expected-two/actual-zero missing-input failure unchanged. No assertions reset or issues declared closed.

@@ -67,3 +67,13 @@ test('available register entries retain their existing pending/open status', () 
   assert.match(html, /Needs verification/);
   assert.doesNotMatch(html, /Status: resolved/);
 });
+
+
+test('partial applied history cannot imply all outstanding decisions were resolved', () => {
+  const page = {page_type: 'PM', last_checked: '2026-09-14', review_status: 'issues_logged', corrections: [{title: 'Recorded correction', correction_status: 'applied'}]};
+  const html = render(component('PageReviewPanel'), {page, panelId: 'review-corrections-panel'});
+  assert.match(html, /Recorded correction/);
+  assert.match(html, /Correction status: applied/);
+  assert.match(html, /available entries; review history remains incomplete/);
+  assert.doesNotMatch(html, /No pending or accepted decisions remain for this page/);
+});
