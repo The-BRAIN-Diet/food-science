@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-24",
+  "branch": "codex/brs5-kc2-focused-reassessment",
+  "head": "1884c7ae0f46a152e2502bb8d4dd6276a0276a7e",
+  "committed": false,
+  "pushed": false,
+  "merged": false,
+  "deployed": false,
+  "focused_regression_tests": {
+    "total": 163,
+    "passed": 163,
+    "failed": 0
+  },
+  "governance": {
+    "pms": 64,
+    "issues": 0
+  },
+  "scientific_findings_consistency": {
+    "pms": 64,
+    "issues": 0
+  },
+  "sec_history_snapshots": 84,
+  "complete_pm4_mdx_compilation": "passed",
+  "existing_renderer_sop_preview": "passed",
+  "git_diff_whitespace": "passed",
+  "sop_strategy_projection": {
+    "before_strategies": 35,
+    "after_strategies": 36,
+    "before_relationships": 38,
+    "after_relationships": 39,
+    "all_prior_records_unchanged": true
+  },
+  "canonical_kc2_unchanged": true,
+  "no_new_biochemical_admissions": true,
+  "no_food_or_substance_changes": true,
+  "no_new_confidence_or_scores": true,
+  "approved_nutrient_rollups_unchanged": true,
+  "other_source_checkouts_preserved": true,
+  "original_preview_checkout_pm4_unchanged": true,
+  "production_build": "Not run; focused content change, targeted complete-page MDX compilation passed. No new dev server started.",
+  "initial_test_setup": "Two existing tests initially lacked ignored generated fixtures in the fresh worktree. Reconstructed unchanged six-shard consolidated fixture and generated the intended SOP projection; final suite passes. A new test Git-show buffer limit was corrected for the existing large bibliography.",
+  "source_retrieval_limits": "CKD primary Methods/Results excerpts and Figure 6 retrieved; full XML unavailable. Principal barrier/conversion full XML retrieved with stored fingerprints."
+}

@@ -135,7 +135,6 @@ Maintains microbial metabolite signalling capacity by supporting production of b
 **Key constraints:**
 
 - [BRS5(KC1) — Fermentable Fibre Availability](/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability)
-- [BRS5(KC2) — Polyphenol & Plant-Diversity Input Availability](/docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability)
 
 **Connected mechanisms:**
 
@@ -289,17 +288,6 @@ Collectively, these findings do not imply that gut dysbiosis is universal in ADH
 </li>
 </ul>
 
-<p class="brs-hub-dietary-guidance-heading"><strong>Polyphenol &amp; Plant-Diversity Inputs — <a href="/docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability">KC2: Polyphenol &amp; Plant-Diversity Input Sufficiency</a></strong></p>
-<ul class="brs-hub-dietary-strategy-list brs-hub-dietary-guidance-list">
-<li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Include polyphenol-rich plant foods regularly</strong> → microbiome-active polyphenols → microbial biotransformation pathways depend on continuous polyphenol input; when plant polyphenols are scarce, gut–brain and mitochondria-linked metabolite generation become under-supported.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/blueberries">Blueberries</a> • <a href="/docs/foods/green-tea">Green Tea</a> • <a href="/docs/foods/cocoa">Cocoa</a> • <a href="/docs/foods/pomegranates">Pomegranates</a> • <a href="/docs/foods/walnuts">Walnuts</a>. <span class="brs-hub-dietary-target-label">KC:</span> <a href="/docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability">BRS5(KC2)</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a> <a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a></span></p>
-</li>
-<li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Eat a wide variety of plant foods daily</strong> → plant-diversity inputs → microbial ecological capacity depends on diverse phytochemical and fibre contexts; reduced plant variety over time may diminish the stability of microbiome-derived signalling relevant to gut–brain communication.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/oregano">Oregano</a> • <a href="/docs/foods/chickpeas">Chickpeas</a>. <span class="brs-hub-dietary-target-label">KC:</span> <a href="/docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability">BRS5(KC2)</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a></span></p>
-</li>
-</ul>
 
 <p class="brs-hub-dietary-guidance-section"><strong>Additional Mechanism-Specific Dietary Levers</strong></p>
 <ul class="brs-hub-dietary-strategy-list brs-hub-dietary-guidance-list">
@@ -544,7 +532,6 @@ Maintains microbial metabolite signalling capacity by supporting production of b
 **Key constraints:**
 
 - [BRS5(KC1) — Fermentable Fibre Availability](/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability)
-- [BRS5(KC2) — Polyphenol & Plant-Diversity Input Availability](/docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability)
 
 **Connected mechanisms:**
 

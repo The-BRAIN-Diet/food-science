@@ -149,6 +149,15 @@
       ]
     },
     {
+      "id": "food-strategy-brs5-pm4-higher-variety-pattern",
+      "title": "Higher-variety plant-food pattern (kidney-disease trial)",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS5-FM2-PM4::PM4-SOP-1"
+      ]
+    },
+    {
       "id": "food-strategy-b82469682ec7",
       "title": "Wholemeal rye bread in place of the tested refined wheat bread",
       "scope": "food-preparation",
@@ -781,6 +790,31 @@
       "substance_ids": []
     },
     {
+      "id": "BRS5-FM2-PM4::PM4-SOP-1",
+      "strategy_id": "food-strategy-brs5-pm4-higher-variety-pattern",
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM4",
+      "pm_page": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection",
+      "input": "Higher-variety plant-food pattern (kidney-disease trial)",
+      "input_type": "dietary pattern",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "The tested pattern changed microbial gene potential relevant to substrate handling in adults with chronic kidney disease.",
+      "evidence": {
+        "finding_ids": [
+          "PM4-F2"
+        ],
+        "citation_keys": [
+          "stanford_plant_diversity_ckd_2025"
+        ]
+      },
+      "limitation": "Small kidney-disease crossover trial; the whole food pattern changed, not plant count alone. Gene abundance is potential, not measured processing flux. The tested ≥30-versus-≤15 comparison does not establish an optimal threshold or general healthy-adult, brain or ADHD benefit.",
+      "source_record": "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx#system_optimisation_practices/PM4-SOP-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
       "id": "BRS6-FM1-PM1::PM1-SOP-1",
       "strategy_id": "food-strategy-b82469682ec7",
       "brs": "BRS6",
@@ -1380,6 +1414,11 @@
     },
     {
       "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS5-FM2-PM4::PM4-SOP-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
       "relationship_id": "BRS6-FM1-PM1::PM1-SOP-1",
       "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
     },
@@ -1480,9 +1519,9 @@
     }
   ],
   "summary": {
-    "strategies": 35,
-    "relationships": 38,
-    "pms": 18,
+    "strategies": 36,
+    "relationships": 39,
+    "pms": 19,
     "brs": [
       "BRS1",
       "BRS3",

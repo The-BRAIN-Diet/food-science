@@ -78,13 +78,6 @@ export const KC_STRESSOR_ARCHIVE = {
     "erratic meal patterns reducing consistent microbial substrate delivery",
     "inflammatory or metabolic burden increasing ecological instability",
   ],
-  "BRS5(KC2)": [
-    "low plant diversity over time",
-    "low polyphenol density in the diet",
-    "repetitive ultra-processed food patterns with narrow botanical exposure",
-    "lack of herbs, spices, legumes, and whole grains",
-    "ecological monotony reducing microbial redundancy",
-  ],
   "BRS6(KC1)": [
     "refined high-glycaemic carbohydrate loads without buffering macronutrients",
     "acute glucose fluctuations that amplify oxidative and metabolic stress relative to sustained hyperglycaemia alone",

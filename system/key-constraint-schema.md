@@ -900,7 +900,7 @@ Sections must not restate the page title, entity ID, BRS name/number, or Definit
 | BRS2(KC1), BRS2(KC2) | Methyl-donor and transsulfuration substrate pools shared across remethylation, SAMe, glutathione, and membrane PMs |
 | BRS3(KC1) | Cysteine and glycine availability for glutathione synthesis (glycine conditional). Glutamate/polyphenols/vitamin C excluded from membership. Dual-arm grouping rejected; FM1/PM1–PM2 scope flagged. See `system/brs3-kc1-evidence-review.md` |
 | BRS4(KC1), BRS4(KC2) | Macronutrient fuel and mitochondrial cofactor pools shared across ETC, NAD⁺, biogenesis, and substrate-switching PMs |
-| BRS5(KC1), BRS5(KC2) | Fermentable-fibre and polyphenol/plant-diversity inputs shared across barrier, SCFA, keystone-taxa, and gut–brain PMs |
+| BRS5(KC1) | Fermentable-fibre availability; PM applicability requires resource-specific evidence. |
 | BRS6(KC1), BRS6(KC2) | Glucose substrate and stress-response micronutrient pools shared across glycaemic, HPA, and metabolic PMs |
 
 **Review if expanded (borderline):**

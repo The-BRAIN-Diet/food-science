@@ -1,0 +1,229 @@
+{
+  "date": "2026-10-24",
+  "branch": "codex/brs5-kc2-focused-reassessment",
+  "head": "1884c7ae0f46a152e2502bb8d4dd6276a0276a7e",
+  "scope": "PM4 plant-variety SOP implementation and narrowed KC2/related-metabolite assessment",
+  "plant_variety": [
+    [
+      "American Gut 2018",
+      "Observational \u226410 versus >30 plant categories",
+      "Candidate rationale; not an experimentally discovered threshold or causal PM4 practice by itself.",
+      "https://journals.asm.org/doi/10.1128/msystems.00031-18"
+    ],
+    [
+      "Stanford 2025",
+      "CKD crossover; 28 randomised, 25 completers; six weeks per diet",
+      "SOP PASS WITH LIMITATIONS: microbial gene-potential changes address PM4 capacity. Whole-pattern intervention, not plant-count isolation; no measured flux.",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12097182/"
+    ],
+    [
+      "Creedon / BIOME 2026",
+      "Defined plant blend; 399 randomised, 349 analysed",
+      "Separate formulation candidate retained in research. Compositional changes do not independently establish substrate-processing activity; health-rank null and analysis exclusions remain.",
+      "https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/does-a-diverse-wholefood-plantbased-dietary-intervention-improve-gut-microbiome-composition-gut-symptoms-energy-and-hunger-in-healthy-adults-a-randomised-controlled-trial/6590821C018637A26737CE52D55500F1"
+    ]
+  ],
+  "kc_evidence": [
+    [
+      "Dietary ellagitannins / ellagic acid \u2192 urolithin production",
+      "Existing PM6 precursor records; Selma 2014 and Pidgeon 2025 culture/ex-vivo evidence",
+      "Production route supported, with substrate and active-community dependencies.",
+      "Production is the PM6 operation; it is not independently a shared host-maintenance constraint.",
+      "https://www.nature.com/articles/s41467-025-56266-2"
+    ],
+    [
+      "Conversion capacity can be restored in vivo",
+      "Iglesias-Aguirre 2023: oral consortia transferred producer phenotypes to non-producing Wistar rats",
+      "Causal evidence that community composition can constrain production.",
+      "The reported experiment does not establish consequent changes in both junction function and mucus maintenance.",
+      "https://pubs.rsc.org/en/content/articlelanding/2023/fo/d2fo03957e"
+    ],
+    [
+      "Urolithin A \u2192 junction-regulatory function",
+      "Singh 2019: epithelial experiments and mouse injury models; functional leak assays and junction proteins",
+      "Supports an experimental downstream regulatory relationship.",
+      "Direct compound administration, not loss/restoration of dietary precursor conversion; synthetic UAS03 must remain separate.",
+      "https://pubmed.ncbi.nlm.nih.gov/30626868/"
+    ],
+    [
+      "Precursor and metabolite are not interchangeable",
+      "Hering 2021: differentiated Caco-2 and HT-29/B6 models",
+      "Ellagic acid strengthened selected barrier measures; urolithin A had context-specific protection.",
+      "Electrical resistance, size-selective permeability and cytokine injury differ. Urolithin A did not reduce every probe flux.",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7987831/"
+    ],
+    [
+      "Urolithin A \u2192 mucus",
+      "Yasuda 2024: mouse MUC2 protein/mucus thickness and LS174T cells",
+      "Supports a distinct PM3-relevant operation; junction transcript changes were not observed in the same mouse experiment.",
+      "Direct UroA dosing, including 100 mg/kg twice daily in the mouse protocol; no equivalent ordinary-food dose established. Antagonist validation and dysbiosis mediation limitations remain.",
+      "https://www.nature.com/articles/s41598-024-65791-x"
+    ],
+    [
+      "Urolithin A \u2192 mucosal immunity",
+      "Ghosh 2026: epithelial AHR/NLRP6 experiments and treated IBD biopsies",
+      "Supports an IL-18/IL-22, MUC2/REG3\u03b3 response with cell-specific dependencies.",
+      "Direct compound/biopsy exposures do not establish dietary-conversion limitation in humans. Same research programme as earlier Jala-group work is not wholly independent replication.",
+      "https://www.nature.com/articles/s41467-026-73760-3"
+    ],
+    [
+      "Human AHR response is context-dependent",
+      "Muku 2018: human reporter/binding and Caco-2 experiments",
+      "UroA and UroB antagonised induced AHR transcription; UroA had AHR-dependent anti-inflammatory effects.",
+      "Do not universally label UroA an AHR agonist or treat human/mouse reporter and epithelial contexts as interchangeable. This does not negate all downstream effects.",
+      "https://pubmed.ncbi.nlm.nih.gov/30501068/"
+    ],
+    [
+      "Dietary exposure differs from direct supplementation",
+      "Singh 2022: pomegranate-precursor versus direct UroA exposure",
+      "Demonstrates variable generation and circulating exposure, and bypass by direct administration.",
+      "Circulating conjugates/urinary output are not measurements of free local epithelial exposure or function. No claim that all dietary local concentrations are inadequate.",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8821002/"
+    ],
+    [
+      "Human polyphenol pattern / metabotype",
+      "MaPLE 2021 and post-hoc Mero\u00f1o 2022",
+      "Pattern and metabotype-dependent serum zonulin associations support further investigation.",
+      "Same cohort; urolithin A/conjugates did not significantly correlate with zonulin. A surrogate cannot establish the two PM operations or causal mediation.",
+      "https://www.sciencedirect.com/science/article/pii/S0963996922006901"
+    ],
+    [
+      "Walnut exposure / human tissue context",
+      "Liu 2024 and related 2025 walnut-cohort analyses",
+      "Dietary walnuts generate variable urolithin exposure; inflammatory/tissue associations broaden relevance.",
+      "Related 39-participant cohort analyses are not independent trials; observational converter comparisons do not prove urolithin-dependent junction and mucus outcomes.",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11979956/"
+    ],
+    [
+      "Real-world tannin feeding",
+      "Correa 2026: piglet tannin-blend feeding, metagenome/metabolome and farm-dependent diarrhoea outcome",
+      "Substrate exposure and microbial context influence metabolite patterns.",
+      "Mixed tannins, pen/farm context and network correlations do not isolate UroA mediation or two epithelial operations.",
+      "https://link.springer.com/article/10.1186/s40104-026-01503-x"
+    ],
+    [
+      "Fermented pomegranate products",
+      "Zhang 2023: strains produced UroA and fermented products affected C. elegans ageing/mitochondrial endpoints",
+      "Production plus a bounded bioactivity chain exists in a different organism/endpoint.",
+      "Does not test intestinal tight-junction or mucus maintenance; not a probiotic/food recommendation.",
+      "https://pubmed.ncbi.nlm.nih.gov/37040550/"
+    ],
+    [
+      "Other target: equol",
+      "Purified equol feeding in IUGR piglets, 50 mg/kg feed",
+      "Junction-related and mucin-related transcripts changed, with serum injury/permeability proxies.",
+      "Daidzein conversion was bypassed. Transcripts/proxies do not directly establish restored tight-junction function or mucus-layer maintenance; no shared dietary constraint.",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10177536/"
+    ],
+    [
+      "Other target: enterolactone",
+      "Bess 2020 cooperative lignan conversion; 2018 epithelial ENL experiments",
+      "Mechanistic conversion and direct epithelial barrier effects are supported in separate systems.",
+      "No reviewed bridge establishing the same precursor/conversion constraint on mucus/immune maintenance. Flax cyclic peptides are not enterolactone or interchangeable with lignans.",
+      "https://pubmed.ncbi.nlm.nih.gov/30145469/"
+    ],
+    [
+      "Other targets: urolithin B / isourolithin A",
+      "Metabotype and conversion studies distinguish the products",
+      "Distinct products and pathway branches deserve preservation.",
+      "Do not inherit UroA junction/mucus findings or treat all urolithins as one active exposure; no supported paired constraint identified.",
+      "https://www.nature.com/articles/s41522-025-00849-w"
+    ]
+  ],
+  "pm_dependency_map": [
+    [
+      "BRS5-FM2-PM6",
+      "Microbial polyphenol activation",
+      "Substrate and machinery limitation of generation supported",
+      "Retain existing precursor admissions; conversion remains PM6 biology."
+    ],
+    [
+      "BRS5-FM1-PM1",
+      "Selective paracellular tight-junction regulation",
+      "Direct UroA/EA experimental effects; dietary-conversion constraint unresolved",
+      "Retain as bounded regulatory research; no new admission or causal KC edge."
+    ],
+    [
+      "BRS5-FM1-PM3",
+      "Mucus maintenance and mucosal immune regulation",
+      "Direct UroA mucus/immune effects; dietary-conversion constraint unresolved",
+      "Retain source evidence for independent PM review; do not transfer mouse exposures to foods."
+    ],
+    [
+      "BRS5-FM1-PM2",
+      "Host endotoxin containment",
+      "Secondary barrier/endotoxin changes do not prove same-resource limitation",
+      "No new KC applicability; keep prior decisions."
+    ],
+    [
+      "BRS5-FM2-PM4",
+      "Community substrate-processing selection/adaptation",
+      "New defined plant-pattern SOP; no polyphenol-specific resource attribution",
+      "Plant pattern belongs to SOP, not KC constituent or isolated polyphenol admission."
+    ],
+    [
+      "BRS5-FM2-PM5",
+      "SCFA production/signalling",
+      "SCFA-associated taxa or concentrations do not demonstrate polyphenol-limited production",
+      "No new KC applicability or SCFA substrate admission."
+    ],
+    [
+      "BRS5-FM3-PM7",
+      "Vagal/ENS signalling",
+      "No reviewed source establishes the required resource-to-neural engagement chain",
+      "No inherited KC membership."
+    ],
+    [
+      "BRS5-FM3-PM8",
+      "Microbial precursor biotransformation/availability",
+      "Fibre/tryptophan and associated pathways do not establish a shared polyphenol resource",
+      "No inherited KC membership."
+    ]
+  ],
+  "kc_decision": {
+    "disposition": "RETIRE / CONSOLIDATE recommended; not implemented",
+    "reason": "The narrowed review supports generation and several regulatory activities, but not a distinct shared nutritional constraint across PM1 and PM3. No universal deficiency, human clinical benefit or numerical threshold was demanded.",
+    "approval_boundary": "The preceding reassessment instruction requires approval before canonical KC modification. This report supplies the concrete retirement outcome and dependency manifest; no KC status, identity or route has changed.",
+    "preserve": [
+      "Existing KC2 ID/route and original ambition as historical provenance, with canonical retirement convention selected during implementation.",
+      "Existing PM6 ellagitannin/ellagic-acid admissions, Findings and food mappings.",
+      "All PM1/PM3 scientific records and hypotheses; new source leads remain research until independently admitted.",
+      "Historical KC flags, unresolved/non-application adjudications and bibliography.",
+      "All SEC/CC and Dietary Confidence history; all approved nutrient/food roll-up decisions."
+    ],
+    "implementation_steps": [
+      "Register retirement using the existing retired-KC registry convention after approval.",
+      "Remove active KC2 listings from BRS5 hub and FM2 while retaining applicable PM dietary practices independently.",
+      "Reconcile eight PM candidate/adjudication references as historical records without silently converting unresolved to biologically rejected.",
+      "Archive legacy hub guidance and FM2 claimed shared-pool text before replacing active KC-specific assertions.",
+      "Reconcile schema example and generated mapping references through approved regeneration; historical review snapshots remain immutable.",
+      "Archive the full KC page and former route in review history and the retired registry; remove its live public KC route under the existing retirement rules. Do not invent a redirect or duplicate PMs/KCs."
+    ]
+  },
+  "retirement_affected_canonical_files": [
+    "docs/biological-targets/gut-brain-axis-enteric-nervous-system.md",
+    "docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability.mdx",
+    "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx",
+    "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+    "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx",
+    "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
+    "docs/biological-targets/brs5/fm2/brs5-fm2-microbial-metabolite-signalling-capacity.mdx",
+    "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx",
+    "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+    "docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx",
+    "docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx"
+  ],
+  "implementation": {
+    "pm": "BRS5-FM2-PM4",
+    "sop_id": "PM4-SOP-1",
+    "finding": "PM4-F2 extended; no new duplicate Finding",
+    "biochemical_admissions_added": 0,
+    "sops_added": 1,
+    "kc_changes": 0,
+    "scores_assigned": 0,
+    "ontology_edges_added": 0,
+    "approved_nutrient_rollup_changes": 0,
+    "food_strategy_projection": "35\u219236 strategies; 38\u219239 relationships; all previous entries preserved"
+  },
+  "research_stop": "Searched plant-pattern interventions; urolithin substrate/conversion manipulation; direct junction and mucus/immune effects; exposure/biotransformation and human translation; other urolithins, equol and enterolactone. Located no study in this bounded review establishing the claimed shared constraint. This is not evidence that such a relationship cannot exist."
+}

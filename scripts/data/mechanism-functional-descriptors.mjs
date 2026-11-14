@@ -140,8 +140,6 @@ export const MECHANISM_FUNCTIONAL_DESCRIPTORS = {
     "(Vitamins & Minerals for Mitochondrial Energy Production)",
   "brs5/kc/brs5-kc1-fermentable-fibre-availability.mdx":
     "(Fermentable Fibres That Feed Helpful Gut Bacteria)",
-  "brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability.mdx":
-    "(Polyphenol-Rich Plants & Dietary Diversity)",
   "brs6/kc/brs6-kc1-glucose-energy-substrate-availability.mdx":
     "(Steady Meal Energy Without Blood-Sugar Chaos)",
   "brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency.mdx":

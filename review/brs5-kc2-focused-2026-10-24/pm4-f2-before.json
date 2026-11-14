@@ -1,0 +1,56 @@
+{
+  "id": "PM4-F2",
+  "finding_label": "Dietary responses separate processing potential from immune outcomes",
+  "presentation": "mechanistic-basis",
+  "fm_rollup": false,
+  "finding_summary": "Human dietary intervention can change processing potential without increased diversity; immune responses require separate interpretation.",
+  "finding_interpretation": "The prespecified cytokine-response score did not change. Gene abundance is functional potential, not enzyme flux; stool metabolite concentration is not production rate. Diversity and immune changes were accompanying results, not demonstrated causal mediation. No improvement in cognition surveys, glucose, lipids or blood pressure was established.",
+  "finding_statement": "High-fibre intake can increase metagenomic glycan-processing potential without increased diversity, while fermented-food-associated immune changes do not establish diversity-mediated benefit.",
+  "synthesised_evidence_confidence": "not-yet-scored",
+  "synthesis": "In Wastyk et al., 18 healthy adults were analysed in each free-living dietary arm after a four-week ramp and six-week maintenance. Fibre increased from 21.5 to 45.1 g/day; glycan-degrading CAZyme gene abundance increased with stable diversity. Residual stool carbohydrate increased with fibre intake, leaving processing sufficiency unresolved. Fermented foods increased from 0.4 to 6.3 servings/day; diversity increased and 19 of 93 circulating inflammatory proteins decreased, including IL-6, IL-10 and IL-12b.",
+  "synthesis_limitations": "The prespecified cytokine-response score did not change. Gene abundance is functional potential, not enzyme flux; stool metabolite concentration is not production rate. Diversity and immune changes were accompanying results, not demonstrated causal mediation. No improvement in cognition surveys, glucose, lipids or blood pressure was established.",
+  "evidence_considered": [
+    {
+      "label": "Wastyk et al. (2021)",
+      "citation_key": "wastyk_gut-microbiota-targeted_2021",
+      "href": "/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021",
+      "data_level": "Human Study",
+      "evidence_source": "repository-inherited",
+      "directional_finding": "Fibre changed CAZyme potential without increased diversity; fermented foods changed diversity and inflammatory proteins without establishing mediation.",
+      "assessment": {
+        "study": "Free-living dietary trial; Figure 3C–E, Figures 5–6 and primary-outcome methods/Table S4",
+        "population": "18 healthy adults analysed per arm; high-fibre versus high-fermented-food dietary exposure",
+        "result": "Distinct community-capacity and immune responses occurred across the two arms.",
+        "effect_magnitude": "Fibre 21.5→45.1 g/day; fermented foods 0.4→6.3 servings/day; 19/93 inflammatory proteins decreased in that arm.",
+        "evidence_summary": "Preserves the measured inflammatory response without attributing it to diversity or a defined taxon.",
+        "limitations": "No untreated control arm or diversity-mediation test; primary cytokine-response score unchanged; potential, activity and host outcomes remain distinct."
+      }
+    }
+  ],
+  "connected_supportive_evidence": [
+    {
+      "label": "Schleupner and Carmichael (2022)",
+      "citation_key": "schleupner_attention-deficithyperactivity_2022",
+      "href": "/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022",
+      "data_level": "Mechanistic",
+      "why_relevant": "Review identifies gut–brain research gaps.",
+      "why_excluded": "Review is not an experiment establishing competitive selection or benefit from increased diversity."
+    },
+    {
+      "label": "Prehn-Kristensen et al. (2018)",
+      "citation_key": "prehn-kristensen_reduced_2018",
+      "href": "/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018",
+      "data_level": "Human Study",
+      "why_relevant": "Case–control stool diversity/composition context.",
+      "why_excluded": "Does not measure dietary selection, turnover or processing activity."
+    },
+    {
+      "label": "Steckler et al. (2024)",
+      "citation_key": "steckler_disrupted_2024",
+      "href": "/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024",
+      "data_level": "Human Study",
+      "why_relevant": "Case–control stool composition and SCFA concentrations.",
+      "why_excluded": "Concentration is not production flux; specific SCFA claims belong to PM5 and no dietary modifiability is established."
+    }
+  ]
+}

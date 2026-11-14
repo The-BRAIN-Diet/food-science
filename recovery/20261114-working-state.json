@@ -1,0 +1,389 @@
+{
+  "source_path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brs5-kc2-focused-reassessment",
+  "source_head": "1884c7ae0f46a152e2502bb8d4dd6276a0276a7e",
+  "source_branch": "codex/brs5-kc2-focused-reassessment",
+  "purpose": "Backup only. Not a release candidate. No regeneration or scientific approval inferred.",
+  "files": [
+    {
+      "path": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+      "bytes": 108824,
+      "sha256": "519d3bdc86dae77de7a7665ec0639dfd45afd3d05309502d6fec1383e6f1fa68"
+    },
+    {
+      "path": "docs/biological-targets/brs1/sm/brs1-sm-snp2-apoe4-omega-3-brain-delivery-sensitivity.mdx",
+      "bytes": 15178,
+      "sha256": "6b54d59a1c4d9d6bafe55a10185134b5911acf2a1297621d1a6413ae83bac0b0"
+    },
+    {
+      "path": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+      "bytes": 141840,
+      "sha256": "023661705acb17cd7e162bae8754b9e5ed68d57688ea3bbb0098c514277d67c8"
+    },
+    {
+      "path": "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx",
+      "bytes": 118273,
+      "sha256": "e725e63c84bada1ce7cd875fd47b808124ef61f40ae4b1c01fa254542ac6dcdb"
+    },
+    {
+      "path": "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx",
+      "bytes": 35134,
+      "sha256": "a67e898c417357ac072d04832d55ed3ee6753dd281027f02a114620354e40d4d"
+    },
+    {
+      "path": "docs/biological-targets/brs5/fm2/brs5-fm2-microbial-metabolite-signalling-capacity.mdx",
+      "bytes": 18240,
+      "sha256": "b12b4ba9e7067e6faed631e4db99b829152d4c4ab4a81e11662a90f9fb7e98a4"
+    },
+    {
+      "path": "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
+      "bytes": 69834,
+      "sha256": "0862dd15417c8b6a456d0dfd3e222ed284abfcff8faea08a405d0e72a060927f"
+    },
+    {
+      "path": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+      "bytes": 83016,
+      "sha256": "c84e8bd6ca4c187c1c37a2359b87a5c44ed553a93136aead4ff6a9eb7f0f2dcd"
+    },
+    {
+      "path": "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx",
+      "bytes": 36275,
+      "sha256": "0f497c958f85787f7c127cb7410b62b88ad7615d6dccf520b1bf86d88c8691e5"
+    },
+    {
+      "path": "docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx",
+      "bytes": 49979,
+      "sha256": "755d06d9d18a1feda19aaab2f5b5072ea360a03f38fb6c913bbc4f03bc186fc1"
+    },
+    {
+      "path": "docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx",
+      "bytes": 45482,
+      "sha256": "0a959575e604e4dc98ef8220a0b2b2ea1e455c2f21a5db6dafcf9797f73ef486"
+    },
+    {
+      "path": "docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability.mdx",
+      "deleted": true
+    },
+    {
+      "path": "docs/biological-targets/gut-brain-axis-enteric-nervous-system.md",
+      "bytes": 66518,
+      "sha256": "2996cde1a885aaf7954d7e053f3a609d24dcf352402f303dfe46b1380a6b199b"
+    },
+    {
+      "path": "docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/index.md",
+      "bytes": 6789,
+      "sha256": "e4b2a2ef269f4a936daced691e66483cfcc0af52b50b84bff30b2231f238560c"
+    },
+    {
+      "path": "docs/system/stage2b-preview/brs5-fm1-pm1-gut-barrier-tight-junction-integrity-stage2ab-draft.mdx",
+      "bytes": 90695,
+      "sha256": "992a5b02c00f0dd50665dde4931e5ef924975400a71145717e4188b34ebb813d"
+    },
+    {
+      "path": "docs/system/stage2b-preview/brs5-fm1-pm2-lps-containment-stage2ab-draft.mdx",
+      "bytes": 111737,
+      "sha256": "f1a4a8e98ddbb207ce8dc4d93c5e25c14ea6f787ace3f074be843431bf37472c"
+    },
+    {
+      "path": "docs/system/stage2b-preview/brs5-fm1-pm3-keystone-taxa-support-stage2ab-draft.mdx",
+      "bytes": 37873,
+      "sha256": "d34149fe103e28304006e0d107ad5dc9c38ef8923add9c8c0765cd99a232c82a"
+    },
+    {
+      "path": "docs/system/stage2b-preview/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection-stage2ab-draft.mdx",
+      "bytes": 52134,
+      "sha256": "d30685c1895676aa856705a6a40edd22ab2c2f60b8e63c4ae055752e06582c06"
+    },
+    {
+      "path": "docs/system/stage2b-preview/brs5-fm2-pm5-scfa-production-and-signalling-stage2ab-draft.mdx",
+      "bytes": 54268,
+      "sha256": "f41784d28135a022cf4294b20fb64afc1b7b544168dd1eb01faf14e0b7b310b6"
+    },
+    {
+      "path": "docs/system/stage2b-preview/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation-stage2ab-draft.mdx",
+      "bytes": 36527,
+      "sha256": "05bd17281eea51ad1f5db96702384ff6d3480afe4e8ac71dcc172e02936889ce"
+    },
+    {
+      "path": "docs/system/stage2b-preview/brs5-fm3-pm7-vagal-ens-signalling-modulation-stage2ab-draft.mdx",
+      "bytes": 39965,
+      "sha256": "68970f9047ad0eba6cf08c378a07c47606bc553029c63199e7d80fbf1db9c723"
+    },
+    {
+      "path": "docs/system/stage2b-preview/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability-stage2ab-draft.mdx",
+      "bytes": 41693,
+      "sha256": "f79763f1e90ef7369ff7d7aa1ab49d7781eaef4ad126ac184fd3f78856c16336"
+    },
+    {
+      "path": "review/brs5-kc2-focused-2026-10-24/assessment.json",
+      "bytes": 14121,
+      "sha256": "e234d159f0511e6c92af90dca3454d2a00436dadae90ca4d618089d6c81dc8d2"
+    },
+    {
+      "path": "review/brs5-kc2-focused-2026-10-24/pm4-before.txt",
+      "bytes": 65614,
+      "sha256": "e616f0a15d1804c1c0f681e42baf05074f649729cc4c6504a79980ee0e6a82e9"
+    },
+    {
+      "path": "review/brs5-kc2-focused-2026-10-24/pm4-f2-before.json",
+      "bytes": 4558,
+      "sha256": "1ad700695282c17ce84f0bc6de21fd1fd61a25838c6e3352d08efae2c1538b19"
+    },
+    {
+      "path": "review/brs5-kc2-focused-2026-10-24/validation.json",
+      "bytes": 1716,
+      "sha256": "3f40a1ec5e75fd0cb32e9fc2732bc75adf21012e8ca40e194142fe6ea9d67323"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+      "bytes": 144456,
+      "sha256": "bd1baae3494e629ba8ec2734ae74684c75ac04d5bc5277c4ec89f180c2a11fda"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx",
+      "bytes": 119007,
+      "sha256": "451812f5ed0420cf1a6f9fd251d68d6268367f59986e428fdb4d7925501e8648"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx",
+      "bytes": 36929,
+      "sha256": "d7c4ded305967785e83ab9e64bd368307df5a064298b4b9e57bcabc70e5a7b4c"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/docs/biological-targets/brs5/fm2/brs5-fm2-microbial-metabolite-signalling-capacity.mdx",
+      "bytes": 19049,
+      "sha256": "94997d37bae1e6deb82dc52e7fcbe372475fbb424af6e0a54223a3b2aae76ec5"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
+      "bytes": 71992,
+      "sha256": "0cf6527f443a1686e4126e2cf629beb30a16237b14cb47308609d9611dab1577"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+      "bytes": 85827,
+      "sha256": "237e03ab8ff119ea19e2852f64b9003a810cea7236b53581737ee904733dda7c"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx",
+      "bytes": 38114,
+      "sha256": "1224610aa81a0abe354a4845753d795c8e686448bb78b472e4bc2ffa47cf797b"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx",
+      "bytes": 51915,
+      "sha256": "f92b9e568d609761014342582490b84019d58b50e861707f133edd3360580874"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx",
+      "bytes": 47382,
+      "sha256": "8d075cf677e00ab2d2132c63c2d085d929c3edd5fdbed4f691bc257308d805f3"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability.mdx",
+      "bytes": 6039,
+      "sha256": "38c506915dd92936cae392d552624ad76417e5c2febd0b08bb5b10128bb0b7bc"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/docs/biological-targets/gut-brain-axis-enteric-nervous-system.md",
+      "bytes": 69698,
+      "sha256": "0b8eb756c680ce817d1d693776ca1198ed05f3f2fc71034699d7c0510db47250"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/docs/system/stage2b-preview/brs5-fm1-pm1-gut-barrier-tight-junction-integrity-stage2ab-draft.mdx",
+      "bytes": 93570,
+      "sha256": "c446ca5871ce9d74d2235e81815fd23aaf3d2f28b6c030014d2b5c70ef24db14"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/docs/system/stage2b-preview/brs5-fm1-pm2-lps-containment-stage2ab-draft.mdx",
+      "bytes": 112516,
+      "sha256": "09209feb4b4b833697c28d5e9e570dc27a2ea72e5aa52110337ccabb0eda84fe"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/docs/system/stage2b-preview/brs5-fm1-pm3-keystone-taxa-support-stage2ab-draft.mdx",
+      "bytes": 39821,
+      "sha256": "5ac1da5ea497e63d60274e55979bd19ad7f7cee9e8c0dd158a16f9f962d643d0"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/docs/system/stage2b-preview/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection-stage2ab-draft.mdx",
+      "bytes": 54490,
+      "sha256": "4439aca1cf732872d2a1332a64410d396f43db2b10cb133bc60af72026c52bc0"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/docs/system/stage2b-preview/brs5-fm2-pm5-scfa-production-and-signalling-stage2ab-draft.mdx",
+      "bytes": 57130,
+      "sha256": "15c42ca4f06b83ad70fd9bae364693953164c13a199d850bfe2969fb8ff0f593"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/docs/system/stage2b-preview/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation-stage2ab-draft.mdx",
+      "bytes": 38431,
+      "sha256": "980135219f960564631b553540d753b75a06ab78945a9ea94009538f820123fb"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/docs/system/stage2b-preview/brs5-fm3-pm7-vagal-ens-signalling-modulation-stage2ab-draft.mdx",
+      "bytes": 42075,
+      "sha256": "d87d241897608fac4d093c68f7e4cc25d93e200fe86ac6d5692835b84bdf54bd"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/docs/system/stage2b-preview/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability-stage2ab-draft.mdx",
+      "bytes": 43767,
+      "sha256": "d74604ecf41c69b87658dfe353086cbeae12beaec6ee8dbbfb42295a5b76d55a"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/scripts/data/brs3-brs6-translational.json",
+      "bytes": 45024,
+      "sha256": "06717407610fea6664edc60e7a0c5e20f4c8c493ad689145bea4bc1c144a7044"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/scripts/data/mechanism-functional-descriptors.mjs",
+      "bytes": 8619,
+      "sha256": "61c95892ec2704b548aa6fe62057bbba3b77fba3deaa380256fe5053fac33b0f"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/scripts/data/translational-enhancements.mjs",
+      "bytes": 68110,
+      "sha256": "1e24ae3153dd8d88403b95d05bce2df93b03295a8efdce4d96c0195e05e6264c"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/scripts/lib/fm-failure-modes.mjs",
+      "bytes": 11478,
+      "sha256": "ff3a9dfd2580d8e940762d186ff663f6ddefcbe5c9a7b30dfc37928bf2011c28"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/scripts/lib/kc-registry.mjs",
+      "bytes": 865,
+      "sha256": "f8e8296235c13a676a2b30ef76412e688ff1ed4b8d861e47922bb3bd72762fec"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/before/system/key-constraint-schema.md",
+      "bytes": 41796,
+      "sha256": "540b20770cde205cfc170cad3a83c0e017fd5fd3ee526d701d0e1d37b168fd69"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/decision.json",
+      "bytes": 319,
+      "sha256": "666c87b2cef3613d6172f3873db5f9f075798d4b23797388299ffef9f30c6c54"
+    },
+    {
+      "path": "review/brs5-kc2-retirement-2026-10-24/manifest.json",
+      "bytes": 5450,
+      "sha256": "2c83cadcf117f8c68641bc5e3dc9e1098813953fa12acc1740e075152dbd597f"
+    },
+    {
+      "path": "review/omega3-apoe-evidence-2026-10-25/before/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+      "bytes": 107182,
+      "sha256": "83f81276b97a22e5f92b274b9e5fd44fa763e3e9b271eb32da793173172767e7"
+    },
+    {
+      "path": "review/omega3-apoe-evidence-2026-10-25/before/docs/biological-targets/brs1/sm/brs1-sm-snp2-apoe4-omega-3-brain-delivery-sensitivity.mdx",
+      "bytes": 13165,
+      "sha256": "927002997049110e387808508d9ad3b9db944b6c289a5c41e66bf681fd79764e"
+    },
+    {
+      "path": "review/omega3-apoe-evidence-2026-10-25/before/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/index.md",
+      "bytes": 6375,
+      "sha256": "f27de7a741dff9199a4c32a1e6063317da47ad85326f86dd586e153537064ddf"
+    },
+    {
+      "path": "review/omega3-apoe-evidence-2026-10-25/before/static/bibtex/BRAIN-diet.bib",
+      "bytes": 1076960,
+      "sha256": "8ac05425418803169497f1c3f3f6fbc038fcc95b9e42a0ff8f9d5aef60b4a2f2"
+    },
+    {
+      "path": "review/omega3-apoe-evidence-2026-10-25/changed-files.json",
+      "bytes": 304,
+      "sha256": "59aee324d97597d0a85c930663b5b79937b7bf76b00eb317191800de3630f754"
+    },
+    {
+      "path": "scripts/brs5-kc2-focused.test.mjs",
+      "bytes": 6396,
+      "sha256": "a9f3e195ddba60e4c7c3ecfa37a96bf1e1c60a585b3bc07bad997024f06779b1"
+    },
+    {
+      "path": "scripts/brs5-kc2-retirement.test.mjs",
+      "bytes": 1923,
+      "sha256": "8fad77562722de670b36a4d451047158b552cb48cf07f4d2d701e046b6ef93ce"
+    },
+    {
+      "path": "scripts/data/brs3-brs6-translational.json",
+      "bytes": 44302,
+      "sha256": "0ea9d7a3b1c7a4ce8472ce707a48a569d6f0c1520c565f1d9571610c85196b2c"
+    },
+    {
+      "path": "scripts/data/mechanism-functional-descriptors.mjs",
+      "bytes": 8491,
+      "sha256": "4f93275c2db76230fb7f1e87ed0f3456833e9e8217003b773637a6a1dd9d8fa3"
+    },
+    {
+      "path": "scripts/data/translational-enhancements.mjs",
+      "bytes": 67392,
+      "sha256": "217ce9290ffb19f3f6cc3b7082cac11da99a3695983aa4e230fc2c0b799cd4e5"
+    },
+    {
+      "path": "scripts/input-substance-food.test.mjs",
+      "bytes": 44553,
+      "sha256": "3fee78a4188bc0f0e3ab3b314d2dfe7a36cc8936e4807fd5f48959115eedf434"
+    },
+    {
+      "path": "scripts/lib/fm-failure-modes.mjs",
+      "bytes": 11185,
+      "sha256": "d2707b01d4ede2780d25a8eb368eff3f71b14a8dec50f739a62bd0e8b0433427"
+    },
+    {
+      "path": "scripts/lib/kc-registry.mjs",
+      "bytes": 975,
+      "sha256": "5c1aeeb6c6783bbcfbf2b3ff2e3faffed9892c003da887577a7485afb423ed89"
+    },
+    {
+      "path": "src/data/brs5InputMapping.generated.json",
+      "bytes": 1594466,
+      "sha256": "79d748aab2b570abfada1f1740bf5a809705be1f5e4bfee94d29c216cf500329"
+    },
+    {
+      "path": "src/data/foodStrategyRollup.generated.json",
+      "bytes": 68136,
+      "sha256": "b24bd4b245e33ad4002fc47d02e471a2e1de580e4782e19a408f7329767b0fd4"
+    },
+    {
+      "path": "static/bibtex/BRAIN-diet.bib",
+      "bytes": 1077750,
+      "sha256": "310eebad09f05e6c7a3c81f9e46a22919219fd70eaff654923ac8567c1cc3089"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 702920,
+      "sha256": "2a3567a8223ab8cf663673640e83cbbef7a8e839a3ac1c3b3007d5eab49f6cad"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 692494,
+      "sha256": "aef3c53fed38252e7e5a865ceb2e240190ef7036ee0c428590d6ec8f235977ea"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/mapping.generated.json",
+      "bytes": 1829257,
+      "sha256": "5a879e004fa33653b9e0cde473473d463cf1432e4bac9f88477b10ffdd55dbd4"
+    },
+    {
+      "path": "system/generated/dietary-food-targets/manuscript-rollup.json",
+      "bytes": 1470576,
+      "sha256": "39b538a2b890ec6c30e2c73cb377c8fc167fc442ac35beb09d317c148f4a7130"
+    },
+    {
+      "path": "system/generated/food-strategy-rollup/index.md",
+      "bytes": 22620,
+      "sha256": "73ba6e1fe05c61bf6c5ccf427be205c8f7288ee1ec30a9129c660c51ec4a524d"
+    },
+    {
+      "path": "system/generated/food-strategy-rollup/rollup.generated.json",
+      "bytes": 68136,
+      "sha256": "b24bd4b245e33ad4002fc47d02e471a2e1de580e4782e19a408f7329767b0fd4"
+    },
+    {
+      "path": "system/key-constraint-schema.md",
+      "bytes": 41751,
+      "sha256": "cf0c8c9a1e0380d3475ddc387a0e79d2302ed613495f91007255d29380eff4af"
+    }
+  ],
+  "excluded": [],
+  "lossless_compressed": []
+}
