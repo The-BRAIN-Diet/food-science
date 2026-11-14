@@ -5,6 +5,7 @@ import vm from 'node:vm';
 import ts from 'typescript';
 import React from 'react';
 import {renderToStaticMarkup} from 'react-dom/server';
+import * as auditPresentation from '../src/components/SecCalibrationPreview/auditPresentation.mjs';
 
 function loadTs(file, require) {
   const module = {exports: {}};
@@ -76,4 +77,46 @@ test('partial applied history cannot imply all outstanding decisions were resolv
   assert.match(html, /Correction status: applied/);
   assert.match(html, /available entries; review history remains incomplete/);
   assert.doesNotMatch(html, /No pending or accepted decisions remain for this page/);
+});
+
+
+function pmAudit() {
+  const empty = () => null;
+  return loadTs('src/components/SecCalibrationPreview/EvidenceAudit.tsx', name => {
+    if (name === 'react') return React;
+    if (name === '@docusaurus/router') return {useLocation: () => ({pathname: '/docs/biological-targets/brs5/fm2/pm4/'})};
+    if (name.endsWith('frameworkQcPublic')) return data;
+    if (name.endsWith('PageReviewPanel')) return component('PageReviewPanel');
+    if (name.endsWith('auditPresentation.mjs')) return auditPresentation;
+    if (name.endsWith('EvidenceConfidenceIndicator')) return {__esModule: true, default: empty, SEC_DISPLAY_LEVELS: []};
+    if (name.endsWith('brsFmHubDropdown')) return {initBrsFmHubDropdowns() {}};
+    if (name.endsWith('sameAudit.mjs')) return {sameAudits: []};
+    if (name.endsWith('glycaemicStage2.mjs')) return {expandedGlycaemicAudits: []};
+    if (name.endsWith('.json')) return [];
+    if (name.endsWith('.css') || name.endsWith('assessmentAudit.mjs')) return {};
+    if (name.endsWith('V1Preview')) return {V1DecisionAudit: empty};
+    if (name.endsWith('GlycaemicInterventionPreview')) return {GlycaemicStage2Audit: empty};
+    if (name.endsWith('Disclosure')) return empty;
+    throw Error(name);
+  }).default;
+}
+
+test('outer PM Evidence & Audit discloses missing history before its nested review records', () => {
+  const page = {page_type: 'PM', review_status: 'unreviewed', corrections: [], issues: []};
+  const html = render(pmAudit(), {panelId: 'review-corrections-panel', assessmentRecords: [], assessmentPage: page});
+  assert.match(html, /Evidence &amp; Audit/);
+  assert.match(html, /Review history unavailable \/ incomplete/);
+  assert.equal(html.split(data.PUBLIC_QC_HISTORY_DISCLOSURE).length - 1, 1);
+  assert.ok(html.indexOf(data.PUBLIC_QC_HISTORY_DISCLOSURE) < html.indexOf('Review and correction records'));
+  assert.doesNotMatch(html, /No corrections recorded|Corrections resolved/);
+});
+
+test('outer PM audit preserves pending corrections and qualifies partial applied history', () => {
+  for (const status of ['pending', 'applied']) {
+    const page = {page_type: 'PM', corrections: [{title: 'Retained review', correction_status: status}], issues: []};
+    const html = render(pmAudit(), {panelId: 'review-corrections-panel', assessmentRecords: [], assessmentPage: page});
+    assert.match(html, /Available records: .* \(review history incomplete\)/);
+    assert.ok(html.includes('Correction status: ' + status));
+    assert.match(html, /Retained review/);
+  }
 });

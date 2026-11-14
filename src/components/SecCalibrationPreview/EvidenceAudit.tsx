@@ -2,7 +2,7 @@ import EvidenceDisclosure from '../EvidenceGaps/Disclosure';
 import React, {useEffect, useRef} from 'react';
 import {useLocation} from '@docusaurus/router';
 import PageReviewPanel from '../ReviewCorrections/PageReviewPanel';
-import {findPublicPageRecord, frameworkQcPublic, type PublicPageRecord} from '../../data/frameworkQcPublic';
+import {PUBLIC_QC_HISTORY_INCOMPLETE, PUBLIC_QC_HISTORY_DISCLOSURE, findPublicPageRecord, frameworkQcPublic, type PublicPageRecord} from '../../data/frameworkQcPublic';
 import EvidenceConfidenceIndicator, {SEC_DISPLAY_LEVELS} from '../EvidenceConfidenceIndicator';
 import {initBrsFmHubDropdowns} from '../../client/brsFmHubDropdown';
 import {audit, sf2Audit} from './assessmentAudit.mjs';
@@ -62,7 +62,7 @@ export default function EvidenceAudit({panelId,assessmentRecords,assessmentPmId,
     </div>
     {showEvidenceReviewStatus && <>
       <h3>Evidence review status</h3>
-      <p>{evidenceReviewPresentation(page)}</p>
+      <p>{PUBLIC_QC_HISTORY_INCOMPLETE && !page?.last_checked ? "Review history unavailable / incomplete" : evidenceReviewPresentation(page)}</p>
     </>}
     {records === glycaemicAudits && <GlycaemicStage2Audit />}
     {v1Pm && <V1DecisionAudit />}
@@ -136,10 +136,11 @@ export default function EvidenceAudit({panelId,assessmentRecords,assessmentPmId,
     {!embedded && <>
     {records.length === 0 && <p>No registry-backed SEC assessment is recorded for this PM. Existing unscored or legacy evidence remains unchanged.</p>}
     <h3>Correction status</h3>
-    <p>{correctionPresentation(page)}</p>
+    {PUBLIC_QC_HISTORY_INCOMPLETE && <p role="note">{PUBLIC_QC_HISTORY_DISCLOSURE}</p>}
+    <p>{PUBLIC_QC_HISTORY_INCOMPLETE ? (page?.corrections?.length || page?.issues?.length ? `Available records: ${correctionPresentation(page)} (review history incomplete)` : "Review history unavailable / incomplete") : correctionPresentation(page)}</p>
     {page && <div className="brs-fm-hub-item" data-brs-fm-hub><div className="brs-fm-hub-shell">
       <button type="button" className="brs-fm-hub-summary" aria-expanded="false"><span className="brs-fm-hub-chevron" aria-hidden="true" /><strong>Review and correction records</strong></button>
-      <div className="brs-fm-hub-panel" hidden><PageReviewPanel page={page} panelId="preview-existing-corrections" /></div>
+      <div className="brs-fm-hub-panel" hidden><PageReviewPanel page={page} panelId="preview-existing-corrections" showHistoryDisclosure={false} /></div>
     </div></div>}
     <p><a href={frameworkQcPublic.register_path}>Public Framework Review &amp; Corrections register</a></p>
     {scientificTransparency}

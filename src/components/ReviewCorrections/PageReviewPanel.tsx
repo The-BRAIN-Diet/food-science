@@ -35,9 +35,11 @@ function CorrectionCard({item}: {item: PublicCorrection}) {
 export default function PageReviewPanel({
   page,
   panelId,
+  showHistoryDisclosure = true,
 }: {
   page: PublicPageRecord | null
   panelId: string
+  showHistoryDisclosure?: boolean
 }): ReactNode {
   const corrections = page?.corrections || []
   const hasCorrections = corrections.length > 0
@@ -60,7 +62,7 @@ export default function PageReviewPanel({
       aria-labelledby="review-corrections-tab"
     >
       <h2 tabIndex={-1}>Review &amp; Corrections</h2>
-      {PUBLIC_QC_HISTORY_INCOMPLETE ? <p role="note">{PUBLIC_QC_HISTORY_DISCLOSURE}</p> : null}
+      {PUBLIC_QC_HISTORY_INCOMPLETE && showHistoryDisclosure ? <p role="note">{PUBLIC_QC_HISTORY_DISCLOSURE}</p> : null}
       <dl>
         <dt>Evidence review status</dt>
         <dd>{PUBLIC_QC_HISTORY_INCOMPLETE && !page?.last_checked ? "Review history unavailable / incomplete" : reviewStatusLabel(page?.review_status)}</dd>
