@@ -1,6 +1,8 @@
 // Existing Food Wheel SVG geometry, extracted without visual changes.
 import {ribbon,arc} from 'd3';
-export function renderFoodWheel(data,base){
+import {templateForFoodWheelView} from './food-wheel-template.mjs';
+export function renderFoodWheel(data,base,options={}){
+base=templateForFoodWheelView(data,base,options);
 const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const inner=base.split('<g transform="translate(720 720)">')[1].split('</g><text x="56" y="1338"')[0];const positions=new Map();for(const m of inner.matchAll(/<g class="entity" data-substance="([^"]+)"[\s\S]*?<text transform="translate\(([-\d.]+) ([-\d.]+)\)/g)){const s=data.network.inventory.find(s=>s.id===m[1]),x=+m[2],y=+m[3];positions.set(m[1],{angle:Math.atan2(x,-y),radius:Math.hypot(x,y)+(s.category==='Foundation'?10:-9)});}
 // Place foods near their connected targets. Each distinct documented target has

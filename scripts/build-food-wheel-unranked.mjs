@@ -104,7 +104,7 @@ if(review){
  data.source_hashes=snapshot.source_hashes;
 }
 data.unrankedAudit={excluded,ranked_preserved:ranked.length,unranked:data.documentedUnranked.length,related:data.relatedSources.length,foods:data.foods.length,targets:new Set(data.displaySelections.map(e=>e.substance_id+'|'+e.pm_id)).size};
-fs.writeFileSync(out+'display-network.json',JSON.stringify(data)+'\n');
 let svg=renderFoodWheel(data,fs.readFileSync('scripts/templates/food-wheel-substance-layout.svg','utf8'));svg=svg.replace('Food labels: unique power-qualified substance–PM connections. Provisional threshold 10%; maximum ten foods per target.','Food labels: distinct ranked + documented-unranked substance–PM connections. Unranked is not quantity or power.');
+fs.writeFileSync(out+'display-network.json',JSON.stringify(data)+'\n');
 fs.writeFileSync(out+'display-network.svg',svg);
 console.log(JSON.stringify(data.unrankedAudit));
