@@ -21,13 +21,13 @@ inchi_image: /img/inchi/COLNVLDHVKWLRT-QMMMGPOBSA-N.png
 
 Phenylalanine is an essential amino acid in dietary protein. Phenylalanine hydroxylase converts it to [tyrosine](/docs/substances/nutrients/macronutrients/amino-acids/conditionals/tyrosine), and tyrosine hydroxylase converts tyrosine to L-DOPA upstream of dopamine [1]. A separate decarboxylation can form the trace amine β-phenylethylamine. Phenylalanine also competes with other large neutral amino acids at LAT1 [2]. Transport is assessed on [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation), and the tyrosine route on [BRS1-FM1-PM3 — Dopaminergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation).
 
-<ContentTabSummary href="/docs/substances/nutrients/macronutrients/amino-acids/essential/phenylalanine?advanced=1#phenylalanine-advanced-nutrition" label="Advanced Nutrition">
-Sets out the hydroxylase, phenylethylamine and LAT1 reactions, and separates direct enzyme cofactors from folate and omega-3 fatty acids.
-</ContentTabSummary>
+**[Advanced Nutrition](/docs/substances/nutrients/macronutrients/amino-acids/essential/phenylalanine?advanced=1#phenylalanine-advanced-nutrition)**
 
-<ContentTabSummary href="/docs/substances/nutrients/macronutrients/amino-acids/essential/phenylalanine?therapeutic=1#phenylalanine-therapeutic-areas" label="Therapeutic Areas">
+Sets out the hydroxylase, phenylethylamine and LAT1 reactions, and separates direct enzyme cofactors from folate and omega-3 fatty acids.
+
+**[Therapeutic Areas](/docs/substances/nutrients/macronutrients/amino-acids/essential/phenylalanine?therapeutic=1#phenylalanine-therapeutic-areas)**
+
 Collects the ADHD evidence: small studies reported lower urinary phenylethylamine [3], a larger study found no general aromatic amino-acid difference [4], and supplemental DL-phenylalanine did not give a sustained benefit [5].
-</ContentTabSummary>
 
 ## Dietary Context
 

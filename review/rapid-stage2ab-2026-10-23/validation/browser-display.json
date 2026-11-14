@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "method": "Existing pmInputFoodDisclosure.ts transpiled to ES2022 in a standalone browser harness with current canonical mapping records; no client source changed.",
+  "browser_url": "http://127.0.0.1:3142/actual-client-preview.html",
+  "cases": [
+    {
+      "input": "Resistant starch",
+      "food_icons": 0,
+      "verified_foods": 4,
+      "six_atoms": 6
+    },
+    {
+      "input": "Pectin",
+      "food_icons": 1,
+      "six_atoms": 6,
+      "warning": "Apples \u2192 Pectin: food ontology link pending; above first atom."
+    },
+    {
+      "input": "Nicotinamide",
+      "food_icons": 2,
+      "six_atoms": 6,
+      "warning": "Chicken and chickpeas pending form-specific links; above first atom."
+    },
+    {
+      "input": "Ellagitannins",
+      "food_icons": 1,
+      "six_atoms": 6,
+      "warning": "Conversion and pomegranate pending-link warnings combined; walnuts verified, both foods labelled supplies precursor."
+    }
+  ],
+  "limitations": [
+    "This validates the real food-disclosure client separately from SSR compilation; it is not a full end-to-end deployment test.",
+    "Existing pointer-hover expansion can interact with a click toggle; keyboard expansion was used to verify food contents. No UI behaviour changed."
+  ]
+}

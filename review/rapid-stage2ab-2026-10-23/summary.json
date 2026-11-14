@@ -1,0 +1,24 @@
+{
+  "active_pms": 64,
+  "assessed": 30,
+  "deferred": 30,
+  "blocked": 4,
+  "pending": 0,
+  "admitted_input_relationships": 26,
+  "food_target_rows": 313,
+  "verified": 301,
+  "provisional": 12,
+  "unresolved_food_rows": 0,
+  "unique_foods": 103,
+  "practices": 8,
+  "repair_items": 38,
+  "brs_coverage": [
+    "BRS-X(Circadian)",
+    "BRS1",
+    "BRS2",
+    "BRS3",
+    "BRS4",
+    "BRS5",
+    "BRS6"
+  ]
+}

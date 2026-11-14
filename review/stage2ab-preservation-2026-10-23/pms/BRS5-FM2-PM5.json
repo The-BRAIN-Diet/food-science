@@ -1,0 +1,576 @@
+{
+  "pm_id": "BRS5-FM2-PM5",
+  "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+  "mission": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+  "stage2a": {
+    "operation": "Reuse the accepted controlled PM5 correction, not a rerun. FOS/GOS remains held for review; inulin remains a candidate.",
+    "mission_and_existing_claims_reviewed": true,
+    "existing_findings": [
+      {
+        "id": "PM5-F1",
+        "proposition": "Resistant starch and pectic substrates can supply microbial SCFA-production capacity; observed responses depend on preparation and community, while the FOS/GOS mixture admission requires review.",
+        "existing_source_assessments": [
+          {
+            "label": "Baxter et al. (2019)",
+            "citation_key": "baxter_fermentable_fibers_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#baxter_fermentable_fibers_2019",
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Faecal SCFA responses differed by preparation and microbial context; resistant potato starch was associated with increased butyrate.",
+            "study_exposure": "Two-week resistant potato starch, resistant maize starch, chicory inulin or accessible corn-starch intervention in 174 young adults.",
+            "study_finding": "Faecal SCFA responses differed by preparation and microbial context; resistant potato starch was associated with increased butyrate.",
+            "assessment": {
+              "study": "Two-week resistant potato starch, resistant maize starch, chicory inulin or accessible corn-starch intervention in 174 young adults.",
+              "population": "Two-week resistant potato starch, resistant maize starch, chicory inulin or accessible corn-starch intervention in 174 young adults.",
+              "result": "Faecal SCFA responses differed by preparation and microbial context; resistant potato starch was associated with increased butyrate.",
+              "effect_magnitude": "Only extracted comparisons retained; no pooled effect or clinical-benefit magnitude assigned.",
+              "evidence_summary": "Faecal SCFA responses differed by preparation and microbial context; resistant potato starch was associated with increased butyrate.",
+              "limitations": "Faecal endpoint; response heterogeneity and short study duration limit generalisation.",
+              "retrieval_scope": "Primary full text: Abstract, Results and intervention comparisons."
+            }
+          },
+          {
+            "label": "van Trijp et al. (2024)",
+            "citation_key": "van_trijp_intraintestinal_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#van_trijp_intraintestinal_2024",
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Little or no distal-ileal substrate degradation or local SCFA production was detected. One proximal-colonic participant showed increased unlabelled SCFA concentrations after the bolus. Separately infused labelled SCFAs traced product handling; they do not directly measure FOS/GOS-to-SCFA conversion.",
+            "study_exposure": "Exploratory human FOS/GOS mixture bolus studies with intestinal sampling and separately infused labelled SCFAs; acute and seven-day intervention contexts.",
+            "study_finding": "Little or no distal-ileal substrate degradation or local SCFA production was detected. One proximal-colonic participant showed increased unlabelled SCFA concentrations after the bolus. Separately infused labelled SCFAs traced product handling; they do not directly measure FOS/GOS-to-SCFA conversion.",
+            "assessment": {
+              "study": "Exploratory human FOS/GOS mixture bolus studies with intestinal sampling and separately infused labelled SCFAs; acute and seven-day intervention contexts.",
+              "population": "Healthy males; sampled sites included distal ileum (n=6), proximal colon (n=1) and transverse/descending colon (n=1).",
+              "result": "Little or no distal-ileal substrate degradation or local SCFA production was detected. One proximal-colonic participant showed increased unlabelled SCFA concentrations after the bolus. Separately infused labelled SCFAs traced product handling; they do not directly measure FOS/GOS-to-SCFA conversion.",
+              "effect_magnitude": "No generalisable production rate, dietary dose or clinical effect is established.",
+              "evidence_summary": "Little or no distal-ileal substrate degradation or local SCFA production was detected. One proximal-colonic participant showed increased unlabelled SCFA concentrations after the bolus. Separately infused labelled SCFAs traced product handling; they do not directly measure FOS/GOS-to-SCFA conversion.",
+              "limitations": "An ileal null does not disprove colonic fermentation. Other colonic sampling was dilution-limited. Breath hydrogen and plasma responses are indirect; isotope-derived production estimates and compartment models are inferred, not direct labelled-substrate flux. Mixture results cannot be assigned to individual constituents or butyrate specifically; no food-equivalence or brain outcome is established.",
+              "retrieval_scope": "Primary full text: study design, site-specific sampling, carbohydrate/SCFA results, separately delivered SCFA tracers, production estimation and modelling limitations."
+            }
+          },
+          {
+            "label": "Pascale et al. (2022)",
+            "citation_key": "pascale_potential_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#pascale_potential_2022",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "The review synthesises structure- and community-dependent pectic-substrate utilisation and SCFA responses in vitro.",
+            "study_exposure": "Secondary systematic-review synthesis of pectic-substrate fermentation studies using human-derived microbiota in vitro.",
+            "study_finding": "The review synthesises structure- and community-dependent pectic-substrate utilisation and SCFA responses in vitro.",
+            "assessment": {
+              "study": "Secondary systematic-review synthesis of pectic-substrate fermentation studies using human-derived microbiota in vitro.",
+              "population": "Underlying studies used human-derived microbial inocula; this publication is not a new primary experiment.",
+              "result": "The review synthesises structure- and community-dependent pectic-substrate utilisation and SCFA responses in vitro.",
+              "effect_magnitude": "No generalisable production rate, dietary dose or clinical effect is established.",
+              "evidence_summary": "The review synthesises structure- and community-dependent pectic-substrate utilisation and SCFA responses in vitro.",
+              "limitations": "Secondary synthesis, not an independent primary experimental replication. Substrate structure, donors and culture methods vary; no whole-apple equivalence, human dietary response or brain benefit follows.",
+              "retrieval_scope": "Systematic-review full text: methods, included-study characteristics and synthesis; underlying experimental level is Cellular / Molecular, publication role is secondary."
+            }
+          },
+          {
+            "label": "Ze et al. (2012)",
+            "citation_key": "ze_resistant_starch_2012",
+            "href": "/docs/papers/BRAIN-Diet-References#ze_resistant_starch_2012",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "assessment": {
+              "study": "Primary isolate, co-culture and donor-community experiments with resistant-starch preparations including RS2 and RS3.",
+              "population": "Human-colonic bacterial isolates and an experimentally supplemented low-utilisation donor community.",
+              "result": "Resistant-starch utilisation differed among organisms; primary degraders enabled substrate access by other community members.",
+              "effect_magnitude": "No generalisable production rate, dietary dose or clinical effect is established.",
+              "evidence_summary": "Resistant-starch utilisation differed among organisms; primary degraders enabled substrate access by other community members.",
+              "limitations": "Supports class-level fermentable-substrate capacity beyond a potato formulation, not uniform use of every RS subtype. Ruminococcus bromii is not itself a butyrate producer; cross-feeding and community context matter. No whole-food or brain effect is established.",
+              "retrieval_scope": "Primary full text and abstract: resistant-starch materials, utilisation, co-culture and donor-community experiments."
+            },
+            "study_exposure": "Primary isolate, co-culture and donor-community experiments with resistant-starch preparations including RS2 and RS3.",
+            "directional_finding": "Resistant-starch utilisation differed among organisms; primary degraders enabled substrate access by other community members.",
+            "study_finding": "Resistant-starch utilisation differed among organisms; primary degraders enabled substrate access by other community members."
+          },
+          {
+            "label": "Bang et al. (2018)",
+            "citation_key": "bang_pectin_2018",
+            "href": "/docs/papers/BRAIN-Diet-References#bang_pectin_2018",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "assessment": {
+              "study": "Primary anaerobic batch fermentation of purified citrus-peel pectin with human faecal communities.",
+              "population": "Three healthy male Korean donors; non-selective chopped-meat broth containing 15% bovine rumen fluid.",
+              "result": "Pectin degradation and increased acetate and butyrate concentrations were observed in the tested cultures.",
+              "effect_magnitude": "No generalisable production rate, dietary dose or clinical effect is established.",
+              "evidence_summary": "Pectin degradation and increased acetate and butyrate concentrations were observed in the tested cultures.",
+              "limitations": "Purified citrus substrate and donor/medium context limit attribution and translation. Concentrations are not a human production flux; whole apples, other pectins and brain outcomes were not tested.",
+              "retrieval_scope": "Primary full text: donor information, purified substrate, enriched culture medium and fermentation results."
+            },
+            "study_exposure": "Primary anaerobic batch fermentation of purified citrus-peel pectin with human faecal communities.",
+            "directional_finding": "Pectin degradation and increased acetate and butyrate concentrations were observed in the tested cultures.",
+            "study_finding": "Pectin degradation and increased acetate and butyrate concentrations were observed in the tested cultures."
+          },
+          {
+            "label": "Fässler et al. (2006)",
+            "citation_key": "fassler_resistant_starch_2006",
+            "href": "/docs/papers/BRAIN-Diet-References#fassler_resistant_starch_2006",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "assessment": {
+              "study": "Primary in-vitro fermentation of differently digested RS2 and RS3 preparations with human colonic microbiota.",
+              "population": "Batch and dynamic human-colonic-microbiota fermentation models.",
+              "result": "RS2/RS3 residues were fermented with increased butyrate proportions and preparation-dependent kinetics.",
+              "effect_magnitude": "No generalisable production rate, dietary dose or clinical effect is established.",
+              "evidence_summary": "RS2/RS3 residues were fermented with increased butyrate proportions and preparation-dependent kinetics.",
+              "limitations": "Primary abstract retrieved; full methods not audited here. Product proportions do not establish human production rates, equivalent food responses or utilisation of every resistant-starch subtype.",
+              "retrieval_scope": "Primary published abstract; bounded corroboration of class-level substrate capacity, not a comprehensive methodological review."
+            },
+            "study_exposure": "Primary in-vitro fermentation of differently digested RS2 and RS3 preparations with human colonic microbiota.",
+            "directional_finding": "RS2/RS3 residues were fermented with increased butyrate proportions and preparation-dependent kinetics.",
+            "study_finding": "RS2/RS3 residues were fermented with increased butyrate proportions and preparation-dependent kinetics."
+          }
+        ],
+        "existing_supportive_evidence": [
+          {
+            "label": "Steckler et al. (2024)",
+            "citation_key": "steckler_disrupted_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024",
+            "why_relevant": "Attached corpus assessed for connection to this PM; preserved in the draft evidence inventory.",
+            "why_excluded": "Cross-sectional faecal SCFAs and microbiota; concentration is not synthesis flux, causal mediation or a treatment outcome."
+          }
+        ],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM5-F2",
+        "proposition": "Propionate and butyrate affect experimental barrier and mitochondrial endpoints.",
+        "existing_source_assessments": [
+          {
+            "label": "Hoyles et al. (2018)",
+            "citation_key": "hoyles_microbiome-host_2018",
+            "href": "/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Barrier-protective responses accompanied CD14 and NRF2-related changes.",
+            "study_exposure": "Propionate exposure in human brain-endothelial cell models.",
+            "study_finding": "Barrier-protective responses accompanied CD14 and NRF2-related changes.",
+            "assessment": {
+              "study": "Propionate exposure in human brain-endothelial cell models.",
+              "population": "Propionate exposure in human brain-endothelial cell models.",
+              "result": "Barrier-protective responses accompanied CD14 and NRF2-related changes.",
+              "effect_magnitude": "Only extracted comparisons retained; no pooled effect or clinical-benefit magnitude assigned.",
+              "evidence_summary": "Barrier-protective responses accompanied CD14 and NRF2-related changes.",
+              "limitations": "An endothelial cell model does not measure whole-brain exposure or cognitive benefit.",
+              "retrieval_scope": "Primary abstract/results retrieved online; no unextracted numerical effect inferred."
+            }
+          },
+          {
+            "label": "Rose et al. (2018)",
+            "citation_key": "rose_butyrate_2018",
+            "href": "/docs/papers/BRAIN-Diet-References#rose_butyrate_2018",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Mitochondrial responses differed under oxidative stress.",
+            "study_exposure": "Butyrate exposure in lymphoblastoid cell lines from boys with autism.",
+            "study_finding": "Mitochondrial responses differed under oxidative stress.",
+            "assessment": {
+              "study": "Butyrate exposure in lymphoblastoid cell lines from boys with autism.",
+              "population": "Butyrate exposure in lymphoblastoid cell lines from boys with autism.",
+              "result": "Mitochondrial responses differed under oxidative stress.",
+              "effect_magnitude": "Only extracted comparisons retained; no pooled effect or clinical-benefit magnitude assigned.",
+              "evidence_summary": "Mitochondrial responses differed under oxidative stress.",
+              "limitations": "Not neuronal cells, human dietary supplementation or measured gut-brain mediation.",
+              "retrieval_scope": "Primary abstract/results retrieved online; no unextracted numerical effect inferred."
+            }
+          },
+          {
+            "label": "Silva et al. (2020)",
+            "citation_key": "silva_role_2020",
+            "href": "/docs/papers/BRAIN-Diet-References#silva_role_2020",
+            "data_level": "Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Acetate, propionate and butyrate participate in local metabolic and receptor-mediated pathways.",
+            "study_exposure": "Attached SCFA gut-brain review.",
+            "study_finding": "Acetate, propionate and butyrate participate in local metabolic and receptor-mediated pathways.",
+            "assessment": {
+              "study": "Attached SCFA gut-brain review.",
+              "population": "Attached SCFA gut-brain review.",
+              "result": "Acetate, propionate and butyrate participate in local metabolic and receptor-mediated pathways.",
+              "effect_magnitude": "Only extracted comparisons retained; no pooled effect or clinical-benefit magnitude assigned.",
+              "evidence_summary": "Acetate, propionate and butyrate participate in local metabolic and receptor-mediated pathways.",
+              "limitations": "Mechanistic synthesis; no universal intervention benefit.",
+              "retrieval_scope": "Primary abstract/results retrieved online; no unextracted numerical effect inferred."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      }
+    ],
+    "evidence_enrichment": "Substrate utilisation, product concentrations, inferred production and downstream barrier/mitochondrial effects answer different propositions. Retain both Findings, including null/compartment qualifications and secondary-review classification.",
+    "source_to_claim_records": [
+      {
+        "id": "pm5-approved",
+        "url": "review/brs5-pm5-retest-2026-10-23/report.md",
+        "kind": "approved-reuse",
+        "proposition": "Approved PM5 bounded reconciliation and controlled retest at 110a26bc.",
+        "limitation": "FOS/GOS excluded; apple provisional; inulin unadmitted; food composition is not Baxter-equivalent efficacy.",
+        "retrieval": "Committed approved report, canonical Finding/source records and food evidence.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      }
+    ],
+    "new_findings": [],
+    "coverage_limitations": "Existing source assessments and full attached bibliography are inventoried and preserved. Targeted source retrieval is bounded to the stated propositions; unrefreshed clinical/Phenome sources are not newly validated. No evidence of absence is inferred.",
+    "stop_rationale": "Preserve the complete baseline, add the bounded supported evidence and exact qualifications, and park material attribution/traceability questions for approval instead of forcing an admission or expanding to a comprehensive rebuild.",
+    "attached_references": [
+      "[Silva et al. (2020) — Role of Short-Chain Fatty Acids from Gut Microbiota in Gut-Brain Communication](/docs/papers/BRAIN-Diet-References#silva_role_2020)",
+      "[Hoyles et al. (2018) — Protective Effects of Propionate Upon the Blood-brain Barrier](/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018)",
+      "[Rose et al. (2018) — Butyrate Enhances Mitochondrial Function During Oxidative Stress in Cell Lines from Boys](/docs/papers/BRAIN-Diet-References#rose_butyrate_2018)",
+      "[Steckler et al. (2024) — Disrupted Gut Harmony in ADHD: Dysbiosis and Decreased Short-Chain Fatty Acids](/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024)",
+      "[Baxter et al. (2019) — Dynamics of Human Gut Microbiota and Short-Chain Fatty Acids in Response to Dietary Interventions with Three Fermentable Fibers](/docs/papers/BRAIN-Diet-References#baxter_fermentable_fibers_2019)",
+      "[van Trijp et al. (2024) — Human FOS/GOS Intestinal Fermentation and SCFA Fate](/docs/papers/BRAIN-Diet-References#van_trijp_intraintestinal_2024)",
+      "[Pascale et al. (2022) — Pectin Fermentation by Human Gut Microbiota](/docs/papers/BRAIN-Diet-References#pascale_potential_2022)",
+      "[Ze et al. (2012) — Resistant-Starch Degradation and Community Context](/docs/papers/BRAIN-Diet-References#ze_resistant_starch_2012)",
+      "[Bang et al. (2018) — In Vitro Pectin Fermentation](/docs/papers/BRAIN-Diet-References#bang_pectin_2018)",
+      "[Fässler et al. (2006) — Fermentability of Resistant-Starch Preparations](/docs/papers/BRAIN-Diet-References#fassler_resistant_starch_2006)"
+    ],
+    "preserved_phenome_source_records": [],
+    "new_finding_records": []
+  },
+  "stage2b": {
+    "clarification": "Resistant starch and pectin retain their existing Capacity/Direct relationships to production. Preserve the historical FOS/GOS review disposition and product-only acetate/propionate/butyrate records; no ordinary-food butyrate yield is inferred.",
+    "all_existing_inputs": [
+      {
+        "pm_id": "BRS5-FM2-PM5",
+        "atom_id": "PM5-DIT-1",
+        "input": "Resistant starch",
+        "section_presentations": [
+          {
+            "atom_id": "PM5-DIT-1",
+            "label": "Resistant starch",
+            "presentation_section": "3.1.1",
+            "reader_description": "Resistant starch supplies fermentable carbohydrate; community and preparation determine utilisation and products.",
+            "description_finding_id": "PM5-F1"
+          }
+        ],
+        "dietary_input": true,
+        "canonical_scientific_assessment": {
+          "atom_id": "PM5-DIT-1",
+          "status": "admitted",
+          "type": "A",
+          "classification": "direct",
+          "operation": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+          "canonical_substance_id": "resistant-starch",
+          "assessment_date": "2026-10-23",
+          "food_target_research": {
+            "completed": true,
+            "sources_examined": [
+              "registry/substances.json",
+              "system/food-target-research.json",
+              "docs/foods/potatoes.md",
+              "docs/foods/bananas.md",
+              "docs/foods/black-beans.md",
+              "docs/foods/chickpeas.md",
+              "docs/foods/apples.md"
+            ],
+            "targeted_searches": [
+              "https://pubmed.ncbi.nlm.nih.gov/37327923/"
+            ],
+            "sufficient_coverage_rationale": "Existing verified resistant-starch composition and the retained provisional apple-pectin composition research were examined independently of fermentation evidence."
+          },
+          "functional_dependency": {
+            "status": "established",
+            "statement": "Supported functional substrate class sustains microbial fermentation capacity; RS2/RS3 experiments and community limitations are retained, without indispensability or uniform response claims.",
+            "sources": [
+              "https://doi.org/10.1038/ismej.2012.4",
+              "https://doi.org/10.1002/mnfr.200600106"
+            ]
+          },
+          "dietary_supply": {
+            "status": "established",
+            "statement": "Verified food-composition relationships establish resistant-starch delivery in the specified preparations, independently of Baxter intervention effects.",
+            "sources": [
+              "docs/foods/potatoes.md",
+              "docs/foods/bananas.md",
+              "docs/foods/black-beans.md",
+              "docs/foods/chickpeas.md"
+            ]
+          }
+        },
+        "current_mapping_admission": "admitted",
+        "type_delivery_metadata": {
+          "atom_id": "PM5-DIT-1",
+          "relationship_layer": "dietary-requirement",
+          "relationship_mode": "capacity-requirement",
+          "claim_ceiling": "biological-dependency",
+          "dietary_addressability": "direct",
+          "requirement_classification": "direct"
+        },
+        "record_preserved": true,
+        "source_sha256": "f95d7149dd681e86d75560d8a75da4346d5267d0561cd080811d6f40fe552600",
+        "rapid_manuscript_selected": true,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      },
+      {
+        "pm_id": "BRS5-FM2-PM5",
+        "atom_id": "PM5-DIT-2",
+        "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
+        "section_presentations": [
+          {
+            "atom_id": "PM5-DIT-2",
+            "label": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
+            "presentation_section": "3.1.1",
+            "reader_description": "Historical FOS/GOS mixture-specific Capacity admission requires review; not an approved food-effect claim.",
+            "description_finding_id": "PM5-F1"
+          }
+        ],
+        "dietary_input": true,
+        "canonical_scientific_assessment": {
+          "atom_id": "PM5-DIT-2",
+          "status": "unresolved",
+          "type": "A",
+          "classification": "direct",
+          "operation": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+          "canonical_substance_id": "fructo-galacto-oligosaccharides",
+          "assessment_date": "2026-10-23",
+          "food_target_research": {
+            "completed": true,
+            "sources_examined": [
+              "registry/substances.json",
+              "system/food-target-research.json",
+              "docs/foods/potatoes.md",
+              "docs/foods/bananas.md",
+              "docs/foods/black-beans.md",
+              "docs/foods/chickpeas.md",
+              "docs/foods/apples.md"
+            ],
+            "targeted_searches": [
+              "https://pubmed.ncbi.nlm.nih.gov/37327923/"
+            ],
+            "sufficient_coverage_rationale": "Existing verified resistant-starch composition and the retained provisional apple-pectin composition research were examined independently of fermentation evidence."
+          },
+          "review_required": true,
+          "review_reason": "Historical mixture-specific Capacity admission requires review: limited anatomical observations and indirect/modelled results do not sufficiently establish the existing substrate-to-SCFA claim; no independent constituent or butyrate admission is made.",
+          "functional_dependency": {
+            "status": "unresolved",
+            "statement": "Historical mixture-specific Capacity admission requires review: limited anatomical observations and indirect/modelled results do not sufficiently establish the existing substrate-to-SCFA claim; no independent constituent or butyrate admission is made.",
+            "sources": [
+              "https://doi.org/10.1016/j.isci.2024.109208"
+            ]
+          },
+          "dietary_supply": {
+            "status": "established",
+            "statement": "The experimental mixture was administered; ordinary food equivalence is not established.",
+            "sources": [
+              "https://doi.org/10.1016/j.isci.2024.109208"
+            ]
+          }
+        },
+        "current_mapping_admission": "unresolved",
+        "type_delivery_metadata": {
+          "atom_id": "PM5-DIT-2",
+          "relationship_layer": "dietary-requirement",
+          "relationship_mode": "capacity-requirement",
+          "claim_ceiling": "biological-dependency",
+          "dietary_addressability": "direct",
+          "requirement_classification": "direct"
+        },
+        "record_preserved": true,
+        "source_sha256": "b609b34d2778203fd517ebefc08444aee308bf90d10d450f24141703da174a61",
+        "rapid_manuscript_selected": false,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      },
+      {
+        "pm_id": "BRS5-FM2-PM5",
+        "atom_id": "PM5-DIT-3",
+        "input": "Pectin",
+        "section_presentations": [
+          {
+            "atom_id": "PM5-DIT-3",
+            "label": "Pectin",
+            "presentation_section": "3.1.1",
+            "reader_description": "Pectin provides fermentable carbohydrate for microbial short-chain fatty acid formation.",
+            "description_finding_id": "PM5-F1"
+          }
+        ],
+        "dietary_input": true,
+        "canonical_scientific_assessment": {
+          "atom_id": "PM5-DIT-3",
+          "status": "admitted",
+          "type": "A",
+          "classification": "direct",
+          "operation": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+          "canonical_substance_id": "pectin",
+          "assessment_date": "2026-10-23",
+          "food_target_research": {
+            "completed": true,
+            "sources_examined": [
+              "registry/substances.json",
+              "system/food-target-research.json",
+              "docs/foods/potatoes.md",
+              "docs/foods/bananas.md",
+              "docs/foods/black-beans.md",
+              "docs/foods/chickpeas.md",
+              "docs/foods/apples.md"
+            ],
+            "targeted_searches": [
+              "https://pubmed.ncbi.nlm.nih.gov/37327923/"
+            ],
+            "sufficient_coverage_rationale": "Existing verified resistant-starch composition and the retained provisional apple-pectin composition research were examined independently of fermentation evidence."
+          },
+          "functional_dependency": {
+            "status": "established",
+            "statement": "Pectin supplies fermentable carbohydrate in human-derived microbial cultures; bounded primary support is distinct from secondary synthesis.",
+            "sources": [
+              "https://doi.org/10.1186/s13568-018-0629-9"
+            ]
+          },
+          "dietary_supply": {
+            "status": "established",
+            "statement": "Primary apple composition supports qualitative pectic-substrate supply; the structured food edge remains pending.",
+            "sources": [
+              "https://doi.org/10.1016/j.ijbiomac.2023.125410"
+            ]
+          }
+        },
+        "current_mapping_admission": "admitted",
+        "type_delivery_metadata": {
+          "atom_id": "PM5-DIT-3",
+          "relationship_layer": "dietary-requirement",
+          "relationship_mode": "capacity-requirement",
+          "claim_ceiling": "biological-dependency",
+          "dietary_addressability": "direct",
+          "requirement_classification": "direct"
+        },
+        "record_preserved": true,
+        "source_sha256": "d89fb3ffcc933371b8862631a142ee44a009242e24adcf7c2c5c8a0631598e6d",
+        "rapid_manuscript_selected": true,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      },
+      {
+        "pm_id": "BRS5-FM2-PM5",
+        "atom_id": "PM5-DIT-4",
+        "input": "Acetate",
+        "section_presentations": [
+          {
+            "atom_id": "PM5-DIT-4",
+            "label": "Acetate",
+            "presentation_section": "3.1.2",
+            "reader_description": "Acetate participates in the downstream biology of microbial fermentation.",
+            "description_finding_id": "PM5-F2"
+          }
+        ],
+        "dietary_input": false,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": null,
+        "type_delivery_metadata": {
+          "atom_id": "PM5-DIT-4",
+          "relationship_layer": "biochemical-requirement",
+          "claim_ceiling": "biological-dependency",
+          "dietary_addressability": "not-established"
+        },
+        "record_preserved": true,
+        "source_sha256": "1bc0c8bbb68f8e8943679d9327ca512b390fc0905e2a3d0ab596bf228442958b",
+        "rapid_manuscript_selected": false,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      },
+      {
+        "pm_id": "BRS5-FM2-PM5",
+        "atom_id": "PM5-DIT-5",
+        "input": "Propionate",
+        "section_presentations": [
+          {
+            "atom_id": "PM5-DIT-5",
+            "label": "Propionate",
+            "presentation_section": "3.1.2",
+            "reader_description": "Propionate participates in the downstream biology of microbial fermentation.",
+            "description_finding_id": "PM5-F2"
+          }
+        ],
+        "dietary_input": false,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": null,
+        "type_delivery_metadata": {
+          "atom_id": "PM5-DIT-5",
+          "relationship_layer": "biochemical-requirement",
+          "claim_ceiling": "biological-dependency",
+          "dietary_addressability": "not-established"
+        },
+        "record_preserved": true,
+        "source_sha256": "1393e879e3227e6126e0dacb5d6aea0c4e3864334aac4fcbb3ccd9002def331a",
+        "rapid_manuscript_selected": false,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      },
+      {
+        "pm_id": "BRS5-FM2-PM5",
+        "atom_id": "PM5-DIT-6",
+        "input": "Butyrate",
+        "section_presentations": [
+          {
+            "atom_id": "PM5-DIT-6",
+            "label": "Butyrate",
+            "presentation_section": "3.1.2",
+            "reader_description": "Butyrate participates in the downstream biology of microbial fermentation.",
+            "description_finding_id": "PM5-F2"
+          }
+        ],
+        "dietary_input": false,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": null,
+        "type_delivery_metadata": {
+          "atom_id": "PM5-DIT-6",
+          "relationship_layer": "biochemical-requirement",
+          "claim_ceiling": "biological-dependency",
+          "dietary_addressability": "not-established"
+        },
+        "record_preserved": true,
+        "source_sha256": "34cdc6509db1a3033232a0b435c613c26386e50725d4af90dfa723c25878a12d",
+        "rapid_manuscript_selected": false,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      }
+    ],
+    "existing_practices": [],
+    "existing_lifestyle": [],
+    "existing_kcs": [
+      "BRS5(KC1)"
+    ],
+    "new_admissions": [],
+    "new_practices": [],
+    "food_mapping_counts": {
+      "verified": 4,
+      "provisional": 1,
+      "unresolved": 0
+    },
+    "food_research_scope": "Re-examined the current structured food joins and existing composition ledger against the reviewed input roles. No food source, quantity, preparation equivalence, conversion chain or ontology edge invented. Existing provisional discoveries remain available through the standard PM dropdown."
+  },
+  "preservation": {
+    "before_file_sha256": "a56e01dec95b0f79d162b9fa16b7ff4dac4b03c0c10ace0fc598a8fadc511ea0",
+    "original_counts": {
+      "dietary_input_traceability": 6,
+      "dietary_input_assessments": 3,
+      "dietary_lever_atoms": 6,
+      "dietary_lever_presentations": 6,
+      "key_constraints": 1,
+      "cofactors": 2,
+      "system_optimisation_practices": 0,
+      "lifestyle_priorities": 0,
+      "scientific_findings": 2,
+      "references": 10,
+      "phenome_relationships": 0,
+      "kc_change_control_flags": 0
+    },
+    "all_existing_structured_records_preserved": true,
+    "all_existing_prose_preserved": "Removing the marked additive disclosure recovers the exact original document bytes.",
+    "phenome_and_scores": "unchanged",
+    "canonical_input_dispositions": "unchanged"
+  },
+  "issues_flagged": [],
+  "proposed_changes_requiring_approval": [],
+  "outcome": "ADDITIVELY ENRICHED WITH LIMITATIONS; no new dietary admission"
+}

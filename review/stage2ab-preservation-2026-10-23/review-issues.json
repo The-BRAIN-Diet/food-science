@@ -1,0 +1,62 @@
+[
+  {
+    "id": "PRES-20261023-GAD-B6",
+    "pm": "BRS1-FM4-PM9",
+    "record": "dietary_input_traceability[PM9-DIT-3].biological_role",
+    "concern": "The shorthand says pyridoxal kinase converts dietary B6 vitamers to PLP without distinguishing PNPO-dependent oxidation of phosphorylated pyridoxine/pyridoxamine.",
+    "proposal": "After approval, clarify vitamer-specific phosphorylation and oxidation steps while preserving the B6 Capacity/Derived admission.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+      "https://pubmed.ncbi.nlm.nih.gov/15182361/"
+    ],
+    "status": "open-review-required; original record preserved"
+  },
+  {
+    "id": "PRES-20261023-ACH-B5",
+    "pm": "BRS1-FM2-PM6",
+    "record": "scientific_findings[PM6-F5].evidence_considered[rivera_calimlim_pantothenic_1988].assessment.evidence_summary",
+    "concern": "The phrase Directly links severe pantothenate depletion to reduced acetylcholine synthesis through acetyl-CoA provision may overstate isolated causal mediation in an ethanol-exposure model.",
+    "proposal": "Review whether the study isolates acetyl-CoA mediation; if approved, describe the ethanol-specific association/intervention separately from the established biochemical precursor pathway. Retain B5 admission.",
+    "sources": [
+      "https://doi.org/10.1111/j.1476-5381.1988.tb16550.x",
+      "https://pubmed.ncbi.nlm.nih.gov/3219477/"
+    ],
+    "status": "open-review-required; original source assessment preserved"
+  },
+  {
+    "id": "PRES-20261023-NRF2-PREP",
+    "pm": "BRS3-FM2-PM3",
+    "record": "docs/foods/broccoli.md#substance_relationships/Sulforaphane",
+    "concern": "The inherited raw preparation join differs from the described cooked/sous-vide/mustard material context. This concerns one food exposure, not the PM admission.",
+    "proposal": "Independently reconcile material, preparation and measurement context before interpreting that exposure. No canonical edge repair or PM downgrade in this run.",
+    "sources": [
+      "system/rapid-stage2ab-2026-10-23/adjudications.json",
+      "review/rapid-stage2ab-2026-10-23/cursor-repair-queue.json"
+    ],
+    "status": "open-material-review; existing record preserved"
+  },
+  {
+    "id": "PRES-20261023-ETC-FMN",
+    "pm": "BRS4-FM1-PM1",
+    "record": "dietary_input_traceability[PM1-DIT-2]",
+    "concern": "Direct active-FMN dietary occurrence and the supported riboflavin-derived route are distinct; current active-FMN food coverage is incomplete.",
+    "proposal": "Research form-specific direct delivery and preserve the existing active-form and precursor records during reconciliation; do not infer direct FMN amounts from riboflavin.",
+    "sources": [
+      "registry/substances.json",
+      "https://pubmed.ncbi.nlm.nih.gov/27509854/"
+    ],
+    "status": "open-food-traceability-question; admission retained"
+  },
+  {
+    "id": "PRES-20261023-THIOL-IDENTITY",
+    "pm": "BRS3-FM2-PM6",
+    "record": "New PM6-F2 follow-up; registry/substances.json",
+    "concern": "The retrieved GSR FAD cofactor has ChEBI CHEBI:57692, but a resolved local FAD identity and complete dietary precursor pathway have not been established in this run.",
+    "proposal": "Review existing aliases/identities and step-specific precursor evidence before proposing a new dietary relationship. Do not create an identity or admission automatically.",
+    "sources": [
+      "https://www.rcsb.org/structure/3GRS",
+      "https://rest.uniprot.org/uniprotkb/P00390.json"
+    ],
+    "status": "open-research-question; no new dietary admission"
+  }
+]

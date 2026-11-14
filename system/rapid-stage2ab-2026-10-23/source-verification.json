@@ -1,0 +1,372 @@
+[
+  {
+    "id": "gad-capacity",
+    "url": "https://www.uniprot.org/uniprotkb/Q99259",
+    "kind": "curated-database",
+    "proposition": "Human GAD1 catalytic identity and PLP cofactor; Rhea 17785.",
+    "limitation": "Identity/reaction support; not dietary efficacy.",
+    "retrieval": "UniProt indexed record, retrieved 2026-10-23; no release number recovered.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "b6-activation",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+    "kind": "primary-experiment",
+    "proposition": "Human pyridoxal kinase assays and structures distinguish phosphorylation of B6 vitamers.",
+    "limitation": "Pyridoxine/pyridoxamine require subsequent oxidation; no human dietary GABA flux.",
+    "retrieval": "Primary abstract.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "pnpo-activation",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15182361/",
+    "kind": "primary-experiment",
+    "proposition": "Human PNPO biochemical characterisation corroborates the activation pathway.",
+    "limitation": "Intermediate canonical identities remain incomplete; no manufactured chain or yield.",
+    "retrieval": "Primary abstract; not a new end-to-end dietary experiment.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "mtr-capacity",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30693532/",
+    "kind": "secondary-review",
+    "proposition": "MTR uses methylcobalamin and 5-MTHF; dietary vitamin processing is separate from tissue flux.",
+    "limitation": "Review, not an independent intervention; homocysteine concentration is not remethylation flux.",
+    "retrieval": "Existing assessed review and refreshed primary publication abstract (review).",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "mtr-primary",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34799699/",
+    "kind": "primary-experiment",
+    "proposition": "Isotope tracing and MTR disruption support folate-dependent reaction function in tumour models.",
+    "limitation": "Tumour methionine contribution was minor; do not infer major brain methionine supply or clinical dietary response.",
+    "retrieval": "Primary abstract.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "vitamin-e-capacity",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17561088/",
+    "kind": "secondary-review",
+    "proposition": "Alpha-tocopherol supports lipid-phase peroxyl-radical chain termination.",
+    "limitation": "Vitamin E forms differ in retention; high-dose benefits and brain efficacy are not inferred.",
+    "retrieval": "Review full text and abstract.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "vitamin-e-primary",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/804799/",
+    "kind": "primary-experiment",
+    "proposition": "Deficiency/repletion and ex-vivo erythrocyte observations corroborate lipid-protection capacity.",
+    "limitation": "Erythrocyte oxidative challenge is not brain efficacy or a general high-dose prescription.",
+    "retrieval": "Indexed primary abstract.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "etc-capacity",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34621061/",
+    "kind": "secondary-review",
+    "proposition": "Respiratory-chain electron transfer and assembly; existing assessed metal/cofactor roles retained.",
+    "limitation": "No dietary efficacy or extra iron benefit; review is not primary replication.",
+    "retrieval": "Existing canonical source assessment plus refreshed publication abstract; full text not re-extracted.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "etc-primary",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27509854/",
+    "kind": "primary-experiment",
+    "proposition": "Bovine complex-I cryo-EM locates FeS centres and the FMN cofactor.",
+    "limitation": "Structural identification, not intake response or human brain ATP measurement.",
+    "retrieval": "Primary abstract and figure descriptions.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "fish-sequence",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26704625/",
+    "kind": "primary-human-intervention",
+    "proposition": "Fish-before-rice comparison measured breath-test emptying and post-meal glucose responses.",
+    "limitation": "Acute exploratory small study; meat comparison not the randomized crossover; no generic protein-first or chronic brain claim.",
+    "retrieval": "Primary abstract and full text.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "beta-glucan-meal",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18837470/",
+    "kind": "primary-human-intervention",
+    "proposition": "The tested beta-glucan/polenta meal redistributed isotope-estimated glucose appearance.",
+    "limitation": "Specific 5-g addition in twelve overweight participants; no decrease in total appearance and no universal whole-oat equivalence.",
+    "retrieval": "Primary abstract.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "pm5-approved",
+    "url": "review/brs5-pm5-retest-2026-10-23/report.md",
+    "kind": "approved-reuse",
+    "proposition": "Approved PM5 bounded reconciliation and controlled retest at 110a26bc.",
+    "limitation": "FOS/GOS excluded; apple provisional; inulin unadmitted; food composition is not Baxter-equivalent efficacy.",
+    "retrieval": "Committed approved report, canonical Finding/source records and food evidence.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "dha-primary",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24470588/",
+    "kind": "primary-experiment",
+    "proposition": "Dietary labelled DHA form affected brain accretion in neonatal piglets.",
+    "limitation": "Species and lipid formulation matter; no recommendation that ordinary fish reproduces the phospholipid advantage.",
+    "retrieval": "Primary abstract.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "dha-transport",
+    "url": "https://www.nature.com/articles/nature13241",
+    "kind": "primary-experiment",
+    "proposition": "MFSD2A transports LPC-associated DHA in cellular/mouse experiments.",
+    "limitation": "Not evidence that all dietary DHA arrives as LPC or that dietary choline limits human incorporation.",
+    "retrieval": "Primary publisher record and indexed figure/method context; prior canonical assessment reused.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "chat-review",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10594838/",
+    "kind": "secondary-review",
+    "proposition": "ChAT-dependent acetylcholine synthesis and cholinergic neuronal biology.",
+    "limitation": "Substrate capacity is not demonstrated meal-to-brain acetylcholine enhancement.",
+    "retrieval": "Existing assessed review plus refreshed publication abstract.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "choline-tracer",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36840817/",
+    "kind": "primary-human-intervention",
+    "proposition": "Labelled oral choline forms and phosphatidylcholine produced different plasma choline/PC kinetics.",
+    "limitation": "Six men, defined supplements; plasma appearance is not neuronal synthesis or whole-food equivalence.",
+    "retrieval": "Primary abstract and full publisher PDF results/methods.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "bhmt-primary",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12220488/",
+    "kind": "primary-experiment",
+    "proposition": "Human BHMT structural chemistry identifies betaine/homocysteine transfer and zinc activation.",
+    "limitation": "Static structure is not in-vivo flux, dietary zinc limitation or a brain enzyme result.",
+    "retrieval": "Primary abstract.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "bhmt-choline",
+    "url": "https://doi.org/10.1016/j.abb.2013.07.018",
+    "kind": "secondary-review",
+    "proposition": "Existing source assessment distinguishes choline oxidation to betaine aldehyde and then betaine.",
+    "limitation": "Not a direct measurement of dietary choline increasing BHMT flux.",
+    "retrieval": "Existing canonically assessed review; no new full-text extraction.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "spm-primary",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4617141/",
+    "kind": "primary-human-intervention",
+    "proposition": "Selected plasma n-3 pathway mediators changed during combined n-3 supplementation.",
+    "limitation": "Not all mediators increased; aspirin randomisation is distinct from uncontrolled pre/post n-3 exposure; no demonstrated clinical resolution or fish-meal equivalence.",
+    "retrieval": "Primary full text, Table 2 and design.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "creatine-primary",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10484486/",
+    "kind": "primary-human-intervention",
+    "proposition": "Oral creatine monohydrate increased regional brain total-creatine measurements in a small study.",
+    "limitation": "Six participants, supplement loading; concentration is not ATP-buffering flux, ordinary-meat efficacy or cognition.",
+    "retrieval": "Primary abstract; prior brain-creatine reviews retained as secondary synthesis.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "creatine-preparation",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18989971/",
+    "kind": "primary-food-composition",
+    "proposition": "Heating protocols altered creatine-to-creatinine conversion in pork/ham materials.",
+    "limitation": "Composition retention only, not brain effects; no advice to undercook food.",
+    "retrieval": "Primary abstract; DOI 10.1021/jf801953t verifies correction of mismatched bibliography PMID.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "nad-review",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7963035/",
+    "kind": "secondary-review",
+    "proposition": "Existing NAD review distinguishes NAM salvage, nicotinic-acid and tryptophan routes.",
+    "limitation": "Not primary replication; tryptophan contribution and ordinary-diet responsiveness are uncertain.",
+    "retrieval": "Existing full canonical assessment; publication accessible for review context.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "nad-niacin",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32386566/",
+    "kind": "primary-human-intervention",
+    "proposition": "Niacin increased blood/muscle NAD in a mitochondrial-myopathy context.",
+    "limitation": "Open study and pharmacological exposure, not ordinary-food or brain efficacy; distinguish original article from its erratum.",
+    "retrieval": "Primary original abstract; DOI and erratum identity checked.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "niacin-composition",
+    "url": "https://www.ejast.org/archive/view_article?pid=jast-61-3-138",
+    "kind": "primary-food-composition",
+    "proposition": "HPLC resolved nicotinic acid and nicotinamide in the studied chicken and chickpea samples.",
+    "limitation": "Acid/heat extraction measures method-releasable analytes, not native free pools, cooking yields or bioavailability; no amount inferred from total niacin.",
+    "retrieval": "Primary Methods and Tables 2–3.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "nrf2-food",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19028145/",
+    "kind": "primary-human-intervention",
+    "proposition": "Defined broccoli-sprout homogenate raised nasal phase-II gene RNA relative to the control preparation.",
+    "limitation": "Nasal target-gene response, not brain/ADHD effect, universal serving response or direct measurement of Nrf2 activation in every tissue.",
+    "retrieval": "Primary abstract; precise preparation retained from prior full source assessment.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "nrf2-mechanism",
+    "url": "https://doi.org/10.1128/MCB.24.24.10941-10953.2004",
+    "kind": "primary-experiment",
+    "proposition": "Existing primary cell/biochemical source links sulforaphane and Keap1 cysteine-sensitive Nrf2 turnover.",
+    "limitation": "Cell engagement does not itself establish dietary exposure; human preparation evidence assessed separately.",
+    "retrieval": "Existing canonical primary assessment; targeted primary retrieval in this run recorded separately.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "nrf2-null",
+    "url": "https://doi.org/10.1371/journal.pone.0163716",
+    "kind": "primary-human-intervention",
+    "proposition": "The COPD capsule trial did not increase the assessed Nrf2 target-gene endpoints.",
+    "limitation": "Different tissue, disease and formulation; prevents a uniform exposure-response claim.",
+    "retrieval": "Existing assessed primary null; targeted recheck recorded separately.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "selenium-primary",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2921536/",
+    "kind": "primary-human-intervention",
+    "proposition": "Selenomethionine repletion restored plasma GPX3 to a plateau in selenium-deficient adults.",
+    "limitation": "GPX3 and SEPP1 plateaux differ; neither net oxidative pressure nor neuronal function was measured.",
+    "retrieval": "Primary full text including GPX/SEPP1 distinction.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "copper-primary",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/3934352/",
+    "kind": "primary-human-intervention",
+    "proposition": "Copper repletion increased erythrocyte SOD in infants with marginal status.",
+    "limitation": "Selected infant/deficiency context; not general benefits of extra copper or brain SOD measurement.",
+    "retrieval": "Primary abstract.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "recycling-primary",
+    "url": "https://www.nature.com/articles/278737a0",
+    "kind": "primary-experiment",
+    "proposition": "Chemical experiment directly observed the vitamin E radical/vitamin C interaction.",
+    "limitation": "Radical chemistry, not a human dietary recycling rate or supplementation prescription.",
+    "retrieval": "Publisher primary abstract; full paywalled methods not newly extracted.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "ellagic-conversion",
+    "url": "https://pubs.rsc.org/doi/c4fo00092g",
+    "kind": "primary-experiment",
+    "proposition": "Gordonibacter cultures produced intermediate urolithins from ellagic acid.",
+    "limitation": "Pure strains did not produce final urolithin A/B; community completion is conditional.",
+    "retrieval": "Primary publisher abstract.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "ellagitannin-human",
+    "url": "https://doi.org/10.1038/s41430-021-00950-1",
+    "kind": "primary-human-intervention",
+    "proposition": "Assayed pomegranate juice contained ellagic acid/punicalagins; urolithin exposure varied across people.",
+    "limitation": "Commercial juice matrix; not equivalent to whole pomegranate or walnuts, predictable urolithin yield, mitochondrial or brain benefit.",
+    "retrieval": "Primary full text, investigational product assays and conversion results.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "wholegrain-processing",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7372063/",
+    "kind": "primary-human-crossover",
+    "proposition": "Less-processed whole-grain package reduced CGM excursions and variability relative to finely milled nutrient-matched grains.",
+    "limitation": "31 enrolled, 28 completed; two weeks; type 2 diabetes; combined oats/rice/bread package. Not an isolated fibre effect or brain outcome.",
+    "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "early-eating",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39759025/",
+    "kind": "primary-human-crossover",
+    "proposition": "Six-day early eating with front-loaded calories reduced MAGE and hyperglycaemic exposure in ten adults with prediabetes.",
+    "limitation": "Timing, window and calorie distribution were combined. Inflammatory markers and OGTT did not improve; short trial does not establish universal timing benefits.",
+    "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "early-eating-null",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10804344/",
+    "kind": "primary-human-randomised-secondary-analysis",
+    "proposition": "Early time restriction added to calorie restriction did not improve average glucose or insulin-sensitivity measures over calorie restriction alone.",
+    "limitation": "Different 12-week protocol and overweight/obese population; incomplete CGM coverage. Retained as contrary context, not a second independent replication of Bruno.",
+    "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "interval-walking",
+    "url": "https://pure-oai.bham.ac.uk/ws/files/37050575/Karstoft_et_al_The_effects_of_2_weeks_2016.pdf",
+    "kind": "primary-human-crossover",
+    "proposition": "Two weeks of supervised interval walking reduced CGM MAGE versus the control period in type 2 diabetes.",
+    "limitation": "14 participants, 13 usable CGM; mean glucose within-period inconclusive; oxidative stress unchanged. Not generic walking-dose or brain-effect evidence.",
+    "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  },
+  {
+    "id": "feeding-phase",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28578930/",
+    "kind": "primary-human-laboratory",
+    "proposition": "A five-hour meal delay shifted glucose and adipose PER2 rhythms without shifting melatonin or cortisol rhythms.",
+    "limitation": "Ten healthy young men in ordered laboratory schedules; phase shifts are not proof of improved health or a prescription for an optimum clock time.",
+    "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+    "retrieved": "2026-10-23",
+    "cc_sec": "unscored; no new score"
+  }
+]

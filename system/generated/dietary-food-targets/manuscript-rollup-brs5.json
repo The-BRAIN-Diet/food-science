@@ -3340,19 +3340,26 @@
       "ontology_connections": {
         "identity": "resolved",
         "conversion": "not-applicable",
-        "food": "unresolved"
+        "food": "supported"
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": null,
-      "food_title": null,
-      "food_material": null,
-      "material_equivalence_status": null,
+      "food_target": "pomegranates",
+      "food_title": "Pomegranate (studied commercial juice)",
+      "food_material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
+      "material_equivalence_status": "not-applicable",
       "material_equivalence_reason": null,
-      "ontology_relationship_status": null,
+      "ontology_relationship_status": "missing-context-edge",
       "reconciled_sources": [],
-      "mapping_status": "unresolved",
-      "food_evidence": null,
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
+        "sources": [
+          "https://doi.org/10.1038/s41430-021-00950-1"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
       "pm_evidence": {
         "finding_ids": [
           "PM6-F1"
@@ -3362,13 +3369,14 @@
           "singh_direct_2022"
         ]
       },
-      "preparation": null,
-      "delivery": null,
+      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
-        "Conversion depends on microbial community and may stop at intermediates. This does not imply universal conversion, increased mitochondrial function or benefit."
+        "Conversion depends on microbial community and may stop at intermediates. This does not imply universal conversion, increased mitochondrial function or benefit.",
+        "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred."
       ],
-      "missing_ontology_edge": null
+      "missing_ontology_edge": "pomegranates → ellagic-acid [Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.; Chilled commercial juice; not whole-fruit or other-product equivalence]"
     },
     {
       "brs": "BRS5",
@@ -3444,6 +3452,55 @@
         "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies."
       ],
       "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM6",
+      "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "dietary_input": "Ellagitannins",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "ellagitannins",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "pomegranates",
+      "food_title": "Pomegranate (studied commercial juice)",
+      "food_material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
+        "sources": [
+          "https://doi.org/10.1038/s41430-021-00950-1"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F1"
+        ],
+        "citation_keys": [
+          "singh_direct_2022"
+        ]
+      },
+      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies.",
+        "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred."
+      ],
+      "missing_ontology_edge": "pomegranates → ellagitannins [Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.; Chilled commercial juice; not whole-fruit or other-product equivalence]"
     },
     {
       "brs": "BRS5",

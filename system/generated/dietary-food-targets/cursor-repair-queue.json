@@ -622,6 +622,118 @@
       "verification_status": "requires-pathway-reconciliation"
     },
     {
+      "source_entity": "chicken",
+      "target_entity": "nicotinamide",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chicken",
+        "substance": "nicotinamide"
+      },
+      "candidate_food": "Chicken (studied breast material)",
+      "material": "Chicken breast purchased in Turkey; cooking state not established",
+      "preparation": "Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement",
+      "evidence": [
+        {
+          "statement": "Form-specific HPLC after the documented extraction supports the qualitative method-releasable niacin pool in this sample.",
+          "sources": [
+            "https://www.ejast.org/archive/view_article?pid=jast-61-3-138"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS4-FM1-PM2"
+      ],
+      "missing_edge": "docs/foods/chicken.md#substance_relationships: contains nicotinamide (Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "chickpeas",
+      "target_entity": "nicotinamide",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chickpeas",
+        "substance": "nicotinamide"
+      },
+      "candidate_food": "Chickpeas (studied analytical material)",
+      "material": "Chickpea samples purchased in Turkey; cooking state not established",
+      "preparation": "Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement",
+      "evidence": [
+        {
+          "statement": "Form-specific HPLC after the documented extraction supports the qualitative method-releasable niacin pool in this sample.",
+          "sources": [
+            "https://www.ejast.org/archive/view_article?pid=jast-61-3-138"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS4-FM1-PM2"
+      ],
+      "missing_edge": "docs/foods/chickpeas.md#substance_relationships: contains nicotinamide (Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "chicken",
+      "target_entity": "nicotinic-acid",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chicken",
+        "substance": "nicotinic-acid"
+      },
+      "candidate_food": "Chicken (studied breast material)",
+      "material": "Chicken breast purchased in Turkey; cooking state not established",
+      "preparation": "Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement",
+      "evidence": [
+        {
+          "statement": "Form-specific HPLC after the documented extraction supports the qualitative method-releasable niacin pool in this sample.",
+          "sources": [
+            "https://www.ejast.org/archive/view_article?pid=jast-61-3-138"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS4-FM1-PM2"
+      ],
+      "missing_edge": "docs/foods/chicken.md#substance_relationships: contains nicotinic-acid (Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "chickpeas",
+      "target_entity": "nicotinic-acid",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chickpeas",
+        "substance": "nicotinic-acid"
+      },
+      "candidate_food": "Chickpeas (studied analytical material)",
+      "material": "Chickpea samples purchased in Turkey; cooking state not established",
+      "preparation": "Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement",
+      "evidence": [
+        {
+          "statement": "Form-specific HPLC after the documented extraction supports the qualitative method-releasable niacin pool in this sample.",
+          "sources": [
+            "https://www.ejast.org/archive/view_article?pid=jast-61-3-138"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS4-FM1-PM2"
+      ],
+      "missing_edge": "docs/foods/chickpeas.md#substance_relationships: contains nicotinic-acid (Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
       "source_entity": "beef",
       "target_entity": "creatine",
       "relationship_type": "material-equivalence-review",
@@ -745,6 +857,62 @@
         "BRS5-FM2-PM5"
       ],
       "missing_edge": "docs/foods/apples.md#substance_relationships: contains pectin (Cultivar-specific extracted analytical fractions; not a standardised pectin dose)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "pomegranates",
+      "target_entity": "ellagic-acid",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "pomegranates",
+        "substance": "ellagic-acid"
+      },
+      "candidate_food": "Pomegranate (studied commercial juice)",
+      "material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
+      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "evidence": [
+        {
+          "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
+          "sources": [
+            "https://doi.org/10.1038/s41430-021-00950-1"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM6"
+      ],
+      "missing_edge": "docs/foods/pomegranates.md#substance_relationships: contains ellagic-acid (Chilled commercial juice; not whole-fruit or other-product equivalence)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "pomegranates",
+      "target_entity": "ellagitannins",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "pomegranates",
+        "substance": "ellagitannins"
+      },
+      "candidate_food": "Pomegranate (studied commercial juice)",
+      "material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
+      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "evidence": [
+        {
+          "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
+          "sources": [
+            "https://doi.org/10.1038/s41430-021-00950-1"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM6"
+      ],
+      "missing_edge": "docs/foods/pomegranates.md#substance_relationships: contains ellagitannins (Chilled commercial juice; not whole-fruit or other-product equivalence)",
       "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
       "verification_status": "pending-independent-verification"
     },

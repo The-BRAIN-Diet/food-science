@@ -1,0 +1,929 @@
+{
+  "schema_version": 1,
+  "baseline": "110a26bc52663ba6a2e5bdd1a02e4014278b5233",
+  "scope": "Rapid quality-gated manuscript abstraction, separate from historical mappings not reapproved by this run.",
+  "qualification": "Food composition supports delivery, not intervention equivalence. This is not a clinically validated BRAIN Diet or ADHD treatment.",
+  "records": [
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Resistant starch",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "resistant-starch",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "bananas",
+      "food_title": "Bananas",
+      "food_material": "Cavendish and plantain bananas",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Cavendish and plantain bananas",
+          "preparation": "Green/unripe; cultivar and ripening state matter",
+          "evidence": {
+            "statement": "Direct starch analyses examined resistant-starch decline during ripening in two cultivars.",
+            "sources": [
+              "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Qualitative source; no amount inferred from total carbohydrate or fibre and no fixed fermentation yield.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/bananas.md#substance_relationships/Resistant%20starch",
+          "evidence": "Gao et al., Postharvest Biology and Technology 2016",
+          "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre."
+        },
+        {
+          "statement": "Direct starch analyses examined resistant-starch decline during ripening in two cultivars.",
+          "sources": [
+            "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "baxter_fermentable_fibers_2019",
+          "ze_resistant_starch_2012",
+          "fassler_resistant_starch_2006"
+        ]
+      },
+      "preparation": "Green/unripe; cultivar and ripening state matter",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Utilisation and product distribution depend on starch structure, processing, accessibility, primary degraders and cross-feeding partners. Evidence for one formulation does not establish an equivalent butyrate response from another preparation or whole food. No predictable yield, intake target or brain benefit is established."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM5-DIT-1",
+      "pm_mission": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "biological_operation": "Resistant starch reaching the colon supplies fermentable carbohydrate to microbial communities capable of its utilisation, supporting SCFA-production capacity.",
+      "rapid_disposition": "retained-supported-canonical-admission",
+      "relationship": "Type A — Capacity",
+      "mechanistic_evidence": [
+        {
+          "id": "pm5-approved",
+          "url": "review/brs5-pm5-retest-2026-10-23/report.md",
+          "kind": "approved-reuse",
+          "proposition": "Approved PM5 bounded reconciliation and controlled retest at 110a26bc.",
+          "limitation": "FOS/GOS excluded; apple provisional; inulin unadmitted; food composition is not Baxter-equivalent efficacy.",
+          "retrieval": "Committed approved report, canonical Finding/source records and food evidence.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Verified class composition does not establish a formulation-specific butyrate response.",
+      "food_preparation": "Green/unripe; cultivar and ripening state matter",
+      "food_identity_evidence": [
+        {
+          "record": "docs/foods/bananas.md#substance_relationships/Resistant%20starch",
+          "evidence": "Gao et al., Postharvest Biology and Technology 2016",
+          "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre."
+        },
+        {
+          "statement": "Direct starch analyses examined resistant-starch decline during ripening in two cultivars.",
+          "sources": [
+            "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "limitation": [
+        "Utilisation and product distribution depend on starch structure, processing, accessibility, primary degraders and cross-feeding partners. Evidence for one formulation does not establish an equivalent butyrate response from another preparation or whole food. No predictable yield, intake target or brain benefit is established.",
+        "Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre.",
+        "Verified class composition does not establish a formulation-specific butyrate response."
+      ],
+      "conversion_traceability": "not-applicable",
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "batch": 1,
+      "review_id": "system/rapid-stage2ab-2026-10-23/adjudications.json#BRS5-FM2-PM5/PM5-DIT-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Resistant starch",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "resistant-starch",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "black-beans",
+      "food_title": "Black Beans",
+      "food_material": "Cooked black beans",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Cooked black beans",
+          "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+          "evidence": {
+            "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+            "sources": [
+              "https://doi.org/10.1016/j.nfs.2016.02.002"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Qualitative source only; assay included dry-weight quantities. Do not convert these to cooked-food fresh weight. Experimental room-temperature holding is not a food-handling recommendation.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/black-beans.md#substance_relationships/Resistant%20starch",
+          "evidence": "Fabbri et al., NFS Journal 2016",
+          "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+        },
+        {
+          "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+          "sources": [
+            "https://doi.org/10.1016/j.nfs.2016.02.002"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "baxter_fermentable_fibers_2019",
+          "ze_resistant_starch_2012",
+          "fassler_resistant_starch_2006"
+        ]
+      },
+      "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Utilisation and product distribution depend on starch structure, processing, accessibility, primary degraders and cross-feeding partners. Evidence for one formulation does not establish an equivalent butyrate response from another preparation or whole food. No predictable yield, intake target or brain benefit is established."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM5-DIT-1",
+      "pm_mission": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "biological_operation": "Resistant starch reaching the colon supplies fermentable carbohydrate to microbial communities capable of its utilisation, supporting SCFA-production capacity.",
+      "rapid_disposition": "retained-supported-canonical-admission",
+      "relationship": "Type A — Capacity",
+      "mechanistic_evidence": [
+        {
+          "id": "pm5-approved",
+          "url": "review/brs5-pm5-retest-2026-10-23/report.md",
+          "kind": "approved-reuse",
+          "proposition": "Approved PM5 bounded reconciliation and controlled retest at 110a26bc.",
+          "limitation": "FOS/GOS excluded; apple provisional; inulin unadmitted; food composition is not Baxter-equivalent efficacy.",
+          "retrieval": "Committed approved report, canonical Finding/source records and food evidence.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Verified class composition does not establish a formulation-specific butyrate response.",
+      "food_preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "food_identity_evidence": [
+        {
+          "record": "docs/foods/black-beans.md#substance_relationships/Resistant%20starch",
+          "evidence": "Fabbri et al., NFS Journal 2016",
+          "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+        },
+        {
+          "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+          "sources": [
+            "https://doi.org/10.1016/j.nfs.2016.02.002"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "limitation": [
+        "Utilisation and product distribution depend on starch structure, processing, accessibility, primary degraders and cross-feeding partners. Evidence for one formulation does not establish an equivalent butyrate response from another preparation or whole food. No predictable yield, intake target or brain benefit is established.",
+        "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction.",
+        "Verified class composition does not establish a formulation-specific butyrate response."
+      ],
+      "conversion_traceability": "not-applicable",
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "batch": 1,
+      "review_id": "system/rapid-stage2ab-2026-10-23/adjudications.json#BRS5-FM2-PM5/PM5-DIT-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Resistant starch",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "resistant-starch",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "chickpeas",
+      "food_title": "Chickpeas",
+      "food_material": "Cooked chickpeas",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Cooked chickpeas",
+          "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+          "evidence": {
+            "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+            "sources": [
+              "https://doi.org/10.1016/j.nfs.2016.02.002"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Qualitative source only; assay included dry-weight quantities. Do not convert these to cooked-food fresh weight. Experimental room-temperature holding is not a food-handling recommendation.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chickpeas.md#substance_relationships/Resistant%20starch",
+          "evidence": "Fabbri et al., NFS Journal 2016",
+          "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+        },
+        {
+          "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+          "sources": [
+            "https://doi.org/10.1016/j.nfs.2016.02.002"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "baxter_fermentable_fibers_2019",
+          "ze_resistant_starch_2012",
+          "fassler_resistant_starch_2006"
+        ]
+      },
+      "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Utilisation and product distribution depend on starch structure, processing, accessibility, primary degraders and cross-feeding partners. Evidence for one formulation does not establish an equivalent butyrate response from another preparation or whole food. No predictable yield, intake target or brain benefit is established."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM5-DIT-1",
+      "pm_mission": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "biological_operation": "Resistant starch reaching the colon supplies fermentable carbohydrate to microbial communities capable of its utilisation, supporting SCFA-production capacity.",
+      "rapid_disposition": "retained-supported-canonical-admission",
+      "relationship": "Type A — Capacity",
+      "mechanistic_evidence": [
+        {
+          "id": "pm5-approved",
+          "url": "review/brs5-pm5-retest-2026-10-23/report.md",
+          "kind": "approved-reuse",
+          "proposition": "Approved PM5 bounded reconciliation and controlled retest at 110a26bc.",
+          "limitation": "FOS/GOS excluded; apple provisional; inulin unadmitted; food composition is not Baxter-equivalent efficacy.",
+          "retrieval": "Committed approved report, canonical Finding/source records and food evidence.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Verified class composition does not establish a formulation-specific butyrate response.",
+      "food_preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "food_identity_evidence": [
+        {
+          "record": "docs/foods/chickpeas.md#substance_relationships/Resistant%20starch",
+          "evidence": "Fabbri et al., NFS Journal 2016",
+          "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+        },
+        {
+          "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+          "sources": [
+            "https://doi.org/10.1016/j.nfs.2016.02.002"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "limitation": [
+        "Utilisation and product distribution depend on starch structure, processing, accessibility, primary degraders and cross-feeding partners. Evidence for one formulation does not establish an equivalent butyrate response from another preparation or whole food. No predictable yield, intake target or brain benefit is established.",
+        "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction.",
+        "Verified class composition does not establish a formulation-specific butyrate response."
+      ],
+      "conversion_traceability": "not-applicable",
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "batch": 1,
+      "review_id": "system/rapid-stage2ab-2026-10-23/adjudications.json#BRS5-FM2-PM5/PM5-DIT-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Resistant starch",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "resistant-starch",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "potatoes",
+      "food_title": "Potatoes",
+      "food_material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+          "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+          "evidence": {
+            "statement": "Resistant starch was measured by cooking method and service temperature.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Preparation-specific assay; no generic amount or fixed SCFA yield. Quantities have not been extracted into this ledger.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/potatoes.md#substance_relationships/Resistant%20starch",
+          "evidence": "Raatz et al., Food Chemistry 2016",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/27132853/",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Preparation and service temperature change the assay. A generic potato portion is not this result."
+        },
+        {
+          "statement": "Resistant starch was measured by cooking method and service temperature.",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "baxter_fermentable_fibers_2019",
+          "ze_resistant_starch_2012",
+          "fassler_resistant_starch_2006"
+        ]
+      },
+      "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Utilisation and product distribution depend on starch structure, processing, accessibility, primary degraders and cross-feeding partners. Evidence for one formulation does not establish an equivalent butyrate response from another preparation or whole food. No predictable yield, intake target or brain benefit is established."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM5-DIT-1",
+      "pm_mission": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "biological_operation": "Resistant starch reaching the colon supplies fermentable carbohydrate to microbial communities capable of its utilisation, supporting SCFA-production capacity.",
+      "rapid_disposition": "retained-supported-canonical-admission",
+      "relationship": "Type A — Capacity",
+      "mechanistic_evidence": [
+        {
+          "id": "pm5-approved",
+          "url": "review/brs5-pm5-retest-2026-10-23/report.md",
+          "kind": "approved-reuse",
+          "proposition": "Approved PM5 bounded reconciliation and controlled retest at 110a26bc.",
+          "limitation": "FOS/GOS excluded; apple provisional; inulin unadmitted; food composition is not Baxter-equivalent efficacy.",
+          "retrieval": "Committed approved report, canonical Finding/source records and food evidence.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Verified class composition does not establish a formulation-specific butyrate response.",
+      "food_preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+      "food_identity_evidence": [
+        {
+          "record": "docs/foods/potatoes.md#substance_relationships/Resistant%20starch",
+          "evidence": "Raatz et al., Food Chemistry 2016",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/27132853/",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Preparation and service temperature change the assay. A generic potato portion is not this result."
+        },
+        {
+          "statement": "Resistant starch was measured by cooking method and service temperature.",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "limitation": [
+        "Utilisation and product distribution depend on starch structure, processing, accessibility, primary degraders and cross-feeding partners. Evidence for one formulation does not establish an equivalent butyrate response from another preparation or whole food. No predictable yield, intake target or brain benefit is established.",
+        "Preparation and service temperature change the assay. A generic potato portion is not this result.",
+        "Verified class composition does not establish a formulation-specific butyrate response."
+      ],
+      "conversion_traceability": "not-applicable",
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "batch": 1,
+      "review_id": "system/rapid-stage2ab-2026-10-23/adjudications.json#BRS5-FM2-PM5/PM5-DIT-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Pectin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "pectin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "apples",
+      "food_title": "Apples (studied cultivars)",
+      "food_material": "Analytical cell-wall pectin fractions from the thirteen apple cultivars studied by Liu et al.",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "The primary composition study isolated and characterised pectin from apple materials.",
+        "sources": [
+          "https://doi.org/10.1016/j.ijbiomac.2023.125410"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "pascale_potential_2022",
+          "bang_pectin_2018"
+        ]
+      },
+      "preparation": "Cultivar-specific extracted analytical fractions; not a standardised pectin dose",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Pectin structure, purified preparation, donor community and enriched culture medium affect interpretation. Pascale is secondary synthesis; Bang is bounded primary culture evidence. Whole apples are not equivalent to the tested citrus preparation; no human brain or clinical benefit is established.",
+        "Qualitative supply only; retain cultivar, fraction and food-matrix variation. No per-100-g pectin amount inferred from total fibre; whole fruit is not purified citrus pectin."
+      ],
+      "missing_ontology_edge": "apples → pectin [Analytical cell-wall pectin fractions from the thirteen apple cultivars studied by Liu et al.; Cultivar-specific extracted analytical fractions; not a standardised pectin dose]",
+      "atom_id": "PM5-DIT-3",
+      "pm_mission": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "biological_operation": "Fermentable polysaccharide supplying microbial SCFA production in human-microbiota culture experiments.",
+      "rapid_disposition": "retained-supported-canonical-admission",
+      "relationship": "Type A — Capacity",
+      "mechanistic_evidence": [
+        {
+          "id": "pm5-approved",
+          "url": "review/brs5-pm5-retest-2026-10-23/report.md",
+          "kind": "approved-reuse",
+          "proposition": "Approved PM5 bounded reconciliation and controlled retest at 110a26bc.",
+          "limitation": "FOS/GOS excluded; apple provisional; inulin unadmitted; food composition is not Baxter-equivalent efficacy.",
+          "retrieval": "Committed approved report, canonical Finding/source records and food evidence.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Apple pectin remains provisional, not a tested whole-apple butyrate intervention.",
+      "food_preparation": "Cultivar-specific extracted analytical fractions; not a standardised pectin dose",
+      "food_identity_evidence": {
+        "statement": "The primary composition study isolated and characterised pectin from apple materials.",
+        "sources": [
+          "https://doi.org/10.1016/j.ijbiomac.2023.125410"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "limitation": [
+        "Pectin structure, purified preparation, donor community and enriched culture medium affect interpretation. Pascale is secondary synthesis; Bang is bounded primary culture evidence. Whole apples are not equivalent to the tested citrus preparation; no human brain or clinical benefit is established.",
+        "Qualitative supply only; retain cultivar, fraction and food-matrix variation. No per-100-g pectin amount inferred from total fibre; whole fruit is not purified citrus pectin.",
+        "Apple pectin remains provisional, not a tested whole-apple butyrate intervention."
+      ],
+      "conversion_traceability": "not-applicable",
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "batch": 1,
+      "review_id": "system/rapid-stage2ab-2026-10-23/adjudications.json#BRS5-FM2-PM5/PM5-DIT-3"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM6",
+      "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "dietary_input": "Ellagic acid",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "ellagic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "pomegranates",
+      "food_title": "Pomegranate (studied commercial juice)",
+      "food_material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
+        "sources": [
+          "https://doi.org/10.1038/s41430-021-00950-1"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F1"
+        ],
+        "citation_keys": [
+          "selma_urolithin_capacity_2014",
+          "singh_direct_2022"
+        ]
+      },
+      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Conversion depends on microbial community and may stop at intermediates. This does not imply universal conversion, increased mitochondrial function or benefit.",
+        "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred."
+      ],
+      "missing_ontology_edge": "pomegranates → ellagic-acid [Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.; Chilled commercial juice; not whole-fruit or other-product equivalence]",
+      "atom_id": "PM6-DIT-1",
+      "pm_mission": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "biological_operation": "Immediate microbial substrate for the assessed urolithin-generation pathway.",
+      "rapid_disposition": "retained-supported-canonical-admission",
+      "relationship": "Type A — Capacity",
+      "mechanistic_evidence": [
+        {
+          "id": "ellagic-conversion",
+          "url": "https://pubs.rsc.org/doi/c4fo00092g",
+          "kind": "primary-experiment",
+          "proposition": "Gordonibacter cultures produced intermediate urolithins from ellagic acid.",
+          "limitation": "Pure strains did not produce final urolithin A/B; community completion is conditional.",
+          "retrieval": "Primary publisher abstract.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        },
+        {
+          "id": "ellagitannin-human",
+          "url": "https://doi.org/10.1038/s41430-021-00950-1",
+          "kind": "primary-human-intervention",
+          "proposition": "Assayed pomegranate juice contained ellagic acid/punicalagins; urolithin exposure varied across people.",
+          "limitation": "Commercial juice matrix; not equivalent to whole pomegranate or walnuts, predictable urolithin yield, mitochondrial or brain benefit.",
+          "retrieval": "Primary full text, investigational product assays and conversion results.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Ellagic acid is the immediate microbial substrate; only the assayed juice material is proposed provisionally, not all whole pomegranates.",
+      "food_preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "food_identity_evidence": {
+        "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
+        "sources": [
+          "https://doi.org/10.1038/s41430-021-00950-1"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "limitation": [
+        "Conversion depends on microbial community and may stop at intermediates. This does not imply universal conversion, increased mitochondrial function or benefit.",
+        "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred.",
+        "Ellagic acid is the immediate microbial substrate; only the assayed juice material is proposed provisionally, not all whole pomegranates."
+      ],
+      "conversion_traceability": "not-applicable",
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "batch": 2,
+      "review_id": "system/rapid-stage2ab-2026-10-23/adjudications.json#BRS5-FM2-PM6/PM6-DIT-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM6",
+      "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "dietary_input": "Ellagitannins",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "ellagitannins",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "walnuts",
+      "food_title": "Walnuts",
+      "food_material": "Walnut kernels",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Walnut kernels",
+          "preparation": "Walnut kernels; assay-specific extraction",
+          "evidence": {
+            "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
+            "sources": [
+              "https://doi.org/10.1016/j.foodchem.2013.11.158"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Qualitative presence only; batch and analytical extraction vary. No predictable urolithin A exposure or PM8 benefit inferred.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/walnuts.md#substance_relationships/Ellagitannins",
+          "evidence": "Regueiro et al., Food Chemistry 2014",
+          "source_url": "https://doi.org/10.1016/j.foodchem.2013.11.158",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Assay-specific extraction. This is not an amount and not a urolithin A exposure."
+        },
+        {
+          "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
+          "sources": [
+            "https://doi.org/10.1016/j.foodchem.2013.11.158"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F1"
+        ],
+        "citation_keys": [
+          "singh_direct_2022"
+        ]
+      },
+      "preparation": "Walnut kernels; assay-specific extraction",
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM6-DIT-2",
+      "pm_mission": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "biological_operation": "Hydrolysis releases ellagic acid upstream of microbial urolithin formation.",
+      "rapid_disposition": "retained-supported-canonical-admission",
+      "relationship": "Type A — Capacity",
+      "mechanistic_evidence": [
+        {
+          "id": "ellagic-conversion",
+          "url": "https://pubs.rsc.org/doi/c4fo00092g",
+          "kind": "primary-experiment",
+          "proposition": "Gordonibacter cultures produced intermediate urolithins from ellagic acid.",
+          "limitation": "Pure strains did not produce final urolithin A/B; community completion is conditional.",
+          "retrieval": "Primary publisher abstract.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        },
+        {
+          "id": "ellagitannin-human",
+          "url": "https://doi.org/10.1038/s41430-021-00950-1",
+          "kind": "primary-human-intervention",
+          "proposition": "Assayed pomegranate juice contained ellagic acid/punicalagins; urolithin exposure varied across people.",
+          "limitation": "Commercial juice matrix; not equivalent to whole pomegranate or walnuts, predictable urolithin yield, mitochondrial or brain benefit.",
+          "retrieval": "Primary full text, investigational product assays and conversion results.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Ellagitannins supply ellagic acid upstream of microbial products; walnut composition does not establish predictable urolithin A or mitochondrial efficacy.",
+      "food_preparation": "Walnut kernels; assay-specific extraction",
+      "food_identity_evidence": [
+        {
+          "record": "docs/foods/walnuts.md#substance_relationships/Ellagitannins",
+          "evidence": "Regueiro et al., Food Chemistry 2014",
+          "source_url": "https://doi.org/10.1016/j.foodchem.2013.11.158",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Assay-specific extraction. This is not an amount and not a urolithin A exposure."
+        },
+        {
+          "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
+          "sources": [
+            "https://doi.org/10.1016/j.foodchem.2013.11.158"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "limitation": [
+        "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies.",
+        "Assay-specific extraction. This is not an amount and not a urolithin A exposure.",
+        "Ellagitannins supply ellagic acid upstream of microbial products; walnut composition does not establish predictable urolithin A or mitochondrial efficacy."
+      ],
+      "conversion_traceability": "incomplete-structured-chain",
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "batch": 2,
+      "review_id": "system/rapid-stage2ab-2026-10-23/adjudications.json#BRS5-FM2-PM6/PM6-DIT-2",
+      "food_delivery_statement": "Food supplies the precursor; direct occurrence of the downstream active metabolite is not established."
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM6",
+      "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "dietary_input": "Ellagitannins",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "ellagitannins",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "pomegranates",
+      "food_title": "Pomegranate (studied commercial juice)",
+      "food_material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
+        "sources": [
+          "https://doi.org/10.1038/s41430-021-00950-1"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F1"
+        ],
+        "citation_keys": [
+          "singh_direct_2022"
+        ]
+      },
+      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies.",
+        "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred."
+      ],
+      "missing_ontology_edge": "pomegranates → ellagitannins [Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.; Chilled commercial juice; not whole-fruit or other-product equivalence]",
+      "atom_id": "PM6-DIT-2",
+      "pm_mission": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "biological_operation": "Hydrolysis releases ellagic acid upstream of microbial urolithin formation.",
+      "rapid_disposition": "retained-supported-canonical-admission",
+      "relationship": "Type A — Capacity",
+      "mechanistic_evidence": [
+        {
+          "id": "ellagic-conversion",
+          "url": "https://pubs.rsc.org/doi/c4fo00092g",
+          "kind": "primary-experiment",
+          "proposition": "Gordonibacter cultures produced intermediate urolithins from ellagic acid.",
+          "limitation": "Pure strains did not produce final urolithin A/B; community completion is conditional.",
+          "retrieval": "Primary publisher abstract.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        },
+        {
+          "id": "ellagitannin-human",
+          "url": "https://doi.org/10.1038/s41430-021-00950-1",
+          "kind": "primary-human-intervention",
+          "proposition": "Assayed pomegranate juice contained ellagic acid/punicalagins; urolithin exposure varied across people.",
+          "limitation": "Commercial juice matrix; not equivalent to whole pomegranate or walnuts, predictable urolithin yield, mitochondrial or brain benefit.",
+          "retrieval": "Primary full text, investigational product assays and conversion results.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Ellagitannins supply ellagic acid upstream of microbial products; walnut composition does not establish predictable urolithin A or mitochondrial efficacy.",
+      "food_preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "food_identity_evidence": {
+        "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
+        "sources": [
+          "https://doi.org/10.1038/s41430-021-00950-1"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "limitation": [
+        "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies.",
+        "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred.",
+        "Ellagitannins supply ellagic acid upstream of microbial products; walnut composition does not establish predictable urolithin A or mitochondrial efficacy."
+      ],
+      "conversion_traceability": "incomplete-structured-chain",
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "batch": 2,
+      "review_id": "system/rapid-stage2ab-2026-10-23/adjudications.json#BRS5-FM2-PM6/PM6-DIT-2",
+      "food_delivery_statement": "Food supplies the precursor; direct occurrence of the downstream active metabolite is not established."
+    }
+  ],
+  "practices": []
+}

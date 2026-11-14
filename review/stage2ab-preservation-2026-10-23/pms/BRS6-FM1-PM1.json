@@ -1,0 +1,713 @@
+{
+  "pm_id": "BRS6-FM1-PM1",
+  "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx",
+  "mission": "Shape the rate of post-meal glucose appearance so metabolic and neuroendocrine systems face manageable, predictable load.",
+  "stage2a": {
+    "operation": "Gastric delivery and tracer-estimated meal-glucose appearance are appropriate endpoints; ordinary glycaemia alone is not appearance flux. Other protocols remain individually unresolved until verified.",
+    "mission_and_existing_claims_reviewed": true,
+    "existing_findings": [
+      {
+        "id": "PM1-F1",
+        "proposition": "The tested rye bread and high-slowly-digestible-starch cereal product reduced early model-derived meal-glucose appearance in their respective comparisons.",
+        "existing_source_assessments": [
+          {
+            "label": "Östman et al. (2019)",
+            "citation_key": "ostman_glucose_appearance_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#ostman_glucose_appearance_2019",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Early calculated appearance was lower with wholemeal rye despite similar glucose profiles.",
+            "study_exposure": "Crossover bread meals, 50 g available carbohydrate, nine healthy men, stable-glucose tracer.",
+            "study_finding": "Early calculated appearance was lower with wholemeal rye despite similar glucose profiles.",
+            "assessment": {
+              "study": "Crossover bread meals, 50 g available carbohydrate, nine healthy men, stable-glucose tracer.",
+              "population": "Crossover bread meals, 50 g available carbohydrate, nine healthy men, stable-glucose tracer.",
+              "result": "Early calculated appearance was lower with wholemeal rye despite similar glucose profiles.",
+              "effect_magnitude": "Only source-extracted comparisons retained; no pooled benefit estimate.",
+              "evidence_summary": "Early calculated appearance was lower with wholemeal rye despite similar glucose profiles.",
+              "limitations": "Flux was model-derived, not direct intestinal absorption measurement.",
+              "retrieval_scope": "Primary abstract/results retrieved; full methods not independently extracted unless noted.",
+              "source_url": "https://pubmed.ncbi.nlm.nih.gov/30636184/"
+            }
+          },
+          {
+            "label": "Vinoy et al. (2013)",
+            "citation_key": "vinoy_cereal_processing_2013",
+            "href": "/docs/papers/BRAIN-Diet-References#vinoy_cereal_processing_2013",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "High-slowly-digestible-starch biscuits had lower exogenous appearance at 90–150 min and higher appearance at 210 min than extruded cereal.",
+            "study_exposure": "Randomized crossover, 25 healthy men: 12 tracer participants and 13 separate glycaemic participants; comparable breakfast energy/macronutrients.",
+            "study_finding": "High-slowly-digestible-starch biscuits had lower exogenous appearance at 90–150 min and higher appearance at 210 min than extruded cereal.",
+            "assessment": {
+              "study": "Randomized crossover, 25 healthy men: 12 tracer participants and 13 separate glycaemic participants; comparable breakfast energy/macronutrients.",
+              "population": "Randomized crossover, 25 healthy men: 12 tracer participants and 13 separate glycaemic participants; comparable breakfast energy/macronutrients.",
+              "result": "High-slowly-digestible-starch biscuits had lower exogenous appearance at 90–150 min and higher appearance at 210 min than extruded cereal.",
+              "effect_magnitude": "Only extracted comparisons; no pooled estimate.",
+              "evidence_summary": "High-slowly-digestible-starch biscuits had lower exogenous appearance at 90–150 min and higher appearance at 210 min than extruded cereal.",
+              "limitations": "Product-processing comparison; not a requirement to consume biscuits or proof for all low-GI foods.",
+              "retrieval_scope": "Primary publisher/PubMed abstract retrieved; full methods not independently extracted.",
+              "source_url": "https://pubmed.ncbi.nlm.nih.gov/24015715/"
+            }
+          }
+        ],
+        "existing_supportive_evidence": [
+          {
+            "label": "Reynolds et al. (2019)",
+            "citation_key": "reynolds_2019_30638909",
+            "href": "/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909",
+            "why_relevant": "Preserved attached corpus, assessed for the mission-specific endpoint rather than inherited as an admission.",
+            "why_excluded": "Dietary fibre/wholegrain review; supports context, not every named preparation or one isolated constituent mechanism."
+          },
+          {
+            "label": "Kubota et al. (2020)",
+            "citation_key": "kubota_2020_meal_sequence",
+            "href": "/docs/papers/BRAIN-Diet-References#kubota_2020_meal_sequence",
+            "why_relevant": "Preserved attached corpus, assessed for the mission-specific endpoint rather than inherited as an admission.",
+            "why_excluded": "The attached source is contextual. No separately extracted mission-specific intermediary or intervention endpoint justifies a new requirement, KC admission or phenome rating from this source."
+          },
+          {
+            "label": "Johnston et al. (2004)",
+            "citation_key": "johnston_2004_14694010",
+            "href": "/docs/papers/BRAIN-Diet-References#johnston_2004_14694010",
+            "why_relevant": "Preserved attached corpus, assessed for the mission-specific endpoint rather than inherited as an admission.",
+            "why_excluded": "Meal glucose/insulin endpoints; entry-rate mechanism not established from the retrieved material."
+          },
+          {
+            "label": "Zametkin et al. (1990)",
+            "citation_key": "zametkin_cerebral_1990",
+            "href": "/docs/papers/BRAIN-Diet-References#zametkin_cerebral_1990",
+            "why_relevant": "Preserved attached corpus, assessed for the mission-specific endpoint rather than inherited as an admission.",
+            "why_excluded": "The attached source is contextual. No separately extracted mission-specific intermediary or intervention endpoint justifies a new requirement, KC admission or phenome rating from this source."
+          },
+          {
+            "label": "Wang et al. (2019)",
+            "citation_key": "wang_dietary_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#wang_dietary_2019",
+            "why_relevant": "Preserved attached corpus, assessed for the mission-specific endpoint rather than inherited as an admission.",
+            "why_excluded": "The attached source is contextual. No separately extracted mission-specific intermediary or intervention endpoint justifies a new requirement, KC admission or phenome rating from this source."
+          }
+        ],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM1-F2",
+        "proposition": "The studied fish-first sequence and whey preload delayed gastric emptying in separate acute comparisons.",
+        "existing_source_assessments": [
+          {
+            "label": "Kuwata et al. (2016)",
+            "citation_key": "kuwata_meal_sequence_2016",
+            "href": "/docs/papers/BRAIN-Diet-References#kuwata_meal_sequence_2016",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Fish first delayed breath-test gastric emptying and reduced excursions in the diabetes group.",
+            "study_exposure": "Twelve adults with type 2 diabetes and ten healthy volunteers; fish/rice sequence crossover.",
+            "study_finding": "Fish first delayed breath-test gastric emptying and reduced excursions in the diabetes group.",
+            "assessment": {
+              "study": "Twelve adults with type 2 diabetes and ten healthy volunteers; fish/rice sequence crossover.",
+              "population": "Twelve adults with type 2 diabetes and ten healthy volunteers; fish/rice sequence crossover.",
+              "result": "Fish first delayed breath-test gastric emptying and reduced excursions in the diabetes group.",
+              "effect_magnitude": "Only source-extracted comparisons retained; no pooled benefit estimate.",
+              "evidence_summary": "Fish first delayed breath-test gastric emptying and reduced excursions in the diabetes group.",
+              "limitations": "Meat comparison was not the randomized crossover; chronic outcomes untested.",
+              "retrieval_scope": "Full Methods/Results retrieved: randomized fish/rice comparison; fixed third-day meat condition.",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4742500/"
+            }
+          },
+          {
+            "label": "Ma et al. (2009)",
+            "citation_key": "ma_whey_preload_2009",
+            "href": "/docs/papers/BRAIN-Diet-References#ma_whey_preload_2009",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Scintigraphic gastric emptying was slowest after the preload; glucose AUC fell while insulin and gut-hormone responses increased.",
+            "study_exposure": "Eight adults with diet-controlled type 2 diabetes; three conditions: 55 g whey 30 min before a potato/glucose meal, whey in that meal, or no whey.",
+            "study_finding": "Scintigraphic gastric emptying was slowest after the preload; glucose AUC fell while insulin and gut-hormone responses increased.",
+            "assessment": {
+              "study": "Eight adults with diet-controlled type 2 diabetes; three conditions: 55 g whey 30 min before a potato/glucose meal, whey in that meal, or no whey.",
+              "population": "Eight adults with diet-controlled type 2 diabetes; three conditions: 55 g whey 30 min before a potato/glucose meal, whey in that meal, or no whey.",
+              "result": "Scintigraphic gastric emptying was slowest after the preload; glucose AUC fell while insulin and gut-hormone responses increased.",
+              "effect_magnitude": "Only extracted comparisons; no pooled estimate.",
+              "evidence_summary": "Scintigraphic gastric emptying was slowest after the preload; glucose AUC fell while insulin and gut-hormone responses increased.",
+              "limitations": "Added whey energy was not matched to the no-whey condition; slowing delivery and insulin stimulation both contribute.",
+              "retrieval_scope": "Full primary three-page report retrieved: methods and results, scintigraphy.",
+              "source_url": "https://diabetesjournals.org/care/article-pdf/32/9/1600/665011/zdc00909001600.pdf"
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM1-F3",
+        "proposition": "Pasta structure survived mastication and simulated digestion; cooling the tested chickpea pasta increased measured resistant starch. Both comparisons also measured lower post-meal glycaemia.",
+        "existing_source_assessments": [
+          {
+            "label": "Vanhatalo et al. (2022)",
+            "citation_key": "vanhatalo_pasta_structure_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#vanhatalo_pasta_structure_2022",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Pasta retained larger particles and protein-embedded starch; glucose AUC was lower than bread/couscous.",
+            "study_exposure": "Two crossover trials, 30 healthy adults each, 50 g available carbohydrate from semolina pasta versus couscous/bread; separate 26-person mastication study and simulated digestion.",
+            "study_finding": "Pasta retained larger particles and protein-embedded starch; glucose AUC was lower than bread/couscous.",
+            "assessment": {
+              "study": "Two crossover trials, 30 healthy adults each, 50 g available carbohydrate from semolina pasta versus couscous/bread; separate 26-person mastication study and simulated digestion.",
+              "population": "Two crossover trials, 30 healthy adults each, 50 g available carbohydrate from semolina pasta versus couscous/bread; separate 26-person mastication study and simulated digestion.",
+              "result": "Pasta retained larger particles and protein-embedded starch; glucose AUC was lower than bread/couscous.",
+              "effect_magnitude": "Only extracted comparisons; no pooled estimate.",
+              "evidence_summary": "Pasta retained larger particles and protein-embedded starch; glucose AUC was lower than bread/couscous.",
+              "limitations": "Human glycaemia and bolus measurements plus in-vitro digestion; mediation and systemic appearance were not measured.",
+              "retrieval_scope": "Full primary methods/results retrieved, including particle and hydrolysis measurements.",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8971003/"
+            }
+          },
+          {
+            "label": "Bojarczuk et al. (2024)",
+            "citation_key": "bojarczuk_chickpea_cooling_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#bojarczuk_chickpea_cooling_2024",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Resistant starch increased from 1.83 to 3.65 g/100 g and GI fell from 39 to 33.",
+            "study_exposure": "Twelve healthy adults; equal 93.5 g dry-pasta starting portions, fresh versus 24 h at 4 °C then reheated in boiling water for 3 min.",
+            "study_finding": "Resistant starch increased from 1.83 to 3.65 g/100 g and GI fell from 39 to 33.",
+            "assessment": {
+              "study": "Twelve healthy adults; equal 93.5 g dry-pasta starting portions, fresh versus 24 h at 4 °C then reheated in boiling water for 3 min.",
+              "population": "Twelve healthy adults; equal 93.5 g dry-pasta starting portions, fresh versus 24 h at 4 °C then reheated in boiling water for 3 min.",
+              "result": "Resistant starch increased from 1.83 to 3.65 g/100 g and GI fell from 39 to 33.",
+              "effect_magnitude": "Only extracted comparisons; no pooled estimate.",
+              "evidence_summary": "Resistant starch increased from 1.83 to 3.65 g/100 g and GI fell from 39 to 33.",
+              "limitations": "Starting portions used raw-pasta composition; preparation-specific digestible carbohydrate was not re-matched. No tracer or gastric measurement.",
+              "retrieval_scope": "Full primary Methods §2.3–2.4 and Results §3.2–3.4 retrieved; analytical RS versus human glucose kept separate.",
+              "source_url": "https://pdfs.semanticscholar.org/3a10/7c5f9655ad61a53c68439e8bc91436be39ff.pdf"
+            }
+          }
+        ],
+        "existing_supportive_evidence": [
+          {
+            "label": "Hodges et al. (2020)",
+            "citation_key": "hodges_pasta_preparation_2020",
+            "href": "/docs/papers/BRAIN-Diet-References#hodges_pasta_preparation_2020",
+            "why_relevant": "Fresh/cold/reheated pasta comparisons test the same preparation candidate. Retrieved primary abstract/results.",
+            "why_excluded": "The cold-versus-hot AUC comparison was not significant; no appearance flux or proof of a universal cooling effect."
+          }
+        ],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM1-F4",
+        "proposition": "The tested beta-glucan meal shifted exogenous appearance later; a guar/chickpea flatbread blend modestly reduced four-hour exogenous appearance without significantly changing its primary half-absorption-time endpoint.",
+        "existing_source_assessments": [
+          {
+            "label": "Nazare et al. (2009)",
+            "citation_key": "nazare_beta_glucan_2009",
+            "href": "/docs/papers/BRAIN-Diet-References#nazare_beta_glucan_2009",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Less exogenous glucose appeared in the first 120 min and more later, with no difference in the overall quantity appearing.",
+            "study_exposure": "Twelve overweight adults, randomized crossover polenta with or without 5 g beta-glucan, six-hour stable-isotope assessment.",
+            "study_finding": "Less exogenous glucose appeared in the first 120 min and more later, with no difference in the overall quantity appearing.",
+            "assessment": {
+              "study": "Twelve overweight adults, randomized crossover polenta with or without 5 g beta-glucan, six-hour stable-isotope assessment.",
+              "population": "Twelve overweight adults, randomized crossover polenta with or without 5 g beta-glucan, six-hour stable-isotope assessment.",
+              "result": "Less exogenous glucose appeared in the first 120 min and more later, with no difference in the overall quantity appearing.",
+              "effect_magnitude": "Only extracted comparisons; no pooled estimate.",
+              "evidence_summary": "Less exogenous glucose appeared in the first 120 min and more later, with no difference in the overall quantity appearing.",
+              "limitations": "Exact preparation; viscosity mechanism is inferred, not directly measured by the tracer. Not an essential nutrient requirement.",
+              "retrieval_scope": "Primary publisher/PubMed abstract retrieved; full methods not independently extracted.",
+              "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mnfr.200800023"
+            }
+          },
+          {
+            "label": "Boers et al. (2017)",
+            "citation_key": "boers_fibre_glucose_kinetics_2017",
+            "href": "/docs/papers/BRAIN-Diet-References#boers_fibre_glucose_kinetics_2017",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "The 4% blend reduced four-hour exogenous appearance AUC by 11%; half-absorption time did not differ significantly. Endogenous production fell more strongly.",
+            "study_exposure": "Twelve healthy men, randomized crossover flatbread control versus 15% chickpea flour plus 2% or 4% guar, dual isotope kinetics.",
+            "study_finding": "The 4% blend reduced four-hour exogenous appearance AUC by 11%; half-absorption time did not differ significantly. Endogenous production fell more strongly.",
+            "assessment": {
+              "study": "Twelve healthy men, randomized crossover flatbread control versus 15% chickpea flour plus 2% or 4% guar, dual isotope kinetics.",
+              "population": "Twelve healthy men, randomized crossover flatbread control versus 15% chickpea flour plus 2% or 4% guar, dual isotope kinetics.",
+              "result": "The 4% blend reduced four-hour exogenous appearance AUC by 11%; half-absorption time did not differ significantly. Endogenous production fell more strongly.",
+              "effect_magnitude": "Only extracted comparisons; no pooled estimate.",
+              "evidence_summary": "The 4% blend reduced four-hour exogenous appearance AUC by 11%; half-absorption time did not differ significantly. Endogenous production fell more strongly.",
+              "limitations": "Combined exposure, small sample; absence of a half-time effect prevents a uniform delayed-absorption claim.",
+              "retrieval_scope": "Primary publisher/PubMed abstract retrieved; full methods not independently extracted.",
+              "source_url": "https://research.rug.nl/en/publications/effect-of-fibre-additions-to-flatbread-flour-mixes-on-glucose-kin/"
+            }
+          }
+        ],
+        "existing_supportive_evidence": [
+          {
+            "label": "Rigaud et al. (1998)",
+            "citation_key": "rigaud_psyllium_emptying_1998",
+            "href": "/docs/papers/BRAIN-Diet-References#rigaud_psyllium_emptying_1998",
+            "why_relevant": "Fourteen healthy volunteers, randomized crossover 7.4 g psyllium; radiolabeled solid/liquid emptying and blood markers.",
+            "why_excluded": "No measured emptying delay. Intestinal slowing was an interpretation of flatter blood curves, not a measured appearance endpoint; do not admit a psyllium emptying claim."
+          }
+        ],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM1-F5",
+        "proposition": "Isomaltulose produced slower oral-glucose appearance than sucrose in the assessed type 2 diabetes tracer/clamp comparison.",
+        "existing_source_assessments": [
+          {
+            "label": "Ang and Linn (2014)",
+            "citation_key": "ang_isomaltulose_kinetics_2014",
+            "href": "/docs/papers/BRAIN-Diet-References#ang_isomaltulose_kinetics_2014",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Estimated absorption duration was about 50 min longer with isomaltulose; oral appearance was lower, alongside altered endogenous production and first-pass uptake.",
+            "study_exposure": "Randomized double-blind crossover, 11 adults with type 2 diabetes; 1 g/kg oral isomaltulose or sucrose after a three-hour hyperinsulinaemic–euglycaemic clamp, dual tracers.",
+            "study_finding": "Estimated absorption duration was about 50 min longer with isomaltulose; oral appearance was lower, alongside altered endogenous production and first-pass uptake.",
+            "assessment": {
+              "study": "Randomized double-blind crossover, 11 adults with type 2 diabetes; 1 g/kg oral isomaltulose or sucrose after a three-hour hyperinsulinaemic–euglycaemic clamp, dual tracers.",
+              "population": "Randomized double-blind crossover, 11 adults with type 2 diabetes; 1 g/kg oral isomaltulose or sucrose after a three-hour hyperinsulinaemic–euglycaemic clamp, dual tracers.",
+              "result": "Estimated absorption duration was about 50 min longer with isomaltulose; oral appearance was lower, alongside altered endogenous production and first-pass uptake.",
+              "effect_magnitude": "Only extracted comparisons; no pooled estimate.",
+              "evidence_summary": "Estimated absorption duration was about 50 min longer with isomaltulose; oral appearance was lower, alongside altered endogenous production and first-pass uptake.",
+              "limitations": "Clamp physiology and large sugar load; do not assign the whole systemic reduction to slower digestion or translate to all ordinary meals.",
+              "retrieval_scope": "Primary Table 2 and study design retrieved; clamp, oral appearance and systemic flux distinguished.",
+              "source_url": "https://ajcn.nutrition.org/article/S0002-9165%2823%2904787-1/fulltext"
+            }
+          }
+        ],
+        "existing_supportive_evidence": [
+          {
+            "label": "Brunner et al. (2012)",
+            "citation_key": "brunner_isomaltulose_2012",
+            "href": "/docs/papers/BRAIN-Diet-References#brunner_isomaltulose_2012",
+            "why_relevant": "A 12-week randomized double-blind 50 g/day substitution trial directly tests whether acute effects translate to longer-term HbA1c.",
+            "why_excluded": "No significant HbA1c advantage. This limits the clinical claim, rather than negating the separate acute appearance finding."
+          }
+        ],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM1-F6",
+        "proposition": "Vinegar with a starchy meal reduced glucose/insulin responses and the paracetamol emptying-marker response in healthy volunteers.",
+        "existing_source_assessments": [
+          {
+            "label": "Liljeberg and Björck (1998)",
+            "citation_key": "liljeberg_vinegar_emptying_1998",
+            "href": "/docs/papers/BRAIN-Diet-References#liljeberg_vinegar_emptying_1998",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Relative glycaemic and insulin indices were 64 and 65, with a lower paracetamol response consistent with delayed emptying.",
+            "study_exposure": "Ten healthy volunteers; randomized meal order, macronutrient-matched bread meals with/without vinegar, paracetamol marker.",
+            "study_finding": "Relative glycaemic and insulin indices were 64 and 65, with a lower paracetamol response consistent with delayed emptying.",
+            "assessment": {
+              "study": "Ten healthy volunteers; randomized meal order, macronutrient-matched bread meals with/without vinegar, paracetamol marker.",
+              "population": "Ten healthy volunteers; randomized meal order, macronutrient-matched bread meals with/without vinegar, paracetamol marker.",
+              "result": "Relative glycaemic and insulin indices were 64 and 65, with a lower paracetamol response consistent with delayed emptying.",
+              "effect_magnitude": "Only extracted comparisons; no pooled estimate.",
+              "evidence_summary": "Relative glycaemic and insulin indices were 64 and 65, with a lower paracetamol response consistent with delayed emptying.",
+              "limitations": "Indirect marker, acute small trial; no tracer, no extrapolation from healthy subjects to delayed-emptying disorders.",
+              "retrieval_scope": "Primary publisher/PubMed abstract retrieved; full methods not independently extracted.",
+              "source_url": "https://pubmed.ncbi.nlm.nih.gov/9630389/"
+            }
+          }
+        ],
+        "existing_supportive_evidence": [
+          {
+            "label": "Hlebowicz et al. (2007)",
+            "citation_key": "hlebowicz_vinegar_gastroparesis_2007",
+            "href": "/docs/papers/BRAIN-Diet-References#hlebowicz_vinegar_gastroparesis_2007",
+            "why_relevant": "Ten people with type 1 diabetes and gastroparesis; ultrasound showed further emptying delay with vinegar.",
+            "why_excluded": "Defines an adverse-context boundary, not a beneficial entry-rate intervention for this group; pilot and ordered exposure periods."
+          }
+        ],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM1-F7",
+        "proposition": "Twenty grams of mycoprotein did not change six-hour exogenous appearance in the retrieved mixed-drink tracer trial.",
+        "existing_source_assessments": [
+          {
+            "label": "Whelehan et al. (2024)",
+            "citation_key": "whelehan_mycoprotein_kinetics_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#whelehan_mycoprotein_kinetics_2024",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Exogenous appearance was unchanged over six hours; total appearance and disposal increased by 5% and 9%, while glucose and insulin concentrations did not differ.",
+            "study_exposure": "Randomized double-blind crossover, 24 adults; macronutrient/energy-matched drinks containing 50 g glucose with/without 20 g freeze-dried mycoprotein.",
+            "study_finding": "Exogenous appearance was unchanged over six hours; total appearance and disposal increased by 5% and 9%, while glucose and insulin concentrations did not differ.",
+            "assessment": {
+              "study": "Randomized double-blind crossover, 24 adults; macronutrient/energy-matched drinks containing 50 g glucose with/without 20 g freeze-dried mycoprotein.",
+              "population": "Randomized double-blind crossover, 24 adults; macronutrient/energy-matched drinks containing 50 g glucose with/without 20 g freeze-dried mycoprotein.",
+              "result": "Exogenous appearance was unchanged over six hours; total appearance and disposal increased by 5% and 9%, while glucose and insulin concentrations did not differ.",
+              "effect_magnitude": "Only extracted comparisons; no pooled estimate.",
+              "evidence_summary": "Exogenous appearance was unchanged over six hours; total appearance and disposal increased by 5% and 9%, while glucose and insulin concentrations did not differ.",
+              "limitations": "Exogenous kinetics used 12 participants after tracer-enrichment correction; no slowing lever admitted from this comparison.",
+              "retrieval_scope": "Full primary Methods/Results retrieved, including tracer subset correction and Figure 2.",
+              "source_url": "https://d-nb.info/1348587032/34"
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM1-F8",
+        "proposition": "Controlled glucose delivery experiments and human glucose–galactose malabsorption evidence identify gastric delivery and functional intestinal transport as separate controls.",
+        "existing_source_assessments": [
+          {
+            "label": "Schirra et al. (1996)",
+            "citation_key": "schirra_emptying_incretins_1996",
+            "href": "/docs/papers/BRAIN-Diet-References#schirra_emptying_incretins_1996",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Delivery profile and GLP-1 responses differed with the route/rate of glucose delivery.",
+            "study_exposure": "Eight healthy men; oral glucose loads and matched-total-load duodenal glucose infusions at 1.1 or 2.2 kcal/min.",
+            "study_finding": "Delivery profile and GLP-1 responses differed with the route/rate of glucose delivery.",
+            "assessment": {
+              "study": "Eight healthy men; oral glucose loads and matched-total-load duodenal glucose infusions at 1.1 or 2.2 kcal/min.",
+              "population": "Eight healthy men; oral glucose loads and matched-total-load duodenal glucose infusions at 1.1 or 2.2 kcal/min.",
+              "result": "Delivery profile and GLP-1 responses differed with the route/rate of glucose delivery.",
+              "effect_magnitude": "Only extracted comparisons; no pooled estimate.",
+              "evidence_summary": "Delivery profile and GLP-1 responses differed with the route/rate of glucose delivery.",
+              "limitations": "Small controlled physiology experiment, not an ordinary-meal or nutrient-inadequacy intervention.",
+              "retrieval_scope": "Primary publisher/PubMed abstract retrieved; full methods not independently extracted.",
+              "source_url": "https://www.jci.org/articles/view/118411"
+            }
+          },
+          {
+            "label": "Turk et al. (1991)",
+            "citation_key": "turk_sglt1_malabsorption_1991",
+            "href": "/docs/papers/BRAIN-Diet-References#turk_sglt1_malabsorption_1991",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "A transporter defect establishes that intestinal glucose uptake requires functional transport machinery.",
+            "study_exposure": "Human glucose–galactose malabsorption, linked to a defect in the sodium/glucose cotransporter.",
+            "study_finding": "A transporter defect establishes that intestinal glucose uptake requires functional transport machinery.",
+            "assessment": {
+              "study": "Human glucose–galactose malabsorption, linked to a defect in the sodium/glucose cotransporter.",
+              "population": "Human glucose–galactose malabsorption, linked to a defect in the sodium/glucose cotransporter.",
+              "result": "A transporter defect establishes that intestinal glucose uptake requires functional transport machinery.",
+              "effect_magnitude": "Only extracted comparisons; no pooled estimate.",
+              "evidence_summary": "A transporter defect establishes that intestinal glucose uptake requires functional transport machinery.",
+              "limitations": "Rare genetic disease is not evidence that usual sodium intake limits post-meal entry or that extra salt is beneficial.",
+              "retrieval_scope": "Primary publisher/PubMed abstract retrieved; full methods not independently extracted.",
+              "source_url": "https://pubmed.ncbi.nlm.nih.gov/2008213/"
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      }
+    ],
+    "evidence_enrichment": "Gastric-emptying markers, model-derived exogenous appearance and systemic glucose curves are different endpoints. All eight Findings and ten optimisation records remain, including prior nulls, formulation and status qualifications.",
+    "source_to_claim_records": [
+      {
+        "id": "fish-sequence",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26704625/",
+        "kind": "primary-human-intervention",
+        "proposition": "Fish-before-rice comparison measured breath-test emptying and post-meal glucose responses.",
+        "limitation": "Acute exploratory small study; meat comparison not the randomized crossover; no generic protein-first or chronic brain claim.",
+        "retrieval": "Primary abstract and full text.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      },
+      {
+        "id": "beta-glucan-meal",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18837470/",
+        "kind": "primary-human-intervention",
+        "proposition": "The tested beta-glucan/polenta meal redistributed isotope-estimated glucose appearance.",
+        "limitation": "Specific 5-g addition in twelve overweight participants; no decrease in total appearance and no universal whole-oat equivalence.",
+        "retrieval": "Primary abstract.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      }
+    ],
+    "new_findings": [],
+    "coverage_limitations": "Existing source assessments and full attached bibliography are inventoried and preserved. Targeted source retrieval is bounded to the stated propositions; unrefreshed clinical/Phenome sources are not newly validated. No evidence of absence is inferred.",
+    "stop_rationale": "Preserve the complete baseline, add the bounded supported evidence and exact qualifications, and park material attribution/traceability questions for approval instead of forcing an admission or expanding to a comprehensive rebuild.",
+    "attached_references": [
+      "[Reynolds et al. (2019) — A Series of Systematic Reviews and Meta-analyses.](/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909)",
+      "[Kubota et al. (2020) — An Attractive Dietary Approach to Prevention and Management of Type 2 Diabetes](/docs/papers/BRAIN-Diet-References#kubota_2020_meal_sequence)",
+      "[Johnston et al. (2004) — Vinegar Improves Insulin Sensitivity to a High-carbohydrate Meal in Subjects with Insulin](/docs/papers/BRAIN-Diet-References#johnston_2004_14694010)",
+      "[Zametkin et al. (1990) — Cerebral Glucose Metabolism in Adults with Hyperactivity of Childhood Onset](/docs/papers/BRAIN-Diet-References#zametkin_cerebral_1990)",
+      "[Wang et al. (2019) — Path Analysis for a Case-Control Study](/docs/papers/BRAIN-Diet-References#wang_dietary_2019)",
+      "[Östman et al. (2019) — Glucose Appearance Rate Rather than the Blood Glucose Concentrations Explains Differences in Postprandial Insulin Responses between Wholemeal Rye and Refined Wheat Breads-Results from A Cross-Over Meal Study](/docs/papers/BRAIN-Diet-References#ostman_glucose_appearance_2019)",
+      "[Kuwata et al. (2016) — Meal sequence and glucose excursion, gastric emptying and incretin secretion in type 2 diabetes: a randomised, controlled crossover, exploratory trial](/docs/papers/BRAIN-Diet-References#kuwata_meal_sequence_2016)",
+      "[Vinoy et al. (2013) — Cereal processing influences postprandial glucose metabolism as well as the GI effect.](/docs/papers/BRAIN-Diet-References#vinoy_cereal_processing_2013)",
+      "[Vanhatalo et al. (2022) — Pasta Structure Affects Mastication, Bolus Properties, and Postprandial Glucose and Insulin Metabolism in Healthy Adults](/docs/papers/BRAIN-Diet-References#vanhatalo_pasta_structure_2022)",
+      "[Bojarczuk et al. (2024) — The Effect of Cooking and Cooling Chickpea Pasta on Resistant Starch Content, Glycemic Response, and Glycemic Index in Healthy Adults](/docs/papers/BRAIN-Diet-References#bojarczuk_chickpea_cooling_2024)",
+      "[Nazare et al. (2009) — Modulation of the postprandial phase by beta-glucan in overweight subjects: Effects on glucose and insulin kinetics](/docs/papers/BRAIN-Diet-References#nazare_beta_glucan_2009)",
+      "[Boers et al. (2017) — Effect of fibre additions to flatbread flour mixes on glucose kinetics: A randomised controlled trial](/docs/papers/BRAIN-Diet-References#boers_fibre_glucose_kinetics_2017)",
+      "[Ma et al. (2009) — Effects of a Protein Preload on Gastric Emptying, Glycemia, and Gut Hormones After a Carbohydrate Meal in Diet-Controlled Type 2 Diabetes](/docs/papers/BRAIN-Diet-References#ma_whey_preload_2009)",
+      "[Ang and Linn (2014) — Comparison of the effects of slowly and rapidly absorbed carbohydrates on postprandial glucose metabolism in type 2 diabetes mellitus patients: a randomized trial](/docs/papers/BRAIN-Diet-References#ang_isomaltulose_kinetics_2014)",
+      "[Brunner et al. (2012) — Metabolic Effects of Replacing Sucrose by Isomaltulose in Subjects With Type 2 Diabetes: A randomized double-blind trial](/docs/papers/BRAIN-Diet-References#brunner_isomaltulose_2012)",
+      "[Liljeberg and Björck (1998) — Delayed gastric emptying rate may explain improved glycaemia in healthy subjects to a starchy meal with added vinegar](/docs/papers/BRAIN-Diet-References#liljeberg_vinegar_emptying_1998)",
+      "[Hlebowicz et al. (2007) — Effect of apple cider vinegar on delayed gastric emptying in patients with type 1 diabetes mellitus: a pilot study](/docs/papers/BRAIN-Diet-References#hlebowicz_vinegar_gastroparesis_2007)",
+      "[Whelehan et al. (2024) — The addition of mycoprotein to a mixed-meal impacts postprandial glucose kinetics without altering blood glucose concentrations: a randomised controlled trial](/docs/papers/BRAIN-Diet-References#whelehan_mycoprotein_kinetics_2024)",
+      "[Rigaud et al. (1998) — Effect of psyllium on gastric emptying, hunger feeling and food intake in normal volunteers: a double blind study](/docs/papers/BRAIN-Diet-References#rigaud_psyllium_emptying_1998)",
+      "[Turk et al. (1991) — Glucose/galactose malabsorption caused by a defect in the Na+/glucose cotransporter](/docs/papers/BRAIN-Diet-References#turk_sglt1_malabsorption_1991)",
+      "[Schirra et al. (1996) — Gastric emptying and release of incretin hormones after glucose ingestion in humans](/docs/papers/BRAIN-Diet-References#schirra_emptying_incretins_1996)",
+      "[Hodges et al. (2020) — Method of Food Preparation Influences Blood Glucose Response to a High-Carbohydrate Meal: A Randomised Cross-over Trial](/docs/papers/BRAIN-Diet-References#hodges_pasta_preparation_2020)"
+    ],
+    "preserved_phenome_source_records": [],
+    "new_finding_records": []
+  },
+  "stage2b": {
+    "clarification": "The selected fish/rice sequence and beta-glucan formulation remain protocol-specific SOP evidence. Other existing SOPs are preserved in full; none is converted into a biochemical input or silently retired.",
+    "all_existing_inputs": [],
+    "existing_practices": [
+      {
+        "atom_id": "PM1-SOP-1",
+        "food_strategy_scope": "food-preparation",
+        "food_strategy_id": "food-strategy-b82469682ec7",
+        "input": "Wholemeal rye bread in place of the tested refined wheat bread",
+        "input_type": "meal matrix substitution",
+        "biological_role": "The tested replacement slowed early model-derived glucose appearance.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM1-F1"
+          ],
+          "citation_keys": [
+            "ostman_glucose_appearance_2019"
+          ]
+        },
+        "evidence_limitation": "The result applies to the tested breads and does not identify one responsible nutrient.",
+        "optimisation_category": "food_prep",
+        "reader_description": "The tested replacement slowed early model-derived glucose appearance.",
+        "description_finding_id": "PM1-F1"
+      },
+      {
+        "atom_id": "PM1-SOP-2",
+        "food_strategy_scope": "dietary-protocol",
+        "food_strategy_id": "food-strategy-053016fdaaca",
+        "input": "Fish before rice in the studied meal sequence",
+        "input_type": "meal sequencing protocol",
+        "biological_role": "Fish first delayed gastric emptying, an upstream control of carbohydrate delivery.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM1-F2"
+          ],
+          "citation_keys": [
+            "kuwata_meal_sequence_2016"
+          ]
+        },
+        "evidence_limitation": "An acute meal result; no claim that protein alone accounts for the effect.",
+        "optimisation_category": "dietary_protocols",
+        "reader_description": "Fish first delayed gastric emptying, an upstream control of carbohydrate delivery.",
+        "description_finding_id": "PM1-F2"
+      },
+      {
+        "atom_id": "PM1-SOP-3",
+        "food_strategy_scope": "food-preparation",
+        "food_strategy_id": "food-strategy-2b4f3e1e8a5d",
+        "input": "The tested high-slowly-digestible-starch breakfast in place of extruded cereal",
+        "input_type": "cereal processing substitution",
+        "biological_role": "The high-slowly-digestible-starch product redistributed glucose appearance from earlier to later in the morning.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM1-F1"
+          ],
+          "citation_keys": [
+            "vinoy_cereal_processing_2013"
+          ]
+        },
+        "evidence_limitation": "Measured in 12 tracer participants after specific breakfasts; no universal product, dose or longer-term outcome claim.",
+        "optimisation_category": "food_prep",
+        "reader_description": "The high-slowly-digestible-starch product redistributed glucose appearance from earlier to later in the morning.",
+        "description_finding_id": "PM1-F1"
+      },
+      {
+        "atom_id": "PM1-SOP-4",
+        "food_strategy_scope": "dietary-protocol",
+        "food_strategy_id": "food-strategy-39329d80422a",
+        "input": "The studied whey preload before a carbohydrate meal",
+        "input_type": "protein preload protocol",
+        "biological_role": "Whey given before the studied meal delayed scintigraphic gastric emptying and stimulated insulin and gut hormones.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM1-F2"
+          ],
+          "citation_keys": [
+            "ma_whey_preload_2009"
+          ]
+        },
+        "evidence_limitation": "Eight adults with diet-controlled type 2 diabetes; 55 g whey 30 min before the meal, additional energy, acute results. No universal preload prescription or direct requirement.",
+        "optimisation_category": "dietary_protocols",
+        "reader_description": "Whey given before the studied meal delayed scintigraphic gastric emptying and stimulated insulin and gut hormones.",
+        "description_finding_id": "PM1-F2"
+      },
+      {
+        "atom_id": "PM1-SOP-5",
+        "food_strategy_scope": "food-preparation",
+        "food_strategy_id": "food-strategy-4a484fa5d3fe",
+        "input": "The tested semolina pasta matrix in place of semolina bread or couscous",
+        "input_type": "food matrix substitution",
+        "biological_role": "The pasta matrix retained starch within larger particles and a protein network during the assessed digestion steps.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM1-F3"
+          ],
+          "citation_keys": [
+            "vanhatalo_pasta_structure_2022"
+          ]
+        },
+        "evidence_limitation": "Separate human and simulated-digestion experiments; appearance slowing is inferred, not quantified. The result does not apply to every pasta or processing method.",
+        "optimisation_category": "food_prep",
+        "reader_description": "The pasta matrix retained starch within larger particles and a protein network during the assessed digestion steps.",
+        "description_finding_id": "PM1-F3"
+      },
+      {
+        "atom_id": "PM1-SOP-6",
+        "food_strategy_scope": "food-preparation",
+        "food_strategy_id": "food-strategy-e23a1ae63828",
+        "input": "Cooling and reheating the tested chickpea pasta",
+        "input_type": "starch preparation protocol",
+        "biological_role": "Cooling and reheating increased measured resistant starch in this pasta, reducing the readily digestible fraction as a plausible entry-pathway change.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM1-F3"
+          ],
+          "citation_keys": [
+            "bojarczuk_chickpea_cooling_2024"
+          ]
+        },
+        "evidence_limitation": "Twelve healthy adults; 24 h at 4 °C and the tested reheating method. Glucose entry was not measured and digestible carbohydrate was not re-matched after processing.",
+        "optimisation_category": "food_prep",
+        "reader_description": "Cooling and reheating increased measured resistant starch in this pasta, reducing the readily digestible fraction as a plausible entry-pathway change.",
+        "description_finding_id": "PM1-F3"
+      },
+      {
+        "atom_id": "PM1-SOP-7",
+        "food_strategy_scope": "dietary-protocol",
+        "food_strategy_id": "food-strategy-30f51165f095",
+        "input": "The tested beta-glucan addition to a polenta meal",
+        "input_type": "defined fibre meal addition",
+        "biological_role": "The studied 5 g beta-glucan addition redistributed exogenous glucose appearance from the first two hours to later in the six-hour period.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM1-F4"
+          ],
+          "citation_keys": [
+            "nazare_beta_glucan_2009"
+          ]
+        },
+        "evidence_limitation": "Twelve overweight adults; no lower overall appearing quantity and no universal fibre effect. Viscosity is a proposed explanation, not a measured mediator.",
+        "optimisation_category": "dietary_protocols",
+        "reader_description": "The studied 5 g beta-glucan addition redistributed exogenous glucose appearance from the first two hours to later in the six-hour period.",
+        "description_finding_id": "PM1-F4"
+      },
+      {
+        "atom_id": "PM1-SOP-8",
+        "food_strategy_scope": "food-preparation",
+        "food_strategy_id": "food-strategy-cf5b3e5c4373",
+        "input": "The tested guar–chickpea flour flatbread blend",
+        "input_type": "defined meal formulation",
+        "biological_role": "The 4% guar and 15% chickpea flour formulation modestly reduced four-hour exogenous glucose appearance in the tested flatbread.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM1-F4"
+          ],
+          "citation_keys": [
+            "boers_fibre_glucose_kinetics_2017"
+          ]
+        },
+        "evidence_limitation": "The primary half-absorption-time endpoint did not change significantly; larger liver-production and disposal changes also occurred. No isolated guar effect or general fibre requirement.",
+        "optimisation_category": "food_prep",
+        "reader_description": "The 4% guar and 15% chickpea flour formulation modestly reduced four-hour exogenous glucose appearance in the tested flatbread.",
+        "description_finding_id": "PM1-F4"
+      },
+      {
+        "atom_id": "PM1-SOP-9",
+        "food_strategy_scope": "dietary-protocol",
+        "food_strategy_id": "food-strategy-00271bfb09df",
+        "input": "Isomaltulose instead of sucrose in the studied sugar-load comparison",
+        "input_type": "carbohydrate substitution protocol",
+        "biological_role": "The tested substitution slowed estimated oral-glucose appearance under the study conditions.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM1-F5"
+          ],
+          "citation_keys": [
+            "ang_isomaltulose_kinetics_2014",
+            "brunner_isomaltulose_2012"
+          ]
+        },
+        "evidence_limitation": "Eleven adults with type 2 diabetes under a clamp; not an instruction to add sugar. A separate 12-week trial did not show an HbA1c advantage.",
+        "optimisation_category": "dietary_protocols",
+        "reader_description": "The tested substitution slowed estimated oral-glucose appearance under the study conditions.",
+        "description_finding_id": "PM1-F5"
+      },
+      {
+        "atom_id": "PM1-SOP-10",
+        "food_strategy_scope": "dietary-protocol",
+        "food_strategy_id": "food-strategy-a312af25728a",
+        "input": "Vinegar with the studied starchy meal",
+        "input_type": "acid-containing meal protocol",
+        "biological_role": "The matched-meal trial supports a possible delay in gastric delivery from its lower paracetamol-marker response.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM1-F6"
+          ],
+          "citation_keys": [
+            "liljeberg_vinegar_emptying_1998",
+            "hlebowicz_vinegar_gastroparesis_2007"
+          ]
+        },
+        "evidence_limitation": "Indirect marker in ten healthy volunteers, no appearance flux. Further delay occurred in diabetic gastroparesis and may be disadvantageous; do not apply this practice to that context.",
+        "optimisation_category": "dietary_protocols",
+        "reader_description": "The matched-meal trial supports a possible delay in gastric delivery from its lower paracetamol-marker response.",
+        "description_finding_id": "PM1-F6"
+      }
+    ],
+    "existing_lifestyle": [],
+    "existing_kcs": [],
+    "new_admissions": [],
+    "new_practices": [],
+    "food_mapping_counts": {
+      "verified": 0,
+      "provisional": 0,
+      "unresolved": 0
+    },
+    "food_research_scope": "Re-examined the current structured food joins and existing composition ledger against the reviewed input roles. No food source, quantity, preparation equivalence, conversion chain or ontology edge invented. Existing provisional discoveries remain available through the standard PM dropdown."
+  },
+  "preservation": {
+    "before_file_sha256": "d7f45d7a5f1add3395d1dde1f4133e246440c424898c3f6cd54bf4e02e8530bc",
+    "original_counts": {
+      "dietary_input_traceability": 0,
+      "dietary_input_assessments": 0,
+      "dietary_lever_atoms": 0,
+      "dietary_lever_presentations": 0,
+      "key_constraints": 0,
+      "cofactors": 0,
+      "system_optimisation_practices": 10,
+      "lifestyle_priorities": 0,
+      "scientific_findings": 8,
+      "references": 22,
+      "phenome_relationships": 0,
+      "kc_change_control_flags": 0
+    },
+    "all_existing_structured_records_preserved": true,
+    "all_existing_prose_preserved": "Removing the marked additive disclosure recovers the exact original document bytes.",
+    "phenome_and_scores": "unchanged",
+    "canonical_input_dispositions": "unchanged"
+  },
+  "issues_flagged": [],
+  "proposed_changes_requiring_approval": [],
+  "outcome": "ADDITIVELY ENRICHED WITH LIMITATIONS; no new dietary admission"
+}

@@ -1136,9 +1136,9 @@
     "ontology_connections": {
       "identity": "resolved",
       "conversion": "not-applicable",
-      "food": "unresolved"
+      "food": "supported"
     },
-    "food_target_mapping": "unresolved",
+    "food_target_mapping": "research-supported-provisional",
     "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
   },
   {
@@ -1156,9 +1156,9 @@
     "ontology_connections": {
       "identity": "resolved",
       "conversion": "not-applicable",
-      "food": "unresolved"
+      "food": "supported"
     },
-    "food_target_mapping": "unresolved",
+    "food_target_mapping": "research-supported-provisional",
     "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
   },
   {
@@ -1551,9 +1551,9 @@
     "ontology_connections": {
       "identity": "resolved",
       "conversion": "not-applicable",
-      "food": "unresolved"
+      "food": "supported"
     },
-    "food_target_mapping": "unresolved",
+    "food_target_mapping": "research-supported-provisional",
     "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
   },
   {

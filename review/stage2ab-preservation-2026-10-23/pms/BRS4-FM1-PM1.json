@@ -1,0 +1,468 @@
+{
+  "pm_id": "BRS4-FM1-PM1",
+  "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx",
+  "mission": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+  "stage2a": {
+    "operation": "ETC electron-transfer capacity is distinct from upstream NAD supply, fuel transport and biogenesis. FMN participant retained canonically but no separate unsupported direct-FMN food list is fabricated.",
+    "mission_and_existing_claims_reviewed": true,
+    "existing_findings": [
+      {
+        "id": "PM1-F1",
+        "proposition": "Mammalian oxidative phosphorylation oxidises mitochondrial reducing equivalents through five complexes and two mobile carriers, uses iron, copper, haem and flavin mononucleotide (FMN) in the transfers, and couples the proton gradient to ATP synthesis.",
+        "existing_source_assessments": [
+          {
+            "label": "Vercellino and Sazanov (2022)",
+            "citation_key": "vercellino_respiratory_chain_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#vercellino_respiratory_chain_2022",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Five complexes and two mobile carriers couple oxidation of reducing equivalents to a proton gradient and ATP synthesis, using iron–sulfur clusters, haem and copper centres.",
+            "assessment": {
+              "study": "Review of assembly, structure and function of the mammalian mitochondrial respiratory chain.",
+              "population": "No human participants. Review of structural and biochemical studies.",
+              "result": "The chain comprises five complexes and two mobile electron carriers. Proton pumping is coupled to ATP synthesis. Iron–sulfur clusters, haem and the two copper centres of complex IV transfer electrons.",
+              "effect_magnitude": "No human effect size.",
+              "evidence_summary": "Defines the complexes, carriers and metal centres used for electron transport and ATP synthesis.",
+              "limitations": "A review does not test dietary intake, brain ATP, or clinical outcomes."
+            }
+          },
+          {
+            "label": "Curtabbi and Enríquez (2022)",
+            "citation_key": "curtabbi_complex_i_fmn_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Flavin mononucleotide (FMN) in complex I accepts the electrons that NADH donates at the start of the chain.",
+            "assessment": {
+              "study": "Review of the flavin mononucleotide (FMN) site of respiratory complex I.",
+              "population": "No human feeding cohort. Review of enzyme and mitochondrial studies.",
+              "result": "Electrons from NADH enter complex I at flavin mononucleotide (FMN). The review does not establish that flavin mononucleotide (FMN) abundance limits assembly or activity.",
+              "effect_magnitude": "No intake effect size.",
+              "evidence_summary": "Places flavin mononucleotide (FMN) as the NADH-entry cofactor of complex I.",
+              "limitations": "Does not test riboflavin intake in healthy people or show that more flavin mononucleotide (FMN) increases ATP synthesis."
+            }
+          },
+          {
+            "label": "Crane (2001)",
+            "citation_key": "crane_coq10_2001",
+            "href": "/docs/papers/BRAIN-Diet-References#crane_coq10_2001",
+            "data_level": "Mechanistic",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "Coenzyme Q10 functions in mitochondrial electron transport and in proton movement linked to ATP synthesis.",
+            "assessment": {
+              "study": "Narrative review of biochemical functions of coenzyme Q10.",
+              "population": "No new human participants.",
+              "result": "The review assigns coenzyme Q10 a role in electron transport and proton translocation, and an antioxidant role in membranes.",
+              "effect_magnitude": "No dietary effect size.",
+              "evidence_summary": "Supports ubiquinone as an electron carrier. It does not test food or supplement intake.",
+              "limitations": "A biochemical review cannot show that dietary coenzyme Q10 changes chain rate."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [
+          {
+            "label": "Tardy et al. (2020)",
+            "citation_key": "tardy_vitamins_2020",
+            "href": "/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020",
+            "data_level": "Mechanistic",
+            "why_relevant": "Reviews B vitamins, iron and magnesium in energy-yielding metabolism and fatigue.",
+            "why_excluded": "It does not measure respiratory-complex activity or separate each cofactor's job in this chain."
+          }
+        ],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM1-F2",
+        "proposition": "Mammalian mitochondria produce superoxide or hydrogen peroxide at defined sites associated with substrate oxidation and the respiratory chain, including complexes I, II and III, rather than by a single uncontrolled leak from the whole chain.",
+        "existing_source_assessments": [
+          {
+            "label": "Brand (2016)",
+            "citation_key": "brand_mitochondrial_ros_2016",
+            "href": "/docs/papers/BRAIN-Diet-References#brand_mitochondrial_ros_2016",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Eleven defined mitochondrial sites leak electrons to oxygen. Under resting-like muscle conditions, sites in complexes I, II and III dominate.",
+            "assessment": {
+              "study": "Review of site-specific mitochondrial superoxide and hydrogen peroxide production.",
+              "population": "Isolated mitochondria and enzyme studies. No human clinical cohort.",
+              "result": "Eleven sites are distinguished. In skeletal-muscle mitochondria in a resting-like medium, two complex I sites plus complex II and complex III dominate. Specific suppressors of the complex III outer quinone site and of reverse electron transport at complex I lower that leak without stopping oxidative phosphorylation.",
+              "effect_magnitude": "Site capacities differ. No human dietary effect size.",
+              "evidence_summary": "Electron leak is site-specific and condition-specific.",
+              "limitations": "Not a human feeding study, not brain tissue, and not a clinical outcome."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM1-F3",
+        "proposition": "Cybrid cells carrying platelet mitochondria from three boys with ADHD showed lower respiration, lower complex V activity, loss of membrane potential and higher mitochondrial superoxide than control cybrids, without a dietary or attention-outcome test.",
+        "existing_source_assessments": [
+          {
+            "label": "Verma et al. (2016)",
+            "citation_key": "verma_attention_2016",
+            "href": "/docs/papers/BRAIN-Diet-References#verma_attention_2016",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "ADHD cybrids had lower respiration, lower complex V activity, a lower membrane potential and higher mitochondrial superoxide than control cybrids.",
+            "assessment": {
+              "study": "Platelets from boys with ADHD and control donors were fused with mitochondria-depleted SH-SY5Y cells. Respiration, membrane potential, MitoSOX, ATPase transcripts and complex V activity were measured.",
+              "population": "Three boys with ADHD (one aged 10, two aged 13). Methods name two control donors; the figure labels four control cybrid lines.",
+              "result": "ADHD cybrids showed lower cellular and mitochondrial respiration, lower ATPase 6/8 transcripts, lower complex V activity, loss of membrane potential and a higher MitoSOX signal. Differentiated cybrid neurons had about twofold higher serotonin.",
+              "effect_magnitude": "Directions were reported as significant at p ≤ 0.05. Exact respiration rates are figure-based and are not restated as a single effect size here. Serotonin was about twofold higher.",
+              "evidence_summary": "A small cybrid model links ADHD platelet mitochondria with lower respiratory activity.",
+              "limitations": "Tiny sample, cell model, no diet, no attention test, and an inconsistent control count between methods and figure."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [
+          {
+            "label": "Öğütlü et al. (2022)",
+            "citation_key": "ogutlu_mitochondrial_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023",
+            "data_level": "Human Study",
+            "why_relevant": "Reviews mitochondrial findings in ADHD, including this cybrid study.",
+            "why_excluded": "It does not add an independent electron-transport measurement."
+          }
+        ],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM1-F4",
+        "proposition": "The assessed human cell evidence does not show that electron-transport capacity changes Cognitive Energy Stability.",
+        "existing_source_assessments": [
+          {
+            "label": "Verma et al. (2016)",
+            "citation_key": "verma_attention_2016",
+            "href": "/docs/papers/BRAIN-Diet-References#verma_attention_2016",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "Respiration was lower in ADHD cybrids. Cognitive energy was not an endpoint.",
+            "assessment": {
+              "study": "Cybrid respiration, complex V activity and oxidative-stress staining.",
+              "population": "Three boys with ADHD and a small control donor set, studied as cybrid cell lines.",
+              "result": "Respiratory measures were lower. Cognitive energy was not measured.",
+              "effect_magnitude": "No cognitive-energy effect size.",
+              "evidence_summary": "Shows a cell respiration difference, not a cognitive-energy outcome.",
+              "limitations": "Wrong endpoint for this phenome."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [
+          {
+            "label": "Tardy et al. (2020)",
+            "citation_key": "tardy_vitamins_2020",
+            "href": "/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020",
+            "data_level": "Mechanistic",
+            "why_relevant": "Discusses fatigue when vitamin or mineral status is inadequate.",
+            "why_excluded": "Fatigue in that review is not a measurement of electron transport or of cognitive energy stability."
+          }
+        ],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      }
+    ],
+    "evidence_enrichment": "Primary respiratory-complex structure supports metal/flavin machinery; structural cofactor presence is not a feeding experiment or a direct demonstration of reduced electron leakage. All respiratory, ROS, cybrid and Phenome Findings are retained.",
+    "source_to_claim_records": [
+      {
+        "id": "etc-capacity",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34621061/",
+        "kind": "secondary-review",
+        "proposition": "Respiratory-chain electron transfer and assembly; existing assessed metal/cofactor roles retained.",
+        "limitation": "No dietary efficacy or extra iron benefit; review is not primary replication.",
+        "retrieval": "Existing canonical source assessment plus refreshed publication abstract; full text not re-extracted.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      },
+      {
+        "id": "etc-primary",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27509854/",
+        "kind": "primary-experiment",
+        "proposition": "Bovine complex-I cryo-EM locates FeS centres and the FMN cofactor.",
+        "limitation": "Structural identification, not intake response or human brain ATP measurement.",
+        "retrieval": "Primary abstract and figure descriptions.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      }
+    ],
+    "new_findings": [],
+    "coverage_limitations": "Existing source assessments and full attached bibliography are inventoried and preserved. Targeted source retrieval is bounded to the stated propositions; unrefreshed clinical/Phenome sources are not newly validated. No evidence of absence is inferred.",
+    "stop_rationale": "Preserve the complete baseline, add the bounded supported evidence and exact qualifications, and park material attribution/traceability questions for approval instead of forcing an admission or expanding to a comprehensive rebuild.",
+    "attached_references": [
+      "[Vercellino and Sazanov (2022) — Assembly and function of the mitochondrial respiratory chain](/docs/papers/BRAIN-Diet-References#vercellino_respiratory_chain_2022)",
+      "[Brand (2016) — Mitochondrial superoxide and hydrogen peroxide sites](/docs/papers/BRAIN-Diet-References#brand_mitochondrial_ros_2016)",
+      "[Curtabbi and Enríquez (2022) — flavin mononucleotide (FMN) cofactor of respiratory complex I](/docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022)",
+      "[Crane (2001) — Biochemical Functions of Coenzyme Q₁₀](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)",
+      "[Verma et al. (2016) — Attention Deficit-Hyperactivity Disorder Suffers from Mitochondrial Dysfunction](/docs/papers/BRAIN-Diet-References#verma_attention_2016)",
+      "[Tardy et al. (2020) — A Narrative Review of the Biochemical and Clinical Evidence](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)",
+      "[Öğütlü et al. (2022) — Mitochondrial Dysfunction in Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023)"
+    ],
+    "preserved_phenome_source_records": [
+      {
+        "target_phenome": "Focus / Attention Stability",
+        "relationship_type": "modulates",
+        "confidence": "low-medium",
+        "evidence_level": "mechanistic",
+        "evidence_confidence": "low-medium",
+        "rationale": "Cybrid cells carrying platelet mitochondria from three boys with ADHD had lower respiration, lower complex V activity, a lower membrane potential and higher mitochondrial superoxide than control cybrids {{cite:verma_attention_2016}}. That is a small cell model. It does not show that diet changes attention.",
+        "scientific_findings": [
+          "PM1-F1",
+          "PM1-F3"
+        ],
+        "references": [
+          {
+            "index": 1,
+            "label": "Verma et al. (2016)",
+            "citation_key": "verma_attention_2016",
+            "href": "/docs/papers/BRAIN-Diet-References#verma_attention_2016",
+            "data_level": "Human Mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Cognitive Energy Stability",
+        "relationship_type": "modulates",
+        "confidence": "low-medium",
+        "evidence_level": "mechanistic",
+        "evidence_confidence": "low-medium",
+        "rationale": "The same cybrid cells respired less, which is consistent with less ATP-generating capacity in that model {{cite:verma_attention_2016}}. Cognitive energy was not measured, and the result is not a meal prescription.",
+        "scientific_findings": [
+          "PM1-F1",
+          "PM1-F4"
+        ],
+        "references": [
+          {
+            "index": 1,
+            "label": "Verma et al. (2016)",
+            "citation_key": "verma_attention_2016",
+            "href": "/docs/papers/BRAIN-Diet-References#verma_attention_2016",
+            "data_level": "Human Mechanistic"
+          }
+        ]
+      }
+    ],
+    "new_finding_records": []
+  },
+  "stage2b": {
+    "clarification": "Preserve iron, FMN, riboflavin, ubiquinone and copper records exactly as currently adjudicated. Riboflavin-derived FMN delivery is distinct from direct FMN food occurrence; missing active-form food coverage triggers research, not deletion.",
+    "all_existing_inputs": [
+      {
+        "pm_id": "BRS4-FM1-PM1",
+        "atom_id": "PM1-DIT-1",
+        "input": "Iron",
+        "section_presentations": [
+          {
+            "atom_id": "PM1-DIT-1",
+            "label": "Iron",
+            "presentation_section": "3.1.1",
+            "reader_description": "Iron–sulfur clusters and haem irons carry electrons inside the respiratory complexes.",
+            "description_finding_id": "PM1-F1"
+          }
+        ],
+        "dietary_input": true,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": "admitted",
+        "type_delivery_metadata": {
+          "atom_id": "PM1-DIT-1",
+          "requirement_classification": "direct",
+          "relationship_mode": "capacity-requirement",
+          "relationship_layer": "dietary-requirement",
+          "dietary_addressability": "direct",
+          "claim_ceiling": "biological-dependency",
+          "permitted_wording": "Iron centres transfer electrons in the respiratory chain. Eating more iron once iron status is adequate is not shown to raise electron transport.",
+          "evidence_limitation": "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
+        },
+        "record_preserved": true,
+        "source_sha256": "58acb432fb22a9d6dd1e4a3952ce3639d535eb0cb97dfe0fe91e0f886b9ba844",
+        "rapid_manuscript_selected": true,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      },
+      {
+        "pm_id": "BRS4-FM1-PM1",
+        "atom_id": "PM1-DIT-2",
+        "input": "Flavin mononucleotide (FMN)",
+        "section_presentations": [
+          {
+            "atom_id": "PM1-DIT-2",
+            "label": "Flavin mononucleotide (FMN)",
+            "presentation_section": "3.1.1",
+            "reader_description": "Flavin mononucleotide (FMN) is the flavin in complex I that takes electrons from NADH.",
+            "description_finding_id": "PM1-F1"
+          }
+        ],
+        "dietary_input": true,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": "admitted",
+        "type_delivery_metadata": {
+          "atom_id": "PM1-DIT-2",
+          "requirement_classification": "direct",
+          "relationship_mode": "capacity-requirement",
+          "relationship_layer": "dietary-requirement",
+          "dietary_addressability": "direct",
+          "claim_ceiling": "biological-dependency",
+          "permitted_wording": "Flavin mononucleotide (FMN) accepts electrons from NADH in complex I. This does not show that raising flavin mononucleotide (FMN) supply increases electron transport.",
+          "evidence_limitation": "The review identifies the cofactor. It does not show that flavin mononucleotide (FMN) supply limits complex I in ordinary life, or that raising intake increases electron transport."
+        },
+        "record_preserved": true,
+        "source_sha256": "d314fee8dd49af24af8d7f9fd635b723de2371e10d671050b27791516df6d5c4",
+        "rapid_manuscript_selected": false,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      },
+      {
+        "pm_id": "BRS4-FM1-PM1",
+        "atom_id": "PM1-DIT-3",
+        "input": "Vitamin B2 (riboflavin)",
+        "section_presentations": [
+          {
+            "atom_id": "PM1-DIT-3",
+            "label": "Vitamin B2 (riboflavin)",
+            "presentation_section": "3.1.1",
+            "reader_description": "Riboflavin is the vitamin the body uses to make flavin mononucleotide (FMN) for complex I.",
+            "description_finding_id": "PM1-F1"
+          }
+        ],
+        "dietary_input": true,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": "admitted",
+        "type_delivery_metadata": {
+          "atom_id": "PM1-DIT-3",
+          "requirement_classification": "derived",
+          "derived_target": "Flavin mononucleotide (FMN)",
+          "derived_target_atom_id": "PM1-DIT-2",
+          "relationship_mode": "capacity-requirement",
+          "relationship_layer": "dietary-requirement",
+          "dietary_addressability": "precursor-mediated",
+          "claim_ceiling": "biological-dependency",
+          "permitted_wording": "Riboflavin is a precursor of the flavin mononucleotide (FMN) used by complex I. Eating more riboflavin once flavin mononucleotide (FMN) is adequate is not shown to raise electron transport.",
+          "evidence_limitation": "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context."
+        },
+        "record_preserved": true,
+        "source_sha256": "e1ace75b152ab3d11a805e27bda215b781a946d4d01d6debebde0d306c08d1c1",
+        "rapid_manuscript_selected": true,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      },
+      {
+        "pm_id": "BRS4-FM1-PM1",
+        "atom_id": "PM1-DIT-4",
+        "input": "Ubiquinone",
+        "section_presentations": [
+          {
+            "atom_id": "PM1-DIT-4",
+            "label": "Ubiquinone",
+            "presentation_section": "3.1.2",
+            "reader_description": "Ubiquinone, also called coenzyme Q, shuttles electrons to complex III.",
+            "description_finding_id": "PM1-F1"
+          }
+        ],
+        "dietary_input": false,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": null,
+        "type_delivery_metadata": {
+          "atom_id": "PM1-DIT-4",
+          "relationship_layer": "biochemical-requirement",
+          "claim_ceiling": "biological-dependency",
+          "permitted_wording": "Ubiquinone carries electrons between the early complexes and complex III. It is not shown here as a dietary lever.",
+          "evidence_limitation": "Cells synthesise ubiquinone. These reviews do not show that dietary coenzyme Q10 raises electron transport."
+        },
+        "record_preserved": true,
+        "source_sha256": "0bc676c3713379bc28d7ec7ea8adc62ec282c1b952304ee50980f0371ab036e7",
+        "rapid_manuscript_selected": false,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      },
+      {
+        "pm_id": "BRS4-FM1-PM1",
+        "atom_id": "PM1-DIT-5",
+        "input": "Copper",
+        "section_presentations": [
+          {
+            "atom_id": "PM1-DIT-5",
+            "label": "Copper",
+            "presentation_section": "3.1.2",
+            "reader_description": "Complex IV uses two copper centres as it passes electrons to oxygen.",
+            "description_finding_id": "PM1-F1"
+          }
+        ],
+        "dietary_input": false,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": null,
+        "type_delivery_metadata": {
+          "atom_id": "PM1-DIT-5",
+          "relationship_layer": "biochemical-requirement",
+          "claim_ceiling": "biological-dependency",
+          "permitted_wording": "Copper centres in complex IV pass electrons toward oxygen. Dietary copper is not shown to change that step.",
+          "evidence_limitation": "This identifies copper centres in complex IV. It does not show that dietary copper intake changes electron transport."
+        },
+        "record_preserved": true,
+        "source_sha256": "6f9e9d954743861f51c11ed61a5df2d21bb378049b04c6b45861ebd826c4fbb2",
+        "rapid_manuscript_selected": false,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      }
+    ],
+    "existing_practices": [],
+    "existing_lifestyle": [],
+    "existing_kcs": [],
+    "new_admissions": [],
+    "new_practices": [],
+    "food_mapping_counts": {
+      "verified": 55,
+      "provisional": 1,
+      "unresolved": 1
+    },
+    "food_research_scope": "Re-examined the current structured food joins and existing composition ledger against the reviewed input roles. No food source, quantity, preparation equivalence, conversion chain or ontology edge invented. Existing provisional discoveries remain available through the standard PM dropdown."
+  },
+  "preservation": {
+    "before_file_sha256": "3b73b2647f87d9c1640fac6343921b78cec039218c33b8f5ef883b1b68fe571a",
+    "original_counts": {
+      "dietary_input_traceability": 5,
+      "dietary_input_assessments": 0,
+      "dietary_lever_atoms": 5,
+      "dietary_lever_presentations": 5,
+      "key_constraints": 0,
+      "cofactors": 4,
+      "system_optimisation_practices": 0,
+      "lifestyle_priorities": 0,
+      "scientific_findings": 4,
+      "references": 7,
+      "phenome_relationships": 2,
+      "kc_change_control_flags": 0
+    },
+    "all_existing_structured_records_preserved": true,
+    "all_existing_prose_preserved": "Removing the marked additive disclosure recovers the exact original document bytes.",
+    "phenome_and_scores": "unchanged",
+    "canonical_input_dispositions": "unchanged"
+  },
+  "issues_flagged": [
+    {
+      "id": "PRES-20261023-ETC-FMN",
+      "pm": "BRS4-FM1-PM1",
+      "record": "dietary_input_traceability[PM1-DIT-2]",
+      "concern": "Direct active-FMN dietary occurrence and the supported riboflavin-derived route are distinct; current active-FMN food coverage is incomplete.",
+      "proposal": "Research form-specific direct delivery and preserve the existing active-form and precursor records during reconciliation; do not infer direct FMN amounts from riboflavin.",
+      "sources": [
+        "registry/substances.json",
+        "https://pubmed.ncbi.nlm.nih.gov/27509854/"
+      ],
+      "status": "open-food-traceability-question; admission retained"
+    }
+  ],
+  "proposed_changes_requiring_approval": [
+    {
+      "id": "PRES-20261023-ETC-FMN",
+      "proposal": "Research form-specific direct delivery and preserve the existing active-form and precursor records during reconciliation; do not infer direct FMN amounts from riboflavin."
+    }
+  ],
+  "outcome": "ADDITIVELY ENRICHED WITH LIMITATIONS; no new dietary admission"
+}

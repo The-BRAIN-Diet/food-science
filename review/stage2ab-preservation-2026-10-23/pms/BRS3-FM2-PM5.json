@@ -1,0 +1,247 @@
+{
+  "pm_id": "BRS3-FM2-PM5",
+  "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx",
+  "mission": "Protect membrane fats from oxidative damage so vulnerable polyunsaturated fatty acids remain intact.",
+  "stage2a": {
+    "operation": "Owns lipid-peroxyl chain termination; regeneration belongs to PM6 and transcriptional regulation to Nrf2/NF-kB. Existing null/high-dose limits retained.",
+    "mission_and_existing_claims_reviewed": true,
+    "existing_findings": [
+      {
+        "id": "PM5-F1",
+        "proposition": "Vitamin E interrupts lipid peroxidation by scavenging peroxyl radicals in the lipid phase. Its vitamin function is protection of polyunsaturated fats in membranes.",
+        "existing_source_assessments": [
+          {
+            "label": "Niki (2014)",
+            "citation_key": "niki_vitamin_2014",
+            "href": "/docs/papers/BRAIN-Diet-References#niki_vitamin_2014",
+            "data_level": "Mechanistic",
+            "exposure_context": "in vitro lipid peroxidation and in vivo kinetic evidence",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Vitamin E breaks peroxyl-radical chain propagation in vitro and in vivo, and is not an efficient scavenger of several other radicals in vivo.",
+            "assessment": {
+              "study": "Review of kinetic and physiological evidence for vitamin E as a peroxyl-radical scavenger.",
+              "population": "Chemical systems and the in vivo molar ratio of vitamin E to its substrates. No new human cohort.",
+              "result": "Vitamin E inhibits lipid peroxidation by breaking peroxyl-radical chains. Other radicals are not scavenged efficiently at physiological ratios.",
+              "effect_magnitude": "No dietary dose-response. The claim is which radical vitamin E can stop.",
+              "evidence_summary": "Vitamin E is the chain-breaking antioxidant in the lipid phase.",
+              "limitations": "A review of chemistry is not an intake trial and not a brain-outcome trial."
+            }
+          },
+          {
+            "label": "Traber and Atkinson (2007)",
+            "citation_key": "traber_vitamin_2007",
+            "href": "/docs/papers/BRAIN-Diet-References#traber_vitamin_2007",
+            "data_level": "Mechanistic",
+            "exposure_context": "review of the in vivo vitamin function",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "The vitamin function of alpha-tocopherol is peroxyl-radical scavenging that protects polyunsaturated fats in membranes.",
+            "assessment": {
+              "study": "Review arguing that the in vivo actions of alpha-tocopherol follow from peroxyl-radical scavenging.",
+              "population": "Mammalian vitamin E biology. No new trial.",
+              "result": "Protecting polyunsaturated fats in membranes is the vitamin function.",
+              "effect_magnitude": "No intake threshold for peroxidation is set.",
+              "evidence_summary": "The membrane job of vitamin E is protection of polyunsaturated fats.",
+              "limitations": "The review does not measure peroxidation after a change in intake."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM5-F2",
+        "proposition": "A long prevention trial found more prostate cancers with 400 IU of vitamin E a day than with placebo. That result is not a peroxidation measurement, and it is a reason not to treat extra vitamin E as a benefit.",
+        "existing_source_assessments": [
+          {
+            "label": "Klein et al. (2011)",
+            "citation_key": "klein_vitamin_2011",
+            "href": "/docs/papers/BRAIN-Diet-References#klein_vitamin_2011",
+            "data_level": "Human Outcome",
+            "exposure_context": "400 IU vitamin E a day in a prevention trial",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "Vitamin E assignment was associated with more prostate cancers than placebo.",
+            "assessment": {
+              "study": "SELECT prevention trial of selenium and vitamin E, with extended follow-up for prostate cancer.",
+              "population": "Men without prostate cancer at entry, assigned vitamin E, selenium, both, or placebo.",
+              "result": "Vitamin E, 400 IU a day, was associated with a higher prostate-cancer risk than placebo.",
+              "effect_magnitude": "The paper reports a higher risk. It does not report a peroxidation marker.",
+              "evidence_summary": "Extra vitamin E at this dose is not a benefit.",
+              "limitations": "Cancer incidence is not membrane peroxidation, so the trial does not test the chain-breaking reaction."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      }
+    ],
+    "evidence_enrichment": "Chemical chain-breaking and deficient-cell oxidative challenge support a bounded vitamin E role. The existing high-dose prevention-trial harm remains an important clinical limit, not a peroxidation-rate measurement.",
+    "source_to_claim_records": [
+      {
+        "id": "vitamin-e-capacity",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17561088/",
+        "kind": "secondary-review",
+        "proposition": "Alpha-tocopherol supports lipid-phase peroxyl-radical chain termination.",
+        "limitation": "Vitamin E forms differ in retention; high-dose benefits and brain efficacy are not inferred.",
+        "retrieval": "Review full text and abstract.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      },
+      {
+        "id": "vitamin-e-primary",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/804799/",
+        "kind": "primary-experiment",
+        "proposition": "Deficiency/repletion and ex-vivo erythrocyte observations corroborate lipid-protection capacity.",
+        "limitation": "Erythrocyte oxidative challenge is not brain efficacy or a general high-dose prescription.",
+        "retrieval": "Indexed primary abstract.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      }
+    ],
+    "new_findings": [],
+    "coverage_limitations": "Existing source assessments and full attached bibliography are inventoried and preserved. Targeted source retrieval is bounded to the stated propositions; unrefreshed clinical/Phenome sources are not newly validated. No evidence of absence is inferred.",
+    "stop_rationale": "Preserve the complete baseline, add the bounded supported evidence and exact qualifications, and park material attribution/traceability questions for approval instead of forcing an admission or expanding to a comprehensive rebuild.",
+    "attached_references": [
+      "[Bulut et al. (2007) — Malondialdehyde Levels in Adult Attention-deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007)",
+      "[Fielding et al. (2005) — Increases in Plasma Lycopene Concentration After Consumption of Tomatoes Cooked with Olive](/docs/papers/BRAIN-Diet-References#fielding_increases_2005)",
+      "[Johnson (2014) — Role of Lutein and Zeaxanthin in Visual and Cognitive Function Throughout the](/docs/papers/BRAIN-Diet-References#johnson_role_2014)",
+      "[Solleiro-Villavicencio & Rivas-Arancibia (2018) — Oxidative Stress and Mitochondrial Dysfunction](/docs/papers/BRAIN-Diet-References#solleiro-villavicencio_effect_2018)",
+      "[Niki (2014) — Vitamin E as a lipid-soluble peroxyl radical scavenger](/docs/papers/BRAIN-Diet-References#niki_vitamin_2014)",
+      "[Traber and Atkinson (2007) — Vitamin E, antioxidant and nothing more](/docs/papers/BRAIN-Diet-References#traber_vitamin_2007)",
+      "[Klein et al. (2011) — Vitamin E and the Risk of Prostate Cancer](/docs/papers/BRAIN-Diet-References#klein_vitamin_2011)"
+    ],
+    "preserved_phenome_source_records": [
+      {
+        "target_phenome": "Cognitive Clarity",
+        "relationship_type": "modulates",
+        "confidence": "low-medium",
+        "evidence_level": "mechanistic",
+        "rationale": "One adult cohort had higher malondialdehyde. That marker is not a vitamin E result. Lutein is not the chain-breaking antioxidant in this membrane reaction.",
+        "references": [
+          {
+            "index": 1,
+            "label": "Bulut et al. (2007)",
+            "citation_key": "bulut_malondialdehyde_2007",
+            "href": "/docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007",
+            "data_level": "Human Mechanistic"
+          },
+          {
+            "index": 2,
+            "label": "Johnson (2014)",
+            "citation_key": "johnson_role_2014",
+            "href": "/docs/papers/BRAIN-Diet-References#johnson_role_2014",
+            "data_level": "Mechanistic"
+          }
+        ],
+        "evidence_confidence": "low-medium"
+      },
+      {
+        "target_phenome": "Focus / Attention Stability",
+        "relationship_type": "modulates",
+        "confidence": "low-medium",
+        "evidence_level": "mechanistic",
+        "rationale": "Lipid-peroxidation burden tracks oxidative load in ADHD cohorts; food-state antioxidant coverage may modulate membrane protection relevant to sustained attention contexts.",
+        "references": [
+          {
+            "index": 1,
+            "label": "Bulut et al. (2007)",
+            "citation_key": "bulut_malondialdehyde_2007",
+            "href": "/docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007",
+            "data_level": "Human Mechanistic"
+          }
+        ],
+        "evidence_confidence": "low-medium"
+      },
+      {
+        "target_phenome": "Emotional Regulation",
+        "relationship_type": "modulates",
+        "confidence": "low",
+        "evidence_level": "mechanistic",
+        "rationale": "Oxidative membrane damage and mitochondrial overlap may intersect affective regulation in neurodevelopmental framing; scope remains lipid-peroxidation control only.",
+        "references": [
+          {
+            "index": 1,
+            "label": "Solleiro-Villavicencio & Rivas-Arancibia (2018)",
+            "citation_key": "solleiro-villavicencio_effect_2018",
+            "href": "/docs/papers/BRAIN-Diet-References#solleiro-villavicencio_effect_2018",
+            "data_level": "Mechanistic"
+          }
+        ],
+        "evidence_confidence": "low"
+      }
+    ],
+    "new_finding_records": []
+  },
+  "stage2b": {
+    "clarification": "Keep vitamin E Capacity provision and its current classification. Ordinary-food occurrence is separate from formulation-specific supplementation, repletion and cancer outcomes; no high-dose recommendation is added.",
+    "all_existing_inputs": [
+      {
+        "pm_id": "BRS3-FM2-PM5",
+        "atom_id": "PM5-DIT-1",
+        "input": "Vitamin E",
+        "section_presentations": [
+          {
+            "atom_id": "PM5-DIT-1",
+            "label": "Vitamin E",
+            "presentation_section": "3.1.1"
+          }
+        ],
+        "dietary_input": true,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": "admitted",
+        "type_delivery_metadata": {
+          "atom_id": "PM5-DIT-1",
+          "requirement_classification": "direct",
+          "relationship_layer": "dietary-requirement",
+          "dietary_addressability": "not-established",
+          "claim_ceiling": "biological-dependency",
+          "permitted_wording": "Vitamin E is a Direct nutrient requirement for breaking peroxyl-radical chains in membranes. This is not an intake that was shown to lower peroxidation, and it is not a high-dose rule.",
+          "evidence_limitation": "Vitamin E breaks peroxyl-radical chains in membranes. That chemistry does not show that extra vitamin E lowers peroxidation in people. A prevention trial found more prostate cancers with 400 IU a day."
+        },
+        "record_preserved": true,
+        "source_sha256": "334bcc114ac30009855a4405a8b123e80d8bd829c3e95fa91947d2aa99dd292f",
+        "rapid_manuscript_selected": true,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      }
+    ],
+    "existing_practices": [],
+    "existing_lifestyle": [],
+    "existing_kcs": [],
+    "new_admissions": [],
+    "new_practices": [],
+    "food_mapping_counts": {
+      "verified": 12,
+      "provisional": 0,
+      "unresolved": 0
+    },
+    "food_research_scope": "Re-examined the current structured food joins and existing composition ledger against the reviewed input roles. No food source, quantity, preparation equivalence, conversion chain or ontology edge invented. Existing provisional discoveries remain available through the standard PM dropdown."
+  },
+  "preservation": {
+    "before_file_sha256": "9c51ef406f800a22d5752611a2a2cbfb9f5a36d5a9f51c4a6e932704612d0cb7",
+    "original_counts": {
+      "dietary_input_traceability": 1,
+      "dietary_input_assessments": 0,
+      "dietary_lever_atoms": 1,
+      "dietary_lever_presentations": 1,
+      "key_constraints": 0,
+      "cofactors": 0,
+      "system_optimisation_practices": 0,
+      "lifestyle_priorities": 0,
+      "scientific_findings": 2,
+      "references": 7,
+      "phenome_relationships": 3,
+      "kc_change_control_flags": 0
+    },
+    "all_existing_structured_records_preserved": true,
+    "all_existing_prose_preserved": "Removing the marked additive disclosure recovers the exact original document bytes.",
+    "phenome_and_scores": "unchanged",
+    "canonical_input_dispositions": "unchanged"
+  },
+  "issues_flagged": [],
+  "proposed_changes_requiring_approval": [],
+  "outcome": "ADDITIVELY ENRICHED WITH LIMITATIONS; no new dietary admission"
+}

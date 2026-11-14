@@ -19,10 +19,16 @@ Outstanding food-edge, material-equivalence, identity and conversion tasks. Mate
 | BRS2-FM1-PM4::PM4-DIT-2 | Methionine |  | BRS2-FM1-PM4 | requires-pathway-reconciliation |
 | methionine | Cysteine |  | BRS2-FM2-PM6 | requires-pathway-reconciliation |
 | n-acetylcysteine | Cysteine |  | BRS2-FM2-PM6 | requires-pathway-reconciliation |
+| Chicken (studied breast material) | nicotinamide | Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement | BRS4-FM1-PM2 | pending-independent-verification |
+| Chickpeas (studied analytical material) | nicotinamide | Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement | BRS4-FM1-PM2 | pending-independent-verification |
+| Chicken (studied breast material) | nicotinic-acid | Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement | BRS4-FM1-PM2 | pending-independent-verification |
+| Chickpeas (studied analytical material) | nicotinic-acid | Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement | BRS4-FM1-PM2 | pending-independent-verification |
 | Beef | creatine | raw | BRS4-FM1-PM3 | requires-material-equivalence-review |
 | vitamin-b2 | Flavin mononucleotide (FMN) |  | BRS4-FM1-PM1 | requires-pathway-reconciliation |
 | tryptophan | Nicotinamide (a form of vitamin B3) |  | BRS4-FM1-PM2 | requires-pathway-reconciliation |
 | Apples (studied cultivars) | pectin | Cultivar-specific extracted analytical fractions; not a standardised pectin dose | BRS5-FM2-PM5 | pending-independent-verification |
+| Pomegranate (studied commercial juice) | ellagic-acid | Chilled commercial juice; not whole-fruit or other-product equivalence | BRS5-FM2-PM6 | pending-independent-verification |
+| Pomegranate (studied commercial juice) | ellagitannins | Chilled commercial juice; not whole-fruit or other-product equivalence | BRS5-FM2-PM6 | pending-independent-verification |
 | BRS5-FM1-PM1::PM1-DIT-2 | Fermentable dietary fibre |  | BRS5-FM1-PM1 | requires-identity-reconciliation |
 | BRS5-FM1-PM1::PM1-DIT-2 | Butyrate |  | BRS5-FM1-PM1 | requires-pathway-reconciliation |
 | vitamin-a | Retinoic acid |  | BRS5-FM1-PM1 | requires-pathway-reconciliation |

@@ -1,0 +1,454 @@
+{
+  "pm_id": "BRS6-FM1-PM2",
+  "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx",
+  "mission": "Limit glycaemic volatility so post-prandial glucose swings do not create unnecessary metabolic and neuroendocrine stress.",
+  "stage2a": {
+    "operation": "Glucose variability is distinct from intestinal glucose appearance and insulin-stimulated disposal. Retain selected CGM-tested practices; no inferred neuron or ADHD improvement.",
+    "mission_and_existing_claims_reviewed": true,
+    "existing_findings": [
+      {
+        "id": "PM2-F1",
+        "proposition": "In an uncontrolled cohort of 13 sedentary adults with type 2 diabetes, seven days of aerobic training were associated with lower glucose range and selected excursion measures; high-glucose excursion frequency and duration remained statistically inconclusive.",
+        "existing_source_assessments": [
+          {
+            "label": "Mikus et al. (2012)",
+            "citation_key": "mikus_2012_22311420",
+            "href": "/docs/papers/BRAIN-Diet-References#mikus_2012_22311420",
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "In an uncontrolled cohort of 13 sedentary adults with type 2 diabetes, seven days of aerobic training were associated with lower glucose range and selected excursion measures; high-glucose excursion frequency and duration remained statistically inconclusive.",
+            "study_exposure": "Thirteen sedentary adults with type 2 diabetes; habitual-activity days compared with seven-day training.",
+            "study_finding": "CGM excursions decreased without measurable fitness or body-composition change.",
+            "assessment": {
+              "study": "Thirteen sedentary adults with type 2 diabetes; habitual-activity days compared with seven-day training.",
+              "population": "Thirteen sedentary adults with type 2 diabetes; habitual-activity days compared with seven-day training.",
+              "result": "CGM excursions decreased without measurable fitness or body-composition change.",
+              "effect_magnitude": "Only source-extracted comparisons retained; no pooled benefit estimate.",
+              "evidence_summary": "CGM excursions decreased without measurable fitness or body-composition change.",
+              "limitations": "No parallel control; do not infer brain energy stability.",
+              "retrieval_scope": "Primary abstract/results retrieved; full methods not independently extracted unless noted.",
+              "source_url": "https://pubmed.ncbi.nlm.nih.gov/22311420/"
+            }
+          }
+        ],
+        "existing_supportive_evidence": [
+          {
+            "label": "Zametkin et al. (1990)",
+            "citation_key": "zametkin_cerebral_1990",
+            "href": "/docs/papers/BRAIN-Diet-References#zametkin_cerebral_1990",
+            "why_relevant": "Preserved attached corpus, assessed for the mission-specific endpoint rather than inherited as an admission.",
+            "why_excluded": "The attached source is contextual. No separately extracted mission-specific intermediary or intervention endpoint justifies a new requirement, KC admission or phenome rating from this source."
+          },
+          {
+            "label": "Di Girolamo et al. (2022)",
+            "citation_key": "di_girolamo_prevalence_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022",
+            "why_relevant": "Preserved attached corpus, assessed for the mission-specific endpoint rather than inherited as an admission.",
+            "why_excluded": "The attached source is contextual. No separately extracted mission-specific intermediary or intervention endpoint justifies a new requirement, KC admission or phenome rating from this source."
+          }
+        ],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM2-F2",
+        "proposition": "Fish before rice reduced within-meal glucose variability in the diabetes group.",
+        "existing_source_assessments": [
+          {
+            "label": "Kuwata et al. (2016)",
+            "citation_key": "kuwata_meal_sequence_2016",
+            "href": "/docs/papers/BRAIN-Diet-References#kuwata_meal_sequence_2016",
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Glucose standard deviation was lower with fish first in the diabetes group.",
+            "study_exposure": "Fish/rice crossover in twelve adults with type 2 diabetes and ten healthy volunteers.",
+            "study_finding": "Glucose standard deviation was lower with fish first in the diabetes group.",
+            "assessment": {
+              "study": "Fish/rice crossover in twelve adults with type 2 diabetes and ten healthy volunteers.",
+              "population": "Fish/rice crossover in twelve adults with type 2 diabetes and ten healthy volunteers.",
+              "result": "Glucose standard deviation was lower with fish first in the diabetes group.",
+              "effect_magnitude": "Only source-extracted comparisons retained; no pooled benefit estimate.",
+              "evidence_summary": "Glucose standard deviation was lower with fish first in the diabetes group.",
+              "limitations": "The healthy comparison and long-term response must not be assumed equivalent.",
+              "retrieval_scope": "Primary Methods/Results retrieved.",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4742500/"
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM2-F3",
+        "proposition": "An observational diabetes study linked glucose fluctuation measures with urinary oxidative-stress markers.",
+        "existing_source_assessments": [
+          {
+            "label": "Monnier et al. (2006)",
+            "citation_key": "monnier_2006_16638903",
+            "href": "/docs/papers/BRAIN-Diet-References#monnier_2006_16638903",
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Greater excursions correlated with oxidative-stress marker excretion.",
+            "study_exposure": "Observational type 2 diabetes CGM and urinary isoprostane comparison.",
+            "study_finding": "Greater excursions correlated with oxidative-stress marker excretion.",
+            "assessment": {
+              "study": "Observational type 2 diabetes CGM and urinary isoprostane comparison.",
+              "population": "Observational type 2 diabetes CGM and urinary isoprostane comparison.",
+              "result": "Greater excursions correlated with oxidative-stress marker excretion.",
+              "effect_magnitude": "Only source-extracted comparisons retained; no pooled benefit estimate.",
+              "evidence_summary": "Greater excursions correlated with oxidative-stress marker excretion.",
+              "limitations": "Do not label this an induced-glucose-fluctuation experiment; inherited key has a wrong PMID.",
+              "retrieval_scope": "Primary abstract/results retrieved; full methods not independently extracted unless noted.",
+              "source_url": "https://pubmed.ncbi.nlm.nih.gov/16609090/"
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM2-F4",
+        "proposition": "Brief walking interruptions reduced postprandial glucose and insulin exposure versus continuous sitting.",
+        "existing_source_assessments": [
+          {
+            "label": "Dunstan et al. (2012)",
+            "citation_key": "dunstan_sitting_breaks_2012",
+            "href": "/docs/papers/BRAIN-Diet-References#dunstan_sitting_breaks_2012",
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Post-meal glucose and insulin AUC were lower.",
+            "study_exposure": "Randomized crossover, two-minute walking breaks every twenty minutes versus uninterrupted sitting.",
+            "study_finding": "Post-meal glucose and insulin AUC were lower.",
+            "assessment": {
+              "study": "Randomized crossover, two-minute walking breaks every twenty minutes versus uninterrupted sitting.",
+              "population": "Randomized crossover, two-minute walking breaks every twenty minutes versus uninterrupted sitting.",
+              "result": "Post-meal glucose and insulin AUC were lower.",
+              "effect_magnitude": "Only source-extracted comparisons retained; no pooled benefit estimate.",
+              "evidence_summary": "Post-meal glucose and insulin AUC were lower.",
+              "limitations": "Do not substitute average exposure for CGM variability or insulin sensitivity.",
+              "retrieval_scope": "Full primary methods and results retrieved.",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3329818/"
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM2-F5",
+        "proposition": "In adults with type 2 diabetes, the tested less-processed whole-grain package reduced daily glucose standard deviation and mean amplitude of glycaemic excursions (MAGE) versus a nutrient-matched finely processed package over two weeks.",
+        "existing_source_assessments": [
+          {
+            "label": "Aberg et al. (2020)",
+            "href": "#stage2-ref-aberg",
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Daily glucose SD difference -0.16 mmol/L (95% CI -0.25 to -0.06); mean amplitude of glycaemic excursions (MAGE) -0.36 (-0.65 to -0.08). Time in range and CONGA were null.",
+            "assessment": {
+              "study": "Two-week crossover: intact oats, brown rice and coarse/kibbled bread versus matched finely processed whole-grain products; at least two-week washout.",
+              "population": "31 adults with type 2 diabetes; 28 completed.",
+              "result": "Daily glucose SD difference -0.16 mmol/L (95% CI -0.25 to -0.06); mean amplitude of glycaemic excursions (MAGE) -0.36 (-0.65 to -0.08). Time in range and CONGA were null.",
+              "limitations": "A food package, not an isolated grain or fibre effect; unmasked foods, short duration. Concealed randomisation, blinded CGM, initial masked analysis and intention-to-treat models support appraisal.",
+              "retrieval_scope": "Full primary Methods/Results",
+              "effect_magnitude": "Daily glucose SD difference -0.16 mmol/L (95% CI -0.25 to -0.06); mean amplitude of glycaemic excursions (MAGE) -0.36 (-0.65 to -0.08). Time in range and CONGA were null.",
+              "evidence_summary": "Daily glucose SD difference -0.16 mmol/L (95% CI -0.25 to -0.06); mean amplitude of glycaemic excursions (MAGE) -0.36 (-0.65 to -0.08). Time in range and CONGA were null. A food package, not an isolated grain or fibre effect; unmasked foods, short duration. Concealed randomisation, blinded CGM, initial masked analysis and intention-to-treat models support appraisal."
+            },
+            "citation_key": "stage2-ref-aberg"
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM2-F6",
+        "proposition": "In a small prediabetes crossover, the tested early, front-loaded eating schedule reduced mean amplitude of glycaemic excursions (MAGE) over six days versus later calorie distribution; mean glucose and several other variability/range measures were inconclusive.",
+        "existing_source_assessments": [
+          {
+            "label": "Bruno et al. (2024)",
+            "href": "#stage2-ref-bruno",
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "MAGE 2.4 versus 2.9 mmol/L (p=0.001); mean glucose, SD and time 70-180 mg/dL were not significantly different.",
+            "assessment": {
+              "study": "Six days of matched weight-maintenance food: 08:00-16:00, 80% of calories before 14:00, versus usual later distribution; randomised crossover without washout.",
+              "population": "10 adults with prediabetes and overweight/obesity.",
+              "result": "MAGE 2.4 versus 2.9 mmol/L (p=0.001); mean glucose, SD and time 70-180 mg/dL were not significantly different.",
+              "limitations": "Small sample, no washout; timing, eating-window length and calorie distribution cannot be separated.",
+              "retrieval_scope": "Full primary Methods/Results",
+              "effect_magnitude": "MAGE 2.4 versus 2.9 mmol/L (p=0.001); mean glucose, SD and time 70-180 mg/dL were not significantly different.",
+              "evidence_summary": "MAGE 2.4 versus 2.9 mmol/L (p=0.001); mean glucose, SD and time 70-180 mg/dL were not significantly different. Small sample, no washout; timing, eating-window length and calorie distribution cannot be separated."
+            },
+            "citation_key": "stage2-ref-bruno"
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM2-F7",
+        "proposition": "Two weeks of the tested supervised interval-walking programme reduced mean amplitude of glycaemic excursions (MAGE) versus an inactive control period in a small type 2 diabetes crossover trial.",
+        "existing_source_assessments": [
+          {
+            "label": "Karstoft et al. (2017)",
+            "href": "#stage2-ref-karstoft",
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "MAGE decreased 1.7 +/- 0.4 mmol/L within interval training; interval/control comparison p=0.01. Within-period mean glucose was inconclusive (p=0.08).",
+            "assessment": {
+              "study": "Randomised crossover: ten supervised 60-minute sessions over two weeks, alternating three-minute slower/faster walking; continuous and inactive comparator periods, multiweek washout.",
+              "population": "14 adults with type 2 diabetes; 13 usable CGM records.",
+              "result": "MAGE decreased 1.7 +/- 0.4 mmol/L within interval training; interval/control comparison p=0.01. Within-period mean glucose was inconclusive (p=0.08).",
+              "limitations": "Small unmasked trial, baseline imbalance and missing sensor record; oxidative-stress markers did not improve. No blanket superiority to all continuous exercise.",
+              "retrieval_scope": "Full publisher PDF Methods, Table 1 and Results",
+              "effect_magnitude": "MAGE decreased 1.7 +/- 0.4 mmol/L within interval training; interval/control comparison p=0.01. Within-period mean glucose was inconclusive (p=0.08).",
+              "evidence_summary": "MAGE decreased 1.7 +/- 0.4 mmol/L within interval training; interval/control comparison p=0.01. Within-period mean glucose was inconclusive (p=0.08). Small unmasked trial, baseline imbalance and missing sensor record; oxidative-stress markers did not improve. No blanket superiority to all continuous exercise."
+            },
+            "citation_key": "stage2-ref-karstoft"
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM2-F8",
+        "proposition": "Four brief vigorous bodyweight bouts daily produced small secondary continuous glucose monitoring (CGM) variability improvements over 48 hours in inactive adults with well-controlled type 2 diabetes; the primary mean-glucose contrast was not significant.",
+        "existing_source_assessments": [
+          {
+            "label": "Babir et al. (2026)",
+            "href": "#stage2-ref-babir",
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Primary mean difference -0.2 mmol/L (95% CI -0.4 to 0; p=0.07). Secondary SD -0.1 mmol/L, CV -1 percentage point and MAGE -0.3 mmol/L; time in range was null.",
+            "assessment": {
+              "study": "Two 48-hour crossover periods: four one-minute vigorous bodyweight bouts daily versus usual activity; at least one hour between bouts, encouraged after meals.",
+              "population": "31 inactive adults with well-controlled, non-insulin-treated type 2 diabetes.",
+              "result": "Primary mean difference -0.2 mmol/L (95% CI -0.4 to 0; p=0.07). Secondary SD -0.1 mmol/L, CV -1 percentage point and MAGE -0.3 mmol/L; time in range was null.",
+              "limitations": "Small secondary effects without multiplicity adjustment; short washout permits carryover. Not evidence for gentle walking or lasting clinical benefit.",
+              "retrieval_scope": "Full primary Methods/Results",
+              "effect_magnitude": "Primary mean difference -0.2 mmol/L (95% CI -0.4 to 0; p=0.07). Secondary SD -0.1 mmol/L, CV -1 percentage point and MAGE -0.3 mmol/L; time in range was null.",
+              "evidence_summary": "Primary mean difference -0.2 mmol/L (95% CI -0.4 to 0; p=0.07). Secondary SD -0.1 mmol/L, CV -1 percentage point and MAGE -0.3 mmol/L; time in range was null. Small secondary effects without multiplicity adjustment; short washout permits carryover. Not evidence for gentle walking or lasting clinical benefit."
+            },
+            "citation_key": "stage2-ref-babir"
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      }
+    ],
+    "evidence_enrichment": "CGM variability, mean glycaemia, oxidative markers and inferred neuroendocrine consequences remain separate. The longer early-eating/calorie-restriction trial provides contrary context to a different short early/front-loaded protocol, not a reason to delete the existing SOP.",
+    "source_to_claim_records": [
+      {
+        "id": "wholegrain-processing",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7372063/",
+        "kind": "primary-human-crossover",
+        "proposition": "Less-processed whole-grain package reduced CGM excursions and variability relative to finely milled nutrient-matched grains.",
+        "limitation": "31 enrolled, 28 completed; two weeks; type 2 diabetes; combined oats/rice/bread package. Not an isolated fibre effect or brain outcome.",
+        "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      },
+      {
+        "id": "early-eating",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39759025/",
+        "kind": "primary-human-crossover",
+        "proposition": "Six-day early eating with front-loaded calories reduced MAGE and hyperglycaemic exposure in ten adults with prediabetes.",
+        "limitation": "Timing, window and calorie distribution were combined. Inflammatory markers and OGTT did not improve; short trial does not establish universal timing benefits.",
+        "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      },
+      {
+        "id": "early-eating-null",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10804344/",
+        "kind": "primary-human-randomised-secondary-analysis",
+        "proposition": "Early time restriction added to calorie restriction did not improve average glucose or insulin-sensitivity measures over calorie restriction alone.",
+        "limitation": "Different 12-week protocol and overweight/obese population; incomplete CGM coverage. Retained as contrary context, not a second independent replication of Bruno.",
+        "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      },
+      {
+        "id": "interval-walking",
+        "url": "https://pure-oai.bham.ac.uk/ws/files/37050575/Karstoft_et_al_The_effects_of_2_weeks_2016.pdf",
+        "kind": "primary-human-crossover",
+        "proposition": "Two weeks of supervised interval walking reduced CGM MAGE versus the control period in type 2 diabetes.",
+        "limitation": "14 participants, 13 usable CGM; mean glucose within-period inconclusive; oxidative stress unchanged. Not generic walking-dose or brain-effect evidence.",
+        "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      }
+    ],
+    "new_findings": [],
+    "coverage_limitations": "Existing source assessments and full attached bibliography are inventoried and preserved. Targeted source retrieval is bounded to the stated propositions; unrefreshed clinical/Phenome sources are not newly validated. No evidence of absence is inferred.",
+    "stop_rationale": "Preserve the complete baseline, add the bounded supported evidence and exact qualifications, and park material attribution/traceability questions for approval instead of forcing an admission or expanding to a comprehensive rebuild.",
+    "attached_references": [
+      "[Monnier et al. (2006) — Activation of Oxidative Stress by Acute Glucose Fluctuations Compared with Sustained Chronic](/docs/papers/BRAIN-Diet-References#monnier_2006_16638903)",
+      "[Mikus et al. (2012) — Glycaemic Control Is Improved by 7 Days of Aerobic Exercise Training in](/docs/papers/BRAIN-Diet-References#mikus_2012_22311420)",
+      "[Zametkin et al. (1990) — Cerebral Glucose Metabolism in Adults with Hyperactivity of Childhood Onset](/docs/papers/BRAIN-Diet-References#zametkin_cerebral_1990)",
+      "[Di Girolamo et al. (2022) — Prevalence of Metabolic Syndrome and Insulin Resistance in a Sample of Adult](/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022)",
+      "[Kuwata et al. (2016) — Meal sequence and glucose excursion, gastric emptying and incretin secretion in type 2 diabetes: a randomised, controlled crossover, exploratory trial](/docs/papers/BRAIN-Diet-References#kuwata_meal_sequence_2016)",
+      "[Dunstan et al. (2012) — Breaking up prolonged sitting reduces postprandial glucose and insulin responses](/docs/papers/BRAIN-Diet-References#dunstan_sitting_breaks_2012)",
+      "[Aberg et al. (2020)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-aberg)",
+      "[Bruno et al. (2024)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-bruno)",
+      "[Jamshed et al. (2019)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-jamshed)",
+      "[Karstoft et al. (2017)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-karstoft)",
+      "[Babir et al. (2026)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-babir)",
+      "[Trico et al. (2016)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-trico)",
+      "[Shukla et al. (2017)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-shukla)",
+      "[Touhamy et al. (2025)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-touhamy)",
+      "[Smith et al. (2022)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-smith)",
+      "[Pabla et al. (2025)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-pabla)",
+      "[Collins et al. (2025)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-collins)",
+      "[Sonia et al. (2015)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-sonia)",
+      "[Liatis et al. (2010)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-liatis)",
+      "[Reynolds et al. (2016)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-reynolds)",
+      "[Dempsey et al. (2017)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-dempsey)",
+      "[Bailey et al. (2022)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-bailey)",
+      "[Resistance/endurance comparison (2012)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-resistance)",
+      "[Wheat-porridge comparison (2022)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-wheat)"
+    ],
+    "preserved_phenome_source_records": [],
+    "new_finding_records": []
+  },
+  "stage2b": {
+    "clarification": "Both existing SOPs and both lifestyle records are preserved, with their exact statuses. No protocol is promoted to a biochemical input, universal optimal eating window or demonstrated brain intervention.",
+    "all_existing_inputs": [],
+    "existing_practices": [
+      {
+        "atom_id": "PM2-SOP-2",
+        "input": "Less-processed whole-grain food package (two-week trial)",
+        "input_type": "dietary protocol",
+        "biological_role": "In adults with type 2 diabetes, the tested less-processed whole-grain package reduced daily glucose standard deviation and mean amplitude of glycaemic excursions (MAGE) versus a nutrient-matched finely processed package over two weeks.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM2-F5"
+          ],
+          "citation_keys": [
+            "stage2-ref-aberg"
+          ]
+        },
+        "evidence_limitation": "A food package, not an isolated grain or fibre effect; unmasked foods, short duration. Concealed randomisation, blinded CGM, initial masked analysis and intention-to-treat models support appraisal.",
+        "dietary_input": true,
+        "dietary_input_note": "Dietary SOP, not a nutritional capacity requirement.",
+        "optimisation_category": "food_prep",
+        "description_finding_id": "PM2-F5",
+        "reader_description": "31 adults with type 2 diabetes; 28 completed. Two-week crossover: intact oats, brown rice and coarse/kibbled bread versus matched finely processed whole-grain products; at least two-week washout.",
+        "food_strategy_id": "food-strategy-485ec8fa28a2",
+        "food_strategy_scope": "food-preparation"
+      },
+      {
+        "atom_id": "PM2-SOP-3",
+        "input": "Early eating with front-loaded calories (six-day trial)",
+        "input_type": "dietary protocol",
+        "biological_role": "In a small prediabetes crossover, the tested early, front-loaded eating schedule reduced mean amplitude of glycaemic excursions (MAGE) over six days versus later calorie distribution; mean glucose and several other variability/range measures were inconclusive.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM2-F6"
+          ],
+          "citation_keys": [
+            "stage2-ref-bruno",
+            "stage2-ref-jamshed"
+          ]
+        },
+        "evidence_limitation": "Small sample, no washout; timing, eating-window length and calorie distribution cannot be separated.",
+        "dietary_input": true,
+        "dietary_input_note": "Dietary SOP, not a nutritional capacity requirement.",
+        "optimisation_category": "dietary_protocols",
+        "description_finding_id": "PM2-F6",
+        "reader_description": "10 adults with prediabetes and overweight/obesity. Six days of matched weight-maintenance food: 08:00-16:00, 80% of calories before 14:00, versus usual later distribution; randomised crossover without washout.",
+        "food_strategy_id": "food-strategy-e67a5bf54b65",
+        "food_strategy_scope": "dietary-protocol"
+      }
+    ],
+    "existing_lifestyle": [
+      {
+        "atom_id": "PM2-LIFE-2",
+        "input": "Supervised interval walking (two-week trial)",
+        "input_type": "physical activity",
+        "biological_role": "Two weeks of the tested supervised interval-walking programme reduced mean amplitude of glycaemic excursions (MAGE) versus an inactive control period in a small type 2 diabetes crossover trial.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM2-F7"
+          ],
+          "citation_keys": [
+            "stage2-ref-karstoft"
+          ]
+        },
+        "evidence_limitation": "Small unmasked trial, baseline imbalance and missing sensor record; oxidative-stress markers did not improve. No blanket superiority to all continuous exercise.",
+        "dietary_input": false,
+        "dietary_input_note": "Non-dietary exercise relationship.",
+        "optimisation_category": null,
+        "description_finding_id": "PM2-F7",
+        "reader_description": "14 adults with type 2 diabetes; 13 usable CGM records. Randomised crossover: ten supervised 60-minute sessions over two weeks, alternating three-minute slower/faster walking; continuous and inactive comparator periods, multiweek washout."
+      },
+      {
+        "atom_id": "PM2-LIFE-3",
+        "input": "Four brief vigorous activity bouts daily (48-hour trial)",
+        "input_type": "physical activity",
+        "biological_role": "Four brief vigorous bodyweight bouts daily produced small secondary continuous glucose monitoring (CGM) variability improvements over 48 hours in inactive adults with well-controlled type 2 diabetes; the primary mean-glucose contrast was not significant.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM2-F8"
+          ],
+          "citation_keys": [
+            "stage2-ref-babir"
+          ]
+        },
+        "evidence_limitation": "Small secondary effects without multiplicity adjustment; short washout permits carryover. Not evidence for gentle walking or lasting clinical benefit.",
+        "dietary_input": false,
+        "dietary_input_note": "Non-dietary exercise relationship.",
+        "optimisation_category": null,
+        "description_finding_id": "PM2-F8",
+        "reader_description": "31 inactive adults with well-controlled, non-insulin-treated type 2 diabetes. Two 48-hour crossover periods: four one-minute vigorous bodyweight bouts daily versus usual activity; at least one hour between bouts, encouraged after meals."
+      }
+    ],
+    "existing_kcs": [],
+    "new_admissions": [],
+    "new_practices": [],
+    "food_mapping_counts": {
+      "verified": 0,
+      "provisional": 0,
+      "unresolved": 0
+    },
+    "food_research_scope": "Re-examined the current structured food joins and existing composition ledger against the reviewed input roles. No food source, quantity, preparation equivalence, conversion chain or ontology edge invented. Existing provisional discoveries remain available through the standard PM dropdown."
+  },
+  "preservation": {
+    "before_file_sha256": "a4c56413cae9caaf82adef5e752539b2144078506db94ea656a463bd1279eb26",
+    "original_counts": {
+      "dietary_input_traceability": 0,
+      "dietary_input_assessments": 0,
+      "dietary_lever_atoms": 0,
+      "dietary_lever_presentations": 0,
+      "key_constraints": 0,
+      "cofactors": 0,
+      "system_optimisation_practices": 2,
+      "lifestyle_priorities": 2,
+      "scientific_findings": 8,
+      "references": 24,
+      "phenome_relationships": 0,
+      "kc_change_control_flags": 0
+    },
+    "all_existing_structured_records_preserved": true,
+    "all_existing_prose_preserved": "Removing the marked additive disclosure recovers the exact original document bytes.",
+    "phenome_and_scores": "unchanged",
+    "canonical_input_dispositions": "unchanged"
+  },
+  "issues_flagged": [],
+  "proposed_changes_requiring_approval": [],
+  "outcome": "ADDITIVELY ENRICHED WITH LIMITATIONS; no new dietary admission"
+}

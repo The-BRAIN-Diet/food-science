@@ -1,0 +1,163 @@
+{
+  "retrieved": "2026-10-23",
+  "source_url": "https://rest.uniprot.org/uniprotkb/P00390.json",
+  "accession": "P00390",
+  "entry_audit": {
+    "firstPublicDate": "1986-07-21",
+    "lastAnnotationUpdateDate": "2026-09-02",
+    "lastSequenceUpdateDate": "2001-07-11",
+    "entryVersion": 273,
+    "sequenceVersion": 2
+  },
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "17185460"
+            }
+          ],
+          "value": "Catalyzes the reduction of glutathione disulfide (GSSG) to reduced glutathione (GSH). Constitutes the major mechanism to maintain a high GSH:GSSG ratio in the cytosol"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "2 glutathione + NADP(+) = glutathione disulfide + NADPH + H(+)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:11740"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57783"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:57925"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58297"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:58349"
+          }
+        ],
+        "ecNumber": "1.8.1.7",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "17185460"
+          }
+        ]
+      }
+    },
+    {
+      "commentType": "COFACTOR",
+      "cofactors": [
+        {
+          "name": "FAD",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "16910673"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "18638483"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "2585516"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "3656429"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8626496"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9174360"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9546215"
+            }
+          ],
+          "cofactorCrossReference": {
+            "database": "ChEBI",
+            "id": "CHEBI:57692"
+          }
+        }
+      ],
+      "note": {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "16910673"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "18638483"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "2585516"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "3656429"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "8626496"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "9174360"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "9546215"
+              }
+            ],
+            "value": "Binds 1 FAD per subunit."
+          }
+        ]
+      }
+    }
+  ],
+  "evidence_role": "Curated reaction/cofactor context, not an independent primary experiment or dietary admission."
+}

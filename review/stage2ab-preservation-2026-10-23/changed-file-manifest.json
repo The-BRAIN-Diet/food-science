@@ -1,0 +1,35 @@
+{
+  "changed_existing_files": [
+    "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
+    "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx",
+    "docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx",
+    "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx",
+    "docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx",
+    "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx",
+    "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx",
+    "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx",
+    "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx",
+    "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+    "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+    "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+    "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation.mdx",
+    "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
+    "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+    "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
+    "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx",
+    "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx",
+    "system/mechanism-change-control-queue.md",
+    "static/bibtex/BRAIN-diet.bib"
+  ],
+  "new_implementation_and_audit_files": [
+    "scripts/run-stage2ab-preservation.mjs",
+    "scripts/stage2ab-preservation.test.mjs",
+    "system/reviews/stage2ab-preservation-2026-10-23/",
+    "review/stage2ab-preservation-2026-10-23/"
+  ],
+  "updated_existing_test": "scripts/rapid-stage2ab.test.mjs",
+  "protected_other_files_unchanged": true,
+  "original_manuscript_outputs_unchanged": true,
+  "committed": false,
+  "branch": "codex/rapid-stage2ab-manuscript"
+}

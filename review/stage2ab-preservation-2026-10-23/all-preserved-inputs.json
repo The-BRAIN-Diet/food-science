@@ -1,0 +1,1636 @@
+[
+  {
+    "pm_id": "BRS5-FM2-PM5",
+    "atom_id": "PM5-DIT-1",
+    "input": "Resistant starch",
+    "section_presentations": [
+      {
+        "atom_id": "PM5-DIT-1",
+        "label": "Resistant starch",
+        "presentation_section": "3.1.1",
+        "reader_description": "Resistant starch supplies fermentable carbohydrate; community and preparation determine utilisation and products.",
+        "description_finding_id": "PM5-F1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": {
+      "atom_id": "PM5-DIT-1",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "canonical_substance_id": "resistant-starch",
+      "assessment_date": "2026-10-23",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "system/food-target-research.json",
+          "docs/foods/potatoes.md",
+          "docs/foods/bananas.md",
+          "docs/foods/black-beans.md",
+          "docs/foods/chickpeas.md",
+          "docs/foods/apples.md"
+        ],
+        "targeted_searches": [
+          "https://pubmed.ncbi.nlm.nih.gov/37327923/"
+        ],
+        "sufficient_coverage_rationale": "Existing verified resistant-starch composition and the retained provisional apple-pectin composition research were examined independently of fermentation evidence."
+      },
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Supported functional substrate class sustains microbial fermentation capacity; RS2/RS3 experiments and community limitations are retained, without indispensability or uniform response claims.",
+        "sources": [
+          "https://doi.org/10.1038/ismej.2012.4",
+          "https://doi.org/10.1002/mnfr.200600106"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Verified food-composition relationships establish resistant-starch delivery in the specified preparations, independently of Baxter intervention effects.",
+        "sources": [
+          "docs/foods/potatoes.md",
+          "docs/foods/bananas.md",
+          "docs/foods/black-beans.md",
+          "docs/foods/chickpeas.md"
+        ]
+      }
+    },
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM5-DIT-1",
+      "relationship_layer": "dietary-requirement",
+      "relationship_mode": "capacity-requirement",
+      "claim_ceiling": "biological-dependency",
+      "dietary_addressability": "direct",
+      "requirement_classification": "direct"
+    },
+    "record_preserved": true,
+    "source_sha256": "f95d7149dd681e86d75560d8a75da4346d5267d0561cd080811d6f40fe552600",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS5-FM2-PM5",
+    "atom_id": "PM5-DIT-2",
+    "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
+    "section_presentations": [
+      {
+        "atom_id": "PM5-DIT-2",
+        "label": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
+        "presentation_section": "3.1.1",
+        "reader_description": "Historical FOS/GOS mixture-specific Capacity admission requires review; not an approved food-effect claim.",
+        "description_finding_id": "PM5-F1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": {
+      "atom_id": "PM5-DIT-2",
+      "status": "unresolved",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "canonical_substance_id": "fructo-galacto-oligosaccharides",
+      "assessment_date": "2026-10-23",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "system/food-target-research.json",
+          "docs/foods/potatoes.md",
+          "docs/foods/bananas.md",
+          "docs/foods/black-beans.md",
+          "docs/foods/chickpeas.md",
+          "docs/foods/apples.md"
+        ],
+        "targeted_searches": [
+          "https://pubmed.ncbi.nlm.nih.gov/37327923/"
+        ],
+        "sufficient_coverage_rationale": "Existing verified resistant-starch composition and the retained provisional apple-pectin composition research were examined independently of fermentation evidence."
+      },
+      "review_required": true,
+      "review_reason": "Historical mixture-specific Capacity admission requires review: limited anatomical observations and indirect/modelled results do not sufficiently establish the existing substrate-to-SCFA claim; no independent constituent or butyrate admission is made.",
+      "functional_dependency": {
+        "status": "unresolved",
+        "statement": "Historical mixture-specific Capacity admission requires review: limited anatomical observations and indirect/modelled results do not sufficiently establish the existing substrate-to-SCFA claim; no independent constituent or butyrate admission is made.",
+        "sources": [
+          "https://doi.org/10.1016/j.isci.2024.109208"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The experimental mixture was administered; ordinary food equivalence is not established.",
+        "sources": [
+          "https://doi.org/10.1016/j.isci.2024.109208"
+        ]
+      }
+    },
+    "current_mapping_admission": "unresolved",
+    "type_delivery_metadata": {
+      "atom_id": "PM5-DIT-2",
+      "relationship_layer": "dietary-requirement",
+      "relationship_mode": "capacity-requirement",
+      "claim_ceiling": "biological-dependency",
+      "dietary_addressability": "direct",
+      "requirement_classification": "direct"
+    },
+    "record_preserved": true,
+    "source_sha256": "b609b34d2778203fd517ebefc08444aee308bf90d10d450f24141703da174a61",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS5-FM2-PM5",
+    "atom_id": "PM5-DIT-3",
+    "input": "Pectin",
+    "section_presentations": [
+      {
+        "atom_id": "PM5-DIT-3",
+        "label": "Pectin",
+        "presentation_section": "3.1.1",
+        "reader_description": "Pectin provides fermentable carbohydrate for microbial short-chain fatty acid formation.",
+        "description_finding_id": "PM5-F1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": {
+      "atom_id": "PM5-DIT-3",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "canonical_substance_id": "pectin",
+      "assessment_date": "2026-10-23",
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "system/food-target-research.json",
+          "docs/foods/potatoes.md",
+          "docs/foods/bananas.md",
+          "docs/foods/black-beans.md",
+          "docs/foods/chickpeas.md",
+          "docs/foods/apples.md"
+        ],
+        "targeted_searches": [
+          "https://pubmed.ncbi.nlm.nih.gov/37327923/"
+        ],
+        "sufficient_coverage_rationale": "Existing verified resistant-starch composition and the retained provisional apple-pectin composition research were examined independently of fermentation evidence."
+      },
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Pectin supplies fermentable carbohydrate in human-derived microbial cultures; bounded primary support is distinct from secondary synthesis.",
+        "sources": [
+          "https://doi.org/10.1186/s13568-018-0629-9"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Primary apple composition supports qualitative pectic-substrate supply; the structured food edge remains pending.",
+        "sources": [
+          "https://doi.org/10.1016/j.ijbiomac.2023.125410"
+        ]
+      }
+    },
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM5-DIT-3",
+      "relationship_layer": "dietary-requirement",
+      "relationship_mode": "capacity-requirement",
+      "claim_ceiling": "biological-dependency",
+      "dietary_addressability": "direct",
+      "requirement_classification": "direct"
+    },
+    "record_preserved": true,
+    "source_sha256": "d89fb3ffcc933371b8862631a142ee44a009242e24adcf7c2c5c8a0631598e6d",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS5-FM2-PM5",
+    "atom_id": "PM5-DIT-4",
+    "input": "Acetate",
+    "section_presentations": [
+      {
+        "atom_id": "PM5-DIT-4",
+        "label": "Acetate",
+        "presentation_section": "3.1.2",
+        "reader_description": "Acetate participates in the downstream biology of microbial fermentation.",
+        "description_finding_id": "PM5-F2"
+      }
+    ],
+    "dietary_input": false,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM5-DIT-4",
+      "relationship_layer": "biochemical-requirement",
+      "claim_ceiling": "biological-dependency",
+      "dietary_addressability": "not-established"
+    },
+    "record_preserved": true,
+    "source_sha256": "1bc0c8bbb68f8e8943679d9327ca512b390fc0905e2a3d0ab596bf228442958b",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS5-FM2-PM5",
+    "atom_id": "PM5-DIT-5",
+    "input": "Propionate",
+    "section_presentations": [
+      {
+        "atom_id": "PM5-DIT-5",
+        "label": "Propionate",
+        "presentation_section": "3.1.2",
+        "reader_description": "Propionate participates in the downstream biology of microbial fermentation.",
+        "description_finding_id": "PM5-F2"
+      }
+    ],
+    "dietary_input": false,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM5-DIT-5",
+      "relationship_layer": "biochemical-requirement",
+      "claim_ceiling": "biological-dependency",
+      "dietary_addressability": "not-established"
+    },
+    "record_preserved": true,
+    "source_sha256": "1393e879e3227e6126e0dacb5d6aea0c4e3864334aac4fcbb3ccd9002def331a",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS5-FM2-PM5",
+    "atom_id": "PM5-DIT-6",
+    "input": "Butyrate",
+    "section_presentations": [
+      {
+        "atom_id": "PM5-DIT-6",
+        "label": "Butyrate",
+        "presentation_section": "3.1.2",
+        "reader_description": "Butyrate participates in the downstream biology of microbial fermentation.",
+        "description_finding_id": "PM5-F2"
+      }
+    ],
+    "dietary_input": false,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM5-DIT-6",
+      "relationship_layer": "biochemical-requirement",
+      "claim_ceiling": "biological-dependency",
+      "dietary_addressability": "not-established"
+    },
+    "record_preserved": true,
+    "source_sha256": "34cdc6509db1a3033232a0b435c613c26386e50725d4af90dfa723c25878a12d",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS1-FM4-PM9",
+    "atom_id": "PM9-DIT-1",
+    "input": "Glutamate",
+    "section_presentations": [
+      {
+        "atom_id": "PM9-DIT-1",
+        "label": "Glutamate",
+        "short_descriptor": "GABA synthesis substrate",
+        "presentation_section": "3.1.2"
+      }
+    ],
+    "dietary_input": false,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM9-DIT-1",
+      "relationship_layer": "biochemical-requirement",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Glutamate is the in-pathway substrate for GAD-dependent GABA synthesis. This biochemical requirement does not establish dietary glutamate or protein provision as a PM9 Dietary Requirement.",
+      "evidence_limitation": "The evidence establishes glutamate as the GAD substrate, not that dietary glutamate or protein controls neuronal glutamate availability or human brain GABA synthesis."
+    },
+    "record_preserved": true,
+    "source_sha256": "a907844622c9e71e1184f09c30ad9b730a085f8e807b069046e84cacdc2f72d2",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS1-FM4-PM9",
+    "atom_id": "PM9-DIT-2",
+    "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+    "section_presentations": [],
+    "dietary_input": null,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM9-DIT-2",
+      "requirement_classification": "direct",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "not-established",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "PLP is the Direct cofactor requirement for GAD-dependent GABA synthesis. PLP is formed in the body from vitamin B6 vitamers; this classification does not establish dietary PLP provision or intake-responsive human brain GABA synthesis.",
+      "evidence_limitation": "The evidence establishes PLP dependence of GAD, but not dietary PLP provision or an intake-to-synthesis response in humans."
+    },
+    "record_preserved": true,
+    "source_sha256": "9de62397a9ab5c900895503cc0521ae0f830fc3f3e03990a1734b514fb26357f",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS1-FM4-PM9",
+    "atom_id": "PM9-DIT-3",
+    "input": "Vitamin B6",
+    "section_presentations": [
+      {
+        "atom_id": "PM9-DIT-3",
+        "label": "Vitamin B6",
+        "short_descriptor": "Essential vitamin · Cofactor precursor",
+        "presentation_section": "3.1.1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM9-DIT-3",
+      "requirement_classification": "derived",
+      "derived_target": "PLP",
+      "derived_target_atom_id": "PM9-DIT-2",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "precursor-mediated",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "Vitamin B6 is a Derived Dietary Requirement because dietary B6 vitamers are converted to PLP, the Direct cofactor requirement for GAD. This does not establish that increasing B6 intake increases brain GABA synthesis, and PLP is not selective for GABA.",
+      "evidence_limitation": "Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific."
+    },
+    "record_preserved": true,
+    "source_sha256": "dc93bdd6170fa5b140b07f1d7238c8e138a7db361500433ca1b72cfd362b0a98",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM1",
+    "atom_id": "PM1-DIT-1",
+    "input": "5-Methyltetrahydrofolate",
+    "section_presentations": [
+      {
+        "atom_id": "PM1-DIT-1",
+        "label": "5-Methyltetrahydrofolate",
+        "presentation_section": "3.1.1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM1-DIT-1",
+      "requirement_classification": "direct",
+      "relationship_mode": "capacity-requirement",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "direct",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "5-Methyltetrahydrofolate is the direct methyl-donor substrate for methionine synthase. This does not establish that increasing intake increases tissue remethylation flux.",
+      "evidence_limitation": "Necessity of 5-methyltetrahydrofolate does not show that raising its intake increases tissue methionine-synthase flux."
+    },
+    "record_preserved": true,
+    "source_sha256": "b8016b823ae32ffdb0ad52b723648343c17d939442623d36dc077f4351ef92cd",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM1",
+    "atom_id": "PM1-DIT-2",
+    "input": "Vitamin B9 (folate)",
+    "section_presentations": [
+      {
+        "atom_id": "PM1-DIT-2",
+        "label": "Vitamin B9 (folate)",
+        "presentation_section": "3.1.1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM1-DIT-2",
+      "requirement_classification": "derived",
+      "derived_target": "5-Methyltetrahydrofolate",
+      "derived_target_atom_id": "PM1-DIT-1",
+      "relationship_mode": "capacity-requirement",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "precursor-mediated",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "Folate provides 5-methyltetrahydrofolate after reduction and folate-cycle conversion. This provision relationship does not establish that more folate increases tissue methionine-synthase flux.",
+      "evidence_limitation": "This conversion pathway does not show that increasing folate intake increases tissue remethylation flux. Folic acid lowers blood homocysteine, which is a circulating marker."
+    },
+    "record_preserved": true,
+    "source_sha256": "e4cda6a7b222369e1115673d6250416347287c8ecf1ca80aa3dcd007687b247b",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM1",
+    "atom_id": "PM1-DIT-3",
+    "input": "Methylcobalamin",
+    "section_presentations": [
+      {
+        "atom_id": "PM1-DIT-3",
+        "label": "Methylcobalamin",
+        "presentation_section": "3.1.1"
+      }
+    ],
+    "dietary_input": null,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "unresolved",
+    "type_delivery_metadata": {
+      "atom_id": "PM1-DIT-3",
+      "requirement_classification": "direct",
+      "relationship_mode": "capacity-requirement",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "not-established",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Methylcobalamin is the cobalamin cofactor of methionine synthase. Diet supplies cobalamin forms that are processed to this cofactor; methylcobalamin itself is not an independent intake target.",
+      "evidence_limitation": "Cofactor necessity does not show that extra vitamin B12 increases tissue methionine-synthase flux when stores are already adequate."
+    },
+    "record_preserved": true,
+    "source_sha256": "bea1604af54d13601a1ae2da2bc1d819b0a86e5061ec8cef95db95d718f9426a",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM1",
+    "atom_id": "PM1-DIT-4",
+    "input": "Vitamin B12 (cobalamin)",
+    "section_presentations": [
+      {
+        "atom_id": "PM1-DIT-4",
+        "label": "Vitamin B12 (cobalamin)",
+        "presentation_section": "3.1.1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM1-DIT-4",
+      "requirement_classification": "derived",
+      "derived_target": "Methylcobalamin",
+      "derived_target_atom_id": "PM1-DIT-3",
+      "relationship_mode": "capacity-requirement",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "precursor-mediated",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "Vitamin B12 provides the cobalamin that cells process to methylcobalamin. This does not establish that increasing vitamin B12 intake increases tissue remethylation flux.",
+      "evidence_limitation": "Provision of vitamin B12 does not show that increasing intake raises tissue remethylation flux. Added vitamin B12 further lowered blood homocysteine beyond folic acid in pooled trials, which remains a circulating marker."
+    },
+    "record_preserved": true,
+    "source_sha256": "a1529c33852ba0a0990dcd98f47993ec7c361c131506e7ba52d19e36795c71b4",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM1",
+    "atom_id": "PM1-DIT-5",
+    "input": "Homocysteine",
+    "section_presentations": [
+      {
+        "atom_id": "PM1-DIT-5",
+        "label": "Homocysteine",
+        "presentation_section": "3.1.2"
+      }
+    ],
+    "dietary_input": false,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM1-DIT-5",
+      "relationship_layer": "biochemical-requirement",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Homocysteine is the substrate methionine synthase remethylates. It is generated in the methionine cycle and is not a dietary requirement of this reaction.",
+      "evidence_limitation": "Homocysteine is produced inside the methionine cycle. It is not a dietary requirement of this reaction, and methionine, the product, is not a dietary input for it."
+    },
+    "record_preserved": true,
+    "source_sha256": "f6b506e89b93591d6db06b4357ccb5a07be82313e16291512fde06abd95535b0",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS3-FM2-PM5",
+    "atom_id": "PM5-DIT-1",
+    "input": "Vitamin E",
+    "section_presentations": [
+      {
+        "atom_id": "PM5-DIT-1",
+        "label": "Vitamin E",
+        "presentation_section": "3.1.1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM5-DIT-1",
+      "requirement_classification": "direct",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "not-established",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Vitamin E is a Direct nutrient requirement for breaking peroxyl-radical chains in membranes. This is not an intake that was shown to lower peroxidation, and it is not a high-dose rule.",
+      "evidence_limitation": "Vitamin E breaks peroxyl-radical chains in membranes. That chemistry does not show that extra vitamin E lowers peroxidation in people. A prevention trial found more prostate cancers with 400 IU a day."
+    },
+    "record_preserved": true,
+    "source_sha256": "334bcc114ac30009855a4405a8b123e80d8bd829c3e95fa91947d2aa99dd292f",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM1",
+    "atom_id": "PM1-DIT-1",
+    "input": "Iron",
+    "section_presentations": [
+      {
+        "atom_id": "PM1-DIT-1",
+        "label": "Iron",
+        "presentation_section": "3.1.1",
+        "reader_description": "Iron–sulfur clusters and haem irons carry electrons inside the respiratory complexes.",
+        "description_finding_id": "PM1-F1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM1-DIT-1",
+      "requirement_classification": "direct",
+      "relationship_mode": "capacity-requirement",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "direct",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Iron centres transfer electrons in the respiratory chain. Eating more iron once iron status is adequate is not shown to raise electron transport.",
+      "evidence_limitation": "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
+    },
+    "record_preserved": true,
+    "source_sha256": "58acb432fb22a9d6dd1e4a3952ce3639d535eb0cb97dfe0fe91e0f886b9ba844",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM1",
+    "atom_id": "PM1-DIT-2",
+    "input": "Flavin mononucleotide (FMN)",
+    "section_presentations": [
+      {
+        "atom_id": "PM1-DIT-2",
+        "label": "Flavin mononucleotide (FMN)",
+        "presentation_section": "3.1.1",
+        "reader_description": "Flavin mononucleotide (FMN) is the flavin in complex I that takes electrons from NADH.",
+        "description_finding_id": "PM1-F1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM1-DIT-2",
+      "requirement_classification": "direct",
+      "relationship_mode": "capacity-requirement",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "direct",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Flavin mononucleotide (FMN) accepts electrons from NADH in complex I. This does not show that raising flavin mononucleotide (FMN) supply increases electron transport.",
+      "evidence_limitation": "The review identifies the cofactor. It does not show that flavin mononucleotide (FMN) supply limits complex I in ordinary life, or that raising intake increases electron transport."
+    },
+    "record_preserved": true,
+    "source_sha256": "d314fee8dd49af24af8d7f9fd635b723de2371e10d671050b27791516df6d5c4",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM1",
+    "atom_id": "PM1-DIT-3",
+    "input": "Vitamin B2 (riboflavin)",
+    "section_presentations": [
+      {
+        "atom_id": "PM1-DIT-3",
+        "label": "Vitamin B2 (riboflavin)",
+        "presentation_section": "3.1.1",
+        "reader_description": "Riboflavin is the vitamin the body uses to make flavin mononucleotide (FMN) for complex I.",
+        "description_finding_id": "PM1-F1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM1-DIT-3",
+      "requirement_classification": "derived",
+      "derived_target": "Flavin mononucleotide (FMN)",
+      "derived_target_atom_id": "PM1-DIT-2",
+      "relationship_mode": "capacity-requirement",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "precursor-mediated",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Riboflavin is a precursor of the flavin mononucleotide (FMN) used by complex I. Eating more riboflavin once flavin mononucleotide (FMN) is adequate is not shown to raise electron transport.",
+      "evidence_limitation": "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context."
+    },
+    "record_preserved": true,
+    "source_sha256": "e1ace75b152ab3d11a805e27bda215b781a946d4d01d6debebde0d306c08d1c1",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM1",
+    "atom_id": "PM1-DIT-4",
+    "input": "Ubiquinone",
+    "section_presentations": [
+      {
+        "atom_id": "PM1-DIT-4",
+        "label": "Ubiquinone",
+        "presentation_section": "3.1.2",
+        "reader_description": "Ubiquinone, also called coenzyme Q, shuttles electrons to complex III.",
+        "description_finding_id": "PM1-F1"
+      }
+    ],
+    "dietary_input": false,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM1-DIT-4",
+      "relationship_layer": "biochemical-requirement",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Ubiquinone carries electrons between the early complexes and complex III. It is not shown here as a dietary lever.",
+      "evidence_limitation": "Cells synthesise ubiquinone. These reviews do not show that dietary coenzyme Q10 raises electron transport."
+    },
+    "record_preserved": true,
+    "source_sha256": "0bc676c3713379bc28d7ec7ea8adc62ec282c1b952304ee50980f0371ab036e7",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM1",
+    "atom_id": "PM1-DIT-5",
+    "input": "Copper",
+    "section_presentations": [
+      {
+        "atom_id": "PM1-DIT-5",
+        "label": "Copper",
+        "presentation_section": "3.1.2",
+        "reader_description": "Complex IV uses two copper centres as it passes electrons to oxygen.",
+        "description_finding_id": "PM1-F1"
+      }
+    ],
+    "dietary_input": false,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM1-DIT-5",
+      "relationship_layer": "biochemical-requirement",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Copper centres in complex IV pass electrons toward oxygen. Dietary copper is not shown to change that step.",
+      "evidence_limitation": "This identifies copper centres in complex IV. It does not show that dietary copper intake changes electron transport."
+    },
+    "record_preserved": true,
+    "source_sha256": "6f9e9d954743861f51c11ed61a5df2d21bb378049b04c6b45861ebd826c4fbb2",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS1-FM3-PM7",
+    "atom_id": "PM7-DIT-1",
+    "input": "DHA",
+    "section_presentations": [
+      {
+        "atom_id": "PM7-DIT-1",
+        "label": "DHA",
+        "presentation_section": "3.1.1",
+        "reader_description": "DHA is the omega-3 fat built into neuronal membranes. Phospholipid-bound DHA changes how the fat is carried for barrier transport; it is not a second independent treatment lever.",
+        "description_finding_id": "PM7-F1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM7-DIT-1",
+      "requirement_classification": "direct",
+      "relationship_mode": "capacity-requirement",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "direct",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "DHA is a Direct dietary provision of the fatty acid being incorporated into neuronal membranes. Phospholipid-bound DHA is a delivery form, not a second independent clinical lever. This is not an ADHD treatment rule.",
+      "evidence_limitation": "Diet can provide DHA for membrane incorporation. That does not establish an ADHD treatment effect or a human dosing rule from the porcine phospholipid comparison."
+    },
+    "record_preserved": true,
+    "source_sha256": "cc170ed264049cfae9efd272539103c94eacdd27aeeb2618c0ada2d412440542",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS1-FM3-PM7",
+    "atom_id": "PM7-DIT-2",
+    "input": "Choline",
+    "section_presentations": [],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM7-DIT-2",
+      "relationship_layer": "kc-relevance",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "Choline participates in phosphatidylcholine chemistry that can carry DHA. That is not a Direct choline requirement for membrane incorporation.",
+      "evidence_limitation": "Patrick and Liu show phospholipid-DHA carrier form, not that dietary choline intake limits DHA incorporation into human neuronal membranes.",
+      "dietary_addressability": "indirect/resource"
+    },
+    "record_preserved": true,
+    "source_sha256": "f15e035640e346ce154b755e28244ff95f50e120de2f19a235dba276cffaad92",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS1-FM3-PM7",
+    "atom_id": "PM7-KC1-FOLATE-SUPPLY",
+    "input": "Vitamin B9 (folate)",
+    "section_presentations": [],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM7-KC1-FOLATE-SUPPLY",
+      "relationship_layer": "kc-relevance",
+      "dietary_addressability": "indirect/resource",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "Folate-derived one-carbon units support [BRS2 PM1 — remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), replenishing methionine for SAM-dependent [BRS2 PM7 — PEMT formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation), upstream of DHA-bearing LPC carrier delivery.",
+      "evidence_limitation": "Supported biochemical supply chain, not a demonstrated increase in net adult brain DHA incorporation. Folate/choline compensation, hepatic BHMT, SAM turnover and carrier remodelling vary by context. Mouse folate effects were sex/tissue dependent; betaine rescue used ethanol-exposed rats. The downstream human tracer study administered choline, not folate or betaine. A donor-specific limiting effect and extra-intake benefit remain unresolved."
+    },
+    "record_preserved": true,
+    "source_sha256": "357c59ee3a7389c3a8ad82ed96fea5ba5352574e50604f9ef3bf9bb89d4a6884",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS1-FM3-PM7",
+    "atom_id": "PM7-KC1-BETAINE-SUPPLY",
+    "input": "Betaine",
+    "section_presentations": [],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM7-KC1-BETAINE-SUPPLY",
+      "relationship_layer": "kc-relevance",
+      "dietary_addressability": "indirect/resource",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "Betaine donates a methyl group through hepatic [BRS2 PM2 — BHMT remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation), replenishing methionine/SAM used by [BRS2 PM7 — PEMT formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation) upstream of DHA-bearing LPC carrier delivery.",
+      "evidence_limitation": "Supported biochemical supply chain, not a demonstrated increase in net adult brain DHA incorporation. Folate/choline compensation, hepatic BHMT, SAM turnover and carrier remodelling vary by context. Mouse folate effects were sex/tissue dependent; betaine rescue used ethanol-exposed rats. The downstream human tracer study administered choline, not folate or betaine. A donor-specific limiting effect and extra-intake benefit remain unresolved."
+    },
+    "record_preserved": true,
+    "source_sha256": "e744e3876b87b56a8b8fa06c83f15f3e3880ee06c8a9aec38bc67874bdc7f6f3",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS1-FM2-PM6",
+    "atom_id": "PM6-DIT-1",
+    "input": "Choline",
+    "section_presentations": [
+      {
+        "atom_id": "PM6-DIT-1",
+        "label": "Choline",
+        "presentation_section": "3.1.1",
+        "reader_description": "Choline is the starting material transported into cholinergic nerve endings and joined to acetyl-CoA to make acetylcholine.",
+        "description_finding_id": "PM6-F2"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM6-DIT-1",
+      "requirement_classification": "direct",
+      "relationship_mode": "capacity-requirement",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "direct",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "Choline is the Direct substrate for choline-acetyltransferase formation of acetylcholine. Diet supplies choline, but this is not an acetylcholine-dosing or attention-treatment rule.",
+      "evidence_limitation": "Choline is required and diet supplies it, but additional intake has not been shown here to raise acetylcholine synthesis in the human brain or improve attention."
+    },
+    "record_preserved": true,
+    "source_sha256": "edb962beb6da9c11708a03cb80d4e740653a753fdf6433fa7a601141a7880906",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS1-FM2-PM6",
+    "atom_id": "PM6-DIT-2",
+    "input": "Phosphatidylcholine",
+    "section_presentations": [
+      {
+        "atom_id": "PM6-DIT-2",
+        "label": "Phosphatidylcholine",
+        "presentation_section": "3.1.1",
+        "reader_description": "Phosphatidylcholine is digested and remodelled as a choline-containing food form. It provides choline rather than acting as a second substrate in the synthesis reaction.",
+        "description_finding_id": "PM6-F4"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM6-DIT-2",
+      "requirement_classification": "derived",
+      "relationship_mode": "capacity-requirement",
+      "derived_target": "Choline",
+      "derived_target_atom_id": "PM6-DIT-1",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "precursor-mediated",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "Phosphatidylcholine is a Derived Dietary Requirement because digestion and remodelling provide choline. It is a provision route, not a second acetylcholine-synthesis substrate.",
+      "evidence_limitation": "Human tracer evidence establishes phosphatidylcholine as a choline-provision route; it does not show delivery to cholinergic terminals or increased brain acetylcholine synthesis."
+    },
+    "record_preserved": true,
+    "source_sha256": "950529b5b677e1c0dcfe7f7f6eb6994aee3b55472b475dd4aea4cda5a497c427",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS1-FM2-PM6",
+    "atom_id": "PM6-DIT-3",
+    "input": "Acetyl-CoA",
+    "section_presentations": [
+      {
+        "atom_id": "PM6-DIT-3",
+        "label": "Acetyl-CoA",
+        "presentation_section": "3.1.2",
+        "reader_description": "Acetyl-CoA is generated through compartmented neuronal metabolism and donates the acetyl group used by choline acetyltransferase.",
+        "description_finding_id": "PM6-F2"
+      }
+    ],
+    "dietary_input": false,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM6-DIT-3",
+      "relationship_layer": "biochemical-requirement",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Acetyl-CoA is the second biochemical substrate used by choline acetyltransferase. It is generated inside cells and is not a dietary acetyl-CoA target.",
+      "evidence_limitation": "Acetyl-CoA is a cellular reaction substrate, not a dietary acetyl-CoA recommendation; ordinary dietary control of its availability in human cholinergic neurons is not established."
+    },
+    "record_preserved": true,
+    "source_sha256": "1c44927376864cc3fca4a41aaad269fa43f48fce18cd8952a780652a9f089c17",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS1-FM2-PM6",
+    "atom_id": "PM6-DIT-4",
+    "input": "Vitamin B5 (pantothenate)",
+    "section_presentations": [
+      {
+        "atom_id": "PM6-DIT-4",
+        "label": "Vitamin B5 (pantothenate)",
+        "presentation_section": "3.1.2",
+        "reader_description": "Pantothenate is used to make coenzyme A, which cells use to form acetyl-CoA—the second substrate in acetylcholine synthesis.",
+        "description_finding_id": "PM6-F5"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM6-DIT-4",
+      "relationship_layer": "biochemical-requirement",
+      "dietary_addressability": "direct",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "Vitamin B5 supplies pantothenate for coenzyme A and acetyl-CoA formation. It is a biochemical precursor relationship, not a direct ChAT cofactor.",
+      "evidence_limitation": "Chronic ethanol-associated pantothenate depletion and rescue affected acetylcholine synthesis in rats; this does not establish that extra B5 raises brain acetylcholine in adequately nourished humans."
+    },
+    "record_preserved": true,
+    "source_sha256": "cb82832963e0831f165ba50cd784e6003c44a8a4dd7778531b09e3c7d6871de6",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS1-FM2-PM6",
+    "atom_id": "PM6-DIT-5",
+    "input": "Vitamin B9 (folate)",
+    "section_presentations": [],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM6-DIT-5",
+      "relationship_layer": "kc-relevance",
+      "claim_ceiling": "dietary-provision"
+    },
+    "record_preserved": true,
+    "source_sha256": "edb446c7779b57713c1bf88ef95afa9ffede02b704413de1d96fb62c9b3173e5",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM2",
+    "atom_id": "PM2-DIT-1",
+    "input": "Betaine",
+    "section_presentations": [
+      {
+        "atom_id": "PM2-DIT-1",
+        "label": "Betaine",
+        "presentation_section": "3.1.1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM2-DIT-1",
+      "requirement_classification": "direct",
+      "relationship_mode": "capacity-requirement",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "direct",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Betaine is the direct methyl-donor substrate for BHMT. This does not establish that increasing betaine intake increases tissue BHMT flux or improves attention or cognition.",
+      "evidence_limitation": "Supplemental betaine lowers plasma homocysteine in healthy adults, but that change does not measure tissue BHMT activity or show a clinical benefit."
+    },
+    "record_preserved": true,
+    "source_sha256": "85b75813c6e7b2c348f8d3e578e265e1cda063cd7ad624426d273f46ebe381d1",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM2",
+    "atom_id": "PM2-DIT-2",
+    "input": "Choline",
+    "section_presentations": [
+      {
+        "atom_id": "PM2-DIT-2",
+        "label": "Choline",
+        "presentation_section": "3.1.1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM2-DIT-2",
+      "requirement_classification": "derived",
+      "derived_target": "Betaine",
+      "derived_target_atom_id": "PM2-DIT-1",
+      "relationship_mode": "capacity-requirement",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "precursor-mediated",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "Choline can be oxidised to betaine, which is the direct substrate. This provision route does not establish that increasing choline intake increases tissue BHMT flux.",
+      "evidence_limitation": "Choline oxidation can supply betaine, but increasing choline intake has not been shown to increase tissue BHMT flux."
+    },
+    "record_preserved": true,
+    "source_sha256": "2345947734adeeb45f832ba7b3f4d747adbf140911ebc059dac08c83765bccb6",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM2",
+    "atom_id": "PM2-DIT-3",
+    "input": "Homocysteine",
+    "section_presentations": [
+      {
+        "atom_id": "PM2-DIT-3",
+        "label": "Homocysteine",
+        "presentation_section": "3.1.2"
+      }
+    ],
+    "dietary_input": false,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM2-DIT-3",
+      "relationship_layer": "biochemical-requirement",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Homocysteine is the methyl acceptor in the BHMT reaction. It is not a dietary requirement for this PM.",
+      "evidence_limitation": "Homocysteine is produced in the methionine cycle and is not a dietary input for this reaction."
+    },
+    "record_preserved": true,
+    "source_sha256": "69acec35ecfb2a193c0ebf5134e5e2352d1302909f75200f480bae45f640beae",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM2",
+    "atom_id": "PM2-DIT-4",
+    "input": "Zinc ion (Zn²⁺)",
+    "section_presentations": [
+      {
+        "atom_id": "PM2-DIT-4",
+        "label": "Zinc ion (Zn²⁺)",
+        "presentation_section": "3.1.2"
+      }
+    ],
+    "dietary_input": false,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM2-DIT-4",
+      "relationship_layer": "biochemical-requirement",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "A bound zinc ion participates in BHMT catalysis. This does not establish a dietary zinc requirement or a zinc intake effect on human BHMT activity.",
+      "evidence_limitation": "Bound zinc is required for catalysis in purified human enzyme studies. Dietary zinc intake has not been shown to change BHMT activity in people."
+    },
+    "record_preserved": true,
+    "source_sha256": "c91dd7364a7d27af4674d47230dd796bd20d782af8ff0f8332fecf2bd4f0cdf0",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS3-FM3-PM8",
+    "atom_id": "PM8-DIT-1",
+    "input": "EPA",
+    "section_presentations": [
+      {
+        "atom_id": "PM8-DIT-1",
+        "label": "EPA",
+        "presentation_section": "3.1.1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM8-DIT-1",
+      "requirement_classification": "direct",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "direct",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "EPA is a Direct substrate requirement for SPM synthesis. This is a provision relationship, not a resolvin-dosing or anti-inflammatory treatment rule.",
+      "evidence_limitation": "Five days of 2.4 g a day in healthy adults raised some pro-resolving mediators, not every mediator, and not a disease-resolution outcome."
+    },
+    "record_preserved": true,
+    "source_sha256": "ce65b233517bebe0f0368094e03297ce1d75e259a8eda20e432c0cfecd57d50f",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS3-FM3-PM8",
+    "atom_id": "PM8-DIT-2",
+    "input": "DHA",
+    "section_presentations": [
+      {
+        "atom_id": "PM8-DIT-2",
+        "label": "DHA",
+        "presentation_section": "3.1.1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM8-DIT-2",
+      "requirement_classification": "direct",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "direct",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "DHA is a Direct substrate requirement for SPM synthesis. This is a provision relationship, not a protectin-dosing or anti-inflammatory treatment rule.",
+      "evidence_limitation": "Five days of 2.4 g a day in healthy adults raised some pro-resolving mediators, not every mediator, and not a disease-resolution outcome."
+    },
+    "record_preserved": true,
+    "source_sha256": "b33a0217a0f6160f54095cfe0048a1456a2e81b296a0f1928a7451fead570125",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM3",
+    "atom_id": "PM3-DIT-1",
+    "input": "Creatine",
+    "section_presentations": [
+      {
+        "atom_id": "PM3-DIT-1",
+        "label": "Creatine — candidate pending Dietary Levers review",
+        "presentation_section": "3.1.1"
+      },
+      {
+        "atom_id": "PM3-DIT-1",
+        "label": "Creatine",
+        "presentation_section": "3.1.2"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM3-DIT-1",
+      "requirement_classification": "direct",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "direct",
+      "claim_ceiling": "modulation-demonstrated",
+      "permitted_wording": "Candidate for Dietary Levers review: exogenous creatine can contribute directly to the cerebral creatine pool in some contexts, but the response is modest and variable.",
+      "evidence_limitation": "The brain also synthesises creatine, and exogenous exposure produces smaller and less consistent cerebral responses than skeletal-muscle responses."
+    },
+    "record_preserved": true,
+    "source_sha256": "4ea4a67aa00ad5f4976de0469720965264dee14667495c2cde3675eaf4ee5f49",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM3",
+    "atom_id": "PM3-DIT-2",
+    "input": "Arginine",
+    "section_presentations": [
+      {
+        "atom_id": "PM3-DIT-2",
+        "label": "Arginine",
+        "presentation_section": "3.1.2"
+      }
+    ],
+    "dietary_input": false,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM3-DIT-2",
+      "relationship_layer": "biochemical-requirement",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Arginine is a precursor substrate for endogenous creatine synthesis; this is not evidence for additional arginine intake.",
+      "evidence_limitation": "The synthesis requirement does not establish that ordinary arginine intake limits cerebral creatine or phosphocreatine buffering."
+    },
+    "record_preserved": true,
+    "source_sha256": "a3720234c31fa2cb2abb2a8b6c945c7e28ef0ec24dc34add7d428f0c4cb9539c",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM3",
+    "atom_id": "PM3-DIT-3",
+    "input": "Glycine",
+    "section_presentations": [
+      {
+        "atom_id": "PM3-DIT-3",
+        "label": "Glycine",
+        "presentation_section": "3.1.2"
+      }
+    ],
+    "dietary_input": false,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM3-DIT-3",
+      "relationship_layer": "biochemical-requirement",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Glycine is a precursor substrate for endogenous creatine synthesis; this is not evidence for additional glycine intake.",
+      "evidence_limitation": "The synthesis requirement does not establish that ordinary glycine intake limits cerebral creatine or phosphocreatine buffering."
+    },
+    "record_preserved": true,
+    "source_sha256": "5b226dd169d81697b0148513522d208c80d04cf02efb8f8e24e578aeb452e341",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM3",
+    "atom_id": "PM3-DIT-4",
+    "input": "Methionine-derived S-adenosylmethionine (SAM)",
+    "section_presentations": [
+      {
+        "atom_id": "PM3-DIT-4",
+        "label": "Methionine-derived S-adenosylmethionine (SAM)",
+        "presentation_section": "3.1.2"
+      }
+    ],
+    "dietary_input": false,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM3-DIT-4",
+      "relationship_layer": "biochemical-requirement",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Methionine-derived SAM supplies the methyl group used in creatine synthesis; this is not evidence for additional methionine intake.",
+      "evidence_limitation": "The methyl-donor requirement does not establish that ordinary methionine intake controls cerebral creatine synthesis."
+    },
+    "record_preserved": true,
+    "source_sha256": "b950d2589fd3fe6fd4e78d9e3ec8d84639e5c9ec9b9916ddfca15fa4bafb32f9",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM2",
+    "atom_id": "PM2-DIT-1",
+    "input": "Nicotinamide (a form of vitamin B3)",
+    "section_presentations": [
+      {
+        "atom_id": "PM2-DIT-1",
+        "label": "Nicotinamide (a form of vitamin B3)",
+        "short_descriptor": "Vitamin B3 form",
+        "presentation_section": "3.1.1",
+        "reader_description": "Nicotinamide is the form cells recycle when they rebuild NAD⁺.",
+        "description_finding_id": "PM2-F1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM2-DIT-1",
+      "requirement_classification": "direct",
+      "relationship_mode": "capacity-requirement",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "direct",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Nicotinamide is recycled toward NAD⁺. Eating more once intake is adequate is not shown to raise the pool.",
+      "evidence_limitation": "The review identifies the salvage substrate. It does not show that eating more nicotinamide, once intake is adequate, raises NAD⁺. The myopathy niacin study used nicotinic acid at pharmacological doses."
+    },
+    "record_preserved": true,
+    "source_sha256": "71803afcb87d5eaa114e78fe571b39e0d519d7eb19f33ffbbaa576d41cb35af8",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM2",
+    "atom_id": "PM2-DIT-2",
+    "input": "Nicotinic acid (a form of vitamin B3)",
+    "section_presentations": [
+      {
+        "atom_id": "PM2-DIT-2",
+        "label": "Nicotinic acid (a form of vitamin B3)",
+        "short_descriptor": "Vitamin B3 form",
+        "presentation_section": "3.1.1",
+        "reader_description": "Nicotinic acid is a vitamin form that enters a separate route to NAD⁺.",
+        "description_finding_id": "PM2-F1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM2-DIT-2",
+      "requirement_classification": "direct",
+      "relationship_mode": "capacity-requirement",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "direct",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Nicotinic acid enters the route that makes NAD⁺. The high-dose myopathy result is not evidence for ordinary meals.",
+      "evidence_limitation": "In five adults with mitochondrial myopathy, niacin at 750–1,000 mg/day raised blood NAD⁺ and brought muscle NAD⁺ to the control level. That is medical dosing in a deficiency disease, not a result for adequate everyday intake, and attention was not measured."
+    },
+    "record_preserved": true,
+    "source_sha256": "977bdc0bcc508c7fb50f4fdf57ea0bdbf8f951a19efa89f73821060a15bd0c21",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM2",
+    "atom_id": "PM2-DIT-3",
+    "input": "Tryptophan",
+    "section_presentations": [
+      {
+        "atom_id": "PM2-DIT-3",
+        "label": "Tryptophan",
+        "short_descriptor": "Essential amino acid",
+        "presentation_section": "3.1.1",
+        "reader_description": "The liver can turn tryptophan into nicotinamide, which other cells then recycle into NAD⁺.",
+        "description_finding_id": "PM2-F1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM2-DIT-3",
+      "requirement_classification": "derived",
+      "derived_target": "Nicotinamide (a form of vitamin B3)",
+      "derived_target_atom_id": "PM2-DIT-1",
+      "relationship_mode": "capacity-requirement",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "precursor-mediated",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Tryptophan can supply nicotinamide for NAD⁺ salvage. Eating more protein is not shown to raise NAD⁺.",
+      "evidence_limitation": "Most cells outside the liver do not run the full route. The review does not establish what share of the NAD⁺ pool comes from tryptophan, and eating more protein is not shown to raise NAD⁺."
+    },
+    "record_preserved": true,
+    "source_sha256": "be5ac4a0ac3dae575b15d76e1344993f6c8c2e5a5c821de8a708b298db56ec5d",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS3-FM2-PM3",
+    "atom_id": "PM3-DIT-1",
+    "input": "Sulforaphane",
+    "section_presentations": [
+      {
+        "atom_id": "PM3-DIT-1",
+        "label": "Sulforaphane",
+        "presentation_section": "3.1.1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM3-DIT-1",
+      "requirement_classification": "direct",
+      "relationship_mode": "state-regulation",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "direct",
+      "claim_ceiling": "modulation-demonstrated",
+      "permitted_wording": "Sulforaphane is a Direct Regulatory Modulator of KEAP1–Nrf2. Food-derived exposure increased Nrf2-associated gene expression in human nasal cells under the tested preparation; brain engagement and ADHD benefit are not established.",
+      "evidence_limitation": "Preparation-, tissue- and population-specific target engagement; no ordinary-serving efficacy, essentiality or brain/ADHD benefit claim."
+    },
+    "record_preserved": true,
+    "source_sha256": "d3a1c8d0eb31367068a175e5f0e637b96d731620d0ae8e5e969936fa4c11275e",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS3-FM2-PM4",
+    "atom_id": "PM4-DIT-1",
+    "input": "Selenium",
+    "section_presentations": [
+      {
+        "atom_id": "PM4-DIT-1",
+        "label": "Selenium",
+        "presentation_section": "3.1.1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM4-DIT-1",
+      "requirement_classification": "direct",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "not-established",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Selenium is a Direct requirement for glutathione peroxidase. Extra selenium does not raise that enzyme once activity has levelled off.",
+      "evidence_limitation": "In selenium-deficient adults, plasma glutathione peroxidase activity levelled off once intake reached about 35 micrograms a day. Intake above that plateau did not raise the enzyme further, and the study did not measure net oxidative pressure."
+    },
+    "record_preserved": true,
+    "source_sha256": "fb6248ea812e2659f6cc4d560e16dfb42a5827073ee0b78ba72528fc61129e44",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS3-FM2-PM4",
+    "atom_id": "PM4-DIT-2",
+    "input": "Zinc",
+    "section_presentations": [
+      {
+        "atom_id": "PM4-DIT-2",
+        "label": "Zinc",
+        "presentation_section": "3.1.2"
+      }
+    ],
+    "dietary_input": false,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM4-DIT-2",
+      "relationship_layer": "biochemical-requirement",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Zinc is part of copper-zinc superoxide dismutase. It is not a dietary zinc route for this balance.",
+      "evidence_limitation": "The enzyme contains zinc. No human study retrieved here shows that zinc intake sets superoxide dismutase activity or this balance."
+    },
+    "record_preserved": true,
+    "source_sha256": "daad19b16453c96f958a81a9a425ef63a9daebbfa7b45368eef70da8b1078bf1",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS3-FM2-PM4",
+    "atom_id": "PM4-DIT-3",
+    "input": "Copper",
+    "section_presentations": [
+      {
+        "atom_id": "PM4-DIT-3",
+        "label": "Copper",
+        "presentation_section": "3.1.1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM4-DIT-3",
+      "requirement_classification": "direct",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "not-established",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Copper is a Direct requirement for copper-zinc superoxide dismutase when copper status is low. Extra copper when status is adequate is not shown.",
+      "evidence_limitation": "Erythrocyte superoxide dismutase rose after copper repletion in infants with marginal copper status. That does not show that extra copper raises the enzyme when status is already adequate."
+    },
+    "record_preserved": true,
+    "source_sha256": "406bb485766bbc8d113c8d4034e25f6136ce66ff886cce17d4768cbc1f7598de",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS3-FM2-PM4",
+    "atom_id": "PM4-DIT-4",
+    "input": "Manganese",
+    "section_presentations": [
+      {
+        "atom_id": "PM4-DIT-4",
+        "label": "Manganese",
+        "presentation_section": "3.1.2"
+      }
+    ],
+    "dietary_input": false,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM4-DIT-4",
+      "relationship_layer": "biochemical-requirement",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Manganese is part of mitochondrial superoxide dismutase. It is not a dietary manganese route for this balance.",
+      "evidence_limitation": "Mitochondrial superoxide dismutase contains manganese. No human dietary-deficiency study retrieved here shows that manganese intake sets that enzyme or this balance."
+    },
+    "record_preserved": true,
+    "source_sha256": "a05c2c49811922bac861cd591fa453fc2026600d2ea5f020577e2554089b7b0c",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS3-FM2-PM4",
+    "atom_id": "PM4-DIT-5",
+    "input": "Glutathione",
+    "section_presentations": [
+      {
+        "atom_id": "PM4-DIT-5",
+        "label": "Glutathione",
+        "presentation_section": "3.1.2"
+      }
+    ],
+    "dietary_input": false,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": null,
+    "type_delivery_metadata": {
+      "atom_id": "PM4-DIT-5",
+      "relationship_layer": "biochemical-requirement",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Glutathione is the thiol used in peroxidase clearance. It is not a dietary-glutathione recommendation.",
+      "evidence_limitation": "Glutathione is made in the body and used by the peroxidase. That is not evidence for eating glutathione."
+    },
+    "record_preserved": true,
+    "source_sha256": "cd9367d3632088d3347b695dc0db721b7528b5726a1d643001c45eef77758aee",
+    "rapid_manuscript_selected": false,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS3-FM2-PM6",
+    "atom_id": "PM6-DIT-1",
+    "input": "Vitamin C",
+    "section_presentations": [
+      {
+        "atom_id": "PM6-DIT-1",
+        "label": "Vitamin C",
+        "presentation_section": "3.1.1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM6-DIT-1",
+      "requirement_classification": "direct",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "not-established",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Vitamin C is a Direct nutrient in this recycling step because it can reduce the vitamin E radical. This is not a high-dose vitamin C rule, and it is not the membrane chain-breaking job.",
+      "evidence_limitation": "Pulse radiolysis shows ascorbate reacting with the vitamin E radical. It does not show that more vitamin C speeds recycling in people."
+    },
+    "record_preserved": true,
+    "source_sha256": "f8f5dc41d183bfff9f6eb49fadbd1ea1793b173e4baed631e08b171456429b9c",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS3-FM2-PM6",
+    "atom_id": "PM6-DIT-2",
+    "input": "Vitamin E",
+    "section_presentations": [
+      {
+        "atom_id": "PM6-DIT-2",
+        "label": "Vitamin E",
+        "presentation_section": "3.1.1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM6-DIT-2",
+      "requirement_classification": "direct",
+      "relationship_layer": "dietary-requirement",
+      "dietary_addressability": "not-established",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Vitamin E is a Direct nutrient here as the radical that vitamin C reduces. Its chain-breaking job in membranes is separate. This is not a high-dose vitamin E rule.",
+      "evidence_limitation": "Regeneration of the vitamin E radical is not a high-dose rule. A prevention trial found more prostate cancers with 400 IU of vitamin E a day."
+    },
+    "record_preserved": true,
+    "source_sha256": "abc3eba14aabb6dafc4f0f06dd218f1daa62b28d85a2efbec948bbf03dd0ff74",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS5-FM2-PM6",
+    "atom_id": "PM6-DIT-1",
+    "input": "Ellagic acid",
+    "section_presentations": [
+      {
+        "atom_id": "PM6-DIT-1",
+        "label": "Ellagic acid",
+        "presentation_section": "3.1.1",
+        "reader_description": "Ellagic acid is the starting material for the assessed microbial urolithin pathway.",
+        "description_finding_id": "PM6-F1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM6-DIT-1",
+      "relationship_layer": "dietary-requirement",
+      "relationship_mode": "capacity-requirement",
+      "claim_ceiling": "biological-dependency",
+      "dietary_addressability": "direct",
+      "requirement_classification": "direct"
+    },
+    "record_preserved": true,
+    "source_sha256": "74c34ac641ac18dcc07033b7d27145a93ffc0590cc643385d96f117a5e9431b1",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  },
+  {
+    "pm_id": "BRS5-FM2-PM6",
+    "atom_id": "PM6-DIT-2",
+    "input": "Ellagitannins",
+    "section_presentations": [
+      {
+        "atom_id": "PM6-DIT-2",
+        "label": "Ellagitannins",
+        "presentation_section": "3.1.1",
+        "reader_description": "Ellagitannins can release ellagic acid for microbial conversion.",
+        "description_finding_id": "PM6-F1"
+      }
+    ],
+    "dietary_input": true,
+    "canonical_scientific_assessment": null,
+    "current_mapping_admission": "admitted",
+    "type_delivery_metadata": {
+      "atom_id": "PM6-DIT-2",
+      "relationship_layer": "dietary-requirement",
+      "relationship_mode": "capacity-requirement",
+      "claim_ceiling": "biological-dependency",
+      "dietary_addressability": "precursor-mediated",
+      "requirement_classification": "derived",
+      "derived_target": "Ellagic acid",
+      "derived_target_atom_id": "PM6-DIT-1"
+    },
+    "record_preserved": true,
+    "source_sha256": "bf36c334600a9ef54757bf326b066c0d4fe2d2b25980c1d4b83c9c18a90e0f82",
+    "rapid_manuscript_selected": true,
+    "new_admission": false,
+    "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+  }
+]

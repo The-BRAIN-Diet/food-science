@@ -1,0 +1,882 @@
+{
+  "source_path": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/rapid-stage2ab",
+  "source_head": "110a26bc52663ba6a2e5bdd1a02e4014278b5233",
+  "source_branch": "codex/rapid-stage2ab-manuscript",
+  "purpose": "Backup only. Not a release candidate. No regeneration or scientific approval inferred.",
+  "files": [
+    {
+      "path": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation.mdx",
+      "bytes": 36481,
+      "sha256": "752bea522006eec14d8d3f383db5ed51f3fc138b07050b163e2febe3a2fb9e57"
+    },
+    {
+      "path": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
+      "bytes": 85271,
+      "sha256": "f660e0622fffd20192899dc7b487fd896745b6ba7d3ddc44fb07c5e4f3dd3213"
+    },
+    {
+      "path": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+      "bytes": 107182,
+      "sha256": "83f81276b97a22e5f92b274b9e5fd44fa763e3e9b271eb32da793173172767e7"
+    },
+    {
+      "path": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
+      "bytes": 143255,
+      "sha256": "bbc578fca21b7075b91cdb60b29bbb36b7bdcafc898bddebf710b152c7a93eb4"
+    },
+    {
+      "path": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+      "bytes": 102622,
+      "sha256": "b1094d3dc5e075b938894476fcf45bc99f4c5532cd76f88139c86534f81dd716"
+    },
+    {
+      "path": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+      "bytes": 120722,
+      "sha256": "224aaf04b0a2a94a4f312744be6f9125783442d5210ba4fdb0177390efb21f85"
+    },
+    {
+      "path": "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
+      "bytes": 44920,
+      "sha256": "4adae3e941c25c67b01687aa5ba19f0298d88ac6905a36c51213b9d9ab2c2838"
+    },
+    {
+      "path": "docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx",
+      "bytes": 50004,
+      "sha256": "83c20469509caad2ff205d089dd41c597181d69a2dc6b370e6130f382a578eaf"
+    },
+    {
+      "path": "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx",
+      "bytes": 35247,
+      "sha256": "35e847c00ed315ab08f4aa4161b70d1600173df8aeec5bf5e4f1c8b8e4731545"
+    },
+    {
+      "path": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx",
+      "bytes": 45346,
+      "sha256": "8dba253098f97086a69e7d95747099ce8ef84f25f27a070d6aaf7d3e6182fb85"
+    },
+    {
+      "path": "docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx",
+      "bytes": 40621,
+      "sha256": "687148b6097a156996b05a18b36fa8ea64ca611740ef3d583733639820e71aac"
+    },
+    {
+      "path": "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx",
+      "bytes": 59211,
+      "sha256": "5682309803ae5e5b2e039c6199f9b31acd1b0e2ad77a3fda99d2119018224949"
+    },
+    {
+      "path": "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx",
+      "bytes": 74177,
+      "sha256": "a9229d3bf45206d92945af350e212520379d4160b7b400a13300c824f88dca39"
+    },
+    {
+      "path": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx",
+      "bytes": 60029,
+      "sha256": "a4cf21113daf960eb4de81b78cc6059f8cbdf9cce16160ddeb22fce004a4f353"
+    },
+    {
+      "path": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+      "bytes": 83040,
+      "sha256": "97992ddca9ead79589db13f2e269f1240b266b7bccb637a3d7435bff7c38dba6"
+    },
+    {
+      "path": "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx",
+      "bytes": 38114,
+      "sha256": "1224610aa81a0abe354a4845753d795c8e686448bb78b472e4bc2ffa47cf797b"
+    },
+    {
+      "path": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx",
+      "bytes": 119275,
+      "sha256": "625a3deee2a5f68a6dabef42786cf4d93b5d8e457c95d2859f68638db6e56932"
+    },
+    {
+      "path": "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx",
+      "bytes": 87483,
+      "sha256": "57f3d229003f9855dcf7d9ff29d97cadab4eff6de3f2654a9b60ef087f2fd0b4"
+    },
+    {
+      "path": "docs/substances/nutrients/macronutrients/amino-acids/essential/phenylalanine.md",
+      "bytes": 21088,
+      "sha256": "eb97c45f0e70d7e000df20716a9ad3c671687ce4b3937ca6f765cb82a5e41eaa"
+    },
+    {
+      "path": "review/brs5-pm5-retest-2026-10-23/compiled-pm.html",
+      "bytes": 33796,
+      "sha256": "e2d201596060e9baad6a535f9e29977b26ac9465c70ae08758d52e3c8614a777"
+    },
+    {
+      "path": "review/brs5-pm5-retest-2026-10-23/controlled-render.html",
+      "bytes": 6976,
+      "sha256": "9bed624ebfe0557883c78e6c90337f91a4307f6a11ccb3eb892370a5cae6ffe7"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/actual-client-preview.html",
+      "bytes": 5685,
+      "sha256": "f85b3ef6cd2280456565c13e23c00d9815c1fa163e428ff6dd621006b46fbd05"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/baseline-and-preservation.json",
+      "bytes": 3312,
+      "sha256": "23b42f26a9c780f5e5146361d64764865eec51d8271369b1b56255137232c55f"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/batch-1-rollup.json",
+      "bytes": 780764,
+      "sha256": "3c78b9783c307cc98dea3b9983ceae261f7c40f6411d127757e836c94343dcb6"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/batch-2-rollup.json",
+      "bytes": 851293,
+      "sha256": "02868d2367a302944c6b18eff51e07a95cd2859bcfba72bc92340e252350945d"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/batch-3-rollup.json",
+      "bytes": 9293,
+      "sha256": "f70facef11120b0c668c0d74b164f100f114bff6b28ee1638131e9e12426de45"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/batch-4-rollup.json",
+      "bytes": 393,
+      "sha256": "507e1ab225a6d2bd899070048f2c33c8c14cbb88230efdeafba6f53648f50467"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/batch-results.json",
+      "bytes": 86157,
+      "sha256": "ca80ccbc5740af908a0287e1b4be1e5f00384cc07f1a4a3f2c5e9862f0a49a4b"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/brs1-baseline.json",
+      "bytes": 1860356,
+      "sha256": "d3a8dc67101b6920bc4f1baa454a6bf9c9814762c7b9707217d40c200fa6954f"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/brs2-baseline.json",
+      "bytes": 1333368,
+      "sha256": "8776b9ee68b57324f5081e2754487d9cfb20bdd3a58dc93e17f730fb0c57a882"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/brs3-baseline.json",
+      "bytes": 694739,
+      "sha256": "365aa3d94894c217b148a6543eabfc3c598037342855c15d86f7c9e320e685c4"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/brs4-baseline.json",
+      "bytes": 382999,
+      "sha256": "2b47ed83c6656c6adffdd8d15a2cd7adc13a211521276f01816e9cab6e5b22c9"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/brs5-baseline.json",
+      "bytes": 462605,
+      "sha256": "8b09287e7b5450947accde7bc9fc0aa88ed229e6c19d817e76a329000aca938e"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/brs6-baseline.json",
+      "bytes": 201843,
+      "sha256": "c0fa278edcf0c3c96229090b7d32caf0c9366e9ada8aaac2f612b61cfc5b2325"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/changed-files.md",
+      "bytes": 2344,
+      "sha256": "16148beb3f98fb92a67c07ab9be33d1d37d477599d2dfb9179eafb3190381522"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/client/browser-disclosure.mjs",
+      "bytes": 15594,
+      "sha256": "55e39e327b8d918f750a289e07d26518bdf68a23cb8b5fc6c314264dfb651f41"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/client/dietaryInputGovernance.mjs",
+      "bytes": 6361,
+      "sha256": "06183a49336939ff96a3bbd1504b08e45700073f1596ca88b1030ef7842b9fc3"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/client/foodTargetReconciliation.mjs",
+      "bytes": 6951,
+      "sha256": "0bd000448055eab27b2447a4dc9a826e49a56bd563874ac48ef37f1564ddd180"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/client/foodTargetTraceability.mjs",
+      "bytes": 9853,
+      "sha256": "b90dde0873ca9de9e39256b35a568b3ef86945b240c921f12dc98ea69504a029"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/client/inputMappingScopes.mjs",
+      "bytes": 19,
+      "sha256": "450f0af4f4c1ecc4c7180f2e364c8a59bfed69dd350fb6b47bce8641c2a37786"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/client/inputSubstanceFoodSelection.mjs",
+      "bytes": 6620,
+      "sha256": "9b45547689d70dcd39a1ec14152ba8e72c30d568293be8a7df409cf00acf9e2f"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/client/scopes.json",
+      "bytes": 37057,
+      "sha256": "57479a50f06e0136978e925943a678dd3454e0c137d94c6a928f974baae9d0d2"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/cursor-repair-queue.json",
+      "bytes": 52677,
+      "sha256": "8693441682a0cf032b2d6f1f477b153a859cd9848c53f572e6731ad4934a8034"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/cursor-repair-summary.md",
+      "bytes": 8698,
+      "sha256": "dadfa74b95bc4061bd386ed1fd160230fa885eaeed23779eec38f30bd2d4304f"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/food-target-rollup.json",
+      "bytes": 491223,
+      "sha256": "c4bdac3dc5d082b98c1f4c4ffbd724f8685fa327452a80446731bc1fcff70ccd"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/historical-conversion-gaps.json",
+      "bytes": 6217,
+      "sha256": "fde341646e65452b9d986ae540554d51ebaca9a44c27b4c855a88e8f6fb0f055"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/manuscript-dietary-rollup.csv",
+      "bytes": 695001,
+      "sha256": "14dc1dd456138c6d296efeaaca938afe86e410b38aec18ddeac6998d9146027a"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/manuscript-dietary-rollup.json",
+      "bytes": 1640558,
+      "sha256": "0dc40b08177dfb348b1fdae19fb55efb6f01a888bb4efa5e83ff90e6b9bddbdb"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/manuscript-preview.html",
+      "bytes": 467857,
+      "sha256": "ccbf3a6c4550bb8ee0b693350cb405335eed53fb9a3a4a52dad9fa72beaf54bc"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/manuscript-rollup-brs1.json",
+      "bytes": 275357,
+      "sha256": "e39782022698658a76f8f1feb50380bff2db078355e82bc70b43874281f2b676"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/manuscript-rollup-brs2.json",
+      "bytes": 415528,
+      "sha256": "b040b17a7c17b0863f78729d57b61dc20c8fd7d157ed135d57598fb5c2b265bd"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/manuscript-rollup-brs3.json",
+      "bytes": 557214,
+      "sha256": "bec6c8deccccc5cc51b429d5dab2504fc6ca29aed84076d5281f80e1314837cf"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/manuscript-rollup-brs4.json",
+      "bytes": 333341,
+      "sha256": "933440b8e22e434b6b84564c78571e70ad5fe22a6a7abe03e2fa2b683e6a7c98"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/manuscript-rollup-brs5.json",
+      "bytes": 48315,
+      "sha256": "eec6075aeeaf3e4879c235b1caf479cacb9752c2ffadc12acd75e745caa8ea8d"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/manuscript-rollup-brs6.json",
+      "bytes": 10869,
+      "sha256": "78636a4783e7d567530660b043f937ef81601a6971c38c70eeab97b70e870289"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/manuscript-synthesis.md",
+      "bytes": 4223,
+      "sha256": "fb9f89caa016623fbccbbcd70cdf37d1de263a99fc26a67709bd99a32f613f60"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/optimisation-and-lifestyle.json",
+      "bytes": 17097,
+      "sha256": "555bbaf6b805891b95540de6cbec2e22e5c03dd92a5149ae7af6855bbefe9806"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/pm-inventory.json",
+      "bytes": 42840,
+      "sha256": "614a25833c1bf43f51c3acfd0b47c6c93f8196e81d385f0bcea999f9ea07332b"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/pm-inventory.md",
+      "bytes": 18542,
+      "sha256": "3ab1178cd355ac36ad43f831b32649df5a30987652e1227cf15927f9b6fde646"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/report.md",
+      "bytes": 8030,
+      "sha256": "358865c72b9260fffb472b2b149d7598009851cfe677403d414f962b4e8eb5d9"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/scientific-admission-reconciliation.json",
+      "bytes": 57083,
+      "sha256": "f485c4e9db113c1defcb8e2205e4bfd3574f5ba51d537e1ffee20d5381bee554"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/scientific-issues-and-deferred-work.md",
+      "bytes": 3710,
+      "sha256": "23536b0634a7793ebf1d4bb28eced18825ea577bb0b6d40fcc8e26c0c23d2de5"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/source-inventory.json",
+      "bytes": 217038,
+      "sha256": "8fd296f2c97da720f1812fc807c1701a83da125c5b2460783cd55d5a996ddd45"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/summary.json",
+      "bytes": 408,
+      "sha256": "5a612aa11833046ae52b8ecd13c01491dd662ef25e656bfe2eb36828f6fd212e"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/validation/BRS-X-Circadian-FM1-PM2--compiled.html",
+      "bytes": 24197,
+      "sha256": "4b818eaa664e20a356899696e773dac878f552f3a0b255d6cf69dac09dd9eabf"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/validation/BRS3-FM2-PM3-compiled.html",
+      "bytes": 29024,
+      "sha256": "0cf0324c27fd037813344b6f5a9fd7cb9b2363b92eeddbc01da182ca9d8f1a04"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/validation/BRS4-FM1-PM2-compiled.html",
+      "bytes": 50399,
+      "sha256": "1ac62eb55220e649c6b9545f1d4e0e8c48cbc516badc234e917368c83f6c6994"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/validation/BRS5-FM2-PM6-compiled.html",
+      "bytes": 20014,
+      "sha256": "ea82959f16d15ce832dd37fa7386268b87244c5e0ed4a16bbd3e9e795b4829ac"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/validation/BRS6-FM1-PM2-compiled.html",
+      "bytes": 58323,
+      "sha256": "44bba0fa02b4e4ef7e75afc333c98fc277f4495d6d87ff2fcbab605c91515768"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/validation/browser-display.json",
+      "bytes": 1276,
+      "sha256": "c162882ed0f2c91f7aad6b1d68685c2b99a410bbe8adf9c1cb328326db4ce073"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/validation/results.json",
+      "bytes": 1943,
+      "sha256": "ae75845c7dded9c29c9f43bcf119f53190b9c2da36d6818179387592c7011185"
+    },
+    {
+      "path": "review/rapid-stage2ab-2026-10-23/validation/targeted-compilation.json",
+      "bytes": 374,
+      "sha256": "9431202368add8e15fc1dc3f26bfe1fcdc91e266c76725638c55fb13a568dcf8"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/all-preserved-inputs.json",
+      "bytes": 77525,
+      "sha256": "973c8b4f33a0279e10f04a9ee844bd63bbfa8fede093fce3371ac1592a478f25"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/canonical-food-target-catalogue.json",
+      "bytes": 801122,
+      "sha256": "d56c635be717e895c6133ddb7eb60508ee8ad71052b982f669bbe5a1e3070582"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/changed-file-manifest.json",
+      "bytes": 2238,
+      "sha256": "3939457e890833c54cbe13075b3e2c3693a1da8287b5e954395b13eb08c6c89e"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/per-pm-matrix.md",
+      "bytes": 3694,
+      "sha256": "9b589b55852e0fc2b626ad5a2020a541bd66f991d7df78867291c5a9408adb42"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pm-reviews.json",
+      "bytes": 567631,
+      "sha256": "d7ac6c49dc77271c9b6fedeef60bc873c8badd789b50b6cf00bfa0fb33f2f6b8"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS-X-Circadian-FM1-PM2-.json",
+      "bytes": 14146,
+      "sha256": "89e4ebd03277d130860fd77575bfd63ad160aff240559c2c3f2a0e8eb530afdb"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS-X-Circadian-FM1-PM2-.md",
+      "bytes": 2268,
+      "sha256": "82735723aee7415a5a657bddf2a0d194795145d726237e49bd094f6e87454548"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS1-FM2-PM6.json",
+      "bytes": 37528,
+      "sha256": "6854172bbac6536779cffbedf58d1e47048c19814f60d009b398adc37f327e55"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS1-FM2-PM6.md",
+      "bytes": 3219,
+      "sha256": "81f6f8cf5e93ef91863738c5869e9da1e3195d6aae54ca0b3e15146cc825ab4a"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS1-FM3-PM7.json",
+      "bytes": 37757,
+      "sha256": "39f0e667ac4ad66d065d012dec627bf304bf5b496eb67d21009ebd06d055f033"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS1-FM3-PM7.md",
+      "bytes": 2701,
+      "sha256": "c9cef2ded2ef7cd4319e570ab5a80b768722dd0350edcf766712a3a2f0274ea2"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS1-FM4-PM9.json",
+      "bytes": 57943,
+      "sha256": "f6af21c1705982cc6e4dabf298c193338e5714b2603fcbbdc1c366d48bdbb1de"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS1-FM4-PM9.md",
+      "bytes": 3083,
+      "sha256": "79a99a5a5fc580508a1d1078fc146fc160a58a7db37a15925994a85ca2257213"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS2-FM1-PM1.json",
+      "bytes": 40292,
+      "sha256": "9fc4bc313a39b5831aa584fceb6eacc9984f0c1ae239c95a93a60ec6de79e227"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS2-FM1-PM1.md",
+      "bytes": 2788,
+      "sha256": "541c1b7a44ad1b4c38fa88e2a10744ed0b0f629c6ee4d5f8905a5918bbf05d46"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS2-FM1-PM2.json",
+      "bytes": 41818,
+      "sha256": "5314fe0a87cb32d0cb5db184d08c206a9589c88f23f619e6c0831558acea3fb3"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS2-FM1-PM2.md",
+      "bytes": 2950,
+      "sha256": "b930351fb4d7a41860c2b31c160cab05e6c8dec7ada5f5c3281a17f2cb23ac1e"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM3.json",
+      "bytes": 19055,
+      "sha256": "fe6fee0afb010dc79a83dd1b13fda07731f114f665608b0d8053f079cae21cdc"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM3.md",
+      "bytes": 3145,
+      "sha256": "0ec49f02d7e0ae8ec4792f122abb8baa89e7410efa88a3279bd9179657709b07"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM4.json",
+      "bytes": 21747,
+      "sha256": "7cb7a1bbd71e3958c27bd0d71cb7ec74d4dc46975bacd7ab80672f2d81603716"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM4.md",
+      "bytes": 2756,
+      "sha256": "78562a8483bf9f74cde237df3d4a4941922059617f6f2b1afa0ca4911955ed5a"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM5.json",
+      "bytes": 14284,
+      "sha256": "ec4f98346a61525e8ae5545a07e2800e6aa647fcb92b206dbeee77d8d90967e6"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM5.md",
+      "bytes": 2498,
+      "sha256": "030fb4328ea9962f7013faed3a6fb36999b14e3fd3bd4973ef4967906c30f82f"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM6.json",
+      "bytes": 21625,
+      "sha256": "beefa26e9d476099d62ff22c26d07a34553556ed2084a5d63ca0a60356ba6b8f"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM6.md",
+      "bytes": 2952,
+      "sha256": "4f5253f6273bcf150740be73aaa4936a7e1c53f31de1ede78f143cd15c7d273d"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS3-FM3-PM8.json",
+      "bytes": 18088,
+      "sha256": "525a7417b76d4ab6dabcb388b1ff3b0a79b8ca54a95daee6a2232d07a1cac2c5"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS3-FM3-PM8.md",
+      "bytes": 2334,
+      "sha256": "5fa4a24c92742f206ce1d34a11487f795801340ac81ff4255cf91ecafc66232e"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS4-FM1-PM1.json",
+      "bytes": 27988,
+      "sha256": "324898d05acc247f834383b7cb87ecc59830015a6b26c670b2cb104da5e80728"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS4-FM1-PM1.md",
+      "bytes": 3035,
+      "sha256": "08f03c66c96a0abcecfc4659787e2c805ccb066eebaee6895d62beb75ad90313"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS4-FM1-PM2.json",
+      "bytes": 32323,
+      "sha256": "2743c8201990f0efc7bf0a6af9fd99772d7044bb86445bd946b5a9112d125c94"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS4-FM1-PM2.md",
+      "bytes": 2728,
+      "sha256": "3e2f58136fece196472ba2221bf4ec21e68e7ec039180c8fa7d974789005d509"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS4-FM1-PM3.json",
+      "bytes": 26232,
+      "sha256": "3e225ef66ab0adbf6f243e0cf5f2be841ed621cb3da2da9260340711ece1df27"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS4-FM1-PM3.md",
+      "bytes": 2778,
+      "sha256": "f272eb22816a217aa8c31e189687c86b9b1be168d924b927fc51b032db983ca1"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS5-FM2-PM5.json",
+      "bytes": 37283,
+      "sha256": "5db31f86a2942ae6b406326d92b74003c9d3f94a5819a2dd3ea2a0cd4d5e7d52"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS5-FM2-PM5.md",
+      "bytes": 2608,
+      "sha256": "95575a0563bf3df946e500302467e9889c14419c6ff4bde7e2ae8d75a50060c3"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS5-FM2-PM6.json",
+      "bytes": 15386,
+      "sha256": "4190d6f71a96b8a1cee093c7f786489bc67585bbea0fd80c74eeca07763b9b9e"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS5-FM2-PM6.md",
+      "bytes": 2591,
+      "sha256": "ae152e27c553c2cd3593b5ca9a44beb6a035401a197b5e8f0c27928b92b6ee4e"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS6-FM1-PM1.json",
+      "bytes": 53485,
+      "sha256": "94608f70fabd7aef63b2c4e45888f90031e5c7bfb6c4bf39239abbde69f27ca4"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS6-FM1-PM1.md",
+      "bytes": 2552,
+      "sha256": "42958d0e5d6d62bf8095b6678e0d50f51e084e1168cbcd35367c134f02f5a4ee"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS6-FM1-PM2.json",
+      "bytes": 33744,
+      "sha256": "31556a91df16638bbf9a2b1ee54987cfc216424dae0b4065435adf7669dc2b41"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/pms/BRS6-FM1-PM2.md",
+      "bytes": 3593,
+      "sha256": "5652656571bc90a48d68dd4c64d1f2c6b634638248e5b4c6daaad701223f3d59"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/report.md",
+      "bytes": 7926,
+      "sha256": "f2a21e8a147a1fb8370ae8d202a7a971883ff5034768bd77d6e02adb40684b62"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/review-issues.json",
+      "bytes": 3575,
+      "sha256": "3e03deb5f852c1fb44493c3ebba5d7a79502a769afa5f43b77613d00ef7bbb3d"
+    },
+    {
+      "path": "review/stage2ab-preservation-2026-10-23/summary.json",
+      "bytes": 401,
+      "sha256": "92f6c1db00ad94ee035a16e31f97ad2ad7a3d08a6720cb7d69d46183803a30f4"
+    },
+    {
+      "path": "scripts/food-target-reconciliation.test.mjs",
+      "bytes": 7366,
+      "sha256": "c1379b2502432bf0591e1d4e6b00fc55478341359170d60779b069fecbf4fdc4"
+    },
+    {
+      "path": "scripts/rapid-food-display-check.mjs",
+      "bytes": 3368,
+      "sha256": "6f3cdc4cdba55ea0e37f1d71949296f5eeadb06ce7ffbe2d66ce195f17b84b5f"
+    },
+    {
+      "path": "scripts/rapid-stage2ab.test.mjs",
+      "bytes": 7722,
+      "sha256": "f9065aaf6b726dd2ca0bdbb7398dbd59b3a016bae386f3020c39acb0d2aa5ef7"
+    },
+    {
+      "path": "scripts/run-rapid-stage2ab.mjs",
+      "bytes": 16825,
+      "sha256": "b371bf94be236598e0cd99d743dc5631b16a89385002aa33d2f2805b933ab4bf"
+    },
+    {
+      "path": "scripts/run-stage2ab-preservation.mjs",
+      "bytes": 13315,
+      "sha256": "b9f34c6d8c2559f4158e9891d8105472bda79689e6ef5c1116866bcb69952a0d"
+    },
+    {
+      "path": "scripts/stage2ab-preservation.test.mjs",
+      "bytes": 4220,
+      "sha256": "1aeb3a176158a09e57e9561abf8b7cf7600f62addf2b85d70f42a65283dec354"
+    },
+    {
+      "path": "src/data/brs1InputMapping.generated.json",
+      "bytes": 3763303,
+      "sha256": "748f4ac2923ca3f4fb0aae7e2ea853872fc437c1774b2202d5654cf7fca4cb1e"
+    },
+    {
+      "path": "src/data/brs2InputMapping.generated.json",
+      "bytes": 3357307,
+      "sha256": "677036af833dcb9a68869d9a51b7422fab5d804e1c0804f40d521637a0950dfa"
+    },
+    {
+      "path": "src/data/brs3InputMapping.generated.json",
+      "bytes": 2511547,
+      "sha256": "4bc182cc25c50447aca68f3f19ab4993befa37000eb66bee3f99d5c29a0ba900"
+    },
+    {
+      "path": "src/data/brs4InputMapping.generated.json",
+      "bytes": 1241342,
+      "sha256": "a85c88ab05d17a7de6a856ef47a39b8ec0431cb1a518d0b507f82d35d65c17eb"
+    },
+    {
+      "path": "src/data/brs5InputMapping.generated.json",
+      "bytes": 1262335,
+      "sha256": "c0fee8f1ecdaf5cd91c41deab359a3b6fb54bb25ee2d50f6c4ababa68d88ac05"
+    },
+    {
+      "path": "src/data/brs6InputMapping.generated.json",
+      "bytes": 595891,
+      "sha256": "74b437dafa85b3ab763567675f73e748dd26551927fcdfb33c5a044bef0e67f4"
+    },
+    {
+      "path": "src/data/foodStrategyRollup.generated.json",
+      "bytes": 52287,
+      "sha256": "8cbdb672c89791714f6a6569b4d192d2abf5c7cfbe40a90c37b60c906288d5ab"
+    },
+    {
+      "path": "static/bibtex/BRAIN-diet.bib",
+      "bytes": 1052911,
+      "sha256": "9894ce185723d48c704cd229ea371dd3bd5822c77c5e250f8b934aa2655ac46c"
+    },
+    {
+      "path": "system/food-target-research.json",
+      "bytes": 11392,
+      "sha256": "a122663ba061310b36a1132b79e69f9b736f4f6eed3532701c9e5709288c3667"
+    },
+    {
+      "path": "system/generated/brs1-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 2527964,
+      "sha256": "592345774fc1a47cd99b8a57957e70aae527d3e14fee9f7064709d408bccb34c"
+    },
+    {
+      "path": "system/generated/brs1-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 2487116,
+      "sha256": "6c8eed2a7050235185ca302fb9a3e1e40767a786bcf3c8d98ce573703f654dae"
+    },
+    {
+      "path": "system/generated/brs1-input-substance-food/mapping.generated.json",
+      "bytes": 4511306,
+      "sha256": "5562adba5e293a29b23d630aacea887d36812c71823637349ce2140d2a991439"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 2407190,
+      "sha256": "cfe558087e6f40d0925bd82af941f223b1b7461818d0badbbb0d5d4796dee4be"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 2373676,
+      "sha256": "89410d17fd0badfbe50691a8fe328757c087d878073082275b4944c0b5098d56"
+    },
+    {
+      "path": "system/generated/brs2-input-substance-food/mapping.generated.json",
+      "bytes": 4029635,
+      "sha256": "7a6fbc2505e67d80551f07c27db24d1a906323c83a5892a852538fe27b8f141a"
+    },
+    {
+      "path": "system/generated/brs3-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 1046745,
+      "sha256": "9189114865f4d7dae40efdf1a5c49cf2e2b75abd6c7de1ca243f3b7914bcce19"
+    },
+    {
+      "path": "system/generated/brs3-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 1031761,
+      "sha256": "7c7c09e0e1915492ded37f59b7e2a8f4f22fcafe224d6343938813fd518b5e44"
+    },
+    {
+      "path": "system/generated/brs3-input-substance-food/mapping.generated.json",
+      "bytes": 2867378,
+      "sha256": "4369f8d144a1f4d0a63b83153c7d1093b9559346110ce21f67a2e755e8613a35"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 416463,
+      "sha256": "9751d3954b9631e00ab285597cae91be932c0309b768d5e72ec3f90c3495653a"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 409947,
+      "sha256": "d94cd13f728ccf7abf5d7ead8e618ab0ab34534f96a4fb1e5819ae816ed15ce3"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/mapping.generated.json",
+      "bytes": 1394745,
+      "sha256": "15759f14c045001c38ffa563c7f6b4df6214c4326364614f3cde55bf1d3476bc"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 591010,
+      "sha256": "17f25e03eb1327916cc754daf060e261b653b77a0e197217da2c3498985427dd"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 582888,
+      "sha256": "00f6be9c764efae6b2f4cf49320b8cc07ad5ea315c3916495f1d0994bfd1e5d6"
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/mapping.generated.json",
+      "bytes": 1451814,
+      "sha256": "c03598e3d039d5241b5243d831d0ccf6c1e01d1a94db6de230557e7c1b676515"
+    },
+    {
+      "path": "system/generated/brs6-input-substance-food/input-to-substance-to-food.csv",
+      "bytes": 141182,
+      "sha256": "8617a1ef166b3dde1940045c675fa019e7b070f443824d05abacc565a4652255"
+    },
+    {
+      "path": "system/generated/brs6-input-substance-food/input-to-substance-to-food.md",
+      "bytes": 138908,
+      "sha256": "8420438da682b0a625dfe547dae366cc0ec53fc23168c1ad85a60bcbd892d0f2"
+    },
+    {
+      "path": "system/generated/brs6-input-substance-food/mapping.generated.json",
+      "bytes": 659631,
+      "sha256": "3e1f1e0a842976952a50965ed093217bd4db2139e54545f67054a99578502c5c"
+    },
+    {
+      "path": "system/generated/dietary-food-targets/cursor-repair-queue.json",
+      "bytes": 45603,
+      "sha256": "8decb42b03c8bee970c66d92eb61f3af03a84f6c27ed2dc99a778b2af3ac5a80"
+    },
+    {
+      "path": "system/generated/dietary-food-targets/cursor-repair-summary.md",
+      "bytes": 4121,
+      "sha256": "e0e47bdce631bdbd708398bc2623b9661aca9b0885c9dc1e0ab79a6270fd7c89"
+    },
+    {
+      "path": "system/generated/dietary-food-targets/manuscript-rollup-brs4.json",
+      "bytes": 143439,
+      "sha256": "eb14ed1e6232c61c24fd8feb7347b831bcc1b95a17ef634804122385f117ba55"
+    },
+    {
+      "path": "system/generated/dietary-food-targets/manuscript-rollup-brs5.json",
+      "bytes": 149908,
+      "sha256": "953dd561bbb09bcdf1aa009a2db4a1c0afaac1f6602623d9855313c6e37005a4"
+    },
+    {
+      "path": "system/generated/dietary-food-targets/manuscript-rollup.json",
+      "bytes": 1763799,
+      "sha256": "8c04d917eae8114acb63ebe675adb87b24acd36378d88bf3077f01cddf75505f"
+    },
+    {
+      "path": "system/generated/dietary-food-targets/reconciliation.json",
+      "bytes": 51213,
+      "sha256": "a777f4943f60b47c32cff62b8ccff76eba834b60d8892e0aa403d3601bb5f630"
+    },
+    {
+      "path": "system/generated/dietary-food-targets/research-ledger-reconciliation.json",
+      "bytes": 16780,
+      "sha256": "c23c050cf8f8b7f570a1ccf2555ec602639e7b48707845b4b216c883ca766f5f"
+    },
+    {
+      "path": "system/mechanism-change-control-queue.md",
+      "bytes": 42321,
+      "sha256": "2ad2de242e006cd51adfef39dcf04cd498d029e9d62fffb7b7b1752ee2c419db"
+    },
+    {
+      "path": "system/rapid-stage2ab-2026-10-23/adjudications.json",
+      "bytes": 71786,
+      "sha256": "ee3b30e1471c5ca8f75f7ccb996e698d13295c9cc3697c0cbc83c7a9a9b83cb4"
+    },
+    {
+      "path": "system/rapid-stage2ab-2026-10-23/source-verification.json",
+      "bytes": 19503,
+      "sha256": "34ab985f44bbd169511fc294e4cbf649433a326de6fbefbc7caccbfbec8a2195"
+    },
+    {
+      "path": "system/reviews/stage2ab-preservation-2026-10-23/execution-summary.json",
+      "bytes": 401,
+      "sha256": "92f6c1db00ad94ee035a16e31f97ad2ad7a3d08a6720cb7d69d46183803a30f4"
+    },
+    {
+      "path": "system/reviews/stage2ab-preservation-2026-10-23/plan.json",
+      "bytes": 13243,
+      "sha256": "eb2b1b914054993ebdb78ae42c491be232a06a3a6209a8fe9226f96898c058cf"
+    },
+    {
+      "path": "system/reviews/stage2ab-preservation-2026-10-23/preservation-manifest.json",
+      "bytes": 83075,
+      "sha256": "f7767571becc51ebae9dc80aa46287fb670137a29a4ee814d1b6b9f312ba4c9b"
+    },
+    {
+      "path": "system/reviews/stage2ab-preservation-2026-10-23/uniprot-P00390-context.json",
+      "bytes": 4304,
+      "sha256": "4e1021b0b3ba194bc1f3c5ddc077e89fbe5777ebdf9892264d3e1fe93a7db70b"
+    }
+  ],
+  "excluded": [
+    [
+      "review/rapid-stage2ab-2026-10-23/validation/bibliography.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/rapid-stage2ab-2026-10-23/validation/finding-title-baseline.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/rapid-stage2ab-2026-10-23/validation/findings-freshness.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/rapid-stage2ab-2026-10-23/validation/focused-regressions.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/rapid-stage2ab-2026-10-23/validation/generated-mappings.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/rapid-stage2ab-2026-10-23/validation/governance-final.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/rapid-stage2ab-2026-10-23/validation/governance.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/rapid-stage2ab-2026-10-23/validation/pm5-compilation.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/rapid-stage2ab-2026-10-23/validation/preexisting-brs2-pm5-kc-fixture.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/rapid-stage2ab-2026-10-23/validation/production-build.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/rapid-stage2ab-2026-10-23/validation/rapid-final.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/rapid-stage2ab-2026-10-23/validation/sec-final.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/rapid-stage2ab-2026-10-23/validation/sec-preservation.log",
+      "machine configuration/log"
+    ],
+    [
+      "review/rapid-stage2ab-2026-10-23/validation/substance-ontology.log",
+      "machine configuration/log"
+    ]
+  ],
+  "lossless_compressed": []
+}
