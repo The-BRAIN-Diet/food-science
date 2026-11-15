@@ -44,14 +44,13 @@ const localOnlyDocExclude = [
   '**/training/**',
   '**/dietary-foundations/framework-review-and-corrections.mdx',
 ];
-const unpublishedDocExclude = [
-  '**/therapeutic-areas/anxiety-disorders.mdx',
-  '**/therapeutic-areas/depressive-disorders.mdx',
-];
+// Withdrawn from public builds; retained only for explicit local development.
+const includeTherapeuticAreas = includeInternalDocs && process.env.NODE_ENV !== 'production';
+const unpublishedDocExclude = ['**/therapeutic-areas/**'];
 // SEC preview is absent from document loading unless explicitly opted in.
 const docsExclude = [
   ...(process.env.NODE_ENV !== 'production' && process.env.SEC_CALIBRATION_PREVIEW === 'true' ? [] : ['**/system/sec-calibration/**']),
-  ...(includeInternalDocs ? [] : unpublishedDocExclude),
+  ...(includeTherapeuticAreas ? [] : unpublishedDocExclude),
   ...(includeWipRecipes ? [] : wipDocExclude),
   ...(includeInternalDocs ? [] : localOnlyDocExclude),
 ];
@@ -63,16 +62,15 @@ const localOnlySitemapIgnore = [
   '/docs/dietary-foundations/framework-review-and-corrections/',
 ];
 const unpublishedSitemapIgnore = [
-  '/docs/therapeutic-areas/anxiety-disorders',
-  '/docs/therapeutic-areas/anxiety-disorders/',
-  '/docs/therapeutic-areas/depressive-disorders',
-  '/docs/therapeutic-areas/depressive-disorders/',
+  '/docs/therapeutic-areas',
+  '/docs/therapeutic-areas/',
+  '/docs/therapeutic-areas/**',
 ];
 const sitemapIgnore = [
   '/docs/system/food-strategy-rollup{,/**}',
   '/docs/system/brs1-substance-index{,/**}',
   '/docs/system/brs1-input-substance-food{,/**}',
-  ...(includeInternalDocs ? [] : unpublishedSitemapIgnore),
+  ...(includeTherapeuticAreas ? [] : unpublishedSitemapIgnore),
   ...(includeWipRecipes ? [] : wipSitemapIgnore),
   ...(includeInternalDocs ? [] : localOnlySitemapIgnore),
 ];
