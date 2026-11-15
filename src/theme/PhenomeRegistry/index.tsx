@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo } from 'react';
 import Link from '@docusaurus/Link';
 import registryJson from '../../data/phenome-registry.json';
 import relationshipsJson from '../../data/phenome-relationships.generated.json';
@@ -75,7 +75,6 @@ type IndexFile = {
   relationships: RelationshipRow[];
 };
 
-const ALL_TA_FILTER = 'ALL';
 
 function brsSortKey(brs: string | null): string {
   return String(brs || 'ZZZ');
@@ -166,12 +165,11 @@ function TherapeuticAreaBadges({
 export default function PhenomeRegistry(): React.ReactElement {
   const registry = registryJson as RegistryFile;
   const index = relationshipsJson as IndexFile;
-  const [taFilter, setTaFilter] = useState(ALL_TA_FILTER);
 
   const therapeuticAreas = useMemo(
     () =>
       [...(registry.therapeuticAreas || [])]
-        .filter((ta) => ta.status === 'active')
+        .filter((ta) => ta.status === 'active' && ta.id !== 'TA005')
         .sort((a, b) => a.id.localeCompare(b.id)),
     [registry.therapeuticAreas],
   );
@@ -192,11 +190,6 @@ export default function PhenomeRegistry(): React.ReactElement {
     [registry.phenomes],
   );
 
-  const filteredPhenomes = useMemo(() => {
-    if (taFilter === ALL_TA_FILTER) return phenomes;
-    return phenomes.filter((p) => (p.therapeuticAreaIds || []).includes(taFilter));
-  }, [phenomes, taFilter]);
-
   const connectionsById = useMemo(() => {
     const map = new Map<string, RelationshipRow[]>();
     for (const phenome of phenomes) {
@@ -210,96 +203,7 @@ export default function PhenomeRegistry(): React.ReactElement {
 
   return (
     <div className={styles.wrap}>
-      <h1 className={styles.srOnly}>Phenome Registry</h1>
-      <p>
-        The BRAIN Phenome Knowledge Database intentionally applies a narrower operational definition
-        of "phenome" than is used in the wider phenomics literature. Although phenomes may include
-        physiological and metabolic characteristics, the purpose of this registry is to catalogue
-        human functional outcomes that are meaningful within cognitive, behavioural and mental
-        health contexts. Biological capacities such as ATP production, fuel switching,
-        mitochondrial substrate flexibility, or adaptive/allostatic metabolic resilience remain
-        important, but are represented as emergent properties of coordinated Biological Regulatory
-        Systems performance rather than as standalone phenomes.
-      </p>
-      <p>
-        The registry is scoped to <strong>neuropsychiatric and neurocognitive health</strong>.
-        <strong> ADHD (TA001)</strong> is the primary worked example in Version 1; the architecture
-        supports anxiety, depression, autism spectrum, cognitive ageing, long COVID, and healthy
-        cognitive optimisation without duplicating phenome labels per condition.
-      </p>
-      <p>
-        Mechanism-to-phenome links are translational relationships. They do not imply that a single
-        mechanism causes or treats a complex condition.
-      </p>
-
-      {registry.meta?.phenomeDevelopment ? (
-        <>
-          <h2>Phenome development</h2>
-          <p className={styles.developmentNote}>{registry.meta.phenomeDevelopment}</p>
-          {registry.meta.benchmarkedFrameworks?.length ? (
-            <ul className={styles.frameworkList}>
-              {registry.meta.benchmarkedFrameworks.map((fw) => (
-                <li key={fw.id}>
-                  <strong>{fw.name}</strong>
-                  {fw.role ? ` (${fw.role})` : ''}
-                  {fw.note ? ` — ${fw.note}` : ''}
-                </li>
-              ))}
-            </ul>
-          ) : null}
-        </>
-      ) : null}
-
-      <h2>Therapeutic areas</h2>
-      <div className={styles.tableScroll}>
-        <table className={styles.registryTable}>
-          <thead>
-            <tr>
-              <th>ID</th>
-              <th>Therapeutic area</th>
-              <th>Description</th>
-            </tr>
-          </thead>
-          <tbody>
-            {therapeuticAreas.map((ta) => (
-              <tr key={ta.id}>
-                <td className={styles.idCell}>{ta.id}</td>
-                <td>
-                  {ta.name}
-                  {ta.primaryWorkedExample ? (
-                    <span className={styles.primaryTaNote}> — primary V1 example</span>
-                  ) : null}
-                </td>
-                <td>{ta.description}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      <h2>Registry overview</h2>
       <PhenomeScoringKey />
-      <div className={styles.filterRow}>
-        <label htmlFor="ta-filter" className={styles.filterLabel}>
-          Filter by therapeutic area
-        </label>
-        <select
-          id="ta-filter"
-          className={styles.filterSelect}
-          value={taFilter}
-          onChange={(e) => setTaFilter(e.target.value)}
-        >
-          <option value={ALL_TA_FILTER}>All therapeutic areas</option>
-          {therapeuticAreas.map((ta) => (
-            <option key={ta.id} value={ta.id}>
-              {ta.id} — {ta.name}
-            </option>
-          ))}
-        </select>
-        <span className={styles.filterCount}>
-          Showing {filteredPhenomes.length} of {phenomes.length} phenomes
-        </span>
-      </div>
       <div className={styles.tableScroll}>
         <table className={styles.registryTable}>
           <thead>
@@ -313,7 +217,7 @@ export default function PhenomeRegistry(): React.ReactElement {
             </tr>
           </thead>
           <tbody>
-            {filteredPhenomes.map((phenome) => {
+            {phenomes.map((phenome) => {
               const rows = connectionsById.get(phenome.id) ?? [];
               return (
                 <tr key={phenome.id}>
@@ -357,7 +261,7 @@ export default function PhenomeRegistry(): React.ReactElement {
         above.
       </p>
       <ul className={styles.phenomeDetailNavList}>
-        {filteredPhenomes.map((phenome) => (
+        {phenomes.map((phenome) => (
           <li key={phenome.id}>
             <Link to={phenomeDetailDocPath(phenome.id, phenome.slug)}>
               {phenome.id} — {phenome.name}
