@@ -1,0 +1,67 @@
+[
+  {
+    "path": "docs/therapeutic-areas/anxiety-gad.md",
+    "sha256": "416d617d848fb6709c95b2c702c10357b0eb956b52aca9a6acac6d9ed5605b5b",
+    "unchanged": true
+  },
+  {
+    "path": "docs/therapeutic-areas/postnatal-depression.md",
+    "sha256": "fd7b857bdf7a36231be29ade39d1abe643613d2fe22a3ca1b4e21fbc8ced66fc",
+    "unchanged": true
+  },
+  {
+    "path": "docs/therapeutic-areas/depression-mdd.md",
+    "sha256": "28ce83cffd034f8955df0548f6a7ecbe7c1334a8b5712a36da8093707250b679",
+    "unchanged": true
+  },
+  {
+    "path": "docs/therapeutic-areas/bipolar.md",
+    "sha256": "027151ea513952219a0fd77b98e8262764f92dee24eea4a0205f43d38c2d5afe",
+    "unchanged": true
+  },
+  {
+    "path": "docs/therapeutic-areas/Alzhiemers.md",
+    "sha256": "425d8a4517e468913989eed50c048ea8e5c74a2b87ea709c01e57ad99066d228",
+    "unchanged": true
+  },
+  {
+    "path": "docs/therapeutic-areas/index.md",
+    "sha256": "4df8e4a86f70bbccc1adf02ed7a0815090c6e922e0ad1a7cd0ce6000df39a48c",
+    "unchanged": true
+  },
+  {
+    "path": "docs/therapeutic-areas/adhd.mdx",
+    "sha256": "a7edd01ab43acb2d047ff2f683d85e7ebba63f6482daa1feb1f97169e9506502",
+    "unchanged": true
+  },
+  {
+    "path": "docs/therapeutic-areas/depression-mdd-shopping-list.md",
+    "sha256": "fc009560341b8d538538e34520baa67de6479ef91f0404092e23973a347b4908",
+    "unchanged": true
+  },
+  {
+    "path": "docs/therapeutic-areas/anxiety-disorders.mdx",
+    "sha256": "25e7f96a0d9ca5ff14f7547f208e134dfb77ad34b93ab67d25edc57443d26d3a",
+    "unchanged": true
+  },
+  {
+    "path": "docs/therapeutic-areas/depressive-disorders.mdx",
+    "sha256": "5e87f16434591afcb9b81389ac494ae67cb35ed1bc63538c5572db4235f60849",
+    "unchanged": true
+  },
+  {
+    "path": "system/ranked-food-publication-sources.json",
+    "sha256": "ffd4d4c630f0692ef744819f669ff2eb15e629ac829654cb51da0c0b79d93458",
+    "unchanged": true
+  },
+  {
+    "path": "src/data/rankedFoodSources.generated.json",
+    "sha256": "1be671e829575688e75d22f01e6a0586dd986681a4953cbff64221e968030d00",
+    "unchanged": true
+  },
+  {
+    "path": "package.json",
+    "sha256": "7c5197b690cac9465dc02aece679badc8435b62512b612cca2bca4a0f3c801d4",
+    "unchanged": true
+  }
+]

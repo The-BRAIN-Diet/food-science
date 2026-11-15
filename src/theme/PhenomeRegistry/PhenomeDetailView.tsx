@@ -265,7 +265,7 @@ export default function PhenomeDetailView({ phenomeId }: PhenomeDetailViewProps)
   const phenome = registry.phenomes.find((p) => p.id === normalizedId && p.status === 'active');
 
   const therapeuticAreas = useMemo(
-    () => (registry.therapeuticAreas || []).filter((ta) => (ta.status || 'active') === 'active'),
+    () => (registry.therapeuticAreas || []).filter((ta) => (ta.status || 'active') === 'active' && ta.id !== 'TA005'),
     [registry.therapeuticAreas],
   );
 

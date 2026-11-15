@@ -1,0 +1,35 @@
+TAP version 13
+# Subtest: all therapeutic-area documents are excluded in production, including internal flag undefined
+ok 1 - all therapeutic-area documents are excluded in production, including internal flag undefined
+  ---
+  duration_ms: 4.731875
+  ...
+# Subtest: all therapeutic-area documents are excluded in production, including internal flag false
+ok 2 - all therapeutic-area documents are excluded in production, including internal flag false
+  ---
+  duration_ms: 1.845125
+  ...
+# Subtest: all therapeutic-area documents are excluded in production, including internal flag true
+ok 3 - all therapeutic-area documents are excluded in production, including internal flag true
+  ---
+  duration_ms: 1.146625
+  ...
+# Subtest: canonical section remains available only in explicitly opted-in local development
+ok 4 - canonical section remains available only in explicitly opted-in local development
+  ---
+  duration_ms: 1.287166
+  ...
+# Subtest: old public root and descendant URLs have forced not-found responses
+ok 5 - old public root and descendant URLs have forced not-found responses
+  ---
+  duration_ms: 0.49025
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 86.252417

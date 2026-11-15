@@ -59,3 +59,16 @@ Author: “Yes, approve the temporary public-QC disclosure. Implement it, test a
 - Source: the archived issue register and page-review state remain inactive; the temporary presentation flag is not a scientific status or issue resolution. Existing available corrections remain displayed with their original statuses.
 - Governance: preserve the archived records, unresolved public-QC test expectation, current suspension and all admission/SEC/ranking decisions. Do not activate archived inputs or remove this disclosure automatically on file discovery. Removal requires separately validated public-history reconciliation.
 - This is a shared review-status presentation exception only. Stage 2A/2B scientific contracts, PM schema, missions and evidence templates remain unchanged. See [Framework QC contract](framework-qc-schema.md) and the [recovery action register](../review/recovery-readiness-2026-11-14/ACTION-REGISTER.md).
+
+
+## Therapeutic-area section withdrawal — approved 15 November 2026
+
+Author instruction: “at some point https://thebraindiet.org/docs/therapeutic-areas/ went live again; it was taken down; please unpublish all links under therapeutic-areas”.
+
+Withdraw the complete `/docs/therapeutic-areas/` section, including its index and every descendant, from public publication, navigation, generated listings and sitemap. Existing requests return404; do not redirect them to substitute clinical claims. The previous two-document exclusion was insufficient. Scope: all ten current canonical documents in that directory, plus future descendants; eight were still eligible for public loading under the previous rule.
+
+Preserve canonical files, scientific relationships and evidence. Explicit local development (`INCLUDE_INTERNAL_DOCS=true` outside production) may still load these records. That flag must not republish the section in a production build. No new UI sections, PM/food scientific edits, ranking changes, QC reactivation or issue closure are authorised. Condition-specific research on other canonical substance/PM pages is outside this route withdrawal and remains unchanged.
+
+## Phenome Registry — approved presentation, 15 November 2026
+
+Restore the author's introduction and ADHD/anxiety/depression overlap table. State 15 active phenomes from 18 defined, with PH007, PH012 and PH013 retained as retired historical records. Remove the Therapeutic Areas catalogue and the entire condition-based filter. Suppress TA005 in registry/detail badges without deleting canonical associations. Preserve scientific relationships, evidence scores, detail pages and existing QC suspension. Local-only recovery; no publication authorised.

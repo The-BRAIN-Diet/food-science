@@ -1,3 +1,17 @@
+# Author-requested section withdrawal, 15 November 2026.
+# Preserve canonical files locally; old public URLs must not serve archived pages.
+[[redirects]]
+  from = "/docs/therapeutic-areas"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/docs/therapeutic-areas/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
 # Resolve the reviewed SEC baseline even when Netlify uses a shallow checkout.
 [build]
   command = 'git fetch --no-tags origin "$SEC_BASE_REF" && npm run build'
