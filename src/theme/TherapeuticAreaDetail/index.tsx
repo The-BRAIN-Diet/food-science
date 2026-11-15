@@ -147,16 +147,10 @@ function TabContentsPanel({items}: {items: ContentsItem[]}): React.ReactElement 
 
 export function TherapeuticAreaPmLinks({pmId}: {pmId: string}): React.ReactElement | null {
   const {siteConfig} = useDocusaurusContext();
-  const includeInternalDocs = siteConfig.customFields?.includeInternalDocs === true;
+  if (siteConfig.customFields?.includeTherapeuticAreas !== true) return null;
   const claims = getClaimsForPm(pmId);
   if (!claims.length) return null;
-  const grouped = [
-    ...new Set(
-      claims
-        .map((claim) => claim.taId)
-        .filter((taId) => includeInternalDocs || taId === "TA001"),
-    ),
-  ];
+  const grouped = [...new Set(claims.map((claim) => claim.taId))];
   if (!grouped.length) return null;
   return (
     <aside className={styles.pmPanel}>

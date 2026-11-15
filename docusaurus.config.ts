@@ -351,6 +351,7 @@ const config: Config = {
   favicon: 'site-icon/white.svg',
   customFields: {
     includeInternalDocs,
+    includeTherapeuticAreas,
   },
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
