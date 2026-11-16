@@ -13,3 +13,6 @@ Verification: 35/35 current focused tests pass. Two Neuroeshot expectations upda
 Draft PR only. No merge, production deployment or freeze authorised. The branch push may start the repository's normal preview CI; preview status must be reviewed separately.
 
 Large mapping timestamp-only differences are preserved exactly in mapping-metadata.patch.gz rather than replacing active generated files; this respects the existing commit size limit. Historical archives retain original whitespace.
+
+## Subsequent test reconciliation
+The 18 obsolete historical failures have been reconciled against the approved cleanup. See [exact dispositions](pm8-test-reconciliation/report.md): 55/55 combined checks pass, including exact archived timestamp reconciliation. Original test sources/results remain preserved. No scientific or runtime changes; QC remains suspended.

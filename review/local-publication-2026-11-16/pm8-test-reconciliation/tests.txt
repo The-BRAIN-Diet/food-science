@@ -1,0 +1,285 @@
+TAP version 13
+# Subtest: mission and all existing Findings, SOPs and Lifestyle records unchanged
+ok 1 - mission and all existing Findings, SOPs and Lifestyle records unchanged
+  ---
+  duration_ms: 1.331416
+  ...
+# Subtest: bounded Type B admitted; no invented identity or SOP
+ok 2 - bounded Type B admitted; no invented identity or SOP
+  ---
+  duration_ms: 0.122709
+  ...
+# Subtest: Finding, citations and traceability validate
+ok 3 - Finding, citations and traceability validate
+  ---
+  duration_ms: 3.15125
+  ...
+# Subtest: protected ranked outputs, SEC, bibliography and QC unchanged
+ok 4 - protected ranked outputs, SEC, bibliography and QC unchanged
+  ---
+  duration_ms: 59.005917
+  ...
+# Subtest: MDX compiles
+ok 5 - MDX compiles
+  ---
+  duration_ms: 82.312125
+  ...
+# Subtest: caffeine registry, page and generated resolver agree without science changes
+ok 6 - caffeine registry, page and generated resolver agree without science changes
+  ---
+  duration_ms: 27.888625
+  ...
+# Subtest: caffeine public label leads with effect while Type B record persists
+ok 7 - caffeine public label leads with effect while Type B record persists
+  ---
+  duration_ms: 0.276167
+  ...
+# Subtest: supportive/disruptive subgroups preserve scientific section meanings
+ok 8 - supportive/disruptive subgroups preserve scientific section meanings
+  ---
+  duration_ms: 0.281167
+  ...
+# Subtest: approved food forms and scaled nutrition
+ok 9 - approved food forms and scaled nutrition
+  ---
+  duration_ms: 2.316625
+  ...
+# Subtest: ten distinct rows, correct placement, citations and real PM routes
+ok 10 - ten distinct rows, correct placement, citations and real PM routes
+  ---
+  duration_ms: 32.096208
+  ...
+# Subtest: contextual substances remain unassigned and recipe does not imply dose or efficacy
+ok 11 - contextual substances remain unassigned and recipe does not imply dose or efficacy
+  ---
+  duration_ms: 0.166792
+  ...
+# Subtest: all six linked substance rows retain existing canonical dietary admissions
+ok 12 - all six linked substance rows retain existing canonical dietary admissions
+  ---
+  duration_ms: 15.582125
+  ...
+# Subtest: amounts and experimental observations stay in their own columns
+ok 13 - amounts and experimental observations stay in their own columns
+  ---
+  duration_ms: 0.877
+  ...
+# Subtest: bounded serving interpretation uses canonical vitamin references and one combined omega-3 benchmark
+ok 14 - bounded serving interpretation uses canonical vitamin references and one combined omega-3 benchmark
+  ---
+  duration_ms: 0.394916
+  ...
+# Subtest: two disclosures partition all ten substances without promoting unknown exposures
+ok 15 - two disclosures partition all ten substances without promoting unknown exposures
+  ---
+  duration_ms: 0.177083
+  ...
+# Subtest: docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx
+ok 16 - docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx
+  ---
+  duration_ms: 127.120291
+  ...
+# Subtest: docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx
+ok 17 - docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx
+  ---
+  duration_ms: 81.766166
+  ...
+# Subtest: docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx
+ok 18 - docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx
+  ---
+  duration_ms: 53.082625
+  ...
+# Subtest: docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx
+ok 19 - docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx
+  ---
+  duration_ms: 54.185417
+  ...
+# Subtest: docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx
+ok 20 - docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx
+  ---
+  duration_ms: 100.231666
+  ...
+# Subtest: docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx
+ok 21 - docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx
+  ---
+  duration_ms: 148.97525
+  ...
+# Subtest: docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx
+ok 22 - docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx
+  ---
+  duration_ms: 98.756542
+  ...
+# Subtest: docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx
+ok 23 - docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx
+  ---
+  duration_ms: 45.2145
+  ...
+# Subtest: seven exact Findings retain every appraisal, source quantity, limitation and SEC reference
+ok 24 - seven exact Findings retain every appraisal, source quantity, limitation and SEC reference
+  ---
+  duration_ms: 206.649583
+  ...
+# Subtest: accepted science and admissions are unchanged
+ok 25 - accepted science and admissions are unchanged
+  ---
+  duration_ms: 0.319208
+  ...
+# Subtest: retired content is archived, not hidden in active frontmatter or generated body
+ok 26 - retired content is archived, not hidden in active frontmatter or generated body
+  ---
+  duration_ms: 0.339542
+  ...
+# Subtest: associations resolve only to retained scope and accepted outputs
+ok 27 - associations resolve only to retained scope and accepted outputs
+  ---
+  duration_ms: 0.244042
+  ...
+# Subtest: 27 references consecutively numbered in first rendered citation order
+ok 28 - 27 references consecutively numbered in first rendered citation order
+  ---
+  duration_ms: 1.523958
+  ...
+# Subtest: stable numbering fails closed on duplicate IDs and nonexistent citation anchors
+ok 29 - stable numbering fails closed on duplicate IDs and nonexistent citation anchors
+  ---
+  duration_ms: 2.113334
+  ...
+# Subtest: ranking, viewer data, shared bibliography, SEC and QC inputs retain protected hashes with exact archived timestamp reconciliation
+ok 30 - ranking, viewer data, shared bibliography, SEC and QC inputs retain protected hashes with exact archived timestamp reconciliation
+  ---
+  duration_ms: 35.543334
+  ...
+# Subtest: active generated records contain no retired PM8 hypothesis or Finding IDs
+ok 31 - active generated records contain no retired PM8 hypothesis or Finding IDs
+  ---
+  duration_ms: 44.378583
+  ...
+# Subtest: only PM8 projection regenerated; deterministic findings and valid MDX
+ok 32 - only PM8 projection regenerated; deterministic findings and valid MDX
+  ---
+  duration_ms: 187.188167
+  ...
+# Subtest: accepted canonical records remain unchanged after approved retirement
+ok 33 - accepted canonical records remain unchanged after approved retirement
+  ---
+  duration_ms: 1.480833
+  ...
+# Subtest: seven consecutive display labels preserve association names and canonical identities
+ok 34 - seven consecutive display labels preserve association names and canonical identities
+  ---
+  duration_ms: 0.363542
+  ...
+# Subtest: retained urolithin associations preserve admissions without recreating hypothesis edges
+ok 35 - retained urolithin associations preserve admissions without recreating hypothesis edges
+  ---
+  duration_ms: 0.124875
+  ...
+# Subtest: retired investigations remain archived and absent from the active PM
+ok 36 - retired investigations remain archived and absent from the active PM
+  ---
+  duration_ms: 0.151
+  ...
+# Subtest: grouped decision history remains in archive with candidate-specific successors
+ok 37 - grouped decision history remains in archive with candidate-specific successors
+  ---
+  duration_ms: 4.342458
+  ...
+# Subtest: association and archived investigation validation still fail closed
+ok 38 - association and archived investigation validation still fail closed
+  ---
+  duration_ms: 2.675792
+  ...
+# Subtest: archived Investigations renderer exposes both groups and canonical evidence links
+ok 39 - archived Investigations renderer exposes both groups and canonical evidence links
+  ---
+  duration_ms: 118.729916
+  ...
+# Subtest: PM-only SF generation stays deterministic and retains seven independent findings
+ok 40 - PM-only SF generation stays deterministic and retains seven independent findings
+  ---
+  duration_ms: 43.477625
+  ...
+# Subtest: retained scope and outputs keep stable anchors without duplicated appraisals
+ok 41 - retained scope and outputs keep stable anchors without duplicated appraisals
+  ---
+  duration_ms: 2.101792
+  ...
+# Subtest: Finding renderer keeps original appraisal and exposes exact PM8 association label
+ok 42 - Finding renderer keeps original appraisal and exposes exact PM8 association label
+  ---
+  duration_ms: 84.441292
+  ...
+# Subtest: current identity, Principles and accepted records match approved reconstruction provenance
+ok 43 - current identity, Principles and accepted records match approved reconstruction provenance
+  ---
+  duration_ms: 2.200708
+  ...
+# Subtest: main mechanism and Section 4 Findings retained without duplicating evidence tabs
+ok 44 - main mechanism and Section 4 Findings retained without duplicating evidence tabs
+  ---
+  duration_ms: 0.327083
+  ...
+# Subtest: approved retirement removes active gaps without asserting scientific closure
+ok 45 - approved retirement removes active gaps without asserting scientific closure
+  ---
+  duration_ms: 0.128291
+  ...
+# Subtest: every archived pilot gap resolves its canonical Findings, bibliography and optional issue
+ok 46 - every archived pilot gap resolves its canonical Findings, bibliography and optional issue
+  ---
+  duration_ms: 0.136833
+  ...
+# Subtest: legacy non-opt-in shared tab order, URL-state selection and PM8-only opt-in
+ok 47 - legacy non-opt-in shared tab order, URL-state selection and PM8-only opt-in
+  ---
+  duration_ms: 167.365458
+  ...
+# Subtest: legacy non-opt-in gap component retains blue flask, three records and exact destination links
+ok 48 - legacy non-opt-in gap component retains blue flask, three records and exact destination links
+  ---
+  duration_ms: 55.618083
+  ...
+# Subtest: pilot gap validator fails closed on missing evidence and unresolved references
+ok 49 - pilot gap validator fails closed on missing evidence and unresolved references
+  ---
+  duration_ms: 1.633083
+  ...
+# Subtest: Finding generator preserves approved Section 4 placement and prior audit-only pages
+ok 50 - Finding generator preserves approved Section 4 placement and prior audit-only pages
+  ---
+  duration_ms: 32.278292
+  ...
+# Subtest: Open Issues use canonical numbered disclosures and exact persistent IDs
+ok 51 - Open Issues use canonical numbered disclosures and exact persistent IDs
+  ---
+  duration_ms: 13.103875
+  ...
+# Subtest: approved cleanup prevents rediscovery of retired queues and hypothesis records
+ok 52 - approved cleanup prevents rediscovery of retired queues and hypothesis records
+  ---
+  duration_ms: 0.246125
+  ...
+# Subtest: all viewer ranks and observations equal the canonical snapshot
+ok 53 - all viewer ranks and observations equal the canonical snapshot
+  ---
+  duration_ms: 1.071583
+  ...
+# Subtest: stale combined data cannot bypass publication filtering
+ok 54 - stale combined data cannot bypass publication filtering
+  ---
+  duration_ms: 6.009333
+  ...
+# Subtest: changed power is detected even when edge counts match
+ok 55 - changed power is detected even when edge counts match
+  ---
+  duration_ms: 3.646542
+  ...
+1..55
+# tests 55
+# suites 0
+# pass 55
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 998.444417

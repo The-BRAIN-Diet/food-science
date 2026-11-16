@@ -1,3 +1,5 @@
+**16 November 2026 — PR246 PM8 test reconciliation:** [dispositions and validation](review/local-publication-2026-11-16/pm8-test-reconciliation/report.md). 55/55 affected checks pass; original historical tests preserved. Scientific records and QC suspension unchanged. Test/documentation-only update; no merge or deployment.
+
 # BRAIN Diet — current handoff
 
 **15 November 2026 — PM8 local association/Investigations pilot:** [report](review/pm8-association-pilot-2026-11-15/report.md). Scientific records preserved; 10/10 pilot tests pass. Desktop/mobile verification blocked by stalled local preview and critically low disk space. No publication or QC reactivation.
