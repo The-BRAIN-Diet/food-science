@@ -1532,3 +1532,9 @@ Apply [SOP/Lifestyle food–substance joins](sop-lifestyle-six-atom-presentation
 ## Canonical scientific projections — approved 10 November 2026
 
 Apply [Canonical scientific truth and presentation consistency](canonical-scientific-projections.md), including its five scientific, automated, release and publication checkpoints. Current mission comes from PM frontmatter; explanatory prose must not strengthen the canonical science. Preserve authoritative admissions, limitations and SEC history. Report conflicts with provenance instead of selecting the newest text.
+
+## PM8 association and Investigations pilot — owner-approved 15 November 2026
+
+For BRS6-FM4-PM8 only, apply the [scoped association/lifecycle contract](pm-evidence-tabs-contract.md#pm8-association-and-investigations-pilot--owner-approved-15-november-2026). Section 4 SFs remain the shared foundation; explicit many-to-many references do not create admissions, scores or food relationships. SOPs remain practices, even when accepted; Dietary Levers require separate input-specific admission. Investigations groups existing questions by recorded review activity; historical decisions and Unestablished hypotheses remain distinct. Do not migrate other PMs or reactivate QC.
+
+PM1 Circadian scoped owner-approved presentation (16 November 2026): 3.1 Dietary Influences; nested 3.1.1.1 Supportive Dietary Inputs and 3.1.1.2 Disruptive Dietary Inputs within 3.1.1. Preserve 3.1.2 Cofactors/Substrates and 3.1.3 Key Constraints. Machine-readable presentation_section remains 3.1.1; no change to Type B, admissions or other PMs. See review/circadian-caffeine-2026-11-16/report.md. Type B regulation does not imply benefit; lead public prose with the evidenced effect and limitations.

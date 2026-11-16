@@ -1,5 +1,7 @@
 # BRAIN Diet — current handoff
 
+**15 November 2026 — PM8 local association/Investigations pilot:** [report](review/pm8-association-pilot-2026-11-15/report.md). Scientific records preserved; 10/10 pilot tests pass. Desktop/mobile verification blocked by stalled local preview and critically low disk space. No publication or QC reactivation.
+
 **Latest checkpoint — 3 November 2026:** branch `review/brs5-pm4-sec-assessment`, HEAD `f1607fe5`, pushed and verified on remote `github`. Earlier uncommitted/not-pushed statements below are dated history, not current release state. No main merge or deployment was performed by this workstream. Use the [current handoff index](project-knowledge/handoffs/INDEX.md); this document retains detailed historical checkpoints. Current task is documentation consolidation only, with no commit/push/merge/deploy authorised.
 
 As inspected 3 November 2026. Draft knowledge-transfer entry for author review; uncommitted. Read [PROJECT-CONTEXT.md](PROJECT-CONTEXT.md), then the relevant authoritative contracts. Recheck Git and manifests on resumption: this file is a dated checkpoint, not live state.
@@ -128,3 +130,13 @@ Author-approved contract: [system/canonical-scientific-projections.md](system/ca
 Concurrent uncommitted intervention food/substance work in this checkout was left in place. The 9 November dietary-connectivity amendments, food-wheel ledger, ranked-food snapshot and tyrosine animal-coverage food edits stay in the Codex worktree. Explorer missions here are derived from canonical PM frontmatter; ranked and documented food layers were not regenerated because those selectors are absent. Sixty-six Explorer missions already matched this checkout. PM3 was the only difference, and this transfer applies the approved mission. The MDX template file was not edited: its existing exact-hash approval is for the 6 November food/substance comment. The Mission rendering instruction is in the PM schema template section. Review: [review/circadian-pm3-identity-review-2026-11-10/REPORT.md](review/circadian-pm3-identity-review-2026-11-10/REPORT.md).
 
 Validation on this checkout: 3/3 canonical projection tests pass, including mission equality for all 67 Explorer PM records, PM3 frontmatter rendering, and the unresolved PM3 food boundary. The compact Explorer and tyrosine coverage files do not load here; their food-wheel and ranked-source modules were not transferred. Re-run on the Codex worktree: 14/14 pass. No production build or browser publication check. Presentation gate accepts the new Mission component and the PM3 page. Remaining presentation failures were already outside this transfer.
+
+## Neuroeshot evidence matrix — 15 November 2026, local review only
+
+Approved recipe formulation and one-page ingredient evidence matrix implemented in the persistent `sync-recovery/phenome-preview-20261115` export. See [scoped report](review/neuroeshot-evidence-2026-11-15/report.md) for exact source keys, canonical admission checks, unresolved research-context rows, changed files and desktop/mobile verification. Four dedicated tests plus the existing focused roe/juice test pass. No scientific admission, ranking, QC or shared component changes; no commit/push/deployment. Preview remains on port 3201.
+
+PM8 accepted-output reconstruction supersedes the earlier association pilot: 27 references (owner cap 30), seven unchanged retained Findings. See `review/pm8-accepted-reconstruction-2026-11-15/report.md`. Local only; QC suspended.
+
+16 November: bounded disruptive caffeine Type B relationship added locally to circadian PM1; mission unchanged, timing SOP not admitted, caffeine registry identity unresolved. See review/circadian-caffeine-2026-11-16/report.md. Five tests pass; no ranking/SEC/QC changes or push.
+
+Caffeine identity gap resolved under owner approval: registry/page and PM1-DIT-1 linked; six focused tests pass. Disruptive direction and separate unadmitted timing SOP preserved. See review/circadian-caffeine-2026-11-16/report.md. Local only.

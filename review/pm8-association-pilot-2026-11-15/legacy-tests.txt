@@ -1,0 +1,74 @@
+TAP version 13
+# Subtest: full rerun preserves mission, identity, Principles, prior propositions and unrelated pages
+not ok 1 - full rerun preserves mission, identity, Principles, prior propositions and unrelated pages
+  ---
+  duration_ms: 21.043667
+  location: 'file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/phenome-preview-20261115/scripts/pm8-evidence-tabs.test.mjs:7:1'
+  failureType: 'testCodeFailure'
+  error: 'docs/biological-targets/brs-x/circadian/circadian-rhythm-regulation.md'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 'bc46a3799e6bf12ba8866a3f0bd19798d8617246d1bc3c222adea0ec3287e1a6'
+  actual: 'df1af0050554548831ac6ac0a4a767d8b35f3efbdf7ce5b4a5fff4985e9165b6'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/sync-recovery/phenome-preview-20261115/scripts/pm8-evidence-tabs.test.mjs:7:700)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.start (node:internal/test_runner/test:542:17)
+    startSubtest (node:internal/test_runner/harness:216:17)
+  ...
+# Subtest: main mechanism and Section 4 Findings retained without duplicating evidence tabs
+ok 2 - main mechanism and Section 4 Findings retained without duplicating evidence tabs
+  ---
+  duration_ms: 0.291042
+  ...
+# Subtest: gaps are missing evidence links; authoritative active issues are not copied into gap list
+ok 3 - gaps are missing evidence links; authoritative active issues are not copied into gap list
+  ---
+  duration_ms: 0.185167
+  ...
+# Subtest: every pilot gap resolves its canonical Findings, bibliography and optional issue
+ok 4 - every pilot gap resolves its canonical Findings, bibliography and optional issue
+  ---
+  duration_ms: 0.159375
+  ...
+# Subtest: legacy non-opt-in shared tab order, URL-state selection and PM8-only opt-in
+ok 5 - legacy non-opt-in shared tab order, URL-state selection and PM8-only opt-in
+  ---
+  duration_ms: 121.954417
+  ...
+# Subtest: legacy non-opt-in gap component retains blue flask, three records and exact destination links
+ok 6 - legacy non-opt-in gap component retains blue flask, three records and exact destination links
+  ---
+  duration_ms: 26.425083
+  ...
+# Subtest: pilot gap validator fails closed on missing evidence and unresolved references
+ok 7 - pilot gap validator fails closed on missing evidence and unresolved references
+  ---
+  duration_ms: 1.796291
+  ...
+# Subtest: Finding generator preserves approved Section 4 placement and prior audit-only pages
+ok 8 - Finding generator preserves approved Section 4 placement and prior audit-only pages
+  ---
+  duration_ms: 37.427209
+  ...
+# Subtest: Open Issues use canonical numbered disclosures and exact persistent IDs
+ok 9 - Open Issues use canonical numbered disclosures and exact persistent IDs
+  ---
+  duration_ms: 17.435625
+  ...
+# Subtest: owner removal policy prevents regeneration and retains unresolved evidence propositions only
+ok 10 - owner removal policy prevents regeneration and retains unresolved evidence propositions only
+  ---
+  duration_ms: 1.251791
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 9
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 663.020167

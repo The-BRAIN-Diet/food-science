@@ -1,0 +1,13 @@
+{
+  "src/data/rankedFoodSources.generated.json": "1be671e829575688e75d22f01e6a0586dd986681a4953cbff64221e968030d00",
+  "static/explore/pm-explorer/pm-sources.json": "d6e527e9b1ca343c6306d88affffb0736a354efd7efb5650f948fd2aadec7e62",
+  "static/explore/food-intelligence/data.json": "10f501508aaaab2f3a7c2793ddd7f932919b00fd88c96d51319bb3009a8428e7",
+  "static/explore/food-wheel/index.html": "dba9ef5503524c09b3bd3fe87cf49ec1a9d6fdff79d37db4d12206411b85f031",
+  "static/explore/food-wheel/display-network.json": "6133f69db924f32cadcf1f715625c40b1ea38facd2d58645dc0740e8411edc6e",
+  "static/explore/food-wheel/evidence-ledger.json": "fc91a75e03a3c09dec2777521e325a99a7826375828a02b0efce52c24a1905db",
+  "src/data/brs6InputMapping.generated.json": "dba54b027a57b3f2db6dd166f424032dee6ea6841d3b42fcd85e2bcbdd81a0d2",
+  "system/sec-assessments/registry.json": "efe5723e9d7fb273c1cbcf0a5cfc7c7bf385d481bd1c8ccbebcb08a3587d936c",
+  "static/bibtex/BRAIN-diet.bib": "9081f9254b05e005c4d89f44b5c7340f5385f4309a960e0512140e130c51ddda",
+  "static/bibtex/BRAIN-diet-sources.bib": "4535f7a1310bb055c65851eaa2d1272671334901b26e5e72dc28f55f5b999a7b",
+  "system/framework-qc/pm-open-issues.json": "fd0b67ea10d744ec28592f419dd9395c49762946662a5530090250f3027cb4aa"
+}

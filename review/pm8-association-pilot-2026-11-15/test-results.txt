@@ -1,0 +1,60 @@
+TAP version 13
+# Subtest: all pre-existing canonical fields are unchanged, including admissions, scores and hypotheses
+ok 1 - all pre-existing canonical fields are unchanged, including admissions, scores and hypotheses
+  ---
+  duration_ms: 4.592833
+  ...
+# Subtest: twelve labels resolve explicit existing identities; no invented SOP numbers
+ok 2 - twelve labels resolve explicit existing identities; no invented SOP numbers
+  ---
+  duration_ms: 0.399416
+  ...
+# Subtest: many-to-many explicit dietary admissions stay distinct from hypothesis association
+ok 3 - many-to-many explicit dietary admissions stay distinct from hypothesis association
+  ---
+  duration_ms: 0.3345
+  ...
+# Subtest: investigations retain all gaps and explicit unresolved assessments without fabricating active work
+ok 4 - investigations retain all gaps and explicit unresolved assessments without fabricating active work
+  ---
+  duration_ms: 0.315541
+  ...
+# Subtest: older grouped history is retained with exact candidate-specific successors
+ok 5 - older grouped history is retained with exact candidate-specific successors
+  ---
+  duration_ms: 0.599417
+  ...
+# Subtest: missing identities and active actions fail validation
+ok 6 - missing identities and active actions fail validation
+  ---
+  duration_ms: 1.2405
+  ...
+# Subtest: existing Investigations renderer exposes both groups and canonical evidence links
+ok 7 - existing Investigations renderer exposes both groups and canonical evidence links
+  ---
+  duration_ms: 84.916292
+  ...
+# Subtest: PM-only SF generation stays deterministic and retains twelve independent findings
+ok 8 - PM-only SF generation stays deterministic and retains twelve independent findings
+  ---
+  duration_ms: 33.991708
+  ...
+# Subtest: PM scope explanations remain inside mechanism disclosure; output explanations and findings outside
+ok 9 - PM scope explanations remain inside mechanism disclosure; output explanations and findings outside
+  ---
+  duration_ms: 1.60075
+  ...
+# Subtest: Finding renderer keeps original appraisal and exposes exact PM8 association label
+ok 10 - Finding renderer keeps original appraisal and exposes exact PM8 association label
+  ---
+  duration_ms: 57.255958
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 527.782792

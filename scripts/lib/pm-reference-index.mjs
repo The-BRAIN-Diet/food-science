@@ -27,7 +27,7 @@ export function buildPmReferenceRecords(references = []) {
     const parsed = line.match(REF_LINE_RE);
     const href = line.match(/\]\(([^)]+)\)/)?.[1] || "";
     records.push({
-      number: i + 1,
+      number: Number(line.match(/^\[(\d+)\]\s/)?.[1] || i + 1),
       citationKey: parsed ? String(parsed[2]).trim() : "",
       label: parsed ? String(parsed[1]).trim() : line.replace(/^\-\s*/, ""),
       authorYear: readerAuthorYearFromPmReferenceLabel(parsed?.[1] || ""),
@@ -48,10 +48,8 @@ export function buildPmReferenceRecordIndex(references = []) {
 /** @returns {Map<string, number>} citation_key → 1-based index */
 export function buildPmReferenceKeyIndex(references = []) {
   const index = new Map();
-  for (const line of references || []) {
-    const key = citationKeyFromPmReferenceLine(line);
-    if (!key || index.has(key)) continue;
-    index.set(key, index.size + 1);
+  for (const record of buildPmReferenceRecords(references)) {
+    if (record.citationKey && !index.has(record.citationKey)) index.set(record.citationKey, record.number);
   }
   return index;
 }
@@ -115,7 +113,7 @@ export function renderNumberedPmReferencesSection(references = [], { heading = "
       lines.push(`- ${inner}`);
       continue;
     }
-    const n = i + 1;
+    const n = Number(inner.match(/^\[(\d+)\]\s/)?.[1] || i + 1);
     const label = parsed[1];
     const href = inner.match(/\]\(([^)]+)\)/)?.[1] || "";
     lines.push(
@@ -144,6 +142,8 @@ export function validatePmReferenceIntegrity(
 ) {
   const records = buildPmReferenceRecords(references);
   const seenKeys = new Set();
+  const validNumbers = new Set(records.map(r=>r.number));
+  if(validNumbers.size !== records.length) issues.push({code:"pm_reference_duplicate_number",message:`${entityLabel}: duplicate stable reference numbers`});
   for (const record of records) {
     if (!record.citationKey) {
       issues.push({
@@ -188,7 +188,7 @@ export function validatePmReferenceIntegrity(
   const anchors = [...String(content).matchAll(/id="pm-ref-(\d+)"/g)].map((match) =>
     Number(match[1]),
   );
-  for (let number = 1; number <= records.length; number += 1) {
+  for (const number of validNumbers) {
     const count = anchors.filter((anchor) => anchor === number).length;
     if (count !== 1) {
       issues.push({
@@ -198,10 +198,10 @@ export function validatePmReferenceIntegrity(
     }
   }
 
-  for (const match of body.matchAll(/\[(\d+)\]\(#pm-ref-(\d+)\)/g)) {
+  for (const match of body.matchAll(/\[(\d+)\]\]?\(#pm-ref-(\d+)\)/g)) {
     const label = Number(match[1]);
     const target = Number(match[2]);
-    if (label !== target || target < 1 || target > records.length) {
+    if (label !== target || !validNumbers.has(target)) {
       issues.push({
         code: "pm_body_citation_misnumbered",
         message: `${entityLabel}: body citation [${label}] points to invalid #pm-ref-${target}`,
@@ -213,7 +213,7 @@ export function validatePmReferenceIntegrity(
   // Strip only correctly numbered, in-range links before checking bare labels.
   const citationBody = body.replace(/<a href="#pm-ref-(\d+)">([^<]*)<\/a>/g, (whole, target, label) => {
     const n=Number(target), number=label.match(/\[(\d+)\]/);
-    return number && Number(number[1])===n && n>=1 && n<=records.length ? '' : whole;
+    return number && Number(number[1])===n && validNumbers.has(n) ? '' : whole;
   });
   for (const match of citationBody.matchAll(/(^|[^\[])\[(\d+)\](?!\(#pm-ref-\d+\))/gm)) {
     issues.push({

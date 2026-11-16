@@ -809,3 +809,7 @@ Apply [Canonical scientific truth and presentation consistency](canonical-scient
 ## Intervention food/substance presentation — author-approved 6 November 2026
 
 Apply [SOP/Lifestyle food–substance joins](sop-lifestyle-six-atom-presentation.md#approved-soplifestyle-foodsubstance-joins--6-november-2026). Stage 2A distinguishes documented composition, tested protocol, biological relationship and unconfirmed mediator; Stage 2B records supported canonical identities and derives the links below intervention titles. These are presentation metadata, not a seventh atom or new admission. Keep all six atoms, preparation/comparator limits and independent SEC provenance; omit unsupported food connections for patterns and behaviours. PM rendering and chord extraction consume one generated mapping, with composition/context edge types rather than inferred efficacy.
+
+## PM8 association and Investigations pilot — owner-approved 15 November 2026
+
+For BRS6-FM4-PM8 only, apply the [scoped association/lifecycle contract](pm-evidence-tabs-contract.md#pm8-association-and-investigations-pilot--owner-approved-15-november-2026). Section 4 SFs remain the shared foundation; explicit many-to-many references do not create admissions, scores or food relationships. SOPs remain practices, even when accepted; Dietary Levers require separate input-specific admission. Investigations groups existing questions by recorded review activity; historical decisions and Unestablished hypotheses remain distinct. Do not migrate other PMs or reactivate QC.

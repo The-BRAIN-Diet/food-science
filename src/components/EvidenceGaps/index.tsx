@@ -1,3 +1,5 @@
+import {associationPilot, pilotInvestigations} from '../../lib/pmAssociationPilot.mjs';
+import {findingReaderLabel} from '../../lib/scientificFindingPresentation.mjs';
 import {activeFindingNumber} from '../../lib/scientificFindingPresentation.mjs';
 import React from 'react';
 import {useDoc} from '@docusaurus/plugin-content-docs/client';
@@ -19,6 +21,30 @@ export default function EvidenceGaps({panelId = "evidence-gaps-panel"}: {panelId
   const data = frontMatter as any;
   const rows = evidenceGapItems(records.issues, data.pm_id, data.intervention_adjudications, data.evidence_gaps);
   const findings = [...(data.scientific_findings || []), ...(data.scientific_reconstruction_history || []).flatMap(h => h.records?.scientific_findings || [])];
+  const pilot = associationPilot(data);
+  if (pilot) {
+    const investigations=pilotInvestigations(data);
+    return <section id={panelId} role="tabpanel" className={styles.section} aria-labelledby="evidence-gaps-tab">
+      <h2 id="evidence-gaps-heading" tabIndex={-1}><HalfFilledFlask /> Investigations</h2>
+      <p>Review activity, scientific conclusions and admission decisions are distinct. The linked history retains earlier assessments; non-admission does not establish that a biological relationship is false.</p>
+      {['open','awaiting-further-evidence'].map(state => <section key={state}>
+        <h3>{state === 'open' ? 'Open Investigations' : 'Non-conclusive — awaiting further evidence'}</h3>
+        {!investigations.some(r=>r.review_state===state) && <p>No active next action is recorded. This does not imply scientific clearance or closure.</p>}
+        {investigations.filter(r=>r.review_state===state).map(row=><EvidenceDisclosure key={row.source_id} id={row.source_id} label="Investigation" title={row.question}>
+          <p><strong>Affected relationship/output:</strong> {row.affected}</p>
+          <p><strong>What is established:</strong> {row.established}</p>
+          {row.source.cannot_establish && <p><strong>What is not established:</strong> {row.source.cannot_establish}</p>}
+          <p><strong>Missing evidence or unresolved link:</strong> {row.missing}</p>
+          <p><strong>Why retain this question:</strong> {row.rationale}</p>
+          <p><strong>Next action:</strong> {row.next_action}</p>
+          <p><strong>Evidence needed:</strong> {row.required}</p>
+          <p><strong>Supporting SFs:</strong> {row.finding_ids.length ? row.finding_ids.map(id=>{const f=findings.find(f=>f.id===id);return <span key={id}> <a href={'#'+id.toLowerCase()}>{f ? findingReaderLabel(f,data) : id}</a>; </span>}) : 'No SF association recorded; see the decision provenance.'}</p>
+          {row.hypothesis_id && <p><a href={'?'+ '#' + row.hypothesis_id.toLowerCase()}>Hypothesis — {row.hypothesis_id}</a> · Unestablished</p>}
+          {[...(row.source_type==='decision'?[row.source_id]:[]),...(row.decision_refs||[])].map(id=><p key={id}><a href={'?review=1#'+id.toLowerCase()}>Decision history — {id}</a></p>)}
+        </EvidenceDisclosure>)}
+      </section>)}
+    </section>;
+  }
   if (!rows.length) return null;
   return <section id={panelId} role="tabpanel" className={styles.section} aria-labelledby="evidence-gaps-tab">
     <h2 id="evidence-gaps-heading" tabIndex={-1}><HalfFilledFlask /> Evidence Gaps</h2>

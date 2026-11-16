@@ -1,0 +1,500 @@
+import {Stage2ReviewProvider} from '../Stage2Review'
+import React, {type KeyboardEvent, type ReactNode, useEffect, useLayoutEffect, useMemo, useRef} from "react"
+import clsx from "clsx"
+import {useHistory, useLocation} from "@docusaurus/router"
+import {useDoc} from "@docusaurus/plugin-content-docs/client"
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
+import {
+  ADVANCED_QUERY_PARAM,
+  REVIEW_QUERY_PARAM,
+  THERAPEUTIC_QUERY_PARAM,
+  findPublicPageRecord,
+  openPublicIssueCount,
+  showsNutritionContentTabs,
+  showsPageUtilityBar,
+  isNutritionContentPermalink,
+} from "@site/src/data/frameworkQcPublic"
+import {usePageContentTabs} from "@site/src/components/AdvancedNutrition"
+import PageReviewPanel from "./PageReviewPanel"
+import {CanonicalSecAudit} from "../SecAssessment"
+import EvidenceAudit from "../SecCalibrationPreview/EvidenceAudit"
+import {isAuditPreview} from "../SecCalibrationPreview/assessmentAudit.mjs"
+import OpenIssuesPanel from "./OpenIssuesPanel"
+import EvidenceGaps from "../EvidenceGaps"
+import {initBrsFmHubDropdowns} from "../../client/brsFmHubDropdown"
+import {evidenceGapItems} from "@site/src/lib/scientificTransparency.mjs"
+import {currentPmOpenIssues, OPEN_ISSUES_QUERY_PARAM} from "@site/src/data/pmOpenIssues.mjs"
+import {historicalFindingIds} from "@site/src/lib/scientificTransparency.mjs"
+import {findingOnMainPage} from "@site/src/lib/scientificFindingPresentation.mjs"
+import pmOpenIssueRecords from "../../../system/framework-qc/pm-open-issues.json"
+import styles from "./styles.module.css"
+
+function extraPageIds(frontMatter: Record<string, unknown>): string[] {
+  return ["id", "pm_id", "fm_id", "kc_id", "sm_id"]
+    .map((key) => frontMatter[key])
+    .filter((value): value is string => typeof value === "string" && value.length > 0)
+}
+
+type ContentTab = "highlights" | "advanced" | "therapeutic" | "review" | "issues" | "gaps"
+
+const THERAPEUTIC_HASH_IDS = new Set([
+  "walsh-biochemical-biotypes",
+  "copper-therapeutic-areas",
+  "bh4-therapeutic-areas",
+  "glutathione-therapeutic-areas",
+  "therapeutic-area-research",
+  "therapeutic-area-research-references",
+])
+
+function DocUtilityBarContent({
+  children,
+}: {
+  children: ReactNode
+}): ReactNode {
+  const {metadata, frontMatter} = useDoc()
+  const location = useLocation()
+  const auditPreview = isAuditPreview(location.pathname)
+  const history = useHistory()
+  const fm = (frontMatter || {}) as Record<string, unknown>
+  const registeredPage = useMemo(
+    () =>
+      findPublicPageRecord({
+        permalink: metadata.permalink,
+        pageId: typeof fm.id === "string" ? fm.id : metadata.id,
+        extraIds: extraPageIds(fm),
+      }),
+    [metadata.permalink, metadata.id, fm.id, fm.pm_id, fm.fm_id, fm.kc_id, fm.sm_id],
+  )
+  const valueReviews = Array.isArray(fm.nutrition_value_reviews) ? fm.nutrition_value_reviews : []
+  const page = valueReviews.length ? {
+    page_id: typeof fm.id === "string" ? fm.id : metadata.id,
+    site_path: metadata.permalink,
+    title: String(fm.title || metadata.title),
+    page_type: "Food", letter: "", review_status: "unreviewed",
+    last_checked: null, reviewer: null, review_scope: "Bioactive quantity citation attachment",
+    issues: [], limitations: [], history: [],
+    ...registeredPage,
+    corrections: [...(registeredPage?.corrections || []), ...valueReviews],
+  } as NonNullable<typeof registeredPage> : registeredPage
+  const {siteConfig} = useDocusaurusContext()
+  const includeInternalDocs = siteConfig.customFields?.includeInternalDocs === true
+  const onContentPage = showsPageUtilityBar({
+    pageType: page?.page_type,
+    source: metadata.source,
+    permalink: metadata.permalink,
+  })
+  const showContentTabs =
+    onContentPage &&
+    (showsNutritionContentTabs(page?.page_type) ||
+      (!page && isNutritionContentPermalink(metadata.permalink)))
+  const isPmPage = page?.page_type === "PM" || typeof fm.pm_id === "string"
+  const pmId = typeof fm.pm_id === "string" ? fm.pm_id : ""
+  const secFindings = Array.isArray(fm.scientific_findings) ? fm.scientific_findings : []
+  const hasSecReferences = isPmPage && secFindings.some(f => f && Object.hasOwn(f, "sec_assessment_ref"))
+  const openIssueCount = currentPmOpenIssues(pmOpenIssueRecords.issues, pmId).length
+  const showEvidenceGapsTab = isPmPage && fm.evidence_gaps_tab === true && evidenceGapItems(pmOpenIssueRecords.issues, pmId, fm.intervention_adjudications as any[], fm.evidence_gaps as any[]).length > 0
+  const showOpenIssuesTab = isPmPage && (fm.evidence_tabs_version === 1 || openIssueCount > 0)
+  const showReviewTab = onContentPage && (includeInternalDocs || isPmPage || auditPreview)
+  const showBar = showContentTabs || showReviewTab
+  const openCount = openPublicIssueCount(page)
+  const params = new URLSearchParams(location.search)
+  const contentSlots = usePageContentTabs()
+  const setUseTabPanel = contentSlots?.setUseTabPanel
+  const hasAdvanced = Boolean(contentSlots?.panels.advanced)
+  const hasTherapeutic = Boolean(contentSlots?.panels.therapeutic)
+  const hashId = location.hash.replace(/^#/, "")
+  const reviewOpen = showReviewTab && params.get(REVIEW_QUERY_PARAM) === "1"
+  const issuesOpen = showOpenIssuesTab && params.get(OPEN_ISSUES_QUERY_PARAM) === "1" && !reviewOpen
+  const gapsOpen = showEvidenceGapsTab && params.get("evidence-gaps") === "1" && !reviewOpen && !issuesOpen
+  const therapeuticHash = Boolean(hashId) && THERAPEUTIC_HASH_IDS.has(hashId)
+  const therapeuticOpen =
+    showContentTabs &&
+    hasTherapeutic &&
+    !reviewOpen &&
+    !issuesOpen &&
+    !gapsOpen &&
+    (params.get(THERAPEUTIC_QUERY_PARAM) === "1" || therapeuticHash)
+  const advancedOpen =
+    showContentTabs &&
+    hasAdvanced &&
+    !reviewOpen &&
+    !issuesOpen &&
+    !gapsOpen &&
+    !therapeuticOpen &&
+    params.get(ADVANCED_QUERY_PARAM) === "1"
+  const highlightsOpen = !reviewOpen && !issuesOpen && !advancedOpen && !therapeuticOpen && !gapsOpen
+  const mainContentRef = useRef<HTMLDivElement>(null)
+  const returnToPmRequested = useRef(false)
+  const qcLabel =
+    auditPreview || isPmPage ? "Evidence & Audit" : openCount > 0 ? `Review & Corrections (${openCount})` : "Review & Corrections"
+  const issuesLabel = openIssueCount > 0 ? `Open Issues (${openIssueCount})` : "Open Issues"
+
+  useLayoutEffect(() => {
+    setUseTabPanel?.(showContentTabs)
+    return () => setUseTabPanel?.(false)
+  }, [showContentTabs, setUseTabPanel])
+
+  useEffect(() => {
+    if (!highlightsOpen || !returnToPmRequested.current) return
+    returnToPmRequested.current = false
+    const main = mainContentRef.current
+    const heading = main?.querySelector<HTMLElement>("h1, h2") || main
+    if (heading) {
+      heading.tabIndex = -1
+      heading.focus({preventScroll: true})
+      main?.scrollIntoView({block: "start"})
+    }
+  }, [highlightsOpen])
+
+  function setContentTab(tab: ContentTab) {
+    const nextParams = new URLSearchParams(location.search)
+    nextParams.delete("evidence-gaps")
+    nextParams.delete(REVIEW_QUERY_PARAM)
+    nextParams.delete(OPEN_ISSUES_QUERY_PARAM)
+    nextParams.delete(ADVANCED_QUERY_PARAM)
+    nextParams.delete(THERAPEUTIC_QUERY_PARAM)
+    if (tab === "gaps") nextParams.set("evidence-gaps", "1")
+    if (tab === "review") nextParams.set(REVIEW_QUERY_PARAM, "1")
+    if (tab === "issues") nextParams.set(OPEN_ISSUES_QUERY_PARAM, "1")
+    if (tab === "advanced") nextParams.set(ADVANCED_QUERY_PARAM, "1")
+    if (tab === "therapeutic") nextParams.set(THERAPEUTIC_QUERY_PARAM, "1")
+    const search = nextParams.toString()
+    const keepHash = tab === "advanced" || tab === "therapeutic"
+    history.push({
+      pathname: location.pathname,
+      search: search ? `?${search}` : "",
+      hash: keepHash ? location.hash : "",
+    })
+  }
+
+  useEffect(() => {
+    const id = location.hash.replace(/^#/, "")
+    if (!id) return
+    const mainFindingsIndex = fm.scientific_findings_placement === 'section-4' && id === 'scientific-findings'
+    if (findingOnMainPage(fm, id) || mainFindingsIndex) {
+      if (reviewOpen || issuesOpen || gapsOpen || mainFindingsIndex) {
+        const nextParams = new URLSearchParams(location.search)
+        nextParams.delete("evidence-gaps")
+        nextParams.delete(OPEN_ISSUES_QUERY_PARAM)
+        nextParams.delete(REVIEW_QUERY_PARAM)
+        history.replace({pathname: location.pathname, search: nextParams.toString() ? "?" + nextParams : "", hash: mainFindingsIndex ? '#41-scientific-findings' : location.hash})
+      }
+      return
+    }
+    if (reviewOpen) return
+    if (fm.evidence_tabs_version === 1 && secFindings.some(f => String(f.id).toLowerCase() === id)) {
+      const nextParams = new URLSearchParams(location.search)
+      nextParams.delete("evidence-gaps")
+      nextParams.delete(OPEN_ISSUES_QUERY_PARAM)
+      nextParams.set(REVIEW_QUERY_PARAM, "1")
+      history.replace({pathname: location.pathname, search: "?" + nextParams, hash: location.hash})
+      return
+    }
+    const retiredIssue = pmOpenIssueRecords.issues.find(row => row.pm_id === pmId && row.id.toLowerCase() === id && row.scope_disposition && row.scope_disposition !== 'retain')
+    if (retiredIssue) {
+      const nextParams = new URLSearchParams(location.search)
+      nextParams.delete(OPEN_ISSUES_QUERY_PARAM)
+      nextParams.set(REVIEW_QUERY_PARAM, "1")
+      history.replace({pathname: location.pathname, search: `?${nextParams}`, hash: `${location.hash}-history`})
+      return
+    }
+    if (issuesOpen) return
+    if (historicalFindingIds(fm).includes(id)) {
+      const nextParams = new URLSearchParams(location.search)
+      nextParams.delete(OPEN_ISSUES_QUERY_PARAM)
+      nextParams.set(REVIEW_QUERY_PARAM, "1")
+      history.replace({pathname: location.pathname, search: `?${nextParams}`, hash: location.hash})
+      return
+    }
+    if (THERAPEUTIC_HASH_IDS.has(id)) {
+      if (!hasTherapeutic || therapeuticOpen) return
+      const nextParams = new URLSearchParams(location.search)
+      nextParams.delete(REVIEW_QUERY_PARAM)
+      nextParams.delete(ADVANCED_QUERY_PARAM)
+      nextParams.set(THERAPEUTIC_QUERY_PARAM, "1")
+      history.replace({
+        pathname: location.pathname,
+        search: `?${nextParams.toString()}`,
+        hash: location.hash,
+      })
+      return
+    }
+    if (!hasAdvanced || advancedOpen || therapeuticOpen) return
+    if (!document.getElementById(id)) {
+      const nextParams = new URLSearchParams(location.search)
+      nextParams.delete(REVIEW_QUERY_PARAM)
+      nextParams.delete(THERAPEUTIC_QUERY_PARAM)
+      nextParams.set(ADVANCED_QUERY_PARAM, "1")
+      history.replace({
+        pathname: location.pathname,
+        search: `?${nextParams.toString()}`,
+        hash: location.hash,
+      })
+    }
+  }, [
+    hasAdvanced,
+    hasTherapeutic,
+    advancedOpen,
+    therapeuticOpen,
+    reviewOpen,
+    issuesOpen,
+    location.hash,
+    location.pathname,
+    location.search,
+    history,
+  ])
+
+  useEffect(() => {
+    if (reviewOpen || issuesOpen || gapsOpen) {
+      const heading = document.querySelector<HTMLElement>(
+        reviewOpen ? "#review-corrections-panel h2" : gapsOpen ? "#evidence-gaps-panel h2" : "#open-issues-panel h2",
+      )
+      const panelId = reviewOpen ? "review-corrections-panel" : gapsOpen ? "evidence-gaps-panel" : "open-issues-panel"
+      const panel = document.getElementById(panelId)
+      if (fm.evidence_tabs_version === 1 && panel) initBrsFmHubDropdowns(panel, {forceHash:true})
+      const target = location.hash ? document.getElementById(location.hash.slice(1)) : null
+      if (target && panel?.contains(target)) target.scrollIntoView({block:"start"})
+      else heading?.focus()
+      const onKey = (event: globalThis.KeyboardEvent) => {
+        if (event.key === "Escape") setContentTab("highlights")
+      }
+      window.addEventListener("keydown", onKey)
+      return () => window.removeEventListener("keydown", onKey)
+    }
+    if (findingOnMainPage(fm, location.hash.replace(/^#/, ""))) {
+      const target = document.getElementById(location.hash.slice(1))
+      if (target) {
+        initBrsFmHubDropdowns(target, {forceHash: true})
+        target.scrollIntoView({block: "start"})
+      }
+    }
+    const panelId = therapeuticOpen
+      ? "therapeutic-area-research-panel"
+      : advancedOpen
+        ? "advanced-nutrition-panel"
+        : null
+    if (!panelId) return
+    const id = location.hash.replace(/^#/, "")
+    const target = id ? document.getElementById(id) : null
+    if (target) {
+      target.scrollIntoView({block: "start"})
+    } else {
+      const heading = document.querySelector<HTMLElement>(
+        `#${panelId} h2, #${panelId} h3`,
+      )
+      heading?.focus()
+    }
+    const onKey = (event: globalThis.KeyboardEvent) => {
+      if (event.key === "Escape") setContentTab("highlights")
+    }
+    window.addEventListener("keydown", onKey)
+    return () => window.removeEventListener("keydown", onKey)
+  }, [reviewOpen, issuesOpen, gapsOpen, advancedOpen, therapeuticOpen, location.hash])
+
+  const tabIds = [
+    ...(showContentTabs
+      ? [
+          "nutritional-highlights-tab",
+          ...(hasAdvanced ? ["advanced-nutrition-tab"] : []),
+          ...(hasTherapeutic ? ["therapeutic-area-research-tab"] : []),
+        ]
+      : []),
+    ...(showEvidenceGapsTab ? ["evidence-gaps-tab"] : []),
+    ...(showOpenIssuesTab ? ["open-issues-tab"] : []),
+    ...(showReviewTab ? ["review-corrections-tab"] : []),
+  ]
+
+  function onTabListKeyDown(event: KeyboardEvent<HTMLDivElement>) {
+    if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) return
+    event.preventDefault()
+    const current = document.activeElement as HTMLElement | null
+    const index = tabIds.indexOf(current?.id || "")
+    if (index < 0) return
+    let next = index
+    if (event.key === "ArrowRight") next = (index + 1) % tabIds.length
+    if (event.key === "ArrowLeft") next = (index - 1 + tabIds.length) % tabIds.length
+    if (event.key === "Home") next = 0
+    if (event.key === "End") next = tabIds.length - 1
+    document.getElementById(tabIds[next])?.focus()
+  }
+
+  if (!showBar) return children
+
+  return (
+    <>
+      <div className={clsx(styles.bar, isPmPage && styles.pmBar)}>
+        {isPmPage && !highlightsOpen ? (
+          <button
+            type="button"
+            className={clsx(styles.tab, styles.backToPm)}
+            aria-controls="pm-main-content"
+            onClick={() => {
+              returnToPmRequested.current = true
+              setContentTab("highlights")
+            }}
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false">
+              <path d="m12 19-7-7 7-7M5 12h14" />
+            </svg>
+            Back to PM
+          </button>
+        ) : null}
+      <div
+        className={styles.tabList}
+        role="tablist"
+        aria-label="Page utilities"
+        onKeyDown={onTabListKeyDown}
+      >
+        {showContentTabs ? (
+          <div className={styles.contentTabs}>
+            <button
+              type="button"
+              id="nutritional-highlights-tab"
+              className={clsx(styles.tab, highlightsOpen && styles.tabSelected)}
+              role="tab"
+              aria-selected={highlightsOpen}
+              tabIndex={highlightsOpen ? 0 : -1}
+              onClick={() => setContentTab("highlights")}
+            >
+              Nutritional Highlights
+            </button>
+            <button
+              type="button"
+              id="advanced-nutrition-tab"
+              className={clsx(
+                styles.tab,
+                advancedOpen && styles.tabSelected,
+                !hasAdvanced && styles.tabDisabled,
+              )}
+              role="tab"
+              aria-selected={advancedOpen}
+              aria-disabled={!hasAdvanced}
+              aria-controls={hasAdvanced ? "advanced-nutrition-panel" : undefined}
+              aria-describedby={hasAdvanced ? undefined : "advanced-nutrition-tab-status"}
+              tabIndex={hasAdvanced ? (advancedOpen ? 0 : -1) : -1}
+              onClick={(event) => {
+                if (!hasAdvanced) {
+                  event.preventDefault()
+                  return
+                }
+                setContentTab("advanced")
+              }}
+            >
+              Advanced Nutrition
+            </button>
+            {hasAdvanced ? null : (
+              <span id="advanced-nutrition-tab-status" className={styles.srOnly}>
+                Not yet activated
+              </span>
+            )}
+            <button
+              type="button"
+              id="therapeutic-area-research-tab"
+              className={clsx(
+                styles.tab,
+                therapeuticOpen && styles.tabSelected,
+                !hasTherapeutic && styles.tabDisabled,
+              )}
+              role="tab"
+              aria-selected={therapeuticOpen}
+              aria-disabled={!hasTherapeutic}
+              aria-controls={hasTherapeutic ? "therapeutic-area-research-panel" : undefined}
+              aria-describedby={
+                hasTherapeutic ? undefined : "therapeutic-area-research-tab-status"
+              }
+              tabIndex={hasTherapeutic ? (therapeuticOpen ? 0 : -1) : -1}
+              onClick={(event) => {
+                if (!hasTherapeutic) {
+                  event.preventDefault()
+                  return
+                }
+                setContentTab("therapeutic")
+              }}
+            >
+              Therapeutic Area Research
+            </button>
+            {hasTherapeutic ? null : (
+              <span id="therapeutic-area-research-tab-status" className={styles.srOnly}>
+                Not yet activated
+              </span>
+            )}
+          </div>
+        ) : (
+          <div />
+        )}
+        {showEvidenceGapsTab || showOpenIssuesTab || showReviewTab ? (
+          <div className={clsx(styles.qcWrap, showContentTabs && styles.qcWrapSeparated)}>
+            {showEvidenceGapsTab ? (
+              <button type="button" id="evidence-gaps-tab" className={clsx(styles.tab, gapsOpen && styles.tabSelected)} role="tab" aria-selected={gapsOpen} aria-controls="evidence-gaps-panel" tabIndex={gapsOpen || !showContentTabs ? 0 : -1} onClick={() => setContentTab(gapsOpen ? "highlights" : "gaps")}>
+                Evidence Gaps
+              </button>
+            ) : null}
+            {showOpenIssuesTab ? (
+              <button
+                type="button"
+                id="open-issues-tab"
+                className={clsx(styles.tab, issuesOpen && styles.tabSelected)}
+                role="tab"
+                aria-selected={issuesOpen}
+                aria-controls="open-issues-panel"
+                tabIndex={issuesOpen || !showContentTabs ? 0 : -1}
+                onClick={() => setContentTab(issuesOpen ? "highlights" : "issues")}
+              >
+                {issuesLabel}
+              </button>
+            ) : null}
+            {showReviewTab ? (
+            <button
+              type="button"
+              id="review-corrections-tab"
+              className={clsx(styles.tab, reviewOpen && styles.tabSelected)}
+              role="tab"
+              aria-selected={reviewOpen}
+              aria-controls="review-corrections-panel"
+              tabIndex={reviewOpen || !showContentTabs ? 0 : -1}
+              onClick={() => setContentTab(reviewOpen ? "highlights" : "review")}
+            >
+              {qcLabel}
+            </button>
+            ) : null}
+          </div>
+        ) : null}
+      </div>
+      </div>
+      <div ref={mainContentRef} id={isPmPage ? "pm-main-content" : undefined} className={clsx((reviewOpen || issuesOpen || gapsOpen || advancedOpen || therapeuticOpen) && styles.hiddenMain)}>
+        {children}
+      </div>
+      {gapsOpen ? <EvidenceGaps panelId="evidence-gaps-panel" /> : null}
+      {issuesOpen ? (
+        <OpenIssuesPanel pmId={pmId} frontMatter={fm} panelId="open-issues-panel" />
+      ) : null}
+      {reviewOpen ? (
+        auditPreview ? <EvidenceAudit panelId="review-corrections-panel" /> : isPmPage ? <CanonicalSecAudit findings={secFindings} pmId={pmId} page={page} frontMatter={fm} panelId="review-corrections-panel"/> : <PageReviewPanel page={page} panelId="review-corrections-panel" />
+      ) : null}
+      {advancedOpen && contentSlots?.panels.advanced ? (
+        <div
+          id="advanced-nutrition-panel"
+          className={styles.advancedPanel}
+          role="tabpanel"
+          aria-labelledby="advanced-nutrition-tab"
+        >
+          {contentSlots.panels.advanced}
+        </div>
+      ) : null}
+      {therapeuticOpen && contentSlots?.panels.therapeutic ? (
+        <div
+          id="therapeutic-area-research-panel"
+          className={styles.advancedPanel}
+          role="tabpanel"
+          aria-labelledby="therapeutic-area-research-tab"
+        >
+          {contentSlots.panels.therapeutic}
+        </div>
+      ) : null}
+    </>
+  )
+}
+
+export default function DocUtilityBar({children}: {children: ReactNode}): ReactNode {
+  return <Stage2ReviewProvider><DocUtilityBarContent>{children}</DocUtilityBarContent></Stage2ReviewProvider>
+}

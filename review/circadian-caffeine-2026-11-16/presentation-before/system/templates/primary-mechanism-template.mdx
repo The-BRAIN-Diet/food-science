@@ -1,0 +1,249 @@
+---
+title: "<INSERT_PM_TITLE>"
+pm_id: "<INSERT_PM_ID>"
+evidence_tabs_version: 1
+evidence_gaps_tab: true
+scientific_findings_placement: section-4
+parent_fm: "<INSERT_PARENT_FM_ID>"
+parent_brs: "<INSERT_PARENT_BRS_ID>"
+summary: "<INSERT_PM_SUMMARY_UP_TO_120_WORDS>"
+key_constraints:
+  - id: "<INSERT_KC_ID>"
+    name: "<INSERT_KC_NAME>"
+    type: "substrate" # or "precursor" from dependencies
+cofactors:
+  - id: "<INSERT_COFACTOR_ID>"
+    name: "<INSERT_COFACTOR_NAME>"
+# Optional — authoritative phenome mappings (see system/phenome-relationship-schema.md)
+# phenome_relationships:
+#   - target_phenome: "Motivation"
+#     relationship_type: supports # supports | disrupts | modulates | indirect
+#     confidence: medium # low | low-medium | medium | high
+#     evidence_level: mechanistic # mechanistic | observational | intervention | clinical
+#     rationale: "<TRANSLATIONAL_RATIONALE>"
+#     references:
+#       - index: 1
+#         label: "<Author et al. (Year)>"
+#         citation_key: "<citation_key>"
+#         href: "/docs/papers/BRAIN-Diet-References#<citation_key>"
+intervention_dominance: "<Diet-Dominant|Diet/Lifestyle-Combined|Lifestyle-Dominant>"
+intervention_breakdown: "<Food-State Dominant|…>" # spreadsheet ingest; not rendered as §3 body
+timing_specific: "<Yes|No>"
+dose_sensitivity: "<Low|Moderate|High>"
+references:
+  - index: 1
+    label: "<PLACEHOLDER_REFERENCE_LABEL>"
+    citation_key: "<placeholder_citation_key_1>"
+    href: "/docs/papers/BRAIN-Diet-References#<placeholder_citation_key_1>"
+hide_title: true
+---
+
+<!--
+  SOP/Lifestyle identity links (author-approved 6 November 2026): use canonical food_ids/substance_ids
+  and ontology records; generate mappings with npm run mappings:food-strategies. Render beneath
+  the intervention title via existing components, never duplicate food lists here. Preserve six
+  atoms and optional Mechanism; omit unestablished pattern/behaviour mappings. See
+  system/sop-lifestyle-six-atom-presentation.md.
+  Profile A (extended): see system/primary-mechanism-schema.md — §5 canonical structure on BRS1-FM1-PM1.
+  Profile B (compact): Mechanistic Basis becomes ## 3; renumber following sections.
+-->
+
+## <INSERT_PM_ID> - <INSERT_PM_TITLE>
+
+## 1. Definition
+
+<INSERT_DEFINITION_TEXT>
+
+## 2. Primary Biological Effects
+
+<INSERT_DIRECTIONAL_ARROW_SUMMARY>
+
+## 3. Intervention Levers
+
+### Intervention Profile
+
+**Intervention Dominance:** <INSERT_INTERVENTION_DOMINANCE>
+
+<details>
+<summary><strong>3.1 Dietary Requirements</strong></summary>
+
+<details>
+<summary><strong>3.1.1 Direct and/or Derived Dietary Requirements</strong></summary>
+
+<!-- Substance ← 2–3 foods per bullet (see system/substance-food-mapping-format.md) -->
+- <INSERT_SUBSTANCE> ← <food1>, <food2>
+
+</details>
+
+<details>
+<summary><strong>3.1.2 Cofactors and Substrates</strong></summary>
+
+- <INSERT_COFACTOR_OR_SUBSTRATE>
+
+</details>
+
+<details>
+<summary><strong>3.1.3 Key Constraints</strong></summary>
+
+- [<INSERT_KC_ID> — <INSERT_KC_NAME>](/docs/biological-targets/<path-to-kc>)
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>3.2 System Optimisation Practices</strong></summary>
+
+<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
+
+- <INSERT_OPTIMISATION_LEVER>
+
+</details>
+
+<details>
+<summary><strong>3.3 Lifestyle Levers</strong></summary>
+
+- <INSERT_LIFESTYLE_LEVER> (Evidence:<INSERT_EVIDENCE_TIER>) [Author et al., Year]
+
+</details>
+
+## 4. Mechanistic Basis + Scientific Findings
+
+### Summary
+
+<INSERT_WHY_THIS_MECHANISM_MATTERS — implication first; not a restated Definition>
+<!-- Link each active Finding from this Summary to its mechanism block and §4.1 disclosure.
+     Preserve reciprocal Finding → mechanism links as scientific-lesson authored islands. -->
+
+<!-- Exact reference: BRS1-FM1-PM1; see pm-evidence-tabs-contract.md.
+     This dropdown contains only the mechanism narrative, not the SF components. -->
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong><INSERT_MECHANISM_NAME> — mechanistic detail</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (<INSERT_PRIMARY_MECHANISM_THEME>)
+
+<INSERT_HOW_THE_MECHANISM_WORKS — meal-level or pathway biology this PM owns>
+<!-- Cite evidence-backed claims inline: [Author et al., Year] — see system/brs-citation-reference-standard.md -->
+
+#### (Boundaries of the mechanism)
+
+<INSERT_WHAT_THIS_PM_DOES_NOT_COVER — link owning PMs elsewhere>
+
+#### (Integration within <INSERT_BRS_ID>)
+
+<INSERT_KC_AND_FM_PLACEMENT — short paragraph with KC links>
+
+</div>
+</div>
+</div>
+
+### 4.1 Scientific Findings
+
+#### Summary
+
+<INSERT_WHY_EVIDENCE_MATTERS — core biology is established; studies below refine practical interpretation; not a second Mechanistic Basis>
+
+<!-- Generate this subsection from scientific_findings and scientific_findings_intro via
+     scripts/sync-pm-scientific-findings.mjs. Emit ONE ScientificFinding component per active
+     mechanism Finding as SIBLINGS here, outside the mechanism-detail dropdown above.
+     Each component provides its own SF-title dropdown, compact SEC/audit line, summary,
+     What this means, Explore the evidence and individual-study disclosures. Preserve the
+     reciprocal Mechanistic explanation link under each SF using scientific-lesson islands.
+     Derive the active count dynamically; top-level SF dropdown count must equal that count.
+     Do not wrap the collection in another dropdown or replace it with audit links.
+     No duplicated Finding records in Evidence & Audit.
+     Scientific Principles, SEC assessment details, corrections and history remain in the audit. -->
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+<!-- Ordered cross-PM pathway chains when relevant; linked PM labels with ↓ between steps -->
+
+- None listed
+
+### 5.2 Connected BRS Mechanisms
+
+<!-- PM/FM links in other BRS domains -->
+
+- None listed
+
+### 5.3 Connected Primary Mechanisms
+
+<!-- Parent FM + sibling PMs on the same host FM (exclude this PM) -->
+
+- [<INSERT_PARENT_FM_ID> - <INSERT_PARENT_FM_TITLE>](/docs/biological-targets/<path-to-fm>)
+
+## 7. Phenome Connections
+
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+
+No direct functional outcome relationship currently mapped.
+
+<!-- When phenome_relationships exist, replace empty state with one <details> per mapping:
+<details>
+<summary><strong><TARGET_PHENOME> — <relationship_type></strong></summary>
+
+- **Biology → Phenome Confidence:** <confidence>
+- **Evidence Level:** <evidence_level>
+- **Rationale:** ...
+- **Key References:** ...
+- **Evidence Confidence:** <evidence_confidence>
+- **Rationale:** <rationale>
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#citation_key","label":"Author et al. (Year)"}]} />
+
+</details>
+-->
+
+## 8. References
+
+<!-- Author et al. (Year) — Topic; see system/brs-citation-reference-standard.md -->
+- [Author et al. (Year) — Short Descriptive Study Topic](/docs/papers/BRAIN-Diet-References#<placeholder_citation_key_1>)
+
+
+## Sixth atomic field — Dietary input (Stage 2A / Stage 2B)
+
+The PM dietary-context contract is **Input | Input type | Biological role | Evidence source | Limitation | Dietary input**. Store the sixth field on the authoritative `dietary_input_traceability` atom as `dietary_input: true`, `false`, or `null`; render these as **Yes**, **No**, or **Unset — clarification required**. Never copy the decision into a separately editable food registry or lever overlay. `dietary_input_note` and `dietary_input_flags` are review metadata, not additional atomic fields. Missing legacy values remain unset until reviewed.
+
+Stage 2A makes the existing accepted supply decision explicit; Stage 2B projects that same atom without reassessing evidence. Preserve findings, citations, limitations, biological role, relationship classification, ownership and upstream/KC applicability.
+
+- §1.1.1 / §3.1.1 Direct/Derived Dietary Requirements normally receive Yes because section admission establishes dietary applicability. Explicit contradictions must be flagged (`section-supply-contradiction`), leaving the value unset pending resolution rather than silently overriding either record.
+- §1.1.2 / §3.1.2 Cofactors and Substrates require individual review of the accepted biological role, supply route and limitation. Intracellular participation alone establishes neither Yes nor No.
+- §1.1.3 / §3.1.3 Key Constraints/upstream resource inputs distinguish dietary constituents from the pool or constraint itself. A constituent may receive Yes; a pool reference receives No when no dietary supply relationship is admitted for the pool itself. Constituent decisions remain on their PM atoms, never inherited from KC applicability.
+- Ambiguous cases receive `dietary_input: null`, a specific `dietary_input_note` and a clarification flag. Do not default to No.
+
+No means **no dietary supply relationship is admitted for this entry in this PM**. It does not mean the substance is absent from food or biologically unnecessary. Lack of demonstrated benefit from extra intake, dose responsiveness or a universal requirement is not alone a reason to assign No. Dietary input and PM ownership/upstream/accounting designation are independent fields.
+
+```yaml
+- atom_id: PM-example-DIT-1
+  input: Vitamin B6
+  input_type: cofactor precursor
+  biological_role: Accepted precursor provision for intracellular PLP
+  evidence_source: # retain accepted finding and citation references
+    finding_ids: [PM-example-F1]
+    citation_keys: [accepted_reference_key]
+  evidence_limitation: Retain the accepted limitation verbatim
+  dietary_input: true
+  dietary_input_note: Accepted dietary precursor route; no conversion yield inferred
+```
+
+Generate PM-input substance–food lists only for `dietary_input === true`. Keep No and unset entries visible as biological context; suppress their food lists without removing canonical food composition records. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship. SOPs/lifestyle are outside this PM dietary-input migration.
+
+
+For independently admitted food-related SOPs, follow `system/food-strategy-rollup-schema.md`. Record stable `food_strategy_id` and explicit `food_strategy_scope` on the PM SOP atom, retain its original role/evidence/limitation, and regenerate the rollup. A dietary-input No does not admit an SOP. The food rollup is a separate strategy/intervention view; canonical food or substance links require accepted identities and must not be guessed.
+
+{/* SOP/Lifestyle presentation contract (2 November 2026): Within the governed category, render each admitted practice as precise title → demonstrated result → evidence type/population/exposure → numbered PM references → canonical blue Evidence & limitations disclosure. Use the canonical atom ID and an -evidence panel suffix. Preserve six atoms and dominance numbering; no confidence badge or category-leading appraisal. See dietary-input-traceability-contract.md, Intervention presentation: practice before appraisal. PM1 is the worked template. */}
+
+
+{/* Approved 4 November 2026: PM1-only Section 4 grouping pilot. Keep summary visible. Use existing brs-fm-hub parent disclosures: Scientific Findings → SOP assessments → Lifestyle assessments when present. Children keep existing disclosures and exact SEC ownership. Deep links open parents. Opt-in section4_assessment_groups is not a global template default; preserve the generated section4-findings:end boundary before authored SOP assessments. No wider rollout authorised. */}
+
+{/* Scientific Lessons: when present, put existing GAD-styled lesson dropdowns immediately after Section 4 Summary prose, before mechanistic detail and Scientific Findings. Separate sibling disclosures, outside the generated Findings block. Preserve evidence/identity; no mandatory lesson or new score. Owner-approved 4 November 2026. */}
+
+{/* PM8-only association/Investigations pilot: see system/pm-evidence-tabs-contract.md, 15 November 2026 amendment. Do not opt other PMs in automatically. */}

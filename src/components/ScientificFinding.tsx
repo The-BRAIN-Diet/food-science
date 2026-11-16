@@ -1,3 +1,4 @@
+import {findingAssociations} from '../lib/pmAssociationPilot.mjs';
 import {isScientificPrinciple} from '../lib/scientificPrinciples.mjs'
 import React, { useEffect, useRef } from "react"
 import { initBrsFmHubDropdowns } from "../client/brsFmHubDropdown"
@@ -244,7 +245,8 @@ export default function ScientificFinding({
 }): React.JSX.Element | null {
   const rootRef = useRef<HTMLElement>(null)
   const {frontMatter} = useDoc()
-  const interventionLinks = findingInterventionLinks(frontMatter, finding.id)
+  const associations = findingAssociations(frontMatter, finding.id)
+  const interventionLinks = associations ? [] : findingInterventionLinks(frontMatter, finding.id)
   const connected = finding.connected_supportive_evidence || []
   const dependency = finding.evidence_dependency || []
   const informs = finding.informs || []
@@ -276,6 +278,11 @@ export default function ScientificFinding({
           </button>
           {finding.sec_assessment_ref !== undefined && <p className="brain-sf-confidence-compact"><SecAssessmentSummary finding={finding} pmId={pmId}/></p>}
           <div className="brs-fm-hub-panel" hidden>
+            {associations?.targets.map((link:any) => <div key={`${link.kind}:${link.record_id}`} data-association-target={link.record_id}>
+              <p><strong>Informs {link.kind}:</strong> <a href={link.href}>{link.record_id}</a></p>
+              {link.identity_note && <p>{link.identity_note}</p>}
+            </div>)}
+            {associations && <p>Association supports and limitations are given in this Finding's summary, interpretation and evidence below. They do not independently establish admission, scoring or efficacy.</p>}
             {interventionLinks.map(link=><p key={link.id} data-intervention-id={link.id}>Supports {link.kind}: <a href={link.href}>{link.label}</a></p>)}
             {summary ? (
               <p className="brain-sf-lead">{renderTextWithPmCites(summary, finding)}</p>

@@ -1,0 +1,50 @@
+[
+  [
+    "**Salmon roe**",
+    "DHA — **300 mg**; meaningful EPA+DHA contribution",
+    "[BRS1-FM3-PM7](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation)",
+    "Neuronal membrane phospholipid constituent.",
+    "[MEXT 10140](/docs/papers/BRAIN-Diet-References#mext_salted_chum_roe_2023); [Liu 2014: piglets](/docs/papers/BRAIN-Diet-References#liu_higher_2014)",
+    "Piglet tracer evidence; roe-specific human incorporation and effects unmeasured."
+  ],
+  [
+    "Salmon roe",
+    "EPA — **240 mg**; meaningful EPA+DHA contribution",
+    "[BRS3-FM3-PM8](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance)",
+    "Substrate for inflammatory and pro-resolving lipid mediators.",
+    "[MEXT 10140](/docs/papers/BRAIN-Diet-References#mext_salted_chum_roe_2023); [Barden 2014](/docs/papers/BRAIN-Diet-References#barden_short-term_2014)",
+    "Mixed omega-3 trial; this serving’s target engagement untested."
+  ],
+  [
+    "Salmon roe",
+    "B12 — **7.05 µg**; meaningful (294% RDA)",
+    "[BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) — precursor",
+    "Methylcobalamin enables homocysteine remethylation.",
+    "[MEXT 10140](/docs/papers/BRAIN-Diet-References#mext_salted_chum_roe_2023); [Drennan 1994](/docs/papers/BRAIN-Diet-References#drennan_b12_structure_1994); [Froese 2019](/docs/papers/BRAIN-Diet-References#froese_vitamin_2019)",
+    "Bacterial structural evidence; extra intake need not increase human enzyme activity."
+  ],
+  [
+    "**Lemon juice**",
+    "Vitamin C — **2.98 mg**; minor (3.31% reference RDA)",
+    "[BRS3-FM2-PM6](/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling)",
+    "Regenerates vitamin E from its radical.",
+    "[USDA FDC 167747](/docs/papers/BRAIN-Diet-References#usda_lemon_juice_167747); [Packer 1979](/docs/papers/BRAIN-Diet-References#packer_direct_1979)",
+    "Chemical experiment; serving-level physiological effect unestablished."
+  ],
+  [
+    "Lemon juice",
+    "Eriocitrin — present; amount/relevance unestablished",
+    "Research context; PM unassigned",
+    "Potential hepatic lipid and mitochondrial modulation.",
+    "[Caristi 2003](/docs/papers/BRAIN-Diet-References#food_composition_9a4748b52289); [Hiramitsu 2014](/docs/papers/BRAIN-Diet-References#hiramitsu_eriocitrin_2014)",
+    "Zebrafish/cell evidence; juice dose and human response unknown."
+  ],
+  [
+    "**Fermented hot sauce**",
+    "Capsaicin — amount unknown; documented sensory action, serving response unquantified",
+    "TRPV1 sensory signalling — PM unassigned",
+    "TRPV1 activation: heat sensation and possible autonomic responses.",
+    "[Henquet 2016](/docs/papers/BRAIN-Diet-References#henquet_functional_2016); [Caterina 1997](/docs/papers/BRAIN-Diet-References#caterina_capsaicin_1997); [Kawakami 2016](/docs/papers/BRAIN-Diet-References#kawakami_capsaicin_2016)",
+    "**Capsaicin dose and physiological response magnitude from 2 ml of sauce are unquantified.**"
+  ]
+]

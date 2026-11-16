@@ -1,0 +1,431 @@
+import {isScientificPrinciple} from '../lib/scientificPrinciples.mjs'
+import React, { useEffect, useRef } from "react"
+import { initBrsFmHubDropdowns } from "../client/brsFmHubDropdown"
+import {SecAssessmentSummary} from "./SecAssessment"
+import {findingReaderLabel,findingInterventionLinks} from "../lib/scientificFindingPresentation.mjs"
+import {useDoc} from '@docusaurus/plugin-content-docs/client'
+
+/**
+ * Canonical Scientific Finding renderer — audience-layered presentation.
+ *
+ * Outer disclosure matches PM §4 Mechanistic Basis hub blocks (green chevron,
+ * brs-fm-hub-summary title). Inner "Explore the evidence" and study rows use
+ * the same hub disclosure pattern.
+ */
+
+export type EvidenceSource = "repository-inherited" | "bounded-external-search"
+
+export type IndividualStudyAssessment = {
+  study: string
+  population: string
+  result: string
+  effect_magnitude: string
+  evidence_summary: string
+  limitations: string
+}
+
+export type EvidenceConsideredItem = {
+  label: string
+  href?: string
+  citation_key?: string
+  data_level?: string
+  exposure_context?: string
+  directional_finding: string
+  evidence_source: EvidenceSource
+  assessment?: IndividualStudyAssessment
+  canonical_reference?: CanonicalReference
+}
+
+export type ConnectedSupportiveItem = {
+  label: string
+  href?: string
+  citation_key?: string
+  data_level?: string
+  exposure_context?: string
+  why_relevant: string
+  why_excluded: string
+  canonical_reference?: CanonicalReference
+}
+
+type CanonicalReference = {
+  author_year: string
+  number: number
+  anchor: string
+}
+
+export type ScientificFindingData = {
+  id: string
+  finding_label?: string
+  finding_statement: string
+  finding_summary?: string
+  finding_interpretation?: string
+  finding_discriminator?: string
+  synthesised_evidence_confidence: string
+  sec_assessment_ref?: {id:string;version:number;sha256:string}
+  synthesis: string
+  synthesis_limitations: string
+  evidence_considered: EvidenceConsideredItem[]
+  connected_supportive_evidence?: ConnectedSupportiveItem[]
+  evidence_dependency?: string[]
+  informs?: Array<{phenome: string; href?: string}>
+}
+
+const CITE_MARKER_RE = /\{\{cite:([^}]+)\}\}/g
+
+function findingCiteIndex(finding: ScientificFindingData) {
+  const index = new Map<string, CanonicalReference>()
+  for (const item of [
+    ...(finding.evidence_considered || []),
+    ...(finding.connected_supportive_evidence || []),
+  ]) {
+    if (item.citation_key && item.canonical_reference) {
+      index.set(item.citation_key, item.canonical_reference)
+    }
+  }
+  return index
+}
+
+function renderTextWithPmCites(
+  text: string,
+  finding: ScientificFindingData,
+): React.ReactNode {
+  const index = findingCiteIndex(finding)
+  const nodes: React.ReactNode[] = []
+  let lastIndex = 0
+  let key = 0
+  const re = new RegExp(CITE_MARKER_RE.source, "g")
+  for (const match of text.matchAll(re)) {
+    const start = match.index ?? 0
+    if (start > lastIndex) nodes.push(text.slice(lastIndex, start))
+    const seen = new Set<number>()
+    const records = match[1]
+      .split(",")
+      .map((item) => item.trim())
+      .map((citationKey) => index.get(citationKey))
+      .filter((record): record is CanonicalReference => Boolean(record))
+      .filter((record) => !seen.has(record.number) && seen.add(record.number))
+      .sort((a, b) => a.number - b.number)
+    if (records.length) {
+      nodes.push(" ")
+      records.forEach((record, i) => {
+        if (i) nodes.push("; ")
+        nodes.push(
+          <span key={`cite-${key++}`}>
+            {record.author_year} <a href={record.anchor}>[{record.number}]</a>
+          </span>,
+        )
+      })
+    }
+    lastIndex = start + match[0].length
+  }
+  if (lastIndex < text.length) nodes.push(text.slice(lastIndex))
+  return nodes.length ? nodes : text
+}
+
+const EVIDENCE_SOURCE_LABELS: Record<string, string> = {
+  "repository-inherited": "Inherited repository evidence",
+  "bounded-external-search": "Bounded external search",
+}
+
+function formatSec(value: string): string {
+  return String(value || "").trim() === "not-yet-scored" ? "Not yet scored" : String(value)
+}
+
+function readerTitle(finding: ScientificFindingData): string {
+  return findingReaderLabel(finding)
+}
+
+function Citation({
+  label,
+  href,
+  canonicalReference,
+  dataLevel,
+  exposureContext,
+}: {
+  label: string
+  href?: string
+  canonicalReference?: CanonicalReference
+  dataLevel?: string
+  exposureContext?: string
+}): React.JSX.Element {
+  return (
+    <>
+      {canonicalReference ? (
+        <>
+          <span>{canonicalReference.author_year}</span>{" "}
+          <a href={canonicalReference.anchor}>[{canonicalReference.number}]</a>
+        </>
+      ) : href ? (
+        <a href={href} target="_blank" rel="noopener noreferrer">
+          {label}
+        </a>
+      ) : (
+        <span>{label}</span>
+      )}
+      {dataLevel ? <span className="brain-sf-data-level"> — {dataLevel}</span> : null}
+      {exposureContext ? (
+        <span className="brain-sf-exposure-context"> — Exposure: {exposureContext}</span>
+      ) : null}
+    </>
+  )
+}
+
+function CitationNumber({
+  reference,
+  fallback,
+}: {
+  reference?: CanonicalReference
+  fallback: React.JSX.Element
+}): React.JSX.Element {
+  return reference ? <a href={reference.anchor}>[{reference.number}]</a> : fallback
+}
+
+function Assessment({
+  assessment,
+  source,
+  reference,
+}: {
+  assessment: IndividualStudyAssessment
+  source: EvidenceSource
+  reference: React.JSX.Element
+}): React.JSX.Element {
+  const rows: Array<[string, React.ReactNode]> = [
+    ["Study", assessment.study],
+    ["Population", assessment.population],
+    ["Result", assessment.result],
+    ["Effect / Magnitude", assessment.effect_magnitude],
+    ["Evidence Summary", assessment.evidence_summary],
+    ["Limitations", assessment.limitations],
+    ["Evidence Source", EVIDENCE_SOURCE_LABELS[source] || source],
+    ["Reference", reference],
+  ]
+  return (
+    <dl className="brain-sf-isa">
+      {rows.map(([term, value]) => (
+        <React.Fragment key={term}>
+          <dt>{term}</dt>
+          <dd>{value}</dd>
+        </React.Fragment>
+      ))}
+    </dl>
+  )
+}
+
+function HubDisclosure({
+  label,
+  children,
+  className = "",
+}: {
+  label: React.ReactNode
+  children: React.ReactNode
+  className?: string
+}): React.JSX.Element {
+  return (
+    <div className={`brs-fm-hub-item brain-sf-disclosure ${className}`.trim()} data-brs-fm-hub>
+      <div className="brs-fm-hub-shell">
+        <button type="button" className="brs-fm-hub-summary" aria-expanded="false">
+          <span className="brs-fm-hub-chevron" aria-hidden="true" />
+          <strong>{label}</strong>
+        </button>
+        <div className="brs-fm-hub-panel" hidden>
+          {children}
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default function ScientificFinding({
+  finding,
+  pmId,
+}: {
+  finding: ScientificFindingData
+  pmId?: string
+}): React.JSX.Element | null {
+  const rootRef = useRef<HTMLElement>(null)
+  const {frontMatter} = useDoc()
+  const interventionLinks = findingInterventionLinks(frontMatter, finding.id)
+  const connected = finding.connected_supportive_evidence || []
+  const dependency = finding.evidence_dependency || []
+  const informs = finding.informs || []
+  const title = findingReaderLabel(finding, frontMatter)
+  const anchor = finding.id.toLowerCase()
+  const summary = String(finding.finding_summary || "").trim()
+  const interpretation = String(finding.finding_interpretation || "").trim()
+
+  useEffect(() => {
+    if (rootRef.current) {
+      initBrsFmHubDropdowns(rootRef.current)
+    }
+  }, [finding.id])
+
+  if (isScientificPrinciple(frontMatter, finding.id)) return null
+
+  return (
+    <section
+      ref={rootRef}
+      className="brain-sf"
+      id={anchor}
+      aria-label={title}
+    >
+      <div className="brs-fm-hub-item brain-sf-finding" data-brs-fm-hub>
+        <div className="brs-fm-hub-shell">
+          <button type="button" className="brs-fm-hub-summary" aria-expanded="false">
+            <span className="brs-fm-hub-chevron" aria-hidden="true" />
+            <strong>{title}</strong>
+          </button>
+          {finding.sec_assessment_ref !== undefined && <p className="brain-sf-confidence-compact"><SecAssessmentSummary finding={finding} pmId={pmId}/></p>}
+          <div className="brs-fm-hub-panel" hidden>
+            {interventionLinks.map(link=><p key={link.id} data-intervention-id={link.id}>Supports {link.kind}: <a href={link.href}>{link.label}</a></p>)}
+            {summary ? (
+              <p className="brain-sf-lead">{renderTextWithPmCites(summary, finding)}</p>
+            ) : null}
+
+            {interpretation ? (
+              <div className="brain-sf-interpretation">
+                <p className="brain-sf-interpretation-label">
+                  <strong>What this means</strong>
+                </p>
+                <p className="brain-sf-interpretation-body">{interpretation}</p>
+              </div>
+            ) : null}
+
+            <p className="brain-sf-confidence-compact">
+              <strong>Evidence confidence:</strong>{" "}
+              {finding.sec_assessment_ref !== undefined ? <SecAssessmentSummary finding={finding} pmId={pmId}/> : <span className="brain-sf-sec">{formatSec(finding.synthesised_evidence_confidence)}</span>}
+            </p>
+
+            <HubDisclosure label="Explore the evidence">
+              <p className="brain-sf-audit-id">
+                <strong>Canonical record ID:</strong> <code>{finding.id}</code>
+              </p>
+
+              <p className="brain-sf-field">
+                <strong>Finding Statement:</strong> {finding.finding_statement}
+              </p>
+
+              {finding.finding_discriminator ? (
+                <p className="brain-sf-field">
+                  <strong>Finding Discriminator:</strong> {finding.finding_discriminator}
+                </p>
+              ) : null}
+
+              <p className="brain-sf-field">
+                <strong>Synthesised Evidence Confidence:</strong>{" "}
+                {finding.sec_assessment_ref !== undefined ? <SecAssessmentSummary finding={finding} pmId={pmId}/> : <span className="brain-sf-sec">{formatSec(finding.synthesised_evidence_confidence)}</span>}
+              </p>
+
+              <p className="brain-sf-field">
+                <strong>Synthesis:</strong> {finding.synthesis}
+              </p>
+
+              <p className="brain-sf-field">
+                <strong>Synthesis Limitations:</strong> {finding.synthesis_limitations}
+              </p>
+
+              <p className="brain-sf-field brain-sf-field--label">
+                <strong>Evidence Considered:</strong>
+              </p>
+              <ul className="brain-sf-evidence">
+                {finding.evidence_considered.map((item) => {
+                  const reference = (
+                    <Citation
+                      label={item.label}
+                      href={item.href}
+                      canonicalReference={item.canonical_reference}
+                      dataLevel={item.data_level}
+                      exposureContext={item.exposure_context}
+                    />
+                  )
+                  return (
+                    <li key={`${finding.id}:${item.citation_key || item.label}`}>
+                      {item.assessment ? (
+                        <HubDisclosure
+                          className="brain-sf-isa-disclosure"
+                          label={
+                            <>
+                              <span className="brain-sf-evidence-label">{reference}</span>
+                              <span className="brain-sf-evidence-finding"> — {item.directional_finding}</span>
+                            </>
+                          }
+                        >
+                          <Assessment
+                            assessment={item.assessment}
+                            source={item.evidence_source}
+                            reference={
+                              <CitationNumber
+                                reference={item.canonical_reference}
+                                fallback={reference}
+                              />
+                            }
+                          />
+                        </HubDisclosure>
+                      ) : (
+                        <>
+                          <span className="brain-sf-evidence-label">{reference}</span>
+                          <span className="brain-sf-evidence-finding"> — {item.directional_finding}</span>
+                        </>
+                      )}
+                    </li>
+                  )
+                })}
+              </ul>
+
+              {connected.length > 0 ? (
+                <>
+                  <p className="brain-sf-field brain-sf-field--label">
+                    <strong>Connected / Supportive Evidence:</strong>
+                  </p>
+                  <ul className="brain-sf-connected">
+                    {connected.map((item) => (
+                      <li key={`${finding.id}:cse:${item.label}`}>
+                        <Citation
+                          label={item.label}
+                          href={item.href}
+                          canonicalReference={item.canonical_reference}
+                          dataLevel={item.data_level}
+                          exposureContext={item.exposure_context}
+                        />
+                        <div className="brain-sf-connected-why">
+                          <em>Why relevant:</em> {item.why_relevant}
+                        </div>
+                        <div className="brain-sf-connected-why">
+                          <em>Why excluded from the primary synthesis:</em> {item.why_excluded}
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              ) : null}
+
+              {dependency.length > 0 ? (
+                <>
+                  <p className="brain-sf-field brain-sf-field--label">
+                    <strong>Evidence Dependency:</strong>
+                  </p>
+                  <ul className="brain-sf-dependency">
+                    {dependency.map((note) => (
+                      <li key={`${finding.id}:dep:${note.slice(0, 40)}`}>{note}</li>
+                    ))}
+                  </ul>
+                </>
+              ) : null}
+
+              {informs.length > 0 ? (
+                <p className="brain-sf-informs">
+                  <strong>Informs:</strong>{" "}
+                  {informs.map((entry, index) => (
+                    <React.Fragment key={`${finding.id}:informs:${entry.phenome}`}>
+                      {index > 0 ? "; " : ""}
+                      {entry.href ? <a href={entry.href}>{entry.phenome}</a> : entry.phenome}
+                    </React.Fragment>
+                  ))}
+                </p>
+              ) : null}
+            </HubDisclosure>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}

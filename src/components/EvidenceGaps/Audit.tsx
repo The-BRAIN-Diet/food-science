@@ -1,3 +1,4 @@
+import {associationPilot} from '../../lib/pmAssociationPilot.mjs';
 import React from 'react';
 import records from '../../../system/framework-qc/pm-open-issues.json';
 import EvidenceDisclosure from './Disclosure';
@@ -10,12 +11,15 @@ function StoredValue({value}: {value:any}) {
 }
 export default function ScientificTransparencyAudit({data}:{data:any}) {
   if (!data?.scientific_reconstruction_history?.length && !data?.intervention_adjudications?.length && !data?.mission_reconciliation) return null;
+  const pilot=associationPilot(data);
   const issues=records.issues.filter(i=>i.pm_id===data.pm_id);
   const RecordDisclosure=({id,label,title,children}:{id:string;label:string;title:string;children:React.ReactNode})=>data.evidence_tabs_version === 1 ? <EvidenceDisclosure id={id} label={label} title={title}>{children}</EvidenceDisclosure> : <details id={id}><summary>{title}</summary>{children}</details>;
   return <section aria-label="Scientific reconstruction and decision history">
     <h3>Scientific reconstruction &amp; decision history</h3>
     {data.mission_reconciliation && <RecordDisclosure id={`${data.pm_id.toLowerCase()}-mission-history`} label="Mission history" title="Mission clarification — preserved history"><StoredValue value={data.mission_reconciliation}/></RecordDisclosure>}
-    {(data.intervention_adjudications || []).map((r:any,index:number)=><RecordDisclosure id={r.id} key={r.id} label={`Decision ${index+1} · ${r.id}`} title={`${r.title} — ${r.status.replaceAll('-',' ')}`}>
+    {(data.intervention_adjudications || []).map((r:any,index:number)=><RecordDisclosure id={r.id} key={r.id} label={`Decision ${index+1} · ${r.id}`} title={`${r.title} — ${pilot?.historical_decisions.find(h=>h.decision_id===r.id)?.presentation_status || r.status.replaceAll('-',' ')}`}>
+      {pilot?.historical_decisions.find(h=>h.decision_id===r.id)?.current_decision_ids.map(id=><p key={id}><a href={'?review=1#'+id.toLowerCase()}>Current candidate-specific assessment — {id}</a></p>)}
+      {pilot && <p><strong>Recorded admission/review disposition:</strong> {r.status}. This original field is preserved; current review activity is shown in Investigations.</p>}
       <p>{r.reason}</p><p><strong>What would change the decision:</strong> {r.resolution_criterion}</p>
       <StoredValue value={r}/>
     </RecordDisclosure>)}
