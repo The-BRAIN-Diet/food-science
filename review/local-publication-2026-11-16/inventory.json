@@ -85,31 +85,31 @@
   },
   {
     "path": "src/data/brs-xInputMapping.generated.json",
-    "status": "included"
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
   },
   {
     "path": "src/data/brs1InputMapping.generated.json",
-    "status": "included"
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
   },
   {
     "path": "src/data/brs2InputMapping.generated.json",
-    "status": "included"
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
   },
   {
     "path": "src/data/brs3InputMapping.generated.json",
-    "status": "included"
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
   },
   {
     "path": "src/data/brs4InputMapping.generated.json",
-    "status": "included"
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
   },
   {
     "path": "src/data/brs5InputMapping.generated.json",
-    "status": "included"
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
   },
   {
     "path": "src/data/brs6InputMapping.generated.json",
-    "status": "included"
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
   },
   {
     "path": "src/data/framework-qc-public.generated.json",
@@ -141,31 +141,31 @@
   },
   {
     "path": "system/generated/brs-x-input-substance-food/mapping.generated.json",
-    "status": "included"
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
   },
   {
     "path": "system/generated/brs1-input-substance-food/mapping.generated.json",
-    "status": "included"
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
   },
   {
     "path": "system/generated/brs2-input-substance-food/mapping.generated.json",
-    "status": "included"
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
   },
   {
     "path": "system/generated/brs3-input-substance-food/mapping.generated.json",
-    "status": "included"
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
   },
   {
     "path": "system/generated/brs4-input-substance-food/mapping.generated.json",
-    "status": "included"
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
   },
   {
     "path": "system/generated/brs5-input-substance-food/mapping.generated.json",
-    "status": "included"
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
   },
   {
     "path": "system/generated/brs6-input-substance-food/mapping.generated.json",
-    "status": "included"
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
   },
   {
     "path": "system/pm-evidence-tabs-contract.md",
