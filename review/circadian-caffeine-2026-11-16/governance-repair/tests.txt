@@ -1,0 +1,535 @@
+TAP version 13
+# Subtest: mission and all existing Findings, SOPs and Lifestyle records unchanged
+ok 1 - mission and all existing Findings, SOPs and Lifestyle records unchanged
+  ---
+  duration_ms: 1.323584
+  ...
+# Subtest: bounded Type B admitted; no invented identity or SOP
+ok 2 - bounded Type B admitted; no invented identity or SOP
+  ---
+  duration_ms: 0.138875
+  ...
+# Subtest: Finding, citations and traceability validate
+ok 3 - Finding, citations and traceability validate
+  ---
+  duration_ms: 7.978417
+  ...
+# Subtest: protected ranked outputs, SEC, bibliography and QC unchanged
+ok 4 - protected ranked outputs, SEC, bibliography and QC unchanged
+  ---
+  duration_ms: 63.163541
+  ...
+# Subtest: MDX compiles
+ok 5 - MDX compiles
+  ---
+  duration_ms: 68.115958
+  ...
+# Subtest: caffeine registry, page and generated resolver agree without science changes
+ok 6 - caffeine registry, page and generated resolver agree without science changes
+  ---
+  duration_ms: 24.955166
+  ...
+# Subtest: caffeine public label leads with effect while Type B record persists
+ok 7 - caffeine public label leads with effect while Type B record persists
+  ---
+  duration_ms: 0.126083
+  ...
+# Subtest: supportive/disruptive subgroups preserve scientific section meanings
+ok 8 - supportive/disruptive subgroups preserve scientific section meanings
+  ---
+  duration_ms: 0.107958
+  ...
+# Subtest: complete caffeine governance passes with the actual nested rendered content
+ok 9 - complete caffeine governance passes with the actual nested rendered content
+  ---
+  duration_ms: 6.905333
+  ...
+# Subtest: Findings audit link stays on PM1 for every current site origin
+ok 10 - Findings audit link stays on PM1 for every current site origin
+  ---
+  duration_ms: 2.666542
+  ...
+# Subtest: 3.1.1 rejects dietary pattern
+ok 11 - 3.1.1 rejects dietary pattern
+  ---
+  duration_ms: 8.835125
+  ...
+# Subtest: 3.1.1 rejects named diet
+ok 12 - 3.1.1 rejects named diet
+  ---
+  duration_ms: 0.159167
+  ...
+# Subtest: 3.1.1 rejects food combination
+ok 13 - 3.1.1 rejects food combination
+  ---
+  duration_ms: 0.103916
+  ...
+# Subtest: 3.1.1 rejects dietary programme
+ok 14 - 3.1.1 rejects dietary programme
+  ---
+  duration_ms: 0.045667
+  ...
+# Subtest: 3.1.1 rejects meal plan
+ok 15 - 3.1.1 rejects meal plan
+  ---
+  duration_ms: 0.078125
+  ...
+# Subtest: 3.1.1 rejects whole-food intervention
+ok 16 - 3.1.1 rejects whole-food intervention
+  ---
+  duration_ms: 0.04075
+  ...
+# Subtest: 3.1.1 rejects dietary matrix
+ok 17 - 3.1.1 rejects dietary matrix
+  ---
+  duration_ms: 0.038042
+  ...
+# Subtest: 4.1.1 rejects dietary pattern
+ok 18 - 4.1.1 rejects dietary pattern
+  ---
+  duration_ms: 0.105042
+  ...
+# Subtest: 4.1.1 rejects named diet
+ok 19 - 4.1.1 rejects named diet
+  ---
+  duration_ms: 0.1395
+  ...
+# Subtest: 4.1.1 rejects food combination
+ok 20 - 4.1.1 rejects food combination
+  ---
+  duration_ms: 0.159333
+  ...
+# Subtest: 4.1.1 rejects dietary programme
+ok 21 - 4.1.1 rejects dietary programme
+  ---
+  duration_ms: 0.044166
+  ...
+# Subtest: 4.1.1 rejects meal plan
+ok 22 - 4.1.1 rejects meal plan
+  ---
+  duration_ms: 0.047625
+  ...
+# Subtest: 4.1.1 rejects whole-food intervention
+ok 23 - 4.1.1 rejects whole-food intervention
+  ---
+  duration_ms: 0.034584
+  ...
+# Subtest: 4.1.1 rejects dietary matrix
+ok 24 - 4.1.1 rejects dietary matrix
+  ---
+  duration_ms: 0.093083
+  ...
+# Subtest: 1.1.1 rejects dietary pattern
+ok 25 - 1.1.1 rejects dietary pattern
+  ---
+  duration_ms: 0.050958
+  ...
+# Subtest: 1.1.1 rejects named diet
+ok 26 - 1.1.1 rejects named diet
+  ---
+  duration_ms: 0.029334
+  ...
+# Subtest: 1.1.1 rejects food combination
+ok 27 - 1.1.1 rejects food combination
+  ---
+  duration_ms: 0.108792
+  ...
+# Subtest: 1.1.1 rejects dietary programme
+ok 28 - 1.1.1 rejects dietary programme
+  ---
+  duration_ms: 0.272709
+  ...
+# Subtest: 1.1.1 rejects meal plan
+ok 29 - 1.1.1 rejects meal plan
+  ---
+  duration_ms: 0.3045
+  ...
+# Subtest: 1.1.1 rejects whole-food intervention
+ok 30 - 1.1.1 rejects whole-food intervention
+  ---
+  duration_ms: 0.2325
+  ...
+# Subtest: 1.1.1 rejects dietary matrix
+ok 31 - 1.1.1 rejects dietary matrix
+  ---
+  duration_ms: 0.076083
+  ...
+# Subtest: substrate class eligible candidate, not admission
+ok 32 - substrate class eligible candidate, not admission
+  ---
+  duration_ms: 1.106375
+  ...
+# Subtest: fermentable substrate class eligible candidate, not admission
+ok 33 - fermentable substrate class eligible candidate, not admission
+  ---
+  duration_ms: 0.091834
+  ...
+# Subtest: microbial fermentation substrate eligible candidate, not admission
+ok 34 - microbial fermentation substrate eligible candidate, not admission
+  ---
+  duration_ms: 0.062042
+  ...
+# Subtest: cofactor precursor eligible candidate, not admission
+ok 35 - cofactor precursor eligible candidate, not admission
+  ---
+  duration_ms: 0.248833
+  ...
+# Subtest: precursor eligible candidate, not admission
+ok 36 - precursor eligible candidate, not admission
+  ---
+  duration_ms: 0.155458
+  ...
+# Subtest: regulatory modulator eligible candidate, not admission
+ok 37 - regulatory modulator eligible candidate, not admission
+  ---
+  duration_ms: 0.084625
+  ...
+# Subtest: pattern can be assessed independently as SOP; not biochemical inventory/lifestyle
+ok 38 - pattern can be assessed independently as SOP; not biochemical inventory/lifestyle
+  ---
+  duration_ms: 0.128
+  ...
+# Subtest: unknown labels fail closed; biochemical disguise is flagged
+ok 39 - unknown labels fail closed; biochemical disguise is flagged
+  ---
+  duration_ms: 0.14075
+  ...
+# Subtest: Type A needs both linked dependency and supply, not six fields
+ok 40 - Type A needs both linked dependency and supply, not six fields
+  ---
+  duration_ms: 0.328791
+  ...
+# Subtest: Type B needs mechanism engagement and dietary exposure, not conversion alone
+ok 41 - Type B needs mechanism engagement and dietary exposure, not conversion alone
+  ---
+  duration_ms: 0.073875
+  ...
+# Subtest: PM operation mismatch cannot be admitted
+ok 42 - PM operation mismatch cannot be admitted
+  ---
+  duration_ms: 0.131416
+  ...
+# Subtest: B6 → PLP valid derived pathway; active form identity cannot be assumed
+ok 43 - B6 → PLP valid derived pathway; active form identity cannot be assumed
+  ---
+  duration_ms: 0.130042
+  ...
+# Subtest: resistant starch → SCFAs: supported microbial candidate, dependencies required
+ok 44 - resistant starch → SCFAs: supported microbial candidate, dependencies required
+  ---
+  duration_ms: 0.073917
+  ...
+# Subtest: ellagitannins → ellagic acid → urolithin A: conversion does not confer regulatory admission
+ok 45 - ellagitannins → ellagic acid → urolithin A: conversion does not confer regulatory admission
+  ---
+  duration_ms: 0.311333
+  ...
+# Subtest: provisional food is included in rollup and queue without an ontology edge
+ok 46 - provisional food is included in rollup and queue without an ontology edge
+  ---
+  duration_ms: 1.268416
+  ...
+# Subtest: repair queue deduplicates edge while retaining all PMs
+ok 47 - repair queue deduplicates edge while retaining all PMs
+  ---
+  duration_ms: 0.419166
+  ...
+# Subtest: unsupported food and unresolved mappings are not silently completed
+ok 48 - unsupported food and unresolved mappings are not silently completed
+  ---
+  duration_ms: 0.083959
+  ...
+# Subtest: missing conversion prevents new admission and food rollup
+ok 49 - missing conversion prevents new admission and food rollup
+  ---
+  duration_ms: 0.117791
+  ...
+# Subtest: verified structured food edge wins over provisional same material
+ok 50 - verified structured food edge wins over provisional same material
+  ---
+  duration_ms: 0.9765
+  ...
+# Subtest: direct occurrence in active-metabolite food lists is not inferred from precursor research
+ok 51 - direct occurrence in active-metabolite food lists is not inferred from precursor research
+  ---
+  duration_ms: 0.115
+  ...
+# Subtest: six-atom completeness does not override pattern exclusion
+ok 52 - six-atom completeness does not override pattern exclusion
+  ---
+  duration_ms: 0.182292
+  ...
+# Subtest: provisional marker colours only the icon; source and conversion labels remain distinct
+ok 53 - provisional marker colours only the icon; source and conversion labels remain distinct
+  ---
+  duration_ms: 0.271625
+  ...
+# Subtest: actual layout renders approved heading without changing source metadata
+ok 54 - actual layout renders approved heading without changing source metadata
+  ---
+  duration_ms: 16.642083
+  ...
+# Subtest: canonical identity cannot be borrowed by a disguised diet
+ok 55 - canonical identity cannot be borrowed by a disguised diet
+  ---
+  duration_ms: 0.104
+  ...
+# Subtest: Type A/B and Direct/Derived must agree with the overlay
+ok 56 - Type A/B and Direct/Derived must agree with the overlay
+  ---
+  duration_ms: 0.06425
+  ...
+# Subtest: new structured publication is blocked by missing scientific or food-research assessment
+ok 57 - new structured publication is blocked by missing scientific or food-research assessment
+  ---
+  duration_ms: 9.654375
+  ...
+# Subtest: rendered 1.1.1 cannot hide a diet in a biochemical section
+ok 58 - rendered 1.1.1 cannot hide a diet in a biochemical section
+  ---
+  duration_ms: 1.374916
+  ...
+# Subtest: rendered 3.1.1 cannot hide a diet in a biochemical section
+ok 59 - rendered 3.1.1 cannot hide a diet in a biochemical section
+  ---
+  duration_ms: 1.780084
+  ...
+# Subtest: rendered 4.1.1 cannot hide a diet in a biochemical section
+ok 60 - rendered 4.1.1 cannot hide a diet in a biochemical section
+  ---
+  duration_ms: 1.019625
+  ...
+# Subtest: canonical IDs and the repaired PLP alias resolve without a duplicate identity
+ok 61 - canonical IDs and the repaired PLP alias resolve without a duplicate identity
+  ---
+  duration_ms: 3.515459
+  ...
+# Subtest: unstructured rendered inputs cannot bypass admission metadata
+ok 62 - unstructured rendered inputs cannot bypass admission metadata
+  ---
+  duration_ms: 1.571333
+  ...
+# Subtest: withheld composition records are not promoted as provisional foods
+ok 63 - withheld composition records are not promoted as provisional foods
+  ---
+  duration_ms: 0.390208
+  ...
+# Subtest: historical derived pathways expose an unresolved conversion connection
+ok 64 - historical derived pathways expose an unresolved conversion connection
+  ---
+  duration_ms: 0.387625
+  ...
+# Subtest: rendered labels accept a sentence-ending period but reject different names
+ok 65 - rendered labels accept a sentence-ending period but reject different names
+  ---
+  duration_ms: 13.164291
+  ...
+# Subtest: approved food forms and scaled nutrition
+ok 66 - approved food forms and scaled nutrition
+  ---
+  duration_ms: 2.395
+  ...
+# Subtest: ten distinct rows, correct placement, citations and real PM routes
+ok 67 - ten distinct rows, correct placement, citations and real PM routes
+  ---
+  duration_ms: 40.970875
+  ...
+# Subtest: contextual substances remain unassigned and recipe does not imply dose or efficacy
+ok 68 - contextual substances remain unassigned and recipe does not imply dose or efficacy
+  ---
+  duration_ms: 0.206833
+  ...
+# Subtest: all six linked substance rows retain existing canonical dietary admissions
+ok 69 - all six linked substance rows retain existing canonical dietary admissions
+  ---
+  duration_ms: 20.424875
+  ...
+# Subtest: amounts and experimental observations stay in their own columns
+ok 70 - amounts and experimental observations stay in their own columns
+  ---
+  duration_ms: 0.965709
+  ...
+# Subtest: bounded serving interpretation uses canonical vitamin references and one combined omega-3 benchmark
+ok 71 - bounded serving interpretation uses canonical vitamin references and one combined omega-3 benchmark
+  ---
+  duration_ms: 0.412875
+  ...
+# Subtest: two disclosures partition all ten substances without promoting unknown exposures
+ok 72 - two disclosures partition all ten substances without promoting unknown exposures
+  ---
+  duration_ms: 0.186916
+  ...
+# Subtest: seven exact Findings retain every appraisal, source quantity, limitation and SEC reference
+ok 73 - seven exact Findings retain every appraisal, source quantity, limitation and SEC reference
+  ---
+  duration_ms: 164.054291
+  ...
+# Subtest: accepted science and admissions are unchanged
+ok 74 - accepted science and admissions are unchanged
+  ---
+  duration_ms: 0.252792
+  ...
+# Subtest: retired content is archived, not hidden in active frontmatter or generated body
+ok 75 - retired content is archived, not hidden in active frontmatter or generated body
+  ---
+  duration_ms: 0.315667
+  ...
+# Subtest: associations resolve only to retained scope and accepted outputs
+ok 76 - associations resolve only to retained scope and accepted outputs
+  ---
+  duration_ms: 0.302084
+  ...
+# Subtest: 27 references consecutively numbered in first rendered citation order
+ok 77 - 27 references consecutively numbered in first rendered citation order
+  ---
+  duration_ms: 1.77025
+  ...
+# Subtest: stable numbering fails closed on duplicate IDs and nonexistent citation anchors
+ok 78 - stable numbering fails closed on duplicate IDs and nonexistent citation anchors
+  ---
+  duration_ms: 0.390958
+  ...
+# Subtest: ranking, viewer data, shared bibliography, SEC and QC inputs retain protected hashes with exact archived timestamp reconciliation
+ok 79 - ranking, viewer data, shared bibliography, SEC and QC inputs retain protected hashes with exact archived timestamp reconciliation
+  ---
+  duration_ms: 33.388708
+  ...
+# Subtest: active generated records contain no retired PM8 hypothesis or Finding IDs
+ok 80 - active generated records contain no retired PM8 hypothesis or Finding IDs
+  ---
+  duration_ms: 42.818167
+  ...
+# Subtest: only PM8 projection regenerated; deterministic findings and valid MDX
+ok 81 - only PM8 projection regenerated; deterministic findings and valid MDX
+  ---
+  duration_ms: 137.200917
+  ...
+# Subtest: PM8 scope cross-reference uses current association label and retained canonical anchor
+ok 82 - PM8 scope cross-reference uses current association label and retained canonical anchor
+  ---
+  duration_ms: 0.155042
+  ...
+# Subtest: accepted canonical records remain unchanged after approved retirement
+ok 83 - accepted canonical records remain unchanged after approved retirement
+  ---
+  duration_ms: 1.300416
+  ...
+# Subtest: seven consecutive display labels preserve association names and canonical identities
+ok 84 - seven consecutive display labels preserve association names and canonical identities
+  ---
+  duration_ms: 0.329916
+  ...
+# Subtest: retained urolithin associations preserve admissions without recreating hypothesis edges
+ok 85 - retained urolithin associations preserve admissions without recreating hypothesis edges
+  ---
+  duration_ms: 0.114958
+  ...
+# Subtest: retired investigations remain archived and absent from the active PM
+ok 86 - retired investigations remain archived and absent from the active PM
+  ---
+  duration_ms: 0.139958
+  ...
+# Subtest: grouped decision history remains in archive with candidate-specific successors
+ok 87 - grouped decision history remains in archive with candidate-specific successors
+  ---
+  duration_ms: 5.695666
+  ...
+# Subtest: association and archived investigation validation still fail closed
+ok 88 - association and archived investigation validation still fail closed
+  ---
+  duration_ms: 2.38975
+  ...
+# Subtest: archived Investigations renderer exposes both groups and canonical evidence links
+ok 89 - archived Investigations renderer exposes both groups and canonical evidence links
+  ---
+  duration_ms: 86.118125
+  ...
+# Subtest: PM-only SF generation stays deterministic and retains seven independent findings
+ok 90 - PM-only SF generation stays deterministic and retains seven independent findings
+  ---
+  duration_ms: 54.252875
+  ...
+# Subtest: retained scope and outputs keep stable anchors without duplicated appraisals
+ok 91 - retained scope and outputs keep stable anchors without duplicated appraisals
+  ---
+  duration_ms: 0.772292
+  ...
+# Subtest: Finding renderer keeps original appraisal and exposes exact PM8 association label
+ok 92 - Finding renderer keeps original appraisal and exposes exact PM8 association label
+  ---
+  duration_ms: 60.189
+  ...
+# Subtest: current identity, Principles and accepted records match approved reconstruction provenance
+ok 93 - current identity, Principles and accepted records match approved reconstruction provenance
+  ---
+  duration_ms: 1.364458
+  ...
+# Subtest: main mechanism and Section 4 Findings retained without duplicating evidence tabs
+ok 94 - main mechanism and Section 4 Findings retained without duplicating evidence tabs
+  ---
+  duration_ms: 0.177208
+  ...
+# Subtest: approved retirement removes active gaps without asserting scientific closure
+ok 95 - approved retirement removes active gaps without asserting scientific closure
+  ---
+  duration_ms: 0.115042
+  ...
+# Subtest: every archived pilot gap resolves its canonical Findings, bibliography and optional issue
+ok 96 - every archived pilot gap resolves its canonical Findings, bibliography and optional issue
+  ---
+  duration_ms: 0.144166
+  ...
+# Subtest: legacy non-opt-in shared tab order, URL-state selection and PM8-only opt-in
+ok 97 - legacy non-opt-in shared tab order, URL-state selection and PM8-only opt-in
+  ---
+  duration_ms: 144.096667
+  ...
+# Subtest: legacy non-opt-in gap component retains blue flask, three records and exact destination links
+ok 98 - legacy non-opt-in gap component retains blue flask, three records and exact destination links
+  ---
+  duration_ms: 38.042958
+  ...
+# Subtest: pilot gap validator fails closed on missing evidence and unresolved references
+ok 99 - pilot gap validator fails closed on missing evidence and unresolved references
+  ---
+  duration_ms: 1.941875
+  ...
+# Subtest: Finding generator preserves approved Section 4 placement and prior audit-only pages
+ok 100 - Finding generator preserves approved Section 4 placement and prior audit-only pages
+  ---
+  duration_ms: 32.238583
+  ...
+# Subtest: Open Issues use canonical numbered disclosures and exact persistent IDs
+ok 101 - Open Issues use canonical numbered disclosures and exact persistent IDs
+  ---
+  duration_ms: 16.981708
+  ...
+# Subtest: approved cleanup prevents rediscovery of retired queues and hypothesis records
+ok 102 - approved cleanup prevents rediscovery of retired queues and hypothesis records
+  ---
+  duration_ms: 0.235875
+  ...
+# Subtest: all viewer ranks and observations equal the canonical snapshot
+ok 103 - all viewer ranks and observations equal the canonical snapshot
+  ---
+  duration_ms: 2.38175
+  ...
+# Subtest: stale combined data cannot bypass publication filtering
+ok 104 - stale combined data cannot bypass publication filtering
+  ---
+  duration_ms: 2.1085
+  ...
+# Subtest: changed power is detected even when edge counts match
+ok 105 - changed power is detected even when edge counts match
+  ---
+  duration_ms: 3.040083
+  ...
+1..105
+# tests 105
+# suites 0
+# pass 105
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 845.050833

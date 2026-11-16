@@ -44,3 +44,15 @@ test('canonical IDs and the repaired PLP alias resolve without a duplicate ident
 test('unstructured rendered inputs cannot bypass admission metadata',()=>{const issues=[];validateInputGovernance({pm_id:'FIXTURE-NEW'},issues,{content:'#### 4.1.1 Dietary Inputs & Regulatory Modulators\n- Mystery biochemical'});assert.ok(issues.some(i=>i.code==='rendered_input_unassessed'));});
 test('withheld composition records are not promoted as provisional foods',()=>{const f={food_id:'walnuts',food_title:'Walnuts',substance_id:'ellagitannins',presence_records:[{source_url:'https://example.org/source',evidence:'Withheld fixture',public_display:'internal-only'}],observations:[]};const p=projectFoodTargets({relationships:[r],substances,foodSources:[f]});assert.equal(p.relationships[0].food_targets.length,0);});
 test('historical derived pathways expose an unresolved conversion connection',()=>{const x={...r,scientific_assessment:undefined,historical_admission:true,relationship_type:{classification:'derived'},derived_target:'Urolithin A'};const p=projectFoodTargets({relationships:[x],substances,research:[research]});assert.equal(p.relationships[0].ontology_connections.conversion,'unresolved');assert.ok(p.relationships[0].coverage_warnings.some(s=>s.includes('conversion pathway reconciliation pending')));});
+
+// Sentence punctuation after an exact structured label is not a new input.
+test('rendered labels accept a sentence-ending period but reject different names',()=>{
+ const data={pm_id:'FIXTURE-PUNCTUATION',dietary_lever_presentations:[{atom_id:'X',label:'Caffeine — potential disruption of circadian timing',presentation_section:'3.1.1'}]};
+ for(const suffix of ['.',' — explanation','. Explanation']) {
+  const issues=[];validateInputGovernance(data,issues,{content:'#### 3.1.1 Dietary Inputs\n- **Caffeine — potential disruption of circadian timing**'+suffix});
+  assert.ok(!issues.some(i=>i.code==='rendered_input_unassessed'));
+ }
+ // Existing space-delimited prose remains allowed, but another substance never matches.
+ const other=[];validateInputGovernance(data,other,{content:'#### 3.1.1 Dietary Inputs\n- Theobromine. Explanation'});
+ assert.ok(other.some(i=>i.code==='rendered_input_unassessed'));
+});

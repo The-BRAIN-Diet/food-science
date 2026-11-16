@@ -44,7 +44,7 @@ export function validateInputGovernance(data,issues,{entityLabel='',content='',r
   else if(/^#{2,4}\s+\d/.test(line))current='';
   if(current==='3.1.1'&&/^\s*[-*]\s/.test(line)&&!historicalBody) {
    const clean=line.replace(/^\s*[-*]\s+/, '').replace(/\[([^\]]+)\]\([^)]+\)/g,'$1').replace(/\*\*/g,'').trim().toLowerCase();
-   const matches=(data.dietary_lever_presentations||[]).filter(p=>canonicalSection(p.presentation_section||'3.1.1')===current).some(p=>{const a=traces.get(p.atom_id),label=String(p.label||a?.input||'').toLowerCase();return label&&(clean===label||clean.startsWith(label+' ')||clean.startsWith(label+' ←')||clean.startsWith(label+' —'));});
+   const matches=(data.dietary_lever_presentations||[]).filter(p=>canonicalSection(p.presentation_section||'3.1.1')===current).some(p=>{const a=traces.get(p.atom_id),label=String(p.label||a?.input||'').toLowerCase();return label&&(clean===label||clean.startsWith(label+' ')||clean.startsWith(label+'. ')||clean===label+'.'||clean.startsWith(label+' ←')||clean.startsWith(label+' —'));});
    if(!matches&&!/^(no |none |not established|coming soon)/i.test(clean))issues.push({code:'rendered_input_unassessed',message:`${entityLabel}: ${current}: rendered input has no matching structured presentation`});
   }
 

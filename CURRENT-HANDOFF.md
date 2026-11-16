@@ -1,3 +1,5 @@
+**16 November 2026 — PR246 caffeine governance and link repairs:** [report](review/circadian-caffeine-2026-11-16/governance-repair/report.md). 105/105 focused tests; 67 PM governance checks pass. PM8 label and PM1 same-origin audit link verified locally. QC suspended; no merge/deployment.
+
 **16 November 2026 — PR246 PM8 test reconciliation:** [dispositions and validation](review/local-publication-2026-11-16/pm8-test-reconciliation/report.md). 55/55 affected checks pass; original historical tests preserved. Scientific records and QC suspension unchanged. Test/documentation-only update; no merge or deployment.
 
 # BRAIN Diet — current handoff

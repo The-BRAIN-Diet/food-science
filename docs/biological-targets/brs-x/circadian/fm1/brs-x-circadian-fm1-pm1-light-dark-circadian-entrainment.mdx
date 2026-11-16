@@ -619,6 +619,18 @@ dietary_input_assessments:
         equivalence asserted.
       sources:
         - https://doi.org/10.1126/scitranslmed.aac5125
+    food_target_research:
+      completed: true
+      sources_examined:
+        - registry/substances.json
+        - docs/substances/bioactive-compounds/alkaloids/caffeine.md
+        - https://doi.org/10.1126/scitranslmed.aac5125
+      sufficient_coverage_rationale: >-
+        Existing ontology identity and the recorded Burke 2015 capsule exposure were examined.
+        This bounded admission concerns caffeine itself, not a specific coffee, tea or food preparation.
+        No food-composition value, beverage equivalence, food-source edge or ranking is projected.
+        The existing source coverage is sufficient for this capsule-specific relationship; any later
+        food mapping requires its own preparation-specific composition evidence.
     reviewed_on: '2026-11-16'
     scope: >-
       Owner-approved bounded disruptive regulation. Canonical caffeine identity resolved; no food or ranking
@@ -796,7 +808,7 @@ Retinal photoreception transmits the light cue. Timed light can reset central ci
 ### 4.1 Scientific Findings
 
 
-[Scientific Findings and their source assessments are available in Evidence & Audit](?review=1#scientific-findings).
+[Scientific Findings and their source assessments are available in Evidence & Audit](/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment/?review=1#scientific-findings).
 
 <EvidenceAudit panelId="pm1-lp-blue-blocking-1-assessments" embedded assessmentHeading="Intervention-specific SEC assessments" assessmentPmId="BRS-X(Circadian-FM1-PM1)" assessmentRecords={[{"atom_id":"PM1-LP-BLUE-BLOCKING-1","sec_assessment_ref":{"id":"brs-x-circadian-fm1-pm1-pm1-lp-blue-blocking-1-assessment","version":1,"sha256":"24e8c9dce9a5399769b1d8d1c8f0d36037ed9004ec5807c6a108b906d345b470"},"sec_assessed_proposition":"Uvex S1933X glasses blocking 99% below530nm, from three hours before bedtime and during nocturnal light exposure for two weeks; compare partial-blocking S1905 glasses. Adjusted melatonin-onset difference28 minutes (95% CI5–51); bedtime, sleep onset and phase angles did not differ significantly."}].map(intervention => resolveInterventionSecAssessment(secRegistry, {pmId: "BRS-X(Circadian-FM1-PM1)", intervention}).record).filter(Boolean)} assessmentView={secAssessmentView} recordAnchor={secAuditAnchor} />
 
