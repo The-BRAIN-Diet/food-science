@@ -19,7 +19,6 @@ tags:
 list_image: /img/foods/beef/beef_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
-  betaine_mg: 8.1
   tyrosine_g: 0.572
   vitamin_d_ug: 0.1
   calcium_mg: 15
@@ -76,44 +75,6 @@ nutrition_source:
   last_checked: '2026-08-15'
   source_reference: '#food-source-6'
 nutrition_supplementary_sources:
-  - key: arginine_usda_brs4_171796
-    label: Arginine
-    substance_id: arginine
-    value: 1.21
-    unit: g
-    basis: per 100 g edible portion
-    evidence_material: Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)
-    preparation_state: raw
-    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
-    source_group: USDA SR Legacy April 2018; exact food record
-    source_note: Database-listed arginine; nutrient 1220, row 1641413, derivation ID 3, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
-    fdc_id: 171796
-    food_nutrient_id: '1641413'
-    source_derivation_id: '3'
-    source_data_points: 0
-    verified: true
-    evidence_status: supported
-    rank_eligible: true
-    comparison_group: edible::source-specific
-  - key: serine_usda_brs2_171796
-    label: Serine
-    substance_id: serine
-    value: 0.744
-    unit: g
-    basis: per 100 g edible portion
-    evidence_material: Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)
-    preparation_state: raw
-    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
-    source_group: USDA SR Legacy April 2018; exact food record
-    source_note: Database-listed serine; nutrient 1227, food-nutrient row 1641416, derivation ID 3, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, tissue delivery or clinical effect inferred. Source archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
-    fdc_id: 171796
-    food_nutrient_id: '1641416'
-    source_derivation_id: '3'
-    source_data_points: 0
-    verified: true
-    evidence_status: supported
-    rank_eligible: true
-    comparison_group: edible::source-specific
   - key: glutamine_lenders
     label: Glutamine
     substance_id: glutamine
@@ -438,76 +399,6 @@ nutrition_value_reviews:
       Retain as an estimate in one CoQ10 row; do not duplicate the compound or
       treat this as a preparation-specific assay.
 nutrition_amino_acid_profiles:
-  - id: usda-sr-171796
-    material: Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)
-    preparation: raw
-    food_group: animal
-    basis: per 100 g edible portion
-    unit: g
-    source:
-      database: USDA FoodData Central SR Legacy, April 2018
-      fdc_id: 171796
-      source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
-      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
-      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
-    protein_g: 18.59
-    protein_source_row_id: '1641420'
-    amino_acids:
-      histidine:
-        value: 0.604
-        source_row_id: '1641414'
-        nutrient_id: '1221'
-        data_points: 0
-        derivation_id: '3'
-      isoleucine:
-        value: 0.822
-        source_row_id: '1641408'
-        nutrient_id: '1212'
-        data_points: 0
-        derivation_id: '3'
-      leucine:
-        value: 1.45
-        source_row_id: '1641409'
-        nutrient_id: '1213'
-        data_points: 0
-        derivation_id: '3'
-      lysine:
-        value: 1.54
-        source_row_id: '1641410'
-        nutrient_id: '1214'
-        data_points: 0
-        derivation_id: '3'
-      methionine:
-        value: 0.478
-        source_row_id: '1641437'
-        nutrient_id: '1215'
-        data_points: 0
-        derivation_id: '3'
-      phenylalanine:
-        value: 0.725
-        source_row_id: '1641438'
-        nutrient_id: '1217'
-        data_points: 0
-        derivation_id: '3'
-      threonine:
-        value: 0.72
-        source_row_id: '1641436'
-        nutrient_id: '1211'
-        data_points: 0
-        derivation_id: '3'
-      tryptophan:
-        value: 0.094
-        source_row_id: '1641435'
-        nutrient_id: '1210'
-        data_points: 0
-        derivation_id: '3'
-      valine:
-        value: 0.914
-        source_row_id: '1641412'
-        nutrient_id: '1219'
-        data_points: 0
-        derivation_id: '3'
-    limitations: Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Beef tryptophan remains 0.094 g/100 g as recorded; discrepancy versus other beef records remains unresolved. Do not generalise across cuts or preparations.
   - id: usda-sr-174032
     material: Beef, ground, 85% lean meat / 15% fat, patty, cooked, broiled
     preparation: cooked

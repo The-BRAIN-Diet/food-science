@@ -12,7 +12,6 @@ tags:
 list_image: /img/foods/lamb/lamb_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
-  betaine_mg: 10.2
   tyrosine_g: 0.556
   vitamin_k_ug: 3.6
   vitamin_d_ug: 0.1
@@ -53,63 +52,6 @@ main_image: /img/foods/lamb/lamb_medium.webp
 legacy_list_image: /img/foods/lamb/lamb_thumb.webp
 legacy_main_image: /img/foods/lamb/lamb_medium.webp
 nutrition_supplementary_sources:
-  - key: arginine_usda_brs4_174370
-    label: Arginine
-    substance_id: arginine
-    value: 0.984
-    unit: g
-    basis: per 100 g edible portion
-    evidence_material: Lamb, ground, raw
-    preparation_state: raw
-    source_url: https://fdc.nal.usda.gov/food-details/174370/nutrients
-    source_group: USDA SR Legacy April 2018; exact food record
-    source_note: Database-listed arginine; nutrient 1220, row 1852538, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
-    fdc_id: 174370
-    food_nutrient_id: '1852538'
-    source_derivation_id: null
-    source_data_points: 0
-    verified: true
-    evidence_status: supported
-    rank_eligible: true
-    comparison_group: edible::source-specific
-  - key: glycine_usda_brs2_174370
-    label: Glycine
-    substance_id: glycine
-    value: 0.809
-    unit: g
-    basis: per 100 g edible portion
-    evidence_material: Lamb, ground, raw
-    preparation_state: raw
-    source_url: https://fdc.nal.usda.gov/food-details/174370/nutrients
-    source_group: USDA SR Legacy April 2018; exact food record
-    source_note: Database-listed glycine; nutrient 1225, food-nutrient row 1852568, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, tissue delivery or clinical effect inferred. Source archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
-    fdc_id: 174370
-    food_nutrient_id: '1852568'
-    source_derivation_id: null
-    source_data_points: 0
-    verified: true
-    evidence_status: supported
-    rank_eligible: true
-    comparison_group: edible::source-specific
-  - key: serine_usda_brs2_174370
-    label: Serine
-    substance_id: serine
-    value: 0.615
-    unit: g
-    basis: per 100 g edible portion
-    evidence_material: Lamb, ground, raw
-    preparation_state: raw
-    source_url: https://fdc.nal.usda.gov/food-details/174370/nutrients
-    source_group: USDA SR Legacy April 2018; exact food record
-    source_note: Database-listed serine; nutrient 1227, food-nutrient row 1852541, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, tissue delivery or clinical effect inferred. Source archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
-    fdc_id: 174370
-    food_nutrient_id: '1852541'
-    source_derivation_id: null
-    source_data_points: 0
-    verified: true
-    evidence_status: supported
-    rank_eligible: true
-    comparison_group: edible::source-specific
   - key: creatine_qual
     label: Creatine
     status: Present — quantity not established
@@ -175,77 +117,6 @@ substance_relationships:
     source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/
     source_reference: '#food-source-7'
 substance_review_candidates: []
-nutrition_amino_acid_profiles:
-  - id: usda-sr-174370
-    material: Lamb, ground, raw
-    preparation: raw
-    food_group: animal
-    basis: per 100 g edible portion
-    unit: g
-    source:
-      database: USDA FoodData Central SR Legacy, April 2018
-      fdc_id: 174370
-      source_url: https://fdc.nal.usda.gov/food-details/174370/nutrients
-      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
-      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
-    protein_g: 16.56
-    protein_source_row_id: '1852542'
-    amino_acids:
-      histidine:
-        value: 0.524
-        source_row_id: '1852539'
-        nutrient_id: '1221'
-        data_points: 0
-        derivation_id: null
-      isoleucine:
-        value: 0.799
-        source_row_id: '1852533'
-        nutrient_id: '1212'
-        data_points: 0
-        derivation_id: null
-      leucine:
-        value: 1.288
-        source_row_id: '1852534'
-        nutrient_id: '1213'
-        data_points: 0
-        derivation_id: null
-      lysine:
-        value: 1.462
-        source_row_id: '1852535'
-        nutrient_id: '1214'
-        data_points: 0
-        derivation_id: null
-      methionine:
-        value: 0.425
-        source_row_id: '1852563'
-        nutrient_id: '1215'
-        data_points: 0
-        derivation_id: null
-      phenylalanine:
-        value: 0.674
-        source_row_id: '1852564'
-        nutrient_id: '1217'
-        data_points: 0
-        derivation_id: null
-      threonine:
-        value: 0.709
-        source_row_id: '1852562'
-        nutrient_id: '1211'
-        data_points: 0
-        derivation_id: null
-      tryptophan:
-        value: 0.193
-        source_row_id: '1852561'
-        nutrient_id: '1210'
-        data_points: 0
-        derivation_id: null
-      valine:
-        value: 0.893
-        source_row_id: '1852537'
-        nutrient_id: '1219'
-        data_points: 0
-        derivation_id: null
-    limitations: Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred.
 ---
 ## Overview
 

@@ -76,263 +76,242 @@ nutrition_supplementary_sources:
     notes: Reported as glycosides; free-aglycone content is not established.
   - key: cyanidin_qual
     label: Cyanidin
-    substance_id: cyanidin
-    value: 8.46
-    unit: mg
-    basis: per 100 g fresh edible portion
-    material: 'Blueberries, cultivated (highbush), raw; NDB 09050'
-    preparation_state: raw
-    chemical_form: aglycone equivalents from glycosides; not free aglycone
-    evidence_status: supported
-    presence_status: presence_and_amount_supported
-    public_display: table
-    rank_eligible: false
-    comparison_group: null
-    source_group: USDA-flavonoid-3.3
-    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database Release 3.3 (2018), printed pages 27–28,
-      NDB 09050. Database-compiled mean for raw cultivated highbush blueberries;
-      analytically determined glycosides are expressed as aglycone equivalents.
-    analytical_metadata:
-      statistic: database-compiled mean
-      data_points: 55
-      standard_error_mg_per_100g: 1.79
-      minimum_mg_per_100g: 0.5
-      maximum_mg_per_100g: 73.86
-      usda_confidence_code: B
+      USDA flavonoid database Release 3.3 (2018); Printed page 27–28;
+      Blueberries, cultivated (highbush), raw; NDB 09050. Positive mean in the
+      named food row, not an assumed association from database title. No
+      free-aglycone mass inferred.
     public_note: >-
-      USDA Release 3.3, raw cultivated highbush blueberries (NDB 09050).
-      Values are mg/100 g fresh edible portion, expressed as aglycone equivalents;
-      they do not establish free-aglycone content or specific glycoside amounts.
+      USDA flavonoid database, Release 3.3; the studied food form is shown
+      beside each constituent. Glycoside-derived records do not establish
+      free-aglycone amounts.
+    source_group: USDA-flavonoid-3.3
     notes: >-
-      Preserve raw highbush identity; not interchangeable with frozen, wild or
-      dried blueberries. Composition only: PM admission and ranking eligibility
-      are not established by this observation.
+      Blueberries, cultivated (highbush), raw; NDB 09050 — glycosides / reported
+      aglycone equivalents
+    public_display: table
+    evidence_status: supported
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
   - key: delphinidin_qual
     label: Delphinidin
-    substance_id: delphinidin
-    value: 35.43
-    unit: mg
-    basis: per 100 g fresh edible portion
-    material: 'Blueberries, cultivated (highbush), raw; NDB 09050'
-    preparation_state: raw
-    chemical_form: aglycone equivalents from glycosides; not free aglycone
-    evidence_status: supported
-    presence_status: presence_and_amount_supported
-    public_display: table
-    rank_eligible: false
-    comparison_group: null
-    source_group: USDA-flavonoid-3.3
-    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database Release 3.3 (2018), printed pages 27–28,
-      NDB 09050. Database-compiled mean for raw cultivated highbush blueberries;
-      analytically determined glycosides are expressed as aglycone equivalents.
-    analytical_metadata:
-      statistic: database-compiled mean
-      data_points: 55
-      standard_error_mg_per_100g: 5.49
-      minimum_mg_per_100g: 3.32
-      maximum_mg_per_100g: 186.98
-      usda_confidence_code: B
-    public_note: >-
-      USDA Release 3.3, raw cultivated highbush blueberries (NDB 09050).
-      Values are mg/100 g fresh edible portion, expressed as aglycone equivalents;
-      they do not establish free-aglycone content or specific glycoside amounts.
+      USDA flavonoid database Release 3.3 (2018); Printed page 27–28;
+      Blueberries, cultivated (highbush), raw; NDB 09050. Positive mean in the
+      named food row, not an assumed association from database title. No
+      free-aglycone mass inferred.
     notes: >-
-      Preserve raw highbush identity; not interchangeable with frozen, wild or
-      dried blueberries. Composition only: PM admission and ranking eligibility
-      are not established by this observation.
+      Blueberries, cultivated (highbush), raw; NDB 09050 — glycosides / reported
+      aglycone equivalents
+    public_display: table
+    evidence_status: supported
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    public_note: >-
+      USDA flavonoid database, Release 3.3; the studied food form is shown
+      beside each constituent. Glycoside-derived records do not establish
+      free-aglycone amounts.
+    source_group: USDA-flavonoid-3.3
   - key: malvidin_qual
     label: Malvidin
-    substance_id: malvidin
-    value: 67.59
-    unit: mg
-    basis: per 100 g fresh edible portion
-    material: 'Blueberries, cultivated (highbush), raw; NDB 09050'
-    preparation_state: raw
-    chemical_form: aglycone equivalents from glycosides; not free aglycone
-    evidence_status: supported
-    presence_status: presence_and_amount_supported
-    public_display: table
-    rank_eligible: false
-    comparison_group: null
-    source_group: USDA-flavonoid-3.3
-    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database Release 3.3 (2018), printed pages 27–28,
-      NDB 09050. Database-compiled mean for raw cultivated highbush blueberries;
-      analytically determined glycosides are expressed as aglycone equivalents.
-    analytical_metadata:
-      statistic: database-compiled mean
-      data_points: 54
-      standard_error_mg_per_100g: 3.5
-      minimum_mg_per_100g: 27.98
-      maximum_mg_per_100g: 185.11
-      usda_confidence_code: B
+      USDA flavonoid database Release 3.3 (2018); Printed page 27–28;
+      Blueberries, cultivated (highbush), raw; NDB 09050. Positive mean in the
+      named food row, not an assumed association from database title. No
+      free-aglycone mass inferred.
     public_note: >-
-      USDA Release 3.3, raw cultivated highbush blueberries (NDB 09050).
-      Values are mg/100 g fresh edible portion, expressed as aglycone equivalents;
-      they do not establish free-aglycone content or specific glycoside amounts.
+      USDA flavonoid database, Release 3.3; the studied food form is shown
+      beside each constituent. Glycoside-derived records do not establish
+      free-aglycone amounts.
+    source_group: USDA-flavonoid-3.3
     notes: >-
-      Preserve raw highbush identity; not interchangeable with frozen, wild or
-      dried blueberries. Composition only: PM admission and ranking eligibility
-      are not established by this observation.
+      Blueberries, cultivated (highbush), raw; NDB 09050 — glycosides / reported
+      aglycone equivalents
+    public_display: table
+    evidence_status: supported
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
   - key: peonidin_qual
     label: Peonidin
-    substance_id: peonidin
-    value: 20.29
-    unit: mg
-    basis: per 100 g fresh edible portion
-    material: 'Blueberries, cultivated (highbush), raw; NDB 09050'
-    preparation_state: raw
-    chemical_form: aglycone equivalents from glycosides; not free aglycone
-    evidence_status: supported
-    presence_status: presence_and_amount_supported
-    public_display: table
-    rank_eligible: false
-    comparison_group: null
-    source_group: USDA-flavonoid-3.3
-    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database Release 3.3 (2018), printed pages 27–28,
-      NDB 09050. Database-compiled mean for raw cultivated highbush blueberries;
-      analytically determined glycosides are expressed as aglycone equivalents.
-    analytical_metadata:
-      statistic: database-compiled mean
-      data_points: 17
-      standard_error_mg_per_100g: 4.43
-      minimum_mg_per_100g: 0.97
-      maximum_mg_per_100g: 59.91
-      usda_confidence_code: B
+      USDA flavonoid database Release 3.3 (2018); Printed page 27–28;
+      Blueberries, cultivated (highbush), raw; NDB 09050. Positive mean in the
+      named food row, not an assumed association from database title. No
+      free-aglycone mass inferred.
     public_note: >-
-      USDA Release 3.3, raw cultivated highbush blueberries (NDB 09050).
-      Values are mg/100 g fresh edible portion, expressed as aglycone equivalents;
-      they do not establish free-aglycone content or specific glycoside amounts.
+      USDA flavonoid database, Release 3.3; the studied food form is shown
+      beside each constituent. Glycoside-derived records do not establish
+      free-aglycone amounts.
+    source_group: USDA-flavonoid-3.3
     notes: >-
-      Preserve raw highbush identity; not interchangeable with frozen, wild or
-      dried blueberries. Composition only: PM admission and ranking eligibility
-      are not established by this observation.
+      Blueberries, cultivated (highbush), raw; NDB 09050 — glycosides / reported
+      aglycone equivalents
+    public_display: table
+    evidence_status: supported
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
   - key: petunidin_qual
     label: Petunidin
-    substance_id: petunidin
-    value: 31.53
-    unit: mg
-    basis: per 100 g fresh edible portion
-    material: 'Blueberries, cultivated (highbush), raw; NDB 09050'
-    preparation_state: raw
-    chemical_form: aglycone equivalents from glycosides; not free aglycone
-    evidence_status: supported
-    presence_status: presence_and_amount_supported
-    public_display: table
-    rank_eligible: false
-    comparison_group: null
-    source_group: USDA-flavonoid-3.3
-    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database Release 3.3 (2018), printed pages 27–28,
-      NDB 09050. Database-compiled mean for raw cultivated highbush blueberries;
-      analytically determined glycosides are expressed as aglycone equivalents.
-    analytical_metadata:
-      statistic: database-compiled mean
-      data_points: 54
-      standard_error_mg_per_100g: 1.64
-      minimum_mg_per_100g: 9.17
-      maximum_mg_per_100g: 111.32
-      usda_confidence_code: B
+      USDA flavonoid database Release 3.3 (2018); Printed page 27–28;
+      Blueberries, cultivated (highbush), raw; NDB 09050. Positive mean in the
+      named food row, not an assumed association from database title. No
+      free-aglycone mass inferred.
     public_note: >-
-      USDA Release 3.3, raw cultivated highbush blueberries (NDB 09050).
-      Values are mg/100 g fresh edible portion, expressed as aglycone equivalents;
-      they do not establish free-aglycone content or specific glycoside amounts.
+      USDA flavonoid database, Release 3.3; the studied food form is shown
+      beside each constituent. Glycoside-derived records do not establish
+      free-aglycone amounts.
+    source_group: USDA-flavonoid-3.3
     notes: >-
-      Preserve raw highbush identity; not interchangeable with frozen, wild or
-      dried blueberries. Composition only: PM admission and ranking eligibility
-      are not established by this observation.
+      Blueberries, cultivated (highbush), raw; NDB 09050 — glycosides / reported
+      aglycone equivalents
+    public_display: table
+    evidence_status: supported
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
   - key: quercetin_qual
     label: Quercetin
-    substance_id: quercetin
-    value: 7.67
-    unit: mg
-    basis: per 100 g fresh edible portion
-    material: 'Blueberries, cultivated (highbush), raw; NDB 09050'
-    preparation_state: raw
-    chemical_form: aglycone equivalents from glycosides; not free aglycone
-    evidence_status: supported
-    presence_status: presence_and_amount_supported
-    public_display: table
-    rank_eligible: false
-    comparison_group: null
-    source_group: USDA-flavonoid-3.3
-    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database Release 3.3 (2018), printed pages 27–28,
-      NDB 09050. Database-compiled mean for raw cultivated highbush blueberries;
-      analytically determined glycosides are expressed as aglycone equivalents.
-    analytical_metadata:
-      statistic: database-compiled mean
-      data_points: 72
-      standard_error_mg_per_100g: 0.18
-      minimum_mg_per_100g: 0
-      maximum_mg_per_100g: 18.72
-      usda_confidence_code: B
-    public_note: >-
-      USDA Release 3.3, raw cultivated highbush blueberries (NDB 09050).
-      Values are mg/100 g fresh edible portion, expressed as aglycone equivalents;
-      they do not establish free-aglycone content or specific glycoside amounts.
+      USDA flavonoid database Release 3.3 (2018); Printed page 27–28;
+      Blueberries, cultivated (highbush), raw; NDB 09050. Positive mean in the
+      named food row, not an assumed association from database title. No
+      free-aglycone mass inferred.
     notes: >-
-      Preserve raw highbush identity; not interchangeable with frozen, wild or
-      dried blueberries. Composition only: PM admission and ranking eligibility
-      are not established by this observation.
-    supporting_evidence:
-      - citation_key: dabeek_dietary_kaempferol_2019
-        notes: >-
-          Table 1 separately compiles blueberry quercetin at 14.6 mg/100 g
-          fresh weight. Retain as secondary context, not an independent replicate
-          or a substitute for the raw-highbush USDA mean of 7.67 mg/100 g.
+      Blueberries, cultivated (highbush), raw; NDB 09050 — glycosides / reported
+      aglycone equivalents
+    public_display: table
+    evidence_status: supported
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    public_note: >-
+      USDA flavonoid database, Release 3.3; the studied food form is shown
+      beside each constituent. Glycoside-derived records do not establish
+      free-aglycone amounts.
+    source_group: USDA-flavonoid-3.3
   - key: kaempferol_qual
     label: Kaempferol
-    substance_id: kaempferol
-    value: 1.66
-    unit: mg
-    basis: per 100 g fresh edible portion
-    material: 'Blueberries, cultivated (highbush), raw; NDB 09050'
-    preparation_state: raw
-    chemical_form: aglycone equivalents from glycosides; not free aglycone
-    evidence_status: supported
-    presence_status: presence_and_amount_supported
-    public_display: table
-    rank_eligible: false
-    comparison_group: null
-    source_group: USDA-flavonoid-3.3
-    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database Release 3.3 (2018), printed pages 27–28,
-      NDB 09050. Database-compiled mean for raw cultivated highbush blueberries;
-      analytically determined glycosides are expressed as aglycone equivalents.
-    analytical_metadata:
-      statistic: database-compiled mean
-      data_points: 17
-      standard_error_mg_per_100g: 0.21
-      minimum_mg_per_100g: 0
-      maximum_mg_per_100g: 4.1
-      usda_confidence_code: B
+      Dabeek and Marra 2019 compile Phenol-Explorer and USDA flavonoid values
+      showing kaempferol in Blueberries; a single defensible per-100 g value is
+      not taken from the abbreviated USDA nutrient panel.
     public_note: >-
-      USDA Release 3.3, raw cultivated highbush blueberries (NDB 09050).
-      Values are mg/100 g fresh edible portion, expressed as aglycone equivalents;
-      they do not establish free-aglycone content or specific glycoside amounts.
-    notes: >-
-      Preserve raw highbush identity; not interchangeable with frozen, wild or
-      dried blueberries. Composition only: PM admission and ranking eligibility
-      are not established by this observation.
-    supporting_evidence:
-      - citation_key: dabeek_dietary_kaempferol_2019
-        notes: >-
-          Table 1 separately compiles blueberry kaempferol at 3.17 mg/100 g
-          fresh weight from Phenol-Explorer and USDA. This secondary compilation
-          is not an independent replicate or a replacement for NDB 09050's
-          1.66 mg/100 g mean; food-form and analytical provenance differ or remain
-          insufficiently specified. Preserve the discrepancy.
+      Dabeek and Marra 2019 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_group: >-
+      Dabeek and Marra 2019 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+substance_relationships:
+  - substance: Kaempferol
+    relationship: contains
+    citation_keys:
+      - dabeek_dietary_kaempferol_2019
+  - substance: Manganese
+    relationship: contains
+    description: 'USDA FoodData Central reports manganese in Blueberries, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: blueberries|Manganese
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Blueberries, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171711/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin C
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin C in Blueberries, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: blueberries|Vitamin C
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Blueberries, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171711/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Cyanidin
+    relationship: contains
+    description: >-
+      USDA’s flavonoid database identifies cyanidin-derived glycosides in
+      blueberries, cultivated (highbush), raw. A separate amount for this page
+      is not established. This does not establish free-aglycone content.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: blueberries|Cyanidin
+    evidence_source: USDA flavonoid database Release 3.3 (2018)
+    evidence_material: 'Blueberries, cultivated (highbush), raw; NDB 09050'
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Delphinidin
+    relationship: contains
+    description: >-
+      USDA’s flavonoid database identifies delphinidin-derived glycosides in
+      blueberries, cultivated (highbush), raw. A separate amount for this page
+      is not established. This does not establish free-aglycone content.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: blueberries|Delphinidin
+    evidence_source: USDA flavonoid database Release 3.3 (2018)
+    evidence_material: 'Blueberries, cultivated (highbush), raw; NDB 09050'
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Malvidin
+    relationship: contains
+    description: >-
+      USDA’s flavonoid database identifies malvidin-derived glycosides in
+      blueberries, cultivated (highbush), raw. A separate amount for this page
+      is not established. This does not establish free-aglycone content.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: blueberries|Malvidin
+    evidence_source: USDA flavonoid database Release 3.3 (2018)
+    evidence_material: 'Blueberries, cultivated (highbush), raw; NDB 09050'
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Peonidin
+    relationship: contains
+    description: >-
+      USDA’s flavonoid database identifies peonidin-derived glycosides in
+      blueberries, cultivated (highbush), raw. A separate amount for this page
+      is not established. This does not establish free-aglycone content.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: blueberries|Peonidin
+    evidence_source: USDA flavonoid database Release 3.3 (2018)
+    evidence_material: 'Blueberries, cultivated (highbush), raw; NDB 09050'
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Petunidin
+    relationship: contains
+    description: >-
+      USDA’s flavonoid database identifies petunidin-derived glycosides in
+      blueberries, cultivated (highbush), raw. A separate amount for this page
+      is not established. This does not establish free-aglycone content.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: blueberries|Petunidin
+    evidence_source: USDA flavonoid database Release 3.3 (2018)
+    evidence_material: 'Blueberries, cultivated (highbush), raw; NDB 09050'
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Quercetin
+    relationship: contains
+    description: >-
+      USDA’s flavonoid database identifies quercetin-derived glycosides in
+      blueberries, cultivated (highbush), raw. A separate amount for this page
+      is not established. This does not establish free-aglycone content.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: blueberries|Quercetin
+    evidence_source: USDA flavonoid database Release 3.3 (2018)
+    evidence_material: 'Blueberries, cultivated (highbush), raw; NDB 09050'
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    presence_status: presence_supported_amount_unavailable
+nutrition_functional_metrics:
   - key: total_polyphenols_berries
     label: Total polyphenols (Folin proxy)
     amount_display: Varies by cultivar and ripeness
