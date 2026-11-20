@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Independent direct aggregation of EVERY score and rank",
+    "status": "PASS",
+    "evidence": "231 food/view scores and ranks reconstructed without scoreFoods()"
+  },
+  {
+    "name": "Independent pre-cap qualification and RSP reconstruction",
+    "status": "PASS",
+    "evidence": "305 >=20 food/form candidates; includes pools larger than ten"
+  },
+  {
+    "name": "Observed quantities/preparations/protein match canonical records",
+    "status": "PASS",
+    "evidence": "703 component rows checked against live canonical fields; no missing value is numeric zero"
+  },
+  {
+    "name": "New profiles verified against exact downloaded USDA rows",
+    "status": "PASS",
+    "evidence": "126 added amino-acid values; exact FDC descriptions, protein and row IDs; no portions added"
+  },
+  {
+    "name": "Deduplication, overlap, sodium, inclusive threshold, ties",
+    "status": "PASS",
+    "evidence": "Synthetic boundary/tie/duplicate/ownership tests plus every real group"
+  },
+  {
+    "name": "Incompatible pools never silently maximised",
+    "status": "PASS",
+    "evidence": "Conflicting input pools produce unresolved subtotal, not maximum"
+  },
+  {
+    "name": "Shared selector default unchanged",
+    "status": "PASS",
+    "evidence": "Exact equality with HEAD implementation for all 19 current source pools"
+  },
+  {
+    "name": "Frozen manifest, site data, PM records and scientific gates unchanged",
+    "status": "PASS",
+    "evidence": "Tracked changes limited to source-food additions and four opt-in helper paths; no PM, gate, manifest or generated-site changes"
+  },
+  {
+    "name": "Source hashes fresh",
+    "status": "PASS",
+    "evidence": "363 source hashes match current candidate"
+  },
+  {
+    "name": "Prior source values, food prose and pan-fried liver preserved",
+    "status": "PASS",
+    "evidence": "All old composition fields/profiles and page bodies identical; raw and pan-fried liver observations separate"
+  }
+]

@@ -1,0 +1,3631 @@
+[
+  {
+    "food_id": "anchovies",
+    "substance": "5-methyltetrahydrofolate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/anchovies.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "anchovies",
+    "substance": "betaine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/anchovies.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "anchovies",
+    "substance": "choline",
+    "status": "supported observation mapped",
+    "source": "docs/foods/anchovies.md",
+    "records": [
+      "docs/foods/anchovies.md#nutrition_per_100g/choline_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "anchovies",
+    "substance": "cysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/anchovies.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "anchovies",
+    "substance": "glutamate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/anchovies.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "anchovies",
+    "substance": "glycine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/anchovies.md",
+    "records": [
+      "docs/foods/anchovies.md#nutrition_supplementary_sources/glycine_usda_brs2_174183"
+    ],
+    "new_additions": [
+      "glycine_usda_brs2_174183"
+    ]
+  },
+  {
+    "food_id": "anchovies",
+    "substance": "magnesium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/anchovies.md",
+    "records": [
+      "docs/foods/anchovies.md#nutrition_per_100g/magnesium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "anchovies",
+    "substance": "methionine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/anchovies.md",
+    "records": [
+      "docs/foods/anchovies.md#nutrition_amino_acid_profiles/usda-sr-174183/amino_acids/methionine"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "anchovies",
+    "substance": "n-acetylcysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/anchovies.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "anchovies",
+    "substance": "phosphatidylcholine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/anchovies.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "anchovies",
+    "substance": "potassium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/anchovies.md",
+    "records": [
+      "docs/foods/anchovies.md#nutrition_per_100g/potassium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "anchovies",
+    "substance": "pyridoxal-5-phosphate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/anchovies.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "anchovies",
+    "substance": "serine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/anchovies.md",
+    "records": [
+      "docs/foods/anchovies.md#nutrition_supplementary_sources/serine_usda_brs2_174183"
+    ],
+    "new_additions": [
+      "serine_usda_brs2_174183"
+    ]
+  },
+  {
+    "food_id": "anchovies",
+    "substance": "uridine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/anchovies.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "anchovies",
+    "substance": "vitamin-b12",
+    "status": "supported observation mapped",
+    "source": "docs/foods/anchovies.md",
+    "records": [
+      "docs/foods/anchovies.md#nutrition_per_100g/vitamin_b12_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "anchovies",
+    "substance": "vitamin-b2",
+    "status": "supported observation mapped",
+    "source": "docs/foods/anchovies.md",
+    "records": [
+      "docs/foods/anchovies.md#nutrition_per_100g/vitamin_b2_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "anchovies",
+    "substance": "vitamin-b6",
+    "status": "supported observation mapped",
+    "source": "docs/foods/anchovies.md",
+    "records": [
+      "docs/foods/anchovies.md#nutrition_per_100g/vitamin_b6_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "anchovies",
+    "substance": "vitamin-b9",
+    "status": "supported observation mapped",
+    "source": "docs/foods/anchovies.md",
+    "records": [
+      "docs/foods/anchovies.md#nutrition_per_100g/folate_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "anchovies",
+    "substance": "zinc",
+    "status": "supported observation mapped",
+    "source": "docs/foods/anchovies.md",
+    "records": [
+      "docs/foods/anchovies.md#nutrition_per_100g/zinc_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "beef",
+    "substance": "5-methyltetrahydrofolate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/beef.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "beef",
+    "substance": "betaine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/beef.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "beef",
+    "substance": "choline",
+    "status": "supported observation mapped",
+    "source": "docs/foods/beef.md",
+    "records": [
+      "docs/foods/beef.md#nutrition_per_100g/choline_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "beef",
+    "substance": "cysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/beef.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "beef",
+    "substance": "glutamate",
+    "status": "qualitative mapped; quantity unresolved",
+    "source": "docs/foods/beef.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "beef",
+    "substance": "glycine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/beef.md",
+    "records": [
+      "docs/foods/beef.md#nutrition_supplementary_sources/glycine_usda_review01_171796"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "beef",
+    "substance": "magnesium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/beef.md",
+    "records": [
+      "docs/foods/beef.md#nutrition_per_100g/magnesium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "beef",
+    "substance": "methionine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/beef.md",
+    "records": [
+      "docs/foods/beef.md#nutrition_amino_acid_profiles/usda-sr-171796/amino_acids/methionine",
+      "docs/foods/beef.md#nutrition_amino_acid_profiles/usda-sr-174032/amino_acids/methionine"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "beef",
+    "substance": "n-acetylcysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/beef.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "beef",
+    "substance": "phosphatidylcholine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/beef.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "beef",
+    "substance": "potassium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/beef.md",
+    "records": [
+      "docs/foods/beef.md#nutrition_per_100g/potassium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "beef",
+    "substance": "pyridoxal-5-phosphate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/beef.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "beef",
+    "substance": "serine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/beef.md",
+    "records": [
+      "docs/foods/beef.md#nutrition_supplementary_sources/serine_usda_brs2_171796"
+    ],
+    "new_additions": [
+      "serine_usda_brs2_171796"
+    ]
+  },
+  {
+    "food_id": "beef",
+    "substance": "uridine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/beef.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "beef",
+    "substance": "vitamin-b12",
+    "status": "supported observation mapped",
+    "source": "docs/foods/beef.md",
+    "records": [
+      "docs/foods/beef.md#nutrition_per_100g/vitamin_b12_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "beef",
+    "substance": "vitamin-b2",
+    "status": "supported observation mapped",
+    "source": "docs/foods/beef.md",
+    "records": [
+      "docs/foods/beef.md#nutrition_per_100g/vitamin_b2_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "beef",
+    "substance": "vitamin-b6",
+    "status": "supported observation mapped",
+    "source": "docs/foods/beef.md",
+    "records": [
+      "docs/foods/beef.md#nutrition_per_100g/vitamin_b6_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "beef",
+    "substance": "vitamin-b9",
+    "status": "supported observation mapped",
+    "source": "docs/foods/beef.md",
+    "records": [
+      "docs/foods/beef.md#nutrition_per_100g/folate_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "beef",
+    "substance": "zinc",
+    "status": "supported observation mapped",
+    "source": "docs/foods/beef.md",
+    "records": [
+      "docs/foods/beef.md#nutrition_per_100g/zinc_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken",
+    "substance": "5-methyltetrahydrofolate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/chicken.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken",
+    "substance": "betaine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/chicken.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken",
+    "substance": "choline",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken.md",
+    "records": [
+      "docs/foods/chicken.md#nutrition_per_100g/choline_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken",
+    "substance": "cysteine",
+    "status": "qualitative mapped; quantity unresolved",
+    "source": "docs/foods/chicken.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken",
+    "substance": "glutamate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/chicken.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken",
+    "substance": "glycine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken.md",
+    "records": [
+      "docs/foods/chicken.md#nutrition_supplementary_sources/glycine_usda_review01_171447"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken",
+    "substance": "magnesium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken.md",
+    "records": [
+      "docs/foods/chicken.md#nutrition_per_100g/magnesium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken",
+    "substance": "methionine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken.md",
+    "records": [
+      "docs/foods/chicken.md#nutrition_per_100g/methionine_g",
+      "docs/foods/chicken.md#nutrition_amino_acid_profiles/usda-sr-171447/amino_acids/methionine",
+      "docs/foods/chicken.md#nutrition_amino_acid_profiles/usda-sr-171477/amino_acids/methionine"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken",
+    "substance": "n-acetylcysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/chicken.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken",
+    "substance": "phosphatidylcholine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/chicken.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken",
+    "substance": "potassium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken.md",
+    "records": [
+      "docs/foods/chicken.md#nutrition_per_100g/potassium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken",
+    "substance": "pyridoxal-5-phosphate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/chicken.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken",
+    "substance": "serine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken.md",
+    "records": [
+      "docs/foods/chicken.md#nutrition_supplementary_sources/serine_usda_brs2_171447"
+    ],
+    "new_additions": [
+      "serine_usda_brs2_171447"
+    ]
+  },
+  {
+    "food_id": "chicken",
+    "substance": "uridine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/chicken.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken",
+    "substance": "vitamin-b12",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken.md",
+    "records": [
+      "docs/foods/chicken.md#nutrition_per_100g/vitamin_b12_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken",
+    "substance": "vitamin-b2",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken.md",
+    "records": [
+      "docs/foods/chicken.md#nutrition_per_100g/vitamin_b2_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken",
+    "substance": "vitamin-b6",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken.md",
+    "records": [
+      "docs/foods/chicken.md#nutrition_per_100g/vitamin_b6_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken",
+    "substance": "vitamin-b9",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken.md",
+    "records": [
+      "docs/foods/chicken.md#nutrition_per_100g/folate_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken",
+    "substance": "zinc",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken.md",
+    "records": [
+      "docs/foods/chicken.md#nutrition_per_100g/zinc_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance": "5-methyltetrahydrofolate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/chicken-liver.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance": "betaine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken-liver.md",
+    "records": [
+      "docs/foods/chicken-liver.md#nutrition_supplementary_sources/betaine_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance": "choline",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken-liver.md",
+    "records": [
+      "docs/foods/chicken-liver.md#nutrition_per_100g/choline_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance": "cysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/chicken-liver.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance": "glutamate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/chicken-liver.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance": "glycine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken-liver.md",
+    "records": [
+      "docs/foods/chicken-liver.md#nutrition_supplementary_sources/glycine_usda_brs2_171060"
+    ],
+    "new_additions": [
+      "glycine_usda_brs2_171060"
+    ]
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance": "magnesium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken-liver.md",
+    "records": [
+      "docs/foods/chicken-liver.md#nutrition_per_100g/magnesium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance": "methionine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken-liver.md",
+    "records": [
+      "docs/foods/chicken-liver.md#nutrition_amino_acid_profiles/usda-sr-171060/amino_acids/methionine"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance": "n-acetylcysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/chicken-liver.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance": "phosphatidylcholine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/chicken-liver.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance": "potassium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken-liver.md",
+    "records": [
+      "docs/foods/chicken-liver.md#nutrition_per_100g/potassium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance": "pyridoxal-5-phosphate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/chicken-liver.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance": "serine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken-liver.md",
+    "records": [
+      "docs/foods/chicken-liver.md#nutrition_supplementary_sources/serine_usda_brs2_171060"
+    ],
+    "new_additions": [
+      "serine_usda_brs2_171060"
+    ]
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance": "uridine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/chicken-liver.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance": "vitamin-b12",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken-liver.md",
+    "records": [
+      "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b12_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance": "vitamin-b2",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken-liver.md",
+    "records": [
+      "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance": "vitamin-b6",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken-liver.md",
+    "records": [
+      "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b6_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance": "vitamin-b9",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken-liver.md",
+    "records": [
+      "docs/foods/chicken-liver.md#nutrition_per_100g/folate_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance": "zinc",
+    "status": "supported observation mapped",
+    "source": "docs/foods/chicken-liver.md",
+    "records": [
+      "docs/foods/chicken-liver.md#nutrition_per_100g/zinc_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "cod",
+    "substance": "5-methyltetrahydrofolate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/cod.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "cod",
+    "substance": "betaine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/cod.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "cod",
+    "substance": "choline",
+    "status": "supported observation mapped",
+    "source": "docs/foods/cod.md",
+    "records": [
+      "docs/foods/cod.md#nutrition_per_100g/choline_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "cod",
+    "substance": "cysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/cod.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "cod",
+    "substance": "glutamate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/cod.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "cod",
+    "substance": "glycine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/cod.md",
+    "records": [
+      "docs/foods/cod.md#nutrition_supplementary_sources/glycine_usda_brs2_171955"
+    ],
+    "new_additions": [
+      "glycine_usda_brs2_171955"
+    ]
+  },
+  {
+    "food_id": "cod",
+    "substance": "magnesium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/cod.md",
+    "records": [
+      "docs/foods/cod.md#nutrition_per_100g/magnesium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "cod",
+    "substance": "methionine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/cod.md",
+    "records": [
+      "docs/foods/cod.md#nutrition_amino_acid_profiles/usda-sr-171955/amino_acids/methionine"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "cod",
+    "substance": "n-acetylcysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/cod.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "cod",
+    "substance": "phosphatidylcholine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/cod.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "cod",
+    "substance": "potassium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/cod.md",
+    "records": [
+      "docs/foods/cod.md#nutrition_per_100g/potassium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "cod",
+    "substance": "pyridoxal-5-phosphate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/cod.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "cod",
+    "substance": "serine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/cod.md",
+    "records": [
+      "docs/foods/cod.md#nutrition_supplementary_sources/serine_usda_brs2_171955"
+    ],
+    "new_additions": [
+      "serine_usda_brs2_171955"
+    ]
+  },
+  {
+    "food_id": "cod",
+    "substance": "uridine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/cod.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "cod",
+    "substance": "vitamin-b12",
+    "status": "supported observation mapped",
+    "source": "docs/foods/cod.md",
+    "records": [
+      "docs/foods/cod.md#nutrition_per_100g/vitamin_b12_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "cod",
+    "substance": "vitamin-b2",
+    "status": "supported observation mapped",
+    "source": "docs/foods/cod.md",
+    "records": [
+      "docs/foods/cod.md#nutrition_per_100g/vitamin_b2_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "cod",
+    "substance": "vitamin-b6",
+    "status": "supported observation mapped",
+    "source": "docs/foods/cod.md",
+    "records": [
+      "docs/foods/cod.md#nutrition_per_100g/vitamin_b6_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "cod",
+    "substance": "vitamin-b9",
+    "status": "supported observation mapped",
+    "source": "docs/foods/cod.md",
+    "records": [
+      "docs/foods/cod.md#nutrition_per_100g/folate_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "cod",
+    "substance": "zinc",
+    "status": "supported observation mapped",
+    "source": "docs/foods/cod.md",
+    "records": [
+      "docs/foods/cod.md#nutrition_per_100g/zinc_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance": "5-methyltetrahydrofolate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/dark-meat-poultry.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance": "betaine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/dark-meat-poultry.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance": "choline",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/dark-meat-poultry.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance": "cysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/dark-meat-poultry.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance": "glutamate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/dark-meat-poultry.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance": "glycine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/dark-meat-poultry.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance": "magnesium",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/dark-meat-poultry.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance": "methionine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/dark-meat-poultry.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance": "n-acetylcysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/dark-meat-poultry.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance": "phosphatidylcholine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/dark-meat-poultry.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance": "potassium",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/dark-meat-poultry.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance": "pyridoxal-5-phosphate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/dark-meat-poultry.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance": "serine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/dark-meat-poultry.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance": "uridine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/dark-meat-poultry.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance": "vitamin-b12",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/dark-meat-poultry.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance": "vitamin-b2",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/dark-meat-poultry.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance": "vitamin-b6",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/dark-meat-poultry.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance": "vitamin-b9",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/dark-meat-poultry.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance": "zinc",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/dark-meat-poultry.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "heart",
+    "substance": "5-methyltetrahydrofolate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/heart.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "heart",
+    "substance": "betaine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/heart.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "heart",
+    "substance": "choline",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/heart.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "heart",
+    "substance": "cysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/heart.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "heart",
+    "substance": "glutamate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/heart.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "heart",
+    "substance": "glycine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/heart.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "heart",
+    "substance": "magnesium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/heart.md",
+    "records": [
+      "docs/foods/heart.md#nutrition_per_100g/magnesium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "heart",
+    "substance": "methionine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/heart.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "heart",
+    "substance": "n-acetylcysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/heart.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "heart",
+    "substance": "phosphatidylcholine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/heart.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "heart",
+    "substance": "potassium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/heart.md",
+    "records": [
+      "docs/foods/heart.md#nutrition_per_100g/potassium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "heart",
+    "substance": "pyridoxal-5-phosphate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/heart.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "heart",
+    "substance": "serine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/heart.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "heart",
+    "substance": "uridine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/heart.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "heart",
+    "substance": "vitamin-b12",
+    "status": "supported observation mapped",
+    "source": "docs/foods/heart.md",
+    "records": [
+      "docs/foods/heart.md#nutrition_per_100g/vitamin_b12_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "heart",
+    "substance": "vitamin-b2",
+    "status": "supported observation mapped",
+    "source": "docs/foods/heart.md",
+    "records": [
+      "docs/foods/heart.md#nutrition_per_100g/vitamin_b2_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "heart",
+    "substance": "vitamin-b6",
+    "status": "supported observation mapped",
+    "source": "docs/foods/heart.md",
+    "records": [
+      "docs/foods/heart.md#nutrition_per_100g/vitamin_b6_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "heart",
+    "substance": "vitamin-b9",
+    "status": "supported observation mapped",
+    "source": "docs/foods/heart.md",
+    "records": [
+      "docs/foods/heart.md#nutrition_per_100g/folate_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "heart",
+    "substance": "zinc",
+    "status": "supported observation mapped",
+    "source": "docs/foods/heart.md",
+    "records": [
+      "docs/foods/heart.md#nutrition_per_100g/zinc_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "herring",
+    "substance": "5-methyltetrahydrofolate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/herring.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "herring",
+    "substance": "betaine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/herring.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "herring",
+    "substance": "choline",
+    "status": "supported observation mapped",
+    "source": "docs/foods/herring.md",
+    "records": [
+      "docs/foods/herring.md#nutrition_per_100g/choline_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "herring",
+    "substance": "cysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/herring.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "herring",
+    "substance": "glutamate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/herring.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "herring",
+    "substance": "glycine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/herring.md",
+    "records": [
+      "docs/foods/herring.md#nutrition_supplementary_sources/glycine_usda_brs2_175116"
+    ],
+    "new_additions": [
+      "glycine_usda_brs2_175116"
+    ]
+  },
+  {
+    "food_id": "herring",
+    "substance": "magnesium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/herring.md",
+    "records": [
+      "docs/foods/herring.md#nutrition_per_100g/magnesium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "herring",
+    "substance": "methionine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/herring.md",
+    "records": [
+      "docs/foods/herring.md#nutrition_amino_acid_profiles/usda-sr-175116/amino_acids/methionine"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "herring",
+    "substance": "n-acetylcysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/herring.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "herring",
+    "substance": "phosphatidylcholine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/herring.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "herring",
+    "substance": "potassium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/herring.md",
+    "records": [
+      "docs/foods/herring.md#nutrition_per_100g/potassium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "herring",
+    "substance": "pyridoxal-5-phosphate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/herring.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "herring",
+    "substance": "serine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/herring.md",
+    "records": [
+      "docs/foods/herring.md#nutrition_supplementary_sources/serine_usda_brs2_175116"
+    ],
+    "new_additions": [
+      "serine_usda_brs2_175116"
+    ]
+  },
+  {
+    "food_id": "herring",
+    "substance": "uridine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/herring.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "herring",
+    "substance": "vitamin-b12",
+    "status": "supported observation mapped",
+    "source": "docs/foods/herring.md",
+    "records": [
+      "docs/foods/herring.md#nutrition_per_100g/vitamin_b12_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "herring",
+    "substance": "vitamin-b2",
+    "status": "supported observation mapped",
+    "source": "docs/foods/herring.md",
+    "records": [
+      "docs/foods/herring.md#nutrition_per_100g/vitamin_b2_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "herring",
+    "substance": "vitamin-b6",
+    "status": "supported observation mapped",
+    "source": "docs/foods/herring.md",
+    "records": [
+      "docs/foods/herring.md#nutrition_per_100g/vitamin_b6_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "herring",
+    "substance": "vitamin-b9",
+    "status": "supported observation mapped",
+    "source": "docs/foods/herring.md",
+    "records": [
+      "docs/foods/herring.md#nutrition_per_100g/folate_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "herring",
+    "substance": "zinc",
+    "status": "supported observation mapped",
+    "source": "docs/foods/herring.md",
+    "records": [
+      "docs/foods/herring.md#nutrition_per_100g/zinc_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "kidney",
+    "substance": "5-methyltetrahydrofolate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/kidney.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "kidney",
+    "substance": "betaine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/kidney.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "kidney",
+    "substance": "choline",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/kidney.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "kidney",
+    "substance": "cysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/kidney.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "kidney",
+    "substance": "glutamate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/kidney.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "kidney",
+    "substance": "glycine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/kidney.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "kidney",
+    "substance": "magnesium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/kidney.md",
+    "records": [
+      "docs/foods/kidney.md#nutrition_per_100g/magnesium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "kidney",
+    "substance": "methionine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/kidney.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "kidney",
+    "substance": "n-acetylcysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/kidney.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "kidney",
+    "substance": "phosphatidylcholine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/kidney.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "kidney",
+    "substance": "potassium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/kidney.md",
+    "records": [
+      "docs/foods/kidney.md#nutrition_per_100g/potassium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "kidney",
+    "substance": "pyridoxal-5-phosphate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/kidney.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "kidney",
+    "substance": "serine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/kidney.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "kidney",
+    "substance": "uridine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/kidney.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "kidney",
+    "substance": "vitamin-b12",
+    "status": "supported observation mapped",
+    "source": "docs/foods/kidney.md",
+    "records": [
+      "docs/foods/kidney.md#nutrition_per_100g/vitamin_b12_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "kidney",
+    "substance": "vitamin-b2",
+    "status": "supported observation mapped",
+    "source": "docs/foods/kidney.md",
+    "records": [
+      "docs/foods/kidney.md#nutrition_per_100g/vitamin_b2_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "kidney",
+    "substance": "vitamin-b6",
+    "status": "supported observation mapped",
+    "source": "docs/foods/kidney.md",
+    "records": [
+      "docs/foods/kidney.md#nutrition_per_100g/vitamin_b6_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "kidney",
+    "substance": "vitamin-b9",
+    "status": "supported observation mapped",
+    "source": "docs/foods/kidney.md",
+    "records": [
+      "docs/foods/kidney.md#nutrition_per_100g/folate_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "kidney",
+    "substance": "zinc",
+    "status": "supported observation mapped",
+    "source": "docs/foods/kidney.md",
+    "records": [
+      "docs/foods/kidney.md#nutrition_per_100g/zinc_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "lamb",
+    "substance": "5-methyltetrahydrofolate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lamb.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lamb",
+    "substance": "betaine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lamb.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lamb",
+    "substance": "choline",
+    "status": "supported observation mapped",
+    "source": "docs/foods/lamb.md",
+    "records": [
+      "docs/foods/lamb.md#nutrition_per_100g/choline_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "lamb",
+    "substance": "cysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lamb.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lamb",
+    "substance": "glutamate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lamb.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lamb",
+    "substance": "glycine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/lamb.md",
+    "records": [
+      "docs/foods/lamb.md#nutrition_supplementary_sources/glycine_usda_brs2_174370"
+    ],
+    "new_additions": [
+      "glycine_usda_brs2_174370"
+    ]
+  },
+  {
+    "food_id": "lamb",
+    "substance": "magnesium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/lamb.md",
+    "records": [
+      "docs/foods/lamb.md#nutrition_per_100g/magnesium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "lamb",
+    "substance": "methionine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/lamb.md",
+    "records": [
+      "docs/foods/lamb.md#nutrition_amino_acid_profiles/usda-sr-174370/amino_acids/methionine"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "lamb",
+    "substance": "n-acetylcysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lamb.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lamb",
+    "substance": "phosphatidylcholine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lamb.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lamb",
+    "substance": "potassium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/lamb.md",
+    "records": [
+      "docs/foods/lamb.md#nutrition_per_100g/potassium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "lamb",
+    "substance": "pyridoxal-5-phosphate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lamb.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lamb",
+    "substance": "serine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/lamb.md",
+    "records": [
+      "docs/foods/lamb.md#nutrition_supplementary_sources/serine_usda_brs2_174370"
+    ],
+    "new_additions": [
+      "serine_usda_brs2_174370"
+    ]
+  },
+  {
+    "food_id": "lamb",
+    "substance": "uridine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lamb.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lamb",
+    "substance": "vitamin-b12",
+    "status": "supported observation mapped",
+    "source": "docs/foods/lamb.md",
+    "records": [
+      "docs/foods/lamb.md#nutrition_per_100g/vitamin_b12_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "lamb",
+    "substance": "vitamin-b2",
+    "status": "supported observation mapped",
+    "source": "docs/foods/lamb.md",
+    "records": [
+      "docs/foods/lamb.md#nutrition_per_100g/vitamin_b2_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "lamb",
+    "substance": "vitamin-b6",
+    "status": "supported observation mapped",
+    "source": "docs/foods/lamb.md",
+    "records": [
+      "docs/foods/lamb.md#nutrition_per_100g/vitamin_b6_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "lamb",
+    "substance": "vitamin-b9",
+    "status": "supported observation mapped",
+    "source": "docs/foods/lamb.md",
+    "records": [
+      "docs/foods/lamb.md#nutrition_per_100g/folate_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "lamb",
+    "substance": "zinc",
+    "status": "supported observation mapped",
+    "source": "docs/foods/lamb.md",
+    "records": [
+      "docs/foods/lamb.md#nutrition_per_100g/zinc_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "liver",
+    "substance": "5-methyltetrahydrofolate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/liver.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "liver",
+    "substance": "betaine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/liver.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "liver",
+    "substance": "choline",
+    "status": "supported observation mapped",
+    "source": "docs/foods/liver.md",
+    "records": [
+      "docs/foods/liver.md#nutrition_per_100g/choline_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "liver",
+    "substance": "cysteine",
+    "status": "qualitative mapped; quantity unresolved",
+    "source": "docs/foods/liver.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "liver",
+    "substance": "glutamate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/liver.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "liver",
+    "substance": "glycine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/liver.md",
+    "records": [
+      "docs/foods/liver.md#nutrition_supplementary_sources/glycine_usda_brs2_169451"
+    ],
+    "new_additions": [
+      "glycine_usda_brs2_169451"
+    ]
+  },
+  {
+    "food_id": "liver",
+    "substance": "magnesium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/liver.md",
+    "records": [
+      "docs/foods/liver.md#nutrition_per_100g/magnesium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "liver",
+    "substance": "methionine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/liver.md",
+    "records": [
+      "docs/foods/liver.md#nutrition_amino_acid_profiles/usda-sr-169451/amino_acids/methionine"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "liver",
+    "substance": "n-acetylcysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/liver.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "liver",
+    "substance": "phosphatidylcholine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/liver.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "liver",
+    "substance": "potassium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/liver.md",
+    "records": [
+      "docs/foods/liver.md#nutrition_per_100g/potassium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "liver",
+    "substance": "pyridoxal-5-phosphate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/liver.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "liver",
+    "substance": "serine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/liver.md",
+    "records": [
+      "docs/foods/liver.md#nutrition_supplementary_sources/serine_usda_brs2_169451"
+    ],
+    "new_additions": [
+      "serine_usda_brs2_169451"
+    ]
+  },
+  {
+    "food_id": "liver",
+    "substance": "uridine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/liver.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "liver",
+    "substance": "vitamin-b12",
+    "status": "supported observation mapped",
+    "source": "docs/foods/liver.md",
+    "records": [
+      "docs/foods/liver.md#nutrition_per_100g/vitamin_b12_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "liver",
+    "substance": "vitamin-b2",
+    "status": "supported observation mapped",
+    "source": "docs/foods/liver.md",
+    "records": [
+      "docs/foods/liver.md#nutrition_per_100g/vitamin_b2_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "liver",
+    "substance": "vitamin-b6",
+    "status": "supported observation mapped",
+    "source": "docs/foods/liver.md",
+    "records": [
+      "docs/foods/liver.md#nutrition_per_100g/vitamin_b6_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "liver",
+    "substance": "vitamin-b9",
+    "status": "supported observation mapped",
+    "source": "docs/foods/liver.md",
+    "records": [
+      "docs/foods/liver.md#nutrition_per_100g/folate_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "liver",
+    "substance": "zinc",
+    "status": "supported observation mapped",
+    "source": "docs/foods/liver.md",
+    "records": [
+      "docs/foods/liver.md#nutrition_per_100g/zinc_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance": "5-methyltetrahydrofolate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lumpfish-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance": "betaine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lumpfish-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance": "choline",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lumpfish-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance": "cysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lumpfish-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance": "glutamate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lumpfish-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance": "glycine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lumpfish-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance": "magnesium",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lumpfish-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance": "methionine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lumpfish-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance": "n-acetylcysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lumpfish-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance": "phosphatidylcholine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lumpfish-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance": "potassium",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lumpfish-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance": "pyridoxal-5-phosphate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lumpfish-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance": "serine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lumpfish-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance": "uridine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lumpfish-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance": "vitamin-b12",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lumpfish-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance": "vitamin-b2",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lumpfish-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance": "vitamin-b6",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lumpfish-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance": "vitamin-b9",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lumpfish-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance": "zinc",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/lumpfish-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "mackerel",
+    "substance": "5-methyltetrahydrofolate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/mackerel.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "mackerel",
+    "substance": "betaine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/mackerel.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "mackerel",
+    "substance": "choline",
+    "status": "supported observation mapped",
+    "source": "docs/foods/mackerel.md",
+    "records": [
+      "docs/foods/mackerel.md#nutrition_per_100g/choline_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "mackerel",
+    "substance": "cysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/mackerel.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "mackerel",
+    "substance": "glutamate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/mackerel.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "mackerel",
+    "substance": "glycine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/mackerel.md",
+    "records": [
+      "docs/foods/mackerel.md#nutrition_supplementary_sources/glycine_usda_brs2_175119"
+    ],
+    "new_additions": [
+      "glycine_usda_brs2_175119"
+    ]
+  },
+  {
+    "food_id": "mackerel",
+    "substance": "magnesium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/mackerel.md",
+    "records": [
+      "docs/foods/mackerel.md#nutrition_per_100g/magnesium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "mackerel",
+    "substance": "methionine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/mackerel.md",
+    "records": [
+      "docs/foods/mackerel.md#nutrition_amino_acid_profiles/usda-sr-175119/amino_acids/methionine"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "mackerel",
+    "substance": "n-acetylcysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/mackerel.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "mackerel",
+    "substance": "phosphatidylcholine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/mackerel.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "mackerel",
+    "substance": "potassium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/mackerel.md",
+    "records": [
+      "docs/foods/mackerel.md#nutrition_per_100g/potassium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "mackerel",
+    "substance": "pyridoxal-5-phosphate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/mackerel.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "mackerel",
+    "substance": "serine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/mackerel.md",
+    "records": [
+      "docs/foods/mackerel.md#nutrition_supplementary_sources/serine_usda_brs2_175119"
+    ],
+    "new_additions": [
+      "serine_usda_brs2_175119"
+    ]
+  },
+  {
+    "food_id": "mackerel",
+    "substance": "uridine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/mackerel.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "mackerel",
+    "substance": "vitamin-b12",
+    "status": "supported observation mapped",
+    "source": "docs/foods/mackerel.md",
+    "records": [
+      "docs/foods/mackerel.md#nutrition_per_100g/vitamin_b12_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "mackerel",
+    "substance": "vitamin-b2",
+    "status": "supported observation mapped",
+    "source": "docs/foods/mackerel.md",
+    "records": [
+      "docs/foods/mackerel.md#nutrition_per_100g/vitamin_b2_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "mackerel",
+    "substance": "vitamin-b6",
+    "status": "supported observation mapped",
+    "source": "docs/foods/mackerel.md",
+    "records": [
+      "docs/foods/mackerel.md#nutrition_per_100g/vitamin_b6_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "mackerel",
+    "substance": "vitamin-b9",
+    "status": "supported observation mapped",
+    "source": "docs/foods/mackerel.md",
+    "records": [
+      "docs/foods/mackerel.md#nutrition_per_100g/folate_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "mackerel",
+    "substance": "zinc",
+    "status": "supported observation mapped",
+    "source": "docs/foods/mackerel.md",
+    "records": [
+      "docs/foods/mackerel.md#nutrition_per_100g/zinc_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "pork",
+    "substance": "5-methyltetrahydrofolate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/pork.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "pork",
+    "substance": "betaine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/pork.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "pork",
+    "substance": "choline",
+    "status": "supported observation mapped",
+    "source": "docs/foods/pork.md",
+    "records": [
+      "docs/foods/pork.md#nutrition_per_100g/choline_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "pork",
+    "substance": "cysteine",
+    "status": "qualitative mapped; quantity unresolved",
+    "source": "docs/foods/pork.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "pork",
+    "substance": "glutamate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/pork.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "pork",
+    "substance": "glycine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/pork.md",
+    "records": [
+      "docs/foods/pork.md#nutrition_supplementary_sources/glycine_usda_brs2_167818"
+    ],
+    "new_additions": [
+      "glycine_usda_brs2_167818"
+    ]
+  },
+  {
+    "food_id": "pork",
+    "substance": "magnesium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/pork.md",
+    "records": [
+      "docs/foods/pork.md#nutrition_per_100g/magnesium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "pork",
+    "substance": "methionine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/pork.md",
+    "records": [
+      "docs/foods/pork.md#nutrition_amino_acid_profiles/usda-sr-167818/amino_acids/methionine"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "pork",
+    "substance": "n-acetylcysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/pork.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "pork",
+    "substance": "phosphatidylcholine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/pork.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "pork",
+    "substance": "potassium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/pork.md",
+    "records": [
+      "docs/foods/pork.md#nutrition_per_100g/potassium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "pork",
+    "substance": "pyridoxal-5-phosphate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/pork.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "pork",
+    "substance": "serine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/pork.md",
+    "records": [
+      "docs/foods/pork.md#nutrition_supplementary_sources/serine_usda_brs2_167818"
+    ],
+    "new_additions": [
+      "serine_usda_brs2_167818"
+    ]
+  },
+  {
+    "food_id": "pork",
+    "substance": "uridine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/pork.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "pork",
+    "substance": "vitamin-b12",
+    "status": "supported observation mapped",
+    "source": "docs/foods/pork.md",
+    "records": [
+      "docs/foods/pork.md#nutrition_per_100g/vitamin_b12_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "pork",
+    "substance": "vitamin-b2",
+    "status": "supported observation mapped",
+    "source": "docs/foods/pork.md",
+    "records": [
+      "docs/foods/pork.md#nutrition_per_100g/vitamin_b2_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "pork",
+    "substance": "vitamin-b6",
+    "status": "supported observation mapped",
+    "source": "docs/foods/pork.md",
+    "records": [
+      "docs/foods/pork.md#nutrition_per_100g/vitamin_b6_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "pork",
+    "substance": "vitamin-b9",
+    "status": "supported observation mapped",
+    "source": "docs/foods/pork.md",
+    "records": [
+      "docs/foods/pork.md#nutrition_per_100g/folate_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "pork",
+    "substance": "zinc",
+    "status": "supported observation mapped",
+    "source": "docs/foods/pork.md",
+    "records": [
+      "docs/foods/pork.md#nutrition_per_100g/zinc_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon",
+    "substance": "5-methyltetrahydrofolate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/salmon.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon",
+    "substance": "betaine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/salmon.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon",
+    "substance": "choline",
+    "status": "supported observation mapped",
+    "source": "docs/foods/salmon.md",
+    "records": [
+      "docs/foods/salmon.md#nutrition_per_100g/choline_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon",
+    "substance": "cysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/salmon.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon",
+    "substance": "glutamate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/salmon.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon",
+    "substance": "glycine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/salmon.md",
+    "records": [
+      "docs/foods/salmon.md#nutrition_supplementary_sources/glycine_usda_review01_175167"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon",
+    "substance": "magnesium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/salmon.md",
+    "records": [
+      "docs/foods/salmon.md#nutrition_per_100g/magnesium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon",
+    "substance": "methionine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/salmon.md",
+    "records": [
+      "docs/foods/salmon.md#nutrition_per_100g/methionine_g",
+      "docs/foods/salmon.md#nutrition_amino_acid_profiles/usda-sr-175167/amino_acids/methionine",
+      "docs/foods/salmon.md#nutrition_amino_acid_profiles/usda-sr-175168/amino_acids/methionine"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon",
+    "substance": "n-acetylcysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/salmon.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon",
+    "substance": "phosphatidylcholine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/salmon.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon",
+    "substance": "potassium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/salmon.md",
+    "records": [
+      "docs/foods/salmon.md#nutrition_per_100g/potassium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon",
+    "substance": "pyridoxal-5-phosphate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/salmon.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon",
+    "substance": "serine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/salmon.md",
+    "records": [
+      "docs/foods/salmon.md#nutrition_supplementary_sources/serine_usda_brs2_175167"
+    ],
+    "new_additions": [
+      "serine_usda_brs2_175167"
+    ]
+  },
+  {
+    "food_id": "salmon",
+    "substance": "uridine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/salmon.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon",
+    "substance": "vitamin-b12",
+    "status": "supported observation mapped",
+    "source": "docs/foods/salmon.md",
+    "records": [
+      "docs/foods/salmon.md#nutrition_per_100g/vitamin_b12_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon",
+    "substance": "vitamin-b2",
+    "status": "supported observation mapped",
+    "source": "docs/foods/salmon.md",
+    "records": [
+      "docs/foods/salmon.md#nutrition_per_100g/vitamin_b2_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon",
+    "substance": "vitamin-b6",
+    "status": "supported observation mapped",
+    "source": "docs/foods/salmon.md",
+    "records": [
+      "docs/foods/salmon.md#nutrition_per_100g/vitamin_b6_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon",
+    "substance": "vitamin-b9",
+    "status": "supported observation mapped",
+    "source": "docs/foods/salmon.md",
+    "records": [
+      "docs/foods/salmon.md#nutrition_per_100g/folate_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon",
+    "substance": "zinc",
+    "status": "supported observation mapped",
+    "source": "docs/foods/salmon.md",
+    "records": [
+      "docs/foods/salmon.md#nutrition_per_100g/zinc_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance": "5-methyltetrahydrofolate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/salmon-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance": "betaine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/salmon-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance": "choline",
+    "status": "qualitative mapped; quantity unresolved",
+    "source": "docs/foods/salmon-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance": "cysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/salmon-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance": "glutamate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/salmon-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance": "glycine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/salmon-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance": "magnesium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/salmon-roe.md",
+    "records": [
+      "docs/foods/salmon-roe.md#nutrition_per_100g/magnesium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance": "methionine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/salmon-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance": "n-acetylcysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/salmon-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance": "phosphatidylcholine",
+    "status": "qualitative mapped; quantity unresolved",
+    "source": "docs/foods/salmon-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance": "potassium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/salmon-roe.md",
+    "records": [
+      "docs/foods/salmon-roe.md#nutrition_per_100g/potassium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance": "pyridoxal-5-phosphate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/salmon-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance": "serine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/salmon-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance": "uridine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/salmon-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance": "vitamin-b12",
+    "status": "supported observation mapped",
+    "source": "docs/foods/salmon-roe.md",
+    "records": [
+      "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_b12_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance": "vitamin-b2",
+    "status": "supported observation mapped",
+    "source": "docs/foods/salmon-roe.md",
+    "records": [
+      "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_b2_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance": "vitamin-b6",
+    "status": "supported observation mapped",
+    "source": "docs/foods/salmon-roe.md",
+    "records": [
+      "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_b6_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance": "vitamin-b9",
+    "status": "supported observation mapped",
+    "source": "docs/foods/salmon-roe.md",
+    "records": [
+      "docs/foods/salmon-roe.md#nutrition_per_100g/folate_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance": "zinc",
+    "status": "supported observation mapped",
+    "source": "docs/foods/salmon-roe.md",
+    "records": [
+      "docs/foods/salmon-roe.md#nutrition_per_100g/zinc_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "sardines",
+    "substance": "5-methyltetrahydrofolate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/sardines.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "sardines",
+    "substance": "betaine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/sardines.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "sardines",
+    "substance": "choline",
+    "status": "supported observation mapped",
+    "source": "docs/foods/sardines.md",
+    "records": [
+      "docs/foods/sardines.md#nutrition_per_100g/choline_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "sardines",
+    "substance": "cysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/sardines.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "sardines",
+    "substance": "glutamate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/sardines.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "sardines",
+    "substance": "glycine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/sardines.md",
+    "records": [
+      "docs/foods/sardines.md#nutrition_supplementary_sources/glycine_usda_brs2_175139"
+    ],
+    "new_additions": [
+      "glycine_usda_brs2_175139"
+    ]
+  },
+  {
+    "food_id": "sardines",
+    "substance": "magnesium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/sardines.md",
+    "records": [
+      "docs/foods/sardines.md#nutrition_per_100g/magnesium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "sardines",
+    "substance": "methionine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/sardines.md",
+    "records": [
+      "docs/foods/sardines.md#nutrition_per_100g/methionine_g",
+      "docs/foods/sardines.md#nutrition_amino_acid_profiles/usda-sr-175139/amino_acids/methionine"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "sardines",
+    "substance": "n-acetylcysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/sardines.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "sardines",
+    "substance": "phosphatidylcholine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/sardines.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "sardines",
+    "substance": "potassium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/sardines.md",
+    "records": [
+      "docs/foods/sardines.md#nutrition_per_100g/potassium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "sardines",
+    "substance": "pyridoxal-5-phosphate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/sardines.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "sardines",
+    "substance": "serine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/sardines.md",
+    "records": [
+      "docs/foods/sardines.md#nutrition_supplementary_sources/serine_usda_brs2_175139"
+    ],
+    "new_additions": [
+      "serine_usda_brs2_175139"
+    ]
+  },
+  {
+    "food_id": "sardines",
+    "substance": "uridine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/sardines.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "sardines",
+    "substance": "vitamin-b12",
+    "status": "supported observation mapped",
+    "source": "docs/foods/sardines.md",
+    "records": [
+      "docs/foods/sardines.md#nutrition_per_100g/vitamin_b12_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "sardines",
+    "substance": "vitamin-b2",
+    "status": "supported observation mapped",
+    "source": "docs/foods/sardines.md",
+    "records": [
+      "docs/foods/sardines.md#nutrition_per_100g/vitamin_b2_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "sardines",
+    "substance": "vitamin-b6",
+    "status": "supported observation mapped",
+    "source": "docs/foods/sardines.md",
+    "records": [
+      "docs/foods/sardines.md#nutrition_per_100g/vitamin_b6_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "sardines",
+    "substance": "vitamin-b9",
+    "status": "supported observation mapped",
+    "source": "docs/foods/sardines.md",
+    "records": [
+      "docs/foods/sardines.md#nutrition_per_100g/folate_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "sardines",
+    "substance": "zinc",
+    "status": "supported observation mapped",
+    "source": "docs/foods/sardines.md",
+    "records": [
+      "docs/foods/sardines.md#nutrition_per_100g/zinc_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "trout-roe",
+    "substance": "5-methyltetrahydrofolate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/trout-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "trout-roe",
+    "substance": "betaine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/trout-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "trout-roe",
+    "substance": "choline",
+    "status": "qualitative mapped; quantity unresolved",
+    "source": "docs/foods/trout-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "trout-roe",
+    "substance": "cysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/trout-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "trout-roe",
+    "substance": "glutamate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/trout-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "trout-roe",
+    "substance": "glycine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/trout-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "trout-roe",
+    "substance": "magnesium",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/trout-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "trout-roe",
+    "substance": "methionine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/trout-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "trout-roe",
+    "substance": "n-acetylcysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/trout-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "trout-roe",
+    "substance": "phosphatidylcholine",
+    "status": "qualitative mapped; quantity unresolved",
+    "source": "docs/foods/trout-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "trout-roe",
+    "substance": "potassium",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/trout-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "trout-roe",
+    "substance": "pyridoxal-5-phosphate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/trout-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "trout-roe",
+    "substance": "serine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/trout-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "trout-roe",
+    "substance": "uridine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/trout-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "trout-roe",
+    "substance": "vitamin-b12",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/trout-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "trout-roe",
+    "substance": "vitamin-b2",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/trout-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "trout-roe",
+    "substance": "vitamin-b6",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/trout-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "trout-roe",
+    "substance": "vitamin-b9",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/trout-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "trout-roe",
+    "substance": "zinc",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/trout-roe.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "tuna",
+    "substance": "5-methyltetrahydrofolate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/tuna.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "tuna",
+    "substance": "betaine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/tuna.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "tuna",
+    "substance": "choline",
+    "status": "supported observation mapped",
+    "source": "docs/foods/tuna.md",
+    "records": [
+      "docs/foods/tuna.md#nutrition_per_100g/choline_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "tuna",
+    "substance": "cysteine",
+    "status": "qualitative mapped; quantity unresolved",
+    "source": "docs/foods/tuna.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "tuna",
+    "substance": "glutamate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/tuna.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "tuna",
+    "substance": "glycine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/tuna.md",
+    "records": [
+      "docs/foods/tuna.md#nutrition_supplementary_sources/glycine_usda_brs2_173706"
+    ],
+    "new_additions": [
+      "glycine_usda_brs2_173706"
+    ]
+  },
+  {
+    "food_id": "tuna",
+    "substance": "magnesium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/tuna.md",
+    "records": [
+      "docs/foods/tuna.md#nutrition_per_100g/magnesium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "tuna",
+    "substance": "methionine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/tuna.md",
+    "records": [
+      "docs/foods/tuna.md#nutrition_per_100g/methionine_g",
+      "docs/foods/tuna.md#nutrition_amino_acid_profiles/usda-sr-173706/amino_acids/methionine",
+      "docs/foods/tuna.md#nutrition_amino_acid_profiles/usda-sr-173709/amino_acids/methionine"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "tuna",
+    "substance": "n-acetylcysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/tuna.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "tuna",
+    "substance": "phosphatidylcholine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/tuna.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "tuna",
+    "substance": "potassium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/tuna.md",
+    "records": [
+      "docs/foods/tuna.md#nutrition_per_100g/potassium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "tuna",
+    "substance": "pyridoxal-5-phosphate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/tuna.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "tuna",
+    "substance": "serine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/tuna.md",
+    "records": [
+      "docs/foods/tuna.md#nutrition_supplementary_sources/serine_usda_brs2_173706"
+    ],
+    "new_additions": [
+      "serine_usda_brs2_173706"
+    ]
+  },
+  {
+    "food_id": "tuna",
+    "substance": "uridine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/tuna.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "tuna",
+    "substance": "vitamin-b12",
+    "status": "supported observation mapped",
+    "source": "docs/foods/tuna.md",
+    "records": [
+      "docs/foods/tuna.md#nutrition_per_100g/vitamin_b12_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "tuna",
+    "substance": "vitamin-b2",
+    "status": "supported observation mapped",
+    "source": "docs/foods/tuna.md",
+    "records": [
+      "docs/foods/tuna.md#nutrition_per_100g/vitamin_b2_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "tuna",
+    "substance": "vitamin-b6",
+    "status": "supported observation mapped",
+    "source": "docs/foods/tuna.md",
+    "records": [
+      "docs/foods/tuna.md#nutrition_per_100g/vitamin_b6_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "tuna",
+    "substance": "vitamin-b9",
+    "status": "supported observation mapped",
+    "source": "docs/foods/tuna.md",
+    "records": [
+      "docs/foods/tuna.md#nutrition_per_100g/folate_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "tuna",
+    "substance": "zinc",
+    "status": "supported observation mapped",
+    "source": "docs/foods/tuna.md",
+    "records": [
+      "docs/foods/tuna.md#nutrition_per_100g/zinc_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "turkey",
+    "substance": "5-methyltetrahydrofolate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/turkey.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "turkey",
+    "substance": "betaine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/turkey.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "turkey",
+    "substance": "choline",
+    "status": "supported observation mapped",
+    "source": "docs/foods/turkey.md",
+    "records": [
+      "docs/foods/turkey.md#nutrition_per_100g/choline_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "turkey",
+    "substance": "cysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/turkey.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "turkey",
+    "substance": "glutamate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/turkey.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "turkey",
+    "substance": "glycine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/turkey.md",
+    "records": [
+      "docs/foods/turkey.md#nutrition_supplementary_sources/glycine_usda_brs2_171480"
+    ],
+    "new_additions": [
+      "glycine_usda_brs2_171480"
+    ]
+  },
+  {
+    "food_id": "turkey",
+    "substance": "magnesium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/turkey.md",
+    "records": [
+      "docs/foods/turkey.md#nutrition_per_100g/magnesium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "turkey",
+    "substance": "methionine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/turkey.md",
+    "records": [
+      "docs/foods/turkey.md#nutrition_amino_acid_profiles/usda-sr-171480/amino_acids/methionine",
+      "docs/foods/turkey.md#nutrition_amino_acid_profiles/usda-sr-171496/amino_acids/methionine"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "turkey",
+    "substance": "n-acetylcysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/turkey.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "turkey",
+    "substance": "phosphatidylcholine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/turkey.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "turkey",
+    "substance": "potassium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/turkey.md",
+    "records": [
+      "docs/foods/turkey.md#nutrition_per_100g/potassium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "turkey",
+    "substance": "pyridoxal-5-phosphate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/turkey.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "turkey",
+    "substance": "serine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/turkey.md",
+    "records": [
+      "docs/foods/turkey.md#nutrition_supplementary_sources/serine_usda_brs2_171480"
+    ],
+    "new_additions": [
+      "serine_usda_brs2_171480"
+    ]
+  },
+  {
+    "food_id": "turkey",
+    "substance": "uridine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/turkey.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "turkey",
+    "substance": "vitamin-b12",
+    "status": "supported observation mapped",
+    "source": "docs/foods/turkey.md",
+    "records": [
+      "docs/foods/turkey.md#nutrition_per_100g/vitamin_b12_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "turkey",
+    "substance": "vitamin-b2",
+    "status": "supported observation mapped",
+    "source": "docs/foods/turkey.md",
+    "records": [
+      "docs/foods/turkey.md#nutrition_per_100g/vitamin_b2_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "turkey",
+    "substance": "vitamin-b6",
+    "status": "supported observation mapped",
+    "source": "docs/foods/turkey.md",
+    "records": [
+      "docs/foods/turkey.md#nutrition_per_100g/vitamin_b6_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "turkey",
+    "substance": "vitamin-b9",
+    "status": "supported observation mapped",
+    "source": "docs/foods/turkey.md",
+    "records": [
+      "docs/foods/turkey.md#nutrition_per_100g/folate_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "turkey",
+    "substance": "zinc",
+    "status": "supported observation mapped",
+    "source": "docs/foods/turkey.md",
+    "records": [
+      "docs/foods/turkey.md#nutrition_per_100g/zinc_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance": "5-methyltetrahydrofolate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/egg-yolks.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance": "betaine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/egg-yolks.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance": "choline",
+    "status": "supported observation mapped",
+    "source": "docs/foods/egg-yolks.md",
+    "records": [
+      "docs/foods/egg-yolks.md#nutrition_per_100g/choline_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance": "cysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/egg-yolks.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance": "glutamate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/egg-yolks.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance": "glycine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/egg-yolks.md",
+    "records": [
+      "docs/foods/egg-yolks.md#nutrition_supplementary_sources/glycine_usda_brs2_172184"
+    ],
+    "new_additions": [
+      "glycine_usda_brs2_172184"
+    ]
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance": "magnesium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/egg-yolks.md",
+    "records": [
+      "docs/foods/egg-yolks.md#nutrition_per_100g/magnesium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance": "methionine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/egg-yolks.md",
+    "records": [
+      "docs/foods/egg-yolks.md#nutrition_amino_acid_profiles/usda-sr-172184/amino_acids/methionine"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance": "n-acetylcysteine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/egg-yolks.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance": "phosphatidylcholine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/egg-yolks.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance": "potassium",
+    "status": "supported observation mapped",
+    "source": "docs/foods/egg-yolks.md",
+    "records": [
+      "docs/foods/egg-yolks.md#nutrition_per_100g/potassium_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance": "pyridoxal-5-phosphate",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/egg-yolks.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance": "serine",
+    "status": "supported observation mapped",
+    "source": "docs/foods/egg-yolks.md",
+    "records": [
+      "docs/foods/egg-yolks.md#nutrition_supplementary_sources/serine_usda_brs2_172184"
+    ],
+    "new_additions": [
+      "serine_usda_brs2_172184"
+    ]
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance": "uridine",
+    "status": "not mapped; no exact-source correction established",
+    "source": "docs/foods/egg-yolks.md",
+    "records": [],
+    "new_additions": []
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance": "vitamin-b12",
+    "status": "supported observation mapped",
+    "source": "docs/foods/egg-yolks.md",
+    "records": [
+      "docs/foods/egg-yolks.md#nutrition_per_100g/vitamin_b12_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance": "vitamin-b2",
+    "status": "supported observation mapped",
+    "source": "docs/foods/egg-yolks.md",
+    "records": [
+      "docs/foods/egg-yolks.md#nutrition_per_100g/vitamin_b2_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance": "vitamin-b6",
+    "status": "supported observation mapped",
+    "source": "docs/foods/egg-yolks.md",
+    "records": [
+      "docs/foods/egg-yolks.md#nutrition_per_100g/vitamin_b6_mg"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance": "vitamin-b9",
+    "status": "supported observation mapped",
+    "source": "docs/foods/egg-yolks.md",
+    "records": [
+      "docs/foods/egg-yolks.md#nutrition_per_100g/folate_ug"
+    ],
+    "new_additions": []
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance": "zinc",
+    "status": "supported observation mapped",
+    "source": "docs/foods/egg-yolks.md",
+    "records": [
+      "docs/foods/egg-yolks.md#nutrition_per_100g/zinc_mg"
+    ],
+    "new_additions": []
+  }
+]

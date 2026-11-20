@@ -20,6 +20,7 @@ public_display:
   cystine_mg: internal-only
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
+  betaine_mg: 7.8
   tyrosine_g: 0.597
   choline_mg: 59.7
   selenium_ug: 14.4
@@ -189,6 +190,76 @@ legacy_list_image: /img/foods/chicken/chicken_thumb.webp
 legacy_main_image: /img/foods/chicken/chicken_medium.webp
 substance_review_candidates: []
 nutrition_amino_acid_profiles:
+  - id: usda-sr-171447
+    material: Chicken, broilers or fryers, meat and skin, raw
+    preparation: raw
+    food_group: animal
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 171447
+      source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 18.6
+    protein_source_row_id: '1610530'
+    amino_acids:
+      histidine:
+        value: 0.544
+        source_row_id: '1610581'
+        nutrient_id: '1221'
+        data_points: 0
+        derivation_id: null
+      isoleucine:
+        value: 0.924
+        source_row_id: '1610575'
+        nutrient_id: '1212'
+        data_points: 0
+        derivation_id: null
+      leucine:
+        value: 1.35
+        source_row_id: '1610576'
+        nutrient_id: '1213'
+        data_points: 0
+        derivation_id: null
+      lysine:
+        value: 1.509
+        source_row_id: '1610577'
+        nutrient_id: '1214'
+        data_points: 0
+        derivation_id: null
+      methionine:
+        value: 0.493
+        source_row_id: '1610586'
+        nutrient_id: '1215'
+        data_points: 0
+        derivation_id: null
+      phenylalanine:
+        value: 0.721
+        source_row_id: '1610587'
+        nutrient_id: '1217'
+        data_points: 0
+        derivation_id: null
+      threonine:
+        value: 0.767
+        source_row_id: '1610585'
+        nutrient_id: '1211'
+        data_points: 0
+        derivation_id: null
+      tryptophan:
+        value: 0.207
+        source_row_id: '1610584'
+        nutrient_id: '1210'
+        data_points: 0
+        derivation_id: null
+      valine:
+        value: 0.902
+        source_row_id: '1610579'
+        nutrient_id: '1219'
+        data_points: 0
+        derivation_id: null
+    limitations: Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred.
   - id: usda-sr-171477
     material: Chicken, broilers or fryers, breast, meat only, cooked, roasted
     preparation: cooked
@@ -268,6 +339,44 @@ nutrition_amino_acid_profiles:
       amino-acid-specific digestibility correction; illustrative USDA household portion, not an
       intake recommendation. Missing values are not treated as zero.
 nutrition_supplementary_sources:
+  - key: arginine_usda_brs4_171447
+    label: Arginine
+    substance_id: arginine
+    value: 1.169
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Chicken, broilers or fryers, meat and skin, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed arginine; nutrient 1220, row 1610580, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 171447
+    food_nutrient_id: '1610580'
+    source_derivation_id: null
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+  - key: serine_usda_brs2_171447
+    label: Serine
+    substance_id: serine
+    value: 0.657
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Chicken, broilers or fryers, meat and skin, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed serine; nutrient 1227, food-nutrient row 1610583, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, tissue delivery or clinical effect inferred. Source archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 171447
+    food_nutrient_id: '1610583'
+    source_derivation_id: null
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
   - key: glycine_usda_review01_171447
     label: Glycine
     substance_id: glycine

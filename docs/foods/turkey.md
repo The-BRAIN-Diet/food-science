@@ -135,6 +135,76 @@ substance_relationships:
     presence_status: presence_and_amount_supported
 substance_review_candidates: []
 nutrition_amino_acid_profiles:
+  - id: usda-sr-171480
+    material: Turkey, whole, meat only, raw
+    preparation: raw
+    food_group: animal
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 171480
+      source_url: https://fdc.nal.usda.gov/food-details/171480/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 22.64
+    protein_source_row_id: '1613365'
+    amino_acids:
+      histidine:
+        value: 0.614
+        source_row_id: '1613417'
+        nutrient_id: '1221'
+        data_points: 0
+        derivation_id: '54'
+      isoleucine:
+        value: 0.649
+        source_row_id: '1613411'
+        nutrient_id: '1212'
+        data_points: 0
+        derivation_id: '54'
+      leucine:
+        value: 1.569
+        source_row_id: '1613412'
+        nutrient_id: '1213'
+        data_points: 0
+        derivation_id: '54'
+      lysine:
+        value: 1.868
+        source_row_id: '1613413'
+        nutrient_id: '1214'
+        data_points: 0
+        derivation_id: '54'
+      methionine:
+        value: 0.592
+        source_row_id: '1613331'
+        nutrient_id: '1215'
+        data_points: 0
+        derivation_id: '54'
+      phenylalanine:
+        value: 0.73
+        source_row_id: '1613332'
+        nutrient_id: '1217'
+        data_points: 0
+        derivation_id: '54'
+      threonine:
+        value: 0.822
+        source_row_id: '1613330'
+        nutrient_id: '1211'
+        data_points: 0
+        derivation_id: '54'
+      tryptophan:
+        value: 0.241
+        source_row_id: '1613329'
+        nutrient_id: '1210'
+        data_points: 0
+        derivation_id: '54'
+      valine:
+        value: 0.724
+        source_row_id: '1613415'
+        nutrient_id: '1219'
+        data_points: 0
+        derivation_id: '54'
+    limitations: Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred.
   - id: usda-sr-171496
     material: Turkey, whole, breast, meat only, cooked, roasted
     preparation: cooked
@@ -213,6 +283,64 @@ nutrition_amino_acid_profiles:
       USDA database composition, including source-specific analytical or calculated values. No
       amino-acid-specific digestibility correction; illustrative USDA household portion, not an
       intake recommendation. Missing values are not treated as zero.
+nutrition_supplementary_sources:
+  - key: arginine_usda_brs4_171480
+    label: Arginine
+    substance_id: arginine
+    value: 1.282
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Turkey, whole, meat only, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171480/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed arginine; nutrient 1220, row 1613416, derivation ID 54, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 171480
+    food_nutrient_id: '1613416'
+    source_derivation_id: '54'
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+  - key: glycine_usda_brs2_171480
+    label: Glycine
+    substance_id: glycine
+    value: 0.966
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Turkey, whole, meat only, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171480/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed glycine; nutrient 1225, food-nutrient row 1613336, derivation ID 54, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, tissue delivery or clinical effect inferred. Source archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 171480
+    food_nutrient_id: '1613336'
+    source_derivation_id: '54'
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+  - key: serine_usda_brs2_171480
+    label: Serine
+    substance_id: serine
+    value: 0.897
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Turkey, whole, meat only, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171480/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed serine; nutrient 1227, food-nutrient row 1613419, derivation ID 54, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, tissue delivery or clinical effect inferred. Source archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 171480
+    food_nutrient_id: '1613419'
+    source_derivation_id: '54'
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
 ---
 ## Overview
 

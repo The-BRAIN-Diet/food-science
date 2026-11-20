@@ -24,7 +24,8 @@ export function findingReaderLabel(finding, data) {
 /** A controlled placement correction; existing audit-only pages keep their routing. */
 export function findingOnMainPage(data, id) {
   return data?.scientific_findings_placement === 'section-4' &&
-    (data.scientific_findings || []).some(f => String(f.id).toLowerCase() === id && f.presentation === 'mechanistic-basis');
+    (data.scientific_findings || []).some(f => /^PM\d+-F\d+$/.test(String(f.id || '')) &&
+      String(f.id).toLowerCase() === id && (f.presentation || 'mechanistic-basis') === 'mechanistic-basis');
 }
 
 /** Only selected canonical interventions with explicit evidence links qualify. */

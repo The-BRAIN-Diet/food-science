@@ -68,6 +68,63 @@ main_image: /img/foods/sardines/sardines_medium.webp
 legacy_list_image: /img/foods/sardines/sardines_thumb.webp
 legacy_main_image: /img/foods/sardines/sardines_medium.webp
 nutrition_supplementary_sources:
+  - key: arginine_usda_brs4_175139
+    label: Arginine
+    substance_id: arginine
+    value: 1.473
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, sardine, Atlantic, canned in oil, drained solids with bone
+    preparation_state: canned, drained
+    source_url: https://fdc.nal.usda.gov/food-details/175139/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed arginine; nutrient 1220, row 1915799, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 175139
+    food_nutrient_id: '1915799'
+    source_derivation_id: null
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+  - key: glycine_usda_brs2_175139
+    label: Glycine
+    substance_id: glycine
+    value: 1.181
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, sardine, Atlantic, canned in oil, drained solids with bone
+    preparation_state: canned, drained
+    source_url: https://fdc.nal.usda.gov/food-details/175139/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed glycine; nutrient 1225, food-nutrient row 1915845, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, tissue delivery or clinical effect inferred. Source archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 175139
+    food_nutrient_id: '1915845'
+    source_derivation_id: null
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+  - key: serine_usda_brs2_175139
+    label: Serine
+    substance_id: serine
+    value: 1.004
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, sardine, Atlantic, canned in oil, drained solids with bone
+    preparation_state: canned, drained
+    source_url: https://fdc.nal.usda.gov/food-details/175139/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed serine; nutrient 1227, food-nutrient row 1915806, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, tissue delivery or clinical effect inferred. Source archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 175139
+    food_nutrient_id: '1915806'
+    source_derivation_id: null
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
   - key: coq10_qual
     label: CoQ10
     status: Present — quantity not established

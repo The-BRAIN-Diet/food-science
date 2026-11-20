@@ -1,0 +1,228 @@
+[
+  {
+    "id": "anchovies",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Fish, anchovy, european, canned in oil, drained solids",
+      "fdc_id": 174183,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-09-04"
+    },
+    "protein": 28.89
+  },
+  {
+    "id": "beef",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "fdc_id": 171796,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15",
+      "source_reference": "#food-source-6"
+    },
+    "protein": 18.59
+  },
+  {
+    "id": "chicken",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Chicken, broilers or fryers, meat and skin, raw",
+      "fdc_id": 171447,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "protein": 18.6
+  },
+  {
+    "id": "chicken-liver",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Chicken, liver, all classes, raw",
+      "fdc_id": 171060,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-11-11"
+    },
+    "protein": 16.92
+  },
+  {
+    "id": "cod",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Fish, cod, Atlantic, raw",
+      "fdc_id": 171955,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "protein": 17.81
+  },
+  {
+    "id": "dark-meat-poultry"
+  },
+  {
+    "id": "heart",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Beef, variety meats and by-products, heart, raw",
+      "fdc_id": 168625,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "protein": 17.72
+  },
+  {
+    "id": "herring",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Fish, herring, Atlantic, raw",
+      "fdc_id": 175116,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "protein": 17.96
+  },
+  {
+    "id": "kidney",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Beef, variety meats and by-products, kidneys, raw",
+      "fdc_id": 169449,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "protein": 17.4
+  },
+  {
+    "id": "lamb",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Lamb, ground, raw",
+      "fdc_id": 174370,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "protein": 16.56
+  },
+  {
+    "id": "liver",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Beef, variety meats and by-products, liver, raw",
+      "fdc_id": 169451,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "protein": 20.36
+  },
+  {
+    "id": "lumpfish-roe"
+  },
+  {
+    "id": "mackerel",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Fish, mackerel, Atlantic, raw",
+      "fdc_id": 175119,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "protein": 18.6
+  },
+  {
+    "id": "pork",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Pork, fresh, loin, whole, separable lean and fat, raw",
+      "fdc_id": 167818,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "protein": 19.74
+  },
+  {
+    "id": "salmon",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Fish, salmon, Atlantic, farmed, raw",
+      "fdc_id": 175167,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "protein": 20.42
+  },
+  {
+    "id": "salmon-roe",
+    "source": {
+      "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+      "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "basis": "per 100 g edible portion",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+      "source_reference": "#food-source-8",
+      "last_checked": "2026-10-12"
+    },
+    "protein": 32.6
+  },
+  {
+    "id": "sardines",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+      "fdc_id": 175139,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "protein": 24.62
+  },
+  {
+    "id": "trout-roe"
+  },
+  {
+    "id": "tuna",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Fish, tuna, fresh, bluefin, raw",
+      "fdc_id": 173706,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "protein": 23.33
+  },
+  {
+    "id": "turkey",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Turkey, whole, meat only, raw",
+      "fdc_id": 171480,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "protein": 22.64
+  },
+  {
+    "id": "egg-yolks",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Egg, yolk, raw, fresh",
+      "fdc_id": 172184,
+      "retrieval_method": "SR Legacy bulk (April 2018)",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-15"
+    },
+    "protein": 15.86
+  }
+]

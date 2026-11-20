@@ -6,6 +6,11 @@
       "id": "PM6-DIT-4"
     },
     {
+      "kind": "no-structured-admissions",
+      "pm_id": "BRS3-FM3-PM7",
+      "reason": "No structured accepted dietary inputs; narrative mentions are not admissions."
+    },
+    {
       "kind": "specialist-specification-not-joined",
       "food_id": "algal-oil",
       "record": "docs/foods/algal-oil.md",
@@ -66,8 +71,8 @@
     {
       "pm_id": "BRS3-FM3-PM7",
       "record": "docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx",
-      "accepted_relationships": 1,
-      "structured_atoms": 1
+      "accepted_relationships": 0,
+      "structured_atoms": 0
     },
     {
       "pm_id": "BRS3-FM3-PM8",

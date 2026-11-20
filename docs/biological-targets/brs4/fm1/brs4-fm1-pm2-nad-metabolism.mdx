@@ -29,6 +29,68 @@ references:
   - '[Trammell et al. (2016) — Nicotinamide riboside is uniquely and orally bioavailable in mice and humans](/docs/papers/BRAIN-Diet-References#trammell_nr_oral_2016)'
   - '[Trammell et al. (2016) — Nicotinamide Riboside Is a Major NAD+ Precursor Vitamin in Cow Milk](/docs/papers/BRAIN-Diet-References#trammell_nr_milk_2016)'
 hide_title: true
+pm_kc_relationships:
+  - relationship_id: PM2-KC2-SUPPLY
+    dietary_input: false
+    kc_id: BRS4(KC2)
+    ikc_id: BRS4(KC2)
+    relationship_type: supported-upstream-supply
+    input: Mitochondrial Cofactor Sufficiency
+    presentation_label: Mitochondrial Cofactor Sufficiency
+    input_type: supported upstream supply
+    pm_biological_role: >-
+      Nicotinamide enters NAD⁺ salvage through NAMPT and NMN. Nicotinic acid enters NAD⁺ synthesis through
+      NAPRT and the Preiss–Handler pathway.
+    evidence_source:
+      finding_ids:
+        - PM2-F1
+      citation_keys:
+        - covarrubias_nad_2021
+    evidence_limitation: >-
+      The precursor route supports provision. A limiting intake threshold or benefit from extra intake has not
+      been established for this PM.
+    description_finding_id: PM2-F1
+    applicability_label: Supported upstream supply
+    kc_href: /docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency
+    constituent_relationships:
+      - relationship_id: PM2-DIT-1-KC2-SUPPLY
+        pm_atom_id: PM2-DIT-1
+        kc_atom_id: BRS4-KC2-KIT-6
+        ikc_id: BRS4-KC2-KIT-6
+        kc_membership_status: canonical-reviewed
+        label: Nicotinamide
+        presentation_section: 3.1.3
+        reader_description: Nicotinamide enters NAD⁺ salvage through NAMPT and NMN.
+        description_finding_id: PM2-F1
+        relationship_type: supported-upstream-supply
+        substance_id: nicotinamide
+        canonical_identity:
+          status: resolved
+          substance_id: nicotinamide
+          substance_href: /docs/substances/nutrients/micronutrients/vitamins/vitamin-b3#nicotinamide
+        disposition: established
+        rationale: >-
+          The precursor route supports provision. A limiting intake threshold or benefit from extra intake has
+          not been established for this PM.
+      - relationship_id: PM2-DIT-2-KC2-SUPPLY
+        pm_atom_id: PM2-DIT-2
+        kc_atom_id: BRS4-KC2-KIT-7
+        ikc_id: BRS4-KC2-KIT-7
+        kc_membership_status: canonical-reviewed
+        label: Nicotinic acid
+        presentation_section: 3.1.3
+        reader_description: Nicotinic acid enters NAD⁺ synthesis through NAPRT and the Preiss–Handler pathway.
+        description_finding_id: PM2-F1
+        relationship_type: supported-upstream-supply
+        substance_id: nicotinic-acid
+        canonical_identity:
+          status: resolved
+          substance_id: nicotinic-acid
+          substance_href: /docs/substances/nutrients/micronutrients/vitamins/vitamin-b3#nicotinic-acid
+        disposition: established
+        rationale: >-
+          The precursor route supports provision. A limiting intake threshold or benefit from extra intake has
+          not been established for this PM.
 kc_applicability_adjudications:
   - kc_id: BRS4(KC1)
     ikc_id: BRS4(KC1)
@@ -724,7 +786,12 @@ No evidence-supported cofactors or substrates are currently established for this
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-No mapping established.
+- Mitochondrial Cofactor Sufficiency
+
+**Individual KC inputs**
+
+- [Nicotinamide](/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency#brs4-kc2-kit-6) — supported upstream supply. Nicotinamide enters NAD⁺ salvage through NAMPT and NMN.
+- [Nicotinic acid](/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency#brs4-kc2-kit-7) — supported upstream supply. Nicotinic acid enters NAD⁺ synthesis through NAPRT and the Preiss–Handler pathway.
 
 </div>
 </div>
@@ -784,13 +851,29 @@ Keeping a regular sleep schedule has not been shown to change NAD⁺ availabilit
 
 ### Summary
 
-NAD⁺ accepts electrons to form NADH, which can be oxidised back to NAD⁺ [Covarrubias et al. (2021) [[1]](#pm-ref-1)]. Separately, synthesis and salvage replenish the pool when consuming enzymes break the molecule down [Chang and Guarente (2014) [[3]](#pm-ref-3)]. Nicotinamide salvage, the nicotinic-acid route and hepatic tryptophan conversion are major pathways [Covarrubias et al. (2021) [[1]](#pm-ref-1)]. In mice, the clock controls the salvage enzyme NAMPT [Ramsey et al. (2009) [[4]](#pm-ref-4)]. High-dose niacin raised NAD⁺ in mitochondrial myopathy [Pirinen et al. (2020) [[2]](#pm-ref-2)]. Training raised the muscle enzyme, not measured NAD⁺ [de Guia et al. (2019) [[6]](#pm-ref-6)].
+NAD⁺ accepts electrons to form NADH, which can be oxidised back to NAD⁺ [Covarrubias et al. (2021) [[1]](#pm-ref-1)].
 
-### Mechanism and measurement boundaries
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>NAD⁺ metabolism — mechanistic detail</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### Pool replenishment
+
+Synthesis and salvage replenish the pool when consuming enzymes break the molecule down [Chang and Guarente (2014) [[3]](#pm-ref-3)]. Nicotinamide salvage, the nicotinic-acid route and hepatic tryptophan conversion are major pathways [Covarrubias et al. (2021) [[1]](#pm-ref-1)]. In mice, the clock controls the salvage enzyme NAMPT [Ramsey et al. (2009) [[4]](#pm-ref-4)]. High-dose niacin raised NAD⁺ in mitochondrial myopathy [Pirinen et al. (2020) [[2]](#pm-ref-2)]. Training raised the muscle enzyme, not measured NAD⁺ [de Guia et al. (2019) [[6]](#pm-ref-6)].
+
+#### (Boundaries of the mechanism) {#mechanism-and-measurement-boundaries}
 
 This PM includes NAD⁺ replenishment, redox use and enzymatic consumption. Electron transport and the creatine buffer are distinct mechanisms. [[1]](#pm-ref-1)
 
 The precursor pathways are supported by reviewed mechanistic evidence. The high-dose niacin study involved five adults with mitochondrial myopathy; exercise measured muscle NAMPT protein, not NAD⁺ concentration or brain function. These endpoints do not establish improved cognitive energy or recovery. [[1]](#pm-ref-1) [[2]](#pm-ref-2) [[6]](#pm-ref-6)
+
+</div>
+</div>
+</div>
 
 ### 4.1 Scientific Findings
 

@@ -2428,6 +2428,10 @@ dietary_input_assessments:
     traceability_completed_date: '2026-11-09'
 ---
 
+import EvidenceAudit from "@site/src/components/SecCalibrationPreview/EvidenceAudit";
+import secRegistry from "@site/system/sec-assessments/registry.json";
+import {resolveInterventionSecAssessment, secAssessmentView, secAuditAnchor} from "@site/src/lib/secAssessments.mjs";
+
 import PilotInterventionDisclosure from "@site/src/components/PilotInterventionDisclosure";
 
 
@@ -2686,6 +2690,108 @@ Human pharmacology and PET evidence supports context-dependent dopamine regulati
 <ScientificFinding finding={{"id":"PM3-F14","finding_label":"Phenylalanine replenishes tyrosine upstream of catecholamine synthesis","finding_summary":"Phenylalanine can replenish circulating tyrosine upstream of dopamine synthesis; precursor conversion is not evidence that additional intake increases neuronal output.","finding_statement":"Phenylalanine can replenish circulating tyrosine upstream of dopamine synthesis; precursor conversion is not evidence that additional intake increases neuronal output.","finding_interpretation":"Human peripheral conversion supplies circulating tyrosine; neuronal delivery uses the separately supported transport chain. This does not establish increased dopamine/noradrenaline output, a limiting intake or benefit from extra phenylalanine. Hydroxylation, renal/hepatic function and LNAA competition matter; high phenylalanine is not interchangeable with tyrosine.","presentation":"mechanistic-basis","fm_rollup":false,"synthesised_evidence_confidence":"not-yet-scored","synthesis":"Phenylalanine can replenish circulating tyrosine upstream of dopamine synthesis; precursor conversion is not evidence that additional intake increases neuronal output.","synthesis_limitations":"Human peripheral conversion supplies circulating tyrosine; neuronal delivery uses the separately supported transport chain. This does not establish increased dopamine/noradrenaline output, a limiting intake or benefit from extra phenylalanine. Hydroxylation, renal/hepatic function and LNAA competition matter; high phenylalanine is not interchangeable with tyrosine.","evidence_considered":[{"label":"Møller et al. (2000)","citation_key":"moller_phenylalanine_tyrosine_2000","href":"/docs/papers/BRAIN-Diet-References#moller_phenylalanine_tyrosine_2000","data_level":"Human Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Measured phenylalanine-to-tyrosine conversion and renal tyrosine release.","assessment":{"study":"Organ-balance stable-isotope study","population":"12 healthy subjects with renal sampling; separate splanchnic comparison","result":"Measured phenylalanine-to-tyrosine conversion and renal tyrosine release.","effect_magnitude":"No general dietary efficacy or tissue-uniform effect is inferred.","evidence_summary":"Measured phenylalanine-to-tyrosine conversion and renal tyrosine release.","limitations":"Human peripheral conversion supplies circulating tyrosine; neuronal delivery uses the separately supported transport chain. This does not establish increased dopamine/noradrenaline output, a limiting intake or benefit from extra phenylalanine. Hydroxylation, renal/hepatic function and LNAA competition matter; high phenylalanine is not interchangeable with tyrosine. Evidence access: Primary abstract."},"canonical_reference":{"author_year":"Møller et al. (2000)","number":31,"anchor":"#pm-ref-31"}},{"label":"Wurtman et al. (1974)","citation_key":"wurtman_brain_catechol_synthesis_1974","href":"/docs/papers/BRAIN-Diet-References#wurtman_brain_catechol_synthesis_1974","data_level":"Animal Data","evidence_source":"bounded-external-search","directional_finding":"A low phenylalanine dose raised brain tyrosine without accelerating DOPA synthesis.","assessment":{"study":"Precursor administration and brain DOPA accumulation after decarboxylase inhibition","population":"Rats","result":"A low phenylalanine dose raised brain tyrosine without accelerating DOPA synthesis.","effect_magnitude":"No general dietary efficacy or tissue-uniform effect is inferred.","evidence_summary":"A low phenylalanine dose raised brain tyrosine without accelerating DOPA synthesis.","limitations":"Human peripheral conversion supplies circulating tyrosine; neuronal delivery uses the separately supported transport chain. This does not establish increased dopamine/noradrenaline output, a limiting intake or benefit from extra phenylalanine. Hydroxylation, renal/hepatic function and LNAA competition matter; high phenylalanine is not interchangeable with tyrosine. Evidence access: Primary abstract."},"canonical_reference":{"author_year":"Wurtman et al. (1974)","number":32,"anchor":"#pm-ref-32"}},{"label":"Fernstrom (2013)","citation_key":"fernstrom_lnna_2013","href":"/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Reviewed LNAA transport competition and tyrosine presentation upstream of catecholamine synthesis; ordinary protein-driven changes do not uniformly increase catecholamine synthesis.","assessment":{"study":"Review of LNAA transport, dietary precursor presentation and brain neurochemistry.","population":"Mixed experimental contexts; not a new human noradrenergic dietary trial.","result":"Tyrosine availability and competing LNAA context are relevant to brain precursor supply.","effect_magnitude":"No universal limiting intake or regional signalling response established.","evidence_summary":"Supports upstream presentation of tyrosine, with separate synthesis and functional boundaries.","limitations":"Review; source-linked reaction identity is reused from existing local synthesis Findings. Does not establish a new competitive capacity constraint or benefit from increased intake."},"canonical_reference":{"author_year":"Fernstrom (2013)","number":30,"anchor":"#pm-ref-30"}}],"connected_supportive_evidence":[],"informs":[],"evidence_dependency":["Fernstrom transport evidence is reused, not independent replication of the human conversion study."]}} />
 
 <ScientificFinding finding={{"id":"PM3-F15","finding_label":"Riboflavin supply supports the MAO metabolic arm","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"Riboflavin-deficient rats had lower brain mitochondrial MAO activity measured with tyramine.","finding_summary":"Riboflavin-deficient rats had lower brain mitochondrial MAO activity measured with tyramine.","finding_interpretation":"Riboflavin supplies FMN and FAD formation; FAD sustains monoamine oxidase in dopamine metabolism capacity.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Riboflavin-deficient rats had lower brain mitochondrial MAO activity measured with tyramine.","synthesis_limitations":"Rat enzyme capacity, not measured human neurotransmitter clearance, synaptic output or benefit above adequacy. No conclusion about which flavin analogue is effective is taken from the internally inconsistent abstract. The same experiment is shared across the three monoamine PMs, not independent replication. Numerical SEC remains pending full-method appraisal; no factor is forced.","evidence_considered":[{"label":"Dix and Lambooy (1981)","citation_key":"dix_brain_mao_riboflavin_1981","href":"/docs/papers/BRAIN-Diet-References#dix_brain_mao_riboflavin_1981","data_level":"Animal Data","evidence_source":"bounded-external-search","exposure_context":"Dietary riboflavin deficiency, distinct from ordinary-food optimisation.","directional_finding":"Riboflavin-deficient rats had lower brain mitochondrial MAO activity measured with tyramine.","assessment":{"study":"Rat dietary riboflavin deficiency and flavin-analogue replacement; mitochondrial enzyme assay.","population":"Rats; sample sizes and full methods not extracted.","result":"Riboflavin-deficient rats had lower brain mitochondrial MAO activity measured with tyramine.","effect_magnitude":"No additional magnitude inferred.","evidence_summary":"Riboflavin-deficient rats had lower brain mitochondrial MAO activity measured with tyramine.","limitations":"Rat enzyme capacity, not measured human neurotransmitter clearance, synaptic output or benefit above adequacy. No conclusion about which flavin analogue is effective is taken from the internally inconsistent abstract. The same experiment is shared across the three monoamine PMs, not independent replication.","retrieval_scope":"Primary abstract retrieved 26 October 2026; full methods and supplements not extracted."},"canonical_reference":{"author_year":"Dix and Lambooy (1981)","number":33,"anchor":"#pm-ref-33"}}],"connected_supportive_evidence":[]}} />
+
+{/* section4-findings:end */}
+
+<div id="pm3-sop-1-evidence" class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>SF8-SOP — Ascorbic acid with non-haem iron</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+**Tested protocol and result.** Ascorbate added to the tested inhibitor-containing meal increases non-haem iron absorption; this is an upstream supply proposition, not a dopamine outcome. [[12]](#pm-ref-12)
+
+**Study limitations.** Evidence supports improved non-haem iron absorption at the meal level; it does not establish improved iron status or any change in dopamine biology or function.
+
+See the [associated Scientific Finding](#pm3-f8) and the [practice under System Optimisation Practices](#pm-lever-optimisation).
+
+<EvidenceAudit panelId="pm3-sop-1-evidence-assessment" embedded assessmentHeading="Pinned SEC assessment" assessmentPmId="BRS1-FM1-PM3" assessmentRecords={[{"atom_id":"PM3-SOP-1","sec_assessment_ref":{"id":"brs1-pm3-sop-1-intervention-assessment","version":1,"sha256":"9a36c3d4ae865ee2c0a320b8ae001719a73966cbd001651d793c40ba0dba7f68"},"sec_assessed_proposition":"Ascorbate added to the tested inhibitor-containing meal increases non-haem iron absorption; this is an upstream supply proposition, not a dopamine outcome."}].map(intervention => resolveInterventionSecAssessment(secRegistry, {pmId: "BRS1-FM1-PM3", intervention}).record).filter(Boolean)} assessmentView={secAssessmentView} recordAnchor={secAuditAnchor} />
+
+</div>
+</div>
+</div>
+
+<div id="pm3-sop-2-evidence" class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>SF9-SOP — Phytase-treated cereal porridge</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+**Tested protocol and result.** Verified phytase dephytinisation increased iron absorption from the tested water-reconstituted cereal porridges, with material-specific exceptions. [[13]](#pm-ref-13) [[14]](#pm-ref-14)
+
+**Study limitations.** Improved absorption was matrix-dependent and did not consistently translate into better long-term iron status; no dopamine-related outcome was measured.
+
+See the [associated Scientific Finding](#pm3-f8) and the [practice under System Optimisation Practices](#pm-lever-optimisation).
+
+<EvidenceAudit panelId="pm3-sop-2-evidence-assessment" embedded assessmentHeading="Pinned SEC assessment" assessmentPmId="BRS1-FM1-PM3" assessmentRecords={[{"atom_id":"PM3-SOP-2","sec_assessment_ref":{"id":"brs1-pm3-sop-2-intervention-assessment","version":1,"sha256":"180261ffce0012d0b7dc54a8a70a4c0682c0819dc2446d17269e1db2ef206548"},"sec_assessed_proposition":"Verified phytase dephytinisation increased iron absorption from the tested water-reconstituted cereal porridges, with material-specific exceptions."}].map(intervention => resolveInterventionSecAssessment(secRegistry, {pmId: "BRS1-FM1-PM3", intervention}).record).filter(Boolean)} assessmentView={secAssessmentView} recordAnchor={secAuditAnchor} />
+
+</div>
+</div>
+</div>
+
+<div id="pm3-sop-tea-timing-1-evidence" class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>SF10-SOP — Black tea one hour after porridge</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+**Tested protocol and result.** In the tested porridge/black-tea protocol, iron absorption was higher when tea was consumed one hour after rather than with the meal. [[34]](#pm-ref-34)
+
+**Study limitations.** Small nonrandomised fixed-order study in iron-replete women. No brain iron or dopamine endpoint; not a green-tea or universal timing claim.
+
+See the [associated Scientific Finding](#pm3-f8) and the [practice under System Optimisation Practices](#pm-lever-optimisation).
+
+<EvidenceAudit panelId="pm3-sop-tea-timing-1-evidence-assessment" embedded assessmentHeading="Pinned SEC assessment" assessmentPmId="BRS1-FM1-PM3" assessmentRecords={[{"atom_id":"PM3-SOP-TEA-TIMING-1","sec_assessment_ref":{"id":"brs1-pm3-sop-tea-timing-1-intervention-assessment","version":1,"sha256":"40e4cf3c2981b3b34667b0ffee505f015e1a54ef929e94d1bf364659d42bbb8e"},"sec_assessed_proposition":"In the tested porridge/black-tea protocol, iron absorption was higher when tea was consumed one hour after rather than with the meal."}].map(intervention => resolveInterventionSecAssessment(secRegistry, {pmId: "BRS1-FM1-PM3", intervention}).record).filter(Boolean)} assessmentView={secAssessmentView} recordAnchor={secAuditAnchor} />
+
+</div>
+</div>
+</div>
+
+<div id="pm3-sop-3-evidence" class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>SF11-SOP — Short-term selective fat restriction</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+**Tested protocol and result.** Five days of 30%-energy-restricted low-fat feeding was associated with lower striatal D2/D3 PET binding potential than eucaloric baseline in adults with obesity. [[17]](#pm-ref-17)
+
+**Study limitations.** Evidence comes from 17 adults with obesity in a short inpatient experiment; reduced binding potential does not by itself distinguish receptor change from greater endogenous dopamine occupancy.
+
+See the [associated Scientific Finding](#pm3-f11) and the [practice under System Optimisation Practices](#pm-lever-optimisation).
+
+<EvidenceAudit panelId="pm3-sop-3-evidence-assessment" embedded assessmentHeading="Pinned SEC assessment" assessmentPmId="BRS1-FM1-PM3" assessmentRecords={[{"atom_id":"PM3-SOP-3","sec_assessment_ref":{"id":"brs1-pm3-sop-3-intervention-assessment","version":1,"sha256":"a165caf14944a268d824345a30114bd971a6ddd7368b7d076bf81c97c1631d53"},"sec_assessed_proposition":"Five days of 30%-energy-restricted low-fat feeding was associated with lower striatal D2/D3 PET binding potential than eucaloric baseline in adults with obesity."}].map(intervention => resolveInterventionSecAssessment(secRegistry, {pmId: "BRS1-FM1-PM3", intervention}).record).filter(Boolean)} assessmentView={secAssessmentView} recordAnchor={secAuditAnchor} />
+
+</div>
+</div>
+</div>
+
+<div id="pm3-sop-4-evidence" class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>SF12-SOP — Short-term very-low-calorie diet</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+**Tested protocol and result.** The tested approximately ten-day very-low-calorie protocol causes lower substantia-nigra D2/D3 binding potential in women with obesity. [[18]](#pm-ref-18)
+
+**Study limitations.** The uncontrolled study involved 15 women with obesity and cannot establish whether the imaging change reflects altered receptor availability or endogenous dopamine occupancy.
+
+See the [associated Scientific Finding](#pm3-f11) and the [practice under System Optimisation Practices](#pm-lever-optimisation).
+
+<EvidenceAudit panelId="pm3-sop-4-evidence-assessment" embedded assessmentHeading="Pinned SEC assessment" assessmentPmId="BRS1-FM1-PM3" assessmentRecords={[{"atom_id":"PM3-SOP-4","sec_assessment_ref":{"id":"brs1-pm3-sop-4-intervention-assessment","version":1,"sha256":"df1d1c76a8166b1f359bf83dc072d633631e86cc347d7207ba5846e9f370c1ab"},"sec_assessed_proposition":"The tested approximately ten-day very-low-calorie protocol causes lower substantia-nigra D2/D3 binding potential in women with obesity."}].map(intervention => resolveInterventionSecAssessment(secRegistry, {pmId: "BRS1-FM1-PM3", intervention}).record).filter(Boolean)} assessmentView={secAssessmentView} recordAnchor={secAuditAnchor} />
+
+</div>
+</div>
+</div>
 
 ## 5. BRS Pathways and Connections
 

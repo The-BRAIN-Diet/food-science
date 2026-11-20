@@ -1,0 +1,49 @@
+{
+  "version": "brsx-hormones-analytical-source-strength-v1-2026-11-17",
+  "scope": "BRS-X/Hormones",
+  "minimum_rsp_inclusive": 20,
+  "numerical_food_cap": null,
+  "excluded_from_score": [
+    "sodium"
+  ],
+  "overlap_groups": {
+    "protein-amino-acid-supply": [
+      "indispensable-amino-acids",
+      "tryptophan",
+      "tyrosine",
+      "phenylalanine"
+    ]
+  },
+  "group_contribution": "highest eligible component RSP / 100, once per food",
+  "system_coverage": "same distinct input groups once per food per BRS; PM counts do not multiply points",
+  "ownership_views": {
+    "PM-owned": [
+      "A"
+    ],
+    "upstream-shared": [
+      "B",
+      "C",
+      "D"
+    ],
+    "combined": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "publication": "unlisted foods excluded; listed corrections authorised for local analysis retain publication-pending labels; strict pin-matched sensitivity also exported; manifest never changed",
+  "preparation": "existing compatible edible-weight pools only; retain every food/form; mark multi-form food-ID summaries composite",
+  "tie_break": "canonical food ID, ascending",
+  "scientific_status": "Provisional analytical convention, not admission, food quality, adequacy or efficacy",
+  "deferred": [
+    "portions",
+    "dietary-average weighting",
+    "intake targets",
+    "daily/weekly optimisation",
+    "safety-limit engine",
+    "recipe/abacus",
+    "other systems"
+  ],
+  "publication_authority": "Owner: each BRS-X modulator separately, same equations; local only, retain unranked evidence; vitamin K unchanged."
+}

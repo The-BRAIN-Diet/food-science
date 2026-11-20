@@ -18821,6 +18821,503 @@
         ],
         "assessmentComplete": true
       }
+    },
+    {
+      "sha256": "d419f83197d2eef680f987274271eac23cf98d202fd1bf08ca8d0f0547fa588c",
+      "record": {
+        "id": "brs6-fm1-pm3-pm3-sop-blueberry-1-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS6-FM1-PM3",
+        "interventionId": "PM3-SOP-BLUEBERRY-1",
+        "title": "Whole-blueberry powder — insulin sensitivity under a defined six-week protocol",
+        "proposition": "In obese, insulin-resistant adults without diabetes, six weeks of 45 g/day freeze-dried whole-blueberry powder in two matched smoothies improved clamp-measured insulin sensitivity compared with placebo under weight-maintenance conditions.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "capRationale": "Existing sum and ceilings; no inherited Finding score.",
+        "unscoredReason": null,
+        "lastEvidenceAssessmentDate": "2026-11-17",
+        "humanReview": null,
+        "rationale": {
+          "D": "The exact food preparation, six-week exposure and selected population were tested against a matched placebo using a hyperinsulinemic-euglycemic clamp.",
+          "B": "Double blinding, matched macronutrients and weight maintenance protect the comparison; sparse allocation reporting and self-reported adherence leave residual concerns. These are explicit reporting limitations, not assumed protection.",
+          "P": "Reported SEM and between-group p=0.02 support direction in this sample; 15 versus 17 participants and variability limit magnitude and generalization. No confidence interval invented.",
+          "R": "Only one independent dataset supports the exact protocol. Curtis is a materially different exposure with null insulin results, not positive replication."
+        },
+        "sources": {
+          "supporting": [
+            "stull_blueberry_insulin_2010"
+          ],
+          "contextual": [
+            "curtis_blueberry_metabolic_2019"
+          ],
+          "targetedChecks": [
+            {
+              "doi": "10.3945/jn.110.125336",
+              "role": "direct intervention evidence",
+              "access": "Full primary paper, Methods pp1765–1766 and Results/Figure2; retrieved in preceding appraisal.",
+              "assessment": "In obese, insulin-resistant adults without diabetes, six weeks of 45 g/day freeze-dried whole-blueberry powder in two matched smoothies improved clamp-measured insulin sensitivity compared with placebo under weight-maintenance conditions."
+            },
+            {
+              "doi": "10.1093/ajcn/nqy380",
+              "role": "contrasting null trial",
+              "access": "Full primary XML PMC6537945; Methods, Results and clamp-substudy description.",
+              "assessment": "A separate six-month trial in metabolic syndrome (115 completers; 75 or 150 g/day fresh-equivalent powder) found no improvement in HOMA-IR or clamp-substudy insulin sensitivity. This differs in dose and population and is not replication of the positive protocol."
+            }
+          ],
+          "retrievalLimited": [],
+          "contradictoryAssessment": "A separate six-month trial in metabolic syndrome (115 completers; 75 or 150 g/day fresh-equivalent powder) found no improvement in HOMA-IR or clamp-substudy insulin sensitivity. This differs in dose and population and is not replication of the positive protocol."
+        },
+        "limitations": [
+          "One small double-blind randomized trial (32 completers; 27 women), six weeks; randomization and allocation-concealment procedures were not described in sufficient detail to establish full bias protection; adherence was self-reported.",
+          "A separate six-month trial in metabolic syndrome (115 completers; 75 or 150 g/day fresh-equivalent powder) found no improvement in HOMA-IR or clamp-substudy insulin sensitivity. This differs in dose and population and is not replication of the positive protocol.",
+          "The tested Tifblue/Rubel whole-food blend does not isolate anthocyanins, flavonols or an intracellular mediator. No constituent-specific dietary admission follows.",
+          "45 g/day powder was divided into two smoothies at least six hours apart; participants compensated for smoothie energy and maintained weight and activity. Fresh-fruit equivalence is approximate, not a validated substitute protocol or minimum effective dose.",
+          "Insulin sensitivity improved 22.2 ± 5.8% versus 4.9 ± 4.5% (SEM; p=0.02); small groups constrain effect precision. No brain insulin action, cognitive mediation, diabetes prevention or durable clinical benefit was demonstrated. Weight and measured inflammatory markers did not improve."
+        ],
+        "methodology": {
+          "name": "Scientific Evidence Confidence: Directness + Bias Protection + Precision + Replication",
+          "version": "Existing D/B/P/R rubric with approved completeness extension",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "process": "Independent intervention-specific Codex appraisal. Owner authorised bounded local SOP admission on 17 November 2026; this is not qualified-human acceptance of the numerical SEC assessment.",
+        "history": [
+          {
+            "date": "2026-11-17",
+            "decision": "Owner-approved bounded whole-food SOP integrated; null trial retained; no constituent dietary admission or ranking change."
+          }
+        ],
+        "previousAssessments": [],
+        "completenessVersion": 1,
+        "assessmentGaps": [],
+        "stoppingRationale": "Complete provisional appraisal of the exact protocol; no general blueberry efficacy or cognitive claim."
+      }
+    },
+    {
+      "sha256": "fb86f46c0c057efba36998fd8bed112c444bf2051b887bf04cb4f290f8fd98c6",
+      "record": {
+        "id": "brs3-fm3-pm7-f2-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS3-FM3-PM7",
+        "findingId": "PM7-F2",
+        "title": "DHA modified stimulated cytokine production after exercise",
+        "proposition": "In male soccer players, eight weeks of an almond-based beverage supplying 1.16 g DHA/day, compared with a similar unenriched beverage, attenuated selected ex vivo cytokine-production responses to LPS in peripheral blood mononuclear cells collected two hours after acute exercise.",
+        "assessmentStatus": "not-scored",
+        "assessmentComplete": false,
+        "factors": {
+          "D": 2,
+          "B": null,
+          "P": null,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "pending",
+          "P": "pending",
+          "R": "established"
+        },
+        "rawScore": null,
+        "adjustedScore": null,
+        "capRationale": "Existing rubric. No total or cap applied with unresolved factors.",
+        "unscoredReason": "The full primary methods and endpoint-specific between-group estimates and uncertainty were not accessible.",
+        "lastEvidenceAssessmentDate": "2026-11-19",
+        "humanReview": null,
+        "rationale": {
+          "D": "The trial directly tested the oral exposure, comparator, exercise context and stimulated PBMC production named in the proposition.",
+          "B": "Random assignment is reported. Allocation, concealment, masking, outcome selection and analysis safeguards remain unverified for the pivotal comparison.",
+          "P": "The abstract does not give the cytokine-specific exercise-by-treatment estimates or uncertainty. Its numerical IL-1β example concerns temperature.",
+          "R": "One exact trial. Related reports from the research group do not provide a verified independent replication of this protocol and endpoint."
+        },
+        "sources": {
+          "supporting": [
+            "capo_dha_cytokine_production_2016"
+          ],
+          "contextual": [
+            "ferguson_omega3_2014",
+            "kiecolt-glaser_omega-3_2011"
+          ],
+          "targetedChecks": [
+            {
+              "doi": "10.1007/s13105-016-0490-8",
+              "role": "Direct primary intervention evidence",
+              "access": "Primary abstract via PubMed and publisher preview. Full methods and results tables unavailable.",
+              "assessment": "The trial reports 1.16 g DHA/day, n=15, and erythrocyte DHA increasing from 34 ± 3.6 to 43 ± 3.6 nmol per billion erythrocytes in the DHA group."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://doi.org/10.1007/s13105-016-0490-8",
+              "limitation": "Target article is subscription-restricted. Scite full-text lookup returned an account usage limit."
+            }
+          ],
+          "contradictoryAssessment": "Temperature-induced production was not attenuated. Ferguson and Kiecolt-Glaser tested different exposures or endpoints and do not replicate this contrast."
+        },
+        "limitations": [
+          "Fifteen participants. The primary abstract reports attenuation of the exercise response and no attenuation of the temperature-induced response. Exact between-group contrasts, assay conditions and design safeguards require the full paper. The ex vivo result does not establish an effect on circulating cytokine intensity."
+        ],
+        "methodology": {
+          "name": "Scientific Evidence Confidence: Directness + Bias Protection + Precision + Replication",
+          "version": "Existing D/B/P/R rubric with approved completeness extension",
+          "source": "system/sec-assessments/README.md"
+        },
+        "process": "Codex primary-source appraisal and independent reassessment of dietary admission.",
+        "history": [
+          {
+            "date": "2026-11-19",
+            "decision": "Retained PM7-F2 at its ex vivo scope. Withdrew active Type B placement because circulating engagement was unestablished."
+          }
+        ],
+        "previousAssessments": [],
+        "completenessVersion": 1,
+        "assessmentGaps": [
+          {
+            "id": "PM7-F2-ASSESSMENT-BP-1",
+            "pmId": "BRS3-FM3-PM7",
+            "findingId": "PM7-F2",
+            "dimensions": [
+              "B",
+              "P"
+            ],
+            "sources": [
+              "capo_dha_cytokine_production_2016"
+            ],
+            "reason": "Full pivotal methods and exercise-by-treatment contrasts were not verified.",
+            "resolutionAction": "Retrieve full primary methods and tables. Verify allocation, masking, assay conditions, analysis, and marker-specific between-group estimates and uncertainty.",
+            "status": "pending",
+            "attempts": [
+              {
+                "date": "2026-11-19",
+                "action": "Publisher HTML and PDF, PubMed, OpenAlex locations and Scite full-text lookup.",
+                "outcome": "Primary abstract available. Publisher full text subscription-restricted, no open copy indexed, and Scite usage limit reached."
+              }
+            ],
+            "history": [
+              {
+                "date": "2026-11-19",
+                "decision": "Recorded incomplete appraisal. Bias protection and precision remain pending."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "sha256": "3ae81e55ecaa3c0951f814788ef4fc10debba5786854a93273773b3e0a22c40e",
+      "record": {
+        "id": "brs3-fm3-pm7-pm7-sop-epa-dha-tan-1-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS3-FM3-PM7",
+        "interventionId": "PM7-SOP-EPA-DHA-TAN-1",
+        "title": "Tested EPA+DHA protocol with shared aspirin",
+        "proposition": "In adults with chronic venous leg ulcers, eight weeks of five softgels daily providing approximately 1.62 g EPA, 1.09 g DHA and 0.24 g n‑3 DPA lowered fasting plasma IL‑6, IL‑1β and TNF‑α at weeks 4 and 8 compared with matched light mineral-oil placebo, with both arms taking 81 mg/day aspirin.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "capRationale": "Existing D/B/P/R sum and ceilings applied; no extra replication decrement.",
+        "unscoredReason": null,
+        "lastEvidenceAssessmentDate": "2026-11-19",
+        "humanReview": null,
+        "rationale": {
+          "D": "Direct plasma outcomes in the specified cohort and time frame. Companion Table 2 establishes the analysed formulation in the same trial.",
+          "B": "Randomization, masking and baseline adjustment provide protection. Differential attrition and baseline imbalance limit attribution.",
+          "P": "Six baseline-adjusted comparisons and standard errors for between-arm changes support the direction. The small sample and missing adjusted follow-up effect sizes limit precision.",
+          "R": "The companion analysis uses the same parent trial. One dataset tested the scoped proposition."
+        },
+        "sources": {
+          "supporting": [
+            "tan_epa_dha_cytokines_2018"
+          ],
+          "contextual": [
+            "pmc9022442_secondary_omega3_2021"
+          ],
+          "targetedChecks": [
+            {
+              "doi": "10.1016/j.plefa.2018.03.010",
+              "role": "Primary cytokine outcome evidence",
+              "access": "Primary author manuscript, sections 2–4 and Table 3",
+              "assessment": "Fasting plasma IL‑6, IL‑1β and TNF‑α were lower at weeks 4 and 8 versus mineral-oil placebo after baseline adjustment."
+            },
+            {
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9022442/",
+              "role": "Composition only, same trial",
+              "access": "Primary companion analysis, Table 2",
+              "assessment": "Five softgels daily for eight weeks with the evening meal, providing approximately 1.62 g EPA, 1.09 g DHA and 0.24 g n‑3 DPA per day. Both arms took 81 mg/day aspirin.",
+              "doi": "10.1016/j.plefa.2021.102302"
+            }
+          ],
+          "retrievalLimited": [],
+          "contradictoryAssessment": "Ferguson tested evoked endotoxemia in healthy participants with a different protocol and did not find significant individual cytokine effects."
+        },
+        "limitations": [
+          "Small double-blind pilot. Analysed n=35 of 40 (16/21 supplement, 19/19 placebo). All three cytokines started higher in the supplement arm. Baseline adjustment addressed imbalance, with limited robustness reporting.",
+          "Adjusted follow-up tests support direction. Adjusted effect sizes and confidence intervals were not separately reported.",
+          "The analysed formulation was tested with shared aspirin. Effects without aspirin, at other doses or from ordinary foods remain unestablished.",
+          "Study-specific plasma concentrations over eight weeks. Receptor signalling, long-term effects and clinical benefit were not established."
+        ],
+        "methodology": {
+          "name": "Scientific Evidence Confidence: Directness + Bias Protection + Precision + Replication",
+          "version": "Existing D/B/P/R rubric with approved completeness extension",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "process": "Codex appraisal of the exact intervention–outcome proposition; qualified admission adjudicated separately.",
+        "history": [
+          {
+            "date": "2026-11-19",
+            "decision": "Pinned existing provisional 4/8 appraisal of the analysed blend for qualified PM7 admission."
+          }
+        ],
+        "previousAssessments": [],
+        "completenessVersion": 1,
+        "assessmentGaps": [],
+        "stoppingRationale": "One pilot supports a bounded concentration effect under the shared-aspirin protocol."
+      }
+    },
+    {
+      "record": {
+        "id": "brs6-pm8-pm8-f19-endocrine-assessment",
+        "recordVersion": 2,
+        "pmId": "BRS6-FM4-PM8",
+        "findingId": "PM8-F19",
+        "assessmentStatus": "codex-provisional",
+        "humanReview": null,
+        "recordedOn": "2026-11-19",
+        "lastEvidenceAssessmentDate": "2026-11-19",
+        "reviewer": null,
+        "process": "Codex reassessment of the existing SF4 circulating-adiponectin proposition using primary trial methods and comparator-specific results.",
+        "methodology": {
+          "name": "Scientific Evidence Confidence",
+          "version": "Existing D/B/P/R rubric with approved completeness extension",
+          "source": "system/sec-assessments/README.md"
+        },
+        "proposition": "Defined oral DHA exposures altered circulating adiponectin in selected human intervention contexts; mixed marine-omega-3 and enriched-oil responses do not establish adipose secretion or ordinary-food equivalence.",
+        "canonicalProposition": "Defined oral DHA exposures altered circulating adiponectin in selected human intervention contexts; mixed marine-omega-3 and enriched-oil responses do not establish adipose secretion or ordinary-food equivalence.",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 1
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 5,
+        "adjustedScore": 5,
+        "conditional": null,
+        "rationale": {
+          "D": "ComparED directly tested a defined DHA exposure and measured circulating adiponectin. The scope is selected human intervention contexts and the circulating endpoint.",
+          "B": "Randomized double-blind crossover, blinded assays, nine-week washouts, carryover checks and a corroborating imputed intention-to-treat analysis provide protection. About 20% dropped out and adiponectin was not the outcome used to power the trial.",
+          "P": "ComparED reported a modest DHA effect versus EPA and a smaller, borderline contrast versus corn oil. Reported standard errors and comparator-specific contrasts establish an informative signal, with magnitude and transferability uncertain.",
+          "R": "Independent COMIT data support a circulating effect with a DHA-enriched oil, giving partial confirmation. Its oil matrix and comparators differ. Gammelmark tested mixed fish oil and the Rausch review includes overlapping trials."
+        },
+        "limitations": [
+          "Selected populations, formulations and comparators limit extrapolation. Circulating adiponectin does not establish adipose secretion, receptor engagement, equivalence to ordinary foods or clinical benefit.",
+          "The Gammelmark full methods and ComparED supplementary tables were not independently rechecked."
+        ],
+        "sources": {
+          "supporting": [
+            "allaire_compared_2016",
+            "baril_gravel_dha_canola_2015"
+          ],
+          "contradictory": [],
+          "contextual": [
+            "gammelmark_fish_oil_adiponectin_2012",
+            "rausch_omega3_adipokines_2021"
+          ],
+          "contradictoryAssessment": "Relevant null, heterogeneous and non-equivalent comparator results are retained in the source assessments. Reviews overlap primary trials and are not additional experiments.",
+          "targetedChecks": [
+            {
+              "doi": "10.3945/ajcn.116.131896",
+              "role": "primary",
+              "access": "Full primary journal article, Methods, Table 2 and Figure 2. Supplementary tables not independently retrieved.",
+              "assessment": "154 randomized; 123 in the DHA analysis, 121 in the EPA analysis. At 2.7 g/day for 10 weeks, DHA +3.1% versus corn oil (P=.047), EPA −1.2% versus corn oil (P=.14), DHA versus EPA P<.001. Multiple imputation retained significance for the treatment comparison."
+            },
+            {
+              "doi": "10.1016/j.nutres.2011.12.007",
+              "role": "primary",
+              "access": "Primary abstract/metadata recovered; publisher full text and supplements not recovered.",
+              "assessment": "Adiponectin difference +0.55 µg/mL (95% CI 0.02–1.08); adipose n-3 incorporation increased. No overall anti-inflammatory effect. Incorporation is not secretion. Mixed EPA/DHA does not isolate EPA versus DHA; small effect, adiposity/clearance mediation unresolved."
+            },
+            {
+              "doi": "10.1016/j.numecd.2014.08.003",
+              "role": "primary",
+              "access": "Primary journal abstract and study investigator thesis, including trial methods and statistical analysis.",
+              "assessment": "DHA-enriched high-oleic canola oil: +4.5% versus corn/safflower, +6.9% versus flax/safflower. Published significant contrasts do not isolate DHA from the high-oleic carrier; no claimed superiority to every canola arm or generic oil/food equivalent. The controlled crossover analysed adiponectin as a secondary outcome. Mixed modelling and Tukey–Kramer adjustment were used."
+            },
+            {
+              "doi": "10.1016/j.nutres.2020.11.002",
+              "role": "secondary",
+              "access": "Full author-manuscript PDF recovered from Indiana University repository; Methods, risk-of-bias table and relevant results inspected. Supplement referenced but not recovered.",
+              "assessment": "18/31 reported lower leptin or higher adiponectin direction; 9 significant between-group results. Review did not pool effect sizes because distribution/reporting differed. Secondary synthesis, not 31 independent confirmations of one formulation. Primary trial overlap retained; dose and population variability preclude universal efficacy."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://doi.org/10.1016/j.nutres.2011.12.007",
+              "limitation": "Primary abstract/metadata recovered; publisher full text and supplements not recovered."
+            },
+            {
+              "url": "https://doi.org/10.1016/j.nutres.2020.11.002",
+              "limitation": "Full author-manuscript PDF recovered from Indiana University repository; Methods, risk-of-bias table and relevant results inspected. Supplement referenced but not recovered."
+            }
+          ]
+        },
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-10-26",
+            "decision": "Exact new proposition assessed; directness established, other SEC factors explicit and no forced total."
+          },
+          {
+            "version": 2,
+            "date": "2026-11-19",
+            "decision": "Appraised primary ComparED full text and COMIT methods. Added a provisional 5/8 for the unchanged SF4 proposition."
+          }
+        ],
+        "title": "DHA formulations can alter circulating adiponectin in defined human contexts",
+        "assessmentComplete": true,
+        "completenessVersion": 1,
+        "assessmentGaps": [],
+        "capRationale": "Established D/B/P/R anchors sum to 5; no ceiling applies.",
+        "previousAssessments": [
+          {
+            "id": "brs6-pm8-pm8-f19-endocrine-assessment",
+            "recordVersion": 1,
+            "pmId": "BRS6-FM4-PM8",
+            "findingId": "PM8-F19",
+            "assessmentStatus": "not-scored",
+            "humanReview": null,
+            "recordedOn": "2026-10-26",
+            "lastEvidenceAssessmentDate": "2026-10-26",
+            "reviewer": null,
+            "process": "Codex-assisted seven-study dietary recovery; compartment, formulation and primary/secondary distinctions retained.",
+            "methodology": {
+              "name": "SEC calibration rubric proposal",
+              "version": null,
+              "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+            },
+            "proposition": "Defined oral DHA exposures altered circulating adiponectin in selected human intervention contexts; mixed marine-omega-3 and enriched-oil responses do not establish adipose secretion or ordinary-food equivalence.",
+            "canonicalProposition": "Defined oral DHA exposures altered circulating adiponectin in selected human intervention contexts; mixed marine-omega-3 and enriched-oil responses do not establish adipose secretion or ordinary-food equivalence.",
+            "factors": {
+              "D": 2,
+              "B": null,
+              "P": null,
+              "R": null
+            },
+            "factorStates": {
+              "D": "established",
+              "B": "unresolved",
+              "P": "unresolved",
+              "R": "unresolved"
+            },
+            "rawScore": null,
+            "adjustedScore": null,
+            "conditional": null,
+            "rationale": {
+              "D": "2 — Scoped to the actual circulating outcome or reported pooled result; no secretion, receptor or clinical effect substituted.",
+              "B": "Unresolved — Primary trial attrition and available methods, plus review-level assessments, require a complete exact-proposition bias appraisal; full access is incomplete for several studies.",
+              "P": "Unresolved — Verified trial contrasts/intervals and pooled uncertainty retained; a common precision judgment for this scoped synthesis is not inferred from P values.",
+              "R": "Unresolved — Overlapping reviews, shared research teams, different formulations and heterogeneous/null findings are not counted as independent exact-proposition replication."
+            },
+            "limitations": [
+              "Supplement/enriched-oil exposures, selected populations and heterogeneous trials limit extrapolation. No universal benefit from higher adiponectin, isolated EPA effect, ordinary-fish efficacy, effective food dose or brain/ADHD effect established. Some primary full methods and supplements remain unavailable; review-table bias judgments are not independent primary verification.",
+              "No numerical SEC total forced; prior assessment history remains immutable."
+            ],
+            "sources": {
+              "supporting": [
+                "allaire_compared_2016",
+                "gammelmark_fish_oil_adiponectin_2012",
+                "baril_gravel_dha_canola_2015"
+              ],
+              "contradictory": [],
+              "contextual": [
+                "rausch_omega3_adipokines_2021"
+              ],
+              "contradictoryAssessment": "Relevant null, heterogeneous and non-equivalent comparator results are retained in the source assessments. Reviews overlap primary trials and are not additional experiments.",
+              "targetedChecks": [
+                {
+                  "doi": "10.3945/ajcn.116.131896",
+                  "role": "primary",
+                  "access": "Primary abstract/metadata recovered; publisher full text and supplements not recovered.",
+                  "assessment": "DHA increased adiponectin more than EPA: +3.1% ±1.6% versus −1.2% ±1.7%, P<0.001 in primary abstract; Rausch reports DHA-control contrast. No adipose secretion/receptor assay; selected population and supplement form; no ordinary-food, dose-equivalence or clinical benefit inferred."
+                },
+                {
+                  "doi": "10.1016/j.nutres.2011.12.007",
+                  "role": "primary",
+                  "access": "Primary abstract/metadata recovered; publisher full text and supplements not recovered.",
+                  "assessment": "Adiponectin difference +0.55 µg/mL (95% CI 0.02–1.08); adipose n-3 incorporation increased. No overall anti-inflammatory effect. Incorporation is not secretion. Mixed EPA/DHA does not isolate EPA versus DHA; small effect, adiposity/clearance mediation unresolved."
+                },
+                {
+                  "doi": "10.1016/j.numecd.2014.08.003",
+                  "role": "primary",
+                  "access": "Primary abstract/metadata recovered; publisher full text and supplements not recovered.",
+                  "assessment": "DHA-enriched high-oleic canola oil: +4.5% versus corn/safflower, +6.9% versus flax/safflower. Published significant contrasts do not isolate DHA from the high-oleic carrier; no claimed superiority to every canola arm or generic oil/food equivalent."
+                },
+                {
+                  "doi": "10.1016/j.nutres.2020.11.002",
+                  "role": "secondary",
+                  "access": "Full author-manuscript PDF recovered from Indiana University repository; Methods, risk-of-bias table and relevant results inspected. Supplement referenced but not recovered.",
+                  "assessment": "18/31 reported lower leptin or higher adiponectin direction; 9 significant between-group results. Review did not pool effect sizes because distribution/reporting differed. Secondary synthesis, not 31 independent confirmations of one formulation. Primary trial overlap retained; dose and population variability preclude universal efficacy."
+                }
+              ],
+              "retrievalLimited": [
+                {
+                  "url": "https://doi.org/10.3945/ajcn.116.131896",
+                  "limitation": "Primary abstract/metadata recovered; publisher full text and supplements not recovered."
+                },
+                {
+                  "url": "https://doi.org/10.1016/j.nutres.2011.12.007",
+                  "limitation": "Primary abstract/metadata recovered; publisher full text and supplements not recovered."
+                },
+                {
+                  "url": "https://doi.org/10.1016/j.numecd.2014.08.003",
+                  "limitation": "Primary abstract/metadata recovered; publisher full text and supplements not recovered."
+                },
+                {
+                  "url": "https://doi.org/10.1016/j.nutres.2020.11.002",
+                  "limitation": "Full author-manuscript PDF recovered from Indiana University repository; Methods, risk-of-bias table and relevant results inspected. Supplement referenced but not recovered."
+                }
+              ]
+            },
+            "history": [
+              {
+                "version": 1,
+                "date": "2026-10-26",
+                "decision": "Exact new proposition assessed; directness established, other SEC factors explicit and no forced total."
+              }
+            ]
+          }
+        ]
+      },
+      "sha256": "0764177c19c3e8e3c6c8bc03838a96f890625da8460a960b35f1e23308ee3a80"
     }
   ]
 }

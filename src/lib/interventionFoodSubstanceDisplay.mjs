@@ -13,7 +13,7 @@ export function renderInterventionLinks(record) {
   if(sources.length)lines.push(`<details class="pm-input-food-sources"><summary>Food sources — composition only (${sources.length})</summary>${sources.map(x=>`<div>${link(x)}</div>`).join('')}</details>`);
  }
  const roles=record.identities.filter(x=>x.role&&x.role!=='Named intervention identity; see the tested protocol and comparator'&&x.role!=='Linked in this intervention’s six atoms; see its preparation, comparator and endpoint boundaries').map(x=>`${esc(x.title)}: ${esc(x.role)}`);
- return `<div class="brs-dietary-lever-foods" data-intervention-food-links="${esc(record.atom_id)}">${lines.map(x=>`<div>${x}</div>`).join('')}<small>Identity and composition links; the tested preparation, comparator and exposure remain in the six atoms. Constituent presence does not establish mediation or an equivalent food intervention.${roles.length?' '+roles.join(' '):''}</small></div>`;
+ return `<div class="brs-dietary-lever-foods" data-intervention-food-links="${esc(record.atom_id)}">${lines.map(x=>`<div>${x}</div>`).join('')}${roles.length?`<small>${roles.join(' ')}</small>`:''}</div>`;
 }
 export function attachInterventionLinks(root,records) {
  const inserted=[];
@@ -23,6 +23,7 @@ export function attachInterventionLinks(root,records) {
   if(existing)continue;
   const key=row.atom_id.toLowerCase();
   const host=[...root.querySelectorAll('[id]')].find(x=>x.id===key||x.id.endsWith('-'+key));
+  if(host?.hasAttribute('data-hide-intervention-food-links'))continue;
   const trigger=host?.querySelector('.brs-dietary-lever-trigger')||[...root.querySelectorAll('.brs-dietary-lever-trigger')].find(x=>[row.label,row.input].includes(x.textContent?.trim()));
   if(!trigger)continue;
   const box=root.ownerDocument.createElement('div');box.innerHTML=renderInterventionLinks(row);const node=box.firstElementChild;

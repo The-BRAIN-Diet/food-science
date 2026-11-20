@@ -21,6 +21,7 @@ overview_key_compounds:
   - Astaxanthin
   - Vitamin B12
 nutrition_per_100g:
+  betaine_mg: 3
   tyrosine_g: 0.759
   linoleic_g: 0.9
   kcal: 208
@@ -76,6 +77,44 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
 nutrition_supplementary_sources:
+  - key: arginine_usda_brs4_175167
+    label: Arginine
+    substance_id: arginine
+    value: 1.221
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, salmon, Atlantic, farmed, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/175167/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed arginine; nutrient 1220, row 1918063, derivation ID 1, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 175167
+    food_nutrient_id: '1918063'
+    source_derivation_id: '1'
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+  - key: serine_usda_brs2_175167
+    label: Serine
+    substance_id: serine
+    value: 0.896
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, salmon, Atlantic, farmed, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/175167/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed serine; nutrient 1227, food-nutrient row 1918066, derivation ID 1, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, tissue delivery or clinical effect inferred. Source archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 175167
+    food_nutrient_id: '1918066'
+    source_derivation_id: '1'
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
   - key: astaxanthin_mg
     label: Astaxanthin
     notes: >-
@@ -243,6 +282,76 @@ nutrition_value_reviews:
       preparation and denominator. Presence citations do not independently
       verify this amount.
 nutrition_amino_acid_profiles:
+  - id: usda-sr-175167
+    material: Fish, salmon, Atlantic, farmed, raw
+    preparation: raw
+    food_group: animal
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 175167
+      source_url: https://fdc.nal.usda.gov/food-details/175167/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 20.42
+    protein_source_row_id: '1918132'
+    amino_acids:
+      histidine:
+        value: 0.549
+        source_row_id: '1918064'
+        nutrient_id: '1221'
+        data_points: 0
+        derivation_id: '1'
+      isoleucine:
+        value: 0.968
+        source_row_id: '1918058'
+        nutrient_id: '1212'
+        data_points: 0
+        derivation_id: '1'
+      leucine:
+        value: 1.615
+        source_row_id: '1918059'
+        nutrient_id: '1213'
+        data_points: 0
+        derivation_id: '1'
+      lysine:
+        value: 1.87
+        source_row_id: '1918060'
+        nutrient_id: '1214'
+        data_points: 0
+        derivation_id: '1'
+      methionine:
+        value: 0.626
+        source_row_id: '1918131'
+        nutrient_id: '1215'
+        data_points: 0
+        derivation_id: '1'
+      phenylalanine:
+        value: 0.845
+        source_row_id: '1918100'
+        nutrient_id: '1217'
+        data_points: 0
+        derivation_id: '1'
+      threonine:
+        value: 0.86
+        source_row_id: '1918130'
+        nutrient_id: '1211'
+        data_points: 0
+        derivation_id: '1'
+      tryptophan:
+        value: 0.209
+        source_row_id: '1918129'
+        nutrient_id: '1210'
+        data_points: 0
+        derivation_id: '1'
+      valine:
+        value: 1.107
+        source_row_id: '1918062'
+        nutrient_id: '1219'
+        data_points: 0
+        derivation_id: '1'
+    limitations: Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred.
   - id: usda-sr-175168
     material: Fish, salmon, Atlantic, farmed, cooked, dry heat
     preparation: cooked

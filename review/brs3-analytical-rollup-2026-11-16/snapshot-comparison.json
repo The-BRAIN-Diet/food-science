@@ -1,0 +1,186 @@
+{
+  "frozen_snapshot_id": "682e4da0617af57788a83135d36947f31658dbe3d5b8c1ae6cc60245d66056c7",
+  "note": "Different purpose: public top-ten >=10 snapshot versus uncapped >=20 analytical extraction including publication-pending prior corrections. No public replacement.",
+  "targets": [
+    {
+      "relationship": "BRS3-FM1-PM1::PM1-KC1-UPSTREAM-1",
+      "substance": "cysteine",
+      "ownership": "C",
+      "frozen_selected": 0,
+      "current_uncapped_at_least_10": 0,
+      "current_retained_at_least_20": 0,
+      "food_ids": 0
+    },
+    {
+      "relationship": "BRS3-FM1-PM1::PM1-KC1-UPSTREAM-2",
+      "substance": "glycine",
+      "ownership": "C",
+      "frozen_selected": 7,
+      "current_uncapped_at_least_10": 19,
+      "current_retained_at_least_20": 19,
+      "food_ids": 19
+    },
+    {
+      "relationship": "BRS3-FM1-PM2::PM2-KC1-UPSTREAM-1",
+      "substance": "cysteine",
+      "ownership": "C",
+      "frozen_selected": 0,
+      "current_uncapped_at_least_10": 0,
+      "current_retained_at_least_20": 0,
+      "food_ids": 0
+    },
+    {
+      "relationship": "BRS3-FM1-PM2::PM2-KC1-UPSTREAM-2",
+      "substance": "glycine",
+      "ownership": "C",
+      "frozen_selected": 7,
+      "current_uncapped_at_least_10": 19,
+      "current_retained_at_least_20": 19,
+      "food_ids": 19
+    },
+    {
+      "relationship": "BRS3-FM1-PM2::PM2-DIT-RECOVERY-OLIGOFRUCTOSE",
+      "substance": "oligofructose",
+      "ownership": "A",
+      "frozen_selected": 0,
+      "current_uncapped_at_least_10": 0,
+      "current_retained_at_least_20": 0,
+      "food_ids": 0
+    },
+    {
+      "relationship": "BRS3-FM2-PM3::PM3-DIT-1",
+      "substance": "sulforaphane",
+      "ownership": "A",
+      "frozen_selected": 0,
+      "current_uncapped_at_least_10": 0,
+      "current_retained_at_least_20": 0,
+      "food_ids": 0
+    },
+    {
+      "relationship": "BRS3-FM2-PM4::PM4-DIT-1",
+      "substance": "selenium",
+      "ownership": "A",
+      "frozen_selected": 1,
+      "current_uncapped_at_least_10": 1,
+      "current_retained_at_least_20": 1,
+      "food_ids": 1
+    },
+    {
+      "relationship": "BRS3-FM2-PM4::PM4-DIT-2",
+      "substance": "zinc",
+      "ownership": "A",
+      "frozen_selected": 10,
+      "current_uncapped_at_least_10": 19,
+      "current_retained_at_least_20": 2,
+      "food_ids": 2
+    },
+    {
+      "relationship": "BRS3-FM2-PM4::PM4-DIT-3",
+      "substance": "copper",
+      "ownership": "A",
+      "frozen_selected": 10,
+      "current_uncapped_at_least_10": 21,
+      "current_retained_at_least_20": 6,
+      "food_ids": 6
+    },
+    {
+      "relationship": "BRS3-FM2-PM4::PM4-DIT-4",
+      "substance": "manganese",
+      "ownership": "A",
+      "frozen_selected": 5,
+      "current_uncapped_at_least_10": 5,
+      "current_retained_at_least_20": 4,
+      "food_ids": 4
+    },
+    {
+      "relationship": "BRS3-FM2-PM4::PM4-DIT-RECOVERY-IRON",
+      "substance": "iron",
+      "ownership": "A",
+      "frozen_selected": 9,
+      "current_uncapped_at_least_10": 9,
+      "current_retained_at_least_20": 5,
+      "food_ids": 5
+    },
+    {
+      "relationship": "BRS3-FM2-PM5::PM5-DIT-1",
+      "substance": "vitamin-e",
+      "ownership": "A",
+      "frozen_selected": 10,
+      "current_uncapped_at_least_10": 10,
+      "current_retained_at_least_20": 6,
+      "food_ids": 6
+    },
+    {
+      "relationship": "BRS3-FM2-PM5::PM5-DIT-RECOVERY-SELENIUM",
+      "substance": "selenium",
+      "ownership": "A",
+      "frozen_selected": 1,
+      "current_uncapped_at_least_10": 1,
+      "current_retained_at_least_20": 1,
+      "food_ids": 1
+    },
+    {
+      "relationship": "BRS3-FM2-PM6::PM6-DIT-1",
+      "substance": "vitamin-c",
+      "ownership": "A",
+      "frozen_selected": 10,
+      "current_uncapped_at_least_10": 28,
+      "current_retained_at_least_20": 21,
+      "food_ids": 21
+    },
+    {
+      "relationship": "BRS3-FM2-PM6::PM6-DIT-2",
+      "substance": "vitamin-e",
+      "ownership": "A",
+      "frozen_selected": 10,
+      "current_uncapped_at_least_10": 10,
+      "current_retained_at_least_20": 6,
+      "food_ids": 6
+    },
+    {
+      "relationship": "BRS3-FM2-PM6::PM6-DIT-3",
+      "substance": "vitamin-b2",
+      "ownership": "A",
+      "frozen_selected": 10,
+      "current_uncapped_at_least_10": 16,
+      "current_retained_at_least_20": 7,
+      "food_ids": 7
+    },
+    {
+      "relationship": "BRS3-FM2-PM6::PM6-DIT-RECOVERY-SELENIUM",
+      "substance": "selenium",
+      "ownership": "A",
+      "frozen_selected": 1,
+      "current_uncapped_at_least_10": 1,
+      "current_retained_at_least_20": 1,
+      "food_ids": 1
+    },
+    {
+      "relationship": "BRS3-FM3-PM7::PM7-DIT-RECOVERY-DHA-DOCOSAHEXAENOIC-ACID",
+      "substance": "dha-docosahexaenoic-acid",
+      "ownership": "A",
+      "frozen_selected": 8,
+      "current_uncapped_at_least_10": 8,
+      "current_retained_at_least_20": 7,
+      "food_ids": 7
+    },
+    {
+      "relationship": "BRS3-FM3-PM8::PM8-DIT-1",
+      "substance": "epa-eicosapentaenoic-acid",
+      "ownership": "A",
+      "frozen_selected": 9,
+      "current_uncapped_at_least_10": 9,
+      "current_retained_at_least_20": 6,
+      "food_ids": 6
+    },
+    {
+      "relationship": "BRS3-FM3-PM8::PM8-DIT-2",
+      "substance": "dha-docosahexaenoic-acid",
+      "ownership": "A",
+      "frozen_selected": 8,
+      "current_uncapped_at_least_10": 8,
+      "current_retained_at_least_20": 7,
+      "food_ids": 7
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Independent direct aggregation of EVERY score and rank",
+    "status": "PASS",
+    "evidence": "183 food/view scores and ranks reconstructed without scoreFoods()"
+  },
+  {
+    "name": "Independent pre-cap qualification and RSP reconstruction",
+    "status": "PASS",
+    "evidence": "200 >=20 food/form candidates; includes pools larger than ten"
+  },
+  {
+    "name": "Observed quantities/preparations/protein match canonical records",
+    "status": "PASS",
+    "evidence": "474 component rows checked against live canonical fields; no missing value is numeric zero"
+  },
+  {
+    "name": "Exact USDA additions and preservation of intake",
+    "status": "PASS",
+    "evidence": "27 exact-source additions; all intake values, prose, profiles and existing supplementary records preserved"
+  },
+  {
+    "name": "Deduplication, overlap, sodium, inclusive threshold, ties",
+    "status": "PASS",
+    "evidence": "Synthetic boundary/tie/duplicate/ownership tests plus every real group"
+  },
+  {
+    "name": "Incompatible pools never silently maximised",
+    "status": "PASS",
+    "evidence": "Conflicting input pools produce unresolved subtotal, not maximum"
+  },
+  {
+    "name": "Shared selector default unchanged",
+    "status": "PASS",
+    "evidence": "Exact equality with HEAD implementation for all 19 current source pools"
+  },
+  {
+    "name": "Frozen manifest, site data, PM records and scientific gates unchanged",
+    "status": "PASS",
+    "evidence": "Tracked changes limited to source-food additions and four opt-in helper paths; no PM, gate, manifest or generated-site changes"
+  },
+  {
+    "name": "Source hashes fresh",
+    "status": "PASS",
+    "evidence": "354 source hashes match current candidate"
+  },
+  {
+    "name": "BRS1 saved analysis remains equivalent under reusable scorer",
+    "status": "PASS",
+    "evidence": "18 BRS1 files unchanged; every saved BRS1 score/group/rank reproduced"
+  },
+  {
+    "name": "No coqualifying choline/betaine supply-route overlap",
+    "status": "PASS",
+    "evidence": "No food qualifies for both at >=20; conversion is not treated as identity equivalence"
+  }
+]

@@ -4,20 +4,95 @@ kc_id: BRS4(KC2)
 parent_brs: BRS4
 summary: 'Maintain mitochondrial cofactor sufficiency to support enzyme function, electron transfer, and ATP-generating efficiency.'
 kc_evidence_review_status: canonical
+ikc_identity_version: constituent-v2
+legacy_ikc_references:
+  - ikc_id: BRS4(KC2)
+    meaning: Legacy whole-pool reference retained for historical PM records.
+individual_key_constraints:
+  - ikc_id: BRS4-KC2-KIT-5
+    title: Riboflavin
+    kc_atom_id: BRS4-KC2-KIT-5
+    substance_id: vitamin-b2
+    identity_status: resolved
+    registration_status: registered
+    substance_href: /docs/substances/nutrients/micronutrients/vitamins/vitamin-b2
+  - ikc_id: BRS4-KC2-KIT-6
+    title: Nicotinamide
+    kc_atom_id: BRS4-KC2-KIT-6
+    substance_id: nicotinamide
+    identity_status: resolved
+    registration_status: registered
+    substance_href: /docs/substances/nutrients/micronutrients/vitamins/vitamin-b3#nicotinamide
+  - ikc_id: BRS4-KC2-KIT-7
+    title: Nicotinic acid
+    kc_atom_id: BRS4-KC2-KIT-7
+    substance_id: nicotinic-acid
+    identity_status: resolved
+    registration_status: registered
+    substance_href: /docs/substances/nutrients/micronutrients/vitamins/vitamin-b3#nicotinic-acid
+  - ikc_id: BRS4-KC2-KIT-2
+    title: Iron
+    kc_atom_id: BRS4-KC2-KIT-2
+    substance_id: iron
+    identity_status: resolved
+    registration_status: registered
+    substance_href: /docs/substances/nutrients/micronutrients/minerals/trace/iron
+  - ikc_id: BRS4-KC2-KIT-3
+    title: Magnesium
+    kc_atom_id: BRS4-KC2-KIT-3
+    substance_id: magnesium
+    identity_status: resolved
+    registration_status: registered
+    substance_href: /docs/substances/nutrients/micronutrients/minerals/macro/magnesium
 kc_input_traceability:
-  - atom_id: BRS4-KC2-KIT-1
-    input: B vitamins
-    input_type: nutrient/compound class
-    biological_role: 'Dietary precursors for coenzymes used across energy-yielding metabolism, including redox transfer and conversion of macronutrient substrates into forms that mitochondrial pathways can use.'
+  - atom_id: BRS4-KC2-KIT-5
+    ikc_id: BRS4-KC2-KIT-5
+    input: Riboflavin
+    input_type: dietary precursor
+    substance_id: vitamin-b2
+    biological_role: Riboflavin supplies FMN for electron transfer from NADH in respiratory complex I.
     evidence_source:
       citation_keys:
-        - tardy_vitamins_2020
-        - pirinen_niacin_2020
-    evidence_limitation: 'The class-level review establishes biochemical roles and consequences of inadequate status, while the niacin study concerns adults with mitochondrial myopathy and pharmacological dosing. Neither establishes uniform limitation, one intake threshold or supplementation benefit for every B vitamin in the general population.'
+        - curtabbi_complex_i_fmn_2022
+    evidence_limitation: >-
+      The precursor route supports provision. A limiting intake threshold or benefit from extra intake has not
+      been established for this PM.
+    constraint_status: nutritionally-constrained
+    ikc_membership: admitted
+    claim_ceiling: dietary-provision
+  - atom_id: BRS4-KC2-KIT-6
+    ikc_id: BRS4-KC2-KIT-6
+    input: Nicotinamide
+    input_type: dietary precursor
+    substance_id: nicotinamide
+    biological_role: Nicotinamide enters NAD⁺ salvage through NAMPT and NMN.
+    evidence_source:
+      citation_keys:
+        - covarrubias_nad_2021
+    evidence_limitation: >-
+      The precursor route supports provision. A limiting intake threshold or benefit from extra intake has not
+      been established for this PM.
+    constraint_status: nutritionally-constrained
+    ikc_membership: admitted
+    claim_ceiling: dietary-provision
+  - atom_id: BRS4-KC2-KIT-7
+    ikc_id: BRS4-KC2-KIT-7
+    input: Nicotinic acid
+    input_type: dietary precursor
+    substance_id: nicotinic-acid
+    biological_role: Nicotinic acid enters NAD⁺ synthesis through NAPRT and the Preiss–Handler pathway.
+    evidence_source:
+      citation_keys:
+        - covarrubias_nad_2021
+    evidence_limitation: >-
+      The precursor route supports provision. A limiting intake threshold or benefit from extra intake has not
+      been established for this PM.
     constraint_status: nutritionally-constrained
     ikc_membership: admitted
     claim_ceiling: dietary-provision
   - atom_id: BRS4-KC2-KIT-2
+    ikc_id: BRS4-KC2-KIT-2
+    substance_id: iron
     input: Iron
     input_type: nutrient/substance
     biological_role: 'Essential mineral supporting oxygen transport and iron-containing electron-transfer proteins required for energy-yielding metabolism.'
@@ -29,6 +104,8 @@ kc_input_traceability:
     ikc_membership: admitted
     claim_ceiling: dietary-provision
   - atom_id: BRS4-KC2-KIT-3
+    ikc_id: BRS4-KC2-KIT-3
+    substance_id: magnesium
     input: Magnesium
     input_type: nutrient/substance
     biological_role: 'Essential mineral required for ATP-associated reactions and enzymes participating in energy-yielding metabolism.'
@@ -40,8 +117,14 @@ kc_input_traceability:
     ikc_membership: admitted
     claim_ceiling: dietary-provision
 kc_constituent_presentations:
-  - atom_id: BRS4-KC2-KIT-1
-    label: B vitamins
+  - atom_id: BRS4-KC2-KIT-5
+    label: Riboflavin
+    section: core-nutritional-requirements
+  - atom_id: BRS4-KC2-KIT-6
+    label: Nicotinamide
+    section: core-nutritional-requirements
+  - atom_id: BRS4-KC2-KIT-7
+    label: Nicotinic acid
     section: core-nutritional-requirements
   - atom_id: BRS4-KC2-KIT-2
     label: Iron
@@ -95,9 +178,11 @@ Maintain mitochondrial cofactor sufficiency so enzyme systems can sustain electr
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- B vitamins
-- Iron
-- Magnesium
+- [Riboflavin](/docs/substances/nutrients/micronutrients/vitamins/vitamin-b2)
+- [Nicotinamide](/docs/substances/nutrients/micronutrients/vitamins/vitamin-b3#nicotinamide)
+- [Nicotinic acid](/docs/substances/nutrients/micronutrients/vitamins/vitamin-b3#nicotinic-acid)
+- [Iron](/docs/substances/nutrients/micronutrients/minerals/trace/iron)
+- [Magnesium](/docs/substances/nutrients/micronutrients/minerals/macro/magnesium)
 
 </div>
 </div>
@@ -108,36 +193,36 @@ Maintain mitochondrial cofactor sufficiency so enzyme systems can sustain electr
 
 Mitochondrial energy metabolism depends on a distributed micronutrient resource: B-vitamin-derived coenzymes support substrate conversion and redox transfer, iron supports oxygen handling and electron-transfer proteins, and magnesium supports ATP-associated reactions ([Tardy et al., 2020](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)). Inadequate status can therefore constrain several bioenergetic processes at once. Human niacin-responsive mitochondrial myopathy provides condition-specific evidence that correcting a defined cofactor deficiency can restore NAD⁺ availability, but it does not generalise to universal supplementation benefit ([Pirinen et al., 2020](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)).
 
-- **Constraint and membership boundary:** B vitamins, iron and magnesium belong to the shared micronutrient-sufficiency domain; endogenous CoQ10 and creatine/phosphocreatine biology are distinct carrier or buffering systems, not members of this dietary cofactor resource ([Tardy et al., 2020](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020); [Crane, 2001](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)).
+- **Constraint and membership boundary:** Riboflavin, nicotinamide, nicotinic acid, iron and magnesium belong to the shared micronutrient-sufficiency domain; endogenous CoQ10 and creatine/phosphocreatine biology are distinct carrier or buffering systems, not members of this dietary cofactor resource ([Tardy et al., 2020](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020); [Crane, 2001](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)).
 - **Evidence and measurement boundary:** The main source is a narrative synthesis of biochemical and clinical evidence, while the niacin study addresses a defined mitochondrial disease and high-dose intervention; neither measures simultaneous limitation across every listed mechanism ([Tardy et al., 2020](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020); [Pirinen et al., 2020](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)).
 - **Biological relevance and provision limitation:** Adequate status prevents cofactor-dependent energy metabolism from being constrained, but biochemical necessity and deficiency correction do not show that extra intake improves mitochondrial performance or clinical outcomes in nutrient-replete people ([Tardy et al., 2020](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)).
 
-<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-kc-evidence-resource="b-vitamins">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-controls="b-vitamins-evidence-panel" aria-label="Expand B vitamins evidence details">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-</button>
-<div class="brs-evidence-title-wrap">
-<button type="button" class="brs-evidence-title-trigger brs-fm-hub-title" aria-expanded="false" aria-controls="b-vitamins-evidence-panel">B vitamins</button>
-</div>
-</div>
-<div id="b-vitamins-evidence-panel" class="brs-fm-hub-panel" hidden>
+<details id="brs4-kc2-kit-5">
+<summary>Riboflavin</summary>
 
-#### Biological Importance
+Riboflavin supplies FMN for electron transfer from NADH in respiratory complex I. [Supporting evidence](/docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022).
 
-B vitamins are dietary precursors for coenzymes used across energy-yielding metabolism, including substrate conversion and redox-transfer reactions. Their grouped role is coenzyme availability across several processes, not a claim that all B vitamins share one reaction, one deficiency threshold or one supplementation response.
+The precursor route supports provision. A limiting intake threshold or benefit from extra intake has not been established for this PM.
 
-<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
-<ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020">Tardy et al., 2020</a> — Reviewed B-vitamin roles in energy-yielding metabolism and manifestations associated with inadequate status, supporting a class-level coenzyme-sufficiency constraint while not establishing one response for every vitamin.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020">Pirinen et al., 2020</a> — Found that high-dose niacin restored systemic and muscle NAD⁺ deficiency in adults with mitochondrial myopathy and improved muscle performance; this is condition-specific deficiency correction, not general-population supplementation evidence.</p></li>
-</ul>
+</details>
 
-</div>
-</div>
-</div>
+<details id="brs4-kc2-kit-6">
+<summary>Nicotinamide</summary>
 
+Nicotinamide enters NAD⁺ salvage through NAMPT and NMN. [Supporting evidence](/docs/papers/BRAIN-Diet-References#covarrubias_nad_2021).
+
+The precursor route supports provision. A limiting intake threshold or benefit from extra intake has not been established for this PM.
+
+</details>
+
+<details id="brs4-kc2-kit-7">
+<summary>Nicotinic acid</summary>
+
+Nicotinic acid enters NAD⁺ synthesis through NAPRT and the Preiss–Handler pathway. [Supporting evidence](/docs/papers/BRAIN-Diet-References#covarrubias_nad_2021).
+
+The precursor route supports provision. A limiting intake threshold or benefit from extra intake has not been established for this PM.
+
+</details>
 
 <div class="brs-fm-hub-item" data-brs-fm-hub data-brs-kc-evidence-resource="iron">
 <div class="brs-fm-hub-shell">

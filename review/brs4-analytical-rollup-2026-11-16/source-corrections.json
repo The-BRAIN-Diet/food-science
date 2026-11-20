@@ -1,0 +1,407 @@
+[
+  {
+    "file": "docs/foods/anchovies.md",
+    "food_id": "anchovies",
+    "additions": [
+      {
+        "key": "arginine_usda_brs4_174183",
+        "label": "Arginine",
+        "substance_id": "arginine",
+        "value": 1.729,
+        "unit": "g",
+        "basis": "per 100 g edible portion",
+        "evidence_material": "Fish, anchovy, european, canned in oil, drained solids",
+        "preparation_state": "canned, drained",
+        "source_url": "https://fdc.nal.usda.gov/food-details/174183/nutrients",
+        "source_group": "USDA SR Legacy April 2018; exact food record",
+        "source_note": "Database-listed arginine; nutrient 1220, row 1837753, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.",
+        "fdc_id": 174183,
+        "food_nutrient_id": "1837753",
+        "source_derivation_id": null,
+        "source_data_points": 0,
+        "verified": true,
+        "evidence_status": "supported",
+        "rank_eligible": true,
+        "comparison_group": "edible::source-specific"
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/beef.md",
+    "food_id": "beef",
+    "additions": [
+      {
+        "key": "arginine_usda_brs4_171796",
+        "label": "Arginine",
+        "substance_id": "arginine",
+        "value": 1.21,
+        "unit": "g",
+        "basis": "per 100 g edible portion",
+        "evidence_material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+        "preparation_state": "raw",
+        "source_url": "https://fdc.nal.usda.gov/food-details/171796/nutrients",
+        "source_group": "USDA SR Legacy April 2018; exact food record",
+        "source_note": "Database-listed arginine; nutrient 1220, row 1641413, derivation ID 3, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.",
+        "fdc_id": 171796,
+        "food_nutrient_id": "1641413",
+        "source_derivation_id": "3",
+        "source_data_points": 0,
+        "verified": true,
+        "evidence_status": "supported",
+        "rank_eligible": true,
+        "comparison_group": "edible::source-specific"
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/chicken.md",
+    "food_id": "chicken",
+    "additions": [
+      {
+        "key": "arginine_usda_brs4_171447",
+        "label": "Arginine",
+        "substance_id": "arginine",
+        "value": 1.169,
+        "unit": "g",
+        "basis": "per 100 g edible portion",
+        "evidence_material": "Chicken, broilers or fryers, meat and skin, raw",
+        "preparation_state": "raw",
+        "source_url": "https://fdc.nal.usda.gov/food-details/171447/nutrients",
+        "source_group": "USDA SR Legacy April 2018; exact food record",
+        "source_note": "Database-listed arginine; nutrient 1220, row 1610580, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.",
+        "fdc_id": 171447,
+        "food_nutrient_id": "1610580",
+        "source_derivation_id": null,
+        "source_data_points": 0,
+        "verified": true,
+        "evidence_status": "supported",
+        "rank_eligible": true,
+        "comparison_group": "edible::source-specific"
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/chicken-liver.md",
+    "food_id": "chicken-liver",
+    "additions": [
+      {
+        "key": "arginine_usda_brs4_171060",
+        "label": "Arginine",
+        "substance_id": "arginine",
+        "value": 1.093,
+        "unit": "g",
+        "basis": "per 100 g edible portion",
+        "evidence_material": "Chicken, liver, all classes, raw",
+        "preparation_state": "raw",
+        "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+        "source_group": "USDA SR Legacy April 2018; exact food record",
+        "source_note": "Database-listed arginine; nutrient 1220, row 1576610, derivation ID 1, data points 1. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.",
+        "fdc_id": 171060,
+        "food_nutrient_id": "1576610",
+        "source_derivation_id": "1",
+        "source_data_points": 1,
+        "verified": true,
+        "evidence_status": "supported",
+        "rank_eligible": true,
+        "comparison_group": "edible::source-specific"
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/cod.md",
+    "food_id": "cod",
+    "additions": [
+      {
+        "key": "arginine_usda_brs4_171955",
+        "label": "Arginine",
+        "substance_id": "arginine",
+        "value": 1.066,
+        "unit": "g",
+        "basis": "per 100 g edible portion",
+        "evidence_material": "Fish, cod, Atlantic, raw",
+        "preparation_state": "raw",
+        "source_url": "https://fdc.nal.usda.gov/food-details/171955/nutrients",
+        "source_group": "USDA SR Legacy April 2018; exact food record",
+        "source_note": "Database-listed arginine; nutrient 1220, row 1653449, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.",
+        "fdc_id": 171955,
+        "food_nutrient_id": "1653449",
+        "source_derivation_id": null,
+        "source_data_points": 0,
+        "verified": true,
+        "evidence_status": "supported",
+        "rank_eligible": true,
+        "comparison_group": "edible::source-specific"
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/herring.md",
+    "food_id": "herring",
+    "additions": [
+      {
+        "key": "arginine_usda_brs4_175116",
+        "label": "Arginine",
+        "substance_id": "arginine",
+        "value": 1.075,
+        "unit": "g",
+        "basis": "per 100 g edible portion",
+        "evidence_material": "Fish, herring, Atlantic, raw",
+        "preparation_state": "raw",
+        "source_url": "https://fdc.nal.usda.gov/food-details/175116/nutrients",
+        "source_group": "USDA SR Legacy April 2018; exact food record",
+        "source_note": "Database-listed arginine; nutrient 1220, row 1913730, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.",
+        "fdc_id": 175116,
+        "food_nutrient_id": "1913730",
+        "source_derivation_id": null,
+        "source_data_points": 0,
+        "verified": true,
+        "evidence_status": "supported",
+        "rank_eligible": true,
+        "comparison_group": "edible::source-specific"
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/lamb.md",
+    "food_id": "lamb",
+    "additions": [
+      {
+        "key": "arginine_usda_brs4_174370",
+        "label": "Arginine",
+        "substance_id": "arginine",
+        "value": 0.984,
+        "unit": "g",
+        "basis": "per 100 g edible portion",
+        "evidence_material": "Lamb, ground, raw",
+        "preparation_state": "raw",
+        "source_url": "https://fdc.nal.usda.gov/food-details/174370/nutrients",
+        "source_group": "USDA SR Legacy April 2018; exact food record",
+        "source_note": "Database-listed arginine; nutrient 1220, row 1852538, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.",
+        "fdc_id": 174370,
+        "food_nutrient_id": "1852538",
+        "source_derivation_id": null,
+        "source_data_points": 0,
+        "verified": true,
+        "evidence_status": "supported",
+        "rank_eligible": true,
+        "comparison_group": "edible::source-specific"
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/liver.md",
+    "food_id": "liver",
+    "additions": [
+      {
+        "key": "arginine_usda_brs4_169451",
+        "label": "Arginine",
+        "substance_id": "arginine",
+        "value": 1.241,
+        "unit": "g",
+        "basis": "per 100 g edible portion",
+        "evidence_material": "Beef, variety meats and by-products, liver, raw",
+        "preparation_state": "raw",
+        "source_url": "https://fdc.nal.usda.gov/food-details/169451/nutrients",
+        "source_group": "USDA SR Legacy April 2018; exact food record",
+        "source_note": "Database-listed arginine; nutrient 1220, row 1443246, derivation ID 1, data points 1. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.",
+        "fdc_id": 169451,
+        "food_nutrient_id": "1443246",
+        "source_derivation_id": "1",
+        "source_data_points": 1,
+        "verified": true,
+        "evidence_status": "supported",
+        "rank_eligible": true,
+        "comparison_group": "edible::source-specific"
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/mackerel.md",
+    "food_id": "mackerel",
+    "additions": [
+      {
+        "key": "arginine_usda_brs4_175119",
+        "label": "Arginine",
+        "substance_id": "arginine",
+        "value": 1.113,
+        "unit": "g",
+        "basis": "per 100 g edible portion",
+        "evidence_material": "Fish, mackerel, Atlantic, raw",
+        "preparation_state": "raw",
+        "source_url": "https://fdc.nal.usda.gov/food-details/175119/nutrients",
+        "source_group": "USDA SR Legacy April 2018; exact food record",
+        "source_note": "Database-listed arginine; nutrient 1220, row 1913969, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.",
+        "fdc_id": 175119,
+        "food_nutrient_id": "1913969",
+        "source_derivation_id": null,
+        "source_data_points": 0,
+        "verified": true,
+        "evidence_status": "supported",
+        "rank_eligible": true,
+        "comparison_group": "edible::source-specific"
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/pork.md",
+    "food_id": "pork",
+    "additions": [
+      {
+        "key": "arginine_usda_brs4_167818",
+        "label": "Arginine",
+        "substance_id": "arginine",
+        "value": 1.245,
+        "unit": "g",
+        "basis": "per 100 g edible portion",
+        "evidence_material": "Pork, fresh, loin, whole, separable lean and fat, raw",
+        "preparation_state": "raw",
+        "source_url": "https://fdc.nal.usda.gov/food-details/167818/nutrients",
+        "source_group": "USDA SR Legacy April 2018; exact food record",
+        "source_note": "Database-listed arginine; nutrient 1220, row 1307037, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.",
+        "fdc_id": 167818,
+        "food_nutrient_id": "1307037",
+        "source_derivation_id": null,
+        "source_data_points": 0,
+        "verified": true,
+        "evidence_status": "supported",
+        "rank_eligible": true,
+        "comparison_group": "edible::source-specific"
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/salmon.md",
+    "food_id": "salmon",
+    "additions": [
+      {
+        "key": "arginine_usda_brs4_175167",
+        "label": "Arginine",
+        "substance_id": "arginine",
+        "value": 1.221,
+        "unit": "g",
+        "basis": "per 100 g edible portion",
+        "evidence_material": "Fish, salmon, Atlantic, farmed, raw",
+        "preparation_state": "raw",
+        "source_url": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
+        "source_group": "USDA SR Legacy April 2018; exact food record",
+        "source_note": "Database-listed arginine; nutrient 1220, row 1918063, derivation ID 1, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.",
+        "fdc_id": 175167,
+        "food_nutrient_id": "1918063",
+        "source_derivation_id": "1",
+        "source_data_points": 0,
+        "verified": true,
+        "evidence_status": "supported",
+        "rank_eligible": true,
+        "comparison_group": "edible::source-specific"
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/sardines.md",
+    "food_id": "sardines",
+    "additions": [
+      {
+        "key": "arginine_usda_brs4_175139",
+        "label": "Arginine",
+        "substance_id": "arginine",
+        "value": 1.473,
+        "unit": "g",
+        "basis": "per 100 g edible portion",
+        "evidence_material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+        "preparation_state": "canned, drained",
+        "source_url": "https://fdc.nal.usda.gov/food-details/175139/nutrients",
+        "source_group": "USDA SR Legacy April 2018; exact food record",
+        "source_note": "Database-listed arginine; nutrient 1220, row 1915799, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.",
+        "fdc_id": 175139,
+        "food_nutrient_id": "1915799",
+        "source_derivation_id": null,
+        "source_data_points": 0,
+        "verified": true,
+        "evidence_status": "supported",
+        "rank_eligible": true,
+        "comparison_group": "edible::source-specific"
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/tuna.md",
+    "food_id": "tuna",
+    "additions": [
+      {
+        "key": "arginine_usda_brs4_173706",
+        "label": "Arginine",
+        "substance_id": "arginine",
+        "value": 1.396,
+        "unit": "g",
+        "basis": "per 100 g edible portion",
+        "evidence_material": "Fish, tuna, fresh, bluefin, raw",
+        "preparation_state": "raw",
+        "source_url": "https://fdc.nal.usda.gov/food-details/173706/nutrients",
+        "source_group": "USDA SR Legacy April 2018; exact food record",
+        "source_note": "Database-listed arginine; nutrient 1220, row 1799988, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.",
+        "fdc_id": 173706,
+        "food_nutrient_id": "1799988",
+        "source_derivation_id": null,
+        "source_data_points": 0,
+        "verified": true,
+        "evidence_status": "supported",
+        "rank_eligible": true,
+        "comparison_group": "edible::source-specific"
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/turkey.md",
+    "food_id": "turkey",
+    "additions": [
+      {
+        "key": "arginine_usda_brs4_171480",
+        "label": "Arginine",
+        "substance_id": "arginine",
+        "value": 1.282,
+        "unit": "g",
+        "basis": "per 100 g edible portion",
+        "evidence_material": "Turkey, whole, meat only, raw",
+        "preparation_state": "raw",
+        "source_url": "https://fdc.nal.usda.gov/food-details/171480/nutrients",
+        "source_group": "USDA SR Legacy April 2018; exact food record",
+        "source_note": "Database-listed arginine; nutrient 1220, row 1613416, derivation ID 54, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.",
+        "fdc_id": 171480,
+        "food_nutrient_id": "1613416",
+        "source_derivation_id": "54",
+        "source_data_points": 0,
+        "verified": true,
+        "evidence_status": "supported",
+        "rank_eligible": true,
+        "comparison_group": "edible::source-specific"
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/egg-yolks.md",
+    "food_id": "egg-yolks",
+    "additions": [
+      {
+        "key": "arginine_usda_brs4_172184",
+        "label": "Arginine",
+        "substance_id": "arginine",
+        "value": 1.099,
+        "unit": "g",
+        "basis": "per 100 g edible portion",
+        "evidence_material": "Egg, yolk, raw, fresh",
+        "preparation_state": "raw",
+        "source_url": "https://fdc.nal.usda.gov/food-details/172184/nutrients",
+        "source_group": "USDA SR Legacy April 2018; exact food record",
+        "source_note": "Database-listed arginine; nutrient 1220, row 1674730, derivation ID 1, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.",
+        "fdc_id": 172184,
+        "food_nutrient_id": "1674730",
+        "source_derivation_id": "1",
+        "source_data_points": 0,
+        "verified": true,
+        "evidence_status": "supported",
+        "rank_eligible": true,
+        "comparison_group": "edible::source-specific"
+      }
+    ]
+  }
+]

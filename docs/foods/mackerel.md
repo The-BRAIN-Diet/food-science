@@ -69,6 +69,63 @@ main_image: /img/foods/mackerel/mackerel_medium.webp
 legacy_list_image: /img/foods/mackerel/mackerel_thumb.webp
 legacy_main_image: /img/foods/mackerel/mackerel_medium.webp
 nutrition_supplementary_sources:
+  - key: arginine_usda_brs4_175119
+    label: Arginine
+    substance_id: arginine
+    value: 1.113
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, mackerel, Atlantic, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/175119/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed arginine; nutrient 1220, row 1913969, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 175119
+    food_nutrient_id: '1913969'
+    source_derivation_id: null
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+  - key: glycine_usda_brs2_175119
+    label: Glycine
+    substance_id: glycine
+    value: 0.893
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, mackerel, Atlantic, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/175119/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed glycine; nutrient 1225, food-nutrient row 1913996, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, tissue delivery or clinical effect inferred. Source archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 175119
+    food_nutrient_id: '1913996'
+    source_derivation_id: null
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+  - key: serine_usda_brs2_175119
+    label: Serine
+    substance_id: serine
+    value: 0.759
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, mackerel, Atlantic, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/175119/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed serine; nutrient 1227, food-nutrient row 1913972, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, tissue delivery or clinical effect inferred. Source archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 175119
+    food_nutrient_id: '1913972'
+    source_derivation_id: null
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
   - key: coq10_qual
     label: CoQ10
     status: Present — quantity not established
@@ -189,6 +246,77 @@ substance_relationships:
       https://www.jstage.jst.go.jp/article/suisan1932/51/9/51_9_1461/_article/-char/en
     source_reference: '#food-source-4'
 substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-175119
+    material: Fish, mackerel, Atlantic, raw
+    preparation: raw
+    food_group: animal
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 175119
+      source_url: https://fdc.nal.usda.gov/food-details/175119/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 18.6
+    protein_source_row_id: '1913973'
+    amino_acids:
+      histidine:
+        value: 0.548
+        source_row_id: '1913970'
+        nutrient_id: '1221'
+        data_points: 0
+        derivation_id: null
+      isoleucine:
+        value: 0.857
+        source_row_id: '1913964'
+        nutrient_id: '1212'
+        data_points: 0
+        derivation_id: null
+      leucine:
+        value: 1.512
+        source_row_id: '1913965'
+        nutrient_id: '1213'
+        data_points: 0
+        derivation_id: null
+      lysine:
+        value: 1.708
+        source_row_id: '1913966'
+        nutrient_id: '1214'
+        data_points: 0
+        derivation_id: null
+      methionine:
+        value: 0.551
+        source_row_id: '1913991'
+        nutrient_id: '1215'
+        data_points: 0
+        derivation_id: null
+      phenylalanine:
+        value: 0.726
+        source_row_id: '1913992'
+        nutrient_id: '1217'
+        data_points: 0
+        derivation_id: null
+      threonine:
+        value: 0.815
+        source_row_id: '1913990'
+        nutrient_id: '1211'
+        data_points: 0
+        derivation_id: null
+      tryptophan:
+        value: 0.208
+        source_row_id: '1913989'
+        nutrient_id: '1210'
+        data_points: 0
+        derivation_id: null
+      valine:
+        value: 0.958
+        source_row_id: '1913968'
+        nutrient_id: '1219'
+        data_points: 0
+        derivation_id: null
+    limitations: Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred.
 ---
 ## Overview
 

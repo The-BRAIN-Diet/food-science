@@ -15,6 +15,7 @@ public_display:
 list_image: /img/foods/pork/pork_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
+  betaine_mg: 3.2
   tyrosine_g: 0.676
   vitamin_d_ug: 0.5
   vitamin_a_rae_ug: 2
@@ -113,6 +114,63 @@ main_image: /img/foods/pork/pork_medium.webp
 legacy_list_image: /img/foods/pork/pork_thumb.webp
 legacy_main_image: /img/foods/pork/pork_medium.webp
 nutrition_supplementary_sources:
+  - key: arginine_usda_brs4_167818
+    label: Arginine
+    substance_id: arginine
+    value: 1.245
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Pork, fresh, loin, whole, separable lean and fat, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/167818/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed arginine; nutrient 1220, row 1307037, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 167818
+    food_nutrient_id: '1307037'
+    source_derivation_id: null
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+  - key: glycine_usda_brs2_167818
+    label: Glycine
+    substance_id: glycine
+    value: 1.019
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Pork, fresh, loin, whole, separable lean and fat, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/167818/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed glycine; nutrient 1225, food-nutrient row 1307067, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, tissue delivery or clinical effect inferred. Source archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 167818
+    food_nutrient_id: '1307067'
+    source_derivation_id: null
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+  - key: serine_usda_brs2_167818
+    label: Serine
+    substance_id: serine
+    value: 0.815
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Pork, fresh, loin, whole, separable lean and fat, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/167818/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed serine; nutrient 1227, food-nutrient row 1307040, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, tissue delivery or clinical effect inferred. Source archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 167818
+    food_nutrient_id: '1307040'
+    source_derivation_id: null
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
   - key: creatine_qual
     label: Creatine
     status: Present — quantity not established
@@ -132,6 +190,77 @@ nutrition_supplementary_sources:
     notes: the named meat or fish tissue
     source_reference: '#food-source-3'
 substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-167818
+    material: Pork, fresh, loin, whole, separable lean and fat, raw
+    preparation: raw
+    food_group: animal
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 167818
+      source_url: https://fdc.nal.usda.gov/food-details/167818/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 19.74
+    protein_source_row_id: '1307069'
+    amino_acids:
+      histidine:
+        value: 0.77
+        source_row_id: '1307038'
+        nutrient_id: '1221'
+        data_points: 0
+        derivation_id: null
+      isoleucine:
+        value: 0.91
+        source_row_id: '1307032'
+        nutrient_id: '1212'
+        data_points: 0
+        derivation_id: null
+      leucine:
+        value: 1.572
+        source_row_id: '1307033'
+        nutrient_id: '1213'
+        data_points: 0
+        derivation_id: null
+      lysine:
+        value: 1.766
+        source_row_id: '1307034'
+        nutrient_id: '1214'
+        data_points: 0
+        derivation_id: null
+      methionine:
+        value: 0.514
+        source_row_id: '1307062'
+        nutrient_id: '1215'
+        data_points: 0
+        derivation_id: null
+      phenylalanine:
+        value: 0.785
+        source_row_id: '1307063'
+        nutrient_id: '1217'
+        data_points: 0
+        derivation_id: null
+      threonine:
+        value: 0.891
+        source_row_id: '1307061'
+        nutrient_id: '1211'
+        data_points: 0
+        derivation_id: null
+      tryptophan:
+        value: 0.244
+        source_row_id: '1307060'
+        nutrient_id: '1210'
+        data_points: 0
+        derivation_id: null
+      valine:
+        value: 1.064
+        source_row_id: '1307036'
+        nutrient_id: '1219'
+        data_points: 0
+        derivation_id: null
+    limitations: Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred.
 ---
 ## Overview
 

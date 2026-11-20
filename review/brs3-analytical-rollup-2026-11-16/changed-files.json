@@ -1,0 +1,36 @@
+{
+  "branch": "review/pm8-caffeine-neuroeshot-2026-11-16",
+  "commit": "d67c181ff6ebec80873e4da581af759e8e98199c",
+  "source_corrections": [],
+  "modified_analysis_code": [
+    {
+      "path": "review/analytical-rollup/score.mjs",
+      "change": "Only scope guard expanded from BRS1/BRS2 to BRS1/BRS2/BRS3; equations unchanged"
+    }
+  ],
+  "new_analysis_artifacts": [
+    "review/brs3-analytical-rollup-2026-11-16/analysis.json",
+    "review/brs3-analytical-rollup-2026-11-16/completeness.json",
+    "review/brs3-analytical-rollup-2026-11-16/components.json",
+    "review/brs3-analytical-rollup-2026-11-16/composition-intake.json",
+    "review/brs3-analytical-rollup-2026-11-16/config.v1.json",
+    "review/brs3-analytical-rollup-2026-11-16/intake-map.json",
+    "review/brs3-analytical-rollup-2026-11-16/intake.json",
+    "review/brs3-analytical-rollup-2026-11-16/nrf2-test.txt",
+    "review/brs3-analytical-rollup-2026-11-16/publication-tests.txt",
+    "review/brs3-analytical-rollup-2026-11-16/report.md",
+    "review/brs3-analytical-rollup-2026-11-16/report.mjs",
+    "review/brs3-analytical-rollup-2026-11-16/run.mjs",
+    "review/brs3-analytical-rollup-2026-11-16/snapshot-comparison.json",
+    "review/brs3-analytical-rollup-2026-11-16/source-corrections.json",
+    "review/brs3-analytical-rollup-2026-11-16/usda-exact-source-extract.json",
+    "review/brs3-analytical-rollup-2026-11-16/validate.mjs",
+    "review/brs3-analytical-rollup-2026-11-16/validation.json"
+  ],
+  "documentation_appends": [
+    "review/meat-fish-amino-acid-reference-2026-11-16/holding-page.md",
+    "CURRENT-HANDOFF.md"
+  ],
+  "inherited_work_preserved": "All intake scientific/source hashes and 33 BRS1/BRS2 artifacts checked; prior uncommitted food/helper work not introduced by this task",
+  "working_tree": " M CURRENT-HANDOFF.md\n M docs/foods/anchovies.md\n M docs/foods/beef.md\n M docs/foods/chicken-liver.md\n M docs/foods/chicken.md\n M docs/foods/cod.md\n M docs/foods/egg-yolks.md\n M docs/foods/herring.md\n M docs/foods/lamb.md\n M docs/foods/liver.md\n M docs/foods/mackerel.md\n M docs/foods/pork.md\n M docs/foods/salmon.md\n M docs/foods/sardines.md\n M docs/foods/tuna.md\n M docs/foods/turkey.md\n M scripts/lib/input-substance-food.mjs\n M src/data/rankedFoodSources.mjs\n M src/lib/aggregateFoodComposition.mjs\n M src/lib/aminoAcidProfileSources.mjs\n?? review/analytical-rollup/\n?? review/brs1-analytical-rollup-2026-11-16/\n?? review/brs2-analytical-rollup-2026-11-16/\n?? review/brs3-analytical-rollup-2026-11-16/\n?? review/meat-fish-amino-acid-reference-2026-11-16/\n"
+}

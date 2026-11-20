@@ -1,9 +1,9 @@
 import {validateAminoAcidProfile,EAA_IDS} from './aggregateFoodComposition.mjs';
 /** Extract explicitly reported constituents, never infer them from total protein or an aggregate sum. */
-export function resolveAminoAcidProfileSources(food, needed, record) {
+export function resolveAminoAcidProfileSources(food, needed, record, {analysisCompositionOnly = false} = {}) {
  if(food.retired_identity || food.composition_status==='withdrawn')return [];
  return (food.nutrition_amino_acid_profiles||[]).flatMap(profile=>{
-  if(profile.verified===false || profile.rank_eligible===false || ['internal-only','excluded-error','substance-only'].includes(profile.public_display) || validateAminoAcidProfile(profile).length)return [];
+  if(profile.verified===false || profile.rank_eligible===false || ['internal-only','excluded-error','substance-only'].includes(profile.public_display) || validateAminoAcidProfile(profile, {requirePortion: !analysisCompositionOnly}).length)return [];
   return EAA_IDS.filter(id=>needed.has(id)).flatMap(id=>{
    const measurement=profile.amino_acids[id];
    const reviews=(food.nutrition_value_reviews||[]).filter(r=>r.correction_status!=='resolved'||r.exclude_from_food_lists);

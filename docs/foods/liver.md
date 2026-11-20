@@ -18,6 +18,7 @@ public_display:
   cystine_mg: internal-only
 list_image: /img/foods/liver/liver_thumb.webp
 nutrition_per_100g:
+  betaine_mg: 4.4
   tyrosine_g: 0.807
   vitamin_a_rae_ug: 4968
   vitamin_c_mg: 1.3
@@ -68,6 +69,63 @@ main_image: /img/foods/liver/liver_medium.webp
 legacy_list_image: /img/foods/liver/liver_thumb.webp
 legacy_main_image: /img/foods/liver/liver_medium.webp
 nutrition_supplementary_sources:
+  - key: arginine_usda_brs4_169451
+    label: Arginine
+    substance_id: arginine
+    value: 1.241
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Beef, variety meats and by-products, liver, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/169451/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed arginine; nutrient 1220, row 1443246, derivation ID 1, data points 1. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 169451
+    food_nutrient_id: '1443246'
+    source_derivation_id: '1'
+    source_data_points: 1
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+  - key: glycine_usda_brs2_169451
+    label: Glycine
+    substance_id: glycine
+    value: 1.164
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Beef, variety meats and by-products, liver, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/169451/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed glycine; nutrient 1225, food-nutrient row 1443233, derivation ID 1, data points 1. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, tissue delivery or clinical effect inferred. Source archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 169451
+    food_nutrient_id: '1443233'
+    source_derivation_id: '1'
+    source_data_points: 1
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+  - key: serine_usda_brs2_169451
+    label: Serine
+    substance_id: serine
+    value: 0.905
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Beef, variety meats and by-products, liver, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/169451/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed serine; nutrient 1227, food-nutrient row 1443249, derivation ID 1, data points 1. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, tissue delivery or clinical effect inferred. Source archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 169451
+    food_nutrient_id: '1443249'
+    source_derivation_id: '1'
+    source_data_points: 1
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
   - key: coq10_qual
     label: CoQ10
     status: Present — quantity not established
@@ -224,6 +282,77 @@ substance_relationships:
     source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/
     source_reference: '#food-source-3'
 substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-169451
+    material: Beef, variety meats and by-products, liver, raw
+    preparation: raw
+    food_group: animal
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 169451
+      source_url: https://fdc.nal.usda.gov/food-details/169451/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 20.36
+    protein_source_row_id: '1443305'
+    amino_acids:
+      histidine:
+        value: 0.629
+        source_row_id: '1443247'
+        nutrient_id: '1221'
+        data_points: 1
+        derivation_id: '1'
+      isoleucine:
+        value: 0.967
+        source_row_id: '1443240'
+        nutrient_id: '1212'
+        data_points: 1
+        derivation_id: '1'
+      leucine:
+        value: 1.91
+        source_row_id: '1443241'
+        nutrient_id: '1213'
+        data_points: 1
+        derivation_id: '1'
+      lysine:
+        value: 1.607
+        source_row_id: '1443242'
+        nutrient_id: '1214'
+        data_points: 1
+        derivation_id: '1'
+      methionine:
+        value: 0.543
+        source_row_id: '1443228'
+        nutrient_id: '1215'
+        data_points: 1
+        derivation_id: '1'
+      phenylalanine:
+        value: 1.084
+        source_row_id: '1443229'
+        nutrient_id: '1217'
+        data_points: 1
+        derivation_id: '1'
+      threonine:
+        value: 0.869
+        source_row_id: '1443227'
+        nutrient_id: '1211'
+        data_points: 1
+        derivation_id: '1'
+      tryptophan:
+        value: 0.263
+        source_row_id: '1443226'
+        nutrient_id: '1210'
+        data_points: 1
+        derivation_id: '1'
+      valine:
+        value: 1.26
+        source_row_id: '1443245'
+        nutrient_id: '1219'
+        data_points: 1
+        derivation_id: '1'
+    limitations: Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred.
 ---
 ## Overview
 
@@ -261,6 +390,20 @@ Food-composition values are representative, not fixed. Variety, preparation and 
 - Important for vegan/vegetarian nutrient gap closure, though not suitable for vegetarians
 - Organ meats (heart, liver), oily fish (sardines, mackerel), beef are top sources for CoQ10
 
+### Cooked liver: a 150 g comparison
+
+Cooking can increase nutrient concentrations per 100 g through water loss, but retention and cooking method also matter. These are separate USDA cooked-food records, not a raw-to-cooked conversion or a recommended portion. Calf liver is not represented by the beef record.
+
+| Nutrient | 150 g chicken liver, pan-fried | 150 g beef liver, braised | Adult reference guidance | Interpretation |
+| --- | --- | --- | --- | --- |
+| Retinol (preformed vitamin A) | Approximately **6,440 µg** | Approximately **14,140 µg** | EFSA adult upper level: **3,000 µg RE/day** from preformed vitamin A [6] | Both portions exceed the daily upper level. This does not by itself establish acute toxicity, but neither portion can be certified safe weekly by averaging across seven days. |
+| Copper | Approximately **0.80 mg** | Approximately **21.4 mg** | EFSA acceptable daily intake: **0.07 mg/kg body weight/day** (approximately 4.9 mg/day for a 70 kg adult) [7] | Beef liver is particularly concentrated. This daily guidance is not a weekly allowance or a single-meal toxicity threshold. |
+| Purines | Not established for this exact preparation | Not established for this exact preparation | No general adult weekly safe limit established by the cited sources | Do not assign a “safe” verdict from an assumed 400 mg/day allowance. Gout guidance advises avoiding or limiting organ meats. [8] |
+
+**Basis:** Amounts are calculated as the USDA per-100-g values × 1.5: chicken retinol 4,293 µg and copper 0.535 mg; beef retinol 9,428 µg and copper 14.283 mg. These are retinol values, not total vitamin A RAE. Composition varies between sources and preparations. [5]
+
+**Frequency and precautions:** EFSA's 2024 assessment associates liver/offal consumption once a month or less with a low likelihood of exceeding the vitamin A upper level in European populations; it does not exempt chicken liver. NHS advice uses a different, no-more-than-weekly limit. Neither establishes that this specific 150 g portion is safe for everyone. Avoid liver and liver products during pregnancy or when planning pregnancy. Consider other dietary and supplemental preformed vitamin A. [6]
+
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
@@ -288,3 +431,11 @@ This food provides a complete essential amino acid profile typical of animal pro
 <span id="food-source-4" />
 
 [4] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/169451/nutrients)
+
+[5] USDA (2015). Standard Reference Release 28: [Poultry Products, NDB 05661, chicken liver, pan-fried](https://www.ars.usda.gov/ARSUserFiles/80400535/Data/SR/SR28/reports/sr28fg05.pdf); [Beef Products, NDB 13326, beef liver, braised](https://www.ars.usda.gov/ARSUserFiles/80400535/Data/SR/SR28/reports/sr28fg13.pdf). Values per 100 g edible cooked food; 150 g amounts calculated above.
+
+[6] EFSA (2024). [Scientific opinion on the tolerable upper intake level for preformed vitamin A and β-carotene](https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2024.8814), conclusions and section 3.8.1. Compare [NHS vitamin A guidance](/docs/papers/BRAIN-Diet-References#nhs_vitamin_a_2020).
+
+[7] EFSA (2023). [Re-evaluation of the existing health-based guidance values for copper and exposure assessment from all sources](https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2023.7728).
+
+[8] West Suffolk NHS Foundation Trust. [Gout and diet](https://www.wsh.nhs.uk/CMS-Documents/Patient-leaflets/NutritionandDieteticService/6753-1-Gout-and-diet.pdf). Organ-meat advice concerns gout; it is not a universal purine safe-intake limit.

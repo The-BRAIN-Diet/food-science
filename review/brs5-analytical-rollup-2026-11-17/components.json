@@ -1,0 +1,3378 @@
+[
+  {
+    "row_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1|docs/foods/walnuts.md#nutrition_per_100g/linoleic_g",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM7",
+    "relationship_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1",
+    "admission_basis": "explicit assessment",
+    "accounting": "A",
+    "substance_id": "linoleic-acid",
+    "food_id": "walnuts",
+    "food_name": "Walnuts",
+    "rsp": 100,
+    "comparison_group": "edible-mass|linoleic-acid|per 100 g edible portion",
+    "material": "Nuts, walnuts, english",
+    "preparation": null,
+    "amount": 38.093,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "walnuts::linoleic-acid::nuts walnuts english::unspecified",
+    "source_record": "docs/foods/walnuts.md#nutrition_per_100g/linoleic_g",
+    "food_record": "docs/foods/walnuts.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Nuts, walnuts, english",
+        "fdc_id": 170187,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15",
+        "limitations": "Unqualified 18:3 on this record is documented in FCIR-004."
+      },
+      "value": 38.093,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Nuts, walnuts, english",
+      "preparation": null,
+      "record": "docs/foods/walnuts.md#nutrition_per_100g/linoleic_g",
+      "source_record": "docs/foods/walnuts.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/walnuts.md#nutrition_per_100g/linoleic_g",
+      "rank_eligible": true,
+      "comparison_group": "edible::unspecified",
+      "low": 38093,
+      "high": 38093,
+      "display": "38.093 g"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/walnuts.md#substance_relationships/Linoleic%20Acid",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170187/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports linoleic acid in Nuts, walnuts, english."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 1
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 1
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1|docs/foods/tahini.md#nutrition_per_100g/linoleic_g",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM7",
+    "relationship_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1",
+    "admission_basis": "explicit assessment",
+    "accounting": "A",
+    "substance_id": "linoleic-acid",
+    "food_id": "tahini",
+    "food_name": "Tahini",
+    "rsp": 60.72769275194918,
+    "comparison_group": "edible-mass|linoleic-acid|per 100 g edible portion",
+    "material": "Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)",
+    "preparation": "roasted",
+    "amount": 23.133,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "tahini::linoleic-acid::seeds sesame butter tahini from roasted and toasted kernels most common type::roasted",
+    "source_record": "docs/foods/tahini.md#nutrition_per_100g/linoleic_g",
+    "food_record": "docs/foods/tahini.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)",
+        "fdc_id": 170189,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-09-05"
+      },
+      "value": 23.133,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)",
+      "preparation": "roasted",
+      "record": "docs/foods/tahini.md#nutrition_per_100g/linoleic_g",
+      "source_record": "docs/foods/tahini.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/tahini.md#nutrition_per_100g/linoleic_g",
+      "rank_eligible": true,
+      "comparison_group": "edible::roasted",
+      "low": 23133,
+      "high": 23133,
+      "display": "23.133 g"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/tahini.md#substance_relationships/Linoleic%20Acid",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170189/nutrients",
+        "source_reference": "#food-source-9",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports linoleic acid in Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 0.6072769275194918
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 0.6072769275194918
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1|docs/foods/sunflower-seeds.md#nutrition_per_100g/linoleic_g",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM7",
+    "relationship_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1",
+    "admission_basis": "explicit assessment",
+    "accounting": "A",
+    "substance_id": "linoleic-acid",
+    "food_id": "sunflower-seeds",
+    "food_name": "Sunflower Seeds",
+    "rsp": 60.50980495104087,
+    "comparison_group": "edible-mass|linoleic-acid|per 100 g edible portion",
+    "material": "Seeds, sunflower seed kernels, dried",
+    "preparation": "dried",
+    "amount": 23.05,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "sunflower-seeds::linoleic-acid::seeds sunflower seed kernels dried::dried",
+    "source_record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/linoleic_g",
+    "food_record": "docs/foods/sunflower-seeds.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Seeds, sunflower seed kernels, dried",
+        "fdc_id": 170562,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 23.05,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Seeds, sunflower seed kernels, dried",
+      "preparation": "dried",
+      "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/linoleic_g",
+      "source_record": "docs/foods/sunflower-seeds.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/sunflower-seeds.md#nutrition_per_100g/linoleic_g",
+      "rank_eligible": true,
+      "comparison_group": "edible::dried",
+      "low": 23050,
+      "high": 23050,
+      "display": "23.05 g"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/sunflower-seeds.md#substance_relationships/Linoleic%20Acid",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170562/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports linoleic acid in Seeds, sunflower seed kernels, dried."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 0.6050980495104087
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 0.6050980495104087
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1|docs/foods/sesame-seeds.md#nutrition_per_100g/linoleic_g",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM7",
+    "relationship_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1",
+    "admission_basis": "explicit assessment",
+    "accounting": "A",
+    "substance_id": "linoleic-acid",
+    "food_id": "sesame-seeds",
+    "food_name": "Sesame Seeds",
+    "rsp": 56.11267161945764,
+    "comparison_group": "edible-mass|linoleic-acid|per 100 g edible portion",
+    "material": "Seeds, sesame seeds, whole, dried",
+    "preparation": "dried",
+    "amount": 21.375,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "sesame-seeds::linoleic-acid::seeds sesame seeds whole dried::dried",
+    "source_record": "docs/foods/sesame-seeds.md#nutrition_per_100g/linoleic_g",
+    "food_record": "docs/foods/sesame-seeds.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Seeds, sesame seeds, whole, dried",
+        "fdc_id": 170150,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-09-05"
+      },
+      "value": 21.375,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Seeds, sesame seeds, whole, dried",
+      "preparation": "dried",
+      "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/linoleic_g",
+      "source_record": "docs/foods/sesame-seeds.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/sesame-seeds.md#nutrition_per_100g/linoleic_g",
+      "rank_eligible": true,
+      "comparison_group": "edible::dried",
+      "low": 21375,
+      "high": 21375,
+      "display": "21.375 g"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/sesame-seeds.md#substance_relationships/Linoleic%20Acid",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170150/nutrients",
+        "source_reference": "#food-source-12",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports linoleic acid in Seeds, sesame seeds, whole, dried."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 0.5611267161945764
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 0.5611267161945764
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1|docs/foods/pumpkin-seeds.md#nutrition_per_100g/linoleic_g",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM7",
+    "relationship_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1",
+    "admission_basis": "explicit assessment",
+    "accounting": "A",
+    "substance_id": "linoleic-acid",
+    "food_id": "pumpkin-seeds",
+    "food_name": "Pumpkin Seeds",
+    "rsp": 54.254062426167536,
+    "comparison_group": "edible-mass|linoleic-acid|per 100 g edible portion",
+    "material": "Seeds, pumpkin and squash seed kernels, dried",
+    "preparation": "dried",
+    "amount": 20.667,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "pumpkin-seeds::linoleic-acid::seeds pumpkin and squash seed kernels dried::dried",
+    "source_record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/linoleic_g",
+    "food_record": "docs/foods/pumpkin-seeds.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Seeds, pumpkin and squash seed kernels, dried",
+        "fdc_id": 170556,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 20.667,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Seeds, pumpkin and squash seed kernels, dried",
+      "preparation": "dried",
+      "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/linoleic_g",
+      "source_record": "docs/foods/pumpkin-seeds.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/linoleic_g",
+      "rank_eligible": true,
+      "comparison_group": "edible::dried",
+      "low": 20667,
+      "high": 20667,
+      "display": "20.667 g"
+    },
+    "source_evidence": [],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 0.5425406242616754
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 0.5425406242616754
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1|docs/foods/peanuts.md#nutrition_per_100g/linoleic_g",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM7",
+    "relationship_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1",
+    "admission_basis": "explicit assessment",
+    "accounting": "A",
+    "substance_id": "linoleic-acid",
+    "food_id": "peanuts",
+    "food_name": "Peanuts",
+    "rsp": 40.8342740135983,
+    "comparison_group": "edible-mass|linoleic-acid|per 100 g edible portion",
+    "material": "Peanuts, all types, raw",
+    "preparation": "raw",
+    "amount": 15.555,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "peanuts::linoleic-acid::peanuts all types raw::raw",
+    "source_record": "docs/foods/peanuts.md#nutrition_per_100g/linoleic_g",
+    "food_record": "docs/foods/peanuts.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Peanuts, all types, raw",
+        "fdc_id": 172430,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 15.555,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Peanuts, all types, raw",
+      "preparation": "raw",
+      "record": "docs/foods/peanuts.md#nutrition_per_100g/linoleic_g",
+      "source_record": "docs/foods/peanuts.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/peanuts.md#nutrition_per_100g/linoleic_g",
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 15555,
+      "high": 15555,
+      "display": "15.555 g"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/peanuts.md#substance_relationships/Linoleic%20Acid",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/172430/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports linoleic acid in Peanuts, all types, raw."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 0.408342740135983
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 0.408342740135983
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1|docs/foods/pistachios.md#nutrition_per_100g/linoleic_g",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM7",
+    "relationship_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1",
+    "admission_basis": "explicit assessment",
+    "accounting": "A",
+    "substance_id": "linoleic-acid",
+    "food_id": "pistachios",
+    "food_name": "Pistachios",
+    "rsp": 36.991048224083166,
+    "comparison_group": "edible-mass|linoleic-acid|per 100 g edible portion",
+    "material": "Nuts, pistachio nuts, raw",
+    "preparation": "raw",
+    "amount": 14.091,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "pistachios::linoleic-acid::nuts pistachio nuts raw::raw",
+    "source_record": "docs/foods/pistachios.md#nutrition_per_100g/linoleic_g",
+    "food_record": "docs/foods/pistachios.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Nuts, pistachio nuts, raw",
+        "fdc_id": 170184,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 14.091,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Nuts, pistachio nuts, raw",
+      "preparation": "raw",
+      "record": "docs/foods/pistachios.md#nutrition_per_100g/linoleic_g",
+      "source_record": "docs/foods/pistachios.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/pistachios.md#nutrition_per_100g/linoleic_g",
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 14091,
+      "high": 14091,
+      "display": "14.091 g"
+    },
+    "source_evidence": [],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 0.3699104822408317
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 0.3699104822408317
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1|docs/foods/avocado-oil.md#nutrition_per_100g/linoleic_g",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM7",
+    "relationship_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1",
+    "admission_basis": "explicit assessment",
+    "accounting": "A",
+    "substance_id": "linoleic-acid",
+    "food_id": "avocado-oil",
+    "food_name": "Avocado Oil",
+    "rsp": 32.89318247447037,
+    "comparison_group": "edible-mass|linoleic-acid|per 100 g edible portion",
+    "material": "Oil, avocado",
+    "preparation": "Oil",
+    "amount": 12.53,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "avocado-oil::linoleic-acid::oil avocado::oil",
+    "source_record": "docs/foods/avocado-oil.md#nutrition_per_100g/linoleic_g",
+    "food_record": "docs/foods/avocado-oil.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Oil, avocado",
+        "fdc_id": 173573,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-16"
+      },
+      "value": 12.53,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Oil, avocado",
+      "preparation": "Oil",
+      "record": "docs/foods/avocado-oil.md#nutrition_per_100g/linoleic_g",
+      "source_record": "docs/foods/avocado-oil.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/avocado-oil.md#nutrition_per_100g/linoleic_g",
+      "rank_eligible": true,
+      "comparison_group": "edible::oil",
+      "low": 12530,
+      "high": 12530,
+      "display": "12.53 g"
+    },
+    "source_evidence": [],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 0.3289318247447037
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 0.3289318247447037
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1|docs/foods/almonds.md#nutrition_per_100g/linoleic_g",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM7",
+    "relationship_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1",
+    "admission_basis": "explicit assessment",
+    "accounting": "A",
+    "substance_id": "linoleic-acid",
+    "food_id": "almonds",
+    "food_name": "Almonds",
+    "rsp": 32.34190008663009,
+    "comparison_group": "edible-mass|linoleic-acid|per 100 g edible portion",
+    "material": "Nuts, almonds",
+    "preparation": null,
+    "amount": 12.32,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "almonds::linoleic-acid::nuts almonds::unspecified",
+    "source_record": "docs/foods/almonds.md#nutrition_per_100g/linoleic_g",
+    "food_record": "docs/foods/almonds.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Nuts, almonds",
+        "fdc_id": 170567,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 12.32,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Nuts, almonds",
+      "preparation": null,
+      "record": "docs/foods/almonds.md#nutrition_per_100g/linoleic_g",
+      "source_record": "docs/foods/almonds.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/almonds.md#nutrition_per_100g/linoleic_g",
+      "rank_eligible": true,
+      "comparison_group": "edible::unspecified",
+      "low": 12320,
+      "high": 12320,
+      "display": "12.32 g"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/almonds.md#substance_relationships/Linoleic%20Acid",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports linoleic acid in Nuts, almonds."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 0.32341900086630093
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 0.32341900086630093
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1|docs/foods/soy.md#nutrition_per_100g/linoleic_g",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM7",
+    "relationship_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1",
+    "admission_basis": "explicit assessment",
+    "accounting": "A",
+    "substance_id": "linoleic-acid",
+    "food_id": "soy",
+    "food_name": "Mature soybeans",
+    "rsp": 26.054655711023024,
+    "comparison_group": "edible-mass|linoleic-acid|per 100 g edible portion",
+    "material": "Soybeans, mature seeds, raw",
+    "preparation": "raw",
+    "amount": 9.925,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "soy::linoleic-acid::soybeans mature seeds raw::raw",
+    "source_record": "docs/foods/soy.md#nutrition_per_100g/linoleic_g",
+    "food_record": "docs/foods/soy.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Soybeans, mature seeds, raw",
+        "fdc_id": 174270,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15",
+        "limitations": "Unqualified 18:3 on this record is documented in FCIR-007."
+      },
+      "value": 9.925,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Soybeans, mature seeds, raw",
+      "preparation": "raw",
+      "record": "docs/foods/soy.md#nutrition_per_100g/linoleic_g",
+      "source_record": "docs/foods/soy.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/soy.md#nutrition_per_100g/linoleic_g",
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 9925,
+      "high": 9925,
+      "display": "9.925 g"
+    },
+    "source_evidence": [],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 0.2605465571102302
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 0.2605465571102302
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1|docs/foods/cashews.md#nutrition_per_100g/linoleic_g",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM7",
+    "relationship_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1",
+    "admission_basis": "explicit assessment",
+    "accounting": "A",
+    "substance_id": "linoleic-acid",
+    "food_id": "cashews",
+    "food_name": "Cashews",
+    "rsp": 20.428950200824296,
+    "comparison_group": "edible-mass|linoleic-acid|per 100 g edible portion",
+    "material": "Nuts, cashew nuts, raw",
+    "preparation": "raw",
+    "amount": 7.782,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "cashews::linoleic-acid::nuts cashew nuts raw::raw",
+    "source_record": "docs/foods/cashews.md#nutrition_per_100g/linoleic_g",
+    "food_record": "docs/foods/cashews.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Nuts, cashew nuts, raw",
+        "fdc_id": 170162,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 7.782,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Nuts, cashew nuts, raw",
+      "preparation": "raw",
+      "record": "docs/foods/cashews.md#nutrition_per_100g/linoleic_g",
+      "source_record": "docs/foods/cashews.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/cashews.md#nutrition_per_100g/linoleic_g",
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 7782,
+      "high": 7782,
+      "display": "7.782 g"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/cashews.md#substance_relationships/Linoleic%20Acid",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170162/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports linoleic acid in Nuts, cashew nuts, raw."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 0.20428950200824297
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "linoleic-acid",
+        "winner": true,
+        "points": 0.20428950200824297
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/soy.md#nutrition_per_100g/tryptophan_g",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "soy",
+    "food_name": "Mature soybeans",
+    "rsp": 100,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Soybeans, mature seeds, raw",
+    "preparation": "raw",
+    "amount": 0.591,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "soy::tryptophan::soybeans mature seeds raw::raw",
+    "source_record": "docs/foods/soy.md#nutrition_per_100g/tryptophan_g",
+    "food_record": "docs/foods/soy.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Soybeans, mature seeds, raw",
+        "fdc_id": 174270,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15",
+        "limitations": "Unqualified 18:3 on this record is documented in FCIR-007."
+      },
+      "value": 0.591,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Soybeans, mature seeds, raw",
+      "preparation": "raw",
+      "record": "docs/foods/soy.md#nutrition_per_100g/tryptophan_g",
+      "source_record": "docs/foods/soy.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/soy.md#nutrition_per_100g/tryptophan_g",
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 591,
+      "high": 591,
+      "display": "0.591 g"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/soy.md#substance_relationships/Tryptophan",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/174270/nutrients",
+        "source_reference": "#food-source-7",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_supported_amount_unavailable",
+        "limitations": "USDA FoodData Central reports tryptophan in Soybeans, mature seeds, raw."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 1
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 1
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/pumpkin-seeds.md#nutrition_per_100g/tryptophan_g",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "pumpkin-seeds",
+    "food_name": "Pumpkin Seeds",
+    "rsp": 97.46192893401016,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Seeds, pumpkin and squash seed kernels, dried",
+    "preparation": "dried",
+    "amount": 0.576,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "pumpkin-seeds::tryptophan::seeds pumpkin and squash seed kernels dried::dried",
+    "source_record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/tryptophan_g",
+    "food_record": "docs/foods/pumpkin-seeds.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Seeds, pumpkin and squash seed kernels, dried",
+        "fdc_id": 170556,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 0.576,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Seeds, pumpkin and squash seed kernels, dried",
+      "preparation": "dried",
+      "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/tryptophan_g",
+      "source_record": "docs/foods/pumpkin-seeds.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/tryptophan_g",
+      "rank_eligible": true,
+      "comparison_group": "edible::dried",
+      "low": 576,
+      "high": 576,
+      "display": "0.576 g"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/pumpkin-seeds.md#substance_relationships/Tryptophan",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170556/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_supported_amount_unavailable",
+        "limitations": "USDA FoodData Central reports tryptophan in Seeds, pumpkin and squash seed kernels, dried."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.9746192893401016
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.9746192893401016
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/cheddar-cheese.md#nutrition_amino_acid_profiles/usda-sr-173414/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "cheddar-cheese",
+    "food_name": "Cheddar Cheese",
+    "rsp": 92.55499153976311,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
+    "preparation": "cheddar",
+    "amount": 0.547,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "cheddar-cheese::tryptophan::usda-sr-173414",
+    "source_record": "docs/foods/cheddar-cheese.md#nutrition_amino_acid_profiles/usda-sr-173414/amino_acids/tryptophan",
+    "food_record": "docs/foods/cheddar-cheese.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "value": 0.547,
+      "source_row_id": "1776883",
+      "nutrient_id": "1210",
+      "data_points": 0,
+      "derivation_id": "1",
+      "id": "docs/foods/cheddar-cheese.md#nutrition_amino_acid_profiles/usda-sr-173414/amino_acids/tryptophan",
+      "record": "docs/foods/cheddar-cheese.md#nutrition_amino_acid_profiles/usda-sr-173414/amino_acids/tryptophan",
+      "source_record": "docs/foods/cheddar-cheese.md#nutrition_amino_acid_profiles/usda-sr-173414",
+      "unit": "g",
+      "display": "0.547 g",
+      "basis": "per 100 g edible portion",
+      "material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
+      "preparation": "cheddar",
+      "source_url": "https://fdc.nal.usda.gov/food-details/173414/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 173414,
+        "source_url": "https://fdc.nal.usda.gov/food-details/173414/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::cheddar",
+      "low": 547,
+      "high": 547,
+      "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/cheddar-cheese.md#nutrition_amino_acid_profiles/usda-sr-173414/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/173414/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.9255499153976311
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.9255499153976311
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/chicken.md#nutrition_amino_acid_profiles/usda-sr-171477/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "chicken",
+    "food_name": "Chicken",
+    "rsp": 61.25211505922166,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+    "preparation": "cooked",
+    "amount": 0.362,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "chicken::tryptophan::usda-sr-171477",
+    "source_record": "docs/foods/chicken.md#nutrition_amino_acid_profiles/usda-sr-171477/amino_acids/tryptophan",
+    "food_record": "docs/foods/chicken.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "value": 0.362,
+      "source_row_id": "1613057",
+      "nutrient_id": "1210",
+      "data_points": 0,
+      "derivation_id": null,
+      "id": "docs/foods/chicken.md#nutrition_amino_acid_profiles/usda-sr-171477/amino_acids/tryptophan",
+      "record": "docs/foods/chicken.md#nutrition_amino_acid_profiles/usda-sr-171477/amino_acids/tryptophan",
+      "source_record": "docs/foods/chicken.md#nutrition_amino_acid_profiles/usda-sr-171477",
+      "unit": "g",
+      "display": "0.362 g",
+      "basis": "per 100 g edible portion",
+      "material": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+      "preparation": "cooked",
+      "source_url": "https://fdc.nal.usda.gov/food-details/171477/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 171477,
+        "source_url": "https://fdc.nal.usda.gov/food-details/171477/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::cooked",
+      "low": 362,
+      "high": 362,
+      "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/chicken.md#nutrition_amino_acid_profiles/usda-sr-171477/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/171477/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.6125211505922166
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.6125211505922166
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/sunflower-seeds.md#nutrition_amino_acid_profiles/usda-sr-170562/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "sunflower-seeds",
+    "food_name": "Sunflower Seeds",
+    "rsp": 58.88324873096447,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Seeds, sunflower seed kernels, dried",
+    "preparation": "dried",
+    "amount": 0.348,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "sunflower-seeds::tryptophan::usda-sr-170562",
+    "source_record": "docs/foods/sunflower-seeds.md#nutrition_amino_acid_profiles/usda-sr-170562/amino_acids/tryptophan",
+    "food_record": "docs/foods/sunflower-seeds.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "value": 0.348,
+      "source_row_id": "1533383",
+      "nutrient_id": "1210",
+      "data_points": 25,
+      "derivation_id": null,
+      "id": "docs/foods/sunflower-seeds.md#nutrition_amino_acid_profiles/usda-sr-170562/amino_acids/tryptophan",
+      "record": "docs/foods/sunflower-seeds.md#nutrition_amino_acid_profiles/usda-sr-170562/amino_acids/tryptophan",
+      "source_record": "docs/foods/sunflower-seeds.md#nutrition_amino_acid_profiles/usda-sr-170562",
+      "unit": "g",
+      "display": "0.348 g",
+      "basis": "per 100 g edible portion",
+      "material": "Seeds, sunflower seed kernels, dried",
+      "preparation": "dried",
+      "source_url": "https://fdc.nal.usda.gov/food-details/170562/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 170562,
+        "source_url": "https://fdc.nal.usda.gov/food-details/170562/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::dried",
+      "low": 348,
+      "high": 348,
+      "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/sunflower-seeds.md#nutrition_amino_acid_profiles/usda-sr-170562/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170562/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.5888324873096447
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.5888324873096447
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/anchovies.md#nutrition_amino_acid_profiles/usda-sr-174183/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "anchovies",
+    "food_name": "Anchovies",
+    "rsp": 54.82233502538071,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Fish, anchovy, european, canned in oil, drained solids",
+    "preparation": "canned, drained",
+    "amount": 0.324,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "anchovies::tryptophan::usda-sr-174183",
+    "source_record": "docs/foods/anchovies.md#nutrition_amino_acid_profiles/usda-sr-174183/amino_acids/tryptophan",
+    "food_record": "docs/foods/anchovies.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "value": 0.324,
+      "source_row_id": "1837790",
+      "nutrient_id": "1210",
+      "data_points": 0,
+      "derivation_id": null,
+      "id": "docs/foods/anchovies.md#nutrition_amino_acid_profiles/usda-sr-174183/amino_acids/tryptophan",
+      "record": "docs/foods/anchovies.md#nutrition_amino_acid_profiles/usda-sr-174183/amino_acids/tryptophan",
+      "source_record": "docs/foods/anchovies.md#nutrition_amino_acid_profiles/usda-sr-174183",
+      "unit": "g",
+      "display": "0.324 g",
+      "basis": "per 100 g edible portion",
+      "material": "Fish, anchovy, european, canned in oil, drained solids",
+      "preparation": "canned, drained",
+      "source_url": "https://fdc.nal.usda.gov/food-details/174183/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 174183,
+        "source_url": "https://fdc.nal.usda.gov/food-details/174183/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::canned, drained",
+      "low": 324,
+      "high": 324,
+      "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/anchovies.md#nutrition_amino_acid_profiles/usda-sr-174183/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/174183/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.5482233502538071
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.5482233502538071
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/turkey.md#nutrition_amino_acid_profiles/usda-sr-171496/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "turkey",
+    "food_name": "Turkey",
+    "rsp": 48.56175972927242,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Turkey, whole, breast, meat only, cooked, roasted",
+    "preparation": "cooked",
+    "amount": 0.287,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "turkey::tryptophan::usda-sr-171496",
+    "source_record": "docs/foods/turkey.md#nutrition_amino_acid_profiles/usda-sr-171496/amino_acids/tryptophan",
+    "food_record": "docs/foods/turkey.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "value": 0.287,
+      "source_row_id": "1615194",
+      "nutrient_id": "1210",
+      "data_points": 0,
+      "derivation_id": "1",
+      "id": "docs/foods/turkey.md#nutrition_amino_acid_profiles/usda-sr-171496/amino_acids/tryptophan",
+      "record": "docs/foods/turkey.md#nutrition_amino_acid_profiles/usda-sr-171496/amino_acids/tryptophan",
+      "source_record": "docs/foods/turkey.md#nutrition_amino_acid_profiles/usda-sr-171496",
+      "unit": "g",
+      "display": "0.287 g",
+      "basis": "per 100 g edible portion",
+      "material": "Turkey, whole, breast, meat only, cooked, roasted",
+      "preparation": "cooked",
+      "source_url": "https://fdc.nal.usda.gov/food-details/171496/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 171496,
+        "source_url": "https://fdc.nal.usda.gov/food-details/171496/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::cooked",
+      "low": 287,
+      "high": 287,
+      "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/turkey.md#nutrition_amino_acid_profiles/usda-sr-171496/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/171496/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.4856175972927242
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.4856175972927242
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/sardines.md#nutrition_amino_acid_profiles/usda-sr-175139/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "sardines",
+    "food_name": "Sardines",
+    "rsp": 46.7005076142132,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+    "preparation": "canned, drained",
+    "amount": 0.276,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "sardines::tryptophan::usda-sr-175139",
+    "source_record": "docs/foods/sardines.md#nutrition_amino_acid_profiles/usda-sr-175139/amino_acids/tryptophan",
+    "food_record": "docs/foods/sardines.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "value": 0.276,
+      "source_row_id": "1915838",
+      "nutrient_id": "1210",
+      "data_points": 0,
+      "derivation_id": null,
+      "id": "docs/foods/sardines.md#nutrition_amino_acid_profiles/usda-sr-175139/amino_acids/tryptophan",
+      "record": "docs/foods/sardines.md#nutrition_amino_acid_profiles/usda-sr-175139/amino_acids/tryptophan",
+      "source_record": "docs/foods/sardines.md#nutrition_amino_acid_profiles/usda-sr-175139",
+      "unit": "g",
+      "display": "0.276 g",
+      "basis": "per 100 g edible portion",
+      "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+      "preparation": "canned, drained",
+      "source_url": "https://fdc.nal.usda.gov/food-details/175139/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 175139,
+        "source_url": "https://fdc.nal.usda.gov/food-details/175139/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::canned, drained",
+      "low": 276,
+      "high": 276,
+      "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/sardines.md#nutrition_amino_acid_profiles/usda-sr-175139/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/175139/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.467005076142132
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.467005076142132
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/mussels.md#nutrition_amino_acid_profiles/usda-sr-174217/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "mussels",
+    "food_name": "Mussels",
+    "rsp": 45.17766497461929,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Mollusks, mussel, blue, cooked, moist heat",
+    "preparation": "cooked",
+    "amount": 0.267,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "mussels::tryptophan::usda-sr-174217",
+    "source_record": "docs/foods/mussels.md#nutrition_amino_acid_profiles/usda-sr-174217/amino_acids/tryptophan",
+    "food_record": "docs/foods/mussels.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "value": 0.267,
+      "source_row_id": "1841092",
+      "nutrient_id": "1210",
+      "data_points": 0,
+      "derivation_id": null,
+      "id": "docs/foods/mussels.md#nutrition_amino_acid_profiles/usda-sr-174217/amino_acids/tryptophan",
+      "record": "docs/foods/mussels.md#nutrition_amino_acid_profiles/usda-sr-174217/amino_acids/tryptophan",
+      "source_record": "docs/foods/mussels.md#nutrition_amino_acid_profiles/usda-sr-174217",
+      "unit": "g",
+      "display": "0.267 g",
+      "basis": "per 100 g edible portion",
+      "material": "Mollusks, mussel, blue, cooked, moist heat",
+      "preparation": "cooked",
+      "source_url": "https://fdc.nal.usda.gov/food-details/174217/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 174217,
+        "source_url": "https://fdc.nal.usda.gov/food-details/174217/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::cooked",
+      "low": 267,
+      "high": 267,
+      "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/mussels.md#nutrition_amino_acid_profiles/usda-sr-174217/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/174217/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.4517766497461929
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.4517766497461929
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/liver.md#nutrition_amino_acid_profiles/usda-sr-169451/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "liver",
+    "food_name": "Liver (beef)",
+    "rsp": 44.50084602368866,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Beef, variety meats and by-products, liver, raw",
+    "preparation": "raw",
+    "amount": 0.263,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "liver::tryptophan::usda-sr-169451",
+    "source_record": "docs/foods/liver.md#nutrition_amino_acid_profiles/usda-sr-169451/amino_acids/tryptophan",
+    "food_record": "docs/foods/liver.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "value": 0.263,
+      "source_row_id": "1443226",
+      "nutrient_id": "1210",
+      "data_points": 1,
+      "derivation_id": "1",
+      "id": "docs/foods/liver.md#nutrition_amino_acid_profiles/usda-sr-169451/amino_acids/tryptophan",
+      "record": "docs/foods/liver.md#nutrition_amino_acid_profiles/usda-sr-169451/amino_acids/tryptophan",
+      "source_record": "docs/foods/liver.md#nutrition_amino_acid_profiles/usda-sr-169451",
+      "unit": "g",
+      "display": "0.263 g",
+      "basis": "per 100 g edible portion",
+      "material": "Beef, variety meats and by-products, liver, raw",
+      "preparation": "raw",
+      "source_url": "https://fdc.nal.usda.gov/food-details/169451/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 169451,
+        "source_url": "https://fdc.nal.usda.gov/food-details/169451/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 263,
+      "high": 263,
+      "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/liver.md#nutrition_amino_acid_profiles/usda-sr-169451/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/169451/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.4450084602368866
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.4450084602368866
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/tuna.md#nutrition_amino_acid_profiles/usda-sr-173706/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "tuna",
+    "food_name": "Tuna",
+    "rsp": 44.16243654822335,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Fish, tuna, fresh, bluefin, raw",
+    "preparation": "raw",
+    "amount": 0.261,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "tuna::tryptophan::usda-sr-173706",
+    "source_record": "docs/foods/tuna.md#nutrition_amino_acid_profiles/usda-sr-173706/amino_acids/tryptophan",
+    "food_record": "docs/foods/tuna.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "value": 0.261,
+      "source_row_id": "1800014",
+      "nutrient_id": "1210",
+      "data_points": 0,
+      "derivation_id": null,
+      "id": "docs/foods/tuna.md#nutrition_amino_acid_profiles/usda-sr-173706/amino_acids/tryptophan",
+      "record": "docs/foods/tuna.md#nutrition_amino_acid_profiles/usda-sr-173706/amino_acids/tryptophan",
+      "source_record": "docs/foods/tuna.md#nutrition_amino_acid_profiles/usda-sr-173706",
+      "unit": "g",
+      "display": "0.261 g",
+      "basis": "per 100 g edible portion",
+      "material": "Fish, tuna, fresh, bluefin, raw",
+      "preparation": "raw",
+      "source_url": "https://fdc.nal.usda.gov/food-details/173706/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 173706,
+        "source_url": "https://fdc.nal.usda.gov/food-details/173706/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 261,
+      "high": 261,
+      "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/tuna.md#nutrition_amino_acid_profiles/usda-sr-173706/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/173706/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.4416243654822335
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.4416243654822335
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/salmon.md#nutrition_amino_acid_profiles/usda-sr-175168/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "salmon",
+    "food_name": "Salmon",
+    "rsp": 41.96277495769882,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Fish, salmon, Atlantic, farmed, cooked, dry heat",
+    "preparation": "cooked",
+    "amount": 0.248,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "salmon::tryptophan::usda-sr-175168",
+    "source_record": "docs/foods/salmon.md#nutrition_amino_acid_profiles/usda-sr-175168/amino_acids/tryptophan",
+    "food_record": "docs/foods/salmon.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "value": 0.248,
+      "source_row_id": "1918231",
+      "nutrient_id": "1210",
+      "data_points": 0,
+      "derivation_id": null,
+      "id": "docs/foods/salmon.md#nutrition_amino_acid_profiles/usda-sr-175168/amino_acids/tryptophan",
+      "record": "docs/foods/salmon.md#nutrition_amino_acid_profiles/usda-sr-175168/amino_acids/tryptophan",
+      "source_record": "docs/foods/salmon.md#nutrition_amino_acid_profiles/usda-sr-175168",
+      "unit": "g",
+      "display": "0.248 g",
+      "basis": "per 100 g edible portion",
+      "material": "Fish, salmon, Atlantic, farmed, cooked, dry heat",
+      "preparation": "cooked",
+      "source_url": "https://fdc.nal.usda.gov/food-details/175168/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 175168,
+        "source_url": "https://fdc.nal.usda.gov/food-details/175168/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::cooked",
+      "low": 248,
+      "high": 248,
+      "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/salmon.md#nutrition_amino_acid_profiles/usda-sr-175168/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/175168/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.4196277495769882
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.4196277495769882
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/pork.md#nutrition_amino_acid_profiles/usda-sr-167818/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "pork",
+    "food_name": "Pork",
+    "rsp": 41.28595600676819,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Pork, fresh, loin, whole, separable lean and fat, raw",
+    "preparation": "raw",
+    "amount": 0.244,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "pork::tryptophan::usda-sr-167818",
+    "source_record": "docs/foods/pork.md#nutrition_amino_acid_profiles/usda-sr-167818/amino_acids/tryptophan",
+    "food_record": "docs/foods/pork.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "value": 0.244,
+      "source_row_id": "1307060",
+      "nutrient_id": "1210",
+      "data_points": 0,
+      "derivation_id": null,
+      "id": "docs/foods/pork.md#nutrition_amino_acid_profiles/usda-sr-167818/amino_acids/tryptophan",
+      "record": "docs/foods/pork.md#nutrition_amino_acid_profiles/usda-sr-167818/amino_acids/tryptophan",
+      "source_record": "docs/foods/pork.md#nutrition_amino_acid_profiles/usda-sr-167818",
+      "unit": "g",
+      "display": "0.244 g",
+      "basis": "per 100 g edible portion",
+      "material": "Pork, fresh, loin, whole, separable lean and fat, raw",
+      "preparation": "raw",
+      "source_url": "https://fdc.nal.usda.gov/food-details/167818/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 167818,
+        "source_url": "https://fdc.nal.usda.gov/food-details/167818/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 244,
+      "high": 244,
+      "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/pork.md#nutrition_amino_acid_profiles/usda-sr-167818/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/167818/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.4128595600676819
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.4128595600676819
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/turkey.md#nutrition_per_100g/tryptophan_g",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "turkey",
+    "food_name": "Turkey",
+    "rsp": 40.77834179357022,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Turkey, whole, meat only, raw",
+    "preparation": "raw",
+    "amount": 0.241,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "turkey::tryptophan::turkey whole meat only raw::raw",
+    "source_record": "docs/foods/turkey.md#nutrition_per_100g/tryptophan_g",
+    "food_record": "docs/foods/turkey.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Turkey, whole, meat only, raw",
+        "fdc_id": 171480,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 0.241,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Turkey, whole, meat only, raw",
+      "preparation": "raw",
+      "record": "docs/foods/turkey.md#nutrition_per_100g/tryptophan_g",
+      "source_record": "docs/foods/turkey.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/turkey.md#nutrition_per_100g/tryptophan_g",
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 241,
+      "high": 241,
+      "display": "0.241 g"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/turkey.md#substance_relationships/Tryptophan",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/171480/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_supported_amount_unavailable",
+        "limitations": "USDA FoodData Central reports tryptophan in Turkey, whole, meat only, raw."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": false,
+        "points": 0.4856175972927242
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": false,
+        "points": 0.4856175972927242
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/tofu.md#nutrition_amino_acid_profiles/usda-sr-172475/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "tofu",
+    "food_name": "Tofu",
+    "rsp": 39.76311336717428,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Tofu, raw, firm, prepared with calcium sulfate",
+    "preparation": "firm, calcium-set",
+    "amount": 0.235,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "tofu::tryptophan::usda-sr-172475",
+    "source_record": "docs/foods/tofu.md#nutrition_amino_acid_profiles/usda-sr-172475/amino_acids/tryptophan",
+    "food_record": "docs/foods/tofu.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "value": 0.235,
+      "source_row_id": "1698063",
+      "nutrient_id": "1210",
+      "data_points": 0,
+      "derivation_id": "51",
+      "id": "docs/foods/tofu.md#nutrition_amino_acid_profiles/usda-sr-172475/amino_acids/tryptophan",
+      "record": "docs/foods/tofu.md#nutrition_amino_acid_profiles/usda-sr-172475/amino_acids/tryptophan",
+      "source_record": "docs/foods/tofu.md#nutrition_amino_acid_profiles/usda-sr-172475",
+      "unit": "g",
+      "display": "0.235 g",
+      "basis": "per 100 g edible portion",
+      "material": "Tofu, raw, firm, prepared with calcium sulfate",
+      "preparation": "firm, calcium-set",
+      "source_url": "https://fdc.nal.usda.gov/food-details/172475/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 172475,
+        "source_url": "https://fdc.nal.usda.gov/food-details/172475/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::firm, calcium-set",
+      "low": 235,
+      "high": 235,
+      "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/tofu.md#nutrition_amino_acid_profiles/usda-sr-172475/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/172475/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.3976311336717428
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.3976311336717428
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/peanuts.md#nutrition_amino_acid_profiles/usda-sr-173806/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "peanuts",
+    "food_name": "Peanuts",
+    "rsp": 38.917089678511,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Peanuts, all types, dry-roasted, without salt",
+    "preparation": "dry-roasted",
+    "amount": 0.23,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "peanuts::tryptophan::usda-sr-173806",
+    "source_record": "docs/foods/peanuts.md#nutrition_amino_acid_profiles/usda-sr-173806/amino_acids/tryptophan",
+    "food_record": "docs/foods/peanuts.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "value": 0.23,
+      "source_row_id": "1806607",
+      "nutrient_id": "1210",
+      "data_points": 0,
+      "derivation_id": null,
+      "id": "docs/foods/peanuts.md#nutrition_amino_acid_profiles/usda-sr-173806/amino_acids/tryptophan",
+      "record": "docs/foods/peanuts.md#nutrition_amino_acid_profiles/usda-sr-173806/amino_acids/tryptophan",
+      "source_record": "docs/foods/peanuts.md#nutrition_amino_acid_profiles/usda-sr-173806",
+      "unit": "g",
+      "display": "0.23 g",
+      "basis": "per 100 g edible portion",
+      "material": "Peanuts, all types, dry-roasted, without salt",
+      "preparation": "dry-roasted",
+      "source_url": "https://fdc.nal.usda.gov/food-details/173806/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 173806,
+        "source_url": "https://fdc.nal.usda.gov/food-details/173806/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::dry-roasted",
+      "low": 230,
+      "high": 230,
+      "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/peanuts.md#nutrition_amino_acid_profiles/usda-sr-173806/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/173806/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.38917089678510997
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.38917089678510997
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/almonds.md#nutrition_amino_acid_profiles/usda-sr-170567/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "almonds",
+    "food_name": "Almonds",
+    "rsp": 35.70219966159052,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Nuts, almonds",
+    "preparation": "raw",
+    "amount": 0.211,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "almonds::tryptophan::usda-sr-170567",
+    "source_record": "docs/foods/almonds.md#nutrition_amino_acid_profiles/usda-sr-170567/amino_acids/tryptophan",
+    "food_record": "docs/foods/almonds.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "value": 0.211,
+      "source_row_id": "1533846",
+      "nutrient_id": "1210",
+      "data_points": 0,
+      "derivation_id": "1",
+      "id": "docs/foods/almonds.md#nutrition_amino_acid_profiles/usda-sr-170567/amino_acids/tryptophan",
+      "record": "docs/foods/almonds.md#nutrition_amino_acid_profiles/usda-sr-170567/amino_acids/tryptophan",
+      "source_record": "docs/foods/almonds.md#nutrition_amino_acid_profiles/usda-sr-170567",
+      "unit": "g",
+      "display": "0.211 g",
+      "basis": "per 100 g edible portion",
+      "material": "Nuts, almonds",
+      "preparation": "raw",
+      "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 170567,
+        "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 211,
+      "high": 211,
+      "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/almonds.md#nutrition_amino_acid_profiles/usda-sr-170567/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.35702199661590517
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.35702199661590517
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/salmon.md#nutrition_amino_acid_profiles/usda-sr-175167/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "salmon",
+    "food_name": "Salmon",
+    "rsp": 35.36379018612521,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Fish, salmon, Atlantic, farmed, raw",
+    "preparation": "raw",
+    "amount": 0.209,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "salmon::tryptophan::usda-sr-175167",
+    "source_record": "docs/foods/salmon.md#nutrition_amino_acid_profiles/usda-sr-175167/amino_acids/tryptophan",
+    "food_record": "docs/foods/salmon.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "value": 0.209,
+      "source_row_id": "1918129",
+      "nutrient_id": "1210",
+      "data_points": 0,
+      "derivation_id": "1",
+      "id": "docs/foods/salmon.md#nutrition_amino_acid_profiles/usda-sr-175167/amino_acids/tryptophan",
+      "record": "docs/foods/salmon.md#nutrition_amino_acid_profiles/usda-sr-175167/amino_acids/tryptophan",
+      "source_record": "docs/foods/salmon.md#nutrition_amino_acid_profiles/usda-sr-175167",
+      "unit": "g",
+      "display": "0.209 g",
+      "basis": "per 100 g edible portion",
+      "material": "Fish, salmon, Atlantic, farmed, raw",
+      "preparation": "raw",
+      "source_url": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 175167,
+        "source_url": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 209,
+      "high": 209,
+      "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/salmon.md#nutrition_amino_acid_profiles/usda-sr-175167/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": false,
+        "points": 0.4196277495769882
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": false,
+        "points": 0.4196277495769882
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/tuna.md#nutrition_amino_acid_profiles/usda-sr-173709/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "tuna",
+    "food_name": "Tuna",
+    "rsp": 35.36379018612521,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Fish, tuna, light, canned in water, drained solids (Includes foods for USDA's Food Distribution Program)",
+    "preparation": "canned, drained",
+    "amount": 0.209,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "tuna::tryptophan::usda-sr-173709",
+    "source_record": "docs/foods/tuna.md#nutrition_amino_acid_profiles/usda-sr-173709/amino_acids/tryptophan",
+    "food_record": "docs/foods/tuna.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "value": 0.209,
+      "source_row_id": "1800297",
+      "nutrient_id": "1210",
+      "data_points": 0,
+      "derivation_id": "1",
+      "id": "docs/foods/tuna.md#nutrition_amino_acid_profiles/usda-sr-173709/amino_acids/tryptophan",
+      "record": "docs/foods/tuna.md#nutrition_amino_acid_profiles/usda-sr-173709/amino_acids/tryptophan",
+      "source_record": "docs/foods/tuna.md#nutrition_amino_acid_profiles/usda-sr-173709",
+      "unit": "g",
+      "display": "0.209 g",
+      "basis": "per 100 g edible portion",
+      "material": "Fish, tuna, light, canned in water, drained solids (Includes foods for USDA's Food Distribution Program)",
+      "preparation": "canned, drained",
+      "source_url": "https://fdc.nal.usda.gov/food-details/173709/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 173709,
+        "source_url": "https://fdc.nal.usda.gov/food-details/173709/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::canned, drained",
+      "low": 209,
+      "high": 209,
+      "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/tuna.md#nutrition_amino_acid_profiles/usda-sr-173709/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/173709/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": false,
+        "points": 0.4416243654822335
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": false,
+        "points": 0.4416243654822335
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/mackerel.md#nutrition_amino_acid_profiles/usda-sr-175119/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "mackerel",
+    "food_name": "Mackerel",
+    "rsp": 35.19458544839256,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Fish, mackerel, Atlantic, raw",
+    "preparation": "raw",
+    "amount": 0.208,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "mackerel::tryptophan::usda-sr-175119",
+    "source_record": "docs/foods/mackerel.md#nutrition_amino_acid_profiles/usda-sr-175119/amino_acids/tryptophan",
+    "food_record": "docs/foods/mackerel.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "value": 0.208,
+      "source_row_id": "1913989",
+      "nutrient_id": "1210",
+      "data_points": 0,
+      "derivation_id": null,
+      "id": "docs/foods/mackerel.md#nutrition_amino_acid_profiles/usda-sr-175119/amino_acids/tryptophan",
+      "record": "docs/foods/mackerel.md#nutrition_amino_acid_profiles/usda-sr-175119/amino_acids/tryptophan",
+      "source_record": "docs/foods/mackerel.md#nutrition_amino_acid_profiles/usda-sr-175119",
+      "unit": "g",
+      "display": "0.208 g",
+      "basis": "per 100 g edible portion",
+      "material": "Fish, mackerel, Atlantic, raw",
+      "preparation": "raw",
+      "source_url": "https://fdc.nal.usda.gov/food-details/175119/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 175119,
+        "source_url": "https://fdc.nal.usda.gov/food-details/175119/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 208,
+      "high": 208,
+      "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/mackerel.md#nutrition_amino_acid_profiles/usda-sr-175119/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/175119/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.35194585448392557
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.35194585448392557
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/chicken.md#nutrition_amino_acid_profiles/usda-sr-171447/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "chicken",
+    "food_name": "Chicken",
+    "rsp": 35.025380710659896,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Chicken, broilers or fryers, meat and skin, raw",
+    "preparation": "raw",
+    "amount": 0.207,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "chicken::tryptophan::usda-sr-171447",
+    "source_record": "docs/foods/chicken.md#nutrition_amino_acid_profiles/usda-sr-171447/amino_acids/tryptophan",
+    "food_record": "docs/foods/chicken.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "value": 0.207,
+      "source_row_id": "1610584",
+      "nutrient_id": "1210",
+      "data_points": 0,
+      "derivation_id": null,
+      "id": "docs/foods/chicken.md#nutrition_amino_acid_profiles/usda-sr-171447/amino_acids/tryptophan",
+      "record": "docs/foods/chicken.md#nutrition_amino_acid_profiles/usda-sr-171447/amino_acids/tryptophan",
+      "source_record": "docs/foods/chicken.md#nutrition_amino_acid_profiles/usda-sr-171447",
+      "unit": "g",
+      "display": "0.207 g",
+      "basis": "per 100 g edible portion",
+      "material": "Chicken, broilers or fryers, meat and skin, raw",
+      "preparation": "raw",
+      "source_url": "https://fdc.nal.usda.gov/food-details/171447/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 171447,
+        "source_url": "https://fdc.nal.usda.gov/food-details/171447/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 207,
+      "high": 207,
+      "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/chicken.md#nutrition_amino_acid_profiles/usda-sr-171447/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/171447/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": false,
+        "points": 0.6125211505922166
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": false,
+        "points": 0.6125211505922166
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/herring.md#nutrition_amino_acid_profiles/usda-sr-175116/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "herring",
+    "food_name": "Herring",
+    "rsp": 34.01015228426396,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Fish, herring, Atlantic, raw",
+    "preparation": "raw",
+    "amount": 0.201,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "herring::tryptophan::usda-sr-175116",
+    "source_record": "docs/foods/herring.md#nutrition_amino_acid_profiles/usda-sr-175116/amino_acids/tryptophan",
+    "food_record": "docs/foods/herring.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "value": 0.201,
+      "source_row_id": "1913681",
+      "nutrient_id": "1210",
+      "data_points": 0,
+      "derivation_id": null,
+      "id": "docs/foods/herring.md#nutrition_amino_acid_profiles/usda-sr-175116/amino_acids/tryptophan",
+      "record": "docs/foods/herring.md#nutrition_amino_acid_profiles/usda-sr-175116/amino_acids/tryptophan",
+      "source_record": "docs/foods/herring.md#nutrition_amino_acid_profiles/usda-sr-175116",
+      "unit": "g",
+      "display": "0.201 g",
+      "basis": "per 100 g edible portion",
+      "material": "Fish, herring, Atlantic, raw",
+      "preparation": "raw",
+      "source_url": "https://fdc.nal.usda.gov/food-details/175116/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 175116,
+        "source_url": "https://fdc.nal.usda.gov/food-details/175116/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 201,
+      "high": 201,
+      "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/herring.md#nutrition_amino_acid_profiles/usda-sr-175116/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/175116/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.3401015228426396
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.3401015228426396
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/cod.md#nutrition_amino_acid_profiles/usda-sr-171955/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "cod",
+    "food_name": "Cod",
+    "rsp": 33.67174280879864,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Fish, cod, Atlantic, raw",
+    "preparation": "raw",
+    "amount": 0.199,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "cod::tryptophan::usda-sr-171955",
+    "source_record": "docs/foods/cod.md#nutrition_amino_acid_profiles/usda-sr-171955/amino_acids/tryptophan",
+    "food_record": "docs/foods/cod.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "value": 0.199,
+      "source_row_id": "1653415",
+      "nutrient_id": "1210",
+      "data_points": 0,
+      "derivation_id": null,
+      "id": "docs/foods/cod.md#nutrition_amino_acid_profiles/usda-sr-171955/amino_acids/tryptophan",
+      "record": "docs/foods/cod.md#nutrition_amino_acid_profiles/usda-sr-171955/amino_acids/tryptophan",
+      "source_record": "docs/foods/cod.md#nutrition_amino_acid_profiles/usda-sr-171955",
+      "unit": "g",
+      "display": "0.199 g",
+      "basis": "per 100 g edible portion",
+      "material": "Fish, cod, Atlantic, raw",
+      "preparation": "raw",
+      "source_url": "https://fdc.nal.usda.gov/food-details/171955/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 171955,
+        "source_url": "https://fdc.nal.usda.gov/food-details/171955/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 199,
+      "high": 199,
+      "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/cod.md#nutrition_amino_acid_profiles/usda-sr-171955/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/171955/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.3367174280879864
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.3367174280879864
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/lamb.md#nutrition_amino_acid_profiles/usda-sr-174370/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "lamb",
+    "food_name": "Lamb",
+    "rsp": 32.656514382402705,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Lamb, ground, raw",
+    "preparation": "raw",
+    "amount": 0.193,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "lamb::tryptophan::usda-sr-174370",
+    "source_record": "docs/foods/lamb.md#nutrition_amino_acid_profiles/usda-sr-174370/amino_acids/tryptophan",
+    "food_record": "docs/foods/lamb.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "value": 0.193,
+      "source_row_id": "1852561",
+      "nutrient_id": "1210",
+      "data_points": 0,
+      "derivation_id": null,
+      "id": "docs/foods/lamb.md#nutrition_amino_acid_profiles/usda-sr-174370/amino_acids/tryptophan",
+      "record": "docs/foods/lamb.md#nutrition_amino_acid_profiles/usda-sr-174370/amino_acids/tryptophan",
+      "source_record": "docs/foods/lamb.md#nutrition_amino_acid_profiles/usda-sr-174370",
+      "unit": "g",
+      "display": "0.193 g",
+      "basis": "per 100 g edible portion",
+      "material": "Lamb, ground, raw",
+      "preparation": "raw",
+      "source_url": "https://fdc.nal.usda.gov/food-details/174370/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 174370,
+        "source_url": "https://fdc.nal.usda.gov/food-details/174370/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 193,
+      "high": 193,
+      "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/lamb.md#nutrition_amino_acid_profiles/usda-sr-174370/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/174370/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.32656514382402707
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.32656514382402707
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/egg-yolks.md#nutrition_amino_acid_profiles/usda-sr-172184/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "egg-yolks",
+    "food_name": "Egg Yolks",
+    "rsp": 29.949238578680205,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Egg, yolk, raw, fresh",
+    "preparation": "raw",
+    "amount": 0.177,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "egg-yolks::tryptophan::usda-sr-172184",
+    "source_record": "docs/foods/egg-yolks.md#nutrition_amino_acid_profiles/usda-sr-172184/amino_acids/tryptophan",
+    "food_record": "docs/foods/egg-yolks.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "value": 0.177,
+      "source_row_id": "1674746",
+      "nutrient_id": "1210",
+      "data_points": 0,
+      "derivation_id": "1",
+      "id": "docs/foods/egg-yolks.md#nutrition_amino_acid_profiles/usda-sr-172184/amino_acids/tryptophan",
+      "record": "docs/foods/egg-yolks.md#nutrition_amino_acid_profiles/usda-sr-172184/amino_acids/tryptophan",
+      "source_record": "docs/foods/egg-yolks.md#nutrition_amino_acid_profiles/usda-sr-172184",
+      "unit": "g",
+      "display": "0.177 g",
+      "basis": "per 100 g edible portion",
+      "material": "Egg, yolk, raw, fresh",
+      "preparation": "raw",
+      "source_url": "https://fdc.nal.usda.gov/food-details/172184/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 172184,
+        "source_url": "https://fdc.nal.usda.gov/food-details/172184/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 177,
+      "high": 177,
+      "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/egg-yolks.md#nutrition_amino_acid_profiles/usda-sr-172184/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/172184/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.29949238578680204
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.29949238578680204
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/chicken-liver.md#nutrition_amino_acid_profiles/usda-sr-171060/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "chicken-liver",
+    "food_name": "Chicken Liver",
+    "rsp": 29.780033840947546,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Chicken, liver, all classes, raw",
+    "preparation": "raw",
+    "amount": 0.176,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "chicken-liver::tryptophan::usda-sr-171060",
+    "source_record": "docs/foods/chicken-liver.md#nutrition_amino_acid_profiles/usda-sr-171060/amino_acids/tryptophan",
+    "food_record": "docs/foods/chicken-liver.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "value": 0.176,
+      "source_row_id": "1576575",
+      "nutrient_id": "1210",
+      "data_points": 1,
+      "derivation_id": "1",
+      "id": "docs/foods/chicken-liver.md#nutrition_amino_acid_profiles/usda-sr-171060/amino_acids/tryptophan",
+      "record": "docs/foods/chicken-liver.md#nutrition_amino_acid_profiles/usda-sr-171060/amino_acids/tryptophan",
+      "source_record": "docs/foods/chicken-liver.md#nutrition_amino_acid_profiles/usda-sr-171060",
+      "unit": "g",
+      "display": "0.176 g",
+      "basis": "per 100 g edible portion",
+      "material": "Chicken, liver, all classes, raw",
+      "preparation": "raw",
+      "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 171060,
+        "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 176,
+      "high": 176,
+      "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/chicken-liver.md#nutrition_amino_acid_profiles/usda-sr-171060/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.29780033840947545
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.29780033840947545
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM3-PM8::PM8-DIT-1|docs/foods/eggs.md#nutrition_amino_acid_profiles/usda-sr-173424/amino_acids/tryptophan",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM3-PM8",
+    "relationship_id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "tryptophan",
+    "food_id": "eggs",
+    "food_name": "Eggs",
+    "rsp": 25.888324873096447,
+    "comparison_group": "edible-mass|tryptophan|per 100 g edible portion",
+    "material": "Egg, whole, cooked, hard-boiled",
+    "preparation": "cooked",
+    "amount": 0.153,
+    "unit": "g",
+    "basis": "per 100 g edible portion",
+    "source_id": "eggs::tryptophan::usda-sr-173424",
+    "source_record": "docs/foods/eggs.md#nutrition_amino_acid_profiles/usda-sr-173424/amino_acids/tryptophan",
+    "food_record": "docs/foods/eggs.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "value": 0.153,
+      "source_row_id": "1777868",
+      "nutrient_id": "1210",
+      "data_points": 0,
+      "derivation_id": null,
+      "id": "docs/foods/eggs.md#nutrition_amino_acid_profiles/usda-sr-173424/amino_acids/tryptophan",
+      "record": "docs/foods/eggs.md#nutrition_amino_acid_profiles/usda-sr-173424/amino_acids/tryptophan",
+      "source_record": "docs/foods/eggs.md#nutrition_amino_acid_profiles/usda-sr-173424",
+      "unit": "g",
+      "display": "0.153 g",
+      "basis": "per 100 g edible portion",
+      "material": "Egg, whole, cooked, hard-boiled",
+      "preparation": "cooked",
+      "source_url": "https://fdc.nal.usda.gov/food-details/173424/nutrients",
+      "nutrition_source": {
+        "database": "USDA FoodData Central SR Legacy, April 2018",
+        "fdc_id": 173424,
+        "source_url": "https://fdc.nal.usda.gov/food-details/173424/nutrients",
+        "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+      },
+      "verified": true,
+      "rank_eligible": true,
+      "comparison_group": "edible::cooked",
+      "low": 153,
+      "high": 153,
+      "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "source_note": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy.",
+      "material_limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/eggs.md#nutrition_amino_acid_profiles/usda-sr-173424/amino_acids/tryptophan",
+        "source_url": "https://fdc.nal.usda.gov/food-details/173424/nutrients",
+        "evidence": "Explicit individual amino-acid observation; no disaggregation or inference from total protein.",
+        "limitations": "USDA database composition, including source-specific analytical or calculated values. No amino-acid-specific digestibility correction; illustrative USDA household portion, not an intake recommendation. Missing values are not treated as zero. Individual USDA composition observation in the stated food preparation. Not digestible amino-acid availability, brain delivery, conversion yield or clinical efficacy."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.25888324873096447
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "protein-amino-acid-supply",
+        "winner": true,
+        "points": 0.25888324873096447
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM1-PM1::PM1-DIT-4|docs/foods/liver.md#nutrition_per_100g/vitamin_a_rae_ug",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM1-PM1",
+    "relationship_id": "BRS5-FM1-PM1::PM1-DIT-4",
+    "admission_basis": "explicit assessment",
+    "accounting": "A",
+    "substance_id": "vitamin-a",
+    "food_id": "liver",
+    "food_name": "Liver (beef)",
+    "rsp": 100,
+    "comparison_group": "edible-mass|vitamin-a|per 100 g edible portion",
+    "material": "Beef, variety meats and by-products, liver, raw",
+    "preparation": "raw",
+    "amount": 4968,
+    "unit": "µg",
+    "basis": "per 100 g edible portion",
+    "source_id": "liver::vitamin-a::beef variety meats and by products liver raw::raw",
+    "source_record": "docs/foods/liver.md#nutrition_per_100g/vitamin_a_rae_ug",
+    "food_record": "docs/foods/liver.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Beef, variety meats and by-products, liver, raw",
+        "fdc_id": 169451,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 4968,
+      "unit": "µg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Beef, variety meats and by-products, liver, raw",
+      "preparation": "raw",
+      "record": "docs/foods/liver.md#nutrition_per_100g/vitamin_a_rae_ug",
+      "source_record": "docs/foods/liver.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/liver.md#nutrition_per_100g/vitamin_a_rae_ug",
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 4.968,
+      "high": 4.968,
+      "display": "4968 µg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/liver.md#substance_relationships/Vitamin%20A",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/169451/nutrients",
+        "source_reference": "#food-source-4",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports vitamin A as retinol activity equivalents in Beef, variety meats and by-products, liver, raw."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "vitamin-a",
+        "winner": true,
+        "points": 1
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "vitamin-a",
+        "winner": true,
+        "points": 1
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM1-PM1::PM1-DIT-4|docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_a_rae_ug",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM1-PM1",
+    "relationship_id": "BRS5-FM1-PM1::PM1-DIT-4",
+    "admission_basis": "explicit assessment",
+    "accounting": "A",
+    "substance_id": "vitamin-a",
+    "food_id": "chicken-liver",
+    "food_name": "Chicken Liver",
+    "rsp": 66.34460547504027,
+    "comparison_group": "edible-mass|vitamin-a|per 100 g edible portion",
+    "material": "Chicken, liver, all classes, raw",
+    "preparation": "raw",
+    "amount": 3296,
+    "unit": "µg",
+    "basis": "per 100 g edible portion",
+    "source_id": "chicken-liver::vitamin-a::chicken liver all classes raw::raw",
+    "source_record": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_a_rae_ug",
+    "food_record": "docs/foods/chicken-liver.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Chicken, liver, all classes, raw",
+        "fdc_id": 171060,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-11-11"
+      },
+      "value": 3296,
+      "unit": "µg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Chicken, liver, all classes, raw",
+      "preparation": "raw",
+      "record": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_a_rae_ug",
+      "source_record": "docs/foods/chicken-liver.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_a_rae_ug",
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 3.2960000000000003,
+      "high": 3.2960000000000003,
+      "display": "3296 µg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/chicken-liver.md#substance_relationships/Vitamin%20A",
+        "evidence": "USDA FoodData Central SR Legacy, published 2019-04-01",
+        "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+        "source_reference": null,
+        "citation_keys": [
+          "usda_chicken_liver_raw_sr_legacy_2019"
+        ],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports 3,296 µg RAE vitamin A per 100 g in Chicken, liver, all classes, raw (FDC 171060), of which 3,290 µg is retinol and 56 µg is beta-carotene."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "vitamin-a",
+        "winner": true,
+        "points": 0.6634460547504026
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "vitamin-a",
+        "winner": true,
+        "points": 0.6634460547504026
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM1-PM1::PM1-DIT-5|docs/foods/oysters.md#nutrition_per_100g/zinc_mg",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM1-PM1",
+    "relationship_id": "BRS5-FM1-PM1::PM1-DIT-5",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "zinc",
+    "food_id": "oysters",
+    "food_name": "Oysters",
+    "rsp": 100,
+    "comparison_group": "edible-mass|zinc|per 100 g edible portion",
+    "material": "Mollusks, oyster, eastern, wild, raw",
+    "preparation": "raw",
+    "amount": 39.3,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "oysters::zinc::mollusks oyster eastern wild raw::raw",
+    "source_record": "docs/foods/oysters.md#nutrition_per_100g/zinc_mg",
+    "food_record": "docs/foods/oysters.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Mollusks, oyster, eastern, wild, raw",
+        "fdc_id": 171978,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 39.3,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Mollusks, oyster, eastern, wild, raw",
+      "preparation": "raw",
+      "record": "docs/foods/oysters.md#nutrition_per_100g/zinc_mg",
+      "source_record": "docs/foods/oysters.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/oysters.md#nutrition_per_100g/zinc_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 39.3,
+      "high": 39.3,
+      "display": "39.3 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/oysters.md#substance_relationships/Zinc",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/171978/nutrients",
+        "source_reference": "#food-source-5",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports zinc in Mollusks, oyster, eastern, wild, raw."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "zinc",
+        "winner": true,
+        "points": 1
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "zinc",
+        "winner": true,
+        "points": 1
+      }
+    }
+  },
+  {
+    "row_id": "BRS5-FM1-PM1::PM1-DIT-5|docs/foods/wheat-germ.md#nutrition_per_100g/zinc_mg",
+    "brs": "BRS5",
+    "pm_id": "BRS5-FM1-PM1",
+    "relationship_id": "BRS5-FM1-PM1::PM1-DIT-5",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "zinc",
+    "food_id": "wheat-germ",
+    "food_name": "Wheat Germ",
+    "rsp": 31.272264631043257,
+    "comparison_group": "edible-mass|zinc|per 100 g edible portion",
+    "material": "Wheat germ, crude",
+    "preparation": null,
+    "amount": 12.29,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "wheat-germ::zinc::wheat germ crude::unspecified",
+    "source_record": "docs/foods/wheat-germ.md#nutrition_per_100g/zinc_mg",
+    "food_record": "docs/foods/wheat-germ.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Wheat germ, crude",
+        "fdc_id": 168892,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 12.29,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Wheat germ, crude",
+      "preparation": null,
+      "record": "docs/foods/wheat-germ.md#nutrition_per_100g/zinc_mg",
+      "source_record": "docs/foods/wheat-germ.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/wheat-germ.md#nutrition_per_100g/zinc_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::unspecified",
+      "low": 12.29,
+      "high": 12.29,
+      "display": "12.29 mg"
+    },
+    "source_evidence": [],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "zinc",
+        "winner": true,
+        "points": 0.31272264631043256
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "zinc",
+        "winner": true,
+        "points": 0.31272264631043256
+      }
+    }
+  }
+]

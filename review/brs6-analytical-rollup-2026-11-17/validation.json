@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Independent direct aggregation of EVERY score and rank",
+    "status": "PASS",
+    "evidence": "80 food/view scores and ranks reconstructed without scoreFoods()"
+  },
+  {
+    "name": "Independent pre-cap qualification and RSP reconstruction",
+    "status": "PASS",
+    "evidence": "40 >=20 food/form candidates; includes pools larger than ten"
+  },
+  {
+    "name": "Observed quantities/preparations/protein match canonical records",
+    "status": "PASS",
+    "evidence": "40 component rows checked against live canonical fields; no missing value is numeric zero"
+  },
+  {
+    "name": "Bounded completeness audit and no source edits",
+    "status": "PASS",
+    "evidence": "105 food/input cells; no exact-source positive omission requiring correction; no generic amino-acid or precursor substitution"
+  },
+  {
+    "name": "Deduplication, overlap, sodium, inclusive threshold, ties",
+    "status": "PASS",
+    "evidence": "Synthetic boundary/tie/duplicate/ownership tests plus every real group"
+  },
+  {
+    "name": "Incompatible pools never silently maximised",
+    "status": "PASS",
+    "evidence": "Conflicting input pools produce unresolved subtotal, not maximum"
+  },
+  {
+    "name": "Shared selector default unchanged",
+    "status": "PASS",
+    "evidence": "Exact equality with HEAD implementation for all current BRS6 source pools"
+  },
+  {
+    "name": "Frozen manifest, site data, PM records and scientific gates unchanged",
+    "status": "PASS",
+    "evidence": "Inherited tracked source/helper edits only; no PM, gate, manifest or generated-site changes. Intake preservation separately verifies no new source edits in BRS6."
+  },
+  {
+    "name": "Source hashes fresh",
+    "status": "PASS",
+    "evidence": "356 source hashes match current candidate"
+  },
+  {
+    "name": "BRS1–5 analyses preserved and scoring unchanged",
+    "status": "PASS",
+    "evidence": "688 prior food/view results identical; 90 prior artifacts byte-identical"
+  },
+  {
+    "name": "All intake scientific/source records and publication pins preserved",
+    "status": "PASS",
+    "evidence": "428 pinned intake files unchanged; only analytical scope guards extended"
+  },
+  {
+    "name": "BRS6 ownership and unranked precursor isolation",
+    "status": "PASS",
+    "evidence": "Five admissions preserved; six PMs without structured admissions flagged; resistant starch/ellagitannins unscored and no inferred Urolithin A food concentration"
+  }
+]

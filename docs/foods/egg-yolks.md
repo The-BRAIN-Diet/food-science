@@ -17,6 +17,7 @@ tags:
   - Vitamin K2
 list_image: /img/foods/egg-yolks/egg-yolks_thumb.webp
 nutrition_per_100g:
+  betaine_mg: 0.9
   tyrosine_g: 0.678
   vitamin_e_mg: 2.58
   sugar_g: 0.56
@@ -74,6 +75,63 @@ main_image: /img/foods/egg-yolks/egg-yolks_medium.webp
 legacy_list_image: /img/foods/egg-yolks/egg-yolks_thumb.webp
 legacy_main_image: /img/foods/egg-yolks/egg-yolks_medium.webp
 nutrition_supplementary_sources:
+  - key: arginine_usda_brs4_172184
+    label: Arginine
+    substance_id: arginine
+    value: 1.099
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Egg, yolk, raw, fresh
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/172184/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed arginine; nutrient 1220, row 1674730, derivation ID 1, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 172184
+    food_nutrient_id: '1674730'
+    source_derivation_id: '1'
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+  - key: glycine_usda_brs2_172184
+    label: Glycine
+    substance_id: glycine
+    value: 0.488
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Egg, yolk, raw, fresh
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/172184/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed glycine; nutrient 1225, food-nutrient row 1674753, derivation ID 1, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, tissue delivery or clinical effect inferred. Source archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 172184
+    food_nutrient_id: '1674753'
+    source_derivation_id: '1'
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+  - key: serine_usda_brs2_172184
+    label: Serine
+    substance_id: serine
+    value: 1.326
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Egg, yolk, raw, fresh
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/172184/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed serine; nutrient 1227, food-nutrient row 1674733, derivation ID 1, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, tissue delivery or clinical effect inferred. Source archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 172184
+    food_nutrient_id: '1674733'
+    source_derivation_id: '1'
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
   - key: vitamin_k2_qual
     label: Vitamin K2
     status: Present — quantity not established
@@ -199,6 +257,77 @@ substance_relationships:
     presence_status: presence_supported_amount_unavailable
     source_reference: '#food-source-6'
 substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-172184
+    material: Egg, yolk, raw, fresh
+    preparation: raw
+    food_group: animal
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 172184
+      source_url: https://fdc.nal.usda.gov/food-details/172184/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 15.86
+    protein_source_row_id: '1674771'
+    amino_acids:
+      histidine:
+        value: 0.416
+        source_row_id: '1674731'
+        nutrient_id: '1221'
+        data_points: 0
+        derivation_id: '1'
+      isoleucine:
+        value: 0.866
+        source_row_id: '1674725'
+        nutrient_id: '1212'
+        data_points: 0
+        derivation_id: '1'
+      leucine:
+        value: 1.399
+        source_row_id: '1674726'
+        nutrient_id: '1213'
+        data_points: 0
+        derivation_id: '1'
+      lysine:
+        value: 1.217
+        source_row_id: '1674727'
+        nutrient_id: '1214'
+        data_points: 0
+        derivation_id: '1'
+      methionine:
+        value: 0.378
+        source_row_id: '1674748'
+        nutrient_id: '1215'
+        data_points: 0
+        derivation_id: '1'
+      phenylalanine:
+        value: 0.681
+        source_row_id: '1674749'
+        nutrient_id: '1217'
+        data_points: 0
+        derivation_id: '1'
+      threonine:
+        value: 0.687
+        source_row_id: '1674747'
+        nutrient_id: '1211'
+        data_points: 0
+        derivation_id: '1'
+      tryptophan:
+        value: 0.177
+        source_row_id: '1674746'
+        nutrient_id: '1210'
+        data_points: 0
+        derivation_id: '1'
+      valine:
+        value: 0.949
+        source_row_id: '1674729'
+        nutrient_id: '1219'
+        data_points: 0
+        derivation_id: '1'
+    limitations: Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred.
 ---
 ## Overview
 

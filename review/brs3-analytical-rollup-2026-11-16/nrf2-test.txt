@@ -1,0 +1,215 @@
+TAP version 13
+# Subtest: every accepted structured BRS1 lever is present once, or explicitly unresolved
+ok 1 - every accepted structured BRS1 lever is present once, or explicitly unresolved # SKIP test name does not match pattern
+  ---
+  duration_ms: 1.240208
+  ...
+# Subtest: scope reads external mechanism records only for explicit BRS1 dependencies
+ok 2 - scope reads external mechanism records only for explicit BRS1 dependencies # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.055459
+  ...
+# Subtest: upstream supply resolves to accepted relationship, with no reference cycles
+ok 3 - upstream supply resolves to accepted relationship, with no reference cycles # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.046792
+  ...
+# Subtest: shared pools and constituent resources deduplicate without losing independent roles
+ok 4 - shared pools and constituent resources deduplicate without losing independent roles # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.046459
+  ...
+# Subtest: B6 conversion and independently measured milk PLP remain separate relationships
+ok 5 - B6 conversion and independently measured milk PLP remain separate relationships # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.0565
+  ...
+# Subtest: qualitative phosphatidylcholine and betaine survive without numbers
+ok 6 - qualitative phosphatidylcholine and betaine survive without numbers # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.043084
+  ...
+# Subtest: quantities are source-specific and combined analytes never split into individual amounts
+ok 7 - quantities are source-specific and combined analytes never split into individual amounts # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.04325
+  ...
+# Subtest: food and substance projections agree, no top-ten or headline eligibility loss
+ok 8 - food and substance projections agree, no top-ten or headline eligibility loss # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.160291
+  ...
+# Subtest: meal pattern remains a pattern with candidate ingredient source pointers, no nutrient substitute
+ok 9 - meal pattern remains a pattern with candidate ingredient source pointers, no nutrient substitute # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.053625
+  ...
+# Subtest: identity conflicts are explicit when present; missing supply never turns into zero
+ok 10 - identity conflicts are explicit when present; missing supply never turns into zero # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.175125
+  ...
+# Subtest: selection does not impose a precise rank on overlapping source-specific ranges
+ok 11 - selection does not impose a precise rank on overlapping source-specific ranges # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.049333
+  ...
+# Subtest: sixth field gates PM lists independently of accounting and preserves unresolved decisions
+ok 12 - sixth field gates PM lists independently of accounting and preserves unresolved decisions # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.038459
+  ...
+# Subtest: schema accepts booleans/null, rejects textual defaults and undocumented ambiguity
+ok 13 - schema accepts booleans/null, rejects textual defaults and undocumented ambiguity # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.03575
+  ...
+# Subtest: evidence disclosure projects the authoritative dietary field and note
+ok 14 - evidence disclosure projects the authoritative dietary field and note # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.13625
+  ...
+# Subtest: duplicate qualitative citations share the evidence material and retain both source pointers
+ok 15 - duplicate qualitative citations share the evidence material and retain both source pointers # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.040208
+  ...
+# Subtest: quinoa DHA hold preserves the source observation and suppresses lists without erasing other inputs
+ok 16 - quinoa DHA hold preserves the source observation and suppresses lists without erasing other inputs # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.038625
+  ...
+# Subtest: all preparations include dried and raw observations without cross-state ranking
+ok 17 - all preparations include dried and raw observations without cross-state ranking # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.199
+  ...
+# Subtest: four independent dietary-filter combinations consistently project PM/substance/food views
+ok 18 - four independent dietary-filter combinations consistently project PM/substance/food views # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.266
+  ...
+# Subtest: cooked observations are eligible and source-specific measurements remain separate
+ok 19 - cooked observations are eligible and source-specific measurements remain separate # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.066542
+  ...
+# Subtest: BRS2 generation inventories every structured atom and consumes recorded dietary decisions
+ok 20 - BRS2 generation inventories every structured atom and consumes recorded dietary decisions # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.038042
+  ...
+# Subtest: SAMe methionine gets ontology-backed high-methionine food sources
+ok 21 - SAMe methionine gets ontology-backed high-methionine food sources # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.127709
+  ...
+# Subtest: SAMe catalytic ions retain mineral identity and now pass their independently appraised capacity gates
+ok 22 - SAMe catalytic ions retain mineral identity and now pass their independently appraised capacity gates # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.034916
+  ...
+# Subtest: BRS selector uses independent datasets and shows ungenerated BRSs without fallback
+ok 23 - BRS selector uses independent datasets and shows ungenerated BRSs without fallback # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.03125
+  ...
+# Subtest: BRS3–6 inventories preserve every structured admission and keep datasets isolated
+ok 24 - BRS3–6 inventories preserve every structured admission and keep datasets isolated # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.031084
+  ...
+# Subtest: all BRSs use grouped substance context without promoting unset entries to food supplies
+ok 25 - all BRSs use grouped substance context without promoting unset entries to food supplies # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.033291
+  ...
+# Subtest: rollout records every accepted atom decision and retains evidence and precursor distinctions
+ok 26 - rollout records every accepted atom decision and retains evidence and precursor distinctions # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.027666
+  ...
+# Subtest: food strategy rollup preserves independently admitted SOP science and separate intervention scopes
+ok 27 - food strategy rollup preserves independently admitted SOP science and separate intervention scopes # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.027292
+  ...
+# Subtest: active-form section admission does not override a conflicting accepted precursor supply route
+ok 28 - active-form section admission does not override a conflicting accepted precursor supply route # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.027625
+  ...
+# Subtest: preformed 5-MTHF is dietary Yes with form-specific source observations
+ok 29 - preformed 5-MTHF is dietary Yes with form-specific source observations # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.028125
+  ...
+# Subtest: Show All BRS retains relationship roles and deduplicates canonical supplies
+ok 30 - Show All BRS retains relationship roles and deduplicates canonical supplies # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.028542
+  ...
+# Subtest: Nrf2 admits the compound separately from its preparation SOP
+ok 31 - Nrf2 admits the compound separately from its preparation SOP
+  ---
+  duration_ms: 129.988667
+  ...
+# Subtest: newer canonical source revision supersedes stale preview mappings
+ok 32 - newer canonical source revision supersedes stale preview mappings # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.06375
+  ...
+# Subtest: PM2 transport inputs retain upstream supply and food links across section numbering
+ok 33 - PM2 transport inputs retain upstream supply and food links across section numbering # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.039667
+  ...
+# Subtest: B3 forms resolve independently with shared documentation and no invented food values
+ok 34 - B3 forms resolve independently with shared documentation and no invented food values # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.035084
+  ...
+# Subtest: B3 family aliases and total-niacin amounts never become form identities or amounts
+ok 35 - B3 family aliases and total-niacin amounts never become form identities or amounts # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.032042
+  ...
+# Subtest: B3 form observations keep independent provenance and explicitly unknown preparation
+ok 36 - B3 form observations keep independent provenance and explicitly unknown preparation # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.031333
+  ...
+# Subtest: registered B3 identity is independent of documentation availability; links still verify
+ok 37 - registered B3 identity is independent of documentation availability; links still verify # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.032292
+  ...
+# Subtest: C1 four disposable Çatak observations preserve exact evidence without inventing comparability
+ok 38 - C1 four disposable Çatak observations preserve exact evidence without inventing comparability # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.031333
+  ...
+# Subtest: C1 distinct observations, exact units, explicit comparison decisions and review holds survive
+ok 39 - C1 distinct observations, exact units, explicit comparison decisions and review holds survive # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.030417
+  ...
+# Subtest: C1 public-display restrictions never admit a supplementary quantity or a new public material
+ok 40 - C1 public-display restrictions never admit a supplementary quantity or a new public material # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.033667
+  ...
+# Subtest: C1 end-to-end: disposable canonical fixtures → BRS4 JSON → qualified PM summaries
+ok 41 - C1 end-to-end: disposable canonical fixtures → BRS4 JSON → qualified PM summaries # SKIP test name does not match pattern
+  ---
+  duration_ms: 0.029625
+  ...
+1..41
+# tests 41
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 40
+# todo 0
+# duration_ms 1009.697167

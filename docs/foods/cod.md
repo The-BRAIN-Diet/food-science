@@ -88,6 +88,135 @@ substance_relationships:
     source_url: 'https://fdc.nal.usda.gov/food-details/171955/nutrients'
     presence_status: presence_supported_amount_unavailable
 substance_review_candidates: []
+nutrition_amino_acid_profiles:
+  - id: usda-sr-171955
+    material: Fish, cod, Atlantic, raw
+    preparation: raw
+    food_group: animal
+    basis: per 100 g edible portion
+    unit: g
+    source:
+      database: USDA FoodData Central SR Legacy, April 2018
+      fdc_id: 171955
+      source_url: https://fdc.nal.usda.gov/food-details/171955/nutrients
+      download_url: https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip
+      download_sha256: b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0
+    protein_g: 17.81
+    protein_source_row_id: '1653429'
+    amino_acids:
+      histidine:
+        value: 0.524
+        source_row_id: '1653450'
+        nutrient_id: '1221'
+        data_points: 0
+        derivation_id: null
+      isoleucine:
+        value: 0.821
+        source_row_id: '1653444'
+        nutrient_id: '1212'
+        data_points: 0
+        derivation_id: null
+      leucine:
+        value: 1.447
+        source_row_id: '1653445'
+        nutrient_id: '1213'
+        data_points: 0
+        derivation_id: null
+      lysine:
+        value: 1.635
+        source_row_id: '1653446'
+        nutrient_id: '1214'
+        data_points: 0
+        derivation_id: null
+      methionine:
+        value: 0.527
+        source_row_id: '1653417'
+        nutrient_id: '1215'
+        data_points: 0
+        derivation_id: null
+      phenylalanine:
+        value: 0.695
+        source_row_id: '1653418'
+        nutrient_id: '1217'
+        data_points: 0
+        derivation_id: null
+      threonine:
+        value: 0.781
+        source_row_id: '1653416'
+        nutrient_id: '1211'
+        data_points: 0
+        derivation_id: null
+      tryptophan:
+        value: 0.199
+        source_row_id: '1653415'
+        nutrient_id: '1210'
+        data_points: 0
+        derivation_id: null
+      valine:
+        value: 0.917
+        source_row_id: '1653448'
+        nutrient_id: '1219'
+        data_points: 0
+        derivation_id: null
+    limitations: Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred.
+nutrition_supplementary_sources:
+  - key: arginine_usda_brs4_171955
+    label: Arginine
+    substance_id: arginine
+    value: 1.066
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, cod, Atlantic, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171955/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed arginine; nutrient 1220, row 1653449, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, brain delivery or clinical effect inferred. Archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 171955
+    food_nutrient_id: '1653449'
+    source_derivation_id: null
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+  - key: glycine_usda_brs2_171955
+    label: Glycine
+    substance_id: glycine
+    value: 0.855
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, cod, Atlantic, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171955/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed glycine; nutrient 1225, food-nutrient row 1653422, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, tissue delivery or clinical effect inferred. Source archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 171955
+    food_nutrient_id: '1653422'
+    source_derivation_id: null
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
+  - key: serine_usda_brs2_171955
+    label: Serine
+    substance_id: serine
+    value: 0.726
+    unit: g
+    basis: per 100 g edible portion
+    evidence_material: Fish, cod, Atlantic, raw
+    preparation_state: raw
+    source_url: https://fdc.nal.usda.gov/food-details/171955/nutrients
+    source_group: USDA SR Legacy April 2018; exact food record
+    source_note: Database-listed serine; nutrient 1227, food-nutrient row 1653452, derivation ID not recorded, data points 0. Not asserted independently measured or a free-amino-acid dose. Exact material only; no digestibility, tissue delivery or clinical effect inferred. Source archive SHA-256 b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0.
+    fdc_id: 171955
+    food_nutrient_id: '1653452'
+    source_derivation_id: null
+    source_data_points: 0
+    verified: true
+    evidence_status: supported
+    rank_eligible: true
+    comparison_group: edible::source-specific
 ---
 ## Overview
 

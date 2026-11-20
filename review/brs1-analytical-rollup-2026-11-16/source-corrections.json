@@ -1,0 +1,1443 @@
+[
+  {
+    "file": "docs/foods/anchovies.md",
+    "food_id": "anchovies",
+    "edits": [
+      {
+        "field": "nutrition_amino_acid_profiles/usda-sr-174183",
+        "profile": {
+          "id": "usda-sr-174183",
+          "material": "Fish, anchovy, european, canned in oil, drained solids",
+          "preparation": "canned, drained",
+          "food_group": "animal",
+          "basis": "per 100 g edible portion",
+          "unit": "g",
+          "source": {
+            "database": "USDA FoodData Central SR Legacy, April 2018",
+            "fdc_id": 174183,
+            "source_url": "https://fdc.nal.usda.gov/food-details/174183/nutrients",
+            "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+          },
+          "protein_g": 28.89,
+          "protein_source_row_id": "1837804",
+          "amino_acids": {
+            "histidine": {
+              "value": 0.85,
+              "source_row_id": "1837754",
+              "nutrient_id": "1221",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "isoleucine": {
+              "value": 1.331,
+              "source_row_id": "1837748",
+              "nutrient_id": "1212",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "leucine": {
+              "value": 2.348,
+              "source_row_id": "1837749",
+              "nutrient_id": "1213",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "lysine": {
+              "value": 2.653,
+              "source_row_id": "1837750",
+              "nutrient_id": "1214",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "methionine": {
+              "value": 0.855,
+              "source_row_id": "1837792",
+              "nutrient_id": "1215",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "phenylalanine": {
+              "value": 1.128,
+              "source_row_id": "1837793",
+              "nutrient_id": "1217",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "threonine": {
+              "value": 1.266,
+              "source_row_id": "1837791",
+              "nutrient_id": "1211",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "tryptophan": {
+              "value": 0.324,
+              "source_row_id": "1837790",
+              "nutrient_id": "1210",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "valine": {
+              "value": 1.488,
+              "source_row_id": "1837752",
+              "nutrient_id": "1219",
+              "data_points": 0,
+              "derivation_id": null
+            }
+          },
+          "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred."
+        }
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/beef.md",
+    "food_id": "beef",
+    "edits": [
+      {
+        "field": "nutrition_amino_acid_profiles/usda-sr-171796",
+        "profile": {
+          "id": "usda-sr-171796",
+          "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+          "preparation": "raw",
+          "food_group": "animal",
+          "basis": "per 100 g edible portion",
+          "unit": "g",
+          "source": {
+            "database": "USDA FoodData Central SR Legacy, April 2018",
+            "fdc_id": 171796,
+            "source_url": "https://fdc.nal.usda.gov/food-details/171796/nutrients",
+            "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+          },
+          "protein_g": 18.59,
+          "protein_source_row_id": "1641420",
+          "amino_acids": {
+            "histidine": {
+              "value": 0.604,
+              "source_row_id": "1641414",
+              "nutrient_id": "1221",
+              "data_points": 0,
+              "derivation_id": "3"
+            },
+            "isoleucine": {
+              "value": 0.822,
+              "source_row_id": "1641408",
+              "nutrient_id": "1212",
+              "data_points": 0,
+              "derivation_id": "3"
+            },
+            "leucine": {
+              "value": 1.45,
+              "source_row_id": "1641409",
+              "nutrient_id": "1213",
+              "data_points": 0,
+              "derivation_id": "3"
+            },
+            "lysine": {
+              "value": 1.54,
+              "source_row_id": "1641410",
+              "nutrient_id": "1214",
+              "data_points": 0,
+              "derivation_id": "3"
+            },
+            "methionine": {
+              "value": 0.478,
+              "source_row_id": "1641437",
+              "nutrient_id": "1215",
+              "data_points": 0,
+              "derivation_id": "3"
+            },
+            "phenylalanine": {
+              "value": 0.725,
+              "source_row_id": "1641438",
+              "nutrient_id": "1217",
+              "data_points": 0,
+              "derivation_id": "3"
+            },
+            "threonine": {
+              "value": 0.72,
+              "source_row_id": "1641436",
+              "nutrient_id": "1211",
+              "data_points": 0,
+              "derivation_id": "3"
+            },
+            "tryptophan": {
+              "value": 0.094,
+              "source_row_id": "1641435",
+              "nutrient_id": "1210",
+              "data_points": 0,
+              "derivation_id": "3"
+            },
+            "valine": {
+              "value": 0.914,
+              "source_row_id": "1641412",
+              "nutrient_id": "1219",
+              "data_points": 0,
+              "derivation_id": "3"
+            }
+          },
+          "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred. Beef tryptophan remains 0.094 g/100 g as recorded; discrepancy versus other beef records remains unresolved. Do not generalise across cuts or preparations."
+        }
+      },
+      {
+        "field": "nutrition_per_100g.betaine_mg",
+        "value": 8.1,
+        "source_row": {
+          "id": "1641407",
+          "fdc_id": "171796",
+          "nutrient_id": "1198",
+          "amount": "8.1",
+          "data_points": "12",
+          "derivation_id": "3",
+          "min": "",
+          "max": "",
+          "median": "",
+          "footnote": "",
+          "min_year_acquired": ""
+        }
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/chicken.md",
+    "food_id": "chicken",
+    "edits": [
+      {
+        "field": "nutrition_amino_acid_profiles/usda-sr-171447",
+        "profile": {
+          "id": "usda-sr-171447",
+          "material": "Chicken, broilers or fryers, meat and skin, raw",
+          "preparation": "raw",
+          "food_group": "animal",
+          "basis": "per 100 g edible portion",
+          "unit": "g",
+          "source": {
+            "database": "USDA FoodData Central SR Legacy, April 2018",
+            "fdc_id": 171447,
+            "source_url": "https://fdc.nal.usda.gov/food-details/171447/nutrients",
+            "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+          },
+          "protein_g": 18.6,
+          "protein_source_row_id": "1610530",
+          "amino_acids": {
+            "histidine": {
+              "value": 0.544,
+              "source_row_id": "1610581",
+              "nutrient_id": "1221",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "isoleucine": {
+              "value": 0.924,
+              "source_row_id": "1610575",
+              "nutrient_id": "1212",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "leucine": {
+              "value": 1.35,
+              "source_row_id": "1610576",
+              "nutrient_id": "1213",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "lysine": {
+              "value": 1.509,
+              "source_row_id": "1610577",
+              "nutrient_id": "1214",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "methionine": {
+              "value": 0.493,
+              "source_row_id": "1610586",
+              "nutrient_id": "1215",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "phenylalanine": {
+              "value": 0.721,
+              "source_row_id": "1610587",
+              "nutrient_id": "1217",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "threonine": {
+              "value": 0.767,
+              "source_row_id": "1610585",
+              "nutrient_id": "1211",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "tryptophan": {
+              "value": 0.207,
+              "source_row_id": "1610584",
+              "nutrient_id": "1210",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "valine": {
+              "value": 0.902,
+              "source_row_id": "1610579",
+              "nutrient_id": "1219",
+              "data_points": 0,
+              "derivation_id": null
+            }
+          },
+          "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred."
+        }
+      },
+      {
+        "field": "nutrition_per_100g.betaine_mg",
+        "value": 7.8,
+        "source_row": {
+          "id": "1610508",
+          "fdc_id": "171447",
+          "nutrient_id": "1198",
+          "amount": "7.8",
+          "data_points": "1",
+          "derivation_id": "1",
+          "min": "",
+          "max": "",
+          "median": "",
+          "footnote": "",
+          "min_year_acquired": ""
+        }
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/chicken-liver.md",
+    "food_id": "chicken-liver",
+    "edits": [
+      {
+        "field": "nutrition_per_100g.tyrosine_g",
+        "value": 0.653,
+        "source_row": {
+          "id": "1576579",
+          "fdc_id": "171060",
+          "nutrient_id": "1218",
+          "amount": "0.653",
+          "data_points": "1",
+          "derivation_id": "1",
+          "min": "",
+          "max": "",
+          "median": "",
+          "footnote": "",
+          "min_year_acquired": ""
+        }
+      },
+      {
+        "field": "nutrition_amino_acid_profiles/usda-sr-171060",
+        "profile": {
+          "id": "usda-sr-171060",
+          "material": "Chicken, liver, all classes, raw",
+          "preparation": "raw",
+          "food_group": "animal",
+          "basis": "per 100 g edible portion",
+          "unit": "g",
+          "source": {
+            "database": "USDA FoodData Central SR Legacy, April 2018",
+            "fdc_id": 171060,
+            "source_url": "https://fdc.nal.usda.gov/food-details/171060/nutrients",
+            "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+          },
+          "protein_g": 16.92,
+          "protein_source_row_id": "1576560",
+          "amino_acids": {
+            "histidine": {
+              "value": 0.507,
+              "source_row_id": "1576611",
+              "nutrient_id": "1221",
+              "data_points": 1,
+              "derivation_id": "1"
+            },
+            "isoleucine": {
+              "value": 0.813,
+              "source_row_id": "1576605",
+              "nutrient_id": "1212",
+              "data_points": 1,
+              "derivation_id": "1"
+            },
+            "leucine": {
+              "value": 1.512,
+              "source_row_id": "1576606",
+              "nutrient_id": "1213",
+              "data_points": 1,
+              "derivation_id": "1"
+            },
+            "lysine": {
+              "value": 1.332,
+              "source_row_id": "1576607",
+              "nutrient_id": "1214",
+              "data_points": 1,
+              "derivation_id": "1"
+            },
+            "methionine": {
+              "value": 0.432,
+              "source_row_id": "1576577",
+              "nutrient_id": "1215",
+              "data_points": 1,
+              "derivation_id": "1"
+            },
+            "phenylalanine": {
+              "value": 0.824,
+              "source_row_id": "1576578",
+              "nutrient_id": "1217",
+              "data_points": 1,
+              "derivation_id": "1"
+            },
+            "threonine": {
+              "value": 0.725,
+              "source_row_id": "1576576",
+              "nutrient_id": "1211",
+              "data_points": 1,
+              "derivation_id": "1"
+            },
+            "tryptophan": {
+              "value": 0.176,
+              "source_row_id": "1576575",
+              "nutrient_id": "1210",
+              "data_points": 1,
+              "derivation_id": "1"
+            },
+            "valine": {
+              "value": 0.998,
+              "source_row_id": "1576609",
+              "nutrient_id": "1219",
+              "data_points": 1,
+              "derivation_id": "1"
+            }
+          },
+          "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred."
+        }
+      },
+      {
+        "field": "nutrition_per_100g.betaine_mg",
+        "value": 16.9,
+        "source_row": {
+          "id": "1576633",
+          "fdc_id": "171060",
+          "nutrient_id": "1198",
+          "amount": "16.9",
+          "data_points": "4",
+          "derivation_id": "1",
+          "min": "10.8",
+          "max": "24.8",
+          "median": "",
+          "footnote": "",
+          "min_year_acquired": ""
+        }
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/cod.md",
+    "food_id": "cod",
+    "edits": [
+      {
+        "field": "nutrition_amino_acid_profiles/usda-sr-171955",
+        "profile": {
+          "id": "usda-sr-171955",
+          "material": "Fish, cod, Atlantic, raw",
+          "preparation": "raw",
+          "food_group": "animal",
+          "basis": "per 100 g edible portion",
+          "unit": "g",
+          "source": {
+            "database": "USDA FoodData Central SR Legacy, April 2018",
+            "fdc_id": 171955,
+            "source_url": "https://fdc.nal.usda.gov/food-details/171955/nutrients",
+            "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+          },
+          "protein_g": 17.81,
+          "protein_source_row_id": "1653429",
+          "amino_acids": {
+            "histidine": {
+              "value": 0.524,
+              "source_row_id": "1653450",
+              "nutrient_id": "1221",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "isoleucine": {
+              "value": 0.821,
+              "source_row_id": "1653444",
+              "nutrient_id": "1212",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "leucine": {
+              "value": 1.447,
+              "source_row_id": "1653445",
+              "nutrient_id": "1213",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "lysine": {
+              "value": 1.635,
+              "source_row_id": "1653446",
+              "nutrient_id": "1214",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "methionine": {
+              "value": 0.527,
+              "source_row_id": "1653417",
+              "nutrient_id": "1215",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "phenylalanine": {
+              "value": 0.695,
+              "source_row_id": "1653418",
+              "nutrient_id": "1217",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "threonine": {
+              "value": 0.781,
+              "source_row_id": "1653416",
+              "nutrient_id": "1211",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "tryptophan": {
+              "value": 0.199,
+              "source_row_id": "1653415",
+              "nutrient_id": "1210",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "valine": {
+              "value": 0.917,
+              "source_row_id": "1653448",
+              "nutrient_id": "1219",
+              "data_points": 0,
+              "derivation_id": null
+            }
+          },
+          "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred."
+        }
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/herring.md",
+    "food_id": "herring",
+    "edits": [
+      {
+        "field": "nutrition_amino_acid_profiles/usda-sr-175116",
+        "profile": {
+          "id": "usda-sr-175116",
+          "material": "Fish, herring, Atlantic, raw",
+          "preparation": "raw",
+          "food_group": "animal",
+          "basis": "per 100 g edible portion",
+          "unit": "g",
+          "source": {
+            "database": "USDA FoodData Central SR Legacy, April 2018",
+            "fdc_id": 175116,
+            "source_url": "https://fdc.nal.usda.gov/food-details/175116/nutrients",
+            "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+          },
+          "protein_g": 17.96,
+          "protein_source_row_id": "1913672",
+          "amino_acids": {
+            "histidine": {
+              "value": 0.529,
+              "source_row_id": "1913731",
+              "nutrient_id": "1221",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "isoleucine": {
+              "value": 0.828,
+              "source_row_id": "1913725",
+              "nutrient_id": "1212",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "leucine": {
+              "value": 1.46,
+              "source_row_id": "1913726",
+              "nutrient_id": "1213",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "lysine": {
+              "value": 1.65,
+              "source_row_id": "1913727",
+              "nutrient_id": "1214",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "methionine": {
+              "value": 0.532,
+              "source_row_id": "1913683",
+              "nutrient_id": "1215",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "phenylalanine": {
+              "value": 0.701,
+              "source_row_id": "1913684",
+              "nutrient_id": "1217",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "threonine": {
+              "value": 0.787,
+              "source_row_id": "1913682",
+              "nutrient_id": "1211",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "tryptophan": {
+              "value": 0.201,
+              "source_row_id": "1913681",
+              "nutrient_id": "1210",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "valine": {
+              "value": 0.925,
+              "source_row_id": "1913729",
+              "nutrient_id": "1219",
+              "data_points": 0,
+              "derivation_id": null
+            }
+          },
+          "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred."
+        }
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/lamb.md",
+    "food_id": "lamb",
+    "edits": [
+      {
+        "field": "nutrition_amino_acid_profiles/usda-sr-174370",
+        "profile": {
+          "id": "usda-sr-174370",
+          "material": "Lamb, ground, raw",
+          "preparation": "raw",
+          "food_group": "animal",
+          "basis": "per 100 g edible portion",
+          "unit": "g",
+          "source": {
+            "database": "USDA FoodData Central SR Legacy, April 2018",
+            "fdc_id": 174370,
+            "source_url": "https://fdc.nal.usda.gov/food-details/174370/nutrients",
+            "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+          },
+          "protein_g": 16.56,
+          "protein_source_row_id": "1852542",
+          "amino_acids": {
+            "histidine": {
+              "value": 0.524,
+              "source_row_id": "1852539",
+              "nutrient_id": "1221",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "isoleucine": {
+              "value": 0.799,
+              "source_row_id": "1852533",
+              "nutrient_id": "1212",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "leucine": {
+              "value": 1.288,
+              "source_row_id": "1852534",
+              "nutrient_id": "1213",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "lysine": {
+              "value": 1.462,
+              "source_row_id": "1852535",
+              "nutrient_id": "1214",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "methionine": {
+              "value": 0.425,
+              "source_row_id": "1852563",
+              "nutrient_id": "1215",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "phenylalanine": {
+              "value": 0.674,
+              "source_row_id": "1852564",
+              "nutrient_id": "1217",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "threonine": {
+              "value": 0.709,
+              "source_row_id": "1852562",
+              "nutrient_id": "1211",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "tryptophan": {
+              "value": 0.193,
+              "source_row_id": "1852561",
+              "nutrient_id": "1210",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "valine": {
+              "value": 0.893,
+              "source_row_id": "1852537",
+              "nutrient_id": "1219",
+              "data_points": 0,
+              "derivation_id": null
+            }
+          },
+          "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred."
+        }
+      },
+      {
+        "field": "nutrition_per_100g.betaine_mg",
+        "value": 10.2,
+        "source_row": {
+          "id": "1852575",
+          "fdc_id": "174370",
+          "nutrient_id": "1198",
+          "amount": "10.2",
+          "data_points": "0",
+          "derivation_id": "12",
+          "min": "",
+          "max": "",
+          "median": "",
+          "footnote": "",
+          "min_year_acquired": ""
+        }
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/liver.md",
+    "food_id": "liver",
+    "edits": [
+      {
+        "field": "nutrition_amino_acid_profiles/usda-sr-169451",
+        "profile": {
+          "id": "usda-sr-169451",
+          "material": "Beef, variety meats and by-products, liver, raw",
+          "preparation": "raw",
+          "food_group": "animal",
+          "basis": "per 100 g edible portion",
+          "unit": "g",
+          "source": {
+            "database": "USDA FoodData Central SR Legacy, April 2018",
+            "fdc_id": 169451,
+            "source_url": "https://fdc.nal.usda.gov/food-details/169451/nutrients",
+            "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+          },
+          "protein_g": 20.36,
+          "protein_source_row_id": "1443305",
+          "amino_acids": {
+            "histidine": {
+              "value": 0.629,
+              "source_row_id": "1443247",
+              "nutrient_id": "1221",
+              "data_points": 1,
+              "derivation_id": "1"
+            },
+            "isoleucine": {
+              "value": 0.967,
+              "source_row_id": "1443240",
+              "nutrient_id": "1212",
+              "data_points": 1,
+              "derivation_id": "1"
+            },
+            "leucine": {
+              "value": 1.91,
+              "source_row_id": "1443241",
+              "nutrient_id": "1213",
+              "data_points": 1,
+              "derivation_id": "1"
+            },
+            "lysine": {
+              "value": 1.607,
+              "source_row_id": "1443242",
+              "nutrient_id": "1214",
+              "data_points": 1,
+              "derivation_id": "1"
+            },
+            "methionine": {
+              "value": 0.543,
+              "source_row_id": "1443228",
+              "nutrient_id": "1215",
+              "data_points": 1,
+              "derivation_id": "1"
+            },
+            "phenylalanine": {
+              "value": 1.084,
+              "source_row_id": "1443229",
+              "nutrient_id": "1217",
+              "data_points": 1,
+              "derivation_id": "1"
+            },
+            "threonine": {
+              "value": 0.869,
+              "source_row_id": "1443227",
+              "nutrient_id": "1211",
+              "data_points": 1,
+              "derivation_id": "1"
+            },
+            "tryptophan": {
+              "value": 0.263,
+              "source_row_id": "1443226",
+              "nutrient_id": "1210",
+              "data_points": 1,
+              "derivation_id": "1"
+            },
+            "valine": {
+              "value": 1.26,
+              "source_row_id": "1443245",
+              "nutrient_id": "1219",
+              "data_points": 1,
+              "derivation_id": "1"
+            }
+          },
+          "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred."
+        }
+      },
+      {
+        "field": "nutrition_per_100g.betaine_mg",
+        "value": 4.4,
+        "source_row": {
+          "id": "1443324",
+          "fdc_id": "169451",
+          "nutrient_id": "1198",
+          "amount": "4.4",
+          "data_points": "4",
+          "derivation_id": "1",
+          "min": "3",
+          "max": "6.4",
+          "median": "",
+          "footnote": "",
+          "min_year_acquired": ""
+        }
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/mackerel.md",
+    "food_id": "mackerel",
+    "edits": [
+      {
+        "field": "nutrition_amino_acid_profiles/usda-sr-175119",
+        "profile": {
+          "id": "usda-sr-175119",
+          "material": "Fish, mackerel, Atlantic, raw",
+          "preparation": "raw",
+          "food_group": "animal",
+          "basis": "per 100 g edible portion",
+          "unit": "g",
+          "source": {
+            "database": "USDA FoodData Central SR Legacy, April 2018",
+            "fdc_id": 175119,
+            "source_url": "https://fdc.nal.usda.gov/food-details/175119/nutrients",
+            "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+          },
+          "protein_g": 18.6,
+          "protein_source_row_id": "1913973",
+          "amino_acids": {
+            "histidine": {
+              "value": 0.548,
+              "source_row_id": "1913970",
+              "nutrient_id": "1221",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "isoleucine": {
+              "value": 0.857,
+              "source_row_id": "1913964",
+              "nutrient_id": "1212",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "leucine": {
+              "value": 1.512,
+              "source_row_id": "1913965",
+              "nutrient_id": "1213",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "lysine": {
+              "value": 1.708,
+              "source_row_id": "1913966",
+              "nutrient_id": "1214",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "methionine": {
+              "value": 0.551,
+              "source_row_id": "1913991",
+              "nutrient_id": "1215",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "phenylalanine": {
+              "value": 0.726,
+              "source_row_id": "1913992",
+              "nutrient_id": "1217",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "threonine": {
+              "value": 0.815,
+              "source_row_id": "1913990",
+              "nutrient_id": "1211",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "tryptophan": {
+              "value": 0.208,
+              "source_row_id": "1913989",
+              "nutrient_id": "1210",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "valine": {
+              "value": 0.958,
+              "source_row_id": "1913968",
+              "nutrient_id": "1219",
+              "data_points": 0,
+              "derivation_id": null
+            }
+          },
+          "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred."
+        }
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/pork.md",
+    "food_id": "pork",
+    "edits": [
+      {
+        "field": "nutrition_amino_acid_profiles/usda-sr-167818",
+        "profile": {
+          "id": "usda-sr-167818",
+          "material": "Pork, fresh, loin, whole, separable lean and fat, raw",
+          "preparation": "raw",
+          "food_group": "animal",
+          "basis": "per 100 g edible portion",
+          "unit": "g",
+          "source": {
+            "database": "USDA FoodData Central SR Legacy, April 2018",
+            "fdc_id": 167818,
+            "source_url": "https://fdc.nal.usda.gov/food-details/167818/nutrients",
+            "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+          },
+          "protein_g": 19.74,
+          "protein_source_row_id": "1307069",
+          "amino_acids": {
+            "histidine": {
+              "value": 0.77,
+              "source_row_id": "1307038",
+              "nutrient_id": "1221",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "isoleucine": {
+              "value": 0.91,
+              "source_row_id": "1307032",
+              "nutrient_id": "1212",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "leucine": {
+              "value": 1.572,
+              "source_row_id": "1307033",
+              "nutrient_id": "1213",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "lysine": {
+              "value": 1.766,
+              "source_row_id": "1307034",
+              "nutrient_id": "1214",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "methionine": {
+              "value": 0.514,
+              "source_row_id": "1307062",
+              "nutrient_id": "1215",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "phenylalanine": {
+              "value": 0.785,
+              "source_row_id": "1307063",
+              "nutrient_id": "1217",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "threonine": {
+              "value": 0.891,
+              "source_row_id": "1307061",
+              "nutrient_id": "1211",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "tryptophan": {
+              "value": 0.244,
+              "source_row_id": "1307060",
+              "nutrient_id": "1210",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "valine": {
+              "value": 1.064,
+              "source_row_id": "1307036",
+              "nutrient_id": "1219",
+              "data_points": 0,
+              "derivation_id": null
+            }
+          },
+          "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred."
+        }
+      },
+      {
+        "field": "nutrition_per_100g.betaine_mg",
+        "value": 3.2,
+        "source_row": {
+          "id": "1307078",
+          "fdc_id": "167818",
+          "nutrient_id": "1198",
+          "amount": "3.2",
+          "data_points": "0",
+          "derivation_id": "14",
+          "min": "",
+          "max": "",
+          "median": "",
+          "footnote": "",
+          "min_year_acquired": ""
+        }
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/salmon.md",
+    "food_id": "salmon",
+    "edits": [
+      {
+        "field": "nutrition_amino_acid_profiles/usda-sr-175167",
+        "profile": {
+          "id": "usda-sr-175167",
+          "material": "Fish, salmon, Atlantic, farmed, raw",
+          "preparation": "raw",
+          "food_group": "animal",
+          "basis": "per 100 g edible portion",
+          "unit": "g",
+          "source": {
+            "database": "USDA FoodData Central SR Legacy, April 2018",
+            "fdc_id": 175167,
+            "source_url": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
+            "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+          },
+          "protein_g": 20.42,
+          "protein_source_row_id": "1918132",
+          "amino_acids": {
+            "histidine": {
+              "value": 0.549,
+              "source_row_id": "1918064",
+              "nutrient_id": "1221",
+              "data_points": 0,
+              "derivation_id": "1"
+            },
+            "isoleucine": {
+              "value": 0.968,
+              "source_row_id": "1918058",
+              "nutrient_id": "1212",
+              "data_points": 0,
+              "derivation_id": "1"
+            },
+            "leucine": {
+              "value": 1.615,
+              "source_row_id": "1918059",
+              "nutrient_id": "1213",
+              "data_points": 0,
+              "derivation_id": "1"
+            },
+            "lysine": {
+              "value": 1.87,
+              "source_row_id": "1918060",
+              "nutrient_id": "1214",
+              "data_points": 0,
+              "derivation_id": "1"
+            },
+            "methionine": {
+              "value": 0.626,
+              "source_row_id": "1918131",
+              "nutrient_id": "1215",
+              "data_points": 0,
+              "derivation_id": "1"
+            },
+            "phenylalanine": {
+              "value": 0.845,
+              "source_row_id": "1918100",
+              "nutrient_id": "1217",
+              "data_points": 0,
+              "derivation_id": "1"
+            },
+            "threonine": {
+              "value": 0.86,
+              "source_row_id": "1918130",
+              "nutrient_id": "1211",
+              "data_points": 0,
+              "derivation_id": "1"
+            },
+            "tryptophan": {
+              "value": 0.209,
+              "source_row_id": "1918129",
+              "nutrient_id": "1210",
+              "data_points": 0,
+              "derivation_id": "1"
+            },
+            "valine": {
+              "value": 1.107,
+              "source_row_id": "1918062",
+              "nutrient_id": "1219",
+              "data_points": 0,
+              "derivation_id": "1"
+            }
+          },
+          "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred."
+        }
+      },
+      {
+        "field": "nutrition_per_100g.betaine_mg",
+        "value": 3,
+        "source_row": {
+          "id": "1918166",
+          "fdc_id": "175167",
+          "nutrient_id": "1198",
+          "amount": "3",
+          "data_points": "1",
+          "derivation_id": "1",
+          "min": "",
+          "max": "",
+          "median": "",
+          "footnote": "",
+          "min_year_acquired": ""
+        }
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/tuna.md",
+    "food_id": "tuna",
+    "edits": [
+      {
+        "field": "nutrition_amino_acid_profiles/usda-sr-173706",
+        "profile": {
+          "id": "usda-sr-173706",
+          "material": "Fish, tuna, fresh, bluefin, raw",
+          "preparation": "raw",
+          "food_group": "animal",
+          "basis": "per 100 g edible portion",
+          "unit": "g",
+          "source": {
+            "database": "USDA FoodData Central SR Legacy, April 2018",
+            "fdc_id": 173706,
+            "source_url": "https://fdc.nal.usda.gov/food-details/173706/nutrients",
+            "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+          },
+          "protein_g": 23.33,
+          "protein_source_row_id": "1800000",
+          "amino_acids": {
+            "histidine": {
+              "value": 0.687,
+              "source_row_id": "1799989",
+              "nutrient_id": "1221",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "isoleucine": {
+              "value": 1.075,
+              "source_row_id": "1799983",
+              "nutrient_id": "1212",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "leucine": {
+              "value": 1.896,
+              "source_row_id": "1799984",
+              "nutrient_id": "1213",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "lysine": {
+              "value": 2.142,
+              "source_row_id": "1799985",
+              "nutrient_id": "1214",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "methionine": {
+              "value": 0.69,
+              "source_row_id": "1800016",
+              "nutrient_id": "1215",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "phenylalanine": {
+              "value": 0.911,
+              "source_row_id": "1800017",
+              "nutrient_id": "1217",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "threonine": {
+              "value": 1.023,
+              "source_row_id": "1800015",
+              "nutrient_id": "1211",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "tryptophan": {
+              "value": 0.261,
+              "source_row_id": "1800014",
+              "nutrient_id": "1210",
+              "data_points": 0,
+              "derivation_id": null
+            },
+            "valine": {
+              "value": 1.202,
+              "source_row_id": "1799987",
+              "nutrient_id": "1219",
+              "data_points": 0,
+              "derivation_id": null
+            }
+          },
+          "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred."
+        }
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/turkey.md",
+    "food_id": "turkey",
+    "edits": [
+      {
+        "field": "nutrition_amino_acid_profiles/usda-sr-171480",
+        "profile": {
+          "id": "usda-sr-171480",
+          "material": "Turkey, whole, meat only, raw",
+          "preparation": "raw",
+          "food_group": "animal",
+          "basis": "per 100 g edible portion",
+          "unit": "g",
+          "source": {
+            "database": "USDA FoodData Central SR Legacy, April 2018",
+            "fdc_id": 171480,
+            "source_url": "https://fdc.nal.usda.gov/food-details/171480/nutrients",
+            "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+          },
+          "protein_g": 22.64,
+          "protein_source_row_id": "1613365",
+          "amino_acids": {
+            "histidine": {
+              "value": 0.614,
+              "source_row_id": "1613417",
+              "nutrient_id": "1221",
+              "data_points": 0,
+              "derivation_id": "54"
+            },
+            "isoleucine": {
+              "value": 0.649,
+              "source_row_id": "1613411",
+              "nutrient_id": "1212",
+              "data_points": 0,
+              "derivation_id": "54"
+            },
+            "leucine": {
+              "value": 1.569,
+              "source_row_id": "1613412",
+              "nutrient_id": "1213",
+              "data_points": 0,
+              "derivation_id": "54"
+            },
+            "lysine": {
+              "value": 1.868,
+              "source_row_id": "1613413",
+              "nutrient_id": "1214",
+              "data_points": 0,
+              "derivation_id": "54"
+            },
+            "methionine": {
+              "value": 0.592,
+              "source_row_id": "1613331",
+              "nutrient_id": "1215",
+              "data_points": 0,
+              "derivation_id": "54"
+            },
+            "phenylalanine": {
+              "value": 0.73,
+              "source_row_id": "1613332",
+              "nutrient_id": "1217",
+              "data_points": 0,
+              "derivation_id": "54"
+            },
+            "threonine": {
+              "value": 0.822,
+              "source_row_id": "1613330",
+              "nutrient_id": "1211",
+              "data_points": 0,
+              "derivation_id": "54"
+            },
+            "tryptophan": {
+              "value": 0.241,
+              "source_row_id": "1613329",
+              "nutrient_id": "1210",
+              "data_points": 0,
+              "derivation_id": "54"
+            },
+            "valine": {
+              "value": 0.724,
+              "source_row_id": "1613415",
+              "nutrient_id": "1219",
+              "data_points": 0,
+              "derivation_id": "54"
+            }
+          },
+          "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred."
+        }
+      }
+    ]
+  },
+  {
+    "file": "docs/foods/egg-yolks.md",
+    "food_id": "egg-yolks",
+    "edits": [
+      {
+        "field": "nutrition_amino_acid_profiles/usda-sr-172184",
+        "profile": {
+          "id": "usda-sr-172184",
+          "material": "Egg, yolk, raw, fresh",
+          "preparation": "raw",
+          "food_group": "animal",
+          "basis": "per 100 g edible portion",
+          "unit": "g",
+          "source": {
+            "database": "USDA FoodData Central SR Legacy, April 2018",
+            "fdc_id": 172184,
+            "source_url": "https://fdc.nal.usda.gov/food-details/172184/nutrients",
+            "download_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+            "download_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+          },
+          "protein_g": 15.86,
+          "protein_source_row_id": "1674771",
+          "amino_acids": {
+            "histidine": {
+              "value": 0.416,
+              "source_row_id": "1674731",
+              "nutrient_id": "1221",
+              "data_points": 0,
+              "derivation_id": "1"
+            },
+            "isoleucine": {
+              "value": 0.866,
+              "source_row_id": "1674725",
+              "nutrient_id": "1212",
+              "data_points": 0,
+              "derivation_id": "1"
+            },
+            "leucine": {
+              "value": 1.399,
+              "source_row_id": "1674726",
+              "nutrient_id": "1213",
+              "data_points": 0,
+              "derivation_id": "1"
+            },
+            "lysine": {
+              "value": 1.217,
+              "source_row_id": "1674727",
+              "nutrient_id": "1214",
+              "data_points": 0,
+              "derivation_id": "1"
+            },
+            "methionine": {
+              "value": 0.378,
+              "source_row_id": "1674748",
+              "nutrient_id": "1215",
+              "data_points": 0,
+              "derivation_id": "1"
+            },
+            "phenylalanine": {
+              "value": 0.681,
+              "source_row_id": "1674749",
+              "nutrient_id": "1217",
+              "data_points": 0,
+              "derivation_id": "1"
+            },
+            "threonine": {
+              "value": 0.687,
+              "source_row_id": "1674747",
+              "nutrient_id": "1211",
+              "data_points": 0,
+              "derivation_id": "1"
+            },
+            "tryptophan": {
+              "value": 0.177,
+              "source_row_id": "1674746",
+              "nutrient_id": "1210",
+              "data_points": 0,
+              "derivation_id": "1"
+            },
+            "valine": {
+              "value": 0.949,
+              "source_row_id": "1674729",
+              "nutrient_id": "1219",
+              "data_points": 0,
+              "derivation_id": "1"
+            }
+          },
+          "limitations": "Exact source-specific database composition; not necessarily independently measured. Per-100-g analytical profile only; no household portion or serving relevance assigned. No digestibility, brain delivery or food-level efficacy inferred."
+        }
+      },
+      {
+        "field": "nutrition_per_100g.betaine_mg",
+        "value": 0.9,
+        "source_row": {
+          "id": "1674823",
+          "fdc_id": "172184",
+          "nutrient_id": "1198",
+          "amount": "0.9",
+          "data_points": "4",
+          "derivation_id": "1",
+          "min": "",
+          "max": "",
+          "median": "",
+          "footnote": "",
+          "min_year_acquired": ""
+        }
+      }
+    ]
+  }
+]
