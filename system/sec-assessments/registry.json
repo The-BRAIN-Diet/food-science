@@ -18821,6 +18821,198 @@
         ],
         "assessmentComplete": true
       }
+    },
+    {
+      "sha256": "fb86f46c0c057efba36998fd8bed112c444bf2051b887bf04cb4f290f8fd98c6",
+      "record": {
+        "id": "brs3-fm3-pm7-f2-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS3-FM3-PM7",
+        "findingId": "PM7-F2",
+        "title": "DHA modified stimulated cytokine production after exercise",
+        "proposition": "In male soccer players, eight weeks of an almond-based beverage supplying 1.16 g DHA/day, compared with a similar unenriched beverage, attenuated selected ex vivo cytokine-production responses to LPS in peripheral blood mononuclear cells collected two hours after acute exercise.",
+        "assessmentStatus": "not-scored",
+        "assessmentComplete": false,
+        "factors": {
+          "D": 2,
+          "B": null,
+          "P": null,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "pending",
+          "P": "pending",
+          "R": "established"
+        },
+        "rawScore": null,
+        "adjustedScore": null,
+        "capRationale": "Existing rubric. No total or cap applied with unresolved factors.",
+        "unscoredReason": "The full primary methods and endpoint-specific between-group estimates and uncertainty were not accessible.",
+        "lastEvidenceAssessmentDate": "2026-11-19",
+        "humanReview": null,
+        "rationale": {
+          "D": "The trial directly tested the oral exposure, comparator, exercise context and stimulated PBMC production named in the proposition.",
+          "B": "Random assignment is reported. Allocation, concealment, masking, outcome selection and analysis safeguards remain unverified for the pivotal comparison.",
+          "P": "The abstract does not give the cytokine-specific exercise-by-treatment estimates or uncertainty. Its numerical IL-1β example concerns temperature.",
+          "R": "One exact trial. Related reports from the research group do not provide a verified independent replication of this protocol and endpoint."
+        },
+        "sources": {
+          "supporting": [
+            "capo_dha_cytokine_production_2016"
+          ],
+          "contextual": [
+            "ferguson_omega3_2014",
+            "kiecolt-glaser_omega-3_2011"
+          ],
+          "targetedChecks": [
+            {
+              "doi": "10.1007/s13105-016-0490-8",
+              "role": "Direct primary intervention evidence",
+              "access": "Primary abstract via PubMed and publisher preview. Full methods and results tables unavailable.",
+              "assessment": "The trial reports 1.16 g DHA/day, n=15, and erythrocyte DHA increasing from 34 ± 3.6 to 43 ± 3.6 nmol per billion erythrocytes in the DHA group."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://doi.org/10.1007/s13105-016-0490-8",
+              "limitation": "Target article is subscription-restricted. Scite full-text lookup returned an account usage limit."
+            }
+          ],
+          "contradictoryAssessment": "Temperature-induced production was not attenuated. Ferguson and Kiecolt-Glaser tested different exposures or endpoints and do not replicate this contrast."
+        },
+        "limitations": [
+          "Fifteen participants. The primary abstract reports attenuation of the exercise response and no attenuation of the temperature-induced response. Exact between-group contrasts, assay conditions and design safeguards require the full paper. The ex vivo result does not establish an effect on circulating cytokine intensity."
+        ],
+        "methodology": {
+          "name": "Scientific Evidence Confidence: Directness + Bias Protection + Precision + Replication",
+          "version": "Existing D/B/P/R rubric with approved completeness extension",
+          "source": "system/sec-assessments/README.md"
+        },
+        "process": "Codex primary-source appraisal and independent reassessment of dietary admission.",
+        "history": [
+          {
+            "date": "2026-11-19",
+            "decision": "Retained PM7-F2 at its ex vivo scope. Withdrew active Type B placement because circulating engagement was unestablished."
+          }
+        ],
+        "previousAssessments": [],
+        "completenessVersion": 1,
+        "assessmentGaps": [
+          {
+            "id": "PM7-F2-ASSESSMENT-BP-1",
+            "pmId": "BRS3-FM3-PM7",
+            "findingId": "PM7-F2",
+            "dimensions": [
+              "B",
+              "P"
+            ],
+            "sources": [
+              "capo_dha_cytokine_production_2016"
+            ],
+            "reason": "Full pivotal methods and exercise-by-treatment contrasts were not verified.",
+            "resolutionAction": "Retrieve full primary methods and tables. Verify allocation, masking, assay conditions, analysis, and marker-specific between-group estimates and uncertainty.",
+            "status": "pending",
+            "attempts": [
+              {
+                "date": "2026-11-19",
+                "action": "Publisher HTML and PDF, PubMed, OpenAlex locations and Scite full-text lookup.",
+                "outcome": "Primary abstract available. Publisher full text subscription-restricted, no open copy indexed, and Scite usage limit reached."
+              }
+            ],
+            "history": [
+              {
+                "date": "2026-11-19",
+                "decision": "Recorded incomplete appraisal. Bias protection and precision remain pending."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "sha256": "3ae81e55ecaa3c0951f814788ef4fc10debba5786854a93273773b3e0a22c40e",
+      "record": {
+        "id": "brs3-fm3-pm7-pm7-sop-epa-dha-tan-1-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS3-FM3-PM7",
+        "interventionId": "PM7-SOP-EPA-DHA-TAN-1",
+        "title": "Tested EPA+DHA protocol with shared aspirin",
+        "proposition": "In adults with chronic venous leg ulcers, eight weeks of five softgels daily providing approximately 1.62 g EPA, 1.09 g DHA and 0.24 g n‑3 DPA lowered fasting plasma IL‑6, IL‑1β and TNF‑α at weeks 4 and 8 compared with matched light mineral-oil placebo, with both arms taking 81 mg/day aspirin.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "capRationale": "Existing D/B/P/R sum and ceilings applied; no extra replication decrement.",
+        "unscoredReason": null,
+        "lastEvidenceAssessmentDate": "2026-11-19",
+        "humanReview": null,
+        "rationale": {
+          "D": "Direct plasma outcomes in the specified cohort and time frame. Companion Table 2 establishes the analysed formulation in the same trial.",
+          "B": "Randomization, masking and baseline adjustment provide protection. Differential attrition and baseline imbalance limit attribution.",
+          "P": "Six baseline-adjusted comparisons and standard errors for between-arm changes support the direction. The small sample and missing adjusted follow-up effect sizes limit precision.",
+          "R": "The companion analysis uses the same parent trial. One dataset tested the scoped proposition."
+        },
+        "sources": {
+          "supporting": [
+            "tan_epa_dha_cytokines_2018"
+          ],
+          "contextual": [
+            "pmc9022442_secondary_omega3_2021"
+          ],
+          "targetedChecks": [
+            {
+              "doi": "10.1016/j.plefa.2018.03.010",
+              "role": "Primary cytokine outcome evidence",
+              "access": "Primary author manuscript, sections 2–4 and Table 3",
+              "assessment": "Fasting plasma IL‑6, IL‑1β and TNF‑α were lower at weeks 4 and 8 versus mineral-oil placebo after baseline adjustment."
+            },
+            {
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9022442/",
+              "role": "Composition only, same trial",
+              "access": "Primary companion analysis, Table 2",
+              "assessment": "Five softgels daily for eight weeks with the evening meal, providing approximately 1.62 g EPA, 1.09 g DHA and 0.24 g n‑3 DPA per day. Both arms took 81 mg/day aspirin.",
+              "doi": "10.1016/j.plefa.2021.102302"
+            }
+          ],
+          "retrievalLimited": [],
+          "contradictoryAssessment": "Ferguson tested evoked endotoxemia in healthy participants with a different protocol and did not find significant individual cytokine effects."
+        },
+        "limitations": [
+          "Small double-blind pilot. Analysed n=35 of 40 (16/21 supplement, 19/19 placebo). All three cytokines started higher in the supplement arm. Baseline adjustment addressed imbalance, with limited robustness reporting.",
+          "Adjusted follow-up tests support direction. Adjusted effect sizes and confidence intervals were not separately reported.",
+          "The analysed formulation was tested with shared aspirin. Effects without aspirin, at other doses or from ordinary foods remain unestablished.",
+          "Study-specific plasma concentrations over eight weeks. Receptor signalling, long-term effects and clinical benefit were not established."
+        ],
+        "methodology": {
+          "name": "Scientific Evidence Confidence: Directness + Bias Protection + Precision + Replication",
+          "version": "Existing D/B/P/R rubric with approved completeness extension",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "process": "Codex appraisal of the exact intervention–outcome proposition; qualified admission adjudicated separately.",
+        "history": [
+          {
+            "date": "2026-11-19",
+            "decision": "Pinned existing provisional 4/8 appraisal of the analysed blend for qualified PM7 admission."
+          }
+        ],
+        "previousAssessments": [],
+        "completenessVersion": 1,
+        "assessmentGaps": [],
+        "stoppingRationale": "One pilot supports a bounded concentration effect under the shared-aspirin protocol."
+      }
     }
   ]
 }
