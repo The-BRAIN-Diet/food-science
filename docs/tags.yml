@@ -1981,3 +1981,7 @@ Phytate:
 Oxalate:
   label: Oxalate
   description: Oxalate forms, food occurrence and qualified mineral interactions.
+
+Caffeine:
+  label: Caffeine
+  description: Caffeine identity and evidence-qualified relationships; not a recommendation to consume.

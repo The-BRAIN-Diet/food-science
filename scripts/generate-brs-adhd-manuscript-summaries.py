@@ -77,6 +77,7 @@ ALLOSTASIS_FRAMEWORK_DISCUSSION = (
     "methodological: one structured, scientifically falsifiable architecture "
     "through which nutritional science can formulate and investigate hypotheses "
     "about adaptive regulation.\n\n"
+    "BRAIN’s many-to-many mechanism–phenome architecture is compatible with multifinality and equifinality. It can represent biological contributions relevant to several functional domains, and different biological contributions relevant to the same domain. Multifinality concerns similar disturbances contributing to different outcomes across individuals; equifinality concerns similar outcomes arising through different pathways. The mappings provide a structure for organising evidence and investigating these possibilities, not person-level proof of either phenomenon. Establishing them requires evidence about the relevant pathways, contexts and individual outcomes beyond network topology. Neither shared mappings nor overlapping phenomes establish a shared cause or a common dietary treatment response.\n\n"
     "Picard et al. (2018) and Picard & Shirihai (2022) illustrate how such "
     "coordination may operate at the cellular level. Their mitochondrial "
     "information processing system proposes that mitochondria continuously sense, "

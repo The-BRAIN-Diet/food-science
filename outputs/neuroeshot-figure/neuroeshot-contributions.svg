@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="910" viewBox="0 0 1500 910"><rect width="1500" height="910" fill="white"/><style>text{font-family:Arial,Helvetica,sans-serif;fill:#172333} .h{font-size:21px;font-weight:700}.t{font-size:19px}.s{font-size:16px;fill:#405164}.small{font-size:15px;fill:#405164}</style>
+<text x="40" y="43" class="h">Neuroe-Shot | Serving contributions and biological connections</text>
+<text x="40" y="74" class="s">One serving: 15 g salted salmon roe + 7.5 ml lemon juice + 2 ml fermented hot sauce</text>
+<text x="40" y="119" class="h">INGREDIENT</text>
+<text x="460" y="119" class="h">SUBSTANCE / SERVING</text>
+<text x="990" y="119" class="h">PM / RESEARCH CONTEXT</text>
+<path d="M280,290 C370.0,290 370.0,200 460,200" fill="none" fill-opacity="0" stroke="#084df5" stroke-width="6" opacity="0.8"/>
+<path d="M800,200 C895.0,200 895.0,200 990,200" fill="none" fill-opacity="0" stroke="#084df5" stroke-width="6" opacity="0.8"/>
+<path d="M280,290 C370.0,290 370.0,300 460,300" fill="none" fill-opacity="0" stroke="#07da79" stroke-width="6" opacity="0.8"/>
+<path d="M800,300 C895.0,300 895.0,300 990,300" fill="none" fill-opacity="0" stroke="#07da79" stroke-width="6" opacity="0.8"/>
+<path d="M280,290 C370.0,290 370.0,400 460,400" fill="none" fill-opacity="0" stroke="#f00802" stroke-width="6" opacity="0.8"/>
+<path d="M800,400 C895.0,400 895.0,400 990,400" fill="none" fill-opacity="0" stroke="#f00802" stroke-width="6" opacity="0.8"/>
+<path d="M280,590 C370.0,590 370.0,550 460,550" fill="none" fill-opacity="0" stroke="#f00802" stroke-width="6" opacity="0.8"/>
+<path d="M800,550 C895.0,550 895.0,550 990,550" fill="none" fill-opacity="0" stroke="#f00802" stroke-width="6" opacity="0.8"/>
+<path d="M280,590 C370.0,590 370.0,650 460,650" fill="none" fill-opacity="0" stroke="#8a929f" stroke-width="6" opacity="0.8" stroke-dasharray="9 7"/>
+<path d="M800,650 C895.0,650 895.0,650 990,650" fill="none" fill-opacity="0" stroke="#8a929f" stroke-width="6" opacity="0.8" stroke-dasharray="9 7"/>
+<path d="M280,750 C370.0,750 370.0,750 460,750" fill="none" fill-opacity="0" stroke="#8a929f" stroke-width="6" opacity="0.8" stroke-dasharray="9 7"/>
+<path d="M800,750 C895.0,750 895.0,750 990,750" fill="none" fill-opacity="0" stroke="#8a929f" stroke-width="6" opacity="0.8" stroke-dasharray="9 7"/>
+<rect x="40" y="245" width="240" height="90" rx="7" fill="#fafbfd" stroke="#cbd2db"/><rect x="40" y="245" width="6" height="90" rx="2" fill="#b5bdc7"/>
+<text x="57" y="273" class="h">Salmon roe - 15 g</text>
+<text x="57" y="298" class="s">Meaningful nutrition</text>
+<rect x="40" y="545" width="240" height="90" rx="7" fill="#fafbfd" stroke="#cbd2db"/><rect x="40" y="545" width="6" height="90" rx="2" fill="#b5bdc7"/>
+<text x="57" y="573" class="h">Lemon juice - 7.5 ml</text>
+<text x="57" y="598" class="s">Minor / unestablished</text>
+<rect x="40" y="705" width="240" height="90" rx="7" fill="#fafbfd" stroke="#cbd2db"/><rect x="40" y="705" width="6" height="90" rx="2" fill="#b5bdc7"/>
+<text x="57" y="733" class="h">Hot sauce - 2 ml</text>
+<text x="57" y="758" class="s">Sensory example</text>
+<rect x="460" y="165" width="340" height="77" rx="7" fill="#fafbfd" stroke="#cbd2db"/><rect x="460" y="165" width="6" height="77" rx="2" fill="#084df5"/>
+<text x="477" y="193" class="h">DHA - 300 mg</text>
+<text x="477" y="218" class="s">Meaningful EPA+DHA contribution</text>
+<rect x="990" y="165" width="470" height="77" rx="7" fill="#fafbfd" stroke="#cbd2db"/><rect x="990" y="165" width="6" height="77" rx="2" fill="#084df5"/>
+<text x="1007" y="193" class="h">BRS1-FM3-PM7</text>
+<text x="1007" y="218" class="s">Neuronal membrane DHA incorporation</text>
+<rect x="460" y="265" width="340" height="77" rx="7" fill="#fafbfd" stroke="#cbd2db"/><rect x="460" y="265" width="6" height="77" rx="2" fill="#07da79"/>
+<text x="477" y="293" class="h">Vitamin B12 - 7.05 µg</text>
+<text x="477" y="318" class="s">Meaningful - 294% adult RDA</text>
+<rect x="990" y="265" width="470" height="77" rx="7" fill="#fafbfd" stroke="#cbd2db"/><rect x="990" y="265" width="6" height="77" rx="2" fill="#07da79"/>
+<text x="1007" y="293" class="h">BRS2-FM1-PM1</text>
+<text x="1007" y="318" class="s">Folate/B12-dependent remethylation</text>
+<rect x="460" y="365" width="340" height="77" rx="7" fill="#fafbfd" stroke="#cbd2db"/><rect x="460" y="365" width="6" height="77" rx="2" fill="#f00802"/>
+<text x="477" y="393" class="h">EPA - 240 mg</text>
+<text x="477" y="418" class="s">Meaningful EPA+DHA contribution</text>
+<rect x="990" y="365" width="470" height="77" rx="7" fill="#fafbfd" stroke="#cbd2db"/><rect x="990" y="365" width="6" height="77" rx="2" fill="#f00802"/>
+<text x="1007" y="393" class="h">BRS3-FM3-PM8</text>
+<text x="1007" y="418" class="s">Eicosanoid / SPM balance</text>
+<rect x="460" y="515" width="340" height="77" rx="7" fill="#fafbfd" stroke="#cbd2db"/><rect x="460" y="515" width="6" height="77" rx="2" fill="#f00802"/>
+<text x="477" y="543" class="h">Vitamin C - 2.98 mg</text>
+<text x="477" y="568" class="s">Minor - 3.31% reference RDA</text>
+<rect x="990" y="515" width="470" height="77" rx="7" fill="#fafbfd" stroke="#cbd2db"/><rect x="990" y="515" width="6" height="77" rx="2" fill="#f00802"/>
+<text x="1007" y="543" class="h">BRS3-FM2-PM6</text>
+<text x="1007" y="568" class="s">Antioxidant network recycling</text>
+<rect x="460" y="615" width="340" height="77" rx="7" fill="#fafbfd" stroke="#cbd2db"/><rect x="460" y="615" width="6" height="77" rx="2" fill="#8a929f"/>
+<text x="477" y="643" class="h">Eriocitrin - amount unknown</text>
+<text x="477" y="668" class="s">Serving relevance unestablished</text>
+<rect x="990" y="615" width="470" height="77" rx="7" fill="#fafbfd" stroke="#cbd2db"/><rect x="990" y="615" width="6" height="77" rx="2" fill="#8a929f"/>
+<text x="1007" y="643" class="h">Research context - PM unassigned</text>
+<text x="1007" y="668" class="s">Experimental lipid / mitochondrial effects</text>
+<rect x="460" y="715" width="340" height="77" rx="7" fill="#fafbfd" stroke="#cbd2db"/><rect x="460" y="715" width="6" height="77" rx="2" fill="#8a929f"/>
+<text x="477" y="743" class="h">Capsaicin - amount unknown</text>
+<text x="477" y="768" class="s">Sensory action; serving response unknown</text>
+<rect x="990" y="715" width="470" height="77" rx="7" fill="#fafbfd" stroke="#cbd2db"/><rect x="990" y="715" width="6" height="77" rx="2" fill="#8a929f"/>
+<text x="1007" y="743" class="h">TRPV1 sensory signalling</text>
+<text x="1007" y="768" class="s">PM unassigned; no accepted BRS edge</text>
+<line x1="330" y1="475" x2="1460" y2="475" stroke="#d4dae1"/>
+<text x="460" y="458" class="small">Meaningful nutritional contributions</text>
+<text x="460" y="499" class="small">Three minor or unestablished examples</text>
+<text x="40" y="838" class="s">Solid coloured chords: existing PM relationship. Dashed grey: constituent / research context only.</text>
+<text x="40" y="863" class="s">Equal chord widths do not encode quantity, confidence or efficacy. Nutritional supply does not demonstrate a recipe-level PM effect.</text>
+<text x="40" y="888" class="small">EPA+DHA: 540 mg combined; EFSA adult AI 250 mg/day. B12 RDA: 2.4 µg/day; vitamin C reference: 90 mg/day.</text>
+</svg>

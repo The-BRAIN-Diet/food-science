@@ -1,0 +1,40 @@
+TAP version 13
+# Subtest: mission and all existing Findings, SOPs and Lifestyle records unchanged
+ok 1 - mission and all existing Findings, SOPs and Lifestyle records unchanged
+  ---
+  duration_ms: 1.136959
+  ...
+# Subtest: bounded Type B admitted; no invented identity or SOP
+ok 2 - bounded Type B admitted; no invented identity or SOP
+  ---
+  duration_ms: 0.116959
+  ...
+# Subtest: Finding, citations and traceability validate
+ok 3 - Finding, citations and traceability validate
+  ---
+  duration_ms: 2.899917
+  ...
+# Subtest: protected ranked outputs, SEC, bibliography and QC unchanged
+ok 4 - protected ranked outputs, SEC, bibliography and QC unchanged
+  ---
+  duration_ms: 62.938209
+  ...
+# Subtest: MDX compiles
+ok 5 - MDX compiles
+  ---
+  duration_ms: 51.4055
+  ...
+# Subtest: caffeine registry, page and generated resolver agree without science changes
+ok 6 - caffeine registry, page and generated resolver agree without science changes
+  ---
+  duration_ms: 17.283375
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 386.759792

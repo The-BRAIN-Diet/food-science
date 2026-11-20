@@ -123,7 +123,7 @@ function buildPmReferenceKeyIndex(references: string[] = []): Map<string, Eviden
     const key = match ? String(match[2]).trim() : null;
     if (!key || index.has(key)) continue;
     index.set(key, {
-      number: index.size + 1,
+      number: Number(String(line).match(/^\[(\d+)\]\s/)?.[1] || index.size + 1),
       label: String(match?.[1] || "").trim(),
       authorYear: String(match?.[1] || "")
         .split(/\s+[—–-]\s+/)[0]
@@ -238,7 +238,7 @@ function evidenceSourceReferences(
   if (!directHref) return unique;
   return unique.map((ref) => ({
     ...ref,
-    href: String(references[ref.number - 1] || "").match(/\]\(([^)]+)\)/)?.[1],
+    href: String(references.find((line, i) => Number(String(line).match(/^\[(\d+)\]\s/)?.[1] || i + 1) === ref.number) || "").match(/\]\(([^)]+)\)/)?.[1],
   }));
 }
 

@@ -1,3 +1,4 @@
+import {findingAssociations} from './pmAssociationPilot.mjs';
 import {isScientificPrinciple} from './scientificPrinciples.mjs';
 /** Reader labels are derived; canonical identities and anchors never change. */
 export function shortFindingId(id) {
@@ -12,6 +13,8 @@ export function activeFindingNumber(data, id) {
 }
 
 export function findingReaderLabel(finding, data) {
+  const association=findingAssociations(data,finding?.id);
+  if(association) return association.label;
   const label=String(finding?.finding_label || '').trim();
   const number=activeFindingNumber(data,finding?.id);
   const id=number ? `SF${number}` : shortFindingId(finding?.id);

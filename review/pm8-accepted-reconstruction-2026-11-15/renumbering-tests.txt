@@ -1,0 +1,110 @@
+TAP version 13
+# Subtest: docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx
+ok 1 - docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx
+  ---
+  duration_ms: 141.126958
+  ...
+# Subtest: docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx
+ok 2 - docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx
+  ---
+  duration_ms: 198.587625
+  ...
+# Subtest: docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx
+ok 3 - docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx
+  ---
+  duration_ms: 766.143833
+  ...
+# Subtest: docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx
+ok 4 - docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx
+  ---
+  duration_ms: 313.446708
+  ...
+# Subtest: docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx
+ok 5 - docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx
+  ---
+  duration_ms: 265.802542
+  ...
+# Subtest: docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx
+ok 6 - docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx
+  ---
+  duration_ms: 351.821583
+  ...
+# Subtest: docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx
+ok 7 - docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx
+  ---
+  duration_ms: 284.078791
+  ...
+# Subtest: docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx
+ok 8 - docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx
+  ---
+  duration_ms: 109.23825
+  ...
+# Subtest: seven exact Findings retain every appraisal, source quantity, limitation and SEC reference
+ok 9 - seven exact Findings retain every appraisal, source quantity, limitation and SEC reference
+  ---
+  duration_ms: 1034.086625
+  ...
+# Subtest: accepted science and admissions are unchanged
+ok 10 - accepted science and admissions are unchanged
+  ---
+  duration_ms: 5.567709
+  ...
+# Subtest: retired content is archived, not hidden in active frontmatter or generated body
+ok 11 - retired content is archived, not hidden in active frontmatter or generated body
+  ---
+  duration_ms: 1.977625
+  ...
+# Subtest: associations resolve only to retained scope and accepted outputs
+ok 12 - associations resolve only to retained scope and accepted outputs
+  ---
+  duration_ms: 0.566041
+  ...
+# Subtest: 27 references consecutively numbered in first rendered citation order
+ok 13 - 27 references consecutively numbered in first rendered citation order
+  ---
+  duration_ms: 5.72975
+  ...
+# Subtest: stable numbering fails closed on duplicate IDs and nonexistent citation anchors
+ok 14 - stable numbering fails closed on duplicate IDs and nonexistent citation anchors
+  ---
+  duration_ms: 1.597459
+  ...
+# Subtest: ranking, viewer data, shared bibliography, SEC and QC inputs remain byte-identical
+ok 15 - ranking, viewer data, shared bibliography, SEC and QC inputs remain byte-identical
+  ---
+  duration_ms: 174.912708
+  ...
+# Subtest: active generated records contain no retired PM8 hypothesis or Finding IDs
+ok 16 - active generated records contain no retired PM8 hypothesis or Finding IDs
+  ---
+  duration_ms: 152.864292
+  ...
+# Subtest: only PM8 projection regenerated; deterministic findings and valid MDX
+ok 17 - only PM8 projection regenerated; deterministic findings and valid MDX
+  ---
+  duration_ms: 490.811209
+  ...
+# Subtest: all viewer ranks and observations equal the canonical snapshot
+ok 18 - all viewer ranks and observations equal the canonical snapshot
+  ---
+  duration_ms: 2.580375
+  ...
+# Subtest: stale combined data cannot bypass publication filtering
+ok 19 - stale combined data cannot bypass publication filtering
+  ---
+  duration_ms: 3.011833
+  ...
+# Subtest: changed power is detected even when edge counts match
+ok 20 - changed power is detected even when edge counts match
+  ---
+  duration_ms: 1.337334
+  ...
+1..20
+# tests 20
+# suites 0
+# pass 20
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2758.086291

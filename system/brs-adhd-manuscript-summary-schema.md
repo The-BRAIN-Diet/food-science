@@ -172,6 +172,12 @@ Preceding the six BRS summaries, the document includes a standalone conceptual s
 6. **Phenome bridge** — One concise sentence: clinically interpretable link between biological regulation and cognitive, emotional and behavioural outcomes.
 7. **Closing thesis** — Contribution is a translational nutritional architecture, not a new theory of allostasis.
 
+### Approved mechanism–phenome clarification (15 November 2026)
+
+Place after the conceptual section’s phenome-bridge paragraph. This is an architectural-capacity statement, not an empirical claim of person-level multifinality or equifinality. No changes to ontology, mappings or confidence scores follow.
+
+BRAIN’s many-to-many mechanism–phenome architecture is compatible with multifinality and equifinality. It can represent biological contributions relevant to several functional domains, and different biological contributions relevant to the same domain. Multifinality concerns similar disturbances contributing to different outcomes across individuals; equifinality concerns similar outcomes arising through different pathways. The mappings provide a structure for organising evidence and investigating these possibilities, not person-level proof of either phenomenon. Establishing them requires evidence about the relevant pathways, contexts and individual outcomes beyond network topology. Neither shared mappings nor overlapping phenomes establish a shared cause or a common dietary treatment response.
+
 **References (conceptual section only):** Sterling & Eyer (1988); McEwen & Wingfield (2003); McEwen (2006); Picard et al. (2018); Picard & Shirihai (2022).
 
 ---

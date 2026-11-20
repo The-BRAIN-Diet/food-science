@@ -1,0 +1,462 @@
+[
+  {
+    "path": "CURRENT-HANDOFF.md",
+    "status": "included"
+  },
+  {
+    "path": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx",
+    "status": "included"
+  },
+  {
+    "path": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
+    "status": "included"
+  },
+  {
+    "path": "docs/recipes/Snacks/neuroeshot.md",
+    "status": "included"
+  },
+  {
+    "path": "docs/tags.yml",
+    "status": "included"
+  },
+  {
+    "path": "registry/substances.json",
+    "status": "included"
+  },
+  {
+    "path": "review/rapid-stage2ab-2026-10-23/manuscript-synthesis.md",
+    "status": "included"
+  },
+  {
+    "path": "scripts/generate-brs-adhd-manuscript-summaries.py",
+    "status": "included"
+  },
+  {
+    "path": "scripts/lib/dietary-lever-disclosure.mjs",
+    "status": "included"
+  },
+  {
+    "path": "scripts/lib/pm-reference-index.mjs",
+    "status": "included"
+  },
+  {
+    "path": "scripts/out/framework-qc/framework-qc-public.json",
+    "status": "archived-generated; approved main QC projection retained"
+  },
+  {
+    "path": "scripts/out/framework-qc/page-review-register.json",
+    "status": "archived-generated; approved main QC projection retained"
+  },
+  {
+    "path": "scripts/out/framework-qc/page-review-report.md",
+    "status": "archived-generated; approved main QC projection retained"
+  },
+  {
+    "path": "scripts/out/framework-qc/review-queue.html",
+    "status": "archived-generated; approved main QC projection retained"
+  },
+  {
+    "path": "scripts/pm8-evidence-tabs.test.mjs",
+    "status": "included"
+  },
+  {
+    "path": "src/components/EvidenceGaps/Audit.tsx",
+    "status": "included"
+  },
+  {
+    "path": "src/components/EvidenceGaps/index.tsx",
+    "status": "included"
+  },
+  {
+    "path": "src/components/ReviewCorrections/DocUtilityBar.tsx",
+    "status": "included"
+  },
+  {
+    "path": "src/components/ScientificFinding.tsx",
+    "status": "included"
+  },
+  {
+    "path": "src/components/ScientificHypothesis.tsx",
+    "status": "included"
+  },
+  {
+    "path": "src/css/custom.css",
+    "status": "included"
+  },
+  {
+    "path": "src/data/brs-xInputMapping.generated.json",
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
+  },
+  {
+    "path": "src/data/brs1InputMapping.generated.json",
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
+  },
+  {
+    "path": "src/data/brs2InputMapping.generated.json",
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
+  },
+  {
+    "path": "src/data/brs3InputMapping.generated.json",
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
+  },
+  {
+    "path": "src/data/brs4InputMapping.generated.json",
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
+  },
+  {
+    "path": "src/data/brs5InputMapping.generated.json",
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
+  },
+  {
+    "path": "src/data/brs6InputMapping.generated.json",
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
+  },
+  {
+    "path": "src/data/framework-qc-public.generated.json",
+    "status": "archived-generated; approved main QC projection retained"
+  },
+  {
+    "path": "src/data/substance-input-pages.json",
+    "status": "included"
+  },
+  {
+    "path": "src/lib/dietaryLeverDisclosure.ts",
+    "status": "included"
+  },
+  {
+    "path": "src/lib/scientificFindingPresentation.mjs",
+    "status": "included"
+  },
+  {
+    "path": "static/bibtex/BRAIN-diet.bib",
+    "status": "included"
+  },
+  {
+    "path": "system/brs-adhd-manuscript-summary-schema.md",
+    "status": "included"
+  },
+  {
+    "path": "system/dietary-input-traceability-contract.md",
+    "status": "included"
+  },
+  {
+    "path": "system/generated/brs-x-input-substance-food/mapping.generated.json",
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
+  },
+  {
+    "path": "system/generated/brs1-input-substance-food/mapping.generated.json",
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
+  },
+  {
+    "path": "system/generated/brs2-input-substance-food/mapping.generated.json",
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
+  },
+  {
+    "path": "system/generated/brs3-input-substance-food/mapping.generated.json",
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
+  },
+  {
+    "path": "system/generated/brs4-input-substance-food/mapping.generated.json",
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
+  },
+  {
+    "path": "system/generated/brs5-input-substance-food/mapping.generated.json",
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
+  },
+  {
+    "path": "system/generated/brs6-input-substance-food/mapping.generated.json",
+    "status": "preserved in mapping-metadata.patch.gz; active file unchanged from main (timestamp-only difference)"
+  },
+  {
+    "path": "system/pm-evidence-tabs-contract.md",
+    "status": "included"
+  },
+  {
+    "path": "system/presentation-change-control.md",
+    "status": "included"
+  },
+  {
+    "path": "system/primary-mechanism-schema.md",
+    "status": "included"
+  },
+  {
+    "path": "system/scientific-finding-schema.md",
+    "status": "included"
+  },
+  {
+    "path": "system/templates/primary-mechanism-template.mdx",
+    "status": "included"
+  },
+  {
+    "path": "local-preview.log",
+    "status": "local-operational-file; preserved in original export"
+  },
+  {
+    "path": "neuroeshot-preview.log",
+    "status": "local-operational-file; preserved in original export"
+  },
+  {
+    "path": "pm8-preview.log",
+    "status": "local-operational-file; preserved in original export"
+  },
+  {
+    "path": "remote-preview-verification.json",
+    "status": "local-operational-file; preserved in original export"
+  },
+  {
+    "path": "LOCAL-RECOVERY.md",
+    "status": "local-operational-file; preserved in original export"
+  },
+  {
+    "path": "recovery-tests.log",
+    "status": "local-operational-file; preserved in original export"
+  },
+  {
+    "path": "PHENOME-PR-SHA",
+    "status": "local-operational-file; preserved in original export"
+  },
+  {
+    "path": "verify-remote-preview.mjs",
+    "status": "local-operational-file; preserved in original export"
+  },
+  {
+    "path": "docs/substances/bioactive-compounds/alkaloids/caffeine.md",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-sf1-summary-removal-2026-11-15/report.md",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-sf1-summary-removal-2026-11-15/pm8-before.mdx",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-accepted-reconstruction-2026-11-15/tests.txt",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-accepted-reconstruction-2026-11-15/report.md",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-accepted-reconstruction-2026-11-15/renumbering-tests.txt",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-accepted-reconstruction-2026-11-15/reference-renumbering.json",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-accepted-reconstruction-2026-11-15/existing-tests.txt",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-accepted-reconstruction-2026-11-15/protected-hashes.json",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-accepted-reconstruction-2026-11-15/before-renumbering.mdx",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-accepted-reconstruction-2026-11-15/sf-renumbering-tests.txt",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-accepted-reconstruction-2026-11-15/before/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-accepted-reconstruction-2026-11-15/before/system/pm-evidence-tabs-contract.md",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-accepted-reconstruction-2026-11-15/before/scripts/lib/pm-reference-index.mjs",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-accepted-reconstruction-2026-11-15/before/scripts/lib/dietary-lever-disclosure.mjs",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-accepted-reconstruction-2026-11-15/before/src/lib/dietaryLeverDisclosure.ts",
+    "status": "included"
+  },
+  {
+    "path": "review/neuroeshot-evidence-2026-11-15/report.md",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-association-pilot-2026-11-15/changed-files.json",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-association-pilot-2026-11-15/report.md",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-association-pilot-2026-11-15/test-results.txt",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-association-pilot-2026-11-15/legacy-tests.txt",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-association-pilot-2026-11-15/before/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-association-pilot-2026-11-15/before/system/dietary-input-traceability-contract.md",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-association-pilot-2026-11-15/before/system/pm-evidence-tabs-contract.md",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-association-pilot-2026-11-15/before/system/primary-mechanism-schema.md",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-association-pilot-2026-11-15/before/system/scientific-finding-schema.md",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-association-pilot-2026-11-15/before/system/templates/primary-mechanism-template.mdx",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-association-pilot-2026-11-15/before/scripts/pm8-evidence-tabs.test.mjs",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-association-pilot-2026-11-15/before/scripts/lib/dietary-lever-disclosure.mjs",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-association-pilot-2026-11-15/before/src/components/ScientificHypothesis.tsx",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-association-pilot-2026-11-15/before/src/components/ScientificFinding.tsx",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-association-pilot-2026-11-15/before/src/components/ReviewCorrections/DocUtilityBar.tsx",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-association-pilot-2026-11-15/before/src/components/EvidenceGaps/index.tsx",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-association-pilot-2026-11-15/before/src/components/EvidenceGaps/Audit.tsx",
+    "status": "included"
+  },
+  {
+    "path": "review/pm8-association-pilot-2026-11-15/before/src/lib/scientificFindingPresentation.mjs",
+    "status": "included"
+  },
+  {
+    "path": "review/circadian-caffeine-2026-11-16/implementation.mjs",
+    "status": "included"
+  },
+  {
+    "path": "review/circadian-caffeine-2026-11-16/mobile-spacing.png",
+    "status": "included"
+  },
+  {
+    "path": "review/circadian-caffeine-2026-11-16/tests.txt",
+    "status": "included"
+  },
+  {
+    "path": "review/circadian-caffeine-2026-11-16/report.md",
+    "status": "included"
+  },
+  {
+    "path": "review/circadian-caffeine-2026-11-16/identity-before-brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx",
+    "status": "included"
+  },
+  {
+    "path": "review/circadian-caffeine-2026-11-16/identity-before-substances.json",
+    "status": "included"
+  },
+  {
+    "path": "review/circadian-caffeine-2026-11-16/identity-before-substance-input-pages.json",
+    "status": "included"
+  },
+  {
+    "path": "review/circadian-caffeine-2026-11-16/before.mdx",
+    "status": "included"
+  },
+  {
+    "path": "review/circadian-caffeine-2026-11-16/identity-tests.txt",
+    "status": "included"
+  },
+  {
+    "path": "review/circadian-caffeine-2026-11-16/reader-wording-tests.txt",
+    "status": "included"
+  },
+  {
+    "path": "review/circadian-caffeine-2026-11-16/presentation-before/system/dietary-input-traceability-contract.md",
+    "status": "included"
+  },
+  {
+    "path": "review/circadian-caffeine-2026-11-16/presentation-before/system/primary-mechanism-schema.md",
+    "status": "included"
+  },
+  {
+    "path": "review/circadian-caffeine-2026-11-16/presentation-before/system/templates/primary-mechanism-template.mdx",
+    "status": "included"
+  },
+  {
+    "path": "scripts/pm8-association-pilot.test.mjs",
+    "status": "included"
+  },
+  {
+    "path": "scripts/pm8-accepted-reconstruction.test.mjs",
+    "status": "included"
+  },
+  {
+    "path": "scripts/circadian-caffeine-local.test.mjs",
+    "status": "included"
+  },
+  {
+    "path": "scripts/neuroeshot-evidence.test.mjs",
+    "status": "included"
+  },
+  {
+    "path": "outputs/neuroeshot-figure/render-exact.py",
+    "status": "included"
+  },
+  {
+    "path": "outputs/neuroeshot-figure/neuroeshot-exact-rows.svg",
+    "status": "included"
+  },
+  {
+    "path": "outputs/neuroeshot-figure/neuroeshot-exact-rows.json",
+    "status": "included"
+  },
+  {
+    "path": "outputs/neuroeshot-figure/neuroeshot-contributions.svg",
+    "status": "included"
+  },
+  {
+    "path": "outputs/neuroeshot-figure/neuroeshot-contributions.png",
+    "status": "included"
+  },
+  {
+    "path": "outputs/neuroeshot-figure/neuroeshot-exact-rows.png",
+    "status": "included"
+  },
+  {
+    "path": "src/lib/pmAssociationPilot.mjs",
+    "status": "included"
+  },
+  {
+    "path": "src/data/framework-qc-register.generated.json",
+    "status": "archived-generated; approved main QC projection retained"
+  }
+]

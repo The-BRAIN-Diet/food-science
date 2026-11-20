@@ -68,13 +68,13 @@ function supportingFindingLink(data, findingId) {
   if (!finding) return null;
   const label = String(finding.finding_label || "").trim();
   if (!label) return null;
-  return { id, label: isScientificPrinciple(data, id) ? scientificPrincipleLabel(finding, data) : findingReaderLabel(finding), href: findingEvidenceHref(data, id) };
+  return { id, label: isScientificPrinciple(data, id) ? scientificPrincipleLabel(finding, data) : findingReaderLabel(finding, data.sf_association_pilot ? data : undefined), href: findingEvidenceHref(data, id) };
 }
 
 function evidenceSourceReferences(data, evidenceSource, { directHref = false } = {}) {
   const referenceNumbers = evidenceSourceReferenceNumbers(data, evidenceSource);
   return referenceNumbers.map((number) => {
-    const reference = String((data?.references || [])[number - 1] || "");
+    const reference = String((data?.references || []).find((line, i) => Number(String(line).match(/^\[(\d+)\]\s/)?.[1] || i + 1) === number) || "");
     const match = reference.match(REF_LINE_RE);
     return {
       number,

@@ -1,0 +1,72 @@
+[
+  {
+    "file": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
+    "before": "2af4daef484c5633df08be1fb3e7f458420dc60ffe2f952c87be76b9e8221bae",
+    "after": "4661c0c5f429feabf931b1b024caa388fd69e1962a068a6e544b3dbce861a880"
+  },
+  {
+    "file": "scripts/lib/dietary-lever-disclosure.mjs",
+    "before": "33742557f8da69afcc2eee89807a3f3e0c5580a80d6e7a5bd2f7dcd443118330",
+    "after": "09e1ed2ec2063c8da05114b8f966d3a0a2ffd18fbecd0c959e42ceb12788bf66"
+  },
+  {
+    "file": "scripts/pm8-evidence-tabs.test.mjs",
+    "before": "9b8924140fcdba1937587004a2db44abb3ac3fe9782317fc90ab218722b112e0",
+    "after": "373bb9e05aaea09399394f8824d49a60111c0a0cf024a3648b99da2a843f0291"
+  },
+  {
+    "file": "src/components/EvidenceGaps/Audit.tsx",
+    "before": "e6491f7fb2d6abe085d020a3e1ac818569a9f4db9768e3e746088f1832a0ca00",
+    "after": "244834bcd4b490f55715fc3b5b7625403402fa6fe72cf5f2898d1514f1ac35c1"
+  },
+  {
+    "file": "src/components/EvidenceGaps/index.tsx",
+    "before": "d2d8d637ef649dd7256729f183c33028ed6928db64ff7330522d34ace75b684f",
+    "after": "05b36d8cd9d926017e24babd2460770c581ce95314c2d40c09257562b6e6671f"
+  },
+  {
+    "file": "src/components/ReviewCorrections/DocUtilityBar.tsx",
+    "before": "ff4211a040bf64e72b58e9b52e10f4866ce0841585d005edef57da9b2ffc3335",
+    "after": "a21b7628f6c586f82144673bf6e6330c1f1ded81f9ad9599fa2e7a9c65234474"
+  },
+  {
+    "file": "src/components/ScientificFinding.tsx",
+    "before": "c46aa8d230fea8fb711e1c83bd4eea5e9f860097762123c028f4e52dcee93cc9",
+    "after": "f95d0d959987ede400289a46a9d405d6aeca32fac7e61ae777e839196fdae18d"
+  },
+  {
+    "file": "src/components/ScientificHypothesis.tsx",
+    "before": "cc3f4ef651e2e5ca21ced1b11f374d4f4224c15fdffee93aad6a1831a364165b",
+    "after": "a652e144b968976577a66661f9ebcd66ad77a9a3e91e5ecce9b9bfd7b7e6a655"
+  },
+  {
+    "file": "src/lib/scientificFindingPresentation.mjs",
+    "before": "f682aa178250201993dfdb308f4cf7c33b596e17e1e11a18eb575e3a10234bc0",
+    "after": "bca15907ada34b70ae7f18118828bbd83f00d2ecc84f7845b5c60445aaaade2b"
+  },
+  {
+    "file": "system/dietary-input-traceability-contract.md",
+    "before": "d33fd8cbf53bc3438ec05980614b3100e0822ab2856c126dbb11b11cccd69f74",
+    "after": "9813b5ddbf1ab57bf9a5548d106931978da3c3332f67dc284383a145b3c7c447"
+  },
+  {
+    "file": "system/pm-evidence-tabs-contract.md",
+    "before": "aecf381f781abd190fe0ebee1e08a3f75e08ed9358efbe1c6abee908848ae7f6",
+    "after": "b32618076d3ffac05c86507e9a5b98d6f9da50a90747b2da035ce2975719dde0"
+  },
+  {
+    "file": "system/primary-mechanism-schema.md",
+    "before": "37a7a3e1d9c5f1ede03189cfc0ddde55e167b9c654d625cdde525caddd1c7f02",
+    "after": "478cc35d0d9b2a8fe58aaf9a169646b5d8de18f984d5c90583748a28ab89d4a8"
+  },
+  {
+    "file": "system/scientific-finding-schema.md",
+    "before": "9a99063e31df3b93f5318addaae9a67a9218fed548655a01a2c69999121f3f40",
+    "after": "7dd361a6b0514e05a5e0f954c0969a69fab029e772e4d0b972fb4d11bd0c6e0d"
+  },
+  {
+    "file": "system/templates/primary-mechanism-template.mdx",
+    "before": "16055199708fb74beb7ae6b6e33b60f4524552cb339e8155508d578a658678eb",
+    "after": "2e5982c978a2a9a8fcd9095538097aacd940fa1890a908b7457614ef5f06555d"
+  }
+]

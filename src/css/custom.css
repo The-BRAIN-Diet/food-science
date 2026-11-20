@@ -2279,3 +2279,21 @@ main:has(.input-substance-food-review) .row > .col:has(.input-substance-food-rev
 .brs-dietary-confidence-audit > summary { cursor: pointer; min-height: 44px; padding: 0.65rem 0; }
 .brs-dietary-confidence-audit > summary:focus-visible { outline: 2px solid var(--ifm-color-primary); outline-offset: 3px; }
 .brs-dietary-confidence-audit-body { min-width: 0; overflow-wrap: anywhere; }
+
+/* PM1 dietary-influence pilot: preserve mobile reading width through nested groups. */
+@media (max-width: 600px) {
+  .pm1-dietary-influences .brs-fm-hub-shell {
+    padding-inline: 0.35rem;
+  }
+  .pm1-dietary-influences .brs-fm-hub-panel {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: 0;
+  }
+  .pm1-dietary-influences .brs-fm-hub-summary {
+    min-height: 44px;
+  }
+  .pm1-dietary-influences .brs-fm-hub-panel ul {
+    padding-left: 1.15rem;
+  }
+}

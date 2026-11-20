@@ -1,3 +1,4 @@
+import {associationPilot} from '../../lib/pmAssociationPilot.mjs'
 import {Stage2ReviewProvider} from '../Stage2Review'
 import React, {type KeyboardEvent, type ReactNode, useEffect, useLayoutEffect, useMemo, useRef} from "react"
 import clsx from "clsx"
@@ -93,7 +94,8 @@ function DocUtilityBarContent({
   const hasSecReferences = isPmPage && secFindings.some(f => f && Object.hasOwn(f, "sec_assessment_ref"))
   const openIssueCount = currentPmOpenIssues(pmOpenIssueRecords.issues, pmId).length
   const showEvidenceGapsTab = isPmPage && fm.evidence_gaps_tab === true && evidenceGapItems(pmOpenIssueRecords.issues, pmId, fm.intervention_adjudications as any[], fm.evidence_gaps as any[]).length > 0
-  const showOpenIssuesTab = isPmPage && (fm.evidence_tabs_version === 1 || openIssueCount > 0)
+  const pilot = associationPilot(fm)
+  const showOpenIssuesTab = !pilot && isPmPage && (fm.evidence_tabs_version === 1 || openIssueCount > 0)
   const showReviewTab = onContentPage && (includeInternalDocs || isPmPage || auditPreview)
   const showBar = showContentTabs || showReviewTab
   const openCount = openPublicIssueCount(page)
@@ -426,7 +428,7 @@ function DocUtilityBarContent({
           <div className={clsx(styles.qcWrap, showContentTabs && styles.qcWrapSeparated)}>
             {showEvidenceGapsTab ? (
               <button type="button" id="evidence-gaps-tab" className={clsx(styles.tab, gapsOpen && styles.tabSelected)} role="tab" aria-selected={gapsOpen} aria-controls="evidence-gaps-panel" tabIndex={gapsOpen || !showContentTabs ? 0 : -1} onClick={() => setContentTab(gapsOpen ? "highlights" : "gaps")}>
-                Evidence Gaps
+                {pilot ? "Investigations" : "Evidence Gaps"}
               </button>
             ) : null}
             {showOpenIssuesTab ? (
