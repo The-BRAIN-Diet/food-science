@@ -1,0 +1,155 @@
+[
+  {
+    "id": "BRS1-PM1-SOP-DEFERRED-1",
+    "brs": "BRS1",
+    "short": "Beef matrix:|mince vs steak",
+    "name": "Minced rather than intact beef in the tested older-adult meal",
+    "context": "Ten older men received 135 g of intrinsically phenylalanine-labelled beef, as mince or intact steak, in a randomized crossover. Minced beef produced faster dietary phenylalanine appearance and greater six-hour dietary phenylalanine availability. Muscle protein synthesis did not differ detectably.",
+    "source": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation",
+    "citation": "BRS1 · PM1 evidence record"
+  },
+  {
+    "id": "BRS1-PM1-SOP-COOKED-EGG-1",
+    "brs": "BRS1",
+    "short": "Egg protein|adaptation",
+    "name": "Boiled rather than raw eggs in the tested postexercise meal",
+    "context": "In a 45-man post-resistance-exercise trial, five boiled whole eggs produced higher peak plasma essential amino acids than five raw whole eggs. Muscle protein synthesis did not differ significantly between the egg groups. Heat-induced protein denaturation was a proposed explanation and was not measured as a mediator.",
+    "source": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation",
+    "citation": "BRS1 · PM1 evidence record"
+  },
+  {
+    "id": "BRS1-PM12-LS-2",
+    "brs": "BRS1",
+    "short": "Sleep after learning",
+    "name": "Sleep after learning",
+    "context": "Sleep can support formation, selective retention, removal and resizing of connections after learning. Mouse sleep/REM manipulations and ultrastructure differ by age, region and endpoint. More spines is not always better; no universal human sleep duration is derived.",
+    "source": "/docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity",
+    "citation": "BRS1 · PM12 evidence record"
+  },
+  {
+    "id": "BRS2-PM1-SOP-FOLATE-STEAM-1",
+    "brs": "BRS2",
+    "short": "Steam spinach / broccoli",
+    "name": "Steam spinach or broccoli rather than boiling in the tested conditions",
+    "context": "Preserves dietary folate upstream of the admitted folate-to-5-MTHF substrate supply for methionine synthase; no measured remethylation response. Controlled food-composition experiment, not a feeding trial. Total folate is not a 5-MTHF quantity. No absorption, tissue flux or clinical outcome was measured; other foods and preparation objectives differ.",
+    "source": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation",
+    "citation": "BRS2 · PM1 evidence record"
+  },
+  {
+    "id": "BRS2-PM2-SOP-MALTED-OATS-1",
+    "brs": "BRS2",
+    "short": "Malted + soaked oats",
+    "name": "Tested malted and soaked oat porridge",
+    "context": "Higher fractional zinc absorption than matched untreated-oat porridge; upstream provision of admitted catalytic zinc, not measured BHMT activity. Pilot-plant malting and controlled soaking are not household overnight oats; acute absorption in ten adults does not establish tissue BHMT flux, long-term zinc status or clinical benefit.",
+    "source": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation",
+    "citation": "BRS2 · PM2 evidence record"
+  },
+  {
+    "id": "BRS3-PM7-SOP-FERMENTED-FOOD-1",
+    "brs": "BRS3",
+    "short": "High-fermented-food diet",
+    "name": "Ten-week high-fermented-food dietary pattern",
+    "context": "18 analysed per arm, generally healthy adults; four-week ramp to about six fermented-food servings/day and six-week maintenance; high-fibre active comparator, no usual-diet control. Two participants entered the high-fibre arm by request without randomisation. Serial immune profiling with multiple-testing corrections. 19/93 serum proteins decreased, including IL-6, IL-10 and IL-12b; microbiota diversity increased as a separate endpoint. The study team was unblinded. The serum protein findings were exploratory, the primary cytokine-response score was null, and microbiota mediation remains unresolved.",
+    "source": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation",
+    "citation": "BRS3 · PM7 evidence record"
+  },
+  {
+    "id": "BRS3-PM1-SOP-DEFERRED-1",
+    "brs": "BRS3",
+    "short": "Fibre + fruit meal",
+    "name": "Tested fibre/fruit-rich mixed meal versus the high-fat/high-carbohydrate comparison",
+    "context": "NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison. NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison. The mechanism of that difference was not isolated. Two groups of ten healthy lean adults ate one of two 910-kcal meals. The meals differed in several foods and macronutrients, and random allocation was not described. CRP and TNF-α did not change.",
+    "source": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation",
+    "citation": "BRS3 · PM1 evidence record"
+  },
+  {
+    "id": "BRS4-PM3-SOP-1",
+    "brs": "BRS4",
+    "short": "Pork loin / ham heating",
+    "name": "Limit unnecessary cumulative heat exposure when retaining creatine in pork products",
+    "context": "Controlled pork-loin and cooked-ham experiments found greater creatine-to-creatinine conversion with higher heat exposure, especially at the product surface. Evidence is limited to processed pork matrices and does not establish higher creatine intake or cerebral target engagement.",
+    "source": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer",
+    "citation": "BRS4 · PM3 evidence record"
+  },
+  {
+    "id": "BRS4-PM2-LP-1",
+    "brs": "BRS4",
+    "short": "Aerobic / resistance training",
+    "name": "Aerobic or resistance training",
+    "context": "Twelve weeks of aerobic or resistance training increased skeletal-muscle NAMPT protein, the enzyme that limits nicotinamide salvage, in young and older adults. The study measured NAMPT protein, not NAD⁺ concentration. Adipose NAMPT did not change after high-intensity interval training. Attention and cognitive energy were not measured.",
+    "source": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism",
+    "citation": "BRS4 · PM2 evidence record"
+  },
+  {
+    "id": "BRS5-PM1-SOP-1",
+    "brs": "BRS5",
+    "short": "Salad + fat dressing",
+    "name": "Include dietary fat with provitamin-A vegetables",
+    "context": "Include some dietary fat with provitamin-A vegetables to support carotenoid absorption. Dietary fat supports absorption of vegetable provitamin-A carotenoids upstream of the vitamin A–retinoid biology recorded for this PM. Measured carotenoid absorption, not vitamin A conversion, intestinal retinoic-acid delivery or improved tight-junction function. Applies to the tested vegetable meal; do not generalise to every fat-soluble compound, impose the study fat dose, or promise reduced permeability.",
+    "source": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity",
+    "citation": "BRS5 · PM1 evidence record"
+  },
+  {
+    "id": "BRS5-PM1-LP-1",
+    "brs": "BRS5",
+    "short": "Reduce alcohol",
+    "name": "Reduce alcohol exposure",
+    "context": "Reducing alcohol exposure can remove a barrier stressor; documented recovery concerns patients with alcohol dependence and elevated permeability. Reducing ethanol exposure removes a demonstrated epithelial barrier stressor; recovery during abstinence is documented in alcohol-dependent patients with elevated permeability. Recovery evidence concerns alcohol-dependent patients with elevated permeability, not every drinker. Abstinence was part of detoxification rather than a randomised isolated intervention. The acute trial delivered ethanol intraduodenally; ordinary drinking patterns and long-term symptoms were not tested.",
+    "source": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity",
+    "citation": "BRS5 · PM1 evidence record"
+  },
+  {
+    "id": "BRS5-PM2-SOP-DEFERRED-1",
+    "brs": "BRS5",
+    "short": "Fibre + fruit meal",
+    "name": "Tested fibre/fruit-rich mixed meal versus the high-fat/high-carbohydrate comparison",
+    "context": "The meal comparison measured different acute plasma endotoxin/LBP responses. In a small acute comparison of two 910-kcal meals in healthy lean adults, endotoxin and LPS-binding protein rose after the high-fat/high-carbohydrate meal and did not rise significantly after the fibre- and fruit-rich meal. The meals differed in multiple components, and these endpoints do not directly measure gut permeability.",
+    "source": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment",
+    "citation": "BRS5 · PM2 evidence record"
+  },
+  {
+    "id": "BRS6-PM1-SOP-2",
+    "brs": "BRS6",
+    "short": "Fish before rice",
+    "name": "Fish before rice in the studied meal sequence",
+    "context": "Fish first delayed gastric emptying, an upstream control of carbohydrate delivery. An acute meal result; no claim that protein alone accounts for the effect.",
+    "source": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics",
+    "citation": "BRS6 · PM1 evidence record"
+  },
+  {
+    "id": "BRS6-PM1-SOP-6",
+    "brs": "BRS6",
+    "short": "Cool + reheat|chickpea pasta",
+    "name": "Cooling and reheating the tested chickpea pasta",
+    "context": "Cooling and reheating increased measured resistant starch in this pasta, reducing the readily digestible fraction as a plausible entry-pathway change. Twelve healthy adults; 24 h at 4 °C and the tested reheating method. Glucose entry was not measured and digestible carbohydrate was not re-matched after processing.",
+    "source": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics",
+    "citation": "BRS6 · PM1 evidence record"
+  },
+  {
+    "id": "BRS6-PM2-SOP-3",
+    "brs": "BRS6",
+    "short": "Early eating,|early calories",
+    "name": "Early eating with front-loaded calories (six-day trial)",
+    "context": "10 adults with prediabetes and overweight/obesity. Six days of matched weight-maintenance food: 08:00-16:00, 80% of calories before 14:00, versus usual later distribution; randomised crossover without washout. In a small prediabetes crossover, the tested early, front-loaded eating schedule reduced mean amplitude of glycaemic excursions (MAGE) over six days versus later calorie distribution; mean glucose and several other variability/range measures were inconclusive. Small sample, no washout; timing, eating-window length and calorie distribution cannot be separated.",
+    "source": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation",
+    "citation": "BRS6 · PM2 evidence record"
+  },
+  {
+    "id": "BRS6-PM2-LIFE-2",
+    "brs": "BRS6",
+    "short": "Interval walking",
+    "name": "Supervised interval walking (two-week trial)",
+    "context": "14 adults with type 2 diabetes; 13 usable CGM records. Randomised crossover: ten supervised 60-minute sessions over two weeks, alternating three-minute slower/faster walking; continuous and inactive comparator periods, multiweek washout. Two weeks of the tested supervised interval-walking programme reduced mean amplitude of glycaemic excursions (MAGE) versus an inactive control period in a small type 2 diabetes crossover trial. Small unmasked trial, baseline imbalance and missing sensor record; oxidative-stress markers did not improve. No blanket superiority to all continuous exercise.",
+    "source": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation",
+    "citation": "BRS6 · PM2 evidence record"
+  },
+  {
+    "id": "BRS6-PM7-SOP-1",
+    "brs": "BRS6",
+    "short": "Breathing at|6 cycles/min",
+    "name": "Slow-paced breathing at six cycles per minute",
+    "context": "The tested breathing pace increased during-session RMSSD, a cardiac vagal-associated measure. Session HRV is respiration-dependent and does not show durable whole-body vagal improvement.",
+    "source": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation",
+    "citation": "BRS6 · PM7 evidence record"
+  }
+]

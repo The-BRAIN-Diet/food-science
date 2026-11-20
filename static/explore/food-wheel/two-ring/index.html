@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BRAIN Food Wheel · Two-ring view</title>
+<style>
+:root{color-scheme:light;--paper:#f6f5ef;--ink:#1b2823;--muted:#52665d;--line:#d7ddd4;--white:#fffdf8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 "Avenir Next",system-ui,sans-serif}
+main{max-width:1220px;margin:auto;padding:clamp(18px,4vw,48px)}
+header{display:flex;justify-content:space-between;align-items:end;gap:1rem;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:15px}
+h1{font-family:Georgia,serif;font-size:clamp(2rem,5vw,3.25rem);letter-spacing:-.04em;font-weight:normal;line-height:1.1;margin:3px 0 0}
+p{margin:.3rem 0}.muted{color:var(--muted)}a{color:#285a4b;text-underline-offset:3px}
+.controls{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:14px 0}
+button{border:1px solid #899b91;border-radius:5px;background:var(--white);color:var(--ink);padding:7px 11px;font:inherit;cursor:pointer}
+button:disabled{opacity:.55;cursor:default}
+button:focus-visible, .node:focus-visible{outline:2px solid #163d30;outline-offset:3px}
+.power-filter{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.power-filter input{width:clamp(110px,18vw,210px);accent-color:#285a4b}
+.power-filter output{min-width:3.4rem;text-align:right;font-variant-numeric:tabular-nums}
+.readout{background:var(--white);padding:10px 14px;border:1px solid var(--line);border-radius:6px;min-height:47px}
+.wheel-frame{overflow:auto;background:var(--white);border:1px solid var(--line);border-radius:8px;margin-top:10px}
+svg{width:100%;height:auto;min-width:730px;display:block}
+.node{cursor:pointer;outline:none}
+.node text{fill:var(--ink);font-size:10.4px;font-weight:600;paint-order:stroke;stroke:var(--white);stroke-width:1.6px;stroke-linejoin:round}
+.substance text{font-size:10.5px;font-weight:700}
+.node.is-muted{opacity:.21}
+.node.is-active text{font-weight:800}
+.chord{fill:none;pointer-events:none;stroke-width:1.1;stroke-opacity:.21}
+.chord.is-filtered{display:none}
+.chord.is-muted{stroke-opacity:.028}
+.chord.is-active{stroke-width:2;stroke-opacity:.7}
+.intervention-anchor text{font-size:11px;font-weight:400;paint-order:stroke;stroke:var(--white);stroke-width:4px;stroke-linejoin:round}
+.wheel-legend text{fill:var(--ink);font-size:18px;font-weight:600;text-anchor:middle}
+.intervention-midpoint path{fill:none;stroke-width:5;stroke-linecap:round}
+.midpoint-tags{fill:#111;font-size:13px;font-weight:500;paint-order:stroke;stroke:var(--white);stroke-width:3px;stroke-linejoin:round}
+.intervention-chord{fill:none;stroke-width:1.5;stroke-opacity:.42}
+.intervention-leader{stroke-width:1.5}
+.intervention-chord.has-leader{stroke-opacity:.65}
+.intervention-chord.is-active{stroke-width:2.4;stroke-opacity:.95}
+.intervention-chord.is-muted{stroke-opacity:.07}
+.chord[data-brs="BRS5"]{stroke-width:2}
+.chord[data-brs="BRS5"].is-active{stroke-width:3.2}
+.intervention-chord[data-brs="BRS5"]{stroke-width:2.8}
+.intervention-chord[data-brs="BRS5"].is-active{stroke-width:3.6}
+.system text{stroke:none;font-size:14px;font-weight:800}
+.system .system-name{font-size:13.5px;font-weight:650}
+.system.is-active path{fill-opacity:.4;stroke-width:2.5}
+.system:focus-visible{outline:none}
+.system:focus-visible path{stroke:var(--ink);stroke-width:2.5}
+.intervention text{font-size:15px}
+.intervention-list{margin-top:10px}
+.intervention-list summary{cursor:pointer;font-weight:650}
+.intervention-list ul{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:8px 0}
+.intervention-list button[aria-pressed="true"]{border-color:#285a4b;background:#e3f0e9}
+footer{margin-top:10px;font-size:13px}
+</style>
+</head>
+<body>
+<main>
+  <header><div><p class="muted">BRAIN Food Wheel</p><h1>Foods, substances and BRSs</h1></div><a href="../">Original Food Wheel</a></header>
+  <p>Substances face inward. Foods face outward. Select a label to trace its connections.</p>
+  <div class="controls">
+    <div class="power-filter">
+      <label for="minimum-power">Minimum source power</label>
+      <input id="minimum-power" type="range" min="0" max="100" value="0" step="1">
+      <output id="power-value" for="minimum-power">0%</output>
+    </div>
+    <label><input id="show-documented" type="checkbox" checked> Show documented unranked links</label>
+    <button id="select-all" type="button">Select all</button>
+    <button id="clear" type="button" disabled>Clear selection</button>
+  </div>
+  <div class="readout" id="readout" aria-live="polite">Loading food connections…</div>
+  <details class="intervention-list"><summary>BRS6 intervention shortlist</summary><ul id="brs6-intervention-list"></ul></details>
+  <div class="wheel-frame"><svg id="wheel" viewBox="-680 -680 1360 1360" role="group" aria-label="Two-ring food and substance wheel around six biological regulatory systems"></svg></div>
+  <footer class="muted">The outer arcs reserve space for interventions in each BRS. Unscored intervention lines converge at their BRS point on the midpoint circle. Select an intervention to read its study context. Chords match the color of the food’s sector. Select a food or substance to see which BRSs its links support. Chords show measured, presence-only or precursor links. Select a node to see how its links are documented. A precursor link means the food supplies material that can be converted into the substance. The power filter applies only to scored links. This preview includes the current canonical reconciliation. Hollow markers identify substances without a food link in this snapshot. Foods are placed using their strongest or secondary documented links to spread the labels around the ring. BRS6 houses foods whose displayed links are specific to that sector. Relative source power compares foods within a substance.</footer>
+</main>
+<script type="module" src="./wheel.mjs"></script>
+</body>
+</html>
